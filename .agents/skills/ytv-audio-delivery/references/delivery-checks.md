@@ -36,6 +36,6 @@
 
 ## SRT и выдача
 
-Применимость и отдельный SRT ведёт [ytv-srt](../../ytv-srt/SKILL.md) с профилем канала; для Paper читать [профиль Paper](../../ytv-srt/references/paper-detour.md). Его решение NOT_REQUESTED с основанием не считать незакрытой обязательной выдачей. Stories RU с полноэкранной рекламой: конкретный состав SRT задаёт канальный captions workflow.
+Применимость и отдельный SRT ведёт [ytv-srt](../../ytv-srt/SKILL.md) с профилем канала; для Paper читать [профиль Paper](../../ytv-srt/references/paper-detour.md). Для новых выпусков со звучащей речью отдельный SRT на языке фактического звука обязателен; отсутствие применимой речи фиксировать с обоснованием. Stories RU с полноэкранной рекламой: конкретный состав SRT задаёт канальный captions workflow.
 
 Финальные MP4/SRT — в `Deliverables/` по принятому контракту выпуска: у Stories и Nuviko History обычно `archive/legacy_stories/videos/.../Deliverables/`, у Paper встречаются как `channels/paper_detour/videos/.../Deliverables/`, так и связанные каталоги `archive/legacy_stories/videos/`. Не мигрировать медиа ради единой структуры. Проверить целостность после переноса временного экспорта, дать пользователю абсолютный итоговый путь. Назначения локальных выдач и план прежних версий ведёт [media lifecycle](../../ytv-media-lifecycle/SKILL.md) в границах root §9; параметры экспорта не заменяют проверку зависимостей.

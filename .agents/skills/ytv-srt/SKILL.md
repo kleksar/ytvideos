@@ -5,13 +5,13 @@ description: Create, revise or validate separate SRT subtitle files against the 
 
 # SRT subtitle sidecars
 
-Use current project instructions and the target channel profile. For Paper Detour read the [Paper profile](references/paper-detour.md). Another channel supplies its own language, subtitle policy, transcript scope and readability preferences; the core does not impose Paper typography, a language or subtitles on every Short.
+Use current project instructions and the target channel profile. For Paper Detour read the [Paper profile](references/paper-detour.md). Another channel supplies its own language, subtitle policy, transcript scope and readability preferences; the core does not impose Paper typography or a particular language. A separate source-language track is required for each applicable new long video and Short destined for YouTube.
 
 ## Scope before creation
 
-Determine whether a sidecar is required by the request/profile (`REQUIRED`) or not part of the agreed package (`NOT_REQUESTED`, with reason). Missing required inputs are `BLOCKED` readiness, not proof a subtitle is unnecessary. An explicitly requested source-time draft may still be prepared and labeled as such. Keep separate SRT, burned-in subtitles and description chapters distinct. Creating a skill or subtitle file does not authorize burn-in, new audio/ASR service uploads or external subtitle publication.
+For each applicable new YouTube release with speech, prepare a separate sidecar (`REQUIRED`) in the language actually spoken in the accepted final audio, including Shorts and videos with burned-in captions. Mark `N_A` with evidence and reason only where there is no applicable spoken audio; a narrow task that does not include a release does not itself authorize external changes. Missing required inputs are `BLOCKED` readiness, not proof a subtitle is unnecessary. An explicitly requested source-time draft may still be prepared and labeled as such. Keep separate SRT, burned-in subtitles and description chapters distinct. Creating a skill or subtitle file does not authorize burn-in, new audio/ASR service uploads or external subtitle publication.
 
-Read the exact current transcript, audio identity/duration, alignment/timed words and their source identity, selected edit version and final-media identity. Reuse a valid existing subtitle. A filename, script estimate or old SRT from the same episode does not establish current synchronization. When there are multiple voices, translated text or non-speech cues, follow the agreed scope; do not present narration-only subtitles as a complete accessibility transcript.
+Read the exact current transcript, audio identity/duration, alignment/timed words and their source identity, selected edit version and final-media identity. Reuse a valid existing subtitle. A filename, script estimate or old SRT from the same episode does not establish current synchronization. Cover the retained narration in the agreed scope; use the accepted audio, not an earlier script, as the source of truth. Do not automatically create translations. When there are multiple voices or non-speech cues, follow the agreed scope; do not present narration-only subtitles as a complete accessibility transcript.
 
 ## Prepare text and real timing
 
@@ -43,7 +43,7 @@ Follow the channel's export-review policy: Paper/Nuviko perform preparation and 
 
 Run [srt_tool.py](scripts/srt_tool.py) by the [helper contract](references/helper-contract.md). It renders UTF-8 SRT from prepared cues or validates an existing SRT, checks every block, full literal text coverage (whitespace/NFC normalization only), ordering, overlap and measured duration bounds. Configurable readability limits produce diagnostics without rewriting the text. Fix the cause and repeat the affected checks; do not trim spoken content to pass a threshold.
 
-Check actual player rendering and play the final media with this exact subtitle on 1×: first/last words, cue starts/ends, pauses, fast sections, all edit/speed changes and line breaks. Cover the whole subtitle track before claiming full playback QA. Machine validation cannot hear speech, establish naturalness, verify translation or prove conform. Self-review is not independent review.
+Check actual rendering and playback against the accepted audio and edit at 1×: first/last words, cue starts/ends, pauses, fast sections, all edit/speed changes and line breaks. Cover the whole track before claiming full playback QA. For Paper/Nuviko perform applicable checks before full render; hand over the MP4 immediately, and only inspect exported media when separately requested. Record unavailable playback as UNVERIFIED. Machine validation cannot hear speech, establish naturalness, verify translation or prove conform. Self-review is not independent review.
 
 ## Deliver or resume
 
