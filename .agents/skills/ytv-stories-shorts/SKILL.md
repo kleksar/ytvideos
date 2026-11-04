@@ -1,22 +1,12 @@
 ---
 name: ytv-stories-shorts
-description: Produce or repair RU/EN Stories episodes using the prepared footage library, channel-specific adaptation, stable centered captions, 1.10x voice timing, and the required RU VPN insert.
+description: Consult only for explicit maintenance of the archived Stories RU/EN collection; never apply it to the new colleague-owned Russian «Нувико» channel.
 ---
 
-# Короткие личные истории Stories
+# Archived Stories RU/EN
 
-Обязательный вход: до процедуры прочитать [CHANNEL_BOOTSTRAP](../../../.agent/CHANNEL_BOOTSTRAP.md) и указанные там root/реестр/локальное состояние/правила канала. Для общепроектной задачи не выдумывать выпуск.
+This skill is for the legacy Stories RU/EN collection only. The new Russian «Нувико» channel is a separate project and has not been mapped to this archive; do not reuse its advertising, footage, voices, workflow or caption policy for the colleague's channel.
 
-Входы: исходная история, язык, конкретный канал и стадия, утверждённый текст, существующая озвучка и реальные тайминги. Прочитать [правила канала](../../../channels/nuviko_stories/AGENTS.md), [WORKFLOW](../../../channels/nuviko_stories/docs/story-shorts-v1/WORKFLOW.md). При титрах обязательно [CAPTIONS](../../../channels/nuviko_stories/docs/story-shorts-v1/CAPTIONS.md); при русской рекламе — [VPN_ADVERTISING](../../../channels/nuviko_stories/docs/story-shorts-v1/VPN_ADVERTISING.md).
+Before any legacy work, read the current root instructions and [archived channel note](../../../channels/nuviko_stories/AGENTS.md). The old workflow and its private episode/media references are provided separately only when a task explicitly targets that collection. They are not part of the source-only repository.
 
-При разработке или переписывании текста применять [универсальный навык текста Shorts](../ytv-shorts-story/SKILL.md) и [универсальный навык перехода Shorts](../ytv-shorts-loop/SKILL.md); зафиксировать решение о петле и его причину.
-
-Подача всех языковых версий следует [root AGENTS §11](../../../AGENTS.md#11-подача-всех-сюжетов); исследовательские источники и проверки остаются в рабочих материалах.
-
-1. Творческий этап выполнять через `$ytv-chatgpt-extra-high`: исходник/права → адаптация → текст → постановка → оценка отдельными запросами. Не называть личный рассказ независимо подтверждённым. Имена последовательно адаптировать к RU/EN, соответствие сохранить в материалах.
-2. Использовать подготовленную библиотеку `channels/nuviko_stories/footages/` и импортированные нарезки; сначала просмотреть конкретные фрагменты и выстроить разнообразный осмысленный ряд. Не заменять библиотеку случайными стоками без прямого указания. Происхождение/права не объявлять подтверждёнными.
-3. На Stories озвучке применять 1,10× ровно один раз и синхронизировать кадры/титры/SRT с фактическим аудио. Голоса и разрешение проверять по канальным правилам; выбор голоса не разрешает новую генерацию.
-4. Титры строить по утверждённым словам и реальным речевым границам. Новая строка максимум три слова, если пользователь не задал иное. Центрировать строку по X геометрически; при выделении/пульсации активного слова позиции остальных слов фиксированы. Проверять фактический композит, смены строк, активные слова, лица, важные объекты и интерфейс.
-5. В каждом новом RU Short-рассказе использовать сохранённую VPN-рекламу по образцу 013; EN и History это правило не наследуют. Над полноэкранной рекламой убрать экранные титры рассказа и соответствующие реплики загружаемой SRT, сохранив полную смысловую карту. Проверить переходы на вспышки/скачки и отсутствие наложений.
-
-Выход — артефакт текущей стадии с реальными проверками. Применять актуальный стандарт Stories. Монтаж/доставка/YouTube передаются соответствующим skills и требуют своего фактического задания.
+For general story writing and possible Shorts loops use the current shared [story](../ytv-shorts-story/SKILL.md) and [loop](../ytv-shorts-loop/SKILL.md) procedures, then follow the confirmed target channel's own profile.

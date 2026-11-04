@@ -1,6 +1,6 @@
 # Shared video delivery profile
 
-Common delivery settings for Paper Detour and Nuviko, updated by the user's direct instruction of 2026-11-03: **2K for every new review/upload export, 30 FPS**. In this project 2K means a 1440-pixel short edge, with exact orientation dimensions below. Audio uses the shared audio owner's delivery contract and the channel's voice setting. Earlier export experiments are historical evidence, not current size defaults: [original source audit](../../../../channels/paper_detour/research/2026-11-02-export-settings/REPORT.md).
+Common delivery settings for Paper Detour and Nuviko, updated by the user's direct instruction of 2026-11-03: **2K for every new review/upload export, 30 FPS**. In this project 2K means a 1440-pixel short edge, with exact orientation dimensions below. Audio uses the shared audio owner's delivery contract and the channel's voice setting. Earlier export experiments are historical evidence, not current size defaults: original source audit (`../../../../channels/paper_detour/research/2026-11-02-export-settings/REPORT.md` is in a separate episode/media bundle, not this source-only clone).
 
 ## Canvas and required delivery properties
 

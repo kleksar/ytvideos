@@ -19,7 +19,7 @@ description: Manage episode media, remove rejected renders promptly, clean owned
 | Конфиги/receipts/provenance | Edit/ | Компактные текстовые записи сохраняются |
 | Принятый комплект | Deliverables/ + current.json | Один актуальный комплект до TEXT_ONLY |
 
-Новый выпуск создаёт [init_episode.py](../../../channels/paper_detour/automation/init_episode.py); для существующего `workspace init` создаёт отсутствующий layout. Уже импортированные пути сохраняются в рабочем режиме. Разные языки/форматы имеют отдельные current entries.
+Канальный initializer передаётся с соответствующим рабочим bundle; этот source-only clone не содержит initializer, создающий полный episode layout. Для уже полученного выпуска `workspace init` создаёт отсутствующий media layout. Уже импортированные пути сохраняются в рабочем режиме. Разные языки/форматы имеют отдельные current entries.
 
 ## Обычная очистка
 

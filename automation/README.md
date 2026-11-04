@@ -4,10 +4,10 @@
 
 - [ElevenLabs](elevenlabs/README.md) — TTS по канальному реестру; перед платным запросом действуют полномочия audio owner.
 - [YouTube](youtube/README.md) — OAuth, чтение состояния и порученные изменения через release/upload.
-- [FFmpeg montage](ffmpeg_montage/README.md) — текущая сборка Paper Detour и Nuviko History.
+- [FFmpeg montage](ffmpeg_montage/README.md) — сборка по проверяемому плану и профилю доставки.
 - [Пословные тайминги](captions/README.md) и [субтитры](subtitles/README.md) — подготовка текста и alignment с канальным оформлением.
-- [Palmier](palmier/README.md) — сохранённые инструменты старых проектов; текущий Paper/Nuviko production использует FFmpeg.
+- [Image motion](image_motion/pyproject.toml) — переносимая сборка движения сцен на зафиксированных Python-зависимостях.
 
-Исторический журнал личных Stories, `pipeline.py`, `voice_run.py`, `runs/` и [RUNBOOK](../channels/nuviko_stories/automation/RUNBOOK.md) находятся в `channels/nuviko_stories/automation/`. Запускать их из корня проекта полным каноническим путём. Общий CLI TTS — `python3 automation/elevenlabs/tts.py --help`; справка сама не выполняет синтез. Журнал фиксирует фактический результат, но не доказывает качество медиа или текущее состояние внешнего сервиса.
+Legacy Stories RU/EN automation, Palmier project helpers и их media receipts не входят в source-only checkout. Для старых выпусков нужны отдельные episode bundles и согласованное media storage. Общий CLI TTS: `python3 automation/elevenlabs/tts.py --help`; справка сама не выполняет синтез.
 
 Схема каталогов — [CHANNEL_LAYOUT](../.agent/CHANNEL_LAYOUT.md).

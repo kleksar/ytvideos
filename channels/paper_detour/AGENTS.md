@@ -1,6 +1,6 @@
 # Paper Detour — профиль канала
 
-Вход: [root](../../AGENTS.md), [bootstrap](../../.agent/CHANNEL_BOOTSTRAP.md), актуальная запись [реестра](../../.agent/episode-registry.md) и контекст выпуска. Paper Detour и прежнее имя Rarovista обозначают один канал.
+Вход: [root](../../AGENTS.md), [bootstrap](../../.agent/CHANNEL_BOOTSTRAP.md), точный episode bundle и актуальный контекст выпуска (передаются отдельно). Paper Detour и прежнее имя Rarovista обозначают один канал.
 
 ## Производство
 
@@ -15,9 +15,9 @@
 ## Изображение и текст
 
 - Одна исходная сцена — законченная полноформатная статичная бумажная диорама; композиции сменяются прямыми склейками. [Scene profile](../../.agents/skills/ytv-scene-images/references/paper-detour.md) владеет материалом, качеством и реальными эталонами.
-- [Paper storyboard](../../.agents/skills/ytv-paper-storyboard/SKILL.md) задаёт композиционные решения; производство/проверка PNG выполняются общим scene-images. [Медиакаталог](../../.agent/ASSET_LIBRARY.md) задаёт пути новых общих импортов; импортированные зависимости сохраняют свои пути.
-- [Paper subtitles](../../.agents/skills/ytv-paper-subtitles/SKILL.md) задаёт оформление дословной строки..
-- [Фильм 030 v14](brand/FILM_REFERENCE_030.md) — принятый эталон законченной подачи и интеграции реальных изображений в бумажный мир.
+- [Paper storyboard](../../.agents/skills/ytv-paper-storyboard/SKILL.md) задаёт композиционные решения; производство/проверка PNG выполняются общим scene-images. Согласованный media manifest задаёт пути общих импортов; его передают вместе с нужными медиа. Импортированные зависимости сохраняют свои пути.
+- [Paper subtitles](../../.agents/skills/ytv-paper-subtitles/SKILL.md) задаёт оформление дословной строки.
+- Принятый эталон отдельного выпуска и его локальные изображения передаются вместе с соответствующим episode bundle; в source-only клоне выпускные reference packs отсутствуют.
 - Разрешённые движения цельной картинки и их сочетания выполняет общий [image-motion](../../.agents/skills/ytv-image-motion/SKILL.md). Субтитры сохраняют собственный слой и геометрию.
 
 ## Настройки и выпуск

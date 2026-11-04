@@ -33,7 +33,6 @@
 | Финальная проверка видео/звука и адресный аудит | [ytv-video-qa](../.agents/skills/ytv-video-qa/SKILL.md) | Точный файл/edit/cues/motion → фактические проверки, покрытие, дефекты и перепроверка; [профиль Paper](../.agents/skills/ytv-video-qa/references/paper-detour.md) |
 | Межканальный динамический календарь, выпуск и посты; исполнение плана подборок | [ytv-youtube-release](../.agents/skills/ytv-youtube-release/SKILL.md) | Отдельный календарь по channel ID, канальная политика/готовые материалы/поручение → план и проверенный внешний результат; [общая процедура](../.agents/skills/ytv-youtube-release/references/dynamic-scheduling.md) |
 | Разработка исторического сюжета для нужного канала | [ytv-history-story](../.agents/skills/ytv-history-story/SKILL.md) | Источники и фактические ограничения → общий процесс сюжета → полный текст для пользовательского решения; канал выбирается по реестру |
-| RU/EN личные истории, титры и VPN | [ytv-stories-shorts](../.agents/skills/ytv-stories-shorts/SKILL.md) | Текст/речь/библиотека → конкретный артефакт Stories |
 
 Для создания/продолжения видео Paper и Nuviko использовать ytv-video-production. Профиль канала задаёт внешний вид и настройки, общий flow — последовательность и точки контроля. Готовый пользовательский текст сразу поступает в озвучку по root §5. Явная узкая задача сохраняет свою границу.
 

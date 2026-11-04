@@ -1,6 +1,6 @@
 # ElevenLabs source format
 
-Read for voice acquisition/format selection, separately from the final mix contract. Evidence checked 2026-11-02: [research receipt](../../../../channels/paper_detour/research/2026-11-02-export-settings/followup_fhd_stereo/REPORT.md).
+Read for voice acquisition/format selection, separately from the final mix contract. Evidence checked 2026-11-02: research receipt (`../../../../channels/paper_detour/research/2026-11-02-export-settings/followup_fhd_stereo/REPORT.md` is in a separate episode/media bundle, not this source-only clone).
 
 ## Current project route
 
