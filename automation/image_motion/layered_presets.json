@@ -1,0 +1,13 @@
+{
+  "opposed-v06": {
+    "reference_width": 1672,
+    "foreground_travel_px": 12.0,
+    "camera_scale": 1.1,
+    "camera_travel_width_fraction": 0.045,
+    "trajectory": "linear",
+    "directions": ["parallax-right-camera-left", "parallax-left-camera-right"],
+    "fps": 30,
+    "reference_output": [1920, 1080],
+    "grain": "none"
+  }
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "SRT subtitles"
+  short_description: "Create and verify timed subtitle sidecar files"
+  default_prompt: "Use $ytv-srt to prepare and verify subtitle sidecars against the current narration, edit and channel profile."

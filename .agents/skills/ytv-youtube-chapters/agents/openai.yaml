@@ -1,0 +1,4 @@
+interface:
+  display_name: "YouTube chapters"
+  short_description: "Create and verify chapters against the final video"
+  default_prompt: "Use $ytv-youtube-chapters to verify chapter timestamps for this video."

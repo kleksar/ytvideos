@@ -1,0 +1,4 @@
+interface:
+  display_name: "Video export"
+  short_description: "Prepare render settings and a versioned export contract"
+  default_prompt: "Use $ytv-video-export to prepare the current video's pre-render contract and map it to the actual editor capabilities."

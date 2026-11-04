@@ -103,3 +103,18 @@ Desktop.ini
 **/*oauth*.json
 **/*token*.json
 **/chat/
+
+# Local relocation backups and migration scratch
+/Work/channel_layout_20261104/
+
+# Temporary compatibility symlinks; use canonical channels/ and project paths instead.
+/new_channel
+/stories
+/borisenko
+/automation/RUNBOOK.md
+/automation/pipeline.py
+/automation/voice_run.py
+/automation/test_pipeline.py
+/automation/test_voice_run.py
+/automation/settings.example.json
+/automation/runs

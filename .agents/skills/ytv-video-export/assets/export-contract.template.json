@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "status": "DRAFT",
+  "episode": null,
+  "language": null,
+  "format": null,
+  "purpose": null,
+  "settings_profile": {"path": null, "sha256": null},
+  "edit": {
+    "project_id": null,
+    "timeline_id": null,
+    "saved_revision_evidence": null,
+    "timeline_read_path": null,
+    "timeline_read_sha256": null,
+    "dependencies": []
+  },
+  "timeline": {
+    "width": null,
+    "height": null,
+    "aspect_ratio": null,
+    "sample_aspect_ratio": null,
+    "fps": null,
+    "frame_count": null,
+    "duration_seconds": null,
+    "output_color_space": null
+  },
+  "required_delivery": {
+    "container": null,
+    "video": {
+      "codec_name": null,
+      "pix_fmt": null,
+      "scan": null,
+      "cadence": null,
+      "color_primaries": null,
+      "color_transfer": null,
+      "color_space": null,
+      "color_range": null
+    },
+    "audio_contract": {
+      "owner_handoff": null,
+      "accepted_complete_mix": null,
+      "source_rate_channels": null,
+      "codec_name": null,
+      "profile": null,
+      "sample_rate": null,
+      "channels": null,
+      "target_bit_rate": null
+    }
+  },
+  "encoding": {
+    "engine": null,
+    "version_evidence": null,
+    "requested_arguments": {},
+    "quality_preferences": {},
+    "capability_evidence": null,
+    "engine_managed_fields": []
+  },
+  "preflight": {
+    "author": null,
+    "time": null,
+    "authorization_references": [],
+    "fresh_settings_evidence": null,
+    "writer_and_export_state": null,
+    "output_path": null,
+    "overwrite": false,
+    "media_lifecycle_receipt": null,
+    "unresolved_required_fields": []
+  },
+  "render_receipt": null,
+  "qa_receipt": null
+}
