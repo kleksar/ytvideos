@@ -91,7 +91,7 @@ def walk_files(base, skipped, errors, packages=None):
 def load_policy(path, episode):
     if path is None:
         return {'version': VERSION, 'candidates': [], 'pins': [], 'current': [],
-                'active_work': [], 'palmier_projects': []}
+                'active_work': []}
     no_symlinks(path)
     data = json.loads(path.read_text())
     if data.get('version') != VERSION:
@@ -147,17 +147,7 @@ def canonical_reference(value, base):
     return str((p if p.is_absolute() else base / p).resolve())
 
 
-def discover_live(root):
-    adapter = root / 'automation/palmier/inspect_connection.py'
-    spec = importlib.util.spec_from_file_location('ytv_readonly_palmier', adapter)
-    module = importlib.util.module_from_spec(spec)
-    spec.loader.exec_module(module)
-    connection = module.PalmierConnection()
-    connection.connect()
-    return connection.read_tool('manage_project', {'action': 'list'})['projects']
-
-
-def audit(root, episode, policy_path, extra_projects, live=False):
+def audit(root, episode, policy_path, extra_projects=()):
     policy = load_policy(policy_path, episode)
     skipped, errors, inputs = [], [], {}
     packages = set()
@@ -175,22 +165,15 @@ def audit(root, episode, policy_path, extra_projects, live=False):
     # candidates. Avoid traversing the workspace when there is nothing to
     # compare; in particular, unrelated oversized research logs must not block
     # exact managed QA-frame finalization, which has its own consumer checks.
-    documents = list(walk_files(root, skipped, errors, packages)) if candidate_paths else []
-    live_status = 'NOT_REQUESTED'
-    inaccessible = []
-    if live:
-        try:
-            for project in discover_live(root):
-                if project.get('isAccessible'):
-                    packages.add(Path(project['path']))
-                else:
-                    inaccessible.append(project.get('path', project.get('name')))
-            live_status = 'DISCOVERY_READ'
-        except Exception as exc:
-            live_status = 'UNAVAILABLE'
-            errors.append(f'Live Palmier discovery: {exc}')
+    if candidate_paths:
+        documents = list(walk_files(root, skipped, errors, packages))
+    else:
+        # Package metadata protects imported files even when the policy has no
+        # candidates; consume paths without retaining the whole workspace list.
+        for _ in walk_files(root, skipped, errors, packages):
+            pass
+        documents = []
     packages.update(Path(p).expanduser().absolute() for p in extra_projects)
-    packages.update(Path(p).expanduser().absolute() for p in policy.get('palmier_projects', []))
     aliases = []
     # A legacy alias is not an additional package if its real path is already
     # independently discovered. Never traverse an otherwise unlisted symlink.
@@ -299,7 +282,7 @@ def audit(root, episode, policy_path, extra_projects, live=False):
         if Path(rel).parts[0] in {'Source', 'Assets', 'Storyboard', 'Research', 'Packaging'}:
             protections.append('PERMANENT_SOURCE_OR_EVIDENCE')
         if refs[rel]:
-            protections.append('PALMIER_IMPORT_OR_SNAPSHOT_REFERENCE')
+            protections.append('LEGACY_PACKAGE_IMPORT_OR_SNAPSHOT_REFERENCE')
         for group, code in [('pins', 'PINNED'), ('current', 'CURRENT'), ('active_work', 'ACTIVE_WORK')]:
             for pin in policy.get(group, []):
                 if beneath(rel, pin['path']):
@@ -352,7 +335,6 @@ def audit(root, episode, policy_path, extra_projects, live=False):
             'files': rows, 'totals': dict(totals), 'by_classification': dict(by_status),
             'available_volume_bytes': os.statvfs(episode).f_bavail * os.statvfs(episode).f_frsize,
             'physical_reclaimable_bytes': None, 'packages': package_details,
-            'live_discovery': live_status, 'inaccessible_discovery_paths': inaccessible,
             'covered_package_aliases': aliases,
             'unresolved_imports': unresolved, 'missing_declared_candidates': missing_candidates,
             'skipped_symlinks': sorted(set(skipped)), 'errors': errors, 'inputs': inputs,
@@ -417,7 +399,7 @@ def plan(audit_path):
 def write_report(data, output):
     no_symlinks(output)
     if any(p.suffix == '.palmier' for p in (output, *output.parents)):
-        raise ValueError('Reports cannot be written inside .palmier')
+        raise ValueError('Reports cannot be written inside a retained native project package')
     episode = Path(data['episode'])
     if output.is_relative_to(episode):
         rel = output.relative_to(episode)
@@ -459,8 +441,6 @@ def main(argv=None):
     a.add_argument('--root', type=Path, required=True)
     a.add_argument('--episode', type=Path, required=True)
     a.add_argument('--policy', type=Path)
-    a.add_argument('--palmier-project', action='append', default=[])
-    a.add_argument('--live-palmier', action='store_true')
     a.add_argument('--output-dir', type=Path, required=True)
     p = sub.add_parser('plan', help='Recheck a saved audit and write a non-executable plan')
     p.add_argument('--audit', type=Path, required=True)
@@ -477,7 +457,7 @@ def main(argv=None):
             if not episode.is_dir() or not episode.is_relative_to(root) or episode == root:
                 raise ValueError('Episode must be a directory strictly inside the explicit project root')
             policy_path = opts.policy.expanduser().absolute() if opts.policy else None
-            data = audit(root, episode, policy_path, opts.palmier_project, opts.live_palmier)
+            data = audit(root, episode, policy_path)
         else:
             data = plan(opts.audit.expanduser().absolute())
         write_report(data, output)

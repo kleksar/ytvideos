@@ -13,7 +13,7 @@ import shutil
 import sys
 import uuid
 
-# Same owner as the bounded read-only audit; no Palmier mutation APIs.
+# Same owner as the bounded read-only audit; no live-editor APIs.
 import media_lifecycle as inventory
 
 LAYOUT = ('Source', 'Assets/Generated', 'Work', 'Edit/MediaLifecycle', 'Deliverables')
@@ -169,10 +169,10 @@ def journal(episode, event):
         f.flush(); os.fsync(f.fileno())
 
 
-def fresh_audit(episode, root, policy=None, live=True):
+def fresh_audit(episode, root, policy=None):
     if not episode.is_relative_to(root) or episode == root:
         raise ValueError('Episode must be strictly inside root')
-    result = inventory.audit(root, episode, policy, [], live=live)
+    result = inventory.audit(root, episode, policy)
     if result['errors']:
         raise ValueError('Dependency scan failed: ' + '; '.join(result['errors']))
     return result

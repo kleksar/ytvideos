@@ -5,8 +5,8 @@ import re, sys
 ROOT=Path(__file__).resolve().parents[2]
 files=[ROOT/'AGENTS.md',ROOT/'channels/paper_detour/AGENTS.md',ROOT/'channels/nuviko_history/AGENTS.md',ROOT/'channels/nuviko_stories/AGENTS.md']
 files += [ROOT/'.agent'/name for name in ('CHANNEL_BOOTSTRAP.md','documentation-index.md','skill-catalog.md')]
-files += list((ROOT/'.agents/skills').rglob('*.md')) + list((ROOT/'.codex/agents').glob('*.toml')) + [ROOT/'.codex/agents/README.md',ROOT/'automation/ffmpeg_montage/README.md']
-forbidden=[r'ytv-palmier-edit',r'references/palmier\.md',r'layered-motion\.md',r'motion-before-no-parallax',r'параллакс',r'\bparallax\b',r'зерн',r'\bgrain\b',r'\bg08\b']
+files += list((ROOT/'.agents/skills').rglob('*.md')) + list((ROOT/'.codex/agents').glob('*.toml')) + [ROOT/'.codex/agents/README.md',ROOT/'automation/README.md',ROOT/'automation/ffmpeg_montage/README.md',ROOT/'channels/paper_detour/automation/README.md',ROOT/'channels/nuviko_stories/automation/RUNBOOK.md',ROOT/'.agent/ASSET_LIBRARY.md']
+forbidden=[r'\bPalmier\b',r'\bPalméra\b',r'live-palmier',r'palmier-project',r'ytv-palmier-edit',r'references/palmier\.md',r'layered-motion\.md',r'motion-before-no-parallax',r'параллакс',r'\bparallax\b',r'зерн',r'\bgrain\b',r'\bg08\b']
 errors=[]
 for file in files:
  if not file.is_file():continue

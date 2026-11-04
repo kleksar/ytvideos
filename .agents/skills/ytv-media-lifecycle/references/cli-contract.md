@@ -4,7 +4,7 @@
 
 Этот контракт относится к `media_lifecycle.py`. Создание layout/owned runs, перенос, promotion и адресная очистка реализованы отдельно в [workspace.py](../scripts/workspace.py), см. [workspace contract](workspace.md).
 
-Helper пишет только **новую** папку отчёта. Существующий output, symlink в его пути, `Source/Assets/Storyboard/Research/Packaging` и содержимое `.palmier` как output запрещены. Исходники/проекты не изменяются. Exit 0 означает, что отчёт построен; blockers/coverage errors остаются в нём. Exit 2 — некорректный вход/ошибка создания отчёта. Поддержаны только `audit` и `plan`.
+Helper пишет только **новую** папку отчёта. Существующий output, symlink в его пути, `Source/Assets/Storyboard/Research/Packaging` и содержимое сохранённых native project packages как output запрещены. Исходники/проекты не изменяются. Exit 0 означает, что отчёт построен; blockers/coverage errors остаются в нём. Exit 2 — некорректный вход/ошибка создания отчёта. Поддержаны только `audit` и `plan`.
 
 Из корня `.`, с фактическим canonical-путём и новым именем запуска:
 
@@ -20,7 +20,7 @@ python3 .agents/skills/ytv-media-lifecycle/scripts/media_lifecycle.py plan \
   --output-dir /absolute/episode/Edit/MediaLifecycle/plan-run01
 ```
 
-Если кандидаты связаны с сохранёнными сторонними монтажными пакетами, аудитор поддерживает `--palmier-project /absolute/package.palmier`; `--live-palmier` запрашивает сведения работающего редактора. Эти параметры защищают существующие зависимости и не входят в FFmpeg-производство. Покрытие сканирования сохранять как ограничение очистки.
+Сборка видео использует только FFmpeg. Аудитор очистки не подключается к видеоредакторам. Он автоматически замечает сохранённые native project packages при чтении файловой системы и читает ограниченный набор metadata только для защиты импортированных зависимостей; эти пакеты остаются архивными пользовательскими данными, а не частью текущего процесса. Покрытие сканирования сохранять как ограничение очистки.
 
 ## Policy
 

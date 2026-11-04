@@ -120,7 +120,7 @@ def finalize_qa(episode, name, owner, review_rel, audit, execute=False):
     inputs = {str(episode / r['path']): r['identity']
               for r in [batch['report'], batch['source'], *recipe_records, *proofs]}
     inputs.update(audit['inputs'])
-    # Other managed consumers are protected even when they are not Palmier imports.
+    # Other managed consumers are protected even when they are not legacy project imports.
     candidates = {f['path'] for f in batch['frames']}
     consumer_holds = set()
     for other in (episode / 'Work').glob('*/manifest.json'):
