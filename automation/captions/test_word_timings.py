@@ -8,7 +8,6 @@ HERE = Path(__file__).resolve().parent
 SPEC = importlib.util.spec_from_file_location('word_timings', HERE / 'word_timings.py')
 module = importlib.util.module_from_spec(SPEC)
 SPEC.loader.exec_module(module)
-SAMPLES = HERE.parent / 'checks' / 'elevenlabs-2026-10-28'
 
 
 def alignment(text):
@@ -19,15 +18,17 @@ def alignment(text):
 
 
 class WordTimingTests(unittest.TestCase):
-    def test_real_samples(self):
-        for language in ('ru', 'en'):
+    def test_russian_and_english_samples_are_self_contained(self):
+        samples = {
+            'ru': ('Это короткая тестовая строка для проверки тайминга.', 'Это', 7),
+            'en': ('This is a short sample line for testing word timings.', 'This', 10),
+        }
+        for language, (source, first_word, expected_count) in samples.items():
             with self.subTest(language=language):
-                source = (SAMPLES / f'test_{language}.txt').read_text(encoding='utf-8')
-                data = json.loads((SAMPLES / f'voice_{language}.alignment.json').read_text(encoding='utf-8'))
-                result = module.convert(source, data, language)
-                self.assertEqual(result['words'][0]['text'], 'Это' if language == 'ru' else 'This')
+                result = module.convert(source, alignment(source), language)
+                self.assertEqual(result['words'][0]['text'], first_word)
                 self.assertTrue(all(w['start_seconds'] <= w['end_seconds'] for w in result['words']))
-                self.assertEqual(len(result['words']), 7 if language == 'ru' else 10)
+                self.assertEqual(len(result['words']), expected_count)
 
     def test_punctuation_hyphens_and_apostrophes(self):
         text = "«Всё-таки, кем-то — нет!» “Didn't ex-girlfriend’s.”"
