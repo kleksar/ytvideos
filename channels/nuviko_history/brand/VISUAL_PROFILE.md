@@ -1,15 +1,15 @@
 # Nuviko — визуальный профиль
 
-Производство: [общий flow Paper/Nuviko](../../../.agents/skills/ytv-video-production/SKILL.md). Этот файл задаёт внешность героя, мир и экранное оформление. Фактическое состояние образцов — CURRENT_CONTEXT (`CURRENT_CONTEXT.md` is in a separate episode/media bundle, not this source-only clone).
+Производство: [общий flow Paper/Nuviko](../../../.agents/skills/ytv-video-production/SKILL.md). Этот файл задаёт внешность героя, мир и экранное оформление. Текущее состояние исследований и выпусков может находиться в отдельном episode bundle; оно не заменяет принятые общие эталоны ниже.
 
 ## Выбранный пользователем ориентир
 
 Приняты пользователем 4 ноября 2026 и сохранены как общие постоянные эталоны канала:
 
-- Лист поворотов, одежды и внешности (`References/traveler_turnaround_20261104.png` is in a separate episode/media bundle, not this source-only clone), SHA-256 `f093ba6c1c3e97cb3ffca2e0329af93a47d7aabdfc7b77f9768b7263bfa6f0c7`.
-- Коллаж мимики — принятая версия v03 (`References/traveler_emotions_20261104.png` is in a separate episode/media bundle, not this source-only clone), SHA-256 `d0e47f0560a1894f4d52d69d7826e0f1461f78733c2b80e41899459b3da2dc78`.
+- Лист поворотов, одежды и внешности: [traveler_turnaround_20261104.png](References/traveler_turnaround_20261104.png), SHA-256 `f093ba6c1c3e97cb3ffca2e0329af93a47d7aabdfc7b77f9768b7263bfa6f0c7`.
+- Коллаж мимики, принятая версия v03: [traveler_emotions_20261104.png](References/traveler_emotions_20261104.png), SHA-256 `d0e47f0560a1894f4d52d69d7826e0f1461f78733c2b80e41899459b3da2dc78`.
 
-Приёмка: квитанция (`References/CHARACTER_REFERENCE_ACCEPTANCE_20261104.json` is in a separate episode/media bundle, not this source-only clone). Эти общие канальные исходники сохранять при очистке отдельных выпусков. Исходные присланные изображения и записи генераций находятся в References и Development. Приёмка эталонов не заменяет проверку конкретных сцен.
+Приёмка и происхождение: [CHARACTER_REFERENCE_ACCEPTANCE_20261104.json](References/CHARACTER_REFERENCE_ACCEPTANCE_20261104.json). Эти общие канальные исходники сохранять при очистке отдельных выпусков. В клон включены два принятых итоговых PNG; исходные скриншоты, полные prompts и исследовательские версии в этот бренд-пакет не входят. Приёмка эталонов не заменяет проверку конкретных сцен.
 
 ## Герой и мир
 
@@ -26,7 +26,7 @@
 
 ## Субтитры речи
 
-Эталон оформления субтитров — слой S01 (`fieldnotes_kit_v02/rendered/layers/S01_subtitle.png` is in a separate episode/media bundle, not this source-only clone). Геометрию длинных роликов задаёт общий [профиль long](../../../automation/ffmpeg_montage/profiles/long.json), геометрию Shorts — [профиль Nuviko Shorts](../../../automation/ffmpeg_montage/profiles/nuviko_short.json).
+Эталон оформления субтитров описан текстом и конфигурациями ниже; примерный слой S01 сейчас не входит в переносимый бренд-пакет. Геометрию длинных роликов задаёт общий [профиль long](../../../automation/ffmpeg_montage/profiles/long.json), геометрию Shorts — [профиль Nuviko Shorts](../../../automation/ffmpeg_montage/profiles/nuviko_short.json).
 
 Субтитры: Georgia Bold на постоянной полупрозрачной тёмной плашке, обычный текст светлый, произносимое слово жёлтое; без вертикальной полосы. Цвета и прозрачность задаёт [профиль оформления](../../../automation/ffmpeg_montage/profiles/nuviko.json) для обоих форматов. В Shorts применяется один размер Georgia Bold 68 px, одна строка шириной до 1024 px, центр `x=0.4722`, `y=0.762` для холста 1440×2560. Размер и положение постоянны между группами; проверять реальную читаемость и защищённые зоны на сценах и в мобильном интерфейсе Shorts.
 

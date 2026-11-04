@@ -2,27 +2,37 @@
 
 ## Каналы и статус клона
 
-Paper Detour и Nuviko History — отдельные существующие каналы пользователя. Третий канал «Нувико» — русскоязычные жизненные истории коллеги. Для него ещё не закреплена отдельная папка/профиль. Проект размещается в приватном репозитории `https://github.com/kleksar/ytvideos`. Локальные коммиты готовы, но remote пока пуст: владелец должен завершить повторную аутентификацию и отправить проверенную выборку. Коллегу ещё не добавляли; клонирование станет доступно после публикации и выдачи доступа. Канонические инструкции используют относительные пути; абсолютные пути в исторических аудитах относятся к исходной машине и не являются командами для клона. Не копируйте чужие OAuth-токены и API keys.
+Paper Detour и Nuviko History — отдельные существующие каналы пользователя. Третий канал «Нувико» — русскоязычные жизненные истории коллеги; его папка, профиль, voice mapping и YouTube OAuth ещё не настроены. Репозиторий [`kleksar/ytvideos`](https://github.com/kleksar/ytvideos) приватный: попросите владельца выдать доступ до клонирования. Клон содержит исходный код и документацию, но не выпускные медиа, токены или локальные публикационные receipts. Канонические инструкции используют относительные пути; исторические абсолютные пути относятся к исходной машине. Не копируйте чужие OAuth-токены или API keys.
 
-## Проверка окружения
+## Требования и установка
 
-- `automation/ffmpeg_montage`: Python 3.10+, Pillow, FFmpeg и FFprobe; профиль macOS по умолчанию использует encoder `h264_videotoolbox`.
-- `automation/image_motion`: Python 3.12.x, `uv` и зафиксированные в `pyproject.toml`/`uv.lock` библиотеки depthflow, numpy, Pillow, scipy. Установка после получения доверенного кода: `uv sync --project automation/image_motion`.
-- TTS-скрипт использует стандартную библиотеку Python, отдельный ElevenLabs SDK ему не нужен. Справка не обращается к API: `python3 automation/elevenlabs/tts.py --help`.
-- YouTube API-инструменты имеют собственные зависимости и OAuth-процесс: `automation/youtube/README.md` и `automation/youtube/requirements.txt`. Токен коллеги должен быть создан для его аккаунта/канала и храниться вне клона.
-- В `automation/`, `channels/paper_detour/automation` и `automation` не найден отдельный TikTok/Instagram publishing adapter; пока его нет, загрузка туда ручная.
+Для рабочих утилит нужен Git, Python и FFmpeg/FFprobe. Используйте Python 3.12 для новых виртуальных сред; `automation/image_motion` требует Python 3.12.x. FFmpeg-профиль macOS по умолчанию использует encoder `h264_videotoolbox`; в других системах проверьте доступный encoder и задайте его явно. Два принятых референса персонажа Nuviko History уже включены в клон; другие входные картинки, звук и готовые проекты выпусков поставляются отдельным media bundle. Состав шаблонов и ограничения шрифтов указаны в [индексе бренд-материалов](channels/BRAND_ASSETS.md).
 
-Проверьте установленные команды:
+Создайте изолированные среды в локальной `.venv/` (она игнорируется Git):
 
 ```sh
-python3 --version
-uv --version
-ffmpeg -version
-ffprobe -version
-python3 automation/elevenlabs/tts.py --help
+python3.12 -m venv .venv/montage
+.venv/montage/bin/python -m pip install -r automation/ffmpeg_montage/requirements.txt
+
+python3.12 -m venv .venv/youtube
+.venv/youtube/bin/python -m pip install -r automation/youtube/requirements.txt
+
+uv sync --project automation/image_motion --python 3.12
 ```
 
-`uv sync` скачивает зависимости из package registry. Эти команды проверяют локальные инструменты и справку, но не подтверждают авторизацию, доступ к каналу или готовность видео к публикации.
+`image_motion` скачивает пакеты из реестра и может использовать большие модели при работе; начните с инструкций проекта и проверьте доступное место. TTS-скрипт использует стандартную библиотеку Python, ElevenLabs SDK не требуется. Безопасная справка не обращается к API:
+
+```sh
+python3.12 automation/elevenlabs/tts.py --help
+.venv/montage/bin/python automation/ffmpeg_montage/montage.py --help
+.venv/youtube/bin/python automation/youtube/upload.py --help
+ffmpeg -version
+ffprobe -version
+```
+
+`automation/youtube/README.md` описывает команды и отдельный OAuth-процесс. Токен создавайте для своего аккаунта и проверенного канала; храните вне клона. В репозитории нет отдельного TikTok/Instagram publishing adapter: пока публикация туда выполняется вручную.
+
+Установка пакетов скачивает их из Python package registry. Перечисленные `--help` и `-version` команды не обращаются к API, не проверяют авторизацию и не подтверждают готовность видео к публикации.
 
 ## ElevenLabs и локальный ключ
 
@@ -43,7 +53,7 @@ unset ELEVENLABS_API_KEY
 
 ## YouTube OAuth и монтаж
 
-YouTube OAuth для третьего канала ещё не добавлен в конфигурацию. Коллега получит доступ к репозиторию отдельно после публикации; не передавайте ему ключ владельца или токены. Сверьтесь с README адаптера и создайте собственные OAuth credentials/token для своего аккаунта и проверенного channel ID. Храните их вне клона, не переиспользуйте файлы владельца.
+YouTube OAuth для третьего канала ещё не добавлен в конфигурацию. Владелец выдаёт доступ к приватному репозиторию отдельно; не передавайте коллеге ключ владельца или токены. Сверьтесь с README адаптера и создайте собственные OAuth credentials/token для своего аккаунта и проверенного channel ID. Храните их вне клона, не переиспользуйте файлы владельца.
 
 Для монтажа изучите `AGENTS.md`, правила канала, текущий контекст выпуска и `automation/ffmpeg_montage/README.md`. Для движения сцены — `automation/image_motion`. Зависимости/модели, монтажные сессии, финальные MP4 и прочее локальное media в `.gitignore`; чистый клон без отдельной передачи этих материалов фильм не воспроизведёт. Пользовательские исходники не удалялись. Передавать их следует через согласованное общее хранилище или Git LFS с манифестом, hash и заметками о правах.
 
