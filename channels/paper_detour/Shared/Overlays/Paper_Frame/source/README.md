@@ -9,6 +9,8 @@ The canonical generator is `render_master.py`; its default duration is 16 second
 - Both: 30 fps, 480 frames, exactly 16 seconds, ProRes 4444, straight alpha.
 - The center is transparent; each outer edge is continuously opaque. The final frame is time 15.9667 seconds. Do not add a duplicate endpoint at 16 seconds.
 
+Portable VP9 copies are available one directory up in `../masters/` for horizontal and vertical formats. They retain alpha, but ProRes → VP9 CRF 18 is lossy; prefer the ProRes source for a highest-quality export when available. When decoding either WebM in FFmpeg, put `-c:v libvpx-vp9` **before** its `-i` input option or alpha may be lost.
+
 The top and bottom layers move left to right; the side layers move top to bottom. Their periods are 16, 8, and 16/3 seconds (5⅓ seconds); together they repeat every 16 seconds. The second and third layer artwork is narrowed across the edge, not stretched along it. Layer order, shapes, amplitudes, direction and phase are fixed in the generator.
 
 The vertical artwork is rotated from the same source PNGs rather than non-uniformly stretched. The center remains transparent; do not add a background to the master.
@@ -32,5 +34,7 @@ Choose new versioned output names for later revisions. The renderer overwrites a
 ## Composite into a video
 
 Use the master matching the base video's exact aspect and dimensions. Loop it with `-stream_loop -1`, interpret its alpha as straight, and composite it over the already rendered picture. For audio-preserving output, render the video-only overlay first, then remux the original AAC stream separately through EOF without `-t`, `-shortest`, or a frame cap on the remux. See the project-level `Paper_Frame/README.md` for the full command and QA procedure.
+
+When the chosen master is WebM/VP9, add `-c:v libvpx-vp9` immediately before that input's `-i` (input-scoped decoder option). Verify the decoded alpha before overlay; decoder defaults may discard it.
 
 The transparent alpha belongs to the ProRes master. The delivered H.264 `yuv420p` MP4 has no alpha channel; the paper edge is baked into the picture.

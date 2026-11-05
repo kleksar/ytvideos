@@ -7,6 +7,7 @@ Transparent animated paper border for horizontal long films and vertical Shorts.
 - Reproducible small source kit: [`source/`](source/): three layered PNG assets, `render_master.py`, the generation `README.md`, and the current `VALIDATION.md`. `source/SHA256SUMS.txt` records the copied files. The large ProRes masters are local assets outside the repository. Supply their local paths when rendering; the repo contains the generator and source kit, not the large MOVs.
 - Current horizontal master: `masters/paper-border-16x9-16s-v02.mov`, **2560×1440**, 16:9.
 - Current vertical master: `masters/paper-border-9x16-16s-v02.mov`, **1440×2560**, 9:16. Earlier 8-second masters remain preserved under their original names and are superseded.
+- Portable lossily compressed copies: [`masters/paper-border-16x9-16s-v02-crf18.webm`](masters/paper-border-16x9-16s-v02-crf18.webm) and [`masters/paper-border-9x16-16s-v02-crf18.webm`](masters/paper-border-9x16-16s-v02-crf18.webm), VP9 with alpha, 30 fps, 480 frames / 16 s. Source ProRes remains the higher-quality master where available; ProRes → VP9 CRF 18 is lossy.
 - Both current masters: ProRes 4444, straight alpha, `yuva444p12le`, 30 fps, 480 frames / exactly 16 seconds. The center is fully transparent (`alpha=0`); the four outer edges remain opaque (`alpha=255`).
 - Layer motion: top and bottom travel left to right; sides travel top to bottom. The second and third paper layers are narrowed across the edge without stretching their artwork along it. Layer periods are 16, 8, and 16/3 seconds (5⅓ s); together they repeat every 16 seconds. Frame 479 returns to frame 0 without a larger step than the ordinary adjacent-frame motion. See the current `source/VALIDATION.md` for measured results.
 
@@ -27,6 +28,17 @@ python3 channels/paper_detour/Shared/Overlays/Paper_Frame/source/render_master.p
 ```
 
 The renderer uses the three PNGs in `source/assets/`. The default duration is 16 seconds (480 frames at 30 fps). Keep each layer period at 16, 8, and 16/3 seconds respectively; do not duplicate a 16-second endpoint frame. The vertical artwork is rotated from the source assets rather than stretched non-uniformly. Never overwrite the preserved 8-second masters.
+
+## Decode VP9 alpha correctly
+
+When FFmpeg decodes the VP9 WebM for compositing, put the VP9 decoder selection **before the input**. Without `-c:v libvpx-vp9` before `-i`, alpha may be lost by another decoder. The copy is lossy relative to ProRes even at CRF 18; use the ProRes source for a highest-quality rebuild when it is available.
+
+```sh
+ffmpeg -hide_banner -c:v libvpx-vp9 -i masters/paper-border-16x9-16s-v02-crf18.webm \
+  -frames:v 1 -vf alphaextract -f null -
+```
+
+For a VP9 overlay, retain the same decoder placement before the WebM input and inspect that the decoded pixel format carries alpha before compositing.
 
 ## Add a frame to an existing MP4
 
@@ -58,7 +70,7 @@ ffmpeg -hide_banner -n \
   -c copy -movflags +faststart "$OUTPUT"
 ```
 
-For vertical output, set `MASTER` to `paper-border-9x16-16s-v02.mov`, dimensions to 1440×2560, and `FRAMES`/`DURATION` to that edit's actual exclusive end frame and frame count. Never overwrite the source MP4; use a new versioned output path. This process re-encodes the already-rendered H.264 picture to add the overlay, so it is a new lossy video generation. It leaves the AAC audio packets unchanged.
+For vertical output, set `MASTER` to `paper-border-9x16-16s-v02.mov`, dimensions to 1440×2560, and `FRAMES`/`DURATION` to that edit's actual exclusive end frame and frame count. If using either VP9 WebM as `MASTER`, place `-c:v libvpx-vp9` before its `-i` in both passes. Never overwrite the source MP4; use a new versioned output path. This process re-encodes the already-rendered H.264 picture to add the overlay, so it is a new lossy video generation. It leaves the AAC audio packets unchanged.
 
 ## Inspect and play an output
 
