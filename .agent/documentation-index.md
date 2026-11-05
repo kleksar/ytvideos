@@ -14,7 +14,7 @@
 | Стиль и монтаж Paper Detour | [Paper AGENTS](../channels/paper_detour/AGENTS.md) | Точный принятый визуальный эталон выпуска |
 | Правила Nuviko History | [History AGENTS](../channels/nuviko_history/AGENTS.md) | Исторический канал |
 | Правила исторических Stories RU/EN | [Stories AGENTS](../channels/nuviko_stories/AGENTS.md) | Личные истории; отдельная коллекция |
-| Работа с ChatGPT в Chrome: модель, режим и вкладки | [ytv-chatgpt-session](../.agents/skills/ytv-chatgpt-session/SKILL.md) | Выбор и видимая проверка режима; безопасная очистка вкладок |
+| Работа с ChatGPT в Chrome: модель, режим, общие черновики и вкладки | [ytv-chatgpt-session](../.agents/skills/ytv-chatgpt-session/SKILL.md) | Координация composer, видимая проверка отправки и безопасная очистка собственных вкладок |
 | Единый production flow Paper/Nuviko и граница сохранности одобренного сюжета | [ytv-video-production](../.agents/skills/ytv-video-production/SKILL.md) | Переход после одобрения, общий язык контента, автономность, этап 16 с MP4, упаковка, Unlisted; Paper/History входы ссылаются на общий flow |
 | Постановка цельных сцен Paper | [storyboard skill](../.agents/skills/ytv-paper-storyboard/SKILL.md) | Принятый текст, сцены и порядок раскрытия; [план безопасных областей текста](../.agents/skills/ytv-paper-storyboard/SKILL.md#безопасные-области-текста) до генерации для Shorts и длинных видео, с передачей геометрии от subtitles/captions и проверками у images/motion/QA |
 | Глифы, эталоны и геометрия букв Paper | [Типографика](../channels/paper_detour/brand/TYPOGRAPHY_STANDARD.md) | Точные положительные PNG-эталоны; оптическая примерка на сценах — captions skill |

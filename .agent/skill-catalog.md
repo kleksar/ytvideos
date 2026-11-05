@@ -6,7 +6,7 @@
 
 | Задача / владелец процедуры | Проектный skill | Основные входы и результат |
 |---|---|---|
-| Работа с ChatGPT в Chrome | [ytv-chatgpt-session](../.agents/skills/ytv-chatgpt-session/SKILL.md) | Запрошенные модель и режим рассуждения → проверенная маркировка, завершённый ответ и безопасная очистка собственных завершённых вкладок |
+| Работа с ChatGPT в Chrome | [ytv-chatgpt-session](../.agents/skills/ytv-chatgpt-session/SKILL.md) | Запрошенные модель и режим → координация общего composer, проверенная отправка и безопасная очистка собственных вкладок |
 | Единый flow Paper Detour и Nuviko | [ytv-video-production](../.agents/skills/ytv-video-production/SKILL.md) | Принятый сценарий → автономный готовый MP4 на просмотр → упаковка → одобренный Unlisted; профиль задаёт стиль/героя |
 | Совместимый вход Paper / карусель | [ytv-paper-production](../.agents/skills/ytv-paper-production/SKILL.md) | Видео направляется в общий flow; карусель — в Posts Playbook |
 | Постановка цельных сцен Paper | [ytv-paper-storyboard](../.agents/skills/ytv-paper-storyboard/SKILL.md) | Принятый текст → исполнимая партитура цельных кадров |
