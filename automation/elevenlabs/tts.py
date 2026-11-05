@@ -4,6 +4,8 @@
 import argparse
 import base64
 import binascii
+import contextlib
+import fcntl
 import json
 import hashlib
 import os
@@ -12,6 +14,7 @@ import re
 import subprocess
 import sys
 import tempfile
+import time
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -26,7 +29,19 @@ class TTSError(Exception):
     pass
 
 
-class QuotaExceeded(TTSError):
+class AccountUnavailable(TTSError):
+    pass
+
+
+class QuotaExceeded(AccountUnavailable):
+    pass
+
+
+class AuthenticationUnavailable(AccountUnavailable):
+    pass
+
+
+class VoiceUnavailable(AccountUnavailable):
     pass
 
 
@@ -134,8 +149,12 @@ def synthesize(text, destination, *, api_key, voice_id, model=MODEL_ID,
             code = detail.get("code") or detail.get("status") if isinstance(detail, dict) else None
         except (ValueError, TypeError, AttributeError, OSError):
             code = None
-        if exc.code in (400, 402) and code in ("quota_exceeded", "insufficient_credits"):
+        if exc.code in (400, 401, 402) and code in ("quota_exceeded", "insufficient_credits"):
             raise QuotaExceeded("ElevenLabs сообщает о недостатке кредитов") from None
+        if exc.code == 401:
+            raise AuthenticationUnavailable("ElevenLabs отклонил ключ (HTTP 401)") from None
+        if exc.code == 403 and code in ("insufficient_permissions", "voice_access_denied", "model_access_denied", "feature_not_available", "workspace_access_denied"):
+            raise AccountUnavailable("ElevenLabs отклонил доступ аккаунта (HTTP 403)") from None
         raise TTSError(f"ElevenLabs вернул HTTP {exc.code}; проверьте ключ, доступ к голосу и модели, лимит и параметры") from None
     except (urllib.error.URLError, TimeoutError, OSError) as exc:
         raise TTSError("ошибка связи с ElevenLabs; результат и расход кредитов на стороне сервиса неизвестны, проверьте историю перед повтором") from None
@@ -171,14 +190,18 @@ def save_new(destination, data):
             temp_path.unlink(missing_ok=True)
 
 
-def get_api_key(*, backup=False):
-    key = os.environ.get("ELEVENLABS_API_KEY_2" if backup else "ELEVENLABS_API_KEY", "").strip()
+def get_api_key(*, slot=1, backup=False):
+    if backup:
+        slot = 2
+    suffix = "" if slot == 1 else f"_{slot}"
+    key = os.environ.get("ELEVENLABS_API_KEY" + suffix, "").strip()
     if key:
         return key
     if sys.platform == "darwin":
+        service = "yt-stories-elevenlabs" + ("" if slot == 1 else f"-{slot}")
         try:
             result = subprocess.run(
-                ["/usr/bin/security", "find-generic-password", "-a", "yt-stories", "-s", "yt-stories-elevenlabs-2" if backup else "yt-stories-elevenlabs", "-w"],
+                ["/usr/bin/security", "find-generic-password", "-a", "yt-stories", "-s", service, "-w"],
                 capture_output=True, text=True, timeout=30, check=False,
             )
             if result.returncode == 0:
@@ -188,6 +211,27 @@ def get_api_key(*, backup=False):
     return ""
 
 
+def configured_keys():
+    # Environment slots may be sparse. Additional Keychain slots must be listed explicitly.
+    slots = {1, 2}
+    for name in os.environ:
+        match = re.fullmatch(r"ELEVENLABS_API_KEY_([1-9][0-9]*)", name)
+        if match:
+            slots.add(int(match.group(1)))
+    configured = os.environ.get("ELEVENLABS_KEYCHAIN_SLOTS", "")
+    if configured:
+        for value in configured.split(","):
+            if not re.fullmatch(r"[1-9][0-9]*", value.strip()):
+                raise TTSError("ELEVENLABS_KEYCHAIN_SLOTS должен содержать номера через запятую")
+            slots.add(int(value.strip()))
+    keys = []
+    for slot in sorted(slots):
+        key = get_api_key(slot=slot)
+        if key and key not in keys:
+            keys.append(key)
+    return keys
+
+
 def verify_backup_voice(api_key, voice_id):
     request = urllib.request.Request(f"https://api.elevenlabs.io/v1/voices/{voice_id}",
                                      headers={"xi-api-key": api_key})
@@ -195,26 +239,127 @@ def verify_backup_voice(api_key, voice_id):
         with urllib.request.urlopen(request, timeout=30) as response:
             data = json.load(response)
         if not isinstance(data, dict) or data.get("voice_id") != voice_id:
-            raise TTSError("резервный аккаунт не подтвердил тот же voice ID")
+            raise VoiceUnavailable("аккаунт не подтвердил тот же voice ID")
     except urllib.error.HTTPError as exc:
-        raise TTSError(f"не удалось подтвердить голос {voice_id} на резервном аккаунте (HTTP {exc.code}); проверьте доступ к голосу и права ключа") from None
+        if exc.code == 401:
+            raise AuthenticationUnavailable("аккаунт отклонил ключ (HTTP 401)") from None
+        if exc.code in (403, 404):
+            raise VoiceUnavailable(f"аккаунт не подтвердил доступ к голосу (HTTP {exc.code})") from None
+        raise TTSError(f"проверка голоса вернула HTTP {exc.code}; генерация остановлена") from None
     except (urllib.error.URLError, TimeoutError, OSError, ValueError):
-        raise TTSError("не удалось проверить голос на резервном аккаунте; генерация остановлена") from None
+        raise TTSError("не удалось проверить голос из-за ошибки связи или ответа; генерация остановлена") from None
 
 
-def synthesize_with_failover(text, destination, *, api_key, voice_id, **settings):
+# Shared across worktrees/processes of this local user. No API keys or request text are stored.
+VOICE_TTL = 600
+FAIL_TTL = 120
+QUOTA_TTL = 60
+
+
+def cache_path():
+    return Path(os.environ.get("ELEVENLABS_CACHE_DIR", Path.home() / ".cache" / "ytvideos" / "elevenlabs"))
+
+
+@contextlib.contextmanager
+def locked_cache():
+    directory = cache_path()
     try:
-        synthesize(text, destination, api_key=api_key, voice_id=voice_id, **settings)
-    except QuotaExceeded:
-        backup = get_api_key(backup=True)
-        if not backup:
-            raise TTSError("основному аккаунту не хватает кредитов; резервный ключ не найден или недоступен") from None
-        verify_backup_voice(backup, voice_id)
-        print("Основному аккаунту не хватает кредитов; используется резервный.", file=sys.stderr)
+        directory.mkdir(parents=True, exist_ok=True, mode=0o700)
+        os.chmod(directory, 0o700)
+        with (directory / "lock").open("a+b") as lock:
+            os.chmod(directory / "lock", 0o600)
+            fcntl.flock(lock, fcntl.LOCK_EX)
+            path = directory / "state.json"
+            try:
+                state = json.loads(path.read_text())
+                if not isinstance(state, dict) or state.get("version") != 1 or not isinstance(state.get("accounts"), dict):
+                    state = {"version": 1, "accounts": {}}
+            except (OSError, ValueError):
+                state = {"version": 1, "accounts": {}}
+            yield state
+            temp_name = None
+            try:
+                with tempfile.NamedTemporaryFile(mode="w", dir=directory, prefix=".state-", delete=False) as temp:
+                    temp_name = temp.name
+                    json.dump(state, temp, separators=(",", ":"))
+                    temp.flush()
+                    os.fsync(temp.fileno())
+                os.replace(temp_name, path)
+            finally:
+                if temp_name and os.path.exists(temp_name):
+                    os.unlink(temp_name)
+    except OSError:
+        raise TTSError("не удалось использовать локальный кеш ElevenLabs; проверьте права каталога") from None
+
+
+def current(stamp, ttl):
+    return isinstance(stamp, (int, float)) and 0 <= time.time() - stamp < ttl
+
+
+def account_id(key):
+    return hashlib.sha256(key.encode()).hexdigest()
+
+
+def preflight(key, voice_id, text_length, model=MODEL_ID):
+    # Lock spans the read-only voice check: only one process performs it per account/voice/TTL.
+    with locked_cache() as state:
+        account = state["accounts"].setdefault(account_id(key), {})
+        if current(account.get("auth_failed"), FAIL_TTL):
+            raise AuthenticationUnavailable("ключ недавно отклонён")
+        quota = account.get("quota", {}).get(model, {})
+        if isinstance(quota, dict) and current(quota.get("time"), QUOTA_TTL) and text_length >= quota.get("length", float("inf")):
+            raise QuotaExceeded("недавно подтверждена нехватка кредитов")
+        voices = account.setdefault("voices", {})
+        voice = voices.get(voice_id, {})
+        if isinstance(voice, dict):
+            if current(voice.get("ok"), VOICE_TTL):
+                return
+            if current(voice.get("failed"), FAIL_TTL):
+                raise VoiceUnavailable("голос недавно был недоступен")
         try:
-            synthesize(text, destination, api_key=backup, voice_id=voice_id, **settings)
-        except QuotaExceeded:
-            raise TTSError("кредитов не хватает ни на основном, ни на резервном аккаунте") from None
+            verify_backup_voice(key, voice_id)
+        except AuthenticationUnavailable:
+            account["auth_failed"] = time.time()
+            # Persist the failure before reporting it to the caller.
+            failure = AuthenticationUnavailable("ключ отклонён")
+        except VoiceUnavailable:
+            voices[voice_id] = {"failed": time.time()}
+            failure = VoiceUnavailable("голос недоступен")
+        else:
+            voices[voice_id] = {"ok": time.time()}
+            failure = None
+    if failure:
+        raise failure
+
+
+def record_failure(key, voice_id, text_length, error, model=MODEL_ID):
+    with locked_cache() as state:
+        account = state["accounts"].setdefault(account_id(key), {})
+        if isinstance(error, AuthenticationUnavailable):
+            account["auth_failed"] = time.time()
+            account["voices"] = {}
+        elif isinstance(error, QuotaExceeded):
+            account.setdefault("quota", {})[model] = {"time": time.time(), "length": text_length}
+        else:
+            # Authorization can be model-specific; don't cache it across models.
+            account.setdefault("voices", {}).pop(voice_id, None)
+
+
+def synthesize_with_failover(text, destination, *, api_keys, voice_id, **settings):
+    if not api_keys:
+        raise TTSError("не найден ни один ключ ElevenLabs; настройте ключ и повторите")
+    for index, key in enumerate(api_keys, 1):
+        try:
+            preflight(key, voice_id, len(text), settings.get("model", MODEL_ID))
+            try:
+                synthesize(text, destination, api_key=key, voice_id=voice_id, **settings)
+            except AccountUnavailable as exc:
+                record_failure(key, voice_id, len(text), exc, settings.get("model", MODEL_ID))
+                raise
+            return
+        except AccountUnavailable as exc:
+            print(f"Аккаунт {index}: {exc}; пробуем следующий, если он есть.", file=sys.stderr)
+    raise TTSError("ни один настроенный аккаунт ElevenLabs не подошёл: проверьте ключи, квоту и доступ к тому же voice ID") from None
 
 
 def main(argv=None):
@@ -231,10 +376,9 @@ def main(argv=None):
         if not args.generate:
             print("Проверка завершена без сети и без расхода кредитов. Для генерации добавьте --generate.")
             return 0
-        key = get_api_key()
-        if not key:
-            raise TTSError("не найден ключ ELEVENLABS_API_KEY или запись macOS Keychain yt-stories-elevenlabs")
-        verify_backup_voice(key, args.voice_id)
+        keys = configured_keys()
+        if not keys:
+            raise TTSError("не найден ни один ключ ElevenLabs; настройте ключ и повторите")
         for language, content, destination in jobs:
             receipt = destination.with_suffix(".request.json")
             record = {"channel": args.channel, "voice_id": args.voice_id, "model": args.model,
@@ -242,7 +386,7 @@ def main(argv=None):
                       "speed": args.speed, "text_sha256": hashlib.sha256(content.encode("utf-8")).hexdigest(),
                       "status": "request_started"}
             save_new(receipt, (json.dumps(record, ensure_ascii=False, indent=2) + "\n").encode())
-            synthesize_with_failover(content, destination, api_key=key, voice_id=args.voice_id, model=args.model,
+            synthesize_with_failover(content, destination, api_keys=keys, voice_id=args.voice_id, model=args.model,
                        stability=args.stability, similarity=args.similarity, speed=args.speed)
             record.update(status="success", audio_sha256=hashlib.sha256(destination.read_bytes()).hexdigest())
             receipt.write_text(json.dumps(record, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

@@ -3,6 +3,8 @@ import contextlib
 from email.message import Message
 import io
 import json
+import multiprocessing
+import time
 import os
 from pathlib import Path
 import tempfile
@@ -30,6 +32,13 @@ class Response:
 
 
 class VoiceTests(unittest.TestCase):
+    def setUp(self):
+        self.cache = tempfile.TemporaryDirectory()
+        self.addCleanup(self.cache.cleanup)
+        env = patch.dict(os.environ, {"ELEVENLABS_CACHE_DIR": self.cache.name})
+        env.start()
+        self.addCleanup(env.stop)
+
     def test_channel_contract_blocks_mismatch_before_network(self):
         with tempfile.TemporaryDirectory() as folder:
             root = Path(folder)
@@ -49,7 +58,7 @@ class VoiceTests(unittest.TestCase):
                 root = Path(folder)
                 script = root / "text.txt"
                 script.write_text("Hello", encoding="utf-8")
-                with patch("tts.get_api_key", return_value="key"), patch("tts.verify_backup_voice", side_effect=tts.TTSError("unavailable")) as check, patch("tts.synthesize_with_failover") as send, contextlib.redirect_stdout(io.StringIO()), contextlib.redirect_stderr(io.StringIO()):
+                with patch("tts.configured_keys", return_value=["key"]), patch("tts.verify_backup_voice", side_effect=tts.TTSError("unavailable")) as check, patch("tts.synthesize") as send, contextlib.redirect_stdout(io.StringIO()), contextlib.redirect_stderr(io.StringIO()):
                     result = tts.main(["--channel", channel, "--en-text", str(script), "--output-dir", str(root / "out"), "--generate"])
                 self.assertEqual(result, 1)
                 check.assert_called_once_with("key", tts.channel_voice(channel))
@@ -69,7 +78,7 @@ class VoiceTests(unittest.TestCase):
                 script.write_text("Hello", encoding="utf-8")
                 voice_id = tts.channel_voice(channel)
                 responses = [Response(json.dumps({"voice_id": voice_id}).encode()), Response(json.dumps(result).encode())]
-                with patch("tts.get_api_key", return_value="key"), patch("tts.urllib.request.urlopen", side_effect=responses) as send, contextlib.redirect_stdout(io.StringIO()), contextlib.redirect_stderr(io.StringIO()):
+                with patch("tts.configured_keys", return_value=["key"]), patch("tts.urllib.request.urlopen", side_effect=responses) as send, contextlib.redirect_stdout(io.StringIO()), contextlib.redirect_stderr(io.StringIO()):
                     self.assertEqual(tts.main(["--channel", channel, "--en-text", str(script), "--output-dir", str(root / "out"), "--generate"]), 0)
                 check, post = [call.args[0] for call in send.call_args_list]
                 self.assertEqual(check.get_method(), "GET")
@@ -150,42 +159,119 @@ class VoiceTests(unittest.TestCase):
                 tts.save_new(path, b"replacement")
             self.assertEqual(path.read_bytes(), b"original")
 
-    def test_quota_response_triggers_same_request_on_backup(self):
-        quota = urllib.error.HTTPError("https://example.invalid", 402, "", {},
-                                       io.BytesIO(b'{"detail":{"code":"insufficient_credits"}}'))
+    def test_failover_auth_quota_and_multiple_accounts(self):
         result = {"audio_base64": base64.b64encode(b"ID3fake mp3").decode(), "alignment": None}
-        voice = {"voice_id": "testvoice"}
+        def error(status, body):
+            return urllib.error.HTTPError("https://example.invalid", status, "", {}, io.BytesIO(body))
+        voice = Response(json.dumps({"voice_id": "testvoice"}).encode())
+        replies = [error(401, b'{}'), voice, error(400, b'{"detail":{"status":"quota_exceeded"}}'), voice, Response(json.dumps(result).encode())]
         with tempfile.TemporaryDirectory() as folder, contextlib.redirect_stderr(io.StringIO()):
-            with patch("tts.get_api_key", return_value="backup"), patch("tts.urllib.request.urlopen", side_effect=[quota, Response(json.dumps(voice).encode()), Response(json.dumps(result).encode())]) as send:
-                tts.synthesize_with_failover("Hello", Path(folder) / "voice.mp3", api_key="primary", voice_id="testvoice", model="testmodel", speed=0.8)
-            primary, check, backup = [call.args[0] for call in send.call_args_list]
-            self.assertEqual(primary.data, backup.data)
-            self.assertEqual(primary.full_url, backup.full_url)
-            self.assertEqual(check.get_method(), "GET")
-            self.assertEqual(backup.get_header("Xi-api-key"), "backup")
+            with patch("tts.urllib.request.urlopen", side_effect=replies) as send:
+                tts.synthesize_with_failover("Hello", Path(folder) / "voice.mp3", api_keys=["one", "two", "three"], voice_id="testvoice")
+            self.assertEqual([c.args[0].get_method() for c in send.call_args_list], ["GET", "GET", "POST", "GET", "POST"])
+            self.assertEqual(send.call_args.args[0].get_header("Xi-api-key"), "three")
 
-    def test_legacy_quota_code_and_other_errors(self):
-        for status, body, expected in [(401, b'{"detail":{"code":"quota_exceeded"}}', tts.TTSError),
-                                        (400, b'{"detail":{"status":"quota_exceeded"}}', tts.QuotaExceeded),
-                                        (429, b'{"detail":{"code":"rate_limit_exceeded"}}', tts.TTSError)]:
-            with self.subTest(status=status), tempfile.TemporaryDirectory() as folder:
+    def test_synthesis_error_classification(self):
+        for status, body, expected in [(401, b'{}', tts.AuthenticationUnavailable), (401, b'{"detail":{"code":"quota_exceeded"}}', tts.QuotaExceeded), (400, b'{"detail":{"status":"quota_exceeded"}}', tts.QuotaExceeded), (400, b'{"detail":{"code":"invalid_parameters"}}', tts.TTSError), (403, b'{"detail":{"code":"voice_access_denied"}}', tts.AccountUnavailable), (403, b'{}', tts.TTSError), (429, b'{}', tts.TTSError), (500, b'{}', tts.TTSError)]:
+            with self.subTest(status=status, body=body), tempfile.TemporaryDirectory() as folder:
                 error = urllib.error.HTTPError("https://example.invalid", status, "", {}, io.BytesIO(body))
                 with patch("tts.urllib.request.urlopen", side_effect=error), self.assertRaises(expected) as raised:
                     tts.synthesize("text", Path(folder) / "out.mp3", api_key="secret", voice_id="testvoice")
-                self.assertEqual(isinstance(raised.exception, tts.QuotaExceeded), expected is tts.QuotaExceeded)
+                self.assertEqual(type(raised.exception), expected)
 
-    def test_no_fallback_on_unknown_outcome_or_missing_voice(self):
-        with tempfile.TemporaryDirectory() as folder:
-            target = Path(folder) / "voice.mp3"
-            with patch("tts.synthesize", side_effect=tts.TTSError("unknown")) as generate, patch("tts.get_api_key") as key:
-                with self.assertRaises(tts.TTSError):
-                    tts.synthesize_with_failover("Hello", target, api_key="primary", voice_id="testvoice")
-                self.assertEqual(generate.call_count, 1)
-                key.assert_not_called()
-            with patch("tts.synthesize", side_effect=tts.QuotaExceeded("quota")) as generate, patch("tts.get_api_key", return_value="backup"), patch("tts.verify_backup_voice", side_effect=tts.TTSError("missing")):
-                with self.assertRaises(tts.TTSError):
-                    tts.synthesize_with_failover("Hello", target, api_key="primary", voice_id="testvoice")
-                self.assertEqual(generate.call_count, 1)
+    def test_failover_stops_on_ambiguous_failure(self):
+        with tempfile.TemporaryDirectory() as folder, patch("tts.verify_backup_voice"), patch("tts.synthesize", side_effect=tts.TTSError("unknown")) as send:
+            with self.assertRaisesRegex(tts.TTSError, "unknown"):
+                tts.synthesize_with_failover("Hello", Path(folder) / "voice.mp3", api_keys=["one", "two"], voice_id="testvoice")
+            self.assertEqual(send.call_count, 1)
+
+    def test_all_unavailable_is_clear_blocker(self):
+        with tempfile.TemporaryDirectory() as folder, contextlib.redirect_stderr(io.StringIO()), patch("tts.verify_backup_voice", side_effect=tts.AccountUnavailable("unavailable")):
+            with self.assertRaisesRegex(tts.TTSError, "ни один настроенный аккаунт"):
+                tts.synthesize_with_failover("Hello", Path(folder) / "voice.mp3", api_keys=["one", "two"], voice_id="testvoice")
+
+    def test_sparse_slots_and_dedup(self):
+        with patch.dict(os.environ, {"ELEVENLABS_API_KEY": "one", "ELEVENLABS_API_KEY_3": "three", "ELEVENLABS_API_KEY_5": "one", "ELEVENLABS_KEYCHAIN_SLOTS": "4"}, clear=True), patch.object(tts.sys, "platform", "linux"):
+            self.assertEqual(tts.configured_keys(), ["one", "three"])
+
+    def test_cache_is_per_voice_and_expires(self):
+        with patch("tts.verify_backup_voice") as check, patch("tts.time.time", return_value=1000):
+            tts.preflight("one", "voice1", 10)
+            tts.preflight("one", "voice1", 10)
+            tts.preflight("one", "voice2", 10)
+            self.assertEqual(check.call_count, 2)
+        with patch("tts.verify_backup_voice") as check, patch("tts.time.time", return_value=1601):
+            tts.preflight("one", "voice1", 10)
+            check.assert_called_once()
+        self.assertNotIn("one", (Path(self.cache.name) / "state.json").read_text())
+
+    def test_quota_is_length_scoped_and_short_lived(self):
+        with patch("tts.verify_backup_voice"), patch("tts.time.time", return_value=1000):
+            tts.preflight("one", "voice", 10)
+            tts.record_failure("one", "voice", 10, tts.QuotaExceeded())
+            with self.assertRaises(tts.QuotaExceeded):
+                tts.preflight("one", "voice", 10)
+            tts.preflight("one", "voice", 9)
+            tts.preflight("one", "voice", 10, model="different")
+        with patch("tts.verify_backup_voice"), patch("tts.time.time", return_value=1061):
+            tts.preflight("one", "voice", 10)
+
+    def test_auth_failure_invalidates_cached_voice(self):
+        with patch("tts.verify_backup_voice") as check, patch("tts.time.time", return_value=1000):
+            tts.preflight("one", "voice", 10)
+            tts.record_failure("one", "voice", 10, tts.AuthenticationUnavailable())
+            with self.assertRaises(tts.AuthenticationUnavailable):
+                tts.preflight("one", "voice", 10)
+            self.assertEqual(check.call_count, 1)
+        with patch("tts.verify_backup_voice") as check, patch("tts.time.time", return_value=1121):
+            tts.preflight("one", "voice", 10)
+            check.assert_called_once()
+
+    def test_corrupt_cache_and_clock_rollback_recheck(self):
+        (Path(self.cache.name) / "state.json").write_text("invalid")
+        with patch("tts.verify_backup_voice") as check, patch("tts.time.time", return_value=1000):
+            tts.preflight("one", "voice", 10)
+            check.assert_called_once()
+        with patch("tts.verify_backup_voice") as check, patch("tts.time.time", return_value=999):
+            tts.preflight("one", "voice", 10)
+            check.assert_called_once()
+
+    def test_failed_check_is_shared_and_recovers_after_ttl(self):
+        with patch("tts.verify_backup_voice", side_effect=tts.AuthenticationUnavailable("bad")) as check, patch("tts.time.time", return_value=1000):
+            for _ in range(3):
+                with self.assertRaises(tts.AuthenticationUnavailable):
+                    tts.preflight("one", "voice", 10)
+            self.assertEqual(check.call_count, 1)
+        with patch("tts.verify_backup_voice") as check, patch("tts.time.time", return_value=1121):
+            tts.preflight("one", "voice", 10)
+            check.assert_called_once()
+
+    def test_parallel_processes_check_voice_once(self):
+        ctx = multiprocessing.get_context("fork")
+        calls = ctx.Value("i", 0)
+        ready = ctx.Event()
+        results = ctx.Queue()
+        def verify(*args):
+            with calls.get_lock():
+                calls.value += 1
+            time.sleep(0.15)
+        def worker():
+            try:
+                ready.wait(5)
+                with patch("tts.verify_backup_voice", side_effect=verify):
+                    tts.preflight("one", "voice", 10)
+                results.put("ok")
+            except Exception as exc:
+                results.put(type(exc).__name__)
+        processes = [ctx.Process(target=worker) for _ in range(10)]
+        for process in processes:
+            process.start()
+        ready.set()
+        for process in processes:
+            process.join(8)
+            self.assertEqual(process.exitcode, 0)
+        self.assertEqual([results.get(timeout=1) for _ in processes], ["ok"] * 10)
+        self.assertEqual(calls.value, 1)
 
 
 if __name__ == "__main__":
