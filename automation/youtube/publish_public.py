@@ -10,28 +10,13 @@ requires manual reconciliation; never blindly repeat the write.
 import argparse, json, sys
 from pathlib import Path
 from add_to_playlist import read_items
-from schedule import API, SCOPE, WRITABLE, ScheduleError, valid_ids, read, reserve, mark_done, verify_upload_receipt
-from upload_caption import srt_data
+from schedule import (API, SCOPE, WRITABLE, ScheduleError, valid_ids, read, reserve,
+                      mark_done, verify_upload_receipt, verify_staged_media,
+                      verify_serving_caption)
 
 
 def verify_assets(session, channel, video, playlist, language, srt, caption_receipt):
-    info, _ = srt_data(srt)
-    try:
-        receipt = json.loads(Path(caption_receipt).read_text())
-    except Exception:
-        raise ScheduleError('Caption receipt cannot be read') from None
-    if (receipt.get('state') != 'confirmed' or receipt.get('channel_id') != channel
-            or receipt.get('video_id') != video or receipt.get('srt_sha256') != info['sha256']
-            or not receipt.get('caption_id')):
-        raise ScheduleError('Caption receipt does not prove this SRT was uploaded for this video')
-    captions = read_items(session, 'captions', {'part':'snippet', 'videoId':video})
-    matching = [x for x in captions if x.get('id') == receipt['caption_id']]
-    if len(matching) != 1:
-        raise ScheduleError('Caption track not uniquely found')
-    snippet = matching[0].get('snippet', {})
-    if (snippet.get('videoId') != video or snippet.get('language','').lower().split('-')[0] != language
-            or snippet.get('isDraft') is not False or snippet.get('status') != 'serving'):
-        raise ScheduleError('Caption language, video, draft or serving status unconfirmed')
+    caption = verify_serving_caption(session, channel, video, language, srt, caption_receipt)
     lists = read_items(session,'playlists',{'part':'id,snippet','mine':'true'})
     owned = [x for x in lists if x.get('id') == playlist and x.get('snippet',{}).get('channelId') == channel]
     if len(owned) != 1:
@@ -40,15 +25,15 @@ def verify_assets(session, channel, video, playlist, language, srt, caption_rece
     matching = [x for x in entries if x.get('contentDetails',{}).get('videoId') == video]
     if len(matching) != 1:
         raise ScheduleError('Video is not uniquely in expected playlist')
-    return {'srt_sha256':info['sha256'], 'caption_id':receipt['caption_id'],
-            'playlist_id':playlist, 'playlist_item_id':matching[0].get('id')}
+    return {**caption, 'playlist_id':playlist, 'playlist_item_id':matching[0].get('id')}
 
 
 def publish(session, channel, video, playlist, language, srt, upload_receipt, caption_receipt, state):
     valid_ids(channel,video)
     if language not in ('ru','en') or not playlist:
         raise ScheduleError('Invalid language or playlist')
-    verify_upload_receipt(upload_receipt,channel,video)
+    original = verify_upload_receipt(upload_receipt,channel,video)
+    verify_staged_media(original,channel,srt,language)
     state=Path(state)
     if state.exists():
         raise ScheduleError('Publication receipt exists; inspect YouTube state before any retry')
@@ -62,7 +47,6 @@ def publish(session, channel, video, playlist, language, srt, upload_receipt, ca
     etag=v.get('etag')
     if not isinstance(etag,str) or not etag: raise ScheduleError('Missing video ETag')
     evidence=verify_assets(session,channel,video,playlist,language,srt,caption_receipt)
-    original=json.loads(Path(upload_receipt).read_text())
     disclosed=original.get('fingerprint',{}).get('body',{}).get('status',{}).get('containsSyntheticMedia')
     intended={k:status[k] for k in WRITABLE if k in status}
     if disclosed is True:

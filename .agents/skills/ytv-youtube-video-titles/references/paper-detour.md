@@ -1,6 +1,6 @@
 # Paper Detour title profile
 
-Read [bootstrap](../../../../.agent/CHANNEL_BOOTSTRAP.md), its root/registry/current-state inputs and [Paper AGENTS](../../../../channels/paper_detour/AGENTS.md) first. Editorial development follows the personal [Extra High procedure](../../ytv-chatgpt-extra-high/SKILL.md). Apply the channel's [product-language rule](../../ytv-video-production/SKILL.md#язык-готового-контента) before writing titles.
+Read [bootstrap](../../../../.agent/CHANNEL_BOOTSTRAP.md), its root/registry/current-state inputs and [Paper AGENTS](../../../../channels/paper_detour/AGENTS.md) first. Apply the channel's [product-language rule](../../ytv-video-production/SKILL.md#язык-готового-контента) before writing titles.
 
 Use a concrete human or technical situation from the accepted final version. The visual promise is a handmade paper-diorama film; a YouTube title is separate from cover lettering. Consult [thumbnail grammar](../../../../channels/paper_detour/brand/THUMBNAIL_PLAYBOOK.md) and the actual accepted/current cover; image generation is owned by [thumbnails](../../ytv-youtube-thumbnails/SKILL.md).
 
@@ -12,4 +12,4 @@ Keep the actual factual status: radio decoding is an attributed reported match, 
 
 Keep active experiments by video ID in the episode's state, not as permanent channel prohibitions. Before a long-film edit inspect Studio's current test state. A deferred candidate is revisited after the experiment ends and its result is read; completion is not an automatic instruction to replace the winner.
 
-Save exact title, dependencies and check evidence in `Packaging/Metadata/`. The [Paper production coordinator](../../ytv-paper-production/SKILL.md) calls this owner during packaging; the compatible [old Paper entry point](../../ytv-paper-video-titles/SKILL.md) routes here. [Release](../../ytv-youtube-release/SKILL.md) applies authorized changes through the global uploader.
+Save exact title, dependencies and check evidence in `Packaging/Metadata/`. The [Paper production coordinator](../../ytv-video-production/SKILL.md) calls this owner during packaging; the compatible [old Paper entry point](../../ytv-paper-video-titles/SKILL.md) routes here. [Release](../../ytv-youtube-release/SKILL.md) applies authorized changes through the global uploader.

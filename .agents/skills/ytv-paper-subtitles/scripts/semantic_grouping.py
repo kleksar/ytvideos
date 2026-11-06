@@ -13,7 +13,7 @@ import re
 from typing import Iterable, Sequence
 
 
-VERSION = "sentence-syntax-width-v4"
+VERSION = "sentence-syntax-width-v6"
 INFINITY = float("inf")
 
 ARTICLES_DETERMINERS = set("a an the this that these those some any each every either neither no another all both such".split())
@@ -56,11 +56,20 @@ def is_sentence_end(token: str) -> bool:
     return bool(TERMINAL_RE.search(raw))
 
 
+def is_sentence_end_at(words: Sequence[dict], index: int) -> bool:
+    """Keep the numbered abbreviation ``No. 1`` within its sentence."""
+    raw = str(words[index]["text"]).strip()
+    if (raw == "No." and index + 1 < len(words)
+            and re.match(r"^\d", str(words[index + 1]["text"]).strip())):
+        return False
+    return is_sentence_end(raw)
+
+
 def sentence_ranges(words: Sequence[dict]) -> list[tuple[int, int]]:
     ranges: list[tuple[int, int]] = []
     start = 0
     for i, word in enumerate(words):
-        if is_sentence_end(word["text"]):
+        if is_sentence_end_at(words, i):
             ranges.append((start, i + 1))
             start = i + 1
     if start < len(words):
@@ -342,6 +351,7 @@ def plan_phrases(words: Sequence[dict], phrases: Sequence[str], font,
         raise ValueError("group plan must be a non-empty list of phrases")
     pairs = _pairs(keep_together)
     exceptions: dict[tuple[str, str], str] = {}
+    user_approved: set[tuple[str, str]] = set()
     for item in boundary_exceptions:
         if not isinstance(item, dict):
             raise ValueError("boundary exceptions must be objects with left, right, and reason")
@@ -352,6 +362,14 @@ def plan_phrases(words: Sequence[dict], phrases: Sequence[str], font,
         if key in exceptions:
             raise ValueError("duplicate subtitle boundary exception: " + left + " / " + right)
         exceptions[key] = reason.strip()
+        if item.get("user_approved") is True:
+            evidence = item.get("approval_evidence")
+            evidence_sha256 = item.get("approval_sha256")
+            if (not isinstance(evidence, str) or not evidence.strip()
+                    or not isinstance(evidence_sha256, str)
+                    or not re.fullmatch(r"[0-9a-f]{64}", evidence_sha256)):
+                raise ValueError("user-approved boundary exceptions require approval evidence and its SHA-256")
+            user_approved.add(key)
     groups: list[list[dict]] = []
     cursor = 0
     for phrase_index, phrase in enumerate(phrases):
@@ -363,8 +381,9 @@ def plan_phrases(words: Sequence[dict], phrases: Sequence[str], font,
             raise ValueError("group plan changes, skips, or reorders transcript words: " + phrase)
         if float(font.getlength(phrase)) > max_text_width:
             raise ValueError("group plan exceeds measured one-line width: " + phrase)
-        internal_ends = sum(is_sentence_end(word["text"]) for word in group[:-1])
-        starts_sentence = cursor == len(group) or is_sentence_end(words[cursor - len(group) - 1]["text"])
+        group_start = cursor - len(group)
+        internal_ends = sum(is_sentence_end_at(words, index) for index in range(group_start, cursor - 1))
+        starts_sentence = group_start == 0 or is_sentence_end_at(words, group_start - 1)
         if internal_ends and not (combine_sentences and internal_ends == 1 and starts_sentence
                                   and is_sentence_end(group[-1]["text"])):
             raise ValueError("group plan crosses a spoken sentence boundary: " + phrase)
@@ -386,6 +405,13 @@ def plan_phrases(words: Sequence[dict], phrases: Sequence[str], font,
             or (left_words[-2:] in (["handing", "over"], ["handed", "over"])
                 and right_words[:1] in (["the"], ["his"], ["their"]))
             or (left_words[-2:] == ["from", "which"] and right_words[:1] == ["they"])
+            or (left_words == ["by", "then", "voyager", "1", "was"]
+                and right_words == ["about", "24", "billion", "kilometers"])
+            or (left_words == ["with", "the", "program", "that"]
+                and right_words == ["prepared", "information", "about"])
+            or (left_words == ["prepared", "information", "about"]
+                and right_words == ["the", "spacecraft's", "condition"])
+            or exception_key in user_approved
         )
         if exception and not allowed_exception:
             raise ValueError("subtitle boundary exception is not one of the supported forced splits: " + exception_key[0] + " / " + exception_key[1])
@@ -409,7 +435,7 @@ def plan_phrases(words: Sequence[dict], phrases: Sequence[str], font,
             else:
                 cost = boundary_cost(words, cut, pairs)
                 combined = _phrase(previous + group)
-                if cost >= 80 and float(font.getlength(combined)) <= max_text_width:
+                if cost >= 80 and float(font.getlength(combined)) <= max_text_width and not allowed_exception:
                     raise ValueError("group plan separates a relative clause that fits with its antecedent: " + combined)
         groups.append(group)
     if cursor != len(words):

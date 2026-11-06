@@ -13,6 +13,64 @@ SCRIPT = Path(__file__).resolve().parents[1] / "scripts" / "composer_lock.py"
 
 
 class ComposerLockTests(unittest.TestCase):
+    def test_bad_ack_and_unresolved_eof(self) -> None:
+        with tempfile.TemporaryDirectory() as temp:
+            env = os.environ.copy()
+            env['YTVIDEOS_CHATGPT_SESSION_LOCK'] = str(Path(temp) / 'lock')
+            p = subprocess.Popen([sys.executable, str(SCRIPT), '--task-id', 'one', '--controlled'],
+                                 stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, env=env)
+            self.assertTrue(p.stdout.readline().startswith('LOCK_ACQUIRED '))
+            self.assertEqual(p.stdout.readline().strip(), 'READY')
+            p.stdin.write('VERIFIED\n'); p.stdin.flush()
+            self.assertEqual(p.stdout.readline().strip(), 'INVALID_COMMAND')
+            p.stdin.write('PENDING ' + 'c'*64 + '\n'); p.stdin.flush()
+            self.assertEqual(p.stdout.readline().strip(), 'PENDING_RECORDED')
+            p.stdin.close(); self.assertEqual(p.wait(timeout=3), 4)
+            p.stdout.close(); p.stderr.close()
+            legacy = subprocess.run([sys.executable, str(SCRIPT), '--task-id', 'legacy'],
+                                    capture_output=True, text=True, env=env, timeout=3)
+            self.assertEqual(legacy.returncode, 4)
+            self.assertIn('NEEDS_INSPECTION', legacy.stdout)
+            self.assertNotIn('LOCK_ACQUIRED', legacy.stdout)
+            q = subprocess.run([sys.executable, str(SCRIPT), '--task-id', 'next', '--controlled'],
+                               input='', capture_output=True, text=True, env=env, timeout=3)
+            self.assertEqual(q.returncode, 4)
+            self.assertIn('NEEDS_INSPECTION', q.stdout)
+            self.assertNotIn('READY', q.stdout)
+
+    def test_controlled_release_and_crash_recovery(self) -> None:
+        with tempfile.TemporaryDirectory() as temp:
+            env = os.environ.copy()
+            env['YTVIDEOS_CHATGPT_SESSION_LOCK'] = str(Path(temp) / 'lock')
+            def start(task):
+                return subprocess.Popen([sys.executable, str(SCRIPT), '--task-id', task, '--controlled'],
+                    stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, env=env)
+            first = start('one')
+            self.assertTrue(first.stdout.readline().startswith('LOCK_ACQUIRED '))
+            self.assertEqual(first.stdout.readline().strip(), 'READY')
+            first.stdin.write('PENDING ' + 'a' * 64 + '\n'); first.stdin.flush()
+            self.assertEqual(first.stdout.readline().strip(), 'PENDING_RECORDED')
+            blocked = subprocess.run([sys.executable, str(SCRIPT), '--task-id', 'legacy'], env=env,
+                                     capture_output=True, text=True, timeout=3)
+            self.assertEqual(blocked.returncode, 3)
+            first.stdin.write('VERIFIED\n'); first.stdin.flush()
+            self.assertIn('LOCK_RELEASED verified', first.stdout.readline())
+            first.communicate(timeout=3)
+            second = start('two')
+            self.assertTrue(second.stdout.readline().startswith('LOCK_ACQUIRED '))
+            self.assertEqual(second.stdout.readline().strip(), 'READY')
+            second.stdin.write('PENDING ' + 'b' * 64 + '\n'); second.stdin.flush()
+            self.assertEqual(second.stdout.readline().strip(), 'PENDING_RECORDED')
+            second.kill(); second.communicate(timeout=3)
+            recovery = start('recovery')
+            self.assertTrue(recovery.stdout.readline().startswith('LOCK_ACQUIRED '))
+            self.assertIn('NEEDS_INSPECTION', recovery.stdout.readline())
+            recovery.stdin.write('INSPECTED\n'); recovery.stdin.flush()
+            self.assertEqual(recovery.stdout.readline().strip(), 'INSPECTION_RECORDED')
+            self.assertEqual(recovery.stdout.readline().strip(), 'READY')
+            recovery.stdin.close(); recovery.wait(timeout=3)
+            recovery.stdout.close(); recovery.stderr.close()
+
     def test_exclusive_lock_reports_owner_and_releases_on_interrupt(self) -> None:
         with tempfile.TemporaryDirectory() as temp:
             env = os.environ.copy()

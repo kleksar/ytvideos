@@ -8,7 +8,9 @@ import argparse
 import json
 import sys
 from pathlib import Path
-from schedule import API, SCOPE, read, reserve, mark_done, valid_ids, ScheduleError
+from schedule import (API, SCOPE, read, reserve, mark_done, valid_ids, ScheduleError,
+                      delivery_module, verify_upload_receipt, verify_staged_media,
+                      verify_serving_caption)
 from add_to_playlist import read_items
 
 STATUS_KEYS = ('embeddable', 'license', 'publicStatsViewable', 'selfDeclaredMadeForKids', 'containsSyntheticMedia')
@@ -32,7 +34,8 @@ def verify_fields(actual, expected):
             raise ScheduleError('Unconfirmed or changed field: ' + k + '; inspect manually')
 
 
-def update(session, channel, video, state, mode, film=None):
+def update(session, channel, video, state, mode, film=None, *,
+           upload_receipt=None, srt=None, language=None, caption_receipt=None):
     valid_ids(channel, video)
     state = state_path(state)
     v = read(session, channel, video)
@@ -44,9 +47,16 @@ def update(session, channel, video, state, mode, film=None):
         raise ScheduleError('Video already scheduled; inspect manually')
     if status.get('privacyStatus') not in ('private', 'unlisted'):
         raise ScheduleError('Unexpected visibility; inspect before changing it')
+    staged = False
     if mode == 'privacy':
         if status.get('privacyStatus') == 'unlisted':
             return {'result': 'already_unlisted', 'video_id': video}
+        if delivery_module().protected_channel(channel):
+            upload = verify_upload_receipt(upload_receipt, channel, video)
+            verify_staged_media(upload, channel, srt, language)
+            staged = bool(upload.get('staging_delivery_receipt'))
+            if staged:
+                verify_serving_caption(session, channel, video, language, srt, caption_receipt)
         if v.get('processingDetails', {}).get('processingStatus') != 'succeeded':
             raise ScheduleError('Video processing is not complete')
         for k in ('embeddable', 'license', 'publicStatsViewable'):
@@ -83,6 +93,8 @@ def update(session, channel, video, state, mode, film=None):
     fresh = read(session, channel, video)
     if fresh.get('etag') != etag or fresh.get(part) != v.get(part):
         raise ScheduleError('Video changed before update; inspect receipt and state')
+    if staged:
+        verify_serving_caption(session, channel, video, language, srt, caption_receipt)
     try:
         r = session.put(API + 'videos', params={'part': part}, json={'id': video, part: data},
                         headers={'If-Match': etag}, timeout=60, allow_redirects=False)
@@ -154,6 +166,10 @@ def main():
     p.add_argument('--state', required=True)
     p.add_argument('--film-id')
     p.add_argument('--playlist-id')
+    p.add_argument('--upload-receipt')
+    p.add_argument('--srt')
+    p.add_argument('--language')
+    p.add_argument('--caption-receipt')
     a = p.parse_args()
     try:
         if a.action == 'description' and not a.film_id:
@@ -166,7 +182,9 @@ def main():
         with AuthorizedSession(creds) as session:
             result = (add_playlist(session, a.channel_id, a.video_id, a.playlist_id, a.state)
                       if a.action == 'playlist' else
-                      update(session, a.channel_id, a.video_id, a.state, a.action, a.film_id))
+                      update(session, a.channel_id, a.video_id, a.state, a.action, a.film_id,
+                             upload_receipt=a.upload_receipt, srt=a.srt, language=a.language,
+                             caption_receipt=a.caption_receipt))
         print(json.dumps(result, ensure_ascii=False, indent=2))
         return 0
     except Exception as exc:

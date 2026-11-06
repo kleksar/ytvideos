@@ -1,11 +1,20 @@
-# Current 16-second master validation — 2026-11-04
+# v03 approved thin frame — validation 2026-11-05
 
-The current masters are versioned v02 outputs generated from `render_master.py` after changing its default duration to 16 seconds and assigning layer periods `(16.0, 8.0, 16.0 / 3.0)` seconds. The 8-second v01 masters were retained unchanged under their original names and are superseded.
+Both masters: ProRes 4444 with straight alpha, 30 fps, 480 frames, 16 seconds. Full-frame streamed decode completed; the central half of every frame has alpha 0, and all outer-edge pixels have alpha 255. MAE compares premultiplied RGBA on a 0–255 scale.
+
+- 16x9: `paper-border-16x9-16s-v03.mov`, 527323309 bytes; SHA-256 `5f994a7f2abfc7612793e65afadc0f596c612c97ede2dc3ef72f747adf6f9b38`; wrap MAE 0.086811, final adjacent MAE 0.086947.
+- 9x16: `paper-border-9x16-16s-v03.mov`, 558117103 bytes; SHA-256 `27427c87a53e01d6af07bcf39858a5e251a864fccf76136f1e44ef745411d425`; wrap MAE 0.087237, final adjacent MAE 0.087360.
+
+The approved source recipe uses `render_master_v03.py`, with layer-normal factor 0.67 × 0.67 of v02 and periods 16, 8 and 16/3 seconds. Existing v01/v02 files and their consumers remain unchanged.
+
+# Historical v02 master validation — 2026-11-04
+
+The v02 masters are versioned v02 outputs generated from `render_master.py` after changing its default duration to 16 seconds and assigning layer periods `(16.0, 8.0, 16.0 / 3.0)` seconds. The 8-second v01 masters were retained unchanged under their original names and are superseded.
 
 ## Files and stream properties
 
-- Horizontal current master: `paper-border-16x9-16s-v02.mov` — 844,827,575 bytes; SHA-256 `90313c452cee0b594adde27a8ab3f6b449d30ed085d7fee583d7e0990ae15985`.
-- Vertical current master: `paper-border-9x16-16s-v02.mov` — 874,675,657 bytes; SHA-256 `072119faa983ce8364b99430c026fd51c2f3bc6326fc7a1ea9602b855c0ec434`.
+- Horizontal v02 master: `paper-border-16x9-16s-v02.mov` — 844,827,575 bytes; SHA-256 `90313c452cee0b594adde27a8ab3f6b449d30ed085d7fee583d7e0990ae15985`.
+- Vertical v02 master: `paper-border-9x16-16s-v02.mov` — 874,675,657 bytes; SHA-256 `072119faa983ce8364b99430c026fd51c2f3bc6326fc7a1ea9602b855c0ec434`.
 - Both are ProRes 4444, decoded as `yuva444p12le`, 30/1 fps, progressive, 480 frames, exactly 16.000000 s. Full FFmpeg decode completed without errors for each.
 
 ## Alpha coverage

@@ -8,6 +8,7 @@ For the set record:
 - Required scene IDs and selected file for each, or explicit missing/rejected state.
 - Actual reference files/hashes and roles (style, identity, location, historical detail); link acceptance/provenance instead of copying a stale summary.
 - State/permissions needed by the next stage and any pending sample checkpoint.
+- Representative early-check IDs/findings when applicable, plus the actual selected-file sequence sheet, covered IDs/versions, observed repetition/hierarchy findings and resolved or open corrections. Link the existing log; no parallel acceptance register is needed.
 
 For each selected asset record:
 
@@ -17,8 +18,12 @@ For each selected asset record:
 | Requested generation target | Requested aspect, pixel dimensions and quality; exact prompt and any explicitly applied tool controls, with unsupported/unknown values identified |
 | Native dimensions, format/mode, alpha | Measured file properties; delivery size/upscaling recorded separately |
 | Delivery geometry and fit | Link the accepted brief/export contract; record target canvas, proportional scaling/crop and relevant zoom envelope separately from the generation request and native PNG size |
-| Dependencies | Applicable storyboard beat/revision, references, before/after object state; link the visual bible |
-| Source/prompt | Reused/generated/edited source, exact prompt/log, supplied references, known tool/parameters |
+| Dependencies | Applicable storyboard beat/revision, narrative job/visual finding, assigned scene lettering and carrier, references, before/after object state; link the visual bible |
+| Source/prompt | Reused/generated/edited source, exact prompt/log, actually supplied reference paths/hashes and roles distinguished from required references, known tool/parameters |
+| Recurring-character findings | Planned and observed presence/role, including the presenter’s visible action if assigned by the storyboard; separate observed rendering-style, identity and costume findings against the accepted anchors, with limits for uninspected details |
+| Environment and integration | Observed environment/prop rendering against the channel profile, separately from character fidelity; lighting, perspective, occlusions and contact |
+| Operation and text context | Generate/edit, actual edit target and preserved elements where applicable; language and required wording of significant carriers tied to place/date/institution |
+| Historical visual anchors | Inspected source pages/files, identity/date/version, construction features and unknown views, credit/usage conditions and reference roles; distinguish archival source from generated reconstruction |
 | Acceptance | Who accepted what/when, with a source; user approval, author review and independent review separately |
 | QA evidence | Full-file/detail views, actual framing/reduction checks, findings and limits, each tied to version/hash |
 | Handoff | Ready/missing/rejected/needs recheck; planned frame fit/text areas; downstream checks affected by replacement |

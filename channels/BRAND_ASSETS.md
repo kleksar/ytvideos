@@ -8,7 +8,9 @@
 
 ## Paper Detour
 
-Включены текстовые стандарты типографики и обложек: [`TYPOGRAPHY_STANDARD.md`](paper_detour/brand/TYPOGRAPHY_STANDARD.md) и [`THUMBNAIL_PLAYBOOK.md`](paper_detour/brand/THUMBNAIL_PLAYBOOK.md), плюс [`FILM_REFERENCE_030.md`](paper_detour/brand/FILM_REFERENCE_030.md) с описанием принятого визуального примера и ссылкой на публичный выпуск. Профиль монтажа и титров — [`paper.json`](../automation/ffmpeg_montage/profiles/paper.json). Старые локальные примерные PNG из прошлых выпусков не включены; используйте текстовые стандарты и публичный пример, если он доступен.
+В текущем рабочем дереве доступен одобренный [пакет смысловой постановки P01–P06](paper_detour/brand/References/meaningful_staging_20261105_v01/REFERENCE.md): шесть оригинальных бумажных сцен, контактный лист, промпты и manifest с хешами/приёмкой. Это общий эталон подхода и детализации, не обязательный корабельный сюжет и не подтверждённая карта/схема обломков. Для нового клона проверить наличие реальных PNG либо передать пакет; текстовая ссылка сама их не доставляет.
+
+Включены текстовые стандарты типографики и обложек: [`TYPOGRAPHY_STANDARD.md`](paper_detour/brand/TYPOGRAPHY_STANDARD.md) и [`THUMBNAIL_PLAYBOOK.md`](paper_detour/brand/THUMBNAIL_PLAYBOOK.md), плюс [`FILM_REFERENCE_030.md`](paper_detour/brand/FILM_REFERENCE_030.md) с описанием принятого визуального примера и архивной ссылкой на выпуск (доступность видео сейчас не перепроверена). Профиль монтажа и титров — [`paper.json`](../automation/ffmpeg_montage/profiles/paper.json). Принятые Paper Detour004 и 033 изображения записаны, но отсутствуют в текущем checkout; точные пути, хеши, отсутствие и восстановление описаны в [REFERENCE_STATUS.md](paper_detour/brand/REFERENCE_STATUS.md). Не заменяйте их текущими эпизодными изображениями или сгенерированными по описанию копиями.
 
 ## Шрифты и перенос между компьютерами
 

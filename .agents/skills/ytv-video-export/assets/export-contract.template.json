@@ -5,7 +5,10 @@
   "language": null,
   "format": null,
   "purpose": null,
-  "settings_profile": {"path": null, "sha256": null},
+  "settings_profile": {
+    "path": null,
+    "sha256": null
+  },
   "edit": {
     "project_id": null,
     "timeline_id": null,
@@ -67,5 +70,7 @@
     "unresolved_required_fields": []
   },
   "render_receipt": null,
-  "qa_receipt": null
+  "qa_receipt": null,
+  "settings_check_receipt": null,
+  "render_provenance": null
 }

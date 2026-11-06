@@ -231,7 +231,8 @@ def resume_offset(r, size):
     return int(match.group(1)) + 1, None
 
 
-def upload(session, video, meta, expected_channel, state_path, sleep=time.sleep, delivery_receipt=None):
+def upload(session, video, meta, expected_channel, state_path, sleep=time.sleep,
+           delivery_receipt=None, *, private_staging=False):
     video = Path(video).resolve(strict=True)
     size = video.stat().st_size
     if not video.is_file() or size == 0:
@@ -249,11 +250,15 @@ def upload(session, video, meta, expected_channel, state_path, sleep=time.sleep,
     delivery = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(delivery)
     try:
-        delivery.validate_release(video, expected_channel, delivery_receipt)
+        checked = delivery.validate_release(video, expected_channel, delivery_receipt,
+                                            private_staging=private_staging)
     except (ValueError, KeyError, TypeError, IndexError, AttributeError, OSError) as error:
         raise UploadError('Delivery not ready: ' + str(error)) from None
     fingerprint = {'video': str(video), 'sha256': hash_file(video), 'size': size,
                    'channel_id': expected_channel, 'body': body}
+    staging_receipt = None
+    if private_staging and checked is not None:
+        staging_receipt = str(Path(delivery_receipt or (str(video) + '.delivery.json')).resolve())
     state_path = Path(state_path)
     if state_path.resolve() == video:
         raise UploadError('State path must differ from the video file.')
@@ -268,6 +273,8 @@ def upload(session, video, meta, expected_channel, state_path, sleep=time.sleep,
         state = json.loads(state_path.read_text(encoding='utf-8')) if state_path.exists() else None
         if state and state.get('fingerprint') != fingerprint:
             raise UploadError('File, metadata or channel differs from saved state; use a different state path.')
+        if state and state.get('staging_delivery_receipt') != staging_receipt:
+            raise UploadError('Private staging mode or delivery receipt differs from saved state.')
         check_channel(session, expected_channel)
         if state and state.get('phase') == 'complete':
             return state['video_id']
@@ -275,6 +282,8 @@ def upload(session, video, meta, expected_channel, state_path, sleep=time.sleep,
             raise UploadError('Session creation outcome unknown. Check YouTube Studio before clearing this state; do not retry blindly.')
         if not state:
             state = {'phase': 'initiating', 'fingerprint': fingerprint}
+            if staging_receipt:
+                state['staging_delivery_receipt'] = staging_receipt
             private_write(state_path, state)
             # No blind retries: a lost response can hide a created session.
             try:
@@ -342,7 +351,8 @@ def upload(session, video, meta, expected_channel, state_path, sleep=time.sleep,
                     stalled = 0
                 retries = 0
                 if video_id:
-                    state = {'phase': 'complete', 'fingerprint': fingerprint, 'video_id': video_id}
+                    state.pop('session_url', None)
+                    state.update(phase='complete', video_id=video_id)
                     private_write(state_path, state)
                     return video_id
                 need_status = False
@@ -368,6 +378,7 @@ def main():
     u.add_argument('--channel-id', required=True)
     u.add_argument('--state', required=True, help='Unique persistent state file per video/channel, outside project.')
     u.add_argument('--delivery-receipt', help='Paper/Nuviko readiness record; defaults to VIDEO.delivery.json.')
+    u.add_argument('--stage-private', action='store_true', help='Allow pending playback and SRT after technical QA.')
     s = sub.add_parser('status', help='Read actual privacy, upload and processing status without modifying the video.')
     s.add_argument('--token', required=True)
     s.add_argument('--channel-id', required=True)
@@ -397,7 +408,8 @@ def main():
                 with open(args.metadata, encoding='utf-8') as f:
                     meta = json.load(f)
                 with AuthorizedSession(creds) as session:
-                    video_id = upload(session, args.video, meta, args.channel_id, args.state, delivery_receipt=args.delivery_receipt)
+                    video_id = upload(session, args.video, meta, args.channel_id, args.state,
+                                      delivery_receipt=args.delivery_receipt, private_staging=args.stage_private)
                 print(json.dumps(upload_result(video_id)))
             elif args.command == 'status':
                 with AuthorizedSession(creds) as session:

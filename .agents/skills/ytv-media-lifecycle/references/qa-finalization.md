@@ -1,6 +1,6 @@
 # Автоматическое завершение QA
 
-Применимость: этот контракт относится к реально запрошенным frame-audit batches. Обычный Paper flow передаёт MP4 пользователю сразу после FFmpeg-рендера; не создавать такой batch ради finalize-qa. Технический receipt не подменяет перечисленные ниже свидетельства frame review. Обычный scratch очищает workspace clean по своему контракту.
+Контракт относится к выборкам кадров, созданным для [внутренней проверки MP4](../../ytv-video-qa/references/export-review.md) или адресного аудита. Создавать выборку по плану QA. Технический receipt не подменяет перечисленные ниже свидетельства frame review. Обычный scratch очищает workspace clean по своему контракту.
 
 Новые проверки используют managed-режим `inspect_video.py --episode --run-id --owner` по [QA contract](../../ytv-video-qa/references/helper-contract.md). Helper эксклюзивно создаёт отдельный синхронный QA-run, пишет кадры в `Work/<run>/scratch/qa`, отчёт/логи/рецепт в `Edit/QA/<run>`, пакетно регистрирует точные кадры и завершает writer. Не использовать ID production/render run. Ошибочная проверка остаётся failed; фоновый writer этим helper не запускается. Безопасная очистка не выводится из exit code или `technical_status`.
 

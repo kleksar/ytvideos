@@ -32,7 +32,8 @@ def validate(plan, base):
     for i,s in enumerate(scenes):
         start=s.get('start_frame'); end=s.get('end_frame')
         if not isinstance(start,int) or isinstance(start,bool) or not isinstance(end,int) or start!=cursor or end<=start: raise ValueError(f'scene {i+1}: intervals must be continuous integer frames')
-        if plan.get('enforce_scene_duration',True) and not 120<=end-start<=180: raise ValueError(f'scene {i+1}: expected 4–6 seconds at 30fps')
+        is_end_screen = (plan['channel'] in {'paper', 'nuviko'} and plan['format'] == 'long' and i == len(scenes)-1 and s.get('role') == 'end_screen' and end-start == 300)
+        if plan.get('enforce_scene_duration',True) and not (120<=end-start<=180 or is_end_screen): raise ValueError(f'scene {i+1}: expected 4–6 seconds at 30fps, or a final 10-second long end_screen')
         image=path_from(base,s['image']);
         if not image.is_file(): raise ValueError(f'image not found: {image}')
         if 'direction' not in s or 'zoom' not in s:raise ValueError(f'scene {i+1}: explicit direction and zoom are required')
@@ -40,13 +41,15 @@ def validate(plan, base):
         camera=s.get('camera')
         if camera: validate_camera(camera, direction, zoom)
         if direction not in DIRECTIONS or zoom not in ZOOMS: raise ValueError(f'scene {i+1}: invalid movement')
-        if direction=='none' and zoom=='none': raise ValueError(f'scene {i+1}: no movement selected')
+        if direction=='none' and zoom=='none' and not is_end_screen: raise ValueError(f'scene {i+1}: no movement selected')
         if direction!='none' and previous==direction: raise ValueError(f'scene {i+1}: neighboring scenes repeat direction {direction}')
         if zoom!='none' and previous_zoom==zoom: raise ValueError(f'scene {i+1}: neighboring scenes repeat zoom {zoom}')
         previous=direction;previous_zoom=zoom;result.append({'image':str(image),'start_frame':start,'end_frame':end,'direction':direction,'zoom':zoom,**({'camera':camera} if camera else {})});cursor=end
     captions=plan.get('subtitles')
     if not isinstance(captions,dict) or captions.get('mode') not in {'words','none'}: raise ValueError('subtitles.mode must be words or explicit none for a technical probe')
     overlays=plan.get('overlays',[])
+    if plan['channel']=='nuviko' and overlays:
+        raise ValueError('Nuviko montage allows only the subtitle layer. Generate scene text as part of the source image.')
     for layer in overlays:
         if not path_from(base,layer['path']).is_file():raise ValueError('missing overlay '+layer['path'])
         if not (0<=layer['start_frame']<layer['end_frame']<=cursor):raise ValueError('overlay outside timeline')
@@ -102,7 +105,9 @@ def run(cmd): subprocess.run(cmd,check=True,stdin=subprocess.DEVNULL)
 def scene_render(i,s,work,canvas,encoder,bitrate):
     p=work/f'scene_{i:05d}.mp4';n=s['end_frame']-s['start_frame']
     vf=camera_filter(*canvas,n,s['camera']) if s.get('camera') else motion_filter(*canvas,n,s['direction'],s['zoom'])
-    run(['ffmpeg','-hide_banner','-loglevel','error','-n','-loop','1','-framerate','30','-i',s['image'],'-vf',vf,'-frames:v',str(n),'-an','-c:v',encoder,'-b:v',bitrate,'-pix_fmt','yuv420p',str(p)])
+    cmd=['ffmpeg','-hide_banner','-loglevel','error','-n','-loop','1','-framerate','30','-i',s['image'],'-vf',vf,'-frames:v',str(n),'-an','-c:v',encoder,'-b:v',bitrate,'-pix_fmt','yuv420p',str(p)]
+    delivery.write_json(work/f'scene_{i:05d}.command.json',cmd)
+    run(cmd)
     return p
 
 def caption_sequence(plan,base,work,canvas,total):
@@ -110,6 +115,9 @@ def caption_sequence(plan,base,work,canvas,total):
     if sub.get('style') or any(key in sub for key in ('width','y')):
         raise ValueError('Subtitle style and geometry are defined by the shared format profile')
     words,_=delivery.validate_words(plan,base,total)
+    caption_end=sub.get('end_frame',total)
+    if not isinstance(caption_end,int) or isinstance(caption_end,bool) or not 1<=caption_end<=total:
+        raise ValueError('subtitles.end_frame must be an exclusive frame within the timeline')
     width,height=canvas
     _,geometry_path=delivery.profile_paths(plan['channel'],plan['format'])
     geometry=json.loads(geometry_path.read_text())
@@ -160,6 +168,11 @@ def caption_sequence(plan,base,work,canvas,total):
         if gi==0:events.append((0,state(None)))
         for wi,w in enumerate(g):events.append((min(total-1,max(0,math.ceil(float(w['start'])*30-1e-7))),state(wi)))
     ordered=sorted(dict(events).items());ffcat=work/'captions.ffconcat';lines=['ffconcat version 1.0']
+    if caption_end < total:
+        blank=directory/'transparent.png'
+        Image.new('RGBA',(width,band_h),(0,0,0,0)).save(blank,compress_level=1)
+        ordered.append((caption_end,blank))
+        ordered.sort(key=lambda event:event[0])
     for i,(frame,p) in enumerate(ordered):
         end=ordered[i+1][0] if i+1<len(ordered) else total
         if end>frame:lines.extend(['file '+quote(p),'option framerate 30',f'duration {(end-frame)/30:.12f}'])
@@ -169,7 +182,8 @@ def caption_sequence(plan,base,work,canvas,total):
     report['algorithm']=grouping.VERSION
     report['boundary_exceptions']=sub.get('boundary_exceptions',[])
     report['boundary_warnings']=grouping.boundary_warnings(groups)
-    report['display_intervals']=[{'start_frame':0 if i==0 else math.ceil(g[0]['start']*30-1e-7),'end_frame':math.ceil(groups[i+1][0]['start']*30-1e-7) if i+1<len(groups) else total} for i,g in enumerate(groups)]
+    report['caption_end_frame']=caption_end
+    report['display_intervals']=[{'start_frame':0 if i==0 else math.ceil(g[0]['start']*30-1e-7),'end_frame':math.ceil(groups[i+1][0]['start']*30-1e-7) if i+1<len(groups) else caption_end} for i,g in enumerate(groups)]
     report['word_events']=[{'frame':frame,'path':str(path)} for frame,path in ordered]
     delivery.write_json(work/'caption_groups.json',report)
     resolved={key:report[key] for key in ('resolved_font_size_px','max_visible_width_px','center_x_px','baseline','algorithm','display_intervals','boundary_warnings')}
@@ -178,15 +192,46 @@ def caption_sequence(plan,base,work,canvas,total):
     delivery.write_json(work/'subtitle_review.json',delivery.review_template(contract))
     return ffcat,top
 
+def final_command(plan,base,prepared,work,out,subtitle,encoder,video_bitrate,audio):
+    video=work/'picture.mp4';frames=prepared['frames'];sub=plan['subtitles']
+    audio_codec=audio['codec_name'];audio_channels=int(audio['channels'])
+    audio_bitrate='256k' if audio_channels >= 2 else '192k'
+    cmd=['ffmpeg','-hide_banner','-loglevel','error','-n','-i',str(video)]; filters=[]; source='0:v';index=1
+    if subtitle:
+        path,y=subtitle
+        if sub['mode']=='words' or path.suffix=='.ffconcat':cmd+=['-f','concat','-safe','0']
+        cmd+=['-i',str(path)];filters.append(f'[{index}:v]fps=30,format=rgba[subs]');filters.append(f'[{source}][subs]overlay=0:{y}:eof_action=pass:format=auto[vsub]');source='vsub';index+=1
+    for j,layer in enumerate(plan.get('overlays',[])):
+        path=path_from(base,layer['path'])
+        if layer.get('role') == 'paper_frame':
+            cmd+=['-stream_loop','-1']
+            if path.suffix.lower() == '.webm': cmd+=['-c:v:0','libvpx-vp9']
+        if path.suffix.lower() in {'.png','.jpg','.jpeg','.webp'}:cmd+=['-loop','1','-framerate','30']
+        cmd+=['-i',str(path)];start=layer['start_frame'];end=layer['end_frame'];x=int(layer.get('x',0));y=int(layer.get('y',0))
+        filters.append(f'[{index}:v]setpts=PTS-STARTPTS+{start}/(30*TB)[ov{j}]');filters.append(f'[{source}][ov{j}]overlay={x}:{y}:enable=\'gte(n,{start})*lt(n,{end})\':eof_action=pass:format=auto[v{j}]');source=f'v{j}';index+=1
+    audioindex=index;cmd+=['-i',prepared['audio']]
+    # Explicit opt-in for sRGB-authored scenes and caption graphics. Restore RGB
+    # before an explicit matrix/range conversion and the sRGB -> Rec.709 transfer.
+    color=''
+    if plan.get('source_transfer')=='srgb':
+        color='format=rgb24,scale=in_range=pc:out_range=tv:out_color_matrix=bt709,format=yuv444p,colorspace=ispace=bt709:itrc=srgb:iprimaries=bt709:irange=tv:all=bt709:range=tv:format=yuv420p,'
+    elif plan.get('source_transfer') is not None:
+        raise ValueError('source_transfer must be srgb when supplied')
+    filters.append(f'[{source}]{color}setsar=1,format=yuv420p[vout]')
+    cmd+=['-filter_complex',';'.join(filters),'-map','[vout]','-map',f'{audioindex}:a:0','-c:v',encoder,'-b:v',video_bitrate,'-pix_fmt','yuv420p','-color_primaries','bt709','-color_trc','bt709','-colorspace','bt709','-color_range','tv','-c:a',('copy' if audio_codec=='aac' else 'aac'),*([] if audio_codec=='aac' else ['-b:a',audio_bitrate]),'-t',f'{frames/30:.12f}','-movflags','+faststart',str(out)]
+    return cmd
+
 def main():
-    ap=argparse.ArgumentParser(description=__doc__);ap.add_argument('manifest',type=Path);ap.add_argument('--output',type=Path,required=True);ap.add_argument('--work-dir',type=Path,required=True);ap.add_argument('--jobs',type=int,default=2);ap.add_argument('--encoder',default='h264_videotoolbox');ap.add_argument('--bitrate',default='20M');ap.add_argument('--plan-only',action='store_true');ap.add_argument('--prepare-subtitles',action='store_true',help='Prepare the same subtitle states and contract as the full renderer, without encoding video');args=ap.parse_args()
+    ap=argparse.ArgumentParser(description=__doc__);ap.add_argument('manifest',type=Path);ap.add_argument('--output',type=Path,required=True);ap.add_argument('--work-dir',type=Path,required=True);ap.add_argument('--jobs',type=int,default=2);ap.add_argument('--encoder',default='h264_videotoolbox');ap.add_argument('--bitrate',default='20M');ap.add_argument('--plan-only',action='store_true');ap.add_argument('--prepare-subtitles',action='store_true',help='Prepare the same subtitle states and contract as the full renderer, without encoding video');ap.add_argument('--export-contract',type=Path,help='READY_TO_RENDER passport required for encoding');ap.add_argument('--check-settings',action='store_true',help='Validate passport against actual command without encoding');args=ap.parse_args()
     manifest=args.manifest.resolve(); base=manifest.parent;plan=json.loads(manifest.read_text()); prepared=validate(plan,base)
+    if sum((args.plan_only,args.prepare_subtitles,args.check_settings))>1:raise ValueError('Choose one preparation mode')
     if args.jobs<1:raise ValueError('jobs must be positive')
     out=args.output.resolve();work=args.work_dir.resolve()
     if out.exists() or work.exists():raise ValueError('output or work directory exists; choose new paths')
     work.mkdir(parents=True);out.parent.mkdir(parents=True,exist_ok=True)
     (work/'input_manifest.json').write_text(json.dumps(plan,indent=2,ensure_ascii=False)+'\n')
     prepared['manifest_path']=str(manifest)
+    prepared['source_transfer']=plan.get('source_transfer')
     (work/'plan.json').write_text(json.dumps(prepared,indent=2,ensure_ascii=False)+'\n')
     if args.plan_only: print(f'PLAN {work / "plan.json"}');return
     canvas=prepared['canvas'];frames=prepared['frames'];sub=plan['subtitles'];subtitle=None
@@ -198,35 +243,36 @@ def main():
     review=json.loads(path_from(base,sub['review']).read_text()) if sub.get('review') else None
     if review is not None and review.get('subtitle_contract_sha256')!=delivery.fingerprint(contract):
         raise ValueError('Pre-render subtitle review is stale')
-    audio_info=json.loads(subprocess.check_output(['ffprobe','-v','error','-select_streams','a:0','-show_entries','stream=codec_name,duration:format=duration','-of','json',prepared['audio']]))
+    audio_info=json.loads(subprocess.check_output(['ffprobe','-v','error','-select_streams','a:0','-show_entries','stream=codec_name,profile,channels,sample_rate,bit_rate,duration:format=duration','-of','json',prepared['audio']]))
     audio_stream=audio_info.get('streams',[])
     if not audio_stream:raise ValueError('audio input has no audio stream')
     audio_duration=float(audio_stream[0].get('duration') or audio_info['format']['duration'])
     if audio_duration + 0.04 < frames/30:raise ValueError('audio is shorter than the timeline; supply the full accepted mix')
-    audio_codec=audio_stream[0]['codec_name']
+    if not args.export_contract:raise ValueError('--export-contract is required before encoding; provide the accepted passport')
+    passport_path=args.export_contract.resolve()
+    cmd=final_command(plan,base,prepared,work,out,subtitle,args.encoder,args.bitrate,audio_stream[0])
+    passport=json.loads(passport_path.read_text())
+    settings=delivery.check_export_settings(passport,cmd,prepared,audio_stream[0],manifest,out)
+    delivery.write_json(work/'render_command.json',cmd)
+    delivery.write_json(work/'settings_check.json',{'status':'PASS','settings':settings})
+    engine=contract['engine'] if contract else [delivery.file_record(HERE/'montage.py'),delivery.file_record(HERE/'delivery.py')]
+    provenance=delivery.freeze_render(work,passport_path,work/'render_command.json',engine,prepared,audio_stream[0],manifest,out)
+    delivery.write_json(work/'render_provenance.json',provenance)
+    if args.check_settings:print(f'SETTINGS_PASS {work / "settings_check.json"}');return
     with concurrent.futures.ThreadPoolExecutor(max_workers=args.jobs) as pool:
         futures=[pool.submit(scene_render,i,s,work,canvas,args.encoder,args.bitrate) for i,s in enumerate(prepared['scenes'])]
         clips=[f.result() for f in futures]
     listing=work/'scenes.ffconcat';listing.write_text('ffconcat version 1.0\n'+''.join('file '+quote(p)+'\n' for p in clips));video=work/'picture.mp4'
     run(['ffmpeg','-hide_banner','-loglevel','error','-n','-f','concat','-safe','0','-i',str(listing),'-c','copy',str(video)])
     for p in clips:p.unlink()
-    cmd=['ffmpeg','-hide_banner','-loglevel','error','-n','-i',str(video)]; filters=[]; source='0:v';index=1
-    if subtitle:
-        path,y=subtitle
-        if sub['mode']=='words' or path.suffix=='.ffconcat':cmd+=['-f','concat','-safe','0']
-        cmd+=['-i',str(path)];filters.append(f'[{index}:v]fps=30,format=rgba[subs]');filters.append(f'[{source}][subs]overlay=0:{y}:eof_action=pass:format=auto[vsub]');source='vsub';index+=1
-    for j,layer in enumerate(plan.get('overlays',[])):
-        path=path_from(base,layer['path'])
-        if path.suffix.lower() in {'.png','.jpg','.jpeg','.webp'}:cmd+=['-loop','1','-framerate','30']
-        cmd+=['-i',str(path)];start=layer['start_frame'];end=layer['end_frame'];x=int(layer.get('x',0));y=int(layer.get('y',0))
-        filters.append(f'[{index}:v]setpts=PTS-STARTPTS+{start}/(30*TB)[ov{j}]');filters.append(f'[{source}][ov{j}]overlay={x}:{y}:enable=\'gte(n,{start})*lt(n,{end})\':eof_action=pass:format=auto[v{j}]');source=f'v{j}';index+=1
-    audioindex=index;cmd+=['-i',prepared['audio']];filters.append(f'[{source}]setsar=1,format=yuv420p[vout]')
-    cmd+=['-filter_complex',';'.join(filters),'-map','[vout]','-map',f'{audioindex}:a:0','-c:v',args.encoder,'-b:v',args.bitrate,'-pix_fmt','yuv420p','-color_primaries','bt709','-color_trc','bt709','-colorspace','bt709','-color_range','tv','-c:a',('copy' if audio_codec=='aac' else 'aac'),*([] if audio_codec=='aac' else ['-b:a','192k']),'-t',f'{frames/30:.12f}','-movflags','+faststart',str(out)]
-    (work/'render_command.json').write_text(json.dumps(cmd,indent=2)+'\n');run(cmd)
+    run(cmd)
     if sub['mode']=='words':
-        delivery.write_receipt(out,plan['channel'],contract,inputs,review)
+        # Detect writers changing accepted inputs or the running engine during render.
+        for record in inputs + contract['profiles'] + contract['engine']:
+            delivery.check_record(record)
+        delivery.write_receipt(out,plan['channel'],contract,inputs,review,provenance)
     print(f'RENDERED {out}',flush=True)
 
 if __name__=='__main__':
     try:main()
-    except (ValueError,KeyError,OSError,subprocess.CalledProcessError,json.JSONDecodeError) as e: print(f'ERROR: {e}',file=sys.stderr);sys.exit(2)
+    except (ValueError,TypeError,KeyError,OSError,subprocess.CalledProcessError,json.JSONDecodeError) as e: print(f'ERROR: {e}',file=sys.stderr);sys.exit(2)

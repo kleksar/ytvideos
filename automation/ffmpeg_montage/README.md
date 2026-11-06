@@ -44,9 +44,11 @@
 
 `focus` и `center` — координаты 0…1 после приведения исходника к аспекту кадра. Центр — центр видимого окна в исходной картинке; `scale` 1 означает полный кадр, больше 1 — более тесное кадрирование. Camera endpoints исполняются как плавное субпиксельное преобразование. Для примера выше `direction=right_to_left`, `zoom=in`: окно смещается вправо, а изображение на экране — влево. Фокус записывается вместе с обоснованием при просмотре конкретной картинки; движок не выбирает композицию автоматически. Он отклоняет путь с пустыми краями, невидимой точкой фокуса или противоречием заданному направлению/zoom. Видимость всего лица/предмета должна учитываться автором кадрирования; точка фокуса не является проверкой полного габарита.
 
+For new Paper Detour films and Shorts, include the approved v03 Paper Frame as the final full-timeline overlay, with source, orientation and example plan specified in the [Paper Frame instructions](../../channels/paper_detour/Shared/Overlays/Paper_Frame/README.md). The renderer loops overlays tagged `paper_frame` and places them after subtitles. Preserve frozen plans and inputs of existing jobs. `--plan-only` and `--prepare-subtitles` are not export-readiness checks.
+
 ## Субтитры и привязка входов
 
-Сначала завершить звук: скорость по [audio owner](../../.agents/skills/ytv-audio-delivery/references/delivery-checks.md), обрезки, паузы и полный микс. `audio_contract.final_audio_sha256` связывает этот файл; `applied_speed` фиксирует фактическую скорость, применённую один раз. `speed_evidence` — файл с исходником/hash, операцией либо подтверждением уже ускоренного источника и итоговым mix/hash. Число в JSON не измеряет скорость и не заменяет доказательство. Renderer не меняет скорость и не применяет offset к словам.
+Сначала завершить звук: скорость по [audio owner](../../.agents/skills/ytv-audio-delivery/SKILL.md), обрезки, паузы и полный микс с музыкой либо документированным исключением для новых выпусков. Проверка этапа — в карте выпуска; сам renderer не выбирает музыку и не проверяет её наличие или качество. `audio_contract.final_audio_sha256` связывает этот файл; `applied_speed` фиксирует фактическую скорость, применённую один раз. `speed_evidence` — файл с исходником/hash, операцией либо подтверждением уже ускоренного источника и итоговым mix/hash. Число в JSON не измеряет скорость и не заменяет доказательство. Renderer не меняет скорость и не применяет offset к словам.
 
 `word_times.json` — объект, привязанный к точному финальному звуку и буквальному тексту:
 
@@ -67,21 +69,24 @@
 
 Оформление/геометрия берутся только из профилей: локальные `subtitles.style`, `width` и `y` отклоняются. `subtitles.mode=none` допустим для явно порученной технической пробы; такой результат не получает готовность к upload фильма.
 
-Аудио — **уже готовый полный микс**, не новая озвучка. Источник AAC копируется, другие форматы кодируются в AAC. При слишком коротком звуке сборка останавливается. Скрипт не создаёт музыку/SFX, не занимается YouTube и не делает монтажную приёмку.
+Аудио — **уже готовый полный микс**, не новая озвучка. Источник AAC копируется; другие форматы кодируются в AAC с 256 кбит/с для стерео и 192 кбит/с для моно. При слишком коротком звуке сборка останавливается. Скрипт не создаёт музыку/SFX, не занимается YouTube и не делает монтажную приёмку.
+
+Для исходных sRGB-картинок и графики указать `source_transfer: "srgb"`: после композиции renderer явно переводит RGB через матрицу/limited range и sRGB transfer в Rec.709. Это реальное преобразование пикселей фильтрами `scale` и `colorspace`, помимо выходных тегов. Без поля сохраняется прежний маршрут; иные значения отклоняются.
 
 ## Запуск
 
 ```sh
 python3 automation/ffmpeg_montage/montage.py /absolute/episode/edit.json \
   --work-dir /absolute/episode/Work/ffmpeg_run_01 \
-  --output /absolute/episode/Deliverables/review_01.mp4 --jobs 2
+  --output /absolute/episode/Deliverables/review_01.mp4 \
+  --export-contract /absolute/episode/Edit/Export/EXPORT_CONTRACT_v01.json --jobs 2
 ```
 
-Для подготовки субтитров добавить `--prepare-subtitles`: без кодирования видео тот же генератор создаёт `caption_states/`, `captions.ffconcat`, `caption_groups.json`, `subtitle_contract.json` и `subtitle_review.json`. Contract содержит звук/скорость/evidence, текст, карту слов, хеши профилей/шрифта и кода, фактическую геометрию и интервалы кадров. Начала подсветки округляются вверх; первая группа нейтральна с кадра 0, предыдущая держится до следующей, последняя — до exclusive end. Review начинает с UNVERIFIED для смысла, слухового sync и размещения.
+Для подготовки субтитров добавить `--prepare-subtitles`: без кодирования видео тот же генератор создаёт `caption_states/`, `captions.ffconcat`, `caption_groups.json`, `subtitle_contract.json` и `subtitle_review.json`. Contract содержит звук/скорость/evidence, текст, карту слов, хеши профилей/шрифта и кода, фактическую геометрию, интервалы кадров и `subtitles.end_frame`. Начала подсветки округляются вверх; первая группа нейтральна с кадра 0, предыдущая держится до следующей. Последняя группа держится до exclusive end, заданного `subtitles.end_frame` (по умолчанию до конца видео); если кадр раньше конца, прозрачный слой убирает строку с этого кадра. Review начинает с UNVERIFIED для смысла, слухового sync и размещения.
 
 До полного рендера проверить короткую экспортированную пробу на реальных сценах: несколько слов, переход группы и паузу; затем закрыть нужное покрытие по subtitle owner. Для пробы использовать тот же генератор и профили; при вырезке сначала явно conform-нуть звук/слова/кадры. После фактических проверок заполнить review и передать его как `subtitles.review` в полном плане. При неизменных входах fingerprint совпадает; изменённые входы требуют обновления затронутых проверок. Evidence относится к реально выполненным действиям.
 
-Для только монтажного плана добавить `--plan-only` и указать **новые** output/work пути: он сохранит `plan.json`, без рендера или аудиопроверки. Полный прогон также сохраняет `caption_groups.json` и точную `render_command.json`. Собранные временные клипы удаляются после конкатенации; рабочие picture/субтитры остаются для возобновления и управляются lifecycle. После успешного рендера MP4 сразу передаётся пользователю без дополнительных послерендерных проверок по умолчанию.
+Для только монтажного плана добавить `--plan-only` и указать **новые** output/work пути: он сохранит `plan.json`, без рендера или аудиопроверки. Полный прогон также сохраняет `caption_groups.json`, точную `render_command.json` и команды сцен `scene_NNNNN.command.json`. Собранные временные клипы удаляются после конкатенации; рабочие picture/субтитры остаются для возобновления и управляются lifecycle. Готовый MP4 поступает на [внутреннюю проверку перед согласованием](../../.agents/skills/ytv-video-qa/references/export-review.md).
 
 ```sh
 python3 -m unittest discover -s automation/ffmpeg_montage/tests -v
@@ -91,14 +96,41 @@ python3 -m unittest discover -s automation/ffmpeg_montage/tests -v
 
 ## Приёмка и загрузка
 
-После кодирования создаётся `VIDEO.mp4.delivery.json`. Это запись идентичности, связывающая SHA-256 MP4, монтажный JSON, изображения, полный звук, текст, word map, профили/шрифт, код генератора и результаты подготовки. Передать MP4 пользователю сразу. Незавершённые проверки остаются открытыми; пользовательская приёмка конкретного файла записывается отдельно.
+Монтажный план Nuviko History отклоняется при непустом `overlays`. Видимый текст сцены входит в исходное изображение по [профилю Nuviko](../../channels/nuviko_history/brand/VISUAL_PROFILE.md#постановка-сцен). Субтитры по-прежнему готовятся из `subtitles` отдельным слоем.
+
+После кодирования создаётся `VIDEO.mp4.delivery.json` со схемой `ytv-delivery-v2`; subtitle contract сохраняет собственную схему `ytv-delivery-v1`. Это запись идентичности, связывающая SHA-256 MP4, монтажный JSON, изображения, полный звук, текст, word map, профили/шрифт, снимок использованного кода, паспорт, фактическую команду и результаты подготовки. До передачи готового MP4 заполнить технические проверки по [профилю QA](../../.agents/skills/ytv-video-qa/references/export-review.md). Пользовательскую приёмку конкретного файла записать после решения.
 
 В receipt:
 
 - `review.subtitle_contract_sha256` — fingerprint того же subtitle contract. Проверки `semantic_grouping`, `audible_sync`, `visual_placement` содержат `status`, `reviewer`, `method`, `coverage`, `evidence`. Evidence — `{ "path": "/absolute/report.md", "sha256": "..." }`, снимок реального отчёта. Метод и покрытие различают чтение, кадры и прослушивание. Alignment не заполняет `audible_sync=PASS`.
 - `acceptance` — `{ "accepted": true, "media_sha256": "SHA256_OF_THIS_MP4", "evidence": { "path": "/absolute/acceptance.md", "sha256": "..." } }` только после фактического одобрения пользователя. Поле не создаёт разрешение.
+- `playback_review` — `status: ACCEPTED`, `scope: final_mp4_with_audio_and_burned_in_captions`, `media_sha256` и `evidence` по [правилу приёмки MP4](../../.agents/skills/ytv-video-qa/references/export-review.md#приёмка-финального-mp4). При одобрении всего финального MP4 `acceptance` и `playback_review` ссылаются на одно свидетельство. Валидный `playback_review` допускает `UNVERIFIED` и `WARNING` в трёх полях `review`. Подтверждённый `FAIL` блокирует выпуск.
 - `open_requirements` — текущие обязательные незавершённые правки; для upload список пуст. Исправленные пункты удалять, не наращивать историю.
 
-При upload Paper/Nuviko [API-адаптер](../youtube/README.md) проверяет receipt до API-запросов, в том числе при resume. По умолчанию путь `VIDEO.mp4.delivery.json`, явно — `--delivery-receipt`. Нужны совпадающий MP4/канал, актуальные зависимости/профили/код, финальный звук с требуемой скоростью, точная карта слов, подтверждённые раздельные проверки, приёмка этого MP4 и отсутствие открытых требований. Отсутствующие или устаревшие данные блокируют upload. Metadata-only операции не запускают новую media-приёмку. Хеши устанавливают идентичность; достоверность проверки и поручения остаётся ответственностью координатора.
+Для `--stage-private` требуется `technical_review` со `status: PASS`, `full_decode: PASS`, `media_sha256` и `evidence` точного MP4. Допускаются незакрытая приёмка и проверки SRT. Поле `open_requirements` содержит существенные дефекты, которые блокируют и Private. Для выпуска все машинные привязки и пользовательская приёмка должны совпасть с точным MP4. Для staged выхода из Private `srt_review` фиксирует `media_sha256`, `language`, `srt` и `evidence` (path/hash), `structure`, `text_coverage`, `timing_mapping` со статусом PASS. `playback` записывается отдельно. Механика и статус дорожки принадлежат [адаптеру YouTube](../youtube/README.md#готовность-нового-mp4-papernuviko).
 
 Контракт относится к новым рендерам и их upload. Загруженные фильмы не пересобираются при обновлении инструмента. Исходники сохраняются до разрешённого lifecycle-архивирования; после TEXT_ONLY receipt служит архивной записью, а не готовностью повторить upload без media.
+
+## Сверка настроек и происхождение рендера
+
+Для кодирования, включая технические пробы, обязателен `--export-contract` с паспортом `READY_TO_RENDER` по [export owner](../../.agents/skills/ytv-video-export/references/export-contract.md). Plan-only и подготовка субтитров не требуют паспорта. `--check-settings` строит ту же итоговую команду и сохраняет сверку без кодирования сцен или MP4; для полного запуска затем выбрать новый work-dir, сохранив тот же целевой output. Режимы подготовки взаимоисключающие.
+
+До кодирования программа сравнивает паспорт с реальным argv: manifest/output/полный mix, размер/аспект/кадры/FPS/длительность, H.264 encoder и битрейт, pixel format, SDR-теги, квадратные пиксели, запрошенное sRGB-преобразование, карту потоков и AAC codec/profile/rate/channels/target. Неизвестные required video/audio поля и неподдерживаемые requested controls отклоняются. Движок сохраняет rate/channels источника; AAC-copy требует `target_bit_rate: "STREAM_COPY"` и `audio_codec: "copy"`, а не выдуманный encoder target. Для нового кодирования default — 192k mono / 256k stereo. VBR mean не обязан совпадать с target. Сверка команд не заменяет проверку закодированного результата, декодирование или AV review.
+
+В `work/render_provenance/` сохраняются побайтовые снимки паспорта, команды и кода. `render_provenance.json` содержит их SHA, разрешённые настройки, параметры источника и версию FFmpeg; receipt связывает их с SHA конкретного MP4. Эти файлы — release dependencies: сохранять до завершения выпуска/разрешённого архивирования. Изменение кода во время рендера блокирует выпуск его receipt. После рендера validator проверяет сохранённые снимки, а не текущий рабочий код. Новая версия инструмента сама по себе не делает принятый MP4 устаревшим; изменения принятого монтажа, звука, картинок, текста, word map, профилей и review evidence продолжают блокировать зависимый выпуск. Технические различия устанавливаются по файлу, его требованиям и фактическим командам, не по Git diff.
+
+Исторический receipt без frozen provenance сначала проходит адресную сверку. Она не кодирует MP4 и не обращается к YouTube:
+
+```sh
+python3 automation/ffmpeg_montage/audit_render.py \
+  --receipt /absolute/episode/Deliverables/review.mp4.delivery.json \
+  --export-contract /absolute/episode/Edit/Export/EXPORT_CONTRACT_v01.json \
+  --command /absolute/episode/Work/original_run/render_command.json \
+  --prepared-plan /absolute/episode/Work/original_run/plan.json \
+  --work-dir /absolute/episode/Edit/Export/historical_audit_v01 \
+  --report /absolute/episode/Edit/Export/historical_audit_v01.json
+```
+
+`SETTINGS_PASS` означает только соответствие настроек. Недостающие сведения или расхождения дают `UNRESOLVED` и причину; они не запускают перерендер. При установленном происхождении явно добавить `--evidence /absolute/assessment.md --bind-receipt /absolute/new.delivery.json`, чтобы создать новый receipt со снимками команды/паспорта и историческими engine hashes без подделки отсутствующих снимков кода. Старый receipt сохраняется. Приёмка остаётся привязана к прежнему неизменному MP4; новые AV PASS не создаются. Не исправлять оригинальные требования задним числом ради прохождения сверки. Для upload передать новый receipt явно. Отсутствующая приёмка или незавершённый review продолжает блокировать загрузку.
+
+Для нового длинного Paper или Nuviko History финальная сцена с `role: "end_screen"` может занимать ровно 300 кадров (10 секунд при 30 FPS); остальные сцены по-прежнему проверяются на 120–180 кадров. Правило не применяется к Shorts и не отменяет проверки содержания и свободных зон.

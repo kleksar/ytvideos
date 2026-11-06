@@ -11,7 +11,7 @@ Own narrative text and assembly of the complete description. Read the active pro
 
 Identify the exact channel/video and language, format, current title/cover, accepted film version, script or transcript, factual limits, public-link/credit requirements and requested result. For existing releases read a fresh complete description. For a catalog enumerate all scoped editorial videos and explicit exclusions; aliases and misleading folder names must not assign the story.
 
-Ground text in the delivered film when it differs from an older script. Record what was actually checked: accepted script, transcript, release records or playback. Missing content means `needs_content` for the affected row, not creative extrapolation. Do not call a script comparison full-film playback or independent fact verification. Follow applicable project consultation requirements before editorial decisions.
+Ground text in the delivered film when it differs from an older script. Record what was actually checked: accepted script, transcript, release records or playback. Missing content means `needs_content` for the affected row, not creative extrapolation. Do not call a script comparison full-film playback or independent fact verification. Develop the description directly from the accepted material; consult an external session when the user explicitly requests it.
 
 ## Описание длинного ролика — все каналы ytvideos
 

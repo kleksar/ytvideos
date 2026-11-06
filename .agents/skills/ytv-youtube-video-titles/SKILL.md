@@ -7,15 +7,19 @@ description: Write, revise or audit YouTube video titles against the actual stor
 
 Own the video's title text and its editorial/display checks. Read the active project's instructions and the relevant channel profile. For Paper Detour use [this profile](references/paper-detour.md); another channel supplies its own language, audience, tone and publishing context. Thumbnail lettering, descriptions, hashtag selection, experiment management and API mechanics have separate owners.
 
+For new story development, the [storycraft opening procedure](../ytv-storycraft/references/appeal-and-opening.md) requests provisional titles paired with cover concepts before the full script. Label these as concepts, preserve the selected viewer promise, and recheck it against the accepted film for final packaging. This does not reopen an approved script.
+
 ## Establish the real input
 
-В ytvideos для длинного фильма любого канала готовить три названия после явного одобрения конкретного MP4 пользователем по [стандартному A/B-пакету](../ytv-youtube-ab-testing/SKILL.md#стандартный-пакет-длинного-фильма); вернуть все три точных текста на проверку. Shorts сохраняют обычную процедуру.
+В ytvideos для длинного фильма любого канала готовить три названия по [стандартному A/B-пакету](../ytv-youtube-ab-testing/SKILL.md#стандартный-пакет-длинного-фильма) параллельно финальному рендеру, используя замороженный сюжет и монтажную версию; вернуть все три точных текста на проверку. Shorts сохраняют обычную процедуру упаковки.
 
 For one film, use its accepted version, central event/question, payoff and evidence limits; for an existing release also identify its exact channel/video ID and current title, thumbnail and experiment state. Prefer the actual delivered film over an earlier script when they differ. Do not promote an unmade rewrite to the published story. For a catalog audit account for every scoped editorial video and explicit technical exclusions, using a fresh complete inventory.
 
-Follow the project's required consultation workflow before editorial decisions. Give each title decision a narrow request with the accepted material and real constraints; read and preserve the completed answer before using it. A catalog audit is not permission to rewrite unrelated fields.
+Develop and check titles directly against accepted material and real constraints; consult an external session when the user explicitly requests it. A catalog audit is not permission to rewrite unrelated fields.
 
 ## Choose the title
+
+For weak feed appeal or competitor research, use the packaging owner’s [feed comparison](../ytv-video-packaging/references/feed-research.md).
 
 For long-film packaging use the concept cards and [pairwise distinction check](../ytv-youtube-ab-testing/SKILL.md#обязательная-проверка-различимости) from the shared A/B owner. Develop each title within its assigned viewer promise; apply that owner's criteria for shared dates/names and cosmetic rewrites before handing off exact wording. Shorts use their normal package. Each must accurately describe the same accepted film, work with its assigned cover, and pass the actual surface checks below. A title-only correction to an existing release does not require creating a new experiment.
 

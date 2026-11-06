@@ -14,6 +14,7 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[1]
 SCHEMA = 'ytv-delivery-v1'
+RECEIPT_SCHEMA = 'ytv-delivery-v2'
 REVIEW_CHECKS = ('semantic_grouping', 'audible_sync', 'visual_placement')
 
 
@@ -120,6 +121,7 @@ def subtitle_contract(plan, base, canvas, total, groups, resolved):
     sub = plan['subtitles']
     return {'schema': SCHEMA, 'channel': plan['channel'], 'format': plan['format'],
             'canvas': list(canvas), 'fps': 30, 'frames': total,
+            'caption_end_frame': plan['subtitles'].get('end_frame', total),
             'audio': audio_binding(plan, base),
             'transcript': file_record(resolve(base, sub['transcript'])),
             'word_map': file_record(resolve(base, sub['words'])),
@@ -155,29 +157,37 @@ def render_inputs(manifest, plan, base):
     return [file_record(path) for path in dict.fromkeys(paths)]
 
 
-def write_receipt(output, channel, contract, inputs, review=None):
+def write_receipt(output, channel, contract, inputs, review=None, render=None):
     """Record identity after encoding, without performing or claiming AV QA."""
     if review is not None and review.get('subtitle_contract_sha256') != fingerprint(contract):
         raise ValueError('Pre-render subtitle review is stale')
-    value = {'schema': SCHEMA, 'channel': channel, 'media': file_record(output),
+    validate_render_binding(render, contract, inputs[0]['path'], output)
+    value = {'schema': RECEIPT_SCHEMA, 'channel': channel, 'media': file_record(output),
              'inputs': inputs, 'subtitles': contract, 'review': review or review_template(contract),
              'acceptance': {'accepted': False, 'media_sha256': None, 'evidence': None},
-             'open_requirements': []}
+             'open_requirements': [], 'render': render}
     write_json(str(output) + '.delivery.json', value)
 
 
-def validate_release(video, channel_id, receipt_path=None):
-    """Fail before any API call; unrelated channel upload mechanics stay generic."""
+def protected_channel(channel_id):
     channels = json.loads((ROOT / 'automation/channels.json').read_text())
     channel_names = {'paper_detour': 'paper', 'nuviko_history': 'nuviko'}
-    protected = {channels[key]['channel_id']: name for key, name in channel_names.items()}
-    if channel_id not in protected and receipt_path is None:
+    return next((name for key, name in channel_names.items()
+                 if channels[key]['channel_id'] == channel_id), None)
+
+
+def validate_release(video, channel_id, receipt_path=None, *, private_staging=False):
+    """Validate the exact media before upload or before leaving private staging."""
+    channel = protected_channel(channel_id)
+    if channel is None and receipt_path is None:
         return
     path = Path(receipt_path) if receipt_path else Path(str(Path(video).resolve()) + '.delivery.json')
     if not path.is_file():
         raise ValueError('Missing delivery receipt for Paper/Nuviko upload')
     receipt = json.loads(path.read_text())
-    if (receipt.get('schema') != SCHEMA or receipt.get('channel') != protected.get(channel_id)
+    if receipt.get('schema') == SCHEMA:
+        raise ValueError('Historical receipt needs a saved-command audit and frozen export contract; do not automatically rerender')
+    if (receipt.get('schema') != RECEIPT_SCHEMA or receipt.get('channel') != channel
             or receipt.get('media') != file_record(video)):
         raise ValueError('Delivery receipt does not match the video/channel')
     if receipt.get('open_requirements') != []:
@@ -190,23 +200,53 @@ def validate_release(video, channel_id, receipt_path=None):
     for record in [contract['audio']['audio'], contract['audio']['speed_policy'],
                    contract['audio']['speed_evidence'], contract['transcript'], contract['word_map']]:
         check_record(record)
-    for record in contract['profiles'] + contract['engine']:
+    for record in contract['profiles']:
         check_record(record)
+    # The executable used for this file is frozen; a later working-tree change
+    # is not a change to the accepted edit or media.
+    validate_render_binding(receipt.get('render'), contract, receipt['inputs'][0]['path'], video)
     # Revalidate speed/timing/text from the actual current plan, not editable flags.
     manifest = Path(receipt['inputs'][0]['path'])
     plan = json.loads(manifest.read_text())
     if plan['channel'] != receipt['channel'] or plan['subtitles']['mode'] != 'words':
         raise ValueError('Release requires the official word-subtitle route')
     words, binding = validate_words(plan, manifest.parent, contract['frames'])
-    if binding != contract['audio'] or file_record(resolve(manifest.parent, plan['audio'])) != contract['audio']['audio']:
+    # A frozen renderer can record a snapshot path for the speed policy.
+    # Both files were independently hash-checked above; compare the policy
+    # content, while retaining exact path-and-hash binding for the audio and
+    # its speed evidence.
+    recorded_binding = dict(contract['audio'])
+    current_binding = dict(binding)
+    recorded_policy = recorded_binding.pop('speed_policy')
+    current_policy = current_binding.pop('speed_policy')
+    if (recorded_binding != current_binding
+            or recorded_policy['sha256'] != current_policy['sha256']
+            or file_record(resolve(manifest.parent, plan['audio'])) != contract['audio']['audio']):
         raise ValueError('Final audio binding differs from rendered subtitles')
     if [w for group in contract['groups'] for w in group] != words:
         raise ValueError('Subtitle contract does not cover the exact word map')
     review = receipt['review']
     if review.get('subtitle_contract_sha256') != fingerprint(contract):
         raise ValueError('Subtitle review is stale')
+    if any(review['checks'][key].get('status') == 'FAIL' for key in REVIEW_CHECKS):
+        raise ValueError('Confirmed subtitle defect remains open')
+    if private_staging:
+        technical = receipt.get('technical_review', {})
+        if (technical.get('status') != 'PASS' or technical.get('full_decode') != 'PASS'
+                or technical.get('media_sha256') != receipt['media']['sha256']):
+            raise ValueError('Private staging requires technical QA and full decode of this exact MP4')
+        check_record(technical['evidence'])
+        return receipt
+    playback = receipt.get('playback_review', {})
+    owner_viewed = (playback.get('status') == 'ACCEPTED'
+                    and playback.get('media_sha256') == receipt['media']['sha256']
+                    and playback.get('scope') == 'final_mp4_with_audio_and_burned_in_captions')
+    if owner_viewed:
+        check_record(playback['evidence'])
     for key in REVIEW_CHECKS:
         check = review['checks'][key]
+        if owner_viewed and check.get('status') in ('UNVERIFIED', 'WARNING'):
+            continue
         if check.get('status') != 'PASS' or not all(isinstance(check.get(field), str) and check[field].strip() for field in ('reviewer', 'method', 'coverage')):
             raise ValueError('Subtitle review incomplete: ' + key)
         check_record(check['evidence'])
@@ -214,3 +254,187 @@ def validate_release(video, channel_id, receipt_path=None):
     if acceptance.get('accepted') is not True or acceptance.get('media_sha256') != receipt['media']['sha256']:
         raise ValueError('User acceptance must bind this exact MP4')
     check_record(acceptance['evidence'])
+    return receipt
+
+def command_option(argv, name):
+    """Require an unambiguous submitted value; never infer it from a preset."""
+    if argv.count(name) != 1:
+        raise ValueError('Expected exactly one command option: ' + name)
+    return argv[argv.index(name) + 1]
+
+
+def bitrate(value):
+    import re
+    match = re.fullmatch(r'([0-9]+(?:\.[0-9]+)?)\s*([kKmM]?)(?:\s*bit/s)?', str(value))
+    if not match:
+        raise ValueError('Invalid bitrate: ' + str(value))
+    result = float(match[1]) * {'': 1, 'k': 1000, 'm': 1000000}[match[2].lower()]
+    if result <= 0 or not result.is_integer():
+        raise ValueError('Bitrate must be a positive integer')
+    return int(result)
+
+
+def check_export_settings(passport, argv, prepared, audio, manifest, output):
+    """Compare the frozen passport with the actual argv before scene encoding.
+
+    This is a settings check, not a measurement or audiovisual QA of the output.
+    Fields outside this renderer's contract are rejected rather than ignored.
+    """
+    from fractions import Fraction
+    if not isinstance(argv, list) or not argv or not all(isinstance(value, str) for value in argv):
+        raise ValueError('FFmpeg command must be a nonempty argv string list')
+    if passport.get('status') != 'READY_TO_RENDER':
+        raise ValueError('Export contract must be READY_TO_RENDER')
+    if passport['preflight'].get('unresolved_required_fields') != []:
+        raise ValueError('Unresolved required export settings')
+    if Path(passport['edit']['timeline_id']).resolve() != Path(manifest).resolve():
+        raise ValueError('Export contract identifies another manifest')
+    if Path(passport['preflight']['output_path']).resolve() != Path(output).resolve() or Path(argv[-1]).resolve() != Path(output).resolve():
+        raise ValueError('Export contract/command identifies another output')
+    expected_audio = passport['required_delivery']['audio_contract']
+    required_video = {'codec_name','pix_fmt','scan','cadence','color_primaries','color_transfer','color_space','color_range'}
+    if set(passport['required_delivery']['video']) != required_video:
+        raise ValueError('Missing or unsupported required video settings')
+    allowed_audio = {'owner_handoff','accepted_complete_mix','source_rate_channels','codec_name','profile','sample_rate','channels','target_bit_rate'}
+    if set(expected_audio) - allowed_audio:
+        raise ValueError('Unsupported required audio field')
+    mix_record = expected_audio['accepted_complete_mix']
+    if {key: mix_record[key] for key in ('path', 'sha256')} != file_record(prepared['audio']):
+        raise ValueError('Export contract does not bind the accepted complete mix')
+    # Commands operate on the same continuous mix, with no resampling/remapping.
+    if prepared['audio'] not in [argv[i+1] for i, value in enumerate(argv) if value == '-i']:
+        raise ValueError('Command does not use the accepted audio')
+    if any(flag in argv for flag in ('-ar', '-ac', '-af', '-filter:a')):
+        raise ValueError('Audio resampling/remapping/filtering requires a supported contract mapping')
+    def equal(name, expected, actual):
+        if expected != actual:
+            raise ValueError(f'Export setting mismatch: {name}: contract={expected!r}, command={actual!r}')
+    timeline = passport['timeline']
+    actual_timeline = dict(width=prepared['canvas'][0], height=prepared['canvas'][1],
+                           frame_count=prepared['frames'], sample_aspect_ratio='1:1',
+                           aspect_ratio='16:9' if prepared['format']=='long' else '9:16',
+                           output_color_space='Rec.709 SDR')
+    # Technical probes may have a different aspect, recorded explicitly.
+    from math import gcd
+    divisor = gcd(*prepared['canvas'])
+    actual_timeline['aspect_ratio'] = ':'.join(str(v//divisor) for v in prepared['canvas'])
+    for key, value in actual_timeline.items():
+        equal('timeline.'+key, timeline[key], value)
+    equal('timeline.fps', Fraction(str(timeline['fps'])), Fraction(30))
+    equal('timeline.duration', round(float(timeline['duration_seconds']), 8), round(prepared['frames']/30, 8))
+    equal('command.duration', round(float(command_option(argv, '-t')), 8), round(prepared['frames']/30, 8))
+    equal('container', passport['required_delivery']['container'], 'MP4')
+    if Path(output).suffix.lower() != '.mp4':
+        raise ValueError('Output must be MP4')
+    filters = command_option(argv, '-filter_complex')
+    if 'setsar=1' not in filters:
+        raise ValueError('Command does not set square pixels')
+    if prepared.get('source_transfer') == 'srgb' and 'itrc=srgb:' not in filters:
+        raise ValueError('Command lacks required sRGB transfer conversion')
+    audio_input = [argv[i+1] for i,value in enumerate(argv) if value=='-i'].index(prepared['audio'])
+    mappings = [argv[i+1] for i,value in enumerate(argv) if value=='-map']
+    if mappings != ['[vout]', f'{audio_input}:a:0']:
+        raise ValueError('Unexpected final video/audio mapping')
+    encoder = command_option(argv, '-c:v')
+    if encoder not in ('libx264', 'h264_videotoolbox'):
+        raise ValueError('Unsupported encoder mapping: ' + encoder)
+    video = {'codec_name':'h264', 'pix_fmt':command_option(argv, '-pix_fmt'),
+             'scan':'progressive', 'cadence':'constant 30/1 fps',
+             'color_primaries':command_option(argv, '-color_primaries'),
+             'color_transfer':command_option(argv, '-color_trc'),
+             'color_space':command_option(argv, '-colorspace'),
+             'color_range':command_option(argv, '-color_range')}
+    for key, expected in passport['required_delivery']['video'].items():
+        if key not in video:
+            raise ValueError('Unsupported required video field: ' + key)
+        equal('video.'+key, expected, video[key])
+    audio_mode = command_option(argv, '-c:a')
+    if audio_mode not in ('aac', 'copy') or (audio_mode=='copy' and audio['codec_name']!='aac'):
+        raise ValueError('Unsupported audio codec mapping')
+    actual_audio = {'codec_name':'aac', 'profile':audio.get('profile') if audio_mode=='copy' else 'LC',
+                    'channels':int(audio['channels']), 'sample_rate':int(audio['sample_rate'])}
+    for key in ('codec_name', 'profile', 'channels', 'sample_rate'):
+        equal('audio.'+key, expected_audio[key], actual_audio[key])
+    target = 'STREAM_COPY' if audio_mode=='copy' else bitrate(command_option(argv, '-b:a'))
+    if audio_mode=='copy':
+        if '-b:a' in argv:
+            raise ValueError('Stream copy must not claim an encoder bitrate')
+        equal('audio.target_bit_rate', expected_audio['target_bit_rate'], target)
+    else:
+        if target < (256000 if actual_audio['channels']>=2 else 192000):
+            raise ValueError('Audio target below channel delivery requirement')
+        equal('audio.target_bit_rate', bitrate(expected_audio['target_bit_rate']), target)
+    requested = {'encoder':encoder, 'video_bitrate':bitrate(command_option(argv, '-b:v')),
+                 'output_pix_fmt':video['pix_fmt'], 'fps':'30/1', 'audio_codec':audio_mode,
+                 'audio_profile':'aac_low' if actual_audio['profile']=='LC' else actual_audio['profile'],
+                 'audio_bitrate':target, 'audio_sample_rate':actual_audio['sample_rate'],
+                 'audio_channels':actual_audio['channels']}
+    for key, expected in passport['encoding']['requested_arguments'].items():
+        if key not in requested:
+            raise ValueError('Unsupported requested encoder control: ' + key)
+        if key in ('video_bitrate', 'audio_bitrate') and expected != 'STREAM_COPY':
+            expected = bitrate(expected)
+        if key in ('audio_sample_rate', 'audio_channels'):
+            expected = int(expected)
+        equal('encoding.'+key, expected, requested[key])
+    return {'scope':'pre-render settings only; no encoded-result or AV QA',
+            'timeline':actual_timeline, 'video':video, 'audio':{**actual_audio, 'mode':audio_mode, 'target_bit_rate':target},
+            'requested_arguments':requested}
+
+
+def freeze_render(work, passport_path, command_path, engine, prepared, audio, manifest, output):
+    """Freeze provenance before encoding; later tool updates are not edit changes."""
+    work = Path(work)
+    directory = work/'render_provenance'
+    directory.mkdir()
+    def snapshot(path, name):
+        original = file_record(path)
+        target = directory/name
+        target.write_bytes(Path(path).read_bytes())
+        frozen = file_record(target)
+        if original['sha256'] != frozen['sha256']:
+            raise ValueError('Input changed while freezing render provenance')
+        return {'original':original, 'snapshot':frozen}
+    passport = snapshot(passport_path, 'export_contract.json')
+    command = snapshot(command_path, 'render_command.json')
+    expected = json.loads(Path(passport['snapshot']['path']).read_text())
+    argv = json.loads(Path(command['snapshot']['path']).read_text())
+    settings = check_export_settings(expected, argv, prepared, audio, manifest, output)
+    frozen_engine = [snapshot(record['path'], f'engine_{i}_{Path(record["path"]).name}') for i,record in enumerate(engine)]
+    if [entry['original'] for entry in frozen_engine] != engine:
+        raise ValueError('Renderer changed after subtitle preparation')
+    import subprocess
+    version = subprocess.check_output([argv[0], '-version'], text=True).splitlines()[0]
+    return {'schema':'ytv-render-v1', 'origin':'render', 'export_contract':passport,
+            'command':command, 'engine':frozen_engine, 'prepared':prepared, 'audio_source':audio,
+            'settings':settings, 'ffmpeg_version':version}
+
+
+def validate_render_binding(render, subtitle_contract, manifest, output):
+    if not isinstance(render, dict) or render.get('schema') != 'ytv-render-v1':
+        raise ValueError('Missing frozen render provenance; audit saved command and export contract, do not automatically rerender')
+    for key in ('export_contract', 'command'):
+        check_record(render[key]['snapshot'])
+        if render[key]['original']['sha256'] != render[key]['snapshot']['sha256']:
+            raise ValueError('Invalid frozen '+key)
+    engine = render['engine']
+    if [item['original'] for item in engine] != subtitle_contract['engine']:
+        raise ValueError('Render engine differs from subtitle preparation')
+    if render.get('origin') == 'render':
+        for item in engine:
+            check_record(item['snapshot'])
+            if item['snapshot']['sha256'] != item['original']['sha256']:
+                raise ValueError('Invalid frozen engine snapshot')
+    elif render.get('origin') == 'historical_command_audit':
+        check_record(render['audit_evidence'])
+    else:
+        raise ValueError('Unknown render provenance origin')
+    passport = json.loads(Path(render['export_contract']['snapshot']['path']).read_text())
+    argv = json.loads(Path(render['command']['snapshot']['path']).read_text())
+    settings = check_export_settings(passport, argv, render['prepared'], render['audio_source'], manifest, output)
+    if settings != render['settings']:
+        raise ValueError('Frozen render settings differ from command/contract')
+    if render['prepared']['canvas'] != subtitle_contract['canvas'] or render['prepared']['frames'] != subtitle_contract['frames']:
+        raise ValueError('Render timeline differs from subtitles')
+    if file_record(render['prepared']['audio']) != subtitle_contract['audio']['audio']:
+        raise ValueError('Render audio differs from accepted subtitle audio')

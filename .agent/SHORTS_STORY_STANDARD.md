@@ -1,3 +1,3 @@
 # Shorts: совместимый вход
 
-Для разработки или переработки сюжетного текста использовать [ytv-shorts-story](../.agents/skills/ytv-shorts-story/SKILL.md). Для каждого Short рассмотреть естественный переход финала к началу по [ytv-shorts-loop](../.agents/skills/ytv-shorts-loop/SKILL.md); полноценная история при первом просмотре важнее петли.
+Для разработки или переработки сюжетного текста использовать [ytv-shorts-story](../.agents/skills/ytv-shorts-story/SKILL.md). Для каждого Short рассмотреть непрерывный речевой стык финала с началом по [ytv-shorts-loop](../.agents/skills/ytv-shorts-loop/SKILL.md), который задаёт определение петли и критерии проверки; полноценная история при первом просмотре важнее петли.

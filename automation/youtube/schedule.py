@@ -7,6 +7,7 @@ The caller must supply an upload receipt and attest the video has never been
 public; current API privacy status alone does not establish publication history.
 """
 import argparse, json, os, re, sys
+import importlib.util
 from datetime import datetime,timedelta,timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -64,6 +65,64 @@ def verify_upload_receipt(path,channel,video):
  except Exception:raise ScheduleError('Upload receipt cannot be read') from None
  f=r.get('fingerprint',{});status=f.get('body',{}).get('status',{})
  if r.get('phase')!='complete' or r.get('video_id')!=video or f.get('channel_id')!=channel or status.get('privacyStatus')!='private':raise ScheduleError('Receipt does not prove a private upload to the expected channel')
+ return r
+
+def delivery_module():
+    path = Path(__file__).resolve().parents[1] / 'ffmpeg_montage/delivery.py'
+    spec = importlib.util.spec_from_file_location('ytv_delivery', path)
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module
+
+
+def verify_staged_media(upload_receipt, channel, srt, language):
+    receipt_path = upload_receipt.get('staging_delivery_receipt')
+    if receipt_path is None:
+        return
+    if not srt or not language:
+        raise ScheduleError('Staged release requires its verified SRT and language')
+    delivery = delivery_module()
+    try:
+        identity = upload_receipt['fingerprint']
+        receipt = delivery.validate_release(identity['video'], channel, receipt_path)
+        if receipt is None or receipt['media']['sha256'] != identity['sha256']:
+            raise ValueError('Delivery receipt does not match the uploaded MP4')
+        srt_review = receipt['srt_review']
+        if (srt_review['media_sha256'] != identity['sha256']
+                or srt_review['language'] != language
+                or srt_review['srt'] != delivery.file_record(srt)
+                or any(srt_review.get(key) != 'PASS'
+                       for key in ('structure', 'text_coverage', 'timing_mapping'))):
+            raise ValueError('SRT has not been verified against this exact MP4')
+        delivery.check_record(srt_review['evidence'])
+    except (ValueError, KeyError, TypeError, AttributeError, OSError) as error:
+        raise ScheduleError(f'Staged release not ready: {error}') from None
+
+
+def verify_serving_caption(session, channel, video, language, srt, caption_receipt):
+    from upload_caption import srt_data
+
+    if language not in ('ru', 'en') or not srt or not caption_receipt:
+        raise ScheduleError('A verified manual caption receipt and SRT are required')
+    info, _ = srt_data(srt)
+    try:
+        receipt = json.loads(Path(caption_receipt).read_text())
+    except (OSError, ValueError):
+        raise ScheduleError('Caption receipt cannot be read') from None
+    if (receipt.get('state') != 'confirmed' or receipt.get('channel_id') != channel
+            or receipt.get('video_id') != video or receipt.get('srt_sha256') != info['sha256']
+            or not receipt.get('caption_id')):
+        raise ScheduleError('Caption receipt does not prove this SRT was uploaded for this video')
+    tracks = get_json(session, 'captions', {'part': 'snippet', 'videoId': video}).get('items', [])
+    matching = [track for track in tracks if track.get('id') == receipt['caption_id']]
+    if len(matching) != 1:
+        raise ScheduleError('Caption track not uniquely found')
+    snippet = matching[0].get('snippet', {})
+    if (snippet.get('videoId') != video or snippet.get('language', '').lower().split('-')[0] != language
+            or snippet.get('isDraft') is not False or snippet.get('status') != 'serving'
+            or snippet.get('trackKind', '').lower() == 'asr'):
+        raise ScheduleError('Manual caption language, video, draft or serving status unconfirmed')
+    return {'srt_sha256': info['sha256'], 'caption_id': receipt['caption_id']}
 
 def reserve(path,payload):
  path=Path(path);path.parent.mkdir(parents=True,exist_ok=True,mode=0o700)
@@ -78,11 +137,13 @@ def mark_done(path,payload):
  with os.fdopen(fd,'w') as f:json.dump(payload,f,indent=2);f.flush();os.fsync(f.fileno())
  os.replace(tmp,path)
 
-def set_schedule(session,channel,video,when,upload_receipt,state,never_public,now=None):
+def set_schedule(session,channel,video,when,upload_receipt,state,never_public,now=None, *,
+                 srt=None, language=None, caption_receipt=None):
  valid_ids(channel,video);target=utc_time(when);now=now or datetime.now(timezone.utc)
  if target<=now+timedelta(minutes=5):raise ScheduleError('Time must be at least five minutes in the future')
  if not never_public:raise ScheduleError('Must confirm the video has never been published')
- verify_upload_receipt(upload_receipt,channel,video)
+ upload=verify_upload_receipt(upload_receipt,channel,video)
+ verify_staged_media(upload,channel,srt,language)
  v=read(session,channel,video);st=v.get('status',{})
  if st.get('privacyStatus')!='private':raise ScheduleError('Video is not private')
  if v.get('processingDetails',{}).get('processingStatus')!='succeeded':raise ScheduleError('Video processing has not succeeded')
@@ -96,12 +157,16 @@ def set_schedule(session,channel,video,when,upload_receipt,state,never_public,no
  if not isinstance(etag,str) or not etag:raise ScheduleError('Missing video ETag; cannot guard concurrent changes')
  state=Path(state)
  if state.exists():raise ScheduleError('Schedule receipt exists; inspect server state before retrying')
+ if upload.get('staging_delivery_receipt'):
+  verify_serving_caption(session,channel,video,language,srt,caption_receipt)
  target_text=target.isoformat().replace('+00:00','Z')
  body_status={k:st[k] for k in WRITABLE if k in st};body_status.update({'privacyStatus':'private','publishAt':target_text})
  reserve(state,{'state':'outcome_unknown','channel_id':channel,'video_id':video,'publishAt':target_text})
  # Repeat status read immediately before writing; do not automatically retry PUT.
  fresh=read(session,channel,video)
  if fresh.get('etag')!=etag or fresh.get('status')!=st:raise ScheduleError('Video changed before scheduling; inspect receipt and state')
+ if upload.get('staging_delivery_receipt'):
+  verify_serving_caption(session,channel,video,language,srt,caption_receipt)
  if target<=datetime.now(timezone.utc)+timedelta(minutes=5):raise ScheduleError('Schedule is no longer safely in the future')
  try:r=session.put(API+'videos',params={'part':'status'},json={'id':video,'status':body_status},headers={'If-Match':etag},timeout=60,allow_redirects=False)
  except Exception:raise ScheduleError('Scheduling outcome unknown; read video status before any retry') from None
@@ -118,7 +183,9 @@ def main():
  z=sub.add_parser('plan');z.add_argument('--start',required=True);z.add_argument('--timezone',default='America/New_York');z.add_argument('--days',type=int,default=4)
  for name in ('read','set'):
   q=sub.add_parser(name);q.add_argument('--token',required=True);q.add_argument('--channel-id',required=True);q.add_argument('--video-id',required=True)
-  if name=='set':q.add_argument('--when',required=True);q.add_argument('--upload-receipt',required=True);q.add_argument('--state',required=True);q.add_argument('--never-published',action='store_true')
+  if name=='set':
+   q.add_argument('--when',required=True);q.add_argument('--upload-receipt',required=True);q.add_argument('--state',required=True);q.add_argument('--never-published',action='store_true')
+   q.add_argument('--srt');q.add_argument('--language');q.add_argument('--caption-receipt')
  args=p.parse_args()
  try:
   if args.cmd=='plan':result=plan(args.start,args.timezone,args.days)
@@ -127,7 +194,7 @@ def main():
    from google.oauth2.credentials import Credentials
    creds=Credentials.from_authorized_user_file(args.token,[SCOPE])
    with AuthorizedSession(creds) as sess:
-    result=summary(read(sess,args.channel_id,args.video_id)) if args.cmd=='read' else set_schedule(sess,args.channel_id,args.video_id,args.when,args.upload_receipt,args.state,args.never_published)
+    result=summary(read(sess,args.channel_id,args.video_id)) if args.cmd=='read' else set_schedule(sess,args.channel_id,args.video_id,args.when,args.upload_receipt,args.state,args.never_published,srt=args.srt,language=args.language,caption_receipt=args.caption_receipt)
   print(json.dumps(result,ensure_ascii=False,indent=2));return 0
  except Exception as e:
   print('Error:',str(e) if isinstance(e,ScheduleError) else type(e).__name__,file=sys.stderr);return 1

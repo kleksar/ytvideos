@@ -2,6 +2,10 @@
 
 Use the [shared MP4-review and technical export profile](export-review.md) for Paper and Nuviko. Paper visual/typography criteria remain in its channel profile.
 
+## Motion
+
+For new Paper films and Shorts, verify the approved [Paper Frame](../../../channels/paper_detour/Shared/Overlays/Paper_Frame/README.md) over the entire montage, including the start, end, loop boundary, all four outer edges, unobscured subtitle moments and visible scene movement. Review the exact pre-render sample and final MP4; examine scene motion under [motion checks](motion-checks.md). Existing frozen projects retain their recorded scope.
+
 ## Required text checks
 
 Include applicable fields in both `required_checks` and the helper plan's `required_review_checks` before review:

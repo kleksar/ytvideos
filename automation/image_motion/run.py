@@ -132,8 +132,6 @@ def camera_keys(clip, factor, mode, number):
             raise ValueError("Preserving existing camera requires matching position and scale keyframes")
         if any(p[i][0] != s[i][0] for i in range(len(p))):
             raise ValueError("Existing position and scale camera keys must use matching frames")
-        centers = [p[i][1] + s[i][1] / 2 for i in (0, -1)]
-        return old, centers[1] - centers[0]
     if mode == "auto" and not p and not s:
         mode = ("pan-right", "push-in", "pan-left", "pan-up", "pull-out", "pan-down")[number % 6]
     if mode not in {"auto", "existing"}:

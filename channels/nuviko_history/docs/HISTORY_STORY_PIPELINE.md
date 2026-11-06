@@ -2,7 +2,7 @@
 
 Фильм и Short выполняются по [единому flow Paper/Nuviko](../../../.agents/skills/ytv-video-production/SKILL.md). Это совместимый вход, а не отдельная последовательность стадий.
 
-Визуальный профиль/герой/оформление — [Nuviko](../brand/VISUAL_PROFILE.md); голос и состояние канала — AGENTS (`../../../archive/legacy_stories/AGENTS.md#nuviko-history` is in a separate episode/media bundle, not this source-only clone). Разработка ещё не принятой исторической истории — [history-story](../../../.agents/skills/ytv-history-story/SKILL.md). Готовый пользовательский сценарий поступает непосредственно в общий production flow.
+Визуальные правила и ведущий описаны в [профиле Nuviko](../brand/VISUAL_PROFILE.md), голос и состояние канала — в [AGENTS](../AGENTS.md). Проверку выбранной исторической темы выполнять по [history verification](../../../.agents/skills/ytv-history-verification/SKILL.md), разработку текста — по [storycraft](../../../.agents/skills/ytv-storycraft/SKILL.md). Готовый пользовательский сценарий поступает в общий production.
 
 ## Длительность изображений
 

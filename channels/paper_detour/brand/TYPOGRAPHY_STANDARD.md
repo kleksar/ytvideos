@@ -1,8 +1,10 @@
 # Paper Detour — типографика
 
-Действующий стандарт букв на обложках, в постах и оформлении канала. Оформлением субтитров фильмов и Shorts владеет [subtitle skill](../../../.agents/skills/ytv-paper-subtitles/SKILL.md). Правила композиций — в [канальном AGENTS](../AGENTS.md).
+Действующий стандарт выразительных бумажных букв на обложках, в сценах, постах и оформлении канала. Оформлением субтитров фильмов и Shorts владеет [subtitle skill](../../../.agents/skills/ytv-paper-subtitles/SKILL.md). Правила композиций — в [канальном AGENTS](../AGENTS.md).
 
 ## Визуальный эталон
+
+Указанные ниже файлы — исторические reference assets из прошлых выпусков; их текущую доступность и хеши проверяйте в [REFERENCE_STATUS.md](REFERENCE_STATUS.md). Прямые ссылки на папки эпизодов не означают, что они включены в клон.
 
 Основные проверенные PNG: A MESSAGE (`../videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png` is in a separate episode/media bundle, not this source-only clone), MATCH (`../videos/001_radio_game/Source/Images/accent_typography_v2/MATCH.png` is in a separate episode/media bundle, not this source-only clone), D (`../videos/001_radio_game/Source/Images/accent_typography_v2/D.png` is in a separate episode/media bundle, not this source-only clone), A (`../videos/001_radio_game/Source/Images/accent_typography_v2/A.png` is in a separate episode/media bundle, not this source-only clone), T (`../videos/001_radio_game/Source/Images/accent_typography_v2/T.png` is in a separate episode/media bundle, not this source-only clone).
 
@@ -18,8 +20,14 @@
 
 Для постов сохранять характер бумажных букв; материалы — в `Packaging/Posts/`, процедура — [Posts Playbook](../docs/YOUTUBE_POSTS_PLAYBOOK.md). В оформлении канала сохранять форму букв и бумажный объём.
 
+## Сценовый текст
+
+Содержание, функцию и необходимую точность сценового текста задаёт [Paper storyboard](../../../.agents/skills/ytv-video-production/references/paper-storyboarding.md#предметная-постановка-и-сценовый-текст). Крупные редакционные надписи сохраняют бумажную форму, объём и иерархию канала. Размер, контраст и интервалы выбирать для фактического масштаба просмотра, чтобы важную подпись можно было прочитать за время плана. Читаемость важнее декоративной сложности глифов.
+
+Предметные надписи на карте, приборе, книге или историческом документе могут иметь подходящий этому носителю печатный или рукописный характер; не заставлять всю мелкую маркировку копировать крупные вырезанные буквы. Сохранять правдоподобие эпохи и статус источника. Сценовые надписи входят в цельную диораму; дословные субтитры остаются отдельным слоем.
+
 ## Приёмка
 
-Проверить точное написание, форму, пропорции, интервалы, фактуру, прозрачные края, контраст, мобильную читаемость и сохранность лиц/предметов.
+Проверить написание обязательных формулировок, форму, пропорции, интервалы, фактуру, прозрачные края, контраст, мобильную читаемость и сохранность лиц/предметов. Сценовый текст проверять по [профилю приёмки PNG](../../../.agents/skills/ytv-scene-images/references/paper-detour.md#paper-specific-acceptance).
 
-В материалах выпуска сохранить точную фразу, версию файла и способ создания. Соответствие стандарту подтверждается фактической визуальной сверкой с эталонными PNG.
+В материалах выпуска сохранить заданные точные формулировки, версию файла и способ создания. Соответствие стандарту подтверждается фактической визуальной сверкой с эталонными PNG.

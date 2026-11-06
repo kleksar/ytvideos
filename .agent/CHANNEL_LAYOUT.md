@@ -23,7 +23,7 @@ ytvideos/
 
 `nuviko_stories` хранит прежние Stories RU/EN. Новый русскоязычный канал коллеги ещё не сопоставлен с этой коллекцией; перенос не назначает ему бренд, голос, рекламу или разрешения. См. [COLLABORATION](../COLLABORATION.md).
 
-Общая автоматизация не содержит канальных исходников. Старые Stories `pipeline.py`, `voice_run.py` и `runs/` находятся в `channels/nuviko_stories/automation/`, а ElevenLabs, YouTube и рендереры — в корневом `automation/`. Существующие права, ID, статусы и условия заморозки не изменены.
+Общая автоматизация не содержит канальных исходников. Старые Stories `pipeline.py`, `voice_run.py` и `runs/` находятся в `channels/nuviko_stories/automation/`, а ElevenLabs, YouTube и рендереры — в корневом `automation/`. Права, ID и выпускные статусы сохраняются; действующее правило выбора канала — [root §2](../AGENTS.md#2-bootstrap-и-канал).
 
 ## Совместимость
 
