@@ -45,7 +45,13 @@ def controlled(lock_path, task_id):
         if not isinstance(state, dict):
             print('NEEDS_INSPECTION invalid state', flush=True)
             return 4
-        if state.get('status') not in ('verified', 'inspected'):
+        if state.get('partial_holds'):
+            print('NEEDS_INSPECTION use composer_recovery.py for partial holds', flush=True)
+            return 4
+        if state.get('version') == 2 and state.get('status') not in ('verified', 'inspected', 'resolved'):
+            print('NEEDS_INSPECTION use composer_recovery.py', flush=True)
+            return 4
+        if state.get('status') not in ('verified', 'inspected', 'resolved'):
             print('NEEDS_INSPECTION ' + json.dumps(state, separators=(',', ':')), flush=True)
             if sys.stdin.readline().strip() != 'INSPECTED':
                 return 4
@@ -120,7 +126,7 @@ def main(argv: list[str] | None = None) -> int:
             if state_path.exists():
                 try:
                     state = json.loads(state_path.read_text(encoding='utf-8'))
-                    if not isinstance(state, dict) or state.get('status') not in ('verified', 'inspected'):
+                    if not isinstance(state, dict) or state.get('partial_holds') or state.get('status') not in ('verified', 'inspected', 'resolved'):
                         raise ValueError('unresolved state')
                 except (OSError, ValueError):
                     print('NEEDS_INSPECTION use --controlled', flush=True)
