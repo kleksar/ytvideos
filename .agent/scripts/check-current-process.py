@@ -8,12 +8,15 @@ files += [ROOT/'.agent'/name for name in ('CHANNEL_BOOTSTRAP.md','documentation-
 files += list((ROOT/'.agents/skills').rglob('*.md')) + list((ROOT/'.codex/agents').glob('*.toml')) + [ROOT/'.codex/agents/README.md',ROOT/'automation/README.md',ROOT/'automation/ffmpeg_montage/README.md',ROOT/'channels/paper_detour/automation/README.md',ROOT/'channels/nuviko_stories/automation/RUNBOOK.md',ROOT/'.agent/ASSET_LIBRARY.md']
 forbidden=[r'\bPalmier\b',r'\bPalméra\b',r'live-palmier',r'palmier-project',r'ytv-palmier-edit',r'references/palmier\.md',r'layered-motion\.md',r'motion-before-no-parallax',r'параллакс',r'\bparallax\b',r'зерн',r'\bgrain\b',r'\bg08\b']
 retired_skills=r'\b(?:ytv-history-story|ytv-paper-production|ytv-paper-storyboard|paper-detour-director|paper-detour-film-crew)\b'
+retired_storyboard_refs=r'ytv-video-production/references/(?:visual|paper)-storyboarding\.md'
 errors=[]
 for file in files:
  if not file.is_file():continue
  for number,line in enumerate(file.read_text().splitlines(),1):
   if any(re.search(pattern,line,re.I) for pattern in forbidden):errors.append(f'{file.relative_to(ROOT)}:{number}: obsolete montage route')
   if re.search(retired_skills,line,re.I):errors.append(f'{file.relative_to(ROOT)}:{number}: obsolete skill route')
+  if re.search(retired_storyboard_refs,line,re.I):errors.append(f'{file.relative_to(ROOT)}:{number}: obsolete storyboard owner')
+  if file == ROOT/'.agents/skills/ytv-video-production/SKILL.md' and re.search(r'\]\(references/(?:visual|paper)-storyboarding\.md',line):errors.append(f'{file.relative_to(ROOT)}:{number}: obsolete local storyboard route')
 if errors:
  print('\n'.join(errors));sys.exit(1)
 print(f'Current-process route check: {len(files)} documents; no obsolete production routes found.')

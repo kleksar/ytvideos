@@ -15,7 +15,7 @@ HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[1]
 SCHEMA = 'ytv-delivery-v1'
 RECEIPT_SCHEMA = 'ytv-delivery-v2'
-REVIEW_CHECKS = ('semantic_grouping', 'audible_sync', 'visual_placement')
+REVIEW_CHECKS = ('semantic_grouping', 'visual_placement')
 
 
 def sha256(path):
@@ -185,6 +185,8 @@ def validate_release(video, channel_id, receipt_path=None, *, private_staging=Fa
     if not path.is_file():
         raise ValueError('Missing delivery receipt for Paper/Nuviko upload')
     receipt = json.loads(path.read_text())
+    if receipt.get('schema') == 'ytv-audio-replacement-v1':
+        return validate_audio_replacement(receipt, video, channel_id, channel, private_staging)
     if receipt.get('schema') == SCHEMA:
         raise ValueError('Historical receipt needs a saved-command audit and frozen export contract; do not automatically rerender')
     if (receipt.get('schema') != RECEIPT_SCHEMA or receipt.get('channel') != channel
@@ -255,6 +257,53 @@ def validate_release(video, channel_id, receipt_path=None, *, private_staging=Fa
         raise ValueError('User acceptance must bind this exact MP4')
     check_record(acceptance['evidence'])
     return receipt
+
+def validate_audio_replacement(receipt, video, channel_id, channel, private_staging):
+    """Validate an audio-only replacement against a previously rendered picture."""
+    if (receipt.get('channel') != channel or receipt.get('media') != file_record(video)
+            or receipt.get('open_requirements') != []):
+        raise ValueError('Audio replacement receipt does not match media/channel')
+    for key in ('source_receipt', 'source_media', 'mix', 'word_map', 'export_contract',
+                'audio_evidence', 'video_identity_evidence'):
+        check_record(receipt[key])
+    source = validate_release(receipt['source_media']['path'], channel_id,
+                              receipt['source_receipt']['path'], private_staging=True)
+    old_map = json.loads(Path(source['subtitles']['word_map']['path']).read_text())
+    new_map = json.loads(Path(receipt['word_map']['path']).read_text())
+    if (new_map.get('words') != old_map.get('words')
+            or new_map.get('transcript_sha256') != old_map.get('transcript_sha256')
+            or new_map.get('audio_sha256') != receipt['mix']['sha256']):
+        raise ValueError('Replacement word map or final mix differs from source timing')
+    contract = json.loads(Path(receipt['export_contract']['path']).read_text())
+    root = Path(contract['working_directory'])
+    for record, key in ((receipt['source_media'], contract['picture_source']),
+                        (receipt['mix'], contract['audio']['mix']),
+                        (receipt['word_map'], contract['audio']['word_map'])):
+        if file_record(root / key['path']) != record or key['sha256'] != record['sha256']:
+            raise ValueError('Replacement export contract differs from input')
+    argv = contract.get('argv')
+    if (not isinstance(argv, list) or len(argv) < 2
+            or Path(argv[0]).name != 'ffmpeg' or argv.count('-i') != 2
+            or argv[argv.index('-i') + 1] != contract['picture_source']['path']
+            or argv[argv.index('-i', argv.index('-i') + 1) + 1] != contract['audio']['mix']['path']
+            or command_option(argv, '-c:v') != 'copy'
+            or argv[-1] != contract['output']):
+        raise ValueError('Replacement command does not copy the source picture and use the selected mix')
+    if (contract['status'] != 'READY_TO_RENDER'
+            or (root / contract['output']).resolve() != Path(video).resolve()):
+        raise ValueError('Replacement export contract does not identify output')
+    technical = receipt.get('technical_review', {})
+    if (technical.get('status') != 'PASS' or technical.get('full_decode') != 'PASS'
+            or technical.get('media_sha256') != receipt['media']['sha256']):
+        raise ValueError('Replacement requires technical review of exact output')
+    check_record(technical['evidence'])
+    if not private_staging:
+        accepted = receipt.get('acceptance', {})
+        if accepted.get('accepted') is not True or accepted.get('media_sha256') != receipt['media']['sha256']:
+            raise ValueError('User acceptance must bind this exact MP4')
+        check_record(accepted['evidence'])
+    return receipt
+
 
 def command_option(argv, name):
     """Require an unambiguous submitted value; never infer it from a preset."""

@@ -1,6 +1,6 @@
 # Scene selection and evidence contract
 
-Use this for a scene set or a versioned-series resume. Keep the existing episode manifest/current state as selection owner. Add missing evidence or a linked supplement; do not create a competing current-version list. Paths are relative to an explicitly stated base directory.
+Use this for a scene set or a versioned-series resume. For new work, scene cards come from [EPISODE.md](../../ytv-video-production/references/episode-document.md); keep the exact prompt and asset selection in this manifest/log, linked by S-ID, rather than a second editable storyboard. Keep the existing episode manifest/current state as selection owner. Add missing evidence or a linked supplement; do not create a competing current-version list. Paths are relative to an explicitly stated base directory.
 
 For the set record:
 

@@ -9,18 +9,18 @@ TOML задаёт обязанности и границы исполнител�
 | [paper_researcher](paper_researcher.toml) | Источники и проверяемые утверждения | ytv-history-verification |
 | [paper_writer](paper_writer.toml) | Принятый сценарный текст | ytv-storycraft и сценарный профиль Paper |
 | [paper_fact_checker](paper_fact_checker.toml) | Отдельная проверка утверждений | ytv-history-verification |
-| [paper_director](paper_director.toml) | Действие, причинность, ритм | ytv-video-production / постановка диорам |
-| [paper_visual_director](paper_visual_director.toml) | Смысловая партитура цельных кадров | ytv-video-production / постановка диорам |
-| [paper_cinematographer](paper_cinematographer.toml) | Композиции, ракурсы, свет | ytv-video-production / постановка диорам |
-| [paper_motion_designer](paper_motion_designer.toml) | Монтажный ритм цельных кадров | ytv-video-production / постановка диорам |
-| [paper_art_director](paper_art_director.toml) | Единый бумажный мир и непрерывность | ytv-paper-images |
-| [paper_artist](paper_artist.toml) | Готовые цельные картинки | ytv-paper-images |
-| [paper_quality_reviewer](paper_quality_reviewer.toml) | Отдельная визуальная проверка | ytv-paper-images |
+| [paper_director](paper_director.toml) | Действие, причинность, ритм | ytv-visual-direction и профиль Paper |
+| [paper_visual_director](paper_visual_director.toml) | Смысловая партитура цельных кадров | ytv-visual-direction и профиль Paper |
+| [paper_cinematographer](paper_cinematographer.toml) | Композиции, ракурсы, свет | ytv-visual-direction и профиль Paper |
+| [paper_motion_designer](paper_motion_designer.toml) | Монтажный ритм цельных кадров | ytv-image-motion; постановка — ytv-visual-direction |
+| [paper_art_director](paper_art_director.toml) | Единый бумажный мир и непрерывность | ytv-scene-images и профиль Paper |
+| [paper_artist](paper_artist.toml) | Готовые цельные картинки | ytv-scene-images и профиль Paper |
+| [paper_quality_reviewer](paper_quality_reviewer.toml) | Отдельная визуальная проверка | ytv-scene-images и профиль Paper |
 | [paper_editor](paper_editor.toml) | Исполнение принятых правок через FFmpeg | ytv-video-production |
 | [paper_sound_designer](paper_sound_designer.toml) | Авторизованное аудио и микс | ytv-audio-delivery |
 | [paper_av_reviewer](paper_av_reviewer.toml) | Отдельная проверка готового файла и синхрона | ytv-audio-delivery |
 | [paper_publisher_analyst](paper_publisher_analyst.toml) | Разрешённые выпуск, метаданные и аналитика | ytv-youtube-release |
 
-При передаче указать конкретные входы, файлы/таймлайн во владении, результат и критерии проверки. Не откатывать чужие изменения. Один writer на общий изменяемый монтажный план или output; непересекающиеся задачи используют отдельные work/output-пути.
+При передаче указать конкретные входы, файлы/таймлайн во владении, результат и критерии проверки. Не откатывать чужие изменения. Один writer на общий EPISODE.md, изменяемый монтажный план или output; непересекающиеся задачи используют отдельные work/output-пути.
 
 Автор не становится независимым проверяющим после смены роли. Если независимая проверка не выполнена, записать это явно. Стадии, статусы и шаблон передачи — в [production skill](../../.agents/skills/ytv-video-production/SKILL.md). Модель, permissions и глобальные настройки эти роли не меняют.

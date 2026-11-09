@@ -12,7 +12,7 @@ Own playlist architecture, inclusion criteria, editorial order and catalog cover
 - **Single release:** before upload, inspect a fresh, fully paginated inventory of the target channel’s existing playlists and select any appropriate existing playlist by stable ID based on the accepted film, its topic and the playlist’s actual promise/content. Return the assignment and rationale keyed to the episode before a video ID exists; resolve the actual ID at release. In the authorized upload flow, hand off the addition for the upload/organization step and verify membership after a video ID exists. Do not change playlist visibility or video privacy merely to add membership.
 - **Catalog audit:** obtain a fresh, fully paginated inventory of owned uploads, playlists and members through the release/uploader route. Include public, unlisted and private states in the accounting; distinguish editorial releases from technical streams, tests, removed items and other exclusions. Read relevant episode context; a slug or title is insufficient evidence of topic or factual status.
 
-Use the project's required consultation/research workflow before editorial decisions. A snapshot is dated evidence, not live state. Resolve a registry/API discrepancy before a dependent write; retain earlier receipts as history.
+Apply the project's research and evidence rules; an unavailable optional consultation does not prevent independent editorial work. A snapshot is dated evidence, not live state. Resolve a registry/API discrepancy before a dependent write; retain earlier receipts as history.
 
 ## Build the viewer's route
 

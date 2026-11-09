@@ -411,6 +411,15 @@ def plan_phrases(words: Sequence[dict], phrases: Sequence[str], font,
                 and right_words == ["prepared", "information", "about"])
             or (left_words == ["prepared", "information", "about"]
                 and right_words == ["the", "spacecraft's", "condition"])
+            or (left_words[-1:] == ["around"]
+                and right_words[:1] and right_words[0] in {"one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten"}
+                and any(x in {"hundred", "thousand", "million", "billion"} for x in right_words)
+                and float(font.getlength(phrase + " " + phrases[phrase_index + 1])) > max_text_width
+                and float(font.getlength(phrases[phrase_index + 1])) <= max_text_width)
+            or (left_words[-1:] == ["been"] and "not" in left_words
+                and len(right_words) >= 2 and right_words[0].endswith("ly")
+                and float(font.getlength(phrase + " " + phrases[phrase_index + 1])) > max_text_width
+                and float(font.getlength(phrases[phrase_index + 1])) <= max_text_width)
             or exception_key in user_approved
         )
         if exception and not allowed_exception:

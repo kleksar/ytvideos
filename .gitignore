@@ -67,6 +67,11 @@ Desktop.ini
 **/Work/**/previews/
 **/Edit/MediaLifecycle/**/audit.json
 **/Edit/MediaLifecycle/**/workspace.lock
+# Scenes on Repeat local film sources, work runs and the original pilot workspace.
+/channels/scenes_on_repeat/videos/*/Work/
+/channels/scenes_on_repeat/videos/*/Source/
+/channels/scenes_on_repeat/ReleaseQueue/*/Deliverables
+/projects/film_shorts_pilot/
 
 # Native editing sessions, exports and encoded media stay in local storage
 **/*.palmier/
@@ -118,3 +123,20 @@ Desktop.ini
 /automation/test_voice_run.py
 /automation/settings.example.json
 /automation/runs
+
+# Generated subtitle-state PNGs in episode work runs; keep adjacent plans and evidence.
+/channels/paper_detour/videos/*/Work/**/caption_states/*.png
+/channels/nuviko_history/videos/*/Work/**/caption_states/*.png
+# Legacy Voyager subtitle preparation: only generated caption bitmaps.
+/channels/nuviko_history/videos/037_voyager_1-voyager/subtitle_prepare/caption_states/*.png
+# Per-timeline advisory locks created by the ImageMotion runner (not dependency locks).
+/channels/paper_detour/videos/*/Edit/ImageMotion/*.lock
+/channels/nuviko_history/videos/*/Edit/ImageMotion/*.lock
+# Local skill-discovery links created at registered channel and episode entrypoints.
+/channels/*/.agents/skills
+/channels/*/videos/.agents/skills
+/channels/*/videos/*/.agents/skills
+/channels/paper_detour/legacy/*/.agents/skills
+/archive/*/.agents/skills
+/archive/*/*/.agents/skills
+/archive/*/*/*/.agents/skills

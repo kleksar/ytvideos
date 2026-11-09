@@ -110,6 +110,23 @@ def scene_render(i,s,work,canvas,encoder,bitrate):
     run(cmd)
     return p
 
+def draw_caption_state(words, active, *, size, center_x, baseline, font, profile, pad_x, stroke):
+    line_width = font.getlength(' '.join(words))
+    image = Image.new('RGBA', size)
+    draw = ImageDraw.Draw(image)
+    if profile['background']:
+        box_width = math.ceil(line_width + 2 * pad_x + 2 * stroke)
+        left = round(center_x - box_width / 2)
+        draw.rectangle((left, 0, left + box_width - 1, size[1] - 1), fill=profile['background'])
+    pen = center_x - line_width / 2
+    for index, word in enumerate(words):
+        draw.text((round(pen), baseline), word, font=font, anchor='ls',
+                  fill=profile['highlight'] if index == active else profile['text'],
+                  stroke_width=stroke, stroke_fill=profile['outline'] if stroke else None)
+        pen += font.getlength(word) + font.getlength(' ')
+    return image
+
+
 def caption_sequence(plan,base,work,canvas,total):
     sub=plan['subtitles']; profile=json.loads((HERE/'profiles'/f"{plan['channel']}.json").read_text())
     if sub.get('style') or any(key in sub for key in ('width','y')):
@@ -135,7 +152,7 @@ def caption_sequence(plan,base,work,canvas,total):
         try:groups=grouping.group_words(words,font,safe,keep_together=sub.get('keep_together',()),max_words=max_words,combine_sentences=plan['format']=='long')
         except ValueError:
             if plan['format']!='short' or max_words is not None:raise
-            groups=grouping.group_words(words,font,safe,max_words=len(words))
+            groups=grouping.group_words(words,font,safe,keep_together=sub.get('keep_together',()),max_words=len(words))
     if plan['channel']=='paper' and plan['format']=='short' and any(len(g)>3 for g in groups):
         raise ValueError('Paper Shorts require explicit reviewed phrases of at most 3 words; supply subtitles.phrases')
     ascent,descent=font.getmetrics(); extra=4 if plan['format']=='short' else max(1,round(4*factor))
@@ -149,16 +166,11 @@ def caption_sequence(plan,base,work,canvas,total):
     directory=work/'caption_states';directory.mkdir()
     events=[]
     for gi,g in enumerate(groups):
-        text=' '.join(w['text'] for w in g);line=font.getlength(text);boxw=math.ceil(line+2*pad_x+2*stroke);x=round(center_x-boxw/2)
         def state(active):
             name=directory/f'{gi:05d}_{active if active is not None else "neutral"}.png'
             if name.exists():return name
-            im=Image.new('RGBA',(width,band_h));draw=ImageDraw.Draw(im)
-            if profile['background']:draw.rectangle((x,0,x+boxw-1,band_h-1),fill=profile['background'])
-            pen=center_x-line/2; baseline=pad_y+stroke+ascent
-            for j,word in enumerate(g):
-                draw.text((round(pen),baseline),word['text'],font=font,anchor='ls',fill=profile['highlight'] if j==active else profile['text'],stroke_width=stroke,stroke_fill=profile['outline'] if stroke else None)
-                pen+=font.getlength(word['text'])+font.getlength(' ')
+            im=draw_caption_state([w['text'] for w in g], active, size=(width,band_h), center_x=center_x,
+                                  baseline=pad_y+stroke+ascent, font=font, profile=profile, pad_x=pad_x, stroke=stroke)
             bounds=im.getbbox(); left=center_x-visible_width/2; right=center_x+visible_width/2
             if bounds and (bounds[0] < math.ceil(left) or bounds[2] > math.floor(right)):
                 raise ValueError('Subtitle pixels exceed the shared maximum visible width')

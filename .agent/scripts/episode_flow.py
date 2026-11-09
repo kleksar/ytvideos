@@ -13,7 +13,7 @@ STATES = ('PENDING', 'DONE', 'STALE', 'BLOCKED')
 CHECKS = ('PASS', 'FAIL', 'UNVERIFIED', 'N_A')
 BASE = [
     ('script', []),
-    ('storyboard', ['ytv-video-production']),
+    ('storyboard', ['ytv-visual-direction']),
     ('audio', ['ytv-audio-delivery']),
     ('images', ['ytv-scene-images', 'ytv-image-motion']),
     ('subtitles', ['ytv-paper-subtitles', 'ytv-srt']),
@@ -51,8 +51,8 @@ def previous_skill_routes(stage, skills, channel):
     """Previously recorded routes, for validating evidence only."""
     if stage == 'storyboard':
         if channel == 'paper':
-            return [('ytv-paper-storyboard',), ('ytv-video-production', 'ytv-paper-storyboard')]
-        return [('ytv-history-story',)]
+            return [('ytv-video-production',), ('ytv-paper-storyboard',), ('ytv-video-production', 'ytv-paper-storyboard')]
+        return [('ytv-video-production',), ('ytv-history-story',)]
     if stage not in ('develop_story', 'script'):
         return []
     short_skills = tuple(skill for skill in skills if skill in ('ytv-shorts-story', 'ytv-shorts-loop'))

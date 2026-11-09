@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "channel": "Paper Detour",
+  "title": "The Interview Trap Behind Binance’s $6.3 Billion Theft",
+  "episode_original_path": "channels/paper_detour/videos/052_binance_interview_trap",
+  "identity_evidence_from_registry": "User accepted the Russian narration for Paper Detour on 2026-11-05 and explicitly requested full production through an MP4; see .agent/consultations/binance-story-20261105/rewrite/narration-v3.txt and this episode current context.",
+  "production_readiness": "outside_archive_scope",
+  "media_in_archive": false,
+  "rights_status": "Project text snapshot; independent ownership and license verification not established",
+  "items": [
+    {
+      "path": "scripts/story_ru_accepted_v01.md",
+      "source_original_path": "channels/paper_detour/videos/052_binance_interview_trap/Source/Script/story_ru_accepted_v01.md",
+      "sha256": "8ee0cb21b2219426bbeead764dea35ffb78156fa98891e46c08ca540856113b8",
+      "status": "accepted_registry",
+      "evidence": "Local registry state_sources and/or episode current_context; verify exact acceptance and rights before reuse"
+    },
+    {
+      "path": "scripts/narration_en_v01.md",
+      "source_original_path": "channels/paper_detour/videos/052_binance_interview_trap/Source/Script/narration_en_v01.md",
+      "sha256": "d3c45b7b930be15c9db07ac6f1b050713766449c317c9b4c783b8ae570765bf2",
+      "status": "production_text_registry",
+      "evidence": "Local registry state_sources and/or episode current_context; verify exact acceptance and rights before reuse"
+    }
+  ]
+}
