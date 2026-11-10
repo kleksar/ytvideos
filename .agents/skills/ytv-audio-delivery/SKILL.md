@@ -1,6 +1,6 @@
 ---
 name: ytv-audio-delivery
-description: Handle authorized voice and full-mix work and define ytvideos audio export settings; hand the actual delivery to video QA. Does not authorize new audio.
+description: Turn ytvideos narration and edit beats into a music brief, select and audition cues, and handle authorized voice, mix, and audio delivery.
 ---
 
 # Звук и финальная доставка
@@ -14,6 +14,8 @@ description: Handle authorized voice and full-mix work and define ytvideos audio
 Для оценки длительности до записи и обновления профиля темпа применять [измерение скорости готовой речи](references/speech-pace.md). Оно использует существующие принятые записи, не разрешает новую генерацию и передаёт visual-direction измерения с версиями, способом подсчёта и пределами точности.
 
 Входы: запрос и уже выданные разрешения, существующие аудиофайлы, принятый таймлайн, текст и реальные тайминги, путь итоговой выдачи. Прочитать [параметры и проверку](references/delivery-checks.md) и правила нужного канала.
+
+При подборе или замене музыки сначала составить бриф по [музыкальной режиссуре](references/music-direction.md). Связать посыл и подачу текста с эмоциональной дугой, темпом, ритмом и фактурой. По этому брифу искать точный отрывок и проверять его в миксе.
 
 Для новых роликов Paper Detour и Nuviko History в разрешённом полном производстве закладывать музыкальное сопровождение на весь хронометраж, включая начало и завершение. Выбирать одобренные точные версии по истории и [общему каталогу](../../../channels/paper_detour/docs/MUSIC_CATALOG.md), проверять права, лицензию и обязательную атрибуцию. Границы отдельного поручения и заморозка Nuviko сохраняются.
 
@@ -40,7 +42,7 @@ description: Handle authorized voice and full-mix work and define ytvideos audio
 
 ## Связь с единым сценарием
 
-Для новой работы брать точную производственную narration и M-ID звуковой партитуры из [EPISODE.md](../ytv-video-production/references/episode-document.md). Развитие, жанр/инструменты, входы/выходы, тишина и акценты описываются там по драматическим отрезкам, которые могут охватывать несколько сцен. Точные треки, права, параметры и приёмку микса вести в audio handoff и связать с M-ID; не создавать вторую редактируемую копию речи. Передать visual-direction фактическую запись, версию/hash и применённую скорость для уточнения времени.
+Для новой работы брать точную производственную narration и M-ID звуковой партитуры из [EPISODE.md](../ytv-video-production/references/episode-document.md). Общий музыкальный бриф и решения по смысловым отрезкам хранить в этой партитуре. Один музыкальный отрезок может охватывать несколько сцен. Точные треки, права, параметры и приёмку микса вести в audio handoff и связать с M-ID; не создавать вторую редактируемую копию речи. Передать visual-direction фактическую запись, версию/hash и применённую скорость для уточнения времени.
 
 ## Привязка субтитров к речи
 
