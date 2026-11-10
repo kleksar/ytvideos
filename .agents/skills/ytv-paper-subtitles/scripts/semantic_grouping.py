@@ -271,8 +271,11 @@ def _partition_sentence(words: Sequence[dict], font, max_text_width: float,
             if end < n:
                 cut_cost = boundary_cost(words, end, pairs)
                 if not math.isfinite(cut_cost):
-                    if allow_weak_boundary and not _crosses_keep_together(words, end, pairs) and bare(words[end-1]['text']) in WEAK_END | {'hundred','thousand','million','billion','dozen'}:
-                        cut_cost = 1000.0 if bare(words[end-1]['text']) in WEAK_END else 2000.0
+                    left = bare(words[end - 1]['text'])
+                    forced_possessive = (left.endswith("'s") and end < n
+                        and float(font.getlength(_phrase(words[end - 1:end + 1]))) > max_text_width)
+                    if allow_weak_boundary and not _crosses_keep_together(words, end, pairs) and (left in WEAK_END | {'hundred','thousand','million','billion','dozen'} or forced_possessive):
+                        cut_cost = 2000.0 if forced_possessive or left not in WEAK_END else 1000.0
                     else:
                         continue
             else:

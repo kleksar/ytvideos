@@ -15,6 +15,16 @@ class FixedWidthFont:
 
 
 class ForcedBoundaryTests(unittest.TestCase):
+    def test_short_overflow_possessive_is_exposed_as_warning(self):
+        words = [{'text': x, 'start': i, 'end': i + 0.5}
+                 for i, x in enumerate(["Washington's", 'discomfort.'])]
+        groups = grouping.group_words(words, FixedWidthFont(), 450, max_words=3)
+        self.assertEqual(["Washington's", 'discomfort.'],
+                         [' '.join(w['text'] for w in group) for group in groups])
+        self.assertTrue(grouping.boundary_warnings(groups))
+        groups = grouping.group_words(words, FixedWidthFont(), 1200, max_words=3)
+        self.assertEqual(len(groups), 1)
+
     def test_recorded_boundaries_are_allowed_only_when_needed(self):
         for left, right in [('and around', 'one hundred and fifty'),
                             ('had not been', 'properly addressed.')]:
