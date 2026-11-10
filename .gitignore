@@ -179,6 +179,22 @@ Desktop.ini
 /channels/paper_detour/research/2026-11-06-pinatubo-short/*/scene_[0-9][0-9][0-9][0-9][0-9].command.json
 /channels/paper_detour/research/2026-11-06-pinatubo-short/*/captions.ffconcat
 /channels/paper_detour/research/2026-11-06-pinatubo-short/*/scenes.ffconcat
+
+# Generated FFmpeg intermediates in documented proposal render runs.
+/.agent/proposals/paper-039-visual-direction-pilot/**/scene_[0-9][0-9][0-9][0-9][0-9].command.json
+/.agent/proposals/paper-039-visual-direction-pilot/**/captions.ffconcat
+/.agent/proposals/paper-039-visual-direction-pilot/**/scenes.ffconcat
+
+# Generated subtitle concat lists; preserve cue maps, builders and receipts.
+/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v0[2-5]/captions/caption_overlay.ffconcat
+/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v02/captions/caption_pilot.ffconcat
+/channels/nuviko_history/videos/016_marseille_1720/Work/subtitle_overlay_video_v01/sequence.ffconcat
+
+# Runtime advisory locks, not dependency lockfiles.
+/Work/scenes-upload-20261110/*.json.lock
+/.agent/research/2026-11-09-four-video-slate/packaging/release/harrison-v03-upload.json.lock
+/channels/nuviko_stories/automation/runs/.lock
+
 # Frozen release dependencies remain visible, even if an output basename recurs.
 !**/render_provenance/**/scene_[0-9][0-9][0-9][0-9][0-9].command.json
 !**/render_provenance/**/captions.ffconcat
