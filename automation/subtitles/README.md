@@ -1,25 +1,11 @@
-# Экранные субтитры Nuviko — длинный формат
+# Прозрачный subtitle layer
 
-`nuviko_long_subtitles.py` создаёт прозрачный пословный слой по проверенной карте слов Nuviko. Он сохраняет каждое слово и его timing, но по умолчанию заново группирует фразы общим [sentence-first алгоритмом Paper](../../.agents/skills/ytv-paper-subtitles/scripts/semantic_grouping.py): предложение → синтаксические связи → ширина фактической строки. Старая группировка cue map не считается принятым правилом. Чтобы сохранить уже утверждённые группы, передавать `--preserve-groups`; в этом режиме карта проходит проверку ширины, границ предложений и синтаксических «крючков». Базовая линия задаётся постоянными метриками шрифта. У Nuviko — тёмная плашка без полосы, светлый текст и жёлтое активное слово.
+`nuviko_long_subtitles.py` создаёт слой по проверенной cue map. Semantic grouping находится в [helper](../helpers/paper-subtitles/scripts/semantic_grouping.py); общий стандарт — [audio](../../docs/standards/audio.md). Nuviko freeze сохраняется.
 
-```sh
-python3 automation/subtitles/nuviko_long_subtitles.py \
-  --map /absolute/path/to/reviewed_cue_map.json \
-  --out-dir /absolute/path/to/new/output \
-  --plan-only
+```bash
+python3 automation/subtitles/nuviko_long_subtitles.py --help
 ```
 
-После смысловой проверки карты для полного рендера запустить без `--plan-only`:
+`--plan-only` готовит план без полного video render. `--preserve-groups` сохраняет уже принятые группы после проверки width/sentence/boundary constraints. Обычный проход применяет sentence-first grouping; он не заменяет прочтение групп и sync по звуку.
 
-```sh
-python3 automation/subtitles/nuviko_long_subtitles.py \
-  --map /absolute/path/to/reviewed_cue_map.json \
-  --out-dir /absolute/path/to/new/render \
-  --codec prores4444
-```
-
-Каждый результат сохраняет `segmented_cue_map.json` с фактическими группами и версией алгоритма. Синтаксическая эвристика не заменяет прочтение соседних групп: проверь относительные придаточные, предлоги с дополнениями, отрицания, имена и числа перед импортом слоя.
-
-Карта содержит `fps`, `canvas`, `audio_duration_seconds`, `source_audio_sha256`, `word_count`, `style` (включая `font_size_px`, `center_x`, `center_y`) и `cues` с точным текстом и timing каждого слова. Генератор не создаёт alignment. Сохраняются исходные timing limitations карты; проверяются смысловые группы и визуальное размещение композита. Формат карты Nuviko отличается от входа Paper, но группировщик общий.
-
-До полного рендера выполнить media-lifecycle audit, проверить разрешения и свободное место. Выход создаётся в новом каталоге и сохраняет PNG-состояния, concat-список, ProRes 4444 alpha и receipt. Не изменять импортированные зависимости или опубликованные ролики автоматически.
+Вход содержит actual FPS/canvas/audio hash/word times/style/cues. Генератор не создаёт alignment. Выход в новый owned directory: states, `segmented_cue_map.json`, concat, alpha video/receipt по выбранному режиму. Не менять imported dependencies. Обычный production montage использует общий renderer и его subtitle contract; альтернативный слой не создаёт вторую процедуру утверждения.

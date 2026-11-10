@@ -1,0 +1,41 @@
+{
+  "selected_topic": {
+    "title": "Boston’s Molasses Flood: The Warning Signs Painted Brown",
+    "angle": "A neighborhood saw molasses leaking from a huge storage tank before it burst; after the deadly flood, a court-appointed auditor found the tank structurally weak and held its owner responsible.",
+    "viewer_value": "Viewers will understand how a visible warning can be normalized or concealed, and how an investigation can establish responsibility without needing to claim certainty about every mechanical detail of a failure."
+  },
+  "audience": "General English-speaking viewers; no specialist engineering or Boston history knowledge assumed.",
+  "sources": [
+    {
+      "url": "https://www.boston.gov/news/100-years-ago-today-molasses-crashes-through-bostons-north-end",
+      "title": "100 years ago today: Molasses crashes through Boston's North End",
+      "accessed": "2026-11-10",
+      "location": "Lines 42, 45-53, 63-65, 74-75",
+      "claim": "On January 15, 1919, a 50-foot tank ruptured and released 2.3 million gallons of molasses; residents had seen leaks at seams; the flood killed 21 and injured 150; a 1925 court-appointed auditor ruled the owners negligent, and the account describes later regulatory changes.",
+      "confidence": "High for the event, quantities as reported by the City, casualties, known leaks, and auditor ruling. The City's explanation of contributing factors is not presented as the sole proven physical mechanism."
+    },
+    {
+      "url": "https://www.bpl.org/blogs/post/bostons-great-molasses-flood/",
+      "title": "Boston’s Great Molasses Flood",
+      "accessed": "2026-11-10",
+      "location": "Lines 294-299",
+      "claim": "The Boston Public Library reports 21 deaths and about 150 injuries, says the court-appointed auditor found structural weakness and the company was held liable, and notes that the tragedy led to stricter construction codes.",
+      "confidence": "High for summary of court outcome and aftermath."
+    },
+    {
+      "url": "https://www.smithsonianmag.com/history/without-warning-molasses-january-surged-over-boston-180971251/",
+      "title": "Without Warning, Molasses Surged Over Boston 100 Years Ago",
+      "accessed": "2026-11-10",
+      "location": "Lines 59-64",
+      "claim": "The article describes competing explanations considered after the disaster and reports that the court found the tank's factor of safety too low and held the company to blame.",
+      "confidence": "Corroborative secondary source; used to avoid falsely stating an exact, singular rupture mechanism."
+    }
+  ],
+  "topic_overlap": "The available topic history for this new channel run was empty; no existing Paper Detour release or story folder surfaced in the channel materials inspected. No duplication identified.",
+  "alternatives_considered": [
+    "A broad disaster recap: less distinctive and risks treating the event as spectacle.",
+    "A modern engineering-only explanation: exact failure mechanism remains debated, so it would overstate certainty for a short narrative."
+  ],
+  "uncertainty": "The precise physical sequence that initiated the rupture is not necessary to the selected angle and is not stated as settled. Official City account attributes the event to multiple factors; retrospective engineering analysis adds hypotheses. The narration will report the court's structural-weakness finding and company responsibility, not invent a definitive crack sequence.",
+  "format_decision": "A standalone Short with a completed ending; no loop. The final line closes on the distinction between a warning and proof of responsibility."
+}

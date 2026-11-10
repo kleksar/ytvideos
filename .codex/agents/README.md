@@ -1,26 +1,13 @@
-# Роли Paper Detour
+# Роли независимых задач
 
-TOML задаёт обязанности и границы исполнителя. Процедуры принадлежат [проектным skills](../../.agent/skill-catalog.md), ограничения — [корневому](../../AGENTS.md) и [канальному AGENTS.md](../../channels/paper_detour/AGENTS.md). Наличие роли не запускает агента и не разрешает делегирование. Применимость личной консультации координатора определяет root; делегировать можно только отдельно разрешённую задачу. Если пользователь поручил разработку ChatGPT.com, субагент её не подменяет.
+| Роль | Область |
+|---|---|
+| coordinator | Выбирает ready tasks из store, создаёт context packets, принимает результаты и следит за backlog |
+| worker | Выполняет одну задачу/сцену, возвращает реальные artifacts/evidence, не изменяет approvals/policy |
+| reviewer | Проверяет exact artifact и пишет findings/coverage, не редактирует его и не одобряет за пользователя |
 
-При допустимом назначении проверить текущую схему инструмента. Если `agent_type` предлагает нужную роль, выбрать её явно; имя `task_name` роль не загружает. Если такой возможности нет, передать путь TOML и потребовать прочитать его инструкции в пределах действующих более высоких правил. Не утверждать автоматическую загрузку без проверки. Число слотов брать из текущего runtime, не из этого README.
+Имена ролей не задают дополнительные полномочия или гарантированную независимость. Инструментальные permissions, модель, лимиты и запуск принадлежат фактическому runtime. Основная production модель — GPT-6 Luna; TOML не выдумывает доступный model ID или возможность запуска отсутствующего backend.
 
-| Роль / TOML | Ответственность | Основной workflow |
-|---|---|---|
-| [paper_researcher](paper_researcher.toml) | Источники и проверяемые утверждения | ytv-history-verification |
-| [paper_writer](paper_writer.toml) | Принятый сценарный текст | ytv-storycraft и сценарный профиль Paper |
-| [paper_fact_checker](paper_fact_checker.toml) | Отдельная проверка утверждений | ytv-history-verification |
-| [paper_director](paper_director.toml) | Действие, причинность, ритм | ytv-visual-direction и профиль Paper |
-| [paper_visual_director](paper_visual_director.toml) | Смысловая партитура цельных кадров | ytv-visual-direction и профиль Paper |
-| [paper_cinematographer](paper_cinematographer.toml) | Композиции, ракурсы, свет | ytv-visual-direction и профиль Paper |
-| [paper_motion_designer](paper_motion_designer.toml) | Монтажный ритм цельных кадров | ytv-image-motion; постановка — ytv-visual-direction |
-| [paper_art_director](paper_art_director.toml) | Единый бумажный мир и непрерывность | ytv-scene-images и профиль Paper |
-| [paper_artist](paper_artist.toml) | Готовые цельные картинки | ytv-scene-images и профиль Paper |
-| [paper_quality_reviewer](paper_quality_reviewer.toml) | Отдельная визуальная проверка | ytv-scene-images и профиль Paper |
-| [paper_editor](paper_editor.toml) | Исполнение принятых правок через FFmpeg | ytv-video-production |
-| [paper_sound_designer](paper_sound_designer.toml) | Авторизованное аудио и микс | ytv-audio-delivery |
-| [paper_av_reviewer](paper_av_reviewer.toml) | Отдельная проверка готового файла и синхрона | ytv-audio-delivery |
-| [paper_publisher_analyst](paper_publisher_analyst.toml) | Разрешённые выпуск, метаданные и аналитика | ytv-youtube-release |
+Новый worker получает самодостаточный packet без всей истории координатора. Переиспользовать slot только при подтверждённом reset контекста. Авторский повторный проход помечать self-review; independent review требует действительно отдельного исполнителя/контекста.
 
-При передаче указать конкретные входы, файлы/таймлайн во владении, результат и критерии проверки. Не откатывать чужие изменения. Один writer на общий EPISODE.md, изменяемый монтажный план или output; непересекающиеся задачи используют отдельные work/output-пути.
-
-Автор не становится независимым проверяющим после смены роли. Если независимая проверка не выполнена, записать это явно. Стадии, статусы и шаблон передачи — в [production skill](../../.agents/skills/ytv-video-production/SKILL.md). Модель, permissions и глобальные настройки эти роли не меняют.
+[Контракты runtime](../../docs/operations/runtime.md) · [Каталог skills](../../.agent/skill-catalog.md) · [Адаптивная очередь](../../docs/architecture/adaptive-workers.md)

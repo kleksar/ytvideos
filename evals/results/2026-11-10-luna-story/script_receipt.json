@@ -1,0 +1,50 @@
+{
+  "run_id": "6374541a-5796-4c5e-9587-276818c16885",
+  "task_id": "script",
+  "input_hash": "79d9bf850ca0b9da43693b92030a540b2a57e6f6522b002ac79875a9b7c3c090",
+  "output_sha256": "f75ddd97539e6c7177042604ac36e450b82db46063d921bcb1486dcb60e19f41",
+  "worker": "luna-story-forward",
+  "checks": [
+    {
+      "name": "factual_support",
+      "status": "pass",
+      "method": "Compared every factual sentence against opened City of Boston, Boston Public Library, and Smithsonian materials",
+      "observed": {
+        "supported": "The narration's 1919 event, tank holding more than two million gallons, observed leaks and children collecting molasses, January rupture, 21 deaths and 150 injuries, company's bomb claim, auditor finding of structural weakness and owner responsibility, and six-year court fight are supported by the saved sources.",
+        "locations": "Boston.gov lines 42, 51-53, 63, 74; Smithsonian lines 59-62.",
+        "caveat": "No exact rupture mechanism is stated."
+      }
+    },
+    {
+      "name": "first_listener",
+      "status": "pass",
+      "method": "Read the complete narration without research notes and independently reviewed by root",
+      "observed": {
+        "audience": "General English-speaking viewers; no specialist context required.",
+        "clarity": "A visible leak leads to rupture and consequences; later inquiry resolves responsibility. Root found no blocking context or causal gaps."
+      }
+    },
+    {
+      "name": "independent_review",
+      "status": "pass",
+      "method": "Root independently reviewed the exact saved artifact and its revised ending",
+      "observed": {
+        "reviewer": "/root",
+        "artifact_sha256": "f75ddd97539e6c7177042604ac36e450b82db46063d921bcb1486dcb60e19f41",
+        "findings": "New ending clearly links sudden failure with the later fight to establish responsibility; the unsupported evaluative wording was removed. No blocking meaning gaps; previous viewer-value and causality findings remain.",
+        "coverage": "First-listener comprehension, causal continuity, viewer value, and editorial reading; not independent primary-source fact-check or TTS listening."
+      }
+    },
+    {
+      "name": "viewer_value",
+      "status": "pass",
+      "method": "Evaluated whether the event sequence pays off its opening promise and reaches an answer",
+      "observed": {
+        "promise": "A visible warning preceded a lethal tank failure.",
+        "payoff": "The auditor found structural weakness and held owners responsible; the six-year legal fight supplies a supported concluding contrast.",
+        "viewer_value": "Shows how visible warnings and later accountability relate.",
+        "ending": "Closed ending; no loop; full payoff on first watch."
+      }
+    }
+  ]
+}

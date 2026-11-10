@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "skills": [
+    {
+      "name": "ytv-start",
+      "path": ".agents/skills/ytv-start/SKILL.md",
+      "description": "Start or resume a ytvideos episode. Use for a new story/video request, an approved script, continuation, or a narrowly scoped edit; choose the channel and load the next task context.",
+      "stages": [],
+      "intents": [
+        "new_video",
+        "ideas_only",
+        "resume",
+        "edit"
+      ]
+    },
+    {
+      "name": "ytv-write-script",
+      "path": ".agents/skills/ytv-write-script/SKILL.md",
+      "description": "Research, independently select a suitable topic, and write the complete approval-ready script for any ytvideos channel. Use for research and script tasks, factual checks, or script revisions.",
+      "stages": [
+        "research",
+        "script"
+      ],
+      "intents": [
+        "story",
+        "research",
+        "script_revision"
+      ]
+    },
+    {
+      "name": "ytv-produce-video",
+      "path": ".agents/skills/ytv-produce-video/SKILL.md",
+      "description": "Produce an approved ytvideos script through storyboard, independent scene images, audio, subtitles and render. Use only the assigned task context and preserve exact accepted inputs.",
+      "stages": [
+        "storyboard",
+        "scene_image",
+        "audio",
+        "subtitles",
+        "render"
+      ],
+      "intents": [
+        "production",
+        "scene_repair"
+      ]
+    },
+    {
+      "name": "ytv-review-video",
+      "path": ".agents/skills/ytv-review-video/SKILL.md",
+      "description": "Review the exact ytvideos MP4 and its artifacts, record measured and perceptual checks, repair scoped defects, and present the file for approval.",
+      "stages": [
+        "review"
+      ],
+      "intents": [
+        "mp4_review",
+        "qa"
+      ]
+    },
+    {
+      "name": "ytv-release-video",
+      "path": ".agents/skills/ytv-release-video/SKILL.md",
+      "description": "Prepare packaging and finish a fully populated scheduled YouTube release after exact MP4 approval. Use for metadata, thumbnails, captions, upload, scheduling and post-publication checks.",
+      "stages": [
+        "packaging",
+        "upload",
+        "configure_release",
+        "schedule",
+        "verify_publication"
+      ],
+      "intents": [
+        "release",
+        "metadata",
+        "schedule"
+      ]
+    },
+    {
+      "name": "ytv-operate",
+      "path": ".agents/skills/ytv-operate/SKILL.md",
+      "description": "Inspect or recover saved ytvideos runs, leases, blockers, uncertain external operations, worker capabilities, storage and budgets. Use for status, restart, cancellation and cleanup.",
+      "stages": [],
+      "intents": [
+        "status",
+        "recovery",
+        "cancel",
+        "cleanup"
+      ]
+    },
+    {
+      "name": "ytv-maintain",
+      "path": ".agents/skills/ytv-maintain/SKILL.md",
+      "description": "Change ytvideos code, profiles, documentation or project skills with bounded scope, contract tests and migration safeguards. Use for repository maintenance and onboarding a verified channel.",
+      "stages": [],
+      "intents": [
+        "maintenance",
+        "channel_onboarding"
+      ]
+    }
+  ]
+}

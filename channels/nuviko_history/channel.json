@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "id": "nuviko_history",
+  "name": "Nuviko History",
+  "status": "frozen",
+  "language": "en",
+  "recipe": "illustrated",
+  "youtube_channel_id": "UCbyLx6Rf3iWww4bPZJ2oo2A",
+  "voice": {"provider": "elevenlabs", "id": "5vsgZsi667xMyGinrNIM", "speed": 1.1},
+  "visual_profile": "nuviko",
+  "release_policy": {"end_screen": true, "ab_test": true, "shorts_related": true, "min_schedule_lead_seconds": 300},
+  "calendar": {"timezone": "Europe/Belgrade", "mode": "resolve_from_verified_channel_calendar"},
+  "budget": {"max_paid_units": 0, "max_task_attempts": 3, "max_editorial_passes": 2}
+}

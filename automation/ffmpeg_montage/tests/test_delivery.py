@@ -281,7 +281,7 @@ class DeliveryTests(unittest.TestCase):
             m.delivery.write_receipt(self.p/'new.mp4','paper',changed,inputs,m.delivery.review_template(self.contract))
 
     def test_exact_quote_free_forced_map_and_invalid_times(self):
-        spec=importlib.util.spec_from_file_location('forced',ROOT/'.agents/skills/ytv-srt/scripts/forced_alignment.py')
+        spec=importlib.util.spec_from_file_location('forced',ROOT/'automation/helpers/srt/scripts/forced_alignment.py')
         helper=importlib.util.module_from_spec(spec);spec.loader.exec_module(helper)
         result=helper.build_map('“Sailors came home.”','fixture',{'word_segments':[
             {'word':'Sailors','start':.1,'end':.3},

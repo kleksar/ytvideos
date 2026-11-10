@@ -1,50 +1,9 @@
-# Каталог общих медиа
+# Общие assets
 
-Проверяйте этот список до создания или импорта повторно используемых изображений и видео. Для новых проектов берите файл по указанному каноническому пути. Существующие пути выпусков сохранены, чтобы не менять ссылки монтажей. Для копий с одинаковым содержимым смотрите [журнал дедупликации](asset-dedupe-manifest.json).
+Использовать только фактически доступный принятый файл с установленным owner, provenance, правами и hash. Запись старого каталога, похожее имя или JSON manifest без media не подтверждают наличие/лицензию.
 
-Сводка выполненной очистки и решений по прошлым локальным рендерам: [ASSET_CLEANUP_20261102.md](ASSET_CLEANUP_20261102.md).
+Источники в репозитории: [brand assets](../channels/BRAND_ASSETS.md), [Paper scene references](../channels/paper_detour/brand/SCENE_IMAGE_REFERENCES.md), [Paper availability](../channels/paper_detour/brand/REFERENCE_STATUS.md), [Nuviko references](../channels/nuviko_history/brand/References/README.md), [Scenes brand](../channels/scenes_on_repeat/brand/README.md). Некоторые фактические материалы передаются в отдельном bundle; их отсутствие обозначать явно.
 
-Действующая процедура хранения, проверки монтажных зависимостей и плана очистки — [ytv-media-lifecycle](../.agents/skills/ytv-media-lifecycle/SKILL.md). Каталог и dedupe manifest помогают найти файлы; совпадение содержимого не снимает зависимости и pins.
+До новой генерации проверить пригодные existing artifacts/cache. Hash доказывает идентичность bytes, а не права или художественную приёмку. Сценовый packet содержит только нужные exact references. Импортированные пути сохранять до verified relink; общая библиотека не очищается как временный каталог отдельного run.
 
-Запись в журнале означает только совпадение SHA-256 и экономию места через APFS copy-on-write. Она не подтверждает художественную приёмку, лицензию, права на изображённых людей или пригодность медиа для конкретного сюжета. Сохранённые пакеты проектов считать непрозрачными архивными данными: не редактировать их вручную и не использовать как текущий процесс.
-
-## Текущая доступность
-
-После очистки 4 ноября 2026 исторические медиа-пути ниже не доказывают доступности исходников; текстовые записи сохранены. Подробности — в [отчёте очистки](audits/cleanup-all-visual-20261104/REPORT.md). Позднее созданные и принятые общие пакеты указаны отдельно с текущими файлами и manifest.
-
-## Paper Detour
-
-| Материал | Канонический источник | Как использовать |
-|---|---|---|
-| Смысловая постановка Paper P01–P06, принята 5 ноября 2026 | [Общий пакет](../channels/paper_detour/brand/References/meaningful_staging_20261105_v01/REFERENCE.md), [manifest](../channels/paper_detour/brand/References/meaningful_staging_20261105_v01/manifest.json) | Доступные общие PNG для сравнения смысловой подачи, бумажной детализации и разнообразия композиций. Не копировать корабельный сюжет в другие истории. Хранить независимо от lifecycle выпуска 045; геометрия карты/обломков не принята как документально точная. |
-| Принятый бумажный визуальный эталон Paper Detour004, отметка 38.08 | [`channels/paper_detour/Shared/References/Paper/paper004_user_38.png`](../channels/paper_detour/Shared/References/Paper/paper004_user_38.png) | Для сравнения фактуры, объёма, света и читаемости. Не копировать сюжет или конкретную сцену без причины. Оригинал и provenance остаются в выпуске004; см. [`SCENE_IMAGE_REFERENCES.md`](../channels/paper_detour/brand/SCENE_IMAGE_REFERENCES.md). SHA-256 `238bb11958c8e59224edcd006db060df0bddd0c9e100f795e44eeb537ebdc166`. |
-
-## Эталон полного фильма Paper Detour
-
-[030 v14 — принятый пользователем пример подачи](../channels/paper_detour/brand/FILM_REFERENCE_030.md): описание постановки и смысловых акцентов. 3 ноября 2026 пользователь поручил удалить локальные видео и изображения опубликованного выпуска, включая V20/V21; для сравнения доступна публикация на YouTube, а локальные ссылки монтажного проекта больше не действуют.
-
-## Nuviko History
-
-Действующие общие эталоны персонажа приняты пользователем 4 ноября 2026 и доступны локально после повторного создания:
-
-| Материал | Канонический источник | Использование |
-|---|---|---|
-| Внешность, одежда, повороты | [traveler_turnaround_20261104.png](../channels/nuviko_history/brand/References/traveler_turnaround_20261104.png) | SHA-256 `f093ba6c1c3e97cb3ffca2e0329af93a47d7aabdfc7b77f9768b7263bfa6f0c7` |
-| Мимика, коллаж v03 | [traveler_emotions_20261104.png](../channels/nuviko_history/brand/References/traveler_emotions_20261104.png) | SHA-256 `d0e47f0560a1894f4d52d69d7826e0f1461f78733c2b80e41899459b3da2dc78` |
-
-Передавать оба PNG как references по [визуальному профилю](../channels/nuviko_history/brand/VISUAL_PROFILE.md). Приёмка и provenance — в [квитанции](../channels/nuviko_history/brand/References/CHARACTER_REFERENCE_ACCEPTANCE_20261104.json). Сохранять эти общие канальные файлы при очистке отдельных выпусков.
-
-## Stories RU
-
-| Материал | Канонический источник | Статус и ограничения |
-|---|---|---|
-| VPN-плашка и профиль | [`channels/nuviko_stories/assets/vpn-ru-shorts/`](../channels/nuviko_stories/assets/vpn-ru-shorts) и [README](../channels/nuviko_stories/assets/vpn-ru-shorts/README.md) | Сохранённый набор для новых RU Shorts по принятому примеру013. Перед импортом сверить назначения и ограничения в README. |
-| Pexels клип 10238452 | [`channels/nuviko_stories/assets/broll/pexels/10238452.mp4`](../channels/nuviko_stories/assets/broll/pexels/10238452.mp4), [карточка набора](../channels/nuviko_stories/assets/broll/pexels/README.md) | Клип Konstantin Klimov, скачан для018 и повторно использован в022. Исходная запись и URL — в manifest018; состояние прав/визуальной проверки см. карточку. Это иллюстративный материал, а не свидетельство событий рассказа. |
-
-## Производные клипы движения
-
-Сохранённые производные движения — зависимости конкретных проектов, а не временный кэш. Новые движения цельных изображений готовятся по [ytv-image-motion](../.agents/skills/ytv-image-motion/SKILL.md) и собираются в текущем FFmpeg процессе. Импортированные MP4 сохранять по стабильному пути; общие папки не очищать без проверки зависимостей по lifecycle.
-
-## Другие совпавшие файлы
-
-Остальные точные дубли — в [машиночитаемом журнале](asset-dedupe-manifest.json). Это могут быть QA-кадры, промежуточные версии или локальные выдачи. Не считать их библиотекой принятых материалов только по факту дедупликации. В FFmpeg-монтаже использовать общие источники по каноническому пути в версии плана выпуска; уже используемые файлы не перемещать.
+Жизненный цикл и cleanup — [storage](../docs/standards/storage.md). Не ссылаться на отсутствующие локальные dedupe manifests, screenshots, VPN logs и cleanup reports как на обязательные входы чистого checkout.

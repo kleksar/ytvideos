@@ -2,6 +2,9 @@ import importlib.util, io, json, subprocess, sys, tempfile, unittest
 from pathlib import Path
 from PIL import Image, ImageDraw
 from export_fixture import passport
+from font_fixture import configure, font as fixture_font
+
+configure()
 
 P=Path(__file__).resolve().parents[1]/'montage.py'
 spec=importlib.util.spec_from_file_location('montage',P);m=importlib.util.module_from_spec(spec);spec.loader.exec_module(m)
@@ -39,7 +42,7 @@ class TestMontage(unittest.TestCase):
     composite=Image.alpha_composite(Image.new('RGBA',image.size,(255,255,255,255)),image)
     self.assertEqual(composite.getpixel((bounds[0],0)),(77,81,85,255))
  def test_correlative_complement_keeps_final_day_together(self):
-  font=m.ImageFont.truetype('/System/Library/Fonts/Supplemental/Georgia Bold.ttf',84)
+  font=fixture_font('nuviko',84)
   tokens="And today, whenever archaeologists uncover another street or room, we learn not only about Pompeii's final day.".split()
   words=[{'text':t,'start':i*.3,'end':i*.3+.2} for i,t in enumerate(tokens)]
   groups=m.grouping.group_words(words,font,1308)
@@ -49,7 +52,7 @@ class TestMontage(unittest.TestCase):
   self.assertFalse(any(phrase == 'day.' for phrase in phrases))
   self.assertEqual(m.grouping.plan_phrases(words,phrases,font,1308),groups)
  def test_reviewed_phrase_keeps_clause_punctuation(self):
-  font=m.ImageFont.truetype('/System/Library/Fonts/Supplemental/ChalkboardSE.ttc',84,index=2)
+  font=fixture_font('paper',84)
   words=[{'text':t,'start':i*.3,'end':i*.3+.2} for i,t in enumerate('To understand that, go back two days.'.split())]
   groups=m.grouping.plan_phrases(words,['To understand that,','go back two days.'],font,1298)
   self.assertEqual(' '.join(w['text'] for g in groups for w in g),'To understand that, go back two days.')
@@ -125,12 +128,14 @@ class TestMontage(unittest.TestCase):
    self.assertTrue(all(len(group)<=3 for group in groups))
    self.assertEqual([w['text'] for group in groups for w in group],tokens)
  def test_short_number_boundary_when_width_requires_it(self):
-  from PIL import ImageFont
-  font=ImageFont.truetype('/System/Library/Fonts/Supplemental/ChalkboardSE.ttc',128,index=2)
+  font=fixture_font('paper',128)
   words=[{'text':w} for w in 'Five thousand American sailors.'.split()]
-  groups=m.grouping.group_words(words,font,914,max_words=3)
+  # Width is measured from the explicit test font, not a macOS font's metrics.
+  width=max(font.getlength('Five thousand'),font.getlength('American sailors.'))+1
+  groups=m.grouping.group_words(words,font,width,max_words=3)
   self.assertEqual([w['text'] for group in groups for w in group],[w['text'] for w in words])
-  self.assertTrue(all(len(group)<=3 and font.getlength(' '.join(w['text'] for w in group))<=914 for group in groups))
+  self.assertGreater(len(groups),1)
+  self.assertTrue(all(len(group)<=3 and font.getlength(' '.join(w['text'] for w in group))<=width for group in groups))
  def test_direction_rule(self):
   with tempfile.TemporaryDirectory() as td:
    p=Path(td);(p/'audio').touch();(p/'im').touch()

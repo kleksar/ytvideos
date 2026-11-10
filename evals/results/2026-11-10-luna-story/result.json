@@ -1,0 +1,81 @@
+{
+  "date": "2026-11-10",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "medium",
+  "fresh_context": true,
+  "prompt": "Мне нужен сюжет для Paper Detour: Short с английским текстом. Сам найди подходящую историю и покажи полный текст для согласования.",
+  "run_id": "6374541a-5796-4c5e-9587-276818c16885",
+  "observed_state": "awaiting_script_approval",
+  "source_pins": {
+    "code": "a0d532a459c65b425d4fa318c30b90e722af0c00d63fb57cb9ae6ed93fa814bb",
+    "profile": "00d2e1e4f6c165f0659e37598ac8e1a5404fab089f14573feb5db9036ec93440",
+    "skills": "c638ecabb54f71e2670ef83a211eaf922164444c9ba27bf596b37e5844f577a4",
+    "workflow": "1"
+  },
+  "tasks": {
+    "audio": {
+      "status": "pending",
+      "attempt": 0
+    },
+    "configure_release": {
+      "status": "pending",
+      "attempt": 0
+    },
+    "packaging": {
+      "status": "pending",
+      "attempt": 0
+    },
+    "render": {
+      "status": "pending",
+      "attempt": 0
+    },
+    "research": {
+      "status": "complete",
+      "attempt": 1
+    },
+    "review": {
+      "status": "pending",
+      "attempt": 0
+    },
+    "schedule": {
+      "status": "pending",
+      "attempt": 0
+    },
+    "script": {
+      "status": "complete",
+      "attempt": 1
+    },
+    "storyboard": {
+      "status": "pending",
+      "attempt": 0
+    },
+    "subtitles": {
+      "status": "pending",
+      "attempt": 0
+    },
+    "upload": {
+      "status": "pending",
+      "attempt": 0
+    },
+    "verify_publication": {
+      "status": "pending",
+      "attempt": 0
+    }
+  },
+  "approvals": {},
+  "script_sha256": "f75ddd97539e6c7177042604ac36e450b82db46063d921bcb1486dcb60e19f41",
+  "reviewer": "/root",
+  "independent_review_scope": [
+    "first_listener",
+    "causal_continuity",
+    "viewer_value",
+    "editorial_reading"
+  ],
+  "not_tested": [
+    "live media generation",
+    "real YouTube write",
+    "real user approval bridge",
+    "latency or cost benchmark"
+  ],
+  "limitations": "One prompt, independent editorial feedback from parent, source snapshot before subsequent media-boundary hardening. This is not a general quality benchmark."
+}

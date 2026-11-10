@@ -1,9 +1,0 @@
-# Whole-image movement and framing checks
-
-Consume the current [motion standard](../../ytv-image-motion/SKILL.md) and [early composition](../../ytv-scene-images/SKILL.md#motion-safe-composition): exact source, planned movement/zoom envelope, protected faces/action objects/text and overlay regions before generation. Check the actual selected image under the planned fill crop before import; no universal margin percentage proves safety.
-
-For each scene verify the planned horizontal or vertical movement, zoom, or their combination, and no repeated movement direction or zoom type on adjacent scenes. Compare actual keys/render with the saved plan and visible image features. A coordinate sign alone does not establish screen direction; combined position and scale can still produce a centered zoom. Record ambiguous or negligible movement as UNVERIFIED. Preserve the internal geometry of the whole image.
-
-Compose source aspect/fill crop, position/scale and subtitles in actual order. Check the whole protected body/object, edges, faces/hands and every affected scene×cue pair throughout the path, including intermediate extrema. Simple affine bounds prove containment only when interpolation and all extrema are known. Otherwise inspect decoded frames through risky intervals, increasing coverage as needed. Remaining uncertainty is UNVERIFIED. Reduce amplitude, adjust framing, choose a wider composition or return the source for revision within authorization; do not stretch artwork or add unrelated padding.
-
-Distinguish native editable keys from proven baked whole-image movement. Ensure movement is applied exactly once, without a second camera path. Subtitle geometry remains in screen coordinates. Derive visible intervals from actual timeline trims; excluded reserve frames are outside visible QA.
