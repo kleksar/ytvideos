@@ -9,7 +9,7 @@
 Для агента: [AGENTS.md](AGENTS.md), затем [ytv-start](.agents/skills/ytv-start/SKILL.md). Для разработчика: [development](docs/development.md). Для переноса текущих выпусков: [migration](docs/migration.md).
 
 ```bash
-uv sync
+uv sync --locked --extra media --extra postgres --extra youtube
 uv run python -m ytvideos --help
 ```
 

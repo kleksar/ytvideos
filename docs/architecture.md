@@ -43,7 +43,7 @@ Approval bridge получает реальное событие пользов�
     "artifact_id": "artifact-id",
     "sha256": "exact-artifact-sha256",
     "created_at": "RFC3339",
-    "scope": "production"
+    "scope": "produce_video"
   },
   "signature": "base64-ed25519-signature"
 }

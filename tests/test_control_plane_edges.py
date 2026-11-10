@@ -4,6 +4,7 @@ import unittest
 from test_release import payload
 import test_workflow
 from ytvideos.errors import Conflict
+from ytvideos.doctor import inspect
 from ytvideos.workflow import input_hash
 
 
@@ -76,6 +77,11 @@ class ControlPlaneEdges(unittest.TestCase):
         self.assertNotEqual(reference["id"], rights["id"])
         self.assertEqual(reference["sha256"], rights["sha256"])
         self.assertEqual(fixture.store.get(self.run_id)["artifacts"][reference["id"]]["kind"], "reference")
+
+    def test_configured_verifier_does_not_claim_live_user_event_delivery(self):
+        checks = {item["capability"]: item for item in inspect(self.service, self.run_id)["checks"]}
+        self.assertTrue(checks["approval.verifier"]["available"])
+        self.assertFalse(checks["approval.bridge"]["available"])
 
 
 if __name__ == "__main__":

@@ -12,7 +12,7 @@
 ## Локальный вход
 
 ```bash
-uv sync
+uv sync --locked --extra dev --extra media --extra postgres --extra youtube
 uv run python -m ytvideos --help
 uv run python -m unittest discover -s tests -p 'test_*.py'
 ```

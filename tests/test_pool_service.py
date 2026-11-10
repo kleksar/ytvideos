@@ -84,7 +84,7 @@ class PoolServiceTests(unittest.TestCase):
             "review_capacity": review_capacity, "evidence": "fixture runtime verified shared capacity"})
         self.pools.operate(run["id"], "enqueue")
         result = self.pools.operate(run["id"], "tick")
-        return run["id"], result["pending"][0]
+        return run["id"], result["pending"][0] if result["pending"] else None
 
     def claim(self, run_id, request, *, estimated_units=0):
         return self.pools.operate(run_id, "claim", {"operation_id": request["operation_id"],
@@ -203,6 +203,57 @@ class PoolServiceTests(unittest.TestCase):
         with self.store.transaction() as tx:
             self.assertEqual(tx.execute("SELECT COUNT(*) FROM operations WHERE run_id=?", (run_id,)).fetchone()[0], 1)
 
+    def test_old_unknown_receipt_replay_cannot_regress_confirmed_operation(self):
+        run_id, request = self.make_run(capacity=1, count=1)
+        granted = self.claim(run_id, request)
+        unknown = {"operation_id": request["operation_id"],
+                   "claim_token": granted["request"]["claim_token"], "receipt_id": "first-timeout",
+                   "status": "unknown", "evidence": {"tool_result_id": "fixture-timeout"}}
+        self.pools.operate(run_id, "result", unknown)
+        self.pools.operate(run_id, "result", {**unknown, "receipt_id": "later-read-back", "status": "completed",
+            "artifact_path": str(self.image), "evidence": {"tool_result_id": "fixture-existing-image"}})
+
+        # Simulate an out-of-order redelivery after the dispatcher restarts.
+        restarted = PoolService(Production(Store(self.root / "state.db"), self.root / "work",
+                                          self.production.project, clock=lambda: self.now))
+        replay = restarted.operate(run_id, "result", unknown)
+        self.assertTrue(replay["duplicate"])
+        self.assertEqual(replay["status"], "completed")
+        run = self.store.get(run_id)
+        self.assertEqual(run["pool"]["backend"]["requests"][request["operation_id"]]["status"], "completed")
+        with self.store.transaction() as tx:
+            self.assertEqual(tx.operation(granted["operation"]["key"])["status"], "confirmed")
+            self.assertEqual(tx.execute("SELECT state FROM runtime_slots WHERE id=?",
+                                       (granted["operation"]["key"],)).fetchone()[0], "released")
+
+    def test_old_failed_receipt_cannot_settle_a_new_task_generation(self):
+        run_id, request = self.make_run(capacity=1, count=1, billing="metered")
+        first = self.claim(run_id, request, estimated_units=3)
+        failed = {"operation_id": request["operation_id"], "claim_token": first["request"]["claim_token"],
+                  "receipt_id": "first-failure", "status": "failed", "actual_units": 2,
+                  "detail": "observed provider failure", "evidence": {"tool_result_id": "fixture-failure"}}
+        self.pools.operate(run_id, "result", failed)
+        self.production.revise(run_id, "image:s0", "retry the known failed image")
+        self.pools.operate(run_id, "enqueue", {"task_ids": ["image:s0"]})
+        pending = self.pools.operate(run_id, "tick")["pending"]
+        second = self.claim(run_id, pending[0], estimated_units=4)
+        self.assertNotEqual(first["task_claim"]["input_hash"], second["task_claim"]["input_hash"])
+
+        self.assertTrue(self.pools.operate(run_id, "result", failed)["duplicate"])
+        with self.assertRaises(Conflict):
+            self.pools.operate(run_id, "result", {**failed, "actual_units": 4})
+        with self.assertRaises(ValueError):
+            self.pools.operate(run_id, "result", {**failed, "receipt_id": "different-late-failure"})
+        run = self.store.get(run_id)
+        self.assertEqual(run["tasks"]["image:s0"]["status"], "running")
+        self.assertEqual(run["tasks"]["image:s0"]["claim"]["token"], second["task_claim"]["token"])
+        self.assertEqual((run["budget"]["spent"], run["budget"]["reserved"], run["budget"]["unknown_reserved"]),
+                         (2, 4, 0))
+        with self.store.transaction() as tx:
+            self.assertEqual(tx.operation(second["operation"]["key"])["status"], "dispatched")
+            self.assertEqual(tx.execute("SELECT state FROM runtime_slots WHERE id=?",
+                                       (second["operation"]["key"],)).fetchone()[0], "reserved")
+
     def test_stale_expected_version_is_rejected(self):
         run_id, _ = self.make_run()
         before = self.store.get(run_id)["version"]
@@ -225,10 +276,28 @@ class PoolServiceTests(unittest.TestCase):
         self.assertEqual(self.store.get(run_id)["tasks"]["image:s0"]["status"], "cancelled")
         self.assertEqual(self.pools.operate(run_id, "pending")["requests"], [])
 
+    def test_cancel_old_review_job_cannot_cancel_revised_task(self):
+        run_id, request = self.make_run(count=1)
+        granted = self.claim(run_id, request)
+        self.native_complete(run_id, granted)
+        self.qa_complete(run_id, "image:s0", granted["task_claim"])
+        self.production.revise(run_id, "image:s0", "change the image before enqueuing its replacement")
+        revised = self.store.get(run_id)["tasks"]["image:s0"]
+        self.assertEqual(revised["status"], "pending")
+        self.pools.operate(run_id, "cancel", {"job_id": request["packet"]["job_id"]})
+        self.assertEqual(self.store.get(run_id)["tasks"]["image:s0"], revised)
+        self.pools.operate(run_id, "enqueue")
+        pending = self.pools.operate(run_id, "tick")["pending"]
+        self.assertNotEqual(pending[0]["packet"]["job_id"], request["packet"]["job_id"])
+
     def test_cancel_inflight_keeps_slot_until_observation_then_settles_cost(self):
         run_id, request = self.make_run(capacity=1, billing="metered")
         granted = self.claim(run_id, request, estimated_units=3)
         self.pools.operate(run_id, "cancel", {"job_id": request["packet"]["job_id"]})
+        with self.assertRaises(Conflict):
+            self.production.revise(run_id, "image:s0", "cannot abandon an outstanding native claim")
+        self.assertEqual(self.store.get(run_id)["tasks"]["image:s0"]["claim"]["token"],
+                         granted["task_claim"]["token"])
         with self.store.transaction() as tx:
             self.assertEqual(tx.execute("SELECT COUNT(*) FROM runtime_slots WHERE state='reserved'").fetchone()[0], 1)
         self.native_complete(run_id, granted)
@@ -238,6 +307,40 @@ class PoolServiceTests(unittest.TestCase):
         self.assertEqual(run["budget"]["unknown_reserved"], 3)
         with self.store.transaction() as tx:
             self.assertEqual(tx.execute("SELECT COUNT(*) FROM runtime_slots WHERE state='reserved'").fetchone()[0], 0)
+        self.production.revise(run_id, "image:s0", "native work finished; a new version is safe")
+        revised = self.store.get(run_id)["tasks"]["image:s0"]
+        self.assertEqual(revised["status"], "pending")
+        self.assertIsNone(revised["claim"])
+
+    def test_licensed_recipe_enqueues_only_thumbnail_generation(self):
+        profile_path = self.production.project / "channels" / "test_channel" / "channel.json"
+        profile = json.loads(profile_path.read_text())
+        profile["recipe"] = "licensed_clips"
+        profile_path.write_text(json.dumps(profile))
+        run_id, request = self.make_run(count=1)
+        self.assertIsNone(request)
+        self.assertEqual(self.pools.operate(run_id, "enqueue")["jobs"], [])
+        with self.assertRaises(WorkflowError):
+            self.pools.operate(run_id, "enqueue", {"task_ids": ["image:s0"]})
+
+        # A previously accepted packaging brief is a fixture input, like the
+        # accepted script/storyboard above. Thumbnail planning/dispatch are real.
+        brief = self.root / "packaging-fixture.json"
+        brief.write_text(json.dumps({"title": "Synthetic thumbnail brief"}))
+        artifact = self.production.artifacts.put(brief, "release_spec")
+        def prepared_packaging(tx, run):
+            run["artifacts"][artifact["id"]] = artifact
+            run["tasks"]["packaging"].update(status="complete", outputs=[artifact["id"]])
+        self.store.mutate(run_id, prepared_packaging)
+        task = self.production.add_thumbnail_task(run_id, {
+            "id": "cover", "prompt": "Synthetic cover image", "visual_intent": "fixture test"})
+        jobs = self.pools.operate(run_id, "enqueue")["jobs"]
+        self.assertEqual(len(jobs), 1)
+        pending = self.pools.operate(run_id, "tick")["pending"]
+        self.assertEqual(pending[0]["packet"]["context"]["task_id"], task["id"])
+        granted = self.claim(run_id, pending[0])
+        self.assertEqual(granted["request"]["packet"]["context"]["scene"]["purpose"], "thumbnail")
+        self.assertEqual(self.store.get(run_id)["tasks"]["image:s0"]["status"], "pending")
 
     def test_budget_rejection_does_not_claim_bridge_or_slot(self):
         run_id, request = self.make_run(billing="metered")

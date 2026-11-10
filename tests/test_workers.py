@@ -345,8 +345,8 @@ class BridgeTests(unittest.TestCase):
         kwargs = dict(claim_token=claimed["claim_token"], receipt_id="tool-result-1",
                       result=BackendResult("completed", "artifact://image", ARTIFACT_HASH),
                       evidence={"tool_result_id": "actual-1"})
-        self.bridge.record_observation(self.handle.operation_id, **kwargs)
-        self.bridge.record_observation(self.handle.operation_id, **kwargs)
+        self.assertTrue(self.bridge.record_observation(self.handle.operation_id, **kwargs))
+        self.assertFalse(self.bridge.record_observation(self.handle.operation_id, **kwargs))
         self.assertEqual(self.bridge.poll(self.handle).status, "completed")
         self.assertEqual(len(self.bridge.receipts), 1)
 

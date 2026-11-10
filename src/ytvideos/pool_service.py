@@ -12,6 +12,11 @@ from .workflow import REQUIRED_CHECKS, input_hash, ready
 
 
 class PoolService:
+    @staticmethod
+    def _uses_image_generator(run, task):
+        return task["stage"] == "scene_image" and (
+            run["profile"]["recipe"] == "illustrated" or task.get("payload", {}).get("purpose") == "thumbnail")
+
     def __init__(self, production):
         self.production, self.store = production, production.store
         with self.store.transaction() as tx:
@@ -79,7 +84,8 @@ class PoolService:
                     continue
                 binding = state["bindings"][job_id]
                 task = value["tasks"].get(binding["task_id"])
-                if (not task or not ready(value, task) or input_hash(value, task) != binding["task_input_hash"]
+                if (not task or not self._uses_image_generator(value, task) or not ready(value, task)
+                        or input_hash(value, task) != binding["task_input_hash"]
                         or any(not self.production._capable(value, cap) for cap in task["capabilities"])):
                     continue
                 if estimated_units == 0 and any(value["capabilities"][cap].get("billing") != "included"
@@ -125,14 +131,14 @@ class PoolService:
     def _enqueue(self, run, pool, payload):
         task_ids = payload.get("task_ids")
         if task_ids is None:
-            task_ids = [t["id"] for t in run["tasks"].values() if t["stage"] == "scene_image" and ready(run, t)]
+            task_ids = [t["id"] for t in run["tasks"].values() if self._uses_image_generator(run, t) and ready(run, t)]
         if not isinstance(task_ids, list) or not all(isinstance(t, str) for t in task_ids):
             raise WorkflowError("task_ids must be an array of image task IDs")
         jobs = []
         for task_id in task_ids:
             task = self.production._task(run, task_id)
-            if task["stage"] != "scene_image":
-                raise WorkflowError("session image pool accepts only scene_image tasks")
+            if not self._uses_image_generator(run, task):
+                raise WorkflowError("native image sessions accept illustrated scenes or thumbnails; use the media recipe for licensed clips")
             current_hash = input_hash(run, task)
             job_id = f"{run['id']}:{task_id}:{current_hash}"
             binding = run["pool"]["bindings"].get(job_id)
@@ -171,6 +177,8 @@ class PoolService:
             raise Conflict("scene was cancelled or revised")
         binding = run["pool"]["bindings"][job_id]
         task = self.production._task(run, binding["task_id"])
+        if not self._uses_image_generator(run, task):
+            raise WorkflowError("licensed clip extraction cannot be dispatched to an image-generation session")
         if binding["task_input_hash"] != input_hash(run, task):
             raise Conflict("image task inputs changed; enqueue the current revision")
         runtime_key = run["pool"]["runtime_key"]
@@ -206,8 +214,18 @@ class PoolService:
         status = payload["status"]
         result = BackendResult(status, artifact["uri"] if artifact else "", artifact["sha256"] if artifact else "",
                                detail=payload.get("detail", ""), generation_seconds=payload.get("generation_seconds"))
-        backend.record_observation(operation_id, claim_token=payload["claim_token"],
+        observation = {"operation_id": operation_id, "status": status,
+                       "artifact": {key: artifact[key] for key in ("id", "uri", "sha256")} if artifact else None,
+                       "evidence": payload["evidence"], "detail": payload.get("detail", ""),
+                       "generation_seconds": payload.get("generation_seconds"), "actual_units": payload.get("actual_units")}
+        # Deduplicate the WHOLE transaction, not only the bridge's in-memory state.
+        # A late repeated timeout must never overwrite a later confirmed result or
+        # settle the reservation of a newer task generation.
+        fresh = tx.event(f"pool-observation:{run['id']}:{payload['receipt_id']}", run["id"], "pool.observed", observation)
+        applied = backend.record_observation(operation_id, claim_token=payload["claim_token"],
             receipt_id=payload["receipt_id"], result=result, evidence=payload["evidence"])
+        if not fresh or not applied:
+            return {"status": request["status"], "duplicate": True, "task_id": binding["task_id"]}
         if artifact:
             run["artifacts"][artifact["id"]] = artifact
         operation = tx.operation(binding["operation_key"])
@@ -222,10 +240,14 @@ class PoolService:
                              observed_at=utc_now(), artifact=artifact)
             tx.put_operation(operation)
         task = self.production._task(run, binding["task_id"])
-        if task["status"] == "running" and (status in {"unknown", "not_started"}
+        claim = task.get("claim")
+        current_attempt = (input_hash(run, task) == binding["task_input_hash"] and claim is not None
+                           and claim["input_hash"] == binding["task_input_hash"]
+                           and (claim["token"] == binding.get("task_token") or claim.get("reconciled_existing_result") is True))
+        if current_attempt and task["status"] == "running" and (status in {"unknown", "not_started"}
                 or task["claim"]["expires_at"] <= self.production.clock()):
             task.update(status="unknown", blocker="native image outcome requires task reconciliation")
-        if status == "failed" and task["status"] in {"running", "unknown"}:
+        if current_attempt and status == "failed" and task["status"] in {"running", "unknown"}:
             claim = task["claim"]
             units = payload.get("actual_units")
             if units is not None and (type(units) is not int or units < 0):
@@ -237,7 +259,7 @@ class PoolService:
                 run["budget"]["spent"] += units
             task.update(status="cancelled" if run["status"] == "cancelled" else "blocked", claim=None,
                         blocker=payload.get("detail") or "native generation failed")
-        if (task["status"] == "cancelled" or run["status"] == "cancelled") and task.get("claim"):
+        if current_attempt and (task["status"] == "cancelled" or run["status"] == "cancelled") and task.get("claim"):
             if status in {"completed", "failed", "not_started"}:
                 units = 0 if status == "not_started" else payload.get("actual_units")
                 if units is not None and (type(units) is not int or units < 0):
@@ -249,8 +271,6 @@ class PoolService:
                 else:
                     run["budget"]["spent"] += units
                 task.update(status="cancelled", claim=None, blocker="cancelled; observed native result retained")
-        tx.event(f"pool-observation:{run['id']}:{payload['receipt_id']}", run["id"], "pool.observed",
-                 {"operation_id": operation_id, "status": status, "artifact": artifact, "evidence": payload["evidence"]})
         return {"status": status, "artifact": artifact, "task_id": binding["task_id"],
                 "task_token": binding.get("task_token"),
                 "next": "Record production QA with complete, then accept the exact pool artifact."}
@@ -308,7 +328,8 @@ class PoolService:
                         for record in pool.records.values():
                             pool.cancel(record.job.job_id)
                     result = self._result(tx, run, backend, payload, artifact)
-                    pool.tick(dispatch=run["status"] != "cancelled")
+                    if not result.get("duplicate"):
+                        pool.tick(dispatch=run["status"] != "cancelled")
                 elif action == "accept":
                     result = self._accept(tx, run, pool, payload)
                 elif action == "reconcile":
@@ -319,8 +340,9 @@ class PoolService:
                     if record.status not in pool.TERMINAL:
                         pool.cancel(payload["job_id"])
                         binding = run["pool"]["bindings"][payload["job_id"]]
-                        self.production._task(run, binding["task_id"]).update(
-                            status="cancelled", blocker="scene cancelled; reconcile any existing native generation")
+                        task = run["tasks"].get(binding["task_id"])
+                        if task and input_hash(run, task) == binding["task_input_hash"]:
+                            task.update(status="cancelled", blocker="scene cancelled; reconcile any existing native generation")
                     result = {"status": record.status}
                 elif action == "pending":
                     result = {"requests": backend.pending_requests()}

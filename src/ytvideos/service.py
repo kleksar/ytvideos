@@ -1,6 +1,7 @@
 """Transactional production use cases; native tool calls are executed by the host bridge."""
 
 import json
+import os
 import re
 import time
 import uuid
@@ -19,10 +20,16 @@ from .workflow import (EXTERNAL_STAGES, OUTPUT_KINDS, REQUIRED_CHECKS, WORKFLOW_
 def code_identity(root):
     root = Path(root)
     paths = list((root / "src" / "ytvideos").rglob("*.py"))
-    paths += [p for p in (root / "automation").rglob("*.py") if not p.name.startswith("test_") and "tests" not in p.parts]
+    for directory, children, filenames in os.walk(root / "automation"):
+        children[:] = [name for name in children if name not in {".venv", ".cache", "__pycache__", "tests", "build", "dist"}]
+        for name in filenames:
+            path = Path(directory) / name
+            if not name.startswith("test_") and (path.suffix in {".py", ".json", ".toml", ".lock"} or name == "requirements.txt"):
+                paths.append(path)
     paths += list((root / "docs" / "standards").rglob("*.md"))
     paths += list((root / "channels").glob("*/PROFILE.md"))
-    paths = sorted(paths)
+    paths += [root / name for name in ("pyproject.toml", "uv.lock") if (root / name).is_file()]
+    paths = sorted(set(paths))
     return digest({str(p.relative_to(root)): file_digest(p) for p in paths})
 
 
@@ -838,7 +845,8 @@ class Production:
                 if more <= affected:
                     break
                 affected |= more
-            if any(run["tasks"][key]["status"] in {"running", "unknown"} for key in affected):
+            if any(run["tasks"][key]["status"] in {"running", "unknown"} or run["tasks"][key].get("claim")
+                   for key in affected):
                 raise Conflict("affected work is still in flight or unknown; reconcile before revision")
             if run["publication"].get("video_id") and {"render", "upload"} & affected:
                 raise Conflict("remote upload exists; explicitly reconcile/version that publication before revising media")

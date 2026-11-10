@@ -15,11 +15,15 @@
 
 Missing release capability не блокирует research/script. Missing image capability не отменяет уже созданный звук. Не превращать отсутствие одного backend в глобальную остановку.
 
+Перед `pool initialize` сохранить observation `sessions.independent` через `capabilities`: `available: true`, фактический `runtime_key` и целочисленный `max_sessions`. Эти два значения должны точно совпадать с initialize payload; `evidence` указывает источник измерения. Все runs одного runtime используют один key и общий лимит. Новый key не создаёт дополнительную физическую capacity. Billing изображений проверяется отдельно; доступность sessions не означает бесплатную генерацию.
+
 ## Параллельные изображения
 
 Использовать отдельные короткие задачи без полного контекста родителя. Пул начинает с одного worker и добавляет capacity по измеренной генерации и времени приёмки координатором. Если очередь результатов растёт, новые slots не открываются; при насыщении/429 cap уменьшается. Верхнюю границу брать из фактического runtime/provider и бюджета, не из числа «10 каналов».
 
 Освободившийся slot сразу получает следующую готовую сцену без барьера всей партии. Независимые каналы обслуживаются справедливо. Координатор хранит общий storyboard/visual bible и actual review; worker получает exact scene packet. Повторное использование slot допустимо только при подтверждённом reset; иначе новая сессия. Смешивать контекст сцен нельзя.
+
+Обложки используют тот же image pool: `add-thumbnail-task` создаёт `thumbnail:<id>` после готового packaging. Задача зависит от packaging/script approval и не входит в зависимости render; MP4 можно закончить раньше обложки. Готовность созданных thumbnail tasks требуется до upload. Source extracts для `licensed_clips` подготавливать реально доступным host tool с capability `media.licensed_clip`; текущий `execute-media` не содержит clip extraction. Core принимает и проверяет подготовленный extract; image pool обслуживает изображения и обложки.
 
 В текущей среде ChatGPT поддерживаемые collaboration tools могут создавать свежие subagents (`fork_turns="none"`) в объявленном лимите. Лимит конкретной сессии не является постоянной настройкой репозитория. Публично доступная функция ChatGPT UI, Responses API multi-agent, Agents API session и обычный image tool — разные механизмы; adapter проверяет именно тот, которым пользуется.
 
@@ -36,3 +40,7 @@ Missing release capability не блокирует research/script. Missing imag
 Для работы без открытой основной сессии нужен реально запущенный executor и наблюдение за ним. Для нескольких хостов — PostgreSQL, общий artifact storage и проверенный backup/restore. Выбор Temporal, Agents API или другого executor требует capability prototype и отдельного решения; поддержка sessions не гарантирует сохранность killed commands/files.
 
 Пока worker/bridge не настроен, приложение может хранить готовые задачи и показывать blocker. Сообщать пользователю сохранённое ожидание честно; не обещать, что задача сама выполнится ночью.
+
+После подтверждённого schedule приложение сохраняет `verify_public` и применимый `ab_test` как pending deferred actions. `deferred-actions --run RUN_ID` возвращает эти записи; команда не запускает scheduler. `verify_public` имеет `not_before=publish_at`, A/B зависит от фактической Public-проверки. Их выполнение и read-back требуют подключённого durable host dispatcher и поддерживаемых adapters.
+
+После отмены сначала записать фактические provider outcomes через `observe-operation`, затем закрыть оставшийся claim командой `settle-cancelled`. Это settlement бюджета и состояния без requeue; UNKNOWN остаётся зарезервированным. Полные параметры — [task contract](task-contract.md).

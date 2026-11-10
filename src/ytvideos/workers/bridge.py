@@ -84,7 +84,7 @@ class ToolBridgeBackend:
         self._save()
 
     def record_observation(self, operation_id: str, *, claim_token: str, receipt_id: str,
-                           result: BackendResult, evidence: dict) -> None:
+                           result: BackendResult, evidence: dict) -> bool:
         """An actual tool result or read-back is required; no inferred success."""
         request = self._claim(operation_id, claim_token)
         if not receipt_id or not evidence:
@@ -96,7 +96,7 @@ class ToolBridgeBackend:
         if receipt_id in self.receipts:
             if self.receipts[receipt_id] != digest:
                 raise ValueError("receipt ID already identifies another observation")
-            return
+            return False
         if request["status"] in {"completed", "failed", "not_started"}:
             raise ValueError("terminal observations are immutable")
         if result.status == "not_started" and request["status"] not in {"dispatching", "unknown"}:
@@ -108,6 +108,7 @@ class ToolBridgeBackend:
         request["last_evidence"] = copy.deepcopy(evidence)
         self.receipts[receipt_id] = digest
         self._save()
+        return True
 
     def poll(self, handle: Submission) -> BackendResult:
         request = self.requests[handle.operation_id]

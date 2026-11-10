@@ -4,6 +4,8 @@
 
 Редакционная полнота/полномочия/два gates — [release standard](../../docs/standards/release.md). После MP4 approval полный производственный запрос включает завершение оформления и schedule по канальной политике; обычный промежуточный Unlisted review не требуется.
 
+Зависимости API helpers входят в root lock: `uv sync --locked --extra youtube`. Для полного рабочего окружения использовать команду из [development](../../docs/development.md); наличие Python-пакетов не подтверждает OAuth и доступ к каналу.
+
 ## Авторизация и capabilities
 
 Проверить OAuth пользователя для точного channel ID, необходимые scopes и собственные tokens каждого канала. Credentials хранить вне Git/модельного context. Service accounts и Studio delegation не считать подтверждением API owner access. Смена аккаунта требует новой проверки фактического канала, не догадки по названию.

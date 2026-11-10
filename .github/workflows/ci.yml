@@ -52,7 +52,7 @@ jobs:
           sudo apt-get update
           sudo apt-get install --no-install-recommends -y ffmpeg fonts-dejavu-core
       - name: Resolve only the committed dependency lock
-        run: uv sync --locked --extra dev --extra media --extra postgres
+        run: uv sync --locked --extra dev --extra media --extra postgres --extra youtube
       - name: Lint the workflow and adapter code
         run: uv run --no-sync ruff check src/ytvideos tests
       - name: Validate skill routing and current documentation
