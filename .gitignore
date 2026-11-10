@@ -140,3 +140,62 @@ Desktop.ini
 /archive/*/.agents/skills
 /archive/*/*/.agents/skills
 /archive/*/*/*/.agents/skills
+
+# Generated caption bitmaps in research production runs (keep adjacent JSON/text).
+/channels/*/research/**/caption_states/*.png
+/.agent/research/**/caption_states/*.png
+
+# Rendered QA stills and thumbnail outputs; keep brand references, plans and reviews.
+/channels/*/videos/*/Edit/QA/**/*.png
+/channels/*/videos/*/Edit/QA/**/*.jpg
+/channels/*/research/**/Edit/QA/**/*.png
+/channels/*/research/**/Edit/QA/**/*.jpg
+/channels/*/research/**/Work/qa*/**/*.png
+/channels/*/research/**/Work/qa*/**/*.jpg
+/channels/nuviko_history/research/harrison-qa-*/*.png
+/channels/nuviko_history/research/harrison-qa-*/*.jpg
+/channels/*/videos/*/Packaging/Thumbnails/**/*.png
+/channels/*/videos/*/Packaging/Thumbnails/**/*.jpg
+/channels/*/research/**/Packaging/Thumbnails/**/*.png
+/channels/*/research/**/Packaging/Thumbnails/**/*.jpg
+/.agent/research/**/production/*/QA/*.jpg
+
+# Generated FFmpeg intermediates and API schema captures in owned output runs.
+/channels/**/Work/**/scene_[0-9][0-9][0-9][0-9][0-9].command.json
+/.agent/research/**/Work/**/scene_[0-9][0-9][0-9][0-9][0-9].command.json
+/channels/**/Work/**/captions.ffconcat
+/.agent/research/**/Work/**/captions.ffconcat
+/channels/**/Work/**/scenes.ffconcat
+/.agent/research/**/Work/**/scenes.ffconcat
+/channels/**/Edit/ImageMotion/**/tool_schemas.json
+/.agent/research/**/Edit/ImageMotion/**/tool_schemas.json
+# Older render runs predate the Work layout; exclude only generated output names.
+/channels/nuviko_history/research/harrison-render-*/scene_[0-9][0-9][0-9][0-9][0-9].command.json
+/channels/nuviko_history/research/harrison-render-*/captions.ffconcat
+/channels/nuviko_history/research/harrison-render-*/scenes.ffconcat
+/channels/nuviko_history/research/harrison-settings-*/captions.ffconcat
+/channels/nuviko_history/research/harrison-subtitle-prep-*/captions.ffconcat
+/channels/nuviko_history/videos/037_voyager_1-voyager/subtitle_prepare/captions.ffconcat
+/channels/paper_detour/research/2026-11-06-pinatubo-short/*/scene_[0-9][0-9][0-9][0-9][0-9].command.json
+/channels/paper_detour/research/2026-11-06-pinatubo-short/*/captions.ffconcat
+/channels/paper_detour/research/2026-11-06-pinatubo-short/*/scenes.ffconcat
+# Frozen release dependencies remain visible, even if an output basename recurs.
+!**/render_provenance/**/scene_[0-9][0-9][0-9][0-9][0-9].command.json
+!**/render_provenance/**/captions.ffconcat
+!**/render_provenance/**/scenes.ffconcat
+!**/render_provenance/**/tool_schemas.json
+
+# Generated episode media stays local; active edits may still depend on it.
+# Keep adjacent builders/manifests and all brand/References assets visible.
+/channels/*/videos/*/Assets/Generated/**/*.png
+/channels/*/videos/*/Assets/Generated/**/*.jpg
+/channels/*/videos/*/Assets/Generated/**/*.webp
+/channels/*/videos/*/Assets/Generated/**/*.npy
+/channels/*/research/**/Assets/Generated/**/*.png
+/channels/*/research/**/Assets/Generated/**/*.jpg
+/channels/*/research/**/Assets/Generated/**/*.webp
+/channels/*/research/**/Assets/Generated/**/*.npy
+
+# Local filesystem audit snapshots. These are not the portable source archive.
+/.agent/gitignore-*-2026-11-06.csv
+/.agent/gitignore-*-2026-11-06.md
