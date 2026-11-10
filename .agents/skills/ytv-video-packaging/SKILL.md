@@ -11,6 +11,8 @@ description: Coordinate YouTube titles, thumbnails, descriptions and hashtags fo
 
 Обязательный вход: до процедуры прочитать [CHANNEL_BOOTSTRAP](../../../.agent/CHANNEL_BOOTSTRAP.md) и указанные там root/реестр/локальное состояние/правила канала. Для общепроектной задачи не выдумывать выпуск.
 
+Для полного заполнения настроек видео и подготовки технических Tags применять [ytv-youtube-metadata](../ytv-youtube-metadata/SKILL.md).
+
 Для всех каналов использовать общих владельцев: [название](../ytv-youtube-video-titles/SKILL.md), [обложка](../ytv-youtube-thumbnails/SKILL.md), [описание](../ytv-youtube-descriptions/SKILL.md), [хэштеги](../ytv-youtube-hashtags/SKILL.md) и [A/B](../ytv-youtube-ab-testing/SKILL.md). Применять собственный профиль канала. Полный цикл обоих каналов координирует [общий production skill](../ytv-video-production/SKILL.md); он же задаёт язык готового контента.
 
 Ранняя разработка: при новом или порученном к переработке сюжете применять [выбор подачи и первой минуты](../ytv-storycraft/references/appeal-and-opening.md). До полного текста создать рабочее название и текстовую идею обложки для сравниваемых подач; записать ожидание от пары и проверить его на начале. Это предварительный brief, не готовые файлы и не запуск A/B. Для уже принятого текста извлекать обещание из него, сохраняя содержание.
