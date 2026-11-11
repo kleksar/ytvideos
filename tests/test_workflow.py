@@ -135,8 +135,25 @@ class WorkflowContract(unittest.TestCase):
         self.assertEqual(set(run["tasks"]), set(self.run["tasks"]))
 
     def test_frozen_channel_is_not_started(self):
+        profile_dir = self.directory / "profiles" / "frozen_fixture"
+        profile_dir.mkdir(parents=True)
+        profile = {**self.run["profile"], "id": "frozen_fixture", "status": "frozen"}
+        (profile_dir / "channel.json").write_text(json.dumps(profile))
         with self.assertRaisesRegex(WorkflowError, "frozen"):
-            self.service.create("nuviko_history", "not an unfreeze")
+            self.service.create("frozen_fixture", "not an unfreeze", profiles=profile_dir.parent)
+
+    def test_active_channel_roster_uses_the_common_workflow(self):
+        for channel in ("paper_detour", "scenes_on_repeat", "nuviko_history"):
+            with self.subTest(channel=channel):
+                run = self.service.create(channel, "channel activation fixture")
+                self.assertEqual(run["profile"]["status"], "active")
+                self.assertEqual(set(run["tasks"]), set(self.run["tasks"]))
+                self.assertEqual([t["id"] for t in self.service.next(run["id"])["tasks"]], ["research"])
+                self.assertEqual(run["approvals"], {})
+
+    def test_manual_stories_is_not_admitted_to_automatic_production(self):
+        with self.assertRaisesRegex(WorkflowError, "channel profile is missing"):
+            self.service.create("nuviko_stories", "must remain manual")
 
     def test_claim_is_exclusive_across_connections(self):
         def attempt(number):

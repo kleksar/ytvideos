@@ -1,6 +1,6 @@
 # Прозрачный subtitle layer
 
-`nuviko_long_subtitles.py` создаёт слой по проверенной cue map. Semantic grouping находится в [helper](../helpers/paper-subtitles/scripts/semantic_grouping.py); общий стандарт — [audio](../../docs/standards/audio.md). Nuviko freeze сохраняется.
+`nuviko_long_subtitles.py` создаёт слой по проверенной cue map. Semantic grouping находится в [helper](../helpers/paper-subtitles/scripts/semantic_grouping.py); общий стандарт — [audio](../../docs/standards/audio.md). Статус и параметры Nuviko History задаёт его [профиль](../../channels/nuviko_history/PROFILE.md).
 
 ```bash
 python3 automation/subtitles/nuviko_long_subtitles.py --help
