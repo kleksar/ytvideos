@@ -421,6 +421,29 @@ class PoolServiceTests(unittest.TestCase):
         self.assertEqual((run["budget"]["reserved"], run["budget"]["spent"], run["budget"]["unknown_reserved"]), (0, 2, 0))
         self.assertEqual(self.pools.candidates("fixture-runtime")["active"], 0)
 
+    def test_removed_unknown_scene_with_confirmed_result_recovers_as_stale(self):
+        run_id, request = self.make_run(capacity=1, count=1)
+        granted = self.claim(run_id, request)
+        self.pools.operate(run_id, "recover")
+        with self.assertRaises(Conflict):
+            self.production.revise(run_id, "storyboard", "an unresolved native call cannot be removed")
+        self.assertEqual(self.pools.candidates("fixture-runtime")["active"], 1)
+        self.pools.operate(run_id, "result", {"operation_id": request["operation_id"],
+            "claim_token": granted["request"]["claim_token"], "receipt_id": "recovered-completed-image",
+            "status": "completed", "artifact_path": str(self.image), "evidence": {"tool_readback": "existing image"}})
+        recovered = self.production.reconcile_task(run_id, "image:s0", worker="reconciler", outcome="completed",
+                                                     evidence="native read-back of the already generated image")
+        self.qa_complete(run_id, "image:s0", recovered)
+        self.production.revise(run_id, "storyboard", "replace the scene list after production reconciliation")
+        # The task is gone, while the scheduler still needs to consume the
+        # already confirmed result. Real unknown outcomes must keep their slot.
+        result = self.pools.operate(run_id, "recover")
+        self.assertEqual(result["jobs"][0]["status"], "stale")
+        self.assertEqual(result["pending"], [])
+        self.assertEqual(self.pools.candidates("fixture-runtime")["active"], 0)
+        other, pending = self.make_run(capacity=1, count=1)
+        self.assertTrue(self.claim(other, pending)["task_claim"]["token"])
+
     def test_removed_scene_does_not_block_recovery_or_replacement(self):
         run_id, request = self.make_run(capacity=1, count=1)
         self.production.revise(run_id, "storyboard", "replace the scene list before any native dispatch")

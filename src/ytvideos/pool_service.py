@@ -138,6 +138,14 @@ class PoolService:
                            pool._matches(record) for job_id, record in pool.records.items()
                            if state["bindings"][job_id]["task_id"] == task_id):
                 pool.set_current_revision(run["id"], task_id, "invalidated", "")
+        for record in pool.records.values():
+            if record.status == "unknown" and not pool._matches(record) and record.handle:
+                request = backend.requests.get(record.handle.operation_id)
+                if request and request["status"] in {"completed", "failed", "not_started"}:
+                    # Production may reconcile/complete before the scheduler does.
+                    # Consume only a durable terminal observation, never infer that
+                    # an invalidated native call has stopped occupying its slot.
+                    pool.reconcile(record.job.job_id)
         return backend, pool
 
     def _enqueue(self, run, pool, payload):
