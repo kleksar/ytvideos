@@ -127,6 +127,17 @@ class PoolService:
             checkpoint=lambda snapshot: state.update(backend=snapshot), clock=self.production.clock, recover=recover)
         pool = AdaptivePool.restore(backend, state["scheduler"],
             checkpoint=lambda snapshot: state.update(scheduler=snapshot), clock=self.production.clock, recover=recover)
+        # Revisions can remove a scene entirely, without enqueuing a replacement
+        # with the same scene ID. Retire its unsent outbox entry before polling or
+        # recovery so it cannot consume a local slot or refer to a deleted task.
+        for task_id in {binding["task_id"] for binding in state["bindings"].values()}:
+            task = run["tasks"].get(task_id)
+            current_hash = input_hash(run, task) if task else None
+            if not any(binding["task_id"] == task_id and binding["task_input_hash"] == current_hash
+                       for binding in state["bindings"].values()) and any(
+                           pool._matches(record) for job_id, record in pool.records.items()
+                           if state["bindings"][job_id]["task_id"] == task_id):
+                pool.set_current_revision(run["id"], task_id, "invalidated", "")
         return backend, pool
 
     def _enqueue(self, run, pool, payload):

@@ -421,6 +421,46 @@ class PoolServiceTests(unittest.TestCase):
         self.assertEqual((run["budget"]["reserved"], run["budget"]["spent"], run["budget"]["unknown_reserved"]), (0, 2, 0))
         self.assertEqual(self.pools.candidates("fixture-runtime")["active"], 0)
 
+    def test_removed_scene_does_not_block_recovery_or_replacement(self):
+        run_id, request = self.make_run(capacity=1, count=1)
+        self.production.revise(run_id, "storyboard", "replace the scene list before any native dispatch")
+        self.now += 1000
+        self.pools.operate(run_id, "recover")
+        board = self.root / "replacement-board.json"
+        board.write_text(json.dumps({"scenes": [{"id": "replacement", "prompt": "New fixture", "visual_intent": "test"}]}))
+        artifact = self.production.artifacts.put(board, "storyboard")
+        def replace(tx, run):
+            run["artifacts"][artifact["id"]] = artifact
+            run["tasks"]["storyboard"].update(status="complete", outputs=[artifact["id"]])
+            self.production._expand_scenes(run, artifact)
+        self.store.mutate(run_id, replace)
+        self.pools.operate(run_id, "enqueue")
+        pending = self.pools.operate(run_id, "tick")["pending"]
+        self.assertEqual(len(pending), 1)
+        self.assertEqual(pending[0]["packet"]["context"]["task_id"], "image:replacement")
+        self.assertTrue(self.claim(run_id, pending[0])["task_claim"]["token"])
+        with self.assertRaises((Conflict, WorkflowError)):
+            self.claim(run_id, request)
+
+    def test_not_started_reconciliation_allows_only_new_generation(self):
+        run_id, request = self.make_run(capacity=1, count=1, billing="metered")
+        granted = self.claim(run_id, request, estimated_units=3)
+        self.pools.operate(run_id, "recover")
+        observed = {"operation_id": request["operation_id"], "claim_token": granted["request"]["claim_token"],
+            "receipt_id": "confirmed-no-dispatch", "status": "not_started", "detail": "dispatcher did not invoke tool",
+            "evidence": {"dispatcher_readback": "fixture request absent"}}
+        self.pools.operate(run_id, "result", observed)
+        self.pools.operate(run_id, "reconcile", {"job_id": request["packet"]["job_id"]})
+        self.production.reconcile_task(run_id, "image:s0", worker="reconciler", outcome="not_performed",
+                                       evidence="dispatcher did not invoke the native tool")
+        self.pools.operate(run_id, "enqueue")
+        replacement = self.pools.operate(run_id, "tick")["pending"][0]
+        retry = self.claim(run_id, replacement, estimated_units=3)
+        self.assertNotEqual(retry["operation"]["key"], granted["operation"]["key"])
+        self.assertTrue(self.pools.operate(run_id, "result", observed)["duplicate"])
+        self.assertEqual(self.store.get(run_id)["budget"]["reserved"], 3)
+        self.assertEqual(self.pools.candidates("fixture-runtime")["active"], 1)
+
     def test_budget_rejection_does_not_claim_bridge_or_slot(self):
         run_id, request = self.make_run(billing="metered")
         with self.assertRaises(WorkflowError):
