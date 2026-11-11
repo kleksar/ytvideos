@@ -46,8 +46,8 @@ def new_tasks():
 
 
 def make_task(task_id, stage, dependencies, gates, capabilities, skill):
-    return {"id": task_id, "stage": stage, "dependencies": dependencies, "gates": gates,
-            "capabilities": capabilities, "skill": skill, "status": "pending", "attempt": 0,
+    return {"id": task_id, "stage": stage, "dependencies": list(dependencies), "gates": list(gates),
+            "capabilities": list(capabilities), "skill": skill, "status": "pending", "attempt": 0,
             "generation": 1, "outputs": [], "blocker": None, "claim": None}
 
 

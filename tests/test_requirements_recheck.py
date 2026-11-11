@@ -56,6 +56,20 @@ class RequirementsRecheck(unittest.TestCase):
         self.assertEqual(len([event for event in self.fixture.store.events(results[0])
                               if event["kind"] == "run.created"]), 1)
 
+    def test_conflicting_create_returns_domain_conflict_not_driver_error(self):
+        request_id = "conflicting-request-" + uuid.uuid4().hex
+
+        def create(store, index):
+            service = Production(store, self.service.workspace, self.service.project)
+            try:
+                service.create("paper_detour", f"different request {index}", request_id=request_id)
+                return "created"
+            except Conflict:
+                return "conflict"
+
+        self.assertEqual(sorted(self.race("INSERT INTO runs", create)), ["conflict", "created"])
+        self.assertEqual(len([run for run in self.fixture.store.list() if run["request_id"] == request_id]), 1)
+
     def test_duplicate_event_is_idempotent_across_connections(self):
         event_id = "redelivered-event-" + uuid.uuid4().hex
 
@@ -101,6 +115,27 @@ class RequirementsRecheck(unittest.TestCase):
         self.assertNotIn("release_spec", after["publication"])
         self.assertEqual(after["tasks"]["render"], before["tasks"]["render"])
         self.assertEqual(after["approvals"], before["approvals"])
+
+    def test_new_or_changed_thumbnail_plan_requires_release_rebinding(self):
+        fixture = self.fixture
+        fixture.production_ready()
+        data = payload()
+        data.update(run_id=self.run_id, channel_id=fixture.run["profile"]["youtube_channel_id"], format="short")
+        data.pop("end_screen")
+        fixture.complete("packaging", data)
+        brief = {"id": "cover", "prompt": "Synthetic cover brief", "visual_intent": "A specific story promise"}
+
+        def bound(tx, run):
+            run["publication"]["release_spec"] = "fixture-bound-release"
+
+        fixture.store.mutate(self.run_id, bound)
+        self.service.add_thumbnail_task(self.run_id, brief)
+        self.assertNotIn("release_spec", fixture.store.get(self.run_id)["publication"])
+        fixture.store.mutate(self.run_id, bound)
+        self.service.add_thumbnail_task(self.run_id, brief)
+        self.assertIn("release_spec", fixture.store.get(self.run_id)["publication"])
+        self.service.add_thumbnail_task(self.run_id, {**brief, "prompt": "A revised synthetic composition"})
+        self.assertNotIn("release_spec", fixture.store.get(self.run_id)["publication"])
 
     def test_doctor_reports_future_image_capability_before_storyboard(self):
         run = self.service.create("paper_detour", "preflight before expensive production")

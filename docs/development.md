@@ -38,3 +38,7 @@ SQLite использовать для изолированных tests/local ru
 ## Secrets и артефакты
 
 Ключи/OAuth tokens/private approval key и media не входят в Git. Public verifier key передаётся конфигурацией host. Не печатать credentials при doctor/errors. Большие cache/output складывать в runtime workspace, не source checkout. Реальный файл, подвергнутый QA, связывать с хешем и provenance.
+
+## Проверка полноты исходного запроса
+
+Перед завершением архитектурного изменения сверить [матрицу готовности](operations/readiness.md). Отдельно перечислить выполненные software tests, live evidence и ещё не подключённые runtime-компоненты. CI сохраняет test logs и точный отфильтрованный source snapshot для воспроизведения; это не backup production media. Повтор request/event delivery проверять с разными PostgreSQL connections, а не только последовательными SQLite вызовами.

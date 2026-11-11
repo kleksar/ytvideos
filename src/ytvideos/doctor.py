@@ -17,13 +17,16 @@ def inspect(production, run_id=None):
         run = production.store.get(run_id)
         for name, observation in sorted(run["capabilities"].items()):
             if name != "approval.verifier":
-                checks.append(dict(capability=name, **observation))
+                details = observation if isinstance(observation, dict) else {}
+                checks.append({**details, "capability": name, "available": production._capable(run, name),
+                               "evidence": details.get("evidence") or "runtime observation has no verification evidence"})
         known = {entry["capability"] for entry in checks}
-        for task in run["tasks"].values():
-            for name in task["capabilities"]:
-                if name not in known:
-                    checks.append(dict(capability=name, available=False, evidence="runtime has not observed this capability"))
-                    known.add(name)
+        required = {name for task in run["tasks"].values() for name in task["capabilities"]}
+        # Scene tasks do not exist until storyboard completion. Report the
+        # recipe's generation/extraction requirement before paying for audio.
+        required.add("image.generate" if run["profile"]["recipe"] == "illustrated" else "media.licensed_clip")
+        for name in sorted(required - known):
+            checks.append(dict(capability=name, available=False, evidence="runtime has not observed this capability"))
     if not any(check["capability"] == "approval.bridge" for check in checks):
         checks.append(dict(capability="approval.bridge", available=False,
                            evidence="live trusted user-event delivery has not been observed; a public key alone is insufficient"))

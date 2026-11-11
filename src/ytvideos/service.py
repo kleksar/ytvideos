@@ -72,7 +72,15 @@ class Production:
                 if (prior["channel"], prior["intent"], prior["format"]) != (channel, intent, format):
                     raise Conflict("request_id already belongs to another request")
                 return prior
-            tx.execute("INSERT INTO runs VALUES (?,?,?,?,?)", (run["id"], request_id, channel, 0, canonical(run)))
+            inserted = tx.execute("INSERT INTO runs VALUES (?,?,?,?,?) ON CONFLICT(request_id) DO NOTHING",
+                                  (run["id"], request_id, channel, 0, canonical(run)))
+            if inserted.rowcount != 1:
+                # A different connection can win after the initial read. Re-read
+                # its committed run instead of leaking a driver UniqueViolation.
+                prior = json.loads(tx.execute("SELECT doc FROM runs WHERE request_id=?", (request_id,)).fetchone()[0])
+                if (prior["channel"], prior["intent"], prior["format"]) != (channel, intent, format):
+                    raise Conflict("request_id already belongs to another request")
+                return prior
             tx.event(f"created:{run['id']}", run["id"], "run.created", {"intent": intent, "pins": run["pins"]})
         return run
 
@@ -590,9 +598,9 @@ class Production:
         asset_records = [self.artifacts.put(asset, "release_asset") for asset in assets]
         def change(tx, run):
             self._runtime(run)
-            if any(t["stage"] in {"upload", "configure_release", "schedule"} and t["status"] != "pending"
-                   for t in run["tasks"].values()):
-                raise Conflict("release has already started; reconcile it before changing the bound specification")
+            previous_id = run["publication"].get("release_spec")
+            previous = (ReleaseSpec.from_dict(json.loads(self.artifacts.resolve(run["artifacts"][previous_id]).read_text()))
+                        if previous_id else None)
             if (spec.run_id, spec.channel_id, spec.revision, spec.format) != (
                     run_id, run["profile"]["youtube_channel_id"], run["revision"], run["format"]):
                 raise WorkflowError("release identity differs from the run")
@@ -611,6 +619,40 @@ class Production:
                     self._release_asset(run, sha256)
                 except WorkflowError as exc:
                     plan["blockers"].append(str(exc))
+            if previous and previous.sha256 == spec.sha256:
+                # A lost acknowledgement must not restart an upload or discard
+                # existing configuration/read-back work.
+                return {**plan, "already_prepared": True}
+            started = any(t["stage"] in {"upload", "configure_release", "schedule"} and t["status"] != "pending"
+                          for t in run["tasks"].values())
+            if started:
+                old_data = previous.to_dict() if previous else {}
+                only_time_changed = ({k: v for k, v in old_data.items() if k != "publish_at"}
+                                     == {k: v for k, v in data.items() if k != "publish_at"})
+                release_tasks = [run["tasks"][key] for key in ("upload", "configure_release", "schedule", "verify_publication")]
+                operations = [json.loads(row[0]) for row in tx.execute(
+                    "SELECT doc FROM operations WHERE run_id=?", (run_id,)).fetchall()]
+                if (not only_time_changed or run["tasks"]["upload"]["status"] != "complete"
+                        or not run["publication"].get("video_id")
+                        or run["tasks"]["schedule"]["status"] != "pending"
+                        or run["status"] == "scheduled"
+                        or any(t.get("claim") or t["status"] in {"running", "unknown"} for t in release_tasks)
+                        or any(op["kind"] == "schedule" or (op["task_id"] in {"upload", "configure_release"}
+                                   and op["status"] not in {"confirmed", "not_performed"}) for op in operations)):
+                    raise Conflict("release has already started; only a new slot before any schedule dispatch may be rebound")
+                if plan["blockers"]:
+                    raise WorkflowError("replacement release is incomplete: " + "; ".join(plan["blockers"]))
+                # Keep the already uploaded MP4 and both human approvals. Saved
+                # configuration must be read back against the new spec before a
+                # scheduling grant is issued; old receipts cannot authorize it.
+                for key in ("configure_release", "schedule", "verify_publication"):
+                    task = run["tasks"][key]
+                    task.update(status="pending", outputs=[], claim=None, blocker=None, attempt=0,
+                                receipt=None, completed_token=None, generation=task["generation"] + 1)
+                    task.pop("completed_at", None)
+                tx.event(str(uuid.uuid4()), run_id, "release.slot_replanned", {
+                    "previous_release_sha256": previous.sha256, "release_sha256": spec.sha256,
+                    "video_id": run["publication"]["video_id"], "publish_at": data["publish_at"]})
             run["artifacts"][artifact["id"]] = artifact
             run["publication"]["release_spec"] = artifact["id"]
             tx.event(str(uuid.uuid4()), run_id, "release.prepared", {"artifact": artifact, "plan": plan})
@@ -867,7 +909,8 @@ class Production:
                 run["approvals"].clear()
             elif "render" in affected:
                 run["approvals"].pop("mp4", None)
-            if {"render", "packaging"} & affected:
+            if {"render", "packaging"} & affected or any(
+                    run["tasks"][key].get("payload", {}).get("purpose") == "thumbnail" for key in affected):
                 run["publication"].pop("release_spec", None)
             if "storyboard" in affected:
                 for key in list(run["tasks"]):
@@ -927,11 +970,13 @@ class Production:
                         raise Conflict("thumbnail is in flight or accepted; revise it before changing its brief")
                     run["tasks"][task_id]["payload"] = payload
                     run["tasks"][task_id]["generation"] += 1
+                    run["publication"].pop("release_spec", None)
                 return run["tasks"][task_id]
             task = make_task(task_id, "scene_image", ["packaging"], ["script"], ["image.generate"], "ytv-produce-video")
             task["payload"] = payload
             run["tasks"][task_id] = task
             run["tasks"]["upload"]["dependencies"].append(task_id)
+            run["publication"].pop("release_spec", None)
             tx.event(str(uuid.uuid4()), run_id, "thumbnail.planned", {"task_id": task_id, "brief": payload})
             return task
         return self.store.mutate(run_id, change)

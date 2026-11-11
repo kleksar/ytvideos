@@ -53,14 +53,17 @@ class Transaction:
             raise Conflict("run changed concurrently; reload before continuing")
 
     def event(self, event_id, run_id, kind, payload):
-        old = self.execute("SELECT run_id,kind,payload FROM events WHERE id=?", (event_id,)).fetchone()
         serialized = canonical(payload)
-        if old:
-            if tuple(old) != (run_id, kind, serialized):
-                raise Conflict("event ID was already used with different content")
-            return False
-        self.execute("INSERT INTO events VALUES (?,?,?,?,?)", (event_id, run_id, kind, serialized, utc_now()))
-        return True
+        inserted = self.execute("INSERT INTO events VALUES (?,?,?,?,?) ON CONFLICT(id) DO NOTHING",
+                                (event_id, run_id, kind, serialized, utc_now()))
+        if inserted.rowcount == 1:
+            return True
+        # Unique insertion serializes concurrent delivery even across run locks.
+        # READ COMMITTED sees the winner after ON CONFLICT has waited for it.
+        old = self.execute("SELECT run_id,kind,payload FROM events WHERE id=?", (event_id,)).fetchone()
+        if old is None or tuple(old) != (run_id, kind, serialized):
+            raise Conflict("event ID was already used with different content")
+        return False
 
     def operation(self, key):
         row = self.execute("SELECT doc FROM operations WHERE key=?", (key,)).fetchone()

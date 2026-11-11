@@ -25,7 +25,7 @@ Missing release capability не блокирует research/script. Missing imag
 
 Обложки используют тот же image pool: `add-thumbnail-task` создаёт `thumbnail:<id>` после готового packaging. Задача зависит от packaging/script approval и не входит в зависимости render; MP4 можно закончить раньше обложки. Готовность созданных thumbnail tasks требуется до upload. Source extracts для `licensed_clips` подготавливать реально доступным host tool с capability `media.licensed_clip`; текущий `execute-media` не содержит clip extraction. Core принимает и проверяет подготовленный extract; image pool обслуживает изображения и обложки.
 
-В текущей среде ChatGPT поддерживаемые collaboration tools могут создавать свежие subagents (`fork_turns="none"`) в объявленном лимите. Лимит конкретной сессии не является постоянной настройкой репозитория. Публично доступная функция ChatGPT UI, Responses API multi-agent, Agents API session и обычный image tool — разные механизмы; adapter проверяет именно тот, которым пользуется.
+Наличие collaboration tools и возможность создавать свежие независимые сессии проверять на целевом host по фактически доступной схеме инструмента и наблюдённому результату. Не подставлять имя инструмента, параметры очистки контекста или лимит из документации другой среды. ChatGPT UI, API sessions и обычный image tool — разные механизмы; adapter проверяет именно используемый механизм. При отсутствии подтверждённого session backend сохранить blocker, а не выдумывать session IDs.
 
 Долгая tool promise без provider job ID не даёт durable poll/recovery автоматически. При потере ответа исход становится UNKNOWN. Сохранённый контекст позволяет продолжить очередь, но не гарантирует восстановление потерянной provider генерации. Не повторять платную попытку, пока исход не установлен либо отдельно не разрешена новая.
 
@@ -44,3 +44,10 @@ Missing release capability не блокирует research/script. Missing imag
 После подтверждённого schedule приложение сохраняет `verify_public` и применимый `ab_test` как pending deferred actions. `deferred-actions --run RUN_ID` возвращает эти записи; команда не запускает scheduler. `verify_public` имеет `not_before=publish_at`, A/B зависит от фактической Public-проверки. Их выполнение и read-back требуют подключённого durable host dispatcher и поддерживаемых adapters.
 
 После отмены сначала записать фактические provider outcomes через `observe-operation`, затем закрыть оставшийся claim командой `settle-cancelled`. Это settlement бюджета и состояния без requeue; UNKNOWN остаётся зарезервированным. Полные параметры — [task contract](task-contract.md).
+
+
+## Готовность фермы и общий бюджет
+
+[Матрица готовности](readiness.md) отделяет проверенные software contracts от live-подключений. Общий `runtime_key` ограничивает активные/UNKNOWN native slots между runs; денежные резервы сейчас принадлежат отдельному run. Адаптивные service-time оценки и review credits также хранятся в pool отдельного run. Это **не** доказательство общего ограничения расходов, API quota или суммарного review backlog для десяти одновременно активных выпусков.
+
+До совместного production запуска host должен обеспечить проверенный общий лимит расходов/квот и backpressure координатора либо явно сериализовать admission выпусков. Нельзя выдавать десять отдельных лимитов за один общий бюджет. Следующий интеграционный этап проверяет именно multi-run нагрузку, а не только десять синтетических профилей.

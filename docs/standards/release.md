@@ -83,3 +83,14 @@ API использовать для поддерживаемых операци�
 - [Resumable upload](https://developers.google.com/youtube/data/guides/using_resumable_upload_protocol): сохранять и восстанавливать существующую сессию.
 - [Quota](https://developers.google.com/youtube/data/determine_quota_cost): upload/search имеют отдельные корзины; учитывать стоимость captions и прочих методов по реальному проекту, не по старому числу upload units.
 - [A/B](https://support.google.com/youtube/answer/16391400?hl=en), [End screens](https://support.google.com/youtube/answer/6388789?hl=en), [Monetization](https://support.google.com/youtube/answer/1311392?hl=en): доступность функций и требования к оригинальному содержанию.
+
+
+## Повтор доставки и устаревший слот
+
+`prepare-release` с тем же семантическим ReleaseSpec идемпотентен и после загрузки: повтор потерянного ответа не начинает новый upload и не сбрасывает выполненное оформление. Возвращаемые blockers по-прежнему нужно учитывать; replay не подтверждает, что старое время ещё подходит.
+
+Создание/изменение thumbnail task и `revise thumbnail:<id>` снимают старую привязку ReleaseSpec. Перепривязать нужно фактически выбранную проверенную обложку. Одобренный MP4 и его approval от изменения одной обложки не инвалидируются.
+
+Если загрузка завершена, но слот устарел **до любой отправки schedule**, host самостоятельно выбирает следующий разрешённый слот по проверенному календарю канала. Передать новый spec через `prepare-release`, изменив только `publish_at`. Приложение сохраняет тот же `video_id`, выполненный upload и два user approvals; переоткрывает configure/schedule/readback задачи, увеличивает их поколения и требует новые readback receipts. Старые receipts привязаны к прежнему spec и не разрешают scheduling.
+
+Этот путь запрещён при UNKNOWN/in-flight release operations, уже отправленном schedule, смене текста/медиа/метаданных или неполном новом spec. В этих случаях требуется reconciliation; нельзя повторно загружать видео или трактовать запись в БД как отмену YouTube расписания. Репозиторий не выбирает и не резервирует календарный слот сам: это отдельная обязанность подключённого host.
