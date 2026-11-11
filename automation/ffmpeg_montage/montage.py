@@ -9,7 +9,7 @@ ROOT = Path(__file__).resolve().parents[2]
 HERE = Path(__file__).resolve().parent
 delivery_spec = importlib.util.spec_from_file_location('montage_delivery', HERE / 'delivery.py')
 delivery = importlib.util.module_from_spec(delivery_spec); delivery_spec.loader.exec_module(delivery)
-spec = importlib.util.spec_from_file_location('semantic_grouping', ROOT / '.agents/skills/ytv-paper-subtitles/scripts/semantic_grouping.py')
+spec = importlib.util.spec_from_file_location('semantic_grouping', ROOT / 'automation/helpers/paper-subtitles/scripts/semantic_grouping.py')
 grouping = importlib.util.module_from_spec(spec); spec.loader.exec_module(grouping)
 DIRECTIONS = {'left_to_right', 'right_to_left', 'top_to_bottom', 'bottom_to_top', 'none'}
 ZOOMS = {'in', 'out', 'none'}
@@ -18,7 +18,9 @@ def path_from(base, value):
     p=Path(value).expanduser(); return (p if p.is_absolute() else base/p).resolve()
 
 def validate(plan, base):
-    if plan.get('channel') not in {'paper','nuviko'}: raise ValueError('channel must be paper or nuviko')
+    channel_profile, _ = delivery.channel_config.channel_profile(plan.get('channel'))
+    visual = delivery.channel_config.visual_profile(plan['channel'])
+    delivery.profile_paths(plan['channel'], plan.get('format'))
     if plan.get('format') not in {'long','short'}: raise ValueError('format must be long or short')
     if plan.get('fps',30)!=30: raise ValueError('only 30 fps is supported')
     canvas=plan.get('canvas', [2560,1440] if plan['format']=='long' else [1440,2560])
@@ -32,7 +34,7 @@ def validate(plan, base):
     for i,s in enumerate(scenes):
         start=s.get('start_frame'); end=s.get('end_frame')
         if not isinstance(start,int) or isinstance(start,bool) or not isinstance(end,int) or start!=cursor or end<=start: raise ValueError(f'scene {i+1}: intervals must be continuous integer frames')
-        is_end_screen = (plan['channel'] in {'paper', 'nuviko'} and plan['format'] == 'long' and i == len(scenes)-1 and s.get('role') == 'end_screen' and end-start == 300)
+        is_end_screen = (channel_profile.get('release_policy', {}).get('end_screen') is True and plan['format'] == 'long' and i == len(scenes)-1 and s.get('role') == 'end_screen' and end-start == 300)
         if plan.get('enforce_scene_duration',True) and not (120<=end-start<=180 or is_end_screen): raise ValueError(f'scene {i+1}: expected 4–6 seconds at 30fps, or a final 10-second long end_screen')
         image=path_from(base,s['image']);
         if not image.is_file(): raise ValueError(f'image not found: {image}')
@@ -48,7 +50,7 @@ def validate(plan, base):
     captions=plan.get('subtitles')
     if not isinstance(captions,dict) or captions.get('mode') not in {'words','none'}: raise ValueError('subtitles.mode must be words or explicit none for a technical probe')
     overlays=plan.get('overlays',[])
-    if plan['channel']=='nuviko' and overlays:
+    if visual=='nuviko' and overlays:
         raise ValueError('Nuviko montage allows only the subtitle layer. Generate scene text as part of the source image.')
     for layer in overlays:
         if not path_from(base,layer['path']).is_file():raise ValueError('missing overlay '+layer['path'])
@@ -128,9 +130,11 @@ def draw_caption_state(words, active, *, size, center_x, baseline, font, profile
 
 
 def caption_sequence(plan,base,work,canvas,total):
-    sub=plan['subtitles']; profile=json.loads((HERE/'profiles'/f"{plan['channel']}.json").read_text())
+    sub=plan['subtitles']
     if sub.get('style') or any(key in sub for key in ('width','y')):
         raise ValueError('Subtitle style and geometry are defined by the shared format profile')
+    profile=delivery.load_style(plan, base)
+    visual=delivery.channel_config.visual_profile(plan['channel'])
     words,_=delivery.validate_words(plan,base,total)
     caption_end=sub.get('end_frame',total)
     if not isinstance(caption_end,int) or isinstance(caption_end,bool) or not 1<=caption_end<=total:
@@ -148,12 +152,12 @@ def caption_sequence(plan,base,work,canvas,total):
     font=ImageFont.truetype(profile['font'],fs,index=profile['font_index']);safe=visible_width-2*(pad_x+stroke)
     if sub.get('phrases'): groups=grouping.plan_phrases(words,sub['phrases'],font,safe,keep_together=sub.get('keep_together',()),combine_sentences=plan['format']=='long',boundary_exceptions=sub.get('boundary_exceptions',()))
     else:
-        max_words=3 if plan['channel']=='paper' and plan['format']=='short' else None
+        max_words=3 if visual=='paper' and plan['format']=='short' else None
         try:groups=grouping.group_words(words,font,safe,keep_together=sub.get('keep_together',()),max_words=max_words,combine_sentences=plan['format']=='long')
         except ValueError:
             if plan['format']!='short' or max_words is not None:raise
             groups=grouping.group_words(words,font,safe,keep_together=sub.get('keep_together',()),max_words=len(words))
-    if plan['channel']=='paper' and plan['format']=='short' and any(len(g)>3 for g in groups):
+    if visual=='paper' and plan['format']=='short' and any(len(g)>3 for g in groups):
         raise ValueError('Paper Shorts require explicit reviewed phrases of at most 3 words; supply subtitles.phrases')
     ascent,descent=font.getmetrics(); extra=4 if plan['format']=='short' else max(1,round(4*factor))
     band_h=ascent+descent+2*pad_y+2*stroke+extra
@@ -234,7 +238,7 @@ def final_command(plan,base,prepared,work,out,subtitle,encoder,video_bitrate,aud
     return cmd
 
 def main():
-    ap=argparse.ArgumentParser(description=__doc__);ap.add_argument('manifest',type=Path);ap.add_argument('--output',type=Path,required=True);ap.add_argument('--work-dir',type=Path,required=True);ap.add_argument('--jobs',type=int,default=2);ap.add_argument('--encoder',default='h264_videotoolbox');ap.add_argument('--bitrate',default='20M');ap.add_argument('--plan-only',action='store_true');ap.add_argument('--prepare-subtitles',action='store_true',help='Prepare the same subtitle states and contract as the full renderer, without encoding video');ap.add_argument('--export-contract',type=Path,help='READY_TO_RENDER passport required for encoding');ap.add_argument('--check-settings',action='store_true',help='Validate passport against actual command without encoding');args=ap.parse_args()
+    ap=argparse.ArgumentParser(description=__doc__);ap.add_argument('manifest',type=Path);ap.add_argument('--output',type=Path,required=True);ap.add_argument('--work-dir',type=Path,required=True);ap.add_argument('--jobs',type=int,default=2);ap.add_argument('--encoder',default='h264_videotoolbox');ap.add_argument('--bitrate',default='20M');ap.add_argument('--plan-only',action='store_true');ap.add_argument('--prepare-subtitles',action='store_true',help='Prepare the same subtitle states and contract as the full renderer, without encoding video');ap.add_argument('--export-contract',type=Path,help='READY_TO_RENDER passport required for encoding');ap.add_argument('--check-settings',action='store_true',help='Validate passport against actual command without encoding');ap.add_argument('--scene-cache',type=Path,help='Bounded reusable cache of exact rendered scene inputs');ap.add_argument('--scene-cache-max-bytes',type=int,default=2*1024**3);args=ap.parse_args()
     manifest=args.manifest.resolve(); base=manifest.parent;plan=json.loads(manifest.read_text()); prepared=validate(plan,base)
     if sum((args.plan_only,args.prepare_subtitles,args.check_settings))>1:raise ValueError('Choose one preparation mode')
     if args.jobs<1:raise ValueError('jobs must be positive')
@@ -268,11 +272,20 @@ def main():
     delivery.write_json(work/'render_command.json',cmd)
     delivery.write_json(work/'settings_check.json',{'status':'PASS','settings':settings})
     engine=contract['engine'] if contract else [delivery.file_record(HERE/'montage.py'),delivery.file_record(HERE/'delivery.py')]
+    if args.scene_cache:engine=engine+[delivery.file_record(HERE/'scene_cache.py')]
     provenance=delivery.freeze_render(work,passport_path,work/'render_command.json',engine,prepared,audio_stream[0],manifest,out)
     delivery.write_json(work/'render_provenance.json',provenance)
     if args.check_settings:print(f'SETTINGS_PASS {work / "settings_check.json"}');return
+    render_scene = scene_render
+    if args.scene_cache:
+        cache_spec=importlib.util.spec_from_file_location('scene_cache',HERE/'scene_cache.py')
+        cache_module=importlib.util.module_from_spec(cache_spec);cache_spec.loader.exec_module(cache_module)
+        identity={'montage':delivery.sha256(HERE/'montage.py'),'cache':delivery.sha256(HERE/'scene_cache.py'),
+                  'ffmpeg':subprocess.check_output(['ffmpeg','-version'],text=True)}
+        cache=cache_module.SceneCache(args.scene_cache,max_bytes=args.scene_cache_max_bytes,engine_identity=identity)
+        render_scene=lambda i,s,w,c,e,b: cache.render(scene_render,i,s,w,c,e,b)
     with concurrent.futures.ThreadPoolExecutor(max_workers=args.jobs) as pool:
-        futures=[pool.submit(scene_render,i,s,work,canvas,args.encoder,args.bitrate) for i,s in enumerate(prepared['scenes'])]
+        futures=[pool.submit(render_scene,i,s,work,canvas,args.encoder,args.bitrate) for i,s in enumerate(prepared['scenes'])]
         clips=[f.result() for f in futures]
     listing=work/'scenes.ffconcat';listing.write_text('ffconcat version 1.0\n'+''.join('file '+quote(p)+'\n' for p in clips));video=work/'picture.mp4'
     run(['ffmpeg','-hide_banner','-loglevel','error','-n','-f','concat','-safe','0','-i',str(listing),'-c','copy',str(video)])
@@ -280,7 +293,7 @@ def main():
     run(cmd)
     if sub['mode']=='words':
         # Detect writers changing accepted inputs or the running engine during render.
-        for record in inputs + contract['profiles'] + contract['engine']:
+        for record in inputs + contract['profiles'] + engine:
             delivery.check_record(record)
         delivery.write_receipt(out,plan['channel'],contract,inputs,review,provenance)
     print(f'RENDERED {out}',flush=True)

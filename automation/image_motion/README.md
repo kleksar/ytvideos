@@ -1,12 +1,9 @@
-# Image motion runtime
+# Дополнительный image-motion runtime
 
-Этот отдельный runtime использует Python 3.12.x и зависимости, закреплённые в `pyproject.toml` и `uv.lock`.
+Средства в этом каталоге имеют отдельные зависимости `pyproject.toml`/`uv.lock` и используются только в явно поддержанном recipe. Общие Paper/Nuviko scenes применяют цельный pan/zoom в [FFmpeg montage](../ffmpeg_montage/README.md); segmentation/parallax не включаются ради доступности другого инструмента.
 
-Из корня репозитория:
-
-```sh
-uv sync --project automation/image_motion --python 3.12
+```bash
 uv run --project automation/image_motion python automation/image_motion/run.py --help
 ```
 
-Первый запуск `uv sync` скачивает пакеты из Python package registry. Реальный рендер также может потребовать сетевую загрузку больших моделей и значительное место на диске; сам source-only клон не содержит этих моделей, media и release bundles. Не запускайте рендер до передачи входных файлов, проверки требований канала и свободного места.
+Перед реальным запуском проверить установленные зависимости, models, media, место и scope. Загрузка больших моделей и наличие runtime сами по себе не доказывают подходящий художественный результат или разрешение на платное действие.

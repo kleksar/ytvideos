@@ -6,6 +6,7 @@ import base64
 import binascii
 import contextlib
 import fcntl
+import importlib.util
 import json
 import hashlib
 import os
@@ -19,7 +20,10 @@ import urllib.error
 import urllib.parse
 import urllib.request
 
-VOICE_REGISTRY = Path(__file__).resolve().with_name("channel_voices.json")
+_config_path = Path(__file__).resolve().parents[1] / 'helpers/channel_config.py'
+_config_spec = importlib.util.spec_from_file_location('tts_channel_config', _config_path)
+channel_config = importlib.util.module_from_spec(_config_spec)
+_config_spec.loader.exec_module(channel_config)
 MODEL_ID = "eleven_v4"
 OUTPUT_FORMAT = "mp3_44100_128"
 MAX_V4_CHARS = 10000
@@ -67,24 +71,17 @@ def voice_speed(value):
 
 def channel_voice(channel):
     try:
-        registry = json.loads(VOICE_REGISTRY.read_text(encoding="utf-8"))
-        voices = registry["channels"]
-        if set(voices) != {"paper_detour", "nuviko_history"}:
-            raise ValueError("неверный состав каналов")
-        ids = [entry["voice_id"] for entry in voices.values()]
-        if len(set(ids)) != 2 or any(not re.fullmatch(r"[A-Za-z0-9_-]+", value) for value in ids):
-            raise ValueError("голоса должны быть разными и иметь корректные ID")
-        return voices[channel]["voice_id"]
+        return channel_config.voice_id(channel)
     except (OSError, ValueError, KeyError, TypeError) as exc:
         raise TTSError(f"не удалось определить канальный голос для {channel}: {exc}") from None
 
 
 def arguments(argv=None):
-    parser = argparse.ArgumentParser(description="Озвучка UTF-8 текстов RU/EN через ElevenLabs. Без --generate сеть не используется.")
+    parser = argparse.ArgumentParser(description="Озвучка UTF-8 текстов RU/EN через ElevenLabs. Без --generate сеть не используется.", allow_abbrev=False)
     parser.add_argument("--ru-text", type=Path, help="путь к утверждённому русскому тексту")
     parser.add_argument("--en-text", type=Path, help="путь к утверждённому английскому тексту")
     parser.add_argument("--output-dir", type=Path, required=True, help="каталог Source/Voice для результата")
-    parser.add_argument("--channel", required=True, choices=("paper_detour", "nuviko_history"))
+    parser.add_argument("--channel", required=True, choices=channel_config.configured_channels())
     parser.add_argument("--voice-id", help="необязательная проверка ID; должен совпадать с реестром")
     parser.add_argument("--model", default=MODEL_ID)
     parser.add_argument("--stability", type=unit_interval, default=1.0)

@@ -1,8 +1,14 @@
 # Каналы
 
-- [Paper Detour](paper_detour/AGENTS.md) — `paper_detour/`.
-- [Nuviko History](nuviko_history/AGENTS.md) — `nuviko_history/`.
-- [Scenes on Repeat](scenes_on_repeat/AGENTS.md) — [производство киношортов](scenes_on_repeat/docs/PRODUCTION.md) и [выпуски](scenes_on_repeat/videos/).
-- [Stories: исторические личные истории RU/EN](nuviko_stories/AGENTS.md) — `nuviko_stories/`; это не назначение профиля новому каналу коллеги.
+Каждый активный профиль задаётся `channels/<id>/channel.json` и канальным `PROFILE.md`; lifecycle общий, без ветвлений по перечню имён.
 
-У каждого канала собственные videos, AGENTS, профиль, бренд и канальные материалы. Общие инструменты — в корневом automation, общие процедуры — в .agents/skills. Назначение выпуска устанавливает .agent/episode-registry.json. Неподтверждённые материалы находятся в archive/unclassified_episodes; проект дубляжа — в projects/borisenko. Новые каналы добавляются после установления имени и профиля; папка сама по себе канал не назначает.
+| Канал | Назначение | Статус |
+|---|---|---|
+| [Paper Detour](paper_detour/AGENTS.md) | Английские истории в бумажном мире | По умолчанию для нового запроса без канала |
+| [Scenes on Repeat](scenes_on_repeat/AGENTS.md) | Английские киноразборы/сценовые форматы | Отдельный verified channel и licensed-clips recipe |
+| [Nuviko History](nuviko_history/AGENTS.md) | Исторические рассказы с рисованным ведущим | Frozen; прямое исключение перед производством |
+| [Stories RU/EN](nuviko_stories/AGENTS.md) | Историческая коллекция | Архив, не профиль нового канала |
+
+Русскоязычный «Нувико» коллеги — отдельный будущий профиль. До подтверждения идентичности, владельца, голоса, прав и календаря не создавать его из похожего имени. Для будущих десяти каналов добавлять данные профиля и проверять recipe/capabilities, сохраняя один workflow.
+
+Общие brand assets и provenance — [BRAND_ASSETS](BRAND_ASSETS.md). Канальный профиль не подтверждает наличие всех media в checkout.

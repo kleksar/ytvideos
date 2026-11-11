@@ -168,7 +168,12 @@ def read_thumbnail(path):
 
 def set_thumbnail(session, expected_channel, video_id, image_path):
     """Set one custom thumbnail, first proving that the video belongs to the channel."""
-    video_status(session, expected_channel, video_id)
+    status = video_status(session, expected_channel, video_id)
+    # Shorts require succeeded processing (YouTube API, 2026-11-03). The videos
+    # resource has no reliable isShort field, so wait for all video formats.
+    # This read-only prerequisite must precede the external write.
+    if status['processing_status'] != 'succeeded':
+        raise UploadError('Wait until video processing has succeeded before setting a custom thumbnail.')
     data, mime = read_thumbnail(image_path)
     try:
         r = session.post(THUMBNAIL_URL, params={'videoId': video_id}, data=data,

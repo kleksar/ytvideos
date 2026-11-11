@@ -1,62 +1,25 @@
-# Первый запуск для коллеги
+# Вход в проект
 
-## Каналы и статус клона
+Для новой задачи начать с [AGENTS](AGENTS.md) и [ytv-start](.agents/skills/ytv-start/SKILL.md). Запрос «мне нужен сюжет» идёт до полного текста без промежуточного выбора темы; затем два обычных пользовательских gates ведут к MP4 и расписанию.
 
-Paper Detour и Nuviko History — отдельные существующие каналы пользователя. Третий канал «Нувико» — русскоязычные жизненные истории коллеги; его папка, профиль, voice mapping и YouTube OAuth ещё не настроены. Репозиторий [`kleksar/ytvideos`](https://github.com/kleksar/ytvideos) приватный: попросите владельца выдать доступ до клонирования. Клон содержит исходный код, документацию и [текстовый архив историй](archive/story_text/README.md), но не полный рабочий комплект выпусков, медиа, токены или локальные публикационные receipts. Канонические инструкции используют относительные пути; исторические абсолютные пути относятся к исходной машине. Не копируйте чужие OAuth-токены или API keys.
+## Разработчик
 
-## Требования и установка
+1. Получить исходники и выполнить setup из [development](docs/development.md).
+2. Проверить CLI `--help`, локальное состояние и `doctor` реального окружения.
+3. Прочитать [architecture](docs/architecture.md), затем только owner изменяемой области.
+4. Проверить конкретный contract/failure case и приложить evidence к MR.
 
-Для рабочих утилит нужен Git, Python и FFmpeg/FFprobe. Используйте Python 3.12 для новых виртуальных сред; `automation/image_motion` требует Python 3.12.x. FFmpeg-профиль macOS по умолчанию использует encoder `h264_videotoolbox`; в других системах проверьте доступный encoder и задайте его явно. Два принятых референса персонажа Nuviko History уже включены в клон; другие входные картинки, звук и готовые проекты выпусков поставляются отдельным media bundle. Состав шаблонов и ограничения шрифтов указаны в [индексе бренд-материалов](channels/BRAND_ASSETS.md).
+## Production worker
 
-Создайте изолированные среды в локальной `.venv/` (она игнорируется Git):
+1. Использовать разрешённый workspace/store и runtime bridge, не личный draft или память другого чата.
+2. Claim готовый task, получить `context`, открыть exact skill/references.
+3. Сохранить actual outputs/checks/provider handles; complete только по проверенному контракту.
+4. При restart продолжить сохранённый run; UNKNOWN сначала reconcile.
 
-```sh
-python3.12 -m venv .venv/montage
-.venv/montage/bin/python -m pip install -r automation/ffmpeg_montage/requirements.txt
+## Новый канал
 
-python3.12 -m venv .venv/youtube
-.venv/youtube/bin/python -m pip install -r automation/youtube/requirements.txt
+Добавить проверенный ChannelSpec/PROFILE, выбрать поддерживаемый recipe и протестировать общий lifecycle без новой ветки workflow на имя канала. Проверить identity, voice/font/brand references, права, storage, provider capabilities, календарь/timezone и trusted approval bridge. Не создавать placeholders как работающие production каналы.
 
-uv sync --project automation/image_motion --python 3.12
-```
+## Старый выпуск
 
-`image_motion` скачивает пакеты из реестра и может использовать большие модели при работе; начните с инструкций проекта и проверьте доступное место. TTS-скрипт использует стандартную библиотеку Python, ElevenLabs SDK не требуется. Безопасная справка не обращается к API:
-
-```sh
-python3.12 automation/elevenlabs/tts.py --help
-.venv/montage/bin/python automation/ffmpeg_montage/montage.py --help
-.venv/youtube/bin/python automation/youtube/upload.py --help
-ffmpeg -version
-ffprobe -version
-```
-
-`automation/youtube/README.md` описывает команды и отдельный OAuth-процесс. Токен создавайте для своего аккаунта и проверенного канала; храните вне клона. В репозитории нет отдельного TikTok/Instagram publishing adapter: пока публикация туда выполняется вручную.
-
-Установка пакетов скачивает их из Python package registry. Перечисленные `--help` и `-version` команды не обращаются к API, не проверяют авторизацию и не подтверждают готовность видео к публикации.
-
-## ElevenLabs и локальный ключ
-
-В проекте существует интеграция ElevenLabs (`automation/elevenlabs/tts.py`): она отправляет запрос к `api.elevenlabs.io` с заголовком `xi-api-key`. Код берёт ключ из `ELEVENLABS_API_KEY` или локальной macOS Keychain (service `yt-stories-elevenlabs`, account `yt-stories`). В TTS-коде не найдено сервиса «Evernap». Официальная документация ElevenLabs описывает API-key как секрет и допускает ограничения ключа по endpoint и квоте.
-
-Предпочтительный способ на Mac — **Keychain Access**: создать запись generic password, service `yt-stories-elevenlabs`, account `yt-stories`, и вставить собственный ключ в поле пароля. Не кладите ключ в Git, общий `.env`, README, чат, скриншоты или аргументы команды. Для краткой локальной сессии в zsh можно запросить ключ без эха; он остаётся только в текущем окружении:
-
-```zsh
-read -s 'ELEVENLABS_API_KEY?Введите ваш ElevenLabs API key: '
-export ELEVENLABS_API_KEY
-# выполняйте только уже разрешённую задачу
-unset ELEVENLABS_API_KEY
-```
-
-Не включайте `set -x`. Создавайте ключ в своём аккаунте, ограничьте его необходимыми возможностями и задайте небольшой лимит расходов. Скрипт запускается с `--generate` только для уже разрешённой генерации; этот запрос может расходовать кредиты. Для безопасной локальной проверки используйте `--help`, без `--generate`.
-
-Переданные владельцем voice ID — мужской `ZEchI3lWet1JsdNubYRY` и женский `nkvv6waLzFah2jTNUZGT`. Не привязывайте их к каналу или провайдеру без подтверждения. Текущий реестр озвучки обслуживает лишь Paper и Nuviko History; конфиг третьего «Нувико» ещё нужно создать отдельно.
-
-## YouTube OAuth и монтаж
-
-YouTube OAuth для третьего канала ещё не добавлен в конфигурацию. Владелец выдаёт доступ к приватному репозиторию отдельно; не передавайте коллеге ключ владельца или токены. Сверьтесь с README адаптера и создайте собственные OAuth credentials/token для своего аккаунта и проверенного channel ID. Храните их вне клона, не переиспользуйте файлы владельца.
-
-Для монтажа изучите `AGENTS.md`, правила канала, текущий контекст выпуска и `automation/ffmpeg_montage/README.md`. Для движения сцены — `automation/image_motion`. Зависимости/модели, монтажные сессии, финальные MP4 и прочее локальное media в `.gitignore`; чистый клон без отдельной передачи этих материалов фильм не воспроизведёт. Пользовательские исходники не удалялись. Передавать их следует через согласованное общее хранилище или Git LFS с манифестом, hash и заметками о правах.
-
-## Помощь нейросети
-
-Передайте нейросети только необходимые инструкции и фрагменты: корневой `AGENTS.md`, этот README, `COLLABORATION.md`, правила целевого канала и конкретную ошибку. Попросите объяснить план и назвать точные пути изменений. Удалите из логов/примеров API keys, OAuth tokens, client-secret JSON, персональные chat exports, непубличные публикационные данные и частные медиа. Никогда не вставляйте секреты в промпт.
+Источник фактов — переданный bundle/receipts, а не новый README. До переключения закрепить прежний checkout и пройти [migration](docs/migration.md). Готовые media и реальные user decisions не восстанавливать из предположений.

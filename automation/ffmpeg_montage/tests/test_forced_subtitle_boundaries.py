@@ -3,7 +3,7 @@ import importlib.util
 import unittest
 from pathlib import Path
 
-MODULE = Path(__file__).resolve().parents[3] / '.agents/skills/ytv-paper-subtitles/scripts/semantic_grouping.py'
+MODULE = Path(__file__).resolve().parents[3] / 'automation/helpers/paper-subtitles/scripts/semantic_grouping.py'
 spec = importlib.util.spec_from_file_location('semantic_grouping_forced_tests', MODULE)
 grouping = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(grouping)

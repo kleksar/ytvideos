@@ -1,0 +1,109 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  contracts:
+    name: Workflow, PostgreSQL and media contracts
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    services:
+      postgres:
+        image: postgres:17
+        env:
+          POSTGRES_USER: ytvideos_test
+          POSTGRES_PASSWORD: isolated-ci-database
+          POSTGRES_DB: ytvideos_test
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U ytvideos_test -d ytvideos_test"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 12
+    env:
+      YTV_TEST_POSTGRES_URL: postgresql://ytvideos_test:isolated-ci-database@127.0.0.1:5432/ytvideos_test
+      # Explicit test fixture, never a production font fallback.
+      YTV_TEST_FONT: /usr/share/fonts/truetype/dejavu/DejaVuSansCondensed-Bold.ttf
+    steps:
+      - name: Check out the reviewed revision
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Install the locked Python environment
+        uses: astral-sh/setup-uv@68559e99cc807c1eb7e9238fd43a15bba460eec2 # v10.3.3
+        with:
+          version: "0.13.7"
+          python-version: "3.12"
+          enable-cache: true
+      - name: Install media test tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install --no-install-recommends -y ffmpeg fonts-dejavu-core
+      - name: Resolve only the committed dependency lock
+        id: environment
+        run: uv sync --locked --extra dev --extra media --extra postgres --extra youtube
+      - name: Lint the workflow and adapter code
+        run: uv run --no-sync ruff check src/ytvideos tests
+      - name: Validate skill routing and current documentation
+        run: uv run --no-sync python scripts/check_repository.py
+      - name: Exercise SQLite and real PostgreSQL contracts
+        run: |
+          set -o pipefail
+          uv run --no-sync python -m unittest discover -s tests -p 'test_*.py' -v 2>&1 | tee core-tests.log
+      - name: Exercise every existing automation suite
+        if: ${{ !cancelled() && steps.environment.outcome == 'success' }}
+        run: |
+          set -o pipefail
+          uv run --no-sync python - <<'PY' 2>&1 | tee automation-tests.log
+          from pathlib import Path
+          import subprocess
+          import sys
+
+          directories = sorted({path.parent for path in Path("automation").rglob("test_*.py")})
+          if not directories:
+              raise SystemExit("No automation tests discovered")
+          for directory in directories:
+              subprocess.run([sys.executable, "-m", "unittest", "discover", "-s", str(directory),
+                              "-p", "test_*.py", "-v"], check=True)
+          PY
+      - name: Preserve reviewed source for reproducible audits
+        if: always()
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import subprocess
+
+          head = subprocess.check_output(["git", "rev-parse", "HEAD"], text=True).strip()
+          Path("reviewed-commit.txt").write_text(head + "\n")
+          tracked = subprocess.check_output(["git", "ls-tree", "-r", "--name-only", head], text=True).splitlines()
+          roots = ("src/", "tests/", "automation/", "scripts/", ".agent/", ".agents/", "docs/", ".github/")
+          suffixes = {".py", ".md", ".json", ".toml", ".lock", ".txt", ".yml", ".yaml"}
+          paths = [p for p in tracked if Path(p).suffix in suffixes and (
+              p.startswith(roots) or p in {"AGENTS.md", "pyproject.toml", "uv.lock"}
+              or (p.startswith("channels/") and Path(p).name in {"channel.json", "PROFILE.md"}))]
+          subprocess.run(["git", "archive", "--format=tar.gz", "--output=reviewed-source.tar.gz", head, "--", *paths], check=True)
+          PY
+      - name: Save test evidence and reviewed source
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: contracts-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            core-tests.log
+            automation-tests.log
+            reviewed-commit.txt
+            reviewed-source.tar.gz
+          retention-days: 7
+          if-no-files-found: error

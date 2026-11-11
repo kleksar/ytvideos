@@ -7,12 +7,17 @@ This module uses only the standard library so the uploader can validate offline.
 from __future__ import annotations
 
 import hashlib
+import importlib.util
 import json
 import math
+import os
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[1]
+_config_spec = importlib.util.spec_from_file_location('delivery_channel_config', ROOT / 'automation/helpers/channel_config.py')
+channel_config = importlib.util.module_from_spec(_config_spec)
+_config_spec.loader.exec_module(channel_config)
 SCHEMA = 'ytv-delivery-v1'
 RECEIPT_SCHEMA = 'ytv-delivery-v2'
 REVIEW_CHECKS = ('semantic_grouping', 'visual_placement')
@@ -49,11 +54,42 @@ def check_record(record):
 
 
 def profile_paths(channel, form):
-    style = HERE / 'profiles' / (channel + '.json')
-    geometry = HERE / 'profiles' / (channel + '_' + form + '.json')
+    name = channel_config.visual_profile(channel)
+    if form not in {'long', 'short'}:
+        raise ValueError('Unsupported video format')
+    style = HERE / 'profiles' / (name + '.json')
+    if not style.is_file():
+        raise ValueError(f'No montage visual profile configured for {channel}: {name}')
+    geometry = HERE / 'profiles' / (name + '_' + form + '.json')
     if not geometry.is_file():
         geometry = HERE / 'profiles' / (form + '.json')
     return style, geometry
+
+
+def load_style(plan, base):
+    """Resolve an explicit font override; never substitute a host's default font."""
+    style, _ = profile_paths(plan['channel'], plan['format'])
+    profile = json.loads(style.read_text())
+    name = channel_config.visual_profile(plan['channel']).upper().replace('-', '_')
+    override = plan.get('font_override')
+    if override is None and os.environ.get('YTV_FONT_OVERRIDE_' + name):
+        try:
+            index = int(os.environ.get('YTV_FONT_INDEX_' + name, '0'))
+        except ValueError:
+            raise ValueError('Font override index must be a nonnegative integer') from None
+        override = {'path': os.environ['YTV_FONT_OVERRIDE_' + name], 'index': index}
+    if override is not None:
+        if (not isinstance(override, dict) or set(override) != {'path', 'index'}
+                or not isinstance(override['path'], str) or not override['path'].strip()
+                or type(override['index']) is not int or override['index'] < 0):
+            raise ValueError('font_override requires an explicit path and nonnegative integer index')
+        font = resolve(base, override['path'])
+        if not font.is_file() or font.suffix.lower() not in {'.ttf', '.otf', '.ttc'}:
+            raise ValueError('Explicit font override must be an existing TTF, OTF or TTC file')
+        profile.update(font=str(font), font_index=override['index'])
+    if not Path(profile['font']).is_file():
+        raise ValueError('Approved profile font is unavailable; supply a verified explicit font_override')
+    return profile
 
 
 def audio_binding(plan, base):
@@ -62,9 +98,10 @@ def audio_binding(plan, base):
     contract = plan.get('audio_contract', {})
     if contract.get('final_audio_sha256') != audio['sha256']:
         raise ValueError('audio_contract must bind the exact final audio SHA-256')
-    policy_path = ROOT / '.agents/skills/ytv-audio-delivery/references/speed.json'
-    policy = json.loads(policy_path.read_text())
-    required = policy[plan['channel']]
+    profile, policy_path = channel_config.channel_profile(plan['channel'])
+    required = profile.get('voice', {}).get('speed')
+    if type(required) not in (int, float) or not math.isfinite(required) or required <= 0:
+        raise ValueError('Channel voice.speed must be configured')
     applied = contract.get('applied_speed')
     if (isinstance(applied, bool) or not isinstance(applied, (int, float))
             or not math.isfinite(applied) or not math.isclose(applied, required, abs_tol=1e-8)):
@@ -118,6 +155,7 @@ def validate_words(plan, base, total, fps=30):
 
 def subtitle_contract(plan, base, canvas, total, groups, resolved):
     style, geometry = profile_paths(plan['channel'], plan['format'])
+    effective_style = load_style(plan, base)
     sub = plan['subtitles']
     return {'schema': SCHEMA, 'channel': plan['channel'], 'format': plan['format'],
             'canvas': list(canvas), 'fps': 30, 'frames': total,
@@ -126,9 +164,11 @@ def subtitle_contract(plan, base, canvas, total, groups, resolved):
             'transcript': file_record(resolve(base, sub['transcript'])),
             'word_map': file_record(resolve(base, sub['words'])),
             'profiles': [file_record(style), file_record(geometry),
-                         file_record(json.loads(style.read_text())['font'])],
+                         file_record(effective_style['font'])],
+            'font': {'path': effective_style['font'], 'index': effective_style['font_index']},
             'engine': [file_record(HERE / 'montage.py'), file_record(Path(__file__)),
-                       file_record(ROOT / '.agents/skills/ytv-paper-subtitles/scripts/semantic_grouping.py')],
+                       file_record(ROOT / 'automation/helpers/channel_config.py'),
+                       file_record(ROOT / 'automation/helpers/paper-subtitles/scripts/semantic_grouping.py')],
             'picture': [{'scene': scene, 'image': file_record(resolve(base, scene['image']))}
                         for scene in plan['scenes']],
             'overlays': [{'layer': layer, 'file': file_record(resolve(base, layer['path']))}
@@ -170,10 +210,15 @@ def write_receipt(output, channel, contract, inputs, review=None, render=None):
 
 
 def protected_channel(channel_id):
-    channels = json.loads((ROOT / 'automation/channels.json').read_text())
-    channel_names = {'paper_detour': 'paper', 'nuviko_history': 'nuviko'}
-    return next((name for key, name in channel_names.items()
-                 if channels[key]['channel_id'] == channel_id), None)
+    for slug in channel_config.configured_channels():
+        profile, _ = channel_config.channel_profile(slug)
+        if profile.get('youtube_channel_id') == channel_id and profile.get('recipe') == 'illustrated':
+            return slug
+    return None
+
+
+def same_channel(recorded, expected):
+    return isinstance(recorded, str) and channel_config.LEGACY_ALIASES.get(recorded, recorded) == expected
 
 
 def validate_release(video, channel_id, receipt_path=None, *, private_staging=False):
@@ -183,13 +228,13 @@ def validate_release(video, channel_id, receipt_path=None, *, private_staging=Fa
         return
     path = Path(receipt_path) if receipt_path else Path(str(Path(video).resolve()) + '.delivery.json')
     if not path.is_file():
-        raise ValueError('Missing delivery receipt for Paper/Nuviko upload')
+        raise ValueError('Missing delivery receipt for configured illustrated-channel upload')
     receipt = json.loads(path.read_text())
     if receipt.get('schema') == 'ytv-audio-replacement-v1':
         return validate_audio_replacement(receipt, video, channel_id, channel, private_staging)
     if receipt.get('schema') == SCHEMA:
         raise ValueError('Historical receipt needs a saved-command audit and frozen export contract; do not automatically rerender')
-    if (receipt.get('schema') != RECEIPT_SCHEMA or receipt.get('channel') != channel
+    if (receipt.get('schema') != RECEIPT_SCHEMA or not same_channel(receipt.get('channel'), channel)
             or receipt.get('media') != file_record(video)):
         raise ValueError('Delivery receipt does not match the video/channel')
     if receipt.get('open_requirements') != []:
@@ -260,7 +305,7 @@ def validate_release(video, channel_id, receipt_path=None, *, private_staging=Fa
 
 def validate_audio_replacement(receipt, video, channel_id, channel, private_staging):
     """Validate an audio-only replacement against a previously rendered picture."""
-    if (receipt.get('channel') != channel or receipt.get('media') != file_record(video)
+    if (not same_channel(receipt.get('channel'), channel) or receipt.get('media') != file_record(video)
             or receipt.get('open_requirements') != []):
         raise ValueError('Audio replacement receipt does not match media/channel')
     for key in ('source_receipt', 'source_media', 'mix', 'word_map', 'export_contract',

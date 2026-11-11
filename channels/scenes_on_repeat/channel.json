@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "id": "scenes_on_repeat",
+  "name": "Scenes on Repeat",
+  "status": "active",
+  "language": "en",
+  "recipe": "licensed_clips",
+  "youtube_channel_id": "UCqct_dth0WSCwiDZx1WMfgg",
+  "voice": {"provider": "elevenlabs", "id": "ktkP7Nsj67dw2zcplQYt", "speed": 1.15},
+  "visual_profile": "cinema",
+  "release_policy": {"end_screen": true, "ab_test": true, "shorts_related": true, "min_schedule_lead_seconds": 300},
+  "calendar": {"timezone": "Europe/Belgrade", "mode": "resolve_from_verified_channel_calendar"},
+  "budget": {"max_paid_units": 0, "max_task_attempts": 3, "max_editorial_passes": 2}
+}
