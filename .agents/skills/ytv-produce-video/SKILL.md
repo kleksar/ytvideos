@@ -1,6 +1,6 @@
 ---
 name: ytv-produce-video
-description: "Produce an approved ytvideos script through storyboard, independent scene images, audio, subtitles and render. Use only the assigned task context and preserve exact accepted inputs."
+description: "Produce an approved ytvideos script through images, audio, subtitles and render; preserve its Shorts loop through the audiovisual seam and exact accepted inputs."
 ---
 
 # Произвести принятый текст
@@ -16,6 +16,8 @@ CLI и точные outputs/receipts: [task contract](../../../docs/operations/t
 | audio | [audio](../../../docs/standards/audio.md) | Точный полный mix, речь, скорость, права, timing/provenance и проверки |
 | subtitles | [audio](../../../docs/standards/audio.md) + канальная типографика | Проверенная word map, смысловые группы, SRT и subtitle contract |
 | render | [delivery](../../../docs/standards/delivery.md) | MP4/hash, frozen inputs, commands и технический receipt |
+
+Для Short в storyboard/audio/render прочитать [editorial](../../../docs/standards/editorial.md) и точный loop plan принятого текста. Связать последний и первый планы, речь, музыку и субтитры; проверить начало на фактической озвучке. Не добавлять заставку/прощание, скрывать отдачу или менять текст ради стыка. Ошибка смысловой петли возвращает текст на script gate; техническая склейка исправляется без нового обычного gate. Финальная проверка — [delivery](../../../docs/standards/delivery.md).
 
 1. Проверить доступные tools и нужные assets. Использовать профиль, не менять голос/шрифт/стиль ради доступного default. Для licensed clips зарегистрировать source/rights через `attach-artifact` и связать pinned `source_clip` по task contract. Недостающий provider блокирует только свои задачи.
 2. Claim задачу, выполнить её штатным adapter/tool и сохранить фактический outcome. TTS генерирует raw 1,0×; конечную канальную скорость применить один раз по audio standard. Не помечать результат PASS без нужного просмотра/прослушивания или измерения.
