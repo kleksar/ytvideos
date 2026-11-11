@@ -243,7 +243,7 @@ class ImageHostTests(unittest.TestCase):
         self.store.mutate(run_id, change)
         self.host.tick()
         self.assertEqual(self.server.started, [])
-        self.assertEqual(self.store.get(run_id)["tasks"]["image:s0"]["status"], "pending")
+        self.assertEqual(self.store.get(run_id)["tasks"]["image:s0"]["status"], "blocked")
 
     def test_duplicate_delivery_does_not_change_image_or_generate_again(self):
         _, job = self.first_dispatch(count=1)
@@ -322,6 +322,62 @@ class ImageHostTests(unittest.TestCase):
         result = self.host.tick()
         self.assertTrue(result["blockers"])
         self.assertIsNone(self.host._jobs()[0]["observation"])
+
+
+    def test_missing_reference_does_not_starve_another_channel(self):
+        bad = self.run_fixture(count=1, channel="second")
+        self.production.revise(bad, "image:s0", "unavailable reference")
+        def change(tx, run):
+            run["tasks"]["image:s0"]["payload"]["references"] = ["missing-artifact"]
+        self.store.mutate(bad, change)
+        good = self.run_fixture(count=1, channel="third")
+        first = self.host.tick()
+        self.assertTrue(first["blockers"])
+        second = self.host.tick()
+        self.assertEqual(len(second["dispatches"]), 1, second)
+        self.assertEqual(self.host._jobs()[0]["run_id"], good)
+        self.assertEqual(self.store.get(bad)["tasks"]["image:s0"]["status"], "blocked")
+        self.assertEqual(self.store.get(bad)["budget"]["reserved"], 0)
+
+    def test_missing_reference_releases_unsent_local_slot_for_another_scene(self):
+        run_id = self.run_fixture(count=2)
+        # The first queued scene loses its actual reference bytes before dispatch.
+        self.image.unlink()
+        run = self.store.get(run_id)
+        reference = run["tasks"]["image:s0"]["payload"]["references"][0]
+        self.production.artifacts.resolve(run["artifacts"][reference]).unlink()
+        self.host.tick()
+        self.assertEqual(self.store.get(run_id)["tasks"]["image:s0"]["status"], "blocked")
+        # Other pending scenes are not permanently held behind the unsent request.
+        self.host.tick()
+        state = self.store.get(run_id)
+        self.assertEqual(state["tasks"]["image:s1"]["status"], "blocked")
+        self.assertEqual(self.server.started, [])
+
+
+    def test_preflight_blocker_cannot_revoke_a_dispatched_attempt(self):
+        run_id, job = self.first_dispatch(count=1)
+        with self.assertRaises(Conflict):
+            self.host._block_unsent({"run_id": run_id, "operation_id": job["id"]}, "late preflight result")
+        self.assertEqual(self.store.get(run_id)["tasks"]["image:s0"]["status"], "running")
+        self.assertEqual(self.pools.candidates("fixture-runtime")["active"], 1)
+
+    def test_repaired_reference_starts_only_the_new_generation(self):
+        run_id = self.run_fixture(count=1)
+        self.production.revise(run_id, "image:s0", "reference unavailable")
+        def change(tx, run):
+            run["tasks"]["image:s0"]["payload"]["references"] = ["missing-artifact"]
+        self.store.mutate(run_id, change)
+        self.host.tick()
+        self.assertEqual(self.store.get(run_id)["tasks"]["image:s0"]["status"], "blocked")
+        self.production.revise(run_id, "image:s0", "reference restored")
+        image = self.production.attach(run_id, self.image, kind="image", source="restored fixture")
+        def fix(tx, run):
+            run["tasks"]["image:s0"]["payload"]["references"] = [image["id"]]
+        self.store.mutate(run_id, fix)
+        result = self.host.tick()
+        self.assertEqual(len(result["dispatches"]), 1, result)
+        self.assertEqual(len(self.server.started), 1)
 
 
 @unittest.skipUnless(os.environ.get("YTV_TEST_POSTGRES_URL"), "requires isolated PostgreSQL")

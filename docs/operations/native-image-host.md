@@ -27,7 +27,7 @@ uv run --no-sync python -m ytvideos.runtime.image_host run \
 
 `YTV_DATABASE_URL` задаётся окружением, без credentials в command line или Git. Probe не генерирует картинки и не доказывает доступ к image tool. Настройку подключения, billing и реального session cap подтверждают отдельно; host не создаёт эти observations по предположению. Перед запуском обязательны `pool initialize` и общий `shared_review_capacity` по [task contract](task-contract.md).
 
-В storyboard/thumbnail packet `references` — список зарегистрированных artifact IDs либо объектов с `artifact_id`. Host проверяет и копирует эти bytes, а не извлекает их из непрозрачного имени или произвольного URL. Когда references действительно не нужны, нужен предметный `reference_na_reason`; это не разрешение игнорировать обязательный эталон канала. Отсутствующие references/профиль блокируют dispatch до native call.
+В storyboard/thumbnail packet `references` — список зарегистрированных artifact IDs либо объектов с `artifact_id`. Host проверяет и копирует эти bytes, а не извлекает их из непрозрачного имени или произвольного URL. Когда references действительно не нужны, нужен предметный `reference_na_reason`; это не разрешение игнорировать обязательный эталон канала. Отсутствующие references/профиль блокируют только свою ещё не отправленную задачу до native call. Её старый outbox packet инвалидируется, освобождая место другим сценам/каналам; после исправления входа применяется обычный revise/unblock. Уже claimed/dispatched попытки этот preflight-путь не изменяет.
 
 ## Очередь, восстановление и проверка результата
 

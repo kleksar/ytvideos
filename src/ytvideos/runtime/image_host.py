@@ -20,6 +20,7 @@ from ..pool_service import PoolService
 from ..service import Production
 from ..store import Store
 from ..util import canonical, digest, file_digest
+from ..workflow import input_hash
 from .app_server import AppServer, RpcUnavailable, StdioRpc
 
 
@@ -120,6 +121,26 @@ class ImageHost:
             if staging.exists():
                 shutil.rmtree(staging)
 
+    def _block_unsent(self, candidate, reason):
+        """Quarantine only an unchanged, unclaimed outbox packet before any send.
+
+        Bump its generation so PoolService retires the old unsent local slot on
+        the next tick. Existing unblock/revise can resume after the input is fixed.
+        Never use this path for a claimed or potentially dispatched generation.
+        """
+        def change(tx, run):
+            self.production._runtime(run)
+            request = run["pool"]["backend"]["requests"][candidate["operation_id"]]
+            binding = run["pool"]["bindings"][request["packet"]["job_id"]]
+            task = self.production._task(run, binding["task_id"])
+            if (request["status"] != "queued" or task["status"] != "pending" or task.get("claim")
+                    or binding.get("operation_key") or input_hash(run, task) != binding["task_input_hash"]):
+                raise Conflict("preflight packet changed; do not block another attempt")
+            task.update(status="blocked", blocker=reason, generation=task["generation"] + 1)
+            tx.event("image-host-preflight:" + candidate["operation_id"], run["id"],
+                     "task.preflight_blocked", {"task_id": task["id"], "reason": reason})
+        self.store.mutate(candidate["run_id"], change)
+
     def dispatch(self, candidate):
         run_id = candidate["run_id"]
         run = self.store.get(run_id)
@@ -131,7 +152,14 @@ class ImageHost:
         if status["review"]["capacity"] is None:
             raise WorkflowError("configure the shared coordinator review limit before native dispatch")
         request = run["pool"]["backend"]["requests"][candidate["operation_id"]]
-        directory, files = self._materialize(run, request)
+        try:
+            directory, files = self._materialize(run, request)
+        except Conflict:
+            raise  # Existing directories/changed packets require inspection.
+        except (WorkflowError, OSError, ValueError) as exc:
+            reason = str(exc) if isinstance(exc, WorkflowError) else "native task input preparation failed"
+            self._block_unsent(candidate, reason)
+            raise
         try:
             grant = self.pools.operate(run_id, "claim", {
                 "operation_id": request["operation_id"], "worker": self.config["host_id"],
