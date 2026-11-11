@@ -181,7 +181,8 @@ runtime slot появляются атомарно. Ошибка квоты/бю
 
 | Action | Существенные поля payload | Результат |
 |---|---|---|
-| `initialize` | `runtime_key`, `max_sessions`, `evidence`, `review_capacity`; при необходимости `min_probe_seconds` | Новый pool после наблюдения capability `sessions.independent` |
+| `initialize` | `runtime_key`, `max_sessions`, `evidence`, `review_capacity`; при необходимости `min_probe_seconds`, `shared_review_capacity` | Новый pool после наблюдения capability `sessions.independent` |
+| `configure-review-limit` | `shared_review_capacity`, `evidence` | Явно включить общий review limit существующему runtime без изменения jobs |
 | `enqueue` | необязательный `task_ids` | Immutable jobs из текущих ready image tasks |
 | `tick` | необязательный `coordinator_idle` | Наблюдения и новые поручения в local outbox |
 | `claim` | `operation_id`, `worker`, `estimated_units`, необязательный `lease_seconds` | Разрешение на одну native отправку после commit |
@@ -241,3 +242,36 @@ PYTHONPATH=src python3 -m unittest discover -s tests -p test_workers.py -v
 сбои checkpoint, отмену inflight, leases и восстановление pool/bridge.
 Они не подтверждают наличие неограниченных чатов, реальную квоту аккаунта,
 качество изображений или доступность генератора после закрытия приложения.
+
+### Общий review backpressure
+
+`shared_review_capacity` задаёт необязательный durable лимит всех runs одного
+`runtime_key` в одной production DB. Его можно указать при `initialize` или включить
+позже через `ytv pool configure-review-limit --run RUN --payload review-limit.json`,
+где JSON содержит `{"shared_review_capacity": 4, "evidence": "observed coordinator review capacity"}`.
+Число должно быть положительным
+целым; evidence описывает основание выбранного ограничения, а не денежную квоту.
+Повтор того же значения идемпотентен и сохраняет исходное evidence. Другое значение
+отклоняется: изменение общего ограничения требует отдельной явной миграции.
+Новый run без этого поля наследует уже установленный лимит, а не обходит его.
+
+Под runtime row lock `claim` считает отправленные dispatching/running/UNKNOWN
+операции и completed outputs, ещё ожидающие точной QA-приёмки. Локальный queued outbox
+не считается отправленным. UNKNOWN держит credit даже после cancel/restart;
+подтверждённый failed/not_started, отменённый completed или устаревший completed
+освобождает его. `Production.complete` сам по себе не заменяет `pool accept`.
+Usage вычисляется из durable записей, поэтому повтор receipt/accept/cancel не может
+освободить credit дважды. Лимит ниже существующего usage безопасно закрывает новые
+claims до освобождения ёмкости, не меняя уже работающие jobs.
+
+`status`, `recover` и `candidates` возвращают `review` с `capacity`, `used`,
+`available`, `evidence`. Без явной настройки capacity/available/evidence равны null:
+legacy runtime не защищён общим review лимитом. Это admission guard, не глобальный
+денежный бюджет/API quota и не общий adaptive service-time estimator. Per-run
+`review_capacity` и все прежние session/budget/QA guards продолжают действовать.
+
+Граница совместимости: старые pinned executors не знают `runtime_review_limits`
+и могут обойти этот admission guard. Перед активацией все исполнители данного
+runtime должны работать на обновлённом поколении кода; старые нужно остановить
+или явно мигрировать по [процедуре](../migration.md). Наличие строки limit в DB
+не доказывает защиту при смешанных версиях. Автоматической миграции старых runs нет.

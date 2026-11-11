@@ -26,6 +26,8 @@ class PoolService:
                        "run_id TEXT NOT NULL, operation_id TEXT NOT NULL, state TEXT NOT NULL)")
             tx.execute("CREATE INDEX IF NOT EXISTS runtime_slots_pool_idx ON runtime_slots(runtime_id,state)")
             tx.execute("CREATE TABLE IF NOT EXISTS runtime_turns (id TEXT PRIMARY KEY, last_channel TEXT)")
+            tx.execute("CREATE TABLE IF NOT EXISTS runtime_review_limits (id TEXT PRIMARY KEY, capacity INTEGER NOT NULL, "
+                       "evidence TEXT NOT NULL)")
 
     def _runtime_row(self, tx, runtime_id):
         suffix = " FOR UPDATE" if tx.postgres else ""
@@ -33,6 +35,52 @@ class PoolService:
         if row is None:
             raise WorkflowError("runtime capacity has not been verified")
         return row
+
+    def _configure_review_limit(self, tx, runtime_key, payload):
+        # The runtime row is the shared serialization point, including activation
+        # on an existing runtime. Outstanding jobs are counted, never rewritten.
+        self._runtime_row(tx, runtime_key)
+        capacity = payload.get("shared_review_capacity")
+        if type(capacity) is not int or capacity < 1:
+            raise WorkflowError("shared_review_capacity must be a positive integer")
+        evidence = require_text(payload.get("evidence"), "coordinator review limit evidence")
+        tx.execute("INSERT INTO runtime_review_limits VALUES (?,?,?) ON CONFLICT(id) DO NOTHING",
+                   (runtime_key, capacity, evidence))
+        row = tx.execute("SELECT capacity FROM runtime_review_limits WHERE id=?", (runtime_key,)).fetchone()
+        if row[0] != capacity:
+            raise Conflict("shared review capacity differs; changing the runtime limit requires explicit migration")
+        return {"configured": True, "shared_review_capacity": capacity}
+
+    def _review_state(self, tx, runtime_key, current_run=None):
+        row = tx.execute("SELECT capacity,evidence FROM runtime_review_limits WHERE id=?", (runtime_key,)).fetchone()
+        values = [json.loads(item[0]) for item in tx.execute("SELECT doc FROM runs").fetchall()]
+        if current_run is not None:
+            values = [current_run if value["id"] == current_run["id"] else value for value in values]
+        used = 0
+        for value in values:
+            state = value.get("pool")
+            if not state or state["runtime_key"] != runtime_key:
+                continue
+            records = {record["job"]["job_id"]: record for record in state["scheduler"]["records"]}
+            for request in state["backend"]["requests"].values():
+                # Local queued outbox entries have not consumed native resources.
+                if not request.get("claim_token"):
+                    continue
+                if request["status"] in {"dispatching", "running", "unknown"}:
+                    used += 1  # Cancellation/revision cannot prove a native call stopped.
+                elif request["status"] == "completed":
+                    job_id = request["packet"]["job_id"]
+                    record = records[job_id]
+                    binding = state["bindings"][job_id]
+                    task = value["tasks"].get(binding["task_id"])
+                    if (record["status"] not in AdaptivePool.TERMINAL and not record["cancel_requested"]
+                            and value["status"] != "cancelled" and task
+                            and input_hash(value, task) == binding["task_input_hash"]):
+                        used += 1  # A durable output holds its credit until exact QA acceptance.
+        capacity = row[0] if row else None
+        return {"capacity": capacity, "used": used,
+                "available": max(0, capacity - used) if capacity is not None else None,
+                "evidence": row[1] if row else None}
 
     def _initialize(self, tx, run, payload):
         require_text(payload.get("runtime_key"), "stable runtime key shared by all runs")
@@ -58,6 +106,8 @@ class PoolService:
         row = self._runtime_row(tx, payload["runtime_key"])
         if row[0] != capacity:
             raise Conflict("runtime capacity differs from its shared limit; update its observation explicitly")
+        if "shared_review_capacity" in payload:
+            self._configure_review_limit(tx, payload["runtime_key"], payload)
         backend = ToolBridgeBackend(max_sessions=capacity, checkpoint=lambda snapshot: None,
                                     clock=self.production.clock)
         pool = AdaptivePool(backend, config, checkpoint=lambda snapshot: None, clock=self.production.clock)
@@ -113,8 +163,10 @@ class PoolService:
             capacity, _ = self._runtime_row(tx, runtime_key)
             active = tx.execute("SELECT COUNT(*) FROM runtime_slots WHERE runtime_id=? AND state IN ('reserved','unknown')",
                                 (runtime_key,)).fetchone()[0]
+            review = self._review_state(tx, runtime_key)
+            candidates = self._candidates(tx, runtime_key, estimated_units) if review["available"] != 0 else []
             return {"runtime_key": runtime_key, "capacity": capacity, "active": active,
-                    "candidates": self._candidates(tx, runtime_key, estimated_units)}
+                    "review": review, "candidates": candidates}
 
     def _load(self, tx, run, *, recover=False):
         state = run.get("pool")
@@ -207,6 +259,9 @@ class PoolService:
                             (runtime_key,)).fetchone()[0]
         if active >= capacity:
             raise Conflict("shared runtime session capacity is occupied; consume results before dispatching")
+        review = self._review_state(tx, runtime_key, run)
+        if review["available"] == 0:
+            raise Conflict("shared runtime review capacity is occupied; accept or reconcile existing results")
         candidates = self._candidates(tx, runtime_key, payload.get("estimated_units", 0))
         if not candidates or candidates[0]["operation_id"] != operation_id:
             next_request = candidates[0] if candidates else None
@@ -339,7 +394,9 @@ class PoolService:
                 result = {"initialized": True}
             else:
                 backend, pool = self._load(tx, run, recover=action == "recover")
-                if action == "enqueue":
+                if action == "configure-review-limit":
+                    result = self._configure_review_limit(tx, run["pool"]["runtime_key"], payload)
+                elif action == "enqueue":
                     result = self._enqueue(run, pool, payload)
                 elif action == "tick":
                     result = {"events": pool.tick(coordinator_idle=payload.get("coordinator_idle", True)),
@@ -398,6 +455,7 @@ class PoolService:
                                     operation["status"] = "unknown"
                                     tx.put_operation(operation)
                     result = {"target": pool.target, "runtime_key": run["pool"]["runtime_key"],
+                              "review": self._review_state(tx, run["pool"]["runtime_key"], run),
                               "jobs": [{"job_id": r.job.job_id, "status": r.status,
                                         "task_id": run["pool"]["bindings"][r.job.job_id]["task_id"]}
                                        for r in pool.records.values()], "pending": backend.pending_requests()}
