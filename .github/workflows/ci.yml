@@ -47,10 +47,6 @@ jobs:
           version: "0.13.7"
           python-version: "3.12"
           enable-cache: true
-      - name: Install media test tools
-        run: |
-          sudo apt-get update
-          sudo apt-get install --no-install-recommends -y ffmpeg fonts-dejavu-core
       - name: Resolve only the committed dependency lock
         id: environment
         run: uv sync --locked --extra dev --extra media --extra postgres --extra youtube
@@ -58,6 +54,16 @@ jobs:
         run: uv run --no-sync ruff check src/ytvideos tests
       - name: Validate skill routing and current documentation
         run: uv run --no-sync python scripts/check_repository.py
+      - name: Exercise native runtime before media package installation
+        run: |
+          set -o pipefail
+          uv run --no-sync python -m unittest discover -s tests -p 'test_app_server.py' -v 2>&1 | tee native-protocol-tests.log
+          uv run --no-sync python -m unittest discover -s tests -p 'test_image_host.py' -v 2>&1 | tee native-host-tests.log
+      - name: Install media test tools
+        timeout-minutes: 5
+        run: |
+          sudo apt-get update
+          sudo apt-get install --no-install-recommends -y ffmpeg fonts-dejavu-core
       - name: Exercise SQLite and real PostgreSQL contracts
         run: |
           set -o pipefail
@@ -101,6 +107,8 @@ jobs:
         with:
           name: contracts-${{ github.run_id }}-${{ github.run_attempt }}
           path: |
+            native-protocol-tests.log
+            native-host-tests.log
             core-tests.log
             automation-tests.log
             reviewed-commit.txt
