@@ -85,6 +85,7 @@ class PoolService:
                 binding = state["bindings"][job_id]
                 task = value["tasks"].get(binding["task_id"])
                 if (not task or not self._uses_image_generator(value, task) or not ready(value, task)
+                        or task["attempt"] >= budget["max_task_attempts"]
                         or input_hash(value, task) != binding["task_input_hash"]
                         or any(not self.production._capable(value, cap) for cap in task["capabilities"])):
                     continue

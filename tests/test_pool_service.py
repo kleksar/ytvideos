@@ -370,6 +370,17 @@ class PoolServiceTests(unittest.TestCase):
         self.assertEqual(granted["request"]["packet"]["context"]["scene"]["purpose"], "thumbnail")
         self.assertEqual(self.store.get(run_id)["tasks"]["image:s0"]["status"], "pending")
 
+    def test_exhausted_candidate_does_not_starve_another_channel(self):
+        exhausted, request = self.make_run(capacity=1, channel="a_exhausted")
+        healthy, healthy_request = self.make_run(capacity=1, channel="b_healthy")
+        def exhaust(tx, run):
+            run["tasks"]["image:s0"]["attempt"] = run["budget"]["max_task_attempts"]
+        self.store.mutate(exhausted, exhaust)
+        self.assertEqual(self.pools.candidates("fixture-runtime")["candidates"][0]["run_id"], healthy)
+        self.assertTrue(self.claim(healthy, healthy_request)["task_claim"]["token"])
+        with self.assertRaises(WorkflowError):
+            self.claim(exhausted, request)
+
     def test_budget_rejection_does_not_claim_bridge_or_slot(self):
         run_id, request = self.make_run(billing="metered")
         with self.assertRaises(WorkflowError):
