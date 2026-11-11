@@ -6,7 +6,7 @@
 
 Один run имеет координатора; task lease назначает исполнителя конкретного входа/revision. Не перезаписывать результат параллельной работы и не менять shared inputs активного выпуска без [migration](docs/migration.md). Независимые workers получают минимальный context packet и возвращают artifacts/evidence; личные черновики и чужие chats не являются рабочим материалом.
 
-Paper Detour — default нового запроса без канала. Nuviko History frozen. Scenes on Repeat — отдельный английский киноканал. Русскоязычный «Нувико» жизненных историй ведёт коллега; он отделён от архива Stories RU/EN и History. Для него нужны собственные verified profile/owner/rights/calendar, без наследования архива по имени.
+Paper Detour — default нового запроса без канала. Nuviko History активен. Stories остаётся ручным архивом вне автоматической очереди. Scenes on Repeat — отдельный английский киноканал. Русскоязычный «Нувико» жизненных историй ведёт коллега; он отделён от архива Stories RU/EN и History. Для него нужны собственные verified profile/owner/rights/calendar, без наследования архива по имени.
 
 Ранее переданы непривязанные voice IDs: мужской `ZEchI3lWet1JsdNubYRY`, женский `nkvv6waLzFah2jTNUZGT`. Их provider/account/channel/language не подтверждены. Не назначать их автоматически и не менять действующие голоса.
 

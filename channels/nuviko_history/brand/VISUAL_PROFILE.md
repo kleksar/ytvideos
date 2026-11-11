@@ -1,6 +1,6 @@
 # Nuviko — художественный профиль
 
-Общий production route — [workflow](../../../docs/workflow.md); freeze и продукт — [PROFILE](../PROFILE.md). Здесь только идентичность, мир и screen treatment.
+Общий production route — [workflow](../../../docs/workflow.md); статус и продукт — [PROFILE](../PROFILE.md). Здесь только идентичность, мир и screen treatment.
 
 ## Принятые якоря
 
