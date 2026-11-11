@@ -24,7 +24,7 @@
 
 **Обязательный интеграционный этап, не выполненные в этом MR подключения:** trusted user-event bridge; actual native-session/image dispatcher; live media/release adapters и capability observations; общий storage с backup/restore; работоспособный постоянный host executor; привязка к календарю с безопасным резервированием слотов; выполнение deferred Public/A/B actions.
 
-Отдельно проверить общий ресурсный контур. Сейчас runtime session cap и round-robin turn разделяются между runs, но бюджет и adaptive review/service-time состояние принадлежат отдельному run. Не считать это глобальным бюджетом/API quota или общим backpressure для десяти одновременно активных выпусков. До такой интеграции host обязан ограничивать admission и суммарные затраты самостоятельно; нельзя просто открыть десять координаторов с независимыми лимитами.
+Отдельно проверить общий ресурсный контур. Runtime session cap и round-robin turn разделяются между runs. Явно настроенный `shared_review_capacity` добавляет общий admission/backlog limit (см. [контракт](../architecture/adaptive-workers.md#общий-review-backpressure)); по умолчанию он не включён. Бюджет и adaptive service-time состояние остаются per-run. Не считать review limit глобальным денежным бюджетом/API quota. До такой интеграции host обязан ограничивать admission и суммарные затраты самостоятельно; нельзя просто открыть десять координаторов с независимыми лимитами.
 
 Внедрение должно доказать два разных свойства: проверяемые технические артефакты и редакционное качество реального выпуска. Fake provider receipts и декодируемая тестовая аудиодорожка не доказывают прослушивание, качество narration, визуальную последовательность или оригинальность материала.
 

@@ -102,7 +102,7 @@ def parser():
     media.add_argument("--token", required=True)
     media.add_argument("--request", required=True, type=Path)
     pool = sub.add_parser("pool")
-    pool.add_argument("action", choices=("initialize", "enqueue", "tick", "pending", "claim", "submitted", "result", "accept", "reconcile", "recover", "status", "cancel"))
+    pool.add_argument("action", choices=("initialize", "configure-review-limit", "enqueue", "tick", "pending", "claim", "submitted", "result", "accept", "reconcile", "recover", "status", "cancel"))
     pool.add_argument("--run", required=True)
     pool.add_argument("--payload", type=Path)
     pool.add_argument("--expected-version", type=int)

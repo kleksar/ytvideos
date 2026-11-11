@@ -78,7 +78,7 @@ class PoolServiceTests(unittest.TestCase):
         self.image = self.root / "fixture.png"
         self.image.write_bytes(png_bytes())
 
-    def make_run(self, *, capacity=2, review_capacity=3, count=2, billing="included", channel="test_channel"):
+    def make_run(self, *, capacity=2, review_capacity=3, count=2, billing="included", channel="test_channel", shared_review_capacity=None):
         if channel != "test_channel":
             template = json.loads((self.production.project / "channels" / "test_channel" / "channel.json").read_text())
             template.update(id=channel, name=channel)
@@ -106,8 +106,11 @@ class PoolServiceTests(unittest.TestCase):
             value["approvals"]["script"] = {"artifact_id": script_artifact["id"], "revision": value["revision"]}
             self.production._expand_scenes(value, board_artifact)
         self.store.mutate(run["id"], prepare)
-        self.pools.operate(run["id"], "initialize", {"runtime_key": "fixture-runtime", "max_sessions": capacity,
-            "review_capacity": review_capacity, "evidence": "fixture runtime verified shared capacity"})
+        initialization = {"runtime_key": "fixture-runtime", "max_sessions": capacity,
+            "review_capacity": review_capacity, "evidence": "fixture runtime verified shared capacity"}
+        if shared_review_capacity is not None:
+            initialization["shared_review_capacity"] = shared_review_capacity
+        self.pools.operate(run["id"], "initialize", initialization)
         self.pools.operate(run["id"], "enqueue")
         result = self.pools.operate(run["id"], "tick")
         return run["id"], result["pending"][0] if result["pending"] else None
@@ -564,6 +567,161 @@ class PoolServiceTests(unittest.TestCase):
         self.pools.operate(run_id, "accept", {"job_id": request["packet"]["job_id"],
             "review_id": "accepted", "service_seconds": 4})
         self.assertEqual(len(self.pools.operate(run_id, "tick")["pending"]), 1)
+
+    def configure_shared_review(self, run_id, capacity):
+        return self.pools.operate(run_id, "configure-review-limit", {
+            "shared_review_capacity": capacity, "evidence": "fixture coordinator review budget"})
+
+    def test_shared_review_limit_excludes_unsent_and_holds_completed_until_accept(self):
+        first, request = self.make_run(capacity=2, count=1)
+        second, other = self.make_run(capacity=2, count=1, channel="z_other_channel")
+        self.configure_shared_review(first, 1)
+        self.assertEqual(self.pools.candidates("fixture-runtime")["review"]["used"], 0)
+        granted = self.claim(first, request)
+        self.native_complete(first, granted)
+        state = self.pools.candidates("fixture-runtime")
+        self.assertEqual(state["active"], 0)
+        self.assertEqual(state["review"], {"capacity": 1, "used": 1, "available": 0, "evidence": "fixture coordinator review budget"})
+        self.assertEqual(state["candidates"], [])
+        with self.assertRaisesRegex(Conflict, "review capacity"):
+            self.claim(second, other)
+        self.assertIsNone(self.store.get(second)["tasks"]["image:s0"].get("claim"))
+        self.qa_complete(first, "image:s0", granted["task_claim"])
+        accept = {"job_id": request["packet"]["job_id"], "review_id": "shared-review", "service_seconds": 4}
+        self.pools.operate(first, "accept", accept)
+        self.pools.operate(first, "accept", accept)
+        self.assertEqual(self.pools.candidates("fixture-runtime")["review"]["used"], 0)
+        self.assertTrue(self.claim(second, other)["task_claim"]["token"])
+
+    def test_shared_review_limit_is_explicit_and_runtime_wide(self):
+        first, request = self.make_run(capacity=2, count=1)
+        self.assertEqual(self.pools.candidates("fixture-runtime")["review"]["capacity"], None)
+        granted = self.claim(first, request)
+        self.native_complete(first, granted)
+        self.configure_shared_review(first, 1)
+        second, other = self.make_run(capacity=2, count=1)
+        self.assertEqual(self.pools.candidates("fixture-runtime")["review"]["used"], 1)
+        self.configure_shared_review(second, 1)
+        with self.assertRaises(Conflict):
+            self.configure_shared_review(second, 2)
+        for invalid in (0, -1, True, 1.5):
+            with self.assertRaises(WorkflowError):
+                self.configure_shared_review(second, invalid)
+        with self.assertRaises(Conflict):
+            self.claim(second, other)
+
+    def test_shared_review_unknown_survives_cancel_restart_and_duplicate_result(self):
+        first, request = self.make_run(capacity=2, count=1)
+        second, other = self.make_run(capacity=2, count=1)
+        self.configure_shared_review(first, 1)
+        grant = self.claim(first, request)
+        self.pools.operate(first, "recover")
+        self.pools.operate(first, "cancel", {"job_id": request["packet"]["job_id"]})
+        restarted = PoolService(Production(Store(self.db), self.root / "work", self.production.project,
+                                          clock=lambda: self.now))
+        self.assertEqual(restarted.candidates("fixture-runtime")["review"]["used"], 1)
+        with self.assertRaises(Conflict):
+            self.claim(second, other)
+        result = {"operation_id": request["operation_id"], "claim_token": grant["request"]["claim_token"],
+                  "receipt_id": "confirmed-not-started", "status": "not_started", "detail": "verified never sent",
+                  "evidence": {"native_readback": "dispatch never started"}}
+        restarted.operate(first, "result", result)
+        restarted.operate(first, "result", result)
+        self.assertEqual(restarted.candidates("fixture-runtime")["review"]["used"], 0)
+        self.assertTrue(self.claim(second, other)["task_claim"]["token"])
+
+    def test_shared_review_completed_cancel_releases_without_double_credit(self):
+        first, request = self.make_run(capacity=2, count=1)
+        self.configure_shared_review(first, 1)
+        grant = self.claim(first, request)
+        self.native_complete(first, grant)
+        self.pools.operate(first, "cancel", {"job_id": request["packet"]["job_id"]})
+        self.pools.operate(first, "cancel", {"job_id": request["packet"]["job_id"]})
+        self.assertEqual(self.pools.candidates("fixture-runtime")["review"],
+                         {"capacity": 1, "used": 0, "available": 1, "evidence": "fixture coordinator review budget"})
+
+    def test_shared_review_initialization_cannot_override_existing_limit(self):
+        first, _ = self.make_run(count=1, shared_review_capacity=1)
+        second, _ = self.make_run(count=1)
+        self.assertEqual(self.pools.operate(second, "status")["review"]["capacity"], 1)
+        with self.assertRaisesRegex(Conflict, "review capacity differs"):
+            self.make_run(count=1, shared_review_capacity=2)
+        self.assertEqual(self.pools.operate(first, "status")["review"]["capacity"], 1)
+
+    def test_shared_review_activation_below_usage_drains_without_rewriting_jobs(self):
+        first, request = self.make_run(capacity=2, count=1)
+        second, other = self.make_run(capacity=2, count=1)
+        grants = [self.claim(first, request), self.claim(second, other)]
+        self.native_complete(first, grants[0])
+        self.native_complete(second, grants[1])
+        before = self.store.get(second)["tasks"]
+        self.configure_shared_review(first, 1)
+        state = self.pools.candidates("fixture-runtime")["review"]
+        self.assertEqual((state["used"], state["available"]), (2, 0))
+        self.assertEqual(self.store.get(second)["tasks"], before)
+        self.pools.operate(first, "cancel", {"job_id": request["packet"]["job_id"]})
+        self.assertEqual(self.pools.candidates("fixture-runtime")["review"]["available"], 0)
+        self.pools.operate(second, "cancel", {"job_id": other["packet"]["job_id"]})
+        self.assertEqual(self.pools.candidates("fixture-runtime")["review"]["available"], 1)
+
+    def test_shared_review_stale_terminal_output_releases_credit(self):
+        first, request = self.make_run(count=1, shared_review_capacity=1)
+        grant = self.claim(first, request)
+        self.native_complete(first, grant)
+        self.qa_complete(first, "image:s0", grant["task_claim"])
+        self.assertEqual(self.pools.candidates("fixture-runtime")["review"]["used"], 1)
+        self.production.revise(first, "image:s0", "replace the known completed output")
+        self.assertEqual(self.pools.candidates("fixture-runtime")["review"]["used"], 0)
+        self.pools.operate(first, "recover")
+        self.assertEqual(self.pools.candidates("fixture-runtime")["review"]["used"], 0)
+
+    def test_shared_review_concurrent_accept_and_claim_no_deadlock(self):
+        first, request = self.make_run(capacity=2, count=1, shared_review_capacity=1)
+        second, other = self.make_run(capacity=2, count=1)
+        grant = self.claim(first, request)
+        self.native_complete(first, grant)
+        self.qa_complete(first, "image:s0", grant["task_claim"])
+        barrier = threading.Barrier(2)
+        def attempt(accept):
+            service = PoolService(Production(Store(self.db), self.root / "work", self.production.project,
+                                            clock=lambda: self.now))
+            barrier.wait(timeout=5)
+            if accept:
+                return service.operate(first, "accept", {"job_id": request["packet"]["job_id"],
+                    "review_id": "parallel-accept", "service_seconds": 4})
+            try:
+                return service.operate(second, "claim", {"operation_id": other["operation_id"],
+                    "worker": "parallel-worker", "estimated_units": 0})
+            except Conflict:
+                return None
+        with concurrent.futures.ThreadPoolExecutor(max_workers=2) as executor:
+            accepted, claimed = [executor.submit(attempt, flag) for flag in (True, False)]
+            accepted.result(timeout=15)
+            second_grant = claimed.result(timeout=15)
+        if second_grant is None:
+            second_grant = self.claim(second, other)
+        self.assertTrue(second_grant["task_claim"]["token"])
+        self.assertEqual(self.pools.candidates("fixture-runtime")["review"]["used"], 1)
+
+    def test_shared_review_last_credit_is_atomic_across_connections(self):
+        first, request = self.make_run(capacity=2, count=1)
+        second, other = self.make_run(capacity=2, count=1)
+        self.configure_shared_review(first, 1)
+        barrier = threading.Barrier(2)
+        def attempt(pair):
+            service = PoolService(Production(Store(self.db), self.root / "work", self.production.project,
+                                             clock=lambda: self.now))
+            barrier.wait(timeout=5)
+            try:
+                return service.operate(pair[0], "claim", {"operation_id": pair[1]["operation_id"],
+                                                        "worker": "concurrent-review-worker"})
+            except Conflict:
+                return None
+        with concurrent.futures.ThreadPoolExecutor(max_workers=2) as executor:
+            futures = [executor.submit(attempt, pair) for pair in ((first, request), (second, other))]
+            grants = [future.result(timeout=15) for future in futures]
+        self.assertEqual(sum(grant is not None for grant in grants), 1)
+        self.assertEqual(self.pools.candidates("fixture-runtime")["review"]["used"], 1)
 
 
 @unittest.skipUnless(os.environ.get("YTV_TEST_POSTGRES_URL"), "set YTV_TEST_POSTGRES_URL for real PostgreSQL pools")
