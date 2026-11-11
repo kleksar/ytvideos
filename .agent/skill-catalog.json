@@ -16,7 +16,7 @@
     {
       "name": "ytv-write-script",
       "path": ".agents/skills/ytv-write-script/SKILL.md",
-      "description": "Research, independently select a suitable topic, and write the complete approval-ready script for any ytvideos channel. Use for research and script tasks, factual checks, or script revisions.",
+      "description": "Research and write a clear causal script for any ytvideos channel; design a mandatory natural loop for Shorts. Use for research, script writing, factual checks or revisions.",
       "stages": [
         "research",
         "script"
@@ -30,7 +30,7 @@
     {
       "name": "ytv-produce-video",
       "path": ".agents/skills/ytv-produce-video/SKILL.md",
-      "description": "Produce an approved ytvideos script through storyboard, independent scene images, audio, subtitles and render. Use only the assigned task context and preserve exact accepted inputs.",
+      "description": "Produce an approved ytvideos script through images, audio, subtitles and render; preserve its Shorts loop through the audiovisual seam and exact accepted inputs.",
       "stages": [
         "storyboard",
         "scene_image",
@@ -46,7 +46,7 @@
     {
       "name": "ytv-review-video",
       "path": ".agents/skills/ytv-review-video/SKILL.md",
-      "description": "Review the exact ytvideos MP4 and its artifacts, record measured and perceptual checks, repair scoped defects, and present the file for approval.",
+      "description": "Review the exact ytvideos MP4, including cold opening, payoff and the mandatory Shorts loop seam; record real checks, repair scoped defects and present it for approval.",
       "stages": [
         "review"
       ],
