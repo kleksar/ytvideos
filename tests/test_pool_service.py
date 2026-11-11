@@ -1,10 +1,14 @@
 import concurrent.futures
 import json
+import os
 from pathlib import Path
 import struct
 import tempfile
+import threading
 import unittest
 import zlib
+from urllib.parse import parse_qsl, quote, urlencode, urlsplit, urlunsplit
+import uuid
 
 from ytvideos.errors import Conflict, WorkflowError
 from ytvideos.pool_service import PoolService
@@ -23,6 +27,8 @@ def png_bytes():
 
 
 class PoolServiceTests(unittest.TestCase):
+    postgres = False
+
     def setUp(self):
         self.temp = tempfile.TemporaryDirectory()
         self.addCleanup(self.temp.cleanup)
@@ -45,7 +51,27 @@ class PoolServiceTests(unittest.TestCase):
             "language": "en", "recipe": "illustrated", "youtube_channel_id": "TEST_ONLY_CHANNEL", "visual_profile": "test",
             "release_policy": {}, "budget": {"max_paid_units": 20, "max_task_attempts": 3, "max_editorial_passes": 2},
         }))
-        self.store = Store(self.root / "state.db")
+        self.db = str(self.root / "state.db")
+        if self.postgres:
+            import psycopg
+            from psycopg import sql
+            url = os.environ["YTV_TEST_POSTGRES_URL"]
+            schema = "ytv_pool_test_" + uuid.uuid4().hex
+            with psycopg.connect(url, autocommit=True) as connection:
+                connection.execute(sql.SQL("CREATE SCHEMA {}").format(sql.Identifier(schema)))
+
+            def cleanup_schema():
+                with psycopg.connect(url, autocommit=True) as connection:
+                    connection.execute(sql.SQL("DROP SCHEMA {} CASCADE").format(sql.Identifier(schema)))
+
+            self.addCleanup(cleanup_schema)
+            parts = urlsplit(url)
+            query = parse_qsl(parts.query, keep_blank_values=True)
+            options = " ".join(value for key, value in query if key == "options")
+            query = [(key, value) for key, value in query if key != "options"]
+            query.append(("options", (options + " -csearch_path=" + schema + " -cstatement_timeout=10000").strip()))
+            self.db = urlunsplit((parts.scheme, parts.netloc, parts.path, urlencode(query, quote_via=quote), parts.fragment))
+        self.store = Store(self.db)
         self.now = 1000.0
         self.production = Production(self.store, self.root / "work", project, clock=lambda: self.now)
         self.pools = PoolService(self.production)
@@ -161,7 +187,9 @@ class PoolServiceTests(unittest.TestCase):
     def test_concurrent_claims_cannot_overbook_shared_runtime(self):
         first, first_request = self.make_run(capacity=1)
         second, second_request = self.make_run(capacity=1)
+        barrier = threading.Barrier(2)
         def attempt(pair):
+            barrier.wait(timeout=5)
             try:
                 return self.claim(*pair)["task_claim"]["token"]
             except Conflict:
@@ -214,7 +242,7 @@ class PoolServiceTests(unittest.TestCase):
             "artifact_path": str(self.image), "evidence": {"tool_result_id": "fixture-existing-image"}})
 
         # Simulate an out-of-order redelivery after the dispatcher restarts.
-        restarted = PoolService(Production(Store(self.root / "state.db"), self.root / "work",
+        restarted = PoolService(Production(Store(self.db), self.root / "work",
                                           self.production.project, clock=lambda: self.now))
         replay = restarted.operate(run_id, "result", unknown)
         self.assertTrue(replay["duplicate"])
@@ -360,6 +388,11 @@ class PoolServiceTests(unittest.TestCase):
         self.pools.operate(run_id, "accept", {"job_id": request["packet"]["job_id"],
             "review_id": "accepted", "service_seconds": 4})
         self.assertEqual(len(self.pools.operate(run_id, "tick")["pending"]), 1)
+
+
+@unittest.skipUnless(os.environ.get("YTV_TEST_POSTGRES_URL"), "set YTV_TEST_POSTGRES_URL for real PostgreSQL pools")
+class PostgresPoolServiceTests(PoolServiceTests):
+    postgres = True
 
 
 if __name__ == "__main__":
