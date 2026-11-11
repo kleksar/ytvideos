@@ -48,6 +48,12 @@ Missing release capability не блокирует research/script. Missing imag
 
 ## Готовность фермы и общий бюджет
 
-[Матрица готовности](readiness.md) отделяет проверенные software contracts от live-подключений. Общий `runtime_key` ограничивает активные/UNKNOWN native slots между runs; денежные резервы сейчас принадлежат отдельному run. Адаптивные service-time оценки и review credits также хранятся в pool отдельного run. Это **не** доказательство общего ограничения расходов, API quota или суммарного review backlog для десяти одновременно активных выпусков.
+[Матрица готовности](readiness.md) отделяет проверенные software contracts от live-подключений. Общий `runtime_key` ограничивает активные/UNKNOWN native slots между runs; денежные резервы сейчас принадлежат отдельному run. Адаптивные service-time оценки остаются per-run. Для суммарного review backlog существует отдельный `shared_review_capacity`, настраиваемый через PoolService; native image host требует его до dispatch. Это **не** общий денежный бюджет или API quota, и старые executors без этого guard его не соблюдают.
 
 До совместного production запуска host должен обеспечить проверенный общий лимит расходов/квот и backpressure координатора либо явно сериализовать admission выпусков. Нельзя выдавать десять отдельных лимитов за один общий бюджет. Следующий интеграционный этап проверяет именно multi-run нагрузку, а не только десять синтетических профилей.
+
+## Исполняемый native image host
+
+Для локального Codex App Server добавлен [native-image-host](native-image-host.md): JSON-lines transport, явный выбор модели, новые независимые threads, durable dispatch journal и readback native image items. Он использует существующий общий session/review limit и требует его настройки. Это конкретный image executor, не новый полный production orchestrator: он не подписывает approvals, не принимает собственный artwork, не выполняет TTS/YouTube и не подменяет QA.
+
+Наличие adapter не является live capability observation. На целевом host отдельно проверяются установленный protocol/model, ChatGPT authentication, native image tool, доступные limits и получение реальных bytes. Не считать App Server и произвольный ChatGPT UI взаимозаменяемыми.
