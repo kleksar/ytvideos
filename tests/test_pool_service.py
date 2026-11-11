@@ -381,6 +381,46 @@ class PoolServiceTests(unittest.TestCase):
         with self.assertRaises(WorkflowError):
             self.claim(exhausted, request)
 
+    def test_cancel_after_completed_result_settles_outstanding_claim(self):
+        for actual_units in (None, 2):
+            with self.subTest(actual_units=actual_units):
+                run_id, request = self.make_run(capacity=1, count=1, billing="metered")
+                granted = self.claim(run_id, request, estimated_units=3)
+                result = {"operation_id": request["operation_id"],
+                    "claim_token": granted["request"]["claim_token"], "receipt_id": "ready-before-cancel",
+                    "status": "completed", "artifact_path": str(self.image), "actual_units": actual_units,
+                    "evidence": {"tool_result_id": "existing-image"}}
+                self.pools.operate(run_id, "result", result)
+                cancel = {"job_id": request["packet"]["job_id"]}
+                self.pools.operate(run_id, "cancel", cancel)
+                self.pools.operate(run_id, "cancel", cancel)
+                self.assertTrue(self.pools.operate(run_id, "result", result)["duplicate"])
+                run = self.store.get(run_id)
+                self.assertEqual(run["tasks"]["image:s0"]["status"], "cancelled")
+                self.assertIsNone(run["tasks"]["image:s0"]["claim"])
+                self.assertEqual((run["budget"]["reserved"], run["budget"]["spent"], run["budget"]["unknown_reserved"]),
+                                 (0, actual_units or 0, 3 if actual_units is None else 0))
+                self.production.revise(run_id, "image:s0", "replace the finished cancelled result")
+
+    def test_concurrent_cancel_and_result_settle_once(self):
+        run_id, request = self.make_run(capacity=1, count=1, billing="metered")
+        granted = self.claim(run_id, request, estimated_units=3)
+        barrier = threading.Barrier(2)
+        def finish(action):
+            barrier.wait(timeout=5)
+            payload = ({"job_id": request["packet"]["job_id"]} if action == "cancel" else {
+                "operation_id": request["operation_id"], "claim_token": granted["request"]["claim_token"],
+                "receipt_id": "concurrent-finished", "status": "completed", "artifact_path": str(self.image),
+                "actual_units": 2, "evidence": {"tool_result_id": "concurrent-fixture"}})
+            return self.pools.operate(run_id, action, payload)
+        with concurrent.futures.ThreadPoolExecutor(max_workers=2) as executor:
+            list(executor.map(finish, ["cancel", "result"]))
+        run = self.store.get(run_id)
+        self.assertEqual(run["tasks"]["image:s0"]["status"], "cancelled")
+        self.assertIsNone(run["tasks"]["image:s0"]["claim"])
+        self.assertEqual((run["budget"]["reserved"], run["budget"]["spent"], run["budget"]["unknown_reserved"]), (0, 2, 0))
+        self.assertEqual(self.pools.candidates("fixture-runtime")["active"], 0)
+
     def test_budget_rejection_does_not_claim_bridge_or_slot(self):
         run_id, request = self.make_run(billing="metered")
         with self.assertRaises(WorkflowError):

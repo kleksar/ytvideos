@@ -213,6 +213,9 @@ class PoolService:
         request = backend.requests[operation_id]
         binding = run["pool"]["bindings"][request["packet"]["job_id"]]
         status = payload["status"]
+        units = payload.get("actual_units")
+        if units is not None and (type(units) is not int or units < 0):
+            raise WorkflowError("actual_units must be measured nonnegative units or omitted")
         result = BackendResult(status, artifact["uri"] if artifact else "", artifact["sha256"] if artifact else "",
                                detail=payload.get("detail", ""), generation_seconds=payload.get("generation_seconds"))
         observation = {"operation_id": operation_id, "status": status,
@@ -238,7 +241,7 @@ class PoolService:
                 tx.execute("UPDATE runtime_slots SET state='unknown' WHERE id=?", (operation["key"],))
                 operation["status"] = "unknown"
             operation.update(provider=payload["evidence"], bridge_receipt_id=payload["receipt_id"],
-                             observed_at=utc_now(), artifact=artifact)
+                             observed_at=utc_now(), artifact=artifact, actual_units=units)
             tx.put_operation(operation)
         task = self.production._task(run, binding["task_id"])
         claim = task.get("claim")
@@ -260,21 +263,27 @@ class PoolService:
                 run["budget"]["spent"] += units
             task.update(status="cancelled" if run["status"] == "cancelled" else "blocked", claim=None,
                         blocker=payload.get("detail") or "native generation failed")
-        if current_attempt and (task["status"] == "cancelled" or run["status"] == "cancelled") and task.get("claim"):
-            if status in {"completed", "failed", "not_started"}:
-                units = 0 if status == "not_started" else payload.get("actual_units")
-                if units is not None and (type(units) is not int or units < 0):
-                    raise WorkflowError("actual_units must be measured nonnegative units or omitted")
-                reservation = task["claim"]["estimated_units"]
-                run["budget"]["reserved"] -= reservation
-                if units is None:
-                    run["budget"]["unknown_reserved"] += reservation
-                else:
-                    run["budget"]["spent"] += units
-                task.update(status="cancelled", claim=None, blocker="cancelled; observed native result retained")
+        if current_attempt:
+            self._settle_cancelled_claim(run, task, status, units)
         return {"status": status, "artifact": artifact, "task_id": binding["task_id"],
                 "task_token": binding.get("task_token"),
                 "next": "Record production QA with complete, then accept the exact pool artifact."}
+
+    @staticmethod
+    def _settle_cancelled_claim(run, task, status, units):
+        if (task["status"] != "cancelled" and run["status"] != "cancelled") or not task.get("claim"):
+            return
+        if status not in {"completed", "failed", "not_started"}:
+            return
+        reservation = task["claim"]["estimated_units"]
+        run["budget"]["reserved"] -= reservation
+        if status == "not_started":
+            units = 0
+        if units is None:
+            run["budget"]["unknown_reserved"] += reservation
+        else:
+            run["budget"]["spent"] += units
+        task.update(status="cancelled", claim=None, blocker="cancelled; observed native result retained")
 
     def _accept(self, tx, run, pool, payload):
         job_id = payload["job_id"]
@@ -344,6 +353,11 @@ class PoolService:
                         task = run["tasks"].get(binding["task_id"])
                         if task and input_hash(run, task) == binding["task_input_hash"]:
                             task.update(status="cancelled", blocker="scene cancelled; reconcile any existing native generation")
+                            operation = tx.operation(binding.get("operation_key", ""))
+                            if operation and task.get("claim") and task["claim"]["input_hash"] == binding["task_input_hash"]:
+                                request = next(
+                                    r for r in backend.requests.values() if r["packet"]["job_id"] == record.job.job_id)
+                                self._settle_cancelled_claim(run, task, request["status"], operation.get("actual_units"))
                     result = {"status": record.status}
                 elif action == "pending":
                     result = {"requests": backend.pending_requests()}
