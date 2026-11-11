@@ -236,6 +236,13 @@ class Production:
                     raise Conflict("duplicate completion has different content")
                 return task
             claim = self._current_claim(run, task, token)
+            operations = self._task_operations(tx, run, task, claim)
+            if any(operation["status"] != "confirmed" for operation in operations):
+                raise Conflict("provider outcome must be confirmed before task completion")
+            for operation in operations:
+                native_artifact = operation.get("artifact")
+                if native_artifact and native_artifact["sha256"] != artifact["sha256"]:
+                    raise Conflict("task output differs from the confirmed native result")
             self._validate_receipt(run, task, claim, artifact, observed)
             if media_validation is not None:
                 if run["tasks"]["packaging"]["outputs"] != initial["tasks"]["packaging"]["outputs"]:

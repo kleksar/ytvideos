@@ -461,6 +461,68 @@ class PoolServiceTests(unittest.TestCase):
         self.assertEqual(self.store.get(run_id)["budget"]["reserved"], 3)
         self.assertEqual(self.pools.candidates("fixture-runtime")["active"], 1)
 
+    def test_qa_cannot_complete_before_native_result_confirmation(self):
+        run_id, request = self.make_run(capacity=1, count=1)
+        granted = self.claim(run_id, request)
+        with self.assertRaises(WorkflowError):
+            self.qa_complete(run_id, "image:s0", granted["task_claim"])
+        run = self.store.get(run_id)
+        self.assertEqual(run["tasks"]["image:s0"]["status"], "running")
+        with self.assertRaises(Conflict):
+            self.production.revise(run_id, "image:s0", "provider outcome is still unknown")
+        self.native_complete(run_id, granted)
+        # A different valid image must not be attached while the native result
+        # and its global session accounting refer to the original exact file.
+        from PIL import Image
+        original = self.image.read_bytes()
+        Image.new("RGB", (2, 2), "blue").save(self.image)
+        with self.assertRaises(Conflict):
+            self.qa_complete(run_id, "image:s0", granted["task_claim"])
+        self.image.write_bytes(original)
+        self.qa_complete(run_id, "image:s0", granted["task_claim"])
+
+    def test_concurrent_duplicate_claims_grant_exactly_once(self):
+        run_id, request = self.make_run(capacity=2, count=1, billing="metered")
+        barrier = threading.Barrier(6)
+        def attempt(_):
+            barrier.wait(timeout=5)
+            try:
+                return self.claim(run_id, request, estimated_units=3)
+            except Conflict:
+                return None
+        with concurrent.futures.ThreadPoolExecutor(max_workers=6) as executor:
+            results = list(executor.map(attempt, range(6)))
+        self.assertEqual(sum(result is not None for result in results), 1)
+        run = self.store.get(run_id)
+        self.assertEqual((run["tasks"]["image:s0"]["attempt"], run["budget"]["reserved"]), (1, 3))
+        with self.store.transaction() as tx:
+            self.assertEqual(tx.execute("SELECT COUNT(*) FROM runtime_slots WHERE state='reserved'").fetchone()[0], 1)
+            self.assertEqual(tx.execute("SELECT COUNT(*) FROM operations WHERE run_id=?", (run_id,)).fetchone()[0], 1)
+
+    def test_concurrent_result_and_other_run_claim_do_not_deadlock_or_overbook(self):
+        first, first_request = self.make_run(capacity=1, count=1)
+        second, second_request = self.make_run(capacity=1, count=1)
+        granted = self.claim(first, first_request)
+        barrier = threading.Barrier(2)
+        def finish():
+            barrier.wait(timeout=5)
+            return self.native_complete(first, granted)
+        def claim_other():
+            barrier.wait(timeout=5)
+            try:
+                return self.claim(second, second_request)
+            except Conflict:
+                return None
+        with concurrent.futures.ThreadPoolExecutor(max_workers=2) as executor:
+            finished = executor.submit(finish)
+            claimed = executor.submit(claim_other)
+            finished.result(timeout=15)
+            second_grant = claimed.result(timeout=15)
+        if second_grant is None:
+            second_grant = self.claim(second, second_request)
+        self.assertTrue(second_grant["task_claim"]["token"])
+        self.assertEqual(self.pools.candidates("fixture-runtime")["active"], 1)
+
     def test_budget_rejection_does_not_claim_bridge_or_slot(self):
         run_id, request = self.make_run(billing="metered")
         with self.assertRaises(WorkflowError):
