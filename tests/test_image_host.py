@@ -9,7 +9,7 @@ from unittest.mock import patch
 
 import test_pool_service as fixtures
 from ytvideos.errors import Conflict, WorkflowError
-from ytvideos.runtime.app_server import AppServer, RpcUnavailable
+from ytvideos.runtime.app_server import AppServer, ImageNotSent, RpcError, RpcUnavailable
 from ytvideos.runtime.image_host import ImageHost
 from ytvideos.util import file_digest
 
@@ -30,7 +30,12 @@ class NativeFixture:
         self.history[thread_id] = []
         return thread_id
 
-    def start_image(self, thread_id, directory, prompt):
+    def start_image(self, thread_id, directory, prompt, *, before_send=None):
+        try:
+            if before_send is not None:
+                before_send()
+        except (WorkflowError, OSError, ValueError) as exc:
+            raise ImageNotSent(str(exc)) from exc
         turn_id = "turn-" + thread_id
         self.history[thread_id] = [{"id": turn_id, "status": "inProgress", "durationMs": 20000,
             "items": [{"type": "userMessage", "content": [{"type": "text", "text": prompt}]}]}]
@@ -378,6 +383,149 @@ class ImageHostTests(unittest.TestCase):
         result = self.host.tick()
         self.assertEqual(len(result["dispatches"]), 1, result)
         self.assertEqual(len(self.server.started), 1)
+
+
+    def test_cancel_during_native_preflight_does_not_start_image_turn(self):
+        run_id = self.run_fixture(count=1)
+        calls = []
+        def native_call(method, params):
+            calls.append(method)
+            if method == "thread/start":
+                return {"thread": {"id": "cancel-preflight"}, "model": "test-luna"}
+            if method == "mcpServerStatus/list":
+                self.production.cancel(run_id, "user cancelled during native preflight")
+                return {"data": []}
+            if method == "turn/start":
+                return {"turn": {"id": "must-not-start"}}
+            raise AssertionError(method)
+        rpc = unittest.mock.Mock()
+        rpc.call.side_effect = native_call
+        host = ImageHost(self.production, AppServer(rpc, "test-luna"), self.config)
+        host.tick()
+        self.assertNotIn("turn/start", calls)
+        self.assertEqual(self.pools.candidates("fixture-runtime")["active"], 0)
+        self.assertEqual(self.store.get(run_id)["budget"]["reserved"], 0)
+        self.assertEqual(host._jobs()[0]["state"], "delivered")
+
+    def test_input_mutation_during_native_preflight_stops_before_turn(self):
+        run_id = self.run_fixture(count=1)
+        calls, directory = [], []
+        def native_call(method, params):
+            calls.append(method)
+            if method == "thread/start":
+                directory.append(Path(params["cwd"]))
+                return {"thread": {"id": "tampered-preflight"}, "model": "test-luna"}
+            if method == "mcpServerStatus/list":
+                (directory[0] / "SKILL.md").write_text("changed after materialization")
+                return {"data": []}
+            if method == "turn/start":
+                return {"turn": {"id": "must-not-start"}}
+            raise AssertionError(method)
+        rpc = unittest.mock.Mock()
+        rpc.call.side_effect = native_call
+        host = ImageHost(self.production, AppServer(rpc, "test-luna"), self.config)
+        host.tick()
+        self.assertNotIn("turn/start", calls)
+        state = self.store.get(run_id)
+        self.assertEqual(state["tasks"]["image:s0"]["status"], "blocked")
+        self.assertEqual(state["budget"]["reserved"], 0)
+        self.assertEqual(self.pools.candidates("fixture-runtime")["active"], 0)
+
+    def test_nontext_reference_explanation_is_not_an_exemption(self):
+        run_id = self.run_fixture(count=1)
+        self.production.revise(run_id, "image:s0", "invalid reference exemption")
+        def change(tx, run):
+            run["tasks"]["image:s0"]["payload"].update(references=[], reference_na_reason=None)
+        self.store.mutate(run_id, change)
+        self.host.tick()
+        self.assertEqual(self.server.started, [])
+        self.assertEqual(self.store.get(run_id)["tasks"]["image:s0"]["status"], "blocked")
+
+    def test_malformed_turn_does_not_prevent_collecting_other_channel(self):
+        self.run_fixture(capacity=3, count=1, channel="second")
+        self.run_fixture(capacity=3, count=1, channel="third")
+        self.host.tick()
+        self.host.tick()
+        jobs = self.host._jobs()
+        self.assertEqual(len(jobs), 2)
+        self.server.history[jobs[0]["thread_id"]][0]["items"] = None
+        self.server.finish(jobs[1]["thread_id"], inline=True)
+        result = self.host.tick()
+        self.assertTrue(result["blockers"])
+        self.assertTrue(any(item["operation_id"] == jobs[1]["id"] and item["status"] == "delivered"
+                            for item in result["observations"]))
+        self.assertEqual(self.pools.candidates("fixture-runtime")["active"], 1)
+
+
+    def test_rejected_preflight_does_not_hold_slot_or_retry_forever(self):
+        run_id = self.run_fixture(count=1)
+        calls = []
+        def native_call(method, params):
+            calls.append(method)
+            if method == "thread/start":
+                return {"thread": {"id": "has-connector"}, "model": "test-luna"}
+            if method == "mcpServerStatus/list":
+                return {"data": [{"name": "not-allowed"}]}
+            raise AssertionError(method)
+        rpc = unittest.mock.Mock()
+        rpc.call.side_effect = native_call
+        host = ImageHost(self.production, AppServer(rpc, "test-luna"), self.config)
+        result = host.tick()
+        self.assertFalse(result["dispatches"])
+        self.assertEqual(result["blockers"][0]["error"], "ImageNotSent")
+        host.tick()
+        self.assertEqual(calls, ["thread/start", "mcpServerStatus/list"])
+        self.assertEqual(host._jobs()[0]["observation"]["actual_units"], 0)
+        self.assertEqual(self.store.get(run_id)["tasks"]["image:s0"]["status"], "blocked")
+        self.assertEqual(self.pools.candidates("fixture-runtime")["active"], 0)
+        self.assertEqual(self.pools.operate(run_id, "status")["review"]["used"], 0)
+
+    def test_turn_start_error_is_not_treated_as_a_proven_unsent_request(self):
+        self.run_fixture(count=1)
+        calls = []
+        def native_call(method, params):
+            calls.append(method)
+            if method == "thread/start":
+                return {"thread": {"id": "uncertain-turn"}, "model": "test-luna"}
+            if method == "mcpServerStatus/list":
+                return {"data": []}
+            if method == "turn/start":
+                raise RpcError(method, -32000)
+            raise AssertionError(method)
+        rpc = unittest.mock.Mock()
+        rpc.call.side_effect = native_call
+        host = ImageHost(self.production, AppServer(rpc, "test-luna"), self.config)
+        result = host.tick()
+        self.assertTrue(result["blockers"])
+        self.assertIn("turn/start", calls)
+        self.assertEqual(host._jobs()[0]["state"], "turn_dispatching")
+        self.assertIsNone(host._jobs()[0]["observation"])
+        self.assertEqual(self.pools.candidates("fixture-runtime")["active"], 1)
+
+    def test_restart_does_not_infer_no_send_from_thread_created_state(self):
+        self.run_fixture(count=1)
+        with patch.object(self.server, "start_image", side_effect=KeyboardInterrupt):
+            with self.assertRaises(KeyboardInterrupt):
+                self.host.tick()
+        self.assertEqual(self.host._jobs()[0]["state"], "thread_created")
+        restarted = ImageHost(self.production, self.server, self.config)
+        result = restarted.tick()
+        self.assertEqual(result["observations"][0]["status"], "unknown")
+        self.assertFalse(result["dispatches"])
+        self.assertEqual(len(self.server.started), 1)
+        self.assertEqual(self.pools.candidates("fixture-runtime")["active"], 1)
+
+
+    def test_disconnected_dispatch_does_not_consume_more_channels_slots(self):
+        self.run_fixture(capacity=3, count=1, channel="second")
+        self.run_fixture(capacity=3, count=1, channel="third")
+        with patch.object(self.server, "start_thread", side_effect=RpcUnavailable("disconnected")) as start:
+            self.host.tick()
+            result = self.host.tick()
+            self.assertEqual(start.call_count, 1)
+        self.assertFalse(result["dispatches"])
+        self.assertEqual(len(self.host._jobs()), 1)
+        self.assertEqual(self.pools.candidates("fixture-runtime")["active"], 1)
 
 
 @unittest.skipUnless(os.environ.get("YTV_TEST_POSTGRES_URL"), "requires isolated PostgreSQL")

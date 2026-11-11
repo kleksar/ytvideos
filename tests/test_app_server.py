@@ -2,6 +2,7 @@
 import json
 from pathlib import Path
 import sys
+import threading
 import tempfile
 import unittest
 from unittest.mock import patch
@@ -161,3 +162,35 @@ keys = [k for k in os.environ if k.startswith("YTV_") or k.endswith("API_KEY")]
 print(json.dumps({"id": request["id"], "result": {"secret_names": keys}}), flush=True)
 ''')
         self.assertEqual(rpc.call("fixture-environment", {})["secret_names"], [])
+
+
+    def test_write_to_unresponsive_subprocess_obeys_request_timeout(self):
+        rpc, _ = self.process("import time; time.sleep(5)", timeout=0.15)
+        errors = []
+        def invoke():
+            try:
+                rpc.call("turn/start", {"text": "x" * (1024 * 1024)})
+            except BaseException as exc:
+                errors.append(exc)
+        worker = threading.Thread(target=invoke, daemon=True)
+        worker.start()
+        worker.join(timeout=0.8)
+        hung = worker.is_alive()
+        if not hung:
+            with self.assertRaises(RpcUnavailable):
+                rpc.call("must-not-reuse-partial-stream", {})
+        rpc.close()
+        worker.join(timeout=1)
+        self.assertFalse(hung, "request deadline must include blocked pipe writes")
+        self.assertEqual(len(errors), 1)
+        self.assertIsInstance(errors[0], RpcUnavailable)
+
+    def test_malformed_error_is_sanitized_not_interpreted_as_provider_text(self):
+        for error in (None, "SECRET_FIXTURE", {"code": "SECRET_FIXTURE"}, {"code": True}):
+            source = "import json,sys\nr=json.loads(sys.stdin.readline())\n"
+            source += "print(json.dumps({'id':r['id'],'error':" + repr(error) + "}),flush=True)\n"
+            with self.subTest(error=error):
+                rpc, _ = self.process(source)
+                with self.assertRaises(RpcUnavailable) as caught:
+                    rpc.call("test", {})
+                self.assertNotIn("SECRET_FIXTURE", str(caught.exception))

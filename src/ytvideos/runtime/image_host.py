@@ -21,13 +21,14 @@ from ..service import Production
 from ..store import Store
 from ..util import canonical, digest, file_digest
 from ..workflow import input_hash
-from .app_server import AppServer, RpcUnavailable, StdioRpc
+from .app_server import AppServer, ImageNotSent, RpcUnavailable, StdioRpc
 
 
 class ImageHost:
     def __init__(self, production, server, config):
         self.production, self.store, self.server = production, production.store, server
         self.config = dict(config)
+        self._transport_failed = False
         for name in ("host_id", "runtime_key", "model", "work_root"):
             if not isinstance(config.get(name), str) or not config[name].strip():
                 raise WorkflowError(f"host configuration requires {name}")
@@ -81,7 +82,8 @@ class ImageHost:
         references = context.get("scene", {}).get("references", [])
         if not isinstance(references, list):
             raise WorkflowError("scene references must be registered artifact IDs")
-        if not references and not str(context.get("scene", {}).get("reference_na_reason", "")).strip():
+        reason = context.get("scene", {}).get("reference_na_reason")
+        if not references and (not isinstance(reason, str) or not reason.strip()):
             raise WorkflowError("resolve the scene's visual references or explain why none are needed")
         for reference in references:
             key = reference.get("artifact_id") if isinstance(reference, dict) else reference
@@ -182,15 +184,34 @@ class ImageHost:
         job["thread_id"] = self.server.start_thread(directory)
         job["state"] = "thread_created"
         self._save(job)
-        self.pools.operate(run_id, "submitted", {
-            "operation_id": job["id"], "claim_token": job["claim_token"], "reconnectable": True,
-            "provider": {"tool": "codex.app-server", "session_id": job["thread_id"]}})
-        fresh = self.store.get(run_id)
-        self.production._runtime(fresh)
-        self.production._current_claim(fresh, fresh["tasks"][job["task_id"]], job["task_token"])
-        job["state"] = "turn_dispatching"
-        self._save(job)
-        job["turn_id"] = self.server.start_image(job["thread_id"], directory, job["prompt"])
+        def before_send():
+            self._verify_inputs(job)
+            fresh = self.store.get(run_id)
+            self.production._runtime(fresh)
+            self.production._current_claim(fresh, fresh["tasks"][job["task_id"]], job["task_token"])
+            job["state"] = "turn_dispatching"
+            self._save(job)
+            self.pools.operate(run_id, "submitted", {
+                "operation_id": job["id"], "claim_token": job["claim_token"], "reconnectable": True,
+                "provider": {"tool": "codex.app-server", "session_id": job["thread_id"]}})
+        try:
+            job["turn_id"] = self.server.start_image(job["thread_id"], directory, job["prompt"],
+                                                     before_send=before_send)
+        except ImageNotSent as exc:
+            # Only the current dispatch stack can prove it never invoked
+            # turn/start. Recovery must not infer this from an old state label.
+            job["observation"] = {
+                "operation_id": job["id"], "claim_token": job["claim_token"],
+                "receipt_id": "app-server:not-sent:" + job["id"], "status": "failed",
+                "actual_units": 0, "detail": str(exc),
+                "evidence": {"tool": "codex.app-server", "session_id": job["thread_id"],
+                             "method": "host_preflight_no_dispatch", "turn_start_sent": False}}
+            job["state"] = "observed"
+            self._save(job)
+            self.poll(job)
+            if isinstance(exc.__cause__, RpcUnavailable):
+                self._transport_failed = True
+            return {"operation_id": job["id"], "status": "not_sent", "reason": str(exc)}
         job["state"] = "running"
         self._save(job)
         self.pools.operate(run_id, "submitted", {
@@ -199,14 +220,18 @@ class ImageHost:
             "dispatch_service_seconds": max(0.001, time.monotonic() - started)})
         return {"operation_id": job["id"], "thread_id": job["thread_id"], "turn_id": job["turn_id"]}
 
-    def _image(self, job, item):
+    def _verify_inputs(self, job):
         directory = Path(job["directory"]).resolve()
         if directory.parent != self.root:
             raise WorkflowError("worker directory is outside the configured host")
         for name, sha in job["inputs"].items():
             source = directory / name
-            if source.is_symlink() or file_digest(source) != sha:
+            if source.is_symlink() or not source.is_file() or file_digest(source) != sha:
                 raise WorkflowError("worker modified a pinned input; result needs investigation")
+        return directory
+
+    def _image(self, job, item):
+        directory = self._verify_inputs(job)
         saved = item.get("savedPath")
         if saved:
             source = Path(saved)
@@ -259,10 +284,16 @@ class ImageHost:
         if len(matches) != 1:
             return {"operation_id": job["id"], "status": "unknown", "reason": "exact turn not observed; no resend"}
         turn = matches[0]
-        if not any(item.get("type") == "userMessage" and any(
-                value.get("type") == "text" and value.get("text") == job["prompt"]
-                for value in item.get("content", []) if isinstance(value, dict))
-                for item in turn.get("items", []) if isinstance(item, dict)):
+        items = turn.get("items")
+        if not isinstance(items, list) or any(not isinstance(item, dict) for item in items):
+            raise WorkflowError("native turn has malformed item history; reconcile this operation")
+        messages = [item for item in items if item.get("type") == "userMessage"]
+        for message in messages:
+            content = message.get("content")
+            if not isinstance(content, list) or any(not isinstance(value, dict) for value in content):
+                raise WorkflowError("native turn has malformed user input; reconcile this operation")
+        if not any(value.get("type") == "text" and value.get("text") == job["prompt"]
+                   for message in messages for value in message["content"]):
             return {"operation_id": job["id"], "status": "unknown", "reason": "turn input does not match this dispatch"}
         if turn.get("status") == "inProgress":
             try:
@@ -273,9 +304,6 @@ class ImageHost:
         if turn.get("status") != "completed":
             return {"operation_id": job["id"], "status": "unknown",
                     "reason": "turn failed/interrupted; image provider outcome requires reconciliation"}
-        items = turn.get("items")
-        if not isinstance(items, list):
-            raise RpcUnavailable("turn item history is not loaded")
         images = [item for item in items if isinstance(item, dict) and item.get("type") == "imageGeneration"]
         if len(images) != 1 or images[0].get("status") != "completed" or images[0].get("failure"):
             return {"operation_id": job["id"], "status": "unknown",
@@ -308,11 +336,16 @@ class ImageHost:
             try:
                 result["observations"].append(self.poll(job))
             except RpcUnavailable:
+                self._transport_failed = True
                 result["blockers"].append({"operation_id": job["id"], "error": "RpcUnavailable"})
                 return result  # A disconnected/unresponsive transport cannot accept new work.
             except (WorkflowError, OSError, ValueError) as exc:
                 result["blockers"].append({"operation_id": job["id"], "error": type(exc).__name__,
                     "reason": str(exc) if isinstance(exc, WorkflowError) else "inspect local files and configuration"})
+        if self._transport_failed:
+            result["blockers"].append({"error": "RpcUnavailable",
+                                       "reason": "restart the disconnected host; no new claims are issued"})
+            return result
         runs = [run for run in self.store.list() if run["channel"] in self.config["channels"] and run.get("pool")
                 and run["pool"]["runtime_key"] == self.config["runtime_key"] and run["status"] not in {"cancelled", "scheduled"}]
         for run in runs:
@@ -336,8 +369,14 @@ class ImageHost:
                     run = self.store.get(candidate["run_id"])
                     status = self.pools.operate(run["id"], "status")
                     if status["review"]["capacity"] is not None and status["review"]["available"] > 0:
-                        result["dispatches"].append(self.dispatch(candidate))
+                        dispatched = self.dispatch(candidate)
+                        if dispatched.get("status") == "not_sent":
+                            result["blockers"].append({**dispatched, "error": "ImageNotSent"})
+                        else:
+                            result["dispatches"].append(dispatched)
                 except (WorkflowError, OSError, ValueError) as exc:
+                    if isinstance(exc, RpcUnavailable):
+                        self._transport_failed = True
                     result["blockers"].append({"run_id": candidate["run_id"], "error": type(exc).__name__,
                     "reason": str(exc) if isinstance(exc, WorkflowError) else "inspect local files and configuration"})
         return result
