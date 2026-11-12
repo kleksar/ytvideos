@@ -14,13 +14,17 @@ uv run python -m ytvideos doctor --run RUN_ID
 
 До claim сохранить реально наблюдённые capabilities. Например `{"web.search":true,"model.text":true}` допустимо только когда эти tools доступны текущему worker. Запись `capabilities --run RUN_ID --file capabilities.json --evidence 'actual observation reference'` сама не предоставляет tool. Для metered audio/image требуется положительная reservation, либо подтверждённый `billing:included`; max paid budget по умолчанию не разрешает платные запросы.
 
+Новый run не наследует каталог tools сессии автоматически. Если `next`/claim показывает `missing capabilities`, сверить реальную доступность: незаписанное наблюдение исправляется командой `capabilities`, а фактически отсутствующий инструмент остаётся blocker. Ссылка на реально полученный search result или наблюдение доступного text runtime — evidence, которое worker вправе сохранить без отдельного user approval. Не копировать пример evidence как факт и не заявлять доступ к чужому аккаунту по наличию имени connector. После записи повторить `next` и claim, продолжая исходную задачу.
+
 ```bash
 uv run python -m ytvideos next --run RUN_ID
 uv run python -m ytvideos context --run RUN_ID --task research --output context.json
 uv run python -m ytvideos claim --run RUN_ID --task research --worker WORKER_ID
 ```
 
-Claim возвращает `token`, `worker`, `input_hash`, `expires_at`, `estimated_units`, `claimed_at`. Копировать точные token/input_hash, использовать stable реальную идентичность исполнителя. Долгую задачу продлевать `heartbeat --run RUN_ID --task TASK_ID --token TOKEN`; lease не даёт право изменить scope.
+Claim возвращает `token`, `worker`, `input_hash`, `expires_at`, `estimated_units`, `claimed_at`. Сохранить JSON-ответ и брать точные token/input_hash из него программно, не перепечатывать идентификаторы вручную; использовать stable реальную идентичность исполнителя. При `stale or missing task lease` сначала сверить task/status и точное значение с текущим claim: опечатка не означает истёкшую lease. Долгую задачу продлевать `heartbeat --run RUN_ID --task TASK_ID --token TOKEN`; lease не даёт право изменить scope.
+
+`context.references` — пути стандартов относительно корня pinned checkout; прочитать их вместе с выданным skill и профилем канала. Тот же список передаётся image-pool worker в dispatch context. Для `scene_image` thumbnail standard включается только при `payload.purpose: thumbnail`; обычная сцена сохраняет свой visual contract. Список ссылок не содержит тексты стандартов и не меняет граф зависимостей.
 
 ## Outputs
 
@@ -39,9 +43,11 @@ Claim возвращает `token`, `worker`, `input_hash`, `expires_at`, `estim
 }
 ```
 
-Пример показывает форму, не источник: заменить URL/claim/location фактически прочитанными материалами. Дополнительно сохранить uncertainty, overlap/отвергнутые варианты и аудиторию. `script` output — UTF-8 файл полного narration без процедурных инструкций. Минимальная длина машинной проверки не является критерием качества: должен быть закончен сценарий, который пользователь просил.
+Пример показывает форму, не источник: заменить URL/claim/location фактически прочитанными материалами. Дополнительно сохранить uncertainty, overlap/отвергнутые варианты, аудиторию и заметку о визуальном обещании и его раскрытии в сценарии. `script` output — UTF-8 файл полного narration без процедурных инструкций. Минимальная длина машинной проверки не является критерием качества: должен быть закончен сценарий, который пользователь просил.
 
 `storyboard` output — JSON `{"scenes":[{"id":"S001","prompt":"Самодостаточное задание","visual_intent":"Смысл кадра"}]}` с необходимыми реальными timing/references/continuity. Scene IDs уникальны; приложение создаёт `image:<scene-id>` tasks. Остальные типы — actual media/SRT/QA/release-spec/remote receipts по task context. Файл с удобным расширением не доказывает реальный медиаформат.
+
+`packaging` output — strict `ReleaseSpec` по `src/ytvideos/release.py`, без полей brief/plan/notes. На раннем этапе неизвестные optional `media_sha256`, `thumbnail_sha256` и `ab_variants` опустить, а не заполнять `null` или примерными значениями. `thumbnail_plan` — обязательное имя в `receipt.checks`, рядом с `promise_matches_script` и `metadata`; в observed привести реальную проверку концептов и ссылку на сохранённые briefs. После получения файлов финальный spec связывается через `prepare-release`, без повторного завершения packaging.
 
 ## Источники и обложки
 
@@ -63,6 +69,24 @@ uv run python -m ytvideos add-thumbnail-task --run RUN_ID --brief thumbnail-brie
 ```
 
 Приложение создаёт `thumbnail:main` со stage `scene_image` и `purpose: thumbnail`. Этот task идёт в общий image pool, зависит от packaging и не ждёт storyboard/render. Созданные обложки становятся зависимостями upload; точный принятый hash затем входит в release spec. Добавлять их до начала upload.
+
+Briefs, план сравнения и последующие наблюдения сохранять отдельными supporting artifacts. Например, после заполнения реальных файлов по [thumbnails](../standards/thumbnails.md#план-сравнения-и-ручная-фиксация):
+
+```bash
+uv run python -m ytvideos attach-artifact --run RUN_ID --file thumbnail-brief.json --kind thumbnail_brief --source BRIEF_REFERENCE
+uv run python -m ytvideos attach-artifact --run RUN_ID --file thumbnail-plan.json --kind thumbnail_experiment_plan --source PLAN_REFERENCE
+uv run python -m ytvideos attach-artifact --run RUN_ID --file thumbnail-observation.json --kind thumbnail_experiment_observation --source OBSERVATION_REFERENCE
+```
+
+Последняя команда применима после фактического наблюдения; пустой план не является результатом. Сохранить возвращённые IDs и hashes, новые наблюдения добавлять отдельными файлами. `attach-artifact` сохраняет bytes/provenance, но не валидирует семантику этих JSON и не включает файл автоматически в `context.inputs`. Передать нужный artifact ID/path исполнителю явно, прочитать его из хранилища; ранняя research note также не является транзитивным input packaging. Не менять завершённый research ради добавления поздних результатов A/B.
+
+Локальные диагностические previews создаёт существующий helper, например для long master:
+
+```bash
+uv run python automation/helpers/youtube-thumbnails/scripts/thumbnail_previews.py thumbnail.png --out thumbnail-qa --widths 320 --crops
+```
+
+Он сохраняет уменьшение и manifest исходного файла; не рисует duration overlay, не проверяет надпись автоматически и не моделирует CTR. Наложение элементов интерфейса и actual surface проверять отдельно. Для канальных размеров/crops использовать профиль.
 
 ## Проверки media и review
 

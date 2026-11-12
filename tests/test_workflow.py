@@ -120,6 +120,20 @@ class WorkflowContract(unittest.TestCase):
         self.assertEqual(self.service.context(self.run_id, "research")["output_kind"], "research")
         self.assertIn("ytv-write-script", self.run["skills"])
 
+    def test_task_context_returns_relevant_standards(self):
+        expected = {
+            "research": {"docs/standards/editorial.md", "docs/standards/thumbnails.md"},
+            "script": {"docs/standards/editorial.md", "docs/standards/thumbnails.md"},
+            "packaging": {"docs/standards/release.md", "docs/standards/thumbnails.md"},
+            "review": {"docs/standards/delivery.md", "docs/standards/editorial.md",
+                       "docs/standards/thumbnails.md"},
+        }
+        for task_id, references in expected.items():
+            with self.subTest(task=task_id):
+                self.assertEqual(set(self.service.context(self.run_id, task_id)["references"]), references)
+        self.assertNotIn("docs/standards/thumbnails.md",
+                         self.service.context(self.run_id, "storyboard")["references"])
+
     def test_request_deduplication_rejects_changed_intent(self):
         same = self.service.create("paper_detour", "software fixture", request_id=self.run["request_id"])
         self.assertEqual(same["id"], self.run_id)

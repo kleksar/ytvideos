@@ -7,7 +7,8 @@
 | Постановка, actual references, кадры, цельное движение | [visual](../docs/standards/visual.md) |
 | Речь/voice/speed, mix, музыка, word map/SRT/caption semantics | [audio](../docs/standards/audio.md) |
 | Рендер/геометрия/время/codec/QA exact MP4 | [delivery](../docs/standards/delivery.md) |
-| Упаковка, полный YouTube release, календарь, read-back, A/B | [release](../docs/standards/release.md) |
+| Концепции обложек, QA пары, дизайн эксперимента и выводы | [thumbnails](../docs/standards/thumbnails.md) |
+| Metadata, полный YouTube release, календарь, provider A/B и read-back | [release](../docs/standards/release.md) |
 | Artifacts/cache/retention/cleanup/TEXT_ONLY | [storage](../docs/standards/storage.md) |
 | State/leases/revisions/approval authority | [architecture](../docs/architecture.md) |
 | Session backend, capabilities и actual executor | [runtime](../docs/operations/runtime.md) |

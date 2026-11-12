@@ -40,6 +40,32 @@ REQUIRED_CHECKS = {
 }
 
 
+def task_references(task):
+    """Return canonical repository-relative standards relevant to a task."""
+    stage = task["stage"]
+    references = {
+        "research": ["docs/standards/editorial.md"],
+        "script": ["docs/standards/editorial.md"],
+        "storyboard": ["docs/standards/visual.md"],
+        "scene_image": ["docs/standards/visual.md"],
+        "audio": ["docs/standards/audio.md"],
+        "subtitles": ["docs/standards/audio.md", "docs/standards/delivery.md"],
+        "render": ["docs/standards/delivery.md"],
+        "review": ["docs/standards/delivery.md", "docs/standards/editorial.md"],
+        "packaging": ["docs/standards/release.md"],
+        "upload": ["docs/standards/release.md"],
+        "configure_release": ["docs/standards/release.md"],
+        "schedule": ["docs/standards/release.md"],
+        "verify_publication": ["docs/standards/release.md"],
+    }.get(stage, [])
+    if stage in {"research", "script", "packaging", "review", "upload",
+                 "configure_release", "schedule", "verify_publication"}:
+        references = [*references, "docs/standards/thumbnails.md"]
+    if stage == "scene_image" and task.get("payload", {}).get("purpose") == "thumbnail":
+        references = [*references, "docs/standards/thumbnails.md"]
+    return references
+
+
 def new_tasks():
     return {stage: make_task(stage, stage, deps, gates, capabilities, skill)
             for stage, (deps, gates, capabilities, skill) in STAGES.items()}
