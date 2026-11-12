@@ -1,0 +1,298 @@
+{
+  "run_id": "221f8139-f927-4519-89bd-4312399e9aa8",
+  "status": "working",
+  "budget": {
+    "max_editorial_passes": 2,
+    "max_paid_units": 0,
+    "max_task_attempts": 3,
+    "reserved": 0,
+    "spent": 0,
+    "unknown_reserved": 0
+  },
+  "pins": {
+    "code": "825e2334db40c9804378b21f662babb9a1704ff82ef6c9443e15c0efb8832807",
+    "profile": "00d2e1e4f6c165f0659e37598ac8e1a5404fab089f14573feb5db9036ec93440",
+    "skills": "9dae0d68b295b82a6365976fc5c96160be22733db8a64581e9e2038b8249001d",
+    "workflow": "1"
+  },
+  "tasks": {
+    "audio": {
+      "stage": "audio",
+      "status": "pending",
+      "dependencies": [
+        "script"
+      ],
+      "capabilities": [
+        "audio.produce"
+      ],
+      "outputs": []
+    },
+    "configure_release": {
+      "stage": "configure_release",
+      "status": "pending",
+      "dependencies": [
+        "upload",
+        "packaging"
+      ],
+      "capabilities": [
+        "youtube.configure"
+      ],
+      "outputs": []
+    },
+    "packaging": {
+      "stage": "packaging",
+      "status": "complete",
+      "dependencies": [
+        "script"
+      ],
+      "capabilities": [
+        "model.text"
+      ],
+      "outputs": [
+        "release_spec:sha256:db90ca11a93186818bbb6c5771826edf9a24e894a280707eb7e10684127d144f"
+      ]
+    },
+    "render": {
+      "stage": "render",
+      "status": "pending",
+      "dependencies": [
+        "storyboard",
+        "audio",
+        "subtitles"
+      ],
+      "capabilities": [
+        "video.render"
+      ],
+      "outputs": []
+    },
+    "research": {
+      "stage": "research",
+      "status": "complete",
+      "dependencies": [],
+      "capabilities": [
+        "web.search"
+      ],
+      "outputs": [
+        "research:sha256:322b3fb263ba32edfd75f8e67ff9dc7188e1bf69e8a80dde938a9c021523a8d1"
+      ]
+    },
+    "review": {
+      "stage": "review",
+      "status": "pending",
+      "dependencies": [
+        "render"
+      ],
+      "capabilities": [
+        "video.inspect",
+        "model.vision"
+      ],
+      "outputs": []
+    },
+    "schedule": {
+      "stage": "schedule",
+      "status": "pending",
+      "dependencies": [
+        "configure_release"
+      ],
+      "capabilities": [
+        "youtube.schedule"
+      ],
+      "outputs": []
+    },
+    "script": {
+      "stage": "script",
+      "status": "complete",
+      "dependencies": [
+        "research"
+      ],
+      "capabilities": [
+        "model.text"
+      ],
+      "outputs": [
+        "script:sha256:f22a81c257e6155ae1b4ae528d89c37900b2e66e1f78e375ec9989d0d49f0ee3"
+      ]
+    },
+    "storyboard": {
+      "stage": "storyboard",
+      "status": "pending",
+      "dependencies": [
+        "script"
+      ],
+      "capabilities": [
+        "model.text"
+      ],
+      "outputs": []
+    },
+    "subtitles": {
+      "stage": "subtitles",
+      "status": "pending",
+      "dependencies": [
+        "audio"
+      ],
+      "capabilities": [
+        "subtitle.align"
+      ],
+      "outputs": []
+    },
+    "thumbnail:intro-bread": {
+      "stage": "scene_image",
+      "status": "pending",
+      "dependencies": [
+        "packaging"
+      ],
+      "capabilities": [
+        "image.generate"
+      ],
+      "outputs": []
+    },
+    "thumbnail:reversal": {
+      "stage": "scene_image",
+      "status": "pending",
+      "dependencies": [
+        "packaging"
+      ],
+      "capabilities": [
+        "image.generate"
+      ],
+      "outputs": []
+    },
+    "thumbnail:shortfall": {
+      "stage": "scene_image",
+      "status": "pending",
+      "dependencies": [
+        "packaging"
+      ],
+      "capabilities": [
+        "image.generate"
+      ],
+      "outputs": []
+    },
+    "upload": {
+      "stage": "upload",
+      "status": "pending",
+      "dependencies": [
+        "review",
+        "packaging",
+        "thumbnail:intro-bread",
+        "thumbnail:shortfall",
+        "thumbnail:reversal"
+      ],
+      "capabilities": [
+        "youtube.upload"
+      ],
+      "outputs": []
+    },
+    "verify_publication": {
+      "stage": "verify_publication",
+      "status": "pending",
+      "dependencies": [
+        "schedule"
+      ],
+      "capabilities": [
+        "youtube.read"
+      ],
+      "outputs": []
+    }
+  },
+  "observed_events": [
+    {
+      "kind": "run.created",
+      "created_at": "2026-11-12T22:19:58.961542+00:00"
+    },
+    {
+      "kind": "task.claimed",
+      "created_at": "2026-11-12T22:19:58.971847+00:00",
+      "task_id": "research"
+    },
+    {
+      "kind": "task.completed",
+      "created_at": "2026-11-12T22:19:58.985387+00:00",
+      "task_id": "research",
+      "actual_units": 0,
+      "artifact_id": "research:sha256:322b3fb263ba32edfd75f8e67ff9dc7188e1bf69e8a80dde938a9c021523a8d1",
+      "artifact_sha256": "322b3fb263ba32edfd75f8e67ff9dc7188e1bf69e8a80dde938a9c021523a8d1"
+    },
+    {
+      "kind": "task.claimed",
+      "created_at": "2026-11-12T22:19:58.994390+00:00",
+      "task_id": "script"
+    },
+    {
+      "kind": "task.completed",
+      "created_at": "2026-11-12T22:19:59.006794+00:00",
+      "task_id": "script",
+      "actual_units": 0,
+      "artifact_id": "script:sha256:f22a81c257e6155ae1b4ae528d89c37900b2e66e1f78e375ec9989d0d49f0ee3",
+      "artifact_sha256": "f22a81c257e6155ae1b4ae528d89c37900b2e66e1f78e375ec9989d0d49f0ee3"
+    },
+    {
+      "kind": "user.approved",
+      "created_at": "2026-11-12T22:19:59.015969+00:00"
+    },
+    {
+      "kind": "task.claimed",
+      "created_at": "2026-11-12T22:19:59.024206+00:00",
+      "task_id": "packaging"
+    },
+    {
+      "kind": "task.completed",
+      "created_at": "2026-11-12T22:22:28.352880+00:00",
+      "task_id": "packaging",
+      "actual_units": 0,
+      "artifact_id": "release_spec:sha256:db90ca11a93186818bbb6c5771826edf9a24e894a280707eb7e10684127d144f",
+      "artifact_sha256": "db90ca11a93186818bbb6c5771826edf9a24e894a280707eb7e10684127d144f"
+    },
+    {
+      "kind": "thumbnail.planned",
+      "created_at": "2026-11-12T22:22:35.524822+00:00",
+      "task_id": "thumbnail:intro-bread",
+      "brief": {
+        "id": "intro-bread",
+        "prompt": "Create a finished 16:9 handmade paper and card diorama thumbnail, full frame, no border. A London laborer’s rough hands set down one small loaf beside a tiny candle and a folded scrap of linen; a long paper strip of 250 punched wage marks ends before a much longer 333-mark strip, making the shortfall visually legible without extra numerals. One large paper coin balances at the gap. Bold rounded slightly irregular dimensional cut-paper lettering reads exactly “THE YEARLY BILL”. Warm candlelight on the bread, deep slate-blue shadow behind, tactile fibers, layered cut edges, physical contact shadows, strong simple silhouette, rich but controlled detail. Aim attention from the loaf to the coin and the visibly incomplete wage strip. No photoreal people, no modern objects, no extra text, no fake archival look.",
+        "purpose": "thumbnail",
+        "visual_intent": "Intro object/action: bread, fuel/light and a basic necessity bill meet a finite wage strip. At thumbnail scale the loaf, coin and unfinished strip must read before details; the large phrase supplies the yearly-bill frame, while the title asks the wage-days question."
+      }
+    },
+    {
+      "kind": "thumbnail.planned",
+      "created_at": "2026-11-12T22:22:35.583360+00:00",
+      "task_id": "thumbnail:shortfall",
+      "brief": {
+        "id": "shortfall",
+        "prompt": "Create a finished 16:9 full-frame handmade paper/card diorama thumbnail. A single worker in period-appropriate plain clothing stands beside a waist-high paper wall made from three full sections and one clearly missing section; a small wage coin cannot bridge the final gap to a loaf and candle on the other side. Large dimensional rounded cut-paper words read exactly “333 DAYS?” The composition must make the question and shortfall instantly clear: face and extended hand point toward the missing section; a narrow beam of warm light catches the bread while the worker remains readable. Layered paper fibers, torn edges, physical shadows, restrained ochre and midnight blue, no extra text, no modern props, no photographic realism.",
+        "purpose": "thumbnail",
+        "visual_intent": "A model-implied wage-day shortfall before the Black Death: the annual earnings cover about three quarters of the reconstructed basic-needs basket, requiring roughly 333 modeled wage-days against an assumed 250. At small size, the incomplete wall, coin and essentials must stay distinct; the title supplies the household-basics context."
+      }
+    },
+    {
+      "kind": "thumbnail.planned",
+      "created_at": "2026-11-12T22:22:35.641611+00:00",
+      "task_id": "thumbnail:reversal",
+      "brief": {
+        "id": "reversal",
+        "prompt": "Create a finished 16:9 full-frame handmade paper diorama thumbnail. Two large paper stairways rise side by side: the wage stair has two clear levels, the price stair nearly three, and a tiny worker on the lower foreground watches a familiar loaf become harder to reach as the steps grow. Add one prominent silver coin on the wage stair and a paper price tag on the higher stair; no readable numbers. Bold dimensional rounded cut-paper lettering reads exactly “PAY ROSE. SO DID PRICES.” Direct attention from coin to higher price stair with a strong diagonal fold and warm light; keep the two unequal rises unmistakable at phone size. Handmade layered card, visible fibers and cut edges, tactile shadow, limited amber/blue palette, no extra text, no modern items, no photographic look.",
+        "purpose": "thumbnail",
+        "visual_intent": "The reversal in the script: between the selected London periods, nominal silver wages rise a little over twice while the CPI rises nearly three times, and modeled basket cost increases from 176 to 216 wage-days. At reduced size the unequal stair heights and loaf must read; title makes the reversal explicit."
+      }
+    },
+    {
+      "kind": "artifact.attached",
+      "created_at": "2026-11-12T22:22:49.339461+00:00"
+    },
+    {
+      "kind": "artifact.attached",
+      "created_at": "2026-11-12T22:22:49.439169+00:00"
+    },
+    {
+      "kind": "artifact.attached",
+      "created_at": "2026-11-12T22:22:49.505672+00:00"
+    },
+    {
+      "kind": "artifact.attached",
+      "created_at": "2026-11-12T22:22:49.588498+00:00"
+    }
+  ],
+  "source": "read from isolated SQLite after worker completed",
+  "test_only_script_approval": true,
+  "live_media_operations": 0
+}
