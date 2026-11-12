@@ -44,7 +44,7 @@ Claim возвращает `token`, `worker`, `input_hash`, `expires_at`, `estim
 
 Старый run без snapshot использует проверенный исходный code pin и `reference_source=legacy_checkout`; это не утверждение о сохранённом историческом тексте. Не переписывать его pin ради запуска в новой версии.
 
-Image pool передаёт тот же manifest. Native host проверяет пути, полноту и hashes, затем создаёт документы в `requirements/<repo path>` внутри рабочего каталога; `TASK.json.requirements` перечисляет доступные файлы. Sandbox не расширяется. Обычная сцена не получает thumbnail-only playbook, а обложка получает стандарт обложек. Для Shorts storyboard/audio/render также получают editorial loop standard.
+Image pool передаёт тот же manifest. Native host проверяет пути, полноту и hashes, затем создаёт документы в `requirements/<repo path>` внутри рабочего каталога. В локальном `TASK.json` вместо повторных полных текстов `reference_documents` находятся `requirements` (список файлов) и `reference_manifest` (`path`, `sha256`, `local_path`); исходный packet сохраняется без изменений. Sandbox не расширяется. Обычная сцена не получает thumbnail-only playbook, а обложка получает стандарт обложек. Для Shorts storyboard/audio/render также получают editorial loop standard.
 
 
 ## Outputs

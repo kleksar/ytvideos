@@ -142,6 +142,41 @@ class WorkflowContract(unittest.TestCase):
         with self.assertRaises(Conflict):
             self.service.create("paper_detour", "changed intent", request_id=self.run["request_id"])
 
+    def test_repeated_create_uses_saved_run_after_a_required_recipe_is_removed(self):
+        project = self.directory / "retry-project"
+        entries = []
+        for name, skill in self.run["skills"].items():
+            path = project / skill["path"]
+            path.parent.mkdir(parents=True, exist_ok=True)
+            path.write_text(skill["text"])
+            entries.append({"name": name, "path": skill["path"]})
+        for document in self.run["reference_snapshot"]["documents"].values():
+            path = project / document["path"]
+            path.parent.mkdir(parents=True, exist_ok=True)
+            path.write_text(document["text"])
+        (project / ".agent").mkdir(exist_ok=True)
+        (project / ".agent/skill-catalog.json").write_text(json.dumps({"skills": entries}))
+        recipe = project / "docs/retry-recipe.md"
+        recipe.write_text("The accepted recipe must survive request redelivery.")
+        profile = {**self.run["profile"], "context_references": [
+            *self.run["profile"].get("context_references", []),
+            {"path": "docs/retry-recipe.md", "stages": ["render"]}]}
+        (project / "channels/paper_detour/channel.json").write_text(json.dumps(profile))
+        service = Production(self.store, self.directory / "retry-workspace", project)
+        request_id = "retry-" + uuid.uuid4().hex
+        original = service.create("paper_detour", "repeat this request", request_id=request_id)
+        context = service.context(original["id"], "render")
+        recipe.unlink()
+        self.assertEqual(context, service.context(original["id"], "render"))
+        self.assertEqual(original, service.create("paper_detour", "repeat this request", request_id=request_id))
+        for changes in ({"channel": "nonexistent_channel"}, {"intent": "different request"}, {"format": "long"}):
+            with self.subTest(changes=changes), self.assertRaises(Conflict):
+                service.create(**{"channel": "paper_detour", "intent": "repeat this request",
+                                  "request_id": request_id, **changes})
+        self.assertEqual(len([run for run in self.store.list() if run["request_id"] == request_id]), 1)
+        self.assertEqual(len([event for event in self.store.events(original["id"])
+                              if event["kind"] == "run.created"]), 1)
+
     def test_new_channel_uses_same_graph_without_code_edits(self):
         profile_dir = self.directory / "profiles" / "channel_ten"
         profile_dir.mkdir(parents=True)

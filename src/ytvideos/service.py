@@ -49,8 +49,17 @@ class Production:
         require_text(intent, "intent")
         if format not in {"short", "long"}:
             raise WorkflowError("format must be short or long")
-        profile = load_profile(profiles or self.project / "channels", channel)
         request_id = request_id or str(uuid.uuid4())
+        # Redelivery reads the saved run, not requirements from a later checkout.
+        # Keep the transactional check below for concurrent first deliveries.
+        with self.store.transaction() as tx:
+            old = tx.execute("SELECT doc FROM runs WHERE request_id=?", (request_id,)).fetchone()
+            if old:
+                prior = json.loads(old[0])
+                if (prior["channel"], prior["intent"], prior["format"]) != (channel, intent, format):
+                    raise Conflict("request_id already belongs to another request")
+                return prior
+        profile = load_profile(profiles or self.project / "channels", channel)
         catalog = json.loads((self.project / ".agent" / "skill-catalog.json").read_text())
         skills = {entry["name"]: {"path": entry["path"], "text": (self.project / entry["path"]).read_text()}
                   for entry in catalog["skills"]}

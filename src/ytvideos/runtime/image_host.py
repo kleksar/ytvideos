@@ -117,6 +117,7 @@ class ImageHost:
                 context["local_inputs"].append({"artifact_id": artifact["id"], "path": name,
                                                 "sha256": artifact["sha256"]})
             context["requirements"] = []
+            context["reference_manifest"] = []
             for document in documents:
                 name = "requirements/" + document["path"]
                 destination = staging / name
@@ -124,6 +125,11 @@ class ImageHost:
                 destination.write_bytes(document["text"].encode("utf-8"))
                 files[name] = document["sha256"]
                 context["requirements"].append(name)
+                context["reference_manifest"].append({"path": document["path"], "sha256": document["sha256"],
+                                                      "local_path": name})
+            # The immutable packet keeps the texts; the worker reads each local
+            # requirement once instead of receiving a second copy in TASK.json.
+            del context["reference_documents"]
             (staging / "TASK.json").write_text(canonical(context) + "\n")
             (staging / "SKILL.md").write_text(context["skill"]["text"])
             for name in ("TASK.json", "SKILL.md"):

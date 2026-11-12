@@ -41,17 +41,49 @@
         "review"
       ],
       "formats": [
+        "short",
+        "long"
+      ]
+    },
+    {
+      "path": "channels/scenes_on_repeat/docs/MEME_SHORTS.md",
+      "stages": [
+        "research",
+        "script",
+        "storyboard",
+        "audio",
+        "subtitles",
+        "render",
+        "review",
+        "packaging"
+      ],
+      "formats": [
         "short"
+      ]
+    },
+    {
+      "path": "channels/scenes_on_repeat/docs/LONG_CAPTIONS.md",
+      "stages": [
+        "storyboard",
+        "subtitles",
+        "render",
+        "review"
+      ],
+      "formats": [
+        "long"
       ]
     },
     {
       "path": "channels/scenes_on_repeat/docs/LONG_COMPILATIONS.md",
       "stages": [
+        "research",
+        "script",
         "storyboard",
         "audio",
         "subtitles",
         "render",
-        "review"
+        "review",
+        "packaging"
       ],
       "formats": [
         "long"

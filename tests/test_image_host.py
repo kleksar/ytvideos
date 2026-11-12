@@ -140,6 +140,13 @@ class ImageHostTests(unittest.TestCase):
         self.assertEqual((directory / path).read_text(), "Synthetic requirement: docs/standards/thumbnails.md\n")
         self.assertEqual(job["inputs"][path], file_digest(directory / path))
         self.assertEqual(set(packet["requirements"]), {"requirements/" + path for path in packet["references"]})
+        self.assertNotIn("reference_documents", packet)
+        self.assertEqual({item["local_path"] for item in packet["reference_manifest"]}, set(packet["requirements"]))
+        for item in packet["reference_manifest"]:
+            self.assertEqual(item["local_path"], "requirements/" + item["path"])
+            self.assertEqual(item["sha256"], file_digest(directory / item["local_path"]))
+        original = self.store.get(run_id)["pool"]["backend"]["requests"][job["id"]]["packet"]["context"]
+        self.assertIn("reference_documents", original)
 
     def test_regular_scene_worker_does_not_receive_thumbnail_playbook(self):
         _, job = self.first_dispatch(count=1)

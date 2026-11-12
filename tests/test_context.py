@@ -1,12 +1,34 @@
 """Regression cases for missing channel recipes and isolated worker requirements."""
 
 import json
+from pathlib import Path
 import unittest
 
 import test_pool_service as fixtures
+from ytvideos.context import snapshot_references
 from ytvideos.errors import Conflict, WorkflowError
 from ytvideos.service import Production
 from ytvideos.store import Store
+
+
+class ConfiguredRecipeTests(unittest.TestCase):
+    def test_scenes_packets_include_each_supported_recipe_and_its_required_captions(self):
+        root = Path(__file__).resolve().parents[1]
+        profile = json.loads((root / "channels/scenes_on_repeat/channel.json").read_text())
+        prefix = "channels/scenes_on_repeat/docs/"
+        short = snapshot_references(root, profile, "short")
+        for stage in ("research", "script", "storyboard", "audio", "subtitles", "render", "review", "packaging"):
+            with self.subTest(format="short", stage=stage):
+                self.assertIn(prefix + "MEME_SHORTS.md", short["routes"][stage])
+                self.assertNotIn(prefix + "LONG_CAPTIONS.md", short["routes"][stage])
+        self.assertIn(prefix + "EDIT_NOTES.md", short["routes"]["render"])
+        long = snapshot_references(root, profile, "long")
+        for stage in ("subtitles", "render", "review"):
+            with self.subTest(format="long", stage=stage):
+                for name in ("LONG_COMPILATIONS.md", "LONG_CAPTIONS.md", "EDIT_NOTES.md"):
+                    self.assertIn(prefix + name, long["routes"][stage])
+                    self.assertTrue(long["documents"][prefix + name]["text"])
+                self.assertNotIn(prefix + "MEME_SHORTS.md", long["routes"][stage])
 
 
 class TaskContextTests(unittest.TestCase):
