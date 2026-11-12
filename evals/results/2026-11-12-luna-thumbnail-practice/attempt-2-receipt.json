@@ -1,0 +1,56 @@
+{
+  "run_id": "3ca5d2df-5a52-43d4-9580-4b66cd12777d",
+  "task_id": "packaging",
+  "input_hash": "5afab711b3526a5076d01be367c6a81af0556b7d2018a6f92be679e5bc48b457",
+  "output_sha256": "78f63e4fb8eda6040dd36b0b50be1ccd1b672738669361793372a13c2ab85505",
+  "worker": "codex-packaging-v1",
+  "checks": [
+    {
+      "name": "metadata",
+      "status": "pass",
+      "method": "ReleaseSpec.from_dict validation plus exact script/topic/profile comparison",
+      "observed": {
+        "title_chars": 44,
+        "description_utf8_bytes": 981,
+        "tag_count": 11,
+        "tag_limit_characters": 205,
+        "channel_id": "UCMVfdfaNxV3ZkI3_J3Eejzw",
+        "language": "en",
+        "category_id": "27",
+        "description_includes_reconstruction_limits": true
+      }
+    },
+    {
+      "name": "promise_matches_script",
+      "status": "pass",
+      "method": "Compared selected title and description claims with exact script opening, climax, resolution, and scope note",
+      "observed": {
+        "opening_support": "The script states about 333 wage-days and 250 assumed paid days, with a shortfall.",
+        "reversal_support": "The script compares about 176 and 216 wage-days and explains prices outpacing pay.",
+        "resolution_support": "The script states approximately 116 wage-days for 1850–1899 and limits conclusions about remainder.",
+        "unsupported_current_or_universal_claims": false
+      }
+    },
+    {
+      "name": "thumbnail_plan",
+      "status": "pass",
+      "method": "Reviewed three complete pair briefs and supporting comparison note against the exact script and Paper thumbnail standards",
+      "observed": {
+        "concept_ids": [
+          "A",
+          "B",
+          "C"
+        ],
+        "distinct_format_ids": [
+          "PD-HOOK-01",
+          "PD-TRANSFORM-01",
+          "PD-THRESHOLD-01"
+        ],
+        "each_has_audience_promise_genre_first_confirmation_separate_payoff_and_misreading": true,
+        "selected_pair": "A",
+        "image_generation_capability": false,
+        "actual_images_or_visual_qa_claimed": false
+      }
+    }
+  ]
+}
