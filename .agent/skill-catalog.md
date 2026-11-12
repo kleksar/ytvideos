@@ -5,9 +5,9 @@
 | Навык | Применение |
 |---|---|
 | [ytv-start](../.agents/skills/ytv-start/SKILL.md) | Новый выпуск, продолжение, выбор scope и канала |
-| [ytv-write-script](../.agents/skills/ytv-write-script/SKILL.md) | Research → причинный сценарий; заметка verified thumbnail promise/payoff; петля Shorts |
-| [ytv-produce-video](../.agents/skills/ytv-produce-video/SKILL.md) | Раскадровка, сцены, звук, субтитры, MP4; упаковка параллельно после script approval |
-| [ytv-review-video](../.agents/skills/ytv-review-video/SKILL.md) | Exact MP4 QA; условный независимый thumbnail QA готовой упаковки; пользовательский gate |
-| [ytv-release-video](../.agents/skills/ytv-release-video/SKILL.md) | Shortlist упаковки, release, отдельный readback плана/setup/result эксперимента |
+| [ytv-write-script](../.agents/skills/ytv-write-script/SKILL.md) | Research → причинный сценарий; thumbnail promise/жанр/начало/payoff; петля Shorts |
+| [ytv-produce-video](../.agents/skills/ytv-produce-video/SKILL.md) | Раскадровка, AI-изображения, звук, субтитры, MP4; упаковка параллельно после script approval |
+| [ytv-review-video](../.agents/skills/ytv-review-video/SKILL.md) | Exact MP4 QA; готовая карточка/жанр/первое подтверждение; пользовательский gate |
+| [ytv-release-video](../.agents/skills/ytv-release-video/SKILL.md) | Опытные приёмы, AI-обложки и QA карточки; release и readback плана/setup/result |
 | [ytv-operate](../.agents/skills/ytv-operate/SKILL.md) | Resume, blockers, UNKNOWN, caps, budget, cleanup и evidence-based experiment readback |
 | [ytv-maintain](../.agents/skills/ytv-maintain/SKILL.md) | Код, профили, правила, skills и проверка изменений |

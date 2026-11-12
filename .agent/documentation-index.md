@@ -7,7 +7,7 @@
 | Постановка, actual references, кадры, цельное движение | [visual](../docs/standards/visual.md) |
 | Речь/voice/speed, mix, музыка, word map/SRT/caption semantics | [audio](../docs/standards/audio.md) |
 | Рендер/геометрия/время/codec/QA exact MP4 | [delivery](../docs/standards/delivery.md) |
-| Концепции обложек, QA пары, дизайн эксперимента и выводы | [thumbnails](../docs/standards/thumbnails.md) |
+| Приёмы обложек, AI production, карточка/начало/payoff, QA и эксперименты | [thumbnails](../docs/standards/thumbnails.md) |
 | Metadata, полный YouTube release, календарь, provider A/B и read-back | [release](../docs/standards/release.md) |
 | Artifacts/cache/retention/cleanup/TEXT_ONLY | [storage](../docs/standards/storage.md) |
 | State/leases/revisions/approval authority | [architecture](../docs/architecture.md) |
@@ -19,3 +19,5 @@
 | Выбор skill по task | [manifest](skill-catalog.json) и [каталог](skill-catalog.md) |
 
 Code/schema — источник машинной валидации. Документ не превращает неподдержанную capability в действующий tool. Фактические архивы и receipts сохраняют историю, но не являются вторыми инструкциями для новых runs.
+
+Основания для thumbnail standard: [научные и платформенные источники](../docs/research/thumbnail-evidence.md), [опыт практика с таймкодами](../docs/research/thumbnail-practitioner-notes.md). Второй источник помогает выбрать рабочий приём до накопления собственных результатов.

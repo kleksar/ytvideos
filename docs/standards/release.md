@@ -14,6 +14,8 @@
 
 После готового packaging добавить обложки через `add-thumbnail-task --run RUN_ID --brief FILE`; brief содержит `id`, `prompt`, `visual_intent`. `thumbnail:<id>` использует общий image pool и зависит от packaging/script approval, не от storyboard/render. Принятые thumbnail tasks нужны до upload, но не задерживают MP4 review. После QA реальных файлов дополнить финальный release spec их точными hashes и передать bytes в `prepare-release`; initial packaging не означает готовность к публикации.
 
+Применять опытные приёмы, обязательную AI-генерацию и проверку всей карточки по [thumbnails](thumbnails.md#рабочие-приёмы). Связать готовую пару с жанром, первым подтверждением и payoff exact MP4 до финального release; если упаковка готова позже review, эту сверку завершает release. QA evidence и `format_id` хранить в supporting artifacts; в существующий image brief переносить нужный смысл через `prompt`/`visual_intent`, не расширять строгую схему.
+
 Название обещает событие/вопрос ролика, ясно начинается и дополняет обложку. Проверять фактические desktop/phone поверхности; DOM accessible name не доказывает, что карточка не обрезает текст. Ограничения платформы сверять по актуальной схеме: на 10.11.2026 title до 100 символов, description до 5000 UTF-8 bytes; `<`/`>` в этих полях не использовать. Не путать bytes и количество букв.
 
 Длинное описание строится в порядке: самостоятельный текст о фильме → проверенные главы → релевантные hashtags. Обязательные credits/disclosures сохраняются. Исследовательская библиография остаётся внутренней по [editorial](editorial.md). Не менять защищённые блоки при узкой правке другого поля.
