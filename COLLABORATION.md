@@ -1,23 +1,19 @@
 # Совместная работа
 
-Общий процесс — [workflow](docs/workflow.md), правила изменения проекта — [development](docs/development.md). Один MR может содержать несколько небольших проверенных этапов; отдельные сессии работают по независимым заданиям и общей версии исходников.
+Один run имеет координатора; task lease назначает исполнителя конкретного входа и revision. Независимые workers получают самодостаточный context packet и возвращают artifacts/evidence. Общая версия исходников не требует общей изменяемой рабочей директории: для разработки использовать отдельные worktrees, для production — согласованные store и доступные artifact URI.
 
-## Владение
+## Владение результатом
 
-Один run имеет координатора; task lease назначает исполнителя конкретного входа/revision. Не перезаписывать результат параллельной работы и не менять shared inputs активного выпуска без [migration](docs/migration.md). Независимые workers получают минимальный context packet и возвращают artifacts/evidence; личные черновики и чужие chats не являются рабочим материалом.
+Не перезаписывать результат другой сессии и не менять shared inputs активного выпуска без [migration](docs/migration.md). Новая задача в переиспользованном slot требует подтверждённого reset контекста. Author self-review не превращается в independent review при смене названия роли.
 
-Paper Detour — default нового запроса без канала. Nuviko History активен. Stories остаётся ручным архивом вне автоматической очереди. Scenes on Repeat — отдельный английский киноканал. Русскоязычный «Нувико» жизненных историй ведёт коллега; он отделён от архива Stories RU/EN и History. Для него нужны собственные verified profile/owner/rights/calendar, без наследования архива по имени.
+Состояние выпуска брать из store, scope — из поручения пользователя, требования — из закреплённого task context. Статусы и различия продуктов описаны в [каналах](channels/README.md); похожее название не разрешает наследовать чужую identity, голос или права.
 
-Ранее переданы непривязанные voice IDs: мужской `ZEchI3lWet1JsdNubYRY`, женский `nkvv6waLzFah2jTNUZGT`. Их provider/account/channel/language не подтверждены. Не назначать их автоматически и не менять действующие голоса.
+## Сохранение и передача
 
-## Что сохранять
+В Git сохранять код, profiles, skills, небольшие тексты, лицензии и receipts; media/credentials остаются в runtime storage по [storage](docs/standards/storage.md). Импортированный media path сохранять до verified relink. Source-only checkout не доказывает доступность фильма, а hash без доступных bytes не заменяет артефакт.
 
-Git: код, schemas, profiles, rules/skills, небольшие сценарии/исследования/manifests, лицензии и receipts в разрешённой области доступа. Media/cache/models/venv и credentials остаются в выбранном runtime storage. Не коммитить API keys, OAuth tokens, private signing key, `.env`, personal chat exports или монтажные сессии. Public video IDs/URLs и hashes не заменяют secret credentials.
+При передаче назвать run/task/revision, доступные artifacts, точную выполненную проверку, blocker и следующий готовый шаг. Полный chat dump не является рабочим packet и не коммитится. Не просить повторно уже сохранённое одобрение; при неизвестном provider outcome продолжать reconciliation существующей операции.
 
-Импортированный media path сохранять до verified relink. Source-only checkout не гарантирует наличие рабочего фильма. Retention/cleanup — [storage](docs/standards/storage.md). Общие brand assets и зависимости других runs не удалять как временные файлы.
+## Git и MR
 
-## Ветка и MR
-
-Проверить актуальный main и локальные изменения, создать feature branch, делать тематические commits с точными путями. Перед публикацией прочитать diff и результаты tests. Отправить только свою ветку и открыть MR в main; после review выполнить согласованный merge. Пользовательское поручение на этот рефакторинг разрешает подготовку и публикацию одного MR, не live выпуск видео.
-
-Приватный Git remote: `git@github.com:kleksar/ytvideos.git`. Доступ коллег, protection и production infrastructure настраиваются отдельно; не подменять отсутствие credentials новым внешним сервисом или публикацией конфиденциальных материалов.
+Единый порядок веток, сохранения, раннего draft PR и синхронизации — [development](docs/development.md#git-и-совместная-работа). Один MR может объединять несколько тематических проверенных commits; каждый участник меняет согласованные файлы. Поручение подготовить MR не разрешает live выпуск видео или изменение production infrastructure.

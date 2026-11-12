@@ -2,7 +2,7 @@
 
 Все команды возвращают JSON. Синтаксис текущей версии — `uv run python -m ytvideos --help`. Один workspace/store используют все связанные сессии. Ниже placeholders заменяются фактическими значениями из ответа CLI, не выдумываются.
 
-Разделы: [запуск](#новый-сценарный-run), [outputs](#outputs), [источники и обложки](#источники-и-обложки), [media checks](#проверки-media-и-review), [receipt](#receipt), [approval/recovery](#approval-и-продолжение), [adapters и release](#media-изображения-release).
+Разделы: [запуск](#новый-сценарный-run), [контекст](#требования-в-контексте), [outputs](#outputs), [источники и обложки](#источники-и-обложки), [media checks](#проверки-media-и-review), [receipt](#receipt), [approval/recovery](#approval-и-продолжение), [adapters и release](#media-изображения-release).
 
 ## Новый сценарный run
 
@@ -24,7 +24,28 @@ uv run python -m ytvideos claim --run RUN_ID --task research --worker WORKER_ID
 
 Claim возвращает `token`, `worker`, `input_hash`, `expires_at`, `estimated_units`, `claimed_at`. Сохранить JSON-ответ и брать точные token/input_hash из него программно, не перепечатывать идентификаторы вручную; использовать stable реальную идентичность исполнителя. При `stale or missing task lease` сначала сверить task/status и точное значение с текущим claim: опечатка не означает истёкшую lease. Долгую задачу продлевать `heartbeat --run RUN_ID --task TASK_ID --token TOKEN`; lease не даёт право изменить scope.
 
-`context.references` — пути стандартов относительно корня pinned checkout; прочитать их вместе с выданным skill и профилем канала. Тот же список передаётся image-pool worker в dispatch context. Для `scene_image` thumbnail standard включается только при `payload.purpose: thumbnail`; обычная сцена сохраняет свой visual contract. Список ссылок не содержит тексты стандартов и не меняет граф зависимостей.
+## Требования в контексте
+
+`context.references` — выбранные repo-relative пути; `reference_documents` — соответствующие `{path,sha256,text}`. Прочитать их содержимое вместе с выданным skill. Общие стандарты выбирает `src/ytvideos/context.py`, канальные документы — `ChannelSpec.context_references`. Фильтры `stages`, `formats`, `purposes` объединяются через AND; отсутствие фильтра означает все значения. `purposes` применим к `scene_image` (`scene` или `thumbnail`), на остальных этапах purpose отсутствует.
+
+Пример записи в ChannelSpec:
+
+```json
+{
+  "path": "channels/scenes_on_repeat/docs/EDIT_NOTES.md",
+  "stages": ["storyboard", "audio", "subtitles", "render", "review"],
+  "formats": ["short"]
+}
+```
+
+Путь относительно корня репозитория, без `..`, абсолютного пути и выхода через symlink. Явно объявленный документ обязателен: отсутствующий файл останавливает создание нового run с конкретной ошибкой. `PROFILE.md` добавляется при наличии; активные профили объявляют его явно, чтобы отсутствие не прошло незамеченным. Один документ можно указать с разными фильтрами; в packet он попадает один раз. Изображения-эталоны передаются как actual assets отдельно: Markdown с описанием не заменяет файл.
+
+При `create` один `reference_snapshot` сохраняет маршруты и тексты документов; его digest входит в `pins.references`. Task получает только нужную часть snapshot с `reference_source=pinned`. Изменение или удаление recipe в checkout не меняет закреплённые требования нового snapshot-run. Смена правил существующего выпуска требует [migration](../migration.md).
+
+Старый run без snapshot использует проверенный исходный code pin и `reference_source=legacy_checkout`; это не утверждение о сохранённом историческом тексте. Не переписывать его pin ради запуска в новой версии.
+
+Image pool передаёт тот же manifest. Native host проверяет пути, полноту и hashes, затем создаёт документы в `requirements/<repo path>` внутри рабочего каталога; `TASK.json.requirements` перечисляет доступные файлы. Sandbox не расширяется. Обычная сцена не получает thumbnail-only playbook, а обложка получает стандарт обложек. Для Shorts storyboard/audio/render также получают editorial loop standard.
+
 
 ## Outputs
 
@@ -47,7 +68,7 @@ Claim возвращает `token`, `worker`, `input_hash`, `expires_at`, `estim
 
 `storyboard` output — JSON `{"scenes":[{"id":"S001","prompt":"Самодостаточное задание","visual_intent":"Смысл кадра"}]}` с необходимыми реальными timing/references/continuity. Scene IDs уникальны; приложение создаёт `image:<scene-id>` tasks. Остальные типы — actual media/SRT/QA/release-spec/remote receipts по task context. Файл с удобным расширением не доказывает реальный медиаформат.
 
-`packaging` output — strict `ReleaseSpec` по `src/ytvideos/release.py`, без полей brief/plan/notes. На раннем этапе неизвестные optional `media_sha256`, `thumbnail_sha256` и `ab_variants` опустить, а не заполнять `null` или примерными значениями. `thumbnail_plan` — обязательное имя в `receipt.checks`, рядом с `promise_matches_script` и `metadata`; в observed привести реальную проверку концептов и ссылку на сохранённые briefs. После получения файлов финальный spec связывается через `prepare-release`, без повторного завершения packaging.
+`packaging` output — strict `ReleaseSpec` по `src/ytvideos/release.py`, без полей brief/plan/notes. `run_id`, `channel_id`, `revision` и `format` должны совпасть с текущим run; несоответствие отклоняется до создания зависимых обложек. На раннем этапе неизвестные optional `media_sha256`, `thumbnail_sha256` и `ab_variants` опустить, а не заполнять `null` или примерными значениями. `thumbnail_plan` — обязательное имя в `receipt.checks`, рядом с `promise_matches_script` и `metadata`; в observed привести реальную проверку концептов и ссылку на сохранённые briefs. После получения файлов финальный spec связывается через `prepare-release`, без повторного завершения packaging.
 
 ## Источники и обложки
 
@@ -70,7 +91,7 @@ uv run python -m ytvideos add-thumbnail-task --run RUN_ID --brief thumbnail-brie
 
 Приложение создаёт `thumbnail:main` со stage `scene_image` и `purpose: thumbnail`. Этот task идёт в общий image pool, зависит от packaging и не ждёт storyboard/render. Созданные обложки становятся зависимостями upload; точный принятый hash затем входит в release spec. Добавлять их до начала upload.
 
-Briefs, план сравнения и последующие наблюдения сохранять отдельными supporting artifacts. Например, после заполнения реальных файлов по [thumbnails](../standards/thumbnails.md#план-сравнения-и-ручная-фиксация):
+Briefs, план сравнения и последующие наблюдения сохранять отдельными supporting artifacts. Например, после заполнения реальных файлов по [thumbnail experiments](thumbnail-experiments.md#план-сравнения-и-ручная-фиксация):
 
 ```bash
 uv run python -m ytvideos attach-artifact --run RUN_ID --file thumbnail-brief.json --kind thumbnail_brief --source BRIEF_REFERENCE

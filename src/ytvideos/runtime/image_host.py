@@ -15,6 +15,7 @@ import shutil
 import tempfile
 import time
 
+from ..context import validate_documents
 from ..errors import Conflict, WorkflowError
 from ..pool_service import PoolService
 from ..service import Production
@@ -71,10 +72,19 @@ class ImageHost:
                 job.update(updated)
 
     def _materialize(self, run, request):
+        self.pools.validate_packet(run, request)
         packet = request["packet"]
         context = json.loads(canonical(packet["context"]))
         if digest(context) != packet["input_hash"]:
             raise WorkflowError("native packet hash does not match its content")
+        if "reference_documents" not in context:
+            # Older outbox packets predate document snapshots. Use only their
+            # verified pinned checkout, and label that boundary in TASK.json.
+            task = self.production._task(run, context["task_id"])
+            context.update(self.production._reference_context(run, task))
+        documents = validate_documents(context["references"], context["reference_documents"])
+        if f"channels/{run['channel']}/PROFILE.md" not in context["references"]:
+            raise WorkflowError("missing pinned production requirement: channel PROFILE.md")
         directory = self.root / digest({"run": run["id"], "operation": request["operation_id"]})
         if directory.exists():
             raise Conflict("worker directory already exists; inspect it instead of reusing another context")
@@ -106,13 +116,14 @@ class ImageHost:
                 files[name] = artifact["sha256"]
                 context["local_inputs"].append({"artifact_id": artifact["id"], "path": name,
                                                 "sha256": artifact["sha256"]})
-            for name, source in (("VISUAL.md", self.production.project / "docs/standards/visual.md"),
-                                 ("PROFILE.md", self.production.project / "channels" / run["channel"] / "PROFILE.md")):
-                if not source.is_file():
-                    raise WorkflowError(f"missing pinned production requirement: {name}")
-                shutil.copyfile(source, staging / name)
-                files[name] = file_digest(staging / name)
-            context["requirements"] = ["VISUAL.md", "PROFILE.md"]
+            context["requirements"] = []
+            for document in documents:
+                name = "requirements/" + document["path"]
+                destination = staging / name
+                destination.parent.mkdir(parents=True, exist_ok=True)
+                destination.write_bytes(document["text"].encode("utf-8"))
+                files[name] = document["sha256"]
+                context["requirements"].append(name)
             (staging / "TASK.json").write_text(canonical(context) + "\n")
             (staging / "SKILL.md").write_text(context["skill"]["text"])
             for name in ("TASK.json", "SKILL.md"):
@@ -226,7 +237,8 @@ class ImageHost:
             raise WorkflowError("worker directory is outside the configured host")
         for name, sha in job["inputs"].items():
             source = directory / name
-            if source.is_symlink() or not source.is_file() or file_digest(source) != sha:
+            if (source.is_symlink() or not source.resolve().is_relative_to(directory)
+                    or not source.is_file() or file_digest(source) != sha):
                 raise WorkflowError("worker modified a pinned input; result needs investigation")
         return directory
 

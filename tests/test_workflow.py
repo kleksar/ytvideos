@@ -130,7 +130,9 @@ class WorkflowContract(unittest.TestCase):
         }
         for task_id, references in expected.items():
             with self.subTest(task=task_id):
-                self.assertEqual(set(self.service.context(self.run_id, task_id)["references"]), references)
+                actual = self.service.context(self.run_id, task_id)["references"]
+                self.assertTrue(references.issubset(actual))
+                self.assertIn("channels/paper_detour/PROFILE.md", actual)
         self.assertNotIn("docs/standards/thumbnails.md",
                          self.service.context(self.run_id, "storyboard")["references"])
 
@@ -225,6 +227,26 @@ class WorkflowContract(unittest.TestCase):
         self.service.claim(self.run_id, "packaging", "package-worker")
         self.service.claim(self.run_id, "storyboard", "board-worker")
         self.assertEqual(self.store.get(self.run_id)["tasks"]["render"]["status"], "pending")
+
+    def test_packaging_rejects_another_format_before_asset_generation(self):
+        from test_release import payload
+        self.production_ready()
+        data = payload()
+        data.update(run_id=self.run_id, channel_id=self.run["profile"]["youtube_channel_id"])
+        with self.assertRaisesRegex(WorkflowError, "format"):
+            self.complete("packaging", data)
+        self.assertEqual(self.store.get(self.run_id)["tasks"]["packaging"]["outputs"], [])
+
+    def test_packaging_rejects_stale_revision_before_asset_generation(self):
+        from test_release import payload
+        self.production_ready()
+        data = payload()
+        data.update(run_id=self.run_id, channel_id=self.run["profile"]["youtube_channel_id"],
+                    format="short", revision=999)
+        data.pop("end_screen")
+        with self.assertRaisesRegex(WorkflowError, "revision"):
+            self.complete("packaging", data)
+        self.assertEqual(self.store.get(self.run_id)["tasks"]["packaging"]["outputs"], [])
 
     def test_budget_reserved_atomically(self):
         self.production_ready()

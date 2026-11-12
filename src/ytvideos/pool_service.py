@@ -8,7 +8,7 @@ import json
 from .errors import Conflict, WorkflowError
 from .util import require_text, utc_now
 from .workers import AdaptivePool, BackendResult, PoolConfig, SceneJob, ToolBridgeBackend
-from .workflow import REQUIRED_CHECKS, input_hash, ready, task_references
+from .workflow import REQUIRED_CHECKS, input_hash, ready
 
 
 class PoolService:
@@ -221,7 +221,7 @@ class PoolService:
                 raise Conflict("image task is not ready; resolve its dependencies and script approval")
             context = {"task_id": task_id, "task_input_hash": current_hash, "pins": run["pins"],
                        "skill": run["skills"][task["skill"]], "channel": run["profile"],
-                       "references": task_references(task),
+                       **self.production._reference_context(run, task),
                        "format": run["format"], "scene": task.get("payload", {}),
                        "required_checks": sorted(REQUIRED_CHECKS["scene_image"]),
                        "inputs": [run["artifacts"][a] for dep in task["dependencies"]
@@ -244,6 +244,7 @@ class PoolService:
     def _claim(self, tx, run, backend, pool, payload):
         operation_id = require_text(payload.get("operation_id"), "bridge operation ID")
         request = backend.requests[operation_id]
+        self.validate_packet(run, request)
         job_id = request["packet"]["job_id"]
         record = pool.records[job_id]
         if record.cancel_requested or not pool._matches(record):
@@ -282,6 +283,27 @@ class PoolService:
         return {"request": dispatched, "task_claim": claim, "operation": operation,
                 "instruction": "The intent is committed. Invoke one available native tool with this packet; "
                                "then record observed provider/session IDs. Do not repeat an uncertain dispatch."}
+
+    def validate_packet(self, run, request):
+        """Bind outbox bytes to the queued job and the run's pinned requirements."""
+        packet = request["packet"]
+        records = run["pool"]["scheduler"]["records"]
+        job = next((record["job"] for record in records if record["job"]["job_id"] == packet["job_id"]), None)
+        if job is None or packet != SceneJob(**job).packet():
+            raise WorkflowError("native packet differs from its queued job")
+        binding = run["pool"]["bindings"][packet["job_id"]]
+        task = self.production._task(run, binding["task_id"])
+        context = packet["context"]
+        expected = {"task_id": task["id"], "task_input_hash": input_hash(run, task),
+                    "pins": run["pins"], "skill": run["skills"][task["skill"]],
+                    "channel": run["profile"], "format": run["format"], "scene": task.get("payload", {}),
+                    "inputs": [run["artifacts"][key] for dep in task["dependencies"]
+                               for key in run["tasks"][dep]["outputs"]]}
+        requirements = self.production._reference_context(run, task)
+        if run.get("reference_snapshot") is not None or "reference_documents" in context:
+            expected.update(requirements)
+        if any(context.get(key) != value for key, value in expected.items()):
+            raise WorkflowError("native packet differs from the pinned task context")
 
     def _result(self, tx, run, backend, payload, artifact):
         operation_id = payload["operation_id"]
