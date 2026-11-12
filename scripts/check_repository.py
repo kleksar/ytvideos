@@ -10,6 +10,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 def check(root=ROOT, known_paths=()):
+    root = Path(root).resolve()
     errors = []
     known = set(known_paths)
     catalog = json.loads((root / ".agent/skill-catalog.json").read_text())
@@ -37,7 +38,10 @@ def check(root=ROOT, known_paths=()):
         errors.append("executable helpers belong in automation/helpers")
     docs = [root / name for name in ("AGENTS.md", "README.md", "COLLABORATION.md")]
     docs += list((root / "docs").rglob("*.md")) + list((root / ".agents/skills").rglob("*.md"))
-    docs += list((root / ".agent").glob("*.md")) + list((root / "channels").glob("*/AGENTS.md"))
+    # Older workspaces can retain untracked .agent evidence and retired routers.
+    # Only current catalog entries are workflow inputs; do not treat historical
+    # episode ledgers as current documentation or rewrite their evidence.
+    docs += [root / ".agent/skill-catalog.md"] + list((root / "channels").glob("*/AGENTS.md"))
     docs += list((root / "channels").glob("*/profile.md")) + list((root / ".codex/agents").glob("*.md"))
     for path in docs:
         if not path.exists():
