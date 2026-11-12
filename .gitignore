@@ -113,6 +113,8 @@ Desktop.ini
 **/client.json
 **/*oauth*.json
 **/*token*.json
+# This file contains visual palette values, not authentication tokens.
+!/channels/two_ways_lab/brand/tokens.json
 **/chat/
 
 # Local relocation backups and migration scratch

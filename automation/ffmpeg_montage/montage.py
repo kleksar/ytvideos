@@ -23,19 +23,27 @@ def validate(plan, base):
     delivery.profile_paths(plan['channel'], plan.get('format'))
     if plan.get('format') not in {'long','short'}: raise ValueError('format must be long or short')
     if plan.get('fps',30)!=30: raise ValueError('only 30 fps is supported')
-    canvas=plan.get('canvas', [2560,1440] if plan['format']=='long' else [1440,2560])
+    policy=channel_profile.get('montage', {})
+    canvas=plan.get('canvas', policy.get('canvas', [2560,1440] if plan['format']=='long' else [1440,2560]))
+    if policy.get('format') and plan['format'] != policy['format']: raise ValueError('format does not match channel montage policy')
+    if policy.get('canvas') and canvas != policy['canvas']: raise ValueError('canvas does not match channel montage policy')
     if not isinstance(canvas,list) or len(canvas)!=2 or any(not isinstance(v,int) or v<64 or v%2 for v in canvas): raise ValueError('canvas must contain two even integer dimensions >= 64')
     if (plan['format']=='long' and canvas[0]<=canvas[1]) or (plan['format']=='short' and canvas[0]>=canvas[1]): raise ValueError('canvas orientation must match format: long landscape, short portrait')
     audio=path_from(base,plan['audio']);
     if not audio.is_file(): raise ValueError(f'audio not found: {audio}')
     scenes=plan.get('scenes');
     if not isinstance(scenes,list) or not scenes: raise ValueError('scenes must be a nonempty list')
+    minimum_scene_frames=plan.get('minimum_scene_frames')
+    if minimum_scene_frames is not None and (type(minimum_scene_frames) is not int or minimum_scene_frames<2): raise ValueError('minimum_scene_frames must be an integer of at least 2')
     cursor=0; previous=None; previous_zoom=None; result=[]
     for i,s in enumerate(scenes):
         start=s.get('start_frame'); end=s.get('end_frame')
         if not isinstance(start,int) or isinstance(start,bool) or not isinstance(end,int) or start!=cursor or end<=start: raise ValueError(f'scene {i+1}: intervals must be continuous integer frames')
+        if minimum_scene_frames is not None and end-start<minimum_scene_frames: raise ValueError(f'scene {i+1}: {end-start} frames is shorter than the plan minimum {minimum_scene_frames}')
         is_end_screen = (channel_profile.get('release_policy', {}).get('end_screen') is True and plan['format'] == 'long' and i == len(scenes)-1 and s.get('role') == 'end_screen' and end-start == 300)
-        if plan.get('enforce_scene_duration',True) and not (120<=end-start<=180 or is_end_screen): raise ValueError(f'scene {i+1}: expected 4–6 seconds at 30fps, or a final 10-second long end_screen')
+        policy_min=policy.get('scene_min_frames',120); policy_max=policy.get('scene_max_frames',180)
+        if policy.get('scene_min_frames') is not None and end-start<policy_min: raise ValueError(f'scene {i+1}: shorter than channel minimum of {policy_min} frames')
+        if plan.get('enforce_scene_duration',True) and not ((end-start>=policy_min and (policy_max is None or end-start<=policy_max)) or is_end_screen): raise ValueError(f'scene {i+1}: expected 4–6 seconds at 30fps, or a final 10-second long end_screen')
         image=path_from(base,s['image']);
         if not image.is_file(): raise ValueError(f'image not found: {image}')
         if 'direction' not in s or 'zoom' not in s:raise ValueError(f'scene {i+1}: explicit direction and zoom are required')
@@ -43,7 +51,8 @@ def validate(plan, base):
         camera=s.get('camera')
         if camera: validate_camera(camera, direction, zoom)
         if direction not in DIRECTIONS or zoom not in ZOOMS: raise ValueError(f'scene {i+1}: invalid movement')
-        if direction=='none' and zoom=='none' and not is_end_screen: raise ValueError(f'scene {i+1}: no movement selected')
+        if policy.get('directions') and direction not in policy['directions']: raise ValueError(f'scene {i+1}: direction not allowed by channel montage policy')
+        if direction=='none' and zoom=='none' and not (is_end_screen or policy.get('allow_static') is True): raise ValueError(f'scene {i+1}: no movement selected')
         if direction!='none' and previous==direction: raise ValueError(f'scene {i+1}: neighboring scenes repeat direction {direction}')
         if zoom!='none' and previous_zoom==zoom: raise ValueError(f'scene {i+1}: neighboring scenes repeat zoom {zoom}')
         previous=direction;previous_zoom=zoom;result.append({'image':str(image),'start_frame':start,'end_frame':end,'direction':direction,'zoom':zoom,**({'camera':camera} if camera else {})});cursor=end
@@ -55,6 +64,9 @@ def validate(plan, base):
     for layer in overlays:
         if not path_from(base,layer['path']).is_file():raise ValueError('missing overlay '+layer['path'])
         if not (0<=layer['start_frame']<layer['end_frame']<=cursor):raise ValueError('overlay outside timeline')
+        if 'lettering_motion' in layer:
+            motion=layer['lettering_motion']
+            if not policy.get('lettering_motion') or not isinstance(motion,dict) or not (0<=motion.get('scale_amplitude',-1)<=0.02 and 0<=motion.get('rotation_degrees',-1)<=2): raise ValueError('lettering motion requires channel policy and bounds of 2% / 2 degrees')
     return {'channel':plan['channel'],'format':plan['format'],'subtitle_mode':captions['mode'],'audio':str(audio),'canvas':canvas,'fps':30,'scenes':result,'frames':cursor}
 
 def validate_camera(camera,direction,zoom):
@@ -224,7 +236,19 @@ def final_command(plan,base,prepared,work,out,subtitle,encoder,video_bitrate,aud
             if path.suffix.lower() == '.webm': cmd+=['-c:v:0','libvpx-vp9']
         if path.suffix.lower() in {'.png','.jpg','.jpeg','.webp'}:cmd+=['-loop','1','-framerate','30']
         cmd+=['-i',str(path)];start=layer['start_frame'];end=layer['end_frame'];x=int(layer.get('x',0));y=int(layer.get('y',0))
-        filters.append(f'[{index}:v]setpts=PTS-STARTPTS+{start}/(30*TB)[ov{j}]');filters.append(f'[{source}][ov{j}]overlay={x}:{y}:enable=\'gte(n,{start})*lt(n,{end})\':eof_action=pass:format=auto[v{j}]');source=f'v{j}';index+=1
+        motion=layer.get('lettering_motion')
+        if motion:
+            amp=motion['scale_amplitude']; angle=motion['rotation_degrees']*math.pi/180
+            with Image.open(path) as picture:
+                pw=2*math.ceil(picture.width*1.24/2);ph=2*math.ceil(picture.height*1.35/2)
+            transform=(f"format=rgba,pad={pw}:{ph}:(ow-iw)/2:(oh-ih)/2:color=black@0,"
+                       f"zoompan=z='1+{amp}+{amp}*sin(2*PI*on/120)':x='iw/2-iw/zoom/2':"
+                       f"y='ih/2-ih/zoom/2':d=1:s={pw}x{ph}:fps=30,"
+                       f"rotate=angle='{angle}*sin(2*PI*t/5)':ow=iw:oh=ih:c=none,")
+            xpos=f"(W-w)/2+{x}"
+        else:
+            transform='';xpos=str(x)
+        filters.append(f'[{index}:v]{transform}setpts=PTS-STARTPTS+{start}/(30*TB)[ov{j}]');filters.append(f'[{source}][ov{j}]overlay={xpos}:{y}:enable=\'gte(n,{start})*lt(n,{end})\':eof_action=pass:format=auto[v{j}]');source=f'v{j}';index+=1
     audioindex=index;cmd+=['-i',prepared['audio']]
     # Explicit opt-in for sRGB-authored scenes and caption graphics. Restore RGB
     # before an explicit matrix/range conversion and the sRGB -> Rec.709 transfer.

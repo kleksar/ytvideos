@@ -29,6 +29,29 @@ def render_captions(plan,p,work,canvas,frames):
     return m.caption_sequence(plan,p,work,canvas,frames)
 
 class TestMontage(unittest.TestCase):
+ def test_optional_minimum_scene_frames_prevents_unintended_flash(self):
+  with tempfile.TemporaryDirectory() as td:
+   p=Path(td);(p/'audio.wav').write_bytes(b'audio');Image.new('RGB',(20,20)).save(p/'image.png')
+   def scene(start,end):
+    return {'image':'image.png','start_frame':start,'end_frame':end,'direction':'none','zoom':'none'}
+   plan={'channel':'two_ways_lab','format':'short','canvas':[1080,1920],'audio':'audio.wav',
+         'minimum_scene_frames':45,'scenes':[scene(0,50),scene(50,70),scene(70,120)],'subtitles':{'mode':'none'}}
+   with self.assertRaisesRegex(ValueError,'scene 2: 20 frames.*minimum 45'):m.validate(plan,p)
+   plan['scenes']=[scene(0,50),scene(50,100),scene(100,150)]
+   self.assertEqual(m.validate(plan,p)['frames'],150)
+   plan['minimum_scene_frames']=True
+   with self.assertRaisesRegex(ValueError,'must be an integer'):m.validate(plan,p)
+ def test_channel_policy_still_rejects_single_frame_when_duration_enforcement_is_disabled(self):
+  with tempfile.TemporaryDirectory() as td:
+   p=Path(td);(p/'audio.wav').write_bytes(b'audio');Image.new('RGB',(20,20)).save(p/'image.png')
+   plan={'channel':'two_ways_lab','format':'short','audio':'audio.wav','enforce_scene_duration':False,
+         'scenes':[{'image':'image.png','start_frame':0,'end_frame':1,'direction':'none','zoom':'none'}],
+         'subtitles':{'mode':'none'}}
+   with self.assertRaisesRegex(ValueError,'minimum of 2 frames'):m.validate(plan,p)
+   plan['scenes'][0]['end_frame']=2
+   self.assertEqual(m.validate(plan,p)['frames'],2)
+   plan['scenes'][0]['direction']='top_to_bottom'
+   with self.assertRaisesRegex(ValueError,'direction not allowed'):m.validate(plan,p)
  def test_nuviko_background_transparency_in_both_formats(self):
   for form,canvas in [('short',[1440,2560]),('long',[2560,1440])]:
    with self.subTest(form=form),tempfile.TemporaryDirectory() as td:
