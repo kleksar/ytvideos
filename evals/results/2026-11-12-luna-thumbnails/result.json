@@ -1,0 +1,145 @@
+{
+  "date": "2026-11-12",
+  "model": "gpt-6-luna",
+  "fresh_initial_contexts": true,
+  "fixture_only": true,
+  "purpose": "Observe whether repository procedures produce valid packaging and distinguish thumbnail evidence from CTR claims; smoke-test the earlier research/script handoff.",
+  "prompts": {
+    "packaging": "Продолжи подготовку упаковки горизонтального выпуска Paper Detour о Бостонском наводнении патокой. Сценарий уже принят; выбери основной вариант и подготовь остальные материалы упаковки, которые сейчас возможно сделать. Сохрани результаты и состояние работы, коротко сообщи следующий шаг.",
+    "observation": "Разбери результаты сравнения обложек для Paper Detour из предоставленных файлов. Какой вариант выиграл и можем ли мы сказать, что добавление лица повысило CTR? Сохрани пригодную для дальнейшей работы запись результата и объясни, что из неё следует для следующей обложки.",
+    "story": "Мне нужен новый сюжет для Paper Detour: Short с английским текстом. Сам найди подходящую реальную историю и покажи полный текст для согласования."
+  },
+  "harness": "Each fresh session received a source snapshot, its ordinary task and isolated case path. Packaging used seeded test-only research/script/approval state and a public verifier for that fixture; no production approval or account access was exercised. Image generation and YouTube writes were disabled. Observation input is explicitly synthetic. Scenario research used real public sources.",
+  "cases": [
+    {
+      "id": "packaging_initial",
+      "source_snapshot": "source",
+      "result": "partial_after_continuation",
+      "interventions": [
+        "Coordinator requested continuation after a premature status-only final response."
+      ],
+      "observed": "Packaging completed with valid ReleaseSpec and one thumbnail task; three concepts existed but only the main concept had a full description.",
+      "correction": "Release skill now explicitly asks for title, brief and full description for each of the three concepts; metadata of the selected pair remains the strict ReleaseSpec output."
+    },
+    {
+      "id": "packaging_repeat",
+      "source_snapshot": "source-v3",
+      "result": "pass_for_available_text_work",
+      "interventions": [],
+      "observed": [
+        "ReleaseSpec parsed and packaging completed in the real local workflow.",
+        "Three distinct concepts each include title, brief and full description.",
+        "Three thumbnail tasks created; image.generate unavailable, so images/visual QA remain unverified.",
+        "Upload depends on thumbnails; review depends only on render.",
+        "No fabricated media/thumbnail hashes and no additional approval event."
+      ],
+      "limitations": [
+        "Synthetic input retained an older Short note while current run and request specified long; model used the current long format and flagged the mismatch.",
+        "No image provider, actual thumbnail acceptance, YouTube upload, live A/B or audience metric was tested."
+      ]
+    },
+    {
+      "id": "observation",
+      "source_snapshot": "source",
+      "result": "pass_for_fixture_interpretation",
+      "interventions": [],
+      "observed": [
+        "Provider labels were correctly mapped to source asset identities.",
+        "62.8% versus 37.2% watch time share was not turned into a Winner when the provider verdict was Inconclusive.",
+        "Missing variant CTR/impressions stayed null; video CTR and public competitor views were not treated as variant measurements.",
+        "Changing title and image together was not attributed to a face effect."
+      ]
+    },
+    {
+      "id": "story_initial",
+      "source_snapshot": "source",
+      "result": "blocked_by_model_routing",
+      "interventions": [],
+      "observed": "Available web search was used, but the model did not record capability evidence and stopped at the missing-capability guard without a full script.",
+      "correction": "ytv-start and task contract explicitly distinguish a missing local observation from an unavailable tool and explain recording evidence before retrying the claim."
+    },
+    {
+      "id": "story_repeat",
+      "source_snapshot": "source-v2",
+      "result": "completed_to_script_gate_with_assistance",
+      "interventions": [
+        "Coordinator requested persistence of the outputs after an initial chat-only draft.",
+        "Coordinator diagnosed a one-character transcription error in the lease token; the guard correctly rejected the wrong token.",
+        "Independent factual review by /root corrected source attribution and required evidence for prior-test and quotation details.",
+        "Separate narration-only reader reviewed exact saved versions; concrete findings were addressed."
+      ],
+      "correction": "Task contract now asks to read token/input_hash programmatically from saved claim JSON rather than retyping identifiers.",
+      "limitations": [
+        "This is an assisted scenario, not evidence of autonomous end-to-end reliability.",
+        "Factual reviewer saw research notes; narration-only reader did not. Neither performed audio/media checks.",
+        "Subsequent refinements to reference classification and claim-token copying guidance were not re-evaluated as a new autonomous scenario."
+      ],
+      "observed": {
+        "state": "awaiting_script_approval",
+        "research": "complete",
+        "script": "complete",
+        "script_sha256": "0c9b4ccd05b04dce54463cb0abd74ddc5dee703a01318900366271f614d89efe",
+        "approvals": [],
+        "production_started": false,
+        "thumbnail_promise_in_research": true
+      }
+    }
+  ],
+  "checks": {
+    "ruff": "pass",
+    "repository_contract": "pass",
+    "core_unittest": {
+      "discovered": 330,
+      "passed": 216,
+      "skipped": 114,
+      "skip_scope": "PostgreSQL-specific tests; no local server"
+    },
+    "automation_unittest": {
+      "suites": 12,
+      "discovered": 285,
+      "passed": 284,
+      "skipped": 1,
+      "skip_scope": "Explicit local test font unavailable"
+    }
+  },
+  "not_claimed": [
+    "CTR or watch-time lift on a real channel",
+    "top-creator percentile",
+    "live thumbnail generation or YouTube execution",
+    "unassisted quality benchmark",
+    "latency/token/cost improvement"
+  ],
+  "evidence": [
+    "packaging-spec.json",
+    "packaging-concepts.json",
+    "packaging-receipt.json",
+    "observation-input.json",
+    "observation-result.json",
+    "workflow-observations.json",
+    "story-script.txt",
+    "story-research.json",
+    "story-research-receipt.json",
+    "story-script-receipt.json",
+    "story-factual-review.json",
+    "story-reader-review.json"
+  ],
+  "source_snapshot_manifest_sha256": {
+    "source": "100c8128ce02b10a5db547bcc88847e84de4cf663e44664b3141560df33f8d61",
+    "source-v2": "106b8442fb77110f14b7578b815a62f0589e7ec343a4ace7fdb6c0dd1a4ac449",
+    "source-v3": "b77908e3fe443cd422b80e798c3f90b95f0eb258f2661b3142c03595d4e21bf8"
+  },
+  "artifact_sha256": {
+    "story-research.json": "b2f00eb5e9107e8c4a1208e56354d59700bf17c4c4cd835f1fde990bfd80deda",
+    "packaging-concepts.json": "54018964c0be0e4a449b71f3a4af4d9ef1a713e0da5e6c54bd9ebe6b1b8911b2",
+    "story-script.txt": "0c9b4ccd05b04dce54463cb0abd74ddc5dee703a01318900366271f614d89efe",
+    "observation-result.json": "ff872e39def363bc1d11bfb822d4a902c86e3d07c2ec87c81362b3ad55c8212c",
+    "observation-input.json": "0c1751be4c492b24e807878b720deec9e6e8caa0c54faea13b31346f973752e9",
+    "story-research-receipt.json": "b91f4c32c5292a2fb25c9010281215f19798c98f7683c4564965fd107d3392af",
+    "packaging-spec.json": "848777481485ef0237ec98517655a6f534a1289e28c539820362440345206cbc",
+    "story-reader-review.json": "b883fbdb2f31e99f9ad74029492e1214ad5fcfbd9941b0d7d3687d15b9839530",
+    "story-script-receipt.json": "0fc6e2afbee0597125d2d632c4deffe29280c2875c680a2c11c4cb73418616b6",
+    "story-factual-review.json": "437b34da1fce7ba97859f43afd0b1c142ae88a1eaa77de3a62efee19b998c866",
+    "packaging-receipt.json": "9bc9f765ccae628189b3be9296ed429a02ad46b9a4c3054c5b9d4d9bedab507b",
+    "workflow-observations.json": "d011a5169123a81e4d67cca15cef9e1c88dc111053b2edd6e8ea9696fdd18218"
+  }
+}

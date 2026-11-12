@@ -8,7 +8,7 @@ import json
 from .errors import Conflict, WorkflowError
 from .util import require_text, utc_now
 from .workers import AdaptivePool, BackendResult, PoolConfig, SceneJob, ToolBridgeBackend
-from .workflow import REQUIRED_CHECKS, input_hash, ready
+from .workflow import REQUIRED_CHECKS, input_hash, ready, task_references
 
 
 class PoolService:
@@ -221,6 +221,7 @@ class PoolService:
                 raise Conflict("image task is not ready; resolve its dependencies and script approval")
             context = {"task_id": task_id, "task_input_hash": current_hash, "pins": run["pins"],
                        "skill": run["skills"][task["skill"]], "channel": run["profile"],
+                       "references": task_references(task),
                        "format": run["format"], "scene": task.get("payload", {}),
                        "required_checks": sorted(REQUIRED_CHECKS["scene_image"]),
                        "inputs": [run["artifacts"][a] for dep in task["dependencies"]

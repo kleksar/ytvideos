@@ -139,6 +139,9 @@ class PoolServiceTests(unittest.TestCase):
 
     def test_claim_reserves_budget_and_dispatch_intent_atomically(self):
         run_id, request = self.make_run(billing="metered")
+        references = request["packet"]["context"]["references"]
+        self.assertIn("docs/standards/visual.md", references)
+        self.assertNotIn("docs/standards/thumbnails.md", references)
         granted = self.claim(run_id, request, estimated_units=3)
         run = self.store.get(run_id)
         self.assertEqual(run["budget"]["reserved"], 3)
@@ -369,6 +372,8 @@ class PoolServiceTests(unittest.TestCase):
         self.assertEqual(len(jobs), 1)
         pending = self.pools.operate(run_id, "tick")["pending"]
         self.assertEqual(pending[0]["packet"]["context"]["task_id"], task["id"])
+        self.assertIn("docs/standards/visual.md", pending[0]["packet"]["context"]["references"])
+        self.assertIn("docs/standards/thumbnails.md", pending[0]["packet"]["context"]["references"])
         granted = self.claim(run_id, pending[0])
         self.assertEqual(granted["request"]["packet"]["context"]["scene"]["purpose"], "thumbnail")
         self.assertEqual(self.store.get(run_id)["tasks"]["image:s0"]["status"], "pending")

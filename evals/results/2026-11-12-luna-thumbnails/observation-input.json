@@ -1,0 +1,67 @@
+{
+  "plan": {
+    "fixture_only": true,
+    "run_id": "eval-paper-long-01",
+    "video_id": "fixtureAB01",
+    "release_sha256": "4486b0e52997d5bfe925c97153c7234b8d1bd97a3971485150846238c8914c13",
+    "mode": "title_thumbnail_pair",
+    "hypothesis": "Персонаж и конкретный след утечки привлекут больше подходящих зрителей, чем общий план резервуара.",
+    "variants": [
+      {
+        "id": "tank",
+        "title": "The Day Boston Drowned in Molasses",
+        "source_asset_ref": "fixture://asset/tank",
+        "source_asset_sha256": "3e8278d29188328d675530c792f2ba86dfbaef0836dcbfa8a1c7670468bfeb54",
+        "design": "Общий план бумажного резервуара; без лица."
+      },
+      {
+        "id": "leak",
+        "title": "The Warning Everyone Could See",
+        "source_asset_ref": "fixture://asset/leak",
+        "source_asset_sha256": "9e9ab3f41f1e623a7c907f66087d81b1b8305fd6a85bd64e0c74cc716a88d30b",
+        "design": "Бумажный ребёнок замечает след утечки; лицо видно."
+      }
+    ],
+    "planned_mode": "native_simultaneous"
+  },
+  "observation": {
+    "fixture_only": true,
+    "method": "provided_studio_readback_fixture",
+    "observation_id": "fixture://studio-readback/2026-11-12",
+    "video_id": "fixtureAB01",
+    "window": {
+      "start": "2026-10-28T10:00:00Z",
+      "end": "2026-11-11T10:00:00Z",
+      "timezone": "UTC"
+    },
+    "status": "completed",
+    "provider_verdict": "Inconclusive",
+    "actual_displayed_variants": [
+      {
+        "provider_label": "A",
+        "title": "The Warning Everyone Could See",
+        "source_asset_sha256": "9e9ab3f41f1e623a7c907f66087d81b1b8305fd6a85bd64e0c74cc716a88d30b",
+        "watch_time_share_percent": 62.8
+      },
+      {
+        "provider_label": "B",
+        "title": "The Day Boston Drowned in Molasses",
+        "source_asset_sha256": "3e8278d29188328d675530c792f2ba86dfbaef0836dcbfa8a1c7670468bfeb54",
+        "watch_time_share_percent": 37.2
+      }
+    ],
+    "per_variant_ctr": null,
+    "per_variant_impressions": null,
+    "video_analytics": {
+      "ctr_percent": 8.7,
+      "registered_impressions": 18200,
+      "traffic_scope": "all registered impressions, video-level",
+      "window": {
+        "start": "2026-10-28T00:00:00Z",
+        "end": "2026-11-11T23:59:59Z"
+      }
+    },
+    "previous_window_video_ctr_percent": 5.2,
+    "competitor_public_views": 2400000
+  }
+}

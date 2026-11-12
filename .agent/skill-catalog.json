@@ -16,7 +16,7 @@
     {
       "name": "ytv-write-script",
       "path": ".agents/skills/ytv-write-script/SKILL.md",
-      "description": "Research and write a clear causal script for any ytvideos channel; design a mandatory natural loop for Shorts. Use for research, script writing, factual checks or revisions.",
+      "description": "Research and write a clear causal script for any ytvideos channel; design a mandatory natural Shorts loop and capture thumbnail promise/payoff in a research note. Use for research, script writing, factual checks or revisions.",
       "stages": [
         "research",
         "script"
@@ -30,7 +30,7 @@
     {
       "name": "ytv-produce-video",
       "path": ".agents/skills/ytv-produce-video/SKILL.md",
-      "description": "Produce an approved ytvideos script through images, audio, subtitles and render; preserve its Shorts loop through the audiovisual seam and exact accepted inputs.",
+      "description": "Produce an approved ytvideos script through scenes, thumbnails, audio, subtitles and render; preserve the Shorts loop and exact inputs while packaging runs in parallel.",
       "stages": [
         "storyboard",
         "scene_image",
@@ -46,7 +46,7 @@
     {
       "name": "ytv-review-video",
       "path": ".agents/skills/ytv-review-video/SKILL.md",
-      "description": "Review the exact ytvideos MP4, including cold opening, payoff and the mandatory Shorts loop seam; record real checks, repair scoped defects and present it for approval.",
+      "description": "Review the exact ytvideos MP4, cold opening, payoff and Shorts loop; record real checks, repair scoped defects and present it for approval. Check thumbnail promise and previews when packaging is ready.",
       "stages": [
         "review"
       ],
@@ -58,7 +58,7 @@
     {
       "name": "ytv-release-video",
       "path": ".agents/skills/ytv-release-video/SKILL.md",
-      "description": "Prepare packaging and finish a fully populated scheduled YouTube release after exact MP4 approval. Use for metadata, thumbnails, captions, upload, scheduling and post-publication checks.",
+      "description": "Prepare packaging after script approval and complete a fully populated scheduled YouTube release after exact MP4 approval. Use for metadata, thumbnails, upload, scheduling and evidence-based experiment follow-up.",
       "stages": [
         "packaging",
         "upload",
@@ -75,7 +75,7 @@
     {
       "name": "ytv-operate",
       "path": ".agents/skills/ytv-operate/SKILL.md",
-      "description": "Inspect or recover saved ytvideos runs, leases, blockers, uncertain external operations, worker capabilities, storage and budgets. Use for status, restart, cancellation and cleanup.",
+      "description": "Inspect or recover saved ytvideos runs, leases, blockers, uncertain operations, worker capabilities, storage and budgets, including evidence-backed thumbnail experiment readback. Use for status, restart, cancellation and cleanup.",
       "stages": [],
       "intents": [
         "status",

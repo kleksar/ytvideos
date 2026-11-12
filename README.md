@@ -26,6 +26,6 @@ uv run python -m ytvideos --help
 | `docs/standards/` | Единственные владельцы повторяемых требований |
 | `tests/`, `evals/` | Контракты, отказные случаи и проверки маршрута на Luna |
 
-[Процесс](docs/workflow.md) · [Архитектура](docs/architecture.md) · [Каналы](channels/README.md) · [Каталог навыков](.agent/skill-catalog.md) · [Границы исполнения](docs/operations/runtime.md)
+[Процесс](docs/workflow.md) · [Архитектура](docs/architecture.md) · [Каналы](channels/README.md) · [Обложки и эксперименты](docs/standards/thumbnails.md) · [Каталог навыков](.agent/skill-catalog.md) · [Границы исполнения](docs/operations/runtime.md)
 
 Наличие кода очереди не означает работающую круглосуточную ферму. Для фактического исполнения нужны доступные runtime workers, media storage, разрешённые генераторы и доступ к целевому каналу. Проверять их через `doctor`; отсутствие публикационного доступа не должно останавливать независимую сценарную работу.

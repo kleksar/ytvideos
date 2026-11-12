@@ -1,6 +1,6 @@
 ---
 name: ytv-operate
-description: "Inspect or recover saved ytvideos runs, leases, blockers, uncertain external operations, worker capabilities, storage and budgets. Use for status, restart, cancellation and cleanup."
+description: "Inspect or recover saved ytvideos runs, leases, blockers, uncertain operations, worker capabilities, storage and budgets, including evidence-backed thumbnail experiment readback. Use for status, restart, cancellation and cleanup."
 ---
 
 # Состояние, восстановление и обслуживание
@@ -14,6 +14,6 @@ CLI и точные outputs/receipts: [task contract](../../../docs/operations/t
 3. Истёкшую lease возвращать по контракту приложения. Stale worker не может перезаписать текущую revision. UNKNOWN требует reconciliation существующей операции; отсутствие локального ответа не означает, что provider ничего не сделал.
 4. Для очереди контролировать caps, review backlog, fairness, rate-limit cooldown и бюджет. Не открывать дополнительные чаты, если координатор не успевает принимать результаты. Состояние пула сохранять вне сессии.
 5. При отмене запретить новые tasks/effects; проверить уже отправленные операции. Отмена локального ожидания не откатывает YouTube upload/schedule.
-6. Cleanup делать только по manifest/ownership/dependencies и storage policy. Сохранить фактический receipt, отдельные ошибки и pending actions.
+6. Для thumbnail follow-up сверять отдельно сохранённый plan, фактическое состояние setup/readback и provider result с evidence; сохранять mode, варианты и пробелы данных. Не смешивать CTR, impressions, watch-time-share и общий retention и не выводить winner без фактического provider verdict. См. [thumbnail standard](../../../docs/standards/thumbnails.md). Cleanup делать только по manifest/ownership/dependencies и storage policy. Сохранить фактический receipt, отдельные ошибки и pending actions.
 
 Возвращать короткий operational result: состояние, завершённые artifacts, текущие blockers, следующая готовая задача и реальные ограничения. Метрики active production time отделять от ожидания пользователя; UNKNOWN cost не превращать в ноль. Read-only status не требует нового творческого review.

@@ -14,7 +14,8 @@ from .errors import Conflict, WorkflowError
 from .profiles import load_profile
 from .util import canonical, digest, file_digest, require_text, utc_now
 from .workflow import (EXTERNAL_STAGES, OUTPUT_KINDS, REQUIRED_CHECKS, WORKFLOW_VERSION,
-                       derive_status, input_hash, make_task, new_tasks, ready, valid_approval)
+                       derive_status, input_hash, make_task, new_tasks, ready, task_references,
+                       valid_approval)
 
 
 def code_identity(root):
@@ -149,6 +150,7 @@ class Production:
         return {"run_id": run_id, "task_id": task_id, "revision": run["revision"], "pins": run["pins"],
                 "intent": run["intent"], "format": run["format"], "channel": run["profile"],
                 "skill": skill, "task": task, "inputs": inputs, "input_hash": input_hash(run, task),
+                "references": task_references(task),
                 "artifact_root": str(self.artifacts.root), "output_kind": OUTPUT_KINDS[task["stage"]],
                 "required_checks": sorted(REQUIRED_CHECKS[task["stage"]]), "budget": run["budget"],
                 "topic_history": prior_topics if task["stage"] == "research" else [],
