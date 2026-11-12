@@ -1,0 +1,42 @@
+{
+  "status": "READY_TO_RENDER",
+  "project_id": "25533909",
+  "timeline_id": "6545DD44",
+  "snapshot": {
+    "snapshot": {
+      "author": {
+        "kind": "agent"
+      },
+      "createdAt": "2026-11-02T13:10:08Z",
+      "name": "Before subtitle semantic split repair",
+      "snapshotId": "87322875"
+    }
+  },
+  "target_read_sha256": "3fb746eb6c7fb53a5119ebcb4287a849897c07caf8656fc9d49ab072881a03f8",
+  "subtitle_overlay": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Assets/Generated/subtitles-full-v02/galveston_subtitles_alpha_v04.mov",
+  "subtitle_overlay_sha256": "d78c4381005ccfa42b295b7adf52b8dbb2078d549f2a62de6254a4e474214b96",
+  "group_map_sha256": "74a583da44bd327cd3e2a3f3cc33dac31b8901a402a69340b40e6407065373a8",
+  "video": {
+    "width": 2560,
+    "height": 1440,
+    "fps": 30,
+    "frames": 17233,
+    "color": "bt709 limited",
+    "codec": "h264"
+  },
+  "audio": "Existing accepted audio; stream copy after native export",
+  "method": "native Palmier Match Timeline; remux accepted AAC and video stream copy",
+  "ship_scene": "camera only, no parallax; G08 retained",
+  "output": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Work/subtitles-final-v02/previews/032_galveston_native_subtitles_v02.mp4",
+  "args": {
+    "projectId": "25533909",
+    "timelineId": "6545DD44",
+    "mode": "video",
+    "codec": "H.264",
+    "resolution": "Match Timeline",
+    "outputPath": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Work/subtitles-final-v02/previews/032_galveston_native_subtitles_v02.mp4",
+    "overwrite": false
+  },
+  "authorization": "user requested full revision and private reupload",
+  "created_utc": "2026-11-02T13:10:09Z"
+}

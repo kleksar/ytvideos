@@ -1,0 +1,220 @@
+{
+  "project": {
+    "name": "Paper Detour 009 Knorozov Asya Draft 20261101",
+    "projectId": "9A0EE170",
+    "timelineName": "PD009_story_titles_retimed_v04_20261101",
+    "timelineId": "E2ABDF4C",
+    "canvas": "1080x1920",
+    "fps": 30,
+    "totalFrames": 1020,
+    "durationSeconds": 34
+  },
+  "sourcePreservation": {
+    "v03TimelineUnchanged": true,
+    "lastExportRemains": "009_knorozov_asya_en_short_1080x1920_30fps_fullmix_v04_20261101.mp4",
+    "v04Exported": true,
+    "previousExportUnchanged": "009_knorozov_asya_en_short_1080x1920_30fps_fullmix_v03_20261101.mp4"
+  },
+  "snapshotBeforeTimingFix": {
+    "snapshotId": "F9A801E4",
+    "name": "Before spoken-end cue timing fix v04"
+  },
+  "sceneFrames": {
+    "S05_researchers": [
+      335,
+      400
+    ],
+    "S04_codex_detail": [
+      400,
+      488
+    ],
+    "S06_asya_companion": [
+      488,
+      596
+    ],
+    "timelineDurationUnchanged": true
+  },
+  "cue3": {
+    "clipId": "122591E7",
+    "mediaRef": "975714BC",
+    "frames": [
+      271,
+      400
+    ],
+    "trigger": "signs",
+    "lastSpokenWord": "script",
+    "lastWordAlignmentEndSeconds": 13.12,
+    "fadeFrames": [
+      395,
+      400
+    ],
+    "anchorCenter": [
+      0.5,
+      0.08
+    ],
+    "visibleGlyphHeight": 0.09,
+    "opacityKeyframes": [
+      [
+        0,
+        0
+      ],
+      [
+        4,
+        1,
+        "hold"
+      ],
+      [
+        124,
+        1
+      ],
+      [
+        128,
+        0
+      ]
+    ],
+    "positionKeyframes": [
+      [
+        0,
+        0.268,
+        0.045
+      ],
+      [
+        4,
+        0.268,
+        0.035,
+        "hold"
+      ],
+      [
+        124,
+        0.268,
+        0.035
+      ],
+      [
+        128,
+        0.268,
+        0.025
+      ]
+    ]
+  },
+  "palmierActions": [
+    {
+      "actionId": "5EF04455",
+      "operation": "move S04 to frame 400"
+    },
+    {
+      "actionId": "ED2FAFC1",
+      "operation": "extend S05 to 65 frames"
+    },
+    {
+      "actionId": "3695D737",
+      "operation": "set S04 duration to 88 frames"
+    },
+    {
+      "actionId": "9D2D08AB",
+      "operation": "extend cue3 to 129 frames"
+    },
+    {
+      "actionId": "FFFB913C",
+      "operation": "retime cue3 opacity fade"
+    },
+    {
+      "actionId": "A1185482",
+      "operation": "retime cue3 position exit"
+    },
+    {
+      "actionId": "AC5F7D98",
+      "operation": "restore S06 start to frame 488"
+    },
+    {
+      "actionId": "0424340C",
+      "operation": "restore S06 duration to 108 frames"
+    }
+  ],
+  "visualQa": {
+    "tool": "inspect_timeline",
+    "cue3FramesInspected": [
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400
+    ],
+    "result": "Title holds through the final spoken word, fades over frames 395-399, and is absent at the S04 cut on frame 400.",
+    "captures": "Storyboard/Previews/Accents_v04_20261101/Palmier_Cue3_End_Check/",
+    "diagnosticGridAndFrameNumberAreReviewOverlays": true,
+    "fullLengthPlaybackAt1xWithAudio": "not yet verified",
+    "shortsUiSafeMargins": "not yet verified"
+  },
+  "exportVerification": {
+    "file": "Deliverables/009_knorozov_asya_en_short_1080x1920_30fps_fullmix_v04_20261101.mp4",
+    "sha256": "c3f9885dd7b4708c29f0cb0d8b8dd3bfa3266ec92d193151c882ee29d74e6a36",
+    "sizeBytes": 45405216,
+    "video": {
+      "codec": "h264",
+      "width": 1080,
+      "height": 1920,
+      "frameRate": "30/1",
+      "durationSeconds": 34.0,
+      "bitRate": 10568056
+    },
+    "audio": {
+      "codec": "aac",
+      "sampleRate": 44100,
+      "channels": 2,
+      "channelLayout": "stereo",
+      "durationSeconds": 34.0,
+      "bitRate": 110214,
+      "requiredMinimumBitRate": 256000,
+      "userExplicitlyAcceptedBelowTargetForUpload": true
+    },
+    "fullDecode": {
+      "command": "ffmpeg -v error -xerror",
+      "exitCode": 0
+    },
+    "visualSampling": {
+      "contactSheetEverySeconds": 3,
+      "reviewed": true,
+      "fullLengthPlaybackAt1xWithAudio": "not verified",
+      "shortsUiSafeMargins": "not verified"
+    },
+    "upload": {
+      "status": "uploaded",
+      "videoId": "orQiLIvOL-8",
+      "url": "https://www.youtube.com/watch?v=orQiLIvOL-8",
+      "requestedPrivacy": "private",
+      "statusReadback": {
+        "channelId": "UCMVfdfaNxV3ZkI3_J3Eejzw",
+        "privacy": "private",
+        "uploadStatus": "processed",
+        "processingStatus": "succeeded",
+        "failureReason": null,
+        "rejectionReason": null
+      },
+      "metadataReadback": {
+        "title": "Why Is There a Cat on a Monument to a Maya Scholar?",
+        "descriptionHasApprovedHashtags": true,
+        "categoryId": "27",
+        "defaultLanguage": "en",
+        "defaultAudioLanguage": "en",
+        "madeForKids": false,
+        "tags": null,
+        "containsSyntheticMedia": "not returned by API"
+      },
+      "thumbnail": {
+        "apiSetAccepted": true,
+        "apiReadback": "matched",
+        "studioFallback": "approved JPG uploaded in Studio after the visible preview remained on a video frame",
+        "studioSaveToast": "Changes saved",
+        "persistedAfterReload": true
+      },
+      "playlist": "not assigned; no playlist-management scope requested",
+      "srt": "not provided or uploaded",
+      "schedule": "none"
+    },
+    "palmierQueueState": "Completed"
+  }
+}

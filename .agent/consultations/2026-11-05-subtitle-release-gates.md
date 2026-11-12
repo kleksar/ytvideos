@@ -1,0 +1,11 @@
+# Subtitle release gates
+
+2026-11-05. Task `subtitle-release-gates`. Chrome tab `418767399`, [completed consultation](https://chatgpt.com/c/6aeca44f-5b40-83eb-8791-0635831ec1e9). The model menu showed `Extra High, 4 из 5`; a distinct model name was not visible in the captured state. [Saved prompt](2026-11-05-subtitle-release-gates-prompt.txt), SHA-256 `00a7baf4e16d656ca4692a118ced5c0d51d53c286c3998430c687258e0a66e7f`. Composer was empty, prompt verified before one send, exact posted message and empty composer verified, lock released before waiting. Visible `Ответ готов` confirmed completion.
+
+The consultation recommends one explicit owner viewing of the immutable MP4 covering the sound, burned-in caption sync, intelligible grouping, and placement. Record these findings separately without separate viewings. If a single aspect remains uncertain, replay the affected timestamps. An overall approval alone does not prove playback of a separate SRT.
+
+The machine should block on objective integrity, format, exact media revision, caption text coverage, and invalid, overlapping or out-of-range timecodes. Estimated timing disagreements and stylistic grouping preferences are warnings. Missing/incorrect words, materially wrong sync, unreadable placement and breaks that impair comprehension need correction. Generate both caption outputs from the same approved transcript and timing source to avoid separate timebases.
+
+The answer recommends a distinct Private staging state when technical checks pass and human review or the separate track is incomplete. Public release requires substantive human findings, SRT readiness and no unresolved serious defect. A change to the SRT alone should not invalidate MP4 acceptance. It distinguishes readiness and publication authority.
+
+Project application proposed for discussion: confirm exact MP4 and technical checks, capture one human viewing, check SRT mechanically against the final timing map, and ask for targeted playback only when indicated by a known defect, changed audio or timing, or meaningful uncertainty. Separate Private upload from Public readiness in the adapter and the release owner. Existing requirements remain in force pending a user decision on the policy.

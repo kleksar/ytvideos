@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "status": "READY_TO_RENDER",
+  "purpose": "review of reduced depth parallax with ease",
+  "project_id": "25A8FF9A",
+  "timeline_id": "239B6743",
+  "timeline_name": "gentler parallax v02",
+  "source_timeline_id": "8565580B",
+  "motion_run": "563fd317bd283338cf20",
+  "audio_policy": "preserve existing Dialogue clip and source voice_en; no new audio",
+  "video": {
+    "container": "mp4",
+    "codec": "H.264",
+    "resolution": "Match Timeline",
+    "width": 1080,
+    "height": 1920,
+    "fps": "30/1",
+    "frames": 1066,
+    "duration_seconds": 35.533333,
+    "pixel_format": "yuv420p",
+    "color_space": "rec709"
+  },
+  "audio": {
+    "source_media_ref": "87DB1704",
+    "codec": "AAC engine-managed by Palmier",
+    "channel_policy": "preserve existing source track settings",
+    "sample_rate_hz": 44100,
+    "narration_changes": false
+  },
+  "output_path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/028_taj_mahal/Work/tajmahal_subtitles_20261103_v01/previews/parallax_gentler_v02/palmier_no_subtitles.mp4",
+  "source_snapshot_note": "The live source timeline 8565580B is the clean v02 version; accepted v10 grain mediaRef 2200F995 is absent from the current Palmier media library. Grain is not claimed in this export.",
+  "pre_render_lifecycle_audit": "/Users/diplomat/ytvideos/channels/paper_detour/videos/028_taj_mahal/Edit/MediaLifecycle/gentler-motion-audit-20261103_v01/audit.json"
+}

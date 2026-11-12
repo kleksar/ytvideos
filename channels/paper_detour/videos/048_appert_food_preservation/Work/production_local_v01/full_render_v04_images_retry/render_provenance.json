@@ -1,0 +1,1048 @@
+{
+  "schema": "ytv-render-v1",
+  "origin": "render",
+  "export_contract": {
+    "original": {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Edit/Export/EXPORT_CONTRACT_v04_images.json",
+      "sha256": "bcae563fa8c7ba7150f90243008babb5b55968753319b076f8001147905ff196"
+    },
+    "snapshot": {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Work/production_local_v01/full_render_v04_images_retry/render_provenance/export_contract.json",
+      "sha256": "bcae563fa8c7ba7150f90243008babb5b55968753319b076f8001147905ff196"
+    }
+  },
+  "command": {
+    "original": {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Work/production_local_v01/full_render_v04_images_retry/render_command.json",
+      "sha256": "832e961f3da7be61a9c91c213e0dbb129616f73e0e28f97485f47ea9a84d4808"
+    },
+    "snapshot": {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Work/production_local_v01/full_render_v04_images_retry/render_provenance/render_command.json",
+      "sha256": "832e961f3da7be61a9c91c213e0dbb129616f73e0e28f97485f47ea9a84d4808"
+    }
+  },
+  "engine": [
+    {
+      "original": {
+        "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/montage.py",
+        "sha256": "6d2cc293793a18b999475c3589d7827b0f46e860c0965f4e0b7e2a887139848f"
+      },
+      "snapshot": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Work/production_local_v01/full_render_v04_images_retry/render_provenance/engine_0_montage.py",
+        "sha256": "6d2cc293793a18b999475c3589d7827b0f46e860c0965f4e0b7e2a887139848f"
+      }
+    },
+    {
+      "original": {
+        "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/delivery.py",
+        "sha256": "84f9ea6d86ea043cead2a725384c172920fb006d96b795fa62ade95e00b30c60"
+      },
+      "snapshot": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Work/production_local_v01/full_render_v04_images_retry/render_provenance/engine_1_delivery.py",
+        "sha256": "84f9ea6d86ea043cead2a725384c172920fb006d96b795fa62ade95e00b30c60"
+      }
+    },
+    {
+      "original": {
+        "path": "/Users/diplomat/ytvideos/.agents/skills/ytv-paper-subtitles/scripts/semantic_grouping.py",
+        "sha256": "f18deb4cbb5af9c10cfd51fd60b15ef1c87b5ebaaaa46f073210935821d8fc3e"
+      },
+      "snapshot": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Work/production_local_v01/full_render_v04_images_retry/render_provenance/engine_2_semantic_grouping.py",
+        "sha256": "f18deb4cbb5af9c10cfd51fd60b15ef1c87b5ebaaaa46f073210935821d8fc3e"
+      }
+    }
+  ],
+  "prepared": {
+    "channel": "paper",
+    "format": "long",
+    "subtitle_mode": "words",
+    "audio": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Work/production_local_v01/voice_fullmix.wav",
+    "canvas": [
+      2560,
+      1440
+    ],
+    "fps": 30,
+    "scenes": [
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S01_v02.png",
+        "start_frame": 0,
+        "end_frame": 169,
+        "direction": "left_to_right",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.22,
+            0.54
+          ],
+          "subject": "sealed sample jar at the harbor",
+          "reason": "Keep the cork and jar readable against the distant ships.",
+          "start": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          },
+          "end": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S02_v03.png",
+        "start_frame": 169,
+        "end_frame": 320,
+        "direction": "right_to_left",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.24,
+            0.56
+          ],
+          "subject": "food jar and three-month marker",
+          "reason": "Carry the storage interval from the jar toward the paper time marker.",
+          "start": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          },
+          "end": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S03_v01.png",
+        "start_frame": 320,
+        "end_frame": 481,
+        "direction": "left_to_right",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.52,
+            0.54
+          ],
+          "subject": "four inspected food samples and hands",
+          "reason": "Let attention move across the samples being examined.",
+          "start": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          },
+          "end": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S04_v01.png",
+        "start_frame": 481,
+        "end_frame": 649,
+        "direction": "right_to_left",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.52,
+            0.62
+          ],
+          "subject": "broth, meat, beans and peas at the table",
+          "reason": "Hold on the dishes before the group in the doorway.",
+          "start": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          },
+          "end": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S05_v01.png",
+        "start_frame": 649,
+        "end_frame": 805,
+        "direction": "left_to_right",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.34,
+            0.62
+          ],
+          "subject": "one sample beside many work tables",
+          "reason": "Contrast one result with the effort of repeating it.",
+          "start": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          },
+          "end": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S06_v02.png",
+        "start_frame": 805,
+        "end_frame": 965,
+        "direction": "right_to_left",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.52,
+            0.54
+          ],
+          "subject": "missing step in the blank ledger",
+          "reason": "Move toward the gap that prevents repetition.",
+          "start": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          },
+          "end": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S07_v01.png",
+        "start_frame": 965,
+        "end_frame": 1120,
+        "direction": "left_to_right",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.52
+          ],
+          "subject": "salted, sugared and dried foods",
+          "reason": "Sweep across the three distinct preservation methods.",
+          "start": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          },
+          "end": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S08_v01.png",
+        "start_frame": 1120,
+        "end_frame": 1285,
+        "direction": "right_to_left",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.5,
+            0.52
+          ],
+          "subject": "fresh and dried fruit halves",
+          "reason": "Keep the changed fruit qualities in view.",
+          "start": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          },
+          "end": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S09_v01.png",
+        "start_frame": 1285,
+        "end_frame": 1458,
+        "direction": "left_to_right",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.53
+          ],
+          "subject": "Appert between pastry and distilling tools",
+          "reason": "Connect the person to the two kinds of work in the scene.",
+          "start": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          },
+          "end": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S10_v01.png",
+        "start_frame": 1458,
+        "end_frame": 1616,
+        "direction": "right_to_left",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.5,
+            0.52
+          ],
+          "subject": "meat, broth, milk, vegetables and fruit",
+          "reason": "Keep the ingredient range readable as one arrangement.",
+          "start": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          },
+          "end": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S11_v03.png",
+        "start_frame": 1616,
+        "end_frame": 1781,
+        "direction": "left_to_right",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.6,
+            0.55
+          ],
+          "subject": "hand checking a sealed food jar",
+          "reason": "Hold the inspection gesture and jar together.",
+          "start": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          },
+          "end": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S12_v01.png",
+        "start_frame": 1781,
+        "end_frame": 1944,
+        "direction": "right_to_left",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.52,
+            0.52
+          ],
+          "subject": "narrow bottle and wide-mouth vessel",
+          "reason": "Compare the two opening shapes.",
+          "start": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          },
+          "end": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S13_v02.png",
+        "start_frame": 1944,
+        "end_frame": 2104,
+        "direction": "left_to_right",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.52
+          ],
+          "subject": "cork and wire fastening on the filled vessel",
+          "reason": "Keep the sealing action intact in the frame.",
+          "start": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          },
+          "end": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S14_v01.png",
+        "start_frame": 2104,
+        "end_frame": 2270,
+        "direction": "right_to_left",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.5,
+            0.52
+          ],
+          "subject": "vessels heating in a water bath",
+          "reason": "Hold the jars and surrounding bath together.",
+          "start": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          },
+          "end": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S15_v01.png",
+        "start_frame": 2270,
+        "end_frame": 2440,
+        "direction": "left_to_right",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.52
+          ],
+          "subject": "preparation cards, bottle and cork-wire seal",
+          "reason": "Keep the three factors connected in the light.",
+          "start": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          },
+          "end": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S16_v01.png",
+        "start_frame": 2440,
+        "end_frame": 2599,
+        "direction": "right_to_left",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.51,
+            0.52
+          ],
+          "subject": "jar lowered into a protective cloth bag",
+          "reason": "Follow the hand and protected vessel.",
+          "start": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          },
+          "end": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S17_v01.png",
+        "start_frame": 2599,
+        "end_frame": 2764,
+        "direction": "left_to_right",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "peas selected at different stages",
+          "reason": "Keep the hand between the young and softened peas.",
+          "start": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          },
+          "end": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S18_v01.png",
+        "start_frame": 2764,
+        "end_frame": 2927,
+        "direction": "right_to_left",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.55,
+            0.5
+          ],
+          "subject": "committee looking over the samples",
+          "reason": "Keep the committee and sample table in one view.",
+          "start": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          },
+          "end": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S19_v01.png",
+        "start_frame": 2927,
+        "end_frame": 3090,
+        "direction": "left_to_right",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "four samples beside favorable assessment",
+          "reason": "Let the result card and samples read together.",
+          "start": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          },
+          "end": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S20_v01.png",
+        "start_frame": 3090,
+        "end_frame": 3251,
+        "direction": "right_to_left",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.5,
+            0.48
+          ],
+          "subject": "reported storage age versus society custody",
+          "reason": "Hold both time statements in the comparison.",
+          "start": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          },
+          "end": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S21_v02.png",
+        "start_frame": 3251,
+        "end_frame": 3421,
+        "direction": "left_to_right",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.51
+          ],
+          "subject": "visible contents under inspection",
+          "reason": "Keep the jar contents and blank docket together.",
+          "start": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          },
+          "end": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S22_v03.png",
+        "start_frame": 3421,
+        "end_frame": 3589,
+        "direction": "right_to_left",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.5,
+            0.52
+          ],
+          "subject": "ordered working slips leading to the method book",
+          "reason": "Follow the movement from loose notes to a book.",
+          "start": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          },
+          "end": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S23_v02.png",
+        "start_frame": 3589,
+        "end_frame": 3757,
+        "direction": "left_to_right",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.52,
+            0.56
+          ],
+          "subject": "writer hand pushing the blank manuscript forward",
+          "reason": "Hold the hand and manuscript as the central action.",
+          "start": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          },
+          "end": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S24_v02.png",
+        "start_frame": 3757,
+        "end_frame": 3920,
+        "direction": "right_to_left",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.52,
+            0.52
+          ],
+          "subject": "dated letter at the workbench",
+          "reason": "Keep the date and letter together.",
+          "start": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          },
+          "end": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S25_v01.png",
+        "start_frame": 3920,
+        "end_frame": 4086,
+        "direction": "left_to_right",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.42
+          ],
+          "subject": "twelve-thousand-franc condition",
+          "reason": "Hold the amount as the first readable element.",
+          "start": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          },
+          "end": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S26_v02.png",
+        "start_frame": 4086,
+        "end_frame": 4249,
+        "direction": "right_to_left",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.5,
+            0.55
+          ],
+          "subject": "open book beside the two-hundred-copy stack",
+          "reason": "Keep the book and publication quantity in view.",
+          "start": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          },
+          "end": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S27_v03.png",
+        "start_frame": 4249,
+        "end_frame": 4409,
+        "direction": "left_to_right",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.52
+          ],
+          "subject": "board-review label and manuscript terms",
+          "reason": "Hold the board label and printed terms together.",
+          "start": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          },
+          "end": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S28_v01.png",
+        "start_frame": 4409,
+        "end_frame": 4579,
+        "direction": "right_to_left",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "preparation, tools and steps in the guide",
+          "reason": "Move through the three parts of the published method.",
+          "start": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          },
+          "end": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S29_v01.png",
+        "start_frame": 4579,
+        "end_frame": 4739,
+        "direction": "left_to_right",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.52
+          ],
+          "subject": "vessels, corks, heating and mistakes",
+          "reason": "Keep the method objects and labeled cautions together.",
+          "start": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          },
+          "end": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S30_v02.png",
+        "start_frame": 4739,
+        "end_frame": 4896,
+        "direction": "right_to_left",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.5,
+            0.52
+          ],
+          "subject": "1810 guidebook beside the food jar",
+          "reason": "End on the book as the transferable guide.",
+          "start": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          },
+          "end": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/E01_v01.png",
+        "start_frame": 4896,
+        "end_frame": 5046,
+        "direction": "left_to_right",
+        "zoom": "none",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "quiet book-and-jar end-screen reserve",
+          "reason": "Keep the open end-screen regions clear.",
+          "start": {
+            "center": [
+              0.501,
+              0.5
+            ],
+            "scale": 1.005
+          },
+          "end": {
+            "center": [
+              0.499,
+              0.5
+            ],
+            "scale": 1.005
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/E02_v01.png",
+        "start_frame": 5046,
+        "end_frame": 5196,
+        "direction": "right_to_left",
+        "zoom": "none",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "sealed jar and closed book end-screen reserve",
+          "reason": "Keep the open end-screen regions clear.",
+          "start": {
+            "center": [
+              0.499,
+              0.5
+            ],
+            "scale": 1.005
+          },
+          "end": {
+            "center": [
+              0.501,
+              0.5
+            ],
+            "scale": 1.005
+          }
+        }
+      }
+    ],
+    "frames": 5196,
+    "manifest_path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Work/production_local_v01/Edit/plan_v04_images.json",
+    "source_transfer": "srgb"
+  },
+  "audio_source": {
+    "codec_name": "pcm_s16le",
+    "sample_rate": "44100",
+    "channels": 1,
+    "duration": "173.200000",
+    "bit_rate": "705600"
+  },
+  "settings": {
+    "scope": "pre-render settings only; no encoded-result or AV QA",
+    "timeline": {
+      "width": 2560,
+      "height": 1440,
+      "frame_count": 5196,
+      "sample_aspect_ratio": "1:1",
+      "aspect_ratio": "16:9",
+      "output_color_space": "Rec.709 SDR"
+    },
+    "video": {
+      "codec_name": "h264",
+      "pix_fmt": "yuv420p",
+      "scan": "progressive",
+      "cadence": "constant 30/1 fps",
+      "color_primaries": "bt709",
+      "color_transfer": "bt709",
+      "color_space": "bt709",
+      "color_range": "tv"
+    },
+    "audio": {
+      "codec_name": "aac",
+      "profile": "LC",
+      "channels": 1,
+      "sample_rate": 44100,
+      "mode": "aac",
+      "target_bit_rate": 192000
+    },
+    "requested_arguments": {
+      "encoder": "h264_videotoolbox",
+      "video_bitrate": 20000000,
+      "output_pix_fmt": "yuv420p",
+      "fps": "30/1",
+      "audio_codec": "aac",
+      "audio_profile": "aac_low",
+      "audio_bitrate": 192000,
+      "audio_sample_rate": 44100,
+      "audio_channels": 1
+    }
+  },
+  "ffmpeg_version": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+}

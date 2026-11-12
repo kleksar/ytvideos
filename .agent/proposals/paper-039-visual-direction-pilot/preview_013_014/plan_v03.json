@@ -1,0 +1,49 @@
+{
+  "channel": "paper",
+  "format": "long",
+  "audio": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/preview_013_014/voice_padded.wav",
+  "audio_contract": {
+    "final_audio_sha256": "d0d338b85ff3f44eda213a13b3a5136fa0f716707f7e947be68096824f174dda",
+    "applied_speed": 1.1,
+    "speed_evidence": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/preview_013_014/speed.md"
+  },
+  "scenes": [
+    {
+      "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S013_v03.png",
+      "start_frame": 0,
+      "end_frame": 120,
+      "direction": "left_to_right",
+      "zoom": "in"
+    },
+    {
+      "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S014_v03.png",
+      "start_frame": 120,
+      "end_frame": 240,
+      "direction": "right_to_left",
+      "zoom": "out"
+    }
+  ],
+  "subtitles": {
+    "mode": "words",
+    "words": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/preview_013_014/words.json",
+    "transcript": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/preview_013_014/transcript.txt",
+    "phrases": [
+      "Then",
+      "the Great Depression struck.",
+      "Wheat prices collapsed.",
+      "Drought made",
+      "everything worse.",
+      "For the families who stayed,"
+    ]
+  },
+  "overlays": [
+    {
+      "role": "paper_frame",
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/Shared/Overlays/Paper_Frame/masters/paper-border-16x9-16s-v03.mov",
+      "start_frame": 0,
+      "end_frame": 240,
+      "x": 0,
+      "y": 0
+    }
+  ]
+}

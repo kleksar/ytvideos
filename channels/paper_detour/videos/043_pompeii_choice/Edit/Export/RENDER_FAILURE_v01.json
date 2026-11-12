@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "run": "paper043-prod-v02",
+  "date": "2026-11-03",
+  "writer_finished": true,
+  "render_result": "FAILED",
+  "failure": "FFmpeg reported No space left on device while encoding temporary scene clips. No final review MP4 was produced.",
+  "failed_scene_output_count": 6,
+  "exact_file_hashes_and_stats_are_registered_in": "Work/paper043-prod-v02/manifest.json",
+  "outputs": [
+    {
+      "relative_path": "Work/paper043-prod-v02/scratch/render_v01/scene_00000.mp4",
+      "size_bytes": 13575276,
+      "sha256": "eda2d99e583083d0e15ef4b28b81b851adea260aefeb017161e8b3479bdc0030",
+      "disposition": "incomplete temporary scene output from failed render; rebuild from saved plan and source image"
+    },
+    {
+      "relative_path": "Work/paper043-prod-v02/scratch/render_v01/scene_00001.mp4",
+      "size_bytes": 14963322,
+      "sha256": "5ba0d8e6e67aaf1b0af08d4b20e33e45b3fc0bb492e96ff47ea5154e8ea96b6c",
+      "disposition": "incomplete temporary scene output from failed render; rebuild from saved plan and source image"
+    },
+    {
+      "relative_path": "Work/paper043-prod-v02/scratch/render_v01/scene_00002.mp4",
+      "size_bytes": 11010096,
+      "sha256": "fb44986508ce389288dec427a17f3b95cdceff59a025a93a2eba80c7e670afe6",
+      "disposition": "incomplete temporary scene output from failed render; rebuild from saved plan and source image"
+    },
+    {
+      "relative_path": "Work/paper043-prod-v02/scratch/render_v01/scene_00003.mp4",
+      "size_bytes": 8912944,
+      "sha256": "ac4027f02feff91068777ee3675f32d196afb405ec1ed87c4ab6113e27df1c5f",
+      "disposition": "incomplete temporary scene output from failed render; rebuild from saved plan and source image"
+    },
+    {
+      "relative_path": "Work/paper043-prod-v02/scratch/render_v01/scene_00004.mp4",
+      "size_bytes": 48,
+      "sha256": "64d52708f594e8a1a3a4f76deef7275c8ad5184480c9473d8f60a0c9b6f4628b",
+      "disposition": "incomplete temporary scene output from failed render; rebuild from saved plan and source image"
+    },
+    {
+      "relative_path": "Work/paper043-prod-v02/scratch/render_v01/scene_00005.mp4",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "disposition": "incomplete temporary scene output from failed render; rebuild from saved plan and source image"
+    }
+  ]
+}

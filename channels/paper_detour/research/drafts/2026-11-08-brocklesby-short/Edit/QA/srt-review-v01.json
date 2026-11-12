@@ -1,0 +1,124 @@
+{
+  "language": "en",
+  "media_sha256": "4fcad4dc6c45419e2cf7b62648aa8eba9dd3b343af79ae47a03c543010a01032",
+  "structure": "PASS",
+  "text_coverage": "PASS",
+  "timing_mapping": "PASS",
+  "playback": "UNVERIFIED",
+  "fps": "30/1",
+  "duration_seconds": 36,
+  "edit_revision": "edit-v01",
+  "cue_boundaries": [
+    {
+      "index": 1,
+      "start_ms": 0,
+      "end_ms": 1818,
+      "words": 5
+    },
+    {
+      "index": 2,
+      "start_ms": 2327,
+      "end_ms": 4218,
+      "words": 9
+    },
+    {
+      "index": 3,
+      "start_ms": 4655,
+      "end_ms": 5745,
+      "words": 4
+    },
+    {
+      "index": 4,
+      "start_ms": 6255,
+      "end_ms": 9091,
+      "words": 9
+    },
+    {
+      "index": 5,
+      "start_ms": 9673,
+      "end_ms": 10982,
+      "words": 4
+    },
+    {
+      "index": 6,
+      "start_ms": 11491,
+      "end_ms": 14109,
+      "words": 9
+    },
+    {
+      "index": 7,
+      "start_ms": 14618,
+      "end_ms": 16945,
+      "words": 10
+    },
+    {
+      "index": 8,
+      "start_ms": 17491,
+      "end_ms": 20000,
+      "words": 9
+    },
+    {
+      "index": 9,
+      "start_ms": 20509,
+      "end_ms": 22255,
+      "words": 6
+    },
+    {
+      "index": 10,
+      "start_ms": 22764,
+      "end_ms": 24000,
+      "words": 4
+    },
+    {
+      "index": 11,
+      "start_ms": 24727,
+      "end_ms": 26618,
+      "words": 7
+    },
+    {
+      "index": 12,
+      "start_ms": 27127,
+      "end_ms": 30109,
+      "words": 11
+    },
+    {
+      "index": 13,
+      "start_ms": 30255,
+      "end_ms": 33745,
+      "words": 11
+    },
+    {
+      "index": 14,
+      "start_ms": 34327,
+      "end_ms": 35564,
+      "words": 4
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/drafts/2026-11-08-brocklesby-short/Source/narration-en-v02.txt",
+      "sha256": "373486eed0e99fc24c3345fa3ab22e795d6b93101dc3bd2d82d06f826d6c6fd5"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/drafts/2026-11-08-brocklesby-short/Deliverables/Brocklesby-en-v01.srt",
+      "sha256": "220869746adb582cc0a7b01380ffadccf2680a238a3be4060f48218cb37fcfdd"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/drafts/2026-11-08-brocklesby-short/Work/word-times-source.json",
+      "sha256": "3db00634acf7247d1fd2bb7bf09ca0b8d51c2cbb55996a262fe1e27e4e83aa3f"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/drafts/2026-11-08-brocklesby-short/Work/word-times-final-v01.json",
+      "sha256": "93d2832612164c13fdd1651461c40e5e1414e1ca14f47164f9805f2c1e33db8e"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/drafts/2026-11-08-brocklesby-short/Assets/Audio/full-mix-v02.wav",
+      "sha256": "d002866e4ca2665b703d6af438b0446523595913336546d3ecc59e52c4ded490"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/drafts/2026-11-08-brocklesby-short/Assets/Audio/voice_en.alignment.json",
+      "sha256": "a5dd94114c0459b81cb662dbddd1070065ab1b1c50fd0758cbb977679486f112"
+    }
+  ],
+  "method": "Compared every serialized cue first/last word and milliseconds to the final word map; one 1.10x conform from provider timing. Exact MP4 sound correlation proves no extra shift or speed change within PCM sample tolerance; subjective playback not performed."
+}

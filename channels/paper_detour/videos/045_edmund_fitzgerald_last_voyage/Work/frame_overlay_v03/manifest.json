@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "run": "frame_overlay_v03",
+  "owner": "codex-paper-045-overlay-v03",
+  "status": "complete",
+  "created_utc": "2026-11-04T22:59:56.131977+00:00",
+  "entries": [
+    {
+      "path": "Work/frame_overlay_v03/previews/edmund_fitzgerald_full_film_en_frame_v03.mp4",
+      "role": "preview",
+      "identity": {
+        "device": 16777233,
+        "inode": 127592789,
+        "bytes": 569632453,
+        "mtime_ns": 1793833329786961251,
+        "ctime_ns": 1793833329786961251,
+        "nlink": 1,
+        "allocated_bytes": 569634816
+      },
+      "sha256": "c372b380c94b857fd746284114bf8922fcfaf467e1ca75a0322f43ba2dd0d0e3",
+      "rebuild_from": [],
+      "evidence": [
+        {
+          "path": "Edit/Export/FRAME_OVERLAY_V03_REVIEW.md",
+          "identity": {
+            "device": 16777233,
+            "inode": 127596837,
+            "bytes": 2282,
+            "mtime_ns": 1793833486631992613,
+            "ctime_ns": 1793833486631992613,
+            "nlink": 1,
+            "allocated_bytes": 4096
+          },
+          "sha256": "cedffb10d5379019079d7f5d3b9c8265fb65cca6ecc702483d6155bebb2d6397"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/frame_overlay_v03/scratch/edmund_fitzgerald_full_film_en_frame_v03_video_only.mp4",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 127590554,
+        "bytes": 564497412,
+        "mtime_ns": 1793833328929422009,
+        "ctime_ns": 1793833328929422009,
+        "nlink": 1,
+        "allocated_bytes": 570429440
+      },
+      "sha256": "5c6ec348954a3632216f0cfd51b7c0ddcbf321f347dde3b76cadad10d32f493b",
+      "rebuild_from": [
+        {
+          "path": "Work/frame_overlay_v03/previews/edmund_fitzgerald_full_film_en_frame_v03.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 127592789,
+            "bytes": 569632453,
+            "mtime_ns": 1793833329786961251,
+            "ctime_ns": 1793833329786961251,
+            "nlink": 1,
+            "allocated_bytes": 569634816
+          },
+          "sha256": "c372b380c94b857fd746284114bf8922fcfaf467e1ca75a0322f43ba2dd0d0e3"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/Export/FRAME_OVERLAY_V03_REVIEW.md",
+          "identity": {
+            "device": 16777233,
+            "inode": 127596837,
+            "bytes": 2282,
+            "mtime_ns": 1793833486631992613,
+            "ctime_ns": 1793833486631992613,
+            "nlink": 1,
+            "allocated_bytes": 4096
+          },
+          "sha256": "cedffb10d5379019079d7f5d3b9c8265fb65cca6ecc702483d6155bebb2d6397"
+        }
+      ],
+      "disposition": "pending",
+      "removed_utc": "2026-11-04T23:05:30.384732+00:00"
+    }
+  ],
+  "writer_finished_utc": "2026-11-04T23:05:16.511771+00:00"
+}

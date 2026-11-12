@@ -1,0 +1,207 @@
+{
+  "schema": "ytv-render-v1",
+  "origin": "render",
+  "export_contract": {
+    "original": {
+      "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Edit/Export/EXPORT_CONTRACT_PROBE_v01.json",
+      "sha256": "b1c6f26b5deac71d66d280a4d8cb83f235042ac8edeb5286e9fe32c4c43e117d"
+    },
+    "snapshot": {
+      "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Work/production-20261105-v01/samples/probe_check_settings_v03/render_provenance/export_contract.json",
+      "sha256": "b1c6f26b5deac71d66d280a4d8cb83f235042ac8edeb5286e9fe32c4c43e117d"
+    }
+  },
+  "command": {
+    "original": {
+      "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Work/production-20261105-v01/samples/probe_check_settings_v03/render_command.json",
+      "sha256": "28c2291eda3f2e1f4a205ef8ac3a805e234534cfb376d419f5dc0ee25ed023d6"
+    },
+    "snapshot": {
+      "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Work/production-20261105-v01/samples/probe_check_settings_v03/render_provenance/render_command.json",
+      "sha256": "28c2291eda3f2e1f4a205ef8ac3a805e234534cfb376d419f5dc0ee25ed023d6"
+    }
+  },
+  "engine": [
+    {
+      "original": {
+        "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/montage.py",
+        "sha256": "35eb0ea42c4823eb93d18d87468eb55cef9a3f16988a37c533c417b3780a7ad7"
+      },
+      "snapshot": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Work/production-20261105-v01/samples/probe_check_settings_v03/render_provenance/engine_0_montage.py",
+        "sha256": "35eb0ea42c4823eb93d18d87468eb55cef9a3f16988a37c533c417b3780a7ad7"
+      }
+    },
+    {
+      "original": {
+        "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/delivery.py",
+        "sha256": "8fcba5854d8832a966d4960dbdae3c8fa362d124d04a67f2b4b0df4347a71c65"
+      },
+      "snapshot": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Work/production-20261105-v01/samples/probe_check_settings_v03/render_provenance/engine_1_delivery.py",
+        "sha256": "8fcba5854d8832a966d4960dbdae3c8fa362d124d04a67f2b4b0df4347a71c65"
+      }
+    },
+    {
+      "original": {
+        "path": "/Users/diplomat/ytvideos/.agents/skills/ytv-paper-subtitles/scripts/semantic_grouping.py",
+        "sha256": "f18deb4cbb5af9c10cfd51fd60b15ef1c87b5ebaaaa46f073210935821d8fc3e"
+      },
+      "snapshot": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Work/production-20261105-v01/samples/probe_check_settings_v03/render_provenance/engine_2_semantic_grouping.py",
+        "sha256": "f18deb4cbb5af9c10cfd51fd60b15ef1c87b5ebaaaa46f073210935821d8fc3e"
+      }
+    }
+  ],
+  "prepared": {
+    "channel": "nuviko",
+    "format": "long",
+    "subtitle_mode": "words",
+    "audio": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Work/production-20261105-v01/samples/probe_audio_en_v01.wav",
+    "canvas": [
+      2560,
+      1440
+    ],
+    "fps": 30,
+    "scenes": [
+      {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_001_v02.png",
+        "start_frame": 0,
+        "end_frame": 150,
+        "direction": "left_to_right",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Scene 001 documentary composition",
+          "reason": "Caption geometry probe; keep the narration subject centered in a restrained whole-image move.",
+          "start": {
+            "center": [
+              0.506,
+              0.5
+            ],
+            "scale": 1.025
+          },
+          "end": {
+            "center": [
+              0.494,
+              0.5
+            ],
+            "scale": 1.045
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_002_v01.png",
+        "start_frame": 150,
+        "end_frame": 300,
+        "direction": "right_to_left",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Scene 002 documentary composition",
+          "reason": "Caption geometry probe; keep the narration subject centered in a restrained whole-image move.",
+          "start": {
+            "center": [
+              0.494,
+              0.5
+            ],
+            "scale": 1.045
+          },
+          "end": {
+            "center": [
+              0.506,
+              0.5
+            ],
+            "scale": 1.025
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_007_v02.png",
+        "start_frame": 300,
+        "end_frame": 450,
+        "direction": "left_to_right",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Scene 007 documentary composition",
+          "reason": "Caption geometry probe; keep the narration subject centered in a restrained whole-image move.",
+          "start": {
+            "center": [
+              0.506,
+              0.5
+            ],
+            "scale": 1.025
+          },
+          "end": {
+            "center": [
+              0.494,
+              0.5
+            ],
+            "scale": 1.045
+          }
+        }
+      }
+    ],
+    "frames": 450,
+    "manifest_path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Work/production-20261105-v01/samples/probe_plan_v01.json",
+    "source_transfer": "srgb"
+  },
+  "audio_source": {
+    "codec_name": "pcm_s16le",
+    "sample_rate": "44100",
+    "channels": 2,
+    "duration": "15.000000",
+    "bit_rate": "1411200"
+  },
+  "settings": {
+    "scope": "pre-render settings only; no encoded-result or AV QA",
+    "timeline": {
+      "width": 2560,
+      "height": 1440,
+      "frame_count": 450,
+      "sample_aspect_ratio": "1:1",
+      "aspect_ratio": "16:9",
+      "output_color_space": "Rec.709 SDR"
+    },
+    "video": {
+      "codec_name": "h264",
+      "pix_fmt": "yuv420p",
+      "scan": "progressive",
+      "cadence": "constant 30/1 fps",
+      "color_primaries": "bt709",
+      "color_transfer": "bt709",
+      "color_space": "bt709",
+      "color_range": "tv"
+    },
+    "audio": {
+      "codec_name": "aac",
+      "profile": "LC",
+      "channels": 2,
+      "sample_rate": 44100,
+      "mode": "aac",
+      "target_bit_rate": 256000
+    },
+    "requested_arguments": {
+      "encoder": "libx264",
+      "video_bitrate": 20000000,
+      "output_pix_fmt": "yuv420p",
+      "fps": "30/1",
+      "audio_codec": "aac",
+      "audio_profile": "aac_low",
+      "audio_bitrate": 256000,
+      "audio_sample_rate": 44100,
+      "audio_channels": 2
+    }
+  },
+  "ffmpeg_version": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+}

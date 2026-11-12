@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "current": [],
+  "pins": [
+    {"path": "Source/Script/narration_en_v26.md", "reason": "Accepted narration input for the active review edit", "evidence": ["Edit/Storyboard/montage_v01.json"]},
+    {"path": "Source/Audio/narration_en_v26_110.wav", "reason": "Accepted audio input for the active review edit", "evidence": ["Edit/Storyboard/montage_v01.json"]},
+    {"path": "Source/Images/Long/en", "reason": "Selected still and end-screen inputs for the active review edit", "evidence": ["Edit/Storyboard/montage_v01.json", "Source/Images/Long/en/scene_selection_manifest_v01.json"]}
+  ],
+  "active_work": [
+    {"path": "Work", "reason": "Active subtitle, frame overlay, and export preparation; preserve all generated dependencies", "evidence": ["Edit/Storyboard/montage_v01.json", "CURRENT_CONTEXT.md"]}
+  ],
+  "candidates": []
+}

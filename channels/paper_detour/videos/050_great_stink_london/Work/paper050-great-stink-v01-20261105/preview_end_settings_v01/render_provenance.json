@@ -1,0 +1,178 @@
+{
+  "schema": "ytv-render-v1",
+  "origin": "render",
+  "export_contract": {
+    "original": {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Edit/LongForm_v01/preview_end_contract_v01.json",
+      "sha256": "aad690281ebddee3cf66bac4163ca9e2b7eed1be75c86d1e725f09444931a32f"
+    },
+    "snapshot": {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Work/paper050-great-stink-v01-20261105/preview_end_settings_v01/render_provenance/export_contract.json",
+      "sha256": "aad690281ebddee3cf66bac4163ca9e2b7eed1be75c86d1e725f09444931a32f"
+    }
+  },
+  "command": {
+    "original": {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Work/paper050-great-stink-v01-20261105/preview_end_settings_v01/render_command.json",
+      "sha256": "ea833f61d54075e24dad579e367e43f85ea0b9a81e8d68579386ad862963baa1"
+    },
+    "snapshot": {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Work/paper050-great-stink-v01-20261105/preview_end_settings_v01/render_provenance/render_command.json",
+      "sha256": "ea833f61d54075e24dad579e367e43f85ea0b9a81e8d68579386ad862963baa1"
+    }
+  },
+  "engine": [
+    {
+      "original": {
+        "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/montage.py",
+        "sha256": "24c1486c0e6302b93372a390da21b198d2c4567be79813acc5b5d12ad7c82023"
+      },
+      "snapshot": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Work/paper050-great-stink-v01-20261105/preview_end_settings_v01/render_provenance/engine_0_montage.py",
+        "sha256": "24c1486c0e6302b93372a390da21b198d2c4567be79813acc5b5d12ad7c82023"
+      }
+    },
+    {
+      "original": {
+        "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/delivery.py",
+        "sha256": "d22db35638e7df341abc27d06a74f0b73f72f52dfd76668e4eca3a36d487aae5"
+      },
+      "snapshot": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Work/paper050-great-stink-v01-20261105/preview_end_settings_v01/render_provenance/engine_1_delivery.py",
+        "sha256": "d22db35638e7df341abc27d06a74f0b73f72f52dfd76668e4eca3a36d487aae5"
+      }
+    },
+    {
+      "original": {
+        "path": "/Users/diplomat/ytvideos/.agents/skills/ytv-paper-subtitles/scripts/semantic_grouping.py",
+        "sha256": "f18deb4cbb5af9c10cfd51fd60b15ef1c87b5ebaaaa46f073210935821d8fc3e"
+      },
+      "snapshot": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Work/paper050-great-stink-v01-20261105/preview_end_settings_v01/render_provenance/engine_2_semantic_grouping.py",
+        "sha256": "f18deb4cbb5af9c10cfd51fd60b15ef1c87b5ebaaaa46f073210935821d8fc3e"
+      }
+    }
+  ],
+  "prepared": {
+    "channel": "paper",
+    "format": "long",
+    "subtitle_mode": "words",
+    "audio": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Work/paper050-great-stink-v01-20261105/preview_end_inputs_v01/audio.wav",
+    "canvas": [
+      1280,
+      720
+    ],
+    "fps": 30,
+    "scenes": [
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Source/Images/scene_48_no_treatment_v01.png",
+        "start_frame": 0,
+        "end_frame": 148,
+        "direction": "left_to_right",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "scene 48 no treatment v01",
+          "reason": "Slow whole-image movement retains the main paper composition; verify faces, outfalls and subtitle clearance in rendered frames.",
+          "start": {
+            "center": [
+              0.506,
+              0.5
+            ],
+            "scale": 1.035
+          },
+          "end": {
+            "center": [
+              0.494,
+              0.5
+            ],
+            "scale": 1.055
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Source/Images/scene_09_sewage_in_river_v02.png",
+        "start_frame": 148,
+        "end_frame": 298,
+        "direction": "right_to_left",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "scene 09 sewage in river v02",
+          "reason": "Slow whole-image movement retains the main paper composition; verify faces, outfalls and subtitle clearance in rendered frames.",
+          "start": {
+            "center": [
+              0.494,
+              0.5
+            ],
+            "scale": 1.055
+          },
+          "end": {
+            "center": [
+              0.506,
+              0.5
+            ],
+            "scale": 1.035
+          }
+        }
+      }
+    ],
+    "frames": 298,
+    "manifest_path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Edit/LongForm_v01/preview_end_v01.json",
+    "source_transfer": "srgb"
+  },
+  "audio_source": {
+    "codec_name": "pcm_s16le",
+    "sample_rate": "44100",
+    "channels": 1,
+    "duration": "9.933333",
+    "bit_rate": "705600"
+  },
+  "settings": {
+    "scope": "pre-render settings only; no encoded-result or AV QA",
+    "timeline": {
+      "width": 1280,
+      "height": 720,
+      "frame_count": 298,
+      "sample_aspect_ratio": "1:1",
+      "aspect_ratio": "16:9",
+      "output_color_space": "Rec.709 SDR"
+    },
+    "video": {
+      "codec_name": "h264",
+      "pix_fmt": "yuv420p",
+      "scan": "progressive",
+      "cadence": "constant 30/1 fps",
+      "color_primaries": "bt709",
+      "color_transfer": "bt709",
+      "color_space": "bt709",
+      "color_range": "tv"
+    },
+    "audio": {
+      "codec_name": "aac",
+      "profile": "LC",
+      "channels": 1,
+      "sample_rate": 44100,
+      "mode": "aac",
+      "target_bit_rate": 192000
+    },
+    "requested_arguments": {
+      "encoder": "h264_videotoolbox",
+      "video_bitrate": 20000000,
+      "output_pix_fmt": "yuv420p",
+      "fps": "30/1",
+      "audio_codec": "aac",
+      "audio_profile": "aac_low",
+      "audio_bitrate": 192000,
+      "audio_sample_rate": 44100,
+      "audio_channels": 1
+    }
+  },
+  "ffmpeg_version": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+}

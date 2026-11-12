@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "palmier_projects": [
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Edit/Palmier/Paper 038 USS Lincoln Pattaya Visual Assembly v02.palmier"
+  ],
+  "pins": [
+    {
+      "path": "Source/Script/narration_en_v07.md",
+      "reason": "Exact accepted narration"
+    },
+    {
+      "path": "Source/Voice/en_v07/voice_en.mp3",
+      "reason": "Accepted recording used by current timeline"
+    },
+    {
+      "path": "Source/Voice/en_v07/voice_en.alignment.json",
+      "reason": "Timing source for accepted recording"
+    },
+    {
+      "path": "Source/Images/paper_v02",
+      "reason": "Scene-image source library for active timeline"
+    },
+    {
+      "path": "Source/Images/paper_v03",
+      "reason": "New versioned scenes for active timeline"
+    },
+    {
+      "path": "Edit/ImageMotion",
+      "reason": "Active motion configuration and cache records"
+    },
+    {
+      "path": "Work/paper038-review-v03",
+      "reason": "Active owned production run"
+    },
+    {
+      "path": "Source/Subtitles/shorts_en_v06.srt",
+      "reason": "Exact final caption cue transfer used in current timeline"
+    },
+    {
+      "path": "Source/Subtitles/cue_map_en_v06.json",
+      "reason": "Final grouped cue map and word timing receipt"
+    },
+    {
+      "path": "Edit/Export/EXPORT_CONTRACT_v01.json",
+      "reason": "Current pre-render contract"
+    }
+  ],
+  "candidates": []
+}

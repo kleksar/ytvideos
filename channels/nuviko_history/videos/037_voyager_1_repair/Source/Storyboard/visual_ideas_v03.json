@@ -1,0 +1,882 @@
+{
+  "version": "v03",
+  "date": "2026-11-05",
+  "status": "GENERATED_DRAFT_PENDING_INDIVIDUAL_REVIEW",
+  "scope": "Meaningful storyboard ideas for user review; no generation, audio change, montage mutation or render.",
+  "channel": "Nuviko History",
+  "narration": "Source/Script/narration_en_v01.md",
+  "timing_source": "Edit/Production/v02/montage_en_v02.json",
+  "word_map": "Edit/Production/v02/word_times_mix_v02.json",
+  "timing_status": "Existing frame grid retained as a proposal. Word assignment uses forced-alignment midpoints; not an audible synchronization review.",
+  "references_status": "Approved traveler anchors retained. Equipment, launch, planetary and location visual references are requirements for later selection, not newly verified references.",
+  "scenes": [
+    {
+      "id": "S01",
+      "beat_ru": "Как починить аппарат за 24 миллиарда километров?",
+      "idea_ru": "Наш путешественник на дорожке возле гигантской антенны связи. Низкая камера: герой занимает передний план, стальные фермы и чаша уходят над ним в сумеречное небо. Правая ладонь на перилах, взгляд вверх. Тёплая охра куртки контрастирует с холодным масштабом сооружения.",
+      "purpose_ru": "Начать с человеческого масштаба задачи и физического средства связи; герой задаёт вопрос, оставаясь ведущим.",
+      "transition_ru": "От человеческой фигуры и направленной в небо антенны — к старту ракеты.",
+      "depiction": "presenter_staging",
+      "reference_group": "traveler_and_ground_antenna",
+      "focus_ru": "Герой и нависающая над ним антенна; взгляд ведёт вверх.",
+      "start_frame": 0,
+      "end_frame": 168,
+      "image_status": "GENERATED_DRAFT",
+      "word_range": [
+        0,
+        11
+      ],
+      "narration_exact": "How Do You Fix Voyager 1 From 24 Billion Kilometers Away?",
+      "motion_intent_ru": "Preserve the declared focal object; any gentle whole-image motion is finalized only against the generated composition."
+    },
+    {
+      "id": "S02",
+      "beat_ru": "Запуск в 1977 году.",
+      "idea_ru": "Старт ракеты с Voyager: носитель уже над пусковой конструкцией, белые клубы пара расходятся у основания, огненный факел освещает металл. Камера с безопасной дальней точки, слегка снизу; аппарат не изображён отдельно летящим рядом с ракетой.",
+      "purpose_ru": "Дать путешествию конкретное начало и масштаб настоящего запуска.",
+      "transition_ru": "Вертикальный огненный след сменяется огромным диском Юпитера.",
+      "depiction": "historical_reconstruction",
+      "reference_group": "1977_launch",
+      "focus_ru": "Поднимающаяся ракета и отделяющийся от земли факел.",
+      "start_frame": 168,
+      "end_frame": 315,
+      "image_status": "GENERATED_DRAFT",
+      "word_range": [
+        11,
+        20
+      ],
+      "narration_exact": "In 1977, humanity sent a spacecraft called Voyager 1",
+      "motion_intent_ru": "Preserve the declared focal object; any gentle whole-image motion is finalized only against the generated composition."
+    },
+    {
+      "id": "S03",
+      "beat_ru": "Миссия к Юпитеру и Сатурну.",
+      "idea_ru": "Voyager на фоне гигантского Юпитера. Косой солнечный свет выделяет белую антенну и золотистый корпус; полосы облаков планеты уходят за края кадра. Аппарат мал по сравнению с планетой, но его характерный силуэт читается.",
+      "purpose_ru": "Показать планетную миссию и впечатляющую разницу масштабов.",
+      "transition_ru": "От газового гиганта — к другому этапу пути, у Сатурна.",
+      "depiction": "historical_reconstruction",
+      "reference_group": "voyager_jupiter",
+      "focus_ru": "Маленький аппарат перед огромной фактурой облаков.",
+      "start_frame": 315,
+      "end_frame": 459,
+      "image_status": "GENERATED_DRAFT",
+      "word_range": [
+        20,
+        31
+      ],
+      "narration_exact": "to Jupiter and Saturn. After completing its mission, it kept traveling,",
+      "motion_intent_ru": "Preserve the declared focal object; any gentle whole-image motion is finalized only against the generated composition."
+    },
+    {
+      "id": "S04",
+      "beat_ru": "Он продолжил путь и стал самым далёким работающим аппаратом.",
+      "idea_ru": "Сатурн с тонкими освещёнными кольцами остаётся в глубине слева, Voyager находится ближе справа; впереди открывается тёмное пространство. Диагональная композиция направляет взгляд от планеты к аппарату и дальше за край кадра.",
+      "purpose_ru": "Закончить краткую планетную предысторию движением в неизвестность.",
+      "transition_ru": "Резкая смена места и десятилетий: космос — современная рабочая комната.",
+      "depiction": "historical_reconstruction",
+      "reference_group": "voyager_saturn",
+      "focus_ru": "Аппарат между оставшейся позади планетой и открытым пространством.",
+      "start_frame": 459,
+      "end_frame": 605,
+      "image_status": "GENERATED_DRAFT",
+      "word_range": [
+        31,
+        41
+      ],
+      "narration_exact": "becoming the most distant operating spacecraft ever built by humans.",
+      "motion_intent_ru": "Preserve the declared focal object; any gentle whole-image motion is finalized only against the generated composition."
+    },
+    {
+      "id": "S05",
+      "beat_ru": "Ноябрь 2023: сообщения перестают быть понятными.",
+      "idea_ru": "Общий план профессионального помещения команды: несколько рабочих станций, оборудование в стойках, стол совместного разбора. Один специалист поворачивает экран к коллеге, третий подходит из глубины. На экранах различимы информационные панели; среда выглядит рабочей, обжитой и связной.",
+      "purpose_ru": "Представить команду и момент появления общей инженерной проблемы.",
+      "transition_ru": "Общий план задаёт географию комнаты; следующий кадр приближает конкретную проблему на одном столе.",
+      "depiction": "historical_reconstruction",
+      "reference_group": "mission_workspace",
+      "focus_ru": "Передача внимания от одного специалиста к двум коллегам.",
+      "start_frame": 605,
+      "end_frame": 731,
+      "image_status": "GENERATED_DRAFT",
+      "word_range": [
+        41,
+        49
+      ],
+      "narration_exact": "Decades later, in November 2023, its messages stopped",
+      "motion_intent_ru": "Preserve the declared focal object; any gentle whole-image motion is finalized only against the generated composition."
+    },
+    {
+      "id": "S06",
+      "beat_ru": "Сигнал приходит, но сообщения не удаётся прочитать.",
+      "idea_ru": "Средний план через плечо двух специалистов. Один указывает на устойчивый индикатор приёма, рядом видны длинные повторяющиеся строки поступающих данных и незаполненный результат расшифровки. Другой прослеживает строки пальцем по распечатке. На заднем плане остаются люди и оборудование из общего плана.",
+      "purpose_ru": "Развести работающую радиосвязь и непонятное содержимое сообщений; устранить пустой монитор на 27-й секунде.",
+      "transition_ru": "Из комнаты — к гигантской антенне, обеспечивающей этот приём.",
+      "depiction": "historical_reconstruction",
+      "reference_group": "mission_workspace_and_data",
+      "focus_ru": "Противопоставление видимого приёма и отсутствия понятного результата; взаимодействие двух людей.",
+      "start_frame": 731,
+      "end_frame": 866,
+      "image_status": "GENERATED_DRAFT",
+      "word_range": [
+        49,
+        61
+      ],
+      "narration_exact": "making sense back on Earth. The radio signal was still coming through.",
+      "motion_intent_ru": "Preserve the declared focal object; any gentle whole-image motion is finalized only against the generated composition."
+    },
+    {
+      "id": "S07",
+      "beat_ru": "Аппарат по-прежнему принимает команды.",
+      "idea_ru": "Огромная чаша наземной антенны снята снизу сбоку на фоне синего вечернего неба. Видны фермы, ребра отражателя и узел приёмопередающей аппаратуры. Небольшое служебное строение у основания даёт масштаб; чаша направлена за верхний край кадра.",
+      "purpose_ru": "Показать материальную инфраструктуру действующей связи вместо линии между двумя иконками.",
+      "transition_ru": "Наружная антенна — обратно к результатам её работы внутри помещения.",
+      "depiction": "historical_reconstruction",
+      "reference_group": "ground_antenna",
+      "focus_ru": "Чаша, направленная в пространство, и её огромный размер.",
+      "start_frame": 866,
+      "end_frame": 1001,
+      "image_status": "GENERATED_DRAFT",
+      "word_range": [
+        61,
+        72
+      ],
+      "narration_exact": "The spacecraft was still receiving commands. But neither its scientific measurements",
+      "motion_intent_ru": "Preserve the declared focal object; any gentle whole-image motion is finalized only against the generated composition."
+    },
+    {
+      "id": "S08",
+      "beat_ru": "Не читаются ни научные измерения, ни состояние систем.",
+      "idea_ru": "Близкий косой ракурс рабочего дисплея. Под короткими английскими заголовками SCIENCE и STATUS — две области результатов без восстановленных значений; рядом идёт принятый поток повторяющихся символов. Карандаш в руке специалиста остановлен у листа с теми же последовательностями. Экран — физическая часть живого рабочего стола.",
+      "purpose_ru": "Сделать конкретным то, чего команда лишилась: обоих видов понятной информации.",
+      "transition_ru": "От недоступных сведений — к самому недоступному аппарату.",
+      "depiction": "historical_reconstruction",
+      "reference_group": "mission_workspace_and_data",
+      "focus_ru": "Две осмысленно подписанные области результата и поступающие сырые данные.",
+      "start_frame": 1001,
+      "end_frame": 1131,
+      "image_status": "GENERATED_DRAFT",
+      "word_range": [
+        72,
+        83
+      ],
+      "narration_exact": "nor the information about its own condition could be read anymore.",
+      "motion_intent_ru": "Preserve the declared focal object; any gentle whole-image motion is finalized only against the generated composition."
+    },
+    {
+      "id": "S09",
+      "beat_ru": "Как понять внутреннюю поломку, если аппарат не может о ней рассказать?",
+      "idea_ru": "Очень близкий вид корпуса Voyager в космосе: складки теплоизоляции, крепления, часть антенны и штанга уходят за границы кадра. Косой свет оставляет часть конструкции в тени. Никакого внешнего повреждения не видно; внутренний компьютер закрыт корпусом.",
+      "purpose_ru": "Передать диагностическую недоступность через конкретную вещь, к которой невозможно прикоснуться.",
+      "transition_ru": "От почти осязаемой детали — к предельно далёкому общему плану того же аппарата.",
+      "depiction": "historical_reconstruction",
+      "reference_group": "voyager_external_detail",
+      "focus_ru": "Закрытый корпус с невидимой внутренней неисправностью.",
+      "start_frame": 1131,
+      "end_frame": 1299,
+      "image_status": "GENERATED_DRAFT",
+      "word_range": [
+        83,
+        101
+      ],
+      "narration_exact": "How do you figure out what's broken when a spacecraft can't even tell you what's happening inside it?",
+      "motion_intent_ru": "Preserve the declared focal object; any gentle whole-image motion is finalized only against the generated composition."
+    },
+    {
+      "id": "S10",
+      "beat_ru": "Примерно 24 миллиарда километров от Земли.",
+      "idea_ru": "Предельно общий план: Voyager занимает маленькую, но различимую часть кадра; вокруг огромное тёмное пространство. Солнце — далёкая яркая точка в стороне антенны. Земля не увеличена до видимого соседнего шара. Резкий контраст с макродеталью предыдущей сцены.",
+      "purpose_ru": "Превратить названное расстояние в ощущение изоляции.",
+      "transition_ru": "Из текущей удалённой точки — к объясняющему образу перехода в 2012 году.",
+      "depiction": "historical_reconstruction",
+      "reference_group": "voyager_distant_sun",
+      "focus_ru": "Маленький аппарат и подавляющее пустое пространство.",
+      "start_frame": 1299,
+      "end_frame": 1437,
+      "image_status": "GENERATED_DRAFT",
+      "word_range": [
+        101,
+        112
+      ],
+      "narration_exact": "By then, Voyager 1 was about 24 billion kilometers from Earth.",
+      "motion_intent_ru": "Preserve the declared focal object; any gentle whole-image motion is finalized only against the generated composition."
+    },
+    {
+      "id": "S11",
+      "beat_ru": "В 2012 году Voyager пересёк границу гелиосферы.",
+      "idea_ru": "Объёмный художественный вид сбоку: небольшой Voyager на фоне мягкого перехода между условно показанными потоками околосолнечной среды и внешним пространством. Полупрозрачные световые структуры редеют и меняют направление; нет твёрдой оболочки, стеклянного купола или светящегося портала.",
+      "purpose_ru": "Дать образ смены среды, не изображая физическую стену.",
+      "transition_ru": "От локального участка перехода — к общему масштабу околосолнечной области.",
+      "depiction": "explanatory_visualization",
+      "reference_group": "heliosphere_visual_reference",
+      "focus_ru": "Непрерывный пространственный переход, возле которого виден аппарат.",
+      "start_frame": 1437,
+      "end_frame": 1575,
+      "image_status": "GENERATED_DRAFT",
+      "word_range": [
+        112,
+        124
+      ],
+      "narration_exact": "In 2012, it had crossed the boundary of the heliosphere — the",
+      "motion_intent_ru": "Preserve the declared focal object; any gentle whole-image motion is finalized only against the generated composition."
+    },
+    {
+      "id": "S12",
+      "beat_ru": "Огромная область, сформированная солнечным ветром и магнитным полем.",
+      "idea_ru": "Грандиозный пространственный образ гелиосферы: Солнце внутри протяжённой полупрозрачной среды, мягкие струящиеся структуры передают солнечный ветер и влияние поля. Свет рассеивается в глубине, форма не выглядит идеально круглой твёрдой сферой. Нет стрелок, осей или карточек.",
+      "purpose_ru": "Показать, что именно окружает Солнце и почему это область пространства, а не линия на карте.",
+      "transition_ru": "От общего околосолнечного пространства — к прибору, работающему за его границей.",
+      "depiction": "explanatory_visualization",
+      "reference_group": "heliosphere_visual_reference",
+      "focus_ru": "Солнце и окружающая его протяжённая среда.",
+      "start_frame": 1575,
+      "end_frame": 1713,
+      "image_status": "GENERATED_DRAFT",
+      "word_range": [
+        124,
+        137
+      ],
+      "narration_exact": "enormous region around the Sun shaped by the solar wind and magnetic field.",
+      "motion_intent_ru": "Preserve the declared focal object; any gentle whole-image motion is finalized only against the generated composition."
+    },
+    {
+      "id": "S13",
+      "beat_ru": "За границей начались исследования межзвёздной среды.",
+      "idea_ru": "Близкий перспективный вид вдоль научной штанги Voyager: прибор на переднем плане, корпус и антенна глубже, за ними редкое звёздное поле. Холодные блики показывают реальную фактуру металла. Без яркой туманности, придуманного луча сканирования и декоративных потоков данных.",
+      "purpose_ru": "Подчеркнуть, что аппарат здесь измеряет среду, а не просто продолжает лететь.",
+      "transition_ru": "Научная аппаратура за пределами досягаемости — земная инфраструктура, единственный доступ к ней.",
+      "depiction": "historical_reconstruction",
+      "reference_group": "voyager_instrument_external",
+      "focus_ru": "Прибор на длинной штанге в окружающем космосе.",
+      "start_frame": 1713,
+      "end_frame": 1851,
+      "image_status": "GENERATED_DRAFT",
+      "word_range": [
+        137,
+        146
+      ],
+      "narration_exact": "Beyond that boundary, it had begun studying interstellar space.",
+      "motion_intent_ru": "Preserve the declared focal object; any gentle whole-image motion is finalized only against the generated composition."
+    },
+    {
+      "id": "S14",
+      "beat_ru": "Заменить деталь невозможно; остаётся радиосвязь.",
+      "idea_ru": "Высокий общий план наземной станции связи: большая антенна среди открытого сухого ландшафта, рядом технические здания и дороги. Чаша обращена в небо, вокруг много пространства. Отличается от низкого ракурса сцены 07: видна вся инфраструктура и её привязанность к Земле.",
+      "purpose_ru": "Показать единственный доступный способ воздействия на далёкий аппарат.",
+      "transition_ru": "От всей станции — к человеку, готовящему очередную команду.",
+      "depiction": "historical_reconstruction",
+      "reference_group": "ground_station_landscape",
+      "focus_ru": "Антенна как земной инструмент связи с недоступным аппаратом.",
+      "start_frame": 1851,
+      "end_frame": 2028,
+      "image_status": "GENERATED_DRAFT",
+      "word_range": [
+        146,
+        163
+      ],
+      "narration_exact": "There was no way to reach it and replace a part. Radio communication was the only option.",
+      "motion_intent_ru": "Preserve the declared focal object; any gentle whole-image motion is finalized only against the generated composition."
+    },
+    {
+      "id": "S15",
+      "beat_ru": "Команда летит около двадцати двух с половиной часов.",
+      "idea_ru": "Крупный боковой план двух специалистов: один готовит передачу на рабочем терминале, второй сверяет лист задания рядом. На дисплее видны пакет команды и состояние очереди передачи. У края композиции читаются часы; вечерний боковой свет задаёт начальную точку ожидания.",
+      "purpose_ru": "Показать конкретную попытку, результат которой нельзя получить сразу.",
+      "transition_ru": "От начала попытки вечером — к планете с дневной и ночной сторонами.",
+      "depiction": "historical_reconstruction",
+      "reference_group": "mission_workspace_and_data",
+      "focus_ru": "Сверка команды двумя людьми перед отправкой.",
+      "start_frame": 2028,
+      "end_frame": 2184,
+      "image_status": "GENERATED_DRAFT",
+      "word_range": [
+        163,
+        179
+      ],
+      "narration_exact": "But even that required patience. A command sent from Earth took about twenty-two and a half",
+      "motion_intent_ru": "Preserve the declared focal object; any gentle whole-image motion is finalized only against the generated composition."
+    },
+    {
+      "id": "S16",
+      "beat_ru": "Столько же времени требуется ответу.",
+      "idea_ru": "Земля из космоса: дуга атмосферы, океан, облака и ночная сторона с огнями. Граница дня и ночи пересекает планету по диагонали, за ней глубокий космос. Это один неподвижный момент; течение времени создаётся соседними сценами и рассказом.",
+      "purpose_ru": "Связать задержку с земным суточным масштабом, сохранив космическую красоту.",
+      "transition_ru": "Вернуться в ту же комнату при другом дневном освещении.",
+      "depiction": "explanatory_visualization",
+      "reference_group": "earth_day_night",
+      "focus_ru": "Соседство дня и ночи на одной планете.",
+      "start_frame": 2184,
+      "end_frame": 2340,
+      "image_status": "GENERATED_DRAFT",
+      "word_range": [
+        179,
+        193
+      ],
+      "narration_exact": "hours to reach Voyager. The reply took just as long to return. To find",
+      "motion_intent_ru": "Preserve the declared focal object; any gentle whole-image motion is finalized only against the generated composition."
+    },
+    {
+      "id": "S17",
+      "beat_ru": "Почти двое суток на одну попытку.",
+      "idea_ru": "Та же профессиональная комната в более поздний дневной момент: сотрудники у рабочих станций, один сверяется с журналом обмена. На содержательном экране видна отправленная команда и всё ещё ожидаемый ответ. Узнаваемые предметы связывают кадр со сценой 15; сменился свет, а результата ещё нет.",
+      "purpose_ru": "Показать ожидание через неизменную задачу и изменившуюся земную обстановку.",
+      "transition_ru": "Один долгий обмен — накопленные месяцы совместного поиска.",
+      "depiction": "historical_reconstruction",
+      "reference_group": "mission_workspace_and_data",
+      "focus_ru": "Знакомая команда и всё ещё незавершённый обмен.",
+      "start_frame": 2340,
+      "end_frame": 2496,
+      "image_status": "GENERATED_DRAFT",
+      "word_range": [
+        193,
+        207
+      ],
+      "narration_exact": "out whether a single attempt had worked, engineers had to wait almost two days.",
+      "motion_intent_ru": "Preserve the declared focal object; any gentle whole-image motion is finalized only against the generated composition."
+    },
+    {
+      "id": "S18",
+      "beat_ru": "Причину искали несколько месяцев.",
+      "idea_ru": "Три специалиста за общим столом: один сопоставляет распечатки разных сеансов, второй делает пометки, третий сверяет данные на рабочем дисплее. В глубине аккуратно собраны папки и листы предыдущих разборов. Свет обычный рабочий, внимание сосредоточено на конкретном сравнении.",
+      "purpose_ru": "Передать продолжительную аналитическую работу и накопление попыток.",
+      "transition_ru": "Из множества материалов выделяется конкретный подозреваемый узел — компьютер.",
+      "depiction": "historical_reconstruction",
+      "reference_group": "mission_workspace_and_records",
+      "focus_ru": "Сопоставление разных сеансов командой, а не декоративная гора бумаг.",
+      "start_frame": 2496,
+      "end_frame": 2616,
+      "image_status": "GENERATED_DRAFT",
+      "word_range": [
+        207,
+        217
+      ],
+      "narration_exact": "They spent months searching for the cause. Their suspicions turned",
+      "motion_intent_ru": "Preserve the declared focal object; any gentle whole-image motion is finalized only against the generated composition."
+    },
+    {
+      "id": "S19",
+      "beat_ru": "Подозрение пало на один из бортовых компьютеров.",
+      "idea_ru": "Предметный макроплан вычислительной электроники поколения аппарата: плотная плата, микросхемы и соединения, отчётливый боковой свет, малая глубина резкости. Это объясняющий вид узла, без выдуманной точной компоновки внутри Voyager; конкретная фактура выбирается по визуальному референсу.",
+      "purpose_ru": "Перевести внимание от всего аппарата к вычислительной задаче внутри него.",
+      "transition_ru": "От вычислительного узла — к физической цепочке приборы, корпус, передающая антенна.",
+      "depiction": "explanatory_visualization",
+      "reference_group": "flight_computer_hardware",
+      "focus_ru": "Микросхемы и соединения вместо абстрактного куба.",
+      "start_frame": 2616,
+      "end_frame": 2736,
+      "image_status": "GENERATED_DRAFT",
+      "word_range": [
+        217,
+        227
+      ],
+      "narration_exact": "to one of the onboard computers. It collected scientific and",
+      "motion_intent_ru": "Preserve the declared focal object; any gentle whole-image motion is finalized only against the generated composition."
+    },
+    {
+      "id": "S20",
+      "beat_ru": "Компьютер собирал данные и готовил их к отправке.",
+      "idea_ru": "Трёхчетвертной вид Voyager: в переднем плане различима научная аппаратура, за ней центральный корпус, над ним большая передающая антенна. Направление штанг и свет ведут взгляд от приборов к корпусу и чаше; роль компьютера объясняет голос.",
+      "purpose_ru": "Показать материальную систему, в которой измерения превращаются в сообщения, без декоративной светящейся сети.",
+      "transition_ru": "От аппаратуры в космосе — к конкретной диагностической команде с Земли.",
+      "depiction": "historical_reconstruction",
+      "reference_group": "voyager_full_external",
+      "focus_ru": "Связное расположение приборов, корпуса и антенны.",
+      "start_frame": 2736,
+      "end_frame": 2856,
+      "image_status": "GENERATED_DRAFT",
+      "word_range": [
+        227,
+        239
+      ],
+      "narration_exact": "engineering data and prepared that information to be sent back to Earth.",
+      "motion_intent_ru": "Preserve the declared focal object; any gentle whole-image motion is finalized only against the generated composition."
+    },
+    {
+      "id": "S21",
+      "beat_ru": "Март 2024: диагностическая команда.",
+      "idea_ru": "Диагональный крупный план рабочего места: специалист выбирает подготовленную диагностическую задачу, коллега сверяет её с листом задания. На экране осмысленный пакет и состояние передачи; видимый мартовский заголовок журнала отделяет эпизод от апрельского исправления. Никакого предвосхищения успеха.",
+      "purpose_ru": "Показать осознанную диагностическую попытку, отличную от будущего программного исправления.",
+      "transition_ru": "Команда отправлена — на соседнем плане исследуют вернувшийся необычный поток.",
+      "depiction": "historical_reconstruction",
+      "reference_group": "mission_workspace_and_data",
+      "focus_ru": "Проверяемая диагностическая задача и совместная сверка.",
+      "start_frame": 2856,
+      "end_frame": 2998,
+      "image_status": "GENERATED_DRAFT",
+      "word_range": [
+        239,
+        249
+      ],
+      "narration_exact": "In March 2024, the team sent a diagnostic command. Once",
+      "motion_intent_ru": "Preserve the declared focal object; any gentle whole-image motion is finalized only against the generated composition."
+    },
+    {
+      "id": "S22",
+      "beat_ru": "Необычный ответ на этот раз удалось расшифровать.",
+      "idea_ru": "Средний боковой план двух специалистов у дисплея с подробным новым массивом данных. Один отмечает повторяющуюся структуру на распечатке, другой находит соответствующий участок на экране. Они наклонены к одной задаче; сдержанная сосредоточенность без празднования восстановленной связи.",
+      "purpose_ru": "Показать первый диагностический прорыв: необычный ответ стал доступен разбору.",
+      "transition_ru": "Следующий крупный план раскрывает, что именно они получили — содержимое памяти.",
+      "depiction": "historical_reconstruction",
+      "reference_group": "mission_workspace_and_memory_dump",
+      "focus_ru": "Соответствие найденной структуры на бумаге и экране.",
+      "start_frame": 2998,
+      "end_frame": 3139,
+      "image_status": "GENERATED_DRAFT",
+      "word_range": [
+        249,
+        260
+      ],
+      "narration_exact": "again, unusual data came back. But this time, the engineers managed",
+      "motion_intent_ru": "Preserve the declared focal object; any gentle whole-image motion is finalized only against the generated composition."
+    },
+    {
+      "id": "S23",
+      "beat_ru": "Получено содержимое памяти бортового компьютера.",
+      "idea_ru": "Крупный диагональный ракурс дисплея и распечатки. На экране плотные строки содержимого памяти, устойчивые группы и отметки расположения; один и тот же рисунок групп различим на бумаге. Кончик карандаша связывает два носителя. Информационная насыщенность принципиально отличается от нечитаемых сообщений в начале.",
+      "purpose_ru": "Дать команде и зрителю конкретный предмет дальнейшего анализа — память, а не уже восстановленный отчёт о системах.",
+      "transition_ru": "К полученному содержимому добавляются прежние записи для сравнения.",
+      "depiction": "historical_reconstruction",
+      "reference_group": "mission_workspace_and_memory_dump",
+      "focus_ru": "Организованные данные памяти на двух носителях.",
+      "start_frame": 3139,
+      "end_frame": 3281,
+      "image_status": "GENERATED_DRAFT",
+      "word_range": [
+        260,
+        272
+      ],
+      "narration_exact": "to decode it. It was the contents of the onboard computer's memory.",
+      "motion_intent_ru": "Preserve the declared focal object; any gentle whole-image motion is finalized only against the generated composition."
+    },
+    {
+      "id": "S24",
+      "beat_ru": "Сравнение с прежними записями выявило повреждение примерно трёх процентов памяти.",
+      "idea_ru": "Вид сверху под углом на стол двух специалистов. Рядом лежат прежняя и новая распечатки с совпадающей структурой; небольшой отличающийся участок выделен карандашом. Одна рука удерживает старый лист, другая показывает расхождение на новом; дисплей в глубине подтверждает рабочий контекст.",
+      "purpose_ru": "Показать способ обнаружения локальной проблемы, не объявляя поломку всей памяти.",
+      "transition_ru": "Из конкретного сравнения данных — в предметную аналогию того, почему небольшой участок остановил подготовку сообщений.",
+      "depiction": "historical_reconstruction",
+      "reference_group": "mission_workspace_and_memory_comparison",
+      "focus_ru": "Два сопоставимых листа и небольшой выделенный участок.",
+      "start_frame": 3281,
+      "end_frame": 3458,
+      "image_status": "GENERATED_DRAFT",
+      "word_range": [
+        272,
+        290
+      ],
+      "narration_exact": "By comparing it with earlier records, they found the problem. About three percent of the memory had been",
+      "motion_intent_ru": "Preserve the declared focal object; any gentle whole-image motion is finalized only against the generated composition."
+    },
+    {
+      "id": "S25",
+      "beat_ru": "В повреждённом участке находилась необходимая часть программы.",
+      "idea_ru": "Наш путешественник у реалистичного деревянного стола в светлой мастерской объяснений. Перед ним длинный настольный органайзер, плотные стопки занимают большую часть отделений. Небольшая область закрыта бордовой вставкой; полоса инструкций пересекает именно её. Левая ладонь на краю стола, правая указывает на перекрытый участок.",
+      "purpose_ru": "Объяснить, почему небольшая потеря памяти затронула важную программу. Это явно предметная демонстрация ведущего, а не работа инженера NASA.",
+      "transition_ru": "Напомнить, что настоящая микросхема остаётся недоступной в космосе.",
+      "depiction": "presenter_analogy",
+      "reference_group": "traveler_memory_workbench",
+      "focus_ru": "Длинная полоса и небольшой перекрывающий её недоступный участок.",
+      "start_frame": 3458,
+      "end_frame": 3635,
+      "image_status": "GENERATED_DRAFT",
+      "word_range": [
+        290,
+        305
+      ],
+      "narration_exact": "damaged. That section contained part of the program needed to prepare the spacecraft's messages. They",
+      "motion_intent_ru": "Preserve the declared focal object; any gentle whole-image motion is finalized only against the generated composition."
+    },
+    {
+      "id": "S26",
+      "beat_ru": "Микросхему нельзя починить физически; инструкции можно перенести.",
+      "idea_ru": "Тесный ракурс на закрытый центральный корпус Voyager за краем большой антенны. Теплоизоляция, крепления и тёмные зазоры подчёркнуто материальны; внутрь не заглянуть. За аппаратом только космос. В отличие от сцены 09, камера смотрит вдоль корпуса к уходящей штанге.",
+      "purpose_ru": "Вернуть физическое ограничение: доступно программное воздействие, а не замена детали.",
+      "transition_ru": "От недоступного корпуса — к решению, которое ведущий показывает на столе.",
+      "depiction": "historical_reconstruction",
+      "reference_group": "voyager_external_detail",
+      "focus_ru": "Закрытый корпус без внешних ожогов и без инструментов.",
+      "start_frame": 3635,
+      "end_frame": 3786,
+      "image_status": "GENERATED_DRAFT",
+      "word_range": [
+        305,
+        319
+      ],
+      "narration_exact": "couldn't repair the chip onboard. But they could try moving the necessary instructions into",
+      "motion_intent_ru": "Preserve the declared focal object; any gentle whole-image motion is finalized only against the generated composition."
+    },
+    {
+      "id": "S27",
+      "beat_ru": "Попробовать разместить программу в исправной памяти.",
+      "idea_ru": "Низкий перспективный план знакомого органайзера. Путешественник приподнял длинную полосу инструкций над недоступной бордовой областью и направляет её к свободной части стола. По глубине отчётливо видны три свободных промежутка среди занятых отделений; исходная бордовая вставка остаётся на месте.",
+      "purpose_ru": "Показать перенос нужных инструкций и подготовить новое препятствие — свободное место разрозненно.",
+      "transition_ru": "Следующая композиция позволяет сравнить длину полосы с каждым промежутком.",
+      "depiction": "presenter_analogy",
+      "reference_group": "traveler_memory_workbench",
+      "focus_ru": "Цельная полоса над разнесёнными свободными местами.",
+      "start_frame": 3786,
+      "end_frame": 3936,
+      "image_status": "GENERATED_DRAFT",
+      "word_range": [
+        319,
+        329
+      ],
+      "narration_exact": "undamaged memory. Then they ran into another problem. No single",
+      "motion_intent_ru": "Preserve the declared focal object; any gentle whole-image motion is finalized only against the generated composition."
+    },
+    {
+      "id": "S28",
+      "beat_ru": "Ни один свободный участок не вмещает программу целиком.",
+      "idea_ru": "Средний боковой план: ведущий держит полосу за оба конца над органайзером. Её длина зримо превышает каждый свободный промежуток; крупные занятые стопки не дают сдвинуть всё в одну область. Полоса и все три свободных места видны одновременно.",
+      "purpose_ru": "Сделать препятствие понятным по соотношению предметов, без поясняющей таблицы.",
+      "transition_ru": "Сохранить длину и рисунок инструкции при переходе к разделённым фрагментам.",
+      "depiction": "presenter_analogy",
+      "reference_group": "traveler_memory_workbench",
+      "focus_ru": "Несоответствие длины полосы размеру любого свободного места.",
+      "start_frame": 3936,
+      "end_frame": 4056,
+      "image_status": "GENERATED_DRAFT",
+      "word_range": [
+        329,
+        344
+      ],
+      "narration_exact": "free section of memory was large enough to hold that part of the program in",
+      "motion_intent_ru": "Preserve the declared focal object; any gentle whole-image motion is finalized only against the generated composition."
+    },
+    {
+      "id": "S29",
+      "beat_ru": "Программу разделили и разместили в разных местах.",
+      "idea_ru": "Диагональный крупный план того же стола. Та же инструкция разделена на три последовательных фрагмента, отмеченных 1, 2, 3. Они помещены в свободные отделения: слева 2, в середине 3, справа 1. Правая рука ведущего завершает размещение последнего фрагмента; бордовая область неизменна.",
+      "purpose_ru": "Показать, что части помещаются по отдельности; физическое расположение уже не задаёт правильный порядок выполнения.",
+      "transition_ru": "Следующий кадр показывает незавершённую часть решения — исправление связей между фрагментами.",
+      "depiction": "presenter_analogy",
+      "reference_group": "traveler_memory_workbench",
+      "focus_ru": "Три заполненных разнесённых места с различимым порядком 2–3–1.",
+      "start_frame": 4056,
+      "end_frame": 4215,
+      "image_status": "GENERATED_DRAFT",
+      "word_range": [
+        344,
+        359
+      ],
+      "narration_exact": "one piece. So the engineers split the code into smaller pieces and placed them in",
+      "motion_intent_ru": "Preserve the declared focal object; any gentle whole-image motion is finalized only against the generated composition."
+    },
+    {
+      "id": "S30",
+      "beat_ru": "После переноса потребовалось изменить обращения внутри программы.",
+      "idea_ru": "Крупный план с уровня стола. Фрагменты остаются на тех же местах; тонкая нить от фрагмента 1 ещё заканчивается у прежнего места, другая уже направлена к фрагменту 2. Пальцы ведущего переставляют небольшой зажим-указатель к новому отделению. Логическая связь отделена от расположения бумаги.",
+      "purpose_ru": "Объяснить, почему одного размещения недостаточно: прежние ссылки ведут не туда.",
+      "transition_ru": "От незавершённого перенаправления — к полностью согласованной цепочке.",
+      "depiction": "presenter_analogy",
+      "reference_group": "traveler_memory_workbench",
+      "focus_ru": "Один изменяемый конец связи и неподвижные фрагменты.",
+      "start_frame": 4215,
+      "end_frame": 4374,
+      "image_status": "GENERATED_DRAFT",
+      "word_range": [
+        359,
+        374
+      ],
+      "narration_exact": "different locations. Then they had to change the references inside the program, so the computer",
+      "motion_intent_ru": "Preserve the declared focal object; any gentle whole-image motion is finalized only against the generated composition."
+    },
+    {
+      "id": "S31",
+      "beat_ru": "Новые адреса позволяют всем частям снова работать вместе.",
+      "idea_ru": "Верхний диагональный план всей предметной демонстрации. Фрагменты физически остаются в порядке 2–3–1, но тонкие связи последовательно соединяют 1, затем 2, затем 3. Занятые стопки и бордовая вставка на прежних местах; руки ведущего отведены от готового решения.",
+      "purpose_ru": "Закрыть причинную цепочку: разнесённые фрагменты работают совместно благодаря обновлённым обращениям.",
+      "transition_ru": "Из законченной аналогии — к реальному выбору первого программного исправления на Земле.",
+      "depiction": "presenter_analogy",
+      "reference_group": "traveler_memory_workbench",
+      "focus_ru": "Логическая последовательность 1–2–3 при прежнем пространственном порядке 2–3–1.",
+      "start_frame": 4374,
+      "end_frame": 4534,
+      "image_status": "GENERATED_DRAFT",
+      "word_range": [
+        374,
+        390
+      ],
+      "narration_exact": "could find the instructions at their new addresses and all the pieces could work together again.",
+      "motion_intent_ru": "Preserve the declared focal object; any gentle whole-image motion is finalized only against the generated composition."
+    },
+    {
+      "id": "S32",
+      "beat_ru": "Сначала решили вернуть сведения о состоянии аппарата.",
+      "idea_ru": "Два специалиста за общим столом отделяют рабочий комплект по состоянию систем от научных материалов. Один показывает на короткий английский заголовок STATUS в задании, второй сверяет подготовленное изменение. Два комплекта имеют разное назначение, но остаются частью одной рабочей среды.",
+      "purpose_ru": "Сделать видимым выбор приоритета: сначала получить сведения о самом аппарате.",
+      "transition_ru": "Показать аппарат, состояние которого пока неизвестно команде.",
+      "depiction": "historical_reconstruction",
+      "reference_group": "mission_workspace_and_status_task",
+      "focus_ru": "Выбранное задание STATUS среди двух направлений работы.",
+      "start_frame": 4534,
+      "end_frame": 4655,
+      "image_status": "GENERATED_DRAFT",
+      "word_range": [
+        390,
+        402
+      ],
+      "narration_exact": "They decided to start with the program that prepared information about the",
+      "motion_intent_ru": "Preserve the declared focal object; any gentle whole-image motion is finalized only against the generated composition."
+    },
+    {
+      "id": "S33",
+      "beat_ru": "Вернуть хотя бы состояние систем.",
+      "idea_ru": "Полнокадровый близкий вид работающего Voyager: большая антенна, центральный корпус и вынесенные конструкции образуют цельный узнаваемый аппарат. Солнечный свет обрисовывает его края; никаких условных зелёных индикаторов на корпусе. Голос объясняет необходимость узнать, как работают его системы.",
+      "purpose_ru": "Напомнить, что ожидаемый отчёт относится к реальной машине, а не к красивой форме на экране.",
+      "transition_ru": "От самой машины — к готовящимся принять её ответ людям.",
+      "depiction": "historical_reconstruction",
+      "reference_group": "voyager_full_external",
+      "focus_ru": "Узнаваемые системы и конструкции аппарата как предмет ожидаемого отчёта.",
+      "start_frame": 4655,
+      "end_frame": 4776,
+      "image_status": "GENERATED_DRAFT",
+      "word_range": [
+        402,
+        412
+      ],
+      "narration_exact": "spacecraft's condition. If they could restore even that, the team",
+      "motion_intent_ru": "Preserve the declared focal object; any gentle whole-image motion is finalized only against the generated composition."
+    },
+    {
+      "id": "S34",
+      "beat_ru": "Команда снова сможет видеть работу систем, если исправление сработает.",
+      "idea_ru": "Общий боковой план комнаты: один специалист заканчивает сверку пакета исправления, второй готовит рабочее место приёма, третий перечитывает задание рядом. На дисплеях видны подготовленный обмен и задача ожидания статуса; новых достоверных сведений о Voyager ещё нет. Свет сохраняет напряжение подготовки.",
+      "purpose_ru": "Свести программное решение и человеческую цель в один момент перед отправкой.",
+      "transition_ru": "Из подготовки — к конкретной отправке 18 апреля.",
+      "depiction": "historical_reconstruction",
+      "reference_group": "mission_workspace_and_status_task",
+      "focus_ru": "Разные согласованные действия команды перед одной попыткой.",
+      "start_frame": 4776,
+      "end_frame": 4898,
+      "image_status": "GENERATED_DRAFT",
+      "word_range": [
+        412,
+        424
+      ],
+      "narration_exact": "would once again be able to see how its systems were working.",
+      "motion_intent_ru": "Preserve the declared focal object; any gentle whole-image motion is finalized only against the generated composition."
+    },
+    {
+      "id": "S35",
+      "beat_ru": "18 апреля исправление отправили с Земли.",
+      "idea_ru": "Крупный ракурс через плечо: отправляющий специалист подтверждает подготовленный пакет, коллега стоит рядом с контрольным листом. В журнале виден апрельский сеанс передачи и понятное состояние SENT. Обе руки оператора естественно относятся к клавиатуре и мыши; лица и экран остаются читаемыми.",
+      "purpose_ru": "Отделить отправку исправления от мартовской диагностики и будущего результата.",
+      "transition_ru": "От завершённого земного действия — к долгому пути сигнала.",
+      "depiction": "historical_reconstruction",
+      "reference_group": "mission_workspace_and_fix_send",
+      "focus_ru": "Момент подтверждённой отправки и совместная сверка.",
+      "start_frame": 4898,
+      "end_frame": 5040,
+      "image_status": "GENERATED_DRAFT",
+      "word_range": [
+        424,
+        438
+      ],
+      "narration_exact": "On April 18, they sent the fix from Earth. It took almost a full",
+      "motion_intent_ru": "Preserve the declared focal object; any gentle whole-image motion is finalized only against the generated composition."
+    },
+    {
+      "id": "S36",
+      "beat_ru": "Почти сутки к аппарату и почти сутки обратно.",
+      "idea_ru": "Voyager виден со стороны края своей антенны: крупная чаша обрамляет передний план, корпус дальше погружён в холодную тень, за ним огромное пустое пространство. Далёкий солнечный свет едва касается кромки. Радиоволны не нарисованы физическими лучами; длительность передаётся пространством и голосом.",
+      "purpose_ru": "Дать паузу ожидания после действия и вновь почувствовать расстояние.",
+      "transition_ru": "Из неподвижного космоса — к первому читаемому ответу на Земле.",
+      "depiction": "historical_reconstruction",
+      "reference_group": "voyager_antenna_space",
+      "focus_ru": "Край антенны, обращённой к невидимой далёкой Земле.",
+      "start_frame": 5040,
+      "end_frame": 5210,
+      "image_status": "GENERATED_DRAFT",
+      "word_range": [
+        438,
+        451
+      ],
+      "narration_exact": "day to reach Voyager. Then the reply took almost another day to return.",
+      "motion_intent_ru": "Preserve the declared focal object; any gentle whole-image motion is finalized only against the generated composition."
+    },
+    {
+      "id": "S37",
+      "beat_ru": "20 апреля пришло сообщение, которое удалось прочитать.",
+      "idea_ru": "Крупный план рабочего экрана с принятым сообщением: вместо сырой повторяющейся последовательности — структурированный отчёт о системах. Видны короткие английские названия разделов, строки сведений и отметка получения. Специалист наклонился к экрану; в отражении читается внимательное лицо.",
+      "purpose_ru": "Показать конкретное изменение результата по сравнению с кадрами 06–08.",
+      "transition_ru": "От самого результата — к реакции людей, которые его добились.",
+      "depiction": "historical_reconstruction",
+      "reference_group": "mission_workspace_readable_status",
+      "focus_ru": "Понятный организованный отчёт вместо прежнего бессвязного потока.",
+      "start_frame": 5210,
+      "end_frame": 5339,
+      "image_status": "GENERATED_DRAFT",
+      "word_range": [
+        451,
+        462
+      ],
+      "narration_exact": "On April 20, engineers received a message they could actually read.",
+      "motion_intent_ru": "Preserve the declared focal object; any gentle whole-image motion is finalized only against the generated composition."
+    },
+    {
+      "id": "S38",
+      "beat_ru": "Первый понятный ответ за пять месяцев.",
+      "idea_ru": "Средний групповой план со стороны дисплея. Те же специалисты собрались у полученного отчёта: один снимает очки, другой слегка улыбается, третий показывает коллеге на экран. Плечи расслабились; это тихое человеческое облегчение, без постановочной церемонии или конкретных придуманных реплик.",
+      "purpose_ru": "Дать почувствовать цену результата после долгого ожидания и работы.",
+      "transition_ru": "Вернуться от реакции к тому, что именно снова стало доступно.",
+      "depiction": "historical_reconstruction",
+      "reference_group": "mission_team_continuity",
+      "focus_ru": "Сдержанное общее облегчение при продолжающемся чтении отчёта.",
+      "start_frame": 5339,
+      "end_frame": 5468,
+      "image_status": "GENERATED_DRAFT",
+      "word_range": [
+        462,
+        473
+      ],
+      "narration_exact": "For the first time in five months, the spacecraft had sent",
+      "motion_intent_ru": "Preserve the declared focal object; any gentle whole-image motion is finalized only against the generated composition."
+    },
+    {
+      "id": "S39",
+      "beat_ru": "Вновь понятны сведения о работе систем.",
+      "idea_ru": "Косой предметный план уже заполненного отчёта и распечатанного принятого сообщения на столе. Заголовок STATUS, связные строки и согласованные группы информации различимы; рука специалиста отмечает разобранный раздел. Научный комплект остаётся отдельно. Точные реальные значения и вымышленные показания приборов не требуются.",
+      "purpose_ru": "Закрепить предел успеха: сведения о состоянии вернулись, научные измерения — следующий этап.",
+      "transition_ru": "К научному комплекту, который теперь снова становится предметом работы.",
+      "depiction": "historical_reconstruction",
+      "reference_group": "mission_workspace_readable_status",
+      "focus_ru": "Полученный отчёт о системах и осмысленный разбор его раздела.",
+      "start_frame": 5468,
+      "end_frame": 5597,
+      "image_status": "GENERATED_DRAFT",
+      "word_range": [
+        473,
+        482
+      ],
+      "narration_exact": "back understandable information about the condition of its systems.",
+      "motion_intent_ru": "Preserve the declared focal object; any gentle whole-image motion is finalized only against the generated composition."
+    },
+    {
+      "id": "S40",
+      "beat_ru": "Теперь можно возвращать научные измерения.",
+      "idea_ru": "Средний план другой части того же профессионального пространства. Специалист раскрывает ранее отложенный комплект SCIENCE, коллега готовит сеанс и сверяет перечень приборов. На мониторе рабочие материалы подготовки, а не преждевременное утверждение, что все четыре потока уже восстановлены.",
+      "purpose_ru": "Показать переход к следующей задаче после возвращения статуса.",
+      "transition_ru": "К июньскому результату этого этапа — четырём вновь поступающим потокам.",
+      "depiction": "historical_reconstruction",
+      "reference_group": "mission_workspace_science_task",
+      "focus_ru": "Возвращение отложенной научной задачи в активную работу.",
+      "start_frame": 5597,
+      "end_frame": 5753,
+      "image_status": "GENERATED_DRAFT",
+      "word_range": [
+        482,
+        495
+      ],
+      "narration_exact": "Now they could turn to the scientific measurements. By June, data was once",
+      "motion_intent_ru": "Preserve the declared focal object; any gentle whole-image motion is finalized only against the generated composition."
+    },
+    {
+      "id": "S41",
+      "beat_ru": "К июню данные приходили со всех четырёх работавших приборов.",
+      "idea_ru": "Широкий близкий ракурс научного рабочего дисплея в комнате команды. Четыре ясно различимые области показывают поступающие серии измерений с самостоятельной структурой; специалист сверяет их с перечнем приборов. Дневной свет и спокойная рабочая обстановка передают возвращение обычной научной работы.",
+      "purpose_ru": "Завершить второй этап восстановления конкретным итогом — работают все четыре канала научных данных.",
+      "transition_ru": "После успешного результата напомнить, что исходный дефект при этом не исчез.",
+      "depiction": "historical_reconstruction",
+      "reference_group": "mission_workspace_four_instruments",
+      "focus_ru": "Четыре различимых содержательных потока, а не четыре одинаковые декоративные полосы.",
+      "start_frame": 5753,
+      "end_frame": 5909,
+      "image_status": "GENERATED_DRAFT",
+      "word_range": [
+        495,
+        510
+      ],
+      "narration_exact": "again arriving from all four instruments that were still operating onboard at the time. The",
+      "motion_intent_ru": "Preserve the declared focal object; any gentle whole-image motion is finalized only against the generated composition."
+    },
+    {
+      "id": "S42",
+      "beat_ru": "Повреждённая память осталась повреждённой; её удалось обойти.",
+      "idea_ru": "Крупный диагональный возврат к знакомому органайзеру. Бордовая вставка на том же месте, три фрагмента в тех же разнесённых отделениях; последовательные связи обходят закрытую область. На дальнем плане узнаётся охристая куртка ведущего, но главное — неизменный дефект и работающий обход.",
+      "purpose_ru": "В одном образе показать предел ремонта и смысл найденного решения.",
+      "transition_ru": "От настольного объяснения — к действующей связи Земли с аппаратом.",
+      "depiction": "presenter_analogy",
+      "reference_group": "traveler_memory_workbench",
+      "focus_ru": "Та же недоступная область рядом с завершённой цепочкой 1–2–3.",
+      "start_frame": 5909,
+      "end_frame": 6057,
+      "image_status": "GENERATED_DRAFT",
+      "word_range": [
+        510,
+        522
+      ],
+      "narration_exact": "damaged memory remained damaged. But the engineers had found a way around",
+      "motion_intent_ru": "Preserve the declared focal object; any gentle whole-image motion is finalized only against the generated composition."
+    },
+    {
+      "id": "S43",
+      "beat_ru": "Запущенный почти полвека назад аппарат продолжает работу.",
+      "idea_ru": "Дальний земной план антенны на рассвете. Чаша по-прежнему направлена в небо, внизу видны небольшие здания станции, на металле первый тёплый свет. Место узнаваемо по началу фильма, но теперь его смысл — продолжение действующей связи после найденного обхода.",
+      "purpose_ru": "Связать человеческий результат с продолжающейся миссией и вернуть начальный мотив в новом значении.",
+      "transition_ru": "Склейка от земной чаши — к антенне Voyager в космосе.",
+      "depiction": "historical_reconstruction",
+      "reference_group": "ground_station_landscape",
+      "focus_ru": "Продолжающая смотреть в небо земная антенна на новом рассвете.",
+      "start_frame": 6057,
+      "end_frame": 6205,
+      "image_status": "GENERATED_DRAFT",
+      "word_range": [
+        522,
+        534
+      ],
+      "narration_exact": "it. And a spacecraft launched almost half a century earlier could continue",
+      "motion_intent_ru": "Preserve the declared focal object; any gentle whole-image motion is finalized only against the generated composition."
+    },
+    {
+      "id": "S44",
+      "beat_ru": "Исследования продолжаются с расстояния в десятки миллиардов километров.",
+      "idea_ru": "Спокойный широкий космический финал: Voyager в три четверти, антенна всё ещё обращена к далёкой Земле; приборы и штанги различимы на фоне редких звёзд. Впереди по диагонали — открытое тёмное пространство. Аппарат мал, но контур читается; свет сдержанный, без фантастического сияния.",
+      "purpose_ru": "Закончить продолжающимся путешествием и научной работой, а не иллюзией полной замены повреждённой детали.",
+      "transition_ru": "Завершённый финал; обязательного повтора opening нет.",
+      "depiction": "historical_reconstruction",
+      "reference_group": "voyager_full_external",
+      "focus_ru": "Работающий аппарат и ещё открытый путь впереди.",
+      "start_frame": 6205,
+      "end_frame": 6353,
+      "image_status": "GENERATED_DRAFT",
+      "word_range": [
+        534,
+        545
+      ],
+      "narration_exact": "sending back scientific data from tens of billions of kilometers away.",
+      "motion_intent_ru": "Preserve the declared focal object; any gentle whole-image motion is finalized only against the generated composition."
+    }
+  ],
+  "image_status": "PLANNED_NOT_GENERATED",
+  "narration_sha256": "c9d213de801b63f17d35b42c4e9d2bb99ef9f4fdc35b82c99f1809035d8be5a4",
+  "audio": "Source/Audio/en_v02/mix_en_v02.wav",
+  "audio_sha256": "5fda59e4a321fa64bfc2ebff428e901976502dcb43eaf1f56af4f36b80660363",
+  "timing_source_sha256": "d76061a18490d192e30c86c87e29b3896cb171e4f291df903e0480ec1444bf78",
+  "word_map_sha256": "aa27b3d18b0257e2c215b19fdd141ab0ada8d333555036b35c9e735156195646",
+  "fps": 30,
+  "frame_count": 6353,
+  "duration_seconds": 211.76666666666668,
+  "consultations": [
+    "Source/Research/CONSULTATION_STORYBOARD_v03_A.md",
+    "Source/Research/CONSULTATION_STORYBOARD_v03_B.md"
+  ],
+  "character_references": [
+    "channels/nuviko_history/brand/References/traveler_turnaround_20261104.png",
+    "channels/nuviko_history/brand/References/traveler_emotions_20261104.png"
+  ],
+  "analogy": {
+    "location": "Presenter demonstration at a realistic wooden workbench, not a NASA scene or a Paper Detour diorama.",
+    "blocked_region": "Same small burgundy-covered area in S25,S27-S31,S42; never moved, opened or healed.",
+    "free_locations": "Three separated spaces divided by occupied stacks; placement remains left2,center3,right1 after S29.",
+    "logical_order": "1 then2 then3, represented by thin connections; no actual memory addresses claimed.",
+    "fragment_count": "Three demonstrative pieces only; not a factual claim about the actual number of code fragments.",
+    "content": "Same continuous printed instruction pattern divided into pieces; retain total length, order and identifying marks.",
+    "mapping": "Organizer space=available memory; occupied stacks=existing allocations; blocked area=unavailable memory; instruction strip=code needing relocation; threads=updated references.",
+    "limits": "Not physical chip repair, spatially accurate cell layout, real code or historical furniture; no cutting demonstration attributed to the mission team."
+  },
+  "motion_status": "Intent only. Whole-image movement may support the declared focus. No montage endpoints or image acceptance established until actual PNG review.",
+  "character_reference_hashes": {
+    "channels/nuviko_history/brand/References/traveler_turnaround_20261104.png": "f093ba6c1c3e97cb3ffca2e0329af93a47d7aabdfc7b77f9768b7263bfa6f0c7",
+    "channels/nuviko_history/brand/References/traveler_emotions_20261104.png": "d0e47f0560a1894f4d52d69d7826e0f1461f78733c2b80e41899459b3da2dc78"
+  }
+}

@@ -1,0 +1,234 @@
+[
+  {
+    "source": {
+      "frames": [
+        0,
+        120
+      ],
+      "id": "0659210A",
+      "mediaRef": "9B600A80",
+      "mediaType": "image",
+      "trimEndFrame": 30
+    },
+    "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/003_iq_gallery/Edit/iq_gallery_v22_review/scenes/s01_jfk.png",
+    "image_hash": "a1b1862f291735229fdfd80180b74b27a2814a2b5c1c76d7496061538f94e74b",
+    "depth_input": null,
+    "depth_hash": null,
+    "keyframes": {
+      "position": [
+        [
+          0,
+          -0.060500000000000054,
+          -0.050000000000000044,
+          "linear"
+        ],
+        [
+          119,
+          -0.03950000000000009,
+          -0.050000000000000044
+        ]
+      ],
+      "scale": [
+        [
+          0,
+          1.1,
+          1.1,
+          "linear"
+        ],
+        [
+          119,
+          1.1,
+          1.1
+        ]
+      ]
+    },
+    "sign": -1,
+    "depth_zoom": 1.0,
+    "frames": 120,
+    "fps": 30,
+    "width": 1080,
+    "height": 1920,
+    "preset": {
+      "offset": 0.12,
+      "height": 0.2,
+      "steady": 0.0,
+      "sticky": true,
+      "camera_factor": 0.35,
+      "alignment": "same"
+    },
+    "grain": {
+      "id": "g08",
+      "name": "Short Persistence",
+      "version": 1,
+      "rms_y_codes": 3.0,
+      "sigma_reference_px": 0.77,
+      "reference_short_side": 1440,
+      "update_hz": 30,
+      "rho": 0.35,
+      "mask_y": [
+        20,
+        64,
+        208,
+        235
+      ],
+      "range_y": [
+        16,
+        235
+      ],
+      "chroma": false,
+      "seed": 20261102
+    },
+    "baked_camera": {
+      "position": [
+        [
+          0,
+          -0.060500000000000054,
+          -0.050000000000000044,
+          "linear"
+        ],
+        [
+          119,
+          -0.03950000000000009,
+          -0.050000000000000044
+        ]
+      ],
+      "scale": [
+        [
+          0,
+          1.1,
+          1.1,
+          "linear"
+        ],
+        [
+          119,
+          1.1,
+          1.1
+        ]
+      ]
+    },
+    "target_keyframes": {},
+    "target_transform": {
+      "centerX": 0.5,
+      "centerY": 0.5,
+      "width": 1,
+      "height": 1,
+      "rotation": 0
+    }
+  },
+  {
+    "source": {
+      "frames": [
+        120,
+        240
+      ],
+      "id": "F41D4DD0",
+      "mediaRef": "52F09FCF",
+      "mediaType": "image",
+      "trimEndFrame": 30
+    },
+    "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/003_iq_gallery/Edit/iq_gallery_v22_review/scenes/s02_kasparov.png",
+    "image_hash": "c251d451559fe70954e4e47714a58f0fe132c3ce0caa53ee5fc55ee1d02ac4dd",
+    "depth_input": null,
+    "depth_hash": null,
+    "keyframes": {
+      "position": [
+        [
+          0,
+          -0.03950000000000009,
+          -0.050000000000000044,
+          "linear"
+        ],
+        [
+          119,
+          -0.060500000000000054,
+          -0.050000000000000044
+        ]
+      ],
+      "scale": [
+        [
+          0,
+          1.1,
+          1.1,
+          "linear"
+        ],
+        [
+          119,
+          1.1,
+          1.1
+        ]
+      ]
+    },
+    "sign": 1,
+    "depth_zoom": 1.0,
+    "frames": 120,
+    "fps": 30,
+    "width": 1080,
+    "height": 1920,
+    "preset": {
+      "offset": 0.12,
+      "height": 0.2,
+      "steady": 0.0,
+      "sticky": true,
+      "camera_factor": 0.35,
+      "alignment": "same"
+    },
+    "grain": {
+      "id": "g08",
+      "name": "Short Persistence",
+      "version": 1,
+      "rms_y_codes": 3.0,
+      "sigma_reference_px": 0.77,
+      "reference_short_side": 1440,
+      "update_hz": 30,
+      "rho": 0.35,
+      "mask_y": [
+        20,
+        64,
+        208,
+        235
+      ],
+      "range_y": [
+        16,
+        235
+      ],
+      "chroma": false,
+      "seed": 20261102
+    },
+    "baked_camera": {
+      "position": [
+        [
+          0,
+          -0.03950000000000009,
+          -0.050000000000000044,
+          "linear"
+        ],
+        [
+          119,
+          -0.060500000000000054,
+          -0.050000000000000044
+        ]
+      ],
+      "scale": [
+        [
+          0,
+          1.1,
+          1.1,
+          "linear"
+        ],
+        [
+          119,
+          1.1,
+          1.1
+        ]
+      ]
+    },
+    "target_keyframes": {},
+    "target_transform": {
+      "centerX": 0.5,
+      "centerY": 0.5,
+      "width": 1,
+      "height": 1,
+      "rotation": 0
+    }
+  }
+]

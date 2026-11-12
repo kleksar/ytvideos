@@ -1,0 +1,1 @@
+Source voice_en.mp3, ElevenLabs Lawrence. Applied exactly once: ffmpeg atempo=1.1. Mixed with Signal to Noise No Piano Melody. Source / final alignment times mapped by factor 1/1.1. Listening and precise sync UNVERIFIED.

@@ -1,0 +1,92 @@
+{
+  "channel": "paper",
+  "format": "long",
+  "fps": 30,
+  "audio": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Work/paper050-great-stink-v01-20261105/preview_end_inputs_v01/audio.wav",
+  "audio_contract": {
+    "final_audio_sha256": "135cf2151684cf7e3fb03a56cfbfb21f03c653295030e24ee8696cb5f78d0edd",
+    "applied_speed": 1.1,
+    "speed_evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Work/paper050-great-stink-v01-20261105/preview_end_inputs_v01/speed_evidence.md"
+  },
+  "scenes": [
+    {
+      "image": "../../Source/Images/scene_48_no_treatment_v01.png",
+      "start_frame": 0,
+      "end_frame": 148,
+      "direction": "left_to_right",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "scene 48 no treatment v01",
+        "reason": "Slow whole-image movement retains the main paper composition; verify faces, outfalls and subtitle clearance in rendered frames.",
+        "start": {
+          "center": [
+            0.506,
+            0.5
+          ],
+          "scale": 1.035
+        },
+        "end": {
+          "center": [
+            0.494,
+            0.5
+          ],
+          "scale": 1.055
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/scene_09_sewage_in_river_v02.png",
+      "start_frame": 148,
+      "end_frame": 298,
+      "direction": "right_to_left",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "scene 09 sewage in river v02",
+        "reason": "Slow whole-image movement retains the main paper composition; verify faces, outfalls and subtitle clearance in rendered frames.",
+        "start": {
+          "center": [
+            0.494,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.506,
+            0.5
+          ],
+          "scale": 1.035
+        }
+      }
+    }
+  ],
+  "subtitles": {
+    "mode": "words",
+    "words": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Work/paper050-great-stink-v01-20261105/preview_end_inputs_v01/words.json",
+    "transcript": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Work/paper050-great-stink-v01-20261105/preview_end_inputs_v01/transcript.txt",
+    "phrases": [
+      "limitation.",
+      "The original system",
+      "did not clean the sewage",
+      "before discharging it.",
+      "The waste still entered",
+      "the Thames.",
+      "It was simply",
+      "released farther downstream."
+    ]
+  },
+  "enforce_scene_duration": true,
+  "canvas": [
+    1280,
+    720
+  ],
+  "source_transfer": "srgb"
+}

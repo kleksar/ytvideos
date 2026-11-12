@@ -1,0 +1,23 @@
+{
+  "valid": true,
+  "errors": [],
+  "characters": 489,
+  "utf8_bytes": 494,
+  "protected_blocks": [
+    {
+      "label": "link_1",
+      "expected": 1,
+      "actual": 1,
+      "sha256": "b63b33653012d84a36557b4cc75b5f336716c2d6a6f711e90f6f19db1353e9b3"
+    },
+    {
+      "label": "hashtags",
+      "expected": 1,
+      "actual": 1,
+      "sha256": "564b3acbd477e3bae2d71070a6526ee47ac650933c6bf46809e1e2ab0ee4bd03"
+    }
+  ],
+  "limits": "Mechanical checks only: no factual, timing, URL, media or live-display validation.",
+  "changed": true,
+  "diff": "--- before\n+++ proposed\n@@ -1,4 +1,4 @@\n-A faint, sped-up radio recording might hold a computer game. Developer Weber Kai described how he decoded the sound and reported a match with an MSX game. We haven't independently repeated his procedure.\n+A faint, sped-up recording identified online as an episode of Brazil’s Clip Informática might hold a computer game. Developer Weber Kai described how he decoded the sound and reported a match with the MSX game Avenger. We haven’t independently repeated his procedure or verified a game launch.\n \n Watch the full film: https://www.youtube.com/watch?v=0RaC4t7yn5o\n \n"
+}

@@ -1,0 +1,12 @@
+{
+  "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Work/production-v01/previews/041_dune_origin_EN_v01_stage16_review.mp4",
+  "sha256": "538a834991a370537da7677f7f24df7e0927b687a84f14f689c72a0f29b2ec19",
+  "bytes": 100862508,
+  "decision": "removed_rejected_render",
+  "reason": "Loop continuity defect; replaced S12 source with exact S01 source. Lifecycle clean dry-run was blocked by unrelated skipped large research files at repository root and a missing helper path in the videos-root scan; exact episode-owned file identity was verified before unlink.",
+  "cli_blockers": [
+    "Dependency scan skipped large unrelated all_radio_deletions.jsonl and all_published_media_deletions.jsonl",
+    "videos-root scan failed to find videos/automation/palmier/inspect_connection.py"
+  ],
+  "removed": true
+}

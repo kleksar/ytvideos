@@ -1,0 +1,35 @@
+{
+  "status": "TECHNICAL_PASS",
+  "subjective_audio_listening": "UNVERIFIED",
+  "full_decode": "PASS",
+  "video_packets_and_timestamps_identical": true,
+  "video_packet_manifest_sha256": "0b67520ca0ed2931aadb3bdebcc354b68971a15ffd8805c7247f1f9223ccd4e1",
+  "audio_track_bitrate_bps": "277098",
+  "mp4": "/Users/diplomat/ytvideos/.agent/research/2026-11-10-four-shorts/production/paper_fingers/Edit/Previews/music_ab_v01/paper_fingers_A_thinking_music.mp4",
+  "sha256": "564a0022be269d353ed10f73e68329dec7f5d9bd9db6b926361b98bd469df93b",
+  "music_stem_lufs": -37.0,
+  "mix_lufs": -23.81,
+  "true_peak_dbtp": -7.69,
+  "decoded_mix_correlation_per_channel": [
+    0.9999628755619251,
+    0.9999626194698497
+  ],
+  "mono_fold_down_delta_db": -0.01,
+  "key_windows_music_vs_voice_db": [
+    [
+      13.9,
+      15.5,
+      -11.21
+    ],
+    [
+      19.52,
+      22.55,
+      -15.31
+    ],
+    [
+      27.4,
+      28.73333,
+      -10.05
+    ]
+  ]
+}

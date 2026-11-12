@@ -1,0 +1,58 @@
+{
+  "status": "READY_TO_RENDER",
+  "episode": "Paper Detour 040 Berlin Wall",
+  "language": "en",
+  "format": "long",
+  "purpose": "user review export",
+  "timeline": "Edit/Montage/v01/plan_v01.json",
+  "timeline_sha256": "3897dc79aa887c8117cd5a8b91bed85393a563c4cb20c4ede1784971d9550f95",
+  "timeline_revision": "v01",
+  "frame_count": 14829,
+  "duration_seconds": 494.3,
+  "fps": "30/1",
+  "canvas": {
+    "width": 2560,
+    "height": 1440,
+    "aspect": "16:9",
+    "sample_aspect_ratio": "1:1"
+  },
+  "video": {
+    "container": "MP4",
+    "codec": "H.264 AVC",
+    "pixel_format": "yuv420p",
+    "colour_primaries": "bt709",
+    "transfer": "bt709",
+    "matrix": "bt709",
+    "range": "limited/tv",
+    "encoder": "libx264",
+    "rate_control": "20 Mbps target; montage renderer bitrate option",
+    "faststart": true
+  },
+  "audio": {
+    "source": "Source/Voice/v02/voice_en_atempo110_v02.wav",
+    "source_codec": "PCM s16le",
+    "sample_rate": 44100,
+    "channels": 1,
+    "conform": "existing accepted narration only; FFmpeg atempo=1.1 once; no TTS regeneration",
+    "final_codec": "AAC-LC mono",
+    "final_bitrate": "192 kbps"
+  },
+  "subtitles": {
+    "mode": "words",
+    "source": "Source/Voice/v02/word_times_atempo110_v02.json",
+    "word_highlight": "one active word in warm yellow, remaining words cream; renderer-managed Paper profile"
+  },
+  "motion": "whole-image horizontal pan and restrained zoom; direct cuts; no depth/parallax/layer/vertical movement",
+  "output": "/Users/diplomat/ytvideos/channels/paper_detour/videos/040_berlin_wall/Deliverables/040_berlin_wall_review_v01.mp4",
+  "pre_render_evidence": {
+    "existing_output_absent": true,
+    "scene_count": 109,
+    "source_dimensions": "1672x941 (below 2560x1440; upscaled for 2K delivery)",
+    "encoder_available": "libx264 listed by FFmpeg",
+    "timeline_and_audio_present": true,
+    "captions_word_map_generated": true,
+    "audio_listening": "UNVERIFIED",
+    "caption_visual_review": "UNVERIFIED",
+    "final_MP4_QA": "pending user review; no post-render checks per workflow"
+  }
+}

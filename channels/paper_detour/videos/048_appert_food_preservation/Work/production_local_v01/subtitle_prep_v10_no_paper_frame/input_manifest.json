@@ -1,0 +1,1027 @@
+{
+  "channel": "paper",
+  "format": "long",
+  "audio": "../voice_fullmix.wav",
+  "audio_contract": {
+    "final_audio_sha256": "1978cc6346ee7e3335221e6c3e89c0f93fd667d9b3e99e676ee8d7a4d6fc38b2",
+    "applied_speed": 1.1,
+    "speed_evidence": "../../../Edit/Audio/speed_evidence_v02.md"
+  },
+  "scenes": [
+    {
+      "image": "../../../Source/Images/S01_v02.png",
+      "start_frame": 0,
+      "end_frame": 169,
+      "direction": "left_to_right",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.22,
+          0.54
+        ],
+        "subject": "sealed sample jar at the harbor",
+        "reason": "Keep the cork and jar readable against the distant ships.",
+        "start": {
+          "center": [
+            0.502,
+            0.5
+          ],
+          "scale": 1.005
+        },
+        "end": {
+          "center": [
+            0.498,
+            0.5
+          ],
+          "scale": 1.025
+        }
+      }
+    },
+    {
+      "image": "../../../Source/Images/S02_v03.png",
+      "start_frame": 169,
+      "end_frame": 320,
+      "direction": "right_to_left",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.24,
+          0.56
+        ],
+        "subject": "food jar and three-month marker",
+        "reason": "Carry the storage interval from the jar toward the paper time marker.",
+        "start": {
+          "center": [
+            0.498,
+            0.5
+          ],
+          "scale": 1.025
+        },
+        "end": {
+          "center": [
+            0.502,
+            0.5
+          ],
+          "scale": 1.005
+        }
+      }
+    },
+    {
+      "image": "../../../Source/Images/S03_v01.png",
+      "start_frame": 320,
+      "end_frame": 481,
+      "direction": "left_to_right",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.52,
+          0.54
+        ],
+        "subject": "four inspected food samples and hands",
+        "reason": "Let attention move across the samples being examined.",
+        "start": {
+          "center": [
+            0.502,
+            0.5
+          ],
+          "scale": 1.005
+        },
+        "end": {
+          "center": [
+            0.498,
+            0.5
+          ],
+          "scale": 1.025
+        }
+      }
+    },
+    {
+      "image": "../../../Source/Images/S04_v01.png",
+      "start_frame": 481,
+      "end_frame": 649,
+      "direction": "right_to_left",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.52,
+          0.62
+        ],
+        "subject": "broth, meat, beans and peas at the table",
+        "reason": "Hold on the dishes before the group in the doorway.",
+        "start": {
+          "center": [
+            0.498,
+            0.5
+          ],
+          "scale": 1.025
+        },
+        "end": {
+          "center": [
+            0.502,
+            0.5
+          ],
+          "scale": 1.005
+        }
+      }
+    },
+    {
+      "image": "../../../Source/Images/S05_v01.png",
+      "start_frame": 649,
+      "end_frame": 805,
+      "direction": "left_to_right",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.34,
+          0.62
+        ],
+        "subject": "one sample beside many work tables",
+        "reason": "Contrast one result with the effort of repeating it.",
+        "start": {
+          "center": [
+            0.502,
+            0.5
+          ],
+          "scale": 1.005
+        },
+        "end": {
+          "center": [
+            0.498,
+            0.5
+          ],
+          "scale": 1.025
+        }
+      }
+    },
+    {
+      "image": "../../../Source/Images/S06_v01.png",
+      "start_frame": 805,
+      "end_frame": 965,
+      "direction": "right_to_left",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.52,
+          0.54
+        ],
+        "subject": "missing step in the blank ledger",
+        "reason": "Move toward the gap that prevents repetition.",
+        "start": {
+          "center": [
+            0.498,
+            0.5
+          ],
+          "scale": 1.025
+        },
+        "end": {
+          "center": [
+            0.502,
+            0.5
+          ],
+          "scale": 1.005
+        }
+      }
+    },
+    {
+      "image": "../../../Source/Images/S07_v01.png",
+      "start_frame": 965,
+      "end_frame": 1120,
+      "direction": "left_to_right",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "subject": "salted, sugared and dried foods",
+        "reason": "Sweep across the three distinct preservation methods.",
+        "start": {
+          "center": [
+            0.502,
+            0.5
+          ],
+          "scale": 1.005
+        },
+        "end": {
+          "center": [
+            0.498,
+            0.5
+          ],
+          "scale": 1.025
+        }
+      }
+    },
+    {
+      "image": "../../../Source/Images/S08_v01.png",
+      "start_frame": 1120,
+      "end_frame": 1285,
+      "direction": "right_to_left",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "subject": "fresh and dried fruit halves",
+        "reason": "Keep the changed fruit qualities in view.",
+        "start": {
+          "center": [
+            0.498,
+            0.5
+          ],
+          "scale": 1.025
+        },
+        "end": {
+          "center": [
+            0.502,
+            0.5
+          ],
+          "scale": 1.005
+        }
+      }
+    },
+    {
+      "image": "../../../Source/Images/S09_v01.png",
+      "start_frame": 1285,
+      "end_frame": 1458,
+      "direction": "left_to_right",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.5,
+          0.53
+        ],
+        "subject": "Appert between pastry and distilling tools",
+        "reason": "Connect the person to the two kinds of work in the scene.",
+        "start": {
+          "center": [
+            0.502,
+            0.5
+          ],
+          "scale": 1.005
+        },
+        "end": {
+          "center": [
+            0.498,
+            0.5
+          ],
+          "scale": 1.025
+        }
+      }
+    },
+    {
+      "image": "../../../Source/Images/S10_v01.png",
+      "start_frame": 1458,
+      "end_frame": 1616,
+      "direction": "right_to_left",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "subject": "meat, broth, milk, vegetables and fruit",
+        "reason": "Keep the ingredient range readable as one arrangement.",
+        "start": {
+          "center": [
+            0.498,
+            0.5
+          ],
+          "scale": 1.025
+        },
+        "end": {
+          "center": [
+            0.502,
+            0.5
+          ],
+          "scale": 1.005
+        }
+      }
+    },
+    {
+      "image": "../../../Source/Images/S11_v03.png",
+      "start_frame": 1616,
+      "end_frame": 1781,
+      "direction": "left_to_right",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.6,
+          0.55
+        ],
+        "subject": "hand checking a sealed food jar",
+        "reason": "Hold the inspection gesture and jar together.",
+        "start": {
+          "center": [
+            0.502,
+            0.5
+          ],
+          "scale": 1.005
+        },
+        "end": {
+          "center": [
+            0.498,
+            0.5
+          ],
+          "scale": 1.025
+        }
+      }
+    },
+    {
+      "image": "../../../Source/Images/S12_v01.png",
+      "start_frame": 1781,
+      "end_frame": 1944,
+      "direction": "right_to_left",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.52,
+          0.52
+        ],
+        "subject": "narrow bottle and wide-mouth vessel",
+        "reason": "Compare the two opening shapes.",
+        "start": {
+          "center": [
+            0.498,
+            0.5
+          ],
+          "scale": 1.025
+        },
+        "end": {
+          "center": [
+            0.502,
+            0.5
+          ],
+          "scale": 1.005
+        }
+      }
+    },
+    {
+      "image": "../../../Source/Images/S13_v02.png",
+      "start_frame": 1944,
+      "end_frame": 2104,
+      "direction": "left_to_right",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "subject": "cork and wire fastening on the filled vessel",
+        "reason": "Keep the sealing action intact in the frame.",
+        "start": {
+          "center": [
+            0.502,
+            0.5
+          ],
+          "scale": 1.005
+        },
+        "end": {
+          "center": [
+            0.498,
+            0.5
+          ],
+          "scale": 1.025
+        }
+      }
+    },
+    {
+      "image": "../../../Source/Images/S14_v01.png",
+      "start_frame": 2104,
+      "end_frame": 2270,
+      "direction": "right_to_left",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "subject": "vessels heating in a water bath",
+        "reason": "Hold the jars and surrounding bath together.",
+        "start": {
+          "center": [
+            0.498,
+            0.5
+          ],
+          "scale": 1.025
+        },
+        "end": {
+          "center": [
+            0.502,
+            0.5
+          ],
+          "scale": 1.005
+        }
+      }
+    },
+    {
+      "image": "../../../Source/Images/S15_v01.png",
+      "start_frame": 2270,
+      "end_frame": 2440,
+      "direction": "left_to_right",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "subject": "preparation cards, bottle and cork-wire seal",
+        "reason": "Keep the three factors connected in the light.",
+        "start": {
+          "center": [
+            0.502,
+            0.5
+          ],
+          "scale": 1.005
+        },
+        "end": {
+          "center": [
+            0.498,
+            0.5
+          ],
+          "scale": 1.025
+        }
+      }
+    },
+    {
+      "image": "../../../Source/Images/S16_v01.png",
+      "start_frame": 2440,
+      "end_frame": 2599,
+      "direction": "right_to_left",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.51,
+          0.52
+        ],
+        "subject": "jar lowered into a protective cloth bag",
+        "reason": "Follow the hand and protected vessel.",
+        "start": {
+          "center": [
+            0.498,
+            0.5
+          ],
+          "scale": 1.025
+        },
+        "end": {
+          "center": [
+            0.502,
+            0.5
+          ],
+          "scale": 1.005
+        }
+      }
+    },
+    {
+      "image": "../../../Source/Images/S17_v01.png",
+      "start_frame": 2599,
+      "end_frame": 2764,
+      "direction": "left_to_right",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "peas selected at different stages",
+        "reason": "Keep the hand between the young and softened peas.",
+        "start": {
+          "center": [
+            0.502,
+            0.5
+          ],
+          "scale": 1.005
+        },
+        "end": {
+          "center": [
+            0.498,
+            0.5
+          ],
+          "scale": 1.025
+        }
+      }
+    },
+    {
+      "image": "../../../Source/Images/S18_v01.png",
+      "start_frame": 2764,
+      "end_frame": 2927,
+      "direction": "right_to_left",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.55,
+          0.5
+        ],
+        "subject": "committee looking over the samples",
+        "reason": "Keep the committee and sample table in one view.",
+        "start": {
+          "center": [
+            0.498,
+            0.5
+          ],
+          "scale": 1.025
+        },
+        "end": {
+          "center": [
+            0.502,
+            0.5
+          ],
+          "scale": 1.005
+        }
+      }
+    },
+    {
+      "image": "../../../Source/Images/S19_v01.png",
+      "start_frame": 2927,
+      "end_frame": 3090,
+      "direction": "left_to_right",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "four samples beside favorable assessment",
+        "reason": "Let the result card and samples read together.",
+        "start": {
+          "center": [
+            0.502,
+            0.5
+          ],
+          "scale": 1.005
+        },
+        "end": {
+          "center": [
+            0.498,
+            0.5
+          ],
+          "scale": 1.025
+        }
+      }
+    },
+    {
+      "image": "../../../Source/Images/S20_v01.png",
+      "start_frame": 3090,
+      "end_frame": 3251,
+      "direction": "right_to_left",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.5,
+          0.48
+        ],
+        "subject": "reported storage age versus society custody",
+        "reason": "Hold both time statements in the comparison.",
+        "start": {
+          "center": [
+            0.498,
+            0.5
+          ],
+          "scale": 1.025
+        },
+        "end": {
+          "center": [
+            0.502,
+            0.5
+          ],
+          "scale": 1.005
+        }
+      }
+    },
+    {
+      "image": "../../../Source/Images/S21_v02.png",
+      "start_frame": 3251,
+      "end_frame": 3421,
+      "direction": "left_to_right",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.5,
+          0.51
+        ],
+        "subject": "visible contents under inspection",
+        "reason": "Keep the jar contents and blank docket together.",
+        "start": {
+          "center": [
+            0.502,
+            0.5
+          ],
+          "scale": 1.005
+        },
+        "end": {
+          "center": [
+            0.498,
+            0.5
+          ],
+          "scale": 1.025
+        }
+      }
+    },
+    {
+      "image": "../../../Source/Images/S22_v02.png",
+      "start_frame": 3421,
+      "end_frame": 3589,
+      "direction": "right_to_left",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "subject": "ordered working slips leading to the method book",
+        "reason": "Follow the movement from loose notes to a book.",
+        "start": {
+          "center": [
+            0.498,
+            0.5
+          ],
+          "scale": 1.025
+        },
+        "end": {
+          "center": [
+            0.502,
+            0.5
+          ],
+          "scale": 1.005
+        }
+      }
+    },
+    {
+      "image": "../../../Source/Images/S23_v01.png",
+      "start_frame": 3589,
+      "end_frame": 3757,
+      "direction": "left_to_right",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.52,
+          0.56
+        ],
+        "subject": "writer hand pushing the blank manuscript forward",
+        "reason": "Hold the hand and manuscript as the central action.",
+        "start": {
+          "center": [
+            0.502,
+            0.5
+          ],
+          "scale": 1.005
+        },
+        "end": {
+          "center": [
+            0.498,
+            0.5
+          ],
+          "scale": 1.025
+        }
+      }
+    },
+    {
+      "image": "../../../Source/Images/S24_v02.png",
+      "start_frame": 3757,
+      "end_frame": 3920,
+      "direction": "right_to_left",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.52,
+          0.52
+        ],
+        "subject": "dated letter at the workbench",
+        "reason": "Keep the date and letter together.",
+        "start": {
+          "center": [
+            0.498,
+            0.5
+          ],
+          "scale": 1.025
+        },
+        "end": {
+          "center": [
+            0.502,
+            0.5
+          ],
+          "scale": 1.005
+        }
+      }
+    },
+    {
+      "image": "../../../Source/Images/S25_v01.png",
+      "start_frame": 3920,
+      "end_frame": 4086,
+      "direction": "left_to_right",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.5,
+          0.42
+        ],
+        "subject": "twelve-thousand-franc condition",
+        "reason": "Hold the amount as the first readable element.",
+        "start": {
+          "center": [
+            0.502,
+            0.5
+          ],
+          "scale": 1.005
+        },
+        "end": {
+          "center": [
+            0.498,
+            0.5
+          ],
+          "scale": 1.025
+        }
+      }
+    },
+    {
+      "image": "../../../Source/Images/S26_v01.png",
+      "start_frame": 4086,
+      "end_frame": 4249,
+      "direction": "right_to_left",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.5,
+          0.55
+        ],
+        "subject": "open book beside the two-hundred-copy stack",
+        "reason": "Keep the book and publication quantity in view.",
+        "start": {
+          "center": [
+            0.498,
+            0.5
+          ],
+          "scale": 1.025
+        },
+        "end": {
+          "center": [
+            0.502,
+            0.5
+          ],
+          "scale": 1.005
+        }
+      }
+    },
+    {
+      "image": "../../../Source/Images/S27_v02.png",
+      "start_frame": 4249,
+      "end_frame": 4409,
+      "direction": "left_to_right",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "subject": "board-review label and manuscript terms",
+        "reason": "Hold the board label and printed terms together.",
+        "start": {
+          "center": [
+            0.502,
+            0.5
+          ],
+          "scale": 1.005
+        },
+        "end": {
+          "center": [
+            0.498,
+            0.5
+          ],
+          "scale": 1.025
+        }
+      }
+    },
+    {
+      "image": "../../../Source/Images/S28_v01.png",
+      "start_frame": 4409,
+      "end_frame": 4579,
+      "direction": "right_to_left",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "preparation, tools and steps in the guide",
+        "reason": "Move through the three parts of the published method.",
+        "start": {
+          "center": [
+            0.498,
+            0.5
+          ],
+          "scale": 1.025
+        },
+        "end": {
+          "center": [
+            0.502,
+            0.5
+          ],
+          "scale": 1.005
+        }
+      }
+    },
+    {
+      "image": "../../../Source/Images/S29_v01.png",
+      "start_frame": 4579,
+      "end_frame": 4739,
+      "direction": "left_to_right",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "subject": "vessels, corks, heating and mistakes",
+        "reason": "Keep the method objects and labeled cautions together.",
+        "start": {
+          "center": [
+            0.502,
+            0.5
+          ],
+          "scale": 1.005
+        },
+        "end": {
+          "center": [
+            0.498,
+            0.5
+          ],
+          "scale": 1.025
+        }
+      }
+    },
+    {
+      "image": "../../../Source/Images/S30_v02.png",
+      "start_frame": 4739,
+      "end_frame": 4896,
+      "direction": "right_to_left",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "subject": "1810 guidebook beside the food jar",
+        "reason": "End on the book as the transferable guide.",
+        "start": {
+          "center": [
+            0.498,
+            0.5
+          ],
+          "scale": 1.025
+        },
+        "end": {
+          "center": [
+            0.502,
+            0.5
+          ],
+          "scale": 1.005
+        }
+      }
+    },
+    {
+      "image": "../../../Source/Images/E01_v01.png",
+      "start_frame": 4896,
+      "end_frame": 5046,
+      "direction": "left_to_right",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "quiet book-and-jar end-screen reserve",
+        "reason": "Keep the open end-screen regions clear.",
+        "start": {
+          "center": [
+            0.501,
+            0.5
+          ],
+          "scale": 1.005
+        },
+        "end": {
+          "center": [
+            0.499,
+            0.5
+          ],
+          "scale": 1.005
+        }
+      }
+    },
+    {
+      "image": "../../../Source/Images/E02_v01.png",
+      "start_frame": 5046,
+      "end_frame": 5196,
+      "direction": "right_to_left",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "sealed jar and closed book end-screen reserve",
+        "reason": "Keep the open end-screen regions clear.",
+        "start": {
+          "center": [
+            0.499,
+            0.5
+          ],
+          "scale": 1.005
+        },
+        "end": {
+          "center": [
+            0.501,
+            0.5
+          ],
+          "scale": 1.005
+        }
+      }
+    }
+  ],
+  "subtitles": {
+    "mode": "words",
+    "words": "../../../Edit/Timebase/word_times_export_v02.json",
+    "transcript": "../../../Source/Script/narration_en_v01.txt",
+    "end_frame": 4896,
+    "keep_together": [
+      [
+        "Nicolas",
+        "Appert"
+      ],
+      [
+        "prepared",
+        "by"
+      ],
+      [
+        "shelf",
+        "life"
+      ],
+      [
+        "relied",
+        "on"
+      ],
+      [
+        "cloth",
+        "bags"
+      ],
+      [
+        "kept",
+        "the"
+      ],
+      [
+        "the",
+        "vessels"
+      ],
+      [
+        "storage",
+        "period"
+      ],
+      [
+        "proposal",
+        "to"
+      ],
+      [
+        "detailed",
+        "account"
+      ],
+      [
+        "January",
+        "30"
+      ],
+      [
+        "30",
+        "1810"
+      ],
+      [
+        "twelve",
+        "thousand"
+      ],
+      [
+        "thousand",
+        "francs"
+      ],
+      [
+        "two",
+        "hundred"
+      ],
+      [
+        "hundred",
+        "copies"
+      ],
+      [
+        "sealed",
+        "vessels"
+      ],
+      [
+        "three",
+        "months"
+      ]
+    ],
+    "review": "../subtitle_prep_v10_no_paper_frame/subtitle_review.json"
+  },
+  "source_transfer": "srgb",
+  "overlays": [],
+  "paper_frame_exception": {
+    "reason": "User directly requested removing the Paper Frame for episode 048; the user clarified it must stay out of current and future versions of this video.",
+    "user_authorization": "../../../Edit/Decisions/paper_frame_exception_v03.md"
+  }
+}

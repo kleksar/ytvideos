@@ -1,0 +1,3 @@
+# Cover A v02 — editorial candidate
+
+The v01 rear engine error was corrected by editing with imagegen using scene 011 as visual reference; v02 shows four exhausts in two pairs. Text on master reads exactly LAUNCH FROM HERE?. Full-size master and 180×101 local reduction were viewed: the question, aircraft and traveler are discernible; the small preview is a local simulation, not a real YouTube mobile card. The image is a stylized editorial composite. The required duration badge area at bottom right has not been checked against an actual YouTube card. Source master: Packaging/Thumbnails/concept_a_v02.png; native image 1672×941; preview manifest in preview_a_v02. Additional pairwise comparison and user acceptance are pending.

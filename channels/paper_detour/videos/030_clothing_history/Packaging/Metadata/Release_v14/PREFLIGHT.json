@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "channel_id": "UCMVfdfaNxV3ZkI3_J3Eejzw",
+  "identity_checks": [
+    {
+      "role": "upload",
+      "verified_channel_id": "UCMVfdfaNxV3ZkI3_J3Eejzw",
+      "scopes": [
+        "https://www.googleapis.com/auth/youtube.upload",
+        "https://www.googleapis.com/auth/youtube.readonly"
+      ]
+    },
+    {
+      "role": "manage",
+      "verified_channel_id": "UCMVfdfaNxV3ZkI3_J3Eejzw",
+      "scopes": [
+        "https://www.googleapis.com/auth/youtube.force-ssl"
+      ]
+    }
+  ],
+  "film_path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Deliverables/PAPER_DETOUR_030_CLOTHING_HISTORY_EN_v14.mp4",
+  "film_sha256": "f038c0188cae809971ffd259cde0a064370dce87e61e53ce303811b14b4a470a",
+  "qa_receipt": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Edit/v14/QA/REPORT.json",
+  "metadata": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Packaging/Metadata/Release_v14/upload_metadata.json",
+  "audience_basis": "Retained explicit same-episode prior upload metadata: made_for_kids=false; general-audience historical film",
+  "synthetic_basis": "Retained same-episode false setting: visibly stylized paper animation and illustrative artwork; not realistic event footage or impersonation. YouTube non-realistic animation exception reviewed2026-11-02.",
+  "tags_basis": "No separate search Tags supplied in accepted package; empty list, hashtags remain description",
+  "authorization": "Current user: «делай», following private upload + metadata/SRT/check plan. Public timing remains unspecified; no public release or scheduling assumed.",
+  "upload_state_exists": false
+}

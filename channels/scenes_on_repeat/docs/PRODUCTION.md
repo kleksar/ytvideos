@@ -12,7 +12,7 @@
 
 ## Сборка
 
-Сценовые Shorts собираются по [EDIT_NOTES](EDIT_NOTES.md), long по [LONG_COMPILATIONS](LONG_COMPILATIONS.md), мемы по [MEME_SHORTS](MEME_SHORTS.md). Мини-трейлер сохраняет связное зрительское обещание, фактический порядок выбранных source shots и оригинальный разрешённый звук; montage decisions, cue maps и subtitles фиксируются по exact source/final frames.
+Сценовые Shorts собираются по [EDIT_NOTES](EDIT_NOTES.md), long по [LONG_COMPILATIONS](LONG_COMPILATIONS.md), мемы по [MEME_SHORTS](MEME_SHORTS.md). Для мини-трейлера просмотреть фильм целиком, выбрать узнаваемые сцены из разных частей и не раскрывать ключевые спойлеры. Мини-трейлер сохраняет связное зрительское обещание, фактический порядок выбранных source shots и оригинальный разрешённый звук; montage decisions, cue maps и subtitles фиксируются по exact source/final frames.
 
 Перепроверить crop, чистые cuts, целые реплики, звуки действия, карту слов и полный музыкальный план. Написать reproducible edit plan, использовать helper из `automation/pipeline/` через guarded task adapter. Точный синтаксис каждого helper — `--help`; batch renderer Shorts сам не строит длинную подборку.
 

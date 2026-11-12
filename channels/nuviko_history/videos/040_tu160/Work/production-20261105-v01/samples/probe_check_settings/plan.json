@@ -1,0 +1,103 @@
+{
+  "channel": "nuviko",
+  "format": "long",
+  "subtitle_mode": "words",
+  "audio": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Work/production-20261105-v01/samples/probe_audio_en_v01.wav",
+  "canvas": [
+    2560,
+    1440
+  ],
+  "fps": 30,
+  "scenes": [
+    {
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_001_v02.png",
+      "start_frame": 0,
+      "end_frame": 150,
+      "direction": "left_to_right",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Scene 001 documentary composition",
+        "reason": "Caption geometry probe; keep the narration subject centered in a restrained whole-image move.",
+        "start": {
+          "center": [
+            0.506,
+            0.5
+          ],
+          "scale": 1.025
+        },
+        "end": {
+          "center": [
+            0.494,
+            0.5
+          ],
+          "scale": 1.045
+        }
+      }
+    },
+    {
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_002_v01.png",
+      "start_frame": 150,
+      "end_frame": 300,
+      "direction": "right_to_left",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Scene 002 documentary composition",
+        "reason": "Caption geometry probe; keep the narration subject centered in a restrained whole-image move.",
+        "start": {
+          "center": [
+            0.494,
+            0.5
+          ],
+          "scale": 1.045
+        },
+        "end": {
+          "center": [
+            0.506,
+            0.5
+          ],
+          "scale": 1.025
+        }
+      }
+    },
+    {
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_007_v02.png",
+      "start_frame": 300,
+      "end_frame": 450,
+      "direction": "left_to_right",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Scene 007 documentary composition",
+        "reason": "Caption geometry probe; keep the narration subject centered in a restrained whole-image move.",
+        "start": {
+          "center": [
+            0.506,
+            0.5
+          ],
+          "scale": 1.025
+        },
+        "end": {
+          "center": [
+            0.494,
+            0.5
+          ],
+          "scale": 1.045
+        }
+      }
+    }
+  ],
+  "frames": 450,
+  "manifest_path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Work/production-20261105-v01/samples/probe_plan_v01.json",
+  "source_transfer": "srgb"
+}

@@ -1,0 +1,408 @@
+{
+  "schema": "ytv-delivery-v1",
+  "channel": "paper",
+  "format": "long",
+  "canvas": [
+    1280,
+    720
+  ],
+  "fps": 30,
+  "frames": 360,
+  "audio": {
+    "audio": {
+      "path": "/Users/diplomat/ytvideos/new_channel/videos/037_cost_of_living/Work/ffmpeg_resume_20261104/sample_voice.wav",
+      "sha256": "4ab776ae70815d3af4b774345dd47dbe8aab4ed1fcd1ffa2c209eaabb86187c7"
+    },
+    "applied_speed": 1.1,
+    "speed_policy": {
+      "path": "/Users/diplomat/ytvideos/.agents/skills/ytv-audio-delivery/references/speed.json",
+      "sha256": "32c378c36c1e297cbdc4e3593c965163d33e531b8b8eea026b367bddb51a668a"
+    },
+    "speed_evidence": {
+      "path": "/Users/diplomat/ytvideos/new_channel/videos/037_cost_of_living/Work/ffmpeg_resume_20261104/STATUS.md",
+      "sha256": "11d4424292afa27afbccb72faa65a2536505daa2a156be4ef28b0118ca1c6b47"
+    }
+  },
+  "transcript": {
+    "path": "/Users/diplomat/ytvideos/new_channel/videos/037_cost_of_living/Work/ffmpeg_resume_20261104/sample_transcript.txt",
+    "sha256": "f200119602a638566fe76dc1c44b00cfc4fd1eea69d1e083537b3a97d6d7a16f"
+  },
+  "word_map": {
+    "path": "/Users/diplomat/ytvideos/new_channel/videos/037_cost_of_living/Work/ffmpeg_resume_20261104/sample_words.json",
+    "sha256": "0244db4ade882b087bcb7f26d0aaae02b81514734e5dccd03dec9605f11ee04f"
+  },
+  "profiles": [
+    {
+      "path": "/Users/diplomat/ytvideos/new_channel/videos/037_cost_of_living/Work/ffmpeg_resume_20261104/renderer_root/automation/ffmpeg_montage/profiles/paper.json",
+      "sha256": "e2b89e813ec25985601ef65997ea8b94c19e96aa6d158333edf962b42e02ffc0"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/new_channel/videos/037_cost_of_living/Work/ffmpeg_resume_20261104/renderer_root/automation/ffmpeg_montage/profiles/long.json",
+      "sha256": "e8f9f5dd0354283634a0cf9dc1816736bac38de158de1d0bdd1b8b4658f51459"
+    },
+    {
+      "path": "/System/Library/Fonts/Supplemental/ChalkboardSE.ttc",
+      "sha256": "2f115e259dbd66e39a5891fe1fb49fa18b20b8d2db08a1e43b3b1360ca0e0bbe"
+    }
+  ],
+  "engine": [
+    {
+      "path": "/Users/diplomat/ytvideos/new_channel/videos/037_cost_of_living/Work/ffmpeg_resume_20261104/renderer_root/automation/ffmpeg_montage/montage.py",
+      "sha256": "0f71de1cd88ab75067710adaabc2647e1281fa39f00fc0227cb2ef775fa410f6"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/new_channel/videos/037_cost_of_living/Work/ffmpeg_resume_20261104/renderer_root/automation/ffmpeg_montage/delivery.py",
+      "sha256": "59681f2ac801bac9922f4d9a9b55dd62c20a0a61bc39f143096ca323a9403e52"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/new_channel/videos/037_cost_of_living/Work/ffmpeg_resume_20261104/renderer_root/.agents/skills/ytv-paper-subtitles/scripts/semantic_grouping.py",
+      "sha256": "cb2e4ce523f813c546f63e4e8beb6dcbf2db8b9dca222228f20a07a15f5d59b1"
+    }
+  ],
+  "picture": [
+    {
+      "scene": {
+        "image": "/Users/diplomat/ytvideos/new_channel/videos/037_cost_of_living/Source/Images/paper_v01/S01_v01.png",
+        "start_frame": 0,
+        "end_frame": 120,
+        "direction": "none",
+        "zoom": "in"
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/new_channel/videos/037_cost_of_living/Source/Images/paper_v01/S01_v01.png",
+        "sha256": "5074b670dc0b484aed7c4bf31cbd501f50f4a20ddfafe42629e6bf6cf2504390"
+      }
+    },
+    {
+      "scene": {
+        "image": "/Users/diplomat/ytvideos/new_channel/videos/037_cost_of_living/Source/Images/paper_v01/S02_v01.png",
+        "start_frame": 120,
+        "end_frame": 240,
+        "direction": "left_to_right",
+        "zoom": "none"
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/new_channel/videos/037_cost_of_living/Source/Images/paper_v01/S02_v01.png",
+        "sha256": "9f2258ff380e9bc5666c0dfc7012fbad0ee299a540753b7fd6d5788577a84392"
+      }
+    },
+    {
+      "scene": {
+        "image": "/Users/diplomat/ytvideos/new_channel/videos/037_cost_of_living/Source/Images/paper_v01/S03_v03.png",
+        "start_frame": 240,
+        "end_frame": 360,
+        "direction": "none",
+        "zoom": "in"
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/new_channel/videos/037_cost_of_living/Source/Images/paper_v01/S03_v03.png",
+        "sha256": "d67af4507ddbe879ace8c7b2a74eaa6daa326708d027eea99ced4f9b6b22c36f"
+      }
+    }
+  ],
+  "overlays": [],
+  "groups": [
+    [
+      {
+        "text": "Bread.",
+        "start": 0.08,
+        "end": 0.38,
+        "source": "whisperx_forced_alignment",
+        "score": 0.85
+      },
+      {
+        "text": "Fuel.",
+        "start": 0.94,
+        "end": 1.26,
+        "source": "whisperx_forced_alignment",
+        "score": 0.797
+      }
+    ],
+    [
+      {
+        "text": "Something",
+        "start": 1.8,
+        "end": 2.1,
+        "source": "whisperx_forced_alignment",
+        "score": 0.822
+      },
+      {
+        "text": "to",
+        "start": 2.14,
+        "end": 2.22,
+        "source": "whisperx_forced_alignment",
+        "score": 0.904
+      },
+      {
+        "text": "wash",
+        "start": 2.28,
+        "end": 2.54,
+        "source": "whisperx_forced_alignment",
+        "score": 0.811
+      },
+      {
+        "text": "with.",
+        "start": 2.56,
+        "end": 2.76,
+        "source": "whisperx_forced_alignment",
+        "score": 0.982
+      }
+    ],
+    [
+      {
+        "text": "Something",
+        "start": 3.3,
+        "end": 3.6,
+        "source": "whisperx_forced_alignment",
+        "score": 0.848
+      },
+      {
+        "text": "to",
+        "start": 3.64,
+        "end": 3.74,
+        "source": "whisperx_forced_alignment",
+        "score": 0.439
+      },
+      {
+        "text": "light",
+        "start": 3.8,
+        "end": 3.98,
+        "source": "whisperx_forced_alignment",
+        "score": 0.774
+      },
+      {
+        "text": "the",
+        "start": 4.02,
+        "end": 4.1,
+        "source": "whisperx_forced_alignment",
+        "score": 0.834
+      },
+      {
+        "text": "room.",
+        "start": 4.16,
+        "end": 4.36,
+        "source": "whisperx_forced_alignment",
+        "score": 0.937
+      }
+    ],
+    [
+      {
+        "text": "Before",
+        "start": 4.96,
+        "end": 5.26,
+        "source": "whisperx_forced_alignment",
+        "score": 0.852
+      },
+      {
+        "text": "the",
+        "start": 5.3,
+        "end": 5.36,
+        "source": "whisperx_forced_alignment",
+        "score": 0.999
+      },
+      {
+        "text": "Black",
+        "start": 5.4,
+        "end": 5.62,
+        "source": "whisperx_forced_alignment",
+        "score": 0.957
+      },
+      {
+        "text": "Death,",
+        "start": 5.66,
+        "end": 5.92,
+        "source": "whisperx_forced_alignment",
+        "score": 0.927
+      }
+    ],
+    [
+      {
+        "text": "a",
+        "start": 6.26,
+        "end": 6.3,
+        "source": "whisperx_forced_alignment",
+        "score": 0.429
+      },
+      {
+        "text": "London",
+        "start": 6.36,
+        "end": 6.62,
+        "source": "whisperx_forced_alignment",
+        "score": 0.836
+      }
+    ],
+    [
+      {
+        "text": "labourer's",
+        "start": 6.66,
+        "end": 7.1,
+        "source": "whisperx_forced_alignment",
+        "score": 0.591
+      },
+      {
+        "text": "yearly",
+        "start": 7.16,
+        "end": 7.5,
+        "source": "whisperx_forced_alignment",
+        "score": 0.771
+      },
+      {
+        "text": "earnings",
+        "start": 7.56,
+        "end": 7.86,
+        "source": "whisperx_forced_alignment",
+        "score": 0.769
+      }
+    ],
+    [
+      {
+        "text": "cover",
+        "start": 7.94,
+        "end": 8.16,
+        "source": "whisperx_forced_alignment",
+        "score": 0.801
+      },
+      {
+        "text": "only",
+        "start": 8.28,
+        "end": 8.46,
+        "source": "whisperx_forced_alignment",
+        "score": 0.776
+      },
+      {
+        "text": "about",
+        "start": 8.5,
+        "end": 8.72,
+        "source": "whisperx_forced_alignment",
+        "score": 0.731
+      },
+      {
+        "text": "three-quarters",
+        "start": 8.84,
+        "end": 9.52,
+        "source": "whisperx_forced_alignment",
+        "score": 0.764
+      }
+    ],
+    [
+      {
+        "text": "of",
+        "start": 9.54,
+        "end": 9.6,
+        "source": "whisperx_forced_alignment",
+        "score": 0.75
+      },
+      {
+        "text": "the",
+        "start": 9.62,
+        "end": 9.7,
+        "source": "whisperx_forced_alignment",
+        "score": 0.831
+      },
+      {
+        "text": "basic",
+        "start": 9.761,
+        "end": 10.061,
+        "source": "whisperx_forced_alignment",
+        "score": 0.894
+      }
+    ],
+    [
+      {
+        "text": "needs",
+        "start": 10.121,
+        "end": 10.361,
+        "source": "whisperx_forced_alignment",
+        "score": 0.828
+      },
+      {
+        "text": "of",
+        "start": 10.401,
+        "end": 10.461,
+        "source": "whisperx_forced_alignment",
+        "score": 0.75
+      },
+      {
+        "text": "a",
+        "start": 10.521,
+        "end": 10.561,
+        "source": "whisperx_forced_alignment",
+        "score": 0.263
+      },
+      {
+        "text": "family",
+        "start": 10.601,
+        "end": 10.881,
+        "source": "whisperx_forced_alignment",
+        "score": 0.767
+      },
+      {
+        "text": "of",
+        "start": 10.901,
+        "end": 10.961,
+        "source": "whisperx_forced_alignment",
+        "score": 0.662
+      },
+      {
+        "text": "four.",
+        "start": 11.041,
+        "end": 11.301,
+        "source": "whisperx_forced_alignment",
+        "score": 0.711
+      }
+    ]
+  ],
+  "resolved": {
+    "resolved_font_size_px": 42,
+    "max_visible_width_px": 672.0,
+    "center_x_px": 640.0,
+    "baseline": 644,
+    "algorithm": "sentence-syntax-width-v4",
+    "display_intervals": [
+      {
+        "start_frame": 0,
+        "end_frame": 54
+      },
+      {
+        "start_frame": 54,
+        "end_frame": 99
+      },
+      {
+        "start_frame": 99,
+        "end_frame": 149
+      },
+      {
+        "start_frame": 149,
+        "end_frame": 188
+      },
+      {
+        "start_frame": 188,
+        "end_frame": 200
+      },
+      {
+        "start_frame": 200,
+        "end_frame": 239
+      },
+      {
+        "start_frame": 239,
+        "end_frame": 287
+      },
+      {
+        "start_frame": 287,
+        "end_frame": 304
+      },
+      {
+        "start_frame": 304,
+        "end_frame": 360
+      }
+    ],
+    "boundary_warnings": [
+      {
+        "after_group": 6,
+        "left": "cover only about three-quarters",
+        "right": "of the basic",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "S001",
+    "prompt": "Nuviko History photorealistic historical documentary, complete cinematic 16:9 landscape image, soft restrained natural light, highest native landscape quality available, intended video 2560x1440 with room for gentle whole-image crop, preserve lower center for subtitles. No text, no logo, no illustrated host. The attached contemporary Gilsemans 1642 drawing is a visual anchor for the actual Dutch ships Heemskerck and Zeehaen. It is an artistic historical account with stylized proportions; do not copy the dramatic conflict or its boats into this earlier scene. Scene S001: December 1642, early approach to New Zealand. Low camera near the stern deck of one 17th century Dutch ship, looking past the timber rail over empty ocean toward the South Island's distant mountainous coastline; a second, appropriately scaled Dutch ship sails offshore to one side. The unseen ship's own deck and rigging count as the first vessel. Focus first on the mysterious distant coast, with foredeck and second ship conveying the sea journey. Crew can be small and unobtrusive, in period-appropriate clothing; no foreground portrait. No smoke, no huts, no battle. Photorealistic sea and atmosphere, geographically plausible mountainous coastline.",
+    "reference": "../References/tasman_1642_gilsemans.jpg",
+    "control": "built-in image_gen, no explicit size/model controls",
+    "target": "16:9, 2560x1440 delivery"
+  },
+  {
+    "id": "S002",
+    "prompt": "Nuviko History photorealistic historical documentary, complete cinematic 16:9 landscape image, soft restrained natural light, highest native landscape quality available, intended video 2560x1440 with room for gentle whole-image crop, preserve lower center for subtitles. No text, no logo, no illustrated host. The attached contemporary Gilsemans 1642 drawing is a visual anchor for the actual Dutch ships Heemskerck and Zeehaen. It is an artistic historical account with stylized proportions; do not copy the dramatic conflict or its boats into this earlier scene. Scene S002: the expedition's commander observes a distant unfamiliar coastline from his ship's deck. Medium composition from behind and in profile shadow; do not claim a documented facial likeness of Abel Tasman. He wears practical seventeenth-century Dutch seaman clothing and stands at the rail, his gaze and body directed at the distant New Zealand shore which must be visible in frame. His right hand rests naturally on the rail, his left hand steadies a simple brass nautical instrument held low; the pose is credible, no telescope that implies a documented object. Ship construction and rigging follow the attached 1642 period drawing only for broad construction; no battle, no smoke, no anachronisms. Cinematic varied angle, natural light.",
+    "reference": "../References/tasman_1642_gilsemans.jpg",
+    "control": "built-in image_gen, no explicit size/model controls",
+    "target": "16:9, 2560x1440 delivery"
+  }
+]

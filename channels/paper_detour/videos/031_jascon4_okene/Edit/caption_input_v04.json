@@ -1,0 +1,102 @@
+{
+  "version": 1,
+  "canvas": [
+    1080,
+    1920
+  ],
+  "face_height_px": 90,
+  "min_face_height_px": 88,
+  "anchors": {
+    "primary": {
+      "center": [
+        0.5,
+        0.18
+      ],
+      "max_width_px": 820.8,
+      "max_height_px": 300
+    }
+  },
+  "scenes": [
+    {
+      "id": "S04",
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/031_jascon4_okene/Edit/accent_preflight_v04_inputs/S04.png"
+    },
+    {
+      "id": "S05",
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/031_jascon4_okene/Edit/accent_preflight_v04_inputs/S05.png"
+    }
+  ],
+  "cues": [
+    {
+      "id": "N03_DATE",
+      "lines": [
+        "MAY 26, 2013"
+      ],
+      "backend": {
+        "type": "existingPNG",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/031_jascon4_okene/Source/Images/accent_v04/N03_DATE.png",
+        "face": {
+          "mode": "creamOrange"
+        },
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/031_jascon4_okene/Source/Images/accent_v01/A01_GRAB_HIM.png",
+        "status": "Author inspected source draft"
+      },
+      "provenance": {
+        "method": "built-in image_gen",
+        "generated_source": "/Users/diplomat/.codex/generated_images/01a197ec-51ae-7d80-a59f-bd749282764a/exec-b859dba4-17a8-4134-b627-53b1d0432b83.png",
+        "user_request": "date/place anchors 2026-11-02"
+      },
+      "timing": {
+        "frames": [
+          536,
+          609
+        ],
+        "status": "alignment-derived; listening UNVERIFIED"
+      }
+    },
+    {
+      "id": "N04_LOCATION",
+      "lines": [
+        "OFF NIGERIA"
+      ],
+      "backend": {
+        "type": "existingPNG",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/031_jascon4_okene/Source/Images/accent_v04/N04_LOCATION.png",
+        "face": {
+          "mode": "creamOrange"
+        },
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/031_jascon4_okene/Source/Images/accent_v01/A01_GRAB_HIM.png",
+        "status": "Author inspected source draft"
+      },
+      "provenance": {
+        "method": "built-in image_gen",
+        "generated_source": "/Users/diplomat/.codex/generated_images/01a197ec-51ae-7d80-a59f-bd749282764a/exec-4a66164c-b048-4159-b637-4cab79419930.png",
+        "user_request": "date/place anchors 2026-11-02"
+      },
+      "timing": {
+        "frames": [
+          633,
+          687
+        ],
+        "status": "alignment-derived; listening UNVERIFIED"
+      }
+    }
+  ],
+  "pairs": [
+    {
+      "scene": "S04",
+      "cue": "N03_DATE",
+      "anchor": "primary"
+    },
+    {
+      "scene": "S05",
+      "cue": "N03_DATE",
+      "anchor": "primary"
+    },
+    {
+      "scene": "S05",
+      "cue": "N04_LOCATION",
+      "anchor": "primary"
+    }
+  ]
+}

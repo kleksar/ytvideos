@@ -1,0 +1,183 @@
+{
+  "schema": "ytv-render-v1",
+  "origin": "render",
+  "export_contract": {
+    "original": {
+      "path": "/Users/diplomat/ytvideos/channels/nuviko_history/research/harrison-export-contract-v01.json",
+      "sha256": "ec99f94b6ce2311d42278c4bedd83b83e45da082f53f007c7ca04711b37016fe"
+    },
+    "snapshot": {
+      "path": "/Users/diplomat/ytvideos/channels/nuviko_history/research/harrison-settings-v02/render_provenance/export_contract.json",
+      "sha256": "ec99f94b6ce2311d42278c4bedd83b83e45da082f53f007c7ca04711b37016fe"
+    }
+  },
+  "command": {
+    "original": {
+      "path": "/Users/diplomat/ytvideos/channels/nuviko_history/research/harrison-settings-v02/render_command.json",
+      "sha256": "40a273b8504c2007b1eff99f3878573550fdc0b5ac69171be997ed73ce9d3ed9"
+    },
+    "snapshot": {
+      "path": "/Users/diplomat/ytvideos/channels/nuviko_history/research/harrison-settings-v02/render_provenance/render_command.json",
+      "sha256": "40a273b8504c2007b1eff99f3878573550fdc0b5ac69171be997ed73ce9d3ed9"
+    }
+  },
+  "engine": [
+    {
+      "original": {
+        "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/montage.py",
+        "sha256": "662b62676998d799e545a0d095ae6213ae06c6b8d47ef2f7c2214fc5cd422ecc"
+      },
+      "snapshot": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/research/harrison-settings-v02/render_provenance/engine_0_montage.py",
+        "sha256": "662b62676998d799e545a0d095ae6213ae06c6b8d47ef2f7c2214fc5cd422ecc"
+      }
+    },
+    {
+      "original": {
+        "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/delivery.py",
+        "sha256": "d4611644090f7800fd09dbc3637a54a89b13ce6598edf7cf591cf33dc6275c29"
+      },
+      "snapshot": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/research/harrison-settings-v02/render_provenance/engine_1_delivery.py",
+        "sha256": "d4611644090f7800fd09dbc3637a54a89b13ce6598edf7cf591cf33dc6275c29"
+      }
+    },
+    {
+      "original": {
+        "path": "/Users/diplomat/ytvideos/.agents/skills/ytv-paper-subtitles/scripts/semantic_grouping.py",
+        "sha256": "bffadc1824948632bbd62172093ded979d32dd09b644cc3aaac40164b9481b29"
+      },
+      "snapshot": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/research/harrison-settings-v02/render_provenance/engine_2_semantic_grouping.py",
+        "sha256": "bffadc1824948632bbd62172093ded979d32dd09b644cc3aaac40164b9481b29"
+      }
+    }
+  ],
+  "prepared": {
+    "channel": "nuviko",
+    "format": "short",
+    "subtitle_mode": "words",
+    "audio": "/Users/diplomat/ytvideos/channels/nuviko_history/research/harrison-audio/mix-preview-v01.wav",
+    "canvas": [
+      1440,
+      2560
+    ],
+    "fps": 30,
+    "scenes": [
+      {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/harrison-visual-pilot/s01-ocean-v01.png",
+        "start_frame": 0,
+        "end_frame": 145,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/harrison-visual-pilot/s02-chart-v01.png",
+        "start_frame": 145,
+        "end_frame": 300,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/harrison-visual-pilot/s03-sun-v01.png",
+        "start_frame": 300,
+        "end_frame": 450,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/harrison-visual-pilot/traveler-clock-pilot-v02.png",
+        "start_frame": 450,
+        "end_frame": 610,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/harrison-visual-pilot/s05-motion-v01.png",
+        "start_frame": 610,
+        "end_frame": 760,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/harrison-visual-pilot/s06-workshop-v01.png",
+        "start_frame": 760,
+        "end_frame": 920,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/harrison-visual-pilot/s07-h4-v01.png",
+        "start_frame": 920,
+        "end_frame": 1080,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/harrison-visual-pilot/s08-h4-v01.png",
+        "start_frame": 1080,
+        "end_frame": 1250,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/harrison-visual-pilot/s09-navigation-v01.png",
+        "start_frame": 1250,
+        "end_frame": 1420,
+        "direction": "left_to_right",
+        "zoom": "in"
+      }
+    ],
+    "frames": 1420,
+    "manifest_path": "/Users/diplomat/ytvideos/channels/nuviko_history/research/harrison-edit-v01.json",
+    "source_transfer": "srgb"
+  },
+  "audio_source": {
+    "codec_name": "pcm_s24le",
+    "sample_rate": "48000",
+    "channels": 1,
+    "duration": "47.310312",
+    "bit_rate": "1152000"
+  },
+  "settings": {
+    "scope": "pre-render settings only; no encoded-result or AV QA",
+    "timeline": {
+      "width": 1440,
+      "height": 2560,
+      "frame_count": 1420,
+      "sample_aspect_ratio": "1:1",
+      "aspect_ratio": "9:16",
+      "output_color_space": "Rec.709 SDR"
+    },
+    "video": {
+      "codec_name": "h264",
+      "pix_fmt": "yuv420p",
+      "scan": "progressive",
+      "cadence": "constant 30/1 fps",
+      "color_primaries": "bt709",
+      "color_transfer": "bt709",
+      "color_space": "bt709",
+      "color_range": "tv"
+    },
+    "audio": {
+      "codec_name": "aac",
+      "profile": "LC",
+      "channels": 1,
+      "sample_rate": 48000,
+      "mode": "aac",
+      "target_bit_rate": 192000
+    },
+    "requested_arguments": {
+      "encoder": "h264_videotoolbox",
+      "video_bitrate": 20000000,
+      "output_pix_fmt": "yuv420p",
+      "fps": "30/1",
+      "audio_codec": "aac",
+      "audio_profile": "aac_low",
+      "audio_bitrate": 192000,
+      "audio_sample_rate": 48000,
+      "audio_channels": 1
+    }
+  },
+  "ffmpeg_version": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+}

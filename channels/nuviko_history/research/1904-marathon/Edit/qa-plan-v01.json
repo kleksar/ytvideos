@@ -1,0 +1,190 @@
+{
+  "frame_count": 993,
+  "fps": "30/1",
+  "scene_seconds": [
+    4,
+    6
+  ],
+  "required_review_checks": [
+    "stream_metadata",
+    "full_decode",
+    "frame_sampling",
+    "motion_framing",
+    "cue_timing",
+    "audio_signal",
+    "subjective_audio_listening",
+    "srt",
+    "independent_review",
+    "scene_duration",
+    "semantic_grouping",
+    "word_highlighting"
+  ],
+  "freshness": {
+    "status": "UNVERIFIED",
+    "evidence": "Pending post-render binding"
+  },
+  "expected": {
+    "video": {
+      "width": 1440,
+      "height": 2560,
+      "codec_name": "h264",
+      "pix_fmt": "yuv420p",
+      "color_space": "bt709"
+    },
+    "audio": {
+      "required": true,
+      "codec_name": "aac",
+      "channels": 2,
+      "sample_rate": 48000
+    }
+  },
+  "scenes": [
+    {
+      "id": "S001",
+      "start": 0,
+      "end": 150
+    },
+    {
+      "id": "S002",
+      "start": 150,
+      "end": 300
+    },
+    {
+      "id": "S003",
+      "start": 300,
+      "end": 450
+    },
+    {
+      "id": "S004",
+      "start": 450,
+      "end": 600
+    },
+    {
+      "id": "S005",
+      "start": 600,
+      "end": 753
+    },
+    {
+      "id": "S006",
+      "start": 753,
+      "end": 873
+    },
+    {
+      "id": "S007",
+      "start": 873,
+      "end": 993
+    }
+  ],
+  "cues": [
+    {
+      "id": "C01",
+      "start": 9,
+      "end": 71
+    },
+    {
+      "id": "C02",
+      "start": 71,
+      "end": 116
+    },
+    {
+      "id": "C03",
+      "start": 116,
+      "end": 144
+    },
+    {
+      "id": "C04",
+      "start": 144,
+      "end": 193
+    },
+    {
+      "id": "C05",
+      "start": 193,
+      "end": 243
+    },
+    {
+      "id": "C06",
+      "start": 243,
+      "end": 295
+    },
+    {
+      "id": "C07",
+      "start": 295,
+      "end": 339
+    },
+    {
+      "id": "C08",
+      "start": 339,
+      "end": 374
+    },
+    {
+      "id": "C09",
+      "start": 374,
+      "end": 407
+    },
+    {
+      "id": "C10",
+      "start": 407,
+      "end": 465
+    },
+    {
+      "id": "C11",
+      "start": 465,
+      "end": 492
+    },
+    {
+      "id": "C12",
+      "start": 492,
+      "end": 531
+    },
+    {
+      "id": "C13",
+      "start": 531,
+      "end": 559
+    },
+    {
+      "id": "C14",
+      "start": 559,
+      "end": 609
+    },
+    {
+      "id": "C15",
+      "start": 609,
+      "end": 642
+    },
+    {
+      "id": "C16",
+      "start": 642,
+      "end": 664
+    },
+    {
+      "id": "C17",
+      "start": 664,
+      "end": 710
+    },
+    {
+      "id": "C18",
+      "start": 710,
+      "end": 762
+    },
+    {
+      "id": "C19",
+      "start": 762,
+      "end": 794
+    },
+    {
+      "id": "C20",
+      "start": 794,
+      "end": 834
+    },
+    {
+      "id": "C21",
+      "start": 834,
+      "end": 878
+    },
+    {
+      "id": "C22",
+      "start": 878,
+      "end": 993
+    }
+  ]
+}

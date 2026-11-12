@@ -1,0 +1,5012 @@
+{
+  "version": 1,
+  "run": "qa-rebuild-v10-20261107",
+  "owner": "codex",
+  "status": "complete",
+  "created_utc": "2026-11-07T13:13:57.010747+00:00",
+  "entries": [],
+  "qa_batch": {
+    "report": {
+      "path": "Edit/QA/qa-rebuild-v10-20261107/report.json",
+      "identity": {
+        "device": 16777233,
+        "inode": 130007805,
+        "bytes": 63943,
+        "mtime_ns": 1794057413019743837,
+        "ctime_ns": 1794057413019743837,
+        "nlink": 1,
+        "allocated_bytes": 65536
+      },
+      "sha256": "59e6edcb0a68ae144bf3ad0231462f44efb7ecdcbd3f53c9246fccdde33dc6bf"
+    },
+    "source": {
+      "path": "Work/rebuild-early-20261106/previews/full_review_v10.mp4",
+      "identity": {
+        "device": 16777233,
+        "inode": 130004644,
+        "bytes": 1566749860,
+        "mtime_ns": 1794057034295767278,
+        "ctime_ns": 1794057034295767278,
+        "nlink": 1,
+        "allocated_bytes": 1577062400
+      },
+      "sha256": "ea59837f7c2a4ae705450c8e2be48fc23827d4da0bc147b83e7b720a4f17e4ef"
+    },
+    "frames": [
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000000.png",
+        "index": 0,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006597,
+          "bytes": 2817199,
+          "mtime_ns": 1794057318243768310,
+          "ctime_ns": 1794057318243768310,
+          "nlink": 1,
+          "allocated_bytes": 2818048
+        },
+        "sha256": "0f3e74e0daf345e19a109370b9aa2d5d43f69f57367956af2b25bb8f7a8bddfe"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000001.png",
+        "index": 89,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006641,
+          "bytes": 3768327,
+          "mtime_ns": 1794057318737082773,
+          "ctime_ns": 1794057318737082773,
+          "nlink": 1,
+          "allocated_bytes": 3772416
+        },
+        "sha256": "46c57a9422bdfc34501afddef4f02acfa5a2fcd26dcc405cc97832c6aaaba764"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000002.png",
+        "index": 179,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006649,
+          "bytes": 3932560,
+          "mtime_ns": 1794057319314047037,
+          "ctime_ns": 1794057319314047037,
+          "nlink": 1,
+          "allocated_bytes": 3936256
+        },
+        "sha256": "b4a01de32800e79f3d1b16f2646007a858b7e30dfcc21fb7cc267117fc9174ed"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000003.png",
+        "index": 180,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006651,
+          "bytes": 2695921,
+          "mtime_ns": 1794057319759482666,
+          "ctime_ns": 1794057319759482666,
+          "nlink": 1,
+          "allocated_bytes": 2699264
+        },
+        "sha256": "b35035f3eaa072875e64f9ab5d97c952537c20c524396e76854fe21e85241522"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000004.png",
+        "index": 239,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006652,
+          "bytes": 3394108,
+          "mtime_ns": 1794057319788027866,
+          "ctime_ns": 1794057319788027866,
+          "nlink": 1,
+          "allocated_bytes": 3395584
+        },
+        "sha256": "b0a2d407ffac8f3edcdb484b30f25b2629cff0fc611c7c3c483e65301add2800"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000005.png",
+        "index": 299,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006654,
+          "bytes": 3380673,
+          "mtime_ns": 1794057320068363101,
+          "ctime_ns": 1794057320068363101,
+          "nlink": 1,
+          "allocated_bytes": 3383296
+        },
+        "sha256": "a6b0111ca07e613418be183fff54e26b1853e8f22b1d00fd717599cd32819243"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000006.png",
+        "index": 300,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006655,
+          "bytes": 4345061,
+          "mtime_ns": 1794057320399759472,
+          "ctime_ns": 1794057320399759472,
+          "nlink": 1,
+          "allocated_bytes": 4345856
+        },
+        "sha256": "7361722b6639c9cbcccdbf9a75beff39955d1c29f6c033d3f1dced3e1de35e24"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000007.png",
+        "index": 389,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006656,
+          "bytes": 4752396,
+          "mtime_ns": 1794057320403227064,
+          "ctime_ns": 1794057320403227064,
+          "nlink": 1,
+          "allocated_bytes": 4755456
+        },
+        "sha256": "f0f52895dc93162139fa5fb00e17e69bbef6ea3267f244a5109e631a5ac38e8f"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000008.png",
+        "index": 479,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006657,
+          "bytes": 4787722,
+          "mtime_ns": 1794057320611408028,
+          "ctime_ns": 1794057320611408028,
+          "nlink": 1,
+          "allocated_bytes": 4788224
+        },
+        "sha256": "00838023aaa27d78ae5e1f256a7a59bbfbc76cbfbb6d9defa7124779d07a303e"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000009.png",
+        "index": 480,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006659,
+          "bytes": 2556904,
+          "mtime_ns": 1794057320890197259,
+          "ctime_ns": 1794057320890197259,
+          "nlink": 1,
+          "allocated_bytes": 2560000
+        },
+        "sha256": "d9a8c2f5ebda9a8e2a3e20a758c2dadbbcdf3155c616e4093d689bbb6fb92890"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000010.png",
+        "index": 558,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006662,
+          "bytes": 3369308,
+          "mtime_ns": 1794057321461379259,
+          "ctime_ns": 1794057321461379259,
+          "nlink": 1,
+          "allocated_bytes": 3371008
+        },
+        "sha256": "68cc41a92c91059247db8089ca98f6620585d5c03bc3a7da11c035768e5392d6"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000011.png",
+        "index": 637,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006666,
+          "bytes": 3519476,
+          "mtime_ns": 1794057321966866503,
+          "ctime_ns": 1794057321966866503,
+          "nlink": 1,
+          "allocated_bytes": 3522560
+        },
+        "sha256": "fd499e6f5a1cf5fa4f740519d4ccdf2cdfae2818964b4d2a850b2ca1bf7813da"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000012.png",
+        "index": 638,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006667,
+          "bytes": 1704079,
+          "mtime_ns": 1794057321967712547,
+          "ctime_ns": 1794057321967712547,
+          "nlink": 1,
+          "allocated_bytes": 1708032
+        },
+        "sha256": "6b43d724ef1653c13c2f6615ff7e0b7d1b169e6670574ae2ac501841818a7da4"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000013.png",
+        "index": 704,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006668,
+          "bytes": 2675512,
+          "mtime_ns": 1794057322212323189,
+          "ctime_ns": 1794057322212323189,
+          "nlink": 1,
+          "allocated_bytes": 2678784
+        },
+        "sha256": "81a3e485fc99f1f8180c75e9eecd5b134f548ad40e1e7d168b8997b65e8e525b"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000014.png",
+        "index": 770,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006672,
+          "bytes": 2888943,
+          "mtime_ns": 1794057322501003489,
+          "ctime_ns": 1794057322501003489,
+          "nlink": 1,
+          "allocated_bytes": 2891776
+        },
+        "sha256": "725f1e55f35352def003fd6eb2c806b344335f1c583c3370948c1ad07f179e1e"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000015.png",
+        "index": 771,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006673,
+          "bytes": 4098893,
+          "mtime_ns": 1794057322518631577,
+          "ctime_ns": 1794057322518631577,
+          "nlink": 1,
+          "allocated_bytes": 4100096
+        },
+        "sha256": "77c821c492b8ea7be816995390c6ae0ca0ef71dc2f7ff574f4e3318e1bd3fe75"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000016.png",
+        "index": 860,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006676,
+          "bytes": 4885827,
+          "mtime_ns": 1794057323041526325,
+          "ctime_ns": 1794057323041526325,
+          "nlink": 1,
+          "allocated_bytes": 4886528
+        },
+        "sha256": "0f7409ace5a6f157dbd5060d3260fcde2470cb17fa942675b0a6a1b248f13531"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000017.png",
+        "index": 950,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006681,
+          "bytes": 4792198,
+          "mtime_ns": 1794057323552969376,
+          "ctime_ns": 1794057323552969376,
+          "nlink": 1,
+          "allocated_bytes": 4792320
+        },
+        "sha256": "7a9bd9767353c0175518e11045fac8ec19f64e7949295b7e7ede9647354f469e"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000018.png",
+        "index": 951,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006682,
+          "bytes": 1607861,
+          "mtime_ns": 1794057323553494086,
+          "ctime_ns": 1794057323553494086,
+          "nlink": 1,
+          "allocated_bytes": 1609728
+        },
+        "sha256": "7a42db173a9c3213351ced3ff219c43737c1aa06840fc6b9df3067eb174cd8aa"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000019.png",
+        "index": 1034,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006683,
+          "bytes": 2608231,
+          "mtime_ns": 1794057323855707712,
+          "ctime_ns": 1794057323855707712,
+          "nlink": 1,
+          "allocated_bytes": 2609152
+        },
+        "sha256": "af8faaf5fb7aa3549056771f6459220ae2ef335501a693c51da2640c1525707d"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000020.png",
+        "index": 1117,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006685,
+          "bytes": 2986859,
+          "mtime_ns": 1794057324183236489,
+          "ctime_ns": 1794057324183236489,
+          "nlink": 1,
+          "allocated_bytes": 2990080
+        },
+        "sha256": "3ab3fa228b706dad8e3321216fda933e4aa58a8740ed273c5e0e33a49e507548"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000021.png",
+        "index": 1118,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006686,
+          "bytes": 3867049,
+          "mtime_ns": 1794057324186516581,
+          "ctime_ns": 1794057324186516581,
+          "nlink": 1,
+          "allocated_bytes": 3870720
+        },
+        "sha256": "42bc2f26d47efd52c77efc398d7648d3b2be46a1df82a526a4c94d7dafc2d9a7"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000022.png",
+        "index": 1207,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006687,
+          "bytes": 4492358,
+          "mtime_ns": 1794057324480367603,
+          "ctime_ns": 1794057324480367603,
+          "nlink": 1,
+          "allocated_bytes": 4493312
+        },
+        "sha256": "8e3200d078157407189586d648e928f5de1290fbfa00ba08a5279dd3f9febd5b"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000023.png",
+        "index": 1297,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006690,
+          "bytes": 4403883,
+          "mtime_ns": 1794057324767938609,
+          "ctime_ns": 1794057324767938609,
+          "nlink": 1,
+          "allocated_bytes": 4407296
+        },
+        "sha256": "6c63bfa6193263b0c9c007cb03578704361c66455424e47e5d05aaf7ebaa2d3a"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000024.png",
+        "index": 1298,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006691,
+          "bytes": 2449941,
+          "mtime_ns": 1794057324777272633,
+          "ctime_ns": 1794057324777272633,
+          "nlink": 1,
+          "allocated_bytes": 2453504
+        },
+        "sha256": "9445ecf0ca112235821b16c8f56045fc4cb8f592f7afa61196260362246110b7"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000025.png",
+        "index": 1387,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006695,
+          "bytes": 3463913,
+          "mtime_ns": 1794057325756458371,
+          "ctime_ns": 1794057325756458371,
+          "nlink": 1,
+          "allocated_bytes": 3465216
+        },
+        "sha256": "46214a43fa95d344decc591f38f13571a95da678a0382c6d5e9ff03b424cb43c"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000026.png",
+        "index": 1477,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006696,
+          "bytes": 3343639,
+          "mtime_ns": 1794057325767213691,
+          "ctime_ns": 1794057325767213691,
+          "nlink": 1,
+          "allocated_bytes": 3346432
+        },
+        "sha256": "8cab7dd8fd670a6b2752911a1fe7babed78b1e296b8936f600b7216d6758dcbf"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000027.png",
+        "index": 1478,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006698,
+          "bytes": 1643658,
+          "mtime_ns": 1794057326115743189,
+          "ctime_ns": 1794057326115743189,
+          "nlink": 1,
+          "allocated_bytes": 1646592
+        },
+        "sha256": "49b4d83102611340fddd40c0a3819158873bae90424fc9c7def6b6c51f3ebfb9"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000028.png",
+        "index": 1561,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006699,
+          "bytes": 2564052,
+          "mtime_ns": 1794057326468092697,
+          "ctime_ns": 1794057326468092697,
+          "nlink": 1,
+          "allocated_bytes": 2564096
+        },
+        "sha256": "3d16ba9b2e2ad5e285c059b264966e9cbeba2d24849c8420d10884f83347d667"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000029.png",
+        "index": 1645,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006700,
+          "bytes": 2823542,
+          "mtime_ns": 1794057326471453873,
+          "ctime_ns": 1794057326471453873,
+          "nlink": 1,
+          "allocated_bytes": 2826240
+        },
+        "sha256": "7fa8c6de6a52b01b7a7ddeb62e775da6506bf797944b26750a527f5c6a4f516e"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000030.png",
+        "index": 1646,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006703,
+          "bytes": 3067705,
+          "mtime_ns": 1794057326864900739,
+          "ctime_ns": 1794057326864900739,
+          "nlink": 1,
+          "allocated_bytes": 3067904
+        },
+        "sha256": "d5e76236c9001343c54f9f1f921fb6df787d57100935822b396158140a8edc3f"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000031.png",
+        "index": 1735,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006704,
+          "bytes": 3895061,
+          "mtime_ns": 1794057327220505340,
+          "ctime_ns": 1794057327220505340,
+          "nlink": 1,
+          "allocated_bytes": 3895296
+        },
+        "sha256": "00898518cf5656ad49a64c370f598ad3e68711168e5e69c3874ef0e619ed05ae"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000032.png",
+        "index": 1825,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006705,
+          "bytes": 3892639,
+          "mtime_ns": 1794057327224753976,
+          "ctime_ns": 1794057327224753976,
+          "nlink": 1,
+          "allocated_bytes": 3895296
+        },
+        "sha256": "c11666c5b446a35d8e4b56caa2f000b33133b2fa62ae9b10e722f03b0780f723"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000033.png",
+        "index": 1826,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006706,
+          "bytes": 4031398,
+          "mtime_ns": 1794057327548060117,
+          "ctime_ns": 1794057327548060117,
+          "nlink": 1,
+          "allocated_bytes": 4034560
+        },
+        "sha256": "0ee085603980ec54374e4346995b20e30d0137db7a6c4a5199e8d0d7ab60994d"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000034.png",
+        "index": 1885,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006707,
+          "bytes": 4777657,
+          "mtime_ns": 1794057327894279567,
+          "ctime_ns": 1794057327894279567,
+          "nlink": 1,
+          "allocated_bytes": 4780032
+        },
+        "sha256": "7676e402042f8bdf8588b8ec3c31073a94cdaec978b807bba50418bf44251cc4"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000035.png",
+        "index": 1945,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006708,
+          "bytes": 4805741,
+          "mtime_ns": 1794057327897088324,
+          "ctime_ns": 1794057327897088324,
+          "nlink": 1,
+          "allocated_bytes": 4808704
+        },
+        "sha256": "503f5044da1f766aec34ae83a4d2cd6735159231b3f0404283f3adc14fa947f5"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000036.png",
+        "index": 1946,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006710,
+          "bytes": 2013715,
+          "mtime_ns": 1794057328268160924,
+          "ctime_ns": 1794057328268160924,
+          "nlink": 1,
+          "allocated_bytes": 2015232
+        },
+        "sha256": "8092218799f60ae26120d53ecefec6d6b06b8a9c75e56f9d2628496ad73ba9bf"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000037.png",
+        "index": 2035,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006711,
+          "bytes": 3088884,
+          "mtime_ns": 1794057328608993361,
+          "ctime_ns": 1794057328608993361,
+          "nlink": 1,
+          "allocated_bytes": 3092480
+        },
+        "sha256": "725be187dd8ec3d5d8364ba2e3fd8948a6ab233e341863318bfd6f0041832a05"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000038.png",
+        "index": 2125,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006712,
+          "bytes": 2994169,
+          "mtime_ns": 1794057328609753238,
+          "ctime_ns": 1794057328609753238,
+          "nlink": 1,
+          "allocated_bytes": 2994176
+        },
+        "sha256": "965f49068500300450c9e57b7699f38a6c369849ae8d79079c76d0665dadf33f"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000039.png",
+        "index": 2126,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006713,
+          "bytes": 1919212,
+          "mtime_ns": 1794057328864167447,
+          "ctime_ns": 1794057328864167447,
+          "nlink": 1,
+          "allocated_bytes": 1921024
+        },
+        "sha256": "2829723ec882ca4a8f9d32cc33053801aca3492edf15ae539786069789fc4381"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000040.png",
+        "index": 2215,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006718,
+          "bytes": 3151165,
+          "mtime_ns": 1794057329205915844,
+          "ctime_ns": 1794057329205915844,
+          "nlink": 1,
+          "allocated_bytes": 3153920
+        },
+        "sha256": "d4b7eb9f6306db30d7b0c868cea77eb01298275a067e29a919985ad3764851b1"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000041.png",
+        "index": 2305,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006719,
+          "bytes": 3148116,
+          "mtime_ns": 1794057329210849566,
+          "ctime_ns": 1794057329210849566,
+          "nlink": 1,
+          "allocated_bytes": 3149824
+        },
+        "sha256": "12f5ca2166cdd6b30195c5ac815de7f4371ea6e654ee76317de9e4b1327f977c"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000042.png",
+        "index": 2306,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006721,
+          "bytes": 2573044,
+          "mtime_ns": 1794057329521487923,
+          "ctime_ns": 1794057329521487923,
+          "nlink": 1,
+          "allocated_bytes": 2576384
+        },
+        "sha256": "3543d8a0e26b4717fca95d48a4cb70a216ef5a25b9143045c703fa97d5f88c26"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000043.png",
+        "index": 2376,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006722,
+          "bytes": 3545263,
+          "mtime_ns": 1794057329914185204,
+          "ctime_ns": 1794057329914185204,
+          "nlink": 1,
+          "allocated_bytes": 3547136
+        },
+        "sha256": "5b6c9c64e284a87f67b5eb3bd002f58d53c33d1e06d4b78ab160bd8a5401dbe5"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000044.png",
+        "index": 2447,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006723,
+          "bytes": 3883278,
+          "mtime_ns": 1794057329920111970,
+          "ctime_ns": 1794057329920111970,
+          "nlink": 1,
+          "allocated_bytes": 3887104
+        },
+        "sha256": "291a0356ef093ff5d896093533bd0f36e991b6bcd1709a5cdbe22bf468891f41"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000045.png",
+        "index": 2448,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006725,
+          "bytes": 2539277,
+          "mtime_ns": 1794057330315757967,
+          "ctime_ns": 1794057330315757967,
+          "nlink": 1,
+          "allocated_bytes": 2539520
+        },
+        "sha256": "ada32b0fc829cdf0728900098a73a005883f7fe6e1687815bbd8eaad0f6a5c0f"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000046.png",
+        "index": 2528,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006726,
+          "bytes": 3291763,
+          "mtime_ns": 1794057330731751685,
+          "ctime_ns": 1794057330731751685,
+          "nlink": 1,
+          "allocated_bytes": 3293184
+        },
+        "sha256": "1fe8a042eace32985c7e01a0edd7d90f483ff02cc6a19fe03da96d517ec69720"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000047.png",
+        "index": 2609,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006727,
+          "bytes": 3286792,
+          "mtime_ns": 1794057330745374262,
+          "ctime_ns": 1794057330745374262,
+          "nlink": 1,
+          "allocated_bytes": 3289088
+        },
+        "sha256": "8518dd73a896183aafa36dd2c563d80b967a74114e52686263b2076b4e64a287"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000048.png",
+        "index": 2610,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006728,
+          "bytes": 1546118,
+          "mtime_ns": 1794057331225364272,
+          "ctime_ns": 1794057331225364272,
+          "nlink": 1,
+          "allocated_bytes": 1548288
+        },
+        "sha256": "5987cd44f099e1273765466ef1fe1579622a1e0fbddd121d5871687202979838"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000049.png",
+        "index": 2699,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006729,
+          "bytes": 2604331,
+          "mtime_ns": 1794057331585843552,
+          "ctime_ns": 1794057331585843552,
+          "nlink": 1,
+          "allocated_bytes": 2605056
+        },
+        "sha256": "4aa5f6a148fef2d891f922ddfd25382e03b0672b14b853fba95cec1699e29e9e"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000050.png",
+        "index": 2789,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006730,
+          "bytes": 2816130,
+          "mtime_ns": 1794057331592183777,
+          "ctime_ns": 1794057331592183777,
+          "nlink": 1,
+          "allocated_bytes": 2818048
+        },
+        "sha256": "cc0bee786ba91dfda960bf4c7291b619b9859441438b605caddacfeffaa176a2"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000051.png",
+        "index": 2790,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006731,
+          "bytes": 2751183,
+          "mtime_ns": 1794057331806129173,
+          "ctime_ns": 1794057331806129173,
+          "nlink": 1,
+          "allocated_bytes": 2752512
+        },
+        "sha256": "456a9c010033055399da8941e3c49d6868038a0da925b4fd734f59c6645f8b0f"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000052.png",
+        "index": 2879,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006732,
+          "bytes": 3734077,
+          "mtime_ns": 1794057332095167056,
+          "ctime_ns": 1794057332095167056,
+          "nlink": 1,
+          "allocated_bytes": 3735552
+        },
+        "sha256": "27ddc967671cb72645a2a37b26fd4b51af3848af0d1ef939a7ca59e04452c91c"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000053.png",
+        "index": 2969,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006733,
+          "bytes": 3779348,
+          "mtime_ns": 1794057332097144811,
+          "ctime_ns": 1794057332097144811,
+          "nlink": 1,
+          "allocated_bytes": 3780608
+        },
+        "sha256": "5e9f5dee2e7f40d70cc7a4030e62a9b476a9efb636c4cf56cb93db12f2efd8ff"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000054.png",
+        "index": 2970,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006734,
+          "bytes": 4477399,
+          "mtime_ns": 1794057332303749520,
+          "ctime_ns": 1794057332303749520,
+          "nlink": 1,
+          "allocated_bytes": 4481024
+        },
+        "sha256": "6f21c7620da63ff25583cc2e48f3867c34fce936ea4581e117e33c9efd270bcb"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000055.png",
+        "index": 3029,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006735,
+          "bytes": 5162229,
+          "mtime_ns": 1794057332591206192,
+          "ctime_ns": 1794057332591206192,
+          "nlink": 1,
+          "allocated_bytes": 5165056
+        },
+        "sha256": "2745e0dec4ce9498fc902bed007fd0dcf76d5cb984bf471ad2fd47998c29db2f"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000056.png",
+        "index": 3089,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006736,
+          "bytes": 5164008,
+          "mtime_ns": 1794057332615643548,
+          "ctime_ns": 1794057332615643548,
+          "nlink": 1,
+          "allocated_bytes": 5165056
+        },
+        "sha256": "cfd0a7b2dd8f95d1e59a1696e0cdc509edb05cc845d2c9f0dffcacb8c98b2921"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000057.png",
+        "index": 3090,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006737,
+          "bytes": 1904098,
+          "mtime_ns": 1794057333264521960,
+          "ctime_ns": 1794057333264521960,
+          "nlink": 1,
+          "allocated_bytes": 1904640
+        },
+        "sha256": "03bfe177047124009df13945aae442e6b4867600d9d91c9a401adcb48cb85f18"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000058.png",
+        "index": 3164,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006738,
+          "bytes": 2823048,
+          "mtime_ns": 1794057333718471860,
+          "ctime_ns": 1794057333718471860,
+          "nlink": 1,
+          "allocated_bytes": 2826240
+        },
+        "sha256": "bd2d484814d85fe323b17d83957d61f71c487a620e7a36fb6357b65ad415c529"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000059.png",
+        "index": 3239,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006739,
+          "bytes": 2889417,
+          "mtime_ns": 1794057333721748619,
+          "ctime_ns": 1794057333721748619,
+          "nlink": 1,
+          "allocated_bytes": 2891776
+        },
+        "sha256": "6b980deb2b40b95534c6ac5e5d468bcc6d08995e4285133c5fbc6374f6641ace"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000060.png",
+        "index": 3240,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006740,
+          "bytes": 2260007,
+          "mtime_ns": 1794057334120607791,
+          "ctime_ns": 1794057334120607791,
+          "nlink": 1,
+          "allocated_bytes": 2260992
+        },
+        "sha256": "e1c12c293466556fe9ea334f26a5daa36547851ba4a8094bfbf8a9463fcf79dc"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000061.png",
+        "index": 3309,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006741,
+          "bytes": 2864302,
+          "mtime_ns": 1794057334496389320,
+          "ctime_ns": 1794057334496389320,
+          "nlink": 1,
+          "allocated_bytes": 2867200
+        },
+        "sha256": "7a3717e9d2e3f5679786699ae96fd6289bc6be82e6b2e3752a0982b53344a6d2"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000062.png",
+        "index": 3378,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006742,
+          "bytes": 3066603,
+          "mtime_ns": 1794057334550055752,
+          "ctime_ns": 1794057334550055752,
+          "nlink": 1,
+          "allocated_bytes": 3067904
+        },
+        "sha256": "644005ea177ead167858e417fb0ca5c7e78400c5cac0393bffeede13c91e3790"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000063.png",
+        "index": 3379,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006745,
+          "bytes": 5277999,
+          "mtime_ns": 1794057335120513750,
+          "ctime_ns": 1794057335120513750,
+          "nlink": 1,
+          "allocated_bytes": 5279744
+        },
+        "sha256": "2008d660e1c960b1d02941489464a76dc8f3cfa55be69ebb4e6cd08e3a0a25a6"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000064.png",
+        "index": 3444,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006746,
+          "bytes": 5783890,
+          "mtime_ns": 1794057335662027131,
+          "ctime_ns": 1794057335662027131,
+          "nlink": 1,
+          "allocated_bytes": 5787648
+        },
+        "sha256": "e9543b9229ac6b93eeba8cd6f8d5f87021389ec5e2dbd470e9def93b0e3a23cb"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000065.png",
+        "index": 3510,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006747,
+          "bytes": 5861992,
+          "mtime_ns": 1794057335732438899,
+          "ctime_ns": 1794057335732438899,
+          "nlink": 1,
+          "allocated_bytes": 5865472
+        },
+        "sha256": "3fc7fdba567c371d90df0cf420e2b86d85f47e47fb008cb4067d0edb744c9267"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000066.png",
+        "index": 3511,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006749,
+          "bytes": 3356945,
+          "mtime_ns": 1794057336211738782,
+          "ctime_ns": 1794057336211738782,
+          "nlink": 1,
+          "allocated_bytes": 3358720
+        },
+        "sha256": "0d138856e154a516b468e59950f735c4fc40af1269f9a95a948621f48942e50e"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000067.png",
+        "index": 3590,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006751,
+          "bytes": 4097945,
+          "mtime_ns": 1794057336760458348,
+          "ctime_ns": 1794057336760458348,
+          "nlink": 1,
+          "allocated_bytes": 4100096
+        },
+        "sha256": "3dbc868411ba2748bc5f91fa6c28367340d6aae355336618c7f560559beb1850"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000068.png",
+        "index": 3669,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006753,
+          "bytes": 4327046,
+          "mtime_ns": 1794057337089886296,
+          "ctime_ns": 1794057337089886296,
+          "nlink": 1,
+          "allocated_bytes": 4329472
+        },
+        "sha256": "4eafa8f6cb54f686f588e348c7bd741640b36428ea439c701f1daf9ada9bd756"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000069.png",
+        "index": 3670,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006754,
+          "bytes": 4031086,
+          "mtime_ns": 1794057337464559738,
+          "ctime_ns": 1794057337464559738,
+          "nlink": 1,
+          "allocated_bytes": 4034560
+        },
+        "sha256": "160fdfde02626cc5fb24ed51f8f6104a2d9f640a7b72bf85d707fc4592c761d2"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000070.png",
+        "index": 3759,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006755,
+          "bytes": 4742843,
+          "mtime_ns": 1794057337871205722,
+          "ctime_ns": 1794057337871205722,
+          "nlink": 1,
+          "allocated_bytes": 4743168
+        },
+        "sha256": "2f4615de2dff57b686caa3abb88a9f07d142047d1da3e9a778b0636449cb18d8"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000071.png",
+        "index": 3849,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006757,
+          "bytes": 4853377,
+          "mtime_ns": 1794057338468374541,
+          "ctime_ns": 1794057338468374541,
+          "nlink": 1,
+          "allocated_bytes": 4853760
+        },
+        "sha256": "22fe7ae6490f2d1d45a14e0218ceae378639629c9945dd9192d93e74f2d12cac"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000072.png",
+        "index": 3850,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006759,
+          "bytes": 4026554,
+          "mtime_ns": 1794057338880618206,
+          "ctime_ns": 1794057338880618206,
+          "nlink": 1,
+          "allocated_bytes": 4030464
+        },
+        "sha256": "26f5f70b2aa6182649507a26eb2c7bbae2158a2863da6ccfac3fbd8680a5a7e4"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000073.png",
+        "index": 3931,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006761,
+          "bytes": 4685300,
+          "mtime_ns": 1794057339415277694,
+          "ctime_ns": 1794057339415277694,
+          "nlink": 1,
+          "allocated_bytes": 4685824
+        },
+        "sha256": "1250f101a2e61926bd59634f199d487aa2a2b2cd904e67901f81012a96fccd9b"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000074.png",
+        "index": 4012,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006762,
+          "bytes": 4722303,
+          "mtime_ns": 1794057339571854938,
+          "ctime_ns": 1794057339571854938,
+          "nlink": 1,
+          "allocated_bytes": 4722688
+        },
+        "sha256": "6460f2011c255638448f313cca9a9acf227b243335b686b6a40cdda7c8df3272"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000075.png",
+        "index": 4013,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006764,
+          "bytes": 3392782,
+          "mtime_ns": 1794057339757694551,
+          "ctime_ns": 1794057339757694551,
+          "nlink": 1,
+          "allocated_bytes": 3395584
+        },
+        "sha256": "715795cb6c032200fde43c4a029663c70ce539815a3d78ed88ec92273f4c8786"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000076.png",
+        "index": 4075,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006766,
+          "bytes": 4149793,
+          "mtime_ns": 1794057340321341323,
+          "ctime_ns": 1794057340321341323,
+          "nlink": 1,
+          "allocated_bytes": 4153344
+        },
+        "sha256": "7c928efa906f0fd166c77b122094f70056f736023ef73ac0e1d1af631d61d2ef"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000077.png",
+        "index": 4138,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006767,
+          "bytes": 4137885,
+          "mtime_ns": 1794057340638424864,
+          "ctime_ns": 1794057340638424864,
+          "nlink": 1,
+          "allocated_bytes": 4141056
+        },
+        "sha256": "796e9ad5007dae2c2bbc46991e16f49cabcce285c1f74a0a8d98671d7205ed6c"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000078.png",
+        "index": 4139,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006768,
+          "bytes": 2161470,
+          "mtime_ns": 1794057340843536694,
+          "ctime_ns": 1794057340843536694,
+          "nlink": 1,
+          "allocated_bytes": 2162688
+        },
+        "sha256": "d5983536fc963092ff2a4a5ab0e1ecf532d9c4f4bd4b013ea379b50469d49142"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000079.png",
+        "index": 4201,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006769,
+          "bytes": 2607748,
+          "mtime_ns": 1794057341459399270,
+          "ctime_ns": 1794057341459399270,
+          "nlink": 1,
+          "allocated_bytes": 2609152
+        },
+        "sha256": "fd09ff863ba0b70cbb0f0ef7e5168482e7c82b1ddd2402f925746be13c741283"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000080.png",
+        "index": 4264,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006770,
+          "bytes": 2758114,
+          "mtime_ns": 1794057341464548158,
+          "ctime_ns": 1794057341464548158,
+          "nlink": 1,
+          "allocated_bytes": 2760704
+        },
+        "sha256": "9ebf99cd49059e8fd6a770303d8acee9037203d7f4217f69e487ad1ce725870c"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000081.png",
+        "index": 4265,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006771,
+          "bytes": 3197836,
+          "mtime_ns": 1794057341875255528,
+          "ctime_ns": 1794057341875255528,
+          "nlink": 1,
+          "allocated_bytes": 3198976
+        },
+        "sha256": "fe7f625c96c9db2596f937cb7d8e0aed012e581aba7ba342f16841ac29692fd6"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000082.png",
+        "index": 4345,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006772,
+          "bytes": 3796827,
+          "mtime_ns": 1794057342379662603,
+          "ctime_ns": 1794057342379662603,
+          "nlink": 1,
+          "allocated_bytes": 3796992
+        },
+        "sha256": "0803d0b030aeed5fa6bde9d7113ac93b7322034d94893cc3fb51c9d598d98c53"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000083.png",
+        "index": 4425,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006773,
+          "bytes": 3921033,
+          "mtime_ns": 1794057342393176555,
+          "ctime_ns": 1794057342393176555,
+          "nlink": 1,
+          "allocated_bytes": 3923968
+        },
+        "sha256": "0cd045d228980e62f1b2de4e2dd87a4d59df1dcefa20a46e6f36c1555137e222"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000084.png",
+        "index": 4426,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006774,
+          "bytes": 2693688,
+          "mtime_ns": 1794057343000299815,
+          "ctime_ns": 1794057343000299815,
+          "nlink": 1,
+          "allocated_bytes": 2695168
+        },
+        "sha256": "d7ae79f83322be60d3bc271ba88623c0fb17e15f5a7476e7d86e2f3f37a24f7c"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000085.png",
+        "index": 4485,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006775,
+          "bytes": 3617529,
+          "mtime_ns": 1794057343559164825,
+          "ctime_ns": 1794057343559164825,
+          "nlink": 1,
+          "allocated_bytes": 3620864
+        },
+        "sha256": "8e23e121dcc4b0e8571fa2eabe4867bea14d5b5334dc9b29c9e48011e02a2fb2"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000086.png",
+        "index": 4545,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006776,
+          "bytes": 3657122,
+          "mtime_ns": 1794057343566397385,
+          "ctime_ns": 1794057343566397385,
+          "nlink": 1,
+          "allocated_bytes": 3657728
+        },
+        "sha256": "a865bf1f4549f301833e049f1a700a74107f87583b4a8148561620e6c72158a3"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000087.png",
+        "index": 4546,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006777,
+          "bytes": 3976398,
+          "mtime_ns": 1794057343879012872,
+          "ctime_ns": 1794057343879012872,
+          "nlink": 1,
+          "allocated_bytes": 3977216
+        },
+        "sha256": "9ff6d7681e600f0cf5caf3df285599ca64e1bf1facc9d4b17a8a61c2ac62cdaf"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000088.png",
+        "index": 4618,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006778,
+          "bytes": 4908182,
+          "mtime_ns": 1794057344315094726,
+          "ctime_ns": 1794057344315094726,
+          "nlink": 1,
+          "allocated_bytes": 4911104
+        },
+        "sha256": "3cc8c32f27b883075a75c99d38ad0e86f480a3d78d78a054372c1f8603096691"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000089.png",
+        "index": 4691,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006779,
+          "bytes": 4866504,
+          "mtime_ns": 1794057344504674099,
+          "ctime_ns": 1794057344504674099,
+          "nlink": 1,
+          "allocated_bytes": 4870144
+        },
+        "sha256": "c296ecf9a5fa6b91a3861beeee5053446b9944ed1473d40b948d0f4401f7b5e0"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000090.png",
+        "index": 4692,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006780,
+          "bytes": 2836701,
+          "mtime_ns": 1794057345111941193,
+          "ctime_ns": 1794057345111941193,
+          "nlink": 1,
+          "allocated_bytes": 2838528
+        },
+        "sha256": "30d67843defd0f76b5b8d1fe9901b8379cba30b3fc2bd60af70739ced106f18e"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000091.png",
+        "index": 4770,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006781,
+          "bytes": 3565194,
+          "mtime_ns": 1794057345841617026,
+          "ctime_ns": 1794057345841617026,
+          "nlink": 1,
+          "allocated_bytes": 3567616
+        },
+        "sha256": "5f106bf6fd42d3c4b8ed32c416d4ceb292d4baf7066bde681f3e9071b24a9d89"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000092.png",
+        "index": 4849,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006782,
+          "bytes": 3773260,
+          "mtime_ns": 1794057345938213321,
+          "ctime_ns": 1794057345938213321,
+          "nlink": 1,
+          "allocated_bytes": 3776512
+        },
+        "sha256": "58be7cd1fa47debc76550b7c4fae4ad72e4b08bd405477a6764bdbe761a227a2"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000093.png",
+        "index": 4850,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006783,
+          "bytes": 3707851,
+          "mtime_ns": 1794057346498927169,
+          "ctime_ns": 1794057346498927169,
+          "nlink": 1,
+          "allocated_bytes": 3710976
+        },
+        "sha256": "2032dac3f80371b1f9f89e6570437b514bf2a7d3c4aebdf0faab3e00fa16f655"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000094.png",
+        "index": 4909,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006784,
+          "bytes": 4467327,
+          "mtime_ns": 1794057346900311097,
+          "ctime_ns": 1794057346900311097,
+          "nlink": 1,
+          "allocated_bytes": 4468736
+        },
+        "sha256": "8c45801f69d3786ba247875bc0ec65323535ad5ddbc643d82674be2dc98e92be"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000095.png",
+        "index": 4969,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006785,
+          "bytes": 4492046,
+          "mtime_ns": 1794057346939036449,
+          "ctime_ns": 1794057346939036449,
+          "nlink": 1,
+          "allocated_bytes": 4493312
+        },
+        "sha256": "0bb872877d5fe3e436c47ca2fdcd2a057d9aeb416be0c47355bc7f3b4faa5fe2"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000096.png",
+        "index": 4970,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006786,
+          "bytes": 1624569,
+          "mtime_ns": 1794057347280174845,
+          "ctime_ns": 1794057347280174845,
+          "nlink": 1,
+          "allocated_bytes": 1626112
+        },
+        "sha256": "83d26764246b1081ab5d68dd7462d6afd04413fd833dd625fd5d99c5b8e2c8fb"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000097.png",
+        "index": 5039,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006787,
+          "bytes": 2816671,
+          "mtime_ns": 1794057347655505706,
+          "ctime_ns": 1794057347655505706,
+          "nlink": 1,
+          "allocated_bytes": 2818048
+        },
+        "sha256": "5a96d89a5d80b02ad5d28604321d3a78a3476a70ae7d38332b04a52085cbe2ba"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000098.png",
+        "index": 5108,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006788,
+          "bytes": 2987665,
+          "mtime_ns": 1794057347663905728,
+          "ctime_ns": 1794057347663905728,
+          "nlink": 1,
+          "allocated_bytes": 2990080
+        },
+        "sha256": "d58bbad227f4329e3287e191cf53f2572159a301e76d5063e2ada5b1205fafca"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000099.png",
+        "index": 5109,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006789,
+          "bytes": 2992380,
+          "mtime_ns": 1794057348087621882,
+          "ctime_ns": 1794057348087621882,
+          "nlink": 1,
+          "allocated_bytes": 2994176
+        },
+        "sha256": "7a9390356c0581f0d6f9d01a6b307c5402abf3da4e8908c760aa379269530e9d"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000100.png",
+        "index": 5198,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006790,
+          "bytes": 3579372,
+          "mtime_ns": 1794057348495478078,
+          "ctime_ns": 1794057348495478078,
+          "nlink": 1,
+          "allocated_bytes": 3579904
+        },
+        "sha256": "b6b976bf4a9c123f5c46f55353ffde3a0ce568ffe0a3bce0f1b3d6e4173d4676"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000101.png",
+        "index": 5288,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006791,
+          "bytes": 3762935,
+          "mtime_ns": 1794057348500238882,
+          "ctime_ns": 1794057348500238882,
+          "nlink": 1,
+          "allocated_bytes": 3764224
+        },
+        "sha256": "bcfe2102b93aee396fdf7fc6cb38d22d22703633946cbadcc3237284ca84475e"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000102.png",
+        "index": 5289,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006792,
+          "bytes": 2844127,
+          "mtime_ns": 1794057348913854718,
+          "ctime_ns": 1794057348913854718,
+          "nlink": 1,
+          "allocated_bytes": 2846720
+        },
+        "sha256": "10bc460b967d9a4ed26e6d5cdbf77c570ebd243c5d4991267b6daf8b60513077"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000103.png",
+        "index": 5378,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006793,
+          "bytes": 3480020,
+          "mtime_ns": 1794057349326746261,
+          "ctime_ns": 1794057349326746261,
+          "nlink": 1,
+          "allocated_bytes": 3481600
+        },
+        "sha256": "2b4c47f02a494549fe54ba0c8b4e010ff7c289100b5be28172d318760f997a22"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000104.png",
+        "index": 5468,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006794,
+          "bytes": 3670062,
+          "mtime_ns": 1794057349395030857,
+          "ctime_ns": 1794057349395030857,
+          "nlink": 1,
+          "allocated_bytes": 3674112
+        },
+        "sha256": "51a49fc412072d5cd21f2b0dd2f757a3d5a82513a29cc9f556825b6f4da9533b"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000105.png",
+        "index": 5469,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006797,
+          "bytes": 2328735,
+          "mtime_ns": 1794057350008828385,
+          "ctime_ns": 1794057350008828385,
+          "nlink": 1,
+          "allocated_bytes": 2330624
+        },
+        "sha256": "fd8bdce00122810ed9b7e350b170adb3a996aa28fed2c891c49ec2993eb6dd96"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000106.png",
+        "index": 5558,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006798,
+          "bytes": 3125126,
+          "mtime_ns": 1794057350601069815,
+          "ctime_ns": 1794057350601069815,
+          "nlink": 1,
+          "allocated_bytes": 3125248
+        },
+        "sha256": "48569c26624daa7f16cf53d2efedbdf525da3dfd28452e156d8828c07871c262"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000107.png",
+        "index": 5648,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006799,
+          "bytes": 3450526,
+          "mtime_ns": 1794057350602006193,
+          "ctime_ns": 1794057350602006193,
+          "nlink": 1,
+          "allocated_bytes": 3452928
+        },
+        "sha256": "7ecbccfc0c60b1fad7fe882a10ade8264d8bb8327cf7a4e9bc30962c2ec5e6a5"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000108.png",
+        "index": 5649,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006810,
+          "bytes": 2432559,
+          "mtime_ns": 1794057351043426976,
+          "ctime_ns": 1794057351043426976,
+          "nlink": 1,
+          "allocated_bytes": 2433024
+        },
+        "sha256": "7538deea783addfb56d3ae438e05feb57bc7c2196c0d1d40faebcd633c6ef994"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000109.png",
+        "index": 5738,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006811,
+          "bytes": 3215535,
+          "mtime_ns": 1794057351468340551,
+          "ctime_ns": 1794057351468340551,
+          "nlink": 1,
+          "allocated_bytes": 3219456
+        },
+        "sha256": "2994bcfb3ee33cf29b7abbb8ee6761bdc0aaac9207c49ac46bcb65acde16d051"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000110.png",
+        "index": 5828,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006812,
+          "bytes": 3460243,
+          "mtime_ns": 1794057351505675191,
+          "ctime_ns": 1794057351505675191,
+          "nlink": 1,
+          "allocated_bytes": 3461120
+        },
+        "sha256": "4670a577b3fa6337bdb84baf34da96ecfbe761c333fb59066885b0003ccc699c"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000111.png",
+        "index": 5829,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006815,
+          "bytes": 2301814,
+          "mtime_ns": 1794057351845600166,
+          "ctime_ns": 1794057351845600166,
+          "nlink": 1,
+          "allocated_bytes": 2301952
+        },
+        "sha256": "1aea760bd9f85c883f5579bb04ebf3a95da88127e8e19315b9a77c73d8487c56"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000112.png",
+        "index": 5918,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006817,
+          "bytes": 3145542,
+          "mtime_ns": 1794057352248038515,
+          "ctime_ns": 1794057352248038515,
+          "nlink": 1,
+          "allocated_bytes": 3145728
+        },
+        "sha256": "4af1104c4c3aa47de3df930cff3f3c1b6ee4c6a383f73f9b7b5d2c78ce792b35"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000113.png",
+        "index": 6008,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006818,
+          "bytes": 3448307,
+          "mtime_ns": 1794057352249375476,
+          "ctime_ns": 1794057352249375476,
+          "nlink": 1,
+          "allocated_bytes": 3448832
+        },
+        "sha256": "1aec8c7648d417d9a28218ef29fa24b971da03f5782056d5a9143f003a7c4c97"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000114.png",
+        "index": 6009,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006820,
+          "bytes": 5288854,
+          "mtime_ns": 1794057352598841186,
+          "ctime_ns": 1794057352598841186,
+          "nlink": 1,
+          "allocated_bytes": 5292032
+        },
+        "sha256": "243480ffb0eddc0a3a16adb2e4d81e7ec2d40df74f288482fd264664c77d05a7"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000115.png",
+        "index": 6098,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006821,
+          "bytes": 5811171,
+          "mtime_ns": 1794057353020185375,
+          "ctime_ns": 1794057353020185375,
+          "nlink": 1,
+          "allocated_bytes": 5812224
+        },
+        "sha256": "daec00bdf702dc58df4004d4e70cd3cb0c6f36290c59ebd38f1eef690b08656b"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000116.png",
+        "index": 6188,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006822,
+          "bytes": 5846748,
+          "mtime_ns": 1794057353027256727,
+          "ctime_ns": 1794057353027256727,
+          "nlink": 1,
+          "allocated_bytes": 5849088
+        },
+        "sha256": "7f58d34275ad8f97bd4a6b1fbea38fd333e9fe37a4ee89ab66d43880b550d41f"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000117.png",
+        "index": 6189,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006823,
+          "bytes": 3585948,
+          "mtime_ns": 1794057353436596719,
+          "ctime_ns": 1794057353436596719,
+          "nlink": 1,
+          "allocated_bytes": 3588096
+        },
+        "sha256": "fda86e1753f4c4e9b6e5bd749948609154a7104f56eb49cbd9ced61909b32c5b"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000118.png",
+        "index": 6278,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006824,
+          "bytes": 4234523,
+          "mtime_ns": 1794057353807948861,
+          "ctime_ns": 1794057353807948861,
+          "nlink": 1,
+          "allocated_bytes": 4235264
+        },
+        "sha256": "69fd9618f9d07930f55208d08913c1663ea453406715b01e922853b6ef51743b"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000119.png",
+        "index": 6368,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006825,
+          "bytes": 4319371,
+          "mtime_ns": 1794057353826971536,
+          "ctime_ns": 1794057353826971536,
+          "nlink": 1,
+          "allocated_bytes": 4321280
+        },
+        "sha256": "120114381a009b738b2c2baa436d6ae96f1a3777bf4177beb1c7ff286bdc3d58"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000120.png",
+        "index": 6369,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006826,
+          "bytes": 4691559,
+          "mtime_ns": 1794057354135431220,
+          "ctime_ns": 1794057354135431220,
+          "nlink": 1,
+          "allocated_bytes": 4694016
+        },
+        "sha256": "c25bdcab4e84567da5d8cb03932dd89c3892f4ad596ac0e80d1248ceb8f0c1a3"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000121.png",
+        "index": 6433,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006827,
+          "bytes": 5391590,
+          "mtime_ns": 1794057354492801159,
+          "ctime_ns": 1794057354492801159,
+          "nlink": 1,
+          "allocated_bytes": 5394432
+        },
+        "sha256": "f9f7b7b9614dbd81a6d1d305c93c72394a37f76685da381740e733bf419a07ee"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000122.png",
+        "index": 6497,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006828,
+          "bytes": 5380372,
+          "mtime_ns": 1794057354511931251,
+          "ctime_ns": 1794057354511931251,
+          "nlink": 1,
+          "allocated_bytes": 5382144
+        },
+        "sha256": "69158b975ba40e7c8d6e618ccef91803b64be2cc0075b3d4836bab7fe4fd8520"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000123.png",
+        "index": 6498,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006830,
+          "bytes": 2877739,
+          "mtime_ns": 1794057354856162529,
+          "ctime_ns": 1794057354856162529,
+          "nlink": 1,
+          "allocated_bytes": 2879488
+        },
+        "sha256": "00ab9c329c5aacb925c6b9380ed5805b35d7fb4aeb3f9e8a290bcb3fb7dad549"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000124.png",
+        "index": 6587,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006833,
+          "bytes": 3695553,
+          "mtime_ns": 1794057355323841008,
+          "ctime_ns": 1794057355323841008,
+          "nlink": 1,
+          "allocated_bytes": 3698688
+        },
+        "sha256": "9cb73005f8ee268c4672c7d4c2883ef62f5df7e7dc0b655af97c9c8bc95bbc90"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000125.png",
+        "index": 6677,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006834,
+          "bytes": 3743509,
+          "mtime_ns": 1794057355354139504,
+          "ctime_ns": 1794057355354139504,
+          "nlink": 1,
+          "allocated_bytes": 3743744
+        },
+        "sha256": "0f3a2b23140a685a6ca2521a66193a4fdae2c4920de6061ddc64e80a91e218ce"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000126.png",
+        "index": 6678,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006835,
+          "bytes": 1996462,
+          "mtime_ns": 1794057355884513021,
+          "ctime_ns": 1794057355884513021,
+          "nlink": 1,
+          "allocated_bytes": 1998848
+        },
+        "sha256": "a6d7637702dd4d1c7ca5799317064c6d9b3a43f15ba2d7abeecea0be65c8f271"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000127.png",
+        "index": 6767,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006836,
+          "bytes": 3094508,
+          "mtime_ns": 1794057356314713235,
+          "ctime_ns": 1794057356314713235,
+          "nlink": 1,
+          "allocated_bytes": 3096576
+        },
+        "sha256": "383dd1797706a5deb6375f7bdfc3a7e9a26dfdafabc53d83e51f0bed16ce7cac"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000128.png",
+        "index": 6857,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006837,
+          "bytes": 3154868,
+          "mtime_ns": 1794057356318702453,
+          "ctime_ns": 1794057356318702453,
+          "nlink": 1,
+          "allocated_bytes": 3158016
+        },
+        "sha256": "97aca61cbf1029a2d1a511f347bc60febe58ff60764c8235233941c93d8d2c47"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000129.png",
+        "index": 6858,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006838,
+          "bytes": 2800158,
+          "mtime_ns": 1794057356666322866,
+          "ctime_ns": 1794057356666322866,
+          "nlink": 1,
+          "allocated_bytes": 2801664
+        },
+        "sha256": "236fc8f7c6a9e0a7a34d1495602a26a30b9d30ae0518dc63eeab0e6e5f9c2f1f"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000130.png",
+        "index": 6932,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006839,
+          "bytes": 3820003,
+          "mtime_ns": 1794057356983752408,
+          "ctime_ns": 1794057356983752408,
+          "nlink": 1,
+          "allocated_bytes": 3821568
+        },
+        "sha256": "0162f48e6ba57814fd81f4f8aedc8d2697e36b1f7ac822e57312a724fe25ef28"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000131.png",
+        "index": 7007,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006840,
+          "bytes": 3999263,
+          "mtime_ns": 1794057356987291042,
+          "ctime_ns": 1794057356987291042,
+          "nlink": 1,
+          "allocated_bytes": 4001792
+        },
+        "sha256": "6b2d4d8bf7eb8aa4e9737d948b5b8a795121486663e08cf7a313639d90146e36"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000132.png",
+        "index": 7008,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006841,
+          "bytes": 2121223,
+          "mtime_ns": 1794057357273854586,
+          "ctime_ns": 1794057357273854586,
+          "nlink": 1,
+          "allocated_bytes": 2121728
+        },
+        "sha256": "838a2c768a804e7379a91d99b49af3debe10d173b96fac26516eafb538c5afee"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000133.png",
+        "index": 7097,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006842,
+          "bytes": 2970330,
+          "mtime_ns": 1794057357572510621,
+          "ctime_ns": 1794057357572510621,
+          "nlink": 1,
+          "allocated_bytes": 2973696
+        },
+        "sha256": "ba618008c3b68a9bfec7731e008f21b945ebf7dfb465a1e2c802f53003714527"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000134.png",
+        "index": 7187,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006843,
+          "bytes": 3233046,
+          "mtime_ns": 1794057357574406084,
+          "ctime_ns": 1794057357574406084,
+          "nlink": 1,
+          "allocated_bytes": 3235840
+        },
+        "sha256": "3b533e5ee13091e18f93df2b8f56d33bbbaacf6259eeac31d7d42936b30eb5ec"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000135.png",
+        "index": 7188,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006844,
+          "bytes": 2534862,
+          "mtime_ns": 1794057357974533134,
+          "ctime_ns": 1794057357974533134,
+          "nlink": 1,
+          "allocated_bytes": 2535424
+        },
+        "sha256": "8b52bcb998a80543c6f0a86100aec4ff63147a4e942d1ec3ffbc25310766d523"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000136.png",
+        "index": 7275,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006845,
+          "bytes": 2984535,
+          "mtime_ns": 1794057358469956019,
+          "ctime_ns": 1794057358469956019,
+          "nlink": 1,
+          "allocated_bytes": 2985984
+        },
+        "sha256": "6612cd4d28194dc1b3957497864c701b77eb5d3011b527d13f333c8633dc7ec1"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000137.png",
+        "index": 7363,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006846,
+          "bytes": 3027702,
+          "mtime_ns": 1794057358473289278,
+          "ctime_ns": 1794057358473289278,
+          "nlink": 1,
+          "allocated_bytes": 3031040
+        },
+        "sha256": "c19345da588e906b6f7ed961317c8255bbd44856679cbec31289d677c5d131d3"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000138.png",
+        "index": 7364,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006847,
+          "bytes": 2597541,
+          "mtime_ns": 1794057358867002019,
+          "ctime_ns": 1794057358867002019,
+          "nlink": 1,
+          "allocated_bytes": 2600960
+        },
+        "sha256": "84fef6b390c1a272889036c8d5d107134b6e73d82c42591d3085f5c2c5bbaabd"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000139.png",
+        "index": 7431,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006848,
+          "bytes": 3370367,
+          "mtime_ns": 1794057359378875655,
+          "ctime_ns": 1794057359378875655,
+          "nlink": 1,
+          "allocated_bytes": 3371008
+        },
+        "sha256": "d11ed49b8b9749c03ac459a5fe00dfbb25c3bd9b51dab9fb5a3cda102e52e87d"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000140.png",
+        "index": 7499,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006849,
+          "bytes": 3607064,
+          "mtime_ns": 1794057359384244669,
+          "ctime_ns": 1794057359384244669,
+          "nlink": 1,
+          "allocated_bytes": 3608576
+        },
+        "sha256": "a0d4f80675a6009bb328a8ea5926ad6d3428a68b25300dde52b20e2bbd86385e"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000141.png",
+        "index": 7500,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006850,
+          "bytes": 2935685,
+          "mtime_ns": 1794057360049151457,
+          "ctime_ns": 1794057360049151457,
+          "nlink": 1,
+          "allocated_bytes": 2936832
+        },
+        "sha256": "761146963401fce68f970e42fc9c95a36ebb532deb927b95964f7e663a212a92"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000142.png",
+        "index": 7561,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006851,
+          "bytes": 3445472,
+          "mtime_ns": 1794057360519688443,
+          "ctime_ns": 1794057360519688443,
+          "nlink": 1,
+          "allocated_bytes": 3448832
+        },
+        "sha256": "97731246ed0f8aa256c5246a5f22012bbd3c420f7e328eebf9207c1567bd0700"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000143.png",
+        "index": 7622,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006852,
+          "bytes": 3707973,
+          "mtime_ns": 1794057360524416663,
+          "ctime_ns": 1794057360524416663,
+          "nlink": 1,
+          "allocated_bytes": 3710976
+        },
+        "sha256": "4f623bf6fc19f19fe700bad534dcf3a5bf6ab5c4b778c0892fc0ca1d6711b62b"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000144.png",
+        "index": 7623,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006856,
+          "bytes": 1939571,
+          "mtime_ns": 1794057361123208735,
+          "ctime_ns": 1794057361123208735,
+          "nlink": 1,
+          "allocated_bytes": 1941504
+        },
+        "sha256": "ab2337702a9068ba5756c9025bb9d7091ac79d64b9b46d357bdb3071b580a9c4"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000145.png",
+        "index": 7712,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006857,
+          "bytes": 2748023,
+          "mtime_ns": 1794057361633599368,
+          "ctime_ns": 1794057361633599368,
+          "nlink": 1,
+          "allocated_bytes": 2748416
+        },
+        "sha256": "68605958f9a2dde6d14fdbf9d97e912e2b6dc70d1b8611921e9a280f55f7cfcb"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000146.png",
+        "index": 7802,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006858,
+          "bytes": 2857529,
+          "mtime_ns": 1794057361666845997,
+          "ctime_ns": 1794057361666845997,
+          "nlink": 1,
+          "allocated_bytes": 2859008
+        },
+        "sha256": "3e242b36c427d7577c6d75e1ec3504e7b01fae1bc473e59d77faa953a49815dc"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000147.png",
+        "index": 7803,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006859,
+          "bytes": 1902243,
+          "mtime_ns": 1794057362102298390,
+          "ctime_ns": 1794057362102298390,
+          "nlink": 1,
+          "allocated_bytes": 1904640
+        },
+        "sha256": "2ed3cfae810ab65ca2cd655058a8f1625504f9533db4fbb0893c03641b45e7b0"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000148.png",
+        "index": 7892,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006861,
+          "bytes": 3150422,
+          "mtime_ns": 1794057362577368888,
+          "ctime_ns": 1794057362577368888,
+          "nlink": 1,
+          "allocated_bytes": 3153920
+        },
+        "sha256": "3dd749ba572e2a144c974b4fcf0f59054f7c69126709b5f1f5496dc9dede2820"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000149.png",
+        "index": 7982,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006862,
+          "bytes": 3125291,
+          "mtime_ns": 1794057362600634449,
+          "ctime_ns": 1794057362600634449,
+          "nlink": 1,
+          "allocated_bytes": 3129344
+        },
+        "sha256": "b65b458e160671bad0460e9ff230cc654e910f9cc8e09f5b888e6388e549e3a1"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000150.png",
+        "index": 7983,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006865,
+          "bytes": 4201366,
+          "mtime_ns": 1794057363127545998,
+          "ctime_ns": 1794057363127545998,
+          "nlink": 1,
+          "allocated_bytes": 4202496
+        },
+        "sha256": "2bfc1f47bae5832b4c1311ef0904f1610990cc50bc4a7c6937e4d09af1cfd898"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000151.png",
+        "index": 8069,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006866,
+          "bytes": 4907289,
+          "mtime_ns": 1794057363626720560,
+          "ctime_ns": 1794057363626720560,
+          "nlink": 1,
+          "allocated_bytes": 4911104
+        },
+        "sha256": "121f04986300fd6364df6eed31eb3fe826000adc17ea55ebcdf75633f8f5b2d5"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000152.png",
+        "index": 8155,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006867,
+          "bytes": 4934184,
+          "mtime_ns": 1794057363637007545,
+          "ctime_ns": 1794057363637007545,
+          "nlink": 1,
+          "allocated_bytes": 4935680
+        },
+        "sha256": "559830594d5261063d7d8bdbdd49351ecc347817dee48e016bff19f67bb7427b"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000153.png",
+        "index": 8156,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006868,
+          "bytes": 3803215,
+          "mtime_ns": 1794057363987358839,
+          "ctime_ns": 1794057363987358839,
+          "nlink": 1,
+          "allocated_bytes": 3805184
+        },
+        "sha256": "d87661b6377f370962ceb90f47f2eece39f98c86daf7c23bb2c304f63048c340"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000154.png",
+        "index": 8227,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006869,
+          "bytes": 4603612,
+          "mtime_ns": 1794057364356620184,
+          "ctime_ns": 1794057364356620184,
+          "nlink": 1,
+          "allocated_bytes": 4603904
+        },
+        "sha256": "6b3e3b787b7352e55103e077d92862d201a4fa4cc734a4a1032dc50740d222b6"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000155.png",
+        "index": 8298,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006870,
+          "bytes": 4588795,
+          "mtime_ns": 1794057364456962198,
+          "ctime_ns": 1794057364456962198,
+          "nlink": 1,
+          "allocated_bytes": 4591616
+        },
+        "sha256": "72bbf0c98c0c49cadfef3260a5eddce0bb86b9fb923cfab761007367dfd68e9f"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000156.png",
+        "index": 8299,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006882,
+          "bytes": 2337020,
+          "mtime_ns": 1794057365110801248,
+          "ctime_ns": 1794057365110801248,
+          "nlink": 1,
+          "allocated_bytes": 2338816
+        },
+        "sha256": "b92e7602e020f99f4390fbb22d294ec604e04ad6281372a3fc073b5bd48471ec"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000157.png",
+        "index": 8388,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006883,
+          "bytes": 2934565,
+          "mtime_ns": 1794057365535028070,
+          "ctime_ns": 1794057365535028070,
+          "nlink": 1,
+          "allocated_bytes": 2936832
+        },
+        "sha256": "16470aaf300d33b6c583698f76caff8ce27431b1dd9594bdb3eb87cef1e9c172"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000158.png",
+        "index": 8478,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006884,
+          "bytes": 3249430,
+          "mtime_ns": 1794057365536522699,
+          "ctime_ns": 1794057365536522699,
+          "nlink": 1,
+          "allocated_bytes": 3252224
+        },
+        "sha256": "585c8ed809f802eed5af7d7312d47fcf639531c40bc20c40f7fb164c6bb2f9a2"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000159.png",
+        "index": 8479,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006900,
+          "bytes": 2697782,
+          "mtime_ns": 1794057366109998580,
+          "ctime_ns": 1794057366109998580,
+          "nlink": 1,
+          "allocated_bytes": 2699264
+        },
+        "sha256": "688fce4e1daf69be627d89a9c3bf28d0a42524207b52241ce681cb7b3efece81"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000160.png",
+        "index": 8556,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006904,
+          "bytes": 3363464,
+          "mtime_ns": 1794057366573451547,
+          "ctime_ns": 1794057366573451547,
+          "nlink": 1,
+          "allocated_bytes": 3366912
+        },
+        "sha256": "fd9699130749310b8cc2aaecfab37517dbf5997531a0bfd707f83d0dc8557149"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000161.png",
+        "index": 8633,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006905,
+          "bytes": 3603945,
+          "mtime_ns": 1794057366598741822,
+          "ctime_ns": 1794057366598741822,
+          "nlink": 1,
+          "allocated_bytes": 3604480
+        },
+        "sha256": "d34e0540917ac176c098dd175c866aadf3c9ab770b1e01bcd27b948a420a4a00"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000162.png",
+        "index": 8634,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006949,
+          "bytes": 1810290,
+          "mtime_ns": 1794057367199034148,
+          "ctime_ns": 1794057367199034148,
+          "nlink": 1,
+          "allocated_bytes": 1810432
+        },
+        "sha256": "2280483ef9d0e05c1117c69f4b162548368ab36300b2ed88cf20c50bd47268f6"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000163.png",
+        "index": 8698,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006955,
+          "bytes": 2723560,
+          "mtime_ns": 1794057367848451728,
+          "ctime_ns": 1794057367848451728,
+          "nlink": 1,
+          "allocated_bytes": 2723840
+        },
+        "sha256": "80045be527ee7280508c212b4c60bcdc573f33cbe815cdc39d1f488573ae7d2a"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000164.png",
+        "index": 8763,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006956,
+          "bytes": 2642264,
+          "mtime_ns": 1794057367849997023,
+          "ctime_ns": 1794057367849997023,
+          "nlink": 1,
+          "allocated_bytes": 2646016
+        },
+        "sha256": "feb0a06951705ad1eafbe2d5a608d42fdd48efef3dd9109f16b0ce33fe021cff"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000165.png",
+        "index": 8764,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006959,
+          "bytes": 4359432,
+          "mtime_ns": 1794057368288306175,
+          "ctime_ns": 1794057368288306175,
+          "nlink": 1,
+          "allocated_bytes": 4362240
+        },
+        "sha256": "f80c5588ab7be484d59ffefb1a2f8cfc05afba23e7ca3eea3a05c10312f65c9c"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000166.png",
+        "index": 8823,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006960,
+          "bytes": 5126048,
+          "mtime_ns": 1794057368531201937,
+          "ctime_ns": 1794057368531201937,
+          "nlink": 1,
+          "allocated_bytes": 5128192
+        },
+        "sha256": "d2c651802b37ae51298c7b4c39c780cee076bae13155c20a9763c49a83183415"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000167.png",
+        "index": 8883,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006961,
+          "bytes": 5117270,
+          "mtime_ns": 1794057368558092633,
+          "ctime_ns": 1794057368558092633,
+          "nlink": 1,
+          "allocated_bytes": 5120000
+        },
+        "sha256": "6a394d3292baa1d1254a4f11b6e10b87738864caa05cb92bac73849ec35bb0a9"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000168.png",
+        "index": 8884,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006964,
+          "bytes": 3025949,
+          "mtime_ns": 1794057368958999727,
+          "ctime_ns": 1794057368958999727,
+          "nlink": 1,
+          "allocated_bytes": 3026944
+        },
+        "sha256": "ba244b80f60a0d59632532745671919e063a200f9d66bfb947aee781e09e191d"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000169.png",
+        "index": 8955,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006993,
+          "bytes": 3899033,
+          "mtime_ns": 1794057369390427110,
+          "ctime_ns": 1794057369390427110,
+          "nlink": 1,
+          "allocated_bytes": 3899392
+        },
+        "sha256": "26c7c3a3223b3f71ec07769b697fcfd74b875c6d03ecf59ed8190a0f92545609"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000170.png",
+        "index": 9026,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006994,
+          "bytes": 3893600,
+          "mtime_ns": 1794057369396721835,
+          "ctime_ns": 1794057369396721835,
+          "nlink": 1,
+          "allocated_bytes": 3895296
+        },
+        "sha256": "bc3c2c8d5c8b85b2de92da6c31a5173b8911b2975055d2e3ebbc37587e12e270"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000171.png",
+        "index": 9027,
+        "identity": {
+          "device": 16777233,
+          "inode": 130006997,
+          "bytes": 3673942,
+          "mtime_ns": 1794057369606063427,
+          "ctime_ns": 1794057369606063427,
+          "nlink": 1,
+          "allocated_bytes": 3674112
+        },
+        "sha256": "c2327a9ba5381b99a9852e70ffdb2da6f65927dd31c076968c53b5ac764842f6"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000172.png",
+        "index": 9092,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007002,
+          "bytes": 4628671,
+          "mtime_ns": 1794057369947155822,
+          "ctime_ns": 1794057369947155822,
+          "nlink": 1,
+          "allocated_bytes": 4632576
+        },
+        "sha256": "81225604bac90bb7cb5fd17fe4132c037514eed85de7590e39054b7616663ffd"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000173.png",
+        "index": 9158,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007005,
+          "bytes": 4516391,
+          "mtime_ns": 1794057370280961615,
+          "ctime_ns": 1794057370280961615,
+          "nlink": 1,
+          "allocated_bytes": 4517888
+        },
+        "sha256": "592a606f7feea4c19103b0509d1ddde0aa542d4d93269598e8eae0b1ed00950a"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000174.png",
+        "index": 9159,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007008,
+          "bytes": 1540281,
+          "mtime_ns": 1794057370293930566,
+          "ctime_ns": 1794057370293930566,
+          "nlink": 1,
+          "allocated_bytes": 1544192
+        },
+        "sha256": "e0c07a2fa0f98cd411c33961a5385793ff28372e4786476af2d5827c76dd7379"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000175.png",
+        "index": 9218,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007018,
+          "bytes": 2156109,
+          "mtime_ns": 1794057370724170029,
+          "ctime_ns": 1794057370724170029,
+          "nlink": 1,
+          "allocated_bytes": 2158592
+        },
+        "sha256": "c569dc2882b883174d09d094a607034563c16b34d6f85f494a853e5cfe6ef43a"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000176.png",
+        "index": 9278,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007019,
+          "bytes": 2271419,
+          "mtime_ns": 1794057370725674992,
+          "ctime_ns": 1794057370725674992,
+          "nlink": 1,
+          "allocated_bytes": 2273280
+        },
+        "sha256": "9110327f08f510e3746799b6f1a7d6efc9856165177de6a388759385fa473a27"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000177.png",
+        "index": 9279,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007023,
+          "bytes": 3621163,
+          "mtime_ns": 1794057371198357274,
+          "ctime_ns": 1794057371198357274,
+          "nlink": 1,
+          "allocated_bytes": 3624960
+        },
+        "sha256": "2b3e6a592cac3f2159a977fd49638db2ac018c833620374a85b5c28971646364"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000178.png",
+        "index": 9342,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007025,
+          "bytes": 4612693,
+          "mtime_ns": 1794057371642511857,
+          "ctime_ns": 1794057371642511857,
+          "nlink": 1,
+          "allocated_bytes": 4616192
+        },
+        "sha256": "5ffc9a0cff5ec145100aa1d6710be04c9e62e7e3ec2712f64550945bcdec044d"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000179.png",
+        "index": 9405,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007026,
+          "bytes": 4641312,
+          "mtime_ns": 1794057371644089070,
+          "ctime_ns": 1794057371644089070,
+          "nlink": 1,
+          "allocated_bytes": 4644864
+        },
+        "sha256": "59b80c2da4434b9664ccacca3391db126c2a45281d1a5e0fd1d3be3023c8a470"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000180.png",
+        "index": 9406,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007030,
+          "bytes": 1264167,
+          "mtime_ns": 1794057371923549928,
+          "ctime_ns": 1794057371923549928,
+          "nlink": 1,
+          "allocated_bytes": 1265664
+        },
+        "sha256": "eb9d376eb77d302fdb8249efeae85e3be97fde1d44a3439cef0aff0e50cb2142"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000181.png",
+        "index": 9465,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007032,
+          "bytes": 2217799,
+          "mtime_ns": 1794057372260510480,
+          "ctime_ns": 1794057372260510480,
+          "nlink": 1,
+          "allocated_bytes": 2220032
+        },
+        "sha256": "8be694c6da67cd3b50a85f2c7c78eb35df5a253ecf36e5821e9e716b1b843d66"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000182.png",
+        "index": 9525,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007033,
+          "bytes": 2283491,
+          "mtime_ns": 1794057372262235109,
+          "ctime_ns": 1794057372262235109,
+          "nlink": 1,
+          "allocated_bytes": 2285568
+        },
+        "sha256": "a95625c4db26e06ac20babac30616fdd2f6d5fc3b53b626dfa4dd365409a11fc"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000183.png",
+        "index": 9526,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007041,
+          "bytes": 3710431,
+          "mtime_ns": 1794057372611838319,
+          "ctime_ns": 1794057372611838319,
+          "nlink": 1,
+          "allocated_bytes": 3710976
+        },
+        "sha256": "bb7b01d4d9da1ca39eb893e87e14fb6f175d70061f1b46110828e30610578496"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000184.png",
+        "index": 9607,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007042,
+          "bytes": 4299244,
+          "mtime_ns": 1794057373000123296,
+          "ctime_ns": 1794057373000123296,
+          "nlink": 1,
+          "allocated_bytes": 4300800
+        },
+        "sha256": "1ec2feaf97def4df36ece986ec31f4a3dd5a43c7c8bb696e2c4664e6da8a979c"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000185.png",
+        "index": 9689,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007043,
+          "bytes": 4336631,
+          "mtime_ns": 1794057373002820470,
+          "ctime_ns": 1794057373002820470,
+          "nlink": 1,
+          "allocated_bytes": 4337664
+        },
+        "sha256": "630c0333ca200a4a5d66e93de74e4be268c3ecacb877ba5481be2422fae73e3e"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000186.png",
+        "index": 9690,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007045,
+          "bytes": 2437564,
+          "mtime_ns": 1794057373221738420,
+          "ctime_ns": 1794057373221738420,
+          "nlink": 1,
+          "allocated_bytes": 2441216
+        },
+        "sha256": "6e31f21e194bd4e988c78899cd4fcead10e24ac69b0eeaa468d03d56d6d9b546"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000187.png",
+        "index": 9779,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007046,
+          "bytes": 3292734,
+          "mtime_ns": 1794057373479090555,
+          "ctime_ns": 1794057373479090555,
+          "nlink": 1,
+          "allocated_bytes": 3293184
+        },
+        "sha256": "bd91c9079516a057b00aafda372e54703790d3509596a969a8c438fec1d8aa0f"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000188.png",
+        "index": 9869,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007047,
+          "bytes": 3482889,
+          "mtime_ns": 1794057373514884649,
+          "ctime_ns": 1794057373514884649,
+          "nlink": 1,
+          "allocated_bytes": 3485696
+        },
+        "sha256": "6b3a38ff8f4dd5821dddd19a8455959371b0970f0bb5d3fd61d8556b4b98ac29"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000189.png",
+        "index": 9870,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007048,
+          "bytes": 1960559,
+          "mtime_ns": 1794057373718850726,
+          "ctime_ns": 1794057373718850726,
+          "nlink": 1,
+          "allocated_bytes": 1961984
+        },
+        "sha256": "204f03afa9f483cb12bc568abe1583a18162766f4eb2df84314c4b731d7cad7d"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000190.png",
+        "index": 9959,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007049,
+          "bytes": 2791073,
+          "mtime_ns": 1794057373977436238,
+          "ctime_ns": 1794057373977436238,
+          "nlink": 1,
+          "allocated_bytes": 2793472
+        },
+        "sha256": "4c90d2aef953be7c079f9884e6d3215e8c596bc844473e394247b3aab8ce53ad"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000191.png",
+        "index": 10049,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007050,
+          "bytes": 2913637,
+          "mtime_ns": 1794057374017450009,
+          "ctime_ns": 1794057374017450009,
+          "nlink": 1,
+          "allocated_bytes": 2916352
+        },
+        "sha256": "dda4af6f0e567cc3fc07a0827f3bade4e38aa287ddcb35c0d1980a04479c2828"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000192.png",
+        "index": 10050,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007051,
+          "bytes": 2849477,
+          "mtime_ns": 1794057374315218125,
+          "ctime_ns": 1794057374315218125,
+          "nlink": 1,
+          "allocated_bytes": 2850816
+        },
+        "sha256": "0fb89409e636ca8690af5349ad314b64e99fe987a1bab9eb363e0d0cf741a94a"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000193.png",
+        "index": 10127,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007058,
+          "bytes": 3759011,
+          "mtime_ns": 1794057374611933196,
+          "ctime_ns": 1794057374611933196,
+          "nlink": 1,
+          "allocated_bytes": 3760128
+        },
+        "sha256": "f319daae5ef44b9a7f525c067e7b1dbedcb0ef54d37f8188d5525644cda48b8b"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000194.png",
+        "index": 10205,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007059,
+          "bytes": 3694714,
+          "mtime_ns": 1794057374643856780,
+          "ctime_ns": 1794057374643856780,
+          "nlink": 1,
+          "allocated_bytes": 3698688
+        },
+        "sha256": "2c7c1a5998e2224572ca7bb6c6d2d4806004544ebc856b7dd75cc4318b051ef8"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000195.png",
+        "index": 10206,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007062,
+          "bytes": 2179912,
+          "mtime_ns": 1794057375086838942,
+          "ctime_ns": 1794057375086838942,
+          "nlink": 1,
+          "allocated_bytes": 2183168
+        },
+        "sha256": "202638b9b88542692297b33b5516331be73c3ab81e57d2d589c53b2033565b38"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000196.png",
+        "index": 10268,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007068,
+          "bytes": 3440368,
+          "mtime_ns": 1794057375500402529,
+          "ctime_ns": 1794057375500402529,
+          "nlink": 1,
+          "allocated_bytes": 3440640
+        },
+        "sha256": "c47d230ce6134b040e9160bfe3a11f911694fa136018a4b1df24843f21803170"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000197.png",
+        "index": 10330,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007069,
+          "bytes": 3542094,
+          "mtime_ns": 1794057375526065888,
+          "ctime_ns": 1794057375526065888,
+          "nlink": 1,
+          "allocated_bytes": 3543040
+        },
+        "sha256": "c3e6f9dc0a6d8efa62861b2a197e4363a320232c61af81002908dfbb7435de5d"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000198.png",
+        "index": 10331,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007070,
+          "bytes": 2777426,
+          "mtime_ns": 1794057375801955237,
+          "ctime_ns": 1794057375801955237,
+          "nlink": 1,
+          "allocated_bytes": 2781184
+        },
+        "sha256": "96bb9fbd17048eb1b61a5ad0eb8202f2b2dc3f918ae7f2fb92dd8be5c88a694d"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000199.png",
+        "index": 10390,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007071,
+          "bytes": 3536813,
+          "mtime_ns": 1794057376140015416,
+          "ctime_ns": 1794057376140015416,
+          "nlink": 1,
+          "allocated_bytes": 3538944
+        },
+        "sha256": "29af953f5dd9ea7def2ff041b5db4a9d4c73242ac286215e727411f6806ab25d"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000200.png",
+        "index": 10450,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007072,
+          "bytes": 3585407,
+          "mtime_ns": 1794057376161455139,
+          "ctime_ns": 1794057376161455139,
+          "nlink": 1,
+          "allocated_bytes": 3588096
+        },
+        "sha256": "aa92d91737496b4b21533494faafe05952dbd4a01120286271fd889218445954"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000201.png",
+        "index": 10451,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007073,
+          "bytes": 3681895,
+          "mtime_ns": 1794057376475501797,
+          "ctime_ns": 1794057376475501797,
+          "nlink": 1,
+          "allocated_bytes": 3682304
+        },
+        "sha256": "72122ba81be582b4c8d2f0e3e4affc0cb4dd72aec7e776ee38bf9300eb383511"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000202.png",
+        "index": 10517,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007075,
+          "bytes": 4338352,
+          "mtime_ns": 1794057376760667505,
+          "ctime_ns": 1794057376760667505,
+          "nlink": 1,
+          "allocated_bytes": 4341760
+        },
+        "sha256": "a5a67056284565692b85c3ea644296bb3b7194f772239d4b31f038faf3ab34c0"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000203.png",
+        "index": 10583,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007076,
+          "bytes": 4341793,
+          "mtime_ns": 1794057376764145472,
+          "ctime_ns": 1794057376764145472,
+          "nlink": 1,
+          "allocated_bytes": 4345856
+        },
+        "sha256": "63e32876f1fc648e402b9d755043b2a58cc455a9eee765a02fd4a332d4268df7"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000204.png",
+        "index": 10584,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007077,
+          "bytes": 4101475,
+          "mtime_ns": 1794057377005637231,
+          "ctime_ns": 1794057377005637231,
+          "nlink": 1,
+          "allocated_bytes": 4104192
+        },
+        "sha256": "22643f3a9811785b26e8054d3a3716714bff59382d39c8611193a4fe12910c88"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000205.png",
+        "index": 10673,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007095,
+          "bytes": 4971344,
+          "mtime_ns": 1794057377333243758,
+          "ctime_ns": 1794057377333243758,
+          "nlink": 1,
+          "allocated_bytes": 4972544
+        },
+        "sha256": "19e9ac4c6adf0895a01d96001b0ce59a1d04158e3612761023f7a8cac5716a35"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000206.png",
+        "index": 10763,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007096,
+          "bytes": 4950306,
+          "mtime_ns": 1794057377339114315,
+          "ctime_ns": 1794057377339114315,
+          "nlink": 1,
+          "allocated_bytes": 4952064
+        },
+        "sha256": "2503c8e2cd3f83d42f3b880b1b4ea2b64118841d66694a96305b0c56883e9fbb"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000207.png",
+        "index": 10764,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007097,
+          "bytes": 2491837,
+          "mtime_ns": 1794057377657937486,
+          "ctime_ns": 1794057377657937486,
+          "nlink": 1,
+          "allocated_bytes": 2494464
+        },
+        "sha256": "7aa0bb248bbd594ad88ede64940cc59e1398f70dc878527199a843b7ad4c0c3d"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000208.png",
+        "index": 10847,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007101,
+          "bytes": 3353816,
+          "mtime_ns": 1794057378026627203,
+          "ctime_ns": 1794057378026627203,
+          "nlink": 1,
+          "allocated_bytes": 3354624
+        },
+        "sha256": "2cd8473aee9750112cffe43f55bae9224529f2dc9500fda7161751fe8b41fd43"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000209.png",
+        "index": 10931,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007102,
+          "bytes": 3492571,
+          "mtime_ns": 1794057378027745956,
+          "ctime_ns": 1794057378027745956,
+          "nlink": 1,
+          "allocated_bytes": 3493888
+        },
+        "sha256": "4ae8b7f569e7c99922bbe44acce6b5b6263f41cfd9d11e4a2846975db1c7146f"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000210.png",
+        "index": 10932,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007103,
+          "bytes": 1856692,
+          "mtime_ns": 1794057378304266391,
+          "ctime_ns": 1794057378304266391,
+          "nlink": 1,
+          "allocated_bytes": 1859584
+        },
+        "sha256": "87a1a56f7ab30db861f40e1a311d75fd1c2728598777cfa16be64689b49bc82e"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000211.png",
+        "index": 11005,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007104,
+          "bytes": 2838609,
+          "mtime_ns": 1794057378626210903,
+          "ctime_ns": 1794057378626210903,
+          "nlink": 1,
+          "allocated_bytes": 2842624
+        },
+        "sha256": "aa2ea25c26ae5518e42b0db14e6936d432e882fd66a5987d9ebefc82d4d86950"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000212.png",
+        "index": 11078,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007105,
+          "bytes": 2857329,
+          "mtime_ns": 1794057378632516170,
+          "ctime_ns": 1794057378632516170,
+          "nlink": 1,
+          "allocated_bytes": 2859008
+        },
+        "sha256": "18d55f9e393c11dff2227ad66320003e9ba903d84f484e485074b7dd25251a58"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000213.png",
+        "index": 11079,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007106,
+          "bytes": 1343250,
+          "mtime_ns": 1794057378955727726,
+          "ctime_ns": 1794057378955727726,
+          "nlink": 1,
+          "allocated_bytes": 1343488
+        },
+        "sha256": "cdce93c2bffd9d6218e431a3b351be1e51a164d62780ecd4e34ed62d405bce2a"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000214.png",
+        "index": 11168,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007107,
+          "bytes": 2318484,
+          "mtime_ns": 1794057379367144307,
+          "ctime_ns": 1794057379367144307,
+          "nlink": 1,
+          "allocated_bytes": 2322432
+        },
+        "sha256": "7d88853f0a358a9f403260f3d0e885fe2b3e4f9d7855706e20c34edad625f4cd"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000215.png",
+        "index": 11258,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007108,
+          "bytes": 2619062,
+          "mtime_ns": 1794057379369212146,
+          "ctime_ns": 1794057379369212146,
+          "nlink": 1,
+          "allocated_bytes": 2621440
+        },
+        "sha256": "0af23670bc72dae24a88ff9aa81208518a410136f9f80a0859af791541f7f6d1"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000216.png",
+        "index": 11259,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007113,
+          "bytes": 2730146,
+          "mtime_ns": 1794057379691681201,
+          "ctime_ns": 1794057379691681201,
+          "nlink": 1,
+          "allocated_bytes": 2732032
+        },
+        "sha256": "b2c8814eb889d0091a30fc3e1bf55254dc452641114a3782f24da6f819829004"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000217.png",
+        "index": 11339,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007118,
+          "bytes": 3621594,
+          "mtime_ns": 1794057380031351259,
+          "ctime_ns": 1794057380031351259,
+          "nlink": 1,
+          "allocated_bytes": 3624960
+        },
+        "sha256": "19a6b94715377b5e3d647c503a3d171ad40e803f5695fdf40816eb9500ae5b72"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000218.png",
+        "index": 11419,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007119,
+          "bytes": 3746113,
+          "mtime_ns": 1794057380035341853,
+          "ctime_ns": 1794057380035341853,
+          "nlink": 1,
+          "allocated_bytes": 3747840
+        },
+        "sha256": "2a475b401b4d1f83ecd7ab74b55242c9bfbfbb93643fa6181274226e5948d47f"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000219.png",
+        "index": 11420,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007120,
+          "bytes": 2848215,
+          "mtime_ns": 1794057380395104881,
+          "ctime_ns": 1794057380395104881,
+          "nlink": 1,
+          "allocated_bytes": 2850816
+        },
+        "sha256": "b5fbb30aab32df58836f85a6893a392c558b33eb8fbb0fc6aa27edf030a82f39"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000220.png",
+        "index": 11488,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007171,
+          "bytes": 3512557,
+          "mtime_ns": 1794057380797029979,
+          "ctime_ns": 1794057380797029979,
+          "nlink": 1,
+          "allocated_bytes": 3514368
+        },
+        "sha256": "7aa44916f378bbed35bd7871f5828fa474e87e69db089d3975f740712778441e"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000221.png",
+        "index": 11556,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007172,
+          "bytes": 3601301,
+          "mtime_ns": 1794057380798571274,
+          "ctime_ns": 1794057380798571274,
+          "nlink": 1,
+          "allocated_bytes": 3604480
+        },
+        "sha256": "f1b3c2e8cdbf116fee1f4a407b8e7b882ce386d56fd04ffb911558abfcd7d654"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000222.png",
+        "index": 11557,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007173,
+          "bytes": 2817615,
+          "mtime_ns": 1794057381170492667,
+          "ctime_ns": 1794057381170492667,
+          "nlink": 1,
+          "allocated_bytes": 2818048
+        },
+        "sha256": "1221baa27316888912f96d4622d3bdac28253814944888cc1c3263b5ff683e6c"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000223.png",
+        "index": 11646,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007178,
+          "bytes": 3783544,
+          "mtime_ns": 1794057381543731731,
+          "ctime_ns": 1794057381543731731,
+          "nlink": 1,
+          "allocated_bytes": 3784704
+        },
+        "sha256": "5d010a689d802b9e1c6c05704a44331aac7f6c438b8255cb961a9640175a8480"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000224.png",
+        "index": 11736,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007179,
+          "bytes": 3851822,
+          "mtime_ns": 1794057381551081458,
+          "ctime_ns": 1794057381551081458,
+          "nlink": 1,
+          "allocated_bytes": 3854336
+        },
+        "sha256": "ca913d9b75f1fe1fa755fbea3e06541196072b35aaa1f1694c018e5337d63f04"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000225.png",
+        "index": 11737,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007180,
+          "bytes": 1962820,
+          "mtime_ns": 1794057381751878569,
+          "ctime_ns": 1794057381751878569,
+          "nlink": 1,
+          "allocated_bytes": 1966080
+        },
+        "sha256": "1dd271ad6c42bd7138b932293a7884d87b496d9c6b545deb9e824cbb7147d900"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000226.png",
+        "index": 11826,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007183,
+          "bytes": 2844622,
+          "mtime_ns": 1794057381990169402,
+          "ctime_ns": 1794057381990169402,
+          "nlink": 1,
+          "allocated_bytes": 2846720
+        },
+        "sha256": "fa87704c4116aa230fde351ca88fb4b029ba0b98260f4e96b41f5cc47b3262b9"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000227.png",
+        "index": 11916,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007184,
+          "bytes": 3048467,
+          "mtime_ns": 1794057381992211449,
+          "ctime_ns": 1794057381992211449,
+          "nlink": 1,
+          "allocated_bytes": 3051520
+        },
+        "sha256": "d890a2378933962e884eb0fab1d9030e26e1a2f21fcf0b8b89c66cc112e83f05"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000228.png",
+        "index": 11917,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007185,
+          "bytes": 2889712,
+          "mtime_ns": 1794057382225519104,
+          "ctime_ns": 1794057382225519104,
+          "nlink": 1,
+          "allocated_bytes": 2891776
+        },
+        "sha256": "371f87022d7f57e6d6f3e1dd81daa230275942be0da3c51e3f05951e711647d9"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000229.png",
+        "index": 12003,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007187,
+          "bytes": 3843355,
+          "mtime_ns": 1794057382440668002,
+          "ctime_ns": 1794057382440668002,
+          "nlink": 1,
+          "allocated_bytes": 3846144
+        },
+        "sha256": "d6e9637567d7098228cddce78bc2443ba9180d9e695664ae6c6e16cc47236d29"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000230.png",
+        "index": 12090,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007188,
+          "bytes": 4034355,
+          "mtime_ns": 1794057382481570610,
+          "ctime_ns": 1794057382481570610,
+          "nlink": 1,
+          "allocated_bytes": 4034560
+        },
+        "sha256": "1173cf45d8612e5d7ee5219aa73c98c8086ce85e40cfc0ee64b2c24dd827b63d"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000231.png",
+        "index": 12091,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007194,
+          "bytes": 2766629,
+          "mtime_ns": 1794057382951300301,
+          "ctime_ns": 1794057382951300301,
+          "nlink": 1,
+          "allocated_bytes": 2768896
+        },
+        "sha256": "5368b2abb5311b2835e73acb04ebb923a391403faf2ba3c608cbf53bf9940505"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000232.png",
+        "index": 12180,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007195,
+          "bytes": 3650418,
+          "mtime_ns": 1794057383354290901,
+          "ctime_ns": 1794057383354290901,
+          "nlink": 1,
+          "allocated_bytes": 3653632
+        },
+        "sha256": "19736c0aadb6cc114234a69965e3cf1aa40d6ca9dec042139d9766e45ceefcfd"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000233.png",
+        "index": 12270,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007196,
+          "bytes": 3807654,
+          "mtime_ns": 1794057383356047489,
+          "ctime_ns": 1794057383356047489,
+          "nlink": 1,
+          "allocated_bytes": 3809280
+        },
+        "sha256": "5f2052355df3b2e4ac1ccb3a2a7f395eacc331c3e61d8d6552504d3151080bd5"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000234.png",
+        "index": 12271,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007197,
+          "bytes": 2172108,
+          "mtime_ns": 1794057383714850348,
+          "ctime_ns": 1794057383714850348,
+          "nlink": 1,
+          "allocated_bytes": 2174976
+        },
+        "sha256": "13df2f90964bbd34ff86346c260ddc2e452e6fb1d1c59612e40b640776ca5b06"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000235.png",
+        "index": 12331,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007198,
+          "bytes": 3046014,
+          "mtime_ns": 1794057384060326546,
+          "ctime_ns": 1794057384060326546,
+          "nlink": 1,
+          "allocated_bytes": 3047424
+        },
+        "sha256": "f5083b9b08ab0a6248bce4b9473d92524b4d0844d0a47a93dfd2e541249bcf34"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000236.png",
+        "index": 12391,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007199,
+          "bytes": 3264172,
+          "mtime_ns": 1794057384063716472,
+          "ctime_ns": 1794057384063716472,
+          "nlink": 1,
+          "allocated_bytes": 3264512
+        },
+        "sha256": "88ef54dfd4e4cf978679f95922b05280a7cca68a0b397855a71060d0e375311b"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000237.png",
+        "index": 12392,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007240,
+          "bytes": 1956423,
+          "mtime_ns": 1794057384683555225,
+          "ctime_ns": 1794057384683555225,
+          "nlink": 1,
+          "allocated_bytes": 1957888
+        },
+        "sha256": "93045b9fa7c8b28a5aad2c427036a32b74bdaed9c2da20b364c73dde9fd0dd1b"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000238.png",
+        "index": 12459,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007260,
+          "bytes": 2808819,
+          "mtime_ns": 1794057385348991514,
+          "ctime_ns": 1794057385348991514,
+          "nlink": 1,
+          "allocated_bytes": 2809856
+        },
+        "sha256": "111d186349c084b82a98981cb72dc7ba12a75d5b86bfae5f59c26f4df8988d5e"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000239.png",
+        "index": 12527,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007261,
+          "bytes": 3036775,
+          "mtime_ns": 1794057385390793165,
+          "ctime_ns": 1794057385390793165,
+          "nlink": 1,
+          "allocated_bytes": 3039232
+        },
+        "sha256": "a7772ef54be17e463e9637f8aed96b9c93c68ea38e1837eca0e26b0af336ecf7"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000240.png",
+        "index": 12528,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007277,
+          "bytes": 3477555,
+          "mtime_ns": 1794057385896955577,
+          "ctime_ns": 1794057385896955577,
+          "nlink": 1,
+          "allocated_bytes": 3481600
+        },
+        "sha256": "855e08431ec85c929c5a379856b13ba69c538481aa38163c591c9d6d61095384"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000241.png",
+        "index": 12616,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007348,
+          "bytes": 4156507,
+          "mtime_ns": 1794057386660909917,
+          "ctime_ns": 1794057386660909917,
+          "nlink": 1,
+          "allocated_bytes": 4157440
+        },
+        "sha256": "651c1d16c12bf2be10a03ccc3d9b0f22ad8ba8096fc9c073dbd74476eb1f70a6"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000242.png",
+        "index": 12705,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007349,
+          "bytes": 4209923,
+          "mtime_ns": 1794057386730112807,
+          "ctime_ns": 1794057386730112807,
+          "nlink": 1,
+          "allocated_bytes": 4210688
+        },
+        "sha256": "12d2b6334d809cbb4e2e33feb8c4a6bb3d999fd5d0d77bfcfcbea7935873e6f1"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000243.png",
+        "index": 12706,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007350,
+          "bytes": 2383534,
+          "mtime_ns": 1794057387387406449,
+          "ctime_ns": 1794057387387406449,
+          "nlink": 1,
+          "allocated_bytes": 2383872
+        },
+        "sha256": "0b57235ae82ab5f2455c622b463a03a0f34d8d36af111960df5819b8248efe81"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000244.png",
+        "index": 12795,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007380,
+          "bytes": 3142782,
+          "mtime_ns": 1794057388077775887,
+          "ctime_ns": 1794057388077775887,
+          "nlink": 1,
+          "allocated_bytes": 3145728
+        },
+        "sha256": "d06dbc4b1c897fa741aab0577bf9a581d9cfc88eae885b8a51ef5492da9454a6"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000245.png",
+        "index": 12885,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007432,
+          "bytes": 3338341,
+          "mtime_ns": 1794057388275011197,
+          "ctime_ns": 1794057388275011197,
+          "nlink": 1,
+          "allocated_bytes": 3342336
+        },
+        "sha256": "452bf896aeb40dd12e6752225438990853b96dc4341fcfe9ddc363816d00371d"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000246.png",
+        "index": 12886,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007438,
+          "bytes": 2405756,
+          "mtime_ns": 1794057389108353802,
+          "ctime_ns": 1794057389108353802,
+          "nlink": 1,
+          "allocated_bytes": 2408448
+        },
+        "sha256": "38bf1b00b400377cae8240af53e2d8be7121c7f39a6bc3861631ac37baa1f64b"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000247.png",
+        "index": 12975,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007444,
+          "bytes": 3396947,
+          "mtime_ns": 1794057389733927528,
+          "ctime_ns": 1794057389733927528,
+          "nlink": 1,
+          "allocated_bytes": 3399680
+        },
+        "sha256": "e2b2fc8380dce13defb753e66c7216760cc2c7621d37e5ced13eedd3422307bb"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000248.png",
+        "index": 13065,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007446,
+          "bytes": 3672172,
+          "mtime_ns": 1794057389748166940,
+          "ctime_ns": 1794057389748166940,
+          "nlink": 1,
+          "allocated_bytes": 3674112
+        },
+        "sha256": "953feb5efacd83d2dae95cf9153f0b03cd253e4cd5e1e1f5690c45b46f11878c"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000249.png",
+        "index": 13066,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007473,
+          "bytes": 2440652,
+          "mtime_ns": 1794057390319881941,
+          "ctime_ns": 1794057390319881941,
+          "nlink": 1,
+          "allocated_bytes": 2441216
+        },
+        "sha256": "77f8a34be41b6aa8189c2251f2e4ab69ea98d8330b555359f461d5a21ef5d4c3"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000250.png",
+        "index": 13155,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007485,
+          "bytes": 3216977,
+          "mtime_ns": 1794057390716227607,
+          "ctime_ns": 1794057390716227607,
+          "nlink": 1,
+          "allocated_bytes": 3219456
+        },
+        "sha256": "89c50783dd16697274f5b4fe38a3be34299b5d713030c1bfede4e3f7e0a19048"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000251.png",
+        "index": 13245,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007488,
+          "bytes": 3481372,
+          "mtime_ns": 1794057390754842875,
+          "ctime_ns": 1794057390754842875,
+          "nlink": 1,
+          "allocated_bytes": 3481600
+        },
+        "sha256": "97070731179e8a3077fc61bb90c9a08e2d5c3d1e9dd6034301e75bba229a51ae"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000252.png",
+        "index": 13246,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007494,
+          "bytes": 2825008,
+          "mtime_ns": 1794057391012215259,
+          "ctime_ns": 1794057391012215259,
+          "nlink": 1,
+          "allocated_bytes": 2826240
+        },
+        "sha256": "5c57268dfc167772bda8b8b5d35ba58a1779e3c7bbea292e5f742a675729a664"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000253.png",
+        "index": 13335,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007501,
+          "bytes": 3503595,
+          "mtime_ns": 1794057391371012910,
+          "ctime_ns": 1794057391371012910,
+          "nlink": 1,
+          "allocated_bytes": 3506176
+        },
+        "sha256": "a091c6dae59ef8fa8087e408147ada33a80ad3096f8f0ed81776486c643a2e16"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000254.png",
+        "index": 13425,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007502,
+          "bytes": 3665353,
+          "mtime_ns": 1794057391392168590,
+          "ctime_ns": 1794057391392168590,
+          "nlink": 1,
+          "allocated_bytes": 3665920
+        },
+        "sha256": "31107ae25df3f769c4b13cc63dd684bf945d707ef44a79d62d4b95ed2bc6d9dd"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000255.png",
+        "index": 13426,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007508,
+          "bytes": 2758451,
+          "mtime_ns": 1794057391945243709,
+          "ctime_ns": 1794057391945243709,
+          "nlink": 1,
+          "allocated_bytes": 2760704
+        },
+        "sha256": "d8122f3f49129fbefea99197cecf79a6bbb55432080703fda988e9f759913e3a"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000256.png",
+        "index": 13515,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007511,
+          "bytes": 3792423,
+          "mtime_ns": 1794057392353796240,
+          "ctime_ns": 1794057392353796240,
+          "nlink": 1,
+          "allocated_bytes": 3792896
+        },
+        "sha256": "90f889a0dc9fa2bdbdb074846813ab50ff65dcc91c2f0c1fb4292787f5b0a88b"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000257.png",
+        "index": 13605,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007512,
+          "bytes": 3976171,
+          "mtime_ns": 1794057392356408747,
+          "ctime_ns": 1794057392356408747,
+          "nlink": 1,
+          "allocated_bytes": 3977216
+        },
+        "sha256": "03961b27735a680753c18828e9784d78b1e872d4d7445a5970c83542c52fc175"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000258.png",
+        "index": 13606,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007572,
+          "bytes": 1672678,
+          "mtime_ns": 1794057392713567935,
+          "ctime_ns": 1794057392713567935,
+          "nlink": 1,
+          "allocated_bytes": 1675264
+        },
+        "sha256": "52e4056df33f8891ed84fc744b1d4047f129f0ed38fe0d4774dfa2d8eb273cb2"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000259.png",
+        "index": 13695,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007579,
+          "bytes": 2446229,
+          "mtime_ns": 1794057393019096528,
+          "ctime_ns": 1794057393019096528,
+          "nlink": 1,
+          "allocated_bytes": 2449408
+        },
+        "sha256": "fa600aa7110b8339bc86e9f8e9f384236c7266f85a96d1c3d3ccecfdaacd3c0e"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000260.png",
+        "index": 13785,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007580,
+          "bytes": 2812853,
+          "mtime_ns": 1794057393020054573,
+          "ctime_ns": 1794057393020054573,
+          "nlink": 1,
+          "allocated_bytes": 2813952
+        },
+        "sha256": "96daa8bf98625dbaffd30c6389812889fe36ad9949d74f8d94000275373df6bf"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000261.png",
+        "index": 13786,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007583,
+          "bytes": 1426390,
+          "mtime_ns": 1794057393392346342,
+          "ctime_ns": 1794057393392346342,
+          "nlink": 1,
+          "allocated_bytes": 1429504
+        },
+        "sha256": "ec07e868b4cf1efabd786118c1883ff229a401ff13a612989c7378c1b6f9ecad"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000262.png",
+        "index": 13855,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007586,
+          "bytes": 2449360,
+          "mtime_ns": 1794057393787621214,
+          "ctime_ns": 1794057393787621214,
+          "nlink": 1,
+          "allocated_bytes": 2449408
+        },
+        "sha256": "c49be32d2c994ef83be12b1e54c32b7b6bc7a64c83dc65201e2f6b61355d07c3"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000263.png",
+        "index": 13924,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007587,
+          "bytes": 2639636,
+          "mtime_ns": 1794057393792364185,
+          "ctime_ns": 1794057393792364185,
+          "nlink": 1,
+          "allocated_bytes": 2641920
+        },
+        "sha256": "18a8497e0de65f70920ecf32d7b0ae2e169add65635cf0ca56125601c4dfd2c4"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000264.png",
+        "index": 13925,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007589,
+          "bytes": 2882076,
+          "mtime_ns": 1794057394192548485,
+          "ctime_ns": 1794057394192548485,
+          "nlink": 1,
+          "allocated_bytes": 2883584
+        },
+        "sha256": "7b855ddef7d5d0cb070db33da5cc6a098585ba6f9ae40a4ed80fbe73cde76945"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000265.png",
+        "index": 13997,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007593,
+          "bytes": 3992308,
+          "mtime_ns": 1794057394602042144,
+          "ctime_ns": 1794057394602042144,
+          "nlink": 1,
+          "allocated_bytes": 3993600
+        },
+        "sha256": "912d2a5c3d816dc77a687c97af086410d2827495f3a869a8ee6945c481db292d"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000266.png",
+        "index": 14070,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007594,
+          "bytes": 4007982,
+          "mtime_ns": 1794057394603674981,
+          "ctime_ns": 1794057394603674981,
+          "nlink": 1,
+          "allocated_bytes": 4009984
+        },
+        "sha256": "ffcc8fda72f4767f05034c061aecbd203d4679deaf4fe51044a24b4c98257473"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000267.png",
+        "index": 14071,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007596,
+          "bytes": 2099054,
+          "mtime_ns": 1794057394947837509,
+          "ctime_ns": 1794057394947837509,
+          "nlink": 1,
+          "allocated_bytes": 2101248
+        },
+        "sha256": "bb664c9d07c6d7c5aec983b1dd9e679da5e94fe140697aa81568e820acbae222"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000268.png",
+        "index": 14130,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007599,
+          "bytes": 3168100,
+          "mtime_ns": 1794057395400260323,
+          "ctime_ns": 1794057395400260323,
+          "nlink": 1,
+          "allocated_bytes": 3170304
+        },
+        "sha256": "e76f38f7e28b4f825552626a5486a53ee767a41c378dd31c68a205175b3d5382"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000269.png",
+        "index": 14190,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007600,
+          "bytes": 3357107,
+          "mtime_ns": 1794057395415808697,
+          "ctime_ns": 1794057395415808697,
+          "nlink": 1,
+          "allocated_bytes": 3358720
+        },
+        "sha256": "8642cf8f28dd7bc23e75fa3e14e8e79ec1f52f6d85dc59a497c31fd9fa1dd580"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000270.png",
+        "index": 14191,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007602,
+          "bytes": 1301139,
+          "mtime_ns": 1794057395858244983,
+          "ctime_ns": 1794057395858244983,
+          "nlink": 1,
+          "allocated_bytes": 1302528
+        },
+        "sha256": "4fc1447da938ec40a63605c2e5303317f0eba26bbd1bb4e11695f89ac08c5d91"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000271.png",
+        "index": 14278,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007608,
+          "bytes": 2748563,
+          "mtime_ns": 1794057396360874095,
+          "ctime_ns": 1794057396360874095,
+          "nlink": 1,
+          "allocated_bytes": 2752512
+        },
+        "sha256": "0610ddaf960999966a0de4d2d1d19ae15a6a1c370e645d32c4429c1c78d15233"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000272.png",
+        "index": 14365,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007609,
+          "bytes": 2869964,
+          "mtime_ns": 1794057396369295576,
+          "ctime_ns": 1794057396369295576,
+          "nlink": 1,
+          "allocated_bytes": 2871296
+        },
+        "sha256": "33f94d4441a3d67a8df7482b2f24871109efbb8a5d4b8efad0d0b75acfd0885f"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000273.png",
+        "index": 14366,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007610,
+          "bytes": 1351466,
+          "mtime_ns": 1794057396788108426,
+          "ctime_ns": 1794057396788108426,
+          "nlink": 1,
+          "allocated_bytes": 1351680
+        },
+        "sha256": "9c93363403bc221035cd4b04fa51dc1c1b6801b3bc21fe51831bc1f96a0d28ea"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000274.png",
+        "index": 14451,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007619,
+          "bytes": 2446027,
+          "mtime_ns": 1794057397251253350,
+          "ctime_ns": 1794057397251253350,
+          "nlink": 1,
+          "allocated_bytes": 2449408
+        },
+        "sha256": "55c47d1661b293b1e62f45f34511a3073ac4ccd4ee6ae3eb7575e99770da15c1"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000275.png",
+        "index": 14536,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007620,
+          "bytes": 2771112,
+          "mtime_ns": 1794057397254671734,
+          "ctime_ns": 1794057397254671734,
+          "nlink": 1,
+          "allocated_bytes": 2772992
+        },
+        "sha256": "40d6f35b093c30287d18e832d9de3666b5a9d1c68ec33f190a33f6354bf0f750"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000276.png",
+        "index": 14537,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007622,
+          "bytes": 1968174,
+          "mtime_ns": 1794057397494318613,
+          "ctime_ns": 1794057397494318613,
+          "nlink": 1,
+          "allocated_bytes": 1970176
+        },
+        "sha256": "e9cbbb762689203e04affe5801d51e985ba7ddc0a8751397f83d1c41face46fc"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000277.png",
+        "index": 14626,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007628,
+          "bytes": 2902044,
+          "mtime_ns": 1794057397809982859,
+          "ctime_ns": 1794057397809982859,
+          "nlink": 1,
+          "allocated_bytes": 2904064
+        },
+        "sha256": "7c5d202965c2d4001fd2db860b7868b388dea45cb5f2e7fdfe2a46bb147fe3f9"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000278.png",
+        "index": 14716,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007630,
+          "bytes": 3011145,
+          "mtime_ns": 1794057397842328276,
+          "ctime_ns": 1794057397842328276,
+          "nlink": 1,
+          "allocated_bytes": 3014656
+        },
+        "sha256": "56bfea1bf961f22b7da59bddaccddd9715ab49c3995104dc70080813f58d7539"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000279.png",
+        "index": 14717,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007636,
+          "bytes": 2987430,
+          "mtime_ns": 1794057398205243896,
+          "ctime_ns": 1794057398205243896,
+          "nlink": 1,
+          "allocated_bytes": 2990080
+        },
+        "sha256": "4660dda3890bfea26e25571f7105b42f6c4fa20bff81955f670c996324505019"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000280.png",
+        "index": 14806,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007637,
+          "bytes": 3904980,
+          "mtime_ns": 1794057398635240984,
+          "ctime_ns": 1794057398635240984,
+          "nlink": 1,
+          "allocated_bytes": 3907584
+        },
+        "sha256": "2d22a232221123f14c507ccb9768228263900838afe2b688b61d89bac6b4bbe8"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000281.png",
+        "index": 14896,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007638,
+          "bytes": 3774978,
+          "mtime_ns": 1794057398645134385,
+          "ctime_ns": 1794057398645134385,
+          "nlink": 1,
+          "allocated_bytes": 3776512
+        },
+        "sha256": "eb39c81c2889aced4a6a00567ddc793ec9a5f587fac4cbd2167144b0b7b166a8"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000282.png",
+        "index": 14897,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007639,
+          "bytes": 3750070,
+          "mtime_ns": 1794057398974682083,
+          "ctime_ns": 1794057398974682083,
+          "nlink": 1,
+          "allocated_bytes": 3751936
+        },
+        "sha256": "62b704b150a5bb9df9711e7820b65520b312ed16a764746d499f373a1ad63fce"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000283.png",
+        "index": 14986,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007640,
+          "bytes": 4654808,
+          "mtime_ns": 1794057399387407959,
+          "ctime_ns": 1794057399387407959,
+          "nlink": 1,
+          "allocated_bytes": 4657152
+        },
+        "sha256": "fa81f2b3498d65dbb6510cb72321dde28303463863b2c4c65e2dead4c62eba24"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000284.png",
+        "index": 15076,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007641,
+          "bytes": 4460900,
+          "mtime_ns": 1794057399391109885,
+          "ctime_ns": 1794057399391109885,
+          "nlink": 1,
+          "allocated_bytes": 4464640
+        },
+        "sha256": "94376b9cee0a5e1fcf820074e954989cb3bc1f80887870c5d4deaae487d18d9c"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000285.png",
+        "index": 15077,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007642,
+          "bytes": 1469056,
+          "mtime_ns": 1794057399602935942,
+          "ctime_ns": 1794057399602935942,
+          "nlink": 1,
+          "allocated_bytes": 1470464
+        },
+        "sha256": "aad672011014424ab61f225fd7cd7ea5a4c7dc37a8df5961cfb89e565ccc9f4e"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000286.png",
+        "index": 15166,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007644,
+          "bytes": 2615692,
+          "mtime_ns": 1794057399912277128,
+          "ctime_ns": 1794057399912277128,
+          "nlink": 1,
+          "allocated_bytes": 2617344
+        },
+        "sha256": "d62f69c5e8ab41486df687f839718043fff4c96501b611fc7efe161541665fcb"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000287.png",
+        "index": 15256,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007645,
+          "bytes": 2784327,
+          "mtime_ns": 1794057399926999334,
+          "ctime_ns": 1794057399926999334,
+          "nlink": 1,
+          "allocated_bytes": 2785280
+        },
+        "sha256": "f6e80cd152488d7752c8edb8208e1c59236a65704522114cb1c7a5f9a57b7ea4"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000288.png",
+        "index": 15257,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007646,
+          "bytes": 3082251,
+          "mtime_ns": 1794057400228626209,
+          "ctime_ns": 1794057400228626209,
+          "nlink": 1,
+          "allocated_bytes": 3084288
+        },
+        "sha256": "26a669f34ca124832c7d3529509ace2e5bb030648f306f6f9a22b191c64b2751"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000289.png",
+        "index": 15346,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007685,
+          "bytes": 3585907,
+          "mtime_ns": 1794057400580267008,
+          "ctime_ns": 1794057400580267008,
+          "nlink": 1,
+          "allocated_bytes": 3588096
+        },
+        "sha256": "fcfd7612b7376117a8db10228913708bc926f61af42e1413abb3baa64f12cc37"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000290.png",
+        "index": 15436,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007687,
+          "bytes": 3616232,
+          "mtime_ns": 1794057400583241307,
+          "ctime_ns": 1794057400583241307,
+          "nlink": 1,
+          "allocated_bytes": 3616768
+        },
+        "sha256": "ab42ee6ac4273f92664d8a7a225f0f959e4df5d166bb9711e5c5bfca705320b4"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000291.png",
+        "index": 15437,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007710,
+          "bytes": 2907615,
+          "mtime_ns": 1794057401113479033,
+          "ctime_ns": 1794057401113479033,
+          "nlink": 1,
+          "allocated_bytes": 2908160
+        },
+        "sha256": "748fe061a338fe4a2e546e8e367278c6be4a65becc815aeb41670b99e73895f0"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000292.png",
+        "index": 15526,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007712,
+          "bytes": 3830115,
+          "mtime_ns": 1794057401326957843,
+          "ctime_ns": 1794057401326957843,
+          "nlink": 1,
+          "allocated_bytes": 3833856
+        },
+        "sha256": "91335cafb56c27ef323ca0044339d5091729fd115f47eab1433980be231402a0"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000293.png",
+        "index": 15616,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007713,
+          "bytes": 3779823,
+          "mtime_ns": 1794057401336119117,
+          "ctime_ns": 1794057401336119117,
+          "nlink": 1,
+          "allocated_bytes": 3780608
+        },
+        "sha256": "d082a0c31416c7f1d90cc5a8f70476d39fa1d8ec8e5095727d113c93d12e49bc"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000294.png",
+        "index": 15617,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007716,
+          "bytes": 1184155,
+          "mtime_ns": 1794057401541190323,
+          "ctime_ns": 1794057401541190323,
+          "nlink": 1,
+          "allocated_bytes": 1187840
+        },
+        "sha256": "8047656095d272b21700df55d8d3def4270d3b4c1d9d28c89ed1c7f6126df877"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000295.png",
+        "index": 15705,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007717,
+          "bytes": 2365887,
+          "mtime_ns": 1794057401783412626,
+          "ctime_ns": 1794057401783412626,
+          "nlink": 1,
+          "allocated_bytes": 2367488
+        },
+        "sha256": "0a3d8f17998a9af3abf6e2b8f80cb3356d28a94abea64ef265d8f0dfb7a33166"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000296.png",
+        "index": 15794,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007718,
+          "bytes": 2568893,
+          "mtime_ns": 1794057401818506051,
+          "ctime_ns": 1794057401818506051,
+          "nlink": 1,
+          "allocated_bytes": 2572288
+        },
+        "sha256": "a3c3dc04196f86488dab73cc08de83007b937ffe049b50cd4b77eaa8194bb956"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000297.png",
+        "index": 15795,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007719,
+          "bytes": 3924793,
+          "mtime_ns": 1794057402007404880,
+          "ctime_ns": 1794057402007404880,
+          "nlink": 1,
+          "allocated_bytes": 3928064
+        },
+        "sha256": "06439edb3475212d37355a284341fbf52b9ece03243179a9da31111c3a87c9e1"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000298.png",
+        "index": 15854,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007720,
+          "bytes": 4654798,
+          "mtime_ns": 1794057402240399408,
+          "ctime_ns": 1794057402240399408,
+          "nlink": 1,
+          "allocated_bytes": 4657152
+        },
+        "sha256": "9510bf452af5f4e5817efe3b105786fc3421f8dcaca9ae6696731287ab50e7b2"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000299.png",
+        "index": 15914,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007721,
+          "bytes": 4633101,
+          "mtime_ns": 1794057402296881140,
+          "ctime_ns": 1794057402296881140,
+          "nlink": 1,
+          "allocated_bytes": 4636672
+        },
+        "sha256": "f222e17f354fdd5d15a3859c1a8b60e07a866d0b5a553a6dffa6544cb5470e2d"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000300.png",
+        "index": 15915,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007724,
+          "bytes": 2309826,
+          "mtime_ns": 1794057402531680423,
+          "ctime_ns": 1794057402531680423,
+          "nlink": 1,
+          "allocated_bytes": 2310144
+        },
+        "sha256": "60c0a4b0d02a8bd9c31d94824d98b6a2221a78381d5b8540fbe6ec8c82c5af84"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000301.png",
+        "index": 15984,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007725,
+          "bytes": 3048708,
+          "mtime_ns": 1794057402860267744,
+          "ctime_ns": 1794057402860267744,
+          "nlink": 1,
+          "allocated_bytes": 3051520
+        },
+        "sha256": "7a6b726f755638ff6bc53e2bc53f585ea53dcfcadf8b9a83a0b359c72fdb3d9e"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000302.png",
+        "index": 16053,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007726,
+          "bytes": 3506728,
+          "mtime_ns": 1794057402870290062,
+          "ctime_ns": 1794057402870290062,
+          "nlink": 1,
+          "allocated_bytes": 3510272
+        },
+        "sha256": "41b8d2df0a6a745ac81954ad0611d227616759d473dee51a9d9d7f9832b6c3c9"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000303.png",
+        "index": 16054,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007727,
+          "bytes": 1791692,
+          "mtime_ns": 1794057403406972222,
+          "ctime_ns": 1794057403406972222,
+          "nlink": 1,
+          "allocated_bytes": 1794048
+        },
+        "sha256": "05f8d720fc4a5a8ab959cd41c3a99c5c03604d2bd32ad182d70d4dc101a0882e"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000304.png",
+        "index": 16126,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007728,
+          "bytes": 3064987,
+          "mtime_ns": 1794057403834307968,
+          "ctime_ns": 1794057403834307968,
+          "nlink": 1,
+          "allocated_bytes": 3067904
+        },
+        "sha256": "ae9d1ec427a89ff18d1b3151f3d17fc7bd82ff80da7ee9d461e108f38ebe065f"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000305.png",
+        "index": 16199,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007729,
+          "bytes": 3100310,
+          "mtime_ns": 1794057403883280430,
+          "ctime_ns": 1794057403883280430,
+          "nlink": 1,
+          "allocated_bytes": 3100672
+        },
+        "sha256": "4c1657b99bfde172e2e5cf4ccbebd72514d91e8a2fd28c1ac073058f8ed3bea8"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000306.png",
+        "index": 16200,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007730,
+          "bytes": 2922778,
+          "mtime_ns": 1794057404197583589,
+          "ctime_ns": 1794057404197583589,
+          "nlink": 1,
+          "allocated_bytes": 2924544
+        },
+        "sha256": "a1704706e87f97ee03754907fc27953500ae6cf3c89dce58248fa2fc711b5e76"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000307.png",
+        "index": 16259,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007731,
+          "bytes": 3527165,
+          "mtime_ns": 1794057404568455772,
+          "ctime_ns": 1794057404568455772,
+          "nlink": 1,
+          "allocated_bytes": 3530752
+        },
+        "sha256": "8f3ac942221d11077483cb3e6dea9f9f813ada7603435f378a2f0c34bb2d1ad3"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000308.png",
+        "index": 16319,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007732,
+          "bytes": 3750790,
+          "mtime_ns": 1794057404593155962,
+          "ctime_ns": 1794057404593155962,
+          "nlink": 1,
+          "allocated_bytes": 3751936
+        },
+        "sha256": "835586b574b0c0cfa110455d86c4369743b4574f2f42d8882730caee5a7b6cb2"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000309.png",
+        "index": 16320,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007737,
+          "bytes": 3017732,
+          "mtime_ns": 1794057404877487957,
+          "ctime_ns": 1794057404877487957,
+          "nlink": 1,
+          "allocated_bytes": 3018752
+        },
+        "sha256": "ef924298986a4e5a8388cff0c419c9b45fb291f87ad5f3799b875a505787398d"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000310.png",
+        "index": 16390,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007738,
+          "bytes": 3748109,
+          "mtime_ns": 1794057405245223673,
+          "ctime_ns": 1794057405245223673,
+          "nlink": 1,
+          "allocated_bytes": 3751936
+        },
+        "sha256": "9f0c279cc8671f4ac7a3be374717f35cdc0d261fa0cc31560b5fa98266510f2b"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000311.png",
+        "index": 16460,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007739,
+          "bytes": 3888228,
+          "mtime_ns": 1794057405261591591,
+          "ctime_ns": 1794057405261591591,
+          "nlink": 1,
+          "allocated_bytes": 3891200
+        },
+        "sha256": "f817ea5437da14babe063b14c907524471aa2a9ddb1c560d5d5cfd417eb3bbd1"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000312.png",
+        "index": 16461,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007740,
+          "bytes": 2887906,
+          "mtime_ns": 1794057405589599953,
+          "ctime_ns": 1794057405589599953,
+          "nlink": 1,
+          "allocated_bytes": 2891776
+        },
+        "sha256": "f0883a1d07ab0e4edb1bb4674ea55a76801e0b1a1dc97bd46c645447340bf7eb"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000313.png",
+        "index": 16550,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007743,
+          "bytes": 3921142,
+          "mtime_ns": 1794057406008605969,
+          "ctime_ns": 1794057406008605969,
+          "nlink": 1,
+          "allocated_bytes": 3923968
+        },
+        "sha256": "bd30f77417171e7010faedd9147d7960ba5d74a465f68854cf8c02e0d69f7133"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000314.png",
+        "index": 16640,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007744,
+          "bytes": 3941578,
+          "mtime_ns": 1794057406042423391,
+          "ctime_ns": 1794057406042423391,
+          "nlink": 1,
+          "allocated_bytes": 3944448
+        },
+        "sha256": "a685ba3231175b2c63ab374564f803765f7d87de35b9a877a7a80648d25df28c"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000315.png",
+        "index": 16641,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007745,
+          "bytes": 2821041,
+          "mtime_ns": 1794057406431617456,
+          "ctime_ns": 1794057406431617456,
+          "nlink": 1,
+          "allocated_bytes": 2822144
+        },
+        "sha256": "a2a90501debbc381a2dcb74bf85838c96121ad8ad1945f0b1a81cf82e1736be6"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000316.png",
+        "index": 16717,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007746,
+          "bytes": 3816687,
+          "mtime_ns": 1794057406845142166,
+          "ctime_ns": 1794057406845142166,
+          "nlink": 1,
+          "allocated_bytes": 3817472
+        },
+        "sha256": "ead39e879e5c54573fadd4f9a527a93ac3b082b311f50181ef07bc22df71a020"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000317.png",
+        "index": 16794,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007747,
+          "bytes": 3967970,
+          "mtime_ns": 1794057406854026939,
+          "ctime_ns": 1794057406854026939,
+          "nlink": 1,
+          "allocated_bytes": 3969024
+        },
+        "sha256": "e78a995134c9fa7c28f81fe5fcf4c8a1997e8453901d86d19127f6b603457665"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000318.png",
+        "index": 16795,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007750,
+          "bytes": 3391573,
+          "mtime_ns": 1794057407132274587,
+          "ctime_ns": 1794057407132274587,
+          "nlink": 1,
+          "allocated_bytes": 3395584
+        },
+        "sha256": "d1896560ac8278566ea5ef41a6d433d1d47b5508fb0d1c1e8fe668468d147c2e"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000319.png",
+        "index": 16859,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007762,
+          "bytes": 4243004,
+          "mtime_ns": 1794057407586372113,
+          "ctime_ns": 1794057407586372113,
+          "nlink": 1,
+          "allocated_bytes": 4243456
+        },
+        "sha256": "1f94c25c2b0c59f61d531f37bf025b0e0bf92e0d6d28990e0f5c8132b415b6c0"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000320.png",
+        "index": 16924,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007763,
+          "bytes": 4162387,
+          "mtime_ns": 1794057407594805968,
+          "ctime_ns": 1794057407594805968,
+          "nlink": 1,
+          "allocated_bytes": 4165632
+        },
+        "sha256": "88396cd1567c53abf0344aec861184075054feba5ffd01b6bbd0a97739883c5e"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000321.png",
+        "index": 16925,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007766,
+          "bytes": 3899093,
+          "mtime_ns": 1794057407982711278,
+          "ctime_ns": 1794057407982711278,
+          "nlink": 1,
+          "allocated_bytes": 3899392
+        },
+        "sha256": "271f18390771ad16b1b6b2440e1e6a1afefa42c46c1bcfb06900be5736ada383"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000322.png",
+        "index": 17002,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007767,
+          "bytes": 4775167,
+          "mtime_ns": 1794057408294104888,
+          "ctime_ns": 1794057408294104888,
+          "nlink": 1,
+          "allocated_bytes": 4775936
+        },
+        "sha256": "7f9dbf64bbd5cb27358788df9c4c197fe06b44012cbdfc99c4924dd4dc2368b9"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000323.png",
+        "index": 17080,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007768,
+          "bytes": 4716273,
+          "mtime_ns": 1794057408324185092,
+          "ctime_ns": 1794057408324185092,
+          "nlink": 1,
+          "allocated_bytes": 4718592
+        },
+        "sha256": "1499cf2a62b79ce902830a9b94492a4e7c50ab62d6aed42d16338faeafcb8f24"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000324.png",
+        "index": 17081,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007769,
+          "bytes": 3900323,
+          "mtime_ns": 1794057408517388391,
+          "ctime_ns": 1794057408517388391,
+          "nlink": 1,
+          "allocated_bytes": 3903488
+        },
+        "sha256": "f1583bdeb73ee41e9f1ee076d2b270b2984ae160dcb2a63dee4178add397f121"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000325.png",
+        "index": 17158,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007771,
+          "bytes": 4784500,
+          "mtime_ns": 1794057408756916645,
+          "ctime_ns": 1794057408756916645,
+          "nlink": 1,
+          "allocated_bytes": 4788224
+        },
+        "sha256": "62be119fc1e5039f8f4b2f1d080e872c412a2769ffab0a701841f84a39dadc88"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000326.png",
+        "index": 17236,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007772,
+          "bytes": 4566930,
+          "mtime_ns": 1794057408763248828,
+          "ctime_ns": 1794057408763248828,
+          "nlink": 1,
+          "allocated_bytes": 4567040
+        },
+        "sha256": "426926c8e5013ee3f6b1f357ef9c9a1e61f787de02f312935cb99ca2d2aa8077"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000327.png",
+        "index": 17237,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007773,
+          "bytes": 4199779,
+          "mtime_ns": 1794057408982659445,
+          "ctime_ns": 1794057408982659445,
+          "nlink": 1,
+          "allocated_bytes": 4202496
+        },
+        "sha256": "4f14412d8ae4845f06c70c84212725cdd8a4380cf612c098fbf89bd4bc671202"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000328.png",
+        "index": 17297,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007774,
+          "bytes": 5064236,
+          "mtime_ns": 1794057409221407281,
+          "ctime_ns": 1794057409221407281,
+          "nlink": 1,
+          "allocated_bytes": 5066752
+        },
+        "sha256": "dbd8897d26138a7a9a12f8d00e443cb2206ab9093fc610b5e8395e21f6dc5282"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000329.png",
+        "index": 17358,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007775,
+          "bytes": 5079145,
+          "mtime_ns": 1794057409260135591,
+          "ctime_ns": 1794057409260135591,
+          "nlink": 1,
+          "allocated_bytes": 5083136
+        },
+        "sha256": "2da66a3c3c962e4a740646d90f45de736d5539249bfdbe8cd56ac267d340a0e6"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000330.png",
+        "index": 17359,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007776,
+          "bytes": 3113034,
+          "mtime_ns": 1794057409647687859,
+          "ctime_ns": 1794057409647687859,
+          "nlink": 1,
+          "allocated_bytes": 3117056
+        },
+        "sha256": "efa8cb8ff788c7e4612b030399d9563c3644641c34aa41055a06777571e10452"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000331.png",
+        "index": 17439,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007777,
+          "bytes": 3935232,
+          "mtime_ns": 1794057410025958976,
+          "ctime_ns": 1794057410025958976,
+          "nlink": 1,
+          "allocated_bytes": 3936256
+        },
+        "sha256": "7290ab2975a6021fd07d687c27fcecc288064250d1e7539931e30930e088084b"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000332.png",
+        "index": 17519,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007778,
+          "bytes": 4090090,
+          "mtime_ns": 1794057410027939815,
+          "ctime_ns": 1794057410027939815,
+          "nlink": 1,
+          "allocated_bytes": 4091904
+        },
+        "sha256": "17ce73cc3c96deaee7967dda738b980e0e24ba565c007e1c5cb928bacd084073"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000333.png",
+        "index": 17520,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007779,
+          "bytes": 2793203,
+          "mtime_ns": 1794057410172090777,
+          "ctime_ns": 1794057410172090777,
+          "nlink": 1,
+          "allocated_bytes": 2793472
+        },
+        "sha256": "c9f81aaf58d08e97965b9e0685b504ba6a60bfd185f23d1a6ebc55c06c5e75d4"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000334.png",
+        "index": 17590,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007780,
+          "bytes": 3601563,
+          "mtime_ns": 1794057410346910278,
+          "ctime_ns": 1794057410346910278,
+          "nlink": 1,
+          "allocated_bytes": 3604480
+        },
+        "sha256": "0d49f056dff1411a7640909f5bc5e1b03545205e7399327a0fe067dcbf105a20"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000335.png",
+        "index": 17661,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007781,
+          "bytes": 3603388,
+          "mtime_ns": 1794057410376649231,
+          "ctime_ns": 1794057410376649231,
+          "nlink": 1,
+          "allocated_bytes": 3604480
+        },
+        "sha256": "1cac2095acc98261c819895bf9ebeb41b17e5619db4f3715d71ccde0beaffa15"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000336.png",
+        "index": 17662,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007782,
+          "bytes": 1777689,
+          "mtime_ns": 1794057410752630510,
+          "ctime_ns": 1794057410752630510,
+          "nlink": 1,
+          "allocated_bytes": 1781760
+        },
+        "sha256": "02c6cb256e722089d6ae4d14a3d5f60c652ab82f93f4670605bc1569b46157a0"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000337.png",
+        "index": 17740,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007783,
+          "bytes": 2570691,
+          "mtime_ns": 1794057411065992291,
+          "ctime_ns": 1794057411065992291,
+          "nlink": 1,
+          "allocated_bytes": 2572288
+        },
+        "sha256": "0b459b01b2fdf763782e05ea18bb3916dc7fd2b41be900a607566c29676bb960"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000338.png",
+        "index": 17819,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007784,
+          "bytes": 2783354,
+          "mtime_ns": 1794057411073034018,
+          "ctime_ns": 1794057411073034018,
+          "nlink": 1,
+          "allocated_bytes": 2785280
+        },
+        "sha256": "9b33c6433be740caf9a73665fdd592d50890fa43b05e9889aa58e7949969dc3d"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000339.png",
+        "index": 17820,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007785,
+          "bytes": 3536386,
+          "mtime_ns": 1794057411348472449,
+          "ctime_ns": 1794057411348472449,
+          "nlink": 1,
+          "allocated_bytes": 3538944
+        },
+        "sha256": "a2ea03f1d44d02dbafa1cf86a3de490cbe492690c119ff891632888ae5863318"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000340.png",
+        "index": 17908,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007786,
+          "bytes": 4032317,
+          "mtime_ns": 1794057411634622159,
+          "ctime_ns": 1794057411634622159,
+          "nlink": 1,
+          "allocated_bytes": 4034560
+        },
+        "sha256": "6ae305618d3d6323a7358f2852beac51d7e674a17d6424d3d7a813b94967c8b0"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000341.png",
+        "index": 17997,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007787,
+          "bytes": 4043330,
+          "mtime_ns": 1794057411642505180,
+          "ctime_ns": 1794057411642505180,
+          "nlink": 1,
+          "allocated_bytes": 4046848
+        },
+        "sha256": "40dfa5bc7650293019b93bedcba13795424753e917a0eeff8c7243a52b859b8b"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000342.png",
+        "index": 17998,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007788,
+          "bytes": 1362797,
+          "mtime_ns": 1794057411917670194,
+          "ctime_ns": 1794057411917670194,
+          "nlink": 1,
+          "allocated_bytes": 1363968
+        },
+        "sha256": "44d1052f5975d48ae7173826c4cd35e40058dff2e44a4a03fb8c5ddaa8015924"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000343.png",
+        "index": 18057,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007789,
+          "bytes": 2387736,
+          "mtime_ns": 1794057412385714006,
+          "ctime_ns": 1794057412385714006,
+          "nlink": 1,
+          "allocated_bytes": 2387968
+        },
+        "sha256": "8e96f5836f39d5c8b2c959deafda27659b22cf764cc5e0ca89b1c7ee9be629ec"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000344.png",
+        "index": 18117,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007790,
+          "bytes": 2557205,
+          "mtime_ns": 1794057412389373641,
+          "ctime_ns": 1794057412389373641,
+          "nlink": 1,
+          "allocated_bytes": 2560000
+        },
+        "sha256": "3ade24ae12ce9dd81bdac621ea2893d7017c66f9c48e315c8024c54de31c2ba9"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000345.png",
+        "index": 18118,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007791,
+          "bytes": 4078735,
+          "mtime_ns": 1794057412390570019,
+          "ctime_ns": 1794057412390570019,
+          "nlink": 1,
+          "allocated_bytes": 4079616
+        },
+        "sha256": "c4d366da9bac9658a7e4aaaab0d241a38aca03c689232c78a4349ece3a8e5b05"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000346.png",
+        "index": 18181,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007792,
+          "bytes": 4682887,
+          "mtime_ns": 1794057412391805356,
+          "ctime_ns": 1794057412391805356,
+          "nlink": 1,
+          "allocated_bytes": 4685824
+        },
+        "sha256": "ab369c63a340ce65e6341cbba52b181148133a87528fbceefb4d45e7c8858f66"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000347.png",
+        "index": 18244,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007793,
+          "bytes": 4796020,
+          "mtime_ns": 1794057412396402284,
+          "ctime_ns": 1794057412396402284,
+          "nlink": 1,
+          "allocated_bytes": 4796416
+        },
+        "sha256": "956d167fbbd9fda71abcff802f4cf863928e0a571b11ad79fea751c006d0a7bd"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000348.png",
+        "index": 18245,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007794,
+          "bytes": 3904590,
+          "mtime_ns": 1794057412399130250,
+          "ctime_ns": 1794057412399130250,
+          "nlink": 1,
+          "allocated_bytes": 3907584
+        },
+        "sha256": "979220f235fe44fedc590b8e9eaf1c4a910c72cedf255829c9e997ced849ab02"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000349.png",
+        "index": 18307,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007795,
+          "bytes": 4833749,
+          "mtime_ns": 1794057412404034929,
+          "ctime_ns": 1794057412404034929,
+          "nlink": 1,
+          "allocated_bytes": 4837376
+        },
+        "sha256": "ee0dd20e7dc485b794e472cd3fd6c5faa7aeb335e3b375bf0fe234c85fd83e81"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000350.png",
+        "index": 18370,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007796,
+          "bytes": 4851232,
+          "mtime_ns": 1794057412410411696,
+          "ctime_ns": 1794057412410411696,
+          "nlink": 1,
+          "allocated_bytes": 4853760
+        },
+        "sha256": "961e8f3e04f5f9df87b092127e72287ac3e0de4e5d49ec367a7bb9241ce13021"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000351.png",
+        "index": 18371,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007797,
+          "bytes": 1114393,
+          "mtime_ns": 1794057412411632866,
+          "ctime_ns": 1794057412411632866,
+          "nlink": 1,
+          "allocated_bytes": 1118208
+        },
+        "sha256": "741f977a4de53a8500a11a5b42ddc7c9fcdfbbac69fd9c9170644ab9317bd6e6"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000352.png",
+        "index": 18520,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007798,
+          "bytes": 2483549,
+          "mtime_ns": 1794057412438443562,
+          "ctime_ns": 1794057412438443562,
+          "nlink": 1,
+          "allocated_bytes": 2486272
+        },
+        "sha256": "fe1f93623a46d88579c3531aa7655814079f554cafef4b91ade7bde66be49e8d"
+      },
+      {
+        "path": "Work/qa-rebuild-v10-20261107/scratch/qa/000353.png",
+        "index": 18670,
+        "identity": {
+          "device": 16777233,
+          "inode": 130007802,
+          "bytes": 2832791,
+          "mtime_ns": 1794057413004179797,
+          "ctime_ns": 1794057413004179797,
+          "nlink": 1,
+          "allocated_bytes": 2834432
+        },
+        "sha256": "ad8b31bfe33e0285ba5549511a2bf62de78bb337f3ab5b34ba3bce82369b7ca1"
+      }
+    ],
+    "recipe_record": null,
+    "required_review_checks": [
+      "stream_metadata",
+      "full_decode",
+      "frame_sampling",
+      "motion_framing",
+      "cue_timing",
+      "audio_signal",
+      "subjective_audio_listening",
+      "srt",
+      "independent_review",
+      "scene_duration",
+      "semantic_grouping",
+      "word_highlighting"
+    ],
+    "legacy": false,
+    "registered_utc": "2026-11-07T13:16:54.755940+00:00"
+  },
+  "writer_finished_utc": "2026-11-07T13:16:54.761822+00:00"
+}

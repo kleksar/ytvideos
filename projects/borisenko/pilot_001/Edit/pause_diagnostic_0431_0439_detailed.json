@@ -1,0 +1,104 @@
+{
+  "timeline": {
+    "id": "B791704C",
+    "name": "EN dub 095 sync",
+    "fps": 30.0,
+    "videoTrimStartFrames": 374,
+    "russianVideoRef": "404792DB",
+    "englishAudioRef": "6BA86F3F"
+  },
+  "settings": {
+    "window": [
+      270.0,
+      280.0
+    ],
+    "russianThresholdDb": -35,
+    "russianMinimumSeconds": 0.12,
+    "englishThresholdDb": -45,
+    "englishMinimumSeconds": 0.18
+  },
+  "media": {
+    "video": "/Users/diplomat/ytvideos/projects/borisenko/pilot_001/Source/К чему эти разговоры если гибнyт русские люди.mp4",
+    "english": "/Users/diplomat/ytvideos/projects/borisenko/pilot_001/Source/Maxim_Orlov_english_speed_095.wav",
+    "videoSeconds": 548.976281,
+    "englishSeconds": 441.711769
+  },
+  "warning": "Acoustic silence and automatic transcripts are imperfect. Sound overlap is not proof of semantic misalignment; verify source identity, words, and audio by listening. No timeline modifications were made.",
+  "russianPauses": [
+    {
+      "russianPauseTimeline": [
+        270.809,
+        272.114
+      ],
+      "russianPauseSource": [
+        283.276,
+        284.58
+      ],
+      "englishSoundOverlapSeconds": 1.305,
+      "englishSoundHits": [
+        {
+          "clipId": "5F6912C9",
+          "timelineStart": 270.809,
+          "timelineEnd": 272.114,
+          "sourceStart": 234.542,
+          "sourceEnd": 235.847,
+          "englishContext": [
+            {
+              "start": 233.76,
+              "end": 238.86,
+              "text": "generals like Lopin, who was later awarded the title Hero of Russia and was the face"
+            }
+          ]
+        }
+      ],
+      "russianContext": [
+        {
+          "start": 281.24,
+          "end": 286.64,
+          "text": "Отправляли в лобовые атаки, особо выдающиеся генералы типа Лапина,"
+        }
+      ],
+      "englishSafeCutCandidates": []
+    },
+    {
+      "russianPauseTimeline": [
+        277.247,
+        278.287
+      ],
+      "russianPauseSource": [
+        289.714,
+        290.754
+      ],
+      "englishSoundOverlapSeconds": 0.253,
+      "englishSoundHits": [
+        {
+          "clipId": "5F6912C9",
+          "timelineStart": 277.247,
+          "timelineEnd": 277.5,
+          "sourceStart": 240.98,
+          "sourceEnd": 241.233,
+          "englishContext": [
+            {
+              "start": 238.86,
+              "end": 243.14,
+              "text": "of United Russia in the recent elections, if you can even call that whole thing by that"
+            }
+          ]
+        }
+      ],
+      "russianContext": [
+        {
+          "start": 286.72,
+          "end": 289.22,
+          "text": "который впоследствии получил звание Героя России,"
+        },
+        {
+          "start": 290.46,
+          "end": 295.2,
+          "text": "и был лицом Единой России на протшедших, так сказать, в выборах."
+        }
+      ],
+      "englishSafeCutCandidates": []
+    }
+  ]
+}

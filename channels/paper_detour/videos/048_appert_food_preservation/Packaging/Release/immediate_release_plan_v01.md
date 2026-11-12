@@ -1,0 +1,6 @@
+# Immediate release — Paper 048
+
+- User explicitly requested immediate Public with native thumbnail experiment, concept C/A/B in slots 1/2/3, and confirmed full playback with sound and burned-in captions.
+- Exact v05 SHA-256 `8df52ada637e81e5537fbe48f0f4cddeebc2021884e0459ffdf4d529488f1bd4`; YouTube video `XwLyBOn90rs`, channel `UCMVfdfaNxV3ZkI3_J3Eejzw`, existing playlist `PLEIDCTZ8y2k8`. Title and description C, primary cover C.
+- 2026-11-05, immediately before release: authenticated API inventory checked all 33 uploaded video IDs for current status and publishAt. No future publishAt was returned. Several videos have just been released on 5 November, including `_i0pkCH7t3A` at 18:17:33 UTC and `Xols0fsdXhY` at 17:58:30 UTC; existing future content in other systems and post scheduling was not comprehensively verified. Studio dashboard showed last community post dated 2 November. Explicit instruction calls for release now despite video density; no claim that calendar is free.
+- Manual EN caption is serving, verified receipt. Native end-screen was saved and re-opened in Studio. After Public verify visibility/processing and launch the native thumbnail-only experiment C/A/B; do not change title/thumbnail independently during test.

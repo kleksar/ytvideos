@@ -1,0 +1,253 @@
+- heading "ChatGPT сказал:" [level=4]
+    - heading "Рекомендуемая архитектура" [level=2]
+    - paragraph:
+      - text: "Главный принцип:"
+      - strong: состояние выпусков ≠ инструкции ≠ повторяемые процедуры ≠ роли агентов
+      - text: . Сейчас корневой AGENTS.md смешивает все четыре слоя и при размере 126 559 байт значительно превышает стандартный лимит Codex в 32 KiB, поэтому полагаться на его полную загрузку нельзя.
+      - 'link "ChatGPT Learn: Custom instructions with AGENTS.md | ChatGPT Learn, https://learn.chatgpt.com/docs/agent-configuration/agents-md"':
+        - /url: https://learn.chatgpt.com/docs/agent-configuration/agents-md
+        - generic: ChatGPT Learn
+    - generic: Обычный текст
+    - button "Включить перенос строк":
+    - button "Копировать код":
+    - code:
+      - generic: ytvideos/ ├── AGENTS.md ├── .agents/ │ └── skills/ ├── .agent/ │ ├── README.md │ ├── documentation-index.md │ ├── episode-registry.md │ └── migration-ledger.md ├── .codex/ │ └── agents/ │ ├── *.toml │ └── README.md ├── new_channel/ │ ├── AGENTS.md │ └── ... └── stories/ ├── AGENTS.md └── ...
+    - 'heading "1. Корневой AGENTS.md: только всегда действующие инварианты" [level=3]'
+    - paragraph:
+      - text: Сделать его коротким, ориентировочно
+      - strong: до 10–15 KiB
+      - text: ", оставив запас до лимита."
+    - paragraph: "В root держать только то, что нельзя безопасно пропустить ни в одной задаче:"
+    - list:
+      - text: обязательный gate через
+      - strong: Chrome ChatGPT Extra High
+      - text: "перед анализом/творчеством: координатор делает запрос лично, проверяет видимую маркировку перед каждым запросом, один запрос = одна узкая задача, ждёт и сохраняет результат; отсутствие Chrome не заменяется локальной моделью;"
+      - listitem: Pro — только по прямому запросу;
+      - text: "правило определения канала:"
+      - strong: не выводить канал из номера/slug
+      - text: ", использовать явную принадлежность из registry/journal;"
+      - listitem: перед channel-specific работой прочитать соответствующий channel AGENTS.md;
+      - listitem: новые аудио — только после отдельного явного разрешения;
+      - listitem: .palmier напрямую не редактировать;
+      - listitem: "MCP: всегда явные projectId/`timelineId`, не полагаться на UI focus;"
+      - listitem: сохранять исходный timeline и snapshot перед изменениями;
+      - listitem: "truthful QA: не заявлять то, что фактически не проверено;"
+      - listitem: "короткие правила маршрутизации: где искать episode state, skills, рабочие docs и agent roles."
+    - paragraph: "Не держать здесь:"
+    - list:
+      - listitem: статусы конкретных выпусков;
+      - listitem: полные production workflows;
+      - listitem: thumbnail/typography/captions/playlists инструкции;
+      - listitem: длинные примеры;
+      - listitem: исторические решения по отдельным роликам.
+    - 'heading "2. Канальные AGENTS.md: только неизменные правила канала" [level=3]'
+    - paragraph: "new_channel/AGENTS.md должен содержать именно Paper Detour invariants:"
+    - list:
+      - listitem: Paper Detour = бывший Rarovista;
+      - listitem: одна законченная картинка на сцену;
+      - listitem: никаких BG/MG/FG;
+      - listitem: никаких parallax;
+      - listitem: continuous film grain;
+      - listitem: остальные действительно обязательные channel-wide ограничения.
+    - paragraph: stories/AGENTS.md — только общие постоянные правила соответствующего семейства каналов. Если Nuviko History фактически имеет отдельный рабочий root, для него лучше отдельный AGENTS.md, а не смешивание History и Stories.
+    - paragraph:
+      - text: Из-за отсутствия Git/project root
+      - strong: не рассчитывать на автоматическое наследование root → channel
+      - text: ". Официальная документация говорит: если Codex не находит project root, он проверяет только текущую директорию."
+      - 'link "ChatGPT Learn: Custom instructions with AGENTS.md | ChatGPT Learn, https://learn.chatgpt.com/docs/agent-configuration/agents-md"':
+        - /url: https://learn.chatgpt.com/docs/agent-configuration/agents-md
+        - generic: ChatGPT Learn
+    - paragraph: "Поэтому:"
+    - list:
+      - text: "основной режим:"
+      - strong: запускать Codex из корня ytvideos
+      - text: ;
+      - listitem: root AGENTS.md явно требует прочитать channel AGENTS.md перед соответствующей работой;
+      - listitem: "channel AGENTS.md должен иметь короткий bootstrap: если Codex запущен отсюда, сначала явно прочитать корневой ../AGENTS.md/нужный относительный путь."
+    - paragraph: Это лучше, чем копировать все root invariants в каждый канал.
+    - 'heading "3. .agents/skills: процедуры, загружаемые по задаче" [level=2]'
+    - paragraph:
+      - text: Сюда переносить только повторяемые workflow, которые нужны
+      - strong: по конкретному trigger
+      - text: ", а не постоянно."
+    - paragraph: "Кандидаты по уже имеющейся документации:"
+    - list:
+      - listitem: Paper production;
+      - listitem: film/crew workflow;
+      - listitem: editing;
+      - listitem: typography;
+      - listitem: thumbnails;
+      - listitem: Shorts release;
+      - listitem: YouTube playlists/posts;
+      - listitem: Stories workflow/captions/VPN;
+      - listitem: History story pipeline/storytelling;
+      - listitem: прочие устойчивые специализированные процессы.
+    - paragraph: Не переносить туда episode status и текущие решения конкретного ролика.
+    - paragraph:
+      - text: Codex официально обнаруживает .agents/skills, поддерживает symlinked skill folders и
+      - strong: не объединяет skills с одинаковым name
+      - text: — оба могут появиться отдельно.
+      - 'link "ChatGPT Learn: Build skills | ChatGPT Learn, https://learn.chatgpt.com/docs/build-skills, 2 дополнительных источника"':
+        - /url: https://learn.chatgpt.com/docs/build-skills
+        - generic: ChatGPT Learn
+        - generic: "+2"
+    - paragraph: "Отсюда правило миграции:"
+    - list:
+      - text: актуальный глобальный youtube-upload
+      - strong: не копировать и не symlink'ать
+      - text: в проект;
+      - listitem: не создавать локальные skills с тем же name, что у существующих глобальных;
+      - listitem: "устаревшие paper-detour-director и paper-detour-film-crew не использовать как источник истины: сначала разобрать их через migration ledger, затем в отдельном этапе создать проектные replacements с уникальными именами и только после проверки вывести старые глобальные варианты из эксплуатации;"
+      - listitem: из make-story-shorts брать только действительно универсальное при отдельном разборе; fixed duration/generic captions не мигрировать автоматически.
+    - 'heading "4. .agent: пассивная рабочая документация, не механизм автозагрузки" [level=2]'
+    - paragraph: Не приписывать .agent никакого special discovery.
+    - paragraph:
+      - text: Использовать как
+      - strong: явно адресуемый рабочий индекс
+      - text: ":"
+    - list:
+      - listitem: documentation-index.md — карта существующих Guides и кто является canonical owner каждого правила;
+      - listitem: episode-registry.md — path → channel → episode title → journal; именно здесь разрушается ложная связь «027 значит такой-то канал»;
+      - listitem: migration-ledger.md — откуда каждое старое правило/статус перемещено, куда, проверено ли;
+      - listitem: README.md — назначение .agent и правило, что эти файлы читаются только по явной ссылке из AGENTS.md, skill или запроса.
+    - paragraph: Сами существующие Guides пока не надо физически перемещать. Сначала индексировать и назначить canonical destination.
+    - 'heading "5. .codex/agents: только роли и capability boundaries" [level=2]'
+    - paragraph:
+      - text: Существующие 14 TOML оставить здесь. Это именно официальное место для project-scoped custom agents.
+      - 'link "ChatGPT Learn: Subagents | ChatGPT Learn, https://learn.chatgpt.com/docs/agent-configuration/subagents"':
+        - /url: https://learn.chatgpt.com/docs/agent-configuration/subagents
+        - generic: ChatGPT Learn
+    - paragraph: "В TOML не дублировать:"
+    - list:
+      - listitem: Paper style;
+      - listitem: production workflow;
+      - listitem: episode state;
+      - listitem: общие QA/MCP правила.
+    - paragraph:
+      - text: Агент определяет
+      - strong: кто выполняет работу
+      - text: ", AGENTS.md —"
+      - strong: неизменные ограничения
+      - text: ", skill —"
+      - strong: как выполняется конкретный workflow
+      - text: .
+    - paragraph: Ошибочное утверждение README про отсутствие agent_type удалить/исправить при миграции документации; не использовать его как ограничение архитектуры.
+    - 'heading "6. Журналы выпусков: единственное место текущего состояния" [level=2]'
+    - paragraph: Строки 73–229 текущего root AGENTS.md в основном должны уйти сюда.
+    - paragraph: "Лучший вариант — журнал рядом с фактическим каталогом выпуска:"
+    - generic: Обычный текст
+    - button "Включить перенос строк":
+    - button "Копировать код":
+    - code: <episode-directory>/EPISODE.md
+    - paragraph: "В нём хранить:"
+    - list:
+      - listitem: явный channel;
+      - listitem: название/identity выпуска;
+      - listitem: текущий status;
+      - listitem: принятые решения;
+      - listitem: существующие ссылки и пути;
+      - listitem: незавершённые пункты;
+      - listitem: provenance старой записи при миграции.
+    - paragraph: Не создавать централизованный огромный файл со всеми статусами снова. .agent/episode-registry.md содержит только указатели на отдельные journals.
+    - paragraph: "Так 027_doomscrolling_short может явно иметь channel: Paper Detour / Minnie Freeman, и никакой агент не должен угадывать принадлежность по filename."
+    - heading "Что всегда загружать, а что только по trigger" [level=2]
+    - table:
+      - rowgroup:
+        - row "Слой Когда читать":
+          - columnheader "Слой"
+          - columnheader "Когда читать"
+      - rowgroup:
+        - row "root AGENTS.md всегда":
+          - cell "root AGENTS.md"
+          - cell "всегда"
+        - row "channel AGENTS.md при любой работе соответствующего канала":
+          - cell "channel AGENTS.md"
+          - cell "при любой работе соответствующего канала"
+        - row "episode journal только при работе с конкретным выпуском":
+          - cell "episode journal"
+          - cell "только при работе с конкретным выпуском"
+        - row ".agents/skills/* только когда задача совпадает с trigger skill":
+          - cell ".agents/skills/*"
+          - cell "только когда задача совпадает с trigger skill"
+        - row ".agent/documentation-index.md поиск источника правила / миграция":
+          - cell ".agent/documentation-index.md"
+          - cell "поиск источника правила / миграция"
+        - row ".agent/episode-registry.md когда нужно определить выпуск/канал":
+          - cell ".agent/episode-registry.md"
+          - cell "когда нужно определить выпуск/канал"
+        - row ".agent/migration-ledger.md только миграция/аудит":
+          - cell ".agent/migration-ledger.md"
+          - cell "только миграция/аудит"
+        - row ".codex/agents/*.toml при выборе/создании subagent role":
+          - cell ".codex/agents/*.toml"
+          - cell "при выборе/создании subagent role"
+    - button "Скопировать таблицу":
+    - button "Развернуть таблицу":
+    - heading "Порядок миграции без потери данных" [level=2]
+    - list:
+      - paragraph:
+        - strong: "Заморозить исходник:"
+        - text: сохранить неизменяемую копию нынешнего AGENTS.md и перечень текущих Guides/global skills. Ничего пока не удалять.
+      - paragraph:
+        - strong: "Создать migration ledger:"
+        - text: "каждой секции/правилу/статусу назначить destination: root, channel, future skill, episode journal, reference only, obsolete/conflicting."
+      - paragraph:
+        - strong: Сначала вынести episode state.
+        - text: Строки 73–229 переносить в журналы выпусков первоначально почти verbatim, сохраняя все URL, локальные пути и старые формулировки. В ledger отметить source range → journal. Только после проверки считать перенос завершённым.
+      - paragraph:
+        - strong: Создать episode registry
+        - text: с явной принадлежностью каналов. Не использовать ID/slug как классификатор.
+      - paragraph:
+        - strong: Собрать новый короткий root AGENTS.md
+        - text: из project-wide invariants и routing rules.
+      - paragraph:
+        - strong: Создать channel AGENTS.md
+        - text: из настоящих channel-wide invariants. Повторяемые workflow туда не переносить.
+      - paragraph:
+        - strong: Разметить Guides как будущие skill sources
+        - text: ", но пока оставить их на месте. Следующий отдельный этап уже создаёт .agents/skills."
+      - paragraph:
+        - strong: Разобрать глобальные skills до локальных replacements.
+        - text: Не допускать периода, когда одновременно активны одноимённые глобальная и локальная версии. Документация прямо предупреждает, что одинаковые name не сливаются.
+        - 'link "ChatGPT Learn: Build skills | ChatGPT Learn, https://learn.chatgpt.com/docs/build-skills"':
+          - /url: https://learn.chatgpt.com/docs/build-skills
+          - generic: ChatGPT Learn
+      - paragraph:
+        - strong: Очистить .codex/agents от документационных противоречий
+        - text: ", сохранив сами role TOML; исправить stale README про agent_type."
+      - paragraph:
+        - strong: Только после сверки удалить legacy-блоки из старого root.
+        - text: "Критерий удаления: для каждой старой строки есть запись в migration ledger и проверенный destination."
+    - paragraph:
+      - text: "Итоговая модель:"
+      - strong: root = invariants/router; channel AGENTS = channel invariants; skills = triggered workflows; .agent = explicit indexes/ledger; .codex/agents = roles; episode journals = mutable state.
+      - text: Это устраняет переполнение AGENTS.md и сохраняет старую историю без превращения её снова в постоянный prompt.
+    - button "Копировать":
+    - button "Оценить ответ":
+    - button "Прочитать вслух":
+    - button "Поделиться":
+    - button "Добавить в источники проекта":
+    - button "Сгенерировать ответ заново":
+    - button "Ещё действия":
+    - generic: ChatGPT может допускать ошибки. Проверяйте важную информацию.
+    - button "Прокрутить вниз":
+    - heading "Последний ответ" [level=4]
+    - status
+    - button "Добавить файлы и другое":
+    - textbox "Спросить ChatGPT" [active]:
+      - paragraph: Спросить ChatGPT
+    - button "Выбрать модель ChatGPT":
+      - generic: Уровень усилий рассуждения
+      - generic: 5.6 Extra High
+    - button "Диктовать":
+    - button "Начать голосовой разговор":
+- status
+- status
+- status
+- status: Ответ готов
+- status
+- status
+- button "⋮⋮"
+- button "⋮⋮"
+- button "⋮⋮"
+- button "⋮⋮"

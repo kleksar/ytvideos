@@ -1,0 +1,1080 @@
+{
+  "version": 1,
+  "status": "ready_for_review",
+  "project_id": "9A0EE170",
+  "timeline_id": "6BF7F173",
+  "accent_plan": "/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/accent_plan.json",
+  "visible_project_before": "845D33BD",
+  "exported": false,
+  "published": false,
+  "steps": [
+    {
+      "label": "import YURI.png",
+      "tool": "import_media",
+      "actionId": "A11700D6",
+      "result": {
+        "actionId": "A11700D6",
+        "mediaRef": "596C03D2",
+        "name": "YURI",
+        "status": "ready",
+        "type": "image"
+      }
+    },
+    {
+      "label": "import 1952.png",
+      "tool": "import_media",
+      "actionId": "1271134C",
+      "result": {
+        "actionId": "1271134C",
+        "mediaRef": "FDC40DF9",
+        "name": "1952",
+        "status": "ready",
+        "type": "image"
+      }
+    },
+    {
+      "label": "import SOUNDS.png",
+      "tool": "import_media",
+      "actionId": "F7A53C2B",
+      "result": {
+        "actionId": "F7A53C2B",
+        "mediaRef": "24DE1098",
+        "name": "SOUNDS",
+        "status": "ready",
+        "type": "image"
+      }
+    },
+    {
+      "label": "import ASYA.png",
+      "tool": "import_media",
+      "actionId": "DDBFA311",
+      "result": {
+        "actionId": "DDBFA311",
+        "mediaRef": "D60A2311",
+        "name": "ASYA",
+        "status": "ready",
+        "type": "image"
+      }
+    },
+    {
+      "label": "place paper accent cutouts",
+      "tool": "add_clips",
+      "actionId": "C96DC2CA",
+      "result": {
+        "actionId": "C96DC2CA",
+        "clips": [
+          {
+            "frames": [
+              142,
+              196
+            ],
+            "id": "680C475A",
+            "mediaRef": "596C03D2",
+            "mediaType": "image",
+            "track": 0,
+            "transform": {
+              "height": 0.239
+            },
+            "trimEndFrame": 96
+          },
+          {
+            "frames": [
+              252,
+              306
+            ],
+            "id": "25A59501",
+            "mediaRef": "FDC40DF9",
+            "mediaType": "image",
+            "track": 0,
+            "transform": {
+              "height": 0.23
+            },
+            "trimEndFrame": 96
+          },
+          {
+            "frames": [
+              444,
+              498
+            ],
+            "id": "C6E1E83F",
+            "mediaRef": "24DE1098",
+            "mediaType": "image",
+            "track": 0,
+            "transform": {
+              "height": 0.192
+            },
+            "trimEndFrame": 96
+          },
+          {
+            "frames": [
+              665,
+              719
+            ],
+            "id": "9038EF85",
+            "mediaRef": "D60A2311",
+            "mediaType": "image",
+            "track": 0,
+            "transform": {
+              "height": 0.238
+            },
+            "trimEndFrame": 96
+          }
+        ],
+        "createdTracks": [
+          {
+            "index": 0,
+            "label": "V5",
+            "trackId": "94FBEC41",
+            "type": "video"
+          }
+        ],
+        "notes": [
+          "Track indices shifted — re-read get_timeline before the next index-based call."
+        ]
+      }
+    },
+    {
+      "label": "stack accents between BG and MG",
+      "tool": "manage_tracks",
+      "actionId": "B131D5C8",
+      "result": {
+        "actionId": "B131D5C8",
+        "reordered": [
+          {
+            "changed": true,
+            "from": 0,
+            "to": 3,
+            "trackId": "94FBEC41"
+          }
+        ],
+        "tracks": [
+          {
+            "index": 0,
+            "label": "V5",
+            "name": "Film Grain",
+            "trackId": "D61EA4FF",
+            "type": "video"
+          },
+          {
+            "index": 1,
+            "label": "V4",
+            "name": "Foreground",
+            "trackId": "6BA71669",
+            "type": "video"
+          },
+          {
+            "index": 2,
+            "label": "V3",
+            "name": "Middle",
+            "trackId": "15D595CD",
+            "type": "video"
+          },
+          {
+            "index": 3,
+            "label": "V2",
+            "trackId": "94FBEC41",
+            "type": "video"
+          },
+          {
+            "index": 4,
+            "label": "V1",
+            "name": "Background",
+            "trackId": "29B3768F",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "label": "name accent track",
+      "tool": "manage_tracks",
+      "actionId": "4F88898E",
+      "result": {
+        "actionId": "4F88898E",
+        "renamed": [
+          {
+            "changed": true,
+            "name": "Accents",
+            "trackId": "94FBEC41"
+          }
+        ],
+        "tracks": [
+          {
+            "index": 0,
+            "label": "V5",
+            "name": "Film Grain",
+            "trackId": "D61EA4FF",
+            "type": "video"
+          },
+          {
+            "index": 1,
+            "label": "V4",
+            "name": "Foreground",
+            "trackId": "6BA71669",
+            "type": "video"
+          },
+          {
+            "index": 2,
+            "label": "V3",
+            "name": "Middle",
+            "trackId": "15D595CD",
+            "type": "video"
+          },
+          {
+            "index": 3,
+            "label": "V2",
+            "name": "Accents",
+            "trackId": "94FBEC41",
+            "type": "video"
+          },
+          {
+            "index": 4,
+            "label": "V1",
+            "name": "Background",
+            "trackId": "29B3768F",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "label": "animate YURI.png position",
+      "tool": "set_keyframes",
+      "actionId": "3AC4A521",
+      "result": {
+        "actionId": "3AC4A521",
+        "clips": [
+          {
+            "frames": [
+              142,
+              196
+            ],
+            "id": "680C475A",
+            "keyframes": {
+              "position": [
+                [
+                  0,
+                  0.39,
+                  0.1
+                ],
+                [
+                  12,
+                  0.6,
+                  0.1
+                ],
+                [
+                  41,
+                  0.6,
+                  0.1
+                ],
+                [
+                  53,
+                  0.39,
+                  0.1
+                ]
+              ]
+            },
+            "mediaRef": "596C03D2",
+            "mediaType": "image",
+            "track": 3,
+            "transform": {
+              "height": 0.239
+            },
+            "trimEndFrame": 96
+          }
+        ]
+      }
+    },
+    {
+      "label": "animate YURI.png scale",
+      "tool": "set_keyframes",
+      "actionId": "5623C152",
+      "result": {
+        "actionId": "5623C152",
+        "clips": [
+          {
+            "frames": [
+              142,
+              196
+            ],
+            "id": "680C475A",
+            "keyframes": {
+              "position": [
+                [
+                  0,
+                  0.39,
+                  0.1
+                ],
+                [
+                  12,
+                  0.6,
+                  0.1
+                ],
+                [
+                  41,
+                  0.6,
+                  0.1
+                ],
+                [
+                  53,
+                  0.39,
+                  0.1
+                ]
+              ],
+              "scale": [
+                [
+                  0,
+                  0.37,
+                  0.157,
+                  "linear"
+                ],
+                [
+                  53,
+                  0.37,
+                  0.157,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "596C03D2",
+            "mediaType": "image",
+            "track": 3,
+            "transform": {
+              "height": 0.239
+            },
+            "trimEndFrame": 96
+          }
+        ]
+      }
+    },
+    {
+      "label": "animate YURI.png opacity",
+      "tool": "set_keyframes",
+      "actionId": "E73A89EB",
+      "result": {
+        "actionId": "E73A89EB",
+        "clips": [
+          {
+            "frames": [
+              142,
+              196
+            ],
+            "id": "680C475A",
+            "keyframes": {
+              "opacity": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  12,
+                  1
+                ],
+                [
+                  41,
+                  1
+                ],
+                [
+                  53,
+                  0
+                ]
+              ],
+              "position": [
+                [
+                  0,
+                  0.39,
+                  0.1
+                ],
+                [
+                  12,
+                  0.6,
+                  0.1
+                ],
+                [
+                  41,
+                  0.6,
+                  0.1
+                ],
+                [
+                  53,
+                  0.39,
+                  0.1
+                ]
+              ],
+              "scale": [
+                [
+                  0,
+                  0.37,
+                  0.157,
+                  "linear"
+                ],
+                [
+                  53,
+                  0.37,
+                  0.157,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "596C03D2",
+            "mediaType": "image",
+            "track": 3,
+            "transform": {
+              "height": 0.239
+            },
+            "trimEndFrame": 96
+          }
+        ]
+      }
+    },
+    {
+      "label": "animate 1952.png position",
+      "tool": "set_keyframes",
+      "actionId": "A898CA2A",
+      "result": {
+        "actionId": "A898CA2A",
+        "clips": [
+          {
+            "frames": [
+              252,
+              306
+            ],
+            "id": "25A59501",
+            "keyframes": {
+              "position": [
+                [
+                  0,
+                  0.43,
+                  0.07
+                ],
+                [
+                  12,
+                  0.6,
+                  0.07
+                ],
+                [
+                  41,
+                  0.6,
+                  0.07
+                ],
+                [
+                  53,
+                  0.43,
+                  0.07
+                ]
+              ]
+            },
+            "mediaRef": "FDC40DF9",
+            "mediaType": "image",
+            "track": 3,
+            "transform": {
+              "height": 0.23
+            },
+            "trimEndFrame": 96
+          }
+        ]
+      }
+    },
+    {
+      "label": "animate 1952.png scale",
+      "tool": "set_keyframes",
+      "actionId": "3E5A17F8",
+      "result": {
+        "actionId": "3E5A17F8",
+        "clips": [
+          {
+            "frames": [
+              252,
+              306
+            ],
+            "id": "25A59501",
+            "keyframes": {
+              "position": [
+                [
+                  0,
+                  0.43,
+                  0.07
+                ],
+                [
+                  12,
+                  0.6,
+                  0.07
+                ],
+                [
+                  41,
+                  0.6,
+                  0.07
+                ],
+                [
+                  53,
+                  0.43,
+                  0.07
+                ]
+              ],
+              "scale": [
+                [
+                  0,
+                  0.36,
+                  0.147,
+                  "linear"
+                ],
+                [
+                  53,
+                  0.36,
+                  0.147,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "FDC40DF9",
+            "mediaType": "image",
+            "track": 3,
+            "transform": {
+              "height": 0.23
+            },
+            "trimEndFrame": 96
+          }
+        ]
+      }
+    },
+    {
+      "label": "animate 1952.png opacity",
+      "tool": "set_keyframes",
+      "actionId": "24E6F554",
+      "result": {
+        "actionId": "24E6F554",
+        "clips": [
+          {
+            "frames": [
+              252,
+              306
+            ],
+            "id": "25A59501",
+            "keyframes": {
+              "opacity": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  12,
+                  1
+                ],
+                [
+                  41,
+                  1
+                ],
+                [
+                  53,
+                  0
+                ]
+              ],
+              "position": [
+                [
+                  0,
+                  0.43,
+                  0.07
+                ],
+                [
+                  12,
+                  0.6,
+                  0.07
+                ],
+                [
+                  41,
+                  0.6,
+                  0.07
+                ],
+                [
+                  53,
+                  0.43,
+                  0.07
+                ]
+              ],
+              "scale": [
+                [
+                  0,
+                  0.36,
+                  0.147,
+                  "linear"
+                ],
+                [
+                  53,
+                  0.36,
+                  0.147,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "FDC40DF9",
+            "mediaType": "image",
+            "track": 3,
+            "transform": {
+              "height": 0.23
+            },
+            "trimEndFrame": 96
+          }
+        ]
+      }
+    },
+    {
+      "label": "animate SOUNDS.png position",
+      "tool": "set_keyframes",
+      "actionId": "7D66D35B",
+      "result": {
+        "actionId": "7D66D35B",
+        "clips": [
+          {
+            "frames": [
+              444,
+              498
+            ],
+            "id": "C6E1E83F",
+            "keyframes": {
+              "position": [
+                [
+                  0,
+                  0.08,
+                  0.06
+                ],
+                [
+                  12,
+                  0.28,
+                  0.06
+                ],
+                [
+                  41,
+                  0.28,
+                  0.06
+                ],
+                [
+                  53,
+                  0.08,
+                  0.06
+                ]
+              ]
+            },
+            "mediaRef": "24DE1098",
+            "mediaType": "image",
+            "track": 3,
+            "transform": {
+              "height": 0.192
+            },
+            "trimEndFrame": 96
+          }
+        ]
+      }
+    },
+    {
+      "label": "animate SOUNDS.png scale",
+      "tool": "set_keyframes",
+      "actionId": "8C8B1F2D",
+      "result": {
+        "actionId": "8C8B1F2D",
+        "clips": [
+          {
+            "frames": [
+              444,
+              498
+            ],
+            "id": "C6E1E83F",
+            "keyframes": {
+              "position": [
+                [
+                  0,
+                  0.08,
+                  0.06
+                ],
+                [
+                  12,
+                  0.28,
+                  0.06
+                ],
+                [
+                  41,
+                  0.28,
+                  0.06
+                ],
+                [
+                  53,
+                  0.08,
+                  0.06
+                ]
+              ],
+              "scale": [
+                [
+                  0,
+                  0.4,
+                  0.137,
+                  "linear"
+                ],
+                [
+                  53,
+                  0.4,
+                  0.137,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "24DE1098",
+            "mediaType": "image",
+            "track": 3,
+            "transform": {
+              "height": 0.192
+            },
+            "trimEndFrame": 96
+          }
+        ]
+      }
+    },
+    {
+      "label": "animate SOUNDS.png opacity",
+      "tool": "set_keyframes",
+      "actionId": "293341C9",
+      "result": {
+        "actionId": "293341C9",
+        "clips": [
+          {
+            "frames": [
+              444,
+              498
+            ],
+            "id": "C6E1E83F",
+            "keyframes": {
+              "opacity": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  12,
+                  1
+                ],
+                [
+                  41,
+                  1
+                ],
+                [
+                  53,
+                  0
+                ]
+              ],
+              "position": [
+                [
+                  0,
+                  0.08,
+                  0.06
+                ],
+                [
+                  12,
+                  0.28,
+                  0.06
+                ],
+                [
+                  41,
+                  0.28,
+                  0.06
+                ],
+                [
+                  53,
+                  0.08,
+                  0.06
+                ]
+              ],
+              "scale": [
+                [
+                  0,
+                  0.4,
+                  0.137,
+                  "linear"
+                ],
+                [
+                  53,
+                  0.4,
+                  0.137,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "24DE1098",
+            "mediaType": "image",
+            "track": 3,
+            "transform": {
+              "height": 0.192
+            },
+            "trimEndFrame": 96
+          }
+        ]
+      }
+    },
+    {
+      "label": "animate ASYA.png position",
+      "tool": "set_keyframes",
+      "actionId": "01A8A0DE",
+      "result": {
+        "actionId": "01A8A0DE",
+        "clips": [
+          {
+            "frames": [
+              665,
+              719
+            ],
+            "id": "9038EF85",
+            "keyframes": {
+              "position": [
+                [
+                  0,
+                  0.39,
+                  0.09
+                ],
+                [
+                  12,
+                  0.57,
+                  0.09
+                ],
+                [
+                  41,
+                  0.57,
+                  0.09
+                ],
+                [
+                  53,
+                  0.39,
+                  0.09
+                ]
+              ]
+            },
+            "mediaRef": "D60A2311",
+            "mediaType": "image",
+            "track": 3,
+            "transform": {
+              "height": 0.238
+            },
+            "trimEndFrame": 96
+          }
+        ]
+      }
+    },
+    {
+      "label": "animate ASYA.png scale",
+      "tool": "set_keyframes",
+      "actionId": "D5DD3AD5",
+      "result": {
+        "actionId": "D5DD3AD5",
+        "clips": [
+          {
+            "frames": [
+              665,
+              719
+            ],
+            "id": "9038EF85",
+            "keyframes": {
+              "position": [
+                [
+                  0,
+                  0.39,
+                  0.09
+                ],
+                [
+                  12,
+                  0.57,
+                  0.09
+                ],
+                [
+                  41,
+                  0.57,
+                  0.09
+                ],
+                [
+                  53,
+                  0.39,
+                  0.09
+                ]
+              ],
+              "scale": [
+                [
+                  0,
+                  0.39,
+                  0.165,
+                  "linear"
+                ],
+                [
+                  53,
+                  0.39,
+                  0.165,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "D60A2311",
+            "mediaType": "image",
+            "track": 3,
+            "transform": {
+              "height": 0.238
+            },
+            "trimEndFrame": 96
+          }
+        ]
+      }
+    },
+    {
+      "label": "animate ASYA.png opacity",
+      "tool": "set_keyframes",
+      "actionId": "1377CB07",
+      "result": {
+        "actionId": "1377CB07",
+        "clips": [
+          {
+            "frames": [
+              665,
+              719
+            ],
+            "id": "9038EF85",
+            "keyframes": {
+              "opacity": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  12,
+                  1
+                ],
+                [
+                  41,
+                  1
+                ],
+                [
+                  53,
+                  0
+                ]
+              ],
+              "position": [
+                [
+                  0,
+                  0.39,
+                  0.09
+                ],
+                [
+                  12,
+                  0.57,
+                  0.09
+                ],
+                [
+                  41,
+                  0.57,
+                  0.09
+                ],
+                [
+                  53,
+                  0.39,
+                  0.09
+                ]
+              ],
+              "scale": [
+                [
+                  0,
+                  0.39,
+                  0.165,
+                  "linear"
+                ],
+                [
+                  53,
+                  0.39,
+                  0.165,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "D60A2311",
+            "mediaType": "image",
+            "track": 3,
+            "transform": {
+              "height": 0.238
+            },
+            "trimEndFrame": 96
+          }
+        ]
+      }
+    },
+    {
+      "label": "save accent pass snapshot",
+      "tool": "manage_snapshots",
+      "actionId": null,
+      "result": {
+        "snapshot": {
+          "author": {
+            "kind": "agent",
+            "name": "yt-stories-inspect"
+          },
+          "createdAt": "2026-11-01T08:26:00Z",
+          "name": "Paper accent pass ready for review",
+          "snapshotId": "6CA48FB1"
+        }
+      }
+    }
+  ],
+  "media": {
+    "YURI.png": "596C03D2",
+    "1952.png": "FDC40DF9",
+    "SOUNDS.png": "24DE1098",
+    "ASYA.png": "D60A2311"
+  },
+  "accent_track_id": "94FBEC41",
+  "clips": {
+    "YURI.png": "680C475A",
+    "1952.png": "25A59501",
+    "SOUNDS.png": "C6E1E83F",
+    "ASYA.png": "9038EF85"
+  },
+  "tracks": [
+    {
+      "trackId": "D61EA4FF",
+      "name": "Film Grain"
+    },
+    {
+      "trackId": "6BA71669",
+      "name": "Foreground"
+    },
+    {
+      "trackId": "15D595CD",
+      "name": "Middle"
+    },
+    {
+      "trackId": "94FBEC41",
+      "name": "Accents"
+    },
+    {
+      "trackId": "29B3768F",
+      "name": "Background"
+    }
+  ],
+  "review_frames": [
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/Previews/accent_YURI_entry_f0148.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/Previews/accent_YURI_hold_f0169.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/Previews/accent_YURI_exit_f0189.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/Previews/accent_1952_entry_f0258.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/Previews/accent_1952_hold_f0279.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/Previews/accent_1952_exit_f0299.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/Previews/accent_SOUNDS_entry_f0450.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/Previews/accent_SOUNDS_hold_f0471.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/Previews/accent_SOUNDS_exit_f0491.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/Previews/accent_ASYA_entry_f0671.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/Previews/accent_ASYA_hold_f0692.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/Previews/accent_ASYA_exit_f0712.png"
+  ],
+  "visible_project_after": "845D33BD",
+  "snapshot": {
+    "snapshot": {
+      "author": {
+        "kind": "agent",
+        "name": "yt-stories-inspect"
+      },
+      "createdAt": "2026-11-01T08:26:00Z",
+      "name": "Paper accent pass ready for review",
+      "snapshotId": "6CA48FB1"
+    }
+  },
+  "review_frame_count": 12,
+  "existing_timelines_modified": false
+}

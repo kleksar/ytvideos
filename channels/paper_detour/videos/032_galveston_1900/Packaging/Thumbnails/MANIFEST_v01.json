@@ -1,0 +1,38 @@
+{
+  "generator": "built-in image_gen",
+  "requested_size": "3840x2160 highest available quality",
+  "native_size": [
+    1672,
+    941
+  ],
+  "final_size": [
+    1672,
+    941
+  ],
+  "references": [
+    "030_clothing_history/Packaging/Thumbnails/Concepts/a_tools_where_clothes_v02.png",
+    "032_galveston_1900/Source/Images/paper_v01/scene_001_v01.png"
+  ],
+  "exact_lettering": "WHERE'S / THE GROUND?",
+  "title": "Galveston: The City That Raised Its Ground",
+  "files": {
+    "032_galveston_cover_master_v01.png": {
+      "bytes": 3046835,
+      "sha256": "48f53e0974ce70f5619e0c05897dfabe2def4a9233c8607f1bbf9a6d0c5fa2b9"
+    },
+    "032_galveston_cover_upload_v01.jpg": {
+      "bytes": 1186773,
+      "sha256": "9e5a8a287f7cd9eacf306d06b260c3670217c4d7acd1768ebfaf08b6ed06bd5b"
+    },
+    "PROMPT_v01.txt": {
+      "bytes": 1783,
+      "sha256": "473e41fb94ffbe50c1f1f4504761d9ca5ddadb815077855c2910f9275dd47aa1"
+    }
+  },
+  "author_checks": {
+    "full": "PASS: exact text/letters, support, house identity, era, paper material, clear story relation",
+    "320x180": "PASS: full lettering legible, supports/walkway apparent, lower-right duration area clear",
+    "live_youtube": "PENDING"
+  },
+  "independent_review": "NOT_PERFORMED"
+}

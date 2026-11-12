@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "method": "Current final AAC payload matches exact accepted mix and v13 audited AAC. Entire decoded waveform and channel mapping therefore identical; reuse existing same-source signal/landmark/truepeak evidence, with fresh final decode/sample levels.",
+  "aac_payload_sha256": "SHA256=b075e3d1a9f80d314de1074dbb99a02edc32bc9b0770c0e702b75cea9d88636e",
+  "current_sample_measurements": {
+    "stream": "0:a:0",
+    "method": "sample levels and silence candidates; not listening",
+    "mean_dbfs": [
+      "-23.5"
+    ],
+    "sample_peak_dbfs": [
+      "-3.5"
+    ],
+    "silence_candidate_threshold_dbfs": -50,
+    "minimum_silence_seconds": 0.25
+  },
+  "true_peak_dbfs": -3.5,
+  "integrated_lufs": -20.3,
+  "map": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Edit/ComplianceAudit_20261102/AUDIO_TIMING_MAP.json",
+  "channels": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Edit/ComplianceAudit_20261102/AUDIO_CHANNELS.json",
+  "subjective_listening": "UNVERIFIED; available tools supplied no actual hearing; no naturalness/pronunciation approval claimed",
+  "mix_edit": "One Mix clip spans[0,5700), speed1, no source trim/gain/other tracks changes"
+}

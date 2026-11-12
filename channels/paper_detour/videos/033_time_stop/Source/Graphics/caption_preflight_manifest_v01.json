@@ -1,0 +1,410 @@
+{
+  "version": 1,
+  "canvas": [
+    1080,
+    1920
+  ],
+  "face_height_px": 90,
+  "min_face_height_px": 70,
+  "anchors": {
+    "primary": {
+      "center": [
+        0.5,
+        0.16
+      ],
+      "max_width_px": 940,
+      "max_height_px": 320
+    },
+    "alternate": {
+      "center": [
+        0.5,
+        0.8
+      ],
+      "max_width_px": 940,
+      "max_height_px": 320
+    }
+  },
+  "scenes": [
+    {
+      "id": "S04",
+      "path": "preflight_scenes_1080_v01/S04_1080.png"
+    },
+    {
+      "id": "S05",
+      "path": "preflight_scenes_1080_v01/S05_1080.png"
+    },
+    {
+      "id": "S07",
+      "path": "preflight_scenes_1080_v01/S07_1080.png"
+    },
+    {
+      "id": "S08",
+      "path": "preflight_scenes_1080_v01/S08_1080.png"
+    },
+    {
+      "id": "S09",
+      "path": "preflight_scenes_1080_v01/S09_1080.png"
+    },
+    {
+      "id": "S11",
+      "path": "preflight_scenes_1080_v01/S11_1080.png"
+    },
+    {
+      "id": "S13",
+      "path": "preflight_scenes_1080_v01/S13_1080.png"
+    },
+    {
+      "id": "S14",
+      "path": "preflight_scenes_1080_v01/S14_1080.png"
+    }
+  ],
+  "cues": [
+    {
+      "id": "C04",
+      "lines": [
+        "NO LIGHT.",
+        "NO IMAGE."
+      ],
+      "backend": {
+        "type": "existingPNG",
+        "path": "captions_v01/C04_NO_LIGHT_NO_IMAGE.png",
+        "face": {
+          "mode": "mask",
+          "path": "caption_face_masks_v01/C04_face.png",
+          "line_boxes": [
+            [
+              0,
+              29,
+              487,
+              110
+            ],
+            [
+              0,
+              123,
+              487,
+              203
+            ]
+          ]
+        },
+        "reference": "../../../../videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+        "status": "Generated candidate; exact spelling inspected; eight-cell imagegen sheet cropped to separate assets"
+      },
+      "provenance": {
+        "author": "OpenAI image generation, 2026-11-02",
+        "record": "Source/Graphics/accent_candidates_v01/accent_sheet_candidate_v01.png"
+      },
+      "timing": {
+        "status": "ALIGNMENT_DERIVED_PLAYBACK_UNVERIFIED",
+        "note": "See Storyboard/ON_SCREEN_TEXT_CUES_v01.json"
+      }
+    },
+    {
+      "id": "C05",
+      "lines": [
+        "NO MOTION.",
+        "NO SIGNAL."
+      ],
+      "backend": {
+        "type": "existingPNG",
+        "path": "captions_v01/C05_NO_MOTION_NO_SIGNAL.png",
+        "face": {
+          "mode": "mask",
+          "path": "caption_face_masks_v01/C05_face.png",
+          "line_boxes": [
+            [
+              0,
+              24,
+              504,
+              111
+            ],
+            [
+              0,
+              118,
+              504,
+              204
+            ]
+          ]
+        },
+        "reference": "../../../../videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+        "status": "Generated candidate; exact spelling inspected; eight-cell imagegen sheet cropped to separate assets"
+      },
+      "provenance": {
+        "author": "OpenAI image generation, 2026-11-02",
+        "record": "Source/Graphics/accent_candidates_v01/accent_sheet_candidate_v01.png"
+      },
+      "timing": {
+        "status": "ALIGNMENT_DERIVED_PLAYBACK_UNVERIFIED",
+        "note": "See Storyboard/ON_SCREEN_TEXT_CUES_v01.json"
+      }
+    },
+    {
+      "id": "C07",
+      "lines": [
+        "AIR BECOMES",
+        "A WALL"
+      ],
+      "backend": {
+        "type": "existingPNG",
+        "path": "captions_v01/C07_AIR_BECOMES_A_WALL.png",
+        "face": {
+          "mode": "mask",
+          "path": "caption_face_masks_v01/C07_face.png",
+          "line_boxes": [
+            [
+              0,
+              25,
+              547,
+              107
+            ],
+            [
+              0,
+              117,
+              547,
+              200
+            ]
+          ]
+        },
+        "reference": "../../../../videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+        "status": "Generated candidate; exact spelling inspected; eight-cell imagegen sheet cropped to separate assets"
+      },
+      "provenance": {
+        "author": "OpenAI image generation, 2026-11-02",
+        "record": "Source/Graphics/accent_candidates_v01/accent_sheet_candidate_v01.png"
+      },
+      "timing": {
+        "status": "ALIGNMENT_DERIVED_PLAYBACK_UNVERIFIED",
+        "note": "See Storyboard/ON_SCREEN_TEXT_CUES_v01.json"
+      }
+    },
+    {
+      "id": "C08",
+      "lines": [
+        "THE TRAP IS",
+        "ALL AROUND YOU"
+      ],
+      "backend": {
+        "type": "existingPNG",
+        "path": "captions_v01/C08_THE_TRAP_IS_ALL_AROUND_YOU.png",
+        "face": {
+          "mode": "mask",
+          "path": "caption_face_masks_v01/C08_face.png",
+          "line_boxes": [
+            [
+              0,
+              21,
+              505,
+              96
+            ],
+            [
+              0,
+              114,
+              505,
+              185
+            ]
+          ]
+        },
+        "reference": "../../../../videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+        "status": "Generated candidate; exact spelling inspected; eight-cell imagegen sheet cropped to separate assets"
+      },
+      "provenance": {
+        "author": "OpenAI image generation, 2026-11-02",
+        "record": "Source/Graphics/accent_candidates_v01/accent_sheet_candidate_v01.png"
+      },
+      "timing": {
+        "status": "ALIGNMENT_DERIVED_PLAYBACK_UNVERIFIED",
+        "note": "See Storyboard/ON_SCREEN_TEXT_CUES_v01.json"
+      }
+    },
+    {
+      "id": "C09",
+      "lines": [
+        "OUT OF REACH"
+      ],
+      "backend": {
+        "type": "existingPNG",
+        "path": "captions_v01/C09_OUT_OF_REACH.png",
+        "face": {
+          "mode": "mask",
+          "path": "caption_face_masks_v01/C09_face.png",
+          "line_boxes": [
+            [
+              0,
+              29,
+              523,
+              105
+            ]
+          ]
+        },
+        "reference": "../../../../videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+        "status": "Generated candidate; exact spelling inspected; eight-cell imagegen sheet cropped to separate assets"
+      },
+      "provenance": {
+        "author": "OpenAI image generation, 2026-11-02",
+        "record": "Source/Graphics/accent_candidates_v01/accent_sheet_candidate_v01.png"
+      },
+      "timing": {
+        "status": "ALIGNMENT_DERIVED_PLAYBACK_UNVERIFIED",
+        "note": "See Storyboard/ON_SCREEN_TEXT_CUES_v01.json"
+      }
+    },
+    {
+      "id": "C11",
+      "lines": [
+        "FIVE SECONDS",
+        "YOU CAN’T USE"
+      ],
+      "backend": {
+        "type": "existingPNG",
+        "path": "captions_v01/C11_FIVE_SECONDS_YOU_CANT_USE.png",
+        "face": {
+          "mode": "mask",
+          "path": "caption_face_masks_v01/C11_face.png",
+          "line_boxes": [
+            [
+              0,
+              29,
+              505,
+              97
+            ],
+            [
+              0,
+              113,
+              505,
+              181
+            ]
+          ]
+        },
+        "reference": "../../../../videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+        "status": "Generated candidate; exact spelling inspected; eight-cell imagegen sheet cropped to separate assets"
+      },
+      "provenance": {
+        "author": "OpenAI image generation, 2026-11-02",
+        "record": "Source/Graphics/accent_candidates_v01/accent_sheet_candidate_v01.png"
+      },
+      "timing": {
+        "status": "ALIGNMENT_DERIVED_PLAYBACK_UNVERIFIED",
+        "note": "See Storyboard/ON_SCREEN_TEXT_CUES_v01.json"
+      }
+    },
+    {
+      "id": "C13",
+      "lines": [
+        "NOTHING TO",
+        "SHOW FOR IT"
+      ],
+      "backend": {
+        "type": "existingPNG",
+        "path": "captions_v01/C13_NOTHING_TO_SHOW_FOR_IT.png",
+        "face": {
+          "mode": "mask",
+          "path": "caption_face_masks_v01/C13_face.png",
+          "line_boxes": [
+            [
+              0,
+              30,
+              500,
+              99
+            ],
+            [
+              0,
+              116,
+              500,
+              190
+            ]
+          ]
+        },
+        "reference": "../../../../videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+        "status": "Generated candidate; exact spelling inspected; eight-cell imagegen sheet cropped to separate assets"
+      },
+      "provenance": {
+        "author": "OpenAI image generation, 2026-11-02",
+        "record": "Source/Graphics/accent_candidates_v01/accent_sheet_candidate_v01.png"
+      },
+      "timing": {
+        "status": "ALIGNMENT_DERIVED_PLAYBACK_UNVERIFIED",
+        "note": "See Storyboard/ON_SCREEN_TEXT_CUES_v01.json"
+      }
+    },
+    {
+      "id": "C14",
+      "lines": [
+        "FIVE SECONDS.",
+        "ZERO PAYOFF."
+      ],
+      "backend": {
+        "type": "existingPNG",
+        "path": "captions_v01/C14_FIVE_SECONDS_ZERO_PAYOFF.png",
+        "face": {
+          "mode": "mask",
+          "path": "caption_face_masks_v01/C14_face.png",
+          "line_boxes": [
+            [
+              0,
+              27,
+              501,
+              96
+            ],
+            [
+              0,
+              114,
+              501,
+              184
+            ]
+          ]
+        },
+        "reference": "../../../../videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+        "status": "Generated candidate; exact spelling inspected; eight-cell imagegen sheet cropped to separate assets"
+      },
+      "provenance": {
+        "author": "OpenAI image generation, 2026-11-02",
+        "record": "Source/Graphics/accent_candidates_v01/accent_sheet_candidate_v01.png"
+      },
+      "timing": {
+        "status": "ALIGNMENT_DERIVED_PLAYBACK_UNVERIFIED",
+        "note": "See Storyboard/ON_SCREEN_TEXT_CUES_v01.json"
+      }
+    }
+  ],
+  "pairs": [
+    {
+      "scene": "S04",
+      "cue": "C04",
+      "anchor": "alternate"
+    },
+    {
+      "scene": "S05",
+      "cue": "C05",
+      "anchor": "alternate"
+    },
+    {
+      "scene": "S07",
+      "cue": "C07",
+      "anchor": "primary"
+    },
+    {
+      "scene": "S08",
+      "cue": "C08",
+      "anchor": "alternate"
+    },
+    {
+      "scene": "S09",
+      "cue": "C09",
+      "anchor": "alternate"
+    },
+    {
+      "scene": "S11",
+      "cue": "C11",
+      "anchor": "primary"
+    },
+    {
+      "scene": "S13",
+      "cue": "C13",
+      "anchor": "primary"
+    },
+    {
+      "scene": "S14",
+      "cue": "C14",
+      "anchor": "alternate"
+    }
+  ]
+}

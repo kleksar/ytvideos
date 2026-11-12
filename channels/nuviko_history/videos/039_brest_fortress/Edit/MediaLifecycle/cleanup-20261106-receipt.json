@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-06",
+  "remote": {
+    "video_id": "1Zxdf06ckhA",
+    "channel_id": "UCbyLx6Rf3iWww4bPZJ2oo2A",
+    "privacy": "public",
+    "upload_status": "processed",
+    "processing_status": "succeeded",
+    "method": "YouTube API upload.py status"
+  },
+  "action": "Finder moved staged owned media to Trash",
+  "trash_item": "~/.Trash/.cleanup_brest_039_20261106",
+  "finder_confirmed_trash_item_exists": true,
+  "finder_size": "not returned",
+  "count": 31944,
+  "logical_bytes": 12724333220,
+  "identity": "SHA-256 and file stat recorded in cleanup-20261106-plan.json; moves in cleanup-20261106-moves.jsonl",
+  "checks": "source paths absent for listed media after staging; destination Trash item existence confirmed via Finder; contents not independently enumerated due to macOS Trash privacy restriction",
+  "external_dependency_scan": "bounded textual search under channels found no outside references to exact episode path; symlinks not followed; no open files observed via lsof at check",
+  "storage": "PARTIAL_TEXT_ARCHIVE",
+  "holds": "media in recoverable Trash; previously moved MP4 in Trash not independently verified; unknown external copies/shared caches excluded",
+  "free_kib_before": 7980332,
+  "free_kib_after": 7700428,
+  "physical_reclaim": "unknown; measured difference includes unrelated activity"
+}

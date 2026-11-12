@@ -1,0 +1,196 @@
+{
+  "version": "v01",
+  "status": "DRAFT_FOR_REVIEW",
+  "duration_seconds": 725.76,
+  "sample_rate_hz": 44100,
+  "channels": 2,
+  "voice_source": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Voice/voice_en_mix_v02.wav",
+  "voice_sha256": "a0f04e547715f0104cdb0874f4b72984d47844546a72ebdf0b6ace52b5f70446",
+  "voice_source_speed": 1.1,
+  "speed_applied_again": false,
+  "voice_gain_change_db": 0.0,
+  "music_source": "Locally synthesized sine/triangle and additive harmonics; no third-party samples or SFX.",
+  "music_score": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Research/CONSULTATION_SOUND_v01.md",
+  "music_rms_target_below_active_voice_db": -24.0,
+  "ducking": {
+    "maximum_reduction_db": -0.72,
+    "attack_seconds": 0.5,
+    "release_seconds": 1.2,
+    "voice_unchanged": true
+  },
+  "phases": [
+    {
+      "label": "Cold War and strategic need",
+      "start_seconds": 0.0,
+      "end_seconds": 176.8,
+      "first_paragraph": 1,
+      "last_paragraph_exclusive": 19,
+      "components_hz_weight_triangle": [
+        [
+          110.0,
+          0.34,
+          false
+        ],
+        [
+          146.83,
+          0.28,
+          false
+        ]
+      ],
+      "synthesis_gain": 0.3,
+      "pan": -0.04,
+      "crossfade_seconds": 12.0
+    },
+    {
+      "label": "Speed/range problem and new design",
+      "start_seconds": 176.8,
+      "end_seconds": 200.64,
+      "first_paragraph": 19,
+      "last_paragraph_exclusive": 23,
+      "components_hz_weight_triangle": [
+        [
+          110.0,
+          0.24,
+          false
+        ],
+        [
+          164.81,
+          0.2,
+          true
+        ]
+      ],
+      "synthesis_gain": 0.23,
+      "pan": 0.0,
+      "crossfade_seconds": 11.919999999999987
+    },
+    {
+      "label": "Variable-sweep wing and mass",
+      "start_seconds": 200.64,
+      "end_seconds": 311.76,
+      "first_paragraph": 23,
+      "last_paragraph_exclusive": 38,
+      "components_hz_weight_triangle": [
+        [
+          146.83,
+          0.28,
+          false
+        ],
+        [
+          220.0,
+          0.18,
+          true
+        ]
+      ],
+      "synthesis_gain": 0.24,
+      "pan": 0.02,
+      "crossfade_seconds": 12.0
+    },
+    {
+      "label": "NK-32, range, refuelling and altitude",
+      "start_seconds": 311.76,
+      "end_seconds": 394.56,
+      "first_paragraph": 38,
+      "last_paragraph_exclusive": 49,
+      "components_hz_weight_triangle": [
+        [
+          130.81,
+          0.24,
+          false
+        ],
+        [
+          164.81,
+          0.2,
+          true
+        ],
+        [
+          196.0,
+          0.08,
+          true
+        ]
+      ],
+      "synthesis_gain": 0.24,
+      "pan": 0.04,
+      "crossfade_seconds": 12.0
+    },
+    {
+      "label": "Cruise missiles and nuclear triad",
+      "start_seconds": 394.56,
+      "end_seconds": 509.68,
+      "first_paragraph": 49,
+      "last_paragraph_exclusive": 65,
+      "components_hz_weight_triangle": [
+        [
+          98.0,
+          0.32,
+          false
+        ],
+        [
+          146.83,
+          0.18,
+          false
+        ]
+      ],
+      "synthesis_gain": 0.2,
+      "pan": -0.03,
+      "crossfade_seconds": 12.0
+    },
+    {
+      "label": "Vulnerability, tests and service",
+      "start_seconds": 509.68,
+      "end_seconds": 653.307,
+      "first_paragraph": 65,
+      "last_paragraph_exclusive": 79,
+      "components_hz_weight_triangle": [
+        [
+          146.83,
+          0.23,
+          false
+        ],
+        [
+          220.0,
+          0.1,
+          true
+        ]
+      ],
+      "synthesis_gain": 0.18,
+      "pan": 0.0,
+      "crossfade_seconds": 12.0
+    },
+    {
+      "label": "Soviet collapse and aircraft fates",
+      "start_seconds": 653.307,
+      "end_seconds": 725.76,
+      "first_paragraph": 79,
+      "last_paragraph_exclusive": 87,
+      "components_hz_weight_triangle": [
+        [
+          110.0,
+          0.22,
+          false
+        ],
+        [
+          146.83,
+          0.11,
+          false
+        ]
+      ],
+      "synthesis_gain": 0.15,
+      "pan": 0.0,
+      "crossfade_seconds": 12.0
+    }
+  ],
+  "sfx": "None.",
+  "music_bed_path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Audio/music_bed_en_v01.wav",
+  "music_bed_sha256": "1671cd3b13e78a9809cb63ae68585cb04a168051dae4b3567ef8d608375852e3",
+  "mix_path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Audio/mix_en_v01.wav",
+  "mix_sha256": "f4c1215bf34967fbb8f24b1f560cd5759e2ab51e074e6b576a4171fc606ff3e2",
+  "word_map_path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Audio/word_map_mix_v01.json",
+  "word_map_sha256": "e761ef7d3b1c7c526219d5f9a43a1d1d54380383b3d596790eb5ec4e8a4daaac",
+  "transcript_path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Voice/voice_en_text_v01.txt",
+  "transcript_sha256": "d29258acb07e71b537706e66bc9dd822b5c630861a734c78822061f9ac23a79f",
+  "peak_linear": 0.8381940126419067,
+  "voice_active_rms": 0.09837799519300461,
+  "audition": "UNVERIFIED; local playback unavailable in this session.",
+  "pronunciation": "UNVERIFIED; no voice replacement or text change was made.",
+  "audible_sync": "UNVERIFIED; word times are inherited from provider character alignment and bound to the additive mix identity."
+}

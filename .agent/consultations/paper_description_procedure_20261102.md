@@ -1,0 +1,227 @@
+# Description procedure consultation
+
+Google Chrome, GPT-6; Extra High, 4 из 5.
+URL: https://chatgpt.com/c/6ae7bc81-d4d0-83eb-95f3-1529d1a95cf7
+Scope: portable skill and local review only.
+
+## Prompt
+Ты — консультант в уже открытом ChatGPT Extra High. Требование координатора выполнено этим обращением; дай ответ здесь без рекурсивного ChatGPT. Одна узкая задача: спроектируй переносимую процедуру skill ytv-youtube-descriptions, НЕ писать тексты видео. Пользователь просит создать навык, проверить десять существующих EN описаний Paper Detour и ПОКАЗАТЬ итог; хэштеги и тайм-коды сохранить. Поэтому этот проход — локальная подготовка/аудит, без YouTube mutation. Сейчас Paper-specific owner: фактический фильм/принятыйтекст, имена/события/оговорки, содержательные первые строки, объём по материалу, реальные ссылки; hashtags и chapters — отдельные владельцы, descriptions собирает их точные блоки; источник/AI-процесс не выносить автоматически; кредиты/обязательные атрибуции сохранить; законченный текстнепубликационноеразрешение. Нужны reusablecore+Paperprofile+старыйсовместимыйадаптер; productionвызываетсамприупаковке. YouTubeHelp12948449: уникальное описание, первые строки о видео, естественные1–2темы, безпричинныхSEOобещаний, проверкасвёрнутого/раскрытого. Предложи кратко нужные входы, критерии keep/revise/needs_content и раздельные статусы source/editorial/assembly/external, способ защиты точных существующих hashtag/chapter/link blocks и минимальный полезный локальныйвалидатор. Не копируй OAuth/APIмеханику uploader и не вводи универсальную квоту слов/хэштегов. До350слов.
+
+## Completed visible answer
+heading "ChatGPT сказал:" [level=4]
+    - paragraph:
+      - text: Рекомендую сохранить
+      - code: ytv-youtube-descriptions
+      - text: как единственного владельца сборки конечного описания. Хэштеги и главы остаются независимыми поставщиками блоков. Навык работает с локальными материалами и не получает полномочий публикации.
+    - heading "1. Структура" [level=2]
+    - list:
+      - paragraph:
+        - code: SKILL.md
+        - text: — переносимая процедура.
+      - paragraph:
+        - code: references/paper-detour.md
+        - text: — English, редакционные требования, фактические ограничения и маршруты к владельцам.
+      - paragraph: Старый Paper-вход — тонкий совместимый адаптер.
+      - paragraph:
+        - code: ytv-paper-production
+        - text: автоматически вызывает навык при упаковке выпуска.
+    - heading "2. Контракт входных данных" [level=2]
+    - table:
+      - rowgroup:
+        - row "Вход Назначение":
+          - columnheader "Вход":
+            - paragraph: Вход
+          - columnheader "Назначение":
+            - paragraph: Назначение
+        - row "video_id, channel_profile Идентификация и настройки канала":
+          - cell "video_id, channel_profile":
+            - paragraph:
+              - code: video_id
+              - text: ","
+              - code: channel_profile
+          - cell "Идентификация и настройки канала":
+            - paragraph: Идентификация и настройки канала
+        - row "final_video / accepted_script Фактическое содержание":
+          - cell "final_video / accepted_script":
+            - paragraph:
+              - code: final_video
+              - text: /
+              - code: accepted_script
+          - cell "Фактическое содержание":
+            - paragraph: Фактическое содержание
+        - row "fact_ledger Имена, события, утверждения, оговорки":
+          - cell "fact_ledger":
+            - paragraph:
+              - code: fact_ledger
+          - cell "Имена, события, утверждения, оговорки":
+            - paragraph: Имена, события, утверждения, оговорки
+        - row "current_description Полный исходный текст":
+          - cell "current_description":
+            - paragraph:
+              - code: current_description
+          - cell "Полный исходный текст":
+            - paragraph: Полный исходный текст
+        - row "hashtag_block Принятый результат hashtags":
+          - cell "hashtag_block":
+            - paragraph:
+              - code: hashtag_block
+          - cell "Принятый результат hashtags":
+            - paragraph: Принятый результат hashtags
+        - row "chapters_block Принятый результат chapters":
+          - cell "chapters_block":
+            - paragraph:
+              - code: chapters_block
+          - cell "Принятый результат chapters":
+            - paragraph: Принятый результат chapters
+        - row "links, credits Проверенные ссылки и обязательные атрибуции":
+          - cell "links, credits":
+            - paragraph:
+              - code: links
+              - text: ","
+              - code: credits
+          - cell "Проверенные ссылки и обязательные атрибуции":
+            - paragraph: Проверенные ссылки и обязательные атрибуции
+        - row "media_version Идентификатор версии материала":
+          - cell "media_version":
+            - paragraph:
+              - code: media_version
+          - cell "Идентификатор версии материала":
+            - paragraph: Идентификатор версии материала
+    - paragraph: Приоритет фактического фильма выше чернового сценария. Если материал и сценарий расходятся, это фиксируется, а не разрешается догадкой.
+    - heading "3. Редакторские решения" [level=2]
+    - list:
+      - paragraph:
+        - generic: KEEP
+        - text: — описание уже точно, содержательно и соответствует фильму. Сохранять без косметической переписки.
+      - paragraph:
+        - generic: REVISE
+        - text: — фактов достаточно, но первые строки слабо объясняют содержание, отсутствует важный контекст, есть повторы или неточности.
+      - paragraph:
+        - generic: NEEDS_CONTENT
+        - text: — не хватает принятого материала, фактической опоры, обязательной атрибуции или ясности относительно версии фильма.
+    - paragraph: "Основные критерии:"
+    - list:
+      - paragraph: Первые строки сразу объясняют, о чём видео.
+      - paragraph: У каждого выпуска уникальное описание.
+      - paragraph: Основные темы обозначены естественно, без поискового спама.
+      - paragraph: Объём определяется содержанием, а не универсальной квотой.
+      - paragraph: Не добавлять автоматически AI-процесс, источники или неподтверждённые ссылки.
+      - paragraph: Сохранять обязательные кредиты и оговорки.
+    - paragraph:
+      - text: "Ориентир:"
+      - link "официальная справка YouTube, Tips for video descriptions":
+        - /url: https://support.google.com/youtube/answer/12948449?hl=en&utm_source=chatgpt.com
+        - generic: официальная справка YouTube, Tips for video descriptions
+      - text: .
+    - heading "4. Защита чужих блоков" [level=2]
+    - paragraph:
+      - code: hashtags
+      - text: ","
+      - code: chapters
+      - text: ","
+      - code: links
+      - text: ","
+      - code: credits
+      - text: — отдельные управляемые блоки.
+    - list:
+      - paragraph: Получать их от соответствующих владельцев.
+      - paragraph: Сохранять точное содержимое, регистр, порядок, URL и переносы строк.
+      - paragraph: Не нормализовать, не переписывать и не удалять автоматически.
+      - paragraph: Перед сборкой и после неё сравнивать контрольные суммы блоков.
+      - paragraph: При конфликте возвращать задачу владельцу блока.
+    - paragraph: Descriptions отвечает за повествовательную часть и расположение блоков, но не за их редакционное содержание.
+    - heading "5. Раздельные статусы" [level=2]
+    - table:
+      - rowgroup:
+        - row "Измерение Значения":
+          - columnheader "Измерение":
+            - paragraph: Измерение
+          - columnheader "Значения":
+            - paragraph: Значения
+        - row "source_status verified, partial, needs_content":
+          - cell "source_status":
+            - paragraph:
+              - code: source_status
+          - cell "verified, partial, needs_content":
+            - paragraph:
+              - code: verified
+              - text: ","
+              - code: partial
+              - text: ","
+              - code: needs_content
+        - row "editorial_status keep, revise, needs_content":
+          - cell "editorial_status":
+            - paragraph:
+              - code: editorial_status
+          - cell "keep, revise, needs_content":
+            - paragraph:
+              - code: keep
+              - text: ","
+              - code: revise
+              - text: ","
+              - code: needs_content
+        - row "assembly_status ready, blocked":
+          - cell "assembly_status":
+            - paragraph:
+              - code: assembly_status
+          - cell "ready, blocked":
+            - paragraph:
+              - code: ready
+              - text: ","
+              - code: blocked
+        - row "external_status not_requested, deferred, applied_verified":
+          - cell "external_status":
+            - paragraph:
+              - code: external_status
+          - cell "not_requested, deferred, applied_verified":
+            - paragraph:
+              - code: not_requested
+              - text: ","
+              - code: deferred
+              - text: ","
+              - code: applied_verified
+    - paragraph:
+      - code: applied_verified
+      - text: устанавливается только после подтверждённого внешнего исполнения другим владельцем.
+    - heading "6. Минимальный локальный валидатор" [level=2]
+    - paragraph: "Автоматизировать:"
+    - list:
+      - paragraph: сравнение исходного и итогового описания;
+      - paragraph: проверку неизменности защищённых блоков;
+      - paragraph: сверку ссылок и обязательных атрибуций;
+      - paragraph: проверку наличия содержательных первых строк;
+      - paragraph: поиск повторов и неподтверждённых утверждений по fact ledger;
+      - paragraph: проверку соответствия версии выпуска.
+    - paragraph:
+      - generic: "Результат аудита десяти Paper Detour:"
+      - text: таблица из десяти решений с обоснованием, затем полный итоговый текст каждого описания, включая сохранённые хэштеги и главы.
+    - paragraph:
+      - generic: "Критерий готовности:"
+      - text: все десять материалов проверены, локальные результаты показаны пользователю, защищённые блоки сохранены. Никаких YouTube mutations в рамках этого прохода.
+    - button "Копировать":
+    - button "Оценить ответ":
+    - button "Прочитать вслух":
+    - button "Поделиться":
+    - button "Сгенерировать ответ заново":
+    - button "Ещё действия":
+    - generic: ChatGPT может допускать ошибки. Проверяйте важную информацию.
+    - button "Прокрутить вниз":
+    - heading "Последний ответ" [level=4]
+    - status
+    - button "Добавить файлы и другое":
+    - textbox "Спросить ChatGPT" [active]:
+      - paragraph: Спросить ChatGPT
+    - button "Выбрать модель ChatGPT":
+      - generic: Уровень усилий рассуждения
+      - generic: Extra High
+    - button "Диктовать":
+    - button "Начать голосовой разговор":
+- status
+- status
+- status
+- status: Ответ готов
+- status
+- status
+
+## Accepted / limitations
+Core/profile/adapter and protected-block validation accepted. A text validator cannot establish factual truth, film identity or substantive first-line quality; these remain documented editorial checks. Generic core must work without this project’s consultation requirement, which belongs to its applicable profile.

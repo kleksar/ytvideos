@@ -1,0 +1,947 @@
+{
+  "source": "v03 AAC stream; evidence applies to v04 only after identical AAC payload and packet timestamps are verified",
+  "model": "local Whisper base.en, no initial prompt, 2 CPU threads",
+  "purpose": "diagnostic recognition, not listening or exact word timing proof",
+  "samples": [
+    {
+      "start_seconds": 2,
+      "reference_words": 28,
+      "recognized_words": 29,
+      "matched_words": 26,
+      "median_abs_start_delta_seconds": 0.163,
+      "asr_text": "1. Fritz Schleper, commander of the German 45th Infantry Division, signed a report on the fighting for Brestlittovsk. By then, the main centers of organized resistance inside the fortress",
+      "matched": [
+        {
+          "word": "Fritz",
+          "alignment_start": 2.72,
+          "asr_start": 2.94,
+          "delta_seconds": 0.22
+        },
+        {
+          "word": "commander",
+          "alignment_start": 3.96,
+          "asr_start": 3.74,
+          "delta_seconds": -0.22
+        },
+        {
+          "word": "of",
+          "alignment_start": 4.28,
+          "asr_start": 4.08,
+          "delta_seconds": -0.2
+        },
+        {
+          "word": "the",
+          "alignment_start": 4.4,
+          "asr_start": 4.36,
+          "delta_seconds": -0.04
+        },
+        {
+          "word": "German",
+          "alignment_start": 4.56,
+          "asr_start": 4.46,
+          "delta_seconds": -0.1
+        },
+        {
+          "word": "45th",
+          "alignment_start": 5.04,
+          "asr_start": 4.74,
+          "delta_seconds": -0.3
+        },
+        {
+          "word": "Infantry",
+          "alignment_start": 5.68,
+          "asr_start": 5.64,
+          "delta_seconds": -0.04
+        },
+        {
+          "word": "Division,",
+          "alignment_start": 6.16,
+          "asr_start": 5.8,
+          "delta_seconds": -0.36
+        },
+        {
+          "word": "signed",
+          "alignment_start": 6.88,
+          "asr_start": 6.82,
+          "delta_seconds": -0.06
+        },
+        {
+          "word": "a",
+          "alignment_start": 7.227,
+          "asr_start": 7.08,
+          "delta_seconds": -0.147
+        },
+        {
+          "word": "report",
+          "alignment_start": 7.28,
+          "asr_start": 7.24,
+          "delta_seconds": -0.04
+        },
+        {
+          "word": "on",
+          "alignment_start": 7.8,
+          "asr_start": 7.54,
+          "delta_seconds": -0.26
+        },
+        {
+          "word": "the",
+          "alignment_start": 7.92,
+          "asr_start": 7.88,
+          "delta_seconds": -0.04
+        },
+        {
+          "word": "fighting",
+          "alignment_start": 8.08,
+          "asr_start": 7.98,
+          "delta_seconds": -0.1
+        },
+        {
+          "word": "for",
+          "alignment_start": 8.48,
+          "asr_start": 8.28,
+          "delta_seconds": -0.2
+        },
+        {
+          "word": "By",
+          "alignment_start": 10.0,
+          "asr_start": 9.88,
+          "delta_seconds": -0.12
+        },
+        {
+          "word": "then,",
+          "alignment_start": 10.24,
+          "asr_start": 10.12,
+          "delta_seconds": -0.12
+        },
+        {
+          "word": "the",
+          "alignment_start": 10.8,
+          "asr_start": 10.66,
+          "delta_seconds": -0.14
+        },
+        {
+          "word": "main",
+          "alignment_start": 11.0,
+          "asr_start": 10.82,
+          "delta_seconds": -0.18
+        },
+        {
+          "word": "centers",
+          "alignment_start": 11.28,
+          "asr_start": 10.98,
+          "delta_seconds": -0.3
+        },
+        {
+          "word": "of",
+          "alignment_start": 11.68,
+          "asr_start": 11.48,
+          "delta_seconds": -0.2
+        },
+        {
+          "word": "organized",
+          "alignment_start": 11.84,
+          "asr_start": 11.72,
+          "delta_seconds": -0.12
+        },
+        {
+          "word": "resistance",
+          "alignment_start": 12.4,
+          "asr_start": 12.04,
+          "delta_seconds": -0.36
+        },
+        {
+          "word": "inside",
+          "alignment_start": 13.04,
+          "asr_start": 12.82,
+          "delta_seconds": -0.22
+        },
+        {
+          "word": "the",
+          "alignment_start": 13.52,
+          "asr_start": 13.14,
+          "delta_seconds": -0.38
+        },
+        {
+          "word": "fortress",
+          "alignment_start": 13.68,
+          "asr_start": 13.56,
+          "delta_seconds": -0.12
+        }
+      ]
+    },
+    {
+      "start_seconds": 300,
+      "reference_words": 29,
+      "recognized_words": 28,
+      "matched_words": 28,
+      "median_abs_start_delta_seconds": 0.4,
+      "asr_text": "People searched for surviving food supplies and collected weapons and ammunition. There was no reliable supply system connecting the scattered groups. Conditions could be very different even between",
+      "matched": [
+        {
+          "word": "People",
+          "alignment_start": 300.907,
+          "asr_start": 300.0,
+          "delta_seconds": -0.907
+        },
+        {
+          "word": "searched",
+          "alignment_start": 301.16,
+          "asr_start": 300.64,
+          "delta_seconds": -0.52
+        },
+        {
+          "word": "for",
+          "alignment_start": 301.52,
+          "asr_start": 301.04,
+          "delta_seconds": -0.48
+        },
+        {
+          "word": "surviving",
+          "alignment_start": 301.68,
+          "asr_start": 301.4,
+          "delta_seconds": -0.28
+        },
+        {
+          "word": "food",
+          "alignment_start": 302.24,
+          "asr_start": 301.84,
+          "delta_seconds": -0.4
+        },
+        {
+          "word": "supplies",
+          "alignment_start": 302.48,
+          "asr_start": 302.18,
+          "delta_seconds": -0.3
+        },
+        {
+          "word": "and",
+          "alignment_start": 303.12,
+          "asr_start": 302.68,
+          "delta_seconds": -0.44
+        },
+        {
+          "word": "collected",
+          "alignment_start": 303.28,
+          "asr_start": 303.02,
+          "delta_seconds": -0.26
+        },
+        {
+          "word": "weapons",
+          "alignment_start": 303.96,
+          "asr_start": 303.32,
+          "delta_seconds": -0.64
+        },
+        {
+          "word": "and",
+          "alignment_start": 304.24,
+          "asr_start": 303.84,
+          "delta_seconds": -0.4
+        },
+        {
+          "word": "ammunition.",
+          "alignment_start": 304.44,
+          "asr_start": 304.16,
+          "delta_seconds": -0.28
+        },
+        {
+          "word": "There",
+          "alignment_start": 305.36,
+          "asr_start": 305.3,
+          "delta_seconds": -0.06
+        },
+        {
+          "word": "was",
+          "alignment_start": 305.52,
+          "asr_start": 305.3,
+          "delta_seconds": -0.22
+        },
+        {
+          "word": "no",
+          "alignment_start": 305.88,
+          "asr_start": 305.42,
+          "delta_seconds": -0.46
+        },
+        {
+          "word": "reliable",
+          "alignment_start": 306.08,
+          "asr_start": 305.74,
+          "delta_seconds": -0.34
+        },
+        {
+          "word": "supply",
+          "alignment_start": 306.76,
+          "asr_start": 306.12,
+          "delta_seconds": -0.64
+        },
+        {
+          "word": "system",
+          "alignment_start": 307.04,
+          "asr_start": 306.6,
+          "delta_seconds": -0.44
+        },
+        {
+          "word": "connecting",
+          "alignment_start": 307.52,
+          "asr_start": 307.22,
+          "delta_seconds": -0.3
+        },
+        {
+          "word": "the",
+          "alignment_start": 308.08,
+          "asr_start": 307.6,
+          "delta_seconds": -0.48
+        },
+        {
+          "word": "scattered",
+          "alignment_start": 308.24,
+          "asr_start": 307.96,
+          "delta_seconds": -0.28
+        },
+        {
+          "word": "groups.",
+          "alignment_start": 308.64,
+          "asr_start": 308.26,
+          "delta_seconds": -0.38
+        },
+        {
+          "word": "Conditions",
+          "alignment_start": 309.28,
+          "asr_start": 309.04,
+          "delta_seconds": -0.24
+        },
+        {
+          "word": "could",
+          "alignment_start": 310.0,
+          "asr_start": 309.36,
+          "delta_seconds": -0.64
+        },
+        {
+          "word": "be",
+          "alignment_start": 310.2,
+          "asr_start": 309.84,
+          "delta_seconds": -0.36
+        },
+        {
+          "word": "very",
+          "alignment_start": 310.4,
+          "asr_start": 310.02,
+          "delta_seconds": -0.38
+        },
+        {
+          "word": "different",
+          "alignment_start": 310.8,
+          "asr_start": 310.36,
+          "delta_seconds": -0.44
+        },
+        {
+          "word": "even",
+          "alignment_start": 311.36,
+          "asr_start": 310.86,
+          "delta_seconds": -0.5
+        },
+        {
+          "word": "between",
+          "alignment_start": 311.8,
+          "asr_start": 311.28,
+          "delta_seconds": -0.52
+        }
+      ]
+    },
+    {
+      "start_seconds": 550,
+      "reference_words": 60,
+      "recognized_words": 59,
+      "matched_words": 59,
+      "median_abs_start_delta_seconds": 0.4,
+      "asr_text": "that even the commander of the division attacking them felt compelled to acknowledge it. After the war, an inscription was discovered inside the ruined fortress. Its words would become one of the most famous testimonies of the defense. I am dying, but I will not surrender. Farewell, motherland. Beside those words was a date, July 20, 1941. The inscription",
+      "matched": [
+        {
+          "word": "that",
+          "alignment_start": 550.48,
+          "asr_start": 550.0,
+          "delta_seconds": -0.48
+        },
+        {
+          "word": "even",
+          "alignment_start": 550.8,
+          "asr_start": 550.34,
+          "delta_seconds": -0.46
+        },
+        {
+          "word": "the",
+          "alignment_start": 551.04,
+          "asr_start": 550.6,
+          "delta_seconds": -0.44
+        },
+        {
+          "word": "commander",
+          "alignment_start": 551.32,
+          "asr_start": 550.82,
+          "delta_seconds": -0.5
+        },
+        {
+          "word": "of",
+          "alignment_start": 551.68,
+          "asr_start": 551.14,
+          "delta_seconds": -0.54
+        },
+        {
+          "word": "the",
+          "alignment_start": 551.8,
+          "asr_start": 551.5,
+          "delta_seconds": -0.3
+        },
+        {
+          "word": "division",
+          "alignment_start": 552.04,
+          "asr_start": 551.58,
+          "delta_seconds": -0.46
+        },
+        {
+          "word": "attacking",
+          "alignment_start": 552.32,
+          "asr_start": 551.94,
+          "delta_seconds": -0.38
+        },
+        {
+          "word": "them",
+          "alignment_start": 552.88,
+          "asr_start": 552.38,
+          "delta_seconds": -0.5
+        },
+        {
+          "word": "felt",
+          "alignment_start": 553.2,
+          "asr_start": 552.72,
+          "delta_seconds": -0.48
+        },
+        {
+          "word": "compelled",
+          "alignment_start": 553.44,
+          "asr_start": 552.98,
+          "delta_seconds": -0.46
+        },
+        {
+          "word": "to",
+          "alignment_start": 554.04,
+          "asr_start": 553.44,
+          "delta_seconds": -0.6
+        },
+        {
+          "word": "acknowledge",
+          "alignment_start": 554.16,
+          "asr_start": 553.84,
+          "delta_seconds": -0.32
+        },
+        {
+          "word": "it.",
+          "alignment_start": 554.72,
+          "asr_start": 554.2,
+          "delta_seconds": -0.52
+        },
+        {
+          "word": "After",
+          "alignment_start": 555.28,
+          "asr_start": 554.98,
+          "delta_seconds": -0.3
+        },
+        {
+          "word": "the",
+          "alignment_start": 555.64,
+          "asr_start": 555.28,
+          "delta_seconds": -0.36
+        },
+        {
+          "word": "war,",
+          "alignment_start": 555.76,
+          "asr_start": 555.44,
+          "delta_seconds": -0.32
+        },
+        {
+          "word": "an",
+          "alignment_start": 556.36,
+          "asr_start": 556.14,
+          "delta_seconds": -0.22
+        },
+        {
+          "word": "inscription",
+          "alignment_start": 556.48,
+          "asr_start": 556.16,
+          "delta_seconds": -0.32
+        },
+        {
+          "word": "was",
+          "alignment_start": 557.12,
+          "asr_start": 556.46,
+          "delta_seconds": -0.66
+        },
+        {
+          "word": "discovered",
+          "alignment_start": 557.28,
+          "asr_start": 556.92,
+          "delta_seconds": -0.36
+        },
+        {
+          "word": "inside",
+          "alignment_start": 557.84,
+          "asr_start": 557.32,
+          "delta_seconds": -0.52
+        },
+        {
+          "word": "the",
+          "alignment_start": 558.48,
+          "asr_start": 557.74,
+          "delta_seconds": -0.74
+        },
+        {
+          "word": "ruined",
+          "alignment_start": 558.56,
+          "asr_start": 558.26,
+          "delta_seconds": -0.3
+        },
+        {
+          "word": "fortress.",
+          "alignment_start": 558.96,
+          "asr_start": 558.48,
+          "delta_seconds": -0.48
+        },
+        {
+          "word": "Its",
+          "alignment_start": 559.84,
+          "asr_start": 559.6,
+          "delta_seconds": -0.24
+        },
+        {
+          "word": "words",
+          "alignment_start": 560.16,
+          "asr_start": 559.76,
+          "delta_seconds": -0.4
+        },
+        {
+          "word": "would",
+          "alignment_start": 560.56,
+          "asr_start": 560.02,
+          "delta_seconds": -0.54
+        },
+        {
+          "word": "become",
+          "alignment_start": 560.76,
+          "asr_start": 560.36,
+          "delta_seconds": -0.4
+        },
+        {
+          "word": "one",
+          "alignment_start": 561.08,
+          "asr_start": 560.64,
+          "delta_seconds": -0.44
+        },
+        {
+          "word": "of",
+          "alignment_start": 561.2,
+          "asr_start": 560.9,
+          "delta_seconds": -0.3
+        },
+        {
+          "word": "the",
+          "alignment_start": 561.32,
+          "asr_start": 561.0,
+          "delta_seconds": -0.32
+        },
+        {
+          "word": "most",
+          "alignment_start": 561.44,
+          "asr_start": 561.1,
+          "delta_seconds": -0.34
+        },
+        {
+          "word": "famous",
+          "alignment_start": 561.84,
+          "asr_start": 561.3,
+          "delta_seconds": -0.54
+        },
+        {
+          "word": "testimonies",
+          "alignment_start": 562.24,
+          "asr_start": 561.8,
+          "delta_seconds": -0.44
+        },
+        {
+          "word": "of",
+          "alignment_start": 562.96,
+          "asr_start": 562.32,
+          "delta_seconds": -0.64
+        },
+        {
+          "word": "the",
+          "alignment_start": 563.08,
+          "asr_start": 562.76,
+          "delta_seconds": -0.32
+        },
+        {
+          "word": "defense:",
+          "alignment_start": 563.4,
+          "asr_start": 562.88,
+          "delta_seconds": -0.52
+        },
+        {
+          "word": "I",
+          "alignment_start": 564.16,
+          "asr_start": 563.98,
+          "delta_seconds": -0.18
+        },
+        {
+          "word": "am",
+          "alignment_start": 564.52,
+          "asr_start": 564.12,
+          "delta_seconds": -0.4
+        },
+        {
+          "word": "dying,",
+          "alignment_start": 564.68,
+          "asr_start": 564.24,
+          "delta_seconds": -0.44
+        },
+        {
+          "word": "but",
+          "alignment_start": 565.44,
+          "asr_start": 564.6,
+          "delta_seconds": -0.84
+        },
+        {
+          "word": "I",
+          "alignment_start": 565.6,
+          "asr_start": 565.26,
+          "delta_seconds": -0.34
+        },
+        {
+          "word": "will",
+          "alignment_start": 565.76,
+          "asr_start": 565.4,
+          "delta_seconds": -0.36
+        },
+        {
+          "word": "not",
+          "alignment_start": 566.08,
+          "asr_start": 565.58,
+          "delta_seconds": -0.5
+        },
+        {
+          "word": "surrender!",
+          "alignment_start": 566.4,
+          "asr_start": 565.88,
+          "delta_seconds": -0.52
+        },
+        {
+          "word": "Farewell,",
+          "alignment_start": 567.44,
+          "asr_start": 567.1,
+          "delta_seconds": -0.34
+        },
+        {
+          "word": "Motherland.",
+          "alignment_start": 568.16,
+          "asr_start": 567.82,
+          "delta_seconds": -0.34
+        },
+        {
+          "word": "Beside",
+          "alignment_start": 569.36,
+          "asr_start": 569.0,
+          "delta_seconds": -0.36
+        },
+        {
+          "word": "those",
+          "alignment_start": 569.84,
+          "asr_start": 569.44,
+          "delta_seconds": -0.4
+        },
+        {
+          "word": "words",
+          "alignment_start": 570.08,
+          "asr_start": 569.66,
+          "delta_seconds": -0.42
+        },
+        {
+          "word": "was",
+          "alignment_start": 570.64,
+          "asr_start": 570.02,
+          "delta_seconds": -0.62
+        },
+        {
+          "word": "a",
+          "alignment_start": 570.84,
+          "asr_start": 570.48,
+          "delta_seconds": -0.36
+        },
+        {
+          "word": "date.",
+          "alignment_start": 570.96,
+          "asr_start": 570.62,
+          "delta_seconds": -0.34
+        },
+        {
+          "word": "July",
+          "alignment_start": 571.68,
+          "asr_start": 571.44,
+          "delta_seconds": -0.24
+        },
+        {
+          "word": "20,",
+          "alignment_start": 572.16,
+          "asr_start": 571.64,
+          "delta_seconds": -0.52
+        },
+        {
+          "word": "1941.",
+          "alignment_start": 572.96,
+          "asr_start": 572.64,
+          "delta_seconds": -0.32
+        },
+        {
+          "word": "The",
+          "alignment_start": 574.56,
+          "asr_start": 573.32,
+          "delta_seconds": -1.24
+        },
+        {
+          "word": "inscription",
+          "alignment_start": 574.64,
+          "asr_start": 574.36,
+          "delta_seconds": -0.28
+        }
+      ]
+    },
+    {
+      "start_seconds": 597,
+      "reference_words": 39,
+      "recognized_words": 38,
+      "matched_words": 37,
+      "median_abs_start_delta_seconds": 0.4,
+      "asr_text": "deserves only what he himself wanted to say. The German general left behind a report on the fighting. An unknown defender left a few words on a wall. I am dying, but I will not surrender. Farewell, motherland.",
+      "matched": [
+        {
+          "word": "only",
+          "alignment_start": 597.76,
+          "asr_start": 597.22,
+          "delta_seconds": -0.54
+        },
+        {
+          "word": "what",
+          "alignment_start": 598.16,
+          "asr_start": 597.7,
+          "delta_seconds": -0.46
+        },
+        {
+          "word": "he",
+          "alignment_start": 598.4,
+          "asr_start": 598.0,
+          "delta_seconds": -0.4
+        },
+        {
+          "word": "himself",
+          "alignment_start": 598.64,
+          "asr_start": 598.24,
+          "delta_seconds": -0.4
+        },
+        {
+          "word": "wanted",
+          "alignment_start": 599.36,
+          "asr_start": 598.72,
+          "delta_seconds": -0.64
+        },
+        {
+          "word": "to",
+          "alignment_start": 599.68,
+          "asr_start": 599.24,
+          "delta_seconds": -0.44
+        },
+        {
+          "word": "say.",
+          "alignment_start": 599.84,
+          "asr_start": 599.44,
+          "delta_seconds": -0.4
+        },
+        {
+          "word": "The",
+          "alignment_start": 600.56,
+          "asr_start": 600.34,
+          "delta_seconds": -0.22
+        },
+        {
+          "word": "German",
+          "alignment_start": 600.8,
+          "asr_start": 600.42,
+          "delta_seconds": -0.38
+        },
+        {
+          "word": "general",
+          "alignment_start": 601.2,
+          "asr_start": 600.7,
+          "delta_seconds": -0.5
+        },
+        {
+          "word": "left",
+          "alignment_start": 601.68,
+          "asr_start": 601.22,
+          "delta_seconds": -0.46
+        },
+        {
+          "word": "behind",
+          "alignment_start": 601.92,
+          "asr_start": 601.5,
+          "delta_seconds": -0.42
+        },
+        {
+          "word": "a",
+          "alignment_start": 602.32,
+          "asr_start": 601.9,
+          "delta_seconds": -0.42
+        },
+        {
+          "word": "report",
+          "alignment_start": 602.4,
+          "asr_start": 602.08,
+          "delta_seconds": -0.32
+        },
+        {
+          "word": "on",
+          "alignment_start": 602.92,
+          "asr_start": 602.42,
+          "delta_seconds": -0.5
+        },
+        {
+          "word": "the",
+          "alignment_start": 603.04,
+          "asr_start": 602.72,
+          "delta_seconds": -0.32
+        },
+        {
+          "word": "fighting.",
+          "alignment_start": 603.2,
+          "asr_start": 602.82,
+          "delta_seconds": -0.38
+        },
+        {
+          "word": "An",
+          "alignment_start": 603.92,
+          "asr_start": 603.76,
+          "delta_seconds": -0.16
+        },
+        {
+          "word": "unknown",
+          "alignment_start": 604.16,
+          "asr_start": 603.78,
+          "delta_seconds": -0.38
+        },
+        {
+          "word": "defender",
+          "alignment_start": 604.64,
+          "asr_start": 604.08,
+          "delta_seconds": -0.56
+        },
+        {
+          "word": "left",
+          "alignment_start": 605.44,
+          "asr_start": 604.62,
+          "delta_seconds": -0.82
+        },
+        {
+          "word": "a",
+          "alignment_start": 605.68,
+          "asr_start": 605.26,
+          "delta_seconds": -0.42
+        },
+        {
+          "word": "few",
+          "alignment_start": 605.84,
+          "asr_start": 605.44,
+          "delta_seconds": -0.4
+        },
+        {
+          "word": "words",
+          "alignment_start": 606.16,
+          "asr_start": 605.7,
+          "delta_seconds": -0.46
+        },
+        {
+          "word": "on",
+          "alignment_start": 606.6,
+          "asr_start": 606.06,
+          "delta_seconds": -0.54
+        },
+        {
+          "word": "a",
+          "alignment_start": 606.72,
+          "asr_start": 606.38,
+          "delta_seconds": -0.34
+        },
+        {
+          "word": "wall.",
+          "alignment_start": 606.8,
+          "asr_start": 606.48,
+          "delta_seconds": -0.32
+        },
+        {
+          "word": "I",
+          "alignment_start": 607.68,
+          "asr_start": 607.46,
+          "delta_seconds": -0.22
+        },
+        {
+          "word": "am",
+          "alignment_start": 608.04,
+          "asr_start": 607.64,
+          "delta_seconds": -0.4
+        },
+        {
+          "word": "dying,",
+          "alignment_start": 608.2,
+          "asr_start": 607.76,
+          "delta_seconds": -0.44
+        },
+        {
+          "word": "but",
+          "alignment_start": 608.96,
+          "asr_start": 608.12,
+          "delta_seconds": -0.84
+        },
+        {
+          "word": "I",
+          "alignment_start": 609.12,
+          "asr_start": 608.78,
+          "delta_seconds": -0.34
+        },
+        {
+          "word": "will",
+          "alignment_start": 609.28,
+          "asr_start": 608.92,
+          "delta_seconds": -0.36
+        },
+        {
+          "word": "not",
+          "alignment_start": 609.52,
+          "asr_start": 609.1,
+          "delta_seconds": -0.42
+        },
+        {
+          "word": "surrender!",
+          "alignment_start": 609.92,
+          "asr_start": 609.4,
+          "delta_seconds": -0.52
+        },
+        {
+          "word": "Farewell,",
+          "alignment_start": 610.96,
+          "asr_start": 610.7,
+          "delta_seconds": -0.26
+        },
+        {
+          "word": "Motherland.",
+          "alignment_start": 611.68,
+          "asr_start": 611.36,
+          "delta_seconds": -0.32
+        }
+      ]
+    }
+  ]
+}

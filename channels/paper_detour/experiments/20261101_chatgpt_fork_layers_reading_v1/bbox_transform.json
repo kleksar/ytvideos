@@ -1,0 +1,27 @@
+{
+  "test_only": true,
+  "source": "MG_generated_candidate.png",
+  "source_bbox_alpha128": [
+    160,
+    335,
+    941,
+    1537
+  ],
+  "master_bbox_approx": [
+    272,
+    392,
+    941,
+    1455
+  ],
+  "uniform_scale": 0.8843594009983361,
+  "translation": [
+    130.50249584026622,
+    95.73960066555742
+  ],
+  "canvas": [
+    941,
+    1672
+  ],
+  "output": "MG_bbox_uniform_TEST.png",
+  "method": "ChatGPT Extra High proposal: scale from height; keep proportions, preserve full canvas; no local warping"
+}

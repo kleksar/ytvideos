@@ -1,0 +1,998 @@
+{
+  "status": "PROVISIONAL_REQUIRES_AUDIBLE_ALIGNMENT_REVIEW",
+  "source_audio": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Source/Short/v01/black_death_short_mix_v01.wav",
+  "source_audio_sha256": "4bc82f4bcf9a304bbf5d8d935a9c727ed07db2f93ee48ceb381e6384eb7d7b89",
+  "source_alignment": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Source/Recovered/word_alignment_from_youtube_captions_v01.json",
+  "source_alignment_status": "PROVISIONAL_REQUIRES_AUDIBLE_ALIGNMENT_REVIEW",
+  "source_vtt_sha256": "5ace70a27568506ac5ba7f2546cabfa219039bbada5d0d05a8650ab5c6c322fe",
+  "edit_audio": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Source/Short/v03/black_death_short_mix_v03.wav",
+  "source_word_map": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Source/Short/v01/word_times_v01.json",
+  "source_word_map_sha256": "79cae13e3f4d6fc33253851bb87fe242eb893409bcb95d0c9568ae0e1a25cb2a",
+  "applied_speed": 1.1,
+  "speed_application_count": 1,
+  "timing_conform": "divide source edit word times by 1.10 exactly once",
+  "segments": [
+    {
+      "source_in": 232.85,
+      "source_out": 239.292,
+      "output_in": 0.0,
+      "duration": 5.856364
+    },
+    {
+      "source_in": 285.77,
+      "source_out": 298.094,
+      "output_in": 5.856364,
+      "duration": 11.203636
+    },
+    {
+      "source_in": 302.21,
+      "source_out": 318.294,
+      "output_in": 17.06,
+      "duration": 14.621818
+    }
+  ],
+  "expected_duration_seconds": 31.681818,
+  "words": [
+    {
+      "text": "When",
+      "start": 0.001818,
+      "end": 0.110909,
+      "source_start": 232.852,
+      "source_end": 232.972,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "the",
+      "start": 0.110909,
+      "end": 0.183636,
+      "source_start": 232.972,
+      "source_end": 233.052,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "sick",
+      "start": 0.183636,
+      "end": 0.438182,
+      "source_start": 233.052,
+      "source_end": 233.332,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "person",
+      "start": 0.438182,
+      "end": 0.729091,
+      "source_start": 233.332,
+      "source_end": 233.652,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "was",
+      "start": 0.729091,
+      "end": 0.838182,
+      "source_start": 233.652,
+      "source_end": 233.772,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "a",
+      "start": 0.838182,
+      "end": 0.910909,
+      "source_start": 233.772,
+      "source_end": 233.852,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "stranger,",
+      "start": 0.910909,
+      "end": 1.529091,
+      "source_start": 233.852,
+      "source_end": 234.53199999999998,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "you",
+      "start": 1.529091,
+      "end": 1.592727,
+      "source_start": 234.53199999999998,
+      "source_end": 234.602,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "could",
+      "start": 1.601818,
+      "end": 1.747273,
+      "source_start": 234.612,
+      "source_end": 234.772,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "step",
+      "start": 1.747273,
+      "end": 1.965455,
+      "source_start": 234.772,
+      "source_end": 235.012,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "away.",
+      "start": 1.965455,
+      "end": 2.692727,
+      "source_start": 235.012,
+      "source_end": 235.812,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "But",
+      "start": 2.692727,
+      "end": 2.874545,
+      "source_start": 235.812,
+      "source_end": 236.012,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "what",
+      "start": 2.874545,
+      "end": 3.02,
+      "source_start": 236.012,
+      "source_end": 236.172,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "could",
+      "start": 3.02,
+      "end": 3.165455,
+      "source_start": 236.172,
+      "source_end": 236.332,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "you",
+      "start": 3.165455,
+      "end": 3.274545,
+      "source_start": 236.332,
+      "source_end": 236.452,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "do",
+      "start": 3.274545,
+      "end": 3.52,
+      "source_start": 236.452,
+      "source_end": 236.722,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "when",
+      "start": 3.529091,
+      "end": 3.638182,
+      "source_start": 236.732,
+      "source_end": 236.852,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "the",
+      "start": 3.638182,
+      "end": 3.747273,
+      "source_start": 236.852,
+      "source_end": 236.972,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "person",
+      "start": 3.747273,
+      "end": 4.074545,
+      "source_start": 236.972,
+      "source_end": 237.332,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "who",
+      "start": 4.074545,
+      "end": 4.22,
+      "source_start": 237.332,
+      "source_end": 237.492,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "fell",
+      "start": 4.22,
+      "end": 4.510909,
+      "source_start": 237.492,
+      "source_end": 237.812,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "ill",
+      "start": 4.510909,
+      "end": 4.874545,
+      "source_start": 237.812,
+      "source_end": 238.212,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "lived",
+      "start": 4.874545,
+      "end": 5.165455,
+      "source_start": 238.212,
+      "source_end": 238.53199999999998,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "with",
+      "start": 5.165455,
+      "end": 5.301818,
+      "source_start": 238.53199999999998,
+      "source_end": 238.68200000000002,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "you?",
+      "start": 5.310909,
+      "end": 5.856364,
+      "source_start": 238.692,
+      "source_end": 239.292,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "A",
+      "start": 5.86,
+      "end": 5.932727,
+      "source_start": 285.774,
+      "source_end": 285.854,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "home,",
+      "start": 5.932727,
+      "end": 6.469091,
+      "source_start": 285.854,
+      "source_end": 286.444,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "where",
+      "start": 6.478182,
+      "end": 6.587273,
+      "source_start": 286.454,
+      "source_end": 286.574,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "a",
+      "start": 6.587273,
+      "end": 6.66,
+      "source_start": 286.574,
+      "source_end": 286.654,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "person",
+      "start": 6.66,
+      "end": 6.987273,
+      "source_start": 286.654,
+      "source_end": 287.014,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "should",
+      "start": 6.987273,
+      "end": 7.132727,
+      "source_start": 287.014,
+      "source_end": 287.174,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "have",
+      "start": 7.132727,
+      "end": 7.241818,
+      "source_start": 287.174,
+      "source_end": 287.294,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "been",
+      "start": 7.241818,
+      "end": 7.387273,
+      "source_start": 287.294,
+      "source_end": 287.454,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "cared",
+      "start": 7.387273,
+      "end": 7.669091,
+      "source_start": 287.454,
+      "source_end": 287.764,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "for,",
+      "start": 7.678182,
+      "end": 8.078182,
+      "source_start": 287.774,
+      "source_end": 288.214,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "could",
+      "start": 8.078182,
+      "end": 8.223636,
+      "source_start": 288.214,
+      "source_end": 288.374,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "become",
+      "start": 8.223636,
+      "end": 8.478182,
+      "source_start": 288.374,
+      "source_end": 288.654,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "a",
+      "start": 8.478182,
+      "end": 8.514545,
+      "source_start": 288.654,
+      "source_end": 288.694,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "place",
+      "start": 8.514545,
+      "end": 8.805455,
+      "source_start": 288.694,
+      "source_end": 289.014,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "of",
+      "start": 8.805455,
+      "end": 8.950909,
+      "source_start": 289.014,
+      "source_end": 289.174,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "isolation.",
+      "start": 8.950909,
+      "end": 9.850909,
+      "source_start": 289.174,
+      "source_end": 290.164,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "Not",
+      "start": 9.86,
+      "end": 10.078182,
+      "source_start": 290.174,
+      "source_end": 290.414,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "everyone",
+      "start": 10.078182,
+      "end": 10.478182,
+      "source_start": 290.414,
+      "source_end": 290.854,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "had",
+      "start": 10.478182,
+      "end": 10.587273,
+      "source_start": 290.854,
+      "source_end": 290.974,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "the",
+      "start": 10.587273,
+      "end": 10.696364,
+      "source_start": 290.974,
+      "source_end": 291.094,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "means",
+      "start": 10.696364,
+      "end": 10.950909,
+      "source_start": 291.094,
+      "source_end": 291.374,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "to",
+      "start": 10.950909,
+      "end": 11.096364,
+      "source_start": 291.374,
+      "source_end": 291.534,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "leave.",
+      "start": 11.096364,
+      "end": 11.669091,
+      "source_start": 291.534,
+      "source_end": 292.164,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "Waiting",
+      "start": 11.678182,
+      "end": 12.005455,
+      "source_start": 292.174,
+      "source_end": 292.534,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "out",
+      "start": 12.005455,
+      "end": 12.114545,
+      "source_start": 292.534,
+      "source_end": 292.654,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "the",
+      "start": 12.114545,
+      "end": 12.187273,
+      "source_start": 292.654,
+      "source_end": 292.734,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "disaster",
+      "start": 12.187273,
+      "end": 12.623636,
+      "source_start": 292.734,
+      "source_end": 293.214,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "in",
+      "start": 12.623636,
+      "end": 12.696364,
+      "source_start": 293.214,
+      "source_end": 293.294,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "the",
+      "start": 12.696364,
+      "end": 12.796364,
+      "source_start": 293.294,
+      "source_end": 293.404,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "countryside",
+      "start": 12.805455,
+      "end": 13.423636,
+      "source_start": 293.414,
+      "source_end": 294.094,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "required",
+      "start": 13.423636,
+      "end": 13.823636,
+      "source_start": 294.094,
+      "source_end": 294.534,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "money,",
+      "start": 13.823636,
+      "end": 14.26,
+      "source_start": 294.534,
+      "source_end": 295.014,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "shelter,",
+      "start": 14.26,
+      "end": 14.878182,
+      "source_start": 295.014,
+      "source_end": 295.694,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "and",
+      "start": 14.878182,
+      "end": 15.087273,
+      "source_start": 295.694,
+      "source_end": 295.924,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "people",
+      "start": 15.096364,
+      "end": 15.46,
+      "source_start": 295.93399999999997,
+      "source_end": 296.334,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "to",
+      "start": 15.46,
+      "end": 15.569091,
+      "source_start": 296.334,
+      "source_end": 296.454,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "provide",
+      "start": 15.569091,
+      "end": 15.969091,
+      "source_start": 296.454,
+      "source_end": 296.894,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "for",
+      "start": 15.969091,
+      "end": 16.078182,
+      "source_start": 296.894,
+      "source_end": 297.014,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "everyday",
+      "start": 16.078182,
+      "end": 16.405455,
+      "source_start": 297.014,
+      "source_end": 297.374,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "life.",
+      "start": 16.405455,
+      "end": 17.06,
+      "source_start": 297.374,
+      "source_end": 298.094,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "But",
+      "start": 17.063636,
+      "end": 17.163636,
+      "source_start": 302.214,
+      "source_end": 302.324,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "if",
+      "start": 17.172727,
+      "end": 17.318182,
+      "source_start": 302.334,
+      "source_end": 302.494,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "everyone",
+      "start": 17.318182,
+      "end": 17.754545,
+      "source_start": 302.494,
+      "source_end": 302.974,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "leaves,",
+      "start": 17.754545,
+      "end": 18.263636,
+      "source_start": 302.974,
+      "source_end": 303.534,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "who",
+      "start": 18.263636,
+      "end": 18.445455,
+      "source_start": 303.534,
+      "source_end": 303.734,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "will",
+      "start": 18.445455,
+      "end": 18.554545,
+      "source_start": 303.734,
+      "source_end": 303.854,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "bring",
+      "start": 18.554545,
+      "end": 18.772727,
+      "source_start": 303.854,
+      "source_end": 304.094,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "water",
+      "start": 18.772727,
+      "end": 19.054545,
+      "source_start": 304.094,
+      "source_end": 304.404,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "to",
+      "start": 19.063636,
+      "end": 19.172727,
+      "source_start": 304.414,
+      "source_end": 304.534,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "the",
+      "start": 19.172727,
+      "end": 19.245455,
+      "source_start": 304.534,
+      "source_end": 304.614,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "sick?",
+      "start": 19.245455,
+      "end": 19.827273,
+      "source_start": 304.614,
+      "source_end": 305.254,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "Who",
+      "start": 19.827273,
+      "end": 19.972727,
+      "source_start": 305.254,
+      "source_end": 305.414,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "will",
+      "start": 19.972727,
+      "end": 20.118182,
+      "source_start": 305.414,
+      "source_end": 305.574,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "bake",
+      "start": 20.118182,
+      "end": 20.336364,
+      "source_start": 305.574,
+      "source_end": 305.814,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "bread?",
+      "start": 20.336364,
+      "end": 20.918182,
+      "source_start": 305.814,
+      "source_end": 306.454,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "Who",
+      "start": 20.918182,
+      "end": 21.054545,
+      "source_start": 306.454,
+      "source_end": 306.604,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "will",
+      "start": 21.063636,
+      "end": 21.209091,
+      "source_start": 306.614,
+      "source_end": 306.774,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "take",
+      "start": 21.209091,
+      "end": 21.427273,
+      "source_start": 306.774,
+      "source_end": 307.014,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "away",
+      "start": 21.427273,
+      "end": 21.645455,
+      "source_start": 307.014,
+      "source_end": 307.254,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "the",
+      "start": 21.645455,
+      "end": 21.754545,
+      "source_start": 307.254,
+      "source_end": 307.374,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "dead?",
+      "start": 21.754545,
+      "end": 22.372727,
+      "source_start": 307.374,
+      "source_end": 308.054,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "This",
+      "start": 22.372727,
+      "end": 22.7,
+      "source_start": 308.054,
+      "source_end": 308.414,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "was",
+      "start": 22.7,
+      "end": 22.845455,
+      "source_start": 308.414,
+      "source_end": 308.574,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "one",
+      "start": 22.845455,
+      "end": 22.990909,
+      "source_start": 308.574,
+      "source_end": 308.734,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "of",
+      "start": 22.990909,
+      "end": 23.054545,
+      "source_start": 308.734,
+      "source_end": 308.804,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "the",
+      "start": 23.063636,
+      "end": 23.172727,
+      "source_start": 308.814,
+      "source_end": 308.934,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "epidemic's",
+      "start": 23.172727,
+      "end": 23.681818,
+      "source_start": 308.934,
+      "source_end": 309.494,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "hardest",
+      "start": 23.681818,
+      "end": 24.118182,
+      "source_start": 309.494,
+      "source_end": 309.974,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "contradictions.",
+      "start": 24.118182,
+      "end": 25.054545,
+      "source_start": 309.974,
+      "source_end": 311.004,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "Staying",
+      "start": 25.063636,
+      "end": 25.390909,
+      "source_start": 311.014,
+      "source_end": 311.374,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "away",
+      "start": 25.390909,
+      "end": 25.681818,
+      "source_start": 311.374,
+      "source_end": 311.694,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "from",
+      "start": 25.681818,
+      "end": 25.863636,
+      "source_start": 311.694,
+      "source_end": 311.894,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "the",
+      "start": 25.863636,
+      "end": 25.936364,
+      "source_start": 311.894,
+      "source_end": 311.974,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "sick",
+      "start": 25.936364,
+      "end": 26.263636,
+      "source_start": 311.974,
+      "source_end": 312.334,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "could",
+      "start": 26.263636,
+      "end": 26.481818,
+      "source_start": 312.334,
+      "source_end": 312.574,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "reduce",
+      "start": 26.481818,
+      "end": 26.8,
+      "source_start": 312.574,
+      "source_end": 312.924,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "the",
+      "start": 26.809091,
+      "end": 26.918182,
+      "source_start": 312.934,
+      "source_end": 313.054,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "danger",
+      "start": 26.918182,
+      "end": 27.245455,
+      "source_start": 313.054,
+      "source_end": 313.414,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "to",
+      "start": 27.245455,
+      "end": 27.354545,
+      "source_start": 313.414,
+      "source_end": 313.534,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "an",
+      "start": 27.354545,
+      "end": 27.463636,
+      "source_start": 313.534,
+      "source_end": 313.654,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "individual,",
+      "start": 27.463636,
+      "end": 28.154545,
+      "source_start": 313.654,
+      "source_end": 314.414,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "yet",
+      "start": 28.154545,
+      "end": 28.445455,
+      "source_start": 314.414,
+      "source_end": 314.734,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "someone",
+      "start": 28.445455,
+      "end": 28.8,
+      "source_start": 314.734,
+      "source_end": 315.124,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "still",
+      "start": 28.809091,
+      "end": 29.1,
+      "source_start": 315.134,
+      "source_end": 315.454,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "had",
+      "start": 29.1,
+      "end": 29.281818,
+      "source_start": 315.454,
+      "source_end": 315.654,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "to",
+      "start": 29.281818,
+      "end": 29.354545,
+      "source_start": 315.654,
+      "source_end": 315.734,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "care",
+      "start": 29.354545,
+      "end": 29.609091,
+      "source_start": 315.734,
+      "source_end": 316.014,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "for",
+      "start": 29.609091,
+      "end": 29.718182,
+      "source_start": 316.014,
+      "source_end": 316.134,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "those",
+      "start": 29.718182,
+      "end": 30.009091,
+      "source_start": 316.134,
+      "source_end": 316.454,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "who",
+      "start": 30.009091,
+      "end": 30.081818,
+      "source_start": 316.454,
+      "source_end": 316.534,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "could",
+      "start": 30.081818,
+      "end": 30.263636,
+      "source_start": 316.534,
+      "source_end": 316.734,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "no",
+      "start": 30.263636,
+      "end": 30.4,
+      "source_start": 316.734,
+      "source_end": 316.884,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "longer",
+      "start": 30.409091,
+      "end": 30.7,
+      "source_start": 316.894,
+      "source_end": 317.214,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "help",
+      "start": 30.7,
+      "end": 30.881818,
+      "source_start": 317.214,
+      "source_end": 317.414,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    },
+    {
+      "text": "themselves.",
+      "start": 30.881818,
+      "end": 31.681818,
+      "source_start": 317.414,
+      "source_end": 318.294,
+      "timing_source": "youtube_auto_caption_word_marker; edit_time_divided_by_1.10_once"
+    }
+  ],
+  "alignment_review": "Automatic caption word markers; audible synchronization not verified."
+}

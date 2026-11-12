@@ -1,0 +1,305 @@
+{
+  "status": "READY_TO_RENDER",
+  "purpose": "Local AV review of Satisfying Shorts pilot under Jack Stauber — Oh Klahoma",
+  "profile": "satisfying-local-pilot-elements-v01",
+  "editor": "FFmpeg 8.1.2",
+  "sources": [
+    {
+      "path": "/Users/diplomat/ytvideos/Work/satisfying-runaway-pilot/Source/33771384.mp4",
+      "public_page": "https://www.pexels.com/video/sunlit-water-ripples-on-a-clear-lake-surface-33771384/",
+      "author": "Kate R",
+      "license": "Pexels License",
+      "sha256": "78963a8625f5760d02f64ab3bd67a4a0dbbf81692826069942c6ba7ceccaf9be"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/Work/satisfying-runaway-pilot/Source/11142097.mp4",
+      "public_page": "https://www.pexels.com/video/burning-flames-in-a-fire-pit-11142097/",
+      "author": "Chad Madden",
+      "license": "Pexels License",
+      "sha256": "046e456cbfd6edda975dbae4fe272a619e1fdc65ac751f92bb52cc5604c65980"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/Work/satisfying-runaway-pilot/Source/34535413.mp4",
+      "public_page": "https://www.pexels.com/video/majestic-sand-dunes-in-golden-desert-sunset-34535413/",
+      "author": "Ahmed",
+      "license": "Pexels License",
+      "sha256": "3c39b8be327207fd30c5f2561c9cb27ae5a68005895aeaf8074746275b24462f"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/Work/satisfying-runaway-pilot/Source/13037145.mp4",
+      "public_page": "https://www.pexels.com/video/bird-flying-in-blue-sky-in-slow-motion-13037145/",
+      "author": "Justin Stretch",
+      "license": "Pexels License",
+      "sha256": "55258d88a711ea1af574668c1d0f29d6624114f17b5502a5506bd08500184fdd"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/Work/satisfying-runaway-pilot/Source/8859850.mp4",
+      "public_page": "https://www.pexels.com/video/vertical-video-of-a-waterfalls-8859850/",
+      "author": "Pavel Danilyuk",
+      "license": "Pexels License",
+      "sha256": "6327ec78a0d454525b9396bef481e40c41e79bfe006f89698b32bf83e77f7c67"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/Work/satisfying-runaway-pilot/Source/36974946.mp4",
+      "public_page": "https://www.pexels.com/video/aerial-view-of-misty-mountain-landscape-at-dawn-36974946/",
+      "author": "Sherine",
+      "license": "Pexels License",
+      "sha256": "c01d4eb1a4f84dca55a1300c2df32700df417d406d1e680599803f7e72a1e6d8"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/Work/satisfying-runaway-pilot/Source/oh-klahoma-reference.m4a",
+      "public_page": "https://music.apple.com/us/song/1223267133",
+      "role": "local review music reference",
+      "sha256": "74c07cc377d7756c82546c5aa2b984726058222907bdbd556a72849ed9a7b41f"
+    }
+  ],
+  "timeline": {
+    "filtergraph": "/Users/diplomat/ytvideos/Work/satisfying-runaway-pilot/Edit/render-elements-v01.ffgraph",
+    "sha256": "d780c45638617ee2a712bc99c1031ffe88e93251100ce15caf803727d72a938e",
+    "scene_start_frames": [
+      0,
+      66,
+      132,
+      198,
+      264,
+      330
+    ],
+    "end_frame_exclusive": 396,
+    "duration_seconds": 13.2,
+    "motifs": [
+      "water",
+      "fire",
+      "earth",
+      "air",
+      "water",
+      "earth and air"
+    ],
+    "shots": [
+      {
+        "label": "water_glints",
+        "first_source_frame_at_30_fps": 24,
+        "frame_count": 66,
+        "crop": null,
+        "zoom_anchor": [
+          0.5,
+          0.5
+        ],
+        "incoming_zoom_gain": 0.0
+      },
+      {
+        "label": "flame",
+        "first_source_frame_at_30_fps": 52,
+        "frame_count": 66,
+        "crop": null,
+        "zoom_anchor": [
+          0.5,
+          0.69
+        ],
+        "incoming_zoom_gain": 0.16
+      },
+      {
+        "label": "dunes",
+        "first_source_frame_at_30_fps": 28,
+        "frame_count": 66,
+        "crop": null,
+        "zoom_anchor": [
+          0.54,
+          0.64
+        ],
+        "incoming_zoom_gain": 0.16
+      },
+      {
+        "label": "seagull",
+        "first_source_frame_at_30_fps": 99,
+        "frame_count": 66,
+        "crop": "crop=1188:2112:x='1040+298*t':y=24,",
+        "zoom_anchor": [
+          0.5,
+          0.3
+        ],
+        "incoming_zoom_gain": 0.18
+      },
+      {
+        "label": "waterfall",
+        "first_source_frame_at_30_fps": 46,
+        "frame_count": 66,
+        "crop": null,
+        "zoom_anchor": [
+          0.42,
+          0.62
+        ],
+        "incoming_zoom_gain": 0.16
+      },
+      {
+        "label": "mountain_clouds",
+        "first_source_frame_at_30_fps": 69,
+        "frame_count": 66,
+        "crop": null,
+        "zoom_anchor": [
+          0.57,
+          0.49
+        ],
+        "incoming_zoom_gain": 0.18
+      }
+    ],
+    "luma_curve": {
+      "midtone_contrast_multiplier": 1.5,
+      "shoulders": "Cubic compression to legal luma limits"
+    },
+    "light_transitions": [
+      {
+        "cut_frame": 66,
+        "outgoing_seconds": 0.25,
+        "incoming_seconds": 0.25,
+        "peak_effect_mix": 0.68,
+        "gaussian_blur_sigma_px": 24
+      },
+      {
+        "cut_frame": 132,
+        "outgoing_seconds": 0.25,
+        "incoming_seconds": 0.25,
+        "peak_effect_mix": 0.76,
+        "gaussian_blur_sigma_px": 24
+      },
+      {
+        "cut_frame": 198,
+        "outgoing_seconds": 0.25,
+        "incoming_seconds": 0.25,
+        "peak_effect_mix": 0.82,
+        "gaussian_blur_sigma_px": 24
+      },
+      {
+        "cut_frame": 264,
+        "outgoing_seconds": 0.25,
+        "incoming_seconds": 0.25,
+        "peak_effect_mix": 0.7,
+        "gaussian_blur_sigma_px": 24
+      },
+      {
+        "cut_frame": 330,
+        "outgoing_seconds": 0.25,
+        "incoming_seconds": 0.25,
+        "peak_effect_mix": 0.93,
+        "gaussian_blur_sigma_px": 24
+      }
+    ]
+  },
+  "audio": {
+    "track": "Jack Stauber — Oh Klahoma (Pop Food original, Apple Music preview)",
+    "start_in_reference_seconds": 15.369333,
+    "trim_reference_samples": [
+      677788,
+      1259908
+    ],
+    "marked_attacks_s": [
+      17.575,
+      19.775,
+      21.98,
+      24.18,
+      26.385
+    ],
+    "gain_db": -1.9,
+    "fades_seconds": [
+      0.015,
+      0.18
+    ],
+    "codec": "AAC-LC",
+    "target_bit_rate": 256000,
+    "sample_rate": 44100,
+    "channels": 2
+  },
+  "video": {
+    "container": "MP4",
+    "codec": "H.264 High",
+    "width": 1080,
+    "height": 1920,
+    "sar": "1:1",
+    "fps": "30/1",
+    "frame_count": 396,
+    "range": "tv",
+    "primaries": "bt709",
+    "transfer": "bt709",
+    "matrix": "bt709",
+    "pixel_format": "yuv420p",
+    "crf": 17,
+    "fast_start": true
+  },
+  "chart": {
+    "market": "US",
+    "period": "2026-10-30 to 2026-11-05",
+    "weekly_rank": 1,
+    "sound_page": "https://www.youtube.com/source/6ClTSzOQrkY/shorts"
+  },
+  "output": "/Users/diplomat/ytvideos/Deliverables/Satisfying-Elements/Oh-Klahoma-Elements-v01.mp4",
+  "argv": [
+    "ffmpeg",
+    "-nostdin",
+    "-n",
+    "-hide_banner",
+    "-v",
+    "warning",
+    "-filter_complex_threads",
+    "3",
+    "-i",
+    "/Users/diplomat/ytvideos/Work/satisfying-runaway-pilot/Source/33771384.mp4",
+    "-i",
+    "/Users/diplomat/ytvideos/Work/satisfying-runaway-pilot/Source/11142097.mp4",
+    "-i",
+    "/Users/diplomat/ytvideos/Work/satisfying-runaway-pilot/Source/34535413.mp4",
+    "-i",
+    "/Users/diplomat/ytvideos/Work/satisfying-runaway-pilot/Source/13037145.mp4",
+    "-i",
+    "/Users/diplomat/ytvideos/Work/satisfying-runaway-pilot/Source/8859850.mp4",
+    "-i",
+    "/Users/diplomat/ytvideos/Work/satisfying-runaway-pilot/Source/36974946.mp4",
+    "-i",
+    "/Users/diplomat/ytvideos/Work/satisfying-runaway-pilot/Source/oh-klahoma-reference.m4a",
+    "-/filter_complex",
+    "/Users/diplomat/ytvideos/Work/satisfying-runaway-pilot/Edit/render-elements-v01.ffgraph",
+    "-map",
+    "[video]",
+    "-map",
+    "[audio]",
+    "-r",
+    "30",
+    "-fps_mode",
+    "cfr",
+    "-c:v",
+    "libx264",
+    "-preset",
+    "medium",
+    "-crf",
+    "17",
+    "-profile:v",
+    "high",
+    "-level:v",
+    "4.2",
+    "-pix_fmt",
+    "yuv420p",
+    "-color_range",
+    "tv",
+    "-colorspace",
+    "bt709",
+    "-color_primaries",
+    "bt709",
+    "-color_trc",
+    "bt709",
+    "-c:a",
+    "aac",
+    "-profile:a",
+    "aac_low",
+    "-b:a",
+    "256k",
+    "-ar",
+    "44100",
+    "-ac",
+    "2",
+    "-movflags",
+    "+faststart",
+    "-map_metadata",
+    "-1",
+    "-metadata",
+    "title=Oh Klahoma | Satisfying Shorts Elements v01",
+    "/Users/diplomat/ytvideos/Deliverables/Satisfying-Elements/Oh-Klahoma-Elements-v01.mp4"
+  ]
+}

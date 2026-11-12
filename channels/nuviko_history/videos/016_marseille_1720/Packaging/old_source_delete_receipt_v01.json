@@ -1,0 +1,16 @@
+{
+  "operation": "videos.delete",
+  "source_video_id": "3b5NOmrOX7o",
+  "source_title": "The Ship That Brought Plague to Marseille | 1720",
+  "source_channel_id": "UCqct_dth0WSCwiDZx1WMfgg",
+  "source_privacy_before": "unlisted",
+  "replacement_video_id": "hEX9sxYZ0-4",
+  "replacement_channel_id": "UCbyLx6Rf3iWww4bPZJ2oo2A",
+  "replacement_title": "Inside Marseille’s Devastating Plague of 1720",
+  "replacement_privacy": "unlisted",
+  "replacement_processing_status": "succeeded",
+  "delete_http_status": 204,
+  "readback": "source video no longer returned by videos.list",
+  "checked_at_utc": "2026-11-03T16:34:49.004662+00:00",
+  "scope": "User explicitly requested deletion of the old source material as part of migration. The replacement remains untouched."
+}

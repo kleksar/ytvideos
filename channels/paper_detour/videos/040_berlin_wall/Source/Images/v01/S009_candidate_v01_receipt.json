@@ -1,0 +1,33 @@
+{
+  "scene_id": "S009",
+  "version": "candidate_v01",
+  "status": "ACCEPTED_STATIC_SOURCE",
+  "selected_copy": "/Users/diplomat/ytvideos/channels/paper_detour/videos/040_berlin_wall/Source/Images/v01/S009_candidate_v01.png",
+  "source_image": "/Users/diplomat/.codex/generated_images/01a1a186-1011-7450-b9d7-7b0e7f1e2f40/exec-1d5ad4b8-7dc7-4b3a-99f3-a99cb5b7146c.png",
+  "sha256": "0a11757b8cdec6e3379d6afff3aa67cf074f1aa07bcf45a466a12b4168af2956",
+  "reference_paths": [
+    "/Users/diplomat/ytvideos/channels/paper_detour/Shared/References/Paper/paper004_user_38.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/040_berlin_wall/Source/Images/v01/S008_candidate_v01.png"
+  ],
+  "reference_hashes": {
+    "/Users/diplomat/ytvideos/channels/paper_detour/Shared/References/Paper/paper004_user_38.png": "238bb11958c8e59224edcd006db060df0bddd0c9e100f795e44eeb537ebdc166",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/040_berlin_wall/Source/Images/v01/S008_candidate_v01.png": "626a0d4dfc0cda0e8a006143eb280e7fa8a80ea1127d2ea48580afe13c963e8d"
+  },
+  "missing_catalog_anchor": "Paper Detour033 S01_v01.png unavailable locally and not used.",
+  "requested_generation_target": "3840x2160 landscape 16:9",
+  "actual_source_dimensions": "/Users/diplomat/ytvideos/channels/paper_detour/videos/040_berlin_wall/Source/Images/v01/S009_candidate_v01.png\n  pixelWidth: 1672\n  pixelHeight: 941",
+  "image_tool_controls": "not exposed; target stated in prompt",
+  "delivery_target": "2560x1440 16:9 at 30 fps; motion/crop pending",
+  "visual_review": {
+    "reviewer": "Codex author (not an independent reviewer)",
+    "scope": "full-frame source inspected against available Paper004 and S008 wall-material anchor",
+    "result": "ACCEPTED as a physical paper miniature/metaphor: the enclosed city and surrounding urban blocks read as an enclave; layered cuts, fibers and physical shadows are clear; no recognizable landmark",
+    "limitations": [
+      "Tool output below requested 4K target.",
+      "The miniature wall shape is not an exact map/topographic claim.",
+      "Generic guard posts/buildings/trees are stylized, not historical specifics.",
+      "Motion/crop/composite unverified."
+    ]
+  },
+  "prompt_file": "S009_candidate_v01_prompt.txt"
+}

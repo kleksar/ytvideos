@@ -1,0 +1,756 @@
+{
+  "fps": 30,
+  "frames": 373,
+  "raster": [
+    896,
+    384
+  ],
+  "max_words": 1,
+  "font_index": 0,
+  "font_size_px": 147,
+  "stroke_px": 0,
+  "letter_motion": {
+    "scale_variation": 0.035,
+    "tilt_degrees": 2.5
+  },
+  "line_motion": {
+    "tilt_degrees": 2.5,
+    "tilt_every": 6,
+    "seed": 17,
+    "interpolation": "smoothstep_per_group"
+  },
+  "color_mode": "inversion_masks",
+  "accent_color": null,
+  "beat_snaps": {},
+  "beat_transition_scale": 0,
+  "groups": [
+    {
+      "start_frame": 0,
+      "end_frame_exclusive": 2,
+      "words": [
+        {
+          "text": "let",
+          "start_frame": 0,
+          "end_frame_exclusive": 2,
+          "break_before": false,
+          "break_after": false
+        }
+      ],
+      "width_px": 170.0,
+      "motion": {
+        "direction": "hold",
+        "scale": [
+          1,
+          1
+        ],
+        "tilt_degrees": [
+          0,
+          0
+        ]
+      },
+      "transition_beat": null,
+      "pulse_beats": [],
+      "tilt_enabled": false
+    },
+    {
+      "start_frame": 2,
+      "end_frame_exclusive": 33,
+      "words": [
+        {
+          "text": "me",
+          "start_frame": 2,
+          "end_frame_exclusive": 33,
+          "break_before": false,
+          "break_after": false
+        }
+      ],
+      "width_px": 195.17,
+      "motion": {
+        "direction": "out",
+        "scale": [
+          1.0590556827918733,
+          0.9409443172081265
+        ],
+        "tilt_degrees": [
+          0,
+          0
+        ]
+      },
+      "transition_beat": null,
+      "pulse_beats": [],
+      "tilt_enabled": false
+    },
+    {
+      "start_frame": 33,
+      "end_frame_exclusive": 37,
+      "words": [
+        {
+          "text": "see",
+          "start_frame": 33,
+          "end_frame_exclusive": 37,
+          "break_before": false,
+          "break_after": false
+        }
+      ],
+      "width_px": 192.33,
+      "motion": {
+        "direction": "in",
+        "scale": [
+          0.9241140362616955,
+          1.0758859637383045
+        ],
+        "tilt_degrees": [
+          0,
+          0
+        ]
+      },
+      "transition_beat": null,
+      "pulse_beats": [],
+      "tilt_enabled": false
+    },
+    {
+      "start_frame": 37,
+      "end_frame_exclusive": 41,
+      "words": [
+        {
+          "text": "you",
+          "start_frame": 37,
+          "end_frame_exclusive": 41,
+          "break_before": false,
+          "break_after": false
+        }
+      ],
+      "width_px": 266.0,
+      "motion": {
+        "direction": "out",
+        "scale": [
+          1.0785826826595017,
+          0.9214173173404984
+        ],
+        "tilt_degrees": [
+          0,
+          0
+        ]
+      },
+      "transition_beat": null,
+      "pulse_beats": [],
+      "tilt_enabled": false
+    },
+    {
+      "start_frame": 41,
+      "end_frame_exclusive": 47,
+      "words": [
+        {
+          "text": "go",
+          "start_frame": 41,
+          "end_frame_exclusive": 47,
+          "break_before": false,
+          "break_after": false
+        }
+      ],
+      "width_px": 158.5,
+      "motion": {
+        "direction": "in",
+        "scale": [
+          0.9504679922107158,
+          1.0495320077892842
+        ],
+        "tilt_degrees": [
+          0,
+          0
+        ]
+      },
+      "transition_beat": null,
+      "pulse_beats": [],
+      "tilt_enabled": false
+    },
+    {
+      "start_frame": 47,
+      "end_frame_exclusive": 56,
+      "words": [
+        {
+          "text": "rock",
+          "start_frame": 47,
+          "end_frame_exclusive": 56,
+          "break_before": false,
+          "break_after": false
+        }
+      ],
+      "width_px": 297.83,
+      "motion": {
+        "direction": "hold",
+        "scale": [
+          1,
+          1
+        ],
+        "tilt_degrees": [
+          -1.1374850767176203,
+          0.6655099635554826
+        ]
+      },
+      "transition_beat": null,
+      "pulse_beats": [],
+      "tilt_enabled": true
+    },
+    {
+      "start_frame": 60,
+      "end_frame_exclusive": 65,
+      "words": [
+        {
+          "text": "rock",
+          "start_frame": 60,
+          "end_frame_exclusive": 65,
+          "break_before": false,
+          "break_after": false
+        }
+      ],
+      "width_px": 297.83,
+      "motion": {
+        "direction": "in",
+        "scale": [
+          0.95324202526755,
+          1.04675797473245
+        ],
+        "tilt_degrees": [
+          0,
+          0
+        ]
+      },
+      "transition_beat": null,
+      "pulse_beats": [],
+      "tilt_enabled": false
+    },
+    {
+      "start_frame": 65,
+      "end_frame_exclusive": 81,
+      "words": [
+        {
+          "text": "rock",
+          "start_frame": 65,
+          "end_frame_exclusive": 81,
+          "break_before": false,
+          "break_after": false
+        }
+      ],
+      "width_px": 297.83,
+      "motion": {
+        "direction": "hold",
+        "scale": [
+          1,
+          1
+        ],
+        "tilt_degrees": [
+          0,
+          0
+        ]
+      },
+      "transition_beat": null,
+      "pulse_beats": [],
+      "tilt_enabled": false
+    },
+    {
+      "start_frame": 88,
+      "end_frame_exclusive": 98,
+      "words": [
+        {
+          "text": "rock",
+          "start_frame": 88,
+          "end_frame_exclusive": 98,
+          "break_before": false,
+          "break_after": false
+        }
+      ],
+      "width_px": 297.83,
+      "motion": {
+        "direction": "out",
+        "scale": [
+          1.0741296781339207,
+          0.9258703218660793
+        ],
+        "tilt_degrees": [
+          0,
+          0
+        ]
+      },
+      "transition_beat": null,
+      "pulse_beats": [],
+      "tilt_enabled": false
+    },
+    {
+      "start_frame": 98,
+      "end_frame_exclusive": 126,
+      "words": [
+        {
+          "text": "out",
+          "start_frame": 98,
+          "end_frame_exclusive": 126,
+          "break_before": false,
+          "break_after": false
+        }
+      ],
+      "width_px": 220.33,
+      "motion": {
+        "direction": "hold",
+        "scale": [
+          1,
+          1
+        ],
+        "tilt_degrees": [
+          0,
+          0
+        ]
+      },
+      "transition_beat": null,
+      "pulse_beats": [],
+      "tilt_enabled": false
+    },
+    {
+      "start_frame": 126,
+      "end_frame_exclusive": 191,
+      "words": [
+        {
+          "text": "rock",
+          "start_frame": 126,
+          "end_frame_exclusive": 191,
+          "break_before": false,
+          "break_after": false
+        }
+      ],
+      "width_px": 297.83,
+      "motion": {
+        "direction": "in",
+        "scale": [
+          0.9335709870819605,
+          1.0664290129180394
+        ],
+        "tilt_degrees": [
+          0,
+          0
+        ]
+      },
+      "transition_beat": null,
+      "pulse_beats": [],
+      "tilt_enabled": false
+    },
+    {
+      "start_frame": 191,
+      "end_frame_exclusive": 200,
+      "words": [
+        {
+          "text": "out",
+          "start_frame": 191,
+          "end_frame_exclusive": 200,
+          "break_before": false,
+          "break_after": false
+        }
+      ],
+      "width_px": 220.33,
+      "motion": {
+        "direction": "out",
+        "scale": [
+          1.0640306309263758,
+          0.9359693690736242
+        ],
+        "tilt_degrees": [
+          1.5979287027867803,
+          2.376593217873763
+        ]
+      },
+      "transition_beat": null,
+      "pulse_beats": [],
+      "tilt_enabled": true
+    },
+    {
+      "start_frame": 261,
+      "end_frame_exclusive": 273,
+      "words": [
+        {
+          "text": "first",
+          "start_frame": 261,
+          "end_frame_exclusive": 273,
+          "break_before": false,
+          "break_after": false
+        }
+      ],
+      "width_px": 314.67,
+      "motion": {
+        "direction": "in",
+        "scale": [
+          0.9262357549748136,
+          1.0737642450251865
+        ],
+        "tilt_degrees": [
+          0,
+          0
+        ]
+      },
+      "transition_beat": null,
+      "pulse_beats": [],
+      "tilt_enabled": false
+    },
+    {
+      "start_frame": 273,
+      "end_frame_exclusive": 281,
+      "words": [
+        {
+          "text": "thing",
+          "start_frame": 273,
+          "end_frame_exclusive": 281,
+          "break_before": false,
+          "break_after": false
+        }
+      ],
+      "width_px": 395.0,
+      "motion": {
+        "direction": "out",
+        "scale": [
+          1.075560932091142,
+          0.9244390679088581
+        ],
+        "tilt_degrees": [
+          0,
+          0
+        ]
+      },
+      "transition_beat": null,
+      "pulse_beats": [],
+      "tilt_enabled": false
+    },
+    {
+      "start_frame": 281,
+      "end_frame_exclusive": 289,
+      "words": [
+        {
+          "text": "first",
+          "start_frame": 281,
+          "end_frame_exclusive": 289,
+          "break_before": false,
+          "break_after": false
+        }
+      ],
+      "width_px": 314.67,
+      "motion": {
+        "direction": "hold",
+        "scale": [
+          1,
+          1
+        ],
+        "tilt_degrees": [
+          0,
+          0
+        ]
+      },
+      "transition_beat": null,
+      "pulse_beats": [],
+      "tilt_enabled": false
+    },
+    {
+      "start_frame": 293,
+      "end_frame_exclusive": 294,
+      "words": [
+        {
+          "text": "Im",
+          "start_frame": 293,
+          "end_frame_exclusive": 294,
+          "break_before": false,
+          "break_after": false
+        }
+      ],
+      "width_px": 180.83,
+      "motion": {
+        "direction": "out",
+        "scale": [
+          1.0780713362079573,
+          0.9219286637920427
+        ],
+        "tilt_degrees": [
+          0,
+          0
+        ]
+      },
+      "transition_beat": null,
+      "pulse_beats": [],
+      "tilt_enabled": false
+    },
+    {
+      "start_frame": 294,
+      "end_frame_exclusive": 297,
+      "words": [
+        {
+          "text": "a",
+          "start_frame": 294,
+          "end_frame_exclusive": 297,
+          "break_before": false,
+          "break_after": false
+        }
+      ],
+      "width_px": 75.67,
+      "motion": {
+        "direction": "hold",
+        "scale": [
+          1,
+          1
+        ],
+        "tilt_degrees": [
+          0,
+          0
+        ]
+      },
+      "transition_beat": null,
+      "pulse_beats": [],
+      "tilt_enabled": false
+    },
+    {
+      "start_frame": 297,
+      "end_frame_exclusive": 303,
+      "words": [
+        {
+          "text": "petty",
+          "start_frame": 297,
+          "end_frame_exclusive": 303,
+          "break_before": false,
+          "break_after": false
+        }
+      ],
+      "width_px": 354.67,
+      "motion": {
+        "direction": "in",
+        "scale": [
+          0.9251143575631326,
+          1.0748856424368674
+        ],
+        "tilt_degrees": [
+          1.18574924304487,
+          1.0359830387996172
+        ]
+      },
+      "transition_beat": null,
+      "pulse_beats": [],
+      "tilt_enabled": true
+    },
+    {
+      "start_frame": 303,
+      "end_frame_exclusive": 310,
+      "words": [
+        {
+          "text": "ol",
+          "start_frame": 303,
+          "end_frame_exclusive": 310,
+          "break_before": false,
+          "break_after": false
+        }
+      ],
+      "width_px": 118.17,
+      "motion": {
+        "direction": "out",
+        "scale": [
+          1.0775468100420704,
+          0.9224531899579296
+        ],
+        "tilt_degrees": [
+          0,
+          0
+        ]
+      },
+      "transition_beat": null,
+      "pulse_beats": [],
+      "tilt_enabled": false
+    },
+    {
+      "start_frame": 310,
+      "end_frame_exclusive": 317,
+      "words": [
+        {
+          "text": "nigga",
+          "start_frame": 310,
+          "end_frame_exclusive": 317,
+          "break_before": false,
+          "break_after": false
+        }
+      ],
+      "width_px": 429.0,
+      "motion": {
+        "direction": "hold",
+        "scale": [
+          1,
+          1
+        ],
+        "tilt_degrees": [
+          0,
+          0
+        ]
+      },
+      "transition_beat": null,
+      "pulse_beats": [],
+      "tilt_enabled": false
+    },
+    {
+      "start_frame": 330,
+      "end_frame_exclusive": 342,
+      "words": [
+        {
+          "text": "I",
+          "start_frame": 330,
+          "end_frame_exclusive": 342,
+          "break_before": false,
+          "break_after": false
+        }
+      ],
+      "width_px": 41.0,
+      "motion": {
+        "direction": "in",
+        "scale": [
+          0.9281373025287167,
+          1.0718626974712833
+        ],
+        "tilt_degrees": [
+          0,
+          0
+        ]
+      },
+      "transition_beat": null,
+      "pulse_beats": [],
+      "tilt_enabled": false
+    },
+    {
+      "start_frame": 342,
+      "end_frame_exclusive": 345,
+      "words": [
+        {
+          "text": "be",
+          "start_frame": 342,
+          "end_frame_exclusive": 345,
+          "break_before": false,
+          "break_after": false
+        }
+      ],
+      "width_px": 134.17,
+      "motion": {
+        "direction": "in",
+        "scale": [
+          0.9339676845574627,
+          1.0660323154425373
+        ],
+        "tilt_degrees": [
+          0,
+          0
+        ]
+      },
+      "transition_beat": null,
+      "pulse_beats": [],
+      "tilt_enabled": false
+    },
+    {
+      "start_frame": 345,
+      "end_frame_exclusive": 350,
+      "words": [
+        {
+          "text": "doing",
+          "start_frame": 345,
+          "end_frame_exclusive": 350,
+          "break_before": false,
+          "break_after": false
+        }
+      ],
+      "width_px": 411.0,
+      "motion": {
+        "direction": "hold",
+        "scale": [
+          1,
+          1
+        ],
+        "tilt_degrees": [
+          0,
+          0
+        ]
+      },
+      "transition_beat": null,
+      "pulse_beats": [],
+      "tilt_enabled": false
+    },
+    {
+      "start_frame": 350,
+      "end_frame_exclusive": 357,
+      "words": [
+        {
+          "text": "shit",
+          "start_frame": 350,
+          "end_frame_exclusive": 357,
+          "break_before": false,
+          "break_after": false
+        }
+      ],
+      "width_px": 267.5,
+      "motion": {
+        "direction": "out",
+        "scale": [
+          1.0470017256250188,
+          0.9529982743749813
+        ],
+        "tilt_degrees": [
+          -0.06380855690177523,
+          0.17102579200521895
+        ]
+      },
+      "transition_beat": null,
+      "pulse_beats": [],
+      "tilt_enabled": true
+    },
+    {
+      "start_frame": 357,
+      "end_frame_exclusive": 365,
+      "words": [
+        {
+          "text": "like",
+          "start_frame": 357,
+          "end_frame_exclusive": 365,
+          "break_before": false,
+          "break_after": false
+        }
+      ],
+      "width_px": 266.17,
+      "motion": {
+        "direction": "in",
+        "scale": [
+          0.9269740218894704,
+          1.0730259781105296
+        ],
+        "tilt_degrees": [
+          0,
+          0
+        ]
+      },
+      "transition_beat": null,
+      "pulse_beats": [],
+      "tilt_enabled": false
+    },
+    {
+      "start_frame": 365,
+      "end_frame_exclusive": 373,
+      "words": [
+        {
+          "text": "Whuh",
+          "start_frame": 365,
+          "end_frame_exclusive": 373,
+          "break_before": false,
+          "break_after": false
+        }
+      ],
+      "width_px": 414.83,
+      "motion": {
+        "direction": "out",
+        "scale": [
+          1.0613745654172182,
+          0.9386254345827818
+        ],
+        "tilt_degrees": [
+          0,
+          0
+        ]
+      },
+      "transition_beat": null,
+      "pulse_beats": [],
+      "tilt_enabled": false
+    }
+  ]
+}

@@ -1,0 +1,364 @@
+{
+  "schema": "ytv-delivery-v1",
+  "channel": "paper",
+  "format": "long",
+  "canvas": [
+    1280,
+    720
+  ],
+  "fps": 30,
+  "frames": 323,
+  "caption_end_frame": 323,
+  "audio": {
+    "audio": {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Work/paper050-great-stink-v01-20261105/preview_middle_inputs_v01/audio.wav",
+      "sha256": "ea4f9d36aee60c0bbabfe944cdac1bf8d6dc5ba0129c77c68c7fc37ee329bae3"
+    },
+    "applied_speed": 1.1,
+    "speed_policy": {
+      "path": "/Users/diplomat/ytvideos/.agents/skills/ytv-audio-delivery/references/speed.json",
+      "sha256": "32c378c36c1e297cbdc4e3593c965163d33e531b8b8eea026b367bddb51a668a"
+    },
+    "speed_evidence": {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Work/paper050-great-stink-v01-20261105/preview_middle_inputs_v01/speed_evidence.md",
+      "sha256": "7b9dce687aadf2dbdeab95b154f405708408418b1b156e9d190f3f5b4b9965a0"
+    }
+  },
+  "transcript": {
+    "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Work/paper050-great-stink-v01-20261105/preview_middle_inputs_v01/transcript.txt",
+    "sha256": "1468322305a18a5bdea83b39042106162a3b3069dc4449029db468b434ce8930"
+  },
+  "word_map": {
+    "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Work/paper050-great-stink-v01-20261105/preview_middle_inputs_v01/words.json",
+    "sha256": "5d00daf025da1741e5d919e1bd3566b2b5f853e6b0f0ba76879575e1f77fd1ca"
+  },
+  "profiles": [
+    {
+      "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/profiles/paper.json",
+      "sha256": "e2b89e813ec25985601ef65997ea8b94c19e96aa6d158333edf962b42e02ffc0"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/profiles/long.json",
+      "sha256": "e8f9f5dd0354283634a0cf9dc1816736bac38de158de1d0bdd1b8b4658f51459"
+    },
+    {
+      "path": "/System/Library/Fonts/Supplemental/ChalkboardSE.ttc",
+      "sha256": "256d3dd291f0d2bd3379882e7fb9c8276fba219ea447a1073d2fce17690e0478"
+    }
+  ],
+  "engine": [
+    {
+      "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/montage.py",
+      "sha256": "24c1486c0e6302b93372a390da21b198d2c4567be79813acc5b5d12ad7c82023"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/delivery.py",
+      "sha256": "d22db35638e7df341abc27d06a74f0b73f72f52dfd76668e4eca3a36d487aae5"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/.agents/skills/ytv-paper-subtitles/scripts/semantic_grouping.py",
+      "sha256": "f18deb4cbb5af9c10cfd51fd60b15ef1c87b5ebaaaa46f073210935821d8fc3e"
+    }
+  ],
+  "picture": [
+    {
+      "scene": {
+        "image": "../../Source/Images/scene_26_tidal_uncertainty_v02.png",
+        "start_frame": 0,
+        "end_frame": 165,
+        "direction": "right_to_left",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "scene 26 tidal uncertainty v02",
+          "reason": "Slow whole-image movement retains the main paper composition; verify faces, outfalls and subtitle clearance in rendered frames.",
+          "start": {
+            "center": [
+              0.494,
+              0.5
+            ],
+            "scale": 1.055
+          },
+          "end": {
+            "center": [
+              0.506,
+              0.5
+            ],
+            "scale": 1.035
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Source/Images/scene_26_tidal_uncertainty_v02.png",
+        "sha256": "0e248dbd8dcdf4cdf13b4194b19a7aef68684ff34394a94c15a75bce9188dce7"
+      }
+    },
+    {
+      "scene": {
+        "image": "../../Source/Images/scene_27_woolwich_complaint_v01.png",
+        "start_frame": 165,
+        "end_frame": 323,
+        "direction": "left_to_right",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "scene 27 woolwich complaint v01",
+          "reason": "Slow whole-image movement retains the main paper composition; verify faces, outfalls and subtitle clearance in rendered frames.",
+          "start": {
+            "center": [
+              0.506,
+              0.5
+            ],
+            "scale": 1.035
+          },
+          "end": {
+            "center": [
+              0.494,
+              0.5
+            ],
+            "scale": 1.055
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Source/Images/scene_27_woolwich_complaint_v01.png",
+        "sha256": "ea30add56a011dc19b4f5379d2f57565739455e9af9604dc9a0f3ba32423bc4c"
+      }
+    }
+  ],
+  "overlays": [],
+  "groups": [
+    [
+      {
+        "text": "The",
+        "start": 0.249,
+        "end": 0.349
+      },
+      {
+        "text": "shorter",
+        "start": 0.409,
+        "end": 0.729
+      },
+      {
+        "text": "route",
+        "start": 0.769,
+        "end": 0.949
+      }
+    ],
+    [
+      {
+        "text": "left",
+        "start": 1.049,
+        "end": 1.229
+      },
+      {
+        "text": "an",
+        "start": 1.289,
+        "end": 1.369
+      },
+      {
+        "text": "unresolved",
+        "start": 1.509,
+        "end": 2.029
+      }
+    ],
+    [
+      {
+        "text": "question",
+        "start": 2.089,
+        "end": 2.509
+      },
+      {
+        "text": "about",
+        "start": 2.609,
+        "end": 2.809
+      },
+      {
+        "text": "how",
+        "start": 2.889,
+        "end": 3.089
+      },
+      {
+        "text": "the",
+        "start": 3.129,
+        "end": 3.229
+      },
+      {
+        "text": "sewage",
+        "start": 3.289,
+        "end": 3.57
+      }
+    ],
+    [
+      {
+        "text": "would",
+        "start": 3.59,
+        "end": 3.73
+      },
+      {
+        "text": "behave",
+        "start": 3.75,
+        "end": 4.21
+      },
+      {
+        "text": "in",
+        "start": 4.29,
+        "end": 4.37
+      },
+      {
+        "text": "a",
+        "start": 4.41,
+        "end": 4.43
+      },
+      {
+        "text": "tidal",
+        "start": 4.49,
+        "end": 4.81
+      },
+      {
+        "text": "river.",
+        "start": 4.87,
+        "end": 5.11
+      }
+    ],
+    [
+      {
+        "text": "During",
+        "start": 5.87,
+        "end": 6.11
+      },
+      {
+        "text": "the",
+        "start": 6.13,
+        "end": 6.23
+      },
+      {
+        "text": "same",
+        "start": 6.29,
+        "end": 6.51
+      },
+      {
+        "text": "debate,",
+        "start": 6.55,
+        "end": 6.89
+      }
+    ],
+    [
+      {
+        "text": "a",
+        "start": 7.27,
+        "end": 7.33
+      },
+      {
+        "text": "representative",
+        "start": 7.39,
+        "end": 7.95
+      },
+      {
+        "text": "from",
+        "start": 7.99,
+        "end": 8.13
+      },
+      {
+        "text": "Woolwich",
+        "start": 8.17,
+        "end": 8.57
+      }
+    ],
+    [
+      {
+        "text": "said",
+        "start": 8.63,
+        "end": 8.83
+      },
+      {
+        "text": "his",
+        "start": 8.89,
+        "end": 9.09
+      },
+      {
+        "text": "district",
+        "start": 9.15,
+        "end": 9.49
+      }
+    ],
+    [
+      {
+        "text": "was",
+        "start": 9.53,
+        "end": 9.65
+      },
+      {
+        "text": "already",
+        "start": 9.85,
+        "end": 10.23
+      },
+      {
+        "text": "suffering",
+        "start": 10.31,
+        "end": 10.73
+      }
+    ]
+  ],
+  "resolved": {
+    "resolved_font_size_px": 42,
+    "max_visible_width_px": 672.0,
+    "center_x_px": 640.0,
+    "baseline": 644,
+    "algorithm": "sentence-syntax-width-v5",
+    "display_intervals": [
+      {
+        "start_frame": 0,
+        "end_frame": 32
+      },
+      {
+        "start_frame": 32,
+        "end_frame": 63
+      },
+      {
+        "start_frame": 63,
+        "end_frame": 108
+      },
+      {
+        "start_frame": 108,
+        "end_frame": 177
+      },
+      {
+        "start_frame": 177,
+        "end_frame": 219
+      },
+      {
+        "start_frame": 219,
+        "end_frame": 259
+      },
+      {
+        "start_frame": 259,
+        "end_frame": 286
+      },
+      {
+        "start_frame": 286,
+        "end_frame": 323
+      }
+    ],
+    "boundary_warnings": [
+      {
+        "after_group": 2,
+        "left": "question about how the sewage",
+        "right": "would behave in a tidal river.",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 6,
+        "left": "said his district",
+        "right": "was already suffering",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "subtitle_contract_sha256": "f5bed94d00b2419d60631122a4569be4ddb2a6b7819a897e2e610869571900be",
+  "checks": {
+    "semantic_grouping": {
+      "status": "FAIL",
+      "reviewer": "codex-eiffel-v31",
+      "method": "Read the exact 125 caption groups after applying proper-name keep-together constraints",
+      "coverage": "288 literal tokens; retained forced syntax boundaries under three-word limit",
+      "evidence": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Edit/Export/PREFLIGHT_V31.md",
+        "sha256": "141f25b6a35ab30663cf5a7da3eb987e633578b54cd7baec7a4282fcfcd5dda3"
+      }
+    },
+    "audible_sync": {
+      "status": "UNVERIFIED",
+      "reviewer": "codex-eiffel-v31",
+      "method": "Compared provider times to WhisperX on exact retained audio; listening unavailable",
+      "coverage": "288 token onsets; no subjective verification of pronunciation or alignment",
+      "evidence": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Edit/Subtitles/alignment_review_en_v31.md",
+        "sha256": "8011881d897f6290fb165fc51bd023477d21db5fc82363c6f41e0e27659c3bd1"
+      }
+    },
+    "visual_placement": {
+      "status": "PASS",
+      "reviewer": "codex-eiffel-v31",
+      "method": "Three offline composites for each selected shot and decoded beginning subtitle trial",
+      "coverage": "69 pre-render composites plus 19 decoded frames from 341-frame excerpt; no final-output or continuous inspection",
+      "evidence": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Edit/Export/PREFLIGHT_V31.md",
+        "sha256": "141f25b6a35ab30663cf5a7da3eb987e633578b54cd7baec7a4282fcfcd5dda3"
+      }
+    }
+  }
+}

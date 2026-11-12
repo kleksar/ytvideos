@@ -1,0 +1,742 @@
+{
+  "version": 1,
+  "status": "ready_for_review",
+  "build_manifest": "/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/build_manifest.json",
+  "build_manifest_sha256": "5558ef9543db9b8fa1e3f6f5d002528c98a37e6d711033793a0c200cfaf66e95",
+  "visual_manifest": "/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/visual_manifest.json",
+  "visual_manifest_sha256": "531bba82cf076ae1231b4af9832f3a2c660a3028e2c1f58913c8274cd6d09049",
+  "project_name": "Paper Detour 009 Knorozov Asya Draft 20261101",
+  "timeline_name": "PD009_knorozov_asya_layered_draft_20261101",
+  "frames": 1200,
+  "exported": false,
+  "published": false,
+  "steps": [
+    {
+      "label": "create isolated Palmier project",
+      "tool": "manage_project",
+      "actionId": null,
+      "result": {
+        "canGenerate": false,
+        "fps": 30,
+        "id": "9A0EE170",
+        "mediaCount": 0,
+        "name": "Paper Detour 009 Knorozov Asya Draft 20261101",
+        "openCount": 7,
+        "path": "/Users/diplomat/Documents/Palmier Pro/Paper Detour 009 Knorozov Asya Draft 20261101.palmier",
+        "resolution": "1080x1920",
+        "status": "created",
+        "timelines": [
+          {
+            "name": "Timeline 1",
+            "timelineId": "AD205256",
+            "visible": true
+          }
+        ]
+      }
+    },
+    {
+      "label": "import Film Grain media",
+      "tool": "import_media",
+      "actionId": "41778D0C",
+      "result": {
+        "actionId": "41778D0C",
+        "mediaRef": "72A7DB1D",
+        "name": "film_grain_8s_prores4444",
+        "status": "ready",
+        "type": "video"
+      }
+    },
+    {
+      "label": "place Film Grain track clips",
+      "tool": "add_clips",
+      "actionId": "7623B832",
+      "result": {
+        "actionId": "7623B832",
+        "clips": [
+          {
+            "frames": [
+              0,
+              240
+            ],
+            "id": "F5162C86",
+            "mediaRef": "72A7DB1D",
+            "track": 0,
+            "transform": {
+              "height": 0.316
+            }
+          },
+          {
+            "frames": [
+              240,
+              480
+            ],
+            "id": "8BA41156",
+            "mediaRef": "72A7DB1D",
+            "track": 0,
+            "transform": {
+              "height": 0.316
+            }
+          },
+          {
+            "frames": [
+              480,
+              720
+            ],
+            "id": "21610AB4",
+            "mediaRef": "72A7DB1D",
+            "track": 0,
+            "transform": {
+              "height": 0.316
+            }
+          },
+          {
+            "frames": [
+              720,
+              960
+            ],
+            "id": "8081A973",
+            "mediaRef": "72A7DB1D",
+            "track": 0,
+            "transform": {
+              "height": 0.316
+            }
+          },
+          {
+            "frames": [
+              960,
+              1200
+            ],
+            "id": "D7E04831",
+            "mediaRef": "72A7DB1D",
+            "track": 0,
+            "transform": {
+              "height": 0.316
+            }
+          }
+        ],
+        "createdTracks": [
+          {
+            "index": 0,
+            "label": "V4",
+            "trackId": "D61EA4FF",
+            "type": "video"
+          }
+        ],
+        "notes": [
+          "Track indices shifted — re-read get_timeline before the next index-based call."
+        ]
+      }
+    },
+    {
+      "label": "fit Film Grain crop / clip F5162C86",
+      "tool": "set_keyframes",
+      "actionId": "84298FED",
+      "result": {
+        "actionId": "84298FED",
+        "clips": [
+          {
+            "crop": {
+              "left": 0.342,
+              "right": 0.342
+            },
+            "frames": [
+              0,
+              240
+            ],
+            "id": "F5162C86",
+            "mediaRef": "72A7DB1D",
+            "track": 0,
+            "transform": {
+              "height": 0.316
+            }
+          }
+        ]
+      }
+    },
+    {
+      "label": "fit Film Grain scale / clip F5162C86",
+      "tool": "set_keyframes",
+      "actionId": "B810F692",
+      "result": {
+        "actionId": "B810F692",
+        "clips": [
+          {
+            "crop": {
+              "left": 0.342,
+              "right": 0.342
+            },
+            "frames": [
+              0,
+              240
+            ],
+            "id": "F5162C86",
+            "mediaRef": "72A7DB1D",
+            "track": 0,
+            "transform": {
+              "height": 0.316
+            }
+          }
+        ]
+      }
+    },
+    {
+      "label": "fit Film Grain position / clip F5162C86",
+      "tool": "set_keyframes",
+      "actionId": "74F784F0",
+      "result": {
+        "actionId": "74F784F0",
+        "clips": [
+          {
+            "crop": {
+              "left": 0.342,
+              "right": 0.342
+            },
+            "frames": [
+              0,
+              240
+            ],
+            "id": "F5162C86",
+            "mediaRef": "72A7DB1D",
+            "track": 0,
+            "transform": {
+              "height": 0.316
+            }
+          }
+        ]
+      }
+    },
+    {
+      "label": "fit Film Grain crop / clip 8BA41156",
+      "tool": "set_keyframes",
+      "actionId": "772FBF3D",
+      "result": {
+        "actionId": "772FBF3D",
+        "clips": [
+          {
+            "crop": {
+              "left": 0.342,
+              "right": 0.342
+            },
+            "frames": [
+              240,
+              480
+            ],
+            "id": "8BA41156",
+            "mediaRef": "72A7DB1D",
+            "track": 0,
+            "transform": {
+              "height": 0.316
+            }
+          }
+        ]
+      }
+    },
+    {
+      "label": "fit Film Grain scale / clip 8BA41156",
+      "tool": "set_keyframes",
+      "actionId": "B9029A39",
+      "result": {
+        "actionId": "B9029A39",
+        "clips": [
+          {
+            "crop": {
+              "left": 0.342,
+              "right": 0.342
+            },
+            "frames": [
+              240,
+              480
+            ],
+            "id": "8BA41156",
+            "mediaRef": "72A7DB1D",
+            "track": 0,
+            "transform": {
+              "height": 0.316
+            }
+          }
+        ]
+      }
+    },
+    {
+      "label": "fit Film Grain position / clip 8BA41156",
+      "tool": "set_keyframes",
+      "actionId": "CAB20B5A",
+      "result": {
+        "actionId": "CAB20B5A",
+        "clips": [
+          {
+            "crop": {
+              "left": 0.342,
+              "right": 0.342
+            },
+            "frames": [
+              240,
+              480
+            ],
+            "id": "8BA41156",
+            "mediaRef": "72A7DB1D",
+            "track": 0,
+            "transform": {
+              "height": 0.316
+            }
+          }
+        ]
+      }
+    },
+    {
+      "label": "fit Film Grain crop / clip 21610AB4",
+      "tool": "set_keyframes",
+      "actionId": "255492AC",
+      "result": {
+        "actionId": "255492AC",
+        "clips": [
+          {
+            "crop": {
+              "left": 0.342,
+              "right": 0.342
+            },
+            "frames": [
+              480,
+              720
+            ],
+            "id": "21610AB4",
+            "mediaRef": "72A7DB1D",
+            "track": 0,
+            "transform": {
+              "height": 0.316
+            }
+          }
+        ]
+      }
+    },
+    {
+      "label": "fit Film Grain scale / clip 21610AB4",
+      "tool": "set_keyframes",
+      "actionId": "A8F9F79E",
+      "result": {
+        "actionId": "A8F9F79E",
+        "clips": [
+          {
+            "crop": {
+              "left": 0.342,
+              "right": 0.342
+            },
+            "frames": [
+              480,
+              720
+            ],
+            "id": "21610AB4",
+            "mediaRef": "72A7DB1D",
+            "track": 0,
+            "transform": {
+              "height": 0.316
+            }
+          }
+        ]
+      }
+    },
+    {
+      "label": "fit Film Grain position / clip 21610AB4",
+      "tool": "set_keyframes",
+      "actionId": "E618771E",
+      "result": {
+        "actionId": "E618771E",
+        "clips": [
+          {
+            "crop": {
+              "left": 0.342,
+              "right": 0.342
+            },
+            "frames": [
+              480,
+              720
+            ],
+            "id": "21610AB4",
+            "mediaRef": "72A7DB1D",
+            "track": 0,
+            "transform": {
+              "height": 0.316
+            }
+          }
+        ]
+      }
+    },
+    {
+      "label": "fit Film Grain crop / clip 8081A973",
+      "tool": "set_keyframes",
+      "actionId": "1F0FB67D",
+      "result": {
+        "actionId": "1F0FB67D",
+        "clips": [
+          {
+            "crop": {
+              "left": 0.342,
+              "right": 0.342
+            },
+            "frames": [
+              720,
+              960
+            ],
+            "id": "8081A973",
+            "mediaRef": "72A7DB1D",
+            "track": 0,
+            "transform": {
+              "height": 0.316
+            }
+          }
+        ]
+      }
+    },
+    {
+      "label": "fit Film Grain scale / clip 8081A973",
+      "tool": "set_keyframes",
+      "actionId": "95D54AC5",
+      "result": {
+        "actionId": "95D54AC5",
+        "clips": [
+          {
+            "crop": {
+              "left": 0.342,
+              "right": 0.342
+            },
+            "frames": [
+              720,
+              960
+            ],
+            "id": "8081A973",
+            "mediaRef": "72A7DB1D",
+            "track": 0,
+            "transform": {
+              "height": 0.316
+            }
+          }
+        ]
+      }
+    },
+    {
+      "label": "fit Film Grain position / clip 8081A973",
+      "tool": "set_keyframes",
+      "actionId": "2A63DDCB",
+      "result": {
+        "actionId": "2A63DDCB",
+        "clips": [
+          {
+            "crop": {
+              "left": 0.342,
+              "right": 0.342
+            },
+            "frames": [
+              720,
+              960
+            ],
+            "id": "8081A973",
+            "mediaRef": "72A7DB1D",
+            "track": 0,
+            "transform": {
+              "height": 0.316
+            }
+          }
+        ]
+      }
+    },
+    {
+      "label": "fit Film Grain crop / clip D7E04831",
+      "tool": "set_keyframes",
+      "actionId": "3612916F",
+      "result": {
+        "actionId": "3612916F",
+        "clips": [
+          {
+            "crop": {
+              "left": 0.342,
+              "right": 0.342
+            },
+            "frames": [
+              960,
+              1200
+            ],
+            "id": "D7E04831",
+            "mediaRef": "72A7DB1D",
+            "track": 0,
+            "transform": {
+              "height": 0.316
+            }
+          }
+        ]
+      }
+    },
+    {
+      "label": "fit Film Grain scale / clip D7E04831",
+      "tool": "set_keyframes",
+      "actionId": "A10FE731",
+      "result": {
+        "actionId": "A10FE731",
+        "clips": [
+          {
+            "crop": {
+              "left": 0.342,
+              "right": 0.342
+            },
+            "frames": [
+              960,
+              1200
+            ],
+            "id": "D7E04831",
+            "mediaRef": "72A7DB1D",
+            "track": 0,
+            "transform": {
+              "height": 0.316
+            }
+          }
+        ]
+      }
+    },
+    {
+      "label": "fit Film Grain position / clip D7E04831",
+      "tool": "set_keyframes",
+      "actionId": "B8A75140",
+      "result": {
+        "actionId": "B8A75140",
+        "clips": [
+          {
+            "crop": {
+              "left": 0.342,
+              "right": 0.342
+            },
+            "frames": [
+              960,
+              1200
+            ],
+            "id": "D7E04831",
+            "mediaRef": "72A7DB1D",
+            "track": 0,
+            "transform": {
+              "height": 0.316
+            }
+          }
+        ]
+      }
+    },
+    {
+      "label": "name track Film Grain",
+      "tool": "manage_tracks",
+      "actionId": "71FAAE58",
+      "result": {
+        "actionId": "71FAAE58",
+        "renamed": [
+          {
+            "changed": true,
+            "name": "Film Grain",
+            "trackId": "D61EA4FF"
+          }
+        ],
+        "tracks": [
+          {
+            "index": 0,
+            "label": "V4",
+            "name": "Film Grain",
+            "trackId": "D61EA4FF",
+            "type": "video"
+          },
+          {
+            "index": 1,
+            "label": "V3",
+            "name": "Foreground",
+            "trackId": "6BA71669",
+            "type": "video"
+          },
+          {
+            "index": 2,
+            "label": "V2",
+            "name": "Middle",
+            "trackId": "15D595CD",
+            "type": "video"
+          },
+          {
+            "index": 3,
+            "label": "V1",
+            "name": "Background",
+            "trackId": "29B3768F",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "label": "save complete montage snapshot",
+      "tool": "manage_snapshots",
+      "actionId": null,
+      "result": {
+        "snapshot": {
+          "author": {
+            "kind": "agent",
+            "name": "yt-stories-inspect"
+          },
+          "createdAt": "2026-11-01T08:23:43Z",
+          "name": "Paper layer automation draft ready for review",
+          "snapshotId": "29594822"
+        }
+      }
+    }
+  ],
+  "visible_project_before": "845D33BD",
+  "project_create_response": {
+    "canGenerate": false,
+    "fps": 30,
+    "id": "9A0EE170",
+    "mediaCount": 0,
+    "name": "Paper Detour 009 Knorozov Asya Draft 20261101",
+    "openCount": 7,
+    "path": "/Users/diplomat/Documents/Palmier Pro/Paper Detour 009 Knorozov Asya Draft 20261101.palmier",
+    "resolution": "1080x1920",
+    "status": "created",
+    "timelines": [
+      {
+        "name": "Timeline 1",
+        "timelineId": "AD205256",
+        "visible": true
+      }
+    ]
+  },
+  "project_id": "9A0EE170",
+  "project_path": "/Users/diplomat/Documents/Palmier Pro/Paper Detour 009 Knorozov Asya Draft 20261101.palmier",
+  "project_open": true,
+  "visible_project_after": "845D33BD",
+  "visual_command": [
+    "/Library/Developer/CommandLineTools/usr/bin/python3",
+    "/Users/diplomat/ytvideos/channels/paper_detour/automation/assemble_paper_layers.py",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/visual_manifest.json",
+    "--episode-root",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya",
+    "--execute",
+    "--project-id",
+    "9A0EE170"
+  ],
+  "visual_receipt": "/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_palmier_receipt.json",
+  "visual_stdout": "{\n  \"status\": \"ready_for_review\",\n  \"project_id\": \"9A0EE170\",\n  \"timeline_id\": \"6BF7F173\",\n  \"receipt\": \"/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_palmier_receipt.json\",\n  \"review_frames\": [\n    \"/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_frames/frame_000000.png\",\n    \"/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_frames/frame_000030.png\",\n    \"/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_frames/frame_000060.png\",\n    \"/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_frames/frame_000090.png\",\n    \"/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_frames/frame_000119.png\",\n    \"/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_frames/frame_000119.png\",\n    \"/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_frames/frame_000120.png\",\n    \"/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_frames/frame_000150.png\",\n    \"/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_frames/frame_000180.png\",\n    \"/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_frames/frame_000210.png\",\n    \"/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_frames/frame_000239.png\",\n    \"/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_frames/frame_000239.png\",\n    \"/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_frames/frame_000240.png\",\n    \"/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_frames/frame_000270.png\",\n    \"/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_frames/frame_000300.png\",\n    \"/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_frames/frame_000330.png\",\n    \"/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_frames/frame_000360.png\",\n    \"/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_frames/frame_000389.png\",\n    \"/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_frames/frame_000389.png\",\n    \"/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_frames/frame_000390.png\",\n    \"/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_frames/frame_000420.png\",\n    \"/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_frames/frame_000450.png\",\n    \"/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_frames/frame_000480.png\",\n    \"/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_frames/frame_000509.png\",\n    \"/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_frames/frame_000509.png\",\n    \"/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_frames/frame_000510.png\",\n    \"/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_frames/frame_000540.png\",\n    \"/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_frames/frame_000570.png\",\n    \"/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_frames/frame_000600.png\",\n    \"/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_frames/frame_000629.png\",\n    \"/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_frames/frame_000629.png\",\n    \"/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_frames/frame_000630.png\",\n    \"/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_frames/frame_000660.png\",\n    \"/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_frames/frame_000690.png\",\n    \"/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_frames/frame_000720.png\",\n    \"/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_frames/frame_000750.png\",\n    \"/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_frames/frame_000779.png\",\n    \"/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_frames/frame_000779.png\",\n    \"/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_frames/frame_000780.png\",\n    \"/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_frames/frame_000810.png\",\n    \"/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_frames/frame_000840.png\",\n    \"/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_frames/frame_000870.png\",\n    \"/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_frames/frame_000900.png\",\n    \"/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_frames/frame_000929.png\",\n    \"/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_frames/frame_000929.png\",\n    \"/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_frames/frame_000930.png\",\n    \"/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_frames/frame_000960.png\",\n    \"/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_frames/frame_000990.png\",\n    \"/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_frames/frame_001020.png\",\n    \"/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_frames/frame_001049.png\",\n    \"/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_frames/frame_001049.png\",\n    \"/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_frames/frame_001050.png\",\n    \"/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_frames/frame_001080.png\",\n    \"/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_frames/frame_001110.png\",\n    \"/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_frames/frame_001140.png\",\n    \"/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_frames/frame_001170.png\",\n    \"/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_frames/frame_001199.png\"\n  ]\n}\n",
+  "visual_stderr": "",
+  "visual_exit_code": 0,
+  "timeline_id": "6BF7F173",
+  "auxiliary_media": {
+    "Film Grain": "72A7DB1D"
+  },
+  "auxiliary_tracks": {
+    "Film Grain": {
+      "trackId": "D61EA4FF",
+      "clipIds": [
+        "F5162C86",
+        "8BA41156",
+        "21610AB4",
+        "8081A973",
+        "D7E04831"
+      ],
+      "type": "video",
+      "fit": "cover",
+      "video_info": {
+        "codec_name": "prores",
+        "width": 960,
+        "height": 540,
+        "pix_fmt": "yuva444p12le",
+        "r_frame_rate": "30/1",
+        "duration": "8.000000",
+        "has_alpha": true
+      },
+      "fit_crop_top_right_bottom_left": [
+        0.0,
+        0.341796875,
+        0.0,
+        0.341796875
+      ],
+      "clips": [
+        {
+          "start_frame": 0,
+          "end_frame": 240,
+          "source": [
+            0.0,
+            8.0
+          ],
+          "include_audio": false
+        },
+        {
+          "start_frame": 240,
+          "end_frame": 480,
+          "source": [
+            0.0,
+            8.0
+          ],
+          "include_audio": false
+        },
+        {
+          "start_frame": 480,
+          "end_frame": 720,
+          "source": [
+            0.0,
+            8.0
+          ],
+          "include_audio": false
+        },
+        {
+          "start_frame": 720,
+          "end_frame": 960,
+          "source": [
+            0.0,
+            8.0
+          ],
+          "include_audio": false
+        },
+        {
+          "start_frame": 960,
+          "end_frame": 1200,
+          "source": [
+            0.0,
+            8.0
+          ],
+          "include_audio": false
+        }
+      ]
+    }
+  },
+  "final_snapshot": {
+    "snapshot": {
+      "author": {
+        "kind": "agent",
+        "name": "yt-stories-inspect"
+      },
+      "createdAt": "2026-11-01T08:23:43Z",
+      "name": "Paper layer automation draft ready for review",
+      "snapshotId": "29594822"
+    }
+  },
+  "final_review_frames": [
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_final_frames/frame_000000.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_final_frames/frame_000059.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_final_frames/frame_000119.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_final_frames/frame_000120.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_final_frames/frame_000179.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_final_frames/frame_000239.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_final_frames/frame_000240.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_final_frames/frame_000314.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_final_frames/frame_000389.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_final_frames/frame_000390.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_final_frames/frame_000449.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_final_frames/frame_000509.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_final_frames/frame_000510.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_final_frames/frame_000569.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_final_frames/frame_000629.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_final_frames/frame_000630.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_final_frames/frame_000704.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_final_frames/frame_000779.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_final_frames/frame_000780.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_final_frames/frame_000854.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_final_frames/frame_000929.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_final_frames/frame_000930.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_final_frames/frame_000989.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_final_frames/frame_001049.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_final_frames/frame_001050.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_final_frames/frame_001124.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Edit/Automation/Paper_Detour_009_20261101/PD009_knorozov_asya_layered_draft_20261101_final_frames/frame_001199.png"
+  ],
+  "final_review_frames_count": 27,
+  "visible_project_switched": false,
+  "existing_timelines_modified": false
+}

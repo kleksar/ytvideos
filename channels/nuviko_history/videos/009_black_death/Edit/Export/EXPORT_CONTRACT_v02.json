@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "status": "RENDERED_TECHNICALLY_CHECKED",
+  "episode": "009_black_death",
+  "language": "en",
+  "format": "long film",
+  "purpose": "User-requested MP4 with dark fixed-baseline captions",
+  "settings_profile": {
+    "path": "/Users/diplomat/ytvideos/archive/legacy_stories/AGENTS.md",
+    "sha256": "1922e4ff2ec8661da92e84f722fd441d1525183ae934e379d410fa86a18113c8"
+  },
+  "edit": {
+    "project_id": "C7F9F043",
+    "timeline_id": "18E8E2BA",
+    "saved_revision_evidence": "Source snapshot 8B7A09FE; revised timeline snapshot 8924015B",
+    "timeline_read_path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/Subtitles/caption_fix_v03/after.json",
+    "timeline_read_sha256": "91c279a7451623b08fd617bf32463affc4f8f8976076ab9d98881e91a4d94d7d",
+    "dependencies": [
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Source/Recovered/black_death_original_audio.m4a",
+        "sha256": "b47d298fe38b3d50375be6a8e44ba2fd99123f5378c18bbb3c17058bccb43857",
+        "role": "unchanged original narration audio; timeline A1 source B1825175; 1.0x"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v03/captions/black_death_en_word_highlight_overlay_prores4444.mov",
+        "sha256": "0a10d5d1e0e371d4dcc6806c8c7d5b001ae294ae0726fa6bdc92c659e3e1da02",
+        "role": "dark fixed-baseline transparent word-highlight subtitle overlay"
+      }
+    ]
+  },
+  "timeline": {
+    "width": 1920,
+    "height": 1080,
+    "aspect_ratio": "16:9",
+    "sample_aspect_ratio": "1:1",
+    "fps": "30/1",
+    "frame_count": 21224,
+    "duration_seconds": 707.4666666666667,
+    "output_color_space": "rec709"
+  },
+  "required_delivery": {
+    "container": "MP4",
+    "video": {
+      "codec_name": "h264",
+      "pix_fmt": "yuv420p",
+      "scan": "progressive",
+      "cadence": "CFR 30/1",
+      "color_primaries": "bt709",
+      "color_transfer": "bt709",
+      "color_space": "bt709",
+      "color_range": "tv"
+    },
+    "audio_contract": {
+      "owner_handoff": "ytv-audio-delivery; original audio retained without speed or content changes",
+      "accepted_complete_mix": "black_death_original_audio.m4a copied as-is; 1.0x playback, complete source AAC-LC stream remuxed into final MP4 after Palmier video export",
+      "source_rate_channels": "44100 Hz, stereo; measured source duration 707.465578 s; AAC-LC 127999 b/s source",
+      "codec_name": "aac",
+      "profile": "LC",
+      "sample_rate": 44100,
+      "channels": 2,
+      "target_bit_rate": "copy source bitstream; measured 127999 b/s"
+    }
+  },
+  "encoding": {
+    "engine": "Palmier Pro 0.12.0 H.264 Match Timeline, then FFmpeg stream-copy remux of unchanged original AAC-LC source audio",
+    "version_evidence": "Palmier MCP connection verified 2026-11-03; adapter evidence 2026-11-02 in .agents/skills/ytv-video-export/references/palmier.md",
+    "requested_arguments": {
+      "projectId": "C7F9F043",
+      "timelineId": "18E8E2BA",
+      "mode": "video",
+      "codec": "H.264",
+      "resolution": "Match Timeline",
+      "overwrite": false,
+      "video_output_path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/Export/black_death_dark_captions_palmier_v02.mp4",
+      "final_remux": "ffmpeg -map 0:v:0 -map 1:a:0 -c:v copy -c:a copy -movflags +faststart"
+    },
+    "quality_preferences": {
+      "visual": "Rec.709 1080p landscape; all images 4\u20136 seconds; camera motion/parallax + accepted G08 grain; captions over motion, no non-subtitle titles",
+      "audio": "preserve source AAC frames exactly; no new sound; no audio re-encode"
+    },
+    "capability_evidence": "The current Palmier MCP export supports H.264 and Match Timeline but does not expose exact bitrate, CFR, profile or audio controls; original AAC preservation is achieved via verified stream-copy remux.",
+    "engine_managed_fields": [
+      "H.264 profile/level and bitrate",
+      "video cadence and final color tags",
+      "Palmier AAC stream (replaced by source stream after export)",
+      "container fast-start is applied by final FFmpeg remux"
+    ]
+  },
+  "preflight": {
+    "author": "Codex coordinator",
+    "time": "2026-11-03T06:05Z",
+    "authorization_references": [
+      "User requested fixed-height dark subtitle block and MP4 export"
+    ],
+    "fresh_settings_evidence": "timeline 18E8E2BA 1920x1080 30 fps Rec.709 21224 frames; original audio retained",
+    "writer_and_export_state": "Single target timeline writer; manage_exports list returned no jobs before render.",
+    "output_path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Deliverables/en/long/black_death_nuviko_en_v02.mp4",
+    "overwrite": false,
+    "media_lifecycle_receipt": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/MediaLifecycle/audit-caption-fix-v02/audit.json",
+    "unresolved_required_fields": []
+  },
+  "render_receipt": {
+    "palmier_job_id": "D4F179C9-FC7B-4C48-8F96-C70A53F354B6",
+    "status": "completed",
+    "final_path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Deliverables/en/long/black_death_nuviko_en_v02.mp4",
+    "final_sha256": "47438301aa8094ee0a9be1bb5ace1cc41f62cc3bb861e9f297a5db9f293becb9",
+    "frame_count": 21224,
+    "video": "H.264 1920x1080 30fps Rec.709",
+    "audio": "AAC LC stereo 44100 Hz original bitstream preserved",
+    "source_and_output_audio_packet_sha256": "4742b22b0dba5c37efe78f16f6473cc0cf1b4827bfc94d1a42d599022b56950f",
+    "full_decode": "passed without errors",
+    "visual_review": "four opening frames inspected; full film and audible sync not reviewed",
+    "youtube": "not uploaded"
+  }
+}

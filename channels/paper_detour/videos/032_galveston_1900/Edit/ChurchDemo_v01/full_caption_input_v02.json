@@ -1,0 +1,939 @@
+{
+  "version": 1,
+  "canvas": [
+    1672,
+    941
+  ],
+  "face_height_px": 88,
+  "min_face_height_px": 72,
+  "anchors": {
+    "primary": {
+      "center": [
+        0.5,
+        0.2
+      ],
+      "max_width_px": 1300,
+      "max_height_px": 300
+    },
+    "alternate": {
+      "center": [
+        0.22,
+        0.2
+      ],
+      "max_width_px": 670,
+      "max_height_px": 300
+    }
+  },
+  "scenes": [
+    {
+      "id": "R006",
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/paper_v01/scene_006_v01.png"
+    },
+    {
+      "id": "R013",
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/paper_v01/scene_013_v01.png"
+    },
+    {
+      "id": "R021",
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/paper_v01/scene_021_v01.png"
+    },
+    {
+      "id": "R035",
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/paper_v01/scene_035_v01.png"
+    },
+    {
+      "id": "R055",
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/paper_v01/scene_060_v01.png"
+    },
+    {
+      "id": "R056",
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/paper_v01/scene_056_v01.png"
+    },
+    {
+      "id": "R068",
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/paper_v01/scene_068_v01.png"
+    },
+    {
+      "id": "R072",
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/revision_v02/R072_v01.png"
+    },
+    {
+      "id": "R078",
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/paper_v01/scene_078_v01.png"
+    },
+    {
+      "id": "R083",
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/paper_v01/scene_083_v01.png"
+    },
+    {
+      "id": "R090",
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/paper_v01/scene_090_v01.png"
+    },
+    {
+      "id": "R096",
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/paper_v01/scene_096_v01.png"
+    },
+    {
+      "id": "R104",
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/paper_v01/scene_104_v01.png"
+    },
+    {
+      "id": "CH03",
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/church_v02/CH03_v01.png"
+    },
+    {
+      "id": "CH05",
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/paper_v01/scene_110_v01.png"
+    },
+    {
+      "id": "R120",
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/paper_v01/scene_120_v01.png"
+    },
+    {
+      "id": "R125",
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/revision_v02/R125_v01.png"
+    }
+  ],
+  "cues": [
+    {
+      "id": "P01",
+      "lines": [
+        "HOW DO YOU",
+        "SAVE A CITY?"
+      ],
+      "backend": {
+        "type": "existingPNG",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/revision_v02/P01_v01.png",
+        "face": {
+          "mode": "creamOrange",
+          "line_boxes": [
+            [
+              0,
+              0,
+              2146,
+              378
+            ],
+            [
+              0,
+              378,
+              2146,
+              733
+            ]
+          ]
+        },
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+        "status": "Imagegen glyphs individually viewed: exact spelling, cream face/orange cut layers; measured mask and composites pending"
+      },
+      "provenance": {
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/storyboard_v02.json",
+        "decision": {
+          "literal_candidate": "how do you save a city",
+          "complementary_candidate": "HOW DO YOU / SAVE A CITY?",
+          "no_text_candidate": "Image and narration remain understandable; omit if both safe anchors are occupied.",
+          "selected": "complementary framing",
+          "reason": "The rebuilding question is the hook; deliberately give it visual weight rather than repeat every sentence."
+        }
+      },
+      "timing": {
+        "status": "ALIGNMENT_BASED_UNLISTENED",
+        "global_frames": [
+          618,
+          714
+        ]
+      }
+    },
+    {
+      "id": "C03",
+      "lines": [
+        "LESS THAN",
+        "NINE FEET"
+      ],
+      "backend": {
+        "type": "existingPNG",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/accent_preflight_v04/cues/C03/cue.png",
+        "face": {
+          "mode": "mask",
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/accent_preflight_v04/cues/C03/face.png",
+          "line_boxes": [
+            [
+              0,
+              0,
+              476,
+              131
+            ],
+            [
+              0,
+              131,
+              476,
+              251
+            ]
+          ]
+        },
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/church_v02/T01_v01.png",
+        "status": "Retained accepted exact glyph PNG; new timing and paired composites require recheck"
+      },
+      "provenance": {
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/storyboard_v02.json",
+        "decision": {
+          "literal_candidate": "less than nine feet",
+          "complementary_candidate": "less than nine feet",
+          "no_text_candidate": "Image and narration remain understandable; omit if both safe anchors are occupied.",
+          "selected": "literal key emphasis",
+          "reason": "Retain an intentional key quantity; natural ground estimate, not the seawall datum."
+        }
+      },
+      "timing": {
+        "status": "ALIGNMENT_BASED_UNLISTENED",
+        "global_frames": [
+          1545,
+          1620
+        ]
+      }
+    },
+    {
+      "id": "C04",
+      "lines": [
+        "NO WEATHER",
+        "SATELLITES"
+      ],
+      "backend": {
+        "type": "existingPNG",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/accent_preflight_v04/cues/C04/cue.png",
+        "face": {
+          "mode": "mask",
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/accent_preflight_v04/cues/C04/face.png",
+          "line_boxes": [
+            [
+              0,
+              0,
+              473,
+              126
+            ],
+            [
+              0,
+              126,
+              473,
+              251
+            ]
+          ]
+        },
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/church_v02/T01_v01.png",
+        "status": "Retained accepted exact glyph PNG; new timing and paired composites require recheck"
+      },
+      "provenance": {
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/storyboard_v02.json",
+        "decision": {
+          "literal_candidate": "no weather satellites",
+          "complementary_candidate": "no weather satellites",
+          "no_text_candidate": "Image and narration remain understandable; omit if both safe anchors are occupied.",
+          "selected": "literal key emphasis",
+          "reason": "Intentional key absence in 1900 forecasting, not an exhaustive list revealed early."
+        }
+      },
+      "timing": {
+        "status": "ALIGNMENT_BASED_UNLISTENED",
+        "global_frames": [
+          2525,
+          2585
+        ]
+      }
+    },
+    {
+      "id": "C05",
+      "lines": [
+        "NEARLY SIXTEEN",
+        "FEET"
+      ],
+      "backend": {
+        "type": "existingPNG",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/accent_preflight_v04/cues/C05/cue.png",
+        "face": {
+          "mode": "mask",
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/accent_preflight_v04/cues/C05/face.png",
+          "line_boxes": [
+            [
+              0,
+              0,
+              583,
+              138
+            ],
+            [
+              0,
+              138,
+              583,
+              280
+            ]
+          ]
+        },
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/church_v02/T01_v01.png",
+        "status": "Retained accepted exact glyph PNG; new timing and paired composites require recheck"
+      },
+      "provenance": {
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/storyboard_v02.json",
+        "decision": {
+          "literal_candidate": "nearly sixteen feet",
+          "complementary_candidate": "nearly sixteen feet",
+          "no_text_candidate": "Image and narration remain understandable; omit if both safe anchors are occupied.",
+          "selected": "literal key emphasis",
+          "reason": "Retain estimated surge wording in its own scene, separate from all other levels."
+        }
+      },
+      "timing": {
+        "status": "ALIGNMENT_BASED_UNLISTENED",
+        "global_frames": [
+          4546,
+          4606
+        ]
+      }
+    },
+    {
+      "id": "C06",
+      "lines": [
+        "AT LEAST",
+        "SIX THOUSAND"
+      ],
+      "backend": {
+        "type": "existingPNG",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/accent_preflight_v04/cues/C06/cue.png",
+        "face": {
+          "mode": "mask",
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/accent_preflight_v04/cues/C06/face.png",
+          "line_boxes": [
+            [
+              0,
+              0,
+              520,
+              132
+            ],
+            [
+              0,
+              132,
+              520,
+              274
+            ]
+          ]
+        },
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/church_v02/T01_v01.png",
+        "status": "Retained accepted exact glyph PNG; new timing and paired composites require recheck"
+      },
+      "provenance": {
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/storyboard_v02.json",
+        "decision": {
+          "literal_candidate": "at least six thousand",
+          "complementary_candidate": "at least six thousand",
+          "no_text_candidate": "Image and narration remain understandable; omit if both safe anchors are occupied.",
+          "selected": "literal key emphasis",
+          "reason": "Sober minimum, not exact total; crosses into R056 and must be checked on both images."
+        }
+      },
+      "timing": {
+        "status": "ALIGNMENT_BASED_UNLISTENED",
+        "global_frames": [
+          7083,
+          7145
+        ]
+      }
+    },
+    {
+      "id": "C07",
+      "lines": [
+        "BETTER CHANCE",
+        "NEXT TIME"
+      ],
+      "backend": {
+        "type": "existingPNG",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/accent_preflight_v04/cues/C07/cue.png",
+        "face": {
+          "mode": "mask",
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/accent_preflight_v04/cues/C07/face.png",
+          "line_boxes": [
+            [
+              0,
+              0,
+              528,
+              132
+            ],
+            [
+              0,
+              132,
+              528,
+              273
+            ]
+          ]
+        },
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/church_v02/T01_v01.png",
+        "status": "Retained accepted exact glyph PNG; new timing and paired composites require recheck"
+      },
+      "provenance": {
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/storyboard_v02.json",
+        "decision": {
+          "literal_candidate": "better chance next time",
+          "complementary_candidate": "better chance next time",
+          "no_text_candidate": "Image and narration remain understandable; omit if both safe anchors are occupied.",
+          "selected": "literal key emphasis",
+          "reason": "A deliberate forward-looking hinge after the immediate recovery."
+        }
+      },
+      "timing": {
+        "status": "ALIGNMENT_BASED_UNLISTENED",
+        "global_frames": [
+          8835,
+          8889
+        ]
+      }
+    },
+    {
+      "id": "P02",
+      "lines": [
+        "A WALL",
+        "ISN\u2019T ENOUGH"
+      ],
+      "backend": {
+        "type": "existingPNG",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/revision_v02/P02_v01.png",
+        "face": {
+          "mode": "creamOrange",
+          "line_boxes": [
+            [
+              0,
+              0,
+              2140,
+              368
+            ],
+            [
+              0,
+              368,
+              2140,
+              735
+            ]
+          ]
+        },
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+        "status": "Imagegen glyphs individually viewed: exact spelling, cream face/orange cut layers; measured mask and composites pending"
+      },
+      "provenance": {
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/storyboard_v02.json",
+        "decision": {
+          "literal_candidate": "a problem behind it",
+          "complementary_candidate": "A WALL / ISN\u2019T ENOUGH",
+          "no_text_candidate": "Image and narration remain understandable; omit if both safe anchors are occupied.",
+          "selected": "complementary framing",
+          "reason": "Reveal the landward problem after the wall, without showing the next solution early."
+        }
+      },
+      "timing": {
+        "status": "ALIGNMENT_BASED_UNLISTENED",
+        "global_frames": [
+          9258,
+          9340
+        ]
+      }
+    },
+    {
+      "id": "C10",
+      "lines": [
+        "SEVENTEEN FEET"
+      ],
+      "backend": {
+        "type": "existingPNG",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/accent_preflight_v04/cues/C10/cue.png",
+        "face": {
+          "mode": "mask",
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/accent_preflight_v04/cues/C10/face.png",
+          "line_boxes": [
+            [
+              0,
+              0,
+              738,
+              122
+            ]
+          ]
+        },
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/church_v02/T01_v01.png",
+        "status": "Retained accepted exact glyph PNG; new timing and paired composites require recheck"
+      },
+      "provenance": {
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/storyboard_v02.json",
+        "decision": {
+          "literal_candidate": "seventeen feet",
+          "complementary_candidate": "seventeen feet",
+          "no_text_candidate": "Image and narration remain understandable; omit if both safe anchors are occupied.",
+          "selected": "literal key emphasis",
+          "reason": "Height above mean low water, no comparison axis to natural ground or surge."
+        }
+      },
+      "timing": {
+        "status": "ALIGNMENT_BASED_UNLISTENED",
+        "global_frames": [
+          10050,
+          10113
+        ]
+      }
+    },
+    {
+      "id": "C11",
+      "lines": [
+        "ABOUT",
+        "TWO THOUSAND",
+        "BUILDINGS"
+      ],
+      "backend": {
+        "type": "existingPNG",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/accent_preflight_v04/cues/C11/cue.png",
+        "face": {
+          "mode": "mask",
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/accent_preflight_v04/cues/C11/face.png",
+          "line_boxes": [
+            [
+              0,
+              0,
+              828,
+              114
+            ],
+            [
+              0,
+              114,
+              828,
+              219
+            ],
+            [
+              0,
+              219,
+              828,
+              331
+            ]
+          ]
+        },
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/church_v02/T01_v01.png",
+        "status": "Retained accepted exact glyph PNG; new timing and paired composites require recheck"
+      },
+      "provenance": {
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/storyboard_v02.json",
+        "decision": {
+          "literal_candidate": "About two thousand buildings",
+          "complementary_candidate": "About two thousand buildings",
+          "no_text_candidate": "Image and narration remain understandable; omit if both safe anchors are occupied.",
+          "selected": "literal key emphasis",
+          "reason": "Keep about and buildings; do not substitute count of all structures."
+        }
+      },
+      "timing": {
+        "status": "ALIGNMENT_BASED_UNLISTENED",
+        "global_frames": [
+          10702,
+          10777
+        ]
+      }
+    },
+    {
+      "id": "P03",
+      "lines": [
+        "THE CITY",
+        "STILL LIVED"
+      ],
+      "backend": {
+        "type": "existingPNG",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/revision_v02/P03_v01.png",
+        "face": {
+          "mode": "creamOrange",
+          "line_boxes": [
+            [
+              0,
+              0,
+              1918,
+              418
+            ],
+            [
+              0,
+              418,
+              1918,
+              820
+            ]
+          ]
+        },
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+        "status": "Imagegen glyphs individually viewed: exact spelling, cream face/orange cut layers; measured mask and composites pending"
+      },
+      "provenance": {
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/storyboard_v02.json",
+        "decision": {
+          "literal_candidate": "a living city",
+          "complementary_candidate": "THE CITY / STILL LIVED",
+          "no_text_candidate": "Image and narration remain understandable; omit if both safe anchors are occupied.",
+          "selected": "complementary framing",
+          "reason": "Add the contrast of ordinary life persisting inside the construction site."
+        }
+      },
+      "timing": {
+        "status": "ALIGNMENT_BASED_UNLISTENED",
+        "global_frames": [
+          11670,
+          11750
+        ]
+      }
+    },
+    {
+      "id": "C13",
+      "lines": [
+        "THE NEW GROUND"
+      ],
+      "backend": {
+        "type": "existingPNG",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/accent_preflight_v04/cues/C13/cue.png",
+        "face": {
+          "mode": "mask",
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/accent_preflight_v04/cues/C13/face.png",
+          "line_boxes": [
+            [
+              0,
+              0,
+              776,
+              157
+            ]
+          ]
+        },
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/church_v02/T01_v01.png",
+        "status": "Retained accepted exact glyph PNG; new timing and paired composites require recheck"
+      },
+      "provenance": {
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/storyboard_v02.json",
+        "decision": {
+          "literal_candidate": "the new ground",
+          "complementary_candidate": "the new ground",
+          "no_text_candidate": "Image and narration remain understandable; omit if both safe anchors are occupied.",
+          "selected": "literal key emphasis",
+          "reason": "Intentional label on the moment fill becomes the city\u2019s supporting ground."
+        }
+      },
+      "timing": {
+        "status": "ALIGNMENT_BASED_UNLISTENED",
+        "global_frames": [
+          12667,
+          12721
+        ]
+      }
+    },
+    {
+      "id": "P04",
+      "lines": [
+        "REBUILDING",
+        "HAD A PRICE"
+      ],
+      "backend": {
+        "type": "existingPNG",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/revision_v02/P04_v01.png",
+        "face": {
+          "mode": "creamOrange",
+          "line_boxes": [
+            [
+              0,
+              0,
+              2146,
+              398
+            ],
+            [
+              0,
+              398,
+              2146,
+              732
+            ]
+          ]
+        },
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+        "status": "Imagegen glyphs individually viewed: exact spelling, cream face/orange cut layers; measured mask and composites pending"
+      },
+      "provenance": {
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/storyboard_v02.json",
+        "decision": {
+          "literal_candidate": "property owners had to pay",
+          "complementary_candidate": "REBUILDING / HAD A PRICE",
+          "no_text_candidate": "Image and narration remain understandable; omit if both safe anchors are occupied.",
+          "selected": "complementary framing",
+          "reason": "Connect public engineering to household expense; no invented sum or bill."
+        }
+      },
+      "timing": {
+        "status": "ALIGNMENT_BASED_UNLISTENED",
+        "global_frames": [
+          13665,
+          13745
+        ]
+      }
+    },
+    {
+      "id": "T01",
+      "lines": [
+        "700 JACKS",
+        "ONE CHURCH"
+      ],
+      "backend": {
+        "type": "existingPNG",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/church_v02/T01_v01.png",
+        "face": {
+          "mode": "creamOrange",
+          "line_boxes": [
+            [
+              0,
+              0,
+              1919,
+              410
+            ],
+            [
+              0,
+              410,
+              1919,
+              820
+            ]
+          ]
+        },
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+        "status": "Imagegen glyphs individually viewed: exact spelling, cream face/orange cut layers; measured mask and composites pending"
+      },
+      "provenance": {
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/storyboard_v02.json",
+        "decision": {
+          "literal_candidate": "seven hundred jacks",
+          "complementary_candidate": "700 JACKS / ONE CHURCH",
+          "no_text_candidate": "Image and narration remain understandable; omit if both safe anchors are occupied.",
+          "selected": "complementary framing",
+          "reason": "The relation between small instruments and one immense building; one tool in image."
+        }
+      },
+      "timing": {
+        "status": "ALIGNMENT_BASED_UNLISTENED",
+        "global_frames": [
+          14498,
+          14563
+        ]
+      }
+    },
+    {
+      "id": "T02",
+      "lines": [
+        "MANY HANDS",
+        "ONE BUILDING"
+      ],
+      "backend": {
+        "type": "existingPNG",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/church_v02/T02_v01.png",
+        "face": {
+          "mode": "creamOrange",
+          "line_boxes": [
+            [
+              0,
+              0,
+              2146,
+              370
+            ],
+            [
+              0,
+              370,
+              2146,
+              733
+            ]
+          ]
+        },
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+        "status": "Imagegen glyphs individually viewed: exact spelling, cream face/orange cut layers; measured mask and composites pending"
+      },
+      "provenance": {
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/storyboard_v02.json",
+        "decision": {
+          "literal_candidate": "many smaller lifts",
+          "complementary_candidate": "MANY HANDS / ONE BUILDING",
+          "no_text_candidate": "Image and narration remain understandable; omit if both safe anchors are occupied.",
+          "selected": "complementary framing",
+          "reason": "A complementary human-scale conclusion anchored to patient coordination, not literal highlighting of the final word lifts."
+        }
+      },
+      "timing": {
+        "status": "ALIGNMENT_BASED_UNLISTENED",
+        "global_frames": [
+          14743,
+          14833
+        ]
+      }
+    },
+    {
+      "id": "P05",
+      "lines": [
+        "SAFER",
+        "NOT INVULNERABLE"
+      ],
+      "backend": {
+        "type": "existingPNG",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/revision_v02/P05_v01.png",
+        "face": {
+          "mode": "creamOrange",
+          "line_boxes": [
+            [
+              0,
+              0,
+              2172,
+              387
+            ],
+            [
+              0,
+              387,
+              2172,
+              724
+            ]
+          ]
+        },
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+        "status": "Imagegen glyphs individually viewed: exact spelling, cream face/orange cut layers; measured mask and composites pending"
+      },
+      "provenance": {
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/storyboard_v02.json",
+        "decision": {
+          "literal_candidate": "did not make Galveston invulnerable",
+          "complementary_candidate": "SAFER / NOT INVULNERABLE",
+          "no_text_candidate": "Image and narration remain understandable; omit if both safe anchors are occupied.",
+          "selected": "complementary framing",
+          "reason": "Frame the contrast between improved defense and continuing hurricane risk."
+        }
+      },
+      "timing": {
+        "status": "ALIGNMENT_BASED_UNLISTENED",
+        "global_frames": [
+          15990,
+          16062
+        ]
+      }
+    },
+    {
+      "id": "P06",
+      "lines": [
+        "GROUND",
+        "AT LAST"
+      ],
+      "backend": {
+        "type": "existingPNG",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/revision_v02/P06_v01.png",
+        "face": {
+          "mode": "creamOrange",
+          "line_boxes": [
+            [
+              0,
+              0,
+              1918,
+              421
+            ],
+            [
+              0,
+              421,
+              1918,
+              820
+            ]
+          ]
+        },
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+        "status": "Imagegen glyphs individually viewed: exact spelling, cream face/orange cut layers; measured mask and composites pending"
+      },
+      "provenance": {
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/storyboard_v02.json",
+        "decision": {
+          "literal_candidate": "changed the ground",
+          "complementary_candidate": "GROUND / AT LAST",
+          "no_text_candidate": "Image and narration remain understandable; omit if both safe anchors are occupied.",
+          "selected": "complementary framing",
+          "reason": "The filled entrance answers the opening void; put this short phrase on the alternate left zone to leave the actual door visible."
+        }
+      },
+      "timing": {
+        "status": "ALIGNMENT_BASED_UNLISTENED",
+        "global_frames": [
+          16713,
+          16798
+        ]
+      }
+    }
+  ],
+  "pairs": [
+    {
+      "scene": "R006",
+      "cue": "P01",
+      "anchor": "primary"
+    },
+    {
+      "scene": "R013",
+      "cue": "C03",
+      "anchor": "primary"
+    },
+    {
+      "scene": "R021",
+      "cue": "C04",
+      "anchor": "primary"
+    },
+    {
+      "scene": "R035",
+      "cue": "C05",
+      "anchor": "primary"
+    },
+    {
+      "scene": "R055",
+      "cue": "C06",
+      "anchor": "primary"
+    },
+    {
+      "scene": "R056",
+      "cue": "C06",
+      "anchor": "primary"
+    },
+    {
+      "scene": "R068",
+      "cue": "C07",
+      "anchor": "primary"
+    },
+    {
+      "scene": "R072",
+      "cue": "P02",
+      "anchor": "alternate"
+    },
+    {
+      "scene": "R078",
+      "cue": "C10",
+      "anchor": "primary"
+    },
+    {
+      "scene": "R083",
+      "cue": "C11",
+      "anchor": "primary"
+    },
+    {
+      "scene": "R090",
+      "cue": "P03",
+      "anchor": "primary"
+    },
+    {
+      "scene": "R096",
+      "cue": "C13",
+      "anchor": "primary"
+    },
+    {
+      "scene": "R104",
+      "cue": "P04",
+      "anchor": "primary"
+    },
+    {
+      "scene": "CH03",
+      "cue": "T01",
+      "anchor": "primary"
+    },
+    {
+      "scene": "CH05",
+      "cue": "T02",
+      "anchor": "alternate"
+    },
+    {
+      "scene": "R120",
+      "cue": "P05",
+      "anchor": "primary"
+    },
+    {
+      "scene": "R125",
+      "cue": "P06",
+      "anchor": "alternate"
+    }
+  ]
+}

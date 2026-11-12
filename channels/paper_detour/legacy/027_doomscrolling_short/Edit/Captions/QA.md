@@ -1,0 +1,20 @@
+# Captions and voice — technical preflight
+
+- Source voice: `Source/Voice/voice_en.mp3` and alignment are unchanged. `voice_en_105.wav` was generated once with FFmpeg `atempo=1.05`, PCM s16le mono 44.1 kHz, duration 37.716009 s. No second speed adjustment should be applied in Palmier.
+- `voice_en_105.en.srt`: 42 caption groups, 102 aligned words, at most three per group; non-overlapping intervals, end within 1132-frame timeline. All 102 positions derive from the original alignment divided by 1.05 and quantized to 30 fps, not confirmed by listening; FFmpeg atempo may alter local timing.
+- `captions_105.mov`: transparent ProRes 4444, `yuva444p12le`, 1080×1920, 30 fps, 1132 frames, 37.733333 s. Full decode with `ffmpeg -xerror` passed. Script: `render_captions.py`, data: `caption_plan.json`, intermediate runs: `runs.ffconcat` and `frames/`.
+- Automated geometry check inspected all 102 active-word PNGs. Every line is centered within 5 px and active-word highlighting preserves each line’s complete alpha bounding box. The reference line starts near Y=1410; final safe area and collision with faces/objects must be checked against the actual moving composited images.
+- Decoded all 1132 frames of the encoded MOV; cropped the subtitle region and compared active-word yellow mask centroid against the planned state on every frame. 0 mismatches. This confirms overlay encoding and frame sequence, not synchronization with audible words.
+- Actual voice, pronunciation of “The Tatler,” audio quality, and final subtitles against the speech have not been assessed by ear. No complete composite has yet been inspected; no claim of final accessibility or placement is made.
+
+## Phone scene placement correction — v2
+
+- `captions_105_upper_scene05_v2.mov`: frame indices **515–754 inclusive** use caption top y≈750 instead of y≈1410 to avoid the phone in scene 05. All other frames retain the original position. At each cut, a caption continuing across the boundary changes height on the cut itself; words stay fixed horizontally while highlighted.
+- Encoded asset is 1080×1920/30, 1132 frames, 37.733333 seconds, ProRes 4444 `yuva444p12le`. The original `captions_105.mov` remains intact; `captions_105_upper_scene05.mov` was an intermediate with an incorrect boundary (frame 754) and must not be used. Use the distinct v2 path for Palmier import; do not replace imported source assets on disk.
+- The v2 plan is `caption_plan_upper_scene05_v2.json`. Full decode passed `ffmpeg -xerror`. A separate `verify_upper_scene05_v2.py` decodes and checks the active yellow word and vertical band for every frame; all 1132 frames passed, including explicit boundary assertions at 514, 515, 754 and 755. The render script was subsequently updated for v3. This does not replace a full review of the assembled, moving composite.
+
+## Phone and writing scenes — v3
+
+- Current corrected layer `captions_105_scenes05_06_v3.mov`: frames [515,755) use y≈750 over the phone scene, frames [755,979) y≈1000 over the writing scene, all other frames keep y≈1410. `render_captions.py` now generates this v3 file; prior layers remain intact. `caption_plan_scenes05_06_v3.json` records the frame boundaries.
+- `ffprobe`: transparent ProRes 4444, `yuva444p12le`, 1080×1920/30, 1132 frames. Full FFmpeg `-xerror` decode passed. `verify_scenes05_06_v3.py` decoded every frame and checked yellow active-word position and band against the caption plan; 0 mismatches in 1132 frames. Explicit assertions cover 514/515, 754/755, 978/979, and all 102 text-state alpha bounds remain centered.
+- Visual check was limited to 12 sampled frames of the separate silent preview `Edit/QC/visual_preview_silent_v2.mp4`: the displayed writing-scene captions sit over the sweater, clear of the face, writing hand, and notebook at the sampled moments; the longest phrase overlaps a small part of the resting forearm. Scene 05 captions are above the phone at the sampled moments. The remaining frames, actual Palmier composite, audio timing, and pronunciation have not been visually/audibly reviewed in full.

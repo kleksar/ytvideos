@@ -1,0 +1,445 @@
+{
+  "created_utc": "2026-11-02T06:38:32.519482+00:00",
+  "media": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Work/church-demo-v01/previews/032_church_g08_technical_v01.mp4",
+  "plan": {
+    "frame_count": 668,
+    "fps": "30/1",
+    "scene_seconds": [
+      4,
+      6
+    ],
+    "freshness": {
+      "status": "CURRENT",
+      "evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Edit/ChurchDemo_v01/motion_target_pre_export.json"
+    },
+    "expected": {
+      "video": {
+        "width": 2560,
+        "height": 1440,
+        "codec_name": "h264",
+        "pix_fmt": "yuv420p",
+        "color_space": "bt709"
+      },
+      "audio": {
+        "required": true,
+        "codec_name": "aac",
+        "channels": 2,
+        "sample_rate": 48000
+      }
+    },
+    "scenes": [
+      {
+        "id": "TECH1",
+        "start": 0,
+        "end": 167
+      },
+      {
+        "id": "TECH2",
+        "start": 167,
+        "end": 334
+      },
+      {
+        "id": "TECH3",
+        "start": 334,
+        "end": 501
+      },
+      {
+        "id": "TECH4",
+        "start": 501,
+        "end": 668
+      }
+    ],
+    "cues": [
+      {
+        "id": "C14",
+        "start": 325,
+        "end": 379,
+        "entry_end": 329,
+        "exit_start": 374
+      },
+      {
+        "id": "C15",
+        "start": 615,
+        "end": 668,
+        "entry_end": 619
+      }
+    ],
+    "extra_frames": [
+      41,
+      125,
+      208,
+      292,
+      325,
+      327,
+      329,
+      348,
+      360,
+      373,
+      374,
+      375,
+      376,
+      378,
+      459,
+      542,
+      615,
+      617,
+      619,
+      626,
+      638,
+      641,
+      666,
+      667
+    ]
+  },
+  "policy_failures": [],
+  "failures": [],
+  "reported_freshness": {
+    "status": "CURRENT",
+    "evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Edit/ChurchDemo_v01/motion_target_pre_export.json"
+  },
+  "checks": {
+    "stream_metadata": "PASS",
+    "full_decode": "PASS",
+    "frame_extraction": "PASS",
+    "frame_sampling": "UNVERIFIED",
+    "motion_framing": "UNVERIFIED",
+    "cue_timing": "UNVERIFIED",
+    "audio_signal": "UNVERIFIED",
+    "subjective_audio_listening": "UNVERIFIED",
+    "independent_review": "UNVERIFIED"
+  },
+  "inspected_frame_indices": [],
+  "requested_frame_indices": [
+    0,
+    41,
+    83,
+    125,
+    166,
+    167,
+    208,
+    250,
+    292,
+    324,
+    325,
+    327,
+    329,
+    333,
+    334,
+    348,
+    351,
+    360,
+    373,
+    374,
+    375,
+    376,
+    378,
+    379,
+    417,
+    459,
+    500,
+    501,
+    542,
+    584,
+    614,
+    615,
+    617,
+    619,
+    626,
+    638,
+    641,
+    666,
+    667
+  ],
+  "sha256": "d1c730afcab7f367150c6fefc47a48a99a101042c1727237eff3c1c294bd3329",
+  "streams": [
+    {
+      "index": 0,
+      "codec_name": "h264",
+      "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+      "profile": "High",
+      "codec_type": "video",
+      "codec_tag_string": "avc1",
+      "codec_tag": "0x31637661",
+      "mime_codec_string": "avc1.640032",
+      "width": 2560,
+      "height": 1440,
+      "coded_width": 2560,
+      "coded_height": 1440,
+      "has_b_frames": 2,
+      "pix_fmt": "yuv420p",
+      "level": 50,
+      "color_range": "tv",
+      "color_space": "bt709",
+      "color_transfer": "bt709",
+      "color_primaries": "bt709",
+      "chroma_location": "left",
+      "field_order": "progressive",
+      "is_avc": "true",
+      "nal_length_size": "4",
+      "id": "0x1",
+      "r_frame_rate": "30/1",
+      "avg_frame_rate": "30/1",
+      "time_base": "1/19200",
+      "start_pts": 0,
+      "start_time": "0.000000",
+      "duration_ts": 427520,
+      "duration": "22.266667",
+      "bit_rate": "15911841",
+      "bits_per_raw_sample": "8",
+      "nb_frames": "668",
+      "extradata_size": 35,
+      "disposition": {
+        "default": 1,
+        "dub": 0,
+        "original": 0,
+        "comment": 0,
+        "lyrics": 0,
+        "karaoke": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "visual_impaired": 0,
+        "clean_effects": 0,
+        "attached_pic": 0,
+        "timed_thumbnails": 0,
+        "non_diegetic": 0,
+        "captions": 0,
+        "descriptions": 0,
+        "metadata": 0,
+        "dependent": 0,
+        "still_image": 0,
+        "multilayer": 0
+      },
+      "tags": {
+        "language": "und",
+        "handler_name": "Core Media Video"
+      }
+    },
+    {
+      "index": 1,
+      "codec_name": "aac",
+      "codec_long_name": "AAC (Advanced Audio Coding)",
+      "profile": "LC",
+      "codec_type": "audio",
+      "codec_tag_string": "mp4a",
+      "codec_tag": "0x6134706d",
+      "mime_codec_string": "mp4a.40.2",
+      "sample_fmt": "fltp",
+      "sample_rate": "48000",
+      "channels": 2,
+      "channel_layout": "stereo",
+      "bits_per_sample": 0,
+      "initial_padding": 0,
+      "id": "0x2",
+      "r_frame_rate": "0/0",
+      "avg_frame_rate": "0/0",
+      "time_base": "1/48000",
+      "start_pts": 0,
+      "start_time": "0.000000",
+      "duration_ts": 1068768,
+      "duration": "22.266000",
+      "bit_rate": "256438",
+      "nb_frames": "1045",
+      "extradata_size": 5,
+      "disposition": {
+        "default": 1,
+        "dub": 0,
+        "original": 0,
+        "comment": 0,
+        "lyrics": 0,
+        "karaoke": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "visual_impaired": 0,
+        "clean_effects": 0,
+        "attached_pic": 0,
+        "timed_thumbnails": 0,
+        "non_diegetic": 0,
+        "captions": 0,
+        "descriptions": 0,
+        "metadata": 0,
+        "dependent": 0,
+        "still_image": 0,
+        "multilayer": 0
+      },
+      "tags": {
+        "language": "und",
+        "handler_name": "SoundHandler"
+      }
+    }
+  ],
+  "decoded_video_frames": 668,
+  "audio_measurements": {
+    "stream": "0:a:0",
+    "method": "sample levels and silence candidates; not listening",
+    "mean_dbfs": [
+      "-21.4"
+    ],
+    "sample_peak_dbfs": [
+      "-2.9"
+    ],
+    "silence_candidate_threshold_dbfs": -50,
+    "minimum_silence_seconds": 0.25
+  },
+  "audio_analysis_execution": "PASS",
+  "frame_map": [
+    {
+      "index": 0,
+      "path": "../../../Work/church-demo-v01/previews/qa/000000.png"
+    },
+    {
+      "index": 41,
+      "path": "../../../Work/church-demo-v01/previews/qa/000001.png"
+    },
+    {
+      "index": 83,
+      "path": "../../../Work/church-demo-v01/previews/qa/000002.png"
+    },
+    {
+      "index": 125,
+      "path": "../../../Work/church-demo-v01/previews/qa/000003.png"
+    },
+    {
+      "index": 166,
+      "path": "../../../Work/church-demo-v01/previews/qa/000004.png"
+    },
+    {
+      "index": 167,
+      "path": "../../../Work/church-demo-v01/previews/qa/000005.png"
+    },
+    {
+      "index": 208,
+      "path": "../../../Work/church-demo-v01/previews/qa/000006.png"
+    },
+    {
+      "index": 250,
+      "path": "../../../Work/church-demo-v01/previews/qa/000007.png"
+    },
+    {
+      "index": 292,
+      "path": "../../../Work/church-demo-v01/previews/qa/000008.png"
+    },
+    {
+      "index": 324,
+      "path": "../../../Work/church-demo-v01/previews/qa/000009.png"
+    },
+    {
+      "index": 325,
+      "path": "../../../Work/church-demo-v01/previews/qa/000010.png"
+    },
+    {
+      "index": 327,
+      "path": "../../../Work/church-demo-v01/previews/qa/000011.png"
+    },
+    {
+      "index": 329,
+      "path": "../../../Work/church-demo-v01/previews/qa/000012.png"
+    },
+    {
+      "index": 333,
+      "path": "../../../Work/church-demo-v01/previews/qa/000013.png"
+    },
+    {
+      "index": 334,
+      "path": "../../../Work/church-demo-v01/previews/qa/000014.png"
+    },
+    {
+      "index": 348,
+      "path": "../../../Work/church-demo-v01/previews/qa/000015.png"
+    },
+    {
+      "index": 351,
+      "path": "../../../Work/church-demo-v01/previews/qa/000016.png"
+    },
+    {
+      "index": 360,
+      "path": "../../../Work/church-demo-v01/previews/qa/000017.png"
+    },
+    {
+      "index": 373,
+      "path": "../../../Work/church-demo-v01/previews/qa/000018.png"
+    },
+    {
+      "index": 374,
+      "path": "../../../Work/church-demo-v01/previews/qa/000019.png"
+    },
+    {
+      "index": 375,
+      "path": "../../../Work/church-demo-v01/previews/qa/000020.png"
+    },
+    {
+      "index": 376,
+      "path": "../../../Work/church-demo-v01/previews/qa/000021.png"
+    },
+    {
+      "index": 378,
+      "path": "../../../Work/church-demo-v01/previews/qa/000022.png"
+    },
+    {
+      "index": 379,
+      "path": "../../../Work/church-demo-v01/previews/qa/000023.png"
+    },
+    {
+      "index": 417,
+      "path": "../../../Work/church-demo-v01/previews/qa/000024.png"
+    },
+    {
+      "index": 459,
+      "path": "../../../Work/church-demo-v01/previews/qa/000025.png"
+    },
+    {
+      "index": 500,
+      "path": "../../../Work/church-demo-v01/previews/qa/000026.png"
+    },
+    {
+      "index": 501,
+      "path": "../../../Work/church-demo-v01/previews/qa/000027.png"
+    },
+    {
+      "index": 542,
+      "path": "../../../Work/church-demo-v01/previews/qa/000028.png"
+    },
+    {
+      "index": 584,
+      "path": "../../../Work/church-demo-v01/previews/qa/000029.png"
+    },
+    {
+      "index": 614,
+      "path": "../../../Work/church-demo-v01/previews/qa/000030.png"
+    },
+    {
+      "index": 615,
+      "path": "../../../Work/church-demo-v01/previews/qa/000031.png"
+    },
+    {
+      "index": 617,
+      "path": "../../../Work/church-demo-v01/previews/qa/000032.png"
+    },
+    {
+      "index": 619,
+      "path": "../../../Work/church-demo-v01/previews/qa/000033.png"
+    },
+    {
+      "index": 626,
+      "path": "../../../Work/church-demo-v01/previews/qa/000034.png"
+    },
+    {
+      "index": 638,
+      "path": "../../../Work/church-demo-v01/previews/qa/000035.png"
+    },
+    {
+      "index": 641,
+      "path": "../../../Work/church-demo-v01/previews/qa/000036.png"
+    },
+    {
+      "index": 666,
+      "path": "../../../Work/church-demo-v01/previews/qa/000037.png"
+    },
+    {
+      "index": 667,
+      "path": "../../../Work/church-demo-v01/previews/qa/000038.png"
+    }
+  ],
+  "frames_directory": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Work/church-demo-v01/previews/qa",
+  "technical_status": "PASS",
+  "verdict": "UNVERIFIED"
+}

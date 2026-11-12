@@ -1,0 +1,133 @@
+{
+  "project": {
+    "name": "1",
+    "path": "/Users/diplomat/ytvideos/channels/nuviko_stories/videos/1/1.palmier"
+  },
+  "timelineId": "6FB7B8EE",
+  "sourceDimensions": [
+    941,
+    1672
+  ],
+  "fps": 30,
+  "totalFrames": 4201,
+  "originalPriorToPreviousResize": {
+    "width": 0.85,
+    "implicitHeight": 0.849548352816153
+  },
+  "before": [
+    {
+      "fadeInInterpolation": "smooth",
+      "frames": [
+        0,
+        150
+      ],
+      "id": "73E02469",
+      "mediaRef": "51E07247",
+      "mediaType": "image",
+      "transform": {
+        "centerX": 0.425,
+        "centerY": 0.656,
+        "width": 0.723
+      },
+      "trimEndFrame": 51
+    },
+    {
+      "fadeInFrames": 20,
+      "fadeInInterpolation": "smooth",
+      "frames": [
+        3890,
+        4040
+      ],
+      "id": "3B3984C9",
+      "mediaRef": "51E07247",
+      "mediaType": "image",
+      "transform": {
+        "centerX": 0.425,
+        "centerY": 0.656,
+        "width": 0.723
+      },
+      "trimEndFrame": 51
+    }
+  ],
+  "after": [
+    {
+      "fadeInInterpolation": "smooth",
+      "frames": [
+        0,
+        150
+      ],
+      "id": "73E02469",
+      "mediaRef": "51E07247",
+      "mediaType": "image",
+      "transform": {
+        "centerX": 0.425,
+        "centerY": 0.656,
+        "height": 0.722,
+        "width": 0.85
+      },
+      "trimEndFrame": 51
+    },
+    {
+      "fadeInFrames": 20,
+      "fadeInInterpolation": "smooth",
+      "frames": [
+        3890,
+        4040
+      ],
+      "id": "3B3984C9",
+      "mediaRef": "51E07247",
+      "mediaType": "image",
+      "transform": {
+        "centerX": 0.425,
+        "centerY": 0.656,
+        "height": 0.722,
+        "width": 0.85
+      },
+      "trimEndFrame": 51
+    }
+  ],
+  "targetHeight": 0.72211609989373,
+  "otherClipsUnchanged": 635,
+  "result": {
+    "changed": true,
+    "clips": [
+      {
+        "fadeInInterpolation": "smooth",
+        "frames": [
+          0,
+          150
+        ],
+        "id": "73E02469",
+        "mediaRef": "51E07247",
+        "mediaType": "image",
+        "track": 5,
+        "transform": {
+          "centerX": 0.425,
+          "centerY": 0.656,
+          "height": 0.722,
+          "width": 0.85
+        },
+        "trimEndFrame": 51
+      },
+      {
+        "fadeInFrames": 20,
+        "fadeInInterpolation": "smooth",
+        "frames": [
+          3890,
+          4040
+        ],
+        "id": "3B3984C9",
+        "mediaRef": "51E07247",
+        "mediaType": "image",
+        "track": 5,
+        "transform": {
+          "centerX": 0.425,
+          "centerY": 0.656,
+          "height": 0.722,
+          "width": 0.85
+        },
+        "trimEndFrame": 51
+      }
+    ]
+  }
+}

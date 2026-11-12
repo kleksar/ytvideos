@@ -1,0 +1,9 @@
+# Paper038 English narration
+
+Current English source: narration_en_v09.txt, faithful translation of current RU v07. Discussion source RU v06 remains preserved. Production audio covered by current root §5 and continued production request. No Extra High consultation claimed; session waiver retained.
+
+ElevenLabs Lawrence `ktkP7Nsj67dw2zcplQYt`, eleven_v4, stability1.0, similarity0.0, speed unset. One full9598-character request and one65-character replacement request; no blind retries. Actual MP3 sources44.1kHz/mono/128kbps; full source614.16s. Full decode passed. Provider timestamps overhang the ending by0.32s and differ locally from ASR; they are not final subtitle sync. MCP transcription confirms final question exists completely.
+
+An author translation check found S093 wrongly implied Kira caused the conflict. Current sentence: “They must be certain that this is the very man they came to find.” Only that sentence was resynthesized. Current `voice_en_patched.wav`: PCM16/44.1kHz/mono,614.16s; decoded original samples outside400.0–404.8s identical. Patch inserted with0.2s leading silence and padding, no speed/gain change. This does not claim lossless synthesis or improved original MP3 detail. VOICE_PATCH_RECEIPT_v09.json contains hashes. New MCP ASR392–413s confirms corrected sentence and surrounding speech. Original sources retained.
+
+No subjective listening, historical-name pronunciation acceptance, full verbatim ASR reconciliation, loudness/mix QA or independent review claimed. Audio is an assembly source pending those checks. Old character offsets must not drive ENv09 subtitles without conform; cues outside the patch retain actual-word timing because total duration and outside samples are unchanged. Palmier WAV clip18424frames; main narration scene ends18426; final spoken word precedes that boundary on ASR.

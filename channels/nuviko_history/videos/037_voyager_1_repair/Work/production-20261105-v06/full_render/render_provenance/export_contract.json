@@ -1,0 +1,176 @@
+{
+  "status": "READY_TO_RENDER",
+  "episode": "037_voyager_1_repair",
+  "channel": "Nuviko History",
+  "language": "en",
+  "format": "long",
+  "purpose": "User review, not upload accepted",
+  "profile": {
+    "path": "/Users/diplomat/ytvideos/.agents/skills/ytv-video-export/references/delivery.md",
+    "sha256": "494eb3736b9a39861949084e6623b2033bbd2ea9c4cdef31c48f035938dc89a6"
+  },
+  "edit": {
+    "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Edit/Production/v06/montage_en_v06.json",
+    "sha256": "437f574da1d4460cbd99a3edac573f4dfc7d5dbad94fa76b6fbcc3ab304e7dbb",
+    "timeline_id": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Edit/Production/v06/montage_en_v06.json"
+  },
+  "scene_manifest": {
+    "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Edit/Production/v06/assets_manifest_v06.json",
+    "sha256": "00ce7b1bb7856e2d32966ec9819d52a91b5a081249fcff75b34be04278dee875"
+  },
+  "subtitle_contract": {
+    "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Work/production-20261105-v06/subtitle_prep/subtitle_contract.json",
+    "sha256": "adf2de4dfb4bea6320db69ae799aab672517ff17177b2d7d59f35a0a131b98bf"
+  },
+  "subtitle_review": {
+    "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Work/production-20261105-v06/subtitle_prep/subtitle_review.json",
+    "sha256": "5085af91dd0f95fe76a6d8fc9f58fe4e57212c344e67826fe142c6d97d9f123d"
+  },
+  "timeline": {
+    "width": 2560,
+    "height": 1440,
+    "aspect_ratio": "16:9",
+    "sample_aspect_ratio": "1:1",
+    "fps": 30,
+    "frame_count": 6353,
+    "duration_seconds": 211.76666666666668,
+    "output_color_space": "Rec.709 SDR"
+  },
+  "required": {
+    "container": "mp4",
+    "video_codec": "h264",
+    "pixel_format": "yuv420p",
+    "progressive": true,
+    "primaries": "bt709",
+    "transfer": "bt709",
+    "matrix": "bt709",
+    "range": "tv",
+    "audio_codec": "aac",
+    "audio_profile": "LC",
+    "audio_sample_rate": 48000,
+    "audio_channels": 1,
+    "audio_target_bitrate": 192000
+  },
+  "source_colour_mapping": "sRGB RGB PNG -> RGB24 -> bt709 matrix limited yuv444p -> colorspace transfer srgb to bt709, range tv -> yuv420p; actual filters in renderer, not tags alone",
+  "source_quality_decision": "Selected generated PNGs are mostly native 1672x941, with several wider sources. 2560x1440 is an upsampled review canvas, not native extra detail. All 44 sources and 132 static caption/camera previews reviewed by coordinator; gentle whole-image zoom 1.000–1.018, no black borders observed in previews.",
+  "audio": {
+    "source_voice": {
+      "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Voice/en_v01_nuviko/voice_en.mp3",
+      "sha256": "446631519da90e5f520f3066e43192112cb0176a4982d4ae56836489d832ee09"
+    },
+    "full_mix": {
+      "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Audio/en_v02/mix_en_v02.wav",
+      "sha256": "5fda59e4a321fa64bfc2ebff428e901976502dcb43eaf1f56af4f36b80660363"
+    },
+    "mapping": "Reuse existing 48000 Hz mono complete mix unchanged; no cuts, offset, gain or second speed change. Prior mix construction evidence remains at en_v02.",
+    "applied_speed": 1.1,
+    "speed_evidence": {
+      "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Audio/en_v02/speed_evidence.md",
+      "sha256": "829a3eb04ab2f6e7120ec11f177edfefd1b4ec057169dc92c2b0bbc7f55a9267"
+    },
+    "measured_pre_render": {
+      "I_LUFS": -22.1,
+      "LRA_LU": 3.6,
+      "true_peak_dBFS": -1.2,
+      "log": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Work/production-20261104-v02/mix_levels.log"
+    },
+    "audible_review": "UNVERIFIED"
+  },
+  "encoder": {
+    "name": "h264_videotoolbox",
+    "requested_video_bitrate": "20M",
+    "faststart": true,
+    "preferred_High_CABAC_GOP15_B2_closed_GOP": "AUTO_ENGINE_MANAGED: renderer does not expose these controls; no measured profile/GOP claim",
+    "actual_bitrate": "UNVERIFIED until explicit post-render audit"
+  },
+  "command": [
+    "python3",
+    "automation/ffmpeg_montage/montage.py",
+    "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Edit/Production/v06/montage_en_v06.json",
+    "--output",
+    "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Deliverables/voyager_037_en_v06_review_v01.mp4",
+    "--work-dir",
+    "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Work/production-20261105-v06/full_render",
+    "--jobs",
+    "2",
+    "--encoder",
+    "h264_videotoolbox",
+    "--bitrate",
+    "20M"
+  ],
+  "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Deliverables/voyager_037_en_v06_review_v01.mp4",
+  "occupancy": "New owned output and work directory; no conflicting writer identified",
+  "authorizations": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Edit/Production/v02/USER_SCOPE_20261104.json",
+  "preflight": {
+    "author": "Coordinator, not independent",
+    "review": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Work/production-20261105-v06/subtitle_prep/subtitle_review.json",
+    "coverage": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Edit/Production/v06/preflight_frame_coverage.json",
+    "lifecycle_audit": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Edit/MediaLifecycle/pre-render-v06/audit.json",
+    "open_checks": [
+      "No human audio listening; audible sync remains UNVERIFIED.",
+      "No independent review or encoded-motion playback.",
+      "MP4 user acceptance pending. Immediate delivery after successful render, no post-render checks."
+    ],
+    "upload_ready": false,
+    "unresolved_required_fields": [],
+    "output_path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Deliverables/voyager_037_en_v06_review_v01.mp4",
+    "fresh_settings_evidence": "Shared montage renderer --check-settings validates actual invocation.",
+    "writer_and_export_state": "New owned v06 output and run directory.",
+    "overwrite": false
+  },
+  "completion": {},
+  "authorization": "Current direct user request to deliver revised Voyager MP4; concrete episode exception to frozen Nuviko channel. Historical visual references, illustrated host inside photographic environment, unchanged accepted English narration and mix.",
+  "preflight_note": "44 selected source files individually inspected. Corrected 11 image mappings and selected 16 new source versions. 132 static composites inspected; no final encoded AV review claimed.",
+  "required_delivery": {
+    "container": "MP4",
+    "video": {
+      "codec_name": "h264",
+      "pix_fmt": "yuv420p",
+      "scan": "progressive",
+      "cadence": "constant 30/1 fps",
+      "color_primaries": "bt709",
+      "color_transfer": "bt709",
+      "color_space": "bt709",
+      "color_range": "tv"
+    },
+    "audio_contract": {
+      "owner_handoff": {
+        "skill": "ytv-audio-delivery",
+        "note": "Existing accepted mono mix, no change"
+      },
+      "accepted_complete_mix": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Audio/en_v02/mix_en_v02.wav",
+        "sha256": "5fda59e4a321fa64bfc2ebff428e901976502dcb43eaf1f56af4f36b80660363"
+      },
+      "source_rate_channels": {
+        "sample_rate": 48000,
+        "channels": 1
+      },
+      "codec_name": "aac",
+      "profile": "LC",
+      "sample_rate": 48000,
+      "channels": 1,
+      "target_bit_rate": 192000
+    }
+  },
+  "encoding": {
+    "engine": "h264_videotoolbox",
+    "requested_arguments": {
+      "encoder": "h264_videotoolbox",
+      "video_bitrate": "20M",
+      "output_pix_fmt": "yuv420p",
+      "fps": "30/1",
+      "audio_codec": "aac",
+      "audio_profile": "aac_low",
+      "audio_bitrate": 192000,
+      "audio_sample_rate": 48000,
+      "audio_channels": 1
+    },
+    "quality_preferences": {
+      "faststart": true
+    },
+    "engine_managed_fields": [
+      "High profile/CABAC/GOP/level"
+    ]
+  }
+}

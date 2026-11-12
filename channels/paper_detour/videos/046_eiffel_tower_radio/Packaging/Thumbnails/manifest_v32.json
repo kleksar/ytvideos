@@ -1,0 +1,65 @@
+{
+  "episode": "046_eiffel_tower_radio",
+  "source_edit": "Paper_Detour_046_Eiffel_Tower_Radio_EN_v31_review_02.mp4",
+  "source_edit_sha256": "5b8a647a01e26df6e053d56c9e451b8cd3656012d35c110574ebcd93bb281a33",
+  "consultation": "../Metadata/CONSULTATION_PACKAGING_V32.md",
+  "concept_index": "CONCEPT_INDEX_V32.md",
+  "exact_generation_prompts": "GENERATION_PROMPTS_V32.md",
+  "scope": "Three portrait cover proposals only. No upload, YouTube selection, live card or CTR check.",
+  "local_preview": {
+    "path": "covers_v32_phone_preview.jpg",
+    "method": "central 2:3 crop at 180x270 from thumbnail_previews.py; local simulation"
+  },
+  "options": [
+    {
+      "id": "A",
+      "recommended": true,
+      "title": "How France Used the Eiffel Tower for Military Radio",
+      "cover_text": "ANTENNAS ON TOP",
+      "path": "cover_A_v32_v01.png",
+      "sha256": "24e156b05c0ce28ac78f4a6195d8bac4ec01383a3cebc4c9a809c6659aaa3afa",
+      "dimensions": [941, 1672],
+      "output": "/Users/diplomat/.codex/generated_images/01a1a8ba-cb28-7003-96d7-e343ea5eeed0/exec-0de4a748-bb8c-44b0-9544-5e2815843dc3.png",
+      "references": [
+        {"path": "../../../../brand/References/bold_visual_hooks_20261105_v01/01.png", "sha256": "b82acf9b14d86957a1318b934166725678d16c7bd0f640bb1c0d773785f7a89a"},
+        {"path": "../../Source/Assets/images_v02/scene_20.png", "sha256": "7407e4317ebeb1bbb0ad0a2ca219cac6bf4d19b76bda0beeaf5ed1d3bb53ec32"}
+      ],
+      "crop_review": "At 180x270, complete phrase, tower summit, separate underground station and key tower/park relation remain visible. Local simulated crop only."
+    },
+    {
+      "id": "B",
+      "recommended": false,
+      "title": "French Forts Once Used Balloons to Raise Antennas",
+      "cover_text": "THE ANTENNA LIFTS",
+      "path": "cover_B_v32_v01.png",
+      "sha256": "481187f3206c054ad9f1ecf425750483f0706dd81dbbe6f32478d0cbe6a18325",
+      "dimensions": [941, 1672],
+      "output": "/Users/diplomat/.codex/generated_images/01a1a8ba-cb28-7003-96d7-e343ea5eeed0/exec-3807b3b4-e362-4dc1-b06f-937ce49f8703.png",
+      "references": [
+        {"path": "../../../../brand/References/bold_visual_hooks_20261105_v01/03.png", "sha256": "c91d8a7cce55d37c4bf87e586c6ea7cc8e4b5b62e076bc9821195c8847e7620e"},
+        {"path": "../../Source/Assets/images_v02/scene_02.png", "sha256": "0568f9af6e40710e1944fd21a864e66cc76a41585eed908516f1ad8cfd990a91"}
+      ],
+      "crop_review": "At 180x270, complete phrase, balloon envelope and antenna/fort arrangement remain visible. Local simulated crop only."
+    },
+    {
+      "id": "C",
+      "recommended": false,
+      "title": "How France Used the Eiffel Tower for Military Radio",
+      "cover_text": "FAIR TO RADIO",
+      "path": "cover_C_v32_v01.png",
+      "sha256": "ca9f31b0624e46c6d6080dfb0e477af762c7a08b5c96e2f04eaa26ca236f44e6",
+      "dimensions": [941, 1672],
+      "output": "/Users/diplomat/.codex/generated_images/01a1a8ba-cb28-7003-96d7-e343ea5eeed0/exec-7ffaf809-3f3d-4861-ba86-d946dcee9ae3.png",
+      "references": [
+        {"path": "../../../../brand/References/bold_visual_hooks_20261105_v01/01.png", "sha256": "b82acf9b14d86957a1318b934166725678d16c7bd0f640bb1c0d773785f7a89a"},
+        {"path": "../../Source/Research/visual_reference_eiffel_1889.jpg", "sha256": "170e569ab1c4631bc0fb8bb8df4ad8f7158a78d9322d867888153c670f18bf5b"}
+      ],
+      "crop_review": "At 180x270, complete phrase, summit antennas and single-tower fairground scene remain visible. Local simulated crop only."
+    }
+  ],
+  "official_format_check": {
+    "url": "https://support.google.com/youtube/answer/72431?hl=en",
+    "checked": "2026-11-05",
+    "notes": "Help recommends 9:16 for Shorts, minimum 640px height, and desktop uploads up to 50MB. No live YouTube check performed."
+  }
+}

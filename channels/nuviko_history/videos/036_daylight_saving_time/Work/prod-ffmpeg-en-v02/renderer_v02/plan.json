@@ -1,0 +1,157 @@
+{
+  "channel": "nuviko",
+  "format": "short",
+  "subtitle_mode": "words",
+  "audio": "/Users/diplomat/ytvideos/stories/videos/036_daylight_saving_time/Source/Voice/en_v02/voice_en.mp3",
+  "canvas": [
+    1440,
+    2560
+  ],
+  "fps": 30,
+  "scenes": [
+    {
+      "image": "/Users/diplomat/ytvideos/stories/videos/036_daylight_saving_time/Assets/Generated/images_v01/S01.png",
+      "start_frame": 0,
+      "end_frame": 180,
+      "direction": "left_to_right",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.55,
+          0.25
+        ],
+        "subject": "large street clock in the upper center",
+        "reason": "Keep the clock legible while holding enough street context for the opening.",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.1
+        },
+        "end": {
+          "center": [
+            0.497,
+            0.5
+          ],
+          "scale": 1.07
+        }
+      }
+    },
+    {
+      "image": "/Users/diplomat/ytvideos/stories/videos/036_daylight_saving_time/Assets/Generated/images_v01/S02.png",
+      "start_frame": 180,
+      "end_frame": 360,
+      "direction": "right_to_left",
+      "zoom": "in"
+    },
+    {
+      "image": "/Users/diplomat/ytvideos/stories/videos/036_daylight_saving_time/Assets/Generated/images_v01/S03.png",
+      "start_frame": 360,
+      "end_frame": 510,
+      "direction": "none",
+      "zoom": "out"
+    },
+    {
+      "image": "/Users/diplomat/ytvideos/stories/videos/036_daylight_saving_time/Assets/Generated/images_v01/S04.png",
+      "start_frame": 510,
+      "end_frame": 681,
+      "direction": "left_to_right",
+      "zoom": "in"
+    },
+    {
+      "image": "/Users/diplomat/ytvideos/stories/videos/036_daylight_saving_time/Assets/Generated/images_v01/S05.png",
+      "start_frame": 681,
+      "end_frame": 810,
+      "direction": "right_to_left",
+      "zoom": "out"
+    },
+    {
+      "image": "/Users/diplomat/ytvideos/stories/videos/036_daylight_saving_time/Assets/Generated/images_v01/S06.png",
+      "start_frame": 810,
+      "end_frame": 966,
+      "direction": "left_to_right",
+      "zoom": "none"
+    },
+    {
+      "image": "/Users/diplomat/ytvideos/stories/videos/036_daylight_saving_time/Assets/Generated/images_v01/S07.png",
+      "start_frame": 966,
+      "end_frame": 1116,
+      "direction": "right_to_left",
+      "zoom": "in"
+    },
+    {
+      "image": "/Users/diplomat/ytvideos/stories/videos/036_daylight_saving_time/Assets/Generated/images_v01/S08.png",
+      "start_frame": 1116,
+      "end_frame": 1260,
+      "direction": "none",
+      "zoom": "out"
+    },
+    {
+      "image": "/Users/diplomat/ytvideos/stories/videos/036_daylight_saving_time/Assets/Generated/images_v01/S09.png",
+      "start_frame": 1260,
+      "end_frame": 1440,
+      "direction": "left_to_right",
+      "zoom": "none"
+    },
+    {
+      "image": "/Users/diplomat/ytvideos/stories/videos/036_daylight_saving_time/Assets/Generated/images_v01/S10.png",
+      "start_frame": 1440,
+      "end_frame": 1620,
+      "direction": "right_to_left",
+      "zoom": "in"
+    },
+    {
+      "image": "/Users/diplomat/ytvideos/stories/videos/036_daylight_saving_time/Assets/Generated/images_v01/S11.png",
+      "start_frame": 1620,
+      "end_frame": 1746,
+      "direction": "none",
+      "zoom": "out"
+    },
+    {
+      "image": "/Users/diplomat/ytvideos/stories/videos/036_daylight_saving_time/Assets/Generated/images_v01/S12.png",
+      "start_frame": 1746,
+      "end_frame": 1866,
+      "direction": "left_to_right",
+      "zoom": "none"
+    },
+    {
+      "image": "/Users/diplomat/ytvideos/stories/videos/036_daylight_saving_time/Assets/Generated/images_v01/S13.png",
+      "start_frame": 1866,
+      "end_frame": 1986,
+      "direction": "right_to_left",
+      "zoom": "out"
+    },
+    {
+      "image": "/Users/diplomat/ytvideos/stories/videos/036_daylight_saving_time/Assets/Generated/images_v01/S01.png",
+      "start_frame": 1986,
+      "end_frame": 2107,
+      "direction": "none",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.55,
+          0.25
+        ],
+        "subject": "the same large street clock used in S01",
+        "reason": "End on the exact S01 crop to make the final frame connect back to the opening.",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.04
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.1
+        }
+      }
+    }
+  ],
+  "frames": 2107,
+  "manifest_path": "/Users/diplomat/ytvideos/stories/videos/036_daylight_saving_time/Work/prod-ffmpeg-en-v02/ffmpeg_manifest_v02.json"
+}

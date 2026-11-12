@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "stage": "repackaged stage-16 review file",
+  "native_palmier_job": "C400A722-D870-4A77-9786-728297CBB9A2",
+  "native_file": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Work/production-v02/scratch/native_h264_base_v02.mp4",
+  "native_sha256": "aa33c2f17930ae92d891a6f1694bcd989b21b139b02f09b1fb02694457f75eef",
+  "output_file": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Work/production-v02/previews/041_dune_origin_EN_v02_stage16_review.mp4",
+  "output_sha256": "e27b24ba56d80ef5ac62b5c1b1beca852103a2319b535c5f00835ca7bc9230f0",
+  "source_audio_master": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Source/Audio/voiceonly_master_en_v02.wav",
+  "source_audio_sha256": "fee65602a23d3ae18e5daa2df3bac4407e014106db611bfef967bcb104cc0072",
+  "ffmpeg_version": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers",
+  "command": "ffmpeg -i <native MP4> -i Source/Audio/voiceonly_master_en_v02.wav -map 0:v:0 -map 1:a:0 -c:v copy -af volume=-0.7dB -c:a aac -profile:a aac_low -b:a 192k -ar 44100 -ac 1 -movflags +faststart <output MP4>",
+  "video_packet_hash_before_and_after": "SHA256=eff01e1c69d4ee5e72a7457a1dccc22c684d7b2ab2d9c0c11e0608f57989c5f7 (identical)",
+  "measured_streams": [
+    {
+      "codec_type": "video",
+      "codec_name": "h264",
+      "profile": "High",
+      "width": 1440,
+      "height": 2560,
+      "pix_fmt": "yuv420p",
+      "r_frame_rate": "30/1",
+      "avg_frame_rate": "30/1",
+      "nb_frames": "1587",
+      "duration": "52.900000",
+      "sample_rate": null,
+      "channels": null,
+      "channel_layout": null,
+      "bit_rate": "15142177",
+      "color_range": "tv",
+      "color_space": "bt709",
+      "color_transfer": "bt709",
+      "color_primaries": "bt709"
+    },
+    {
+      "codec_type": "audio",
+      "codec_name": "aac",
+      "profile": "LC",
+      "width": null,
+      "height": null,
+      "pix_fmt": null,
+      "r_frame_rate": "0/0",
+      "avg_frame_rate": "0/0",
+      "nb_frames": "2279",
+      "duration": "52.880000",
+      "sample_rate": "44100",
+      "channels": 1,
+      "channel_layout": "mono",
+      "bit_rate": "192049",
+      "color_range": null,
+      "color_space": null,
+      "color_transfer": null,
+      "color_primaries": null
+    }
+  ],
+  "audio_loudnorm_input_measurement": {
+    "integrated_lufs": -16.96,
+    "true_peak_dbtp": -1.67,
+    "lra_lu": 1.8
+  },
+  "full_decode_exit_code": 0
+}

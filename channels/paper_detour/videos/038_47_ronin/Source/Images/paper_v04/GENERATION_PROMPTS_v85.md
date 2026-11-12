@@ -1,0 +1,14 @@
+# Paper Detour 038 — generation prompt record v85
+
+Updated 2026-11-03. Records selected silent end-screen still background `ES01_v01.png`, 1672×941 RGB. No native 4K detail is claimed.
+
+- Output: `exec-90d86510-840b-4e25-9938-06716180943a.png`; source SHA-256 `043f4aa51d0af4fa98b38c945c3a36b0bccb9db0116ff255fa3865a1c4e8e517`.
+- Review: full frame and proportional 2560×1440 fit inspected. Planned Subscribe circle and two recommendation zones were overlaid on separate work proofs only; no UI is baked into the source image. Fractional guide clearances inspected; actual Studio positions remain unverified until a real upload. Author accepted as background; independent review and user approval are not claimed.
+
+Exact generation/edit prompt sequence:
+
+```text
+Create a complete 16:9 static Paper Detour end-screen background, an Edo-period handcrafted paper diorama for a new Russian long film. ES01 of a two-scene silent 10-second tail. A quiet, pine-lined corridor recedes toward a softly lit open doorway. One small folded piece of muted vermilion cloth rests on the open floor in the narrow center strip between the UI areas; it has no mark, crest or writing. Keep the scene finished and atmospheric, paper fibers and cut layered edges visible, gentle contact shadows, restrained indigo and warm ivory palette. Critical composition reserves on the full 16:9 canvas: leave the left region around x=0.25,y=0.52 clean and low-detail for a native subscribe circle; leave x=0.57..0.91,y=0.12..0.46 and x=0.57..0.91,y=0.54..0.88 clear, calm and low-detail for two native video cards; keep visual details and cloth out of all these rectangles and out of the subscribe circle. Use simple uninterrupted corridor wall/paper and floor inside those zones. Keep a clear upper-left area where a separate title could be composited later. No text, fake interface, buttons, video thumbnails, frames, crests, seals, people, weapons, weather, snow, blossoms, autumn foliage, lanterns, borders, or photorealism.
+
+Edit prompt (selected layout correction): Revise this exact paper diorama as one complete end-screen background. Preserve the receding Edo corridor, warm handmade paper, folded blank vermilion cloth, cut-paper materials and 16:9 framing. Improve UI-safe negative space: remove the overhanging pine branches and distracting beam detail from the upper-left and from the left subscribe-circle area centered around x=0.25,y=0.52, leaving those areas simple uninterrupted pale wall/paper; preserve pine motif only around the distant corridor or far outside UI zones. Keep both right-side future video-card rectangles at x=0.57..0.91,y=0.12..0.46 and y=0.54..0.88 low-detail and unobstructed; maintain the cloth in the narrow center strip, outside all UI zones. Do not add any text, crest, interface, thumbnails, button, people, or new object. Do not change the basic corridor perspective.
+```

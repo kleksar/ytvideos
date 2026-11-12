@@ -1,0 +1,36 @@
+{
+  "video_id": "hEX9sxYZ0-4",
+  "channel_id": "UCbyLx6Rf3iWww4bPZJ2oo2A",
+  "state": "not_started",
+  "experiment": "title_only; thumbnail fixed; watch-time primary; ordered A/B/C; automatic platform winner/default documented",
+  "variants": [
+    "The Ship That Brought Plague to Marseille | 1720",
+    "How the Plague Reached Marseille in 1720",
+    "Marseille 1720: The Ship, the Quarantine, and the Plague"
+  ],
+  "current_privacy": "private",
+  "next_authorized_privacy": "unlisted_after_verified_qa",
+  "blocked_by": [
+    "overall QA remains UNVERIFIED: audible word-highlight synchronization must be heard against the retained narration",
+    "native experiment eligibility and live title display must be checked in Studio after the authorized Unlisted transition; do not use Public as workaround"
+  ],
+  "public": false,
+  "version": 3,
+  "checked_at_utc": "2026-11-03T09:25:58Z",
+  "user_authorization": {
+    "unlisted_after_private_review": true,
+    "public_or_scheduled": false
+  },
+  "studio_readback": {
+    "checked_at_utc": "2026-11-03T09:25:58Z",
+    "video_id": "hEX9sxYZ0-4",
+    "channel_id": "UCbyLx6Rf3iWww4bPZJ2oo2A",
+    "privacy": "private",
+    "processing": "standard and high resolution complete",
+    "altered_synthetic_content": "Yes, AI was used"
+  },
+  "disclosure_verified": true,
+  "qa_receipt": "Edit/QA/qa-film-v01/receipt_film_v06.json",
+  "title_review": "Packaging/title_experiment_review_v01.json",
+  "variant_content_review": "PASS"
+}

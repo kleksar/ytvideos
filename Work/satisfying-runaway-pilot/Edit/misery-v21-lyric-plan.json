@@ -1,0 +1,941 @@
+{
+  "fps": 30,
+  "frames": 455,
+  "raster": [
+    896,
+    384
+  ],
+  "font_index": 1,
+  "stroke_px": 0,
+  "letter_motion": {
+    "scale_variation": 0.035,
+    "tilt_degrees": 2.5
+  },
+  "line_motion": {
+    "tilt_degrees": 2.5,
+    "seed": 17,
+    "interpolation": "smoothstep_per_group"
+  },
+  "color_mode": "inversion_masks",
+  "accent_color": null,
+  "beat_snaps": {
+    "59": 60,
+    "75": 76,
+    "89": 91,
+    "195": 197,
+    "225": 226,
+    "240": 242,
+    "347": 349,
+    "363": 364,
+    "378": 379,
+    "393": 394,
+    "438": 440
+  },
+  "beat_transition_scale": 0.06,
+  "groups": [
+    {
+      "start_frame": 0,
+      "end_frame_exclusive": 27,
+      "words": [
+        {
+          "text": "only",
+          "start_frame": 0,
+          "end_frame_exclusive": 10,
+          "break_before": false,
+          "break_after": false
+        },
+        {
+          "text": "in",
+          "start_frame": 10,
+          "end_frame_exclusive": 22,
+          "break_before": false,
+          "break_after": false
+        },
+        {
+          "text": "the",
+          "start_frame": 22,
+          "end_frame_exclusive": 27,
+          "break_before": false,
+          "break_after": false
+        }
+      ],
+      "width_px": 464.67,
+      "motion": {
+        "direction": "hold",
+        "scale": [
+          1,
+          1
+        ],
+        "tilt_degrees": [
+          2.3024738716193838,
+          -1.0518731111776725
+        ]
+      },
+      "transition_beat": null,
+      "pulse_beats": [],
+      "transition_cut": null
+    },
+    {
+      "start_frame": 27,
+      "end_frame_exclusive": 39,
+      "words": [
+        {
+          "text": "evening",
+          "start_frame": 27,
+          "end_frame_exclusive": 39,
+          "break_before": false,
+          "break_after": true
+        }
+      ],
+      "width_px": 345.67,
+      "motion": {
+        "direction": "out",
+        "scale": [
+          1.0468084147676138,
+          0.9531915852323861
+        ],
+        "tilt_degrees": [
+          1.2601741678598195,
+          -0.7267913203576337
+        ]
+      },
+      "transition_beat": null,
+      "pulse_beats": [],
+      "transition_cut": null
+    },
+    {
+      "start_frame": 39,
+      "end_frame_exclusive": 61,
+      "words": [
+        {
+          "text": "So",
+          "start_frame": 39,
+          "end_frame_exclusive": 50,
+          "break_before": true,
+          "break_after": false
+        },
+        {
+          "text": "I",
+          "start_frame": 50,
+          "end_frame_exclusive": 60,
+          "break_before": false,
+          "break_after": false
+        }
+      ],
+      "width_px": 173.33,
+      "motion": {
+        "direction": "in",
+        "scale": [
+          0.9328414302551116,
+          1.0671585697448884
+        ],
+        "tilt_degrees": [
+          1.144922420318799,
+          -0.9510595627845697
+        ]
+      },
+      "transition_beat": null,
+      "pulse_beats": [
+        61
+      ],
+      "transition_cut": null
+    },
+    {
+      "start_frame": 61,
+      "end_frame_exclusive": 70,
+      "words": [
+        {
+          "text": "ask",
+          "start_frame": 60,
+          "end_frame_exclusive": 70,
+          "break_before": false,
+          "break_after": true
+        }
+      ],
+      "width_px": 162.0,
+      "motion": {
+        "direction": "out",
+        "scale": [
+          1.068670847519221,
+          0.9313291524807791
+        ],
+        "tilt_degrees": [
+          2.0368855525698404,
+          -2.24886075250714
+        ]
+      },
+      "transition_beat": 61,
+      "pulse_beats": [
+        61
+      ],
+      "transition_cut": 61
+    },
+    {
+      "start_frame": 70,
+      "end_frame_exclusive": 91,
+      "words": [
+        {
+          "text": "am",
+          "start_frame": 70,
+          "end_frame_exclusive": 76,
+          "break_before": false,
+          "break_after": false
+        },
+        {
+          "text": "I",
+          "start_frame": 76,
+          "end_frame_exclusive": 82,
+          "break_before": false,
+          "break_after": false
+        },
+        {
+          "text": "just",
+          "start_frame": 82,
+          "end_frame_exclusive": 91,
+          "break_before": false,
+          "break_after": false
+        }
+      ],
+      "width_px": 384.33,
+      "motion": {
+        "direction": "in",
+        "scale": [
+          0.9360250843466791,
+          1.063974915653321
+        ],
+        "tilt_degrees": [
+          0.215168656278502,
+          2.396493563119482
+        ]
+      },
+      "transition_beat": null,
+      "pulse_beats": [],
+      "transition_cut": null
+    },
+    {
+      "start_frame": 91,
+      "end_frame_exclusive": 99,
+      "words": [
+        {
+          "text": "dreaming",
+          "start_frame": 91,
+          "end_frame_exclusive": 99,
+          "break_before": false,
+          "break_after": true
+        }
+      ],
+      "width_px": 415.33,
+      "motion": {
+        "direction": "hold",
+        "scale": [
+          1,
+          1
+        ],
+        "tilt_degrees": [
+          2.3627234158956414,
+          -1.4446848145371283
+        ]
+      },
+      "transition_beat": null,
+      "pulse_beats": [],
+      "transition_cut": null
+    },
+    {
+      "start_frame": 99,
+      "end_frame_exclusive": 122,
+      "words": [
+        {
+          "text": "But",
+          "start_frame": 99,
+          "end_frame_exclusive": 113,
+          "break_before": true,
+          "break_after": false
+        },
+        {
+          "text": "its",
+          "start_frame": 113,
+          "end_frame_exclusive": 121,
+          "break_before": false,
+          "break_after": false
+        }
+      ],
+      "width_px": 306.0,
+      "motion": {
+        "direction": "out",
+        "scale": [
+          1.0753568383136807,
+          0.9246431616863192
+        ],
+        "tilt_degrees": [
+          -2.3503445144554918,
+          -0.5001032801737315
+        ]
+      },
+      "transition_beat": null,
+      "pulse_beats": [
+        122
+      ],
+      "transition_cut": null
+    },
+    {
+      "start_frame": 122,
+      "end_frame_exclusive": 129,
+      "words": [
+        {
+          "text": "real",
+          "start_frame": 121,
+          "end_frame_exclusive": 129,
+          "break_before": false,
+          "break_after": true
+        }
+      ],
+      "width_px": 173.0,
+      "motion": {
+        "direction": "in",
+        "scale": [
+          0.9262357549748136,
+          1.0737642450251865
+        ],
+        "tilt_degrees": [
+          -0.2873016474904788,
+          -1.2252414133408367
+        ]
+      },
+      "transition_beat": 122,
+      "pulse_beats": [
+        122
+      ],
+      "transition_cut": 122
+    },
+    {
+      "start_frame": 129,
+      "end_frame_exclusive": 150,
+      "words": [
+        {
+          "text": "that",
+          "start_frame": 129,
+          "end_frame_exclusive": 134,
+          "break_before": false,
+          "break_after": false
+        },
+        {
+          "text": "kind",
+          "start_frame": 134,
+          "end_frame_exclusive": 143,
+          "break_before": false,
+          "break_after": false
+        },
+        {
+          "text": "of",
+          "start_frame": 143,
+          "end_frame_exclusive": 150,
+          "break_before": false,
+          "break_after": false
+        }
+      ],
+      "width_px": 529.67,
+      "motion": {
+        "direction": "hold",
+        "scale": [
+          1,
+          1
+        ],
+        "tilt_degrees": [
+          0.43230870868234295,
+          2.1790662153474853
+        ]
+      },
+      "transition_beat": null,
+      "pulse_beats": [],
+      "transition_cut": null
+    },
+    {
+      "start_frame": 150,
+      "end_frame_exclusive": 165,
+      "words": [
+        {
+          "text": "misery",
+          "start_frame": 150,
+          "end_frame_exclusive": 165,
+          "break_before": false,
+          "break_after": false
+        }
+      ],
+      "width_px": 299.67,
+      "motion": {
+        "direction": "hold",
+        "scale": [
+          1,
+          1
+        ],
+        "tilt_degrees": [
+          -1.4338462596908048,
+          1.8380869690085673
+        ]
+      },
+      "transition_beat": null,
+      "pulse_beats": [],
+      "transition_cut": null
+    },
+    {
+      "start_frame": 165,
+      "end_frame_exclusive": 197,
+      "words": [
+        {
+          "text": "The",
+          "start_frame": 165,
+          "end_frame_exclusive": 179,
+          "break_before": true,
+          "break_after": false
+        },
+        {
+          "text": "kind",
+          "start_frame": 179,
+          "end_frame_exclusive": 188,
+          "break_before": false,
+          "break_after": false
+        },
+        {
+          "text": "where",
+          "start_frame": 188,
+          "end_frame_exclusive": 197,
+          "break_before": false,
+          "break_after": false
+        }
+      ],
+      "width_px": 681.33,
+      "motion": {
+        "direction": "out",
+        "scale": [
+          1.0530494151767564,
+          0.9469505848232436
+        ],
+        "tilt_degrees": [
+          0.66708266146617,
+          -0.6013169113045564
+        ]
+      },
+      "transition_beat": null,
+      "pulse_beats": [],
+      "transition_cut": null
+    },
+    {
+      "start_frame": 197,
+      "end_frame_exclusive": 219,
+      "words": [
+        {
+          "text": "you",
+          "start_frame": 197,
+          "end_frame_exclusive": 202,
+          "break_before": false,
+          "break_after": false
+        },
+        {
+          "text": "are",
+          "start_frame": 202,
+          "end_frame_exclusive": 209,
+          "break_before": false,
+          "break_after": false
+        },
+        {
+          "text": "nice",
+          "start_frame": 209,
+          "end_frame_exclusive": 219,
+          "break_before": false,
+          "break_after": false
+        }
+      ],
+      "width_px": 548.0,
+      "motion": {
+        "direction": "in",
+        "scale": [
+          0.9453861153102707,
+          1.0546138846897293
+        ],
+        "tilt_degrees": [
+          0.580406760852866,
+          2.003333735530174
+        ]
+      },
+      "transition_beat": null,
+      "pulse_beats": [],
+      "transition_cut": null
+    },
+    {
+      "start_frame": 219,
+      "end_frame_exclusive": 231,
+      "words": [
+        {
+          "text": "to",
+          "start_frame": 219,
+          "end_frame_exclusive": 226,
+          "break_before": false,
+          "break_after": false
+        },
+        {
+          "text": "me",
+          "start_frame": 226,
+          "end_frame_exclusive": 231,
+          "break_before": false,
+          "break_after": false
+        }
+      ],
+      "width_px": 244.67,
+      "motion": {
+        "direction": "hold",
+        "scale": [
+          1,
+          1
+        ],
+        "tilt_degrees": [
+          2.131708404634166,
+          -2.2140391964258948
+        ]
+      },
+      "transition_beat": null,
+      "pulse_beats": [],
+      "transition_cut": null
+    },
+    {
+      "start_frame": 231,
+      "end_frame_exclusive": 243,
+      "words": [
+        {
+          "text": "But",
+          "start_frame": 231,
+          "end_frame_exclusive": 242,
+          "break_before": true,
+          "break_after": false
+        }
+      ],
+      "width_px": 161.0,
+      "motion": {
+        "direction": "out",
+        "scale": [
+          1.0711978700360654,
+          0.9288021299639347
+        ],
+        "tilt_degrees": [
+          1.4716800334055087,
+          -1.9603169405889465
+        ]
+      },
+      "transition_beat": null,
+      "pulse_beats": [
+        243
+      ],
+      "transition_cut": null
+    },
+    {
+      "start_frame": 243,
+      "end_frame_exclusive": 270,
+      "words": [
+        {
+          "text": "only",
+          "start_frame": 242,
+          "end_frame_exclusive": 254,
+          "break_before": false,
+          "break_after": false
+        },
+        {
+          "text": "in",
+          "start_frame": 254,
+          "end_frame_exclusive": 266,
+          "break_before": false,
+          "break_after": false
+        },
+        {
+          "text": "the",
+          "start_frame": 266,
+          "end_frame_exclusive": 270,
+          "break_before": false,
+          "break_after": false
+        }
+      ],
+      "width_px": 464.67,
+      "motion": {
+        "direction": "in",
+        "scale": [
+          0.943400577611565,
+          1.056599422388435
+        ],
+        "tilt_degrees": [
+          -1.342307528192167,
+          -0.913079028170769
+        ]
+      },
+      "transition_beat": 243,
+      "pulse_beats": [
+        243
+      ],
+      "transition_cut": 243
+    },
+    {
+      "start_frame": 270,
+      "end_frame_exclusive": 282,
+      "words": [
+        {
+          "text": "evening",
+          "start_frame": 270,
+          "end_frame_exclusive": 282,
+          "break_before": false,
+          "break_after": true
+        }
+      ],
+      "width_px": 345.67,
+      "motion": {
+        "direction": "in",
+        "scale": [
+          0.9235644342764072,
+          1.076435565723593
+        ],
+        "tilt_degrees": [
+          -0.2297804315583991,
+          -1.7347458854847324
+        ]
+      },
+      "transition_beat": null,
+      "pulse_beats": [],
+      "transition_cut": null
+    },
+    {
+      "start_frame": 282,
+      "end_frame_exclusive": 311,
+      "words": [
+        {
+          "text": "So",
+          "start_frame": 282,
+          "end_frame_exclusive": 292,
+          "break_before": true,
+          "break_after": false
+        },
+        {
+          "text": "I",
+          "start_frame": 292,
+          "end_frame_exclusive": 300,
+          "break_before": false,
+          "break_after": false
+        },
+        {
+          "text": "ask",
+          "start_frame": 300,
+          "end_frame_exclusive": 311,
+          "break_before": false,
+          "break_after": true
+        }
+      ],
+      "width_px": 365.67,
+      "motion": {
+        "direction": "hold",
+        "scale": [
+          1,
+          1
+        ],
+        "tilt_degrees": [
+          1.9898459415021925,
+          1.2451148465923905
+        ]
+      },
+      "transition_beat": null,
+      "pulse_beats": [],
+      "transition_cut": null
+    },
+    {
+      "start_frame": 311,
+      "end_frame_exclusive": 334,
+      "words": [
+        {
+          "text": "am",
+          "start_frame": 311,
+          "end_frame_exclusive": 318,
+          "break_before": false,
+          "break_after": false
+        },
+        {
+          "text": "I",
+          "start_frame": 318,
+          "end_frame_exclusive": 326,
+          "break_before": false,
+          "break_after": false
+        },
+        {
+          "text": "just",
+          "start_frame": 326,
+          "end_frame_exclusive": 334,
+          "break_before": false,
+          "break_after": false
+        }
+      ],
+      "width_px": 384.33,
+      "motion": {
+        "direction": "out",
+        "scale": [
+          1.0472230415929709,
+          0.952776958407029
+        ],
+        "tilt_degrees": [
+          -1.660662804390443,
+          1.3273542217925005
+        ]
+      },
+      "transition_beat": null,
+      "pulse_beats": [],
+      "transition_cut": null
+    },
+    {
+      "start_frame": 334,
+      "end_frame_exclusive": 349,
+      "words": [
+        {
+          "text": "dreaming",
+          "start_frame": 334,
+          "end_frame_exclusive": 349,
+          "break_before": false,
+          "break_after": true
+        }
+      ],
+      "width_px": 415.33,
+      "motion": {
+        "direction": "out",
+        "scale": [
+          1.045168998134163,
+          0.954831001865837
+        ],
+        "tilt_degrees": [
+          2.317447561910509,
+          1.4308531619814047
+        ]
+      },
+      "transition_beat": null,
+      "pulse_beats": [],
+      "transition_cut": null
+    },
+    {
+      "start_frame": 349,
+      "end_frame_exclusive": 364,
+      "words": [
+        {
+          "text": "Hurts",
+          "start_frame": 349,
+          "end_frame_exclusive": 359,
+          "break_before": true,
+          "break_after": false
+        },
+        {
+          "text": "to",
+          "start_frame": 359,
+          "end_frame_exclusive": 364,
+          "break_before": false,
+          "break_after": false
+        }
+      ],
+      "width_px": 389.0,
+      "motion": {
+        "direction": "in",
+        "scale": [
+          0.9297912131670312,
+          1.0702087868329688
+        ],
+        "tilt_degrees": [
+          -0.12765112281829305,
+          2.032621780502864
+        ]
+      },
+      "transition_beat": null,
+      "pulse_beats": [
+        364
+      ],
+      "transition_cut": null
+    },
+    {
+      "start_frame": 364,
+      "end_frame_exclusive": 379,
+      "words": [
+        {
+          "text": "feel",
+          "start_frame": 364,
+          "end_frame_exclusive": 371,
+          "break_before": false,
+          "break_after": false
+        },
+        {
+          "text": "the",
+          "start_frame": 371,
+          "end_frame_exclusive": 379,
+          "break_before": false,
+          "break_after": false
+        }
+      ],
+      "width_px": 336.33,
+      "motion": {
+        "direction": "hold",
+        "scale": [
+          1,
+          1
+        ],
+        "tilt_degrees": [
+          -1.1816182258312125,
+          2.0960740561169793
+        ]
+      },
+      "transition_beat": 364,
+      "pulse_beats": [
+        364,
+        379
+      ],
+      "transition_cut": 364
+    },
+    {
+      "start_frame": 379,
+      "end_frame_exclusive": 394,
+      "words": [
+        {
+          "text": "kind",
+          "start_frame": 379,
+          "end_frame_exclusive": 384,
+          "break_before": false,
+          "break_after": false
+        },
+        {
+          "text": "of",
+          "start_frame": 384,
+          "end_frame_exclusive": 394,
+          "break_before": false,
+          "break_after": false
+        }
+      ],
+      "width_px": 313.67,
+      "motion": {
+        "direction": "hold",
+        "scale": [
+          1,
+          1
+        ],
+        "tilt_degrees": [
+          2.1772045475161104,
+          0.021257085069927406
+        ]
+      },
+      "transition_beat": 379,
+      "pulse_beats": [
+        379,
+        394
+      ],
+      "transition_cut": 379
+    },
+    {
+      "start_frame": 394,
+      "end_frame_exclusive": 403,
+      "words": [
+        {
+          "text": "misery",
+          "start_frame": 394,
+          "end_frame_exclusive": 403,
+          "break_before": false,
+          "break_after": false
+        }
+      ],
+      "width_px": 299.67,
+      "motion": {
+        "direction": "out",
+        "scale": [
+          1.0565925710813553,
+          0.9434074289186447
+        ],
+        "tilt_degrees": [
+          -0.5359562972857934,
+          0.15547178703214248
+        ]
+      },
+      "transition_beat": 394,
+      "pulse_beats": [
+        394
+      ],
+      "transition_cut": 394
+    },
+    {
+      "start_frame": 403,
+      "end_frame_exclusive": 440,
+      "words": [
+        {
+          "text": "The",
+          "start_frame": 403,
+          "end_frame_exclusive": 420,
+          "break_before": true,
+          "break_after": false
+        },
+        {
+          "text": "kind",
+          "start_frame": 420,
+          "end_frame_exclusive": 429,
+          "break_before": false,
+          "break_after": false
+        },
+        {
+          "text": "where",
+          "start_frame": 429,
+          "end_frame_exclusive": 440,
+          "break_before": false,
+          "break_after": false
+        }
+      ],
+      "width_px": 681.33,
+      "motion": {
+        "direction": "in",
+        "scale": [
+          0.9520202724408281,
+          1.0479797275591718
+        ],
+        "tilt_degrees": [
+          0.6364735768747583,
+          2.003625195470941
+        ]
+      },
+      "transition_beat": null,
+      "pulse_beats": [],
+      "transition_cut": null
+    },
+    {
+      "start_frame": 440,
+      "end_frame_exclusive": 455,
+      "words": [
+        {
+          "text": "you",
+          "start_frame": 440,
+          "end_frame_exclusive": 444,
+          "break_before": false,
+          "break_after": false
+        },
+        {
+          "text": "are",
+          "start_frame": 444,
+          "end_frame_exclusive": 452,
+          "break_before": false,
+          "break_after": false
+        },
+        {
+          "text": "nice",
+          "start_frame": 452,
+          "end_frame_exclusive": 455,
+          "break_before": false,
+          "break_after": false
+        }
+      ],
+      "width_px": 548.0,
+      "motion": {
+        "direction": "in",
+        "scale": [
+          0.9429364431984744,
+          1.0570635568015256
+        ],
+        "tilt_degrees": [
+          2.272510693055543,
+          0.3907985503400626
+        ]
+      },
+      "transition_beat": null,
+      "pulse_beats": [],
+      "transition_cut": null
+    }
+  ]
+}

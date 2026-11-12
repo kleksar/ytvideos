@@ -1,0 +1,30 @@
+[
+  {
+    "status": "rejected",
+    "reason": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID a827b5c5-9add-49a9-b1a3-020d1f935c6e. safety_violations=[abuse].\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")"
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "id": "s03_statement_v02",
+      "prompt": "World War II 1944 German police office desk in photorealistic reconstruction: the hands of an anonymous civilian clerk in a dark suit typing on a 1940s manual typewriter, with a blank report cover and period telephone; no face, no uniforms, no legible text. 16:9, 2K requested.",
+      "path": "/Users/diplomat/ytvideos/channels/nuviko_history/research/great-escape-murders/Assets/Scenes/s03_statement_v02.png"
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "id": "s05_matching_v02",
+      "prompt": "Photorealistic World War II 1944 documentary reconstruction, 16:9 2K requested: overhead view of three similar 1940s official documents placed side by side on a desk, with a hand placing three identical blank paper markers on corresponding lines. Any writing extremely small and incidental, not a prominent invented document; focus on repeated layouts and the visual comparison. No symbols, no labels.",
+      "path": "/Users/diplomat/ytvideos/channels/nuviko_history/research/great-escape-murders/Assets/Scenes/s05_matching_v02.png"
+    }
+  },
+  {
+    "status": "fulfilled",
+    "value": {
+      "id": "s06_rewrite_v02",
+      "prompt": "Photorealistic historical 1944 documentary reconstruction, 16:9 2K requested: an anonymous person in an ordinary dark civilian suit crossing out an unidentifiable line on a paper with a pencil and setting a fresh sheet alongside, no visible face, no uniforms or insignia. Text extremely small and not legible, no captions.",
+      "path": "/Users/diplomat/ytvideos/channels/nuviko_history/research/great-escape-murders/Assets/Scenes/s06_rewrite_v02.png"
+    }
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "file": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Edit/v07/CRT_RIPPLE_X2_EXPERIMENT_EN_v07.mp4",
+  "sha256": "75ab604aa3ef926c6c149624177bc4bfbcc610c9199ec603f9f5b0f413ec20ca",
+  "bytes": 255918980,
+  "duration": 190.0,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": "30/1",
+  "video_bitrate": "10505806",
+  "audio": {
+    "codec": "aac",
+    "channels": 2,
+    "sample_rate": "48000",
+    "bitrate": "260787"
+  },
+  "full_audio_video_decode": "PASS -xerror",
+  "video_payload_matches_native_experiment": "SHA256=deffceeee622c9ed81b05a54e34727782162e0d1ad9a976056ce36622c355f0d",
+  "audio_payload_matches_accepted_v06": "SHA256=b075e3d1a9f80d314de1074dbb99a02edc32bc9b0770c0e702b75cea9d88636e",
+  "visual_qa": "author inspected 4 actual v06-vs-x2 sample pairs and amplified difference at 12 seconds; bands visible in difference and text clear at sampled frames",
+  "full_1x_with_sound": "UNVERIFIED",
+  "independent_review": "NOT_PERFORMED",
+  "requested_effect_match": "FAIL: contains horizontal CRT bands; user clarified request means full-frame film grain.",
+  "status": "NOT_REQUESTED; retained only as audit provenance, do not use as experiment result."
+}

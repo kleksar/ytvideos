@@ -1,0 +1,82 @@
+{
+  "command": [
+    "ffmpeg",
+    "-hide_banner",
+    "-nostdin",
+    "-v",
+    "error",
+    "-n",
+    "-i",
+    "/Users/diplomat/ytvideos/channels/nuviko_stories/videos/013_сестра_пришла_на_помолвку_в_свадебном_платье/Edit/013_en_palmier_render_raw.mp4",
+    "-i",
+    "/Users/diplomat/ytvideos/channels/nuviko_stories/videos/013_сестра_пришла_на_помолвку_в_свадебном_платье/Source/Voice/en/female_before/voice_en.mp3",
+    "-i",
+    "/Users/diplomat/ytvideos/channels/nuviko_stories/videos/013_сестра_пришла_на_помолвку_в_свадебном_платье/Source/Voice/en/male_line/voice_en.mp3",
+    "-i",
+    "/Users/diplomat/ytvideos/channels/nuviko_stories/videos/013_сестра_пришла_на_помолвку_в_свадебном_платье/Source/Voice/en/female_after/voice_en.mp3",
+    "-filter_complex",
+    "[1:a]asetpts=PTS-STARTPTS,atempo=1.1,aresample=44100,atrim=duration=102.800000000,apad=whole_dur=102.800000000,adelay=0S:all=1[a0];[2:a]asetpts=PTS-STARTPTS,atempo=1.1,aresample=44100,atrim=duration=5.033333333,apad=whole_dur=5.033333333,adelay=4537890S:all=1[a1];[3:a]asetpts=PTS-STARTPTS,atempo=1.1,aresample=44100,atrim=duration=19.300000000,apad=whole_dur=19.300000000,adelay=4764270S:all=1[a2];[a0][a1][a2]amix=inputs=3:duration=longest:normalize=0,atrim=duration=127.333333333,asetpts=PTS-STARTPTS[a]",
+    "-map",
+    "0:v:0",
+    "-map",
+    "[a]",
+    "-c:v",
+    "copy",
+    "-c:a",
+    "aac",
+    "-profile:a",
+    "aac_low",
+    "-b:a",
+    "192k",
+    "-ar",
+    "44100",
+    "-ac",
+    "1",
+    "-movflags",
+    "+faststart",
+    "/Users/diplomat/ytvideos/channels/nuviko_stories/videos/013_сестра_пришла_на_помолвку_в_свадебном_платье/Deliverables/013_en_shorts_110_audio192.mp4"
+  ],
+  "frames": 3820,
+  "fps": 30,
+  "segments": [
+    {
+      "text": "/Users/diplomat/ytvideos/channels/nuviko_stories/videos/013_сестра_пришла_на_помолвку_в_свадебном_платье/Source/Voice/en/female_before.txt",
+      "audio": "/Users/diplomat/ytvideos/channels/nuviko_stories/videos/013_сестра_пришла_на_помолвку_в_свадебном_платье/Source/Voice/en/female_before/voice_en.mp3",
+      "alignment": "/Users/diplomat/ytvideos/channels/nuviko_stories/videos/013_сестра_пришла_на_помолвку_в_свадебном_платье/Source/Voice/en/female_before/voice_en.alignment.json",
+      "mediaRef": "B9793FC6",
+      "status": "ready",
+      "clipId": "5F0E39CB",
+      "frames": [
+        0,
+        3084
+      ],
+      "speed": 1.1
+    },
+    {
+      "text": "/Users/diplomat/ytvideos/channels/nuviko_stories/videos/013_сестра_пришла_на_помолвку_в_свадебном_платье/Source/Voice/en/male_line.txt",
+      "audio": "/Users/diplomat/ytvideos/channels/nuviko_stories/videos/013_сестра_пришла_на_помолвку_в_свадебном_платье/Source/Voice/en/male_line/voice_en.mp3",
+      "alignment": "/Users/diplomat/ytvideos/channels/nuviko_stories/videos/013_сестра_пришла_на_помолвку_в_свадебном_платье/Source/Voice/en/male_line/voice_en.alignment.json",
+      "mediaRef": "8D8317F3",
+      "status": "ready",
+      "clipId": "419D1284",
+      "frames": [
+        3087,
+        3238
+      ],
+      "speed": 1.1
+    },
+    {
+      "text": "/Users/diplomat/ytvideos/channels/nuviko_stories/videos/013_сестра_пришла_на_помолвку_в_свадебном_платье/Source/Voice/en/female_after.txt",
+      "audio": "/Users/diplomat/ytvideos/channels/nuviko_stories/videos/013_сестра_пришла_на_помолвку_в_свадебном_платье/Source/Voice/en/female_after/voice_en.mp3",
+      "alignment": "/Users/diplomat/ytvideos/channels/nuviko_stories/videos/013_сестра_пришла_на_помолвку_в_свадебном_платье/Source/Voice/en/female_after/voice_en.alignment.json",
+      "mediaRef": "8AB0FDA8",
+      "status": "ready",
+      "clipId": "F793AAC6",
+      "frames": [
+        3241,
+        3820
+      ],
+      "speed": 1.1
+    }
+  ]
+}

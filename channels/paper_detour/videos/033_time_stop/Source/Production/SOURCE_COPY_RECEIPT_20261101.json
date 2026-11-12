@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-01",
+  "scope": "local scaffold and source-copy receipt; no media generated",
+  "files": [
+    {
+      "source": "channels/paper_detour/research/2026-11-01-time-stop/NARRATION_EN_v01.txt",
+      "source_sha256": "9abd6171d07f6914fe46cbedad31f19bfc49b036604ab768f3336d2248c14beb",
+      "copy": "Source/Script/NARRATION_EN_v01.txt",
+      "copy_sha256": "9abd6171d07f6914fe46cbedad31f19bfc49b036604ab768f3336d2248c14beb",
+      "change": "byte-identical"
+    },
+    {
+      "source": "channels/paper_detour/research/2026-11-01-time-stop/USER_SOURCE.md",
+      "source_sha256": "8705c1241f3108c168713044552aad6f75b7d6c0d3e7a66dd8fb8f5234ca684b",
+      "copy": "Source/Research/USER_SOURCE.md",
+      "copy_sha256": "8705c1241f3108c168713044552aad6f75b7d6c0d3e7a66dd8fb8f5234ca684b",
+      "change": "byte-identical"
+    },
+    {
+      "source": "channels/paper_detour/research/2026-11-01-time-stop/FACTS_AND_EDIT_REVIEW_v01.md",
+      "source_sha256": "e63c67c802aede94fb8af7eab5e4128bdb9e24672ead8b288b689072850698d2",
+      "copy": "Source/Research/FACTS_AND_EDIT_REVIEW_v01.md",
+      "copy_sha256": "bbac6c4c319c027695a71678e1dd9105bbac50d31a52c3a380655f04e06e53e5",
+      "change": "relative Markdown links only"
+    },
+    {
+      "source": "channels/paper_detour/research/2026-11-01-time-stop/CONSULTATION_PHYSICS_20261101.md",
+      "source_sha256": "47977a31f463f8802deddf347db82a59eaafd6eb802661cdd48f98c48971774a",
+      "copy": "Source/Production/CONSULTATION_PHYSICS_20261101.md",
+      "copy_sha256": "fbff80578f661a83a8e5c11471cdd59d56dcdb25bc591310b86c7b5960069cef",
+      "change": "relative Markdown links only"
+    }
+  ]
+}

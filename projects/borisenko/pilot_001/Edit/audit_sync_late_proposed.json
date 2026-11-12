@@ -1,0 +1,109 @@
+{
+  "timelineId": "B791704C",
+  "trackName": "English095",
+  "fps": 30,
+  "scope": [
+    270,
+    536.433
+  ],
+  "transcript": "transcript_en_095_whisper.json",
+  "moves": [
+    {
+      "clipId": "23250A73",
+      "expectedFrames": [
+        9070,
+        9243
+      ],
+      "toFrame": 9025,
+      "reason": "Late accountability sequence"
+    },
+    {
+      "clipId": "34770CB8",
+      "expectedFrames": [
+        9244,
+        9452
+      ],
+      "toFrame": 9199,
+      "reason": "Late accountability sequence"
+    },
+    {
+      "clipId": "EBCDEDF5",
+      "expectedFrames": [
+        9453,
+        9525
+      ],
+      "toFrame": 9408,
+      "reason": "Late accountability sequence"
+    },
+    {
+      "clipId": "B313C81E",
+      "expectedFrames": [
+        9526,
+        9692
+      ],
+      "toFrame": 9481,
+      "reason": "Late accountability sequence"
+    },
+    {
+      "clipId": "D1B43EA3",
+      "expectedFrames": [
+        9693,
+        9735
+      ],
+      "toFrame": 9648,
+      "reason": "Late accountability sequence"
+    },
+    {
+      "clipId": "D11299E5",
+      "expectedFrames": [
+        9736,
+        9904
+      ],
+      "toFrame": 9691,
+      "reason": "Late accountability sequence"
+    },
+    {
+      "clipId": "DCE6C14A",
+      "expectedFrames": [
+        9905,
+        9950
+      ],
+      "toFrame": 9860,
+      "reason": "Late accountability sequence"
+    },
+    {
+      "clipId": "75025B19",
+      "expectedFrames": [
+        11306,
+        11485
+      ],
+      "toFrame": 11276,
+      "reason": "Plans, casualties, Serbian friends"
+    },
+    {
+      "clipId": "38E0471D",
+      "expectedFrames": [
+        11490,
+        11602
+      ],
+      "toFrame": 11460,
+      "reason": "Plans, casualties, Serbian friends"
+    },
+    {
+      "clipId": "D5C64B4D",
+      "expectedFrames": [
+        11603,
+        11730
+      ],
+      "toFrame": 11573,
+      "reason": "Plans, casualties, Serbian friends"
+    }
+  ],
+  "notes": [
+    "No audio cut changes or source gaps; no timeline overlaps.",
+    "Remember how is correctly after 243.766s boundary (checked by re-transcribing source segments).",
+    "ASR is approximate. No listening performed.",
+    "Even after adjustments a roughly 1-2 second lag remains around the accountability question due to longer English.",
+    "Execute left-to-right: target positions are earlier than original."
+  ]
+}

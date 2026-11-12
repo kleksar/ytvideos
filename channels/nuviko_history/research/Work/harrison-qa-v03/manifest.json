@@ -1,0 +1,428 @@
+{
+  "version": 1,
+  "run": "harrison-qa-v03",
+  "owner": "four-video-slate",
+  "status": "complete",
+  "created_utc": "2026-11-09T16:40:15.347847+00:00",
+  "entries": [],
+  "qa_batch": {
+    "report": {
+      "path": "Edit/QA/harrison-qa-v03/report.json",
+      "identity": {
+        "device": 16777229,
+        "inode": 130649394,
+        "bytes": 10074,
+        "mtime_ns": 1794242425918276745,
+        "ctime_ns": 1794242425918276745,
+        "nlink": 1,
+        "allocated_bytes": 12288
+      },
+      "sha256": "f19add4293be37883adbbfeda130b0d49bed10677de001a7e8e683191283943e"
+    },
+    "source": {
+      "path": "harrison-review-v03.mp4",
+      "identity": {
+        "device": 16777229,
+        "inode": 130648098,
+        "bytes": 118115872,
+        "mtime_ns": 1794242406087198536,
+        "ctime_ns": 1794242406087198536,
+        "nlink": 1,
+        "allocated_bytes": 134221824
+      },
+      "sha256": "05c5c62c84f6c7838261b0b527e0ed3a12fa5c503e856693c0d8f9d7d2647e5b"
+    },
+    "frames": [
+      {
+        "path": "Work/harrison-qa-v03/scratch/qa/000000.png",
+        "index": 0,
+        "identity": {
+          "device": 16777229,
+          "inode": 130649329,
+          "bytes": 4225119,
+          "mtime_ns": 1794242421747166595,
+          "ctime_ns": 1794242421747166595,
+          "nlink": 1,
+          "allocated_bytes": 4227072
+        },
+        "sha256": "c88b564c685e875bb158e9e810f976a07a153f100c81c54d2e48687e76990fee"
+      },
+      {
+        "path": "Work/harrison-qa-v03/scratch/qa/000001.png",
+        "index": 72,
+        "identity": {
+          "device": 16777229,
+          "inode": 130649330,
+          "bytes": 4237069,
+          "mtime_ns": 1794242421749319724,
+          "ctime_ns": 1794242421749319724,
+          "nlink": 1,
+          "allocated_bytes": 4239360
+        },
+        "sha256": "84987c054a07ad408d41e47ae90321d64bf6cd4671971607f9b72601b84601c5"
+      },
+      {
+        "path": "Work/harrison-qa-v03/scratch/qa/000002.png",
+        "index": 144,
+        "identity": {
+          "device": 16777229,
+          "inode": 130649331,
+          "bytes": 4147575,
+          "mtime_ns": 1794242422344628191,
+          "ctime_ns": 1794242422344628191,
+          "nlink": 1,
+          "allocated_bytes": 4149248
+        },
+        "sha256": "661d4414a79a2cc2881b517d3156450bc84717e309ae0bc7a8e552d336554782"
+      },
+      {
+        "path": "Work/harrison-qa-v03/scratch/qa/000003.png",
+        "index": 145,
+        "identity": {
+          "device": 16777229,
+          "inode": 130649332,
+          "bytes": 4198113,
+          "mtime_ns": 1794242422348265655,
+          "ctime_ns": 1794242422348265655,
+          "nlink": 1,
+          "allocated_bytes": 4198400
+        },
+        "sha256": "11ec80101d42e7b9eec869d91b21a881a3f2e0cb4c5f246f5ab4592e255b18b4"
+      },
+      {
+        "path": "Work/harrison-qa-v03/scratch/qa/000004.png",
+        "index": 222,
+        "identity": {
+          "device": 16777229,
+          "inode": 130649335,
+          "bytes": 4154008,
+          "mtime_ns": 1794242422566843802,
+          "ctime_ns": 1794242422566843802,
+          "nlink": 1,
+          "allocated_bytes": 4157440
+        },
+        "sha256": "f374c4c64b89be79e0a616c3fdd2d9e994c79f992a3948f0c2473d1e5e08a4eb"
+      },
+      {
+        "path": "Work/harrison-qa-v03/scratch/qa/000005.png",
+        "index": 299,
+        "identity": {
+          "device": 16777229,
+          "inode": 130649336,
+          "bytes": 4127749,
+          "mtime_ns": 1794242422853239767,
+          "ctime_ns": 1794242422853239767,
+          "nlink": 1,
+          "allocated_bytes": 4128768
+        },
+        "sha256": "f7adc1987c0648ae25334771765145867ec9c9be3a2b2a06a387b791fe5dc1fd"
+      },
+      {
+        "path": "Work/harrison-qa-v03/scratch/qa/000006.png",
+        "index": 300,
+        "identity": {
+          "device": 16777229,
+          "inode": 130649337,
+          "bytes": 4195026,
+          "mtime_ns": 1794242422858356150,
+          "ctime_ns": 1794242422858356150,
+          "nlink": 1,
+          "allocated_bytes": 4198400
+        },
+        "sha256": "9184d4b9aff5c869007d7709e4ac48b62246173567610114689838168872f6a0"
+      },
+      {
+        "path": "Work/harrison-qa-v03/scratch/qa/000007.png",
+        "index": 374,
+        "identity": {
+          "device": 16777229,
+          "inode": 130649347,
+          "bytes": 4148721,
+          "mtime_ns": 1794242423110463393,
+          "ctime_ns": 1794242423110463393,
+          "nlink": 1,
+          "allocated_bytes": 4149248
+        },
+        "sha256": "d1203361d81a4e5af00e0db9ef638759582210bf379340ce8763afa30de40fb6"
+      },
+      {
+        "path": "Work/harrison-qa-v03/scratch/qa/000008.png",
+        "index": 449,
+        "identity": {
+          "device": 16777229,
+          "inode": 130649350,
+          "bytes": 4108795,
+          "mtime_ns": 1794242423427154616,
+          "ctime_ns": 1794242423427154616,
+          "nlink": 1,
+          "allocated_bytes": 4112384
+        },
+        "sha256": "b4cf5c6d511f99c7007e54a42b2709d31118e40fadd5d750f94c14fcedcf9e64"
+      },
+      {
+        "path": "Work/harrison-qa-v03/scratch/qa/000009.png",
+        "index": 450,
+        "identity": {
+          "device": 16777229,
+          "inode": 130649351,
+          "bytes": 4990181,
+          "mtime_ns": 1794242423435187795,
+          "ctime_ns": 1794242423435187795,
+          "nlink": 1,
+          "allocated_bytes": 4993024
+        },
+        "sha256": "3063b38b5d1449dec93dad5bfa6edc0eaa60bbb31e17d4a8f248441da21c82a6"
+      },
+      {
+        "path": "Work/harrison-qa-v03/scratch/qa/000010.png",
+        "index": 529,
+        "identity": {
+          "device": 16777229,
+          "inode": 130649352,
+          "bytes": 4983441,
+          "mtime_ns": 1794242423736428243,
+          "ctime_ns": 1794242423736428243,
+          "nlink": 1,
+          "allocated_bytes": 4984832
+        },
+        "sha256": "89b13654ae2703b4ab1912921f981ff29b96252063a54eedbf75ccebb536d78f"
+      },
+      {
+        "path": "Work/harrison-qa-v03/scratch/qa/000011.png",
+        "index": 609,
+        "identity": {
+          "device": 16777229,
+          "inode": 130649355,
+          "bytes": 4930102,
+          "mtime_ns": 1794242424055391678,
+          "ctime_ns": 1794242424055391678,
+          "nlink": 1,
+          "allocated_bytes": 4931584
+        },
+        "sha256": "82a16d867e12791f976c131d5a31a5fc49536ab5b338bb1286bd041d8028d5ec"
+      },
+      {
+        "path": "Work/harrison-qa-v03/scratch/qa/000012.png",
+        "index": 610,
+        "identity": {
+          "device": 16777229,
+          "inode": 130649356,
+          "bytes": 3990727,
+          "mtime_ns": 1794242424057520223,
+          "ctime_ns": 1794242424057520223,
+          "nlink": 1,
+          "allocated_bytes": 3993600
+        },
+        "sha256": "1f282f5189db04d5ec86a5ed10b5d827dab954f1da673ae8510208153b2afca9"
+      },
+      {
+        "path": "Work/harrison-qa-v03/scratch/qa/000013.png",
+        "index": 684,
+        "identity": {
+          "device": 16777229,
+          "inode": 130649359,
+          "bytes": 3933728,
+          "mtime_ns": 1794242424340924683,
+          "ctime_ns": 1794242424340924683,
+          "nlink": 1,
+          "allocated_bytes": 3936256
+        },
+        "sha256": "5675ffe15e0280b5386e09da6fbd8dd94f848f84d4e3d5fa8184336bba637365"
+      },
+      {
+        "path": "Work/harrison-qa-v03/scratch/qa/000014.png",
+        "index": 759,
+        "identity": {
+          "device": 16777229,
+          "inode": 130649365,
+          "bytes": 3899844,
+          "mtime_ns": 1794242424657398031,
+          "ctime_ns": 1794242424657398031,
+          "nlink": 1,
+          "allocated_bytes": 3903488
+        },
+        "sha256": "4b866b94c3159f0c78b1ef52f9107d3dc6f933ecd16479cac97b569a9a30e0ba"
+      },
+      {
+        "path": "Work/harrison-qa-v03/scratch/qa/000015.png",
+        "index": 760,
+        "identity": {
+          "device": 16777229,
+          "inode": 130649366,
+          "bytes": 4033709,
+          "mtime_ns": 1794242424658165157,
+          "ctime_ns": 1794242424658165157,
+          "nlink": 1,
+          "allocated_bytes": 4034560
+        },
+        "sha256": "2c5c138f5d729609c01415749542872496a3c9de959ef3686416f1344c55c5a3"
+      },
+      {
+        "path": "Work/harrison-qa-v03/scratch/qa/000016.png",
+        "index": 839,
+        "identity": {
+          "device": 16777229,
+          "inode": 130649369,
+          "bytes": 4010806,
+          "mtime_ns": 1794242424881583020,
+          "ctime_ns": 1794242424881583020,
+          "nlink": 1,
+          "allocated_bytes": 4014080
+        },
+        "sha256": "d9921a67ccf56a2e25573aa8858e3eb3a96eae7c9f90c68fad13b45f1cd92c1a"
+      },
+      {
+        "path": "Work/harrison-qa-v03/scratch/qa/000017.png",
+        "index": 919,
+        "identity": {
+          "device": 16777229,
+          "inode": 130649370,
+          "bytes": 3907152,
+          "mtime_ns": 1794242425101596044,
+          "ctime_ns": 1794242425101596044,
+          "nlink": 1,
+          "allocated_bytes": 3907584
+        },
+        "sha256": "80adb54ac28311a469d501ad469b9ca6f3e089b7a3416cb371fd0f7ca7b4bb59"
+      },
+      {
+        "path": "Work/harrison-qa-v03/scratch/qa/000018.png",
+        "index": 920,
+        "identity": {
+          "device": 16777229,
+          "inode": 130649371,
+          "bytes": 4274745,
+          "mtime_ns": 1794242425102564254,
+          "ctime_ns": 1794242425102564254,
+          "nlink": 1,
+          "allocated_bytes": 4276224
+        },
+        "sha256": "f21b17f3915386b510d4c34b30e408f69318de651717a29bb886a8687734bedf"
+      },
+      {
+        "path": "Work/harrison-qa-v03/scratch/qa/000019.png",
+        "index": 999,
+        "identity": {
+          "device": 16777229,
+          "inode": 130649373,
+          "bytes": 4339406,
+          "mtime_ns": 1794242425214396435,
+          "ctime_ns": 1794242425214396435,
+          "nlink": 1,
+          "allocated_bytes": 4341760
+        },
+        "sha256": "9bbcc50e7af83823924eeeb437b814fc6f2b05480717dcb9827ae30a6b9ddb27"
+      },
+      {
+        "path": "Work/harrison-qa-v03/scratch/qa/000020.png",
+        "index": 1079,
+        "identity": {
+          "device": 16777229,
+          "inode": 130649377,
+          "bytes": 4287775,
+          "mtime_ns": 1794242425394840020,
+          "ctime_ns": 1794242425394840020,
+          "nlink": 1,
+          "allocated_bytes": 4288512
+        },
+        "sha256": "a8b1d10077a3b3a7fbab2edece4ff1a5e80f8dccb2d9f06d3a03e84775b9186d"
+      },
+      {
+        "path": "Work/harrison-qa-v03/scratch/qa/000021.png",
+        "index": 1080,
+        "identity": {
+          "device": 16777229,
+          "inode": 130649378,
+          "bytes": 4385631,
+          "mtime_ns": 1794242425395686646,
+          "ctime_ns": 1794242425395686646,
+          "nlink": 1,
+          "allocated_bytes": 4386816
+        },
+        "sha256": "91005bdbd97c8b9195f61cded5809e62eac816abdd6b5143c12d65b0d12e4492"
+      },
+      {
+        "path": "Work/harrison-qa-v03/scratch/qa/000022.png",
+        "index": 1164,
+        "identity": {
+          "device": 16777229,
+          "inode": 130649385,
+          "bytes": 4471798,
+          "mtime_ns": 1794242425601549022,
+          "ctime_ns": 1794242425601549022,
+          "nlink": 1,
+          "allocated_bytes": 4472832
+        },
+        "sha256": "8bb629d73b7e592a9b28f2bb7382145ee79168f4acad2b81d14c687e24ab19fa"
+      },
+      {
+        "path": "Work/harrison-qa-v03/scratch/qa/000023.png",
+        "index": 1249,
+        "identity": {
+          "device": 16777229,
+          "inode": 130649386,
+          "bytes": 4319606,
+          "mtime_ns": 1794242425711782535,
+          "ctime_ns": 1794242425711782535,
+          "nlink": 1,
+          "allocated_bytes": 4321280
+        },
+        "sha256": "bb805a2fd5cba391dc01c0b083d74473f9f60c58997a648de77b490c8b3c01b2"
+      },
+      {
+        "path": "Work/harrison-qa-v03/scratch/qa/000024.png",
+        "index": 1250,
+        "identity": {
+          "device": 16777229,
+          "inode": 130649387,
+          "bytes": 3868878,
+          "mtime_ns": 1794242425712881037,
+          "ctime_ns": 1794242425712881037,
+          "nlink": 1,
+          "allocated_bytes": 3870720
+        },
+        "sha256": "d9a2866b2f5164ed3f7663de452a480097d52d8b7bc390da2f341a9fc2ea9f71"
+      },
+      {
+        "path": "Work/harrison-qa-v03/scratch/qa/000025.png",
+        "index": 1334,
+        "identity": {
+          "device": 16777229,
+          "inode": 130649388,
+          "bytes": 3945875,
+          "mtime_ns": 1794242425713779455,
+          "ctime_ns": 1794242425713779455,
+          "nlink": 1,
+          "allocated_bytes": 3948544
+        },
+        "sha256": "9398cf6d899c4a07d400912a7cab2d51c4edaa8600448363c9798bbbc973efba"
+      },
+      {
+        "path": "Work/harrison-qa-v03/scratch/qa/000026.png",
+        "index": 1419,
+        "identity": {
+          "device": 16777229,
+          "inode": 130649391,
+          "bytes": 3793489,
+          "mtime_ns": 1794242425910141440,
+          "ctime_ns": 1794242425910141440,
+          "nlink": 1,
+          "allocated_bytes": 3796992
+        },
+        "sha256": "1aca8969dc697bf3e07377b7a05f13366036103ba5500414802a530d19654a49"
+      }
+    ],
+    "recipe_record": null,
+    "required_review_checks": [
+      "stream_metadata",
+      "full_decode",
+      "frame_sampling",
+      "motion_framing",
+      "cue_timing",
+      "audio_signal"
+    ],
+    "legacy": false,
+    "registered_utc": "2026-11-09T16:40:26.052490+00:00"
+  },
+  "writer_finished_utc": "2026-11-09T16:40:26.054232+00:00"
+}

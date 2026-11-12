@@ -1,0 +1,1042 @@
+{
+  "steps": [
+    {
+      "name": "remove_clips",
+      "args": {
+        "clipIds": [
+          "326AC1F6",
+          "FA163524",
+          "A39F51DB"
+        ]
+      },
+      "state": "done",
+      "result": {
+        "notes": [
+          "Track indices shifted — re-read get_timeline before the next index-based call."
+        ],
+        "removedClipIds": [
+          "326AC1F6",
+          "A39F51DB",
+          "FA163524"
+        ]
+      }
+    },
+    {
+      "name": "add_clips",
+      "args": {
+        "entries": [
+          {
+            "mediaRef": "8D5C44DA",
+            "startFrame": 0,
+            "endFrame": 178,
+            "trackIndex": 11,
+            "includeAudio": false
+          },
+          {
+            "mediaRef": "DE33B72E",
+            "startFrame": 178,
+            "endFrame": 311,
+            "trackIndex": 11,
+            "includeAudio": false
+          }
+        ]
+      },
+      "state": "rejected_without_change_track_indices_shifted"
+    },
+    {
+      "name": "add_clips",
+      "args": {
+        "entries": [
+          {
+            "mediaRef": "8D5C44DA",
+            "startFrame": 0,
+            "endFrame": 178,
+            "trackIndex": 9,
+            "includeAudio": false
+          },
+          {
+            "mediaRef": "DE33B72E",
+            "startFrame": 178,
+            "endFrame": 311,
+            "trackIndex": 9,
+            "includeAudio": false
+          }
+        ]
+      },
+      "state": "done",
+      "result": {
+        "clips": [
+          {
+            "frames": [
+              0,
+              178
+            ],
+            "id": "7B6384C1",
+            "mediaRef": "8D5C44DA",
+            "track": 9
+          },
+          {
+            "frames": [
+              178,
+              311
+            ],
+            "id": "B9887DA3",
+            "mediaRef": "DE33B72E",
+            "track": 9
+          }
+        ]
+      }
+    },
+    {
+      "name": "set_clip_properties",
+      "args": {
+        "clipIds": [
+          "4F121A1B"
+        ],
+        "durationFrames": 181
+      },
+      "state": "done",
+      "result": {
+        "changed": true,
+        "clips": [
+          {
+            "fadeInFrames": 20,
+            "fadeInInterpolation": "smooth",
+            "frames": [
+              50,
+              231
+            ],
+            "id": "4F121A1B",
+            "mediaRef": "57D1689C",
+            "mediaType": "image",
+            "track": 8,
+            "trimStartFrame": -98
+          }
+        ]
+      }
+    },
+    {
+      "name": "move_clips",
+      "args": {
+        "moves": [
+          {
+            "clipId": "4F121A1B",
+            "toFrame": 130
+          }
+        ]
+      },
+      "state": "done",
+      "result": {
+        "clips": [
+          {
+            "fadeInFrames": 20,
+            "fadeInInterpolation": "smooth",
+            "frames": [
+              130,
+              311
+            ],
+            "id": "4F121A1B",
+            "mediaRef": "57D1689C",
+            "mediaType": "image",
+            "track": 8,
+            "trimStartFrame": -98
+          }
+        ]
+      }
+    },
+    {
+      "name": "move_clips",
+      "args": {
+        "moves": [
+          {
+            "clipId": "73E02469",
+            "toFrame": 0
+          }
+        ]
+      },
+      "state": "done",
+      "result": {
+        "clips": [
+          {
+            "frames": [
+              0,
+              99
+            ],
+            "id": "73E02469",
+            "mediaRef": "51E07247",
+            "mediaType": "image",
+            "track": 0,
+            "transform": {
+              "centerX": 0.425,
+              "centerY": 0.644,
+              "width": 0.85
+            },
+            "trimEndFrame": 51
+          }
+        ]
+      }
+    },
+    {
+      "name": "set_clip_properties",
+      "args": {
+        "clipIds": [
+          "73E02469"
+        ],
+        "durationFrames": 150
+      },
+      "state": "done",
+      "result": {
+        "changed": true,
+        "clips": [
+          {
+            "frames": [
+              0,
+              150
+            ],
+            "id": "73E02469",
+            "mediaRef": "51E07247",
+            "mediaType": "image",
+            "track": 0,
+            "transform": {
+              "centerX": 0.425,
+              "centerY": 0.644,
+              "width": 0.85
+            },
+            "trimEndFrame": 51
+          }
+        ]
+      }
+    },
+    {
+      "name": "manage_tracks",
+      "args": {
+        "reorder": [
+          {
+            "trackId": "1ADE6617",
+            "to": 8
+          }
+        ]
+      },
+      "state": "done",
+      "result": {
+        "reordered": [
+          {
+            "changed": true,
+            "from": 0,
+            "to": 8,
+            "trackId": "1ADE6617"
+          }
+        ],
+        "tracks": [
+          {
+            "index": 0,
+            "label": "V10",
+            "trackId": "819D8CA1",
+            "type": "video"
+          },
+          {
+            "index": 1,
+            "label": "V9",
+            "trackId": "0CADC73C",
+            "type": "video"
+          },
+          {
+            "index": 2,
+            "label": "V8",
+            "trackId": "2130552B",
+            "type": "video"
+          },
+          {
+            "index": 3,
+            "label": "V7",
+            "trackId": "C7BE445B",
+            "type": "video"
+          },
+          {
+            "index": 4,
+            "label": "V6",
+            "trackId": "A2279801",
+            "type": "video"
+          },
+          {
+            "index": 5,
+            "label": "V5",
+            "trackId": "5A4FFD2D",
+            "type": "video"
+          },
+          {
+            "index": 6,
+            "label": "V4",
+            "trackId": "5FFA5B5D",
+            "type": "video"
+          },
+          {
+            "index": 7,
+            "label": "V3",
+            "trackId": "8D19B986",
+            "type": "video"
+          },
+          {
+            "index": 8,
+            "label": "V2",
+            "trackId": "1ADE6617",
+            "type": "video"
+          },
+          {
+            "index": 9,
+            "label": "V1",
+            "trackId": "196B77FA",
+            "type": "video"
+          },
+          {
+            "index": 10,
+            "label": "A1",
+            "trackId": "7B2BFBEC",
+            "type": "audio"
+          }
+        ]
+      }
+    },
+    {
+      "name": "add_clips",
+      "args": {
+        "entries": [
+          {
+            "mediaRef": "57D1689C",
+            "startFrame": 4102,
+            "endFrame": 4201,
+            "trackIndex": 8
+          }
+        ]
+      },
+      "state": "done",
+      "result": {
+        "clips": [
+          {
+            "frames": [
+              4102,
+              4201
+            ],
+            "id": "599D87E1",
+            "mediaRef": "57D1689C",
+            "mediaType": "image",
+            "track": 8,
+            "trimEndFrame": 51
+          }
+        ]
+      }
+    },
+    {
+      "name": "update_text",
+      "args": {
+        "clipIds": [
+          "D9EF58CA",
+          "EEEEF204",
+          "BAA785A4",
+          "D9A3DA7E",
+          "95D4ABE0",
+          "1742B3BE",
+          "8738345F",
+          "02BABEC7",
+          "6F853AA1",
+          "960626DC",
+          "A3516FC4",
+          "75BB651C",
+          "B850ABEC",
+          "38FFA512",
+          "D301B251",
+          "52145079",
+          "44FF85F3",
+          "3550B41E",
+          "F3D9BC0D",
+          "7E09B491"
+        ],
+        "transform": {
+          "y": 0.235
+        }
+      },
+      "state": "done",
+      "result": {
+        "changed": true,
+        "clips": [
+          {
+            "frames": [
+              4102,
+              4105
+            ],
+            "id": "D9EF58CA",
+            "mediaRef": "",
+            "mediaType": "text",
+            "textContent": "А",
+            "textStyle": {
+              "border": {
+                "color": {
+                  "a": 0.824
+                },
+                "enabled": true,
+                "width": 5
+              },
+              "color": {
+                "b": 0.31,
+                "g": 0.835
+              },
+              "fontName": "HelveticaNeue-CondensedBlack",
+              "fontSize": 52,
+              "isBold": true,
+              "tracking": 1.5
+            },
+            "track": 1,
+            "transform": {
+              "x": 0.416,
+              "y": 0.235
+            }
+          },
+          {
+            "frames": [
+              4106,
+              4109
+            ],
+            "id": "EEEEF204",
+            "mediaRef": "",
+            "mediaType": "text",
+            "textContent": "ВОТ",
+            "textStyle": {
+              "border": {
+                "color": {
+                  "a": 0.824
+                },
+                "enabled": true,
+                "width": 5
+              },
+              "color": {
+                "b": 0.31,
+                "g": 0.835
+              },
+              "fontName": "HelveticaNeue-CondensedBlack",
+              "fontSize": 52,
+              "isBold": true,
+              "tracking": 1.5
+            },
+            "track": 1,
+            "transform": {
+              "x": 0.539,
+              "y": 0.235
+            }
+          },
+          {
+            "frames": [
+              4110,
+              4111
+            ],
+            "id": "BAA785A4",
+            "mediaRef": "",
+            "mediaType": "text",
+            "textContent": "НА",
+            "textStyle": {
+              "border": {
+                "color": {
+                  "a": 0.824
+                },
+                "enabled": true,
+                "width": 5
+              },
+              "color": {
+                "b": 0.31,
+                "g": 0.835
+              },
+              "fontName": "HelveticaNeue-CondensedBlack",
+              "fontSize": 52,
+              "isBold": true,
+              "tracking": 1.5
+            },
+            "track": 1,
+            "transform": {
+              "x": 0.246,
+              "y": 0.235
+            }
+          },
+          {
+            "frames": [
+              4113,
+              4131
+            ],
+            "id": "D9A3DA7E",
+            "mediaRef": "",
+            "mediaType": "text",
+            "textContent": "НАСТОЯЩУЮ",
+            "textStyle": {
+              "border": {
+                "color": {
+                  "a": 0.824
+                },
+                "enabled": true,
+                "width": 5
+              },
+              "color": {
+                "b": 0.31,
+                "g": 0.835
+              },
+              "fontName": "HelveticaNeue-CondensedBlack",
+              "fontSize": 52,
+              "isBold": true,
+              "tracking": 1.5
+            },
+            "track": 1,
+            "transform": {
+              "x": 0.564,
+              "y": 0.235
+            }
+          },
+          {
+            "frames": [
+              4133,
+              4142
+            ],
+            "id": "95D4ABE0",
+            "mediaRef": "",
+            "mediaType": "text",
+            "textContent": "СВАДЬБУ",
+            "textStyle": {
+              "border": {
+                "color": {
+                  "a": 0.824
+                },
+                "enabled": true,
+                "width": 5
+              },
+              "color": {
+                "b": 0.31,
+                "g": 0.835
+              },
+              "fontName": "HelveticaNeue-CondensedBlack",
+              "fontSize": 52,
+              "isBold": true,
+              "tracking": 1.5
+            },
+            "track": 1,
+            "transform": {
+              "x": 0.39,
+              "y": 0.235
+            }
+          },
+          {
+            "frames": [
+              4144,
+              4153
+            ],
+            "id": "1742B3BE",
+            "mediaRef": "",
+            "mediaType": "text",
+            "textContent": "ОТЦА",
+            "textStyle": {
+              "border": {
+                "color": {
+                  "a": 0.824
+                },
+                "enabled": true,
+                "width": 5
+              },
+              "color": {
+                "b": 0.31,
+                "g": 0.835
+              },
+              "fontName": "HelveticaNeue-CondensedBlack",
+              "fontSize": 52,
+              "isBold": true,
+              "tracking": 1.5
+            },
+            "track": 1,
+            "transform": {
+              "x": 0.687,
+              "y": 0.235
+            }
+          },
+          {
+            "frames": [
+              4163,
+              4168
+            ],
+            "id": "8738345F",
+            "mediaRef": "",
+            "mediaType": "text",
+            "textContent": "Я",
+            "textStyle": {
+              "border": {
+                "color": {
+                  "a": 0.824
+                },
+                "enabled": true,
+                "width": 5
+              },
+              "color": {
+                "b": 0.31,
+                "g": 0.835
+              },
+              "fontName": "HelveticaNeue-CondensedBlack",
+              "fontSize": 52,
+              "isBold": true,
+              "tracking": 1.5
+            },
+            "track": 1,
+            "transform": {
+              "x": 0.405,
+              "y": 0.235
+            }
+          },
+          {
+            "frames": [
+              4170,
+              4174
+            ],
+            "id": "02BABEC7",
+            "mediaRef": "",
+            "mediaType": "text",
+            "textContent": "УЖЕ",
+            "textStyle": {
+              "border": {
+                "color": {
+                  "a": 0.824
+                },
+                "enabled": true,
+                "width": 5
+              },
+              "color": {
+                "b": 0.31,
+                "g": 0.835
+              },
+              "fontName": "HelveticaNeue-CondensedBlack",
+              "fontSize": 52,
+              "isBold": true,
+              "tracking": 1.5
+            },
+            "track": 1,
+            "transform": {
+              "x": 0.539,
+              "y": 0.235
+            }
+          },
+          {
+            "frames": [
+              4175,
+              4177
+            ],
+            "id": "6F853AA1",
+            "mediaRef": "",
+            "mediaType": "text",
+            "textContent": "НЕ",
+            "textStyle": {
+              "border": {
+                "color": {
+                  "a": 0.824
+                },
+                "enabled": true,
+                "width": 5
+              },
+              "color": {
+                "b": 0.31,
+                "g": 0.835
+              },
+              "fontName": "HelveticaNeue-CondensedBlack",
+              "fontSize": 52,
+              "isBold": true,
+              "tracking": 1.5
+            },
+            "track": 1,
+            "transform": {
+              "x": 0.241,
+              "y": 0.235
+            }
+          },
+          {
+            "frames": [
+              4179,
+              4196
+            ],
+            "id": "960626DC",
+            "mediaRef": "",
+            "mediaType": "text",
+            "textContent": "ПРИГЛАСИЛА",
+            "textStyle": {
+              "border": {
+                "color": {
+                  "a": 0.824
+                },
+                "enabled": true,
+                "width": 5
+              },
+              "color": {
+                "b": 0.31,
+                "g": 0.835
+              },
+              "fontName": "HelveticaNeue-CondensedBlack",
+              "fontSize": 52,
+              "isBold": true,
+              "tracking": 1.5
+            },
+            "track": 1,
+            "transform": {
+              "x": 0.562,
+              "y": 0.235
+            }
+          },
+          {
+            "frames": [
+              4102,
+              4110
+            ],
+            "id": "A3516FC4",
+            "mediaRef": "",
+            "mediaType": "text",
+            "textContent": "ВОТ",
+            "textStyle": {
+              "border": {
+                "color": {
+                  "a": 0.824
+                },
+                "enabled": true,
+                "width": 5
+              },
+              "fontName": "HelveticaNeue-CondensedBlack",
+              "fontSize": 52,
+              "isBold": true,
+              "tracking": 1.5
+            },
+            "track": 2,
+            "transform": {
+              "x": 0.539,
+              "y": 0.235
+            }
+          },
+          {
+            "frames": [
+              4110,
+              4133
+            ],
+            "id": "75BB651C",
+            "mediaRef": "",
+            "mediaType": "text",
+            "textContent": "НАСТОЯЩУЮ",
+            "textStyle": {
+              "border": {
+                "color": {
+                  "a": 0.824
+                },
+                "enabled": true,
+                "width": 5
+              },
+              "fontName": "HelveticaNeue-CondensedBlack",
+              "fontSize": 52,
+              "isBold": true,
+              "tracking": 1.5
+            },
+            "track": 2,
+            "transform": {
+              "x": 0.564,
+              "y": 0.235
+            }
+          },
+          {
+            "frames": [
+              4133,
+              4163
+            ],
+            "id": "B850ABEC",
+            "mediaRef": "",
+            "mediaType": "text",
+            "textContent": "ОТЦА",
+            "textStyle": {
+              "border": {
+                "color": {
+                  "a": 0.824
+                },
+                "enabled": true,
+                "width": 5
+              },
+              "fontName": "HelveticaNeue-CondensedBlack",
+              "fontSize": 52,
+              "isBold": true,
+              "tracking": 1.5
+            },
+            "track": 2,
+            "transform": {
+              "x": 0.687,
+              "y": 0.235
+            }
+          },
+          {
+            "frames": [
+              4163,
+              4175
+            ],
+            "id": "38FFA512",
+            "mediaRef": "",
+            "mediaType": "text",
+            "textContent": "УЖЕ",
+            "textStyle": {
+              "border": {
+                "color": {
+                  "a": 0.824
+                },
+                "enabled": true,
+                "width": 5
+              },
+              "fontName": "HelveticaNeue-CondensedBlack",
+              "fontSize": 52,
+              "isBold": true,
+              "tracking": 1.5
+            },
+            "track": 2,
+            "transform": {
+              "x": 0.539,
+              "y": 0.235
+            }
+          },
+          {
+            "frames": [
+              4175,
+              4196
+            ],
+            "id": "D301B251",
+            "mediaRef": "",
+            "mediaType": "text",
+            "textContent": "ПРИГЛАСИЛА",
+            "textStyle": {
+              "border": {
+                "color": {
+                  "a": 0.824
+                },
+                "enabled": true,
+                "width": 5
+              },
+              "fontName": "HelveticaNeue-CondensedBlack",
+              "fontSize": 52,
+              "isBold": true,
+              "tracking": 1.5
+            },
+            "track": 2,
+            "transform": {
+              "x": 0.562,
+              "y": 0.235
+            }
+          },
+          {
+            "frames": [
+              4102,
+              4110
+            ],
+            "id": "52145079",
+            "mediaRef": "",
+            "mediaType": "text",
+            "textContent": "А",
+            "textStyle": {
+              "border": {
+                "color": {
+                  "a": 0.824
+                },
+                "enabled": true,
+                "width": 5
+              },
+              "fontName": "HelveticaNeue-CondensedBlack",
+              "fontSize": 52,
+              "isBold": true,
+              "tracking": 1.5
+            },
+            "track": 3,
+            "transform": {
+              "x": 0.416,
+              "y": 0.235
+            }
+          },
+          {
+            "frames": [
+              4110,
+              4133
+            ],
+            "id": "44FF85F3",
+            "mediaRef": "",
+            "mediaType": "text",
+            "textContent": "НА",
+            "textStyle": {
+              "border": {
+                "color": {
+                  "a": 0.824
+                },
+                "enabled": true,
+                "width": 5
+              },
+              "fontName": "HelveticaNeue-CondensedBlack",
+              "fontSize": 52,
+              "isBold": true,
+              "tracking": 1.5
+            },
+            "track": 3,
+            "transform": {
+              "x": 0.246,
+              "y": 0.235
+            }
+          },
+          {
+            "frames": [
+              4133,
+              4163
+            ],
+            "id": "3550B41E",
+            "mediaRef": "",
+            "mediaType": "text",
+            "textContent": "СВАДЬБУ",
+            "textStyle": {
+              "border": {
+                "color": {
+                  "a": 0.824
+                },
+                "enabled": true,
+                "width": 5
+              },
+              "fontName": "HelveticaNeue-CondensedBlack",
+              "fontSize": 52,
+              "isBold": true,
+              "tracking": 1.5
+            },
+            "track": 3,
+            "transform": {
+              "x": 0.39,
+              "y": 0.235
+            }
+          },
+          {
+            "frames": [
+              4163,
+              4175
+            ],
+            "id": "F3D9BC0D",
+            "mediaRef": "",
+            "mediaType": "text",
+            "textContent": "Я",
+            "textStyle": {
+              "border": {
+                "color": {
+                  "a": 0.824
+                },
+                "enabled": true,
+                "width": 5
+              },
+              "fontName": "HelveticaNeue-CondensedBlack",
+              "fontSize": 52,
+              "isBold": true,
+              "tracking": 1.5
+            },
+            "track": 3,
+            "transform": {
+              "x": 0.405,
+              "y": 0.235
+            }
+          },
+          {
+            "frames": [
+              4175,
+              4196
+            ],
+            "id": "7E09B491",
+            "mediaRef": "",
+            "mediaType": "text",
+            "textContent": "НЕ",
+            "textStyle": {
+              "border": {
+                "color": {
+                  "a": 0.824
+                },
+                "enabled": true,
+                "width": 5
+              },
+              "fontName": "HelveticaNeue-CondensedBlack",
+              "fontSize": 52,
+              "isBold": true,
+              "tracking": 1.5
+            },
+            "track": 3,
+            "transform": {
+              "x": 0.241,
+              "y": 0.235
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "before": {
+    "73E02469": {
+      "frames": [
+        4102,
+        4201
+      ],
+      "id": "73E02469",
+      "mediaRef": "51E07247",
+      "mediaType": "image",
+      "transform": {
+        "centerX": 0.425,
+        "centerY": 0.644,
+        "width": 0.85
+      },
+      "trimEndFrame": 51
+    },
+    "4F121A1B": {
+      "fadeInFrames": 20,
+      "fadeInInterpolation": "smooth",
+      "frames": [
+        50,
+        311
+      ],
+      "id": "4F121A1B",
+      "mediaRef": "57D1689C",
+      "mediaType": "image",
+      "trimStartFrame": -98
+    },
+    "326AC1F6": {
+      "crop": {
+        "bottom": 0.09,
+        "top": 0.09
+      },
+      "frames": [
+        4102,
+        4201
+      ],
+      "id": "326AC1F6",
+      "mediaRef": "60EFB449",
+      "mediaType": "image",
+      "opacity": 0.67,
+      "transform": {
+        "height": 1.218
+      },
+      "trimEndFrame": 51
+    },
+    "FA163524": {
+      "crop": {
+        "bottom": 0.09,
+        "top": 0.09
+      },
+      "frames": [
+        4102,
+        4201
+      ],
+      "id": "FA163524",
+      "mediaRef": "CF9A49AE",
+      "mediaType": "image",
+      "opacity": 0.67,
+      "transform": {
+        "height": 1.219
+      },
+      "trimEndFrame": 51
+    },
+    "A39F51DB": {
+      "frames": [
+        0,
+        311
+      ],
+      "id": "A39F51DB",
+      "mediaRef": "4D26BB8A",
+      "mediaType": "image"
+    }
+  },
+  "totalFrames": 4201,
+  "outro_profile_clip": "599D87E1"
+}

@@ -1,0 +1,1145 @@
+{
+  "version": 1,
+  "status": "ASR_ESTIMATE_REVIEW_REQUIRED",
+  "video_sha256": "460e308754dc3cdb7d477d37e3e1d0e816c3114bb51eb3e9eb9a00df30c0fc7c",
+  "transcript_sha256": "f289c0d9d4b4a76c39fd7c7216e1be2e2d8668d7eabba6dae4d75bbd27f47987",
+  "source_alignment_sha256": "07b173f1a11ec61e245372ad3ea62f26634811949112fec311994b9a797f95a3",
+  "asr_result_sha256": "f56d9c5a9a2867dcda133913ba71ff189681e5b7cd0490619d39d68ad99f99b6",
+  "asr_source_video_sha256": "460e308754dc3cdb7d477d37e3e1d0e816c3114bb51eb3e9eb9a00df30c0fc7c",
+  "word_timing_method": "Exact normalized Whisper word matches; merge Sped + -up; proportionally map the four spoken number words across Whisper token 102 using existing character-alignment intervals.",
+  "audible_sync": "UNVERIFIED",
+  "words": [
+    {
+      "index": 0,
+      "text": "Quiet",
+      "start_seconds": 0.0,
+      "end_seconds": 0.3,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        0
+      ],
+      "asr_word_indices": [
+        0
+      ]
+    },
+    {
+      "index": 1,
+      "text": "audio",
+      "start_seconds": 0.3,
+      "end_seconds": 0.72,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        1
+      ],
+      "asr_word_indices": [
+        1
+      ]
+    },
+    {
+      "index": 2,
+      "text": "Sped-up",
+      "start_seconds": 1.14,
+      "end_seconds": 1.68,
+      "method": "ASR merge of hyphenated word",
+      "source_word_indices": [
+        2
+      ],
+      "asr_word_indices": [
+        2,
+        3
+      ]
+    },
+    {
+      "index": 3,
+      "text": "playback",
+      "start_seconds": 1.68,
+      "end_seconds": 2.0,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        3
+      ],
+      "asr_word_indices": [
+        4
+      ]
+    },
+    {
+      "index": 4,
+      "text": "Could",
+      "start_seconds": 2.36,
+      "end_seconds": 2.86,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        4
+      ],
+      "asr_word_indices": [
+        5
+      ]
+    },
+    {
+      "index": 5,
+      "text": "this",
+      "start_seconds": 2.86,
+      "end_seconds": 3.08,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        5
+      ],
+      "asr_word_indices": [
+        6
+      ]
+    },
+    {
+      "index": 6,
+      "text": "radio",
+      "start_seconds": 3.08,
+      "end_seconds": 3.42,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        6
+      ],
+      "asr_word_indices": [
+        7
+      ]
+    },
+    {
+      "index": 7,
+      "text": "recording",
+      "start_seconds": 3.42,
+      "end_seconds": 3.86,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        7
+      ],
+      "asr_word_indices": [
+        8
+      ]
+    },
+    {
+      "index": 8,
+      "text": "still",
+      "start_seconds": 3.86,
+      "end_seconds": 4.24,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        8
+      ],
+      "asr_word_indices": [
+        9
+      ]
+    },
+    {
+      "index": 9,
+      "text": "reveal",
+      "start_seconds": 4.24,
+      "end_seconds": 4.62,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        9
+      ],
+      "asr_word_indices": [
+        10
+      ]
+    },
+    {
+      "index": 10,
+      "text": "which",
+      "start_seconds": 4.62,
+      "end_seconds": 4.94,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        10
+      ],
+      "asr_word_indices": [
+        11
+      ]
+    },
+    {
+      "index": 11,
+      "text": "program",
+      "start_seconds": 4.94,
+      "end_seconds": 5.34,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        11
+      ],
+      "asr_word_indices": [
+        12
+      ]
+    },
+    {
+      "index": 12,
+      "text": "it",
+      "start_seconds": 5.34,
+      "end_seconds": 5.52,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        12
+      ],
+      "asr_word_indices": [
+        13
+      ]
+    },
+    {
+      "index": 13,
+      "text": "carried",
+      "start_seconds": 5.52,
+      "end_seconds": 5.8,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        13
+      ],
+      "asr_word_indices": [
+        14
+      ]
+    },
+    {
+      "index": 14,
+      "text": "Developer",
+      "start_seconds": 6.22,
+      "end_seconds": 6.86,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        14
+      ],
+      "asr_word_indices": [
+        15
+      ]
+    },
+    {
+      "index": 15,
+      "text": "Weber",
+      "start_seconds": 6.86,
+      "end_seconds": 7.22,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        15
+      ],
+      "asr_word_indices": [
+        16
+      ]
+    },
+    {
+      "index": 16,
+      "text": "Kai",
+      "start_seconds": 7.22,
+      "end_seconds": 7.64,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        16
+      ],
+      "asr_word_indices": [
+        17
+      ]
+    },
+    {
+      "index": 17,
+      "text": "describes",
+      "start_seconds": 7.64,
+      "end_seconds": 8.08,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        17
+      ],
+      "asr_word_indices": [
+        18
+      ]
+    },
+    {
+      "index": 18,
+      "text": "that",
+      "start_seconds": 8.08,
+      "end_seconds": 8.5,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        18
+      ],
+      "asr_word_indices": [
+        19
+      ]
+    },
+    {
+      "index": 19,
+      "text": "problem",
+      "start_seconds": 8.5,
+      "end_seconds": 8.88,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        19
+      ],
+      "asr_word_indices": [
+        20
+      ]
+    },
+    {
+      "index": 20,
+      "text": "with",
+      "start_seconds": 8.88,
+      "end_seconds": 9.12,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        20
+      ],
+      "asr_word_indices": [
+        21
+      ]
+    },
+    {
+      "index": 21,
+      "text": "an",
+      "start_seconds": 9.12,
+      "end_seconds": 9.24,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        21
+      ],
+      "asr_word_indices": [
+        22
+      ]
+    },
+    {
+      "index": 22,
+      "text": "online",
+      "start_seconds": 9.24,
+      "end_seconds": 9.64,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        22
+      ],
+      "asr_word_indices": [
+        23
+      ]
+    },
+    {
+      "index": 23,
+      "text": "recording",
+      "start_seconds": 9.64,
+      "end_seconds": 10.12,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        23
+      ],
+      "asr_word_indices": [
+        24
+      ]
+    },
+    {
+      "index": 24,
+      "text": "he",
+      "start_seconds": 10.12,
+      "end_seconds": 10.38,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        24
+      ],
+      "asr_word_indices": [
+        25
+      ]
+    },
+    {
+      "index": 25,
+      "text": "identifies",
+      "start_seconds": 10.38,
+      "end_seconds": 10.84,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        25
+      ],
+      "asr_word_indices": [
+        26
+      ]
+    },
+    {
+      "index": 26,
+      "text": "as",
+      "start_seconds": 10.84,
+      "end_seconds": 11.22,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        26
+      ],
+      "asr_word_indices": [
+        27
+      ]
+    },
+    {
+      "index": 27,
+      "text": "episode",
+      "start_seconds": 11.22,
+      "end_seconds": 11.66,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        27
+      ],
+      "asr_word_indices": [
+        28
+      ]
+    },
+    {
+      "index": 28,
+      "text": "one",
+      "start_seconds": 11.66,
+      "end_seconds": 11.71833333320573,
+      "method": "ASR number phrase; internal words proportionally mapped from existing character alignment",
+      "source_word_indices": [
+        28
+      ],
+      "asr_word_indices": [
+        29
+      ]
+    },
+    {
+      "index": 29,
+      "text": "hundred",
+      "start_seconds": 11.776666666411458,
+      "end_seconds": 12.01,
+      "method": "ASR number phrase; internal words proportionally mapped from existing character alignment",
+      "source_word_indices": [
+        29
+      ],
+      "asr_word_indices": [
+        29
+      ]
+    },
+    {
+      "index": 30,
+      "text": "and",
+      "start_seconds": 12.097499999808592,
+      "end_seconds": 12.184999999617187,
+      "method": "ASR number phrase; internal words proportionally mapped from existing character alignment",
+      "source_word_indices": [
+        30
+      ],
+      "asr_word_indices": [
+        29
+      ]
+    },
+    {
+      "index": 31,
+      "text": "two",
+      "start_seconds": 12.272500000191405,
+      "end_seconds": 12.36,
+      "method": "ASR number phrase; internal words proportionally mapped from existing character alignment",
+      "source_word_indices": [
+        31
+      ],
+      "asr_word_indices": [
+        29
+      ]
+    },
+    {
+      "index": 32,
+      "text": "of",
+      "start_seconds": 12.36,
+      "end_seconds": 13.14,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        32
+      ],
+      "asr_word_indices": [
+        30
+      ]
+    },
+    {
+      "index": 33,
+      "text": "Brazil's",
+      "start_seconds": 13.14,
+      "end_seconds": 13.7,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        33
+      ],
+      "asr_word_indices": [
+        31
+      ]
+    },
+    {
+      "index": 34,
+      "text": "Clip",
+      "start_seconds": 13.7,
+      "end_seconds": 14.04,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        34
+      ],
+      "asr_word_indices": [
+        32
+      ]
+    },
+    {
+      "index": 35,
+      "text": "Informática",
+      "start_seconds": 14.04,
+      "end_seconds": 14.72,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        35
+      ],
+      "asr_word_indices": [
+        33
+      ]
+    },
+    {
+      "index": 36,
+      "text": "The",
+      "start_seconds": 15.0,
+      "end_seconds": 15.4,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        36
+      ],
+      "asr_word_indices": [
+        34
+      ]
+    },
+    {
+      "index": 37,
+      "text": "show",
+      "start_seconds": 15.4,
+      "end_seconds": 15.6,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        37
+      ],
+      "asr_word_indices": [
+        35
+      ]
+    },
+    {
+      "index": 38,
+      "text": "transmitted",
+      "start_seconds": 15.6,
+      "end_seconds": 16.18,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        38
+      ],
+      "asr_word_indices": [
+        36
+      ]
+    },
+    {
+      "index": 39,
+      "text": "software",
+      "start_seconds": 16.18,
+      "end_seconds": 16.72,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        39
+      ],
+      "asr_word_indices": [
+        37
+      ]
+    },
+    {
+      "index": 40,
+      "text": "as",
+      "start_seconds": 16.72,
+      "end_seconds": 17.14,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        40
+      ],
+      "asr_word_indices": [
+        38
+      ]
+    },
+    {
+      "index": 41,
+      "text": "sound",
+      "start_seconds": 17.14,
+      "end_seconds": 17.52,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        41
+      ],
+      "asr_word_indices": [
+        39
+      ]
+    },
+    {
+      "index": 42,
+      "text": "His",
+      "start_seconds": 17.94,
+      "end_seconds": 18.26,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        42
+      ],
+      "asr_word_indices": [
+        40
+      ]
+    },
+    {
+      "index": 43,
+      "text": "published",
+      "start_seconds": 18.26,
+      "end_seconds": 18.66,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        43
+      ],
+      "asr_word_indices": [
+        41
+      ]
+    },
+    {
+      "index": 44,
+      "text": "procedure",
+      "start_seconds": 18.66,
+      "end_seconds": 19.16,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        44
+      ],
+      "asr_word_indices": [
+        42
+      ]
+    },
+    {
+      "index": 45,
+      "text": "extracts",
+      "start_seconds": 19.16,
+      "end_seconds": 19.88,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        45
+      ],
+      "asr_word_indices": [
+        43
+      ]
+    },
+    {
+      "index": 46,
+      "text": "the",
+      "start_seconds": 19.88,
+      "end_seconds": 20.0,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        46
+      ],
+      "asr_word_indices": [
+        44
+      ]
+    },
+    {
+      "index": 47,
+      "text": "audio",
+      "start_seconds": 20.0,
+      "end_seconds": 20.3,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        47
+      ],
+      "asr_word_indices": [
+        45
+      ]
+    },
+    {
+      "index": 48,
+      "text": "and",
+      "start_seconds": 20.3,
+      "end_seconds": 20.6,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        48
+      ],
+      "asr_word_indices": [
+        46
+      ]
+    },
+    {
+      "index": 49,
+      "text": "isolates",
+      "start_seconds": 20.6,
+      "end_seconds": 21.2,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        49
+      ],
+      "asr_word_indices": [
+        47
+      ]
+    },
+    {
+      "index": 50,
+      "text": "the",
+      "start_seconds": 21.2,
+      "end_seconds": 21.36,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        50
+      ],
+      "asr_word_indices": [
+        48
+      ]
+    },
+    {
+      "index": 51,
+      "text": "data",
+      "start_seconds": 21.36,
+      "end_seconds": 21.6,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        51
+      ],
+      "asr_word_indices": [
+        49
+      ]
+    },
+    {
+      "index": 52,
+      "text": "segment",
+      "start_seconds": 21.6,
+      "end_seconds": 21.94,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        52
+      ],
+      "asr_word_indices": [
+        50
+      ]
+    },
+    {
+      "index": 53,
+      "text": "A",
+      "start_seconds": 22.16,
+      "end_seconds": 22.5,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        53
+      ],
+      "asr_word_indices": [
+        51
+      ]
+    },
+    {
+      "index": 54,
+      "text": "configured",
+      "start_seconds": 22.5,
+      "end_seconds": 22.98,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        54
+      ],
+      "asr_word_indices": [
+        52
+      ]
+    },
+    {
+      "index": 55,
+      "text": "decoder",
+      "start_seconds": 22.98,
+      "end_seconds": 23.52,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        55
+      ],
+      "asr_word_indices": [
+        53
+      ]
+    },
+    {
+      "index": 56,
+      "text": "then",
+      "start_seconds": 23.52,
+      "end_seconds": 23.84,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        56
+      ],
+      "asr_word_indices": [
+        54
+      ]
+    },
+    {
+      "index": 57,
+      "text": "reads",
+      "start_seconds": 23.84,
+      "end_seconds": 24.12,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        57
+      ],
+      "asr_word_indices": [
+        55
+      ]
+    },
+    {
+      "index": 58,
+      "text": "the",
+      "start_seconds": 24.12,
+      "end_seconds": 24.3,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        58
+      ],
+      "asr_word_indices": [
+        56
+      ]
+    },
+    {
+      "index": 59,
+      "text": "sound",
+      "start_seconds": 24.3,
+      "end_seconds": 24.58,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        59
+      ],
+      "asr_word_indices": [
+        57
+      ]
+    },
+    {
+      "index": 60,
+      "text": "patterns",
+      "start_seconds": 24.58,
+      "end_seconds": 24.98,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        60
+      ],
+      "asr_word_indices": [
+        58
+      ]
+    },
+    {
+      "index": 61,
+      "text": "as",
+      "start_seconds": 24.98,
+      "end_seconds": 25.22,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        61
+      ],
+      "asr_word_indices": [
+        59
+      ]
+    },
+    {
+      "index": 62,
+      "text": "data",
+      "start_seconds": 25.22,
+      "end_seconds": 25.52,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        62
+      ],
+      "asr_word_indices": [
+        60
+      ]
+    },
+    {
+      "index": 63,
+      "text": "The",
+      "start_seconds": 25.84,
+      "end_seconds": 26.06,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        63
+      ],
+      "asr_word_indices": [
+        61
+      ]
+    },
+    {
+      "index": 64,
+      "text": "instructions",
+      "start_seconds": 26.06,
+      "end_seconds": 26.52,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        64
+      ],
+      "asr_word_indices": [
+        62
+      ]
+    },
+    {
+      "index": 65,
+      "text": "describe",
+      "start_seconds": 26.52,
+      "end_seconds": 27.1,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        65
+      ],
+      "asr_word_indices": [
+        63
+      ]
+    },
+    {
+      "index": 66,
+      "text": "six",
+      "start_seconds": 27.1,
+      "end_seconds": 27.52,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        66
+      ],
+      "asr_word_indices": [
+        64
+      ]
+    },
+    {
+      "index": 67,
+      "text": "output",
+      "start_seconds": 27.52,
+      "end_seconds": 27.92,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        67
+      ],
+      "asr_word_indices": [
+        65
+      ]
+    },
+    {
+      "index": 68,
+      "text": "files",
+      "start_seconds": 27.92,
+      "end_seconds": 28.38,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        68
+      ],
+      "asr_word_indices": [
+        66
+      ]
+    },
+    {
+      "index": 69,
+      "text": "We",
+      "start_seconds": 28.38,
+      "end_seconds": 28.98,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        69
+      ],
+      "asr_word_indices": [
+        67
+      ]
+    },
+    {
+      "index": 70,
+      "text": "haven't",
+      "start_seconds": 28.98,
+      "end_seconds": 29.3,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        70
+      ],
+      "asr_word_indices": [
+        68
+      ]
+    },
+    {
+      "index": 71,
+      "text": "repeated",
+      "start_seconds": 29.3,
+      "end_seconds": 29.64,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        71
+      ],
+      "asr_word_indices": [
+        69
+      ]
+    },
+    {
+      "index": 72,
+      "text": "the",
+      "start_seconds": 29.64,
+      "end_seconds": 29.82,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        72
+      ],
+      "asr_word_indices": [
+        70
+      ]
+    },
+    {
+      "index": 73,
+      "text": "procedure",
+      "start_seconds": 29.82,
+      "end_seconds": 30.24,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        73
+      ],
+      "asr_word_indices": [
+        71
+      ]
+    },
+    {
+      "index": 74,
+      "text": "But",
+      "start_seconds": 30.46,
+      "end_seconds": 30.86,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        74
+      ],
+      "asr_word_indices": [
+        72
+      ]
+    },
+    {
+      "index": 75,
+      "text": "Kai",
+      "start_seconds": 30.86,
+      "end_seconds": 31.1,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        75
+      ],
+      "asr_word_indices": [
+        73
+      ]
+    },
+    {
+      "index": 76,
+      "text": "reports",
+      "start_seconds": 31.1,
+      "end_seconds": 31.58,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        76
+      ],
+      "asr_word_indices": [
+        74
+      ]
+    },
+    {
+      "index": 77,
+      "text": "that",
+      "start_seconds": 31.58,
+      "end_seconds": 31.8,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        77
+      ],
+      "asr_word_indices": [
+        75
+      ]
+    },
+    {
+      "index": 78,
+      "text": "the",
+      "start_seconds": 31.8,
+      "end_seconds": 31.92,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        78
+      ],
+      "asr_word_indices": [
+        76
+      ]
+    },
+    {
+      "index": 79,
+      "text": "extracted",
+      "start_seconds": 31.92,
+      "end_seconds": 32.44,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        79
+      ],
+      "asr_word_indices": [
+        77
+      ]
+    },
+    {
+      "index": 80,
+      "text": "data",
+      "start_seconds": 32.44,
+      "end_seconds": 32.8,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        80
+      ],
+      "asr_word_indices": [
+        78
+      ]
+    },
+    {
+      "index": 81,
+      "text": "matched",
+      "start_seconds": 32.8,
+      "end_seconds": 33.22,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        81
+      ],
+      "asr_word_indices": [
+        79
+      ]
+    },
+    {
+      "index": 82,
+      "text": "an",
+      "start_seconds": 33.22,
+      "end_seconds": 33.4,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        82
+      ],
+      "asr_word_indices": [
+        80
+      ]
+    },
+    {
+      "index": 83,
+      "text": "MSX",
+      "start_seconds": 33.4,
+      "end_seconds": 34.0,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        83
+      ],
+      "asr_word_indices": [
+        81
+      ]
+    },
+    {
+      "index": 84,
+      "text": "game",
+      "start_seconds": 34.0,
+      "end_seconds": 34.28,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        84
+      ],
+      "asr_word_indices": [
+        82
+      ]
+    },
+    {
+      "index": 85,
+      "text": "called",
+      "start_seconds": 34.28,
+      "end_seconds": 34.66,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        85
+      ],
+      "asr_word_indices": [
+        83
+      ]
+    },
+    {
+      "index": 86,
+      "text": "Avenger",
+      "start_seconds": 34.66,
+      "end_seconds": 35.3,
+      "method": "ASR word timestamp",
+      "source_word_indices": [
+        86
+      ],
+      "asr_word_indices": [
+        84
+      ]
+    }
+  ]
+}

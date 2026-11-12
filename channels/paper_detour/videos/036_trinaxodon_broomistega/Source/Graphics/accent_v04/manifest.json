@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "canvas": [
+    1080,
+    1920
+  ],
+  "face_height_px": 85,
+  "min_face_height_px": 80,
+  "anchors": {
+    "primary": {
+      "center": [
+        0.5,
+        0.16
+      ],
+      "max_width_px": 960,
+      "max_height_px": 300
+    }
+  },
+  "scenes": [
+    {
+      "id": "S01",
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/036_trinaxodon_broomistega/Source/Images/montage_1080x1920_v02/S01.png"
+    },
+    {
+      "id": "S12",
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/036_trinaxodon_broomistega/Source/Images/montage_1080x1920_v02/S12.png"
+    }
+  ],
+  "cues": [
+    {
+      "id": "C01",
+      "lines": [
+        "UNLIKELY ROOMMATES"
+      ],
+      "backend": {
+        "type": "existingPNG",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/036_trinaxodon_broomistega/Source/Graphics/accent_v04/raw/C01_UNLIKELY_ROOMMATES.png",
+        "face": {
+          "mode": "creamOrange"
+        },
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+        "status": "author candidate"
+      },
+      "provenance": {
+        "author": "built-in imagegen",
+        "record": "v04 requested caption redesign"
+      },
+      "timing": {
+        "status": "UNVERIFIED",
+        "note": "existing cue ranges; not auditioned"
+      }
+    },
+    {
+      "id": "C10",
+      "lines": [
+        "TOGETHER IN STONE"
+      ],
+      "backend": {
+        "type": "existingPNG",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/036_trinaxodon_broomistega/Source/Graphics/accent_v04/raw/C10_TOGETHER_IN_STONE.png",
+        "face": {
+          "mode": "creamOrange"
+        },
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+        "status": "author candidate"
+      },
+      "provenance": {
+        "author": "built-in imagegen",
+        "record": "v04 requested caption redesign"
+      },
+      "timing": {
+        "status": "UNVERIFIED",
+        "note": "existing cue ranges; not auditioned"
+      }
+    }
+  ],
+  "pairs": [
+    {
+      "scene": "S01",
+      "cue": "C01",
+      "anchor": "primary"
+    },
+    {
+      "scene": "S12",
+      "cue": "C10",
+      "anchor": "primary"
+    }
+  ]
+}

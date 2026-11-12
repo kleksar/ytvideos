@@ -1,0 +1,63 @@
+{
+  "date": "2026-11-02",
+  "independent_review": "not performed",
+  "native_skills_list": "unavailable; filesystem only",
+  "skills": [
+    {
+      "name": "ytv-srt",
+      "exit": 0,
+      "result": "Skill is valid!",
+      "error": ""
+    },
+    {
+      "name": "ytv-audio-delivery",
+      "exit": 0,
+      "result": "Skill is valid!",
+      "error": ""
+    },
+    {
+      "name": "ytv-paper-production",
+      "exit": 0,
+      "result": "Skill is valid!",
+      "error": ""
+    },
+    {
+      "name": "ytv-paper-captions",
+      "exit": 0,
+      "result": "Skill is valid!",
+      "error": ""
+    },
+    {
+      "name": "ytv-youtube-release",
+      "exit": 0,
+      "result": "Skill is valid!",
+      "error": ""
+    }
+  ],
+  "helper_tests": {
+    "exit": 0,
+    "result": "..........\n----------------------------------------------------------------------\nRan 10 tests in 0.010s\n\nOK"
+  },
+  "discovery": [
+    {
+      "entry": ".",
+      "exists": true,
+      "canonical_matches": true
+    },
+    {
+      "entry": "new_channel",
+      "exists": true,
+      "canonical_matches": true
+    },
+    {
+      "entry": "new_channel/videos/033_time_stop",
+      "exists": true,
+      "canonical_matches": true
+    }
+  ],
+  "links_checked": 319,
+  "broken_links": [],
+  "existing_deleted_preview_links": [],
+  "new_broken_links": [],
+  "media_dedupe_records": []
+}

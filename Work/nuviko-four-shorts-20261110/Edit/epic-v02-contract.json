@@ -1,0 +1,122 @@
+{
+  "status": "READY_TO_RENDER",
+  "purpose": "private local review; no upload",
+  "track": "Epic Inspiration — AShamaluevMusic",
+  "music_source": "official artist free download",
+  "music_publication_rights": "unverified for embedded channel publication; separate review required",
+  "excerpt_seconds_in_full_track": [
+    60,
+    76
+  ],
+  "fps": 30,
+  "frames": 480,
+  "size": [
+    1080,
+    1920
+  ],
+  "cuts": [
+    0,
+    91,
+    185,
+    281,
+    376,
+    480
+  ],
+  "shots": [
+    {
+      "path": "/Users/diplomat/ytvideos/Work/nuviko-videos-short-batch-20261110/pexels-30320376.mp4",
+      "sha256": "45de49e4025277c6b8786693e9c18fe12622b94b0c01925fc966bb6752933890",
+      "source_offset_seconds": 1
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/Work/nuviko-videos-short-batch-20261110/pexels-35179742.mp4",
+      "sha256": "98a76c66163d2b5ec37b00fcea2b69758076c67c3979132febb1e232ce795004",
+      "source_offset_seconds": 1
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/Work/nuviko-videos-short-batch-20261110/pexels-35188969.mp4",
+      "sha256": "a6b27649c621adce0f964b06c1e4a564a239c79058542699c863eecb87cc69f2",
+      "source_offset_seconds": 1
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/Work/nuviko-videos-short-batch-20261110/pexels-36086839.mp4",
+      "sha256": "7b95667e36c4b5ba8d4d5c591400c4299e8bbfb1b68f830c304d8d81d91be0c6",
+      "source_offset_seconds": 1
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/Work/nuviko-videos-short-batch-20261110/pexels-37362542.mp4",
+      "sha256": "91487aeec9c288c3330c61a2ab0715898ce2523fa2dbafa86878e14f52b6cdea",
+      "source_offset_seconds": 1
+    }
+  ],
+  "audio": {
+    "path": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/epic-excerpt-60s.wav",
+    "sha256": "10f2f16975efdb76b9e9c5087d49a4da5e7d9b46a544c1e4a5ea166c6cdf6b01"
+  },
+  "graph_sha256": "4d9993a09e48236c516722b287744262ceea3a821534a09e58b9bba5426dbec9",
+  "command": [
+    "ffmpeg",
+    "-nostdin",
+    "-n",
+    "-hide_banner",
+    "-loglevel",
+    "error",
+    "-filter_complex_threads",
+    "2",
+    "-i",
+    "/Users/diplomat/ytvideos/Work/nuviko-videos-short-batch-20261110/pexels-30320376.mp4",
+    "-i",
+    "/Users/diplomat/ytvideos/Work/nuviko-videos-short-batch-20261110/pexels-35179742.mp4",
+    "-i",
+    "/Users/diplomat/ytvideos/Work/nuviko-videos-short-batch-20261110/pexels-35188969.mp4",
+    "-i",
+    "/Users/diplomat/ytvideos/Work/nuviko-videos-short-batch-20261110/pexels-36086839.mp4",
+    "-i",
+    "/Users/diplomat/ytvideos/Work/nuviko-videos-short-batch-20261110/pexels-37362542.mp4",
+    "-i",
+    "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/epic-excerpt-60s.wav",
+    "-filter_complex_script",
+    "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Edit/epic-v02.ffgraph",
+    "-map",
+    "[video]",
+    "-map",
+    "[audio]",
+    "-r",
+    "30",
+    "-fps_mode",
+    "cfr",
+    "-c:v",
+    "libx264",
+    "-preset",
+    "veryfast",
+    "-crf",
+    "19",
+    "-pix_fmt",
+    "yuv420p",
+    "-color_primaries",
+    "bt709",
+    "-color_trc",
+    "bt709",
+    "-colorspace",
+    "bt709",
+    "-c:a",
+    "aac",
+    "-b:a",
+    "192k",
+    "-ar",
+    "44100",
+    "-ac",
+    "2",
+    "-movflags",
+    "+faststart",
+    "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Deliverables/Epic-Inspiration-review-v02.mp4"
+  ],
+  "subtitles": "none: user request",
+  "output": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Deliverables/Epic-Inspiration-review-v02.mp4",
+  "qa": "pending",
+  "revision": "v02",
+  "transitions": "0.5 s crossfade centred at original beat frame",
+  "motion": "smooth cosine zoom 2% per shot; no glow/blur pulses",
+  "25fps_source": "optical interpolation to 30 fps; artifacts require inspection",
+  "cut_map_meaning": "transition midpoint frames"
+}

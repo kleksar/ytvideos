@@ -1,0 +1,258 @@
+{
+  "video_id": "0RaC4t7yn5o",
+  "media_identity": {
+    "local_file": "Deliverables/001_en_long_paper_world_20261031_audio256.mp4",
+    "sha256": "3f2330b58f3b32814dd9d665b1d5fac6b3b3f3d6e8e48aedc82eaf5c86071b7f",
+    "duration_seconds": 260.066667,
+    "size_bytes": 350212919,
+    "published_match": "API fileDetails name, size, dimensions and frame rate; historical export SHA256 matches local. YouTube binary hash unavailable."
+  },
+  "verification_method": "Decoded actual MP4 frames inspected by coordinator + full-track Whisper base ASR of actual MP4 audio",
+  "coverage": {
+    "audio_input_seconds": 260.066667,
+    "asr_model": "openai-whisper base, en, CPU",
+    "decoded_frames_inspected": 13,
+    "boundaries_checked": 7,
+    "full_continuous_playback": false,
+    "subjective_listening": false
+  },
+  "boundary_evidence": [
+    {
+      "seconds": 0,
+      "asr_context": [
+        {
+          "start": 0.0,
+          "end": 5.12,
+          "text": " This is what a computer program might sound like on the radio, not a song about a game,"
+        },
+        {
+          "start": 5.12,
+          "end": 9.040000000000001,
+          "text": " not an advertisement, a pattern of sound that a computer could read."
+        }
+      ],
+      "frames": [
+        "frames/000.jpg"
+      ],
+      "visual_review": "Radio with SOUND RECONSTRUCTION label; opening illustrative signal."
+    },
+    {
+      "seconds": 32,
+      "asr_context": [
+        {
+          "start": 20.32,
+          "end": 25.76,
+          "text": " His instructions described six files, and he reported that the data matched a computer game."
+        },
+        {
+          "start": 26.32,
+          "end": 31.6,
+          "text": " So what was hiding in the noise? And how can a radio signal carry software in the first place?"
+        },
+        {
+          "start": 32.480000000000004,
+          "end": 39.2,
+          "text": " The show was called Clip Informatica. It aired on RadioUSP in Sao Paulo and explored the world"
+        },
+        {
+          "start": 39.2,
+          "end": 46.160000000000004,
+          "text": " of computing. One archive, called DataSet, holds a recording it identifies as Episode 102."
+        }
+      ],
+      "frames": [
+        "frames/031.jpg",
+        "frames/033.jpg"
+      ],
+      "visual_review": "Transition from the sound/software question to Brazilian host at microphone."
+    },
+    {
+      "seconds": 75,
+      "asr_context": [
+        {
+          "start": 64.56,
+          "end": 71.2,
+          "text": " identical. Two recordings, one question. How could a stretch of sound contain something a computer"
+        },
+        {
+          "start": 71.2,
+          "end": 76.64,
+          "text": " might use? To understand the trick, forget the radio for a moment. Look at the cassette."
+        },
+        {
+          "start": 77.2,
+          "end": 82.32,
+          "text": " Long before most people downloaded software online, many home computers could load programs"
+        },
+        {
+          "start": 82.32,
+          "end": 87.44,
+          "text": " from magnetic tape. A cassette player would turn patterns on the tape into an audio signal,"
+        }
+      ],
+      "frames": [
+        "frames/074.jpg",
+        "frames/076.jpg"
+      ],
+      "visual_review": "Cassette close-up; following speech explains tape and bits."
+    },
+    {
+      "seconds": 120,
+      "asr_context": [
+        {
+          "start": 111.44,
+          "end": 116.64,
+          "text": " Different machines and formats use different ways of representing data. The signal had to be"
+        },
+        {
+          "start": 116.64,
+          "end": 122.8,
+          "text": " something the receiving computer was designed to understand. Now put the radio back into the picture."
+        },
+        {
+          "start": 122.8,
+          "end": 129.2,
+          "text": " A station can broadcast audio. A listener with suitable equipment can record that audio onto a cassette."
+        }
+      ],
+      "frames": [
+        "frames/119.jpg",
+        "frames/121.jpg"
+      ],
+      "visual_review": "Desktop then radio-to-cassette signal chain."
+    },
+    {
+      "seconds": 163,
+      "asr_context": [
+        {
+          "start": 153.2,
+          "end": 158.88,
+          "text": " playback speed and compatibility can all affect whether the signal is readable. The sound might"
+        },
+        {
+          "start": 158.88,
+          "end": 164.48,
+          "text": " still be audible to a person while being difficult for a decoder to interpret. And that brings us"
+        },
+        {
+          "start": 164.48,
+          "end": 169.92,
+          "text": " back to the old recording. Weber Kai set out to decode data from the online recording he"
+        },
+        {
+          "start": 169.92,
+          "end": 177.04,
+          "text": " identified as Clip Informatica episode 102. He wrote that the available audio was quiet and running"
+        }
+      ],
+      "frames": [
+        "frames/162.jpg",
+        "frames/164.jpg"
+      ],
+      "visual_review": "AUDIBLE versus READABLE, cassette, return to old recording and decoding."
+    },
+    {
+      "seconds": 201,
+      "asr_context": [
+        {
+          "start": 193.36,
+          "end": 200.48000000000002,
+          "text": " should produce six files, each corresponding to a block of tape data. Six files, but files of what?"
+        },
+        {
+          "start": 201.12,
+          "end": 206.72000000000003,
+          "text": " Kai wrote that he compared the results with an MSX game called Avenger and that the data matched."
+        },
+        {
+          "start": 206.72000000000003,
+          "end": 212.88000000000002,
+          "text": " That is the reported discovery. It is also where we need to be precise. The public notes don't"
+        }
+      ],
+      "frames": [
+        "frames/200.jpg",
+        "frames/202.jpg"
+      ],
+      "visual_review": "Investigator examines six-file result; speech attributes Avenger match to Kai."
+    },
+    {
+      "seconds": 234,
+      "asr_context": [
+        {
+          "start": 226.08,
+          "end": 231.68,
+          "text": " So we can tell you what Kai reported. We can't show you a verified launch or claim that the two"
+        },
+        {
+          "start": 231.68,
+          "end": 238.07999999999998,
+          "text": " preserved copies have been proven identical. Even with those limits, the idea is remarkable. A"
+        },
+        {
+          "start": 238.07999999999998,
+          "end": 244.48,
+          "text": " program can be represented by sound. That sound can travel through a radio broadcast and survive in"
+        }
+      ],
+      "frames": [
+        "frames/233.jpg",
+        "frames/235.jpg"
+      ],
+      "visual_review": "Question mark between two cassette copies; then radio/tape/computer chain and closing reflection."
+    }
+  ],
+  "limitations": [
+    "ASR has coarse segment timestamps, not exact word alignment.",
+    "Final ASR segment ends at 265.92, beyond actual media end 260.066667; that end is rejected for timing. All intervals use ffprobe duration.",
+    "ASR proper names are imperfect; accepted script supplies spelling.",
+    "This evidence does not constitute full AV QA or subjective playback verification."
+  ],
+  "chapters": [
+    {
+      "timestamp": "00:00",
+      "seconds": 0,
+      "title": "A sound worth recording",
+      "duration_seconds": 32
+    },
+    {
+      "timestamp": "00:32",
+      "seconds": 32,
+      "title": "The Brazilian radio show",
+      "duration_seconds": 43
+    },
+    {
+      "timestamp": "01:15",
+      "seconds": 75,
+      "title": "How a cassette carries data",
+      "duration_seconds": 45
+    },
+    {
+      "timestamp": "02:00",
+      "seconds": 120,
+      "title": "A program takes the air",
+      "duration_seconds": 43
+    },
+    {
+      "timestamp": "02:43",
+      "seconds": 163,
+      "title": "Decoding the recording",
+      "duration_seconds": 38
+    },
+    {
+      "timestamp": "03:21",
+      "seconds": 201,
+      "title": "The reported match",
+      "duration_seconds": 33
+    },
+    {
+      "timestamp": "03:54",
+      "seconds": 234,
+      "title": "The sound and the message",
+      "duration_seconds": 26.066666999999995
+    }
+  ],
+  "status": "machine-checked",
+  "version": "chapters_en_v1_20261102",
+  "formal_validation": "FORMAL_VALIDATION.json"
+}

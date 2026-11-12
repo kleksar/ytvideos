@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "run": "render-v03-mp4",
+  "owner": "brest-039-scene-audit",
+  "status": "complete",
+  "created_utc": "2026-11-05T10:44:28.849812+00:00",
+  "entries": [
+    {
+      "path": "Work/render-v03-mp4/previews/039_brest_fortress_en_review_v03.mp4",
+      "role": "preview",
+      "identity": {
+        "device": 16777233,
+        "inode": 128094988,
+        "bytes": 1557971891,
+        "mtime_ns": 1793875479081860275,
+        "ctime_ns": 1793875479082930817,
+        "nlink": 1,
+        "allocated_bytes": 1557975040
+      },
+      "sha256": "a3a9f53a5637cd6cf2603b14ef49d920aa1e1195bda9a4fdc3a403e1a97e45af",
+      "rebuild_from": [],
+      "evidence": [
+        {
+          "path": "Edit/QA/brest-scene-audit-v02/v03_export_record.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 128094112,
+            "bytes": 432,
+            "mtime_ns": 1793875410890616743,
+            "ctime_ns": 1793875410890616743,
+            "nlink": 1,
+            "allocated_bytes": 4096
+          },
+          "sha256": "5fd4d9658dd49ad1839f2e0f9305bc15724603ac8f29f1a73aac053b6d06c31e"
+        }
+      ],
+      "disposition": "pending"
+    }
+  ],
+  "writer_finished_utc": "2026-11-05T10:44:40.324184+00:00"
+}

@@ -1,0 +1,253 @@
+{
+  "canvas": [
+    2560,
+    1440
+  ],
+  "checks": {
+    "motion": "UNVERIFIED",
+    "scope": "assigned pairs at their selected anchors; static geometry only",
+    "sync": "UNVERIFIED",
+    "technical": "PASS",
+    "visual": "UNVERIFIED"
+  },
+  "cues": [
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              0,
+              0,
+              2172,
+              724
+            ]
+          ],
+          "mode": "creamOrange"
+        },
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_47_ronin/Source/Graphics/captions_en_v02/END_WATCH_NEXT_v02.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Source/Graphics/captions_v01/IRAN-BORN_v01.png",
+        "status": "EN imagegen wording and alpha AUTHOR_REVIEWED",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/END/face.png",
+      "face_mask_sha256": "e3f6234f862fd5419a4da64a951dedfd6fd71328a7606bace7dc50f44608c651",
+      "id": "END",
+      "lines": [
+        "WATCH NEXT"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          14,
+          3,
+          628,
+          213
+        ],
+        "alpha_height_px": 210,
+        "alpha_width_px": 614,
+        "face_bbox": [
+          23,
+          61,
+          617,
+          155
+        ],
+        "face_height_px": 94,
+        "face_line_boxes": [
+          [
+            23,
+            61,
+            617,
+            155
+          ]
+        ],
+        "face_line_heights_px": [
+          94
+        ],
+        "size_px": [
+          639,
+          213
+        ]
+      },
+      "png": "cues/END/cue.png",
+      "png_sha256": "9ce37147f22e53dd08760612352cfab931397680c5e5c911b5b0ad297d549a67",
+      "provenance": {
+        "author": "image_gen.imagegen",
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_47_ronin/Source/Graphics/captions_en_v02/GENERATION_LOG_v02.json"
+      },
+      "timing": {
+        "status": "fixed10second-tail"
+      },
+      "uniform_scale": 0.29375
+    }
+  ],
+  "helper_sha256": "86fcde095d01b3300ac1497f9f38c5f38494a740f5dcd987af9a8595d42a8150",
+  "helper_version": "1.1.0",
+  "inputs": [
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_47_ronin/Source/Graphics/captions_en_v02/END_WATCH_NEXT_v02.png",
+      "sha256": "bb9b1522a1476084c35abcb743b0ab172cbe8e56b62e0290f3e0f57ca8771707"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_47_ronin/Source/Graphics/captions_en_v02/end-input_v02.json",
+      "sha256": "b2dbedb4484a0d294d99e826491b1e0220f2274688c4be3131e60d1e1e9215b4"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_47_ronin/Work/captions-en-v02-preflight-r01/previews/ES01_2560x1440.png",
+      "sha256": "18914d3a6c9270fb5a42147ff264aac1552f6067f89ec7ca14a60b4d829e1dac"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_47_ronin/Work/captions-en-v02-preflight-r01/previews/ES02_2560x1440.png",
+      "sha256": "4e3f639fc7f7d8749409af5a01861df3ddfb3cabdc80b4ef98ed40f2a53205df"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Source/Graphics/captions_v01/IRAN-BORN_v01.png",
+      "sha256": "4705f8e03189c0ee44d1382084dd141dcdb07703181bf195e72a5edbfafae531"
+    }
+  ],
+  "manifest_sha256": "b2dbedb4484a0d294d99e826491b1e0220f2274688c4be3131e60d1e1e9215b4",
+  "pairs": [
+    {
+      "anchor": "primary",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.16
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              974,
+              125,
+              1588,
+              335
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            960,
+            122
+          ],
+          "phone_preview": "../../../Work/endscreen-en-v02-preflight-r03/previews/ES01/END/primary__phone.png",
+          "preview": "../../../Work/endscreen-en-v02-preflight-r03/previews/ES01/END/primary.png"
+        }
+      ],
+      "cue": "END",
+      "scene": "ES01"
+    },
+    {
+      "anchor": "primary",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.16
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              974,
+              125,
+              1588,
+              335
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            960,
+            122
+          ],
+          "phone_preview": "../../../Work/endscreen-en-v02-preflight-r03/previews/ES02/END/primary__phone.png",
+          "preview": "../../../Work/endscreen-en-v02-preflight-r03/previews/ES02/END/primary.png"
+        }
+      ],
+      "cue": "END",
+      "scene": "ES02"
+    }
+  ],
+  "pillow_version": "11.3.0",
+  "shared_face_height_px": 94,
+  "source_manifest": {
+    "anchors": {
+      "primary": {
+        "center": [
+          0.5,
+          0.16
+        ],
+        "max_height_px": 360,
+        "max_width_px": 2100
+      }
+    },
+    "canvas": [
+      2560,
+      1440
+    ],
+    "cues": [
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                0,
+                0,
+                2172,
+                724
+              ]
+            ],
+            "mode": "creamOrange"
+          },
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_47_ronin/Source/Graphics/captions_en_v02/END_WATCH_NEXT_v02.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Source/Graphics/captions_v01/IRAN-BORN_v01.png",
+          "status": "EN imagegen wording and alpha AUTHOR_REVIEWED",
+          "type": "existingPNG"
+        },
+        "id": "END",
+        "lines": [
+          "WATCH NEXT"
+        ],
+        "provenance": {
+          "author": "image_gen.imagegen",
+          "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_47_ronin/Source/Graphics/captions_en_v02/GENERATION_LOG_v02.json"
+        },
+        "timing": {
+          "status": "fixed10second-tail"
+        }
+      }
+    ],
+    "face_height_px": 94,
+    "min_face_height_px": 80,
+    "pairs": [
+      {
+        "anchor": "primary",
+        "cue": "END",
+        "scene": "ES01"
+      },
+      {
+        "anchor": "primary",
+        "cue": "END",
+        "scene": "ES02"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "ES01",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_47_ronin/Work/captions-en-v02-preflight-r01/previews/ES01_2560x1440.png"
+      },
+      {
+        "id": "ES02",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_47_ronin/Work/captions-en-v02-preflight-r01/previews/ES02_2560x1440.png"
+      }
+    ],
+    "version": 1
+  },
+  "storage": {
+    "dependencies": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_47_ronin/Assets/Generated/endscreen-en-v02-preflight-r03",
+    "previews": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_47_ronin/Work/endscreen-en-v02-preflight-r03/previews"
+  },
+  "version": 1
+}

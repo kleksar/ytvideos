@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "run": "production-20261104-v01",
+  "owner": "codex",
+  "status": "complete",
+  "created_utc": "2026-11-04T16:38:58.229861+00:00",
+  "entries": [
+    {
+      "path": "Work/production-20261104-v01/scratch/sample_mix_start13s.wav",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 127430559,
+        "bytes": 2346198,
+        "mtime_ns": 1793811106692251295,
+        "ctime_ns": 1793811106692251295,
+        "nlink": 1,
+        "allocated_bytes": 2347008
+      },
+      "sha256": "dc660a61e0a6b242d9118f65af1ad885181f2e2e37828c3cf9e2356c9daa6ee8",
+      "rebuild_from": [
+        {
+          "path": "Source/Audio/mix_en_v01.wav",
+          "identity": {
+            "device": 16777233,
+            "inode": 127405616,
+            "bytes": 37552016,
+            "mtime_ns": 1793809761926940882,
+            "ctime_ns": 1793809761926940882,
+            "nlink": 1,
+            "allocated_bytes": 37552128
+          },
+          "sha256": "db1192e6fb3039ab7f3f5acbd24c336f224db2ec492d0b13f35b02196c32e0ba"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/Production/v01/SAMPLE_RENDER_PLAN_v01.md",
+          "identity": {
+            "device": 16777233,
+            "inode": 127430556,
+            "bytes": 906,
+            "mtime_ns": 1793811106593895221,
+            "ctime_ns": 1793811106593895221,
+            "nlink": 1,
+            "allocated_bytes": 4096
+          },
+          "sha256": "729ac34c2a097a50a33b673caecc11274a448eec81d31de4985ebf7b1671e080"
+        }
+      ],
+      "disposition": "pending",
+      "storage_state": "deleted",
+      "retirement_receipt": "Edit/MediaLifecycle/archive-receipt-20261105.json"
+    },
+    {
+      "path": "Work/production-20261104-v01/previews/sample_v01.mp4",
+      "role": "preview",
+      "identity": {
+        "device": 16777233,
+        "inode": 127430967,
+        "bytes": 34277475,
+        "mtime_ns": 1793811217813079573,
+        "ctime_ns": 1793811217813079573,
+        "nlink": 1,
+        "allocated_bytes": 34607104
+      },
+      "sha256": "fa42ba447787e3af93ca528932cfc842546d7d52f5a6588939002a75420c4957",
+      "rebuild_from": [],
+      "evidence": [],
+      "disposition": "pending",
+      "storage_state": "deleted",
+      "retirement_receipt": "Edit/MediaLifecycle/archive-receipt-20261105.json"
+    }
+  ],
+  "storage_state": "RETIRED_TEXT_ONLY",
+  "writer_finished": true,
+  "retirement_receipt": "Edit/MediaLifecycle/archive-receipt-20261105.json"
+}

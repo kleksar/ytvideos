@@ -1,0 +1,12 @@
+{
+  "source": "/Users/diplomat/ytvideos/channels/scenes_on_repeat/videos/compilation-two-trailers/Deliverables/movie-trailers-compilation-v03.mp4",
+  "source_sha256": "74bcc209e93716b4ed4763dfd39dfecb8700467ca9ffd18b7d2d41d1d9353d96",
+  "edit": "duplicate source frames 0–35 and their audio at start, then original v03 in full",
+  "insert_seconds": 1.5,
+  "audio": "repeat first 1.5 seconds of source mix, 75 ms fades at join; encode AAC 48 kHz stereo",
+  "captions": "repeat existing first 1.5 seconds of burnt-in captions; all remaining captions shift 1.5 s",
+  "video": "1280x720 24 fps H.264 BT.709 yuv420p CRF 18",
+  "expected_frames": 2484,
+  "expected_duration_seconds": 103.5,
+  "output": "Deliverables/movie-trailers-compilation-v04.mp4"
+}

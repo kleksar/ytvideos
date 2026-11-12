@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "palmier_projects": [
+    "/Users/diplomat/Documents/Palmier Pro/Nuviko 016 Marseille 1720.palmier"
+  ],
+  "current": [
+    {
+      "path": "Deliverables/NuvikoHistory_016_Marseille_1720_v01.mp4",
+      "reason": "Uploaded Private to Nuviko History; current local final, QA UNVERIFIED.",
+      "evidence": [
+        "Edit/QA/qa-film-v01/receipt_film_v01.json",
+        "Edit/Export/remux_receipt_v01.json"
+      ]
+    }
+  ],
+  "pins": [
+    {
+      "path": "Edit/QA/qa-film-v01",
+      "reason": "Unverified QA record and retained exact sampled frames pending further review.",
+      "evidence": [
+        "Edit/QA/qa-film-v01/receipt_film_v01.json"
+      ]
+    },
+    {
+      "path": "Work/qa-film-v01/scratch/qa",
+      "reason": "Exact sampled-frame evidence remains pinned while required review dimensions are UNVERIFIED.",
+      "evidence": [
+        "Edit/QA/qa-film-v01/report.json"
+      ]
+    }
+  ],
+  "active_work": [],
+  "candidates": []
+}

@@ -1,0 +1,101 @@
+{
+  "start": [
+    "blue",
+    "orange",
+    "green",
+    "purple",
+    "blue",
+    "orange",
+    "green",
+    "purple"
+  ],
+  "direct_comparisons": 10,
+  "sorting_placements": 8,
+  "direct_events": [
+    {
+      "seed": "blue",
+      "candidate": "orange",
+      "match": false
+    },
+    {
+      "seed": "blue",
+      "candidate": "green",
+      "match": false
+    },
+    {
+      "seed": "blue",
+      "candidate": "purple",
+      "match": false
+    },
+    {
+      "seed": "blue",
+      "candidate": "blue",
+      "match": true
+    },
+    {
+      "seed": "orange",
+      "candidate": "green",
+      "match": false
+    },
+    {
+      "seed": "orange",
+      "candidate": "purple",
+      "match": false
+    },
+    {
+      "seed": "orange",
+      "candidate": "orange",
+      "match": true
+    },
+    {
+      "seed": "green",
+      "candidate": "purple",
+      "match": false
+    },
+    {
+      "seed": "green",
+      "candidate": "green",
+      "match": true
+    },
+    {
+      "seed": "purple",
+      "candidate": "purple",
+      "match": true
+    }
+  ],
+  "sorting_events": [
+    {
+      "sock": "blue",
+      "destination": "blue"
+    },
+    {
+      "sock": "orange",
+      "destination": "orange"
+    },
+    {
+      "sock": "green",
+      "destination": "green"
+    },
+    {
+      "sock": "purple",
+      "destination": "purple"
+    },
+    {
+      "sock": "blue",
+      "destination": "blue"
+    },
+    {
+      "sock": "orange",
+      "destination": "orange"
+    },
+    {
+      "sock": "green",
+      "destination": "green"
+    },
+    {
+      "sock": "purple",
+      "destination": "purple"
+    }
+  ],
+  "scope": "one point per comparison or per sock placed in colour pile; common pair removal omitted; no claim about elapsed time; placement includes identifying colour"
+}

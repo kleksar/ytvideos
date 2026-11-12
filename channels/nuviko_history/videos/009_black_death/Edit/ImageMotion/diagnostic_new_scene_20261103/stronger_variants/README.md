@@ -1,0 +1,3 @@
+# Follow-up to variant 08
+
+User chose 08 provisionally. Same still and depth as ../ten_linear_variants/08.mp4, six seconds, 30fps, 1920x1080, isometric 1, zoom 1.05, steady 0, sticky true, linear one-direction offset. 08_reverse changes only sign (+.18 to -.18), keeping depth height .26. 11, 12, 13 keep height .26 and use offset .24, .30, .36; 14 changes height to .32 and offset .30. No separate camera, grain, captions, or audio. Duration verified for all; reviewed contact sheet at 5.8s only, no complete playback or independent QA. Source variant 08 retained. No production settings or timelines changed.

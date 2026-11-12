@@ -1,0 +1,13 @@
+# Render preflight v01 — Anandibai Joshee
+
+- Scope: one local user-review MP4; no upload or publication.
+- Saved edit: `Edit/Storyboard/montage_v01.json`; compiled plan and complete input manifest are in `Work/plan_check_v02/`.
+- Timeline: 2560×1440, 30/1 CFR target, 4,784 frames / 159.466667 s. Thirty speech scenes occupy frames 0–4,484, two silent end screens occupy 4,484–4,784. Every scene interval is within 120–180 frames.
+- Narration: accepted `Source/Audio/narration_en_v26_110.wav`, 149.459206 s, mono PCM 44.1 kHz; atempo 1.10 exactly once. No music/SFX; final 10 s of the picture is silent. No further trim, speed or offset in the montage.
+- Subtitles: renderer-generated Paper word layer is bound to `word_times_en_v26_110_forced_v01.json`; separate English SRT passes structure and literal text coverage. The word map remains a machine estimate. Audible synchronization/playback is not verified. Ten semantic boundary warnings were reviewed; captions are exact, one-line, and measured within the Paper safe width. These warning boundaries are in the renderer report.
+- Visual preflight: exact scene selection is the 30-frame sequence in `Source/Images/Long/en/scene_selection_manifest_v01.json`; ordered contact sheet is `contact_sheet_v02.jpg`. A sample scene 01 + first active word + actual Paper Frame overlay was composited and inspected at 2560×1440; the text is readable and the border leaves the scene center transparent. Full sequence playback is not verified.
+- Paper Frame: source `paper-border-16x9-16s-v02-crf18.webm`; explicitly decoded with `libvpx-vp9` to preserve alpha and prepared to the exact 4,784-frame timeline as a ProRes 4444 overlay. `ffprobe` reports 2560×1440, yuva444p12le, 30/1, 159.466667 s, 4,784 frames. Source validation and alpha sample are retained with the frame kit / pre-render composite.
+- Output: `/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Deliverables/Anandibai_Joshee_EN_review_v01.mp4`; absent at preflight, no overwrite. No other writer targets this path.
+- Encoder: FFmpeg 8.1.2, `h264_videotoolbox` is available; H.264, 20M target, yuv420p, bt709 limited, AAC-LC mono 44.1 kHz / 192k, fast-start. Device-specific measured bitrate/profile/GOP remain post-encode facts.
+- Fresh cleanup/dependency scan: `Edit/MediaLifecycle/audit-pre-render-v01/audit.json`; report written, zero coverage errors, no deletion performed.
+- Pending: exact command/passport settings check, then full render. Per root production instructions the successful MP4 is handed to the user immediately; no post-render checks will be claimed as done.

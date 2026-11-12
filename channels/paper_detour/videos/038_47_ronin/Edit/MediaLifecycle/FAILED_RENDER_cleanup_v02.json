@@ -1,0 +1,236 @@
+{
+  "version": 1,
+  "run": "ffmpeg-rebuild-en-v02",
+  "status": "CLEANED",
+  "reason": "Stopped owned partial montage before concat because 16 Mbps exceeded safe temporary disk headroom while unrelated FFmpeg renders were active.",
+  "writer_check": "Owned montage parent PID 59799 absent before cleanup; all child scene FFmpeg workers were in its process group and terminated with that group.",
+  "files": [
+    {
+      "path": "Work/ffmpeg-rebuild-en-v02/scratch/montage-v02/scene_00000.mp4",
+      "bytes": 9194510,
+      "mtime_ns": 1793726515614845378,
+      "inode": 126562263,
+      "sha256": "f9ed523f5f264bdd063e9d498e25d5533b092a788d2b7ed5e8e2ddffe2b984be"
+    },
+    {
+      "path": "Work/ffmpeg-rebuild-en-v02/scratch/montage-v02/scene_00001.mp4",
+      "bytes": 8540854,
+      "mtime_ns": 1793726515326851762,
+      "inode": 126562264,
+      "sha256": "6d859661693a0e5fcd45e11de3534af712d03534754d59b96d57d92857bd5e2f"
+    },
+    {
+      "path": "Work/ffmpeg-rebuild-en-v02/scratch/montage-v02/scene_00002.mp4",
+      "bytes": 8524545,
+      "mtime_ns": 1793726525828038742,
+      "inode": 126562565,
+      "sha256": "2deb20767fee241eaec5b2d35932681a06d8d3a9643519a88b8b17e730e89617"
+    },
+    {
+      "path": "Work/ffmpeg-rebuild-en-v02/scratch/montage-v02/scene_00003.mp4",
+      "bytes": 8517066,
+      "mtime_ns": 1793726525985827816,
+      "inode": 126562567,
+      "sha256": "978713d7019ff8724d9b5a6e081cf6d70760ffe8a432ab4bc3065f509a0edb2e"
+    },
+    {
+      "path": "Work/ffmpeg-rebuild-en-v02/scratch/montage-v02/scene_00004.mp4",
+      "bytes": 8455056,
+      "mtime_ns": 1793726537272971631,
+      "inode": 126562657,
+      "sha256": "a81b9716c37a12c16bdb7d7a5e6fa4e83d8b3e6399ae86dd58a28b473a6369a5"
+    },
+    {
+      "path": "Work/ffmpeg-rebuild-en-v02/scratch/montage-v02/scene_00005.mp4",
+      "bytes": 8472560,
+      "mtime_ns": 1793726536884460924,
+      "inode": 126562658,
+      "sha256": "9a6b6788b9217118444690400a09c53e73f546f60c82b6590008df52e72cfd5c"
+    },
+    {
+      "path": "Work/ffmpeg-rebuild-en-v02/scratch/montage-v02/scene_00006.mp4",
+      "bytes": 8434753,
+      "mtime_ns": 1793726548385549888,
+      "inode": 126562694,
+      "sha256": "b31fc51530c35ff48984982d186552ed948781e6de1d30142ecc7a6a63fe2c80"
+    },
+    {
+      "path": "Work/ffmpeg-rebuild-en-v02/scratch/montage-v02/scene_00007.mp4",
+      "bytes": 8468492,
+      "mtime_ns": 1793726548972805876,
+      "inode": 126562696,
+      "sha256": "69c836df423bb4ffa3d138607662b1e98d331105ceb8102fa0ff46ecfc257928"
+    },
+    {
+      "path": "Work/ffmpeg-rebuild-en-v02/scratch/montage-v02/scene_00008.mp4",
+      "bytes": 8528002,
+      "mtime_ns": 1793726560357083970,
+      "inode": 126562729,
+      "sha256": "307b9cf6bb68e04d9e0064fc95f9f217b69abf665615fe9d150e92e3e57aebc6"
+    },
+    {
+      "path": "Work/ffmpeg-rebuild-en-v02/scratch/montage-v02/scene_00009.mp4",
+      "bytes": 9156523,
+      "mtime_ns": 1793726563995210569,
+      "inode": 126562733,
+      "sha256": "0c46b2592650ee042d16b278a29b3175d040553574eacb7d1d003146f92a2b7d"
+    },
+    {
+      "path": "Work/ffmpeg-rebuild-en-v02/scratch/montage-v02/scene_00010.mp4",
+      "bytes": 8454083,
+      "mtime_ns": 1793726574364857635,
+      "inode": 126562785,
+      "sha256": "5e392294591afd95178b18b1a9bc36e91fcd4d287c432fcfc89ae9b357b9d9fe"
+    },
+    {
+      "path": "Work/ffmpeg-rebuild-en-v02/scratch/montage-v02/scene_00011.mp4",
+      "bytes": 8472880,
+      "mtime_ns": 1793726574823574457,
+      "inode": 126562922,
+      "sha256": "c0ac88e51fb200fb4ccc21bae4eef93f63bfce43641c6e31293a75f1324017d2"
+    },
+    {
+      "path": "Work/ffmpeg-rebuild-en-v02/scratch/montage-v02/scene_00012.mp4",
+      "bytes": 8544740,
+      "mtime_ns": 1793726585701408228,
+      "inode": 126563021,
+      "sha256": "a11a804622c36fbd04bcc2832e595777181d2d6b2cd35bb9f17426f160956589"
+    },
+    {
+      "path": "Work/ffmpeg-rebuild-en-v02/scratch/montage-v02/scene_00013.mp4",
+      "bytes": 8366959,
+      "mtime_ns": 1793726586249128505,
+      "inode": 126563024,
+      "sha256": "20c3db78ccc7c2da1927a24948c7162bd443c8df4135eb23e9998fa5555c5811"
+    },
+    {
+      "path": "Work/ffmpeg-rebuild-en-v02/scratch/montage-v02/scene_00014.mp4",
+      "bytes": 8569623,
+      "mtime_ns": 1793726597086512540,
+      "inode": 126563276,
+      "sha256": "c2eef6e25ddf5386f2e6ab0fe13dce2d5f6338f8b2a34f6b9b87656cc1658798"
+    },
+    {
+      "path": "Work/ffmpeg-rebuild-en-v02/scratch/montage-v02/scene_00015.mp4",
+      "bytes": 8415443,
+      "mtime_ns": 1793726598670053208,
+      "inode": 126563280,
+      "sha256": "93a1201f8f81d189d84e7a1769dd35bdc0b832b76df0ce9d7b48994e04ad49e1"
+    },
+    {
+      "path": "Work/ffmpeg-rebuild-en-v02/scratch/montage-v02/scene_00016.mp4",
+      "bytes": 8590091,
+      "mtime_ns": 1793726612817733547,
+      "inode": 126563494,
+      "sha256": "e52edd450e1bff158ceedd006f85c67eee5e73e7a2a39ccf270150e215818ec8"
+    },
+    {
+      "path": "Work/ffmpeg-rebuild-en-v02/scratch/montage-v02/scene_00017.mp4",
+      "bytes": 8419150,
+      "mtime_ns": 1793726613969435726,
+      "inode": 126563513,
+      "sha256": "f6048f1f5838f0ca9d41dd025be676c2efad579fec54c8f9489e0cf6ea9893a3"
+    },
+    {
+      "path": "Work/ffmpeg-rebuild-en-v02/scratch/montage-v02/scene_00018.mp4",
+      "bytes": 8297205,
+      "mtime_ns": 1793726625524036360,
+      "inode": 126563581,
+      "sha256": "9def8894b1adf7beccbb745dc6e136ff87589bc93aaca11072412d40398c8ebd"
+    },
+    {
+      "path": "Work/ffmpeg-rebuild-en-v02/scratch/montage-v02/scene_00019.mp4",
+      "bytes": 8167680,
+      "mtime_ns": 1793726626823857012,
+      "inode": 126563584,
+      "sha256": "4a21b5a08417d11108a56854847cf64a4efd489574131838482afffe069d7c87"
+    },
+    {
+      "path": "Work/ffmpeg-rebuild-en-v02/scratch/montage-v02/scene_00020.mp4",
+      "bytes": 7549973,
+      "mtime_ns": 1793726641079214090,
+      "inode": 126563612,
+      "sha256": "d697e83273b3a00c97a2e14650f717e4c3330618c3eff667a5584476bf6ae1cb"
+    },
+    {
+      "path": "Work/ffmpeg-rebuild-en-v02/scratch/montage-v02/scene_00021.mp4",
+      "bytes": 8560749,
+      "mtime_ns": 1793726642732682115,
+      "inode": 126563614,
+      "sha256": "e34f3162c70902e936fdeecdf9718e52799336d5d297b9e46e9b01271024990c"
+    },
+    {
+      "path": "Work/ffmpeg-rebuild-en-v02/scratch/montage-v02/scene_00022.mp4",
+      "bytes": 8057740,
+      "mtime_ns": 1793726656750699969,
+      "inode": 126563769,
+      "sha256": "1f74705021445028313ad839f1f877605670ba5f10fbf039ca60d5a4176ae509"
+    },
+    {
+      "path": "Work/ffmpeg-rebuild-en-v02/scratch/montage-v02/scene_00023.mp4",
+      "bytes": 9151466,
+      "mtime_ns": 1793726660320507858,
+      "inode": 126563792,
+      "sha256": "bda5fe12e0ca232d88cb55867e918c432ef9bd1cf8292a90ea02206ebaba8ca6"
+    },
+    {
+      "path": "Work/ffmpeg-rebuild-en-v02/scratch/montage-v02/scene_00024.mp4",
+      "bytes": 8532788,
+      "mtime_ns": 1793726671064391974,
+      "inode": 126563905,
+      "sha256": "d18078fd39ba88737eb6e0586a89154171f362569492f68cb4e7b75f8beb8565"
+    },
+    {
+      "path": "Work/ffmpeg-rebuild-en-v02/scratch/montage-v02/scene_00025.mp4",
+      "bytes": 8491742,
+      "mtime_ns": 1793726672398761252,
+      "inode": 126563971,
+      "sha256": "6b9f09b2da2a1942446076d80b90a0d63ca210b89b4482491b0d602189fdf8c7"
+    },
+    {
+      "path": "Work/ffmpeg-rebuild-en-v02/scratch/montage-v02/scene_00026.mp4",
+      "bytes": 8571135,
+      "mtime_ns": 1793726681616511739,
+      "inode": 126563995,
+      "sha256": "468e21ff2e864506c6d71b2c600aead615d45a6968b1234c533eb1888232c042"
+    },
+    {
+      "path": "Work/ffmpeg-rebuild-en-v02/scratch/montage-v02/scene_00027.mp4",
+      "bytes": 8193155,
+      "mtime_ns": 1793726683448232321,
+      "inode": 126564001,
+      "sha256": "cf15506b48bfd3f6cf7750e83c0c4f3140627a5b1aac88a8839298c1c6d3025e"
+    },
+    {
+      "path": "Work/ffmpeg-rebuild-en-v02/scratch/montage-v02/scene_00028.mp4",
+      "bytes": 7575774,
+      "mtime_ns": 1793726691781566673,
+      "inode": 126564115,
+      "sha256": "f6722e3623547b4c3833225299fc8daf55123de3b14f3dcf07f29151d7050399"
+    },
+    {
+      "path": "Work/ffmpeg-rebuild-en-v02/scratch/montage-v02/scene_00029.mp4",
+      "bytes": 6594228,
+      "mtime_ns": 1793726691750632333,
+      "inode": 126564156,
+      "sha256": "86b0bf37ed366b744eebe39887afff68eb014101f8f70863bd29ac912fe4617f"
+    },
+    {
+      "path": "Work/ffmpeg-rebuild-en-v02/scratch/montage-v02/scene_00030.mp4",
+      "bytes": 3512988,
+      "mtime_ns": 1793726695954243845,
+      "inode": 126564228,
+      "sha256": "4b61948cf8fa2a6d1d166bdd4ef9fb877f33d5fe938e47a3bda31bd455caa82f"
+    },
+    {
+      "path": "Work/ffmpeg-rebuild-en-v02/scratch/montage-v02/scene_00031.mp4",
+      "bytes": 3468538,
+      "mtime_ns": 1793726695927342656,
+      "inode": 126564229,
+      "sha256": "ef394d63984766f0fee84e791333aec4301deaafafc42ecc5402530ed861590c"
+    }
+  ],
+  "deleted_count": 32,
+  "deleted_bytes": 258850491,
+  "time_utc": "2026-11-03T17:25:28Z"
+}

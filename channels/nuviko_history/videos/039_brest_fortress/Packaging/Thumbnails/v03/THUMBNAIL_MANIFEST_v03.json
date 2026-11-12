@@ -1,0 +1,35 @@
+{
+  "version": "v03",
+  "status": "draft_user_review",
+  "revision_scope": "C revised again after user said the separate wall fragment looked detached and the gate like a castle; A and B are byte-identical reuses.",
+  "variants": [
+    {
+      "variant": "A",
+      "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Packaging/Thumbnails/v03/thumbnail_A_v01.png",
+      "sha256": "49f3e910128a5b9878f763a8bbe228000fe7f0b359695dca3176515aadf4ca7d",
+      "width": 1672,
+      "height": 941,
+      "reuse_of": "v01/thumbnail_A_v01.png"
+    },
+    {
+      "variant": "B",
+      "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Packaging/Thumbnails/v03/thumbnail_B_v01.png",
+      "sha256": "186ea901d393c8a7e127f2643aa1923804445c66fb463cc1320b6a838c7ba27a",
+      "width": 1672,
+      "height": 941,
+      "reuse_of": "v01/thumbnail_B_v01.png"
+    },
+    {
+      "variant": "C",
+      "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Packaging/Thumbnails/v03/thumbnail_C_v03.png",
+      "sha256": "878e4ba36699090110b15d5dadf6b72b03e5eab791292bb3c3e70e6633e58d5e",
+      "width": 1672,
+      "height": 941,
+      "generation_references": [
+        "/Users/diplomat/ytvideos/channels/nuviko_history/brand/References/traveler_turnaround_20261104.png",
+        "/Users/diplomat/ytvideos/channels/nuviko_history/brand/References/traveler_emotions_20261104.png"
+      ],
+      "prompt_record": "The exact generation prompt is preserved with the image-generation call and described in Research/CONSULTATION_THUMBNAIL_C_REVISION_v02.md."
+    }
+  ]
+}

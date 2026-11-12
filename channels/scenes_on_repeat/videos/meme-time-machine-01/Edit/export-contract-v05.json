@@ -1,0 +1,255 @@
+{
+  "revision": "v05",
+  "purpose": "local review only",
+  "output": "/Users/diplomat/ytvideos/channels/scenes_on_repeat/videos/meme-time-machine-01/Deliverables/meme-time-machine-01_draft-v05.mp4",
+  "width": 1080,
+  "height": 1920,
+  "fps": 24,
+  "frames": 458,
+  "duration": 19.083333333333332,
+  "visible_rank_order": [
+    2,
+    4,
+    3,
+    5,
+    1
+  ],
+  "segments": [
+    {
+      "rank": 2,
+      "source": "Source/YouTube/GdUVtEeg9I4.mkv",
+      "youtube_id": "GdUVtEeg9I4",
+      "sha256": "505dbfe5d08772d53f71295a0496efec5c3ba67f5f4853f05301a4b4ec721844",
+      "source_in_seconds": 14.958333,
+      "source_out_seconds": 17.375,
+      "frame_in": 0,
+      "frame_out_exclusive": 58,
+      "source_crop": "836:496:222:52",
+      "audio_gain_db": -3.0
+    },
+    {
+      "rank": 4,
+      "source": "Source/YouTube/yXcWolrJZ08.mkv",
+      "youtube_id": "yXcWolrJZ08",
+      "sha256": "c1c9f462a42bd3730cf6c408e7b30bcd1d5362e68a47de9cf770d025e1d37af6",
+      "source_in_seconds": 3.333333,
+      "source_out_seconds": 11.583333,
+      "frame_in": 58,
+      "frame_out_exclusive": 256,
+      "source_crop": "608:360:16:0",
+      "audio_gain_db": 10.0
+    },
+    {
+      "rank": 3,
+      "source": "Source/YouTube/R9SC0Up0TDE.mkv",
+      "youtube_id": "R9SC0Up0TDE",
+      "sha256": "9e1a43f25dd749dc302c6736b9959f249ff2c2c716829ac5046ad1f89790a317",
+      "source_in_seconds": 9.416667,
+      "source_out_seconds": 11.541667,
+      "frame_in": 256,
+      "frame_out_exclusive": 307,
+      "source_crop": "392:232:436:258",
+      "audio_gain_db": 12.0
+    },
+    {
+      "rank": 5,
+      "source": "Source/YouTube/y8Kyi0WNg40.mkv",
+      "youtube_id": "y8Kyi0WNg40",
+      "sha256": "ce0635ca37701780c96f9ff81cceb2884f825b11da5c10b4812ed1f6fd9c8fd5",
+      "source_in_seconds": 0.25,
+      "source_out_seconds": 2.791667,
+      "frame_in": 307,
+      "frame_out_exclusive": 368,
+      "source_crop": "320:190:0:24",
+      "audio_gain_db": -5.0
+    },
+    {
+      "rank": 1,
+      "source": "Source/YouTube/1VbZE6YhjKk.mp4",
+      "youtube_id": "1VbZE6YhjKk",
+      "sha256": "7d0f7102f09c968fae333daff21928e86d4c614070f6ddac2ec40e5d996c4576",
+      "source_in_seconds": 0.0,
+      "source_out_seconds": 2.583333,
+      "frame_in": 368,
+      "frame_out_exclusive": 430,
+      "source_crop": null,
+      "audio_gain_db": 0.5
+    },
+    {
+      "rank": 1,
+      "source": "Source/YouTube/1VbZE6YhjKk.mp4",
+      "youtube_id": "1VbZE6YhjKk",
+      "sha256": "7d0f7102f09c968fae333daff21928e86d4c614070f6ddac2ec40e5d996c4576",
+      "source_in_seconds": 40.29,
+      "source_out_seconds": 41.456667,
+      "frame_in": 430,
+      "frame_out_exclusive": 458,
+      "source_crop": null,
+      "audio_gain_db": 0.5
+    }
+  ],
+  "caption_cues": [
+    {
+      "start": 2.673334,
+      "end": 3.903334,
+      "text": "I fly to the moon."
+    },
+    {
+      "start": 4.693334,
+      "end": 5.653334,
+      "text": "I shrink the moon."
+    },
+    {
+      "start": 6.453334,
+      "end": 7.433334,
+      "text": "I grab the moon."
+    },
+    {
+      "start": 8.383334,
+      "end": 9.783334,
+      "text": "I sit on the toilet..."
+    },
+    {
+      "start": 9.963334,
+      "end": 10.473334,
+      "text": "What?"
+    },
+    {
+      "start": 18.026667,
+      "end": 19.056667,
+      "text": "It’s corn!"
+    }
+  ],
+  "video": {
+    "codec": "H.264 High",
+    "crf": 18,
+    "pixel_format": "yuv420p",
+    "color": "BT.709"
+  },
+  "audio": {
+    "codec": "AAC-LC",
+    "channels": 2,
+    "sample_rate": 48000,
+    "bitrate_target": 256000,
+    "sources": "the original five YouTube audio tracks",
+    "fade_seconds": 0.075,
+    "corn_opening_fade_seconds": 0.015,
+    "limiter_linear_ceiling": 0.84,
+    "speed": 1.0,
+    "source": "Edit/mix-v03.m4a",
+    "source_sha256": "0b89ecfcbfbf6c05ad9fe4ca1ecb83022d1b6c6294cdf28f5a29c45492274655",
+    "mode": "AAC stream copy",
+    "stream_sha256": "603ee3dbee12d0f1c033068956600f38aa39bd1a4d966d3913093e551a44d80e"
+  },
+  "layout": "Meme Time Machine",
+  "rank_reveals": [
+    {
+      "rank": 2,
+      "frame_in": 0,
+      "title": "Bottle Flip",
+      "frame_out_exclusive": 58,
+      "revealed": {
+        "2": "Bottle Flip"
+      }
+    },
+    {
+      "rank": 4,
+      "frame_in": 58,
+      "title": "Gru’s Plan",
+      "frame_out_exclusive": 256,
+      "revealed": {
+        "2": "Bottle Flip",
+        "4": "Gru’s Plan"
+      }
+    },
+    {
+      "rank": 3,
+      "frame_in": 256,
+      "title": "Baby Yoda",
+      "frame_out_exclusive": 307,
+      "revealed": {
+        "2": "Bottle Flip",
+        "3": "Baby Yoda",
+        "4": "Gru’s Plan"
+      }
+    },
+    {
+      "rank": 5,
+      "frame_in": 307,
+      "title": "Dramatic Chipmunk",
+      "frame_out_exclusive": 368,
+      "revealed": {
+        "2": "Bottle Flip",
+        "3": "Baby Yoda",
+        "4": "Gru’s Plan",
+        "5": "Dramatic Chipmunk"
+      }
+    },
+    {
+      "rank": 1,
+      "frame_in": 368,
+      "title": "Corn Kid",
+      "frame_out_exclusive": 458,
+      "revealed": {
+        "1": "Corn Kid",
+        "2": "Bottle Flip",
+        "3": "Baby Yoda",
+        "4": "Gru’s Plan",
+        "5": "Dramatic Chipmunk"
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "kind": "slideleft",
+      "frame_in": 57,
+      "frame_out_exclusive": 63,
+      "rank_switch_frame": 58
+    },
+    {
+      "kind": "slideleft",
+      "frame_in": 255,
+      "frame_out_exclusive": 261,
+      "rank_switch_frame": 256
+    },
+    {
+      "kind": "slideleft",
+      "frame_in": 306,
+      "frame_out_exclusive": 312,
+      "rank_switch_frame": 307
+    },
+    {
+      "kind": "slideleft",
+      "frame_in": 367,
+      "frame_out_exclusive": 373,
+      "rank_switch_frame": 368
+    }
+  ],
+  "composition": {
+    "foreground_window": [
+      1080,
+      640
+    ],
+    "foreground_fit": "preserve aspect, centered",
+    "background": "synchronized duplicate of the same crop, stretched on both axes",
+    "background_blur": {
+      "filter": "gblur",
+      "sigma": 17,
+      "steps": 3,
+      "working_dimensions": [
+        270,
+        480
+      ]
+    },
+    "title_y": 455,
+    "rank_row_centers": [
+      1380,
+      1445,
+      1510,
+      1575,
+      1640
+    ],
+    "caption_top": 1284,
+    "active_row_highlight": "text color only"
+  }
+}

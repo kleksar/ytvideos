@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "canvas": [
+    1672,
+    941
+  ],
+  "face_height_px": 88,
+  "min_face_height_px": 72,
+  "anchors": {
+    "primary": {
+      "center": [
+        0.5,
+        0.2
+      ],
+      "max_width_px": 1300,
+      "max_height_px": 300
+    },
+    "alternate": {
+      "center": [
+        0.22,
+        0.2
+      ],
+      "max_width_px": 670,
+      "max_height_px": 300
+    }
+  },
+  "scenes": [
+    {
+      "id": "CH03",
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/church_v02/CH03_v01.png"
+    },
+    {
+      "id": "CH05",
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/paper_v01/scene_110_v01.png"
+    }
+  ],
+  "cues": [
+    {
+      "id": "T01",
+      "lines": [
+        "700 JACKS",
+        "ONE CHURCH"
+      ],
+      "backend": {
+        "type": "existingPNG",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/church_v02/T01_v01.png",
+        "face": {
+          "mode": "creamOrange",
+          "line_boxes": [
+            [
+              0,
+              0,
+              1919,
+              416
+            ],
+            [
+              0,
+              416,
+              1919,
+              820
+            ]
+          ]
+        },
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/church_v02/T01_v01.png",
+        "status": "imagegen candidate; spelling, alpha and paper form visually checked"
+      },
+      "provenance": {
+        "method": "imagegen",
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/CHURCH_BLOCK_v02.md"
+      },
+      "timing": {
+        "status": "PRELIMINARY_UNLISTENED",
+        "note": "existing 1.05x narration alignment /1.05; no new audio"
+      }
+    },
+    {
+      "id": "T02",
+      "lines": [
+        "MANY HANDS",
+        "ONE BUILDING"
+      ],
+      "backend": {
+        "type": "existingPNG",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/church_v02/T02_v01.png",
+        "face": {
+          "mode": "creamOrange",
+          "line_boxes": [
+            [
+              0,
+              0,
+              2146,
+              374
+            ],
+            [
+              0,
+              374,
+              2146,
+              733
+            ]
+          ]
+        },
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/church_v02/T02_v01.png",
+        "status": "imagegen candidate; spelling, alpha and paper form visually checked"
+      },
+      "provenance": {
+        "method": "imagegen",
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/CHURCH_BLOCK_v02.md"
+      },
+      "timing": {
+        "status": "PRELIMINARY_UNLISTENED",
+        "note": "existing 1.05x narration alignment /1.05; no new audio"
+      }
+    }
+  ],
+  "pairs": [
+    {
+      "scene": "CH03",
+      "cue": "T01",
+      "anchor": "primary"
+    },
+    {
+      "scene": "CH05",
+      "cue": "T02",
+      "anchor": "alternate"
+    }
+  ]
+}

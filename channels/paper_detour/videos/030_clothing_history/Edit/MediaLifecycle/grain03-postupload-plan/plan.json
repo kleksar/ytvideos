@@ -1,0 +1,293 @@
+{
+  "version": 1,
+  "kind": "plan",
+  "created_utc": "2026-11-02T04:55:44.029325+00:00",
+  "audit": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Edit/MediaLifecycle/grain03-postupload-audit/audit.json",
+  "audit_sha256": "1c62a0517d3374f1f15eecef2272dc212c7151fa7c4f69b3e52382281b0ab9f7",
+  "episode": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history",
+  "executable": false,
+  "deletion_implemented": false,
+  "stale_inputs": [],
+  "entries": [
+    {
+      "path": "Edit/v09/QA/v09_audio_s16le.pcm",
+      "device": 16777233,
+      "inode": 124771673,
+      "bytes": 36482816,
+      "mtime_ns": 1793586587730593923,
+      "ctime_ns": 1793586587730593923,
+      "nlink": 1,
+      "allocated_bytes": 36483072,
+      "project_references": [],
+      "text_mentions": [
+        "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Edit/ComplianceAudit_20261102/media_policy_before.json"
+      ],
+      "protections": [],
+      "classification": "BLOCKED",
+      "declaration": {
+        "path": "Edit/v09/QA/v09_audio_s16le.pcm",
+        "role": "scratch",
+        "status": "review",
+        "reason": "Сырой PCM для прежней диагностики. Исходные медиа сохранены; точный decode/conform рецепт пока не верифицирован. Это предложение для проверки, не разрешение удаления.",
+        "evidence": [
+          "Edit/v09/QA/NATIVE_EXPORT_DIAGNOSTIC.json",
+          "Edit/v09/QA/QA_REPORT.json"
+        ],
+        "rebuild_from": [
+          "Edit/v09/PAPER_DETOUR_030_GRAIN_25_BASELINE_EN_v09_native.mp4"
+        ]
+      },
+      "blockers": [
+        "TEXT_REFERENCE_REVIEW"
+      ],
+      "sha256": "b12afdf8e8919d9c0543b1c521a658bf57c8397425ea1c0aa7e89046d254efb7",
+      "required_before_any_future_removal": [
+        "Fresh dependency scan including retained project histories and all known consumers",
+        "Writer/import/render completion verified; absent locks do not prove inactivity",
+        "Resolve text mentions, pins and source/rebuild dependencies",
+        "Applicable retention/authorization and changed-file check at action time"
+      ]
+    },
+    {
+      "path": "Edit/v09/QA/native_video.h264",
+      "device": 16777233,
+      "inode": 124771929,
+      "bytes": 249455633,
+      "mtime_ns": 1793586643570342112,
+      "ctime_ns": 1793586643570342112,
+      "nlink": 1,
+      "allocated_bytes": 249458688,
+      "project_references": [],
+      "text_mentions": [
+        "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Edit/ComplianceAudit_20261102/media_policy_before.json"
+      ],
+      "protections": [],
+      "classification": "BLOCKED",
+      "declaration": {
+        "path": "Edit/v09/QA/native_video.h264",
+        "role": "scratch",
+        "status": "review",
+        "reason": "Извлечённый видеопоток для QA; сравнить с потоком сохранённого MP4 без создания нового большого файла. Пока активна работа, очистку не выполнять.",
+        "evidence": [
+          "Edit/v09/QA/QA_REPORT.json"
+        ],
+        "rebuild_from": [
+          "Edit/v09/PAPER_DETOUR_030_GRAIN_25_BASELINE_EN_v09_native.mp4"
+        ]
+      },
+      "blockers": [
+        "TEXT_REFERENCE_REVIEW"
+      ],
+      "sha256": "afe2462dc82fb84472f643d042cfca4bb798b6a330937156de4bd56cb22fc05a",
+      "required_before_any_future_removal": [
+        "Fresh dependency scan including retained project histories and all known consumers",
+        "Writer/import/render completion verified; absent locks do not prove inactivity",
+        "Resolve text mentions, pins and source/rebuild dependencies",
+        "Applicable retention/authorization and changed-file check at action time"
+      ]
+    },
+    {
+      "path": "Edit/v09/QA/v08_audio_s16le.pcm",
+      "device": 16777233,
+      "inode": 124771671,
+      "bytes": 36483072,
+      "mtime_ns": 1793586587310613112,
+      "ctime_ns": 1793586587310613112,
+      "nlink": 1,
+      "allocated_bytes": 36483072,
+      "project_references": [],
+      "text_mentions": [
+        "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Edit/ComplianceAudit_20261102/media_policy_before.json"
+      ],
+      "protections": [],
+      "classification": "BLOCKED",
+      "declaration": {
+        "path": "Edit/v09/QA/v08_audio_s16le.pcm",
+        "role": "scratch",
+        "status": "review",
+        "reason": "Сырой PCM для прежней диагностики. Исходные медиа сохранены; точный decode/conform рецепт пока не верифицирован. Это предложение для проверки, не разрешение удаления.",
+        "evidence": [
+          "Edit/v09/QA/NATIVE_EXPORT_DIAGNOSTIC.json",
+          "Edit/v09/QA/QA_REPORT.json"
+        ],
+        "rebuild_from": [
+          "Edit/v08/Palmier_Grain_x2_native.mp4"
+        ]
+      },
+      "blockers": [
+        "TEXT_REFERENCE_REVIEW"
+      ],
+      "sha256": "626e52db5096466757d6d3c9e59e4a1d03fcd4303a2273c24d2fd43986aeef03",
+      "required_before_any_future_removal": [
+        "Fresh dependency scan including retained project histories and all known consumers",
+        "Writer/import/render completion verified; absent locks do not prove inactivity",
+        "Resolve text mentions, pins and source/rebuild dependencies",
+        "Applicable retention/authorization and changed-file check at action time"
+      ]
+    },
+    {
+      "path": "Edit/v09/QA/final_video.h264",
+      "device": 16777233,
+      "inode": 124771928,
+      "bytes": 249455633,
+      "mtime_ns": 1793586643432125248,
+      "ctime_ns": 1793586643432125248,
+      "nlink": 1,
+      "allocated_bytes": 249458688,
+      "project_references": [],
+      "text_mentions": [
+        "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Edit/ComplianceAudit_20261102/media_policy_before.json"
+      ],
+      "protections": [],
+      "classification": "BLOCKED",
+      "declaration": {
+        "path": "Edit/v09/QA/final_video.h264",
+        "role": "scratch",
+        "status": "review",
+        "reason": "Извлечённый видеопоток для QA; сравнить с потоком сохранённого MP4 без создания нового большого файла. Пока активна работа, очистку не выполнять.",
+        "evidence": [
+          "Edit/v09/QA/QA_REPORT.json"
+        ],
+        "rebuild_from": [
+          "Edit/v09/PAPER_DETOUR_030_GRAIN_25_BASELINE_EN_v09.mp4"
+        ]
+      },
+      "blockers": [
+        "TEXT_REFERENCE_REVIEW"
+      ],
+      "sha256": "afe2462dc82fb84472f643d042cfca4bb798b6a330937156de4bd56cb22fc05a",
+      "required_before_any_future_removal": [
+        "Fresh dependency scan including retained project histories and all known consumers",
+        "Writer/import/render completion verified; absent locks do not prove inactivity",
+        "Resolve text mentions, pins and source/rebuild dependencies",
+        "Applicable retention/authorization and changed-file check at action time"
+      ]
+    },
+    {
+      "path": "Edit/v09/QA/accepted_audio_s16le.pcm",
+      "device": 16777233,
+      "inode": 124771676,
+      "bytes": 36483072,
+      "mtime_ns": 1793586588081717450,
+      "ctime_ns": 1793586588081717450,
+      "nlink": 1,
+      "allocated_bytes": 36483072,
+      "project_references": [],
+      "text_mentions": [
+        "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Edit/ComplianceAudit_20261102/media_policy_before.json"
+      ],
+      "protections": [],
+      "classification": "BLOCKED",
+      "declaration": {
+        "path": "Edit/v09/QA/accepted_audio_s16le.pcm",
+        "role": "scratch",
+        "status": "review",
+        "reason": "Сырой PCM для прежней диагностики. Исходные медиа сохранены; точный decode/conform рецепт пока не верифицирован. Это предложение для проверки, не разрешение удаления.",
+        "evidence": [
+          "Edit/v09/QA/NATIVE_EXPORT_DIAGNOSTIC.json",
+          "Edit/v09/QA/QA_REPORT.json"
+        ],
+        "rebuild_from": [
+          "Source/Audio/v06/accepted_v05_mix.m4a"
+        ]
+      },
+      "blockers": [
+        "TEXT_REFERENCE_REVIEW"
+      ],
+      "sha256": "626e52db5096466757d6d3c9e59e4a1d03fcd4303a2273c24d2fd43986aeef03",
+      "required_before_any_future_removal": [
+        "Fresh dependency scan including retained project histories and all known consumers",
+        "Writer/import/render completion verified; absent locks do not prove inactivity",
+        "Resolve text mentions, pins and source/rebuild dependencies",
+        "Applicable retention/authorization and changed-file check at action time"
+      ]
+    },
+    {
+      "path": "Edit/v10/QA/native_video.h264",
+      "device": 16777233,
+      "inode": 124775917,
+      "bytes": 249586123,
+      "mtime_ns": 1793587310324975872,
+      "ctime_ns": 1793587310324975872,
+      "nlink": 1,
+      "allocated_bytes": 249589760,
+      "project_references": [],
+      "text_mentions": [
+        "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Edit/ComplianceAudit_20261102/media_policy_before.json"
+      ],
+      "protections": [],
+      "classification": "BLOCKED",
+      "declaration": {
+        "path": "Edit/v10/QA/native_video.h264",
+        "role": "scratch",
+        "status": "review",
+        "reason": "Извлечённый видеопоток для QA; сравнить с потоком сохранённого MP4 без создания нового большого файла. Пока активна работа, очистку не выполнять.",
+        "evidence": [
+          "Edit/v10/export_job.json"
+        ],
+        "rebuild_from": [
+          "Edit/v10/PAPER_DETOUR_030_FINE_GRAIN_33_EN_v10_native.mp4"
+        ]
+      },
+      "blockers": [
+        "TEXT_REFERENCE_REVIEW"
+      ],
+      "sha256": "b02a6a36402ea7c6b4534aad682e3c8d1b7655687454ee7bde674dc88864708e",
+      "required_before_any_future_removal": [
+        "Fresh dependency scan including retained project histories and all known consumers",
+        "Writer/import/render completion verified; absent locks do not prove inactivity",
+        "Resolve text mentions, pins and source/rebuild dependencies",
+        "Applicable retention/authorization and changed-file check at action time"
+      ]
+    },
+    {
+      "path": "Edit/v10/QA/final_video.h264",
+      "device": 16777233,
+      "inode": 124775918,
+      "bytes": 249586123,
+      "mtime_ns": 1793587310499162831,
+      "ctime_ns": 1793587310499162831,
+      "nlink": 1,
+      "allocated_bytes": 249589760,
+      "project_references": [],
+      "text_mentions": [
+        "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Edit/ComplianceAudit_20261102/media_policy_before.json"
+      ],
+      "protections": [],
+      "classification": "BLOCKED",
+      "declaration": {
+        "path": "Edit/v10/QA/final_video.h264",
+        "role": "scratch",
+        "status": "review",
+        "reason": "Извлечённый видеопоток для QA; сравнить с потоком сохранённого MP4 без создания нового большого файла. Пока активна работа, очистку не выполнять.",
+        "evidence": [
+          "Edit/v10/export_job.json"
+        ],
+        "rebuild_from": [
+          "Edit/v10/PAPER_DETOUR_030_FINE_GRAIN_33_EN_v10.mp4"
+        ]
+      },
+      "blockers": [
+        "TEXT_REFERENCE_REVIEW"
+      ],
+      "sha256": "b02a6a36402ea7c6b4534aad682e3c8d1b7655687454ee7bde674dc88864708e",
+      "required_before_any_future_removal": [
+        "Fresh dependency scan including retained project histories and all known consumers",
+        "Writer/import/render completion verified; absent locks do not prove inactivity",
+        "Resolve text mentions, pins and source/rebuild dependencies",
+        "Applicable retention/authorization and changed-file check at action time"
+      ]
+    }
+  ],
+  "review_candidate_logical_bytes": 0,
+  "blocked_logical_bytes": 1107532472,
+  "physical_reclaimable_bytes": null,
+  "missing_declared_candidates": [],
+  "limitations": [
+    "No deletion implementation or permission. No writer absence proof.",
+    "All found imports protected, including retained timelines; unlisted/inaccessible projects and external consumers remain unknown.",
+    "Text scan is heuristic and cannot prove absence of dependencies. Source hashes/QA are evidence, not user acceptance.",
+    "APFS CoW and snapshots prevent inferring physical reclaim from logical or allocated sums."
+  ],
+  "errors": []
+}

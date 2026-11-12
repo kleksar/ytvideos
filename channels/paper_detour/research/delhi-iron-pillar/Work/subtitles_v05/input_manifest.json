@@ -1,0 +1,125 @@
+{
+  "channel": "paper",
+  "format": "short",
+  "source_transfer": "srgb",
+  "audio": "/Users/diplomat/ytvideos/channels/paper_detour/research/delhi-iron-pillar/Work/mix_candidate_v02.wav",
+  "audio_contract": {
+    "final_audio_sha256": "6ab3d7ec579a0b2b6fcbcb1845c729c3c169407ffe31ecbc6e562f6549ee4e8c",
+    "applied_speed": 1.1,
+    "speed_evidence": "/Users/diplomat/ytvideos/channels/paper_detour/research/delhi-iron-pillar/Work/audio_candidate.md"
+  },
+  "scenes": [
+    {
+      "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/delhi-iron-pillar/Source/Images/S001_v01.png",
+      "start_frame": 0,
+      "end_frame": 150,
+      "direction": "left_to_right",
+      "zoom": "in"
+    },
+    {
+      "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/delhi-iron-pillar/Source/Images/S007_v01.png",
+      "start_frame": 150,
+      "end_frame": 300,
+      "direction": "right_to_left",
+      "zoom": "out"
+    },
+    {
+      "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/delhi-iron-pillar/Source/Images/S002_v02.png",
+      "start_frame": 300,
+      "end_frame": 420,
+      "direction": "left_to_right",
+      "zoom": "in"
+    },
+    {
+      "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/delhi-iron-pillar/Source/Images/S003_v01.png",
+      "start_frame": 420,
+      "end_frame": 600,
+      "direction": "right_to_left",
+      "zoom": "out"
+    },
+    {
+      "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/delhi-iron-pillar/Source/Images/S004_v01.png",
+      "start_frame": 600,
+      "end_frame": 740,
+      "direction": "left_to_right",
+      "zoom": "in"
+    },
+    {
+      "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/delhi-iron-pillar/Source/Images/S005_v01.png",
+      "start_frame": 740,
+      "end_frame": 910,
+      "direction": "right_to_left",
+      "zoom": "out"
+    },
+    {
+      "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/delhi-iron-pillar/Source/Images/S006_v01.png",
+      "start_frame": 910,
+      "end_frame": 1084,
+      "direction": "left_to_right",
+      "zoom": "in"
+    }
+  ],
+  "subtitles": {
+    "mode": "words",
+    "words": "/Users/diplomat/ytvideos/channels/paper_detour/research/delhi-iron-pillar/Work/word_times_mix_v02_draft.json",
+    "transcript": "/Users/diplomat/ytvideos/channels/paper_detour/research/delhi-iron-pillar/Source/Voice/narration_en_v1.txt",
+    "keep_together": [
+      "above ground",
+      "below ground"
+    ],
+    "phrases": [
+      "This iron pillar",
+      "is about sixteen",
+      "hundred years old.",
+      "And something",
+      "helped protect it:",
+      "rust.",
+      "The pillar stands",
+      "in Delhi, India.",
+      "The part",
+      "above ground",
+      "has survived",
+      "remarkably well.",
+      "But that doesn't",
+      "mean the iron",
+      "never rusts.",
+      "A dense layer",
+      "of corrosion",
+      "products formed",
+      "on its surface.",
+      "It makes it",
+      "harder for moisture",
+      "to reach",
+      "the metal",
+      "and slows",
+      "further damage.",
+      "Phosphorus",
+      "in the iron",
+      "helps this",
+      "protective layer form.",
+      "The surrounding",
+      "conditions matter too.",
+      "The pillar",
+      "isn't invincible:",
+      "below ground,",
+      "it has rusted",
+      "more heavily.",
+      "So rust",
+      "doesn't always",
+      "just destroy iron.",
+      "Sometimes, it helps",
+      "protect the metal",
+      "underneath."
+    ]
+  },
+  "overlays": [
+    {
+      "role": "paper_frame",
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/Shared/Overlays/Paper_Frame/masters/paper-border-9x16-16s-v03.mov",
+      "start_frame": 0,
+      "end_frame": 1084,
+      "x": 0,
+      "y": 0
+    }
+  ]
+}

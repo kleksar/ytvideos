@@ -1,0 +1,798 @@
+{
+  "version": 1,
+  "status": "visual_review_complete_with_notes",
+  "manifest": "PD027_Minnie_v03_grain_overlay_v01.json",
+  "project_id": "2F64FDCA",
+  "timeline_id": "4D572D38",
+  "source": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Graphics/film_grain_8s_prores4444.mov",
+  "frames": 1140,
+  "clips": [
+    {
+      "clipId": "77AE5232",
+      "startFrame": 0,
+      "sourceSeconds": [
+        0,
+        8
+      ],
+      "endFrame": 240
+    },
+    {
+      "clipId": "312A0AFD",
+      "startFrame": 240,
+      "sourceSeconds": [
+        0,
+        8
+      ],
+      "endFrame": 480
+    },
+    {
+      "clipId": "3EB8F644",
+      "startFrame": 480,
+      "sourceSeconds": [
+        0,
+        8
+      ],
+      "endFrame": 720
+    },
+    {
+      "clipId": "F7FAC187",
+      "startFrame": 720,
+      "sourceSeconds": [
+        0,
+        8
+      ],
+      "endFrame": 960
+    },
+    {
+      "clipId": "DA088F32",
+      "startFrame": 960,
+      "sourceSeconds": [
+        0,
+        6
+      ],
+      "endFrame": 1140
+    }
+  ],
+  "steps": [
+    {
+      "tool": "manage_snapshots",
+      "label": "snapshot before grain",
+      "actionId": null,
+      "result": {
+        "snapshot": {
+          "author": {
+            "kind": "agent",
+            "name": "yt-stories-inspect"
+          },
+          "createdAt": "2026-11-01T08:16:35Z",
+          "name": "Before grain overlay v01 20261101",
+          "snapshotId": "2C557A7D"
+        }
+      }
+    },
+    {
+      "tool": "import_media",
+      "label": "import shared grain source",
+      "actionId": "B00F19DC",
+      "result": {
+        "actionId": "B00F19DC",
+        "mediaRef": "C3C58EE9",
+        "name": "film_grain_8s_prores4444.mov",
+        "status": "ready",
+        "type": "video"
+      }
+    },
+    {
+      "tool": "add_clips",
+      "label": "place continuous full-length grain clips",
+      "actionId": "3BE03094",
+      "result": {
+        "actionId": "3BE03094",
+        "clips": [
+          {
+            "frames": [
+              0,
+              240
+            ],
+            "id": "77AE5232",
+            "mediaRef": "C3C58EE9",
+            "track": 0,
+            "transform": {
+              "height": 0.316
+            }
+          },
+          {
+            "frames": [
+              240,
+              480
+            ],
+            "id": "312A0AFD",
+            "mediaRef": "C3C58EE9",
+            "track": 0,
+            "transform": {
+              "height": 0.316
+            }
+          },
+          {
+            "frames": [
+              480,
+              720
+            ],
+            "id": "3EB8F644",
+            "mediaRef": "C3C58EE9",
+            "track": 0,
+            "transform": {
+              "height": 0.316
+            }
+          },
+          {
+            "frames": [
+              720,
+              960
+            ],
+            "id": "F7FAC187",
+            "mediaRef": "C3C58EE9",
+            "track": 0,
+            "transform": {
+              "height": 0.316
+            }
+          },
+          {
+            "frames": [
+              960,
+              1140
+            ],
+            "id": "DA088F32",
+            "mediaRef": "C3C58EE9",
+            "track": 0,
+            "transform": {
+              "height": 0.316
+            },
+            "trimEndFrame": 60
+          }
+        ],
+        "createdTracks": [
+          {
+            "index": 0,
+            "label": "V4",
+            "trackId": "36FEED6F",
+            "type": "video"
+          }
+        ],
+        "notes": [
+          "Track indices shifted — re-read get_timeline before the next index-based call."
+        ]
+      }
+    },
+    {
+      "tool": "set_keyframes",
+      "label": "fit grain clip 1 crop",
+      "actionId": "EC449A2B",
+      "result": {
+        "actionId": "EC449A2B",
+        "clips": [
+          {
+            "crop": {
+              "left": 0.342,
+              "right": 0.342
+            },
+            "frames": [
+              0,
+              240
+            ],
+            "id": "77AE5232",
+            "mediaRef": "C3C58EE9",
+            "track": 0,
+            "transform": {
+              "height": 0.316
+            }
+          }
+        ]
+      }
+    },
+    {
+      "tool": "set_keyframes",
+      "label": "fit grain clip 1 scale",
+      "actionId": "98B3B392",
+      "result": {
+        "actionId": "98B3B392",
+        "clips": [
+          {
+            "crop": {
+              "left": 0.342,
+              "right": 0.342
+            },
+            "frames": [
+              0,
+              240
+            ],
+            "id": "77AE5232",
+            "mediaRef": "C3C58EE9",
+            "track": 0,
+            "transform": {
+              "height": 0.316
+            }
+          }
+        ]
+      }
+    },
+    {
+      "tool": "set_keyframes",
+      "label": "fit grain clip 1 position",
+      "actionId": "3047EE38",
+      "result": {
+        "actionId": "3047EE38",
+        "clips": [
+          {
+            "crop": {
+              "left": 0.342,
+              "right": 0.342
+            },
+            "frames": [
+              0,
+              240
+            ],
+            "id": "77AE5232",
+            "mediaRef": "C3C58EE9",
+            "track": 0,
+            "transform": {
+              "height": 0.316
+            }
+          }
+        ]
+      }
+    },
+    {
+      "tool": "set_keyframes",
+      "label": "fit grain clip 1 opacity",
+      "actionId": "0DE1EB6C",
+      "result": {
+        "actionId": "0DE1EB6C",
+        "clips": [
+          {
+            "crop": {
+              "left": 0.342,
+              "right": 0.342
+            },
+            "frames": [
+              0,
+              240
+            ],
+            "id": "77AE5232",
+            "mediaRef": "C3C58EE9",
+            "opacity": 0.5,
+            "track": 0,
+            "transform": {
+              "height": 0.316
+            }
+          }
+        ]
+      }
+    },
+    {
+      "tool": "set_keyframes",
+      "label": "fit grain clip 2 crop",
+      "actionId": "A7F2584E",
+      "result": {
+        "actionId": "A7F2584E",
+        "clips": [
+          {
+            "crop": {
+              "left": 0.342,
+              "right": 0.342
+            },
+            "frames": [
+              240,
+              480
+            ],
+            "id": "312A0AFD",
+            "mediaRef": "C3C58EE9",
+            "track": 0,
+            "transform": {
+              "height": 0.316
+            }
+          }
+        ]
+      }
+    },
+    {
+      "tool": "set_keyframes",
+      "label": "fit grain clip 2 scale",
+      "actionId": "B01BFE54",
+      "result": {
+        "actionId": "B01BFE54",
+        "clips": [
+          {
+            "crop": {
+              "left": 0.342,
+              "right": 0.342
+            },
+            "frames": [
+              240,
+              480
+            ],
+            "id": "312A0AFD",
+            "mediaRef": "C3C58EE9",
+            "track": 0,
+            "transform": {
+              "height": 0.316
+            }
+          }
+        ]
+      }
+    },
+    {
+      "tool": "set_keyframes",
+      "label": "fit grain clip 2 position",
+      "actionId": "A5AE9F05",
+      "result": {
+        "actionId": "A5AE9F05",
+        "clips": [
+          {
+            "crop": {
+              "left": 0.342,
+              "right": 0.342
+            },
+            "frames": [
+              240,
+              480
+            ],
+            "id": "312A0AFD",
+            "mediaRef": "C3C58EE9",
+            "track": 0,
+            "transform": {
+              "height": 0.316
+            }
+          }
+        ]
+      }
+    },
+    {
+      "tool": "set_keyframes",
+      "label": "fit grain clip 2 opacity",
+      "actionId": "D8C681DA",
+      "result": {
+        "actionId": "D8C681DA",
+        "clips": [
+          {
+            "crop": {
+              "left": 0.342,
+              "right": 0.342
+            },
+            "frames": [
+              240,
+              480
+            ],
+            "id": "312A0AFD",
+            "mediaRef": "C3C58EE9",
+            "opacity": 0.5,
+            "track": 0,
+            "transform": {
+              "height": 0.316
+            }
+          }
+        ]
+      }
+    },
+    {
+      "tool": "set_keyframes",
+      "label": "fit grain clip 3 crop",
+      "actionId": "859D8057",
+      "result": {
+        "actionId": "859D8057",
+        "clips": [
+          {
+            "crop": {
+              "left": 0.342,
+              "right": 0.342
+            },
+            "frames": [
+              480,
+              720
+            ],
+            "id": "3EB8F644",
+            "mediaRef": "C3C58EE9",
+            "track": 0,
+            "transform": {
+              "height": 0.316
+            }
+          }
+        ]
+      }
+    },
+    {
+      "tool": "set_keyframes",
+      "label": "fit grain clip 3 scale",
+      "actionId": "F3CF9259",
+      "result": {
+        "actionId": "F3CF9259",
+        "clips": [
+          {
+            "crop": {
+              "left": 0.342,
+              "right": 0.342
+            },
+            "frames": [
+              480,
+              720
+            ],
+            "id": "3EB8F644",
+            "mediaRef": "C3C58EE9",
+            "track": 0,
+            "transform": {
+              "height": 0.316
+            }
+          }
+        ]
+      }
+    },
+    {
+      "tool": "set_keyframes",
+      "label": "fit grain clip 3 position",
+      "actionId": "9702C223",
+      "result": {
+        "actionId": "9702C223",
+        "clips": [
+          {
+            "crop": {
+              "left": 0.342,
+              "right": 0.342
+            },
+            "frames": [
+              480,
+              720
+            ],
+            "id": "3EB8F644",
+            "mediaRef": "C3C58EE9",
+            "track": 0,
+            "transform": {
+              "height": 0.316
+            }
+          }
+        ]
+      }
+    },
+    {
+      "tool": "set_keyframes",
+      "label": "fit grain clip 3 opacity",
+      "actionId": "C376D08C",
+      "result": {
+        "actionId": "C376D08C",
+        "clips": [
+          {
+            "crop": {
+              "left": 0.342,
+              "right": 0.342
+            },
+            "frames": [
+              480,
+              720
+            ],
+            "id": "3EB8F644",
+            "mediaRef": "C3C58EE9",
+            "opacity": 0.5,
+            "track": 0,
+            "transform": {
+              "height": 0.316
+            }
+          }
+        ]
+      }
+    },
+    {
+      "tool": "set_keyframes",
+      "label": "fit grain clip 4 crop",
+      "actionId": "6D9920D1",
+      "result": {
+        "actionId": "6D9920D1",
+        "clips": [
+          {
+            "crop": {
+              "left": 0.342,
+              "right": 0.342
+            },
+            "frames": [
+              720,
+              960
+            ],
+            "id": "F7FAC187",
+            "mediaRef": "C3C58EE9",
+            "track": 0,
+            "transform": {
+              "height": 0.316
+            }
+          }
+        ]
+      }
+    },
+    {
+      "tool": "set_keyframes",
+      "label": "fit grain clip 4 scale",
+      "actionId": "3D13445E",
+      "result": {
+        "actionId": "3D13445E",
+        "clips": [
+          {
+            "crop": {
+              "left": 0.342,
+              "right": 0.342
+            },
+            "frames": [
+              720,
+              960
+            ],
+            "id": "F7FAC187",
+            "mediaRef": "C3C58EE9",
+            "track": 0,
+            "transform": {
+              "height": 0.316
+            }
+          }
+        ]
+      }
+    },
+    {
+      "tool": "set_keyframes",
+      "label": "fit grain clip 4 position",
+      "actionId": "43BB3C99",
+      "result": {
+        "actionId": "43BB3C99",
+        "clips": [
+          {
+            "crop": {
+              "left": 0.342,
+              "right": 0.342
+            },
+            "frames": [
+              720,
+              960
+            ],
+            "id": "F7FAC187",
+            "mediaRef": "C3C58EE9",
+            "track": 0,
+            "transform": {
+              "height": 0.316
+            }
+          }
+        ]
+      }
+    },
+    {
+      "tool": "set_keyframes",
+      "label": "fit grain clip 4 opacity",
+      "actionId": "CE20729C",
+      "result": {
+        "actionId": "CE20729C",
+        "clips": [
+          {
+            "crop": {
+              "left": 0.342,
+              "right": 0.342
+            },
+            "frames": [
+              720,
+              960
+            ],
+            "id": "F7FAC187",
+            "mediaRef": "C3C58EE9",
+            "opacity": 0.5,
+            "track": 0,
+            "transform": {
+              "height": 0.316
+            }
+          }
+        ]
+      }
+    },
+    {
+      "tool": "set_keyframes",
+      "label": "fit grain clip 5 crop",
+      "actionId": "F5042A04",
+      "result": {
+        "actionId": "F5042A04",
+        "clips": [
+          {
+            "crop": {
+              "left": 0.342,
+              "right": 0.342
+            },
+            "frames": [
+              960,
+              1140
+            ],
+            "id": "DA088F32",
+            "mediaRef": "C3C58EE9",
+            "track": 0,
+            "transform": {
+              "height": 0.316
+            },
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "tool": "set_keyframes",
+      "label": "fit grain clip 5 scale",
+      "actionId": "A4265A49",
+      "result": {
+        "actionId": "A4265A49",
+        "clips": [
+          {
+            "crop": {
+              "left": 0.342,
+              "right": 0.342
+            },
+            "frames": [
+              960,
+              1140
+            ],
+            "id": "DA088F32",
+            "mediaRef": "C3C58EE9",
+            "track": 0,
+            "transform": {
+              "height": 0.316
+            },
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "tool": "set_keyframes",
+      "label": "fit grain clip 5 position",
+      "actionId": "FC2F6814",
+      "result": {
+        "actionId": "FC2F6814",
+        "clips": [
+          {
+            "crop": {
+              "left": 0.342,
+              "right": 0.342
+            },
+            "frames": [
+              960,
+              1140
+            ],
+            "id": "DA088F32",
+            "mediaRef": "C3C58EE9",
+            "track": 0,
+            "transform": {
+              "height": 0.316
+            },
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "tool": "set_keyframes",
+      "label": "fit grain clip 5 opacity",
+      "actionId": "0F05A455",
+      "result": {
+        "actionId": "0F05A455",
+        "clips": [
+          {
+            "crop": {
+              "left": 0.342,
+              "right": 0.342
+            },
+            "frames": [
+              960,
+              1140
+            ],
+            "id": "DA088F32",
+            "mediaRef": "C3C58EE9",
+            "opacity": 0.5,
+            "track": 0,
+            "transform": {
+              "height": 0.316
+            },
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "tool": "manage_tracks",
+      "label": "name and stack grain above visual layers",
+      "actionId": "BD027484",
+      "result": {
+        "actionId": "BD027484",
+        "renamed": [
+          {
+            "changed": true,
+            "name": "Grain",
+            "trackId": "36FEED6F"
+          }
+        ],
+        "reordered": [
+          {
+            "changed": false,
+            "from": 0,
+            "to": 0,
+            "trackId": "36FEED6F"
+          }
+        ],
+        "tracks": [
+          {
+            "index": 0,
+            "label": "V4",
+            "name": "Grain",
+            "trackId": "36FEED6F",
+            "type": "video"
+          },
+          {
+            "index": 1,
+            "label": "V3",
+            "name": "Foreground",
+            "trackId": "4CF949C6",
+            "type": "video"
+          },
+          {
+            "index": 2,
+            "label": "V2",
+            "name": "Middle",
+            "trackId": "F2AD2A1B",
+            "type": "video"
+          },
+          {
+            "index": 3,
+            "label": "V1",
+            "name": "Background",
+            "trackId": "C62D1C80",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "tool": "manage_snapshots",
+      "label": "snapshot after grain overlay",
+      "actionId": null,
+      "result": {
+        "snapshot": {
+          "author": {
+            "kind": "agent",
+            "name": "yt-stories-inspect"
+          },
+          "createdAt": "2026-11-01T08:16:36Z",
+          "name": "PD027 silent visual pass grain v01 20261101",
+          "snapshotId": "35652A57"
+        }
+      }
+    }
+  ],
+  "exported": false,
+  "media_ref": "C3C58EE9",
+  "track_id": "36FEED6F",
+  "track_order": [
+    {
+      "name": "Grain",
+      "trackId": "36FEED6F",
+      "clips": 5
+    },
+    {
+      "name": "Foreground",
+      "trackId": "4CF949C6",
+      "clips": 10
+    },
+    {
+      "name": "Middle",
+      "trackId": "F2AD2A1B",
+      "clips": 10
+    },
+    {
+      "name": "Background",
+      "trackId": "C62D1C80",
+      "clips": 10
+    }
+  ],
+  "audio_tracks": 0,
+  "visual_preview_exported": true,
+  "visual_preview_path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/027_doomscrolling_short/Edit/Previews/PD027_Minnie_v03_visual_only_20261101.mp4",
+  "visual_preview_sha256": "da2535a92e7b7657689fa82187abe5ee4e20a76a788de9bd7eb817bb269bc38a",
+  "full_decode_passed": true,
+  "realtime_playback_reviewed": true,
+  "realtime_playback_review": "Independent full playback in QuickTime at Normal/1x completed. FFmpeg full decode passed. Sampled both sides of scene cuts at frames 119/120, 224/225, 344/345, 449/450, 599/600, 689/690, 779/780, 899/900, 1019/1020; grain repeats at 239/240, 479/480, 719/720, 959/960; and S10-to-S01. No visible edge gaps or layer separation at sampled boundaries; no conspicuous grain pop. Waist-height twine may read as tied around waists. S10-to-S01 reads as a warm-house-to-cold-school reset, not a seamless visual loop. Detailed assessment is sample-based, not frame-by-frame. Silent visual preview only."
+}

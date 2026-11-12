@@ -1,0 +1,11 @@
+[0:v]scale=1300:732,crop=1280:720:x='10+4*t/6':y=6,setsar=1[bg];
+[1:v]crop=1171:448:277:360,scale=670:-1,format=rgba[cradle];
+[2:v]crop=1105:341:367:369,scale=500:-1,format=rgba[scroll];
+[3:v]crop=2110:350:18:180,scale=385:-1,format=rgba[words];
+[4:v]scale=1280:720,format=rgba[tray];
+[5:v]scale=1280:720,format=rgba,colorchannelmixer=aa=0.30[grain];
+[bg][cradle]overlay=x='335+3*t/6':y=340:eval=frame[scene1];
+[scene1][scroll]overlay=x='454+3*t/6':y=350:eval=frame[scene2];
+[scene2][words]overlay=x='36+9*t/6':y='if(lt(t,0.6),580,if(lt(t,2.8),580-175*(t-0.6)/2.2,405))':eval=frame[scene3];
+[scene3][tray]overlay=x='5*t/6':y=0:eval=frame[scene4];
+[scene4][grain]overlay=0:0:shortest=1,format=yuv420p[final]

@@ -1,0 +1,140 @@
+{
+  "channel": "paper",
+  "format": "short",
+  "fps": 30,
+  "audio": "../../Source/Audio/voiceonly_master_en_v02.wav",
+  "canvas": [
+    1440,
+    2560
+  ],
+  "title": "041 Dune Origin EN FFmpeg remake v05 — current subtitle pipeline",
+  "source_storyboard": "Storyboard/storyboard_v03.md; accepted narration v04 and visual sequence retained; timings conformed to 4–6 s montage rule",
+  "scenes": [
+    {
+      "id": "S01",
+      "image": "../../Source/Images/accepted_v01/S01.jpg",
+      "start_frame": 0,
+      "end_frame": 120,
+      "direction": "left_to_right",
+      "zoom": "in"
+    },
+    {
+      "id": "S02",
+      "image": "../../Source/Images/accepted_v01/S02.jpg",
+      "start_frame": 120,
+      "end_frame": 240,
+      "direction": "right_to_left",
+      "zoom": "out"
+    },
+    {
+      "id": "S03",
+      "image": "../../Source/Images/accepted_v01/S03.jpg",
+      "start_frame": 240,
+      "end_frame": 360,
+      "direction": "left_to_right",
+      "zoom": "in"
+    },
+    {
+      "id": "S04",
+      "image": "../../Source/Images/accepted_v01/S04.jpg",
+      "start_frame": 360,
+      "end_frame": 495,
+      "direction": "right_to_left",
+      "zoom": "out"
+    },
+    {
+      "id": "S05",
+      "image": "../../Source/Images/accepted_v01/S05.jpg",
+      "start_frame": 495,
+      "end_frame": 630,
+      "direction": "left_to_right",
+      "zoom": "in"
+    },
+    {
+      "id": "S06",
+      "image": "../../Source/Images/accepted_v01/S06.jpg",
+      "start_frame": 630,
+      "end_frame": 765,
+      "direction": "right_to_left",
+      "zoom": "out"
+    },
+    {
+      "id": "S07",
+      "image": "../../Source/Images/accepted_v01/S07.jpg",
+      "start_frame": 765,
+      "end_frame": 945,
+      "direction": "left_to_right",
+      "zoom": "in"
+    },
+    {
+      "id": "S08",
+      "image": "../../Source/Images/accepted_v01/S08.jpg",
+      "start_frame": 945,
+      "end_frame": 1107,
+      "direction": "right_to_left",
+      "zoom": "out"
+    },
+    {
+      "id": "S09",
+      "image": "../../Source/Images/accepted_v01/S09.jpg",
+      "start_frame": 1107,
+      "end_frame": 1227,
+      "direction": "left_to_right",
+      "zoom": "in"
+    },
+    {
+      "id": "S10",
+      "image": "../../Source/Images/accepted_v01/S10.jpg",
+      "start_frame": 1227,
+      "end_frame": 1347,
+      "direction": "right_to_left",
+      "zoom": "out"
+    },
+    {
+      "id": "S11",
+      "image": "../../Source/Images/accepted_v01/S11.jpg",
+      "start_frame": 1347,
+      "end_frame": 1467,
+      "direction": "left_to_right",
+      "zoom": "in"
+    },
+    {
+      "id": "S12",
+      "image": "../../Source/Images/accepted_v01/S12.jpg",
+      "start_frame": 1467,
+      "end_frame": 1587,
+      "direction": "right_to_left",
+      "zoom": "out"
+    }
+  ],
+  "subtitles": {
+    "mode": "words",
+    "words": "../../Source/Subtitles/word_times_en_v02.json"
+  },
+  "overlays": [
+    {
+      "id": "C01_GRASS",
+      "path": "../../Assets/Generated/ffmpeg-captions-v03b/cues/C01/cue.png",
+      "start_frame": 172,
+      "end_frame": 224,
+      "x": 408,
+      "y": 304
+    },
+    {
+      "id": "C02_ARRAKIS",
+      "path": "../../Assets/Generated/ffmpeg-captions-v03b/cues/C02/cue.png",
+      "start_frame": 1078,
+      "end_frame": 1131,
+      "x": 400,
+      "y": 303
+    },
+    {
+      "id": "C03_DUNE",
+      "path": "../../Assets/Generated/ffmpeg-captions-v03b/cues/C03/cue.png",
+      "start_frame": 1450,
+      "end_frame": 1491,
+      "x": 438,
+      "y": 313
+    }
+  ]
+}

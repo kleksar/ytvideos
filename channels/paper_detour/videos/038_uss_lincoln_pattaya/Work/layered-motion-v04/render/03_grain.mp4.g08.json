@@ -1,0 +1,39 @@
+{
+  "input": "/Users/diplomat/ytvideos/new_channel/videos/038_uss_lincoln_pattaya/Work/layered-motion-v04/render/03_clean.mp4",
+  "output": "/Users/diplomat/ytvideos/new_channel/videos/038_uss_lincoln_pattaya/Work/layered-motion-v04/render/03_grain.mp4",
+  "image_sha256": "7773aa3d5591bffdd26591a87e2741414ffdb6720fcf9f41ee453adbef0e8d43",
+  "frames": 120,
+  "fps": 30,
+  "width": 1440,
+  "height": 2560,
+  "preset": "g08",
+  "grain": {
+    "name": "Short Persistence",
+    "version": 1,
+    "rms_y_codes": 3.0,
+    "sigma_reference_px": 0.77,
+    "reference_short_side": 1440,
+    "update_hz": 30,
+    "rho": 0.35,
+    "mask_y": [
+      20,
+      64,
+      208,
+      235
+    ],
+    "range_y": [
+      16,
+      235
+    ],
+    "chroma": false,
+    "seed": 20261102
+  },
+  "seed": 1441505423912856701,
+  "sigma_output_px": 0.77,
+  "order": [
+    "source still",
+    "layered parallax",
+    "opposed camera",
+    "G08"
+  ]
+}

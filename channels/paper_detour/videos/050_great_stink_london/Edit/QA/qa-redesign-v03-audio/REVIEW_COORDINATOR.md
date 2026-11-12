@@ -1,0 +1,10 @@
+# Paper 050 v03 — exact-file audio replacement review
+
+File `Deliverables/review_redesign_en_v03.mp4`, SHA-256 `9a1ba974f508c10bf96beeb1431edd3f6ee82dfe4c188b1dd5c8d11351017ee0`. Frozen command and source identities in `Edit/LongForm_v01/EXPORT_CONTRACT_redesign_review_v03_audio.json`. Audio decision, exact records and credits in `Edit/Audio/MUSIC_CONTINUOUS_V03.md`.
+
+- **Technical PASS.** FFprobe confirmed 2560×1440 progressive H.264, 30/1, 7,584 frames, yuv420p Rec.709 limited, AAC-LC stereo 44.1 kHz, 259,427 bps measured (256k encoder target). Both presented streams start at zero and end at 252.8 s. FFmpeg decoded both full streams with `-xerror`, exit 0.
+- **Picture and burned-in captions identical to v02.** FFmpeg compressed video stream SHA-256 `d26f64a17a8754a11d8392dd0bdbf16ab7fb70a43f30d16bbe9d18d148b2ea1d` matched. FFprobe SHA-256 of PTS/DTS/duration/flags/size over all video packets matched `c42141e4189a452eeda4f8ff8d5d8c70edd3ddaf83e36dd5de237151c09508f1`. H.264 extradata SHA-256 matched `f701dd727a6dad0374021caa2be381b5e6929751502163ad9a9dc18ff15a4569`. Earlier visual evidence and its limitations remain applicable; this does not constitute a new full cue or motion review.
+- **Audio signal PASS.** Exact new mix compared sample-aligned to decoded AAC. Pearson 0.999818, RMS error 0.001118 on normalized PCM across all 11,148,480 mix sample frames. FFmpeg returns 832 extra trailing AAC padding samples; MP4 presentation is still 252.8 s. Both crossfades and final 10 s separately had Pearson above 0.99986. Output integrated −21.3 LUFS, true peak −2.8 dBTP. Stereo/mono music coverage measured in the audio handoff.
+- **UNVERIFIED.** Subjective playback, balance, audible subtitle sync, independent review and separate upload SRT. Technical review PASS is for the exact file on this audio-only replacement. User MP4 review is pending.
+
+Coordinator inspected the v03 four-frame sheet `music_boundaries.jpg` at frames 3, 3135, 6460 and 7500, covering opening, both handover neighborhoods and the ending screen.

@@ -1,0 +1,497 @@
+{
+  "channel": "two_ways_lab",
+  "format": "short",
+  "fps": 30,
+  "canvas": [
+    1080,
+    1920
+  ],
+  "source_transfer": "srgb",
+  "audio": "../Source/Audio/v01/mix.wav",
+  "audio_contract": {
+    "final_audio_sha256": "dd2fbb0f98d89abdc23163396fedd7f8ee7e8937f341359b6a984e869f823de1",
+    "applied_speed": 1.0,
+    "speed_evidence": "../Source/Audio/v01/mix-evidence.md"
+  },
+  "scenes": [
+    {
+      "image": "../Source/Images/v01/hook.png",
+      "start_frame": 0,
+      "end_frame": 115,
+      "direction": "none",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "hook",
+        "reason": "Fixed lot geometry and sequential story state",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        }
+      }
+    },
+    {
+      "image": "../Source/Images/v01/consider.png",
+      "start_frame": 115,
+      "end_frame": 237,
+      "direction": "none",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "consider",
+        "reason": "Fixed lot geometry and sequential story state",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        }
+      }
+    },
+    {
+      "image": "../Source/Images/v01/hook.png",
+      "start_frame": 237,
+      "end_frame": 401,
+      "direction": "none",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "hook",
+        "reason": "Fixed lot geometry and sequential story state",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        }
+      }
+    },
+    {
+      "image": "../Source/Images/v01/far_park.png",
+      "start_frame": 401,
+      "end_frame": 527,
+      "direction": "none",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "far_park",
+        "reason": "Fixed lot geometry and sequential story state",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        }
+      }
+    },
+    {
+      "image": "../Source/Images/v01/far_walk.png",
+      "start_frame": 527,
+      "end_frame": 590,
+      "direction": "none",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "far_walk",
+        "reason": "Fixed lot geometry and sequential story state",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        }
+      }
+    },
+    {
+      "image": "../Source/Images/v01/far_finish.png",
+      "start_frame": 590,
+      "end_frame": 651,
+      "direction": "none",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "far_finish",
+        "reason": "Fixed lot geometry and sequential story state",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        }
+      }
+    },
+    {
+      "image": "../Source/Images/v01/hook.png",
+      "start_frame": 651,
+      "end_frame": 742,
+      "direction": "none",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "hook",
+        "reason": "Fixed lot geometry and sequential story state",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        }
+      }
+    },
+    {
+      "image": "../Source/Images/v01/search.png",
+      "start_frame": 742,
+      "end_frame": 901,
+      "direction": "none",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "search",
+        "reason": "Fixed lot geometry and sequential story state",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        }
+      }
+    },
+    {
+      "image": "../Source/Images/v01/search.png",
+      "start_frame": 901,
+      "end_frame": 968,
+      "direction": "none",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "search",
+        "reason": "Fixed lot geometry and sequential story state",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        }
+      }
+    },
+    {
+      "image": "../Source/Images/v01/close_finish.png",
+      "start_frame": 968,
+      "end_frame": 1135,
+      "direction": "none",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "close_finish",
+        "reason": "Fixed lot geometry and sequential story state",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        }
+      }
+    },
+    {
+      "image": "../Source/Images/v01/close_finish.png",
+      "start_frame": 1135,
+      "end_frame": 1247,
+      "direction": "none",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "close_finish",
+        "reason": "Fixed lot geometry and sequential story state",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        }
+      }
+    },
+    {
+      "image": "../Source/Images/v01/close_finish.png",
+      "start_frame": 1247,
+      "end_frame": 1449,
+      "direction": "none",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "close_finish",
+        "reason": "Fixed lot geometry and sequential story state",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        }
+      }
+    },
+    {
+      "image": "../Source/Images/v01/hook.png",
+      "start_frame": 1449,
+      "end_frame": 1520,
+      "direction": "none",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "hook",
+        "reason": "Fixed lot geometry and sequential story state",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        }
+      }
+    },
+    {
+      "image": "../Source/Images/v01/hook.png",
+      "start_frame": 1520,
+      "end_frame": 1584,
+      "direction": "none",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "hook",
+        "reason": "Fixed lot geometry and sequential story state",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        }
+      }
+    }
+  ],
+  "overlays": [
+    {
+      "path": "../Source/Lettering/v01/2.png",
+      "start_frame": 619,
+      "end_frame": 651,
+      "y": 15,
+      "lettering_motion": {
+        "scale_amplitude": 0.02,
+        "rotation_degrees": 2
+      }
+    },
+    {
+      "path": "../Source/Lettering/v01/3.png",
+      "start_frame": 1179,
+      "end_frame": 1237,
+      "y": 15,
+      "lettering_motion": {
+        "scale_amplitude": 0.02,
+        "rotation_degrees": 2
+      }
+    }
+  ],
+  "subtitles": {
+    "mode": "words",
+    "transcript": "../Source/Audio/v01/narration.txt",
+    "words": "../Source/Audio/v01/word_times.json",
+    "phrases": [
+      "I pull into the store",
+      "parking lot and spot",
+      "an empty space right away.",
+      "It's far from the entrance.",
+      "Should I park here",
+      "or look for a closer one?",
+      "I decide to compare both.",
+      "I start the clock",
+      "at the parking lot entrance",
+      "and stop it at the store doors.",
+      "First, I take that open space.",
+      "Parking and getting out take",
+      "thirty seconds.",
+      "The walk takes another minute",
+      "and a half.",
+      "I reach the entrance",
+      "in two minutes.",
+      "Now I go back to the start",
+      "and try to find a closer spot.",
+      "I drive past one row.",
+      "Full.",
+      "Another row.",
+      "Full too.",
+      "Finally, after two minutes,",
+      "I see an empty spot",
+      "right by the door!",
+      "I park, get out and reach",
+      "the entrance",
+      "after a thirty-second walk.",
+      "That's definitely closer.",
+      "But when I check the clock,",
+      "three minutes have passed",
+      "since I entered the lot.",
+      "In this test,",
+      "parking right away",
+      "saved me a minute.",
+      "But if I'd found",
+      "that closer spot sooner,",
+      "the result could have been different.",
+      "Next time, I'll consider",
+      "the search time as well",
+      "as the walk.",
+      "And once again..."
+    ]
+  },
+  "minimum_scene_frames": 45
+}

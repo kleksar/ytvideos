@@ -1,0 +1,117 @@
+{
+  "checked_at_utc": "2026-11-02T05:24:02.769992+00:00",
+  "scope": "Mechanical comparison of current Paper Detour instructions/templates with the settings already accepted by the user; no new technical choice.",
+  "result": "PASS",
+  "drift_in_checked_current_rules": false,
+  "canonical_settings_changes_needed": false,
+  "checks": {
+    "short_full_hd": "PASS",
+    "horizontal_2k": "PASS",
+    "30fps_constant_progressive": "PASS",
+    "frame_count_from_actual_edit": "PASS",
+    "mp4_h264_8bit_420": "PASS",
+    "rec709_limited": "PASS",
+    "native_match_timeline_highest_quality": "PASS",
+    "manual_fallback_targets": "PASS",
+    "final_stereo_aac_48k_384_target": "PASS",
+    "source_mono_centred_and_stereo_music_retained": "PASS",
+    "source_and_final_rates_separate": "PASS",
+    "unsupported_controls_disclosed": "PASS",
+    "qa_example_matches_profile": "PASS",
+    "portable_template_remains_draft_not_stale_preset": "PASS",
+    "image_4k_is_source_target_not_export_override": "PASS",
+    "production_uses_canonical_export_owner": "PASS",
+    "qa_uses_frozen_contract": "PASS",
+    "local_link_targets_exist": "PASS"
+  },
+  "local_links_checked": 238,
+  "skill_frontmatter_validation": {
+    "ytv-video-export": "PASS",
+    "ytv-audio-delivery": "PASS",
+    "ytv-video-qa": "PASS"
+  },
+  "files": [
+    {
+      "path": ".agents/skills/ytv-video-export/SKILL.md",
+      "sha256": "7f2c14f3762427d91f7ca09180a29805f82ec687e2180ee1d6e2ca72a5704a71"
+    },
+    {
+      "path": ".agents/skills/ytv-video-export/references/paper-detour.md",
+      "sha256": "ab2ea5f41ea8fb284cd681c8873093bc547a587c6cbc9d279a8e8f7832879861"
+    },
+    {
+      "path": ".agents/skills/ytv-video-export/references/palmier.md",
+      "sha256": "e958591732a17c69c321b5beba58358cf19c6affede6f7112b509e868bc036f8"
+    },
+    {
+      "path": ".agents/skills/ytv-video-export/references/export-contract.md",
+      "sha256": "2801fee6b9b7fb5ac3f70bd367c59adebec378a6b96f0703fce3d2e502a4a510"
+    },
+    {
+      "path": ".agents/skills/ytv-video-export/assets/export-contract.template.json",
+      "sha256": "088ef952fc051c970fb30fd5f8e3c30405192ab0c12c01ca3fe7ffc521c8201b"
+    },
+    {
+      "path": ".agents/skills/ytv-audio-delivery/SKILL.md",
+      "sha256": "f41d3ebe92a55e3a76bae276d3871df3455eccba63e4c6eb43732460c6fe69fa"
+    },
+    {
+      "path": ".agents/skills/ytv-audio-delivery/references/delivery-checks.md",
+      "sha256": "602b1605f8f013d01bf7d3d102f30b3a53071db44054615599af8abf53170b46"
+    },
+    {
+      "path": ".agents/skills/ytv-audio-delivery/references/elevenlabs-source.md",
+      "sha256": "21f30cf33cd31584be8e7b670428bd80758a2d9decf04de0c761bf594f2b9e7c"
+    },
+    {
+      "path": ".agents/skills/ytv-video-qa/SKILL.md",
+      "sha256": "c1e37505ddff2e670486f89dcbf93c4f2d5225d89666eabe5674bfaf676f7ece"
+    },
+    {
+      "path": ".agents/skills/ytv-video-qa/references/paper-detour.md",
+      "sha256": "14c1b274d3d605217309daad14d4498d34a1817e89b18397f7ae1545a84201bc"
+    },
+    {
+      "path": ".agents/skills/ytv-video-qa/references/helper-contract.md",
+      "sha256": "e22c6475b26674d4975445626aeae457901d836cb17ea4d38c5c16bf600465d2"
+    },
+    {
+      "path": ".agents/skills/ytv-paper-production/SKILL.md",
+      "sha256": "30617d6ce2529562251da949478402a9996470e12a90b7c8c5fd11aea299edc8"
+    },
+    {
+      "path": ".agents/skills/ytv-paper-production/references/production-runbook.md",
+      "sha256": "d74c791717837c6651fde2630426c81a76fe2c20db616f3212504db1ac3a30c3"
+    },
+    {
+      "path": ".agents/skills/ytv-paper-production/references/stages-and-handoffs.md",
+      "sha256": "6794d6f0da05016b20aeec3176f4c9b8db92441349e8aca6684498acb44e1112"
+    },
+    {
+      "path": ".agents/skills/ytv-palmier-edit/SKILL.md",
+      "sha256": "c14194ca4853fc23aab11600af96682734cdd040d6a92208b3ec7effd9b291c7"
+    },
+    {
+      "path": ".agents/skills/ytv-image-motion/references/automation.md",
+      "sha256": "6cea9042f7d5ccb3633bc425cc82c307ad2b8cd750b06eb25a7801e8a5e0c8b3"
+    },
+    {
+      "path": ".agents/skills/ytv-scene-images/references/paper-detour.md",
+      "sha256": "6756d380983a31b7ff2624a13ec451a05d2fdb3c22870d477fdeeac4603180e9"
+    },
+    {
+      "path": ".agents/skills/ytv-scene-images/references/scene-handoff.md",
+      "sha256": "9c5fb4ff826d4ea1af648f66371fc2ce08620ea69e72468b5c5d06b133c9061b"
+    },
+    {
+      "path": "new_channel/AGENTS.md",
+      "sha256": "6a629f2d6ac09774fb679b0c435344aab0eb3c2368b7325dfbd90e19968bbe51"
+    }
+  ],
+  "limitations": [
+    "Documentation/configuration verification only; not a native render qualification.",
+    "No live Palmier project/timeline or application preferences were read or modified.",
+    "No audio generated, rendered or listened to; no video exported or uploaded.",
+    "Historical deliveries and experiments retain their own recorded settings."
+  ]
+}

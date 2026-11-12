@@ -1,0 +1,21 @@
+{
+  "old_source": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_47_ronin/Source/Voice/en_v08/voice_en.mp3",
+  "patch_source": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_47_ronin/Source/Voice/en_v09_patch/voice_en.mp3",
+  "current_source": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_47_ronin/Source/Voice/en_v09/voice_en_patched.wav",
+  "current_sha256": "ced46158b35b0ede288ecbf2f707b4934c0b138143129c65305677b1fc1af327",
+  "old_sha256": "d9474fc3a3695dec5496f93aa05ccfb708f38932105ad0c00d66cbcecd310fc7",
+  "patch_sha256": "833a639eb51760069a9a1a14759d6d2c9e6bf0df962da0f62b09a7cce7fa721b",
+  "replace_seconds": [
+    400,
+    404.8
+  ],
+  "patch_leading_silence_seconds": 0.2,
+  "sample_rate": 44100,
+  "channels": 1,
+  "speed": 1,
+  "outside_patch_pcm_identical": true,
+  "duration_seconds": 614.16,
+  "reason": "Faithful RU translation: identify Kira; removed unintended causal implication that Kira started the conflict.",
+  "listening": "UNVERIFIED; transcript check pending",
+  "alignment": "Original provider char indices invalid after text correction. Original timing still usable outside patch; new patch alignment offset400.2. Use retained Palmier actual-word transcript for cue timings outside patch."
+}

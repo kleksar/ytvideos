@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "receipt_id": "black-death-public-long-film-partial-text-archive-20261103-v01",
+  "state": "PARTIAL_TEXT_ARCHIVE",
+  "completed_utc": "2026-11-03T21:08:50+00:00",
+  "episode": "channels/nuviko_history/videos/009_black_death",
+  "remote_release": {
+    "checked_utc": "2026-11-03T21:08:49+00:00",
+    "video_id": "oH_daCEzekA",
+    "url": "https://www.youtube.com/watch?v=oH_daCEzekA",
+    "privacy": "public",
+    "upload_status": "processed",
+    "processing_status": "succeeded",
+    "method": "automation/youtube/upload.py status",
+    "failure_reason": null,
+    "rejection_reason": null
+  },
+  "accepted_master": {
+    "path": "Deliverables/en/long/black_death_nuviko_en_v08.mp4",
+    "sha256": "e62c348b12964bf3060b081a1c1b04cdc7e2de61734ff0d834c97a5c85c3cdcc"
+  },
+  "exact_deletion_plan": {
+    "path": "Edit/MediaLifecycle/TEXT_ONLY_RETIREMENT_PLAN_v02.json",
+    "sha256": "9451b2b5dc37e6fa3d37ce3e72308e1d8ab30a7eb00a204c6396449d5b841b99",
+    "state": "deleted_and_verified"
+  },
+  "removed": {
+    "files": 17926,
+    "logical_bytes": 29278717575,
+    "retired_project_packages": 2,
+    "empty_episode_directories": 157,
+    "paths_and_sha256": "Enumerated individually in the exact deletion plan"
+  },
+  "retained": {
+    "episode_files": 1857,
+    "episode_logical_bytes": 589949653,
+    "separate_media_files": 704,
+    "separate_media_bytes": 442589017,
+    "reasons": [
+      "Separate Shorts work and the Unlisted Help During a Plague Short remain outside the completed long-film scope",
+      "Previous audit reported six inaccessible Palmier projects; all external consumers cannot be ruled out"
+    ]
+  },
+  "shared_assets_modified": false,
+  "active_native_ab_test": "preserved; title-only test remains active",
+  "apfs_physical_reclaim": "unknown"
+}

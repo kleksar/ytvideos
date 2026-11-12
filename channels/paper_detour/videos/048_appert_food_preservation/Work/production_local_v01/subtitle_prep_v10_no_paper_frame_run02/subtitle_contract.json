@@ -1,0 +1,4265 @@
+{
+  "schema": "ytv-delivery-v1",
+  "channel": "paper",
+  "format": "long",
+  "canvas": [
+    2560,
+    1440
+  ],
+  "fps": 30,
+  "frames": 5196,
+  "caption_end_frame": 4896,
+  "audio": {
+    "audio": {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Work/production_local_v01/voice_fullmix.wav",
+      "sha256": "1978cc6346ee7e3335221e6c3e89c0f93fd667d9b3e99e676ee8d7a4d6fc38b2"
+    },
+    "applied_speed": 1.1,
+    "speed_policy": {
+      "path": "/Users/diplomat/ytvideos/.agents/skills/ytv-audio-delivery/references/speed.json",
+      "sha256": "32c378c36c1e297cbdc4e3593c965163d33e531b8b8eea026b367bddb51a668a"
+    },
+    "speed_evidence": {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Edit/Audio/speed_evidence_v02.md",
+      "sha256": "8f2ddbd5c4d9fa6f4d7a282d7314eda1b831a13e406992fdec1c0fda2ca3ccc7"
+    }
+  },
+  "transcript": {
+    "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Script/narration_en_v01.txt",
+    "sha256": "1bef1922911dacb6d0ffe7f35240a5d1dc6e71234c5b900b6358e2e4bc8e35be"
+  },
+  "word_map": {
+    "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Edit/Timebase/word_times_export_v02.json",
+    "sha256": "bd14d8fb185f823287a448ac2c316860a73fdb10887c5894b2aa8c610a72a4ae"
+  },
+  "profiles": [
+    {
+      "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/profiles/paper.json",
+      "sha256": "e2b89e813ec25985601ef65997ea8b94c19e96aa6d158333edf962b42e02ffc0"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/profiles/long.json",
+      "sha256": "e8f9f5dd0354283634a0cf9dc1816736bac38de158de1d0bdd1b8b4658f51459"
+    },
+    {
+      "path": "/System/Library/Fonts/Supplemental/ChalkboardSE.ttc",
+      "sha256": "256d3dd291f0d2bd3379882e7fb9c8276fba219ea447a1073d2fce17690e0478"
+    }
+  ],
+  "engine": [
+    {
+      "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/montage.py",
+      "sha256": "036993a385e9f1eb500bd566effee1ec036a23f55e2558365e09869fd1d0167b"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/delivery.py",
+      "sha256": "8fcba5854d8832a966d4960dbdae3c8fa362d124d04a67f2b4b0df4347a71c65"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/.agents/skills/ytv-paper-subtitles/scripts/semantic_grouping.py",
+      "sha256": "f18deb4cbb5af9c10cfd51fd60b15ef1c87b5ebaaaa46f073210935821d8fc3e"
+    }
+  ],
+  "picture": [
+    {
+      "scene": {
+        "image": "../../../Source/Images/S01_v02.png",
+        "start_frame": 0,
+        "end_frame": 169,
+        "direction": "left_to_right",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.22,
+            0.54
+          ],
+          "subject": "sealed sample jar at the harbor",
+          "reason": "Keep the cork and jar readable against the distant ships.",
+          "start": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          },
+          "end": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S01_v02.png",
+        "sha256": "63f74ed367473e030f6f0d8beb9257266d14f942395efef34c04b80044ad9d1f"
+      }
+    },
+    {
+      "scene": {
+        "image": "../../../Source/Images/S02_v03.png",
+        "start_frame": 169,
+        "end_frame": 320,
+        "direction": "right_to_left",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.24,
+            0.56
+          ],
+          "subject": "food jar and three-month marker",
+          "reason": "Carry the storage interval from the jar toward the paper time marker.",
+          "start": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          },
+          "end": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S02_v03.png",
+        "sha256": "323d1cddac6f308e56c4073c5c30e4f70d036af2307dc594f5799c599ed28b65"
+      }
+    },
+    {
+      "scene": {
+        "image": "../../../Source/Images/S03_v01.png",
+        "start_frame": 320,
+        "end_frame": 481,
+        "direction": "left_to_right",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.52,
+            0.54
+          ],
+          "subject": "four inspected food samples and hands",
+          "reason": "Let attention move across the samples being examined.",
+          "start": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          },
+          "end": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S03_v01.png",
+        "sha256": "aa344585604c18ff375b9e60e9de1649eb134cf6e27e5178ac42b13bef0e3822"
+      }
+    },
+    {
+      "scene": {
+        "image": "../../../Source/Images/S04_v01.png",
+        "start_frame": 481,
+        "end_frame": 649,
+        "direction": "right_to_left",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.52,
+            0.62
+          ],
+          "subject": "broth, meat, beans and peas at the table",
+          "reason": "Hold on the dishes before the group in the doorway.",
+          "start": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          },
+          "end": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S04_v01.png",
+        "sha256": "2ebfff5d929e1093c399d5db87251873fe5581a6f0071b059ffe065d76fa7a63"
+      }
+    },
+    {
+      "scene": {
+        "image": "../../../Source/Images/S05_v01.png",
+        "start_frame": 649,
+        "end_frame": 805,
+        "direction": "left_to_right",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.34,
+            0.62
+          ],
+          "subject": "one sample beside many work tables",
+          "reason": "Contrast one result with the effort of repeating it.",
+          "start": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          },
+          "end": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S05_v01.png",
+        "sha256": "d9e7c7b84ebb0b8031c6a4a37adc7a4c31aee3161b96683cc6232a59a211fbb7"
+      }
+    },
+    {
+      "scene": {
+        "image": "../../../Source/Images/S06_v01.png",
+        "start_frame": 805,
+        "end_frame": 965,
+        "direction": "right_to_left",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.52,
+            0.54
+          ],
+          "subject": "missing step in the blank ledger",
+          "reason": "Move toward the gap that prevents repetition.",
+          "start": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          },
+          "end": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S06_v01.png",
+        "sha256": "e3580a6f0c981d5bec09b94eb9133499b92d8f444a481ce1c58f94645534f16c"
+      }
+    },
+    {
+      "scene": {
+        "image": "../../../Source/Images/S07_v01.png",
+        "start_frame": 965,
+        "end_frame": 1120,
+        "direction": "left_to_right",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.52
+          ],
+          "subject": "salted, sugared and dried foods",
+          "reason": "Sweep across the three distinct preservation methods.",
+          "start": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          },
+          "end": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S07_v01.png",
+        "sha256": "a99df54794b01a815aed675ac66681ef52244785ed2db7d8dffc408b120e8a88"
+      }
+    },
+    {
+      "scene": {
+        "image": "../../../Source/Images/S08_v01.png",
+        "start_frame": 1120,
+        "end_frame": 1285,
+        "direction": "right_to_left",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.5,
+            0.52
+          ],
+          "subject": "fresh and dried fruit halves",
+          "reason": "Keep the changed fruit qualities in view.",
+          "start": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          },
+          "end": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S08_v01.png",
+        "sha256": "276a03bfd40fec2f7e5372264b992e42c5917b766066045527e505ef871e0e94"
+      }
+    },
+    {
+      "scene": {
+        "image": "../../../Source/Images/S09_v01.png",
+        "start_frame": 1285,
+        "end_frame": 1458,
+        "direction": "left_to_right",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.53
+          ],
+          "subject": "Appert between pastry and distilling tools",
+          "reason": "Connect the person to the two kinds of work in the scene.",
+          "start": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          },
+          "end": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S09_v01.png",
+        "sha256": "2e99d3189529c2ccacecb0ebc7b5f8150100eb6016ed9150b927282886d54069"
+      }
+    },
+    {
+      "scene": {
+        "image": "../../../Source/Images/S10_v01.png",
+        "start_frame": 1458,
+        "end_frame": 1616,
+        "direction": "right_to_left",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.5,
+            0.52
+          ],
+          "subject": "meat, broth, milk, vegetables and fruit",
+          "reason": "Keep the ingredient range readable as one arrangement.",
+          "start": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          },
+          "end": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S10_v01.png",
+        "sha256": "73ea6636336f58812f8fbe7127aa7a4fd6c98bd6034dbf1ff3fad6c851cec725"
+      }
+    },
+    {
+      "scene": {
+        "image": "../../../Source/Images/S11_v03.png",
+        "start_frame": 1616,
+        "end_frame": 1781,
+        "direction": "left_to_right",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.6,
+            0.55
+          ],
+          "subject": "hand checking a sealed food jar",
+          "reason": "Hold the inspection gesture and jar together.",
+          "start": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          },
+          "end": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S11_v03.png",
+        "sha256": "a7661a4d505d1e71702a4ff31115f4525138ed0d39d044a712e73cda60f11d0b"
+      }
+    },
+    {
+      "scene": {
+        "image": "../../../Source/Images/S12_v01.png",
+        "start_frame": 1781,
+        "end_frame": 1944,
+        "direction": "right_to_left",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.52,
+            0.52
+          ],
+          "subject": "narrow bottle and wide-mouth vessel",
+          "reason": "Compare the two opening shapes.",
+          "start": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          },
+          "end": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S12_v01.png",
+        "sha256": "69a15e2878f5e265d3fffd435b9d48c4e6a5df4d8979dfa4e79149bb5ad0cec6"
+      }
+    },
+    {
+      "scene": {
+        "image": "../../../Source/Images/S13_v02.png",
+        "start_frame": 1944,
+        "end_frame": 2104,
+        "direction": "left_to_right",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.52
+          ],
+          "subject": "cork and wire fastening on the filled vessel",
+          "reason": "Keep the sealing action intact in the frame.",
+          "start": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          },
+          "end": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S13_v02.png",
+        "sha256": "c2ac4c9c2549ab115f4fd7151d243f857ecd0c9db9d690d92ec4961a4b62f1c4"
+      }
+    },
+    {
+      "scene": {
+        "image": "../../../Source/Images/S14_v01.png",
+        "start_frame": 2104,
+        "end_frame": 2270,
+        "direction": "right_to_left",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.5,
+            0.52
+          ],
+          "subject": "vessels heating in a water bath",
+          "reason": "Hold the jars and surrounding bath together.",
+          "start": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          },
+          "end": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S14_v01.png",
+        "sha256": "ef46cd61a6680f20422e0c1f222bdac46fe145d0603c228bc2fd53a7c17d7490"
+      }
+    },
+    {
+      "scene": {
+        "image": "../../../Source/Images/S15_v01.png",
+        "start_frame": 2270,
+        "end_frame": 2440,
+        "direction": "left_to_right",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.52
+          ],
+          "subject": "preparation cards, bottle and cork-wire seal",
+          "reason": "Keep the three factors connected in the light.",
+          "start": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          },
+          "end": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S15_v01.png",
+        "sha256": "cc2319c7d200d48dee4307c7c2b6b5ef7b62399a0b90b2ee624a8676a0fc9257"
+      }
+    },
+    {
+      "scene": {
+        "image": "../../../Source/Images/S16_v01.png",
+        "start_frame": 2440,
+        "end_frame": 2599,
+        "direction": "right_to_left",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.51,
+            0.52
+          ],
+          "subject": "jar lowered into a protective cloth bag",
+          "reason": "Follow the hand and protected vessel.",
+          "start": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          },
+          "end": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S16_v01.png",
+        "sha256": "15ec0d6627ede77d3459c3cb7073db70b189ca929a3e9efa406503d7823f47e7"
+      }
+    },
+    {
+      "scene": {
+        "image": "../../../Source/Images/S17_v01.png",
+        "start_frame": 2599,
+        "end_frame": 2764,
+        "direction": "left_to_right",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "peas selected at different stages",
+          "reason": "Keep the hand between the young and softened peas.",
+          "start": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          },
+          "end": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S17_v01.png",
+        "sha256": "3597b4541d2a0c8f471f8bc8d5ea2d784c349669730fdbb4c2fd68636cbb7c8b"
+      }
+    },
+    {
+      "scene": {
+        "image": "../../../Source/Images/S18_v01.png",
+        "start_frame": 2764,
+        "end_frame": 2927,
+        "direction": "right_to_left",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.55,
+            0.5
+          ],
+          "subject": "committee looking over the samples",
+          "reason": "Keep the committee and sample table in one view.",
+          "start": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          },
+          "end": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S18_v01.png",
+        "sha256": "2273a1269554a3319c55fa849f9224f5641a46de4a2f641e64839dab593406a5"
+      }
+    },
+    {
+      "scene": {
+        "image": "../../../Source/Images/S19_v01.png",
+        "start_frame": 2927,
+        "end_frame": 3090,
+        "direction": "left_to_right",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "four samples beside favorable assessment",
+          "reason": "Let the result card and samples read together.",
+          "start": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          },
+          "end": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S19_v01.png",
+        "sha256": "05dcc5a64215547e484eef57a842c320de63c3064b4ddb787842d01f423f5684"
+      }
+    },
+    {
+      "scene": {
+        "image": "../../../Source/Images/S20_v01.png",
+        "start_frame": 3090,
+        "end_frame": 3251,
+        "direction": "right_to_left",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.5,
+            0.48
+          ],
+          "subject": "reported storage age versus society custody",
+          "reason": "Hold both time statements in the comparison.",
+          "start": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          },
+          "end": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S20_v01.png",
+        "sha256": "2c42f873378584bbbd68a0e39bcdd4fe7b093d956841786767364e0c66c788a6"
+      }
+    },
+    {
+      "scene": {
+        "image": "../../../Source/Images/S21_v02.png",
+        "start_frame": 3251,
+        "end_frame": 3421,
+        "direction": "left_to_right",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.51
+          ],
+          "subject": "visible contents under inspection",
+          "reason": "Keep the jar contents and blank docket together.",
+          "start": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          },
+          "end": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S21_v02.png",
+        "sha256": "d2db9aed476a86b6d819d7d6075ee75e78c919adf3946c43a0e4e973ea676671"
+      }
+    },
+    {
+      "scene": {
+        "image": "../../../Source/Images/S22_v02.png",
+        "start_frame": 3421,
+        "end_frame": 3589,
+        "direction": "right_to_left",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.5,
+            0.52
+          ],
+          "subject": "ordered working slips leading to the method book",
+          "reason": "Follow the movement from loose notes to a book.",
+          "start": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          },
+          "end": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S22_v02.png",
+        "sha256": "fb01980da813e3fff3a1c8aa24e0baaf9f2610004111d7d03059823656c06d74"
+      }
+    },
+    {
+      "scene": {
+        "image": "../../../Source/Images/S23_v01.png",
+        "start_frame": 3589,
+        "end_frame": 3757,
+        "direction": "left_to_right",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.52,
+            0.56
+          ],
+          "subject": "writer hand pushing the blank manuscript forward",
+          "reason": "Hold the hand and manuscript as the central action.",
+          "start": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          },
+          "end": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S23_v01.png",
+        "sha256": "1d5a44f609208c5177d104eac185fd73418b3b7dc4099d7bea879ba7c0d86d84"
+      }
+    },
+    {
+      "scene": {
+        "image": "../../../Source/Images/S24_v02.png",
+        "start_frame": 3757,
+        "end_frame": 3920,
+        "direction": "right_to_left",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.52,
+            0.52
+          ],
+          "subject": "dated letter at the workbench",
+          "reason": "Keep the date and letter together.",
+          "start": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          },
+          "end": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S24_v02.png",
+        "sha256": "2b5ee1332af0928aae4e7bd2196fa7986f11b5c61c5be58ccf3bc5611d13ed6c"
+      }
+    },
+    {
+      "scene": {
+        "image": "../../../Source/Images/S25_v01.png",
+        "start_frame": 3920,
+        "end_frame": 4086,
+        "direction": "left_to_right",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.42
+          ],
+          "subject": "twelve-thousand-franc condition",
+          "reason": "Hold the amount as the first readable element.",
+          "start": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          },
+          "end": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S25_v01.png",
+        "sha256": "4baf18bf6f6f942fb0201199cbe7ed2f267dc8cf12aac4b3eac368d8611af1f0"
+      }
+    },
+    {
+      "scene": {
+        "image": "../../../Source/Images/S26_v01.png",
+        "start_frame": 4086,
+        "end_frame": 4249,
+        "direction": "right_to_left",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.5,
+            0.55
+          ],
+          "subject": "open book beside the two-hundred-copy stack",
+          "reason": "Keep the book and publication quantity in view.",
+          "start": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          },
+          "end": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S26_v01.png",
+        "sha256": "390e36925554b847c084e4c7f40706f75986e8a029b76c0eaa0ab5fd67a7636e"
+      }
+    },
+    {
+      "scene": {
+        "image": "../../../Source/Images/S27_v02.png",
+        "start_frame": 4249,
+        "end_frame": 4409,
+        "direction": "left_to_right",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.52
+          ],
+          "subject": "board-review label and manuscript terms",
+          "reason": "Hold the board label and printed terms together.",
+          "start": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          },
+          "end": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S27_v02.png",
+        "sha256": "b829410a4d07b9f24904e7da039eb341241911181e15b1ddc7c739be44511be9"
+      }
+    },
+    {
+      "scene": {
+        "image": "../../../Source/Images/S28_v01.png",
+        "start_frame": 4409,
+        "end_frame": 4579,
+        "direction": "right_to_left",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "preparation, tools and steps in the guide",
+          "reason": "Move through the three parts of the published method.",
+          "start": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          },
+          "end": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S28_v01.png",
+        "sha256": "f260beceb681858167454bcf1e837f0d9d406fc151c473342f3640c897763ea1"
+      }
+    },
+    {
+      "scene": {
+        "image": "../../../Source/Images/S29_v01.png",
+        "start_frame": 4579,
+        "end_frame": 4739,
+        "direction": "left_to_right",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.52
+          ],
+          "subject": "vessels, corks, heating and mistakes",
+          "reason": "Keep the method objects and labeled cautions together.",
+          "start": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          },
+          "end": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S29_v01.png",
+        "sha256": "57aa2b6e126537ca56b8c35035928e546d2b08e538b47912d405719bbac131a8"
+      }
+    },
+    {
+      "scene": {
+        "image": "../../../Source/Images/S30_v02.png",
+        "start_frame": 4739,
+        "end_frame": 4896,
+        "direction": "right_to_left",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.5,
+            0.52
+          ],
+          "subject": "1810 guidebook beside the food jar",
+          "reason": "End on the book as the transferable guide.",
+          "start": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          },
+          "end": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S30_v02.png",
+        "sha256": "317cb400fa46328da7034310fce3b1eaf275f6a238f1c847112d87eeb7df2280"
+      }
+    },
+    {
+      "scene": {
+        "image": "../../../Source/Images/E01_v01.png",
+        "start_frame": 4896,
+        "end_frame": 5046,
+        "direction": "left_to_right",
+        "zoom": "none",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "quiet book-and-jar end-screen reserve",
+          "reason": "Keep the open end-screen regions clear.",
+          "start": {
+            "center": [
+              0.501,
+              0.5
+            ],
+            "scale": 1.005
+          },
+          "end": {
+            "center": [
+              0.499,
+              0.5
+            ],
+            "scale": 1.005
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/E01_v01.png",
+        "sha256": "9f4f7b9d51b87b19c385383dea92b009ea896db41333525d9c0db48c0f8345c4"
+      }
+    },
+    {
+      "scene": {
+        "image": "../../../Source/Images/E02_v01.png",
+        "start_frame": 5046,
+        "end_frame": 5196,
+        "direction": "right_to_left",
+        "zoom": "none",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "sealed jar and closed book end-screen reserve",
+          "reason": "Keep the open end-screen regions clear.",
+          "start": {
+            "center": [
+              0.499,
+              0.5
+            ],
+            "scale": 1.005
+          },
+          "end": {
+            "center": [
+              0.501,
+              0.5
+            ],
+            "scale": 1.005
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/E02_v01.png",
+        "sha256": "2a34259f1cf0ac52028887c982325a935d4d4292d8c5d9026ac46a55bb774bee"
+      }
+    }
+  ],
+  "overlays": [],
+  "groups": [
+    [
+      {
+        "text": "Pastry",
+        "start": 0.08,
+        "end": 0.44
+      },
+      {
+        "text": "chef",
+        "start": 0.48,
+        "end": 0.74
+      },
+      {
+        "text": "Nicolas",
+        "start": 0.84,
+        "end": 1.22
+      },
+      {
+        "text": "Appert",
+        "start": 1.3,
+        "end": 1.68
+      }
+    ],
+    [
+      {
+        "text": "was",
+        "start": 1.84,
+        "end": 1.96
+      },
+      {
+        "text": "looking",
+        "start": 2.02,
+        "end": 2.3
+      },
+      {
+        "text": "for",
+        "start": 2.34,
+        "end": 2.48
+      },
+      {
+        "text": "a",
+        "start": 2.52,
+        "end": 2.54
+      },
+      {
+        "text": "way",
+        "start": 2.58,
+        "end": 2.76
+      }
+    ],
+    [
+      {
+        "text": "to",
+        "start": 2.8,
+        "end": 2.88
+      },
+      {
+        "text": "preserve",
+        "start": 2.94,
+        "end": 3.36
+      },
+      {
+        "text": "food",
+        "start": 3.42,
+        "end": 3.66
+      },
+      {
+        "text": "for",
+        "start": 3.7,
+        "end": 3.82
+      },
+      {
+        "text": "longer.",
+        "start": 3.88,
+        "end": 4.241
+      }
+    ],
+    [
+      {
+        "text": "In",
+        "start": 4.901,
+        "end": 4.981
+      },
+      {
+        "text": "Brest,",
+        "start": 5.041,
+        "end": 5.421
+      }
+    ],
+    [
+      {
+        "text": "food",
+        "start": 5.881,
+        "end": 6.081
+      },
+      {
+        "text": "prepared",
+        "start": 6.121,
+        "end": 6.481
+      },
+      {
+        "text": "by",
+        "start": 6.521,
+        "end": 6.661
+      },
+      {
+        "text": "his",
+        "start": 6.741,
+        "end": 6.901
+      },
+      {
+        "text": "method",
+        "start": 6.981,
+        "end": 7.281
+      }
+    ],
+    [
+      {
+        "text": "remained",
+        "start": 7.421,
+        "end": 7.781
+      },
+      {
+        "text": "in",
+        "start": 7.841,
+        "end": 7.921
+      },
+      {
+        "text": "sealed",
+        "start": 8.041,
+        "end": 8.321
+      },
+      {
+        "text": "vessels",
+        "start": 8.381,
+        "end": 8.741
+      }
+    ],
+    [
+      {
+        "text": "for",
+        "start": 8.821,
+        "end": 8.941
+      },
+      {
+        "text": "three",
+        "start": 9.061,
+        "end": 9.341
+      },
+      {
+        "text": "months",
+        "start": 9.441,
+        "end": 9.721
+      }
+    ],
+    [
+      {
+        "text": "at",
+        "start": 9.821,
+        "end": 9.881
+      },
+      {
+        "text": "the",
+        "start": 9.901,
+        "end": 10.001
+      },
+      {
+        "text": "roadstead,",
+        "start": 10.041,
+        "end": 10.521
+      }
+    ],
+    [
+      {
+        "text": "an",
+        "start": 10.861,
+        "end": 10.941
+      },
+      {
+        "text": "anchorage",
+        "start": 11.041,
+        "end": 11.421
+      },
+      {
+        "text": "near",
+        "start": 11.481,
+        "end": 11.621
+      },
+      {
+        "text": "the",
+        "start": 11.641,
+        "end": 11.701
+      },
+      {
+        "text": "port.",
+        "start": 11.761,
+        "end": 12.021
+      }
+    ],
+    [
+      {
+        "text": "When",
+        "start": 12.622,
+        "end": 12.742
+      },
+      {
+        "text": "the",
+        "start": 12.762,
+        "end": 12.842
+      },
+      {
+        "text": "Board",
+        "start": 12.882,
+        "end": 13.062
+      },
+      {
+        "text": "of",
+        "start": 13.082,
+        "end": 13.162
+      },
+      {
+        "text": "Health",
+        "start": 13.222,
+        "end": 13.422
+      }
+    ],
+    [
+      {
+        "text": "inspected",
+        "start": 13.502,
+        "end": 13.982
+      },
+      {
+        "text": "the",
+        "start": 14.002,
+        "end": 14.082
+      },
+      {
+        "text": "food,",
+        "start": 14.142,
+        "end": 14.382
+      }
+    ],
+    [
+      {
+        "text": "the",
+        "start": 14.702,
+        "end": 14.802
+      },
+      {
+        "text": "broth,",
+        "start": 14.842,
+        "end": 15.202
+      },
+      {
+        "text": "meat,",
+        "start": 15.602,
+        "end": 15.842
+      },
+      {
+        "text": "beans,",
+        "start": 16.242,
+        "end": 16.622
+      }
+    ],
+    [
+      {
+        "text": "and",
+        "start": 16.762,
+        "end": 16.862
+      },
+      {
+        "text": "green",
+        "start": 16.942,
+        "end": 17.202
+      },
+      {
+        "text": "peas",
+        "start": 17.262,
+        "end": 17.602
+      },
+      {
+        "text": "received",
+        "start": 17.802,
+        "end": 18.162
+      }
+    ],
+    [
+      {
+        "text": "a",
+        "start": 18.262,
+        "end": 18.302
+      },
+      {
+        "text": "favorable",
+        "start": 18.422,
+        "end": 18.842
+      },
+      {
+        "text": "assessment.",
+        "start": 18.902,
+        "end": 19.322
+      }
+    ],
+    [
+      {
+        "text": "For",
+        "start": 19.922,
+        "end": 20.022
+      },
+      {
+        "text": "the",
+        "start": 20.062,
+        "end": 20.142
+      },
+      {
+        "text": "early",
+        "start": 20.222,
+        "end": 20.423
+      }
+    ],
+    [
+      {
+        "text": "nineteenth",
+        "start": 20.483,
+        "end": 20.863
+      },
+      {
+        "text": "century,",
+        "start": 20.923,
+        "end": 21.323
+      }
+    ],
+    [
+      {
+        "text": "this",
+        "start": 21.663,
+        "end": 21.863
+      },
+      {
+        "text": "was",
+        "start": 22.003,
+        "end": 22.123
+      },
+      {
+        "text": "an",
+        "start": 22.163,
+        "end": 22.203
+      },
+      {
+        "text": "unusual",
+        "start": 22.263,
+        "end": 22.783
+      },
+      {
+        "text": "result.",
+        "start": 22.843,
+        "end": 23.183
+      }
+    ],
+    [
+      {
+        "text": "But",
+        "start": 23.743,
+        "end": 23.863
+      },
+      {
+        "text": "preserving",
+        "start": 23.923,
+        "end": 24.343
+      },
+      {
+        "text": "a",
+        "start": 24.383,
+        "end": 24.443
+      },
+      {
+        "text": "few",
+        "start": 24.503,
+        "end": 24.723
+      }
+    ],
+    [
+      {
+        "text": "samples",
+        "start": 24.783,
+        "end": 25.203
+      },
+      {
+        "text": "and",
+        "start": 25.343,
+        "end": 25.423
+      },
+      {
+        "text": "teaching",
+        "start": 25.463,
+        "end": 25.763
+      },
+      {
+        "text": "other",
+        "start": 25.903,
+        "end": 26.103
+      }
+    ],
+    [
+      {
+        "text": "people",
+        "start": 26.143,
+        "end": 26.403
+      },
+      {
+        "text": "to",
+        "start": 26.443,
+        "end": 26.523
+      },
+      {
+        "text": "get",
+        "start": 26.543,
+        "end": 26.663
+      },
+      {
+        "text": "the",
+        "start": 26.683,
+        "end": 26.783
+      },
+      {
+        "text": "same",
+        "start": 26.863,
+        "end": 27.083
+      },
+      {
+        "text": "result",
+        "start": 27.123,
+        "end": 27.463
+      }
+    ],
+    [
+      {
+        "text": "were",
+        "start": 27.623,
+        "end": 27.783
+      },
+      {
+        "text": "different",
+        "start": 27.863,
+        "end": 28.163
+      },
+      {
+        "text": "challenges.",
+        "start": 28.203,
+        "end": 28.684
+      }
+    ],
+    [
+      {
+        "text": "How",
+        "start": 29.284,
+        "end": 29.424
+      },
+      {
+        "text": "could",
+        "start": 29.464,
+        "end": 29.604
+      },
+      {
+        "text": "one",
+        "start": 29.784,
+        "end": 29.904
+      },
+      {
+        "text": "person",
+        "start": 29.984,
+        "end": 30.344
+      }
+    ],
+    [
+      {
+        "text": "turn",
+        "start": 30.424,
+        "end": 30.664
+      },
+      {
+        "text": "years",
+        "start": 30.764,
+        "end": 31.084
+      },
+      {
+        "text": "of",
+        "start": 31.124,
+        "end": 31.184
+      },
+      {
+        "text": "experiments",
+        "start": 31.224,
+        "end": 31.804
+      }
+    ],
+    [
+      {
+        "text": "into",
+        "start": 31.924,
+        "end": 32.144
+      },
+      {
+        "text": "a",
+        "start": 32.184,
+        "end": 32.204
+      },
+      {
+        "text": "method",
+        "start": 32.284,
+        "end": 32.564
+      },
+      {
+        "text": "others",
+        "start": 32.744,
+        "end": 32.964
+      },
+      {
+        "text": "could",
+        "start": 32.984,
+        "end": 33.144
+      },
+      {
+        "text": "use?",
+        "start": 33.244,
+        "end": 33.384
+      }
+    ],
+    [
+      {
+        "text": "At",
+        "start": 34.144,
+        "end": 34.204
+      },
+      {
+        "text": "the",
+        "start": 34.224,
+        "end": 34.324
+      },
+      {
+        "text": "time,",
+        "start": 34.364,
+        "end": 34.684
+      },
+      {
+        "text": "people",
+        "start": 35.044,
+        "end": 35.304
+      },
+      {
+        "text": "preserved",
+        "start": 35.344,
+        "end": 35.724
+      }
+    ],
+    [
+      {
+        "text": "food",
+        "start": 35.784,
+        "end": 36.024
+      },
+      {
+        "text": "mainly",
+        "start": 36.144,
+        "end": 36.464
+      },
+      {
+        "text": "with",
+        "start": 36.504,
+        "end": 36.624
+      },
+      {
+        "text": "salt,",
+        "start": 36.724,
+        "end": 37.045
+      }
+    ],
+    [
+      {
+        "text": "sugar,",
+        "start": 37.365,
+        "end": 37.665
+      },
+      {
+        "text": "and",
+        "start": 37.845,
+        "end": 37.945
+      },
+      {
+        "text": "drying.",
+        "start": 37.985,
+        "end": 38.385
+      }
+    ],
+    [
+      {
+        "text": "These",
+        "start": 39.005,
+        "end": 39.225
+      },
+      {
+        "text": "methods",
+        "start": 39.285,
+        "end": 39.585
+      },
+      {
+        "text": "extended",
+        "start": 39.665,
+        "end": 40.125
+      }
+    ],
+    [
+      {
+        "text": "shelf",
+        "start": 40.205,
+        "end": 40.465
+      },
+      {
+        "text": "life,",
+        "start": 40.505,
+        "end": 40.725
+      },
+      {
+        "text": "but",
+        "start": 40.985,
+        "end": 41.085
+      },
+      {
+        "text": "changed",
+        "start": 41.185,
+        "end": 41.505
+      }
+    ],
+    [
+      {
+        "text": "the",
+        "start": 41.545,
+        "end": 41.625
+      },
+      {
+        "text": "food’s",
+        "start": 41.685,
+        "end": 41.925
+      },
+      {
+        "text": "taste",
+        "start": 42.025,
+        "end": 42.385
+      },
+      {
+        "text": "and",
+        "start": 42.465,
+        "end": 42.545
+      },
+      {
+        "text": "qualities.",
+        "start": 42.585,
+        "end": 43.065
+      }
+    ],
+    [
+      {
+        "text": "Appert,",
+        "start": 43.705,
+        "end": 44.105
+      },
+      {
+        "text": "who",
+        "start": 44.365,
+        "end": 44.465
+      },
+      {
+        "text": "worked",
+        "start": 44.505,
+        "end": 44.705
+      }
+    ],
+    [
+      {
+        "text": "as",
+        "start": 44.745,
+        "end": 44.825
+      },
+      {
+        "text": "a",
+        "start": 44.865,
+        "end": 44.885
+      },
+      {
+        "text": "pastry",
+        "start": 44.946,
+        "end": 45.306
+      },
+      {
+        "text": "chef",
+        "start": 45.346,
+        "end": 45.606
+      },
+      {
+        "text": "and",
+        "start": 45.666,
+        "end": 45.746
+      },
+      {
+        "text": "distilled",
+        "start": 45.786,
+        "end": 46.146
+      }
+    ],
+    [
+      {
+        "text": "spirits,",
+        "start": 46.186,
+        "end": 46.566
+      },
+      {
+        "text": "looked",
+        "start": 46.946,
+        "end": 47.166
+      },
+      {
+        "text": "for",
+        "start": 47.266,
+        "end": 47.386
+      },
+      {
+        "text": "another",
+        "start": 47.446,
+        "end": 47.766
+      },
+      {
+        "text": "way.",
+        "start": 47.806,
+        "end": 47.986
+      }
+    ],
+    [
+      {
+        "text": "He",
+        "start": 48.606,
+        "end": 48.706
+      },
+      {
+        "text": "experimented",
+        "start": 48.766,
+        "end": 49.386
+      },
+      {
+        "text": "with",
+        "start": 49.426,
+        "end": 49.546
+      },
+      {
+        "text": "meat,",
+        "start": 49.666,
+        "end": 49.906
+      }
+    ],
+    [
+      {
+        "text": "broth,",
+        "start": 50.306,
+        "end": 50.666
+      },
+      {
+        "text": "milk,",
+        "start": 51.046,
+        "end": 51.306
+      }
+    ],
+    [
+      {
+        "text": "vegetables,",
+        "start": 51.686,
+        "end": 52.186
+      },
+      {
+        "text": "and",
+        "start": 52.346,
+        "end": 52.446
+      },
+      {
+        "text": "fruit.",
+        "start": 52.526,
+        "end": 52.786
+      }
+    ],
+    [
+      {
+        "text": "He",
+        "start": 53.367,
+        "end": 53.467
+      },
+      {
+        "text": "left",
+        "start": 53.527,
+        "end": 53.727
+      },
+      {
+        "text": "prepared",
+        "start": 53.787,
+        "end": 54.187
+      },
+      {
+        "text": "samples",
+        "start": 54.247,
+        "end": 54.607
+      }
+    ],
+    [
+      {
+        "text": "in",
+        "start": 54.647,
+        "end": 54.727
+      },
+      {
+        "text": "storage,",
+        "start": 54.787,
+        "end": 55.187
+      },
+      {
+        "text": "then",
+        "start": 55.527,
+        "end": 55.687
+      },
+      {
+        "text": "checked",
+        "start": 55.767,
+        "end": 56.007
+      }
+    ],
+    [
+      {
+        "text": "their",
+        "start": 56.027,
+        "end": 56.167
+      },
+      {
+        "text": "condition",
+        "start": 56.207,
+        "end": 56.587
+      },
+      {
+        "text": "later",
+        "start": 56.667,
+        "end": 56.987
+      },
+      {
+        "text": "to",
+        "start": 57.087,
+        "end": 57.167
+      },
+      {
+        "text": "find",
+        "start": 57.227,
+        "end": 57.447
+      }
+    ],
+    [
+      {
+        "text": "out",
+        "start": 57.487,
+        "end": 57.607
+      },
+      {
+        "text": "which",
+        "start": 57.707,
+        "end": 57.907
+      },
+      {
+        "text": "methods",
+        "start": 57.967,
+        "end": 58.267
+      },
+      {
+        "text": "had",
+        "start": 58.287,
+        "end": 58.387
+      },
+      {
+        "text": "worked.",
+        "start": 58.427,
+        "end": 58.667
+      }
+    ],
+    [
+      {
+        "text": "His",
+        "start": 59.307,
+        "end": 59.487
+      },
+      {
+        "text": "method",
+        "start": 59.547,
+        "end": 59.847
+      }
+    ],
+    [
+      {
+        "text": "relied",
+        "start": 59.907,
+        "end": 60.207
+      },
+      {
+        "text": "on",
+        "start": 60.267,
+        "end": 60.347
+      },
+      {
+        "text": "glass",
+        "start": 60.407,
+        "end": 60.747
+      },
+      {
+        "text": "bottles",
+        "start": 60.787,
+        "end": 61.147
+      }
+    ],
+    [
+      {
+        "text": "and",
+        "start": 61.268,
+        "end": 61.368
+      },
+      {
+        "text": "wide-mouthed",
+        "start": 61.468,
+        "end": 62.068
+      },
+      {
+        "text": "vessels.",
+        "start": 62.108,
+        "end": 62.468
+      }
+    ],
+    [
+      {
+        "text": "Appert",
+        "start": 63.168,
+        "end": 63.508
+      },
+      {
+        "text": "filled",
+        "start": 63.588,
+        "end": 63.808
+      },
+      {
+        "text": "them",
+        "start": 63.828,
+        "end": 63.928
+      },
+      {
+        "text": "with",
+        "start": 63.968,
+        "end": 64.088
+      },
+      {
+        "text": "food,",
+        "start": 64.168,
+        "end": 64.448
+      }
+    ],
+    [
+      {
+        "text": "sealed",
+        "start": 64.848,
+        "end": 65.088
+      },
+      {
+        "text": "them",
+        "start": 65.108,
+        "end": 65.208
+      },
+      {
+        "text": "with",
+        "start": 65.248,
+        "end": 65.348
+      },
+      {
+        "text": "corks,",
+        "start": 65.428,
+        "end": 65.728
+      }
+    ],
+    [
+      {
+        "text": "fastened",
+        "start": 66.168,
+        "end": 66.528
+      },
+      {
+        "text": "the",
+        "start": 66.548,
+        "end": 66.608
+      },
+      {
+        "text": "corks",
+        "start": 66.648,
+        "end": 66.888
+      },
+      {
+        "text": "with",
+        "start": 66.908,
+        "end": 67.028
+      },
+      {
+        "text": "wire,",
+        "start": 67.108,
+        "end": 67.428
+      }
+    ],
+    [
+      {
+        "text": "and",
+        "start": 67.768,
+        "end": 67.868
+      },
+      {
+        "text": "heated",
+        "start": 67.928,
+        "end": 68.228
+      },
+      {
+        "text": "the",
+        "start": 68.248,
+        "end": 68.328
+      },
+      {
+        "text": "vessels",
+        "start": 68.368,
+        "end": 68.728
+      }
+    ],
+    [
+      {
+        "text": "in",
+        "start": 68.808,
+        "end": 68.868
+      },
+      {
+        "text": "a",
+        "start": 68.908,
+        "end": 68.928
+      },
+      {
+        "text": "water",
+        "start": 68.988,
+        "end": 69.228
+      },
+      {
+        "text": "bath.",
+        "start": 69.268,
+        "end": 69.509
+      }
+    ],
+    [
+      {
+        "text": "Different",
+        "start": 70.169,
+        "end": 70.449
+      },
+      {
+        "text": "foods",
+        "start": 70.509,
+        "end": 70.789
+      }
+    ],
+    [
+      {
+        "text": "required",
+        "start": 70.849,
+        "end": 71.229
+      },
+      {
+        "text": "different",
+        "start": 71.329,
+        "end": 71.609
+      },
+      {
+        "text": "preparation",
+        "start": 71.649,
+        "end": 72.249
+      }
+    ],
+    [
+      {
+        "text": "and",
+        "start": 72.349,
+        "end": 72.429
+      },
+      {
+        "text": "heating",
+        "start": 72.489,
+        "end": 72.749
+      },
+      {
+        "text": "times.",
+        "start": 72.789,
+        "end": 73.109
+      }
+    ],
+    [
+      {
+        "text": "The",
+        "start": 73.669,
+        "end": 73.769
+      },
+      {
+        "text": "shape",
+        "start": 73.829,
+        "end": 74.029
+      },
+      {
+        "text": "of",
+        "start": 74.069,
+        "end": 74.109
+      },
+      {
+        "text": "the",
+        "start": 74.149,
+        "end": 74.229
+      },
+      {
+        "text": "neck,",
+        "start": 74.289,
+        "end": 74.509
+      }
+    ],
+    [
+      {
+        "text": "the",
+        "start": 74.849,
+        "end": 74.929
+      },
+      {
+        "text": "quality",
+        "start": 74.969,
+        "end": 75.349
+      },
+      {
+        "text": "of",
+        "start": 75.369,
+        "end": 75.429
+      },
+      {
+        "text": "the",
+        "start": 75.469,
+        "end": 75.529
+      },
+      {
+        "text": "glass,",
+        "start": 75.569,
+        "end": 75.949
+      }
+    ],
+    [
+      {
+        "text": "and",
+        "start": 76.229,
+        "end": 76.329
+      },
+      {
+        "text": "the",
+        "start": 76.349,
+        "end": 76.429
+      },
+      {
+        "text": "seal",
+        "start": 76.529,
+        "end": 76.849
+      },
+      {
+        "text": "all",
+        "start": 77.109,
+        "end": 77.269
+      },
+      {
+        "text": "mattered.",
+        "start": 77.309,
+        "end": 77.63
+      }
+    ],
+    [
+      {
+        "text": "A",
+        "start": 78.17,
+        "end": 78.21
+      },
+      {
+        "text": "bottle",
+        "start": 78.27,
+        "end": 78.57
+      },
+      {
+        "text": "could",
+        "start": 78.59,
+        "end": 78.75
+      },
+      {
+        "text": "burst",
+        "start": 78.85,
+        "end": 79.17
+      }
+    ],
+    [
+      {
+        "text": "while",
+        "start": 79.21,
+        "end": 79.37
+      },
+      {
+        "text": "heating.",
+        "start": 79.41,
+        "end": 79.69
+      }
+    ],
+    [
+      {
+        "text": "Appert",
+        "start": 80.27,
+        "end": 80.59
+      },
+      {
+        "text": "put",
+        "start": 80.65,
+        "end": 80.79
+      },
+      {
+        "text": "the",
+        "start": 80.83,
+        "end": 80.91
+      },
+      {
+        "text": "vessels",
+        "start": 80.95,
+        "end": 81.27
+      }
+    ],
+    [
+      {
+        "text": "in",
+        "start": 81.31,
+        "end": 81.39
+      },
+      {
+        "text": "cloth",
+        "start": 81.47,
+        "end": 81.77
+      },
+      {
+        "text": "bags",
+        "start": 81.81,
+        "end": 82.11
+      }
+    ],
+    [
+      {
+        "text": "to",
+        "start": 82.15,
+        "end": 82.25
+      },
+      {
+        "text": "contain",
+        "start": 82.27,
+        "end": 82.65
+      },
+      {
+        "text": "the",
+        "start": 82.67,
+        "end": 82.73
+      },
+      {
+        "text": "shards.",
+        "start": 82.79,
+        "end": 83.15
+      }
+    ],
+    [
+      {
+        "text": "Green",
+        "start": 83.85,
+        "end": 84.11
+      },
+      {
+        "text": "peas",
+        "start": 84.15,
+        "end": 84.43
+      },
+      {
+        "text": "created",
+        "start": 84.51,
+        "end": 84.87
+      }
+    ],
+    [
+      {
+        "text": "another",
+        "start": 84.97,
+        "end": 85.29
+      },
+      {
+        "text": "problem:",
+        "start": 85.33,
+        "end": 85.69
+      }
+    ],
+    [
+      {
+        "text": "peas",
+        "start": 86.251,
+        "end": 86.511
+      },
+      {
+        "text": "picked",
+        "start": 86.591,
+        "end": 86.811
+      },
+      {
+        "text": "too",
+        "start": 86.931,
+        "end": 87.131
+      },
+      {
+        "text": "young",
+        "start": 87.191,
+        "end": 87.471
+      },
+      {
+        "text": "became",
+        "start": 87.551,
+        "end": 87.851
+      }
+    ],
+    [
+      {
+        "text": "too",
+        "start": 87.951,
+        "end": 88.151
+      },
+      {
+        "text": "soft",
+        "start": 88.271,
+        "end": 88.631
+      },
+      {
+        "text": "after",
+        "start": 88.691,
+        "end": 88.891
+      },
+      {
+        "text": "processing.",
+        "start": 88.931,
+        "end": 89.451
+      }
+    ],
+    [
+      {
+        "text": "In",
+        "start": 90.091,
+        "end": 90.171
+      },
+      {
+        "text": "March",
+        "start": 90.231,
+        "end": 90.511
+      },
+      {
+        "text": "1809,",
+        "start": 90.611,
+        "end": 91.331
+      }
+    ],
+    [
+      {
+        "text": "a",
+        "start": 91.691,
+        "end": 91.731
+      },
+      {
+        "text": "committee",
+        "start": 91.771,
+        "end": 92.131
+      },
+      {
+        "text": "of",
+        "start": 92.191,
+        "end": 92.231
+      },
+      {
+        "text": "the",
+        "start": 92.271,
+        "end": 92.351
+      },
+      {
+        "text": "Society",
+        "start": 92.391,
+        "end": 92.891
+      }
+    ],
+    [
+      {
+        "text": "for",
+        "start": 92.931,
+        "end": 93.031
+      },
+      {
+        "text": "the",
+        "start": 93.071,
+        "end": 93.151
+      },
+      {
+        "text": "Encouragement",
+        "start": 93.191,
+        "end": 93.771
+      }
+    ],
+    [
+      {
+        "text": "of",
+        "start": 93.811,
+        "end": 93.892
+      },
+      {
+        "text": "National",
+        "start": 93.992,
+        "end": 94.372
+      },
+      {
+        "text": "Industry",
+        "start": 94.452,
+        "end": 94.852
+      },
+      {
+        "text": "inspected",
+        "start": 95.152,
+        "end": 95.652
+      }
+    ],
+    [
+      {
+        "text": "samples",
+        "start": 95.712,
+        "end": 96.072
+      },
+      {
+        "text": "prepared",
+        "start": 96.152,
+        "end": 96.552
+      },
+      {
+        "text": "by",
+        "start": 96.572,
+        "end": 96.692
+      },
+      {
+        "text": "Appert",
+        "start": 96.792,
+        "end": 97.112
+      }
+    ],
+    [
+      {
+        "text": "and",
+        "start": 97.452,
+        "end": 97.532
+      },
+      {
+        "text": "gave",
+        "start": 97.592,
+        "end": 97.792
+      },
+      {
+        "text": "their",
+        "start": 97.812,
+        "end": 97.952
+      },
+      {
+        "text": "condition",
+        "start": 97.972,
+        "end": 98.392
+      }
+    ],
+    [
+      {
+        "text": "a",
+        "start": 98.532,
+        "end": 98.572
+      },
+      {
+        "text": "favorable",
+        "start": 98.712,
+        "end": 99.152
+      },
+      {
+        "text": "assessment.",
+        "start": 99.192,
+        "end": 99.632
+      }
+    ],
+    [
+      {
+        "text": "Appert",
+        "start": 100.312,
+        "end": 100.612
+      },
+      {
+        "text": "reported",
+        "start": 100.652,
+        "end": 101.052
+      }
+    ],
+    [
+      {
+        "text": "that",
+        "start": 101.092,
+        "end": 101.212
+      },
+      {
+        "text": "some",
+        "start": 101.332,
+        "end": 101.532
+      },
+      {
+        "text": "foods",
+        "start": 101.612,
+        "end": 101.872
+      }
+    ],
+    [
+      {
+        "text": "had",
+        "start": 101.892,
+        "end": 101.992
+      },
+      {
+        "text": "been",
+        "start": 102.012,
+        "end": 102.133
+      },
+      {
+        "text": "prepared",
+        "start": 102.153,
+        "end": 102.533
+      }
+    ],
+    [
+      {
+        "text": "more",
+        "start": 102.593,
+        "end": 102.733
+      },
+      {
+        "text": "than",
+        "start": 102.773,
+        "end": 102.873
+      },
+      {
+        "text": "eight",
+        "start": 103.053,
+        "end": 103.213
+      },
+      {
+        "text": "months",
+        "start": 103.293,
+        "end": 103.533
+      },
+      {
+        "text": "earlier,",
+        "start": 103.653,
+        "end": 103.973
+      }
+    ],
+    [
+      {
+        "text": "and",
+        "start": 104.333,
+        "end": 104.413
+      },
+      {
+        "text": "one",
+        "start": 104.553,
+        "end": 104.673
+      },
+      {
+        "text": "sample",
+        "start": 104.733,
+        "end": 105.093
+      },
+      {
+        "text": "fifteen",
+        "start": 105.313,
+        "end": 105.833
+      },
+      {
+        "text": "months",
+        "start": 105.893,
+        "end": 106.113
+      }
+    ],
+    [
+      {
+        "text": "before",
+        "start": 106.173,
+        "end": 106.453
+      },
+      {
+        "text": "the",
+        "start": 106.493,
+        "end": 106.573
+      },
+      {
+        "text": "inspection.",
+        "start": 106.613,
+        "end": 107.113
+      }
+    ],
+    [
+      {
+        "text": "But",
+        "start": 107.653,
+        "end": 107.753
+      },
+      {
+        "text": "the",
+        "start": 107.793,
+        "end": 107.873
+      },
+      {
+        "text": "society",
+        "start": 107.913,
+        "end": 108.393
+      }
+    ],
+    [
+      {
+        "text": "had",
+        "start": 108.433,
+        "end": 108.533
+      },
+      {
+        "text": "kept",
+        "start": 108.593,
+        "end": 108.813
+      },
+      {
+        "text": "the",
+        "start": 108.833,
+        "end": 108.913
+      },
+      {
+        "text": "vessels",
+        "start": 108.953,
+        "end": 109.273
+      }
+    ],
+    [
+      {
+        "text": "for",
+        "start": 109.333,
+        "end": 109.453
+      },
+      {
+        "text": "only",
+        "start": 109.593,
+        "end": 109.793
+      },
+      {
+        "text": "about",
+        "start": 109.853,
+        "end": 110.093
+      },
+      {
+        "text": "two",
+        "start": 110.254,
+        "end": 110.434
+      },
+      {
+        "text": "months.",
+        "start": 110.514,
+        "end": 110.754
+      }
+    ],
+    [
+      {
+        "text": "The",
+        "start": 111.414,
+        "end": 111.514
+      },
+      {
+        "text": "committee",
+        "start": 111.554,
+        "end": 111.834
+      },
+      {
+        "text": "could",
+        "start": 111.874,
+        "end": 111.994
+      },
+      {
+        "text": "assess",
+        "start": 112.034,
+        "end": 112.394
+      }
+    ],
+    [
+      {
+        "text": "the",
+        "start": 112.434,
+        "end": 112.494
+      },
+      {
+        "text": "food’s",
+        "start": 112.534,
+        "end": 112.774
+      },
+      {
+        "text": "condition,",
+        "start": 112.814,
+        "end": 113.274
+      }
+    ],
+    [
+      {
+        "text": "but",
+        "start": 113.574,
+        "end": 113.694
+      },
+      {
+        "text": "had",
+        "start": 113.714,
+        "end": 113.814
+      },
+      {
+        "text": "not",
+        "start": 113.914,
+        "end": 114.094
+      },
+      {
+        "text": "observed",
+        "start": 114.134,
+        "end": 114.514
+      }
+    ],
+    [
+      {
+        "text": "the",
+        "start": 114.534,
+        "end": 114.634
+      },
+      {
+        "text": "entire",
+        "start": 114.674,
+        "end": 115.154
+      },
+      {
+        "text": "storage",
+        "start": 115.214,
+        "end": 115.574
+      },
+      {
+        "text": "period",
+        "start": 115.634,
+        "end": 115.954
+      }
+    ],
+    [
+      {
+        "text": "Appert",
+        "start": 116.074,
+        "end": 116.394
+      },
+      {
+        "text": "described.",
+        "start": 116.414,
+        "end": 116.894
+      }
+    ],
+    [
+      {
+        "text": "The",
+        "start": 117.514,
+        "end": 117.614
+      },
+      {
+        "text": "proposal",
+        "start": 117.634,
+        "end": 118.094
+      },
+      {
+        "text": "to",
+        "start": 118.134,
+        "end": 118.214
+      },
+      {
+        "text": "publish",
+        "start": 118.274,
+        "end": 118.595
+      }
+    ],
+    [
+      {
+        "text": "a",
+        "start": 118.655,
+        "end": 118.715
+      },
+      {
+        "text": "detailed",
+        "start": 118.795,
+        "end": 119.215
+      },
+      {
+        "text": "account",
+        "start": 119.255,
+        "end": 119.555
+      }
+    ],
+    [
+      {
+        "text": "of",
+        "start": 119.575,
+        "end": 119.635
+      },
+      {
+        "text": "the",
+        "start": 119.675,
+        "end": 119.755
+      },
+      {
+        "text": "method",
+        "start": 119.795,
+        "end": 120.115
+      }
+    ],
+    [
+      {
+        "text": "came",
+        "start": 120.315,
+        "end": 120.535
+      },
+      {
+        "text": "from",
+        "start": 120.575,
+        "end": 120.695
+      },
+      {
+        "text": "Appert",
+        "start": 120.795,
+        "end": 121.135
+      },
+      {
+        "text": "himself.",
+        "start": 121.195,
+        "end": 121.635
+      }
+    ],
+    [
+      {
+        "text": "On",
+        "start": 122.355,
+        "end": 122.415
+      },
+      {
+        "text": "January",
+        "start": 122.495,
+        "end": 122.955
+      },
+      {
+        "text": "30,",
+        "start": 123.095,
+        "end": 123.435
+      },
+      {
+        "text": "1810,",
+        "start": 123.655,
+        "end": 124.355
+      }
+    ],
+    [
+      {
+        "text": "France’s",
+        "start": 124.775,
+        "end": 125.175
+      },
+      {
+        "text": "minister",
+        "start": 125.235,
+        "end": 125.595
+      }
+    ],
+    [
+      {
+        "text": "of",
+        "start": 125.615,
+        "end": 125.675
+      },
+      {
+        "text": "the",
+        "start": 125.715,
+        "end": 125.795
+      },
+      {
+        "text": "interior",
+        "start": 125.835,
+        "end": 126.375
+      }
+    ],
+    [
+      {
+        "text": "sent",
+        "start": 126.475,
+        "end": 126.656
+      },
+      {
+        "text": "him",
+        "start": 126.696,
+        "end": 126.796
+      },
+      {
+        "text": "a",
+        "start": 126.816,
+        "end": 126.856
+      },
+      {
+        "text": "letter.",
+        "start": 126.896,
+        "end": 127.136
+      }
+    ],
+    [
+      {
+        "text": "It",
+        "start": 127.696,
+        "end": 127.776
+      },
+      {
+        "text": "set",
+        "start": 127.836,
+        "end": 127.996
+      },
+      {
+        "text": "out",
+        "start": 128.036,
+        "end": 128.176
+      },
+      {
+        "text": "a",
+        "start": 128.216,
+        "end": 128.256
+      },
+      {
+        "text": "reward",
+        "start": 128.316,
+        "end": 128.676
+      }
+    ],
+    [
+      {
+        "text": "of",
+        "start": 128.736,
+        "end": 128.816
+      },
+      {
+        "text": "twelve",
+        "start": 128.936,
+        "end": 129.276
+      },
+      {
+        "text": "thousand",
+        "start": 129.336,
+        "end": 129.716
+      },
+      {
+        "text": "francs",
+        "start": 129.796,
+        "end": 130.096
+      }
+    ],
+    [
+      {
+        "text": "on",
+        "start": 130.436,
+        "end": 130.476
+      },
+      {
+        "text": "the",
+        "start": 130.516,
+        "end": 130.576
+      },
+      {
+        "text": "condition",
+        "start": 130.616,
+        "end": 131.036
+      },
+      {
+        "text": "that",
+        "start": 131.056,
+        "end": 131.176
+      },
+      {
+        "text": "Appert",
+        "start": 131.276,
+        "end": 131.616
+      }
+    ],
+    [
+      {
+        "text": "prepare",
+        "start": 131.676,
+        "end": 132.156
+      },
+      {
+        "text": "and",
+        "start": 132.236,
+        "end": 132.316
+      },
+      {
+        "text": "publish",
+        "start": 132.396,
+        "end": 132.736
+      }
+    ],
+    [
+      {
+        "text": "a",
+        "start": 132.796,
+        "end": 132.836
+      },
+      {
+        "text": "description",
+        "start": 132.876,
+        "end": 133.376
+      },
+      {
+        "text": "of",
+        "start": 133.416,
+        "end": 133.456
+      },
+      {
+        "text": "his",
+        "start": 133.496,
+        "end": 133.596
+      },
+      {
+        "text": "method",
+        "start": 133.656,
+        "end": 133.916
+      }
+    ],
+    [
+      {
+        "text": "and",
+        "start": 134.256,
+        "end": 134.336
+      },
+      {
+        "text": "provide",
+        "start": 134.376,
+        "end": 134.737
+      },
+      {
+        "text": "the",
+        "start": 134.777,
+        "end": 134.857
+      },
+      {
+        "text": "ministry",
+        "start": 134.897,
+        "end": 135.297
+      }
+    ],
+    [
+      {
+        "text": "with",
+        "start": 135.357,
+        "end": 135.477
+      },
+      {
+        "text": "two",
+        "start": 135.617,
+        "end": 135.817
+      },
+      {
+        "text": "hundred",
+        "start": 135.917,
+        "end": 136.177
+      },
+      {
+        "text": "copies.",
+        "start": 136.217,
+        "end": 136.597
+      }
+    ],
+    [
+      {
+        "text": "The",
+        "start": 137.197,
+        "end": 137.297
+      },
+      {
+        "text": "description",
+        "start": 137.317,
+        "end": 137.777
+      }
+    ],
+    [
+      {
+        "text": "was",
+        "start": 137.797,
+        "end": 137.917
+      },
+      {
+        "text": "to",
+        "start": 137.957,
+        "end": 138.017
+      },
+      {
+        "text": "be",
+        "start": 138.037,
+        "end": 138.137
+      },
+      {
+        "text": "submitted",
+        "start": 138.197,
+        "end": 138.557
+      }
+    ],
+    [
+      {
+        "text": "to",
+        "start": 138.597,
+        "end": 138.677
+      },
+      {
+        "text": "the",
+        "start": 138.717,
+        "end": 138.777
+      },
+      {
+        "text": "Board",
+        "start": 138.857,
+        "end": 139.077
+      }
+    ],
+    [
+      {
+        "text": "of",
+        "start": 139.097,
+        "end": 139.157
+      },
+      {
+        "text": "Arts",
+        "start": 139.297,
+        "end": 139.497
+      },
+      {
+        "text": "and",
+        "start": 139.557,
+        "end": 139.637
+      },
+      {
+        "text": "Manufactures",
+        "start": 139.677,
+        "end": 140.397
+      }
+    ],
+    [
+      {
+        "text": "for",
+        "start": 140.437,
+        "end": 140.557
+      },
+      {
+        "text": "consideration,",
+        "start": 140.577,
+        "end": 141.277
+      },
+      {
+        "text": "and",
+        "start": 141.697,
+        "end": 141.777
+      },
+      {
+        "text": "Appert",
+        "start": 141.857,
+        "end": 142.237
+      }
+    ],
+    [
+      {
+        "text": "had",
+        "start": 142.357,
+        "end": 142.477
+      },
+      {
+        "text": "to",
+        "start": 142.517,
+        "end": 142.597
+      },
+      {
+        "text": "pay",
+        "start": 142.677,
+        "end": 142.918
+      },
+      {
+        "text": "for",
+        "start": 142.958,
+        "end": 143.078
+      },
+      {
+        "text": "printing",
+        "start": 143.138,
+        "end": 143.458
+      },
+      {
+        "text": "himself.",
+        "start": 143.478,
+        "end": 143.898
+      }
+    ],
+    [
+      {
+        "text": "Appert",
+        "start": 144.278,
+        "end": 144.598
+      },
+      {
+        "text": "described",
+        "start": 144.638,
+        "end": 145.118
+      },
+      {
+        "text": "how",
+        "start": 145.198,
+        "end": 145.338
+      }
+    ],
+    [
+      {
+        "text": "to",
+        "start": 145.378,
+        "end": 145.438
+      },
+      {
+        "text": "work",
+        "start": 145.498,
+        "end": 145.678
+      },
+      {
+        "text": "with",
+        "start": 145.718,
+        "end": 145.858
+      },
+      {
+        "text": "different",
+        "start": 145.918,
+        "end": 146.198
+      },
+      {
+        "text": "foods:",
+        "start": 146.258,
+        "end": 146.598
+      }
+    ],
+    [
+      {
+        "text": "their",
+        "start": 147.098,
+        "end": 147.238
+      },
+      {
+        "text": "preparation,",
+        "start": 147.278,
+        "end": 147.918
+      }
+    ],
+    [
+      {
+        "text": "the",
+        "start": 148.238,
+        "end": 148.338
+      },
+      {
+        "text": "tools",
+        "start": 148.378,
+        "end": 148.638
+      },
+      {
+        "text": "required,",
+        "start": 148.698,
+        "end": 149.158
+      }
+    ],
+    [
+      {
+        "text": "and",
+        "start": 149.478,
+        "end": 149.618
+      },
+      {
+        "text": "the",
+        "start": 149.658,
+        "end": 149.738
+      },
+      {
+        "text": "steps",
+        "start": 149.798,
+        "end": 150.058
+      },
+      {
+        "text": "to",
+        "start": 150.098,
+        "end": 150.178
+      },
+      {
+        "text": "follow.",
+        "start": 150.238,
+        "end": 150.578
+      }
+    ],
+    [
+      {
+        "text": "He",
+        "start": 151.239,
+        "end": 151.319
+      },
+      {
+        "text": "explained",
+        "start": 151.379,
+        "end": 151.759
+      },
+      {
+        "text": "the",
+        "start": 151.779,
+        "end": 151.859
+      },
+      {
+        "text": "vessels,",
+        "start": 151.939,
+        "end": 152.339
+      },
+      {
+        "text": "corks,",
+        "start": 152.719,
+        "end": 153.059
+      }
+    ],
+    [
+      {
+        "text": "heating",
+        "start": 153.419,
+        "end": 153.719
+      },
+      {
+        "text": "times,",
+        "start": 153.759,
+        "end": 154.079
+      },
+      {
+        "text": "and",
+        "start": 154.419,
+        "end": 154.499
+      },
+      {
+        "text": "mistakes",
+        "start": 154.539,
+        "end": 155.059
+      }
+    ],
+    [
+      {
+        "text": "that",
+        "start": 155.099,
+        "end": 155.219
+      },
+      {
+        "text": "could",
+        "start": 155.239,
+        "end": 155.359
+      },
+      {
+        "text": "affect",
+        "start": 155.399,
+        "end": 155.639
+      },
+      {
+        "text": "the",
+        "start": 155.679,
+        "end": 155.759
+      },
+      {
+        "text": "result.",
+        "start": 155.779,
+        "end": 156.999
+      }
+    ],
+    [
+      {
+        "text": "In",
+        "start": 157.119,
+        "end": 157.459
+      },
+      {
+        "text": "1810,",
+        "start": 157.519,
+        "end": 157.799
+      },
+      {
+        "text": "Appert’s",
+        "start": 158.159,
+        "end": 158.519
+      },
+      {
+        "text": "book",
+        "start": 158.579,
+        "end": 158.779
+      }
+    ],
+    [
+      {
+        "text": "appeared",
+        "start": 158.859,
+        "end": 159.179
+      },
+      {
+        "text": "in",
+        "start": 159.22,
+        "end": 159.3
+      },
+      {
+        "text": "France,",
+        "start": 159.38,
+        "end": 159.7
+      }
+    ],
+    [
+      {
+        "text": "turning",
+        "start": 160.08,
+        "end": 160.36
+      },
+      {
+        "text": "years",
+        "start": 160.46,
+        "end": 160.8
+      },
+      {
+        "text": "of",
+        "start": 160.84,
+        "end": 160.92
+      },
+      {
+        "text": "individual",
+        "start": 161.06,
+        "end": 161.6
+      }
+    ],
+    [
+      {
+        "text": "work",
+        "start": 161.66,
+        "end": 161.9
+      },
+      {
+        "text": "into",
+        "start": 162.02,
+        "end": 162.2
+      },
+      {
+        "text": "a",
+        "start": 162.26,
+        "end": 162.28
+      },
+      {
+        "text": "published",
+        "start": 162.38,
+        "end": 162.74
+      },
+      {
+        "text": "guide.",
+        "start": 162.78,
+        "end": 163.08
+      }
+    ]
+  ],
+  "resolved": {
+    "resolved_font_size_px": 84,
+    "max_visible_width_px": 1344.0,
+    "center_x_px": 1280.0,
+    "baseline": 1288,
+    "algorithm": "sentence-syntax-width-v5",
+    "display_intervals": [
+      {
+        "start_frame": 0,
+        "end_frame": 56
+      },
+      {
+        "start_frame": 56,
+        "end_frame": 84
+      },
+      {
+        "start_frame": 84,
+        "end_frame": 148
+      },
+      {
+        "start_frame": 148,
+        "end_frame": 177
+      },
+      {
+        "start_frame": 177,
+        "end_frame": 223
+      },
+      {
+        "start_frame": 223,
+        "end_frame": 265
+      },
+      {
+        "start_frame": 265,
+        "end_frame": 295
+      },
+      {
+        "start_frame": 295,
+        "end_frame": 326
+      },
+      {
+        "start_frame": 326,
+        "end_frame": 379
+      },
+      {
+        "start_frame": 379,
+        "end_frame": 406
+      },
+      {
+        "start_frame": 406,
+        "end_frame": 442
+      },
+      {
+        "start_frame": 442,
+        "end_frame": 503
+      },
+      {
+        "start_frame": 503,
+        "end_frame": 548
+      },
+      {
+        "start_frame": 548,
+        "end_frame": 598
+      },
+      {
+        "start_frame": 598,
+        "end_frame": 615
+      },
+      {
+        "start_frame": 615,
+        "end_frame": 650
+      },
+      {
+        "start_frame": 650,
+        "end_frame": 713
+      },
+      {
+        "start_frame": 713,
+        "end_frame": 744
+      },
+      {
+        "start_frame": 744,
+        "end_frame": 785
+      },
+      {
+        "start_frame": 785,
+        "end_frame": 829
+      },
+      {
+        "start_frame": 829,
+        "end_frame": 879
+      },
+      {
+        "start_frame": 879,
+        "end_frame": 913
+      },
+      {
+        "start_frame": 913,
+        "end_frame": 958
+      },
+      {
+        "start_frame": 958,
+        "end_frame": 1025
+      },
+      {
+        "start_frame": 1025,
+        "end_frame": 1074
+      },
+      {
+        "start_frame": 1074,
+        "end_frame": 1121
+      },
+      {
+        "start_frame": 1121,
+        "end_frame": 1171
+      },
+      {
+        "start_frame": 1171,
+        "end_frame": 1207
+      },
+      {
+        "start_frame": 1207,
+        "end_frame": 1247
+      },
+      {
+        "start_frame": 1247,
+        "end_frame": 1312
+      },
+      {
+        "start_frame": 1312,
+        "end_frame": 1343
+      },
+      {
+        "start_frame": 1343,
+        "end_frame": 1386
+      },
+      {
+        "start_frame": 1386,
+        "end_frame": 1459
+      },
+      {
+        "start_frame": 1459,
+        "end_frame": 1510
+      },
+      {
+        "start_frame": 1510,
+        "end_frame": 1551
+      },
+      {
+        "start_frame": 1551,
+        "end_frame": 1602
+      },
+      {
+        "start_frame": 1602,
+        "end_frame": 1640
+      },
+      {
+        "start_frame": 1640,
+        "end_frame": 1681
+      },
+      {
+        "start_frame": 1681,
+        "end_frame": 1725
+      },
+      {
+        "start_frame": 1725,
+        "end_frame": 1780
+      },
+      {
+        "start_frame": 1780,
+        "end_frame": 1798
+      },
+      {
+        "start_frame": 1798,
+        "end_frame": 1839
+      },
+      {
+        "start_frame": 1839,
+        "end_frame": 1896
+      },
+      {
+        "start_frame": 1896,
+        "end_frame": 1946
+      },
+      {
+        "start_frame": 1946,
+        "end_frame": 1986
+      },
+      {
+        "start_frame": 1986,
+        "end_frame": 2034
+      },
+      {
+        "start_frame": 2034,
+        "end_frame": 2065
+      },
+      {
+        "start_frame": 2065,
+        "end_frame": 2106
+      },
+      {
+        "start_frame": 2106,
+        "end_frame": 2126
+      },
+      {
+        "start_frame": 2126,
+        "end_frame": 2171
+      },
+      {
+        "start_frame": 2171,
+        "end_frame": 2211
+      },
+      {
+        "start_frame": 2211,
+        "end_frame": 2246
+      },
+      {
+        "start_frame": 2246,
+        "end_frame": 2287
+      },
+      {
+        "start_frame": 2287,
+        "end_frame": 2346
+      },
+      {
+        "start_frame": 2346,
+        "end_frame": 2377
+      },
+      {
+        "start_frame": 2377,
+        "end_frame": 2409
+      },
+      {
+        "start_frame": 2409,
+        "end_frame": 2440
+      },
+      {
+        "start_frame": 2440,
+        "end_frame": 2465
+      },
+      {
+        "start_frame": 2465,
+        "end_frame": 2516
+      },
+      {
+        "start_frame": 2516,
+        "end_frame": 2550
+      },
+      {
+        "start_frame": 2550,
+        "end_frame": 2588
+      },
+      {
+        "start_frame": 2588,
+        "end_frame": 2639
+      },
+      {
+        "start_frame": 2639,
+        "end_frame": 2703
+      },
+      {
+        "start_frame": 2703,
+        "end_frame": 2751
+      },
+      {
+        "start_frame": 2751,
+        "end_frame": 2788
+      },
+      {
+        "start_frame": 2788,
+        "end_frame": 2815
+      },
+      {
+        "start_frame": 2815,
+        "end_frame": 2872
+      },
+      {
+        "start_frame": 2872,
+        "end_frame": 2924
+      },
+      {
+        "start_frame": 2924,
+        "end_frame": 2956
+      },
+      {
+        "start_frame": 2956,
+        "end_frame": 3010
+      },
+      {
+        "start_frame": 3010,
+        "end_frame": 3033
+      },
+      {
+        "start_frame": 3033,
+        "end_frame": 3057
+      },
+      {
+        "start_frame": 3057,
+        "end_frame": 3078
+      },
+      {
+        "start_frame": 3078,
+        "end_frame": 3130
+      },
+      {
+        "start_frame": 3130,
+        "end_frame": 3186
+      },
+      {
+        "start_frame": 3186,
+        "end_frame": 3230
+      },
+      {
+        "start_frame": 3230,
+        "end_frame": 3253
+      },
+      {
+        "start_frame": 3253,
+        "end_frame": 3280
+      },
+      {
+        "start_frame": 3280,
+        "end_frame": 3343
+      },
+      {
+        "start_frame": 3343,
+        "end_frame": 3374
+      },
+      {
+        "start_frame": 3374,
+        "end_frame": 3408
+      },
+      {
+        "start_frame": 3408,
+        "end_frame": 3437
+      },
+      {
+        "start_frame": 3437,
+        "end_frame": 3483
+      },
+      {
+        "start_frame": 3483,
+        "end_frame": 3526
+      },
+      {
+        "start_frame": 3526,
+        "end_frame": 3560
+      },
+      {
+        "start_frame": 3560,
+        "end_frame": 3588
+      },
+      {
+        "start_frame": 3588,
+        "end_frame": 3610
+      },
+      {
+        "start_frame": 3610,
+        "end_frame": 3671
+      },
+      {
+        "start_frame": 3671,
+        "end_frame": 3744
+      },
+      {
+        "start_frame": 3744,
+        "end_frame": 3769
+      },
+      {
+        "start_frame": 3769,
+        "end_frame": 3795
+      },
+      {
+        "start_frame": 3795,
+        "end_frame": 3831
+      },
+      {
+        "start_frame": 3831,
+        "end_frame": 3863
+      },
+      {
+        "start_frame": 3863,
+        "end_frame": 3914
+      },
+      {
+        "start_frame": 3914,
+        "end_frame": 3951
+      },
+      {
+        "start_frame": 3951,
+        "end_frame": 3984
+      },
+      {
+        "start_frame": 3984,
+        "end_frame": 4028
+      },
+      {
+        "start_frame": 4028,
+        "end_frame": 4061
+      },
+      {
+        "start_frame": 4061,
+        "end_frame": 4116
+      },
+      {
+        "start_frame": 4116,
+        "end_frame": 4134
+      },
+      {
+        "start_frame": 4134,
+        "end_frame": 4158
+      },
+      {
+        "start_frame": 4158,
+        "end_frame": 4173
+      },
+      {
+        "start_frame": 4173,
+        "end_frame": 4214
+      },
+      {
+        "start_frame": 4214,
+        "end_frame": 4271
+      },
+      {
+        "start_frame": 4271,
+        "end_frame": 4329
+      },
+      {
+        "start_frame": 4329,
+        "end_frame": 4362
+      },
+      {
+        "start_frame": 4362,
+        "end_frame": 4413
+      },
+      {
+        "start_frame": 4413,
+        "end_frame": 4448
+      },
+      {
+        "start_frame": 4448,
+        "end_frame": 4485
+      },
+      {
+        "start_frame": 4485,
+        "end_frame": 4538
+      },
+      {
+        "start_frame": 4538,
+        "end_frame": 4603
+      },
+      {
+        "start_frame": 4603,
+        "end_frame": 4653
+      },
+      {
+        "start_frame": 4653,
+        "end_frame": 4714
+      },
+      {
+        "start_frame": 4714,
+        "end_frame": 4766
+      },
+      {
+        "start_frame": 4766,
+        "end_frame": 4803
+      },
+      {
+        "start_frame": 4803,
+        "end_frame": 4850
+      },
+      {
+        "start_frame": 4850,
+        "end_frame": 4896
+      }
+    ],
+    "boundary_warnings": [
+      {
+        "after_group": 0,
+        "left": "Pastry chef Nicolas Appert",
+        "right": "was looking for a way",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 5,
+        "left": "remained in sealed vessels",
+        "right": "for three months",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 19,
+        "left": "people to get the same result",
+        "right": "were different challenges.",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 30,
+        "left": "Appert, who worked",
+        "right": "as a pastry chef and distilled",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 64,
+        "left": "a committee of the Society",
+        "right": "for the Encouragement",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 65,
+        "left": "for the Encouragement",
+        "right": "of National Industry inspected",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 70,
+        "left": "Appert reported",
+        "right": "that some foods",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 71,
+        "left": "that some foods",
+        "right": "had been prepared",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 76,
+        "left": "But the society",
+        "right": "had kept the vessels",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 77,
+        "left": "had kept the vessels",
+        "right": "for only about two months.",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 85,
+        "left": "a detailed account",
+        "right": "of the method",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 89,
+        "left": "France’s minister",
+        "right": "of the interior",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 92,
+        "left": "It set out a reward",
+        "right": "of twelve thousand francs",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 97,
+        "left": "and provide the ministry",
+        "right": "with two hundred copies.",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 99,
+        "left": "The description",
+        "right": "was to be submitted",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 101,
+        "left": "to the Board",
+        "right": "of Arts and Manufactures",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 102,
+        "left": "of Arts and Manufactures",
+        "right": "for consideration, and Appert",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 103,
+        "left": "for consideration, and Appert",
+        "right": "had to pay for printing himself.",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 111,
+        "left": "heating times, and mistakes",
+        "right": "that could affect the result.",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      }
+    ]
+  }
+}

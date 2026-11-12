@@ -1,0 +1,43 @@
+{
+  "episode": "036_daylight_saving_time",
+  "channel": "Nuviko History",
+  "language": "en",
+  "status": "GENERATED",
+  "tool": "automation/elevenlabs/tts.py",
+  "provider": "ElevenLabs timestamped TTS",
+  "voice_id": "5vsgZsi667xMyGinrNIM",
+  "model": "eleven_v4",
+  "format_request": "mp3_44100_128",
+  "voice_settings": {
+    "stability": 1.0,
+    "similarity_boost": 0.0,
+    "speed": 1.05
+  },
+  "text_path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/036_daylight_saving_time/Source/Scripts/narration_en_tts_v01.txt",
+  "text_sha256": "65fc91e45d03d94c5057bebdecc88d7dc40f65e76e9c36549805d4fd7c555e5b",
+  "audio_path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/036_daylight_saving_time/Source/Voice/voice_en.mp3",
+  "audio_sha256": "a26303ba34670ef4906ad61cd91425da9243d1a1bdf5e512d8d18c662a352e32",
+  "alignment_path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/036_daylight_saving_time/Source/Voice/voice_en.alignment.json",
+  "alignment_sha256": "f5ba164c2bd1db12242826a81005579473c17a10448547440c1a22ae48c8290b",
+  "actual_media": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "mp3",
+        "sample_rate": "44100",
+        "channels": 1,
+        "bit_rate": "128000"
+      }
+    ],
+    "format": {
+      "duration": "69.680000"
+    }
+  },
+  "retries": 0,
+  "notes": [
+    "No voice wording change after accepted English adaptation.",
+    "Voice speed was applied once by ElevenLabs; no timeline speed effect.",
+    "The generated MP3 is mono at 44.1 kHz and 128 kbps."
+  ]
+}

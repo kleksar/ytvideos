@@ -1,0 +1,50 @@
+{
+  "version": 2,
+  "checked_at": "2026-11-02",
+  "project_id": "36606F55",
+  "project_name": "Paper Detour 037 Cost of Living v01",
+  "package_path": "/Users/diplomat/Documents/Palmier Pro/Paper Detour 037 Cost of Living v01.palmier",
+  "timeline_id": "551C6D1D-681E-405F-8CB4-0DE63F3413EE",
+  "timeline_name": "Timeline 1",
+  "timeline_last_live_check": "empty at 2560x1440/30fps before this media-only import; import added no clips",
+  "library_folder": "Scenes_v03",
+  "storyboard": "Storyboard/storyboard_v04.md",
+  "selected_scene_count": 73,
+  "package_media_entry_count": 77,
+  "selected_storyboard_files_all_present_and_imported": true,
+  "four_additional_motion_safe_versions": [
+    {
+      "scene": "S05",
+      "name": "S05_v03.png",
+      "media_id": "AC63090B-5975-47F8-977F-60030989D19E",
+      "source": "Source/Images/paper_v01/S05_v03.png"
+    },
+    {
+      "scene": "S45",
+      "name": "S45_v06.png",
+      "media_id": "BBF7511F-6D71-4A11-9D84-79B9E9B1215F",
+      "source": "Source/Images/paper_v01/S45_v06.png"
+    },
+    {
+      "scene": "S60",
+      "name": "S60_v04.png",
+      "media_id": "8CA4FBB0-6F48-496C-813B-B6B397C69DAE",
+      "source": "Source/Images/paper_v01/S60_v04.png"
+    },
+    {
+      "scene": "S65",
+      "name": "S65_v04.png",
+      "media_id": "F39EAB58-4E8E-443C-A405-6376A384D696",
+      "source": "Source/Images/paper_v01/S65_v04.png"
+    }
+  ],
+  "verification_basis": [
+    "read-only Palmier package media.json inventory and exact absolute external source paths",
+    "selected image filenames parsed from storyboard v04 and matched against both existing source files and Palmier external references",
+    "all 73 selected scene mappings present; package has 77 media entries because the four new variants coexist with prior imports"
+  ],
+  "limitations": [
+    "Palmier UI accessibility timed out after import; final live timeline readback was unavailable",
+    "no timeline clips, animation, parallax, render or export were written as part of this import"
+  ]
+}

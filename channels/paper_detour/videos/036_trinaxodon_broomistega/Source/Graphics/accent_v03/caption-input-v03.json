@@ -1,0 +1,432 @@
+{
+  "version": 1,
+  "canvas": [
+    1080,
+    1920
+  ],
+  "face_height_px": 85,
+  "min_face_height_px": 85,
+  "anchors": {
+    "primary": {
+      "center": [
+        0.5,
+        0.16
+      ],
+      "max_width_px": 900,
+      "max_height_px": 460
+    }
+  },
+  "scenes": [
+    {
+      "id": "S01",
+      "path": "../../Images/montage_1080x1920_v02/S01.png"
+    },
+    {
+      "id": "S01_DETAIL",
+      "path": "../../Images/montage_1080x1920_v03/S01_Close_v03.png"
+    },
+    {
+      "id": "S03",
+      "path": "../../Images/montage_1080x1920_v02/S03.png"
+    },
+    {
+      "id": "S04",
+      "path": "../../Images/montage_1080x1920_v02/S04.png"
+    },
+    {
+      "id": "S06",
+      "path": "../../Images/montage_1080x1920_v02/S06.png"
+    },
+    {
+      "id": "S07",
+      "path": "../../Images/montage_1080x1920_v02/S07.png"
+    },
+    {
+      "id": "S09",
+      "path": "../../Images/montage_1080x1920_v02/S09.png"
+    },
+    {
+      "id": "S10",
+      "path": "../../Images/montage_1080x1920_v02/S10.png"
+    },
+    {
+      "id": "S11",
+      "path": "../../Images/montage_1080x1920_v02/S11.png"
+    },
+    {
+      "id": "S12",
+      "path": "../../Images/montage_1080x1920_v02/S12.png"
+    }
+  ],
+  "cues": [
+    {
+      "id": "C01",
+      "lines": [
+        "PREDATOR. STRANGER."
+      ],
+      "backend": {
+        "type": "existingPNG",
+        "path": "source_pngs_v03/cues/C01.png",
+        "face": {
+          "mode": "creamOrange",
+          "line_boxes": [
+            [
+              0,
+              0,
+              2096,
+              288
+            ]
+          ]
+        },
+        "reference": "../../../../001_radio_game/Source/Images/accent_typography_v2/MATCH.png",
+        "status": "AI-generated exact-text Paper accent (existing v02 asset for C02/C05/C06), visual candidate pending full pair preflight"
+      },
+      "provenance": {
+        "author": "OpenAI imagegen; scene-independent caption accent, user-authorized revision",
+        "record": "GENERATION_LOG_v03.md"
+      },
+      "timing": {
+        "status": "PRELIMINARY",
+        "note": "voice_en.alignment.json, 30fps, frames 8\u201363, spoken beat predator \u2192 amphibian; no listening playback QA"
+      }
+    },
+    {
+      "id": "C02",
+      "lines": [
+        "250 MILLION YEARS"
+      ],
+      "backend": {
+        "type": "existingPNG",
+        "path": "source_pngs_v03/cues/C02.png",
+        "face": {
+          "mode": "creamOrange",
+          "line_boxes": [
+            [
+              0,
+              0,
+              632,
+              169
+            ]
+          ]
+        },
+        "reference": "../../../../001_radio_game/Source/Images/accent_typography_v2/MATCH.png",
+        "status": "AI-generated exact-text Paper accent (existing v02 asset for C02/C05/C06), visual candidate pending full pair preflight"
+      },
+      "provenance": {
+        "author": "OpenAI imagegen; scene-independent caption accent, user-authorized revision",
+        "record": "GENERATION_LOG_v03.md"
+      },
+      "timing": {
+        "status": "PRELIMINARY",
+        "note": "voice_en.alignment.json, 30fps, frames 139\u2013218, spoken beat 250 \u2192 years; no listening playback QA"
+      }
+    },
+    {
+      "id": "C03",
+      "lines": [
+        "DEADLY ABOVE"
+      ],
+      "backend": {
+        "type": "existingPNG",
+        "path": "source_pngs_v03/cues/C03.png",
+        "face": {
+          "mode": "creamOrange",
+          "line_boxes": [
+            [
+              0,
+              0,
+              2105,
+              704
+            ]
+          ]
+        },
+        "reference": "../../../../001_radio_game/Source/Images/accent_typography_v2/MATCH.png",
+        "status": "AI-generated exact-text Paper accent (existing v02 asset for C02/C05/C06), visual candidate pending full pair preflight"
+      },
+      "provenance": {
+        "author": "OpenAI imagegen; scene-independent caption accent, user-authorized revision",
+        "record": "GENERATION_LOG_v03.md"
+      },
+      "timing": {
+        "status": "PRELIMINARY",
+        "note": "voice_en.alignment.json, 30fps, frames 271\u2013307, spoken beat drought \u2192 southern; no listening playback QA"
+      }
+    },
+    {
+      "id": "C04",
+      "lines": [
+        "COOLER BELOW"
+      ],
+      "backend": {
+        "type": "existingPNG",
+        "path": "source_pngs_v03/cues/C04.png",
+        "face": {
+          "mode": "creamOrange",
+          "line_boxes": [
+            [
+              0,
+              0,
+              2065,
+              694
+            ]
+          ]
+        },
+        "reference": "../../../../001_radio_game/Source/Images/accent_typography_v2/MATCH.png",
+        "status": "AI-generated exact-text Paper accent (existing v02 asset for C02/C05/C06), visual candidate pending full pair preflight"
+      },
+      "provenance": {
+        "author": "OpenAI imagegen; scene-independent caption accent, user-authorized revision",
+        "record": "GENERATION_LOG_v03.md"
+      },
+      "timing": {
+        "status": "PRELIMINARY",
+        "note": "voice_en.alignment.json, 30fps, frames 437\u2013485, spoken beat retreated \u2192 fell; no listening playback QA"
+      }
+    },
+    {
+      "id": "C05",
+      "lines": [
+        "SEVEN BROKEN RIBS"
+      ],
+      "backend": {
+        "type": "existingPNG",
+        "path": "source_pngs_v03/cues/C05.png",
+        "face": {
+          "mode": "creamOrange",
+          "line_boxes": [
+            [
+              0,
+              0,
+              660,
+              150
+            ]
+          ]
+        },
+        "reference": "../../../../001_radio_game/Source/Images/accent_typography_v2/MATCH.png",
+        "status": "AI-generated exact-text Paper accent (existing v02 asset for C02/C05/C06), visual candidate pending full pair preflight"
+      },
+      "provenance": {
+        "author": "OpenAI imagegen; scene-independent caption accent, user-authorized revision",
+        "record": "GENERATION_LOG_v03.md"
+      },
+      "timing": {
+        "status": "PRELIMINARY",
+        "note": "voice_en.alignment.json, 30fps, frames 637\u2013689, spoken beat broken \u2192 ribs; no listening playback QA"
+      }
+    },
+    {
+      "id": "C06",
+      "lines": [
+        "ALREADY OCCUPIED"
+      ],
+      "backend": {
+        "type": "existingPNG",
+        "path": "source_pngs_v03/cues/C06.png",
+        "face": {
+          "mode": "creamOrange",
+          "line_boxes": [
+            [
+              0,
+              0,
+              552,
+              183
+            ]
+          ]
+        },
+        "reference": "../../../../001_radio_game/Source/Images/accent_typography_v2/MATCH.png",
+        "status": "AI-generated exact-text Paper accent (existing v02 asset for C02/C05/C06), visual candidate pending full pair preflight"
+      },
+      "provenance": {
+        "author": "OpenAI imagegen; scene-independent caption accent, user-authorized revision",
+        "record": "GENERATION_LOG_v03.md"
+      },
+      "timing": {
+        "status": "PRELIMINARY",
+        "note": "voice_en.alignment.json, 30fps, frames 734\u2013809, spoken beat burrow \u2192 predator; no listening playback QA"
+      }
+    },
+    {
+      "id": "C07",
+      "lines": [
+        "ONE ASLEEP",
+        "ONE INJURED"
+      ],
+      "backend": {
+        "type": "existingPNG",
+        "path": "source_pngs_v03/cues/C07.png",
+        "face": {
+          "mode": "creamOrange",
+          "line_boxes": [
+            [
+              143,
+              234,
+              1508,
+              495
+            ],
+            [
+              59,
+              508,
+              1551,
+              764
+            ]
+          ]
+        },
+        "reference": "../../../../001_radio_game/Source/Images/accent_typography_v2/MATCH.png",
+        "status": "AI-generated exact-text Paper accent (existing v02 asset for C02/C05/C06), visual candidate pending full pair preflight"
+      },
+      "provenance": {
+        "author": "OpenAI imagegen; scene-independent caption accent, user-authorized revision",
+        "record": "GENERATION_LOG_v03.md"
+      },
+      "timing": {
+        "status": "PRELIMINARY",
+        "note": "voice_en.alignment.json, 30fps, frames 818\u2013893, spoken beat owner \u2192 him; no listening playback QA"
+      }
+    },
+    {
+      "id": "C08",
+      "lines": [
+        "SAFE NO MORE"
+      ],
+      "backend": {
+        "type": "existingPNG",
+        "path": "source_pngs_v03/cues/C08.png",
+        "face": {
+          "mode": "creamOrange",
+          "line_boxes": [
+            [
+              0,
+              0,
+              2034,
+              739
+            ]
+          ]
+        },
+        "reference": "../../../../001_radio_game/Source/Images/accent_typography_v2/MATCH.png",
+        "status": "AI-generated exact-text Paper accent (existing v02 asset for C02/C05/C06), visual candidate pending full pair preflight"
+      },
+      "provenance": {
+        "author": "OpenAI imagegen; scene-independent caption accent, user-authorized revision",
+        "record": "GENERATION_LOG_v03.md"
+      },
+      "timing": {
+        "status": "PRELIMINARY",
+        "note": "voice_en.alignment.json, 30fps, frames 938\u2013986, spoken beat flood \u2192 land; no listening playback QA"
+      }
+    },
+    {
+      "id": "C09",
+      "lines": [
+        "SEALED IN MUD"
+      ],
+      "backend": {
+        "type": "existingPNG",
+        "path": "source_pngs_v03/cues/C09.png",
+        "face": {
+          "mode": "creamOrange",
+          "line_boxes": [
+            [
+              0,
+              0,
+              1956,
+              684
+            ]
+          ]
+        },
+        "reference": "../../../../001_radio_game/Source/Images/accent_typography_v2/MATCH.png",
+        "status": "AI-generated exact-text Paper accent (existing v02 asset for C02/C05/C06), visual candidate pending full pair preflight"
+      },
+      "provenance": {
+        "author": "OpenAI imagegen; scene-independent caption accent, user-authorized revision",
+        "record": "GENERATION_LOG_v03.md"
+      },
+      "timing": {
+        "status": "PRELIMINARY",
+        "note": "voice_en.alignment.json, 30fps, frames 991\u20131063, spoken beat filling \u2192 them; no listening playback QA"
+      }
+    },
+    {
+      "id": "C10",
+      "lines": [
+        "PAIR PRESERVED"
+      ],
+      "backend": {
+        "type": "existingPNG",
+        "path": "source_pngs_v03/cues/C10.png",
+        "face": {
+          "mode": "creamOrange",
+          "line_boxes": [
+            [
+              0,
+              0,
+              1999,
+              661
+            ]
+          ]
+        },
+        "reference": "../../../../001_radio_game/Source/Images/accent_typography_v2/MATCH.png",
+        "status": "AI-generated exact-text Paper accent (existing v02 asset for C02/C05/C06), visual candidate pending full pair preflight"
+      },
+      "provenance": {
+        "author": "OpenAI imagegen; scene-independent caption accent, user-authorized revision",
+        "record": "GENERATION_LOG_v03.md"
+      },
+      "timing": {
+        "status": "PRELIMINARY",
+        "note": "voice_en.alignment.json, 30fps, frames 1306\u20131356, spoken beat found \u2192 pair; no listening playback QA"
+      }
+    }
+  ],
+  "pairs": [
+    {
+      "scene": "S01",
+      "cue": "C01",
+      "anchor": "primary"
+    },
+    {
+      "scene": "S01_DETAIL",
+      "cue": "C02",
+      "anchor": "primary"
+    },
+    {
+      "scene": "S03",
+      "cue": "C03",
+      "anchor": "primary"
+    },
+    {
+      "scene": "S04",
+      "cue": "C04",
+      "anchor": "primary"
+    },
+    {
+      "scene": "S06",
+      "cue": "C05",
+      "anchor": "primary"
+    },
+    {
+      "scene": "S07",
+      "cue": "C06",
+      "anchor": "primary"
+    },
+    {
+      "scene": "S09",
+      "cue": "C07",
+      "anchor": "primary"
+    },
+    {
+      "scene": "S10",
+      "cue": "C08",
+      "anchor": "primary"
+    },
+    {
+      "scene": "S11",
+      "cue": "C09",
+      "anchor": "primary"
+    },
+    {
+      "scene": "S12",
+      "cue": "C10",
+      "anchor": "primary"
+    }
+  ]
+}

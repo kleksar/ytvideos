@@ -1,0 +1,158 @@
+{
+  "input": "/Users/diplomat/ytvideos/Shared/Image_Motion/Cache/video/1703bc90f37356874c55c44e3d8577a99ecab3a3670798b116ff82a75682127b.mp4",
+  "output": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Work/image-motion-948de00cd7dfa621939e/scratch/bbd98492eada57cca836e9a18425d50ece1082a98e7876484080eb3d22af3d44.finished.partial.mp4",
+  "frames": 120,
+  "visible_frames": 118,
+  "grain": {
+    "id": "g08",
+    "name": "Short Persistence",
+    "version": 1,
+    "rms_y_codes": 3.0,
+    "sigma_reference_px": 0.77,
+    "reference_short_side": 1440,
+    "update_hz": 30,
+    "rho": 0.35,
+    "mask_y": [
+      20,
+      64,
+      208,
+      235
+    ],
+    "range_y": [
+      16,
+      235
+    ],
+    "chroma": false,
+    "seed": 20261102
+  },
+  "sigma_output_px": 0.77,
+  "seed": 836676324860672212,
+  "camera": {
+    "position": [
+      [
+        0,
+        -0.02375000000000005,
+        -0.02375000000000005,
+        "linear"
+      ],
+      [
+        117,
+        -0.04625000000000001,
+        -0.04625000000000001
+      ]
+    ],
+    "scale": [
+      [
+        0,
+        1.0475,
+        1.0475,
+        "linear"
+      ],
+      [
+        117,
+        1.0925,
+        1.0925
+      ]
+    ]
+  },
+  "metrics": [
+    {
+      "frame": 0,
+      "camera": [
+        -0.02375000000000005,
+        -0.02375000000000005,
+        1.0475,
+        1.0475
+      ],
+      "applied_rms": 2.649343967437744,
+      "noise_hash": "e2cb99876b5b2e5d705f1e278b446fb1343a08644e548829bbf8fd2b715f9f98"
+    },
+    {
+      "frame": 59,
+      "camera": [
+        -0.035096153846153874,
+        -0.035096153846153874,
+        1.0701923076923077,
+        1.0701923076923077
+      ],
+      "applied_rms": 2.6641852855682373,
+      "noise_hash": "9fc8616a42d43ebef6b10ef4a550117a90c9eedc49b728ce2659307a756876b9"
+    },
+    {
+      "frame": 117,
+      "camera": [
+        -0.04625000000000001,
+        -0.04625000000000001,
+        1.0925,
+        1.0925
+      ],
+      "applied_rms": 2.662388563156128,
+      "noise_hash": "1ec6a0520b5c18eeb279c24e62ce7b7147a614baa2a6315923b38685443a75c0"
+    }
+  ],
+  "decode": [
+    "ffmpeg",
+    "-v",
+    "error",
+    "-i",
+    "/Users/diplomat/ytvideos/Shared/Image_Motion/Cache/video/1703bc90f37356874c55c44e3d8577a99ecab3a3670798b116ff82a75682127b.mp4",
+    "-an",
+    "-vf",
+    "colorspace=iall=bt601-6-625:iprimaries=bt709:itrc=srgb:irange=tv:all=bt709:range=tv:format=yuv420p,setsar=1",
+    "-frames:v",
+    "118",
+    "-f",
+    "rawvideo",
+    "-pix_fmt",
+    "yuv420p",
+    "pipe:1"
+  ],
+  "encode": [
+    "ffmpeg",
+    "-y",
+    "-v",
+    "error",
+    "-f",
+    "rawvideo",
+    "-pix_fmt",
+    "yuv420p",
+    "-video_size",
+    "1440x2560",
+    "-framerate",
+    "30",
+    "-i",
+    "pipe:0",
+    "-an",
+    "-vf",
+    "setsar=1,setparams=range=limited:color_primaries=bt709:color_trc=bt709:colorspace=bt709",
+    "-c:v",
+    "libx264",
+    "-crf",
+    "16",
+    "-preset",
+    "fast",
+    "-tune",
+    "grain",
+    "-pix_fmt",
+    "yuv420p",
+    "-color_primaries",
+    "bt709",
+    "-color_trc",
+    "bt709",
+    "-colorspace",
+    "bt709",
+    "-color_range",
+    "tv",
+    "-movflags",
+    "+faststart+negative_cts_offsets",
+    "-use_editlist",
+    "0",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Work/image-motion-948de00cd7dfa621939e/scratch/bbd98492eada57cca836e9a18425d50ece1082a98e7876484080eb3d22af3d44.finished.partial.mp4"
+  ],
+  "order": [
+    "parallax",
+    "camera",
+    "grain"
+  ],
+  "colour": "BT709 limited YUV420p; chroma has no added noise"
+}

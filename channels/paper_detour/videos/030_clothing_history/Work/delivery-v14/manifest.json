@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "run": "delivery-v14",
+  "owner": "codex-030-v14",
+  "status": "complete",
+  "created_utc": "2026-11-02T05:19:47.495937+00:00",
+  "entries": [
+    {
+      "path": "Work/delivery-v14/scratch/native-v14.mp4",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 124899799,
+        "bytes": 375418839,
+        "mtime_ns": 1793597069513845165,
+        "ctime_ns": 1793597069532489470,
+        "nlink": 1,
+        "allocated_bytes": 386019328
+      },
+      "sha256": "7151281cdac1f0b20c1cc9eaa3cef51b19fc8108c65619d1bad72271b25cdbed",
+      "rebuild_from": [
+        {
+          "path": "Work/delivery-v14/previews/PAPER_DETOUR_030_CLOTHING_HISTORY_EN_v14.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 124900517,
+            "bytes": 375821622,
+            "mtime_ns": 1793597107365797998,
+            "ctime_ns": 1793597107365797998,
+            "nlink": 1,
+            "allocated_bytes": 375824384
+          },
+          "sha256": "f038c0188cae809971ffd259cde0a064370dce87e61e53ce303811b14b4a470a"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/v14/QA/DELIVERY_TECHNICAL.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 124901147,
+            "bytes": 2185,
+            "mtime_ns": 1793597317180684609,
+            "ctime_ns": 1793597317180684609,
+            "nlink": 1,
+            "allocated_bytes": 4096
+          },
+          "sha256": "b6f5f0c8462cfd798eecf8575380e9b311340410258a101323cb902d3d7b300f"
+        }
+      ],
+      "disposition": "pending",
+      "removed_utc": "2026-11-02T05:40:28.532586+00:00"
+    }
+  ],
+  "writer_finished_utc": "2026-11-02T05:36:39.199887+00:00"
+}

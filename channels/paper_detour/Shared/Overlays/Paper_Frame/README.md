@@ -1,3 +1,7 @@
+# Paper Frame — архивный ресурс v03
+
+Внешняя декоративная рамка выведена из применения для новых выпусков. Ниже — сохранённое описание ресурса для уже принятых версий; автоматически их не менять.
+
 # Paper Frame — approved v03
 
 The approved thin animated frame applies to future Paper Detour films (16:9) and Shorts (9:16). It uses a 0.67 × 0.67 = 0.4489 normal-width factor along the straight sides, with smoothly blended corners, preserving the three original layers and the 16, 8 and 16/3 second movement periods. It is a separate straight-alpha overlay, not part of a generated scene. The user approved the second thinner preview on 2026-11-05.

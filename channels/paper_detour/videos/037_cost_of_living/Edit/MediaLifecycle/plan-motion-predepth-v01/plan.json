@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "kind": "plan",
+  "created_utc": "2026-11-02T06:09:52.721671+00:00",
+  "audit": "/Users/diplomat/ytvideos/channels/paper_detour/videos/037_cost_of_living/Edit/MediaLifecycle/audit-motion-predepth-v01/audit.json",
+  "audit_sha256": "186bdb68b0f76781072dff8faad24a151496fd6115967b8f5e6a4b789328e96c",
+  "episode": "/Users/diplomat/ytvideos/channels/paper_detour/videos/037_cost_of_living",
+  "executable": false,
+  "deletion_implemented": false,
+  "stale_inputs": [
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/036_trinaxodon_broomistega/Edit/Paper Detour 036 Thrinaxodon Broomistega v01.palmier/media.json",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/036_trinaxodon_broomistega/Edit/Paper Detour 036 Thrinaxodon Broomistega v01.palmier/project.json",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/036_trinaxodon_broomistega/Edit/Paper Detour 036 Thrinaxodon Broomistega v01.palmier/snapshots/0E0E25C6.json",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/036_trinaxodon_broomistega/Edit/Paper Detour 036 Thrinaxodon Broomistega v01.palmier/snapshots/1F179266.json",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/036_trinaxodon_broomistega/Edit/Paper Detour 036 Thrinaxodon Broomistega v01.palmier/snapshots/37C9AE27.json",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/036_trinaxodon_broomistega/Edit/Paper Detour 036 Thrinaxodon Broomistega v01.palmier/snapshots/3C6CC04F.json",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/036_trinaxodon_broomistega/Edit/Paper Detour 036 Thrinaxodon Broomistega v01.palmier/snapshots/7209D702.json",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/036_trinaxodon_broomistega/Edit/Paper Detour 036 Thrinaxodon Broomistega v01.palmier/snapshots/894A331D.json",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/036_trinaxodon_broomistega/Edit/Paper Detour 036 Thrinaxodon Broomistega v01.palmier/snapshots/906AFE91.json",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/036_trinaxodon_broomistega/Edit/Paper Detour 036 Thrinaxodon Broomistega v01.palmier/snapshots/95883EDD.json",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/036_trinaxodon_broomistega/Edit/Paper Detour 036 Thrinaxodon Broomistega v01.palmier/snapshots/C147EEA6.json",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/036_trinaxodon_broomistega/Edit/Paper Detour 036 Thrinaxodon Broomistega v01.palmier/snapshots/C7EE0335.json",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/036_trinaxodon_broomistega/Edit/Paper Detour 036 Thrinaxodon Broomistega v01.palmier/snapshots/CAA601B3.json",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/036_trinaxodon_broomistega/Edit/Paper Detour 036 Thrinaxodon Broomistega v01.palmier/snapshots/D0A1CB6D.json"
+  ],
+  "entries": [],
+  "review_candidate_logical_bytes": 0,
+  "blocked_logical_bytes": 0,
+  "physical_reclaimable_bytes": null,
+  "missing_declared_candidates": [],
+  "limitations": [
+    "No deletion implementation or permission. No writer absence proof.",
+    "All found imports protected, including retained timelines; unlisted/inaccessible projects and external consumers remain unknown.",
+    "Text scan is heuristic and cannot prove absence of dependencies. Source hashes/QA are evidence, not user acceptance.",
+    "APFS CoW and snapshots prevent inferring physical reclaim from logical or allocated sums."
+  ],
+  "errors": []
+}

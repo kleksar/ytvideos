@@ -1,0 +1,149 @@
+{
+  "title": "Super-Funk",
+  "source": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/super-funk-muzso.m4a",
+  "source_sha256": "e303c7a6504cb76d539c4766e0b4783c544d3aacd02f2503c1d3a8466f7f25fd",
+  "offset": 2.7,
+  "frames": 420,
+  "fps": 30,
+  "size": [
+    1080,
+    1920
+  ],
+  "transition_centres": [
+    45,
+    101,
+    156,
+    211,
+    252,
+    322,
+    363
+  ],
+  "transition_seconds": 0.26666666666666666,
+  "transition_types": [
+    "smoothleft",
+    "radial",
+    "smoothup",
+    "circleopen",
+    "smoothright",
+    "fadefast"
+  ],
+  "clips": [
+    {
+      "path": "/Users/diplomat/ytvideos/Work/satisfying-runaway-pilot/Source/11142097.mp4",
+      "source_in": 2,
+      "sha256": "046e456cbfd6edda975dbae4fe272a619e1fdc65ac751f92bb52cc5604c65980",
+      "pre_crop": ""
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/Work/nuviko-videos-short-batch-20261110/new-footage/7366444.mp4",
+      "source_in": 1,
+      "sha256": "87fa3aa9c1bd8332a4e52b1e757f76f7edd468f3411d9e7a814449366326ef56",
+      "pre_crop": ""
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/Work/satisfying-runaway-pilot/Source/6316369.mp4",
+      "source_in": 2,
+      "sha256": "d60d4522fb27ab49cfa0c93f4edeeb0e74f9e91d3b626cd265fe9a81f468c46c",
+      "pre_crop": ""
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/Work/nuviko-videos-short-batch-20261110/new-footage/5619693.mp4",
+      "source_in": 1,
+      "sha256": "315e6445fe126e840b0e06f9bd31975c73e840ddf6e55a3d3497673bfdef773c",
+      "pre_crop": ""
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/Work/satisfying-runaway-pilot/Source/13037145.mp4",
+      "source_in": 2,
+      "sha256": "55258d88a711ea1af574668c1d0f29d6624114f17b5502a5506bd08500184fdd",
+      "pre_crop": ""
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/Work/satisfying-runaway-pilot/Source/10001446.mp4",
+      "source_in": 2,
+      "sha256": "9f7d978080ff26be49f16391bc3509a9c397b3a8e1f28f7f84541cccccf4de76",
+      "pre_crop": ""
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/Work/nuviko-videos-short-batch-20261110/new-footage/29393034.mp4",
+      "source_in": 1,
+      "sha256": "6b999523ce65c29973f8e90d9d15833ff6785871e45d025c04d627ab00c2d0d2",
+      "pre_crop": ""
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/Work/nuviko-videos-short-batch-20261110/new-footage/13830672.mp4",
+      "source_in": 1,
+      "sha256": "3549723532167a06a9e19b4af9d4812a99a9793d824b94a5b97686e97741e160",
+      "pre_crop": ""
+    }
+  ],
+  "lyrics": "ASR draft with scoped manual corrections; listening pending",
+  "argv": [
+    "ffmpeg",
+    "-nostdin",
+    "-n",
+    "-v",
+    "error",
+    "-filter_complex_threads",
+    "2",
+    "-i",
+    "/Users/diplomat/ytvideos/Work/satisfying-runaway-pilot/Source/11142097.mp4",
+    "-i",
+    "/Users/diplomat/ytvideos/Work/nuviko-videos-short-batch-20261110/new-footage/7366444.mp4",
+    "-i",
+    "/Users/diplomat/ytvideos/Work/satisfying-runaway-pilot/Source/6316369.mp4",
+    "-i",
+    "/Users/diplomat/ytvideos/Work/nuviko-videos-short-batch-20261110/new-footage/5619693.mp4",
+    "-i",
+    "/Users/diplomat/ytvideos/Work/satisfying-runaway-pilot/Source/13037145.mp4",
+    "-i",
+    "/Users/diplomat/ytvideos/Work/satisfying-runaway-pilot/Source/10001446.mp4",
+    "-i",
+    "/Users/diplomat/ytvideos/Work/nuviko-videos-short-batch-20261110/new-footage/29393034.mp4",
+    "-i",
+    "/Users/diplomat/ytvideos/Work/nuviko-videos-short-batch-20261110/new-footage/13830672.mp4",
+    "-i",
+    "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Edit/super-funk-review-mask.mov",
+    "-i",
+    "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Edit/super-funk-review-excerpt.wav",
+    "-filter_complex_script",
+    "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Edit/super-funk-review.ffgraph",
+    "-map",
+    "[video]",
+    "-map",
+    "[audio]",
+    "-t",
+    "14.0",
+    "-r",
+    "30",
+    "-fps_mode",
+    "cfr",
+    "-c:v",
+    "libx264",
+    "-threads",
+    "3",
+    "-preset",
+    "veryfast",
+    "-crf",
+    "19",
+    "-pix_fmt",
+    "yuv420p",
+    "-color_primaries",
+    "bt709",
+    "-color_trc",
+    "bt709",
+    "-colorspace",
+    "bt709",
+    "-c:a",
+    "aac",
+    "-b:a",
+    "192k",
+    "-ar",
+    "44100",
+    "-ac",
+    "2",
+    "-movflags",
+    "+faststart",
+    "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Deliverables/Super-Funk-review-v01.mp4"
+  ]
+}

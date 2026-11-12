@@ -1,0 +1,20 @@
+{
+  "version": "PROMPTS_v02",
+  "target_4k": "3840x2160 landscape requested; actual output measured separately",
+  "tool": "built-in image_gen",
+  "transparent_background": false,
+  "shots": {
+    "S04": {
+      "shot": "S04",
+      "path": "channels/paper_detour/videos/045_edmund_fitzgerald_last_voyage/Source/Images/paper_v03/S04.png",
+      "style_ref": "channels/paper_detour/brand/References/meaningful_staging_20261105_v01/P03_storm_deck.png",
+      "prompt": "Use case: historical-scene\nAsset type: Paper Detour long-film scene still, 16:9 landscape.\nPrimary request: Create a medium-wide, low water-level view of a single Edmund Fitzgerald pushing through a November squall on Lake Superior. Show one ship only: its long intact hull and bridge remain clearly visible behind layered storm waves and blowing snow. The ship is still underway and intact; this is a visual reconstruction of the last known period, not the sinking. Preserve the shot's current oblique composition while removing the extra distant vessel. Rich handmade paper/card construction, precise folds and cut edges, textured hull plating, snow and wave layers, physical shadows, coherent miniature scale and a strong cold storm light with a small warm bridge glow.\nInput images: Image 1 is a composition reference only; do not repeat the extra far vessel. Image 2 is the user-accepted Paper storm-deck style/material reference only.\nStyle/medium: Handmade layered paper diorama; tactile material thickness, fibers, folds and physical lighting.\nComposition/framing: Wide 16:9 full bleed, single vessel as the focal point, protected bridge and entire ship readable.\nLighting/mood: Cold November squall, high contrast without turning the ship into a disaster scene.\nColor palette: Restrained cold lake blues and storm grays, small warm bridge windows.\nMaterials/textures: Cut paper waves, folded/card hull layers, visible edges and contact shadows.\nText (verbatim): none.\nConstraints: Maximum available image quality and native detail; target 4K UHD 3840×2160. Keep one ship only, intact and upright.\nAvoid: second ship, sinking, collision, capsizing, split hull, lifeboats, rescue lights, text, labels, infographic panels, flat vector art, smooth CGI, watermark.",
+      "path_sha256": "0f358ca0f43352e1c495ac05f38590291d9092b7d26e8787e9ad7268c4888870",
+      "style_ref_sha256": "b93ebbc92cc114e726447b30325065f26dbb696f58b7886472d4c595a2935ba6",
+      "generation_source_path": "/Users/diplomat/.codex/generated_images/01a1a6da-7b3f-76a2-9da4-b4f8b20ec9f8/exec-7ac40dcb-3998-4db3-9d4d-f4a71fddd0da.png",
+      "output_path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/045_edmund_fitzgerald_last_voyage/Source/Images/paper_v04/S04.png",
+      "source_sha256": "19dc97ef027e26a054228a4c5a0b954bde2d4b25a0e44145e7acf6c908bd1a4c",
+      "output_sha256": "19dc97ef027e26a054228a4c5a0b954bde2d4b25a0e44145e7acf6c908bd1a4c"
+    }
+  }
+}

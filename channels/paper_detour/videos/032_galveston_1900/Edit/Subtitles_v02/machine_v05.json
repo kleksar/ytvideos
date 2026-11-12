@@ -1,0 +1,1282 @@
+{
+  "structure": "PASS",
+  "text_coverage": "PASS",
+  "timing_mapping": "UNVERIFIED",
+  "playback": "UNVERIFIED",
+  "readability": "PASS",
+  "limits": {
+    "max_lines": 2.0,
+    "max_line_chars": 42.0,
+    "max_cps": 25.0,
+    "min_duration": 0.9,
+    "max_duration": 7.0
+  },
+  "errors": [],
+  "warnings": [],
+  "cues": [
+    {
+      "cue": 1,
+      "lines": 2,
+      "longest_line": 35,
+      "duration_seconds": 4.442857,
+      "characters_per_second": 14.405145157721709
+    },
+    {
+      "cue": 2,
+      "lines": 2,
+      "longest_line": 27,
+      "duration_seconds": 3.223809,
+      "characters_per_second": 16.12998784977646
+    },
+    {
+      "cue": 3,
+      "lines": 2,
+      "longest_line": 32,
+      "duration_seconds": 3.833333,
+      "characters_per_second": 14.608696922495383
+    },
+    {
+      "cue": 4,
+      "lines": 1,
+      "longest_line": 30,
+      "duration_seconds": 2.157143,
+      "characters_per_second": 13.907283847199745
+    },
+    {
+      "cue": 5,
+      "lines": 1,
+      "longest_line": 24,
+      "duration_seconds": 1.77619,
+      "characters_per_second": 13.512067965701869
+    },
+    {
+      "cue": 6,
+      "lines": 2,
+      "longest_line": 31,
+      "duration_seconds": 2.614286,
+      "characters_per_second": 16.830599253486422
+    },
+    {
+      "cue": 7,
+      "lines": 2,
+      "longest_line": 33,
+      "duration_seconds": 4.214286,
+      "characters_per_second": 14.4745752898593
+    },
+    {
+      "cue": 8,
+      "lines": 1,
+      "longest_line": 37,
+      "duration_seconds": 1.852381,
+      "characters_per_second": 19.974292545648005
+    },
+    {
+      "cue": 9,
+      "lines": 2,
+      "longest_line": 32,
+      "duration_seconds": 3.376191,
+      "characters_per_second": 18.067698184137093
+    },
+    {
+      "cue": 10,
+      "lines": 1,
+      "longest_line": 31,
+      "duration_seconds": 1.776191,
+      "characters_per_second": 17.45307796289926
+    },
+    {
+      "cue": 11,
+      "lines": 1,
+      "longest_line": 34,
+      "duration_seconds": 2.004762,
+      "characters_per_second": 16.95961914681144
+    },
+    {
+      "cue": 12,
+      "lines": 1,
+      "longest_line": 41,
+      "duration_seconds": 2.690476,
+      "characters_per_second": 15.238939131960294
+    },
+    {
+      "cue": 13,
+      "lines": 2,
+      "longest_line": 33,
+      "duration_seconds": 3.490477,
+      "characters_per_second": 18.33560284167465
+    },
+    {
+      "cue": 14,
+      "lines": 2,
+      "longest_line": 39,
+      "duration_seconds": 4.366667,
+      "characters_per_second": 14.885495046908776
+    },
+    {
+      "cue": 15,
+      "lines": 1,
+      "longest_line": 40,
+      "duration_seconds": 2.222619,
+      "characters_per_second": 17.996786673739404
+    },
+    {
+      "cue": 16,
+      "lines": 2,
+      "longest_line": 36,
+      "duration_seconds": 3.185715,
+      "characters_per_second": 17.57847139496157
+    },
+    {
+      "cue": 17,
+      "lines": 2,
+      "longest_line": 42,
+      "duration_seconds": 4.861905,
+      "characters_per_second": 17.277178389952088
+    },
+    {
+      "cue": 18,
+      "lines": 2,
+      "longest_line": 41,
+      "duration_seconds": 5.204762,
+      "characters_per_second": 15.56267126143328
+    },
+    {
+      "cue": 19,
+      "lines": 1,
+      "longest_line": 32,
+      "duration_seconds": 2.004762,
+      "characters_per_second": 15.961994491116652
+    },
+    {
+      "cue": 20,
+      "lines": 1,
+      "longest_line": 26,
+      "duration_seconds": 1.471428,
+      "characters_per_second": 17.669909774722242
+    },
+    {
+      "cue": 21,
+      "lines": 1,
+      "longest_line": 31,
+      "duration_seconds": 1.852381,
+      "characters_per_second": 16.73521807878617
+    },
+    {
+      "cue": 22,
+      "lines": 2,
+      "longest_line": 35,
+      "duration_seconds": 4.290476,
+      "characters_per_second": 16.548280423897022
+    },
+    {
+      "cue": 23,
+      "lines": 2,
+      "longest_line": 24,
+      "duration_seconds": 3.147619,
+      "characters_per_second": 15.249622015879304
+    },
+    {
+      "cue": 24,
+      "lines": 2,
+      "longest_line": 22,
+      "duration_seconds": 2.385715,
+      "characters_per_second": 18.443108250566393
+    },
+    {
+      "cue": 25,
+      "lines": 2,
+      "longest_line": 23,
+      "duration_seconds": 2.461904,
+      "characters_per_second": 18.684725318290234
+    },
+    {
+      "cue": 26,
+      "lines": 1,
+      "longest_line": 25,
+      "duration_seconds": 1.62381,
+      "characters_per_second": 15.395889913228764
+    },
+    {
+      "cue": 27,
+      "lines": 2,
+      "longest_line": 26,
+      "duration_seconds": 2.755953,
+      "characters_per_second": 17.41684274006124
+    },
+    {
+      "cue": 28,
+      "lines": 2,
+      "longest_line": 29,
+      "duration_seconds": 3.071428,
+      "characters_per_second": 16.93023570795083
+    },
+    {
+      "cue": 29,
+      "lines": 2,
+      "longest_line": 41,
+      "duration_seconds": 4.404762,
+      "characters_per_second": 16.345945592520096
+    },
+    {
+      "cue": 30,
+      "lines": 2,
+      "longest_line": 31,
+      "duration_seconds": 3.833333,
+      "characters_per_second": 15.652175274102197
+    },
+    {
+      "cue": 31,
+      "lines": 1,
+      "longest_line": 36,
+      "duration_seconds": 2.614286,
+      "characters_per_second": 13.770490298307072
+    },
+    {
+      "cue": 32,
+      "lines": 2,
+      "longest_line": 37,
+      "duration_seconds": 3.604762,
+      "characters_per_second": 19.69616856813293
+    },
+    {
+      "cue": 33,
+      "lines": 1,
+      "longest_line": 35,
+      "duration_seconds": 2.157143,
+      "characters_per_second": 16.225164488399702
+    },
+    {
+      "cue": 34,
+      "lines": 2,
+      "longest_line": 24,
+      "duration_seconds": 2.385715,
+      "characters_per_second": 20.11975445516334
+    },
+    {
+      "cue": 35,
+      "lines": 2,
+      "longest_line": 37,
+      "duration_seconds": 4.442857,
+      "characters_per_second": 16.655949088615728
+    },
+    {
+      "cue": 36,
+      "lines": 2,
+      "longest_line": 32,
+      "duration_seconds": 3.757143,
+      "characters_per_second": 15.96958114184102
+    },
+    {
+      "cue": 37,
+      "lines": 1,
+      "longest_line": 39,
+      "duration_seconds": 1.814286,
+      "characters_per_second": 21.496059606919747
+    },
+    {
+      "cue": 38,
+      "lines": 2,
+      "longest_line": 25,
+      "duration_seconds": 2.690476,
+      "characters_per_second": 18.212390669903765
+    },
+    {
+      "cue": 39,
+      "lines": 2,
+      "longest_line": 38,
+      "duration_seconds": 3.909523,
+      "characters_per_second": 17.64921193710844
+    },
+    {
+      "cue": 40,
+      "lines": 1,
+      "longest_line": 36,
+      "duration_seconds": 2.385714,
+      "characters_per_second": 15.089822166445767
+    },
+    {
+      "cue": 41,
+      "lines": 2,
+      "longest_line": 24,
+      "duration_seconds": 2.919048,
+      "characters_per_second": 16.786294709782094
+    },
+    {
+      "cue": 42,
+      "lines": 1,
+      "longest_line": 37,
+      "duration_seconds": 2.233334,
+      "characters_per_second": 16.56715923368381
+    },
+    {
+      "cue": 43,
+      "lines": 2,
+      "longest_line": 29,
+      "duration_seconds": 3.22381,
+      "characters_per_second": 17.06055877982884
+    },
+    {
+      "cue": 44,
+      "lines": 2,
+      "longest_line": 29,
+      "duration_seconds": 3.223809,
+      "characters_per_second": 16.750371997844784
+    },
+    {
+      "cue": 45,
+      "lines": 2,
+      "longest_line": 33,
+      "duration_seconds": 3.833334,
+      "characters_per_second": 15.39130167107797
+    },
+    {
+      "cue": 46,
+      "lines": 2,
+      "longest_line": 42,
+      "duration_seconds": 4.861905,
+      "characters_per_second": 17.07149769483361
+    },
+    {
+      "cue": 47,
+      "lines": 2,
+      "longest_line": 27,
+      "duration_seconds": 3.22381,
+      "characters_per_second": 14.889214935123348
+    },
+    {
+      "cue": 48,
+      "lines": 2,
+      "longest_line": 28,
+      "duration_seconds": 2.919047,
+      "characters_per_second": 17.81403314163835
+    },
+    {
+      "cue": 49,
+      "lines": 2,
+      "longest_line": 35,
+      "duration_seconds": 3.566667,
+      "characters_per_second": 18.50467116778774
+    },
+    {
+      "cue": 50,
+      "lines": 1,
+      "longest_line": 27,
+      "duration_seconds": 1.7,
+      "characters_per_second": 15.882352941176471
+    },
+    {
+      "cue": 51,
+      "lines": 2,
+      "longest_line": 33,
+      "duration_seconds": 3.604762,
+      "characters_per_second": 17.754292793809967
+    },
+    {
+      "cue": 52,
+      "lines": 1,
+      "longest_line": 31,
+      "duration_seconds": 2.080953,
+      "characters_per_second": 14.897020740016712
+    },
+    {
+      "cue": 53,
+      "lines": 1,
+      "longest_line": 35,
+      "duration_seconds": 1.7,
+      "characters_per_second": 20.58823529411765
+    },
+    {
+      "cue": 54,
+      "lines": 2,
+      "longest_line": 29,
+      "duration_seconds": 2.919048,
+      "characters_per_second": 17.47144959589565
+    },
+    {
+      "cue": 55,
+      "lines": 2,
+      "longest_line": 42,
+      "duration_seconds": 4.557143,
+      "characters_per_second": 17.77429411365849
+    },
+    {
+      "cue": 56,
+      "lines": 1,
+      "longest_line": 22,
+      "duration_seconds": 0.938096,
+      "characters_per_second": 23.451757602633418
+    },
+    {
+      "cue": 57,
+      "lines": 2,
+      "longest_line": 23,
+      "duration_seconds": 2.690477,
+      "characters_per_second": 16.353977380219195
+    },
+    {
+      "cue": 58,
+      "lines": 1,
+      "longest_line": 42,
+      "duration_seconds": 2.614285,
+      "characters_per_second": 16.065578159994033
+    },
+    {
+      "cue": 59,
+      "lines": 2,
+      "longest_line": 28,
+      "duration_seconds": 2.385714,
+      "characters_per_second": 19.281439434902925
+    },
+    {
+      "cue": 60,
+      "lines": 1,
+      "longest_line": 30,
+      "duration_seconds": 1.841667,
+      "characters_per_second": 16.289589811838947
+    },
+    {
+      "cue": 61,
+      "lines": 2,
+      "longest_line": 29,
+      "duration_seconds": 3.033333,
+      "characters_per_second": 18.461540490279177
+    },
+    {
+      "cue": 62,
+      "lines": 1,
+      "longest_line": 42,
+      "duration_seconds": 2.652381,
+      "characters_per_second": 15.834829159159261
+    },
+    {
+      "cue": 63,
+      "lines": 1,
+      "longest_line": 27,
+      "duration_seconds": 1.852381,
+      "characters_per_second": 14.575835100878274
+    },
+    {
+      "cue": 64,
+      "lines": 2,
+      "longest_line": 27,
+      "duration_seconds": 3.414286,
+      "characters_per_second": 15.230124248525167
+    },
+    {
+      "cue": 65,
+      "lines": 2,
+      "longest_line": 23,
+      "duration_seconds": 2.652381,
+      "characters_per_second": 16.965888384813493
+    },
+    {
+      "cue": 66,
+      "lines": 2,
+      "longest_line": 33,
+      "duration_seconds": 3.909524,
+      "characters_per_second": 15.091351274477404
+    },
+    {
+      "cue": 67,
+      "lines": 2,
+      "longest_line": 23,
+      "duration_seconds": 3.261905,
+      "characters_per_second": 14.102188751665054
+    },
+    {
+      "cue": 68,
+      "lines": 1,
+      "longest_line": 37,
+      "duration_seconds": 2.157143,
+      "characters_per_second": 17.152316744879684
+    },
+    {
+      "cue": 69,
+      "lines": 1,
+      "longest_line": 42,
+      "duration_seconds": 2.652381,
+      "characters_per_second": 15.834829159159261
+    },
+    {
+      "cue": 70,
+      "lines": 2,
+      "longest_line": 38,
+      "duration_seconds": 4.366667,
+      "characters_per_second": 16.717555975759087
+    },
+    {
+      "cue": 71,
+      "lines": 2,
+      "longest_line": 32,
+      "duration_seconds": 3.452381,
+      "characters_per_second": 17.958620441950064
+    },
+    {
+      "cue": 72,
+      "lines": 1,
+      "longest_line": 34,
+      "duration_seconds": 2.690476,
+      "characters_per_second": 12.637169036259756
+    },
+    {
+      "cue": 73,
+      "lines": 1,
+      "longest_line": 39,
+      "duration_seconds": 2.248333,
+      "characters_per_second": 17.346184929011848
+    },
+    {
+      "cue": 74,
+      "lines": 1,
+      "longest_line": 35,
+      "duration_seconds": 1.930238,
+      "characters_per_second": 18.132478999998966
+    },
+    {
+      "cue": 75,
+      "lines": 2,
+      "longest_line": 32,
+      "duration_seconds": 3.886429,
+      "characters_per_second": 14.923725610322483
+    },
+    {
+      "cue": 76,
+      "lines": 2,
+      "longest_line": 32,
+      "duration_seconds": 4.394047,
+      "characters_per_second": 14.792741179145331
+    },
+    {
+      "cue": 77,
+      "lines": 2,
+      "longest_line": 21,
+      "duration_seconds": 2.817143,
+      "characters_per_second": 15.263690909549142
+    },
+    {
+      "cue": 78,
+      "lines": 1,
+      "longest_line": 35,
+      "duration_seconds": 1.879762,
+      "characters_per_second": 18.61937841067114
+    },
+    {
+      "cue": 79,
+      "lines": 1,
+      "longest_line": 40,
+      "duration_seconds": 2.413095,
+      "characters_per_second": 16.576222651822658
+    },
+    {
+      "cue": 80,
+      "lines": 2,
+      "longest_line": 36,
+      "duration_seconds": 3.936905,
+      "characters_per_second": 18.03447124073352
+    },
+    {
+      "cue": 81,
+      "lines": 2,
+      "longest_line": 29,
+      "duration_seconds": 3.606428,
+      "characters_per_second": 14.418699056240689
+    },
+    {
+      "cue": 82,
+      "lines": 2,
+      "longest_line": 25,
+      "duration_seconds": 3.071429,
+      "characters_per_second": 15.953486146025188
+    },
+    {
+      "cue": 83,
+      "lines": 2,
+      "longest_line": 28,
+      "duration_seconds": 2.995238,
+      "characters_per_second": 17.69475413973781
+    },
+    {
+      "cue": 84,
+      "lines": 2,
+      "longest_line": 25,
+      "duration_seconds": 2.842857,
+      "characters_per_second": 17.587940582308573
+    },
+    {
+      "cue": 85,
+      "lines": 2,
+      "longest_line": 24,
+      "duration_seconds": 2.946428,
+      "characters_per_second": 15.612124239927125
+    },
+    {
+      "cue": 86,
+      "lines": 2,
+      "longest_line": 29,
+      "duration_seconds": 3.632143,
+      "characters_per_second": 15.968534278523725
+    },
+    {
+      "cue": 87,
+      "lines": 2,
+      "longest_line": 31,
+      "duration_seconds": 3.75881,
+      "characters_per_second": 15.962498769557387
+    },
+    {
+      "cue": 88,
+      "lines": 2,
+      "longest_line": 35,
+      "duration_seconds": 3.683571,
+      "characters_per_second": 17.6459202225232
+    },
+    {
+      "cue": 89,
+      "lines": 2,
+      "longest_line": 31,
+      "duration_seconds": 3.352143,
+      "characters_per_second": 17.30236448743386
+    },
+    {
+      "cue": 90,
+      "lines": 2,
+      "longest_line": 26,
+      "duration_seconds": 2.972143,
+      "characters_per_second": 16.149963174719385
+    },
+    {
+      "cue": 91,
+      "lines": 2,
+      "longest_line": 29,
+      "duration_seconds": 3.632143,
+      "characters_per_second": 14.59193649589237
+    },
+    {
+      "cue": 92,
+      "lines": 1,
+      "longest_line": 41,
+      "duration_seconds": 2.766666,
+      "characters_per_second": 14.819280679344743
+    },
+    {
+      "cue": 93,
+      "lines": 2,
+      "longest_line": 42,
+      "duration_seconds": 4.317857,
+      "characters_per_second": 17.832920358409275
+    },
+    {
+      "cue": 94,
+      "lines": 2,
+      "longest_line": 26,
+      "duration_seconds": 2.919048,
+      "characters_per_second": 16.786294709782094
+    },
+    {
+      "cue": 95,
+      "lines": 2,
+      "longest_line": 23,
+      "duration_seconds": 2.717857,
+      "characters_per_second": 16.92509944415766
+    },
+    {
+      "cue": 96,
+      "lines": 2,
+      "longest_line": 29,
+      "duration_seconds": 3.327381,
+      "characters_per_second": 17.130590094732163
+    },
+    {
+      "cue": 97,
+      "lines": 1,
+      "longest_line": 28,
+      "duration_seconds": 1.879762,
+      "characters_per_second": 14.895502728536911
+    },
+    {
+      "cue": 98,
+      "lines": 1,
+      "longest_line": 33,
+      "duration_seconds": 1.928571,
+      "characters_per_second": 17.11111491358109
+    },
+    {
+      "cue": 99,
+      "lines": 2,
+      "longest_line": 24,
+      "duration_seconds": 2.690476,
+      "characters_per_second": 17.84070922766083
+    },
+    {
+      "cue": 100,
+      "lines": 2,
+      "longest_line": 29,
+      "duration_seconds": 3.680952,
+      "characters_per_second": 14.941786798632528
+    },
+    {
+      "cue": 101,
+      "lines": 1,
+      "longest_line": 8,
+      "duration_seconds": 1.090476,
+      "characters_per_second": 7.336245822925035
+    },
+    {
+      "cue": 102,
+      "lines": 2,
+      "longest_line": 42,
+      "duration_seconds": 4.82381,
+      "characters_per_second": 15.547876056478179
+    },
+    {
+      "cue": 103,
+      "lines": 2,
+      "longest_line": 27,
+      "duration_seconds": 3.452381,
+      "characters_per_second": 14.193103252508921
+    },
+    {
+      "cue": 104,
+      "lines": 2,
+      "longest_line": 33,
+      "duration_seconds": 3.3,
+      "characters_per_second": 18.78787878787879
+    },
+    {
+      "cue": 105,
+      "lines": 1,
+      "longest_line": 34,
+      "duration_seconds": 1.585715,
+      "characters_per_second": 21.441431783138835
+    },
+    {
+      "cue": 106,
+      "lines": 2,
+      "longest_line": 25,
+      "duration_seconds": 2.413095,
+      "characters_per_second": 19.062656049596058
+    },
+    {
+      "cue": 107,
+      "lines": 1,
+      "longest_line": 34,
+      "duration_seconds": 1.852381,
+      "characters_per_second": 18.354755312217087
+    },
+    {
+      "cue": 108,
+      "lines": 1,
+      "longest_line": 39,
+      "duration_seconds": 2.385715,
+      "characters_per_second": 16.347300494820214
+    },
+    {
+      "cue": 109,
+      "lines": 2,
+      "longest_line": 25,
+      "duration_seconds": 3.289286,
+      "characters_per_second": 15.504884646698402
+    },
+    {
+      "cue": 110,
+      "lines": 1,
+      "longest_line": 40,
+      "duration_seconds": 2.233333,
+      "characters_per_second": 17.91045043439559
+    },
+    {
+      "cue": 111,
+      "lines": 1,
+      "longest_line": 41,
+      "duration_seconds": 2.309523,
+      "characters_per_second": 17.752583542142684
+    },
+    {
+      "cue": 112,
+      "lines": 2,
+      "longest_line": 27,
+      "duration_seconds": 2.652381,
+      "characters_per_second": 19.98204631989145
+    },
+    {
+      "cue": 113,
+      "lines": 1,
+      "longest_line": 41,
+      "duration_seconds": 2.461905,
+      "characters_per_second": 16.653770149538673
+    },
+    {
+      "cue": 114,
+      "lines": 2,
+      "longest_line": 40,
+      "duration_seconds": 4.1,
+      "characters_per_second": 18.78048780487805
+    },
+    {
+      "cue": 115,
+      "lines": 2,
+      "longest_line": 35,
+      "duration_seconds": 3.909524,
+      "characters_per_second": 16.114493733764007
+    },
+    {
+      "cue": 116,
+      "lines": 1,
+      "longest_line": 42,
+      "duration_seconds": 2.45119,
+      "characters_per_second": 17.13453465459634
+    },
+    {
+      "cue": 117,
+      "lines": 2,
+      "longest_line": 26,
+      "duration_seconds": 2.766667,
+      "characters_per_second": 18.433732718827383
+    },
+    {
+      "cue": 118,
+      "lines": 2,
+      "longest_line": 27,
+      "duration_seconds": 3.09881,
+      "characters_per_second": 15.489817058806446
+    },
+    {
+      "cue": 119,
+      "lines": 2,
+      "longest_line": 38,
+      "duration_seconds": 3.223809,
+      "characters_per_second": 18.921716516083922
+    },
+    {
+      "cue": 120,
+      "lines": 2,
+      "longest_line": 22,
+      "duration_seconds": 2.690477,
+      "characters_per_second": 15.982296076123305
+    },
+    {
+      "cue": 121,
+      "lines": 1,
+      "longest_line": 21,
+      "duration_seconds": 1.575,
+      "characters_per_second": 13.333333333333334
+    },
+    {
+      "cue": 122,
+      "lines": 1,
+      "longest_line": 38,
+      "duration_seconds": 1.879761,
+      "characters_per_second": 20.21533588578548
+    },
+    {
+      "cue": 123,
+      "lines": 2,
+      "longest_line": 23,
+      "duration_seconds": 2.972143,
+      "characters_per_second": 15.8135056085794
+    },
+    {
+      "cue": 124,
+      "lines": 2,
+      "longest_line": 34,
+      "duration_seconds": 3.911191,
+      "characters_per_second": 17.386008507383046
+    },
+    {
+      "cue": 125,
+      "lines": 2,
+      "longest_line": 33,
+      "duration_seconds": 3.3,
+      "characters_per_second": 16.96969696969697
+    },
+    {
+      "cue": 126,
+      "lines": 2,
+      "longest_line": 28,
+      "duration_seconds": 3.3,
+      "characters_per_second": 16.060606060606062
+    },
+    {
+      "cue": 127,
+      "lines": 2,
+      "longest_line": 24,
+      "duration_seconds": 2.362619,
+      "characters_per_second": 19.46991876388025
+    },
+    {
+      "cue": 128,
+      "lines": 1,
+      "longest_line": 38,
+      "duration_seconds": 2.336905,
+      "characters_per_second": 16.260823610715885
+    },
+    {
+      "cue": 129,
+      "lines": 2,
+      "longest_line": 34,
+      "duration_seconds": 3.604762,
+      "characters_per_second": 17.754292793809967
+    },
+    {
+      "cue": 130,
+      "lines": 2,
+      "longest_line": 33,
+      "duration_seconds": 3.604762,
+      "characters_per_second": 15.812417019487
+    },
+    {
+      "cue": 131,
+      "lines": 1,
+      "longest_line": 37,
+      "duration_seconds": 2.538096,
+      "characters_per_second": 14.577856787134923
+    },
+    {
+      "cue": 132,
+      "lines": 2,
+      "longest_line": 36,
+      "duration_seconds": 4.317857,
+      "characters_per_second": 15.51695667549898
+    },
+    {
+      "cue": 133,
+      "lines": 1,
+      "longest_line": 41,
+      "duration_seconds": 2.538095,
+      "characters_per_second": 16.15384766921648
+    },
+    {
+      "cue": 134,
+      "lines": 2,
+      "longest_line": 29,
+      "duration_seconds": 2.591191,
+      "characters_per_second": 20.453914821408382
+    },
+    {
+      "cue": 135,
+      "lines": 2,
+      "longest_line": 22,
+      "duration_seconds": 2.59119,
+      "characters_per_second": 16.59469201409391
+    },
+    {
+      "cue": 136,
+      "lines": 2,
+      "longest_line": 36,
+      "duration_seconds": 4.721905,
+      "characters_per_second": 15.248083135937721
+    },
+    {
+      "cue": 137,
+      "lines": 2,
+      "longest_line": 32,
+      "duration_seconds": 3.213095,
+      "characters_per_second": 19.918489805001098
+    },
+    {
+      "cue": 138,
+      "lines": 2,
+      "longest_line": 39,
+      "duration_seconds": 4.519048,
+      "characters_per_second": 16.375130337186064
+    },
+    {
+      "cue": 139,
+      "lines": 1,
+      "longest_line": 36,
+      "duration_seconds": 1.955952,
+      "characters_per_second": 18.40535964072738
+    },
+    {
+      "cue": 140,
+      "lines": 2,
+      "longest_line": 32,
+      "duration_seconds": 4.343572,
+      "characters_per_second": 14.734416742717745
+    },
+    {
+      "cue": 141,
+      "lines": 1,
+      "longest_line": 39,
+      "duration_seconds": 2.692142,
+      "characters_per_second": 14.48660583282754
+    },
+    {
+      "cue": 142,
+      "lines": 1,
+      "longest_line": 34,
+      "duration_seconds": 2.032143,
+      "characters_per_second": 16.73110602944773
+    },
+    {
+      "cue": 143,
+      "lines": 2,
+      "longest_line": 30,
+      "duration_seconds": 3.022619,
+      "characters_per_second": 19.519496172028298
+    },
+    {
+      "cue": 144,
+      "lines": 2,
+      "longest_line": 25,
+      "duration_seconds": 3.09881,
+      "characters_per_second": 16.13522610292338
+    },
+    {
+      "cue": 145,
+      "lines": 2,
+      "longest_line": 27,
+      "duration_seconds": 3.022619,
+      "characters_per_second": 16.541945908498555
+    },
+    {
+      "cue": 146,
+      "lines": 1,
+      "longest_line": 40,
+      "duration_seconds": 2.461905,
+      "characters_per_second": 16.247580633696266
+    },
+    {
+      "cue": 147,
+      "lines": 2,
+      "longest_line": 34,
+      "duration_seconds": 3.452381,
+      "characters_per_second": 17.958620441950064
+    },
+    {
+      "cue": 148,
+      "lines": 2,
+      "longest_line": 35,
+      "duration_seconds": 3.338095,
+      "characters_per_second": 18.87303986255634
+    },
+    {
+      "cue": 149,
+      "lines": 2,
+      "longest_line": 33,
+      "duration_seconds": 3.3,
+      "characters_per_second": 16.363636363636363
+    },
+    {
+      "cue": 150,
+      "lines": 2,
+      "longest_line": 36,
+      "duration_seconds": 2.461904,
+      "characters_per_second": 21.12186340328461
+    },
+    {
+      "cue": 151,
+      "lines": 2,
+      "longest_line": 28,
+      "duration_seconds": 3.528572,
+      "characters_per_second": 15.587042010195626
+    },
+    {
+      "cue": 152,
+      "lines": 1,
+      "longest_line": 23,
+      "duration_seconds": 1.547619,
+      "characters_per_second": 14.861538918816581
+    },
+    {
+      "cue": 153,
+      "lines": 2,
+      "longest_line": 26,
+      "duration_seconds": 2.766667,
+      "characters_per_second": 16.62650402090313
+    },
+    {
+      "cue": 154,
+      "lines": 2,
+      "longest_line": 31,
+      "duration_seconds": 3.37619,
+      "characters_per_second": 15.994360506961991
+    },
+    {
+      "cue": 155,
+      "lines": 1,
+      "longest_line": 34,
+      "duration_seconds": 2.157143,
+      "characters_per_second": 15.761588360159712
+    },
+    {
+      "cue": 156,
+      "lines": 2,
+      "longest_line": 30,
+      "duration_seconds": 3.109524,
+      "characters_per_second": 17.687594628631263
+    },
+    {
+      "cue": 157,
+      "lines": 2,
+      "longest_line": 30,
+      "duration_seconds": 3.833333,
+      "characters_per_second": 15.9130448620039
+    },
+    {
+      "cue": 158,
+      "lines": 1,
+      "longest_line": 17,
+      "duration_seconds": 0.938095,
+      "characters_per_second": 18.12183201061726
+    },
+    {
+      "cue": 159,
+      "lines": 2,
+      "longest_line": 41,
+      "duration_seconds": 4.976191,
+      "characters_per_second": 16.277510248300356
+    },
+    {
+      "cue": 160,
+      "lines": 2,
+      "longest_line": 26,
+      "duration_seconds": 3.528572,
+      "characters_per_second": 14.73683971873041
+    },
+    {
+      "cue": 161,
+      "lines": 2,
+      "longest_line": 24,
+      "duration_seconds": 3.452381,
+      "characters_per_second": 12.744827410416175
+    },
+    {
+      "cue": 162,
+      "lines": 1,
+      "longest_line": 26,
+      "duration_seconds": 1.547619,
+      "characters_per_second": 16.80000051692309
+    },
+    {
+      "cue": 163,
+      "lines": 2,
+      "longest_line": 32,
+      "duration_seconds": 3.528571,
+      "characters_per_second": 17.004050648265263
+    },
+    {
+      "cue": 164,
+      "lines": 2,
+      "longest_line": 22,
+      "duration_seconds": 2.489286,
+      "characters_per_second": 18.077472817506706
+    },
+    {
+      "cue": 165,
+      "lines": 2,
+      "longest_line": 36,
+      "duration_seconds": 4.17619,
+      "characters_per_second": 16.761689482518754
+    },
+    {
+      "cue": 166,
+      "lines": 1,
+      "longest_line": 41,
+      "duration_seconds": 2.119047,
+      "characters_per_second": 19.34832025905985
+    },
+    {
+      "cue": 167,
+      "lines": 2,
+      "longest_line": 23,
+      "duration_seconds": 2.233333,
+      "characters_per_second": 19.701495477835145
+    },
+    {
+      "cue": 168,
+      "lines": 2,
+      "longest_line": 33,
+      "duration_seconds": 4.633333,
+      "characters_per_second": 14.460432694995157
+    },
+    {
+      "cue": 169,
+      "lines": 1,
+      "longest_line": 25,
+      "duration_seconds": 1.994048,
+      "characters_per_second": 12.53731103764804
+    },
+    {
+      "cue": 170,
+      "lines": 2,
+      "longest_line": 36,
+      "duration_seconds": 3.871428,
+      "characters_per_second": 17.306275617162452
+    },
+    {
+      "cue": 171,
+      "lines": 2,
+      "longest_line": 31,
+      "duration_seconds": 3.261905,
+      "characters_per_second": 18.700728561990616
+    },
+    {
+      "cue": 172,
+      "lines": 2,
+      "longest_line": 29,
+      "duration_seconds": 2.766667,
+      "characters_per_second": 18.433732718827383
+    },
+    {
+      "cue": 173,
+      "lines": 1,
+      "longest_line": 42,
+      "duration_seconds": 2.195238,
+      "characters_per_second": 19.132321871250408
+    },
+    {
+      "cue": 174,
+      "lines": 1,
+      "longest_line": 35,
+      "duration_seconds": 1.890476,
+      "characters_per_second": 18.51385576965801
+    },
+    {
+      "cue": 175,
+      "lines": 1,
+      "longest_line": 42,
+      "duration_seconds": 2.804762,
+      "characters_per_second": 14.974532598487857
+    },
+    {
+      "cue": 176,
+      "lines": 2,
+      "longest_line": 39,
+      "duration_seconds": 3.757143,
+      "characters_per_second": 20.760455484393326
+    },
+    {
+      "cue": 177,
+      "lines": 2,
+      "longest_line": 26,
+      "duration_seconds": 3.147619,
+      "characters_per_second": 16.520423850535913
+    },
+    {
+      "cue": 178,
+      "lines": 2,
+      "longest_line": 39,
+      "duration_seconds": 4.878798,
+      "characters_per_second": 15.167670397503649
+    }
+  ],
+  "limits_note": "Readability metrics do not verify semantic breaks, player layout or hearing sync.",
+  "timebase": "final",
+  "duration_seconds": "574.433333",
+  "inputs": {
+    "text": {
+      "path": "channels/nuviko_history/videos/017_galveston_1900/Source/Scripts/film_en.txt",
+      "sha256": "6a4015dd04e5385045ae308fd60bec9a05e7ece1ed59981c7c7c8753770654e1"
+    },
+    "build": {
+      "path": "channels/paper_detour/videos/032_galveston_1900/Edit/Subtitles_v02/cues_v02.json",
+      "sha256": "7d66da4c30669152d542ad8a4cac5344cd50c798a5fbc7c0751bf8116952aa40"
+    }
+  },
+  "result": "MACHINE_CHECKED",
+  "output": {
+    "path": "channels/paper_detour/videos/032_galveston_1900/Edit/Subtitles_v02/032_galveston_en_v05.srt",
+    "sha256": "ab5a280a1821b710a067dbe113f19b58769ca8666b66c07c91e0dea4ebca373e"
+  }
+}

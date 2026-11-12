@@ -1,0 +1,23 @@
+{
+  "method": "Conservative manual bounding regions from visual review of the reframed 941x1672 source; not automated detection",
+  "regions": [
+    {
+      "label": "entire lettering including thickness/shadow",
+      "box": [
+        0.20191285866099895,
+        0.4126794258373206,
+        0.8235919234856536,
+        0.6190191387559809
+      ]
+    },
+    {
+      "label": "all thirteen portrait head/face regions (conservative union)",
+      "box": [
+        0.021253985122210415,
+        0.08971291866028708,
+        0.9776833156216791,
+        0.8911483253588517
+      ]
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "channel": "paper",
+  "format": "long",
+  "audio": "../voice_fullmix.wav",
+  "audio_contract": {
+    "final_audio_sha256": "1978cc6346ee7e3335221e6c3e89c0f93fd667d9b3e99e676ee8d7a4d6fc38b2",
+    "applied_speed": 1.1,
+    "speed_evidence": "../../../Edit/Audio/speed_evidence_v02.md"
+  },
+  "scenes": [
+    {
+      "image": "../../../Source/Images/S01_v02.png",
+      "start_frame": 0,
+      "end_frame": 169,
+      "direction": "left_to_right",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.22,
+          0.54
+        ],
+        "subject": "sealed sample jar at the harbor",
+        "reason": "Keep the cork and jar readable against the distant ships.",
+        "start": {
+          "center": [
+            0.502,
+            0.5
+          ],
+          "scale": 1.005
+        },
+        "end": {
+          "center": [
+            0.498,
+            0.5
+          ],
+          "scale": 1.025
+        }
+      }
+    },
+    {
+      "image": "../../../Source/Images/S02_v03.png",
+      "start_frame": 169,
+      "end_frame": 320,
+      "direction": "right_to_left",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.24,
+          0.56
+        ],
+        "subject": "food jar and three-month marker",
+        "reason": "Carry the storage interval from the jar toward the paper time marker.",
+        "start": {
+          "center": [
+            0.498,
+            0.5
+          ],
+          "scale": 1.025
+        },
+        "end": {
+          "center": [
+            0.502,
+            0.5
+          ],
+          "scale": 1.005
+        }
+      }
+    },
+    {
+      "image": "../../../Source/Images/S03_v01.png",
+      "start_frame": 320,
+      "end_frame": 481,
+      "direction": "left_to_right",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.52,
+          0.54
+        ],
+        "subject": "four inspected food samples and hands",
+        "reason": "Let attention move across the samples being examined.",
+        "start": {
+          "center": [
+            0.502,
+            0.5
+          ],
+          "scale": 1.005
+        },
+        "end": {
+          "center": [
+            0.498,
+            0.5
+          ],
+          "scale": 1.025
+        }
+      }
+    },
+    {
+      "image": "../../../Source/Images/S04_v01.png",
+      "start_frame": 481,
+      "end_frame": 649,
+      "direction": "right_to_left",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.52,
+          0.62
+        ],
+        "subject": "broth, meat, beans and peas at the table",
+        "reason": "Hold on the dishes before the group in the doorway.",
+        "start": {
+          "center": [
+            0.498,
+            0.5
+          ],
+          "scale": 1.025
+        },
+        "end": {
+          "center": [
+            0.502,
+            0.5
+          ],
+          "scale": 1.005
+        }
+      }
+    }
+  ],
+  "subtitles": {
+    "mode": "words",
+    "words": "word_times_opening_v03.json",
+    "transcript": "narration_opening_v03.txt",
+    "end_frame": 649,
+    "keep_together": [
+      [
+        "Nicolas",
+        "Appert"
+      ],
+      [
+        "prepared",
+        "by"
+      ],
+      [
+        "shelf",
+        "life"
+      ],
+      [
+        "relied",
+        "on"
+      ],
+      [
+        "cloth",
+        "bags"
+      ],
+      [
+        "kept",
+        "the"
+      ],
+      [
+        "the",
+        "vessels"
+      ],
+      [
+        "storage",
+        "period"
+      ],
+      [
+        "proposal",
+        "to"
+      ],
+      [
+        "detailed",
+        "account"
+      ],
+      [
+        "January",
+        "30"
+      ],
+      [
+        "30",
+        "1810"
+      ],
+      [
+        "twelve",
+        "thousand"
+      ],
+      [
+        "thousand",
+        "francs"
+      ],
+      [
+        "two",
+        "hundred"
+      ],
+      [
+        "hundred",
+        "copies"
+      ],
+      [
+        "sealed",
+        "vessels"
+      ],
+      [
+        "three",
+        "months"
+      ]
+    ],
+    "review": "../../../Edit/Export/subtitle_review_v03_seed.json"
+  },
+  "source_transfer": "srgb",
+  "overlays": [],
+  "paper_frame_exception": {
+    "reason": "User directly requested removing the Paper Frame for episode 048; the user clarified it must stay out of current and future versions of this video.",
+    "user_authorization": "../../../Edit/Decisions/paper_frame_exception_v03.md"
+  }
+}

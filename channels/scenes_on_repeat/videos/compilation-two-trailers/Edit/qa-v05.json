@@ -1,0 +1,33 @@
+{
+  "file": "Deliverables/movie-trailers-compilation-v05.mp4",
+  "sha256": "b127101c1a44550b9505d9ae6b2e6039aece62f099819d5ad1fbc6ba304d99d4",
+  "source_v03_sha256": "74bcc209e93716b4ed4763dfd39dfecb8700467ca9ffd18b7d2d41d1d9353d96",
+  "rejected_v04": "Removed per request",
+  "full_decode": "pass",
+  "frames": 2448,
+  "fps": 24,
+  "duration_seconds": 102,
+  "audio_packet_sha256": "c2a8b2c01e3d60fdac63889c448fd1ea38e842a1724248efcc857092dc15c9db",
+  "audio_matches_v03": true,
+  "card_frame_samples": [
+    1151,
+    1152,
+    1223,
+    1224,
+    2376,
+    2447
+  ],
+  "card_visual_review": "Both cards and first card boundaries inspected.",
+  "limitations": [
+    "Full continuous playback and subjective audio listening not performed.",
+    "Original word timings were not individually verified by listening."
+  ],
+  "status": "preview",
+  "user_review": {
+    "decision": "approved",
+    "scope": "v05 content and card style",
+    "evidence": "User: «огонь. го дальше!»",
+    "sha256": "b127101c1a44550b9505d9ae6b2e6039aece62f099819d5ad1fbc6ba304d99d4",
+    "date": "2026-11-09"
+  }
+}

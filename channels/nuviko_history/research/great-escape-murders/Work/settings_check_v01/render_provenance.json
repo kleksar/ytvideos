@@ -1,0 +1,512 @@
+{
+  "schema": "ytv-render-v1",
+  "origin": "render",
+  "export_contract": {
+    "original": {
+      "path": "/Users/diplomat/ytvideos/channels/nuviko_history/research/great-escape-murders/Edit/Production/v01/EXPORT_CONTRACT_v01.json",
+      "sha256": "5b24562ae9b3b0afb9af768570bbda16ce8e78a498b22a19742ac023b50f140e"
+    },
+    "snapshot": {
+      "path": "/Users/diplomat/ytvideos/channels/nuviko_history/research/great-escape-murders/Work/settings_check_v01/render_provenance/export_contract.json",
+      "sha256": "5b24562ae9b3b0afb9af768570bbda16ce8e78a498b22a19742ac023b50f140e"
+    }
+  },
+  "command": {
+    "original": {
+      "path": "/Users/diplomat/ytvideos/channels/nuviko_history/research/great-escape-murders/Work/settings_check_v01/render_command.json",
+      "sha256": "04ab2ca3aa7327993ded387d633cd0e6983817a1bcd36760e4fd431d74e7bdfa"
+    },
+    "snapshot": {
+      "path": "/Users/diplomat/ytvideos/channels/nuviko_history/research/great-escape-murders/Work/settings_check_v01/render_provenance/render_command.json",
+      "sha256": "04ab2ca3aa7327993ded387d633cd0e6983817a1bcd36760e4fd431d74e7bdfa"
+    }
+  },
+  "engine": [
+    {
+      "original": {
+        "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/montage.py",
+        "sha256": "62d26c06c972a8d5f9272d4d43068ac4c88909278c75eb56bfa4879fdae3298a"
+      },
+      "snapshot": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/research/great-escape-murders/Work/settings_check_v01/render_provenance/engine_0_montage.py",
+        "sha256": "62d26c06c972a8d5f9272d4d43068ac4c88909278c75eb56bfa4879fdae3298a"
+      }
+    },
+    {
+      "original": {
+        "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/delivery.py",
+        "sha256": "d4611644090f7800fd09dbc3637a54a89b13ce6598edf7cf591cf33dc6275c29"
+      },
+      "snapshot": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/research/great-escape-murders/Work/settings_check_v01/render_provenance/engine_1_delivery.py",
+        "sha256": "d4611644090f7800fd09dbc3637a54a89b13ce6598edf7cf591cf33dc6275c29"
+      }
+    },
+    {
+      "original": {
+        "path": "/Users/diplomat/ytvideos/.agents/skills/ytv-paper-subtitles/scripts/semantic_grouping.py",
+        "sha256": "bffadc1824948632bbd62172093ded979d32dd09b644cc3aaac40164b9481b29"
+      },
+      "snapshot": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/research/great-escape-murders/Work/settings_check_v01/render_provenance/engine_2_semantic_grouping.py",
+        "sha256": "bffadc1824948632bbd62172093ded979d32dd09b644cc3aaac40164b9481b29"
+      }
+    }
+  ],
+  "prepared": {
+    "channel": "nuviko",
+    "format": "long",
+    "subtitle_mode": "words",
+    "audio": "/Users/diplomat/ytvideos/channels/nuviko_history/research/great-escape-murders/Work/Audio/mix_draft_v02.wav",
+    "canvas": [
+      2560,
+      1440
+    ],
+    "fps": 30,
+    "scenes": [
+      {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/great-escape-murders/Assets/Scenes/pilot_urn_v01.png",
+        "start_frame": 0,
+        "end_frame": 154,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/great-escape-murders/Assets/Scenes/pilot_cans_v01.png",
+        "start_frame": 154,
+        "end_frame": 301,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/great-escape-murders/Assets/Scenes/s03_statement_v02.png",
+        "start_frame": 301,
+        "end_frame": 444,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/great-escape-murders/Assets/Scenes/s04_reports_v01.png",
+        "start_frame": 444,
+        "end_frame": 598,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/great-escape-murders/Assets/Scenes/s05_matching_v02.png",
+        "start_frame": 598,
+        "end_frame": 758,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/great-escape-murders/Assets/Scenes/s06_rewrite_v02.png",
+        "start_frame": 758,
+        "end_frame": 908,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/great-escape-murders/Assets/Scenes/s07_camp_v01.png",
+        "start_frame": 908,
+        "end_frame": 1050,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/great-escape-murders/Assets/Scenes/s08_airmen_v01.png",
+        "start_frame": 1050,
+        "end_frame": 1190,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/great-escape-murders/Assets/Scenes/s09_digging_v01.png",
+        "start_frame": 1190,
+        "end_frame": 1348,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/great-escape-murders/Assets/Scenes/s10_bedboards_v01.png",
+        "start_frame": 1348,
+        "end_frame": 1502,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/great-escape-murders/Assets/Scenes/s11_queue_v01.png",
+        "start_frame": 1502,
+        "end_frame": 1646,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/great-escape-murders/Assets/Scenes/s12_exit_v01.png",
+        "start_frame": 1646,
+        "end_frame": 1798,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/great-escape-murders/Assets/Scenes/pilot_exit_v01.png",
+        "start_frame": 1798,
+        "end_frame": 1950,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/great-escape-murders/Assets/Scenes/s14_rope_v03.png",
+        "start_frame": 1950,
+        "end_frame": 2098,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/great-escape-murders/Assets/Scenes/s15_detection_v02.png",
+        "start_frame": 2098,
+        "end_frame": 2251,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/great-escape-murders/Assets/Scenes/s16_recap_v01.png",
+        "start_frame": 2251,
+        "end_frame": 2400,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/great-escape-murders/Assets/Scenes/s17_cars_v01.png",
+        "start_frame": 2400,
+        "end_frame": 2542,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/great-escape-murders/Assets/Scenes/s18_offices_v01.png",
+        "start_frame": 2542,
+        "end_frame": 2690,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/great-escape-murders/Assets/Scenes/s19_instructions_v01.png",
+        "start_frame": 2690,
+        "end_frame": 2857,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/great-escape-murders/Assets/Scenes/s20_prison_v02.png",
+        "start_frame": 2857,
+        "end_frame": 3000,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/great-escape-murders/Assets/Scenes/s21_false_account_v03.png",
+        "start_frame": 3000,
+        "end_frame": 3154,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/great-escape-murders/Assets/Scenes/s24_return_v01.png",
+        "start_frame": 3154,
+        "end_frame": 3305,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/great-escape-murders/Assets/Scenes/s22_cells_v01.png",
+        "start_frame": 3305,
+        "end_frame": 3458,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/great-escape-murders/Assets/Scenes/s23_handcuffs_v01.png",
+        "start_frame": 3458,
+        "end_frame": 3598,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/great-escape-murders/Assets/Scenes/s25_guarded_v02.png",
+        "start_frame": 3598,
+        "end_frame": 3746,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/great-escape-murders/Assets/Scenes/s26_after_v03.png",
+        "start_frame": 3746,
+        "end_frame": 3895,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/great-escape-murders/Assets/Scenes/pilot_urn_v01.png",
+        "start_frame": 3895,
+        "end_frame": 4054,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/great-escape-murders/Assets/Scenes/s28_rewrite_v02.png",
+        "start_frame": 4054,
+        "end_frame": 4198,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/great-escape-murders/Assets/Scenes/s29_swiss_v02.png",
+        "start_frame": 4198,
+        "end_frame": 4354,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/great-escape-murders/Assets/Scenes/s30_investigation_v01.png",
+        "start_frame": 4354,
+        "end_frame": 4504,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/great-escape-murders/Assets/Scenes/s31_evidence_v02.png",
+        "start_frame": 4504,
+        "end_frame": 4651,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/great-escape-murders/Assets/Scenes/s32_two_cars_v01.png",
+        "start_frame": 4651,
+        "end_frame": 4802,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/great-escape-murders/Assets/Scenes/s33_travel_v01.png",
+        "start_frame": 4802,
+        "end_frame": 4949,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/great-escape-murders/Assets/Scenes/s34_first_car_v02.png",
+        "start_frame": 4949,
+        "end_frame": 5102,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/great-escape-murders/Assets/Scenes/s35_road_v02.png",
+        "start_frame": 5102,
+        "end_frame": 5245,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/great-escape-murders/Assets/Scenes/s36_gate_v01.png",
+        "start_frame": 5245,
+        "end_frame": 5398,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/great-escape-murders/Assets/Scenes/s37_arrival_v02.png",
+        "start_frame": 5398,
+        "end_frame": 5554,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/great-escape-murders/Assets/Scenes/s38_drivers_v02.png",
+        "start_frame": 5554,
+        "end_frame": 5699,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/great-escape-murders/Assets/Scenes/s39_report_v01.png",
+        "start_frame": 5699,
+        "end_frame": 5851,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/great-escape-murders/Assets/Scenes/s40_refusal_v01.png",
+        "start_frame": 5851,
+        "end_frame": 6000,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/great-escape-murders/Assets/Scenes/s41_commander_v03.png",
+        "start_frame": 6000,
+        "end_frame": 6144,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/great-escape-murders/Assets/Scenes/s42_testimony_v02.png",
+        "start_frame": 6144,
+        "end_frame": 6299,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/great-escape-murders/Assets/Scenes/s43_disagreement_v02.png",
+        "start_frame": 6299,
+        "end_frame": 6451,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/great-escape-murders/Assets/Scenes/s44_responsibility_v03.png",
+        "start_frame": 6451,
+        "end_frame": 6602,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/great-escape-murders/Assets/Scenes/s45_court_v01.png",
+        "start_frame": 6602,
+        "end_frame": 6751,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/great-escape-murders/Assets/Scenes/s46_wielen_v01.png",
+        "start_frame": 6751,
+        "end_frame": 6902,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/great-escape-murders/Assets/Scenes/s47_search_v01.png",
+        "start_frame": 6902,
+        "end_frame": 7056,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/great-escape-murders/Assets/Scenes/s48_order_v02.png",
+        "start_frame": 7056,
+        "end_frame": 7202,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/great-escape-murders/Assets/Scenes/s49_sentence_v01.png",
+        "start_frame": 7202,
+        "end_frame": 7354,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/great-escape-murders/Assets/Scenes/s50_others_v01.png",
+        "start_frame": 7354,
+        "end_frame": 7506,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/great-escape-murders/Assets/Scenes/s51_defence_v02.png",
+        "start_frame": 7506,
+        "end_frame": 7655,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/great-escape-murders/Assets/Scenes/s52_field_v01.png",
+        "start_frame": 7655,
+        "end_frame": 7810,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/great-escape-murders/Assets/Scenes/s53_verdict_v02.png",
+        "start_frame": 7810,
+        "end_frame": 7950,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/great-escape-murders/Assets/Scenes/s27_urns_v03.png",
+        "start_frame": 7950,
+        "end_frame": 8105,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/great-escape-murders/Assets/Scenes/s55_camp_v01.png",
+        "start_frame": 8105,
+        "end_frame": 8253,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/great-escape-murders/Assets/Scenes/end_nature_v01.png",
+        "start_frame": 8253,
+        "end_frame": 8553,
+        "direction": "right_to_left",
+        "zoom": "out"
+      }
+    ],
+    "frames": 8553,
+    "manifest_path": "/Users/diplomat/ytvideos/channels/nuviko_history/research/great-escape-murders/Edit/Production/v01/manifest_v01.json",
+    "source_transfer": "srgb"
+  },
+  "audio_source": {
+    "codec_name": "pcm_s24le",
+    "sample_rate": "44100",
+    "channels": 2,
+    "duration": "285.120000",
+    "bit_rate": "2116800"
+  },
+  "settings": {
+    "scope": "pre-render settings only; no encoded-result or AV QA",
+    "timeline": {
+      "width": 2560,
+      "height": 1440,
+      "frame_count": 8553,
+      "sample_aspect_ratio": "1:1",
+      "aspect_ratio": "16:9",
+      "output_color_space": "Rec.709 SDR"
+    },
+    "video": {
+      "codec_name": "h264",
+      "pix_fmt": "yuv420p",
+      "scan": "progressive",
+      "cadence": "constant 30/1 fps",
+      "color_primaries": "bt709",
+      "color_transfer": "bt709",
+      "color_space": "bt709",
+      "color_range": "tv"
+    },
+    "audio": {
+      "codec_name": "aac",
+      "profile": "LC",
+      "channels": 2,
+      "sample_rate": 44100,
+      "mode": "aac",
+      "target_bit_rate": 256000
+    },
+    "requested_arguments": {
+      "encoder": "h264_videotoolbox",
+      "video_bitrate": 20000000,
+      "output_pix_fmt": "yuv420p",
+      "fps": "30/1",
+      "audio_codec": "aac",
+      "audio_profile": "aac_low",
+      "audio_bitrate": 256000,
+      "audio_sample_rate": 44100,
+      "audio_channels": 2
+    }
+  },
+  "ffmpeg_version": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+}

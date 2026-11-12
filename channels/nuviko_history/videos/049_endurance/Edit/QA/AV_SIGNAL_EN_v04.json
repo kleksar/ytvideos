@@ -1,0 +1,41 @@
+{
+  "file": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Deliverables/Endurance_en_review_v04.mp4",
+  "sha256": "5cb856cda02053b40f0309a95617253a41aae457cf8d607b01eb8fbd724dc059",
+  "atoms": [
+    {
+      "name": "ftyp",
+      "offset": 0,
+      "size": 32
+    },
+    {
+      "name": "moov",
+      "offset": 32,
+      "size": 480548
+    },
+    {
+      "name": "free",
+      "offset": 480580,
+      "size": 8
+    },
+    {
+      "name": "mdat",
+      "offset": 480588,
+      "size": 1412669425
+    }
+  ],
+  "source_mix": {
+    "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Work/sound_v04/mix_en_v04.wav",
+    "sha256": "ae5034b1b4ec34f5d72691a1660c381fcc977d1f370c7b1da5961d8fa32025f2"
+  },
+  "audio_handoff": {
+    "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Work/sound_v04/AUDIO_HANDOFF_v04.json",
+    "sha256": "5aada232918c4581ffd75b510cb38baa81821e29371ecc45e4945ac8d72cf2b7"
+  },
+  "duration_seconds": 559.84,
+  "min_5s_pcm_correlation": 0.9999325378797231,
+  "pcm_zero_origin_blocks": 112,
+  "integrated_loudness_and_true_peak_ffmpeg": "Integrated loudness:\n    I:         -22.1 LUFS\n    Threshold: -32.4 LUFS\n\n  Loudness range:\n    LRA:         4.0 LU\n    Threshold: -42.4 LUFS\n    LRA low:   -24.4 LUFS\n    LRA high:  -20.4 LUFS\n\n  True peak:\n    Peak:       -1.0 dBFS\n[out#0/null @ 0x7848c08840] video:0KiB audio:48222KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown\nsize=N/A time=00:09:19.85 bitrate=N/A speed= 279x elapsed=0:00:02.00",
+  "audio_signal": "PASS",
+  "subjective_audio_listening": "UNVERIFIED",
+  "method": "Compared all decoded AAC audio with the exact final mix over 112 aligned PCM blocks. Isolated-stem and unchanged-voice measurements in audio handoff. No listening claim."
+}

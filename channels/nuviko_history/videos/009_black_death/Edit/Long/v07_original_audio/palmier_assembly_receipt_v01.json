@@ -1,0 +1,2894 @@
+{
+  "projectId": "C7F9F043",
+  "sourceTimelineId": "05828824",
+  "targetTimelineId": "F382ACF5",
+  "targetTimelineName": "Black Death Remake v07 Original Audio — subtitles only",
+  "sourceSnapshotId": "4479C48D",
+  "targetSnapshot": {
+    "author": {
+      "kind": "agent",
+      "name": "yt-stories-inspect"
+    },
+    "createdAt": "2026-11-03T04:39:33Z",
+    "name": "Before clearing cloned v06 for v07 build",
+    "snapshotId": "8C34E680"
+  },
+  "initialTrackIds": [
+    "B136AB31",
+    "7665E8FF",
+    "5808EFA1",
+    "9F1D0768"
+  ],
+  "steps": [
+    {
+      "action": "remove_cloned_tracks",
+      "removedTrackIds": [
+        "B136AB31",
+        "7665E8FF",
+        "5808EFA1",
+        "9F1D0768"
+      ],
+      "result": {
+        "actionId": "2E2749AB",
+        "removedClipIds": [
+          "0036E229",
+          "0116EDFA",
+          "01C1238F",
+          "03EB63F2",
+          "04477DC3",
+          "04DFEF9D",
+          "04E7BB37",
+          "04F56E75",
+          "05CE14C4",
+          "0652F723",
+          "065419D3",
+          "07CFC398",
+          "08604C7C",
+          "099EE344",
+          "0A258201",
+          "0A267F48",
+          "0BDEFDD5",
+          "0C1D46F4",
+          "0CD716A0",
+          "0E3465D5",
+          "0E786DF1",
+          "0F69C9E2",
+          "0FEAF926",
+          "10184E09",
+          "1269ACDC",
+          "13FE3A97",
+          "151F2525",
+          "158F8961",
+          "1632BEEB",
+          "16D23C42",
+          "16FC433C",
+          "17CA7D8B",
+          "1A0614D1",
+          "1A423571",
+          "1A436B72",
+          "1A51B294",
+          "1A9E7B86",
+          "1AC37876",
+          "1B15E7A2",
+          "1B236F50",
+          "1B328B86",
+          "1BE78CCC",
+          "1CE8A8B3",
+          "1D7AE801",
+          "1DA68820",
+          "1E443A49",
+          "1F7D4E22",
+          "2066A047",
+          "2156A90E",
+          "218173F0",
+          "21CD93C1",
+          "21F00218",
+          "2239025D",
+          "2262E1C0",
+          "228693F3",
+          "24C61685",
+          "263DE073",
+          "26455F67",
+          "2649B3F0",
+          "26E73C9D",
+          "2786CBA8",
+          "2789A8F2",
+          "27A1B019",
+          "2A8377DA",
+          "2A885EE8",
+          "2AAEB9D7",
+          "2B47A91B",
+          "2C343133",
+          "2F3B4823",
+          "2F4F8B0F",
+          "2FDF6485",
+          "315CF4B7",
+          "33A90D35",
+          "33AFDCB6",
+          "33B8AF25",
+          "34166905",
+          "3469DA51",
+          "348326F7",
+          "356F935A",
+          "356F9F34",
+          "35A2A02C",
+          "35E8675A",
+          "360DC9E2",
+          "36CB0186",
+          "36E891EC",
+          "374AEAC4",
+          "37F4DC95",
+          "3825CD81",
+          "389B0796",
+          "396DECD5",
+          "396EFA96",
+          "399F609A",
+          "39E66D37",
+          "3A13F8CD",
+          "3A6827C5",
+          "3A9B8F27",
+          "3B13788F",
+          "3B816375",
+          "3CD4C995",
+          "3CDD7A4F",
+          "3D9CBB3A",
+          "3DAA516B",
+          "3DCA700A",
+          "3E117ADC",
+          "3E3B7084",
+          "3E605646",
+          "3EC12FC7",
+          "3EE1E227",
+          "3F5976F2",
+          "40603B23",
+          "4074AE3C",
+          "41BF2581",
+          "432BFD91",
+          "43BCC045",
+          "44C86A5A",
+          "451E7351",
+          "458E3496",
+          "46009C57",
+          "464B9835",
+          "493C52C2",
+          "498A40CC",
+          "4A9274CB",
+          "4B1D1396",
+          "4BB42B47",
+          "4CEBE4CC",
+          "4DE5055C",
+          "4F89096B",
+          "4FFC49B4",
+          "509033C4",
+          "52A98FA6",
+          "5337FD1D",
+          "53BCDE16",
+          "54BBBEDD",
+          "56356577",
+          "57E18852",
+          "5831AC6C",
+          "597BE98F",
+          "5AFCF275",
+          "5BEC1113",
+          "5D1370C2",
+          "5D9D15E6",
+          "5E317549",
+          "5F1C9FB0",
+          "5F3684AF",
+          "5FD1D718",
+          "616F1674",
+          "6189EB54",
+          "61A4F7B2",
+          "61A735AC",
+          "62531B18",
+          "6259D07F",
+          "626F5136",
+          "643BC86A",
+          "6454E3CB",
+          "648139EF",
+          "65DA3F84",
+          "669FE602",
+          "66B33620",
+          "66C0ED91",
+          "6724710B",
+          "6934D6E1",
+          "6AE57A59",
+          "6AEB37F0",
+          "6C102E6E",
+          "6C2D9275",
+          "6C7B8062",
+          "6CACF971",
+          "6DF619FB",
+          "6E6092E9",
+          "7098B350",
+          "70BAC743",
+          "71B19786",
+          "71E3AA52",
+          "71E4CFF2",
+          "71E9A0F7",
+          "724DFB7D",
+          "7325B35E",
+          "7325E6CA",
+          "74917295",
+          "74BB9A51",
+          "75EAE6CA",
+          "7700EC02",
+          "78ACBC03",
+          "78C0FD14",
+          "79BFF14D",
+          "7AE9A0D3",
+          "7B56F406",
+          "7B6C1084",
+          "7C9E2FC6",
+          "7DB9AA4E",
+          "7DD98171",
+          "7DFA7714",
+          "7E43C384",
+          "7E8773D6",
+          "7EB3119E",
+          "827F9DFE",
+          "84F4A66F",
+          "852CEB82",
+          "85F3C332",
+          "872917D3",
+          "874F40B2",
+          "87A4EF0C",
+          "87D133DF",
+          "8870D9B6",
+          "88A6BD60",
+          "898FBBFA",
+          "89AF97EB",
+          "8BF3D953",
+          "8C1E5629",
+          "8C938C5C",
+          "8CAA2FD3",
+          "8E1C8FD8",
+          "8E200EE3",
+          "8E4EC480",
+          "8E721F18",
+          "8E84EC06",
+          "8E8583E8",
+          "8EEBA543",
+          "906DB303",
+          "90F7A408",
+          "9163ED23",
+          "9211EF5E",
+          "9328FF5D",
+          "933F09FE",
+          "940933E5",
+          "95D861A2",
+          "95E8E3EC",
+          "96D0DBFF",
+          "96D47D09",
+          "978A2912",
+          "9848F5A5",
+          "996E47FB",
+          "99D2F693",
+          "9A398CF6",
+          "9C8F17B6",
+          "9D71FC6A",
+          "9E6879DF",
+          "9EB3A047",
+          "A0019A3C",
+          "A148707C",
+          "A38D7B8B",
+          "A4DFBAEB",
+          "A514BDAE",
+          "A585C8F7",
+          "A5D2F45B",
+          "A60C4EC4",
+          "A6AED237",
+          "A733581F",
+          "A7F65128",
+          "A834D482",
+          "A986FDBF",
+          "A9DD1E96",
+          "AA44BE1C",
+          "AA6E9A47",
+          "AC01129C",
+          "AC1A4381",
+          "ACC39A05",
+          "ADADD02C",
+          "ADCCE95C",
+          "AE86F0CE",
+          "AF6FA713",
+          "AFE8B131",
+          "B1006783",
+          "B2B09D18",
+          "B4A9F41C",
+          "B518D9A8",
+          "B6AC4CA8",
+          "B6F8294B",
+          "B746F1E5",
+          "B76E0EE4",
+          "B8713A8A",
+          "B8B86313",
+          "B944FBC4",
+          "B9740815",
+          "BAB00A9B",
+          "BB024C5F",
+          "BB30A828",
+          "BC182FBB",
+          "BC8500B0",
+          "BCA8CCAB",
+          "BCFE87D0",
+          "BD239631",
+          "BDECEF4C",
+          "BDF6AB6B",
+          "BF4F02BD",
+          "C0A550BA",
+          "C117B7E3",
+          "C186BF74",
+          "C25F257A",
+          "C284F7E6",
+          "C2CA13D0",
+          "C2F8CA31",
+          "C3E2C0E7",
+          "C52A3AA9",
+          "C6AE7E3B",
+          "C745B306",
+          "C75C964A",
+          "C7854729",
+          "C79463C1",
+          "C870337C",
+          "C96DAEE8",
+          "CA1542D5",
+          "CA596FF4",
+          "CC0752D3",
+          "CC721DE0",
+          "CDBC2FDA",
+          "CE4870E9",
+          "CECDFF1A",
+          "CECF3C15",
+          "CF59BCB3",
+          "D1EC3A01",
+          "D362BDAD",
+          "D45FFC40",
+          "D49BBA79",
+          "D4FDA68E",
+          "D5377E5A",
+          "D5381710",
+          "D6470745",
+          "D683E33E",
+          "D78AD2A7",
+          "D7BF71AD",
+          "D865996E",
+          "DA9F433E",
+          "DB303259",
+          "DB6A347C",
+          "DB8CADB0",
+          "DB949774",
+          "DC7B1458",
+          "DC808164",
+          "DD32363B",
+          "DE45DCD3",
+          "DE4EA130",
+          "DE72CDF0",
+          "DE9613EA",
+          "DEF1E769",
+          "DFC8A926",
+          "E0B1C876",
+          "E0E69325",
+          "E18DC0EB",
+          "E2879000",
+          "E3192E75",
+          "E34F9817",
+          "E501E7DA",
+          "E62A1412",
+          "E75DADB4",
+          "E822F624",
+          "E846A013",
+          "E8E65126",
+          "E8FE7784",
+          "ECADAACB",
+          "ED443A0C",
+          "ED81DCFF",
+          "EDFCE0EB",
+          "EE150914",
+          "EE9957F2",
+          "EEE434D6",
+          "EF199431",
+          "EF4E8DC8",
+          "EF6D6113",
+          "EF75B15A",
+          "EF94241E",
+          "EFF32C15",
+          "F0A0E1B7",
+          "F0A767DE",
+          "F271D728",
+          "F31B774D",
+          "F4062FE3",
+          "F524F21F",
+          "F55AC333",
+          "F5D0133E",
+          "F83C802C",
+          "FA49973E",
+          "FA64F357",
+          "FB3FAC6F",
+          "FC987017",
+          "FCEE5962",
+          "FDD5151A",
+          "FED1C2F7"
+        ],
+        "removedTracks": [
+          {
+            "index": 0,
+            "label": "V3",
+            "trackId": "B136AB31",
+            "type": "video"
+          },
+          {
+            "index": 1,
+            "label": "V2",
+            "trackId": "7665E8FF",
+            "type": "video"
+          },
+          {
+            "index": 2,
+            "label": "V1",
+            "trackId": "5808EFA1",
+            "type": "video"
+          },
+          {
+            "index": 3,
+            "label": "A1",
+            "trackId": "9F1D0768",
+            "type": "audio"
+          }
+        ],
+        "tracks": []
+      }
+    }
+  ],
+  "status": "assembled_stills_and_original_audio",
+  "sourceV06Baseline": {
+    "timelineId": "05828824",
+    "name": "Black Death Visual Assembly v06 — image motion",
+    "totalFrames": 21221,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "tracks": [
+      {
+        "trackId": "828D9274",
+        "type": "video",
+        "clipIds": [
+          "14F45520",
+          "6CF5FF0A",
+          "AD372B47",
+          "BCCEC4C3",
+          "CB23F255",
+          "CE84A4AD",
+          "DF521543"
+        ],
+        "captionGroups": []
+      },
+      {
+        "trackId": "284F492D",
+        "type": "video",
+        "clipIds": [],
+        "captionGroups": [
+          [
+            "2FAC9832",
+            342,
+            [
+              2,
+              21221
+            ]
+          ]
+        ]
+      },
+      {
+        "trackId": "23028D09",
+        "type": "video",
+        "clipIds": [
+          "07541019",
+          "0FE2198E",
+          "254AB10B",
+          "28E04BA4",
+          "3449FCD8",
+          "3DADC372",
+          "3EC39BD9",
+          "46623CE3",
+          "49597C9D",
+          "4FB3BCB8",
+          "67B1B049",
+          "7D162018",
+          "7E034B03",
+          "81A47AC3",
+          "91559836",
+          "AC04ADDD",
+          "B7925D31",
+          "B8DD9C66",
+          "B97020DB",
+          "BF821C8A",
+          "C8AE1691",
+          "CF4714E8",
+          "DFA5520D",
+          "E6652580",
+          "EB7460CC",
+          "ECD73920",
+          "F6B1A6E6",
+          "FE6ABD5B"
+        ],
+        "captionGroups": []
+      },
+      {
+        "trackId": "77817120",
+        "type": "audio",
+        "clipIds": [
+          "4835CC45"
+        ],
+        "captionGroups": []
+      }
+    ]
+  },
+  "failedAttempts": [
+    {
+      "action": "add_image_batch",
+      "sceneIndexes": [
+        0,
+        8
+      ],
+      "failure": "Palmier rejected explicit trackIndex 0 because the cloned timeline has no tracks. Live read confirmed target still has zero tracks and source v06 is unchanged."
+    }
+  ],
+  "imageBatches": [
+    {
+      "sceneIndexes": [
+        0,
+        8
+      ],
+      "clips": [
+        {
+          "shot_id": "S001",
+          "clipId": "C6BD1A98",
+          "frames": [
+            0,
+            179
+          ],
+          "mediaRef": "21732BDD"
+        },
+        {
+          "shot_id": "S002",
+          "clipId": "5E5A0DC5",
+          "frames": [
+            179,
+            359
+          ],
+          "mediaRef": "C8BE524C"
+        },
+        {
+          "shot_id": "S003",
+          "clipId": "113B82C9",
+          "frames": [
+            359,
+            539
+          ],
+          "mediaRef": "9EB8470A"
+        },
+        {
+          "shot_id": "S004",
+          "clipId": "03F11AE2",
+          "frames": [
+            539,
+            719
+          ],
+          "mediaRef": "E58BF1A4"
+        },
+        {
+          "shot_id": "S005",
+          "clipId": "96CCE285",
+          "frames": [
+            719,
+            899
+          ],
+          "mediaRef": "48C8F56A"
+        },
+        {
+          "shot_id": "S006",
+          "clipId": "9F4172BB",
+          "frames": [
+            899,
+            1079
+          ],
+          "mediaRef": "F4BC403B"
+        },
+        {
+          "shot_id": "S007",
+          "clipId": "2F9D0FAB",
+          "frames": [
+            1079,
+            1259
+          ],
+          "mediaRef": "535092D9"
+        },
+        {
+          "shot_id": "S008",
+          "clipId": "6A034F4C",
+          "frames": [
+            1259,
+            1438
+          ],
+          "mediaRef": "D1AB7DEE"
+        }
+      ],
+      "actionId": "926EDBD9"
+    },
+    {
+      "sceneIndexes": [
+        8,
+        16
+      ],
+      "clips": [
+        {
+          "shot_id": "S009",
+          "clipId": "02448086",
+          "frames": [
+            1438,
+            1618
+          ],
+          "mediaRef": "7565892E"
+        },
+        {
+          "shot_id": "S010",
+          "clipId": "EE984E03",
+          "frames": [
+            1618,
+            1798
+          ],
+          "mediaRef": "0DB70678"
+        },
+        {
+          "shot_id": "S011",
+          "clipId": "A9A847C4",
+          "frames": [
+            1798,
+            1978
+          ],
+          "mediaRef": "86E3474A"
+        },
+        {
+          "shot_id": "S012",
+          "clipId": "27EBDB69",
+          "frames": [
+            1978,
+            2158
+          ],
+          "mediaRef": "E8E6243A"
+        },
+        {
+          "shot_id": "S013",
+          "clipId": "0A4EAF4B",
+          "frames": [
+            2158,
+            2338
+          ],
+          "mediaRef": "01F91281"
+        },
+        {
+          "shot_id": "S014",
+          "clipId": "BAB6F4EA",
+          "frames": [
+            2338,
+            2518
+          ],
+          "mediaRef": "F83FA715"
+        },
+        {
+          "shot_id": "S015",
+          "clipId": "F83BC9A6",
+          "frames": [
+            2518,
+            2697
+          ],
+          "mediaRef": "7A9867CE"
+        },
+        {
+          "shot_id": "S016",
+          "clipId": "11DEC53A",
+          "frames": [
+            2697,
+            2877
+          ],
+          "mediaRef": "CB4BBCD8"
+        }
+      ],
+      "actionId": "7ADC58D8"
+    },
+    {
+      "sceneIndexes": [
+        16,
+        24
+      ],
+      "clips": [
+        {
+          "shot_id": "S017",
+          "clipId": "36A89787",
+          "frames": [
+            2877,
+            3057
+          ],
+          "mediaRef": "70041469"
+        },
+        {
+          "shot_id": "S018",
+          "clipId": "082F5CE3",
+          "frames": [
+            3057,
+            3237
+          ],
+          "mediaRef": "57426B42"
+        },
+        {
+          "shot_id": "S019",
+          "clipId": "354D292B",
+          "frames": [
+            3237,
+            3417
+          ],
+          "mediaRef": "85B763B6"
+        },
+        {
+          "shot_id": "S020",
+          "clipId": "DC74E26E",
+          "frames": [
+            3417,
+            3597
+          ],
+          "mediaRef": "7C5849D9"
+        },
+        {
+          "shot_id": "S021",
+          "clipId": "8755D9E9",
+          "frames": [
+            3597,
+            3777
+          ],
+          "mediaRef": "759259C4"
+        },
+        {
+          "shot_id": "S022",
+          "clipId": "9A0B4D04",
+          "frames": [
+            3777,
+            3957
+          ],
+          "mediaRef": "CC64AF0B"
+        },
+        {
+          "shot_id": "S023",
+          "clipId": "CCDC6A47",
+          "frames": [
+            3957,
+            4136
+          ],
+          "mediaRef": "E03572F7"
+        },
+        {
+          "shot_id": "S024",
+          "clipId": "F76D54CE",
+          "frames": [
+            4136,
+            4316
+          ],
+          "mediaRef": "9472EDCA"
+        }
+      ],
+      "actionId": "EA453D95"
+    },
+    {
+      "sceneIndexes": [
+        24,
+        32
+      ],
+      "clips": [
+        {
+          "shot_id": "S025",
+          "clipId": "E38E878E",
+          "frames": [
+            4316,
+            4496
+          ],
+          "mediaRef": "062975EB"
+        },
+        {
+          "shot_id": "S026",
+          "clipId": "9CD04BA6",
+          "frames": [
+            4496,
+            4676
+          ],
+          "mediaRef": "26E0D6EB"
+        },
+        {
+          "shot_id": "S027",
+          "clipId": "EA292187",
+          "frames": [
+            4676,
+            4856
+          ],
+          "mediaRef": "8D5A00AF"
+        },
+        {
+          "shot_id": "S028",
+          "clipId": "F1D98EF3",
+          "frames": [
+            4856,
+            5036
+          ],
+          "mediaRef": "AE92AF2C"
+        },
+        {
+          "shot_id": "S029",
+          "clipId": "FDDB7A83",
+          "frames": [
+            5036,
+            5216
+          ],
+          "mediaRef": "15890113"
+        },
+        {
+          "shot_id": "S030",
+          "clipId": "EB32925A",
+          "frames": [
+            5216,
+            5395
+          ],
+          "mediaRef": "EB701109"
+        },
+        {
+          "shot_id": "S031",
+          "clipId": "C620C43F",
+          "frames": [
+            5395,
+            5575
+          ],
+          "mediaRef": "69967A4E"
+        },
+        {
+          "shot_id": "S032",
+          "clipId": "B228593E",
+          "frames": [
+            5575,
+            5755
+          ],
+          "mediaRef": "9EDD42E6"
+        }
+      ],
+      "actionId": "7EFE0143"
+    },
+    {
+      "sceneIndexes": [
+        32,
+        40
+      ],
+      "clips": [
+        {
+          "shot_id": "S033",
+          "clipId": "66F4C14C",
+          "frames": [
+            5755,
+            5935
+          ],
+          "mediaRef": "EE1E0059"
+        },
+        {
+          "shot_id": "S034",
+          "clipId": "E3BA9B46",
+          "frames": [
+            5935,
+            6115
+          ],
+          "mediaRef": "70F91429"
+        },
+        {
+          "shot_id": "S035",
+          "clipId": "3E168EEA",
+          "frames": [
+            6115,
+            6295
+          ],
+          "mediaRef": "B0F706BA"
+        },
+        {
+          "shot_id": "S036",
+          "clipId": "A65F40D0",
+          "frames": [
+            6295,
+            6475
+          ],
+          "mediaRef": "B7BAC4C5"
+        },
+        {
+          "shot_id": "S037",
+          "clipId": "C3398259",
+          "frames": [
+            6475,
+            6654
+          ],
+          "mediaRef": "7F5FE8AA"
+        },
+        {
+          "shot_id": "S038",
+          "clipId": "124F0A00",
+          "frames": [
+            6654,
+            6834
+          ],
+          "mediaRef": "180C5CA0"
+        },
+        {
+          "shot_id": "S039",
+          "clipId": "62ABCD61",
+          "frames": [
+            6834,
+            7014
+          ],
+          "mediaRef": "921A056F"
+        },
+        {
+          "shot_id": "S040",
+          "clipId": "0C8E941D",
+          "frames": [
+            7014,
+            7194
+          ],
+          "mediaRef": "61ECB642"
+        }
+      ],
+      "actionId": "D5B4DE96"
+    },
+    {
+      "sceneIndexes": [
+        40,
+        48
+      ],
+      "clips": [
+        {
+          "shot_id": "S041",
+          "clipId": "96531A3F",
+          "frames": [
+            7194,
+            7374
+          ],
+          "mediaRef": "5BEF3743"
+        },
+        {
+          "shot_id": "S042",
+          "clipId": "C9EB8B33",
+          "frames": [
+            7374,
+            7554
+          ],
+          "mediaRef": "28756172"
+        },
+        {
+          "shot_id": "S043",
+          "clipId": "A1E8C909",
+          "frames": [
+            7554,
+            7734
+          ],
+          "mediaRef": "5F0F4672"
+        },
+        {
+          "shot_id": "S044",
+          "clipId": "2B576E55",
+          "frames": [
+            7734,
+            7914
+          ],
+          "mediaRef": "AA0E0A8C"
+        },
+        {
+          "shot_id": "S045",
+          "clipId": "F4CB429F",
+          "frames": [
+            7914,
+            8093
+          ],
+          "mediaRef": "DB8D561F"
+        },
+        {
+          "shot_id": "S046",
+          "clipId": "9DA7D8A3",
+          "frames": [
+            8093,
+            8273
+          ],
+          "mediaRef": "FFB9EE8A"
+        },
+        {
+          "shot_id": "S047",
+          "clipId": "32807F56",
+          "frames": [
+            8273,
+            8453
+          ],
+          "mediaRef": "D6CF9511"
+        },
+        {
+          "shot_id": "S048",
+          "clipId": "9F91B60B",
+          "frames": [
+            8453,
+            8633
+          ],
+          "mediaRef": "F974965D"
+        }
+      ],
+      "actionId": "34DB9F47"
+    },
+    {
+      "sceneIndexes": [
+        48,
+        56
+      ],
+      "clips": [
+        {
+          "shot_id": "S049",
+          "clipId": "5D4778B0",
+          "frames": [
+            8633,
+            8813
+          ],
+          "mediaRef": "53D13121"
+        },
+        {
+          "shot_id": "S050",
+          "clipId": "622ED140",
+          "frames": [
+            8813,
+            8993
+          ],
+          "mediaRef": "EE37C1C3"
+        },
+        {
+          "shot_id": "S051",
+          "clipId": "B3450429",
+          "frames": [
+            8993,
+            9173
+          ],
+          "mediaRef": "F58BC187"
+        },
+        {
+          "shot_id": "S052",
+          "clipId": "7039ECF1",
+          "frames": [
+            9173,
+            9352
+          ],
+          "mediaRef": "694371A1"
+        },
+        {
+          "shot_id": "S053",
+          "clipId": "483C08F1",
+          "frames": [
+            9352,
+            9532
+          ],
+          "mediaRef": "71154DB8"
+        },
+        {
+          "shot_id": "S054",
+          "clipId": "0FC8745F",
+          "frames": [
+            9532,
+            9712
+          ],
+          "mediaRef": "E8623057"
+        },
+        {
+          "shot_id": "S055",
+          "clipId": "9AE80387",
+          "frames": [
+            9712,
+            9892
+          ],
+          "mediaRef": "53401917"
+        },
+        {
+          "shot_id": "S056",
+          "clipId": "17F8B40B",
+          "frames": [
+            9892,
+            10072
+          ],
+          "mediaRef": "07772B16"
+        }
+      ],
+      "actionId": "D3B2EEF7"
+    },
+    {
+      "sceneIndexes": [
+        56,
+        64
+      ],
+      "clips": [
+        {
+          "shot_id": "S057",
+          "clipId": "402B352D",
+          "frames": [
+            10072,
+            10252
+          ],
+          "mediaRef": "0A00BADB"
+        },
+        {
+          "shot_id": "S058",
+          "clipId": "F3A33068",
+          "frames": [
+            10252,
+            10432
+          ],
+          "mediaRef": "1873697E"
+        },
+        {
+          "shot_id": "S059",
+          "clipId": "64201A6D",
+          "frames": [
+            10432,
+            10612
+          ],
+          "mediaRef": "49E149EE"
+        },
+        {
+          "shot_id": "S060",
+          "clipId": "6CE5B611",
+          "frames": [
+            10612,
+            10791
+          ],
+          "mediaRef": "CECAA367"
+        },
+        {
+          "shot_id": "S061",
+          "clipId": "58A87BD1",
+          "frames": [
+            10791,
+            10971
+          ],
+          "mediaRef": "C49B75CC"
+        },
+        {
+          "shot_id": "S062",
+          "clipId": "F8D7492C",
+          "frames": [
+            10971,
+            11151
+          ],
+          "mediaRef": "6E96BA6D"
+        },
+        {
+          "shot_id": "S063",
+          "clipId": "E44F6D20",
+          "frames": [
+            11151,
+            11331
+          ],
+          "mediaRef": "17EE2F46"
+        },
+        {
+          "shot_id": "S064",
+          "clipId": "79752059",
+          "frames": [
+            11331,
+            11511
+          ],
+          "mediaRef": "AC8BE0E9"
+        }
+      ],
+      "actionId": "1F3ED771"
+    },
+    {
+      "sceneIndexes": [
+        64,
+        72
+      ],
+      "clips": [
+        {
+          "shot_id": "S065",
+          "clipId": "417DD033",
+          "frames": [
+            11511,
+            11691
+          ],
+          "mediaRef": "45DE4900"
+        },
+        {
+          "shot_id": "S066",
+          "clipId": "2254B566",
+          "frames": [
+            11691,
+            11871
+          ],
+          "mediaRef": "161E8553"
+        },
+        {
+          "shot_id": "S067",
+          "clipId": "43F23E4F",
+          "frames": [
+            11871,
+            12050
+          ],
+          "mediaRef": "2F59DCF3"
+        },
+        {
+          "shot_id": "S068",
+          "clipId": "3718909B",
+          "frames": [
+            12050,
+            12230
+          ],
+          "mediaRef": "DA5CA61A"
+        },
+        {
+          "shot_id": "S069",
+          "clipId": "638FB73A",
+          "frames": [
+            12230,
+            12410
+          ],
+          "mediaRef": "9598CAA8"
+        },
+        {
+          "shot_id": "S070",
+          "clipId": "85508B2A",
+          "frames": [
+            12410,
+            12590
+          ],
+          "mediaRef": "D86F8604"
+        },
+        {
+          "shot_id": "S071",
+          "clipId": "766792EC",
+          "frames": [
+            12590,
+            12770
+          ],
+          "mediaRef": "F6329600"
+        },
+        {
+          "shot_id": "S072",
+          "clipId": "6E823E3C",
+          "frames": [
+            12770,
+            12950
+          ],
+          "mediaRef": "C51A604C"
+        }
+      ],
+      "actionId": "4B77C60C"
+    },
+    {
+      "sceneIndexes": [
+        72,
+        80
+      ],
+      "clips": [
+        {
+          "shot_id": "S073",
+          "clipId": "9160E5CE",
+          "frames": [
+            12950,
+            13130
+          ],
+          "mediaRef": "DD956970"
+        },
+        {
+          "shot_id": "S074",
+          "clipId": "0BD87012",
+          "frames": [
+            13130,
+            13309
+          ],
+          "mediaRef": "0EF84397"
+        },
+        {
+          "shot_id": "S075",
+          "clipId": "145ED173",
+          "frames": [
+            13309,
+            13489
+          ],
+          "mediaRef": "B8349255"
+        },
+        {
+          "shot_id": "S076",
+          "clipId": "9374D17B",
+          "frames": [
+            13489,
+            13669
+          ],
+          "mediaRef": "D7624204"
+        },
+        {
+          "shot_id": "S077",
+          "clipId": "32ED75F1",
+          "frames": [
+            13669,
+            13849
+          ],
+          "mediaRef": "1FF8A651"
+        },
+        {
+          "shot_id": "S078",
+          "clipId": "70C3A83E",
+          "frames": [
+            13849,
+            14029
+          ],
+          "mediaRef": "A312D641"
+        },
+        {
+          "shot_id": "S079",
+          "clipId": "6FAD6B1C",
+          "frames": [
+            14029,
+            14209
+          ],
+          "mediaRef": "05B960C8"
+        },
+        {
+          "shot_id": "S080",
+          "clipId": "A2D6FF49",
+          "frames": [
+            14209,
+            14389
+          ],
+          "mediaRef": "559CD793"
+        }
+      ],
+      "actionId": "E8592DB7"
+    },
+    {
+      "sceneIndexes": [
+        80,
+        88
+      ],
+      "clips": [
+        {
+          "shot_id": "S081",
+          "clipId": "E0197B79",
+          "frames": [
+            14389,
+            14569
+          ],
+          "mediaRef": "4BEB5151"
+        },
+        {
+          "shot_id": "S082",
+          "clipId": "8522EC5C",
+          "frames": [
+            14569,
+            14748
+          ],
+          "mediaRef": "8636B2B1"
+        },
+        {
+          "shot_id": "S083",
+          "clipId": "3C779D07",
+          "frames": [
+            14748,
+            14928
+          ],
+          "mediaRef": "75478E97"
+        },
+        {
+          "shot_id": "S084",
+          "clipId": "C0C11D0E",
+          "frames": [
+            14928,
+            15108
+          ],
+          "mediaRef": "DFA1F456"
+        },
+        {
+          "shot_id": "S085",
+          "clipId": "9BF8E65C",
+          "frames": [
+            15108,
+            15288
+          ],
+          "mediaRef": "BB4056A8"
+        },
+        {
+          "shot_id": "S086",
+          "clipId": "CCFE6233",
+          "frames": [
+            15288,
+            15468
+          ],
+          "mediaRef": "D78DDC08"
+        },
+        {
+          "shot_id": "S087",
+          "clipId": "2366D201",
+          "frames": [
+            15468,
+            15648
+          ],
+          "mediaRef": "5AA35DA5"
+        },
+        {
+          "shot_id": "S088",
+          "clipId": "3A89C8A6",
+          "frames": [
+            15648,
+            15828
+          ],
+          "mediaRef": "6620810F"
+        }
+      ],
+      "actionId": "787766BA"
+    },
+    {
+      "sceneIndexes": [
+        88,
+        96
+      ],
+      "clips": [
+        {
+          "shot_id": "S089",
+          "clipId": "E00BE027",
+          "frames": [
+            15828,
+            16007
+          ],
+          "mediaRef": "18EE9CAD"
+        },
+        {
+          "shot_id": "S090",
+          "clipId": "9686FD52",
+          "frames": [
+            16007,
+            16187
+          ],
+          "mediaRef": "7C752466"
+        },
+        {
+          "shot_id": "S091",
+          "clipId": "230C5D27",
+          "frames": [
+            16187,
+            16367
+          ],
+          "mediaRef": "37C54C94"
+        },
+        {
+          "shot_id": "S092",
+          "clipId": "2AD4F1A0",
+          "frames": [
+            16367,
+            16547
+          ],
+          "mediaRef": "C7A37F39"
+        },
+        {
+          "shot_id": "S093",
+          "clipId": "368F6853",
+          "frames": [
+            16547,
+            16727
+          ],
+          "mediaRef": "1F3F20F7"
+        },
+        {
+          "shot_id": "S094",
+          "clipId": "73FCD934",
+          "frames": [
+            16727,
+            16907
+          ],
+          "mediaRef": "16A1C1A8"
+        },
+        {
+          "shot_id": "S095",
+          "clipId": "D0D208FB",
+          "frames": [
+            16907,
+            17087
+          ],
+          "mediaRef": "F2BC5F47"
+        },
+        {
+          "shot_id": "S096",
+          "clipId": "C7472370",
+          "frames": [
+            17087,
+            17266
+          ],
+          "mediaRef": "D0A2ED2F"
+        }
+      ],
+      "actionId": "851F03F4"
+    },
+    {
+      "sceneIndexes": [
+        96,
+        104
+      ],
+      "clips": [
+        {
+          "shot_id": "S097",
+          "clipId": "A8653CC1",
+          "frames": [
+            17266,
+            17446
+          ],
+          "mediaRef": "9B823896"
+        },
+        {
+          "shot_id": "S098",
+          "clipId": "7D4E0A51",
+          "frames": [
+            17446,
+            17626
+          ],
+          "mediaRef": "BF62E0E1"
+        },
+        {
+          "shot_id": "S099",
+          "clipId": "A0FBDB95",
+          "frames": [
+            17626,
+            17806
+          ],
+          "mediaRef": "8150577E"
+        },
+        {
+          "shot_id": "S100",
+          "clipId": "6C432413",
+          "frames": [
+            17806,
+            17986
+          ],
+          "mediaRef": "A6B623A6"
+        },
+        {
+          "shot_id": "S101",
+          "clipId": "36C9CC14",
+          "frames": [
+            17986,
+            18166
+          ],
+          "mediaRef": "6E6A6B73"
+        },
+        {
+          "shot_id": "S102",
+          "clipId": "70DBCC1F",
+          "frames": [
+            18166,
+            18346
+          ],
+          "mediaRef": "531D6A66"
+        },
+        {
+          "shot_id": "S103",
+          "clipId": "52120E81",
+          "frames": [
+            18346,
+            18526
+          ],
+          "mediaRef": "22B419C0"
+        },
+        {
+          "shot_id": "S104",
+          "clipId": "780D94D9",
+          "frames": [
+            18526,
+            18705
+          ],
+          "mediaRef": "BC2137AA"
+        }
+      ],
+      "actionId": "6164E43A"
+    },
+    {
+      "sceneIndexes": [
+        104,
+        112
+      ],
+      "clips": [
+        {
+          "shot_id": "S105",
+          "clipId": "4A017BC9",
+          "frames": [
+            18705,
+            18885
+          ],
+          "mediaRef": "393A2232"
+        },
+        {
+          "shot_id": "S106",
+          "clipId": "E768D19B",
+          "frames": [
+            18885,
+            19065
+          ],
+          "mediaRef": "AFD144B3"
+        },
+        {
+          "shot_id": "S107",
+          "clipId": "71DFA964",
+          "frames": [
+            19065,
+            19245
+          ],
+          "mediaRef": "B374470D"
+        },
+        {
+          "shot_id": "S108",
+          "clipId": "BE4820FE",
+          "frames": [
+            19245,
+            19425
+          ],
+          "mediaRef": "FA819264"
+        },
+        {
+          "shot_id": "S109",
+          "clipId": "8E9C823E",
+          "frames": [
+            19425,
+            19605
+          ],
+          "mediaRef": "44CA507D"
+        },
+        {
+          "shot_id": "S110",
+          "clipId": "5B301F6B",
+          "frames": [
+            19605,
+            19785
+          ],
+          "mediaRef": "384146B5"
+        },
+        {
+          "shot_id": "S111",
+          "clipId": "453172AC",
+          "frames": [
+            19785,
+            19964
+          ],
+          "mediaRef": "0EB2FD34"
+        },
+        {
+          "shot_id": "S112",
+          "clipId": "08EC58D1",
+          "frames": [
+            19964,
+            20144
+          ],
+          "mediaRef": "F5C5E9D9"
+        }
+      ],
+      "actionId": "8073FED4"
+    },
+    {
+      "sceneIndexes": [
+        112,
+        118
+      ],
+      "clips": [
+        {
+          "shot_id": "S113",
+          "clipId": "790265C9",
+          "frames": [
+            20144,
+            20324
+          ],
+          "mediaRef": "528DB853"
+        },
+        {
+          "shot_id": "S114",
+          "clipId": "4459A094",
+          "frames": [
+            20324,
+            20504
+          ],
+          "mediaRef": "523CED73"
+        },
+        {
+          "shot_id": "S115",
+          "clipId": "98056227",
+          "frames": [
+            20504,
+            20684
+          ],
+          "mediaRef": "ADAB4781"
+        },
+        {
+          "shot_id": "S116",
+          "clipId": "E5909D89",
+          "frames": [
+            20684,
+            20864
+          ],
+          "mediaRef": "441AE597"
+        },
+        {
+          "shot_id": "S117",
+          "clipId": "8B3C4349",
+          "frames": [
+            20864,
+            21044
+          ],
+          "mediaRef": "936EC541"
+        },
+        {
+          "shot_id": "S118",
+          "clipId": "F8AC3E8E",
+          "frames": [
+            21044,
+            21224
+          ],
+          "mediaRef": "8C916421"
+        }
+      ],
+      "actionId": "858207DB"
+    }
+  ],
+  "imageClips": [
+    {
+      "shot_id": "S001",
+      "clipId": "C6BD1A98",
+      "frames": [
+        0,
+        179
+      ],
+      "mediaRef": "21732BDD"
+    },
+    {
+      "shot_id": "S002",
+      "clipId": "5E5A0DC5",
+      "frames": [
+        179,
+        359
+      ],
+      "mediaRef": "C8BE524C"
+    },
+    {
+      "shot_id": "S003",
+      "clipId": "113B82C9",
+      "frames": [
+        359,
+        539
+      ],
+      "mediaRef": "9EB8470A"
+    },
+    {
+      "shot_id": "S004",
+      "clipId": "03F11AE2",
+      "frames": [
+        539,
+        719
+      ],
+      "mediaRef": "E58BF1A4"
+    },
+    {
+      "shot_id": "S005",
+      "clipId": "96CCE285",
+      "frames": [
+        719,
+        899
+      ],
+      "mediaRef": "48C8F56A"
+    },
+    {
+      "shot_id": "S006",
+      "clipId": "9F4172BB",
+      "frames": [
+        899,
+        1079
+      ],
+      "mediaRef": "F4BC403B"
+    },
+    {
+      "shot_id": "S007",
+      "clipId": "2F9D0FAB",
+      "frames": [
+        1079,
+        1259
+      ],
+      "mediaRef": "535092D9"
+    },
+    {
+      "shot_id": "S008",
+      "clipId": "6A034F4C",
+      "frames": [
+        1259,
+        1438
+      ],
+      "mediaRef": "D1AB7DEE"
+    },
+    {
+      "shot_id": "S009",
+      "clipId": "02448086",
+      "frames": [
+        1438,
+        1618
+      ],
+      "mediaRef": "7565892E"
+    },
+    {
+      "shot_id": "S010",
+      "clipId": "EE984E03",
+      "frames": [
+        1618,
+        1798
+      ],
+      "mediaRef": "0DB70678"
+    },
+    {
+      "shot_id": "S011",
+      "clipId": "A9A847C4",
+      "frames": [
+        1798,
+        1978
+      ],
+      "mediaRef": "86E3474A"
+    },
+    {
+      "shot_id": "S012",
+      "clipId": "27EBDB69",
+      "frames": [
+        1978,
+        2158
+      ],
+      "mediaRef": "E8E6243A"
+    },
+    {
+      "shot_id": "S013",
+      "clipId": "0A4EAF4B",
+      "frames": [
+        2158,
+        2338
+      ],
+      "mediaRef": "01F91281"
+    },
+    {
+      "shot_id": "S014",
+      "clipId": "BAB6F4EA",
+      "frames": [
+        2338,
+        2518
+      ],
+      "mediaRef": "F83FA715"
+    },
+    {
+      "shot_id": "S015",
+      "clipId": "F83BC9A6",
+      "frames": [
+        2518,
+        2697
+      ],
+      "mediaRef": "7A9867CE"
+    },
+    {
+      "shot_id": "S016",
+      "clipId": "11DEC53A",
+      "frames": [
+        2697,
+        2877
+      ],
+      "mediaRef": "CB4BBCD8"
+    },
+    {
+      "shot_id": "S017",
+      "clipId": "36A89787",
+      "frames": [
+        2877,
+        3057
+      ],
+      "mediaRef": "70041469"
+    },
+    {
+      "shot_id": "S018",
+      "clipId": "082F5CE3",
+      "frames": [
+        3057,
+        3237
+      ],
+      "mediaRef": "57426B42"
+    },
+    {
+      "shot_id": "S019",
+      "clipId": "354D292B",
+      "frames": [
+        3237,
+        3417
+      ],
+      "mediaRef": "85B763B6"
+    },
+    {
+      "shot_id": "S020",
+      "clipId": "DC74E26E",
+      "frames": [
+        3417,
+        3597
+      ],
+      "mediaRef": "7C5849D9"
+    },
+    {
+      "shot_id": "S021",
+      "clipId": "8755D9E9",
+      "frames": [
+        3597,
+        3777
+      ],
+      "mediaRef": "759259C4"
+    },
+    {
+      "shot_id": "S022",
+      "clipId": "9A0B4D04",
+      "frames": [
+        3777,
+        3957
+      ],
+      "mediaRef": "CC64AF0B"
+    },
+    {
+      "shot_id": "S023",
+      "clipId": "CCDC6A47",
+      "frames": [
+        3957,
+        4136
+      ],
+      "mediaRef": "E03572F7"
+    },
+    {
+      "shot_id": "S024",
+      "clipId": "F76D54CE",
+      "frames": [
+        4136,
+        4316
+      ],
+      "mediaRef": "9472EDCA"
+    },
+    {
+      "shot_id": "S025",
+      "clipId": "E38E878E",
+      "frames": [
+        4316,
+        4496
+      ],
+      "mediaRef": "062975EB"
+    },
+    {
+      "shot_id": "S026",
+      "clipId": "9CD04BA6",
+      "frames": [
+        4496,
+        4676
+      ],
+      "mediaRef": "26E0D6EB"
+    },
+    {
+      "shot_id": "S027",
+      "clipId": "EA292187",
+      "frames": [
+        4676,
+        4856
+      ],
+      "mediaRef": "8D5A00AF"
+    },
+    {
+      "shot_id": "S028",
+      "clipId": "F1D98EF3",
+      "frames": [
+        4856,
+        5036
+      ],
+      "mediaRef": "AE92AF2C"
+    },
+    {
+      "shot_id": "S029",
+      "clipId": "FDDB7A83",
+      "frames": [
+        5036,
+        5216
+      ],
+      "mediaRef": "15890113"
+    },
+    {
+      "shot_id": "S030",
+      "clipId": "EB32925A",
+      "frames": [
+        5216,
+        5395
+      ],
+      "mediaRef": "EB701109"
+    },
+    {
+      "shot_id": "S031",
+      "clipId": "C620C43F",
+      "frames": [
+        5395,
+        5575
+      ],
+      "mediaRef": "69967A4E"
+    },
+    {
+      "shot_id": "S032",
+      "clipId": "B228593E",
+      "frames": [
+        5575,
+        5755
+      ],
+      "mediaRef": "9EDD42E6"
+    },
+    {
+      "shot_id": "S033",
+      "clipId": "66F4C14C",
+      "frames": [
+        5755,
+        5935
+      ],
+      "mediaRef": "EE1E0059"
+    },
+    {
+      "shot_id": "S034",
+      "clipId": "E3BA9B46",
+      "frames": [
+        5935,
+        6115
+      ],
+      "mediaRef": "70F91429"
+    },
+    {
+      "shot_id": "S035",
+      "clipId": "3E168EEA",
+      "frames": [
+        6115,
+        6295
+      ],
+      "mediaRef": "B0F706BA"
+    },
+    {
+      "shot_id": "S036",
+      "clipId": "A65F40D0",
+      "frames": [
+        6295,
+        6475
+      ],
+      "mediaRef": "B7BAC4C5"
+    },
+    {
+      "shot_id": "S037",
+      "clipId": "C3398259",
+      "frames": [
+        6475,
+        6654
+      ],
+      "mediaRef": "7F5FE8AA"
+    },
+    {
+      "shot_id": "S038",
+      "clipId": "124F0A00",
+      "frames": [
+        6654,
+        6834
+      ],
+      "mediaRef": "180C5CA0"
+    },
+    {
+      "shot_id": "S039",
+      "clipId": "62ABCD61",
+      "frames": [
+        6834,
+        7014
+      ],
+      "mediaRef": "921A056F"
+    },
+    {
+      "shot_id": "S040",
+      "clipId": "0C8E941D",
+      "frames": [
+        7014,
+        7194
+      ],
+      "mediaRef": "61ECB642"
+    },
+    {
+      "shot_id": "S041",
+      "clipId": "96531A3F",
+      "frames": [
+        7194,
+        7374
+      ],
+      "mediaRef": "5BEF3743"
+    },
+    {
+      "shot_id": "S042",
+      "clipId": "C9EB8B33",
+      "frames": [
+        7374,
+        7554
+      ],
+      "mediaRef": "28756172"
+    },
+    {
+      "shot_id": "S043",
+      "clipId": "A1E8C909",
+      "frames": [
+        7554,
+        7734
+      ],
+      "mediaRef": "5F0F4672"
+    },
+    {
+      "shot_id": "S044",
+      "clipId": "2B576E55",
+      "frames": [
+        7734,
+        7914
+      ],
+      "mediaRef": "AA0E0A8C"
+    },
+    {
+      "shot_id": "S045",
+      "clipId": "F4CB429F",
+      "frames": [
+        7914,
+        8093
+      ],
+      "mediaRef": "DB8D561F"
+    },
+    {
+      "shot_id": "S046",
+      "clipId": "9DA7D8A3",
+      "frames": [
+        8093,
+        8273
+      ],
+      "mediaRef": "FFB9EE8A"
+    },
+    {
+      "shot_id": "S047",
+      "clipId": "32807F56",
+      "frames": [
+        8273,
+        8453
+      ],
+      "mediaRef": "D6CF9511"
+    },
+    {
+      "shot_id": "S048",
+      "clipId": "9F91B60B",
+      "frames": [
+        8453,
+        8633
+      ],
+      "mediaRef": "F974965D"
+    },
+    {
+      "shot_id": "S049",
+      "clipId": "5D4778B0",
+      "frames": [
+        8633,
+        8813
+      ],
+      "mediaRef": "53D13121"
+    },
+    {
+      "shot_id": "S050",
+      "clipId": "622ED140",
+      "frames": [
+        8813,
+        8993
+      ],
+      "mediaRef": "EE37C1C3"
+    },
+    {
+      "shot_id": "S051",
+      "clipId": "B3450429",
+      "frames": [
+        8993,
+        9173
+      ],
+      "mediaRef": "F58BC187"
+    },
+    {
+      "shot_id": "S052",
+      "clipId": "7039ECF1",
+      "frames": [
+        9173,
+        9352
+      ],
+      "mediaRef": "694371A1"
+    },
+    {
+      "shot_id": "S053",
+      "clipId": "483C08F1",
+      "frames": [
+        9352,
+        9532
+      ],
+      "mediaRef": "71154DB8"
+    },
+    {
+      "shot_id": "S054",
+      "clipId": "0FC8745F",
+      "frames": [
+        9532,
+        9712
+      ],
+      "mediaRef": "E8623057"
+    },
+    {
+      "shot_id": "S055",
+      "clipId": "9AE80387",
+      "frames": [
+        9712,
+        9892
+      ],
+      "mediaRef": "53401917"
+    },
+    {
+      "shot_id": "S056",
+      "clipId": "17F8B40B",
+      "frames": [
+        9892,
+        10072
+      ],
+      "mediaRef": "07772B16"
+    },
+    {
+      "shot_id": "S057",
+      "clipId": "402B352D",
+      "frames": [
+        10072,
+        10252
+      ],
+      "mediaRef": "0A00BADB"
+    },
+    {
+      "shot_id": "S058",
+      "clipId": "F3A33068",
+      "frames": [
+        10252,
+        10432
+      ],
+      "mediaRef": "1873697E"
+    },
+    {
+      "shot_id": "S059",
+      "clipId": "64201A6D",
+      "frames": [
+        10432,
+        10612
+      ],
+      "mediaRef": "49E149EE"
+    },
+    {
+      "shot_id": "S060",
+      "clipId": "6CE5B611",
+      "frames": [
+        10612,
+        10791
+      ],
+      "mediaRef": "CECAA367"
+    },
+    {
+      "shot_id": "S061",
+      "clipId": "58A87BD1",
+      "frames": [
+        10791,
+        10971
+      ],
+      "mediaRef": "C49B75CC"
+    },
+    {
+      "shot_id": "S062",
+      "clipId": "F8D7492C",
+      "frames": [
+        10971,
+        11151
+      ],
+      "mediaRef": "6E96BA6D"
+    },
+    {
+      "shot_id": "S063",
+      "clipId": "E44F6D20",
+      "frames": [
+        11151,
+        11331
+      ],
+      "mediaRef": "17EE2F46"
+    },
+    {
+      "shot_id": "S064",
+      "clipId": "79752059",
+      "frames": [
+        11331,
+        11511
+      ],
+      "mediaRef": "AC8BE0E9"
+    },
+    {
+      "shot_id": "S065",
+      "clipId": "417DD033",
+      "frames": [
+        11511,
+        11691
+      ],
+      "mediaRef": "45DE4900"
+    },
+    {
+      "shot_id": "S066",
+      "clipId": "2254B566",
+      "frames": [
+        11691,
+        11871
+      ],
+      "mediaRef": "161E8553"
+    },
+    {
+      "shot_id": "S067",
+      "clipId": "43F23E4F",
+      "frames": [
+        11871,
+        12050
+      ],
+      "mediaRef": "2F59DCF3"
+    },
+    {
+      "shot_id": "S068",
+      "clipId": "3718909B",
+      "frames": [
+        12050,
+        12230
+      ],
+      "mediaRef": "DA5CA61A"
+    },
+    {
+      "shot_id": "S069",
+      "clipId": "638FB73A",
+      "frames": [
+        12230,
+        12410
+      ],
+      "mediaRef": "9598CAA8"
+    },
+    {
+      "shot_id": "S070",
+      "clipId": "85508B2A",
+      "frames": [
+        12410,
+        12590
+      ],
+      "mediaRef": "D86F8604"
+    },
+    {
+      "shot_id": "S071",
+      "clipId": "766792EC",
+      "frames": [
+        12590,
+        12770
+      ],
+      "mediaRef": "F6329600"
+    },
+    {
+      "shot_id": "S072",
+      "clipId": "6E823E3C",
+      "frames": [
+        12770,
+        12950
+      ],
+      "mediaRef": "C51A604C"
+    },
+    {
+      "shot_id": "S073",
+      "clipId": "9160E5CE",
+      "frames": [
+        12950,
+        13130
+      ],
+      "mediaRef": "DD956970"
+    },
+    {
+      "shot_id": "S074",
+      "clipId": "0BD87012",
+      "frames": [
+        13130,
+        13309
+      ],
+      "mediaRef": "0EF84397"
+    },
+    {
+      "shot_id": "S075",
+      "clipId": "145ED173",
+      "frames": [
+        13309,
+        13489
+      ],
+      "mediaRef": "B8349255"
+    },
+    {
+      "shot_id": "S076",
+      "clipId": "9374D17B",
+      "frames": [
+        13489,
+        13669
+      ],
+      "mediaRef": "D7624204"
+    },
+    {
+      "shot_id": "S077",
+      "clipId": "32ED75F1",
+      "frames": [
+        13669,
+        13849
+      ],
+      "mediaRef": "1FF8A651"
+    },
+    {
+      "shot_id": "S078",
+      "clipId": "70C3A83E",
+      "frames": [
+        13849,
+        14029
+      ],
+      "mediaRef": "A312D641"
+    },
+    {
+      "shot_id": "S079",
+      "clipId": "6FAD6B1C",
+      "frames": [
+        14029,
+        14209
+      ],
+      "mediaRef": "05B960C8"
+    },
+    {
+      "shot_id": "S080",
+      "clipId": "A2D6FF49",
+      "frames": [
+        14209,
+        14389
+      ],
+      "mediaRef": "559CD793"
+    },
+    {
+      "shot_id": "S081",
+      "clipId": "E0197B79",
+      "frames": [
+        14389,
+        14569
+      ],
+      "mediaRef": "4BEB5151"
+    },
+    {
+      "shot_id": "S082",
+      "clipId": "8522EC5C",
+      "frames": [
+        14569,
+        14748
+      ],
+      "mediaRef": "8636B2B1"
+    },
+    {
+      "shot_id": "S083",
+      "clipId": "3C779D07",
+      "frames": [
+        14748,
+        14928
+      ],
+      "mediaRef": "75478E97"
+    },
+    {
+      "shot_id": "S084",
+      "clipId": "C0C11D0E",
+      "frames": [
+        14928,
+        15108
+      ],
+      "mediaRef": "DFA1F456"
+    },
+    {
+      "shot_id": "S085",
+      "clipId": "9BF8E65C",
+      "frames": [
+        15108,
+        15288
+      ],
+      "mediaRef": "BB4056A8"
+    },
+    {
+      "shot_id": "S086",
+      "clipId": "CCFE6233",
+      "frames": [
+        15288,
+        15468
+      ],
+      "mediaRef": "D78DDC08"
+    },
+    {
+      "shot_id": "S087",
+      "clipId": "2366D201",
+      "frames": [
+        15468,
+        15648
+      ],
+      "mediaRef": "5AA35DA5"
+    },
+    {
+      "shot_id": "S088",
+      "clipId": "3A89C8A6",
+      "frames": [
+        15648,
+        15828
+      ],
+      "mediaRef": "6620810F"
+    },
+    {
+      "shot_id": "S089",
+      "clipId": "E00BE027",
+      "frames": [
+        15828,
+        16007
+      ],
+      "mediaRef": "18EE9CAD"
+    },
+    {
+      "shot_id": "S090",
+      "clipId": "9686FD52",
+      "frames": [
+        16007,
+        16187
+      ],
+      "mediaRef": "7C752466"
+    },
+    {
+      "shot_id": "S091",
+      "clipId": "230C5D27",
+      "frames": [
+        16187,
+        16367
+      ],
+      "mediaRef": "37C54C94"
+    },
+    {
+      "shot_id": "S092",
+      "clipId": "2AD4F1A0",
+      "frames": [
+        16367,
+        16547
+      ],
+      "mediaRef": "C7A37F39"
+    },
+    {
+      "shot_id": "S093",
+      "clipId": "368F6853",
+      "frames": [
+        16547,
+        16727
+      ],
+      "mediaRef": "1F3F20F7"
+    },
+    {
+      "shot_id": "S094",
+      "clipId": "73FCD934",
+      "frames": [
+        16727,
+        16907
+      ],
+      "mediaRef": "16A1C1A8"
+    },
+    {
+      "shot_id": "S095",
+      "clipId": "D0D208FB",
+      "frames": [
+        16907,
+        17087
+      ],
+      "mediaRef": "F2BC5F47"
+    },
+    {
+      "shot_id": "S096",
+      "clipId": "C7472370",
+      "frames": [
+        17087,
+        17266
+      ],
+      "mediaRef": "D0A2ED2F"
+    },
+    {
+      "shot_id": "S097",
+      "clipId": "A8653CC1",
+      "frames": [
+        17266,
+        17446
+      ],
+      "mediaRef": "9B823896"
+    },
+    {
+      "shot_id": "S098",
+      "clipId": "7D4E0A51",
+      "frames": [
+        17446,
+        17626
+      ],
+      "mediaRef": "BF62E0E1"
+    },
+    {
+      "shot_id": "S099",
+      "clipId": "A0FBDB95",
+      "frames": [
+        17626,
+        17806
+      ],
+      "mediaRef": "8150577E"
+    },
+    {
+      "shot_id": "S100",
+      "clipId": "6C432413",
+      "frames": [
+        17806,
+        17986
+      ],
+      "mediaRef": "A6B623A6"
+    },
+    {
+      "shot_id": "S101",
+      "clipId": "36C9CC14",
+      "frames": [
+        17986,
+        18166
+      ],
+      "mediaRef": "6E6A6B73"
+    },
+    {
+      "shot_id": "S102",
+      "clipId": "70DBCC1F",
+      "frames": [
+        18166,
+        18346
+      ],
+      "mediaRef": "531D6A66"
+    },
+    {
+      "shot_id": "S103",
+      "clipId": "52120E81",
+      "frames": [
+        18346,
+        18526
+      ],
+      "mediaRef": "22B419C0"
+    },
+    {
+      "shot_id": "S104",
+      "clipId": "780D94D9",
+      "frames": [
+        18526,
+        18705
+      ],
+      "mediaRef": "BC2137AA"
+    },
+    {
+      "shot_id": "S105",
+      "clipId": "4A017BC9",
+      "frames": [
+        18705,
+        18885
+      ],
+      "mediaRef": "393A2232"
+    },
+    {
+      "shot_id": "S106",
+      "clipId": "E768D19B",
+      "frames": [
+        18885,
+        19065
+      ],
+      "mediaRef": "AFD144B3"
+    },
+    {
+      "shot_id": "S107",
+      "clipId": "71DFA964",
+      "frames": [
+        19065,
+        19245
+      ],
+      "mediaRef": "B374470D"
+    },
+    {
+      "shot_id": "S108",
+      "clipId": "BE4820FE",
+      "frames": [
+        19245,
+        19425
+      ],
+      "mediaRef": "FA819264"
+    },
+    {
+      "shot_id": "S109",
+      "clipId": "8E9C823E",
+      "frames": [
+        19425,
+        19605
+      ],
+      "mediaRef": "44CA507D"
+    },
+    {
+      "shot_id": "S110",
+      "clipId": "5B301F6B",
+      "frames": [
+        19605,
+        19785
+      ],
+      "mediaRef": "384146B5"
+    },
+    {
+      "shot_id": "S111",
+      "clipId": "453172AC",
+      "frames": [
+        19785,
+        19964
+      ],
+      "mediaRef": "0EB2FD34"
+    },
+    {
+      "shot_id": "S112",
+      "clipId": "08EC58D1",
+      "frames": [
+        19964,
+        20144
+      ],
+      "mediaRef": "F5C5E9D9"
+    },
+    {
+      "shot_id": "S113",
+      "clipId": "790265C9",
+      "frames": [
+        20144,
+        20324
+      ],
+      "mediaRef": "528DB853"
+    },
+    {
+      "shot_id": "S114",
+      "clipId": "4459A094",
+      "frames": [
+        20324,
+        20504
+      ],
+      "mediaRef": "523CED73"
+    },
+    {
+      "shot_id": "S115",
+      "clipId": "98056227",
+      "frames": [
+        20504,
+        20684
+      ],
+      "mediaRef": "ADAB4781"
+    },
+    {
+      "shot_id": "S116",
+      "clipId": "E5909D89",
+      "frames": [
+        20684,
+        20864
+      ],
+      "mediaRef": "441AE597"
+    },
+    {
+      "shot_id": "S117",
+      "clipId": "8B3C4349",
+      "frames": [
+        20864,
+        21044
+      ],
+      "mediaRef": "936EC541"
+    },
+    {
+      "shot_id": "S118",
+      "clipId": "F8AC3E8E",
+      "frames": [
+        21044,
+        21224
+      ],
+      "mediaRef": "8C916421"
+    }
+  ],
+  "audioClip": {
+    "clipId": "47023ACC",
+    "frames": [
+      0,
+      21222
+    ],
+    "mediaRef": "B1825175",
+    "assetSha256": "b47d298fe38b3d50375be6a8e44ba2fd99123f5378c18bbb3c17058bccb43857"
+  },
+  "timelineFrames": 21224,
+  "durationSeconds": 707.467,
+  "sourceV06Unchanged": true,
+  "tracks": [
+    {
+      "trackId": "06C8BF88",
+      "type": "video",
+      "clipCount": 6
+    },
+    {
+      "trackId": "5D07C8A4",
+      "type": "video",
+      "clipCount": 8
+    },
+    {
+      "trackId": "8F7EBA92",
+      "type": "video",
+      "clipCount": 8
+    },
+    {
+      "trackId": "DE2AE6B9",
+      "type": "video",
+      "clipCount": 8
+    },
+    {
+      "trackId": "8819B549",
+      "type": "video",
+      "clipCount": 8
+    },
+    {
+      "trackId": "05B936EB",
+      "type": "video",
+      "clipCount": 8
+    },
+    {
+      "trackId": "9B883091",
+      "type": "video",
+      "clipCount": 8
+    },
+    {
+      "trackId": "094F58AF",
+      "type": "video",
+      "clipCount": 8
+    },
+    {
+      "trackId": "6A2AAC12",
+      "type": "video",
+      "clipCount": 8
+    },
+    {
+      "trackId": "6B96FAB7",
+      "type": "video",
+      "clipCount": 8
+    },
+    {
+      "trackId": "543861E4",
+      "type": "video",
+      "clipCount": 8
+    },
+    {
+      "trackId": "16010425",
+      "type": "video",
+      "clipCount": 8
+    },
+    {
+      "trackId": "3A8B9CED",
+      "type": "video",
+      "clipCount": 8
+    },
+    {
+      "trackId": "2A88EEA1",
+      "type": "video",
+      "clipCount": 8
+    },
+    {
+      "trackId": "A2710E83",
+      "type": "video",
+      "clipCount": 8
+    },
+    {
+      "trackId": "97B773A2",
+      "type": "audio",
+      "clipCount": 1
+    }
+  ],
+  "audioActionId": "ABD97541"
+}

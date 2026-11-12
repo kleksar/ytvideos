@@ -1,0 +1,21 @@
+# Nuviko Videos: three Shorts — 2026-11-10
+
+Channel `UC4nNJWr_PDL3QCZ76KGHF1g`. User requested three scheduled Shorts, two/day for US viewers. No videos in this batch are confirmed uploaded or scheduled. vidIQ connection work stopped at user's request.
+
+- First Short: `silent-preview-v03.mp4` is a 14-second 1080x1920 silent draft. See its JSON for hash, inputs and QA. All shot/cut stills inspected; motion playback and final acceptance remain pending.
+- `bloodstream-draft-v01.mp4` and `running-away-draft-v01.mp4` are 540x960 silent visual drafts, not publication masters. Both fully decode. Their reference offsets, native YouTube excerpt alignment, lyric verification and final render remain pending. They reuse footage; procure and license more varied nature shots before final assembly.
+- The user confirmed both sound cards have a Use Sound button on iPhone; actual excerpt/trim control is unconfirmed. User was asked to check it. Native audio addition remains a manual mobile workflow; verify final cards and beat alignment.
+- Previous public Short `xYJHIxV4hNw`: tags prepared in `channels/nuviko_videos/videos/001_misery/Packaging/Metadata/metadata-review-20261110.json`, not applied. Upload/readonly token lacks `videos.update` scope. Existing OAuth client returned 401 invalid_client. Authorization with existing `yt-videos-client.json` started; user is selecting target account and deciding whether to grant management access. Do not assume success; check channel ID, scopes and actual state before writing. Never repeat an unknown mutation blindly.
+- Scheduling: user requested two per day. No verified channel-specific best time; check YouTube calendar and choose provisional US slots on available evidence, marking limitations. No schedule has been saved.
+
+## Current request, 2026-11-10
+
+User changed workflow: all three use music embedded on Mac, show exact finished MP4 for approval before any upload; after approval verify track page, claim and availability in US, then schedule two/day. No phone, no vidIQ. Text uses accepted v24 one-word center inverted style.
+
+Three 540x960 working previews with embedded reference audio and animated captions are `bloodstream-review-draft-v02.mp4`, `running-away-review-draft-v02.mp4`, `oh-klahoma-review-draft-v02.mp4`; all decode. They are provisional, not approved or publication masters. Captions from ASR need corrections and phonetic timing verification; running-away ASR is particularly unreliable. Frame and beat QA, unique footage and high-resolution outputs remain in progress. Sources include Apple/Bandcamp reference previews; publication rights not established. Acquired five Pexels clips in `new-footage-manifest.json`. Updated channel, satisfying standard, release skill and music procedure; process check passed and rules-sync published.
+
+HD draft renders stopped before completion while waiting for a publishable audio source; `oh-klahoma-hd-draft-v01.mp4` and `running-away-hd-draft-v01.mp4` are incomplete and must not be used. No accepted review MP4 exists. `bloodstream` and `Oh Klahoma` local references are Apple previews (Apple Search API terms prohibit synchronization with video); Bandcamp reference use for publishing is not established. User was asked whether they have licenses or prefer alternative tracks. Draft ASR maps remain unverified; do not claim subtitles match. New planned cut frames are recorded in `render_two_hd.py`, still require post-render audio QA.
+
+The user chose embedded audio on Mac with Content ID policy checks, without the mobile editor. Updated channel and procedure and published the rule. An ordinary claim alone is not a publication blocker; verify actual policy and do not equate a claim with a licence. Running Away improved 540p preview render and caption mask are in progress. Apple promotional audio is not approved as publication input. No upload before exact-file user approval.
+
+2026-11-10: running-away-review-v03.mp4 is a new 540x960, 15-second working preview (not final), with Bandcamp reference, inverted one-word captions and seven cut frames adjusted to detected attacks. Full decode passed; user saw the preview. SHA-256 and limits are in running-away-review-v03-qa.json. Other two edits remain unready; Apple preview inputs cannot be used as publishable masters. Interrupted hd-v02 files are incomplete. No new upload.

@@ -1,0 +1,25 @@
+{
+  "subtitle_contract_sha256": "c83a4e010284d67ce6cdf7be0352b168aa536f9baecf1ccd408b9958ca6cf6a0",
+  "checks": {
+    "semantic_grouping": {
+      "status": "PASS",
+      "reviewer": "Codex",
+      "method": "Read the group sequence; cross-checked exact word map and renderer event boundaries",
+      "coverage": "333 groups; exact text/coverage and adjacent boundaries",
+      "evidence": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/research/us-history/Edit/subtitle-preflight-v01.md",
+        "sha256": "ea32e16c19bce8b666e9c4839a4d42fc3373abb4d402192588b396bc85aaa5c8"
+      }
+    },
+    "visual_placement": {
+      "status": "PASS",
+      "reviewer": "Codex",
+      "method": "Inspected source and rendered-caption composites at review scale",
+      "coverage": "88 actual scenes; midpoint of each",
+      "evidence": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/research/us-history/Edit/subtitle-preflight-v01.md",
+        "sha256": "ea32e16c19bce8b666e9c4839a4d42fc3373abb4d402192588b396bc85aaa5c8"
+      }
+    }
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "file": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Work/render_en_v02/previews/039_brest_fortress_en_review_v02.mp4",
+  "sha256": "a4ab38fe9c77eb5206482ac287b2c1d95162405570d1ac195e608a362b908789",
+  "probe": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "mime_codec_string": "avc1.640032",
+        "width": 2560,
+        "height": 1440,
+        "coded_width": 2560,
+        "coded_height": 1440,
+        "has_b_frames": 0,
+        "sample_aspect_ratio": "1:1",
+        "display_aspect_ratio": "16:9",
+        "pix_fmt": "yuv420p",
+        "level": 50,
+        "color_range": "tv",
+        "color_space": "bt709",
+        "color_transfer": "bt709",
+        "color_primaries": "bt709",
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "30/1",
+        "avg_frame_rate": "30/1",
+        "time_base": "1/15360",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 9405440,
+        "duration": "612.333333",
+        "bit_rate": "20096006",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "18370",
+        "extradata_size": 35,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "encoder": "Lavc62.28.102 h264_videotoolbox"
+        }
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_long_name": "AAC (Advanced Audio Coding)",
+        "profile": "LC",
+        "codec_type": "audio",
+        "codec_tag_string": "mp4a",
+        "codec_tag": "0x6134706d",
+        "mime_codec_string": "mp4a.40.2",
+        "sample_fmt": "fltp",
+        "sample_rate": "44100",
+        "channels": 2,
+        "channel_layout": "stereo",
+        "bits_per_sample": 0,
+        "initial_padding": 0,
+        "id": "0x2",
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/44100",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 27003312,
+        "duration": "612.320000",
+        "bit_rate": "251645",
+        "nb_frames": "26372",
+        "extradata_size": 5,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "SoundHandler"
+        }
+      }
+    ],
+    "format": {
+      "filename": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Work/render_en_v02/previews/039_brest_fortress_en_review_v02.mp4",
+      "nb_streams": 2,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "612.333333",
+      "size": "1557969040",
+      "bit_rate": "20354522",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41",
+        "encoder": "Lavf62.12.102"
+      }
+    }
+  },
+  "image_sample_targets": [
+    {
+      "scene": 6,
+      "target_frame": 950
+    },
+    {
+      "scene": 8,
+      "target_frame": 1207
+    },
+    {
+      "scene": 35,
+      "target_frame": 5378
+    },
+    {
+      "scene": 50,
+      "target_frame": 7892
+    },
+    {
+      "scene": 51,
+      "target_frame": 8069
+    },
+    {
+      "scene": 66,
+      "target_frame": 10268
+    },
+    {
+      "scene": 76,
+      "target_frame": 11826
+    },
+    {
+      "scene": 94,
+      "target_frame": 14806
+    },
+    {
+      "scene": 96,
+      "target_frame": 15166
+    },
+    {
+      "scene": 97,
+      "target_frame": 15346
+    },
+    {
+      "scene": 103,
+      "target_frame": 16259
+    },
+    {
+      "scene": 107,
+      "target_frame": 16924
+    },
+    {
+      "scene": 108,
+      "target_frame": 16925
+    },
+    {
+      "scene": 109,
+      "target_frame": 17236
+    },
+    {
+      "scene": 110,
+      "target_frame": 17237
+    },
+    {
+      "scene": 115,
+      "target_frame": 18057
+    },
+    {
+      "scene": 116,
+      "target_frame": 18118
+    },
+    {
+      "scene": 117,
+      "target_frame": 18369
+    }
+  ],
+  "method": "Accurate input seeking to the preceding half-frame threshold, retain first decoded picture; numbered target indices are from the validated 30 fps edit.",
+  "v01_aac_packet_sha256": "SHA256=a5c143177e5daf0379ede95adb16063bdba4ed76312b810f309154090e7b6e39",
+  "v02_aac_packet_sha256": "SHA256=a5c143177e5daf0379ede95adb16063bdba4ed76312b810f309154090e7b6e39",
+  "exact_audio_packets_match": true,
+  "checks": {
+    "stream_metadata": "PASS",
+    "target_frame_extraction": "PASS",
+    "visual_review": "PENDING_MANUAL_REVIEW"
+  }
+}

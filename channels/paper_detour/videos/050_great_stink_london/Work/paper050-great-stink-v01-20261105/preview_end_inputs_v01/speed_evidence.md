@@ -1,0 +1,1 @@
+Technical sample excerpt from exact v03 PCM, original time 224.033333–233.966667 s, offset 224.033333 s. Voice requested speed 1.1 once; no further speed changes. SHA-256 `135cf2151684cf7e3fb03a56cfbfb21f03c653295030e24ee8696cb5f78d0edd`. Listening remains pending.

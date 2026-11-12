@@ -1,0 +1,3 @@
+# User review of S110 implementation probe
+
+The user answered "Да, совпадает" to whether the yellow highlight approximately matches the speech in the 4.4-second “Ship O! / Lunch O!” sample. File `/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Work/motion_caption_probe_s110_v01/probe.mp4`, SHA-256 `deaa8ef11c2d5a328f689868b61a038e636136fa1423ac6c20c387845b2285b8`. The sample uses the preferred-B candidate word map v02 and the exact prior user-listened mix excerpt. The answer supports approximately synchronized highlights for this short sample only; it is not confirmation of the rest of the track, the final export or the visual edit.

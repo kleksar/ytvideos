@@ -1,0 +1,2171 @@
+{
+  "structure": "PASS",
+  "text_coverage": "PASS",
+  "timing_mapping": "UNVERIFIED",
+  "playback": "UNVERIFIED",
+  "readability": "WARN",
+  "limits": {
+    "max_lines": 2.0,
+    "max_line_chars": 42.0,
+    "max_cps": 20.0,
+    "max_duration": 6.0
+  },
+  "errors": [],
+  "warnings": [
+    {
+      "cue": 4,
+      "criterion": "max_cps",
+      "measured": 24.444444444444443,
+      "threshold": 20.0
+    },
+    {
+      "cue": 5,
+      "criterion": "max_cps",
+      "measured": 25.757575757575758,
+      "threshold": 20.0
+    },
+    {
+      "cue": 6,
+      "criterion": "max_cps",
+      "measured": 21.022727272727273,
+      "threshold": 20.0
+    },
+    {
+      "cue": 8,
+      "criterion": "max_cps",
+      "measured": 21.232876712328768,
+      "threshold": 20.0
+    },
+    {
+      "cue": 9,
+      "criterion": "max_cps",
+      "measured": 20.454545454545453,
+      "threshold": 20.0
+    },
+    {
+      "cue": 10,
+      "criterion": "max_cps",
+      "measured": 21.42857142857143,
+      "threshold": 20.0
+    },
+    {
+      "cue": 11,
+      "criterion": "max_cps",
+      "measured": 21.69811320754717,
+      "threshold": 20.0
+    },
+    {
+      "cue": 12,
+      "criterion": "max_cps",
+      "measured": 20.414201183431953,
+      "threshold": 20.0
+    },
+    {
+      "cue": 13,
+      "criterion": "max_cps",
+      "measured": 24.731182795698924,
+      "threshold": 20.0
+    },
+    {
+      "cue": 18,
+      "criterion": "max_cps",
+      "measured": 24.489795918367346,
+      "threshold": 20.0
+    },
+    {
+      "cue": 20,
+      "criterion": "max_cps",
+      "measured": 20.26143790849673,
+      "threshold": 20.0
+    },
+    {
+      "cue": 22,
+      "criterion": "max_cps",
+      "measured": 26.785714285714285,
+      "threshold": 20.0
+    },
+    {
+      "cue": 25,
+      "criterion": "max_cps",
+      "measured": 22.61904761904762,
+      "threshold": 20.0
+    },
+    {
+      "cue": 30,
+      "criterion": "max_cps",
+      "measured": 20.930232558139537,
+      "threshold": 20.0
+    },
+    {
+      "cue": 31,
+      "criterion": "max_cps",
+      "measured": 21.73913043478261,
+      "threshold": 20.0
+    },
+    {
+      "cue": 32,
+      "criterion": "max_cps",
+      "measured": 20.070422535211268,
+      "threshold": 20.0
+    },
+    {
+      "cue": 34,
+      "criterion": "max_cps",
+      "measured": 22.169811320754715,
+      "threshold": 20.0
+    },
+    {
+      "cue": 35,
+      "criterion": "max_cps",
+      "measured": 20.496894409937887,
+      "threshold": 20.0
+    },
+    {
+      "cue": 36,
+      "criterion": "max_cps",
+      "measured": 21.649484536082475,
+      "threshold": 20.0
+    },
+    {
+      "cue": 37,
+      "criterion": "max_cps",
+      "measured": 20.37037037037037,
+      "threshold": 20.0
+    },
+    {
+      "cue": 42,
+      "criterion": "max_cps",
+      "measured": 21.666666666666668,
+      "threshold": 20.0
+    },
+    {
+      "cue": 43,
+      "criterion": "max_cps",
+      "measured": 20.815986677768525,
+      "threshold": 20.0
+    },
+    {
+      "cue": 44,
+      "criterion": "max_cps",
+      "measured": 20.8955223880597,
+      "threshold": 20.0
+    },
+    {
+      "cue": 46,
+      "criterion": "max_cps",
+      "measured": 22.023809523809526,
+      "threshold": 20.0
+    },
+    {
+      "cue": 48,
+      "criterion": "max_cps",
+      "measured": 22.972972972972972,
+      "threshold": 20.0
+    },
+    {
+      "cue": 50,
+      "criterion": "max_cps",
+      "measured": 20.454545454545453,
+      "threshold": 20.0
+    },
+    {
+      "cue": 51,
+      "criterion": "max_cps",
+      "measured": 22.164948453608247,
+      "threshold": 20.0
+    },
+    {
+      "cue": 52,
+      "criterion": "max_cps",
+      "measured": 22.857142857142858,
+      "threshold": 20.0
+    },
+    {
+      "cue": 55,
+      "criterion": "max_cps",
+      "measured": 22.307692307692307,
+      "threshold": 20.0
+    },
+    {
+      "cue": 56,
+      "criterion": "max_cps",
+      "measured": 20.08928571428571,
+      "threshold": 20.0
+    },
+    {
+      "cue": 58,
+      "criterion": "max_cps",
+      "measured": 20.27027027027027,
+      "threshold": 20.0
+    },
+    {
+      "cue": 59,
+      "criterion": "max_cps",
+      "measured": 20.945945945945947,
+      "threshold": 20.0
+    },
+    {
+      "cue": 60,
+      "criterion": "max_cps",
+      "measured": 20.982142857142854,
+      "threshold": 20.0
+    },
+    {
+      "cue": 65,
+      "criterion": "max_cps",
+      "measured": 21.32867132867133,
+      "threshold": 20.0
+    },
+    {
+      "cue": 66,
+      "criterion": "max_cps",
+      "measured": 22.33009708737864,
+      "threshold": 20.0
+    },
+    {
+      "cue": 67,
+      "criterion": "max_cps",
+      "measured": 24.152542372881356,
+      "threshold": 20.0
+    },
+    {
+      "cue": 70,
+      "criterion": "max_cps",
+      "measured": 22.18045112781955,
+      "threshold": 20.0
+    },
+    {
+      "cue": 71,
+      "criterion": "max_cps",
+      "measured": 21.541010770505384,
+      "threshold": 20.0
+    },
+    {
+      "cue": 72,
+      "criterion": "max_cps",
+      "measured": 21.05263157894737,
+      "threshold": 20.0
+    },
+    {
+      "cue": 78,
+      "criterion": "max_cps",
+      "measured": 20.930232558139537,
+      "threshold": 20.0
+    },
+    {
+      "cue": 79,
+      "criterion": "max_cps",
+      "measured": 22.282608695652172,
+      "threshold": 20.0
+    },
+    {
+      "cue": 80,
+      "criterion": "max_cps",
+      "measured": 21.51898734177215,
+      "threshold": 20.0
+    },
+    {
+      "cue": 82,
+      "criterion": "max_cps",
+      "measured": 21.323529411764703,
+      "threshold": 20.0
+    },
+    {
+      "cue": 83,
+      "criterion": "max_cps",
+      "measured": 22.972972972972972,
+      "threshold": 20.0
+    },
+    {
+      "cue": 84,
+      "criterion": "max_cps",
+      "measured": 22.865853658536587,
+      "threshold": 20.0
+    },
+    {
+      "cue": 87,
+      "criterion": "max_cps",
+      "measured": 21.839080459770116,
+      "threshold": 20.0
+    },
+    {
+      "cue": 88,
+      "criterion": "max_cps",
+      "measured": 21.02803738317757,
+      "threshold": 20.0
+    },
+    {
+      "cue": 89,
+      "criterion": "max_cps",
+      "measured": 22.857142857142858,
+      "threshold": 20.0
+    },
+    {
+      "cue": 90,
+      "criterion": "max_cps",
+      "measured": 20.5607476635514,
+      "threshold": 20.0
+    },
+    {
+      "cue": 91,
+      "criterion": "max_cps",
+      "measured": 24.125874125874127,
+      "threshold": 20.0
+    },
+    {
+      "cue": 93,
+      "criterion": "max_cps",
+      "measured": 23.68421052631579,
+      "threshold": 20.0
+    },
+    {
+      "cue": 94,
+      "criterion": "max_cps",
+      "measured": 21.38728323699422,
+      "threshold": 20.0
+    },
+    {
+      "cue": 97,
+      "criterion": "max_cps",
+      "measured": 22.0428438373176,
+      "threshold": 20.0
+    },
+    {
+      "cue": 98,
+      "criterion": "max_cps",
+      "measured": 21.195652173913043,
+      "threshold": 20.0
+    },
+    {
+      "cue": 99,
+      "criterion": "max_cps",
+      "measured": 25.0,
+      "threshold": 20.0
+    },
+    {
+      "cue": 101,
+      "criterion": "max_cps",
+      "measured": 29.166666666666668,
+      "threshold": 20.0
+    },
+    {
+      "cue": 102,
+      "criterion": "max_cps",
+      "measured": 21.428571428571427,
+      "threshold": 20.0
+    },
+    {
+      "cue": 104,
+      "criterion": "max_cps",
+      "measured": 22.36842105263158,
+      "threshold": 20.0
+    },
+    {
+      "cue": 107,
+      "criterion": "max_cps",
+      "measured": 21.825396825396826,
+      "threshold": 20.0
+    },
+    {
+      "cue": 114,
+      "criterion": "max_cps",
+      "measured": 21.468926553672315,
+      "threshold": 20.0
+    },
+    {
+      "cue": 115,
+      "criterion": "max_cps",
+      "measured": 22.857142857142858,
+      "threshold": 20.0
+    },
+    {
+      "cue": 116,
+      "criterion": "max_cps",
+      "measured": 20.88235294117647,
+      "threshold": 20.0
+    },
+    {
+      "cue": 117,
+      "criterion": "max_cps",
+      "measured": 21.359223300970875,
+      "threshold": 20.0
+    },
+    {
+      "cue": 118,
+      "criterion": "max_cps",
+      "measured": 20.869565217391305,
+      "threshold": 20.0
+    },
+    {
+      "cue": 120,
+      "criterion": "max_cps",
+      "measured": 20.33898305084746,
+      "threshold": 20.0
+    },
+    {
+      "cue": 121,
+      "criterion": "max_cps",
+      "measured": 20.955882352941174,
+      "threshold": 20.0
+    },
+    {
+      "cue": 122,
+      "criterion": "max_cps",
+      "measured": 21.38364779874214,
+      "threshold": 20.0
+    },
+    {
+      "cue": 124,
+      "criterion": "max_cps",
+      "measured": 21.25,
+      "threshold": 20.0
+    },
+    {
+      "cue": 125,
+      "criterion": "max_cps",
+      "measured": 21.428571428571427,
+      "threshold": 20.0
+    },
+    {
+      "cue": 126,
+      "criterion": "max_cps",
+      "measured": 22.2972972972973,
+      "threshold": 20.0
+    },
+    {
+      "cue": 128,
+      "criterion": "max_cps",
+      "measured": 21.296296296296294,
+      "threshold": 20.0
+    },
+    {
+      "cue": 129,
+      "criterion": "max_cps",
+      "measured": 20.689655172413794,
+      "threshold": 20.0
+    },
+    {
+      "cue": 131,
+      "criterion": "max_cps",
+      "measured": 24.752475247524753,
+      "threshold": 20.0
+    },
+    {
+      "cue": 132,
+      "criterion": "max_cps",
+      "measured": 21.34146341463415,
+      "threshold": 20.0
+    },
+    {
+      "cue": 134,
+      "criterion": "max_cps",
+      "measured": 20.670391061452513,
+      "threshold": 20.0
+    },
+    {
+      "cue": 135,
+      "criterion": "max_cps",
+      "measured": 22.0,
+      "threshold": 20.0
+    },
+    {
+      "cue": 137,
+      "criterion": "max_cps",
+      "measured": 21.52317880794702,
+      "threshold": 20.0
+    },
+    {
+      "cue": 146,
+      "criterion": "max_cps",
+      "measured": 21.176470588235293,
+      "threshold": 20.0
+    },
+    {
+      "cue": 147,
+      "criterion": "max_cps",
+      "measured": 20.408163265306122,
+      "threshold": 20.0
+    },
+    {
+      "cue": 148,
+      "criterion": "max_cps",
+      "measured": 20.118343195266274,
+      "threshold": 20.0
+    },
+    {
+      "cue": 149,
+      "criterion": "max_cps",
+      "measured": 27.272727272727273,
+      "threshold": 20.0
+    },
+    {
+      "cue": 151,
+      "criterion": "max_cps",
+      "measured": 20.945945945945947,
+      "threshold": 20.0
+    },
+    {
+      "cue": 153,
+      "criterion": "max_cps",
+      "measured": 21.95897139555042,
+      "threshold": 20.0
+    },
+    {
+      "cue": 155,
+      "criterion": "max_cps",
+      "measured": 22.06896551724138,
+      "threshold": 20.0
+    },
+    {
+      "cue": 156,
+      "criterion": "max_cps",
+      "measured": 21.08433734939759,
+      "threshold": 20.0
+    },
+    {
+      "cue": 157,
+      "criterion": "max_cps",
+      "measured": 22.10144927536232,
+      "threshold": 20.0
+    },
+    {
+      "cue": 159,
+      "criterion": "max_cps",
+      "measured": 21.666666666666668,
+      "threshold": 20.0
+    },
+    {
+      "cue": 160,
+      "criterion": "max_cps",
+      "measured": 21.195652173913043,
+      "threshold": 20.0
+    },
+    {
+      "cue": 161,
+      "criterion": "max_cps",
+      "measured": 20.967741935483872,
+      "threshold": 20.0
+    },
+    {
+      "cue": 162,
+      "criterion": "max_cps",
+      "measured": 20.053475935828875,
+      "threshold": 20.0
+    },
+    {
+      "cue": 163,
+      "criterion": "max_cps",
+      "measured": 26.020408163265305,
+      "threshold": 20.0
+    },
+    {
+      "cue": 164,
+      "criterion": "max_cps",
+      "measured": 21.55688622754491,
+      "threshold": 20.0
+    },
+    {
+      "cue": 165,
+      "criterion": "max_cps",
+      "measured": 20.454545454545453,
+      "threshold": 20.0
+    },
+    {
+      "cue": 166,
+      "criterion": "max_cps",
+      "measured": 21.942446043165468,
+      "threshold": 20.0
+    },
+    {
+      "cue": 169,
+      "criterion": "max_cps",
+      "measured": 21.768707482993197,
+      "threshold": 20.0
+    },
+    {
+      "cue": 170,
+      "criterion": "max_cps",
+      "measured": 20.81081081081081,
+      "threshold": 20.0
+    },
+    {
+      "cue": 172,
+      "criterion": "max_cps",
+      "measured": 23.75,
+      "threshold": 20.0
+    },
+    {
+      "cue": 173,
+      "criterion": "max_cps",
+      "measured": 22.61904761904762,
+      "threshold": 20.0
+    },
+    {
+      "cue": 175,
+      "criterion": "max_cps",
+      "measured": 21.13821138211382,
+      "threshold": 20.0
+    },
+    {
+      "cue": 176,
+      "criterion": "max_cps",
+      "measured": 22.519083969465647,
+      "threshold": 20.0
+    },
+    {
+      "cue": 177,
+      "criterion": "max_cps",
+      "measured": 22.45762711864407,
+      "threshold": 20.0
+    },
+    {
+      "cue": 178,
+      "criterion": "max_cps",
+      "measured": 20.4,
+      "threshold": 20.0
+    },
+    {
+      "cue": 179,
+      "criterion": "max_cps",
+      "measured": 20.070838252656436,
+      "threshold": 20.0
+    },
+    {
+      "cue": 181,
+      "criterion": "max_cps",
+      "measured": 21.0,
+      "threshold": 20.0
+    },
+    {
+      "cue": 184,
+      "criterion": "max_cps",
+      "measured": 22.580645161290324,
+      "threshold": 20.0
+    },
+    {
+      "cue": 186,
+      "criterion": "max_cps",
+      "measured": 20.21276595744681,
+      "threshold": 20.0
+    },
+    {
+      "cue": 187,
+      "criterion": "max_cps",
+      "measured": 20.809248554913296,
+      "threshold": 20.0
+    },
+    {
+      "cue": 188,
+      "criterion": "max_cps",
+      "measured": 23.015873015873016,
+      "threshold": 20.0
+    },
+    {
+      "cue": 190,
+      "criterion": "max_cps",
+      "measured": 21.428571428571427,
+      "threshold": 20.0
+    },
+    {
+      "cue": 193,
+      "criterion": "max_cps",
+      "measured": 24.719101123595504,
+      "threshold": 20.0
+    },
+    {
+      "cue": 194,
+      "criterion": "max_cps",
+      "measured": 21.629213483146067,
+      "threshold": 20.0
+    },
+    {
+      "cue": 195,
+      "criterion": "max_cps",
+      "measured": 25.0,
+      "threshold": 20.0
+    },
+    {
+      "cue": 196,
+      "criterion": "max_cps",
+      "measured": 21.323529411764703,
+      "threshold": 20.0
+    },
+    {
+      "cue": 197,
+      "criterion": "max_cps",
+      "measured": 20.833333333333332,
+      "threshold": 20.0
+    },
+    {
+      "cue": 198,
+      "criterion": "max_cps",
+      "measured": 20.3125,
+      "threshold": 20.0
+    },
+    {
+      "cue": 199,
+      "criterion": "max_cps",
+      "measured": 20.74468085106383,
+      "threshold": 20.0
+    },
+    {
+      "cue": 201,
+      "criterion": "max_cps",
+      "measured": 22.033898305084747,
+      "threshold": 20.0
+    },
+    {
+      "cue": 202,
+      "criterion": "max_cps",
+      "measured": 24.157303370786515,
+      "threshold": 20.0
+    },
+    {
+      "cue": 203,
+      "criterion": "max_cps",
+      "measured": 26.315789473684212,
+      "threshold": 20.0
+    }
+  ],
+  "cues": [
+    {
+      "cue": 1,
+      "lines": 1,
+      "longest_line": 38,
+      "duration_seconds": 2.12,
+      "characters_per_second": 17.92452830188679
+    },
+    {
+      "cue": 2,
+      "lines": 1,
+      "longest_line": 22,
+      "duration_seconds": 1.58,
+      "characters_per_second": 13.924050632911392
+    },
+    {
+      "cue": 3,
+      "lines": 2,
+      "longest_line": 39,
+      "duration_seconds": 3.48,
+      "characters_per_second": 19.82758620689655
+    },
+    {
+      "cue": 4,
+      "lines": 1,
+      "longest_line": 22,
+      "duration_seconds": 0.9,
+      "characters_per_second": 24.444444444444443
+    },
+    {
+      "cue": 5,
+      "lines": 2,
+      "longest_line": 40,
+      "duration_seconds": 1.98,
+      "characters_per_second": 25.757575757575758
+    },
+    {
+      "cue": 6,
+      "lines": 1,
+      "longest_line": 37,
+      "duration_seconds": 1.76,
+      "characters_per_second": 21.022727272727273
+    },
+    {
+      "cue": 7,
+      "lines": 1,
+      "longest_line": 29,
+      "duration_seconds": 1.76,
+      "characters_per_second": 16.477272727272727
+    },
+    {
+      "cue": 8,
+      "lines": 2,
+      "longest_line": 40,
+      "duration_seconds": 2.92,
+      "characters_per_second": 21.232876712328768
+    },
+    {
+      "cue": 9,
+      "lines": 2,
+      "longest_line": 41,
+      "duration_seconds": 3.52,
+      "characters_per_second": 20.454545454545453
+    },
+    {
+      "cue": 10,
+      "lines": 1,
+      "longest_line": 9,
+      "duration_seconds": 0.42,
+      "characters_per_second": 21.42857142857143
+    },
+    {
+      "cue": 11,
+      "lines": 2,
+      "longest_line": 39,
+      "duration_seconds": 2.12,
+      "characters_per_second": 21.69811320754717
+    },
+    {
+      "cue": 12,
+      "lines": 2,
+      "longest_line": 40,
+      "duration_seconds": 3.38,
+      "characters_per_second": 20.414201183431953
+    },
+    {
+      "cue": 13,
+      "lines": 2,
+      "longest_line": 36,
+      "duration_seconds": 1.86,
+      "characters_per_second": 24.731182795698924
+    },
+    {
+      "cue": 14,
+      "lines": 2,
+      "longest_line": 41,
+      "duration_seconds": 3.32,
+      "characters_per_second": 17.46987951807229
+    },
+    {
+      "cue": 15,
+      "lines": 1,
+      "longest_line": 36,
+      "duration_seconds": 2.061,
+      "characters_per_second": 17.467248908296945
+    },
+    {
+      "cue": 16,
+      "lines": 1,
+      "longest_line": 37,
+      "duration_seconds": 2.06,
+      "characters_per_second": 17.961165048543688
+    },
+    {
+      "cue": 17,
+      "lines": 2,
+      "longest_line": 40,
+      "duration_seconds": 3.84,
+      "characters_per_second": 19.791666666666668
+    },
+    {
+      "cue": 18,
+      "lines": 1,
+      "longest_line": 24,
+      "duration_seconds": 0.98,
+      "characters_per_second": 24.489795918367346
+    },
+    {
+      "cue": 19,
+      "lines": 2,
+      "longest_line": 41,
+      "duration_seconds": 3.6,
+      "characters_per_second": 18.055555555555554
+    },
+    {
+      "cue": 20,
+      "lines": 2,
+      "longest_line": 40,
+      "duration_seconds": 3.06,
+      "characters_per_second": 20.26143790849673
+    },
+    {
+      "cue": 21,
+      "lines": 2,
+      "longest_line": 34,
+      "duration_seconds": 2.22,
+      "characters_per_second": 19.819819819819816
+    },
+    {
+      "cue": 22,
+      "lines": 1,
+      "longest_line": 30,
+      "duration_seconds": 1.12,
+      "characters_per_second": 26.785714285714285
+    },
+    {
+      "cue": 23,
+      "lines": 2,
+      "longest_line": 37,
+      "duration_seconds": 4.0,
+      "characters_per_second": 18.75
+    },
+    {
+      "cue": 24,
+      "lines": 1,
+      "longest_line": 29,
+      "duration_seconds": 1.5,
+      "characters_per_second": 19.333333333333332
+    },
+    {
+      "cue": 25,
+      "lines": 1,
+      "longest_line": 19,
+      "duration_seconds": 0.84,
+      "characters_per_second": 22.61904761904762
+    },
+    {
+      "cue": 26,
+      "lines": 2,
+      "longest_line": 36,
+      "duration_seconds": 3.44,
+      "characters_per_second": 19.476744186046513
+    },
+    {
+      "cue": 27,
+      "lines": 1,
+      "longest_line": 22,
+      "duration_seconds": 1.24,
+      "characters_per_second": 17.741935483870968
+    },
+    {
+      "cue": 28,
+      "lines": 1,
+      "longest_line": 14,
+      "duration_seconds": 0.9,
+      "characters_per_second": 15.555555555555555
+    },
+    {
+      "cue": 29,
+      "lines": 1,
+      "longest_line": 22,
+      "duration_seconds": 1.28,
+      "characters_per_second": 17.1875
+    },
+    {
+      "cue": 30,
+      "lines": 1,
+      "longest_line": 18,
+      "duration_seconds": 0.86,
+      "characters_per_second": 20.930232558139537
+    },
+    {
+      "cue": 31,
+      "lines": 2,
+      "longest_line": 39,
+      "duration_seconds": 2.3,
+      "characters_per_second": 21.73913043478261
+    },
+    {
+      "cue": 32,
+      "lines": 2,
+      "longest_line": 40,
+      "duration_seconds": 2.84,
+      "characters_per_second": 20.070422535211268
+    },
+    {
+      "cue": 33,
+      "lines": 1,
+      "longest_line": 34,
+      "duration_seconds": 1.7,
+      "characters_per_second": 20.0
+    },
+    {
+      "cue": 34,
+      "lines": 2,
+      "longest_line": 41,
+      "duration_seconds": 2.12,
+      "characters_per_second": 22.169811320754715
+    },
+    {
+      "cue": 35,
+      "lines": 2,
+      "longest_line": 41,
+      "duration_seconds": 3.22,
+      "characters_per_second": 20.496894409937887
+    },
+    {
+      "cue": 36,
+      "lines": 1,
+      "longest_line": 42,
+      "duration_seconds": 1.94,
+      "characters_per_second": 21.649484536082475
+    },
+    {
+      "cue": 37,
+      "lines": 1,
+      "longest_line": 33,
+      "duration_seconds": 1.62,
+      "characters_per_second": 20.37037037037037
+    },
+    {
+      "cue": 38,
+      "lines": 1,
+      "longest_line": 42,
+      "duration_seconds": 2.94,
+      "characters_per_second": 14.285714285714286
+    },
+    {
+      "cue": 39,
+      "lines": 1,
+      "longest_line": 26,
+      "duration_seconds": 1.32,
+      "characters_per_second": 19.696969696969695
+    },
+    {
+      "cue": 40,
+      "lines": 1,
+      "longest_line": 21,
+      "duration_seconds": 1.36,
+      "characters_per_second": 15.441176470588234
+    },
+    {
+      "cue": 41,
+      "lines": 2,
+      "longest_line": 41,
+      "duration_seconds": 3.02,
+      "characters_per_second": 18.543046357615893
+    },
+    {
+      "cue": 42,
+      "lines": 2,
+      "longest_line": 39,
+      "duration_seconds": 3.6,
+      "characters_per_second": 21.666666666666668
+    },
+    {
+      "cue": 43,
+      "lines": 1,
+      "longest_line": 25,
+      "duration_seconds": 1.201,
+      "characters_per_second": 20.815986677768525
+    },
+    {
+      "cue": 44,
+      "lines": 1,
+      "longest_line": 28,
+      "duration_seconds": 1.34,
+      "characters_per_second": 20.8955223880597
+    },
+    {
+      "cue": 45,
+      "lines": 2,
+      "longest_line": 39,
+      "duration_seconds": 2.72,
+      "characters_per_second": 18.75
+    },
+    {
+      "cue": 46,
+      "lines": 1,
+      "longest_line": 37,
+      "duration_seconds": 1.68,
+      "characters_per_second": 22.023809523809526
+    },
+    {
+      "cue": 47,
+      "lines": 2,
+      "longest_line": 37,
+      "duration_seconds": 3.68,
+      "characters_per_second": 17.391304347826086
+    },
+    {
+      "cue": 48,
+      "lines": 1,
+      "longest_line": 17,
+      "duration_seconds": 0.74,
+      "characters_per_second": 22.972972972972972
+    },
+    {
+      "cue": 49,
+      "lines": 1,
+      "longest_line": 38,
+      "duration_seconds": 2.46,
+      "characters_per_second": 15.447154471544716
+    },
+    {
+      "cue": 50,
+      "lines": 1,
+      "longest_line": 9,
+      "duration_seconds": 0.44,
+      "characters_per_second": 20.454545454545453
+    },
+    {
+      "cue": 51,
+      "lines": 2,
+      "longest_line": 36,
+      "duration_seconds": 1.94,
+      "characters_per_second": 22.164948453608247
+    },
+    {
+      "cue": 52,
+      "lines": 2,
+      "longest_line": 41,
+      "duration_seconds": 2.1,
+      "characters_per_second": 22.857142857142858
+    },
+    {
+      "cue": 53,
+      "lines": 2,
+      "longest_line": 38,
+      "duration_seconds": 4.04,
+      "characters_per_second": 16.08910891089109
+    },
+    {
+      "cue": 54,
+      "lines": 1,
+      "longest_line": 14,
+      "duration_seconds": 0.98,
+      "characters_per_second": 14.285714285714286
+    },
+    {
+      "cue": 55,
+      "lines": 1,
+      "longest_line": 29,
+      "duration_seconds": 1.3,
+      "characters_per_second": 22.307692307692307
+    },
+    {
+      "cue": 56,
+      "lines": 2,
+      "longest_line": 37,
+      "duration_seconds": 2.24,
+      "characters_per_second": 20.08928571428571
+    },
+    {
+      "cue": 57,
+      "lines": 2,
+      "longest_line": 40,
+      "duration_seconds": 3.58,
+      "characters_per_second": 18.435754189944134
+    },
+    {
+      "cue": 58,
+      "lines": 2,
+      "longest_line": 40,
+      "duration_seconds": 3.7,
+      "characters_per_second": 20.27027027027027
+    },
+    {
+      "cue": 59,
+      "lines": 2,
+      "longest_line": 37,
+      "duration_seconds": 2.96,
+      "characters_per_second": 20.945945945945947
+    },
+    {
+      "cue": 60,
+      "lines": 2,
+      "longest_line": 34,
+      "duration_seconds": 2.24,
+      "characters_per_second": 20.982142857142854
+    },
+    {
+      "cue": 61,
+      "lines": 1,
+      "longest_line": 38,
+      "duration_seconds": 2.12,
+      "characters_per_second": 17.92452830188679
+    },
+    {
+      "cue": 62,
+      "lines": 2,
+      "longest_line": 40,
+      "duration_seconds": 2.66,
+      "characters_per_second": 19.924812030075188
+    },
+    {
+      "cue": 63,
+      "lines": 2,
+      "longest_line": 41,
+      "duration_seconds": 3.92,
+      "characters_per_second": 18.622448979591837
+    },
+    {
+      "cue": 64,
+      "lines": 1,
+      "longest_line": 14,
+      "duration_seconds": 0.7,
+      "characters_per_second": 20.0
+    },
+    {
+      "cue": 65,
+      "lines": 2,
+      "longest_line": 39,
+      "duration_seconds": 2.86,
+      "characters_per_second": 21.32867132867133
+    },
+    {
+      "cue": 66,
+      "lines": 2,
+      "longest_line": 39,
+      "duration_seconds": 2.06,
+      "characters_per_second": 22.33009708737864
+    },
+    {
+      "cue": 67,
+      "lines": 2,
+      "longest_line": 35,
+      "duration_seconds": 2.36,
+      "characters_per_second": 24.152542372881356
+    },
+    {
+      "cue": 68,
+      "lines": 2,
+      "longest_line": 35,
+      "duration_seconds": 2.8,
+      "characters_per_second": 20.0
+    },
+    {
+      "cue": 69,
+      "lines": 1,
+      "longest_line": 37,
+      "duration_seconds": 2.0,
+      "characters_per_second": 18.5
+    },
+    {
+      "cue": 70,
+      "lines": 2,
+      "longest_line": 37,
+      "duration_seconds": 2.66,
+      "characters_per_second": 22.18045112781955
+    },
+    {
+      "cue": 71,
+      "lines": 2,
+      "longest_line": 42,
+      "duration_seconds": 3.621,
+      "characters_per_second": 21.541010770505384
+    },
+    {
+      "cue": 72,
+      "lines": 1,
+      "longest_line": 24,
+      "duration_seconds": 1.14,
+      "characters_per_second": 21.05263157894737
+    },
+    {
+      "cue": 73,
+      "lines": 2,
+      "longest_line": 39,
+      "duration_seconds": 3.5,
+      "characters_per_second": 19.714285714285715
+    },
+    {
+      "cue": 74,
+      "lines": 2,
+      "longest_line": 42,
+      "duration_seconds": 2.8,
+      "characters_per_second": 19.28571428571429
+    },
+    {
+      "cue": 75,
+      "lines": 2,
+      "longest_line": 38,
+      "duration_seconds": 2.3,
+      "characters_per_second": 20.0
+    },
+    {
+      "cue": 76,
+      "lines": 1,
+      "longest_line": 42,
+      "duration_seconds": 2.18,
+      "characters_per_second": 19.266055045871557
+    },
+    {
+      "cue": 77,
+      "lines": 2,
+      "longest_line": 40,
+      "duration_seconds": 4.0,
+      "characters_per_second": 19.0
+    },
+    {
+      "cue": 78,
+      "lines": 1,
+      "longest_line": 18,
+      "duration_seconds": 0.86,
+      "characters_per_second": 20.930232558139537
+    },
+    {
+      "cue": 79,
+      "lines": 1,
+      "longest_line": 41,
+      "duration_seconds": 1.84,
+      "characters_per_second": 22.282608695652172
+    },
+    {
+      "cue": 80,
+      "lines": 2,
+      "longest_line": 42,
+      "duration_seconds": 3.16,
+      "characters_per_second": 21.51898734177215
+    },
+    {
+      "cue": 81,
+      "lines": 1,
+      "longest_line": 12,
+      "duration_seconds": 0.62,
+      "characters_per_second": 19.35483870967742
+    },
+    {
+      "cue": 82,
+      "lines": 1,
+      "longest_line": 29,
+      "duration_seconds": 1.36,
+      "characters_per_second": 21.323529411764703
+    },
+    {
+      "cue": 83,
+      "lines": 1,
+      "longest_line": 34,
+      "duration_seconds": 1.48,
+      "characters_per_second": 22.972972972972972
+    },
+    {
+      "cue": 84,
+      "lines": 2,
+      "longest_line": 38,
+      "duration_seconds": 3.28,
+      "characters_per_second": 22.865853658536587
+    },
+    {
+      "cue": 85,
+      "lines": 1,
+      "longest_line": 25,
+      "duration_seconds": 1.56,
+      "characters_per_second": 16.025641025641026
+    },
+    {
+      "cue": 86,
+      "lines": 1,
+      "longest_line": 23,
+      "duration_seconds": 1.44,
+      "characters_per_second": 15.972222222222223
+    },
+    {
+      "cue": 87,
+      "lines": 1,
+      "longest_line": 38,
+      "duration_seconds": 1.74,
+      "characters_per_second": 21.839080459770116
+    },
+    {
+      "cue": 88,
+      "lines": 2,
+      "longest_line": 40,
+      "duration_seconds": 2.14,
+      "characters_per_second": 21.02803738317757
+    },
+    {
+      "cue": 89,
+      "lines": 2,
+      "longest_line": 37,
+      "duration_seconds": 2.1,
+      "characters_per_second": 22.857142857142858
+    },
+    {
+      "cue": 90,
+      "lines": 2,
+      "longest_line": 36,
+      "duration_seconds": 2.14,
+      "characters_per_second": 20.5607476635514
+    },
+    {
+      "cue": 91,
+      "lines": 2,
+      "longest_line": 41,
+      "duration_seconds": 2.86,
+      "characters_per_second": 24.125874125874127
+    },
+    {
+      "cue": 92,
+      "lines": 2,
+      "longest_line": 35,
+      "duration_seconds": 3.48,
+      "characters_per_second": 18.39080459770115
+    },
+    {
+      "cue": 93,
+      "lines": 2,
+      "longest_line": 37,
+      "duration_seconds": 1.9,
+      "characters_per_second": 23.68421052631579
+    },
+    {
+      "cue": 94,
+      "lines": 2,
+      "longest_line": 39,
+      "duration_seconds": 3.46,
+      "characters_per_second": 21.38728323699422
+    },
+    {
+      "cue": 95,
+      "lines": 2,
+      "longest_line": 40,
+      "duration_seconds": 3.92,
+      "characters_per_second": 19.387755102040817
+    },
+    {
+      "cue": 96,
+      "lines": 1,
+      "longest_line": 28,
+      "duration_seconds": 1.84,
+      "characters_per_second": 15.217391304347826
+    },
+    {
+      "cue": 97,
+      "lines": 2,
+      "longest_line": 42,
+      "duration_seconds": 3.221,
+      "characters_per_second": 22.0428438373176
+    },
+    {
+      "cue": 98,
+      "lines": 2,
+      "longest_line": 39,
+      "duration_seconds": 3.68,
+      "characters_per_second": 21.195652173913043
+    },
+    {
+      "cue": 99,
+      "lines": 1,
+      "longest_line": 37,
+      "duration_seconds": 1.48,
+      "characters_per_second": 25.0
+    },
+    {
+      "cue": 100,
+      "lines": 2,
+      "longest_line": 41,
+      "duration_seconds": 3.68,
+      "characters_per_second": 19.83695652173913
+    },
+    {
+      "cue": 101,
+      "lines": 1,
+      "longest_line": 7,
+      "duration_seconds": 0.24,
+      "characters_per_second": 29.166666666666668
+    },
+    {
+      "cue": 102,
+      "lines": 1,
+      "longest_line": 27,
+      "duration_seconds": 1.26,
+      "characters_per_second": 21.428571428571427
+    },
+    {
+      "cue": 103,
+      "lines": 2,
+      "longest_line": 41,
+      "duration_seconds": 3.88,
+      "characters_per_second": 18.814432989690722
+    },
+    {
+      "cue": 104,
+      "lines": 2,
+      "longest_line": 42,
+      "duration_seconds": 3.04,
+      "characters_per_second": 22.36842105263158
+    },
+    {
+      "cue": 105,
+      "lines": 2,
+      "longest_line": 39,
+      "duration_seconds": 3.0,
+      "characters_per_second": 15.333333333333334
+    },
+    {
+      "cue": 106,
+      "lines": 1,
+      "longest_line": 32,
+      "duration_seconds": 1.62,
+      "characters_per_second": 19.753086419753085
+    },
+    {
+      "cue": 107,
+      "lines": 2,
+      "longest_line": 39,
+      "duration_seconds": 2.52,
+      "characters_per_second": 21.825396825396826
+    },
+    {
+      "cue": 108,
+      "lines": 1,
+      "longest_line": 12,
+      "duration_seconds": 0.82,
+      "characters_per_second": 14.634146341463415
+    },
+    {
+      "cue": 109,
+      "lines": 1,
+      "longest_line": 35,
+      "duration_seconds": 2.04,
+      "characters_per_second": 17.15686274509804
+    },
+    {
+      "cue": 110,
+      "lines": 2,
+      "longest_line": 38,
+      "duration_seconds": 3.14,
+      "characters_per_second": 19.745222929936304
+    },
+    {
+      "cue": 111,
+      "lines": 1,
+      "longest_line": 14,
+      "duration_seconds": 0.84,
+      "characters_per_second": 16.666666666666668
+    },
+    {
+      "cue": 112,
+      "lines": 1,
+      "longest_line": 27,
+      "duration_seconds": 1.42,
+      "characters_per_second": 19.014084507042256
+    },
+    {
+      "cue": 113,
+      "lines": 2,
+      "longest_line": 38,
+      "duration_seconds": 2.52,
+      "characters_per_second": 17.46031746031746
+    },
+    {
+      "cue": 114,
+      "lines": 2,
+      "longest_line": 41,
+      "duration_seconds": 3.54,
+      "characters_per_second": 21.468926553672315
+    },
+    {
+      "cue": 115,
+      "lines": 1,
+      "longest_line": 16,
+      "duration_seconds": 0.7,
+      "characters_per_second": 22.857142857142858
+    },
+    {
+      "cue": 116,
+      "lines": 2,
+      "longest_line": 42,
+      "duration_seconds": 3.4,
+      "characters_per_second": 20.88235294117647
+    },
+    {
+      "cue": 117,
+      "lines": 2,
+      "longest_line": 39,
+      "duration_seconds": 2.06,
+      "characters_per_second": 21.359223300970875
+    },
+    {
+      "cue": 118,
+      "lines": 2,
+      "longest_line": 39,
+      "duration_seconds": 2.3,
+      "characters_per_second": 20.869565217391305
+    },
+    {
+      "cue": 119,
+      "lines": 2,
+      "longest_line": 39,
+      "duration_seconds": 4.06,
+      "characters_per_second": 19.211822660098523
+    },
+    {
+      "cue": 120,
+      "lines": 1,
+      "longest_line": 24,
+      "duration_seconds": 1.18,
+      "characters_per_second": 20.33898305084746
+    },
+    {
+      "cue": 121,
+      "lines": 2,
+      "longest_line": 39,
+      "duration_seconds": 2.72,
+      "characters_per_second": 20.955882352941174
+    },
+    {
+      "cue": 122,
+      "lines": 2,
+      "longest_line": 40,
+      "duration_seconds": 3.18,
+      "characters_per_second": 21.38364779874214
+    },
+    {
+      "cue": 123,
+      "lines": 2,
+      "longest_line": 40,
+      "duration_seconds": 3.6,
+      "characters_per_second": 18.88888888888889
+    },
+    {
+      "cue": 124,
+      "lines": 1,
+      "longest_line": 34,
+      "duration_seconds": 1.6,
+      "characters_per_second": 21.25
+    },
+    {
+      "cue": 125,
+      "lines": 1,
+      "longest_line": 27,
+      "duration_seconds": 1.26,
+      "characters_per_second": 21.428571428571427
+    },
+    {
+      "cue": 126,
+      "lines": 2,
+      "longest_line": 39,
+      "duration_seconds": 2.96,
+      "characters_per_second": 22.2972972972973
+    },
+    {
+      "cue": 127,
+      "lines": 2,
+      "longest_line": 39,
+      "duration_seconds": 3.76,
+      "characters_per_second": 15.957446808510639
+    },
+    {
+      "cue": 128,
+      "lines": 2,
+      "longest_line": 41,
+      "duration_seconds": 2.16,
+      "characters_per_second": 21.296296296296294
+    },
+    {
+      "cue": 129,
+      "lines": 2,
+      "longest_line": 42,
+      "duration_seconds": 3.48,
+      "characters_per_second": 20.689655172413794
+    },
+    {
+      "cue": 130,
+      "lines": 1,
+      "longest_line": 33,
+      "duration_seconds": 1.88,
+      "characters_per_second": 17.5531914893617
+    },
+    {
+      "cue": 131,
+      "lines": 2,
+      "longest_line": 42,
+      "duration_seconds": 2.02,
+      "characters_per_second": 24.752475247524753
+    },
+    {
+      "cue": 132,
+      "lines": 1,
+      "longest_line": 35,
+      "duration_seconds": 1.64,
+      "characters_per_second": 21.34146341463415
+    },
+    {
+      "cue": 133,
+      "lines": 2,
+      "longest_line": 42,
+      "duration_seconds": 3.44,
+      "characters_per_second": 18.8953488372093
+    },
+    {
+      "cue": 134,
+      "lines": 2,
+      "longest_line": 40,
+      "duration_seconds": 3.58,
+      "characters_per_second": 20.670391061452513
+    },
+    {
+      "cue": 135,
+      "lines": 2,
+      "longest_line": 36,
+      "duration_seconds": 2.0,
+      "characters_per_second": 22.0
+    },
+    {
+      "cue": 136,
+      "lines": 1,
+      "longest_line": 42,
+      "duration_seconds": 2.14,
+      "characters_per_second": 19.626168224299064
+    },
+    {
+      "cue": 137,
+      "lines": 2,
+      "longest_line": 41,
+      "duration_seconds": 3.02,
+      "characters_per_second": 21.52317880794702
+    },
+    {
+      "cue": 138,
+      "lines": 1,
+      "longest_line": 14,
+      "duration_seconds": 0.9,
+      "characters_per_second": 15.555555555555555
+    },
+    {
+      "cue": 139,
+      "lines": 1,
+      "longest_line": 30,
+      "duration_seconds": 1.64,
+      "characters_per_second": 18.29268292682927
+    },
+    {
+      "cue": 140,
+      "lines": 1,
+      "longest_line": 36,
+      "duration_seconds": 1.82,
+      "characters_per_second": 19.78021978021978
+    },
+    {
+      "cue": 141,
+      "lines": 1,
+      "longest_line": 26,
+      "duration_seconds": 1.38,
+      "characters_per_second": 18.84057971014493
+    },
+    {
+      "cue": 142,
+      "lines": 1,
+      "longest_line": 32,
+      "duration_seconds": 1.7,
+      "characters_per_second": 18.823529411764707
+    },
+    {
+      "cue": 143,
+      "lines": 2,
+      "longest_line": 39,
+      "duration_seconds": 3.54,
+      "characters_per_second": 19.491525423728813
+    },
+    {
+      "cue": 144,
+      "lines": 1,
+      "longest_line": 17,
+      "duration_seconds": 0.92,
+      "characters_per_second": 18.478260869565215
+    },
+    {
+      "cue": 145,
+      "lines": 2,
+      "longest_line": 38,
+      "duration_seconds": 2.22,
+      "characters_per_second": 19.819819819819816
+    },
+    {
+      "cue": 146,
+      "lines": 1,
+      "longest_line": 36,
+      "duration_seconds": 1.7,
+      "characters_per_second": 21.176470588235293
+    },
+    {
+      "cue": 147,
+      "lines": 1,
+      "longest_line": 40,
+      "duration_seconds": 1.96,
+      "characters_per_second": 20.408163265306122
+    },
+    {
+      "cue": 148,
+      "lines": 2,
+      "longest_line": 41,
+      "duration_seconds": 3.38,
+      "characters_per_second": 20.118343195266274
+    },
+    {
+      "cue": 149,
+      "lines": 1,
+      "longest_line": 12,
+      "duration_seconds": 0.44,
+      "characters_per_second": 27.272727272727273
+    },
+    {
+      "cue": 150,
+      "lines": 1,
+      "longest_line": 41,
+      "duration_seconds": 2.2,
+      "characters_per_second": 18.636363636363633
+    },
+    {
+      "cue": 151,
+      "lines": 1,
+      "longest_line": 31,
+      "duration_seconds": 1.48,
+      "characters_per_second": 20.945945945945947
+    },
+    {
+      "cue": 152,
+      "lines": 1,
+      "longest_line": 40,
+      "duration_seconds": 2.14,
+      "characters_per_second": 18.69158878504673
+    },
+    {
+      "cue": 153,
+      "lines": 2,
+      "longest_line": 39,
+      "duration_seconds": 3.461,
+      "characters_per_second": 21.95897139555042
+    },
+    {
+      "cue": 154,
+      "lines": 1,
+      "longest_line": 39,
+      "duration_seconds": 2.16,
+      "characters_per_second": 18.055555555555554
+    },
+    {
+      "cue": 155,
+      "lines": 2,
+      "longest_line": 36,
+      "duration_seconds": 2.9,
+      "characters_per_second": 22.06896551724138
+    },
+    {
+      "cue": 156,
+      "lines": 2,
+      "longest_line": 41,
+      "duration_seconds": 3.32,
+      "characters_per_second": 21.08433734939759
+    },
+    {
+      "cue": 157,
+      "lines": 2,
+      "longest_line": 40,
+      "duration_seconds": 2.76,
+      "characters_per_second": 22.10144927536232
+    },
+    {
+      "cue": 158,
+      "lines": 2,
+      "longest_line": 41,
+      "duration_seconds": 3.68,
+      "characters_per_second": 19.83695652173913
+    },
+    {
+      "cue": 159,
+      "lines": 1,
+      "longest_line": 13,
+      "duration_seconds": 0.6,
+      "characters_per_second": 21.666666666666668
+    },
+    {
+      "cue": 160,
+      "lines": 2,
+      "longest_line": 42,
+      "duration_seconds": 3.68,
+      "characters_per_second": 21.195652173913043
+    },
+    {
+      "cue": 161,
+      "lines": 1,
+      "longest_line": 13,
+      "duration_seconds": 0.62,
+      "characters_per_second": 20.967741935483872
+    },
+    {
+      "cue": 162,
+      "lines": 2,
+      "longest_line": 40,
+      "duration_seconds": 3.74,
+      "characters_per_second": 20.053475935828875
+    },
+    {
+      "cue": 163,
+      "lines": 2,
+      "longest_line": 39,
+      "duration_seconds": 1.96,
+      "characters_per_second": 26.020408163265305
+    },
+    {
+      "cue": 164,
+      "lines": 2,
+      "longest_line": 38,
+      "duration_seconds": 3.34,
+      "characters_per_second": 21.55688622754491
+    },
+    {
+      "cue": 165,
+      "lines": 1,
+      "longest_line": 9,
+      "duration_seconds": 0.44,
+      "characters_per_second": 20.454545454545453
+    },
+    {
+      "cue": 166,
+      "lines": 2,
+      "longest_line": 38,
+      "duration_seconds": 2.78,
+      "characters_per_second": 21.942446043165468
+    },
+    {
+      "cue": 167,
+      "lines": 1,
+      "longest_line": 14,
+      "duration_seconds": 0.72,
+      "characters_per_second": 19.444444444444446
+    },
+    {
+      "cue": 168,
+      "lines": 1,
+      "longest_line": 13,
+      "duration_seconds": 0.82,
+      "characters_per_second": 15.853658536585368
+    },
+    {
+      "cue": 169,
+      "lines": 2,
+      "longest_line": 40,
+      "duration_seconds": 2.94,
+      "characters_per_second": 21.768707482993197
+    },
+    {
+      "cue": 170,
+      "lines": 2,
+      "longest_line": 39,
+      "duration_seconds": 3.7,
+      "characters_per_second": 20.81081081081081
+    },
+    {
+      "cue": 171,
+      "lines": 1,
+      "longest_line": 34,
+      "duration_seconds": 2.08,
+      "characters_per_second": 16.346153846153847
+    },
+    {
+      "cue": 172,
+      "lines": 2,
+      "longest_line": 39,
+      "duration_seconds": 3.2,
+      "characters_per_second": 23.75
+    },
+    {
+      "cue": 173,
+      "lines": 1,
+      "longest_line": 19,
+      "duration_seconds": 0.84,
+      "characters_per_second": 22.61904761904762
+    },
+    {
+      "cue": 174,
+      "lines": 2,
+      "longest_line": 41,
+      "duration_seconds": 3.7,
+      "characters_per_second": 14.594594594594595
+    },
+    {
+      "cue": 175,
+      "lines": 2,
+      "longest_line": 38,
+      "duration_seconds": 2.46,
+      "characters_per_second": 21.13821138211382
+    },
+    {
+      "cue": 176,
+      "lines": 2,
+      "longest_line": 34,
+      "duration_seconds": 2.62,
+      "characters_per_second": 22.519083969465647
+    },
+    {
+      "cue": 177,
+      "lines": 2,
+      "longest_line": 42,
+      "duration_seconds": 2.36,
+      "characters_per_second": 22.45762711864407
+    },
+    {
+      "cue": 178,
+      "lines": 2,
+      "longest_line": 40,
+      "duration_seconds": 2.5,
+      "characters_per_second": 20.4
+    },
+    {
+      "cue": 179,
+      "lines": 2,
+      "longest_line": 38,
+      "duration_seconds": 2.541,
+      "characters_per_second": 20.070838252656436
+    },
+    {
+      "cue": 180,
+      "lines": 2,
+      "longest_line": 36,
+      "duration_seconds": 3.28,
+      "characters_per_second": 18.29268292682927
+    },
+    {
+      "cue": 181,
+      "lines": 1,
+      "longest_line": 21,
+      "duration_seconds": 1.0,
+      "characters_per_second": 21.0
+    },
+    {
+      "cue": 182,
+      "lines": 2,
+      "longest_line": 41,
+      "duration_seconds": 3.56,
+      "characters_per_second": 19.662921348314608
+    },
+    {
+      "cue": 183,
+      "lines": 2,
+      "longest_line": 38,
+      "duration_seconds": 4.04,
+      "characters_per_second": 19.059405940594058
+    },
+    {
+      "cue": 184,
+      "lines": 1,
+      "longest_line": 14,
+      "duration_seconds": 0.62,
+      "characters_per_second": 22.580645161290324
+    },
+    {
+      "cue": 185,
+      "lines": 2,
+      "longest_line": 40,
+      "duration_seconds": 4.14,
+      "characters_per_second": 15.942028985507248
+    },
+    {
+      "cue": 186,
+      "lines": 1,
+      "longest_line": 38,
+      "duration_seconds": 1.88,
+      "characters_per_second": 20.21276595744681
+    },
+    {
+      "cue": 187,
+      "lines": 2,
+      "longest_line": 41,
+      "duration_seconds": 3.46,
+      "characters_per_second": 20.809248554913296
+    },
+    {
+      "cue": 188,
+      "lines": 1,
+      "longest_line": 29,
+      "duration_seconds": 1.26,
+      "characters_per_second": 23.015873015873016
+    },
+    {
+      "cue": 189,
+      "lines": 2,
+      "longest_line": 34,
+      "duration_seconds": 3.6,
+      "characters_per_second": 17.22222222222222
+    },
+    {
+      "cue": 190,
+      "lines": 1,
+      "longest_line": 27,
+      "duration_seconds": 1.26,
+      "characters_per_second": 21.428571428571427
+    },
+    {
+      "cue": 191,
+      "lines": 1,
+      "longest_line": 32,
+      "duration_seconds": 1.62,
+      "characters_per_second": 19.753086419753085
+    },
+    {
+      "cue": 192,
+      "lines": 1,
+      "longest_line": 39,
+      "duration_seconds": 2.18,
+      "characters_per_second": 17.889908256880734
+    },
+    {
+      "cue": 193,
+      "lines": 2,
+      "longest_line": 39,
+      "duration_seconds": 1.78,
+      "characters_per_second": 24.719101123595504
+    },
+    {
+      "cue": 194,
+      "lines": 2,
+      "longest_line": 41,
+      "duration_seconds": 3.56,
+      "characters_per_second": 21.629213483146067
+    },
+    {
+      "cue": 195,
+      "lines": 1,
+      "longest_line": 16,
+      "duration_seconds": 0.64,
+      "characters_per_second": 25.0
+    },
+    {
+      "cue": 196,
+      "lines": 1,
+      "longest_line": 29,
+      "duration_seconds": 1.36,
+      "characters_per_second": 21.323529411764703
+    },
+    {
+      "cue": 197,
+      "lines": 2,
+      "longest_line": 41,
+      "duration_seconds": 3.12,
+      "characters_per_second": 20.833333333333332
+    },
+    {
+      "cue": 198,
+      "lines": 1,
+      "longest_line": 39,
+      "duration_seconds": 1.92,
+      "characters_per_second": 20.3125
+    },
+    {
+      "cue": 199,
+      "lines": 1,
+      "longest_line": 39,
+      "duration_seconds": 1.88,
+      "characters_per_second": 20.74468085106383
+    },
+    {
+      "cue": 200,
+      "lines": 2,
+      "longest_line": 41,
+      "duration_seconds": 2.58,
+      "characters_per_second": 19.37984496124031
+    },
+    {
+      "cue": 201,
+      "lines": 2,
+      "longest_line": 40,
+      "duration_seconds": 2.36,
+      "characters_per_second": 22.033898305084747
+    },
+    {
+      "cue": 202,
+      "lines": 2,
+      "longest_line": 36,
+      "duration_seconds": 1.78,
+      "characters_per_second": 24.157303370786515
+    },
+    {
+      "cue": 203,
+      "lines": 2,
+      "longest_line": 39,
+      "duration_seconds": 2.28,
+      "characters_per_second": 26.315789473684212
+    }
+  ],
+  "limits_note": "Readability metrics do not verify semantic breaks, player layout or hearing sync.",
+  "timebase": "final",
+  "duration_seconds": "568.355011",
+  "inputs": {
+    "text": {
+      "path": "new_channel/videos/038_47_ronin/Work/ffmpeg-rebuild-en-v05/srt-review-v01/transcript.txt",
+      "sha256": "fa3cc5224089775a604593f1ee2f0f4d64f76a8c3855ee0438ab2afc133337f0"
+    },
+    "build": {
+      "path": "new_channel/videos/038_47_ronin/Work/ffmpeg-rebuild-en-v05/srt-review-v01/cues.json",
+      "sha256": "f6461e91da02a4f0f96e8e58b5882d74ea5989e2faf8aea19b9cf8d24d063f8f"
+    }
+  },
+  "result": "MACHINE_CHECKED",
+  "output": {
+    "path": "new_channel/videos/038_47_ronin/Work/ffmpeg-rebuild-en-v05/srt-review-v01/47_ronin_en_v05.srt",
+    "sha256": "4cb9eb37f38212ba93ccac491df6be866726b30e57a81d564021d460313bf3bb"
+  }
+}

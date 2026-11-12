@@ -1,0 +1,36 @@
+    - heading "ChatGPT сказал:" [level=4]
+    - blockquote:
+      - paragraph:
+        - text: Новый upload по умолчанию создаётся
+        - strong: Private
+        - text: . После проверки устанавливать только явно запрошенную visibility
+        - strong: или уже принятую канальную visibility по действующим правилам соответствующего канала
+        - text: ; это не разрешает автоматически делать видео Public, Scheduled или менять иные параметры публикации.
+    - paragraph: "Да, этого достаточно для снятия замечания: History сохраняет принятый default unlisted, а Paper/Stories остаются Private, если их канальные правила не задают иного."
+    - button "Копировать":
+    - button "Оценить ответ":
+    - button "Прочитать вслух":
+    - button "Поделиться":
+    - button "Добавить в источники проекта":
+    - button "Сгенерировать ответ заново":
+    - button "Ещё действия":
+    - generic: ChatGPT может допускать ошибки. Проверяйте важную информацию.
+    - button "Прокрутить вниз":
+    - heading "Последний ответ" [level=4]
+    - status
+    - button "Добавить файлы и другое":
+    - textbox "Спросить ChatGPT" [active]:
+      - paragraph: Спросить ChatGPT
+    - button "Выбрать модель ChatGPT":
+      - generic: Уровень усилий рассуждения
+      - generic: 5.6 Extra High
+    - button "Диктовать":
+    - button "Начать голосовой разговор":
+- status
+- status
+- status
+- status: Ответ готов
+- status
+- status
+- button "⋮⋮"
+- button "⋮⋮"

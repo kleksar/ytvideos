@@ -1,0 +1,276 @@
+{
+  "status": "DRAFT_NOT_FOR_FINAL_RENDER",
+  "note": "Draft intentions; pan center sign corrected to renderer screen-direction convention. Crops, captions and acceptance remain open.",
+  "scenes": [
+    {
+      "scene": "S032",
+      "file": "S032_candidate_v01.png",
+      "sha256": "a60a276ace54684e74bfc82b6d65085b1113e24d28e6c333d585e08b18f28385",
+      "camera": {
+        "subject": "launching the foreground lifeboat and two waiting hulls",
+        "focus": [
+          0.55,
+          0.48
+        ],
+        "direction": "none",
+        "zoom": "in",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.015
+        },
+        "reason": "Bring the launch action forward while keeping all three hulls."
+      },
+      "status": "DRAFT_REQUIRES_MOTION_ENVELOPE_CAPTIONS_AND_IMAGE_ACCEPTANCE"
+    },
+    {
+      "scene": "S033",
+      "file": "S033_candidate_v01.png",
+      "sha256": "931a54a66f3cac6dff5b987e74c9b53df617be5f1bb2b192175852bfe79632a8",
+      "camera": {
+        "subject": "three occupied boats in a water lane",
+        "focus": [
+          0.57,
+          0.51
+        ],
+        "direction": "left_to_right",
+        "zoom": "none",
+        "start": {
+          "center": [
+            0.505,
+            0.5
+          ],
+          "scale": 1.025
+        },
+        "end": {
+          "center": [
+            0.495,
+            0.5
+          ],
+          "scale": 1.025
+        },
+        "reason": "Follow the line of boats through the passage without implying independent movement."
+      },
+      "status": "DRAFT_REQUIRES_MOTION_ENVELOPE_CAPTIONS_AND_IMAGE_ACCEPTANCE"
+    },
+    {
+      "scene": "S034",
+      "file": "S034_candidate_v02.png",
+      "sha256": "be9bcad4b2ca284bfc4a6725893935c23c048bcbf75372cddac182df5949ca54",
+      "camera": {
+        "subject": "crew hauling first boat from surf",
+        "focus": [
+          0.47,
+          0.53
+        ],
+        "direction": "none",
+        "zoom": "in",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.012
+        },
+        "reason": "Draw attention to the rope and landing while retaining offshore boats."
+      },
+      "status": "DRAFT_REQUIRES_MOTION_ENVELOPE_CAPTIONS_AND_IMAGE_ACCEPTANCE"
+    },
+    {
+      "scene": "S035",
+      "file": "S035_candidate_v01.png",
+      "sha256": "b80469d49c6af3dd6256e761b97685b76b20b522224a884ec705336243fc5126",
+      "camera": {
+        "subject": "tiny group beneath cliffs",
+        "focus": [
+          0.66,
+          0.7
+        ],
+        "direction": "none",
+        "zoom": "out",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.018
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "reason": "Reveal the cliffs and isolation around the group."
+      },
+      "status": "DRAFT_REQUIRES_MOTION_ENVELOPE_CAPTIONS_AND_IMAGE_ACCEPTANCE"
+    },
+    {
+      "scene": "S036",
+      "file": "S036_candidate_v01.png",
+      "sha256": "6e3d8d54e6070b658d03c9c9deade92b5b79252adc59251e105d9dfbb9d862cf",
+      "camera": {
+        "subject": "survivors and empty sea",
+        "focus": [
+          0.35,
+          0.48
+        ],
+        "direction": "left_to_right",
+        "zoom": "none",
+        "start": {
+          "center": [
+            0.505,
+            0.5
+          ],
+          "scale": 1.025
+        },
+        "end": {
+          "center": [
+            0.495,
+            0.5
+          ],
+          "scale": 1.025
+        },
+        "reason": "Move attention from the men toward the empty horizon; protect foreground people."
+      },
+      "status": "DRAFT_REQUIRES_MOTION_ENVELOPE_CAPTIONS_AND_IMAGE_ACCEPTANCE"
+    },
+    {
+      "scene": "S037",
+      "file": "S037_candidate_v02.png",
+      "sha256": "d7e7166b7d3e0d155926487481506f4b32622e611e73d128031fc3d2266f86bd",
+      "camera": {
+        "subject": "leader and men assessing the lifeboat",
+        "focus": [
+          0.51,
+          0.48
+        ],
+        "direction": "none",
+        "zoom": "in",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.015
+        },
+        "reason": "Focus on the decision around the boat without cutting off faces."
+      },
+      "status": "DRAFT_REQUIRES_MOTION_ENVELOPE_CAPTIONS_AND_IMAGE_ACCEPTANCE"
+    },
+    {
+      "scene": "S038",
+      "file": "S038_candidate_v01.png",
+      "sha256": "67ceb89d14c8629f8f37abe9009fcbf95f3f1232474170d5254c90bde902d56b",
+      "camera": {
+        "subject": "distance between named islands",
+        "focus": [
+          0.59,
+          0.37
+        ],
+        "direction": "none",
+        "zoom": "out",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.012
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "reason": "Widen to keep both endpoint labels and distance in view."
+      },
+      "status": "DRAFT_REQUIRES_MOTION_ENVELOPE_CAPTIONS_AND_IMAGE_ACCEPTANCE"
+    },
+    {
+      "scene": "S039",
+      "file": "S039_candidate_v01.png",
+      "sha256": "a73440d5230f0f97801477a6a2386f200cab76504f6170422c4113c7beebfae5",
+      "camera": {
+        "subject": "small boat amid open sea",
+        "focus": [
+          0.52,
+          0.54
+        ],
+        "direction": "right_to_left",
+        "zoom": "none",
+        "start": {
+          "center": [
+            0.495,
+            0.5
+          ],
+          "scale": 1.025
+        },
+        "end": {
+          "center": [
+            0.505,
+            0.5
+          ],
+          "scale": 1.025
+        },
+        "reason": "Maintain the ocean scale around the small boat."
+      },
+      "status": "DRAFT_REQUIRES_MOTION_ENVELOPE_CAPTIONS_AND_IMAGE_ACCEPTANCE"
+    },
+    {
+      "scene": "S040",
+      "file": "S040_candidate_v01.png",
+      "sha256": "7457d444b39d74f52c1650998d246d73416587e1bf5674106b3def087838f7a8",
+      "camera": {
+        "subject": "distant whaling station across bay",
+        "focus": [
+          0.69,
+          0.45
+        ],
+        "direction": "none",
+        "zoom": "in",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.015
+        },
+        "reason": "Direct attention toward the potential destination while preserving the bay."
+      },
+      "status": "DRAFT_REQUIRES_MOTION_ENVELOPE_CAPTIONS_AND_IMAGE_ACCEPTANCE"
+    }
+  ]
+}

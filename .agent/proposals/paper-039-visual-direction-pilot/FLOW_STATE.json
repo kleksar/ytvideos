@@ -1,0 +1,166 @@
+{
+  "schema_version": 2,
+  "music_workflow": 1,
+  "episode": "paper-039-great-emu-war-new-production",
+  "channel": "paper",
+  "format": "long",
+  "input": "ready_text",
+  "input_evidence": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/narration_en_v04_tts.txt; archived episode EN v04; user authorized new full production in conversation",
+  "scope": "New English Paper Detour MP4 for user review; no upload or publication authorized; original published episode unchanged.",
+  "stages": [
+    {
+      "id": "script",
+      "skills": [],
+      "status": "PENDING",
+      "artifacts": [
+        {
+          "path": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/narration_en_v04_tts.txt",
+          "version": "EN-v04",
+          "sha256": "674d78a4ddd98649beda3ba064c5cbdb5d71a81fe9332c7b01fb521f5c5a9ccd"
+        }
+      ],
+      "checks": [],
+      "dependencies": [],
+      "skill_runs": []
+    },
+    {
+      "id": "storyboard",
+      "skills": [
+        "ytv-visual-direction"
+      ],
+      "status": "PENDING",
+      "artifacts": [
+        {
+          "path": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/EPISODE.md",
+          "version": "draft-v01",
+          "sha256": "fce83f18ea958e7552f2271b39f25b667eb12102fb0965bd61ecf46d06959b15"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/SHOT_MAP_DRAFT.md",
+          "version": "draft-v01",
+          "sha256": "470377dadaa05eb359a8a75e5bf7c3716a5a40acfdc7bff75126b6440540edfc"
+        }
+      ],
+      "checks": [],
+      "dependencies": [],
+      "skill_runs": []
+    },
+    {
+      "id": "audio",
+      "skills": [
+        "ytv-audio-delivery"
+      ],
+      "status": "PENDING",
+      "artifacts": [
+        {
+          "path": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/voice/mix_draft_v01.wav",
+          "version": "draft-v01",
+          "sha256": "4f8a555e3524429172b844f3b0c54aa64ce8f47bd767ffa2a7e722837f14b888"
+        }
+      ],
+      "checks": [],
+      "dependencies": [],
+      "skill_runs": []
+    },
+    {
+      "id": "images",
+      "skills": [
+        "ytv-scene-images",
+        "ytv-image-motion"
+      ],
+      "status": "PENDING",
+      "artifacts": [
+        {
+          "path": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/edit_draft_v05.json",
+          "version": "draft-v05",
+          "sha256": "96a318d163793bd53491a7b05d45017b54665325dca8614ee54b6f324f9735d8"
+        }
+      ],
+      "checks": [],
+      "dependencies": [],
+      "skill_runs": []
+    },
+    {
+      "id": "subtitles",
+      "skills": [
+        "ytv-paper-subtitles",
+        "ytv-srt"
+      ],
+      "status": "PENDING",
+      "artifacts": [
+        {
+          "path": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/voice/word_map_mix_draft_v01.json",
+          "version": "draft-v01",
+          "sha256": "5a0717ae9edc4735df542cd921f6dab2b8c46d1480f53cea7ea5fa4d71b2b2f4"
+        }
+      ],
+      "checks": [],
+      "dependencies": [],
+      "skill_runs": []
+    },
+    {
+      "id": "render",
+      "skills": [
+        "ytv-video-production",
+        "ytv-video-export",
+        "ytv-video-qa"
+      ],
+      "status": "PENDING",
+      "artifacts": [],
+      "checks": [],
+      "dependencies": [],
+      "skill_runs": []
+    },
+    {
+      "id": "review",
+      "skills": [],
+      "status": "PENDING",
+      "artifacts": [],
+      "checks": [],
+      "dependencies": [],
+      "skill_runs": []
+    },
+    {
+      "id": "packaging",
+      "skills": [
+        "ytv-youtube-video-titles",
+        "ytv-youtube-thumbnails",
+        "ytv-youtube-descriptions",
+        "ytv-youtube-hashtags",
+        "ytv-youtube-playlists",
+        "ytv-youtube-ab-testing",
+        "ytv-youtube-chapters"
+      ],
+      "status": "PENDING",
+      "artifacts": [],
+      "checks": [],
+      "dependencies": [],
+      "skill_runs": []
+    },
+    {
+      "id": "unlisted",
+      "skills": [
+        "ytv-youtube-release"
+      ],
+      "status": "PENDING",
+      "artifacts": [],
+      "checks": [],
+      "dependencies": [],
+      "skill_runs": []
+    },
+    {
+      "id": "release",
+      "skills": [
+        "ytv-youtube-release",
+        "ytv-media-lifecycle"
+      ],
+      "status": "PENDING",
+      "artifacts": [],
+      "checks": [],
+      "dependencies": [],
+      "skill_runs": []
+    }
+  ],
+  "decisions": {},
+  "next_step": "Review exact PNG sequence, correct subtitle groups and validate alignment against the actual recording; assess and listen to the complete mix before final render."
+}

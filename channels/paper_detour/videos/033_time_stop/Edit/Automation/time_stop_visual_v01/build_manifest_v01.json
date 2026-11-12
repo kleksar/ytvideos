@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "episode_root": "../../..",
+  "project_name": "Paper Detour 033 Time Stop Visual Draft 20261102",
+  "visual_manifest": "Edit/Automation/time_stop_visual_v01/visual_manifest_v01.json",
+  "auxiliary_tracks": [
+    {
+      "name": "FilmGrain",
+      "type": "video",
+      "media": "Edit/Automation/time_stop_visual_v01/film_grain_v01.mov",
+      "fit": "cover",
+      "require_alpha": true,
+      "clips": [
+        {
+          "start_frame": 0,
+          "source_start_seconds": 0.0,
+          "source_end_seconds": 60.0
+        }
+      ]
+    }
+  ]
+}

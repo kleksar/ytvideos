@@ -1,0 +1,19 @@
+{
+  "file": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Deliverables/Bloodstream-review-v07.mp4",
+  "sha256": "84b69c848bb8ee080e5e39a5edc8a636bc38bf4882fa88820bf32220b2cd2b62",
+  "reference": "https://www.youtube.com/watch?v=FOJ4A4wixDg",
+  "recording_checks": [
+    "Two filtered source ASR passes",
+    "HTDemucs isolated vocal ASR",
+    "Exact final MP4 mix ASR"
+  ],
+  "asr_model": "faster-whisper large-v3-turbo",
+  "restored_line_words": 7,
+  "exact_mp4_asr_words": 38,
+  "restored_line_screen_frames": [
+    67,
+    131
+  ],
+  "cut_off_next_phrase": "The last pickup is mapped from full source context; the cropped audio transcription ends after the previous phrase.",
+  "subjective_listening": "UNVERIFIED"
+}

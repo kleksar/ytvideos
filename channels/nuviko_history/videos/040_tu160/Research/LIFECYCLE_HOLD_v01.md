@@ -1,0 +1,3 @@
+# Previous review MP4 — active consumer hold
+
+User praised the v01 review and requested changes to scenes and durations. Exact file: `Deliverables/NUVIKO_040_TU160_EN_REVIEW_v01.mp4`, 1,843,034,136 bytes, SHA-256 `c034acf09244c06290eeb972e9b3512fce34496e43a79029fe63a2959e21aaf2`, rechecked during recut. On 2026-11-05, fresh lsof shows macOS QuickLookUIService PID 1845 holding the file open for reading. It is therefore retained as a live user consumer hold; do not close the user's preview or remove the file while open. Reassess disposition when consumer finishes, under ytv-media-lifecycle. No file mutation performed.

@@ -1,0 +1,54 @@
+{
+  "mcpJobId": "job_8b816cbd-633a-48c1-81e0-0ea61d88dcd4",
+  "toolName": "vidiq_generate_thumbnail",
+  "status": "completed",
+  "result": {
+    "score": 72,
+    "videoId": "0RaC4t7yn5o",
+    "feedback": {
+      "summary": "Good thumbnail with some room for improvement.",
+      "strengths": [
+        {
+          "feature": "blur_score_log",
+          "message": "Sharp and crisp image",
+          "pointImpact": 53,
+          "contribution": 3.6018523352886236,
+          "relatedConcept": null
+        },
+        {
+          "feature": "sensory_overload",
+          "message": "Perfectly balanced intensity",
+          "pointImpact": 22,
+          "contribution": 0.6817455238362948,
+          "relatedConcept": null
+        }
+      ],
+      "improvements": [
+        {
+          "tip": "Increase color saturation, add motion effects, or use more vibrant color grading",
+          "feature": "emb_350",
+          "message": "The image feels a bit low-energy",
+          "pointImpact": -14,
+          "contribution": -0.9573477127859746,
+          "currentValue": 0.121843121945858,
+          "relatedConcept": "clip_energy_score"
+        },
+        {
+          "tip": "Crop tighter on the subject or replace the background with a cleaner backdrop",
+          "feature": "negative_space",
+          "message": "Composition feels too cluttered or too empty",
+          "pointImpact": -13,
+          "contribution": -0.8450352940898466,
+          "currentValue": 0.2987085459183674,
+          "relatedConcept": null
+        }
+      ]
+    },
+    "imageUrl": "https://ai-thumbnails.s3.amazonaws.com/editor/854c102d-79fb-4774-a6e0-22fbce4f162d/83f27cdf-ad9d-44ce-8c9b-4b8d7d9b95b8.png"
+  },
+  "refunded": false,
+  "message": null,
+  "_credits": {
+    "used": 0
+  }
+}

@@ -1,0 +1,357 @@
+{
+  "schema_version": 1,
+  "episode": "049_anandibai_joshee",
+  "channel": "paper",
+  "format": "long",
+  "input": "ready_text",
+  "input_evidence": "User message on 2026-11-05: \u201c\u043f\u0443\u0448\u043a\u0430. \u041f\u043e\u0433\u043d\u0430\u043b\u0438 \u0434\u0435\u043b\u0430\u0442\u044c, \u043e\u0439 \u0433\u043e\u0441\u043f\u043e\u0434\u0438, \u0432\u0438\u0434\u0435\u043e. \u0414\u0435\u043b\u0430\u0439 \u0442\u0430\u043c \u043a\u0430\u0440\u0442\u0438\u043d\u043a\u0438, \u0447\u0442\u043e \u0442\u0430\u043c \u0435\u0449\u0435, \u044d\u0442\u043e \u0432\u0441\u0451 \u0434\u0430\u043b\u0435\u0435 \u043f\u043e \u043d\u0430\u0448\u0435\u043c\u0443 \u0444\u043b\u043e\u0443, \u0436\u0434\u0443 \u043e\u0442 \u0442\u0435\u0431\u044f MP4.\u201d This accepts the current v26 narration and requests production to MP4.",
+  "scope": "Paper Detour full English long film through review MP4 handoff; no YouTube upload/publication.",
+  "stages": [
+    {
+      "id": "script",
+      "skills": [],
+      "status": "DONE",
+      "artifacts": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Source/Script/narration_en_v26.md",
+          "version": "v26",
+          "sha256": "52c534de62209629257213f49a5c6c3301010d2f5bae1c87426a9bbc66ff6956"
+        }
+      ],
+      "checks": [
+        {
+          "name": "user_acceptance",
+          "status": "PASS",
+          "reviewer": "user",
+          "method": "direct message in current Codex conversation",
+          "coverage": "Exact English narration v26 accepted for production",
+          "evidence": "User: \u201c\u043f\u0443\u0448\u043a\u0430. \u041f\u043e\u0433\u043d\u0430\u043b\u0438 \u0434\u0435\u043b\u0430\u0442\u044c \u2026 \u0436\u0434\u0443 \u043e\u0442 \u0442\u0435\u0431\u044f MP4.\u201d"
+        }
+      ],
+      "dependencies": [],
+      "skill_runs": []
+    },
+    {
+      "id": "storyboard",
+      "skills": [
+        "ytv-video-production",
+        "ytv-paper-storyboard"
+      ],
+      "status": "DONE",
+      "artifacts": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Edit/Storyboard/storyboard_v01.md",
+          "version": "storyboard_v01.md",
+          "sha256": "073b09aa362998e7387a4337863e15cd9e75633703e631a21ba2967d17af6125"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Edit/Storyboard/montage_v01.json",
+          "version": "montage_v01.json",
+          "sha256": "5f778f5558e9be255de9d7c14cb4c0f8486f16c61deb925aab0a73660df542d4"
+        }
+      ],
+      "checks": [
+        {
+          "name": "required_visual_consultation",
+          "status": "PASS",
+          "reviewer": "coordinator",
+          "method": "one narrow prompt published once in visible ChatGPT Extra High UI; completed response saved by chat URL and locally mirrored",
+          "coverage": "full-film visual arc and scene plan",
+          "evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Edit/Consultations/storyboard_chatgpt_consultation_v01.md"
+        },
+        {
+          "name": "scene_interval_frame_coverage",
+          "status": "PASS",
+          "reviewer": "coordinator",
+          "method": "forced-alignment word map onset boundaries compiled to continuous 30fps frames and plan-only validator passed",
+          "coverage": "30 speech scenes, frames 0\u20134484, 120\u2013180 frames each, plus two 150-frame end screens",
+          "evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Edit/Storyboard/montage_v01.json"
+        },
+        {
+          "name": "selected_visual_sequence",
+          "status": "PASS",
+          "reviewer": "coordinator",
+          "method": "reviewed actual ordered contact sheet and scene 29/30 full-frame; images are selected by the images stage",
+          "coverage": "all 30 scene IDs and both end-screen backgrounds",
+          "evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Source/Images/Long/en/contact_sheet_v02.jpg"
+        }
+      ],
+      "dependencies": [],
+      "skill_runs": [
+        {
+          "skill": "ytv-video-production",
+          "status": "APPLIED",
+          "evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Edit/Storyboard/storyboard_v01.md"
+        },
+        {
+          "skill": "ytv-paper-storyboard",
+          "status": "APPLIED",
+          "evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Edit/Storyboard/storyboard_v01.md"
+        }
+      ]
+    },
+    {
+      "id": "audio",
+      "skills": [
+        "ytv-audio-delivery"
+      ],
+      "status": "PENDING",
+      "artifacts": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Source/Audio/narration_en_v26_110.wav",
+          "version": "narration_en_v26_110.wav",
+          "sha256": "c4f81d49216ffb1c8767180ecef5f9199b3901c478946b3c582e105a4a38cf2a"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Source/Audio/narration_en_v26_110_endcard_silence.wav",
+          "version": "narration_en_v26_110_endcard_silence.wav",
+          "sha256": "aec3ec03a8da8ea8df8252458814ba9e92331ad69eead732101c0c7b63899d75"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Edit/Audio/speed_evidence_v02.md",
+          "version": "speed_evidence_v02.md",
+          "sha256": "d787c4ff6d3716ae2e3699591b9daa7c7f1699728c5d1c840b3af0d5b8c395ea"
+        }
+      ],
+      "checks": [
+        {
+          "name": "mix_identity_and_padding",
+          "status": "PASS",
+          "reviewer": "coordinator",
+          "method": "decoded PCM prefix equality; trailing samples asserted zero; ffprobe stream metadata",
+          "coverage": "all 6,591,151 accepted speech samples and 10.007461 s end-card pad",
+          "evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Edit/Audio/speed_evidence_v02.md"
+        },
+        {
+          "name": "audible_listening",
+          "status": "UNVERIFIED",
+          "evidence": "No human playback/listening check performed."
+        }
+      ],
+      "dependencies": [],
+      "skill_runs": [
+        {
+          "skill": "ytv-audio-delivery",
+          "status": "APPLIED",
+          "evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Edit/Audio/speed_evidence_v02.md"
+        }
+      ]
+    },
+    {
+      "id": "images",
+      "skills": [
+        "ytv-scene-images",
+        "ytv-image-motion"
+      ],
+      "status": "PENDING",
+      "artifacts": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Source/Images/Long/en/scene_selection_manifest_v01.json",
+          "version": "scene_selection_manifest_v01.json",
+          "sha256": "19a3b969d3640d0506b0a574373895a2a0c3ced74ee1e5084d0369851cce983d"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Source/Images/Long/en/contact_sheet_v02.jpg",
+          "version": "contact_sheet_v02.jpg",
+          "sha256": "d68f8f5bd165496d310ae3064c84846ede9ea12f2b580b2e12a9c5bbcdd967e5"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Edit/Storyboard/montage_v01.json",
+          "version": "montage_v01.json",
+          "sha256": "5f778f5558e9be255de9d7c14cb4c0f8486f16c61deb925aab0a73660df542d4"
+        }
+      ],
+      "checks": [
+        {
+          "name": "selected_image_sequence",
+          "status": "PASS",
+          "reviewer": "coordinator",
+          "method": "individual image generation review, ordered contact sheet review, plan-only crop/motion validator",
+          "coverage": "30 scenes and two end-screen backgrounds",
+          "evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Source/Images/image_generation_log_v02.md"
+        },
+        {
+          "name": "persisted_prompt_records",
+          "status": "UNVERIFIED",
+          "evidence": "Exact prompt text was not available in the persisted local log for earlier scene generations; recorded results/hashes and preserved exact new scene 29/30 prompts."
+        },
+        {
+          "name": "full_motion_caption_compositing",
+          "status": "UNVERIFIED",
+          "evidence": "Only representative scene 01 composite sampled before full render."
+        }
+      ],
+      "dependencies": [],
+      "skill_runs": [
+        {
+          "skill": "ytv-scene-images",
+          "status": "APPLIED",
+          "evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Source/Images/image_generation_log_v02.md"
+        },
+        {
+          "skill": "ytv-image-motion",
+          "status": "APPLIED",
+          "evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Edit/Storyboard/montage_v01.json"
+        }
+      ]
+    },
+    {
+      "id": "subtitles",
+      "skills": [
+        "ytv-paper-subtitles",
+        "ytv-srt"
+      ],
+      "status": "PENDING",
+      "artifacts": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Edit/Timebase/word_times_en_v26_110_forced_v01.json",
+          "version": "word_times_en_v26_110_forced_v01.json",
+          "sha256": "b80277ca4c4292f357f6d7e4aaa5093bfacbedbe9fad5d56f9ab1458dfe44983"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Work/subtitle_prepare_v04/subtitle_contract.json",
+          "version": "subtitle_contract.json",
+          "sha256": "4c64e12667653f337327b425208f6d279d4c6251c215e5910d3c0a5d6204df27"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Deliverables/Anandibai_Joshee_EN_v02.srt",
+          "version": "Anandibai_Joshee_EN_v02.srt",
+          "sha256": "3e8366d5a8035ebd384a926f449ccad060203bf9fecc9b805bb780aa362a56e2"
+        }
+      ],
+      "checks": [
+        {
+          "name": "literal_srt_coverage",
+          "status": "PASS",
+          "reviewer": "srt_tool.py",
+          "method": "structural serializer and NFC/whitespace-normalized transcript coverage",
+          "coverage": "all 431 narration words in 112 cues",
+          "evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Work/srt_v03/srt_validation.json"
+        },
+        {
+          "name": "timing_and_playback",
+          "status": "UNVERIFIED",
+          "evidence": "Forced alignment is a machine estimate; audible sync and SRT playback are not checked."
+        },
+        {
+          "name": "caption_semantic_boundaries",
+          "status": "UNVERIFIED",
+          "evidence": "10 automatic semantic grouping warnings retained; exact text and measured width pass, but no complete editorial group-by-group review recorded."
+        }
+      ],
+      "dependencies": [],
+      "skill_runs": [
+        {
+          "skill": "ytv-paper-subtitles",
+          "status": "APPLIED",
+          "evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Work/subtitle_prepare_v04/subtitle_review.json"
+        },
+        {
+          "skill": "ytv-srt",
+          "status": "APPLIED",
+          "evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Work/srt_v03/srt_validation.json"
+        }
+      ]
+    },
+    {
+      "id": "render",
+      "skills": [
+        "ytv-video-production",
+        "ytv-video-export",
+        "ytv-video-qa"
+      ],
+      "status": "PENDING",
+      "artifacts": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Edit/Export/EXPORT_CONTRACT_v03.json",
+          "version": "EXPORT_CONTRACT_v03.json",
+          "sha256": "0b7480aab42bfab2a34e8af59a5e98eb8dfa07394ec07033441a111386eaf039"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Edit/Export/PREFLIGHT_v03.md",
+          "version": "PREFLIGHT_v03.md",
+          "sha256": "6336420936b92c564674aedcf750bd8f95c949a9647d3a136d1f9e2dbeeed902"
+        }
+      ],
+      "checks": [
+        {
+          "name": "renderer_settings",
+          "status": "PASS",
+          "reviewer": "montage.py",
+          "method": "--check-settings against exact manifest and EXPORT_CONTRACT_v03; no encoding",
+          "coverage": "timeline, codec, pixel format, fps, Rec.709 range and AAC mapping",
+          "evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Work/render_preflight_v04/settings_check.json"
+        },
+        {
+          "name": "render_pending",
+          "status": "UNVERIFIED",
+          "evidence": "Full render not started yet."
+        }
+      ],
+      "dependencies": [],
+      "skill_runs": [
+        {
+          "skill": "ytv-video-production",
+          "status": "APPLIED",
+          "evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Edit/Storyboard/montage_v01.json"
+        },
+        {
+          "skill": "ytv-video-export",
+          "status": "APPLIED",
+          "evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Edit/Export/EXPORT_CONTRACT_v03.json"
+        }
+      ]
+    },
+    {
+      "id": "review",
+      "skills": [],
+      "status": "PENDING",
+      "artifacts": [],
+      "checks": [],
+      "dependencies": [],
+      "skill_runs": []
+    },
+    {
+      "id": "packaging",
+      "skills": [
+        "ytv-youtube-video-titles",
+        "ytv-youtube-thumbnails",
+        "ytv-youtube-descriptions",
+        "ytv-youtube-hashtags",
+        "ytv-youtube-playlists",
+        "ytv-youtube-ab-testing",
+        "ytv-youtube-chapters"
+      ],
+      "status": "PENDING",
+      "artifacts": [],
+      "checks": [],
+      "dependencies": [],
+      "skill_runs": []
+    },
+    {
+      "id": "unlisted",
+      "skills": [
+        "ytv-youtube-release"
+      ],
+      "status": "PENDING",
+      "artifacts": [],
+      "checks": [],
+      "dependencies": [],
+      "skill_runs": []
+    },
+    {
+      "id": "release",
+      "skills": [
+        "ytv-youtube-release",
+        "ytv-media-lifecycle"
+      ],
+      "status": "PENDING",
+      "artifacts": [],
+      "checks": [],
+      "dependencies": [],
+      "skill_runs": []
+    }
+  ],
+  "decisions": {},
+  "next_step": "Run the full authorized local review export using the exact settings-checked manifest and contract; hand off the MP4 immediately on successful render without post-render checks."
+}

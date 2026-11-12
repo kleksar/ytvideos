@@ -1,0 +1,25 @@
+# Packaging review · English v01 · 9 November 2026
+
+## Cover and title checks
+
+Reviewed all three native PNGs and the exact 16:9 JPEG derivatives. Inspected the [card comparison](card-comparison.jpg) at widths of 360 and 180 px with a simulated 7:24 duration badge. The complete lettering is legible on each and stays clear of the badge. At 360 px each exact title fits within two lines in the local layout. The smallest card check concerns the artwork. The live YouTube display remains unverified for this unpublished cut. The native masters are 1672 × 941. Delivery JPEGs are 1600 × 900 and below 1 MB. The ratio, encoding and size meet the documented upload guidance, which recommends a larger native resolution where available. [YouTube thumbnail guidance](https://support.google.com/youtube/answer/72431?hl=en).
+
+| Pair | Title promises | Images without lettering |
+|---|---|---|
+| A and B | A asks why France made the unexpected offer. B asks what problem Congress tried to solve by drawing a boundary. | A shows a surprised envoy reacting to a map being unfolded. B isolates the quill and the red boundary a hand is putting on the map. |
+| A and C | A promises a diplomatic explanation. C promises how a growing country broke into rival sides. | A shows a negotiation across a table. C shows a shore gun firing across a harbor toward a fortified island. |
+| B and C | B follows a specific legislative compromise. C follows the wider conflict through secession and war. | B shows a political decision as a line being drawn. C shows an armed confrontation at Fort Sumter. |
+
+Read at card size, A suggests that a small purchase unexpectedly became much larger. Its main promise is paid off in the opening and explained from 1:19. B shows a deliberate line being drawn. The title supplies its stakes and the film explains the compromise around 2:00, then shows it unraveling. C shows a cannon aimed at a fort. The cover names the rupture and the title sets it in the story of national growth. The introduction connects expansion and slavery by 0:33. Fort Sumter appears around 4:47–4:55. C’s second generation realigned the target and subdued the sunrise. The image represents the bombardment generally. [Louisiana Purchase Treaty](https://www.archives.gov/milestone-documents/louisiana-purchase-treaty) · [Missouri Compromise](https://www.archives.gov/milestone-documents/missouri-compromise) · [Fort Sumter battle record](https://www.nps.gov/civilwar/search-battles-detail.htm?battleCode=SC001).
+
+## Description blocks
+
+The three opening narratives use different events and preserve the film’s scope. France transferred its claims, Indigenous nations continued to govern on their lands, and the spread of slavery drove the political conflict. No research sources appear in public text. Music credits identify both exact tracks, links, the license and the mix edits. [Scott Buckley](https://www.scottbuckley.com.au/library/signal-to-noise/) · [Kevin MacLeod](https://remote.incompetech.com/music/royalty-free/index.html?Search=Search&isrc=USUAN1900047) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+All ten chapter starts were checked against the conformed word map, captions visible on decoded [MP4 boundary frames](Chapters/chapter-frames.jpg), and actual duration. The whole-second starts round down to leave the new phrase intact. Formal validation passed. See the [boundary receipt](Chapters/boundaries.json). This was a boundary check using speech timing and decoded frames. [YouTube chapter rules](https://support.google.com/youtube/answer/9884579?hl=en).
+
+The nine hashtags cover the national history frame, the purchase, western expansion, the compromise, slavery, the Civil War, Fort Sumter, forced Cherokee removal and the war with Mexico. Exact usage was visible for `#LouisianaPurchase`, `#AmericanHistory` and `#WestwardExpansion` in indexed YouTube video metadata. The rest were retained for direct subject relevance where the tag pages returned no usable listings. Earlier vidIQ estimates for the keyword phrases “louisiana purchase” and “westward expansion” are kept as keyword context. Demand for the exact hashtag strings is unknown. Generic or overlapping `#History`, `#USHistory` and `#CivilWar` were omitted in favor of more specific entries. `#Napoleon` would imply a wider focus on his biography. `#Shorts` is inapplicable. [Louisiana Purchase usage](https://www.youtube.com/watch?v=bZq0ip5yHRY) · [Westward expansion usage](https://www.youtube.com/watch?v=FJEiC9EKTH4) · [YouTube hashtag rules](https://support.google.com/youtube/answer/6390658?hl=en).
+
+## Scope and evidence
+
+The existing English [source brief](../../BRIEF_EN_v01.md) supplied the three title concepts. The optional vidIQ title request was rejected during the prior draft because it would send unpublished material to a third party and consume credits. For this package, the descriptions were developed from the local film and the cover art was generated with the project’s authorized image tool. [Generation prompts and reference paths](../../Thumbnails/generation_EN_v01.json).

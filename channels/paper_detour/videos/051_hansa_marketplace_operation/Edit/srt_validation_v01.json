@@ -1,0 +1,93 @@
+{
+  "structure": "PASS",
+  "text_coverage": "PASS",
+  "timing_mapping": "UNVERIFIED",
+  "playback": "UNVERIFIED",
+  "readability": "N_A",
+  "limits": {},
+  "errors": [],
+  "warnings": [],
+  "cues": [
+    {
+      "cue": 1,
+      "lines": 1,
+      "longest_line": 83,
+      "duration_seconds": 5.243,
+      "characters_per_second": 15.83063131794774
+    },
+    {
+      "cue": 2,
+      "lines": 1,
+      "longest_line": 45,
+      "duration_seconds": 2.501,
+      "characters_per_second": 17.99280287884846
+    },
+    {
+      "cue": 3,
+      "lines": 1,
+      "longest_line": 77,
+      "duration_seconds": 4.323,
+      "characters_per_second": 17.811704834605596
+    },
+    {
+      "cue": 4,
+      "lines": 1,
+      "longest_line": 43,
+      "duration_seconds": 1.982,
+      "characters_per_second": 21.695257315842582
+    },
+    {
+      "cue": 5,
+      "lines": 1,
+      "longest_line": 68,
+      "duration_seconds": 4.122,
+      "characters_per_second": 16.496846191169336
+    },
+    {
+      "cue": 6,
+      "lines": 1,
+      "longest_line": 62,
+      "duration_seconds": 3.382,
+      "characters_per_second": 18.332347723240684
+    },
+    {
+      "cue": 7,
+      "lines": 1,
+      "longest_line": 42,
+      "duration_seconds": 2.681,
+      "characters_per_second": 15.66579634464752
+    },
+    {
+      "cue": 8,
+      "lines": 1,
+      "longest_line": 62,
+      "duration_seconds": 3.922,
+      "characters_per_second": 15.808261091279958
+    },
+    {
+      "cue": 9,
+      "lines": 1,
+      "longest_line": 16,
+      "duration_seconds": 0.801,
+      "characters_per_second": 19.975031210986266
+    }
+  ],
+  "limits_note": "Readability metrics do not verify semantic breaks, player layout or hearing sync.",
+  "timebase": "source",
+  "duration_seconds": "34.080",
+  "inputs": {
+    "text": {
+      "path": "channels/paper_detour/videos/051_hansa_marketplace_operation/Source/Script/narration_en_accepted_v01.txt",
+      "sha256": "abc616620b33703e989e1f8b6d7b98c4de8011142add543650c4fbf64c614a9a"
+    },
+    "build": {
+      "path": "channels/paper_detour/videos/051_hansa_marketplace_operation/Edit/srt_cues_v01.json",
+      "sha256": "2c4d3eea298b4c39c11903c2b03cde2807828c7a5abbf6f247a3e9be3f66a548"
+    }
+  },
+  "result": "MACHINE_CHECKED",
+  "output": {
+    "path": "channels/paper_detour/videos/051_hansa_marketplace_operation/Deliverables/Paper051_Hansa_EN_v01.srt",
+    "sha256": "03c387a28e220aaf3fdf74e077f081c3fb7a47fdd50f0f11803b88e447515d68"
+  }
+}

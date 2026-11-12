@@ -1,0 +1,268 @@
+{
+  "version": 1,
+  "canvas": [
+    1080,
+    1920
+  ],
+  "face_height_px": 80,
+  "min_face_height_px": 70,
+  "anchors": {
+    "primary": {
+      "center": [
+        0.5,
+        0.16
+      ],
+      "max_width_px": 900,
+      "max_height_px": 240
+    },
+    "alternate": {
+      "center": [
+        0.5,
+        0.56
+      ],
+      "max_width_px": 900,
+      "max_height_px": 240
+    }
+  },
+  "scenes": [
+    {
+      "id": "S01",
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Shorts/03_stereo_text/Work/rework_20261102/accent_preflight/S01.png"
+    },
+    {
+      "id": "S03",
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Shorts/03_stereo_text/Work/rework_20261102/accent_preflight/S03.png"
+    },
+    {
+      "id": "S05",
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Shorts/03_stereo_text/Work/rework_20261102/accent_preflight/S05.png"
+    },
+    {
+      "id": "S07",
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Shorts/03_stereo_text/Work/rework_20261102/accent_preflight/S07.png"
+    },
+    {
+      "id": "S08",
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Shorts/03_stereo_text/Work/rework_20261102/accent_preflight/S08.png"
+    }
+  ],
+  "cues": [
+    {
+      "id": "C01",
+      "lines": [
+        "READ THE",
+        "RADIO?"
+      ],
+      "backend": {
+        "type": "existingPNG",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Shorts/03_stereo_text/Source/Images/accents_20261102/C01_v01.png",
+        "face": {
+          "mode": "creamOrange",
+          "line_boxes": [
+            [
+              0,
+              0,
+              2146,
+              357
+            ],
+            [
+              0,
+              357,
+              2146,
+              733
+            ]
+          ]
+        },
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+        "status": "candidate imagegen lettering; spelling and source alpha inspected"
+      },
+      "provenance": {
+        "author": "image_gen; coordinator self-review",
+        "record": "ACCENT_EDITORIAL_DRAFT.md"
+      },
+      "timing": {
+        "status": "REVIEW_REQUIRED",
+        "note": "provisional accepted wording; automatic timing"
+      }
+    },
+    {
+      "id": "C02",
+      "lines": [
+        "TWO",
+        "CHANNELS"
+      ],
+      "backend": {
+        "type": "existingPNG",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Shorts/03_stereo_text/Source/Images/accents_20261102/C02_v01.png",
+        "face": {
+          "mode": "creamOrange",
+          "line_boxes": [
+            [
+              0,
+              0,
+              2146,
+              364
+            ],
+            [
+              0,
+              364,
+              2146,
+              733
+            ]
+          ]
+        },
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+        "status": "candidate imagegen lettering; spelling and source alpha inspected"
+      },
+      "provenance": {
+        "author": "image_gen; coordinator self-review",
+        "record": "ACCENT_EDITORIAL_DRAFT.md"
+      },
+      "timing": {
+        "status": "REVIEW_REQUIRED",
+        "note": "provisional accepted wording; automatic timing"
+      }
+    },
+    {
+      "id": "C03",
+      "lines": [
+        "TEXT AS",
+        "SOUND"
+      ],
+      "backend": {
+        "type": "existingPNG",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Shorts/03_stereo_text/Source/Images/accents_20261102/C03_v01.png",
+        "face": {
+          "mode": "creamOrange",
+          "line_boxes": [
+            [
+              0,
+              0,
+              2145,
+              371
+            ],
+            [
+              0,
+              371,
+              2145,
+              733
+            ]
+          ]
+        },
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+        "status": "candidate imagegen lettering; spelling and source alpha inspected"
+      },
+      "provenance": {
+        "author": "image_gen; coordinator self-review",
+        "record": "ACCENT_EDITORIAL_DRAFT.md"
+      },
+      "timing": {
+        "status": "REVIEW_REQUIRED",
+        "note": "provisional accepted wording; automatic timing"
+      }
+    },
+    {
+      "id": "C04",
+      "lines": [
+        "DECODE, NOT",
+        "TRANSLATE"
+      ],
+      "backend": {
+        "type": "existingPNG",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Shorts/03_stereo_text/Source/Images/accents_20261102/C04_v01.png",
+        "face": {
+          "mode": "creamOrange",
+          "line_boxes": [
+            [
+              0,
+              0,
+              2146,
+              371
+            ],
+            [
+              0,
+              371,
+              2146,
+              733
+            ]
+          ]
+        },
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+        "status": "candidate imagegen lettering; spelling and source alpha inspected"
+      },
+      "provenance": {
+        "author": "image_gen; coordinator self-review",
+        "record": "ACCENT_EDITORIAL_DRAFT.md"
+      },
+      "timing": {
+        "status": "REVIEW_REQUIRED",
+        "note": "provisional accepted wording; automatic timing"
+      }
+    },
+    {
+      "id": "C05",
+      "lines": [
+        "LISTEN OR",
+        "READ"
+      ],
+      "backend": {
+        "type": "existingPNG",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Shorts/03_stereo_text/Source/Images/accents_20261102/C05_v01.png",
+        "face": {
+          "mode": "creamOrange",
+          "line_boxes": [
+            [
+              0,
+              0,
+              2146,
+              396
+            ],
+            [
+              0,
+              396,
+              2146,
+              733
+            ]
+          ]
+        },
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+        "status": "candidate imagegen lettering; spelling and source alpha inspected"
+      },
+      "provenance": {
+        "author": "image_gen; coordinator self-review",
+        "record": "ACCENT_EDITORIAL_DRAFT.md"
+      },
+      "timing": {
+        "status": "REVIEW_REQUIRED",
+        "note": "provisional accepted wording; automatic timing"
+      }
+    }
+  ],
+  "pairs": [
+    {
+      "scene": "S01",
+      "cue": "C01",
+      "anchor": "primary"
+    },
+    {
+      "scene": "S03",
+      "cue": "C02",
+      "anchor": "primary"
+    },
+    {
+      "scene": "S05",
+      "cue": "C03",
+      "anchor": "primary"
+    },
+    {
+      "scene": "S07",
+      "cue": "C04",
+      "anchor": "primary"
+    },
+    {
+      "scene": "S08",
+      "cue": "C05",
+      "anchor": "primary"
+    }
+  ]
+}

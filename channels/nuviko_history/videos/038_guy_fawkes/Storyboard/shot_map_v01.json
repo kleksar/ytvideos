@@ -1,0 +1,2349 @@
+{
+  "episode": "038_guy_fawkes",
+  "channel": "nuviko",
+  "format": "long",
+  "fps": 30,
+  "canvas": [
+    2560,
+    1440
+  ],
+  "audio_sha256": "db1192e6fb3039ab7f3f5acbd24c336f224db2ec492d0b13f35b02196c32e0ba",
+  "transcript_sha256": "47f34668c5ba8a3854f8381b726103671766c8500648f42fe72d27262ae98a05",
+  "duration_seconds": 212.87966,
+  "frame_count": 6387,
+  "scene_count": 43,
+  "scenes": [
+    {
+      "scene": "S01",
+      "image": "../Source/Images/S01_v01.png",
+      "start_frame": 0,
+      "end_frame": 127,
+      "start_seconds": 0,
+      "end_seconds": 4.233333,
+      "duration_seconds": 4.233333,
+      "transcript_span": "On the night of November 5, 1605, a man and barrels",
+      "visual_title": "Wide basement discovery",
+      "composition": "Wide night view deep inside a stone underground room; Fawkes by several barrels as officials with lanterns enter. Establish room/barrels/light.",
+      "continuity": "Fawkes and barrels central; officials at doorway; no explosion.",
+      "delivery_canvas": "2560x1440",
+      "subtitle_safe_area": {
+        "x": [
+          0.2375,
+          0.7625
+        ],
+        "y": [
+          0.85,
+          0.935
+        ]
+      },
+      "protected_content_area": {
+        "x": [
+          0.12,
+          0.88
+        ],
+        "y": [
+          0.12,
+          0.82
+        ]
+      },
+      "motion_plan": {
+        "direction": "none",
+        "zoom": "in",
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale_start": 1.0,
+        "scale_end": 1.04,
+        "status": "PROVISIONAL; confirm actual image coverage before import"
+      },
+      "status": "DRAFT",
+      "references": [],
+      "reference_roles": [],
+      "generation_prompt": "Use case: historical-scene\nAsset type: Nuviko History long-film scene S01, a complete static 16:9 landscape composition for 2560×1440 delivery.\nPrimary request: Wide night view deep inside a stone underground room; Fawkes by several barrels as officials with lanterns enter. Establish room/barrels/light.\nScene/backdrop: England in 1605, Jacobean period interior or street appropriate to this spoken beat.\nSubject: On the night of November 5, 1605, a man and barrels\nStyle/medium: photorealistic historical reconstruction with natural human proportions, tactile stone, wood, wool and linen, restrained earth tones and cinematic natural light. Historical people and settings are realistic. No Nuviko traveler in this shot.\nComposition/framing: wide 16:9; keep faces and story-critical action/objects inside central protected area x=0.12–0.88, y=0.12–0.82. Leave the lower central band clear for one-line captions (x=0.2375–0.7625, y=0.85–0.935). Compose for a centered whole-image zoom from 1.00 to 1.04 with no pan.\nContinuity: Fawkes and barrels central; officials at doorway; no explosion.\nConstraints: illustrative reconstruction, not evidence or an exact portrait. Use supplied references only for their stated role, not their pose/background. Do not add plot events, claims, people or legible writing. The Gunpowder Plot was stopped; never depict an explosion. No modern objects, logos, caption text, title, watermark or border. No gore."
+    },
+    {
+      "scene": "S02",
+      "image": "../Source/Images/S02_v01.png",
+      "start_frame": 127,
+      "end_frame": 260,
+      "start_seconds": 4.233333,
+      "end_seconds": 8.666667,
+      "duration_seconds": 4.433333,
+      "transcript_span": "of gunpowder were discovered beneath the House of Lords in London. The man gave",
+      "visual_title": "Searchers reach the barrels",
+      "composition": "From the doorway toward the same room; Fawkes beside the barrels, officials approaching through lantern light.",
+      "continuity": "Same underground room and Fawkes as S01; no new action beyond search/discovery.",
+      "delivery_canvas": "2560x1440",
+      "subtitle_safe_area": {
+        "x": [
+          0.2375,
+          0.7625
+        ],
+        "y": [
+          0.85,
+          0.935
+        ]
+      },
+      "protected_content_area": {
+        "x": [
+          0.12,
+          0.88
+        ],
+        "y": [
+          0.12,
+          0.82
+        ]
+      },
+      "motion_plan": {
+        "direction": "none",
+        "zoom": "out",
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale_start": 1.04,
+        "scale_end": 1.0,
+        "status": "PROVISIONAL; confirm actual image coverage before import"
+      },
+      "status": "DRAFT",
+      "references": [
+        "/Users/diplomat/ytvideos/channels/nuviko_history/videos/038_guy_fawkes/Source/Images/S01_v01.png"
+      ],
+      "reference_roles": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/038_guy_fawkes/Source/Images/S01_v01.png",
+          "role": "episode-specific fictionalized Fawkes and/or basement continuity reference only; preserve this shot’s new composition"
+        }
+      ],
+      "generation_prompt": "Use case: historical-scene\nAsset type: Nuviko History long-film scene S02, a complete static 16:9 landscape composition for 2560×1440 delivery.\nPrimary request: From the doorway toward the same room; Fawkes beside the barrels, officials approaching through lantern light.\nScene/backdrop: England in 1605, Jacobean period interior or street appropriate to this spoken beat.\nSubject: of gunpowder were discovered beneath the House of Lords in London. The man gave\nStyle/medium: photorealistic historical reconstruction with natural human proportions, tactile stone, wood, wool and linen, restrained earth tones and cinematic natural light. Historical people and settings are realistic. No Nuviko traveler in this shot.\nComposition/framing: wide 16:9; keep faces and story-critical action/objects inside central protected area x=0.12–0.88, y=0.12–0.82. Leave the lower central band clear for one-line captions (x=0.2375–0.7625, y=0.85–0.935). Compose for a centered whole-image zoom from 1.00 to 1.04 with no pan.\nContinuity: Same underground room and Fawkes as S01; no new action beyond search/discovery.\nConstraints: illustrative reconstruction, not evidence or an exact portrait. Use supplied references only for their stated role, not their pose/background. Do not add plot events, claims, people or legible writing. The Gunpowder Plot was stopped; never depict an explosion. No modern objects, logos, caption text, title, watermark or border. No gore."
+    },
+    {
+      "scene": "S03",
+      "image": "../Source/Images/S03_v01.png",
+      "start_frame": 260,
+      "end_frame": 399,
+      "start_seconds": 8.666667,
+      "end_seconds": 13.3,
+      "duration_seconds": 4.633333,
+      "transcript_span": "his name as John Johnson. His real name was Guy Fawkes.",
+      "visual_title": "Fawkes identity reveal",
+      "composition": "Unbound side-lit portrait of Fawkes in a dim stone passage; an official remains out of focus.",
+      "continuity": "Same fictionalized Fawkes as S01; this is the identity reveal, with no visible restraint, labels or readable documents.",
+      "delivery_canvas": "2560x1440",
+      "subtitle_safe_area": {
+        "x": [
+          0.2375,
+          0.7625
+        ],
+        "y": [
+          0.85,
+          0.935
+        ]
+      },
+      "protected_content_area": {
+        "x": [
+          0.12,
+          0.88
+        ],
+        "y": [
+          0.12,
+          0.82
+        ]
+      },
+      "motion_plan": {
+        "direction": "none",
+        "zoom": "in",
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale_start": 1.0,
+        "scale_end": 1.04,
+        "status": "PROVISIONAL; confirm actual image coverage before import"
+      },
+      "status": "DRAFT",
+      "references": [
+        "/Users/diplomat/ytvideos/channels/nuviko_history/videos/038_guy_fawkes/Source/Images/S01_v01.png"
+      ],
+      "reference_roles": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/038_guy_fawkes/Source/Images/S01_v01.png",
+          "role": "episode-specific fictionalized Fawkes and/or basement continuity reference only; preserve this shot’s new composition"
+        }
+      ],
+      "generation_prompt": "Use case: historical-scene\nAsset type: Nuviko History long-film scene S03, a complete static 16:9 landscape composition for 2560×1440 delivery.\nPrimary request: Close side-lit portrait of detained Fawkes; stone passage and officials softly out of focus.\nScene/backdrop: England in 1605, Jacobean period interior or street appropriate to this spoken beat.\nSubject: his name as John Johnson. His real name was Guy Fawkes.\nStyle/medium: photorealistic historical reconstruction with natural human proportions, tactile stone, wood, wool and linen, restrained earth tones and cinematic natural light. Historical people and settings are realistic. No Nuviko traveler in this shot.\nComposition/framing: wide 16:9; keep faces and story-critical action/objects inside central protected area x=0.12–0.88, y=0.12–0.82. Leave the lower central band clear for one-line captions (x=0.2375–0.7625, y=0.85–0.935). Compose for a centered whole-image zoom from 1.00 to 1.04 with no pan.\nContinuity: Same fictionalized Fawkes as S01; no labels, cards or readable documents.\nConstraints: illustrative reconstruction, not evidence or an exact portrait. Use supplied references only for their stated role, not their pose/background. Do not add plot events, claims, people or legible writing. The Gunpowder Plot was stopped; never depict an explosion. No modern objects, logos, caption text, title, watermark or border. No gore."
+    },
+    {
+      "scene": "S04",
+      "image": "../Source/Images/S04_v01.png",
+      "start_frame": 399,
+      "end_frame": 558,
+      "start_seconds": 13.3,
+      "end_seconds": 18.6,
+      "duration_seconds": 5.3,
+      "transcript_span": "That same day, King James the First of England was due to attend the opening of Parliament.",
+      "visual_title": "Parliament expected",
+      "composition": "Empty, symmetrical House of Lords chamber prepared for an expected opening, central perspective.",
+      "continuity": "No attendees; present the event as expected, not completed.",
+      "delivery_canvas": "2560x1440",
+      "subtitle_safe_area": {
+        "x": [
+          0.2375,
+          0.7625
+        ],
+        "y": [
+          0.85,
+          0.935
+        ]
+      },
+      "protected_content_area": {
+        "x": [
+          0.12,
+          0.88
+        ],
+        "y": [
+          0.12,
+          0.82
+        ]
+      },
+      "motion_plan": {
+        "direction": "none",
+        "zoom": "out",
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale_start": 1.04,
+        "scale_end": 1.0,
+        "status": "PROVISIONAL; confirm actual image coverage before import"
+      },
+      "status": "DRAFT",
+      "references": [],
+      "reference_roles": [],
+      "generation_prompt": "Use case: historical-scene\nAsset type: Nuviko History long-film scene S04, a complete static 16:9 landscape composition for 2560×1440 delivery.\nPrimary request: Empty, symmetrical House of Lords chamber prepared for an expected opening, central perspective.\nScene/backdrop: England in 1605, Jacobean period interior or street appropriate to this spoken beat.\nSubject: That same day, King James the First of England was due to attend the opening of Parliament.\nStyle/medium: photorealistic historical reconstruction with natural human proportions, tactile stone, wood, wool and linen, restrained earth tones and cinematic natural light. Historical people and settings are realistic. No Nuviko traveler in this shot.\nComposition/framing: wide 16:9; keep faces and story-critical action/objects inside central protected area x=0.12–0.88, y=0.12–0.82. Leave the lower central band clear for one-line captions (x=0.2375–0.7625, y=0.85–0.935). Compose for a centered whole-image zoom from 1.00 to 1.04 with no pan.\nContinuity: No attendees; present the event as expected, not completed.\nConstraints: illustrative reconstruction, not evidence or an exact portrait. Use supplied references only for their stated role, not their pose/background. Do not add plot events, claims, people or legible writing. The Gunpowder Plot was stopped; never depict an explosion. No modern objects, logos, caption text, title, watermark or border. No gore."
+    },
+    {
+      "scene": "S05",
+      "image": "../Source/Images/S05_v01.png",
+      "start_frame": 558,
+      "end_frame": 718,
+      "start_seconds": 18.6,
+      "end_seconds": 23.933333,
+      "duration_seconds": 5.333333,
+      "transcript_span": "Members of both Houses would be gathered there with him. The people who had hidden the gunpowder planned",
+      "visual_title": "Members of both Houses",
+      "composition": "Low wide view along empty parliamentary benches and central aisle.",
+      "continuity": "Same hall as S04; no attendees or blast.",
+      "delivery_canvas": "2560x1440",
+      "subtitle_safe_area": {
+        "x": [
+          0.2375,
+          0.7625
+        ],
+        "y": [
+          0.85,
+          0.935
+        ]
+      },
+      "protected_content_area": {
+        "x": [
+          0.12,
+          0.88
+        ],
+        "y": [
+          0.12,
+          0.82
+        ]
+      },
+      "motion_plan": {
+        "direction": "none",
+        "zoom": "in",
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale_start": 1.0,
+        "scale_end": 1.04,
+        "status": "PROVISIONAL; confirm actual image coverage before import"
+      },
+      "status": "DRAFT",
+      "references": [],
+      "reference_roles": [],
+      "generation_prompt": "Use case: historical-scene\nAsset type: Nuviko History long-film scene S05, a complete static 16:9 landscape composition for 2560×1440 delivery.\nPrimary request: Low wide view along empty parliamentary benches and central aisle.\nScene/backdrop: England in 1605, Jacobean period interior or street appropriate to this spoken beat.\nSubject: Members of both Houses would be gathered there with him. The people who had hidden the gunpowder planned\nStyle/medium: photorealistic historical reconstruction with natural human proportions, tactile stone, wood, wool and linen, restrained earth tones and cinematic natural light. Historical people and settings are realistic. No Nuviko traveler in this shot.\nComposition/framing: wide 16:9; keep faces and story-critical action/objects inside central protected area x=0.12–0.88, y=0.12–0.82. Leave the lower central band clear for one-line captions (x=0.2375–0.7625, y=0.85–0.935). Compose for a centered whole-image zoom from 1.00 to 1.04 with no pan.\nContinuity: Same hall as S04; no attendees or blast.\nConstraints: illustrative reconstruction, not evidence or an exact portrait. Use supplied references only for their stated role, not their pose/background. Do not add plot events, claims, people or legible writing. The Gunpowder Plot was stopped; never depict an explosion. No modern objects, logos, caption text, title, watermark or border. No gore."
+    },
+    {
+      "scene": "S06",
+      "image": "../Source/Images/S06_v01.png",
+      "start_frame": 718,
+      "end_frame": 882,
+      "start_seconds": 23.933333,
+      "end_seconds": 29.4,
+      "duration_seconds": 5.466667,
+      "transcript_span": "to kill them all in a single explosion. But Fawkes was not the leader of the plot.",
+      "visual_title": "One planned explosion",
+      "composition": "Architectural cross-section: powder room beneath the empty chamber; a restrained Fawkes figure in foreground.",
+      "continuity": "Intent only; no flame/blast; clear spatial relation.",
+      "delivery_canvas": "2560x1440",
+      "subtitle_safe_area": {
+        "x": [
+          0.2375,
+          0.7625
+        ],
+        "y": [
+          0.85,
+          0.935
+        ]
+      },
+      "protected_content_area": {
+        "x": [
+          0.12,
+          0.88
+        ],
+        "y": [
+          0.12,
+          0.82
+        ]
+      },
+      "motion_plan": {
+        "direction": "none",
+        "zoom": "out",
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale_start": 1.04,
+        "scale_end": 1.0,
+        "status": "PROVISIONAL; confirm actual image coverage before import"
+      },
+      "status": "DRAFT",
+      "references": [
+        "/Users/diplomat/ytvideos/channels/nuviko_history/videos/038_guy_fawkes/Source/Images/S01_v01.png"
+      ],
+      "reference_roles": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/038_guy_fawkes/Source/Images/S01_v01.png",
+          "role": "episode-specific fictionalized Fawkes and/or basement continuity reference only; preserve this shot’s new composition"
+        }
+      ],
+      "generation_prompt": "Use case: historical-scene\nAsset type: Nuviko History long-film scene S06, a complete static 16:9 landscape composition for 2560×1440 delivery.\nPrimary request: Architectural cross-section: powder room beneath the empty chamber; a restrained Fawkes figure in foreground.\nScene/backdrop: England in 1605, Jacobean period interior or street appropriate to this spoken beat.\nSubject: to kill them all in a single explosion. But Fawkes was not the leader of the plot.\nStyle/medium: photorealistic historical reconstruction with natural human proportions, tactile stone, wood, wool and linen, restrained earth tones and cinematic natural light. Historical people and settings are realistic. No Nuviko traveler in this shot.\nComposition/framing: wide 16:9; keep faces and story-critical action/objects inside central protected area x=0.12–0.88, y=0.12–0.82. Leave the lower central band clear for one-line captions (x=0.2375–0.7625, y=0.85–0.935). Compose for a centered whole-image zoom from 1.00 to 1.04 with no pan.\nContinuity: Intent only; no flame/blast; clear spatial relation.\nConstraints: illustrative reconstruction, not evidence or an exact portrait. Use supplied references only for their stated role, not their pose/background. Do not add plot events, claims, people or legible writing. The Gunpowder Plot was stopped; never depict an explosion. No modern objects, logos, caption text, title, watermark or border. No gore."
+    },
+    {
+      "scene": "S07",
+      "image": "../Source/Images/S07_v01.png",
+      "start_frame": 882,
+      "end_frame": 1050,
+      "start_seconds": 29.4,
+      "end_seconds": 35.0,
+      "duration_seconds": 5.6,
+      "transcript_span": "And yet, centuries later, it is his name that millions of people still remember.",
+      "visual_title": "The name remembered",
+      "composition": "A simple Guy Fawkes effigy among distant figures at a later bonfire, framed as a brief foreshadowing image.",
+      "continuity": "Later remembrance motif, clearly separated from 1605 events; return to it at S43.",
+      "delivery_canvas": "2560x1440",
+      "subtitle_safe_area": {
+        "x": [
+          0.2375,
+          0.7625
+        ],
+        "y": [
+          0.85,
+          0.935
+        ]
+      },
+      "protected_content_area": {
+        "x": [
+          0.12,
+          0.88
+        ],
+        "y": [
+          0.12,
+          0.82
+        ]
+      },
+      "motion_plan": {
+        "direction": "none",
+        "zoom": "in",
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale_start": 1.0,
+        "scale_end": 1.04,
+        "status": "PROVISIONAL; confirm actual image coverage before import"
+      },
+      "status": "DRAFT",
+      "references": [
+        "/Users/diplomat/ytvideos/channels/nuviko_history/videos/038_guy_fawkes/Source/Images/S01_v01.png"
+      ],
+      "reference_roles": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/038_guy_fawkes/Source/Images/S01_v01.png",
+          "role": "episode-specific fictionalized Fawkes and/or basement continuity reference only; preserve this shot’s new composition"
+        }
+      ],
+      "generation_prompt": "Use case: historical-scene\nAsset type: Nuviko History long-film scene S07, a complete static 16:9 landscape composition for 2560×1440 delivery.\nPrimary request: Fawkes in foreground, a few conspirators blurred at a table behind him.\nScene/backdrop: England in 1605, Jacobean period interior or street appropriate to this spoken beat.\nSubject: And yet, centuries later, it is his name that millions of people still remember.\nStyle/medium: photorealistic historical reconstruction with natural human proportions, tactile stone, wood, wool and linen, restrained earth tones and cinematic natural light. Historical people and settings are realistic. No Nuviko traveler in this shot.\nComposition/framing: wide 16:9; keep faces and story-critical action/objects inside central protected area x=0.12–0.88, y=0.12–0.82. Leave the lower central band clear for one-line captions (x=0.2375–0.7625, y=0.85–0.935). Compose for a centered whole-image zoom from 1.00 to 1.04 with no pan.\nContinuity: Fawkes visually prominent, Catesby not displaced as leader; no legible symbols.\nConstraints: illustrative reconstruction, not evidence or an exact portrait. Use supplied references only for their stated role, not their pose/background. Do not add plot events, claims, people or legible writing. The Gunpowder Plot was stopped; never depict an explosion. No modern objects, logos, caption text, title, watermark or border. No gore."
+    },
+    {
+      "scene": "S08",
+      "image": "../Source/Images/S08_v01.png",
+      "start_frame": 1050,
+      "end_frame": 1205,
+      "start_seconds": 35.0,
+      "end_seconds": 40.166667,
+      "duration_seconds": 5.166667,
+      "transcript_span": "Two years earlier, England had a new monarch. Many English Catholics hoped that James",
+      "visual_title": "England has a new monarch",
+      "composition": "James I in a restrained early Stuart palace interior, three-quarter view.",
+      "continuity": "Establish James consistently; no invented accession ceremony.",
+      "delivery_canvas": "2560x1440",
+      "subtitle_safe_area": {
+        "x": [
+          0.2375,
+          0.7625
+        ],
+        "y": [
+          0.85,
+          0.935
+        ]
+      },
+      "protected_content_area": {
+        "x": [
+          0.12,
+          0.88
+        ],
+        "y": [
+          0.12,
+          0.82
+        ]
+      },
+      "motion_plan": {
+        "direction": "none",
+        "zoom": "out",
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale_start": 1.04,
+        "scale_end": 1.0,
+        "status": "PROVISIONAL; confirm actual image coverage before import"
+      },
+      "status": "DRAFT",
+      "references": [],
+      "reference_roles": [],
+      "generation_prompt": "Use case: historical-scene\nAsset type: Nuviko History long-film scene S08, a complete static 16:9 landscape composition for 2560×1440 delivery.\nPrimary request: James I in a restrained early Stuart palace interior, three-quarter view.\nScene/backdrop: England in 1605, Jacobean period interior or street appropriate to this spoken beat.\nSubject: Two years earlier, England had a new monarch. Many English Catholics hoped that James\nStyle/medium: photorealistic historical reconstruction with natural human proportions, tactile stone, wood, wool and linen, restrained earth tones and cinematic natural light. Historical people and settings are realistic. No Nuviko traveler in this shot.\nComposition/framing: wide 16:9; keep faces and story-critical action/objects inside central protected area x=0.12–0.88, y=0.12–0.82. Leave the lower central band clear for one-line captions (x=0.2375–0.7625, y=0.85–0.935). Compose for a centered whole-image zoom from 1.00 to 1.04 with no pan.\nContinuity: Establish James consistently; no invented accession ceremony.\nConstraints: illustrative reconstruction, not evidence or an exact portrait. Use supplied references only for their stated role, not their pose/background. Do not add plot events, claims, people or legible writing. The Gunpowder Plot was stopped; never depict an explosion. No modern objects, logos, caption text, title, watermark or border. No gore."
+    },
+    {
+      "scene": "S09",
+      "image": "../Source/Images/S09_v01.png",
+      "start_frame": 1205,
+      "end_frame": 1351,
+      "start_seconds": 40.166667,
+      "end_seconds": 45.033333,
+      "duration_seconds": 4.866667,
+      "transcript_span": "would ease the religious restrictions imposed under his predecessor, Elizabeth the First.",
+      "visual_title": "Hopes under James and Elizabeth",
+      "composition": "Two separate royal portraits in the same quiet palace room: James foreground, Elizabeth portrait on wall.",
+      "continuity": "The rulers are not presented as meeting; no text.",
+      "delivery_canvas": "2560x1440",
+      "subtitle_safe_area": {
+        "x": [
+          0.2375,
+          0.7625
+        ],
+        "y": [
+          0.85,
+          0.935
+        ]
+      },
+      "protected_content_area": {
+        "x": [
+          0.12,
+          0.88
+        ],
+        "y": [
+          0.12,
+          0.82
+        ]
+      },
+      "motion_plan": {
+        "direction": "none",
+        "zoom": "in",
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale_start": 1.0,
+        "scale_end": 1.04,
+        "status": "PROVISIONAL; confirm actual image coverage before import"
+      },
+      "status": "DRAFT",
+      "references": [
+        "/Users/diplomat/ytvideos/channels/nuviko_history/videos/038_guy_fawkes/Source/Images/S08_v01.png"
+      ],
+      "reference_roles": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/038_guy_fawkes/Source/Images/S08_v01.png",
+          "role": "episode-specific James I identity/wardrobe continuity reference only"
+        }
+      ],
+      "generation_prompt": "Use case: historical-scene\nAsset type: Nuviko History long-film scene S09, a complete static 16:9 landscape composition for 2560×1440 delivery.\nPrimary request: Two separate royal portraits in the same quiet palace room: James foreground, Elizabeth portrait on wall.\nScene/backdrop: England in 1605, Jacobean period interior or street appropriate to this spoken beat.\nSubject: would ease the religious restrictions imposed under his predecessor, Elizabeth the First.\nStyle/medium: photorealistic historical reconstruction with natural human proportions, tactile stone, wood, wool and linen, restrained earth tones and cinematic natural light. Historical people and settings are realistic. No Nuviko traveler in this shot.\nComposition/framing: wide 16:9; keep faces and story-critical action/objects inside central protected area x=0.12–0.88, y=0.12–0.82. Leave the lower central band clear for one-line captions (x=0.2375–0.7625, y=0.85–0.935). Compose for a centered whole-image zoom from 1.00 to 1.04 with no pan.\nContinuity: The rulers are not presented as meeting; no text.\nConstraints: illustrative reconstruction, not evidence or an exact portrait. Use supplied references only for their stated role, not their pose/background. Do not add plot events, claims, people or legible writing. The Gunpowder Plot was stopped; never depict an explosion. No modern objects, logos, caption text, title, watermark or border. No gore."
+    },
+    {
+      "scene": "S10",
+      "image": "../Source/Images/S10_v01.png",
+      "start_frame": 1351,
+      "end_frame": 1506,
+      "start_seconds": 45.033333,
+      "end_seconds": 50.2,
+      "duration_seconds": 5.166667,
+      "transcript_span": "Catholics faced fines and persecution, and Catholic priests were being hunted down.",
+      "visual_title": "Fines and hunted priests",
+      "composition": "A Catholic before an official desk with coins and closed papers; a priest distant in a shadowed street passage.",
+      "continuity": "Two restrained manifestations of restrictions; no invented arrest or fine amount.",
+      "delivery_canvas": "2560x1440",
+      "subtitle_safe_area": {
+        "x": [
+          0.2375,
+          0.7625
+        ],
+        "y": [
+          0.85,
+          0.935
+        ]
+      },
+      "protected_content_area": {
+        "x": [
+          0.12,
+          0.88
+        ],
+        "y": [
+          0.12,
+          0.82
+        ]
+      },
+      "motion_plan": {
+        "direction": "none",
+        "zoom": "out",
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale_start": 1.04,
+        "scale_end": 1.0,
+        "status": "PROVISIONAL; confirm actual image coverage before import"
+      },
+      "status": "DRAFT",
+      "references": [],
+      "reference_roles": [],
+      "generation_prompt": "Use case: historical-scene\nAsset type: Nuviko History long-film scene S10, a complete static 16:9 landscape composition for 2560×1440 delivery.\nPrimary request: A Catholic before an official desk with coins and closed papers; a priest distant in a shadowed street passage.\nScene/backdrop: England in 1605, Jacobean period interior or street appropriate to this spoken beat.\nSubject: Catholics faced fines and persecution, and Catholic priests were being hunted down.\nStyle/medium: photorealistic historical reconstruction with natural human proportions, tactile stone, wood, wool and linen, restrained earth tones and cinematic natural light. Historical people and settings are realistic. No Nuviko traveler in this shot.\nComposition/framing: wide 16:9; keep faces and story-critical action/objects inside central protected area x=0.12–0.88, y=0.12–0.82. Leave the lower central band clear for one-line captions (x=0.2375–0.7625, y=0.85–0.935). Compose for a centered whole-image zoom from 1.00 to 1.04 with no pan.\nContinuity: Two restrained manifestations of restrictions; no invented arrest or fine amount.\nConstraints: illustrative reconstruction, not evidence or an exact portrait. Use supplied references only for their stated role, not their pose/background. Do not add plot events, claims, people or legible writing. The Gunpowder Plot was stopped; never depict an explosion. No modern objects, logos, caption text, title, watermark or border. No gore."
+    },
+    {
+      "scene": "S11",
+      "image": "../Source/Images/S11_v01.png",
+      "start_frame": 1506,
+      "end_frame": 1661,
+      "start_seconds": 50.2,
+      "end_seconds": 55.366667,
+      "duration_seconds": 5.166667,
+      "transcript_span": "Those hopes for change were disappointed. So a small group of Catholics decided",
+      "visual_title": "Hopes disappointed; a small group acts",
+      "composition": "A few men in a closed room around a plain wooden table, slightly elevated wide view.",
+      "continuity": "Specific plotters only; they do not stand for all Catholics.",
+      "delivery_canvas": "2560x1440",
+      "subtitle_safe_area": {
+        "x": [
+          0.2375,
+          0.7625
+        ],
+        "y": [
+          0.85,
+          0.935
+        ]
+      },
+      "protected_content_area": {
+        "x": [
+          0.12,
+          0.88
+        ],
+        "y": [
+          0.12,
+          0.82
+        ]
+      },
+      "motion_plan": {
+        "direction": "none",
+        "zoom": "in",
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale_start": 1.0,
+        "scale_end": 1.04,
+        "status": "PROVISIONAL; confirm actual image coverage before import"
+      },
+      "status": "DRAFT",
+      "references": [],
+      "reference_roles": [],
+      "generation_prompt": "Use case: historical-scene\nAsset type: Nuviko History long-film scene S11, a complete static 16:9 landscape composition for 2560×1440 delivery.\nPrimary request: A few men in a closed room around a plain wooden table, slightly elevated wide view.\nScene/backdrop: England in 1605, Jacobean period interior or street appropriate to this spoken beat.\nSubject: Those hopes for change were disappointed. So a small group of Catholics decided\nStyle/medium: photorealistic historical reconstruction with natural human proportions, tactile stone, wood, wool and linen, restrained earth tones and cinematic natural light. Historical people and settings are realistic. No Nuviko traveler in this shot.\nComposition/framing: wide 16:9; keep faces and story-critical action/objects inside central protected area x=0.12–0.88, y=0.12–0.82. Leave the lower central band clear for one-line captions (x=0.2375–0.7625, y=0.85–0.935). Compose for a centered whole-image zoom from 1.00 to 1.04 with no pan.\nContinuity: Specific plotters only; they do not stand for all Catholics.\nConstraints: illustrative reconstruction, not evidence or an exact portrait. Use supplied references only for their stated role, not their pose/background. Do not add plot events, claims, people or legible writing. The Gunpowder Plot was stopped; never depict an explosion. No modern objects, logos, caption text, title, watermark or border. No gore."
+    },
+    {
+      "scene": "S12",
+      "image": "../Source/Images/S12_v01.png",
+      "start_frame": 1661,
+      "end_frame": 1818,
+      "start_seconds": 55.366667,
+      "end_seconds": 60.6,
+      "duration_seconds": 5.233333,
+      "transcript_span": "to take action. They did not represent all English Catholics. The plot was a decision",
+      "visual_title": "Not all Catholics joined",
+      "composition": "Ordinary Catholic household in foreground, small conspirator meeting visible separately through a distant doorway.",
+      "continuity": "Make the people visually distinct; no shared group or collective guilt.",
+      "delivery_canvas": "2560x1440",
+      "subtitle_safe_area": {
+        "x": [
+          0.2375,
+          0.7625
+        ],
+        "y": [
+          0.85,
+          0.935
+        ]
+      },
+      "protected_content_area": {
+        "x": [
+          0.12,
+          0.88
+        ],
+        "y": [
+          0.12,
+          0.82
+        ]
+      },
+      "motion_plan": {
+        "direction": "none",
+        "zoom": "out",
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale_start": 1.04,
+        "scale_end": 1.0,
+        "status": "PROVISIONAL; confirm actual image coverage before import"
+      },
+      "status": "DRAFT",
+      "references": [],
+      "reference_roles": [],
+      "generation_prompt": "Use case: historical-scene\nAsset type: Nuviko History long-film scene S12, a complete static 16:9 landscape composition for 2560×1440 delivery.\nPrimary request: Ordinary Catholic household in foreground, small conspirator meeting visible separately through a distant doorway.\nScene/backdrop: England in 1605, Jacobean period interior or street appropriate to this spoken beat.\nSubject: to take action. They did not represent all English Catholics. The plot was a decision\nStyle/medium: photorealistic historical reconstruction with natural human proportions, tactile stone, wood, wool and linen, restrained earth tones and cinematic natural light. Historical people and settings are realistic. No Nuviko traveler in this shot.\nComposition/framing: wide 16:9; keep faces and story-critical action/objects inside central protected area x=0.12–0.88, y=0.12–0.82. Leave the lower central band clear for one-line captions (x=0.2375–0.7625, y=0.85–0.935). Compose for a centered whole-image zoom from 1.00 to 1.04 with no pan.\nContinuity: Make the people visually distinct; no shared group or collective guilt.\nConstraints: illustrative reconstruction, not evidence or an exact portrait. Use supplied references only for their stated role, not their pose/background. Do not add plot events, claims, people or legible writing. The Gunpowder Plot was stopped; never depict an explosion. No modern objects, logos, caption text, title, watermark or border. No gore."
+    },
+    {
+      "scene": "S13",
+      "image": "../Source/Images/S13_v01.png",
+      "start_frame": 1818,
+      "end_frame": 1982,
+      "start_seconds": 60.6,
+      "end_seconds": 66.066667,
+      "duration_seconds": 5.466667,
+      "transcript_span": "made by specific individuals. The group was led by a nobleman named Robert Catesby.",
+      "visual_title": "Robert Catesby leads",
+      "composition": "Catesby at the center of a small table meeting; the others face him.",
+      "continuity": "Establish a consistent fictionalized Catesby identity and clothing.",
+      "delivery_canvas": "2560x1440",
+      "subtitle_safe_area": {
+        "x": [
+          0.2375,
+          0.7625
+        ],
+        "y": [
+          0.85,
+          0.935
+        ]
+      },
+      "protected_content_area": {
+        "x": [
+          0.12,
+          0.88
+        ],
+        "y": [
+          0.12,
+          0.82
+        ]
+      },
+      "motion_plan": {
+        "direction": "none",
+        "zoom": "in",
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale_start": 1.0,
+        "scale_end": 1.04,
+        "status": "PROVISIONAL; confirm actual image coverage before import"
+      },
+      "status": "DRAFT",
+      "references": [],
+      "reference_roles": [],
+      "generation_prompt": "Use case: historical-scene\nAsset type: Nuviko History long-film scene S13, a complete static 16:9 landscape composition for 2560×1440 delivery.\nPrimary request: Catesby at the center of a small table meeting; the others face him.\nScene/backdrop: England in 1605, Jacobean period interior or street appropriate to this spoken beat.\nSubject: made by specific individuals. The group was led by a nobleman named Robert Catesby.\nStyle/medium: photorealistic historical reconstruction with natural human proportions, tactile stone, wood, wool and linen, restrained earth tones and cinematic natural light. Historical people and settings are realistic. No Nuviko traveler in this shot.\nComposition/framing: wide 16:9; keep faces and story-critical action/objects inside central protected area x=0.12–0.88, y=0.12–0.82. Leave the lower central band clear for one-line captions (x=0.2375–0.7625, y=0.85–0.935). Compose for a centered whole-image zoom from 1.00 to 1.04 with no pan.\nContinuity: Establish a consistent fictionalized Catesby identity and clothing.\nConstraints: illustrative reconstruction, not evidence or an exact portrait. Use supplied references only for their stated role, not their pose/background. Do not add plot events, claims, people or legible writing. The Gunpowder Plot was stopped; never depict an explosion. No modern objects, logos, caption text, title, watermark or border. No gore."
+    },
+    {
+      "scene": "S14",
+      "image": "../Source/Images/S14_v01.png",
+      "start_frame": 1982,
+      "end_frame": 2119,
+      "start_seconds": 66.066667,
+      "end_seconds": 70.633333,
+      "duration_seconds": 4.566667,
+      "transcript_span": "His plan was to blow up Parliament during its opening ceremony and kill the king.",
+      "visual_title": "Catesby’s plan",
+      "composition": "Catesby’s hands beside a plain, unlabelled silhouette sketch of the Parliament building; his face beyond.",
+      "continuity": "No device schematic, writing or explosion.",
+      "delivery_canvas": "2560x1440",
+      "subtitle_safe_area": {
+        "x": [
+          0.2375,
+          0.7625
+        ],
+        "y": [
+          0.85,
+          0.935
+        ]
+      },
+      "protected_content_area": {
+        "x": [
+          0.12,
+          0.88
+        ],
+        "y": [
+          0.12,
+          0.82
+        ]
+      },
+      "motion_plan": {
+        "direction": "none",
+        "zoom": "out",
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale_start": 1.04,
+        "scale_end": 1.0,
+        "status": "PROVISIONAL; confirm actual image coverage before import"
+      },
+      "status": "DRAFT",
+      "references": [
+        "/Users/diplomat/ytvideos/channels/nuviko_history/videos/038_guy_fawkes/Source/Images/S13_v01.png"
+      ],
+      "reference_roles": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/038_guy_fawkes/Source/Images/S13_v01.png",
+          "role": "episode-specific fictionalized Catesby continuity reference only; preserve this shot’s new composition"
+        }
+      ],
+      "generation_prompt": "Use case: historical-scene\nAsset type: Nuviko History long-film scene S14, a complete static 16:9 landscape composition for 2560×1440 delivery.\nPrimary request: Catesby’s hands beside a plain, unlabelled silhouette sketch of the Parliament building; his face beyond.\nScene/backdrop: England in 1605, Jacobean period interior or street appropriate to this spoken beat.\nSubject: His plan was to blow up Parliament during its opening ceremony and kill the king.\nStyle/medium: photorealistic historical reconstruction with natural human proportions, tactile stone, wood, wool and linen, restrained earth tones and cinematic natural light. Historical people and settings are realistic. No Nuviko traveler in this shot.\nComposition/framing: wide 16:9; keep faces and story-critical action/objects inside central protected area x=0.12–0.88, y=0.12–0.82. Leave the lower central band clear for one-line captions (x=0.2375–0.7625, y=0.85–0.935). Compose for a centered whole-image zoom from 1.00 to 1.04 with no pan.\nContinuity: No device schematic, writing or explosion.\nConstraints: illustrative reconstruction, not evidence or an exact portrait. Use supplied references only for their stated role, not their pose/background. Do not add plot events, claims, people or legible writing. The Gunpowder Plot was stopped; never depict an explosion. No modern objects, logos, caption text, title, watermark or border. No gore."
+    },
+    {
+      "scene": "S15",
+      "image": "../Source/Images/S15_v01.png",
+      "start_frame": 2119,
+      "end_frame": 2294,
+      "start_seconds": 70.633333,
+      "end_seconds": 76.466667,
+      "duration_seconds": 5.833333,
+      "transcript_span": "Guy Fawkes also joined the conspiracy. He was a soldier who had served in the Spanish army.",
+      "visual_title": "Fawkes joins the group",
+      "composition": "One Fawkes with four visually distinct conspirators in a candlelit room, composed as a small ensemble.",
+      "continuity": "Fawkes is shown once; Catesby remains visually central; no oath or invented ceremony.",
+      "delivery_canvas": "2560x1440",
+      "subtitle_safe_area": {
+        "x": [
+          0.2375,
+          0.7625
+        ],
+        "y": [
+          0.85,
+          0.935
+        ]
+      },
+      "protected_content_area": {
+        "x": [
+          0.12,
+          0.88
+        ],
+        "y": [
+          0.12,
+          0.82
+        ]
+      },
+      "motion_plan": {
+        "direction": "none",
+        "zoom": "in",
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale_start": 1.0,
+        "scale_end": 1.04,
+        "status": "PROVISIONAL; confirm actual image coverage before import"
+      },
+      "status": "DRAFT",
+      "references": [
+        "/Users/diplomat/ytvideos/channels/nuviko_history/videos/038_guy_fawkes/Source/Images/S13_v01.png",
+        "/Users/diplomat/ytvideos/channels/nuviko_history/videos/038_guy_fawkes/Source/Images/S01_v01.png"
+      ],
+      "reference_roles": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/038_guy_fawkes/Source/Images/S13_v01.png",
+          "role": "episode-specific fictionalized Catesby continuity reference only; preserve this shot’s new composition"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/038_guy_fawkes/Source/Images/S01_v01.png",
+          "role": "episode-specific fictionalized Fawkes and/or basement continuity reference only; preserve this shot’s new composition"
+        }
+      ],
+      "generation_prompt": "Use case: historical-scene\nAsset type: Nuviko History long-film scene S15, a complete static 16:9 landscape composition for 2560×1440 delivery.\nPrimary request: Fawkes joins the group at table level; Catesby remains central.\nScene/backdrop: England in 1605, Jacobean period interior or street appropriate to this spoken beat.\nSubject: Guy Fawkes also joined the conspiracy. He was a soldier who had served in the Spanish army.\nStyle/medium: photorealistic historical reconstruction with natural human proportions, tactile stone, wood, wool and linen, restrained earth tones and cinematic natural light. Historical people and settings are realistic. No Nuviko traveler in this shot.\nComposition/framing: wide 16:9; keep faces and story-critical action/objects inside central protected area x=0.12–0.88, y=0.12–0.82. Leave the lower central band clear for one-line captions (x=0.2375–0.7625, y=0.85–0.935). Compose for a centered whole-image zoom from 1.00 to 1.04 with no pan.\nContinuity: Same Fawkes as S01/S03; no oath or invented ceremony.\nConstraints: illustrative reconstruction, not evidence or an exact portrait. Use supplied references only for their stated role, not their pose/background. Do not add plot events, claims, people or legible writing. The Gunpowder Plot was stopped; never depict an explosion. No modern objects, logos, caption text, title, watermark or border. No gore."
+    },
+    {
+      "scene": "S16",
+      "image": "../Source/Images/S16_v01.png",
+      "start_frame": 2294,
+      "end_frame": 2435,
+      "start_seconds": 76.466667,
+      "end_seconds": 81.166667,
+      "duration_seconds": 4.7,
+      "transcript_span": "His job was to guard the gunpowder and, when the time came, ignite it.",
+      "visual_title": "Guarding the powder",
+      "composition": "Fawkes stands watch beside stored barrels, low camera at barrel height, hands relaxed and visible.",
+      "continuity": "Same basement/barrels as S01/S02; no ignition.",
+      "delivery_canvas": "2560x1440",
+      "subtitle_safe_area": {
+        "x": [
+          0.2375,
+          0.7625
+        ],
+        "y": [
+          0.85,
+          0.935
+        ]
+      },
+      "protected_content_area": {
+        "x": [
+          0.12,
+          0.88
+        ],
+        "y": [
+          0.12,
+          0.82
+        ]
+      },
+      "motion_plan": {
+        "direction": "none",
+        "zoom": "out",
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale_start": 1.04,
+        "scale_end": 1.0,
+        "status": "PROVISIONAL; confirm actual image coverage before import"
+      },
+      "status": "DRAFT",
+      "references": [
+        "/Users/diplomat/ytvideos/channels/nuviko_history/videos/038_guy_fawkes/Source/Images/S01_v01.png"
+      ],
+      "reference_roles": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/038_guy_fawkes/Source/Images/S01_v01.png",
+          "role": "episode-specific fictionalized Fawkes and/or basement continuity reference only; preserve this shot’s new composition"
+        }
+      ],
+      "generation_prompt": "Use case: historical-scene\nAsset type: Nuviko History long-film scene S16, a complete static 16:9 landscape composition for 2560×1440 delivery.\nPrimary request: Fawkes stands watch beside stored barrels, low camera at barrel height, hands relaxed and visible.\nScene/backdrop: England in 1605, Jacobean period interior or street appropriate to this spoken beat.\nSubject: His job was to guard the gunpowder and, when the time came, ignite it.\nStyle/medium: photorealistic historical reconstruction with natural human proportions, tactile stone, wood, wool and linen, restrained earth tones and cinematic natural light. Historical people and settings are realistic. No Nuviko traveler in this shot.\nComposition/framing: wide 16:9; keep faces and story-critical action/objects inside central protected area x=0.12–0.88, y=0.12–0.82. Leave the lower central band clear for one-line captions (x=0.2375–0.7625, y=0.85–0.935). Compose for a centered whole-image zoom from 1.00 to 1.04 with no pan.\nContinuity: Same basement/barrels as S01/S02; no ignition.\nConstraints: illustrative reconstruction, not evidence or an exact portrait. Use supplied references only for their stated role, not their pose/background. Do not add plot events, claims, people or legible writing. The Gunpowder Plot was stopped; never depict an explosion. No modern objects, logos, caption text, title, watermark or border. No gore."
+    },
+    {
+      "scene": "S17",
+      "image": "../Source/Images/S17_v01.png",
+      "start_frame": 2435,
+      "end_frame": 2564,
+      "start_seconds": 81.166667,
+      "end_seconds": 85.466667,
+      "duration_seconds": 4.3,
+      "transcript_span": "But the explosion was only the beginning of their plan. The conspirators hoped",
+      "visual_title": "Preparing to leave",
+      "composition": "A Jacobean courtyard with saddled horses and conspirators preparing for travel, seen in a wide side view.",
+      "continuity": "Travel preparation only; distinct from the table-based planning scenes.",
+      "delivery_canvas": "2560x1440",
+      "subtitle_safe_area": {
+        "x": [
+          0.2375,
+          0.7625
+        ],
+        "y": [
+          0.85,
+          0.935
+        ]
+      },
+      "protected_content_area": {
+        "x": [
+          0.12,
+          0.88
+        ],
+        "y": [
+          0.12,
+          0.82
+        ]
+      },
+      "motion_plan": {
+        "direction": "none",
+        "zoom": "in",
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale_start": 1.0,
+        "scale_end": 1.04,
+        "status": "PROVISIONAL; confirm actual image coverage before import"
+      },
+      "status": "DRAFT",
+      "references": [
+        "/Users/diplomat/ytvideos/channels/nuviko_history/videos/038_guy_fawkes/Source/Images/S13_v01.png"
+      ],
+      "reference_roles": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/038_guy_fawkes/Source/Images/S13_v01.png",
+          "role": "episode-specific fictionalized Catesby continuity reference only; preserve this shot’s new composition"
+        }
+      ],
+      "generation_prompt": "Use case: historical-scene\nAsset type: Nuviko History long-film scene S17, a complete static 16:9 landscape composition for 2560×1440 delivery.\nPrimary request: Catesby and conspirators in a quiet planning room, focused on one another.\nScene/backdrop: England in 1605, Jacobean period interior or street appropriate to this spoken beat.\nSubject: But the explosion was only the beginning of their plan. The conspirators hoped\nStyle/medium: photorealistic historical reconstruction with natural human proportions, tactile stone, wood, wool and linen, restrained earth tones and cinematic natural light. Historical people and settings are realistic. No Nuviko traveler in this shot.\nComposition/framing: wide 16:9; keep faces and story-critical action/objects inside central protected area x=0.12–0.88, y=0.12–0.82. Leave the lower central band clear for one-line captions (x=0.2375–0.7625, y=0.85–0.935). Compose for a centered whole-image zoom from 1.00 to 1.04 with no pan.\nContinuity: Suggest broader intent without showing an uprising.\nConstraints: illustrative reconstruction, not evidence or an exact portrait. Use supplied references only for their stated role, not their pose/background. Do not add plot events, claims, people or legible writing. The Gunpowder Plot was stopped; never depict an explosion. No modern objects, logos, caption text, title, watermark or border. No gore."
+    },
+    {
+      "scene": "S18",
+      "image": "../Source/Images/S18_v01.png",
+      "start_frame": 2564,
+      "end_frame": 2699,
+      "start_seconds": 85.466667,
+      "end_seconds": 89.966667,
+      "duration_seconds": 4.5,
+      "transcript_span": "to launch an uprising and seize the king's young daughter, Princess Elizabeth.",
+      "visual_title": "Hoped-for uprising",
+      "composition": "A few conspirators lean over a blank map sheet, seen from above/over shoulder.",
+      "continuity": "No names or invented map content; planned action only.",
+      "delivery_canvas": "2560x1440",
+      "subtitle_safe_area": {
+        "x": [
+          0.2375,
+          0.7625
+        ],
+        "y": [
+          0.85,
+          0.935
+        ]
+      },
+      "protected_content_area": {
+        "x": [
+          0.12,
+          0.88
+        ],
+        "y": [
+          0.12,
+          0.82
+        ]
+      },
+      "motion_plan": {
+        "direction": "none",
+        "zoom": "out",
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale_start": 1.04,
+        "scale_end": 1.0,
+        "status": "PROVISIONAL; confirm actual image coverage before import"
+      },
+      "status": "DRAFT",
+      "references": [
+        "/Users/diplomat/ytvideos/channels/nuviko_history/videos/038_guy_fawkes/Source/Images/S13_v01.png"
+      ],
+      "reference_roles": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/038_guy_fawkes/Source/Images/S13_v01.png",
+          "role": "episode-specific fictionalized Catesby continuity reference only; preserve this shot’s new composition"
+        }
+      ],
+      "generation_prompt": "Use case: historical-scene\nAsset type: Nuviko History long-film scene S18, a complete static 16:9 landscape composition for 2560×1440 delivery.\nPrimary request: A few conspirators lean over a blank map sheet, seen from above/over shoulder.\nScene/backdrop: England in 1605, Jacobean period interior or street appropriate to this spoken beat.\nSubject: to launch an uprising and seize the king's young daughter, Princess Elizabeth.\nStyle/medium: photorealistic historical reconstruction with natural human proportions, tactile stone, wood, wool and linen, restrained earth tones and cinematic natural light. Historical people and settings are realistic. No Nuviko traveler in this shot.\nComposition/framing: wide 16:9; keep faces and story-critical action/objects inside central protected area x=0.12–0.88, y=0.12–0.82. Leave the lower central band clear for one-line captions (x=0.2375–0.7625, y=0.85–0.935). Compose for a centered whole-image zoom from 1.00 to 1.04 with no pan.\nContinuity: No names or invented map content; planned action only.\nConstraints: illustrative reconstruction, not evidence or an exact portrait. Use supplied references only for their stated role, not their pose/background. Do not add plot events, claims, people or legible writing. The Gunpowder Plot was stopped; never depict an explosion. No modern objects, logos, caption text, title, watermark or border. No gore."
+    },
+    {
+      "scene": "S19",
+      "image": "../Source/Images/S19_v01.png",
+      "start_frame": 2699,
+      "end_frame": 2841,
+      "start_seconds": 89.966667,
+      "end_seconds": 94.7,
+      "duration_seconds": 4.733333,
+      "transcript_span": "They believed that once James was dead, they could bring about changes in the country.",
+      "visual_title": "Princess Elizabeth",
+      "composition": "Young Princess Elizabeth alone in a calm palace doorway, centered medium view.",
+      "continuity": "Separate from conspirators; no pursuit or capture.",
+      "delivery_canvas": "2560x1440",
+      "subtitle_safe_area": {
+        "x": [
+          0.2375,
+          0.7625
+        ],
+        "y": [
+          0.85,
+          0.935
+        ]
+      },
+      "protected_content_area": {
+        "x": [
+          0.12,
+          0.88
+        ],
+        "y": [
+          0.12,
+          0.82
+        ]
+      },
+      "motion_plan": {
+        "direction": "none",
+        "zoom": "in",
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale_start": 1.0,
+        "scale_end": 1.04,
+        "status": "PROVISIONAL; confirm actual image coverage before import"
+      },
+      "status": "DRAFT",
+      "references": [],
+      "reference_roles": [],
+      "generation_prompt": "Use case: historical-scene\nAsset type: Nuviko History long-film scene S19, a complete static 16:9 landscape composition for 2560×1440 delivery.\nPrimary request: Young Princess Elizabeth alone in a calm palace doorway, centered medium view.\nScene/backdrop: England in 1605, Jacobean period interior or street appropriate to this spoken beat.\nSubject: They believed that once James was dead, they could bring about changes in the country.\nStyle/medium: photorealistic historical reconstruction with natural human proportions, tactile stone, wood, wool and linen, restrained earth tones and cinematic natural light. Historical people and settings are realistic. No Nuviko traveler in this shot.\nComposition/framing: wide 16:9; keep faces and story-critical action/objects inside central protected area x=0.12–0.88, y=0.12–0.82. Leave the lower central band clear for one-line captions (x=0.2375–0.7625, y=0.85–0.935). Compose for a centered whole-image zoom from 1.00 to 1.04 with no pan.\nContinuity: Separate from conspirators; no pursuit or capture.\nConstraints: illustrative reconstruction, not evidence or an exact portrait. Use supplied references only for their stated role, not their pose/background. Do not add plot events, claims, people or legible writing. The Gunpowder Plot was stopped; never depict an explosion. No modern objects, logos, caption text, title, watermark or border. No gore."
+    },
+    {
+      "scene": "S20",
+      "image": "../Source/Images/S20_v01.png",
+      "start_frame": 2841,
+      "end_frame": 2972,
+      "start_seconds": 94.7,
+      "end_seconds": 99.066667,
+      "duration_seconds": 4.366667,
+      "transcript_span": "In 1605, the conspirators rented a space beneath the House of Lords",
+      "visual_title": "The hoped-for succession",
+      "composition": "Three conspirators observe a portrait of Princess Elizabeth in a quiet room, seen over their shoulders.",
+      "continuity": "They are planning; Elizabeth remains separate and is not shown captured.",
+      "delivery_canvas": "2560x1440",
+      "subtitle_safe_area": {
+        "x": [
+          0.2375,
+          0.7625
+        ],
+        "y": [
+          0.85,
+          0.935
+        ]
+      },
+      "protected_content_area": {
+        "x": [
+          0.12,
+          0.88
+        ],
+        "y": [
+          0.12,
+          0.82
+        ]
+      },
+      "motion_plan": {
+        "direction": "none",
+        "zoom": "out",
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale_start": 1.04,
+        "scale_end": 1.0,
+        "status": "PROVISIONAL; confirm actual image coverage before import"
+      },
+      "status": "DRAFT",
+      "references": [
+        "/Users/diplomat/ytvideos/channels/nuviko_history/videos/038_guy_fawkes/Source/Images/S13_v01.png"
+      ],
+      "reference_roles": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/038_guy_fawkes/Source/Images/S13_v01.png",
+          "role": "episode-specific fictionalized Catesby continuity reference only; preserve this shot’s new composition"
+        }
+      ],
+      "generation_prompt": "Use case: historical-scene\nAsset type: Nuviko History long-film scene S20, a complete static 16:9 landscape composition for 2560×1440 delivery.\nPrimary request: Small group of conspirators near a distant window overlooking an early 17th-century town.\nScene/backdrop: England in 1605, Jacobean period interior or street appropriate to this spoken beat.\nSubject: In 1605, the conspirators rented a space beneath the House of Lords\nStyle/medium: photorealistic historical reconstruction with natural human proportions, tactile stone, wood, wool and linen, restrained earth tones and cinematic natural light. Historical people and settings are realistic. No Nuviko traveler in this shot.\nComposition/framing: wide 16:9; keep faces and story-critical action/objects inside central protected area x=0.12–0.88, y=0.12–0.82. Leave the lower central band clear for one-line captions (x=0.2375–0.7625, y=0.85–0.935). Compose for a centered whole-image zoom from 1.00 to 1.04 with no pan.\nContinuity: Same group; desired change not shown as achieved.\nConstraints: illustrative reconstruction, not evidence or an exact portrait. Use supplied references only for their stated role, not their pose/background. Do not add plot events, claims, people or legible writing. The Gunpowder Plot was stopped; never depict an explosion. No modern objects, logos, caption text, title, watermark or border. No gore."
+    },
+    {
+      "scene": "S21",
+      "image": "../Source/Images/S21_v01.png",
+      "start_frame": 2972,
+      "end_frame": 3112,
+      "start_seconds": 99.066667,
+      "end_seconds": 103.733333,
+      "duration_seconds": 4.666667,
+      "transcript_span": "and brought the gunpowder inside. The opening of Parliament had been postponed several",
+      "visual_title": "Powder moved into the cellar",
+      "composition": "Conspirators roll intact wooden barrels through a stone threshold into the rented cellar.",
+      "continuity": "Same cellar and barrels; no restraints, ignition or exact barrel count.",
+      "delivery_canvas": "2560x1440",
+      "subtitle_safe_area": {
+        "x": [
+          0.2375,
+          0.7625
+        ],
+        "y": [
+          0.85,
+          0.935
+        ]
+      },
+      "protected_content_area": {
+        "x": [
+          0.12,
+          0.88
+        ],
+        "y": [
+          0.12,
+          0.82
+        ]
+      },
+      "motion_plan": {
+        "direction": "none",
+        "zoom": "in",
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale_start": 1.0,
+        "scale_end": 1.04,
+        "status": "PROVISIONAL; confirm actual image coverage before import"
+      },
+      "status": "DRAFT",
+      "references": [
+        "/Users/diplomat/ytvideos/channels/nuviko_history/videos/038_guy_fawkes/Source/Images/S01_v01.png",
+        "/Users/diplomat/ytvideos/channels/nuviko_history/videos/038_guy_fawkes/Source/Images/S13_v01.png"
+      ],
+      "reference_roles": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/038_guy_fawkes/Source/Images/S01_v01.png",
+          "role": "episode-specific fictionalized Fawkes and/or basement continuity reference only; preserve this shot’s new composition"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/038_guy_fawkes/Source/Images/S13_v01.png",
+          "role": "episode-specific fictionalized Catesby continuity reference only; preserve this shot’s new composition"
+        }
+      ],
+      "generation_prompt": "Use case: historical-scene\nAsset type: Nuviko History long-film scene S21, a complete static 16:9 landscape composition for 2560×1440 delivery.\nPrimary request: Wide basement room as a few conspirators place several barrels; deep stone perspective.\nScene/backdrop: England in 1605, Jacobean period interior or street appropriate to this spoken beat.\nSubject: and brought the gunpowder inside. The opening of Parliament had been postponed several\nStyle/medium: photorealistic historical reconstruction with natural human proportions, tactile stone, wood, wool and linen, restrained earth tones and cinematic natural light. Historical people and settings are realistic. No Nuviko traveler in this shot.\nComposition/framing: wide 16:9; keep faces and story-critical action/objects inside central protected area x=0.12–0.88, y=0.12–0.82. Leave the lower central band clear for one-line captions (x=0.2375–0.7625, y=0.85–0.935). Compose for a centered whole-image zoom from 1.00 to 1.04 with no pan.\nContinuity: Same room, no exact barrel count or delivery method.\nConstraints: illustrative reconstruction, not evidence or an exact portrait. Use supplied references only for their stated role, not their pose/background. Do not add plot events, claims, people or legible writing. The Gunpowder Plot was stopped; never depict an explosion. No modern objects, logos, caption text, title, watermark or border. No gore."
+    },
+    {
+      "scene": "S22",
+      "image": "../Source/Images/S22_v01.png",
+      "start_frame": 3112,
+      "end_frame": 3273,
+      "start_seconds": 103.733333,
+      "end_seconds": 109.1,
+      "duration_seconds": 5.366667,
+      "transcript_span": "times, but it was finally scheduled for November 5. Everything seemed ready.",
+      "visual_title": "Parliament date delayed",
+      "composition": "Long corridor ending at closed chamber doors, empty foreground.",
+      "continuity": "Same hall geometry as S04/S05; no invented calendar.",
+      "delivery_canvas": "2560x1440",
+      "subtitle_safe_area": {
+        "x": [
+          0.2375,
+          0.7625
+        ],
+        "y": [
+          0.85,
+          0.935
+        ]
+      },
+      "protected_content_area": {
+        "x": [
+          0.12,
+          0.88
+        ],
+        "y": [
+          0.12,
+          0.82
+        ]
+      },
+      "motion_plan": {
+        "direction": "none",
+        "zoom": "out",
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale_start": 1.04,
+        "scale_end": 1.0,
+        "status": "PROVISIONAL; confirm actual image coverage before import"
+      },
+      "status": "DRAFT",
+      "references": [
+        "/Users/diplomat/ytvideos/channels/nuviko_history/videos/038_guy_fawkes/Source/Images/S04_v01.png"
+      ],
+      "reference_roles": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/038_guy_fawkes/Source/Images/S04_v01.png",
+          "role": "House of Lords chamber architecture continuity reference only"
+        }
+      ],
+      "generation_prompt": "Use case: historical-scene\nAsset type: Nuviko History long-film scene S22, a complete static 16:9 landscape composition for 2560×1440 delivery.\nPrimary request: Long corridor ending at closed chamber doors, empty foreground.\nScene/backdrop: England in 1605, Jacobean period interior or street appropriate to this spoken beat.\nSubject: times, but it was finally scheduled for November 5. Everything seemed ready.\nStyle/medium: photorealistic historical reconstruction with natural human proportions, tactile stone, wood, wool and linen, restrained earth tones and cinematic natural light. Historical people and settings are realistic. No Nuviko traveler in this shot.\nComposition/framing: wide 16:9; keep faces and story-critical action/objects inside central protected area x=0.12–0.88, y=0.12–0.82. Leave the lower central band clear for one-line captions (x=0.2375–0.7625, y=0.85–0.935). Compose for a centered whole-image zoom from 1.00 to 1.04 with no pan.\nContinuity: Same hall geometry as S04/S05; no invented calendar.\nConstraints: illustrative reconstruction, not evidence or an exact portrait. Use supplied references only for their stated role, not their pose/background. Do not add plot events, claims, people or legible writing. The Gunpowder Plot was stopped; never depict an explosion. No modern objects, logos, caption text, title, watermark or border. No gore."
+    },
+    {
+      "scene": "S23",
+      "image": "../Source/Images/S23_v01.png",
+      "start_frame": 3273,
+      "end_frame": 3398,
+      "start_seconds": 109.1,
+      "end_seconds": 113.266667,
+      "duration_seconds": 4.166667,
+      "transcript_span": "Then a letter appeared. On October 26, Lord Monteagle",
+      "visual_title": "The warning arrives",
+      "composition": "A folded blank letter beside intact powder barrels as two conspirator silhouettes leave the cellar.",
+      "continuity": "No legible writing, sender or arrest; maintain the cellar/barrels continuity.",
+      "delivery_canvas": "2560x1440",
+      "subtitle_safe_area": {
+        "x": [
+          0.2375,
+          0.7625
+        ],
+        "y": [
+          0.85,
+          0.935
+        ]
+      },
+      "protected_content_area": {
+        "x": [
+          0.12,
+          0.88
+        ],
+        "y": [
+          0.12,
+          0.82
+        ]
+      },
+      "motion_plan": {
+        "direction": "none",
+        "zoom": "in",
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale_start": 1.0,
+        "scale_end": 1.04,
+        "status": "PROVISIONAL; confirm actual image coverage before import"
+      },
+      "status": "DRAFT",
+      "references": [
+        "/Users/diplomat/ytvideos/channels/nuviko_history/videos/038_guy_fawkes/Source/Images/S01_v01.png"
+      ],
+      "reference_roles": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/038_guy_fawkes/Source/Images/S01_v01.png",
+          "role": "episode-specific fictionalized Fawkes and/or basement continuity reference only; preserve this shot’s new composition"
+        }
+      ],
+      "generation_prompt": "Use case: historical-scene\nAsset type: Nuviko History long-film scene S23, a complete static 16:9 landscape composition for 2560×1440 delivery.\nPrimary request: Still barrels in the basement; a folded letter on a nearby plain table, no writing.\nScene/backdrop: England in 1605, Jacobean period interior or street appropriate to this spoken beat.\nSubject: Then a letter appeared. On October 26, Lord Monteagle\nStyle/medium: photorealistic historical reconstruction with natural human proportions, tactile stone, wood, wool and linen, restrained earth tones and cinematic natural light. Historical people and settings are realistic. No Nuviko traveler in this shot.\nComposition/framing: wide 16:9; keep faces and story-critical action/objects inside central protected area x=0.12–0.88, y=0.12–0.82. Leave the lower central band clear for one-line captions (x=0.2375–0.7625, y=0.85–0.935). Compose for a centered whole-image zoom from 1.00 to 1.04 with no pan.\nContinuity: Same room/barrels; no fire or author indication.\nConstraints: illustrative reconstruction, not evidence or an exact portrait. Use supplied references only for their stated role, not their pose/background. Do not add plot events, claims, people or legible writing. The Gunpowder Plot was stopped; never depict an explosion. No modern objects, logos, caption text, title, watermark or border. No gore."
+    },
+    {
+      "scene": "S24",
+      "image": "../Source/Images/S24_v01.png",
+      "start_frame": 3398,
+      "end_frame": 3523,
+      "start_seconds": 113.266667,
+      "end_seconds": 117.433333,
+      "duration_seconds": 4.166667,
+      "transcript_span": "received an anonymous warning advising him not to attend Parliament.",
+      "visual_title": "Monteagle receives warning",
+      "composition": "Lord Monteagle reads an opened anonymous letter, side medium view; face and letter centered.",
+      "continuity": "Establish Monteagle; no legible text.",
+      "delivery_canvas": "2560x1440",
+      "subtitle_safe_area": {
+        "x": [
+          0.2375,
+          0.7625
+        ],
+        "y": [
+          0.85,
+          0.935
+        ]
+      },
+      "protected_content_area": {
+        "x": [
+          0.12,
+          0.88
+        ],
+        "y": [
+          0.12,
+          0.82
+        ]
+      },
+      "motion_plan": {
+        "direction": "none",
+        "zoom": "out",
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale_start": 1.04,
+        "scale_end": 1.0,
+        "status": "PROVISIONAL; confirm actual image coverage before import"
+      },
+      "status": "DRAFT",
+      "references": [],
+      "reference_roles": [],
+      "generation_prompt": "Use case: historical-scene\nAsset type: Nuviko History long-film scene S24, a complete static 16:9 landscape composition for 2560×1440 delivery.\nPrimary request: Lord Monteagle reads an opened anonymous letter, side medium view; face and letter centered.\nScene/backdrop: England in 1605, Jacobean period interior or street appropriate to this spoken beat.\nSubject: received an anonymous warning advising him not to attend Parliament.\nStyle/medium: photorealistic historical reconstruction with natural human proportions, tactile stone, wood, wool and linen, restrained earth tones and cinematic natural light. Historical people and settings are realistic. No Nuviko traveler in this shot.\nComposition/framing: wide 16:9; keep faces and story-critical action/objects inside central protected area x=0.12–0.88, y=0.12–0.82. Leave the lower central band clear for one-line captions (x=0.2375–0.7625, y=0.85–0.935). Compose for a centered whole-image zoom from 1.00 to 1.04 with no pan.\nContinuity: Establish Monteagle; no legible text.\nConstraints: illustrative reconstruction, not evidence or an exact portrait. Use supplied references only for their stated role, not their pose/background. Do not add plot events, claims, people or legible writing. The Gunpowder Plot was stopped; never depict an explosion. No modern objects, logos, caption text, title, watermark or border. No gore."
+    },
+    {
+      "scene": "S25",
+      "image": "../Source/Images/S25_v01.png",
+      "start_frame": 3523,
+      "end_frame": 3688,
+      "start_seconds": 117.433333,
+      "end_seconds": 122.933333,
+      "duration_seconds": 5.5,
+      "transcript_span": "The letter reached the royal authorities. Who sent it remains unknown. Suspicion fell",
+      "visual_title": "Letter reaches royal authorities",
+      "composition": "Close view of hands passing the same folded letter in a formal interior.",
+      "continuity": "Same paper; no signatures or added marks.",
+      "delivery_canvas": "2560x1440",
+      "subtitle_safe_area": {
+        "x": [
+          0.2375,
+          0.7625
+        ],
+        "y": [
+          0.85,
+          0.935
+        ]
+      },
+      "protected_content_area": {
+        "x": [
+          0.12,
+          0.88
+        ],
+        "y": [
+          0.12,
+          0.82
+        ]
+      },
+      "motion_plan": {
+        "direction": "none",
+        "zoom": "in",
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale_start": 1.0,
+        "scale_end": 1.04,
+        "status": "PROVISIONAL; confirm actual image coverage before import"
+      },
+      "status": "DRAFT",
+      "references": [
+        "/Users/diplomat/ytvideos/channels/nuviko_history/videos/038_guy_fawkes/Source/Images/S24_v01.png"
+      ],
+      "reference_roles": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/038_guy_fawkes/Source/Images/S24_v01.png",
+          "role": "same anonymous warning letter prop continuity reference only"
+        }
+      ],
+      "generation_prompt": "Use case: historical-scene\nAsset type: Nuviko History long-film scene S25, a complete static 16:9 landscape composition for 2560×1440 delivery.\nPrimary request: Close view of hands passing the same folded letter in a formal interior.\nScene/backdrop: England in 1605, Jacobean period interior or street appropriate to this spoken beat.\nSubject: The letter reached the royal authorities. Who sent it remains unknown. Suspicion fell\nStyle/medium: photorealistic historical reconstruction with natural human proportions, tactile stone, wood, wool and linen, restrained earth tones and cinematic natural light. Historical people and settings are realistic. No Nuviko traveler in this shot.\nComposition/framing: wide 16:9; keep faces and story-critical action/objects inside central protected area x=0.12–0.88, y=0.12–0.82. Leave the lower central band clear for one-line captions (x=0.2375–0.7625, y=0.85–0.935). Compose for a centered whole-image zoom from 1.00 to 1.04 with no pan.\nContinuity: Same paper; no signatures or added marks.\nConstraints: illustrative reconstruction, not evidence or an exact portrait. Use supplied references only for their stated role, not their pose/background. Do not add plot events, claims, people or legible writing. The Gunpowder Plot was stopped; never depict an explosion. No modern objects, logos, caption text, title, watermark or border. No gore."
+    },
+    {
+      "scene": "S26",
+      "image": "../Source/Images/S26_v01.png",
+      "start_frame": 3688,
+      "end_frame": 3848,
+      "start_seconds": 122.933333,
+      "end_seconds": 128.266667,
+      "duration_seconds": 5.333333,
+      "transcript_span": "on one of the conspirators, a relative of Monteagle, but his authorship was never proven.",
+      "visual_title": "Sender unknown",
+      "composition": "The letter alone on a table, overhead view, dark empty space around it.",
+      "continuity": "Do not depict a sender, suspect or writing process.",
+      "delivery_canvas": "2560x1440",
+      "subtitle_safe_area": {
+        "x": [
+          0.2375,
+          0.7625
+        ],
+        "y": [
+          0.85,
+          0.935
+        ]
+      },
+      "protected_content_area": {
+        "x": [
+          0.12,
+          0.88
+        ],
+        "y": [
+          0.12,
+          0.82
+        ]
+      },
+      "motion_plan": {
+        "direction": "none",
+        "zoom": "out",
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale_start": 1.04,
+        "scale_end": 1.0,
+        "status": "PROVISIONAL; confirm actual image coverage before import"
+      },
+      "status": "DRAFT",
+      "references": [
+        "/Users/diplomat/ytvideos/channels/nuviko_history/videos/038_guy_fawkes/Source/Images/S24_v01.png"
+      ],
+      "reference_roles": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/038_guy_fawkes/Source/Images/S24_v01.png",
+          "role": "same anonymous warning letter prop continuity reference only"
+        }
+      ],
+      "generation_prompt": "Use case: historical-scene\nAsset type: Nuviko History long-film scene S26, a complete static 16:9 landscape composition for 2560×1440 delivery.\nPrimary request: The letter alone on a table, overhead view, dark empty space around it.\nScene/backdrop: England in 1605, Jacobean period interior or street appropriate to this spoken beat.\nSubject: on one of the conspirators, a relative of Monteagle, but his authorship was never proven.\nStyle/medium: photorealistic historical reconstruction with natural human proportions, tactile stone, wood, wool and linen, restrained earth tones and cinematic natural light. Historical people and settings are realistic. No Nuviko traveler in this shot.\nComposition/framing: wide 16:9; keep faces and story-critical action/objects inside central protected area x=0.12–0.88, y=0.12–0.82. Leave the lower central band clear for one-line captions (x=0.2375–0.7625, y=0.85–0.935). Compose for a centered whole-image zoom from 1.00 to 1.04 with no pan.\nContinuity: Do not depict a sender, suspect or writing process.\nConstraints: illustrative reconstruction, not evidence or an exact portrait. Use supplied references only for their stated role, not their pose/background. Do not add plot events, claims, people or legible writing. The Gunpowder Plot was stopped; never depict an explosion. No modern objects, logos, caption text, title, watermark or border. No gore."
+    },
+    {
+      "scene": "S27",
+      "image": "../Source/Images/S27_v01.png",
+      "start_frame": 3848,
+      "end_frame": 3991,
+      "start_seconds": 128.266667,
+      "end_seconds": 133.033333,
+      "duration_seconds": 4.766667,
+      "transcript_span": "The conspirators learned about the letter. Now there was a danger that the authorities would search",
+      "visual_title": "The conspirators read the warning",
+      "composition": "Catesby and companions read a blank letter in a close candlelit room composition.",
+      "continuity": "Same small group; no readable writing; decision is not yet shown as a search.",
+      "delivery_canvas": "2560x1440",
+      "subtitle_safe_area": {
+        "x": [
+          0.2375,
+          0.7625
+        ],
+        "y": [
+          0.85,
+          0.935
+        ]
+      },
+      "protected_content_area": {
+        "x": [
+          0.12,
+          0.88
+        ],
+        "y": [
+          0.12,
+          0.82
+        ]
+      },
+      "motion_plan": {
+        "direction": "none",
+        "zoom": "in",
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale_start": 1.0,
+        "scale_end": 1.04,
+        "status": "PROVISIONAL; confirm actual image coverage before import"
+      },
+      "status": "DRAFT",
+      "references": [
+        "/Users/diplomat/ytvideos/channels/nuviko_history/videos/038_guy_fawkes/Source/Images/S13_v01.png"
+      ],
+      "reference_roles": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/038_guy_fawkes/Source/Images/S13_v01.png",
+          "role": "episode-specific fictionalized Catesby continuity reference only; preserve this shot’s new composition"
+        }
+      ],
+      "generation_prompt": "Use case: historical-scene\nAsset type: Nuviko History long-film scene S27, a complete static 16:9 landscape composition for 2560×1440 delivery.\nPrimary request: Catesby and companions in a tense conversation around the table.\nScene/backdrop: England in 1605, Jacobean period interior or street appropriate to this spoken beat.\nSubject: The conspirators learned about the letter. Now there was a danger that the authorities would search\nStyle/medium: photorealistic historical reconstruction with natural human proportions, tactile stone, wood, wool and linen, restrained earth tones and cinematic natural light. Historical people and settings are realistic. No Nuviko traveler in this shot.\nComposition/framing: wide 16:9; keep faces and story-critical action/objects inside central protected area x=0.12–0.88, y=0.12–0.82. Leave the lower central band clear for one-line captions (x=0.2375–0.7625, y=0.85–0.935). Compose for a centered whole-image zoom from 1.00 to 1.04 with no pan.\nContinuity: Return to the small group; letter need not be in hand.\nConstraints: illustrative reconstruction, not evidence or an exact portrait. Use supplied references only for their stated role, not their pose/background. Do not add plot events, claims, people or legible writing. The Gunpowder Plot was stopped; never depict an explosion. No modern objects, logos, caption text, title, watermark or border. No gore."
+    },
+    {
+      "scene": "S28",
+      "image": "../Source/Images/S28_v01.png",
+      "start_frame": 3991,
+      "end_frame": 4140,
+      "start_seconds": 133.033333,
+      "end_seconds": 138.0,
+      "duration_seconds": 4.966667,
+      "transcript_span": "the building and discover the gunpowder. Even so, they decided to go ahead.",
+      "visual_title": "Risk of a search",
+      "composition": "Side architectural view linking stone corridor, stair and the powder room below, no people.",
+      "continuity": "Represents a danger, not a completed search.",
+      "delivery_canvas": "2560x1440",
+      "subtitle_safe_area": {
+        "x": [
+          0.2375,
+          0.7625
+        ],
+        "y": [
+          0.85,
+          0.935
+        ]
+      },
+      "protected_content_area": {
+        "x": [
+          0.12,
+          0.88
+        ],
+        "y": [
+          0.12,
+          0.82
+        ]
+      },
+      "motion_plan": {
+        "direction": "none",
+        "zoom": "out",
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale_start": 1.04,
+        "scale_end": 1.0,
+        "status": "PROVISIONAL; confirm actual image coverage before import"
+      },
+      "status": "DRAFT",
+      "references": [
+        "/Users/diplomat/ytvideos/channels/nuviko_history/videos/038_guy_fawkes/Source/Images/S01_v01.png"
+      ],
+      "reference_roles": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/038_guy_fawkes/Source/Images/S01_v01.png",
+          "role": "episode-specific fictionalized Fawkes and/or basement continuity reference only; preserve this shot’s new composition"
+        }
+      ],
+      "generation_prompt": "Use case: historical-scene\nAsset type: Nuviko History long-film scene S28, a complete static 16:9 landscape composition for 2560×1440 delivery.\nPrimary request: Side architectural view linking stone corridor, stair and the powder room below, no people.\nScene/backdrop: England in 1605, Jacobean period interior or street appropriate to this spoken beat.\nSubject: the building and discover the gunpowder. Even so, they decided to go ahead.\nStyle/medium: photorealistic historical reconstruction with natural human proportions, tactile stone, wood, wool and linen, restrained earth tones and cinematic natural light. Historical people and settings are realistic. No Nuviko traveler in this shot.\nComposition/framing: wide 16:9; keep faces and story-critical action/objects inside central protected area x=0.12–0.88, y=0.12–0.82. Leave the lower central band clear for one-line captions (x=0.2375–0.7625, y=0.85–0.935). Compose for a centered whole-image zoom from 1.00 to 1.04 with no pan.\nContinuity: Represents a danger, not a completed search.\nConstraints: illustrative reconstruction, not evidence or an exact portrait. Use supplied references only for their stated role, not their pose/background. Do not add plot events, claims, people or legible writing. The Gunpowder Plot was stopped; never depict an explosion. No modern objects, logos, caption text, title, watermark or border. No gore."
+    },
+    {
+      "scene": "S29",
+      "image": "../Source/Images/S29_v01.png",
+      "start_frame": 4140,
+      "end_frame": 4303,
+      "start_seconds": 138.0,
+      "end_seconds": 143.433333,
+      "duration_seconds": 5.433333,
+      "transcript_span": "On the night before Parliament was due to open, the authorities conducted a search. They found Fawkes",
+      "visual_title": "They continue despite the warning",
+      "composition": "Catesby and Fawkes remain with the other conspirators after reading the warning, in a restrained candlelit interior.",
+      "continuity": "Resolve to proceed; no search or arrest yet.",
+      "delivery_canvas": "2560x1440",
+      "subtitle_safe_area": {
+        "x": [
+          0.2375,
+          0.7625
+        ],
+        "y": [
+          0.85,
+          0.935
+        ]
+      },
+      "protected_content_area": {
+        "x": [
+          0.12,
+          0.88
+        ],
+        "y": [
+          0.12,
+          0.82
+        ]
+      },
+      "motion_plan": {
+        "direction": "none",
+        "zoom": "in",
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale_start": 1.0,
+        "scale_end": 1.04,
+        "status": "PROVISIONAL; confirm actual image coverage before import"
+      },
+      "status": "DRAFT",
+      "references": [
+        "/Users/diplomat/ytvideos/channels/nuviko_history/videos/038_guy_fawkes/Source/Images/S13_v01.png",
+        "/Users/diplomat/ytvideos/channels/nuviko_history/videos/038_guy_fawkes/Source/Images/S01_v01.png"
+      ],
+      "reference_roles": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/038_guy_fawkes/Source/Images/S13_v01.png",
+          "role": "episode-specific fictionalized Catesby continuity reference only; preserve this shot’s new composition"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/038_guy_fawkes/Source/Images/S01_v01.png",
+          "role": "episode-specific fictionalized Fawkes and/or basement continuity reference only; preserve this shot’s new composition"
+        }
+      ],
+      "generation_prompt": "Use case: historical-scene\nAsset type: Nuviko History long-film scene S29, a complete static 16:9 landscape composition for 2560×1440 delivery.\nPrimary request: Fawkes and Catesby in the same room at eye level; still, restrained postures.\nScene/backdrop: England in 1605, Jacobean period interior or street appropriate to this spoken beat.\nSubject: On the night before Parliament was due to open, the authorities conducted a search. They found Fawkes\nStyle/medium: photorealistic historical reconstruction with natural human proportions, tactile stone, wood, wool and linen, restrained earth tones and cinematic natural light. Historical people and settings are realistic. No Nuviko traveler in this shot.\nComposition/framing: wide 16:9; keep faces and story-critical action/objects inside central protected area x=0.12–0.88, y=0.12–0.82. Leave the lower central band clear for one-line captions (x=0.2375–0.7625, y=0.85–0.935). Compose for a centered whole-image zoom from 1.00 to 1.04 with no pan.\nContinuity: No invented oath, gesture or extra action.\nConstraints: illustrative reconstruction, not evidence or an exact portrait. Use supplied references only for their stated role, not their pose/background. Do not add plot events, claims, people or legible writing. The Gunpowder Plot was stopped; never depict an explosion. No modern objects, logos, caption text, title, watermark or border. No gore."
+    },
+    {
+      "scene": "S30",
+      "image": "../Source/Images/S30_v01.png",
+      "start_frame": 4303,
+      "end_frame": 4460,
+      "start_seconds": 143.433333,
+      "end_seconds": 148.666667,
+      "duration_seconds": 5.233333,
+      "transcript_span": "near the room containing the gunpowder and arrested him. The explosion never happened.",
+      "visual_title": "The night search",
+      "composition": "Official searchers inspect the barrels in a lantern-lit stone cellar; Fawkes remains nearby, not yet restrained.",
+      "continuity": "Same room and barrels as earlier; the arrest follows in S31.",
+      "delivery_canvas": "2560x1440",
+      "subtitle_safe_area": {
+        "x": [
+          0.2375,
+          0.7625
+        ],
+        "y": [
+          0.85,
+          0.935
+        ]
+      },
+      "protected_content_area": {
+        "x": [
+          0.12,
+          0.88
+        ],
+        "y": [
+          0.12,
+          0.82
+        ]
+      },
+      "motion_plan": {
+        "direction": "none",
+        "zoom": "out",
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale_start": 1.04,
+        "scale_end": 1.0,
+        "status": "PROVISIONAL; confirm actual image coverage before import"
+      },
+      "status": "DRAFT",
+      "references": [
+        "/Users/diplomat/ytvideos/channels/nuviko_history/videos/038_guy_fawkes/Source/Images/S01_v01.png"
+      ],
+      "reference_roles": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/038_guy_fawkes/Source/Images/S01_v01.png",
+          "role": "episode-specific fictionalized Fawkes and/or basement continuity reference only; preserve this shot’s new composition"
+        }
+      ],
+      "generation_prompt": "Use case: historical-scene\nAsset type: Nuviko History long-film scene S30, a complete static 16:9 landscape composition for 2560×1440 delivery.\nPrimary request: Officials with lanterns enter the dark stone passage, low wide view.\nScene/backdrop: England in 1605, Jacobean period interior or street appropriate to this spoken beat.\nSubject: near the room containing the gunpowder and arrested him. The explosion never happened.\nStyle/medium: photorealistic historical reconstruction with natural human proportions, tactile stone, wood, wool and linen, restrained earth tones and cinematic natural light. Historical people and settings are realistic. No Nuviko traveler in this shot.\nComposition/framing: wide 16:9; keep faces and story-critical action/objects inside central protected area x=0.12–0.88, y=0.12–0.82. Leave the lower central band clear for one-line captions (x=0.2375–0.7625, y=0.85–0.935). Compose for a centered whole-image zoom from 1.00 to 1.04 with no pan.\nContinuity: Return to night palette and the same underground location.\nConstraints: illustrative reconstruction, not evidence or an exact portrait. Use supplied references only for their stated role, not their pose/background. Do not add plot events, claims, people or legible writing. The Gunpowder Plot was stopped; never depict an explosion. No modern objects, logos, caption text, title, watermark or border. No gore."
+    },
+    {
+      "scene": "S31",
+      "image": "../Source/Images/S31_v01.png",
+      "start_frame": 4460,
+      "end_frame": 4611,
+      "start_seconds": 148.666667,
+      "end_seconds": 153.7,
+      "duration_seconds": 5.033333,
+      "transcript_span": "While Fawkes was being questioned in London, Catesby and other conspirators tried to gather",
+      "visual_title": "Fawkes is arrested",
+      "composition": "Officials restrain Fawkes beside the powder barrels in the cellar doorway.",
+      "continuity": "Same Fawkes and cellar; no explosion, smoke or damage.",
+      "delivery_canvas": "2560x1440",
+      "subtitle_safe_area": {
+        "x": [
+          0.2375,
+          0.7625
+        ],
+        "y": [
+          0.85,
+          0.935
+        ]
+      },
+      "protected_content_area": {
+        "x": [
+          0.12,
+          0.88
+        ],
+        "y": [
+          0.12,
+          0.82
+        ]
+      },
+      "motion_plan": {
+        "direction": "none",
+        "zoom": "in",
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale_start": 1.0,
+        "scale_end": 1.04,
+        "status": "PROVISIONAL; confirm actual image coverage before import"
+      },
+      "status": "DRAFT",
+      "references": [
+        "/Users/diplomat/ytvideos/channels/nuviko_history/videos/038_guy_fawkes/Source/Images/S01_v01.png"
+      ],
+      "reference_roles": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/038_guy_fawkes/Source/Images/S01_v01.png",
+          "role": "episode-specific fictionalized Fawkes and/or basement continuity reference only; preserve this shot’s new composition"
+        }
+      ],
+      "generation_prompt": "Use case: historical-scene\nAsset type: Nuviko History long-film scene S31, a complete static 16:9 landscape composition for 2560×1440 delivery.\nPrimary request: Fawkes between officials in a doorway; the barrels remain visible behind.\nScene/backdrop: England in 1605, Jacobean period interior or street appropriate to this spoken beat.\nSubject: While Fawkes was being questioned in London, Catesby and other conspirators tried to gather\nStyle/medium: photorealistic historical reconstruction with natural human proportions, tactile stone, wood, wool and linen, restrained earth tones and cinematic natural light. Historical people and settings are realistic. No Nuviko traveler in this shot.\nComposition/framing: wide 16:9; keep faces and story-critical action/objects inside central protected area x=0.12–0.88, y=0.12–0.82. Leave the lower central band clear for one-line captions (x=0.2375–0.7625, y=0.85–0.935). Compose for a centered whole-image zoom from 1.00 to 1.04 with no pan.\nContinuity: Same room/Fawkes; no damage or blast.\nConstraints: illustrative reconstruction, not evidence or an exact portrait. Use supplied references only for their stated role, not their pose/background. Do not add plot events, claims, people or legible writing. The Gunpowder Plot was stopped; never depict an explosion. No modern objects, logos, caption text, title, watermark or border. No gore."
+    },
+    {
+      "scene": "S32",
+      "image": "../Source/Images/S32_v01.png",
+      "start_frame": 4611,
+      "end_frame": 4750,
+      "start_seconds": 153.7,
+      "end_seconds": 158.333333,
+      "duration_seconds": 4.633333,
+      "transcript_span": "supporters outside the capital. But the large uprising they had hoped for never",
+      "visual_title": "The explosion never happened",
+      "composition": "Close object view of intact barrels in empty lantern-lit room.",
+      "continuity": "Same powder; no ignition, smoke, damage or blast.",
+      "delivery_canvas": "2560x1440",
+      "subtitle_safe_area": {
+        "x": [
+          0.2375,
+          0.7625
+        ],
+        "y": [
+          0.85,
+          0.935
+        ]
+      },
+      "protected_content_area": {
+        "x": [
+          0.12,
+          0.88
+        ],
+        "y": [
+          0.12,
+          0.82
+        ]
+      },
+      "motion_plan": {
+        "direction": "none",
+        "zoom": "out",
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale_start": 1.04,
+        "scale_end": 1.0,
+        "status": "PROVISIONAL; confirm actual image coverage before import"
+      },
+      "status": "DRAFT",
+      "references": [
+        "/Users/diplomat/ytvideos/channels/nuviko_history/videos/038_guy_fawkes/Source/Images/S01_v01.png"
+      ],
+      "reference_roles": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/038_guy_fawkes/Source/Images/S01_v01.png",
+          "role": "episode-specific fictionalized Fawkes and/or basement continuity reference only; preserve this shot’s new composition"
+        }
+      ],
+      "generation_prompt": "Use case: historical-scene\nAsset type: Nuviko History long-film scene S32, a complete static 16:9 landscape composition for 2560×1440 delivery.\nPrimary request: Close object view of intact barrels in empty lantern-lit room.\nScene/backdrop: England in 1605, Jacobean period interior or street appropriate to this spoken beat.\nSubject: supporters outside the capital. But the large uprising they had hoped for never\nStyle/medium: photorealistic historical reconstruction with natural human proportions, tactile stone, wood, wool and linen, restrained earth tones and cinematic natural light. Historical people and settings are realistic. No Nuviko traveler in this shot.\nComposition/framing: wide 16:9; keep faces and story-critical action/objects inside central protected area x=0.12–0.88, y=0.12–0.82. Leave the lower central band clear for one-line captions (x=0.2375–0.7625, y=0.85–0.935). Compose for a centered whole-image zoom from 1.00 to 1.04 with no pan.\nContinuity: Same powder; no ignition, smoke, damage or blast.\nConstraints: illustrative reconstruction, not evidence or an exact portrait. Use supplied references only for their stated role, not their pose/background. Do not add plot events, claims, people or legible writing. The Gunpowder Plot was stopped; never depict an explosion. No modern objects, logos, caption text, title, watermark or border. No gore."
+    },
+    {
+      "scene": "S33",
+      "image": "../Source/Images/S33_v01.png",
+      "start_frame": 4750,
+      "end_frame": 4889,
+      "start_seconds": 158.333333,
+      "end_seconds": 162.966667,
+      "duration_seconds": 4.633333,
+      "transcript_span": "materialized. A few days later, the authorities caught up with the fugitives.",
+      "visual_title": "Catesby seeks supporters",
+      "composition": "Catesby and a few companions on an open road outside the city, broad empty space.",
+      "continuity": "Small group only; no crowd or invented encounter.",
+      "delivery_canvas": "2560x1440",
+      "subtitle_safe_area": {
+        "x": [
+          0.2375,
+          0.7625
+        ],
+        "y": [
+          0.85,
+          0.935
+        ]
+      },
+      "protected_content_area": {
+        "x": [
+          0.12,
+          0.88
+        ],
+        "y": [
+          0.12,
+          0.82
+        ]
+      },
+      "motion_plan": {
+        "direction": "none",
+        "zoom": "in",
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale_start": 1.0,
+        "scale_end": 1.04,
+        "status": "PROVISIONAL; confirm actual image coverage before import"
+      },
+      "status": "DRAFT",
+      "references": [
+        "/Users/diplomat/ytvideos/channels/nuviko_history/videos/038_guy_fawkes/Source/Images/S13_v01.png"
+      ],
+      "reference_roles": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/038_guy_fawkes/Source/Images/S13_v01.png",
+          "role": "episode-specific fictionalized Catesby continuity reference only; preserve this shot’s new composition"
+        }
+      ],
+      "generation_prompt": "Use case: historical-scene\nAsset type: Nuviko History long-film scene S33, a complete static 16:9 landscape composition for 2560×1440 delivery.\nPrimary request: Catesby and a few companions on an open road outside the city, broad empty space.\nScene/backdrop: England in 1605, Jacobean period interior or street appropriate to this spoken beat.\nSubject: materialized. A few days later, the authorities caught up with the fugitives.\nStyle/medium: photorealistic historical reconstruction with natural human proportions, tactile stone, wood, wool and linen, restrained earth tones and cinematic natural light. Historical people and settings are realistic. No Nuviko traveler in this shot.\nComposition/framing: wide 16:9; keep faces and story-critical action/objects inside central protected area x=0.12–0.88, y=0.12–0.82. Leave the lower central band clear for one-line captions (x=0.2375–0.7625, y=0.85–0.935). Compose for a centered whole-image zoom from 1.00 to 1.04 with no pan.\nContinuity: Small group only; no crowd or invented encounter.\nConstraints: illustrative reconstruction, not evidence or an exact portrait. Use supplied references only for their stated role, not their pose/background. Do not add plot events, claims, people or legible writing. The Gunpowder Plot was stopped; never depict an explosion. No modern objects, logos, caption text, title, watermark or border. No gore."
+    },
+    {
+      "scene": "S34",
+      "image": "../Source/Images/S34_v01.png",
+      "start_frame": 4889,
+      "end_frame": 5060,
+      "start_seconds": 162.966667,
+      "end_seconds": 168.666667,
+      "duration_seconds": 5.7,
+      "transcript_span": "Catesby was killed in a shootout. Fawkes was imprisoned in the Tower of London and interrogated.",
+      "visual_title": "Fugitives are caught",
+      "composition": "A distant, restrained encounter between officials and a few fugitives on a country road.",
+      "continuity": "No invented location, number of casualties or dialogue.",
+      "delivery_canvas": "2560x1440",
+      "subtitle_safe_area": {
+        "x": [
+          0.2375,
+          0.7625
+        ],
+        "y": [
+          0.85,
+          0.935
+        ]
+      },
+      "protected_content_area": {
+        "x": [
+          0.12,
+          0.88
+        ],
+        "y": [
+          0.12,
+          0.82
+        ]
+      },
+      "motion_plan": {
+        "direction": "none",
+        "zoom": "out",
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale_start": 1.04,
+        "scale_end": 1.0,
+        "status": "PROVISIONAL; confirm actual image coverage before import"
+      },
+      "status": "DRAFT",
+      "references": [
+        "/Users/diplomat/ytvideos/channels/nuviko_history/videos/038_guy_fawkes/Source/Images/S13_v01.png"
+      ],
+      "reference_roles": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/038_guy_fawkes/Source/Images/S13_v01.png",
+          "role": "episode-specific fictionalized Catesby continuity reference only; preserve this shot’s new composition"
+        }
+      ],
+      "generation_prompt": "Use case: historical-scene\nAsset type: Nuviko History long-film scene S34, a complete static 16:9 landscape composition for 2560×1440 delivery.\nPrimary request: A distant, restrained encounter between officials and a few fugitives on a country road.\nScene/backdrop: England in 1605, Jacobean period interior or street appropriate to this spoken beat.\nSubject: Catesby was killed in a shootout. Fawkes was imprisoned in the Tower of London and interrogated.\nStyle/medium: photorealistic historical reconstruction with natural human proportions, tactile stone, wood, wool and linen, restrained earth tones and cinematic natural light. Historical people and settings are realistic. No Nuviko traveler in this shot.\nComposition/framing: wide 16:9; keep faces and story-critical action/objects inside central protected area x=0.12–0.88, y=0.12–0.82. Leave the lower central band clear for one-line captions (x=0.2375–0.7625, y=0.85–0.935). Compose for a centered whole-image zoom from 1.00 to 1.04 with no pan.\nContinuity: No invented location, number of casualties or dialogue.\nConstraints: illustrative reconstruction, not evidence or an exact portrait. Use supplied references only for their stated role, not their pose/background. Do not add plot events, claims, people or legible writing. The Gunpowder Plot was stopped; never depict an explosion. No modern objects, logos, caption text, title, watermark or border. No gore."
+    },
+    {
+      "scene": "S35",
+      "image": "../Source/Images/S35_v01.png",
+      "start_frame": 5060,
+      "end_frame": 5195,
+      "start_seconds": 168.666667,
+      "end_seconds": 173.166667,
+      "duration_seconds": 4.5,
+      "transcript_span": "A royal order has survived authorizing the use of torture against him.",
+      "visual_title": "Catesby dies in the pursuit",
+      "composition": "A distant country-road aftermath with a covered body after the shootout and a few figures, no visible injury.",
+      "continuity": "Non-graphic; the body is not used to invent additional combat detail.",
+      "delivery_canvas": "2560x1440",
+      "subtitle_safe_area": {
+        "x": [
+          0.2375,
+          0.7625
+        ],
+        "y": [
+          0.85,
+          0.935
+        ]
+      },
+      "protected_content_area": {
+        "x": [
+          0.12,
+          0.88
+        ],
+        "y": [
+          0.12,
+          0.82
+        ]
+      },
+      "motion_plan": {
+        "direction": "none",
+        "zoom": "in",
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale_start": 1.0,
+        "scale_end": 1.04,
+        "status": "PROVISIONAL; confirm actual image coverage before import"
+      },
+      "status": "DRAFT",
+      "references": [
+        "/Users/diplomat/ytvideos/channels/nuviko_history/videos/038_guy_fawkes/Source/Images/S13_v01.png"
+      ],
+      "reference_roles": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/038_guy_fawkes/Source/Images/S13_v01.png",
+          "role": "episode-specific fictionalized Catesby continuity reference only; preserve this shot’s new composition"
+        }
+      ],
+      "generation_prompt": "Use case: historical-scene\nAsset type: Nuviko History long-film scene S35, a complete static 16:9 landscape composition for 2560×1440 delivery.\nPrimary request: Distant, non-graphic skirmish with Catesby recognizable by clothing; no gore.\nScene/backdrop: England in 1605, Jacobean period interior or street appropriate to this spoken beat.\nSubject: A royal order has survived authorizing the use of torture against him.\nStyle/medium: photorealistic historical reconstruction with natural human proportions, tactile stone, wood, wool and linen, restrained earth tones and cinematic natural light. Historical people and settings are realistic. No Nuviko traveler in this shot.\nComposition/framing: wide 16:9; keep faces and story-critical action/objects inside central protected area x=0.12–0.88, y=0.12–0.82. Leave the lower central band clear for one-line captions (x=0.2375–0.7625, y=0.85–0.935). Compose for a centered whole-image zoom from 1.00 to 1.04 with no pan.\nContinuity: Keep the fight distant; no invented injury detail.\nConstraints: illustrative reconstruction, not evidence or an exact portrait. Use supplied references only for their stated role, not their pose/background. Do not add plot events, claims, people or legible writing. The Gunpowder Plot was stopped; never depict an explosion. No modern objects, logos, caption text, title, watermark or border. No gore."
+    },
+    {
+      "scene": "S36",
+      "image": "../Source/Images/S36_v01.png",
+      "start_frame": 5195,
+      "end_frame": 5363,
+      "start_seconds": 173.166667,
+      "end_seconds": 178.766667,
+      "duration_seconds": 5.6,
+      "transcript_span": "In January 1606, Fawkes and the other surviving conspirators were executed.",
+      "visual_title": "Fawkes in the Tower",
+      "composition": "Distant exterior of the Tower of London from the river; stone walls fill the center.",
+      "continuity": "Location establishing view; do not imply a specific cell.",
+      "delivery_canvas": "2560x1440",
+      "subtitle_safe_area": {
+        "x": [
+          0.2375,
+          0.7625
+        ],
+        "y": [
+          0.85,
+          0.935
+        ]
+      },
+      "protected_content_area": {
+        "x": [
+          0.12,
+          0.88
+        ],
+        "y": [
+          0.12,
+          0.82
+        ]
+      },
+      "motion_plan": {
+        "direction": "none",
+        "zoom": "out",
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale_start": 1.04,
+        "scale_end": 1.0,
+        "status": "PROVISIONAL; confirm actual image coverage before import"
+      },
+      "status": "DRAFT",
+      "references": [
+        "/Users/diplomat/ytvideos/channels/nuviko_history/videos/038_guy_fawkes/Source/Images/S01_v01.png"
+      ],
+      "reference_roles": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/038_guy_fawkes/Source/Images/S01_v01.png",
+          "role": "episode-specific fictionalized Fawkes and/or basement continuity reference only; preserve this shot’s new composition"
+        }
+      ],
+      "generation_prompt": "Use case: historical-scene\nAsset type: Nuviko History long-film scene S36, a complete static 16:9 landscape composition for 2560×1440 delivery.\nPrimary request: Distant exterior of the Tower of London from the river; stone walls fill the center.\nScene/backdrop: England in 1605, Jacobean period interior or street appropriate to this spoken beat.\nSubject: In January 1606, Fawkes and the other surviving conspirators were executed.\nStyle/medium: photorealistic historical reconstruction with natural human proportions, tactile stone, wood, wool and linen, restrained earth tones and cinematic natural light. Historical people and settings are realistic. No Nuviko traveler in this shot.\nComposition/framing: wide 16:9; keep faces and story-critical action/objects inside central protected area x=0.12–0.88, y=0.12–0.82. Leave the lower central band clear for one-line captions (x=0.2375–0.7625, y=0.85–0.935). Compose for a centered whole-image zoom from 1.00 to 1.04 with no pan.\nContinuity: Location establishing view; do not imply a specific cell.\nConstraints: illustrative reconstruction, not evidence or an exact portrait. Use supplied references only for their stated role, not their pose/background. Do not add plot events, claims, people or legible writing. The Gunpowder Plot was stopped; never depict an explosion. No modern objects, logos, caption text, title, watermark or border. No gore."
+    },
+    {
+      "scene": "S37",
+      "image": "../Source/Images/S37_v01.png",
+      "start_frame": 5363,
+      "end_frame": 5484,
+      "start_seconds": 178.766667,
+      "end_seconds": 182.8,
+      "duration_seconds": 4.033333,
+      "transcript_span": "The conspirators had wanted to change the position of English Catholics.",
+      "visual_title": "The torture order",
+      "composition": "King James and officials in a restrained interior, with a closed cell door beyond; no torture shown.",
+      "continuity": "The royal order authorizing torture is the story beat; no procedure or suffering is depicted.",
+      "delivery_canvas": "2560x1440",
+      "subtitle_safe_area": {
+        "x": [
+          0.2375,
+          0.7625
+        ],
+        "y": [
+          0.85,
+          0.935
+        ]
+      },
+      "protected_content_area": {
+        "x": [
+          0.12,
+          0.88
+        ],
+        "y": [
+          0.12,
+          0.82
+        ]
+      },
+      "motion_plan": {
+        "direction": "none",
+        "zoom": "in",
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale_start": 1.0,
+        "scale_end": 1.04,
+        "status": "PROVISIONAL; confirm actual image coverage before import"
+      },
+      "status": "DRAFT",
+      "references": [
+        "/Users/diplomat/ytvideos/channels/nuviko_history/videos/038_guy_fawkes/Source/Images/S01_v01.png"
+      ],
+      "reference_roles": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/038_guy_fawkes/Source/Images/S01_v01.png",
+          "role": "episode-specific fictionalized Fawkes and/or basement continuity reference only; preserve this shot’s new composition"
+        }
+      ],
+      "generation_prompt": "Use case: historical-scene\nAsset type: Nuviko History long-film scene S37, a complete static 16:9 landscape composition for 2560×1440 delivery.\nPrimary request: Sealed folded official paper on a dark desk, an official hand beside it; shallow perspective.\nScene/backdrop: England in 1605, Jacobean period interior or street appropriate to this spoken beat.\nSubject: The conspirators had wanted to change the position of English Catholics.\nStyle/medium: photorealistic historical reconstruction with natural human proportions, tactile stone, wood, wool and linen, restrained earth tones and cinematic natural light. Historical people and settings are realistic. No Nuviko traveler in this shot.\nComposition/framing: wide 16:9; keep faces and story-critical action/objects inside central protected area x=0.12–0.88, y=0.12–0.82. Leave the lower central band clear for one-line captions (x=0.2375–0.7625, y=0.85–0.935). Compose for a centered whole-image zoom from 1.00 to 1.04 with no pan.\nContinuity: Order only; no readable text and no torture shown.\nConstraints: illustrative reconstruction, not evidence or an exact portrait. Use supplied references only for their stated role, not their pose/background. Do not add plot events, claims, people or legible writing. The Gunpowder Plot was stopped; never depict an explosion. No modern objects, logos, caption text, title, watermark or border. No gore."
+    },
+    {
+      "scene": "S38",
+      "image": "../Source/Images/S38_v01.png",
+      "start_frame": 5484,
+      "end_frame": 5610,
+      "start_seconds": 182.8,
+      "end_seconds": 187.0,
+      "duration_seconds": 4.2,
+      "transcript_span": "But after the plot failed, suspicion toward Catholics intensified,",
+      "visual_title": "Survivors executed",
+      "composition": "Distant, restrained view of a wooden platform and a few condemned figures.",
+      "continuity": "No exact number, mechanism or sequence; no gore.",
+      "delivery_canvas": "2560x1440",
+      "subtitle_safe_area": {
+        "x": [
+          0.2375,
+          0.7625
+        ],
+        "y": [
+          0.85,
+          0.935
+        ]
+      },
+      "protected_content_area": {
+        "x": [
+          0.12,
+          0.88
+        ],
+        "y": [
+          0.12,
+          0.82
+        ]
+      },
+      "motion_plan": {
+        "direction": "none",
+        "zoom": "out",
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale_start": 1.04,
+        "scale_end": 1.0,
+        "status": "PROVISIONAL; confirm actual image coverage before import"
+      },
+      "status": "DRAFT",
+      "references": [
+        "/Users/diplomat/ytvideos/channels/nuviko_history/videos/038_guy_fawkes/Source/Images/S13_v01.png"
+      ],
+      "reference_roles": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/038_guy_fawkes/Source/Images/S13_v01.png",
+          "role": "episode-specific fictionalized Catesby continuity reference only; preserve this shot’s new composition"
+        }
+      ],
+      "generation_prompt": "Use case: historical-scene\nAsset type: Nuviko History long-film scene S38, a complete static 16:9 landscape composition for 2560×1440 delivery.\nPrimary request: Distant, restrained view of a wooden platform and a few condemned figures.\nScene/backdrop: England in 1605, Jacobean period interior or street appropriate to this spoken beat.\nSubject: But after the plot failed, suspicion toward Catholics intensified,\nStyle/medium: photorealistic historical reconstruction with natural human proportions, tactile stone, wood, wool and linen, restrained earth tones and cinematic natural light. Historical people and settings are realistic. No Nuviko traveler in this shot.\nComposition/framing: wide 16:9; keep faces and story-critical action/objects inside central protected area x=0.12–0.88, y=0.12–0.82. Leave the lower central band clear for one-line captions (x=0.2375–0.7625, y=0.85–0.935). Compose for a centered whole-image zoom from 1.00 to 1.04 with no pan.\nContinuity: No exact number, mechanism or sequence; no gore.\nConstraints: illustrative reconstruction, not evidence or an exact portrait. Use supplied references only for their stated role, not their pose/background. Do not add plot events, claims, people or legible writing. The Gunpowder Plot was stopped; never depict an explosion. No modern objects, logos, caption text, title, watermark or border. No gore."
+    },
+    {
+      "scene": "S39",
+      "image": "../Source/Images/S39_v01.png",
+      "start_frame": 5610,
+      "end_frame": 5754,
+      "start_seconds": 187.0,
+      "end_seconds": 191.8,
+      "duration_seconds": 4.8,
+      "transcript_span": "and the authorities introduced new requirements for their oath of allegiance. November 5",
+      "visual_title": "Catholics after the plot",
+      "composition": "Ordinary Catholic townspeople in a quiet street, distinct individuals, one foreground face.",
+      "continuity": "Return to non-conspirators; avoid collective guilt.",
+      "delivery_canvas": "2560x1440",
+      "subtitle_safe_area": {
+        "x": [
+          0.2375,
+          0.7625
+        ],
+        "y": [
+          0.85,
+          0.935
+        ]
+      },
+      "protected_content_area": {
+        "x": [
+          0.12,
+          0.88
+        ],
+        "y": [
+          0.12,
+          0.82
+        ]
+      },
+      "motion_plan": {
+        "direction": "none",
+        "zoom": "in",
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale_start": 1.0,
+        "scale_end": 1.04,
+        "status": "PROVISIONAL; confirm actual image coverage before import"
+      },
+      "status": "DRAFT",
+      "references": [],
+      "reference_roles": [],
+      "generation_prompt": "Use case: historical-scene\nAsset type: Nuviko History long-film scene S39, a complete static 16:9 landscape composition for 2560×1440 delivery.\nPrimary request: Ordinary Catholic townspeople in a quiet street, distinct individuals, one foreground face.\nScene/backdrop: England in 1605, Jacobean period interior or street appropriate to this spoken beat.\nSubject: and the authorities introduced new requirements for their oath of allegiance. November 5\nStyle/medium: photorealistic historical reconstruction with natural human proportions, tactile stone, wood, wool and linen, restrained earth tones and cinematic natural light. Historical people and settings are realistic. No Nuviko traveler in this shot.\nComposition/framing: wide 16:9; keep faces and story-critical action/objects inside central protected area x=0.12–0.88, y=0.12–0.82. Leave the lower central band clear for one-line captions (x=0.2375–0.7625, y=0.85–0.935). Compose for a centered whole-image zoom from 1.00 to 1.04 with no pan.\nContinuity: Return to non-conspirators; avoid collective guilt.\nConstraints: illustrative reconstruction, not evidence or an exact portrait. Use supplied references only for their stated role, not their pose/background. Do not add plot events, claims, people or legible writing. The Gunpowder Plot was stopped; never depict an explosion. No modern objects, logos, caption text, title, watermark or border. No gore."
+    },
+    {
+      "scene": "S40",
+      "image": "../Source/Images/S40_v01.png",
+      "start_frame": 5754,
+      "end_frame": 5892,
+      "start_seconds": 191.8,
+      "end_seconds": 196.4,
+      "duration_seconds": 4.6,
+      "transcript_span": "itself became a day of thanksgiving for the survival of the king and Parliament.",
+      "visual_title": "November 5 becomes a day of thanksgiving",
+      "composition": "A church congregation listens in a quiet service, viewed from behind with bowed heads.",
+      "continuity": "A public day of thanksgiving; no conflation with the earlier political oath requirements.",
+      "delivery_canvas": "2560x1440",
+      "subtitle_safe_area": {
+        "x": [
+          0.2375,
+          0.7625
+        ],
+        "y": [
+          0.85,
+          0.935
+        ]
+      },
+      "protected_content_area": {
+        "x": [
+          0.12,
+          0.88
+        ],
+        "y": [
+          0.12,
+          0.82
+        ]
+      },
+      "motion_plan": {
+        "direction": "none",
+        "zoom": "out",
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale_start": 1.04,
+        "scale_end": 1.0,
+        "status": "PROVISIONAL; confirm actual image coverage before import"
+      },
+      "status": "DRAFT",
+      "references": [],
+      "reference_roles": [],
+      "generation_prompt": "Use case: historical-scene\nAsset type: Nuviko History long-film scene S40, a complete static 16:9 landscape composition for 2560×1440 delivery.\nPrimary request: An ordinary Catholic before an official desk with a closed document, over-shoulder composition.\nScene/backdrop: England in 1605, Jacobean period interior or street appropriate to this spoken beat.\nSubject: itself became a day of thanksgiving for the survival of the king and Parliament.\nStyle/medium: photorealistic historical reconstruction with natural human proportions, tactile stone, wood, wool and linen, restrained earth tones and cinematic natural light. Historical people and settings are realistic. No Nuviko traveler in this shot.\nComposition/framing: wide 16:9; keep faces and story-critical action/objects inside central protected area x=0.12–0.88, y=0.12–0.82. Leave the lower central band clear for one-line captions (x=0.2375–0.7625, y=0.85–0.935). Compose for a centered whole-image zoom from 1.00 to 1.04 with no pan.\nContinuity: Visual rhyme with S10; no oath text.\nConstraints: illustrative reconstruction, not evidence or an exact portrait. Use supplied references only for their stated role, not their pose/background. Do not add plot events, claims, people or legible writing. The Gunpowder Plot was stopped; never depict an explosion. No modern objects, logos, caption text, title, watermark or border. No gore."
+    },
+    {
+      "scene": "S41",
+      "image": "../Source/Images/S41_v01.png",
+      "start_frame": 5892,
+      "end_frame": 6057,
+      "start_seconds": 196.4,
+      "end_seconds": 201.9,
+      "duration_seconds": 5.5,
+      "transcript_span": "Over time, a tradition developed in Britain of marking the day with bonfires and fireworks.",
+      "visual_title": "Bonfires begin the tradition",
+      "composition": "A daylight town square with a prepared bonfire pile and distant observers.",
+      "continuity": "Later November 5 custom, after the thanksgiving beat; no specific historical year.",
+      "delivery_canvas": "2560x1440",
+      "subtitle_safe_area": {
+        "x": [
+          0.2375,
+          0.7625
+        ],
+        "y": [
+          0.85,
+          0.935
+        ]
+      },
+      "protected_content_area": {
+        "x": [
+          0.12,
+          0.88
+        ],
+        "y": [
+          0.12,
+          0.82
+        ]
+      },
+      "motion_plan": {
+        "direction": "none",
+        "zoom": "in",
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale_start": 1.0,
+        "scale_end": 1.04,
+        "status": "PROVISIONAL; confirm actual image coverage before import"
+      },
+      "status": "DRAFT",
+      "references": [
+        "/Users/diplomat/ytvideos/channels/nuviko_history/videos/038_guy_fawkes/Source/Reference/nuviko_channel_avatar_v01.png"
+      ],
+      "reference_roles": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/038_guy_fawkes/Source/Reference/nuviko_channel_avatar_v01.png",
+          "role": "approved channel avatar identity/style reference only; new pose per scene"
+        }
+      ],
+      "generation_prompt": "Use case: historical-scene\nAsset type: Nuviko History long-film scene S41, a complete static 16:9 landscape composition for 2560×1440 delivery.\nPrimary request: Small gathering in an English town square; distant Parliament silhouette in daylight.\nScene/backdrop: England in 1605, Jacobean period interior or street appropriate to this spoken beat.\nSubject: Over time, a tradition developed in Britain of marking the day with bonfires and fireworks.\nStyle/medium: photorealistic historical reconstruction with natural human proportions, tactile stone, wood, wool and linen, restrained earth tones and cinematic natural light. Historical people and settings are realistic. Place the restrained drawn 2D Nuviko traveler from the avatar reference at the far edge as a quiet observer, never interacting with historical people or objects; give him a new pose, relaxed arms/hands, same ochre jacket, pale henley and dark backpack.\nComposition/framing: wide 16:9; keep faces and story-critical action/objects inside central protected area x=0.12–0.88, y=0.12–0.82. Leave the lower central band clear for one-line captions (x=0.2375–0.7625, y=0.85–0.935). Compose for a centered whole-image zoom from 1.00 to 1.04 with no pan.\nContinuity: Nuviko traveler observing at edge, never part of event.\nConstraints: illustrative reconstruction, not evidence or an exact portrait. Use supplied references only for their stated role, not their pose/background. Do not add plot events, claims, people or legible writing. The Gunpowder Plot was stopped; never depict an explosion. No modern objects, logos, caption text, title, watermark or border. No gore."
+    },
+    {
+      "scene": "S42",
+      "image": "../Source/Images/S42_v01.png",
+      "start_frame": 6057,
+      "end_frame": 6219,
+      "start_seconds": 201.9,
+      "end_seconds": 207.3,
+      "duration_seconds": 5.4,
+      "transcript_span": "People began burning effigies of Guy Fawkes on those bonfires. And so a man",
+      "visual_title": "Fireworks over the town",
+      "composition": "Very wide elevated night view over rooftops with distant fireworks and scattered bonfire glows.",
+      "continuity": "Later custom, not the night of the 1605 plot.",
+      "delivery_canvas": "2560x1440",
+      "subtitle_safe_area": {
+        "x": [
+          0.2375,
+          0.7625
+        ],
+        "y": [
+          0.85,
+          0.935
+        ]
+      },
+      "protected_content_area": {
+        "x": [
+          0.12,
+          0.88
+        ],
+        "y": [
+          0.12,
+          0.82
+        ]
+      },
+      "motion_plan": {
+        "direction": "none",
+        "zoom": "out",
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale_start": 1.04,
+        "scale_end": 1.0,
+        "status": "PROVISIONAL; confirm actual image coverage before import"
+      },
+      "status": "DRAFT",
+      "references": [],
+      "reference_roles": [],
+      "generation_prompt": "Use case: historical-scene\nAsset type: Nuviko History long-film scene S42, a complete static 16:9 landscape composition for 2560×1440 delivery.\nPrimary request: Very wide elevated night view over rooftops; distant fireworks and scattered bonfire glows.\nScene/backdrop: A later British town at an unspecified later date, following the narration’s “over time” wording.\nSubject: People began burning effigies of Guy Fawkes on those bonfires. And so a man\nStyle/medium: photorealistic historical reconstruction with natural human proportions, tactile stone, wood, wool and linen, restrained earth tones and cinematic natural light. Historical people and settings are realistic. No Nuviko traveler in this shot.\nComposition/framing: wide 16:9; keep faces and story-critical action/objects inside central protected area x=0.12–0.88, y=0.12–0.82. Leave the lower central band clear for one-line captions (x=0.2375–0.7625, y=0.85–0.935). Compose for a centered whole-image zoom from 1.00 to 1.04 with no pan.\nContinuity: Later custom, not the 1605 plot night.\nConstraints: illustrative reconstruction, not evidence or an exact portrait. Use supplied references only for their stated role, not their pose/background. Do not add plot events, claims, people or legible writing. The Gunpowder Plot was stopped; never depict an explosion. No modern objects, logos, caption text, title, watermark or border. No gore."
+    },
+    {
+      "scene": "S43",
+      "image": "../Source/Images/S43_v01.png",
+      "start_frame": 6219,
+      "end_frame": 6387,
+      "start_seconds": 207.3,
+      "end_seconds": 212.9,
+      "duration_seconds": 5.6,
+      "transcript_span": "who had never led the conspiracy gave his name to a celebration that commemorates its failure.",
+      "visual_title": "Fawkes effigy and final memory",
+      "composition": "Broad low evening view of a Guy Fawkes effigy on a bonfire, observers distant.",
+      "continuity": "Later tradition; final motif echoes S07; the Nuviko traveler is only a separate guide cameo if visible.",
+      "delivery_canvas": "2560x1440",
+      "subtitle_safe_area": {
+        "x": [
+          0.2375,
+          0.7625
+        ],
+        "y": [
+          0.85,
+          0.935
+        ]
+      },
+      "protected_content_area": {
+        "x": [
+          0.12,
+          0.88
+        ],
+        "y": [
+          0.12,
+          0.82
+        ]
+      },
+      "motion_plan": {
+        "direction": "none",
+        "zoom": "in",
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale_start": 1.0,
+        "scale_end": 1.04,
+        "status": "PROVISIONAL; confirm actual image coverage before import"
+      },
+      "status": "DRAFT",
+      "references": [
+        "/Users/diplomat/ytvideos/channels/nuviko_history/videos/038_guy_fawkes/Source/Reference/nuviko_channel_avatar_v01.png"
+      ],
+      "reference_roles": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/038_guy_fawkes/Source/Reference/nuviko_channel_avatar_v01.png",
+          "role": "approved channel avatar identity/style reference only; new pose per scene"
+        }
+      ],
+      "generation_prompt": "Use case: historical-scene\nAsset type: Nuviko History long-film scene S43, a complete static 16:9 landscape composition for 2560×1440 delivery.\nPrimary request: Broad low evening view of a Guy Fawkes effigy on a bonfire, observers distant.\nScene/backdrop: A later British town at an unspecified later date, following the narration’s “over time” wording.\nSubject: who had never led the conspiracy gave his name to a celebration that commemorates its failure.\nStyle/medium: photorealistic historical reconstruction with natural human proportions, tactile stone, wood, wool and linen, restrained earth tones and cinematic natural light. Historical people and settings are realistic. Place the restrained drawn 2D Nuviko traveler from the avatar reference at the far edge as a quiet observer, never interacting with historical people or objects; give him a new pose, relaxed arms/hands, same ochre jacket, pale henley and dark backpack.\nComposition/framing: wide 16:9; keep faces and story-critical action/objects inside central protected area x=0.12–0.88, y=0.12–0.82. Leave the lower central band clear for one-line captions (x=0.2375–0.7625, y=0.85–0.935). Compose for a centered whole-image zoom from 1.00 to 1.04 with no pan.\nContinuity: Later tradition; final motif echoes S03; traveler may observe at edge.\nConstraints: illustrative reconstruction, not evidence or an exact portrait. Use supplied references only for their stated role, not their pose/background. Do not add plot events, claims, people or legible writing. The Gunpowder Plot was stopped; never depict an explosion. No modern objects, logos, caption text, title, watermark or border. No gore."
+    }
+  ]
+}

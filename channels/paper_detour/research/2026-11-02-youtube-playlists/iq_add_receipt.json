@@ -1,0 +1,244 @@
+{
+  "operation": "iq_add",
+  "channel_id": "UCMVfdfaNxV3ZkI3_J3Eejzw",
+  "started_at": "2026-11-01T23:56:52.369149+00:00",
+  "state": "saved_verified",
+  "playlist_before": {
+    "kind": "youtube#playlist",
+    "etag": "dnQQYXoT2ZjRMF9veBHh8Fs5Bhg",
+    "id": "PLOSBLM3rTTl0",
+    "snippet": {
+      "publishedAt": "2026-11-01T23:55:20.540842257Z",
+      "channelId": "UCMVfdfaNxV3ZkI3_J3Eejzw",
+      "title": "Reported IQ Estimates",
+      "description": "A focused collection of published IQ estimates attributed to notable people. These figures are reported claims, not results from a single standardized or directly comparable test.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/img/no_thumbnail.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/img/no_thumbnail.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/img/no_thumbnail.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "Paper Detour",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "Reported IQ Estimates",
+        "description": "A focused collection of published IQ estimates attributed to notable people. These figures are reported claims, not results from a single standardized or directly comparable test."
+      }
+    },
+    "status": {
+      "privacyStatus": "private"
+    },
+    "contentDetails": {
+      "itemCount": 0
+    }
+  },
+  "video_before": {
+    "kind": "youtube#video",
+    "etag": "8_4r-cNak5rdN29uuB0yoKWPxiU",
+    "id": "xYS2XBeR_Jc",
+    "snippet": {
+      "publishedAt": "2026-11-01T21:00:21Z",
+      "channelId": "UCMVfdfaNxV3ZkI3_J3Eejzw",
+      "title": "13 Famous People's Reported IQ Scores #IQ #Shorts",
+      "description": "Explore published IQ estimates associated with 13 famous people, including John F. Kennedy, Richard Feynman, Garry Kasparov, Kanye West, RM, and Marilyn vos Savant.\n\nThese figures come from different sources and have not been verified through one standardized, comparable test. This is an entertainment-focused collection, not a scientifically established IQ ranking.\n\n#Shorts #IQ #FamousPeople #PaperDetour #PopCulture #Intelligence #IQScores #ReportedIQ #CelebrityIQ #HistoricalFigures #RichardFeynman #GarryKasparov #MarilynVosSavant",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/xYS2XBeR_Jc/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/xYS2XBeR_Jc/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/xYS2XBeR_Jc/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/xYS2XBeR_Jc/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/xYS2XBeR_Jc/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Paper Detour",
+      "tags": [
+        "Paper Detour",
+        "Shorts",
+        "IQ",
+        "famous people IQ",
+        "reported IQ scores",
+        "John F Kennedy",
+        "Garry Kasparov",
+        "Richard Feynman",
+        "Kanye West",
+        "Logan Paul",
+        "RM Kim Namjoon",
+        "Nolan Gould",
+        "Frank Lampard",
+        "Kate Beckinsale",
+        "Sharon Stone",
+        "Lee Byung-hun",
+        "Quentin Tarantino",
+        "Marilyn vos Savant"
+      ],
+      "categoryId": "24",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "13 Famous People's Reported IQ Scores #IQ #Shorts",
+        "description": "Explore published IQ estimates associated with 13 famous people, including John F. Kennedy, Richard Feynman, Garry Kasparov, Kanye West, RM, and Marilyn vos Savant.\n\nThese figures come from different sources and have not been verified through one standardized, comparable test. This is an entertainment-focused collection, not a scientifically established IQ ranking.\n\n#Shorts #IQ #FamousPeople #PaperDetour #PopCulture #Intelligence #IQScores #ReportedIQ #CelebrityIQ #HistoricalFigures #RichardFeynman #GarryKasparov #MarilynVosSavant"
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "status": {
+      "uploadStatus": "processed",
+      "privacyStatus": "public",
+      "license": "youtube",
+      "embeddable": true,
+      "publicStatsViewable": true,
+      "madeForKids": false,
+      "selfDeclaredMadeForKids": false
+    }
+  },
+  "before": [],
+  "request": {
+    "method": "POST",
+    "resource": "playlistItems",
+    "part": "snippet",
+    "body": {
+      "snippet": {
+        "playlistId": "PLOSBLM3rTTl0",
+        "position": 0,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "xYS2XBeR_Jc"
+        }
+      }
+    }
+  },
+  "http_status": 200,
+  "response": {
+    "kind": "youtube#playlistItem",
+    "etag": "bUPSYsllUtJhFDGtoldBEEh-6SY",
+    "id": "UExPU0JMTTNyVFRsMC41NkI0NEY2RDEwNTU3Q0M2",
+    "snippet": {
+      "publishedAt": "2026-11-01T23:56:53Z",
+      "channelId": "UCMVfdfaNxV3ZkI3_J3Eejzw",
+      "title": "13 Famous People's Reported IQ Scores #IQ #Shorts",
+      "description": "Explore published IQ estimates associated with 13 famous people, including John F. Kennedy, Richard Feynman, Garry Kasparov, Kanye West, RM, and Marilyn vos Savant.\n\nThese figures come from different sources and have not been verified through one standardized, comparable test. This is an entertainment-focused collection, not a scientifically established IQ ranking.\n\n#Shorts #IQ #FamousPeople #PaperDetour #PopCulture #Intelligence #IQScores #ReportedIQ #CelebrityIQ #HistoricalFigures #RichardFeynman #GarryKasparov #MarilynVosSavant",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/xYS2XBeR_Jc/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/xYS2XBeR_Jc/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/xYS2XBeR_Jc/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/xYS2XBeR_Jc/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/xYS2XBeR_Jc/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Paper Detour",
+      "playlistId": "PLOSBLM3rTTl0",
+      "position": 0,
+      "resourceId": {
+        "kind": "youtube#video",
+        "videoId": "xYS2XBeR_Jc"
+      },
+      "videoOwnerChannelTitle": "Paper Detour",
+      "videoOwnerChannelId": "UCMVfdfaNxV3ZkI3_J3Eejzw"
+    }
+  },
+  "after": [
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "J3LffHXvj6gR0lBiqLpLmCiQVg0",
+      "id": "UExPU0JMTTNyVFRsMC41NkI0NEY2RDEwNTU3Q0M2",
+      "snippet": {
+        "publishedAt": "2026-11-01T23:56:53Z",
+        "channelId": "UCMVfdfaNxV3ZkI3_J3Eejzw",
+        "title": "13 Famous People's Reported IQ Scores #IQ #Shorts",
+        "description": "Explore published IQ estimates associated with 13 famous people, including John F. Kennedy, Richard Feynman, Garry Kasparov, Kanye West, RM, and Marilyn vos Savant.\n\nThese figures come from different sources and have not been verified through one standardized, comparable test. This is an entertainment-focused collection, not a scientifically established IQ ranking.\n\n#Shorts #IQ #FamousPeople #PaperDetour #PopCulture #Intelligence #IQScores #ReportedIQ #CelebrityIQ #HistoricalFigures #RichardFeynman #GarryKasparov #MarilynVosSavant",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/xYS2XBeR_Jc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/xYS2XBeR_Jc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/xYS2XBeR_Jc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/xYS2XBeR_Jc/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/xYS2XBeR_Jc/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Paper Detour",
+        "playlistId": "PLOSBLM3rTTl0",
+        "position": 0,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "xYS2XBeR_Jc"
+        },
+        "videoOwnerChannelTitle": "Paper Detour",
+        "videoOwnerChannelId": "UCMVfdfaNxV3ZkI3_J3Eejzw"
+      },
+      "contentDetails": {
+        "videoId": "xYS2XBeR_Jc",
+        "videoPublishedAt": "2026-11-01T21:00:21Z"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    }
+  ],
+  "read_attempts": 2,
+  "verified_at": "2026-11-01T23:56:55.775053+00:00"
+}

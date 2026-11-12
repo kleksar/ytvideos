@@ -1,0 +1,2680 @@
+{
+  "schema_version": 1,
+  "episode": "016_marseille_1720",
+  "run_id": "96e776dad46d8e170e1d",
+  "scene_count": 127,
+  "source_hash_matches": 127,
+  "valid_depth_maps": 127,
+  "valid_clean_parallax_videos": 127,
+  "all_pass": true,
+  "failures": [],
+  "scenes": [
+    {
+      "ok": true,
+      "scene": "185FE324",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.2355981171131134,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "125"
+      },
+      "expected_video_frames": 125
+    },
+    {
+      "ok": true,
+      "scene": "5AF84E14",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.21355898678302765,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "136"
+      },
+      "expected_video_frames": 136
+    },
+    {
+      "ok": true,
+      "scene": "CB65D99B",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.250230997800827,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "157"
+      },
+      "expected_video_frames": 157
+    },
+    {
+      "ok": true,
+      "scene": "0BEC1B6B",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.19804693758487701,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "133"
+      },
+      "expected_video_frames": 133
+    },
+    {
+      "ok": true,
+      "scene": "D0347FD6",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.29586389660835266,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "179"
+      },
+      "expected_video_frames": 179
+    },
+    {
+      "ok": true,
+      "scene": "4C1DD26A",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.22466133534908295,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "169"
+      },
+      "expected_video_frames": 169
+    },
+    {
+      "ok": true,
+      "scene": "90156176",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.3213858902454376,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "132"
+      },
+      "expected_video_frames": 132
+    },
+    {
+      "ok": true,
+      "scene": "66C492BF",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.27250802516937256,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "128"
+      },
+      "expected_video_frames": 128
+    },
+    {
+      "ok": true,
+      "scene": "00C37E42",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.25188571214675903,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "169"
+      },
+      "expected_video_frames": 169
+    },
+    {
+      "ok": true,
+      "scene": "B271A6D3",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.25278642773628235,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "180"
+      },
+      "expected_video_frames": 180
+    },
+    {
+      "ok": true,
+      "scene": "EBAC7591",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.2500985860824585,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "155"
+      },
+      "expected_video_frames": 155
+    },
+    {
+      "ok": true,
+      "scene": "A68839EF",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.3177533447742462,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "182"
+      },
+      "expected_video_frames": 182
+    },
+    {
+      "ok": true,
+      "scene": "4B3E7D4F",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.27958253026008606,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "125"
+      },
+      "expected_video_frames": 125
+    },
+    {
+      "ok": true,
+      "scene": "BEA935A7",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.2537900507450104,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "127"
+      },
+      "expected_video_frames": 127
+    },
+    {
+      "ok": true,
+      "scene": "8B3228E0",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.25554415583610535,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "127"
+      },
+      "expected_video_frames": 127
+    },
+    {
+      "ok": true,
+      "scene": "3C833C89",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.21032032370567322,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "127"
+      },
+      "expected_video_frames": 127
+    },
+    {
+      "ok": true,
+      "scene": "E7856E7F",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.2346128225326538,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "127"
+      },
+      "expected_video_frames": 127
+    },
+    {
+      "ok": true,
+      "scene": "2F5C4B02",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.19730988144874573,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "127"
+      },
+      "expected_video_frames": 127
+    },
+    {
+      "ok": true,
+      "scene": "3C98B6E7",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.18277262151241302,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "127"
+      },
+      "expected_video_frames": 127
+    },
+    {
+      "ok": true,
+      "scene": "B6730A99",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.24319952726364136,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "127"
+      },
+      "expected_video_frames": 127
+    },
+    {
+      "ok": true,
+      "scene": "192D2D38",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.24541114270687103,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "127"
+      },
+      "expected_video_frames": 127
+    },
+    {
+      "ok": true,
+      "scene": "78594881",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.24063153564929962,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "127"
+      },
+      "expected_video_frames": 127
+    },
+    {
+      "ok": true,
+      "scene": "7B59B9C3",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.2999629080295563,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "127"
+      },
+      "expected_video_frames": 127
+    },
+    {
+      "ok": true,
+      "scene": "240BCC0F",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.2810065746307373,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "127"
+      },
+      "expected_video_frames": 127
+    },
+    {
+      "ok": true,
+      "scene": "2224120B",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.24729517102241516,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "127"
+      },
+      "expected_video_frames": 127
+    },
+    {
+      "ok": true,
+      "scene": "96265F78",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.21030381321907043,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "127"
+      },
+      "expected_video_frames": 127
+    },
+    {
+      "ok": true,
+      "scene": "C19134E8",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.21300789713859558,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "127"
+      },
+      "expected_video_frames": 127
+    },
+    {
+      "ok": true,
+      "scene": "90F4EF99",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.22376090288162231,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "127"
+      },
+      "expected_video_frames": 127
+    },
+    {
+      "ok": true,
+      "scene": "A26A33BE",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.2678897976875305,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "127"
+      },
+      "expected_video_frames": 127
+    },
+    {
+      "ok": true,
+      "scene": "670766B3",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.2003139853477478,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "127"
+      },
+      "expected_video_frames": 127
+    },
+    {
+      "ok": true,
+      "scene": "0AFFC8C0",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.2759143114089966,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "127"
+      },
+      "expected_video_frames": 127
+    },
+    {
+      "ok": true,
+      "scene": "0D2DD2E1",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.18414531648159027,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "127"
+      },
+      "expected_video_frames": 127
+    },
+    {
+      "ok": true,
+      "scene": "E8F76C05",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.24772004783153534,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "127"
+      },
+      "expected_video_frames": 127
+    },
+    {
+      "ok": true,
+      "scene": "D30DE0FE",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.22525623440742493,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "127"
+      },
+      "expected_video_frames": 127
+    },
+    {
+      "ok": true,
+      "scene": "C4F8BFF9",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.3070678114891052,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "127"
+      },
+      "expected_video_frames": 127
+    },
+    {
+      "ok": true,
+      "scene": "363BF8C3",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.23566798865795135,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "127"
+      },
+      "expected_video_frames": 127
+    },
+    {
+      "ok": true,
+      "scene": "B5CC3210",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.2504003345966339,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "127"
+      },
+      "expected_video_frames": 127
+    },
+    {
+      "ok": true,
+      "scene": "702ED0E0",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.3124788701534271,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "127"
+      },
+      "expected_video_frames": 127
+    },
+    {
+      "ok": true,
+      "scene": "3156A583",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.23768897354602814,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "127"
+      },
+      "expected_video_frames": 127
+    },
+    {
+      "ok": true,
+      "scene": "39CBE038",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.2355993390083313,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "127"
+      },
+      "expected_video_frames": 127
+    },
+    {
+      "ok": true,
+      "scene": "47DBE9D5",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.28208446502685547,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "127"
+      },
+      "expected_video_frames": 127
+    },
+    {
+      "ok": true,
+      "scene": "AC2085BC",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.32212793827056885,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "127"
+      },
+      "expected_video_frames": 127
+    },
+    {
+      "ok": true,
+      "scene": "9DE93668",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.2343679517507553,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "127"
+      },
+      "expected_video_frames": 127
+    },
+    {
+      "ok": true,
+      "scene": "78CED02F",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.23737992346286774,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "127"
+      },
+      "expected_video_frames": 127
+    },
+    {
+      "ok": true,
+      "scene": "A23858CA",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.2468629628419876,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "127"
+      },
+      "expected_video_frames": 127
+    },
+    {
+      "ok": true,
+      "scene": "472A62FD",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.21651914715766907,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "127"
+      },
+      "expected_video_frames": 127
+    },
+    {
+      "ok": true,
+      "scene": "F459FCC1",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.208754301071167,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "127"
+      },
+      "expected_video_frames": 127
+    },
+    {
+      "ok": true,
+      "scene": "CC11EB54",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.30700191855430603,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "127"
+      },
+      "expected_video_frames": 127
+    },
+    {
+      "ok": true,
+      "scene": "F5727267",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.2527478337287903,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "127"
+      },
+      "expected_video_frames": 127
+    },
+    {
+      "ok": true,
+      "scene": "761C2748",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.29975175857543945,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "127"
+      },
+      "expected_video_frames": 127
+    },
+    {
+      "ok": true,
+      "scene": "3D154FC9",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.23515553772449493,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "127"
+      },
+      "expected_video_frames": 127
+    },
+    {
+      "ok": true,
+      "scene": "EA583425",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.2779559791088104,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "127"
+      },
+      "expected_video_frames": 127
+    },
+    {
+      "ok": true,
+      "scene": "42498526",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.14109191298484802,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "127"
+      },
+      "expected_video_frames": 127
+    },
+    {
+      "ok": true,
+      "scene": "DEEEB3D0",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.2737227976322174,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "127"
+      },
+      "expected_video_frames": 127
+    },
+    {
+      "ok": true,
+      "scene": "9C5CCFD5",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.24498070776462555,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "127"
+      },
+      "expected_video_frames": 127
+    },
+    {
+      "ok": true,
+      "scene": "5F2BA47E",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.25617873668670654,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "127"
+      },
+      "expected_video_frames": 127
+    },
+    {
+      "ok": true,
+      "scene": "AAED0E37",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.2643962800502777,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "127"
+      },
+      "expected_video_frames": 127
+    },
+    {
+      "ok": true,
+      "scene": "9BE35555",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.23285187780857086,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "127"
+      },
+      "expected_video_frames": 127
+    },
+    {
+      "ok": true,
+      "scene": "E806B6CF",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.18626779317855835,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    },
+    {
+      "ok": true,
+      "scene": "D0240952",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.23198053240776062,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    },
+    {
+      "ok": true,
+      "scene": "4551254C",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.30112284421920776,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    },
+    {
+      "ok": true,
+      "scene": "35EB3E52",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.26580607891082764,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    },
+    {
+      "ok": true,
+      "scene": "D3ADF0B7",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.2706095278263092,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    },
+    {
+      "ok": true,
+      "scene": "135EE81A",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.2502066493034363,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    },
+    {
+      "ok": true,
+      "scene": "D710FC98",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.20208235085010529,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    },
+    {
+      "ok": true,
+      "scene": "FAE3BFF0",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.2202596217393875,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    },
+    {
+      "ok": true,
+      "scene": "F7E206E1",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.24076715111732483,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    },
+    {
+      "ok": true,
+      "scene": "87C81E51",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.2239464819431305,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    },
+    {
+      "ok": true,
+      "scene": "1969FF6D",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.2061571180820465,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    },
+    {
+      "ok": true,
+      "scene": "070CD76F",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.26894423365592957,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    },
+    {
+      "ok": true,
+      "scene": "434E51C7",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.26174595952033997,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    },
+    {
+      "ok": true,
+      "scene": "AC545510",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.23979221284389496,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    },
+    {
+      "ok": true,
+      "scene": "D539366D",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.21329672634601593,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    },
+    {
+      "ok": true,
+      "scene": "0503D352",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.27423009276390076,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    },
+    {
+      "ok": true,
+      "scene": "0D5EF1A8",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.24218790233135223,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    },
+    {
+      "ok": true,
+      "scene": "3A483C0D",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.29819953441619873,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    },
+    {
+      "ok": true,
+      "scene": "2BE40790",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.21184669435024261,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    },
+    {
+      "ok": true,
+      "scene": "8992F971",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.2670300304889679,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    },
+    {
+      "ok": true,
+      "scene": "869C9B5F",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.27180081605911255,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    },
+    {
+      "ok": true,
+      "scene": "D5FC05D1",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.19565598666667938,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    },
+    {
+      "ok": true,
+      "scene": "8CAAC802",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.28644007444381714,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    },
+    {
+      "ok": true,
+      "scene": "75D38116",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.2561781406402588,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    },
+    {
+      "ok": true,
+      "scene": "7B3B22C8",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.21548330783843994,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    },
+    {
+      "ok": true,
+      "scene": "8FF5AC6A",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.2106637805700302,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    },
+    {
+      "ok": true,
+      "scene": "7E61B3F4",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.18994174897670746,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    },
+    {
+      "ok": true,
+      "scene": "D2049A3C",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.20032380521297455,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    },
+    {
+      "ok": true,
+      "scene": "1DED5858",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.23282894492149353,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    },
+    {
+      "ok": true,
+      "scene": "7E4333E5",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.29391416907310486,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    },
+    {
+      "ok": true,
+      "scene": "B4D66166",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.296359121799469,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    },
+    {
+      "ok": true,
+      "scene": "7C5742C9",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.26974982023239136,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    },
+    {
+      "ok": true,
+      "scene": "F4E97141",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.2475740909576416,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    },
+    {
+      "ok": true,
+      "scene": "034A2EEB",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.24122852087020874,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    },
+    {
+      "ok": true,
+      "scene": "865FAC7B",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.18611818552017212,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    },
+    {
+      "ok": true,
+      "scene": "C1FD8AE5",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.24406783282756805,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    },
+    {
+      "ok": true,
+      "scene": "B48F8C23",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.19390854239463806,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    },
+    {
+      "ok": true,
+      "scene": "C785A13E",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.2682442367076874,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    },
+    {
+      "ok": true,
+      "scene": "EF67F40A",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.280256986618042,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    },
+    {
+      "ok": true,
+      "scene": "E15D6839",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.29845839738845825,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    },
+    {
+      "ok": true,
+      "scene": "8FAE9E30",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.23781242966651917,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    },
+    {
+      "ok": true,
+      "scene": "C9BB5089",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.26124733686447144,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    },
+    {
+      "ok": true,
+      "scene": "E6F13D5B",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.2825463116168976,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    },
+    {
+      "ok": true,
+      "scene": "4302C3AE",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.25084376335144043,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    },
+    {
+      "ok": true,
+      "scene": "634317E2",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.2543988525867462,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    },
+    {
+      "ok": true,
+      "scene": "0BC42B65",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.22525379061698914,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    },
+    {
+      "ok": true,
+      "scene": "260A4EBB",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.3021863102912903,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    },
+    {
+      "ok": true,
+      "scene": "EBC6928C",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.2376197725534439,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    },
+    {
+      "ok": true,
+      "scene": "F405FD0A",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.291298508644104,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    },
+    {
+      "ok": true,
+      "scene": "9CD6B89A",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.2911081910133362,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    },
+    {
+      "ok": true,
+      "scene": "5B81339A",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.28142431378364563,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    },
+    {
+      "ok": true,
+      "scene": "D2616735",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.20140057802200317,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    },
+    {
+      "ok": true,
+      "scene": "D4F3C707",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.25242480635643005,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    },
+    {
+      "ok": true,
+      "scene": "7FA3D84E",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.2985623776912689,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    },
+    {
+      "ok": true,
+      "scene": "49136104",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.2736521065235138,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    },
+    {
+      "ok": true,
+      "scene": "F8FE372C",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.24797406792640686,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    },
+    {
+      "ok": true,
+      "scene": "84596CC9",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.17366082966327667,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    },
+    {
+      "ok": true,
+      "scene": "86AC5960",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.2110653817653656,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    },
+    {
+      "ok": true,
+      "scene": "B1446579",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.24812385439872742,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    },
+    {
+      "ok": true,
+      "scene": "3001366E",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.2378883808851242,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    },
+    {
+      "ok": true,
+      "scene": "72225642",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.23273763060569763,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    },
+    {
+      "ok": true,
+      "scene": "D5CA837C",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.2246798723936081,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    },
+    {
+      "ok": true,
+      "scene": "21694A00",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.2529996931552887,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    },
+    {
+      "ok": true,
+      "scene": "F62EC5F1",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.3180927634239197,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    },
+    {
+      "ok": true,
+      "scene": "712DA0AA",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.2142050713300705,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    },
+    {
+      "ok": true,
+      "scene": "FC5E674E",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.29017454385757446,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    },
+    {
+      "ok": true,
+      "scene": "8B7E4990",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.2281700074672699,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    },
+    {
+      "ok": true,
+      "scene": "EE79DE8C",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.269307941198349,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    },
+    {
+      "ok": true,
+      "scene": "0C10C0F6",
+      "source_hash_match": true,
+      "depth_exists_valid": true,
+      "depth_shape": [
+        518,
+        924
+      ],
+      "depth_std": 0.24848902225494385,
+      "depth_bytes": 1914656,
+      "video_exists": true,
+      "video_meta": {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_read_frames": "126"
+      },
+      "expected_video_frames": 126
+    }
+  ]
+}

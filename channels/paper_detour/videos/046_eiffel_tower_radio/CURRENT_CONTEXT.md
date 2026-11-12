@@ -1,0 +1,9 @@
+# Paper Detour 046 — Eiffel Tower and military radio
+
+Updated 2026-11-05.
+
+- The user requested removal of the four-sided Paper Frame and immediate Public release. The user confirmed watching and accepting `Work/eiffel-remake-frame-20261105/previews/Paper_Detour_046_Eiffel_Tower_Radio_EN_no_frame_v01.mp4` («отсмотрел. все хорошо»). SHA-256 `70b5cd353a9394ba4239952195d108ef7e5db94fdf9f1e53f7ad4d6c9d667193`. Complete decode passed. The delivery receipt records exact MP4 acceptance and separate QA evidence and coverage.
+- English SRT matched all 32 cues and 288 words against the accepted edit's timed word map. The conform record is `Edit/Subtitles/SRT_CONFORM_no_frame_v01.json`. The English manual track is confirmed serving in YouTube. Independent playback of the separate track is unverified. Semantic grouping warnings are recorded in the MP4 delivery receipt.
+- [YouTube Short](https://www.youtube.com/shorts/t8xjY9jl96Y) `t8xjY9jl96Y` on Paper Detour `UCMVfdfaNxV3ZkI3_J3Eejzw` was verified Public and processed. Published 2026-11-05 at 18:15:07 Europe/Belgrade. Membership in `Real Stories & Discoveries` (`PLEIDCTZ8y2k8`) is verified. The metadata and upload receipts are linked in `Packaging/Metadata/YOUTUBE_RELEASE_NO_FRAME_V01.md`.
+- The approved `ANTENNAS ON TOP` cover, source SHA-256 `24e156b05c0ce28ac78f4a6195d8bac4ec01383a3cebc4c9a809c6659aaa3afa`, was saved in Paper Detour Studio and visually verified after reload. Publication is complete.
+- Storage `PARTIAL_TEXT_ARCHIVE`. All 5,130 episode media entries (9,662,036,505 logical bytes) were moved from the working episode to recoverable macOS Trash. The local release edit is retired. Former media paths identify the accepted inputs and renders. Text evidence and the exact recovery map are retained. See `Edit/MediaLifecycle/PUBLIC_046_CLEANUP_RECEIPT.json`.

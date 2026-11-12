@@ -1,0 +1,561 @@
+{
+  "schema": "ytv-render-v1",
+  "origin": "render",
+  "export_contract": {
+    "original": {
+      "path": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/EXPORT_REVIEW_v02.json",
+      "sha256": "4a4d836e1d5fb783bd510f405fdb38cefa7641a0659d596bd728db45c047b5d1"
+    },
+    "snapshot": {
+      "path": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/render_full_v02/render_provenance/export_contract.json",
+      "sha256": "4a4d836e1d5fb783bd510f405fdb38cefa7641a0659d596bd728db45c047b5d1"
+    }
+  },
+  "command": {
+    "original": {
+      "path": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/render_full_v02/render_command.json",
+      "sha256": "495cd05b24f76c58f97e87f052f7b652ab333e2e35890e57a99afdb4b9f9b1bd"
+    },
+    "snapshot": {
+      "path": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/render_full_v02/render_provenance/render_command.json",
+      "sha256": "495cd05b24f76c58f97e87f052f7b652ab333e2e35890e57a99afdb4b9f9b1bd"
+    }
+  },
+  "engine": [
+    {
+      "original": {
+        "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/montage.py",
+        "sha256": "24c1486c0e6302b93372a390da21b198d2c4567be79813acc5b5d12ad7c82023"
+      },
+      "snapshot": {
+        "path": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/render_full_v02/render_provenance/engine_0_montage.py",
+        "sha256": "24c1486c0e6302b93372a390da21b198d2c4567be79813acc5b5d12ad7c82023"
+      }
+    },
+    {
+      "original": {
+        "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/delivery.py",
+        "sha256": "218a0bbc2a70ac463d32ac2ca321bc090335f8abcaa386bafb1983bce12a3f6f"
+      },
+      "snapshot": {
+        "path": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/render_full_v02/render_provenance/engine_1_delivery.py",
+        "sha256": "218a0bbc2a70ac463d32ac2ca321bc090335f8abcaa386bafb1983bce12a3f6f"
+      }
+    },
+    {
+      "original": {
+        "path": "/Users/diplomat/ytvideos/.agents/skills/ytv-paper-subtitles/scripts/semantic_grouping.py",
+        "sha256": "046d92c9fecbd993cd2f0087357ae8354d6e17a0db801655cb57f1682aac9dcd"
+      },
+      "snapshot": {
+        "path": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/render_full_v02/render_provenance/engine_2_semantic_grouping.py",
+        "sha256": "046d92c9fecbd993cd2f0087357ae8354d6e17a0db801655cb57f1682aac9dcd"
+      }
+    }
+  ],
+  "prepared": {
+    "channel": "paper",
+    "format": "long",
+    "subtitle_mode": "words",
+    "audio": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/voice/mix_draft_v01.wav",
+    "canvas": [
+      2560,
+      1440
+    ],
+    "fps": 30,
+    "scenes": [
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S001_v01.png",
+        "start_frame": 0,
+        "end_frame": 155,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S002_v03.png",
+        "start_frame": 155,
+        "end_frame": 286,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S003_v01.png",
+        "start_frame": 286,
+        "end_frame": 466,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S004_v02.png",
+        "start_frame": 466,
+        "end_frame": 623,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S005_v02.png",
+        "start_frame": 623,
+        "end_frame": 755,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S006_v01.png",
+        "start_frame": 755,
+        "end_frame": 917,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S007_v01.png",
+        "start_frame": 917,
+        "end_frame": 1097,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S008_v01.png",
+        "start_frame": 1097,
+        "end_frame": 1237,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S009_v01.png",
+        "start_frame": 1237,
+        "end_frame": 1378,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S010_v02.png",
+        "start_frame": 1378,
+        "end_frame": 1553,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S011_v01.png",
+        "start_frame": 1553,
+        "end_frame": 1690,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S012_v01.png",
+        "start_frame": 1690,
+        "end_frame": 1811,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S013_v03.png",
+        "start_frame": 1811,
+        "end_frame": 1931,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S014_v03.png",
+        "start_frame": 1931,
+        "end_frame": 2051,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S015_v01.png",
+        "start_frame": 2051,
+        "end_frame": 2181,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S016_v01.png",
+        "start_frame": 2181,
+        "end_frame": 2301,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S017_v02.png",
+        "start_frame": 2301,
+        "end_frame": 2422,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S018_v02.png",
+        "start_frame": 2422,
+        "end_frame": 2548,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S019_v01.png",
+        "start_frame": 2548,
+        "end_frame": 2668,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S020_v02.png",
+        "start_frame": 2668,
+        "end_frame": 2788,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S021_v01.png",
+        "start_frame": 2788,
+        "end_frame": 2908,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S022_v01.png",
+        "start_frame": 2908,
+        "end_frame": 3038,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S023_v01.png",
+        "start_frame": 3038,
+        "end_frame": 3169,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S024_v02.png",
+        "start_frame": 3169,
+        "end_frame": 3349,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S025_v01.png",
+        "start_frame": 3349,
+        "end_frame": 3529,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S026_v01.png",
+        "start_frame": 3529,
+        "end_frame": 3658,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S027_v01.png",
+        "start_frame": 3658,
+        "end_frame": 3782,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S028_v02.png",
+        "start_frame": 3782,
+        "end_frame": 3931,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S029_v01.png",
+        "start_frame": 3931,
+        "end_frame": 4054,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S030_v02.png",
+        "start_frame": 4054,
+        "end_frame": 4195,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S031_v02.png",
+        "start_frame": 4195,
+        "end_frame": 4337,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S032_v02.png",
+        "start_frame": 4337,
+        "end_frame": 4482,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S033_v02.png",
+        "start_frame": 4482,
+        "end_frame": 4617,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S034_v04.png",
+        "start_frame": 4617,
+        "end_frame": 4764,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S035_v01.png",
+        "start_frame": 4764,
+        "end_frame": 4884,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S036_v01.png",
+        "start_frame": 4884,
+        "end_frame": 5004,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S037_v01.png",
+        "start_frame": 5004,
+        "end_frame": 5124,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S038_v02.png",
+        "start_frame": 5124,
+        "end_frame": 5244,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S039_v02.png",
+        "start_frame": 5244,
+        "end_frame": 5366,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S040_v02.png",
+        "start_frame": 5366,
+        "end_frame": 5495,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S041_v01.png",
+        "start_frame": 5495,
+        "end_frame": 5658,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S042_v01.png",
+        "start_frame": 5658,
+        "end_frame": 5815,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S043_v01.png",
+        "start_frame": 5815,
+        "end_frame": 5971,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S044_v02.png",
+        "start_frame": 5971,
+        "end_frame": 6107,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S045_v01.png",
+        "start_frame": 6107,
+        "end_frame": 6268,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S046_v04.png",
+        "start_frame": 6268,
+        "end_frame": 6393,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S047_v01.png",
+        "start_frame": 6393,
+        "end_frame": 6546,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S048_v01.png",
+        "start_frame": 6546,
+        "end_frame": 6698,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S049_v01.png",
+        "start_frame": 6698,
+        "end_frame": 6837,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S050_v01.png",
+        "start_frame": 6837,
+        "end_frame": 6973,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S051_v01.png",
+        "start_frame": 6973,
+        "end_frame": 7136,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S052_v01.png",
+        "start_frame": 7136,
+        "end_frame": 7256,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S053_v01.png",
+        "start_frame": 7256,
+        "end_frame": 7378,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S054_v04.png",
+        "start_frame": 7378,
+        "end_frame": 7503,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S055_v01.png",
+        "start_frame": 7503,
+        "end_frame": 7659,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S056_v01.png",
+        "start_frame": 7659,
+        "end_frame": 7816,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S057_v01.png",
+        "start_frame": 7816,
+        "end_frame": 7953,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S058_v01.png",
+        "start_frame": 7953,
+        "end_frame": 8091,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S059_v01.png",
+        "start_frame": 8091,
+        "end_frame": 8246,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S060_v01.png",
+        "start_frame": 8246,
+        "end_frame": 8406,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S061_v03.png",
+        "start_frame": 8406,
+        "end_frame": 8528,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S062_v01.png",
+        "start_frame": 8528,
+        "end_frame": 8706,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/FINAL_v01.png",
+        "start_frame": 8706,
+        "end_frame": 9006,
+        "direction": "none",
+        "zoom": "none"
+      }
+    ],
+    "frames": 9006,
+    "manifest_path": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/edit_review_v02.json",
+    "source_transfer": "srgb"
+  },
+  "audio_source": {
+    "codec_name": "pcm_s24le",
+    "sample_rate": "48000",
+    "channels": 2,
+    "duration": "300.200000",
+    "bit_rate": "2304000"
+  },
+  "settings": {
+    "scope": "pre-render settings only; no encoded-result or AV QA",
+    "timeline": {
+      "width": 2560,
+      "height": 1440,
+      "frame_count": 9006,
+      "sample_aspect_ratio": "1:1",
+      "aspect_ratio": "16:9",
+      "output_color_space": "Rec.709 SDR"
+    },
+    "video": {
+      "codec_name": "h264",
+      "pix_fmt": "yuv420p",
+      "scan": "progressive",
+      "cadence": "constant 30/1 fps",
+      "color_primaries": "bt709",
+      "color_transfer": "bt709",
+      "color_space": "bt709",
+      "color_range": "tv"
+    },
+    "audio": {
+      "codec_name": "aac",
+      "profile": "LC",
+      "channels": 2,
+      "sample_rate": 48000,
+      "mode": "aac",
+      "target_bit_rate": 256000
+    },
+    "requested_arguments": {
+      "encoder": "h264_videotoolbox",
+      "video_bitrate": 20000000,
+      "output_pix_fmt": "yuv420p",
+      "fps": "30/1",
+      "audio_codec": "aac",
+      "audio_profile": "aac_low",
+      "audio_bitrate": 256000,
+      "audio_sample_rate": 48000,
+      "audio_channels": 2
+    }
+  },
+  "ffmpeg_version": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+}

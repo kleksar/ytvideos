@@ -1,0 +1,58 @@
+{
+  "steps": [
+    {
+      "tool": "import_media",
+      "args": {
+        "source": {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Audio/paper_motion_cc0_20261030/book-page-02.wav"
+        },
+        "folder": "Accent audio CC0"
+      },
+      "status": "done",
+      "result": {
+        "mediaRef": "EF90746D",
+        "name": "book-page-02",
+        "status": "ready",
+        "type": "audio"
+      }
+    },
+    {
+      "tool": "add_clips",
+      "args": {
+        "entries": [
+          {
+            "mediaRef": "EF90746D",
+            "startFrame": 88,
+            "endFrame": 110
+          },
+          {
+            "mediaRef": "EF90746D",
+            "startFrame": 441,
+            "endFrame": 463
+          },
+          {
+            "mediaRef": "EF90746D",
+            "startFrame": 1041,
+            "endFrame": 1063
+          },
+          {
+            "mediaRef": "EF90746D",
+            "startFrame": 1357,
+            "endFrame": 1379
+          },
+          {
+            "mediaRef": "EF90746D",
+            "startFrame": 2231,
+            "endFrame": 2253
+          },
+          {
+            "mediaRef": "EF90746D",
+            "startFrame": 2264,
+            "endFrame": 2286
+          }
+        ]
+      },
+      "status": "pending"
+    }
+  ]
+}

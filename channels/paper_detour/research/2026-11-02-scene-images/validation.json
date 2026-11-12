@@ -1,0 +1,51 @@
+{
+  "links_checked": 242,
+  "broken_links": [],
+  "skills": [
+    {
+      "skill": "ytv-scene-images",
+      "exit_code": 0,
+      "result": "Skill is valid!",
+      "error": ""
+    },
+    {
+      "skill": "ytv-paper-images",
+      "exit_code": 0,
+      "result": "Skill is valid!",
+      "error": ""
+    },
+    {
+      "skill": "ytv-paper-production",
+      "exit_code": 0,
+      "result": "Skill is valid!",
+      "error": ""
+    },
+    {
+      "skill": "ytv-paper-storyboard",
+      "exit_code": 0,
+      "result": "Skill is valid!",
+      "error": ""
+    }
+  ],
+  "discovery": [
+    {
+      "entrypoint": ".",
+      "exists": true,
+      "canonical_matches": true
+    },
+    {
+      "entrypoint": "new_channel",
+      "exists": true,
+      "canonical_matches": true
+    },
+    {
+      "entrypoint": "new_channel/videos/033_time_stop",
+      "exists": true,
+      "canonical_matches": true
+    }
+  ],
+  "native_skills_list": "unavailable; filesystem only",
+  "independent_forward_test": "not performed; no delegated review or generated second-channel assets",
+  "final_report_plan_context_links_checked": 51,
+  "final_broken_links": []
+}

@@ -1,0 +1,41 @@
+{
+  "status": "READY_TO_RENDER",
+  "project_id": "25533909",
+  "timeline_id": "6545DD44",
+  "snapshot": {
+    "snapshot": {
+      "author": {
+        "kind": "agent"
+      },
+      "createdAt": "2026-11-02T12:53:33Z",
+      "name": "Full subtitles v01 before native export",
+      "snapshotId": "B9E9D8E0"
+    }
+  },
+  "target_read_sha256": "fb09253cb1683a1f407bcac577a7a3bd4ecffc2ebe6c201c3396ecb516ca771d",
+  "subtitle_overlay": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Assets/Generated/subtitles-full-v01/galveston_subtitles_alpha_v03.mov",
+  "subtitle_overlay_sha256": "731f4ed9b735ab18fca197f2219310fb489e58d4de07e793cab98db117dbbcc6",
+  "group_map_sha256": "555dd667b0cc42c7c10c4cc99db955952fb84375ac7eff12b3f03bbf6ad7bcc0",
+  "video": {
+    "width": 2560,
+    "height": 1440,
+    "fps": 30,
+    "frames": 17233,
+    "color": "bt709 limited",
+    "codec": "h264"
+  },
+  "audio": "Existing Odom voice 666A8A59 at1; replace native AAC with stream copy prior accepted AAC as in v04, no new audio",
+  "method": "native Palmier Match Timeline; remux existing accepted AAC and video stream copy",
+  "output": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Work/subtitles-final-v01/previews/032_galveston_native_subtitles_v01.mp4",
+  "args": {
+    "projectId": "25533909",
+    "timelineId": "6545DD44",
+    "mode": "video",
+    "codec": "H.264",
+    "resolution": "Match Timeline",
+    "outputPath": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Work/subtitles-final-v01/previews/032_galveston_native_subtitles_v01.mp4",
+    "overwrite": false
+  },
+  "authorization": "user explicitly requested full revision and private reupload",
+  "created_utc": "2026-11-02T12:53:34Z"
+}

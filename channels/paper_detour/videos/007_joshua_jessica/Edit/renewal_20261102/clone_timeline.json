@@ -1,0 +1,237 @@
+{
+  "canGenerate": false,
+  "durationSeconds": 44.8,
+  "fps": 30,
+  "height": 1920,
+  "maskOverlayVisible": false,
+  "name": "007 Joshua Jessica renewal 20261102",
+  "outputColorSpace": "rec709",
+  "timelineId": "439A285C",
+  "timelines": [
+    {
+      "name": "Timeline 1",
+      "timelineId": "88B3CABF",
+      "visible": true
+    },
+    {
+      "name": "007_joshua_jessica_screen_v07_20261101",
+      "timelineId": "92BD1E43"
+    },
+    {
+      "name": "007_joshua_jessica_full_frame_v02_20261101",
+      "timelineId": "820854CD"
+    },
+    {
+      "name": "007 Joshua Jessica renewal 20261102",
+      "timelineId": "439A285C"
+    }
+  ],
+  "totalFrames": 1344,
+  "tracks": [
+    {
+      "clips": [
+        {
+          "frames": [
+            0,
+            90
+          ],
+          "id": "298793E3",
+          "mediaRef": "0C4E9564",
+          "mediaType": "image",
+          "trimEndFrame": 60
+        },
+        {
+          "frames": [
+            90,
+            183
+          ],
+          "id": "06D9C35C",
+          "mediaRef": "0369E1B8",
+          "mediaType": "image",
+          "trimEndFrame": 57
+        },
+        {
+          "frames": [
+            183,
+            273
+          ],
+          "id": "24C375F5",
+          "mediaRef": "686F6915",
+          "mediaType": "image",
+          "trimEndFrame": 60
+        },
+        {
+          "frames": [
+            273,
+            366
+          ],
+          "id": "F698E132",
+          "mediaRef": "D2833C12",
+          "mediaType": "image",
+          "trimEndFrame": 57
+        },
+        {
+          "frames": [
+            366,
+            456
+          ],
+          "id": "96DEB671",
+          "mediaRef": "7D83D2D5",
+          "mediaType": "image",
+          "trimEndFrame": 60
+        },
+        {
+          "frames": [
+            456,
+            546
+          ],
+          "id": "6FF37691",
+          "mediaRef": "0CC05F76",
+          "mediaType": "image",
+          "trimEndFrame": 60
+        },
+        {
+          "frames": [
+            546,
+            636
+          ],
+          "id": "FE7FE0A9",
+          "mediaRef": "B12D07DC",
+          "mediaType": "image",
+          "trimEndFrame": 60
+        },
+        {
+          "frames": [
+            636,
+            726
+          ],
+          "id": "290B2FDA",
+          "mediaRef": "30DCE702",
+          "mediaType": "image",
+          "trimEndFrame": 60
+        },
+        {
+          "frames": [
+            726,
+            816
+          ],
+          "id": "FF12329C",
+          "mediaRef": "E24258E6",
+          "mediaType": "image",
+          "trimEndFrame": 60
+        },
+        {
+          "frames": [
+            816,
+            906
+          ],
+          "id": "66B89071",
+          "mediaRef": "E67FBD22",
+          "mediaType": "image",
+          "trimEndFrame": 60
+        },
+        {
+          "frames": [
+            906,
+            1028
+          ],
+          "id": "FBA1216B",
+          "mediaRef": "2B9B456C",
+          "mediaType": "image",
+          "trimEndFrame": 28
+        },
+        {
+          "frames": [
+            1028,
+            1164
+          ],
+          "id": "6A1BA50F",
+          "mediaRef": "FDE9E027",
+          "mediaType": "image",
+          "trimEndFrame": 14
+        },
+        {
+          "frames": [
+            1164,
+            1254
+          ],
+          "id": "F7FD9B0A",
+          "mediaRef": "97E8A49E",
+          "mediaType": "image",
+          "trimEndFrame": 60
+        },
+        {
+          "frames": [
+            1254,
+            1344
+          ],
+          "id": "BA95376E",
+          "mediaRef": "0C4E9564",
+          "mediaType": "image",
+          "trimEndFrame": 60
+        }
+      ],
+      "index": 0,
+      "label": "V1",
+      "name": "Main",
+      "trackId": "C50543F4",
+      "type": "video"
+    },
+    {
+      "clips": [
+        {
+          "frames": [
+            0,
+            1344
+          ],
+          "id": "A5038604",
+          "mediaRef": "DE29AF9A",
+          "mediaType": "audio"
+        }
+      ],
+      "index": 1,
+      "label": "A1",
+      "name": "Narration",
+      "trackId": "8FB58DB1",
+      "type": "audio"
+    },
+    {
+      "clips": [
+        {
+          "frames": [
+            1025,
+            1046
+          ],
+          "id": "ED3CE3AB",
+          "keyframes": {
+            "volumeDb": [
+              [
+                0,
+                -24,
+                "hold"
+              ],
+              [
+                18,
+                -24,
+                "linear"
+              ],
+              [
+                21,
+                -60,
+                "linear"
+              ]
+            ]
+          },
+          "mediaRef": "E51F6CE0",
+          "mediaType": "audio"
+        }
+      ],
+      "index": 2,
+      "label": "A2",
+      "name": "SFX",
+      "trackId": "DB5D9C4A",
+      "type": "audio"
+    }
+  ],
+  "width": 1080
+}

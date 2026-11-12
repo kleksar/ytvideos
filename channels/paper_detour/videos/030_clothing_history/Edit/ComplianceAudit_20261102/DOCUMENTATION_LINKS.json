@@ -1,0 +1,169 @@
+{
+  "skills": [
+    {
+      "name": "ytv-media-lifecycle",
+      "file": "/Users/diplomat/ytvideos/.agents/skills/ytv-media-lifecycle/SKILL.md",
+      "listed": true
+    },
+    {
+      "name": "ytv-palmier-edit",
+      "file": "/Users/diplomat/ytvideos/.agents/skills/ytv-palmier-edit/SKILL.md",
+      "listed": true
+    },
+    {
+      "name": "ytv-youtube-hashtags",
+      "file": "/Users/diplomat/ytvideos/.agents/skills/ytv-youtube-hashtags/SKILL.md",
+      "listed": true
+    },
+    {
+      "name": "ytv-srt",
+      "file": "/Users/diplomat/ytvideos/.agents/skills/ytv-srt/SKILL.md",
+      "listed": true
+    },
+    {
+      "name": "ytv-audio-delivery",
+      "file": "/Users/diplomat/ytvideos/.agents/skills/ytv-audio-delivery/SKILL.md",
+      "listed": true
+    },
+    {
+      "name": "ytv-video-packaging",
+      "file": "/Users/diplomat/ytvideos/.agents/skills/ytv-video-packaging/SKILL.md",
+      "listed": true
+    },
+    {
+      "name": "ytv-paper-storyboard",
+      "file": "/Users/diplomat/ytvideos/.agents/skills/ytv-paper-storyboard/SKILL.md",
+      "listed": true
+    },
+    {
+      "name": "ytv-youtube-analytics",
+      "file": "/Users/diplomat/ytvideos/.agents/skills/ytv-youtube-analytics/SKILL.md",
+      "listed": true
+    },
+    {
+      "name": "ytv-paper-descriptions",
+      "file": "/Users/diplomat/ytvideos/.agents/skills/ytv-paper-descriptions/SKILL.md",
+      "listed": false
+    },
+    {
+      "name": "ytv-paper-captions",
+      "file": "/Users/diplomat/ytvideos/.agents/skills/ytv-paper-captions/SKILL.md",
+      "listed": true
+    },
+    {
+      "name": "ytv-youtube-descriptions",
+      "file": "/Users/diplomat/ytvideos/.agents/skills/ytv-youtube-descriptions/SKILL.md",
+      "listed": true
+    },
+    {
+      "name": "ytv-youtube-thumbnails",
+      "file": "/Users/diplomat/ytvideos/.agents/skills/ytv-youtube-thumbnails/SKILL.md",
+      "listed": true
+    },
+    {
+      "name": "ytv-scene-images",
+      "file": "/Users/diplomat/ytvideos/.agents/skills/ytv-scene-images/SKILL.md",
+      "listed": true
+    },
+    {
+      "name": "ytv-video-qa",
+      "file": "/Users/diplomat/ytvideos/.agents/skills/ytv-video-qa/SKILL.md",
+      "listed": true
+    },
+    {
+      "name": "ytv-chatgpt-extra-high",
+      "file": "/Users/diplomat/ytvideos/.agents/skills/ytv-chatgpt-extra-high/SKILL.md",
+      "listed": true
+    },
+    {
+      "name": "ytv-stories-shorts",
+      "file": "/Users/diplomat/ytvideos/.agents/skills/ytv-stories-shorts/SKILL.md",
+      "listed": true
+    },
+    {
+      "name": "ytv-paper-thumbnails",
+      "file": "/Users/diplomat/ytvideos/.agents/skills/ytv-paper-thumbnails/SKILL.md",
+      "listed": false
+    },
+    {
+      "name": "ytv-youtube-chapters",
+      "file": "/Users/diplomat/ytvideos/.agents/skills/ytv-youtube-chapters/SKILL.md",
+      "listed": true
+    },
+    {
+      "name": "ytv-youtube-release",
+      "file": "/Users/diplomat/ytvideos/.agents/skills/ytv-youtube-release/SKILL.md",
+      "listed": true
+    },
+    {
+      "name": "ytv-video-export",
+      "file": "/Users/diplomat/ytvideos/.agents/skills/ytv-video-export/SKILL.md",
+      "listed": true
+    },
+    {
+      "name": "ytv-youtube-ab-testing",
+      "file": "/Users/diplomat/ytvideos/.agents/skills/ytv-youtube-ab-testing/SKILL.md",
+      "listed": true
+    },
+    {
+      "name": "ytv-youtube-video-titles",
+      "file": "/Users/diplomat/ytvideos/.agents/skills/ytv-youtube-video-titles/SKILL.md",
+      "listed": true
+    },
+    {
+      "name": "ytv-paper-production",
+      "file": "/Users/diplomat/ytvideos/.agents/skills/ytv-paper-production/SKILL.md",
+      "listed": true
+    },
+    {
+      "name": "ytv-paper-video-titles",
+      "file": "/Users/diplomat/ytvideos/.agents/skills/ytv-paper-video-titles/SKILL.md",
+      "listed": true
+    },
+    {
+      "name": "ytv-image-motion",
+      "file": "/Users/diplomat/ytvideos/.agents/skills/ytv-image-motion/SKILL.md",
+      "listed": true
+    },
+    {
+      "name": "ytv-youtube-playlists",
+      "file": "/Users/diplomat/ytvideos/.agents/skills/ytv-youtube-playlists/SKILL.md",
+      "listed": true
+    },
+    {
+      "name": "ytv-paper-images",
+      "file": "/Users/diplomat/ytvideos/.agents/skills/ytv-paper-images/SKILL.md",
+      "listed": true
+    },
+    {
+      "name": "ytv-history-story",
+      "file": "/Users/diplomat/ytvideos/.agents/skills/ytv-history-story/SKILL.md",
+      "listed": true
+    }
+  ],
+  "entrypoints": [
+    {
+      "entry": ".",
+      "canonical": "/Users/diplomat/ytvideos/.agents/skills",
+      "matches": true
+    },
+    {
+      "entry": "new_channel",
+      "canonical": "/Users/diplomat/ytvideos/.agents/skills",
+      "matches": true
+    },
+    {
+      "entry": "channels/paper_detour/videos",
+      "canonical": "/Users/diplomat/ytvideos/.agents/skills",
+      "matches": true
+    },
+    {
+      "entry": "channels/paper_detour/videos/030_clothing_history",
+      "canonical": "/Users/diplomat/ytvideos/.agents/skills",
+      "matches": true
+    }
+  ],
+  "broken_local_links": [],
+  "files_checked": 63,
+  "scope": "root/channel/bootstrap/map/catalog and all canonical project skill Markdown files; anchors/URLs not verified"
+}

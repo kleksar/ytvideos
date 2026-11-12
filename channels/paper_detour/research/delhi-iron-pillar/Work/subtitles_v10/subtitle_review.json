@@ -1,0 +1,25 @@
+{
+  "subtitle_contract_sha256": "0771f32dec467bba8dd38617caa636ea5a518a20ed0836d33e279631108f47a5",
+  "checks": {
+    "semantic_grouping": {
+      "status": "PASS",
+      "reviewer": "Codex",
+      "method": "manual inspection and renderer geometry validation",
+      "coverage": "all phrase groups and exact accepted transcript; forced boundary explicitly approved",
+      "evidence": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/delhi-iron-pillar/Work/subtitle_review_evidence.md",
+        "sha256": "17d6b438758051cd219374611fec02fdc3fc4748f02d208cbcba2292b015f7d3"
+      }
+    },
+    "visual_placement": {
+      "status": "PASS",
+      "reviewer": "Codex",
+      "method": "manual inspection and renderer geometry validation",
+      "coverage": "seven scene midpoint composites; full geometry checked by renderer",
+      "evidence": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/delhi-iron-pillar/Work/subtitle_review_evidence.md",
+        "sha256": "17d6b438758051cd219374611fec02fdc3fc4748f02d208cbcba2292b015f7d3"
+      }
+    }
+  }
+}

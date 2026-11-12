@@ -1,0 +1,87 @@
+{
+  "source_words": 2071,
+  "source_text_exactly_preserved": true,
+  "cues": 206,
+  "asr_mismatch_spans": 16,
+  "zero_length_words_merged_into_adjacent_phrase": [
+    {
+      "word": "and",
+      "asr_time": 515.84,
+      "merged_with": "ash, and"
+    },
+    {
+      "word": "century,",
+      "asr_time": 780.16,
+      "merged_with": "nineteenth century,"
+    }
+  ],
+  "waveform_cue_adjustments": [
+    {
+      "cue": 24,
+      "boundary": "end",
+      "expected": "slavery.",
+      "new": 106.5,
+      "reason": "voice tail remains measurable after 106.28; silence follows",
+      "old": 106.28
+    },
+    {
+      "cue": 25,
+      "boundary": "start",
+      "expected": "Pompeii",
+      "new": 106.88,
+      "reason": "CPU boundary; new voice onset after a silent gap",
+      "old": 106.28
+    },
+    {
+      "cue": 61,
+      "boundary": "end",
+      "expected": "cross.",
+      "new": 269.94,
+      "reason": "voice tail remains measurable after 269.72; silence follows",
+      "old": 269.72
+    },
+    {
+      "cue": 62,
+      "boundary": "start",
+      "expected": "What",
+      "new": 270.24,
+      "reason": "CPU boundary; new voice onset after a silent gap",
+      "old": 269.72
+    },
+    {
+      "cue": 67,
+      "boundary": "end",
+      "expected": "structure.",
+      "new": 295.88,
+      "reason": "voice tail remains measurable after 295.66; silence follows",
+      "old": 295.66
+    },
+    {
+      "cue": 68,
+      "boundary": "start",
+      "expected": "In",
+      "new": 296.26,
+      "reason": "CPU boundary; new voice onset after a silent gap",
+      "old": 295.66
+    },
+    {
+      "cue": 102,
+      "boundary": "start",
+      "expected": "It",
+      "new": 446.48,
+      "reason": "both ASR starts in digital silence; energy onset about 446.53",
+      "old": 445.98
+    },
+    {
+      "cue": 166,
+      "boundary": "start",
+      "expected": "Life",
+      "new": 715.72,
+      "reason": "CPU boundary; energy onset about 715.81",
+      "old": 715.46
+    }
+  ],
+  "cue_overlaps": 0,
+  "method": "Approved text is matched to Whisper ASR. Each disagreement uses the measured ASR span of the entire replacement, not invented per-word boundaries. Zero-duration ASR words were joined to adjacent groups. Eight cue boundaries were adjusted using CPU/MPS comparison and voice-source RMS/silence, as listed. Timing still needs listening review; waveform alone cannot identify spoken words.",
+  "audio_review": "Not performed by this script. Especially check towns/town and turned/turn, names, and replacement spans."
+}

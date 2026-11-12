@@ -1,0 +1,165 @@
+{
+  "version": "v01",
+  "status": "machine-checked",
+  "mp4_sha256": "140c22bef3c309fbabd7452fa650eb9fddec4e5a06fb3a921d7145fb0a406a25",
+  "coverage": "All 10 chapter starts. All non-zero boundaries rounded down to the nearest second to include the start of the next phrase.",
+  "method": "Exact MP4 decoded frames and conformed speech word map. Subjective continuous playback was not part of this chapter check.",
+  "boundaries": [
+    {
+      "chapter": "00:00 A deal for Louisiana",
+      "word_onset": 0.0,
+      "preceding_words": "",
+      "next_words": "In 1803, two American negotiators were in France hoping to buy a city. They",
+      "samples": {
+        "after": {
+          "time": 0.25,
+          "file": "00-after.jpg"
+        }
+      }
+    },
+    {
+      "chapter": "00:41 Where the United States began",
+      "word_onset": 41.963636,
+      "preceding_words": "been asked whether it was France's to sell.",
+      "next_words": "The United States had begun as thirteen British colonies along the Atlantic. After years",
+      "samples": {
+        "before": {
+          "time": 41.784,
+          "file": "01-before.jpg"
+        },
+        "after": {
+          "time": 42.214,
+          "file": "01-after.jpg"
+        }
+      }
+    },
+    {
+      "chapter": "01:19 Why France sold Louisiana",
+      "word_onset": 79.054545,
+      "preceding_words": "outlet at New Orleans lay outside its borders.",
+      "next_words": "Napoleon had wanted Louisiana as part of a revived French empire in the Americas.",
+      "samples": {
+        "before": {
+          "time": 78.875,
+          "file": "02-before.jpg"
+        },
+        "after": {
+          "time": 79.305,
+          "file": "02-after.jpg"
+        }
+      }
+    },
+    {
+      "chapter": "01:43 The Senate and the Missouri Compromise",
+      "word_onset": 103.636364,
+      "preceding_words": "still had their own governments, communities and lands.",
+      "next_words": "As settlers moved west, new states could apply to join the Union. Each state,",
+      "samples": {
+        "before": {
+          "time": 103.456,
+          "file": "03-before.jpg"
+        },
+        "after": {
+          "time": 103.886,
+          "file": "03-after.jpg"
+        }
+      }
+    },
+    {
+      "chapter": "02:18 Cherokee removal and the Trail of Tears",
+      "word_onset": 138.618182,
+      "preceding_words": "The compromise kept the balance for a time.",
+      "next_words": "Meanwhile, the government was opening land to settlers in places already inside the nation's",
+      "samples": {
+        "before": {
+          "time": 138.438,
+          "file": "04-before.jpg"
+        },
+        "after": {
+          "time": 138.868,
+          "file": "04-after.jpg"
+        }
+      }
+    },
+    {
+      "chapter": "02:43 From Texas to the Pacific",
+      "word_onset": 163.854545,
+      "preceding_words": "people who could remain on that land did.",
+      "next_words": "Then the external borders began to move again. Texas broke away from Mexico in",
+      "samples": {
+        "before": {
+          "time": 163.675,
+          "file": "05-before.jpg"
+        },
+        "after": {
+          "time": 164.105,
+          "file": "05-after.jpg"
+        }
+      }
+    },
+    {
+      "chapter": "03:31 The fight over slavery spreads",
+      "word_onset": 211.709091,
+      "preceding_words": "ran through lands where Indigenous nations still lived.",
+      "next_words": "The new territory made the old fight urgent again. Congress admitted California as a",
+      "samples": {
+        "before": {
+          "time": 211.529,
+          "file": "06-before.jpg"
+        },
+        "after": {
+          "time": 211.959,
+          "file": "06-after.jpg"
+        }
+      }
+    },
+    {
+      "chapter": "04:29 Secession and Fort Sumter",
+      "word_onset": 269.115455,
+      "preceding_words": "now under attack from both lawmakers and judges.",
+      "next_words": "In 1860, Abraham Lincoln won the presidency on a platform that opposed the spread",
+      "samples": {
+        "before": {
+          "time": 268.935,
+          "file": "07-before.jpg"
+        },
+        "after": {
+          "time": 269.365,
+          "file": "07-after.jpg"
+        }
+      }
+    },
+    {
+      "chapter": "05:02 The Civil War and emancipation",
+      "word_onset": 302.618182,
+      "preceding_words": "whether it would remain one country at all.",
+      "next_words": "The Union went to war to keep the country together. Enslaved people forced the",
+      "samples": {
+        "before": {
+          "time": 302.438,
+          "file": "08-before.jpg"
+        },
+        "after": {
+          "time": 302.868,
+          "file": "08-after.jpg"
+        }
+      }
+    },
+    {
+      "chapter": "06:25 From reunion to fifty states",
+      "word_onset": 385.163636,
+      "preceding_words": "an exception for punishment after a criminal conviction.",
+      "next_words": "The Union had survived. The map kept changing. The United States bought Alaska from",
+      "samples": {
+        "before": {
+          "time": 384.984,
+          "file": "09-before.jpg"
+        },
+        "after": {
+          "time": 385.414,
+          "file": "09-after.jpg"
+        }
+      }
+    }
+  ]
+}

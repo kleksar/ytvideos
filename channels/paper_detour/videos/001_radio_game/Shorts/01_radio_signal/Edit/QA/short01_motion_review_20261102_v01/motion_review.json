@@ -1,0 +1,266 @@
+{
+  "version": 1,
+  "run": "short01_motion_review_20261102_v01",
+  "candidate": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Shorts/01_radio_signal/Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+  "candidate_sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4",
+  "timeline_id": "7178D5B6",
+  "snapshot": "984B7540",
+  "result": "TARGETED_PASS",
+  "author": "/root (self-review)",
+  "method": {
+    "stream": "Final candidate MP4, decoded with ffmpeg; all samples are actual output frames.",
+    "base_samples": "65 frames at 15-frame / 0.5-second intervals across all six scenes, including scene starts and last visible frames.",
+    "quartile_samples": "30 exact frames: start, 25%, midpoint, 75%, and final visible frame for each scene.",
+    "camera_plan": "Each baked scene cache has a two-key linear camera path; position and scale extrema therefore occur at scene endpoints. Depth parallax is non-uniform and was checked in the actual final output at the sampled intermediate frames.",
+    "direction_check": "Observed zoom-in in S01/S03/S05, zoom-out in S06, and horizontal image drift in S02/S04. In S02/S04, local phase-correlation on four separate image patches produced consistent horizontal alignment shifts across all four regions; image movement direction is reported as the inverse alignment shift, not inferred from parameter signs."
+  },
+  "inspected_frame_indices": [
+    0,
+    15,
+    30,
+    37,
+    45,
+    60,
+    74,
+    75,
+    90,
+    105,
+    112,
+    120,
+    135,
+    149,
+    150,
+    165,
+    180,
+    187,
+    195,
+    210,
+    224,
+    225,
+    240,
+    255,
+    262,
+    270,
+    285,
+    299,
+    300,
+    315,
+    330,
+    345,
+    360,
+    375,
+    390,
+    405,
+    420,
+    434,
+    435,
+    450,
+    465,
+    479,
+    480,
+    495,
+    510,
+    514,
+    525,
+    540,
+    547,
+    555,
+    570,
+    580,
+    585,
+    600,
+    614,
+    615,
+    630,
+    645,
+    649,
+    660,
+    675,
+    682,
+    690,
+    705,
+    715,
+    720,
+    735,
+    749,
+    750,
+    765,
+    780,
+    784,
+    795,
+    810,
+    817,
+    825,
+    840,
+    850,
+    855,
+    870,
+    884
+  ],
+  "scene_mapping": [
+    {
+      "scene": "S01",
+      "interval": [
+        0,
+        150
+      ],
+      "mediaRef": "BEDC21DF",
+      "cache_sha256": "0de3b082a733380c74d403c9561c016bf6db701c35cdd570f3789635de22e01d",
+      "visible_motion": "slow zoom-in"
+    },
+    {
+      "scene": "S02",
+      "interval": [
+        150,
+        300
+      ],
+      "mediaRef": "178CDDF3",
+      "cache_sha256": "71359fbe992e78e1efd3e025104f9cea7b549d1e20ac131fbbeea94494f38d74",
+      "visible_motion": "horizontal image drift"
+    },
+    {
+      "scene": "S03",
+      "interval": [
+        300,
+        480
+      ],
+      "mediaRef": "3DE13D28",
+      "cache_sha256": "928cd390fb61b5d0dbffc6a758ce78ca35dbf51e43b7194b45944b0de788834c",
+      "visible_motion": "slow zoom-in"
+    },
+    {
+      "scene": "S04",
+      "interval": [
+        480,
+        615
+      ],
+      "mediaRef": "7F1CD0F5",
+      "cache_sha256": "ff58a8210a177513ba135c6820e916bb5d974bf7f12b9f551e15e67c6333300f",
+      "visible_motion": "horizontal image drift"
+    },
+    {
+      "scene": "S05",
+      "interval": [
+        615,
+        750
+      ],
+      "mediaRef": "B3DDA648",
+      "cache_sha256": "6912e99f5cb393f7a28c77f99f1741c762832de4d2b0db82e4eb3a336f5d05a3",
+      "visible_motion": "slow zoom-in"
+    },
+    {
+      "scene": "S06",
+      "interval": [
+        750,
+        885
+      ],
+      "mediaRef": "83562F1C",
+      "cache_sha256": "24681f945e79df47fee829145e0fdbe5672097ac7631a6b55a82d2980557e7fa",
+      "visible_motion": "slow zoom-out"
+    }
+  ],
+  "observations": [
+    "No black/empty border, unintended edge reveal, visible depth tear, face/hand warp, or jitter was observed in the sampled frames.",
+    "Camera movement is visible in every scene with the directions listed above.",
+    "Subtitles remain fixed in screen space and within the visible frame; semantic accents remain separated from subtitles in the sampled motion positions.",
+    "This is targeted frame coverage and not a claim that all 885 frames were inspected."
+  ],
+  "limitations": [
+    "The 0.5-second sample and quartile frames do not constitute frame-by-frame inspection; a very brief artifact between samples could remain.",
+    "This is author self-review, not independent review.",
+    "Cue-to-speech synchronization and subjective audio listening remain UNVERIFIED."
+  ],
+  "evidence": [
+    "Work/short01_motion_review_20261102_v01/motion_sample_plan.json",
+    "Work/short01_motion_review_20261102_v01/previews/motion_scene_01.jpg",
+    "Work/short01_motion_review_20261102_v01/previews/motion_scene_02.jpg",
+    "Work/short01_motion_review_20261102_v01/previews/motion_scene_03.jpg",
+    "Work/short01_motion_review_20261102_v01/previews/motion_scene_04.jpg",
+    "Work/short01_motion_review_20261102_v01/previews/motion_scene_05.jpg",
+    "Work/short01_motion_review_20261102_v01/previews/motion_scene_06.jpg",
+    "Work/short01_motion_review_20261102_v01/previews/exact5/S01_exact5.jpg",
+    "Work/short01_motion_review_20261102_v01/previews/exact5/S02_exact5.jpg",
+    "Work/short01_motion_review_20261102_v01/previews/exact5/S03_exact5.jpg",
+    "Work/short01_motion_review_20261102_v01/previews/exact5/S04_exact5.jpg",
+    "Work/short01_motion_review_20261102_v01/previews/exact5/S05_exact5.jpg",
+    "Work/short01_motion_review_20261102_v01/previews/exact5/S06_exact5.jpg",
+    "Shared/Image_Motion/Cache/finished/<six scene cache receipts>",
+    "Edit/QA/short01_motion_review_20261102_v01/motion_sample_plan.json"
+  ],
+  "direction_evidence": {
+    "estimator": "FFT phase correlation on four separate 220x240 patches of exact candidate frames, comparing each scene start with its final visible frame, after resizing both frames to 540x960. Reported shifts below are the translation applied to the later frame to align it with the first; visible content displacement has the opposite sign.",
+    "S02_alignment_offsets_px": [
+      [
+        -49,
+        0
+      ],
+      [
+        -24,
+        0
+      ],
+      [
+        -51,
+        -3
+      ],
+      [
+        -59,
+        0
+      ]
+    ],
+    "S02_visible_content_motion_px_approx": [
+      [
+        49,
+        0
+      ],
+      [
+        24,
+        0
+      ],
+      [
+        51,
+        3
+      ],
+      [
+        59,
+        0
+      ]
+    ],
+    "S04_alignment_offsets_px": [
+      [
+        37,
+        0
+      ],
+      [
+        37,
+        0
+      ],
+      [
+        42,
+        0
+      ],
+      [
+        38,
+        0
+      ]
+    ],
+    "S04_visible_content_motion_px_approx": [
+      [
+        -37,
+        0
+      ],
+      [
+        -37,
+        0
+      ],
+      [
+        -42,
+        0
+      ],
+      [
+        -38,
+        0
+      ]
+    ],
+    "interpretation": "S02 shifts visibly right and S04 visibly left across all four patches. These pixel shifts are diagnostics at the 540x960 analysis size, not a universal threshold. Other scenes are zoom paths; their direction was checked visually and against cached start/end scale trajectories."
+  }
+}

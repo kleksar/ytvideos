@@ -1,0 +1,82 @@
+{
+  "date": "2026-11-02",
+  "status": "AUTHOR_STATIC_REVIEW_COMPLETE_USER_REVIEW_PENDING",
+  "reviewer": "author; not independent",
+  "reviewed_assets": [
+    {
+      "id": "S01",
+      "proof": "proofs/S01.png",
+      "proof_sha256": "6f55586dc6d21c3f7554060dfea387f64b4e4971b7153daef85568bf93c4f795",
+      "phone": "phone/S01_390.png",
+      "phone_sha256": "53b585d0070eb78ef4a9fc3971e301752ada6f562c330788815212e5e62d6ae7"
+    },
+    {
+      "id": "S02",
+      "proof": "proofs/S02.png",
+      "proof_sha256": "6b385673e9b27eb9f80c39616f2e5f71d9148c75b4d2e2519a4fe77f401eac49",
+      "phone": "phone/S02_390.png",
+      "phone_sha256": "2d7fd120c1352341dc696cb00459cd83c870e36c9b1f69be1fe2b314f4cfdc52"
+    },
+    {
+      "id": "S03",
+      "proof": "proofs/S03.png",
+      "proof_sha256": "4fa7bd3e141b93a5532b3416915aa43c3bf74609086d1b2d52e825c34f20338d",
+      "phone": "phone/S03_390.png",
+      "phone_sha256": "c73cd12d9e937e3231842e7b222ecedfad0307930ac6d0dbf83fb5351cc066da"
+    },
+    {
+      "id": "S01_wrap_probe",
+      "proof": "proofs/S01_wrap_probe.png",
+      "proof_sha256": "2d439f3f350efd028f6a3e036748a04bb308a92e4603b0fd74ec5e84c73d2851",
+      "phone": "phone/S01_wrap_probe_390.png",
+      "phone_sha256": "f39555a4ef6c54ddacd774ce107680cc58b391099381f65f2bef8c928d3623b2"
+    }
+  ],
+  "phone_comparison_sha256": "b158728e332f53a42da9eb8608cddf7253500805e40a0f8c50d8a98c73d720ae",
+  "visual_coverage": {
+    "full_frames": [
+      "S01",
+      "S02",
+      "S03",
+      "S01_wrap_probe"
+    ],
+    "full_frame_size": [
+      1672,
+      941
+    ],
+    "phone_proxy_size": [
+      390,
+      219
+    ],
+    "method": "view_image: all four complete final composites and the 1:1 phone comparison sheet"
+  },
+  "observations": [
+    "All sample strings read correctly in full-frame previews; subtitle words and line breaks remain distinguishable in 390px-width proxies.",
+    "Small place/date and theme labels are secondary; increased place/date font from 40 to 48 native px after first review.",
+    "S01 face and hair clear; S02 traveler including boots clear; S03 mill, baker, oven and bread clear. S01 subtitle intentionally overlaps jacket.",
+    "Two-line probe uses an explicit semantic line break and the same fixed bottom edge; no clipped glyphs seen."
+  ],
+  "automated_checks": {
+    "render_repeat_byte_identical": true,
+    "checked_generated_files": 22,
+    "source_hashes_unchanged": true,
+    "pixels_outside_layers_exactly_equal_source": true,
+    "rgba_layers": 12,
+    "protected_rois_clear": true,
+    "safe_margins": true,
+    "text_groups_do_not_overlap": true
+  },
+  "limits": [
+    "Static image proxy only, no physical phone or YouTube player test.",
+    "No independent review, timed readability/speech sync, motion, audio, video export, 9:16 or historical acceptance.",
+    "Accepted style B remains the user reference; this precise font/size implementation is presented for review."
+  ],
+  "user_decision": {
+    "accepted": "S01 typography",
+    "rejected": [
+      "S02 horizontal shift",
+      "two-line wrap"
+    ],
+    "current": "../fieldnotes_kit_v02/README.md"
+  }
+}

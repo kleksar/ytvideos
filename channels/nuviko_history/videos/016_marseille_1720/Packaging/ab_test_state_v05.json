@@ -1,0 +1,52 @@
+{
+  "version": "v05",
+  "video_id": "lBRlnobdTvQ",
+  "channel_id": "UCbyLx6Rf3iWww4bPZJ2oo2A",
+  "state": "active",
+  "configured_in_studio": true,
+  "active": true,
+  "outcome": "pending",
+  "native_test_type": "title_thumbnail_pair",
+  "native_variant_order": [
+    "B",
+    "A",
+    "C"
+  ],
+  "variants": [
+    {
+      "id": "B",
+      "title": "Marseille 1720: Life Inside a City Cut Off by Plague",
+      "thumbnail": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/016_marseille_1720/Packaging/ab_package_v05/Thumbnails/B_city_cut_off.png",
+      "thumbnail_sha256": "24cd9547dd5ca71de42189984a7a7f83429b00b45bedefffe1f07ff49a95d97d"
+    },
+    {
+      "id": "A",
+      "title": "They Brought the Cargo Ashore. Plague Followed.",
+      "thumbnail": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/016_marseille_1720/Packaging/ab_package_v05/Thumbnails/A_cargo_decision.png",
+      "thumbnail_sha256": "283b16487c22aee0ff758164261c29c0d5531ff18790ff719c41d1863ed53677"
+    },
+    {
+      "id": "C",
+      "title": "His Ship Burned. Why Was the Captain Set Free?",
+      "thumbnail": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/016_marseille_1720/Packaging/ab_package_v05/Thumbnails/C_captain_prison.png",
+      "thumbnail_sha256": "80bb52f4a36c85e13e8bdbe8371a3a21c96ff0b23f3e1372da0ad5baca5a2358"
+    }
+  ],
+  "primary_metric": "Native platform watch-time criterion; no test observations or winner yet.",
+  "window": "Platform-managed; up to two weeks once eligible and running. No monitoring automation created.",
+  "privacy": "public",
+  "processing_status": "succeeded",
+  "default_variant": "B",
+  "fixed_description": "Packaging/ab_package_v05/description_B.txt",
+  "description_state": "API readback and fresh Studio confirmed; 14 accepted hashtags and chapter block preserved.",
+  "blocker": null,
+  "public_authorized": true,
+  "evidence": [
+    "Packaging/ab_package_v05/studio_saved_state.txt",
+    "Packaging/ab_package_v05/studio_saved_description_and_blocker.jpg",
+    "Packaging/ab_package_v05/description_api_receipt.json"
+  ],
+  "source": "YouTube Studio: Тестирование… for titles and thumbnails; API public/processing succeeded",
+  "checked_at_utc": "2026-11-03T17:58:04.472056+00:00",
+  "next_action": "User review of new packaging; Public only on separate explicit instruction, then inspect native test eligibility/status."
+}

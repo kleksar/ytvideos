@@ -1,0 +1,115 @@
+{
+  "canGenerate": false,
+  "currentFrame": 0,
+  "durationSeconds": 40.9,
+  "fps": 30,
+  "height": 1920,
+  "maskOverlayVisible": false,
+  "name": "Timeline 1",
+  "outputColorSpace": "rec709",
+  "timelineId": "81B14597",
+  "totalFrames": 1227,
+  "tracks": [
+    {
+      "clips": [
+        {
+          "frames": [
+            0,
+            159
+          ],
+          "id": "FCAB805C",
+          "mediaRef": "B0BD4445",
+          "mediaType": "image"
+        },
+        {
+          "frames": [
+            159,
+            321
+          ],
+          "id": "F5E3470B",
+          "mediaRef": "3F461BC9",
+          "mediaType": "image"
+        },
+        {
+          "frames": [
+            321,
+            474
+          ],
+          "id": "D2861E92",
+          "mediaRef": "F85E1796",
+          "mediaType": "image"
+        },
+        {
+          "frames": [
+            474,
+            618
+          ],
+          "id": "986E81BE",
+          "mediaRef": "CA13642A",
+          "mediaType": "image",
+          "trimEndFrame": 6
+        },
+        {
+          "frames": [
+            618,
+            762
+          ],
+          "id": "BBDED4D7",
+          "mediaRef": "46FBBA21",
+          "mediaType": "image",
+          "trimEndFrame": 6
+        },
+        {
+          "frames": [
+            762,
+            912
+          ],
+          "id": "6E826D17",
+          "mediaRef": "B1BBA1D3",
+          "mediaType": "image"
+        },
+        {
+          "frames": [
+            912,
+            1068
+          ],
+          "id": "DD28D633",
+          "mediaRef": "FBFB7FC5",
+          "mediaType": "image"
+        },
+        {
+          "frames": [
+            1068,
+            1227
+          ],
+          "id": "1E173843",
+          "mediaRef": "1176A09B",
+          "mediaType": "image"
+        }
+      ],
+      "index": 0,
+      "label": "V1",
+      "trackId": "44FE3F72",
+      "type": "video"
+    },
+    {
+      "clips": [
+        {
+          "frames": [
+            0,
+            1227
+          ],
+          "id": "C3B84CE3",
+          "mediaRef": "604B8D64",
+          "mediaType": "audio"
+        }
+      ],
+      "index": 1,
+      "label": "A1",
+      "trackId": "8534C99E",
+      "type": "audio"
+    }
+  ],
+  "visible": true,
+  "width": 1080
+}

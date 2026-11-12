@@ -1,0 +1,47 @@
+{
+  "status": "REVIEW_REQUIRED",
+  "audio_sha256": "2a6c71d187c8ecc835f134c5982322d2b774ab0085729567c0f07f1cdc62c871",
+  "forced_map_sha256": "1d653c03485faeb0e674e1888e29e49c1caff40f84a5ef163f55de4d60d39482",
+  "method": "WhisperX wav2vec2 forced alignment of exact narration against full retained audio, CPU",
+  "matching_words": 100,
+  "median_absolute_start_difference_s": 0.045,
+  "max_absolute_start_difference_s": 0.23,
+  "disagreements_gt_150ms": [
+    {
+      "word": "speech",
+      "provider_start": 17.84,
+      "forced_start": 17.669,
+      "difference": 0.171,
+      "score": 0.856
+    },
+    {
+      "word": "encoded",
+      "provider_start": 19.72,
+      "forced_start": 19.49,
+      "difference": 0.23,
+      "score": 0.659
+    },
+    {
+      "word": "computer",
+      "provider_start": 23.84,
+      "forced_start": 23.652,
+      "difference": 0.188,
+      "score": 0.978
+    },
+    {
+      "word": "decode",
+      "provider_start": 25.68,
+      "forced_start": 25.512,
+      "difference": 0.168,
+      "score": 0.899
+    },
+    {
+      "word": "Japanese",
+      "provider_start": 28.56,
+      "forced_start": 28.374,
+      "difference": 0.186,
+      "score": 0.841
+    }
+  ],
+  "limitation": "Two estimates; not listening or proof of accuracy. First 0.15 s threshold is diagnostic, not an acceptance tolerance."
+}

@@ -1,0 +1,33 @@
+{
+  "scene_id": "S020",
+  "version": "candidate_v01",
+  "status": "ACCEPTED_STATIC_SOURCE",
+  "depiction": "generic government meeting room symbolizing leadership replacement; no real person likeness",
+  "selected_copy": "/Users/diplomat/ytvideos/channels/paper_detour/videos/040_berlin_wall/Source/Images/v01/S020_candidate_v01.png",
+  "source_image": "/Users/diplomat/.codex/generated_images/01a1a186-1011-7450-b9d7-7b0e7f1e2f40/exec-af20c3be-6b97-4162-9729-6549b5121244.png",
+  "sha256": "f2181fdee9461244e83bfbcd1c165744258770f850ee7b50259b64f293c7a093",
+  "reference_paths": [
+    "/Users/diplomat/ytvideos/channels/paper_detour/Shared/References/Paper/paper004_user_38.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/040_berlin_wall/Source/Images/v01/S019_candidate_v01.png"
+  ],
+  "reference_hashes": {
+    "/Users/diplomat/ytvideos/channels/paper_detour/Shared/References/Paper/paper004_user_38.png": "238bb11958c8e59224edcd006db060df0bddd0c9e100f795e44eeb537ebdc166",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/040_berlin_wall/Source/Images/v01/S019_candidate_v01.png": "1d93b6d4025fc7b22f4f532a10d0c6add666859071940a5264344f84b35a8b44"
+  },
+  "missing_catalog_anchor": "Paper Detour033 S01_v01.png unavailable locally and not used.",
+  "requested_generation_target": "3840x2160 landscape 16:9",
+  "actual_source_dimensions": "1672x941",
+  "image_tool_controls": "not exposed; target stated in prompt",
+  "delivery_target": "2560x1440 16:9 at 30 fps; motion/crop pending",
+  "visual_review": {
+    "reviewer": "Codex author (not an independent reviewer)",
+    "scope": "full-frame source inspected against Paper004 and S019 palette",
+    "result": "ACCEPTED static composition: an empty foreground chair and anonymous officials gathered around a meeting table communicate changed leadership without a named likeness or staged handover.",
+    "limitations": [
+      "Tool output below requested 4K target.",
+      "Room, positions, officials and TV tower are illustrative, not a literal documented meeting.",
+      "Motion/crop/composite unverified."
+    ]
+  },
+  "prompt_file": "S020_candidate_v01_prompt.txt"
+}

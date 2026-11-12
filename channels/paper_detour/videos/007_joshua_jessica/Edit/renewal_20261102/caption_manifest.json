@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "canvas": [
+    1080,
+    1920
+  ],
+  "face_height_px": 100,
+  "min_face_height_px": 65,
+  "anchors": {
+    "primary": {
+      "center": [
+        0.5,
+        0.11
+      ],
+      "max_width_px": 900,
+      "max_height_px": 300
+    },
+    "alternate": {
+      "center": [
+        0.5,
+        0.77
+      ],
+      "max_width_px": 900,
+      "max_height_px": 300
+    }
+  },
+  "scenes": [
+    {
+      "id": "P02",
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/renewal_20261102/scene_previews/P02.png"
+    },
+    {
+      "id": "P04",
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/renewal_20261102/scene_previews/P04.png"
+    },
+    {
+      "id": "P07",
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/renewal_20261102/scene_previews/P07.png"
+    }
+  ],
+  "cues": [
+    {
+      "id": "C01",
+      "lines": [
+        "ALMOST EIGHT YEARS"
+      ],
+      "backend": {
+        "type": "existingPNG",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Source/Images/captions_renewal_20261102/almost_eight_years.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Shorts/02_decoder/Source/Images/accent_density_20261031/WEBER_KAI.png",
+        "face": {
+          "mode": "creamOrange",
+          "line_boxes": [
+            [
+              0,
+              247,
+              2172,
+              470
+            ]
+          ]
+        },
+        "status": "new imagegen candidate"
+      },
+      "provenance": {
+        "record": "Source/Images/captions_renewal_20261102/GENERATION_LOG.md"
+      },
+      "timing": {
+        "status": "UNVERIFIED",
+        "note": "character alignment; subjective listening not performed"
+      }
+    },
+    {
+      "id": "C02",
+      "lines": [
+        "OLD MESSAGES"
+      ],
+      "backend": {
+        "type": "existingPNG",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Source/Images/captions_renewal_20261102/old_messages.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Shorts/02_decoder/Source/Images/accent_density_20261031/WEBER_KAI.png",
+        "face": {
+          "mode": "creamOrange",
+          "line_boxes": [
+            [
+              0,
+              212,
+              2172,
+              537
+            ]
+          ]
+        },
+        "status": "new imagegen candidate"
+      },
+      "provenance": {
+        "record": "Source/Images/captions_renewal_20261102/GENERATION_LOG.md"
+      },
+      "timing": {
+        "status": "UNVERIFIED",
+        "note": "character alignment; subjective listening not performed"
+      }
+    },
+    {
+      "id": "C03",
+      "lines": [
+        "NOT HER."
+      ],
+      "backend": {
+        "type": "existingPNG",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Source/Images/captions_renewal_20261102/not_her_v02.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Shorts/02_decoder/Source/Images/accent_density_20261031/WEBER_KAI.png",
+        "face": {
+          "mode": "creamOrange",
+          "line_boxes": [
+            [
+              0,
+              172,
+              2172,
+              566
+            ]
+          ]
+        },
+        "status": "new imagegen candidate"
+      },
+      "provenance": {
+        "record": "Source/Images/captions_renewal_20261102/GENERATION_LOG.md"
+      },
+      "timing": {
+        "status": "UNVERIFIED",
+        "note": "character alignment; subjective listening not performed"
+      }
+    }
+  ],
+  "pairs": [
+    {
+      "scene": "P02",
+      "cue": "C01",
+      "anchor": "primary"
+    },
+    {
+      "scene": "P04",
+      "cue": "C02",
+      "anchor": "primary"
+    },
+    {
+      "scene": "P07",
+      "cue": "C03",
+      "anchor": "alternate"
+    }
+  ]
+}

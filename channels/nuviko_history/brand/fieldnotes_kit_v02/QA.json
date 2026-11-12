@@ -1,0 +1,79 @@
+{
+  "date": "2026-11-02",
+  "status": "AUTHOR_STATIC_CHECKED",
+  "user_accepted_reference": "../fieldnotes_kit_v01/rendered/proofs/S01.png",
+  "reference_sha256": "6f55586dc6d21c3f7554060dfea387f64b4e4971b7153daef85568bf93c4f795",
+  "checks": {
+    "all_7_cues_one_line": true,
+    "all_centered_x_836_tolerance_half_pixel": true,
+    "all_bottom_871": true,
+    "s01_byte_identical_to_user_liked_frame": true,
+    "repeat_render_byte_identical": true,
+    "pixels_outside_layers_unchanged": true,
+    "source_hashes_and_protected_rois": "renderer passed"
+  },
+  "visual_review": {
+    "full_frame": [
+      "S02",
+      "S02_cue02",
+      "S01_long_cue03"
+    ],
+    "phone_proxy": "all seven at 390x219 in contact sheet",
+    "notes": "S02 centered short cues clear boots; long copy shown in three separate single-line panels. S01/S03 unchanged by byte comparison. No timing or physical phone review."
+  },
+  "assets": [
+    {
+      "id": "S01",
+      "proof_sha256": "6f55586dc6d21c3f7554060dfea387f64b4e4971b7153daef85568bf93c4f795",
+      "subtitle_lines": [
+        "The city was alive."
+      ]
+    },
+    {
+      "id": "S02",
+      "proof_sha256": "2aac10c09c6030d6442b41d86a98b07c49205e5f204eb23eba7abc77adda66bb",
+      "subtitle_lines": [
+        "The city was"
+      ]
+    },
+    {
+      "id": "S02_cue02",
+      "proof_sha256": "fa883d0c82ee76b70033160893ec5958ff6de99c6aea1ad72bfc590375b093e1",
+      "subtitle_lines": [
+        "alive."
+      ]
+    },
+    {
+      "id": "S03",
+      "proof_sha256": "4fa7bd3e141b93a5532b3416915aa43c3bf74609086d1b2d52e825c34f20338d",
+      "subtitle_lines": [
+        "The city was alive."
+      ]
+    },
+    {
+      "id": "S01_long_cue01",
+      "proof_sha256": "abd0feae7e8a490c4e4def5739d46944d5a7e190f0f2d37231c6108add8f1022",
+      "subtitle_lines": [
+        "The city was alive,"
+      ]
+    },
+    {
+      "id": "S01_long_cue02",
+      "proof_sha256": "426fa43090208fff18a427f579da59a345c4bbbaec640892b621d1bb7c24037e",
+      "subtitle_lines": [
+        "and every street"
+      ]
+    },
+    {
+      "id": "S01_long_cue03",
+      "proof_sha256": "4f54eda5573fdb8c423bad469f1ede16978509defee467756ae00cc151e9d7ff",
+      "subtitle_lines": [
+        "had a story of its own."
+      ]
+    }
+  ],
+  "limits": [
+    "Static cues only; no real speech timing or video QA.",
+    "New S02/cue examples not independently reviewed or user accepted."
+  ]
+}

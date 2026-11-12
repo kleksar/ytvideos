@@ -1,0 +1,138 @@
+{
+  "version": 1,
+  "chatgpt_review": {
+    "chat_title": "Монтажный проход Palmier",
+    "url": "https://chatgpt.com/c/6ae6b28f-fbf4-83eb-9ddf-03dd478e9e81",
+    "visible_reasoning_mode": "Extra High",
+    "note": "Director proposal; not factual evidence. Local static composites were checked separately."
+  },
+  "assets_root": "Storyboard/Accents",
+  "track_name": "Accents",
+  "stacking": "above BG, below MG and FG; grain remains on top",
+  "animation": {
+    "clip_duration_frames": 54,
+    "entrance_frames": 12,
+    "hold_frames": 30,
+    "exit_frames": 12,
+    "position_interpolation": "smooth",
+    "opacity": [
+      {
+        "frame": 0,
+        "value": 0.0
+      },
+      {
+        "frame": 12,
+        "value": 1.0
+      },
+      {
+        "frame": 41,
+        "value": 1.0
+      },
+      {
+        "frame": 53,
+        "value": 0.0
+      }
+    ]
+  },
+  "timing_note": "Approximate visual timing only; there is no approved narration in this draft to sync against.",
+  "accents": [
+    {
+      "asset": "YURI.png",
+      "scene_id": "02_yuri_name",
+      "start_frame": 142,
+      "end_frame": 196,
+      "final_position": [
+        0.6,
+        0.1
+      ],
+      "entry_position": [
+        0.39,
+        0.1
+      ],
+      "normalized_size": [
+        0.37,
+        0.157
+      ],
+      "spoken_word": "Yuri",
+      "purpose": "Name reveal in the clear upper-right wall field; enters from behind the seated figure."
+    },
+    {
+      "asset": "1952.png",
+      "scene_id": "03_1952_breakthrough",
+      "start_frame": 252,
+      "end_frame": 306,
+      "final_position": [
+        0.6,
+        0.07
+      ],
+      "entry_position": [
+        0.43,
+        0.07
+      ],
+      "normalized_size": [
+        0.36,
+        0.147
+      ],
+      "spoken_word": "1952",
+      "purpose": "Date emphasis in the upper field; moves out from the head/page silhouette."
+    },
+    {
+      "asset": "SOUNDS.png",
+      "scene_id": "04_codex_detail",
+      "start_frame": 444,
+      "end_frame": 498,
+      "final_position": [
+        0.28,
+        0.06
+      ],
+      "entry_position": [
+        0.08,
+        0.06
+      ],
+      "normalized_size": [
+        0.4,
+        0.137
+      ],
+      "spoken_word": "sounds",
+      "purpose": "Brief cue above the blank page, away from the historical signs and plant."
+    },
+    {
+      "asset": "ASYA.png",
+      "scene_id": "06_asya_companion",
+      "start_frame": 665,
+      "end_frame": 719,
+      "final_position": [
+        0.57,
+        0.09
+      ],
+      "entry_position": [
+        0.39,
+        0.09
+      ],
+      "normalized_size": [
+        0.39,
+        0.165
+      ],
+      "spoken_word": "Asya",
+      "purpose": "Name emphasis on the empty right wall; enters from behind the character and cat silhouette."
+    }
+  ],
+  "skipped": [
+    {
+      "asset": "CO-AUTHOR.png",
+      "scene_id": "07_coauthor_joke",
+      "reason": "Static preview showed the head occluding the first half at a readable size; shrinking or moving it right makes the word too small or clips it, and the lamp occupies the remaining field."
+    },
+    {
+      "asset": "A_CAT.png",
+      "scene_id": "01_hook_monument",
+      "reason": "The opening statue-and-cat silhouette carries the hook; no title recommended."
+    },
+    {
+      "asset": "TOGETHER.png",
+      "scene_id": "09_merida_return",
+      "reason": "Centered planter and statue return are stronger without a label."
+    }
+  ],
+  "reference_preview": "Edit/Automation/Paper_Detour_009_20261101/Previews/accent_final_candidates.png"
+}

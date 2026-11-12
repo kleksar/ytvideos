@@ -1,0 +1,186 @@
+{
+  "frame_count": 2139,
+  "fps": "30/1",
+  "freshness": {
+    "status": "CURRENT",
+    "evidence": "Palmier timeline C7D23437, v14 duration receipt"
+  },
+  "expected": {
+    "video": {
+      "width": 1080,
+      "height": 1920,
+      "codec_name": "h264"
+    },
+    "audio": {
+      "required": true,
+      "codec_name": "aac",
+      "channels": 1,
+      "sample_rate": 44100
+    }
+  },
+  "scene_seconds": [
+    4,
+    6
+  ],
+  "scenes": [
+    {
+      "id": "S01",
+      "start": 0,
+      "end": 173
+    },
+    {
+      "id": "S02",
+      "start": 173,
+      "end": 298
+    },
+    {
+      "id": "S03",
+      "start": 298,
+      "end": 449
+    },
+    {
+      "id": "S04",
+      "start": 449,
+      "end": 602
+    },
+    {
+      "id": "S05",
+      "start": 602,
+      "end": 735
+    },
+    {
+      "id": "S06",
+      "start": 735,
+      "end": 855
+    },
+    {
+      "id": "S07",
+      "start": 855,
+      "end": 975
+    },
+    {
+      "id": "S08",
+      "start": 975,
+      "end": 1116
+    },
+    {
+      "id": "S09",
+      "start": 1116,
+      "end": 1238
+    },
+    {
+      "id": "S10",
+      "start": 1238,
+      "end": 1361
+    },
+    {
+      "id": "S11",
+      "start": 1361,
+      "end": 1500
+    },
+    {
+      "id": "S12",
+      "start": 1500,
+      "end": 1620
+    },
+    {
+      "id": "S13",
+      "start": 1620,
+      "end": 1740
+    },
+    {
+      "id": "S14",
+      "start": 1740,
+      "end": 1860
+    },
+    {
+      "id": "S15",
+      "start": 1860,
+      "end": 1980
+    },
+    {
+      "id": "S16",
+      "start": 1980,
+      "end": 2139
+    }
+  ],
+  "cues": [
+    {
+      "id": "C01",
+      "start": 237,
+      "end": 273,
+      "entry_end": 241,
+      "exit_start": 268
+    },
+    {
+      "id": "C02",
+      "start": 336,
+      "end": 380,
+      "entry_end": 340,
+      "exit_start": 375
+    },
+    {
+      "id": "C03",
+      "start": 449,
+      "end": 536,
+      "entry_end": 453,
+      "exit_start": 531
+    },
+    {
+      "id": "C04",
+      "start": 536,
+      "end": 609,
+      "entry_end": 540,
+      "exit_start": 604
+    },
+    {
+      "id": "C05",
+      "start": 633,
+      "end": 687,
+      "entry_end": 637,
+      "exit_start": 682
+    },
+    {
+      "id": "C06",
+      "start": 694,
+      "end": 735,
+      "entry_end": 698,
+      "exit_start": 730
+    },
+    {
+      "id": "C07",
+      "start": 868,
+      "end": 915,
+      "entry_end": 872,
+      "exit_start": 910
+    },
+    {
+      "id": "C08",
+      "start": 984,
+      "end": 1020,
+      "entry_end": 988,
+      "exit_start": 1015
+    },
+    {
+      "id": "C09",
+      "start": 1305,
+      "end": 1341,
+      "entry_end": 1309,
+      "exit_start": 1336
+    },
+    {
+      "id": "C10",
+      "start": 1399,
+      "end": 1435,
+      "entry_end": 1403,
+      "exit_start": 1430
+    },
+    {
+      "id": "C11",
+      "start": 1852,
+      "end": 1898,
+      "entry_end": 1856,
+      "exit_start": 1893
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "subtitle_contract_sha256": "590e8140764ecf1a918c694732293831a625e0e09eb56618321c74af42765bc6",
+  "checks": {
+    "semantic_grouping": {
+      "status": "PASS",
+      "reviewer": "coordinator",
+      "method": "read complete English phrase sequence and measured forced boundaries",
+      "coverage": "all narration, 34 groups",
+      "evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/research/molasses-flood/Work/subtitle_v02_final/caption_groups.json"
+    },
+    "visual_placement": {
+      "status": "UNVERIFIED",
+      "reviewer": "coordinator",
+      "method": "static mid-scene contact only; actual full path pending",
+      "coverage": "one sample each of eight scenes",
+      "evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/research/molasses-flood/Work/early-test/contact_captions_v02.jpg"
+    }
+  }
+}

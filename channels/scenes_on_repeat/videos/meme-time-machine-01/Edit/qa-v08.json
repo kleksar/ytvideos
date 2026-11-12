@@ -1,0 +1,74 @@
+{
+  "revision": "v08",
+  "purpose": "local trial",
+  "freshness": "CURRENT",
+  "file": "Deliverables/meme-time-machine-01_draft-v08.mp4",
+  "sha256": "900025335caf867caf73951e4d35c81c43f6368e8bbb25580a4ab3b422e0a071",
+  "bytes": 9254051,
+  "contract": "Edit/export-contract-v08.json",
+  "stream_metadata": {
+    "status": "PASS",
+    "audio_bitrate_actual_bps": 246771
+  },
+  "full_decode": "PASS",
+  "visual_review": {
+    "status": "PASS",
+    "method": "All 558 H.264 packet hashes and timestamps equal to v07, whose sampled frames were reviewed.",
+    "video_stream_hash": "0,v,SHA256=ccbdc2fbf20ff404afee7c4f8a748444447c5faaf690898e11ed9834496d0a45",
+    "prior_review": "Edit/qa-v07.json"
+  },
+  "audio_signal": {
+    "status": "PASS",
+    "sample_peak_dbfs": -2.37,
+    "boundaries": [
+      {
+        "name": "Bottle Flip",
+        "title_start_seconds": 0.0,
+        "meme_start_seconds": 0.833333,
+        "title_correlation_at_exact_offset": 0.999571,
+        "meme_correlation_with_v07_at_exact_offset": 0.999999,
+        "title_rms_dbfs": -23.33,
+        "title_last_10_ms_peak_dbfs": -92.96
+      },
+      {
+        "name": "Gru’s Plan",
+        "title_start_seconds": 3.25,
+        "meme_start_seconds": 4.083333,
+        "title_correlation_at_exact_offset": 0.999981,
+        "meme_correlation_with_v07_at_exact_offset": 0.999755,
+        "title_rms_dbfs": -23.33,
+        "title_last_10_ms_peak_dbfs": -97.83
+      },
+      {
+        "name": "Baby Yoda",
+        "title_start_seconds": 12.333333,
+        "meme_start_seconds": 13.166667,
+        "title_correlation_at_exact_offset": 0.999981,
+        "meme_correlation_with_v07_at_exact_offset": 0.999984,
+        "title_rms_dbfs": -23.33,
+        "title_last_10_ms_peak_dbfs": -91.64
+      },
+      {
+        "name": "Dramatic Chipmunk",
+        "title_start_seconds": 15.291667,
+        "meme_start_seconds": 16.125,
+        "title_correlation_at_exact_offset": 0.999981,
+        "meme_correlation_with_v07_at_exact_offset": 0.999999,
+        "title_rms_dbfs": -23.33,
+        "title_last_10_ms_peak_dbfs": -94.68
+      },
+      {
+        "name": "Corn Kid",
+        "title_start_seconds": 18.666667,
+        "meme_start_seconds": 19.5,
+        "title_correlation_at_exact_offset": 0.999981,
+        "meme_correlation_with_v07_at_exact_offset": 1.0,
+        "title_rms_dbfs": -23.33,
+        "title_last_10_ms_peak_dbfs": -98.8
+      }
+    ]
+  },
+  "subjective_audio_listening": "UNVERIFIED",
+  "independent_review": "NOT_REQUESTED",
+  "release": "Local review only."
+}

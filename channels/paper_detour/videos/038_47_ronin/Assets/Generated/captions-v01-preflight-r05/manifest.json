@@ -1,0 +1,1838 @@
+{
+  "canvas": [
+    2560,
+    1440
+  ],
+  "checks": {
+    "motion": "UNVERIFIED",
+    "scope": "assigned pairs at their selected anchors; static geometry only",
+    "sync": "UNVERIFIED",
+    "technical": "PASS",
+    "visual": "UNVERIFIED"
+  },
+  "cues": [
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              0,
+              0,
+              2172,
+              724
+            ]
+          ],
+          "mode": "creamOrange"
+        },
+        "path": "C01_CHUZHAYA_SKHVATKA_v01.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Source/Graphics/captions_v01/IRAN-BORN_v01.png",
+        "status": "PROVISIONAL imagegen text asset; inspect actual text and alpha",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/C01/face.png",
+      "face_mask_sha256": "739625f35f4d156ddf56a17dd5fdca286b9483c4bd4b9ac3e82060ff8276deb1",
+      "id": "C01",
+      "lines": [
+        "ЧУЖАЯ СХВАТКА"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          17,
+          32,
+          824,
+          268
+        ],
+        "alpha_height_px": 236,
+        "alpha_width_px": 807,
+        "face_bbox": [
+          29,
+          92,
+          816,
+          186
+        ],
+        "face_height_px": 94,
+        "face_line_boxes": [
+          [
+            29,
+            92,
+            816,
+            186
+          ]
+        ],
+        "face_line_heights_px": [
+          94
+        ],
+        "size_px": [
+          841,
+          281
+        ]
+      },
+      "png": "cues/C01/cue.png",
+      "png_sha256": "bbf180896f751493b343e1a057fb07dc160497bcd999ac377d13bc4f9de54d4a",
+      "provenance": {
+        "author": "image_gen.imagegen; coordinator selection",
+        "record": "DECISION_RECORD_v01.md; GENERATION_LOG_v01.md"
+      },
+      "timing": {
+        "note": "~1.8–3.8 s; estimate only; scene duration is storyboard estimate, no voice/alignment exists",
+        "status": "UNVERIFIED"
+      },
+      "uniform_scale": 0.3868312757201646
+    },
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              0,
+              0,
+              2172,
+              724
+            ]
+          ],
+          "mode": "creamOrange"
+        },
+        "path": "C02_PRESTUPLENIE_v01.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Source/Graphics/captions_v01/IRAN-BORN_v01.png",
+        "status": "PROVISIONAL imagegen text asset; inspect actual text and alpha",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/C02/face.png",
+      "face_mask_sha256": "3c4c4658fcf66f000b5f0e7b0796f9d281e40c4cbf23e78db81a05a4c24cb2c5",
+      "id": "C02",
+      "lines": [
+        "ПРЕСТУПЛЕНИЕ?"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          9,
+          12,
+          793,
+          254
+        ],
+        "alpha_height_px": 242,
+        "alpha_width_px": 784,
+        "face_bbox": [
+          25,
+          86,
+          785,
+          180
+        ],
+        "face_height_px": 94,
+        "face_line_boxes": [
+          [
+            25,
+            86,
+            785,
+            180
+          ]
+        ],
+        "face_line_heights_px": [
+          94
+        ],
+        "size_px": [
+          807,
+          269
+        ]
+      },
+      "png": "cues/C02/cue.png",
+      "png_sha256": "f469317c30e84d0f4746466de9dce84b33c5430bfff56738208df58368cc8e92",
+      "provenance": {
+        "author": "image_gen.imagegen; coordinator selection",
+        "record": "DECISION_RECORD_v01.md; GENERATION_LOG_v01.md"
+      },
+      "timing": {
+        "note": "~0.9–2.9 s; estimate only; scene duration is storyboard estimate, no voice/alignment exists",
+        "status": "UNVERIFIED"
+      },
+      "uniform_scale": 0.3715415019762846
+    },
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              0,
+              0,
+              2172,
+              724
+            ]
+          ],
+          "mode": "creamOrange"
+        },
+        "path": "C03_DVA_UDARA_v01.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Source/Graphics/captions_v01/IRAN-BORN_v01.png",
+        "status": "PROVISIONAL imagegen text asset; inspect actual text and alpha",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/C03/face.png",
+      "face_mask_sha256": "0c73a66ff4f72f97c74bf1390c950f389881da9e5c06fcef2c1b44eaac9204fc",
+      "id": "C03",
+      "lines": [
+        "ДВА УДАРА"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          15,
+          9,
+          565,
+          154
+        ],
+        "alpha_height_px": 145,
+        "alpha_width_px": 550,
+        "face_bbox": [
+          21,
+          53,
+          558,
+          147
+        ],
+        "face_height_px": 94,
+        "face_line_boxes": [
+          [
+            21,
+            53,
+            558,
+            147
+          ]
+        ],
+        "face_line_heights_px": [
+          94
+        ],
+        "size_px": [
+          577,
+          193
+        ]
+      },
+      "png": "cues/C03/cue.png",
+      "png_sha256": "57544dda7ff1b698c1182c23469614608094e6ae8c56bf49546202f12b833633",
+      "provenance": {
+        "author": "image_gen.imagegen; coordinator selection",
+        "record": "DECISION_RECORD_v01.md; GENERATION_LOG_v01.md"
+      },
+      "timing": {
+        "note": "~3.4–5.4 s; estimate only; scene duration is storyboard estimate, no voice/alignment exists",
+        "status": "UNVERIFIED"
+      },
+      "uniform_scale": 0.2655367231638418
+    },
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              0,
+              0,
+              2172,
+              724
+            ]
+          ],
+          "mode": "creamOrange"
+        },
+        "path": "C04_SEPPUKU_v01.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Source/Graphics/captions_v01/IRAN-BORN_v01.png",
+        "status": "PROVISIONAL imagegen text asset; inspect actual text and alpha",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/C04/face.png",
+      "face_mask_sha256": "bde3fe840f5e467b07b2e0a5d0fa45b660bd3243ab54e276a448256d39a7edf6",
+      "id": "C04",
+      "lines": [
+        "СЭППУКУ"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          30,
+          22,
+          541,
+          179
+        ],
+        "alpha_height_px": 157,
+        "alpha_width_px": 511,
+        "face_bbox": [
+          37,
+          51,
+          533,
+          145
+        ],
+        "face_height_px": 94,
+        "face_line_boxes": [
+          [
+            37,
+            51,
+            533,
+            145
+          ]
+        ],
+        "face_line_heights_px": [
+          94
+        ],
+        "size_px": [
+          569,
+          190
+        ]
+      },
+      "png": "cues/C04/cue.png",
+      "png_sha256": "382faf1a0c52cfeeb31ea3501c57874a72207ca214dcfb539a53c7324c8191ea",
+      "provenance": {
+        "author": "image_gen.imagegen; coordinator selection",
+        "record": "DECISION_RECORD_v01.md; GENERATION_LOG_v01.md"
+      },
+      "timing": {
+        "note": "~2.0–4.1 s; estimate only; scene duration is storyboard estimate, no voice/alignment exists",
+        "status": "UNVERIFIED"
+      },
+      "uniform_scale": 0.2618384401114206
+    },
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              0,
+              0,
+              2172,
+              724
+            ]
+          ],
+          "mode": "creamOrange"
+        },
+        "path": "C05_BEZ_GOSPODINA_v01.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Source/Graphics/captions_v01/IRAN-BORN_v01.png",
+        "status": "PROVISIONAL imagegen text asset; inspect actual text and alpha",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/C05/face.png",
+      "face_mask_sha256": "5d5f9fb4d6eee8e9b1d8e8ab7abe2751b3e2d67dfcfdccfdacc84e095da0e643",
+      "id": "C05",
+      "lines": [
+        "БЕЗ ГОСПОДИНА"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          18,
+          3,
+          772,
+          255
+        ],
+        "alpha_height_px": 252,
+        "alpha_width_px": 754,
+        "face_bbox": [
+          26,
+          87,
+          764,
+          181
+        ],
+        "face_height_px": 94,
+        "face_line_boxes": [
+          [
+            26,
+            87,
+            764,
+            181
+          ]
+        ],
+        "face_line_heights_px": [
+          94
+        ],
+        "size_px": [
+          789,
+          263
+        ]
+      },
+      "png": "cues/C05/cue.png",
+      "png_sha256": "0514d041dc71786bc0b41e1c1ee80db1c664c9c923fbee8a393697694922fa51",
+      "provenance": {
+        "author": "image_gen.imagegen; coordinator selection",
+        "record": "DECISION_RECORD_v01.md; GENERATION_LOG_v01.md"
+      },
+      "timing": {
+        "note": "~2.3–4.1 s; estimate only; scene duration is storyboard estimate, no voice/alignment exists",
+        "status": "UNVERIFIED"
+      },
+      "uniform_scale": 0.36293436293436293
+    },
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              0,
+              0,
+              2172,
+              724
+            ]
+          ],
+          "mode": "creamOrange"
+        },
+        "path": "C06_POPITKA_PROVALILAS_v01.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Source/Graphics/captions_v01/IRAN-BORN_v01.png",
+        "status": "PROVISIONAL imagegen text asset; inspect actual text and alpha",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/C06/face.png",
+      "face_mask_sha256": "754544a646f4128df22780de0dc004cd827c17bf634e0d6d97503e6b4a873520",
+      "id": "C06",
+      "lines": [
+        "ПОПЫТКА ПРОВАЛИЛАСЬ"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          20,
+          12,
+          1151,
+          366
+        ],
+        "alpha_height_px": 354,
+        "alpha_width_px": 1131,
+        "face_bbox": [
+          32,
+          144,
+          1142,
+          233
+        ],
+        "face_height_px": 89,
+        "face_line_boxes": [
+          [
+            32,
+            144,
+            1142,
+            233
+          ]
+        ],
+        "face_line_heights_px": [
+          89
+        ],
+        "size_px": [
+          1167,
+          389
+        ]
+      },
+      "png": "cues/C06/cue.png",
+      "png_sha256": "9eb5bb12afc1f53222fcf1b38cf27964fff50455e618cabc39a8d0ecd26633f8",
+      "provenance": {
+        "author": "image_gen.imagegen; coordinator selection",
+        "record": "DECISION_RECORD_v01.md; GENERATION_LOG_v01.md"
+      },
+      "timing": {
+        "note": "~2.8–4.8 s; estimate only; scene duration is storyboard estimate, no voice/alignment exists",
+        "status": "UNVERIFIED"
+      },
+      "uniform_scale": 0.5371428571428571
+    },
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              0,
+              0,
+              1774,
+              887
+            ]
+          ],
+          "mode": "creamOrange"
+        },
+        "path": "C07_47_v01.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Source/Graphics/captions_v01/IRAN-BORN_v01.png",
+        "status": "PROVISIONAL imagegen text asset; inspect actual text and alpha",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/C07/face.png",
+      "face_mask_sha256": "e5b4e30c99ae68b1041f4e5edb3ce516fef2caa297a8416f6eb0615f47211567",
+      "id": "C07",
+      "lines": [
+        "47"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          43,
+          15,
+          232,
+          129
+        ],
+        "alpha_height_px": 114,
+        "alpha_width_px": 189,
+        "face_bbox": [
+          59,
+          21,
+          205,
+          115
+        ],
+        "face_height_px": 94,
+        "face_line_boxes": [
+          [
+            59,
+            21,
+            205,
+            115
+          ]
+        ],
+        "face_line_heights_px": [
+          94
+        ],
+        "size_px": [
+          265,
+          133
+        ]
+      },
+      "png": "cues/C07/cue.png",
+      "png_sha256": "52802cd6e29cebe7ce18746c9436d6b84cfd004bb1046790b248ea602eeec1c1",
+      "provenance": {
+        "author": "image_gen.imagegen; coordinator selection",
+        "record": "DECISION_RECORD_v01.md; GENERATION_LOG_v01.md"
+      },
+      "timing": {
+        "note": "~0.7–2.3 s; estimate only; scene duration is storyboard estimate, no voice/alignment exists",
+        "status": "UNVERIFIED"
+      },
+      "uniform_scale": 0.1492063492063492
+    },
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              0,
+              0,
+              2172,
+              724
+            ]
+          ],
+          "mode": "creamOrange"
+        },
+        "path": "C08_MEST_SVERSHILAS_v01.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Source/Graphics/captions_v01/IRAN-BORN_v01.png",
+        "status": "PROVISIONAL imagegen text asset; inspect actual text and alpha",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/C08/face.png",
+      "face_mask_sha256": "2be7c5ce31d032872a388bbe9922a5eeced224d23652ce627762a5ae7051046e",
+      "id": "C08",
+      "lines": [
+        "МЕСТЬ СВЕРШИЛАСЬ"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          10,
+          114,
+          1011,
+          227
+        ],
+        "alpha_height_px": 113,
+        "alpha_width_px": 1001,
+        "face_bbox": [
+          18,
+          121,
+          1002,
+          215
+        ],
+        "face_height_px": 94,
+        "face_line_boxes": [
+          [
+            18,
+            121,
+            1002,
+            215
+          ]
+        ],
+        "face_line_heights_px": [
+          94
+        ],
+        "size_px": [
+          1016,
+          339
+        ]
+      },
+      "png": "cues/C08/cue.png",
+      "png_sha256": "201bec4f890af314912fc5f251b0cbd1ca9fd48ff6cb3ad167c80085ab4b92c9",
+      "provenance": {
+        "author": "image_gen.imagegen; coordinator selection",
+        "record": "DECISION_RECORD_v01.md; GENERATION_LOG_v01.md"
+      },
+      "timing": {
+        "note": "~2.7–4.0 s; estimate only; scene duration is storyboard estimate, no voice/alignment exists",
+        "status": "UNVERIFIED"
+      },
+      "uniform_scale": 0.46766169154228854
+    },
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              0,
+              0,
+              1774,
+              887
+            ]
+          ],
+          "mode": "creamOrange"
+        },
+        "path": "C09_46_v01.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Source/Graphics/captions_v01/IRAN-BORN_v01.png",
+        "status": "PROVISIONAL imagegen text asset; inspect actual text and alpha",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/C09/face.png",
+      "face_mask_sha256": "f618c1c837db96d4ac0bae9587936dcb7937e3613169e7b4e2c00c669c890aa8",
+      "id": "C09",
+      "lines": [
+        "46"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          52,
+          16,
+          204,
+          121
+        ],
+        "alpha_height_px": 105,
+        "alpha_width_px": 152,
+        "face_bbox": [
+          58,
+          20,
+          198,
+          114
+        ],
+        "face_height_px": 94,
+        "face_line_boxes": [
+          [
+            58,
+            20,
+            198,
+            114
+          ]
+        ],
+        "face_line_heights_px": [
+          94
+        ],
+        "size_px": [
+          261,
+          131
+        ]
+      },
+      "png": "cues/C09/cue.png",
+      "png_sha256": "3d356f22b910bdea859675ce1630fc9d2e085ab6a8a89171ac8064e735cb3c93",
+      "provenance": {
+        "author": "image_gen.imagegen; coordinator selection",
+        "record": "DECISION_RECORD_v01.md; GENERATION_LOG_v01.md"
+      },
+      "timing": {
+        "note": "~2.0–4.0 s; estimate only; scene duration is storyboard estimate, no voice/alignment exists",
+        "status": "UNVERIFIED"
+      },
+      "uniform_scale": 0.146875
+    },
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              0,
+              0,
+              1774,
+              887
+            ]
+          ],
+          "mode": "creamOrange"
+        },
+        "path": "C10_1748_v01.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Source/Graphics/captions_v01/IRAN-BORN_v01.png",
+        "status": "PROVISIONAL imagegen text asset; inspect actual text and alpha",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/C10/face.png",
+      "face_mask_sha256": "d4c48622a53a67fb407d89fd098162d3f4b529289ea1964bec3d5fb5d4032704",
+      "id": "C10",
+      "lines": [
+        "1748"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          24,
+          8,
+          286,
+          132
+        ],
+        "alpha_height_px": 124,
+        "alpha_width_px": 262,
+        "face_bbox": [
+          29,
+          28,
+          269,
+          122
+        ],
+        "face_height_px": 94,
+        "face_line_boxes": [
+          [
+            29,
+            28,
+            269,
+            122
+          ]
+        ],
+        "face_line_heights_px": [
+          94
+        ],
+        "size_px": [
+          295,
+          148
+        ]
+      },
+      "png": "cues/C10/cue.png",
+      "png_sha256": "0d34c61a92dd72dfe3beed66f6c1c4f0a4edc2774bbf833f84b43ae523716099",
+      "provenance": {
+        "author": "image_gen.imagegen; coordinator selection",
+        "record": "DECISION_RECORD_v01.md; GENERATION_LOG_v01.md"
+      },
+      "timing": {
+        "note": "~0.3–1.8 s; estimate only; scene duration is storyboard estimate, no voice/alignment exists",
+        "status": "UNVERIFIED"
+      },
+      "uniform_scale": 0.16607773851590105
+    },
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              0,
+              0,
+              2172,
+              724
+            ]
+          ],
+          "mode": "creamOrange"
+        },
+        "path": "C11_TSENA_MESTI_v01.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Source/Graphics/captions_v01/IRAN-BORN_v01.png",
+        "status": "PROVISIONAL imagegen text asset; inspect actual text and alpha",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/C11/face.png",
+      "face_mask_sha256": "8e279dcb0da048ee49d06f69a71d3c58afec0a273c6603f1b5cf8e71bb764624",
+      "id": "C11",
+      "lines": [
+        "ЦЕНА МЕСТИ"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          22,
+          6,
+          595,
+          201
+        ],
+        "alpha_height_px": 195,
+        "alpha_width_px": 573,
+        "face_bbox": [
+          28,
+          59,
+          588,
+          153
+        ],
+        "face_height_px": 94,
+        "face_line_boxes": [
+          [
+            28,
+            59,
+            588,
+            153
+          ]
+        ],
+        "face_line_heights_px": [
+          94
+        ],
+        "size_px": [
+          614,
+          205
+        ]
+      },
+      "png": "cues/C11/cue.png",
+      "png_sha256": "886e481f6c6ab3e060251a8bb81d830b81a85224f06649fc4e8865e7d3864256",
+      "provenance": {
+        "author": "image_gen.imagegen; coordinator selection",
+        "record": "DECISION_RECORD_v01.md; GENERATION_LOG_v01.md"
+      },
+      "timing": {
+        "note": "~0.8–2.6 s; estimate only; scene duration is storyboard estimate, no voice/alignment exists",
+        "status": "UNVERIFIED"
+      },
+      "uniform_scale": 0.2822822822822823
+    },
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              0,
+              0,
+              2172,
+              724
+            ]
+          ],
+          "mode": "creamOrange"
+        },
+        "path": "C12_BEZ_OTVETA_v01.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Source/Graphics/captions_v01/IRAN-BORN_v01.png",
+        "status": "PROVISIONAL imagegen text asset; inspect actual text and alpha",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/C12/face.png",
+      "face_mask_sha256": "ccfe3359dac3ddf1f6430e4972e4c21896a5da708c02f6daad241cddb5071d90",
+      "id": "C12",
+      "lines": [
+        "БЕЗ ОТВЕТА"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          19,
+          6,
+          624,
+          211
+        ],
+        "alpha_height_px": 205,
+        "alpha_width_px": 605,
+        "face_bbox": [
+          36,
+          63,
+          616,
+          157
+        ],
+        "face_height_px": 94,
+        "face_line_boxes": [
+          [
+            36,
+            63,
+            616,
+            157
+          ]
+        ],
+        "face_line_heights_px": [
+          94
+        ],
+        "size_px": [
+          649,
+          217
+        ]
+      },
+      "png": "cues/C12/cue.png",
+      "png_sha256": "a48c561d9d61f67d34251df190dd6bb021364a360f39376b84ff0caad3daa3f9",
+      "provenance": {
+        "author": "image_gen.imagegen; coordinator selection",
+        "record": "DECISION_RECORD_v01.md; GENERATION_LOG_v01.md"
+      },
+      "timing": {
+        "note": "~3.1–5.3 s; estimate only; scene duration is storyboard estimate, no voice/alignment exists",
+        "status": "UNVERIFIED"
+      },
+      "uniform_scale": 0.2984126984126984
+    }
+  ],
+  "helper_sha256": "86fcde095d01b3300ac1497f9f38c5f38494a740f5dcd987af9a8595d42a8150",
+  "helper_version": "1.1.0",
+  "inputs": [
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_47_ronin/Source/Graphics/captions_v01/C01_CHUZHAYA_SKHVATKA_v01.png",
+      "sha256": "f32e040abb2e3871f80f28a83fc5bde1c71132616fd893dc951e51abf17d1909"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_47_ronin/Source/Graphics/captions_v01/C02_PRESTUPLENIE_v01.png",
+      "sha256": "06b4a27ce9cbbba581c4fc97dbd2319e0e1b368af05d7f8d5ed7e85db21b45d1"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_47_ronin/Source/Graphics/captions_v01/C03_DVA_UDARA_v01.png",
+      "sha256": "2baf2f86865eab84af9d2749af5a4b2bb20e43e3af3af1503e837cbd65dc7290"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_47_ronin/Source/Graphics/captions_v01/C04_SEPPUKU_v01.png",
+      "sha256": "1dfde28da1e576545d32a994e89895c45baeea9c5a6f7daa7f8903c8fea6c54f"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_47_ronin/Source/Graphics/captions_v01/C05_BEZ_GOSPODINA_v01.png",
+      "sha256": "1ec8be47f3e2cdd5a96b30179e2f84c1a0fe46a7df81ff816652c01d4619b3e1"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_47_ronin/Source/Graphics/captions_v01/C06_POPITKA_PROVALILAS_v01.png",
+      "sha256": "f0a51d6fcbd4380a7bdcd275508061fd7bf66083243cec91c33e3d81c7dca798"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_47_ronin/Source/Graphics/captions_v01/C07_47_v01.png",
+      "sha256": "a32d6f166128aaca489e8f4cd2128e7d7bfe8be28d6ef994789e2497448f18c5"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_47_ronin/Source/Graphics/captions_v01/C08_MEST_SVERSHILAS_v01.png",
+      "sha256": "3fadf08c8be337d99fb5d6d43b85213745b350d3fe71214a0e6248ca051ae567"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_47_ronin/Source/Graphics/captions_v01/C09_46_v01.png",
+      "sha256": "b3d462c28ba650a01c00f63d585a9e107d4915ddbe18284086eff8bfb4a09954"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_47_ronin/Source/Graphics/captions_v01/C10_1748_v01.png",
+      "sha256": "5e21441375390cc38c8a8e780d3e5ea64c167df77ed23850b940c908d1194a08"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_47_ronin/Source/Graphics/captions_v01/C11_TSENA_MESTI_v01.png",
+      "sha256": "2874c38fb82ac884ba031e9079a1bc6f23bf47cdf19217a5be10c392651308c9"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_47_ronin/Source/Graphics/captions_v01/C12_BEZ_OTVETA_v01.png",
+      "sha256": "736bf73d113deb8536d2457f91ac7568584e9bafb53b326f5e42d568b95b3933"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_47_ronin/Source/Graphics/captions_v01/caption-input_v01.json",
+      "sha256": "8a2d86038f553bebce39a28af95f2b6f1cf319c666aad3b2f4f1e9edcdcc4b68"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_47_ronin/Work/captions-planning-v01/scenes_2560x1440/S008_2560x1440.png",
+      "sha256": "0bd93cacb91152857356dc61e5ed1d16e39e1af0e8fb3db0570641108faea97d"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_47_ronin/Work/captions-planning-v01/scenes_2560x1440/S009_2560x1440.png",
+      "sha256": "cf642365822c05315d2db2a881d2cffd04ea03255fc057f634d5003f5e792604"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_47_ronin/Work/captions-planning-v01/scenes_2560x1440/S010_2560x1440.png",
+      "sha256": "f6cf737aa57f3bc9f6f4d6edc8c10028536f07f524be36ed9921fcbacae43ce0"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_47_ronin/Work/captions-planning-v01/scenes_2560x1440/S024_2560x1440.png",
+      "sha256": "d8dce1affb68f9468fb8d83e97bc6b659d0f00e8b32f435c72602eaa11295975"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_47_ronin/Work/captions-planning-v01/scenes_2560x1440/S031_2560x1440.png",
+      "sha256": "91cfe2b9a0aa7dcae421741951bb6d8254c2d071e03a7df30de2f2efe8d89683"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_47_ronin/Work/captions-planning-v01/scenes_2560x1440/S060_2560x1440.png",
+      "sha256": "510c0167314f6f33d5d6cdbaf5a47071fed708e7ed623d41a93ca5fb070f2441"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_47_ronin/Work/captions-planning-v01/scenes_2560x1440/S075_2560x1440.png",
+      "sha256": "7fd61ede42fd4261929f28c116459abbb573108309f1eea1129b66431615d58b"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_47_ronin/Work/captions-planning-v01/scenes_2560x1440/S098_2560x1440.png",
+      "sha256": "941542186bb5ef4424ef62b13fbdbaecd7ce5be9cff4b71925f6c3d9c2ad7ceb"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_47_ronin/Work/captions-planning-v01/scenes_2560x1440/S104_2560x1440.png",
+      "sha256": "b7f25325d2a9c369d4c172d23fabe3c27b60450a7665cfef8c7066c53e61ea7b"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_47_ronin/Work/captions-planning-v01/scenes_2560x1440/S128_2560x1440.png",
+      "sha256": "79f901e45ecb7281607d8b878778e1af79e011c36ee461ad4d8c0ed13bfade2e"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_47_ronin/Work/captions-planning-v01/scenes_2560x1440/S139_2560x1440.png",
+      "sha256": "a73aa3f4f179a08f861d64cb4be5319fc76d4c0e40034c14f5fd4dc57cb0294b"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_47_ronin/Work/captions-planning-v01/scenes_2560x1440/S140_2560x1440.png",
+      "sha256": "e653c44b2e7a1202449894a0cfc9cfb533daf460f4b41e920c4601c377bb3c47"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Source/Graphics/captions_v01/IRAN-BORN_v01.png",
+      "sha256": "4705f8e03189c0ee44d1382084dd141dcdb07703181bf195e72a5edbfafae531"
+    }
+  ],
+  "manifest_sha256": "8a2d86038f553bebce39a28af95f2b6f1cf319c666aad3b2f4f1e9edcdcc4b68",
+  "pairs": [
+    {
+      "anchor": "primary",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.16
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              875,
+              123,
+              1682,
+              359
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            858,
+            91
+          ],
+          "phone_preview": "../../../Work/captions-v01-preflight-r05/previews/S008/C01/primary__phone.png",
+          "preview": "../../../Work/captions-v01-preflight-r05/previews/S008/C01/primary.png"
+        }
+      ],
+      "cue": "C01",
+      "scene": "S008"
+    },
+    {
+      "anchor": "primary",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.16
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              884,
+              109,
+              1668,
+              351
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            875,
+            97
+          ],
+          "phone_preview": "../../../Work/captions-v01-preflight-r05/previews/S009/C02/primary__phone.png",
+          "preview": "../../../Work/captions-v01-preflight-r05/previews/S009/C02/primary.png"
+        }
+      ],
+      "cue": "C02",
+      "scene": "S009"
+    },
+    {
+      "anchor": "primary",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.16
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              1005,
+              139,
+              1555,
+              284
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            990,
+            130
+          ],
+          "phone_preview": "../../../Work/captions-v01-preflight-r05/previews/S010/C03/primary__phone.png",
+          "preview": "../../../Work/captions-v01-preflight-r05/previews/S010/C03/primary.png"
+        }
+      ],
+      "cue": "C03",
+      "scene": "S010"
+    },
+    {
+      "anchor": "primary",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.16
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              1025,
+              154,
+              1536,
+              311
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            995,
+            132
+          ],
+          "phone_preview": "../../../Work/captions-v01-preflight-r05/previews/S024/C04/primary__phone.png",
+          "preview": "../../../Work/captions-v01-preflight-r05/previews/S024/C04/primary.png"
+        }
+      ],
+      "cue": "C04",
+      "scene": "S024"
+    },
+    {
+      "anchor": "primary",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.16
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              903,
+              99,
+              1657,
+              351
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            885,
+            96
+          ],
+          "phone_preview": "../../../Work/captions-v01-preflight-r05/previews/S031/C05/primary__phone.png",
+          "preview": "../../../Work/captions-v01-preflight-r05/previews/S031/C05/primary.png"
+        }
+      ],
+      "cue": "C05",
+      "scene": "S031"
+    },
+    {
+      "anchor": "primary",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.16
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              713,
+              54,
+              1844,
+              408
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            693,
+            42
+          ],
+          "phone_preview": "../../../Work/captions-v01-preflight-r05/previews/S060/C06/primary__phone.png",
+          "preview": "../../../Work/captions-v01-preflight-r05/previews/S060/C06/primary.png"
+        }
+      ],
+      "cue": "C06",
+      "scene": "S060"
+    },
+    {
+      "anchor": "primary",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.16
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              1191,
+              177,
+              1380,
+              291
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            1148,
+            162
+          ],
+          "phone_preview": "../../../Work/captions-v01-preflight-r05/previews/S075/C07/primary__phone.png",
+          "preview": "../../../Work/captions-v01-preflight-r05/previews/S075/C07/primary.png"
+        }
+      ],
+      "cue": "C07",
+      "scene": "S075"
+    },
+    {
+      "anchor": "primary",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.16
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              780,
+              176,
+              1781,
+              289
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            770,
+            62
+          ],
+          "phone_preview": "../../../Work/captions-v01-preflight-r05/previews/S098/C08/primary__phone.png",
+          "preview": "../../../Work/captions-v01-preflight-r05/previews/S098/C08/primary.png"
+        }
+      ],
+      "cue": "C08",
+      "scene": "S098"
+    },
+    {
+      "anchor": "primary",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.16
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              1204,
+              179,
+              1356,
+              284
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            1152,
+            163
+          ],
+          "phone_preview": "../../../Work/captions-v01-preflight-r05/previews/S104/C09/primary__phone.png",
+          "preview": "../../../Work/captions-v01-preflight-r05/previews/S104/C09/primary.png"
+        }
+      ],
+      "cue": "C09",
+      "scene": "S104"
+    },
+    {
+      "anchor": "primary",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.16
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              1155,
+              163,
+              1417,
+              287
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            1131,
+            155
+          ],
+          "phone_preview": "../../../Work/captions-v01-preflight-r05/previews/S128/C10/primary__phone.png",
+          "preview": "../../../Work/captions-v01-preflight-r05/previews/S128/C10/primary.png"
+        }
+      ],
+      "cue": "C10",
+      "scene": "S128"
+    },
+    {
+      "anchor": "primary",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.16
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              994,
+              130,
+              1567,
+              325
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            972,
+            124
+          ],
+          "phone_preview": "../../../Work/captions-v01-preflight-r05/previews/S139/C11/primary__phone.png",
+          "preview": "../../../Work/captions-v01-preflight-r05/previews/S139/C11/primary.png"
+        }
+      ],
+      "cue": "C11",
+      "scene": "S139"
+    },
+    {
+      "anchor": "primary",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.16
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              973,
+              126,
+              1578,
+              331
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            954,
+            120
+          ],
+          "phone_preview": "../../../Work/captions-v01-preflight-r05/previews/S140/C12/primary__phone.png",
+          "preview": "../../../Work/captions-v01-preflight-r05/previews/S140/C12/primary.png"
+        }
+      ],
+      "cue": "C12",
+      "scene": "S140"
+    }
+  ],
+  "pillow_version": "11.3.0",
+  "shared_face_height_px": 94,
+  "source_manifest": {
+    "anchors": {
+      "primary": {
+        "center": [
+          0.5,
+          0.16
+        ],
+        "max_height_px": 360,
+        "max_width_px": 2100
+      }
+    },
+    "canvas": [
+      2560,
+      1440
+    ],
+    "cues": [
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                0,
+                0,
+                2172,
+                724
+              ]
+            ],
+            "mode": "creamOrange"
+          },
+          "path": "C01_CHUZHAYA_SKHVATKA_v01.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Source/Graphics/captions_v01/IRAN-BORN_v01.png",
+          "status": "PROVISIONAL imagegen text asset; inspect actual text and alpha",
+          "type": "existingPNG"
+        },
+        "id": "C01",
+        "lines": [
+          "ЧУЖАЯ СХВАТКА"
+        ],
+        "provenance": {
+          "author": "image_gen.imagegen; coordinator selection",
+          "record": "DECISION_RECORD_v01.md; GENERATION_LOG_v01.md"
+        },
+        "timing": {
+          "note": "~1.8–3.8 s; estimate only; scene duration is storyboard estimate, no voice/alignment exists",
+          "status": "UNVERIFIED"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                0,
+                0,
+                2172,
+                724
+              ]
+            ],
+            "mode": "creamOrange"
+          },
+          "path": "C02_PRESTUPLENIE_v01.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Source/Graphics/captions_v01/IRAN-BORN_v01.png",
+          "status": "PROVISIONAL imagegen text asset; inspect actual text and alpha",
+          "type": "existingPNG"
+        },
+        "id": "C02",
+        "lines": [
+          "ПРЕСТУПЛЕНИЕ?"
+        ],
+        "provenance": {
+          "author": "image_gen.imagegen; coordinator selection",
+          "record": "DECISION_RECORD_v01.md; GENERATION_LOG_v01.md"
+        },
+        "timing": {
+          "note": "~0.9–2.9 s; estimate only; scene duration is storyboard estimate, no voice/alignment exists",
+          "status": "UNVERIFIED"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                0,
+                0,
+                2172,
+                724
+              ]
+            ],
+            "mode": "creamOrange"
+          },
+          "path": "C03_DVA_UDARA_v01.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Source/Graphics/captions_v01/IRAN-BORN_v01.png",
+          "status": "PROVISIONAL imagegen text asset; inspect actual text and alpha",
+          "type": "existingPNG"
+        },
+        "id": "C03",
+        "lines": [
+          "ДВА УДАРА"
+        ],
+        "provenance": {
+          "author": "image_gen.imagegen; coordinator selection",
+          "record": "DECISION_RECORD_v01.md; GENERATION_LOG_v01.md"
+        },
+        "timing": {
+          "note": "~3.4–5.4 s; estimate only; scene duration is storyboard estimate, no voice/alignment exists",
+          "status": "UNVERIFIED"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                0,
+                0,
+                2172,
+                724
+              ]
+            ],
+            "mode": "creamOrange"
+          },
+          "path": "C04_SEPPUKU_v01.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Source/Graphics/captions_v01/IRAN-BORN_v01.png",
+          "status": "PROVISIONAL imagegen text asset; inspect actual text and alpha",
+          "type": "existingPNG"
+        },
+        "id": "C04",
+        "lines": [
+          "СЭППУКУ"
+        ],
+        "provenance": {
+          "author": "image_gen.imagegen; coordinator selection",
+          "record": "DECISION_RECORD_v01.md; GENERATION_LOG_v01.md"
+        },
+        "timing": {
+          "note": "~2.0–4.1 s; estimate only; scene duration is storyboard estimate, no voice/alignment exists",
+          "status": "UNVERIFIED"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                0,
+                0,
+                2172,
+                724
+              ]
+            ],
+            "mode": "creamOrange"
+          },
+          "path": "C05_BEZ_GOSPODINA_v01.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Source/Graphics/captions_v01/IRAN-BORN_v01.png",
+          "status": "PROVISIONAL imagegen text asset; inspect actual text and alpha",
+          "type": "existingPNG"
+        },
+        "id": "C05",
+        "lines": [
+          "БЕЗ ГОСПОДИНА"
+        ],
+        "provenance": {
+          "author": "image_gen.imagegen; coordinator selection",
+          "record": "DECISION_RECORD_v01.md; GENERATION_LOG_v01.md"
+        },
+        "timing": {
+          "note": "~2.3–4.1 s; estimate only; scene duration is storyboard estimate, no voice/alignment exists",
+          "status": "UNVERIFIED"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                0,
+                0,
+                2172,
+                724
+              ]
+            ],
+            "mode": "creamOrange"
+          },
+          "path": "C06_POPITKA_PROVALILAS_v01.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Source/Graphics/captions_v01/IRAN-BORN_v01.png",
+          "status": "PROVISIONAL imagegen text asset; inspect actual text and alpha",
+          "type": "existingPNG"
+        },
+        "id": "C06",
+        "lines": [
+          "ПОПЫТКА ПРОВАЛИЛАСЬ"
+        ],
+        "provenance": {
+          "author": "image_gen.imagegen; coordinator selection",
+          "record": "DECISION_RECORD_v01.md; GENERATION_LOG_v01.md"
+        },
+        "timing": {
+          "note": "~2.8–4.8 s; estimate only; scene duration is storyboard estimate, no voice/alignment exists",
+          "status": "UNVERIFIED"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                0,
+                0,
+                1774,
+                887
+              ]
+            ],
+            "mode": "creamOrange"
+          },
+          "path": "C07_47_v01.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Source/Graphics/captions_v01/IRAN-BORN_v01.png",
+          "status": "PROVISIONAL imagegen text asset; inspect actual text and alpha",
+          "type": "existingPNG"
+        },
+        "id": "C07",
+        "lines": [
+          "47"
+        ],
+        "provenance": {
+          "author": "image_gen.imagegen; coordinator selection",
+          "record": "DECISION_RECORD_v01.md; GENERATION_LOG_v01.md"
+        },
+        "timing": {
+          "note": "~0.7–2.3 s; estimate only; scene duration is storyboard estimate, no voice/alignment exists",
+          "status": "UNVERIFIED"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                0,
+                0,
+                2172,
+                724
+              ]
+            ],
+            "mode": "creamOrange"
+          },
+          "path": "C08_MEST_SVERSHILAS_v01.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Source/Graphics/captions_v01/IRAN-BORN_v01.png",
+          "status": "PROVISIONAL imagegen text asset; inspect actual text and alpha",
+          "type": "existingPNG"
+        },
+        "id": "C08",
+        "lines": [
+          "МЕСТЬ СВЕРШИЛАСЬ"
+        ],
+        "provenance": {
+          "author": "image_gen.imagegen; coordinator selection",
+          "record": "DECISION_RECORD_v01.md; GENERATION_LOG_v01.md"
+        },
+        "timing": {
+          "note": "~2.7–4.0 s; estimate only; scene duration is storyboard estimate, no voice/alignment exists",
+          "status": "UNVERIFIED"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                0,
+                0,
+                1774,
+                887
+              ]
+            ],
+            "mode": "creamOrange"
+          },
+          "path": "C09_46_v01.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Source/Graphics/captions_v01/IRAN-BORN_v01.png",
+          "status": "PROVISIONAL imagegen text asset; inspect actual text and alpha",
+          "type": "existingPNG"
+        },
+        "id": "C09",
+        "lines": [
+          "46"
+        ],
+        "provenance": {
+          "author": "image_gen.imagegen; coordinator selection",
+          "record": "DECISION_RECORD_v01.md; GENERATION_LOG_v01.md"
+        },
+        "timing": {
+          "note": "~2.0–4.0 s; estimate only; scene duration is storyboard estimate, no voice/alignment exists",
+          "status": "UNVERIFIED"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                0,
+                0,
+                1774,
+                887
+              ]
+            ],
+            "mode": "creamOrange"
+          },
+          "path": "C10_1748_v01.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Source/Graphics/captions_v01/IRAN-BORN_v01.png",
+          "status": "PROVISIONAL imagegen text asset; inspect actual text and alpha",
+          "type": "existingPNG"
+        },
+        "id": "C10",
+        "lines": [
+          "1748"
+        ],
+        "provenance": {
+          "author": "image_gen.imagegen; coordinator selection",
+          "record": "DECISION_RECORD_v01.md; GENERATION_LOG_v01.md"
+        },
+        "timing": {
+          "note": "~0.3–1.8 s; estimate only; scene duration is storyboard estimate, no voice/alignment exists",
+          "status": "UNVERIFIED"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                0,
+                0,
+                2172,
+                724
+              ]
+            ],
+            "mode": "creamOrange"
+          },
+          "path": "C11_TSENA_MESTI_v01.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Source/Graphics/captions_v01/IRAN-BORN_v01.png",
+          "status": "PROVISIONAL imagegen text asset; inspect actual text and alpha",
+          "type": "existingPNG"
+        },
+        "id": "C11",
+        "lines": [
+          "ЦЕНА МЕСТИ"
+        ],
+        "provenance": {
+          "author": "image_gen.imagegen; coordinator selection",
+          "record": "DECISION_RECORD_v01.md; GENERATION_LOG_v01.md"
+        },
+        "timing": {
+          "note": "~0.8–2.6 s; estimate only; scene duration is storyboard estimate, no voice/alignment exists",
+          "status": "UNVERIFIED"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                0,
+                0,
+                2172,
+                724
+              ]
+            ],
+            "mode": "creamOrange"
+          },
+          "path": "C12_BEZ_OTVETA_v01.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Source/Graphics/captions_v01/IRAN-BORN_v01.png",
+          "status": "PROVISIONAL imagegen text asset; inspect actual text and alpha",
+          "type": "existingPNG"
+        },
+        "id": "C12",
+        "lines": [
+          "БЕЗ ОТВЕТА"
+        ],
+        "provenance": {
+          "author": "image_gen.imagegen; coordinator selection",
+          "record": "DECISION_RECORD_v01.md; GENERATION_LOG_v01.md"
+        },
+        "timing": {
+          "note": "~3.1–5.3 s; estimate only; scene duration is storyboard estimate, no voice/alignment exists",
+          "status": "UNVERIFIED"
+        }
+      }
+    ],
+    "face_height_px": 120,
+    "min_face_height_px": 80,
+    "pairs": [
+      {
+        "anchor": "primary",
+        "cue": "C01",
+        "scene": "S008"
+      },
+      {
+        "anchor": "primary",
+        "cue": "C02",
+        "scene": "S009"
+      },
+      {
+        "anchor": "primary",
+        "cue": "C03",
+        "scene": "S010"
+      },
+      {
+        "anchor": "primary",
+        "cue": "C04",
+        "scene": "S024"
+      },
+      {
+        "anchor": "primary",
+        "cue": "C05",
+        "scene": "S031"
+      },
+      {
+        "anchor": "primary",
+        "cue": "C06",
+        "scene": "S060"
+      },
+      {
+        "anchor": "primary",
+        "cue": "C07",
+        "scene": "S075"
+      },
+      {
+        "anchor": "primary",
+        "cue": "C08",
+        "scene": "S098"
+      },
+      {
+        "anchor": "primary",
+        "cue": "C09",
+        "scene": "S104"
+      },
+      {
+        "anchor": "primary",
+        "cue": "C10",
+        "scene": "S128"
+      },
+      {
+        "anchor": "primary",
+        "cue": "C11",
+        "scene": "S139"
+      },
+      {
+        "anchor": "primary",
+        "cue": "C12",
+        "scene": "S140"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "S008",
+        "path": "../../../Work/captions-planning-v01/scenes_2560x1440/S008_2560x1440.png"
+      },
+      {
+        "id": "S009",
+        "path": "../../../Work/captions-planning-v01/scenes_2560x1440/S009_2560x1440.png"
+      },
+      {
+        "id": "S010",
+        "path": "../../../Work/captions-planning-v01/scenes_2560x1440/S010_2560x1440.png"
+      },
+      {
+        "id": "S024",
+        "path": "../../../Work/captions-planning-v01/scenes_2560x1440/S024_2560x1440.png"
+      },
+      {
+        "id": "S031",
+        "path": "../../../Work/captions-planning-v01/scenes_2560x1440/S031_2560x1440.png"
+      },
+      {
+        "id": "S060",
+        "path": "../../../Work/captions-planning-v01/scenes_2560x1440/S060_2560x1440.png"
+      },
+      {
+        "id": "S075",
+        "path": "../../../Work/captions-planning-v01/scenes_2560x1440/S075_2560x1440.png"
+      },
+      {
+        "id": "S098",
+        "path": "../../../Work/captions-planning-v01/scenes_2560x1440/S098_2560x1440.png"
+      },
+      {
+        "id": "S104",
+        "path": "../../../Work/captions-planning-v01/scenes_2560x1440/S104_2560x1440.png"
+      },
+      {
+        "id": "S128",
+        "path": "../../../Work/captions-planning-v01/scenes_2560x1440/S128_2560x1440.png"
+      },
+      {
+        "id": "S139",
+        "path": "../../../Work/captions-planning-v01/scenes_2560x1440/S139_2560x1440.png"
+      },
+      {
+        "id": "S140",
+        "path": "../../../Work/captions-planning-v01/scenes_2560x1440/S140_2560x1440.png"
+      }
+    ],
+    "version": 1
+  },
+  "storage": {
+    "dependencies": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_47_ronin/Assets/Generated/captions-v01-preflight-r05",
+    "previews": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_47_ronin/Work/captions-v01-preflight-r05/previews"
+  },
+  "version": 1
+}

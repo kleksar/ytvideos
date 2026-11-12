@@ -1,0 +1,33 @@
+{
+  "scene_id": "S023",
+  "version": "candidate_v01",
+  "status": "ACCEPTED_STATIC_SOURCE",
+  "depiction": "symbolic wish for freedom of travel; no border opening depicted",
+  "selected_copy": "/Users/diplomat/ytvideos/channels/paper_detour/videos/040_berlin_wall/Source/Images/v01/S023_candidate_v01.png",
+  "source_image": "/Users/diplomat/.codex/generated_images/01a1a186-1011-7450-b9d7-7b0e7f1e2f40/exec-58114cd0-0d51-40eb-8ba5-ef58e745faed.png",
+  "sha256": "c1b41423844c71e285992880ad57aa101a4934d477ca48f866013668301fe7b0",
+  "reference_paths": [
+    "/Users/diplomat/ytvideos/channels/paper_detour/Shared/References/Paper/paper004_user_38.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/040_berlin_wall/Source/Images/v01/S022_candidate_v01.png"
+  ],
+  "reference_hashes": {
+    "/Users/diplomat/ytvideos/channels/paper_detour/Shared/References/Paper/paper004_user_38.png": "238bb11958c8e59224edcd006db060df0bddd0c9e100f795e44eeb537ebdc166",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/040_berlin_wall/Source/Images/v01/S022_candidate_v01.png": "459b1b3f81557348285aa88e78de25b110761c99a1f7ba3735cd5bedaa721821"
+  },
+  "missing_catalog_anchor": "Paper Detour033 S01_v01.png unavailable locally and not used.",
+  "requested_generation_target": "3840x2160 landscape 16:9",
+  "actual_source_dimensions": "1672x941",
+  "image_tool_controls": "not exposed; target stated in prompt",
+  "delivery_target": "2560x1440 16:9 at 30 fps; motion/crop pending",
+  "visual_review": {
+    "reviewer": "Codex author (not an independent reviewer)",
+    "scope": "full-frame inspected against Paper004 and S022 palette",
+    "result": "ACCEPTED static composition: family holds a closed blank travel booklet while looking toward an open road, communicating a wish to travel without depicting borders as already opened.",
+    "limitations": [
+      "Tool output below requested 4K target.",
+      "Road, family and booklet are illustrative; no specific route or incident asserted.",
+      "Motion/crop/composite unverified."
+    ]
+  },
+  "prompt_file": "S023_candidate_v01_prompt.txt"
+}

@@ -1,0 +1,32 @@
+{
+  "status": "READY_TO_RENDER",
+  "edit": "/Users/diplomat/ytvideos/channels/paper_detour/videos/039_great_emu_war/Edit/Versions/edit_v03_punctuation.json",
+  "frame_count": 9361,
+  "fps": "30/1",
+  "duration_seconds": 312.03333333333336,
+  "canvas": [
+    2560,
+    1440
+  ],
+  "container": "mp4",
+  "codec": "h264",
+  "encoder": "h264_videotoolbox",
+  "bitrate_target": "20M",
+  "pixel_format": "yuv420p",
+  "colour_tags": "bt709/tv; renderer managed",
+  "audio": {
+    "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/039_great_emu_war/Source/Audio/full_mix_v02_speed110.m4a",
+    "sha256": "8981854d7388752817d477c63d3d91b82cc4c481b807099e0f0cae0d3b3df101",
+    "codec": "AAC-LC stream copy",
+    "sample_rate": 44100,
+    "channels": 1,
+    "speed": 1.1,
+    "additional_speed_processing": false
+  },
+  "subtitle_validation": "subtitle_validation_v03.json",
+  "subtitle_visual_preflight": "Work/subtitles_punctuation_v04/scratch/caption_preflight_reviewed02",
+  "srt_validation": "srt_validation_v03.json",
+  "audible_sync": "UNVERIFIED; no listening available; existing timing conformed with unchanged 1.1x mix",
+  "output": "Work/subtitles_punctuation_v04/previews/Paper039_EN_review_v03.mp4",
+  "post_render": "Immediately deliver MP4, no extra post-render QA."
+}

@@ -1,0 +1,7 @@
+# Radio Short 01 — subtitle version release, 2026-11-03
+
+User chose the displayed last subtitle review after hearing-sync limitations were disclosed. Existing exact file `Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4`, SHA-256 `2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4`, was uploaded unchanged as `lotfSkfgvuM`. The original narration and montage were not modified. Existing technical, visual sampling, motion and audible-sync QA limitations persist; the selection is not evidence of listening.
+
+Video is Public, processing succeeded: API receipt `public_receipt.json`; public oEmbed HTTP 200. Current title, description and tags copied from fresh previous public API readback. Accepted SOFTWARE ON THE RADIO? cover set via API and readback matched; reloaded Studio showed the selected cover. Added to Real Stories & Discoveries `PLEIDCTZ8y2k8`, item `UExFSURDVFo4eTJrOC5GM0Q3M0MzMzY5NTJFNTdE`. In Studio saved `Видео по теме` as public film `0RaC4t7yn5o`; reloaded form displayed A Radio Signal with an Unexpected Listener. Notifications showed —; SD and HD complete.
+
+User chose last version under agreed replacement plan: old public `85dwIXy_lZs` and old private `FMSPuyZvPXE` removed; both later API-read absent, new ID still public. Exact before and deletion receipts here. Old public had 458 views in preceding inventory; YouTube does not transfer old view count. Old pinned comment was removed with its video and was not recreated.

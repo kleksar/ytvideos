@@ -1,0 +1,26 @@
+{
+  "subtitle_contract_sha256": "e977600ec98e38fd11361368d000a4f533f0162d37d34c9c751ce7ed418af4bf",
+  "checks": {
+    "semantic_grouping": {
+      "status": "PASS",
+      "reviewer": "Coordinator, not independent",
+      "method": "Read all 153 saved phrase groups; exact transcript sequence and renderer semantic validation; three measured forced-width exceptions personally consulted.",
+      "coverage": "153 groups / 545 tokens",
+      "evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Research/CONSULTATION_CAPTION_BOUNDARIES_v01.md"
+    },
+    "audible_sync": {
+      "status": "UNVERIFIED",
+      "reviewer": "Coordinator",
+      "method": "Local forced alignment compared to provider duration-corrected character map only; no human listening performed.",
+      "coverage": "544 spoken words machine comparison: median absolute start delta 35 ms, p95 201.85 ms, max 521 ms; punctuation dash excluded.",
+      "evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Edit/Production/v02/word_times_mix_v02.json"
+    },
+    "visual_placement": {
+      "status": "PASS",
+      "reviewer": "Coordinator, not independent",
+      "method": "All 44 source scenes viewed full-frame; 44 mid-scene composites viewed in four contact sheets. Full-size S01, S17, S35 mids; revised S17/S35 start, middle and end personally viewed. Crop bounds validated at 132 samples. Caption renderer measured every phrase width.",
+      "coverage": "44 source images, 44 midpoint overview samples; targeted 7 full-size composites. 132 bounds samples are machine evidence, not 132 personal views.",
+      "evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Edit/Production/v02/preflight_frame_coverage.json"
+    }
+  }
+}

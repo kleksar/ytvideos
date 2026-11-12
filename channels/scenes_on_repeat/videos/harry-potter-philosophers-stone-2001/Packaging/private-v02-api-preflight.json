@@ -1,0 +1,36 @@
+{
+  "observed_at": "2026-11-09T19:11:13.506797+00:00",
+  "expected_channel": "UCqct_dth0WSCwiDZx1WMfgg",
+  "reads": {
+    "channels": {
+      "http": 403,
+      "reasons": [
+        "quotaExceeded"
+      ]
+    },
+    "videos": {
+      "http": 200,
+      "reasons": [],
+      "items": [
+        {
+          "id": "heIS0erf_pM",
+          "channel_id": "UCqct_dth0WSCwiDZx1WMfgg",
+          "privacy": "private",
+          "title": "They Told Him Magic Wasn't Real #Fantasy"
+        },
+        {
+          "id": "Noc5jeshphY",
+          "channel_id": "UCqct_dth0WSCwiDZx1WMfgg",
+          "privacy": "public",
+          "title": "Kevin Orders Pizza. The TV Answers. #MovieScenes"
+        }
+      ]
+    },
+    "playlists": {
+      "http": 403,
+      "reasons": [
+        "quotaExceeded"
+      ]
+    }
+  }
+}

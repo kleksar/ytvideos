@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "status": "READY_TO_RENDER",
+  "episode": "041_dune_origin",
+  "language": "en",
+  "format": "short",
+  "purpose": "stage16 user review MP4",
+  "settings_profile": {
+    "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/profiles/paper.json",
+    "sha256": "c391f4c46837e24b2f755eee6ff277f40abfb6afba761d3b00267959ea242bf0"
+  },
+  "edit": {
+    "project_id": null,
+    "timeline_id": null,
+    "saved_revision_evidence": "FFmpeg edit manifest; no native editor timeline is used",
+    "timeline_read_path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Edit/ffmpeg/edit_v03.json",
+    "timeline_read_sha256": "2b9cb7be25a4e4891138f157fe23f30cfce871590d552f286e2cd1dbb4c10bb4",
+    "dependencies": [
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Edit/ffmpeg/edit_v03.json",
+        "sha256": "2b9cb7be25a4e4891138f157fe23f30cfce871590d552f286e2cd1dbb4c10bb4"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/profiles/paper.json",
+        "sha256": "c391f4c46837e24b2f755eee6ff277f40abfb6afba761d3b00267959ea242bf0"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/montage.py",
+        "sha256": "9025804bdc0a7a22eae668b34cfa4cd0af6ada428da6b98d84b8ed1e7fb0f255"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Source/Audio/voiceonly_master_en_v02.wav",
+        "sha256": "fee65602a23d3ae18e5daa2df3bac4407e014106db611bfef967bcb104cc0072"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Source/Subtitles/word_times_en_v01.json",
+        "sha256": "f05a3ddafae987f08e34c89a6331ee1382355a8b9aeb233dcb0d45285d563402"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Source/Images/accepted_v01/S01.jpg",
+        "sha256": "05408180065be787f0e9da04a9ac148254bddb051a5d034a64240fc2c1037b6a"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Source/Images/accepted_v01/S02.jpg",
+        "sha256": "beceae2a88e78cd8bd8b83937aa15e7e891677a5655849149a2b2ba4975c4da2"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Source/Images/accepted_v01/S03.jpg",
+        "sha256": "de1ae5cd6cc63e31185ad81d7d1d340efe0d6653236191d07fe2a554d5bbde9f"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Source/Images/accepted_v01/S04.jpg",
+        "sha256": "22d9c823e538e186777afc4b5068a4829c47090a8b83a8b7ea10749d571cb318"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Source/Images/accepted_v01/S05.jpg",
+        "sha256": "30cc38f3f83ea1eae54a5e28961a98eaa8863f577cb332de8875214df51bc13e"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Source/Images/accepted_v01/S06.jpg",
+        "sha256": "381a4361cbab4f04335087eb5623a146f067b1e251497d4f3ae7af696af24520"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Source/Images/accepted_v01/S07.jpg",
+        "sha256": "b01111c1c2d6a96c6c7186356c7946e26dff2d937cc5b8423b3bb8a3856aa669"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Source/Images/accepted_v01/S08.jpg",
+        "sha256": "021e55b599f5a60634d25783927c659da81d46a30656d7d7a999bea869040b58"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Source/Images/accepted_v01/S09.jpg",
+        "sha256": "4954d908af1f570ee23de582337235705eaa6fdaed204b205e8882490df0f314"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Source/Images/accepted_v01/S10.jpg",
+        "sha256": "b8bae97072e914d36d3a60d4d0ed2e29450c9532e2c32d8c6b72d59db4e7b7cd"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Source/Images/accepted_v01/S11.jpg",
+        "sha256": "912880c3273cfb2a6d59c8332965e882226889c86d7e6cf7f8ca4d31ca5e4074"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Source/Images/accepted_v01/S12.jpg",
+        "sha256": "05408180065be787f0e9da04a9ac148254bddb051a5d034a64240fc2c1037b6a"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Assets/Generated/ffmpeg-captions-v03b/cues/C01/cue.png",
+        "sha256": "cbb7c07400f4fa79094f30ae3430782eb4167b588e5cb42a1cb8aa0c737e62cb"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Assets/Generated/ffmpeg-captions-v03b/cues/C02/cue.png",
+        "sha256": "516fea21e3e674ee2f8261daccbdff808a94ba1d04c76b28b906fdc63d058b04"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Assets/Generated/ffmpeg-captions-v03b/cues/C03/cue.png",
+        "sha256": "51162e55aa622c1bace04217f89a5c42c20c0c3fba6d9bcb8cdeadd62a2dd21b"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Source/Subtitles/caption_groups_en_v02.txt",
+        "sha256": "a1d595584466e9cb57293b0fbaa3fce13a37ad54ae023162bf98b7035fb2a2e2"
+      }
+    ]
+  },
+  "timeline": {
+    "width": 1440,
+    "height": 2560,
+    "aspect_ratio": "9:16",
+    "sample_aspect_ratio": "1:1",
+    "fps": "30/1",
+    "frame_count": 1587,
+    "duration_seconds": 52.9,
+    "output_color_space": "Rec.709"
+  },
+  "required_delivery": {
+    "container": "MP4",
+    "video": {
+      "codec_name": "h264",
+      "pix_fmt": "yuv420p",
+      "scan": "progressive",
+      "cadence": "constant 30/1 FPS",
+      "color_primaries": "bt709",
+      "color_transfer": "bt709",
+      "color_space": "bt709",
+      "color_range": "tv"
+    },
+    "audio_contract": {
+      "owner_handoff": "ytv-audio-delivery Paper mono voice-only delivery rules",
+      "accepted_complete_mix": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Source/Audio/voiceonly_master_en_v02.wav",
+      "source_rate_channels": "PCM S24LE, 44,100 Hz, mono; 52.88 s",
+      "codec_name": "AAC",
+      "profile": "LC",
+      "sample_rate": 44100,
+      "channels": 1,
+      "target_bit_rate": 192000
+    }
+  },
+  "encoding": {
+    "engine": "FFmpeg montage.py",
+    "version_evidence": "FFmpeg 8.1.2; h264_videotoolbox and libx264 are available",
+    "requested_arguments": {
+      "encoder": "h264_videotoolbox",
+      "video_bitrate": "20M",
+      "audio": "AAC-LC mono 192 kbit/s",
+      "output": "-pix_fmt yuv420p -color_primaries bt709 -color_trc bt709 -colorspace bt709 -color_range tv -movflags +faststart"
+    },
+    "quality_preferences": {
+      "video_bitrate": "20 Mbps starting point for 2K when encoder exposes rate control",
+      "faststart": true
+    },
+    "capability_evidence": "FFmpeg 8.1.2 encoder list; FFmpeg montage.py accepts only horizontal directions and whole-image zoom; plan-only completed after the final validator update.",
+    "engine_managed_fields": [
+      "H.264 profile/level and GOP selected by VideoToolbox; not forced by montage CLI",
+      "AAC encoder delay/padding and packet framing"
+    ]
+  },
+  "preflight": {
+    "author": "Codex",
+    "time": "2026-11-03",
+    "authorization_references": [
+      "User request: remake video and deliver MP4",
+      "Accepted narration and voice master recorded in CURRENT_CONTEXT.md"
+    ],
+    "fresh_settings_evidence": "FFmpeg 8.1.2; final plan-only validation passed; Paper profile hash recorded.",
+    "writer_and_export_state": "Single FFmpeg run production-v03-render active; no other renderer started",
+    "output_path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Work/production-v03-render/previews/041_dune_origin_EN_v03_stage16_review.mp4",
+    "overwrite": false,
+    "media_lifecycle_receipt": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Edit/MediaLifecycle/audit-pre-render-v06/audit.json",
+    "unresolved_required_fields": []
+  },
+  "render_receipt": null,
+  "qa_receipt": null
+}

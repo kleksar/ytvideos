@@ -1,0 +1,699 @@
+{
+  "file": "/Users/diplomat/ytvideos/channels/paper_detour/Shared/Experiments/Grain/20261102_watchmaker/Work/matrix10-v02-motion/previews/PAPER_DETOUR_GRAIN_10_PRESETS_MOTION_1440P_v02.mp4",
+  "sha256": "eb644c11bb3f91e8b9ed71fc9085f674b3508f82670e90e747ccad4cda6d80f2",
+  "bytes": 347737252,
+  "frames": 1500,
+  "duration": 50,
+  "segments": [
+    {
+      "preset": {
+        "id": 1,
+        "name": "Balanced Base",
+        "rms": 3,
+        "sigma": 0.77,
+        "hz": 30,
+        "rho": 0.65
+      },
+      "slate_start": 0,
+      "slate_frames": 30,
+      "image_start": 30,
+      "image_frames": 120,
+      "noise_field_updates": 120,
+      "settings_label": "RMS 3.0 / 255    |    Size sigma 0.77 px    |    30 Hz    |    rho 0.65",
+      "metrics": [
+        {
+          "frame": 0,
+          "applied_rms": 2.558769464492798,
+          "noise_field_sha256": "53f7fa2ec3c01d9e0ef4aeb5e049e3c45f4e9bef7bd82e9094080daaa4aea4c1",
+          "clean_frame_sha256": "9d1c1adb671cf9c0785a68a9ee6b9ed49fd034069e7119632116e8108ad79067"
+        },
+        {
+          "frame": 1,
+          "applied_rms": 2.55631947517395,
+          "noise_field_sha256": "c97f7e433f20f881671b61491f6d2e499cdd0f11d9751bdb51f3fb30b4e14272",
+          "clean_frame_sha256": "5299f89f369640e36a14b0d377b6fa300f662838fcea7f16b8f6653ce7e600b1"
+        },
+        {
+          "frame": 2,
+          "applied_rms": 2.5566329956054688,
+          "noise_field_sha256": "b504d0a9aac0712173a30b573ec141a83f2c4388b71efbdaba0a5839b4bb0489",
+          "clean_frame_sha256": "9e45a7321aed8cbcb7940c4e1b3d263050a3a3df130fb74ac713722c12a79a40"
+        },
+        {
+          "frame": 30,
+          "applied_rms": 2.5592432022094727,
+          "noise_field_sha256": "2b3abd24442dfd6a4b4fbee0277b2f1c765270754894e56e7ba10a0104a0d63f",
+          "clean_frame_sha256": "97f3db88716e059fc2bd6a1a5121b91ee367bcd1b2b5b6ff31df82a60c9fad93"
+        },
+        {
+          "frame": 60,
+          "applied_rms": 2.5543484687805176,
+          "noise_field_sha256": "325d15d34a218bad708aaebe035fbb56210b7c5b11fcc36c032eccbc8432e1bf",
+          "clean_frame_sha256": "041ca3004eb56f5e9667240462f074f8dbd81988e47078c7a9fd7fe1b3d82b08"
+        },
+        {
+          "frame": 90,
+          "applied_rms": 2.543773651123047,
+          "noise_field_sha256": "f47d4090dff2f9ce016a6e85bdda2564fd06358f23ee7326c079cd19cadfa3de",
+          "clean_frame_sha256": "920d8fb77b2c2778c318d967b189366606df8a54143d6d5fc78a0d6865c55a6f"
+        },
+        {
+          "frame": 119,
+          "applied_rms": 2.538700819015503,
+          "noise_field_sha256": "45732505608ba1d27da1f7d71ef6d5c06ea44629a88ecca530d41b969eee4639",
+          "clean_frame_sha256": "b4941a3c8f80f90b89d909ac850f25d8b8bc7cdbad22015b5c439c6305ea7f27"
+        }
+      ],
+      "common_sequence_sha256": "8ca7cb3eb067af3cd8d0a6ca4dada6e1d45a0871fbe34dab1b70175777143cea"
+    },
+    {
+      "preset": {
+        "id": 2,
+        "name": "Soft Amplitude",
+        "rms": 2.4,
+        "sigma": 0.77,
+        "hz": 30,
+        "rho": 0.65
+      },
+      "slate_start": 150,
+      "slate_frames": 30,
+      "image_start": 180,
+      "image_frames": 120,
+      "noise_field_updates": 120,
+      "settings_label": "RMS 2.4 / 255    |    Size sigma 0.77 px    |    30 Hz    |    rho 0.65",
+      "metrics": [
+        {
+          "frame": 0,
+          "applied_rms": 2.053661823272705,
+          "noise_field_sha256": "53f7fa2ec3c01d9e0ef4aeb5e049e3c45f4e9bef7bd82e9094080daaa4aea4c1",
+          "clean_frame_sha256": "9d1c1adb671cf9c0785a68a9ee6b9ed49fd034069e7119632116e8108ad79067"
+        },
+        {
+          "frame": 1,
+          "applied_rms": 2.051807165145874,
+          "noise_field_sha256": "c97f7e433f20f881671b61491f6d2e499cdd0f11d9751bdb51f3fb30b4e14272",
+          "clean_frame_sha256": "5299f89f369640e36a14b0d377b6fa300f662838fcea7f16b8f6653ce7e600b1"
+        },
+        {
+          "frame": 2,
+          "applied_rms": 2.0515549182891846,
+          "noise_field_sha256": "b504d0a9aac0712173a30b573ec141a83f2c4388b71efbdaba0a5839b4bb0489",
+          "clean_frame_sha256": "9e45a7321aed8cbcb7940c4e1b3d263050a3a3df130fb74ac713722c12a79a40"
+        },
+        {
+          "frame": 30,
+          "applied_rms": 2.0539398193359375,
+          "noise_field_sha256": "2b3abd24442dfd6a4b4fbee0277b2f1c765270754894e56e7ba10a0104a0d63f",
+          "clean_frame_sha256": "97f3db88716e059fc2bd6a1a5121b91ee367bcd1b2b5b6ff31df82a60c9fad93"
+        },
+        {
+          "frame": 60,
+          "applied_rms": 2.049811363220215,
+          "noise_field_sha256": "325d15d34a218bad708aaebe035fbb56210b7c5b11fcc36c032eccbc8432e1bf",
+          "clean_frame_sha256": "041ca3004eb56f5e9667240462f074f8dbd81988e47078c7a9fd7fe1b3d82b08"
+        },
+        {
+          "frame": 90,
+          "applied_rms": 2.041877508163452,
+          "noise_field_sha256": "f47d4090dff2f9ce016a6e85bdda2564fd06358f23ee7326c079cd19cadfa3de",
+          "clean_frame_sha256": "920d8fb77b2c2778c318d967b189366606df8a54143d6d5fc78a0d6865c55a6f"
+        },
+        {
+          "frame": 119,
+          "applied_rms": 2.0377800464630127,
+          "noise_field_sha256": "45732505608ba1d27da1f7d71ef6d5c06ea44629a88ecca530d41b969eee4639",
+          "clean_frame_sha256": "b4941a3c8f80f90b89d909ac850f25d8b8bc7cdbad22015b5c439c6305ea7f27"
+        }
+      ],
+      "common_sequence_sha256": "8ca7cb3eb067af3cd8d0a6ca4dada6e1d45a0871fbe34dab1b70175777143cea"
+    },
+    {
+      "preset": {
+        "id": 3,
+        "name": "Upper Amplitude",
+        "rms": 4,
+        "sigma": 0.77,
+        "hz": 30,
+        "rho": 0.65
+      },
+      "slate_start": 300,
+      "slate_frames": 30,
+      "image_start": 330,
+      "image_frames": 120,
+      "noise_field_updates": 120,
+      "settings_label": "RMS 4.0 / 255    |    Size sigma 0.77 px    |    30 Hz    |    rho 0.65",
+      "metrics": [
+        {
+          "frame": 0,
+          "applied_rms": 3.4029297828674316,
+          "noise_field_sha256": "53f7fa2ec3c01d9e0ef4aeb5e049e3c45f4e9bef7bd82e9094080daaa4aea4c1",
+          "clean_frame_sha256": "9d1c1adb671cf9c0785a68a9ee6b9ed49fd034069e7119632116e8108ad79067"
+        },
+        {
+          "frame": 1,
+          "applied_rms": 3.400110960006714,
+          "noise_field_sha256": "c97f7e433f20f881671b61491f6d2e499cdd0f11d9751bdb51f3fb30b4e14272",
+          "clean_frame_sha256": "5299f89f369640e36a14b0d377b6fa300f662838fcea7f16b8f6653ce7e600b1"
+        },
+        {
+          "frame": 2,
+          "applied_rms": 3.4000611305236816,
+          "noise_field_sha256": "b504d0a9aac0712173a30b573ec141a83f2c4388b71efbdaba0a5839b4bb0489",
+          "clean_frame_sha256": "9e45a7321aed8cbcb7940c4e1b3d263050a3a3df130fb74ac713722c12a79a40"
+        },
+        {
+          "frame": 30,
+          "applied_rms": 3.404020309448242,
+          "noise_field_sha256": "2b3abd24442dfd6a4b4fbee0277b2f1c765270754894e56e7ba10a0104a0d63f",
+          "clean_frame_sha256": "97f3db88716e059fc2bd6a1a5121b91ee367bcd1b2b5b6ff31df82a60c9fad93"
+        },
+        {
+          "frame": 60,
+          "applied_rms": 3.397284746170044,
+          "noise_field_sha256": "325d15d34a218bad708aaebe035fbb56210b7c5b11fcc36c032eccbc8432e1bf",
+          "clean_frame_sha256": "041ca3004eb56f5e9667240462f074f8dbd81988e47078c7a9fd7fe1b3d82b08"
+        },
+        {
+          "frame": 90,
+          "applied_rms": 3.3831257820129395,
+          "noise_field_sha256": "f47d4090dff2f9ce016a6e85bdda2564fd06358f23ee7326c079cd19cadfa3de",
+          "clean_frame_sha256": "920d8fb77b2c2778c318d967b189366606df8a54143d6d5fc78a0d6865c55a6f"
+        },
+        {
+          "frame": 119,
+          "applied_rms": 3.376429796218872,
+          "noise_field_sha256": "45732505608ba1d27da1f7d71ef6d5c06ea44629a88ecca530d41b969eee4639",
+          "clean_frame_sha256": "b4941a3c8f80f90b89d909ac850f25d8b8bc7cdbad22015b5c439c6305ea7f27"
+        }
+      ],
+      "common_sequence_sha256": "8ca7cb3eb067af3cd8d0a6ca4dada6e1d45a0871fbe34dab1b70175777143cea"
+    },
+    {
+      "preset": {
+        "id": 4,
+        "name": "Fine Grain",
+        "rms": 3,
+        "sigma": 0.6,
+        "hz": 30,
+        "rho": 0.65
+      },
+      "slate_start": 450,
+      "slate_frames": 30,
+      "image_start": 480,
+      "image_frames": 120,
+      "noise_field_updates": 120,
+      "settings_label": "RMS 3.0 / 255    |    Size sigma 0.60 px    |    30 Hz    |    rho 0.65",
+      "metrics": [
+        {
+          "frame": 0,
+          "applied_rms": 2.55781888961792,
+          "noise_field_sha256": "bad71122712e57a301eb7ce6e723c7a08806dacac347513e828208af5b691009",
+          "clean_frame_sha256": "9d1c1adb671cf9c0785a68a9ee6b9ed49fd034069e7119632116e8108ad79067"
+        },
+        {
+          "frame": 1,
+          "applied_rms": 2.556393623352051,
+          "noise_field_sha256": "3d4deffdab1687ea4ec5f6ab7b4f81c5c604e604342a320401d23be91ccfd4f6",
+          "clean_frame_sha256": "5299f89f369640e36a14b0d377b6fa300f662838fcea7f16b8f6653ce7e600b1"
+        },
+        {
+          "frame": 2,
+          "applied_rms": 2.5560762882232666,
+          "noise_field_sha256": "cb860c069a27b98ba2574fd4ae39874144b73d843407aeec68f6f2e20aed3013",
+          "clean_frame_sha256": "9e45a7321aed8cbcb7940c4e1b3d263050a3a3df130fb74ac713722c12a79a40"
+        },
+        {
+          "frame": 30,
+          "applied_rms": 2.558070182800293,
+          "noise_field_sha256": "6c4bf5a7dec79c9ba7360acc4ccfcb7f8b7e5a354c9c8c05509600b50c4cb515",
+          "clean_frame_sha256": "97f3db88716e059fc2bd6a1a5121b91ee367bcd1b2b5b6ff31df82a60c9fad93"
+        },
+        {
+          "frame": 60,
+          "applied_rms": 2.554004430770874,
+          "noise_field_sha256": "23409cf33311b47615743bba27ca60030f69dd47f5bdd977de0b3b6f2712933b",
+          "clean_frame_sha256": "041ca3004eb56f5e9667240462f074f8dbd81988e47078c7a9fd7fe1b3d82b08"
+        },
+        {
+          "frame": 90,
+          "applied_rms": 2.5443668365478516,
+          "noise_field_sha256": "c0c6c49b03aeac20969118f82c2f5ae2cbbc693d5c30a94e49cfbb8d49c00554",
+          "clean_frame_sha256": "920d8fb77b2c2778c318d967b189366606df8a54143d6d5fc78a0d6865c55a6f"
+        },
+        {
+          "frame": 119,
+          "applied_rms": 2.5391621589660645,
+          "noise_field_sha256": "b3954b52250ebb709201a1446a2d64a8db5d8294c7635d83aa18e36037cd72ff",
+          "clean_frame_sha256": "b4941a3c8f80f90b89d909ac850f25d8b8bc7cdbad22015b5c439c6305ea7f27"
+        }
+      ],
+      "common_sequence_sha256": "8ca7cb3eb067af3cd8d0a6ca4dada6e1d45a0871fbe34dab1b70175777143cea"
+    },
+    {
+      "preset": {
+        "id": 5,
+        "name": "Coarse Grain",
+        "rms": 3,
+        "sigma": 0.95,
+        "hz": 30,
+        "rho": 0.65
+      },
+      "slate_start": 600,
+      "slate_frames": 30,
+      "image_start": 630,
+      "image_frames": 120,
+      "noise_field_updates": 120,
+      "settings_label": "RMS 3.0 / 255    |    Size sigma 0.95 px    |    30 Hz    |    rho 0.65",
+      "metrics": [
+        {
+          "frame": 0,
+          "applied_rms": 2.559952735900879,
+          "noise_field_sha256": "f64acb74ae3aa71edfbbb3dd74e6f89cdb5675eb4c97326443c029325c87c5f8",
+          "clean_frame_sha256": "9d1c1adb671cf9c0785a68a9ee6b9ed49fd034069e7119632116e8108ad79067"
+        },
+        {
+          "frame": 1,
+          "applied_rms": 2.557239055633545,
+          "noise_field_sha256": "56508816772e3737d74bfda26cf711e7f13d822c4b532c296336643a927d0d35",
+          "clean_frame_sha256": "5299f89f369640e36a14b0d377b6fa300f662838fcea7f16b8f6653ce7e600b1"
+        },
+        {
+          "frame": 2,
+          "applied_rms": 2.5568978786468506,
+          "noise_field_sha256": "837f8aa295cbe20fd3671a94c5831912d3a70bd8d2eeec47376a7d4d41b1aaf5",
+          "clean_frame_sha256": "9e45a7321aed8cbcb7940c4e1b3d263050a3a3df130fb74ac713722c12a79a40"
+        },
+        {
+          "frame": 30,
+          "applied_rms": 2.560274124145508,
+          "noise_field_sha256": "d7de8d73a1458bd611add5beed920230d8143088c104a2f5e29db4d09c5c36d0",
+          "clean_frame_sha256": "97f3db88716e059fc2bd6a1a5121b91ee367bcd1b2b5b6ff31df82a60c9fad93"
+        },
+        {
+          "frame": 60,
+          "applied_rms": 2.555098056793213,
+          "noise_field_sha256": "afb235c10df1cfdf848ff3cdac627b61dd2d67c29d465d99015b58f7056e0f7e",
+          "clean_frame_sha256": "041ca3004eb56f5e9667240462f074f8dbd81988e47078c7a9fd7fe1b3d82b08"
+        },
+        {
+          "frame": 90,
+          "applied_rms": 2.5434787273406982,
+          "noise_field_sha256": "f220aa45e475a5632deab52629f9fcd0b67d9def7617ba641ad9d0c2dc171841",
+          "clean_frame_sha256": "920d8fb77b2c2778c318d967b189366606df8a54143d6d5fc78a0d6865c55a6f"
+        },
+        {
+          "frame": 119,
+          "applied_rms": 2.5388846397399902,
+          "noise_field_sha256": "34555e353997880cdf209d2d0971e329343a4f2dc8fc02ac220972a2c84ccba4",
+          "clean_frame_sha256": "b4941a3c8f80f90b89d909ac850f25d8b8bc7cdbad22015b5c439c6305ea7f27"
+        }
+      ],
+      "common_sequence_sha256": "8ca7cb3eb067af3cd8d0a6ca4dada6e1d45a0871fbe34dab1b70175777143cea"
+    },
+    {
+      "preset": {
+        "id": 6,
+        "name": "Slow Refresh 15",
+        "rms": 3,
+        "sigma": 0.77,
+        "hz": 15,
+        "rho": 0.65
+      },
+      "slate_start": 750,
+      "slate_frames": 30,
+      "image_start": 780,
+      "image_frames": 120,
+      "noise_field_updates": 60,
+      "settings_label": "RMS 3.0 / 255    |    Size sigma 0.77 px    |    15 Hz    |    rho 0.65",
+      "metrics": [
+        {
+          "frame": 0,
+          "applied_rms": 2.558769464492798,
+          "noise_field_sha256": "53f7fa2ec3c01d9e0ef4aeb5e049e3c45f4e9bef7bd82e9094080daaa4aea4c1",
+          "clean_frame_sha256": "9d1c1adb671cf9c0785a68a9ee6b9ed49fd034069e7119632116e8108ad79067"
+        },
+        {
+          "frame": 1,
+          "applied_rms": 2.558708667755127,
+          "noise_field_sha256": "53f7fa2ec3c01d9e0ef4aeb5e049e3c45f4e9bef7bd82e9094080daaa4aea4c1",
+          "clean_frame_sha256": "5299f89f369640e36a14b0d377b6fa300f662838fcea7f16b8f6653ce7e600b1"
+        },
+        {
+          "frame": 2,
+          "applied_rms": 2.5562732219696045,
+          "noise_field_sha256": "c97f7e433f20f881671b61491f6d2e499cdd0f11d9751bdb51f3fb30b4e14272",
+          "clean_frame_sha256": "9e45a7321aed8cbcb7940c4e1b3d263050a3a3df130fb74ac713722c12a79a40"
+        },
+        {
+          "frame": 30,
+          "applied_rms": 2.552290201187134,
+          "noise_field_sha256": "62d3c8a3c9d768ad9ee0ffedea0d1fef2496b784a052afddb5fca32d6d01e103",
+          "clean_frame_sha256": "97f3db88716e059fc2bd6a1a5121b91ee367bcd1b2b5b6ff31df82a60c9fad93"
+        },
+        {
+          "frame": 60,
+          "applied_rms": 2.5548036098480225,
+          "noise_field_sha256": "2b3abd24442dfd6a4b4fbee0277b2f1c765270754894e56e7ba10a0104a0d63f",
+          "clean_frame_sha256": "041ca3004eb56f5e9667240462f074f8dbd81988e47078c7a9fd7fe1b3d82b08"
+        },
+        {
+          "frame": 90,
+          "applied_rms": 2.544649124145508,
+          "noise_field_sha256": "b89bbce66a9570725aa15ea5e55ba8db9a815b65f9d4eadd8bd4bdbf4495dac2",
+          "clean_frame_sha256": "920d8fb77b2c2778c318d967b189366606df8a54143d6d5fc78a0d6865c55a6f"
+        },
+        {
+          "frame": 119,
+          "applied_rms": 2.5436837673187256,
+          "noise_field_sha256": "6120e6b368cbb88c5c71c76222a0883aa43a5a77fd7f27c3133f9860496ef327",
+          "clean_frame_sha256": "b4941a3c8f80f90b89d909ac850f25d8b8bc7cdbad22015b5c439c6305ea7f27"
+        }
+      ],
+      "common_sequence_sha256": "8ca7cb3eb067af3cd8d0a6ca4dada6e1d45a0871fbe34dab1b70175777143cea"
+    },
+    {
+      "preset": {
+        "id": 7,
+        "name": "Slow Refresh 10",
+        "rms": 3,
+        "sigma": 0.77,
+        "hz": 10,
+        "rho": 0.65
+      },
+      "slate_start": 900,
+      "slate_frames": 30,
+      "image_start": 930,
+      "image_frames": 120,
+      "noise_field_updates": 40,
+      "settings_label": "RMS 3.0 / 255    |    Size sigma 0.77 px    |    10 Hz    |    rho 0.65",
+      "metrics": [
+        {
+          "frame": 0,
+          "applied_rms": 2.558769464492798,
+          "noise_field_sha256": "53f7fa2ec3c01d9e0ef4aeb5e049e3c45f4e9bef7bd82e9094080daaa4aea4c1",
+          "clean_frame_sha256": "9d1c1adb671cf9c0785a68a9ee6b9ed49fd034069e7119632116e8108ad79067"
+        },
+        {
+          "frame": 1,
+          "applied_rms": 2.558708667755127,
+          "noise_field_sha256": "53f7fa2ec3c01d9e0ef4aeb5e049e3c45f4e9bef7bd82e9094080daaa4aea4c1",
+          "clean_frame_sha256": "5299f89f369640e36a14b0d377b6fa300f662838fcea7f16b8f6653ce7e600b1"
+        },
+        {
+          "frame": 2,
+          "applied_rms": 2.5586488246917725,
+          "noise_field_sha256": "53f7fa2ec3c01d9e0ef4aeb5e049e3c45f4e9bef7bd82e9094080daaa4aea4c1",
+          "clean_frame_sha256": "9e45a7321aed8cbcb7940c4e1b3d263050a3a3df130fb74ac713722c12a79a40"
+        },
+        {
+          "frame": 30,
+          "applied_rms": 2.5520057678222656,
+          "noise_field_sha256": "46175333baba0bca2fb1787ba50ef93002ec42c7f42361fb0317faad186ca5c8",
+          "clean_frame_sha256": "97f3db88716e059fc2bd6a1a5121b91ee367bcd1b2b5b6ff31df82a60c9fad93"
+        },
+        {
+          "frame": 60,
+          "applied_rms": 2.550604820251465,
+          "noise_field_sha256": "c626b6c331caa2ba618ce241bbaa9dff0baeca27814eee5fffb8678ffd7bf780",
+          "clean_frame_sha256": "041ca3004eb56f5e9667240462f074f8dbd81988e47078c7a9fd7fe1b3d82b08"
+        },
+        {
+          "frame": 90,
+          "applied_rms": 2.5466973781585693,
+          "noise_field_sha256": "2b3abd24442dfd6a4b4fbee0277b2f1c765270754894e56e7ba10a0104a0d63f",
+          "clean_frame_sha256": "920d8fb77b2c2778c318d967b189366606df8a54143d6d5fc78a0d6865c55a6f"
+        },
+        {
+          "frame": 119,
+          "applied_rms": 2.539214849472046,
+          "noise_field_sha256": "be15eb8fd52dd9019757e2e6531a9dc30e48468e16b5ab46f92c415119eb29ff",
+          "clean_frame_sha256": "b4941a3c8f80f90b89d909ac850f25d8b8bc7cdbad22015b5c439c6305ea7f27"
+        }
+      ],
+      "common_sequence_sha256": "8ca7cb3eb067af3cd8d0a6ca4dada6e1d45a0871fbe34dab1b70175777143cea"
+    },
+    {
+      "preset": {
+        "id": 8,
+        "name": "Short Persistence",
+        "rms": 3,
+        "sigma": 0.77,
+        "hz": 30,
+        "rho": 0.35
+      },
+      "slate_start": 1050,
+      "slate_frames": 30,
+      "image_start": 1080,
+      "image_frames": 120,
+      "noise_field_updates": 120,
+      "settings_label": "RMS 3.0 / 255    |    Size sigma 0.77 px    |    30 Hz    |    rho 0.35",
+      "metrics": [
+        {
+          "frame": 0,
+          "applied_rms": 2.558769464492798,
+          "noise_field_sha256": "53f7fa2ec3c01d9e0ef4aeb5e049e3c45f4e9bef7bd82e9094080daaa4aea4c1",
+          "clean_frame_sha256": "9d1c1adb671cf9c0785a68a9ee6b9ed49fd034069e7119632116e8108ad79067"
+        },
+        {
+          "frame": 1,
+          "applied_rms": 2.55582332611084,
+          "noise_field_sha256": "7a52e0442757298fa364338045b420ecf6d103fd19ac127f344a48a3b868d0f6",
+          "clean_frame_sha256": "5299f89f369640e36a14b0d377b6fa300f662838fcea7f16b8f6653ce7e600b1"
+        },
+        {
+          "frame": 2,
+          "applied_rms": 2.5566635131835938,
+          "noise_field_sha256": "fccea95947562f6636a2ccb4a04224a63a863832d3a70243be09bcf229ee32e3",
+          "clean_frame_sha256": "9e45a7321aed8cbcb7940c4e1b3d263050a3a3df130fb74ac713722c12a79a40"
+        },
+        {
+          "frame": 30,
+          "applied_rms": 2.5586721897125244,
+          "noise_field_sha256": "83d4e5e42c4c5edfd5416844b4828f40b248f934ab3ad7676079f18109d06c3b",
+          "clean_frame_sha256": "97f3db88716e059fc2bd6a1a5121b91ee367bcd1b2b5b6ff31df82a60c9fad93"
+        },
+        {
+          "frame": 60,
+          "applied_rms": 2.5522541999816895,
+          "noise_field_sha256": "81ace89089fd370d02c4f7871595d3c3d6dabe4ec46fc01aaafccf9d6b34d2c8",
+          "clean_frame_sha256": "041ca3004eb56f5e9667240462f074f8dbd81988e47078c7a9fd7fe1b3d82b08"
+        },
+        {
+          "frame": 90,
+          "applied_rms": 2.544093132019043,
+          "noise_field_sha256": "2c78638eb66f76b4f750656d7f81c0f2eb377c0f8b2530657ff7d5d6dbe5630d",
+          "clean_frame_sha256": "920d8fb77b2c2778c318d967b189366606df8a54143d6d5fc78a0d6865c55a6f"
+        },
+        {
+          "frame": 119,
+          "applied_rms": 2.5387821197509766,
+          "noise_field_sha256": "fab71452c934bf721cd2832cd0ac6d6945e806979a6c5ac600160a2030ed5edc",
+          "clean_frame_sha256": "b4941a3c8f80f90b89d909ac850f25d8b8bc7cdbad22015b5c439c6305ea7f27"
+        }
+      ],
+      "common_sequence_sha256": "8ca7cb3eb067af3cd8d0a6ca4dada6e1d45a0871fbe34dab1b70175777143cea"
+    },
+    {
+      "preset": {
+        "id": 9,
+        "name": "Long Persistence",
+        "rms": 3,
+        "sigma": 0.77,
+        "hz": 30,
+        "rho": 0.85
+      },
+      "slate_start": 1200,
+      "slate_frames": 30,
+      "image_start": 1230,
+      "image_frames": 120,
+      "noise_field_updates": 120,
+      "settings_label": "RMS 3.0 / 255    |    Size sigma 0.77 px    |    30 Hz    |    rho 0.85",
+      "metrics": [
+        {
+          "frame": 0,
+          "applied_rms": 2.558769464492798,
+          "noise_field_sha256": "53f7fa2ec3c01d9e0ef4aeb5e049e3c45f4e9bef7bd82e9094080daaa4aea4c1",
+          "clean_frame_sha256": "9d1c1adb671cf9c0785a68a9ee6b9ed49fd034069e7119632116e8108ad79067"
+        },
+        {
+          "frame": 1,
+          "applied_rms": 2.5579400062561035,
+          "noise_field_sha256": "1d181872ab13d46704a7528483f11995eed2b1ec3096726e250822af2e6b3d1f",
+          "clean_frame_sha256": "5299f89f369640e36a14b0d377b6fa300f662838fcea7f16b8f6653ce7e600b1"
+        },
+        {
+          "frame": 2,
+          "applied_rms": 2.557253360748291,
+          "noise_field_sha256": "a131961252c70f8489e1c9146dd5fdfe5b01793c713f172a9725079136b2720d",
+          "clean_frame_sha256": "9e45a7321aed8cbcb7940c4e1b3d263050a3a3df130fb74ac713722c12a79a40"
+        },
+        {
+          "frame": 30,
+          "applied_rms": 2.557727813720703,
+          "noise_field_sha256": "e64f149907fc1c5f75f42786cf0640cf2520e7611e29b6ac94b33fa8d190aecd",
+          "clean_frame_sha256": "97f3db88716e059fc2bd6a1a5121b91ee367bcd1b2b5b6ff31df82a60c9fad93"
+        },
+        {
+          "frame": 60,
+          "applied_rms": 2.555790662765503,
+          "noise_field_sha256": "8fb83abac4122a8ebad26a1eab7ee0f7208f0180082789fd23daa091c0acccd1",
+          "clean_frame_sha256": "041ca3004eb56f5e9667240462f074f8dbd81988e47078c7a9fd7fe1b3d82b08"
+        },
+        {
+          "frame": 90,
+          "applied_rms": 2.545132875442505,
+          "noise_field_sha256": "83da8f8934f896123c788ce704d46e2107985858ee6d40b52dc34aad99ba74d2",
+          "clean_frame_sha256": "920d8fb77b2c2778c318d967b189366606df8a54143d6d5fc78a0d6865c55a6f"
+        },
+        {
+          "frame": 119,
+          "applied_rms": 2.5409626960754395,
+          "noise_field_sha256": "649524ea9d9cbe554340b0057e255faf8025714922b4aefc7d796f180d1e9cc4",
+          "clean_frame_sha256": "b4941a3c8f80f90b89d909ac850f25d8b8bc7cdbad22015b5c439c6305ea7f27"
+        }
+      ],
+      "common_sequence_sha256": "8ca7cb3eb067af3cd8d0a6ca4dada6e1d45a0871fbe34dab1b70175777143cea"
+    },
+    {
+      "preset": {
+        "id": 10,
+        "name": "Test 03 Scaled",
+        "rms": 3.6,
+        "sigma": 0.77,
+        "hz": 30,
+        "rho": 0.65
+      },
+      "slate_start": 1350,
+      "slate_frames": 30,
+      "image_start": 1380,
+      "image_frames": 120,
+      "noise_field_updates": 120,
+      "settings_label": "RMS 3.6 / 255    |    Size sigma 0.77 px    |    30 Hz    |    rho 0.65",
+      "metrics": [
+        {
+          "frame": 0,
+          "applied_rms": 3.06493878364563,
+          "noise_field_sha256": "53f7fa2ec3c01d9e0ef4aeb5e049e3c45f4e9bef7bd82e9094080daaa4aea4c1",
+          "clean_frame_sha256": "9d1c1adb671cf9c0785a68a9ee6b9ed49fd034069e7119632116e8108ad79067"
+        },
+        {
+          "frame": 1,
+          "applied_rms": 3.062540292739868,
+          "noise_field_sha256": "c97f7e433f20f881671b61491f6d2e499cdd0f11d9751bdb51f3fb30b4e14272",
+          "clean_frame_sha256": "5299f89f369640e36a14b0d377b6fa300f662838fcea7f16b8f6653ce7e600b1"
+        },
+        {
+          "frame": 2,
+          "applied_rms": 3.062202215194702,
+          "noise_field_sha256": "b504d0a9aac0712173a30b573ec141a83f2c4388b71efbdaba0a5839b4bb0489",
+          "clean_frame_sha256": "9e45a7321aed8cbcb7940c4e1b3d263050a3a3df130fb74ac713722c12a79a40"
+        },
+        {
+          "frame": 30,
+          "applied_rms": 3.0656774044036865,
+          "noise_field_sha256": "2b3abd24442dfd6a4b4fbee0277b2f1c765270754894e56e7ba10a0104a0d63f",
+          "clean_frame_sha256": "97f3db88716e059fc2bd6a1a5121b91ee367bcd1b2b5b6ff31df82a60c9fad93"
+        },
+        {
+          "frame": 60,
+          "applied_rms": 3.060112237930298,
+          "noise_field_sha256": "325d15d34a218bad708aaebe035fbb56210b7c5b11fcc36c032eccbc8432e1bf",
+          "clean_frame_sha256": "041ca3004eb56f5e9667240462f074f8dbd81988e47078c7a9fd7fe1b3d82b08"
+        },
+        {
+          "frame": 90,
+          "applied_rms": 3.047152042388916,
+          "noise_field_sha256": "f47d4090dff2f9ce016a6e85bdda2564fd06358f23ee7326c079cd19cadfa3de",
+          "clean_frame_sha256": "920d8fb77b2c2778c318d967b189366606df8a54143d6d5fc78a0d6865c55a6f"
+        },
+        {
+          "frame": 119,
+          "applied_rms": 3.0409843921661377,
+          "noise_field_sha256": "45732505608ba1d27da1f7d71ef6d5c06ea44629a88ecca530d41b969eee4639",
+          "clean_frame_sha256": "b4941a3c8f80f90b89d909ac850f25d8b8bc7cdbad22015b5c439c6305ea7f27"
+        }
+      ],
+      "common_sequence_sha256": "8ca7cb3eb067af3cd8d0a6ca4dada6e1d45a0871fbe34dab1b70175777143cea"
+    }
+  ],
+  "command": [
+    "ffmpeg",
+    "-hide_banner",
+    "-v",
+    "error",
+    "-n",
+    "-f",
+    "rawvideo",
+    "-pixel_format",
+    "yuv420p",
+    "-video_size",
+    "2560x1440",
+    "-framerate",
+    "30",
+    "-i",
+    "pipe:0",
+    "-an",
+    "-vf",
+    "setsar=1",
+    "-c:v",
+    "libx264",
+    "-preset",
+    "fast",
+    "-tune",
+    "grain",
+    "-crf",
+    "16",
+    "-threads",
+    "8",
+    "-profile:v",
+    "high",
+    "-g",
+    "15",
+    "-bf",
+    "2",
+    "-x264-params",
+    "open-gop=0",
+    "-color_range",
+    "tv",
+    "-colorspace",
+    "bt709",
+    "-color_trc",
+    "bt709",
+    "-color_primaries",
+    "bt709",
+    "-bsf:v",
+    "h264_metadata=colour_primaries=1:transfer_characteristics=1:matrix_coefficients=1:video_full_range_flag=0",
+    "-use_editlist",
+    "0",
+    "-movflags",
+    "+faststart+negative_cts_offsets",
+    "/Users/diplomat/ytvideos/channels/paper_detour/Shared/Experiments/Grain/20261102_watchmaker/Work/matrix10-v02-motion/previews/PAPER_DETOUR_GRAIN_10_PRESETS_MOTION_1440P_v02.mp4"
+  ],
+  "common_motion_decode_command": [
+    "ffmpeg",
+    "-v",
+    "error",
+    "-i",
+    "/Users/diplomat/ytvideos/Shared/Image_Motion/Cache/video/b92465dc47938ae2a0fedd8e5a1c0bbc100b0518138b14beb0e641f2d7b65c47.mp4",
+    "-vf",
+    "trim=end_frame=120,setpts=PTS-STARTPTS,scale=2816:1584:flags=lanczos,crop=2560:1440:x='185.600000+(-115.200000)*n/119':y=72.000000,colorspace=iall=bt601-6-625:iprimaries=bt709:itrc=srgb:irange=tv:all=bt709:range=tv:format=yuv420p,setsar=1",
+    "-frames:v",
+    "120",
+    "-pix_fmt",
+    "yuv420p",
+    "-f",
+    "rawvideo",
+    "pipe:1"
+  ],
+  "common_sequence_sha256": "8ca7cb3eb067af3cd8d0a6ca4dada6e1d45a0871fbe34dab1b70175777143cea",
+  "common_sequence_frames": 120,
+  "source_image_sha256": "151cb0e796053eccd9726099c8feabd7ac1dbc4d302cb1e63cc27612a643e733",
+  "contract_sha256": "bb58345e2b0af652c6fdf248acca4af6e04cffa9d4ba2822a6ed8a34bf6486a2",
+  "elapsed_seconds": 199.36334091698518,
+  "notes": [
+    "Exactly same30fps motion sequence in all10variants, including15/10Hzgrain",
+    "No audio created",
+    "Screen-coordinate grain added after camera/depth;labels not grained",
+    "Old static comparison retained;no universal preset adopted"
+  ]
+}

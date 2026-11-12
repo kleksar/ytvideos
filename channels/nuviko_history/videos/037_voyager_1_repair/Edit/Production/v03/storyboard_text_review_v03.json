@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-05",
+  "author": "Coordinator, self-review; not independent",
+  "result": "PASS_TEXT_COVERAGE",
+  "storyboard": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Storyboard/visual_ideas_v03.json",
+  "storyboard_sha256": "1f565481ae884c326652609710e3f7c8c777bf8462e1c350e73ed56bae00652a",
+  "shots": 44,
+  "word_tokens": 545,
+  "coverage": "Every accepted narration token including spoken title assigned exactly once by forced-alignment midpoint; all frames0..6353covered without gaps/overlap.",
+  "durations_seconds": "Every shot4..6s",
+  "audio_and_edit": "Narration and montage hashes recorded; no media or timeline altered.",
+  "limits": [
+    "No generated PNG inspected for v03",
+    "No audible sync review",
+    "No new fact check",
+    "Visual reference selection still pending",
+    "User storyboard acceptance pending"
+  ],
+  "consultation_records": [
+    "Source/Research/CONSULTATION_STORYBOARD_v03_A.md",
+    "Source/Research/CONSULTATION_STORYBOARD_v03_B.md"
+  ],
+  "readable_storyboard": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Storyboard/STORYBOARD_REVIEW_v03.md",
+  "readable_storyboard_sha256": "03358b04ea947108ae0169cc30254eaf965df9739c57e726af8851d66a0c7ceb",
+  "unchanged_audio_hash_verified": true,
+  "unchanged_accepted_russian_hash_verified": true,
+  "character_reference_hashes": {
+    "channels/nuviko_history/brand/References/traveler_turnaround_20261104.png": "f093ba6c1c3e97cb3ffca2e0329af93a47d7aabdfc7b77f9768b7263bfa6f0c7",
+    "channels/nuviko_history/brand/References/traveler_emotions_20261104.png": "d0e47f0560a1894f4d52d69d7826e0f1461f78733c2b80e41899459b3da2dc78"
+  }
+}

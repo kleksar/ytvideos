@@ -1,0 +1,15 @@
+{
+  "artifact": {
+    "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Deliverables/voyager_037_en_v02.srt",
+    "sha256": "fc8f9de1f5d29a2f9cf9180df595d937c5dc961033f5982c5705e3718c478da4"
+  },
+  "status": "MACHINE_TEXT_AND_TIMING_VALIDATED_LISTENING_PENDING",
+  "checks": {
+    "153_cues": true,
+    "literal_text_equal": true,
+    "timing_source": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Edit/Production/v02/word_times_mix_v02.json",
+    "speech_conform": "identity: mix only, no cuts or speed change after alignment",
+    "audible_sync": "UNVERIFIED",
+    "final_mp4_review": "PENDING_USER_REVIEW"
+  }
+}

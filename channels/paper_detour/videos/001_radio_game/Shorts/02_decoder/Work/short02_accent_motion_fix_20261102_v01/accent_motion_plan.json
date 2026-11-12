@@ -1,0 +1,870 @@
+{
+  "version": 1,
+  "created_utc": "2026-11-02T22:49:46.621052+00:00",
+  "projectId": "31F93804",
+  "timelineId": "7537BAE9",
+  "source_candidate": "Work/short02-provider-alignment-review-20261102/previews/PAPER_DETOUR_001_SHORT02_RENEWAL_EN_REVIEW_20261102_v03.mp4",
+  "source_sha256": "bd5d071beb1465db056f6c2746da778b74602814675d3f04b2de425ec4685d6f",
+  "canvas": [
+    1080,
+    1920
+  ],
+  "fps": 30,
+  "totalFrames": 1098,
+  "intent": "Add only the approved screen-space rise/hold/rise-and-fade animation to the existing nine accent PNG clips; hold the existing static transform exactly. Clear multiplicative clip fades so the authored opacity curve is the only fade. Preserve cue timing/media, subtitle overlay, scene clips and A1.",
+  "cues": [
+    {
+      "cueId": "C01",
+      "clipId": "C3BF1F97",
+      "assetId": "BF1DFBB7",
+      "assetName": "Short02_C01",
+      "frames": [
+        82,
+        171
+      ],
+      "durationFrames": 89,
+      "staticTransform": {
+        "centerX": 0.499,
+        "centerY": 0.183,
+        "height": 0.14,
+        "width": 0.745
+      },
+      "staticFadeFrames": [
+        3,
+        3
+      ],
+      "heldTopLeft": [
+        0.1265,
+        0.113
+      ],
+      "entryTopLeft": [
+        0.1265,
+        0.133
+      ],
+      "exitTopLeft": [
+        0.1265,
+        0.093
+      ],
+      "positionKeyframes": [
+        [
+          0,
+          0.1265,
+          0.133
+        ],
+        [
+          4,
+          0.1265,
+          0.113,
+          "hold"
+        ],
+        [
+          84,
+          0.1265,
+          0.113
+        ],
+        [
+          88,
+          0.1265,
+          0.093
+        ]
+      ],
+      "opacityKeyframes": [
+        [
+          0,
+          0.0
+        ],
+        [
+          4,
+          1.0,
+          "hold"
+        ],
+        [
+          84,
+          1.0
+        ],
+        [
+          88,
+          0.0
+        ]
+      ],
+      "bounds_normalized": {
+        "entry": [
+          0.1265,
+          0.133,
+          0.8715,
+          0.273
+        ],
+        "hold": [
+          0.1265,
+          0.113,
+          0.8715,
+          0.253
+        ],
+        "exit": [
+          0.1265,
+          0.093,
+          0.8715,
+          0.233
+        ]
+      }
+    },
+    {
+      "cueId": "C02",
+      "clipId": "343248D6",
+      "assetId": "428944B8",
+      "assetName": "Short02_C02",
+      "frames": [
+        194,
+        305
+      ],
+      "durationFrames": 111,
+      "staticTransform": {
+        "centerX": 0.5,
+        "centerY": 0.182,
+        "height": 0.101,
+        "width": 0.534
+      },
+      "staticFadeFrames": [
+        3,
+        3
+      ],
+      "heldTopLeft": [
+        0.233,
+        0.1315
+      ],
+      "entryTopLeft": [
+        0.233,
+        0.1515
+      ],
+      "exitTopLeft": [
+        0.233,
+        0.1115
+      ],
+      "positionKeyframes": [
+        [
+          0,
+          0.233,
+          0.1515
+        ],
+        [
+          4,
+          0.233,
+          0.1315,
+          "hold"
+        ],
+        [
+          106,
+          0.233,
+          0.1315
+        ],
+        [
+          110,
+          0.233,
+          0.1115
+        ]
+      ],
+      "opacityKeyframes": [
+        [
+          0,
+          0.0
+        ],
+        [
+          4,
+          1.0,
+          "hold"
+        ],
+        [
+          106,
+          1.0
+        ],
+        [
+          110,
+          0.0
+        ]
+      ],
+      "bounds_normalized": {
+        "entry": [
+          0.233,
+          0.1515,
+          0.767,
+          0.2525
+        ],
+        "hold": [
+          0.233,
+          0.1315,
+          0.767,
+          0.2325
+        ],
+        "exit": [
+          0.233,
+          0.1115,
+          0.767,
+          0.2125
+        ]
+      }
+    },
+    {
+      "cueId": "C03",
+      "clipId": "15B76F70",
+      "assetId": "656C9B65",
+      "assetName": "Short02_C03",
+      "frames": [
+        380,
+        450
+      ],
+      "durationFrames": 70,
+      "staticTransform": {
+        "centerX": 0.501,
+        "centerY": 0.183,
+        "height": 0.124,
+        "width": 0.644
+      },
+      "staticFadeFrames": [
+        3,
+        3
+      ],
+      "heldTopLeft": [
+        0.179,
+        0.121
+      ],
+      "entryTopLeft": [
+        0.179,
+        0.141
+      ],
+      "exitTopLeft": [
+        0.179,
+        0.101
+      ],
+      "positionKeyframes": [
+        [
+          0,
+          0.179,
+          0.141
+        ],
+        [
+          4,
+          0.179,
+          0.121,
+          "hold"
+        ],
+        [
+          65,
+          0.179,
+          0.121
+        ],
+        [
+          69,
+          0.179,
+          0.101
+        ]
+      ],
+      "opacityKeyframes": [
+        [
+          0,
+          0.0
+        ],
+        [
+          4,
+          1.0,
+          "hold"
+        ],
+        [
+          65,
+          1.0
+        ],
+        [
+          69,
+          0.0
+        ]
+      ],
+      "bounds_normalized": {
+        "entry": [
+          0.179,
+          0.141,
+          0.823,
+          0.265
+        ],
+        "hold": [
+          0.179,
+          0.121,
+          0.823,
+          0.245
+        ],
+        "exit": [
+          0.179,
+          0.101,
+          0.823,
+          0.225
+        ]
+      }
+    },
+    {
+      "cueId": "C04",
+      "clipId": "5BC33EBD",
+      "assetId": "5B8448E2",
+      "assetName": "Short02_C04",
+      "frames": [
+        516,
+        574
+      ],
+      "durationFrames": 58,
+      "staticTransform": {
+        "centerX": 0.501,
+        "centerY": 0.169,
+        "height": 0.17,
+        "width": 0.536
+      },
+      "staticFadeFrames": [
+        3,
+        3
+      ],
+      "heldTopLeft": [
+        0.233,
+        0.084
+      ],
+      "entryTopLeft": [
+        0.233,
+        0.104
+      ],
+      "exitTopLeft": [
+        0.233,
+        0.064
+      ],
+      "positionKeyframes": [
+        [
+          0,
+          0.233,
+          0.104
+        ],
+        [
+          4,
+          0.233,
+          0.084,
+          "hold"
+        ],
+        [
+          53,
+          0.233,
+          0.084
+        ],
+        [
+          57,
+          0.233,
+          0.064
+        ]
+      ],
+      "opacityKeyframes": [
+        [
+          0,
+          0.0
+        ],
+        [
+          4,
+          1.0,
+          "hold"
+        ],
+        [
+          53,
+          1.0
+        ],
+        [
+          57,
+          0.0
+        ]
+      ],
+      "bounds_normalized": {
+        "entry": [
+          0.233,
+          0.104,
+          0.769,
+          0.274
+        ],
+        "hold": [
+          0.233,
+          0.084,
+          0.769,
+          0.254
+        ],
+        "exit": [
+          0.233,
+          0.064,
+          0.769,
+          0.234
+        ]
+      }
+    },
+    {
+      "cueId": "C05",
+      "clipId": "9272F31D",
+      "assetId": "D50CCFEE",
+      "assetName": "Short02_C05",
+      "frames": [
+        673,
+        766
+      ],
+      "durationFrames": 93,
+      "staticTransform": {
+        "centerY": 0.182,
+        "height": 0.089,
+        "width": 0.47
+      },
+      "staticFadeFrames": [
+        3,
+        3
+      ],
+      "heldTopLeft": [
+        0.265,
+        0.1375
+      ],
+      "entryTopLeft": [
+        0.265,
+        0.1575
+      ],
+      "exitTopLeft": [
+        0.265,
+        0.1175
+      ],
+      "positionKeyframes": [
+        [
+          0,
+          0.265,
+          0.1575
+        ],
+        [
+          4,
+          0.265,
+          0.1375,
+          "hold"
+        ],
+        [
+          88,
+          0.265,
+          0.1375
+        ],
+        [
+          92,
+          0.265,
+          0.1175
+        ]
+      ],
+      "opacityKeyframes": [
+        [
+          0,
+          0.0
+        ],
+        [
+          4,
+          1.0,
+          "hold"
+        ],
+        [
+          88,
+          1.0
+        ],
+        [
+          92,
+          0.0
+        ]
+      ],
+      "bounds_normalized": {
+        "entry": [
+          0.265,
+          0.1575,
+          0.735,
+          0.2465
+        ],
+        "hold": [
+          0.265,
+          0.1375,
+          0.735,
+          0.2265
+        ],
+        "exit": [
+          0.265,
+          0.1175,
+          0.735,
+          0.2065
+        ]
+      }
+    },
+    {
+      "cueId": "C06",
+      "clipId": "40F5A21E",
+      "assetId": "C84B985B",
+      "assetName": "Short02_C06",
+      "frames": [
+        820,
+        865
+      ],
+      "durationFrames": 45,
+      "staticTransform": {
+        "centerY": 0.18,
+        "height": 0.077,
+        "width": 0.413
+      },
+      "staticFadeFrames": [
+        3,
+        3
+      ],
+      "heldTopLeft": [
+        0.2935,
+        0.1415
+      ],
+      "entryTopLeft": [
+        0.2935,
+        0.1615
+      ],
+      "exitTopLeft": [
+        0.2935,
+        0.1215
+      ],
+      "positionKeyframes": [
+        [
+          0,
+          0.2935,
+          0.1615
+        ],
+        [
+          4,
+          0.2935,
+          0.1415,
+          "hold"
+        ],
+        [
+          40,
+          0.2935,
+          0.1415
+        ],
+        [
+          44,
+          0.2935,
+          0.1215
+        ]
+      ],
+      "opacityKeyframes": [
+        [
+          0,
+          0.0
+        ],
+        [
+          4,
+          1.0,
+          "hold"
+        ],
+        [
+          40,
+          1.0
+        ],
+        [
+          44,
+          0.0
+        ]
+      ],
+      "bounds_normalized": {
+        "entry": [
+          0.2935,
+          0.1615,
+          0.7065,
+          0.2385
+        ],
+        "hold": [
+          0.2935,
+          0.1415,
+          0.7065,
+          0.2185
+        ],
+        "exit": [
+          0.2935,
+          0.1215,
+          0.7065,
+          0.1985
+        ]
+      }
+    },
+    {
+      "cueId": "C07",
+      "clipId": "0821C459",
+      "assetId": "CC36B84E",
+      "assetName": "Short02_C07",
+      "frames": [
+        867,
+        922
+      ],
+      "durationFrames": 55,
+      "staticTransform": {
+        "centerX": 0.501,
+        "centerY": 0.18,
+        "height": 0.14,
+        "width": 0.743
+      },
+      "staticFadeFrames": [
+        3,
+        3
+      ],
+      "heldTopLeft": [
+        0.1295,
+        0.11
+      ],
+      "entryTopLeft": [
+        0.1295,
+        0.13
+      ],
+      "exitTopLeft": [
+        0.1295,
+        0.09
+      ],
+      "positionKeyframes": [
+        [
+          0,
+          0.1295,
+          0.13
+        ],
+        [
+          4,
+          0.1295,
+          0.11,
+          "hold"
+        ],
+        [
+          50,
+          0.1295,
+          0.11
+        ],
+        [
+          54,
+          0.1295,
+          0.09
+        ]
+      ],
+      "opacityKeyframes": [
+        [
+          0,
+          0.0
+        ],
+        [
+          4,
+          1.0,
+          "hold"
+        ],
+        [
+          50,
+          1.0
+        ],
+        [
+          54,
+          0.0
+        ]
+      ],
+      "bounds_normalized": {
+        "entry": [
+          0.1295,
+          0.13,
+          0.8725,
+          0.27
+        ],
+        "hold": [
+          0.1295,
+          0.11,
+          0.8725,
+          0.25
+        ],
+        "exit": [
+          0.1295,
+          0.09,
+          0.8725,
+          0.23
+        ]
+      }
+    },
+    {
+      "cueId": "C08",
+      "clipId": "938E3480",
+      "assetId": "1ED5694E",
+      "assetName": "Short02_C08",
+      "frames": [
+        925,
+        1037
+      ],
+      "durationFrames": 112,
+      "staticTransform": {
+        "centerX": 0.499,
+        "centerY": 0.182,
+        "height": 0.101,
+        "width": 0.512
+      },
+      "staticFadeFrames": [
+        3,
+        3
+      ],
+      "heldTopLeft": [
+        0.243,
+        0.1315
+      ],
+      "entryTopLeft": [
+        0.243,
+        0.1515
+      ],
+      "exitTopLeft": [
+        0.243,
+        0.1115
+      ],
+      "positionKeyframes": [
+        [
+          0,
+          0.243,
+          0.1515
+        ],
+        [
+          4,
+          0.243,
+          0.1315,
+          "hold"
+        ],
+        [
+          107,
+          0.243,
+          0.1315
+        ],
+        [
+          111,
+          0.243,
+          0.1115
+        ]
+      ],
+      "opacityKeyframes": [
+        [
+          0,
+          0.0
+        ],
+        [
+          4,
+          1.0,
+          "hold"
+        ],
+        [
+          107,
+          1.0
+        ],
+        [
+          111,
+          0.0
+        ]
+      ],
+      "bounds_normalized": {
+        "entry": [
+          0.243,
+          0.1515,
+          0.755,
+          0.2525
+        ],
+        "hold": [
+          0.243,
+          0.1315,
+          0.755,
+          0.2325
+        ],
+        "exit": [
+          0.243,
+          0.1115,
+          0.755,
+          0.2125
+        ]
+      }
+    },
+    {
+      "cueId": "C09",
+      "clipId": "E792AE17",
+      "assetId": "2B30EB92",
+      "assetName": "Short02_C09",
+      "frames": [
+        1045,
+        1098
+      ],
+      "durationFrames": 53,
+      "staticTransform": {
+        "centerX": 0.499,
+        "centerY": 0.18,
+        "height": 0.096,
+        "width": 0.497
+      },
+      "staticFadeFrames": [
+        3,
+        3
+      ],
+      "heldTopLeft": [
+        0.2505,
+        0.132
+      ],
+      "entryTopLeft": [
+        0.2505,
+        0.152
+      ],
+      "exitTopLeft": [
+        0.2505,
+        0.112
+      ],
+      "positionKeyframes": [
+        [
+          0,
+          0.2505,
+          0.152
+        ],
+        [
+          4,
+          0.2505,
+          0.132,
+          "hold"
+        ],
+        [
+          48,
+          0.2505,
+          0.132
+        ],
+        [
+          52,
+          0.2505,
+          0.112
+        ]
+      ],
+      "opacityKeyframes": [
+        [
+          0,
+          0.0
+        ],
+        [
+          4,
+          1.0,
+          "hold"
+        ],
+        [
+          48,
+          1.0
+        ],
+        [
+          52,
+          0.0
+        ]
+      ],
+      "bounds_normalized": {
+        "entry": [
+          0.2505,
+          0.152,
+          0.7475,
+          0.248
+        ],
+        "hold": [
+          0.2505,
+          0.132,
+          0.7475,
+          0.228
+        ],
+        "exit": [
+          0.2505,
+          0.112,
+          0.7475,
+          0.208
+        ]
+      }
+    }
+  ]
+}

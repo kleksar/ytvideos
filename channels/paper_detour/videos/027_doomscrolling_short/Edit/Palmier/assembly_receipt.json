@@ -1,0 +1,57 @@
+{
+  "status": "stopped_inspect_before_retry",
+  "project_name": "Paper Detour 027 Doomscrolling 20261031",
+  "steps": [
+    {
+      "action": "create_project",
+      "result": {
+        "canGenerate": false,
+        "fps": 30,
+        "mediaCount": 0,
+        "name": "Paper Detour 027 Doomscrolling 20261031",
+        "openCount": 3,
+        "path": "/Users/diplomat/Documents/Palmier Pro/Paper Detour 027 Doomscrolling 20261031.palmier",
+        "resolution": "1080x1920",
+        "status": "created",
+        "timelines": [
+          {
+            "active": true,
+            "name": "Timeline 1",
+            "timelineId": "41B11E0F"
+          }
+        ]
+      }
+    }
+  ],
+  "input_paths": [
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/027_doomscrolling_short/Source/Images/scene01/background_v01.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/027_doomscrolling_short/Source/Images/scene01/character_v02.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/027_doomscrolling_short/Source/Images/scene01/foreground_v01.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/027_doomscrolling_short/Source/Images/scene02/background_v01.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/027_doomscrolling_short/Source/Images/scene02/phone_v01.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/027_doomscrolling_short/Source/Images/scene02/foreground_leaves_v01.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/027_doomscrolling_short/Source/Images/scene03/background_no_person_v02.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/027_doomscrolling_short/Source/Images/scene03/press_no_person_cutout_v02.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/027_doomscrolling_short/Source/Images/scene03/foreground_no_person_v02.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/027_doomscrolling_short/Source/Images/scene04/background_v01.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/027_doomscrolling_short/Source/Images/scene04/reader_table_v01.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/027_doomscrolling_short/Source/Images/scene04/foreground_v01.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/027_doomscrolling_short/Source/Images/scene05/background_v04.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/027_doomscrolling_short/Source/Images/scene05/contact_group_v01.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/027_doomscrolling_short/Source/Images/scene05/foreground_v01.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/027_doomscrolling_short/Source/Images/scene06/background_v01.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/027_doomscrolling_short/Source/Images/scene06/contact_group_v01.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/027_doomscrolling_short/Source/Images/scene06/foreground_v01.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/027_doomscrolling_short/Source/Images/scene07/background_clean_v01.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/027_doomscrolling_short/Source/Images/scene07/subject_desk_group_v01.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/027_doomscrolling_short/Source/Images/scene07/foreground_plant_v01.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Graphics/film_grain_8s_prores4444.mov"
+  ],
+  "warning": "draft only; 1132 frames provisional and no soundtrack or accent words; scene 06 to 07 lighting transition unresolved",
+  "prior_visible": {
+    "name": "023 Margorie McCall",
+    "path": "/Users/diplomat/Documents/Palmier Pro/023 Margorie McCall.palmier"
+  },
+  "prior_timeline": "32C13200",
+  "error": "RuntimeError('Other visible state changed: stop')"
+}

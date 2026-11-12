@@ -1,0 +1,12 @@
+# Nuviko History — Black Death v09 hashtags
+
+- Channel/video: Nuviko History, `UCbyLx6Rf3iWww4bPZJ2oo2A` / `oH_daCEzekA`
+- Material: accepted English long film, FFmpeg v08; chapters checked against v08 as recorded in the release plan. Hashtag scope is the story described by this accepted film and its chapters.
+- Fresh baseline read from YouTube API: `#BlackDeath #MedievalHistory #LondonHistory` (2026-11-03).
+- Kept: all three existing hashtags; all directly match the Black Death, medieval period and London setting.
+- Added: `#Plague` (central topic; exact use observed in a YouTube Black Death documentary description), `#MedievalEurope` (geographic scope), `#MedievalTrade` (spread mechanism), `#Quarantine` (major response described in the film), `#EastSmithfield` (specific London cemetery in the opening/chapters), `#Dubrovnik` (city tied to the 30-day isolation rule). Exact-use visibility for the last five was not established in the indexed search pass; demand/trend status for all candidates is unknown.
+- Rejected/omitted: `#BlackPlague` (near-synonym of the retained event hashtag); `#BubonicPlague` (specific disease form not established as a distinct focus in this film); `#TowerOfLondon` (nearby landmark, not a central topic); `#FlorenceHistory` (one chapter location, not a central subject); `#HistoryDocumentary` (genre-only, less informative than the topical coverage).
+- Checks: YouTube's current help says hashtags link videos/playlists sharing a hashtag, must follow guidelines, and more than 60 causes all hashtags on that content to be ignored. We use 9 and make no reach guarantee.
+- Usage evidence: exact `#BlackDeath` and `#Plague` observed on [History Hit's Black Death video](https://www.youtube.com/watch?v=ggdd65iNClI), published 2026-03-23; exact `#LondonHistory` observed on [Living London History's Fleet Street video](https://www.youtube.com/watch?v=to6mOxk906s), published 2023-07-18. Exact-use searches for `#MedievalHistory`, `#MedievalEurope`, `#MedievalTrade`, `#EastSmithfield`, and `#Dubrovnik` did not establish current use; the attempted query was `#QuarantineHistory`, not the selected `#Quarantine`. This is `not_checked/unknown`, not evidence of no use. Google Trends or Studio Trends demand was not checked.
+- Final complete description block: `#BlackDeath #MedievalHistory #LondonHistory #Plague #MedievalEurope #MedievalTrade #Quarantine #EastSmithfield #Dubrovnik`
+- State: `ready`; external: `proposal_only` until YouTube read-back.

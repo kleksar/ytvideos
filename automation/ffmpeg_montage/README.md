@@ -4,6 +4,8 @@
 
 Нужны Python/Pillow, FFmpeg/ffprobe, доступный encoder и утверждённые fonts. На Mac можно использовать `h264_videotoolbox`; на другом worker явно выбирать доступный encoder, например `libx264`. Наличие default в CLI не подтверждает его работоспособность. `doctor` проверяет конкретное окружение.
 
+Two Ways Lab использует `channel: "two_ways_lab"`, `format: "short"`, 1080×1920 и 30 fps. Локальная конфигурация не подтверждает YouTube ID и не разрешает публикацию. Сцены длятся не менее двух кадров, допускаются статичные кадры и горизонтальный pan. Для готового изображения надписи `lettering_motion` ограничен 2% масштаба и 2° поворота; `x` задаёт смещение от центра, `y` — верх слоя. Проверять края и текст на финальном видео. Необязательный `minimum_scene_frames` задаёт целый минимум от двух кадров для конкретного плана любого канала.
+
 ## План
 
 Относительные пути разрешаются от JSON. Для illustrated recipe интервалы `[start_frame,end_frame)` целые, непрерывные, 30 FPS. Paper/Nuviko сцены 120–180 кадров; `role: end_screen` допускает последнюю композицию 300 кадров в long. `enforce_scene_duration: false`/нестандартный canvas — только явно заданная техническая проба, не новый production default.
@@ -12,7 +14,7 @@
 
 У каждой сцены source image, start/end, `direction` (`left_to_right`, `right_to_left`, `none`) и `zoom` (`in`, `out`, `none`). Соседние pan directions и zoom types проверяются независимо. `camera` содержит focus, subject/reason и start/end center/scale. Координаты 0…1 относятся к изображению после приведения к аспекту; scale>1 — теснее. Движение окна вправо означает экранное движение изображения влево. Геометрия проверяет края/focus, но не целое лицо/предмет.
 
-Геометрия/цвет/codec — [delivery](../../docs/standards/delivery.md), художественное движение — [visual](../../docs/standards/visual.md). Paper Frame v03 — финальный full-timeline overlay после captions по [frame instructions](../../channels/paper_detour/Shared/Overlays/Paper_Frame/README.md). Nuviko не принимает произвольные overlays: сценовый текст внутри источника, сверху только штатные subtitles.
+Геометрия/цвет/codec — [delivery](../../docs/standards/delivery.md), художественное движение — [visual](../../docs/standards/visual.md). Paper Frame v03 — архивный ресурс для прежних версий; в новых Paper роликах внешняя декоративная рамка не применяется. Nuviko не принимает произвольные overlays: сценовый текст внутри источника, сверху только штатные subtitles.
 
 ## Субтитры и привязка входов
 

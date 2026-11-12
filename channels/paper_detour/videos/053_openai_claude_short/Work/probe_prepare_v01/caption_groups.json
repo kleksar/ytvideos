@@ -1,0 +1,295 @@
+{
+  "status": "REVIEW_REQUIRED",
+  "groups": [
+    [
+      {
+        "text": "Before",
+        "start": 0.08,
+        "end": 0.4,
+        "source": "whisperx_forced_alignment",
+        "score": 0.94
+      },
+      {
+        "text": "ChatGPT",
+        "start": 0.48,
+        "end": 1.181,
+        "source": "whisperx_forced_alignment",
+        "score": 0.758
+      }
+    ],
+    [
+      {
+        "text": "took",
+        "start": 1.241,
+        "end": 1.401,
+        "source": "whisperx_forced_alignment",
+        "score": 0.67
+      },
+      {
+        "text": "the",
+        "start": 1.421,
+        "end": 1.501,
+        "source": "whisperx_forced_alignment",
+        "score": 0.929
+      },
+      {
+        "text": "world",
+        "start": 1.541,
+        "end": 1.741,
+        "source": "whisperx_forced_alignment",
+        "score": 0.87
+      }
+    ],
+    [
+      {
+        "text": "by",
+        "start": 1.781,
+        "end": 1.901,
+        "source": "whisperx_forced_alignment",
+        "score": 0.833
+      },
+      {
+        "text": "storm,",
+        "start": 1.981,
+        "end": 2.341,
+        "source": "whisperx_forced_alignment",
+        "score": 0.852
+      }
+    ],
+    [
+      {
+        "text": "the",
+        "start": 2.741,
+        "end": 2.841,
+        "source": "whisperx_forced_alignment",
+        "score": 0.849
+      },
+      {
+        "text": "team",
+        "start": 2.881,
+        "end": 3.081,
+        "source": "whisperx_forced_alignment",
+        "score": 0.99
+      }
+    ],
+    [
+      {
+        "text": "behind",
+        "start": 3.121,
+        "end": 3.382,
+        "source": "whisperx_forced_alignment",
+        "score": 0.878
+      },
+      {
+        "text": "its",
+        "start": 3.422,
+        "end": 3.522,
+        "source": "whisperx_forced_alignment",
+        "score": 0.819
+      },
+      {
+        "text": "future",
+        "start": 3.602,
+        "end": 3.902,
+        "source": "whisperx_forced_alignment",
+        "score": 0.791
+      }
+    ],
+    [
+      {
+        "text": "rival",
+        "start": 3.942,
+        "end": 4.242,
+        "source": "whisperx_forced_alignment",
+        "score": 0.905
+      },
+      {
+        "text": "made",
+        "start": 4.282,
+        "end": 4.422,
+        "source": "whisperx_forced_alignment",
+        "score": 0.817
+      }
+    ],
+    [
+      {
+        "text": "a",
+        "start": 4.462,
+        "end": 4.482,
+        "source": "whisperx_forced_alignment",
+        "score": 0.999
+      },
+      {
+        "text": "surprising",
+        "start": 4.522,
+        "end": 5.082,
+        "source": "whisperx_forced_alignment",
+        "score": 0.834
+      },
+      {
+        "text": "choice:",
+        "start": 5.122,
+        "end": 5.443,
+        "source": "whisperx_forced_alignment",
+        "score": 0.931
+      }
+    ]
+  ],
+  "profile": {
+    "name": "paper",
+    "font": "/System/Library/Fonts/Supplemental/ChalkboardSE.ttc",
+    "font_index": 2,
+    "text": "#F4E8C8",
+    "highlight": "#FFD166",
+    "background": null,
+    "outline": "#18243A",
+    "outline_width": 3,
+    "pad_x": 20,
+    "pad_y": 12
+  },
+  "geometry_profile": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/profiles/short.json",
+  "shared_geometry": {
+    "reference_width": 1440,
+    "reference_height": 2560,
+    "font_size_px": 104,
+    "max_visible_width_px": 1024,
+    "center_x_ratio": 0.4722222222222222,
+    "center_y_ratio": 0.762
+  },
+  "shared_short_geometry": {
+    "reference_width": 1440,
+    "reference_height": 2560,
+    "font_size_px": 104,
+    "max_visible_width_px": 1024,
+    "center_x_ratio": 0.4722222222222222,
+    "center_y_ratio": 0.762
+  },
+  "channel": "paper",
+  "format": "short",
+  "canvas": [
+    1440,
+    2560
+  ],
+  "reference_height": 2560,
+  "scale": 1.0,
+  "resolved_font_size_px": 104,
+  "max_visible_width_px": 1024.0,
+  "center_x_px": 680.0,
+  "baseline": 1993,
+  "grouping_source": "automatic_draft",
+  "algorithm": "sentence-syntax-width-v5",
+  "boundary_exceptions": [],
+  "boundary_warnings": [
+    {
+      "after_group": 1,
+      "left": "took the world",
+      "right": "by storm,",
+      "reason": "forced_or_ambiguous_syntax_boundary"
+    }
+  ],
+  "caption_end_frame": 165,
+  "display_intervals": [
+    {
+      "start_frame": 0,
+      "end_frame": 38
+    },
+    {
+      "start_frame": 38,
+      "end_frame": 54
+    },
+    {
+      "start_frame": 54,
+      "end_frame": 83
+    },
+    {
+      "start_frame": 83,
+      "end_frame": 94
+    },
+    {
+      "start_frame": 94,
+      "end_frame": 119
+    },
+    {
+      "start_frame": 119,
+      "end_frame": 134
+    },
+    {
+      "start_frame": 134,
+      "end_frame": 165
+    }
+  ],
+  "word_events": [
+    {
+      "frame": 0,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/053_openai_claude_short/Work/probe_prepare_v01/caption_states/00000_neutral.png"
+    },
+    {
+      "frame": 3,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/053_openai_claude_short/Work/probe_prepare_v01/caption_states/00000_0.png"
+    },
+    {
+      "frame": 15,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/053_openai_claude_short/Work/probe_prepare_v01/caption_states/00000_1.png"
+    },
+    {
+      "frame": 38,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/053_openai_claude_short/Work/probe_prepare_v01/caption_states/00001_0.png"
+    },
+    {
+      "frame": 43,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/053_openai_claude_short/Work/probe_prepare_v01/caption_states/00001_1.png"
+    },
+    {
+      "frame": 47,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/053_openai_claude_short/Work/probe_prepare_v01/caption_states/00001_2.png"
+    },
+    {
+      "frame": 54,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/053_openai_claude_short/Work/probe_prepare_v01/caption_states/00002_0.png"
+    },
+    {
+      "frame": 60,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/053_openai_claude_short/Work/probe_prepare_v01/caption_states/00002_1.png"
+    },
+    {
+      "frame": 83,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/053_openai_claude_short/Work/probe_prepare_v01/caption_states/00003_0.png"
+    },
+    {
+      "frame": 87,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/053_openai_claude_short/Work/probe_prepare_v01/caption_states/00003_1.png"
+    },
+    {
+      "frame": 94,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/053_openai_claude_short/Work/probe_prepare_v01/caption_states/00004_0.png"
+    },
+    {
+      "frame": 103,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/053_openai_claude_short/Work/probe_prepare_v01/caption_states/00004_1.png"
+    },
+    {
+      "frame": 109,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/053_openai_claude_short/Work/probe_prepare_v01/caption_states/00004_2.png"
+    },
+    {
+      "frame": 119,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/053_openai_claude_short/Work/probe_prepare_v01/caption_states/00005_0.png"
+    },
+    {
+      "frame": 129,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/053_openai_claude_short/Work/probe_prepare_v01/caption_states/00005_1.png"
+    },
+    {
+      "frame": 134,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/053_openai_claude_short/Work/probe_prepare_v01/caption_states/00006_0.png"
+    },
+    {
+      "frame": 136,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/053_openai_claude_short/Work/probe_prepare_v01/caption_states/00006_1.png"
+    },
+    {
+      "frame": 154,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/053_openai_claude_short/Work/probe_prepare_v01/caption_states/00006_2.png"
+    }
+  ]
+}

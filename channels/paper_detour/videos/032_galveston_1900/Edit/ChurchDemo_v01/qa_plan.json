@@ -1,0 +1,90 @@
+{
+  "frame_count": 668,
+  "fps": "30/1",
+  "scene_seconds": [
+    4,
+    6
+  ],
+  "freshness": {
+    "status": "CURRENT",
+    "evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Edit/ChurchDemo_v01/motion_target_pre_export.json"
+  },
+  "expected": {
+    "video": {
+      "width": 2560,
+      "height": 1440,
+      "codec_name": "h264",
+      "pix_fmt": "yuv420p",
+      "color_space": "bt709"
+    },
+    "audio": {
+      "required": true,
+      "codec_name": "aac",
+      "channels": 2,
+      "sample_rate": 48000
+    }
+  },
+  "scenes": [
+    {
+      "id": "TECH1",
+      "start": 0,
+      "end": 167
+    },
+    {
+      "id": "TECH2",
+      "start": 167,
+      "end": 334
+    },
+    {
+      "id": "TECH3",
+      "start": 334,
+      "end": 501
+    },
+    {
+      "id": "TECH4",
+      "start": 501,
+      "end": 668
+    }
+  ],
+  "cues": [
+    {
+      "id": "C14",
+      "start": 325,
+      "end": 379,
+      "entry_end": 329,
+      "exit_start": 374
+    },
+    {
+      "id": "C15",
+      "start": 615,
+      "end": 668,
+      "entry_end": 619
+    }
+  ],
+  "extra_frames": [
+    41,
+    125,
+    208,
+    292,
+    325,
+    327,
+    329,
+    348,
+    360,
+    373,
+    374,
+    375,
+    376,
+    378,
+    459,
+    542,
+    615,
+    617,
+    619,
+    626,
+    638,
+    641,
+    666,
+    667
+  ]
+}

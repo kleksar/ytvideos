@@ -1,0 +1,52 @@
+{
+  "command": [
+    "ffmpeg",
+    "-hide_banner",
+    "-nostdin",
+    "-v",
+    "error",
+    "-n",
+    "-i",
+    "/Users/diplomat/ytvideos/channels/nuviko_stories/videos/014_подарок_парню_и_незнакомец_с_книгами_толкина/Edit/014_en_palmier_render_raw.mp4",
+    "-i",
+    "/Users/diplomat/ytvideos/channels/nuviko_stories/videos/014_подарок_парню_и_незнакомец_с_книгами_толкина/Source/Voice/en/female_full/voice_en.mp3",
+    "-filter_complex",
+    "[1:a]asetpts=PTS-STARTPTS,atempo=1.1,aresample=44100,atrim=duration=142.900000000,apad=whole_dur=142.900000000,adelay=0S:all=1[a0];[a0]amix=inputs=1:duration=longest:normalize=0,atrim=duration=142.900000000,asetpts=PTS-STARTPTS[a]",
+    "-map",
+    "0:v:0",
+    "-map",
+    "[a]",
+    "-c:v",
+    "copy",
+    "-c:a",
+    "aac",
+    "-profile:a",
+    "aac_low",
+    "-b:a",
+    "192k",
+    "-ar",
+    "44100",
+    "-ac",
+    "1",
+    "-movflags",
+    "+faststart",
+    "/Users/diplomat/ytvideos/channels/nuviko_stories/videos/014_подарок_парню_и_незнакомец_с_книгами_толкина/Deliverables/014_en_shorts_110_audio192.mp4"
+  ],
+  "frames": 4287,
+  "fps": 30,
+  "segments": [
+    {
+      "text": "/Users/diplomat/ytvideos/channels/nuviko_stories/videos/014_подарок_парню_и_незнакомец_с_книгами_толкина/Source/Voice/en/female_full.txt",
+      "audio": "/Users/diplomat/ytvideos/channels/nuviko_stories/videos/014_подарок_парню_и_незнакомец_с_книгами_толкина/Source/Voice/en/female_full/voice_en.mp3",
+      "alignment": "/Users/diplomat/ytvideos/channels/nuviko_stories/videos/014_подарок_парню_и_незнакомец_с_книгами_толкина/Source/Voice/en/female_full/voice_en.alignment.json",
+      "mediaRef": "020A51D7",
+      "status": "ready",
+      "clipId": "A8E4C239",
+      "frames": [
+        0,
+        4287
+      ],
+      "speed": 1.1
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "channel": "nuviko",
+  "format": "short",
+  "source_transfer": "srgb",
+  "audio": "/Users/diplomat/ytvideos/channels/nuviko_history/research/molasses-flood/Work/Audio/mix_en_v02.wav",
+  "audio_contract": {
+    "final_audio_sha256": "1991fe8fd0c35cce4e6c1e6657ffa7a75b190cdd8e56ae98b8794c69df3f95a3",
+    "applied_speed": 1.1,
+    "speed_evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/research/molasses-flood/Work/Audio/audio_handoff_v01.md"
+  },
+  "scenes": [
+    {
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/molasses-flood/Work/early-test/S001_v01.png",
+      "start_frame": 0,
+      "end_frame": 145,
+      "direction": "right_to_left",
+      "zoom": "in"
+    },
+    {
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/molasses-flood/Work/early-test/S002_detail_v01.png",
+      "start_frame": 145,
+      "end_frame": 320,
+      "direction": "left_to_right",
+      "zoom": "out"
+    },
+    {
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/molasses-flood/Work/early-test/S003_v01.png",
+      "start_frame": 320,
+      "end_frame": 500,
+      "direction": "right_to_left",
+      "zoom": "in"
+    },
+    {
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/molasses-flood/Work/early-test/S004_v01.png",
+      "start_frame": 500,
+      "end_frame": 680,
+      "direction": "left_to_right",
+      "zoom": "out"
+    },
+    {
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/molasses-flood/Work/early-test/S005_office_v01.png",
+      "start_frame": 680,
+      "end_frame": 810,
+      "direction": "right_to_left",
+      "zoom": "in"
+    },
+    {
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/molasses-flood/Work/early-test/S006_host_v01.png",
+      "start_frame": 810,
+      "end_frame": 930,
+      "direction": "left_to_right",
+      "zoom": "out"
+    },
+    {
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/molasses-flood/Work/early-test/S007_v02.png",
+      "start_frame": 930,
+      "end_frame": 1090,
+      "direction": "right_to_left",
+      "zoom": "in"
+    },
+    {
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/research/molasses-flood/Work/early-test/S002_bucket_v01.png",
+      "start_frame": 1090,
+      "end_frame": 1216,
+      "direction": "left_to_right",
+      "zoom": "out"
+    }
+  ],
+  "subtitles": {
+    "mode": "words",
+    "words": "/Users/diplomat/ytvideos/channels/nuviko_history/research/molasses-flood/Work/Audio/word_times_v02.json",
+    "transcript": "/Users/diplomat/ytvideos/channels/nuviko_history/research/molasses-flood/Source/Voice/v02/narration_en_v02.txt",
+    "phrases": [
+      "In Boston,",
+      "a giant tank of molasses",
+      "stood near people's homes.",
+      "It had been leaking",
+      "for so long that children",
+      "collected the sweet drips",
+      "in buckets.",
+      "On January fifteenth,",
+      "nineteen nineteen,",
+      "the tank burst.",
+      "A wave of molasses",
+      "rushed through the streets,",
+      "destroying buildings.",
+      "Twenty-one people died,",
+      "and around",
+      "one hundred and fifty",
+      "were injured.",
+      "The company that owned",
+      "the tank claimed",
+      "someone had blown it up.",
+      "But how could that explain",
+      "a tank that had leaked",
+      "for years?",
+      "After years of legal",
+      "proceedings, the company",
+      "was held responsible.",
+      "The tank",
+      "had been poorly built,",
+      "and signs of danger",
+      "had not been",
+      "properly addressed.",
+      "The warning",
+      "had been visible",
+      "before the disaster."
+    ],
+    "boundary_exceptions": [
+      {
+        "left": "and around",
+        "right": "one hundred and fifty",
+        "reason": "Число целиком 759 px; вместе с and around 1183 px при доступных 966 px."
+      },
+      {
+        "left": "had not been",
+        "right": "properly addressed.",
+        "reason": "Цельное дополнение 701 px, вся фраза 1170 px при доступных 966 px."
+      }
+    ]
+  }
+}

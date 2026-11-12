@@ -1,0 +1,63 @@
+{
+  "width": 2560,
+  "height": 1440,
+  "frames": 120,
+  "fps": 30,
+  "grain": {
+    "id": "g08",
+    "name": "Short Persistence",
+    "version": 1,
+    "rms_y_codes": 3.0,
+    "sigma_reference_px": 0.77,
+    "reference_short_side": 1440,
+    "update_hz": 30,
+    "rho": 0.35,
+    "mask_y": [
+      20,
+      64,
+      208,
+      235
+    ],
+    "range_y": [
+      16,
+      235
+    ],
+    "chroma": false,
+    "seed": 20261102
+  },
+  "input": "/Users/diplomat/ytvideos/Shared/Image_Motion/Cache/video/16b9dd2d3c6e9951ddcbdf42197af675c496bf57c109ec7f891c349f6d76376f.mp4",
+  "output": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Work/image-motion-66072d4dcbfcf7b06778/scratch/warm-056/fe9092b0fd9f830dac03c7cafffa3aca2deed2763882df3c840a43c595d8302d.finished.partial.mp4",
+  "camera": {
+    "position": [
+      [
+        0,
+        -0.02750000000000008,
+        -0.050000000000000044,
+        "linear"
+      ],
+      [
+        119,
+        -0.07250000000000001,
+        -0.050000000000000044,
+        "linear"
+      ]
+    ],
+    "scale": [
+      [
+        0,
+        1.1,
+        1.1,
+        "linear"
+      ],
+      [
+        119,
+        1.1,
+        1.1,
+        "linear"
+      ]
+    ]
+  },
+  "seed": 11970420004993222745,
+  "receipt": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Edit/ImageMotion/66072d4dcbfcf7b06778/cache-warm/056/fe9092b0fd9f830dac03c7cafffa3aca2deed2763882df3c840a43c595d8302d.finish-receipt.json",
+  "log": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Edit/ImageMotion/66072d4dcbfcf7b06778/cache-warm/056/finish.log"
+}

@@ -1,0 +1,44 @@
+{
+  "observed_at": "2026-11-09T18:49:56.640425+00:00",
+  "storage_state": "PARTIAL",
+  "completed_scope": "superseded intermediate MP4s",
+  "entries": [
+    {
+      "original_path": "/Users/diplomat/ytvideos/channels/scenes_on_repeat/videos/harry-potter-philosophers-stone-2001/Deliverables/trailer-v01/trailer-v01.mp4",
+      "retained_path": "/Users/diplomat/ytvideos/channels/scenes_on_repeat/videos/harry-potter-philosophers-stone-2001/Work/Superseded/trailer-v01.mp4",
+      "sha256": "5caf8cf9ba74bec1294b9c03cb77dedd3180edfc534168a6ef6f35882fe528b3",
+      "logical_bytes": 37412061,
+      "reason": "Replaced by trailer-v03",
+      "state": "moved_to_work"
+    },
+    {
+      "original_path": "/Users/diplomat/ytvideos/channels/scenes_on_repeat/videos/harry-potter-philosophers-stone-2001/Deliverables/trailer-v02/trailer-v02.mp4",
+      "retained_path": "/Users/diplomat/ytvideos/channels/scenes_on_repeat/videos/harry-potter-philosophers-stone-2001/Work/Superseded/trailer-v02.mp4",
+      "sha256": "025249ac171a3fb866e1215a66d4488b45bbecb68fe013151d072f64433e575b",
+      "logical_bytes": 36105836,
+      "reason": "Replaced by trailer-v03",
+      "state": "moved_to_work"
+    },
+    {
+      "original_path": "/Users/diplomat/ytvideos/channels/scenes_on_repeat/videos/harry-potter-philosophers-stone-2001/Deliverables/leviosa-v01/leviosa-v01.mp4",
+      "retained_path": "/Users/diplomat/ytvideos/channels/scenes_on_repeat/videos/harry-potter-philosophers-stone-2001/Work/Superseded/leviosa-v01.mp4",
+      "sha256": "0034f3772725ced947e4392f26fa4c69df001ffd58fd1b8367a6f4f4fce6d370",
+      "logical_bytes": 26749153,
+      "reason": "Replaced by leviosa-v02",
+      "state": "moved_to_work"
+    },
+    {
+      "original_path": "/Users/diplomat/ytvideos/channels/scenes_on_repeat/videos/harry-potter-philosophers-stone-2001/Deliverables/wand-v01/wand-v01.mp4",
+      "retained_path": "/Users/diplomat/ytvideos/channels/scenes_on_repeat/videos/harry-potter-philosophers-stone-2001/Work/Superseded/wand-v01.mp4",
+      "sha256": "09cfd0e98e90c6659235856375b4a4b8b39a11c9f56484d191419b260ee2e41a",
+      "logical_bytes": 29115559,
+      "reason": "Replaced by wand-v02",
+      "state": "moved_to_work"
+    }
+  ],
+  "count": 4,
+  "logical_bytes_moved": 129382609,
+  "physical_bytes_reclaimed": 0,
+  "hold": "macOS denied access to Trash. Superseded drafts are outside Deliverables in Work/Superseded.",
+  "retained_source": "Active qBittorrent open handle. Needed for exact edit rebuilds and Private review follow-up."
+}

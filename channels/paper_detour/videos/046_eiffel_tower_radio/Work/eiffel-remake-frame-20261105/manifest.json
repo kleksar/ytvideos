@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "run": "eiffel-remake-frame-20261105",
+  "owner": "codex-eiffel-remake",
+  "status": "complete",
+  "created_utc": "2026-11-05T12:57:44.516301+00:00",
+  "entries": [
+    {
+      "path": "Assets/Generated/paper-frame/046-remake/paper_frame_v02_3428f.mov",
+      "role": "dependency",
+      "identity": {
+        "device": 16777233,
+        "inode": 128197463,
+        "bytes": 4984556773,
+        "mtime_ns": 1793884015428617371,
+        "ctime_ns": 1793884386914164607,
+        "nlink": 1,
+        "allocated_bytes": 4999614464
+      },
+      "sha256": "136663a7d95889d1c09710eaf5b5ca7f256ae024b9d5f5aed65fda563c2d8ef9",
+      "rebuild_from": [],
+      "evidence": [
+        {
+          "path": "Work/eiffel-remake-frame-20261105/scratch/overlay-preparation-evidence.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 128211816,
+            "bytes": 1504,
+            "mtime_ns": 1793884386973013788,
+            "ctime_ns": 1793884386973013788,
+            "nlink": 1,
+            "allocated_bytes": 4096
+          },
+          "sha256": "44c4c620213681eb3ea6a01c0815668d2b4f0eab3e40b4096854ab68db5d8523"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/eiffel-remake-frame-20261105/previews/Paper_Detour_046_Eiffel_Tower_Radio_EN_v31_review_02.mp4",
+      "role": "preview",
+      "identity": {
+        "device": 16777233,
+        "inode": 128224336,
+        "bytes": 291146281,
+        "mtime_ns": 1793885675878947352,
+        "ctime_ns": 1793885675878947352,
+        "nlink": 1,
+        "allocated_bytes": 301993984
+      },
+      "sha256": "5b8a647a01e26df6e053d56c9e451b8cd3656012d35c110574ebcd93bb281a33",
+      "rebuild_from": [],
+      "evidence": [
+        {
+          "path": "Edit/QA/qa-eiffel-remake-20261105/review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 128243021,
+            "bytes": 9293,
+            "mtime_ns": 1793886744309258483,
+            "ctime_ns": 1793886744309258483,
+            "nlink": 1,
+            "allocated_bytes": 12288
+          },
+          "sha256": "faffe79db7997fbb3169df8910bec13963e551097c6267fa43a04acad85e89a3"
+        }
+      ],
+      "disposition": "pending"
+    }
+  ],
+  "writer_finished_utc": "2026-11-05T13:54:52.784519+00:00"
+}

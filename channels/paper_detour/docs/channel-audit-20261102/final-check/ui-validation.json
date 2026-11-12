@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-02",
+  "channelId": "UCMVfdfaNxV3ZkI3_J3Eejzw",
+  "checks": {
+    "not_made_for_kids": true,
+    "autodubbing_on": true,
+    "dubbing_review_all_languages": true,
+    "visual_enhancement_off": true,
+    "audio_enhancement_off": true,
+    "third_party_ai_training_off": true,
+    "all_three_feature_levels_enabled": true,
+    "upload_default_private": true,
+    "video_and_metadata_english": true,
+    "standard_license": true,
+    "comments_on_basic": true,
+    "likes_visible": true,
+    "profile_named_correctly": true,
+    "handle_untouched": true,
+    "banner_avatar_watermark_present": true,
+    "three_existing_translations": true,
+    "four_public_theme_sections_present": true,
+    "no_pending_profile_publish": true,
+    "no_pending_home_publish": true,
+    "roles_observed_owner_and_manager": true
+  },
+  "failed": [],
+  "external_mutations_this_final_check": false,
+  "roles": "Owner + Manager (observed, unchanged)",
+  "deliberate_exclusions": [
+    "public business email",
+    "external profile links",
+    "handle and URL",
+    "country"
+  ],
+  "separate_not_ready": [
+    "YPP: eligibility metrics not reached in displayed Studio status",
+    "Google Ads promotions: linked account new, setup required before activation"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "file": "Deliverables/movie-trailers-compilation-v04.mp4",
+  "sha256": "3885ae6f8da68a06021f2a033cde29d0b4c42a923a65d74054283c3270b99c9a",
+  "source": "v03",
+  "change": "First 36 frames and 1.5 seconds of audio repeated at beginning; 75 ms audio fades at splice; all remaining material shifted 1.5 seconds.",
+  "metadata": {
+    "video_seconds": 103.5,
+    "audio_seconds": 103.516,
+    "frames": 2484,
+    "fps": 24,
+    "size": "1280x720",
+    "audio": "AAC 48 kHz stereo"
+  },
+  "full_decode": "PASS",
+  "frame_sample": [
+    5,
+    41,
+    79,
+    1187,
+    2470
+  ],
+  "frame_sample_result": "Inspected three Again caption appearances and end card.",
+  "srt": "First cue copied and all original cues shifted 1.5 seconds; pre-existing alignment is not independently verified.",
+  "limitations": [
+    "Audio and splice not auditioned.",
+    "Continuous playback and independent review not performed.",
+    "Previous word timing was not checked against speech word by word."
+  ],
+  "status": "preview"
+}

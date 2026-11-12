@@ -1,0 +1,35 @@
+{
+  "subtitle_contract_sha256": "3acc9cfbfcc3b89219952687c7ef1ef6e1c6dfd6c85cc6bb7f17e0f4c5ffc9d6",
+  "checks": {
+    "semantic_grouping": {
+      "status": "PASS",
+      "reviewer": "production coordinator",
+      "method": "Exact transcript coverage comparison; review of renderer boundary warnings against accepted narration and the Extra High consultation.",
+      "coverage": "All 1,555 words and all 432 groups; all 55 reported boundary warnings inspected; historical transitions and numerical/statistical scope retained.",
+      "evidence": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Research/SUBTITLE_REVIEW_v02.md",
+        "sha256": "13dd38ea0c18ebc7eee9635bd69ebabc5f8ca1e49694e058dea4ec85eddfc49c"
+      }
+    },
+    "audible_sync": {
+      "status": "UNVERIFIED",
+      "reviewer": "production coordinator",
+      "method": "No human listening review performed.",
+      "coverage": "Machine character alignment and timing map only; start, middle and ending playback not audited.",
+      "evidence": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Research/SUBTITLE_REVIEW_v02.md",
+        "sha256": "13dd38ea0c18ebc7eee9635bd69ebabc5f8ca1e49694e058dea4ec85eddfc49c"
+      }
+    },
+    "visual_placement": {
+      "status": "UNVERIFIED",
+      "reviewer": "production coordinator",
+      "method": "Pre-render composed frame simulation using actual caption PNGs and editorial graphics.",
+      "coverage": "41 selected frames visually inspected before encoding. Placement in this encoded MP4 remains unverified at preflight.",
+      "evidence": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Edit/QA/brest-scene-audit-v02/PRE_RENDER_REVIEW.md",
+        "sha256": "6a2d415e264da0f8210f82871d386fbf3c227081c075f1e9b3dc45905da95eff"
+      }
+    }
+  }
+}

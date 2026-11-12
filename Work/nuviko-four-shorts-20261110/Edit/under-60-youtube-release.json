@@ -1,0 +1,106 @@
+{
+  "channel_id": "UC4nNJWr_PDL3QCZ76KGHF1g",
+  "interval_hours": 6,
+  "updated_at": "2026-11-11T01:50:45.993938+00:00",
+  "timezone": "Europe/Belgrade",
+  "videos": [
+    {
+      "video_id": "IP5maBxwVGU",
+      "title": "mthu – it’s like i’m not even here | Small wonders in motion",
+      "duration": "PT49S",
+      "privacy": "private",
+      "upload": "processed",
+      "processing": "succeeded",
+      "publishAt": "2026-11-11T07:32:03Z",
+      "region": {},
+      "US_available": true,
+      "slug": "Its-Like-Im-Not-Even-Here",
+      "sha256": "4602c2057b16e1a28ce9917f5220979cad932dbd62b49cdaeba6d408afca3acd",
+      "studio": {
+        "video_id": "IP5maBxwVGU",
+        "eligible": true,
+        "claim": "it’s like i’m not even here (slowed) — mthu",
+        "availability": "Studio reports no reach restriction"
+      },
+      "result": "scheduled",
+      "local_time": "2026-11-11T08:32:03+01:00",
+      "preceding_video_id": "QT1ueMIuIJc",
+      "preceding_slot": "2026-11-11T01:32:03+00:00"
+    },
+    {
+      "video_id": "x3r5b7I1cwg",
+      "title": "CPski & Young Madz – Super Funk | Color in Motion",
+      "duration": "PT43S",
+      "privacy": "private",
+      "upload": "processed",
+      "processing": "succeeded",
+      "publishAt": "2026-11-11T13:32:03Z",
+      "region": {},
+      "US_available": true,
+      "slug": "Super-Funk",
+      "sha256": "00063a854336f2e93fbd2391e53c293dee5776a0591c4b5caab10808d6d33ad2",
+      "studio": {
+        "video_id": "x3r5b7I1cwg",
+        "eligible": true,
+        "claim": "Super Funk",
+        "availability": "Studio reports no reach restriction",
+        "player_track_card": "Disabled in private Shorts player"
+      },
+      "result": "scheduled",
+      "local_time": "2026-11-11T14:32:03+01:00",
+      "preceding_video_id": "IP5maBxwVGU",
+      "preceding_slot": "2026-11-11T07:32:03+00:00"
+    },
+    {
+      "video_id": "E3LfXwKCn-0",
+      "title": "Alyssa Grace – bloodstream | Where the Water Goes",
+      "duration": "PT52S",
+      "privacy": "private",
+      "upload": "processed",
+      "processing": "succeeded",
+      "publishAt": "2026-11-11T19:32:03Z",
+      "region": {
+        "blocked": [
+          "BY",
+          "RU"
+        ]
+      },
+      "US_available": true,
+      "slug": "Bloodstream",
+      "sha256": "9c5be380c5d035db307ff9c4700c4887434a76a1afae58641b7e95a94153e0e4",
+      "studio": {
+        "video_id": "E3LfXwKCn-0",
+        "eligible": true,
+        "claim": "bloodstream (stripped)",
+        "availability": "US available; blocked in Belarus and Russia"
+      },
+      "result": "scheduled",
+      "local_time": "2026-11-11T20:32:03+01:00",
+      "preceding_video_id": "x3r5b7I1cwg",
+      "preceding_slot": "2026-11-11T13:32:03+00:00"
+    },
+    {
+      "video_id": "h2nSIOSNxSk",
+      "title": "Zeddy Will – Bow Bow Bow | City After Dark",
+      "duration": "PT54S",
+      "privacy": "private",
+      "upload": "processed",
+      "processing": "succeeded",
+      "publishAt": "2026-11-12T01:32:03Z",
+      "region": {},
+      "US_available": true,
+      "slug": "Bow-Bow-Bow",
+      "sha256": "883af978e253692febd7a922c8eb7acd3939b2af3099f116d393593dd6f60988",
+      "studio": {
+        "video_id": "h2nSIOSNxSk",
+        "eligible": true,
+        "claim": "Audio claim, provider hides track metadata",
+        "availability": "Studio reports no reach restriction"
+      },
+      "result": "scheduled",
+      "local_time": "2026-11-12T02:32:03+01:00",
+      "preceding_video_id": "E3LfXwKCn-0",
+      "preceding_slot": "2026-11-11T19:32:03+00:00"
+    }
+  ]
+}

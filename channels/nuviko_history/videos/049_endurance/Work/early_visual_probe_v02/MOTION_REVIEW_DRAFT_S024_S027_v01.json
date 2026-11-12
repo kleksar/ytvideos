@@ -1,0 +1,130 @@
+{
+  "status": "DRAFT_NOT_FOR_FINAL_RENDER",
+  "note": "Per-image preliminary shot decisions following individual full-frame observation; not accepted. Start/end containment and actual subtitle composite must be checked.",
+  "scenes": [
+    {
+      "scene": "S024",
+      "file": "S024_candidate_v01.png",
+      "sha256": "b4156ef206b4ef0aa92772dcd8dc64962f61c345644c6e5980010001c0f3770f",
+      "observation": "Three distinct lifeboat hulls surround people and supplies. The large oar leads into the supplies; the right-hand mast is cropped at the original upper edge.",
+      "camera": {
+        "subject": "resources and all three hulls",
+        "focus": [
+          0.52,
+          0.49
+        ],
+        "direction": "none",
+        "zoom": "in",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.018
+        },
+        "reason": "Bring attention to the central supplies while preserving the boats; the paddle is secondary."
+      },
+      "status": "DRAFT_REQUIRES_REFERENCE_PHONE_MOTION_AND_CAPTION_REVIEW"
+    },
+    {
+      "scene": "S025",
+      "file": "S025_candidate_v02.png",
+      "sha256": "f6bbbb2700cdcf2995064cdb9c031b390073896115d79a9185f2e2852c01498c",
+      "observation": "Four men lean forward connected by a taut rope to a single empty boat; boat and men span most of the width.",
+      "camera": {
+        "subject": "rope connection between boat and men",
+        "focus": [
+          0.54,
+          0.55
+        ],
+        "direction": "none",
+        "zoom": "out",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.018
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "reason": "Widen the view to preserve the full human effort and the boat."
+      },
+      "status": "DRAFT_REQUIRES_REFERENCE_PHONE_MOTION_AND_CAPTION_REVIEW"
+    },
+    {
+      "scene": "S026",
+      "file": "S026_candidate_v02.png",
+      "sha256": "630e7285ac579f760cced34af731941f8be392d9952462d4c0549333e5a1b9d9",
+      "observation": "Four men on the ridge pull a rope that is visibly tied to the grounded bow; the boat and ridge touch at the obstacle. Mast already leaves the top edge.",
+      "camera": {
+        "subject": "contact between grounded bow and ridge",
+        "focus": [
+          0.51,
+          0.55
+        ],
+        "direction": "none",
+        "zoom": "in",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.018
+        },
+        "reason": "Direct attention to the point where the hull catches on ice; avoid cropping the towing team."
+      },
+      "status": "DRAFT_REQUIRES_REFERENCE_PHONE_MOTION_AND_CAPTION_REVIEW"
+    },
+    {
+      "scene": "S027",
+      "file": "S027_candidate_v01.png",
+      "sha256": "4e8e92af5d0fc180ef683da4400059d81f56da8f391a8b83b70faf996025d4f5",
+      "observation": "Small figures and a boat are surrounded by fractured ice and dark open cracks. Their small scale serves the journey, but individual expressions cannot be assessed from this view.",
+      "camera": {
+        "subject": "boat team surrounded by broken floes",
+        "focus": [
+          0.57,
+          0.44
+        ],
+        "direction": "none",
+        "zoom": "out",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.018
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "reason": "Reveal the width of the broken ice and the group\u2019s small scale."
+      },
+      "status": "DRAFT_REQUIRES_REFERENCE_PHONE_MOTION_AND_CAPTION_REVIEW"
+    }
+  ]
+}

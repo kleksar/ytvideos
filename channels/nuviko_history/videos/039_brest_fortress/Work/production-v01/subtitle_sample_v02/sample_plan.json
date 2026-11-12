@@ -1,0 +1,222 @@
+{
+  "episode": "039_brest_fortress_subtitle_sample",
+  "version": "sample_v02",
+  "channel": "nuviko",
+  "format": "long",
+  "fps": 30,
+  "canvas": [
+    2560,
+    1440
+  ],
+  "source_transfer": "srgb",
+  "enforce_scene_duration": false,
+  "audio": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Work/production-v01/subtitle_sample_v02/mix_excerpt_000_016.wav",
+  "audio_contract": {
+    "final_audio_sha256": "7c0bb415045ecc3546fdb184acac7230e4f24c06560954e997f260152dfb1d19",
+    "applied_speed": 1.1,
+    "speed_evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Work/production-v01/subtitle_sample_v02/speed_evidence_excerpt.json"
+  },
+  "subtitles": {
+    "mode": "words",
+    "transcript": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Work/production-v01/subtitle_sample_v02/transcript_excerpt_en.txt",
+    "words": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Work/production-v01/subtitle_sample_v02/word_map_excerpt_en.json",
+    "keep_together": [
+      [
+        "Fritz",
+        "Schlieper"
+      ],
+      [
+        "45th",
+        "Infantry"
+      ],
+      [
+        "Infantry",
+        "Division"
+      ],
+      [
+        "Efim",
+        "Fomin"
+      ],
+      [
+        "Ivan",
+        "Zubachev"
+      ],
+      [
+        "Pyotr",
+        "Gavrilov"
+      ],
+      [
+        "Eastern",
+        "Fort"
+      ],
+      [
+        "Kobrin",
+        "Fortification"
+      ],
+      [
+        "June",
+        "22"
+      ],
+      [
+        "June",
+        "26"
+      ],
+      [
+        "June",
+        "29"
+      ],
+      [
+        "July",
+        "23"
+      ],
+      [
+        "23",
+        "1941"
+      ],
+      [
+        "July",
+        "20"
+      ],
+      [
+        "20",
+        "1941"
+      ],
+      [
+        "453",
+        "men"
+      ],
+      [
+        "killed",
+        "or"
+      ],
+      [
+        "or",
+        "missing"
+      ],
+      [
+        "668",
+        "wounded"
+      ],
+      [
+        "132nd",
+        "Separate"
+      ],
+      [
+        "Separate",
+        "Battalion"
+      ],
+      [
+        "NKVD",
+        "Convoy"
+      ],
+      [
+        "Convoy",
+        "Troops"
+      ]
+    ]
+  },
+  "scenes": [
+    {
+      "start_frame": 0,
+      "end_frame": 207,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_01_01_v01.png",
+      "direction": "left_to_right",
+      "zoom": "in",
+      "camera": {
+        "subject": "On July 8, 1941",
+        "focus": [
+          0.54,
+          0.48
+        ],
+        "direction": "left_to_right",
+        "zoom": "in",
+        "start": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "end": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "reason": "A restrained left-to-right move with a slow approach keeps On July 8, 1941 readable through “On July 8, 1941” and retains its surrounding context."
+      }
+    },
+    {
+      "start_frame": 207,
+      "end_frame": 300,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_17_04a_v01.png",
+      "direction": "right_to_left",
+      "zoom": "out",
+      "camera": {
+        "subject": "the non-legible report sheets",
+        "focus": [
+          0.55,
+          0.5
+        ],
+        "direction": "right_to_left",
+        "zoom": "out",
+        "start": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "reason": "A restrained right-to-left move with a slow release keeps the non-legible report sheets readable through “signed a report on the fighting for Brest-Litovsk.” and retains its surrounding context."
+      }
+    },
+    {
+      "start_frame": 300,
+      "end_frame": 480,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_14_01_v02.png",
+      "direction": "left_to_right",
+      "zoom": "none",
+      "camera": {
+        "subject": "the prisoner group",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "left_to_right",
+        "zoom": "none",
+        "start": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.042
+        },
+        "end": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.042
+        },
+        "reason": "A restrained left-to-right move with a steady scale keeps the prisoner group readable through “By then, the main centers” and retains its surrounding context."
+      }
+    }
+  ],
+  "overlays": [],
+  "source_map": "../../../Edit/Preproduction/shot_map_v03.csv",
+  "camera_plan": "../../../Edit/Preproduction/camera_plan_v01.json",
+  "frame_timeline": {
+    "frames": 480,
+    "fps": 30,
+    "duration_seconds": 16.0,
+    "sample_excerpt": true
+  }
+}

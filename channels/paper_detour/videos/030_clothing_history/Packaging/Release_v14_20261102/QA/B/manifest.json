@@ -1,0 +1,61 @@
+{
+  "source": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Packaging/Release_v14_20261102/Thumbnails/B.jpg",
+  "sha256": "340cf9cfe6d9604fb0e6f0d01061daff4ac91e821c39915de1378fd300a844a0",
+  "source_pixels": [
+    1672,
+    940
+  ],
+  "previews": [
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Packaging/Release_v14_20261102/QA/B/qa_full_320x180.jpg",
+      "pixels": [
+        320,
+        180
+      ],
+      "crop_box_source_px": [
+        0,
+        0,
+        1672,
+        940
+      ],
+      "regions": [
+        {
+          "label": "lettering including shadow",
+          "contained": true,
+          "margins_source_px": [
+            1086.8,
+            11.28,
+            8.3599999999999,
+            488.8
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Packaging/Release_v14_20261102/QA/B/qa_2x3_320x480.jpg",
+      "pixels": [
+        320,
+        480
+      ],
+      "crop_box_source_px": [
+        522.6666666666667,
+        0.0,
+        1149.3333333333333,
+        940.0
+      ],
+      "regions": [
+        {
+          "label": "lettering including shadow",
+          "contained": false,
+          "margins_source_px": [
+            564.1333333333332,
+            11.28,
+            -514.3066666666668,
+            488.8
+          ]
+        }
+      ]
+    }
+  ],
+  "limits": "Local simulation only. Region containment uses supplied bounds, not OCR or face detection. Visual readability, actual device and YouTube display require separate observation."
+}

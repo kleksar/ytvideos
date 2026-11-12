@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "scope": "display text, punctuation, order, timing preservation, grouping and profile pixel bounds before final render",
+  "words": 893,
+  "groups": 230,
+  "punctuation_counts": {
+    ".": 99,
+    ",": 45,
+    "?": 1,
+    "!": 0,
+    ":": 1,
+    ";": 0
+  },
+  "max_timing_delta_s": 0.00045454545460188456,
+  "historical_defective_map_rejected": true,
+  "audible_sync": "UNVERIFIED; audio unchanged from speed110 mix; existing provider alignment conformed at 1.1x",
+  "source_sha256": "674d78a4ddd98649beda3ba064c5cbdb5d71a81fe9332c7b01fb521f5c5a9ccd",
+  "word_map_sha256": "7516edd1940a076fea4f1c4d7975df83fd0306f67a5608b5b9a7518c38f1afab",
+  "visual_preflight": {
+    "coverage": "10 generated caption states composited on their actual scenes at the mapped camera position; inspected contact sheets before final render",
+    "observed": "periods, question mark, comma, colon, apostrophe and hyphen visible; one yellow active word in sampled states; stable baseline within shared profile",
+    "hearing": "UNVERIFIED"
+  }
+}

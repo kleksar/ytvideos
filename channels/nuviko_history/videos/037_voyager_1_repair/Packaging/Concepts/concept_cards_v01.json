@@ -1,0 +1,57 @@
+{
+  "model_label": "Extra High",
+  "url": "https://chatgpt.com/g/g-p-6ae147d3975481919b5bfda6935777d0-yt-video/c/6aeb532f-0e20-83eb-979c-9dc810402337",
+  "completion": "Complete substantive answer personally read in visible Chrome, 2026-11-04",
+  "scope": "Three concept cards only; accepted film is fixed; no story rewrite/fact-check",
+  "cards": [
+    {
+      "id": "A",
+      "question": "How can engineers fix a spacecraft they cannot physically reach?",
+      "answer": "Radio diagnosis and a program workaround, about24billionkm away.",
+      "title": "How Do You Fix Voyager 1 From 24 Billion Kilometers Away?",
+      "lettering": "24 BILLION KM",
+      "situation": "Voyager at right, tiny Earth at left, dark unreachable gap; symbolic composition, not scale model."
+    },
+    {
+      "id": "B",
+      "question": "How can code work when memory is damaged and no single free area is large enough?",
+      "answer": "Split instructions among intact regions and redirect references, leaving the damage.",
+      "title": "They Couldn't Repair Voyager 1's Memory. So They Split the Code.",
+      "lettering": "SPLIT THE CODE",
+      "situation": "Conceptual memory: unavailable region plus dispersed working code linked around it; no physical chip repair."
+    },
+    {
+      "id": "C",
+      "question": "How do you test a fix with almost45hours before the result returns?",
+      "answer": "Wait for the round trip; readable status received20April after5months, science restored byJune.",
+      "title": "Almost 45 Hours Per Attempt: Voyager 1's First Readable Reply in Five Months",
+      "lettering": "APRIL 20",
+      "situation": "Anonymous engineer quietly reads organized information from a glowing desk monitor; human result, no spacecraft visible."
+    }
+  ],
+  "pairwise_pre_generation": [
+    {
+      "pair": "A/B",
+      "titles": "A asks how remote work can happen across an unreachable distance; B asks how the software workaround works.",
+      "images": "A shows external cosmic separation; B shows internal distributed code logic.",
+      "status": "PASS",
+      "reviewer": "Coordinator, not independent"
+    },
+    {
+      "pair": "A/C",
+      "titles": "A asks about physical inaccessibility; C asks about the waiting cost and eventual readable reply.",
+      "images": "A shows an unpeopled space scene; C shows a person reading the result at a workstation.",
+      "status": "PASS",
+      "reviewer": "Coordinator, not independent"
+    },
+    {
+      "pair": "B/C",
+      "titles": "B asks how the fix functions; C asks how its delayed result was tested and received.",
+      "images": "B is an abstract technical mechanism; C is a realistic human reconstruction.",
+      "status": "PASS",
+      "reviewer": "Coordinator, not independent"
+    }
+  ],
+  "recommendation": "A as editorial starting choice, B and C alternatives. All three covers without traveler for distinct situations. Not a CTR forecast.",
+  "external_state": "proposal_only; no YouTube mutation; packaging prep explicitly authorized before MP4 acceptance"
+}

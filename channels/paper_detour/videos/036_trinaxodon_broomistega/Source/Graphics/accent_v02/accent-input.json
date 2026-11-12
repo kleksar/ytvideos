@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "canvas": [1080, 1920],
+  "face_height_px": 80,
+  "min_face_height_px": 65,
+  "anchors": {
+    "primary": {"center": [0.5, 0.12], "max_width_px": 1000, "max_height_px": 230},
+    "alternate": {"center": [0.5, 0.85], "max_width_px": 1000, "max_height_px": 230}
+  },
+  "scenes": [
+    {"id": "S01", "path": "../../Images/montage_1080x1920_v02/S01.png"},
+    {"id": "S01_DETAIL", "path": "../../Images/montage_1080x1920_v02/S01_Close.png"},
+    {"id": "S03", "path": "../../Images/montage_1080x1920_v02/S03.png"},
+    {"id": "S04", "path": "../../Images/montage_1080x1920_v02/S04.png"},
+    {"id": "S06", "path": "../../Images/montage_1080x1920_v02/S06.png"},
+    {"id": "S09", "path": "../../Images/montage_1080x1920_v02/S09.png"},
+    {"id": "S10", "path": "../../Images/montage_1080x1920_v02/S10.png"},
+    {"id": "S11", "path": "../../Images/montage_1080x1920_v02/S11.png"},
+    {"id": "S12", "path": "../../Images/montage_1080x1920_v02/S12.png"}
+  ],
+  "cues": [
+    {"id": "C01", "lines": ["TWO SKELETONS", "ONE BURROW"], "backend": {"type": "existingPNG", "path": "source_pngs_v01/cues/C01.png", "face": {"mode": "creamOrange", "line_boxes": [[0, 0, 2062, 350], [0, 350, 2062, 719]]}, "reference": "../../../../001_radio_game/Source/Images/accent_typography_v2/MATCH.png", "status": "AI-generated candidate; new text/typography resemblance visually reviewed, not a formally accepted channel-wide glyph set"}, "provenance": {"author": "imagegen; prepared 2026-11-02", "record": "GENERATION_LOG_v02.md"}, "timing": {"status": "PRELIMINARY", "note": "ElevenLabs character alignment; no listening playback QA"}},
+    {"id": "C02", "lines": ["250 MILLION YEARS"], "backend": {"type": "existingPNG", "path": "source_pngs_v01/cues/C02.png", "face": {"mode": "creamOrange", "line_boxes": [[0, 0, 2184, 756]]}, "reference": "../../../../001_radio_game/Source/Images/accent_typography_v2/MATCH.png", "status": "AI-generated candidate; new text/typography resemblance visually reviewed, not a formally accepted channel-wide glyph set"}, "provenance": {"author": "imagegen; prepared 2026-11-02", "record": "GENERATION_LOG_v02.md"}, "timing": {"status": "PRELIMINARY", "note": "ElevenLabs character alignment; no listening playback QA"}},
+    {"id": "C03", "lines": ["HOSTILE SURFACE"], "backend": {"type": "existingPNG", "path": "source_pngs_v01/cues/C03.png", "face": {"mode": "creamOrange", "line_boxes": [[0, 0, 631, 216]]}, "reference": "../../../../001_radio_game/Source/Images/accent_typography_v2/MATCH.png", "status": "Reused candidate from accent_v01; previous static typography review only"}, "provenance": {"author": "imagegen; reused from accent_v01", "record": "CUE_SHEET_v01.md"}, "timing": {"status": "PRELIMINARY", "note": "ElevenLabs character alignment; no listening playback QA"}},
+    {"id": "C04", "lines": ["ASLEEP THROUGH", "THE HEAT"], "backend": {"type": "existingPNG", "path": "source_pngs_v01/cues/C04.png", "face": {"mode": "creamOrange", "line_boxes": [[0, 0, 1815, 340], [0, 340, 1815, 766]]}, "reference": "../../../../001_radio_game/Source/Images/accent_typography_v2/MATCH.png", "status": "AI-generated candidate; new text/typography resemblance visually reviewed, not a formally accepted channel-wide glyph set"}, "provenance": {"author": "imagegen; prepared 2026-11-02", "record": "GENERATION_LOG_v02.md"}, "timing": {"status": "PRELIMINARY", "note": "ElevenLabs character alignment; no listening playback QA"}},
+    {"id": "C05", "lines": ["SEVEN BROKEN RIBS"], "backend": {"type": "existingPNG", "path": "source_pngs_v01/cues/C05.png", "face": {"mode": "creamOrange", "line_boxes": [[0, 0, 671, 228]]}, "reference": "../../../../001_radio_game/Source/Images/accent_typography_v2/MATCH.png", "status": "Reused candidate from accent_v01; previous static typography review only"}, "provenance": {"author": "imagegen; reused from accent_v01", "record": "CUE_SHEET_v01.md"}, "timing": {"status": "PRELIMINARY", "note": "ElevenLabs character alignment; no listening playback QA"}},
+    {"id": "C06", "lines": ["ALREADY OCCUPIED"], "backend": {"type": "existingPNG", "path": "source_pngs_v01/cues/C06.png", "face": {"mode": "creamOrange", "line_boxes": [[0, 0, 2125, 763]]}, "reference": "../../../../001_radio_game/Source/Images/accent_typography_v2/MATCH.png", "status": "AI-generated candidate; new text/typography resemblance visually reviewed, not a formally accepted channel-wide glyph set"}, "provenance": {"author": "imagegen; prepared 2026-11-02", "record": "GENERATION_LOG_v02.md"}, "timing": {"status": "PRELIMINARY", "note": "ElevenLabs character alignment; no listening playback QA"}},
+    {"id": "C07", "lines": ["REFUGE → TRAP"], "backend": {"type": "existingPNG", "path": "source_pngs_v01/cues/C07.png", "face": {"mode": "creamOrange", "line_boxes": [[0, 0, 593, 195]]}, "reference": "../../../../001_radio_game/Source/Images/accent_typography_v2/MATCH.png", "status": "Reused candidate from accent_v01; arrow glyph has not been re-reviewed in the new comp"}, "provenance": {"author": "imagegen; reused from accent_v01", "record": "CUE_SHEET_v01.md"}, "timing": {"status": "PRELIMINARY", "note": "ElevenLabs character alignment; no listening playback QA"}},
+    {"id": "C08", "lines": ["SEALED IN STONE"], "backend": {"type": "existingPNG", "path": "source_pngs_v01/cues/C08.png", "face": {"mode": "creamOrange", "line_boxes": [[0, 0, 2152, 755]]}, "reference": "../../../../001_radio_game/Source/Images/accent_typography_v2/MATCH.png", "status": "AI-generated candidate; new text/typography resemblance visually reviewed, not a formally accepted channel-wide glyph set"}, "provenance": {"author": "imagegen; prepared 2026-11-02", "record": "GENERATION_LOG_v02.md"}, "timing": {"status": "PRELIMINARY", "note": "ElevenLabs character alignment; no listening playback QA"}},
+    {"id": "C09", "lines": ["FOUND TOGETHER"], "backend": {"type": "existingPNG", "path": "source_pngs_v01/cues/C09.png", "face": {"mode": "creamOrange", "line_boxes": [[0, 0, 2189, 762]]}, "reference": "../../../../001_radio_game/Source/Images/accent_typography_v2/MATCH.png", "status": "AI-generated candidate; new text/typography resemblance visually reviewed, not a formally accepted channel-wide glyph set"}, "provenance": {"author": "imagegen; prepared 2026-11-02", "record": "GENERATION_LOG_v02.md"}, "timing": {"status": "PRELIMINARY", "note": "ElevenLabs character alignment; no listening playback QA"}}
+  ],
+  "pairs": [
+    {"scene": "S01", "cue": "C01", "anchor": "primary"},
+    {"scene": "S01_DETAIL", "cue": "C02", "anchor": "primary"},
+    {"scene": "S03", "cue": "C03", "anchor": "primary"},
+    {"scene": "S04", "cue": "C04", "anchor": "primary"},
+    {"scene": "S06", "cue": "C05", "anchor": "primary"},
+    {"scene": "S09", "cue": "C06", "anchor": "primary"},
+    {"scene": "S10", "cue": "C07", "anchor": "primary"},
+    {"scene": "S11", "cue": "C08", "anchor": "primary"},
+    {"scene": "S12", "cue": "C09", "anchor": "primary"}
+  ]
+}

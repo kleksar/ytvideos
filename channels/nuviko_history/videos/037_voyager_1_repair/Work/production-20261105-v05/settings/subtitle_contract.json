@@ -1,0 +1,5571 @@
+{
+  "schema": "ytv-delivery-v1",
+  "channel": "nuviko",
+  "format": "long",
+  "canvas": [
+    2560,
+    1440
+  ],
+  "fps": 30,
+  "frames": 6353,
+  "audio": {
+    "audio": {
+      "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Audio/en_v02/mix_en_v02.wav",
+      "sha256": "5fda59e4a321fa64bfc2ebff428e901976502dcb43eaf1f56af4f36b80660363"
+    },
+    "applied_speed": 1.1,
+    "speed_policy": {
+      "path": "/Users/diplomat/ytvideos/.agents/skills/ytv-audio-delivery/references/speed.json",
+      "sha256": "32c378c36c1e297cbdc4e3593c965163d33e531b8b8eea026b367bddb51a668a"
+    },
+    "speed_evidence": {
+      "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Audio/en_v02/speed_evidence.md",
+      "sha256": "829a3eb04ab2f6e7120ec11f177edfefd1b4ec057169dc92c2b0bbc7f55a9267"
+    }
+  },
+  "transcript": {
+    "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Edit/Production/v02/transcript_en.txt",
+    "sha256": "beb634366564979cb923a75acd4795bc7fe48ac265b128f49a4e3e4fd8d9d13a"
+  },
+  "word_map": {
+    "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Edit/Production/v02/word_times_mix_v02.json",
+    "sha256": "aa27b3d18b0257e2c215b19fdd141ab0ada8d333555036b35c9e735156195646"
+  },
+  "profiles": [
+    {
+      "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/profiles/nuviko.json",
+      "sha256": "e710153ae2bd0587adf233b671924ebbf64d183c3e77d2f5ea0c48b266f467a0"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/profiles/long.json",
+      "sha256": "e8f9f5dd0354283634a0cf9dc1816736bac38de158de1d0bdd1b8b4658f51459"
+    },
+    {
+      "path": "/System/Library/Fonts/Supplemental/Georgia Bold.ttf",
+      "sha256": "1cfa9abd55be746c798c22ef4eba88fce82257934897404be2dae53ed0a4142a"
+    }
+  ],
+  "engine": [
+    {
+      "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/montage.py",
+      "sha256": "46ad2e66108410761e7e13c3f2b6eb6e5c38f9a6c2ed4a3208ce10d70174ac81"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/delivery.py",
+      "sha256": "3bffc0a7ca4381a45ca7f564d0ca28a10552048a019d76509926f0e344b16897"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/.agents/skills/ytv-paper-subtitles/scripts/semantic_grouping.py",
+      "sha256": "d306fe60e6e82ea6bda440b37ba83ba853b25c9d2eb60a68db3e2a2d2846f703"
+    }
+  ],
+  "picture": [
+    {
+      "scene": {
+        "id": "S01",
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S01_v01.png",
+        "start_frame": 0,
+        "end_frame": 168,
+        "direction": "none",
+        "zoom": "in"
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S01_v01.png",
+        "sha256": "2cb182b04bd8851b6e7e0f4272f9e3e5164b0782c45b7a1d177b82eb702606de"
+      }
+    },
+    {
+      "scene": {
+        "id": "S02",
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S02_v01.png",
+        "start_frame": 168,
+        "end_frame": 315,
+        "direction": "none",
+        "zoom": "out"
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S02_v01.png",
+        "sha256": "4836d7b58756a5f9f7daa39adf5f762966bde1c81cf758cb6dd5e764521d1ab5"
+      }
+    },
+    {
+      "scene": {
+        "id": "S03",
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S03_v01.png",
+        "start_frame": 315,
+        "end_frame": 459,
+        "direction": "none",
+        "zoom": "in"
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S03_v01.png",
+        "sha256": "8ba322387728b2a1881065951e896e85b8b773ca4a2cd7f32534dfc1956bed36"
+      }
+    },
+    {
+      "scene": {
+        "id": "S04",
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S04_v01.png",
+        "start_frame": 459,
+        "end_frame": 605,
+        "direction": "none",
+        "zoom": "out"
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S04_v01.png",
+        "sha256": "4c69fe46594c1a26ae726fdf184fc303d7916adb82d029ad3af2cce25a3b2fd3"
+      }
+    },
+    {
+      "scene": {
+        "id": "S05",
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S05_v01.png",
+        "start_frame": 605,
+        "end_frame": 731,
+        "direction": "none",
+        "zoom": "in"
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S05_v01.png",
+        "sha256": "609dff2f63a91d6a22291bf27e8f940d2128a921332673f439a7ef4b4d04ee86"
+      }
+    },
+    {
+      "scene": {
+        "id": "S06",
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S06_v01.png",
+        "start_frame": 731,
+        "end_frame": 866,
+        "direction": "none",
+        "zoom": "out"
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S06_v01.png",
+        "sha256": "1465261eede406e27a24331b4f287939deea9f12ff3b1cc928ec27774a3aa17d"
+      }
+    },
+    {
+      "scene": {
+        "id": "S07",
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S07_v01.png",
+        "start_frame": 866,
+        "end_frame": 1001,
+        "direction": "none",
+        "zoom": "in"
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S07_v01.png",
+        "sha256": "e4ecb063f519227a7d5fc17eab2572d8cea55e26963f2cc000d49694668c644b"
+      }
+    },
+    {
+      "scene": {
+        "id": "S08",
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S08_v01.png",
+        "start_frame": 1001,
+        "end_frame": 1131,
+        "direction": "none",
+        "zoom": "out"
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S08_v01.png",
+        "sha256": "50d2c20f15f7cbb75c16765ab6bbf9c98ddbfe8f2f5857977a1b59182564bf02"
+      }
+    },
+    {
+      "scene": {
+        "id": "S09",
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S09_v01.png",
+        "start_frame": 1131,
+        "end_frame": 1299,
+        "direction": "none",
+        "zoom": "in"
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S09_v01.png",
+        "sha256": "70c230da134f8e963a0ecf5e68a664fba3bb87e77a3498e3f28f71ec14e5510f"
+      }
+    },
+    {
+      "scene": {
+        "id": "S10",
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S10_v01.png",
+        "start_frame": 1299,
+        "end_frame": 1437,
+        "direction": "none",
+        "zoom": "out"
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S10_v01.png",
+        "sha256": "a32381050f6c936b631530e8c3258b8a40b2ec176085dd4620ff5e1b625df4ea"
+      }
+    },
+    {
+      "scene": {
+        "id": "S11",
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S11_v01.png",
+        "start_frame": 1437,
+        "end_frame": 1575,
+        "direction": "none",
+        "zoom": "in"
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S11_v01.png",
+        "sha256": "c8e16587cb2bc6da887b98cf032f94437464881a8e65c42b33175d73cab000bf"
+      }
+    },
+    {
+      "scene": {
+        "id": "S12",
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S12_v01.png",
+        "start_frame": 1575,
+        "end_frame": 1713,
+        "direction": "none",
+        "zoom": "out"
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S12_v01.png",
+        "sha256": "93664e450988625c7fba20b19c084efd6eaf7506931a471845da268a7e884002"
+      }
+    },
+    {
+      "scene": {
+        "id": "S13",
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S13_v01.png",
+        "start_frame": 1713,
+        "end_frame": 1851,
+        "direction": "none",
+        "zoom": "in"
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S13_v01.png",
+        "sha256": "1a14d480e7bec1a92bbd249b1e9c762e799afe13a0368822ea23a003eab24d70"
+      }
+    },
+    {
+      "scene": {
+        "id": "S14",
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S14_v01.png",
+        "start_frame": 1851,
+        "end_frame": 2028,
+        "direction": "none",
+        "zoom": "out"
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S14_v01.png",
+        "sha256": "0b172e76eae35a301d816d04a8c72a16d55878be1e0d33eb633a34a0e940e2bc"
+      }
+    },
+    {
+      "scene": {
+        "id": "S15",
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S15_v01.png",
+        "start_frame": 2028,
+        "end_frame": 2184,
+        "direction": "none",
+        "zoom": "in"
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S15_v01.png",
+        "sha256": "b8c492ac529055e01c39fa3b4e4fec8abbb4718667f8ee9400ea74747b4b0e0e"
+      }
+    },
+    {
+      "scene": {
+        "id": "S16",
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S16_v01.png",
+        "start_frame": 2184,
+        "end_frame": 2340,
+        "direction": "none",
+        "zoom": "out"
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S16_v01.png",
+        "sha256": "4e0eb0c57b8ac33fc209e0b56041ed302d70d8139a2e65ee2f4fea05f88575eb"
+      }
+    },
+    {
+      "scene": {
+        "id": "S17",
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S17_v01.png",
+        "start_frame": 2340,
+        "end_frame": 2496,
+        "direction": "none",
+        "zoom": "in"
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S17_v01.png",
+        "sha256": "38bbfb8505e941ed67a2c4e8e34b68a1ba9a889d8abca79bb476fed16d62ad94"
+      }
+    },
+    {
+      "scene": {
+        "id": "S18",
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S18_v01.png",
+        "start_frame": 2496,
+        "end_frame": 2616,
+        "direction": "none",
+        "zoom": "out"
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S18_v01.png",
+        "sha256": "fd73ac8a46e62988d1c30e54404b73d555041c25eb0aa71d644f32f6f6f73403"
+      }
+    },
+    {
+      "scene": {
+        "id": "S19",
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S19_v01.png",
+        "start_frame": 2616,
+        "end_frame": 2736,
+        "direction": "none",
+        "zoom": "in"
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S19_v01.png",
+        "sha256": "7ceabfa2b7691f6e13440713a7cbd4f6a0d7fcd8b6de2fbc23533ab677e448ec"
+      }
+    },
+    {
+      "scene": {
+        "id": "S20",
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S20_v01.png",
+        "start_frame": 2736,
+        "end_frame": 2856,
+        "direction": "none",
+        "zoom": "out"
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S20_v01.png",
+        "sha256": "96438802f2020159b3d96c26334637b7ede51717de1829a0c45d29f15f99e714"
+      }
+    },
+    {
+      "scene": {
+        "id": "S21",
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S21_v01.png",
+        "start_frame": 2856,
+        "end_frame": 2998,
+        "direction": "none",
+        "zoom": "in"
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S21_v01.png",
+        "sha256": "159e35ac58f94aaee1021cffa8e207e15ceb9b0a0060f8069158b305f7e2e1c6"
+      }
+    },
+    {
+      "scene": {
+        "id": "S22",
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S22_v01.png",
+        "start_frame": 2998,
+        "end_frame": 3139,
+        "direction": "none",
+        "zoom": "out"
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S22_v01.png",
+        "sha256": "eecbb9c31e6cfab84e00ce977da1e7aef6c036ad76c20d17f347b4af67cdd22e"
+      }
+    },
+    {
+      "scene": {
+        "id": "S23",
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S23_v01.png",
+        "start_frame": 3139,
+        "end_frame": 3281,
+        "direction": "none",
+        "zoom": "in"
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S23_v01.png",
+        "sha256": "957657b02ba182fcf6d4103277c312ead64e6ed6d32ef7699ba9a57fa687fd78"
+      }
+    },
+    {
+      "scene": {
+        "id": "S24",
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S24_v01.png",
+        "start_frame": 3281,
+        "end_frame": 3458,
+        "direction": "none",
+        "zoom": "out"
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S24_v01.png",
+        "sha256": "8a3f8eb4eaba4cc49a03c5e6c08cd161c9b41974bfcfd9e8a857212234ac8146"
+      }
+    },
+    {
+      "scene": {
+        "id": "S25",
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S25_v01.png",
+        "start_frame": 3458,
+        "end_frame": 3635,
+        "direction": "none",
+        "zoom": "in"
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S25_v01.png",
+        "sha256": "e6eb919724c835a37a689865d5bdb439b1f83749688ac480630e84cfff98570b"
+      }
+    },
+    {
+      "scene": {
+        "id": "S26",
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S26_v01.png",
+        "start_frame": 3635,
+        "end_frame": 3786,
+        "direction": "none",
+        "zoom": "out"
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S26_v01.png",
+        "sha256": "1fb06ddee392948a8625db24da4406fe70447ce61cfbdd6696f032810a3cffdc"
+      }
+    },
+    {
+      "scene": {
+        "id": "S27",
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S27_v01.png",
+        "start_frame": 3786,
+        "end_frame": 3936,
+        "direction": "none",
+        "zoom": "in"
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S27_v01.png",
+        "sha256": "da749ab4fdc916fbf29c53ef40af4f83730b554b19be2f2c3a4a9f311e948c3d"
+      }
+    },
+    {
+      "scene": {
+        "id": "S28",
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S28_v01.png",
+        "start_frame": 3936,
+        "end_frame": 4056,
+        "direction": "none",
+        "zoom": "out"
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S28_v01.png",
+        "sha256": "dfdd678cc822bc4b7a6c80d7609a65e6e7db86a492b1b3afa434a0c999be825c"
+      }
+    },
+    {
+      "scene": {
+        "id": "S29",
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S29_v01.png",
+        "start_frame": 4056,
+        "end_frame": 4215,
+        "direction": "none",
+        "zoom": "in"
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S29_v01.png",
+        "sha256": "f2eb21122eea85c7775eb429950146b59383dfbbb96798c842ed9d1c7c2a807c"
+      }
+    },
+    {
+      "scene": {
+        "id": "S30",
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S30_v01.png",
+        "start_frame": 4215,
+        "end_frame": 4374,
+        "direction": "none",
+        "zoom": "out"
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S30_v01.png",
+        "sha256": "3a9bc57510280fa3061361810a50230130f9e1ec75af1b373985f342f6fb6168"
+      }
+    },
+    {
+      "scene": {
+        "id": "S31",
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S31_v01.png",
+        "start_frame": 4374,
+        "end_frame": 4534,
+        "direction": "none",
+        "zoom": "in"
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S31_v01.png",
+        "sha256": "960abf95d23a927f0b66a7e6a20f931a77d9b2039d9890ae4dcc73802d7f154e"
+      }
+    },
+    {
+      "scene": {
+        "id": "S32",
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S32_v01.png",
+        "start_frame": 4534,
+        "end_frame": 4655,
+        "direction": "none",
+        "zoom": "out"
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S32_v01.png",
+        "sha256": "d6ffa2aa0128665d37a03038ff966e13d37b5181a710d6f763c7f9306ca1bb11"
+      }
+    },
+    {
+      "scene": {
+        "id": "S33",
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S33_v01.png",
+        "start_frame": 4655,
+        "end_frame": 4776,
+        "direction": "none",
+        "zoom": "in"
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S33_v01.png",
+        "sha256": "137762ce217021669030afe7ec471b7dd76af0d663bc3c56317e9b390ef6fa5d"
+      }
+    },
+    {
+      "scene": {
+        "id": "S34",
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S34_v01.png",
+        "start_frame": 4776,
+        "end_frame": 4898,
+        "direction": "none",
+        "zoom": "out"
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S34_v01.png",
+        "sha256": "d10b7ba80081c2b3ff68b79137b4b196ad6372fb29513021298b4f6f5fd8ad3e"
+      }
+    },
+    {
+      "scene": {
+        "id": "S35",
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S35_v01.png",
+        "start_frame": 4898,
+        "end_frame": 5040,
+        "direction": "none",
+        "zoom": "in"
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S35_v01.png",
+        "sha256": "e9051008ee389083320f2d6e3b8286d5b5d9846e6ec0507bbdbdc9b62ec6f42b"
+      }
+    },
+    {
+      "scene": {
+        "id": "S36",
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S36_v01.png",
+        "start_frame": 5040,
+        "end_frame": 5210,
+        "direction": "none",
+        "zoom": "out"
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S36_v01.png",
+        "sha256": "bb2169695595dcbb3306d0f5926cbb371674d7ed2cae6ba2f79c14307accc889"
+      }
+    },
+    {
+      "scene": {
+        "id": "S37",
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S37_v01.png",
+        "start_frame": 5210,
+        "end_frame": 5339,
+        "direction": "none",
+        "zoom": "in"
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S37_v01.png",
+        "sha256": "b406200cfd70bccdb7f7cf5689314e2a9a5a87572eacb87436af94e3a2bdc6c8"
+      }
+    },
+    {
+      "scene": {
+        "id": "S38",
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S38_v01.png",
+        "start_frame": 5339,
+        "end_frame": 5468,
+        "direction": "none",
+        "zoom": "out"
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S38_v01.png",
+        "sha256": "aaec3d3ee3b088af1393fee35a753564841024257376a6ced12c06ae3603163c"
+      }
+    },
+    {
+      "scene": {
+        "id": "S39",
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S39_v01.png",
+        "start_frame": 5468,
+        "end_frame": 5597,
+        "direction": "none",
+        "zoom": "in"
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S39_v01.png",
+        "sha256": "19a2bf7d783da5c59ae9380b177bd4c67d1716f738f0e66129f5d28e419945a4"
+      }
+    },
+    {
+      "scene": {
+        "id": "S40",
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S40_v01.png",
+        "start_frame": 5597,
+        "end_frame": 5753,
+        "direction": "none",
+        "zoom": "out"
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S40_v01.png",
+        "sha256": "2443a69b8586e68181a9dcaa2e5dac4cc025a9da47cb026f38a34f8262266d6a"
+      }
+    },
+    {
+      "scene": {
+        "id": "S41",
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S41_v01.png",
+        "start_frame": 5753,
+        "end_frame": 5909,
+        "direction": "none",
+        "zoom": "in"
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S41_v01.png",
+        "sha256": "aad6c80bb0373004d85530b990f18d8786b088ca87e8dbbc8eb60c7d8d9f0da3"
+      }
+    },
+    {
+      "scene": {
+        "id": "S42",
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S42_v01.png",
+        "start_frame": 5909,
+        "end_frame": 6057,
+        "direction": "none",
+        "zoom": "out"
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S42_v01.png",
+        "sha256": "1d29a23305a75e2745a640660988f6e1213c92a7c26a1dd9fd29d059755bf898"
+      }
+    },
+    {
+      "scene": {
+        "id": "S43",
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S43_v01.png",
+        "start_frame": 6057,
+        "end_frame": 6205,
+        "direction": "none",
+        "zoom": "in"
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S43_v01.png",
+        "sha256": "fdbf603193fe5800e4d477a17680a5c69e1c39fadd826309aa843eeffafe6864"
+      }
+    },
+    {
+      "scene": {
+        "id": "S44",
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S44_v01.png",
+        "start_frame": 6205,
+        "end_frame": 6353,
+        "direction": "none",
+        "zoom": "out"
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v05/S44_v01.png",
+        "sha256": "a10059ea910fbc25d2152b6e042a2ff12473f9163c42c0356f395db4ad0ff1c0"
+      }
+    }
+  ],
+  "overlays": [],
+  "groups": [
+    [
+      {
+        "text": "How",
+        "start": 0.12,
+        "end": 0.26,
+        "source": "whisperx_forced_alignment",
+        "score": 0.999
+      },
+      {
+        "text": "Do",
+        "start": 0.3,
+        "end": 0.36,
+        "source": "whisperx_forced_alignment",
+        "score": 0.812
+      },
+      {
+        "text": "You",
+        "start": 0.4,
+        "end": 0.52,
+        "source": "whisperx_forced_alignment",
+        "score": 0.831
+      },
+      {
+        "text": "Fix",
+        "start": 0.58,
+        "end": 0.84,
+        "source": "whisperx_forced_alignment",
+        "score": 0.879
+      },
+      {
+        "text": "Voyager",
+        "start": 0.92,
+        "end": 1.82,
+        "source": "whisperx_forced_alignment",
+        "score": 0.697
+      },
+      {
+        "text": "1",
+        "start": 1.84,
+        "end": 1.86,
+        "source": "whisperx_forced_alignment",
+        "score": 1.0
+      }
+    ],
+    [
+      {
+        "text": "From",
+        "start": 1.96,
+        "end": 2.12,
+        "source": "whisperx_forced_alignment",
+        "score": 0.748
+      },
+      {
+        "text": "24",
+        "start": 2.4,
+        "end": 2.9,
+        "source": "whisperx_forced_alignment",
+        "score": 0.728
+      },
+      {
+        "text": "Billion",
+        "start": 3.16,
+        "end": 3.6,
+        "source": "whisperx_forced_alignment",
+        "score": 0.86
+      },
+      {
+        "text": "Kilometers",
+        "start": 3.64,
+        "end": 4.22,
+        "source": "whisperx_forced_alignment",
+        "score": 0.786
+      }
+    ],
+    [
+      {
+        "text": "Away?",
+        "start": 4.28,
+        "end": 4.66,
+        "source": "whisperx_forced_alignment",
+        "score": 0.806
+      }
+    ],
+    [
+      {
+        "text": "In",
+        "start": 5.901,
+        "end": 6.281,
+        "source": "whisperx_forced_alignment",
+        "score": 0.718
+      },
+      {
+        "text": "1977,",
+        "start": 6.361,
+        "end": 7.161,
+        "source": "whisperx_forced_alignment",
+        "score": 0.617
+      },
+      {
+        "text": "humanity",
+        "start": 7.421,
+        "end": 7.981,
+        "source": "whisperx_forced_alignment",
+        "score": 0.848
+      },
+      {
+        "text": "sent",
+        "start": 8.041,
+        "end": 8.221,
+        "source": "whisperx_forced_alignment",
+        "score": 0.892
+      }
+    ],
+    [
+      {
+        "text": "a",
+        "start": 8.281,
+        "end": 8.321,
+        "source": "whisperx_forced_alignment",
+        "score": 0.717
+      },
+      {
+        "text": "spacecraft",
+        "start": 8.381,
+        "end": 9.101,
+        "source": "whisperx_forced_alignment",
+        "score": 0.756
+      },
+      {
+        "text": "called",
+        "start": 9.181,
+        "end": 9.421,
+        "source": "whisperx_forced_alignment",
+        "score": 0.813
+      },
+      {
+        "text": "Voyager",
+        "start": 9.501,
+        "end": 10.021,
+        "source": "whisperx_forced_alignment",
+        "score": 0.778
+      },
+      {
+        "text": "1",
+        "start": 10.221,
+        "end": 10.381,
+        "source": "whisperx_forced_alignment",
+        "score": 0.467
+      }
+    ],
+    [
+      {
+        "text": "to",
+        "start": 10.501,
+        "end": 10.621,
+        "source": "whisperx_forced_alignment",
+        "score": 0.662
+      },
+      {
+        "text": "Jupiter",
+        "start": 10.701,
+        "end": 11.141,
+        "source": "whisperx_forced_alignment",
+        "score": 0.846
+      },
+      {
+        "text": "and",
+        "start": 11.281,
+        "end": 11.381,
+        "source": "whisperx_forced_alignment",
+        "score": 0.776
+      },
+      {
+        "text": "Saturn.",
+        "start": 11.481,
+        "end": 11.881,
+        "source": "whisperx_forced_alignment",
+        "score": 0.799
+      }
+    ],
+    [
+      {
+        "text": "After",
+        "start": 12.401,
+        "end": 12.621,
+        "source": "whisperx_forced_alignment",
+        "score": 0.718
+      },
+      {
+        "text": "completing",
+        "start": 12.641,
+        "end": 13.101,
+        "source": "whisperx_forced_alignment",
+        "score": 0.853
+      },
+      {
+        "text": "its",
+        "start": 13.141,
+        "end": 13.261,
+        "source": "whisperx_forced_alignment",
+        "score": 0.727
+      },
+      {
+        "text": "mission,",
+        "start": 13.341,
+        "end": 13.701,
+        "source": "whisperx_forced_alignment",
+        "score": 0.897
+      }
+    ],
+    [
+      {
+        "text": "it",
+        "start": 14.001,
+        "end": 14.061,
+        "source": "whisperx_forced_alignment",
+        "score": 0.994
+      },
+      {
+        "text": "kept",
+        "start": 14.141,
+        "end": 14.381,
+        "source": "whisperx_forced_alignment",
+        "score": 0.74
+      },
+      {
+        "text": "traveling,",
+        "start": 14.461,
+        "end": 14.941,
+        "source": "whisperx_forced_alignment",
+        "score": 0.888
+      }
+    ],
+    [
+      {
+        "text": "becoming",
+        "start": 15.241,
+        "end": 15.621,
+        "source": "whisperx_forced_alignment",
+        "score": 0.686
+      },
+      {
+        "text": "the",
+        "start": 15.661,
+        "end": 15.741,
+        "source": "whisperx_forced_alignment",
+        "score": 0.854
+      },
+      {
+        "text": "most",
+        "start": 15.781,
+        "end": 15.982,
+        "source": "whisperx_forced_alignment",
+        "score": 0.64
+      }
+    ],
+    [
+      {
+        "text": "distant",
+        "start": 16.182,
+        "end": 16.582,
+        "source": "whisperx_forced_alignment",
+        "score": 0.812
+      },
+      {
+        "text": "operating",
+        "start": 16.742,
+        "end": 17.242,
+        "source": "whisperx_forced_alignment",
+        "score": 0.805
+      },
+      {
+        "text": "spacecraft",
+        "start": 17.282,
+        "end": 17.942,
+        "source": "whisperx_forced_alignment",
+        "score": 0.887
+      }
+    ],
+    [
+      {
+        "text": "ever",
+        "start": 18.262,
+        "end": 18.462,
+        "source": "whisperx_forced_alignment",
+        "score": 0.671
+      },
+      {
+        "text": "built",
+        "start": 18.542,
+        "end": 18.802,
+        "source": "whisperx_forced_alignment",
+        "score": 0.65
+      },
+      {
+        "text": "by",
+        "start": 18.882,
+        "end": 19.022,
+        "source": "whisperx_forced_alignment",
+        "score": 0.714
+      },
+      {
+        "text": "humans.",
+        "start": 19.082,
+        "end": 19.502,
+        "source": "whisperx_forced_alignment",
+        "score": 0.873
+      }
+    ],
+    [
+      {
+        "text": "Decades",
+        "start": 20.182,
+        "end": 20.642,
+        "source": "whisperx_forced_alignment",
+        "score": 0.749
+      },
+      {
+        "text": "later,",
+        "start": 20.702,
+        "end": 21.042,
+        "source": "whisperx_forced_alignment",
+        "score": 0.794
+      },
+      {
+        "text": "in",
+        "start": 21.282,
+        "end": 21.342,
+        "source": "whisperx_forced_alignment",
+        "score": 0.903
+      },
+      {
+        "text": "November",
+        "start": 21.402,
+        "end": 21.922,
+        "source": "whisperx_forced_alignment",
+        "score": 0.761
+      }
+    ],
+    [
+      {
+        "text": "2023,",
+        "start": 22.102,
+        "end": 22.962,
+        "source": "whisperx_forced_alignment",
+        "score": 0.758
+      },
+      {
+        "text": "its",
+        "start": 23.282,
+        "end": 23.402,
+        "source": "whisperx_forced_alignment",
+        "score": 0.721
+      },
+      {
+        "text": "messages",
+        "start": 23.522,
+        "end": 23.982,
+        "source": "whisperx_forced_alignment",
+        "score": 0.81
+      },
+      {
+        "text": "stopped",
+        "start": 24.102,
+        "end": 24.422,
+        "source": "whisperx_forced_alignment",
+        "score": 0.858
+      }
+    ],
+    [
+      {
+        "text": "making",
+        "start": 24.482,
+        "end": 24.782,
+        "source": "whisperx_forced_alignment",
+        "score": 0.804
+      },
+      {
+        "text": "sense",
+        "start": 24.922,
+        "end": 25.242,
+        "source": "whisperx_forced_alignment",
+        "score": 0.602
+      },
+      {
+        "text": "back",
+        "start": 25.342,
+        "end": 25.542,
+        "source": "whisperx_forced_alignment",
+        "score": 0.944
+      },
+      {
+        "text": "on",
+        "start": 25.622,
+        "end": 25.702,
+        "source": "whisperx_forced_alignment",
+        "score": 0.739
+      },
+      {
+        "text": "Earth.",
+        "start": 25.782,
+        "end": 25.982,
+        "source": "whisperx_forced_alignment",
+        "score": 0.798
+      }
+    ],
+    [
+      {
+        "text": "The",
+        "start": 26.503,
+        "end": 26.623,
+        "source": "whisperx_forced_alignment",
+        "score": 0.625
+      },
+      {
+        "text": "radio",
+        "start": 26.683,
+        "end": 27.043,
+        "source": "whisperx_forced_alignment",
+        "score": 0.904
+      },
+      {
+        "text": "signal",
+        "start": 27.103,
+        "end": 27.423,
+        "source": "whisperx_forced_alignment",
+        "score": 0.868
+      }
+    ],
+    [
+      {
+        "text": "was",
+        "start": 27.463,
+        "end": 27.583,
+        "source": "whisperx_forced_alignment",
+        "score": 0.86
+      },
+      {
+        "text": "still",
+        "start": 27.643,
+        "end": 27.883,
+        "source": "whisperx_forced_alignment",
+        "score": 0.667
+      },
+      {
+        "text": "coming",
+        "start": 27.923,
+        "end": 28.183,
+        "source": "whisperx_forced_alignment",
+        "score": 0.761
+      },
+      {
+        "text": "through.",
+        "start": 28.243,
+        "end": 28.583,
+        "source": "whisperx_forced_alignment",
+        "score": 0.907
+      }
+    ],
+    [
+      {
+        "text": "The",
+        "start": 28.883,
+        "end": 28.983,
+        "source": "whisperx_forced_alignment",
+        "score": 0.669
+      },
+      {
+        "text": "spacecraft",
+        "start": 29.023,
+        "end": 29.703,
+        "source": "whisperx_forced_alignment",
+        "score": 0.777
+      }
+    ],
+    [
+      {
+        "text": "was",
+        "start": 29.743,
+        "end": 29.863,
+        "source": "whisperx_forced_alignment",
+        "score": 0.947
+      },
+      {
+        "text": "still",
+        "start": 29.923,
+        "end": 30.163,
+        "source": "whisperx_forced_alignment",
+        "score": 0.879
+      },
+      {
+        "text": "receiving",
+        "start": 30.223,
+        "end": 30.623,
+        "source": "whisperx_forced_alignment",
+        "score": 0.875
+      }
+    ],
+    [
+      {
+        "text": "commands.",
+        "start": 30.663,
+        "end": 31.183,
+        "source": "whisperx_forced_alignment",
+        "score": 0.839
+      }
+    ],
+    [
+      {
+        "text": "But",
+        "start": 31.503,
+        "end": 31.643,
+        "source": "whisperx_forced_alignment",
+        "score": 0.803
+      },
+      {
+        "text": "neither",
+        "start": 31.743,
+        "end": 32.043,
+        "source": "whisperx_forced_alignment",
+        "score": 0.785
+      },
+      {
+        "text": "its",
+        "start": 32.103,
+        "end": 32.203,
+        "source": "whisperx_forced_alignment",
+        "score": 0.621
+      },
+      {
+        "text": "scientific",
+        "start": 32.303,
+        "end": 32.883,
+        "source": "whisperx_forced_alignment",
+        "score": 0.842
+      }
+    ],
+    [
+      {
+        "text": "measurements",
+        "start": 32.983,
+        "end": 33.443,
+        "source": "whisperx_forced_alignment",
+        "score": 0.792
+      }
+    ],
+    [
+      {
+        "text": "nor",
+        "start": 33.723,
+        "end": 33.923,
+        "source": "whisperx_forced_alignment",
+        "score": 0.817
+      },
+      {
+        "text": "the",
+        "start": 33.963,
+        "end": 34.063,
+        "source": "whisperx_forced_alignment",
+        "score": 0.747
+      },
+      {
+        "text": "information",
+        "start": 34.123,
+        "end": 34.683,
+        "source": "whisperx_forced_alignment",
+        "score": 0.822
+      }
+    ],
+    [
+      {
+        "text": "about",
+        "start": 34.723,
+        "end": 34.923,
+        "source": "whisperx_forced_alignment",
+        "score": 0.77
+      },
+      {
+        "text": "its",
+        "start": 34.963,
+        "end": 35.083,
+        "source": "whisperx_forced_alignment",
+        "score": 0.647
+      },
+      {
+        "text": "own",
+        "start": 35.223,
+        "end": 35.363,
+        "source": "whisperx_forced_alignment",
+        "score": 0.694
+      },
+      {
+        "text": "condition",
+        "start": 35.423,
+        "end": 36.023,
+        "source": "whisperx_forced_alignment",
+        "score": 0.841
+      }
+    ],
+    [
+      {
+        "text": "could",
+        "start": 36.183,
+        "end": 36.323,
+        "source": "whisperx_forced_alignment",
+        "score": 0.8
+      },
+      {
+        "text": "be",
+        "start": 36.363,
+        "end": 36.463,
+        "source": "whisperx_forced_alignment",
+        "score": 0.776
+      },
+      {
+        "text": "read",
+        "start": 36.563,
+        "end": 36.743,
+        "source": "whisperx_forced_alignment",
+        "score": 0.878
+      },
+      {
+        "text": "anymore.",
+        "start": 36.783,
+        "end": 37.224,
+        "source": "whisperx_forced_alignment",
+        "score": 0.838
+      }
+    ],
+    [
+      {
+        "text": "How",
+        "start": 37.724,
+        "end": 37.844,
+        "source": "whisperx_forced_alignment",
+        "score": 0.968
+      },
+      {
+        "text": "do",
+        "start": 37.864,
+        "end": 37.944,
+        "source": "whisperx_forced_alignment",
+        "score": 0.613
+      },
+      {
+        "text": "you",
+        "start": 37.964,
+        "end": 38.084,
+        "source": "whisperx_forced_alignment",
+        "score": 0.866
+      },
+      {
+        "text": "figure",
+        "start": 38.144,
+        "end": 38.424,
+        "source": "whisperx_forced_alignment",
+        "score": 0.886
+      }
+    ],
+    [
+      {
+        "text": "out",
+        "start": 38.484,
+        "end": 38.584,
+        "source": "whisperx_forced_alignment",
+        "score": 0.873
+      },
+      {
+        "text": "what's",
+        "start": 38.644,
+        "end": 38.844,
+        "source": "whisperx_forced_alignment",
+        "score": 0.68
+      },
+      {
+        "text": "broken",
+        "start": 38.984,
+        "end": 39.444,
+        "source": "whisperx_forced_alignment",
+        "score": 0.7
+      }
+    ],
+    [
+      {
+        "text": "when",
+        "start": 39.504,
+        "end": 39.644,
+        "source": "whisperx_forced_alignment",
+        "score": 0.824
+      },
+      {
+        "text": "a",
+        "start": 39.664,
+        "end": 39.704,
+        "source": "whisperx_forced_alignment",
+        "score": 0.707
+      },
+      {
+        "text": "spacecraft",
+        "start": 39.804,
+        "end": 40.484,
+        "source": "whisperx_forced_alignment",
+        "score": 0.822
+      }
+    ],
+    [
+      {
+        "text": "can't",
+        "start": 40.544,
+        "end": 40.724,
+        "source": "whisperx_forced_alignment",
+        "score": 0.649
+      },
+      {
+        "text": "even",
+        "start": 40.764,
+        "end": 40.944,
+        "source": "whisperx_forced_alignment",
+        "score": 0.827
+      },
+      {
+        "text": "tell",
+        "start": 41.004,
+        "end": 41.224,
+        "source": "whisperx_forced_alignment",
+        "score": 0.819
+      }
+    ],
+    [
+      {
+        "text": "you",
+        "start": 41.244,
+        "end": 41.344,
+        "source": "whisperx_forced_alignment",
+        "score": 0.99
+      },
+      {
+        "text": "what's",
+        "start": 41.384,
+        "end": 41.564,
+        "source": "whisperx_forced_alignment",
+        "score": 0.756
+      },
+      {
+        "text": "happening",
+        "start": 41.584,
+        "end": 41.944,
+        "source": "whisperx_forced_alignment",
+        "score": 0.898
+      }
+    ],
+    [
+      {
+        "text": "inside",
+        "start": 42.004,
+        "end": 42.444,
+        "source": "whisperx_forced_alignment",
+        "score": 0.823
+      },
+      {
+        "text": "it?",
+        "start": 42.484,
+        "end": 42.564,
+        "source": "whisperx_forced_alignment",
+        "score": 0.906
+      }
+    ],
+    [
+      {
+        "text": "By",
+        "start": 43.284,
+        "end": 43.424,
+        "source": "whisperx_forced_alignment",
+        "score": 0.927
+      },
+      {
+        "text": "then,",
+        "start": 43.484,
+        "end": 43.764,
+        "source": "whisperx_forced_alignment",
+        "score": 0.872
+      },
+      {
+        "text": "Voyager",
+        "start": 44.124,
+        "end": 44.604,
+        "source": "whisperx_forced_alignment",
+        "score": 0.727
+      },
+      {
+        "text": "1",
+        "start": 44.784,
+        "end": 44.924,
+        "source": "whisperx_forced_alignment",
+        "score": 0.379
+      },
+      {
+        "text": "was",
+        "start": 44.984,
+        "end": 45.124,
+        "source": "whisperx_forced_alignment",
+        "score": 0.591
+      }
+    ],
+    [
+      {
+        "text": "about",
+        "start": 45.184,
+        "end": 45.384,
+        "source": "whisperx_forced_alignment",
+        "score": 0.761
+      },
+      {
+        "text": "24",
+        "start": 45.704,
+        "end": 46.164,
+        "source": "whisperx_forced_alignment",
+        "score": 0.524
+      },
+      {
+        "text": "billion",
+        "start": 46.384,
+        "end": 46.804,
+        "source": "whisperx_forced_alignment",
+        "score": 0.901
+      },
+      {
+        "text": "kilometers",
+        "start": 46.864,
+        "end": 47.444,
+        "source": "whisperx_forced_alignment",
+        "score": 0.752
+      }
+    ],
+    [
+      {
+        "text": "from",
+        "start": 47.504,
+        "end": 47.665,
+        "source": "whisperx_forced_alignment",
+        "score": 0.775
+      },
+      {
+        "text": "Earth.",
+        "start": 47.725,
+        "end": 47.965,
+        "source": "whisperx_forced_alignment",
+        "score": 0.615
+      }
+    ],
+    [
+      {
+        "text": "In",
+        "start": 48.485,
+        "end": 48.565,
+        "source": "whisperx_forced_alignment",
+        "score": 0.822
+      },
+      {
+        "text": "2012,",
+        "start": 48.625,
+        "end": 49.425,
+        "source": "whisperx_forced_alignment",
+        "score": 0.599
+      }
+    ],
+    [
+      {
+        "text": "it",
+        "start": 49.645,
+        "end": 49.705,
+        "source": "whisperx_forced_alignment",
+        "score": 0.75
+      },
+      {
+        "text": "had",
+        "start": 49.745,
+        "end": 49.845,
+        "source": "whisperx_forced_alignment",
+        "score": 0.669
+      },
+      {
+        "text": "crossed",
+        "start": 49.925,
+        "end": 50.245,
+        "source": "whisperx_forced_alignment",
+        "score": 0.876
+      },
+      {
+        "text": "the",
+        "start": 50.285,
+        "end": 50.365,
+        "source": "whisperx_forced_alignment",
+        "score": 0.851
+      },
+      {
+        "text": "boundary",
+        "start": 50.425,
+        "end": 50.865,
+        "source": "whisperx_forced_alignment",
+        "score": 0.825
+      }
+    ],
+    [
+      {
+        "text": "of",
+        "start": 50.905,
+        "end": 50.965,
+        "source": "whisperx_forced_alignment",
+        "score": 0.83
+      },
+      {
+        "text": "the",
+        "start": 51.005,
+        "end": 51.085,
+        "source": "whisperx_forced_alignment",
+        "score": 0.834
+      },
+      {
+        "text": "heliosphere",
+        "start": 51.145,
+        "end": 51.945,
+        "source": "whisperx_forced_alignment",
+        "score": 0.816
+      }
+    ],
+    [
+      {
+        "text": "—",
+        "start": 51.965,
+        "end": 51.985,
+        "source": "whisperx_forced_alignment",
+        "score": 1.0
+      },
+      {
+        "text": "the",
+        "start": 52.245,
+        "end": 52.365,
+        "source": "whisperx_forced_alignment",
+        "score": 0.503
+      },
+      {
+        "text": "enormous",
+        "start": 52.425,
+        "end": 52.965,
+        "source": "whisperx_forced_alignment",
+        "score": 0.767
+      }
+    ],
+    [
+      {
+        "text": "region",
+        "start": 53.065,
+        "end": 53.405,
+        "source": "whisperx_forced_alignment",
+        "score": 0.752
+      },
+      {
+        "text": "around",
+        "start": 53.445,
+        "end": 53.705,
+        "source": "whisperx_forced_alignment",
+        "score": 0.699
+      },
+      {
+        "text": "the",
+        "start": 53.745,
+        "end": 53.825,
+        "source": "whisperx_forced_alignment",
+        "score": 0.838
+      },
+      {
+        "text": "Sun",
+        "start": 53.905,
+        "end": 54.225,
+        "source": "whisperx_forced_alignment",
+        "score": 0.756
+      }
+    ],
+    [
+      {
+        "text": "shaped",
+        "start": 54.385,
+        "end": 54.665,
+        "source": "whisperx_forced_alignment",
+        "score": 0.825
+      },
+      {
+        "text": "by",
+        "start": 54.725,
+        "end": 54.845,
+        "source": "whisperx_forced_alignment",
+        "score": 0.692
+      },
+      {
+        "text": "the",
+        "start": 54.885,
+        "end": 54.985,
+        "source": "whisperx_forced_alignment",
+        "score": 0.668
+      },
+      {
+        "text": "solar",
+        "start": 55.065,
+        "end": 55.405,
+        "source": "whisperx_forced_alignment",
+        "score": 0.736
+      },
+      {
+        "text": "wind",
+        "start": 55.465,
+        "end": 55.765,
+        "source": "whisperx_forced_alignment",
+        "score": 0.773
+      }
+    ],
+    [
+      {
+        "text": "and",
+        "start": 55.905,
+        "end": 55.985,
+        "source": "whisperx_forced_alignment",
+        "score": 0.855
+      },
+      {
+        "text": "magnetic",
+        "start": 56.045,
+        "end": 56.505,
+        "source": "whisperx_forced_alignment",
+        "score": 0.897
+      },
+      {
+        "text": "field.",
+        "start": 56.585,
+        "end": 56.945,
+        "source": "whisperx_forced_alignment",
+        "score": 0.802
+      }
+    ],
+    [
+      {
+        "text": "Beyond",
+        "start": 57.385,
+        "end": 57.725,
+        "source": "whisperx_forced_alignment",
+        "score": 0.807
+      },
+      {
+        "text": "that",
+        "start": 57.785,
+        "end": 57.945,
+        "source": "whisperx_forced_alignment",
+        "score": 0.859
+      },
+      {
+        "text": "boundary,",
+        "start": 58.005,
+        "end": 58.446,
+        "source": "whisperx_forced_alignment",
+        "score": 0.833
+      }
+    ],
+    [
+      {
+        "text": "it",
+        "start": 58.706,
+        "end": 58.766,
+        "source": "whisperx_forced_alignment",
+        "score": 0.756
+      },
+      {
+        "text": "had",
+        "start": 58.806,
+        "end": 58.886,
+        "source": "whisperx_forced_alignment",
+        "score": 0.901
+      },
+      {
+        "text": "begun",
+        "start": 58.926,
+        "end": 59.266,
+        "source": "whisperx_forced_alignment",
+        "score": 0.925
+      }
+    ],
+    [
+      {
+        "text": "studying",
+        "start": 59.346,
+        "end": 59.786,
+        "source": "whisperx_forced_alignment",
+        "score": 0.838
+      },
+      {
+        "text": "interstellar",
+        "start": 59.966,
+        "end": 60.666,
+        "source": "whisperx_forced_alignment",
+        "score": 0.847
+      },
+      {
+        "text": "space.",
+        "start": 60.726,
+        "end": 61.106,
+        "source": "whisperx_forced_alignment",
+        "score": 0.896
+      }
+    ],
+    [
+      {
+        "text": "There",
+        "start": 61.666,
+        "end": 61.786,
+        "source": "whisperx_forced_alignment",
+        "score": 0.899
+      },
+      {
+        "text": "was",
+        "start": 61.826,
+        "end": 61.946,
+        "source": "whisperx_forced_alignment",
+        "score": 0.63
+      },
+      {
+        "text": "no",
+        "start": 62.086,
+        "end": 62.286,
+        "source": "whisperx_forced_alignment",
+        "score": 0.778
+      },
+      {
+        "text": "way",
+        "start": 62.346,
+        "end": 62.586,
+        "source": "whisperx_forced_alignment",
+        "score": 0.89
+      }
+    ],
+    [
+      {
+        "text": "to",
+        "start": 62.646,
+        "end": 62.746,
+        "source": "whisperx_forced_alignment",
+        "score": 0.83
+      },
+      {
+        "text": "reach",
+        "start": 62.826,
+        "end": 63.066,
+        "source": "whisperx_forced_alignment",
+        "score": 0.746
+      },
+      {
+        "text": "it",
+        "start": 63.106,
+        "end": 63.206,
+        "source": "whisperx_forced_alignment",
+        "score": 0.597
+      },
+      {
+        "text": "and",
+        "start": 63.286,
+        "end": 63.366,
+        "source": "whisperx_forced_alignment",
+        "score": 0.849
+      },
+      {
+        "text": "replace",
+        "start": 63.426,
+        "end": 63.786,
+        "source": "whisperx_forced_alignment",
+        "score": 0.885
+      },
+      {
+        "text": "a",
+        "start": 63.846,
+        "end": 63.886,
+        "source": "whisperx_forced_alignment",
+        "score": 0.949
+      },
+      {
+        "text": "part.",
+        "start": 63.926,
+        "end": 64.246,
+        "source": "whisperx_forced_alignment",
+        "score": 0.912
+      }
+    ],
+    [
+      {
+        "text": "Radio",
+        "start": 64.726,
+        "end": 65.066,
+        "source": "whisperx_forced_alignment",
+        "score": 0.879
+      },
+      {
+        "text": "communication",
+        "start": 65.126,
+        "end": 65.826,
+        "source": "whisperx_forced_alignment",
+        "score": 0.782
+      }
+    ],
+    [
+      {
+        "text": "was",
+        "start": 65.886,
+        "end": 66.026,
+        "source": "whisperx_forced_alignment",
+        "score": 0.595
+      },
+      {
+        "text": "the",
+        "start": 66.086,
+        "end": 66.186,
+        "source": "whisperx_forced_alignment",
+        "score": 0.773
+      },
+      {
+        "text": "only",
+        "start": 66.406,
+        "end": 66.646,
+        "source": "whisperx_forced_alignment",
+        "score": 0.768
+      },
+      {
+        "text": "option.",
+        "start": 66.786,
+        "end": 67.106,
+        "source": "whisperx_forced_alignment",
+        "score": 0.923
+      }
+    ],
+    [
+      {
+        "text": "But",
+        "start": 67.586,
+        "end": 67.686,
+        "source": "whisperx_forced_alignment",
+        "score": 0.835
+      },
+      {
+        "text": "even",
+        "start": 67.746,
+        "end": 67.966,
+        "source": "whisperx_forced_alignment",
+        "score": 0.75
+      },
+      {
+        "text": "that",
+        "start": 68.066,
+        "end": 68.306,
+        "source": "whisperx_forced_alignment",
+        "score": 0.788
+      },
+      {
+        "text": "required",
+        "start": 68.386,
+        "end": 68.827,
+        "source": "whisperx_forced_alignment",
+        "score": 0.77
+      }
+    ],
+    [
+      {
+        "text": "patience.",
+        "start": 68.907,
+        "end": 69.367,
+        "source": "whisperx_forced_alignment",
+        "score": 0.609
+      }
+    ],
+    [
+      {
+        "text": "A",
+        "start": 69.867,
+        "end": 69.927,
+        "source": "whisperx_forced_alignment",
+        "score": 0.673
+      },
+      {
+        "text": "command",
+        "start": 69.967,
+        "end": 70.427,
+        "source": "whisperx_forced_alignment",
+        "score": 0.832
+      },
+      {
+        "text": "sent",
+        "start": 70.527,
+        "end": 70.707,
+        "source": "whisperx_forced_alignment",
+        "score": 0.863
+      },
+      {
+        "text": "from",
+        "start": 70.767,
+        "end": 70.907,
+        "source": "whisperx_forced_alignment",
+        "score": 0.865
+      },
+      {
+        "text": "Earth",
+        "start": 71.047,
+        "end": 71.287,
+        "source": "whisperx_forced_alignment",
+        "score": 0.731
+      }
+    ],
+    [
+      {
+        "text": "took",
+        "start": 71.387,
+        "end": 71.547,
+        "source": "whisperx_forced_alignment",
+        "score": 0.852
+      },
+      {
+        "text": "about",
+        "start": 71.587,
+        "end": 71.807,
+        "source": "whisperx_forced_alignment",
+        "score": 0.733
+      },
+      {
+        "text": "twenty-two",
+        "start": 71.927,
+        "end": 72.447,
+        "source": "whisperx_forced_alignment",
+        "score": 0.755
+      }
+    ],
+    [
+      {
+        "text": "and",
+        "start": 72.487,
+        "end": 72.567,
+        "source": "whisperx_forced_alignment",
+        "score": 0.839
+      },
+      {
+        "text": "a",
+        "start": 72.587,
+        "end": 72.627,
+        "source": "whisperx_forced_alignment",
+        "score": 0.484
+      },
+      {
+        "text": "half",
+        "start": 72.687,
+        "end": 72.907,
+        "source": "whisperx_forced_alignment",
+        "score": 0.863
+      },
+      {
+        "text": "hours",
+        "start": 73.027,
+        "end": 73.447,
+        "source": "whisperx_forced_alignment",
+        "score": 0.785
+      }
+    ],
+    [
+      {
+        "text": "to",
+        "start": 73.527,
+        "end": 73.607,
+        "source": "whisperx_forced_alignment",
+        "score": 0.996
+      },
+      {
+        "text": "reach",
+        "start": 73.687,
+        "end": 73.867,
+        "source": "whisperx_forced_alignment",
+        "score": 0.799
+      },
+      {
+        "text": "Voyager.",
+        "start": 73.927,
+        "end": 74.407,
+        "source": "whisperx_forced_alignment",
+        "score": 0.804
+      }
+    ],
+    [
+      {
+        "text": "The",
+        "start": 74.787,
+        "end": 74.887,
+        "source": "whisperx_forced_alignment",
+        "score": 0.801
+      },
+      {
+        "text": "reply",
+        "start": 74.947,
+        "end": 75.427,
+        "source": "whisperx_forced_alignment",
+        "score": 0.877
+      },
+      {
+        "text": "took",
+        "start": 75.527,
+        "end": 75.707,
+        "source": "whisperx_forced_alignment",
+        "score": 0.834
+      },
+      {
+        "text": "just",
+        "start": 75.807,
+        "end": 76.047,
+        "source": "whisperx_forced_alignment",
+        "score": 0.748
+      },
+      {
+        "text": "as",
+        "start": 76.107,
+        "end": 76.187,
+        "source": "whisperx_forced_alignment",
+        "score": 0.838
+      },
+      {
+        "text": "long",
+        "start": 76.247,
+        "end": 76.527,
+        "source": "whisperx_forced_alignment",
+        "score": 0.774
+      }
+    ],
+    [
+      {
+        "text": "to",
+        "start": 76.567,
+        "end": 76.647,
+        "source": "whisperx_forced_alignment",
+        "score": 0.815
+      },
+      {
+        "text": "return.",
+        "start": 76.687,
+        "end": 77.147,
+        "source": "whisperx_forced_alignment",
+        "score": 0.714
+      }
+    ],
+    [
+      {
+        "text": "To",
+        "start": 77.587,
+        "end": 77.687,
+        "source": "whisperx_forced_alignment",
+        "score": 0.862
+      },
+      {
+        "text": "find",
+        "start": 77.747,
+        "end": 78.007,
+        "source": "whisperx_forced_alignment",
+        "score": 0.671
+      },
+      {
+        "text": "out",
+        "start": 78.067,
+        "end": 78.187,
+        "source": "whisperx_forced_alignment",
+        "score": 0.676
+      },
+      {
+        "text": "whether",
+        "start": 78.247,
+        "end": 78.487,
+        "source": "whisperx_forced_alignment",
+        "score": 0.815
+      },
+      {
+        "text": "a",
+        "start": 78.547,
+        "end": 78.587,
+        "source": "whisperx_forced_alignment",
+        "score": 0.747
+      },
+      {
+        "text": "single",
+        "start": 78.707,
+        "end": 79.027,
+        "source": "whisperx_forced_alignment",
+        "score": 0.673
+      }
+    ],
+    [
+      {
+        "text": "attempt",
+        "start": 79.067,
+        "end": 79.407,
+        "source": "whisperx_forced_alignment",
+        "score": 0.763
+      },
+      {
+        "text": "had",
+        "start": 79.428,
+        "end": 79.548,
+        "source": "whisperx_forced_alignment",
+        "score": 0.83
+      },
+      {
+        "text": "worked,",
+        "start": 79.608,
+        "end": 79.948,
+        "source": "whisperx_forced_alignment",
+        "score": 0.909
+      }
+    ],
+    [
+      {
+        "text": "engineers",
+        "start": 80.288,
+        "end": 80.788,
+        "source": "whisperx_forced_alignment",
+        "score": 0.718
+      },
+      {
+        "text": "had",
+        "start": 80.848,
+        "end": 80.968,
+        "source": "whisperx_forced_alignment",
+        "score": 0.743
+      },
+      {
+        "text": "to",
+        "start": 81.008,
+        "end": 81.088,
+        "source": "whisperx_forced_alignment",
+        "score": 0.814
+      },
+      {
+        "text": "wait",
+        "start": 81.148,
+        "end": 81.368,
+        "source": "whisperx_forced_alignment",
+        "score": 0.852
+      }
+    ],
+    [
+      {
+        "text": "almost",
+        "start": 81.508,
+        "end": 81.828,
+        "source": "whisperx_forced_alignment",
+        "score": 0.774
+      },
+      {
+        "text": "two",
+        "start": 82.008,
+        "end": 82.268,
+        "source": "whisperx_forced_alignment",
+        "score": 0.841
+      },
+      {
+        "text": "days.",
+        "start": 82.368,
+        "end": 82.788,
+        "source": "whisperx_forced_alignment",
+        "score": 0.901
+      }
+    ],
+    [
+      {
+        "text": "They",
+        "start": 83.368,
+        "end": 83.508,
+        "source": "whisperx_forced_alignment",
+        "score": 0.755
+      },
+      {
+        "text": "spent",
+        "start": 83.548,
+        "end": 83.828,
+        "source": "whisperx_forced_alignment",
+        "score": 0.766
+      },
+      {
+        "text": "months",
+        "start": 84.068,
+        "end": 84.408,
+        "source": "whisperx_forced_alignment",
+        "score": 0.693
+      }
+    ],
+    [
+      {
+        "text": "searching",
+        "start": 84.528,
+        "end": 84.908,
+        "source": "whisperx_forced_alignment",
+        "score": 0.756
+      },
+      {
+        "text": "for",
+        "start": 84.948,
+        "end": 85.048,
+        "source": "whisperx_forced_alignment",
+        "score": 0.98
+      },
+      {
+        "text": "the",
+        "start": 85.088,
+        "end": 85.168,
+        "source": "whisperx_forced_alignment",
+        "score": 0.833
+      },
+      {
+        "text": "cause.",
+        "start": 85.208,
+        "end": 85.608,
+        "source": "whisperx_forced_alignment",
+        "score": 0.918
+      }
+    ],
+    [
+      {
+        "text": "Their",
+        "start": 86.068,
+        "end": 86.228,
+        "source": "whisperx_forced_alignment",
+        "score": 0.784
+      },
+      {
+        "text": "suspicions",
+        "start": 86.268,
+        "end": 86.868,
+        "source": "whisperx_forced_alignment",
+        "score": 0.767
+      },
+      {
+        "text": "turned",
+        "start": 86.948,
+        "end": 87.208,
+        "source": "whisperx_forced_alignment",
+        "score": 0.799
+      }
+    ],
+    [
+      {
+        "text": "to",
+        "start": 87.248,
+        "end": 87.328,
+        "source": "whisperx_forced_alignment",
+        "score": 0.696
+      },
+      {
+        "text": "one",
+        "start": 87.428,
+        "end": 87.508,
+        "source": "whisperx_forced_alignment",
+        "score": 0.968
+      }
+    ],
+    [
+      {
+        "text": "of",
+        "start": 87.528,
+        "end": 87.588,
+        "source": "whisperx_forced_alignment",
+        "score": 0.759
+      },
+      {
+        "text": "the",
+        "start": 87.628,
+        "end": 87.728,
+        "source": "whisperx_forced_alignment",
+        "score": 0.778
+      },
+      {
+        "text": "onboard",
+        "start": 87.908,
+        "end": 88.308,
+        "source": "whisperx_forced_alignment",
+        "score": 0.685
+      },
+      {
+        "text": "computers.",
+        "start": 88.368,
+        "end": 88.968,
+        "source": "whisperx_forced_alignment",
+        "score": 0.855
+      }
+    ],
+    [
+      {
+        "text": "It",
+        "start": 89.468,
+        "end": 89.528,
+        "source": "whisperx_forced_alignment",
+        "score": 0.752
+      },
+      {
+        "text": "collected",
+        "start": 89.588,
+        "end": 90.029,
+        "source": "whisperx_forced_alignment",
+        "score": 0.896
+      }
+    ],
+    [
+      {
+        "text": "scientific",
+        "start": 90.129,
+        "end": 90.769,
+        "source": "whisperx_forced_alignment",
+        "score": 0.795
+      },
+      {
+        "text": "and",
+        "start": 90.849,
+        "end": 90.929,
+        "source": "whisperx_forced_alignment",
+        "score": 0.851
+      },
+      {
+        "text": "engineering",
+        "start": 91.069,
+        "end": 91.589,
+        "source": "whisperx_forced_alignment",
+        "score": 0.725
+      }
+    ],
+    [
+      {
+        "text": "data",
+        "start": 91.649,
+        "end": 91.949,
+        "source": "whisperx_forced_alignment",
+        "score": 0.912
+      },
+      {
+        "text": "and",
+        "start": 92.129,
+        "end": 92.229,
+        "source": "whisperx_forced_alignment",
+        "score": 0.682
+      },
+      {
+        "text": "prepared",
+        "start": 92.269,
+        "end": 92.709,
+        "source": "whisperx_forced_alignment",
+        "score": 0.838
+      }
+    ],
+    [
+      {
+        "text": "that",
+        "start": 92.749,
+        "end": 92.889,
+        "source": "whisperx_forced_alignment",
+        "score": 0.872
+      },
+      {
+        "text": "information",
+        "start": 92.949,
+        "end": 93.489,
+        "source": "whisperx_forced_alignment",
+        "score": 0.837
+      },
+      {
+        "text": "to",
+        "start": 93.549,
+        "end": 93.609,
+        "source": "whisperx_forced_alignment",
+        "score": 0.753
+      },
+      {
+        "text": "be",
+        "start": 93.649,
+        "end": 93.749,
+        "source": "whisperx_forced_alignment",
+        "score": 0.707
+      },
+      {
+        "text": "sent",
+        "start": 93.809,
+        "end": 94.009,
+        "source": "whisperx_forced_alignment",
+        "score": 0.772
+      }
+    ],
+    [
+      {
+        "text": "back",
+        "start": 94.069,
+        "end": 94.269,
+        "source": "whisperx_forced_alignment",
+        "score": 0.776
+      },
+      {
+        "text": "to",
+        "start": 94.309,
+        "end": 94.389,
+        "source": "whisperx_forced_alignment",
+        "score": 0.746
+      },
+      {
+        "text": "Earth.",
+        "start": 94.489,
+        "end": 94.709,
+        "source": "whisperx_forced_alignment",
+        "score": 0.775
+      }
+    ],
+    [
+      {
+        "text": "In",
+        "start": 95.269,
+        "end": 95.349,
+        "source": "whisperx_forced_alignment",
+        "score": 0.834
+      },
+      {
+        "text": "March",
+        "start": 95.429,
+        "end": 96.069,
+        "source": "whisperx_forced_alignment",
+        "score": 0.666
+      },
+      {
+        "text": "2024,",
+        "start": 96.209,
+        "end": 96.749,
+        "source": "whisperx_forced_alignment",
+        "score": 0.678
+      },
+      {
+        "text": "the",
+        "start": 96.989,
+        "end": 97.089,
+        "source": "whisperx_forced_alignment",
+        "score": 0.826
+      },
+      {
+        "text": "team",
+        "start": 97.149,
+        "end": 97.449,
+        "source": "whisperx_forced_alignment",
+        "score": 0.978
+      }
+    ],
+    [
+      {
+        "text": "sent",
+        "start": 97.509,
+        "end": 97.709,
+        "source": "whisperx_forced_alignment",
+        "score": 0.893
+      },
+      {
+        "text": "a",
+        "start": 97.769,
+        "end": 97.809,
+        "source": "whisperx_forced_alignment",
+        "score": 0.753
+      },
+      {
+        "text": "diagnostic",
+        "start": 97.889,
+        "end": 98.609,
+        "source": "whisperx_forced_alignment",
+        "score": 0.947
+      },
+      {
+        "text": "command.",
+        "start": 98.669,
+        "end": 99.089,
+        "source": "whisperx_forced_alignment",
+        "score": 0.822
+      }
+    ],
+    [
+      {
+        "text": "Once",
+        "start": 99.649,
+        "end": 99.809,
+        "source": "whisperx_forced_alignment",
+        "score": 0.775
+      },
+      {
+        "text": "again,",
+        "start": 99.869,
+        "end": 100.189,
+        "source": "whisperx_forced_alignment",
+        "score": 0.858
+      }
+    ],
+    [
+      {
+        "text": "unusual",
+        "start": 100.59,
+        "end": 101.21,
+        "source": "whisperx_forced_alignment",
+        "score": 0.822
+      },
+      {
+        "text": "data",
+        "start": 101.29,
+        "end": 101.57,
+        "source": "whisperx_forced_alignment",
+        "score": 0.925
+      },
+      {
+        "text": "came",
+        "start": 101.63,
+        "end": 101.83,
+        "source": "whisperx_forced_alignment",
+        "score": 0.754
+      },
+      {
+        "text": "back.",
+        "start": 101.87,
+        "end": 102.13,
+        "source": "whisperx_forced_alignment",
+        "score": 0.83
+      }
+    ],
+    [
+      {
+        "text": "But",
+        "start": 102.55,
+        "end": 102.67,
+        "source": "whisperx_forced_alignment",
+        "score": 0.769
+      },
+      {
+        "text": "this",
+        "start": 102.75,
+        "end": 102.93,
+        "source": "whisperx_forced_alignment",
+        "score": 0.773
+      },
+      {
+        "text": "time,",
+        "start": 103.01,
+        "end": 103.29,
+        "source": "whisperx_forced_alignment",
+        "score": 0.89
+      },
+      {
+        "text": "the",
+        "start": 103.55,
+        "end": 103.65,
+        "source": "whisperx_forced_alignment",
+        "score": 0.846
+      },
+      {
+        "text": "engineers",
+        "start": 103.77,
+        "end": 104.27,
+        "source": "whisperx_forced_alignment",
+        "score": 0.778
+      }
+    ],
+    [
+      {
+        "text": "managed",
+        "start": 104.39,
+        "end": 104.77,
+        "source": "whisperx_forced_alignment",
+        "score": 0.753
+      },
+      {
+        "text": "to",
+        "start": 104.83,
+        "end": 104.91,
+        "source": "whisperx_forced_alignment",
+        "score": 0.751
+      },
+      {
+        "text": "decode",
+        "start": 104.95,
+        "end": 105.37,
+        "source": "whisperx_forced_alignment",
+        "score": 0.828
+      },
+      {
+        "text": "it.",
+        "start": 105.39,
+        "end": 105.49,
+        "source": "whisperx_forced_alignment",
+        "score": 0.987
+      }
+    ],
+    [
+      {
+        "text": "It",
+        "start": 105.95,
+        "end": 106.03,
+        "source": "whisperx_forced_alignment",
+        "score": 0.743
+      },
+      {
+        "text": "was",
+        "start": 106.07,
+        "end": 106.19,
+        "source": "whisperx_forced_alignment",
+        "score": 0.505
+      },
+      {
+        "text": "the",
+        "start": 106.23,
+        "end": 106.33,
+        "source": "whisperx_forced_alignment",
+        "score": 0.671
+      },
+      {
+        "text": "contents",
+        "start": 106.39,
+        "end": 106.97,
+        "source": "whisperx_forced_alignment",
+        "score": 0.756
+      }
+    ],
+    [
+      {
+        "text": "of",
+        "start": 107.01,
+        "end": 107.07,
+        "source": "whisperx_forced_alignment",
+        "score": 0.764
+      },
+      {
+        "text": "the",
+        "start": 107.11,
+        "end": 107.21,
+        "source": "whisperx_forced_alignment",
+        "score": 0.667
+      },
+      {
+        "text": "onboard",
+        "start": 107.41,
+        "end": 107.81,
+        "source": "whisperx_forced_alignment",
+        "score": 0.728
+      }
+    ],
+    [
+      {
+        "text": "computer's",
+        "start": 107.87,
+        "end": 108.43,
+        "source": "whisperx_forced_alignment",
+        "score": 0.716
+      },
+      {
+        "text": "memory.",
+        "start": 108.53,
+        "end": 108.89,
+        "source": "whisperx_forced_alignment",
+        "score": 0.812
+      }
+    ],
+    [
+      {
+        "text": "By",
+        "start": 109.35,
+        "end": 109.47,
+        "source": "whisperx_forced_alignment",
+        "score": 0.832
+      },
+      {
+        "text": "comparing",
+        "start": 109.51,
+        "end": 109.99,
+        "source": "whisperx_forced_alignment",
+        "score": 0.789
+      }
+    ],
+    [
+      {
+        "text": "it",
+        "start": 110.03,
+        "end": 110.09,
+        "source": "whisperx_forced_alignment",
+        "score": 0.769
+      },
+      {
+        "text": "with",
+        "start": 110.13,
+        "end": 110.27,
+        "source": "whisperx_forced_alignment",
+        "score": 0.633
+      },
+      {
+        "text": "earlier",
+        "start": 110.39,
+        "end": 110.71,
+        "source": "whisperx_forced_alignment",
+        "score": 0.805
+      },
+      {
+        "text": "records,",
+        "start": 110.79,
+        "end": 111.15,
+        "source": "whisperx_forced_alignment",
+        "score": 0.879
+      }
+    ],
+    [
+      {
+        "text": "they",
+        "start": 111.431,
+        "end": 111.571,
+        "source": "whisperx_forced_alignment",
+        "score": 0.791
+      },
+      {
+        "text": "found",
+        "start": 111.691,
+        "end": 111.951,
+        "source": "whisperx_forced_alignment",
+        "score": 0.871
+      },
+      {
+        "text": "the",
+        "start": 111.991,
+        "end": 112.071,
+        "source": "whisperx_forced_alignment",
+        "score": 0.872
+      },
+      {
+        "text": "problem.",
+        "start": 112.131,
+        "end": 112.571,
+        "source": "whisperx_forced_alignment",
+        "score": 0.762
+      }
+    ],
+    [
+      {
+        "text": "About",
+        "start": 113.071,
+        "end": 113.291,
+        "source": "whisperx_forced_alignment",
+        "score": 0.747
+      },
+      {
+        "text": "three",
+        "start": 113.451,
+        "end": 113.711,
+        "source": "whisperx_forced_alignment",
+        "score": 0.75
+      },
+      {
+        "text": "percent",
+        "start": 113.771,
+        "end": 114.191,
+        "source": "whisperx_forced_alignment",
+        "score": 0.871
+      }
+    ],
+    [
+      {
+        "text": "of",
+        "start": 114.231,
+        "end": 114.291,
+        "source": "whisperx_forced_alignment",
+        "score": 0.756
+      },
+      {
+        "text": "the",
+        "start": 114.331,
+        "end": 114.411,
+        "source": "whisperx_forced_alignment",
+        "score": 0.835
+      },
+      {
+        "text": "memory",
+        "start": 114.471,
+        "end": 114.831,
+        "source": "whisperx_forced_alignment",
+        "score": 0.744
+      }
+    ],
+    [
+      {
+        "text": "had",
+        "start": 114.891,
+        "end": 114.991,
+        "source": "whisperx_forced_alignment",
+        "score": 0.838
+      },
+      {
+        "text": "been",
+        "start": 115.011,
+        "end": 115.171,
+        "source": "whisperx_forced_alignment",
+        "score": 0.692
+      },
+      {
+        "text": "damaged.",
+        "start": 115.231,
+        "end": 115.711,
+        "source": "whisperx_forced_alignment",
+        "score": 0.868
+      }
+    ],
+    [
+      {
+        "text": "That",
+        "start": 116.171,
+        "end": 116.371,
+        "source": "whisperx_forced_alignment",
+        "score": 0.848
+      },
+      {
+        "text": "section",
+        "start": 116.431,
+        "end": 116.811,
+        "source": "whisperx_forced_alignment",
+        "score": 0.855
+      },
+      {
+        "text": "contained",
+        "start": 116.871,
+        "end": 117.291,
+        "source": "whisperx_forced_alignment",
+        "score": 0.715
+      }
+    ],
+    [
+      {
+        "text": "part",
+        "start": 117.391,
+        "end": 117.591,
+        "source": "whisperx_forced_alignment",
+        "score": 0.782
+      },
+      {
+        "text": "of",
+        "start": 117.611,
+        "end": 117.671,
+        "source": "whisperx_forced_alignment",
+        "score": 0.75
+      },
+      {
+        "text": "the",
+        "start": 117.691,
+        "end": 117.771,
+        "source": "whisperx_forced_alignment",
+        "score": 0.834
+      },
+      {
+        "text": "program",
+        "start": 117.831,
+        "end": 118.331,
+        "source": "whisperx_forced_alignment",
+        "score": 0.748
+      }
+    ],
+    [
+      {
+        "text": "needed",
+        "start": 118.391,
+        "end": 118.651,
+        "source": "whisperx_forced_alignment",
+        "score": 0.849
+      },
+      {
+        "text": "to",
+        "start": 118.691,
+        "end": 118.771,
+        "source": "whisperx_forced_alignment",
+        "score": 0.77
+      },
+      {
+        "text": "prepare",
+        "start": 118.831,
+        "end": 119.231,
+        "source": "whisperx_forced_alignment",
+        "score": 0.744
+      }
+    ],
+    [
+      {
+        "text": "the",
+        "start": 119.271,
+        "end": 119.351,
+        "source": "whisperx_forced_alignment",
+        "score": 0.833
+      },
+      {
+        "text": "spacecraft's",
+        "start": 119.411,
+        "end": 120.051,
+        "source": "whisperx_forced_alignment",
+        "score": 0.787
+      },
+      {
+        "text": "messages.",
+        "start": 120.131,
+        "end": 120.591,
+        "source": "whisperx_forced_alignment",
+        "score": 0.9
+      }
+    ],
+    [
+      {
+        "text": "They",
+        "start": 121.071,
+        "end": 121.191,
+        "source": "whisperx_forced_alignment",
+        "score": 0.833
+      },
+      {
+        "text": "couldn't",
+        "start": 121.251,
+        "end": 121.511,
+        "source": "whisperx_forced_alignment",
+        "score": 0.757
+      },
+      {
+        "text": "repair",
+        "start": 121.551,
+        "end": 121.932,
+        "source": "whisperx_forced_alignment",
+        "score": 0.66
+      }
+    ],
+    [
+      {
+        "text": "the",
+        "start": 121.972,
+        "end": 122.072,
+        "source": "whisperx_forced_alignment",
+        "score": 0.712
+      },
+      {
+        "text": "chip",
+        "start": 122.132,
+        "end": 122.332,
+        "source": "whisperx_forced_alignment",
+        "score": 0.6
+      },
+      {
+        "text": "onboard.",
+        "start": 122.432,
+        "end": 122.952,
+        "source": "whisperx_forced_alignment",
+        "score": 0.784
+      }
+    ],
+    [
+      {
+        "text": "But",
+        "start": 123.252,
+        "end": 123.352,
+        "source": "whisperx_forced_alignment",
+        "score": 0.833
+      },
+      {
+        "text": "they",
+        "start": 123.372,
+        "end": 123.532,
+        "source": "whisperx_forced_alignment",
+        "score": 0.652
+      },
+      {
+        "text": "could",
+        "start": 123.612,
+        "end": 123.812,
+        "source": "whisperx_forced_alignment",
+        "score": 0.733
+      },
+      {
+        "text": "try",
+        "start": 123.892,
+        "end": 124.152,
+        "source": "whisperx_forced_alignment",
+        "score": 0.837
+      },
+      {
+        "text": "moving",
+        "start": 124.192,
+        "end": 124.452,
+        "source": "whisperx_forced_alignment",
+        "score": 0.797
+      }
+    ],
+    [
+      {
+        "text": "the",
+        "start": 124.492,
+        "end": 124.572,
+        "source": "whisperx_forced_alignment",
+        "score": 0.846
+      },
+      {
+        "text": "necessary",
+        "start": 124.632,
+        "end": 125.172,
+        "source": "whisperx_forced_alignment",
+        "score": 0.781
+      },
+      {
+        "text": "instructions",
+        "start": 125.212,
+        "end": 125.852,
+        "source": "whisperx_forced_alignment",
+        "score": 0.734
+      }
+    ],
+    [
+      {
+        "text": "into",
+        "start": 125.972,
+        "end": 126.172,
+        "source": "whisperx_forced_alignment",
+        "score": 0.765
+      },
+      {
+        "text": "undamaged",
+        "start": 126.372,
+        "end": 126.992,
+        "source": "whisperx_forced_alignment",
+        "score": 0.829
+      },
+      {
+        "text": "memory.",
+        "start": 127.072,
+        "end": 127.412,
+        "source": "whisperx_forced_alignment",
+        "score": 0.727
+      }
+    ],
+    [
+      {
+        "text": "Then",
+        "start": 127.912,
+        "end": 128.192,
+        "source": "whisperx_forced_alignment",
+        "score": 0.681
+      },
+      {
+        "text": "they",
+        "start": 128.452,
+        "end": 128.592,
+        "source": "whisperx_forced_alignment",
+        "score": 0.736
+      },
+      {
+        "text": "ran",
+        "start": 128.652,
+        "end": 128.832,
+        "source": "whisperx_forced_alignment",
+        "score": 0.825
+      }
+    ],
+    [
+      {
+        "text": "into",
+        "start": 128.872,
+        "end": 129.072,
+        "source": "whisperx_forced_alignment",
+        "score": 0.81
+      },
+      {
+        "text": "another",
+        "start": 129.132,
+        "end": 129.452,
+        "source": "whisperx_forced_alignment",
+        "score": 0.709
+      },
+      {
+        "text": "problem.",
+        "start": 129.512,
+        "end": 129.912,
+        "source": "whisperx_forced_alignment",
+        "score": 0.778
+      }
+    ],
+    [
+      {
+        "text": "No",
+        "start": 130.432,
+        "end": 130.672,
+        "source": "whisperx_forced_alignment",
+        "score": 0.938
+      },
+      {
+        "text": "single",
+        "start": 130.832,
+        "end": 131.172,
+        "source": "whisperx_forced_alignment",
+        "score": 0.918
+      },
+      {
+        "text": "free",
+        "start": 131.272,
+        "end": 131.512,
+        "source": "whisperx_forced_alignment",
+        "score": 0.874
+      },
+      {
+        "text": "section",
+        "start": 131.592,
+        "end": 131.932,
+        "source": "whisperx_forced_alignment",
+        "score": 0.898
+      }
+    ],
+    [
+      {
+        "text": "of",
+        "start": 131.952,
+        "end": 132.032,
+        "source": "whisperx_forced_alignment",
+        "score": 0.776
+      },
+      {
+        "text": "memory",
+        "start": 132.112,
+        "end": 132.453,
+        "source": "whisperx_forced_alignment",
+        "score": 0.754
+      },
+      {
+        "text": "was",
+        "start": 132.513,
+        "end": 132.673,
+        "source": "whisperx_forced_alignment",
+        "score": 0.588
+      },
+      {
+        "text": "large",
+        "start": 132.793,
+        "end": 133.073,
+        "source": "whisperx_forced_alignment",
+        "score": 0.809
+      },
+      {
+        "text": "enough",
+        "start": 133.113,
+        "end": 133.333,
+        "source": "whisperx_forced_alignment",
+        "score": 0.722
+      }
+    ],
+    [
+      {
+        "text": "to",
+        "start": 133.393,
+        "end": 133.493,
+        "source": "whisperx_forced_alignment",
+        "score": 0.825
+      },
+      {
+        "text": "hold",
+        "start": 133.573,
+        "end": 133.813,
+        "source": "whisperx_forced_alignment",
+        "score": 0.677
+      },
+      {
+        "text": "that",
+        "start": 133.853,
+        "end": 134.033,
+        "source": "whisperx_forced_alignment",
+        "score": 0.633
+      },
+      {
+        "text": "part",
+        "start": 134.093,
+        "end": 134.273,
+        "source": "whisperx_forced_alignment",
+        "score": 0.811
+      }
+    ],
+    [
+      {
+        "text": "of",
+        "start": 134.293,
+        "end": 134.333,
+        "source": "whisperx_forced_alignment",
+        "score": 1.0
+      },
+      {
+        "text": "the",
+        "start": 134.373,
+        "end": 134.453,
+        "source": "whisperx_forced_alignment",
+        "score": 0.837
+      },
+      {
+        "text": "program",
+        "start": 134.513,
+        "end": 134.973,
+        "source": "whisperx_forced_alignment",
+        "score": 0.822
+      },
+      {
+        "text": "in",
+        "start": 134.993,
+        "end": 135.073,
+        "source": "whisperx_forced_alignment",
+        "score": 0.806
+      },
+      {
+        "text": "one",
+        "start": 135.213,
+        "end": 135.333,
+        "source": "whisperx_forced_alignment",
+        "score": 0.641
+      },
+      {
+        "text": "piece.",
+        "start": 135.413,
+        "end": 135.713,
+        "source": "whisperx_forced_alignment",
+        "score": 0.774
+      }
+    ],
+    [
+      {
+        "text": "So",
+        "start": 136.253,
+        "end": 136.493,
+        "source": "whisperx_forced_alignment",
+        "score": 0.854
+      },
+      {
+        "text": "the",
+        "start": 136.753,
+        "end": 136.853,
+        "source": "whisperx_forced_alignment",
+        "score": 0.742
+      },
+      {
+        "text": "engineers",
+        "start": 136.953,
+        "end": 137.413,
+        "source": "whisperx_forced_alignment",
+        "score": 0.765
+      }
+    ],
+    [
+      {
+        "text": "split",
+        "start": 137.513,
+        "end": 137.813,
+        "source": "whisperx_forced_alignment",
+        "score": 0.84
+      },
+      {
+        "text": "the",
+        "start": 137.853,
+        "end": 137.933,
+        "source": "whisperx_forced_alignment",
+        "score": 0.854
+      },
+      {
+        "text": "code",
+        "start": 137.993,
+        "end": 138.273,
+        "source": "whisperx_forced_alignment",
+        "score": 0.916
+      },
+      {
+        "text": "into",
+        "start": 138.313,
+        "end": 138.513,
+        "source": "whisperx_forced_alignment",
+        "score": 0.835
+      },
+      {
+        "text": "smaller",
+        "start": 138.593,
+        "end": 138.993,
+        "source": "whisperx_forced_alignment",
+        "score": 0.806
+      }
+    ],
+    [
+      {
+        "text": "pieces",
+        "start": 139.033,
+        "end": 139.433,
+        "source": "whisperx_forced_alignment",
+        "score": 0.692
+      },
+      {
+        "text": "and",
+        "start": 139.633,
+        "end": 139.713,
+        "source": "whisperx_forced_alignment",
+        "score": 0.834
+      },
+      {
+        "text": "placed",
+        "start": 139.793,
+        "end": 140.093,
+        "source": "whisperx_forced_alignment",
+        "score": 0.753
+      }
+    ],
+    [
+      {
+        "text": "them",
+        "start": 140.133,
+        "end": 140.253,
+        "source": "whisperx_forced_alignment",
+        "score": 0.981
+      },
+      {
+        "text": "in",
+        "start": 140.293,
+        "end": 140.373,
+        "source": "whisperx_forced_alignment",
+        "score": 0.814
+      },
+      {
+        "text": "different",
+        "start": 140.433,
+        "end": 140.713,
+        "source": "whisperx_forced_alignment",
+        "score": 0.87
+      },
+      {
+        "text": "locations.",
+        "start": 140.753,
+        "end": 141.373,
+        "source": "whisperx_forced_alignment",
+        "score": 0.924
+      }
+    ],
+    [
+      {
+        "text": "Then",
+        "start": 141.813,
+        "end": 142.113,
+        "source": "whisperx_forced_alignment",
+        "score": 0.716
+      },
+      {
+        "text": "they",
+        "start": 142.313,
+        "end": 142.453,
+        "source": "whisperx_forced_alignment",
+        "score": 0.64
+      },
+      {
+        "text": "had",
+        "start": 142.473,
+        "end": 142.593,
+        "source": "whisperx_forced_alignment",
+        "score": 0.689
+      },
+      {
+        "text": "to",
+        "start": 142.633,
+        "end": 142.713,
+        "source": "whisperx_forced_alignment",
+        "score": 0.75
+      },
+      {
+        "text": "change",
+        "start": 142.773,
+        "end": 143.094,
+        "source": "whisperx_forced_alignment",
+        "score": 0.813
+      }
+    ],
+    [
+      {
+        "text": "the",
+        "start": 143.134,
+        "end": 143.234,
+        "source": "whisperx_forced_alignment",
+        "score": 0.673
+      },
+      {
+        "text": "references",
+        "start": 143.294,
+        "end": 143.834,
+        "source": "whisperx_forced_alignment",
+        "score": 0.844
+      }
+    ],
+    [
+      {
+        "text": "inside",
+        "start": 143.974,
+        "end": 144.414,
+        "source": "whisperx_forced_alignment",
+        "score": 0.861
+      },
+      {
+        "text": "the",
+        "start": 144.434,
+        "end": 144.514,
+        "source": "whisperx_forced_alignment",
+        "score": 0.831
+      },
+      {
+        "text": "program,",
+        "start": 144.554,
+        "end": 145.034,
+        "source": "whisperx_forced_alignment",
+        "score": 0.813
+      }
+    ],
+    [
+      {
+        "text": "so",
+        "start": 145.254,
+        "end": 145.374,
+        "source": "whisperx_forced_alignment",
+        "score": 0.727
+      },
+      {
+        "text": "the",
+        "start": 145.394,
+        "end": 145.474,
+        "source": "whisperx_forced_alignment",
+        "score": 0.834
+      },
+      {
+        "text": "computer",
+        "start": 145.514,
+        "end": 145.954,
+        "source": "whisperx_forced_alignment",
+        "score": 0.907
+      },
+      {
+        "text": "could",
+        "start": 145.974,
+        "end": 146.114,
+        "source": "whisperx_forced_alignment",
+        "score": 0.81
+      },
+      {
+        "text": "find",
+        "start": 146.214,
+        "end": 146.454,
+        "source": "whisperx_forced_alignment",
+        "score": 0.75
+      }
+    ],
+    [
+      {
+        "text": "the",
+        "start": 146.474,
+        "end": 146.554,
+        "source": "whisperx_forced_alignment",
+        "score": 0.841
+      },
+      {
+        "text": "instructions",
+        "start": 146.614,
+        "end": 147.194,
+        "source": "whisperx_forced_alignment",
+        "score": 0.815
+      }
+    ],
+    [
+      {
+        "text": "at",
+        "start": 147.274,
+        "end": 147.334,
+        "source": "whisperx_forced_alignment",
+        "score": 0.75
+      },
+      {
+        "text": "their",
+        "start": 147.354,
+        "end": 147.514,
+        "source": "whisperx_forced_alignment",
+        "score": 0.717
+      },
+      {
+        "text": "new",
+        "start": 147.594,
+        "end": 147.734,
+        "source": "whisperx_forced_alignment",
+        "score": 0.902
+      },
+      {
+        "text": "addresses",
+        "start": 147.774,
+        "end": 148.274,
+        "source": "whisperx_forced_alignment",
+        "score": 0.839
+      }
+    ],
+    [
+      {
+        "text": "and",
+        "start": 148.514,
+        "end": 148.614,
+        "source": "whisperx_forced_alignment",
+        "score": 0.668
+      },
+      {
+        "text": "all",
+        "start": 148.834,
+        "end": 148.974,
+        "source": "whisperx_forced_alignment",
+        "score": 0.895
+      },
+      {
+        "text": "the",
+        "start": 149.014,
+        "end": 149.094,
+        "source": "whisperx_forced_alignment",
+        "score": 0.835
+      },
+      {
+        "text": "pieces",
+        "start": 149.154,
+        "end": 149.534,
+        "source": "whisperx_forced_alignment",
+        "score": 0.822
+      }
+    ],
+    [
+      {
+        "text": "could",
+        "start": 149.594,
+        "end": 149.734,
+        "source": "whisperx_forced_alignment",
+        "score": 0.801
+      },
+      {
+        "text": "work",
+        "start": 149.794,
+        "end": 150.014,
+        "source": "whisperx_forced_alignment",
+        "score": 0.854
+      },
+      {
+        "text": "together",
+        "start": 150.034,
+        "end": 150.454,
+        "source": "whisperx_forced_alignment",
+        "score": 0.806
+      },
+      {
+        "text": "again.",
+        "start": 150.514,
+        "end": 150.814,
+        "source": "whisperx_forced_alignment",
+        "score": 0.786
+      }
+    ],
+    [
+      {
+        "text": "They",
+        "start": 151.154,
+        "end": 151.294,
+        "source": "whisperx_forced_alignment",
+        "score": 0.713
+      },
+      {
+        "text": "decided",
+        "start": 151.354,
+        "end": 151.794,
+        "source": "whisperx_forced_alignment",
+        "score": 0.9
+      },
+      {
+        "text": "to",
+        "start": 151.854,
+        "end": 151.934,
+        "source": "whisperx_forced_alignment",
+        "score": 0.852
+      },
+      {
+        "text": "start",
+        "start": 152.014,
+        "end": 152.274,
+        "source": "whisperx_forced_alignment",
+        "score": 0.802
+      }
+    ],
+    [
+      {
+        "text": "with",
+        "start": 152.314,
+        "end": 152.434,
+        "source": "whisperx_forced_alignment",
+        "score": 0.834
+      },
+      {
+        "text": "the",
+        "start": 152.474,
+        "end": 152.554,
+        "source": "whisperx_forced_alignment",
+        "score": 0.841
+      },
+      {
+        "text": "program",
+        "start": 152.614,
+        "end": 153.154,
+        "source": "whisperx_forced_alignment",
+        "score": 0.678
+      },
+      {
+        "text": "that",
+        "start": 153.214,
+        "end": 153.334,
+        "source": "whisperx_forced_alignment",
+        "score": 0.855
+      }
+    ],
+    [
+      {
+        "text": "prepared",
+        "start": 153.394,
+        "end": 153.795,
+        "source": "whisperx_forced_alignment",
+        "score": 0.755
+      },
+      {
+        "text": "information",
+        "start": 153.875,
+        "end": 154.555,
+        "source": "whisperx_forced_alignment",
+        "score": 0.804
+      },
+      {
+        "text": "about",
+        "start": 154.615,
+        "end": 154.815,
+        "source": "whisperx_forced_alignment",
+        "score": 0.864
+      }
+    ],
+    [
+      {
+        "text": "the",
+        "start": 154.855,
+        "end": 154.955,
+        "source": "whisperx_forced_alignment",
+        "score": 0.667
+      },
+      {
+        "text": "spacecraft's",
+        "start": 154.995,
+        "end": 155.655,
+        "source": "whisperx_forced_alignment",
+        "score": 0.764
+      },
+      {
+        "text": "condition.",
+        "start": 155.695,
+        "end": 156.255,
+        "source": "whisperx_forced_alignment",
+        "score": 0.876
+      }
+    ],
+    [
+      {
+        "text": "If",
+        "start": 156.735,
+        "end": 156.815,
+        "source": "whisperx_forced_alignment",
+        "score": 0.721
+      },
+      {
+        "text": "they",
+        "start": 156.855,
+        "end": 156.995,
+        "source": "whisperx_forced_alignment",
+        "score": 0.661
+      },
+      {
+        "text": "could",
+        "start": 157.015,
+        "end": 157.175,
+        "source": "whisperx_forced_alignment",
+        "score": 0.701
+      },
+      {
+        "text": "restore",
+        "start": 157.215,
+        "end": 157.655,
+        "source": "whisperx_forced_alignment",
+        "score": 0.628
+      }
+    ],
+    [
+      {
+        "text": "even",
+        "start": 157.795,
+        "end": 158.015,
+        "source": "whisperx_forced_alignment",
+        "score": 0.685
+      },
+      {
+        "text": "that,",
+        "start": 158.095,
+        "end": 158.415,
+        "source": "whisperx_forced_alignment",
+        "score": 0.758
+      },
+      {
+        "text": "the",
+        "start": 158.715,
+        "end": 158.815,
+        "source": "whisperx_forced_alignment",
+        "score": 0.724
+      },
+      {
+        "text": "team",
+        "start": 158.895,
+        "end": 159.155,
+        "source": "whisperx_forced_alignment",
+        "score": 0.976
+      }
+    ],
+    [
+      {
+        "text": "would",
+        "start": 159.215,
+        "end": 159.355,
+        "source": "whisperx_forced_alignment",
+        "score": 0.886
+      },
+      {
+        "text": "once",
+        "start": 159.515,
+        "end": 159.695,
+        "source": "whisperx_forced_alignment",
+        "score": 0.817
+      },
+      {
+        "text": "again",
+        "start": 159.755,
+        "end": 160.035,
+        "source": "whisperx_forced_alignment",
+        "score": 0.665
+      },
+      {
+        "text": "be",
+        "start": 160.135,
+        "end": 160.255,
+        "source": "whisperx_forced_alignment",
+        "score": 0.749
+      },
+      {
+        "text": "able",
+        "start": 160.335,
+        "end": 160.515,
+        "source": "whisperx_forced_alignment",
+        "score": 0.711
+      }
+    ],
+    [
+      {
+        "text": "to",
+        "start": 160.575,
+        "end": 160.655,
+        "source": "whisperx_forced_alignment",
+        "score": 0.903
+      },
+      {
+        "text": "see",
+        "start": 160.755,
+        "end": 160.995,
+        "source": "whisperx_forced_alignment",
+        "score": 0.805
+      },
+      {
+        "text": "how",
+        "start": 161.115,
+        "end": 161.315,
+        "source": "whisperx_forced_alignment",
+        "score": 0.981
+      }
+    ],
+    [
+      {
+        "text": "its",
+        "start": 161.375,
+        "end": 161.495,
+        "source": "whisperx_forced_alignment",
+        "score": 0.819
+      },
+      {
+        "text": "systems",
+        "start": 161.575,
+        "end": 161.995,
+        "source": "whisperx_forced_alignment",
+        "score": 0.823
+      },
+      {
+        "text": "were",
+        "start": 162.055,
+        "end": 162.195,
+        "source": "whisperx_forced_alignment",
+        "score": 0.991
+      },
+      {
+        "text": "working.",
+        "start": 162.255,
+        "end": 162.635,
+        "source": "whisperx_forced_alignment",
+        "score": 0.884
+      }
+    ],
+    [
+      {
+        "text": "On",
+        "start": 163.315,
+        "end": 163.395,
+        "source": "whisperx_forced_alignment",
+        "score": 0.716
+      },
+      {
+        "text": "April",
+        "start": 163.535,
+        "end": 163.835,
+        "source": "whisperx_forced_alignment",
+        "score": 0.753
+      },
+      {
+        "text": "18,",
+        "start": 163.855,
+        "end": 164.396,
+        "source": "whisperx_forced_alignment",
+        "score": 0.486
+      }
+    ],
+    [
+      {
+        "text": "they",
+        "start": 164.656,
+        "end": 164.816,
+        "source": "whisperx_forced_alignment",
+        "score": 0.685
+      },
+      {
+        "text": "sent",
+        "start": 164.896,
+        "end": 165.116,
+        "source": "whisperx_forced_alignment",
+        "score": 0.719
+      },
+      {
+        "text": "the",
+        "start": 165.156,
+        "end": 165.256,
+        "source": "whisperx_forced_alignment",
+        "score": 0.672
+      },
+      {
+        "text": "fix",
+        "start": 165.336,
+        "end": 165.616,
+        "source": "whisperx_forced_alignment",
+        "score": 0.921
+      },
+      {
+        "text": "from",
+        "start": 165.676,
+        "end": 165.836,
+        "source": "whisperx_forced_alignment",
+        "score": 0.662
+      },
+      {
+        "text": "Earth.",
+        "start": 165.936,
+        "end": 166.136,
+        "source": "whisperx_forced_alignment",
+        "score": 0.788
+      }
+    ],
+    [
+      {
+        "text": "It",
+        "start": 166.656,
+        "end": 166.716,
+        "source": "whisperx_forced_alignment",
+        "score": 0.725
+      },
+      {
+        "text": "took",
+        "start": 166.756,
+        "end": 166.956,
+        "source": "whisperx_forced_alignment",
+        "score": 0.82
+      },
+      {
+        "text": "almost",
+        "start": 167.076,
+        "end": 167.376,
+        "source": "whisperx_forced_alignment",
+        "score": 0.777
+      },
+      {
+        "text": "a",
+        "start": 167.436,
+        "end": 167.496,
+        "source": "whisperx_forced_alignment",
+        "score": 0.664
+      },
+      {
+        "text": "full",
+        "start": 167.636,
+        "end": 167.896,
+        "source": "whisperx_forced_alignment",
+        "score": 0.918
+      },
+      {
+        "text": "day",
+        "start": 168.016,
+        "end": 168.316,
+        "source": "whisperx_forced_alignment",
+        "score": 0.87
+      }
+    ],
+    [
+      {
+        "text": "to",
+        "start": 168.396,
+        "end": 168.496,
+        "source": "whisperx_forced_alignment",
+        "score": 0.635
+      },
+      {
+        "text": "reach",
+        "start": 168.576,
+        "end": 168.776,
+        "source": "whisperx_forced_alignment",
+        "score": 0.849
+      },
+      {
+        "text": "Voyager.",
+        "start": 168.836,
+        "end": 169.336,
+        "source": "whisperx_forced_alignment",
+        "score": 0.761
+      }
+    ],
+    [
+      {
+        "text": "Then",
+        "start": 169.816,
+        "end": 170.096,
+        "source": "whisperx_forced_alignment",
+        "score": 0.847
+      },
+      {
+        "text": "the",
+        "start": 170.336,
+        "end": 170.436,
+        "source": "whisperx_forced_alignment",
+        "score": 0.812
+      },
+      {
+        "text": "reply",
+        "start": 170.476,
+        "end": 170.956,
+        "source": "whisperx_forced_alignment",
+        "score": 0.917
+      },
+      {
+        "text": "took",
+        "start": 171.036,
+        "end": 171.216,
+        "source": "whisperx_forced_alignment",
+        "score": 0.866
+      }
+    ],
+    [
+      {
+        "text": "almost",
+        "start": 171.336,
+        "end": 171.636,
+        "source": "whisperx_forced_alignment",
+        "score": 0.746
+      },
+      {
+        "text": "another",
+        "start": 171.736,
+        "end": 172.116,
+        "source": "whisperx_forced_alignment",
+        "score": 0.699
+      },
+      {
+        "text": "day",
+        "start": 172.176,
+        "end": 172.376,
+        "source": "whisperx_forced_alignment",
+        "score": 0.86
+      },
+      {
+        "text": "to",
+        "start": 172.456,
+        "end": 172.556,
+        "source": "whisperx_forced_alignment",
+        "score": 0.742
+      },
+      {
+        "text": "return.",
+        "start": 172.616,
+        "end": 173.076,
+        "source": "whisperx_forced_alignment",
+        "score": 0.819
+      }
+    ],
+    [
+      {
+        "text": "On",
+        "start": 173.716,
+        "end": 173.796,
+        "source": "whisperx_forced_alignment",
+        "score": 0.722
+      },
+      {
+        "text": "April",
+        "start": 173.936,
+        "end": 174.216,
+        "source": "whisperx_forced_alignment",
+        "score": 0.661
+      },
+      {
+        "text": "20,",
+        "start": 174.296,
+        "end": 174.737,
+        "source": "whisperx_forced_alignment",
+        "score": 0.606
+      }
+    ],
+    [
+      {
+        "text": "engineers",
+        "start": 175.137,
+        "end": 175.637,
+        "source": "whisperx_forced_alignment",
+        "score": 0.773
+      },
+      {
+        "text": "received",
+        "start": 175.717,
+        "end": 176.137,
+        "source": "whisperx_forced_alignment",
+        "score": 0.731
+      },
+      {
+        "text": "a",
+        "start": 176.177,
+        "end": 176.217,
+        "source": "whisperx_forced_alignment",
+        "score": 0.984
+      },
+      {
+        "text": "message",
+        "start": 176.277,
+        "end": 176.657,
+        "source": "whisperx_forced_alignment",
+        "score": 0.89
+      }
+    ],
+    [
+      {
+        "text": "they",
+        "start": 176.717,
+        "end": 176.837,
+        "source": "whisperx_forced_alignment",
+        "score": 0.769
+      },
+      {
+        "text": "could",
+        "start": 176.857,
+        "end": 176.997,
+        "source": "whisperx_forced_alignment",
+        "score": 0.791
+      },
+      {
+        "text": "actually",
+        "start": 177.217,
+        "end": 177.657,
+        "source": "whisperx_forced_alignment",
+        "score": 0.863
+      },
+      {
+        "text": "read.",
+        "start": 177.777,
+        "end": 178.097,
+        "source": "whisperx_forced_alignment",
+        "score": 0.843
+      }
+    ],
+    [
+      {
+        "text": "For",
+        "start": 178.577,
+        "end": 178.677,
+        "source": "whisperx_forced_alignment",
+        "score": 0.944
+      },
+      {
+        "text": "the",
+        "start": 178.717,
+        "end": 178.797,
+        "source": "whisperx_forced_alignment",
+        "score": 0.918
+      },
+      {
+        "text": "first",
+        "start": 178.937,
+        "end": 179.217,
+        "source": "whisperx_forced_alignment",
+        "score": 0.746
+      },
+      {
+        "text": "time",
+        "start": 179.297,
+        "end": 179.617,
+        "source": "whisperx_forced_alignment",
+        "score": 0.8
+      }
+    ],
+    [
+      {
+        "text": "in",
+        "start": 179.697,
+        "end": 179.777,
+        "source": "whisperx_forced_alignment",
+        "score": 0.833
+      },
+      {
+        "text": "five",
+        "start": 179.957,
+        "end": 180.297,
+        "source": "whisperx_forced_alignment",
+        "score": 0.776
+      },
+      {
+        "text": "months,",
+        "start": 180.397,
+        "end": 180.677,
+        "source": "whisperx_forced_alignment",
+        "score": 0.907
+      }
+    ],
+    [
+      {
+        "text": "the",
+        "start": 180.997,
+        "end": 181.117,
+        "source": "whisperx_forced_alignment",
+        "score": 0.509
+      },
+      {
+        "text": "spacecraft",
+        "start": 181.177,
+        "end": 181.837,
+        "source": "whisperx_forced_alignment",
+        "score": 0.884
+      },
+      {
+        "text": "had",
+        "start": 181.877,
+        "end": 181.997,
+        "source": "whisperx_forced_alignment",
+        "score": 0.848
+      },
+      {
+        "text": "sent",
+        "start": 182.077,
+        "end": 182.277,
+        "source": "whisperx_forced_alignment",
+        "score": 0.778
+      },
+      {
+        "text": "back",
+        "start": 182.357,
+        "end": 182.577,
+        "source": "whisperx_forced_alignment",
+        "score": 0.83
+      }
+    ],
+    [
+      {
+        "text": "understandable",
+        "start": 182.757,
+        "end": 183.557,
+        "source": "whisperx_forced_alignment",
+        "score": 0.845
+      },
+      {
+        "text": "information",
+        "start": 183.617,
+        "end": 184.277,
+        "source": "whisperx_forced_alignment",
+        "score": 0.837
+      }
+    ],
+    [
+      {
+        "text": "about",
+        "start": 184.337,
+        "end": 184.537,
+        "source": "whisperx_forced_alignment",
+        "score": 0.833
+      },
+      {
+        "text": "the",
+        "start": 184.577,
+        "end": 184.657,
+        "source": "whisperx_forced_alignment",
+        "score": 0.833
+      },
+      {
+        "text": "condition",
+        "start": 184.697,
+        "end": 185.197,
+        "source": "whisperx_forced_alignment",
+        "score": 0.873
+      }
+    ],
+    [
+      {
+        "text": "of",
+        "start": 185.237,
+        "end": 185.298,
+        "source": "whisperx_forced_alignment",
+        "score": 0.75
+      },
+      {
+        "text": "its",
+        "start": 185.358,
+        "end": 185.458,
+        "source": "whisperx_forced_alignment",
+        "score": 0.72
+      },
+      {
+        "text": "systems.",
+        "start": 185.518,
+        "end": 185.958,
+        "source": "whisperx_forced_alignment",
+        "score": 0.693
+      }
+    ],
+    [
+      {
+        "text": "Now",
+        "start": 186.538,
+        "end": 186.838,
+        "source": "whisperx_forced_alignment",
+        "score": 0.862
+      },
+      {
+        "text": "they",
+        "start": 187.058,
+        "end": 187.158,
+        "source": "whisperx_forced_alignment",
+        "score": 0.886
+      },
+      {
+        "text": "could",
+        "start": 187.198,
+        "end": 187.338,
+        "source": "whisperx_forced_alignment",
+        "score": 0.8
+      },
+      {
+        "text": "turn",
+        "start": 187.398,
+        "end": 187.698,
+        "source": "whisperx_forced_alignment",
+        "score": 0.817
+      }
+    ],
+    [
+      {
+        "text": "to",
+        "start": 187.738,
+        "end": 187.818,
+        "source": "whisperx_forced_alignment",
+        "score": 0.978
+      },
+      {
+        "text": "the",
+        "start": 187.858,
+        "end": 187.958,
+        "source": "whisperx_forced_alignment",
+        "score": 0.696
+      },
+      {
+        "text": "scientific",
+        "start": 188.078,
+        "end": 188.718,
+        "source": "whisperx_forced_alignment",
+        "score": 0.866
+      }
+    ],
+    [
+      {
+        "text": "measurements.",
+        "start": 188.798,
+        "end": 189.278,
+        "source": "whisperx_forced_alignment",
+        "score": 0.837
+      }
+    ],
+    [
+      {
+        "text": "By",
+        "start": 189.938,
+        "end": 190.098,
+        "source": "whisperx_forced_alignment",
+        "score": 0.739
+      },
+      {
+        "text": "June,",
+        "start": 190.198,
+        "end": 190.538,
+        "source": "whisperx_forced_alignment",
+        "score": 0.753
+      }
+    ],
+    [
+      {
+        "text": "data",
+        "start": 190.898,
+        "end": 191.198,
+        "source": "whisperx_forced_alignment",
+        "score": 0.866
+      },
+      {
+        "text": "was",
+        "start": 191.258,
+        "end": 191.398,
+        "source": "whisperx_forced_alignment",
+        "score": 0.822
+      },
+      {
+        "text": "once",
+        "start": 191.578,
+        "end": 191.758,
+        "source": "whisperx_forced_alignment",
+        "score": 0.659
+      },
+      {
+        "text": "again",
+        "start": 191.818,
+        "end": 192.038,
+        "source": "whisperx_forced_alignment",
+        "score": 0.835
+      },
+      {
+        "text": "arriving",
+        "start": 192.078,
+        "end": 192.538,
+        "source": "whisperx_forced_alignment",
+        "score": 0.814
+      }
+    ],
+    [
+      {
+        "text": "from",
+        "start": 192.598,
+        "end": 192.738,
+        "source": "whisperx_forced_alignment",
+        "score": 0.676
+      },
+      {
+        "text": "all",
+        "start": 192.958,
+        "end": 193.118,
+        "source": "whisperx_forced_alignment",
+        "score": 0.816
+      },
+      {
+        "text": "four",
+        "start": 193.198,
+        "end": 193.458,
+        "source": "whisperx_forced_alignment",
+        "score": 0.764
+      },
+      {
+        "text": "instruments",
+        "start": 193.558,
+        "end": 194.058,
+        "source": "whisperx_forced_alignment",
+        "score": 0.767
+      }
+    ],
+    [
+      {
+        "text": "that",
+        "start": 194.118,
+        "end": 194.218,
+        "source": "whisperx_forced_alignment",
+        "score": 0.924
+      },
+      {
+        "text": "were",
+        "start": 194.258,
+        "end": 194.398,
+        "source": "whisperx_forced_alignment",
+        "score": 0.759
+      },
+      {
+        "text": "still",
+        "start": 194.458,
+        "end": 194.718,
+        "source": "whisperx_forced_alignment",
+        "score": 0.731
+      },
+      {
+        "text": "operating",
+        "start": 194.858,
+        "end": 195.318,
+        "source": "whisperx_forced_alignment",
+        "score": 0.78
+      }
+    ],
+    [
+      {
+        "text": "onboard",
+        "start": 195.398,
+        "end": 195.838,
+        "source": "whisperx_forced_alignment",
+        "score": 0.705
+      },
+      {
+        "text": "at",
+        "start": 195.879,
+        "end": 195.939,
+        "source": "whisperx_forced_alignment",
+        "score": 0.75
+      },
+      {
+        "text": "the",
+        "start": 195.979,
+        "end": 196.059,
+        "source": "whisperx_forced_alignment",
+        "score": 0.833
+      },
+      {
+        "text": "time.",
+        "start": 196.099,
+        "end": 196.439,
+        "source": "whisperx_forced_alignment",
+        "score": 0.902
+      }
+    ],
+    [
+      {
+        "text": "The",
+        "start": 196.879,
+        "end": 196.999,
+        "source": "whisperx_forced_alignment",
+        "score": 0.705
+      },
+      {
+        "text": "damaged",
+        "start": 197.059,
+        "end": 197.479,
+        "source": "whisperx_forced_alignment",
+        "score": 0.752
+      },
+      {
+        "text": "memory",
+        "start": 197.559,
+        "end": 197.959,
+        "source": "whisperx_forced_alignment",
+        "score": 0.793
+      }
+    ],
+    [
+      {
+        "text": "remained",
+        "start": 198.199,
+        "end": 198.659,
+        "source": "whisperx_forced_alignment",
+        "score": 0.644
+      },
+      {
+        "text": "damaged.",
+        "start": 198.739,
+        "end": 199.239,
+        "source": "whisperx_forced_alignment",
+        "score": 0.838
+      }
+    ],
+    [
+      {
+        "text": "But",
+        "start": 199.679,
+        "end": 199.779,
+        "source": "whisperx_forced_alignment",
+        "score": 0.834
+      },
+      {
+        "text": "the",
+        "start": 199.819,
+        "end": 199.919,
+        "source": "whisperx_forced_alignment",
+        "score": 0.771
+      },
+      {
+        "text": "engineers",
+        "start": 200.019,
+        "end": 200.619,
+        "source": "whisperx_forced_alignment",
+        "score": 0.651
+      },
+      {
+        "text": "had",
+        "start": 200.699,
+        "end": 200.819,
+        "source": "whisperx_forced_alignment",
+        "score": 0.786
+      },
+      {
+        "text": "found",
+        "start": 200.959,
+        "end": 201.239,
+        "source": "whisperx_forced_alignment",
+        "score": 0.648
+      }
+    ],
+    [
+      {
+        "text": "a",
+        "start": 201.279,
+        "end": 201.319,
+        "source": "whisperx_forced_alignment",
+        "score": 0.985
+      },
+      {
+        "text": "way",
+        "start": 201.359,
+        "end": 201.519,
+        "source": "whisperx_forced_alignment",
+        "score": 0.721
+      },
+      {
+        "text": "around",
+        "start": 201.579,
+        "end": 201.919,
+        "source": "whisperx_forced_alignment",
+        "score": 0.881
+      },
+      {
+        "text": "it.",
+        "start": 201.959,
+        "end": 202.059,
+        "source": "whisperx_forced_alignment",
+        "score": 0.835
+      }
+    ],
+    [
+      {
+        "text": "And",
+        "start": 202.499,
+        "end": 202.599,
+        "source": "whisperx_forced_alignment",
+        "score": 0.731
+      },
+      {
+        "text": "a",
+        "start": 202.659,
+        "end": 202.699,
+        "source": "whisperx_forced_alignment",
+        "score": 0.79
+      },
+      {
+        "text": "spacecraft",
+        "start": 202.779,
+        "end": 203.479,
+        "source": "whisperx_forced_alignment",
+        "score": 0.774
+      },
+      {
+        "text": "launched",
+        "start": 203.559,
+        "end": 203.899,
+        "source": "whisperx_forced_alignment",
+        "score": 0.79
+      }
+    ],
+    [
+      {
+        "text": "almost",
+        "start": 203.999,
+        "end": 204.299,
+        "source": "whisperx_forced_alignment",
+        "score": 0.669
+      },
+      {
+        "text": "half",
+        "start": 204.419,
+        "end": 204.679,
+        "source": "whisperx_forced_alignment",
+        "score": 0.765
+      },
+      {
+        "text": "a",
+        "start": 204.719,
+        "end": 204.759,
+        "source": "whisperx_forced_alignment",
+        "score": 0.699
+      },
+      {
+        "text": "century",
+        "start": 204.839,
+        "end": 205.259,
+        "source": "whisperx_forced_alignment",
+        "score": 0.82
+      }
+    ],
+    [
+      {
+        "text": "earlier",
+        "start": 205.379,
+        "end": 205.719,
+        "source": "whisperx_forced_alignment",
+        "score": 0.758
+      },
+      {
+        "text": "could",
+        "start": 205.959,
+        "end": 206.119,
+        "source": "whisperx_forced_alignment",
+        "score": 0.743
+      },
+      {
+        "text": "continue",
+        "start": 206.159,
+        "end": 206.74,
+        "source": "whisperx_forced_alignment",
+        "score": 0.773
+      }
+    ],
+    [
+      {
+        "text": "sending",
+        "start": 206.82,
+        "end": 207.16,
+        "source": "whisperx_forced_alignment",
+        "score": 0.844
+      },
+      {
+        "text": "back",
+        "start": 207.24,
+        "end": 207.48,
+        "source": "whisperx_forced_alignment",
+        "score": 0.855
+      },
+      {
+        "text": "scientific",
+        "start": 207.58,
+        "end": 208.22,
+        "source": "whisperx_forced_alignment",
+        "score": 0.787
+      }
+    ],
+    [
+      {
+        "text": "data",
+        "start": 208.26,
+        "end": 208.58,
+        "source": "whisperx_forced_alignment",
+        "score": 0.886
+      },
+      {
+        "text": "from",
+        "start": 208.82,
+        "end": 209.0,
+        "source": "whisperx_forced_alignment",
+        "score": 0.847
+      },
+      {
+        "text": "tens",
+        "start": 209.16,
+        "end": 209.56,
+        "source": "whisperx_forced_alignment",
+        "score": 0.749
+      },
+      {
+        "text": "of",
+        "start": 209.62,
+        "end": 209.7,
+        "source": "whisperx_forced_alignment",
+        "score": 0.842
+      },
+      {
+        "text": "billions",
+        "start": 209.92,
+        "end": 210.42,
+        "source": "whisperx_forced_alignment",
+        "score": 0.904
+      }
+    ],
+    [
+      {
+        "text": "of",
+        "start": 210.46,
+        "end": 210.54,
+        "source": "whisperx_forced_alignment",
+        "score": 0.832
+      },
+      {
+        "text": "kilometers",
+        "start": 210.6,
+        "end": 211.2,
+        "source": "whisperx_forced_alignment",
+        "score": 0.674
+      },
+      {
+        "text": "away.",
+        "start": 211.26,
+        "end": 211.56,
+        "source": "whisperx_forced_alignment",
+        "score": 0.995
+      }
+    ]
+  ],
+  "resolved": {
+    "resolved_font_size_px": 84,
+    "max_visible_width_px": 1344.0,
+    "center_x_px": 1280.0,
+    "baseline": 1288,
+    "algorithm": "sentence-syntax-width-v4",
+    "display_intervals": [
+      {
+        "start_frame": 0,
+        "end_frame": 59
+      },
+      {
+        "start_frame": 59,
+        "end_frame": 129
+      },
+      {
+        "start_frame": 129,
+        "end_frame": 178
+      },
+      {
+        "start_frame": 178,
+        "end_frame": 249
+      },
+      {
+        "start_frame": 249,
+        "end_frame": 316
+      },
+      {
+        "start_frame": 316,
+        "end_frame": 373
+      },
+      {
+        "start_frame": 373,
+        "end_frame": 421
+      },
+      {
+        "start_frame": 421,
+        "end_frame": 458
+      },
+      {
+        "start_frame": 458,
+        "end_frame": 486
+      },
+      {
+        "start_frame": 486,
+        "end_frame": 548
+      },
+      {
+        "start_frame": 548,
+        "end_frame": 606
+      },
+      {
+        "start_frame": 606,
+        "end_frame": 664
+      },
+      {
+        "start_frame": 664,
+        "end_frame": 735
+      },
+      {
+        "start_frame": 735,
+        "end_frame": 796
+      },
+      {
+        "start_frame": 796,
+        "end_frame": 824
+      },
+      {
+        "start_frame": 824,
+        "end_frame": 867
+      },
+      {
+        "start_frame": 867,
+        "end_frame": 893
+      },
+      {
+        "start_frame": 893,
+        "end_frame": 920
+      },
+      {
+        "start_frame": 920,
+        "end_frame": 946
+      },
+      {
+        "start_frame": 946,
+        "end_frame": 990
+      },
+      {
+        "start_frame": 990,
+        "end_frame": 1012
+      },
+      {
+        "start_frame": 1012,
+        "end_frame": 1042
+      },
+      {
+        "start_frame": 1042,
+        "end_frame": 1086
+      },
+      {
+        "start_frame": 1086,
+        "end_frame": 1132
+      },
+      {
+        "start_frame": 1132,
+        "end_frame": 1155
+      },
+      {
+        "start_frame": 1155,
+        "end_frame": 1186
+      },
+      {
+        "start_frame": 1186,
+        "end_frame": 1217
+      },
+      {
+        "start_frame": 1217,
+        "end_frame": 1238
+      },
+      {
+        "start_frame": 1238,
+        "end_frame": 1261
+      },
+      {
+        "start_frame": 1261,
+        "end_frame": 1299
+      },
+      {
+        "start_frame": 1299,
+        "end_frame": 1356
+      },
+      {
+        "start_frame": 1356,
+        "end_frame": 1426
+      },
+      {
+        "start_frame": 1426,
+        "end_frame": 1455
+      },
+      {
+        "start_frame": 1455,
+        "end_frame": 1490
+      },
+      {
+        "start_frame": 1490,
+        "end_frame": 1528
+      },
+      {
+        "start_frame": 1528,
+        "end_frame": 1559
+      },
+      {
+        "start_frame": 1559,
+        "end_frame": 1592
+      },
+      {
+        "start_frame": 1592,
+        "end_frame": 1632
+      },
+      {
+        "start_frame": 1632,
+        "end_frame": 1678
+      },
+      {
+        "start_frame": 1678,
+        "end_frame": 1722
+      },
+      {
+        "start_frame": 1722,
+        "end_frame": 1762
+      },
+      {
+        "start_frame": 1762,
+        "end_frame": 1781
+      },
+      {
+        "start_frame": 1781,
+        "end_frame": 1850
+      },
+      {
+        "start_frame": 1850,
+        "end_frame": 1880
+      },
+      {
+        "start_frame": 1880,
+        "end_frame": 1942
+      },
+      {
+        "start_frame": 1942,
+        "end_frame": 1977
+      },
+      {
+        "start_frame": 1977,
+        "end_frame": 2028
+      },
+      {
+        "start_frame": 2028,
+        "end_frame": 2068
+      },
+      {
+        "start_frame": 2068,
+        "end_frame": 2097
+      },
+      {
+        "start_frame": 2097,
+        "end_frame": 2142
+      },
+      {
+        "start_frame": 2142,
+        "end_frame": 2175
+      },
+      {
+        "start_frame": 2175,
+        "end_frame": 2206
+      },
+      {
+        "start_frame": 2206,
+        "end_frame": 2244
+      },
+      {
+        "start_frame": 2244,
+        "end_frame": 2298
+      },
+      {
+        "start_frame": 2298,
+        "end_frame": 2328
+      },
+      {
+        "start_frame": 2328,
+        "end_frame": 2373
+      },
+      {
+        "start_frame": 2373,
+        "end_frame": 2409
+      },
+      {
+        "start_frame": 2409,
+        "end_frame": 2446
+      },
+      {
+        "start_frame": 2446,
+        "end_frame": 2502
+      },
+      {
+        "start_frame": 2502,
+        "end_frame": 2536
+      },
+      {
+        "start_frame": 2536,
+        "end_frame": 2583
+      },
+      {
+        "start_frame": 2583,
+        "end_frame": 2618
+      },
+      {
+        "start_frame": 2618,
+        "end_frame": 2626
+      },
+      {
+        "start_frame": 2626,
+        "end_frame": 2685
+      },
+      {
+        "start_frame": 2685,
+        "end_frame": 2704
+      },
+      {
+        "start_frame": 2704,
+        "end_frame": 2750
+      },
+      {
+        "start_frame": 2750,
+        "end_frame": 2783
+      },
+      {
+        "start_frame": 2783,
+        "end_frame": 2823
+      },
+      {
+        "start_frame": 2823,
+        "end_frame": 2859
+      },
+      {
+        "start_frame": 2859,
+        "end_frame": 2926
+      },
+      {
+        "start_frame": 2926,
+        "end_frame": 2990
+      },
+      {
+        "start_frame": 2990,
+        "end_frame": 3018
+      },
+      {
+        "start_frame": 3018,
+        "end_frame": 3077
+      },
+      {
+        "start_frame": 3077,
+        "end_frame": 3132
+      },
+      {
+        "start_frame": 3132,
+        "end_frame": 3179
+      },
+      {
+        "start_frame": 3179,
+        "end_frame": 3211
+      },
+      {
+        "start_frame": 3211,
+        "end_frame": 3237
+      },
+      {
+        "start_frame": 3237,
+        "end_frame": 3281
+      },
+      {
+        "start_frame": 3281,
+        "end_frame": 3301
+      },
+      {
+        "start_frame": 3301,
+        "end_frame": 3343
+      },
+      {
+        "start_frame": 3343,
+        "end_frame": 3393
+      },
+      {
+        "start_frame": 3393,
+        "end_frame": 3427
+      },
+      {
+        "start_frame": 3427,
+        "end_frame": 3447
+      },
+      {
+        "start_frame": 3447,
+        "end_frame": 3486
+      },
+      {
+        "start_frame": 3486,
+        "end_frame": 3522
+      },
+      {
+        "start_frame": 3522,
+        "end_frame": 3552
+      },
+      {
+        "start_frame": 3552,
+        "end_frame": 3579
+      },
+      {
+        "start_frame": 3579,
+        "end_frame": 3633
+      },
+      {
+        "start_frame": 3633,
+        "end_frame": 3660
+      },
+      {
+        "start_frame": 3660,
+        "end_frame": 3698
+      },
+      {
+        "start_frame": 3698,
+        "end_frame": 3735
+      },
+      {
+        "start_frame": 3735,
+        "end_frame": 3780
+      },
+      {
+        "start_frame": 3780,
+        "end_frame": 3838
+      },
+      {
+        "start_frame": 3838,
+        "end_frame": 3867
+      },
+      {
+        "start_frame": 3867,
+        "end_frame": 3913
+      },
+      {
+        "start_frame": 3913,
+        "end_frame": 3959
+      },
+      {
+        "start_frame": 3959,
+        "end_frame": 4002
+      },
+      {
+        "start_frame": 4002,
+        "end_frame": 4029
+      },
+      {
+        "start_frame": 4029,
+        "end_frame": 4088
+      },
+      {
+        "start_frame": 4088,
+        "end_frame": 4126
+      },
+      {
+        "start_frame": 4126,
+        "end_frame": 4171
+      },
+      {
+        "start_frame": 4171,
+        "end_frame": 4204
+      },
+      {
+        "start_frame": 4204,
+        "end_frame": 4255
+      },
+      {
+        "start_frame": 4255,
+        "end_frame": 4295
+      },
+      {
+        "start_frame": 4295,
+        "end_frame": 4320
+      },
+      {
+        "start_frame": 4320,
+        "end_frame": 4358
+      },
+      {
+        "start_frame": 4358,
+        "end_frame": 4395
+      },
+      {
+        "start_frame": 4395,
+        "end_frame": 4419
+      },
+      {
+        "start_frame": 4419,
+        "end_frame": 4456
+      },
+      {
+        "start_frame": 4456,
+        "end_frame": 4488
+      },
+      {
+        "start_frame": 4488,
+        "end_frame": 4535
+      },
+      {
+        "start_frame": 4535,
+        "end_frame": 4570
+      },
+      {
+        "start_frame": 4570,
+        "end_frame": 4602
+      },
+      {
+        "start_frame": 4602,
+        "end_frame": 4646
+      },
+      {
+        "start_frame": 4646,
+        "end_frame": 4703
+      },
+      {
+        "start_frame": 4703,
+        "end_frame": 4734
+      },
+      {
+        "start_frame": 4734,
+        "end_frame": 4777
+      },
+      {
+        "start_frame": 4777,
+        "end_frame": 4818
+      },
+      {
+        "start_frame": 4818,
+        "end_frame": 4842
+      },
+      {
+        "start_frame": 4842,
+        "end_frame": 4900
+      },
+      {
+        "start_frame": 4900,
+        "end_frame": 4940
+      },
+      {
+        "start_frame": 4940,
+        "end_frame": 5000
+      },
+      {
+        "start_frame": 5000,
+        "end_frame": 5052
+      },
+      {
+        "start_frame": 5052,
+        "end_frame": 5095
+      },
+      {
+        "start_frame": 5095,
+        "end_frame": 5141
+      },
+      {
+        "start_frame": 5141,
+        "end_frame": 5212
+      },
+      {
+        "start_frame": 5212,
+        "end_frame": 5255
+      },
+      {
+        "start_frame": 5255,
+        "end_frame": 5302
+      },
+      {
+        "start_frame": 5302,
+        "end_frame": 5358
+      },
+      {
+        "start_frame": 5358,
+        "end_frame": 5391
+      },
+      {
+        "start_frame": 5391,
+        "end_frame": 5430
+      },
+      {
+        "start_frame": 5430,
+        "end_frame": 5483
+      },
+      {
+        "start_frame": 5483,
+        "end_frame": 5531
+      },
+      {
+        "start_frame": 5531,
+        "end_frame": 5558
+      },
+      {
+        "start_frame": 5558,
+        "end_frame": 5597
+      },
+      {
+        "start_frame": 5597,
+        "end_frame": 5633
+      },
+      {
+        "start_frame": 5633,
+        "end_frame": 5664
+      },
+      {
+        "start_frame": 5664,
+        "end_frame": 5699
+      },
+      {
+        "start_frame": 5699,
+        "end_frame": 5727
+      },
+      {
+        "start_frame": 5727,
+        "end_frame": 5778
+      },
+      {
+        "start_frame": 5778,
+        "end_frame": 5824
+      },
+      {
+        "start_frame": 5824,
+        "end_frame": 5862
+      },
+      {
+        "start_frame": 5862,
+        "end_frame": 5907
+      },
+      {
+        "start_frame": 5907,
+        "end_frame": 5946
+      },
+      {
+        "start_frame": 5946,
+        "end_frame": 5991
+      },
+      {
+        "start_frame": 5991,
+        "end_frame": 6039
+      },
+      {
+        "start_frame": 6039,
+        "end_frame": 6075
+      },
+      {
+        "start_frame": 6075,
+        "end_frame": 6120
+      },
+      {
+        "start_frame": 6120,
+        "end_frame": 6162
+      },
+      {
+        "start_frame": 6162,
+        "end_frame": 6205
+      },
+      {
+        "start_frame": 6205,
+        "end_frame": 6248
+      },
+      {
+        "start_frame": 6248,
+        "end_frame": 6314
+      },
+      {
+        "start_frame": 6314,
+        "end_frame": 6353
+      }
+    ],
+    "boundary_warnings": [
+      {
+        "after_group": 14,
+        "left": "The radio signal",
+        "right": "was still coming through.",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 16,
+        "left": "The spacecraft",
+        "right": "was still receiving",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 21,
+        "left": "nor the information",
+        "right": "about its own condition",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 22,
+        "left": "about its own condition",
+        "right": "could be read anymore.",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 25,
+        "left": "out what's broken",
+        "right": "when a spacecraft",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 30,
+        "left": "By then, Voyager 1 was",
+        "right": "about 24 billion kilometers",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 34,
+        "left": "it had crossed the boundary",
+        "right": "of the heliosphere",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 45,
+        "left": "Radio communication",
+        "right": "was the only option.",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 62,
+        "left": "to one",
+        "right": "of the onboard computers.",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 66,
+        "left": "data and prepared",
+        "right": "that information to be sent",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 75,
+        "left": "It was the contents",
+        "right": "of the onboard",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 81,
+        "left": "About three percent",
+        "right": "of the memory",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 82,
+        "left": "of the memory",
+        "right": "had been damaged.",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 95,
+        "left": "No single free section",
+        "right": "of memory was large enough",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 97,
+        "left": "to hold that part",
+        "right": "of the program in one piece.",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 109,
+        "left": "and all the pieces",
+        "right": "could work together again.",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 111,
+        "left": "They decided to start",
+        "right": "with the program that",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 112,
+        "left": "with the program that",
+        "right": "prepared information about",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 113,
+        "left": "prepared information about",
+        "right": "the spacecraft's condition.",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 116,
+        "left": "even that, the team",
+        "right": "would once again be able",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 132,
+        "left": "understandable information",
+        "right": "about the condition",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 133,
+        "left": "about the condition",
+        "right": "of its systems.",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 140,
+        "left": "from all four instruments",
+        "right": "that were still operating",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 151,
+        "left": "data from tens of billions",
+        "right": "of kilometers away.",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      }
+    ]
+  }
+}

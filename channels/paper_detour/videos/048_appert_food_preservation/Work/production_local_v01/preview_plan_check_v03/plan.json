@@ -1,0 +1,74 @@
+{
+  "channel": "paper",
+  "format": "long",
+  "subtitle_mode": "words",
+  "audio": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Work/production_local_v01/sample_audio.wav",
+  "canvas": [
+    2560,
+    1440
+  ],
+  "fps": 30,
+  "scenes": [
+    {
+      "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S01_v02.png",
+      "start_frame": 0,
+      "end_frame": 169,
+      "direction": "left_to_right",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.22,
+          0.54
+        ],
+        "subject": "sealed sample jar at the harbor",
+        "reason": "Keep the cork and jar readable against the distant ships.",
+        "start": {
+          "center": [
+            0.502,
+            0.5
+          ],
+          "scale": 1.005
+        },
+        "end": {
+          "center": [
+            0.498,
+            0.5
+          ],
+          "scale": 1.025
+        }
+      }
+    },
+    {
+      "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S02_v02.png",
+      "start_frame": 169,
+      "end_frame": 320,
+      "direction": "right_to_left",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.24,
+          0.56
+        ],
+        "subject": "food jar and three-month marker",
+        "reason": "Carry the storage interval from the jar toward the paper time marker.",
+        "start": {
+          "center": [
+            0.498,
+            0.5
+          ],
+          "scale": 1.025
+        },
+        "end": {
+          "center": [
+            0.502,
+            0.5
+          ],
+          "scale": 1.005
+        }
+      }
+    }
+  ],
+  "frames": 320,
+  "manifest_path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Work/production_local_v01/Edit/sample_plan.json",
+  "source_transfer": "srgb"
+}

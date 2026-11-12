@@ -1,0 +1,469 @@
+{
+  "schema_version": 1,
+  "status": "READY_TO_RENDER",
+  "episode": "039_brest_fortress",
+  "language": "English",
+  "format": "long film",
+  "purpose": "Review v05: user-approved bilingual scene in both close-up shots.",
+  "settings_profile": {
+    "path": "/Users/diplomat/ytvideos/.agents/skills/ytv-video-export/references/delivery.md",
+    "sha256": "494eb3736b9a39861949084e6623b2033bbd2ea9c4cdef31c48f035938dc89a6"
+  },
+  "edit": {
+    "project_id": "FFmpeg montage plan (no native editor project ID)",
+    "timeline_id": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Edit/Production/v05/render_plan_v05.json",
+    "saved_revision_evidence": {
+      "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Edit/Production/v05/render_plan_v05.json",
+      "sha256": "83b852ec7bdcc69cdb421789b531665adffbe545e793143665d46c04144f7f12"
+    },
+    "timeline_read_path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Work/render_en_v05/scratch/prepare/plan.json",
+    "timeline_read_sha256": "c42c32d62df5de344308bc529d467c2d310bb7533e72e87bd873b846237e3e74",
+    "dependencies": [
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Audio/mix_en_v01.wav",
+        "sha256": "4c56e59fe5b14a33534083f927bec2b5ff9c8cc79e922ab082ad85ba2a9207cc"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_01_01_v02.png",
+        "sha256": "13d907b08987018fc2ba2aa00208062f368affe9af8d6d2a2bea3309651d1928"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_17_04a_v02.png",
+        "sha256": "8161a26d35d07f5f89ccc5da8e7d0cad1bdb4e2351be3ab0f951a67cd5203fa3"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_14_01_v02.png",
+        "sha256": "467fc8af29b3b05eddd340135797bf59e18b847797bca0154d640ebfeb7bf8fd"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_01_03_v01.png",
+        "sha256": "a7d14f9944e94c90503d68724be3a9af5474d0633a591ad248b252fb94bee9ff"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_01_04_v02.png",
+        "sha256": "42ffef6d6f30d368b381ee9772be21cc5e3da41c3bfa543eafa6bc5fda760377"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_04_02_v01.png",
+        "sha256": "988ee62bd5513516457bdc65ff7fed2f1d6dc7ade9d578a368411fb4435ccce8"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_01_05_v03.png",
+        "sha256": "607152ad3983eb805fd0b738259749704fbd46fce32729356e438b12d49e40ca"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_04_03_v01.png",
+        "sha256": "2b66de56a88cca280e22ddfc601d5951d797f17cd632d379608486708f5dcfab"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_02_01_v01.png",
+        "sha256": "70d721513aa519e5a82549d2913646464868d5d5838d34d31e30cbd8f124e229"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_02_02_v01.png",
+        "sha256": "8b68b28c83cf76fc7d7f8d81992d1dd3824a40592195d3a7d6c3d0755203daea"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_02_03_v01.png",
+        "sha256": "58539b7c4d5b6a4d9b388b474f25cf3b94db0e08a87a35db26fc9b895ba65a97"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_02_04_v02.png",
+        "sha256": "ce945c29d592c34f06bfaa1a533e52b0fd5d0b972cf2c9757266ff3affe28395"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_03_01_v01.png",
+        "sha256": "aa438fd0ef9d402d9c23552c79f7e834ec7b35d982c429b2e3da54fe74bbba56"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_03_02_v01.png",
+        "sha256": "96af30ab7d8b5858dcb832bd58a64f156984419b654d3c71f77e87b5c4965871"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_03_03_v01.png",
+        "sha256": "bb5c9c23018e0211ca03a1d5c8f23263cba990ca8394744f56e455a0422d1d31"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_03_05_v01.png",
+        "sha256": "bfd37dbfef74c1e5ce898e2453bd1a0ecd10768eb6af20ec92103fd6a40ad399"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_04_01_v01.png",
+        "sha256": "035736b2275ebb59c756e2884c8112ede902034d7b19be10023a5f5b3c167f8a"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_08_03_v01.png",
+        "sha256": "b77d6c463b38c7700f22026b1538ac3e6993d8271038bae75f38ac8e1d0f6907"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_04_04_v01.png",
+        "sha256": "fb476e2a2cac436b9d9b2a858420aa79822bcd7b346033e43c6ade57e3f913d9"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_04_05_v01.png",
+        "sha256": "07e9d4ee833df67f4809b7492fbd7bab65364791c5ac53289ead050a833cea32"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_05_01_v01.png",
+        "sha256": "d384d02c41a71373fb99e0477d7544923ace31376f0a21cbb927c4e143b54f4a"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_05_02_v01.png",
+        "sha256": "c8e989e91b30b4e4ff9b7ff1a44526641874f0860f55a10e1822b43cfc6141c3"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_05_02a_v01.png",
+        "sha256": "95899f9ce5ac499ae61b06a0771390aae3a20bbc8e44f9c4003942cb9b640229"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_05_03_v01.png",
+        "sha256": "16b2d9dcdce06d677cab14abe0882d3413e2f4a68de9f786ab0fbbfee606de05"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_05_04_v01.png",
+        "sha256": "47505cc5d5cc1d3de9d54e9f1c105602e2db1da1bf91d76247f8b33c14b0c95d"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_05_05_v01.png",
+        "sha256": "c1144b868eb9a47a0e6679196dd2b9c9d5185be595021cc9fbd5e8ce367aac44"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_06_01_v01.png",
+        "sha256": "3dcc959ac8ab39b6571da9dc9a4082d07481742ec46b9288e97e2d4e7d649c59"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_06_02_v01.png",
+        "sha256": "d1b201e87faa7804a73d13d43973c8bf8c23b94ef414ced22dad0d58c5c4a355"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_06_02a_v01.png",
+        "sha256": "a7672a67cb05f9709f7c1f5a547a561f0aecb4c4bc8642f2463676a4004ecf04"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_06_03_v02.png",
+        "sha256": "ea7b1af906e0ee6f6512f5efef80ae37bd10ecbe464e35f7a5ae0e960c85d3a6"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_06_04_v03.png",
+        "sha256": "96943114f2012a515e0e20e1e6c53c2a00e490e59e9ae016225e5da20cf37e00"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_07_01_v01.png",
+        "sha256": "ecb2dc4f6ddb8bb86f34f12b969c452691c6becdb39bba2d3d20714f00c7e02e"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_07_02_v01.png",
+        "sha256": "db2e5e3b7c006a12fdf85ea53b33c643b4be138bc0f2b748287a53abd6c25096"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_07_03_v02.png",
+        "sha256": "985c4f2737e700714475bf43a65d556c7751b9f876a9e1460eff965b440ff59a"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_08_02_v01.png",
+        "sha256": "58732175cc8df87dd8d05c38ca63c5ab497ff7fc8e69b6829f5ccc1fb7ece85a"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_08_04_v01.png",
+        "sha256": "3ca02794999e27e5393cf9565061e42ce909d864365367fcba699e8ac18a3fea"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_09_01_v01.png",
+        "sha256": "bc6a37f853b13d89d9c0917553c309413a5bbd514932da59a19de43049346217"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_09_02_v01.png",
+        "sha256": "8ffbdd15dcd6e982bd7986946fe0c455d560ec8b12a66654d1e8126ce1a2b97a"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_09_03_v01.png",
+        "sha256": "15863044f6ade38d02f09ee148fde72b41401379e9f813f7ee7e79b37fbaa9b9"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_09_04_v01.png",
+        "sha256": "94a6f12f76117dfc71f785ead8e096da21e8e74f0a458abb9d7faea51bce2ad5"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_09_04a_v01.png",
+        "sha256": "5d9701d62445039b79ad7ab13c21a02794c9130cd3b007554b0ed904f611a1ec"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_09_05_v01.png",
+        "sha256": "bec21cccf7bf9e6fbee7751dab6e98b9782cb494bceaca4ebe56623f848ef504"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_09_05a_v01.png",
+        "sha256": "1a057c7c95acdfc6e4a2bdb0c33bfae3cd2c337623aa27a8f095f1469808cd0a"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_09_06_v02.png",
+        "sha256": "d94be05b0d4ec2ab9cff942f2dbe5d61fe98e2a5e6acce365130384636a13d9e"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_09_06a_v01.png",
+        "sha256": "e4de5b0c2d735fc17ad4aed7ad9b1b05b8695fd70461b135ca50d770c0c8dec7"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_10_01_v01.png",
+        "sha256": "9b336039ccd2c4e2eb014f5550b3ff61e65c85dc6d7692274a573d561e723b94"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_10_02_v01.png",
+        "sha256": "e37d29a5601079a56eb09f170a73d56f81d8bd523610d2bef1afc12fb00bc09a"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_10_03_v01.png",
+        "sha256": "2c37d9a80d062c707ab7fdc8d5a635165581a8694c6e9593631e708b7ecdaa07"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_10_04_v01.png",
+        "sha256": "338c7d9e914ca6079e43ee8eab4ddcd2a39b856dd3d31b1a856f61c2838bac72"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_10_05_v01.png",
+        "sha256": "ae82804c35c952a2c6c78e1c769e1567e02a23f75cc1c4d84ef6c241599a48c0"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_11_01_v01.png",
+        "sha256": "d9081ce47616211defa2ed02a5fbe861f662c68e4a9fddcdc34f0efd435bc866"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_11_04_v01.png",
+        "sha256": "ad55ae00850ecf879a5fb57086fcaa8a57f6c49f435c9f02db41c3e95410e261"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_12_01_v01.png",
+        "sha256": "fae1e3443c20495e53f012e47683b2fa9f19fa7b0b441ee221cd31f9cc91e498"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_14_03_v01.png",
+        "sha256": "92a2feff6cb5a120f1a2f5998f2620dec344cea1a8ab2d42472440beff0da612"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_13_01_v01.png",
+        "sha256": "ced084e3b279554cc2f4231039b1dd8da52054fc1a360b4256cb2c607282fcd6"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_13_02_v01.png",
+        "sha256": "ca2bd7abc2f7eddbbae167fcaec5eeed4708a2d1a1aec844f4c56a60fb566878"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_15_01_v01.png",
+        "sha256": "e067ff3c6fb51aa7926f87f28bbf73a249d1ba67a0b3e8a5a8895377973035f7"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_14_04_v01.png",
+        "sha256": "b79eace33440bfc11a8609fb946262a4835a67efe7f9210209bc2d23441a0382"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_15_03_v01.png",
+        "sha256": "615de46a8fbf2abd6ec20fc43cf5a7a6b883683e5c297dc3aa6d2aa19d687e72"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_17_04b_v01.png",
+        "sha256": "fcff7ccee2940f82fb119bf23e73e6c74aa9e5604f18955fd4ae7104cb0a7c49"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_16_04_v01.png",
+        "sha256": "38913b0e1fbe61e82625f2732d8fbb5cd5801aa97ead3051ef601c3a2d0305de"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_17_06_v01.png",
+        "sha256": "5d65a71355c7795b3f78fec84f54b5c07998f22fe99c1f073921bb5292df1585"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_12_02_v02.png",
+        "sha256": "9773d5a714163f14d24e2d91bb5d13813ba4a22244c470094de96fca15b99701"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_18_03_v01.png",
+        "sha256": "2211f0110b5cb8156e6bda73113776832b8d3d06ec95a6f0ee8de8e00ad59e91"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_18_04_v01.png",
+        "sha256": "82aaeabb9ca9f167d3255a0722dcf47438eed8e16cdbcd01219177f3e1243a39"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_18_05_v01.png",
+        "sha256": "3882643d29b8edc824ecdceabd96497c60e38c262e3e88bed32974e5e9fa128a"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_18_05a_v01.png",
+        "sha256": "db5cfa742cd9e9efb4e7edd8b1abb99c99bcdae31b7d2c5386c13550fd0fa8f2"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_19_04_v01.png",
+        "sha256": "40d290bae53843170dd070099188630ce276bb9a2844a911b01604b8d4ff3f60"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_19_01_v01.png",
+        "sha256": "c2fcac221427f026d36d7bbd7ba9001757482cca4a983c7fc6fda5132d5fecf7"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_19_02_v02.png",
+        "sha256": "3d51ae7bdcbaa52e1e30bfc8d953a45ba797d667eb10a429ec27082d3e970dd9"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_19_02a_v02.png",
+        "sha256": "e0a753f770eac4e9104bea3f0328467f2aad690c35ee4c9fbda91ba2d3c3b80d"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_19_02a_v01.png",
+        "sha256": "d49e57f8bbf4fed388b43d7578eaa86dc38ea7133f67b074eaaa584ae0847ca3"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Edit/Preproduction/shot_map_v06.csv",
+        "sha256": "b1f862dae0446e83b4dee51241bf84d69a27683eb62882ca0b92343aaf7afc0c"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Edit/Preproduction/camera_plan_v04.json",
+        "sha256": "b2d1738d4ccd9c5f4d0488e4fb418289dd3274d51f739fe0afb482295a0ffa94"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Audio/transcript_en_v01.txt",
+        "sha256": "f002eb470936487d2de8b596f177cefae04c712759f3c40bd15972a05b6ca55c"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Audio/word_map_mix_v01.json",
+        "sha256": "dc803d2c05315280000a844383b5cc91b40098d3347e83612b83ff75dd7b5a5c"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Edit/Production/v05/render_plan_v05.json",
+        "sha256": "83b852ec7bdcc69cdb421789b531665adffbe545e793143665d46c04144f7f12"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_19_02a_bilingual_v01.png",
+        "sha256": "0e17f93337037838625f416507d8a168a32f33226cc29298fee38bbc74349e73"
+      }
+    ]
+  },
+  "frames": 18370,
+  "timeline": {
+    "width": 2560,
+    "height": 1440,
+    "aspect_ratio": "16:9",
+    "sample_aspect_ratio": "1:1",
+    "fps": "30/1",
+    "frame_count": 18370,
+    "duration_seconds": 612.3333333333334,
+    "output_color_space": "Rec.709 SDR",
+    "audio_duration_seconds": 612.32,
+    "audio_video_end_delta_seconds": 0.013333333333321207
+  },
+  "required_delivery": {
+    "container": "MP4",
+    "video": {
+      "codec_name": "h264",
+      "pix_fmt": "yuv420p",
+      "scan": "progressive",
+      "cadence": "constant 30/1 fps",
+      "color_primaries": "bt709",
+      "color_transfer": "bt709",
+      "color_space": "bt709",
+      "color_range": "tv"
+    },
+    "audio_contract": {
+      "owner_handoff": "ytv-audio-delivery",
+      "accepted_complete_mix": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Audio/mix_en_v01.wav",
+        "sha256": "4c56e59fe5b14a33534083f927bec2b5ff9c8cc79e922ab082ad85ba2a9207cc",
+        "duration_seconds": 612.32,
+        "format": "PCM signed 16-bit, 44.1 kHz, stereo"
+      },
+      "source_rate_channels": "44,100 Hz / 2 channels",
+      "codec_name": "aac",
+      "profile": "LC",
+      "sample_rate": 44100,
+      "channels": 2,
+      "target_bit_rate": 256000
+    }
+  },
+  "encoding": {
+    "engine": "FFmpeg with h264_videotoolbox",
+    "version_evidence": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers",
+    "requested_arguments": {
+      "encoder": "h264_videotoolbox",
+      "video_bitrate": "20M",
+      "output_pix_fmt": "yuv420p",
+      "fps": "30/1",
+      "audio_codec": "aac",
+      "audio_profile": "aac_low",
+      "audio_bitrate": 256000,
+      "audio_sample_rate": 44100,
+      "audio_channels": 2
+    },
+    "quality_preferences": {
+      "video_rate_control": "20 Mbps VBR starting point for 2K",
+      "audio": "preserve 44.1 kHz stereo full mix; no loudness normalization",
+      "captions": "burned-in Nuviko word highlighting plus English SRT sidecar"
+    },
+    "capability_evidence": {
+      "renderer": {
+        "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/montage.py",
+        "sha256": "11171b5a2b2319c93ed8ded0c61864bbd195cc5ca843651a2b949b8c05252b0f"
+      },
+      "plan_only": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Work/render_en_v05/scratch/prepare/plan.json",
+        "sha256": "c42c32d62df5de344308bc529d467c2d310bb7533e72e87bd873b846237e3e74"
+      },
+      "prepared_subtitle_contract": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Work/render_en_v04/scratch/prepare/subtitle_contract.json",
+        "sha256": "7664e80dd9d5d3b4a6b6d34bf60b34e0393b7891b114220b64f0c29dc4c0d960"
+      },
+      "subtitle_fingerprint": "43efe9faf9da1de93f6398b702b77b9e6e40d231602e141e5f372758d44f292e"
+    },
+    "engine_managed_fields": [
+      "H.264 profile and level",
+      "B-frame and GOP structure",
+      "AAC profile",
+      "actual average video bitrate",
+      "packet cadence evidence"
+    ]
+  },
+  "preflight": {
+    "author": "Codex production coordinator",
+    "time_utc": "2026-11-05T17:15:39.249677+00:00",
+    "authorization_references": [
+      "User approved bilingual image and instructed implementation in the film."
+    ],
+    "fresh_settings_evidence": "v05 plan with unchanged 2K export settings.",
+    "writer_and_export_state": "Owned render_en_v05; new versioned output.",
+    "output_path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Work/render_en_v05/previews/039_brest_fortress_en_review_v05.mp4",
+    "overwrite": false,
+    "media_lifecycle_receipt": {
+      "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Edit/MediaLifecycle/pre-render-audit-v04/audit.json",
+      "sha256": "a160f6b829e4c059227d58ab82bb1922b5979a635ba9f0fbbd71e198e2c9ad96",
+      "coverage": "BOUNDED_NOT_EXHAUSTIVE",
+      "coverage_errors": 0
+    },
+    "unresolved_required_fields": []
+  },
+  "render_receipt": null,
+  "qa_receipt": null,
+  "review_sidecar": {
+    "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Deliverables/039_brest_fortress_en_v01.srt",
+    "language": "en",
+    "machine_structure_and_text_coverage": "PASS",
+    "timing_mapping": "UNVERIFIED",
+    "playback": "UNVERIFIED"
+  },
+  "output_path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Work/render_en_v05/previews/039_brest_fortress_en_review_v05.mp4",
+  "voice_speed_evidence": {
+    "applied_once": 1.1,
+    "audio_contract": {
+      "audio": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Audio/mix_en_v01.wav",
+        "sha256": "4c56e59fe5b14a33534083f927bec2b5ff9c8cc79e922ab082ad85ba2a9207cc"
+      },
+      "applied_speed": 1.1,
+      "speed_policy": {
+        "path": "/Users/diplomat/ytvideos/.agents/skills/ytv-audio-delivery/references/speed.json",
+        "sha256": "32c378c36c1e297cbdc4e3593c965163d33e531b8b8eea026b367bddb51a668a"
+      },
+      "speed_evidence": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Audio/mix_en_v01.evidence.json",
+        "sha256": "ee152aa05db1cbce7f4a39563ae442a8cd6268372cf292e3ba3a2d3dafb1fa6f"
+      }
+    }
+  }
+}

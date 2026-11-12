@@ -1,0 +1,1103 @@
+{
+  "created_utc": "2026-11-02T22:54:25.254503+00:00",
+  "media": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Shorts/02_decoder/Work/short02_accent_motion_fix_20261102_v01/previews/PAPER_DETOUR_001_SHORT02_ACCENT_MOTION_REVIEW_20261102_v04.mp4",
+  "plan": {
+    "frame_count": 1098,
+    "fps": "30/1",
+    "sha256": "5045b616adb23bb7d0fd0a08f4a2c79583f4c682ebed3514c6e7c54cca1f284f",
+    "required_review_checks": [
+      "stream_metadata",
+      "full_decode",
+      "frame_sampling",
+      "scene_edit",
+      "motion_framing",
+      "text_composition",
+      "cue_timing",
+      "audio_signal",
+      "subjective_audio_listening"
+    ],
+    "freshness": {
+      "status": "CURRENT",
+      "evidence": "Palmier snapshot AEBCE842; live post-mutation get_timeline 7537BAE9; mutation report; native export job 934221A0-B178-4FA6-87D7-0236F412A672; stream-copy mux receipt."
+    },
+    "expected": {
+      "video": {
+        "width": 1080,
+        "height": 1920,
+        "codec_name": "h264",
+        "pix_fmt": "yuv420p",
+        "color_space": "bt709"
+      },
+      "audio": {
+        "required": true,
+        "codec_name": "aac",
+        "channels": 2,
+        "sample_rate": 44100
+      }
+    },
+    "scene_seconds": [
+      4,
+      6
+    ],
+    "scenes": [
+      {
+        "id": "S01",
+        "start": 0,
+        "end": 177
+      },
+      {
+        "id": "S02",
+        "start": 177,
+        "end": 330
+      },
+      {
+        "id": "S03",
+        "start": 330,
+        "end": 468
+      },
+      {
+        "id": "S04",
+        "start": 468,
+        "end": 606
+      },
+      {
+        "id": "S05",
+        "start": 606,
+        "end": 774
+      },
+      {
+        "id": "S06",
+        "start": 774,
+        "end": 924
+      },
+      {
+        "id": "S07",
+        "start": 924,
+        "end": 1098
+      }
+    ],
+    "cues": [
+      {
+        "id": "C01",
+        "start": 82,
+        "end": 171,
+        "entry_end": 86,
+        "exit_start": 166
+      },
+      {
+        "id": "C02",
+        "start": 194,
+        "end": 305,
+        "entry_end": 198,
+        "exit_start": 300
+      },
+      {
+        "id": "C03",
+        "start": 380,
+        "end": 450,
+        "entry_end": 384,
+        "exit_start": 445
+      },
+      {
+        "id": "C04",
+        "start": 516,
+        "end": 574,
+        "entry_end": 520,
+        "exit_start": 569
+      },
+      {
+        "id": "C05",
+        "start": 673,
+        "end": 766,
+        "entry_end": 677,
+        "exit_start": 761
+      },
+      {
+        "id": "C06",
+        "start": 820,
+        "end": 865,
+        "entry_end": 824,
+        "exit_start": 860
+      },
+      {
+        "id": "C07",
+        "start": 867,
+        "end": 922,
+        "entry_end": 871,
+        "exit_start": 917
+      },
+      {
+        "id": "C08",
+        "start": 925,
+        "end": 1037,
+        "entry_end": 929,
+        "exit_start": 1032
+      },
+      {
+        "id": "C09",
+        "start": 1045,
+        "end": 1098,
+        "entry_end": 1049,
+        "exit_start": 1093
+      }
+    ],
+    "extra_frames": [
+      82,
+      83,
+      84,
+      85,
+      86,
+      126,
+      166,
+      167,
+      168,
+      169,
+      170,
+      194,
+      195,
+      196,
+      197,
+      198,
+      249,
+      300,
+      301,
+      302,
+      303,
+      304,
+      380,
+      381,
+      382,
+      383,
+      384,
+      414,
+      445,
+      446,
+      447,
+      448,
+      449,
+      516,
+      517,
+      518,
+      519,
+      520,
+      544,
+      569,
+      570,
+      571,
+      572,
+      573,
+      673,
+      674,
+      675,
+      676,
+      677,
+      719,
+      761,
+      762,
+      763,
+      764,
+      765,
+      820,
+      821,
+      822,
+      823,
+      824,
+      842,
+      860,
+      861,
+      862,
+      863,
+      864,
+      867,
+      868,
+      869,
+      870,
+      871,
+      894,
+      917,
+      918,
+      919,
+      920,
+      921,
+      925,
+      926,
+      927,
+      928,
+      929,
+      980,
+      1032,
+      1033,
+      1034,
+      1035,
+      1036,
+      1045,
+      1046,
+      1047,
+      1048,
+      1049,
+      1071,
+      1093,
+      1094,
+      1095,
+      1096,
+      1097
+    ],
+    "scope_note": "Targeted regression check of nine animated accent PNG cues on this new final-file identity. The previous v03 403-frame visual sample remains evidence for unchanged scenes and the V3 subtitle design; this run rechecks new motion/caption co-existence at every accent transition and a hold point. Overall QA is not inherited and remains UNVERIFIED pending spoken-sync review."
+  },
+  "policy_failures": [],
+  "failures": [],
+  "reported_freshness": {
+    "status": "CURRENT",
+    "evidence": "Palmier snapshot AEBCE842; live post-mutation get_timeline 7537BAE9; mutation report; native export job 934221A0-B178-4FA6-87D7-0236F412A672; stream-copy mux receipt."
+  },
+  "checks": {
+    "stream_metadata": "PASS",
+    "full_decode": "PASS",
+    "frame_extraction": "PASS",
+    "frame_sampling": "UNVERIFIED",
+    "motion_framing": "UNVERIFIED",
+    "cue_timing": "UNVERIFIED",
+    "audio_signal": "UNVERIFIED",
+    "subjective_audio_listening": "UNVERIFIED",
+    "independent_review": "UNVERIFIED"
+  },
+  "inspected_frame_indices": [],
+  "requested_frame_indices": [
+    0,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    88,
+    126,
+    166,
+    167,
+    168,
+    169,
+    170,
+    171,
+    176,
+    177,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198,
+    249,
+    253,
+    300,
+    301,
+    302,
+    303,
+    304,
+    305,
+    329,
+    330,
+    379,
+    380,
+    381,
+    382,
+    383,
+    384,
+    398,
+    414,
+    445,
+    446,
+    447,
+    448,
+    449,
+    450,
+    467,
+    468,
+    515,
+    516,
+    517,
+    518,
+    519,
+    520,
+    536,
+    544,
+    569,
+    570,
+    571,
+    572,
+    573,
+    574,
+    605,
+    606,
+    672,
+    673,
+    674,
+    675,
+    676,
+    677,
+    689,
+    719,
+    761,
+    762,
+    763,
+    764,
+    765,
+    766,
+    773,
+    774,
+    819,
+    820,
+    821,
+    822,
+    823,
+    824,
+    842,
+    848,
+    860,
+    861,
+    862,
+    863,
+    864,
+    865,
+    866,
+    867,
+    868,
+    869,
+    870,
+    871,
+    894,
+    917,
+    918,
+    919,
+    920,
+    921,
+    922,
+    923,
+    924,
+    925,
+    926,
+    927,
+    928,
+    929,
+    980,
+    1010,
+    1032,
+    1033,
+    1034,
+    1035,
+    1036,
+    1037,
+    1044,
+    1045,
+    1046,
+    1047,
+    1048,
+    1049,
+    1071,
+    1093,
+    1094,
+    1095,
+    1096,
+    1097
+  ],
+  "sha256": "5045b616adb23bb7d0fd0a08f4a2c79583f4c682ebed3514c6e7c54cca1f284f",
+  "streams": [
+    {
+      "index": 0,
+      "codec_name": "h264",
+      "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+      "profile": "High",
+      "codec_type": "video",
+      "codec_tag_string": "avc1",
+      "codec_tag": "0x31637661",
+      "mime_codec_string": "avc1.640028",
+      "width": 1080,
+      "height": 1920,
+      "coded_width": 1080,
+      "coded_height": 1920,
+      "has_b_frames": 2,
+      "pix_fmt": "yuv420p",
+      "level": 40,
+      "color_range": "tv",
+      "color_space": "bt709",
+      "color_transfer": "bt709",
+      "color_primaries": "bt709",
+      "chroma_location": "left",
+      "field_order": "progressive",
+      "is_avc": "true",
+      "nal_length_size": "4",
+      "id": "0x1",
+      "r_frame_rate": "30/1",
+      "avg_frame_rate": "30/1",
+      "time_base": "1/19200",
+      "start_pts": 0,
+      "start_time": "0.000000",
+      "duration_ts": 702720,
+      "duration": "36.600000",
+      "bit_rate": "10544117",
+      "bits_per_raw_sample": "8",
+      "nb_frames": "1098",
+      "extradata_size": 36,
+      "disposition": {
+        "default": 1,
+        "dub": 0,
+        "original": 0,
+        "comment": 0,
+        "lyrics": 0,
+        "karaoke": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "visual_impaired": 0,
+        "clean_effects": 0,
+        "attached_pic": 0,
+        "timed_thumbnails": 0,
+        "non_diegetic": 0,
+        "captions": 0,
+        "descriptions": 0,
+        "metadata": 0,
+        "dependent": 0,
+        "still_image": 0,
+        "multilayer": 0
+      },
+      "tags": {
+        "creation_time": "2026-11-02T22:53:00.000000Z",
+        "language": "und",
+        "handler_name": "Core Media Video"
+      }
+    },
+    {
+      "index": 1,
+      "codec_name": "aac",
+      "codec_long_name": "AAC (Advanced Audio Coding)",
+      "profile": "LC",
+      "codec_type": "audio",
+      "codec_tag_string": "mp4a",
+      "codec_tag": "0x6134706d",
+      "mime_codec_string": "mp4a.40.2",
+      "sample_fmt": "fltp",
+      "sample_rate": "44100",
+      "channels": 2,
+      "channel_layout": "stereo",
+      "bits_per_sample": 0,
+      "initial_padding": 0,
+      "id": "0x2",
+      "r_frame_rate": "0/0",
+      "avg_frame_rate": "0/0",
+      "time_base": "1/44100",
+      "start_pts": 0,
+      "start_time": "0.000000",
+      "duration_ts": 1614810,
+      "duration": "36.617007",
+      "bit_rate": "116107",
+      "nb_frames": "1579",
+      "extradata_size": 2,
+      "disposition": {
+        "default": 1,
+        "dub": 0,
+        "original": 0,
+        "comment": 0,
+        "lyrics": 0,
+        "karaoke": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "visual_impaired": 0,
+        "clean_effects": 0,
+        "attached_pic": 0,
+        "timed_thumbnails": 0,
+        "non_diegetic": 0,
+        "captions": 0,
+        "descriptions": 0,
+        "metadata": 0,
+        "dependent": 0,
+        "still_image": 0,
+        "multilayer": 0
+      },
+      "tags": {
+        "creation_time": "2026-11-02T22:53:00.000000Z",
+        "language": "und",
+        "handler_name": "Core Media Audio"
+      }
+    }
+  ],
+  "decoded_video_frames": 1098,
+  "audio_measurements": {
+    "stream": "0:a:0",
+    "method": "sample levels and silence candidates; not listening",
+    "mean_dbfs": [
+      "-24.3"
+    ],
+    "sample_peak_dbfs": [
+      "-3.9"
+    ],
+    "silence_candidate_threshold_dbfs": -50,
+    "minimum_silence_seconds": 0.25
+  },
+  "audio_analysis_execution": "PASS",
+  "frame_recipe": {
+    "argv": [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-xerror",
+      "-i",
+      "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Shorts/02_decoder/Work/short02_accent_motion_fix_20261102_v01/previews/PAPER_DETOUR_001_SHORT02_ACCENT_MOTION_REVIEW_20261102_v04.mp4",
+      "-map",
+      "0:v:0",
+      "-vf",
+      "select=((((((((eq(n\\,0)+eq(n\\,81))+(eq(n\\,82)+eq(n\\,83)))+((eq(n\\,84)+eq(n\\,85))+(eq(n\\,86)+eq(n\\,88))))+(((eq(n\\,126)+eq(n\\,166))+(eq(n\\,167)+eq(n\\,168)))+((eq(n\\,169)+eq(n\\,170))+(eq(n\\,171)+eq(n\\,176)))))+((((eq(n\\,177)+eq(n\\,193))+(eq(n\\,194)+eq(n\\,195)))+((eq(n\\,196)+eq(n\\,197))+(eq(n\\,198)+eq(n\\,249))))+(((eq(n\\,253)+eq(n\\,300))+(eq(n\\,301)+eq(n\\,302)))+((eq(n\\,303)+eq(n\\,304))+(eq(n\\,305)+eq(n\\,329))))))+(((((eq(n\\,330)+eq(n\\,379))+(eq(n\\,380)+eq(n\\,381)))+((eq(n\\,382)+eq(n\\,383))+(eq(n\\,384)+eq(n\\,398))))+(((eq(n\\,414)+eq(n\\,445))+(eq(n\\,446)+eq(n\\,447)))+((eq(n\\,448)+eq(n\\,449))+(eq(n\\,450)+eq(n\\,467)))))+((((eq(n\\,468)+eq(n\\,515))+(eq(n\\,516)+eq(n\\,517)))+((eq(n\\,518)+eq(n\\,519))+(eq(n\\,520)+eq(n\\,536))))+(((eq(n\\,544)+eq(n\\,569))+(eq(n\\,570)+eq(n\\,571)))+((eq(n\\,572)+eq(n\\,573))+(eq(n\\,574)+eq(n\\,605)))))))+((((((eq(n\\,606)+eq(n\\,672))+(eq(n\\,673)+eq(n\\,674)))+((eq(n\\,675)+eq(n\\,676))+(eq(n\\,677)+eq(n\\,689))))+(((eq(n\\,719)+eq(n\\,761))+(eq(n\\,762)+eq(n\\,763)))+((eq(n\\,764)+eq(n\\,765))+(eq(n\\,766)+eq(n\\,773)))))+((((eq(n\\,774)+eq(n\\,819))+(eq(n\\,820)+eq(n\\,821)))+((eq(n\\,822)+eq(n\\,823))+(eq(n\\,824)+eq(n\\,842))))+(((eq(n\\,848)+eq(n\\,860))+(eq(n\\,861)+eq(n\\,862)))+((eq(n\\,863)+eq(n\\,864))+(eq(n\\,865)+eq(n\\,866))))))+(((((eq(n\\,867)+eq(n\\,868))+(eq(n\\,869)+eq(n\\,870)))+((eq(n\\,871)+eq(n\\,894))+(eq(n\\,917)+eq(n\\,918))))+(((eq(n\\,919)+eq(n\\,920))+(eq(n\\,921)+eq(n\\,922)))+((eq(n\\,923)+eq(n\\,924))+(eq(n\\,925)+eq(n\\,926)))))+((((eq(n\\,927)+eq(n\\,928))+(eq(n\\,929)+eq(n\\,980)))+((eq(n\\,1010)+eq(n\\,1032))+(eq(n\\,1033)+eq(n\\,1034))))+(((eq(n\\,1035)+eq(n\\,1036))+(eq(n\\,1037)+eq(n\\,1044)))+((eq(n\\,1045)+eq(n\\,1046))+(eq(n\\,1047)+eq(n\\,1048))))))))+(((eq(n\\,1049)+eq(n\\,1071))+(eq(n\\,1093)+eq(n\\,1094)))+((eq(n\\,1095)+eq(n\\,1096))+eq(n\\,1097))))",
+      "-fps_mode",
+      "vfr",
+      "-start_number",
+      "0",
+      "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Shorts/02_decoder/Work/short02_accent_motion_qa_20261102_v01/scratch/qa/%06d.png"
+    ],
+    "ffmpeg_version": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers",
+    "stream": "0:v:0",
+    "index_basis": "zero-based decoded video frame",
+    "fps": "30/1"
+  },
+  "frame_map": [
+    {
+      "index": 0,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000000.png"
+    },
+    {
+      "index": 81,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000001.png"
+    },
+    {
+      "index": 82,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000002.png"
+    },
+    {
+      "index": 83,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000003.png"
+    },
+    {
+      "index": 84,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000004.png"
+    },
+    {
+      "index": 85,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000005.png"
+    },
+    {
+      "index": 86,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000006.png"
+    },
+    {
+      "index": 88,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000007.png"
+    },
+    {
+      "index": 126,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000008.png"
+    },
+    {
+      "index": 166,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000009.png"
+    },
+    {
+      "index": 167,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000010.png"
+    },
+    {
+      "index": 168,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000011.png"
+    },
+    {
+      "index": 169,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000012.png"
+    },
+    {
+      "index": 170,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000013.png"
+    },
+    {
+      "index": 171,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000014.png"
+    },
+    {
+      "index": 176,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000015.png"
+    },
+    {
+      "index": 177,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000016.png"
+    },
+    {
+      "index": 193,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000017.png"
+    },
+    {
+      "index": 194,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000018.png"
+    },
+    {
+      "index": 195,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000019.png"
+    },
+    {
+      "index": 196,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000020.png"
+    },
+    {
+      "index": 197,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000021.png"
+    },
+    {
+      "index": 198,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000022.png"
+    },
+    {
+      "index": 249,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000023.png"
+    },
+    {
+      "index": 253,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000024.png"
+    },
+    {
+      "index": 300,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000025.png"
+    },
+    {
+      "index": 301,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000026.png"
+    },
+    {
+      "index": 302,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000027.png"
+    },
+    {
+      "index": 303,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000028.png"
+    },
+    {
+      "index": 304,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000029.png"
+    },
+    {
+      "index": 305,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000030.png"
+    },
+    {
+      "index": 329,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000031.png"
+    },
+    {
+      "index": 330,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000032.png"
+    },
+    {
+      "index": 379,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000033.png"
+    },
+    {
+      "index": 380,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000034.png"
+    },
+    {
+      "index": 381,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000035.png"
+    },
+    {
+      "index": 382,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000036.png"
+    },
+    {
+      "index": 383,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000037.png"
+    },
+    {
+      "index": 384,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000038.png"
+    },
+    {
+      "index": 398,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000039.png"
+    },
+    {
+      "index": 414,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000040.png"
+    },
+    {
+      "index": 445,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000041.png"
+    },
+    {
+      "index": 446,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000042.png"
+    },
+    {
+      "index": 447,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000043.png"
+    },
+    {
+      "index": 448,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000044.png"
+    },
+    {
+      "index": 449,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000045.png"
+    },
+    {
+      "index": 450,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000046.png"
+    },
+    {
+      "index": 467,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000047.png"
+    },
+    {
+      "index": 468,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000048.png"
+    },
+    {
+      "index": 515,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000049.png"
+    },
+    {
+      "index": 516,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000050.png"
+    },
+    {
+      "index": 517,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000051.png"
+    },
+    {
+      "index": 518,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000052.png"
+    },
+    {
+      "index": 519,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000053.png"
+    },
+    {
+      "index": 520,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000054.png"
+    },
+    {
+      "index": 536,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000055.png"
+    },
+    {
+      "index": 544,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000056.png"
+    },
+    {
+      "index": 569,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000057.png"
+    },
+    {
+      "index": 570,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000058.png"
+    },
+    {
+      "index": 571,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000059.png"
+    },
+    {
+      "index": 572,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000060.png"
+    },
+    {
+      "index": 573,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000061.png"
+    },
+    {
+      "index": 574,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000062.png"
+    },
+    {
+      "index": 605,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000063.png"
+    },
+    {
+      "index": 606,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000064.png"
+    },
+    {
+      "index": 672,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000065.png"
+    },
+    {
+      "index": 673,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000066.png"
+    },
+    {
+      "index": 674,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000067.png"
+    },
+    {
+      "index": 675,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000068.png"
+    },
+    {
+      "index": 676,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000069.png"
+    },
+    {
+      "index": 677,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000070.png"
+    },
+    {
+      "index": 689,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000071.png"
+    },
+    {
+      "index": 719,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000072.png"
+    },
+    {
+      "index": 761,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000073.png"
+    },
+    {
+      "index": 762,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000074.png"
+    },
+    {
+      "index": 763,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000075.png"
+    },
+    {
+      "index": 764,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000076.png"
+    },
+    {
+      "index": 765,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000077.png"
+    },
+    {
+      "index": 766,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000078.png"
+    },
+    {
+      "index": 773,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000079.png"
+    },
+    {
+      "index": 774,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000080.png"
+    },
+    {
+      "index": 819,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000081.png"
+    },
+    {
+      "index": 820,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000082.png"
+    },
+    {
+      "index": 821,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000083.png"
+    },
+    {
+      "index": 822,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000084.png"
+    },
+    {
+      "index": 823,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000085.png"
+    },
+    {
+      "index": 824,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000086.png"
+    },
+    {
+      "index": 842,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000087.png"
+    },
+    {
+      "index": 848,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000088.png"
+    },
+    {
+      "index": 860,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000089.png"
+    },
+    {
+      "index": 861,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000090.png"
+    },
+    {
+      "index": 862,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000091.png"
+    },
+    {
+      "index": 863,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000092.png"
+    },
+    {
+      "index": 864,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000093.png"
+    },
+    {
+      "index": 865,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000094.png"
+    },
+    {
+      "index": 866,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000095.png"
+    },
+    {
+      "index": 867,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000096.png"
+    },
+    {
+      "index": 868,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000097.png"
+    },
+    {
+      "index": 869,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000098.png"
+    },
+    {
+      "index": 870,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000099.png"
+    },
+    {
+      "index": 871,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000100.png"
+    },
+    {
+      "index": 894,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000101.png"
+    },
+    {
+      "index": 917,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000102.png"
+    },
+    {
+      "index": 918,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000103.png"
+    },
+    {
+      "index": 919,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000104.png"
+    },
+    {
+      "index": 920,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000105.png"
+    },
+    {
+      "index": 921,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000106.png"
+    },
+    {
+      "index": 922,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000107.png"
+    },
+    {
+      "index": 923,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000108.png"
+    },
+    {
+      "index": 924,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000109.png"
+    },
+    {
+      "index": 925,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000110.png"
+    },
+    {
+      "index": 926,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000111.png"
+    },
+    {
+      "index": 927,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000112.png"
+    },
+    {
+      "index": 928,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000113.png"
+    },
+    {
+      "index": 929,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000114.png"
+    },
+    {
+      "index": 980,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000115.png"
+    },
+    {
+      "index": 1010,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000116.png"
+    },
+    {
+      "index": 1032,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000117.png"
+    },
+    {
+      "index": 1033,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000118.png"
+    },
+    {
+      "index": 1034,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000119.png"
+    },
+    {
+      "index": 1035,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000120.png"
+    },
+    {
+      "index": 1036,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000121.png"
+    },
+    {
+      "index": 1037,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000122.png"
+    },
+    {
+      "index": 1044,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000123.png"
+    },
+    {
+      "index": 1045,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000124.png"
+    },
+    {
+      "index": 1046,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000125.png"
+    },
+    {
+      "index": 1047,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000126.png"
+    },
+    {
+      "index": 1048,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000127.png"
+    },
+    {
+      "index": 1049,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000128.png"
+    },
+    {
+      "index": 1071,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000129.png"
+    },
+    {
+      "index": 1093,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000130.png"
+    },
+    {
+      "index": 1094,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000131.png"
+    },
+    {
+      "index": 1095,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000132.png"
+    },
+    {
+      "index": 1096,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000133.png"
+    },
+    {
+      "index": 1097,
+      "path": "../../../../Work/short02_accent_motion_qa_20261102_v01/scratch/qa/000134.png"
+    }
+  ],
+  "frames_directory": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Shorts/02_decoder/Work/short02_accent_motion_qa_20261102_v01/scratch/qa",
+  "technical_status": "PASS",
+  "verdict": "UNVERIFIED"
+}

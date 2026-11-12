@@ -1,0 +1,15 @@
+{
+  "file": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Work/storage-rollout-20261102/previews/legacy/Edit/publication_20261030/mix_candidate_no_sfx_20261031.wav",
+  "original_file": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Edit/publication_20261030/mix_candidate_no_sfx_20261031.wav",
+  "sha256": "039b8aa00a1a594ddefa5e05ec068c17dee0d6433863f94694103f5a14b44418",
+  "decision": "rejected",
+  "author": "storage-coordinator-paper-rollout",
+  "basis": "User explicitly authorized removal of unnecessary temporaries and old renders",
+  "reason": "Superseded audio-mix trial; corrected full master and corrected subtraction reference retained; original voice/music/SFX and all scripts/evidence preserved",
+  "evidence": "Edit/publication_20261030/AUDIO_MIX_CANDIDATE.md",
+  "retained_replacement": "Edit/publication_20261030/mix_candidate_no_sfx_corrected_20261031.wav",
+  "replacement_sha256": "b0123ff1eff66034c2ac8ae7ebbef2a415d669d6f0237b9257bb95542be33774",
+  "fresh_final_qa_claimed": false,
+  "revision_reason": "Explicitly bind no-SFX diagnostic trial to retained corrected no-SFX variant; full mix is a separate product",
+  "supersedes": "Edit/MediaLifecycle/rollout-20261102/decision-03.json"
+}

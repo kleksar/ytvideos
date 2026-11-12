@@ -1,0 +1,459 @@
+- banner:
+  - button "Гид":
+  - link "Главная страница YouTube":
+    - /url: /
+  - generic: RS
+  - button "Пропустить":
+    - generic: Пропустить
+  - search:
+    - combobox "Поиск" [expanded]
+    - button
+    - button "Search":
+  - button "Голосовой поиск"
+  - tooltip "tooltip"
+  - button "Создать":
+    - generic: Создать
+  - button "Уведомления"
+  - tooltip "tooltip"
+  - button "Меню аккаунта"
+- main:
+  - complementary:
+    - generic "Проигрыватель YouTube" [active]:
+      - button "Логотип канала":
+        - img "Логотип канала"
+      - slider "Ползунок поиска"
+      - slider "Чтобы перемотать видео точнее, нажмите на панель или прокрутите ее"
+      - button "Пауза (k)":
+      - button "Отключение звука (m)":
+      - slider "Громкость"
+      - button "0 мин. 0 сек. (общая длительность 1 мин. 16 сек.)": 0:00 / 1:16
+      - button "Автовоспроизведение включено"
+      - button "Субтитры недоступны":
+      - button "Настройки":
+      - button "Широкий экран (t)":
+      - button "Во весь экран (f)":
+  - 'heading "They Opened Her Coffin. She Sat Up. #IrishLegends #Shorts" [level=1]':
+    - 'generic "They Opened Her Coffin. She Sat Up. #IrishLegends #Shorts"':
+      - text: They Opened Her Coffin. She Sat Up.
+      - link "#IrishLegends":
+        - /url: /hashtag/irishlegends
+      - link "#Shorts":
+        - /url: /hashtag/shorts
+  - link "Paper Detour":
+    - /url: /@rarovista
+    - img "Paper Detour"
+  - generic "Paper Detour":
+    - link "Paper Detour":
+      - /url: /@rarovista
+  - generic "4 подписчика"
+  - link "Посмотреть аналитику":
+    - /url: /analytics#;fi=v-pdSgHe6ScTI
+    - generic: Посмотреть аналитику
+  - link "Изменить видео":
+    - /url: https://studio.youtube.com/video/pdSgHe6ScTI/edit
+    - generic: Изменить видео
+  - button "Снять отметку \"Нравится\"" [pressed]:
+    - generic: "18"
+  - tooltip "tooltip"
+  - button "Поделиться"
+  - link "Продвижение":
+    - /url: https://studio.youtube.com/channel/UCMVfdfaNxV3ZkI3_J3Eejzw/content/promotions?d=pcd&videoId=pdSgHe6ScTI&promotionEntryPoint=PROMOTION_ENTRY_POINT_VIDEO_WATCH_PAGE
+  - tooltip "tooltip"
+  - button "Добавить в плейлист"
+  - button
+  - tooltip "tooltip"
+  - button "Ещё"
+  - generic: 303 просмотра 1 дн. назад
+  - tooltip "tooltip"
+  - generic: An Irish legend tells of Margorie McCall, buried after a fever with a valuable ring still on her swollen finger. After the funeral, thieves opened her coffin and tried to take it. When a knife touched her finger, Margorie sat up and screamed, sending them fleeing.
+  - generic: …
+  - button "ещё"
+  - text: •
+  - link:
+    - /url: /watch?v=X1L1Hd3xfrU&pp=0gcJCSsMAYcqIYzv
+  - heading "How reading changes the way your brain works - BBC World Service" [level=3]:
+    - link "How reading changes the way your brain works - BBC World Service 5 минут 55 секунд":
+      - /url: /watch?v=X1L1Hd3xfrU&pp=0gcJCSsMAYcqIYzv
+      - text: How reading changes the way your brain works - BBC World Service
+  - generic: BBC World Service
+  - generic "Подтверждено"
+  - generic "6,4 миллиона просмотров": 6,4 млн
+  - generic "10 месяцев назад": 10 мес. назад
+  - button "Ещё"
+  - link:
+    - /url: /watch?v=F2iTCSD2AWs&pp=ugUEEgJydQ%3D%3D
+  - heading "Каково это — умереть от энцефалита?" [level=3]:
+    - link "Каково это — умереть от энцефалита? 14 минут 18 секунд":
+      - /url: /watch?v=F2iTCSD2AWs&pp=ugUEEgJydQ%3D%3D
+      - text: Каково это — умереть от энцефалита?
+  - generic: Косой
+  - generic "418 тысяч просмотров": 418 тыс.
+  - generic "6 дней назад": 6 дн. назад
+  - generic: Автодубляж
+  - button "Ещё"
+  - link:
+    - /url: /watch?v=frGQgTOZvt4
+  - heading "Doomer's path to Happiness" [level=3]:
+    - link "Doomer's path to Happiness 2 минуты 50 секунд":
+      - /url: /watch?v=frGQgTOZvt4
+      - text: Doomer's path to Happiness
+  - generic: Low Budget Stories
+  - generic "Подтверждено"
+  - generic "4,5 миллиона просмотров": 4,5 млн
+  - generic "2 года назад": 2 г. назад
+  - button "Ещё"
+  - link:
+    - /url: /watch?v=A6nGdWlcdaE&pp=ugUEEgJlbg%3D%3D
+  - heading "The Fastest Way to 1,000 Subs in 2026" [level=3]:
+    - link "The Fastest Way to 1,000 Subs in 2026 9 минут 21 секунда":
+      - /url: /watch?v=A6nGdWlcdaE&pp=ugUEEgJlbg%3D%3D
+      - text: The Fastest Way to 1,000 Subs in 2026
+  - generic: vidIQ
+  - generic "Подтверждено"
+  - generic "168 тысяч просмотров": 168 тыс.
+  - generic "5 месяцев назад": 5 мес. назад
+  - button "Ещё"
+  - link:
+    - /url: /watch?v=OtbLL6OBNE4
+  - heading "How to Make Viral Animated Shorts Using Claude (Full Workflow)" [level=3]:
+    - link "How to Make Viral Animated Shorts Using Claude (Full Workflow) 11 минут 53 секунды":
+      - /url: /watch?v=OtbLL6OBNE4
+      - text: How to Make Viral Animated Shorts Using Claude (Full Workflow)
+  - generic: Mr omi
+  - generic "76 тысяч просмотров": 76 тыс.
+  - generic "18 часов назад": 18 ч назад
+  - button "Ещё"
+
+EXPANDED
+- banner:
+  - button "Гид":
+  - link "Главная страница YouTube":
+    - /url: /
+  - generic: RS
+  - button "Пропустить":
+    - generic: Пропустить
+  - search:
+    - combobox "Поиск" [expanded]
+    - button
+    - button "Search":
+  - button "Голосовой поиск":
+  - tooltip "tooltip"
+  - button "Создать":
+    - generic: Создать
+  - button "Уведомления":
+  - tooltip "tooltip"
+  - button "Меню аккаунта":
+    - img "Фото профиля"
+- main:
+  - complementary:
+    - generic "Проигрыватель YouTube":
+      - button "Логотип канала":
+        - img "Логотип канала"
+      - slider "Ползунок поиска"
+      - slider "Чтобы перемотать видео точнее, нажмите на панель или прокрутите ее"
+      - button "Пауза (k)":
+      - button "Отключение звука (m)":
+      - slider "Громкость"
+      - button "0 мин. 1 сек. (общая длительность 1 мин. 16 сек.)": 0:01 / 1:16
+      - button "Автовоспроизведение включено"
+      - button "Субтитры недоступны":
+      - button "Настройки":
+      - button "Широкий экран (t)":
+      - button "Во весь экран (f)":
+  - 'heading "They Opened Her Coffin. She Sat Up. #IrishLegends #Shorts" [level=1]':
+    - 'generic "They Opened Her Coffin. She Sat Up. #IrishLegends #Shorts"':
+      - text: They Opened Her Coffin. She Sat Up.
+      - link "#IrishLegends":
+        - /url: /hashtag/irishlegends
+      - link "#Shorts":
+        - /url: /hashtag/shorts
+  - link "Paper Detour":
+    - /url: /@rarovista
+    - img "Paper Detour"
+  - generic "Paper Detour":
+    - link "Paper Detour":
+      - /url: /@rarovista
+  - generic "4 подписчика"
+  - link "Посмотреть аналитику":
+    - /url: /analytics#;fi=v-pdSgHe6ScTI
+    - generic: Посмотреть аналитику
+  - link "Изменить видео":
+    - /url: https://studio.youtube.com/video/pdSgHe6ScTI/edit
+    - generic: Изменить видео
+  - button "Снять отметку \"Нравится\"" [pressed]:
+    - generic: "18"
+  - tooltip "tooltip"
+  - button "Поделиться":
+  - link "Продвижение":
+    - /url: https://studio.youtube.com/channel/UCMVfdfaNxV3ZkI3_J3Eejzw/content/promotions?d=pcd&videoId=pdSgHe6ScTI&promotionEntryPoint=PROMOTION_ENTRY_POINT_VIDEO_WATCH_PAGE
+  - tooltip "tooltip"
+  - button "Добавить в плейлист":
+  - button:
+  - tooltip "tooltip"
+  - button "Ещё":
+  - generic: 303 просмотра 31 окт. 2026 г.
+  - text: An Irish legend tells of Margorie McCall, buried after a fever with a valuable ring still on her swollen finger. After the funeral, thieves opened her coffin and tried to take it. When a knife touched her finger, Margorie sat up and screamed, sending them fleeing. Still in her burial clothes, she walked home with a bleeding hand. Her husband recognized her knock and opened the door. When he saw her, he clutched his chest and died. Margorie later remarried and lived for years. The tale closes with the words, “Lived once, buried twice.”
+  - link "#IrishLegends":
+    - /url: /hashtag/irishlegends
+  - link "#StrangeStories":
+    - /url: /hashtag/strangestories
+  - link "#Shorts":
+    - /url: /hashtag/shorts
+  - link "#History":
+    - /url: /hashtag/history
+  - link "#Folklore":
+    - /url: /hashtag/folklore
+  - link "#IrishFolklore":
+    - /url: /hashtag/irishfolklore
+  - link "#IrishHistory":
+    - /url: /hashtag/irishhistory
+  - link "#MargorieMcCall":
+    - /url: /hashtag/margoriemccall
+  - link "#BuriedAlive":
+    - /url: /hashtag/buriedalive
+  - link "#GraveRobbers":
+    - /url: /hashtag/graverobbers
+  - link "#UrbanLegends":
+    - /url: /hashtag/urbanlegends
+  - link "#HistoricalLegends":
+    - /url: /hashtag/historicallegends
+  - link "#MysteriousStories":
+    - /url: /hashtag/mysteriousstories
+  - generic: Расшифровка видео
+  - paragraph: Расшифровка позволяет быстро находить в видео нужную информацию.
+  - button "Показать текст видео":
+    - generic: Показать текст видео
+  - link "Paper Detour 4 подписчика":
+    - /url: /@rarovista
+    - heading "Paper Detour" [level=3]
+    - generic: 4 подписчика
+  - link "Видео":
+    - /url: /channel/UCMVfdfaNxV3ZkI3_J3Eejzw/videos
+    - generic: Видео
+  - link "О канале":
+    - /url: /channel/UCMVfdfaNxV3ZkI3_J3Eejzw/about
+    - generic: О канале
+  - button "Свернуть"
+  - text: •
+  - heading "0 комментариев" [level=2]:
+    - generic: 0 комментариев
+  - tooltip "tooltip"
+  - button "Упорядочить комментарии":
+    - generic: Упорядочить
+  - img "Paper Detour"
+  - textbox
+  - link:
+    - /url: /watch?v=X1L1Hd3xfrU&pp=0gcJCSsMAYcqIYzv
+  - heading "How reading changes the way your brain works - BBC World Service" [level=3]:
+    - link "How reading changes the way your brain works - BBC World Service 5 минут 55 секунд":
+      - /url: /watch?v=X1L1Hd3xfrU&pp=0gcJCSsMAYcqIYzv
+      - text: How reading changes the way your brain works - BBC World Service
+  - generic: BBC World Service
+  - generic "Подтверждено":
+  - generic "6,4 миллиона просмотров": 6,4 млн
+  - generic "10 месяцев назад": 10 мес. назад
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=F2iTCSD2AWs&pp=ugUEEgJydQ%3D%3D
+  - heading "Каково это — умереть от энцефалита?" [level=3]:
+    - link "Каково это — умереть от энцефалита? 14 минут 18 секунд":
+      - /url: /watch?v=F2iTCSD2AWs&pp=ugUEEgJydQ%3D%3D
+      - text: Каково это — умереть от энцефалита?
+  - generic: Косой
+  - generic "418 тысяч просмотров": 418 тыс.
+  - generic "6 дней назад": 6 дн. назад
+  - generic: Автодубляж
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=frGQgTOZvt4
+  - heading "Doomer's path to Happiness" [level=3]:
+    - link "Doomer's path to Happiness 2 минуты 50 секунд":
+      - /url: /watch?v=frGQgTOZvt4
+      - text: Doomer's path to Happiness
+  - generic: Low Budget Stories
+  - generic "Подтверждено":
+  - generic "4,5 миллиона просмотров": 4,5 млн
+  - generic "2 года назад": 2 г. назад
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=A6nGdWlcdaE&pp=ugUEEgJlbg%3D%3D
+  - heading "The Fastest Way to 1,000 Subs in 2026" [level=3]:
+    - link "The Fastest Way to 1,000 Subs in 2026 9 минут 21 секунда":
+      - /url: /watch?v=A6nGdWlcdaE&pp=ugUEEgJlbg%3D%3D
+      - text: The Fastest Way to 1,000 Subs in 2026
+  - generic: vidIQ
+  - generic "Подтверждено":
+  - generic "168 тысяч просмотров": 168 тыс.
+  - generic "5 месяцев назад": 5 мес. назад
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=OtbLL6OBNE4
+  - heading "How to Make Viral Animated Shorts Using Claude (Full Workflow)" [level=3]:
+    - link "How to Make Viral Animated Shorts Using Claude (Full Workflow) 11 минут 53 секунды":
+      - /url: /watch?v=OtbLL6OBNE4
+      - text: How to Make Viral Animated Shorts Using Claude (Full Workflow)
+  - generic: Mr omi
+  - generic "76 тысяч просмотров": 76 тыс.
+  - generic "18 часов назад": 18 ч назад
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=mnuOZcmoGD8&pp=ugUEEgJydQ%3D%3D
+  - 'heading "Как Только Ты Разберёшься В ДЕНЬГАХ, Ты Перестанешь Их Копить [ЧАСТЬ #1]" [level=3]':
+    - 'link "Как Только Ты Разберёшься В ДЕНЬГАХ, Ты Перестанешь Их Копить [ЧАСТЬ #1] 21 минута"':
+      - /url: /watch?v=mnuOZcmoGD8&pp=ugUEEgJydQ%3D%3D
+      - text: "Как Только Ты Разберёшься В ДЕНЬГАХ, Ты Перестанешь Их Копить [ЧАСТЬ #1]"
+  - generic: LITTLE BIT BETTER
+  - generic "Подтверждено":
+  - generic "3,2 миллиона просмотров": 3,2 млн
+  - generic "5 месяцев назад": 5 мес. назад
+  - generic: Дубляж
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=4ZKYmN75Ky4
+  - heading "King Tutankhamun's Tomb Reveals a 3,000-Year-Old Secret" [level=3]:
+    - link "King Tutankhamun's Tomb Reveals a 3,000-Year-Old Secret 9 минут 20 секунд":
+      - /url: /watch?v=4ZKYmN75Ky4
+      - text: King Tutankhamun's Tomb Reveals a 3,000-Year-Old Secret
+  - generic: First Humans
+  - generic "295 просмотров": "295"
+  - generic "2 часа назад": 2 ч назад
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=wSyqqTYqUKo&pp=ugUHEgVlbi1VUw%3D%3D
+  - heading "Extreme Vigilante Justice in History" [level=3]:
+    - link "Extreme Vigilante Justice in History 29 минут":
+      - /url: /watch?v=wSyqqTYqUKo&pp=ugUHEgVlbi1VUw%3D%3D
+      - text: Extreme Vigilante Justice in History
+  - generic: Serious History
+  - generic "Подтверждено":
+  - generic "7,5 миллиона просмотров": 7,5 млн
+  - generic "8 месяцев назад": 8 мес. назад
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=GgC86hZitrI&pp=ugUEEgJydQ%3D%3D
+  - heading "Если видео НЕ НАБИРАЕТ просмотры через 24 часа - сделай это..." [level=3]:
+    - link "Если видео НЕ НАБИРАЕТ просмотры через 24 часа - сделай это... 10 минут 17 секунд":
+      - /url: /watch?v=GgC86hZitrI&pp=ugUEEgJydQ%3D%3D
+      - text: Если видео НЕ НАБИРАЕТ просмотры через 24 часа - сделай это...
+  - generic: Александр Арнаут
+  - generic "171 тысяча просмотров": 171 тыс.
+  - generic "3 месяца назад": 3 мес. назад
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=5N1moUCsVhI&pp=ugUEEgJlbtIHCQkrDAGHKiGM7w%3D%3D
+  - heading "Claude Edited My Entire CapCut Video (I Didn’t Touch the Timeline)" [level=3]:
+    - link "Claude Edited My Entire CapCut Video (I Didn’t Touch the Timeline) 10 минут 1 секунда":
+      - /url: /watch?v=5N1moUCsVhI&pp=ugUEEgJlbtIHCQkrDAGHKiGM7w%3D%3D
+      - text: Claude Edited My Entire CapCut Video (I Didn’t Touch the Timeline)
+  - generic: Matt Loui
+  - generic "Подтверждено":
+  - generic "892 тысячи просмотров": 892 тыс.
+  - generic "3 недели назад": 3 нед. назад
+  - generic: Автодубляж
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=NFm2Xjx61Q8
+  - heading "\"Got any hobbies?\"" [level=3]:
+    - link "\"Got any hobbies?\" 8 минут 28 секунд":
+      - /url: /watch?v=NFm2Xjx61Q8
+      - text: "\"Got any hobbies?\""
+  - generic: Luda
+  - generic "Подтверждено":
+  - generic "4,6 миллиона просмотров": 4,6 млн
+  - generic "4 месяца назад": 4 мес. назад
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=iKrBDfLnIUo&pp=ugUEEgJlbg%3D%3D
+  - heading "How Did Ancient Humans Get Any Privacy?" [level=3]:
+    - link "How Did Ancient Humans Get Any Privacy? 7 минут 12 секунд":
+      - /url: /watch?v=iKrBDfLnIUo&pp=ugUEEgJlbg%3D%3D
+      - text: How Did Ancient Humans Get Any Privacy?
+  - generic: Human Origins
+  - generic "135 тысяч просмотров": 135 тыс.
+  - generic "7 дней назад": 7 дн. назад
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=VuJwuGgNgNM&pp=ugUEEgJlbg%3D%3D
+  - heading "Social Media is Warping Your Mind" [level=3]:
+    - link "Social Media is Warping Your Mind 8 минут 22 секунды":
+      - /url: /watch?v=VuJwuGgNgNM&pp=ugUEEgJlbg%3D%3D
+      - text: Social Media is Warping Your Mind
+  - generic: Robert Greene
+  - generic "Подтверждено":
+  - generic "330 тысяч просмотров": 330 тыс.
+  - generic "12 дней назад": 12 дн. назад
+  - generic: Автодубляж
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=Q56PMJbCFXQ&pp=ugUEEgJlbg%3D%3D
+  - heading "This Skyscraper Was Days From Collapsing And No One Knew" [level=3]:
+    - link "This Skyscraper Was Days From Collapsing And No One Knew 33 минуты":
+      - /url: /watch?v=Q56PMJbCFXQ&pp=ugUEEgJlbg%3D%3D
+      - text: This Skyscraper Was Days From Collapsing And No One Knew
+  - generic: Veritasium
+  - generic "Подтверждено":
+  - generic "26 миллионов просмотров": 26 млн
+  - generic "1 год назад": 1 г. назад
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=qc1fLT6VllY&pp=ugUHEgVlbi1VUw%3D%3D
+  - heading "YouTube Is Testing Your Channel Right Now" [level=3]:
+    - link "YouTube Is Testing Your Channel Right Now 6 минут 29 секунд":
+      - /url: /watch?v=qc1fLT6VllY&pp=ugUHEgVlbi1VUw%3D%3D
+      - text: YouTube Is Testing Your Channel Right Now
+  - generic: BigStepsMedia
+  - generic "120 тысяч просмотров": 120 тыс.
+  - generic "3 недели назад": 3 нед. назад
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=U0-ttGGB7b4&pp=ugUEEgJlbg%3D%3D
+  - heading "When You Just Ain’t Got it All Together" [level=3]:
+    - link "When You Just Ain’t Got it All Together 16 минут":
+      - /url: /watch?v=U0-ttGGB7b4&pp=ugUEEgJlbg%3D%3D
+      - text: When You Just Ain’t Got it All Together
+  - generic: Dry Creek Wrangler School
+  - generic "Подтверждено":
+  - generic "8,9 миллиона просмотров": 8,9 млн
+  - generic "3 года назад": 3 г. назад
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=OCr6NteWSQ8&pp=ugUHEgVlbi1VUw%3D%3D
+  - heading "Why Are We the Only Human Species Left? What happened to others..." [level=3]:
+    - link "Why Are We the Only Human Species Left? What happened to others... 8 минут 6 секунд":
+      - /url: /watch?v=OCr6NteWSQ8&pp=ugUHEgVlbi1VUw%3D%3D
+      - text: Why Are We the Only Human Species Left? What happened to others...
+  - generic: Ink Explainer
+  - generic "1,6 миллиона просмотров": 1,6 млн
+  - generic "4 месяца назад": 4 мес. назад
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=nbxi7_I09fI&pp=ugUEEgJlbg%3D%3D
+  - heading "Memorize Anything So Fast It's Almost Unfair" [level=3]:
+    - link "Memorize Anything So Fast It's Almost Unfair 3 минуты 54 секунды":
+      - /url: /watch?v=nbxi7_I09fI&pp=ugUEEgJlbg%3D%3D
+      - text: Memorize Anything So Fast It's Almost Unfair
+  - generic: BetterU
+  - generic "2,3 миллиона просмотров": 2,3 млн
+  - generic "6 месяцев назад": 6 мес. назад
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=uPRpju9Rsjs&pp=ugUEEgJlbtIHCQkrDAGHKiGM7w%3D%3D
+  - heading "How to Make Stickman Animation with AI for FREE" [level=3]:
+    - link "How to Make Stickman Animation with AI for FREE 4 минуты 20 секунд":
+      - /url: /watch?v=uPRpju9Rsjs&pp=ugUEEgJlbtIHCQkrDAGHKiGM7w%3D%3D
+      - text: How to Make Stickman Animation with AI for FREE
+  - generic: Planet Ai
+  - generic "202 тысячи просмотров": 202 тыс.
+  - generic "2 недели назад": 2 нед. назад
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=u3aaw93RR6A
+  - heading "The Most Dangerous Writer Who Ever Lived" [level=3]:
+    - link "The Most Dangerous Writer Who Ever Lived 10 минут 28 секунд":
+      - /url: /watch?v=u3aaw93RR6A
+      - text: The Most Dangerous Writer Who Ever Lived
+  - generic: The Bubblie
+  - generic "Подтверждено":
+  - generic "1,7 миллиона просмотров": 1,7 млн
+  - generic "1 год назад": 1 г. назад
+  - button "Ещё":

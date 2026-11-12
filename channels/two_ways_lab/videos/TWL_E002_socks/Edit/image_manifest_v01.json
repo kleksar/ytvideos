@@ -1,0 +1,77 @@
+{
+  "method": "complete scene edit from empty anchor; separately generated caption graphics",
+  "assets": [
+    {
+      "file": "Source/Images/v01/empty.png",
+      "reference": "E001 v21 hook used as visual-style reference, not a spatial anchor",
+      "sha256": "d391c51bc0e9b97f86cc6e0688494c0fabb625b09703099677c3da54df5602a4",
+      "review": "author inspected generated full frame; counts/room checked",
+      "status": "working candidate"
+    },
+    {
+      "file": "Source/Images/v01/initial.png",
+      "reference": "empty.png",
+      "sha256": "4c450dcaf5ac63e774aa1f70e869942308fcf535b6c2d7eec12cddfda2b3488d",
+      "review": "author inspected generated full frame; counts/room checked",
+      "status": "working candidate"
+    },
+    {
+      "file": "Source/Images/v01/first_pair.png",
+      "reference": "initial.png",
+      "sha256": "81e8c1b309102bf5d7e329ff6a2cfb73bc026b72b5faf6e2aa3662dc6c87adac",
+      "review": "author inspected generated full frame; counts/room checked",
+      "status": "working candidate"
+    },
+    {
+      "file": "Source/Images/v01/two_pairs.png",
+      "reference": "first_pair.png",
+      "sha256": "a3e32a379146a9243b9396c2adb40a9260af5e1f1d57bc477612966ad59becb5",
+      "review": "author inspected generated full frame; counts/room checked",
+      "status": "working candidate"
+    },
+    {
+      "file": "Source/Images/v01/sorted.png",
+      "reference": "initial.png",
+      "sha256": "271a64a3a45cb1d6fd1635909ba0cfa914b9b042b39c2aa379b0b7eadb2508d5",
+      "review": "author inspected generated full frame; counts/room checked",
+      "status": "working candidate"
+    },
+    {
+      "file": "Source/Lettering/v01/ten_original.png",
+      "sha256": "8ce3e9bc503790644bd16e2ec695c2235f6d32209f121309c0a48ce81b83a8e8",
+      "reference": "imagegen original"
+    },
+    {
+      "file": "Source/Lettering/v01/ten.png",
+      "sha256": "cd93a5d82e6223843661062d20b48ff7322cc1c851eef7019d51af9137141755",
+      "reference": "scaled matching original; no script-drawn text"
+    },
+    {
+      "file": "Source/Lettering/v01/eight_original.png",
+      "sha256": "b70edef51ebb82b61be613f3eb2da43c1425e512793f6f3a97b646a130992be6",
+      "reference": "imagegen original"
+    },
+    {
+      "file": "Source/Lettering/v01/eight.png",
+      "sha256": "94c3f54b7e732bd1d5bdefa38e19701000adc4d3138f522e31e39f9bc09b3180",
+      "reference": "scaled matching original; no script-drawn text"
+    },
+    {
+      "file": "Source/Images/v01/compare.png",
+      "reference": "initial.png",
+      "sha256": "130ab796a4014e76a81ab6e04516c1d2e5fa7c5538493d474d0b285c81c1c106",
+      "review": "author inspected: eight socks, same room; no hands",
+      "status": "selected"
+    },
+    {
+      "file": "Source/Lettering/v01/hook_original.png",
+      "sha256": "5d66c11ac1da16d9c3f121bb47d30e4e64497463d8ee4983bc356bacc0543be8",
+      "reference": "imagegen original"
+    },
+    {
+      "file": "Source/Lettering/v01/hook.png",
+      "sha256": "c0a1a688b5e7ae1b51d133cca115d18bbf43cceb583cfd4ced3786caa8011451",
+      "reference": "scaled generated image"
+    }
+  ]
+}

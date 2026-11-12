@@ -1,0 +1,24 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Chalkboard SE,72,&H00E0F5FF,&H00E0F5FF,&H00181716,&H80000000,-1,0,0,0,100,100,0,0,1,4,1,2,175,175,416,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.32,Default,,0,0,0,,offered {\c&H0046D9FF&}two{\c&H00E0F5FF&} ways
+Dialogue: 0,0:00:00.32,0:00:00.64,Default,,0,0,0,,offered two {\c&H0046D9FF&}ways{\c&H00E0F5FF&}
+Dialogue: 0,0:00:00.64,0:00:00.86,Default,,0,0,0,,{\c&H0046D9FF&}to{\c&H00E0F5FF&} receive
+Dialogue: 0,0:00:00.86,0:00:01.18,Default,,0,0,0,,to {\c&H0046D9FF&}receive{\c&H00E0F5FF&}
+Dialogue: 0,0:00:01.18,0:00:01.32,Default,,0,0,0,,{\c&H0046D9FF&}the{\c&H00E0F5FF&} message:
+Dialogue: 0,0:00:01.32,0:00:01.66,Default,,0,0,0,,the {\c&H0046D9FF&}message:{\c&H00E0F5FF&}
+Dialogue: 0,0:00:02.20,0:00:02.44,Default,,0,0,0,,{\c&H0046D9FF&}listen{\c&H00E0F5FF&} in Portuguese,
+Dialogue: 0,0:00:02.44,0:00:02.66,Default,,0,0,0,,listen {\c&H0046D9FF&}in{\c&H00E0F5FF&} Portuguese,
+Dialogue: 0,0:00:02.66,0:00:03.00,Default,,0,0,0,,listen in {\c&H0046D9FF&}Portuguese,{\c&H00E0F5FF&}
+Dialogue: 0,0:00:03.00,0:00:03.72,Default,,0,0,0,,{\c&H0046D9FF&}or{\c&H00E0F5FF&} read
+Dialogue: 0,0:00:03.72,0:00:04.12,Default,,0,0,0,,or {\c&H0046D9FF&}read{\c&H00E0F5FF&}
+Dialogue: 0,0:00:04.12,0:00:04.38,Default,,0,0,0,,{\c&H0046D9FF&}in{\c&H00E0F5FF&} Japanese.
+Dialogue: 0,0:00:04.38,0:00:04.78,Default,,0,0,0,,in {\c&H0046D9FF&}Japanese.{\c&H00E0F5FF&}

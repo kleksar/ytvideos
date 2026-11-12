@@ -1,0 +1,62 @@
+{
+  "file": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Edit/v09/PAPER_DETOUR_030_GRAIN_25_BASELINE_EN_v09.mp4",
+  "sha256": "5a8f964fb8fc0bd29d98b4deca3792b61391507ee3e2262f852a63c11ca87868",
+  "bytes": 255856197,
+  "ffprobe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "profile": "High",
+        "codec_type": "video",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "duration": "190.000000",
+        "bit_rate": "10503162"
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "profile": "LC",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2,
+        "r_frame_rate": "0/0",
+        "duration": "190.000000",
+        "bit_rate": "260787"
+      }
+    ],
+    "format": {
+      "duration": "190.000000",
+      "size": "255856197",
+      "bit_rate": "10772892"
+    }
+  },
+  "full_decode": "PASS (-xerror)",
+  "video_stream_sha256": "afe2462dc82fb84472f643d042cfca4bb798b6a330937156de4bd56cb22fc05a",
+  "native_video_stream_sha256": "afe2462dc82fb84472f643d042cfca4bb798b6a330937156de4bd56cb22fc05a",
+  "video_payload_matches_native": true,
+  "audio_stream_sha256": "3ba2d8175d566eff1addd0b5278b82fd36616a5e41da0e68cba1531939321e6e",
+  "accepted_mix_stream_sha256": "3ba2d8175d566eff1addd0b5278b82fd36616a5e41da0e68cba1531939321e6e",
+  "audio_payload_matches_accepted_mix": true,
+  "timeline": "B10FBA68",
+  "project": "B1BA2D18",
+  "grain_opacity": 0.25,
+  "grain_clip_range": [
+    0,
+    5700
+  ],
+  "sample_frames": [
+    367,
+    1380,
+    2983,
+    4990
+  ],
+  "visual_review": "PASS for sampled v08/v09 frame pairs; at 25% the full-frame grain is visibly lower than v08 50%, and sampled text remains legible.",
+  "full_1x_with_sound": "NOT_PERFORMED",
+  "independent_review": "NOT_PERFORMED",
+  "audio_method": "Remuxed the preserved accepted AAC mix from Source/Audio/v06/accepted_v05_mix.m4a without re-encoding; native Palmier audio was not used."
+}

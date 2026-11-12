@@ -1,0 +1,5 @@
+# MP4 на просмотр и варианты упаковки
+
+- Пользователь выбрал штатный размер 84 px и разрешил разделить число и единицу между соседними группами. Итоговый монтажный план `plan_review_v01.json`, полный экспорт `../../Deliverables/037_EN_review_20261104.mp4` успешно выполнен и сразу передан пользователю. Решение о просмотре/приёмке полного MP4 пока отсутствует. Послерендерные проверки не выполнялись.
+- User confirmed audible subtitle synchronization on the opening sample and a separate brief combined middle/end sample. These observations are partial, not a full-track audible or independent review. Text placement on every motion path remains unverified. The track is mono speech without music or effects; source imagery is upscaled from 1672×940/941.
+- На прямое поручение пользователя подготовлены три существующие обложки и три названия: `../../Packaging/Experiments/AB_20261104/CONCEPTS.md`. Первая ранее принята, остальные предложения; test/upload не выполнялись. Описание, главы и согласование пакета остаются открыты.

@@ -1,0 +1,176 @@
+{
+  "output": "/Users/diplomat/ytvideos/channels/paper_detour/videos/003_iq_gallery/Edit/automated_workflow/preview_text_occlusion_v2.mp4",
+  "audio": "/Users/diplomat/ytvideos/channels/paper_detour/videos/003_iq_gallery/Source/Audio/iq_gallery_music_mix_20261101.m4a",
+  "grain": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Shorts/02_decoder/Source/Graphics/director_trial_20261031/film_grain_vertical_8s_prores4444.mov",
+  "expected_frames": 1800,
+  "transition_frames": 15,
+  "scenes": [
+    {
+      "frames": 60,
+      "background": "/Users/diplomat/ytvideos/channels/paper_detour/videos/003_iq_gallery/Source/Images/automated_layers_20261101/kanye_west_background.png",
+      "midground": "/Users/diplomat/ytvideos/channels/paper_detour/videos/003_iq_gallery/Source/Images/automated_layers_20261101/kanye_west_midground.png",
+      "foreground": "/Users/diplomat/ytvideos/channels/paper_detour/videos/003_iq_gallery/Source/Images/automated_layers_20261101/kanye_west_foreground_v2.png",
+      "overscan_x": 40,
+      "overscan_y": 36,
+      "velocity_x": {
+        "background": 6,
+        "midground": -7,
+        "foreground": 10
+      },
+      "layer_scale": {
+        "midground": 0.74,
+        "foreground": 0.78
+      },
+      "layer_anchor": {
+        "midground": "right_bottom",
+        "foreground": "left_bottom"
+      },
+      "layer_offset": {
+        "midground": {
+          "x": -55,
+          "y": -36
+        },
+        "foreground": {
+          "x": 0,
+          "y": 170
+        }
+      },
+      "entry": {
+        "start": 0.45,
+        "duration": 0.8,
+        "rise": 650
+      },
+      "display_name": "KANYE WEST",
+      "iq_value": 133,
+      "glyphs": [
+        {
+          "kind": "name",
+          "char": "KANYE WEST",
+          "file": "/Users/diplomat/ytvideos/channels/paper_detour/videos/003_iq_gallery/Edit/automated_workflow/prepared_labels/kanye_west_name.png",
+          "x": 42.0,
+          "y": 720.0,
+          "w": 480.0,
+          "h": 311.78
+        },
+        {
+          "kind": "iq",
+          "char": "IQ",
+          "file": "/Users/diplomat/ytvideos/channels/paper_detour/videos/003_iq_gallery/Edit/automated_workflow/prepared_labels/iq.png",
+          "x": 42.0,
+          "y": 1050.0,
+          "w": 166.91,
+          "h": 108.0
+        },
+        {
+          "kind": "digit",
+          "char": "1",
+          "file": "/Users/diplomat/ytvideos/channels/paper_detour/videos/003_iq_gallery/Edit/automated_workflow/prepared_labels/digit_1.png",
+          "x": 232.91,
+          "y": 1054.0,
+          "w": 60.53,
+          "h": 100.0
+        },
+        {
+          "kind": "digit",
+          "char": "3",
+          "file": "/Users/diplomat/ytvideos/channels/paper_detour/videos/003_iq_gallery/Edit/automated_workflow/prepared_labels/digit_3.png",
+          "x": 305.44,
+          "y": 1054.0,
+          "w": 76.72,
+          "h": 100.0
+        },
+        {
+          "kind": "digit",
+          "char": "3",
+          "file": "/Users/diplomat/ytvideos/channels/paper_detour/videos/003_iq_gallery/Edit/automated_workflow/prepared_labels/digit_3.png",
+          "x": 394.16,
+          "y": 1054.0,
+          "w": 76.72,
+          "h": 100.0
+        }
+      ]
+    },
+    {
+      "frames": 60,
+      "background": "/Users/diplomat/ytvideos/channels/paper_detour/videos/003_iq_gallery/Source/Images/automated_layers_20261101/frank_lampard_background.png",
+      "midground": "/Users/diplomat/ytvideos/channels/paper_detour/videos/003_iq_gallery/Source/Images/automated_layers_20261101/frank_lampard_midground.png",
+      "foreground": "/Users/diplomat/ytvideos/channels/paper_detour/videos/003_iq_gallery/Source/Images/automated_layers_20261101/frank_lampard_foreground_v2.png",
+      "overscan_x": 40,
+      "overscan_y": 36,
+      "velocity_x": {
+        "background": 6,
+        "midground": -7,
+        "foreground": 10
+      },
+      "layer_scale": {
+        "midground": 0.68,
+        "foreground": 0.8
+      },
+      "layer_anchor": {
+        "midground": "right_bottom",
+        "foreground": "left_bottom"
+      },
+      "layer_offset": {
+        "midground": {
+          "x": -55,
+          "y": -36
+        },
+        "foreground": {}
+      },
+      "entry": {
+        "start": 0.45,
+        "duration": 0.8,
+        "rise": 650
+      },
+      "display_name": "FRANK LAMPARD",
+      "iq_value": 150,
+      "glyphs": [
+        {
+          "kind": "name",
+          "char": "FRANK LAMPARD",
+          "file": "/Users/diplomat/ytvideos/channels/paper_detour/videos/003_iq_gallery/Edit/automated_workflow/prepared_labels/frank_lampard_name.png",
+          "x": 42.0,
+          "y": 720.0,
+          "w": 440.0,
+          "h": 260.0
+        },
+        {
+          "kind": "iq",
+          "char": "IQ",
+          "file": "/Users/diplomat/ytvideos/channels/paper_detour/videos/003_iq_gallery/Edit/automated_workflow/prepared_labels/iq.png",
+          "x": 42.0,
+          "y": 1050.0,
+          "w": 166.91,
+          "h": 108.0
+        },
+        {
+          "kind": "digit",
+          "char": "1",
+          "file": "/Users/diplomat/ytvideos/channels/paper_detour/videos/003_iq_gallery/Edit/automated_workflow/prepared_labels/digit_1.png",
+          "x": 232.91,
+          "y": 1054.0,
+          "w": 60.53,
+          "h": 100.0
+        },
+        {
+          "kind": "digit",
+          "char": "5",
+          "file": "/Users/diplomat/ytvideos/channels/paper_detour/videos/003_iq_gallery/Edit/automated_workflow/prepared_labels/digit_5.png",
+          "x": 305.44,
+          "y": 1054.0,
+          "w": 73.11,
+          "h": 100.0
+        },
+        {
+          "kind": "digit",
+          "char": "0",
+          "file": "/Users/diplomat/ytvideos/channels/paper_detour/videos/003_iq_gallery/Edit/automated_workflow/prepared_labels/digit_0.png",
+          "x": 390.55,
+          "y": 1054.0,
+          "w": 77.99,
+          "h": 100.0
+        }
+      ]
+    }
+  ]
+}

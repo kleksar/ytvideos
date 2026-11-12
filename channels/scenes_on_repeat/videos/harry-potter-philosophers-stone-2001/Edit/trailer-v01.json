@@ -1,0 +1,30 @@
+{
+  "slug": "trailer-v01",
+  "purpose": "A boy forbidden to believe in magic discovers Hogwarts, then learns that this new world can also be dangerous.",
+  "music": {"file": "Constance.mp3", "start": 12, "gain": 0.16, "credit": "Constance by Kevin MacLeod (incompetech.com), CC BY 4.0. Excerpted and mixed."},
+  "shots": [
+    {"in":509.40,"out":512.75,"x":360,"y":62,"sound":"denial","beat":"Vernon denies magic at Harry’s cupboard."},
+    {"in":988.45,"out":990.33,"x":420,"y":68,"sound":"reveal","beat":"Hagrid tells Harry he is a wizard."},
+    {"in":990.33,"out":992.42,"x":280,"y":48,"sound":"reveal","beat":"Give Harry’s silent reaction room."},
+    {"in":1356.12,"out":1359.35,"x":435,"y":58,"sound":"alley","beat":"Hagrid opens the door to a larger world."},
+    {"in":1359.35,"out":1363.60,"x":650,"y":70,"sound":"alley","beat":"Harry steps into Diagon Alley."},
+    {"in":2146.60,"out":2150.05,"x":430,"y":80,"beat":"The train and Harry share the frame in the steam."},
+    {"in":2150.42,"out":2152.24,"x":430,"y":72,"beat":"Harry smiles at the sight."},
+    {"in":2441.60,"out":2446.38,"x":660,"y":50,"sound":"crossing","beat":"Lanterns on the lake lead to the first wide look at the castle."},
+    {"in":2449.28,"out":2452.14,"x":650,"y":72,"beat":"The children look up together."},
+    {"in":2496.88,"out":2498.94,"x":500,"y":60,"sound":"welcome","beat":"McGonagall names Hogwarts."},
+    {"in":2903.18,"out":2906.14,"x":420,"y":80,"beat":"The great hall pays off the arrival."},
+    {"in":3793.91,"out":3795.82,"x":590,"y":64,"beat":"A ghost makes the rules of the new world visible."},
+    {"in":6824.12,"out":6826.12,"x":375,"y":68,"sound":"woods","beat":"A cloaked figure changes the tone without revealing its identity."},
+    {"in":6853.00,"out":6857.64,"x":475,"y":68,"sound":"warning","beat":"Harry is warned that the forest is unsafe."},
+    {"in":6857.64,"out":6859.48,"x":420,"y":55,"sound":"warning","beat":"Harry takes in the warning."},
+    {"in":2457.04,"out":2462.29,"x":630,"y":50,"beat":"Return to the castle under the final title card."}
+  ],
+  "speech": [
+    ["denial",[["There's",509.54,510.36],["no",510.36,510.60],["such",510.60,511.18],["thing",511.18,511.58],["as",511.58,512.06],["magic.",512.06,512.48]],["There's","no such thing","as magic."]],
+    ["reveal",[["You're",988.66,989.34],["a",989.34,989.42],["wizard,",989.42,989.72],["Harry.",989.72,990.10]],["You're a wizard,","Harry."]],
+    ["alley",[["Welcome,",1356.34,1357.16],["Harry,",1357.24,1357.44],["to",1358.16,1358.22],["Diagon",1358.22,1358.82],["Alley.",1358.82,1359.00]],["Welcome, Harry,","to Diagon Alley."]],
+    ["welcome",[["Welcome",2497.10,2497.92],["to",2497.92,2498.24],["Hogwarts.",2498.24,2498.48]],["Welcome","to Hogwarts."]],
+    ["warning",[["The",6853.08,6853.24],["forest",6853.24,6854.04],["is",6854.04,6854.32],["not",6854.32,6854.50],["safe",6854.50,6854.90],["at",6854.90,6855.06],["this",6855.06,6855.22],["time.",6855.22,6855.54],["Especially",6856.38,6856.72],["for",6856.72,6857.14],["you.",6857.14,6857.32]],["The forest","is not safe","at this time.","Especially","for you."]]
+  ]
+}

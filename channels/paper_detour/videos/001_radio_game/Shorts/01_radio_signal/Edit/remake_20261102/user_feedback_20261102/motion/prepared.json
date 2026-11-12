@@ -1,0 +1,117 @@
+{
+  "source": {
+    "frames": [
+      150,
+      300
+    ],
+    "id": "B89BD5AD",
+    "mediaRef": "20901E8C",
+    "mediaType": "image"
+  },
+  "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Shorts/01_radio_signal/Source/Images/remake_20261102/S02_feedback_v03.png",
+  "image_hash": "0e3f8ba572ca2cbdc5302b522ea6706b2a614cc2c6ff28d2bc7e135e6e629fde",
+  "depth_input": null,
+  "depth_hash": null,
+  "keyframes": {
+    "position": [
+      [
+        0,
+        -0.07250000000000006,
+        -0.050000000000000044,
+        "linear"
+      ],
+      [
+        149,
+        -0.02750000000000008,
+        -0.050000000000000044
+      ]
+    ],
+    "scale": [
+      [
+        0,
+        1.1,
+        1.1,
+        "linear"
+      ],
+      [
+        149,
+        1.1,
+        1.1
+      ]
+    ]
+  },
+  "sign": -1,
+  "depth_zoom": 1.0,
+  "frames": 150,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "preset": {
+    "offset": 0.165,
+    "height": 0.26,
+    "steady": 0.0,
+    "sticky": true,
+    "camera_factor": 0.75,
+    "alignment": "same"
+  },
+  "grain": {
+    "id": "g08",
+    "name": "Short Persistence",
+    "version": 1,
+    "rms_y_codes": 3.0,
+    "sigma_reference_px": 0.77,
+    "reference_short_side": 1440,
+    "update_hz": 30,
+    "rho": 0.35,
+    "mask_y": [
+      20,
+      64,
+      208,
+      235
+    ],
+    "range_y": [
+      16,
+      235
+    ],
+    "chroma": false,
+    "seed": 20261102
+  },
+  "baked_camera": {
+    "position": [
+      [
+        0,
+        -0.07250000000000006,
+        -0.050000000000000044,
+        "linear"
+      ],
+      [
+        149,
+        -0.02750000000000008,
+        -0.050000000000000044
+      ]
+    ],
+    "scale": [
+      [
+        0,
+        1.1,
+        1.1,
+        "linear"
+      ],
+      [
+        149,
+        1.1,
+        1.1
+      ]
+    ]
+  },
+  "target_keyframes": {},
+  "target_transform": {
+    "centerX": 0.5,
+    "centerY": 0.5,
+    "width": 1,
+    "height": 1,
+    "rotation": 0
+  },
+  "clean_video": "/Users/diplomat/ytvideos/Shared/Image_Motion/Cache/video/400132544d8b81798dc7230281f6c188a1ba09c8a7eed237384eaa5380c42a5d.mp4",
+  "video": "/Users/diplomat/ytvideos/Shared/Image_Motion/Cache/finished/71359fbe992e78e1efd3e025104f9cea7b549d1e20ac131fbbeea94494f38d74.mp4"
+}

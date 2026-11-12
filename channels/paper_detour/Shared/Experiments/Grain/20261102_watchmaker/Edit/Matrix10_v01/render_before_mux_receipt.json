@@ -1,0 +1,657 @@
+{
+  "file": "/Users/diplomat/ytvideos/channels/paper_detour/Shared/Experiments/Grain/20261102_watchmaker/Work/matrix10-v01/previews/PAPER_DETOUR_GRAIN_10_PRESETS_1440P_v01.mp4",
+  "sha256": "d2cc2958c565996bf5f622f76b72059f75eac0d95b6ed3b7a6490e011ee8121b",
+  "bytes": 269146516,
+  "source_yuv_sha256": "97a24a9688766a92d475c26f706fa220a321f4a11fbdbfed00b330d3e2df1e6c",
+  "command": [
+    "ffmpeg",
+    "-hide_banner",
+    "-v",
+    "error",
+    "-n",
+    "-f",
+    "rawvideo",
+    "-pixel_format",
+    "yuv420p",
+    "-video_size",
+    "2560x1440",
+    "-framerate",
+    "30",
+    "-i",
+    "pipe:0",
+    "-an",
+    "-c:v",
+    "libx264",
+    "-preset",
+    "fast",
+    "-tune",
+    "grain",
+    "-crf",
+    "16",
+    "-threads",
+    "8",
+    "-profile:v",
+    "high",
+    "-g",
+    "15",
+    "-bf",
+    "2",
+    "-x264-params",
+    "open-gop=0",
+    "-color_range",
+    "tv",
+    "-colorspace",
+    "bt709",
+    "-color_trc",
+    "bt709",
+    "-color_primaries",
+    "bt709",
+    "-bsf:v",
+    "h264_metadata=colour_primaries=1:transfer_characteristics=1:matrix_coefficients=1:video_full_range_flag=0",
+    "-use_editlist",
+    "0",
+    "-movflags",
+    "+faststart",
+    "/Users/diplomat/ytvideos/channels/paper_detour/Shared/Experiments/Grain/20261102_watchmaker/Work/matrix10-v01/previews/PAPER_DETOUR_GRAIN_10_PRESETS_1440P_v01.mp4"
+  ],
+  "frames": 1280,
+  "duration": 42.666666666666664,
+  "segments": [
+    {
+      "preset": {
+        "id": 1,
+        "name": "Balanced Base",
+        "rms": 3,
+        "sigma": 0.77,
+        "hz": 30,
+        "rho": 0.65
+      },
+      "slate_start": 0,
+      "image_start": 8,
+      "image_frames": 120,
+      "slate_frames": 8,
+      "settings_label": "RMS 3.0 / 255    |    Size sigma 0.77 px    |    30 Hz    |    rho 0.65",
+      "metrics": [
+        {
+          "frame": 0,
+          "applied_rms": 2.5303947925567627,
+          "unmasked_state_std": 1.0,
+          "y_sha256": "84e48354433410896ad5fb8fbbc1d17eceeb3d7fa22374de14c7f98682dce9c7",
+          "chroma_unchanged_above_label": true
+        },
+        {
+          "frame": 1,
+          "applied_rms": 2.5278148651123047,
+          "unmasked_state_std": 0.9997905492782593,
+          "y_sha256": "bcee218d947689e18710ad492586fb504b69fc5afc9b158338bd278b94fe85d0",
+          "chroma_unchanged_above_label": true
+        },
+        {
+          "frame": 2,
+          "applied_rms": 2.5279667377471924,
+          "unmasked_state_std": 0.9996746778488159,
+          "y_sha256": "7eef5852b4b17d22addd00c5f5d33bbdf9635fd49dd8bdfa1ea39771b2112f11",
+          "chroma_unchanged_above_label": true
+        },
+        {
+          "frame": 59,
+          "applied_rms": 2.5341579914093018,
+          "unmasked_state_std": 1.0012402534484863,
+          "y_sha256": "83dc336aa02e83b7d10526c6e07a4cb16352f481f5ac10c681c041f25c53e894",
+          "chroma_unchanged_above_label": true
+        },
+        {
+          "frame": 60,
+          "applied_rms": 2.532177686691284,
+          "unmasked_state_std": 1.0005278587341309,
+          "y_sha256": "b6f9b310f954a2510434a694cddf5dd644d3a183846235e4816ba7db3346b2be",
+          "chroma_unchanged_above_label": true
+        },
+        {
+          "frame": 119,
+          "applied_rms": 2.5301220417022705,
+          "unmasked_state_std": 1.0000680685043335,
+          "y_sha256": "746fa6d4217c501bfa04898e03af5f93a2213ee3f46ce3c2f72111763654f58e",
+          "chroma_unchanged_above_label": true
+        }
+      ]
+    },
+    {
+      "preset": {
+        "id": 2,
+        "name": "Soft Amplitude",
+        "rms": 2.4,
+        "sigma": 0.77,
+        "hz": 30,
+        "rho": 0.65
+      },
+      "slate_start": 128,
+      "image_start": 136,
+      "image_frames": 120,
+      "slate_frames": 8,
+      "settings_label": "RMS 2.4 / 255    |    Size sigma 0.77 px    |    30 Hz    |    rho 0.65",
+      "metrics": [
+        {
+          "frame": 0,
+          "applied_rms": 2.0308845043182373,
+          "unmasked_state_std": 1.0,
+          "y_sha256": "77413d93fc23a1542681412fa399f67112fb581454fee0f31e23436dbf8e7f68",
+          "chroma_unchanged_above_label": true
+        },
+        {
+          "frame": 1,
+          "applied_rms": 2.029304027557373,
+          "unmasked_state_std": 0.9997905492782593,
+          "y_sha256": "c19d4a2f93e4dbc4778e8a9b8b7f5f850378e3245fd11e8985839f22a4d13e76",
+          "chroma_unchanged_above_label": true
+        },
+        {
+          "frame": 2,
+          "applied_rms": 2.028953790664673,
+          "unmasked_state_std": 0.9996746778488159,
+          "y_sha256": "be5ec90d096f6608dc6b3943ded6d2219d77b94f1b7ceda45901078ce9853eec",
+          "chroma_unchanged_above_label": true
+        },
+        {
+          "frame": 59,
+          "applied_rms": 2.0334582328796387,
+          "unmasked_state_std": 1.0012402534484863,
+          "y_sha256": "37c23109f09903cb8c152b3629b644702485e72c417c6bebfba388638a34e2a9",
+          "chroma_unchanged_above_label": true
+        },
+        {
+          "frame": 60,
+          "applied_rms": 2.032546043395996,
+          "unmasked_state_std": 1.0005278587341309,
+          "y_sha256": "972fa123e4b552f9bd0e73208fa6b8393b0c58ee32a933fe5f6d6ff4410b09c9",
+          "chroma_unchanged_above_label": true
+        },
+        {
+          "frame": 119,
+          "applied_rms": 2.0309364795684814,
+          "unmasked_state_std": 1.0000680685043335,
+          "y_sha256": "9e5a9edd4eb3f3137d8cdf580335a773e399adf6622c4d8dd24101149c2b916a",
+          "chroma_unchanged_above_label": true
+        }
+      ]
+    },
+    {
+      "preset": {
+        "id": 3,
+        "name": "Upper Amplitude",
+        "rms": 4,
+        "sigma": 0.77,
+        "hz": 30,
+        "rho": 0.65
+      },
+      "slate_start": 256,
+      "image_start": 264,
+      "image_frames": 120,
+      "slate_frames": 8,
+      "settings_label": "RMS 4.0 / 255    |    Size sigma 0.77 px    |    30 Hz    |    rho 0.65",
+      "metrics": [
+        {
+          "frame": 0,
+          "applied_rms": 3.364781379699707,
+          "unmasked_state_std": 1.0,
+          "y_sha256": "cae329842b87c803509c919e66ffc17cf76e3c203230693c84c7db7a2b28da98",
+          "chroma_unchanged_above_label": true
+        },
+        {
+          "frame": 1,
+          "applied_rms": 3.361849069595337,
+          "unmasked_state_std": 0.9997905492782593,
+          "y_sha256": "ad53a130d5961bb70720803e31ce7216439fa9dd7a0077fe7a69bab2e2aeb0ce",
+          "chroma_unchanged_above_label": true
+        },
+        {
+          "frame": 2,
+          "applied_rms": 3.3617563247680664,
+          "unmasked_state_std": 0.9996746778488159,
+          "y_sha256": "8bca91376ad8621c2f8040fdbf0aa61b6977458bd04e13bc5413470cb57ec535",
+          "chroma_unchanged_above_label": true
+        },
+        {
+          "frame": 59,
+          "applied_rms": 3.369842290878296,
+          "unmasked_state_std": 1.0012402534484863,
+          "y_sha256": "195cf2d7b8098bc0b026a4748f90e75be0bc27fcb053e2bd0778d5edadad1fc6",
+          "chroma_unchanged_above_label": true
+        },
+        {
+          "frame": 60,
+          "applied_rms": 3.36779522895813,
+          "unmasked_state_std": 1.0005278587341309,
+          "y_sha256": "3aa45c52e173c7060eaa0fc6c16e06b68bf5383e3dc8f95c9c9133845093c55f",
+          "chroma_unchanged_above_label": true
+        },
+        {
+          "frame": 119,
+          "applied_rms": 3.3649020195007324,
+          "unmasked_state_std": 1.0000680685043335,
+          "y_sha256": "e65eabe7e8e7ca30b821ffcea4485d0ff7cb35c4c6d212c8b2e3af096b69199a",
+          "chroma_unchanged_above_label": true
+        }
+      ]
+    },
+    {
+      "preset": {
+        "id": 4,
+        "name": "Fine Grain",
+        "rms": 3,
+        "sigma": 0.6,
+        "hz": 30,
+        "rho": 0.65
+      },
+      "slate_start": 384,
+      "image_start": 392,
+      "image_frames": 120,
+      "slate_frames": 8,
+      "settings_label": "RMS 3.0 / 255    |    Size sigma 0.60 px    |    30 Hz    |    rho 0.65",
+      "metrics": [
+        {
+          "frame": 0,
+          "applied_rms": 2.529907703399658,
+          "unmasked_state_std": 1.0,
+          "y_sha256": "c1a21b2dab698cfbbaf4e10c248114c40bfedae8808f8f74a945038c83c85dd2",
+          "chroma_unchanged_above_label": true
+        },
+        {
+          "frame": 1,
+          "applied_rms": 2.5285451412200928,
+          "unmasked_state_std": 0.9997952580451965,
+          "y_sha256": "778142ac70c8bc5b24e73ca0a7bd3eb174b4ed4c4bc9c13ec46f6baf7f61e087",
+          "chroma_unchanged_above_label": true
+        },
+        {
+          "frame": 2,
+          "applied_rms": 2.5285627841949463,
+          "unmasked_state_std": 0.9997668266296387,
+          "y_sha256": "0e25eb7c7455219473a662cadbb7c7f586edcd04a753f16fa0ff5095021ea6c6",
+          "chroma_unchanged_above_label": true
+        },
+        {
+          "frame": 59,
+          "applied_rms": 2.532783031463623,
+          "unmasked_state_std": 1.0006698369979858,
+          "y_sha256": "78f120d23038393d88572b0d450df3c54fd733bd0a928870c93a48d5917dac9c",
+          "chroma_unchanged_above_label": true
+        },
+        {
+          "frame": 60,
+          "applied_rms": 2.531930446624756,
+          "unmasked_state_std": 1.000372052192688,
+          "y_sha256": "2e80e53d9660237f798a78e1c36bf31e854caba4d81828e1847c870e67a3dba3",
+          "chroma_unchanged_above_label": true
+        },
+        {
+          "frame": 119,
+          "applied_rms": 2.530254602432251,
+          "unmasked_state_std": 1.0000840425491333,
+          "y_sha256": "fa73a085698c6925ab314e34b4d00ce07cdf72f88db1b1fe22f6a507331e2388",
+          "chroma_unchanged_above_label": true
+        }
+      ]
+    },
+    {
+      "preset": {
+        "id": 5,
+        "name": "Coarse Grain",
+        "rms": 3,
+        "sigma": 0.95,
+        "hz": 30,
+        "rho": 0.65
+      },
+      "slate_start": 512,
+      "image_start": 520,
+      "image_frames": 120,
+      "slate_frames": 8,
+      "settings_label": "RMS 3.0 / 255    |    Size sigma 0.95 px    |    30 Hz    |    rho 0.65",
+      "metrics": [
+        {
+          "frame": 0,
+          "applied_rms": 2.531248092651367,
+          "unmasked_state_std": 0.9999998807907104,
+          "y_sha256": "ddd18cfbfbf8271bdb036a8934fd7b2a1cf0aded7b80a44c9bd6cffccddb5ee2",
+          "chroma_unchanged_above_label": true
+        },
+        {
+          "frame": 1,
+          "applied_rms": 2.528225898742676,
+          "unmasked_state_std": 0.9998103976249695,
+          "y_sha256": "ca3f7717397507db4c2cd1439358083e7953bfdccbf5b3f9d7a53c082ea4e675",
+          "chroma_unchanged_above_label": true
+        },
+        {
+          "frame": 2,
+          "applied_rms": 2.527254104614258,
+          "unmasked_state_std": 0.9994806051254272,
+          "y_sha256": "f2d25308c48520c005d224075c1a00fa0264126c7936b70b5247f97528c6b803",
+          "chroma_unchanged_above_label": true
+        },
+        {
+          "frame": 59,
+          "applied_rms": 2.5352425575256348,
+          "unmasked_state_std": 1.001824975013733,
+          "y_sha256": "cdf3ca0d9295a289206436191d0e292de998f2c156b6988b7ca60fc205e1f350",
+          "chroma_unchanged_above_label": true
+        },
+        {
+          "frame": 60,
+          "applied_rms": 2.533308982849121,
+          "unmasked_state_std": 1.0007541179656982,
+          "y_sha256": "81714fd695b64b2162c21aefa7c709534696910d46278603a7097b92371ce5d8",
+          "chroma_unchanged_above_label": true
+        },
+        {
+          "frame": 119,
+          "applied_rms": 2.5301015377044678,
+          "unmasked_state_std": 1.0001035928726196,
+          "y_sha256": "efa19b6fc9e5c636161e8b0f2b863e51a91dda80762587430a8526926859d202",
+          "chroma_unchanged_above_label": true
+        }
+      ]
+    },
+    {
+      "preset": {
+        "id": 6,
+        "name": "Slow Refresh 15",
+        "rms": 3,
+        "sigma": 0.77,
+        "hz": 15,
+        "rho": 0.65
+      },
+      "slate_start": 640,
+      "image_start": 648,
+      "image_frames": 120,
+      "slate_frames": 8,
+      "settings_label": "RMS 3.0 / 255    |    Size sigma 0.77 px    |    15 Hz    |    rho 0.65",
+      "metrics": [
+        {
+          "frame": 0,
+          "applied_rms": 2.5303947925567627,
+          "unmasked_state_std": 1.0,
+          "y_sha256": "e248aec0bf2977f7e177bec78777b62eb87c22b8f02c03b23556c52787148b74",
+          "chroma_unchanged_above_label": true
+        },
+        {
+          "frame": 1,
+          "applied_rms": 2.5303947925567627,
+          "unmasked_state_std": 1.0,
+          "y_sha256": "e248aec0bf2977f7e177bec78777b62eb87c22b8f02c03b23556c52787148b74",
+          "chroma_unchanged_above_label": true
+        },
+        {
+          "frame": 2,
+          "applied_rms": 2.5278148651123047,
+          "unmasked_state_std": 0.9997905492782593,
+          "y_sha256": "bada7b70f9d2330c19a1a31505bbf5e19d3458cae7f74f265413332de47ce2fc",
+          "chroma_unchanged_above_label": true
+        },
+        {
+          "frame": 59,
+          "applied_rms": 2.5290467739105225,
+          "unmasked_state_std": 1.0001840591430664,
+          "y_sha256": "1ddcf62df7e6711d3be4bd68e59c22ee3fd36f8f5948ca208c01c9a346a3225c",
+          "chroma_unchanged_above_label": true
+        },
+        {
+          "frame": 60,
+          "applied_rms": 2.5318262577056885,
+          "unmasked_state_std": 1.000573754310608,
+          "y_sha256": "18daa31685742d7591645081d7b4454509e27d6eef13e98efb8ef47fb352aa88",
+          "chroma_unchanged_above_label": true
+        },
+        {
+          "frame": 119,
+          "applied_rms": 2.5341579914093018,
+          "unmasked_state_std": 1.0012402534484863,
+          "y_sha256": "368ecc259ce68c123f57f736406065dbbdb88fe69ea03c2828d60496623be588",
+          "chroma_unchanged_above_label": true
+        }
+      ]
+    },
+    {
+      "preset": {
+        "id": 7,
+        "name": "Slow Refresh 10",
+        "rms": 3,
+        "sigma": 0.77,
+        "hz": 10,
+        "rho": 0.65
+      },
+      "slate_start": 768,
+      "image_start": 776,
+      "image_frames": 120,
+      "slate_frames": 8,
+      "settings_label": "RMS 3.0 / 255    |    Size sigma 0.77 px    |    10 Hz    |    rho 0.65",
+      "metrics": [
+        {
+          "frame": 0,
+          "applied_rms": 2.5303947925567627,
+          "unmasked_state_std": 1.0,
+          "y_sha256": "904e35d780cb14ad35dc1e4595f87c8659c9e12dcef5188b4297da1f1647bc23",
+          "chroma_unchanged_above_label": true
+        },
+        {
+          "frame": 1,
+          "applied_rms": 2.5303947925567627,
+          "unmasked_state_std": 1.0,
+          "y_sha256": "904e35d780cb14ad35dc1e4595f87c8659c9e12dcef5188b4297da1f1647bc23",
+          "chroma_unchanged_above_label": true
+        },
+        {
+          "frame": 2,
+          "applied_rms": 2.5303947925567627,
+          "unmasked_state_std": 1.0,
+          "y_sha256": "904e35d780cb14ad35dc1e4595f87c8659c9e12dcef5188b4297da1f1647bc23",
+          "chroma_unchanged_above_label": true
+        },
+        {
+          "frame": 59,
+          "applied_rms": 2.5279152393341064,
+          "unmasked_state_std": 0.9991239309310913,
+          "y_sha256": "a6e026a05f3555935e31689a728555829fdcb342b6e56a473aa97ae1fe88cba5",
+          "chroma_unchanged_above_label": true
+        },
+        {
+          "frame": 60,
+          "applied_rms": 2.5279364585876465,
+          "unmasked_state_std": 0.9995418787002563,
+          "y_sha256": "d55f7f2a2bddc1a43a4afd3ff2c2d9519fc31e7bc97a0d3bf7bceffbf5cab24c",
+          "chroma_unchanged_above_label": true
+        },
+        {
+          "frame": 119,
+          "applied_rms": 2.5298211574554443,
+          "unmasked_state_std": 0.999788224697113,
+          "y_sha256": "6c46237acf3d1f78dbc70c0fe92bcb4c2370c8b8f0f8f548f57bdd1e5ffc1996",
+          "chroma_unchanged_above_label": true
+        }
+      ]
+    },
+    {
+      "preset": {
+        "id": 8,
+        "name": "Short Persistence",
+        "rms": 3,
+        "sigma": 0.77,
+        "hz": 30,
+        "rho": 0.35
+      },
+      "slate_start": 896,
+      "image_start": 904,
+      "image_frames": 120,
+      "slate_frames": 8,
+      "settings_label": "RMS 3.0 / 255    |    Size sigma 0.77 px    |    30 Hz    |    rho 0.35",
+      "metrics": [
+        {
+          "frame": 0,
+          "applied_rms": 2.5303947925567627,
+          "unmasked_state_std": 1.0,
+          "y_sha256": "93d1ff2e6706c40286f0348578c62d86dc882f5fa07c71f25e5ae0615df51eb1",
+          "chroma_unchanged_above_label": true
+        },
+        {
+          "frame": 1,
+          "applied_rms": 2.528259754180908,
+          "unmasked_state_std": 0.9998610019683838,
+          "y_sha256": "e55b66283ddd51b018d552bc5fdcf310f3f7c253eb94ea8ace01adcc67a12212",
+          "chroma_unchanged_above_label": true
+        },
+        {
+          "frame": 2,
+          "applied_rms": 2.5290396213531494,
+          "unmasked_state_std": 0.9999236464500427,
+          "y_sha256": "aa0f062f97f0d19b5a6f162eb490032797d235a468589da4e7aa232052930234",
+          "chroma_unchanged_above_label": true
+        },
+        {
+          "frame": 59,
+          "applied_rms": 2.53275728225708,
+          "unmasked_state_std": 1.0006893873214722,
+          "y_sha256": "3ae6344349c46863d109659e7c63044f246c572b8697a3beb78a529808609399",
+          "chroma_unchanged_above_label": true
+        },
+        {
+          "frame": 60,
+          "applied_rms": 2.5309298038482666,
+          "unmasked_state_std": 1.000051498413086,
+          "y_sha256": "fb1463a865aac47321cfdb6ab69be338de481c590de22192a531524778ec5e7d",
+          "chroma_unchanged_above_label": true
+        },
+        {
+          "frame": 119,
+          "applied_rms": 2.530209541320801,
+          "unmasked_state_std": 0.9996959567070007,
+          "y_sha256": "d504cf4acdb0b590f0a2620fdb6de90fa35aaa93d1308133883245dd6b04c93c",
+          "chroma_unchanged_above_label": true
+        }
+      ]
+    },
+    {
+      "preset": {
+        "id": 9,
+        "name": "Long Persistence",
+        "rms": 3,
+        "sigma": 0.77,
+        "hz": 30,
+        "rho": 0.85
+      },
+      "slate_start": 1024,
+      "image_start": 1032,
+      "image_frames": 120,
+      "slate_frames": 8,
+      "settings_label": "RMS 3.0 / 255    |    Size sigma 0.77 px    |    30 Hz    |    rho 0.85",
+      "metrics": [
+        {
+          "frame": 0,
+          "applied_rms": 2.5303947925567627,
+          "unmasked_state_std": 1.0,
+          "y_sha256": "0add2539e17ca517ebbd88611a5d591d7027d78dd675492e424a2b04d430ea09",
+          "chroma_unchanged_above_label": true
+        },
+        {
+          "frame": 1,
+          "applied_rms": 2.5289435386657715,
+          "unmasked_state_std": 0.9998102188110352,
+          "y_sha256": "cd1f4e1323ec438332b2dda78f2fad8a8934aa214cadca2a7fe2cf0c0f001683",
+          "chroma_unchanged_above_label": true
+        },
+        {
+          "frame": 2,
+          "applied_rms": 2.5277597904205322,
+          "unmasked_state_std": 0.9995514750480652,
+          "y_sha256": "da7502b207f580c5ff06f0944fc0f4de55e10d84de89846c6b6fd8f6c99b30e7",
+          "chroma_unchanged_above_label": true
+        },
+        {
+          "frame": 59,
+          "applied_rms": 2.5345590114593506,
+          "unmasked_state_std": 1.0014029741287231,
+          "y_sha256": "f85bc2e5143532fa8079d61ec039d28c220fbd6fb223f90da005e0a1aa9dedf6",
+          "chroma_unchanged_above_label": true
+        },
+        {
+          "frame": 60,
+          "applied_rms": 2.533470869064331,
+          "unmasked_state_std": 1.0012396574020386,
+          "y_sha256": "1a6b1b9dad4f7a247254bfd3fb13a58fd6cbd1bcf4bdd6e5461b8dd22b58e78f",
+          "chroma_unchanged_above_label": true
+        },
+        {
+          "frame": 119,
+          "applied_rms": 2.531273365020752,
+          "unmasked_state_std": 1.0009868144989014,
+          "y_sha256": "8f6a78b1040a7b044c36b81557b14b7e320b515c66ac5555e3301e558dd9e4c4",
+          "chroma_unchanged_above_label": true
+        }
+      ]
+    },
+    {
+      "preset": {
+        "id": 10,
+        "name": "Test 03 Scaled",
+        "rms": 3.6,
+        "sigma": 0.77,
+        "hz": 30,
+        "rho": 0.65
+      },
+      "slate_start": 1152,
+      "image_start": 1160,
+      "image_frames": 120,
+      "slate_frames": 8,
+      "settings_label": "RMS 3.6 / 255    |    Size sigma 0.77 px    |    30 Hz    |    rho 0.65",
+      "metrics": [
+        {
+          "frame": 0,
+          "applied_rms": 3.030888557434082,
+          "unmasked_state_std": 1.0,
+          "y_sha256": "3c7ae99dc046b3196bb6ea1656a082204d70c374c8c10c71ae2d07a20236fac4",
+          "chroma_unchanged_above_label": true
+        },
+        {
+          "frame": 1,
+          "applied_rms": 3.0280840396881104,
+          "unmasked_state_std": 0.9997905492782593,
+          "y_sha256": "67e8c792ea8166dc0b27f51f3d1219532984847766ebee564e23879b1fd0e6a0",
+          "chroma_unchanged_above_label": true
+        },
+        {
+          "frame": 2,
+          "applied_rms": 3.0276379585266113,
+          "unmasked_state_std": 0.9996746778488159,
+          "y_sha256": "b4ac1fb92c5173c65287789e749f9f38746109b3efc5a7edaeeab4ff942d6a5b",
+          "chroma_unchanged_above_label": true
+        },
+        {
+          "frame": 59,
+          "applied_rms": 3.0354831218719482,
+          "unmasked_state_std": 1.0012402534484863,
+          "y_sha256": "78419200206f04e52c399ff42b3110ec23b06ed3255e7166eb2e86b88e098466",
+          "chroma_unchanged_above_label": true
+        },
+        {
+          "frame": 60,
+          "applied_rms": 3.0334205627441406,
+          "unmasked_state_std": 1.0005278587341309,
+          "y_sha256": "23457abbce5e0f8103486eec3a9a1f24a634338c04f41c086a8c20b93313e44c",
+          "chroma_unchanged_above_label": true
+        },
+        {
+          "frame": 119,
+          "applied_rms": 3.0304901599884033,
+          "unmasked_state_std": 1.0000680685043335,
+          "y_sha256": "f33a2c3a430163cbebfdf5683986a44a1d9de0f8b5fced973940ff2d6979737e",
+          "chroma_unchanged_above_label": true
+        }
+      ]
+    }
+  ],
+  "elapsed_seconds": 172.85441008297494,
+  "source_image_sha256": "151cb0e796053eccd9726099c8feabd7ac1dbc4d302cb1e63cc27612a643e733",
+  "colour": "sRGB source converted to BT709 limited before grain; tags and SPS set",
+  "audio": "N_A; silent visual experiment, no audio created",
+  "labels": "Static neutral labels after grain; lower panel excluded from grain",
+  "production_defaults_changed": false
+}

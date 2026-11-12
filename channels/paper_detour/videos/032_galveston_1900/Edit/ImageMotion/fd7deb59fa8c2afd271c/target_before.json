@@ -1,0 +1,429 @@
+{
+  "canGenerate": false,
+  "durationSeconds": 22.267,
+  "fps": 30,
+  "height": 1440,
+  "maskOverlayVisible": false,
+  "name": "Galveston church editorial v02 — still baseline — image motion",
+  "outputColorSpace": "rec709",
+  "timelineId": "BD129F08",
+  "timelines": [
+    {
+      "name": "Timeline 1",
+      "timelineId": "137B5BA9",
+      "visible": true
+    },
+    {
+      "name": "Galveston 032 — Animated accents baseline v02",
+      "timelineId": "2E9CFE1C"
+    },
+    {
+      "name": "Galveston 032 — Animated accents baseline v02 — image motion",
+      "timelineId": "6C26D0C3"
+    },
+    {
+      "name": "Galveston church G08 technical baseline v01",
+      "timelineId": "E16F5CD2"
+    },
+    {
+      "name": "Galveston church G08 technical baseline v01 — image motion",
+      "timelineId": "9A627C98"
+    },
+    {
+      "name": "Galveston church G08 technical baseline v01 — image motion",
+      "timelineId": "6BEDC318"
+    },
+    {
+      "name": "Church archival print composite v02",
+      "timelineId": "A31658AE"
+    },
+    {
+      "name": "Galveston church editorial v02 — still baseline",
+      "timelineId": "CAF6544A"
+    },
+    {
+      "name": "Galveston church editorial v02 — still baseline — image motion",
+      "timelineId": "BD129F08"
+    }
+  ],
+  "totalFrames": 668,
+  "tracks": [
+    {
+      "clips": [
+        {
+          "frames": [
+            325,
+            390
+          ],
+          "id": "AAAAA8CE",
+          "keyframes": {
+            "opacity": [
+              [
+                0,
+                0,
+                "linear"
+              ],
+              [
+                4,
+                1,
+                "hold"
+              ],
+              [
+                60,
+                1,
+                "linear"
+              ],
+              [
+                64,
+                0,
+                "linear"
+              ]
+            ],
+            "position": [
+              [
+                0,
+                0.328,
+                0.087,
+                "linear"
+              ],
+              [
+                4,
+                0.328,
+                0.067,
+                "hold"
+              ],
+              [
+                60,
+                0.328,
+                0.067,
+                "linear"
+              ],
+              [
+                64,
+                0.328,
+                0.047,
+                "linear"
+              ]
+            ]
+          },
+          "mediaRef": "E1919F1A",
+          "mediaType": "image",
+          "transform": {
+            "centerX": 0.501,
+            "centerY": 0.199,
+            "height": 0.264,
+            "width": 0.347
+          },
+          "trimEndFrame": 85
+        },
+        {
+          "frames": [
+            570,
+            660
+          ],
+          "id": "77771AF4",
+          "keyframes": {
+            "opacity": [
+              [
+                0,
+                0,
+                "linear"
+              ],
+              [
+                4,
+                1,
+                "hold"
+              ],
+              [
+                85,
+                1,
+                "linear"
+              ],
+              [
+                89,
+                0,
+                "linear"
+              ]
+            ],
+            "position": [
+              [
+                0,
+                0.029,
+                0.106,
+                "linear"
+              ],
+              [
+                4,
+                0.029,
+                0.086,
+                "hold"
+              ],
+              [
+                85,
+                0.029,
+                0.086,
+                "linear"
+              ],
+              [
+                89,
+                0.029,
+                0.066,
+                "linear"
+              ]
+            ]
+          },
+          "mediaRef": "46EAA5E4",
+          "mediaType": "image",
+          "transform": {
+            "centerX": 0.219,
+            "centerY": 0.202,
+            "height": 0.232,
+            "width": 0.38
+          },
+          "trimEndFrame": 60
+        }
+      ],
+      "gaps": [
+        [
+          390,
+          570
+        ]
+      ],
+      "index": 0,
+      "label": "V2",
+      "name": "Accents",
+      "trackId": "1D5320C1",
+      "type": "video"
+    },
+    {
+      "clips": [
+        {
+          "frames": [
+            0,
+            134
+          ],
+          "id": "5B975A5E",
+          "keyframes": {
+            "position": [
+              [
+                0,
+                -0.01,
+                -0.01,
+                "linear"
+              ],
+              [
+                133,
+                -0.02,
+                -0.02,
+                "linear"
+              ]
+            ],
+            "scale": [
+              [
+                0,
+                1.02,
+                1.02,
+                "linear"
+              ],
+              [
+                133,
+                1.04,
+                1.04,
+                "linear"
+              ]
+            ]
+          },
+          "mediaRef": "E2BCF1CF",
+          "mediaType": "image",
+          "trimEndFrame": 16
+        },
+        {
+          "frames": [
+            134,
+            267
+          ],
+          "id": "1810798F",
+          "keyframes": {
+            "position": [
+              [
+                0,
+                -0.03,
+                0,
+                "linear"
+              ],
+              [
+                132,
+                -0.01,
+                0,
+                "linear"
+              ]
+            ],
+            "scale": [
+              [
+                0,
+                1.06,
+                1.06,
+                "linear"
+              ],
+              [
+                132,
+                1.02,
+                1.02,
+                "linear"
+              ]
+            ]
+          },
+          "mediaRef": "E3BFAE06",
+          "mediaType": "image",
+          "trimEndFrame": 17
+        },
+        {
+          "frames": [
+            267,
+            395
+          ],
+          "id": "248E7C29",
+          "keyframes": {
+            "position": [
+              [
+                0,
+                -0.04,
+                -0.02,
+                "linear"
+              ],
+              [
+                127,
+                0,
+                -0.02,
+                "linear"
+              ]
+            ],
+            "scale": [
+              [
+                0,
+                1.04,
+                1.04,
+                "linear"
+              ],
+              [
+                127,
+                1.04,
+                1.04,
+                "linear"
+              ]
+            ]
+          },
+          "mediaRef": "C308764C",
+          "mediaType": "image",
+          "trimEndFrame": 22
+        },
+        {
+          "frames": [
+            395,
+            534
+          ],
+          "id": "BFBAF467",
+          "keyframes": {
+            "position": [
+              [
+                0,
+                -0.03,
+                -0.03,
+                "linear"
+              ],
+              [
+                138,
+                -0.01,
+                -0.01,
+                "linear"
+              ]
+            ],
+            "scale": [
+              [
+                0,
+                1.06,
+                1.06,
+                "linear"
+              ],
+              [
+                138,
+                1.02,
+                1.02,
+                "linear"
+              ]
+            ]
+          },
+          "mediaRef": "374E55EB",
+          "mediaType": "image",
+          "trimEndFrame": 11
+        },
+        {
+          "frames": [
+            534,
+            668
+          ],
+          "id": "255B8A87",
+          "keyframes": {
+            "position": [
+              [
+                0,
+                -0.04,
+                0,
+                "linear"
+              ],
+              [
+                133,
+                0,
+                0,
+                "linear"
+              ]
+            ],
+            "scale": [
+              [
+                0,
+                1.04,
+                1.04,
+                "linear"
+              ],
+              [
+                133,
+                1.04,
+                1.04,
+                "linear"
+              ]
+            ]
+          },
+          "mediaRef": "A6F9ADD7",
+          "mediaType": "image",
+          "trimEndFrame": 16
+        }
+      ],
+      "index": 1,
+      "label": "V1",
+      "name": "Scenes",
+      "trackId": "EF180380",
+      "type": "video"
+    },
+    {
+      "clips": [
+        {
+          "frames": [
+            0,
+            668
+          ],
+          "id": "2CA8C0D2",
+          "mediaRef": "666A8A59",
+          "mediaType": "audio",
+          "trimEndFrame": 2391,
+          "trimStartFrame": 14173
+        }
+      ],
+      "index": 2,
+      "label": "A1",
+      "name": "Dialogue",
+      "trackId": "9F1339A7",
+      "type": "audio"
+    }
+  ],
+  "width": 2560
+}

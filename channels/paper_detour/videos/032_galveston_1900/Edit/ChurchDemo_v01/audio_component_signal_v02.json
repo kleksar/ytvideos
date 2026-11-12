@@ -1,0 +1,143 @@
+{
+  "scope": "existing accepted audio component before mux; final exact encoded-audio hash must match this component",
+  "source_wav_sha256": "ddfe274d2a67c1250053192a0ef3b28f41cdd49e3120404a0fa9f8700ce5cd52",
+  "decoded_rate": 44100,
+  "source_samples": 25331155,
+  "component_samples": 25332921,
+  "source_duration": 574.4026077097506,
+  "component_duration": 574.4426530612245,
+  "full_common_samples_checked": 25331155,
+  "zero_lag_cosine": 0.9999767509060826,
+  "least_squares_gain": 1.4126452908424745,
+  "gain_corrected_residual_rms": 0.0007204893029744383,
+  "sample_peaks": [
+    0.899658203125,
+    1.2721468210220337
+  ],
+  "samples_ge_1": [
+    0,
+    557
+  ],
+  "lag_check_first30seconds": [
+    {
+      "samples": -2,
+      "cosine": 0.9180370364278975
+    },
+    {
+      "samples": -1,
+      "cosine": 0.9721438533248388
+    },
+    {
+      "samples": 0,
+      "cosine": 0.9999768764495882
+    },
+    {
+      "samples": 1,
+      "cosine": 0.9721388730879144
+    },
+    {
+      "samples": 2,
+      "cosine": 0.9180229007804621
+    }
+  ],
+  "downmix_gain_note": "Default ffmpeg stereo-to-mono matrix gives aboutsqrt2 boost for centred dual-mono. Values>=1 above refer to this analysis-only downmix, not delivered channels. Gain-correct0.5L+0.5R is equivalent to dividing this downmix bysqrt2.",
+  "gain_correct_mono_samples_ge_1": 0,
+  "stereo_full": {
+    "sample_peaks": [
+      0.8997583985328674,
+      0.8997583985328674
+    ],
+    "samples_ge_1": [
+      0,
+      0
+    ],
+    "frames": 27573248,
+    "left_right_cosine": 0.999998140210017,
+    "max_abs_channel_difference": 0.11293912678956985,
+    "mono_mapping": "ffmpeg standard downmix used only in memory for source correspondence; no audio written"
+  },
+  "last_source_windows": [
+    {
+      "start": 572.9,
+      "rms_dbfs": -34.73321377726645,
+      "peak_dbfs": -24.656556441633107
+    },
+    {
+      "start": 573.0,
+      "rms_dbfs": -32.93022022990805,
+      "peak_dbfs": -21.175606110719208
+    },
+    {
+      "start": 573.1,
+      "rms_dbfs": -35.10896883923139,
+      "peak_dbfs": -21.12416540163272
+    },
+    {
+      "start": 573.2,
+      "rms_dbfs": -30.190017368367865,
+      "peak_dbfs": -17.00676395769333
+    },
+    {
+      "start": 573.3,
+      "rms_dbfs": -25.161282249765044,
+      "peak_dbfs": -14.066781875132365
+    },
+    {
+      "start": 573.4,
+      "rms_dbfs": -27.12002764882213,
+      "peak_dbfs": -14.547046031588412
+    },
+    {
+      "start": 573.5,
+      "rms_dbfs": -28.514211925008063,
+      "peak_dbfs": -18.626899291205305
+    },
+    {
+      "start": 573.6,
+      "rms_dbfs": -26.509713366814346,
+      "peak_dbfs": -17.37700366478689
+    },
+    {
+      "start": 573.7,
+      "rms_dbfs": -31.210408671901455,
+      "peak_dbfs": -17.046292400039277
+    },
+    {
+      "start": 573.8,
+      "rms_dbfs": -26.703956372144866,
+      "peak_dbfs": -14.626642369935892
+    },
+    {
+      "start": 573.9,
+      "rms_dbfs": -27.750677434986994,
+      "peak_dbfs": -16.23457550065396
+    },
+    {
+      "start": 574.0,
+      "rms_dbfs": -36.65928238318842,
+      "peak_dbfs": -23.362398392855354
+    },
+    {
+      "start": 574.1,
+      "rms_dbfs": -38.795335891332236,
+      "peak_dbfs": -24.441747604965446
+    },
+    {
+      "start": 574.2,
+      "rms_dbfs": -43.224950814026684,
+      "peak_dbfs": -26.413163544755868
+    },
+    {
+      "start": 574.3,
+      "rms_dbfs": -77.93657145575256,
+      "peak_dbfs": -57.24474842368749
+    },
+    {
+      "start": 574.4,
+      "rms_dbfs": -89.74326414617283,
+      "peak_dbfs": -84.28839878591474
+    }
+  ],
+  "asr_tail": "inspect_media recognizes the complete final city itself. at573.12-573.72; no word omitted by ASR",
+  "subjective_listening": "UNVERIFIED"
+}

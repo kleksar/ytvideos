@@ -1,0 +1,52 @@
+{
+  "status": "READY_TO_RENDER",
+  "working_directory": "/Users/diplomat/ytvideos",
+  "picture_source": {
+    "path": "/Users/diplomat/ytvideos/.agent/research/2026-11-10-four-shorts/production/paper_fingers/Deliverables/paper_fingers_review_v03.mp4",
+    "sha256": "7b5c1ca603ff9a72e9ce05aa762648ec1b488fba78c442de467cdd176712a87a"
+  },
+  "audio": {
+    "mix": {
+      "path": "/Users/diplomat/ytvideos/.agent/research/2026-11-10-four-shorts/production/paper_fingers/Release/selected_mix_stereo.f32le",
+      "sha256": "a93f0792fdab0e80c2762b00b0be274e97fae2f509e6cb076b35d4f505b87edf"
+    },
+    "word_map": {
+      "path": "/Users/diplomat/ytvideos/.agent/research/2026-11-10-four-shorts/production/paper_fingers/Release/selected_mix_words.json",
+      "sha256": "360edc0d88e6faa27a70a2ef93b8f2b7792fdf075b10c9d37db45fbd7ba28eeb"
+    }
+  },
+  "argv": [
+    "ffmpeg",
+    "-nostdin",
+    "-hide_banner",
+    "-v",
+    "error",
+    "-xerror",
+    "-i",
+    "/Users/diplomat/ytvideos/.agent/research/2026-11-10-four-shorts/production/paper_fingers/Deliverables/paper_fingers_review_v03.mp4",
+    "-f",
+    "f32le",
+    "-ar",
+    "48000",
+    "-ac",
+    "2",
+    "-i",
+    "/Users/diplomat/ytvideos/.agent/research/2026-11-10-four-shorts/production/paper_fingers/Release/selected_mix_stereo.f32le",
+    "-map",
+    "0:v:0",
+    "-map",
+    "1:a:0",
+    "-c:v",
+    "copy",
+    "-c:a",
+    "aac",
+    "-profile:a",
+    "aac_low",
+    "-b:a",
+    "320k",
+    "-movflags",
+    "+faststart",
+    "/Users/diplomat/ytvideos/.agent/research/2026-11-10-four-shorts/production/paper_fingers/Deliverables/paper_fingers_A_thinking_music_release.mp4"
+  ],
+  "output": "/Users/diplomat/ytvideos/.agent/research/2026-11-10-four-shorts/production/paper_fingers/Deliverables/paper_fingers_A_thinking_music_release.mp4"
+}

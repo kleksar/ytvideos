@@ -1,0 +1,38 @@
+{
+  "state": "confirmed_with_unrequested_readback_change",
+  "action": "description_hashtag_block",
+  "channel_id": "UCbyLx6Rf3iWww4bPZJ2oo2A",
+  "video_id": "IC5BaMmQiPw",
+  "write": {
+    "endpoint": "YouTube Data API videos.update",
+    "part": "snippet",
+    "http_status": 200,
+    "etag_condition": "If-Match",
+    "fields_sent": ["id", "snippet.title", "snippet.categoryId", "snippet.description", "snippet.tags", "snippet.defaultLanguage"],
+    "only_requested_value_changed_in_request": "snippet.description"
+  },
+  "description_before": "When someone in your home fell ill during an epidemic, keeping your distance could mean leaving them without care. Protecting yourself reduced personal risk, but someone still had to bring water, provide food, and care for the sick.\n\n#BlackDeath #PlagueHistory #MedievalHistory #Shorts",
+  "description_after": "When someone in your home fell ill during an epidemic, keeping your distance could mean leaving them without care. Protecting yourself reduced personal risk, but someone still had to bring water, provide food, and care for the sick.\n\n#BlackDeath #PlagueHistory #MedievalHistory #Shorts #Florence1348 #EpidemicHistory #MedievalLife #LifeDuringThePlague #CareForTheSick #SocialInequality",
+  "readback": {
+    "description_match": true,
+    "title_unchanged": true,
+    "separate_tags_unchanged": true,
+    "category_id_unchanged": true,
+    "default_language_unchanged": true,
+    "default_audio_language_before": "en",
+    "default_audio_language_after": "en-US",
+    "default_audio_language_change_origin": "unverified; not included in the update request",
+    "privacy_before": "unlisted",
+    "privacy_after": "unlisted",
+    "processing_before": "succeeded",
+    "processing_after": "succeeded",
+    "verified_by": "fresh videos.list read at 2026-11-03T20:52:55Z; separate Tags exactly match the recorded before-state"
+  },
+  "readback_timing": "The immediate read after HTTP 200 still showed the old description and ETag. A subsequent fresh read showed the requested description; no second write was sent.",
+  "before_state": "api_read_before_v02.json",
+  "intermediate_read": "api_update_receipt_v02_intermediate.json",
+  "final_read": "api_read_after_v02_confirmed.json",
+  "api_update_state": "api_update_state_v02.json",
+  "research": "../Packaging/Shorts/help_during_plague_v01/HASHTAGS_v02.md",
+  "recorded_at_utc": "2026-11-03T20:52:55Z"
+}

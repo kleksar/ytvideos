@@ -1,0 +1,105 @@
+{
+  "purpose": "User A/B music preview; no user acceptance",
+  "episode": "paper_washington",
+  "variant": "B",
+  "video_source": "/Users/diplomat/ytvideos/.agent/research/2026-11-10-four-shorts/production/paper_washington/Deliverables/paper_washington_review_v02.mp4",
+  "video_source_sha256": "f72f53496132c7d788f4c255aeda502b3a57b05c4eae36095e93adc044267e98",
+  "video_contract": {
+    "mapping": "stream copy",
+    "size": [
+      1440,
+      2560
+    ],
+    "fps": "30/1",
+    "frames": 860,
+    "duration": 28.666666666666668
+  },
+  "voice": "/Users/diplomat/ytvideos/.agent/research/2026-11-10-four-shorts/production/paper_washington/voice/voice_en_110_draft.wav",
+  "voice_sha256": "103ba662cdf8a75278eb2babd865b3d71835b57360c5b3c748223a4d832d787b",
+  "voice_speed": 1.1,
+  "voice_mapping": "original dialogue, sample zero, unity gain, tail zero padding only",
+  "music": {
+    "title": "Signal to Noise — No Piano Melody",
+    "author": "Scott Buckley",
+    "source": "https://www.scottbuckley.com.au/library/signal-to-noise/",
+    "category": "Задумчивость, память, печальное ожидание",
+    "download": "https://www.scottbuckley.com.au/library/wp-content/uploads/2020/04/sb_signaltonoise_nomelody.mp3",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "file": "Tracks/Scott Buckley - Signal to Noise — No Piano Melody.mp3",
+    "sha256": "8e20b496b0614053565d4f43c80f469c84abd2aefb3ba01e29dfa813f49b9594",
+    "bytes": 14178456,
+    "duration_seconds": 354.353,
+    "channels": 2,
+    "sample_rate_hz": 44100
+  },
+  "music_credit": "'Signal to Noise — No Piano Melody' by Scott Buckley — https://www.scottbuckley.com.au/library/signal-to-noise/. CC BY 4.0: https://creativecommons.org/licenses/by/4.0/. Excerpt trimmed, EQ'd, faded and mixed under narration.",
+  "music_time_in_out_s": [
+    160.25,
+    188.916667
+  ],
+  "music_envelope_s_db": [
+    [
+      0,
+      -0.7
+    ],
+    [
+      6.75,
+      -0.5
+    ],
+    [
+      8.5,
+      -2.2
+    ],
+    [
+      10.65,
+      -2.2
+    ],
+    [
+      12.6,
+      -1.2
+    ],
+    [
+      13.65,
+      -3.8
+    ],
+    [
+      15.0,
+      -3.8
+    ],
+    [
+      18.95,
+      -1.8
+    ],
+    [
+      22.05,
+      0.3
+    ],
+    [
+      25.05,
+      0.8
+    ],
+    [
+      26.95,
+      -1.0
+    ],
+    [
+      28.67,
+      -0.7
+    ]
+  ],
+  "music_processing": {
+    "eq": "highpass=f=55,equalizer=f=1700:t=o:w=1.4:g=-1.7",
+    "gain_db": -10.58,
+    "target_lufs": -37.0,
+    "fade_in_s": 0.075,
+    "fade_out_s": 0.21
+  },
+  "audio_export": {
+    "codec": "AAC-LC",
+    "channels": 2,
+    "sample_rate": 48000,
+    "target_bitrate_kbps": 320
+  },
+  "output": "/Users/diplomat/ytvideos/.agent/research/2026-11-10-four-shorts/production/paper_washington/Edit/Previews/music_ab_v01/paper_washington_B_signal_to_noise_no_piano.mp4"
+}

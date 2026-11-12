@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "palmier_projects": [
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/035_mantis_shrimp_club/Edit/Paper Detour 035 Mantis Shrimp Evolution v01.palmier"
+  ],
+  "pins": [
+    {
+      "path": "Edit/Previews/Paper Detour 035 Motion Safe Review v02.mp4",
+      "reason": "User-reviewed motion-safe comparison preview retained as export reference"
+    },
+    {
+      "path": "Edit/QA/final-qa-v01/reviewer_receipt_v02.json",
+      "reason": "Final QA evidence for the motion-safe preview and pacing-policy defect"
+    },
+    {
+      "path": "Source",
+      "reason": "Permanent sources / independent products; no automatic cleanup"
+    },
+    {
+      "path": "Work/final-qa-v02",
+      "reason": "Existing owned run; disposition remains with its author"
+    },
+    {
+      "path": "Work/final-export-v01",
+      "reason": "Existing owned run; disposition remains with its author"
+    },
+    {
+      "path": "Work/final-qa-v01",
+      "reason": "Existing owned run; disposition remains with its author"
+    },
+    {
+      "path": "Work/storage-rollout-20261102/previews/legacy/Edit/Previews/Paper Detour 035 Mantis Shrimp Evolution Static Review v01.mp4",
+      "reason": "Retained still baseline comparison; original path remains readable"
+    }
+  ],
+  "current": [],
+  "active_work": [
+    {
+      "path": "Edit/QA",
+      "reason": "Active session scope observed after warning; preserve paths"
+    },
+    {
+      "path": "Edit/Export",
+      "reason": "Active session scope observed after warning; preserve paths"
+    },
+    {
+      "path": "Edit/ImageMotion",
+      "reason": "Active session scope observed after warning; preserve paths"
+    },
+    {
+      "path": "Edit/Previews/Paper Detour 035 Motion Safe Review v02.mp4",
+      "reason": "Active QA target with pacing defect; preserve preview, do not promote"
+    },
+    {
+      "path": "Source/Images/paper_v03",
+      "reason": "Active user-authorized full scene image replacement, 2026-11-02; preserve until reviewed and imported."
+    },
+    {
+      "path": "Work/image-storyboard-revision-v03",
+      "reason": "Active user-authorized storyboard, timing and full image revision run, 2026-11-02; preserve run evidence."
+    }
+  ],
+  "candidates": [
+    {
+      "path": "Work/storage-rollout-20261102/previews/legacy/Edit/Previews/Paper Detour 035 Mantis Shrimp Evolution Motion Review v01.mp4",
+      "role": "rejected_preview",
+      "status": "rejected",
+      "reason": "Superseded motion preview with user-reported cropping; retained v02 framing revision plus original selected sources, timelines and old QA evidence. Storage disposition by coordinator under explicit cleanup instruction, not new final QA approval.",
+      "evidence": [
+        "Edit/MediaLifecycle/rollout-20261102/decision-00.json",
+        "Source/Production/PALMIER_EDIT_LOG_20261102.md"
+      ],
+      "rebuild_from": [
+        "Edit/Previews/Paper Detour 035 Motion Safe Review v02.mp4"
+      ]
+    }
+  ]
+}

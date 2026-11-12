@@ -1,0 +1,175 @@
+{
+  "before": {
+    "FE26F72F": {
+      "frames": [
+        130,
+        311
+      ],
+      "id": "FE26F72F",
+      "keyframes": {
+        "opacity": [
+          [
+            0,
+            0
+          ],
+          [
+            45,
+            1
+          ],
+          [
+            90,
+            0
+          ],
+          [
+            135,
+            1
+          ],
+          [
+            180,
+            0
+          ]
+        ]
+      },
+      "mediaRef": "8004EB89",
+      "mediaType": "image"
+    },
+    "C53F336C": {
+      "frames": [
+        4102,
+        4201
+      ],
+      "id": "C53F336C",
+      "keyframes": {
+        "opacity": [
+          [
+            0,
+            0
+          ],
+          [
+            25,
+            1
+          ],
+          [
+            49,
+            0
+          ],
+          [
+            74,
+            1
+          ],
+          [
+            98,
+            0
+          ]
+        ]
+      },
+      "mediaRef": "8004EB89",
+      "mediaType": "image",
+      "trimEndFrame": 51
+    }
+  },
+  "steps": [
+    {
+      "clipId": "FE26F72F",
+      "state": "done",
+      "result": {
+        "affectedClipIds": [
+          "FE26F72F"
+        ],
+        "changed": true,
+        "clipId": "FE26F72F",
+        "clips": [
+          {
+            "frames": [
+              130,
+              311
+            ],
+            "id": "FE26F72F",
+            "keyframes": {
+              "opacity": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  45,
+                  1
+                ],
+                [
+                  90,
+                  0
+                ],
+                [
+                  135,
+                  1
+                ],
+                [
+                  180,
+                  0
+                ]
+              ]
+            },
+            "mediaRef": "9313B992",
+            "mediaType": "image",
+            "track": 7
+          }
+        ],
+        "mediaRef": "9313B992",
+        "oldMediaRef": "8004EB89"
+      }
+    },
+    {
+      "clipId": "C53F336C",
+      "state": "done",
+      "result": {
+        "affectedClipIds": [
+          "C53F336C"
+        ],
+        "changed": true,
+        "clipId": "C53F336C",
+        "clips": [
+          {
+            "frames": [
+              4102,
+              4201
+            ],
+            "id": "C53F336C",
+            "keyframes": {
+              "opacity": [
+                [
+                  0,
+                  0
+                ],
+                [
+                  25,
+                  1
+                ],
+                [
+                  49,
+                  0
+                ],
+                [
+                  74,
+                  1
+                ],
+                [
+                  98,
+                  0
+                ]
+              ]
+            },
+            "mediaRef": "9313B992",
+            "mediaType": "image",
+            "track": 7,
+            "trimEndFrame": 51
+          }
+        ],
+        "mediaRef": "9313B992",
+        "oldMediaRef": "8004EB89"
+      }
+    }
+  ],
+  "source": "/Users/diplomat/ytvideos/channels/nuviko_stories/videos/013_сестра_пришла_на_помолвку_в_свадебном_платье/Source/Images/vpn_profile_top_new_2.png",
+  "sha256": "70444f293ef6790ba4240d556ffa918be35280b2729ddb5ce1f4263e40de8d70",
+  "newRef": "9313B992"
+}

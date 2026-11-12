@@ -1,0 +1,256 @@
+{
+  "schema_version": 1,
+  "status": "RENDERED_PENDING_USER_REVIEW",
+  "episode": "038_uss_lincoln_pattaya",
+  "language": "en",
+  "format": "Paper Detour Short",
+  "purpose": "stage-16 exported MP4 review",
+  "settings_profile": {
+    "path": "/Users/diplomat/ytvideos/.agents/skills/ytv-video-export/references/delivery.md",
+    "sha256": "da02b370bc3c8339822292909b45c270460d44f4308922ab4272906c10bc8fc5"
+  },
+  "edit": {
+    "project_id": "020961F2",
+    "timeline_id": "058B37CE",
+    "saved_revision_evidence": "Palmier snapshot 6C231D9F; isolated timeline clone 058B37CE; separate word-highlight overlay clip B239397E on V2 above 15 unchanged scene clips; readback timeline_read_v08.json",
+    "timeline_read_path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Edit/Export/timeline_read_v08.json",
+    "timeline_read_sha256": "4603428dfa9de6c792c1fb1d392698ec9819034840cc7fd24a01f63086c7c7bc",
+    "dependencies": [
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Source/Script/narration_en_v07.md",
+        "sha256": "7ee7bc22e78e76b45d3e1b0e596f3437d0096944917893c755aea31042e9e65f",
+        "role": "accepted exact narration"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Source/Voice/en_v07/voice_en.mp3",
+        "sha256": "90c6185e0728d9aab7646cdb24fa7e278dea687a218e7bc4240ad081bb2cf0fe",
+        "role": "accepted voice recording"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Source/Voice/en_v07/voice_en.alignment.json",
+        "sha256": "1ec1f92979be95268afa2de90fa1f982fae59966e05bb092df970d0513142a10",
+        "role": "provider word alignment; draft"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Storyboard/storyboard_v03.md",
+        "sha256": "e5963467799b26fef8f131c92b03210cb9168724ea19264068881bcaa7c6e66d",
+        "role": "scene order and exact scene ranges"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Edit/ImageMotion/sources_v03.json",
+        "sha256": "05790d236d57c09afe34a4087a19d71491ae8d3a57162af374ee46b4fed2a0a2",
+        "role": "still source map"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Edit/ImageMotion/motion_v03.json",
+        "sha256": "d01780bc1aa648a970f3ec2a45017726f1fb674fa0402e127f53cf21d7675c82",
+        "role": "parallax/camera/grain plan"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Edit/ImageMotion/948de00cd7dfa621939e/run.json",
+        "sha256": "6013bbfbc853061f135df9606ede98625e080b90354b010647d9e9ec9bb53071",
+        "role": "completed image-motion receipt"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Edit/Export/timeline_read_v07.json",
+        "sha256": "daf66b584f4c70eb76d2d24c0c42bedee136ae7674cc32fc1f12f4a9e5aab3bd",
+        "role": "fresh saved timeline read"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Source/Subtitles/shorts_en_v06.srt",
+        "sha256": "ca22e24e1963229b5ac7df8cee7f0b6027930b44ca3862d60a17b137241b126b",
+        "role": "exact text/time cue transfer"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Source/Subtitles/cue_map_en_v06.json",
+        "sha256": "580b561e4529dfb5d2b7ee2c92dcd69d12dfdef028699a4637e8dd9de44bc28a",
+        "role": "caption group and forced timing map"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Work/paper038-review-v03/forced_alignment_v01.json",
+        "sha256": "eea028b2341d17f9f5bfde3ee18ffc7899683c03b4f699ad0918af8871e65c5a",
+        "role": "independent forced-alignment estimate; REVIEW_REQUIRED"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Work/paper038-review-v03/forced_word_map_v01.json",
+        "sha256": "ae8816a2f7c6f1cef2a634eecf84f438624b96d247c3111bbdb04d461765578e",
+        "role": "audio-hash-bound word timing map; REVIEW_REQUIRED"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Source/Images/paper_v03/GENERATION_LOG_v03.md",
+        "sha256": "131227dba22918477f0ca386e821635b4c5fbab1ec40e7c983e37c2b4955b7d4",
+        "role": "source provenance for new scene stills"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Source/Images/paper_v02/S01_v03.png",
+        "sha256": "0b9c78af3e79903ad1ec57854c53f332e3a6277e9e73a0eeac31fe779aa642de",
+        "role": "selected Paper scene still"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Source/Images/paper_v03/S07_v04.png",
+        "sha256": "4280429201204407660e3c2dbf580f8975b60b95d1a2e92cf8a6ce57dfd7a931",
+        "role": "selected Paper scene still"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Source/Images/paper_v02/S02_v03.png",
+        "sha256": "7773aa3d5591bffdd26591a87e2741414ffdb6720fcf9f41ee453adbef0e8d43",
+        "role": "selected Paper scene still"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Source/Images/paper_v03/S06_v03.png",
+        "sha256": "9dd6329fee01f17dcfc65e28560f312f12c83a05b025965bd6818040f00f2a03",
+        "role": "selected Paper scene still"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Source/Images/paper_v02/S04_v02.png",
+        "sha256": "9a7e9011926e340588efaf055d6d39389a06fc82615d30c217d3b1a425603d0d",
+        "role": "selected Paper scene still"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Source/Images/paper_v02/S12_v02.png",
+        "sha256": "56cebfe22637dcd421af7eb792b42181836dc0dd1824631682463a7366783ee1",
+        "role": "selected Paper scene still"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Source/Images/paper_v03/S12_v03.png",
+        "sha256": "44c9371175486488bf37eeff23e90a4860d1862fe2bd63bf5f07602122c7b521",
+        "role": "selected Paper scene still"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Source/Images/paper_v02/S09_v02.png",
+        "sha256": "4e8ff6fc692f99cf684de92bb06a79d92d4abd138552b0d690f88457a764d1ef",
+        "role": "selected Paper scene still"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Source/Images/paper_v02/S13_v02.png",
+        "sha256": "dbfbffe11d66aa4832655751fa6fc5c25b16824b241fc6ef652bc0785014eb28",
+        "role": "selected Paper scene still"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Source/Images/paper_v02/S14_v03.png",
+        "sha256": "90cdab19e32916e224e70005395306f5231b2a0ca2b070e214c72307cea55510",
+        "role": "selected Paper scene still"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Source/Images/paper_v03/S10_v04.png",
+        "sha256": "2075f79f0a143ebe9b5a1e4fe2f5019f05150b8b3359d933380d95f8a81e7664",
+        "role": "selected Paper scene still"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Work/paper038-subtitle-overlay-v03/subtitle_overlay_2k_prores4444.mov",
+        "sha256": "e9ccdc1ce9db1da7310a351d28469ce79f144f04c290e525dfdeb44394d58d9c",
+        "role": "active Palmier local-path dependency; transparent exclusive-word caption overlay"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Edit/Export/timeline_read_v08.json",
+        "sha256": "4603428dfa9de6c792c1fb1d392698ec9819034840cc7fd24a01f63086c7c7bc",
+        "role": "fresh Palmier timeline structure readback"
+      }
+    ]
+  },
+  "timeline": {
+    "width": 1440,
+    "height": 2560,
+    "aspect_ratio": "9:16",
+    "sample_aspect_ratio": "1:1",
+    "fps": "30/1",
+    "frame_count": 1786,
+    "duration_seconds": 59.53333333333333,
+    "output_color_space": "rec709"
+  },
+  "required_delivery": {
+    "container": "mp4",
+    "video": {
+      "codec_name": "h264",
+      "pix_fmt": "yuv420p",
+      "scan": "progressive",
+      "cadence": "constant 30/1",
+      "color_primaries": "bt709",
+      "color_transfer": "bt709",
+      "color_space": "bt709",
+      "color_range": "tv"
+    },
+    "audio_contract": {
+      "owner_handoff": "ytv-audio-delivery Paper Detour; voice + generated music on current timeline; no SFX track. Subjective listening remains for QA/user review.",
+      "accepted_complete_mix": "Voice ABA776FC at frames [0,1785), source MP3 SHA 90c6185e0728d9aab7646cdb24fa7e278dea687a218e7bc4240ad081bb2cf0fe, mono 44100 Hz; Music D18F4AC7 at [0,1785), -24 dB, smooth 30-frame fade-in and 15-frame fade-out. Music cost 12 credits under prior authorization.",
+      "source_rate_channels": "Voice: 44100 Hz mono MP3. Music: generated 60.029-second Palmier asset; source channel layout not exposed by the current asset inspector. Preserve its stereo if present; verify mix output.",
+      "codec_name": "aac",
+      "profile": "LC",
+      "sample_rate": "AUTO_ENGINE_MANAGED; measure actual output",
+      "channels": "AUTO_ENGINE_MANAGED; preserve music channels where present; measure actual output",
+      "target_bit_rate": "AUTO_ENGINE_MANAGED"
+    }
+  },
+  "encoding": {
+    "engine": "Palmier Pro native export",
+    "version_evidence": "Current installed build; MCP export_project; version string unavailable",
+    "requested_arguments": {
+      "mode": "video",
+      "codec": "H.264",
+      "resolution": "Match Timeline",
+      "timelineId": "058B37CE",
+      "outputPath": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Deliverables/Paper038_EN_v07_review_v03.mp4",
+      "overwrite": false
+    },
+    "quality_preferences": {
+      "preset": "HighestQuality via Match Timeline, engine-managed",
+      "bitrate": "No fixed bitrate control; measure output",
+      "fast_start": "Preferred but engine control unavailable"
+    },
+    "capability_evidence": "ytv-video-export/references/palmier.md; live timeline 1440x2560, 30 fps, Rec.709; existing 2K export readback had 1440x2560 H.264 yuv420p bt709 at 30/1.",
+    "engine_managed_fields": [
+      "H.264 profile/level/GOP/B-frames/bitrate",
+      "AAC sample rate/channel layout/bitrate",
+      "Fast Start/edit lists/signal-range switch"
+    ]
+  },
+  "preflight": {
+    "author": "Codex",
+    "time": "2026-11-03",
+    "authorization_references": [
+      "User-approved exact EN v07 narration and production sound for Paper 038",
+      "User-approved autonomous production through exported MP4 stage 16"
+    ],
+    "fresh_settings_evidence": "Edit/Export/timeline_read_v08.json sha256 4603428dfa9de6c792c1fb1d392698ec9819034840cc7fd24a01f63086c7c7bc; current timeline 1440x2560 at 30/1",
+    "writer_and_export_state": "Palmier export job CBFD7C28-A875-4644-82FE-46048853D08D completed; isolated clone timeline 058B37CE; snapshot 6C231D9F",
+    "output_path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Deliverables/Paper038_EN_v07_review_v03.mp4",
+    "overwrite": false,
+    "media_lifecycle_receipt": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Edit/MediaLifecycle/audit-paper038-pre-render-v04/audit.json",
+    "unresolved_required_fields": [],
+    "lifecycle_limitations": "Read-only audit is BOUNDED_NOT_EXHAUSTIVE; two unrelated large published-media research JSONL files were skipped by text dependency scan. No deletion is authorized by this audit. All known project imports/protected files remain intact."
+  },
+  "render_receipt": {
+    "job_id": "CBFD7C28-A875-4644-82FE-46048853D08D",
+    "job_status": "completed",
+    "file": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Deliverables/Paper038_EN_v07_review_v03.mp4",
+    "sha256": "aedfa79d015287c1807c7ac7af4ce5790691338b1d4e05b1b14c8f2575f5d1bd",
+    "size_bytes": 117905996,
+    "actual_measured_summary": {
+      "container": "MP4",
+      "video": "H.264 High, 1440x2560, yuv420p, 30/1, 1786 frames, 59.533333 sec, BT.709 limited",
+      "audio": "AAC LC, stereo, 44100 Hz, 122897 b/s, 59.500 sec"
+    },
+    "warnings": []
+  },
+  "qa_receipt": {
+    "technical_report_path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Edit/QA/paper038-en-v07-caption-fix-v03/report.json",
+    "technical_report_sha256": "7b0d39e8f6d40094c88e209e790c812192fac51c47ff248d1912a993743dbe0a",
+    "technical_status": "PASS",
+    "overall_verdict": "UNVERIFIED_PENDING_USER_REVIEW",
+    "freshness": "CURRENT",
+    "checks": {
+      "stream_metadata": "PASS",
+      "full_decode": "PASS",
+      "frame_extraction": "PASS",
+      "word_highlighting": "PASS",
+      "frame_sampling": "PARTIAL",
+      "cue_timing": "UNVERIFIED",
+      "motion_framing": "UNVERIFIED",
+      "audio_signal": "UNVERIFIED",
+      "subjective_audio_listening": "UNVERIFIED",
+      "independent_review": "UNVERIFIED"
+    },
+    "word_highlighting_evidence": "Visual contact sheets cover all 158 mapped word-start frames. At each sampled onset only the expected current word is yellow; previous and remaining words are cream. Evidence: Edit/QA/paper038-en-v07-caption-fix-v03/word_start_sheet_01.jpg through word_start_sheet_09.jpg. Mapping is frame ceil(start_seconds \u00d7 30).",
+    "limitations": "The automatic word map remains REVIEW_REQUIRED; actual spoken onset sync and subjective mix have not been listened through. Only mapped word starts were visually reviewed; all 546 extracted frames were not visually inspected. Motion source/render chain is unchanged from the prior accepted pass; full motion framing was not re-reviewed on v03."
+  }
+}

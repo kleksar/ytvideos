@@ -1,0 +1,45 @@
+{
+  "method": "Full-frame image generation and edits; no separately generated people composited into scenes",
+  "images": [
+    {
+      "file": "Source/Images/v19/empty.png",
+      "sha256": "8b3d4ab960defa4bcd82a0f8f2b3271134aa6a8e065422dbcc78e8ebbb9c55f5",
+      "reference": "Prior generated empty supermarket anchor, copied from v18/background.png"
+    },
+    {
+      "file": "Source/Images/v19/hook.png",
+      "sha256": "6fb0e9fb524a5ca384aedefa15be1f1e5610369b3b5cb96aa7b97decd3de471a",
+      "reference": "empty"
+    },
+    {
+      "file": "Source/Images/v19/join_initial.png",
+      "sha256": "01b28eeebcc21f7ffe86327c070ff49f2c3fdcb9384a3af0a8424c531645e16e",
+      "reference": "hook"
+    },
+    {
+      "file": "Source/Images/v19/join.png",
+      "sha256": "c47e1f87dba0369b0398aff8d1fd26032e350024a399f82e295689e6ec420733",
+      "reference": "join_initial"
+    },
+    {
+      "file": "Source/Images/v19/one.png",
+      "sha256": "0eae1462112d989ae410733728136da014355f127e81ef07d54884897747d82f",
+      "reference": "join"
+    },
+    {
+      "file": "Source/Images/v19/two.png",
+      "sha256": "f525771b7c2cd7d18253e09811d9d91e0fe0ef6f8eacafb367dc7ea877c4de2c",
+      "reference": "one"
+    },
+    {
+      "file": "Source/Images/v19/payment.png",
+      "sha256": "a9ae30c9c899d6f1201e8c2124a48a20a472db6a1016bc538a28cc2cb62ae44f",
+      "reference": "two"
+    },
+    {
+      "file": "Source/Images/v19/result.png",
+      "sha256": "889e38fc2220753cddfe1ecd15b01069a72dfc4d9f0f62ece6de117e3893686c",
+      "reference": "two"
+    }
+  ]
+}

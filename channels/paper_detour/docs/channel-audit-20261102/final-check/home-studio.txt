@@ -1,0 +1,132 @@
+- generic: Настройки канала
+- banner:
+  - button "Свернуть меню":
+  - link "Панель управления в новой Творческой студии":
+    - /url: /channel/UCMVfdfaNxV3ZkI3_J3Eejzw
+    - img "Панель управления в новой Творческой студии"
+  - button "Пропустить навигацию":
+    - generic: Пропустить навигацию
+  - textbox "Поиск на канале"
+  - button "Справка":
+  - button "Уведомления":
+  - button "Спросить у Студии":
+    - generic: Спросить у Студии
+  - button "Создать":
+    - generic: Создать
+  - generic "Аккаунт":
+    - button "Account"
+  - progressbar
+- navigation:
+  - img "Paper Detour"
+  - generic: Ваш канал
+  - generic: Paper Detour
+  - menu:
+    - menuitem "Главная":
+      - generic: Главная
+    - menuitem "Контент":
+      - generic: Контент
+    - menuitem "Аналитика":
+      - generic: Аналитика
+    - menuitem "Сообщество":
+      - generic: Сообщество
+    - menuitem "Языки":
+      - generic: Языки
+    - menuitem "Обнаружение контента":
+      - generic: Обнаружение контента
+    - menuitem "Монетизация":
+      - generic: Монетизация
+    - menuitem "Настройка канала":
+      - generic: Настройка канала
+    - menuitem "Фонотека":
+      - generic: Фонотека
+  - list:
+    - button "Настройки":
+      - generic: Настройки
+    - button "Отправить отзыв":
+      - generic: Отправить отзыв
+- main:
+  - heading "Настройки канала" [level=1]
+  - tablist:
+    - tab "Профиль":
+      - generic: Профиль
+    - tab "Вкладка \"Главная\"" [active] [selected]:
+      - generic: Вкладка "Главная"
+  - button "Перейти на канал":
+    - generic: Перейти на канал
+  - button "Отмена" [disabled]:
+    - generic: Отмена
+  - button "Опубликовать" [disabled]:
+    - generic: Опубликовать
+  - heading "Вкладка \"Главная\"" [level=2]
+  - paragraph: На вкладке "Главная" можно рекомендовать контент для своей аудитории
+  - switch "Скрыть вкладку \"Главная\"" [checked]
+  - generic: Макет
+  - generic: Вы можете добавить на главную страницу канала до 12 разделов.
+  - button "Добавить раздел":
+    - generic: Добавить раздел
+  - heading "Для вас" [level=2]
+  - 'button "Для вас: параметры"':
+  - article:
+    - article:
+      - text: В этом разделе зрители увидят рекомендации на основе своих интересов. Он будет показываться, только если у вас достаточно контента.
+      - link "Настройки":
+        - /url: "#"
+      - generic "Вы можете сами выбрать типы контента для этого раздела и настроить его так, чтобы продвигать новые видео.":
+  - heading "Короткие видео (14)" [level=2]
+  - 'button "Короткие видео: параметры"':
+  - article:
+    - article:
+      - generic: 0:36
+      - generic: 0:46
+      - generic: 0:45
+      - generic: 0:51
+      - generic: 1:12
+  - heading "Видео (7)" [level=2]
+  - 'button "Видео: параметры"':
+  - article:
+    - article:
+      - generic: 9:35
+      - generic: 3:11
+      - generic: 1:12
+      - generic: 1:01
+      - generic: 2:09
+  - 'heading "Один плейлист: Real Stories & Discoveries (12)" [level=2]'
+  - 'button "Real Stories & Discoveries: параметры"':
+  - article:
+    - article:
+      - generic: 4:21
+      - generic: 0:30
+      - generic: 0:37
+      - generic: 0:36
+      - generic: 0:35
+  - 'heading "Один плейлист: Science & What If (3)" [level=2]'
+  - 'button "Science & What If: параметры"':
+  - article:
+    - article:
+      - generic: 0:45
+      - generic: 0:46
+      - generic: 0:51
+  - 'heading "Один плейлист: Legends & Personal Stories (4)" [level=2]'
+  - 'button "Legends & Personal Stories: параметры"':
+  - article:
+    - article:
+      - generic: 1:17
+      - generic: 0:45
+      - generic: 2:09
+      - generic: 0:36
+  - 'heading "Один плейлист: Digital Life & Attention (2)" [level=2]'
+  - 'button "Digital Life & Attention: параметры"':
+  - article:
+    - article:
+      - generic: 0:29
+      - generic: 0:45
+  - heading "Записи (2)" [level=2]
+  - 'button "Записи: параметры"':
+  - article:
+    - article:
+      - generic: "+2"
+  - heading "Коллаборации (0)" [level=2]
+  - 'button "Коллаборации: параметры"':
+  - article:
+    - article:
+      - generic: В этом разделе будут собраны видео, созданные вместе с другими авторами.

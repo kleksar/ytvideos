@@ -1,0 +1,47 @@
+{
+  "file": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Edit/v09/PAPER_DETOUR_030_GRAIN_25_BASELINE_EN_v09_native.mp4",
+  "sha256": "8889b9f6b830066c7caea0f782ddd93f52449b2cade1f9e5294fcea008340df0",
+  "bytes": 255447486,
+  "ffprobe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2,
+        "r_frame_rate": "0/0",
+        "bit_rate": "247576"
+      },
+      {
+        "index": 1,
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "bit_rate": "10503162"
+      }
+    ],
+    "format": {
+      "duration": "190.000000",
+      "size": "255447486",
+      "bit_rate": "10755683"
+    }
+  },
+  "full_decode": "PASS (-xerror)",
+  "audio_payload_sha256_v09": "a9a00dbf0bc3e2cf262f2d1c290019c92c65d041d3b890655aae9a19fe165c31",
+  "audio_payload_sha256_accepted_mix": "3ba2d8175d566eff1addd0b5278b82fd36616a5e41da0e68cba1531939321e6e",
+  "audio_payload_match": false,
+  "sampled_frames": [
+    367,
+    1380,
+    2983,
+    4990
+  ],
+  "contact_sheet": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Edit/v09/QA/GRAIN_BASELINE_v08_vs_v09.png",
+  "full_1x_playback": "NOT_PERFORMED",
+  "independent_review": "NOT_PERFORMED"
+}

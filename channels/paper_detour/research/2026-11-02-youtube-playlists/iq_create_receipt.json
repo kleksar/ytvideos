@@ -1,0 +1,245 @@
+{
+  "operation": "iq_create",
+  "channel_id": "UCMVfdfaNxV3ZkI3_J3Eejzw",
+  "started_at": "2026-11-01T23:55:19.992792+00:00",
+  "state": "saved_verified",
+  "before": [
+    {
+      "kind": "youtube#playlist",
+      "etag": "2CU-w7t_U1O7tzSknQiuVKNOMSs",
+      "id": "PLCAXo3w7Gths",
+      "snippet": {
+        "publishedAt": "2026-11-01T14:20:52.727741699Z",
+        "channelId": "UCMVfdfaNxV3ZkI3_J3Eejzw",
+        "title": "Digital Life & Attention",
+        "description": "Short films about social media, attention, screen time, AI companions, digital relationships, and making room for life beyond the feed.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/-KW8jgSoEz0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/-KW8jgSoEz0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/-KW8jgSoEz0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/-KW8jgSoEz0/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/-KW8jgSoEz0/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Paper Detour",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "Digital Life & Attention",
+          "description": "Short films about social media, attention, screen time, AI companions, digital relationships, and making room for life beyond the feed."
+        }
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "x3G_lz9pEUEH-daE2DEQiYFaHz0",
+      "id": "PLa2eDoWjSKkA",
+      "snippet": {
+        "publishedAt": "2026-11-01T13:41:36.696656431Z",
+        "channelId": "UCMVfdfaNxV3ZkI3_J3Eejzw",
+        "title": "Legends & Personal Stories",
+        "description": "Legends and adapted personal stories retold as handmade paper-diorama films. These narratives may come from folklore, remembered accounts, or stories without independent verification.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/pdSgHe6ScTI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/pdSgHe6ScTI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/pdSgHe6ScTI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/pdSgHe6ScTI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/pdSgHe6ScTI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Paper Detour",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "Legends & Personal Stories",
+          "description": "Legends and adapted personal stories retold as handmade paper-diorama films. These narratives may come from folklore, remembered accounts, or stories without independent verification."
+        }
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "A2Wfkx06AfWMrO2EYJ28FFhaO1I",
+      "id": "PLEIDCTZ8y2k8",
+      "snippet": {
+        "publishedAt": "2026-10-29T20:47:32.476932316Z",
+        "channelId": "UCMVfdfaNxV3ZkI3_J3Eejzw",
+        "title": "Real Stories & Discoveries",
+        "description": "Real events and lives reconstructed as handmade paper-diorama films, with the story kept within what the available evidence supports.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/0RaC4t7yn5o/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/0RaC4t7yn5o/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/0RaC4t7yn5o/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/0RaC4t7yn5o/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/0RaC4t7yn5o/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Paper Detour",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "Real Stories & Discoveries",
+          "description": "Real events and lives reconstructed as handmade paper-diorama films, with the story kept within what the available evidence supports."
+        }
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    }
+  ],
+  "request": {
+    "method": "POST",
+    "resource": "playlists",
+    "part": "snippet,status",
+    "body": {
+      "snippet": {
+        "title": "Reported IQ Estimates",
+        "description": "A focused collection of published IQ estimates attributed to notable people. These figures are reported claims, not results from a single standardized or directly comparable test.",
+        "defaultLanguage": "en"
+      },
+      "status": {
+        "privacyStatus": "private"
+      }
+    }
+  },
+  "http_status": 200,
+  "response": {
+    "kind": "youtube#playlist",
+    "etag": "aoks9Du47L-3IYrb0QDQXFPRxNk",
+    "id": "PLOSBLM3rTTl0",
+    "snippet": {
+      "publishedAt": "2026-11-01T23:55:20.540842257Z",
+      "channelId": "UCMVfdfaNxV3ZkI3_J3Eejzw",
+      "title": "Reported IQ Estimates",
+      "description": "A focused collection of published IQ estimates attributed to notable people. These figures are reported claims, not results from a single standardized or directly comparable test.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/img/no_thumbnail.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/img/no_thumbnail.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/img/no_thumbnail.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "Paper Detour",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "Reported IQ Estimates",
+        "description": "A focused collection of published IQ estimates attributed to notable people. These figures are reported claims, not results from a single standardized or directly comparable test."
+      }
+    },
+    "status": {
+      "privacyStatus": "private"
+    }
+  },
+  "verified_at": "2026-11-01T23:55:40.636962+00:00",
+  "after": {
+    "kind": "youtube#playlist",
+    "etag": "dnQQYXoT2ZjRMF9veBHh8Fs5Bhg",
+    "id": "PLOSBLM3rTTl0",
+    "snippet": {
+      "publishedAt": "2026-11-01T23:55:20.540842257Z",
+      "channelId": "UCMVfdfaNxV3ZkI3_J3Eejzw",
+      "title": "Reported IQ Estimates",
+      "description": "A focused collection of published IQ estimates attributed to notable people. These figures are reported claims, not results from a single standardized or directly comparable test.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/img/no_thumbnail.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/img/no_thumbnail.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/img/no_thumbnail.jpg",
+          "width": 480,
+          "height": 360
+        }
+      },
+      "channelTitle": "Paper Detour",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "Reported IQ Estimates",
+        "description": "A focused collection of published IQ estimates attributed to notable people. These figures are reported claims, not results from a single standardized or directly comparable test."
+      }
+    },
+    "status": {
+      "privacyStatus": "private"
+    },
+    "contentDetails": {
+      "itemCount": 0
+    }
+  },
+  "reconciliation_snapshot": "AFTER_CREATE_RECONCILIATION.json",
+  "reconciliation_note": "Initial by-ID read was empty after accepted POST. Full read-only inventory confirms the single new playlist; no second POST."
+}

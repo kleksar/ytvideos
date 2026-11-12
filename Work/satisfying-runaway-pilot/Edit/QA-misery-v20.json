@@ -1,0 +1,458 @@
+{
+  "output": "/Users/diplomat/ytvideos/Deliverables/Satisfying-Elements/Misery-Elements-v20.mp4",
+  "sha256": "e3484b7d456545b51c987ca54197cd54d187a202d0a2f8ed7d538e9dcca79c31",
+  "contract": "/Users/diplomat/ytvideos/Work/satisfying-runaway-pilot/Edit/EXPORT_CONTRACT_misery_v20.json",
+  "contract_sha256": "80babaddead37c0e1e01016f654ea11d2463e4eb970195aa17c4ac0f5bce6a36",
+  "full_decode": "PASS",
+  "streams": [
+    {
+      "index": 0,
+      "codec_name": "h264",
+      "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+      "profile": "High",
+      "codec_type": "video",
+      "codec_tag_string": "avc1",
+      "codec_tag": "0x31637661",
+      "mime_codec_string": "avc1.64002a",
+      "width": 1080,
+      "height": 1920,
+      "coded_width": 1088,
+      "coded_height": 1920,
+      "has_b_frames": 2,
+      "sample_aspect_ratio": "1:1",
+      "display_aspect_ratio": "9:16",
+      "pix_fmt": "yuv420p",
+      "level": 42,
+      "color_range": "tv",
+      "color_space": "bt709",
+      "color_transfer": "bt709",
+      "color_primaries": "bt709",
+      "chroma_location": "left",
+      "field_order": "progressive",
+      "refs": 4,
+      "is_avc": "true",
+      "nal_length_size": "4",
+      "id": "0x1",
+      "r_frame_rate": "30/1",
+      "avg_frame_rate": "30/1",
+      "time_base": "1/15360",
+      "start_pts": 0,
+      "start_time": "0.000000",
+      "duration_ts": 232960,
+      "duration": "15.166667",
+      "bit_rate": "27055190",
+      "bits_per_raw_sample": "8",
+      "nb_frames": "455",
+      "nb_read_frames": "455",
+      "extradata_size": 51,
+      "disposition": {
+        "default": 1,
+        "dub": 0,
+        "original": 0,
+        "comment": 0,
+        "lyrics": 0,
+        "karaoke": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "visual_impaired": 0,
+        "clean_effects": 0,
+        "attached_pic": 0,
+        "timed_thumbnails": 0,
+        "non_diegetic": 0,
+        "captions": 0,
+        "descriptions": 0,
+        "metadata": 0,
+        "dependent": 0,
+        "still_image": 0,
+        "multilayer": 0
+      },
+      "tags": {
+        "language": "und",
+        "handler_name": "VideoHandler",
+        "encoder": "Lavc62.28.102 libx264"
+      }
+    },
+    {
+      "index": 1,
+      "codec_name": "aac",
+      "codec_long_name": "AAC (Advanced Audio Coding)",
+      "profile": "LC",
+      "codec_type": "audio",
+      "codec_tag_string": "mp4a",
+      "codec_tag": "0x6134706d",
+      "mime_codec_string": "mp4a.40.2",
+      "sample_fmt": "fltp",
+      "sample_rate": "44100",
+      "channels": 2,
+      "channel_layout": "stereo",
+      "bits_per_sample": 0,
+      "initial_padding": 0,
+      "id": "0x2",
+      "r_frame_rate": "0/0",
+      "avg_frame_rate": "0/0",
+      "time_base": "1/44100",
+      "start_pts": 0,
+      "start_time": "0.000000",
+      "duration_ts": 668821,
+      "duration": "15.166009",
+      "bit_rate": "259456",
+      "nb_frames": "655",
+      "nb_read_frames": "654",
+      "extradata_size": 5,
+      "disposition": {
+        "default": 1,
+        "dub": 0,
+        "original": 0,
+        "comment": 0,
+        "lyrics": 0,
+        "karaoke": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "visual_impaired": 0,
+        "clean_effects": 0,
+        "attached_pic": 0,
+        "timed_thumbnails": 0,
+        "non_diegetic": 0,
+        "captions": 0,
+        "descriptions": 0,
+        "metadata": 0,
+        "dependent": 0,
+        "still_image": 0,
+        "multilayer": 0
+      },
+      "tags": {
+        "language": "und",
+        "handler_name": "SoundHandler"
+      }
+    }
+  ],
+  "audio_streamhash": "0,a,SHA256=99da277744e2753c8d6baba7da376a95d9a68bbdd9f7b819f359514fd6f31943",
+  "cut_audio_alignment": [
+    {
+      "frame": 61,
+      "peak_minus_cut_ms": -4.32
+    },
+    {
+      "frame": 122,
+      "peak_minus_cut_ms": -16.65
+    },
+    {
+      "frame": 182,
+      "peak_minus_cut_ms": 8.35
+    },
+    {
+      "frame": 243,
+      "peak_minus_cut_ms": 6.01
+    },
+    {
+      "frame": 304,
+      "peak_minus_cut_ms": -12.32
+    },
+    {
+      "frame": 364,
+      "peak_minus_cut_ms": -3.4
+    },
+    {
+      "frame": 379,
+      "peak_minus_cut_ms": 7.94
+    },
+    {
+      "frame": 394,
+      "peak_minus_cut_ms": 9.3
+    },
+    {
+      "frame": 425,
+      "peak_minus_cut_ms": -11.34
+    }
+  ],
+  "caption_overlay": {
+    "soft_edges_and_safe_bounds_all_frames": "PASS",
+    "groups": 21,
+    "max_words": 3,
+    "no_outline_on_single_word_masks": "PASS",
+    "beat_snaps": {
+      "59": 60,
+      "75": 76,
+      "89": 91,
+      "195": 197,
+      "225": 226,
+      "240": 242,
+      "347": 349,
+      "363": 364,
+      "378": 379,
+      "393": 394,
+      "438": 440
+    },
+    "transition_beats": {
+      "39": 45,
+      "70": 76,
+      "91": 91,
+      "99": 106,
+      "150": 153,
+      "197": 197,
+      "219": 212,
+      "231": 226,
+      "266": 273,
+      "282": 289,
+      "311": 318,
+      "334": 334,
+      "349": 349,
+      "371": 364,
+      "394": 394,
+      "403": 409,
+      "440": 440
+    },
+    "measured_on_beat_widths": {
+      "91": [
+        440,
+        415
+      ],
+      "334": [
+        438,
+        414
+      ],
+      "394": [
+        314,
+        298
+      ]
+    },
+    "per_group_motion": [
+      {
+        "group_start": 0,
+        "direction": "hold",
+        "widths_px": [
+          464,
+          464
+        ]
+      },
+      {
+        "group_start": 27,
+        "direction": "out",
+        "widths_px": [
+          361,
+          328
+        ]
+      },
+      {
+        "group_start": 39,
+        "direction": "in",
+        "widths_px": [
+          343,
+          391
+        ]
+      },
+      {
+        "group_start": 70,
+        "direction": "out",
+        "widths_px": [
+          409,
+          363
+        ]
+      },
+      {
+        "group_start": 91,
+        "direction": "hold",
+        "widths_px": [
+          440,
+          416
+        ]
+      },
+      {
+        "group_start": 99,
+        "direction": "in",
+        "widths_px": [
+          471,
+          548
+        ]
+      },
+      {
+        "group_start": 129,
+        "direction": "in",
+        "widths_px": [
+          513,
+          562
+        ]
+      },
+      {
+        "group_start": 150,
+        "direction": "out",
+        "widths_px": [
+          315,
+          283
+        ]
+      },
+      {
+        "group_start": 165,
+        "direction": "hold",
+        "widths_px": [
+          680,
+          694
+        ]
+      },
+      {
+        "group_start": 197,
+        "direction": "hold",
+        "widths_px": [
+          580,
+          548
+        ]
+      },
+      {
+        "group_start": 219,
+        "direction": "out",
+        "widths_px": [
+          260,
+          228
+        ]
+      },
+      {
+        "group_start": 231,
+        "direction": "in",
+        "widths_px": [
+          447,
+          520
+        ]
+      },
+      {
+        "group_start": 266,
+        "direction": "in",
+        "widths_px": [
+          486,
+          540
+        ]
+      },
+      {
+        "group_start": 282,
+        "direction": "hold",
+        "widths_px": [
+          366,
+          369
+        ]
+      },
+      {
+        "group_start": 311,
+        "direction": "out",
+        "widths_px": [
+          414,
+          360
+        ]
+      },
+      {
+        "group_start": 334,
+        "direction": "hold",
+        "widths_px": [
+          438,
+          420
+        ]
+      },
+      {
+        "group_start": 349,
+        "direction": "out",
+        "widths_px": [
+          654,
+          556
+        ]
+      },
+      {
+        "group_start": 371,
+        "direction": "in",
+        "widths_px": [
+          459,
+          530
+        ]
+      },
+      {
+        "group_start": 394,
+        "direction": "hold",
+        "widths_px": [
+          314,
+          298
+        ]
+      },
+      {
+        "group_start": 403,
+        "direction": "out",
+        "widths_px": [
+          727,
+          633
+        ]
+      },
+      {
+        "group_start": 440,
+        "direction": "in",
+        "widths_px": [
+          539,
+          589
+        ]
+      }
+    ],
+    "outer_mask_bounds": [
+      64,
+      118,
+      827,
+      265
+    ],
+    "timing_basis": "Prior word map, with only verified nearby changes of up to two frames. No listening verification."
+  },
+  "sample_frames": [
+    0,
+    13,
+    30,
+    33,
+    54,
+    80,
+    90,
+    91,
+    92,
+    95,
+    114,
+    139,
+    152,
+    157,
+    165,
+    181,
+    196,
+    208,
+    212,
+    225,
+    231,
+    248,
+    265,
+    273,
+    274,
+    296,
+    322,
+    334,
+    341,
+    360,
+    361,
+    364,
+    367,
+    371,
+    372,
+    376,
+    379,
+    382,
+    386,
+    387,
+    391,
+    393,
+    394,
+    395,
+    397,
+    398,
+    402,
+    403,
+    409,
+    421,
+    422,
+    425,
+    428,
+    433,
+    439,
+    440,
+    447,
+    454
+  ],
+  "visual_review": "Compared exact export frames 90–95 and 393–398. The new caption peaks at the marked attack in frames 91 and 394, then returns to its base size. The moving footage remains visible through the pixel-inverted glyphs."
+}

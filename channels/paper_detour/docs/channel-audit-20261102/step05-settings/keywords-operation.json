@@ -1,0 +1,36 @@
+{
+  "timeUtc": "2026-11-02T18:33:20.730684+00:00",
+  "operation": "channels.update brandingSettings.channel.keywords",
+  "state": "VERIFIED",
+  "request": {
+    "id": "UCMVfdfaNxV3ZkI3_J3Eejzw",
+    "brandingSettings": {
+      "channel": {
+        "title": "Paper Detour",
+        "description": "Paper Detour takes you into paper-diorama worlds, where strange true stories, timeless legends and curious what-if questions unfold.\n\nExplore surprising turns in history, science and human experience through English Shorts and longer stories that make you see the familiar differently.",
+        "defaultLanguage": "en",
+        "country": "CY",
+        "keywords": "\"Paper Detour\" \"paper diorama\" \"paper diorama stories\" \"visual storytelling\" \"strange true stories\" \"history stories\" \"science stories\" \"natural history\" evolution \"what if\" legends \"personal stories\" \"technology history\" \"digital life\" \"educational Shorts\""
+      }
+    }
+  },
+  "httpStatus": 200,
+  "response": {
+    "kind": "youtube#channel",
+    "etag": "gUTRhFATwReW1EH3bp8x1kBlxGA",
+    "id": "UCMVfdfaNxV3ZkI3_J3Eejzw",
+    "brandingSettings": {
+      "channel": {
+        "title": "Paper Detour",
+        "description": "Paper Detour takes you into paper-diorama worlds, where strange true stories, timeless legends and curious what-if questions unfold.\n\nExplore surprising turns in history, science and human experience through English Shorts and longer stories that make you see the familiar differently.",
+        "keywords": "\"Paper Detour\" \"paper diorama\" \"paper diorama stories\" \"visual storytelling\" \"strange true stories\" \"history stories\" \"science stories\" \"natural history\" evolution \"what if\" legends \"personal stories\" \"technology history\" \"digital life\" \"educational Shorts\"",
+        "defaultLanguage": "en",
+        "country": "CY"
+      },
+      "image": {
+        "bannerExternalUrl": "https://yt3.googleusercontent.com/1R_juuo5S6HXe9mQOn-AWlN2kNZ0MQGqcJZCkcxtTknLzHkKhgtSjcSsHNBdGWY_aaxSJ62Rzg"
+      }
+    }
+  },
+  "reconciledReadback": "after-keywords-reconcile01.json"
+}

@@ -1,0 +1,424 @@
+{
+  "version": "v01",
+  "narration": "Source/Script/NARRATION_EN_v02.txt",
+  "audio": "Source/Voice/en_v02_lawrence/voice_en.mp3",
+  "alignment": "Source/Voice/en_v02_lawrence/voice_en.alignment.json",
+  "sample_rate_hz": 44100,
+  "voice_duration_s": 48.0,
+  "timeline_duration_s": 50.08,
+  "frame_rate": 30,
+  "inserted_comedy_pause_s": 0,
+  "pause_location": "No added silence; original MP3 remains uninterrupted.",
+  "scenes": [
+    {
+      "id": "S01",
+      "start_s": 0.0,
+      "end_s": 7.56,
+      "start_frame": 0,
+      "end_frame": 227,
+      "spoken_start_s": 0.0,
+      "spoken_end_s": 7.44,
+      "image": "Source/Images/paper_v02/S01_v02.png"
+    },
+    {
+      "id": "S02",
+      "start_s": 7.56,
+      "end_s": 10.56,
+      "start_frame": 227,
+      "end_frame": 317,
+      "spoken_start_s": 7.56,
+      "spoken_end_s": 10.48,
+      "image": "Source/Images/paper_v02/S02_v02.png"
+    },
+    {
+      "id": "S03",
+      "start_s": 10.56,
+      "end_s": 13.76,
+      "start_frame": 317,
+      "end_frame": 413,
+      "spoken_start_s": 10.56,
+      "spoken_end_s": 13.68,
+      "image": "Source/Images/paper_v02/S03_v02.png"
+    },
+    {
+      "id": "S04",
+      "start_s": 13.76,
+      "end_s": 17.6,
+      "start_frame": 413,
+      "end_frame": 528,
+      "spoken_start_s": 13.76,
+      "spoken_end_s": 17.52,
+      "image": "Source/Images/paper_v02/S04_v02.png"
+    },
+    {
+      "id": "S05",
+      "start_s": 17.6,
+      "end_s": 22.32,
+      "start_frame": 528,
+      "end_frame": 670,
+      "spoken_start_s": 17.6,
+      "spoken_end_s": 22.24,
+      "image": "Source/Images/paper_v02/S05_v02.png"
+    },
+    {
+      "id": "S06",
+      "start_s": 22.32,
+      "end_s": 24.4,
+      "start_frame": 670,
+      "end_frame": 732,
+      "spoken_start_s": 22.32,
+      "spoken_end_s": 24.32,
+      "image": "Source/Images/paper_v02/S06_v02.png"
+    },
+    {
+      "id": "S07",
+      "start_s": 24.4,
+      "end_s": 25.92,
+      "start_frame": 732,
+      "end_frame": 778,
+      "spoken_start_s": 24.4,
+      "spoken_end_s": 25.84,
+      "image": "Source/Images/paper_v02/S07_v03.png"
+    },
+    {
+      "id": "S08",
+      "start_s": 25.92,
+      "end_s": 28.08,
+      "start_frame": 778,
+      "end_frame": 842,
+      "spoken_start_s": 25.92,
+      "spoken_end_s": 28.0,
+      "image": "Source/Images/paper_v02/S08_v03.png"
+    },
+    {
+      "id": "S09",
+      "start_s": 28.08,
+      "end_s": 30.96,
+      "start_frame": 842,
+      "end_frame": 929,
+      "spoken_start_s": 28.08,
+      "spoken_end_s": 30.88,
+      "image": "Source/Images/paper_v02/S09_v03.png"
+    },
+    {
+      "id": "S10",
+      "start_s": 30.96,
+      "end_s": 34.4,
+      "start_frame": 929,
+      "end_frame": 1032,
+      "spoken_start_s": 30.96,
+      "spoken_end_s": 34.24,
+      "image": "Source/Images/paper_v02/S10_v02.png"
+    },
+    {
+      "id": "S11",
+      "start_s": 34.4,
+      "end_s": 39.0,
+      "start_frame": 1032,
+      "end_frame": 1170,
+      "spoken_start_s": 34.4,
+      "spoken_end_s": 38.72,
+      "image": "Source/Images/paper_v02/S11_v02.png"
+    },
+    {
+      "id": "S12",
+      "start_s": 39.0,
+      "end_s": 42.32,
+      "start_frame": 1170,
+      "end_frame": 1270,
+      "spoken_start_s": 39.0,
+      "spoken_end_s": 42.24,
+      "image": "Source/Images/paper_v02/S12_v02.png"
+    },
+    {
+      "id": "S13",
+      "start_s": 42.32,
+      "end_s": 46.0,
+      "start_frame": 1270,
+      "end_frame": 1380,
+      "spoken_start_s": 42.32,
+      "spoken_end_s": 45.92,
+      "image": "Source/Images/paper_v02/S13_v02.png"
+    },
+    {
+      "id": "S14",
+      "start_s": 46.0,
+      "end_s": 50.08,
+      "start_frame": 1380,
+      "end_frame": 1502,
+      "spoken_start_s": 46.0,
+      "spoken_end_s": 48.08,
+      "image": "Source/Images/paper_v02/S14_v03.png"
+    }
+  ],
+  "cues": [
+    {
+      "id": "C04",
+      "scene": "S04",
+      "text": "NO LIGHT. NO IMAGE.",
+      "lines": [
+        "NO LIGHT.",
+        "NO IMAGE."
+      ],
+      "start_s": 13.76,
+      "end_s": 17.52,
+      "start_frame": 413,
+      "end_frame": 526,
+      "trigger": "No light reaches your eyes.",
+      "end": "The world goes black.",
+      "timing_source": "ElevenLabs alignment for accepted narration v02; vocal playback unverified",
+      "anchor": "alternate",
+      "asset": "Source/Graphics/accent_pngs_v01/C04.png",
+      "face_height_px": 90,
+      "preflight": "PASS technical; static visual reviewed in selected_pairs_phone.jpg; sync/motion playback pending",
+      "face_bbox_px": [
+        24,
+        32,
+        518,
+        226
+      ],
+      "alpha_bbox_px": [
+        9,
+        18,
+        535,
+        249
+      ]
+    },
+    {
+      "id": "C05",
+      "scene": "S05",
+      "text": "NO MOTION. NO SIGNAL.",
+      "lines": [
+        "NO MOTION.",
+        "NO SIGNAL."
+      ],
+      "start_s": 19.52,
+      "end_s": 22.24,
+      "start_frame": 586,
+      "end_frame": 667,
+      "trigger": "Sound needs vibrations",
+      "end": "through air.",
+      "timing_source": "ElevenLabs alignment for accepted narration v02; vocal playback unverified",
+      "anchor": "alternate",
+      "asset": "Source/Graphics/accent_pngs_v01/C05.png",
+      "face_height_px": 90,
+      "preflight": "PASS technical; static visual reviewed in selected_pairs_phone.jpg; sync/motion playback pending",
+      "face_bbox_px": [
+        22,
+        25,
+        500,
+        211
+      ],
+      "alpha_bbox_px": [
+        8,
+        12,
+        516,
+        233
+      ]
+    },
+    {
+      "id": "C07",
+      "scene": "S07",
+      "text": "AIR BECOMES A WALL",
+      "lines": [
+        "AIR BECOMES",
+        "A WALL"
+      ],
+      "start_s": 24.4,
+      "end_s": 25.84,
+      "start_frame": 732,
+      "end_frame": 775,
+      "trigger": "You can’t push through it.",
+      "end": "You can’t push through it.",
+      "timing_source": "ElevenLabs alignment for accepted narration v02; vocal playback unverified",
+      "anchor": "primary",
+      "asset": "Source/Graphics/accent_pngs_v01/C07.png",
+      "face_height_px": 90,
+      "preflight": "PASS technical; static visual reviewed in selected_pairs_phone.jpg; sync/motion playback pending",
+      "face_bbox_px": [
+        23,
+        27,
+        593,
+        217
+      ],
+      "alpha_bbox_px": [
+        9,
+        13,
+        593,
+        240
+      ]
+    },
+    {
+      "id": "C08",
+      "scene": "S08",
+      "text": "THE TRAP IS ALL AROUND YOU",
+      "lines": [
+        "THE TRAP IS",
+        "ALL AROUND YOU"
+      ],
+      "start_s": 25.92,
+      "end_s": 28.0,
+      "start_frame": 778,
+      "end_frame": 840,
+      "trigger": "You can’t draw it into your lungs.",
+      "end": "You can’t draw it into your lungs.",
+      "timing_source": "ElevenLabs alignment for accepted narration v02; vocal playback unverified",
+      "anchor": "alternate",
+      "asset": "Source/Graphics/accent_pngs_v01/C08.png",
+      "face_height_px": 90,
+      "preflight": "PASS technical; static visual reviewed in selected_pairs_phone.jpg; sync/motion playback pending",
+      "face_bbox_px": [
+        0,
+        25,
+        581,
+        222
+      ],
+      "alpha_bbox_px": [
+        0,
+        7,
+        606,
+        247
+      ]
+    },
+    {
+      "id": "C09",
+      "scene": "S09",
+      "text": "OUT OF REACH",
+      "lines": [
+        "OUT OF REACH"
+      ],
+      "start_s": 28.08,
+      "end_s": 30.88,
+      "start_frame": 842,
+      "end_frame": 926,
+      "trigger": "You can’t even move the drop",
+      "end": "in front of your face.",
+      "timing_source": "ElevenLabs alignment for accepted narration v02; vocal playback unverified",
+      "anchor": "alternate",
+      "asset": "Source/Graphics/accent_pngs_v01/C09.png",
+      "face_height_px": 90,
+      "preflight": "PASS technical; static visual reviewed in selected_pairs_phone.jpg; sync/motion playback pending",
+      "face_bbox_px": [
+        25,
+        34,
+        594,
+        124
+      ],
+      "alpha_bbox_px": [
+        5,
+        19,
+        614,
+        149
+      ]
+    },
+    {
+      "id": "C11",
+      "scene": "S11",
+      "text": "FIVE SECONDS YOU CAN’T USE",
+      "lines": [
+        "FIVE SECONDS",
+        "YOU CAN’T USE"
+      ],
+      "start_s": 34.4,
+      "end_s": 38.72,
+      "start_frame": 1032,
+      "end_frame": 1162,
+      "trigger": "Five seconds of darkness",
+      "end": "no way out.",
+      "timing_source": "ElevenLabs alignment for accepted narration v02; vocal playback unverified",
+      "anchor": "primary",
+      "asset": "Source/Graphics/accent_pngs_v01/C11.png",
+      "face_height_px": 90,
+      "preflight": "PASS technical; static visual reviewed in selected_pairs_phone.jpg; sync/motion playback pending",
+      "face_bbox_px": [
+        29,
+        38,
+        641,
+        240
+      ],
+      "alpha_bbox_px": [
+        12,
+        0,
+        668,
+        267
+      ]
+    },
+    {
+      "id": "C13",
+      "scene": "S13",
+      "text": "NOTHING TO SHOW FOR IT",
+      "lines": [
+        "NOTHING TO",
+        "SHOW FOR IT"
+      ],
+      "start_s": 45.92,
+      "end_s": 48.08,
+      "start_frame": 1378,
+      "end_frame": 1442,
+      "trigger": "Nothing.",
+      "end": "Nothing.",
+      "timing_source": "ElevenLabs alignment for accepted narration v02; vocal playback unverified",
+      "anchor": "alternate",
+      "asset": "Source/Graphics/accent_pngs_v01/C13.png",
+      "face_height_px": 90,
+      "preflight": "Both S13 and S14 pairs statically checked at lower alternate; motion and 1x sync unverified",
+      "face_bbox_px": [
+        26,
+        36,
+        583,
+        231
+      ],
+      "alpha_bbox_px": [
+        6,
+        16,
+        604,
+        257
+      ],
+      "scenes": [
+        "S13",
+        "S14"
+      ]
+    },
+    {
+      "id": "C14",
+      "scene": "S14",
+      "text": "FIVE SECONDS. ZERO PAYOFF.",
+      "lines": [
+        "FIVE SECONDS.",
+        "ZERO PAYOFF."
+      ],
+      "start_s": 48.08,
+      "end_s": 50.08,
+      "start_frame": 1442,
+      "end_frame": 1502,
+      "trigger": "You just became five seconds older.",
+      "end": "You just became five seconds older.",
+      "timing_source": "ElevenLabs alignment for accepted narration v02; vocal playback unverified",
+      "anchor": "alternate",
+      "asset": "Source/Graphics/accent_pngs_v01/C14.png",
+      "face_height_px": 90,
+      "preflight": "PASS technical; static frame checked; about 1.97 s final hold; full playback unverified",
+      "face_bbox_px": [
+        27,
+        35,
+        617,
+        237
+      ],
+      "alpha_bbox_px": [
+        10,
+        15,
+        641,
+        264
+      ]
+    }
+  ],
+  "playback_status": "UNVERIFIED — key frames checked; no full 1x listening/playback performed",
+  "shared_face_height_px": 90,
+  "preflight_contact_sheet": "Source/Graphics/caption_preflight_v03/selected_pairs_phone.jpg",
+  "preflight_manifest": "Source/Graphics/caption_preflight_manifest_v01.json",
+  "preflight_receipt": "Source/Graphics/caption_preflight_v03/manifest.json",
+  "rendered_preview": "Edit/Previews/Paper_Detour_033_time_stop_EN_mix_preview_v05.mp4",
+  "rendered_frame_count": 1502,
+  "rendered_video_duration_s": 50.066667,
+  "delivery_status": "LOCAL_REVIEW_PREVIEW_AUDIO_CUT_FIXED; NOT_FINAL_DELIVERY"
+}

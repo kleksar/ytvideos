@@ -1,0 +1,160 @@
+{
+  "input": "/Users/diplomat/ytvideos/Shared/Image_Motion/Cache/video/565f61b0bd20daba779b72ccfd56948daee99ef4baf3ffa73e27b1b48401e95b.mp4",
+  "output": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Work/image-motion-66072d4dcbfcf7b06778/scratch/warm-082/b23c52a112f49524abccac1fafe6e6b43279a95131eeaf6d44ef8ab2aea91316.finished.partial.mp4",
+  "frames": 167,
+  "visible_frames": 165,
+  "grain": {
+    "id": "g08",
+    "name": "Short Persistence",
+    "version": 1,
+    "rms_y_codes": 3.0,
+    "sigma_reference_px": 0.77,
+    "reference_short_side": 1440,
+    "update_hz": 30,
+    "rho": 0.35,
+    "mask_y": [
+      20,
+      64,
+      208,
+      235
+    ],
+    "range_y": [
+      16,
+      235
+    ],
+    "chroma": false,
+    "seed": 20261102
+  },
+  "sigma_output_px": 0.77,
+  "seed": 5698173003908131754,
+  "camera": {
+    "position": [
+      [
+        0,
+        -0.050000000000000044,
+        -0.07250000000000001,
+        "linear"
+      ],
+      [
+        164,
+        -0.050000000000000044,
+        -0.02750000000000008,
+        "linear"
+      ]
+    ],
+    "scale": [
+      [
+        0,
+        1.1,
+        1.1,
+        "linear"
+      ],
+      [
+        164,
+        1.1,
+        1.1,
+        "linear"
+      ]
+    ]
+  },
+  "metrics": [
+    {
+      "frame": 0,
+      "camera": [
+        -0.050000000000000044,
+        -0.07250000000000001,
+        1.1,
+        1.1
+      ],
+      "applied_rms": 2.4684503078460693,
+      "noise_hash": "b00cbd858d0a3cba99f56c0ce947b8b3aee952441c054052ca056877a820ee51"
+    },
+    {
+      "frame": 82,
+      "camera": [
+        -0.050000000000000044,
+        -0.050000000000000044,
+        1.1,
+        1.1
+      ],
+      "applied_rms": 2.4654343128204346,
+      "noise_hash": "74a5cd07acbb395f67130f562417e3b26adbf1833b8560d231f30498be925643"
+    },
+    {
+      "frame": 164,
+      "camera": [
+        -0.050000000000000044,
+        -0.02750000000000008,
+        1.1,
+        1.1
+      ],
+      "applied_rms": 2.4561073780059814,
+      "noise_hash": "c8d83e03c035e106e716885e62406c55715822d47be1417db945e586661589f3"
+    }
+  ],
+  "decode": [
+    "ffmpeg",
+    "-v",
+    "error",
+    "-i",
+    "/Users/diplomat/ytvideos/Shared/Image_Motion/Cache/video/565f61b0bd20daba779b72ccfd56948daee99ef4baf3ffa73e27b1b48401e95b.mp4",
+    "-an",
+    "-vf",
+    "colorspace=iall=bt601-6-625:iprimaries=bt709:itrc=srgb:irange=tv:all=bt709:range=tv:format=yuv420p,setsar=1",
+    "-frames:v",
+    "165",
+    "-f",
+    "rawvideo",
+    "-pix_fmt",
+    "yuv420p",
+    "pipe:1"
+  ],
+  "encode": [
+    "ffmpeg",
+    "-y",
+    "-v",
+    "error",
+    "-f",
+    "rawvideo",
+    "-pix_fmt",
+    "yuv420p",
+    "-video_size",
+    "2560x1440",
+    "-framerate",
+    "30",
+    "-i",
+    "pipe:0",
+    "-an",
+    "-vf",
+    "setsar=1,setparams=range=limited:color_primaries=bt709:color_trc=bt709:colorspace=bt709",
+    "-c:v",
+    "libx264",
+    "-crf",
+    "16",
+    "-preset",
+    "fast",
+    "-tune",
+    "grain",
+    "-pix_fmt",
+    "yuv420p",
+    "-color_primaries",
+    "bt709",
+    "-color_trc",
+    "bt709",
+    "-colorspace",
+    "bt709",
+    "-color_range",
+    "tv",
+    "-movflags",
+    "+faststart+negative_cts_offsets",
+    "-use_editlist",
+    "0",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Work/image-motion-66072d4dcbfcf7b06778/scratch/warm-082/b23c52a112f49524abccac1fafe6e6b43279a95131eeaf6d44ef8ab2aea91316.finished.partial.mp4"
+  ],
+  "order": [
+    "parallax",
+    "camera",
+    "grain"
+  ],
+  "colour": "BT709 limited YUV420p; chroma has no added noise"
+}

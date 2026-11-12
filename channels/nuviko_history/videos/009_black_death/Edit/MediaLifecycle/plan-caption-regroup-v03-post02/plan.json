@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "kind": "plan",
+  "created_utc": "2026-11-03T11:32:46.913753+00:00",
+  "audit": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/MediaLifecycle/audit-caption-regroup-v03-post02/audit.json",
+  "audit_sha256": "a08a8013b6644e94fdcaa0430bc84bc6c410aaf2621386f9050c829f2e440f1a",
+  "episode": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death",
+  "executable": false,
+  "deletion_implemented": false,
+  "stale_inputs": [],
+  "entries": [
+    {
+      "path": "Deliverables/en/long/black_death_nuviko_en_v02.mp4",
+      "device": 16777234,
+      "inode": 126181855,
+      "bytes": 942730827,
+      "mtime_ns": 1793702922991622145,
+      "ctime_ns": 1793702922991622145,
+      "nlink": 1,
+      "allocated_bytes": 942731264,
+      "project_references": [],
+      "text_mentions": [
+        "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/Export/EXPORT_CONTRACT_v02.json"
+      ],
+      "protections": [],
+      "classification": "BLOCKED",
+      "declaration": {
+        "path": "Deliverables/en/long/black_death_nuviko_en_v02.mp4",
+        "role": "superseded_export",
+        "status": "superseded",
+        "reason": "Replaced by technically checked v03 caption revision requested by the user",
+        "evidence": [
+          "Edit/Export/EXPORT_CONTRACT_v03.json",
+          "Edit/QA/black-death-long-v03-caption-change.json"
+        ],
+        "rebuild_from": [
+          "Deliverables/en/long/black_death_nuviko_en_v03.mp4"
+        ]
+      },
+      "blockers": [
+        "TEXT_REFERENCE_REVIEW",
+        "INCOMPLETE_DEPENDENCY_SCAN"
+      ],
+      "sha256": "47438301aa8094ee0a9be1bb5ace1cc41f62cc3bb861e9f297a5db9f293becb9",
+      "required_before_any_future_removal": [
+        "Fresh dependency scan including retained project histories and all known consumers",
+        "Writer/import/render completion verified; absent locks do not prove inactivity",
+        "Resolve text mentions, pins and source/rebuild dependencies",
+        "Applicable retention/authorization and changed-file check at action time"
+      ]
+    }
+  ],
+  "review_candidate_logical_bytes": 0,
+  "blocked_logical_bytes": 942730827,
+  "physical_reclaimable_bytes": null,
+  "missing_declared_candidates": [],
+  "limitations": [
+    "No deletion implementation or permission. No writer absence proof.",
+    "All found imports protected, including retained timelines; unlisted/inaccessible projects and external consumers remain unknown.",
+    "Text scan is heuristic and cannot prove absence of dependencies. Source hashes/QA are evidence, not user acceptance.",
+    "APFS CoW and snapshots prevent inferring physical reclaim from logical or allocated sums."
+  ],
+  "errors": [
+    "Text dependency scan skipped large file: /Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-03-published-media-cleanup/all_radio_deletions.jsonl",
+    "Text dependency scan skipped large file: /Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-03-published-media-cleanup/all_published_media_deletions.jsonl"
+  ]
+}

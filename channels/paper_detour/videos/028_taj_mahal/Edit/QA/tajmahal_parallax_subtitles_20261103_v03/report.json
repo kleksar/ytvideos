@@ -1,0 +1,1736 @@
+{
+  "created_utc": "2026-11-02T23:39:25.366770+00:00",
+  "media": "/Users/diplomat/ytvideos/channels/paper_detour/videos/028_taj_mahal/Work/tajmahal_subtitles_20261103_v01/previews/captions_review_v06/shorts_subtitles_review.mp4",
+  "plan": {
+    "frame_count": 1066,
+    "fps": "30/1",
+    "required_review_checks": [
+      "stream_metadata",
+      "full_decode",
+      "frame_sampling",
+      "scene_edit_conformity",
+      "motion_framing",
+      "cue_timing",
+      "text_composition",
+      "audio_signal"
+    ],
+    "freshness": {
+      "status": "UNVERIFIED",
+      "evidence": "Palmier image-motion run a00b2d187da8ef459182 targets timeline A40393B6; export contract export_contract_v01.json; inspect current motion and subtitles against local source project before promotion. QA stream color tag expected as bt709 (Palmier timeline color space rec709). Review scope includes Paper scene/edit, motion, subtitle composition and audio signal checks; separate SRT is not requested for this accented Short."
+    },
+    "expected": {
+      "video": {
+        "width": 1080,
+        "height": 1920,
+        "codec_name": "h264",
+        "pix_fmt": "yuv420p",
+        "color_space": "bt709"
+      },
+      "audio": {
+        "required": true,
+        "codec_name": "aac",
+        "channels": 1,
+        "sample_rate": 44100
+      }
+    },
+    "sha256": "f3fefb20e11b8200bdd1ec86073bde99fed4f3651d44fd9a182ee1a708d02b91",
+    "scenes": [
+      {
+        "id": "S01",
+        "start": 0,
+        "end": 126
+      },
+      {
+        "id": "S02",
+        "start": 126,
+        "end": 261
+      },
+      {
+        "id": "S03",
+        "start": 261,
+        "end": 396
+      },
+      {
+        "id": "S05",
+        "start": 396,
+        "end": 531
+      },
+      {
+        "id": "S06",
+        "start": 531,
+        "end": 657
+      },
+      {
+        "id": "S07",
+        "start": 657,
+        "end": 795
+      },
+      {
+        "id": "S10",
+        "start": 795,
+        "end": 945
+      },
+      {
+        "id": "S11",
+        "start": 945,
+        "end": 1066
+      }
+    ],
+    "cues": [
+      {
+        "id": "SUB_01",
+        "start": 0,
+        "end": 29
+      },
+      {
+        "id": "SUB_02",
+        "start": 29,
+        "end": 43
+      },
+      {
+        "id": "SUB_03",
+        "start": 43,
+        "end": 72
+      },
+      {
+        "id": "SUB_04",
+        "start": 72,
+        "end": 91
+      },
+      {
+        "id": "SUB_05",
+        "start": 91,
+        "end": 115
+      },
+      {
+        "id": "SUB_06",
+        "start": 115,
+        "end": 161
+      },
+      {
+        "id": "SUB_07",
+        "start": 161,
+        "end": 173
+      },
+      {
+        "id": "SUB_08",
+        "start": 173,
+        "end": 197
+      },
+      {
+        "id": "SUB_09",
+        "start": 197,
+        "end": 210
+      },
+      {
+        "id": "SUB_10",
+        "start": 210,
+        "end": 224
+      },
+      {
+        "id": "SUB_11",
+        "start": 224,
+        "end": 266
+      },
+      {
+        "id": "SUB_12",
+        "start": 266,
+        "end": 293
+      },
+      {
+        "id": "SUB_13",
+        "start": 293,
+        "end": 324
+      },
+      {
+        "id": "SUB_14",
+        "start": 324,
+        "end": 382
+      },
+      {
+        "id": "SUB_15",
+        "start": 382,
+        "end": 391
+      },
+      {
+        "id": "SUB_16",
+        "start": 391,
+        "end": 415
+      },
+      {
+        "id": "SUB_17",
+        "start": 415,
+        "end": 432
+      },
+      {
+        "id": "SUB_18",
+        "start": 432,
+        "end": 451
+      },
+      {
+        "id": "SUB_19",
+        "start": 451,
+        "end": 500
+      },
+      {
+        "id": "SUB_20",
+        "start": 500,
+        "end": 517
+      },
+      {
+        "id": "SUB_21",
+        "start": 517,
+        "end": 542
+      },
+      {
+        "id": "SUB_22",
+        "start": 542,
+        "end": 560
+      },
+      {
+        "id": "SUB_23",
+        "start": 560,
+        "end": 604
+      },
+      {
+        "id": "SUB_24",
+        "start": 604,
+        "end": 636
+      },
+      {
+        "id": "SUB_25",
+        "start": 636,
+        "end": 658
+      },
+      {
+        "id": "SUB_26",
+        "start": 658,
+        "end": 697
+      },
+      {
+        "id": "SUB_27",
+        "start": 697,
+        "end": 730
+      },
+      {
+        "id": "SUB_28",
+        "start": 730,
+        "end": 751
+      },
+      {
+        "id": "SUB_29",
+        "start": 751,
+        "end": 782
+      },
+      {
+        "id": "SUB_30",
+        "start": 782,
+        "end": 818
+      },
+      {
+        "id": "SUB_31",
+        "start": 818,
+        "end": 840
+      },
+      {
+        "id": "SUB_32",
+        "start": 840,
+        "end": 854
+      },
+      {
+        "id": "SUB_33",
+        "start": 854,
+        "end": 868
+      },
+      {
+        "id": "SUB_34",
+        "start": 868,
+        "end": 877
+      },
+      {
+        "id": "SUB_35",
+        "start": 877,
+        "end": 911
+      },
+      {
+        "id": "SUB_36",
+        "start": 911,
+        "end": 953
+      },
+      {
+        "id": "SUB_37",
+        "start": 953,
+        "end": 990
+      },
+      {
+        "id": "SUB_38",
+        "start": 990,
+        "end": 1020
+      },
+      {
+        "id": "SUB_39",
+        "start": 1020,
+        "end": 1039
+      },
+      {
+        "id": "SUB_40",
+        "start": 1039,
+        "end": 1066
+      },
+      {
+        "id": "ACCENT_01",
+        "start": 0,
+        "end": 56
+      },
+      {
+        "id": "ACCENT_02",
+        "start": 72,
+        "end": 145
+      },
+      {
+        "id": "ACCENT_03",
+        "start": 276,
+        "end": 310
+      },
+      {
+        "id": "ACCENT_04",
+        "start": 560,
+        "end": 589
+      },
+      {
+        "id": "ACCENT_05",
+        "start": 766,
+        "end": 802
+      },
+      {
+        "id": "ACCENT_06",
+        "start": 868,
+        "end": 898
+      },
+      {
+        "id": "ACCENT_07",
+        "start": 1010,
+        "end": 1066
+      }
+    ],
+    "extra_frames": [
+      0,
+      6,
+      30,
+      60,
+      63,
+      90,
+      115,
+      120,
+      124,
+      125,
+      126,
+      132,
+      156,
+      186,
+      193,
+      216,
+      241,
+      246,
+      251,
+      255,
+      258,
+      259,
+      260,
+      261,
+      267,
+      291,
+      321,
+      328,
+      351,
+      376,
+      381,
+      386,
+      390,
+      393,
+      394,
+      395,
+      396,
+      402,
+      426,
+      456,
+      463,
+      486,
+      511,
+      516,
+      521,
+      525,
+      528,
+      529,
+      530,
+      531,
+      537,
+      561,
+      591,
+      594,
+      621,
+      646,
+      651,
+      655,
+      656,
+      657,
+      663,
+      687,
+      717,
+      726,
+      747,
+      772,
+      777,
+      782,
+      786,
+      789,
+      791,
+      793,
+      794,
+      795,
+      801,
+      825,
+      855,
+      870,
+      885,
+      910,
+      915,
+      920,
+      924,
+      927,
+      929,
+      932,
+      939,
+      943,
+      944,
+      945,
+      951,
+      975,
+      1005,
+      1035,
+      1060,
+      1064,
+      1065
+    ]
+  },
+  "policy_failures": [],
+  "failures": [],
+  "reported_freshness": {
+    "status": "UNVERIFIED",
+    "evidence": "Palmier image-motion run a00b2d187da8ef459182 targets timeline A40393B6; export contract export_contract_v01.json; inspect current motion and subtitles against local source project before promotion. QA stream color tag expected as bt709 (Palmier timeline color space rec709). Review scope includes Paper scene/edit, motion, subtitle composition and audio signal checks; separate SRT is not requested for this accented Short."
+  },
+  "checks": {
+    "stream_metadata": "PASS",
+    "full_decode": "PASS",
+    "frame_extraction": "PASS",
+    "frame_sampling": "UNVERIFIED",
+    "motion_framing": "UNVERIFIED",
+    "cue_timing": "UNVERIFIED",
+    "audio_signal": "UNVERIFIED",
+    "subjective_audio_listening": "UNVERIFIED",
+    "independent_review": "UNVERIFIED"
+  },
+  "inspected_frame_indices": [],
+  "requested_frame_indices": [
+    0,
+    6,
+    14,
+    27,
+    28,
+    29,
+    30,
+    35,
+    42,
+    43,
+    55,
+    56,
+    57,
+    60,
+    62,
+    63,
+    71,
+    72,
+    81,
+    90,
+    91,
+    102,
+    108,
+    114,
+    115,
+    120,
+    124,
+    125,
+    126,
+    132,
+    137,
+    144,
+    145,
+    156,
+    160,
+    161,
+    166,
+    172,
+    173,
+    184,
+    186,
+    193,
+    196,
+    197,
+    203,
+    209,
+    210,
+    216,
+    223,
+    224,
+    241,
+    244,
+    246,
+    251,
+    255,
+    258,
+    259,
+    260,
+    261,
+    265,
+    266,
+    267,
+    275,
+    276,
+    279,
+    291,
+    292,
+    293,
+    308,
+    309,
+    310,
+    321,
+    323,
+    324,
+    328,
+    351,
+    352,
+    376,
+    381,
+    382,
+    386,
+    390,
+    391,
+    393,
+    394,
+    395,
+    396,
+    402,
+    414,
+    415,
+    423,
+    426,
+    431,
+    432,
+    441,
+    450,
+    451,
+    456,
+    463,
+    475,
+    486,
+    499,
+    500,
+    508,
+    511,
+    516,
+    517,
+    521,
+    525,
+    528,
+    529,
+    530,
+    531,
+    537,
+    541,
+    542,
+    550,
+    559,
+    560,
+    561,
+    574,
+    581,
+    588,
+    589,
+    591,
+    593,
+    594,
+    603,
+    604,
+    619,
+    621,
+    635,
+    636,
+    646,
+    651,
+    655,
+    656,
+    657,
+    658,
+    663,
+    677,
+    687,
+    696,
+    697,
+    713,
+    717,
+    725,
+    726,
+    729,
+    730,
+    740,
+    747,
+    750,
+    751,
+    765,
+    766,
+    772,
+    777,
+    781,
+    782,
+    783,
+    786,
+    789,
+    791,
+    793,
+    794,
+    795,
+    799,
+    801,
+    802,
+    817,
+    818,
+    825,
+    828,
+    839,
+    840,
+    846,
+    853,
+    854,
+    855,
+    860,
+    867,
+    868,
+    869,
+    870,
+    872,
+    876,
+    877,
+    882,
+    885,
+    893,
+    897,
+    898,
+    910,
+    911,
+    915,
+    920,
+    924,
+    927,
+    929,
+    931,
+    932,
+    939,
+    943,
+    944,
+    945,
+    951,
+    952,
+    953,
+    971,
+    975,
+    989,
+    990,
+    1004,
+    1005,
+    1009,
+    1010,
+    1019,
+    1020,
+    1029,
+    1035,
+    1037,
+    1038,
+    1039,
+    1052,
+    1060,
+    1064,
+    1065
+  ],
+  "sha256": "f3fefb20e11b8200bdd1ec86073bde99fed4f3651d44fd9a182ee1a708d02b91",
+  "streams": [
+    {
+      "index": 0,
+      "codec_name": "h264",
+      "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+      "profile": "High",
+      "codec_type": "video",
+      "codec_tag_string": "avc1",
+      "codec_tag": "0x31637661",
+      "mime_codec_string": "avc1.640028",
+      "width": 1080,
+      "height": 1920,
+      "coded_width": 1080,
+      "coded_height": 1920,
+      "has_b_frames": 2,
+      "pix_fmt": "yuv420p",
+      "level": 40,
+      "color_range": "tv",
+      "color_space": "bt709",
+      "color_transfer": "bt709",
+      "color_primaries": "bt709",
+      "chroma_location": "left",
+      "field_order": "progressive",
+      "is_avc": "true",
+      "nal_length_size": "4",
+      "id": "0x1",
+      "r_frame_rate": "30/1",
+      "avg_frame_rate": "30/1",
+      "time_base": "1/15360",
+      "start_pts": 0,
+      "start_time": "0.000000",
+      "duration_ts": 545792,
+      "duration": "35.533333",
+      "bit_rate": "3145375",
+      "bits_per_raw_sample": "8",
+      "nb_frames": "1066",
+      "extradata_size": 49,
+      "disposition": {
+        "default": 1,
+        "dub": 0,
+        "original": 0,
+        "comment": 0,
+        "lyrics": 0,
+        "karaoke": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "visual_impaired": 0,
+        "clean_effects": 0,
+        "attached_pic": 0,
+        "timed_thumbnails": 0,
+        "non_diegetic": 0,
+        "captions": 0,
+        "descriptions": 0,
+        "metadata": 0,
+        "dependent": 0,
+        "still_image": 0,
+        "multilayer": 0
+      },
+      "tags": {
+        "language": "und",
+        "handler_name": "VideoHandler",
+        "encoder": "Lavc62.28.102 libx264"
+      }
+    },
+    {
+      "index": 1,
+      "codec_name": "aac",
+      "codec_long_name": "AAC (Advanced Audio Coding)",
+      "profile": "LC",
+      "codec_type": "audio",
+      "codec_tag_string": "mp4a",
+      "codec_tag": "0x6134706d",
+      "mime_codec_string": "mp4a.40.2",
+      "sample_fmt": "fltp",
+      "sample_rate": "44100",
+      "channels": 1,
+      "channel_layout": "mono",
+      "bits_per_sample": 0,
+      "initial_padding": 0,
+      "id": "0x2",
+      "r_frame_rate": "0/0",
+      "avg_frame_rate": "0/0",
+      "time_base": "1/44100",
+      "start_pts": 0,
+      "start_time": "0.000000",
+      "duration_ts": 1567711,
+      "duration": "35.549002",
+      "bit_rate": "63781",
+      "nb_frames": "1533",
+      "extradata_size": 2,
+      "disposition": {
+        "default": 1,
+        "dub": 0,
+        "original": 0,
+        "comment": 0,
+        "lyrics": 0,
+        "karaoke": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "visual_impaired": 0,
+        "clean_effects": 0,
+        "attached_pic": 0,
+        "timed_thumbnails": 0,
+        "non_diegetic": 0,
+        "captions": 0,
+        "descriptions": 0,
+        "metadata": 0,
+        "dependent": 0,
+        "still_image": 0,
+        "multilayer": 0
+      },
+      "tags": {
+        "language": "und",
+        "handler_name": "Core Media Audio"
+      }
+    }
+  ],
+  "decoded_video_frames": 1066,
+  "audio_measurements": {
+    "stream": "0:a:0",
+    "method": "sample levels and silence candidates; not listening",
+    "mean_dbfs": [
+      "-24.6"
+    ],
+    "sample_peak_dbfs": [
+      "-4.8"
+    ],
+    "silence_candidate_threshold_dbfs": -50,
+    "minimum_silence_seconds": 0.25
+  },
+  "audio_analysis_execution": "PASS",
+  "frame_recipe": {
+    "argv": [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-xerror",
+      "-i",
+      "/Users/diplomat/ytvideos/channels/paper_detour/videos/028_taj_mahal/Work/tajmahal_subtitles_20261103_v01/previews/captions_review_v06/shorts_subtitles_review.mp4",
+      "-map",
+      "0:v:0",
+      "-vf",
+      "select=((((((((eq(n\\,0)+eq(n\\,6))+(eq(n\\,14)+eq(n\\,27)))+((eq(n\\,28)+eq(n\\,29))+(eq(n\\,30)+eq(n\\,35))))+(((eq(n\\,42)+eq(n\\,43))+(eq(n\\,55)+eq(n\\,56)))+((eq(n\\,57)+eq(n\\,60))+(eq(n\\,62)+eq(n\\,63)))))+((((eq(n\\,71)+eq(n\\,72))+(eq(n\\,81)+eq(n\\,90)))+((eq(n\\,91)+eq(n\\,102))+(eq(n\\,108)+eq(n\\,114))))+(((eq(n\\,115)+eq(n\\,120))+(eq(n\\,124)+eq(n\\,125)))+((eq(n\\,126)+eq(n\\,132))+(eq(n\\,137)+eq(n\\,144))))))+(((((eq(n\\,145)+eq(n\\,156))+(eq(n\\,160)+eq(n\\,161)))+((eq(n\\,166)+eq(n\\,172))+(eq(n\\,173)+eq(n\\,184))))+(((eq(n\\,186)+eq(n\\,193))+(eq(n\\,196)+eq(n\\,197)))+((eq(n\\,203)+eq(n\\,209))+(eq(n\\,210)+eq(n\\,216)))))+((((eq(n\\,223)+eq(n\\,224))+(eq(n\\,241)+eq(n\\,244)))+((eq(n\\,246)+eq(n\\,251))+(eq(n\\,255)+eq(n\\,258))))+(((eq(n\\,259)+eq(n\\,260))+(eq(n\\,261)+eq(n\\,265)))+((eq(n\\,266)+eq(n\\,267))+(eq(n\\,275)+eq(n\\,276)))))))+((((((eq(n\\,279)+eq(n\\,291))+(eq(n\\,292)+eq(n\\,293)))+((eq(n\\,308)+eq(n\\,309))+(eq(n\\,310)+eq(n\\,321))))+(((eq(n\\,323)+eq(n\\,324))+(eq(n\\,328)+eq(n\\,351)))+((eq(n\\,352)+eq(n\\,376))+(eq(n\\,381)+eq(n\\,382)))))+((((eq(n\\,386)+eq(n\\,390))+(eq(n\\,391)+eq(n\\,393)))+((eq(n\\,394)+eq(n\\,395))+(eq(n\\,396)+eq(n\\,402))))+(((eq(n\\,414)+eq(n\\,415))+(eq(n\\,423)+eq(n\\,426)))+((eq(n\\,431)+eq(n\\,432))+(eq(n\\,441)+eq(n\\,450))))))+(((((eq(n\\,451)+eq(n\\,456))+(eq(n\\,463)+eq(n\\,475)))+((eq(n\\,486)+eq(n\\,499))+(eq(n\\,500)+eq(n\\,508))))+(((eq(n\\,511)+eq(n\\,516))+(eq(n\\,517)+eq(n\\,521)))+((eq(n\\,525)+eq(n\\,528))+(eq(n\\,529)+eq(n\\,530)))))+((((eq(n\\,531)+eq(n\\,537))+(eq(n\\,541)+eq(n\\,542)))+((eq(n\\,550)+eq(n\\,559))+(eq(n\\,560)+eq(n\\,561))))+(((eq(n\\,574)+eq(n\\,581))+(eq(n\\,588)+eq(n\\,589)))+((eq(n\\,591)+eq(n\\,593))+(eq(n\\,594)+eq(n\\,603))))))))+(((((((eq(n\\,604)+eq(n\\,619))+(eq(n\\,621)+eq(n\\,635)))+((eq(n\\,636)+eq(n\\,646))+(eq(n\\,651)+eq(n\\,655))))+(((eq(n\\,656)+eq(n\\,657))+(eq(n\\,658)+eq(n\\,663)))+((eq(n\\,677)+eq(n\\,687))+(eq(n\\,696)+eq(n\\,697)))))+((((eq(n\\,713)+eq(n\\,717))+(eq(n\\,725)+eq(n\\,726)))+((eq(n\\,729)+eq(n\\,730))+(eq(n\\,740)+eq(n\\,747))))+(((eq(n\\,750)+eq(n\\,751))+(eq(n\\,765)+eq(n\\,766)))+((eq(n\\,772)+eq(n\\,777))+(eq(n\\,781)+eq(n\\,782))))))+(((((eq(n\\,783)+eq(n\\,786))+(eq(n\\,789)+eq(n\\,791)))+((eq(n\\,793)+eq(n\\,794))+(eq(n\\,795)+eq(n\\,799))))+(((eq(n\\,801)+eq(n\\,802))+(eq(n\\,817)+eq(n\\,818)))+((eq(n\\,825)+eq(n\\,828))+(eq(n\\,839)+eq(n\\,840)))))+((((eq(n\\,846)+eq(n\\,853))+(eq(n\\,854)+eq(n\\,855)))+((eq(n\\,860)+eq(n\\,867))+(eq(n\\,868)+eq(n\\,869))))+(((eq(n\\,870)+eq(n\\,872))+(eq(n\\,876)+eq(n\\,877)))+((eq(n\\,882)+eq(n\\,885))+(eq(n\\,893)+eq(n\\,897)))))))+((((((eq(n\\,898)+eq(n\\,910))+(eq(n\\,911)+eq(n\\,915)))+((eq(n\\,920)+eq(n\\,924))+(eq(n\\,927)+eq(n\\,929))))+(((eq(n\\,931)+eq(n\\,932))+(eq(n\\,939)+eq(n\\,943)))+((eq(n\\,944)+eq(n\\,945))+(eq(n\\,951)+eq(n\\,952)))))+((((eq(n\\,953)+eq(n\\,971))+(eq(n\\,975)+eq(n\\,989)))+((eq(n\\,990)+eq(n\\,1004))+(eq(n\\,1005)+eq(n\\,1009))))+(((eq(n\\,1010)+eq(n\\,1019))+(eq(n\\,1020)+eq(n\\,1029)))+((eq(n\\,1035)+eq(n\\,1037))+(eq(n\\,1038)+eq(n\\,1039))))))+((eq(n\\,1052)+eq(n\\,1060))+(eq(n\\,1064)+eq(n\\,1065))))))",
+      "-fps_mode",
+      "vfr",
+      "-start_number",
+      "0",
+      "/Users/diplomat/ytvideos/channels/paper_detour/videos/028_taj_mahal/Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/%06d.png"
+    ],
+    "ffmpeg_version": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers",
+    "stream": "0:v:0",
+    "index_basis": "zero-based decoded video frame",
+    "fps": "30/1"
+  },
+  "frame_map": [
+    {
+      "index": 0,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000000.png"
+    },
+    {
+      "index": 6,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000001.png"
+    },
+    {
+      "index": 14,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000002.png"
+    },
+    {
+      "index": 27,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000003.png"
+    },
+    {
+      "index": 28,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000004.png"
+    },
+    {
+      "index": 29,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000005.png"
+    },
+    {
+      "index": 30,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000006.png"
+    },
+    {
+      "index": 35,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000007.png"
+    },
+    {
+      "index": 42,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000008.png"
+    },
+    {
+      "index": 43,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000009.png"
+    },
+    {
+      "index": 55,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000010.png"
+    },
+    {
+      "index": 56,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000011.png"
+    },
+    {
+      "index": 57,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000012.png"
+    },
+    {
+      "index": 60,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000013.png"
+    },
+    {
+      "index": 62,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000014.png"
+    },
+    {
+      "index": 63,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000015.png"
+    },
+    {
+      "index": 71,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000016.png"
+    },
+    {
+      "index": 72,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000017.png"
+    },
+    {
+      "index": 81,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000018.png"
+    },
+    {
+      "index": 90,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000019.png"
+    },
+    {
+      "index": 91,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000020.png"
+    },
+    {
+      "index": 102,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000021.png"
+    },
+    {
+      "index": 108,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000022.png"
+    },
+    {
+      "index": 114,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000023.png"
+    },
+    {
+      "index": 115,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000024.png"
+    },
+    {
+      "index": 120,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000025.png"
+    },
+    {
+      "index": 124,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000026.png"
+    },
+    {
+      "index": 125,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000027.png"
+    },
+    {
+      "index": 126,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000028.png"
+    },
+    {
+      "index": 132,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000029.png"
+    },
+    {
+      "index": 137,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000030.png"
+    },
+    {
+      "index": 144,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000031.png"
+    },
+    {
+      "index": 145,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000032.png"
+    },
+    {
+      "index": 156,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000033.png"
+    },
+    {
+      "index": 160,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000034.png"
+    },
+    {
+      "index": 161,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000035.png"
+    },
+    {
+      "index": 166,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000036.png"
+    },
+    {
+      "index": 172,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000037.png"
+    },
+    {
+      "index": 173,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000038.png"
+    },
+    {
+      "index": 184,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000039.png"
+    },
+    {
+      "index": 186,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000040.png"
+    },
+    {
+      "index": 193,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000041.png"
+    },
+    {
+      "index": 196,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000042.png"
+    },
+    {
+      "index": 197,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000043.png"
+    },
+    {
+      "index": 203,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000044.png"
+    },
+    {
+      "index": 209,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000045.png"
+    },
+    {
+      "index": 210,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000046.png"
+    },
+    {
+      "index": 216,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000047.png"
+    },
+    {
+      "index": 223,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000048.png"
+    },
+    {
+      "index": 224,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000049.png"
+    },
+    {
+      "index": 241,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000050.png"
+    },
+    {
+      "index": 244,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000051.png"
+    },
+    {
+      "index": 246,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000052.png"
+    },
+    {
+      "index": 251,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000053.png"
+    },
+    {
+      "index": 255,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000054.png"
+    },
+    {
+      "index": 258,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000055.png"
+    },
+    {
+      "index": 259,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000056.png"
+    },
+    {
+      "index": 260,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000057.png"
+    },
+    {
+      "index": 261,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000058.png"
+    },
+    {
+      "index": 265,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000059.png"
+    },
+    {
+      "index": 266,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000060.png"
+    },
+    {
+      "index": 267,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000061.png"
+    },
+    {
+      "index": 275,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000062.png"
+    },
+    {
+      "index": 276,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000063.png"
+    },
+    {
+      "index": 279,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000064.png"
+    },
+    {
+      "index": 291,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000065.png"
+    },
+    {
+      "index": 292,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000066.png"
+    },
+    {
+      "index": 293,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000067.png"
+    },
+    {
+      "index": 308,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000068.png"
+    },
+    {
+      "index": 309,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000069.png"
+    },
+    {
+      "index": 310,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000070.png"
+    },
+    {
+      "index": 321,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000071.png"
+    },
+    {
+      "index": 323,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000072.png"
+    },
+    {
+      "index": 324,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000073.png"
+    },
+    {
+      "index": 328,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000074.png"
+    },
+    {
+      "index": 351,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000075.png"
+    },
+    {
+      "index": 352,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000076.png"
+    },
+    {
+      "index": 376,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000077.png"
+    },
+    {
+      "index": 381,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000078.png"
+    },
+    {
+      "index": 382,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000079.png"
+    },
+    {
+      "index": 386,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000080.png"
+    },
+    {
+      "index": 390,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000081.png"
+    },
+    {
+      "index": 391,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000082.png"
+    },
+    {
+      "index": 393,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000083.png"
+    },
+    {
+      "index": 394,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000084.png"
+    },
+    {
+      "index": 395,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000085.png"
+    },
+    {
+      "index": 396,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000086.png"
+    },
+    {
+      "index": 402,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000087.png"
+    },
+    {
+      "index": 414,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000088.png"
+    },
+    {
+      "index": 415,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000089.png"
+    },
+    {
+      "index": 423,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000090.png"
+    },
+    {
+      "index": 426,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000091.png"
+    },
+    {
+      "index": 431,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000092.png"
+    },
+    {
+      "index": 432,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000093.png"
+    },
+    {
+      "index": 441,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000094.png"
+    },
+    {
+      "index": 450,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000095.png"
+    },
+    {
+      "index": 451,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000096.png"
+    },
+    {
+      "index": 456,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000097.png"
+    },
+    {
+      "index": 463,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000098.png"
+    },
+    {
+      "index": 475,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000099.png"
+    },
+    {
+      "index": 486,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000100.png"
+    },
+    {
+      "index": 499,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000101.png"
+    },
+    {
+      "index": 500,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000102.png"
+    },
+    {
+      "index": 508,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000103.png"
+    },
+    {
+      "index": 511,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000104.png"
+    },
+    {
+      "index": 516,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000105.png"
+    },
+    {
+      "index": 517,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000106.png"
+    },
+    {
+      "index": 521,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000107.png"
+    },
+    {
+      "index": 525,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000108.png"
+    },
+    {
+      "index": 528,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000109.png"
+    },
+    {
+      "index": 529,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000110.png"
+    },
+    {
+      "index": 530,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000111.png"
+    },
+    {
+      "index": 531,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000112.png"
+    },
+    {
+      "index": 537,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000113.png"
+    },
+    {
+      "index": 541,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000114.png"
+    },
+    {
+      "index": 542,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000115.png"
+    },
+    {
+      "index": 550,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000116.png"
+    },
+    {
+      "index": 559,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000117.png"
+    },
+    {
+      "index": 560,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000118.png"
+    },
+    {
+      "index": 561,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000119.png"
+    },
+    {
+      "index": 574,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000120.png"
+    },
+    {
+      "index": 581,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000121.png"
+    },
+    {
+      "index": 588,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000122.png"
+    },
+    {
+      "index": 589,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000123.png"
+    },
+    {
+      "index": 591,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000124.png"
+    },
+    {
+      "index": 593,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000125.png"
+    },
+    {
+      "index": 594,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000126.png"
+    },
+    {
+      "index": 603,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000127.png"
+    },
+    {
+      "index": 604,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000128.png"
+    },
+    {
+      "index": 619,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000129.png"
+    },
+    {
+      "index": 621,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000130.png"
+    },
+    {
+      "index": 635,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000131.png"
+    },
+    {
+      "index": 636,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000132.png"
+    },
+    {
+      "index": 646,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000133.png"
+    },
+    {
+      "index": 651,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000134.png"
+    },
+    {
+      "index": 655,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000135.png"
+    },
+    {
+      "index": 656,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000136.png"
+    },
+    {
+      "index": 657,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000137.png"
+    },
+    {
+      "index": 658,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000138.png"
+    },
+    {
+      "index": 663,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000139.png"
+    },
+    {
+      "index": 677,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000140.png"
+    },
+    {
+      "index": 687,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000141.png"
+    },
+    {
+      "index": 696,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000142.png"
+    },
+    {
+      "index": 697,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000143.png"
+    },
+    {
+      "index": 713,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000144.png"
+    },
+    {
+      "index": 717,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000145.png"
+    },
+    {
+      "index": 725,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000146.png"
+    },
+    {
+      "index": 726,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000147.png"
+    },
+    {
+      "index": 729,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000148.png"
+    },
+    {
+      "index": 730,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000149.png"
+    },
+    {
+      "index": 740,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000150.png"
+    },
+    {
+      "index": 747,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000151.png"
+    },
+    {
+      "index": 750,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000152.png"
+    },
+    {
+      "index": 751,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000153.png"
+    },
+    {
+      "index": 765,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000154.png"
+    },
+    {
+      "index": 766,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000155.png"
+    },
+    {
+      "index": 772,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000156.png"
+    },
+    {
+      "index": 777,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000157.png"
+    },
+    {
+      "index": 781,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000158.png"
+    },
+    {
+      "index": 782,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000159.png"
+    },
+    {
+      "index": 783,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000160.png"
+    },
+    {
+      "index": 786,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000161.png"
+    },
+    {
+      "index": 789,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000162.png"
+    },
+    {
+      "index": 791,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000163.png"
+    },
+    {
+      "index": 793,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000164.png"
+    },
+    {
+      "index": 794,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000165.png"
+    },
+    {
+      "index": 795,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000166.png"
+    },
+    {
+      "index": 799,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000167.png"
+    },
+    {
+      "index": 801,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000168.png"
+    },
+    {
+      "index": 802,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000169.png"
+    },
+    {
+      "index": 817,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000170.png"
+    },
+    {
+      "index": 818,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000171.png"
+    },
+    {
+      "index": 825,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000172.png"
+    },
+    {
+      "index": 828,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000173.png"
+    },
+    {
+      "index": 839,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000174.png"
+    },
+    {
+      "index": 840,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000175.png"
+    },
+    {
+      "index": 846,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000176.png"
+    },
+    {
+      "index": 853,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000177.png"
+    },
+    {
+      "index": 854,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000178.png"
+    },
+    {
+      "index": 855,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000179.png"
+    },
+    {
+      "index": 860,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000180.png"
+    },
+    {
+      "index": 867,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000181.png"
+    },
+    {
+      "index": 868,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000182.png"
+    },
+    {
+      "index": 869,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000183.png"
+    },
+    {
+      "index": 870,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000184.png"
+    },
+    {
+      "index": 872,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000185.png"
+    },
+    {
+      "index": 876,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000186.png"
+    },
+    {
+      "index": 877,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000187.png"
+    },
+    {
+      "index": 882,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000188.png"
+    },
+    {
+      "index": 885,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000189.png"
+    },
+    {
+      "index": 893,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000190.png"
+    },
+    {
+      "index": 897,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000191.png"
+    },
+    {
+      "index": 898,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000192.png"
+    },
+    {
+      "index": 910,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000193.png"
+    },
+    {
+      "index": 911,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000194.png"
+    },
+    {
+      "index": 915,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000195.png"
+    },
+    {
+      "index": 920,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000196.png"
+    },
+    {
+      "index": 924,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000197.png"
+    },
+    {
+      "index": 927,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000198.png"
+    },
+    {
+      "index": 929,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000199.png"
+    },
+    {
+      "index": 931,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000200.png"
+    },
+    {
+      "index": 932,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000201.png"
+    },
+    {
+      "index": 939,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000202.png"
+    },
+    {
+      "index": 943,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000203.png"
+    },
+    {
+      "index": 944,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000204.png"
+    },
+    {
+      "index": 945,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000205.png"
+    },
+    {
+      "index": 951,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000206.png"
+    },
+    {
+      "index": 952,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000207.png"
+    },
+    {
+      "index": 953,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000208.png"
+    },
+    {
+      "index": 971,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000209.png"
+    },
+    {
+      "index": 975,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000210.png"
+    },
+    {
+      "index": 989,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000211.png"
+    },
+    {
+      "index": 990,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000212.png"
+    },
+    {
+      "index": 1004,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000213.png"
+    },
+    {
+      "index": 1005,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000214.png"
+    },
+    {
+      "index": 1009,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000215.png"
+    },
+    {
+      "index": 1010,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000216.png"
+    },
+    {
+      "index": 1019,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000217.png"
+    },
+    {
+      "index": 1020,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000218.png"
+    },
+    {
+      "index": 1029,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000219.png"
+    },
+    {
+      "index": 1035,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000220.png"
+    },
+    {
+      "index": 1037,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000221.png"
+    },
+    {
+      "index": 1038,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000222.png"
+    },
+    {
+      "index": 1039,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000223.png"
+    },
+    {
+      "index": 1052,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000224.png"
+    },
+    {
+      "index": 1060,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000225.png"
+    },
+    {
+      "index": 1064,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000226.png"
+    },
+    {
+      "index": 1065,
+      "path": "../../../Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa/000227.png"
+    }
+  ],
+  "frames_directory": "/Users/diplomat/ytvideos/channels/paper_detour/videos/028_taj_mahal/Work/tajmahal_parallax_subtitles_20261103_v03/scratch/qa",
+  "technical_status": "PASS",
+  "verdict": "UNVERIFIED"
+}

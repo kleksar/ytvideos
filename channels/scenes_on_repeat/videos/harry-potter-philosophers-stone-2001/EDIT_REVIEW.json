@@ -1,0 +1,51 @@
+{
+  "review_revision": "hp-film-sound-first-v01",
+  "channel_id": "UCqct_dth0WSCwiDZx1WMfgg",
+  "stage": "local_review",
+  "youtube_previous_batch": "Packaging/youtube-deletion.json",
+  "clips": [
+    {
+      "id": "trailer-v05",
+      "mp4": "Deliverables/trailer-v05/trailer-v05.mp4",
+      "srt": "Deliverables/trailer-v05/trailer-v05.en.srt",
+      "qa": "Work/trailer-v05/qa-receipt.json",
+      "mp4_sha256": "9832c65fadd62bc848febb09e93ea75698d708035f7dead8f88587243ff822f1",
+      "duration_seconds": 51.291666666666664,
+      "added_music": false
+    },
+    {
+      "id": "leviosa-v04",
+      "mp4": "Deliverables/leviosa-v04/leviosa-v04.mp4",
+      "srt": "Deliverables/leviosa-v04/leviosa-v04.en.srt",
+      "qa": "Work/leviosa-v04/qa-receipt.json",
+      "mp4_sha256": "693ea6794002268553d2833c6312a43c6d93b30b616e31e8bf2f66f347405e21",
+      "duration_seconds": 26.333333333333332,
+      "added_music": false
+    },
+    {
+      "id": "wand-v03",
+      "mp4": "Deliverables/wand-v03/wand-v03.mp4",
+      "srt": "Deliverables/wand-v03/wand-v03.en.srt",
+      "qa": "Work/wand-v03/qa-receipt.json",
+      "mp4_sha256": "46ba38f0e1a501aa5aefae8cb98756731e2d308d7c3006c51d76a0092ad9d695",
+      "duration_seconds": 31.416666666666668,
+      "added_music": false
+    }
+  ],
+  "compilation_block": {
+    "mp4": "Deliverables/trailer-v05/trailer-v05-compilation-block.mp4",
+    "mp4_sha256": "d895fddbd6c9320018fde2de5c3cce4c7b33aafcbb1a05f72ac523662556e9ac",
+    "duration_seconds": 51.291666666666664,
+    "frames": 1231,
+    "width": 1920,
+    "height": 1080,
+    "decode": "passed",
+    "audio_matches_trailer": true,
+    "observed_frames_seconds": [
+      0,
+      6,
+      24,
+      44
+    ]
+  }
+}

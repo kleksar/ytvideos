@@ -1,0 +1,171 @@
+- generic: Аналитика по каналу
+- banner:
+  - button "Свернуть меню":
+  - link "Панель управления в новой Творческой студии":
+    - /url: /channel/UCMVfdfaNxV3ZkI3_J3Eejzw
+    - img "Панель управления в новой Творческой студии"
+  - button "Пропустить навигацию":
+    - generic: Пропустить навигацию
+  - textbox "Поиск на канале"
+  - button "Справка":
+  - button "Уведомления":
+  - button "Спросить у Студии":
+    - generic: Спросить у Студии
+  - button "Создать":
+    - generic: Создать
+  - generic "Аккаунт":
+    - button "Account"
+- navigation:
+  - img "Paper Detour"
+  - generic: Ваш канал
+  - generic: Paper Detour
+  - menu:
+    - menuitem "Главная":
+      - generic: Главная
+    - menuitem "Контент":
+      - generic: Контент
+    - menuitem "Аналитика":
+      - generic: Аналитика
+    - menuitem "Сообщество":
+      - generic: Сообщество
+    - menuitem "Языки":
+      - generic: Языки
+    - menuitem "Обнаружение контента":
+      - generic: Обнаружение контента
+    - menuitem "Монетизация":
+      - generic: Монетизация
+    - menuitem "Настройка канала":
+      - generic: Настройка канала
+    - menuitem "Фонотека":
+      - generic: Фонотека
+  - list:
+    - button "Настройки":
+      - generic: Настройки
+    - button "Отправить отзыв":
+      - generic: Отправить отзыв
+- main:
+  - heading "Аналитика по каналу" [level=1]
+  - link "Расширенный режим":
+    - /url: /channel/UCMVfdfaNxV3ZkI3_J3Eejzw/analytics/tab-content/period-default/explore?entity_type=CHANNEL&entity_id=UCMVfdfaNxV3ZkI3_J3Eejzw&time_period=4_weeks&explore_type=TABLE_AND_CHART&metric=EXTERNAL_VIEWS&granularity=DAY&t_metrics=EXTERNAL_VIEWS&t_metrics=EXTERNAL_WATCH_TIME&t_metrics=SUBSCRIBERS_NET_CHANGE&t_metrics=TOTAL_ESTIMATED_EARNINGS&t_metrics=VIDEO_THUMBNAIL_IMPRESSIONS&t_metrics=VIDEO_THUMBNAIL_IMPRESSIONS_VTR&dimension=VIDEO&o_column=EXTERNAL_VIEWS&o_direction=ANALYTICS_ORDER_DIRECTION_DESC
+    - button "Расширенный режим":
+      - generic: Расширенный режим
+  - button "Как зрители находят мой контент?":
+    - generic: Как зрители находят мой контент?
+  - button "Сколько на моем канале новых зрителей?":
+    - generic: Сколько на моем канале новых зрителей?
+  - button "Дать краткую оценку эффективности последнего видео":
+    - generic: Дать краткую оценку эффективности последнего видео
+  - generic "Открыть дополнительное меню, чтобы отклонить предложения":
+    - button "Открыть дополнительное меню, чтобы отклонить предложения":
+  - tablist:
+    - tab "Обзор":
+      - generic: Обзор
+    - tab "Контент" [selected]:
+      - generic: Контент
+    - tab "Аудитория":
+      - generic: Аудитория
+    - tab "Тренды":
+      - generic: Тренды
+  - button "4–31 окт. 2026 г. Последние 28 дней":
+    - button "4–31 окт. 2026 г. Последние 28 дней":
+      - generic: 4–31 окт. 2026 г.
+      - generic: Последние 28 дней
+  - radiogroup:
+    - radio "Все":
+      - generic: Все
+    - radio "Видео" [checked]:
+      - generic [active]: Видео
+    - radio "Shorts":
+      - generic: Shorts
+    - radio "Плейлисты":
+      - generic: Плейлисты
+  - generic: Просмотры
+  - listbox:
+    - option "Просмотры 9 Общее число просмотров для выбранного периода и региона" [selected]:
+      - generic: Просмотры
+      - generic: "9"
+      - generic: Общее число просмотров для выбранного периода и региона
+    - option "Показы значков видео 17 Сколько раз значки вашего видео показывались зрителям на YouTube. Показы за пределами YouTube не учитываются. Раньше это называлось \"Показы\".":
+      - generic: Показы значков видео
+      - generic: "17"
+      - generic: Сколько раз значки вашего видео показывались зрителям на YouTube. Показы за пределами YouTube не учитываются. Раньше это называлось "Показы".
+    - option "CTR для значков видео — Как часто пользователи включали видео, увидев его значок. Рассчитывается как отношение количества просмотров к количеству показов. Раньше это называлось \"CTR показов\".":
+      - generic: CTR для значков видео
+      - generic: —
+      - generic: Как часто пользователи включали видео, увидев его значок. Рассчитывается как отношение количества просмотров к количеству показов. Раньше это называлось "CTR показов".
+    - option "Средняя продолжительность просмотра 1:02 Среднее время просмотра (в минутах) для выбранного контента, региона и периода":
+      - generic: Средняя продолжительность просмотра
+      - generic: 1:02
+      - generic: Среднее время просмотра (в минутах) для выбранного контента, региона и периода
+  - generic: Просмотры
+  - link "Подробнее":
+    - /url: /channel/UCMVfdfaNxV3ZkI3_J3Eejzw/analytics/tab-content/period-default/explore?entity_type=CHANNEL&entity_id=UCMVfdfaNxV3ZkI3_J3Eejzw&ur_dimensions=CREATOR_CONTENT_TYPE&ur_values='VIDEO_ON_DEMAND'&ur_inclusive_starts=&ur_exclusive_ends=&time_period=4_weeks&explore_type=TABLE_AND_CHART&metrics_computation_type=DELTA&metric=EXTERNAL_VIEWS&granularity=DAY&t_metrics=EXTERNAL_VIEWS&t_metrics=VIDEO_THUMBNAIL_IMPRESSIONS&t_metrics=VIDEO_THUMBNAIL_IMPRESSIONS_VTR&t_metrics=AVERAGE_WATCH_TIME&v_metrics=EXTERNAL_VIEWS&v_metrics=VIDEO_THUMBNAIL_IMPRESSIONS&v_metrics=VIDEO_THUMBNAIL_IMPRESSIONS_VTR&v_metrics=AVERAGE_WATCH_TIME&dimension=CREATOR_CONTENT_TYPE&o_column=EXTERNAL_VIEWS&o_direction=ANALYTICS_ORDER_DIRECTION_DESC
+    - generic "Подробнее":
+      - button "Подробнее":
+        - generic: Подробнее
+  - heading "Как зрители находят ваши видео" [level=2]
+  - generic: Количество просмотров · Последние 28 дней
+  - radiogroup:
+    - radio "Общие" [checked]:
+      - generic: Общие
+    - radio "Внешние источники":
+      - generic: Внешние источники
+    - radio "Поиск на YouTube":
+      - generic: Поиск на YouTube
+    - radio "Рекомендуемые видео":
+      - generic: Рекомендуемые видео
+    - radio "Плейлисты":
+      - generic: Плейлисты
+  - table:
+    - rowgroup:
+      - row "Функции выбора контента 33,3 %":
+        - cell
+        - cell "Функции выбора контента":
+          - generic: Функции выбора контента
+        - cell
+        - cell "33,3 %":
+          - generic: 33,3 %
+      - row "Другие страницы YouTube 33,3 %":
+        - cell
+        - cell "Другие страницы YouTube":
+          - generic: Другие страницы YouTube
+        - cell
+        - cell "33,3 %":
+          - generic: 33,3 %
+      - row "Адресная строка, закладки, неизвестные источники 22,2 %":
+        - cell
+        - cell "Адресная строка, закладки, неизвестные источники":
+          - generic: Адресная строка, закладки, неизвестные источники
+        - cell
+        - cell "22,2 %":
+          - generic: 22,2 %
+      - row "Поиск на YouTube 11,1 %":
+        - cell
+        - cell "Поиск на YouTube":
+          - generic: Поиск на YouTube
+        - cell
+        - cell "11,1 %":
+          - generic: 11,1 %
+  - link "Подробнее":
+    - /url: /channel/UCMVfdfaNxV3ZkI3_J3Eejzw/analytics/tab-content/period-default/explore?entity_type=CHANNEL&entity_id=UCMVfdfaNxV3ZkI3_J3Eejzw&ur_dimensions=CREATOR_CONTENT_TYPE&ur_values='VIDEO_ON_DEMAND'&ur_inclusive_starts=&ur_exclusive_ends=&time_period=4_weeks&explore_type=TABLE_AND_CHART&metric=EXTERNAL_VIEWS&granularity=DAY&t_metrics=VIDEO_THUMBNAIL_IMPRESSIONS&t_metrics=VIDEO_THUMBNAIL_IMPRESSIONS_VTR&t_metrics=EXTERNAL_VIEWS&t_metrics=AVERAGE_WATCH_TIME&t_metrics=EXTERNAL_WATCH_TIME&dimension=TRAFFIC_SOURCE_TYPE&o_column=EXTERNAL_VIEWS&o_direction=ANALYTICS_ORDER_DIRECTION_DESC
+    - generic "Подробнее":
+      - button "Подробнее":
+        - generic: Подробнее
+  - heading "Лучшие видео" [level=2]
+  - generic: Просмотры · Последние 28 дней
+  - table:
+    - rowgroup:
+      - row "A Radio Signal with an Unexpected Listener 5":
+        - cell
+        - cell "A Radio Signal with an Unexpected Listener":
+          - link "A Radio Signal with an Unexpected Listener":
+            - /url: /video/0RaC4t7yn5o/analytics/tab-overview/period-default
+            - generic: A Radio Signal with an Unexpected Listener
+        - cell
+        - cell "5":
+          - generic: "5"
+  - link "Подробнее":
+    - /url: /channel/UCMVfdfaNxV3ZkI3_J3Eejzw/analytics/tab-content/period-default/explore?entity_type=CHANNEL&entity_id=UCMVfdfaNxV3ZkI3_J3Eejzw&ur_dimensions=CREATOR_CONTENT_TYPE&ur_values='VIDEO_ON_DEMAND'&ur_inclusive_starts=&ur_exclusive_ends=&time_period=4_weeks&explore_type=TABLE_AND_CHART&metric=EXTERNAL_VIEWS&granularity=DAY&t_metrics=VIDEO_THUMBNAIL_IMPRESSIONS&t_metrics=VIDEO_THUMBNAIL_IMPRESSIONS_VTR&t_metrics=EXTERNAL_VIEWS&t_metrics=AVERAGE_WATCH_TIME&t_metrics=EXTERNAL_WATCH_TIME&t_metrics=HYPES&dimension=VIDEO&o_column=EXTERNAL_VIEWS&o_direction=ANALYTICS_ORDER_DIRECTION_DESC
+    - generic "Подробнее":
+      - button "Подробнее":
+        - generic: Подробнее

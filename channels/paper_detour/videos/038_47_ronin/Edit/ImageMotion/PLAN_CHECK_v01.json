@@ -1,0 +1,28 @@
+{
+  "status": "PLAN_READY_FOR_APPLY",
+  "run": "531dbf2675c38b40310c",
+  "projectId": "FE6B0E4C",
+  "timelineId": "51E4D60B",
+  "sourceTimelinePreserved": "AC510A6E",
+  "scene_count": 144,
+  "depth_cache_check": {
+    "reported_depth_ready": 144,
+    "reported_depth_entries": 0,
+    "errors": [],
+    "log": "Work/image-motion-038-v01/depth-cache-readback.log"
+  },
+  "camera_mode_counts": {
+    "push-in": 71,
+    "pan-right": 33,
+    "pull-out": 37,
+    "pan-left": 3
+  },
+  "camera_key_mismatches": [],
+  "preset": "gentle-aligned",
+  "grain": "g08",
+  "depth_zoom": 1.0,
+  "plan_sha256": "9c60c586203b74c394893c7e096aaa6ceba0387f90f9b52d2c9f8393c1dd629c",
+  "limitations": [
+    "Plan is structural only; actual composition/motion safety requires rendered composite inspection."
+  ]
+}

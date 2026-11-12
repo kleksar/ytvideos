@@ -1,0 +1,58 @@
+{
+  "date": "2026-11-01",
+  "project": {
+    "name": "Paper Detour 009 Knorozov Asya Draft 20261101",
+    "id": "9A0EE170"
+  },
+  "sourceTimeline": {
+    "name": "PD009_knorozov_asya_layered_draft_20261101",
+    "id": "6BF7F173",
+    "changed": false
+  },
+  "snapshotBeforeRebuild": {
+    "id": "FAE7290C",
+    "name": "Before full-frame rebuild v02"
+  },
+  "timeline": {
+    "name": "PD009_full_frame_rebuild_v02_20261101",
+    "id": "25246C8B",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "totalFrames": 960,
+    "durationSeconds": 32,
+    "visualMethod": "one complete still per scene, direct cuts; no separate BG/MG/FG, parallax, object animation, grain clip, or accent overlay"
+  },
+  "tracks": [
+    {
+      "name": "Main",
+      "trackId": "56C541F1",
+      "clips": [
+        {"id":"96E837F1","mediaRef":"9746FE2D","frames":[0,99],"scene":"S01"},
+        {"id":"616752D8","mediaRef":"42654265","frames":[99,189],"scene":"S02"},
+        {"id":"80ACB2E5","mediaRef":"6BBD1322","frames":[189,303],"scene":"S03"},
+        {"id":"D1962034","mediaRef":"1E9EAFCD","frames":[303,399],"scene":"S04"},
+        {"id":"DD57E4AC","mediaRef":"125D63FD","frames":[399,495],"scene":"S05"},
+        {"id":"7C00B100","mediaRef":"887664B8","frames":[495,606],"scene":"S06"},
+        {"id":"744B71AF","mediaRef":"A4CAFA28","frames":[606,707],"scene":"S07"},
+        {"id":"0CBD8804","mediaRef":"3E2C5917","frames":[707,800],"scene":"S08","source":"Source/Images/FullFrame_v4_20261101/S08_signals_paper.png"},
+        {"id":"2500691D","mediaRef":"5FF2ACBB","frames":[800,960],"scene":"S09"}
+      ]
+    },
+    {
+      "name": "Dialogue",
+      "trackId": "76995709",
+      "clip": {"id":"23033708","mediaRef":"0E60AC0A","frames":[0,915],"sourceDurationSeconds":30.511}
+    },
+    {
+      "name": "Music",
+      "trackId": "A2FF5A6D",
+      "clip": {"id":"F411F5EF","mediaRef":"ADC1F987","frames":[0,960],"sourceRangeSeconds":[0,32],"volumeDb":-22,"fadeOutFrames":43,"fadeOutInterpolation":"smooth"}
+    }
+  ],
+  "visualReview": {
+    "styleReference": "channels/paper_detour/videos/004_last_video/Storyboard/user_reference_parallax_20261101.png",
+    "extraHighReview": "S08 cat was accidentally cropped at the edge; corrected composition shows the cat seated on a wooden chair with visible support and contact shadow, keeping the diagram sheet in place.",
+    "inspectedCompositeFrames": [49,144,246,351,447,550,656,753,880]
+  }
+}

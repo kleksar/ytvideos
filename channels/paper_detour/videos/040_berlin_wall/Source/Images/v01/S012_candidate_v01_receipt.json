@@ -1,0 +1,34 @@
+{
+  "scene_id": "S012",
+  "version": "candidate_v01",
+  "status": "ACCEPTED_STATIC_SOURCE",
+  "depiction": "reconstruction with metaphorical light/shadow for loss",
+  "selected_copy": "/Users/diplomat/ytvideos/channels/paper_detour/videos/040_berlin_wall/Source/Images/v01/S012_candidate_v01.png",
+  "source_image": "/Users/diplomat/.codex/generated_images/01a1a186-1011-7450-b9d7-7b0e7f1e2f40/exec-44af8948-2291-46be-82b7-8665c750d28a.png",
+  "sha256": "9241ce9fa025089cac8014eb7f55aa34b72aa458ceb256578f6f0e516fcd66f4",
+  "reference_paths": [
+    "/Users/diplomat/ytvideos/channels/paper_detour/Shared/References/Paper/paper004_user_38.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/040_berlin_wall/Source/Images/v01/S011_candidate_v01.png"
+  ],
+  "reference_hashes": {
+    "/Users/diplomat/ytvideos/channels/paper_detour/Shared/References/Paper/paper004_user_38.png": "238bb11958c8e59224edcd006db060df0bddd0c9e100f795e44eeb537ebdc166",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/040_berlin_wall/Source/Images/v01/S011_candidate_v01.png": "be1406280c65bd9f84a7827e5afd5b208dd933d544926784c4a8127957f56013"
+  },
+  "missing_catalog_anchor": "Paper Detour033 S01_v01.png unavailable locally and not used.",
+  "requested_generation_target": "3840x2160 landscape 16:9",
+  "actual_source_dimensions": "/Users/diplomat/ytvideos/channels/paper_detour/videos/040_berlin_wall/Source/Images/v01/S012_candidate_v01.png\n  pixelWidth: 1672\n  pixelHeight: 941",
+  "image_tool_controls": "not exposed; target stated in prompt",
+  "delivery_target": "2560x1440 16:9 at 30 fps; motion/crop pending",
+  "visual_review": {
+    "reviewer": "Codex author (not an independent reviewer)",
+    "scope": "full-frame source inspected against Paper004 and S011 wall/tunnel anchor",
+    "result": "ACCEPTED static composition: one distant passer, one calmly stopped person, long wall in shadow; no body, injury or force; paper material/physical light pass",
+    "limitations": [
+      "Tool output below requested 4K target.",
+      "Dark wall shadow is an abstract implication only; it is not a depiction of a specific death or incident.",
+      "Guard clothing/checkpoint details illustrative, not verified.",
+      "Motion/crop/composite unverified."
+    ]
+  },
+  "prompt_file": "S012_candidate_v01_prompt.txt"
+}

@@ -1,0 +1,40 @@
+{
+  "revision": "v06",
+  "purpose": "local review",
+  "freshness": "CURRENT",
+  "file": "Deliverables/meme-time-machine-01_draft-v06.mp4",
+  "sha256": "ded3767a1331910fa484a2b1ae45c5bc4183586b449f1fc81c96d884eeaa098a",
+  "bytes": 9014801,
+  "contract": "Edit/export-contract-v06.json",
+  "stream_metadata": "PASS",
+  "full_decode": "PASS",
+  "visual_review": {
+    "result": "PASS for sampled frames",
+    "contact_sheet": "Edit/QA/v06/contact-sheet.jpg",
+    "reported_case": "Edit/QA/v06/corn-kid.jpg",
+    "frames": [
+      0,
+      59,
+      76,
+      123,
+      167,
+      217,
+      244,
+      257,
+      308,
+      369,
+      410,
+      444
+    ],
+    "observations": "All added caption cues inspected in the lower part of the sharp video. White bold captions with dark outline and separated bold rankings. The source's burned-in Corn Kid captions stay in the clip. Four slides remain visible."
+  },
+  "audio_signal": {
+    "result": "PASS",
+    "mode": "stream copy with identical decoded PCM",
+    "aac_stream_sha256": "603ee3dbee12d0f1c033068956600f38aa39bd1a4d966d3913093e551a44d80e",
+    "pcm_s16le_sha256": "a15ac1189a44a631582417d756c7b387c715ef25eb714f7747e00b87cd8cf09f"
+  },
+  "subjective_audio_listening": "UNVERIFIED",
+  "independent_review": "NOT_REQUESTED",
+  "release": "Local review. No upload or publication."
+}

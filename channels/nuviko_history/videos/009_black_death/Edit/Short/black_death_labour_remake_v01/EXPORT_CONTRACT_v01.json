@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "status": "READY_TO_RENDER",
+  "episode": "009 — The Black Death / Nuviko History (labour Short remake)",
+  "language": "en",
+  "format": "short",
+  "purpose": "user review MP4; upload only after approval of exact MP4 and packaging",
+  "settings_profile": {
+    "path": "/Users/diplomat/ytvideos/.agents/skills/ytv-video-export/references/delivery.md",
+    "sha256": "32df90a2692a92b1446f0113526c1987f065b380469a57127d84ef6a3668967d"
+  },
+  "edit": {
+    "project_id": null,
+    "timeline_id": null,
+    "saved_revision_evidence": "Manual FFmpeg manifest saved; montage_plan_v01.json SHA-256 bc5032586f982e180a3e5855c425736dd0940ca204f9a3a3e16659d2b4a70d74",
+    "timeline_read_path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/Short/black_death_labour_remake_v01/montage_plan_v01.json",
+    "timeline_read_sha256": "bc5032586f982e180a3e5855c425736dd0940ca204f9a3a3e16659d2b4a70d74",
+    "dependencies": [
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Source/Shorts/05_labour/source_v01.mp4",
+        "sha256": "f565a3f13a9a28d5433180d0e1afa4e3638be57b5314aad11d6039725ca0cc8a"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Source/Shorts/05_labour/audio_alignment_whisperx_v01.json",
+        "sha256": "3e629c93194a92a5829139b3f2bddcf97faabaf22996668c9d2da897228a3cc3"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Source/Shorts/05_labour/audio_word_times_v01.json",
+        "sha256": "0b54fa5c2bc67d58e8c758351cb2fdd9a206074eee1f6501ab905dd71511ab01"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Source/Shorts/05_labour/Images/S01_labour_field_v01.png",
+        "sha256": "aa742c4265608f414637b83c5a4037c0452983766788aabe92bf04778b122f6d"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Source/Shorts/05_labour/Images/S02_empty_workshop_v01.png",
+        "sha256": "ebbc30657abf1145faddc9b60b4daa3d3b22bf7308a2271eabfb915156c543c4"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Source/Shorts/05_labour/Images/S03_employer_offer_v01.png",
+        "sha256": "edca1dfbbab82952d9ae96931a2cde5500f98e6d53361a979be1e59a33684891"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Source/Shorts/05_labour/Images/S04_worker_choice_v01.png",
+        "sha256": "9db35647b5361ba629e5c752e41d43c5c68473913d6add57cbfb8dcbe32488d0"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Source/Shorts/05_labour/Images/S05_owner_worker_negotiation_v01.png",
+        "sha256": "86b0190da407774848fa5da70b7682d241374a79f3529cbdb1b57f9c567f939b"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Source/Shorts/05_labour/Images/S06_labour_council_v01.png",
+        "sha256": "0bfe04a8959333c10c1c4c5b303a9af420c51e495c516bcfcb9527d8767c8a42"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Source/Shorts/05_labour/Images/S07_worker_stopped_v01.png",
+        "sha256": "1800b1739334e5abde3c205bfc073bc4244af0f13e4665bc5b15df287a4f97db"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Source/Shorts/05_labour/Images/S08_field_work_rules_v01.png",
+        "sha256": "4f1239fd6d0fc4e35e10278a412e5d1b622fdae2ea806eab3573b0e85a756894"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Source/Shorts/05_labour/Images/S09_traveler_cta_v01.png",
+        "sha256": "88f99b7b9f544a09c5c45ad89b45879f8800eec267c3a6c352f28b8b078600e5"
+      }
+    ]
+  },
+  "timeline": {
+    "width": 1440,
+    "height": 2560,
+    "aspect_ratio": "9:16",
+    "sample_aspect_ratio": "1:1",
+    "fps": "30/1",
+    "frame_count": 1267,
+    "duration_seconds": 42.2333333333,
+    "output_color_space": "rec709"
+  },
+  "required_delivery": {
+    "container": "mp4",
+    "video": {
+      "codec_name": "h264",
+      "pix_fmt": "yuv420p",
+      "scan": "progressive",
+      "cadence": "constant 30/1 FPS",
+      "color_primaries": "bt709",
+      "color_transfer": "bt709",
+      "color_space": "bt709",
+      "color_range": "tv"
+    },
+    "audio_contract": {
+      "owner_handoff": "ytv-audio-delivery; retain exact source audio as supplied in the existing Short",
+      "accepted_complete_mix": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Source/Shorts/05_labour/source_v01.mp4 audio stream; copied unchanged; no new sound, trimming or normalization",
+      "source_rate_channels": "AAC-LC, 44,100 Hz, stereo (source) — captured from ffprobe before render",
+      "codec_name": "aac",
+      "profile": "LC",
+      "sample_rate": 44100,
+      "channels": 2,
+      "target_bit_rate": "stream-copy; preserve original bitrate"
+    }
+  },
+  "encoding": {
+    "engine": "FFmpeg shared montage renderer",
+    "version_evidence": "To be captured by renderer command record",
+    "requested_arguments": {
+      "encoder": "libx264",
+      "preset": "medium (encoder default)",
+      "bitrate": "20M VBR",
+      "fps": "30/1",
+      "video_codec": "H.264",
+      "pix_fmt": "yuv420p",
+      "color": "Rec.709 limited",
+      "audio": "AAC stream copy",
+      "movflags": "+faststart"
+    },
+    "quality_preferences": {
+      "h264": "20 Mbps VBR starting preference for 2K output",
+      "scale": "Lanczos upscale from native 941×1672; added pixels do not increase source detail"
+    },
+    "capability_evidence": "FFmpeg 8.1.2; libx264 encoder and yuv420p support listed by ffmpeg -h encoder=libx264; shared montage renderer maps --bitrate to -b:v and copies AAC source stream.",
+    "engine_managed_fields": [
+      "No explicit H.264 profile/level/GOP option is exposed in shared montage CLI; encoder selects compliant values automatically.",
+      "No separate final colour-sample inspection is included in this export contract; Rec.709 limited conversion and tags are set by renderer."
+    ]
+  },
+  "preflight": {
+    "author": "Codex",
+    "time": "2026-11-03",
+    "authorization_references": [
+      "User request: rework this Short and deliver ready MP4",
+      "User identified source in Downloads",
+      "Existing source AAC must be retained; no new audio work"
+    ],
+    "fresh_settings_evidence": "Manifest validates 9 contiguous whole-image scenes with 120–180-frame lengths, 30/1 fps, 1440×2560; source AAC duration=42.237098 s, profile=LC, 44,100 Hz stereo. Source H.264 duration=42.233333 s, 1267 frames. All were read before render.",
+    "writer_and_export_state": "Dedicated owned run active: black-death-labour-short-remake-v01; no conflicting writer identified.",
+    "output_path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Deliverables/en/short/black_death_changed_work_nuviko_en_v01.mp4",
+    "overwrite": false,
+    "media_lifecycle_receipt": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/MediaLifecycle/audit-labour-short-v01/audit.json",
+    "unresolved_required_fields": []
+  },
+  "render_receipt": null,
+  "qa_receipt": null
+}

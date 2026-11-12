@@ -1,0 +1,329 @@
+{
+  "output": "/Users/diplomat/ytvideos/Deliverables/Satisfying-Elements/Misery-Elements-v24.mp4",
+  "sha256": "7694bf4cf1782850ceb0a99bdad1df0a70f6996ee50e237a90c3cc193ce5711b",
+  "contract": "/Users/diplomat/ytvideos/Work/satisfying-runaway-pilot/Edit/EXPORT_CONTRACT_misery_v24.json",
+  "contract_sha256": "0d5fee05aabd57150c84490803de7034f8e14bc5305244295ea057f10bf9ffd8",
+  "full_decode": "PASS",
+  "stream_copy_aac_sha256": "0,a,SHA256=99da277744e2753c8d6baba7da376a95d9a68bbdd9f7b819f359514fd6f31943",
+  "nominal_font_size_px": 147,
+  "base_font_size_px": 98,
+  "max_visible_words": 1,
+  "words": 51,
+  "total_frames": 455,
+  "cut_hold_frames": [
+    60,
+    121,
+    242
+  ],
+  "cut_audio_alignment": [
+    {
+      "frame": 61,
+      "peak_minus_cut_ms": -17.91
+    },
+    {
+      "frame": 122,
+      "peak_minus_cut_ms": -28.34
+    },
+    {
+      "frame": 182,
+      "peak_minus_cut_ms": -7.94
+    },
+    {
+      "frame": 212,
+      "peak_minus_cut_ms": 4.76
+    },
+    {
+      "frame": 243,
+      "peak_minus_cut_ms": -18.37
+    },
+    {
+      "frame": 304,
+      "peak_minus_cut_ms": -28.8
+    },
+    {
+      "frame": 364,
+      "peak_minus_cut_ms": -3.4
+    },
+    {
+      "frame": 379,
+      "peak_minus_cut_ms": 7.94
+    },
+    {
+      "frame": 394,
+      "peak_minus_cut_ms": 9.3
+    },
+    {
+      "frame": 425,
+      "peak_minus_cut_ms": -11.34
+    }
+  ],
+  "minimum_caption_side_margins_px": [
+    208,
+    212
+  ],
+  "layout_width_ratio_range": [
+    1.4932,
+    1.5036
+  ],
+  "widest_mask": {
+    "frame": 334,
+    "word": "dreaming",
+    "width_px": 660
+  },
+  "sample_frames": [
+    65,
+    95,
+    139,
+    157,
+    212,
+    243,
+    315,
+    334,
+    343,
+    364,
+    379,
+    394,
+    446
+  ],
+  "visual_review": "Inspected the exported samples across fire, lake, forest, waterfall and the final beat cuts. The longest word fits at its largest animation frame. All 455 title masks remain inside the frame.",
+  "final_sync_review": {
+    "verdict": "TECHNICAL_PASS",
+    "file_sha256": "7694bf4cf1782850ceb0a99bdad1df0a70f6996ee50e237a90c3cc193ce5711b",
+    "full_decode": "PASS",
+    "audio_basis": "Beat attacks recomputed from the AAC in the exact v24 MP4.",
+    "cut_audio_alignment": [
+      {
+        "frame": 61,
+        "audio_peak_seconds": 2.01542,
+        "peak_minus_cut_ms": -17.91
+      },
+      {
+        "frame": 122,
+        "audio_peak_seconds": 4.038322,
+        "peak_minus_cut_ms": -28.34
+      },
+      {
+        "frame": 182,
+        "audio_peak_seconds": 6.05873,
+        "peak_minus_cut_ms": -7.94
+      },
+      {
+        "frame": 212,
+        "audio_peak_seconds": 7.071429,
+        "peak_minus_cut_ms": 4.76
+      },
+      {
+        "frame": 243,
+        "audio_peak_seconds": 8.081633,
+        "peak_minus_cut_ms": -18.37
+      },
+      {
+        "frame": 304,
+        "audio_peak_seconds": 10.104535,
+        "peak_minus_cut_ms": -28.8
+      },
+      {
+        "frame": 364,
+        "audio_peak_seconds": 12.129932,
+        "peak_minus_cut_ms": -3.4
+      },
+      {
+        "frame": 379,
+        "audio_peak_seconds": 12.64127,
+        "peak_minus_cut_ms": 7.94
+      },
+      {
+        "frame": 394,
+        "audio_peak_seconds": 13.14263,
+        "peak_minus_cut_ms": 9.3
+      },
+      {
+        "frame": 425,
+        "audio_peak_seconds": 14.155329,
+        "peak_minus_cut_ms": -11.34
+      }
+    ],
+    "max_absolute_cut_offset_ms": 28.8,
+    "strong_uncovered": 0,
+    "words": 51,
+    "frames_checked": 455,
+    "highlighted_frames": 452,
+    "word_timing_basis": "Existing vocal word map, with the accepted snap to musical accents.",
+    "one_frame_word_start_adjustments_at_cuts": [
+      {
+        "word": "ask",
+        "cue_frame": 60,
+        "display_frame": 61
+      },
+      {
+        "word": "real",
+        "cue_frame": 121,
+        "display_frame": 122
+      },
+      {
+        "word": "only",
+        "cue_frame": 242,
+        "display_frame": 243
+      }
+    ],
+    "coincident_word_and_cut_pulses": [
+      {
+        "frame": 61,
+        "measured_width_gain_percent": 6.89
+      },
+      {
+        "frame": 122,
+        "measured_width_gain_percent": 6.37
+      },
+      {
+        "frame": 243,
+        "measured_width_gain_percent": 5.89
+      },
+      {
+        "frame": 364,
+        "measured_width_gain_percent": 6.05
+      },
+      {
+        "frame": 379,
+        "measured_width_gain_percent": 6.36
+      },
+      {
+        "frame": 394,
+        "measured_width_gain_percent": 6.3
+      }
+    ],
+    "held_words_at_cuts": [
+      182,
+      212,
+      304,
+      425
+    ],
+    "cut_sample_frames": {
+      "61": [
+        57,
+        60,
+        61,
+        62,
+        65
+      ],
+      "122": [
+        118,
+        121,
+        122,
+        123,
+        126
+      ],
+      "182": [
+        178,
+        181,
+        182,
+        183,
+        186
+      ],
+      "212": [
+        208,
+        211,
+        212,
+        213,
+        216
+      ],
+      "243": [
+        239,
+        242,
+        243,
+        244,
+        247
+      ],
+      "304": [
+        300,
+        303,
+        304,
+        305,
+        308
+      ],
+      "364": [
+        360,
+        363,
+        364,
+        365,
+        368
+      ],
+      "379": [
+        375,
+        378,
+        379,
+        380,
+        383
+      ],
+      "394": [
+        390,
+        393,
+        394,
+        395,
+        398
+      ],
+      "425": [
+        421,
+        424,
+        425,
+        426,
+        429
+      ]
+    },
+    "word_sample_frames": [
+      5,
+      16,
+      24,
+      33,
+      44,
+      55,
+      65,
+      73,
+      79,
+      86,
+      95,
+      106,
+      117,
+      125,
+      131,
+      138,
+      146,
+      157,
+      172,
+      183,
+      192,
+      199,
+      205,
+      214,
+      222,
+      228,
+      237,
+      248,
+      260,
+      268,
+      276,
+      287,
+      296,
+      305,
+      314,
+      322,
+      330,
+      341,
+      354,
+      361,
+      367,
+      375,
+      381,
+      389,
+      398,
+      411,
+      424,
+      434,
+      442,
+      448,
+      453
+    ],
+    "subjective_audio_listening": "UNVERIFIED. Audio signal and rendered frames were checked.",
+    "visual_review": "Inspected the exact MP4 at five positions around each of the ten cuts and the midpoint of every one of the 51 captions. The six coincident word changes occur on the first frame of the new plan. At the remaining four cuts the current word remains visible."
+  }
+}

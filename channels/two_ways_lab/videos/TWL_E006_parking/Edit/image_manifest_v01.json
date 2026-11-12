@@ -1,0 +1,103 @@
+{
+  "method": "built-in imagegen, each state is a full scene edit; identity references attached to relevant character edits",
+  "hero_references": [
+    {
+      "path": "channels/two_ways_lab/brand/References/hero_model_sheet_v01/user_face_reference.png",
+      "sha256": "378c188776158cae9fc4a709bcdcccb9215f06b809a4e46ed48b91c101cba254"
+    },
+    {
+      "path": "channels/two_ways_lab/brand/References/hero_model_sheet_v01/expressions.png",
+      "sha256": "fd97655857b469e4320fff3d01160f31a5d8a558f22315f6c49464f0c1f5c00a"
+    },
+    {
+      "path": "channels/two_ways_lab/brand/References/hero_model_sheet_v01/turnaround.png",
+      "sha256": "d3a89a7f3031409a78d922a37f495accbbf46978a5f0033ec952d9c94333f515"
+    }
+  ],
+  "images": [
+    {
+      "path": "channels/two_ways_lab/videos/TWL_E006_parking/Source/Images/v01/empty.png",
+      "sha256": "8c157d1c4c623a02f108b78ff2757132efe60e31577ad6fd76cf785ae2eb63d5",
+      "target": null,
+      "status": "visually inspected"
+    },
+    {
+      "path": "channels/two_ways_lab/videos/TWL_E006_parking/Source/Images/v01/hook.png",
+      "sha256": "9376c4841f01a2dfba4502204d72fb61c14ed182a2ffc45da8b0e4fef0193d85",
+      "target": "channels/two_ways_lab/videos/TWL_E006_parking/Source/Images/v01/empty.png",
+      "status": "visually inspected"
+    },
+    {
+      "path": "channels/two_ways_lab/videos/TWL_E006_parking/Source/Images/v01/far_park.png",
+      "sha256": "be18710ae437f00aad7e0d12d630eee61fe597aa4228aee114323f9f526830dc",
+      "target": "channels/two_ways_lab/videos/TWL_E006_parking/Source/Images/v01/hook.png",
+      "status": "visually inspected"
+    },
+    {
+      "path": "channels/two_ways_lab/videos/TWL_E006_parking/Source/Images/v01/far_walk.png",
+      "sha256": "12efed6712478fc154858327cc19a39a102220e7520b92a5046adcfe0450a7ec",
+      "target": "channels/two_ways_lab/videos/TWL_E006_parking/Source/Images/v01/hook.png",
+      "status": "visually inspected"
+    },
+    {
+      "path": "channels/two_ways_lab/videos/TWL_E006_parking/Source/Images/v01/far_finish.png",
+      "sha256": "c2ad3ef98583a059b7770d1fcfdfa733a801c0c57dd5c54abb6b5e2d21f7bc67",
+      "target": "channels/two_ways_lab/videos/TWL_E006_parking/Source/Images/v01/far_walk.png",
+      "status": "visually inspected"
+    },
+    {
+      "path": "channels/two_ways_lab/videos/TWL_E006_parking/Source/Images/v01/search_candidate.png",
+      "sha256": "bd7aafa2c6f18ea5859f175999db002eeb1d9250f7a8529c590edcfde5be9f5c",
+      "target": "channels/two_ways_lab/videos/TWL_E006_parking/Source/Images/v01/hook.png",
+      "status": "candidate"
+    },
+    {
+      "path": "channels/two_ways_lab/videos/TWL_E006_parking/Source/Images/v01/search.png",
+      "sha256": "b6014eca1fc4f757a46a84a8a57f54beae2e12601d8f8ca7fb628ca2b5d185ca",
+      "target": "channels/two_ways_lab/videos/TWL_E006_parking/Source/Images/v01/search_candidate.png",
+      "status": "visually inspected"
+    },
+    {
+      "path": "channels/two_ways_lab/videos/TWL_E006_parking/Source/Images/v01/close_finish_candidate.png",
+      "sha256": "f33469cfefc2659654aeade24cd4a983714cbfba3d73ac334956b30c2a332d25",
+      "target": "channels/two_ways_lab/videos/TWL_E006_parking/Source/Images/v01/hook.png",
+      "status": "candidate"
+    },
+    {
+      "path": "channels/two_ways_lab/videos/TWL_E006_parking/Source/Images/v01/close_finish.png",
+      "sha256": "e3399ba2e71b63022a2849fb70cdb020215b4fc169ca862d6e4ccaf5a79a7574",
+      "target": "channels/two_ways_lab/videos/TWL_E006_parking/Source/Images/v01/search.png",
+      "status": "visually inspected"
+    },
+    {
+      "path": "channels/two_ways_lab/videos/TWL_E006_parking/Source/Images/v01/consider_candidate.png",
+      "sha256": "8161472985e3674e8a9800f758b927f0e6c58683870070b5730985ed6e34856d",
+      "target": "channels/two_ways_lab/videos/TWL_E006_parking/Source/Images/v01/hook.png",
+      "status": "candidate"
+    },
+    {
+      "path": "channels/two_ways_lab/videos/TWL_E006_parking/Source/Images/v01/consider.png",
+      "sha256": "0aa00d594cebc348a212d33f7d42e3b50d10f0438a6dfb901fe8dbee8154f7cf",
+      "target": "channels/two_ways_lab/videos/TWL_E006_parking/Source/Images/v01/consider_candidate.png",
+      "status": "visually inspected"
+    }
+  ],
+  "lettering": [
+    {
+      "path": "channels/two_ways_lab/videos/TWL_E006_parking/Source/Lettering/v01/2_original.png",
+      "sha256": "0ba3e9a5f798f802c3b653d4bcd271b99df4725867c8256b3674776c5264cf16"
+    },
+    {
+      "path": "channels/two_ways_lab/videos/TWL_E006_parking/Source/Lettering/v01/2.png",
+      "sha256": "98b1469b036502ee326ab30d41a6f3ccc80e2948a86e91d91951a9a0c641fff1"
+    },
+    {
+      "path": "channels/two_ways_lab/videos/TWL_E006_parking/Source/Lettering/v01/3_original.png",
+      "sha256": "af8d5add3a7519e544f5db8f2de4b369b779ba42d8723ae04832c245b4c29d79"
+    },
+    {
+      "path": "channels/two_ways_lab/videos/TWL_E006_parking/Source/Lettering/v01/3.png",
+      "sha256": "ddbe76a521e0b3f8190b97a423135710efd893564c75a3e9c7325d07c921fe45"
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "version": 1,
+  "kind": "plan",
+  "created_utc": "2026-11-02T05:35:24.198715+00:00",
+  "audit": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Edit/MediaLifecycle/rollout-20261102/operation-audit.json",
+  "audit_sha256": "a588e1199ce7d2ccbd7c5b8af28161cb7f87c63ca88eaf2cfbe513552034ef29",
+  "episode": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game",
+  "executable": false,
+  "deletion_implemented": false,
+  "stale_inputs": [],
+  "entries": [
+    {
+      "path": "Edit/publication_20261030/mix_candidate_no_sfx_20261031.wav",
+      "device": 16777233,
+      "inode": 123304367,
+      "bytes": 68813742,
+      "mtime_ns": 1793416350455993729,
+      "ctime_ns": 1793416350455993729,
+      "nlink": 1,
+      "allocated_bytes": 68816896,
+      "project_references": [],
+      "text_mentions": [
+        "/Users/diplomat/ytvideos/.agent/YTVIDEOS_STORAGE_INVENTORY_2026-11-02.csv",
+        "/Users/diplomat/ytvideos/.agent/YTVIDEOS_STORAGE_REVIEW_2026-11-02.md"
+      ],
+      "protections": [],
+      "classification": "BLOCKED",
+      "declaration": {
+        "path": "Edit/publication_20261030/mix_candidate_no_sfx_20261031.wav",
+        "role": "rejected_preview",
+        "status": "rejected",
+        "reason": "Superseded audio-mix trial; corrected full master and corrected subtraction reference retained; original voice/music/SFX and all scripts/evidence preserved",
+        "evidence": [
+          "Edit/MediaLifecycle/rollout-20261102/decision-03.json",
+          "Edit/publication_20261030/AUDIO_MIX_CANDIDATE.md"
+        ],
+        "rebuild_from": [
+          "Edit/publication_20261030/mix_candidate_pcm_voice_corrected_20261031.wav"
+        ]
+      },
+      "blockers": [
+        "TEXT_REFERENCE_REVIEW"
+      ],
+      "sha256": "039b8aa00a1a594ddefa5e05ec068c17dee0d6433863f94694103f5a14b44418",
+      "required_before_any_future_removal": [
+        "Fresh dependency scan including retained project histories and all known consumers",
+        "Writer/import/render completion verified; absent locks do not prove inactivity",
+        "Resolve text mentions, pins and source/rebuild dependencies",
+        "Applicable retention/authorization and changed-file check at action time"
+      ]
+    },
+    {
+      "path": "Edit/publication_20261030/mix_candidate.wav",
+      "device": 16777233,
+      "inode": 123260010,
+      "bytes": 68813742,
+      "mtime_ns": 1793396387035563470,
+      "ctime_ns": 1793396387035563470,
+      "nlink": 1,
+      "allocated_bytes": 68816896,
+      "project_references": [],
+      "text_mentions": [
+        "/Users/diplomat/ytvideos/.agent/YTVIDEOS_STORAGE_INVENTORY_2026-11-02.csv",
+        "/Users/diplomat/ytvideos/.agent/YTVIDEOS_STORAGE_REVIEW_2026-11-02.md",
+        "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Edit/publication_20261030/build_mix.py"
+      ],
+      "protections": [],
+      "classification": "BLOCKED",
+      "declaration": {
+        "path": "Edit/publication_20261030/mix_candidate.wav",
+        "role": "rejected_preview",
+        "status": "rejected",
+        "reason": "Superseded audio-mix trial; corrected full master and corrected subtraction reference retained; original voice/music/SFX and all scripts/evidence preserved",
+        "evidence": [
+          "Edit/MediaLifecycle/rollout-20261102/decision-00.json",
+          "Edit/publication_20261030/AUDIO_MIX_CANDIDATE.md"
+        ],
+        "rebuild_from": [
+          "Edit/publication_20261030/mix_candidate_pcm_voice_corrected_20261031.wav"
+        ]
+      },
+      "blockers": [
+        "TEXT_REFERENCE_REVIEW"
+      ],
+      "sha256": "f2c90fac1404cc1096c5fb29be8c746c243f997fb5849db91939abb10a85d76c",
+      "required_before_any_future_removal": [
+        "Fresh dependency scan including retained project histories and all known consumers",
+        "Writer/import/render completion verified; absent locks do not prove inactivity",
+        "Resolve text mentions, pins and source/rebuild dependencies",
+        "Applicable retention/authorization and changed-file check at action time"
+      ]
+    },
+    {
+      "path": "Edit/publication_20261030/mix_candidate_pcm_voice_unity_pan_20261031.wav",
+      "device": 16777233,
+      "inode": 123304198,
+      "bytes": 68813742,
+      "mtime_ns": 1793416303915231144,
+      "ctime_ns": 1793416303915231144,
+      "nlink": 1,
+      "allocated_bytes": 68816896,
+      "project_references": [],
+      "text_mentions": [
+        "/Users/diplomat/ytvideos/.agent/YTVIDEOS_STORAGE_INVENTORY_2026-11-02.csv",
+        "/Users/diplomat/ytvideos/.agent/YTVIDEOS_STORAGE_REVIEW_2026-11-02.md",
+        "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Edit/publication_20261030/build_mix_pcm_voice_unity_pan_20261031.py"
+      ],
+      "protections": [],
+      "classification": "BLOCKED",
+      "declaration": {
+        "path": "Edit/publication_20261030/mix_candidate_pcm_voice_unity_pan_20261031.wav",
+        "role": "rejected_preview",
+        "status": "rejected",
+        "reason": "Superseded audio-mix trial; corrected full master and corrected subtraction reference retained; original voice/music/SFX and all scripts/evidence preserved",
+        "evidence": [
+          "Edit/MediaLifecycle/rollout-20261102/decision-02.json",
+          "Edit/publication_20261030/AUDIO_MIX_CANDIDATE.md"
+        ],
+        "rebuild_from": [
+          "Edit/publication_20261030/mix_candidate_pcm_voice_corrected_20261031.wav"
+        ]
+      },
+      "blockers": [
+        "TEXT_REFERENCE_REVIEW"
+      ],
+      "sha256": "0ea9f2750b43ff053a393292972438e460323a22bab71767c336f397746199f2",
+      "required_before_any_future_removal": [
+        "Fresh dependency scan including retained project histories and all known consumers",
+        "Writer/import/render completion verified; absent locks do not prove inactivity",
+        "Resolve text mentions, pins and source/rebuild dependencies",
+        "Applicable retention/authorization and changed-file check at action time"
+      ]
+    },
+    {
+      "path": "Edit/publication_20261030/mix_candidate_pcm_voice_20261031.wav",
+      "device": 16777233,
+      "inode": 123303418,
+      "bytes": 68813742,
+      "mtime_ns": 1793416017723766969,
+      "ctime_ns": 1793416017723766969,
+      "nlink": 1,
+      "allocated_bytes": 68816896,
+      "project_references": [],
+      "text_mentions": [
+        "/Users/diplomat/ytvideos/.agent/YTVIDEOS_STORAGE_INVENTORY_2026-11-02.csv",
+        "/Users/diplomat/ytvideos/.agent/YTVIDEOS_STORAGE_REVIEW_2026-11-02.md",
+        "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Edit/publication_20261030/build_mix_pcm_voice_20261031.py"
+      ],
+      "protections": [],
+      "classification": "BLOCKED",
+      "declaration": {
+        "path": "Edit/publication_20261030/mix_candidate_pcm_voice_20261031.wav",
+        "role": "rejected_preview",
+        "status": "rejected",
+        "reason": "Superseded audio-mix trial; corrected full master and corrected subtraction reference retained; original voice/music/SFX and all scripts/evidence preserved",
+        "evidence": [
+          "Edit/MediaLifecycle/rollout-20261102/decision-01.json",
+          "Edit/publication_20261030/AUDIO_MIX_CANDIDATE.md"
+        ],
+        "rebuild_from": [
+          "Edit/publication_20261030/mix_candidate_pcm_voice_corrected_20261031.wav"
+        ]
+      },
+      "blockers": [
+        "TEXT_REFERENCE_REVIEW"
+      ],
+      "sha256": "856cb577840498c6f34ff51d0e965f4b00a8896282fa8d7e70149bfba14ab1f7",
+      "required_before_any_future_removal": [
+        "Fresh dependency scan including retained project histories and all known consumers",
+        "Writer/import/render completion verified; absent locks do not prove inactivity",
+        "Resolve text mentions, pins and source/rebuild dependencies",
+        "Applicable retention/authorization and changed-file check at action time"
+      ]
+    }
+  ],
+  "review_candidate_logical_bytes": 0,
+  "blocked_logical_bytes": 275254968,
+  "physical_reclaimable_bytes": null,
+  "missing_declared_candidates": [],
+  "limitations": [
+    "No deletion implementation or permission. No writer absence proof.",
+    "All found imports protected, including retained timelines; unlisted/inaccessible projects and external consumers remain unknown.",
+    "Text scan is heuristic and cannot prove absence of dependencies. Source hashes/QA are evidence, not user acceptance.",
+    "APFS CoW and snapshots prevent inferring physical reclaim from logical or allocated sums."
+  ],
+  "errors": []
+}

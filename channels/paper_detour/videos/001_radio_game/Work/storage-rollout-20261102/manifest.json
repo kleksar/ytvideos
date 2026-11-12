@@ -1,0 +1,246 @@
+{
+  "version": 1,
+  "run": "storage-rollout-20261102",
+  "owner": "storage-coordinator-paper-rollout",
+  "status": "complete",
+  "created_utc": "2026-11-02T05:37:18.198937+00:00",
+  "entries": [
+    {
+      "path": "Work/storage-rollout-20261102/previews/legacy/Edit/publication_20261030/mix_candidate.wav",
+      "role": "preview",
+      "identity": {
+        "device": 16777233,
+        "inode": 124911121,
+        "bytes": 68813742,
+        "mtime_ns": 1793597846397750962,
+        "ctime_ns": 1793597846397750962,
+        "nlink": 1,
+        "allocated_bytes": 68816896
+      },
+      "sha256": "f2c90fac1404cc1096c5fb29be8c746c243f997fb5849db91939abb10a85d76c",
+      "rebuild_from": [
+        {
+          "path": "Edit/publication_20261030/mix_candidate_pcm_voice_corrected_20261031.wav",
+          "identity": {
+            "device": 16777233,
+            "inode": 123304633,
+            "bytes": 68813742,
+            "mtime_ns": 1793416389425747645,
+            "ctime_ns": 1793416389425747645,
+            "nlink": 1,
+            "allocated_bytes": 68816896
+          },
+          "sha256": "850de3d4bd388a4ba0b39487051431ae04092592e48945da4e8a51feec556680"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/MediaLifecycle/rollout-20261102/decision-00.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 124909944,
+            "bytes": 1003,
+            "mtime_ns": 1793597716879760044,
+            "ctime_ns": 1793597716880111798,
+            "nlink": 1,
+            "allocated_bytes": 4096
+          },
+          "sha256": "770d1e744b8bd9f82c9a32377b5a3d83c3de4baeb6a883d8739a95bb24691be3"
+        },
+        {
+          "path": "Edit/publication_20261030/AUDIO_MIX_CANDIDATE.md",
+          "identity": {
+            "device": 16777233,
+            "inode": 123260953,
+            "bytes": 10670,
+            "mtime_ns": 1793416987321165162,
+            "ctime_ns": 1793416987321165162,
+            "nlink": 1,
+            "allocated_bytes": 12288
+          },
+          "sha256": "0cd233fc913b88da6cd42268f966f4a7272484ba45f7f02347889b5f8653423b"
+        }
+      ],
+      "disposition": "rejected",
+      "removed_utc": "2026-11-02T05:37:50.741330+00:00"
+    },
+    {
+      "path": "Work/storage-rollout-20261102/previews/legacy/Edit/publication_20261030/mix_candidate_pcm_voice_20261031.wav",
+      "role": "preview",
+      "identity": {
+        "device": 16777233,
+        "inode": 124911181,
+        "bytes": 68813742,
+        "mtime_ns": 1793597853634398447,
+        "ctime_ns": 1793597853634398447,
+        "nlink": 1,
+        "allocated_bytes": 68816896
+      },
+      "sha256": "856cb577840498c6f34ff51d0e965f4b00a8896282fa8d7e70149bfba14ab1f7",
+      "rebuild_from": [
+        {
+          "path": "Edit/publication_20261030/mix_candidate_pcm_voice_corrected_20261031.wav",
+          "identity": {
+            "device": 16777233,
+            "inode": 123304633,
+            "bytes": 68813742,
+            "mtime_ns": 1793416389425747645,
+            "ctime_ns": 1793416389425747645,
+            "nlink": 1,
+            "allocated_bytes": 68816896
+          },
+          "sha256": "850de3d4bd388a4ba0b39487051431ae04092592e48945da4e8a51feec556680"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/MediaLifecycle/rollout-20261102/decision-01.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 124909946,
+            "bytes": 1041,
+            "mtime_ns": 1793597716969950275,
+            "ctime_ns": 1793597716970211486,
+            "nlink": 1,
+            "allocated_bytes": 4096
+          },
+          "sha256": "bc1e193ba1028a99866aaa74ef99ff58ac6230660f96b0ecc6776711797a786a"
+        },
+        {
+          "path": "Edit/publication_20261030/AUDIO_MIX_CANDIDATE.md",
+          "identity": {
+            "device": 16777233,
+            "inode": 123260953,
+            "bytes": 10670,
+            "mtime_ns": 1793416987321165162,
+            "ctime_ns": 1793416987321165162,
+            "nlink": 1,
+            "allocated_bytes": 12288
+          },
+          "sha256": "0cd233fc913b88da6cd42268f966f4a7272484ba45f7f02347889b5f8653423b"
+        }
+      ],
+      "disposition": "rejected",
+      "removed_utc": "2026-11-02T05:37:50.787610+00:00"
+    },
+    {
+      "path": "Work/storage-rollout-20261102/previews/legacy/Edit/publication_20261030/mix_candidate_pcm_voice_unity_pan_20261031.wav",
+      "role": "preview",
+      "identity": {
+        "device": 16777233,
+        "inode": 124911209,
+        "bytes": 68813742,
+        "mtime_ns": 1793597858800457703,
+        "ctime_ns": 1793597858800457703,
+        "nlink": 1,
+        "allocated_bytes": 68816896
+      },
+      "sha256": "0ea9f2750b43ff053a393292972438e460323a22bab71767c336f397746199f2",
+      "rebuild_from": [
+        {
+          "path": "Edit/publication_20261030/mix_candidate_pcm_voice_corrected_20261031.wav",
+          "identity": {
+            "device": 16777233,
+            "inode": 123304633,
+            "bytes": 68813742,
+            "mtime_ns": 1793416389425747645,
+            "ctime_ns": 1793416389425747645,
+            "nlink": 1,
+            "allocated_bytes": 68816896
+          },
+          "sha256": "850de3d4bd388a4ba0b39487051431ae04092592e48945da4e8a51feec556680"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/MediaLifecycle/rollout-20261102/decision-02.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 124909947,
+            "bytes": 1061,
+            "mtime_ns": 1793597717056048254,
+            "ctime_ns": 1793597717056325215,
+            "nlink": 1,
+            "allocated_bytes": 4096
+          },
+          "sha256": "80007839983e979c9a7b05f2a08c0b43e46b69abf8c93e48a8d5d6e3ca6f0210"
+        },
+        {
+          "path": "Edit/publication_20261030/AUDIO_MIX_CANDIDATE.md",
+          "identity": {
+            "device": 16777233,
+            "inode": 123260953,
+            "bytes": 10670,
+            "mtime_ns": 1793416987321165162,
+            "ctime_ns": 1793416987321165162,
+            "nlink": 1,
+            "allocated_bytes": 12288
+          },
+          "sha256": "0cd233fc913b88da6cd42268f966f4a7272484ba45f7f02347889b5f8653423b"
+        }
+      ],
+      "disposition": "rejected",
+      "removed_utc": "2026-11-02T05:37:50.835033+00:00"
+    },
+    {
+      "path": "Work/storage-rollout-20261102/previews/legacy/Edit/publication_20261030/mix_candidate_no_sfx_20261031.wav",
+      "role": "preview",
+      "identity": {
+        "device": 16777233,
+        "inode": 124911225,
+        "bytes": 68813742,
+        "mtime_ns": 1793597863847891682,
+        "ctime_ns": 1793597863847891682,
+        "nlink": 1,
+        "allocated_bytes": 68816896
+      },
+      "sha256": "039b8aa00a1a594ddefa5e05ec068c17dee0d6433863f94694103f5a14b44418",
+      "rebuild_from": [
+        {
+          "path": "Edit/publication_20261030/mix_candidate_no_sfx_corrected_20261031.wav",
+          "identity": {
+            "device": 16777233,
+            "inode": 123304854,
+            "bytes": 68813742,
+            "mtime_ns": 1793416443000336861,
+            "ctime_ns": 1793416443000336861,
+            "nlink": 1,
+            "allocated_bytes": 68816896
+          },
+          "sha256": "b0123ff1eff66034c2ac8ae7ebbef2a415d669d6f0237b9257bb95542be33774"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/MediaLifecycle/rollout-20261102/decision-03-v02.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 124910355,
+            "bytes": 1238,
+            "mtime_ns": 1793597775533070171,
+            "ctime_ns": 1793597775533296881,
+            "nlink": 1,
+            "allocated_bytes": 4096
+          },
+          "sha256": "22623dbffdac8c9f1c3ce100eb3fa96e9923d4d97b09c071de44ea4425a78eda"
+        },
+        {
+          "path": "Edit/publication_20261030/AUDIO_MIX_CANDIDATE.md",
+          "identity": {
+            "device": 16777233,
+            "inode": 123260953,
+            "bytes": 10670,
+            "mtime_ns": 1793416987321165162,
+            "ctime_ns": 1793416987321165162,
+            "nlink": 1,
+            "allocated_bytes": 12288
+          },
+          "sha256": "0cd233fc913b88da6cd42268f966f4a7272484ba45f7f02347889b5f8653423b"
+        }
+      ],
+      "disposition": "rejected",
+      "removed_utc": "2026-11-02T05:37:50.878890+00:00"
+    }
+  ],
+  "writer_finished_utc": "2026-11-02T05:37:44.128506+00:00"
+}

@@ -1,0 +1,35 @@
+{
+  "subtitle_contract_sha256": "297102b7ed5892d495b748c4440a119b083cfebedb29e6319dbe0ba55debe061",
+  "checks": {
+    "semantic_grouping": {
+      "status": "PASS",
+      "reviewer": "coordinator",
+      "method": "read exact caption_groups.json from beginning to end; checked all boundary warnings against adjacent phrase sequence; applied keep_together corrections to named phrases.",
+      "coverage": "117 groups, all 450 words in order; 19 warnings reviewed in context.",
+      "evidence": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Work/production_local_v01/preview_inspection_v04/PRE_RENDER_SAMPLE_REVIEW_v02.md",
+        "sha256": "772f8da37c15a0c9fcf98850b8247fbb0f8043d65ebbed9c5e5ff47aa7401ee4"
+      }
+    },
+    "audible_sync": {
+      "status": "UNVERIFIED",
+      "reviewer": "coordinator",
+      "method": "no direct listening available; machine forced alignment only.",
+      "coverage": "full 450-word narration; listening/sync not heard.",
+      "evidence": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Edit/Timebase/timing_review_v01.md",
+        "sha256": "c6635b19a5418f6c286e47aaabbee8606f4eccc1ab21d72de769002320df9e5b"
+      }
+    },
+    "visual_placement": {
+      "status": "PASS",
+      "reviewer": "coordinator",
+      "method": "rendered sample PNG frames; inspected full-frame and phone-size reduction with Paper Frame and whole-frame camera motion.",
+      "coverage": "S01/S02; 1.0s, 4.5s, 5.7s, 9.0s; first word state, held pause, cut, S02 marker and lower-frame clearance.",
+      "evidence": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Work/production_local_v01/preview_inspection_v04/PRE_RENDER_SAMPLE_REVIEW_v02.md",
+        "sha256": "772f8da37c15a0c9fcf98850b8247fbb0f8043d65ebbed9c5e5ff47aa7401ee4"
+      }
+    }
+  }
+}

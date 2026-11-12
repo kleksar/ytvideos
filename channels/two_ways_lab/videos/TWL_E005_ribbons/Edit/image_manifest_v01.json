@@ -1,0 +1,89 @@
+{
+  "method": "built-in image_gen; edits use exact source frame plus channel hero identity reference images",
+  "hero_references": [
+    {
+      "path": "channels/two_ways_lab/brand/References/hero_model_sheet_v01/user_face_reference.png",
+      "sha256": "378c188776158cae9fc4a709bcdcccb9215f06b809a4e46ed48b91c101cba254"
+    },
+    {
+      "path": "channels/two_ways_lab/brand/References/hero_model_sheet_v01/expressions.png",
+      "sha256": "fd97655857b469e4320fff3d01160f31a5d8a558f22315f6c49464f0c1f5c00a"
+    },
+    {
+      "path": "channels/two_ways_lab/brand/References/hero_model_sheet_v01/turnaround.png",
+      "sha256": "d3a89a7f3031409a78d922a37f495accbbf46978a5f0033ec952d9c94333f515"
+    }
+  ],
+  "images": [
+    {
+      "path": "channels/two_ways_lab/videos/TWL_E005_ribbons/Source/Images/v01/empty.png",
+      "sha256": "8294973a936537977401f7b7279df5eb37ddabe208ddd9804692c5592aeaf880",
+      "target": null,
+      "note": "visual review needed in final sequence"
+    },
+    {
+      "path": "channels/two_ways_lab/videos/TWL_E005_ribbons/Source/Images/v01/hook.png",
+      "sha256": "ffaa8059b43c557120b6544858230e435a5f72ace33828c687065ece9fb559ff",
+      "target": "channels/two_ways_lab/videos/TWL_E005_ribbons/Source/Images/v01/empty.png",
+      "note": "visual review needed in final sequence"
+    },
+    {
+      "path": "channels/two_ways_lab/videos/TWL_E005_ribbons/Source/Images/v01/first_cut.png",
+      "sha256": "4e5e86509bc60cdda75b9a816badf5339db9d524d628b2a1db12f8ad629ef0dc",
+      "target": "channels/two_ways_lab/videos/TWL_E005_ribbons/Source/Images/v01/hook.png",
+      "note": "visual review needed in final sequence"
+    },
+    {
+      "path": "channels/two_ways_lab/videos/TWL_E005_ribbons/Source/Images/v01/bad_result.png",
+      "sha256": "ce9cbdfa395c2ae152a83f187124195d80dc1558bc11f8a89b997706a75d12ab",
+      "target": "channels/two_ways_lab/videos/TWL_E005_ribbons/Source/Images/v01/hook.png",
+      "note": "visual review needed in final sequence"
+    },
+    {
+      "path": "channels/two_ways_lab/videos/TWL_E005_ribbons/Source/Images/v01/smart_first.png",
+      "sha256": "1c66910fc019617292ce46014c41079038fc6054ed44f2faf7b4b8ec2682c4d6",
+      "target": "channels/two_ways_lab/videos/TWL_E005_ribbons/Source/Images/v01/hook.png",
+      "note": "visual review needed in final sequence"
+    },
+    {
+      "path": "channels/two_ways_lab/videos/TWL_E005_ribbons/Source/Images/v01/success_candidate.png",
+      "sha256": "4dbc89b54f67482e256ea5705a94f1fb4e276b4a160f32ff75da522c1fa56681",
+      "target": "channels/two_ways_lab/videos/TWL_E005_ribbons/Source/Images/v01/hook.png",
+      "note": "candidate only; not accepted"
+    },
+    {
+      "path": "channels/two_ways_lab/videos/TWL_E005_ribbons/Source/Images/v01/success.png",
+      "sha256": "016d7724edbc979529a0f7cd8496b36c396ffb32d3bde6bd7ad6bb897db32213",
+      "target": "channels/two_ways_lab/videos/TWL_E005_ribbons/Source/Images/v01/success_candidate.png",
+      "note": "visual review needed in final sequence"
+    },
+    {
+      "path": "channels/two_ways_lab/videos/TWL_E005_ribbons/Source/Images/v01/first_cut_v2.png",
+      "sha256": "48b624fed7e3e30abeece7876928b1364f32af3a1ac9880774be0ec7e84f2fb7",
+      "target": "channels/two_ways_lab/videos/TWL_E005_ribbons/Source/Images/v01/first_cut.png",
+      "supporting_scene": "channels/two_ways_lab/videos/TWL_E005_ribbons/Source/Images/v01/hook.png",
+      "note": "scissors restored; sequence and final crop still require full inspection"
+    },
+    {
+      "path": "channels/two_ways_lab/videos/TWL_E005_ribbons/Source/Images/v01/success_v2.png",
+      "sha256": "2a9758d38bf4ca7556eb4003fed16f0bd8eaad8e6a91421888dc65a72478585f",
+      "target": "channels/two_ways_lab/videos/TWL_E005_ribbons/Source/Images/v01/success.png",
+      "supporting_scene": "channels/two_ways_lab/videos/TWL_E005_ribbons/Source/Images/v01/hook.png",
+      "note": "scissors restored; sequence and final crop still require full inspection"
+    },
+    {
+      "path": "channels/two_ways_lab/videos/TWL_E005_ribbons/Source/Images/v01/introduce.png",
+      "sha256": "589be302c431d7affe80d6bec6f99d424cf25652208cbfdda26654d64afd4869",
+      "target": "channels/two_ways_lab/videos/TWL_E005_ribbons/Source/Images/v01/hook.png",
+      "role": "character gesture; same objects and composition",
+      "status": "generated and visually inspected"
+    },
+    {
+      "path": "channels/two_ways_lab/videos/TWL_E005_ribbons/Source/Images/v01/point.png",
+      "sha256": "6e136431620184c9a23ace7f80d761843453548b4070341717c2358218a72adf",
+      "target": "channels/two_ways_lab/videos/TWL_E005_ribbons/Source/Images/v01/hook.png",
+      "role": "character gesture; same objects and composition",
+      "status": "generated and visually inspected"
+    }
+  ]
+}

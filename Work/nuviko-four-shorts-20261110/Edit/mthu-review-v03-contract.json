@@ -1,0 +1,149 @@
+{
+  "title": "Its-Like-Im-Not-Even-Here",
+  "source": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/mthu-rilds.mp3",
+  "source_sha256": "c87d3a677ec6e05d0995d0926a7cb3dabe84297522529641861deefa5ff1b674",
+  "offset": 22.63,
+  "frames": 477,
+  "fps": 30,
+  "size": [
+    1080,
+    1920
+  ],
+  "transition_centres": [
+    54,
+    115,
+    176,
+    237,
+    298,
+    359,
+    420
+  ],
+  "transition_seconds": 0.4,
+  "clips": [
+    {
+      "path": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/Footage/usda-bumblebee.webm",
+      "source_in": 11.7,
+      "sha256": "7ca254c60cd5e4f3442cb0fb5cc4c126e14c5a41996bdac7656293a15825b092",
+      "pre_crop": "crop=1920:1040:0:120,"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/Work/satisfying-runaway-pilot/Source/33353416.mp4",
+      "source_in": 2,
+      "sha256": "9dd414483821b55e91be72bac74dcf76ff9fed37673d0b6b55121889f3c7ab96",
+      "pre_crop": ""
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/Footage/okanagan-mule-deer.webm",
+      "source_in": 8,
+      "sha256": "a70705eed5b6d197652d93444c6d7169ec8ac9d6054e4356d3d63b07b08094e5",
+      "pre_crop": ""
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/Work/nuviko-videos-short-batch-20261110/new-footage/5061380.mp4",
+      "source_in": 2,
+      "sha256": "67361bc3e549ad2c881a5f8fecdfeff7cc9c4712ee237a337fa410b9dc907f2c",
+      "pre_crop": ""
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/Work/nuviko-videos-short-batch-20261110/new-footage/33871227.mp4",
+      "source_in": 2,
+      "pre_crop": "",
+      "sha256": "90d28082d8e9ce965569944787f0da775d57ebbbe66e891791d83ad74246d600"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/Work/nuviko-videos-short-batch-20261110/new-footage/32120722.mp4",
+      "source_in": 2,
+      "pre_crop": "",
+      "sha256": "4a6e7089eb983c8916f4058199a05f670b020b6f318ed2b029af22e0a373cea3"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/Work/nuviko-videos-short-batch-20261110/new-footage/28891505.mp4",
+      "source_in": 2,
+      "pre_crop": "",
+      "sha256": "838eb0024d0b837baeacdf2e21e6bcd23fe2416574f83f315d1805fffdfbbbe0"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/Work/nuviko-videos-short-batch-20261110/new-footage/26346980.mp4",
+      "source_in": 2,
+      "pre_crop": "",
+      "sha256": "706fc4c776ed6b47ec336fd662d8c38d5141335c8073e68affc30f517a5aa233"
+    }
+  ],
+  "lyrics": "ASR draft plus manual Paparazzi hook corrections; listening pending",
+  "argv": [
+    "ffmpeg",
+    "-nostdin",
+    "-n",
+    "-v",
+    "error",
+    "-filter_complex_threads",
+    "2",
+    "-i",
+    "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/Footage/usda-bumblebee.webm",
+    "-i",
+    "/Users/diplomat/ytvideos/Work/satisfying-runaway-pilot/Source/33353416.mp4",
+    "-i",
+    "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/Footage/okanagan-mule-deer.webm",
+    "-i",
+    "/Users/diplomat/ytvideos/Work/nuviko-videos-short-batch-20261110/new-footage/5061380.mp4",
+    "-i",
+    "/Users/diplomat/ytvideos/Work/nuviko-videos-short-batch-20261110/new-footage/33871227.mp4",
+    "-i",
+    "/Users/diplomat/ytvideos/Work/nuviko-videos-short-batch-20261110/new-footage/32120722.mp4",
+    "-i",
+    "/Users/diplomat/ytvideos/Work/nuviko-videos-short-batch-20261110/new-footage/28891505.mp4",
+    "-i",
+    "/Users/diplomat/ytvideos/Work/nuviko-videos-short-batch-20261110/new-footage/26346980.mp4",
+    "-i",
+    "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Edit/mthu-review-mask.mov",
+    "-i",
+    "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Deliverables/Its-Like-Im-Not-Even-Here-review-v02.mp4",
+    "-filter_complex_script",
+    "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Edit/mthu-review-v03.ffgraph",
+    "-map",
+    "[video]",
+    "-map",
+    "9:a:0",
+    "-frames:v",
+    "477",
+    "-r",
+    "30",
+    "-fps_mode",
+    "cfr",
+    "-c:v",
+    "libx264",
+    "-threads",
+    "3",
+    "-preset",
+    "veryfast",
+    "-crf",
+    "19",
+    "-pix_fmt",
+    "yuv420p",
+    "-color_primaries",
+    "bt709",
+    "-color_trc",
+    "bt709",
+    "-colorspace",
+    "bt709",
+    "-c:a",
+    "copy",
+    "-movflags",
+    "+faststart",
+    "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Deliverables/Its-Like-Im-Not-Even-Here-review-v03.mp4"
+  ],
+  "previous_review": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Deliverables/Its-Like-Im-Not-Even-Here-review-v02.mp4",
+  "previous_sha256": "0e674f95f9a75d1bd89e7eb3cab47ac4916fe7aa54c2f86ff01ab2805c18c85a",
+  "mask": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Edit/mthu-review-mask.mov",
+  "mask_sha256": "c17f3a2e157da75a6f4751e60fee1e4da167f1e3d05c845644e2d62e14225e0a",
+  "transition_types": [
+    "fade"
+  ],
+  "transition_effects": [
+    "fade-in",
+    "gaussian blur",
+    "luma lift"
+  ],
+  "transition_graph_sha256": "89890167e47921f2627f5a35f83a0de3bb90f69a80187ff39c68e5898a2894c7",
+  "audio": "AAC stream copy from preceding checked review"
+}

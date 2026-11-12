@@ -1,0 +1,212 @@
+{
+  "expected_words": 1514,
+  "asr_tokens": 1507,
+  "ratio": 0.9718636213174445,
+  "differences": [
+    {
+      "type": "replace",
+      "source": "twentieth",
+      "asr": "20th",
+      "asr_time": 26.76
+    },
+    {
+      "type": "replace",
+      "source": "nine",
+      "asr": "9",
+      "asr_time": 51.78
+    },
+    {
+      "type": "replace",
+      "source": "thirtyeight thousand",
+      "asr": "38000",
+      "asr_time": 62.58
+    },
+    {
+      "type": "replace",
+      "source": "walked",
+      "asr": "walk",
+      "asr_time": 68.04
+    },
+    {
+      "type": "replace",
+      "source": "8",
+      "asr": "8th",
+      "asr_time": 73.02
+    },
+    {
+      "type": "replace",
+      "source": "7",
+      "asr": "7th",
+      "asr_time": 101.64
+    },
+    {
+      "type": "replace",
+      "source": "cline",
+      "asr": "klein",
+      "asr_time": 115.92
+    },
+    {
+      "type": "replace",
+      "source": "sixteen",
+      "asr": "16",
+      "asr_time": 151.74
+    },
+    {
+      "type": "replace",
+      "source": "neighbors",
+      "asr": "neighbours",
+      "asr_time": 170.1
+    },
+    {
+      "type": "replace",
+      "source": "two hundred",
+      "asr": "200",
+      "asr_time": 179.82
+    },
+    {
+      "type": "replace",
+      "source": "one hundred",
+      "asr": "100",
+      "asr_time": 191.04
+    },
+    {
+      "type": "replace",
+      "source": "cline",
+      "asr": "klein",
+      "asr_time": 201.9
+    },
+    {
+      "type": "replace",
+      "source": "six thousand",
+      "asr": "6000",
+      "asr_time": 236.28
+    },
+    {
+      "type": "replace",
+      "source": "weatherrelated",
+      "asr": "weather related",
+      "asr_time": 242.94
+    },
+    {
+      "type": "replace",
+      "source": "defenses",
+      "asr": "defences",
+      "asr_time": 298.44
+    },
+    {
+      "type": "replace",
+      "source": "first",
+      "asr": "1st",
+      "asr_time": 323.76
+    },
+    {
+      "type": "replace",
+      "source": "three point three",
+      "asr": "33",
+      "asr_time": 330
+    },
+    {
+      "type": "replace",
+      "source": "seventeen",
+      "asr": "17",
+      "asr_time": 334.8
+    },
+    {
+      "type": "replace",
+      "source": "graderaising",
+      "asr": "grade raising",
+      "asr_time": 343.38
+    },
+    {
+      "type": "replace",
+      "source": "neighborhoods",
+      "asr": "neighbourhoods",
+      "asr_time": 344.82
+    },
+    {
+      "type": "replace",
+      "source": "handoperated screw jacks",
+      "asr": "hand operated screwjacks",
+      "asr_time": 352.02
+    },
+    {
+      "type": "replace",
+      "source": "two thousand",
+      "asr": "2000",
+      "asr_time": 356.58
+    },
+    {
+      "type": "replace",
+      "source": "streetcar",
+      "asr": "street car",
+      "asr_time": 380.88
+    },
+    {
+      "type": "replace",
+      "source": "fill",
+      "asr": "phil",
+      "asr_time": 403.2
+    },
+    {
+      "type": "replace",
+      "source": "on to",
+      "asr": "onto",
+      "asr_time": 430.98
+    },
+    {
+      "type": "replace",
+      "source": "fill",
+      "asr": "phil",
+      "asr_time": 461.82
+    },
+    {
+      "type": "replace",
+      "source": "faced",
+      "asr": "face",
+      "asr_time": 463.08
+    },
+    {
+      "type": "replace",
+      "source": "saint",
+      "asr": "st",
+      "asr_time": 474.06
+    },
+    {
+      "type": "replace",
+      "source": "three thousand",
+      "asr": "3000",
+      "asr_time": 477.3
+    },
+    {
+      "type": "replace",
+      "source": "center",
+      "asr": "centre",
+      "asr_time": 481.44
+    },
+    {
+      "type": "replace",
+      "source": "seven hundred",
+      "asr": "700",
+      "asr_time": 482.82
+    },
+    {
+      "type": "replace",
+      "source": "five",
+      "asr": "5",
+      "asr_time": 484.68
+    },
+    {
+      "type": "replace",
+      "source": "defenses",
+      "asr": "defences",
+      "asr_time": 513.24
+    },
+    {
+      "type": "replace",
+      "source": "homes",
+      "asr": "home",
+      "asr_time": 559.38
+    }
+  ],
+  "method": "ASR is fallible; do not silently change accepted literal transcript for punctuation, homophones or segmentation. Original provider alignment validates1514source tokens. Full exact voice/file identity preserved. Subjective listening UNVERIFIED."
+}

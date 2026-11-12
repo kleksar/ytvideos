@@ -1,0 +1,9 @@
+[0:v]eq=saturation=1.5,format=yuv444p,split[base][area];
+[area]crop=448:192:(iw-ow)/2:(ih-oh)/2,scale=in_color_matrix=bt709:in_range=tv:out_range=pc,format=gbrp,split[normal][active];
+[normal]lutrgb=r=negval:g=negval:b=negval,scale=out_color_matrix=bt709:in_range=pc:out_range=tv,format=yuv444p[ninv];
+[active]lutrgb=r='clip(127.5+1.30*(127.5-val),0,255)':g='clip(127.5+1.30*(127.5-val),0,255)':b='clip(127.5+1.30*(127.5-val),0,255)',scale=out_color_matrix=bt709:in_range=pc:out_range=tv,format=yuv444p[ainv];
+[1:v]scale=448:192:flags=lanczos,format=gbrp,extractplanes=r+g[nmask][amask];
+[ninv][nmask]alphamerge[nlayer];
+[ainv][amask]alphamerge[alayer];
+[base][nlayer]overlay=x=(W-w)/2:y=(H-h)/2:format=yuv420:repeatlast=0[tmp];
+[tmp][alayer]overlay=x=(W-w)/2:y=(H-h)/2:format=yuv420:repeatlast=0[v]

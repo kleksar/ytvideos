@@ -1,0 +1,274 @@
+{
+  "date": "2026-11-01",
+  "project": {
+    "name": "Paper Detour 009 Knorozov Asya Draft 20261101",
+    "id": "9A0EE170",
+    "path": "/Users/diplomat/Documents/Palmier Pro/Paper Detour 009 Knorozov Asya Draft 20261101.palmier"
+  },
+  "sourceTimeline": {
+    "name": "PD009_full_frame_rebuild_v02_20261101",
+    "id": "25246C8B",
+    "changed": false
+  },
+  "snapshotBeforeEdit": {
+    "id": "24747ED3",
+    "name": "Before accent and grain pass v03"
+  },
+  "timeline": {
+    "name": "PD009_full_frame_accents_grain_v03_20261101",
+    "id": "E9B6FBA7",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "totalFrames": 960,
+    "durationSeconds": 32
+  },
+  "tracks": [
+    {
+      "name": "Grain",
+      "trackId": "105BB715",
+      "index": 0,
+      "clips": [
+        {
+          "clipId": "C8F1415D",
+          "mediaRef": "72A7DB1D",
+          "frames": [
+            0,
+            240
+          ],
+          "opacity": 0.25
+        },
+        {
+          "clipId": "67AD7A45",
+          "mediaRef": "72A7DB1D",
+          "frames": [
+            240,
+            480
+          ],
+          "opacity": 0.25
+        },
+        {
+          "clipId": "748F42C3",
+          "mediaRef": "72A7DB1D",
+          "frames": [
+            480,
+            720
+          ],
+          "opacity": 0.25
+        },
+        {
+          "clipId": "88AA7221",
+          "mediaRef": "72A7DB1D",
+          "frames": [
+            720,
+            960
+          ],
+          "opacity": 0.25
+        }
+      ],
+      "opacity": 0.25,
+      "crop": {
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "bottom": 0
+      },
+      "transform": {
+        "width": 1,
+        "height": 1,
+        "centerX": 0.5,
+        "centerY": 0.5
+      },
+      "fades": false,
+      "source": "Source/Graphics/film_grain_8s_prores4444.mov"
+    },
+    {
+      "name": "Accents",
+      "trackId": "C29B05F8",
+      "index": 1,
+      "items": [
+        {
+          "text": "WHY A CAT?",
+          "scene": "S01",
+          "frames": [
+            30,
+            90
+          ],
+          "clipId": "EC3D55A2",
+          "mediaRef": "BEAA154C",
+          "asset": "Source/Graphics/Accents_v03_20261101/WHY_A_CAT.png",
+          "fadeFrames": 8,
+          "motion": "short settle from left; no overlap with statue silhouette"
+        },
+        {
+          "text": "1952",
+          "scene": "S03",
+          "frames": [
+            204,
+            258
+          ],
+          "clipId": "638C69AB",
+          "mediaRef": "FDC40DF9",
+          "asset": "Storyboard/Accents/1952.png",
+          "fadeFrames": 8,
+          "sync": "Starts with the aligned spoken word at 6.80s"
+        },
+        {
+          "text": "DECADES OF WORK",
+          "scene": "S05",
+          "frames": [
+            420,
+            480
+          ],
+          "clipId": "6F2E083C",
+          "mediaRef": "43276987",
+          "asset": "Source/Graphics/Accents_v03_20261101/DECADES_OF_WORK.png",
+          "fadeFrames": 8
+        },
+        {
+          "text": "JUST A JOKE",
+          "scene": "S07",
+          "frames": [
+            630,
+            696
+          ],
+          "clipId": "94827B92",
+          "mediaRef": "0CD25B91",
+          "asset": "Source/Graphics/Accents_v03_20261101/JUST_A_JOKE.png",
+          "fadeFrames": 8
+        },
+        {
+          "text": "BOTH REMEMBERED",
+          "scene": "S09",
+          "frames": [
+            825,
+            900
+          ],
+          "clipId": "EBC0019C",
+          "mediaRef": "33B32B47",
+          "asset": "Source/Graphics/Accents_v03_20261101/BOTH_REMEMBERED.png",
+          "fadeFrames": 8
+        }
+      ],
+      "note": "One short, animated paper-type accent at a time; full-frame scene images remain intact. A BREAKTHROUGH was generated as an unused candidate because S03 had no similarly safe open field; the existing 1952 asset was used instead."
+    },
+    {
+      "name": "Main",
+      "trackId": "78ABF409",
+      "index": 2,
+      "clipsUnchangedFromV02": true,
+      "sceneCount": 9
+    },
+    {
+      "name": "Dialogue",
+      "trackId": "393A74A1",
+      "index": 3,
+      "clipUnchangedFromV02": true
+    },
+    {
+      "name": "Music",
+      "trackId": "8D1D964E",
+      "index": 4,
+      "clipUnchangedFromV02": true
+    }
+  ],
+  "grainLoopCheck": {
+    "method": "decoded source RGBA frame difference",
+    "loopBoundary239To0MeanAbsoluteDifference": 99.482606,
+    "typicalConsecutivePairMeanAbsoluteDifference": 99.40856,
+    "result": "The loop reset is within normal frame-to-frame variation; no boundary fade was added."
+  },
+  "visualReview": {
+    "inspectTimelineFrames": [
+      50,
+      230,
+      450,
+      650,
+      850
+    ],
+    "result": "All five accents are fully visible and remain outside key faces, Asya, codex signs, and documents. At 0.25 opacity, soft grain is visible over the full canvas without the previous harsh appearance or center stripe. A static Palmier preview was checked at 21.16s; the entire 32-second playback was not subjectively reviewed.",
+    "diagnosticGrid": "inspect_timeline only; not part of timeline clips",
+    "inspectTimelineFramesAfterOpacityChange": [
+      50,
+      230,
+      450,
+      650,
+      850
+    ]
+  },
+  "extraHighConsultation": {
+    "modeVisibleInChatGPT": "Extra High",
+    "chatTitle": "Экранные акценты Shorts",
+    "url": "https://chatgpt.com/g/g-p-6ae147d3975777d0/c/6ae755de-5b9c-83ed-9fea-6532ce4575c0",
+    "requestedReferenceSession": "Адаптировать историю для Paper",
+    "referenceSessionSearch": "Not found in available project search; no content attributed to it.",
+    "recommendationUsed": "WHY A CAT?; DECADES OF WORK; JUST A JOKE; BOTH REMEMBERED. The existing 1952 accent was selected for the Maya-writing scene because the suggested A BREAKTHROUGH label had no safe placement."
+  },
+  "audio": {
+    "newAudioGenerated": false,
+    "voiceAndMusic": "Unchanged from v02"
+  },
+  "export": {
+    "status": "completed",
+    "jobId": "866A8870-F826-4637-A52B-241AE760F065",
+    "path": "Deliverables/009_knorozov_asya_en_short_1080x1920_30fps_fullmix_v03_20261101.mp4",
+    "container": "MP4",
+    "video": {
+      "codec": "H.264",
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "frames": 960,
+      "durationSeconds": 32,
+      "averageBitrateBps": 10668791
+    },
+    "audio": {
+      "codec": "AAC",
+      "sampleRate": 44100,
+      "channels": 2,
+      "averageBitrateBps": 110214,
+      "integratedLufs": -20.3,
+      "loudnessRangeLu": 2.0,
+      "truePeakDbfs": -3.6,
+      "packetHashMatchesV02": true,
+      "note": "AAC packet stream is byte-for-byte identical to v02; no new audio or mix changes.",
+      "recommendedStereoBitrateBps": 256000,
+      "belowRecommendedBitrate": true,
+      "encodingDecision": "Preserved the existing accepted AAC packet stream exactly; no audio rebuild or re-encode was authorized or attempted."
+    },
+    "fileSizeBytes": 43137445,
+    "sha256": "697ddb6af6b63f67f01106019c24c3812dc9117d5385eecf723465633165cd7a",
+    "verification": {
+      "ffprobe": "H.264 1080x1920 30fps 960 frames / 32.000s; AAC stereo 44.1kHz",
+      "fullDecode": "ffmpeg -v error -xerror completed; exit 0; no errors",
+      "visualSamplesSeconds": [
+        1.5,
+        7.6,
+        15.0,
+        22.0,
+        28.5
+      ],
+      "visualSamples": "Five stills from the final MP4 checked for accent visibility, full-frame grain, clipping, and scene placement.",
+      "subjectiveFullPlayback1x": "not performed",
+      "subjectiveAudioListening": "not performed"
+    },
+    "previousFullmixV02": {
+      "archivedAt": "Edit/Archive/009_knorozov_asya_en_short_1080x1920_30fps_fullmix_v02_20261101.mp4",
+      "sha256": "3b15771008b24d57b1098ba4b53ac52993418b001bd6a7f616519fd42893295f",
+      "notUsedAsProjectSource": true
+    },
+    "published": false
+  },
+  "snapshotBeforeGrainAdjustment": {
+    "id": "646B4C85",
+    "name": "Before grain strength adjustment"
+  },
+  "grainStrengthConsultation": {
+    "modeVisibleInChatGPT": "Extra High",
+    "chatTitle": "Экранные акценты Shorts",
+    "url": "https://chatgpt.com/g/g-p-6ae147d3975777d0/c/6ae755de-5b9c-83ed-9fea-6532ce4575c0",
+    "recommendation": "Start at 0.25; tune within 0.20–0.30. On a phone, grain should remain visible on the dark-blue area without drawing attention away from faces or paper texture.",
+    "reason": "The initial 0.75 composite read as coarse, high-contrast speckle in Palmier preview.",
+    "finalOpacity": 0.25
+  }
+}

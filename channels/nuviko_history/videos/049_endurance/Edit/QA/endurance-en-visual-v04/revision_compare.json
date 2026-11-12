@@ -1,0 +1,98 @@
+{
+  "unchanged_scene_samples": 348,
+  "changed_scene_samples": [
+    {
+      "scene": 11,
+      "sample": 0,
+      "mae": 9.62955
+    },
+    {
+      "scene": 11,
+      "sample": 1,
+      "mae": 9.49269
+    },
+    {
+      "scene": 11,
+      "sample": 2,
+      "mae": 9.43237
+    },
+    {
+      "scene": 14,
+      "sample": 0,
+      "mae": 18.6598
+    },
+    {
+      "scene": 14,
+      "sample": 1,
+      "mae": 18.48258
+    },
+    {
+      "scene": 14,
+      "sample": 2,
+      "mae": 18.43821
+    },
+    {
+      "scene": 16,
+      "sample": 0,
+      "mae": 16.03519
+    },
+    {
+      "scene": 16,
+      "sample": 1,
+      "mae": 16.12462
+    },
+    {
+      "scene": 16,
+      "sample": 2,
+      "mae": 16.07908
+    },
+    {
+      "scene": 20,
+      "sample": 0,
+      "mae": 14.77859
+    },
+    {
+      "scene": 20,
+      "sample": 1,
+      "mae": 14.46105
+    },
+    {
+      "scene": 20,
+      "sample": 2,
+      "mae": 14.68136
+    },
+    {
+      "scene": 22,
+      "sample": 0,
+      "mae": 17.42131
+    },
+    {
+      "scene": 22,
+      "sample": 1,
+      "mae": 17.733
+    },
+    {
+      "scene": 22,
+      "sample": 2,
+      "mae": 17.79843
+    },
+    {
+      "scene": 109,
+      "sample": 0,
+      "mae": 63.86758
+    },
+    {
+      "scene": 109,
+      "sample": 1,
+      "mae": 63.01704
+    },
+    {
+      "scene": 109,
+      "sample": 2,
+      "mae": 63.09777
+    }
+  ],
+  "max_unchanged_mean_absolute_rgb_difference": 1.69582,
+  "mean_unchanged_mean_absolute_rgb_difference": 0.05535643678160919,
+  "method": "All 366 corresponding decoded 320\u00d7180 sample tiles compared across two full exports. Confirm unchanged framing and the six deliberate image replacements."
+}

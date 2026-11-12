@@ -1,0 +1,304 @@
+{
+  "version": 1,
+  "run": "ffmpeg-rebuild-en-v02",
+  "owner": "production-coordinator",
+  "status": "failed",
+  "created_utc": "2026-11-03T17:19:27.587528+00:00",
+  "entries": [
+    {
+      "path": "Assets/Generated/audio-en-v01/full_mix_v03_timeline_pad.m4a",
+      "role": "dependency",
+      "identity": {
+        "device": 16777234,
+        "inode": 126530378,
+        "bytes": 18276058,
+        "mtime_ns": 1793725076625370321,
+        "ctime_ns": 1793725076625370321,
+        "nlink": 1,
+        "allocated_bytes": 18276352
+      },
+      "sha256": "068140f375e75c63fb1b5802dc04565de0fff9cb4560b5da202f3a1553c29a20",
+      "rebuild_from": [],
+      "evidence": [],
+      "disposition": "pending"
+    },
+    {
+      "path": "Assets/Generated/ffmpeg-overlays-en-v01/watch-next-fullcanvas.png",
+      "role": "dependency",
+      "identity": {
+        "device": 16777234,
+        "inode": 126536613,
+        "bytes": 171122,
+        "mtime_ns": 1793725229952631321,
+        "ctime_ns": 1793725229952631321,
+        "nlink": 1,
+        "allocated_bytes": 172032
+      },
+      "sha256": "17aef1fefaf2daa482aff97e67f1e281e3a8a0490e8492e3ccdff972bea96bad",
+      "rebuild_from": [],
+      "evidence": [],
+      "disposition": "pending"
+    },
+    {
+      "path": "Assets/Generated/captions-en-v03-preflight-r01/manifest.json",
+      "role": "dependency",
+      "identity": {
+        "device": 16777234,
+        "inode": 126174738,
+        "bytes": 53699,
+        "mtime_ns": 1793702442428346172,
+        "ctime_ns": 1793702442428346172,
+        "nlink": 1,
+        "allocated_bytes": 57344
+      },
+      "sha256": "c3a1b4bfd887f395da60b45e0834ce877b8ae5d846cfee0548ae9dc08684d66f",
+      "rebuild_from": [],
+      "evidence": [],
+      "disposition": "pending"
+    },
+    {
+      "path": "Edit/FFmpeg/montage-en-v01.json",
+      "role": "evidence",
+      "identity": {
+        "device": 16777234,
+        "inode": 126529350,
+        "bytes": 94882,
+        "mtime_ns": 1793725244641733306,
+        "ctime_ns": 1793725244641733306,
+        "nlink": 1,
+        "allocated_bytes": 98304
+      },
+      "sha256": "8adc3f5bea25b0ac25996dc2048ea2c3ae794f2d8be15e164a0790d8d90287f7",
+      "rebuild_from": [],
+      "evidence": [],
+      "disposition": "pending"
+    },
+    {
+      "path": "Edit/FFmpeg/scene-frame-plan-en-v09-speed110-v01.json",
+      "role": "evidence",
+      "identity": {
+        "device": 16777234,
+        "inode": 126529349,
+        "bytes": 69453,
+        "mtime_ns": 1793725200333201650,
+        "ctime_ns": 1793725200333201650,
+        "nlink": 1,
+        "allocated_bytes": 69632
+      },
+      "sha256": "42ce9781ee607dfd6366349d22650465cb36417958d7313335a2a7637c175821",
+      "rebuild_from": [],
+      "evidence": [],
+      "disposition": "pending"
+    },
+    {
+      "path": "Edit/FFmpeg/word-times-en-v09-speed110-montage-v01.json",
+      "role": "evidence",
+      "identity": {
+        "device": 16777234,
+        "inode": 126529348,
+        "bytes": 117079,
+        "mtime_ns": 1793724975366802325,
+        "ctime_ns": 1793724975366802325,
+        "nlink": 1,
+        "allocated_bytes": 118784
+      },
+      "sha256": "23369feff5add5e365773aa86a0c375076fbc0d7320e2e4398354c603376deb2",
+      "rebuild_from": [],
+      "evidence": [],
+      "disposition": "pending"
+    },
+    {
+      "path": "Edit/FFmpeg/word-times-en-v09-speed110-v01.json",
+      "role": "evidence",
+      "identity": {
+        "device": 16777234,
+        "inode": 126509238,
+        "bytes": 245608,
+        "mtime_ns": 1793724328592452908,
+        "ctime_ns": 1793724328592452908,
+        "nlink": 1,
+        "allocated_bytes": 245760
+      },
+      "sha256": "a184b4dba02248436fbd6a9712534fa216ee97e4a6a28d39a60139910459492a",
+      "rebuild_from": [],
+      "evidence": [],
+      "disposition": "pending"
+    },
+    {
+      "path": "Edit/FFmpeg/accent-timing-en-v09-speed110-v01.json",
+      "role": "evidence",
+      "identity": {
+        "device": 16777234,
+        "inode": 126536816,
+        "bytes": 5480,
+        "mtime_ns": 1793725280057912815,
+        "ctime_ns": 1793725280057912815,
+        "nlink": 1,
+        "allocated_bytes": 8192
+      },
+      "sha256": "19db3b516e14bf870ce6f774d73b5f35d587afc1c72ff1931ee2d3a475baa05b",
+      "rebuild_from": [],
+      "evidence": [],
+      "disposition": "pending"
+    },
+    {
+      "path": "Edit/FFmpeg/accent-animation-en-v02.json",
+      "role": "evidence",
+      "identity": {
+        "device": 16777234,
+        "inode": 126553409,
+        "bytes": 1405,
+        "mtime_ns": 1793726225453024743,
+        "ctime_ns": 1793726225453024743,
+        "nlink": 1,
+        "allocated_bytes": 4096
+      },
+      "sha256": "c09adf54a1fac7025defecdcba91a70aad70f6e2717ff74348133a459798dc05",
+      "rebuild_from": [],
+      "evidence": [],
+      "disposition": "pending"
+    },
+    {
+      "path": "Edit/FFmpeg/AUDIO_SPEED_AND_MIX_v03.json",
+      "role": "evidence",
+      "identity": {
+        "device": 16777234,
+        "inode": 126530930,
+        "bytes": 2214,
+        "mtime_ns": 1793725093517762810,
+        "ctime_ns": 1793725093517762810,
+        "nlink": 1,
+        "allocated_bytes": 4096
+      },
+      "sha256": "387aa61a0477c75de13a103a7be2a4919e461723396edd78f39c888fc35ac658",
+      "rebuild_from": [],
+      "evidence": [],
+      "disposition": "pending"
+    },
+    {
+      "path": "Edit/FFmpeg/EXPORT_CONTRACT_v02.json",
+      "role": "evidence",
+      "identity": {
+        "device": 16777234,
+        "inode": 126553410,
+        "bytes": 39899,
+        "mtime_ns": 1793726237071474374,
+        "ctime_ns": 1793726237071474374,
+        "nlink": 1,
+        "allocated_bytes": 40960
+      },
+      "sha256": "ecfcda08a1119a4e4c0ad09f63fdd274ad7cc067c999359fc84bb6f7c2961b6e",
+      "rebuild_from": [],
+      "evidence": [],
+      "disposition": "pending"
+    },
+    {
+      "path": "Edit/MediaLifecycle/audit-ffmpeg-v02/audit.json",
+      "role": "evidence",
+      "identity": {
+        "device": 16777234,
+        "inode": 126553511,
+        "bytes": 1643938,
+        "mtime_ns": 1793726237527884250,
+        "ctime_ns": 1793726237527884250,
+        "nlink": 1,
+        "allocated_bytes": 1646592
+      },
+      "sha256": "9d8ae5d57afcb2ef67669249eb9490edd1fc7ee32188d778ea70e7ffa4324d23",
+      "rebuild_from": [],
+      "evidence": [],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/ffmpeg-rebuild-en-v02/scratch/plan-v05/plan.json",
+      "role": "scratch",
+      "identity": {
+        "device": 16777234,
+        "inode": 126557277,
+        "bytes": 102028,
+        "mtime_ns": 1793726377162908263,
+        "ctime_ns": 1793726377162908263,
+        "nlink": 1,
+        "allocated_bytes": 102400
+      },
+      "sha256": "7aebb8f155b8758d7934e49f49ecb08ccf43bb76108cbdd83797eb1a781e69fc",
+      "rebuild_from": [
+        {
+          "path": "Edit/FFmpeg/montage-en-v01.json",
+          "identity": {
+            "device": 16777234,
+            "inode": 126529350,
+            "bytes": 94882,
+            "mtime_ns": 1793725244641733306,
+            "ctime_ns": 1793725244641733306,
+            "nlink": 1,
+            "allocated_bytes": 98304
+          },
+          "sha256": "8adc3f5bea25b0ac25996dc2048ea2c3ae794f2d8be15e164a0790d8d90287f7"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/FFmpeg/EXPORT_CONTRACT_v02.json",
+          "identity": {
+            "device": 16777234,
+            "inode": 126553410,
+            "bytes": 39899,
+            "mtime_ns": 1793726237071474374,
+            "ctime_ns": 1793726237071474374,
+            "nlink": 1,
+            "allocated_bytes": 40960
+          },
+          "sha256": "ecfcda08a1119a4e4c0ad09f63fdd274ad7cc067c999359fc84bb6f7c2961b6e"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/ffmpeg-rebuild-en-v02/scratch/plan-v05/input_manifest.json",
+      "role": "scratch",
+      "identity": {
+        "device": 16777234,
+        "inode": 126557276,
+        "bytes": 94882,
+        "mtime_ns": 1793726377159784456,
+        "ctime_ns": 1793726377159784456,
+        "nlink": 1,
+        "allocated_bytes": 98304
+      },
+      "sha256": "8adc3f5bea25b0ac25996dc2048ea2c3ae794f2d8be15e164a0790d8d90287f7",
+      "rebuild_from": [
+        {
+          "path": "Edit/FFmpeg/montage-en-v01.json",
+          "identity": {
+            "device": 16777234,
+            "inode": 126529350,
+            "bytes": 94882,
+            "mtime_ns": 1793725244641733306,
+            "ctime_ns": 1793725244641733306,
+            "nlink": 1,
+            "allocated_bytes": 98304
+          },
+          "sha256": "8adc3f5bea25b0ac25996dc2048ea2c3ae794f2d8be15e164a0790d8d90287f7"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/FFmpeg/EXPORT_CONTRACT_v02.json",
+          "identity": {
+            "device": 16777234,
+            "inode": 126553410,
+            "bytes": 39899,
+            "mtime_ns": 1793726237071474374,
+            "ctime_ns": 1793726237071474374,
+            "nlink": 1,
+            "allocated_bytes": 40960
+          },
+          "sha256": "ecfcda08a1119a4e4c0ad09f63fdd274ad7cc067c999359fc84bb6f7c2961b6e"
+        }
+      ],
+      "disposition": "pending"
+    }
+  ],
+  "writer_finished_utc": "2026-11-03T17:25:06.288739+00:00"
+}

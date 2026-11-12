@@ -1,0 +1,133 @@
+{
+  "asset": "IQ Gallery — YouTube Shorts metadata and selected thumbnail",
+  "metadata_version": "v05",
+  "thumbnail_version": "v04_selected",
+  "status": "uploaded_private",
+  "channel": "Paper Detour",
+  "episode": "channels/paper_detour/videos/003_iq_gallery (channels/paper_detour/legacy/025_iq_gallery)",
+  "video_version": "v24",
+  "video_file": "channels/paper_detour/legacy/025_iq_gallery/Deliverables/025_iq_gallery_paper_detour_60s_v24.mp4",
+  "title": "13 Famous People and Their Reported IQ Scores",
+  "title_character_count": 45,
+  "description": "Explore published IQ estimates associated with 13 famous people, including John F. Kennedy, Richard Feynman, Garry Kasparov, Kanye West, RM, and Marilyn vos Savant.\n\nThese figures come from different sources and have not been verified through one standardized, comparable test. This is an entertainment-focused collection, not a scientifically established IQ ranking.\n\n#Shorts #IQ #FamousPeople #PaperDetour",
+  "description_character_count": 407,
+  "hashtags": [
+    "#Shorts",
+    "#IQ",
+    "#FamousPeople",
+    "#PaperDetour"
+  ],
+  "tags": [
+    "Paper Detour",
+    "Shorts",
+    "IQ",
+    "famous people IQ",
+    "reported IQ scores",
+    "John F Kennedy",
+    "Garry Kasparov",
+    "Richard Feynman",
+    "Kanye West",
+    "Logan Paul",
+    "RM Kim Namjoon",
+    "Nolan Gould",
+    "Frank Lampard",
+    "Kate Beckinsale",
+    "Sharon Stone",
+    "Lee Byung-hun",
+    "Quentin Tarantino",
+    "Marilyn vos Savant"
+  ],
+  "pinned_comment_draft": "Which reported IQ estimate surprised you the most? Remember, these figures come from different sources and aren't directly comparable.",
+  "thumbnail_text": "THINK YOU'RE SMARTER THAN THEM?",
+  "thumbnail_source_input": "user-selected attachment; pixel-identical to ImageGen output exec-c8f9188e-3fc3-4112-8e02-7329e3e999c4.png",
+  "thumbnail_source_sha256": "05ef10ae72d0598f83faeaa96d3c97ac0cbeab7768aabbeaf6a120fed05bd028",
+  "thumbnail_files": {
+    "selected_source": {
+      "path": "Packaging/Thumbnail/Selected/v04/iq_gallery_short_thumbnail_v04_selected_source.png",
+      "dimensions_px": [
+        941,
+        1672
+      ],
+      "file_size_bytes": 3203535,
+      "sha256": "05ef10ae72d0598f83faeaa96d3c97ac0cbeab7768aabbeaf6a120fed05bd028"
+    },
+    "selected_jpeg": {
+      "path": "Packaging/Thumbnail/Selected/v04/iq_gallery_short_thumbnail_v04_selected_2160x3840.jpg",
+      "dimensions_px": [
+        2160,
+        3840
+      ],
+      "file_size_bytes": 3490787,
+      "sha256": "6356f58fa383fa1de334d55291561e7cfc09109cab406ef4ed3f034ca69738e6"
+    },
+    "phone_preview": {
+      "path": "Packaging/Thumbnail/QA/v04/iq_gallery_short_thumbnail_v04_selected_360x640.jpg",
+      "dimensions_px": [
+        360,
+        640
+      ],
+      "file_size_bytes": 162954,
+      "sha256": "1b28d77383755f130fcd0b823c93fd96e732197ca19dd1155263872d965e28df"
+    },
+    "center_2x3_preview": {
+      "path": "Packaging/Thumbnail/QA/v04/iq_gallery_short_thumbnail_v04_selected_center_2x3_360x540.jpg",
+      "dimensions_px": [
+        360,
+        540
+      ],
+      "file_size_bytes": 143957,
+      "sha256": "f4694c450b3000fe758f3fa52f651361c43dd2e85e2c96b11da2028b68cdc832"
+    }
+  },
+  "claims_caveat": "Reported estimates from varied sources are not a single verified, comparable test and do not establish a scientific ranking.",
+  "channel_rules_applied": {
+    "title_thumbnail_pair": "The title begins with the topic in the first visible words and complements the selected curiosity question.",
+    "description": "Concise, plain English; states the topic and caveat without listing internal sources or mentioning AI.",
+    "hashtags": "Four relevant hashtags follow the existing Paper Shorts example 004; YouTube may display up to three near the title.",
+    "tags": "Separate Studio Tags field; prepared independently from hashtags.",
+    "playlist": "None assigned: YOUTUBE_PLAYLISTS.md identifies IQ Gallery as a possible series only after at least two published episodes.",
+    "title_card_preview": "Selected v04 thumbnail was uploaded and visibly confirmed in the saved YouTube Studio card."
+  },
+  "upload_metadata": {
+    "category_id": "27",
+    "language": "en",
+    "audio_language": "en",
+    "made_for_kids": false,
+    "contains_synthetic_media": false,
+    "paid_promotion": false,
+    "playlist_id": null,
+    "visibility": "Private",
+    "notes": "Uploaded in Studio and verified as Restricted/Private. No playlist assigned under the Paper playlist registry. Pinned comment remains a draft.",
+    "category_name": "Entertainment",
+    "youtube_video_id": "xYS2XBeR_Jc",
+    "youtube_url": "https://youtube.com/shorts/xYS2XBeR_Jc",
+    "upload_date": "2026-11-01"
+  },
+  "altered_or_synthetic_content_guidance": "The selected cover and episode use visibly stylized paper-diorama art. Current YouTube guidance says non-realistic AI content does not require disclosure; leave Studio field unset in this local package and reassess against the final video at upload.",
+  "consultation": {
+    "service": "ChatGPT.com project YT Видео in Google Chrome",
+    "visible_mode_before_prompt": "Extra High",
+    "task": "One metadata package for an English 60-second IQ Gallery Short; one title, description, 3 hashtags, 10–15 tags, pinned comment, language, and category.",
+    "conversation_url": "https://chatgpt.com/g/g-p-6ae147d3975481919b5bfda6935777d0-yt-video/c/6ae7954a-4308-83eb-b1ee-d8a6abc5041f"
+  },
+  "policy_review": {
+    "project_skill": "/Users/diplomat/ytvideos/.agents/skills/ytv-video-packaging/SKILL.md",
+    "upload_skill": "/Users/diplomat/.codex/skills/youtube-upload/SKILL.md",
+    "release_skill": "/Users/diplomat/ytvideos/.agents/skills/ytv-youtube-release/SKILL.md",
+    "paper_playlist_registry": "channels/paper_detour/docs/YOUTUBE_PLAYLISTS.md",
+    "paper_examples": [
+      "channels/paper_detour/videos/004_last_video/Packaging/Metadata/004_en_last_video_v5_20261101_youtube.json",
+      "channels/paper_detour/videos/001_radio_game/UPLOAD_READY.md"
+    ]
+  },
+  "external_state": "Uploaded to Paper Detour as Private. Title, description, hashtags, separate tags, thumbnail, language, category, audience and access were verified in Studio. Not publicly published.",
+  "review_notes": {
+    "phone_preview": "Viewed at 360x640; question remains legible and main collage is visible.",
+    "safe_area_preview": "Centered 2:3 crop retains the question and all expressions, while trimming some top-row hair and lower portrait edges.",
+    "studio_card_preview": "Verified in the saved Studio card; the user-selected v04 collage thumbnail is visible.",
+    "youtube_checks": {
+      "copyright": "Studio reported no mismatches.",
+      "community_guidelines": "Upload wizard showed the check in progress with an estimated four minutes remaining. After saving, the video row showed no notification, but Studio did not expose an explicit final community-check result during this session."
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "valid": true,
+  "errors": [],
+  "characters": 1106,
+  "utf8_bytes": 1106,
+  "protected_blocks": [
+    {
+      "label": "historical illustration disclosure",
+      "expected": 1,
+      "actual": 1,
+      "sha256": "3a4b1adde6f546995a01e3fa8dc82a18dd8c7495dd6481d0a1d6c97c99eeaea5"
+    },
+    {
+      "label": "accepted chapter block",
+      "expected": 1,
+      "actual": 1,
+      "sha256": "2d64c4db4129367d673742ece684ed897b540ba52e17f47cc849b6e41d6f3820"
+    },
+    {
+      "label": "complete hashtags block",
+      "expected": 1,
+      "actual": 1,
+      "sha256": "f7cc671d25c596138d27909eac01f58e1709b5456207c08333934175505b15ed"
+    }
+  ],
+  "limits": "Mechanical checks only: no factual, timing, URL, media or live-display validation."
+}

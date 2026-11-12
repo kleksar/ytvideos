@@ -1,0 +1,36 @@
+{
+  "status": "FAIL",
+  "checks": {
+    "skills_unique": 14,
+    "roles_parsed": 14,
+    "archive_checksums": 25,
+    "cleanup_archive_checksums": 100,
+    "original_lines_accounted": 229,
+    "episode_status_destinations": 19,
+    "episodes_indexed": 39,
+    "channels_unverified": 3,
+    "entrypoints_bootstrapped": 44,
+    "native_discovery_cwds_passed": 44,
+    "current_rules_checked": 104,
+    "local_links_checked": 732,
+    "root_bytes": 12494
+  },
+  "errors": [
+    "Generic youtube-upload changed during migration",
+    "Lost state source: new_channel/videos/028_taj_mahal",
+    "Missing episode record: new_channel/videos/030_clothing_history/Source/Images/v03_paper_diorama/frames_v03",
+    "Missing episode record: new_channel/videos/030_clothing_history/Source/Images/v03_paper_diorama/selected_v03",
+    "Missing state_sources record: new_channel/videos/030_clothing_history/Source/Images/v03_paper_diorama/frames_v03",
+    "Missing state_sources record: new_channel/videos/030_clothing_history/Source/Images/v03_paper_diorama/selected_v03",
+    "Missing scoped context history: new_channel/videos/030_clothing_history",
+    "Lost state source: new_channel/videos/030_clothing_history",
+    "Lost state source: new_channel/videos/031_jascon4_okene",
+    "Lost state source: stories/videos/017_galveston_1900",
+    "Wrong channel router: new_channel/videos/028_taj_mahal",
+    "Wrong channel router: new_channel/videos/031_jascon4_okene",
+    "Wrong channel router: new_channel/videos/032_galveston_1900",
+    "Retired production workflow in active rules: /Users/diplomat/ytvideos/new_channel/AGENTS.md",
+    "Retired production workflow in active rules: /Users/diplomat/ytvideos/new_channel/brand/THUMBNAIL_PLAYBOOK.md",
+    "Root AGENTS exceeds instruction budget"
+  ]
+}

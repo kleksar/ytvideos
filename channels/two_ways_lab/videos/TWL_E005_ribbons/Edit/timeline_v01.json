@@ -1,0 +1,419 @@
+{
+  "channel": "two_ways_lab",
+  "format": "short",
+  "fps": 30,
+  "canvas": [
+    1080,
+    1920
+  ],
+  "source_transfer": "srgb",
+  "audio": "../Source/Audio/v01/mix.wav",
+  "audio_contract": {
+    "final_audio_sha256": "442fe266e21813cfc5f837827e7f0d25033dcc4eb9d5e78b5f87538c1b418017",
+    "applied_speed": 1.0,
+    "speed_evidence": "../Source/Audio/v01/mix-evidence.md"
+  },
+  "scenes": [
+    {
+      "image": "../Source/Images/v01/hook.png",
+      "start_frame": 0,
+      "end_frame": 63,
+      "direction": "none",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "hook",
+        "reason": "Consistent complete gift-wrapping state",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        }
+      }
+    },
+    {
+      "image": "../Source/Images/v01/introduce.png",
+      "start_frame": 63,
+      "end_frame": 203,
+      "direction": "none",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "introduce",
+        "reason": "Consistent complete gift-wrapping state",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        }
+      }
+    },
+    {
+      "image": "../Source/Images/v01/point.png",
+      "start_frame": 203,
+      "end_frame": 375,
+      "direction": "none",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "point",
+        "reason": "Consistent complete gift-wrapping state",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        }
+      }
+    },
+    {
+      "image": "../Source/Images/v01/first_cut_v2.png",
+      "start_frame": 375,
+      "end_frame": 595,
+      "direction": "none",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "first_cut_v2",
+        "reason": "Consistent complete gift-wrapping state",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        }
+      }
+    },
+    {
+      "image": "../Source/Images/v01/bad_result.png",
+      "start_frame": 595,
+      "end_frame": 875,
+      "direction": "none",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "bad_result",
+        "reason": "Consistent complete gift-wrapping state",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        }
+      }
+    },
+    {
+      "image": "../Source/Images/v01/hook.png",
+      "start_frame": 875,
+      "end_frame": 938,
+      "direction": "none",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "hook",
+        "reason": "Consistent complete gift-wrapping state",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        }
+      }
+    },
+    {
+      "image": "../Source/Images/v01/smart_first.png",
+      "start_frame": 938,
+      "end_frame": 1067,
+      "direction": "none",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "smart_first",
+        "reason": "Consistent complete gift-wrapping state",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        }
+      }
+    },
+    {
+      "image": "../Source/Images/v01/smart_first.png",
+      "start_frame": 1067,
+      "end_frame": 1213,
+      "direction": "none",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "smart_first",
+        "reason": "Consistent complete gift-wrapping state",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        }
+      }
+    },
+    {
+      "image": "../Source/Images/v01/success_v2.png",
+      "start_frame": 1213,
+      "end_frame": 1313,
+      "direction": "none",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "success_v2",
+        "reason": "Consistent complete gift-wrapping state",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        }
+      }
+    },
+    {
+      "image": "../Source/Images/v01/success_v2.png",
+      "start_frame": 1313,
+      "end_frame": 1427,
+      "direction": "none",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "success_v2",
+        "reason": "Consistent complete gift-wrapping state",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        }
+      }
+    },
+    {
+      "image": "../Source/Images/v01/point.png",
+      "start_frame": 1427,
+      "end_frame": 1559,
+      "direction": "none",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "point",
+        "reason": "Consistent complete gift-wrapping state",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        }
+      }
+    },
+    {
+      "image": "../Source/Images/v01/hook.png",
+      "start_frame": 1559,
+      "end_frame": 1615,
+      "direction": "none",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "hook",
+        "reason": "Consistent complete gift-wrapping state",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        }
+      }
+    }
+  ],
+  "overlays": [],
+  "subtitles": {
+    "mode": "words",
+    "transcript": "../Source/Audio/v01/narration.txt",
+    "words": "../Source/Audio/v01/word_times.json",
+    "phrases": [
+      "Three gifts and two rolls",
+      "of ribbon.",
+      "Can you wrap them all?",
+      "The big gift needs four meters.",
+      "Each small one needs three.",
+      "One roll has six meters,",
+      "the other has four.",
+      "That's ten meters altogether.",
+      "Surely that's enough!",
+      "You take the big roll",
+      "and cut four meters",
+      "for the big gift.",
+      "Two meters left.",
+      "Then you cut three meters",
+      "from the other roll",
+      "for a small gift.",
+      "One meter left.",
+      "Two gifts are ready.",
+      "But the last one needs",
+      "a single three-meter piece.",
+      "You only have two meters",
+      "and one meter left,",
+      "and you can't tie",
+      "the pieces together.",
+      "Did you run out of ribbon?",
+      "Let's try again.",
+      "For the big gift,",
+      "use the short roll.",
+      "It has exactly four meters.",
+      "Now split the long roll",
+      "in half:",
+      "two three-meter pieces,",
+      "one for each small gift.",
+      "Done!",
+      "All three gifts are wrapped,",
+      "and there's no ribbon left.",
+      "Next time, before you cut,",
+      "check which pieces fit",
+      "on each roll.",
+      "Having enough ribbon in total",
+      "isn't always enough.",
+      "It matters how you divide it.",
+      "What would you do",
+      "if you had..."
+    ]
+  },
+  "minimum_scene_frames": 45
+}

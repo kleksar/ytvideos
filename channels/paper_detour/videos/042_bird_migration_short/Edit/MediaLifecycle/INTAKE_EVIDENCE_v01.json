@@ -1,0 +1,36 @@
+{
+  "type": "source_intake_process_evidence",
+  "episode": "channels/paper_detour/videos/042_bird_migration_short",
+  "source": "Source/Original/source_video.mp4",
+  "source_sha256": "75d6e28963a30e970f5661d3520ee3a6648eaefc7559dbf726012d08591a1c97",
+  "source_probe": {
+    "duration_seconds": 77.647528,
+    "video": {
+      "codec": "h264",
+      "width": 720,
+      "height": 1280,
+      "fps": "30/1"
+    },
+    "audio": {
+      "codec": "aac",
+      "sample_rate": 44100,
+      "channels": 2
+    }
+  },
+  "derived_scratch": {
+    "contact_sheet": "Work/source-intake-v01/scratch/source_contact_sheet.jpg",
+    "contact_sheet_method": "ffmpeg fps=1/5,scale=180:320,tile=4x4; full source span sampled; inspected by coordinator as contact sheet only",
+    "transcription": [
+      {
+        "directory": "Work/source-intake-v01/scratch/asr",
+        "model": "base.en"
+      },
+      {
+        "directory": "Work/source-intake-v01/scratch/asr_v02",
+        "model": "large-v3-turbo"
+      }
+    ],
+    "method": "Local OpenAI Whisper CLI, English transcription, word timestamp option enabled; outputs are machine drafts. No human listening/transcription verification claimed."
+  },
+  "disposition": "Episode-owned source_video.mp4 copy and derived image/ASR scratch retired after confirmed Public release under user instruction; source record/transcript text retained. Original file in Downloads remains unchanged."
+}

@@ -1,0 +1,110 @@
+{
+  "phone_width_px": 360,
+  "method": "Decoded first/last grayscale texture patch matching; source affine endpoint predictions. Interior features only; no overlay or captions.",
+  "scenes": [
+    {
+      "scene": "S001",
+      "sample_frames": [
+        0,
+        138
+      ],
+      "matches": 17,
+      "median_endpoint_error_px": 0.47279715165604874,
+      "visible_midline_translation_x_px": 0.0757052015620023,
+      "visible_scale_ratio": 1.0342602314689193,
+      "requested_direction": "none",
+      "requested_zoom": "in"
+    },
+    {
+      "scene": "S002",
+      "sample_frames": [
+        139,
+        279
+      ],
+      "matches": 20,
+      "median_endpoint_error_px": 0.35595577632430914,
+      "visible_midline_translation_x_px": 6.58183901236502,
+      "visible_scale_ratio": 0.9670739379814978,
+      "requested_direction": "left_to_right",
+      "requested_zoom": "out"
+    },
+    {
+      "scene": "S003",
+      "sample_frames": [
+        280,
+        399
+      ],
+      "matches": 16,
+      "median_endpoint_error_px": 0.18928000000000367,
+      "visible_midline_translation_x_px": -8.000000000000002,
+      "visible_scale_ratio": 1.0,
+      "requested_direction": "right_to_left",
+      "requested_zoom": "none"
+    },
+    {
+      "scene": "S004",
+      "sample_frames": [
+        400,
+        520
+      ],
+      "matches": 21,
+      "median_endpoint_error_px": 0.5781300387741602,
+      "visible_midline_translation_x_px": 0.028540871610264307,
+      "visible_scale_ratio": 1.011987166076311,
+      "requested_direction": "none",
+      "requested_zoom": "in"
+    },
+    {
+      "scene": "S005",
+      "sample_frames": [
+        521,
+        682
+      ],
+      "matches": 21,
+      "median_endpoint_error_px": 0.2769527593662685,
+      "visible_midline_translation_x_px": 5.0562769862703565,
+      "visible_scale_ratio": 0.9814593204715624,
+      "requested_direction": "left_to_right",
+      "requested_zoom": "out"
+    },
+    {
+      "scene": "S006",
+      "sample_frames": [
+        683,
+        803
+      ],
+      "matches": 16,
+      "median_endpoint_error_px": 0.4065578140908507,
+      "visible_midline_translation_x_px": -0.05700558417481419,
+      "visible_scale_ratio": 1.043955326601487,
+      "requested_direction": "none",
+      "requested_zoom": "in"
+    },
+    {
+      "scene": "S007",
+      "sample_frames": [
+        804,
+        923
+      ],
+      "matches": 21,
+      "median_endpoint_error_px": 0.41071999999999775,
+      "visible_midline_translation_x_px": -3.999999999999998,
+      "visible_scale_ratio": 1.0,
+      "requested_direction": "right_to_left",
+      "requested_zoom": "none"
+    },
+    {
+      "scene": "S008",
+      "sample_frames": [
+        924,
+        1079
+      ],
+      "matches": 19,
+      "median_endpoint_error_px": 0.19150991105456514,
+      "visible_midline_translation_x_px": 0.079677389652026,
+      "visible_scale_ratio": 0.97027740806777,
+      "requested_direction": "none",
+      "requested_zoom": "out"
+    }
+  ]
+}

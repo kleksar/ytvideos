@@ -1,0 +1,252 @@
+{
+  "file": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Deliverables/Its-Like-Im-Not-Even-Here-review-v04.mp4",
+  "sha256": "fec699d70a329e726aa38fd18863c0a88e0fddcd7068193b630e92dd8399ead4",
+  "duration_seconds": 15.9,
+  "frames": 477,
+  "fps": 30,
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "full_decode": "PASS",
+  "audio_packet_identity": "PASS",
+  "accent_frames": [
+    85,
+    146,
+    207,
+    268,
+    329,
+    390,
+    451
+  ],
+  "frame_minus_attack_ms": [
+    4.76,
+    2.72,
+    5.67,
+    1.13,
+    6.58,
+    4.54,
+    2.49
+  ],
+  "transition_sample_frames": [
+    82,
+    84,
+    85,
+    87,
+    90,
+    143,
+    145,
+    146,
+    148,
+    151,
+    204,
+    206,
+    207,
+    209,
+    212,
+    265,
+    267,
+    268,
+    270,
+    273,
+    326,
+    328,
+    329,
+    331,
+    334,
+    387,
+    389,
+    390,
+    392,
+    395,
+    448,
+    450,
+    451,
+    453,
+    456
+  ],
+  "motion_sample_frames": [
+    0,
+    42,
+    82,
+    90,
+    115,
+    143,
+    151,
+    176,
+    204,
+    212,
+    237,
+    265,
+    273,
+    298,
+    326,
+    334,
+    359,
+    387,
+    395,
+    420,
+    448,
+    456,
+    464,
+    476
+  ],
+  "caption_sample_frames": [
+    28,
+    55,
+    179
+  ],
+  "visual_inspection": "PASS",
+  "continuous_playback": "UNVERIFIED",
+  "subjective_audio_listening": "UNVERIFIED",
+  "caption_status": "existing timed lyrics",
+  "estimated_scale_samples": [
+    {
+      "frame": 0,
+      "expected": 0.95,
+      "estimated": 0.95,
+      "feature_match": 0.967
+    },
+    {
+      "frame": 42,
+      "expected": 0.9974,
+      "estimated": 1.0,
+      "feature_match": 0.967
+    },
+    {
+      "frame": 82,
+      "expected": 1.0448,
+      "estimated": 1.045,
+      "feature_match": 0.961
+    },
+    {
+      "frame": 90,
+      "expected": 1.0416,
+      "estimated": 1.0425,
+      "feature_match": 0.956
+    },
+    {
+      "frame": 115,
+      "expected": 1.0017,
+      "estimated": 1.0025,
+      "feature_match": 0.968
+    },
+    {
+      "frame": 143,
+      "expected": 0.9571,
+      "estimated": 0.9575,
+      "feature_match": 0.954
+    },
+    {
+      "frame": 151,
+      "expected": 0.9584,
+      "estimated": 0.9575,
+      "feature_match": 0.945
+    },
+    {
+      "frame": 176,
+      "expected": 0.9983,
+      "estimated": 0.9975,
+      "feature_match": 0.919
+    },
+    {
+      "frame": 204,
+      "expected": 1.0429,
+      "estimated": 1.0425,
+      "feature_match": 0.964
+    },
+    {
+      "frame": 212,
+      "expected": 1.0416,
+      "estimated": 1.0425,
+      "feature_match": 0.921
+    },
+    {
+      "frame": 237,
+      "expected": 1.0017,
+      "estimated": 1.0025,
+      "feature_match": 0.94
+    },
+    {
+      "frame": 265,
+      "expected": 0.9571,
+      "estimated": 0.9575,
+      "feature_match": 0.92
+    },
+    {
+      "frame": 273,
+      "expected": 0.9584,
+      "estimated": 0.96,
+      "feature_match": 0.963
+    },
+    {
+      "frame": 298,
+      "expected": 0.9983,
+      "estimated": 1.0,
+      "feature_match": 0.939
+    },
+    {
+      "frame": 326,
+      "expected": 1.0429,
+      "estimated": 1.0425,
+      "feature_match": 0.969
+    },
+    {
+      "frame": 334,
+      "expected": 1.0416,
+      "estimated": 1.0425,
+      "feature_match": 0.95
+    },
+    {
+      "frame": 359,
+      "expected": 1.0017,
+      "estimated": 1.0025,
+      "feature_match": 0.965
+    },
+    {
+      "frame": 387,
+      "expected": 0.9571,
+      "estimated": 0.96,
+      "feature_match": 0.957
+    },
+    {
+      "frame": 395,
+      "expected": 0.9584,
+      "estimated": 0.9575,
+      "feature_match": 0.963
+    },
+    {
+      "frame": 420,
+      "expected": 0.9983,
+      "estimated": 0.9975,
+      "feature_match": 0.945
+    },
+    {
+      "frame": 448,
+      "expected": 1.0429,
+      "estimated": 1.0425,
+      "feature_match": 0.974
+    },
+    {
+      "frame": 456,
+      "expected": 1.0268,
+      "estimated": 1.0225,
+      "feature_match": 0.962
+    },
+    {
+      "frame": 464,
+      "expected": 0.9936,
+      "estimated": 0.9925,
+      "feature_match": 0.976
+    },
+    {
+      "frame": 476,
+      "expected": 0.95,
+      "estimated": 0.95,
+      "feature_match": 0.985
+    }
+  ],
+  "motion_estimate": "PASS",
+  "visual_coverage": "Inspected five frames around every accent, three frames in every shot, and full-resolution details from the existing lyric mask. The new shot predominates at the accent, with both brightness and blur visible. Edges of lyric strokes appear soft.",
+  "motion_evidence": "Estimated magnification from image texture by matching exact exported frames to corresponding source frames. Each shot moved in its intended direction; error was under 0.5 percentage point at all sampled frames."
+}

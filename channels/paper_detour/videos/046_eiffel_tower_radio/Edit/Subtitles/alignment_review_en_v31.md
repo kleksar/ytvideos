@@ -1,0 +1,9 @@
+# Paper 046 EN v31 word alignment
+
+Retained recording: `Source/Voice/en_v31/voice_en.mp3`, SHA-256 `f8fccc9f54559f2d293770f10f5eeee3619f6ff71eb7cf6a92aaf3ddd6659298`. Lawrence, ElevenLabs v4, mono MP3 44.1 kHz. Voice-only mix; no audio edit, sound layers, volume normalization, new pause, or second speed adjustment. The provider applied 1.10×. Measured container duration 114.240 s; final picture plan is 3428/30 s.
+
+`Edit/Subtitles/word_timings_en_v31_source.json` is the provider character-map conversion. `Edit/Subtitles/word_timings_en_v31_review.json` uses WhisperX forced alignment on the same retained recording and exact English transcript. Both have the 288 literal tokens in order. The forced map has nonoverlapping positive intervals, distinct 30 fps onset frames and final word end 113.980 s. Its trimmed-transcript SHA-256 is `344056eb29b79041ed36a2c07d4b49d885561a47dda645c472422babd81b313b`. Use the forced map for the review timing estimate because it aligns the transcript against the emitted waveform and has the complete token coverage. A single constant offset would not explain the observed local differences. No timings were changed to silence boundaries.
+
+Median signed onset difference +0.001 s (forced minus provider); median absolute 0.028 s. Twenty onsets differ by more than 0.150 s. Some differences are the tokens immediately after spoken years: after 1889 +0.565 s, 1909 +0.417 s, 1903 +0.411 s, 1899 +0.388 s. These figures compare two models; actual speech sync and pronunciation remain UNVERIFIED. Playback could not be assessed in this runtime.
+
+The separate review SRT is aligned to this map. The strict serializer verified 32 cues, literal coverage and nonoverlap. The optional 24 characters/second heuristic has one warning at cue 7 (24.49). Mapping to actual spoken onsets and playback remain UNVERIFIED.

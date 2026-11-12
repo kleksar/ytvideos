@@ -1,0 +1,3 @@
+# Rebuild playlist plan
+
+Read-only YouTube API inventory at upload-recovery session, exact channel ID `UCbyLx6Rf3iWww4bPZJ2oo2A`: `History Documentaries` (`PLCtiNAU_98r0`, public, 11 items) and `History Shorts` (`PLKSiGuBn-cAE`, private, 3 items). Full playlist pages were fetched. `History Documentaries` contains the existing public Brest Fortress film `1Zxdf06ckhA` and ten other documentary videos. The rebuilt long documentary belongs in this existing playlist. Add the new video only after upload, preserve old video and playlist visibility, verify membership by video ID, do not duplicate an unknown insertion. The private access of the new video remains independent of public playlist visibility.

@@ -1,0 +1,870 @@
+{
+  "created_utc": "2026-11-05T17:30:04.845813+00:00",
+  "media": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Deliverables/048_appert_food_preservation_review_v05.mp4",
+  "plan": {
+    "frame_count": 5196,
+    "fps": "30/1",
+    "required_review_checks": [
+      "stream_metadata",
+      "full_decode",
+      "frame_sampling",
+      "motion_framing",
+      "cue_timing",
+      "audio_signal",
+      "subjective_audio_listening"
+    ],
+    "freshness": {
+      "status": "UNVERIFIED",
+      "evidence": "Final export provenance to be reconciled."
+    },
+    "expected": {
+      "video": {
+        "width": 2560,
+        "height": 1440,
+        "codec_name": "h264",
+        "pix_fmt": "yuv420p",
+        "color_space": "bt709"
+      },
+      "audio": {
+        "required": true,
+        "codec_name": "aac",
+        "channels": 1,
+        "sample_rate": 44100
+      }
+    },
+    "scenes": [
+      {
+        "id": "S01_v02",
+        "start": 0,
+        "end": 169
+      },
+      {
+        "id": "S02_v03",
+        "start": 169,
+        "end": 320
+      },
+      {
+        "id": "S03_v01",
+        "start": 320,
+        "end": 481
+      },
+      {
+        "id": "S04_v01",
+        "start": 481,
+        "end": 649
+      },
+      {
+        "id": "S05_v01",
+        "start": 649,
+        "end": 805
+      },
+      {
+        "id": "S06_v02",
+        "start": 805,
+        "end": 965
+      },
+      {
+        "id": "S07_v01",
+        "start": 965,
+        "end": 1120
+      },
+      {
+        "id": "S08_v01",
+        "start": 1120,
+        "end": 1285
+      },
+      {
+        "id": "S09_v01",
+        "start": 1285,
+        "end": 1458
+      },
+      {
+        "id": "S10_v02",
+        "start": 1458,
+        "end": 1616
+      },
+      {
+        "id": "S11_v03",
+        "start": 1616,
+        "end": 1781
+      },
+      {
+        "id": "S12_v01",
+        "start": 1781,
+        "end": 1944
+      },
+      {
+        "id": "S13_v02",
+        "start": 1944,
+        "end": 2104
+      },
+      {
+        "id": "S14_v01",
+        "start": 2104,
+        "end": 2270
+      },
+      {
+        "id": "S15_v01",
+        "start": 2270,
+        "end": 2440
+      },
+      {
+        "id": "S16_v01",
+        "start": 2440,
+        "end": 2599
+      },
+      {
+        "id": "S17_v01",
+        "start": 2599,
+        "end": 2764
+      },
+      {
+        "id": "S18_v01",
+        "start": 2764,
+        "end": 2927
+      },
+      {
+        "id": "S19_v01",
+        "start": 2927,
+        "end": 3090
+      },
+      {
+        "id": "S20_v01",
+        "start": 3090,
+        "end": 3251
+      },
+      {
+        "id": "S21_v02",
+        "start": 3251,
+        "end": 3421
+      },
+      {
+        "id": "S22_v04",
+        "start": 3421,
+        "end": 3589
+      },
+      {
+        "id": "S23_v02",
+        "start": 3589,
+        "end": 3757
+      },
+      {
+        "id": "S24_v02",
+        "start": 3757,
+        "end": 3920
+      },
+      {
+        "id": "S25_v01",
+        "start": 3920,
+        "end": 4086
+      },
+      {
+        "id": "S26_v02",
+        "start": 4086,
+        "end": 4249
+      },
+      {
+        "id": "S27_v03",
+        "start": 4249,
+        "end": 4409
+      },
+      {
+        "id": "S28_v02",
+        "start": 4409,
+        "end": 4579
+      },
+      {
+        "id": "S29_v01",
+        "start": 4579,
+        "end": 4739
+      },
+      {
+        "id": "S30_v02",
+        "start": 4739,
+        "end": 4896
+      },
+      {
+        "id": "E02_v01",
+        "start": 4896,
+        "end": 5196
+      }
+    ],
+    "extra_frames": [
+      1500,
+      3450,
+      4500,
+      4895,
+      4896,
+      5045,
+      5046,
+      5195
+    ]
+  },
+  "policy_failures": [],
+  "failures": [],
+  "reported_freshness": {
+    "status": "UNVERIFIED",
+    "evidence": "Final export provenance to be reconciled."
+  },
+  "checks": {
+    "stream_metadata": "PASS",
+    "full_decode": "PASS",
+    "frame_extraction": "PASS",
+    "frame_sampling": "UNVERIFIED",
+    "motion_framing": "UNVERIFIED",
+    "cue_timing": "UNVERIFIED",
+    "audio_signal": "UNVERIFIED",
+    "subjective_audio_listening": "UNVERIFIED",
+    "independent_review": "UNVERIFIED"
+  },
+  "inspected_frame_indices": [],
+  "requested_frame_indices": [
+    0,
+    84,
+    168,
+    169,
+    244,
+    319,
+    320,
+    400,
+    480,
+    481,
+    564,
+    648,
+    649,
+    726,
+    804,
+    805,
+    884,
+    964,
+    965,
+    1042,
+    1119,
+    1120,
+    1202,
+    1284,
+    1285,
+    1371,
+    1457,
+    1458,
+    1500,
+    1536,
+    1615,
+    1616,
+    1698,
+    1780,
+    1781,
+    1862,
+    1943,
+    1944,
+    2023,
+    2103,
+    2104,
+    2186,
+    2269,
+    2270,
+    2354,
+    2439,
+    2440,
+    2519,
+    2598,
+    2599,
+    2681,
+    2763,
+    2764,
+    2845,
+    2926,
+    2927,
+    3008,
+    3089,
+    3090,
+    3170,
+    3250,
+    3251,
+    3335,
+    3420,
+    3421,
+    3450,
+    3504,
+    3588,
+    3589,
+    3672,
+    3756,
+    3757,
+    3838,
+    3919,
+    3920,
+    4002,
+    4085,
+    4086,
+    4167,
+    4248,
+    4249,
+    4328,
+    4408,
+    4409,
+    4493,
+    4500,
+    4578,
+    4579,
+    4658,
+    4738,
+    4739,
+    4817,
+    4895,
+    4896,
+    5045,
+    5046,
+    5195
+  ],
+  "sha256": "8df52ada637e81e5537fbe48f0f4cddeebc2021884e0459ffdf4d529488f1bd4",
+  "streams": [
+    {
+      "index": 0,
+      "codec_name": "h264",
+      "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+      "profile": "High",
+      "codec_type": "video",
+      "codec_tag_string": "avc1",
+      "codec_tag": "0x31637661",
+      "mime_codec_string": "avc1.640032",
+      "width": 2560,
+      "height": 1440,
+      "coded_width": 2560,
+      "coded_height": 1440,
+      "has_b_frames": 0,
+      "sample_aspect_ratio": "1:1",
+      "display_aspect_ratio": "16:9",
+      "pix_fmt": "yuv420p",
+      "level": 50,
+      "color_range": "tv",
+      "color_space": "bt709",
+      "color_transfer": "bt709",
+      "color_primaries": "bt709",
+      "chroma_location": "left",
+      "field_order": "progressive",
+      "is_avc": "true",
+      "nal_length_size": "4",
+      "id": "0x1",
+      "r_frame_rate": "30/1",
+      "avg_frame_rate": "30/1",
+      "time_base": "1/15360",
+      "start_pts": 0,
+      "start_time": "0.000000",
+      "duration_ts": 2660352,
+      "duration": "173.200000",
+      "bit_rate": "20083611",
+      "bits_per_raw_sample": "8",
+      "nb_frames": "5196",
+      "extradata_size": 35,
+      "disposition": {
+        "default": 1,
+        "dub": 0,
+        "original": 0,
+        "comment": 0,
+        "lyrics": 0,
+        "karaoke": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "visual_impaired": 0,
+        "clean_effects": 0,
+        "attached_pic": 0,
+        "timed_thumbnails": 0,
+        "non_diegetic": 0,
+        "captions": 0,
+        "descriptions": 0,
+        "metadata": 0,
+        "dependent": 0,
+        "still_image": 0,
+        "multilayer": 0
+      },
+      "tags": {
+        "language": "und",
+        "handler_name": "VideoHandler",
+        "encoder": "Lavc62.28.102 h264_videotoolbox"
+      }
+    },
+    {
+      "index": 1,
+      "codec_name": "aac",
+      "codec_long_name": "AAC (Advanced Audio Coding)",
+      "profile": "LC",
+      "codec_type": "audio",
+      "codec_tag_string": "mp4a",
+      "codec_tag": "0x6134706d",
+      "mime_codec_string": "mp4a.40.2",
+      "sample_fmt": "fltp",
+      "sample_rate": "44100",
+      "channels": 1,
+      "channel_layout": "mono",
+      "bits_per_sample": 0,
+      "initial_padding": 0,
+      "id": "0x2",
+      "r_frame_rate": "0/0",
+      "avg_frame_rate": "0/0",
+      "time_base": "1/44100",
+      "start_pts": 0,
+      "start_time": "0.000000",
+      "duration_ts": 7638120,
+      "duration": "173.200000",
+      "bit_rate": "175116",
+      "nb_frames": "7461",
+      "extradata_size": 5,
+      "disposition": {
+        "default": 1,
+        "dub": 0,
+        "original": 0,
+        "comment": 0,
+        "lyrics": 0,
+        "karaoke": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "visual_impaired": 0,
+        "clean_effects": 0,
+        "attached_pic": 0,
+        "timed_thumbnails": 0,
+        "non_diegetic": 0,
+        "captions": 0,
+        "descriptions": 0,
+        "metadata": 0,
+        "dependent": 0,
+        "still_image": 0,
+        "multilayer": 0
+      },
+      "tags": {
+        "language": "und",
+        "handler_name": "SoundHandler"
+      }
+    }
+  ],
+  "decoded_video_frames": 5196,
+  "audio_measurements": {
+    "stream": "0:a:0",
+    "method": "sample levels and silence candidates; not listening",
+    "mean_dbfs": [
+      "-25.1"
+    ],
+    "sample_peak_dbfs": [
+      "-4.4"
+    ],
+    "silence_candidate_threshold_dbfs": -50,
+    "minimum_silence_seconds": 0.25
+  },
+  "audio_analysis_execution": "PASS",
+  "frame_recipe": {
+    "argv": [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-xerror",
+      "-i",
+      "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Deliverables/048_appert_food_preservation_review_v05.mp4",
+      "-map",
+      "0:v:0",
+      "-vf",
+      "select=(((((((eq(n\\,0)+eq(n\\,84))+(eq(n\\,168)+eq(n\\,169)))+((eq(n\\,244)+eq(n\\,319))+(eq(n\\,320)+eq(n\\,400))))+(((eq(n\\,480)+eq(n\\,481))+(eq(n\\,564)+eq(n\\,648)))+((eq(n\\,649)+eq(n\\,726))+(eq(n\\,804)+eq(n\\,805)))))+((((eq(n\\,884)+eq(n\\,964))+(eq(n\\,965)+eq(n\\,1042)))+((eq(n\\,1119)+eq(n\\,1120))+(eq(n\\,1202)+eq(n\\,1284))))+(((eq(n\\,1285)+eq(n\\,1371))+(eq(n\\,1457)+eq(n\\,1458)))+((eq(n\\,1500)+eq(n\\,1536))+(eq(n\\,1615)+eq(n\\,1616))))))+(((((eq(n\\,1698)+eq(n\\,1780))+(eq(n\\,1781)+eq(n\\,1862)))+((eq(n\\,1943)+eq(n\\,1944))+(eq(n\\,2023)+eq(n\\,2103))))+(((eq(n\\,2104)+eq(n\\,2186))+(eq(n\\,2269)+eq(n\\,2270)))+((eq(n\\,2354)+eq(n\\,2439))+(eq(n\\,2440)+eq(n\\,2519)))))+((((eq(n\\,2598)+eq(n\\,2599))+(eq(n\\,2681)+eq(n\\,2763)))+((eq(n\\,2764)+eq(n\\,2845))+(eq(n\\,2926)+eq(n\\,2927))))+(((eq(n\\,3008)+eq(n\\,3089))+(eq(n\\,3090)+eq(n\\,3170)))+((eq(n\\,3250)+eq(n\\,3251))+(eq(n\\,3335)+eq(n\\,3420)))))))+((((((eq(n\\,3421)+eq(n\\,3450))+(eq(n\\,3504)+eq(n\\,3588)))+((eq(n\\,3589)+eq(n\\,3672))+(eq(n\\,3756)+eq(n\\,3757))))+(((eq(n\\,3838)+eq(n\\,3919))+(eq(n\\,3920)+eq(n\\,4002)))+((eq(n\\,4085)+eq(n\\,4086))+(eq(n\\,4167)+eq(n\\,4248)))))+((((eq(n\\,4249)+eq(n\\,4328))+(eq(n\\,4408)+eq(n\\,4409)))+((eq(n\\,4493)+eq(n\\,4500))+(eq(n\\,4578)+eq(n\\,4579))))+(((eq(n\\,4658)+eq(n\\,4738))+(eq(n\\,4739)+eq(n\\,4817)))+((eq(n\\,4895)+eq(n\\,4896))+(eq(n\\,5045)+eq(n\\,5046))))))+eq(n\\,5195)))",
+      "-fps_mode",
+      "vfr",
+      "-start_number",
+      "0",
+      "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Work/qa-v05-pages-end/scratch/qa/%06d.png"
+    ],
+    "ffmpeg_version": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers",
+    "stream": "0:v:0",
+    "index_basis": "zero-based decoded video frame",
+    "fps": "30/1"
+  },
+  "frame_map": [
+    {
+      "index": 0,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000000.png"
+    },
+    {
+      "index": 84,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000001.png"
+    },
+    {
+      "index": 168,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000002.png"
+    },
+    {
+      "index": 169,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000003.png"
+    },
+    {
+      "index": 244,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000004.png"
+    },
+    {
+      "index": 319,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000005.png"
+    },
+    {
+      "index": 320,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000006.png"
+    },
+    {
+      "index": 400,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000007.png"
+    },
+    {
+      "index": 480,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000008.png"
+    },
+    {
+      "index": 481,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000009.png"
+    },
+    {
+      "index": 564,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000010.png"
+    },
+    {
+      "index": 648,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000011.png"
+    },
+    {
+      "index": 649,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000012.png"
+    },
+    {
+      "index": 726,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000013.png"
+    },
+    {
+      "index": 804,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000014.png"
+    },
+    {
+      "index": 805,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000015.png"
+    },
+    {
+      "index": 884,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000016.png"
+    },
+    {
+      "index": 964,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000017.png"
+    },
+    {
+      "index": 965,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000018.png"
+    },
+    {
+      "index": 1042,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000019.png"
+    },
+    {
+      "index": 1119,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000020.png"
+    },
+    {
+      "index": 1120,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000021.png"
+    },
+    {
+      "index": 1202,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000022.png"
+    },
+    {
+      "index": 1284,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000023.png"
+    },
+    {
+      "index": 1285,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000024.png"
+    },
+    {
+      "index": 1371,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000025.png"
+    },
+    {
+      "index": 1457,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000026.png"
+    },
+    {
+      "index": 1458,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000027.png"
+    },
+    {
+      "index": 1500,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000028.png"
+    },
+    {
+      "index": 1536,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000029.png"
+    },
+    {
+      "index": 1615,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000030.png"
+    },
+    {
+      "index": 1616,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000031.png"
+    },
+    {
+      "index": 1698,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000032.png"
+    },
+    {
+      "index": 1780,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000033.png"
+    },
+    {
+      "index": 1781,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000034.png"
+    },
+    {
+      "index": 1862,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000035.png"
+    },
+    {
+      "index": 1943,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000036.png"
+    },
+    {
+      "index": 1944,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000037.png"
+    },
+    {
+      "index": 2023,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000038.png"
+    },
+    {
+      "index": 2103,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000039.png"
+    },
+    {
+      "index": 2104,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000040.png"
+    },
+    {
+      "index": 2186,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000041.png"
+    },
+    {
+      "index": 2269,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000042.png"
+    },
+    {
+      "index": 2270,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000043.png"
+    },
+    {
+      "index": 2354,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000044.png"
+    },
+    {
+      "index": 2439,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000045.png"
+    },
+    {
+      "index": 2440,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000046.png"
+    },
+    {
+      "index": 2519,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000047.png"
+    },
+    {
+      "index": 2598,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000048.png"
+    },
+    {
+      "index": 2599,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000049.png"
+    },
+    {
+      "index": 2681,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000050.png"
+    },
+    {
+      "index": 2763,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000051.png"
+    },
+    {
+      "index": 2764,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000052.png"
+    },
+    {
+      "index": 2845,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000053.png"
+    },
+    {
+      "index": 2926,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000054.png"
+    },
+    {
+      "index": 2927,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000055.png"
+    },
+    {
+      "index": 3008,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000056.png"
+    },
+    {
+      "index": 3089,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000057.png"
+    },
+    {
+      "index": 3090,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000058.png"
+    },
+    {
+      "index": 3170,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000059.png"
+    },
+    {
+      "index": 3250,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000060.png"
+    },
+    {
+      "index": 3251,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000061.png"
+    },
+    {
+      "index": 3335,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000062.png"
+    },
+    {
+      "index": 3420,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000063.png"
+    },
+    {
+      "index": 3421,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000064.png"
+    },
+    {
+      "index": 3450,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000065.png"
+    },
+    {
+      "index": 3504,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000066.png"
+    },
+    {
+      "index": 3588,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000067.png"
+    },
+    {
+      "index": 3589,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000068.png"
+    },
+    {
+      "index": 3672,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000069.png"
+    },
+    {
+      "index": 3756,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000070.png"
+    },
+    {
+      "index": 3757,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000071.png"
+    },
+    {
+      "index": 3838,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000072.png"
+    },
+    {
+      "index": 3919,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000073.png"
+    },
+    {
+      "index": 3920,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000074.png"
+    },
+    {
+      "index": 4002,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000075.png"
+    },
+    {
+      "index": 4085,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000076.png"
+    },
+    {
+      "index": 4086,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000077.png"
+    },
+    {
+      "index": 4167,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000078.png"
+    },
+    {
+      "index": 4248,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000079.png"
+    },
+    {
+      "index": 4249,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000080.png"
+    },
+    {
+      "index": 4328,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000081.png"
+    },
+    {
+      "index": 4408,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000082.png"
+    },
+    {
+      "index": 4409,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000083.png"
+    },
+    {
+      "index": 4493,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000084.png"
+    },
+    {
+      "index": 4500,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000085.png"
+    },
+    {
+      "index": 4578,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000086.png"
+    },
+    {
+      "index": 4579,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000087.png"
+    },
+    {
+      "index": 4658,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000088.png"
+    },
+    {
+      "index": 4738,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000089.png"
+    },
+    {
+      "index": 4739,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000090.png"
+    },
+    {
+      "index": 4817,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000091.png"
+    },
+    {
+      "index": 4895,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000092.png"
+    },
+    {
+      "index": 4896,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000093.png"
+    },
+    {
+      "index": 5045,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000094.png"
+    },
+    {
+      "index": 5046,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000095.png"
+    },
+    {
+      "index": 5195,
+      "path": "../../../Work/qa-v05-pages-end/scratch/qa/000096.png"
+    }
+  ],
+  "frames_directory": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Work/qa-v05-pages-end/scratch/qa",
+  "technical_status": "PASS",
+  "verdict": "UNVERIFIED"
+}

@@ -1,0 +1,173 @@
+{
+  "structure": "PASS",
+  "text_coverage": "FAIL",
+  "timing_mapping": "UNVERIFIED",
+  "playback": "UNVERIFIED",
+  "readability": "N_A",
+  "limits": {},
+  "errors": [],
+  "warnings": [],
+  "cues": [
+    {
+      "cue": 1,
+      "lines": 1,
+      "longest_line": 36,
+      "duration_seconds": 3.1273,
+      "characters_per_second": 11.511527515748408
+    },
+    {
+      "cue": 2,
+      "lines": 1,
+      "longest_line": 33,
+      "duration_seconds": 1.4545,
+      "characters_per_second": 22.688209006531455
+    },
+    {
+      "cue": 3,
+      "lines": 1,
+      "longest_line": 27,
+      "duration_seconds": 1.9637,
+      "characters_per_second": 13.74955441258848
+    },
+    {
+      "cue": 4,
+      "lines": 1,
+      "longest_line": 37,
+      "duration_seconds": 2.0364,
+      "characters_per_second": 18.16931840502848
+    },
+    {
+      "cue": 5,
+      "lines": 1,
+      "longest_line": 42,
+      "duration_seconds": 2.5454,
+      "characters_per_second": 16.500353579005264
+    },
+    {
+      "cue": 6,
+      "lines": 1,
+      "longest_line": 27,
+      "duration_seconds": 2.0364,
+      "characters_per_second": 13.258691809074838
+    },
+    {
+      "cue": 7,
+      "lines": 1,
+      "longest_line": 30,
+      "duration_seconds": 1.9636,
+      "characters_per_second": 15.278060704827867
+    },
+    {
+      "cue": 8,
+      "lines": 1,
+      "longest_line": 31,
+      "duration_seconds": 2.0,
+      "characters_per_second": 15.5
+    },
+    {
+      "cue": 9,
+      "lines": 1,
+      "longest_line": 31,
+      "duration_seconds": 2.291,
+      "characters_per_second": 13.531209079004801
+    },
+    {
+      "cue": 10,
+      "lines": 1,
+      "longest_line": 25,
+      "duration_seconds": 1.2363,
+      "characters_per_second": 20.221629054436626
+    },
+    {
+      "cue": 11,
+      "lines": 1,
+      "longest_line": 25,
+      "duration_seconds": 1.6727,
+      "characters_per_second": 14.945895856997668
+    },
+    {
+      "cue": 12,
+      "lines": 1,
+      "longest_line": 28,
+      "duration_seconds": 1.7454,
+      "characters_per_second": 16.042167984416178
+    },
+    {
+      "cue": 13,
+      "lines": 1,
+      "longest_line": 29,
+      "duration_seconds": 1.2,
+      "characters_per_second": 24.166666666666668
+    },
+    {
+      "cue": 14,
+      "lines": 1,
+      "longest_line": 33,
+      "duration_seconds": 2.1818,
+      "characters_per_second": 15.125126042717023
+    },
+    {
+      "cue": 15,
+      "lines": 1,
+      "longest_line": 35,
+      "duration_seconds": 2.0363,
+      "characters_per_second": 17.18803712616019
+    },
+    {
+      "cue": 16,
+      "lines": 1,
+      "longest_line": 32,
+      "duration_seconds": 1.8909,
+      "characters_per_second": 16.92315828441483
+    },
+    {
+      "cue": 17,
+      "lines": 1,
+      "longest_line": 36,
+      "duration_seconds": 2.2182,
+      "characters_per_second": 16.22937516905599
+    },
+    {
+      "cue": 18,
+      "lines": 1,
+      "longest_line": 36,
+      "duration_seconds": 1.7091,
+      "characters_per_second": 21.0637177461822
+    },
+    {
+      "cue": 19,
+      "lines": 1,
+      "longest_line": 39,
+      "duration_seconds": 1.8909,
+      "characters_per_second": 20.625099159130574
+    },
+    {
+      "cue": 20,
+      "lines": 1,
+      "longest_line": 29,
+      "duration_seconds": 1.4182,
+      "characters_per_second": 20.448455789028348
+    },
+    {
+      "cue": 21,
+      "lines": 1,
+      "longest_line": 26,
+      "duration_seconds": 1.1272,
+      "characters_per_second": 23.066004258339248
+    }
+  ],
+  "limits_note": "Readability metrics do not verify semantic breaks, player layout or hearing sync.",
+  "timebase": "final",
+  "duration_seconds": "43",
+  "inputs": {
+    "text": {
+      "path": "channels/paper_detour/research/2026-11-06-pinatubo-short/narration_en_v01.txt",
+      "sha256": "d015950018bb99d56d472e25e237f8e9b8ddd49f56173d82e1e8ab3bd9789a70"
+    },
+    "build": {
+      "path": "channels/paper_detour/research/2026-11-06-pinatubo-short/srt_cues_v01.json",
+      "sha256": "0ef52c3a0ca057a287a2c98ddeb8cdaf852d085421bb892a5682af93fbb950e2"
+    }
+  },
+  "result": "FAIL"
+}

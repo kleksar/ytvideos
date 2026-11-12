@@ -1,0 +1,15 @@
+{
+  "voice_reference": {
+    "provider": "ElevenLabs",
+    "voice_id": "ZEchI3lWet1JsdNubYRY",
+    "model_label": "Eleven v4",
+    "stability_slider": "right endpoint (Robust)",
+    "similarity_slider": "left endpoint (Low)",
+    "clone_strength_slider": "left endpoint (Low)",
+    "language": "auto",
+    "output": "MP3 44.1 kHz 128 kbps",
+    "note": "Values are the visible screenshot settings; mapping to API parameters must be verified. Audio effects were collapsed."
+  },
+  "video": {"width": 1080, "height": 1920, "fps": 30},
+  "youtube": {"initial_visibility": "private", "ru_channel": null, "en_channel": null}
+}

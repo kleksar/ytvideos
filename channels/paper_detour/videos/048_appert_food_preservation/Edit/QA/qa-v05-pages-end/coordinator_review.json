@@ -1,0 +1,32 @@
+{
+  "media": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Deliverables/048_appert_food_preservation_review_v05.mp4",
+  "media_sha256": "8df52ada637e81e5537fbe48f0f4cddeebc2021884e0459ffdf4d529488f1bd4",
+  "edit_revision": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Work/production_local_v01/Edit/plan_v05_pages_end.json",
+  "technical_review": {
+    "status": "PASS",
+    "full_decode": "PASS",
+    "media_sha256": "8df52ada637e81e5537fbe48f0f4cddeebc2021884e0459ffdf4d529488f1bd4",
+    "evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Edit/QA/qa-v05-pages-end/report.json",
+    "coverage": "5196 frames, all streams decoded; streams and dimensions checked against QA plan"
+  },
+  "targeted_visual_review": {
+    "status": "PASS",
+    "author": "Codex coordinator",
+    "frames": [
+      1500,
+      3450,
+      4500,
+      4895,
+      4896,
+      5045,
+      5046,
+      5195
+    ],
+    "coverage": "Requested images and final transition / beginning, middle and end of end screen. Full-sequence review not performed."
+  },
+  "full_motion_review": "UNVERIFIED",
+  "cue_timing": "UNVERIFIED",
+  "subjective_audio_listening": "UNVERIFIED",
+  "independent_review": "UNVERIFIED",
+  "overall": "UNVERIFIED"
+}

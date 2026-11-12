@@ -1,0 +1,82 @@
+{
+  "video_id": "8WNac9FGxKs",
+  "channel_id": "UCMVfdfaNxV3ZkI3_J3Eejzw",
+  "before": {
+    "read_at_utc": "2026-11-02T01:42:43.527649+00:00",
+    "channel_id": "UCMVfdfaNxV3ZkI3_J3Eejzw",
+    "video_id": "8WNac9FGxKs",
+    "title": "Time Stop 033 — H.264 MP4 (comparison)",
+    "description": "Private technical comparison upload.",
+    "tags": [],
+    "category_id": "24",
+    "default_language": "en",
+    "default_audio_language": "en",
+    "privacy": "private",
+    "upload_status": "processed",
+    "processing_status": "succeeded"
+  },
+  "requested": {
+    "title": "What If Time Stopped for 5 Seconds? #Shorts",
+    "description": "What if time stopped for everything except you?\n\nIn this thought experiment, light, sound, air, and even a raindrop inches from your face are frozen. You can't see, hear, move through the air, or breathe.\n\nFive seconds later, time resumes. Nothing has changed, except you're now five seconds older than everyone else.\n\n#TimeStop #Physics #ThoughtExperiment #PaperDetour",
+    "privacy": "private",
+    "playlists": "unchanged / none assigned"
+  },
+  "application": {
+    "http_status": 200,
+    "method": "videos.update",
+    "part": "snippet"
+  },
+  "after": {
+    "read_at_utc": "2026-11-02T01:48:11.406881+00:00",
+    "channel_id": "UCMVfdfaNxV3ZkI3_J3Eejzw",
+    "title": "What If Time Stopped for 5 Seconds? #Shorts",
+    "description": "What if time stopped for everything except you?\n\nIn this thought experiment, light, sound, air, and even a raindrop inches from your face are frozen. You can't see, hear, move through the air, or breathe.\n\nFive seconds later, time resumes. Nothing has changed, except you're now five seconds older than everyone else.\n\n#TimeStop #Physics #ThoughtExperiment #PaperDetour",
+    "tags": [],
+    "category_id": "24",
+    "default_language": "en",
+    "default_audio_language": "en",
+    "privacy": "private",
+    "upload_status": "processed",
+    "processing_status": "succeeded"
+  },
+  "verified": true,
+  "thumbnail": {
+    "file": "../Thumbnails/Paper_Detour_033_time_stop_EN_thumbnail_master_v01.png",
+    "sha256": "18b2f80bdb55344389fc946aba689d664afeb77bf159ef91ad0a835c1673fc7b",
+    "pixels": [
+      941,
+      1672
+    ],
+    "upload_method": "YouTube Studio desktop (Shorts custom covers are UI-only per current official help)",
+    "saved_state": "Studio showed “Изменения сохранены”; selected uploaded thumbnail filename shown in the editor",
+    "visual_readback": "Studio editor displayed the uploaded portrait cover and target Short preview",
+    "privacy_after": "private",
+    "playlist": "none; no registered Paper playlist fits this hypothetical science thought experiment",
+    "mobile_card": "not verified; no public card exists while video is private",
+    "bytes": 2332424
+  },
+  "external_application_status": "title_description_api_verified_thumbnail_studio_saved_ai_use_no_studio_verified; visibility_private",
+  "related_comparison_video": {
+    "video_id": "F4ENqN9_2Dc",
+    "format": "ProRes MOV",
+    "status": "deleted",
+    "delete_api_http_status": 204,
+    "deleted_verified_at_utc": "2026-11-02T01:55:26.909231+00:00",
+    "post_delete_readback_items_returned": 0,
+    "historical_pre_delete_state": {
+      "privacy": "private",
+      "upload_status": "processed",
+      "processing_status": "succeeded"
+    }
+  },
+  "related_comparison_video_deletion_receipt": "YOUTUBE_PRORES_DELETE_20261102.json",
+  "ai_use_disclosure": {
+    "decision": "No",
+    "studio_readback": "No selected after fresh reload",
+    "basis": "Non-photorealistic stylized paper diorama and fictional thought experiment; synthetic narration does not imitate an identifiable real person.",
+    "api_update_http_status": 200,
+    "api_update_response_containsSyntheticMedia": false,
+    "api_list_readback": "containsSyntheticMedia not returned; Studio state is the verified value",
+    "receipt": "YOUTUBE_AI_DISCLOSURE_REVIEW_20261102.json"
+  }
+}

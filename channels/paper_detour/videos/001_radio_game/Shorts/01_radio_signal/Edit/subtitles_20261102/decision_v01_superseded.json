@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "decision_date": "2026-11-02",
+  "run": "short01_subtitles_20261102_v01",
+  "status": "superseded",
+  "rejected_previews": [
+    {
+      "path": "Work/short01_subtitles_20261102_v01/previews/short01_subtitles_full_v04_review.mp4",
+      "sha256": "a8bb75d8d1532ceea59fbde375ac46413bdc7891edb31172117f465a7ffd49bb",
+      "bytes": 39332928,
+      "decision": "rejected/superseded",
+      "reason": "Superseded by grouping v02: the product name Clip Inform\u00e1tica was split across caption groups and the earlier safe width clipped text. No current use or upload."
+    },
+    {
+      "path": "Work/short01_subtitles_20261102_v01/previews/short01_subtitles_full_v04_review_audiopreserved.mp4",
+      "sha256": "6bfcb12d413fe87915580c2d4d4866bab70ab7e1f1e8665c49883621214c504d",
+      "bytes": 40003249,
+      "decision": "rejected/superseded",
+      "reason": "Superseded by grouping v02: the product name Clip Inform\u00e1tica was split across caption groups and the earlier safe width clipped text. No current use or upload."
+    }
+  ],
+  "accepted_successor": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+  "successor_sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4",
+  "notes": "The v01 overlay asset and evidence are retained; no cleanup is performed."
+}

@@ -1,0 +1,63 @@
+{
+  "channel_id": "UCqct_dth0WSCwiDZx1WMfgg",
+  "clips": {
+    "2026-pilot": {
+      "release_role": "unassigned",
+      "selection_reason": "Отдельный пилот рубрики мемов, вне очередности сцен из фильмов.",
+      "mp4_sha256": "820ca89daaabaa2f756d6bcfa47294aa9b996f0cda2d1c6ac75f0653abd6fcfd",
+      "acceptance": {
+        "date": "2026-11-09",
+        "revision": "v12",
+        "user_instruction": "пушка. заливай и сохраняй доку",
+        "scope": "accepted MP4 and first upload for private review"
+      },
+      "upload": "not_started",
+      "preflight": {
+        "observed_at": "2026-11-09T20:29+01:00",
+        "operation": "YouTube Data API channels.list(mine=true) before videos.insert",
+        "http_status": 403,
+        "api_reason": "quotaExceeded",
+        "ownership": "earlier_live_match_in_same_run",
+        "channel_id": "UCqct_dth0WSCwiDZx1WMfgg",
+        "returned_channel_title": "Deleted",
+        "channel_title_evidence": "channels/scenes_on_repeat/brand/README.md",
+        "playlists": {
+          "verified": true,
+          "matching_playlist": null,
+          "observed_ids": [
+            "PLfB5SSM7Xx98",
+            "PLF-FrK08h4co",
+            "PLd6Kq3IrypFM"
+          ]
+        },
+        "upload_inventory": "quotaExceeded",
+        "insert_called": false
+      },
+      "reason": "YouTube Data API 403 quotaExceeded during channel verification before the Private transfer.",
+      "video_id": null,
+      "visibility": null,
+      "processing": "not_started",
+      "copyright_check": "not_started",
+      "caption_upload": "not_started",
+      "thumbnail_selection": "not_started",
+      "publication_rights": "unverified",
+      "rights_record": "Edit/selection-2026-v11.json",
+      "previous_preflight": {
+        "observed_at": "2026-11-09T20:12+01:00",
+        "operation": "YouTube Data API channels.list(mine=true)",
+        "http_status": 403,
+        "api_reason": "quotaExceeded",
+        "ownership": "unverified_live",
+        "playlists": "unverified_live",
+        "upload_inventory": "unverified_live",
+        "insert_called": false
+      },
+      "metadata_review": {
+        "date": "2026-11-09",
+        "method": "vidIQ Web Keyword Research",
+        "title": "5 Viral 2026 Memes #2026Memes",
+        "review": "Packaging/REVIEW-v12.md"
+      }
+    }
+  }
+}

@@ -1,0 +1,6541 @@
+{
+  "canvas": [
+    1920,
+    1080
+  ],
+  "checks": {
+    "motion": "UNVERIFIED",
+    "scope": "assigned pairs at their selected anchors; static geometry only",
+    "sync": "UNVERIFIED",
+    "technical": "PASS",
+    "visual": "UNVERIFIED"
+  },
+  "cues": [
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              56,
+              123,
+              2093,
+              357
+            ],
+            [
+              391,
+              391,
+              1747,
+              649
+            ]
+          ],
+          "mode": "creamOrange"
+        },
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v05/C01_raw.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+        "status": "Author visually checked exact wording, paper texture and reference shape; no independent review",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/C01/face.png",
+      "face_mask_sha256": "bfd19142394313808bcc2ac27323be5c5e0d59e232acc68d05e5320804a8fe56",
+      "id": "C01",
+      "lines": [
+        "WHERE ARE THEIR",
+        "CLOTHES?"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          9,
+          28,
+          589,
+          188
+        ],
+        "alpha_height_px": 160,
+        "alpha_width_px": 580,
+        "face_bbox": [
+          16,
+          34,
+          584,
+          181
+        ],
+        "face_height_px": 72,
+        "face_line_boxes": [
+          [
+            16,
+            34,
+            584,
+            100
+          ],
+          [
+            109,
+            109,
+            488,
+            181
+          ]
+        ],
+        "face_line_heights_px": [
+          66,
+          72
+        ],
+        "size_px": [
+          599,
+          205
+        ]
+      },
+      "png": "cues/C01/cue.png",
+      "png_sha256": "5e8f829883d28f16947183028efe17d5ea30cbf772e362471fe36d3963c11f2f",
+      "provenance": {
+        "method": "built-in imagegen",
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Storyboard/DECISIONS_v05.md"
+      },
+      "timing": {
+        "endFrame": 130,
+        "startFrame": 50,
+        "status": "measured Lawrence v05 alignment, audible sync UNVERIFIED"
+      },
+      "uniform_scale": 0.27906976744186046
+    },
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              45,
+              217,
+              2116,
+              488
+            ]
+          ],
+          "mode": "creamOrange"
+        },
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v05/C02_raw.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+        "status": "Author visually checked exact wording, paper texture and reference shape; no independent review",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/C02/face.png",
+      "face_mask_sha256": "d92d55fa71dd6834fd4327683f2f23c68d1493280f9b142eee490925faf761df",
+      "id": "C02",
+      "lines": [
+        "ONE SMALL CLUE"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          7,
+          8,
+          570,
+          187
+        ],
+        "alpha_height_px": 179,
+        "alpha_width_px": 563,
+        "face_bbox": [
+          12,
+          58,
+          562,
+          130
+        ],
+        "face_height_px": 72,
+        "face_line_boxes": [
+          [
+            12,
+            58,
+            562,
+            130
+          ]
+        ],
+        "face_line_heights_px": [
+          72
+        ],
+        "size_px": [
+          571,
+          195
+        ]
+      },
+      "png": "cues/C02/cue.png",
+      "png_sha256": "8369cc1a2e76c9f3f05d35ea7e7cc826531586df43c2055178e8165557799313",
+      "provenance": {
+        "method": "built-in imagegen",
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Storyboard/DECISIONS_v05.md"
+      },
+      "timing": {
+        "endFrame": 1126,
+        "startFrame": 1034,
+        "status": "measured Lawrence v05 alignment, audible sync UNVERIFIED"
+      },
+      "uniform_scale": 0.2656826568265683
+    },
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              33,
+              187,
+              2103,
+              525
+            ]
+          ],
+          "mode": "creamOrange"
+        },
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v05/C03_raw.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+        "status": "Author visually checked exact wording, paper texture and reference shape; no independent review",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/C03/face.png",
+      "face_mask_sha256": "c3e955e33a05515313c68e2de8f5e32d19929ae5e01636248476ef210652707a",
+      "id": "C03",
+      "lines": [
+        "YOUR PICK?"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          4,
+          5,
+          454,
+          151
+        ],
+        "alpha_height_px": 146,
+        "alpha_width_px": 450,
+        "face_bbox": [
+          8,
+          42,
+          448,
+          112
+        ],
+        "face_height_px": 70,
+        "face_line_boxes": [
+          [
+            8,
+            42,
+            448,
+            112
+          ]
+        ],
+        "face_line_heights_px": [
+          70
+        ],
+        "size_px": [
+          458,
+          157
+        ]
+      },
+      "png": "cues/C03/cue.png",
+      "png_sha256": "eaf279a60c7e93f2c0840affd86283aa123065d51ff7cf406c839433bbdc5bc7",
+      "provenance": {
+        "method": "built-in imagegen",
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Storyboard/DECISIONS_v05.md"
+      },
+      "timing": {
+        "endFrame": 3147,
+        "startFrame": 3103,
+        "status": "measured Lawrence v05 alignment, audible sync UNVERIFIED"
+      },
+      "uniform_scale": 0.21301775147928995
+    },
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              107,
+              84,
+              2035,
+              383
+            ],
+            [
+              117,
+              383,
+              1954,
+              682
+            ]
+          ],
+          "mode": "creamOrange"
+        },
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v05/C04b_raw.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+        "status": "Author visually checked exact wording, paper texture and reference shape; no independent review",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/C04/face.png",
+      "face_mask_sha256": "9a1fb49e376664afc9cf522239fe64f6cdc31006b4327d6435d346ea90834614",
+      "id": "C04",
+      "lines": [
+        "DRESSED TO",
+        "IMPRESS"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          20,
+          15,
+          496,
+          177
+        ],
+        "alpha_height_px": 162,
+        "alpha_width_px": 476,
+        "face_bbox": [
+          26,
+          20,
+          490,
+          164
+        ],
+        "face_height_px": 73,
+        "face_line_boxes": [
+          [
+            26,
+            20,
+            490,
+            93
+          ],
+          [
+            29,
+            92,
+            470,
+            164
+          ]
+        ],
+        "face_line_heights_px": [
+          73,
+          72
+        ],
+        "size_px": [
+          517,
+          177
+        ]
+      },
+      "png": "cues/C04/cue.png",
+      "png_sha256": "f645254f195d97ea8a86c8d52e237a12bbe063c8e60b8c57c9726bd99a90d317",
+      "provenance": {
+        "method": "built-in imagegen",
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Storyboard/DECISIONS_v05.md"
+      },
+      "timing": {
+        "endFrame": 3465,
+        "startFrame": 3354,
+        "status": "measured Lawrence v05 alignment, audible sync UNVERIFIED"
+      },
+      "uniform_scale": 0.2408026755852843
+    },
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              420,
+              57,
+              1719,
+              368
+            ],
+            [
+              176,
+              386,
+              1961,
+              683
+            ]
+          ],
+          "mode": "creamOrange"
+        },
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v05/C05b_raw.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+        "status": "Author visually checked exact wording, paper texture and reference shape; no independent review",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/C05/face.png",
+      "face_mask_sha256": "a078107606756e5c5569a8e615ca544b47a59b3ea6ce64f7cbbcdc2b5fe22bd5",
+      "id": "C05",
+      "lines": [
+        "FUTURE",
+        "ARTIFACTS"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          35,
+          10,
+          460,
+          165
+        ],
+        "alpha_height_px": 155,
+        "alpha_width_px": 425,
+        "face_bbox": [
+          41,
+          16,
+          454,
+          158
+        ],
+        "face_height_px": 69,
+        "face_line_boxes": [
+          [
+            99,
+            16,
+            398,
+            85
+          ],
+          [
+            41,
+            89,
+            454,
+            158
+          ]
+        ],
+        "face_line_heights_px": [
+          69,
+          69
+        ],
+        "size_px": [
+          497,
+          170
+        ]
+      },
+      "png": "cues/C05/cue.png",
+      "png_sha256": "5ec7b9e985a2fea4a829ec45fead7c836753add4ed46d13f9c5e51308944d48e",
+      "provenance": {
+        "method": "built-in imagegen",
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Storyboard/DECISIONS_v05.md"
+      },
+      "timing": {
+        "endFrame": 5073,
+        "startFrame": 4908,
+        "status": "measured Lawrence v05 alignment, audible sync UNVERIFIED"
+      },
+      "uniform_scale": 0.2315112540192926
+    },
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              135,
+              87,
+              2056,
+              361
+            ],
+            [
+              120,
+              405,
+              2040,
+              671
+            ]
+          ],
+          "mode": "creamOrange"
+        },
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v05/C06_raw.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+        "status": "Author visually checked exact wording, paper texture and reference shape; no independent review",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/C06/face.png",
+      "face_mask_sha256": "6d94c2aa9b465cb88904bb13bbba343ef5a8d8be9e24cce9a8c4997afb18115f",
+      "id": "C06",
+      "lines": [
+        "WHAT WILL",
+        "THEY FIND?"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          25,
+          17,
+          547,
+          184
+        ],
+        "alpha_height_px": 167,
+        "alpha_width_px": 522,
+        "face_bbox": [
+          32,
+          23,
+          540,
+          176
+        ],
+        "face_height_px": 72,
+        "face_line_boxes": [
+          [
+            35,
+            23,
+            540,
+            95
+          ],
+          [
+            32,
+            106,
+            536,
+            176
+          ]
+        ],
+        "face_line_heights_px": [
+          72,
+          70
+        ],
+        "size_px": [
+          564,
+          193
+        ]
+      },
+      "png": "cues/C06/cue.png",
+      "png_sha256": "7b11fc2c7a22cfdc3a70f73cadd8cfc01092a4fc2dde9f4d6eff1d65c7074877",
+      "provenance": {
+        "method": "built-in imagegen",
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Storyboard/DECISIONS_v05.md"
+      },
+      "timing": {
+        "endFrame": 5700,
+        "startFrame": 5580,
+        "status": "measured Lawrence v05 alignment, audible sync UNVERIFIED"
+      },
+      "uniform_scale": 0.26277372262773724
+    },
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              157,
+              108,
+              1993,
+              379
+            ],
+            [
+              424,
+              395,
+              1720,
+              646
+            ]
+          ],
+          "mode": "creamOrange"
+        },
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D01b_raw.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+        "status": "Author inspected all28 raw PNGs: spelling, broad rounded glyphs, paper texture and alpha; final composite pending",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/D01/face.png",
+      "face_mask_sha256": "3e7f716aa0d67556f2f14906059e711065520667f804af721ddbc745e7898d0c",
+      "id": "D01",
+      "lines": [
+        "TIME ERASED",
+        "THE REST"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          35,
+          23,
+          536,
+          179
+        ],
+        "alpha_height_px": 156,
+        "alpha_width_px": 501,
+        "face_bbox": [
+          42,
+          29,
+          530,
+          172
+        ],
+        "face_height_px": 72,
+        "face_line_boxes": [
+          [
+            42,
+            29,
+            530,
+            101
+          ],
+          [
+            113,
+            105,
+            457,
+            172
+          ]
+        ],
+        "face_line_heights_px": [
+          72,
+          67
+        ],
+        "size_px": [
+          571,
+          195
+        ]
+      },
+      "png": "cues/D01/cue.png",
+      "png_sha256": "f4b66074841f566796a4b6ab9265adb496097e699c1c2dcc8258abaf3b8f72ba",
+      "provenance": {
+        "method": "built-in imagegen",
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Storyboard/DECISIONS_v06.md"
+      },
+      "timing": {
+        "endFrame": 971,
+        "startFrame": 910,
+        "status": "measured Lawrence v05 alignment, audible sync UNVERIFIED"
+      },
+      "uniform_scale": 0.2656826568265683
+    },
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              234,
+              93,
+              1937,
+              359
+            ],
+            [
+              242,
+              402,
+              1901,
+              661
+            ]
+          ],
+          "mode": "creamOrange"
+        },
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D02_raw.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+        "status": "Author inspected all28 raw PNGs: spelling, broad rounded glyphs, paper texture and alpha; final composite pending",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/D02/face.png",
+      "face_mask_sha256": "a81e46cc8423572fcf2e2af946b44e7782eb00dd85bf6837fcd66a29bb5821eb",
+      "id": "D02",
+      "lines": [
+        "1 MILLION+",
+        "YEARS AGO"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          57,
+          18,
+          532,
+          186
+        ],
+        "alpha_height_px": 168,
+        "alpha_width_px": 475,
+        "face_bbox": [
+          63,
+          25,
+          524,
+          179
+        ],
+        "face_height_px": 72,
+        "face_line_boxes": [
+          [
+            63,
+            25,
+            524,
+            97
+          ],
+          [
+            66,
+            109,
+            515,
+            179
+          ]
+        ],
+        "face_line_heights_px": [
+          72,
+          70
+        ],
+        "size_px": [
+          581,
+          199
+        ]
+      },
+      "png": "cues/D02/cue.png",
+      "png_sha256": "a56f34939b6d1551f516271787c079fb93f7d3ca3e228e2f402b540b5f7968ab",
+      "provenance": {
+        "method": "built-in imagegen",
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Storyboard/DECISIONS_v06.md"
+      },
+      "timing": {
+        "endFrame": 238,
+        "startFrame": 154,
+        "status": "measured Lawrence v05 alignment, audible sync UNVERIFIED"
+      },
+      "uniform_scale": 0.2706766917293233
+    },
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              65,
+              209,
+              1716,
+              490
+            ],
+            [
+              500,
+              529,
+              1273,
+              796
+            ]
+          ],
+          "mode": "creamOrange"
+        },
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D03_raw.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+        "status": "Author inspected all28 raw PNGs: spelling, broad rounded glyphs, paper texture and alpha; final composite pending",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/D03/face.png",
+      "face_mask_sha256": "bf006f3e40df9bc8b0ed7610709df1c9ef0276a88a81983516618dcb207e8c04",
+      "id": "D03",
+      "lines": [
+        "ONE SHARP",
+        "EDGE"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          10,
+          5,
+          446,
+          211
+        ],
+        "alpha_height_px": 206,
+        "alpha_width_px": 436,
+        "face_bbox": [
+          17,
+          54,
+          440,
+          204
+        ],
+        "face_height_px": 72,
+        "face_line_boxes": [
+          [
+            17,
+            54,
+            440,
+            126
+          ],
+          [
+            128,
+            136,
+            326,
+            204
+          ]
+        ],
+        "face_line_heights_px": [
+          72,
+          68
+        ],
+        "size_px": [
+          455,
+          228
+        ]
+      },
+      "png": "cues/D03/cue.png",
+      "png_sha256": "513fc7bbbdc479bfe562f2c4b4ee4d928d0abd9b493d6d039967fed66eb3ecc1",
+      "provenance": {
+        "method": "built-in imagegen",
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Storyboard/DECISIONS_v06.md"
+      },
+      "timing": {
+        "endFrame": 372,
+        "startFrame": 288,
+        "status": "measured Lawrence v05 alignment, audible sync UNVERIFIED"
+      },
+      "uniform_scale": 0.25622775800711745
+    },
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              55,
+              215,
+              2153,
+              478
+            ]
+          ],
+          "mode": "creamOrange"
+        },
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D04b_raw.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+        "status": "Author inspected all28 raw PNGs: spelling, broad rounded glyphs, paper texture and alpha; final composite pending",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/D04/face.png",
+      "face_mask_sha256": "285a50e4f187d502f4cda353dc0befcee9b937488d2a7b3907e3c96a26489cc0",
+      "id": "D04",
+      "lines": [
+        "STONE SURVIVES"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          9,
+          14,
+          596,
+          191
+        ],
+        "alpha_height_px": 177,
+        "alpha_width_px": 587,
+        "face_bbox": [
+          15,
+          59,
+          589,
+          131
+        ],
+        "face_height_px": 72,
+        "face_line_boxes": [
+          [
+            15,
+            59,
+            589,
+            131
+          ]
+        ],
+        "face_line_heights_px": [
+          72
+        ],
+        "size_px": [
+          604,
+          196
+        ]
+      },
+      "png": "cues/D04/cue.png",
+      "png_sha256": "0d5348b1b1dabce3a675ebd571c82db0522990cf2a3584123110b28dfe3a9fe1",
+      "provenance": {
+        "method": "built-in imagegen",
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Storyboard/DECISIONS_v06.md"
+      },
+      "timing": {
+        "endFrame": 551,
+        "startFrame": 480,
+        "status": "measured Lawrence v05 alignment, audible sync UNVERIFIED"
+      },
+      "uniform_scale": 0.2737642585551331
+    },
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              49,
+              109,
+              2105,
+              402
+            ],
+            [
+              631,
+              428,
+              1507,
+              671
+            ]
+          ],
+          "mode": "creamOrange"
+        },
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D05_raw.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+        "status": "Author inspected all28 raw PNGs: spelling, broad rounded glyphs, paper texture and alpha; final composite pending",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/D05/face.png",
+      "face_mask_sha256": "22025ca736209c3550dc4543891bc7c5fdeed563d809368557f118ab63dc7abc",
+      "id": "D05",
+      "lines": [
+        "GENERATIONS",
+        "LATER"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          6,
+          21,
+          524,
+          172
+        ],
+        "alpha_height_px": 151,
+        "alpha_width_px": 518,
+        "face_bbox": [
+          12,
+          27,
+          517,
+          165
+        ],
+        "face_height_px": 72,
+        "face_line_boxes": [
+          [
+            12,
+            27,
+            517,
+            99
+          ],
+          [
+            155,
+            105,
+            370,
+            165
+          ]
+        ],
+        "face_line_heights_px": [
+          72,
+          60
+        ],
+        "size_px": [
+          528,
+          181
+        ]
+      },
+      "png": "cues/D05/cue.png",
+      "png_sha256": "5c95d45b1143d6c1fe3f720d9c61935604dfd596eb6cadf245e988052cdc8d73",
+      "provenance": {
+        "method": "built-in imagegen",
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Storyboard/DECISIONS_v06.md"
+      },
+      "timing": {
+        "endFrame": 641,
+        "startFrame": 557,
+        "status": "measured Lawrence v05 alignment, audible sync UNVERIFIED"
+      },
+      "uniform_scale": 0.24573378839590443
+    },
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              430,
+              100,
+              1727,
+              366
+            ],
+            [
+              98,
+              387,
+              2052,
+              638
+            ]
+          ],
+          "mode": "creamOrange"
+        },
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D06_raw.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+        "status": "Author inspected all28 raw PNGs: spelling, broad rounded glyphs, paper texture and alpha; final composite pending",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/D06/face.png",
+      "face_mask_sha256": "3effee2310aa40bb7e221206ec944f7c65d381e7cf24dc7a417e7dc950bd13ad",
+      "id": "D06",
+      "lines": [
+        "MADE BY",
+        "HUMAN HANDS"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          21,
+          21,
+          563,
+          181
+        ],
+        "alpha_height_px": 160,
+        "alpha_width_px": 542,
+        "face_bbox": [
+          27,
+          27,
+          555,
+          173
+        ],
+        "face_height_px": 72,
+        "face_line_boxes": [
+          [
+            116,
+            27,
+            467,
+            99
+          ],
+          [
+            27,
+            105,
+            555,
+            173
+          ]
+        ],
+        "face_line_heights_px": [
+          72,
+          68
+        ],
+        "size_px": [
+          581,
+          199
+        ]
+      },
+      "png": "cues/D06/cue.png",
+      "png_sha256": "c9ed904b1f50b63ef48850fead5ba00eafe8833375847fbaa5ce03f948ec83a6",
+      "provenance": {
+        "method": "built-in imagegen",
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Storyboard/DECISIONS_v06.md"
+      },
+      "timing": {
+        "endFrame": 808,
+        "startFrame": 713,
+        "status": "measured Lawrence v05 alignment, audible sync UNVERIFIED"
+      },
+      "uniform_scale": 0.2706766917293233
+    },
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              129,
+              176,
+              1593,
+              473
+            ],
+            [
+              71,
+              512,
+              1656,
+              789
+            ]
+          ],
+          "mode": "creamOrange"
+        },
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D07_raw.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+        "status": "Author inspected all28 raw PNGs: spelling, broad rounded glyphs, paper texture and alpha; final composite pending",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/D07/face.png",
+      "face_mask_sha256": "8be0c656c8ca4bed9576ce1f303f2ccdb3d25d22e489b66d2a495ebfa31f4037",
+      "id": "D07",
+      "lines": [
+        "SOMEONE",
+        "WORE THIS"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          11,
+          36,
+          408,
+          199
+        ],
+        "alpha_height_px": 163,
+        "alpha_width_px": 397,
+        "face_bbox": [
+          17,
+          43,
+          401,
+          191
+        ],
+        "face_height_px": 72,
+        "face_line_boxes": [
+          [
+            31,
+            43,
+            386,
+            115
+          ],
+          [
+            17,
+            124,
+            401,
+            191
+          ]
+        ],
+        "face_line_heights_px": [
+          72,
+          67
+        ],
+        "size_px": [
+          417,
+          223
+        ]
+      },
+      "png": "cues/D07/cue.png",
+      "png_sha256": "5fe4327f188774c30c4991ccccb32f074f86de10fbd5cc2fac66dd9f823ecb58",
+      "provenance": {
+        "method": "built-in imagegen",
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Storyboard/DECISIONS_v06.md"
+      },
+      "timing": {
+        "endFrame": 1385,
+        "startFrame": 1300,
+        "status": "measured Lawrence v05 alignment, audible sync UNVERIFIED"
+      },
+      "uniform_scale": 0.24242424242424243
+    },
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              455,
+              108,
+              1701,
+              363
+            ],
+            [
+              101,
+              397,
+              2057,
+              637
+            ]
+          ],
+          "mode": "creamOrange"
+        },
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D08_raw.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+        "status": "Author inspected all28 raw PNGs: spelling, broad rounded glyphs, paper texture and alpha; final composite pending",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/D08/face.png",
+      "face_mask_sha256": "0ce13e7ed718e9a5ab475382b383dcd66309f6165c924cec73e7013e009cb5cd",
+      "id": "D08",
+      "lines": [
+        "THE PAST",
+        "GETS PERSONAL"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          22,
+          24,
+          587,
+          200
+        ],
+        "alpha_height_px": 176,
+        "alpha_width_px": 565,
+        "face_bbox": [
+          29,
+          30,
+          581,
+          180
+        ],
+        "face_height_px": 72,
+        "face_line_boxes": [
+          [
+            128,
+            30,
+            480,
+            102
+          ],
+          [
+            29,
+            112,
+            581,
+            180
+          ]
+        ],
+        "face_line_heights_px": [
+          72,
+          68
+        ],
+        "size_px": [
+          606,
+          207
+        ]
+      },
+      "png": "cues/D08/cue.png",
+      "png_sha256": "819850c93fe16ca32cee0da37061750d1dac11328ad76f12c44930be01f781a4",
+      "provenance": {
+        "method": "built-in imagegen",
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Storyboard/DECISIONS_v06.md"
+      },
+      "timing": {
+        "endFrame": 1559,
+        "startFrame": 1483,
+        "status": "measured Lawrence v05 alignment, audible sync UNVERIFIED"
+      },
+      "uniform_scale": 0.2823529411764706
+    },
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              107,
+              98,
+              2034,
+              365
+            ],
+            [
+              215,
+              399,
+              1922,
+              664
+            ]
+          ],
+          "mode": "creamOrange"
+        },
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D09_raw.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+        "status": "Author inspected all28 raw PNGs: spelling, broad rounded glyphs, paper texture and alpha; final composite pending",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/D09/face.png",
+      "face_mask_sha256": "85b11f50748971479be1f57332cfb0e4bbf41448e8f1a3ad2184b67f37556092",
+      "id": "D09",
+      "lines": [
+        "FOLLOW THE",
+        "FOOTSTEPS"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          22,
+          20,
+          557,
+          188
+        ],
+        "alpha_height_px": 168,
+        "alpha_width_px": 535,
+        "face_bbox": [
+          29,
+          26,
+          548,
+          179
+        ],
+        "face_height_px": 72,
+        "face_line_boxes": [
+          [
+            29,
+            26,
+            548,
+            98
+          ],
+          [
+            58,
+            108,
+            518,
+            179
+          ]
+        ],
+        "face_line_heights_px": [
+          72,
+          71
+        ],
+        "size_px": [
+          579,
+          198
+        ]
+      },
+      "png": "cues/D09/cue.png",
+      "png_sha256": "ce81161b40804f26581c64d49ba5bf3a805dc680c03be5dfeee6c148622f5eb7",
+      "provenance": {
+        "method": "built-in imagegen",
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Storyboard/DECISIONS_v06.md"
+      },
+      "timing": {
+        "endFrame": 1687,
+        "startFrame": 1603,
+        "status": "measured Lawrence v05 alignment, audible sync UNVERIFIED"
+      },
+      "uniform_scale": 0.2696629213483146
+    },
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              111,
+              129,
+              1516,
+              485
+            ],
+            [
+              93,
+              516,
+              1537,
+              844
+            ]
+          ],
+          "mode": "creamOrange"
+        },
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D10_raw.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+        "status": "Author inspected all28 raw PNGs: spelling, broad rounded glyphs, paper texture and alpha; final composite pending",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/D10/face.png",
+      "face_mask_sha256": "3cb4228f68758add86c01d66152be4fc5acdad18fac1c9261a3761701cd694c3",
+      "id": "D10",
+      "lines": [
+        "ROMAN",
+        "BRITAIN"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          16,
+          23,
+          317,
+          177
+        ],
+        "alpha_height_px": 154,
+        "alpha_width_px": 301,
+        "face_bbox": [
+          19,
+          26,
+          311,
+          171
+        ],
+        "face_height_px": 72,
+        "face_line_boxes": [
+          [
+            25,
+            26,
+            307,
+            98
+          ],
+          [
+            19,
+            106,
+            311,
+            171
+          ]
+        ],
+        "face_line_heights_px": [
+          72,
+          65
+        ],
+        "size_px": [
+          328,
+          197
+        ]
+      },
+      "png": "cues/D10/cue.png",
+      "png_sha256": "b0d2bd7627fe94906eb2cc50e1cf68cba9860b8b495862690da8e75a598895c5",
+      "provenance": {
+        "method": "built-in imagegen",
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Storyboard/DECISIONS_v06.md"
+      },
+      "timing": {
+        "endFrame": 1801,
+        "startFrame": 1717,
+        "status": "measured Lawrence v05 alignment, audible sync UNVERIFIED"
+      },
+      "uniform_scale": 0.20224719101123595
+    },
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              485,
+              115,
+              1640,
+              377
+            ],
+            [
+              86,
+              406,
+              2063,
+              649
+            ]
+          ],
+          "mode": "creamOrange"
+        },
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D11_raw.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+        "status": "Author inspected all28 raw PNGs: spelling, broad rounded glyphs, paper texture and alpha; final composite pending",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/D11/face.png",
+      "face_mask_sha256": "811bbfe5c008ed4a218270db1c89484cac794f534765eb995a9a2d6eb5db59ca",
+      "id": "D11",
+      "lines": [
+        "TRACES",
+        "BECOME PEOPLE"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          17,
+          26,
+          574,
+          194
+        ],
+        "alpha_height_px": 168,
+        "alpha_width_px": 557,
+        "face_bbox": [
+          24,
+          32,
+          567,
+          178
+        ],
+        "face_height_px": 72,
+        "face_line_boxes": [
+          [
+            133,
+            32,
+            451,
+            104
+          ],
+          [
+            24,
+            112,
+            567,
+            178
+          ]
+        ],
+        "face_line_heights_px": [
+          72,
+          66
+        ],
+        "size_px": [
+          590,
+          202
+        ]
+      },
+      "png": "cues/D11/cue.png",
+      "png_sha256": "bda8d0c3a7bdff85d6af95d8e25cffbedda97c9d4354a54bfceee6b8711f8723",
+      "provenance": {
+        "method": "built-in imagegen",
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Storyboard/DECISIONS_v06.md"
+      },
+      "timing": {
+        "endFrame": 1983,
+        "startFrame": 1910,
+        "status": "measured Lawrence v05 alignment, audible sync UNVERIFIED"
+      },
+      "uniform_scale": 0.2748091603053435
+    },
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              40,
+              228,
+              2094,
+              526
+            ]
+          ],
+          "mode": "creamOrange"
+        },
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D12b_raw.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+        "status": "Author inspected all28 raw PNGs: spelling, broad rounded glyphs, paper texture and alpha; final composite pending",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/D12/face.png",
+      "face_mask_sha256": "821c7e48645bc4dd7448b6ea7442b08e539e71e2a5a6b46ac9f5e4e9705d7b9f",
+      "id": "D12",
+      "lines": [
+        "AROUND 1400"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          5,
+          13,
+          513,
+          165
+        ],
+        "alpha_height_px": 152,
+        "alpha_width_px": 508,
+        "face_bbox": [
+          10,
+          55,
+          506,
+          127
+        ],
+        "face_height_px": 72,
+        "face_line_boxes": [
+          [
+            10,
+            55,
+            506,
+            127
+          ]
+        ],
+        "face_line_heights_px": [
+          72
+        ],
+        "size_px": [
+          518,
+          178
+        ]
+      },
+      "png": "cues/D12/cue.png",
+      "png_sha256": "d5b6f544c272bc9994b2121f950a07b7240049e19a968798d76a4b5c80eb1886",
+      "provenance": {
+        "method": "built-in imagegen",
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Storyboard/DECISIONS_v06.md"
+      },
+      "timing": {
+        "endFrame": 2244,
+        "startFrame": 2160,
+        "status": "measured Lawrence v05 alignment, audible sync UNVERIFIED"
+      },
+      "uniform_scale": 0.24161073825503357
+    },
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              66,
+              182,
+              2081,
+              512
+            ]
+          ],
+          "mode": "creamOrange"
+        },
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D13b_raw.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+        "status": "Author inspected all28 raw PNGs: spelling, broad rounded glyphs, paper texture and alpha; final composite pending",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/D13/face.png",
+      "face_mask_sha256": "d4616dc6a1a43a915079e734a8b78bab285cbf33f4d2f0a72167772e98747ac9",
+      "id": "D13",
+      "lines": [
+        "NEW SHAPE"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          9,
+          12,
+          461,
+          158
+        ],
+        "alpha_height_px": 146,
+        "alpha_width_px": 452,
+        "face_bbox": [
+          15,
+          40,
+          454,
+          112
+        ],
+        "face_height_px": 72,
+        "face_line_boxes": [
+          [
+            15,
+            40,
+            454,
+            112
+          ]
+        ],
+        "face_line_heights_px": [
+          72
+        ],
+        "size_px": [
+          469,
+          160
+        ]
+      },
+      "png": "cues/D13/cue.png",
+      "png_sha256": "465df58db16a3f3f2e81deb05e637b554deef38ed12012fc9c4d57bc8b105b80",
+      "provenance": {
+        "method": "built-in imagegen",
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Storyboard/DECISIONS_v06.md"
+      },
+      "timing": {
+        "endFrame": 2428,
+        "startFrame": 2342,
+        "status": "measured Lawrence v05 alignment, audible sync UNVERIFIED"
+      },
+      "uniform_scale": 0.21818181818181817
+    },
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              392,
+              124,
+              1758,
+              603
+            ]
+          ],
+          "mode": "creamOrange"
+        },
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D14b_raw.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+        "status": "Author inspected all28 raw PNGs: spelling, broad rounded glyphs, paper texture and alpha; final composite pending",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/D14/face.png",
+      "face_mask_sha256": "e784c1eaa9e7293b8240a08db1a4787e9175738d4bbf559f6e197f2c8722eb15",
+      "id": "D14",
+      "lines": [
+        "1559"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          53,
+          14,
+          270,
+          98
+        ],
+        "alpha_height_px": 84,
+        "alpha_width_px": 217,
+        "face_bbox": [
+          59,
+          19,
+          264,
+          91
+        ],
+        "face_height_px": 72,
+        "face_line_boxes": [
+          [
+            59,
+            19,
+            264,
+            91
+          ]
+        ],
+        "face_line_heights_px": [
+          72
+        ],
+        "size_px": [
+          323,
+          111
+        ]
+      },
+      "png": "cues/D14/cue.png",
+      "png_sha256": "33aad2dc1ef5b4c17f97e93cba4ae0c80621263fb62ba5364c00cce9d3380e0d",
+      "provenance": {
+        "method": "built-in imagegen",
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Storyboard/DECISIONS_v06.md"
+      },
+      "timing": {
+        "endFrame": 2699,
+        "startFrame": 2594,
+        "status": "measured Lawrence v05 alignment, audible sync UNVERIFIED"
+      },
+      "uniform_scale": 0.15031315240083507
+    },
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              228,
+              124,
+              1929,
+              371
+            ],
+            [
+              115,
+              407,
+              2040,
+              657
+            ]
+          ],
+          "mode": "creamOrange"
+        },
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D15_raw.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+        "status": "Author inspected all28 raw PNGs: spelling, broad rounded glyphs, paper texture and alpha; final composite pending",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/D15/face.png",
+      "face_mask_sha256": "bf43bd01b89df29a5fc95d5b62baafef0ed181b26f574a55a42cfdc24e02d5ab",
+      "id": "D15",
+      "lines": [
+        "ONE FAMILY",
+        "MANY STYLES"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          27,
+          28,
+          594,
+          198
+        ],
+        "alpha_height_px": 170,
+        "alpha_width_px": 567,
+        "face_bbox": [
+          33,
+          36,
+          588,
+          189
+        ],
+        "face_height_px": 72,
+        "face_line_boxes": [
+          [
+            66,
+            36,
+            555,
+            107
+          ],
+          [
+            33,
+            117,
+            588,
+            189
+          ]
+        ],
+        "face_line_heights_px": [
+          71,
+          72
+        ],
+        "size_px": [
+          619,
+          212
+        ]
+      },
+      "png": "cues/D15/cue.png",
+      "png_sha256": "044f44c5e174f14237247d05838e1e3bad102ceefd675dad6a1fe5a3fa81d866",
+      "provenance": {
+        "method": "built-in imagegen",
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Storyboard/DECISIONS_v06.md"
+      },
+      "timing": {
+        "endFrame": 2853,
+        "startFrame": 2725,
+        "status": "measured Lawrence v05 alignment, audible sync UNVERIFIED"
+      },
+      "uniform_scale": 0.288
+    },
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              215,
+              186,
+              1326,
+              524
+            ],
+            [
+              70,
+              569,
+              1458,
+              888
+            ]
+          ],
+          "mode": "creamOrange"
+        },
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D16_raw.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+        "status": "Author inspected all28 raw PNGs: spelling, broad rounded glyphs, paper texture and alpha; final composite pending",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/D16/face.png",
+      "face_mask_sha256": "14736f4090b8b8b027d426a516bb30ba50fa23d4aec23f3b4164783e5002c789",
+      "id": "D16",
+      "lines": [
+        "LOOK",
+        "CLOSER"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          9,
+          6,
+          317,
+          212
+        ],
+        "alpha_height_px": 206,
+        "alpha_width_px": 308,
+        "face_bbox": [
+          15,
+          40,
+          311,
+          189
+        ],
+        "face_height_px": 72,
+        "face_line_boxes": [
+          [
+            46,
+            40,
+            282,
+            112
+          ],
+          [
+            15,
+            121,
+            311,
+            189
+          ]
+        ],
+        "face_line_heights_px": [
+          72,
+          68
+        ],
+        "size_px": [
+          328,
+          219
+        ]
+      },
+      "png": "cues/D16/cue.png",
+      "png_sha256": "2fa174e3d2c1202a0ca123584e92b8a83caf4916e10473e99bfeec6dbc4278e0",
+      "provenance": {
+        "method": "built-in imagegen",
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Storyboard/DECISIONS_v06.md"
+      },
+      "timing": {
+        "endFrame": 2558,
+        "startFrame": 2434,
+        "status": "measured Lawrence v05 alignment, audible sync UNVERIFIED"
+      },
+      "uniform_scale": 0.21301775147928995
+    },
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              335,
+              178,
+              1185,
+              515
+            ],
+            [
+              47,
+              561,
+              1486,
+              852
+            ]
+          ],
+          "mode": "creamOrange"
+        },
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D17_raw.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+        "status": "Author inspected all28 raw PNGs: spelling, broad rounded glyphs, paper texture and alpha; final composite pending",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/D17/face.png",
+      "face_mask_sha256": "3c06fb83b030c9bff789892a17f4dd637f99d0f59a9f59a195df5711389a5279",
+      "id": "D17",
+      "lines": [
+        "18TH",
+        "CENTURY"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          4,
+          33,
+          324,
+          188
+        ],
+        "alpha_height_px": 155,
+        "alpha_width_px": 320,
+        "face_bbox": [
+          10,
+          38,
+          317,
+          182
+        ],
+        "face_height_px": 72,
+        "face_line_boxes": [
+          [
+            72,
+            38,
+            253,
+            110
+          ],
+          [
+            10,
+            120,
+            317,
+            182
+          ]
+        ],
+        "face_line_heights_px": [
+          72,
+          62
+        ],
+        "size_px": [
+          329,
+          219
+        ]
+      },
+      "png": "cues/D17/cue.png",
+      "png_sha256": "51c7c32bbbf65823ca83dac95a0a312ab9d3e7aef50c501ba19cecc68316d8ec",
+      "provenance": {
+        "method": "built-in imagegen",
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Storyboard/DECISIONS_v06.md"
+      },
+      "timing": {
+        "endFrame": 3277,
+        "startFrame": 3193,
+        "status": "measured Lawrence v05 alignment, audible sync UNVERIFIED"
+      },
+      "uniform_scale": 0.21364985163204747
+    },
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              101,
+              177,
+              2046,
+              516
+            ]
+          ],
+          "mode": "creamOrange"
+        },
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D18c_raw.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+        "status": "Author inspected all28 raw PNGs: spelling, broad rounded glyphs, paper texture and alpha; final composite pending",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/D18/face.png",
+      "face_mask_sha256": "426516f4ffb84f8015333ec5a36287c2bdcc4971255b8638867d0603bb4dd006",
+      "id": "D18",
+      "lines": [
+        "NO HIDING"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          16,
+          35,
+          441,
+          147
+        ],
+        "alpha_height_px": 112,
+        "alpha_width_px": 425,
+        "face_bbox": [
+          21,
+          38,
+          435,
+          110
+        ],
+        "face_height_px": 72,
+        "face_line_boxes": [
+          [
+            21,
+            38,
+            435,
+            110
+          ]
+        ],
+        "face_line_heights_px": [
+          72
+        ],
+        "size_px": [
+          456,
+          156
+        ]
+      },
+      "png": "cues/D18/cue.png",
+      "png_sha256": "0854b9ef6324b6d80582ec36e95100747293cd179e552b820bdbdb259f2c15f3",
+      "provenance": {
+        "method": "built-in imagegen",
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Storyboard/DECISIONS_v06.md"
+      },
+      "timing": {
+        "endFrame": 3587,
+        "startFrame": 3474,
+        "status": "measured Lawrence v05 alignment, audible sync UNVERIFIED"
+      },
+      "uniform_scale": 0.21238938053097345
+    },
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              250,
+              108,
+              1894,
+              355
+            ],
+            [
+              118,
+              386,
+              2025,
+              639
+            ]
+          ],
+          "mode": "creamOrange"
+        },
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D19_raw.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+        "status": "Author inspected all28 raw PNGs: spelling, broad rounded glyphs, paper texture and alpha; final composite pending",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/D19/face.png",
+      "face_mask_sha256": "c8d769d1bda3a8ac40adfa4dba494cdf375c769bd57245e49a2d29483c3dab5b",
+      "id": "D19",
+      "lines": [
+        "YOUR OUTFIT",
+        "ARRIVES FIRST"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          28,
+          24,
+          583,
+          191
+        ],
+        "alpha_height_px": 167,
+        "alpha_width_px": 555,
+        "face_bbox": [
+          34,
+          31,
+          576,
+          182
+        ],
+        "face_height_px": 72,
+        "face_line_boxes": [
+          [
+            71,
+            31,
+            539,
+            101
+          ],
+          [
+            34,
+            110,
+            576,
+            182
+          ]
+        ],
+        "face_line_heights_px": [
+          70,
+          72
+        ],
+        "size_px": [
+          611,
+          209
+        ]
+      },
+      "png": "cues/D19/cue.png",
+      "png_sha256": "5ea646fb9865b90787b46fabd81f87adc5472633455d4951398b2c20e03f48fa",
+      "provenance": {
+        "method": "built-in imagegen",
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Storyboard/DECISIONS_v06.md"
+      },
+      "timing": {
+        "endFrame": 3698,
+        "startFrame": 3614,
+        "status": "measured Lawrence v05 alignment, audible sync UNVERIFIED"
+      },
+      "uniform_scale": 0.2845849802371542
+    },
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              545,
+              163,
+              1190,
+              454
+            ],
+            [
+              70,
+              494,
+              1700,
+              771
+            ]
+          ],
+          "mode": "creamOrange"
+        },
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D20_raw.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+        "status": "Author inspected all28 raw PNGs: spelling, broad rounded glyphs, paper texture and alpha; final composite pending",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/D20/face.png",
+      "face_mask_sha256": "2193ab45293e2ecc660c1f5291f4d7f8e277ff85340ca81d9c4c8c4f7909997f",
+      "id": "D20",
+      "lines": [
+        "THE",
+        "CRINOLINE"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          11,
+          35,
+          428,
+          199
+        ],
+        "alpha_height_px": 164,
+        "alpha_width_px": 417,
+        "face_bbox": [
+          17,
+          40,
+          421,
+          191
+        ],
+        "face_height_px": 72,
+        "face_line_boxes": [
+          [
+            135,
+            40,
+            294,
+            112
+          ],
+          [
+            17,
+            122,
+            421,
+            191
+          ]
+        ],
+        "face_line_heights_px": [
+          72,
+          69
+        ],
+        "size_px": [
+          439,
+          220
+        ]
+      },
+      "png": "cues/D20/cue.png",
+      "png_sha256": "756ca7bcbb6d737b9490d2f9fdbb65c70b5483785b4356a6565cd5d1f2fb1468",
+      "provenance": {
+        "method": "built-in imagegen",
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Storyboard/DECISIONS_v06.md"
+      },
+      "timing": {
+        "endFrame": 3876,
+        "startFrame": 3792,
+        "status": "measured Lawrence v05 alignment, audible sync UNVERIFIED"
+      },
+      "uniform_scale": 0.24742268041237114
+    },
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              130,
+              147,
+              1652,
+              442
+            ],
+            [
+              85,
+              488,
+              1702,
+              777
+            ]
+          ],
+          "mode": "creamOrange"
+        },
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D21_raw.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+        "status": "Author inspected all28 raw PNGs: spelling, broad rounded glyphs, paper texture and alpha; final composite pending",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/D21/face.png",
+      "face_mask_sha256": "fab60408cd9ebad604d51e381ed882e39b7bb2506782060cdce1110c8022b20b",
+      "id": "D21",
+      "lines": [
+        "MIND THE",
+        "DOORWAY"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          15,
+          30,
+          422,
+          197
+        ],
+        "alpha_height_px": 167,
+        "alpha_width_px": 407,
+        "face_bbox": [
+          21,
+          36,
+          415,
+          190
+        ],
+        "face_height_px": 72,
+        "face_line_boxes": [
+          [
+            32,
+            36,
+            403,
+            108
+          ],
+          [
+            21,
+            119,
+            415,
+            190
+          ]
+        ],
+        "face_line_heights_px": [
+          72,
+          71
+        ],
+        "size_px": [
+          433,
+          217
+        ]
+      },
+      "png": "cues/D21/cue.png",
+      "png_sha256": "971962839c989f0482b6c28e69a8e90a10903b40fed800cb578fba228051297e",
+      "provenance": {
+        "method": "built-in imagegen",
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Storyboard/DECISIONS_v06.md"
+      },
+      "timing": {
+        "endFrame": 4096,
+        "startFrame": 3977,
+        "status": "measured Lawrence v05 alignment, audible sync UNVERIFIED"
+      },
+      "uniform_scale": 0.2440677966101695
+    },
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              335,
+              135,
+              1184,
+              518
+            ],
+            [
+              80,
+              558,
+              1448,
+              938
+            ]
+          ],
+          "mode": "creamOrange"
+        },
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D22_raw.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+        "status": "Author inspected all28 raw PNGs: spelling, broad rounded glyphs, paper texture and alpha; final composite pending",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/D22/face.png",
+      "face_mask_sha256": "875c35cbfba03e740402a21e5aab15bc99810f55e64bd593b1c85d9d690463d2",
+      "id": "D22",
+      "lines": [
+        "THE",
+        "1920S"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          12,
+          14,
+          280,
+          184
+        ],
+        "alpha_height_px": 170,
+        "alpha_width_px": 268,
+        "face_bbox": [
+          17,
+          26,
+          272,
+          176
+        ],
+        "face_height_px": 71,
+        "face_line_boxes": [
+          [
+            65,
+            26,
+            223,
+            97
+          ],
+          [
+            17,
+            105,
+            272,
+            176
+          ]
+        ],
+        "face_line_heights_px": [
+          71,
+          71
+        ],
+        "size_px": [
+          289,
+          193
+        ]
+      },
+      "png": "cues/D22/cue.png",
+      "png_sha256": "cbd044a38bfcebf1e62fc08010124fd46c7df4423113c1f0eafb1f7fcc9c1105",
+      "provenance": {
+        "method": "built-in imagegen",
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Storyboard/DECISIONS_v06.md"
+      },
+      "timing": {
+        "endFrame": 4233,
+        "startFrame": 4150,
+        "status": "measured Lawrence v05 alignment, audible sync UNVERIFIED"
+      },
+      "uniform_scale": 0.18798955613577023
+    },
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              119,
+              136,
+              1431,
+              516
+            ],
+            [
+              178,
+              564,
+              1398,
+              920
+            ]
+          ],
+          "mode": "creamOrange"
+        },
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D23_raw.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+        "status": "Author inspected all28 raw PNGs: spelling, broad rounded glyphs, paper texture and alpha; final composite pending",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/D23/face.png",
+      "face_mask_sha256": "6c13aa40b535fe76d2928710bb0a7a05dc508ec5701dbe4cd43ff2c20b9c24d9",
+      "id": "D23",
+      "lines": [
+        "SHAPE",
+        "RESET"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          17,
+          22,
+          277,
+          182
+        ],
+        "alpha_height_px": 160,
+        "alpha_width_px": 260,
+        "face_bbox": [
+          23,
+          28,
+          271,
+          174
+        ],
+        "face_height_px": 70,
+        "face_line_boxes": [
+          [
+            23,
+            28,
+            271,
+            98
+          ],
+          [
+            34,
+            107,
+            265,
+            174
+          ]
+        ],
+        "face_line_heights_px": [
+          70,
+          67
+        ],
+        "size_px": [
+          292,
+          195
+        ]
+      },
+      "png": "cues/D23/cue.png",
+      "png_sha256": "f9b9dc1a992f65880d7c2b9ecd4302cefde08ac86ce2b7bff1beb8243fc723e2",
+      "provenance": {
+        "method": "built-in imagegen",
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Storyboard/DECISIONS_v06.md"
+      },
+      "timing": {
+        "endFrame": 4351,
+        "startFrame": 4265,
+        "status": "measured Lawrence v05 alignment, audible sync UNVERIFIED"
+      },
+      "uniform_scale": 0.18947368421052632
+    },
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              402,
+              68,
+              1766,
+              369
+            ],
+            [
+              161,
+              382,
+              1988,
+              670
+            ]
+          ],
+          "mode": "creamOrange"
+        },
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D24_raw.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+        "status": "Author inspected all28 raw PNGs: spelling, broad rounded glyphs, paper texture and alpha; final composite pending",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/D24/face.png",
+      "face_mask_sha256": "c1fd1da32e99c1b4c232ad87c96845dfc1f5d883eb938cf76f5627874468a1d4",
+      "id": "D24",
+      "lines": [
+        "TODAY'S",
+        "WARDROBE"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          35,
+          13,
+          482,
+          168
+        ],
+        "alpha_height_px": 155,
+        "alpha_width_px": 447,
+        "face_bbox": [
+          41,
+          16,
+          476,
+          160
+        ],
+        "face_height_px": 72,
+        "face_line_boxes": [
+          [
+            98,
+            16,
+            422,
+            88
+          ],
+          [
+            41,
+            92,
+            476,
+            160
+          ]
+        ],
+        "face_line_heights_px": [
+          72,
+          68
+        ],
+        "size_px": [
+          514,
+          176
+        ]
+      },
+      "png": "cues/D24/cue.png",
+      "png_sha256": "71f6880609bf720d2875072b7278477e878812bd090d20e5a471028c14c1a59d",
+      "provenance": {
+        "method": "built-in imagegen",
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Storyboard/DECISIONS_v06.md"
+      },
+      "timing": {
+        "endFrame": 4642,
+        "startFrame": 4558,
+        "status": "measured Lawrence v05 alignment, audible sync UNVERIFIED"
+      },
+      "uniform_scale": 0.23920265780730898
+    },
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              47,
+              243,
+              2123,
+              470
+            ]
+          ],
+          "mode": "creamOrange"
+        },
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D25b_raw.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+        "status": "Author inspected all28 raw PNGs: spelling, broad rounded glyphs, paper texture and alpha; final composite pending",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/D25/face.png",
+      "face_mask_sha256": "4bf5650c3f3eaa6c8a3bf1eb67a41b2e53b361e67955ba93d80ae240fcdc4144",
+      "id": "D25",
+      "lines": [
+        "TOMORROW'S HISTORY"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          11,
+          28,
+          679,
+          188
+        ],
+        "alpha_height_px": 160,
+        "alpha_width_px": 668,
+        "face_bbox": [
+          16,
+          77,
+          673,
+          149
+        ],
+        "face_height_px": 72,
+        "face_line_boxes": [
+          [
+            16,
+            77,
+            673,
+            149
+          ]
+        ],
+        "face_line_heights_px": [
+          72
+        ],
+        "size_px": [
+          690,
+          230
+        ]
+      },
+      "png": "cues/D25/cue.png",
+      "png_sha256": "245dfc137b78c464d8b2621fb02dc254e3bf44c7c710ea507060f0233bcea280",
+      "provenance": {
+        "method": "built-in imagegen",
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Storyboard/DECISIONS_v06.md"
+      },
+      "timing": {
+        "endFrame": 4905,
+        "startFrame": 4826,
+        "status": "measured Lawrence v05 alignment, audible sync UNVERIFIED"
+      },
+      "uniform_scale": 0.31718061674008813
+    },
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              54,
+              150,
+              2129,
+              517
+            ]
+          ],
+          "mode": "creamOrange"
+        },
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D26b_raw.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+        "status": "Author inspected all28 raw PNGs: spelling, broad rounded glyphs, paper texture and alpha; final composite pending",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/D26/face.png",
+      "face_mask_sha256": "ec18392c2625e4ec633caca0bbcceb2a6e5b90bffe9ee4927bb113fab271f19a",
+      "id": "D26",
+      "lines": [
+        "WE'RE NEXT"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          8,
+          5,
+          424,
+          131
+        ],
+        "alpha_height_px": 126,
+        "alpha_width_px": 416,
+        "face_bbox": [
+          11,
+          29,
+          418,
+          101
+        ],
+        "face_height_px": 72,
+        "face_line_boxes": [
+          [
+            11,
+            29,
+            418,
+            101
+          ]
+        ],
+        "face_line_heights_px": [
+          72
+        ],
+        "size_px": [
+          432,
+          141
+        ]
+      },
+      "png": "cues/D26/cue.png",
+      "png_sha256": "e9b29cc39f773faf5978bc607746a106f941a30fe84408f61ba1b60d9c4e04c4",
+      "provenance": {
+        "method": "built-in imagegen",
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Storyboard/DECISIONS_v06.md"
+      },
+      "timing": {
+        "endFrame": 5231,
+        "startFrame": 5110,
+        "status": "measured Lawrence v05 alignment, audible sync UNVERIFIED"
+      },
+      "uniform_scale": 0.19618528610354224
+    },
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              76,
+              110,
+              1815,
+              423
+            ],
+            [
+              467,
+              460,
+              1424,
+              758
+            ]
+          ],
+          "mode": "creamOrange"
+        },
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D27_raw.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+        "status": "Author inspected all28 raw PNGs: spelling, broad rounded glyphs, paper texture and alpha; final composite pending",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/D27/face.png",
+      "face_mask_sha256": "32f209c14267e6a34bdd942631c0afda892abfd9d60cc6792438e0b76c094a3c",
+      "id": "D27",
+      "lines": [
+        "WHO WORE",
+        "THIS?"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          11,
+          22,
+          424,
+          182
+        ],
+        "alpha_height_px": 160,
+        "alpha_width_px": 413,
+        "face_bbox": [
+          17,
+          28,
+          418,
+          174
+        ],
+        "face_height_px": 69,
+        "face_line_boxes": [
+          [
+            17,
+            28,
+            418,
+            97
+          ],
+          [
+            107,
+            106,
+            328,
+            174
+          ]
+        ],
+        "face_line_heights_px": [
+          69,
+          68
+        ],
+        "size_px": [
+          433,
+          193
+        ]
+      },
+      "png": "cues/D27/cue.png",
+      "png_sha256": "5343b0f8d787b8be45b28d8584dca73c4ea68ac09c22810d3c27de2727646327",
+      "provenance": {
+        "method": "built-in imagegen",
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Storyboard/DECISIONS_v06.md"
+      },
+      "timing": {
+        "endFrame": 5345,
+        "startFrame": 5261,
+        "status": "measured Lawrence v05 alignment, audible sync UNVERIFIED"
+      },
+      "uniform_scale": 0.23003194888178913
+    },
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              356,
+              169,
+              1402,
+              465
+            ],
+            [
+              86,
+              487,
+              1691,
+              768
+            ]
+          ],
+          "mode": "creamOrange"
+        },
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D28_raw.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+        "status": "Author inspected all28 raw PNGs: spelling, broad rounded glyphs, paper texture and alpha; final composite pending",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/D28/face.png",
+      "face_mask_sha256": "b1dadd04366e5e8cf441eb66103a5bf494c72fc74f8e9a542e1cacaa56b1c25b",
+      "id": "D28",
+      "lines": [
+        "WHAT",
+        "SURVIVES?"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          15,
+          35,
+          418,
+          193
+        ],
+        "alpha_height_px": 158,
+        "alpha_width_px": 403,
+        "face_bbox": [
+          21,
+          41,
+          411,
+          187
+        ],
+        "face_height_px": 72,
+        "face_line_boxes": [
+          [
+            87,
+            41,
+            341,
+            113
+          ],
+          [
+            21,
+            118,
+            411,
+            187
+          ]
+        ],
+        "face_line_heights_px": [
+          72,
+          69
+        ],
+        "size_px": [
+          432,
+          216
+        ]
+      },
+      "png": "cues/D28/cue.png",
+      "png_sha256": "0364baf9f48de72b2e6f12df03b7f138b87efbe41cef2b85ffeb641f8ae061c8",
+      "provenance": {
+        "method": "built-in imagegen",
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Storyboard/DECISIONS_v06.md"
+      },
+      "timing": {
+        "endFrame": 5529,
+        "startFrame": 5398,
+        "status": "measured Lawrence v05 alignment, audible sync UNVERIFIED"
+      },
+      "uniform_scale": 0.24324324324324326
+    }
+  ],
+  "helper_sha256": "7e95d1b95b7a7b5c3da64e21c7e268d4a7e7b51fc4a5cc963b9a7bbf552945e5",
+  "helper_version": "1.0.1",
+  "inputs": [
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+      "sha256": "ba67eb5c6a99c647887765ec9da7dc0ce7576c990d5e37aa04d3a4533c3ff07b"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v05/C01_raw.png",
+      "sha256": "db458d3e8179cf384dc43e7ce7c7fa7301202023766692e0e9c4b5d4c8162b73"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v05/C02_raw.png",
+      "sha256": "897d8973dcfa5dbc19071ff1729d734d34394b0b2d1767c600086463b6fcc611"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v05/C03_raw.png",
+      "sha256": "6eb30f428db626d35e65b1fe9f380c39d52a6b3301c3d0f2201768296b76e347"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v05/C04b_raw.png",
+      "sha256": "4b86ed027b056c17ee957772fd1b9ee4e2b605e8805bd571e1f9808a1debce4a"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v05/C05b_raw.png",
+      "sha256": "5b4e1eaad6a5d11dbd1f4ad481703f92d4645f3bba31cae4db591bdbeb57efb7"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v05/C06_raw.png",
+      "sha256": "329339234645a3548284423a0542bf8c030a54631936d42ca81c04cd55fef7ba"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D01b_raw.png",
+      "sha256": "c017597c9ce2be94d123b34bad3bbc10797a06676b43b7572655848235252b0a"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D02_raw.png",
+      "sha256": "57269be266673dfdf65cbc0b65994b148660c53b1b97158ab508d4d64f3fd76d"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D03_raw.png",
+      "sha256": "ae378a493bf451f43fe35757d3628b8011bd3d02029bba6c2e2bd474195337c7"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D04b_raw.png",
+      "sha256": "d825fac5892bfc5ab0f7d663f3ad16e2aa99ae96cf34a801827754725332b3c8"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D05_raw.png",
+      "sha256": "3743ac2e031499298338d9260b4894d6346166569fbc5e3617806750572de903"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D06_raw.png",
+      "sha256": "c39f07d6a4ef0635f88a0880dccdf7415c01a24b2ca7c8f352b7475b2fdc0014"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D07_raw.png",
+      "sha256": "ff68f83f3842398f35271faeb2e1e022384dfda422c73b60fb0cc4d6ef023c37"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D08_raw.png",
+      "sha256": "2ed2da9ef464de66ffc7a0d1795b79646764867df2fc96fbdc01c7695217dd1f"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D09_raw.png",
+      "sha256": "c8764a8abbbae3d8d61abb3171a3303130575d1f7bbea89a167ca8e80e1e944b"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D10_raw.png",
+      "sha256": "cceca85e2ae10a403ec850e421a54bd8464060b40a9e3f42d75a30ae861f586e"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D11_raw.png",
+      "sha256": "a6038ca6d6e1434a8498a8d4b31697c2b3c2ad59fda3e609264f05c450c7f9a5"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D12b_raw.png",
+      "sha256": "42aee21947d2c7d6ccb620820124f6a400943e617d5eb42e37b2e0117688fde1"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D13b_raw.png",
+      "sha256": "c1c62100610403974fd0d3b112853840580b0335c0077bed421310380c50a2f5"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D14b_raw.png",
+      "sha256": "cd952141b33adaa19c1e27a2e925f54e83152518db219f91abb8ebd995d84f6f"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D15_raw.png",
+      "sha256": "d9c2ec0eaab19415adee06afed1c4f83d94d2ff430776976f4fd40ba7bac702d"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D16_raw.png",
+      "sha256": "b967690cedbd1e44d1d4895783e01868cc5a455a2e016bcc3eb5c63edc0460dd"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D17_raw.png",
+      "sha256": "90fae538e059ec74a270a75a6d5f6e7cb5cd716cf608a92cb288b6538dfe0e50"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D18c_raw.png",
+      "sha256": "6379639b26473d63c4f779b5df3bdb38e4fb1759a36a0445d3fdeabd81db43e9"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D19_raw.png",
+      "sha256": "a70e1d00b30cf95a1b6d5350fc3ba5071284883caccf6db340040916dea1313f"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D20_raw.png",
+      "sha256": "fb0f52a26f3be811bdb9f7004ceea500dbe2699e09d09cf8739577a88b6862d4"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D21_raw.png",
+      "sha256": "dadae402e17f81872d19195ceaa1132de4b7ddc07874232c122769e0ba20692e"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D22_raw.png",
+      "sha256": "226b4248ba0cc8d63dee40f7a2645dd8777aa30d2f9907ea38ac8211c9b00072"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D23_raw.png",
+      "sha256": "d840370a949c54bd7cb9439d00ac0bb22fae71be80c29acc6a5e54bb4208fbf6"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D24_raw.png",
+      "sha256": "ca7e8cd12ee29f496e94938a9eafd8295edef2051d2a5b7b54efa6bf71297d1f"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D25b_raw.png",
+      "sha256": "d3f53df0613395947f725005a1f108ba7f9c77f6a99ffe99c8f0ed77e2a64509"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D26b_raw.png",
+      "sha256": "ea7ad9a4a21f2749c89b4e320d8ff82a61b55fb8bb78dbc4c914811c98f757fd"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D27_raw.png",
+      "sha256": "6642b09f035f45920c9741a48b79ba02192fbeaa5897e18cb2f2f0fe9a9619d7"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D28_raw.png",
+      "sha256": "7ddd7b60af6bbdf473ab0042774f4ed43dc8e3b3603ef092f34b128ca53b8beb"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/caption_input_v06.json",
+      "sha256": "342b159c176522f96fc8ca61f3c25578b3b8c6358f14c459e1f35617b8e83db5"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/preflight_scenes/V01_C01_B.png",
+      "sha256": "1f728a2f673cc8c83ae33069715e307b344cc21fb647b96177399f16c05d3339"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/preflight_scenes/V02_D02_B.png",
+      "sha256": "03b8c15834f22094764cddf2ddb1b938a9460bf5d90e0daedac205e8503f68ea"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/preflight_scenes/V03_D03_B.png",
+      "sha256": "6bd5ace6c7c3865ad83c9e097b93123490cbbffdf8fb76edbbb5316dc618cfd9"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/preflight_scenes/V04_D04_B.png",
+      "sha256": "e62931cd6c95207de258ebbe6cb8a6ecf29bc10102ca46ed544d99ed4c1b6467"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/preflight_scenes/V05_D05_B.png",
+      "sha256": "aa46f9fe9094492e424b711e09128166b14e0457f379bd2b30561f89b3b37680"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/preflight_scenes/V06_D06_B.png",
+      "sha256": "a68fba605e3b6d5115a2611f5a0d460aed5f6ea947805d5e875a77c59d78e541"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/preflight_scenes/V07_D01_B.png",
+      "sha256": "894a1e52188df369933ded173a921d9e3305b6019535aa15d7cf8278dd1cf5bb"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/preflight_scenes/V08_C02_B.png",
+      "sha256": "55e825085baf3044063b82cb750a198003efb7d9d626ef20f23b8d712dea8971"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/preflight_scenes/V10_D07_B.png",
+      "sha256": "644525840287cc8bb54b7c59ab6d459e51ecd97181717a23487cca14ace72641"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/preflight_scenes/V11_D08_B.png",
+      "sha256": "37cc77fecdc2e04ba11bacb3ee5bddd129bde62c0d0848714a0384928894f147"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/preflight_scenes/V12_D09_B.png",
+      "sha256": "a604bbfae991195ee1c422670eac7ff92cdf51b34b1af862910549c621bfba0a"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/preflight_scenes/V13_D10_B.png",
+      "sha256": "0fbf7ad71585239e95cc4951de43aa9e020bda38952b7468f0a4894630d38506"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/preflight_scenes/V14_D11_B.png",
+      "sha256": "e27102668053fcf4a5744858b0e5a5a7c4f04b40459e5c7b547e06ea984408eb"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/preflight_scenes/V16_D12_B.png",
+      "sha256": "1f36ea5882abedd335275e0ef49e22251c7c5c7fc5f47a0b7ec5cfc8cdf991c6"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/preflight_scenes/V17_D13_B.png",
+      "sha256": "0e65bb9443be1924a8afe6d54f6873d4579a1827bce9d63609066a511191b40a"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/preflight_scenes/V18_D16_B.png",
+      "sha256": "481a0afb42aae2657c78b5641c1f4ce5b92ba2ce0aa778fafe87d082b39d581e"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/preflight_scenes/V19_D14_B.png",
+      "sha256": "32f6c5b169df48186504b8d97010343889d66e6f16cc67d1a0cd81970366aa81"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/preflight_scenes/V20_D15_B.png",
+      "sha256": "4b20999f3452e7b68ec91767df30ea44d7317607df2c7a9642f3b2f2bde02190"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/preflight_scenes/V22_C03_B.png",
+      "sha256": "34be8699c3cfa44db9d15a8c885bd511c8a0a9ec5cf5f7c18ec5d33770301e95"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/preflight_scenes/V23_D17_B.png",
+      "sha256": "a5e4cfe7d2cc327d5ea519c9fd204fa336302b2c9d74772a1ceec269a1954903"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/preflight_scenes/V24_C04_B.png",
+      "sha256": "1236915265ee724a48847b9107f9a3226525354c7ae9a83799ee75dbe0163ba4"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/preflight_scenes/V25_D18_B.png",
+      "sha256": "4a8ab82bb80bfc0ab6b5f08f0d6524a11189088bc4ea1817593d354d56780407"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/preflight_scenes/V26_D19_B.png",
+      "sha256": "902d8fe86114f6d609f2f1a9aafd44969c09651deefc03f495ebc7402b88aad7"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/preflight_scenes/V27_D20_B.png",
+      "sha256": "f0679b6c63f12c7a91005caf58120112189dca4ec265ff9872906ec3b43f5f9a"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/preflight_scenes/V28_D21_B.png",
+      "sha256": "9f972fd68618bf07ad279b6e48986758e2b2199d685dfe28c37b02ae2a6507de"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/preflight_scenes/V29_D22_B.png",
+      "sha256": "e9ea4a5e665477aef230ed5007caaee39fcb674873d6200988d8ee92ae0a7633"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/preflight_scenes/V30_D23_B.png",
+      "sha256": "3d27c4834bd60894a39b42b430d7f13df30c104cabc94f1d6b61361e02c262be"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/preflight_scenes/V32_D24_B.png",
+      "sha256": "c7a60123b8cbeb5ba1fc44905ce28bad13d7dd600bd13c9be4c72f63f2994f66"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/preflight_scenes/V34_D25_B.png",
+      "sha256": "5096f73d6766040a5ecce66e7d212b10ccb6f8758ed508a283d932d7be265f56"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/preflight_scenes/V35_C05_B.png",
+      "sha256": "d15a97722aca40a8875215b3ffdfaad5a39ab962f5352e01b6b916f959b6510a"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/preflight_scenes/V36_D26_B.png",
+      "sha256": "b3de383992c1257d12b60e6349cda267a1287a57b9ba8d190e2858df08f850e1"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/preflight_scenes/V37_D27_B.png",
+      "sha256": "47c6d15c082391a1263125516035e9fcaf59c7b793aadab14207a7b61ce277ce"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/preflight_scenes/V38_D28_B.png",
+      "sha256": "9e48f717f0eeaeacc62e3f03af430509013654328d1197f6dacd33ccd24de8b7"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/preflight_scenes/V39_C06_B.png",
+      "sha256": "30b3caaf5a4becb172c4d8c770f9ae79ce528fe80bd91b784c508547dbb05af2"
+    }
+  ],
+  "manifest_sha256": "342b159c176522f96fc8ca61f3c25578b3b8c6358f14c459e1f35617b8e83db5",
+  "pairs": [
+    {
+      "anchor": "primary",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.12
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              669,
+              50,
+              1249,
+              210
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            660,
+            22
+          ],
+          "phone_preview": "previews/V01_C01_B/C01/primary__phone.png",
+          "preview": "previews/V01_C01_B/C01/primary.png"
+        },
+        {
+          "anchor": "alternate",
+          "center": [
+            0.17,
+            0.18
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              35,
+              115,
+              615,
+              275
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            26,
+            87
+          ],
+          "phone_preview": "previews/V01_C01_B/C01/alternate__phone.png",
+          "preview": "previews/V01_C01_B/C01/alternate.png"
+        }
+      ],
+      "cue": "C01",
+      "scene": "V01_C01_B"
+    },
+    {
+      "anchor": "primary",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.12
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              680,
+              44,
+              1243,
+              223
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            673,
+            36
+          ],
+          "phone_preview": "previews/V08_C02_B/C02/primary__phone.png",
+          "preview": "previews/V08_C02_B/C02/primary.png"
+        },
+        {
+          "anchor": "alternate",
+          "center": [
+            0.17,
+            0.18
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              46,
+              108,
+              609,
+              287
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            39,
+            100
+          ],
+          "phone_preview": "previews/V08_C02_B/C02/alternate__phone.png",
+          "preview": "previews/V08_C02_B/C02/alternate.png"
+        }
+      ],
+      "cue": "C02",
+      "scene": "V08_C02_B"
+    },
+    {
+      "anchor": "alternate",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.12
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              736,
+              58,
+              1186,
+              204
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            732,
+            53
+          ],
+          "phone_preview": "previews/V22_C03_B/C03/primary__phone.png",
+          "preview": "previews/V22_C03_B/C03/primary.png"
+        },
+        {
+          "anchor": "alternate",
+          "center": [
+            0.17,
+            0.18
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              102,
+              122,
+              552,
+              268
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            98,
+            117
+          ],
+          "phone_preview": "previews/V22_C03_B/C03/alternate__phone.png",
+          "preview": "previews/V22_C03_B/C03/alternate.png"
+        }
+      ],
+      "cue": "C03",
+      "scene": "V22_C03_B"
+    },
+    {
+      "anchor": "alternate",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.12
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              722,
+              53,
+              1198,
+              215
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            702,
+            38
+          ],
+          "phone_preview": "previews/V24_C04_B/C04/primary__phone.png",
+          "preview": "previews/V24_C04_B/C04/primary.png"
+        },
+        {
+          "anchor": "alternate",
+          "center": [
+            0.17,
+            0.18
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              88,
+              117,
+              564,
+              279
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            68,
+            102
+          ],
+          "phone_preview": "previews/V24_C04_B/C04/alternate__phone.png",
+          "preview": "previews/V24_C04_B/C04/alternate.png"
+        }
+      ],
+      "cue": "C04",
+      "scene": "V24_C04_B"
+    },
+    {
+      "anchor": "primary",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.12
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              747,
+              53,
+              1172,
+              208
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            712,
+            43
+          ],
+          "phone_preview": "previews/V35_C05_B/C05/primary__phone.png",
+          "preview": "previews/V35_C05_B/C05/primary.png"
+        },
+        {
+          "anchor": "alternate",
+          "center": [
+            0.17,
+            0.18
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              114,
+              117,
+              539,
+              272
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            79,
+            107
+          ],
+          "phone_preview": "previews/V35_C05_B/C05/alternate__phone.png",
+          "preview": "previews/V35_C05_B/C05/alternate.png"
+        }
+      ],
+      "cue": "C05",
+      "scene": "V35_C05_B"
+    },
+    {
+      "anchor": "primary",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.12
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              699,
+              47,
+              1221,
+              214
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            674,
+            30
+          ],
+          "phone_preview": "previews/V39_C06_B/C06/primary__phone.png",
+          "preview": "previews/V39_C06_B/C06/primary.png"
+        },
+        {
+          "anchor": "alternate",
+          "center": [
+            0.17,
+            0.18
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              65,
+              112,
+              587,
+              279
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            40,
+            95
+          ],
+          "phone_preview": "previews/V39_C06_B/C06/alternate__phone.png",
+          "preview": "previews/V39_C06_B/C06/alternate.png"
+        }
+      ],
+      "cue": "C06",
+      "scene": "V39_C06_B"
+    },
+    {
+      "anchor": "primary",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.12
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              709,
+              52,
+              1210,
+              208
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            674,
+            29
+          ],
+          "phone_preview": "previews/V07_D01_B/D01/primary__phone.png",
+          "preview": "previews/V07_D01_B/D01/primary.png"
+        },
+        {
+          "anchor": "alternate",
+          "center": [
+            0.17,
+            0.18
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              75,
+              117,
+              576,
+              273
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            40,
+            94
+          ],
+          "phone_preview": "previews/V07_D01_B/D01/alternate__phone.png",
+          "preview": "previews/V07_D01_B/D01/alternate.png"
+        }
+      ],
+      "cue": "D01",
+      "scene": "V07_D01_B"
+    },
+    {
+      "anchor": "primary",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.12
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              723,
+              46,
+              1198,
+              214
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            666,
+            28
+          ],
+          "phone_preview": "previews/V02_D02_B/D02/primary__phone.png",
+          "preview": "previews/V02_D02_B/D02/primary.png"
+        },
+        {
+          "anchor": "alternate",
+          "center": [
+            0.17,
+            0.18
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              90,
+              110,
+              565,
+              278
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            33,
+            92
+          ],
+          "phone_preview": "previews/V02_D02_B/D02/alternate__phone.png",
+          "preview": "previews/V02_D02_B/D02/alternate.png"
+        }
+      ],
+      "cue": "D02",
+      "scene": "V02_D02_B"
+    },
+    {
+      "anchor": "primary",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.12
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              742,
+              6,
+              1178,
+              212
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            732,
+            1
+          ],
+          "phone_preview": "previews/V03_D03_B/D03/primary__phone.png",
+          "preview": "previews/V03_D03_B/D03/primary.png"
+        },
+        {
+          "anchor": "alternate",
+          "center": [
+            0.17,
+            0.18
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              108,
+              70,
+              544,
+              276
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            98,
+            65
+          ],
+          "phone_preview": "previews/V03_D03_B/D03/alternate__phone.png",
+          "preview": "previews/V03_D03_B/D03/alternate.png"
+        }
+      ],
+      "cue": "D03",
+      "scene": "V03_D03_B"
+    },
+    {
+      "anchor": "primary",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.12
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              667,
+              49,
+              1254,
+              226
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            658,
+            35
+          ],
+          "phone_preview": "previews/V04_D04_B/D04/primary__phone.png",
+          "preview": "previews/V04_D04_B/D04/primary.png"
+        },
+        {
+          "anchor": "alternate",
+          "center": [
+            0.17,
+            0.18
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              33,
+              113,
+              620,
+              290
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            24,
+            99
+          ],
+          "phone_preview": "previews/V04_D04_B/D04/alternate__phone.png",
+          "preview": "previews/V04_D04_B/D04/alternate.png"
+        }
+      ],
+      "cue": "D04",
+      "scene": "V04_D04_B"
+    },
+    {
+      "anchor": "primary",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.12
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              702,
+              55,
+              1220,
+              206
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            696,
+            34
+          ],
+          "phone_preview": "previews/V05_D05_B/D05/primary__phone.png",
+          "preview": "previews/V05_D05_B/D05/primary.png"
+        },
+        {
+          "anchor": "alternate",
+          "center": [
+            0.17,
+            0.18
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              68,
+              119,
+              586,
+              270
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            62,
+            98
+          ],
+          "phone_preview": "previews/V05_D05_B/D05/alternate__phone.png",
+          "preview": "previews/V05_D05_B/D05/alternate.png"
+        }
+      ],
+      "cue": "D05",
+      "scene": "V05_D05_B"
+    },
+    {
+      "anchor": "primary",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.12
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              690,
+              51,
+              1232,
+              211
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            669,
+            30
+          ],
+          "phone_preview": "previews/V06_D06_B/D06/primary__phone.png",
+          "preview": "previews/V06_D06_B/D06/primary.png"
+        },
+        {
+          "anchor": "alternate",
+          "center": [
+            0.17,
+            0.18
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              56,
+              115,
+              598,
+              275
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            35,
+            94
+          ],
+          "phone_preview": "previews/V06_D06_B/D06/alternate__phone.png",
+          "preview": "previews/V06_D06_B/D06/alternate.png"
+        }
+      ],
+      "cue": "D06",
+      "scene": "V06_D06_B"
+    },
+    {
+      "anchor": "primary",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.12
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              762,
+              49,
+              1159,
+              212
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            751,
+            13
+          ],
+          "phone_preview": "previews/V10_D07_B/D07/primary__phone.png",
+          "preview": "previews/V10_D07_B/D07/primary.png"
+        },
+        {
+          "anchor": "alternate",
+          "center": [
+            0.17,
+            0.18
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              128,
+              113,
+              525,
+              276
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            117,
+            77
+          ],
+          "phone_preview": "previews/V10_D07_B/D07/alternate__phone.png",
+          "preview": "previews/V10_D07_B/D07/alternate.png"
+        }
+      ],
+      "cue": "D07",
+      "scene": "V10_D07_B"
+    },
+    {
+      "anchor": "primary",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.12
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              677,
+              49,
+              1242,
+              225
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            655,
+            25
+          ],
+          "phone_preview": "previews/V11_D08_B/D08/primary__phone.png",
+          "preview": "previews/V11_D08_B/D08/primary.png"
+        },
+        {
+          "anchor": "alternate",
+          "center": [
+            0.17,
+            0.18
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              43,
+              113,
+              608,
+              289
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            21,
+            89
+          ],
+          "phone_preview": "previews/V11_D08_B/D08/alternate__phone.png",
+          "preview": "previews/V11_D08_B/D08/alternate.png"
+        }
+      ],
+      "cue": "D08",
+      "scene": "V11_D08_B"
+    },
+    {
+      "anchor": "primary",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.12
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              694,
+              47,
+              1229,
+              215
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            672,
+            27
+          ],
+          "phone_preview": "previews/V12_D09_B/D09/primary__phone.png",
+          "preview": "previews/V12_D09_B/D09/primary.png"
+        },
+        {
+          "anchor": "alternate",
+          "center": [
+            0.17,
+            0.18
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              60,
+              112,
+              595,
+              280
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            38,
+            92
+          ],
+          "phone_preview": "previews/V12_D09_B/D09/alternate__phone.png",
+          "preview": "previews/V12_D09_B/D09/alternate.png"
+        }
+      ],
+      "cue": "D09",
+      "scene": "V12_D09_B"
+    },
+    {
+      "anchor": "primary",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.12
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              811,
+              54,
+              1112,
+              208
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            795,
+            31
+          ],
+          "phone_preview": "previews/V13_D10_B/D10/primary__phone.png",
+          "preview": "previews/V13_D10_B/D10/primary.png"
+        },
+        {
+          "anchor": "alternate",
+          "center": [
+            0.17,
+            0.18
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              177,
+              119,
+              478,
+              273
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            161,
+            96
+          ],
+          "phone_preview": "previews/V13_D10_B/D10/alternate__phone.png",
+          "preview": "previews/V13_D10_B/D10/alternate.png"
+        }
+      ],
+      "cue": "D10",
+      "scene": "V13_D10_B"
+    },
+    {
+      "anchor": "alternate",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.12
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              681,
+              51,
+              1238,
+              219
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            664,
+            25
+          ],
+          "phone_preview": "previews/V14_D11_B/D11/primary__phone.png",
+          "preview": "previews/V14_D11_B/D11/primary.png"
+        },
+        {
+          "anchor": "alternate",
+          "center": [
+            0.17,
+            0.18
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              48,
+              115,
+              605,
+              283
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            31,
+            89
+          ],
+          "phone_preview": "previews/V14_D11_B/D11/alternate__phone.png",
+          "preview": "previews/V14_D11_B/D11/alternate.png"
+        }
+      ],
+      "cue": "D11",
+      "scene": "V14_D11_B"
+    },
+    {
+      "anchor": "alternate",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.12
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              707,
+              52,
+              1215,
+              204
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            702,
+            39
+          ],
+          "phone_preview": "previews/V16_D12_B/D12/primary__phone.png",
+          "preview": "previews/V16_D12_B/D12/primary.png"
+        },
+        {
+          "anchor": "alternate",
+          "center": [
+            0.17,
+            0.18
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              73,
+              116,
+              581,
+              268
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            68,
+            103
+          ],
+          "phone_preview": "previews/V16_D12_B/D12/alternate__phone.png",
+          "preview": "previews/V16_D12_B/D12/alternate.png"
+        }
+      ],
+      "cue": "D12",
+      "scene": "V16_D12_B"
+    },
+    {
+      "anchor": "alternate",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.12
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              735,
+              66,
+              1187,
+              212
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            726,
+            54
+          ],
+          "phone_preview": "previews/V17_D13_B/D13/primary__phone.png",
+          "preview": "previews/V17_D13_B/D13/primary.png"
+        },
+        {
+          "anchor": "alternate",
+          "center": [
+            0.17,
+            0.18
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              101,
+              130,
+              553,
+              276
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            92,
+            118
+          ],
+          "phone_preview": "previews/V17_D13_B/D13/alternate__phone.png",
+          "preview": "previews/V17_D13_B/D13/alternate.png"
+        }
+      ],
+      "cue": "D13",
+      "scene": "V17_D13_B"
+    },
+    {
+      "anchor": "alternate",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.12
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              851,
+              89,
+              1068,
+              173
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            798,
+            75
+          ],
+          "phone_preview": "previews/V19_D14_B/D14/primary__phone.png",
+          "preview": "previews/V19_D14_B/D14/primary.png"
+        },
+        {
+          "anchor": "alternate",
+          "center": [
+            0.17,
+            0.18
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              218,
+              153,
+              435,
+              237
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            165,
+            139
+          ],
+          "phone_preview": "previews/V19_D14_B/D14/alternate__phone.png",
+          "preview": "previews/V19_D14_B/D14/alternate.png"
+        }
+      ],
+      "cue": "D14",
+      "scene": "V19_D14_B"
+    },
+    {
+      "anchor": "alternate",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.12
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              677,
+              45,
+              1244,
+              215
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            650,
+            17
+          ],
+          "phone_preview": "previews/V20_D15_B/D15/primary__phone.png",
+          "preview": "previews/V20_D15_B/D15/primary.png"
+        },
+        {
+          "anchor": "alternate",
+          "center": [
+            0.17,
+            0.18
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              43,
+              110,
+              610,
+              280
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            16,
+            82
+          ],
+          "phone_preview": "previews/V20_D15_B/D15/alternate__phone.png",
+          "preview": "previews/V20_D15_B/D15/alternate.png"
+        }
+      ],
+      "cue": "D15",
+      "scene": "V20_D15_B"
+    },
+    {
+      "anchor": "alternate",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.12
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              806,
+              21,
+              1114,
+              227
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            797,
+            15
+          ],
+          "phone_preview": "previews/V18_D16_B/D16/primary__phone.png",
+          "preview": "previews/V18_D16_B/D16/primary.png"
+        },
+        {
+          "anchor": "alternate",
+          "center": [
+            0.17,
+            0.18
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              172,
+              86,
+              480,
+              292
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            163,
+            80
+          ],
+          "phone_preview": "previews/V18_D16_B/D16/alternate__phone.png",
+          "preview": "previews/V18_D16_B/D16/alternate.png"
+        }
+      ],
+      "cue": "D16",
+      "scene": "V18_D16_B"
+    },
+    {
+      "anchor": "alternate",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.12
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              800,
+              53,
+              1120,
+              208
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            796,
+            20
+          ],
+          "phone_preview": "previews/V23_D17_B/D17/primary__phone.png",
+          "preview": "previews/V23_D17_B/D17/primary.png"
+        },
+        {
+          "anchor": "alternate",
+          "center": [
+            0.17,
+            0.18
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              167,
+              117,
+              487,
+              272
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            163,
+            84
+          ],
+          "phone_preview": "previews/V23_D17_B/D17/alternate__phone.png",
+          "preview": "previews/V23_D17_B/D17/alternate.png"
+        }
+      ],
+      "cue": "D17",
+      "scene": "V23_D17_B"
+    },
+    {
+      "anchor": "alternate",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.12
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              748,
+              91,
+              1173,
+              203
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            732,
+            56
+          ],
+          "phone_preview": "previews/V25_D18_B/D18/primary__phone.png",
+          "preview": "previews/V25_D18_B/D18/primary.png"
+        },
+        {
+          "anchor": "alternate",
+          "center": [
+            0.17,
+            0.18
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              114,
+              155,
+              539,
+              267
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            98,
+            120
+          ],
+          "phone_preview": "previews/V25_D18_B/D18/alternate__phone.png",
+          "preview": "previews/V25_D18_B/D18/alternate.png"
+        }
+      ],
+      "cue": "D18",
+      "scene": "V25_D18_B"
+    },
+    {
+      "anchor": "alternate",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.12
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              683,
+              47,
+              1238,
+              214
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            655,
+            23
+          ],
+          "phone_preview": "previews/V26_D19_B/D19/primary__phone.png",
+          "preview": "previews/V26_D19_B/D19/primary.png"
+        },
+        {
+          "anchor": "alternate",
+          "center": [
+            0.17,
+            0.18
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              49,
+              112,
+              604,
+              279
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            21,
+            88
+          ],
+          "phone_preview": "previews/V26_D19_B/D19/alternate__phone.png",
+          "preview": "previews/V26_D19_B/D19/alternate.png"
+        }
+      ],
+      "cue": "D19",
+      "scene": "V26_D19_B"
+    },
+    {
+      "anchor": "alternate",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.12
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              752,
+              49,
+              1169,
+              213
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            741,
+            14
+          ],
+          "phone_preview": "previews/V27_D20_B/D20/primary__phone.png",
+          "preview": "previews/V27_D20_B/D20/primary.png"
+        },
+        {
+          "anchor": "alternate",
+          "center": [
+            0.17,
+            0.18
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              118,
+              114,
+              535,
+              278
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            107,
+            79
+          ],
+          "phone_preview": "previews/V27_D20_B/D20/alternate__phone.png",
+          "preview": "previews/V27_D20_B/D20/alternate.png"
+        }
+      ],
+      "cue": "D20",
+      "scene": "V27_D20_B"
+    },
+    {
+      "anchor": "alternate",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.12
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              757,
+              47,
+              1164,
+              214
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            742,
+            17
+          ],
+          "phone_preview": "previews/V28_D21_B/D21/primary__phone.png",
+          "preview": "previews/V28_D21_B/D21/primary.png"
+        },
+        {
+          "anchor": "alternate",
+          "center": [
+            0.17,
+            0.18
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              123,
+              111,
+              530,
+              278
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            108,
+            81
+          ],
+          "phone_preview": "previews/V28_D21_B/D21/alternate__phone.png",
+          "preview": "previews/V28_D21_B/D21/alternate.png"
+        }
+      ],
+      "cue": "D21",
+      "scene": "V28_D21_B"
+    },
+    {
+      "anchor": "alternate",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.12
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              828,
+              43,
+              1096,
+              213
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            816,
+            29
+          ],
+          "phone_preview": "previews/V29_D22_B/D22/primary__phone.png",
+          "preview": "previews/V29_D22_B/D22/primary.png"
+        },
+        {
+          "anchor": "alternate",
+          "center": [
+            0.17,
+            0.18
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              194,
+              107,
+              462,
+              277
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            182,
+            93
+          ],
+          "phone_preview": "previews/V29_D22_B/D22/alternate__phone.png",
+          "preview": "previews/V29_D22_B/D22/alternate.png"
+        }
+      ],
+      "cue": "D22",
+      "scene": "V29_D22_B"
+    },
+    {
+      "anchor": "alternate",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.12
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              830,
+              51,
+              1090,
+              211
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            813,
+            29
+          ],
+          "phone_preview": "previews/V30_D23_B/D23/primary__phone.png",
+          "preview": "previews/V30_D23_B/D23/primary.png"
+        },
+        {
+          "anchor": "alternate",
+          "center": [
+            0.17,
+            0.18
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              196,
+              115,
+              456,
+              275
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            179,
+            93
+          ],
+          "phone_preview": "previews/V30_D23_B/D23/alternate__phone.png",
+          "preview": "previews/V30_D23_B/D23/alternate.png"
+        }
+      ],
+      "cue": "D23",
+      "scene": "V30_D23_B"
+    },
+    {
+      "anchor": "primary",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.12
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              737,
+              55,
+              1184,
+              210
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            702,
+            42
+          ],
+          "phone_preview": "previews/V32_D24_B/D24/primary__phone.png",
+          "preview": "previews/V32_D24_B/D24/primary.png"
+        },
+        {
+          "anchor": "alternate",
+          "center": [
+            0.17,
+            0.18
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              103,
+              119,
+              550,
+              274
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            68,
+            106
+          ],
+          "phone_preview": "previews/V32_D24_B/D24/alternate__phone.png",
+          "preview": "previews/V32_D24_B/D24/alternate.png"
+        }
+      ],
+      "cue": "D24",
+      "scene": "V32_D24_B"
+    },
+    {
+      "anchor": "primary",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.12
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              627,
+              45,
+              1295,
+              205
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            616,
+            17
+          ],
+          "phone_preview": "previews/V34_D25_B/D25/primary__phone.png",
+          "preview": "previews/V34_D25_B/D25/primary.png"
+        },
+        {
+          "anchor": "alternate",
+          "center": [
+            0.17,
+            0.18
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              -7,
+              109,
+              661,
+              269
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "FAIL",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            -18,
+            81
+          ],
+          "phone_preview": "previews/V34_D25_B/D25/alternate__phone.png",
+          "preview": "previews/V34_D25_B/D25/alternate.png"
+        }
+      ],
+      "cue": "D25",
+      "scene": "V34_D25_B"
+    },
+    {
+      "anchor": "primary",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.12
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              754,
+              70,
+              1170,
+              196
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            746,
+            65
+          ],
+          "phone_preview": "previews/V36_D26_B/D26/primary__phone.png",
+          "preview": "previews/V36_D26_B/D26/primary.png"
+        },
+        {
+          "anchor": "alternate",
+          "center": [
+            0.17,
+            0.18
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              120,
+              134,
+              536,
+              260
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            112,
+            129
+          ],
+          "phone_preview": "previews/V36_D26_B/D26/alternate__phone.png",
+          "preview": "previews/V36_D26_B/D26/alternate.png"
+        }
+      ],
+      "cue": "D26",
+      "scene": "V36_D26_B"
+    },
+    {
+      "anchor": "primary",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.12
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              753,
+              51,
+              1166,
+              211
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            742,
+            29
+          ],
+          "phone_preview": "previews/V37_D27_B/D27/primary__phone.png",
+          "preview": "previews/V37_D27_B/D27/primary.png"
+        },
+        {
+          "anchor": "alternate",
+          "center": [
+            0.17,
+            0.18
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              120,
+              115,
+              533,
+              275
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            109,
+            93
+          ],
+          "phone_preview": "previews/V37_D27_B/D27/alternate__phone.png",
+          "preview": "previews/V37_D27_B/D27/alternate.png"
+        }
+      ],
+      "cue": "D27",
+      "scene": "V37_D27_B"
+    },
+    {
+      "anchor": "primary",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.12
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              759,
+              51,
+              1162,
+              209
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            744,
+            16
+          ],
+          "phone_preview": "previews/V38_D28_B/D28/primary__phone.png",
+          "preview": "previews/V38_D28_B/D28/primary.png"
+        },
+        {
+          "anchor": "alternate",
+          "center": [
+            0.17,
+            0.18
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              125,
+              115,
+              528,
+              273
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            110,
+            80
+          ],
+          "phone_preview": "previews/V38_D28_B/D28/alternate__phone.png",
+          "preview": "previews/V38_D28_B/D28/alternate.png"
+        }
+      ],
+      "cue": "D28",
+      "scene": "V38_D28_B"
+    }
+  ],
+  "pillow_version": "13.0.0",
+  "shared_face_height_px": 72,
+  "source_manifest": {
+    "anchors": {
+      "alternate": {
+        "center": [
+          0.17,
+          0.18
+        ],
+        "max_height_px": 240,
+        "max_width_px": 720
+      },
+      "primary": {
+        "center": [
+          0.5,
+          0.12
+        ],
+        "max_height_px": 240,
+        "max_width_px": 1560
+      }
+    },
+    "canvas": [
+      1920,
+      1080
+    ],
+    "cues": [
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                56,
+                123,
+                2093,
+                357
+              ],
+              [
+                391,
+                391,
+                1747,
+                649
+              ]
+            ],
+            "mode": "creamOrange"
+          },
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v05/C01_raw.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+          "status": "Author visually checked exact wording, paper texture and reference shape; no independent review",
+          "type": "existingPNG"
+        },
+        "id": "C01",
+        "lines": [
+          "WHERE ARE THEIR",
+          "CLOTHES?"
+        ],
+        "provenance": {
+          "method": "built-in imagegen",
+          "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Storyboard/DECISIONS_v05.md"
+        },
+        "timing": {
+          "endFrame": 130,
+          "startFrame": 50,
+          "status": "measured Lawrence v05 alignment, audible sync UNVERIFIED"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                45,
+                217,
+                2116,
+                488
+              ]
+            ],
+            "mode": "creamOrange"
+          },
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v05/C02_raw.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+          "status": "Author visually checked exact wording, paper texture and reference shape; no independent review",
+          "type": "existingPNG"
+        },
+        "id": "C02",
+        "lines": [
+          "ONE SMALL CLUE"
+        ],
+        "provenance": {
+          "method": "built-in imagegen",
+          "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Storyboard/DECISIONS_v05.md"
+        },
+        "timing": {
+          "endFrame": 1126,
+          "startFrame": 1034,
+          "status": "measured Lawrence v05 alignment, audible sync UNVERIFIED"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                33,
+                187,
+                2103,
+                525
+              ]
+            ],
+            "mode": "creamOrange"
+          },
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v05/C03_raw.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+          "status": "Author visually checked exact wording, paper texture and reference shape; no independent review",
+          "type": "existingPNG"
+        },
+        "id": "C03",
+        "lines": [
+          "YOUR PICK?"
+        ],
+        "provenance": {
+          "method": "built-in imagegen",
+          "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Storyboard/DECISIONS_v05.md"
+        },
+        "timing": {
+          "endFrame": 3147,
+          "startFrame": 3103,
+          "status": "measured Lawrence v05 alignment, audible sync UNVERIFIED"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                107,
+                84,
+                2035,
+                383
+              ],
+              [
+                117,
+                383,
+                1954,
+                682
+              ]
+            ],
+            "mode": "creamOrange"
+          },
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v05/C04b_raw.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+          "status": "Author visually checked exact wording, paper texture and reference shape; no independent review",
+          "type": "existingPNG"
+        },
+        "id": "C04",
+        "lines": [
+          "DRESSED TO",
+          "IMPRESS"
+        ],
+        "provenance": {
+          "method": "built-in imagegen",
+          "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Storyboard/DECISIONS_v05.md"
+        },
+        "timing": {
+          "endFrame": 3465,
+          "startFrame": 3354,
+          "status": "measured Lawrence v05 alignment, audible sync UNVERIFIED"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                420,
+                57,
+                1719,
+                368
+              ],
+              [
+                176,
+                386,
+                1961,
+                683
+              ]
+            ],
+            "mode": "creamOrange"
+          },
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v05/C05b_raw.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+          "status": "Author visually checked exact wording, paper texture and reference shape; no independent review",
+          "type": "existingPNG"
+        },
+        "id": "C05",
+        "lines": [
+          "FUTURE",
+          "ARTIFACTS"
+        ],
+        "provenance": {
+          "method": "built-in imagegen",
+          "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Storyboard/DECISIONS_v05.md"
+        },
+        "timing": {
+          "endFrame": 5073,
+          "startFrame": 4908,
+          "status": "measured Lawrence v05 alignment, audible sync UNVERIFIED"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                135,
+                87,
+                2056,
+                361
+              ],
+              [
+                120,
+                405,
+                2040,
+                671
+              ]
+            ],
+            "mode": "creamOrange"
+          },
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v05/C06_raw.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+          "status": "Author visually checked exact wording, paper texture and reference shape; no independent review",
+          "type": "existingPNG"
+        },
+        "id": "C06",
+        "lines": [
+          "WHAT WILL",
+          "THEY FIND?"
+        ],
+        "provenance": {
+          "method": "built-in imagegen",
+          "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Storyboard/DECISIONS_v05.md"
+        },
+        "timing": {
+          "endFrame": 5700,
+          "startFrame": 5580,
+          "status": "measured Lawrence v05 alignment, audible sync UNVERIFIED"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                157,
+                108,
+                1993,
+                379
+              ],
+              [
+                424,
+                395,
+                1720,
+                646
+              ]
+            ],
+            "mode": "creamOrange"
+          },
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D01b_raw.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+          "status": "Author inspected all28 raw PNGs: spelling, broad rounded glyphs, paper texture and alpha; final composite pending",
+          "type": "existingPNG"
+        },
+        "id": "D01",
+        "lines": [
+          "TIME ERASED",
+          "THE REST"
+        ],
+        "provenance": {
+          "method": "built-in imagegen",
+          "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Storyboard/DECISIONS_v06.md"
+        },
+        "timing": {
+          "endFrame": 971,
+          "startFrame": 910,
+          "status": "measured Lawrence v05 alignment, audible sync UNVERIFIED"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                234,
+                93,
+                1937,
+                359
+              ],
+              [
+                242,
+                402,
+                1901,
+                661
+              ]
+            ],
+            "mode": "creamOrange"
+          },
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D02_raw.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+          "status": "Author inspected all28 raw PNGs: spelling, broad rounded glyphs, paper texture and alpha; final composite pending",
+          "type": "existingPNG"
+        },
+        "id": "D02",
+        "lines": [
+          "1 MILLION+",
+          "YEARS AGO"
+        ],
+        "provenance": {
+          "method": "built-in imagegen",
+          "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Storyboard/DECISIONS_v06.md"
+        },
+        "timing": {
+          "endFrame": 238,
+          "startFrame": 154,
+          "status": "measured Lawrence v05 alignment, audible sync UNVERIFIED"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                65,
+                209,
+                1716,
+                490
+              ],
+              [
+                500,
+                529,
+                1273,
+                796
+              ]
+            ],
+            "mode": "creamOrange"
+          },
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D03_raw.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+          "status": "Author inspected all28 raw PNGs: spelling, broad rounded glyphs, paper texture and alpha; final composite pending",
+          "type": "existingPNG"
+        },
+        "id": "D03",
+        "lines": [
+          "ONE SHARP",
+          "EDGE"
+        ],
+        "provenance": {
+          "method": "built-in imagegen",
+          "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Storyboard/DECISIONS_v06.md"
+        },
+        "timing": {
+          "endFrame": 372,
+          "startFrame": 288,
+          "status": "measured Lawrence v05 alignment, audible sync UNVERIFIED"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                55,
+                215,
+                2153,
+                478
+              ]
+            ],
+            "mode": "creamOrange"
+          },
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D04b_raw.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+          "status": "Author inspected all28 raw PNGs: spelling, broad rounded glyphs, paper texture and alpha; final composite pending",
+          "type": "existingPNG"
+        },
+        "id": "D04",
+        "lines": [
+          "STONE SURVIVES"
+        ],
+        "provenance": {
+          "method": "built-in imagegen",
+          "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Storyboard/DECISIONS_v06.md"
+        },
+        "timing": {
+          "endFrame": 551,
+          "startFrame": 480,
+          "status": "measured Lawrence v05 alignment, audible sync UNVERIFIED"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                49,
+                109,
+                2105,
+                402
+              ],
+              [
+                631,
+                428,
+                1507,
+                671
+              ]
+            ],
+            "mode": "creamOrange"
+          },
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D05_raw.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+          "status": "Author inspected all28 raw PNGs: spelling, broad rounded glyphs, paper texture and alpha; final composite pending",
+          "type": "existingPNG"
+        },
+        "id": "D05",
+        "lines": [
+          "GENERATIONS",
+          "LATER"
+        ],
+        "provenance": {
+          "method": "built-in imagegen",
+          "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Storyboard/DECISIONS_v06.md"
+        },
+        "timing": {
+          "endFrame": 641,
+          "startFrame": 557,
+          "status": "measured Lawrence v05 alignment, audible sync UNVERIFIED"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                430,
+                100,
+                1727,
+                366
+              ],
+              [
+                98,
+                387,
+                2052,
+                638
+              ]
+            ],
+            "mode": "creamOrange"
+          },
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D06_raw.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+          "status": "Author inspected all28 raw PNGs: spelling, broad rounded glyphs, paper texture and alpha; final composite pending",
+          "type": "existingPNG"
+        },
+        "id": "D06",
+        "lines": [
+          "MADE BY",
+          "HUMAN HANDS"
+        ],
+        "provenance": {
+          "method": "built-in imagegen",
+          "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Storyboard/DECISIONS_v06.md"
+        },
+        "timing": {
+          "endFrame": 808,
+          "startFrame": 713,
+          "status": "measured Lawrence v05 alignment, audible sync UNVERIFIED"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                129,
+                176,
+                1593,
+                473
+              ],
+              [
+                71,
+                512,
+                1656,
+                789
+              ]
+            ],
+            "mode": "creamOrange"
+          },
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D07_raw.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+          "status": "Author inspected all28 raw PNGs: spelling, broad rounded glyphs, paper texture and alpha; final composite pending",
+          "type": "existingPNG"
+        },
+        "id": "D07",
+        "lines": [
+          "SOMEONE",
+          "WORE THIS"
+        ],
+        "provenance": {
+          "method": "built-in imagegen",
+          "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Storyboard/DECISIONS_v06.md"
+        },
+        "timing": {
+          "endFrame": 1385,
+          "startFrame": 1300,
+          "status": "measured Lawrence v05 alignment, audible sync UNVERIFIED"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                455,
+                108,
+                1701,
+                363
+              ],
+              [
+                101,
+                397,
+                2057,
+                637
+              ]
+            ],
+            "mode": "creamOrange"
+          },
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D08_raw.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+          "status": "Author inspected all28 raw PNGs: spelling, broad rounded glyphs, paper texture and alpha; final composite pending",
+          "type": "existingPNG"
+        },
+        "id": "D08",
+        "lines": [
+          "THE PAST",
+          "GETS PERSONAL"
+        ],
+        "provenance": {
+          "method": "built-in imagegen",
+          "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Storyboard/DECISIONS_v06.md"
+        },
+        "timing": {
+          "endFrame": 1559,
+          "startFrame": 1483,
+          "status": "measured Lawrence v05 alignment, audible sync UNVERIFIED"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                107,
+                98,
+                2034,
+                365
+              ],
+              [
+                215,
+                399,
+                1922,
+                664
+              ]
+            ],
+            "mode": "creamOrange"
+          },
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D09_raw.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+          "status": "Author inspected all28 raw PNGs: spelling, broad rounded glyphs, paper texture and alpha; final composite pending",
+          "type": "existingPNG"
+        },
+        "id": "D09",
+        "lines": [
+          "FOLLOW THE",
+          "FOOTSTEPS"
+        ],
+        "provenance": {
+          "method": "built-in imagegen",
+          "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Storyboard/DECISIONS_v06.md"
+        },
+        "timing": {
+          "endFrame": 1687,
+          "startFrame": 1603,
+          "status": "measured Lawrence v05 alignment, audible sync UNVERIFIED"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                111,
+                129,
+                1516,
+                485
+              ],
+              [
+                93,
+                516,
+                1537,
+                844
+              ]
+            ],
+            "mode": "creamOrange"
+          },
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D10_raw.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+          "status": "Author inspected all28 raw PNGs: spelling, broad rounded glyphs, paper texture and alpha; final composite pending",
+          "type": "existingPNG"
+        },
+        "id": "D10",
+        "lines": [
+          "ROMAN",
+          "BRITAIN"
+        ],
+        "provenance": {
+          "method": "built-in imagegen",
+          "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Storyboard/DECISIONS_v06.md"
+        },
+        "timing": {
+          "endFrame": 1801,
+          "startFrame": 1717,
+          "status": "measured Lawrence v05 alignment, audible sync UNVERIFIED"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                485,
+                115,
+                1640,
+                377
+              ],
+              [
+                86,
+                406,
+                2063,
+                649
+              ]
+            ],
+            "mode": "creamOrange"
+          },
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D11_raw.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+          "status": "Author inspected all28 raw PNGs: spelling, broad rounded glyphs, paper texture and alpha; final composite pending",
+          "type": "existingPNG"
+        },
+        "id": "D11",
+        "lines": [
+          "TRACES",
+          "BECOME PEOPLE"
+        ],
+        "provenance": {
+          "method": "built-in imagegen",
+          "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Storyboard/DECISIONS_v06.md"
+        },
+        "timing": {
+          "endFrame": 1983,
+          "startFrame": 1910,
+          "status": "measured Lawrence v05 alignment, audible sync UNVERIFIED"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                40,
+                228,
+                2094,
+                526
+              ]
+            ],
+            "mode": "creamOrange"
+          },
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D12b_raw.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+          "status": "Author inspected all28 raw PNGs: spelling, broad rounded glyphs, paper texture and alpha; final composite pending",
+          "type": "existingPNG"
+        },
+        "id": "D12",
+        "lines": [
+          "AROUND 1400"
+        ],
+        "provenance": {
+          "method": "built-in imagegen",
+          "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Storyboard/DECISIONS_v06.md"
+        },
+        "timing": {
+          "endFrame": 2244,
+          "startFrame": 2160,
+          "status": "measured Lawrence v05 alignment, audible sync UNVERIFIED"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                66,
+                182,
+                2081,
+                512
+              ]
+            ],
+            "mode": "creamOrange"
+          },
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D13b_raw.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+          "status": "Author inspected all28 raw PNGs: spelling, broad rounded glyphs, paper texture and alpha; final composite pending",
+          "type": "existingPNG"
+        },
+        "id": "D13",
+        "lines": [
+          "NEW SHAPE"
+        ],
+        "provenance": {
+          "method": "built-in imagegen",
+          "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Storyboard/DECISIONS_v06.md"
+        },
+        "timing": {
+          "endFrame": 2428,
+          "startFrame": 2342,
+          "status": "measured Lawrence v05 alignment, audible sync UNVERIFIED"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                392,
+                124,
+                1758,
+                603
+              ]
+            ],
+            "mode": "creamOrange"
+          },
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D14b_raw.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+          "status": "Author inspected all28 raw PNGs: spelling, broad rounded glyphs, paper texture and alpha; final composite pending",
+          "type": "existingPNG"
+        },
+        "id": "D14",
+        "lines": [
+          "1559"
+        ],
+        "provenance": {
+          "method": "built-in imagegen",
+          "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Storyboard/DECISIONS_v06.md"
+        },
+        "timing": {
+          "endFrame": 2699,
+          "startFrame": 2594,
+          "status": "measured Lawrence v05 alignment, audible sync UNVERIFIED"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                228,
+                124,
+                1929,
+                371
+              ],
+              [
+                115,
+                407,
+                2040,
+                657
+              ]
+            ],
+            "mode": "creamOrange"
+          },
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D15_raw.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+          "status": "Author inspected all28 raw PNGs: spelling, broad rounded glyphs, paper texture and alpha; final composite pending",
+          "type": "existingPNG"
+        },
+        "id": "D15",
+        "lines": [
+          "ONE FAMILY",
+          "MANY STYLES"
+        ],
+        "provenance": {
+          "method": "built-in imagegen",
+          "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Storyboard/DECISIONS_v06.md"
+        },
+        "timing": {
+          "endFrame": 2853,
+          "startFrame": 2725,
+          "status": "measured Lawrence v05 alignment, audible sync UNVERIFIED"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                215,
+                186,
+                1326,
+                524
+              ],
+              [
+                70,
+                569,
+                1458,
+                888
+              ]
+            ],
+            "mode": "creamOrange"
+          },
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D16_raw.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+          "status": "Author inspected all28 raw PNGs: spelling, broad rounded glyphs, paper texture and alpha; final composite pending",
+          "type": "existingPNG"
+        },
+        "id": "D16",
+        "lines": [
+          "LOOK",
+          "CLOSER"
+        ],
+        "provenance": {
+          "method": "built-in imagegen",
+          "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Storyboard/DECISIONS_v06.md"
+        },
+        "timing": {
+          "endFrame": 2558,
+          "startFrame": 2434,
+          "status": "measured Lawrence v05 alignment, audible sync UNVERIFIED"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                335,
+                178,
+                1185,
+                515
+              ],
+              [
+                47,
+                561,
+                1486,
+                852
+              ]
+            ],
+            "mode": "creamOrange"
+          },
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D17_raw.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+          "status": "Author inspected all28 raw PNGs: spelling, broad rounded glyphs, paper texture and alpha; final composite pending",
+          "type": "existingPNG"
+        },
+        "id": "D17",
+        "lines": [
+          "18TH",
+          "CENTURY"
+        ],
+        "provenance": {
+          "method": "built-in imagegen",
+          "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Storyboard/DECISIONS_v06.md"
+        },
+        "timing": {
+          "endFrame": 3277,
+          "startFrame": 3193,
+          "status": "measured Lawrence v05 alignment, audible sync UNVERIFIED"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                101,
+                177,
+                2046,
+                516
+              ]
+            ],
+            "mode": "creamOrange"
+          },
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D18c_raw.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+          "status": "Author inspected all28 raw PNGs: spelling, broad rounded glyphs, paper texture and alpha; final composite pending",
+          "type": "existingPNG"
+        },
+        "id": "D18",
+        "lines": [
+          "NO HIDING"
+        ],
+        "provenance": {
+          "method": "built-in imagegen",
+          "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Storyboard/DECISIONS_v06.md"
+        },
+        "timing": {
+          "endFrame": 3587,
+          "startFrame": 3474,
+          "status": "measured Lawrence v05 alignment, audible sync UNVERIFIED"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                250,
+                108,
+                1894,
+                355
+              ],
+              [
+                118,
+                386,
+                2025,
+                639
+              ]
+            ],
+            "mode": "creamOrange"
+          },
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D19_raw.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+          "status": "Author inspected all28 raw PNGs: spelling, broad rounded glyphs, paper texture and alpha; final composite pending",
+          "type": "existingPNG"
+        },
+        "id": "D19",
+        "lines": [
+          "YOUR OUTFIT",
+          "ARRIVES FIRST"
+        ],
+        "provenance": {
+          "method": "built-in imagegen",
+          "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Storyboard/DECISIONS_v06.md"
+        },
+        "timing": {
+          "endFrame": 3698,
+          "startFrame": 3614,
+          "status": "measured Lawrence v05 alignment, audible sync UNVERIFIED"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                545,
+                163,
+                1190,
+                454
+              ],
+              [
+                70,
+                494,
+                1700,
+                771
+              ]
+            ],
+            "mode": "creamOrange"
+          },
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D20_raw.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+          "status": "Author inspected all28 raw PNGs: spelling, broad rounded glyphs, paper texture and alpha; final composite pending",
+          "type": "existingPNG"
+        },
+        "id": "D20",
+        "lines": [
+          "THE",
+          "CRINOLINE"
+        ],
+        "provenance": {
+          "method": "built-in imagegen",
+          "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Storyboard/DECISIONS_v06.md"
+        },
+        "timing": {
+          "endFrame": 3876,
+          "startFrame": 3792,
+          "status": "measured Lawrence v05 alignment, audible sync UNVERIFIED"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                130,
+                147,
+                1652,
+                442
+              ],
+              [
+                85,
+                488,
+                1702,
+                777
+              ]
+            ],
+            "mode": "creamOrange"
+          },
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D21_raw.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+          "status": "Author inspected all28 raw PNGs: spelling, broad rounded glyphs, paper texture and alpha; final composite pending",
+          "type": "existingPNG"
+        },
+        "id": "D21",
+        "lines": [
+          "MIND THE",
+          "DOORWAY"
+        ],
+        "provenance": {
+          "method": "built-in imagegen",
+          "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Storyboard/DECISIONS_v06.md"
+        },
+        "timing": {
+          "endFrame": 4096,
+          "startFrame": 3977,
+          "status": "measured Lawrence v05 alignment, audible sync UNVERIFIED"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                335,
+                135,
+                1184,
+                518
+              ],
+              [
+                80,
+                558,
+                1448,
+                938
+              ]
+            ],
+            "mode": "creamOrange"
+          },
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D22_raw.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+          "status": "Author inspected all28 raw PNGs: spelling, broad rounded glyphs, paper texture and alpha; final composite pending",
+          "type": "existingPNG"
+        },
+        "id": "D22",
+        "lines": [
+          "THE",
+          "1920S"
+        ],
+        "provenance": {
+          "method": "built-in imagegen",
+          "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Storyboard/DECISIONS_v06.md"
+        },
+        "timing": {
+          "endFrame": 4233,
+          "startFrame": 4150,
+          "status": "measured Lawrence v05 alignment, audible sync UNVERIFIED"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                119,
+                136,
+                1431,
+                516
+              ],
+              [
+                178,
+                564,
+                1398,
+                920
+              ]
+            ],
+            "mode": "creamOrange"
+          },
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D23_raw.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+          "status": "Author inspected all28 raw PNGs: spelling, broad rounded glyphs, paper texture and alpha; final composite pending",
+          "type": "existingPNG"
+        },
+        "id": "D23",
+        "lines": [
+          "SHAPE",
+          "RESET"
+        ],
+        "provenance": {
+          "method": "built-in imagegen",
+          "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Storyboard/DECISIONS_v06.md"
+        },
+        "timing": {
+          "endFrame": 4351,
+          "startFrame": 4265,
+          "status": "measured Lawrence v05 alignment, audible sync UNVERIFIED"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                402,
+                68,
+                1766,
+                369
+              ],
+              [
+                161,
+                382,
+                1988,
+                670
+              ]
+            ],
+            "mode": "creamOrange"
+          },
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D24_raw.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+          "status": "Author inspected all28 raw PNGs: spelling, broad rounded glyphs, paper texture and alpha; final composite pending",
+          "type": "existingPNG"
+        },
+        "id": "D24",
+        "lines": [
+          "TODAY'S",
+          "WARDROBE"
+        ],
+        "provenance": {
+          "method": "built-in imagegen",
+          "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Storyboard/DECISIONS_v06.md"
+        },
+        "timing": {
+          "endFrame": 4642,
+          "startFrame": 4558,
+          "status": "measured Lawrence v05 alignment, audible sync UNVERIFIED"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                47,
+                243,
+                2123,
+                470
+              ]
+            ],
+            "mode": "creamOrange"
+          },
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D25b_raw.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+          "status": "Author inspected all28 raw PNGs: spelling, broad rounded glyphs, paper texture and alpha; final composite pending",
+          "type": "existingPNG"
+        },
+        "id": "D25",
+        "lines": [
+          "TOMORROW'S HISTORY"
+        ],
+        "provenance": {
+          "method": "built-in imagegen",
+          "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Storyboard/DECISIONS_v06.md"
+        },
+        "timing": {
+          "endFrame": 4905,
+          "startFrame": 4826,
+          "status": "measured Lawrence v05 alignment, audible sync UNVERIFIED"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                54,
+                150,
+                2129,
+                517
+              ]
+            ],
+            "mode": "creamOrange"
+          },
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D26b_raw.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+          "status": "Author inspected all28 raw PNGs: spelling, broad rounded glyphs, paper texture and alpha; final composite pending",
+          "type": "existingPNG"
+        },
+        "id": "D26",
+        "lines": [
+          "WE'RE NEXT"
+        ],
+        "provenance": {
+          "method": "built-in imagegen",
+          "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Storyboard/DECISIONS_v06.md"
+        },
+        "timing": {
+          "endFrame": 5231,
+          "startFrame": 5110,
+          "status": "measured Lawrence v05 alignment, audible sync UNVERIFIED"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                76,
+                110,
+                1815,
+                423
+              ],
+              [
+                467,
+                460,
+                1424,
+                758
+              ]
+            ],
+            "mode": "creamOrange"
+          },
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D27_raw.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+          "status": "Author inspected all28 raw PNGs: spelling, broad rounded glyphs, paper texture and alpha; final composite pending",
+          "type": "existingPNG"
+        },
+        "id": "D27",
+        "lines": [
+          "WHO WORE",
+          "THIS?"
+        ],
+        "provenance": {
+          "method": "built-in imagegen",
+          "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Storyboard/DECISIONS_v06.md"
+        },
+        "timing": {
+          "endFrame": 5345,
+          "startFrame": 5261,
+          "status": "measured Lawrence v05 alignment, audible sync UNVERIFIED"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                356,
+                169,
+                1402,
+                465
+              ],
+              [
+                86,
+                487,
+                1691,
+                768
+              ]
+            ],
+            "mode": "creamOrange"
+          },
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/D28_raw.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+          "status": "Author inspected all28 raw PNGs: spelling, broad rounded glyphs, paper texture and alpha; final composite pending",
+          "type": "existingPNG"
+        },
+        "id": "D28",
+        "lines": [
+          "WHAT",
+          "SURVIVES?"
+        ],
+        "provenance": {
+          "method": "built-in imagegen",
+          "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Storyboard/DECISIONS_v06.md"
+        },
+        "timing": {
+          "endFrame": 5529,
+          "startFrame": 5398,
+          "status": "measured Lawrence v05 alignment, audible sync UNVERIFIED"
+        }
+      }
+    ],
+    "face_height_px": 72,
+    "min_face_height_px": 72,
+    "pairs": [
+      {
+        "anchor": "primary",
+        "cue": "C01",
+        "scene": "V01_C01_B"
+      },
+      {
+        "anchor": "primary",
+        "cue": "C02",
+        "scene": "V08_C02_B"
+      },
+      {
+        "anchor": "alternate",
+        "cue": "C03",
+        "scene": "V22_C03_B"
+      },
+      {
+        "anchor": "alternate",
+        "cue": "C04",
+        "scene": "V24_C04_B"
+      },
+      {
+        "anchor": "primary",
+        "cue": "C05",
+        "scene": "V35_C05_B"
+      },
+      {
+        "anchor": "primary",
+        "cue": "C06",
+        "scene": "V39_C06_B"
+      },
+      {
+        "anchor": "primary",
+        "cue": "D01",
+        "scene": "V07_D01_B"
+      },
+      {
+        "anchor": "primary",
+        "cue": "D02",
+        "scene": "V02_D02_B"
+      },
+      {
+        "anchor": "primary",
+        "cue": "D03",
+        "scene": "V03_D03_B"
+      },
+      {
+        "anchor": "primary",
+        "cue": "D04",
+        "scene": "V04_D04_B"
+      },
+      {
+        "anchor": "primary",
+        "cue": "D05",
+        "scene": "V05_D05_B"
+      },
+      {
+        "anchor": "primary",
+        "cue": "D06",
+        "scene": "V06_D06_B"
+      },
+      {
+        "anchor": "primary",
+        "cue": "D07",
+        "scene": "V10_D07_B"
+      },
+      {
+        "anchor": "primary",
+        "cue": "D08",
+        "scene": "V11_D08_B"
+      },
+      {
+        "anchor": "primary",
+        "cue": "D09",
+        "scene": "V12_D09_B"
+      },
+      {
+        "anchor": "primary",
+        "cue": "D10",
+        "scene": "V13_D10_B"
+      },
+      {
+        "anchor": "alternate",
+        "cue": "D11",
+        "scene": "V14_D11_B"
+      },
+      {
+        "anchor": "alternate",
+        "cue": "D12",
+        "scene": "V16_D12_B"
+      },
+      {
+        "anchor": "alternate",
+        "cue": "D13",
+        "scene": "V17_D13_B"
+      },
+      {
+        "anchor": "alternate",
+        "cue": "D14",
+        "scene": "V19_D14_B"
+      },
+      {
+        "anchor": "alternate",
+        "cue": "D15",
+        "scene": "V20_D15_B"
+      },
+      {
+        "anchor": "alternate",
+        "cue": "D16",
+        "scene": "V18_D16_B"
+      },
+      {
+        "anchor": "alternate",
+        "cue": "D17",
+        "scene": "V23_D17_B"
+      },
+      {
+        "anchor": "alternate",
+        "cue": "D18",
+        "scene": "V25_D18_B"
+      },
+      {
+        "anchor": "alternate",
+        "cue": "D19",
+        "scene": "V26_D19_B"
+      },
+      {
+        "anchor": "alternate",
+        "cue": "D20",
+        "scene": "V27_D20_B"
+      },
+      {
+        "anchor": "alternate",
+        "cue": "D21",
+        "scene": "V28_D21_B"
+      },
+      {
+        "anchor": "alternate",
+        "cue": "D22",
+        "scene": "V29_D22_B"
+      },
+      {
+        "anchor": "alternate",
+        "cue": "D23",
+        "scene": "V30_D23_B"
+      },
+      {
+        "anchor": "primary",
+        "cue": "D24",
+        "scene": "V32_D24_B"
+      },
+      {
+        "anchor": "primary",
+        "cue": "D25",
+        "scene": "V34_D25_B"
+      },
+      {
+        "anchor": "primary",
+        "cue": "D26",
+        "scene": "V36_D26_B"
+      },
+      {
+        "anchor": "primary",
+        "cue": "D27",
+        "scene": "V37_D27_B"
+      },
+      {
+        "anchor": "primary",
+        "cue": "D28",
+        "scene": "V38_D28_B"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "V01_C01_B",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/preflight_scenes/V01_C01_B.png"
+      },
+      {
+        "id": "V08_C02_B",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/preflight_scenes/V08_C02_B.png"
+      },
+      {
+        "id": "V22_C03_B",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/preflight_scenes/V22_C03_B.png"
+      },
+      {
+        "id": "V24_C04_B",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/preflight_scenes/V24_C04_B.png"
+      },
+      {
+        "id": "V35_C05_B",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/preflight_scenes/V35_C05_B.png"
+      },
+      {
+        "id": "V39_C06_B",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/preflight_scenes/V39_C06_B.png"
+      },
+      {
+        "id": "V07_D01_B",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/preflight_scenes/V07_D01_B.png"
+      },
+      {
+        "id": "V02_D02_B",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/preflight_scenes/V02_D02_B.png"
+      },
+      {
+        "id": "V03_D03_B",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/preflight_scenes/V03_D03_B.png"
+      },
+      {
+        "id": "V04_D04_B",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/preflight_scenes/V04_D04_B.png"
+      },
+      {
+        "id": "V05_D05_B",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/preflight_scenes/V05_D05_B.png"
+      },
+      {
+        "id": "V06_D06_B",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/preflight_scenes/V06_D06_B.png"
+      },
+      {
+        "id": "V10_D07_B",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/preflight_scenes/V10_D07_B.png"
+      },
+      {
+        "id": "V11_D08_B",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/preflight_scenes/V11_D08_B.png"
+      },
+      {
+        "id": "V12_D09_B",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/preflight_scenes/V12_D09_B.png"
+      },
+      {
+        "id": "V13_D10_B",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/preflight_scenes/V13_D10_B.png"
+      },
+      {
+        "id": "V14_D11_B",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/preflight_scenes/V14_D11_B.png"
+      },
+      {
+        "id": "V16_D12_B",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/preflight_scenes/V16_D12_B.png"
+      },
+      {
+        "id": "V17_D13_B",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/preflight_scenes/V17_D13_B.png"
+      },
+      {
+        "id": "V19_D14_B",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/preflight_scenes/V19_D14_B.png"
+      },
+      {
+        "id": "V20_D15_B",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/preflight_scenes/V20_D15_B.png"
+      },
+      {
+        "id": "V18_D16_B",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/preflight_scenes/V18_D16_B.png"
+      },
+      {
+        "id": "V23_D17_B",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/preflight_scenes/V23_D17_B.png"
+      },
+      {
+        "id": "V25_D18_B",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/preflight_scenes/V25_D18_B.png"
+      },
+      {
+        "id": "V26_D19_B",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/preflight_scenes/V26_D19_B.png"
+      },
+      {
+        "id": "V27_D20_B",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/preflight_scenes/V27_D20_B.png"
+      },
+      {
+        "id": "V28_D21_B",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/preflight_scenes/V28_D21_B.png"
+      },
+      {
+        "id": "V29_D22_B",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/preflight_scenes/V29_D22_B.png"
+      },
+      {
+        "id": "V30_D23_B",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/preflight_scenes/V30_D23_B.png"
+      },
+      {
+        "id": "V32_D24_B",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/preflight_scenes/V32_D24_B.png"
+      },
+      {
+        "id": "V34_D25_B",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/preflight_scenes/V34_D25_B.png"
+      },
+      {
+        "id": "V36_D26_B",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/preflight_scenes/V36_D26_B.png"
+      },
+      {
+        "id": "V37_D27_B",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/preflight_scenes/V37_D27_B.png"
+      },
+      {
+        "id": "V38_D28_B",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v06/preflight_scenes/V38_D28_B.png"
+      }
+    ],
+    "version": 1
+  },
+  "version": 1
+}

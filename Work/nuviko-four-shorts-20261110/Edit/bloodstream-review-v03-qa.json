@@ -1,0 +1,140 @@
+{
+  "file": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Deliverables/Bloodstream-review-v03.mp4",
+  "sha256": "c2c344fe7b0254068e7443b64a28c219e4f54414009093f423d7aaa06c5221f8",
+  "duration_seconds": 14.366667,
+  "frames": 431,
+  "fps": 30,
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "full_decode": "PASS",
+  "audio_packet_identity": "PASS",
+  "accent_frames": [
+    108,
+    205,
+    322
+  ],
+  "frame_minus_attack_ms": [
+    -4.31,
+    -16.1,
+    -12.24
+  ],
+  "transition_sample_frames": [
+    105,
+    107,
+    108,
+    110,
+    113,
+    202,
+    204,
+    205,
+    207,
+    210,
+    319,
+    321,
+    322,
+    324,
+    327
+  ],
+  "motion_sample_frames": [
+    0,
+    54,
+    105,
+    113,
+    156,
+    202,
+    210,
+    263,
+    319,
+    327,
+    376,
+    430
+  ],
+  "caption_sample_frames": [
+    152,
+    180,
+    333
+  ],
+  "visual_inspection": "PASS",
+  "continuous_playback": "UNVERIFIED",
+  "subjective_audio_listening": "UNVERIFIED",
+  "caption_status": "existing timed lyrics",
+  "estimated_scale_samples": [
+    {
+      "frame": 0,
+      "expected": 0.95,
+      "estimated": 0.95,
+      "feature_match": 1.0
+    },
+    {
+      "frame": 54,
+      "expected": 0.9984,
+      "estimated": 0.9975,
+      "feature_match": 0.976
+    },
+    {
+      "frame": 105,
+      "expected": 1.046,
+      "estimated": 1.045,
+      "feature_match": 0.966
+    },
+    {
+      "frame": 113,
+      "expected": 1.0448,
+      "estimated": 1.045,
+      "feature_match": 0.94
+    },
+    {
+      "frame": 156,
+      "expected": 1.0011,
+      "estimated": 1.0025,
+      "feature_match": 0.945
+    },
+    {
+      "frame": 202,
+      "expected": 0.9544,
+      "estimated": 0.955,
+      "feature_match": 0.925
+    },
+    {
+      "frame": 210,
+      "expected": 0.9543,
+      "estimated": 0.95,
+      "feature_match": 0.968
+    },
+    {
+      "frame": 263,
+      "expected": 0.9991,
+      "estimated": 1.0,
+      "feature_match": 0.934
+    },
+    {
+      "frame": 319,
+      "expected": 1.0463,
+      "estimated": 1.0475,
+      "feature_match": 0.906
+    },
+    {
+      "frame": 327,
+      "expected": 1.0452,
+      "estimated": 1.0475,
+      "feature_match": 0.935
+    },
+    {
+      "frame": 376,
+      "expected": 0.999,
+      "estimated": 1.0,
+      "feature_match": 0.964
+    },
+    {
+      "frame": 430,
+      "expected": 0.95,
+      "estimated": 0.95,
+      "feature_match": 0.991
+    }
+  ],
+  "motion_estimate": "PASS",
+  "visual_coverage": "Inspected five frames around every accent, three frames in every shot, and full-resolution details from the existing lyric mask. The new shot predominates at the accent, with both brightness and blur visible. Edges of lyric strokes appear soft.",
+  "motion_evidence": "Estimated magnification from image texture by matching exact exported frames to corresponding source frames. Each shot moved in its intended direction; error was under 0.5 percentage point at all sampled frames."
+}

@@ -1,0 +1,50 @@
+# Caption boundary warnings — text-only review
+
+Reviewed all 46 machine warnings from caption_groups.json in sequence. They are sequential fragments, not omissions. The listed breaks do not on their own produce a wrong meaning; several sentences continue in the next group, which is expected. Groups 19, 210, 230 and 270 are especially dependent on their following fragment; verify reading speed and actual presentation during playback. This check does not verify audible sync, full semantic grouping, final visual fit, or final MP4.
+
+- 4: All twenty-eight men | of her expedition
+- 5: of her expedition | were still alive.
+- 9: to tell the outside world | where they were.
+- 17: six men would eventually | have to cross more
+- 19: than eight hundred miles | of open ocean in a boat barely
+- 22: The other twenty-two | would have to wait,
+- 27: reached help, someone | would still have to find a way
+- 34: to the other by way | of the South Pole.
+- 40: where the crossing | would begin.
+- 49: the ship and waited | for a chance to escape.
+- 51: The sea ice moved | with the winds and currents.
+- 71: The expedition | had never reached
+- 110: but Elephant Island | was uninhabited and far
+- 115: Shackleton decided | that a small crew must leave
+- 118: Their destination | was South Georgia,
+- 154: Wild's first challenge | was finding shelter.
+- 171: inside it, the James Caird | was already far out at sea.
+- 179: far to either side, the men | might miss it entirely.
+- 181: Worsley had to navigate | with a sextant,
+- 183: a compass and calculations | of their estimated progress.
+- 193: only four usable observations | of the sun.
+- 207: on the vessel, adding weight | that had to be removed.
+- 210: they were approaching | where Worsley calculated
+- 223: offshore, searching | for a safe approach.
+- 228: on South Georgia's | western coast.
+- 230: The whaling stations | were on the other
+- 237: those stations by sailing | around the coast
+- 238: around the coast | was too dangerous.
+- 269: on South Georgia's | western shore
+- 270: western shore | were subsequently
+- 273: But no news | of any of this had reached
+- 277: twenty-one men | were still waiting.
+- 281: routine, gathered food | when they could and endured
+- 283: the Antarctic winter | without knowing whether
+- 291: repeating that Shackleton | might arrive that day.
+- 313: By late August, the men | were using what remained
+- 321: steam tug commanded | by naval officer Luis Pardo.
+- 328: Yelcho departed | with Shackleton aboard.
+- 345: The men ashore | were preparing
+- 353: months of isolation, a ship | had reached their shore.
+- 358: All twenty-two men | who had remained
+- 360: on Elephant Island | were taken aboard.
+- 364: Trans-Antarctic Expedition | had a different outcome.
+- 372: crossing of Antarctica | was never completed.
+- 377: together with the six | who had sailed for help,
+- 379: accounted for every member | of the Endurance party.

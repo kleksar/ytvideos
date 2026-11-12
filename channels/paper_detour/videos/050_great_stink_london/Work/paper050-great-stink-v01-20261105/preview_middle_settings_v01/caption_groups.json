@@ -1,0 +1,393 @@
+{
+  "status": "REVIEW_REQUIRED",
+  "groups": [
+    [
+      {
+        "text": "The",
+        "start": 0.249,
+        "end": 0.349
+      },
+      {
+        "text": "shorter",
+        "start": 0.409,
+        "end": 0.729
+      },
+      {
+        "text": "route",
+        "start": 0.769,
+        "end": 0.949
+      }
+    ],
+    [
+      {
+        "text": "left",
+        "start": 1.049,
+        "end": 1.229
+      },
+      {
+        "text": "an",
+        "start": 1.289,
+        "end": 1.369
+      },
+      {
+        "text": "unresolved",
+        "start": 1.509,
+        "end": 2.029
+      }
+    ],
+    [
+      {
+        "text": "question",
+        "start": 2.089,
+        "end": 2.509
+      },
+      {
+        "text": "about",
+        "start": 2.609,
+        "end": 2.809
+      },
+      {
+        "text": "how",
+        "start": 2.889,
+        "end": 3.089
+      },
+      {
+        "text": "the",
+        "start": 3.129,
+        "end": 3.229
+      },
+      {
+        "text": "sewage",
+        "start": 3.289,
+        "end": 3.57
+      }
+    ],
+    [
+      {
+        "text": "would",
+        "start": 3.59,
+        "end": 3.73
+      },
+      {
+        "text": "behave",
+        "start": 3.75,
+        "end": 4.21
+      },
+      {
+        "text": "in",
+        "start": 4.29,
+        "end": 4.37
+      },
+      {
+        "text": "a",
+        "start": 4.41,
+        "end": 4.43
+      },
+      {
+        "text": "tidal",
+        "start": 4.49,
+        "end": 4.81
+      },
+      {
+        "text": "river.",
+        "start": 4.87,
+        "end": 5.11
+      }
+    ],
+    [
+      {
+        "text": "During",
+        "start": 5.87,
+        "end": 6.11
+      },
+      {
+        "text": "the",
+        "start": 6.13,
+        "end": 6.23
+      },
+      {
+        "text": "same",
+        "start": 6.29,
+        "end": 6.51
+      },
+      {
+        "text": "debate,",
+        "start": 6.55,
+        "end": 6.89
+      }
+    ],
+    [
+      {
+        "text": "a",
+        "start": 7.27,
+        "end": 7.33
+      },
+      {
+        "text": "representative",
+        "start": 7.39,
+        "end": 7.95
+      },
+      {
+        "text": "from",
+        "start": 7.99,
+        "end": 8.13
+      },
+      {
+        "text": "Woolwich",
+        "start": 8.17,
+        "end": 8.57
+      }
+    ],
+    [
+      {
+        "text": "said",
+        "start": 8.63,
+        "end": 8.83
+      },
+      {
+        "text": "his",
+        "start": 8.89,
+        "end": 9.09
+      },
+      {
+        "text": "district",
+        "start": 9.15,
+        "end": 9.49
+      }
+    ],
+    [
+      {
+        "text": "was",
+        "start": 9.53,
+        "end": 9.65
+      },
+      {
+        "text": "already",
+        "start": 9.85,
+        "end": 10.23
+      },
+      {
+        "text": "suffering",
+        "start": 10.31,
+        "end": 10.73
+      }
+    ]
+  ],
+  "profile": {
+    "name": "paper",
+    "font": "/System/Library/Fonts/Supplemental/ChalkboardSE.ttc",
+    "font_index": 2,
+    "text": "#F4E8C8",
+    "highlight": "#FFD166",
+    "background": null,
+    "outline": "#18243A",
+    "outline_width": 3,
+    "pad_x": 20,
+    "pad_y": 12
+  },
+  "geometry_profile": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/profiles/long.json",
+  "shared_geometry": {
+    "reference_width": 2560,
+    "reference_height": 1440,
+    "font_size_px": 84,
+    "max_visible_width_px": 1344,
+    "center_x_ratio": 0.5,
+    "baseline_y_ratio": 0.8944444444444445,
+    "bottom_y_ratio": 0.925
+  },
+  "shared_short_geometry": null,
+  "channel": "paper",
+  "format": "long",
+  "canvas": [
+    1280,
+    720
+  ],
+  "reference_height": 1440,
+  "scale": 0.5,
+  "resolved_font_size_px": 42,
+  "max_visible_width_px": 672.0,
+  "center_x_px": 640.0,
+  "baseline": 644,
+  "grouping_source": "explicit_plan",
+  "algorithm": "sentence-syntax-width-v5",
+  "boundary_exceptions": [],
+  "boundary_warnings": [
+    {
+      "after_group": 2,
+      "left": "question about how the sewage",
+      "right": "would behave in a tidal river.",
+      "reason": "forced_or_ambiguous_syntax_boundary"
+    },
+    {
+      "after_group": 6,
+      "left": "said his district",
+      "right": "was already suffering",
+      "reason": "forced_or_ambiguous_syntax_boundary"
+    }
+  ],
+  "caption_end_frame": 323,
+  "display_intervals": [
+    {
+      "start_frame": 0,
+      "end_frame": 32
+    },
+    {
+      "start_frame": 32,
+      "end_frame": 63
+    },
+    {
+      "start_frame": 63,
+      "end_frame": 108
+    },
+    {
+      "start_frame": 108,
+      "end_frame": 177
+    },
+    {
+      "start_frame": 177,
+      "end_frame": 219
+    },
+    {
+      "start_frame": 219,
+      "end_frame": 259
+    },
+    {
+      "start_frame": 259,
+      "end_frame": 286
+    },
+    {
+      "start_frame": 286,
+      "end_frame": 323
+    }
+  ],
+  "word_events": [
+    {
+      "frame": 0,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Work/paper050-great-stink-v01-20261105/preview_middle_settings_v01/caption_states/00000_neutral.png"
+    },
+    {
+      "frame": 8,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Work/paper050-great-stink-v01-20261105/preview_middle_settings_v01/caption_states/00000_0.png"
+    },
+    {
+      "frame": 13,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Work/paper050-great-stink-v01-20261105/preview_middle_settings_v01/caption_states/00000_1.png"
+    },
+    {
+      "frame": 24,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Work/paper050-great-stink-v01-20261105/preview_middle_settings_v01/caption_states/00000_2.png"
+    },
+    {
+      "frame": 32,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Work/paper050-great-stink-v01-20261105/preview_middle_settings_v01/caption_states/00001_0.png"
+    },
+    {
+      "frame": 39,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Work/paper050-great-stink-v01-20261105/preview_middle_settings_v01/caption_states/00001_1.png"
+    },
+    {
+      "frame": 46,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Work/paper050-great-stink-v01-20261105/preview_middle_settings_v01/caption_states/00001_2.png"
+    },
+    {
+      "frame": 63,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Work/paper050-great-stink-v01-20261105/preview_middle_settings_v01/caption_states/00002_0.png"
+    },
+    {
+      "frame": 79,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Work/paper050-great-stink-v01-20261105/preview_middle_settings_v01/caption_states/00002_1.png"
+    },
+    {
+      "frame": 87,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Work/paper050-great-stink-v01-20261105/preview_middle_settings_v01/caption_states/00002_2.png"
+    },
+    {
+      "frame": 94,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Work/paper050-great-stink-v01-20261105/preview_middle_settings_v01/caption_states/00002_3.png"
+    },
+    {
+      "frame": 99,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Work/paper050-great-stink-v01-20261105/preview_middle_settings_v01/caption_states/00002_4.png"
+    },
+    {
+      "frame": 108,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Work/paper050-great-stink-v01-20261105/preview_middle_settings_v01/caption_states/00003_0.png"
+    },
+    {
+      "frame": 113,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Work/paper050-great-stink-v01-20261105/preview_middle_settings_v01/caption_states/00003_1.png"
+    },
+    {
+      "frame": 129,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Work/paper050-great-stink-v01-20261105/preview_middle_settings_v01/caption_states/00003_2.png"
+    },
+    {
+      "frame": 133,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Work/paper050-great-stink-v01-20261105/preview_middle_settings_v01/caption_states/00003_3.png"
+    },
+    {
+      "frame": 135,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Work/paper050-great-stink-v01-20261105/preview_middle_settings_v01/caption_states/00003_4.png"
+    },
+    {
+      "frame": 147,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Work/paper050-great-stink-v01-20261105/preview_middle_settings_v01/caption_states/00003_5.png"
+    },
+    {
+      "frame": 177,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Work/paper050-great-stink-v01-20261105/preview_middle_settings_v01/caption_states/00004_0.png"
+    },
+    {
+      "frame": 184,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Work/paper050-great-stink-v01-20261105/preview_middle_settings_v01/caption_states/00004_1.png"
+    },
+    {
+      "frame": 189,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Work/paper050-great-stink-v01-20261105/preview_middle_settings_v01/caption_states/00004_2.png"
+    },
+    {
+      "frame": 197,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Work/paper050-great-stink-v01-20261105/preview_middle_settings_v01/caption_states/00004_3.png"
+    },
+    {
+      "frame": 219,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Work/paper050-great-stink-v01-20261105/preview_middle_settings_v01/caption_states/00005_0.png"
+    },
+    {
+      "frame": 222,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Work/paper050-great-stink-v01-20261105/preview_middle_settings_v01/caption_states/00005_1.png"
+    },
+    {
+      "frame": 240,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Work/paper050-great-stink-v01-20261105/preview_middle_settings_v01/caption_states/00005_2.png"
+    },
+    {
+      "frame": 246,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Work/paper050-great-stink-v01-20261105/preview_middle_settings_v01/caption_states/00005_3.png"
+    },
+    {
+      "frame": 259,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Work/paper050-great-stink-v01-20261105/preview_middle_settings_v01/caption_states/00006_0.png"
+    },
+    {
+      "frame": 267,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Work/paper050-great-stink-v01-20261105/preview_middle_settings_v01/caption_states/00006_1.png"
+    },
+    {
+      "frame": 275,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Work/paper050-great-stink-v01-20261105/preview_middle_settings_v01/caption_states/00006_2.png"
+    },
+    {
+      "frame": 286,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Work/paper050-great-stink-v01-20261105/preview_middle_settings_v01/caption_states/00007_0.png"
+    },
+    {
+      "frame": 296,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Work/paper050-great-stink-v01-20261105/preview_middle_settings_v01/caption_states/00007_1.png"
+    },
+    {
+      "frame": 310,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Work/paper050-great-stink-v01-20261105/preview_middle_settings_v01/caption_states/00007_2.png"
+    }
+  ]
+}

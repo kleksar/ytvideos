@@ -1,0 +1,46 @@
+{
+  "created_utc": "2026-11-03T09:18:54Z",
+  "reviewer": "Codex self-review",
+  "media_sha256": "f7dae8962b14aa9b57552b7fc1993073d34debf561cf35f88d5684703c135b29",
+  "technical_run": "Edit/QA/qa-film-motion-v02/report.json",
+  "technical_run_sha256": "234607ca2afa4109f9c61c9da53cd2a38305583d926ff18d17b98c273cdbb57c",
+  "frames": {
+    "video_frames_decoded": 16125,
+    "unique_samples": 635,
+    "scene_count": 127,
+    "per_scene_points": [
+      "start",
+      "25%",
+      "50%",
+      "75%",
+      "last frame"
+    ],
+    "contact_sheet_count": 16,
+    "contact_sheets": [
+      "Edit/QA/qa-film-motion-v02/contact_sheets/motion_quartiles_01.jpg",
+      "Edit/QA/qa-film-motion-v02/contact_sheets/motion_quartiles_02.jpg",
+      "Edit/QA/qa-film-motion-v02/contact_sheets/motion_quartiles_03.jpg",
+      "Edit/QA/qa-film-motion-v02/contact_sheets/motion_quartiles_04.jpg",
+      "Edit/QA/qa-film-motion-v02/contact_sheets/motion_quartiles_05.jpg",
+      "Edit/QA/qa-film-motion-v02/contact_sheets/motion_quartiles_06.jpg",
+      "Edit/QA/qa-film-motion-v02/contact_sheets/motion_quartiles_07.jpg",
+      "Edit/QA/qa-film-motion-v02/contact_sheets/motion_quartiles_08.jpg",
+      "Edit/QA/qa-film-motion-v02/contact_sheets/motion_quartiles_09.jpg",
+      "Edit/QA/qa-film-motion-v02/contact_sheets/motion_quartiles_10.jpg",
+      "Edit/QA/qa-film-motion-v02/contact_sheets/motion_quartiles_11.jpg",
+      "Edit/QA/qa-film-motion-v02/contact_sheets/motion_quartiles_12.jpg",
+      "Edit/QA/qa-film-motion-v02/contact_sheets/motion_quartiles_13.jpg",
+      "Edit/QA/qa-film-motion-v02/contact_sheets/motion_quartiles_14.jpg",
+      "Edit/QA/qa-film-motion-v02/contact_sheets/motion_quartiles_15.jpg",
+      "Edit/QA/qa-film-motion-v02/contact_sheets/motion_quartiles_16.jpg"
+    ]
+  },
+  "inspection": "All 16 contact sheets visually inspected at 320x180 per tile; no gross scene crop, edge exposure, unexpected jump, obvious depth warp artifact, or subtitle panel collision observed in these samples. Previously selected full-resolution samples remain separately recorded.",
+  "status": "UNVERIFIED",
+  "limitations": [
+    "This is a five-point-per-scene sample, not visual inspection of all 16,125 frames.",
+    "Small edge/hand artifacts below contact-sheet scale and unsampled intermediate extrema are not ruled out.",
+    "This visual review cannot verify audible word/subtitle synchronization."
+  ],
+  "overall_qa": "UNVERIFIED"
+}

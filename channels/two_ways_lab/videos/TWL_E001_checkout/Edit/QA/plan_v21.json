@@ -1,0 +1,209 @@
+{
+  "frame_count": 802,
+  "fps": "30/1",
+  "sha256": "d80d4680e0c0d1cc5abdc6f727108957c19ad8b541819816451bcfd8948c9444",
+  "freshness": {
+    "status": "CURRENT",
+    "evidence": "Frozen v21 timeline/export contract and renderer input manifest."
+  },
+  "required_review_checks": [
+    "stream_metadata",
+    "full_decode",
+    "frame_sampling",
+    "motion_framing",
+    "cue_timing",
+    "audio_signal",
+    "srt"
+  ],
+  "expected": {
+    "video": {
+      "width": 1080,
+      "height": 1920,
+      "codec_name": "h264",
+      "pix_fmt": "yuv420p",
+      "color_space": "bt709"
+    },
+    "audio": {
+      "required": true,
+      "codec_name": "aac",
+      "channels": 2,
+      "sample_rate": 24000
+    }
+  },
+  "scenes": [
+    {
+      "id": "hook-0",
+      "start": 0,
+      "end": 110
+    },
+    {
+      "id": "join-110",
+      "start": 110,
+      "end": 210
+    },
+    {
+      "id": "one-210",
+      "start": 210,
+      "end": 260
+    },
+    {
+      "id": "two-260",
+      "start": 260,
+      "end": 369
+    },
+    {
+      "id": "payment-369",
+      "start": 369,
+      "end": 578
+    },
+    {
+      "id": "result-578",
+      "start": 578,
+      "end": 752
+    },
+    {
+      "id": "hook-752",
+      "start": 752,
+      "end": 802
+    }
+  ],
+  "cues": [
+    {
+      "id": "cue-1",
+      "start": 0,
+      "end": 43
+    },
+    {
+      "id": "cue-2",
+      "start": 43,
+      "end": 82
+    },
+    {
+      "id": "cue-3",
+      "start": 82,
+      "end": 113
+    },
+    {
+      "id": "cue-4",
+      "start": 113,
+      "end": 146
+    },
+    {
+      "id": "cue-5",
+      "start": 146,
+      "end": 186
+    },
+    {
+      "id": "cue-6",
+      "start": 186,
+      "end": 211
+    },
+    {
+      "id": "cue-7",
+      "start": 211,
+      "end": 242
+    },
+    {
+      "id": "cue-8",
+      "start": 242,
+      "end": 260
+    },
+    {
+      "id": "cue-9",
+      "start": 260,
+      "end": 301
+    },
+    {
+      "id": "cue-10",
+      "start": 301,
+      "end": 339
+    },
+    {
+      "id": "cue-11",
+      "start": 339,
+      "end": 368
+    },
+    {
+      "id": "cue-12",
+      "start": 368,
+      "end": 411
+    },
+    {
+      "id": "cue-13",
+      "start": 411,
+      "end": 435
+    },
+    {
+      "id": "cue-14",
+      "start": 435,
+      "end": 486
+    },
+    {
+      "id": "cue-15",
+      "start": 486,
+      "end": 532
+    },
+    {
+      "id": "cue-16",
+      "start": 532,
+      "end": 566
+    },
+    {
+      "id": "cue-17",
+      "start": 566,
+      "end": 579
+    },
+    {
+      "id": "cue-18",
+      "start": 579,
+      "end": 610
+    },
+    {
+      "id": "cue-19",
+      "start": 610,
+      "end": 663
+    },
+    {
+      "id": "cue-20",
+      "start": 663,
+      "end": 700
+    },
+    {
+      "id": "cue-21",
+      "start": 700,
+      "end": 754
+    },
+    {
+      "id": "cue-22",
+      "start": 754,
+      "end": 771
+    },
+    {
+      "id": "cue-23",
+      "start": 771,
+      "end": 802
+    }
+  ],
+  "extra_frames": [
+    0,
+    27,
+    54,
+    81,
+    107,
+    108,
+    457,
+    458,
+    484,
+    510,
+    535,
+    560,
+    561,
+    703,
+    704,
+    716,
+    728,
+    740,
+    750,
+    751
+  ]
+}

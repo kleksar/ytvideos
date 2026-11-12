@@ -1,0 +1,203 @@
+{
+  "storyboard": "EPISODE.md#v21--операторский-план",
+  "tool": "built-in ImageGen image editing",
+  "requested": {
+    "aspect_ratio": "9:16",
+    "target_pixels": [
+      1080,
+      1920
+    ],
+    "transparent_background": false
+  },
+  "tool_controls": "Actual source paths and opaque output passed explicitly; dimensions specified in prompt.",
+  "delivery_pixels": [
+    1080,
+    1920
+  ],
+  "images": [
+    {
+      "file": "Source/Images/v21/empty.png",
+      "sha256": "567f2855f6333ceb7713805569d831a4b81781c8019b38dcb3f474bbcc2bbeb8",
+      "native_size": [
+        941,
+        1672
+      ],
+      "operation": "whole-frame edit",
+      "original": "/Users/diplomat/.codex/generated_images/01a1cc7a-5069-7973-a037-caf2ae3cda74/exec-0f1288bc-7ce3-48d8-9679-e1c5258342e8.png",
+      "actual_references": [
+        {
+          "file": "Source/Images/v20/empty.png",
+          "sha256": "a2e192f4b0c1bf182fdd312047396a1b72f026c2a9f4d7719f4b7190e6181c83",
+          "role": "edit target"
+        }
+      ],
+      "prompt": "EDIT this exact people-free supermarket image into the clean empty master for a vertical 9:16 animated short. Preserve the same inviting cartoon supermarket composition, familiar render style and palette, window arches, fruit crates in lower corners, shelving, lights, paired counters, floor tile perspective and cyan left/amber right painted checkout lanes. Make the smallest changes possible: remove any letter-like details on packaging and keep all elements clean and sharp. If needed, clarify the luminous inner edges of both floor lanes as smooth straight lines running from the counters to their original foreground corners. Lock the reference camera, vanishing point and framing; keep counters and floor stripes in the exact same pixel positions and widths as the attached image. Absolutely empty of people, silhouettes, carts, baskets, arrows, text, labels and logos. Both counters fully visible and comparable in height. Preserve headroom above counters for an editorial overlay. Single finished high-quality 2D illustration in the supplied tall portrait aspect ratio, preferably 1080x1920 or highest available native resolution, full bleed."
+    },
+    {
+      "file": "Source/Images/v21/hook.png",
+      "sha256": "fc2e5eaf50733bd3c1757c252cda70d4e505287d83324e64d039b23975ef1c62",
+      "native_size": [
+        941,
+        1672
+      ],
+      "operation": "whole-frame edit",
+      "original": "/Users/diplomat/.codex/generated_images/01a1cc7a-5069-7973-a037-caf2ae3cda74/exec-599e71b0-a48b-411a-92f1-94f85c7adf07.png",
+      "actual_references": [
+        {
+          "file": "Source/Images/v21/empty.png",
+          "sha256": "567f2855f6333ceb7713805569d831a4b81781c8019b38dcb3f474bbcc2bbeb8",
+          "role": "edit target"
+        }
+      ],
+      "prompt": "Edit this supplied EMPTY MASTER as a locked background plate. Output ONE entire finished frame, full bleed 9:16 (target 1080×1920 or best native portrait available). Add fully drawn people and grounded props in the same warm colorful cartoon supermarket. Preserve exact frame boundaries and every uncovered pixel of the whole store as far as possible. Do not move, rescale, redraw or extend either colored floor lane, the floor tiles, registers, fruit crates, shelves, ceiling lights or windows. No text. This frame is a clear fork between two loaded metal shopping carts and five tiny orange hand baskets. Two small teal-uniform cashiers behind the counters. Both lanes recede toward the back, same single vanishing point. On BLUE left lane exactly TWO shoppers: near the left counter a smaller man with a teal/navy jacket and one full wheeled cart, and further back towards camera a noticeably larger woman in cream and purple with another full wheeled cart. Align both carts with the lane; neither cart floats. On ORANGE right lane exactly FIVE adults waiting in order, each holding ONE clearly visible small handled handbasket. From farthest at the counter to nearest: mustard sweater woman, olive jacket man, plum sweater man, teal blouse woman, light lilac shirt man. Space them diagonally within the lane so heads AND five small baskets can be counted, with faces or backs turned toward checkout. Mild left/right stagger within the ORANGE lane, not across the central aisle. One additional focal person standing in the central foreground aisle before choosing: young brown-haired man, bright red and black plaid shirt, blue jeans, white sneakers, muted green backpack, one small basket low in left hand, head turned toward amber line, right hand resting at his chin. His shoes firmly contact the same tile plane. Perspective check in normalized frame coordinates with (0,0) upper left: roughly position the right five pairs of feet progressively deeper to nearer around y=37%, 44%, 51%, 58%, 66%; relative full body image heights roughly 8%, 10%, 13%, 16%, 19% respectively, real adult proportions. Red-plaid man has feet near 84% of frame height and body ~28% of frame height. Foreground adults visibly larger than distant adults, scaling head, torso, legs and basket together. Equivalent cart at distance looks markedly smaller than nearest cart. Perspective and legible figures take priority over exact pixel coordinates. Keep heads clear of top 22% reserved for captions and generated lettering. Integrate shoes, wheels and short contact shadows into the floor, no floating or giant people at the registers. Only the people, shopping objects and their shadows are additions."
+    },
+    {
+      "file": "Source/Images/v21/join.png",
+      "sha256": "3ec579758d00cd64975990abc4d6689f9cbccf41564f8abe4c851b00a7953a58",
+      "native_size": [
+        941,
+        1671
+      ],
+      "operation": "whole-frame edit",
+      "original": "/Users/diplomat/.codex/generated_images/01a1cc7a-5069-7973-a037-caf2ae3cda74/exec-59b9a384-6acd-42c1-b574-9bd15ba9deef.png",
+      "actual_references": [
+        {
+          "file": "Source/Images/v21/hook.png",
+          "sha256": "fc2e5eaf50733bd3c1757c252cda70d4e505287d83324e64d039b23975ef1c62",
+          "role": "edit target"
+        },
+        {
+          "file": "Source/Images/v21/empty.png",
+          "sha256": "567f2855f6333ceb7713805569d831a4b81781c8019b38dcb3f474bbcc2bbeb8",
+          "role": "empty scene reference"
+        }
+      ],
+      "prompt": "Precision local edit of Image 1, the entire opening frame. Image 2 is the empty reference of this exact store; use it to recover the exact exposed floor tiles in the patch where the hero was standing. Output a single full finished portrait 9:16 frame at the same resolution and framing as Image 1. Only change the red-plaid man's pose and position. He just stepped diagonally toward the orange queue and takes the last place, behind the tall lilac-shirt man. Locate his feet near y=85%, centered at x=78% of the frame, with his whole body, head, white sneakers and small orange basket readable on-screen; his torso may be a little left of the amber lane's imaginary extension. He faces the right register in a 3/4 rear view, chin hand now relaxed, same red plaid, blue jeans, olive backpack. At almost the same depth as before, keep his original height, torso and head size. Let the two men be visibly separate with only modest overlap, keeping the lilac man's basket and shoes legible. Remove the previous red-plaid figure and his old shadow completely, revealing the exact original tile grid of the empty anchor. Preserve both cashiers, all seven other customers, every basket and cart, all their identities, scale, positions and clothing, and every fixed detail and edge of the cyan and amber lanes exactly. Do not redraw, pan, zoom or crop. No text. This is a finished cartoon supermarket frame with the change painted into the scene."
+    },
+    {
+      "file": "Source/Images/v21/one.png",
+      "sha256": "ce3fa0a15e84d5319fa1b87e2ea4e105a35569610302ba2dcfaf08a9e165752b",
+      "native_size": [
+        941,
+        1670
+      ],
+      "operation": "whole-frame edit",
+      "original": "/Users/diplomat/.codex/generated_images/01a1cc7a-5069-7973-a037-caf2ae3cda74/exec-7a88c9fe-8e5b-4c87-b088-a123d305a02c.png",
+      "actual_references": [
+        {
+          "file": "Source/Images/v21/join.png",
+          "sha256": "3ec579758d00cd64975990abc4d6689f9cbccf41564f8abe4c851b00a7953a58",
+          "role": "edit target"
+        },
+        {
+          "file": "Source/Images/v21/empty.png",
+          "sha256": "567f2855f6333ceb7713805569d831a4b81781c8019b38dcb3f474bbcc2bbeb8",
+          "role": "empty scene reference"
+        }
+      ],
+      "prompt": "Precision local edit of Image 1, the complete supermarket scene. Image 2 is the matching empty master for recovering exact exposed background. Produce ONE entire finished full-bleed 9:16 cartoon scene, same camera and resolution (best native available). Only the specified figures and their baskets/shadows may change. Keep exact pixel positions of all fixed anchors, especially bright blue and orange floor stripe corners and widths, floor grid, registers, overhead lights, windows, shelves and crates. Keep both small teal cashiers. Preserve the image's coherent depth cues: adult stature becomes smaller toward the distant registers, feet and shadows on tile, baskets smaller with distance, consistent anatomy. No text. Remove only the mustard-sweater woman at the head of the orange queue, her small orange basket, and her floor shadow. She has left the store and is entirely absent. Four basket shoppers remain ahead of the red-plaid protagonist, from farthest to nearest: olive jacket, plum sweater, teal blouse, lilac shirt. Keep these four, the red-plaid protagonist, and both loaded carts and their owners EXACTLY in the same positions, silhouettes, identities and scale as in Image 1. This is the moment after the first person has gone before the others have moved. Let the newly exposed floor and checkout appear behind where the yellow woman stood."
+    },
+    {
+      "file": "Source/Images/v21/two.png",
+      "sha256": "3a60e696550091a50ce309fd39cc8dd7fbee2afe7b40ad6923f85b1937361544",
+      "native_size": [
+        941,
+        1670
+      ],
+      "operation": "whole-frame edit",
+      "original": "/Users/diplomat/.codex/generated_images/01a1cc7a-5069-7973-a037-caf2ae3cda74/exec-9b5e2a0f-a308-4254-8fdf-06f4451e71d7.png",
+      "actual_references": [
+        {
+          "file": "Source/Images/v21/join.png",
+          "sha256": "3ec579758d00cd64975990abc4d6689f9cbccf41564f8abe4c851b00a7953a58",
+          "role": "edit target"
+        },
+        {
+          "file": "Source/Images/v21/empty.png",
+          "sha256": "567f2855f6333ceb7713805569d831a4b81781c8019b38dcb3f474bbcc2bbeb8",
+          "role": "empty scene reference"
+        }
+      ],
+      "prompt": "Precision local edit of Image 1, the complete supermarket scene. Image 2 is the matching empty master for recovering exact exposed background. Produce ONE entire finished full-bleed 9:16 cartoon scene, same camera and resolution (best native available). Only the specified figures and their baskets/shadows may change. Keep exact pixel positions of all fixed anchors, especially bright blue and orange floor stripe corners and widths, floor grid, registers, overhead lights, windows, shelves and crates. Keep both small teal cashiers. Preserve the image's coherent depth cues: adult stature becomes smaller toward the distant registers, feet and shadows on tile, baskets smaller with distance, consistent anatomy. No text. Both the mustard-sweater woman and olive-jacket man have left. Remove both of them, both baskets and their shadows. Move the next person, the plum-sweater curly-haired man, along the orange queue to the exact former spot of the mustard woman by the right register. Paint his whole body and handbasket at the markedly smaller scale of that position, shoes near y=38% of the image and head near y=23–25%. The plum sweater must be obvious, his stance angled toward the cashier. The teal blouse woman and lilac shirt man remain exactly where they stood in Image 1, with their own baskets; behind them keep the existing foreground red-plaid protagonist. Keep both loaded carts and their owners completely unchanged. Exactly three basket shoppers ahead of the protagonist. Restore the newly visible portions of the orange flooring at the vacated positions; no traces of either departing shopper."
+    },
+    {
+      "file": "Source/Images/v21/payment.png",
+      "sha256": "9ffe938ab51ba1d859fe59e086798182d9c4c23367c744434bf19517ed621a16",
+      "native_size": [
+        942,
+        1670
+      ],
+      "operation": "whole-frame edit",
+      "original": "/Users/diplomat/.codex/generated_images/01a1cc7a-5069-7973-a037-caf2ae3cda74/exec-c4020d35-cc87-4fd1-8f1a-f307afccb66a.png",
+      "actual_references": [
+        {
+          "file": "Source/Images/v21/two.png",
+          "sha256": "3a60e696550091a50ce309fd39cc8dd7fbee2afe7b40ad6923f85b1937361544",
+          "role": "edit target"
+        },
+        {
+          "file": "Source/Images/v21/empty.png",
+          "sha256": "567f2855f6333ceb7713805569d831a4b81781c8019b38dcb3f474bbcc2bbeb8",
+          "role": "empty scene reference"
+        }
+      ],
+      "prompt": "Precision small local edit to Image 1 (entire two-departures scene); Image 2 is the exact empty background for reference. Keep the whole full-bleed 9:16 view, original native framing/resolution, architecture, pixels and visual style. Only animate the action at the head of the orange queue as a new finished still image. The same small curly-haired man in plum sweater and tan pants takes a small step forward to stand a comfortable arm's reach from the right counter. His shoe tips stay on the orange lane a little below its far painted edge, nearer the counter than in Image 1. Keep his body slightly smaller as he moves deeper. Seen mostly from behind in 3/4 view, the plum shopper holds a plain debit card between fingers in his right hand, reaching a little upward to tap it against the small black card reader that the same teal-uniform right cashier extends just over the counter toward him. Make the contact between card and reader clear and anatomically natural, the reader within easy reach. His left hand still holds the original small orange shopping basket at thigh level. No one enters or leaves. The waiting teal blouse woman, lilac shirt man, red plaid protagonist, both cart shoppers and both full carts stay in exactly the same positions, poses and sizes as Image 1. Preserve every uncovered floor grid and neon stripe, register, foreground crate and other detail exactly. Do not add text, logos, icons or any graphical overlay."
+    },
+    {
+      "file": "Source/Images/v21/result.png",
+      "sha256": "074955b604caa4e22ae529c3483c47d421e5a61b90ae93f03115756c0bb0bc99",
+      "native_size": [
+        941,
+        1671
+      ],
+      "operation": "whole-frame edit",
+      "original": "/Users/diplomat/.codex/generated_images/01a1cc7a-5069-7973-a037-caf2ae3cda74/exec-2074ffaf-4665-4738-841e-62277b936103.png",
+      "actual_references": [
+        {
+          "file": "Source/Images/v21/join.png",
+          "sha256": "3ec579758d00cd64975990abc4d6689f9cbccf41564f8abe4c851b00a7953a58",
+          "role": "edit target"
+        },
+        {
+          "file": "Source/Images/v21/empty.png",
+          "sha256": "567f2855f6333ceb7713805569d831a4b81781c8019b38dcb3f474bbcc2bbeb8",
+          "role": "empty scene reference"
+        }
+      ],
+      "prompt": "Precision local edit of Image 1, the complete supermarket scene. Image 2 is the matching empty master for recovering exact exposed background. Produce ONE entire finished full-bleed 9:16 cartoon scene, same camera and resolution (best native available). Only the specified figures and their baskets/shadows may change. Keep exact pixel positions of all fixed anchors, especially bright blue and orange floor stripe corners and widths, floor grid, registers, overhead lights, windows, shelves and crates. Keep both small teal cashiers. Preserve the image's coherent depth cues: adult stature becomes smaller toward the distant registers, feet and shadows on tile, baskets smaller with distance, consistent anatomy. No text. At the end of the comparison the whole blue lane is empty, all the way from the cyan counter to its original bright near edge. Remove BOTH left lane cart owners, both loaded carts and their shadows; reveal the original exact cyan floor and tile seams from Image 2. On the right remove the mustard, olive, plum and teal shoppers and all their baskets. Only the light-lilac shirt man and red-plaid protagonist with backpack remain on the orange lane, physically in that order. Place the lilac man at the amber counter (shoe y~38% and head y~23%, same small scale as the original mustard shopper there), from the rear in three-quarter view with the same small handbasket held close. Move the red-plaid protagonist to a natural waiting position just a few feet behind him on the same orange lane (shoes around x=75%, y=56–60%, body height about 26–29% of image height; he is markedly larger than the lilac man owing to his proximity to the camera, but much smaller than he was in the foreground of Image 1). Preserve plaid, jeans, white shoes, olive backpack and tiny orange handbasket. His free hand is held open, palm up, as he turns his head slightly toward the empty blue lane; his feet point forward in the amber queue. Clearly separate silhouettes and baskets, leaving both lane corners exactly as they are. Only these TWO shoppers and TWO original cashiers appear. No carts anywhere."
+    }
+  ],
+  "lettering": [
+    {
+      "file": "Source/Lettering/v18/hook.png",
+      "sha256": "04fd527f57619528b5e52840f9090802229008e7fdfd0cdc98a7bf8cbe88dc40",
+      "artwork_original": {
+        "file": "Source/Lettering/v18/hook_original.png",
+        "sha256": "add8c1139ef84d3927fe4ac949ca55e5d9fd63577280fc8ce99d94ccdf319225"
+      },
+      "visible_text": "2 OR 5?",
+      "source": "Existing generated lettering retained from v20. Transparent placement derivative."
+    },
+    {
+      "file": "Source/Lettering/v18/payment.png",
+      "sha256": "181aefcba625016494a008cb3f2bd1f4885276141a6230383671bb41825cfeb7",
+      "artwork_original": {
+        "file": "Source/Lettering/v18/payment_original.png",
+        "sha256": "70fbc0bb65cf7b3cc9a2365d4c21e8cc685dd2bb2414c7bf2f41bb4f3e5243a4"
+      },
+      "visible_text": "12s PER PAYMENT",
+      "source": "Existing generated lettering retained from v20. Transparent placement derivative."
+    },
+    {
+      "file": "Source/Lettering/v18/loss.png",
+      "sha256": "c33d72b70fc6bdb58c742382f09b03a9de1cca381690378639934aed07918002",
+      "artwork_original": {
+        "file": "Source/Lettering/v18/loss_original.png",
+        "sha256": "b7e2147e95351a161e9331fc4f6ca04a3da6b16ce1584b01379ae1e0fb544853"
+      },
+      "visible_text": "14 SECONDS LONGER",
+      "source": "Existing generated lettering retained from v20. Transparent placement derivative."
+    }
+  ],
+  "source_review": "Edit/QA/REVIEW_v21_images.md"
+}

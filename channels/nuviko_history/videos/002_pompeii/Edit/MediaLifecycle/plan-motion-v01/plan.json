@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "kind": "plan",
+  "created_utc": "2026-11-03T14:45:50.640677+00:00",
+  "audit": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/002_pompeii/Edit/MediaLifecycle/audit-motion-v01/audit.json",
+  "audit_sha256": "3cdbfc3ee9ff2f37eb3eff3ef18de284c66b7f822b3be71a4032e4eae509b1a0",
+  "episode": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/002_pompeii",
+  "executable": false,
+  "deletion_implemented": false,
+  "stale_inputs": [
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Edit/Palmier/Paper 038 USS Lincoln Pattaya Visual Assembly v02.palmier/media.json",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Edit/Palmier/Paper 038 USS Lincoln Pattaya Visual Assembly v02.palmier/project.json",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Edit/Palmier/Paper 038 USS Lincoln Pattaya Visual Assembly v02.palmier/snapshots/09EBD671.json",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Edit/Palmier/Paper 038 USS Lincoln Pattaya Visual Assembly v02.palmier/snapshots/4B1B33F2.json",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Edit/Palmier/Paper 038 USS Lincoln Pattaya Visual Assembly v02.palmier/snapshots/4EC6162A.json",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Edit/Palmier/Paper 038 USS Lincoln Pattaya Visual Assembly v02.palmier/snapshots/66BCCE49.json",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Edit/Palmier/Paper 038 USS Lincoln Pattaya Visual Assembly v02.palmier/snapshots/6C231D9F.json",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Edit/Palmier/Paper 038 USS Lincoln Pattaya Visual Assembly v02.palmier/snapshots/70908230.json",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Edit/Palmier/Paper 038 USS Lincoln Pattaya Visual Assembly v02.palmier/snapshots/71CA5AF9.json",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Edit/Palmier/Paper 038 USS Lincoln Pattaya Visual Assembly v02.palmier/snapshots/749F41F1.json",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Edit/Palmier/Paper 038 USS Lincoln Pattaya Visual Assembly v02.palmier/snapshots/9E299C2E.json",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Edit/Palmier/Paper 038 USS Lincoln Pattaya Visual Assembly v02.palmier/snapshots/A9CA92FF.json",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Edit/Palmier/Paper 038 USS Lincoln Pattaya Visual Assembly v02.palmier/snapshots/BDCFA1B8.json",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Edit/Palmier/Paper 038 USS Lincoln Pattaya Visual Assembly v02.palmier/snapshots/C3DAAB36.json",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Edit/Palmier/Paper 038 USS Lincoln Pattaya Visual Assembly v02.palmier/snapshots/E463D12D.json",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Edit/Palmier/Paper 038 USS Lincoln Pattaya Visual Assembly v02.palmier/snapshots/F5D49B6B.json"
+  ],
+  "entries": [],
+  "review_candidate_logical_bytes": 0,
+  "blocked_logical_bytes": 0,
+  "physical_reclaimable_bytes": null,
+  "missing_declared_candidates": [],
+  "limitations": [
+    "No deletion implementation or permission. No writer absence proof.",
+    "All found imports protected, including retained timelines; unlisted/inaccessible projects and external consumers remain unknown.",
+    "Text scan is heuristic and cannot prove absence of dependencies. Source hashes/QA are evidence, not user acceptance.",
+    "APFS CoW and snapshots prevent inferring physical reclaim from logical or allocated sums."
+  ],
+  "errors": []
+}

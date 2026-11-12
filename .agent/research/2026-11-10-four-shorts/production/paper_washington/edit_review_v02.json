@@ -1,0 +1,73 @@
+{
+  "channel": "paper",
+  "format": "short",
+  "source_transfer": "srgb",
+  "audio": "/Users/diplomat/ytvideos/.agent/research/2026-11-10-four-shorts/production/paper_washington/voice/mix_110_draft.wav",
+  "audio_contract": {
+    "final_audio_sha256": "bf7f65b5550f3f1a7d840d5847182d386e30a8ebbbe3e17284e8d7b7ac94a7b8",
+    "applied_speed": 1.1,
+    "speed_evidence": "/Users/diplomat/ytvideos/.agent/research/2026-11-10-four-shorts/production/paper_washington/voice/SPEED_AND_MIX_DRAFT.md"
+  },
+  "scenes": [
+    {
+      "image": "/Users/diplomat/ytvideos/.agent/research/2026-11-10-four-shorts/production/paper_washington/scenes/S001_candidate.png",
+      "start_frame": 0,
+      "end_frame": 180,
+      "direction": "left_to_right",
+      "zoom": "in"
+    },
+    {
+      "image": "/Users/diplomat/ytvideos/.agent/research/2026-11-10-four-shorts/production/paper_washington/scenes/S002_candidate.png",
+      "start_frame": 180,
+      "end_frame": 330,
+      "direction": "right_to_left",
+      "zoom": "out"
+    },
+    {
+      "image": "/Users/diplomat/ytvideos/.agent/research/2026-11-10-four-shorts/production/paper_washington/scenes/S003_candidate.png",
+      "start_frame": 330,
+      "end_frame": 465,
+      "direction": "left_to_right",
+      "zoom": "in"
+    },
+    {
+      "image": "/Users/diplomat/ytvideos/.agent/research/2026-11-10-four-shorts/production/paper_washington/scenes/S004_candidate.png",
+      "start_frame": 465,
+      "end_frame": 585,
+      "direction": "right_to_left",
+      "zoom": "out"
+    },
+    {
+      "image": "/Users/diplomat/ytvideos/.agent/research/2026-11-10-four-shorts/production/paper_washington/scenes/S005_candidate.png",
+      "start_frame": 585,
+      "end_frame": 705,
+      "direction": "left_to_right",
+      "zoom": "in"
+    },
+    {
+      "image": "/Users/diplomat/ytvideos/.agent/research/2026-11-10-four-shorts/production/paper_washington/scenes/S006_candidate.png",
+      "start_frame": 705,
+      "end_frame": 860,
+      "direction": "right_to_left",
+      "zoom": "out"
+    }
+  ],
+  "subtitles": {
+    "mode": "words",
+    "words": "/Users/diplomat/ytvideos/.agent/research/2026-11-10-four-shorts/production/paper_washington/voice/word_times_mix_draft.json",
+    "transcript": "/Users/diplomat/ytvideos/.agent/research/2026-11-10-four-shorts/production/paper_washington/narration_en_v1.txt",
+    "keep_together": [
+      "and again"
+    ]
+  },
+  "overlays": [
+    {
+      "role": "paper_frame",
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/Shared/Overlays/Paper_Frame/masters/paper-border-9x16-16s-v03.mov",
+      "start_frame": 0,
+      "end_frame": 860,
+      "x": 0,
+      "y": 0
+    }
+  ]
+}

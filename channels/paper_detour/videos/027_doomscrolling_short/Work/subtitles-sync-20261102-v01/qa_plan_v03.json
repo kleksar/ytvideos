@@ -1,0 +1,277 @@
+{
+  "sha256": "ebf722950425fa83b7b2157bf3ecf1870aba49d53a25f5c4455bef40404cbe74",
+  "frame_count": 1050,
+  "fps": "30/1",
+  "required_review_checks": [
+    "stream_metadata",
+    "full_decode",
+    "frame_sampling"
+  ],
+  "freshness": {
+    "status": "CURRENT",
+    "evidence": "Native Palmier export receipt binds project 7CDA44DD/timeline DE25483E, 1050 frames at 30 fps; scene track matches accepted 8-scene timing; final uploaded file is a byte-identical copy of this export with retained MP3 stream."
+  },
+  "expected": {
+    "video": {
+      "width": 1080,
+      "height": 1920,
+      "codec_name": "h264",
+      "pix_fmt": "yuv420p",
+      "color_space": "bt709"
+    },
+    "audio": {
+      "required": true,
+      "codec_name": "mp3",
+      "channels": 1,
+      "sample_rate": 44100
+    }
+  },
+  "scenes": [
+    {
+      "id": "S01",
+      "start": 0,
+      "end": 173
+    },
+    {
+      "id": "S02",
+      "start": 173,
+      "end": 300
+    },
+    {
+      "id": "S03",
+      "start": 300,
+      "end": 420
+    },
+    {
+      "id": "S04",
+      "start": 420,
+      "end": 570
+    },
+    {
+      "id": "S05",
+      "start": 570,
+      "end": 690
+    },
+    {
+      "id": "S06",
+      "start": 690,
+      "end": 810
+    },
+    {
+      "id": "S07",
+      "start": 810,
+      "end": 930
+    },
+    {
+      "id": "S08",
+      "start": 930,
+      "end": 1050
+    }
+  ],
+  "cues": [
+    {
+      "id": "C01",
+      "start": 0,
+      "end": 27
+    },
+    {
+      "id": "C02",
+      "start": 26,
+      "end": 51
+    },
+    {
+      "id": "C03",
+      "start": 67,
+      "end": 101
+    },
+    {
+      "id": "C04",
+      "start": 115,
+      "end": 135
+    },
+    {
+      "id": "C05",
+      "start": 134,
+      "end": 156
+    },
+    {
+      "id": "C06",
+      "start": 172,
+      "end": 192
+    },
+    {
+      "id": "C07",
+      "start": 204,
+      "end": 236
+    },
+    {
+      "id": "C08",
+      "start": 256,
+      "end": 272
+    },
+    {
+      "id": "C09",
+      "start": 271,
+      "end": 291
+    },
+    {
+      "id": "C10",
+      "start": 300,
+      "end": 330
+    },
+    {
+      "id": "C11",
+      "start": 340,
+      "end": 363
+    },
+    {
+      "id": "C12",
+      "start": 362,
+      "end": 387
+    },
+    {
+      "id": "C13",
+      "start": 386,
+      "end": 420
+    },
+    {
+      "id": "C14",
+      "start": 420,
+      "end": 449
+    },
+    {
+      "id": "C15",
+      "start": 448,
+      "end": 472
+    },
+    {
+      "id": "C16",
+      "start": 471,
+      "end": 483
+    },
+    {
+      "id": "C17",
+      "start": 494,
+      "end": 516
+    },
+    {
+      "id": "C18",
+      "start": 516,
+      "end": 533
+    },
+    {
+      "id": "C19",
+      "start": 532,
+      "end": 550
+    },
+    {
+      "id": "C20",
+      "start": 549,
+      "end": 567
+    },
+    {
+      "id": "C21",
+      "start": 566,
+      "end": 588
+    },
+    {
+      "id": "C22",
+      "start": 588,
+      "end": 627
+    },
+    {
+      "id": "C23",
+      "start": 626,
+      "end": 639
+    },
+    {
+      "id": "C24",
+      "start": 638,
+      "end": 675
+    },
+    {
+      "id": "C25",
+      "start": 674,
+      "end": 704
+    },
+    {
+      "id": "C26",
+      "start": 712,
+      "end": 728
+    },
+    {
+      "id": "C27",
+      "start": 727,
+      "end": 742
+    },
+    {
+      "id": "C28",
+      "start": 741,
+      "end": 780
+    },
+    {
+      "id": "C29",
+      "start": 780,
+      "end": 790
+    },
+    {
+      "id": "C30",
+      "start": 789,
+      "end": 816
+    },
+    {
+      "id": "C31",
+      "start": 816,
+      "end": 828
+    },
+    {
+      "id": "C32",
+      "start": 828,
+      "end": 840
+    },
+    {
+      "id": "C33",
+      "start": 840,
+      "end": 874
+    },
+    {
+      "id": "C34",
+      "start": 873,
+      "end": 905
+    },
+    {
+      "id": "C35",
+      "start": 904,
+      "end": 924
+    },
+    {
+      "id": "C36",
+      "start": 924,
+      "end": 953
+    },
+    {
+      "id": "C37",
+      "start": 962,
+      "end": 992
+    },
+    {
+      "id": "C38",
+      "start": 991,
+      "end": 1016
+    },
+    {
+      "id": "C39",
+      "start": 1029,
+      "end": 1044
+    }
+  ],
+  "extra_frames": [
+    67,
+    112,
+    113,
+    455,
+    456,
+    519,
+    520
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "status": "final_alpha_overlay_ready",
+  "projectId": "3C0B4689",
+  "timelineId": "6A17B61A",
+  "videoSha256": "c0221d3e0d3a2ec618a6b901a97bab5ca91fb94d0c98cf4b9b053bac38e3c075",
+  "operations": [
+    {
+      "tool": "manage_snapshots",
+      "operation": "snapshot 5-second alpha preview before full replacement",
+      "arguments": {
+        "projectId": "3C0B4689",
+        "timelineId": "6A17B61A",
+        "action": "save",
+        "name": "Before full subtitle overlay replacement"
+      },
+      "result": {
+        "snapshot": {
+          "author": {
+            "kind": "agent",
+            "name": "yt-stories-inspect"
+          },
+          "createdAt": "2026-11-03T07:55:16Z",
+          "name": "Before full subtitle overlay replacement",
+          "snapshotId": "E7CD6A8C"
+        }
+      }
+    },
+    {
+      "tool": "import_media",
+      "operation": "import full alpha subtitle layer",
+      "arguments": {
+        "projectId": "3C0B4689",
+        "source": {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/016_marseille_1720/Assets/Generated/subtitle_overlay_v01.mov"
+        },
+        "folder": "SubtitleOverlay",
+        "name": "subtitle_overlay_v01"
+      },
+      "result": {
+        "actionId": "A54D25DA",
+        "mediaRef": "310CC105",
+        "name": "subtitle_overlay_v01",
+        "status": "ready",
+        "type": "video"
+      }
+    },
+    {
+      "tool": "add_clips",
+      "operation": "replace preview with full alpha subtitle movie",
+      "arguments": {
+        "projectId": "3C0B4689",
+        "timelineId": "6A17B61A",
+        "entries": [
+          {
+            "mediaRef": "310CC105",
+            "startFrame": 0,
+            "source": [
+              0,
+              537.5
+            ],
+            "trackIndex": 0,
+            "includeAudio": false
+          }
+        ]
+      },
+      "result": {
+        "actionId": "0BEB73B8",
+        "clips": [
+          {
+            "frames": [
+              0,
+              16125
+            ],
+            "id": "E22E7AF5",
+            "mediaRef": "310CC105",
+            "track": 0
+          }
+        ],
+        "removedClipIds": [
+          "944B75DA"
+        ]
+      }
+    },
+    {
+      "tool": "manage_snapshots",
+      "operation": "snapshot full subtitle overlay timeline",
+      "arguments": {
+        "projectId": "3C0B4689",
+        "timelineId": "6A17B61A",
+        "action": "save",
+        "name": "Full alpha word-highlight subtitles v01"
+      },
+      "result": {
+        "snapshot": {
+          "author": {
+            "kind": "agent",
+            "name": "yt-stories-inspect"
+          },
+          "createdAt": "2026-11-03T07:55:55Z",
+          "name": "Full alpha word-highlight subtitles v01",
+          "snapshotId": "57005559"
+        }
+      }
+    }
+  ],
+  "beforeReplaceSnapshot": {
+    "snapshot": {
+      "author": {
+        "kind": "agent",
+        "name": "yt-stories-inspect"
+      },
+      "createdAt": "2026-11-03T07:55:16Z",
+      "name": "Before full subtitle overlay replacement",
+      "snapshotId": "E7CD6A8C"
+    }
+  },
+  "mediaRef": "310CC105",
+  "clipId": "E22E7AF5",
+  "snapshot": {
+    "snapshot": {
+      "author": {
+        "kind": "agent",
+        "name": "yt-stories-inspect"
+      },
+      "createdAt": "2026-11-03T07:55:55Z",
+      "name": "Full alpha word-highlight subtitles v01",
+      "snapshotId": "57005559"
+    }
+  },
+  "timelineSummary": {
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "totalFrames": 16125,
+    "durationSeconds": 537.5,
+    "tracks": [
+      [
+        "Subtitles",
+        "video",
+        1
+      ],
+      [
+        "Scenes",
+        "video",
+        127
+      ],
+      [
+        "Narration",
+        "audio",
+        1
+      ]
+    ]
+  }
+}

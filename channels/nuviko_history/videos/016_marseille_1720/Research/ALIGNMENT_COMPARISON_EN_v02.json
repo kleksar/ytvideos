@@ -1,0 +1,896 @@
+{
+  "status": "DIAGNOSTIC_ONLY_REVIEW_REQUIRED",
+  "audio_sha256": "eb3e1b9ccd6c9c89577bbe4201914ff142e55f41220ff1e7c1cde50cd3a6a419",
+  "transcript_sha256": "3d2b59d0470d7b9f4490a37d5b54a9dc9a4104928196256ec76f32cfcc23e64c",
+  "tokenizer": "Unicode NFKC; casefold; split hyphenated compounds; strip surrounding punctuation; difflib SequenceMatcher, autojunk=False",
+  "counts": {
+    "asr_lexical_tokens": 1597,
+    "forced_lexical_tokens": 1578,
+    "matched_lexical_tokens": 1568,
+    "mismatch_blocks": 10,
+    "exact_boundary_pairs": 1568
+  },
+  "boundary_delta_abs_seconds": {
+    "over_0_25": 68,
+    "over_0_5": 15,
+    "median": 0.11,
+    "p95": 0.245
+  },
+  "forced_low_confidence_lt_0_5": 32,
+  "low_confidence_examples": [
+    {
+      "text": "enter",
+      "start": 5.72,
+      "end": 5.94,
+      "score": 0.382
+    },
+    {
+      "text": "we",
+      "start": 50.981,
+      "end": 51.081,
+      "score": 0.489
+    },
+    {
+      "text": "a",
+      "start": 54.481,
+      "end": 54.921,
+      "score": 0.49
+    },
+    {
+      "text": "eastern",
+      "start": 59.601,
+      "end": 59.861,
+      "score": 0.449
+    },
+    {
+      "text": "in",
+      "start": 80.062,
+      "end": 80.122,
+      "score": 0.156
+    },
+    {
+      "text": "was",
+      "start": 130.583,
+      "end": 130.723,
+      "score": 0.466
+    },
+    {
+      "text": "have",
+      "start": 132.583,
+      "end": 132.683,
+      "score": 0.234
+    },
+    {
+      "text": "a",
+      "start": 157.064,
+      "end": 157.124,
+      "score": 0.356
+    },
+    {
+      "text": "18th",
+      "start": 171.464,
+      "end": 171.804,
+      "score": 0.487
+    },
+    {
+      "text": "a",
+      "start": 176.404,
+      "end": 176.444,
+      "score": 0.046
+    },
+    {
+      "text": "raised",
+      "start": 208.205,
+      "end": 208.425,
+      "score": 0.353
+    },
+    {
+      "text": "were",
+      "start": 261.506,
+      "end": 261.646,
+      "score": 0.437
+    },
+    {
+      "text": "is",
+      "start": 267.146,
+      "end": 267.266,
+      "score": 0.452
+    },
+    {
+      "text": "have",
+      "start": 276.166,
+      "end": 276.286,
+      "score": 0.358
+    },
+    {
+      "text": "illnesses.",
+      "start": 302.547,
+      "end": 302.947,
+      "score": 0.452
+    },
+    {
+      "text": "were",
+      "start": 348.068,
+      "end": 348.188,
+      "score": 0.276
+    },
+    {
+      "text": "to",
+      "start": 354.388,
+      "end": 354.488,
+      "score": 0.491
+    },
+    {
+      "text": "care",
+      "start": 354.528,
+      "end": 354.708,
+      "score": 0.498
+    },
+    {
+      "text": "with",
+      "start": 355.868,
+      "end": 355.988,
+      "score": 0.31
+    },
+    {
+      "text": "be",
+      "start": 385.529,
+      "end": 385.629,
+      "score": 0.484
+    },
+    {
+      "text": "Rose,",
+      "start": 396.569,
+      "end": 396.889,
+      "score": 0.497
+    },
+    {
+      "text": "26th,",
+      "start": 432.39,
+      "end": 433.03,
+      "score": 0.487
+    },
+    {
+      "text": "to",
+      "start": 434.77,
+      "end": 434.87,
+      "score": 0.454
+    },
+    {
+      "text": "a",
+      "start": 441.25,
+      "end": 441.31,
+      "score": 0.256
+    },
+    {
+      "text": "But",
+      "start": 444.97,
+      "end": 445.11,
+      "score": 0.467
+    },
+    {
+      "text": "had",
+      "start": 446.75,
+      "end": 446.85,
+      "score": 0.438
+    },
+    {
+      "text": "the",
+      "start": 478.851,
+      "end": 478.931,
+      "score": 0.428
+    },
+    {
+      "text": "have",
+      "start": 521.272,
+      "end": 521.372,
+      "score": 0.14
+    },
+    {
+      "text": "What",
+      "start": 522.132,
+      "end": 522.272,
+      "score": 0.396
+    },
+    {
+      "text": "a",
+      "start": 523.112,
+      "end": 523.152,
+      "score": 0.494
+    }
+  ],
+  "mismatch_blocks": [
+    {
+      "kind": "replace",
+      "asr_tokens": [
+        "three",
+        "-",
+        "masted"
+      ],
+      "forced_tokens": [
+        "three-masted"
+      ],
+      "asr_span": [
+        55.28,
+        55.84
+      ],
+      "forced_span": [
+        55.301,
+        55.961
+      ]
+    },
+    {
+      "kind": "replace",
+      "asr_tokens": [
+        "saint",
+        "-",
+        "antoine"
+      ],
+      "forced_tokens": [
+        "saint-antoine"
+      ],
+      "asr_span": [
+        57.44,
+        58.24
+      ],
+      "forced_span": [
+        57.581,
+        58.321
+      ]
+    },
+    {
+      "kind": "replace",
+      "asr_tokens": [
+        "jean",
+        "-",
+        "baptiste"
+      ],
+      "forced_tokens": [
+        "jean-baptiste"
+      ],
+      "asr_span": [
+        61.76,
+        62.44
+      ],
+      "forced_span": [
+        61.821,
+        62.461
+      ]
+    },
+    {
+      "kind": "replace",
+      "asr_tokens": [
+        "saint",
+        "-",
+        "antoine"
+      ],
+      "forced_tokens": [
+        "saint-antoine"
+      ],
+      "asr_span": [
+        78.1,
+        78.8
+      ],
+      "forced_span": [
+        78.242,
+        78.922
+      ]
+    },
+    {
+      "kind": "replace",
+      "asr_tokens": [
+        "jean",
+        "-",
+        "baptiste"
+      ],
+      "forced_tokens": [
+        "jean-baptiste"
+      ],
+      "asr_span": [
+        102.42,
+        103.12
+      ],
+      "forced_span": [
+        102.502,
+        103.162
+      ]
+    },
+    {
+      "kind": "replace",
+      "asr_tokens": [
+        "jean",
+        "-",
+        "baptiste"
+      ],
+      "forced_tokens": [
+        "jean-baptiste"
+      ],
+      "asr_span": [
+        142.62,
+        143.38
+      ],
+      "forced_span": [
+        142.803,
+        143.443
+      ]
+    },
+    {
+      "kind": "replace",
+      "asr_tokens": [
+        "saint",
+        "-",
+        "antoine"
+      ],
+      "forced_tokens": [
+        "saint-antoine"
+      ],
+      "asr_span": [
+        168.58,
+        169.36
+      ],
+      "forced_span": [
+        168.744,
+        169.484
+      ]
+    },
+    {
+      "kind": "replace",
+      "asr_tokens": [
+        "jean",
+        "-",
+        "andré"
+      ],
+      "forced_tokens": [
+        "jean-andré"
+      ],
+      "asr_span": [
+        323.28,
+        323.78
+      ],
+      "forced_span": [
+        323.307,
+        323.827
+      ]
+    },
+    {
+      "kind": "replace",
+      "asr_tokens": [
+        "saint",
+        "-",
+        "antoine"
+      ],
+      "forced_tokens": [
+        "saint-antoine"
+      ],
+      "asr_span": [
+        428.12,
+        428.88
+      ],
+      "forced_span": [
+        428.27,
+        429.01
+      ]
+    },
+    {
+      "kind": "replace",
+      "asr_tokens": [
+        "d",
+        "if"
+      ],
+      "forced_tokens": [
+        "d'if"
+      ],
+      "asr_span": [
+        472.26,
+        472.56
+      ],
+      "forced_span": [
+        472.351,
+        472.591
+      ]
+    }
+  ],
+  "largest_timing_deltas": [
+    {
+      "token": "over",
+      "asr_start": 75.98,
+      "forced_start": 76.682,
+      "delta_start": 0.702,
+      "asr_end": 76.82,
+      "forced_end": 76.862,
+      "delta_end": 0.042,
+      "score": 0.75
+    },
+    {
+      "token": "100",
+      "asr_start": 463.4,
+      "forced_start": 463.651,
+      "delta_start": 0.251,
+      "asr_end": 464.04,
+      "forced_end": 464.731,
+      "delta_end": 0.691,
+      "score": 0.54
+    },
+    {
+      "token": "at",
+      "asr_start": 302.82,
+      "forced_start": 303.487,
+      "delta_start": 0.667,
+      "asr_end": 303.54,
+      "forced_end": 303.567,
+      "delta_end": 0.027,
+      "score": 0.56
+    },
+    {
+      "token": "in",
+      "asr_start": 115.38,
+      "forced_start": 116.043,
+      "delta_start": 0.663,
+      "asr_end": 116.08,
+      "forced_end": 116.103,
+      "delta_end": 0.023,
+      "score": 0.778
+    },
+    {
+      "token": "100",
+      "asr_start": 90.58,
+      "forced_start": 90.762,
+      "delta_start": 0.182,
+      "asr_end": 91.18,
+      "forced_end": 91.842,
+      "delta_end": 0.662,
+      "score": 0.746
+    },
+    {
+      "token": "a",
+      "asr_start": 55.06,
+      "forced_start": 54.481,
+      "delta_start": -0.579,
+      "asr_end": 55.28,
+      "forced_end": 54.921,
+      "delta_end": -0.359,
+      "score": 0.49
+    },
+    {
+      "token": "bodies",
+      "asr_start": 384.22,
+      "forced_start": 384.789,
+      "delta_start": 0.569,
+      "asr_end": 385.06,
+      "forced_end": 385.129,
+      "delta_end": 0.069,
+      "score": 0.62
+    },
+    {
+      "token": "officials",
+      "asr_start": 331.38,
+      "forced_start": 331.928,
+      "delta_start": 0.548,
+      "asr_end": 332.34,
+      "forced_end": 332.388,
+      "delta_end": 0.048,
+      "score": 0.747
+    },
+    {
+      "token": "it",
+      "asr_start": 223.7,
+      "forced_start": 224.245,
+      "delta_start": 0.545,
+      "asr_end": 224.22,
+      "forced_end": 224.305,
+      "delta_end": 0.085,
+      "score": 0.609
+    },
+    {
+      "token": "1723",
+      "asr_start": 476.74,
+      "forced_start": 477.271,
+      "delta_start": 0.531,
+      "asr_end": 477.66,
+      "forced_end": 477.911,
+      "delta_end": 0.251,
+      "score": 0.561
+    },
+    {
+      "token": "the",
+      "asr_start": 483.24,
+      "forced_start": 483.751,
+      "delta_start": 0.511,
+      "asr_end": 483.82,
+      "forced_end": 483.851,
+      "delta_end": 0.031,
+      "score": 0.726
+    },
+    {
+      "token": "in",
+      "asr_start": 412.56,
+      "forced_start": 413.069,
+      "delta_start": 0.509,
+      "asr_end": 413.12,
+      "forced_end": 413.149,
+      "delta_end": 0.029,
+      "score": 0.798
+    },
+    {
+      "token": "three",
+      "asr_start": 277.8,
+      "forced_start": 278.306,
+      "delta_start": 0.506,
+      "asr_end": 278.48,
+      "forced_end": 278.546,
+      "delta_end": 0.066,
+      "score": 0.743
+    },
+    {
+      "token": "18th",
+      "asr_start": 170.96,
+      "forced_start": 171.464,
+      "delta_start": 0.504,
+      "asr_end": 171.8,
+      "forced_end": 171.804,
+      "delta_end": 0.004,
+      "score": 0.487
+    },
+    {
+      "token": "the",
+      "asr_start": 88.88,
+      "forced_start": 89.382,
+      "delta_start": 0.502,
+      "asr_end": 89.46,
+      "forced_end": 89.482,
+      "delta_end": 0.022,
+      "score": 0.71
+    },
+    {
+      "token": "in",
+      "asr_start": 476.54,
+      "forced_start": 476.671,
+      "delta_start": 0.131,
+      "asr_end": 476.74,
+      "forced_end": 477.231,
+      "delta_end": 0.491,
+      "score": 0.729
+    },
+    {
+      "token": "others",
+      "asr_start": 357.2,
+      "forced_start": 357.688,
+      "delta_start": 0.488,
+      "asr_end": 357.9,
+      "forced_end": 357.968,
+      "delta_end": 0.068,
+      "score": 0.713
+    },
+    {
+      "token": "chateau",
+      "asr_start": 196.82,
+      "forced_start": 197.305,
+      "delta_start": 0.485,
+      "asr_end": 197.68,
+      "forced_end": 197.765,
+      "delta_end": 0.085,
+      "score": 0.679
+    },
+    {
+      "token": "the",
+      "asr_start": 511.06,
+      "forced_start": 511.532,
+      "delta_start": 0.472,
+      "asr_end": 511.6,
+      "forced_end": 511.632,
+      "delta_end": 0.032,
+      "score": 0.777
+    },
+    {
+      "token": "tens",
+      "asr_start": 458.28,
+      "forced_start": 458.731,
+      "delta_start": 0.451,
+      "asr_end": 459.0,
+      "forced_end": 459.031,
+      "delta_end": 0.031,
+      "score": 0.769
+    },
+    {
+      "token": "in",
+      "asr_start": 52.9,
+      "forced_start": 53.341,
+      "delta_start": 0.441,
+      "asr_end": 53.4,
+      "forced_end": 53.421,
+      "delta_end": 0.021,
+      "score": 0.866
+    },
+    {
+      "token": "000",
+      "asr_start": 91.18,
+      "forced_start": 90.762,
+      "delta_start": -0.418,
+      "asr_end": 91.82,
+      "forced_end": 91.842,
+      "delta_end": 0.022,
+      "score": 0.746
+    },
+    {
+      "token": "the",
+      "asr_start": 439.52,
+      "forced_start": 439.93,
+      "delta_start": 0.41,
+      "asr_end": 440.02,
+      "forced_end": 440.05,
+      "delta_end": 0.03,
+      "score": 0.679
+    },
+    {
+      "token": "porters",
+      "asr_start": 251.52,
+      "forced_start": 251.926,
+      "delta_start": 0.406,
+      "asr_end": 252.32,
+      "forced_end": 252.366,
+      "delta_end": 0.046,
+      "score": 0.734
+    },
+    {
+      "token": "25th",
+      "asr_start": 167.42,
+      "forced_start": 167.824,
+      "delta_start": 0.404,
+      "asr_end": 168.1,
+      "forced_end": 168.104,
+      "delta_end": 0.004,
+      "score": 0.801
+    },
+    {
+      "token": "left",
+      "asr_start": 58.24,
+      "forced_start": 58.641,
+      "delta_start": 0.401,
+      "asr_end": 58.78,
+      "forced_end": 58.841,
+      "delta_end": 0.061,
+      "score": 0.837
+    },
+    {
+      "token": "ended",
+      "asr_start": 442.24,
+      "forced_start": 442.63,
+      "delta_start": 0.39,
+      "asr_end": 442.74,
+      "forced_end": 442.83,
+      "delta_end": 0.09,
+      "score": 0.68
+    },
+    {
+      "token": "help",
+      "asr_start": 408.84,
+      "forced_start": 408.909,
+      "delta_start": 0.069,
+      "asr_end": 409.12,
+      "forced_end": 409.509,
+      "delta_end": 0.389,
+      "score": 0.814
+    },
+    {
+      "token": "000",
+      "asr_start": 464.04,
+      "forced_start": 463.651,
+      "delta_start": -0.389,
+      "asr_end": 464.66,
+      "forced_end": 464.731,
+      "delta_end": 0.071,
+      "score": 0.54
+    },
+    {
+      "token": "7th",
+      "asr_start": 316.84,
+      "forced_start": 317.227,
+      "delta_start": 0.387,
+      "asr_end": 317.4,
+      "forced_end": 317.387,
+      "delta_end": -0.013,
+      "score": 0.829
+    },
+    {
+      "token": "by",
+      "asr_start": 283.26,
+      "forced_start": 283.646,
+      "delta_start": 0.386,
+      "asr_end": 283.72,
+      "forced_end": 283.767,
+      "delta_end": 0.047,
+      "score": 0.836
+    },
+    {
+      "token": "and",
+      "asr_start": 517.76,
+      "forced_start": 518.132,
+      "delta_start": 0.372,
+      "asr_end": 518.18,
+      "forced_end": 518.212,
+      "delta_end": 0.032,
+      "score": 0.848
+    },
+    {
+      "token": "what",
+      "asr_start": 468.1,
+      "forced_start": 468.471,
+      "delta_start": 0.371,
+      "asr_end": 468.58,
+      "forced_end": 468.611,
+      "delta_end": 0.031,
+      "score": 0.891
+    },
+    {
+      "token": "chateau",
+      "asr_start": 143.9,
+      "forced_start": 144.263,
+      "delta_start": 0.363,
+      "asr_end": 144.6,
+      "forced_end": 144.663,
+      "delta_end": 0.063,
+      "score": 0.696
+    },
+    {
+      "token": "he",
+      "asr_start": 18.1,
+      "forced_start": 18.46,
+      "delta_start": 0.36,
+      "asr_end": 18.54,
+      "forced_end": 18.56,
+      "delta_end": 0.02,
+      "score": 0.58
+    },
+    {
+      "token": "a",
+      "asr_start": 287.16,
+      "forced_start": 287.507,
+      "delta_start": 0.347,
+      "asr_end": 287.56,
+      "forced_end": 287.567,
+      "delta_end": 0.007,
+      "score": 0.868
+    },
+    {
+      "token": "may",
+      "asr_start": 167.28,
+      "forced_start": 167.344,
+      "delta_start": 0.064,
+      "asr_end": 167.42,
+      "forced_end": 167.764,
+      "delta_end": 0.344,
+      "score": 0.724
+    },
+    {
+      "token": "his",
+      "asr_start": 328.02,
+      "forced_start": 328.348,
+      "delta_start": 0.328,
+      "asr_end": 328.46,
+      "forced_end": 328.488,
+      "delta_end": 0.028,
+      "score": 0.744
+    },
+    {
+      "token": "a",
+      "asr_start": 268.54,
+      "forced_start": 268.866,
+      "delta_start": 0.326,
+      "asr_end": 268.9,
+      "forced_end": 268.926,
+      "delta_end": 0.026,
+      "score": 0.839
+    },
+    {
+      "token": "and",
+      "asr_start": 212.48,
+      "forced_start": 212.805,
+      "delta_start": 0.325,
+      "asr_end": 212.88,
+      "forced_end": 212.925,
+      "delta_end": 0.045,
+      "score": 0.771
+    },
+    {
+      "token": "what",
+      "asr_start": 45.26,
+      "forced_start": 45.581,
+      "delta_start": 0.321,
+      "asr_end": 45.7,
+      "forced_end": 45.721,
+      "delta_end": 0.021,
+      "score": 0.628
+    },
+    {
+      "token": "the",
+      "asr_start": 13.94,
+      "forced_start": 14.26,
+      "delta_start": 0.32,
+      "asr_end": 14.34,
+      "forced_end": 14.36,
+      "delta_end": 0.02,
+      "score": 0.692
+    },
+    {
+      "token": "but",
+      "asr_start": 444.66,
+      "forced_start": 444.97,
+      "delta_start": 0.31,
+      "asr_end": 445.06,
+      "forced_end": 445.11,
+      "delta_end": 0.05,
+      "score": 0.467
+    },
+    {
+      "token": "one",
+      "asr_start": 390.08,
+      "forced_start": 390.389,
+      "delta_start": 0.309,
+      "asr_end": 390.46,
+      "forced_end": 390.469,
+      "delta_end": 0.009,
+      "score": 0.835
+    },
+    {
+      "token": "a",
+      "asr_start": 394.22,
+      "forced_start": 394.529,
+      "delta_start": 0.309,
+      "asr_end": 394.56,
+      "forced_end": 394.589,
+      "delta_end": 0.029,
+      "score": 0.754
+    },
+    {
+      "token": "is",
+      "asr_start": 269.7,
+      "forced_start": 270.006,
+      "delta_start": 0.306,
+      "asr_end": 270.06,
+      "forced_end": 270.086,
+      "delta_end": 0.026,
+      "score": 0.501
+    },
+    {
+      "token": "the",
+      "asr_start": 36.26,
+      "forced_start": 36.561,
+      "delta_start": 0.301,
+      "asr_end": 36.64,
+      "forced_end": 36.661,
+      "delta_end": 0.021,
+      "score": 0.694
+    },
+    {
+      "token": "1719",
+      "asr_start": 53.72,
+      "forced_start": 53.901,
+      "delta_start": 0.181,
+      "asr_end": 54.68,
+      "forced_end": 54.381,
+      "delta_end": -0.299,
+      "score": 0.617
+    },
+    {
+      "token": "1978",
+      "asr_start": 494.18,
+      "forced_start": 494.251,
+      "delta_start": 0.071,
+      "asr_end": 494.94,
+      "forced_end": 495.231,
+      "delta_end": 0.291,
+      "score": 0.526
+    },
+    {
+      "token": "the",
+      "asr_start": 419.78,
+      "forced_start": 420.07,
+      "delta_start": 0.29,
+      "asr_end": 420.16,
+      "forced_end": 420.17,
+      "delta_end": 0.01,
+      "score": 0.744
+    }
+  ],
+  "caveat": "This compares forced-alignment timing estimates with a separate ASR hypothesis; ASR tokenization and timing are not ground truth. Word timing still needs listening against the source and then final-cut sync verification."
+}

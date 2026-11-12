@@ -1,0 +1,184 @@
+{
+  "file": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Deliverables/PAPER_DETOUR_030_CLOTHING_HISTORY_EN_v13.mp4",
+  "sha256": "17fa8c7bfc1f915c203875f955330a7a84e1ad6f8fec65a77929a49975499680",
+  "scope": "Current Paper Detour030v13 offline compliance audit plus current project skill routing; not a complete audit of other episodes",
+  "freshness": "CURRENT",
+  "projectId": "B1BA2D18",
+  "timelineId": "82684371",
+  "snapshotId": "948BCAAD",
+  "author": "current Codex chat; self-review",
+  "verdict": "UNVERIFIED",
+  "technical_status": "PASS",
+  "checks": {
+    "stream_metadata": "PASS against established v13 historical contract, not new2K/384kbps defaults",
+    "full_decode": "PASS",
+    "frame_sampling": "PASS within declared347-frame sampled scope,39scenes/33accents",
+    "motion_framing": "PASS within sampled coverage;39camera+depth;10/10horizontal direction correspondence",
+    "cue_timing": "FAIL: seven minor early-fade deviations",
+    "audio_signal": "PASS: accepted AAC identity, seven landmarks within10ms, both channels/noncancellation measured",
+    "subjective_audio_listening": "UNVERIFIED",
+    "srt": "UNVERIFIED: current required offline subtitle-frame/conform coverage incomplete",
+    "independent_review": "NOT_PERFORMED; not invented as required",
+    "player_playback": "NOT_REQUIRED"
+  },
+  "frame_sampling": {
+    "extracted_count": 408,
+    "inspected_contact_sheet_unique_count": 347,
+    "scene_count": 39,
+    "cue_count": 33,
+    "native_details": [
+      2430,
+      4350
+    ],
+    "manifest": "VisualReview/manifest.json"
+  },
+  "audio": {
+    "integrated_lufs": -20.3,
+    "lra_lu": 1.9,
+    "true_peak_dbfs": -3.5,
+    "mean_dbfs": -23.5,
+    "signal_map": "AUDIO_TIMING_MAP.json",
+    "channels": "AUDIO_CHANNELS.json"
+  },
+  "defects": [
+    {
+      "id": "EARLY_FADE_D04",
+      "owner": "ytv-paper-captions/ytv-palmier-edit",
+      "severity": "minor",
+      "time_seconds": 18.2,
+      "frame": 546,
+      "symptom": "Fade starts0.200s before aligned semantic word end",
+      "affected": [
+        "cue opacity/position exit keys",
+        "neighboring scene×cue fit if extended",
+        "dependent export/QA"
+      ],
+      "status": "OPEN"
+    },
+    {
+      "id": "EARLY_FADE_D01",
+      "owner": "ytv-paper-captions/ytv-palmier-edit",
+      "severity": "minor",
+      "time_seconds": 32.2,
+      "frame": 966,
+      "symptom": "Fade starts0.200s before aligned semantic word end",
+      "affected": [
+        "cue opacity/position exit keys",
+        "neighboring scene×cue fit if extended",
+        "dependent export/QA"
+      ],
+      "status": "OPEN"
+    },
+    {
+      "id": "EARLY_FADE_D08",
+      "owner": "ytv-paper-captions/ytv-palmier-edit",
+      "severity": "minor",
+      "time_seconds": 51.8,
+      "frame": 1554,
+      "symptom": "Fade starts0.080s before aligned semantic word end",
+      "affected": [
+        "cue opacity/position exit keys",
+        "neighboring scene×cue fit if extended",
+        "dependent export/QA"
+      ],
+      "status": "OPEN"
+    },
+    {
+      "id": "EARLY_FADE_D13",
+      "owner": "ytv-paper-captions/ytv-palmier-edit",
+      "severity": "minor",
+      "time_seconds": 80.76666666666667,
+      "frame": 2423,
+      "symptom": "Fade starts0.233s before aligned semantic word end",
+      "affected": [
+        "cue opacity/position exit keys",
+        "neighboring scene×cue fit if extended",
+        "dependent export/QA"
+      ],
+      "status": "OPEN"
+    },
+    {
+      "id": "EARLY_FADE_D15",
+      "owner": "ytv-paper-captions/ytv-palmier-edit",
+      "severity": "minor",
+      "time_seconds": 94.93333333333334,
+      "frame": 2848,
+      "symptom": "Fade starts0.227s before aligned semantic word end",
+      "affected": [
+        "cue opacity/position exit keys",
+        "neighboring scene×cue fit if extended",
+        "dependent export/QA"
+      ],
+      "status": "OPEN"
+    },
+    {
+      "id": "EARLY_FADE_C03",
+      "owner": "ytv-paper-captions/ytv-palmier-edit",
+      "severity": "minor",
+      "time_seconds": 104.73333333333333,
+      "frame": 3142,
+      "symptom": "Fade starts0.187s before aligned semantic word end",
+      "affected": [
+        "cue opacity/position exit keys",
+        "neighboring scene×cue fit if extended",
+        "dependent export/QA"
+      ],
+      "status": "OPEN"
+    },
+    {
+      "id": "EARLY_FADE_D21",
+      "owner": "ytv-paper-captions/ytv-palmier-edit",
+      "severity": "minor",
+      "time_seconds": 136.36666666666667,
+      "frame": 4091,
+      "symptom": "Fade starts0.233s before aligned semantic word end",
+      "affected": [
+        "cue opacity/position exit keys",
+        "neighboring scene×cue fit if extended",
+        "dependent export/QA"
+      ],
+      "status": "OPEN"
+    }
+  ],
+  "missing_required_coverage": [
+    "Separate SRT exact frame composites/complete subtitle conform",
+    "Frozen pre-render passport absent for historical v13; existing requirements/provenance used rather than retroactively invented"
+  ],
+  "changes": [
+    "Balanced FFmpeg selection expression and real-FFmpeg regression tests",
+    "Corrected SRT profile owner link",
+    "Refreshed stale shotlist camera summaries and cue implementation/decision references",
+    "Superseded incorrect D23 clip-cut observation: exact frame4350 has no cue; fade verified"
+  ],
+  "media_mutations": false,
+  "deletions": 0,
+  "limitations": [
+    "No subjective audio listening",
+    "Sampled images do not prove every intervening frame",
+    "Other episodes/global unresolved imports outside030 not repaired",
+    "Concurrent other-chat storage/grain work preserved"
+  ],
+  "evidence": [
+    "video-v13-fixed-helper/report.json",
+    "FRESHNESS_v13.json",
+    "MOTION_FEATURE_AUDIT.json",
+    "CUE_TIMING_AUDIT.json",
+    "SRT_AUDIT.json",
+    "DOCUMENTATION_LINKS.json",
+    "DOCUMENT_CHANGES_DURING_AUDIT.json"
+  ],
+  "tests": {
+    "video_qa": {
+      "passed": 2,
+      "failed": 0
+    },
+    "media_lifecycle": {
+      "passed": 33,
+      "failed": 0
+    }
+  },
+  "storage_close_audit": "Edit/MediaLifecycle/audit-compliance-closed-20261102/audit.json",
+  "current_pointer": "Deliverables/current.json",
+  "timeline_readback_at_close": "live_timeline_v13_at_close.json",
+  "live_raw_unchanged_at_close": true
+}

@@ -1,0 +1,98 @@
+{
+  "channel": "nuviko",
+  "format": "short",
+  "fps": 30,
+  "canvas": [
+    1440,
+    2560
+  ],
+  "audio": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Source/Shorts/05_labour/source_v01.mp4",
+  "enforce_scene_duration": true,
+  "scenes": [
+    {
+      "id": "S01",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Source/Shorts/05_labour/Images/S01_labour_field_v01.png",
+      "start_frame": 0,
+      "end_frame": 141,
+      "direction": "left_to_right",
+      "zoom": "in",
+      "beat": "Sparse hands in the field; introduce the labour shortage."
+    },
+    {
+      "id": "S02",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Source/Shorts/05_labour/Images/S02_empty_workshop_v01.png",
+      "start_frame": 141,
+      "end_frame": 282,
+      "direction": "right_to_left",
+      "zoom": "out",
+      "beat": "Empty workshop follows the line about fallen worker supply."
+    },
+    {
+      "id": "S03",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Source/Shorts/05_labour/Images/S03_employer_offer_v01.png",
+      "start_frame": 282,
+      "end_frame": 423,
+      "direction": "none",
+      "zoom": "in",
+      "beat": "A survivor seeks better wages or another employer."
+    },
+    {
+      "id": "S04",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Source/Shorts/05_labour/Images/S04_worker_choice_v01.png",
+      "start_frame": 423,
+      "end_frame": 564,
+      "direction": "left_to_right",
+      "zoom": "out",
+      "beat": "A worker weighs another employer or conditions."
+    },
+    {
+      "id": "S05",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Source/Shorts/05_labour/Images/S05_owner_worker_negotiation_v01.png",
+      "start_frame": 564,
+      "end_frame": 705,
+      "direction": "right_to_left",
+      "zoom": "in",
+      "beat": "Higher costs bring workers and landowners into negotiation."
+    },
+    {
+      "id": "S06",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Source/Shorts/05_labour/Images/S06_labour_council_v01.png",
+      "start_frame": 705,
+      "end_frame": 846,
+      "direction": "left_to_right",
+      "zoom": "none",
+      "beat": "Government attempts to restrain wages."
+    },
+    {
+      "id": "S07",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Source/Shorts/05_labour/Images/S07_worker_stopped_v01.png",
+      "start_frame": 846,
+      "end_frame": 987,
+      "direction": "right_to_left",
+      "zoom": "out",
+      "beat": "Workers face restrictions in practice."
+    },
+    {
+      "id": "S08",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Source/Shorts/05_labour/Images/S08_field_work_rules_v01.png",
+      "start_frame": 987,
+      "end_frame": 1128,
+      "direction": "left_to_right",
+      "zoom": "in",
+      "beat": "Labour law sets conditions and forces work."
+    },
+    {
+      "id": "S09",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Source/Shorts/05_labour/Images/S09_traveler_cta_v01.png",
+      "start_frame": 1128,
+      "end_frame": 1267,
+      "direction": "none",
+      "zoom": "out",
+      "beat": "Nuviko traveler presents the coin display during the retained CTA."
+    }
+  ],
+  "subtitles": {
+    "mode": "words",
+    "words": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Source/Shorts/05_labour/audio_word_times_v01.json"
+  }
+}

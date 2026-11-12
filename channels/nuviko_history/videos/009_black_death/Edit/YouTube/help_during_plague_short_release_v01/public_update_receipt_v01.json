@@ -1,0 +1,60 @@
+{
+  "state": "confirmed_public",
+  "action": "publish_public",
+  "channel_id": "UCbyLx6Rf3iWww4bPZJ2oo2A",
+  "channel_title": "Nuviko History",
+  "video_id": "IC5BaMmQiPw",
+  "url": "https://www.youtube.com/shorts/IC5BaMmQiPw",
+  "title": "Would You Enter a Sick Relative's Room During the Plague?",
+  "description": "When someone in your home fell ill during an epidemic, keeping your distance could mean leaving them without care. Protecting yourself reduced personal risk, but someone still had to bring water, provide food, and care for the sick.\n\n#BlackDeath #PlagueHistory #MedievalHistory #Shorts #Florence1348 #EpidemicHistory #MedievalLife #LifeDuringThePlague #CareForTheSick #SocialInequality",
+  "selected_thumbnail": "cover C; initial Studio save receipt remains at receipt.json",
+  "privacy_before": "unlisted",
+  "privacy_after": "public",
+  "publishAt_before": null,
+  "publishAt_after": null,
+  "processing_before": "succeeded",
+  "processing_after": "succeeded",
+  "upload_status_after": "processed",
+  "api_write_http_status": 200,
+  "api_write_at_utc": "2026-11-03T21:00:09Z",
+  "fresh_readback_at_utc": "2026-11-03T21:00:52.965547+00:00",
+  "etag_before": "6JPEC-xKRHnFV2bHwQGvLgJmPWg",
+  "etag_after": "hcXtYWs4I7_2Pnr_NL4-ikbJpzM",
+  "preserved_fields": {
+    "title": true,
+    "description": true,
+    "tags": true,
+    "categoryId": true,
+    "defaultLanguage": true,
+    "defaultAudioLanguage": true,
+    "channelId": true
+  },
+  "contains_synthetic_media": {
+    "original_upload_request": true,
+    "fresh_status_readback": "not_returned",
+    "initial_studio_confirmation": "yes_checked"
+  },
+  "calendar_decision": {
+    "checked_at_utc": "2026-11-03T20:57:47Z",
+    "other_public_videos_today": 4,
+    "scheduled_videos": 0,
+    "studio_posts": "none listed",
+    "basis": "User explicitly directed immediate Public for this exact Short; no channel cadence rule or future slot was found."
+  },
+  "initial_readback_lag": "The immediate videos.list read after HTTP 200 remained Unlisted; a later fresh read confirmed Public. No repeat write was sent.",
+  "checks": {
+    "channel_matches": true,
+    "video_id_matches": true,
+    "title_matches": true,
+    "privacy_public": true,
+    "unscheduled": true,
+    "processing_succeeded": true,
+    "upload_processed": true,
+    "snippet_unchanged": true,
+    "contains_synthetic_media_disclosure_in_original_upload": true
+  },
+  "before_state": "public_update_state_v01.json",
+  "intermediate_attempt": "public_update_attempt_v01.json",
+  "final_readback": "public_read_after_v01.json",
+  "calendar_inventory": "channel_calendar_v01.json"
+}

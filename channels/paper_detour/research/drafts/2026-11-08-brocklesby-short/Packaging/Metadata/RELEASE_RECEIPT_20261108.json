@@ -1,0 +1,42 @@
+{
+  "release": {
+    "state": "confirmed",
+    "action": "publish_public",
+    "channel_id": "UCMVfdfaNxV3ZkI3_J3Eejzw",
+    "video_id": "azhQEhV6ywg",
+    "privacy": "public",
+    "processing": "succeeded",
+    "evidence": {
+      "srt_sha256": "220869746adb582cc0a7b01380ffadccf2680a238a3be4060f48218cb37fcfdd",
+      "caption_id": "AUieDaYSNZZpacaWd4Zo8jSrkpotbWdgeT2GILRWyaXa6j8rZ4tivBkd",
+      "playlist_id": "PLEIDCTZ8y2k8",
+      "playlist_item_id": "UExFSURDVFo4eTJrOC5DRUQwODMxQzUyRTlGRkY3"
+    },
+    "synthetic_media_readback": "not_returned"
+  },
+  "readback_at": "2026-11-08T14:43:24.355011+00:00",
+  "published_at": "2026-11-08T14:43:20Z",
+  "url": "https://www.youtube.com/shorts/azhQEhV6ywg",
+  "anonymous_oembed": {
+    "title": "His Engines Died. He Landed Two Planes. #AviationHistory #Shorts",
+    "author": "Paper Detour",
+    "result": "PASS"
+  },
+  "cover": {
+    "version": "cover-v02.png",
+    "lettering": "STUCK TOGETHER",
+    "verified_public_cdn_sha256": "411f7da2b8724c01b8b114fbd0be34b82c10fe9f1383998c801dddfbf5ca99c2",
+    "visual_review": "Downloaded returned thumbnail before publication and inspected the approved image and lettering. Public CDN response is byte-identical."
+  },
+  "calendar": {
+    "source": "yt-preflight-20261108.json",
+    "recorded_video_count": 38,
+    "future_slots_returned": 0,
+    "posts": "UNVERIFIED",
+    "decision": "Immediate Public at direct request"
+  },
+  "chapter_and_end_screen": "N_A Shorts",
+  "related_video": "N_A standalone Short without an approved target",
+  "category": "Education",
+  "ai_disclosure_decision": "False at upload: stylized paper reconstruction and regular narration voice; no footage imitating documentary realism. False flag not separately returned on read-back."
+}

@@ -1,0 +1,43 @@
+{
+  "status": "REVIEW_REQUIRED",
+  "method": "two machine estimates only; neither establishes true audio timing",
+  "matched_word_outliers_gt_250ms": [
+    {
+      "word": "about",
+      "eleven_start": 2.9818,
+      "whisper_start": 2.7,
+      "difference": -0.282
+    },
+    {
+      "word": "meters",
+      "eleven_start": 3.9273,
+      "whisper_start": 3.54,
+      "difference": -0.387
+    },
+    {
+      "word": "off",
+      "eleven_start": 4.3636,
+      "whisper_start": 4.1,
+      "difference": -0.264
+    },
+    {
+      "word": "came",
+      "eleven_start": 14.8364,
+      "whisper_start": 14.56,
+      "difference": -0.276
+    },
+    {
+      "word": "It",
+      "eleven_start": 26.4,
+      "whisper_start": 25.88,
+      "difference": -0.52
+    },
+    {
+      "word": "Just",
+      "eleven_start": 30.6182,
+      "whisper_start": 30.22,
+      "difference": -0.398
+    }
+  ],
+  "whisper_text": "Above Hiroshima, an atomic bomb exploded about 600 meters off the ground. On August 6, 1945, an American plane dropped it over the Japanese city. The bomb fell for about three-quarters of a minute. Then came a blinding flash. Heat and a blast wave struck the city. Fires began. People died immediately, and later from injuries, burns, and radiation exposure. It was the first use of an atomic weapon against human beings. Just three-quarters of a minute after the bomb was dropped."
+}

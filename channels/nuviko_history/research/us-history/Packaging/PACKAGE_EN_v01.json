@@ -1,0 +1,122 @@
+{
+  "package": "EN v01",
+  "channel_id": "UCbyLx6Rf3iWww4bPZJ2oo2A",
+  "video_id": "Gm_E_yZlxfU",
+  "film_sha256": "140c22bef3c309fbabd7452fa650eb9fddec4e5a06fb3a921d7145fb0a406a25",
+  "local_package_status": "ready",
+  "primary": "C",
+  "suggested_pair_order": [
+    "C",
+    "A",
+    "B"
+  ],
+  "fixed_description": "Metadata/EN_v01/description-C.txt",
+  "youtube_test": "started_verified",
+  "variants": [
+    {
+      "id": "C",
+      "title": "How America Grew and Nearly Broke Apart",
+      "title_characters": 39,
+      "lettering": "THE UNION SPLITS",
+      "description_characters": 1448,
+      "files": {
+        "Metadata/EN_v01/title-C.txt": {
+          "sha256": "1a172b9f3a8f3392af423f363c529ae21c629c4eb98db7bddc38718f692fe642",
+          "bytes": 40
+        },
+        "Metadata/EN_v01/description-C.txt": {
+          "sha256": "db627d18b8b687792220a0e7855385b7a0cbf576508a819cca36d667e152634a",
+          "bytes": 1456
+        },
+        "Thumbnails/EN_v01/C-youtube.jpg": {
+          "sha256": "2bbaed347eb5eccd45664c4c361021ec9e69778b6b23b1cadab65441e4f06189",
+          "bytes": 413641,
+          "pixels": [
+            1600,
+            900
+          ]
+        },
+        "Thumbnails/EN_v01/C-master.png": {
+          "sha256": "514684e495dabeb22417a063e3ede50ad80b148611120ab29b8b46cb365ddfba",
+          "bytes": 2195146,
+          "pixels": [
+            1672,
+            941
+          ]
+        }
+      }
+    },
+    {
+      "id": "A",
+      "title": "Why Napoleon Sold Louisiana to the United States",
+      "title_characters": 48,
+      "lettering": "THEY WANTED ONE CITY",
+      "description_characters": 1419,
+      "files": {
+        "Metadata/EN_v01/title-A.txt": {
+          "sha256": "5792d3a9d42bc8f194477dcba61f5d416faae292c54623a79e6aca50372edb62",
+          "bytes": 49
+        },
+        "Metadata/EN_v01/description-A.txt": {
+          "sha256": "06d9501e63f2b409c4b19d1c2e8a87f6243cee1e8126de36c70430291383dede",
+          "bytes": 1433
+        },
+        "Thumbnails/EN_v01/A-youtube.jpg": {
+          "sha256": "33e55a349c82182721b9ac3032b959c728d6803b3dc4ee6a3c8c1c3075325a4e",
+          "bytes": 503832,
+          "pixels": [
+            1600,
+            900
+          ]
+        },
+        "Thumbnails/EN_v01/A-master.png": {
+          "sha256": "58821551d26443fa272defbdc0d8dfe0d93f0297e5c2053b4bf9fa732837fdde",
+          "bytes": 2542126,
+          "pixels": [
+            1672,
+            941
+          ]
+        }
+      }
+    },
+    {
+      "id": "B",
+      "title": "The Line Congress Drew to Limit Slavery",
+      "title_characters": 39,
+      "lettering": "THE MISSOURI LINE",
+      "description_characters": 1510,
+      "files": {
+        "Metadata/EN_v01/title-B.txt": {
+          "sha256": "49df5446024cc56356cbaeed766ead49deefcd5704e101e9eae4ccef80ef287d",
+          "bytes": 40
+        },
+        "Metadata/EN_v01/description-B.txt": {
+          "sha256": "0272f4f6cfed7894b0a9f0e2b7ba098ff43c97fd5e092ce21aa0f452609e8fbb",
+          "bytes": 1526
+        },
+        "Thumbnails/EN_v01/B-youtube.jpg": {
+          "sha256": "b1b3bf8917e7e7cf5b6fb260bedb1fb0417dc4d63c85b834985a8f462908f24a",
+          "bytes": 630696,
+          "pixels": [
+            1600,
+            900
+          ]
+        },
+        "Thumbnails/EN_v01/B-master.png": {
+          "sha256": "708ad3badd0e4bdc67fa8300e618de0e090689b9e354fde5fe6d74450c8184a8",
+          "bytes": 3217344,
+          "pixels": [
+            1672,
+            941
+          ]
+        }
+      }
+    }
+  ],
+  "archive": {
+    "path": "US-expansion-packaging-EN-v01.zip",
+    "sha256": "acfb41891296d367fe62e27bd26355c2fc1341aaf53fd712396789bbed6f1e29",
+    "bytes": 1552697
+  },
+  "youtube_test_receipt": "Release/AB_TEST_v01.json"
+}

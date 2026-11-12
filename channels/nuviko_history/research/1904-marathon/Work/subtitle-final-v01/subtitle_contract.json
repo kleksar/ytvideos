@@ -1,0 +1,890 @@
+{
+  "schema": "ytv-delivery-v1",
+  "channel": "nuviko",
+  "format": "short",
+  "canvas": [
+    1440,
+    2560
+  ],
+  "fps": 30,
+  "frames": 972,
+  "caption_end_frame": 972,
+  "audio": {
+    "audio": {
+      "path": "/Users/diplomat/ytvideos/channels/nuviko_history/research/1904-marathon/Work/audio-v01/mix_32s_draft.wav",
+      "sha256": "ebcbbdda4f4ff20fa8f69f7a5348385f39abe37bc92ef0d955c9fb37208b9ab9"
+    },
+    "applied_speed": 1.1,
+    "speed_policy": {
+      "path": "/Users/diplomat/ytvideos/.agents/skills/ytv-audio-delivery/references/speed.json",
+      "sha256": "32c378c36c1e297cbdc4e3593c965163d33e531b8b8eea026b367bddb51a668a"
+    },
+    "speed_evidence": {
+      "path": "/Users/diplomat/ytvideos/channels/nuviko_history/research/1904-marathon/Edit/speed-evidence-v01.md",
+      "sha256": "cf805375dcb23bde1737bec5d0d9425c966d838396ae350d065629492d59946a"
+    }
+  },
+  "transcript": {
+    "path": "/Users/diplomat/ytvideos/channels/nuviko_history/research/1904-marathon/Source/Voice/narration_en_v01.txt",
+    "sha256": "0a28dabf627293d17c131d7435ba8a916224cd00ad4f95b56ea2f902e71a8599"
+  },
+  "word_map": {
+    "path": "/Users/diplomat/ytvideos/channels/nuviko_history/research/1904-marathon/Work/audio-v01/word_times_32s_draft.json",
+    "sha256": "7cf1936509b01c7da49d3a9dcd846a5c274f4f03d99bf18cec1040ff9391e8da"
+  },
+  "profiles": [
+    {
+      "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/profiles/nuviko.json",
+      "sha256": "e710153ae2bd0587adf233b671924ebbf64d183c3e77d2f5ea0c48b266f467a0"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/profiles/nuviko_short.json",
+      "sha256": "c88a5564e3104b0c83c9a877f612dd159d5f27972fce19d8506d11fb348ee023"
+    },
+    {
+      "path": "/System/Library/Fonts/Supplemental/Georgia Bold.ttf",
+      "sha256": "1cfa9abd55be746c798c22ef4eba88fce82257934897404be2dae53ed0a4142a"
+    }
+  ],
+  "engine": [
+    {
+      "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/montage.py",
+      "sha256": "662b62676998d799e545a0d095ae6213ae06c6b8d47ef2f7c2214fc5cd422ecc"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/delivery.py",
+      "sha256": "d4611644090f7800fd09dbc3637a54a89b13ce6598edf7cf591cf33dc6275c29"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/.agents/skills/ytv-paper-subtitles/scripts/semantic_grouping.py",
+      "sha256": "046d92c9fecbd993cd2f0087357ae8354d6e17a0db801655cb57f1682aac9dcd"
+    }
+  ],
+  "picture": [
+    {
+      "scene": {
+        "image": "../Work/visual-pilot/S001-v03.png",
+        "start_frame": 0,
+        "end_frame": 150,
+        "direction": "left_to_right",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.43,
+            0.3
+          ],
+          "subject": "finish runner",
+          "reason": "Hold the runner and finish sign",
+          "start": {
+            "center": [
+              0.51,
+              0.5
+            ],
+            "scale": 1.06
+          },
+          "end": {
+            "center": [
+              0.49,
+              0.5
+            ],
+            "scale": 1.09
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/research/1904-marathon/Work/visual-pilot/S001-v03.png",
+        "sha256": "7f57f9c35777b772768afce9862e52d3dbed4c5c4078ccebac706c507b33e379"
+      }
+    },
+    {
+      "scene": {
+        "image": "../Work/visual-pilot/S002-v03.png",
+        "start_frame": 150,
+        "end_frame": 300,
+        "direction": "right_to_left",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.62,
+            0.3
+          ],
+          "subject": "runner entering car",
+          "reason": "Keep driver, runner and the vehicle readable",
+          "start": {
+            "center": [
+              0.49,
+              0.5
+            ],
+            "scale": 1.09
+          },
+          "end": {
+            "center": [
+              0.51,
+              0.5
+            ],
+            "scale": 1.06
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/research/1904-marathon/Work/visual-pilot/S002-v03.png",
+        "sha256": "a88aba2f4a68afc647d136ef29eaa3a5f754c5e9ac0874342886b6cef4850729"
+      }
+    },
+    {
+      "scene": {
+        "image": "../Work/visual-pilot/S003-v02.png",
+        "start_frame": 300,
+        "end_frame": 450,
+        "direction": "left_to_right",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.36,
+            0.42
+          ],
+          "subject": "stopped car",
+          "reason": "Connect car with the road ahead",
+          "start": {
+            "center": [
+              0.51,
+              0.5
+            ],
+            "scale": 1.06
+          },
+          "end": {
+            "center": [
+              0.49,
+              0.5
+            ],
+            "scale": 1.09
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/research/1904-marathon/Work/visual-pilot/S003-v02.png",
+        "sha256": "09aa1058d2ca30bb0b356469ef25c4078d61e23ebd91e29d7fd83d4759887b25"
+      }
+    },
+    {
+      "scene": {
+        "image": "../Work/visual-pilot/S004-v03.png",
+        "start_frame": 450,
+        "end_frame": 600,
+        "direction": "right_to_left",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.35,
+            0.38
+          ],
+          "subject": "runner leaving car",
+          "reason": "Follow runner while retaining the car",
+          "start": {
+            "center": [
+              0.49,
+              0.5
+            ],
+            "scale": 1.09
+          },
+          "end": {
+            "center": [
+              0.51,
+              0.5
+            ],
+            "scale": 1.06
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/research/1904-marathon/Work/visual-pilot/S004-v03.png",
+        "sha256": "84391396526a79e48606f560ad3dcdb49f31bca8ca32a1e7d5de913c9987785b"
+      }
+    },
+    {
+      "scene": {
+        "image": "../Work/visual-pilot/S005-v03.png",
+        "start_frame": 600,
+        "end_frame": 732,
+        "direction": "left_to_right",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.55,
+            0.57
+          ],
+          "subject": "disqualification mark",
+          "reason": "Bring out the decision and face",
+          "start": {
+            "center": [
+              0.51,
+              0.5
+            ],
+            "scale": 1.06
+          },
+          "end": {
+            "center": [
+              0.49,
+              0.5
+            ],
+            "scale": 1.09
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/research/1904-marathon/Work/visual-pilot/S005-v03.png",
+        "sha256": "7473cc2a5074a1e555e5925a5e436803329fec59526cf12a6a5a15860a35fd9a"
+      }
+    },
+    {
+      "scene": {
+        "image": "../Work/visual-pilot/S006-v03.png",
+        "start_frame": 732,
+        "end_frame": 852,
+        "direction": "right_to_left",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.53,
+            0.4
+          ],
+          "subject": "Hicks",
+          "reason": "Separate the champion from Lorz",
+          "start": {
+            "center": [
+              0.49,
+              0.5
+            ],
+            "scale": 1.09
+          },
+          "end": {
+            "center": [
+              0.51,
+              0.5
+            ],
+            "scale": 1.06
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/research/1904-marathon/Work/visual-pilot/S006-v03.png",
+        "sha256": "947521b8300b8cb5b33d3a71245222bd61327ef0bc460c0f3a3efc3ebe87a241"
+      }
+    },
+    {
+      "scene": {
+        "image": "../Work/visual-pilot/S007-v03.png",
+        "start_frame": 852,
+        "end_frame": 972,
+        "direction": "left_to_right",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.35
+          ],
+          "subject": "Boston finish",
+          "reason": "Show the later result and its date",
+          "start": {
+            "center": [
+              0.51,
+              0.5
+            ],
+            "scale": 1.06
+          },
+          "end": {
+            "center": [
+              0.49,
+              0.5
+            ],
+            "scale": 1.09
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/research/1904-marathon/Work/visual-pilot/S007-v03.png",
+        "sha256": "4ab55a9430e5d2a6931c40d96b1016abe5a4629224d43fd5eec5e1531bd1c291"
+      }
+    }
+  ],
+  "overlays": [],
+  "groups": [
+    [
+      {
+        "text": "At",
+        "start": 0.3,
+        "end": 0.4455
+      },
+      {
+        "text": "the",
+        "start": 0.5182,
+        "end": 0.5909
+      },
+      {
+        "text": "1904",
+        "start": 0.6636,
+        "end": 1.3182
+      },
+      {
+        "text": "Olympics,",
+        "start": 1.4636,
+        "end": 2.0455
+      }
+    ],
+    [
+      {
+        "text": "Fred",
+        "start": 2.3364,
+        "end": 2.5545
+      },
+      {
+        "text": "Lorz",
+        "start": 2.6273,
+        "end": 2.9909
+      },
+      {
+        "text": "was",
+        "start": 3.0636,
+        "end": 3.2091
+      },
+      {
+        "text": "the",
+        "start": 3.2818,
+        "end": 3.4273
+      },
+      {
+        "text": "first",
+        "start": 3.5,
+        "end": 3.7182
+      }
+    ],
+    [
+      {
+        "text": "marathon",
+        "start": 3.8636,
+        "end": 4.3
+      },
+      {
+        "text": "runner",
+        "start": 4.3727,
+        "end": 4.6636
+      }
+    ],
+    [
+      {
+        "text": "across",
+        "start": 4.7727,
+        "end": 5.1
+      },
+      {
+        "text": "the",
+        "start": 5.1727,
+        "end": 5.2455
+      },
+      {
+        "text": "finish",
+        "start": 5.3182,
+        "end": 5.5364
+      },
+      {
+        "text": "line.",
+        "start": 5.6091,
+        "end": 5.9
+      }
+    ],
+    [
+      {
+        "text": "But",
+        "start": 6.4091,
+        "end": 6.6273
+      },
+      {
+        "text": "he",
+        "start": 6.8455,
+        "end": 6.9909
+      },
+      {
+        "text": "didn't",
+        "start": 7.0636,
+        "end": 7.2091
+      },
+      {
+        "text": "win.",
+        "start": 7.2818,
+        "end": 7.6455
+      }
+    ],
+    [
+      {
+        "text": "Exhausted",
+        "start": 8.0818,
+        "end": 8.7364
+      },
+      {
+        "text": "during",
+        "start": 8.8818,
+        "end": 9.0273
+      },
+      {
+        "text": "the",
+        "start": 9.0636,
+        "end": 9.1
+      },
+      {
+        "text": "race,",
+        "start": 9.1727,
+        "end": 9.5364
+      }
+    ],
+    [
+      {
+        "text": "Lorz",
+        "start": 9.8273,
+        "end": 10.1182
+      },
+      {
+        "text": "dropped",
+        "start": 10.1909,
+        "end": 10.4818
+      },
+      {
+        "text": "out",
+        "start": 10.5545,
+        "end": 10.7727
+      },
+      {
+        "text": "and",
+        "start": 10.9182,
+        "end": 11.0636
+      },
+      {
+        "text": "got",
+        "start": 11.1364,
+        "end": 11.2091
+      }
+    ],
+    [
+      {
+        "text": "into",
+        "start": 11.2818,
+        "end": 11.4273
+      },
+      {
+        "text": "a",
+        "start": 11.5,
+        "end": 11.5727
+      },
+      {
+        "text": "car",
+        "start": 11.6455,
+        "end": 11.8636
+      },
+      {
+        "text": "heading",
+        "start": 11.9364,
+        "end": 12.2273
+      },
+      {
+        "text": "back",
+        "start": 12.3,
+        "end": 12.3727
+      }
+    ],
+    [
+      {
+        "text": "to",
+        "start": 12.4455,
+        "end": 12.5182
+      },
+      {
+        "text": "the",
+        "start": 12.5545,
+        "end": 12.5909
+      },
+      {
+        "text": "stadium.",
+        "start": 12.6636,
+        "end": 13.1
+      }
+    ],
+    [
+      {
+        "text": "Then",
+        "start": 13.5364,
+        "end": 13.8273
+      },
+      {
+        "text": "the",
+        "start": 14.0455,
+        "end": 14.1182
+      },
+      {
+        "text": "car",
+        "start": 14.1909,
+        "end": 14.4091
+      },
+      {
+        "text": "broke",
+        "start": 14.4818,
+        "end": 14.7
+      },
+      {
+        "text": "down.",
+        "start": 14.7727,
+        "end": 15.1364
+      }
+    ],
+    [
+      {
+        "text": "He",
+        "start": 15.5,
+        "end": 15.6455
+      },
+      {
+        "text": "got",
+        "start": 15.7545,
+        "end": 15.8636
+      },
+      {
+        "text": "out,",
+        "start": 15.9727,
+        "end": 16.0818
+      }
+    ],
+    [
+      {
+        "text": "ran",
+        "start": 16.3727,
+        "end": 16.5909
+      },
+      {
+        "text": "the",
+        "start": 16.6636,
+        "end": 16.7364
+      },
+      {
+        "text": "rest",
+        "start": 16.8455,
+        "end": 16.9545
+      },
+      {
+        "text": "of",
+        "start": 16.9909,
+        "end": 17.0273
+      },
+      {
+        "text": "the",
+        "start": 17.1,
+        "end": 17.1364
+      },
+      {
+        "text": "way,",
+        "start": 17.1727,
+        "end": 17.4636
+      }
+    ],
+    [
+      {
+        "text": "and",
+        "start": 17.6818,
+        "end": 17.7545
+      },
+      {
+        "text": "reached",
+        "start": 17.8273,
+        "end": 18.1182
+      },
+      {
+        "text": "the",
+        "start": 18.1545,
+        "end": 18.1909
+      },
+      {
+        "text": "finish",
+        "start": 18.2636,
+        "end": 18.5545
+      }
+    ],
+    [
+      {
+        "text": "before",
+        "start": 18.6273,
+        "end": 19.0636
+      },
+      {
+        "text": "the",
+        "start": 19.1364,
+        "end": 19.2091
+      },
+      {
+        "text": "other",
+        "start": 19.2818,
+        "end": 19.4273
+      },
+      {
+        "text": "runners.",
+        "start": 19.5,
+        "end": 19.9364
+      }
+    ],
+    [
+      {
+        "text": "Once",
+        "start": 20.3,
+        "end": 20.5182
+      },
+      {
+        "text": "officials",
+        "start": 20.7,
+        "end": 20.9545
+      },
+      {
+        "text": "learned",
+        "start": 21.0273,
+        "end": 21.3182
+      }
+    ],
+    [
+      {
+        "text": "he",
+        "start": 21.3909,
+        "end": 21.4636
+      },
+      {
+        "text": "had",
+        "start": 21.5364,
+        "end": 21.6091
+      },
+      {
+        "text": "travelled",
+        "start": 21.7545,
+        "end": 22.0455
+      }
+    ],
+    [
+      {
+        "text": "part",
+        "start": 22.1182,
+        "end": 22.1909
+      },
+      {
+        "text": "of",
+        "start": 22.2636,
+        "end": 22.3364
+      },
+      {
+        "text": "the",
+        "start": 22.3727,
+        "end": 22.4091
+      },
+      {
+        "text": "course",
+        "start": 22.4818,
+        "end": 22.7
+      },
+      {
+        "text": "by",
+        "start": 22.7727,
+        "end": 22.9182
+      },
+      {
+        "text": "car,",
+        "start": 22.9909,
+        "end": 23.3545
+      }
+    ],
+    [
+      {
+        "text": "Lorz",
+        "start": 23.6455,
+        "end": 24.0091
+      },
+      {
+        "text": "was",
+        "start": 24.1182,
+        "end": 24.2273
+      },
+      {
+        "text": "disqualified.",
+        "start": 24.3364,
+        "end": 25.0273
+      }
+    ],
+    [
+      {
+        "text": "Thomas",
+        "start": 25.3909,
+        "end": 25.6818
+      },
+      {
+        "text": "Hicks",
+        "start": 25.7545,
+        "end": 26.0455
+      },
+      {
+        "text": "became",
+        "start": 26.1182,
+        "end": 26.4091
+      }
+    ],
+    [
+      {
+        "text": "the",
+        "start": 26.4455,
+        "end": 26.4818
+      },
+      {
+        "text": "Olympic",
+        "start": 26.5182,
+        "end": 26.8455
+      },
+      {
+        "text": "champion.",
+        "start": 26.9182,
+        "end": 27.3545
+      }
+    ],
+    [
+      {
+        "text": "The",
+        "start": 27.7909,
+        "end": 27.8636
+      },
+      {
+        "text": "next",
+        "start": 27.9364,
+        "end": 28.1545
+      },
+      {
+        "text": "year,",
+        "start": 28.2273,
+        "end": 28.4455
+      },
+      {
+        "text": "Lorz",
+        "start": 28.7364,
+        "end": 29.1727
+      }
+    ],
+    [
+      {
+        "text": "won",
+        "start": 29.2455,
+        "end": 29.4636
+      },
+      {
+        "text": "the",
+        "start": 29.5364,
+        "end": 29.6091
+      },
+      {
+        "text": "Boston",
+        "start": 29.6818,
+        "end": 29.9727
+      },
+      {
+        "text": "Marathon.",
+        "start": 30.0455,
+        "end": 30.5545
+      }
+    ]
+  ],
+  "resolved": {
+    "resolved_font_size_px": 68,
+    "max_visible_width_px": 1024.0,
+    "center_x_px": 680.0,
+    "baseline": 1973,
+    "algorithm": "sentence-syntax-width-v6",
+    "display_intervals": [
+      {
+        "start_frame": 0,
+        "end_frame": 71
+      },
+      {
+        "start_frame": 71,
+        "end_frame": 116
+      },
+      {
+        "start_frame": 116,
+        "end_frame": 144
+      },
+      {
+        "start_frame": 144,
+        "end_frame": 193
+      },
+      {
+        "start_frame": 193,
+        "end_frame": 243
+      },
+      {
+        "start_frame": 243,
+        "end_frame": 295
+      },
+      {
+        "start_frame": 295,
+        "end_frame": 339
+      },
+      {
+        "start_frame": 339,
+        "end_frame": 374
+      },
+      {
+        "start_frame": 374,
+        "end_frame": 407
+      },
+      {
+        "start_frame": 407,
+        "end_frame": 465
+      },
+      {
+        "start_frame": 465,
+        "end_frame": 492
+      },
+      {
+        "start_frame": 492,
+        "end_frame": 531
+      },
+      {
+        "start_frame": 531,
+        "end_frame": 559
+      },
+      {
+        "start_frame": 559,
+        "end_frame": 609
+      },
+      {
+        "start_frame": 609,
+        "end_frame": 642
+      },
+      {
+        "start_frame": 642,
+        "end_frame": 664
+      },
+      {
+        "start_frame": 664,
+        "end_frame": 710
+      },
+      {
+        "start_frame": 710,
+        "end_frame": 762
+      },
+      {
+        "start_frame": 762,
+        "end_frame": 794
+      },
+      {
+        "start_frame": 794,
+        "end_frame": 834
+      },
+      {
+        "start_frame": 834,
+        "end_frame": 878
+      },
+      {
+        "start_frame": 878,
+        "end_frame": 972
+      }
+    ],
+    "boundary_warnings": []
+  }
+}

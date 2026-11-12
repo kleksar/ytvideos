@@ -1,0 +1,80 @@
+{
+  "model": {
+    "one_way_meters_per_room": 10,
+    "return_to_hallway_after_each_trip": true,
+    "basket_capacity": 6,
+    "room_pairs_accessible": true
+  },
+  "individual": [
+    {
+      "room": "bedroom",
+      "items": [
+        "bedroom_1"
+      ],
+      "meters": 20
+    },
+    {
+      "room": "bedroom",
+      "items": [
+        "bedroom_2"
+      ],
+      "meters": 20
+    },
+    {
+      "room": "kitchen",
+      "items": [
+        "kitchen_1"
+      ],
+      "meters": 20
+    },
+    {
+      "room": "kitchen",
+      "items": [
+        "kitchen_2"
+      ],
+      "meters": 20
+    },
+    {
+      "room": "bathroom",
+      "items": [
+        "bathroom_1"
+      ],
+      "meters": 20
+    },
+    {
+      "room": "bathroom",
+      "items": [
+        "bathroom_2"
+      ],
+      "meters": 20
+    }
+  ],
+  "basket": [
+    {
+      "room": "bedroom",
+      "items": [
+        "bedroom_1",
+        "bedroom_2"
+      ],
+      "meters": 20
+    },
+    {
+      "room": "kitchen",
+      "items": [
+        "kitchen_1",
+        "kitchen_2"
+      ],
+      "meters": 20
+    },
+    {
+      "room": "bathroom",
+      "items": [
+        "bathroom_1",
+        "bathroom_2"
+      ],
+      "meters": 20
+    }
+  ],
+  "individual_total_meters": 120,
+  "basket_total_meters": 60
+}

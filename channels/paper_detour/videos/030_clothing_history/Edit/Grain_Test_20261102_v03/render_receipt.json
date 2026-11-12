@@ -1,0 +1,201 @@
+{
+  "preset": {
+    "name": "PD Grain 03 - amplitude x3, larger",
+    "status": "EXPERIMENT_AWAITING_USER_REVIEW",
+    "width": 3840,
+    "height": 2160,
+    "fps": 30,
+    "frames": 450,
+    "start_frame": 811,
+    "seed": 20261102,
+    "gaussian_sigma_px": 1.15,
+    "luma_rms_codes": 3.6,
+    "temporal_rho": 0.65,
+    "mask_knots_limited_range": [
+      [
+        0,
+        0
+      ],
+      [
+        20,
+        0
+      ],
+      [
+        64,
+        1
+      ],
+      [
+        208,
+        1
+      ],
+      [
+        235,
+        0
+      ],
+      [
+        255,
+        0
+      ]
+    ],
+    "video_bitrate": "45M",
+    "source": "../Previews/PAPER_DETOUR_030_PARALLAX_15_SCENES_NO_GRAIN_PRIVATE_REVIEW_20261102.mp4",
+    "output": "PD030_GRAIN_03_X3_LARGER_15S_2160P.mp4",
+    "revision_of": "PD Grain 02",
+    "reason": "User requests amplitude x3 rather than x4 relative to Test01; grain kernel size 15 percent larger than Test02."
+  },
+  "source_sha256": "78a534d3fd79e617009ef20280cd2a1e42e64c7021b2f7a281232be7db5f9697",
+  "output_sha256": "9ee3a2fdc7db385f92ba2857148f3660f9822030aebc1110e49bd2b0bd4fc26c",
+  "output_bytes": 85954790,
+  "samples": [
+    {
+      "frame": 0,
+      "applied_rms_codes": 3.605952024459839,
+      "unmasked_state_std": 1.0,
+      "chroma_input_untouched": true
+    },
+    {
+      "frame": 80,
+      "applied_rms_codes": 3.6049137115478516,
+      "unmasked_state_std": 0.9997769594192505,
+      "chroma_input_untouched": true
+    },
+    {
+      "frame": 164,
+      "applied_rms_codes": 3.049586296081543,
+      "unmasked_state_std": 1.0004264116287231,
+      "chroma_input_untouched": true
+    },
+    {
+      "frame": 243,
+      "applied_rms_codes": 3.092834711074829,
+      "unmasked_state_std": 0.9997768998146057,
+      "chroma_input_untouched": true
+    },
+    {
+      "frame": 322,
+      "applied_rms_codes": 3.473712205886841,
+      "unmasked_state_std": 0.9996894598007202,
+      "chroma_input_untouched": true
+    },
+    {
+      "frame": 400,
+      "applied_rms_codes": 3.4725568294525146,
+      "unmasked_state_std": 1.0017070770263672,
+      "chroma_input_untouched": true
+    },
+    {
+      "frame": 449,
+      "applied_rms_codes": 3.4572293758392334,
+      "unmasked_state_std": 0.9997040033340454,
+      "chroma_input_untouched": true
+    }
+  ],
+  "decode_command": [
+    "ffmpeg",
+    "-v",
+    "error",
+    "-ss",
+    "27.033333333333335",
+    "-i",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Edit/Previews/PAPER_DETOUR_030_PARALLAX_15_SCENES_NO_GRAIN_PRIVATE_REVIEW_20261102.mp4",
+    "-map",
+    "0:v:0",
+    "-frames:v",
+    "450",
+    "-vf",
+    "scale=3840:2160:flags=lanczos:in_range=tv:out_range=tv,setsar=1",
+    "-pix_fmt",
+    "yuv420p",
+    "-f",
+    "rawvideo",
+    "pipe:1"
+  ],
+  "encode_command": [
+    "ffmpeg",
+    "-v",
+    "error",
+    "-y",
+    "-f",
+    "rawvideo",
+    "-pixel_format",
+    "yuv420p",
+    "-video_size",
+    "3840x2160",
+    "-framerate",
+    "30",
+    "-i",
+    "pipe:0",
+    "-an",
+    "-c:v",
+    "libx264",
+    "-preset",
+    "fast",
+    "-tune",
+    "grain",
+    "-threads",
+    "8",
+    "-profile:v",
+    "high",
+    "-b:v",
+    "45M",
+    "-maxrate",
+    "60M",
+    "-bufsize",
+    "90M",
+    "-g",
+    "15",
+    "-bf",
+    "2",
+    "-x264-params",
+    "open-gop=0",
+    "-color_range",
+    "tv",
+    "-colorspace",
+    "bt709",
+    "-color_trc",
+    "bt709",
+    "-color_primaries",
+    "bt709",
+    "-movflags",
+    "+faststart",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Edit/Grain_Test_20261102_v03/video_only.partial.mp4"
+  ],
+  "mux_command": [
+    "ffmpeg",
+    "-v",
+    "error",
+    "-i",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Edit/Grain_Test_20261102_v03/video_only.partial.mp4",
+    "-ss",
+    "27.033333333333335",
+    "-i",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Edit/Previews/PAPER_DETOUR_030_PARALLAX_15_SCENES_NO_GRAIN_PRIVATE_REVIEW_20261102.mp4",
+    "-map",
+    "0:v:0",
+    "-map",
+    "1:a:0?",
+    "-c",
+    "copy",
+    "-t",
+    "15.0",
+    "-bsf:v",
+    "h264_metadata=colour_primaries=1:transfer_characteristics=1:matrix_coefficients=1:video_full_range_flag=0",
+    "-color_range",
+    "tv",
+    "-colorspace",
+    "bt709",
+    "-color_trc",
+    "bt709",
+    "-color_primaries",
+    "bt709",
+    "-movflags",
+    "+faststart",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Edit/Grain_Test_20261102_v03/PD030_GRAIN_03_X3_LARGER_15S_2160P.mp4"
+  ],
+  "audio": "existing accepted source AAC stream copied; not remixed",
+  "limitations": [
+    "Post-composite test: existing paper text is also grained.",
+    "1080p source upscaled; this does not create new scene detail.",
+    "Local grain settings do not guarantee YouTube preservation."
+  ]
+}

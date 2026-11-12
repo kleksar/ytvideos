@@ -1,0 +1,172 @@
+{
+  "checked_at_utc": "2026-11-02T21:20:00.130189+00:00",
+  "scope": "documentation only; no media/timeline/audio/YouTube changes",
+  "skill_validation": [
+    {
+      "skill": "ytv-paper-production",
+      "exit_code": 0,
+      "stdout": "Skill is valid!",
+      "stderr": ""
+    },
+    {
+      "skill": "ytv-paper-storyboard",
+      "exit_code": 0,
+      "stdout": "Skill is valid!",
+      "stderr": ""
+    },
+    {
+      "skill": "ytv-youtube-release",
+      "exit_code": 0,
+      "stdout": "Skill is valid!",
+      "stderr": ""
+    },
+    {
+      "skill": "ytv-video-qa",
+      "exit_code": 0,
+      "stdout": "Skill is valid!",
+      "stderr": ""
+    }
+  ],
+  "local_links_checked": 600,
+  "new_links": "PASS",
+  "unexpected_missing_links": [],
+  "preexisting_missing_links_outside_scope": [
+    {
+      "source": "automation/youtube/README.md",
+      "target": "../../videos/005_pompeii_short2/README.md"
+    },
+    {
+      "source": "automation/youtube/README.md",
+      "target": "../../videos/006_pompeii_short3/README.md"
+    },
+    {
+      "source": "automation/youtube/README.md",
+      "target": "../../videos/007_pompeii_short4/README.md"
+    },
+    {
+      "source": "automation/youtube/README.md",
+      "target": "../../videos/008_pompeii_short5/README.md"
+    }
+  ],
+  "svg_xml": "PASS",
+  "diagram_png_visual_review": {
+    "result": "PASS",
+    "method": "sips SVG rasterization; full PNG visually inspected at 1280x720",
+    "asset": "technical wireframe, not production artwork or Studio geometry approval"
+  },
+  "timing_consistency": "PASS: 2 x 150 frames at 30 FPS = 10 seconds; each scene 5 seconds",
+  "scenario_review": [
+    {
+      "case": "new long",
+      "review": "G2 plans two scenes; G6 records actual tail; G7 verifies final-file background; G8 separately saves native elements on authorized release",
+      "result": "PASS_DOCUMENT_REVIEW"
+    },
+    {
+      "case": "Short / carousel",
+      "review": "explicit exclusions in owner and routes; no end-screen tail or Studio requirement",
+      "result": "PASS_DOCUMENT_REVIEW"
+    },
+    {
+      "case": "existing / current long",
+      "review": "exempt from retrofit; historical zero-element findings preserved; channel and three episode pointers record user decision",
+      "result": "PASS_DOCUMENT_REVIEW"
+    },
+    {
+      "case": "one / no suitable target",
+      "review": "one video + Subscribe permitted; no target leaves explicit dependency, no invented IDs or assumed subscribe-only save",
+      "result": "PASS_DOCUMENT_REVIEW"
+    },
+    {
+      "case": "local file complete, not uploaded",
+      "review": "background PASS is separate from NOT_CONFIGURED native status; local delivery requires no unauthorized write",
+      "result": "PASS_DOCUMENT_REVIEW"
+    },
+    {
+      "case": "unknown save / unavailable UI",
+      "review": "read actual Studio state before retry; keep UNVERIFIED and report limitation, preserve privacy and audience",
+      "result": "PASS_DOCUMENT_REVIEW"
+    }
+  ],
+  "independent_review": "NOT_PERFORMED",
+  "video_qa": "NOT_APPLICABLE_DOCUMENTATION",
+  "native_end_screen": "NOT_CONFIGURED",
+  "public_render_and_links": "NOT_CHECKED",
+  "files": [
+    {
+      "path": ".agents/skills/ytv-paper-production/SKILL.md",
+      "sha256": "3ad3154369fc97ec539488c62201cc6c006811b684c01833542cb1c736d26939"
+    },
+    {
+      "path": ".agents/skills/ytv-paper-production/references/production-runbook.md",
+      "sha256": "9191b7c67ae1a7a4328e846653415977af5a3286c9dd6fd60c2c599e958b8ae6"
+    },
+    {
+      "path": ".agents/skills/ytv-paper-production/references/stages-and-handoffs.md",
+      "sha256": "ddf49525bfaa10ada1082b9794d2e6d12345841f0e6ab5e213feb21d7afc0091"
+    },
+    {
+      "path": ".agents/skills/ytv-paper-production/references/end-screens.md",
+      "sha256": "b48c9bfbc2e5050af7169191b2e0ad6fc80182df0abc8dc797386ce2e6582365"
+    },
+    {
+      "path": ".agents/skills/ytv-paper-production/references/end-screen-plan-template.md",
+      "sha256": "d1bc7f81c2c6ac3f25ac4b3942f37c30ba5781c1659997d6a010fd64b82ed848"
+    },
+    {
+      "path": ".agents/skills/ytv-paper-production/references/end-screen-layout.svg",
+      "sha256": "762406d4ca26e92114c562cd666407b0e794d02e29f84d29dea1354d8dd1cea4"
+    },
+    {
+      "path": ".agents/skills/ytv-paper-storyboard/SKILL.md",
+      "sha256": "82b150ecf50b780ff89fc41bebe13d274611ff5979c6a86266d05698700e2cdf"
+    },
+    {
+      "path": ".agents/skills/ytv-youtube-release/SKILL.md",
+      "sha256": "3f6a6baf4f1bd941cccf28f5bac91a1d1ba6db63c1f593327610a694327f5401"
+    },
+    {
+      "path": ".agents/skills/ytv-video-qa/references/paper-detour.md",
+      "sha256": "3b02d19c4f8983b428e468291706fea764b87cfd4d4e6dc28b258236b272e48e"
+    },
+    {
+      "path": "channels/paper_detour/AGENTS.md",
+      "sha256": "b9aaa44a74277ddc1c30b63be620fdb96cac6ee8676f9c047cfb7aca32abca89"
+    },
+    {
+      "path": ".agent/documentation-index.md",
+      "sha256": "9bdbdc9c5138866087e4fff2fa4dc7ef2ff07f2b359077d5e67cec3eaa94459a"
+    },
+    {
+      "path": ".agent/skill-catalog.md",
+      "sha256": "169364e8cfded3db1b6dc845070d7ae3f93f8273806567f4f098ca82217f525c"
+    },
+    {
+      "path": "automation/youtube/README.md",
+      "sha256": "08eac0e409a237f8d5e3a1b12342dae57d7c80c6380a30119bba8994005c55b9"
+    },
+    {
+      "path": "channels/paper_detour/docs/CHANNEL_AUDIT_CURRENT.md",
+      "sha256": "b335ba5ce8959b1de29874a397e19254459cd2834e54a0394497971deb900cba"
+    },
+    {
+      "path": "channels/paper_detour/videos/001_radio_game/Packaging/Metadata/DESCRIPTION_REVIEW_20261102.md",
+      "sha256": "1aa6bd876bc9d0b221fd135bccf9272ce6c3b035c6dc8e1b1b42666e41a36046"
+    },
+    {
+      "path": "channels/paper_detour/videos/030_clothing_history/CURRENT_CONTEXT.md",
+      "sha256": "4e627df8f88e84a2cc00e0c3de95d8357344c1c23145c8789b8a86b0285aea80"
+    },
+    {
+      "path": "channels/paper_detour/videos/032_galveston_1900/CURRENT_CONTEXT.md",
+      "sha256": "37e2ff1c2e33d4ee947be799b54b6826f59bc38683e3dcb70ef31ae4faa6335b"
+    },
+    {
+      "path": "channels/paper_detour/docs/channel-audit-20261102/step08-future-end-screens/RECEIPT.md",
+      "sha256": "2ec4674b4ade8907dde9f2d01ed65659387647cc3bd35e13ba05c3fc6f81935e"
+    },
+    {
+      "path": ".agents/skills/ytv-paper-production/references/end-screen-layout.png",
+      "sha256": "a64e19e9f377c9eda3d61ba69d092a520bf04076474ae59f3fd497c69432125b"
+    }
+  ]
+}

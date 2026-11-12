@@ -1,0 +1,127 @@
+{
+  "date": "2026-11-06",
+  "timezone": "Europe/Belgrade",
+  "timeWindowUTC": "approximately 14:38–15:05",
+  "account": {
+    "vidiqChannel": "Paper Detour",
+    "channelId": "UCMVfdfaNxV3ZkI3_J3Eejzw",
+    "plan": "Boost",
+    "studioHeader": "Nuviko History — Manager",
+    "identityCaveat": "Exact video URLs and titles matched Paper; Studio header/preview showed different channel context. No channel aggregate interpreted from this header; no account switching or settings changes."
+  },
+  "radio": {
+    "url": "https://studio.youtube.com/video/0RaC4t7yn5o/analytics/tab-reach/period-default",
+    "period": "2026-10-31 through 2026-11-06",
+    "impressionsTopCard": 40,
+    "viewsTopCard": 23,
+    "ctrTopCard": null,
+    "funnelPeriod": "2026-10-31 through 2026-11-05",
+    "funnelImpressions": 36,
+    "funnelCTRPercent": 0,
+    "funnelViewsFromImpressions": 0,
+    "nativeAB": "Testing; three titles; thumbnail testing",
+    "saveButtonDisabled": true,
+    "optimizeScores": {
+      "overall": 55,
+      "title": 77,
+      "description": 100,
+      "thumbnail": 29,
+      "tags": 90,
+      "schedule": null
+    },
+    "dataWarning": "Traffic share rows in snapshot did not sum plausibly; do not derive counts or causal interpretations."
+  },
+  "birds": {
+    "videoId": "UqWIwpbTMik",
+    "title": "Did People Really Think Birds Flew to the Moon?",
+    "durationSeconds": 51,
+    "lifetimeStart": "2026-11-03",
+    "lifetimeViewsRounded": "5.6K",
+    "continuedWatchingPercent": 70.4,
+    "averageViewDurationSeconds": 25,
+    "realtimeLast48HoursViews": 4646,
+    "realtimeTrafficPercent": {
+      "youtubeAdvertising": 99.5,
+      "shortsFeed": 0.4,
+      "channelPages": 0,
+      "otherYouTube": 0
+    },
+    "lifetimeTrafficPercent": {
+      "youtubeAdvertising": 82,
+      "shortsFeed": 17.4,
+      "youtubeSearch": 0.5,
+      "otherYouTube": 0.1,
+      "channelPages": 0
+    },
+    "limitation": "No source-isolated retention retrieved. Different period/cache from MCP 2026-11-03–05."
+  },
+  "descriptionTrial": {
+    "automatic": "Imagine tuning into a radio broadcast in the 1980s and hearing something entirely different than music or talk. In this video, we explore the fascinating history of transmitting data over audio, a technique that allowed early computer enthusiasts to receive programs directly through the airwaves. We dive into the story of Radio USP and the legendary Clip Informatica, examining how this unique method of distributing software over radio became a vital resource for those working with 1980s computers.\n\nWe take a deep look at the technical process of broadcasting cassette software and how listeners could capture this data using nothing more than a standard radio receiver and a home computer. This historical journey, often referred to as a paper detour in the world of telecommunications, highlights the ingenuity of retro computing pioneers who bypassed traditional distribution channels. Join us as we uncover how this experimental radio software changed the landscape for tech hobbyists and discuss the lasting legacy of sending digital information through analog signals.",
+    "customInstruction": "Rewrite in English, 80-110 words, two short paragraphs. Use only these facts: In 1980s Brazil, Clip Informática on Radio USP sent computer programs over the radio as sound. Listeners could record the signal to cassette and try loading it on a compatible home computer. Distortion, levels, playback speed and compatibility mattered. A later attempt to decode an archived recording reported a possible match with the MSX game Avenger, but we have NOT independently repeated that decoding, confirmed the recordings are identical, or verified a game launch. Preserve this uncertainty clearly. Paper Detour is our present-day YouTube channel, NOT a historical project or telecommunications term; omit that name. No sources, researcher names, superlatives, inventions, claims of widespread impact, invented schedule, chapters, hashtags or subscribe request. Start directly with the surprising mechanism.",
+    "refined": "In 1980s Brazil, Radio USP's Clip Informática broadcast computer programs as sound. Listeners recorded these audio signals onto cassette tapes, then attempted to load them onto compatible home computers. Success depended on factors like distortion, audio levels, playback speed, and system compatibility.",
+    "assessment": "Custom instruction removed invented history but returned one paragraph, under requested length, and omitted requested second paragraph on decoding limitations. Useful opening only; not accepted as complete description.",
+    "applied": false
+  },
+  "contentAnalysis": {
+    "score": 87,
+    "source": "vidIQ Optimize Content browser multimodal analysis",
+    "feedback": [
+      {
+        "time": "0:00–0:05",
+        "claim": "Very slight delay between visual opening and audio starting."
+      },
+      {
+        "time": "2:30–2:45",
+        "claim": "Bits/data explanation becomes dense."
+      },
+      {
+        "time": "1:50–2:00",
+        "claim": "Two cassette shot held too long without movement."
+      }
+    ],
+    "assessment": "Tool hypotheses, not independently verified defects. Must check exact approved media before editing."
+  },
+  "preview": {
+    "home": true,
+    "searchControl": true,
+    "galleryControl": true,
+    "lightDarkControls": true,
+    "observedNeighbors": [
+      "PBS Space Time black holes",
+      "MoreBeckBros universe events",
+      "John Michael Godier probe",
+      "aliens/radio-signal clips",
+      "Minecraft"
+    ],
+    "assessment": "Useful size/context simulator, poor topical neighbor selection for radio software history. Not actual YouTube recommendation placement."
+  },
+  "extension": {
+    "recommendedTags": true,
+    "tagAutocomplete": true,
+    "keywordInspector": true,
+    "copyTags": true,
+    "tagTemplates": true,
+    "translate": true,
+    "counters": true,
+    "descriptionSuggestions": true,
+    "titleSuggestions": true,
+    "thumbnailGeneration": true,
+    "thumbnailPreview": true,
+    "videosToGainViewsFrom": true,
+    "bestTimeToPost": "3PM–5PM, timezone not observed, accuracy caveat shown",
+    "forecast": "~21 day-14 views for radio; observed prediction, not validated",
+    "warning": "Irrelevant suggested videos and tags surfaced through lexical matches such as data over audio. Do not Apply/Add All blindly."
+  },
+  "externalActions": {
+    "generatedTitles": true,
+    "generatedThumbnail": true,
+    "regeneratedDescription": true,
+    "customDescriptionRefinement": true,
+    "analyzedContent": true,
+    "published": false,
+    "metadataSaved": false,
+    "abChanged": false,
+    "subscriptionChanged": false,
+    "temporaryTabsClosed": true
+  }
+}

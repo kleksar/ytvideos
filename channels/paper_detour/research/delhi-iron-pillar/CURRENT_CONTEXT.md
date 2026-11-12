@@ -1,0 +1,3 @@
+# Delhi iron pillar — текущее состояние
+
+Paper Detour, английский Short 36.133 s. Видео eJKRyxhUaTw: https://youtube.com/shorts/eJKRyxhUaTw ; расписание 12 ноября 2026 в 13:00 Europe/Belgrade (12:00 UTC), прочитано из YouTube API; privacy private до выхода, обработка завершена. Плейлист, обложка и ручной английский SRT подтверждены. Пользователь разрешил предложенную публикацию; точный MP4 SHA-256 01bb067d7d8c4653e08ca12fa27d0c319a66af068cb098b8f2d5bb42f43968e2. Прослушивание и независимый фактчек не подтверждены. Записи: Release/scheduled_v01.md, release_v01.md, readback_v01.json и cleanup_receipt_v01.json. PARTIAL_TEXT_ARCHIVE: 423 локальных медиафайла перемещены в корзину, внешнее фото и текстовые записи сохранены; место не освобождено.

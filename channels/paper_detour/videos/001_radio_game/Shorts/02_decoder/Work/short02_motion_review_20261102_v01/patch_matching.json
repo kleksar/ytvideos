@@ -1,0 +1,539 @@
+{
+  "method": "2D FFT phase correlation on 240x240 grayscale patches, 25 fixed grid positions per sampled frame pair; Hann window; subpixel peak interpolation; retain peak-ratio >= 1.45 and displacement magnitude <100 px. Report median/ranges across accepted static-texture patches. For zoom scenes, Theil-Sen median slopes of patch displacements vs patch centers estimate affine scale; robust estimate, not a pixel-perfect camera solve. All comparisons use frames decoded from the SHA-pinned final review MP4.",
+  "source_sha256": "bd5d071beb1465db056f6c2746da778b74602814675d3f04b2de425ec4685d6f",
+  "sample_indices": [
+    [
+      0,
+      44,
+      88,
+      132,
+      176
+    ],
+    [
+      177,
+      215,
+      253,
+      291,
+      329
+    ],
+    [
+      330,
+      364,
+      399,
+      433,
+      467
+    ],
+    [
+      468,
+      502,
+      537,
+      571,
+      605
+    ],
+    [
+      606,
+      648,
+      690,
+      732,
+      773
+    ],
+    [
+      774,
+      811,
+      849,
+      886,
+      923
+    ],
+    [
+      924,
+      967,
+      1011,
+      1054,
+      1097
+    ]
+  ],
+  "scenes": [
+    {
+      "scene": "S01",
+      "reference_frame": 0,
+      "samples_vs_reference": [
+        {
+          "frame": 44,
+          "matches": 17,
+          "median_dx_px": 14.19,
+          "median_dy_px": 0.01,
+          "dx_p20_p80_px": [
+            13.43,
+            14.71
+          ],
+          "dy_p20_p80_px": [
+            -0.07,
+            0.25
+          ]
+        },
+        {
+          "frame": 88,
+          "matches": 19,
+          "median_dx_px": 30.28,
+          "median_dy_px": -0.02,
+          "dx_p20_p80_px": [
+            28.63,
+            32.24
+          ],
+          "dy_p20_p80_px": [
+            -0.06,
+            0.14
+          ]
+        },
+        {
+          "frame": 132,
+          "matches": 16,
+          "median_dx_px": 48.42,
+          "median_dy_px": -0.01,
+          "dx_p20_p80_px": [
+            44.8,
+            50.83
+          ],
+          "dy_p20_p80_px": [
+            -0.05,
+            0.1
+          ]
+        },
+        {
+          "frame": 176,
+          "matches": 14,
+          "median_dx_px": 60.28,
+          "median_dy_px": 0.02,
+          "dx_p20_p80_px": [
+            56.58,
+            63.54
+          ],
+          "dy_p20_p80_px": [
+            -0.07,
+            0.08
+          ]
+        }
+      ]
+    },
+    {
+      "scene": "S02",
+      "reference_frame": 177,
+      "samples_vs_reference": [
+        {
+          "frame": 215,
+          "matches": 19,
+          "median_dx_px": -14.55,
+          "median_dy_px": 0.04,
+          "dx_p20_p80_px": [
+            -15.42,
+            -12.6
+          ],
+          "dy_p20_p80_px": [
+            -0.08,
+            0.14
+          ]
+        },
+        {
+          "frame": 253,
+          "matches": 12,
+          "median_dx_px": -34.8,
+          "median_dy_px": 0.09,
+          "dx_p20_p80_px": [
+            -36.23,
+            -32.97
+          ],
+          "dy_p20_p80_px": [
+            -0.1,
+            0.2
+          ]
+        },
+        {
+          "frame": 291,
+          "matches": 14,
+          "median_dx_px": -47.1,
+          "median_dy_px": 0.04,
+          "dx_p20_p80_px": [
+            -53.26,
+            -37.57
+          ],
+          "dy_p20_p80_px": [
+            -0.07,
+            0.21
+          ]
+        },
+        {
+          "frame": 329,
+          "matches": 17,
+          "median_dx_px": -56.03,
+          "median_dy_px": 0.01,
+          "dx_p20_p80_px": [
+            -68.1,
+            -47.41
+          ],
+          "dy_p20_p80_px": [
+            -0.07,
+            0.23
+          ]
+        }
+      ]
+    },
+    {
+      "scene": "S03",
+      "reference_frame": 330,
+      "samples_vs_reference": [
+        {
+          "frame": 364,
+          "matches": 16,
+          "median_dx_px": -3.87,
+          "median_dy_px": 0.68,
+          "dx_p20_p80_px": [
+            -7.96,
+            2.81
+          ],
+          "dy_p20_p80_px": [
+            -4.02,
+            3.78
+          ],
+          "affine_scale_x": 1.0124,
+          "affine_scale_y": 1.0106,
+          "affine_translation_x_px": -10.42,
+          "affine_translation_y_px": -10.79,
+          "median_affine_residual_px": 1.41,
+          "p80_affine_residual_px": 3.86
+        },
+        {
+          "frame": 399,
+          "matches": 12,
+          "median_dx_px": -8.69,
+          "median_dy_px": 2.79,
+          "dx_p20_p80_px": [
+            -13.51,
+            -1.96
+          ],
+          "dy_p20_p80_px": [
+            -5.55,
+            8.07
+          ],
+          "affine_scale_x": 1.0266,
+          "affine_scale_y": 1.0214,
+          "affine_translation_x_px": -26.55,
+          "affine_translation_y_px": -20.13,
+          "median_affine_residual_px": 2.21,
+          "p80_affine_residual_px": 5.61
+        },
+        {
+          "frame": 433,
+          "matches": 11,
+          "median_dx_px": -16.62,
+          "median_dy_px": 3.82,
+          "dx_p20_p80_px": [
+            -35.77,
+            -6.22
+          ],
+          "dy_p20_p80_px": [
+            -1.51,
+            5.98
+          ],
+          "affine_scale_x": 1.0359,
+          "affine_scale_y": 1.0298,
+          "affine_translation_x_px": -40.37,
+          "affine_translation_y_px": -28.67,
+          "median_affine_residual_px": 4.55,
+          "p80_affine_residual_px": 30.5
+        },
+        {
+          "frame": 467,
+          "matches": 9,
+          "median_dx_px": -16.21,
+          "median_dy_px": 6.0,
+          "dx_p20_p80_px": [
+            -29.66,
+            -7.86
+          ],
+          "dy_p20_p80_px": [
+            -7.24,
+            16.19
+          ],
+          "affine_scale_x": 1.05,
+          "affine_scale_y": 1.0416,
+          "affine_translation_x_px": -53.26,
+          "affine_translation_y_px": -40.26,
+          "median_affine_residual_px": 2.62,
+          "p80_affine_residual_px": 9.45
+        }
+      ]
+    },
+    {
+      "scene": "S04",
+      "reference_frame": 468,
+      "samples_vs_reference": [
+        {
+          "frame": 502,
+          "matches": 22,
+          "median_dx_px": 15.82,
+          "median_dy_px": 0.01,
+          "dx_p20_p80_px": [
+            13.31,
+            16.44
+          ],
+          "dy_p20_p80_px": [
+            -0.05,
+            0.08
+          ]
+        },
+        {
+          "frame": 537,
+          "matches": 20,
+          "median_dx_px": 37.97,
+          "median_dy_px": -0.01,
+          "dx_p20_p80_px": [
+            36.31,
+            43.37
+          ],
+          "dy_p20_p80_px": [
+            -0.07,
+            0.07
+          ]
+        },
+        {
+          "frame": 571,
+          "matches": 17,
+          "median_dx_px": 60.82,
+          "median_dy_px": 0.03,
+          "dx_p20_p80_px": [
+            57.08,
+            69.02
+          ],
+          "dy_p20_p80_px": [
+            -0.09,
+            0.21
+          ]
+        },
+        {
+          "frame": 605,
+          "matches": 15,
+          "median_dx_px": 75.0,
+          "median_dy_px": -0.02,
+          "dx_p20_p80_px": [
+            67.77,
+            79.99
+          ],
+          "dy_p20_p80_px": [
+            -0.06,
+            0.08
+          ]
+        }
+      ]
+    },
+    {
+      "scene": "S05",
+      "reference_frame": 606,
+      "samples_vs_reference": [
+        {
+          "frame": 648,
+          "matches": 15,
+          "median_dx_px": -18.21,
+          "median_dy_px": 0.02,
+          "dx_p20_p80_px": [
+            -19.22,
+            -17.5
+          ],
+          "dy_p20_p80_px": [
+            -0.05,
+            0.1
+          ]
+        },
+        {
+          "frame": 690,
+          "matches": 11,
+          "median_dx_px": -44.18,
+          "median_dy_px": -0.01,
+          "dx_p20_p80_px": [
+            -46.24,
+            -40.17
+          ],
+          "dy_p20_p80_px": [
+            -0.08,
+            0.03
+          ]
+        },
+        {
+          "frame": 732,
+          "matches": 8,
+          "median_dx_px": -70.66,
+          "median_dy_px": 0.15,
+          "dx_p20_p80_px": [
+            -72.39,
+            -68.25
+          ],
+          "dy_p20_p80_px": [
+            -0.05,
+            0.5
+          ]
+        },
+        {
+          "frame": 773,
+          "matches": 11,
+          "median_dx_px": -81.49,
+          "median_dy_px": 0.06,
+          "dx_p20_p80_px": [
+            -89.12,
+            5.3
+          ],
+          "dy_p20_p80_px": [
+            -0.05,
+            0.71
+          ]
+        }
+      ]
+    },
+    {
+      "scene": "S06",
+      "reference_frame": 774,
+      "samples_vs_reference": [
+        {
+          "frame": 811,
+          "matches": 20,
+          "median_dx_px": 4.74,
+          "median_dy_px": -0.6,
+          "dx_p20_p80_px": [
+            1.66,
+            8.08
+          ],
+          "dy_p20_p80_px": [
+            -4.57,
+            1.4
+          ],
+          "affine_scale_x": 1.0112,
+          "affine_scale_y": 1.0098,
+          "affine_translation_x_px": -2.34,
+          "affine_translation_y_px": -9.66,
+          "median_affine_residual_px": 1.0,
+          "p80_affine_residual_px": 2.48
+        },
+        {
+          "frame": 849,
+          "matches": 20,
+          "median_dx_px": 12.87,
+          "median_dy_px": -1.92,
+          "dx_p20_p80_px": [
+            4.21,
+            18.22
+          ],
+          "dy_p20_p80_px": [
+            -7.31,
+            3.0
+          ],
+          "affine_scale_x": 1.0191,
+          "affine_scale_y": 1.0205,
+          "affine_translation_x_px": 2.24,
+          "affine_translation_y_px": -19.86,
+          "median_affine_residual_px": 3.58,
+          "p80_affine_residual_px": 8.83
+        },
+        {
+          "frame": 886,
+          "matches": 16,
+          "median_dx_px": 21.69,
+          "median_dy_px": -3.99,
+          "dx_p20_p80_px": [
+            12.04,
+            32.36
+          ],
+          "dy_p20_p80_px": [
+            -11.2,
+            4.8
+          ],
+          "affine_scale_x": 1.0402,
+          "affine_scale_y": 1.0311,
+          "affine_translation_x_px": -0.35,
+          "affine_translation_y_px": -30.29,
+          "median_affine_residual_px": 3.37,
+          "p80_affine_residual_px": 6.61
+        },
+        {
+          "frame": 923,
+          "matches": 15,
+          "median_dx_px": 25.8,
+          "median_dy_px": -6.12,
+          "dx_p20_p80_px": [
+            7.04,
+            36.92
+          ],
+          "dy_p20_p80_px": [
+            -23.48,
+            0.86
+          ],
+          "affine_scale_x": 1.0483,
+          "affine_scale_y": 1.0401,
+          "affine_translation_x_px": -0.96,
+          "affine_translation_y_px": -38.99,
+          "median_affine_residual_px": 3.72,
+          "p80_affine_residual_px": 8.74
+        }
+      ]
+    },
+    {
+      "scene": "S07",
+      "reference_frame": 924,
+      "samples_vs_reference": [
+        {
+          "frame": 967,
+          "matches": 18,
+          "median_dx_px": 15.36,
+          "median_dy_px": -0.03,
+          "dx_p20_p80_px": [
+            14.25,
+            15.79
+          ],
+          "dy_p20_p80_px": [
+            -0.11,
+            0.03
+          ]
+        },
+        {
+          "frame": 1011,
+          "matches": 13,
+          "median_dx_px": 39.87,
+          "median_dy_px": -0.02,
+          "dx_p20_p80_px": [
+            33.58,
+            40.41
+          ],
+          "dy_p20_p80_px": [
+            -0.1,
+            0.04
+          ]
+        },
+        {
+          "frame": 1054,
+          "matches": 10,
+          "median_dx_px": 61.97,
+          "median_dy_px": -0.06,
+          "dx_p20_p80_px": [
+            54.21,
+            62.86
+          ],
+          "dy_p20_p80_px": [
+            -0.12,
+            0.1
+          ]
+        },
+        {
+          "frame": 1097,
+          "matches": 5,
+          "median_dx_px": 79.75,
+          "median_dy_px": 0.01,
+          "dx_p20_p80_px": [
+            66.98,
+            80.45
+          ],
+          "dy_p20_p80_px": [
+            -0.03,
+            0.22
+          ]
+        }
+      ]
+    }
+  ]
+}

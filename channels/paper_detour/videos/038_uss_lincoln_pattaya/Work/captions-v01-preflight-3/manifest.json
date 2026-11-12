@@ -1,0 +1,214 @@
+{
+  "version": 1,
+  "run": "captions-v01-preflight-3",
+  "owner": "captions-26226",
+  "status": "complete",
+  "created_utc": "2026-11-03T01:14:59.952895+00:00",
+  "entries": [
+    {
+      "path": "Assets/Generated/captions-v01-preflight-3/cues/C01/cue.png",
+      "role": "dependency",
+      "identity": {
+        "device": 16777233,
+        "inode": 125710879,
+        "bytes": 65940,
+        "mtime_ns": 1793668500760600298,
+        "ctime_ns": 1793668500760600298,
+        "nlink": 1,
+        "allocated_bytes": 69632
+      },
+      "sha256": "c5ed0a3c513c40bdffdaef2ab5df8ec758d837ec36476de88015fc0e239bc3dd",
+      "rebuild_from": [],
+      "evidence": [],
+      "disposition": "pending"
+    },
+    {
+      "path": "Assets/Generated/captions-v01-preflight-3/cues/C01/face.png",
+      "role": "dependency",
+      "identity": {
+        "device": 16777233,
+        "inode": 125710880,
+        "bytes": 1302,
+        "mtime_ns": 1793668500761244588,
+        "ctime_ns": 1793668500761244588,
+        "nlink": 1,
+        "allocated_bytes": 4096
+      },
+      "sha256": "382c03735d943f4ce91b15e1b1a58f9176dad516f4e9da0ac48bd02fbf928bfe",
+      "rebuild_from": [],
+      "evidence": [],
+      "disposition": "pending"
+    },
+    {
+      "path": "Assets/Generated/captions-v01-preflight-3/cues/C16/cue.png",
+      "role": "dependency",
+      "identity": {
+        "device": 16777233,
+        "inode": 125710882,
+        "bytes": 130133,
+        "mtime_ns": 1793668500768575445,
+        "ctime_ns": 1793668500768575445,
+        "nlink": 1,
+        "allocated_bytes": 131072
+      },
+      "sha256": "2adb802bdd84a4bf0cd4d8fcab21d49ee7213ab4db0d199d08d81766b9e04dd8",
+      "rebuild_from": [],
+      "evidence": [],
+      "disposition": "pending"
+    },
+    {
+      "path": "Assets/Generated/captions-v01-preflight-3/cues/C16/face.png",
+      "role": "dependency",
+      "identity": {
+        "device": 16777233,
+        "inode": 125710883,
+        "bytes": 2366,
+        "mtime_ns": 1793668500771000398,
+        "ctime_ns": 1793668500771000398,
+        "nlink": 1,
+        "allocated_bytes": 4096
+      },
+      "sha256": "1a4c093bdcdd61758e4cb46e13ebf798ecb4495035256c9d6b1ec16fccfaf453",
+      "rebuild_from": [],
+      "evidence": [],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/captions-v01-preflight-3/previews/S01/C01/alternate.png",
+      "role": "preview",
+      "identity": {
+        "device": 16777233,
+        "inode": 125710889,
+        "bytes": 3811383,
+        "mtime_ns": 1793668501268156955,
+        "ctime_ns": 1793668501268156955,
+        "nlink": 1,
+        "allocated_bytes": 3813376
+      },
+      "sha256": "ca28952632bd8bdb71e8002c2ff60501e9b560a9a64f4f304c348e5c080c4be0",
+      "rebuild_from": [],
+      "evidence": [],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/captions-v01-preflight-3/previews/S01/C01/alternate__phone.png",
+      "role": "preview",
+      "identity": {
+        "device": 16777233,
+        "inode": 125710890,
+        "bytes": 485086,
+        "mtime_ns": 1793668501303111243,
+        "ctime_ns": 1793668501303111243,
+        "nlink": 1,
+        "allocated_bytes": 487424
+      },
+      "sha256": "11eff3bfad09689ae367a9074048f97a91c38a2c87431207ba9bdada61daf4f4",
+      "rebuild_from": [],
+      "evidence": [],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/captions-v01-preflight-3/previews/S01/C01/primary.png",
+      "role": "preview",
+      "identity": {
+        "device": 16777233,
+        "inode": 125710886,
+        "bytes": 3810883,
+        "mtime_ns": 1793668501012560297,
+        "ctime_ns": 1793668501012560297,
+        "nlink": 1,
+        "allocated_bytes": 3813376
+      },
+      "sha256": "6ce8a5f547411bd6d4154f2961cea2cb1cd72ecec5c91046a521f8700f444e05",
+      "rebuild_from": [],
+      "evidence": [],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/captions-v01-preflight-3/previews/S01/C01/primary__phone.png",
+      "role": "preview",
+      "identity": {
+        "device": 16777233,
+        "inode": 125710888,
+        "bytes": 485023,
+        "mtime_ns": 1793668501033888161,
+        "ctime_ns": 1793668501033888161,
+        "nlink": 1,
+        "allocated_bytes": 487424
+      },
+      "sha256": "8d9721ad71ec13b275a754016ce795c641c2d60abbe13a58bd33a97ec75c05cf",
+      "rebuild_from": [],
+      "evidence": [],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/captions-v01-preflight-3/previews/S16/C16/alternate.png",
+      "role": "preview",
+      "identity": {
+        "device": 16777233,
+        "inode": 125710897,
+        "bytes": 3734136,
+        "mtime_ns": 1793668501789576201,
+        "ctime_ns": 1793668501789576201,
+        "nlink": 1,
+        "allocated_bytes": 3735552
+      },
+      "sha256": "785bda4cbaacfd5467c0cc1f23aeba253e0f0eb48624904b934c5f7ea65cb1bd",
+      "rebuild_from": [],
+      "evidence": [],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/captions-v01-preflight-3/previews/S16/C16/alternate__phone.png",
+      "role": "preview",
+      "identity": {
+        "device": 16777233,
+        "inode": 125710899,
+        "bytes": 477642,
+        "mtime_ns": 1793668501811135855,
+        "ctime_ns": 1793668501811135855,
+        "nlink": 1,
+        "allocated_bytes": 479232
+      },
+      "sha256": "20b8bb10b0803f18f5c07935d988fe7e5467de2f7697f628bd56fc71737a8f51",
+      "rebuild_from": [],
+      "evidence": [],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/captions-v01-preflight-3/previews/S16/C16/primary.png",
+      "role": "preview",
+      "identity": {
+        "device": 16777233,
+        "inode": 125710894,
+        "bytes": 3736436,
+        "mtime_ns": 1793668501545441766,
+        "ctime_ns": 1793668501545441766,
+        "nlink": 1,
+        "allocated_bytes": 3739648
+      },
+      "sha256": "f36262e2b7ea0d9b0a7dae241e6f9cefb384da1c87476f63efc0a9d3bb8bb473",
+      "rebuild_from": [],
+      "evidence": [],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/captions-v01-preflight-3/previews/S16/C16/primary__phone.png",
+      "role": "preview",
+      "identity": {
+        "device": 16777233,
+        "inode": 125710896,
+        "bytes": 477898,
+        "mtime_ns": 1793668501569050916,
+        "ctime_ns": 1793668501569050916,
+        "nlink": 1,
+        "allocated_bytes": 479232
+      },
+      "sha256": "a47a2bc39dc8c3d7a7237042149871d91b9fe6fe6b4985b11b430e563bca6200",
+      "rebuild_from": [],
+      "evidence": [],
+      "disposition": "pending"
+    }
+  ],
+  "writer_finished_utc": "2026-11-03T01:15:01.836080+00:00"
+}

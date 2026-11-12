@@ -1,13 +1,13 @@
 ---
 name: ytv-release-video
-description: "Develop thumbnail hooks, AI composition drafts and full-card QA after script approval; schedule a YouTube release after exact MP4 approval and interpret experiment follow-up. Use for packaging, metadata, upload or retesting."
+description: "Develop thumbnail hooks, AI composition drafts and full-card QA after script approval; perform an explicitly authorized YouTube release after exact MP4 approval. Use for packaging, metadata, upload and retesting."
 ---
 
 # Упаковать и назначить публикацию
 
 CLI и точные outputs/receipts: [task contract](../../../docs/operations/task-contract.md).
 
-Прочитать task context, [release standard](../../../docs/standards/release.md) и профиль канала. Для `packaging` MP4 approval не нужен. Для `upload`, `configure_release`, `schedule` адаптер обязан проверить точный MP4 approval и scope. Credentials и private signing key остаются в trusted host.
+Прочитать task context, [release standard](../../../docs/standards/release.md) и профиль канала. Для `packaging` MP4 approval не нужен. Для `upload`, `configure_release`, `schedule` требуется прямое поручение пользователя; адаптер обязан проверить точный MP4 approval и scope. Credentials и private signing key остаются в trusted host.
 
 ## Packaging после script approval
 

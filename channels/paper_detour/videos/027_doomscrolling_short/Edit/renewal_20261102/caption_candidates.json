@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "canvas": [
+    1080,
+    1920
+  ],
+  "face_height_px": 100,
+  "min_face_height_px": 65,
+  "anchors": {
+    "primary": {
+      "center": [
+        0.5,
+        0.165
+      ],
+      "max_width_px": 900,
+      "max_height_px": 400
+    }
+  },
+  "scenes": [
+    {
+      "id": "S01",
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/027_doomscrolling_short/Work/renewal_20261102/frames/S01.png"
+    },
+    {
+      "id": "S04",
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/027_doomscrolling_short/Work/renewal_20261102/frames/S04.png"
+    },
+    {
+      "id": "S05",
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/027_doomscrolling_short/Work/renewal_20261102/frames/S05.png"
+    },
+    {
+      "id": "S06",
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/027_doomscrolling_short/Work/renewal_20261102/frames/S06.png"
+    }
+  ],
+  "cues": [
+    {
+      "id": "C01",
+      "lines": [
+        "THIRTEEN"
+      ],
+      "backend": {
+        "type": "existingPNG",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/027_doomscrolling_short/Source/Images/minnie_v02/Import_Packs/Accents/THIRTEEN.png",
+        "face": {
+          "mode": "creamOrange"
+        },
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/027_doomscrolling_short/Source/Images/minnie_v02/Import_Packs/Accents/THIRTEEN.png",
+        "status": "Candidate legacy asset; visual and sync unverified"
+      },
+      "provenance": {
+        "record": "Minnie original image pack"
+      },
+      "timing": {
+        "status": "UNVERIFIED",
+        "note": "Machine alignment only; listening absent"
+      }
+    },
+    {
+      "id": "C02",
+      "lines": [
+        "3/4 MILE"
+      ],
+      "backend": {
+        "type": "existingPNG",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/027_doomscrolling_short/Source/Images/minnie_v02/Import_Packs/Accents/3_4_MILE.png",
+        "face": {
+          "mode": "creamOrange"
+        },
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/027_doomscrolling_short/Source/Images/minnie_v02/Import_Packs/Accents/3_4_MILE.png",
+        "status": "Candidate legacy asset; visual and sync unverified"
+      },
+      "provenance": {
+        "record": "Minnie original image pack"
+      },
+      "timing": {
+        "status": "UNVERIFIED",
+        "note": "Machine alignment only; listening absent"
+      }
+    },
+    {
+      "id": "C03",
+      "lines": [
+        "WAIT"
+      ],
+      "backend": {
+        "type": "existingPNG",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/027_doomscrolling_short/Source/Images/minnie_v02/Import_Packs/Accents/WAIT.png",
+        "face": {
+          "mode": "creamOrange"
+        },
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/027_doomscrolling_short/Source/Images/minnie_v02/Import_Packs/Accents/WAIT.png",
+        "status": "Candidate legacy asset; visual and sync unverified"
+      },
+      "provenance": {
+        "record": "Minnie original image pack"
+      },
+      "timing": {
+        "status": "UNVERIFIED",
+        "note": "Machine alignment only; listening absent"
+      }
+    }
+  ],
+  "pairs": [
+    {
+      "scene": "S01",
+      "cue": "C01",
+      "anchor": "primary"
+    },
+    {
+      "scene": "S04",
+      "cue": "C02",
+      "anchor": "primary"
+    },
+    {
+      "scene": "S05",
+      "cue": "C03",
+      "anchor": "primary"
+    },
+    {
+      "scene": "S06",
+      "cue": "C03",
+      "anchor": "primary"
+    }
+  ]
+}

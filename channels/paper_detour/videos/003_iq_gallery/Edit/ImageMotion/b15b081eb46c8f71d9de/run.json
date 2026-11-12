@@ -1,0 +1,261 @@
+{
+  "status": "complete",
+  "source_fingerprint": "2783e6d62de820dc537699fd11484deb17e2220d2e8af99418b2d07373ea75d3",
+  "target_timeline_id": "53950E6A",
+  "scenes": [
+    {
+      "source": {
+        "frames": [
+          0,
+          120
+        ],
+        "id": "0659210A",
+        "mediaRef": "9B600A80",
+        "mediaType": "image",
+        "trimEndFrame": 30
+      },
+      "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/003_iq_gallery/Edit/iq_gallery_v22_review/scenes/s01_jfk.png",
+      "image_hash": "a1b1862f291735229fdfd80180b74b27a2814a2b5c1c76d7496061538f94e74b",
+      "depth_input": null,
+      "depth_hash": null,
+      "keyframes": {
+        "position": [
+          [
+            0,
+            -0.060500000000000054,
+            -0.050000000000000044,
+            "linear"
+          ],
+          [
+            119,
+            -0.03950000000000009,
+            -0.050000000000000044
+          ]
+        ],
+        "scale": [
+          [
+            0,
+            1.1,
+            1.1,
+            "linear"
+          ],
+          [
+            119,
+            1.1,
+            1.1
+          ]
+        ]
+      },
+      "sign": -1,
+      "depth_zoom": 1.0,
+      "frames": 120,
+      "fps": 30,
+      "width": 1080,
+      "height": 1920,
+      "preset": {
+        "offset": 0.12,
+        "height": 0.2,
+        "steady": 0.0,
+        "sticky": true,
+        "camera_factor": 0.35,
+        "alignment": "same"
+      },
+      "grain": {
+        "id": "g08",
+        "name": "Short Persistence",
+        "version": 1,
+        "rms_y_codes": 3.0,
+        "sigma_reference_px": 0.77,
+        "reference_short_side": 1440,
+        "update_hz": 30,
+        "rho": 0.35,
+        "mask_y": [
+          20,
+          64,
+          208,
+          235
+        ],
+        "range_y": [
+          16,
+          235
+        ],
+        "chroma": false,
+        "seed": 20261102
+      },
+      "baked_camera": {
+        "position": [
+          [
+            0,
+            -0.060500000000000054,
+            -0.050000000000000044,
+            "linear"
+          ],
+          [
+            119,
+            -0.03950000000000009,
+            -0.050000000000000044
+          ]
+        ],
+        "scale": [
+          [
+            0,
+            1.1,
+            1.1,
+            "linear"
+          ],
+          [
+            119,
+            1.1,
+            1.1
+          ]
+        ]
+      },
+      "target_keyframes": {},
+      "target_transform": {
+        "centerX": 0.5,
+        "centerY": 0.5,
+        "width": 1,
+        "height": 1,
+        "rotation": 0
+      },
+      "clean_video": "/Users/diplomat/ytvideos/Shared/Image_Motion/Cache/video/d26f61f66e5bf4f5fc514f14a498185ba0e9c0d274ac96cf1c09e3a1e1fc017b.mp4",
+      "video": "/Users/diplomat/ytvideos/Shared/Image_Motion/Cache/finished/ae833734832653d7b4615db45efa6be3a09f5d9e4dd6ee0de9f7d1819b6427a9.mp4",
+      "mediaRef": "3A7F5F6F"
+    },
+    {
+      "source": {
+        "frames": [
+          120,
+          240
+        ],
+        "id": "F41D4DD0",
+        "mediaRef": "52F09FCF",
+        "mediaType": "image",
+        "trimEndFrame": 30
+      },
+      "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/003_iq_gallery/Edit/iq_gallery_v22_review/scenes/s02_kasparov.png",
+      "image_hash": "c251d451559fe70954e4e47714a58f0fe132c3ce0caa53ee5fc55ee1d02ac4dd",
+      "depth_input": null,
+      "depth_hash": null,
+      "keyframes": {
+        "position": [
+          [
+            0,
+            -0.03950000000000009,
+            -0.050000000000000044,
+            "linear"
+          ],
+          [
+            119,
+            -0.060500000000000054,
+            -0.050000000000000044
+          ]
+        ],
+        "scale": [
+          [
+            0,
+            1.1,
+            1.1,
+            "linear"
+          ],
+          [
+            119,
+            1.1,
+            1.1
+          ]
+        ]
+      },
+      "sign": 1,
+      "depth_zoom": 1.0,
+      "frames": 120,
+      "fps": 30,
+      "width": 1080,
+      "height": 1920,
+      "preset": {
+        "offset": 0.12,
+        "height": 0.2,
+        "steady": 0.0,
+        "sticky": true,
+        "camera_factor": 0.35,
+        "alignment": "same"
+      },
+      "grain": {
+        "id": "g08",
+        "name": "Short Persistence",
+        "version": 1,
+        "rms_y_codes": 3.0,
+        "sigma_reference_px": 0.77,
+        "reference_short_side": 1440,
+        "update_hz": 30,
+        "rho": 0.35,
+        "mask_y": [
+          20,
+          64,
+          208,
+          235
+        ],
+        "range_y": [
+          16,
+          235
+        ],
+        "chroma": false,
+        "seed": 20261102
+      },
+      "baked_camera": {
+        "position": [
+          [
+            0,
+            -0.03950000000000009,
+            -0.050000000000000044,
+            "linear"
+          ],
+          [
+            119,
+            -0.060500000000000054,
+            -0.050000000000000044
+          ]
+        ],
+        "scale": [
+          [
+            0,
+            1.1,
+            1.1,
+            "linear"
+          ],
+          [
+            119,
+            1.1,
+            1.1
+          ]
+        ]
+      },
+      "target_keyframes": {},
+      "target_transform": {
+        "centerX": 0.5,
+        "centerY": 0.5,
+        "width": 1,
+        "height": 1,
+        "rotation": 0
+      },
+      "clean_video": "/Users/diplomat/ytvideos/Shared/Image_Motion/Cache/video/1a954b9c24aafc925f98bf3096f00a28e336853b97947b1f0bbafa172b2e5b15.mp4",
+      "video": "/Users/diplomat/ytvideos/Shared/Image_Motion/Cache/finished/e420b4247be501eaddd1298f30e0ddeaa9e2714577bccfac012e88eb9901994b.mp4",
+      "mediaRef": "8F07514F"
+    }
+  ],
+  "result_fingerprint": "98d56070096df3749da883bc148ab2ae1d3c9eda6899b5f5b8e799bea65340cc",
+  "snapshot": {
+    "snapshot": {
+      "author": {
+        "kind": "agent",
+        "name": "yt-stories-inspect"
+      },
+      "createdAt": "2026-11-02T06:57:34Z",
+      "name": "Batch image motion verified",
+      "snapshotId": "4AB09811"
+    }
+  },
+  "qa": {
+    "timeline_structure": "PASS",
+    "full_playback": "UNVERIFIED"
+  }
+}

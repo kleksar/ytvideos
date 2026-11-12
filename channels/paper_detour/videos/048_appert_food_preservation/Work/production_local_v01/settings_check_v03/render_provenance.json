@@ -1,0 +1,1048 @@
+{
+  "schema": "ytv-render-v1",
+  "origin": "render",
+  "export_contract": {
+    "original": {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Edit/Export/EXPORT_CONTRACT_v01.json",
+      "sha256": "6ecca9a7f3b4294b9b041e69e78ba104a9ee5aec2024eb507eea24c1f88f1ab4"
+    },
+    "snapshot": {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Work/production_local_v01/settings_check_v03/render_provenance/export_contract.json",
+      "sha256": "6ecca9a7f3b4294b9b041e69e78ba104a9ee5aec2024eb507eea24c1f88f1ab4"
+    }
+  },
+  "command": {
+    "original": {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Work/production_local_v01/settings_check_v03/render_command.json",
+      "sha256": "96d938b6f2e9416ab17ac99131af805d37cfec33d9ac10deb91c82e132780665"
+    },
+    "snapshot": {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Work/production_local_v01/settings_check_v03/render_provenance/render_command.json",
+      "sha256": "96d938b6f2e9416ab17ac99131af805d37cfec33d9ac10deb91c82e132780665"
+    }
+  },
+  "engine": [
+    {
+      "original": {
+        "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/montage.py",
+        "sha256": "35eb0ea42c4823eb93d18d87468eb55cef9a3f16988a37c533c417b3780a7ad7"
+      },
+      "snapshot": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Work/production_local_v01/settings_check_v03/render_provenance/engine_0_montage.py",
+        "sha256": "35eb0ea42c4823eb93d18d87468eb55cef9a3f16988a37c533c417b3780a7ad7"
+      }
+    },
+    {
+      "original": {
+        "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/delivery.py",
+        "sha256": "8fcba5854d8832a966d4960dbdae3c8fa362d124d04a67f2b4b0df4347a71c65"
+      },
+      "snapshot": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Work/production_local_v01/settings_check_v03/render_provenance/engine_1_delivery.py",
+        "sha256": "8fcba5854d8832a966d4960dbdae3c8fa362d124d04a67f2b4b0df4347a71c65"
+      }
+    },
+    {
+      "original": {
+        "path": "/Users/diplomat/ytvideos/.agents/skills/ytv-paper-subtitles/scripts/semantic_grouping.py",
+        "sha256": "f18deb4cbb5af9c10cfd51fd60b15ef1c87b5ebaaaa46f073210935821d8fc3e"
+      },
+      "snapshot": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Work/production_local_v01/settings_check_v03/render_provenance/engine_2_semantic_grouping.py",
+        "sha256": "f18deb4cbb5af9c10cfd51fd60b15ef1c87b5ebaaaa46f073210935821d8fc3e"
+      }
+    }
+  ],
+  "prepared": {
+    "channel": "paper",
+    "format": "long",
+    "subtitle_mode": "words",
+    "audio": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Work/production_local_v01/voice_fullmix.wav",
+    "canvas": [
+      2560,
+      1440
+    ],
+    "fps": 30,
+    "scenes": [
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S01_v02.png",
+        "start_frame": 0,
+        "end_frame": 169,
+        "direction": "left_to_right",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Primary focal object in S01_v02",
+          "reason": "Very restrained whole-frame movement keeps the reviewed paper composition legible.",
+          "start": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          },
+          "end": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S02_v02.png",
+        "start_frame": 169,
+        "end_frame": 320,
+        "direction": "right_to_left",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Primary focal object in S02_v02",
+          "reason": "Very restrained whole-frame movement keeps the reviewed paper composition legible.",
+          "start": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          },
+          "end": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S03_v01.png",
+        "start_frame": 320,
+        "end_frame": 481,
+        "direction": "left_to_right",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Primary focal object in S03_v01",
+          "reason": "Very restrained whole-frame movement keeps the reviewed paper composition legible.",
+          "start": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          },
+          "end": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S04_v01.png",
+        "start_frame": 481,
+        "end_frame": 649,
+        "direction": "right_to_left",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Primary focal object in S04_v01",
+          "reason": "Very restrained whole-frame movement keeps the reviewed paper composition legible.",
+          "start": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          },
+          "end": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S05_v01.png",
+        "start_frame": 649,
+        "end_frame": 805,
+        "direction": "left_to_right",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Primary focal object in S05_v01",
+          "reason": "Very restrained whole-frame movement keeps the reviewed paper composition legible.",
+          "start": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          },
+          "end": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S06_v01.png",
+        "start_frame": 805,
+        "end_frame": 965,
+        "direction": "right_to_left",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Primary focal object in S06_v01",
+          "reason": "Very restrained whole-frame movement keeps the reviewed paper composition legible.",
+          "start": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          },
+          "end": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S07_v01.png",
+        "start_frame": 965,
+        "end_frame": 1120,
+        "direction": "left_to_right",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Primary focal object in S07_v01",
+          "reason": "Very restrained whole-frame movement keeps the reviewed paper composition legible.",
+          "start": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          },
+          "end": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S08_v01.png",
+        "start_frame": 1120,
+        "end_frame": 1285,
+        "direction": "right_to_left",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Primary focal object in S08_v01",
+          "reason": "Very restrained whole-frame movement keeps the reviewed paper composition legible.",
+          "start": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          },
+          "end": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S09_v01.png",
+        "start_frame": 1285,
+        "end_frame": 1458,
+        "direction": "left_to_right",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Primary focal object in S09_v01",
+          "reason": "Very restrained whole-frame movement keeps the reviewed paper composition legible.",
+          "start": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          },
+          "end": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S10_v01.png",
+        "start_frame": 1458,
+        "end_frame": 1616,
+        "direction": "right_to_left",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Primary focal object in S10_v01",
+          "reason": "Very restrained whole-frame movement keeps the reviewed paper composition legible.",
+          "start": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          },
+          "end": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S11_v03.png",
+        "start_frame": 1616,
+        "end_frame": 1781,
+        "direction": "left_to_right",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Primary focal object in S11_v03",
+          "reason": "Very restrained whole-frame movement keeps the reviewed paper composition legible.",
+          "start": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          },
+          "end": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S12_v01.png",
+        "start_frame": 1781,
+        "end_frame": 1944,
+        "direction": "right_to_left",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Primary focal object in S12_v01",
+          "reason": "Very restrained whole-frame movement keeps the reviewed paper composition legible.",
+          "start": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          },
+          "end": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S13_v02.png",
+        "start_frame": 1944,
+        "end_frame": 2104,
+        "direction": "left_to_right",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Primary focal object in S13_v02",
+          "reason": "Very restrained whole-frame movement keeps the reviewed paper composition legible.",
+          "start": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          },
+          "end": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S14_v01.png",
+        "start_frame": 2104,
+        "end_frame": 2270,
+        "direction": "right_to_left",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Primary focal object in S14_v01",
+          "reason": "Very restrained whole-frame movement keeps the reviewed paper composition legible.",
+          "start": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          },
+          "end": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S15_v01.png",
+        "start_frame": 2270,
+        "end_frame": 2440,
+        "direction": "left_to_right",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Primary focal object in S15_v01",
+          "reason": "Very restrained whole-frame movement keeps the reviewed paper composition legible.",
+          "start": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          },
+          "end": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S16_v01.png",
+        "start_frame": 2440,
+        "end_frame": 2599,
+        "direction": "right_to_left",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Primary focal object in S16_v01",
+          "reason": "Very restrained whole-frame movement keeps the reviewed paper composition legible.",
+          "start": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          },
+          "end": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S17_v01.png",
+        "start_frame": 2599,
+        "end_frame": 2764,
+        "direction": "left_to_right",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Primary focal object in S17_v01",
+          "reason": "Very restrained whole-frame movement keeps the reviewed paper composition legible.",
+          "start": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          },
+          "end": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S18_v01.png",
+        "start_frame": 2764,
+        "end_frame": 2927,
+        "direction": "right_to_left",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Primary focal object in S18_v01",
+          "reason": "Very restrained whole-frame movement keeps the reviewed paper composition legible.",
+          "start": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          },
+          "end": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S19_v01.png",
+        "start_frame": 2927,
+        "end_frame": 3090,
+        "direction": "left_to_right",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Primary focal object in S19_v01",
+          "reason": "Very restrained whole-frame movement keeps the reviewed paper composition legible.",
+          "start": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          },
+          "end": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S20_v01.png",
+        "start_frame": 3090,
+        "end_frame": 3251,
+        "direction": "right_to_left",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Primary focal object in S20_v01",
+          "reason": "Very restrained whole-frame movement keeps the reviewed paper composition legible.",
+          "start": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          },
+          "end": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S21_v02.png",
+        "start_frame": 3251,
+        "end_frame": 3421,
+        "direction": "left_to_right",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Primary focal object in S21_v02",
+          "reason": "Very restrained whole-frame movement keeps the reviewed paper composition legible.",
+          "start": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          },
+          "end": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S22_v02.png",
+        "start_frame": 3421,
+        "end_frame": 3589,
+        "direction": "right_to_left",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Primary focal object in S22_v02",
+          "reason": "Very restrained whole-frame movement keeps the reviewed paper composition legible.",
+          "start": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          },
+          "end": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S23_v01.png",
+        "start_frame": 3589,
+        "end_frame": 3757,
+        "direction": "left_to_right",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Primary focal object in S23_v01",
+          "reason": "Very restrained whole-frame movement keeps the reviewed paper composition legible.",
+          "start": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          },
+          "end": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S24_v02.png",
+        "start_frame": 3757,
+        "end_frame": 3920,
+        "direction": "right_to_left",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Primary focal object in S24_v02",
+          "reason": "Very restrained whole-frame movement keeps the reviewed paper composition legible.",
+          "start": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          },
+          "end": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S25_v01.png",
+        "start_frame": 3920,
+        "end_frame": 4086,
+        "direction": "left_to_right",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Primary focal object in S25_v01",
+          "reason": "Very restrained whole-frame movement keeps the reviewed paper composition legible.",
+          "start": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          },
+          "end": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S26_v01.png",
+        "start_frame": 4086,
+        "end_frame": 4249,
+        "direction": "right_to_left",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Primary focal object in S26_v01",
+          "reason": "Very restrained whole-frame movement keeps the reviewed paper composition legible.",
+          "start": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          },
+          "end": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S27_v02.png",
+        "start_frame": 4249,
+        "end_frame": 4409,
+        "direction": "left_to_right",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Primary focal object in S27_v02",
+          "reason": "Very restrained whole-frame movement keeps the reviewed paper composition legible.",
+          "start": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          },
+          "end": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S28_v01.png",
+        "start_frame": 4409,
+        "end_frame": 4579,
+        "direction": "right_to_left",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Primary focal object in S28_v01",
+          "reason": "Very restrained whole-frame movement keeps the reviewed paper composition legible.",
+          "start": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          },
+          "end": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S29_v01.png",
+        "start_frame": 4579,
+        "end_frame": 4739,
+        "direction": "left_to_right",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Primary focal object in S29_v01",
+          "reason": "Very restrained whole-frame movement keeps the reviewed paper composition legible.",
+          "start": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          },
+          "end": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S30_v02.png",
+        "start_frame": 4739,
+        "end_frame": 4896,
+        "direction": "right_to_left",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Primary focal object in S30_v02",
+          "reason": "Very restrained whole-frame movement keeps the reviewed paper composition legible.",
+          "start": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          },
+          "end": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/E01_v01.png",
+        "start_frame": 4896,
+        "end_frame": 5046,
+        "direction": "left_to_right",
+        "zoom": "none",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Primary focal object in E01_v01",
+          "reason": "Very restrained whole-frame movement keeps the reviewed paper composition legible.",
+          "start": {
+            "center": [
+              0.501,
+              0.5
+            ],
+            "scale": 1.005
+          },
+          "end": {
+            "center": [
+              0.499,
+              0.5
+            ],
+            "scale": 1.005
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/E02_v01.png",
+        "start_frame": 5046,
+        "end_frame": 5196,
+        "direction": "right_to_left",
+        "zoom": "none",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Primary focal object in E02_v01",
+          "reason": "Very restrained whole-frame movement keeps the reviewed paper composition legible.",
+          "start": {
+            "center": [
+              0.499,
+              0.5
+            ],
+            "scale": 1.005
+          },
+          "end": {
+            "center": [
+              0.501,
+              0.5
+            ],
+            "scale": 1.005
+          }
+        }
+      }
+    ],
+    "frames": 5196,
+    "manifest_path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Work/production_local_v01/Edit/plan.json",
+    "source_transfer": "srgb"
+  },
+  "audio_source": {
+    "codec_name": "pcm_s16le",
+    "sample_rate": "44100",
+    "channels": 1,
+    "duration": "173.200000",
+    "bit_rate": "705600"
+  },
+  "settings": {
+    "scope": "pre-render settings only; no encoded-result or AV QA",
+    "timeline": {
+      "width": 2560,
+      "height": 1440,
+      "frame_count": 5196,
+      "sample_aspect_ratio": "1:1",
+      "aspect_ratio": "16:9",
+      "output_color_space": "Rec.709 SDR"
+    },
+    "video": {
+      "codec_name": "h264",
+      "pix_fmt": "yuv420p",
+      "scan": "progressive",
+      "cadence": "constant 30/1 fps",
+      "color_primaries": "bt709",
+      "color_transfer": "bt709",
+      "color_space": "bt709",
+      "color_range": "tv"
+    },
+    "audio": {
+      "codec_name": "aac",
+      "profile": "LC",
+      "channels": 1,
+      "sample_rate": 44100,
+      "mode": "aac",
+      "target_bit_rate": 192000
+    },
+    "requested_arguments": {
+      "encoder": "h264_videotoolbox",
+      "video_bitrate": 20000000,
+      "output_pix_fmt": "yuv420p",
+      "fps": "30/1",
+      "audio_codec": "aac",
+      "audio_profile": "aac_low",
+      "audio_bitrate": 192000,
+      "audio_sample_rate": 44100,
+      "audio_channels": 1
+    }
+  },
+  "ffmpeg_version": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+}
