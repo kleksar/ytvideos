@@ -16,7 +16,7 @@
     {
       "name": "ytv-write-script",
       "path": ".agents/skills/ytv-write-script/SKILL.md",
-      "description": "Research and write a clear causal script for any ytvideos channel; design a mandatory natural Shorts loop and capture thumbnail promise/payoff in a research note. Use for research, script writing, factual checks or revisions.",
+      "description": "Research and write a clear causal ytvideos script, design a natural Shorts loop, and connect thumbnail promise, tone, opening and payoff. Use for research, script writing, factual checks or revisions.",
       "stages": [
         "research",
         "script"
@@ -30,7 +30,7 @@
     {
       "name": "ytv-produce-video",
       "path": ".agents/skills/ytv-produce-video/SKILL.md",
-      "description": "Produce an approved ytvideos script through scenes, thumbnails, audio, subtitles and render; preserve the Shorts loop and exact inputs while packaging runs in parallel.",
+      "description": "Produce an approved ytvideos script through AI-generated images and thumbnails, audio, subtitles and render; preserve exact inputs and the Shorts loop while packaging runs in parallel.",
       "stages": [
         "storyboard",
         "scene_image",
@@ -46,7 +46,7 @@
     {
       "name": "ytv-review-video",
       "path": ".agents/skills/ytv-review-video/SKILL.md",
-      "description": "Review the exact ytvideos MP4, cold opening, payoff and Shorts loop; record real checks, repair scoped defects and present it for approval. Check thumbnail promise and previews when packaging is ready.",
+      "description": "Review the exact ytvideos MP4, cold opening, payoff and Shorts loop; record checks and repair defects. When packaging is ready, check its card, tone and first confirmation before presenting the MP4.",
       "stages": [
         "review"
       ],
@@ -58,7 +58,7 @@
     {
       "name": "ytv-release-video",
       "path": ".agents/skills/ytv-release-video/SKILL.md",
-      "description": "Prepare packaging after script approval and complete a fully populated scheduled YouTube release after exact MP4 approval. Use for metadata, thumbnails, upload, scheduling and evidence-based experiment follow-up.",
+      "description": "Prepare AI thumbnail concepts and full-card QA after script approval; complete a scheduled YouTube release after exact MP4 approval. Use for packaging, metadata, upload and experiment follow-up.",
       "stages": [
         "packaging",
         "upload",

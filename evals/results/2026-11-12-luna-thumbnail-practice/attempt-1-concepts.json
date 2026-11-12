@@ -1,0 +1,46 @@
+{
+  "run_id": "a836a872-6fa7-4835-b0db-419a350209cd",
+  "script_sha256": "f22a81c257e6155ae1b4ae528d89c37900b2e66e1f78e375ec9989d0d49f0ee3",
+  "concepts": [
+    {
+      "id": "A",
+      "format_id": "PD-HOOK-01",
+      "title": "How Many Days' Wages Would Cover the Basics?",
+      "thumbnail_text": "333 DAYS?",
+      "brief": {
+        "id": "main",
+        "prompt": "Create a 16:9 full-frame handmade paper/card diorama thumbnail for Paper Detour. Show one oversized, tactile annual basics basket: a loaf of bread, a small fuel bundle, a bar of soap, and a candle. A single paper wage token is visibly far too small to cover the basket, with a long paper measuring strip marked by exactly 333 small day ticks running toward it; keep the count implied by the large text rather than trying to render tiny numerals. Strong, instantly legible scale contrast, warm candlelight against a restrained charcoal paper background, layered cut-paper edges, visible fibers, physical thickness and contact shadows. Add only the exact large short headline “333 DAYS?” in broad rounded slightly irregular paper letters with material depth and soft shadow. No extra words, logos, photorealistic people, modern currency, chart UI, or claims about present-day prices. The image should read as an early historical model's annual basics bill exceeding a 250-paid-day year, not as a universal fact about all households.",
+        "visual_intent": "One wage token dwarfed by the reconstructed basics basket; a visible long measure makes the initial shortfall tangible. The question mark and exact 333 figure come from the script's pre-Black-Death illustration under its stated 250-day assumption."
+      },
+      "description": "Bread, fuel, soap and light: how many days of a London labourer's pay did a reconstructed annual basket of basic needs cost? This film follows selected London labourer estimates from before the Black Death through 1850–1899. The basket is a working reconstruction for a family of four, not a record of every household's spending or a comparison with today. Wage-days compare the basket with daily pay; they do not tell us how many days any individual actually worked. The cost rises from about 176 wage-days in the first half of the 1500s to about 216 in 1600–1649, before falling to about 116 in the second half of the 1800s. #CostOfLiving #Wages #EconomicHistory #PaperDetour"
+    },
+    {
+      "id": "B",
+      "format_id": "PD-TRANSFORM-01",
+      "title": "When Wages Doubled, Why Did Basics Get Harder to Afford?",
+      "thumbnail_text": "PAY ↑  COST ↑↑",
+      "brief": {
+        "id": "B",
+        "prompt": "Create a 16:9 full-frame handmade paper/card diorama for Paper Detour. A worker's larger silver wage stack grows on one side while the same physical bread, fuel, soap and candle basket pulls a longer share of a paper wage-day ruler on the other; show the mismatch with a clear rising-price visual, not a graph or numerical labels. The scene communicates the script's 1500s-to-1600–1649 reversal: daily silver wages rise, but prices rise faster and the basket takes roughly 40 more wage-days. Layered handmade paper, tactile edges and fibers, dramatic but physically grounded light, soft contact shadows, strong central action. Large exact headline “PAY ↑ COST ↑↑” in rounded irregular dimensional paper letters. No implied collapse, modern money, exact unsupported values, additional text, or photorealistic people.",
+        "visual_intent": "A paradox of a visibly larger wage buying less of the same basket because the price ruler stretches farther."
+      },
+      "description": "A London labourer's daily silver wage more than doubles between two historical comparisons. So why does the reconstructed annual basics basket take more wage-days to cover? Follow selected London labourer estimates and see how prices outpaced pay between the first half of the 1500s and 1600–1649. The basket is a defined reconstruction for a family of four, not a complete household budget or a record of any one worker's year. #Wages #CostOfLiving #EconomicHistory #PaperDetour"
+    },
+    {
+      "id": "C",
+      "format_id": "PD-THRESHOLD-01",
+      "title": "The Cost of the Basics Changed—Then Reversed",
+      "thumbnail_text": "176 → 216 → 116",
+      "brief": {
+        "id": "C",
+        "prompt": "Create a 16:9 full-frame handmade paper/card diorama for Paper Detour, composed as one continuous paper timeline rather than a split-screen. A small consistent basket of bread, fuel, soap and candle moves across three tactile paper thresholds; the paper wage-day ruler beneath it first shortens, then lengthens, then shortens markedly. Include only the large exact figures “176 → 216 → 116” as dimensional rounded paper typography, with no dates or other words. These are approximate wage-day costs in the script's selected comparisons, not universal household outcomes. Warm paper tones shift subtly across historical layers; preserve a single visual hierarchy, handmade cut edges, fibers, material thickness and physical shadows. No modern graphics, charts, extra numbers or photorealistic people.",
+        "visual_intent": "The full historical movement and reversal: approximate basket cost first improves, worsens, then improves substantially by the later nineteenth-century comparison."
+      },
+      "description": "Across selected London historical comparisons, a reconstructed annual basket of basic needs costs about 176 wage-days in the first half of the 1500s, about 216 in 1600–1649, and about 116 in 1850–1899. The path is not steadily downward: prices can outpace rising pay. The wage-day measure compares a defined basket with daily earnings; it is not a complete measure of living standards or any one family's experience. #EconomicHistory #HistoricalPrices #Wages #PaperDetour"
+    }
+  ],
+  "selection": {
+    "concept_id": "A",
+    "reason": "The concrete basket and overstretched wage-day measure make the opening problem instantly legible, while the question title preserves the film's larger historical answer and reversal. The 333-day statement is explicitly scoped to the early model and its assumed 250 paid days."
+  }
+}

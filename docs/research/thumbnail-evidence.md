@@ -19,6 +19,7 @@
 - [Impressions & click-through-rate FAQs](https://support.google.com/youtube/answer/7628154?hl=en), [Decoding CTR & impressions](https://support.google.com/youtube/answer/16767369) и [Check your thumbnail impressions and watch time](https://support.google.com/youtube/answer/9314486?hl=en) — определения и ограничения показов/аналитики.
 - [A/B test titles & thumbnails](https://support.google.com/youtube/answer/16391400) — описание native experiment и метрики; доступность и продуктовые ограничения следует проверять перед запуском.
 - [Search & discovery tips — Shorts](https://support.google.com/youtube/answer/11914225?co=YOUTUBE._YTVideoType%3Dshorts&hl=en) — форматные различия в discovery; обложка карточки и просмотр в Shorts feed не одно и то же событие.
+- [What are “Engaged” Views on YouTube?](https://blog.youtube/inside-youtube/engaged-views-youtube-explained/) — с 24 августа 2026 публичный view считается с первого кадра, а прежнее определение называется engaged view; YouTube сообщает, что учёт кликов/тапов не изменился, большинство analytics остаётся основано на engaged views, CTR/AVD/retention и рекомендации не изменились. Это уточнение учёта просмотров, не новая метрика эффективности обложки.
 
 ### Научные работы
 
@@ -30,4 +31,8 @@
 - [Reading dies in complexity: Online news consumers prefer simple writing](https://pmc.ncbi.nlm.nih.gov/articles/PMC11152133/) — заголовки новостей и лабораторные задачи; не универсальная норма длины заголовка.
 - [Evidence for attentional capture by a surprising color singleton](https://pubmed.ncbi.nlm.nih.gov/12430832/) — лабораторный visual search, не «победный цвет» для конкурентной ленты.
 - [Towards Visualization Thumbnail Designs That Entice Reading Data-Driven Articles](https://arxiv.org/pdf/2305.17051) — исследовательские thumbnails для data-news; не YouTube CTR.
+
+## Опыт практика
+
+[Приёмы автора превью](thumbnail-practitioner-notes.md) задают рабочие рекомендации для концепций и QA до появления собственных данных. Применение полезного опыта и измерение величины эффекта — разные задачи; рекомендации не требуют предварительного A/B для каждого творческого решения.
 
