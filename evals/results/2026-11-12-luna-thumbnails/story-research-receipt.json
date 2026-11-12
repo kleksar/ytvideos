@@ -1,0 +1,46 @@
+{
+  "run_id": "11c8e81b-a92f-402d-b5d5-42bc5524a528",
+  "task_id": "research",
+  "input_hash": "86cbd4edae86655ad095063dc9faded48283cbd2c595dd6711f05ac24efebef4",
+  "output_sha256": "b2f00eb5e9107e8c4a1208e56354d59700bf17c4c4cd835f1fde990bfd80deda",
+  "worker": "codex-chatgpt-current",
+  "checks": [
+    {
+      "name": "sources",
+      "status": "pass",
+      "method": "Opened and read NASA source pages returned by web search; cross-checked launch times and recovery detail.",
+      "observed": {
+        "primary_transcript": "NASA Apollo 12 technical air-to-ground transcript, pp. 1\u20132; lines 71\u201381 establish lost platform/lights and verbatim SCE instruction; turn67view1/turn68view2.",
+        "witness_recollection": "NASA JSC oral history interview with Apollo 12 flight director Gerald Griffin, lines 329\u2013348, supports earlier pad-test pattern; no exact year asserted; turn68view0.",
+        "crosscheck": [
+          "https://science.nasa.gov/resource/lightning-strikes-twice/",
+          "https://www.nasa.gov/history/55-years-ago-apollo-12-makes-a-pinpoint-landing-on-the-moon/"
+        ],
+        "acronym_note": "NASA sources use both Signal Conditioning Electronics and Signal Conditioning Equipment; narration avoids choosing an expansion."
+      }
+    },
+    {
+      "name": "topic_overlap",
+      "status": "pass",
+      "method": "Read run topic_history and searched the repository story archive file list for Apollo 12/Apollo topics.",
+      "observed": {
+        "run_topic_history": [],
+        "archive_scan": "No Apollo 12/Apollo story file appeared in the archive listing; adjacent existing topics are listed in research.json."
+      }
+    },
+    {
+      "name": "viewer_value",
+      "status": "pass",
+      "method": "Mapped the documented SCE-to-AUX recovery to a concrete, teachable causal takeaway.",
+      "observed": {
+        "value": "Prior familiarity with unusual system behavior helped identify a real-time spacecraft problem and suggest a specific recovery action.",
+        "payoff": "The script states the switch and explains its auxiliary function.",
+        "assisted_review": {
+          "reviewer": "coordinator /root",
+          "finding": "corrected acronym attribution; earlier test and quote now supported by NASA oral history and the official verbatim mission transcript; removed exact one-year claim",
+          "scope_limit": "reviewer had seen research, so not blind first-listener"
+        }
+      }
+    }
+  ]
+}

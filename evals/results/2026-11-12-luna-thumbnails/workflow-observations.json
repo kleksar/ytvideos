@@ -1,0 +1,306 @@
+{
+  "fixture_only": true,
+  "source": "Read-only SQLite state/event queries after model attempts; no lease tokens, signatures or credentials retained. Packaging script approval belongs only to the seeded test fixture.",
+  "cases": {
+    "packaging": {
+      "run_id": "b23baaf2-efd7-4c6a-8cc4-5c946a840d6b",
+      "state": "working",
+      "pins": {
+        "code": "6415e45a58047f015295a47a57e708a1035e5ce34c3392bebbdfa03fb3c47951",
+        "profile": "00d2e1e4f6c165f0659e37598ac8e1a5404fab089f14573feb5db9036ec93440",
+        "skills": "079b5b4fe67c54e390d760675ba9bb05e2000c442f1728cdd0554faa953a6010",
+        "workflow": "1"
+      },
+      "tasks": {
+        "audio": "pending",
+        "configure_release": "pending",
+        "packaging": "complete",
+        "render": "pending",
+        "research": "complete",
+        "review": "pending",
+        "schedule": "pending",
+        "script": "complete",
+        "storyboard": "pending",
+        "subtitles": "pending",
+        "thumbnail:main": "pending",
+        "upload": "pending",
+        "verify_publication": "pending"
+      },
+      "review_dependencies": [
+        "render"
+      ],
+      "upload_dependencies": [
+        "review",
+        "packaging",
+        "thumbnail:main"
+      ],
+      "approval_kinds": [
+        "script"
+      ],
+      "events": [
+        {
+          "kind": "run.created",
+          "created_at": "2026-11-12T13:58:32.181451+00:00"
+        },
+        {
+          "kind": "task.claimed",
+          "created_at": "2026-11-12T13:58:32.191137+00:00",
+          "task_id": "research"
+        },
+        {
+          "kind": "task.completed",
+          "created_at": "2026-11-12T13:58:32.205180+00:00",
+          "task_id": "research",
+          "output_sha256": "db003f945a82836db28ea27d87b6eb592dea6ec7ac9194722d1ef64acc1d3558",
+          "receipt_sha256": "e1adf4d923934881f6fb3dba2fd94392a3b4c9d5fb08fb4e8f9443dac267c8db"
+        },
+        {
+          "kind": "task.claimed",
+          "created_at": "2026-11-12T13:58:32.213420+00:00",
+          "task_id": "script"
+        },
+        {
+          "kind": "task.completed",
+          "created_at": "2026-11-12T13:58:32.225259+00:00",
+          "task_id": "script",
+          "output_sha256": "f75ddd97539e6c7177042604ac36e450b82db46063d921bcb1486dcb60e19f41",
+          "receipt_sha256": "793e7c261368f723d2c1d932ed3caeeedc0e652c6f0eb03fbc00ad631b872ba6"
+        },
+        {
+          "kind": "user.approved",
+          "created_at": "2026-11-12T13:58:32.235112+00:00"
+        },
+        {
+          "kind": "task.claimed",
+          "created_at": "2026-11-12T13:59:27.801626+00:00",
+          "task_id": "packaging"
+        },
+        {
+          "kind": "task.completed",
+          "created_at": "2026-11-12T14:00:50.480996+00:00",
+          "task_id": "packaging",
+          "output_sha256": "e09e0b1eb4b77149a46f3b2a56845a454b8a67cf96212ef8839dd85d002ab613",
+          "receipt_sha256": "e58d3d6cfff5b589c654fc881e92e19d802b35d6a243de107fa406e3a69ab91c"
+        },
+        {
+          "kind": "artifact.attached",
+          "created_at": "2026-11-12T14:01:06.692749+00:00"
+        },
+        {
+          "kind": "artifact.attached",
+          "created_at": "2026-11-12T14:01:06.743771+00:00"
+        },
+        {
+          "kind": "thumbnail.planned",
+          "created_at": "2026-11-12T14:01:06.797860+00:00",
+          "task_id": "thumbnail:main"
+        }
+      ]
+    },
+    "packaging-v2": {
+      "run_id": "f43f82f4-1e22-46e2-a8e2-0317cc9b608f",
+      "state": "working",
+      "pins": {
+        "code": "6415e45a58047f015295a47a57e708a1035e5ce34c3392bebbdfa03fb3c47951",
+        "profile": "00d2e1e4f6c165f0659e37598ac8e1a5404fab089f14573feb5db9036ec93440",
+        "skills": "5b530c202bb9d5fcad2971726b858bf85a8b0dd6085d6fffdcdf8d5784ba214f",
+        "workflow": "1"
+      },
+      "tasks": {
+        "audio": "pending",
+        "configure_release": "pending",
+        "packaging": "complete",
+        "render": "pending",
+        "research": "complete",
+        "review": "pending",
+        "schedule": "pending",
+        "script": "complete",
+        "storyboard": "pending",
+        "subtitles": "pending",
+        "thumbnail:thumb-a": "pending",
+        "thumbnail:thumb-b": "pending",
+        "thumbnail:thumb-c": "pending",
+        "upload": "pending",
+        "verify_publication": "pending"
+      },
+      "review_dependencies": [
+        "render"
+      ],
+      "upload_dependencies": [
+        "review",
+        "packaging",
+        "thumbnail:thumb-a",
+        "thumbnail:thumb-b",
+        "thumbnail:thumb-c"
+      ],
+      "approval_kinds": [
+        "script"
+      ],
+      "events": [
+        {
+          "kind": "run.created",
+          "created_at": "2026-11-12T14:05:58.251719+00:00"
+        },
+        {
+          "kind": "task.claimed",
+          "created_at": "2026-11-12T14:05:58.259581+00:00",
+          "task_id": "research"
+        },
+        {
+          "kind": "task.completed",
+          "created_at": "2026-11-12T14:05:58.272579+00:00",
+          "task_id": "research",
+          "output_sha256": "db003f945a82836db28ea27d87b6eb592dea6ec7ac9194722d1ef64acc1d3558",
+          "receipt_sha256": "c3ae53404b1f3b73181fcee671e91a9487302216d15b3f48a701c657d0b6e846"
+        },
+        {
+          "kind": "task.claimed",
+          "created_at": "2026-11-12T14:05:58.280408+00:00",
+          "task_id": "script"
+        },
+        {
+          "kind": "task.completed",
+          "created_at": "2026-11-12T14:05:58.290161+00:00",
+          "task_id": "script",
+          "output_sha256": "f75ddd97539e6c7177042604ac36e450b82db46063d921bcb1486dcb60e19f41",
+          "receipt_sha256": "59d806bec97558f571901b8a4c4ab6dda7f32f22339aab2d67e3ece15cb2bf87"
+        },
+        {
+          "kind": "user.approved",
+          "created_at": "2026-11-12T14:05:58.299199+00:00"
+        },
+        {
+          "kind": "task.claimed",
+          "created_at": "2026-11-12T14:07:08.163360+00:00",
+          "task_id": "packaging"
+        },
+        {
+          "kind": "task.completed",
+          "created_at": "2026-11-12T14:08:34.651375+00:00",
+          "task_id": "packaging",
+          "output_sha256": "848777481485ef0237ec98517655a6f534a1289e28c539820362440345206cbc",
+          "receipt_sha256": "9bc9f765ccae628189b3be9296ed429a02ad46b9a4c3054c5b9d4d9bedab507b"
+        },
+        {
+          "kind": "thumbnail.planned",
+          "created_at": "2026-11-12T14:08:44.367626+00:00",
+          "task_id": "thumbnail:thumb-a"
+        },
+        {
+          "kind": "thumbnail.planned",
+          "created_at": "2026-11-12T14:08:44.461142+00:00",
+          "task_id": "thumbnail:thumb-b"
+        },
+        {
+          "kind": "thumbnail.planned",
+          "created_at": "2026-11-12T14:08:44.510100+00:00",
+          "task_id": "thumbnail:thumb-c"
+        }
+      ]
+    },
+    "story": {
+      "run_id": "5175db9e-1780-497c-b253-a94d2dbe74b5",
+      "state": "working",
+      "pins": {
+        "code": "6415e45a58047f015295a47a57e708a1035e5ce34c3392bebbdfa03fb3c47951",
+        "profile": "00d2e1e4f6c165f0659e37598ac8e1a5404fab089f14573feb5db9036ec93440",
+        "skills": "079b5b4fe67c54e390d760675ba9bb05e2000c442f1728cdd0554faa953a6010",
+        "workflow": "1"
+      },
+      "tasks": {
+        "audio": "pending",
+        "configure_release": "pending",
+        "packaging": "pending",
+        "render": "pending",
+        "research": "pending",
+        "review": "pending",
+        "schedule": "pending",
+        "script": "pending",
+        "storyboard": "pending",
+        "subtitles": "pending",
+        "upload": "pending",
+        "verify_publication": "pending"
+      },
+      "review_dependencies": [
+        "render"
+      ],
+      "upload_dependencies": [
+        "review",
+        "packaging"
+      ],
+      "approval_kinds": [],
+      "events": [
+        {
+          "kind": "run.created",
+          "created_at": "2026-11-12T14:00:12.676235+00:00"
+        }
+      ]
+    },
+    "story-v2": {
+      "run_id": "11c8e81b-a92f-402d-b5d5-42bc5524a528",
+      "state": "awaiting_script_approval",
+      "pins": {
+        "code": "6415e45a58047f015295a47a57e708a1035e5ce34c3392bebbdfa03fb3c47951",
+        "profile": "00d2e1e4f6c165f0659e37598ac8e1a5404fab089f14573feb5db9036ec93440",
+        "skills": "9909089e9dce2d74bed4266b08a9a8fe4b95a624605bf4e4e568eff4fcff40fa",
+        "workflow": "1"
+      },
+      "tasks": {
+        "audio": "pending",
+        "configure_release": "pending",
+        "packaging": "pending",
+        "render": "pending",
+        "research": "complete",
+        "review": "pending",
+        "schedule": "pending",
+        "script": "complete",
+        "storyboard": "pending",
+        "subtitles": "pending",
+        "upload": "pending",
+        "verify_publication": "pending"
+      },
+      "review_dependencies": [
+        "render"
+      ],
+      "upload_dependencies": [
+        "review",
+        "packaging"
+      ],
+      "approval_kinds": [],
+      "events": [
+        {
+          "kind": "run.created",
+          "created_at": "2026-11-12T14:03:30.449852+00:00"
+        },
+        {
+          "kind": "capabilities.observed",
+          "created_at": "2026-11-12T14:03:53.361843+00:00"
+        },
+        {
+          "kind": "task.claimed",
+          "created_at": "2026-11-12T14:03:59.640660+00:00",
+          "task_id": "research"
+        },
+        {
+          "kind": "task.completed",
+          "created_at": "2026-11-12T14:11:55.470169+00:00",
+          "task_id": "research",
+          "output_sha256": "b2f00eb5e9107e8c4a1208e56354d59700bf17c4c4cd835f1fde990bfd80deda",
+          "receipt_sha256": "b91f4c32c5292a2fb25c9010281215f19798c98f7683c4564965fd107d3392af"
+        },
+        {
+          "kind": "task.claimed",
+          "created_at": "2026-11-12T14:12:20.007577+00:00",
+          "task_id": "script"
+        },
+        {
+          "kind": "task.completed",
+          "created_at": "2026-11-12T14:19:27.616683+00:00",
+          "task_id": "script",
+          "output_sha256": "0c9b4ccd05b04dce54463cb0abd74ddc5dee703a01318900366271f614d89efe",
+          "receipt_sha256": "0fc6e2afbee0597125d2d632c4deffe29280c2875c680a2c11c4cb73418616b6"
+        }
+      ]
+    }
+  }
+}

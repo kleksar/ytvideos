@@ -1,0 +1,68 @@
+{
+  "record_type": "thumbnail_test_interpretation",
+  "fixture_only": true,
+  "source_observation_id": "fixture://studio-readback/2026-11-12",
+  "plan_artifact": "plan.json",
+  "observation_artifact": "studio-observation.json",
+  "run_id": "eval-paper-long-01",
+  "video_id": "fixtureAB01",
+  "release_sha256": "4486b0e52997d5bfe925c97153c7234b8d1bd97a3971485150846238c8914c13",
+  "mode": "title_thumbnail_pair",
+  "status": "completed",
+  "provider_verdict": "Inconclusive",
+  "variants": [
+    {
+      "id": "leak",
+      "provider_label": "A",
+      "title": "The Warning Everyone Could See",
+      "source_asset_sha256": "9e9ab3f41f1e623a7c907f66087d81b1b8305fd6a85bd64e0c74cc716a88d30b",
+      "watch_time_share_percent": 62.8,
+      "per_variant_ctr_percent": null,
+      "per_variant_impressions": null
+    },
+    {
+      "id": "tank",
+      "provider_label": "B",
+      "title": "The Day Boston Drowned in Molasses",
+      "source_asset_sha256": "3e8278d29188328d675530c792f2ba86dfbaef0836dcbfa8a1c7670468bfeb54",
+      "watch_time_share_percent": 37.2,
+      "per_variant_ctr_percent": null,
+      "per_variant_impressions": null
+    }
+  ],
+  "interpretation": {
+    "numerical_watch_time_share_leader": "leak",
+    "provider_confirmed_winner": false,
+    "face_effect_on_ctr_established": false,
+    "reasoning": [
+      "Provider verdict is Inconclusive.",
+      "The experiment changed title and thumbnail together.",
+      "Per-variant CTR and impressions are unavailable.",
+      "Video-level CTR is not variant-level evidence and spans a different metric scope."
+    ]
+  },
+  "video_level_context": {
+    "ctr_percent": 8.7,
+    "registered_impressions": 18200,
+    "traffic_scope": "all registered impressions, video-level",
+    "window": {
+      "start": "2026-10-28T00:00:00Z",
+      "end": "2026-11-11T23:59:59Z"
+    },
+    "previous_window_video_ctr_percent": 5.2,
+    "public_competitor_views": 2400000,
+    "use_for_variant_ctr_comparison": false
+  },
+  "next_test_recommendation": {
+    "objective": "isolate whether presence of a face changes performance",
+    "mode": "thumbnail_only",
+    "hold_constant": ["title", "story promise", "composition", "thumbnail text", "other salient design conditions"],
+    "change_only": "presence or absence of a narratively functional face",
+    "capture": ["provider verdict", "variant CTR", "variant registered impressions", "watch-time share", "window", "traffic scope"],
+    "design_note": "Keep face use hypothesis-driven: it should communicate reaction, scale, testimony, or gaze/gesture direction. Preserve Paper Detour's mandatory short large text."
+  },
+  "evidence_refs": [
+    "../observation/plan.json",
+    "../observation/studio-observation.json"
+  ]
+}

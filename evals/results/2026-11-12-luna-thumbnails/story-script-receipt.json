@@ -1,0 +1,93 @@
+{
+  "run_id": "11c8e81b-a92f-402d-b5d5-42bc5524a528",
+  "task_id": "script",
+  "input_hash": "857f121a71982b77a0dadec25fb9d0f4308569ff3c89bffae50eaba255aa0a54",
+  "output_sha256": "0c9b4ccd05b04dce54463cb0abd74ddc5dee703a01318900366271f614d89efe",
+  "worker": "codex-chatgpt-current",
+  "checks": [
+    {
+      "name": "factual_support",
+      "status": "pass",
+      "method": "Cross-checked each material narrative claim against the opened official NASA mission overview, Apollo 12 technical air-to-ground transcript and NASA JSC oral-history transcript; reviewed coordinator factual-review JSON bound to exact final script hash.",
+      "observed": {
+        "factual_review_file": "factual-review.json",
+        "reviewer": "/root",
+        "artifact_sha256": "0c9b4ccd05b04dce54463cb0abd74ddc5dee703a01318900366271f614d89efe",
+        "status": "pass_with_notes",
+        "scope": "two strikes/telemetry, Aaron recommendation vs Mission Control relay, earlier pad-test recollection, Bean switch/data recovery, later mission outcome",
+        "notes": [
+          {
+            "severity": "note",
+            "finding": "The earlier pad-test account is a participant recollection from 1999; narration no longer invents an exact one-year interval."
+          },
+          {
+            "severity": "note",
+            "finding": "The two-strike description now states their joint effect without implying an intervening recovery."
+          },
+          {
+            "severity": "note",
+            "finding": "Final ascent line is a deliberate callback after the full mission outcome; closing-to-opening was read in that order and introduces no new historical claim."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.nasa.gov/missions/apollo/apollo-12-the-pinpoint-mission/",
+            "location": "Mission Highlights: telemetry loss at 36 and 52 seconds; continuation into orbit and Moon mission"
+          },
+          {
+            "url": "https://www.nasa.gov/wp-content/uploads/2026/01/as12-tec.pdf",
+            "location": "Tape 1/1 page 1, 00:01:36 CC instruction and 00:02:06 staging clearance"
+          },
+          {
+            "url": "https://www.nasa.gov/wp-content/uploads/2025/08/griffingd-3-12-99.pdf",
+            "location": "Gerald Griffin interview, 12 March 1999, printed pages 12-13 to 12-14: prior pad test, Aaron, relay through CapCom, Bean and telemetry return"
+          },
+          {
+            "url": "https://www.nasa.gov/history/55-years-ago-apollo-12-makes-a-pinpoint-landing-on-the-moon/",
+            "location": "Launch lightning incidents, Bean switch and orbit continuation"
+          }
+        ]
+      }
+    },
+    {
+      "name": "first_listener",
+      "status": "pass",
+      "method": "Blind textual reader received narration only, then returned a summary, value received, clarity findings and opening/closing seam assessment on exact hash.",
+      "observed": {
+        "reviewer": "thumbnail_story_reader",
+        "artifact_sha256": "0c9b4ccd05b04dce54463cb0abd74ddc5dee703a01318900366271f614d89efe",
+        "summary": "Two lightning strikes disrupt Apollo 12 telemetry and trigger warning lights. Flight controller John Aaron recognizes a similar failure from an earlier test and suggests a switch; Mission Control relays the instruction, Alan Bean switches SCE to AUX, and telemetry returns. Apollo 12 continues its mission safely.",
+        "value_received": "The key chain from lightning strikes to lost telemetry, diagnosis, switch, restored data, and mission outcome is easy to follow. The switch's alternate signal path is explained in plain language.",
+        "findings": [
+          "The two-strike wording now presents both bolts first and their shared result afterward. It no longer implies telemetry recovered between strikes.",
+          "\u2018With the data back, Apollo 12 kept climbing\u2019 connects the recovery to the image of ascent. After the preceding sentence has advanced through lunar landing and return to Earth, the closing reads as a deliberate callback to launch rather than the next chronological event.",
+          "There is slight repetition across the hook and the next paragraph: the hook says Mission Control lost telemetry, and the paragraph explains that the strikes disrupted telemetry."
+        ],
+        "limitations": "text-only; not audio/listening or fact-checking"
+      }
+    },
+    {
+      "name": "independent_review",
+      "status": "pass",
+      "method": "Separate blind textual editorial review plus coordinator factual cross-check; both exact-hash bindings verified before completion. This was assisted work and does not represent an autonomous PASS.",
+      "observed": {
+        "reviewer": "thumbnail_story_reader",
+        "artifact_sha256": "0c9b4ccd05b04dce54463cb0abd74ddc5dee703a01318900366271f614d89efe",
+        "review_type": "textual editorial review of narration only; not listening or fact-checking",
+        "coordinator_factual_reviewer": "/root",
+        "coordinator_factual_sha256": "0c9b4ccd05b04dce54463cb0abd74ddc5dee703a01318900366271f614d89efe",
+        "assisted_run": true
+      }
+    },
+    {
+      "name": "viewer_value",
+      "status": "pass",
+      "method": "Verified against the narrative payoff and blind reader summary.",
+      "observed": {
+        "viewer_value": "The viewer sees how recognizing a prior telemetry failure led John Aaron to suggest the SCE auxiliary path, how Mission Control relayed the instruction, and how Alan Bean\u2019s action restored the data so the mission could continue.",
+        "payoff_before_loop": true,
+        "reader_confirmation": "The key chain from lightning strikes to lost telemetry, diagnosis, switch, restored data, and mission outcome is easy to follow. The switch's alternate signal path is explained in plain language."
+      }
+    }
+  ]
+}
