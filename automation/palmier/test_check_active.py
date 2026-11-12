@@ -29,26 +29,28 @@ class CheckActiveTest(unittest.TestCase):
         self.assertFalse(check_active.same_project('project.palmier', str(self.project)))
         self.assertFalse(check_active.same_project(None, str(self.project)))
 
-    def invoke(self, projects, timeline):
+    def invoke(self, projects, inventory, timeline):
         connection = mock.Mock()
-        connection.read_tool.side_effect = [projects, timeline]
+        connection.read_tool.side_effect = [projects, inventory, timeline]
         with mock.patch.object(check_active, 'PalmierConnection', return_value=connection), \
              mock.patch('sys.argv', ['check_active', '--project-path', str(self.project), '--timeline-id', 'T1']), \
              contextlib.redirect_stdout(io.StringIO()), contextlib.redirect_stderr(io.StringIO()):
             return check_active.main()
 
     def test_project_and_timeline_guards_still_apply(self):
-        projects = {'active': {'path': str(self.alias)}, 'visible': {'path': str(self.project)}}
-        timeline = {'id': 'T1', 'timelines': [{'timelineId': 'T1', 'active': True}]}
-        self.assertEqual(self.invoke(projects, timeline), 0)
-        projects['visible']['path'] = str(self.other)
-        self.assertEqual(self.invoke(projects, timeline), 1)
-        projects['visible']['path'] = str(self.project)
-        timeline['id'] = 'T2'
-        self.assertEqual(self.invoke(projects, timeline), 1)
-        timeline['id'] = 'T1'
-        timeline['timelines'].append({'timelineId': 'T1', 'active': True})
-        self.assertEqual(self.invoke(projects, timeline), 1)
+        project = {'id': 'P1', 'path': str(self.alias), 'isAccessible': True, 'isOpen': True}
+        projects = {'projects': [project]}
+        inventory = {'timelines': [{'timelineId': 'T1'}]}
+        timeline = {'timelineId': 'T1'}
+        self.assertEqual(self.invoke(projects, inventory, timeline), 0)
+        project['path'] = str(self.other)
+        self.assertEqual(self.invoke(projects, inventory, timeline), 1)
+        project['path'] = str(self.project)
+        timeline['timelineId'] = 'T2'
+        self.assertEqual(self.invoke(projects, inventory, timeline), 1)
+        timeline['timelineId'] = 'T1'
+        inventory['timelines'].append({'timelineId': 'T1'})
+        self.assertEqual(self.invoke(projects, inventory, timeline), 1)
 
 
 if __name__ == '__main__':

@@ -47,6 +47,8 @@ def main():
             raise ValueError("Timeline ID is missing from this project's inventory")
         timeline = connection.read_tool("get_timeline", {
             "projectId": project["id"], "timelineId": args.timeline_id})
+        if timeline.get("timelineId") != args.timeline_id:
+            raise ValueError("Timeline snapshot does not match the requested timeline ID")
         print(json.dumps({
             "project_id": project["id"],
             "project_path": project.get("path"),
