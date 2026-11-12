@@ -117,6 +117,26 @@ Desktop.ini
 
 # Local relocation backups and migration scratch
 /Work/channel_layout_20261104/
+/Work/reconciliation-20261112/legacy-snapshot/
+
+# Episode scene media and rendered working images are local artifacts, not source.
+# Keep textual manifests and project-wide brand references trackable.
+/channels/*/videos/*/Source/Images/**/*.png
+/channels/*/videos/*/Source/Images/**/*.jpg
+/channels/*/videos/*/Source/Images/**/*.jpeg
+/channels/*/videos/*/Source/Images/**/*.webp
+/channels/*/research/**/Source/Images/**/*.png
+/channels/*/research/**/Source/Images/**/*.jpg
+/channels/*/research/**/Source/Images/**/*.jpeg
+/channels/*/research/**/Source/Images/**/*.webp
+/channels/*/videos/*/Work/**/*.png
+/channels/*/videos/*/Work/**/*.jpg
+/channels/*/videos/*/Work/**/*.jpeg
+/channels/*/videos/*/Work/**/*.webp
+/channels/*/research/**/Work/**/*.png
+/channels/*/research/**/Work/**/*.jpg
+/channels/*/research/**/Work/**/*.jpeg
+/channels/*/research/**/Work/**/*.webp
 
 # Temporary compatibility symlinks; use canonical channels/ and project paths instead.
 /new_channel
