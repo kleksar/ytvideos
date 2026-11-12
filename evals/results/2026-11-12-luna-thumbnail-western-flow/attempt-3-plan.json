@@ -1,0 +1,32 @@
+{
+  "run_id": "d31618a4-f104-49d9-83da-1710043a6d91",
+  "format": "long",
+  "purpose": "Editorial comparison plan; not an active provider experiment",
+  "selected_control": "PD037-A",
+  "planned_variants": [
+    {
+      "id": "PD037-A",
+      "role": "control",
+      "title": "When Wages Rose, Why Did the Basics Cost More?",
+      "thumbnail_text": "MORE PAY. LESS BUY.",
+      "change": "Wage-versus-basket reversal shown through one oversized coin and rising ribbon."
+    },
+    {
+      "id": "PD037-B",
+      "role": "alternative",
+      "title": "How Many Days' Wages Bought the Basics?",
+      "thumbnail_text": "WHAT DOES A YEAR COST?",
+      "change": "Intro-linked human action: hand, coin and defined necessities."
+    },
+    {
+      "id": "PD037-C",
+      "role": "alternative",
+      "title": "The Centuries When Necessities Took More Work",
+      "thumbnail_text": "THE PRICE WENT UP",
+      "change": "Three-period threshold with a visible middle-period reversal."
+    }
+  ],
+  "native_test": "Not configured; generated assets and YouTube test capability/readback are not available in this packaging task.",
+  "evaluation": "If all assets are produced and native test is supported, compare the exact title/thumbnail pairs using provider verdict and watch-time-share; do not infer CTR or results from this plan.",
+  "status": "planned_only"
+}

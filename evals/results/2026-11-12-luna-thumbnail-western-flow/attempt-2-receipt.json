@@ -1,0 +1,56 @@
+{
+  "run_id": "221f8139-f927-4519-89bd-4312399e9aa8",
+  "task_id": "packaging",
+  "input_hash": "775f1ced10c329c8a9b43db19bfeb3842be13a2d32ae9ae0084c980cf8293a79",
+  "output_sha256": "db90ca11a93186818bbb6c5771826edf9a24e894a280707eb7e10684127d144f",
+  "worker": "cold-session-worker",
+  "checks": [
+    {
+      "name": "metadata",
+      "status": "pass",
+      "method": "Parsed saved ReleaseSpec against src/ytvideos/release.py strict fields; checked title, UTF-8 description and serialized tag lengths.",
+      "observed": {
+        "title": "How Many Days of Work Bought the Basics?",
+        "title_characters": 30,
+        "description_utf8_bytes": 610,
+        "tags_serialized_characters": 174,
+        "language": "en",
+        "audio_language": "en",
+        "category_id": "27",
+        "description_has_relevant_hashtags": true
+      }
+    },
+    {
+      "name": "promise_matches_script",
+      "status": "pass",
+      "method": "Compared selected title, description and claim boundaries against pinned narration and research ledger identified in packaging-context.",
+      "observed": {
+        "title_promise": "The film compares necessities with modeled wage-days.",
+        "script_confirmation": "Narration frames the basket as reconstructed model and follows London wage-price estimates.",
+        "payoff": "Explains price growth outpacing wages in 1600–1649 and later improvement by 1850–1899.",
+        "bounds": "Description says selected historical estimates, defined model, not every family or modern comparison."
+      }
+    },
+    {
+      "name": "thumbnail_plan",
+      "status": "pass",
+      "method": "Reviewed three saved pair concepts and strict briefs against narration and Paper thumbnail rules; image generation is unavailable per fixture.",
+      "observed": {
+        "concepts": [
+          "intro-bread",
+          "shortfall",
+          "reversal"
+        ],
+        "selected": "reversal",
+        "reason": "Expresses central price-versus-pay mechanism.",
+        "supporting_note": "workspace/artifacts/thumbnail-concepts.json",
+        "briefs": [
+          "workspace/artifacts/thumbnail-brief-intro-bread.json",
+          "workspace/artifacts/thumbnail-brief-shortfall.json",
+          "workspace/artifacts/thumbnail-brief-reversal.json"
+        ],
+        "limitation": "No generated image files or image QA."
+      }
+    }
+  ]
+}

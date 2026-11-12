@@ -1,0 +1,201 @@
+{
+  "date": "2026-11-12",
+  "scope": "Cold-session packaging and offline experiment interpretation for western-thumbnail workflow documentation",
+  "base_commit": "5040c26c97f467ed5ad086d038026cd3f68b23a0",
+  "final_core_commit": "a853b8a110250f6a886c3511d8bb09003a54720b",
+  "model": "gpt-6-luna",
+  "fresh_sessions": 4,
+  "fork_turns": "none",
+  "during_session_parent_interventions": 0,
+  "setup": {
+    "source_snapshot": "Verified source-only GitHub snapshot; 362 text blobs checked against Git blob SHA; 25 binary media blobs omitted locally and preserved remotely. Forward snapshots exclude .git, evals and runtime artifacts.",
+    "fixture": "Three separate SQLite/artifact stores with exact archived PD037 long script and source ledger; packaging claim assigned before each worker starts.",
+    "script_source": "archive/story_text/paper_detour/037_cost_of_living/scripts/narration_en_v01.md",
+    "script_sha256": "f22a81c257e6155ae1b4ae528d89c37900b2e66e1f78e375ec9989d0d49f0ee3",
+    "ledger_source": "archive/story_text/paper_detour/037_cost_of_living/research/FACTS_AND_SOURCE_CHECK_v01.md",
+    "ledger_sha256": "97c03219f1b8d0f5e36a9d4eb4411f8315f956df2fed65fc337a9cca30008f84",
+    "approval": "Test-only Ed25519 signer seeded script approval; private keys destroyed before worker dispatch. Not a production approval, new factual review or independent editorial assessment.",
+    "upstream_receipts": "Deterministic synthetic harness receipts prepared already-completed research/script tasks. Their pass statuses are fixture setup, not measured research quality.",
+    "paid_budget_units": 0,
+    "image_generation_available": false,
+    "youtube_write_available": false,
+    "stored_external_operations": {
+      "attempt_1": 0,
+      "attempt_2": 0,
+      "attempt_3": 0
+    },
+    "cold_input": "Ordinary task plus paths, already-issued claim and available CLI. No expected answers or prior failures supplied. Source files remained unchanged during each worker run."
+  },
+  "source_pins_sha256": {
+    "attempt_1": {
+      ".agent/documentation-index.md": "7594c78cf2310da6e55e6800429b47a115a1a4f2f292dc9f348a275e0cba3cb9",
+      ".agent/skill-catalog.json": "ad2b5da5c0255902ac73d98dbfe4110d79264729c373d1f2684c44bd3baebd4a",
+      ".agent/skill-catalog.md": "b00b9effe6143c6a6ff0a5602e4958e8dc3bf5ea38f5a45b79c1a5668787a013",
+      ".agents/skills/ytv-release-video/SKILL.md": "e2d0a861d357d3cc7e46114bdb6163946c5cddd326812ad6352f98647cffdfcd",
+      ".agents/skills/ytv-write-script/SKILL.md": "fdc0c38d552d34ecd8656821a45a719e0836e36c4c71f0f47969486a5a865889",
+      "channels/paper_detour/brand/THUMBNAIL_PLAYBOOK.md": "64b03edb6d660eb200c946aa222bc9f48d3fc653eee95db5c7c32ccd6ca8851b",
+      "docs/research/thumbnail-practitioner-notes.md": "6bcb72aa7b8a1ef3efb2f91ae03a569eb75922025a31a41bdf66795d36f78d7d",
+      "docs/standards/thumbnails.md": "90e6ca5ca930ebaf7470836c9054462d12d755b75077d76e8d3522948613a6d1"
+    },
+    "attempt_2": {
+      ".agent/documentation-index.md": "7594c78cf2310da6e55e6800429b47a115a1a4f2f292dc9f348a275e0cba3cb9",
+      ".agent/skill-catalog.json": "ad2b5da5c0255902ac73d98dbfe4110d79264729c373d1f2684c44bd3baebd4a",
+      ".agent/skill-catalog.md": "b00b9effe6143c6a6ff0a5602e4958e8dc3bf5ea38f5a45b79c1a5668787a013",
+      ".agents/skills/ytv-release-video/SKILL.md": "34a6d0918a53c0d8621f70f563886bd68513d2227439aef81745590550ee383c",
+      ".agents/skills/ytv-write-script/SKILL.md": "fdc0c38d552d34ecd8656821a45a719e0836e36c4c71f0f47969486a5a865889",
+      "channels/paper_detour/brand/THUMBNAIL_PLAYBOOK.md": "64b03edb6d660eb200c946aa222bc9f48d3fc653eee95db5c7c32ccd6ca8851b",
+      "docs/research/thumbnail-practitioner-notes.md": "6bcb72aa7b8a1ef3efb2f91ae03a569eb75922025a31a41bdf66795d36f78d7d",
+      "docs/standards/thumbnails.md": "4b8e3328f5c62b6d22ec7212036b0ea0d1254aac5805ac15c57539b8cbef056c"
+    },
+    "attempt_3": {
+      ".agent/documentation-index.md": "7594c78cf2310da6e55e6800429b47a115a1a4f2f292dc9f348a275e0cba3cb9",
+      ".agent/skill-catalog.json": "ad2b5da5c0255902ac73d98dbfe4110d79264729c373d1f2684c44bd3baebd4a",
+      ".agent/skill-catalog.md": "b00b9effe6143c6a6ff0a5602e4958e8dc3bf5ea38f5a45b79c1a5668787a013",
+      ".agents/skills/ytv-release-video/SKILL.md": "95f6efa88c836e0b62bc6b21669f5696efa1bd629464a789fe8effb9ad225c76",
+      ".agents/skills/ytv-write-script/SKILL.md": "fdc0c38d552d34ecd8656821a45a719e0836e36c4c71f0f47969486a5a865889",
+      "channels/paper_detour/brand/THUMBNAIL_PLAYBOOK.md": "64b03edb6d660eb200c946aa222bc9f48d3fc653eee95db5c7c32ccd6ca8851b",
+      "docs/research/thumbnail-practitioner-notes.md": "6bcb72aa7b8a1ef3efb2f91ae03a569eb75922025a31a41bdf66795d36f78d7d",
+      "docs/standards/thumbnails.md": "1f91a153426ad2f3b7e375b1f20c0daeebc601e8c3c92fa9e3fc1bd5c1cfddc2"
+    }
+  },
+  "attempts": [
+    {
+      "id": 1,
+      "run_id": "b8b1cad0-45b7-47be-860f-4a48dad24fe4",
+      "prompt": "Подготовь оформление для принятого длинного выпуска Paper Detour о стоимости жизни. Продолжай существующий run b8b1cad0-45b7-47be-860f-4a48dad24fe4.\n\nПроект: /workspace/scratch/97ef5e7fc0a5/research/western-thumbnail-flow/forward-source. Рабочая область выпуска: /workspace/scratch/97ef5e7fc0a5/research/western-thumbnail-flow/packaging-run. Начни с AGENTS.md проекта. Сохранённый task context: packaging-context.json; назначение worker и claim находятся в fixture-manifest.json рабочей области (claim уже выдан твоей задаче). CLI: /workspace/scratch/97ef5e7fc0a5/research/western-thumbnail-flow/eval-setup/run-cli WORKSPACE PROJECT <аргументы>. Бюджет и capabilities этого выпуска зафиксированы, не меняй их. Код и инструкции проекта не редактируй. Не открывай соседние каталоги вне этих двух путей; CLI-wrapper разрешён. Сохраняй результаты в рабочей области и краткий журнал выполненных действий/проверок в packaging-run/work-log.md, без секретов или claim tokens. В конце сообщи фактический результат и что осталось.",
+      "outcome": "partial",
+      "observed": [
+        "Packaging completed with a valid strict ReleaseSpec and three distinct concepts.",
+        "Main concept linked to intro; brief carried attention direction, small-size criterion and title context.",
+        "Only thumbnail:main was registered; two alternative production tasks were missing."
+      ],
+      "metadata_parent_check": "Title 44 characters and description 568 UTF-8 bytes matched the saved spec; no image QA was claimed.",
+      "change_after_attempt": "Made all three long briefs and registered task IDs explicit, including pending tasks when provider unavailable."
+    },
+    {
+      "id": 2,
+      "run_id": "221f8139-f927-4519-89bd-4312399e9aa8",
+      "prompt": "Подготовь оформление для принятого длинного выпуска Paper Detour о стоимости жизни. Продолжай существующий run 221f8139-f927-4519-89bd-4312399e9aa8.\n\nПроект: /workspace/scratch/97ef5e7fc0a5/research/western-thumbnail-flow/forward-source-v2. Рабочая область выпуска: /workspace/scratch/97ef5e7fc0a5/research/western-thumbnail-flow/packaging-run-v2. Начни с AGENTS.md проекта. Сохранённый task context: packaging-context.json; назначение worker и claim находятся в fixture-manifest.json рабочей области (claim уже выдан твоей задаче). CLI: /workspace/scratch/97ef5e7fc0a5/research/western-thumbnail-flow/eval-setup/run-cli WORKSPACE PROJECT <аргументы>. Бюджет и capabilities этого выпуска зафиксированы, не меняй их. Код и инструкции проекта не редактируй. Не открывай соседние каталоги вне этих двух путей; CLI-wrapper разрешён. Сохраняй результаты в рабочей области и краткий журнал выполненных действий/проверок в packaging-run-v2/work-log.md, без секретов или claim tokens. В конце сообщи фактический результат и что осталось.",
+      "outcome": "partial",
+      "observed": [
+        "Packaging completed; three strict briefs and three pending thumbnail tasks registered.",
+        "Actual ReleaseSpec title matched the selected reversal concept.",
+        "Receipt observed.title and worker final report/log instead named the intro concept; the numeric length (30) matched the actual spec title.",
+        "Per-concept full descriptions were absent; only the selected ReleaseSpec description was saved.",
+        "Notes incorrectly stated that format IDs were unavailable, although the pinned Paper catalogue contained them."
+      ],
+      "metadata_parent_check": {
+        "actual_spec_and_selected_title": "Why Did Higher Wages Buy Less?",
+        "receipt_and_worker_report_title": "How Many Days of Work Bought the Basics?",
+        "actual_title_chars": 30,
+        "receipt_title_chars": 30,
+        "actual_description_utf8_bytes": 610,
+        "receipt_description_utf8_bytes": 610,
+        "tags_youtube_serialized_characters": 174
+      },
+      "change_after_attempt": "Split the dense packaging paragraph into ordered steps; require three complete concept records, stable selected ID, programmatic exact-file alignment and final metadata measurements. Clarified catalogue lookup."
+    },
+    {
+      "id": 3,
+      "run_id": "d31618a4-f104-49d9-83da-1710043a6d91",
+      "prompt": "Подготовь оформление для принятого длинного выпуска Paper Detour о стоимости жизни. Продолжай существующий run d31618a4-f104-49d9-83da-1710043a6d91.\n\nПроект: /workspace/scratch/97ef5e7fc0a5/research/western-thumbnail-flow/forward-source-v3. Рабочая область выпуска: /workspace/scratch/97ef5e7fc0a5/research/western-thumbnail-flow/packaging-run-v3. Начни с AGENTS.md проекта. Сохранённый task context: packaging-context.json; назначение worker и claim находятся в fixture-manifest.json рабочей области (claim уже выдан твоей задаче). CLI: /workspace/scratch/97ef5e7fc0a5/research/western-thumbnail-flow/eval-setup/run-cli WORKSPACE PROJECT <аргументы>. Бюджет и capabilities этого выпуска зафиксированы, не меняй их. Код и инструкции проекта не редактируй. Не открывай соседние каталоги вне этих двух путей; CLI-wrapper разрешён. Сохраняй результаты в рабочей области и краткий журнал выполненных действий/проверок в packaging-run-v3/work-log.md, без секретов или claim tokens. В конце сообщи фактический результат и что осталось.",
+      "outcome": "pass_for_observed_packaging_scope",
+      "observed": [
+        "Three complete concepts with descriptions, intro-linked alternative, catalogue IDs and exact strict briefs.",
+        "Selected title/description, brief IDs/titles and receipt hashes/measurements verified against exact files by parent.",
+        "CLI completed packaging and registered all three pending thumbnail tasks; upload depends on them, MP4 review does not.",
+        "Comparison plan remains planned-only; no images, visual QA or provider experiment claimed."
+      ],
+      "self_recovery": "Worker log records one Python boolean-syntax error before a run mutation; worker corrected it without parent intervention.",
+      "parent_verification": {
+        "result": "pass",
+        "strict_release_spec": true,
+        "concept_count": 3,
+        "nonempty_descriptions": 3,
+        "selected_id": "PD037-A",
+        "selected_title_description_match": true,
+        "briefs_strict_and_titles_match": true,
+        "title_chars": 46,
+        "description_utf8_bytes": 584,
+        "receipt_hashes_match": true,
+        "thumbnail_tasks": [
+          "thumbnail:PD037-A",
+          "thumbnail:PD037-B",
+          "thumbnail:PD037-C"
+        ],
+        "upload_depends_on_all_three": true,
+        "review_does_not_depend_on_thumbnails": true,
+        "thumbnail_files_generated": 0,
+        "private_test_key_destroyed": true,
+        "frozen_source_unchanged": true
+      }
+    }
+  ],
+  "observation_probe": {
+    "source_pin": "attempt_1; experiment/interpretation sections are unchanged in final core commit",
+    "prompt": "Разбери предоставленные результаты теста обложек и изменения аудитории. Что из них следует и какой следующий шаг выбрать для этого выпуска? Нужны выводы и конкретный план, без изменения видео или запуска операций на YouTube.\n\nПроект с инструкциями: /workspace/scratch/97ef5e7fc0a5/research/western-thumbnail-flow/forward-source, начни с AGENTS.md. Данные: /workspace/scratch/97ef5e7fc0a5/research/western-thumbnail-flow/observation-run/input.json. Сохрани результат и краткий журнал выполненной работы в observation-run, код и инструкции не меняй. Работай только с этими двумя каталогами, соседние материалы не открывай.",
+    "input": "observation-input.json",
+    "output": "observation-output.md",
+    "log": "observation-log.md",
+    "outcome": "pass_for_offline_interpretation_scope",
+    "observed": [
+      "Preserved completed Inconclusive; did not declare A a winner from 34.1% vs 33.2% vs 32.7%.",
+      "Kept A as stated default/control with editorial basis.",
+      "Kept whole-video CTR separate from variant metrics; did not infer causality from audience changes.",
+      "Proposed a single-component next comparison after exact assets/capability exist; did not claim native segment targeting or execute a test.",
+      "Explicitly identified provided data as synthetic."
+    ]
+  },
+  "validation": {
+    "repository_check": {
+      "documents": 42,
+      "skills": 7,
+      "errors": []
+    },
+    "catalog_frontmatter_descriptions_match": true,
+    "local_core_tests": {
+      "total": 330,
+      "passed": 216,
+      "skipped": 114,
+      "seconds": 10.797,
+      "note": "Local PostgreSQL-related skips are not a PostgreSQL PASS. Final-head CI is recorded in PR checks."
+    },
+    "git_diff_check": "pass",
+    "independent_review": "Read-only Luna review found no substantive issue; re-reviewed the final packaging procedure without access to evaluation outputs."
+  },
+  "limitations": [
+    "These are documentation/skill probes on one archived long episode, not a broad reliability or performance benchmark.",
+    "No AI image generation, draft/final visual inspection, MP4 viewing, publication or live A/B was performed.",
+    "The research/script stage was seeded, not newly executed or fact-checked.",
+    "The observation probe uses synthetic data and is not evidence of CTR growth or actual channel audience changes.",
+    "Parent inspected outputs and re-read state; worker work logs are preserved as worker-authored reports. State exports include selected event fields and omit claim tokens; they are not a full tool-call transcript."
+  ],
+  "artifact_sha256": {
+    "attempt-1-brief-main.json": "0f6d41f0334b9d334a72d8c8053dfd428aeaec9f597500fc590cb9db046a9db5",
+    "attempt-1-concepts.md": "2a08cf39c55fa50af4ca147afed851c5bac4666a48041bec51c5d5412193bc3d",
+    "attempt-1-log.md": "2ecd75ea2dc70fa286de87a2a4c5f22be1ff4844208bbc9501eb2ec63ff9b59c",
+    "attempt-1-receipt.json": "5f15613266221feeb68f406f2ec1574bf33b2979e39d288dd2cb6a41df9ad6f9",
+    "attempt-1-spec.json": "6e9d17122e32e5fe6a39b6aa27a846672204569d44b136d464751b788d8e1054",
+    "attempt-1-state.json": "653686272d7c63a4d45091e8f699e94538e18388ade47fec32b788fb964ccfcb",
+    "attempt-2-brief-intro-bread.json": "e0d2869932c79317b3e99333377fd14db8bc955cb5a4f081c853436313ab75bd",
+    "attempt-2-brief-reversal.json": "fdc7accae47734067a06f94e1adcb949abd9f5d6a4fcc29c8ed898fc3e867c21",
+    "attempt-2-brief-shortfall.json": "5cb92b7de4df004051a637ec60b795929a15de85ce840387e9dd4d6ccc3bd360",
+    "attempt-2-concepts.json": "12bc70c4cbabf81ace7c9ff69536c15d31b2a900affccb3a1849f21b53421ed6",
+    "attempt-2-log.md": "d575bf82960db64b20f3c7a8a5da5ddf5d614d36b44716d2ce8c78de3941706a",
+    "attempt-2-receipt.json": "ae8b4bb060737854c0e31a2241f7e7b877f3c6d70cd7eae5aba5222a9b386432",
+    "attempt-2-spec.json": "db90ca11a93186818bbb6c5771826edf9a24e894a280707eb7e10684127d144f",
+    "attempt-2-state.json": "ff94535298a410fd5acec101c08660e7d9676c507301a78111d34f5a29c70357",
+    "attempt-3-brief-PD037-A.json": "240f3d5fab90a7e27bcaa0eec96c4aa542aab4fca25ce2984caa7a9d262373f7",
+    "attempt-3-brief-PD037-B.json": "e7f0fdae794c59f22f7770b64ac3e490b5cb56b2e05a72eabb7ab201e9ef8679",
+    "attempt-3-brief-PD037-C.json": "549aaa1aa65dce3d56a60802068b04c0166c5561d61c8b59c520fcc0f56c5ff8",
+    "attempt-3-concepts.json": "dadfad9e62c4c3df7137e0a3ac6c2b15e8f042032b418ac0b81b8ca56e43f83e",
+    "attempt-3-log.md": "cf46bd6803081ff003b6e368bee998bd0a893e528266e9eadb78a4b4f9906f8f",
+    "attempt-3-plan.json": "2fe4af9c78afcd788acc429150f17fa6cef1834f87242fe45454449518604e20",
+    "attempt-3-receipt.json": "f5c95687d10962296c1fadb38f62f9e295f570bad1551f9566085342332c4b4d",
+    "attempt-3-spec.json": "16d456048900a8b3ab73d2242de806ac77b355cd34ccaa1d50abf463e9db120d",
+    "attempt-3-state.json": "455e98a45e1bebfbdf73d5986512db2ea7beaca40de0a4f2caae5e7a41ce7024",
+    "observation-input.json": "870bfdda8ea6053c37ef45eaff286f26a5c7c49b2e950eb019dc75f418eb6479",
+    "observation-log.md": "1611c888f930da1695f425938873e7841bc2bbfdb8e235289a2ab78c8a8dc219",
+    "observation-output.md": "52f751d49fadb39f829fef860fd60fa2490cb8d81e7744f74f2d01fe37c2899c"
+  }
+}
