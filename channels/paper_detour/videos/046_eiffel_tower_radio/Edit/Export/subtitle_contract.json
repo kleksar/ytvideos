@@ -1,0 +1,3824 @@
+{
+  "schema": "ytv-delivery-v1",
+  "channel": "paper",
+  "format": "short",
+  "canvas": [
+    1440,
+    2560
+  ],
+  "fps": 30,
+  "frames": 3428,
+  "caption_end_frame": 3428,
+  "audio": {
+    "audio": {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Source/Voice/en_v31/voice_en.mp3",
+      "sha256": "f8fccc9f54559f2d293770f10f5eeee3619f6ff71eb7cf6a92aaf3ddd6659298"
+    },
+    "applied_speed": 1.1,
+    "speed_policy": {
+      "path": "/Users/diplomat/ytvideos/.agents/skills/ytv-audio-delivery/references/speed.json",
+      "sha256": "32c378c36c1e297cbdc4e3593c965163d33e531b8b8eea026b367bddb51a668a"
+    },
+    "speed_evidence": {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Source/Voice/en_v31/speed_evidence.md",
+      "sha256": "0e0d21cac7317e5b435df3847be0b1acda593c4a32ac95f4658b1322c96312dd"
+    }
+  },
+  "transcript": {
+    "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Source/Script/narration_en_v31.txt",
+    "sha256": "d93fec9f09085f41a0af4327f1827dedb24b955a1c6415a9db2709494fc6355e"
+  },
+  "word_map": {
+    "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Edit/Subtitles/word_timings_en_v31_review.json",
+    "sha256": "482f0cf64a8581a53387224c5d1b5d338f15e4ef3d591699bb0bbb3f9987ab98"
+  },
+  "profiles": [
+    {
+      "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/profiles/paper.json",
+      "sha256": "e2b89e813ec25985601ef65997ea8b94c19e96aa6d158333edf962b42e02ffc0"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/profiles/short.json",
+      "sha256": "ab84ac0aed239ea59e26a4d0e4878decd47f1e5f42db9a3563ca06bbea0adb6b"
+    },
+    {
+      "path": "/System/Library/Fonts/Supplemental/ChalkboardSE.ttc",
+      "sha256": "256d3dd291f0d2bd3379882e7fb9c8276fba219ea447a1073d2fce17690e0478"
+    }
+  ],
+  "engine": [
+    {
+      "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/montage.py",
+      "sha256": "cbc4a6917a687803b1f6d7627f07ef9892b64c1674ba7cf8c4d00abf8cc3f83c"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/delivery.py",
+      "sha256": "d03d2a7867e65d188053f0b0aef436462b9a1f8c1197a4b00580817fbc46cb30"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/.agents/skills/ytv-paper-subtitles/scripts/semantic_grouping.py",
+      "sha256": "f18deb4cbb5af9c10cfd51fd60b15ef1c87b5ebaaaa46f073210935821d8fc3e"
+    }
+  ],
+  "picture": [
+    {
+      "scene": {
+        "image": "../Source/Images/paper_v31/S01_v01.png",
+        "start_frame": 0,
+        "end_frame": 165,
+        "direction": "none",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.47
+          ],
+          "subject": "Map between Paris and the eastern forts",
+          "reason": "Bring the two location labels and the hand forward",
+          "start": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.006
+          },
+          "end": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.026
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Source/Images/paper_v31/S01_v01.png",
+        "sha256": "1cb95db9b4fb8ec8f3fa65973a24da7d73655822e7b6cf3ee5f1663912083357"
+      }
+    },
+    {
+      "scene": {
+        "image": "../Source/Images/paper_v31/S02_v01.png",
+        "start_frame": 165,
+        "end_frame": 341,
+        "direction": "none",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.61,
+            0.49
+          ],
+          "subject": "Tethered balloon and anchor",
+          "reason": "Open enough to retain the entire line and ground anchor",
+          "start": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.027
+          },
+          "end": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.005
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Source/Images/paper_v31/S02_v01.png",
+        "sha256": "6fc1ace7a30022c19f1982906b11ca807fed4518e0113e7983506618acbfa07b"
+      }
+    },
+    {
+      "scene": {
+        "image": "../Source/Images/paper_v31/S03_v01.png",
+        "start_frame": 341,
+        "end_frame": 515,
+        "direction": "none",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.52,
+            0.51
+          ],
+          "subject": "Proposed high support",
+          "reason": "Approach the planning card while retaining the structure above the roofs",
+          "start": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.006
+          },
+          "end": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.03
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Source/Images/paper_v31/S03_v01.png",
+        "sha256": "4c1e1e397c1b5e317c7ad1b72112d9072f32d2fcb2875edd7c156239784f5344"
+      }
+    },
+    {
+      "scene": {
+        "image": "../Source/Images/paper_v31/S04_v02.png",
+        "start_frame": 515,
+        "end_frame": 677,
+        "direction": "right_to_left",
+        "zoom": "none",
+        "camera": {
+          "focus": [
+            0.57,
+            0.47
+          ],
+          "subject": "Tower model and small exhibition pavilion",
+          "reason": "Hold the scale contrast and keep the whole summit",
+          "start": {
+            "center": [
+              0.4965,
+              0.5
+            ],
+            "scale": 1.02
+          },
+          "end": {
+            "center": [
+              0.5035,
+              0.5
+            ],
+            "scale": 1.02
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Source/Images/paper_v31/S04_v02.png",
+        "sha256": "0fbf5336cd4b192e0c7db170dcd2440940391ae80302ece216799d9bffa4e88d"
+      }
+    },
+    {
+      "scene": {
+        "image": "../Source/Images/paper_v31/S05_v01.png",
+        "start_frame": 677,
+        "end_frame": 836,
+        "direction": "none",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.5,
+            0.44
+          ],
+          "subject": "Tower over the 1889 fairground",
+          "reason": "Open to the fairground and preserve the summit",
+          "start": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.02
+          },
+          "end": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.004
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Source/Images/paper_v31/S05_v01.png",
+        "sha256": "92d017142add48ce5a0854d746ebaecc1e4d5b6bb426a50d5f2f752b80f85b6f"
+      }
+    },
+    {
+      "scene": {
+        "image": "../Source/Images/paper_v31/S06_v01.png",
+        "start_frame": 836,
+        "end_frame": 998,
+        "direction": "none",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.53,
+            0.49
+          ],
+          "subject": "Morse key and fingertip",
+          "reason": "Take the eye to the point of contact",
+          "start": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.008
+          },
+          "end": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.043
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Source/Images/paper_v31/S06_v01.png",
+        "sha256": "44f2f6bfaee3d061335075e0f2963b8473a0d6720e0bfee92c029a2b1c5576bd"
+      }
+    },
+    {
+      "scene": {
+        "image": "../Source/Images/paper_v31/S07_v01.png",
+        "start_frame": 998,
+        "end_frame": 1175,
+        "direction": "left_to_right",
+        "zoom": "none",
+        "camera": {
+          "focus": [
+            0.51,
+            0.27
+          ],
+          "subject": "Tower and Panthéon across Paris",
+          "reason": "Scan across the two recognizable landmarks",
+          "start": {
+            "center": [
+              0.5035,
+              0.5
+            ],
+            "scale": 1.018
+          },
+          "end": {
+            "center": [
+              0.4965,
+              0.5
+            ],
+            "scale": 1.018
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Source/Images/paper_v31/S07_v01.png",
+        "sha256": "2afed9101f0783a57d8b2e42fab7f345807374a07f77c2d4b270de84414a0291"
+      }
+    },
+    {
+      "scene": {
+        "image": "../Source/Images/paper_v31/S08_v01.png",
+        "start_frame": 1175,
+        "end_frame": 1339,
+        "direction": "none",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.47,
+            0.55
+          ],
+          "subject": "Completed test card and empty slots",
+          "reason": "Let the empty slots register with the test card",
+          "start": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.035
+          },
+          "end": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.01
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Source/Images/paper_v31/S08_v01.png",
+        "sha256": "eff2d5e2e8edaa37fac2d89c181705dd5ce61c6cf6cba864c52a972bbb80338e"
+      }
+    },
+    {
+      "scene": {
+        "image": "../Source/Images/paper_v31/S09_v01.png",
+        "start_frame": 1339,
+        "end_frame": 1490,
+        "direction": "none",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.52,
+            0.5
+          ],
+          "subject": "Demonstrator’s hands and apparatus",
+          "reason": "Concentrate on the instrument between the observers",
+          "start": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.009
+          },
+          "end": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.038
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Source/Images/paper_v31/S09_v01.png",
+        "sha256": "414f4e228507fe9f7521066317ca0d11ff8adc230dd87e32c8add537001ba7d0"
+      }
+    },
+    {
+      "scene": {
+        "image": "../Source/Images/paper_v31/S10_v01.png",
+        "start_frame": 1490,
+        "end_frame": 1628,
+        "direction": "none",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.54,
+            0.52
+          ],
+          "subject": "Work drawing and hand",
+          "reason": "Open to show the workbench around the drawing",
+          "start": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.032
+          },
+          "end": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.009
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Source/Images/paper_v31/S10_v01.png",
+        "sha256": "5d817e33e520331ebce687b461cc49d0a5476fce85e23ced7189af5315e7add3"
+      }
+    },
+    {
+      "scene": {
+        "image": "../Source/Images/paper_v31/S11_v01.png",
+        "start_frame": 1628,
+        "end_frame": 1775,
+        "direction": "right_to_left",
+        "zoom": "none",
+        "camera": {
+          "focus": [
+            0.6,
+            0.43
+          ],
+          "subject": "Fort and lighthouse on one coastal relief",
+          "reason": "Scan both test environments without cropping the lighthouse",
+          "start": {
+            "center": [
+              0.4965,
+              0.5
+            ],
+            "scale": 1.023
+          },
+          "end": {
+            "center": [
+              0.5035,
+              0.5
+            ],
+            "scale": 1.023
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Source/Images/paper_v31/S11_v01.png",
+        "sha256": "430d5f78e16b0965a9753032660eb5a7e2e5000febbcdc92f7ddaa317aead022"
+      }
+    },
+    {
+      "scene": {
+        "image": "../Source/Images/paper_v31/S12_v01.png",
+        "start_frame": 1775,
+        "end_frame": 1898,
+        "direction": "none",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.51,
+            0.48
+          ],
+          "subject": "Officer’s response and receiver",
+          "reason": "Bring attention to the eyes and radio under the lamp",
+          "start": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.007
+          },
+          "end": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.032
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Source/Images/paper_v31/S12_v01.png",
+        "sha256": "fd867abec5f3f53e014d77fc94148a9ed89e06100a4ade685aba7077dedf355d"
+      }
+    },
+    {
+      "scene": {
+        "image": "../Source/Images/paper_v31/S13_v01.png",
+        "start_frame": 1898,
+        "end_frame": 2031,
+        "direction": "none",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.52,
+            0.53
+          ],
+          "subject": "Eiffel, Ferrié and scale model",
+          "reason": "Hold both profiles while opening slightly to the real tower behind them",
+          "start": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.016
+          },
+          "end": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.003
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Source/Images/paper_v31/S13_v01.png",
+        "sha256": "b7c6a2b561e6917810931e87ec87ec0ef1cbf1825d80b9a4b7031adbff510b01"
+      }
+    },
+    {
+      "scene": {
+        "image": "../Source/Images/paper_v31/S14_v01.png",
+        "start_frame": 2031,
+        "end_frame": 2166,
+        "direction": "left_to_right",
+        "zoom": "none",
+        "camera": {
+          "focus": [
+            0.54,
+            0.51
+          ],
+          "subject": "Tower model, ledger and sketches",
+          "reason": "Follow the arrangement across the desk without crowding the objects",
+          "start": {
+            "center": [
+              0.5035,
+              0.5
+            ],
+            "scale": 1.029
+          },
+          "end": {
+            "center": [
+              0.4965,
+              0.5
+            ],
+            "scale": 1.029
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Source/Images/paper_v31/S14_v01.png",
+        "sha256": "ffea62455a0e618c40afb84f9ba97bbca87065a11785e79480be6259471e9848"
+      }
+    },
+    {
+      "scene": {
+        "image": "../Source/Images/paper_v31/S15_v01.png",
+        "start_frame": 2166,
+        "end_frame": 2288,
+        "direction": "none",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.54,
+            0.53
+          ],
+          "subject": "Insulator at a lattice joint",
+          "reason": "Approach the point where the short aerial is held",
+          "start": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.008
+          },
+          "end": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.043
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Source/Images/paper_v31/S15_v01.png",
+        "sha256": "f1778f8eb0c0db1856838ce78dcb6c97eaa570e487218e87b748c163af85dc54"
+      }
+    },
+    {
+      "scene": {
+        "image": "../Source/Images/paper_v31/S16_v02.png",
+        "start_frame": 2288,
+        "end_frame": 2410,
+        "direction": "none",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.57,
+            0.6
+          ],
+          "subject": "Wood workroom beside the south leg",
+          "reason": "Pull back from the room to show its scale against the leg",
+          "start": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.028
+          },
+          "end": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.006
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Source/Images/paper_v31/S16_v02.png",
+        "sha256": "8563d909a5058c7d42c241ebc06af6c98c792de9656c14d4c6739bac515a9167"
+      }
+    },
+    {
+      "scene": {
+        "image": "../Source/Images/paper_v31/S17_v02.png",
+        "start_frame": 2410,
+        "end_frame": 2530,
+        "direction": "right_to_left",
+        "zoom": "none",
+        "camera": {
+          "focus": [
+            0.55,
+            0.31
+          ],
+          "subject": "Aerial near the top of the tower",
+          "reason": "Look into the sky and keep the summit and aerial clear",
+          "start": {
+            "center": [
+              0.4965,
+              0.5
+            ],
+            "scale": 1.018
+          },
+          "end": {
+            "center": [
+              0.5035,
+              0.5
+            ],
+            "scale": 1.018
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Source/Images/paper_v31/S17_v02.png",
+        "sha256": "d119a7e2278f1f9a9154b2a1c753b91e8e48cb63b2a00dd0290a69078fefa4da"
+      }
+    },
+    {
+      "scene": {
+        "image": "../Source/Images/paper_v31/S18_v01.png",
+        "start_frame": 2530,
+        "end_frame": 2652,
+        "direction": "none",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.55,
+            0.53
+          ],
+          "subject": "Fort receiver and listening operator",
+          "reason": "Make the hand on the dial the point of attention",
+          "start": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.007
+          },
+          "end": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.035
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Source/Images/paper_v31/S18_v01.png",
+        "sha256": "6fabe608927f0971382ecd95c2d722098d82a1e1f91e63b1a2145b45082fe877"
+      }
+    },
+    {
+      "scene": {
+        "image": "../Source/Images/paper_v31/S19_v01.png",
+        "start_frame": 2652,
+        "end_frame": 2805,
+        "direction": "none",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.6,
+            0.55
+          ],
+          "subject": "Bizerte location marker and harbor",
+          "reason": "Open from the destination to its coast",
+          "start": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.029
+          },
+          "end": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.005
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Source/Images/paper_v31/S19_v01.png",
+        "sha256": "68aea3eae5618ac69be1c04ef3e28c37f6c109e2871893b42155e38373a762fb"
+      }
+    },
+    {
+      "scene": {
+        "image": "../Source/Images/paper_v31/S20_v01.png",
+        "start_frame": 2805,
+        "end_frame": 2972,
+        "direction": "left_to_right",
+        "zoom": "none",
+        "camera": {
+          "focus": [
+            0.54,
+            0.53
+          ],
+          "subject": "Radio operators in the underground room",
+          "reason": "Track across the equipment and the two operators",
+          "start": {
+            "center": [
+              0.5035,
+              0.5
+            ],
+            "scale": 1.025
+          },
+          "end": {
+            "center": [
+              0.4965,
+              0.5
+            ],
+            "scale": 1.025
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Source/Images/paper_v31/S20_v01.png",
+        "sha256": "e8f80dc0737b749eadfd72a2cef81abda498577911757e9967fb9d2ec29eb520"
+      }
+    },
+    {
+      "scene": {
+        "image": "../Source/Images/paper_v31/S21_v02.png",
+        "start_frame": 2972,
+        "end_frame": 3120,
+        "direction": "none",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.53,
+            0.51
+          ],
+          "subject": "Aerial above ground and equipment below",
+          "reason": "Approach the two working levels while keeping them in view",
+          "start": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.005
+          },
+          "end": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.023
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Source/Images/paper_v31/S21_v02.png",
+        "sha256": "e299b82b7594e4b1d2c8fe56ce8e0f63ae1a0d58b0cc5459ea5bd0ae59801078"
+      }
+    },
+    {
+      "scene": {
+        "image": "../Source/Images/paper_v31/S22_v02.png",
+        "start_frame": 3120,
+        "end_frame": 3260,
+        "direction": "none",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.53,
+            0.5
+          ],
+          "subject": "Exhibition pavilion, miniature and receiver",
+          "reason": "Reveal the contrasting objects around the one unchanged tower",
+          "start": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.025
+          },
+          "end": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.004
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Source/Images/paper_v31/S22_v02.png",
+        "sha256": "96989da3f1748ebb43b696e5bfdb355da03292dffe0ce73ca9e48aa00f1282dc"
+      }
+    },
+    {
+      "scene": {
+        "image": "../Source/Images/paper_v31/S23_v01.png",
+        "start_frame": 3260,
+        "end_frame": 3428,
+        "direction": "right_to_left",
+        "zoom": "none",
+        "camera": {
+          "focus": [
+            0.51,
+            0.49
+          ],
+          "subject": "Full tower above the underground station",
+          "reason": "Keep the complete summit and room; move across only a few pixels",
+          "start": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.01
+          },
+          "end": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.01
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Source/Images/paper_v31/S23_v01.png",
+        "sha256": "6f77346ea533b601b776b8695507496c61e046b14e9d1cc4abff8a66f3c7b048"
+      }
+    }
+  ],
+  "overlays": [],
+  "groups": [
+    [
+      {
+        "text": "The",
+        "start": 0.08,
+        "end": 0.18,
+        "source": "whisperx_forced_alignment",
+        "score": 0.671
+      },
+      {
+        "text": "French",
+        "start": 0.22,
+        "end": 0.5,
+        "source": "whisperx_forced_alignment",
+        "score": 0.666
+      },
+      {
+        "text": "army",
+        "start": 0.6,
+        "end": 0.84,
+        "source": "whisperx_forced_alignment",
+        "score": 0.761
+      }
+    ],
+    [
+      {
+        "text": "needed",
+        "start": 0.92,
+        "end": 1.16,
+        "source": "whisperx_forced_alignment",
+        "score": 0.857
+      },
+      {
+        "text": "radio",
+        "start": 1.26,
+        "end": 1.58,
+        "source": "whisperx_forced_alignment",
+        "score": 0.825
+      }
+    ],
+    [
+      {
+        "text": "communication",
+        "start": 1.62,
+        "end": 2.28,
+        "source": "whisperx_forced_alignment",
+        "score": 0.775
+      }
+    ],
+    [
+      {
+        "text": "between",
+        "start": 2.32,
+        "end": 2.62,
+        "source": "whisperx_forced_alignment",
+        "score": 0.633
+      },
+      {
+        "text": "Paris",
+        "start": 2.7,
+        "end": 3.081,
+        "source": "whisperx_forced_alignment",
+        "score": 0.846
+      }
+    ],
+    [
+      {
+        "text": "and",
+        "start": 3.241,
+        "end": 3.321,
+        "source": "whisperx_forced_alignment",
+        "score": 0.837
+      },
+      {
+        "text": "the",
+        "start": 3.341,
+        "end": 3.421,
+        "source": "whisperx_forced_alignment",
+        "score": 0.832
+      },
+      {
+        "text": "fortresses",
+        "start": 3.501,
+        "end": 4.061,
+        "source": "whisperx_forced_alignment",
+        "score": 0.751
+      }
+    ],
+    [
+      {
+        "text": "in",
+        "start": 4.181,
+        "end": 4.261,
+        "source": "whisperx_forced_alignment",
+        "score": 0.831
+      },
+      {
+        "text": "eastern",
+        "start": 4.381,
+        "end": 4.701,
+        "source": "whisperx_forced_alignment",
+        "score": 0.621
+      },
+      {
+        "text": "France.",
+        "start": 4.761,
+        "end": 5.101,
+        "source": "whisperx_forced_alignment",
+        "score": 0.888
+      }
+    ],
+    [
+      {
+        "text": "At",
+        "start": 5.901,
+        "end": 5.981,
+        "source": "whisperx_forced_alignment",
+        "score": 0.753
+      },
+      {
+        "text": "the",
+        "start": 6.021,
+        "end": 6.101,
+        "source": "whisperx_forced_alignment",
+        "score": 0.838
+      },
+      {
+        "text": "fortresses,",
+        "start": 6.141,
+        "end": 6.681,
+        "source": "whisperx_forced_alignment",
+        "score": 0.778
+      }
+    ],
+    [
+      {
+        "text": "antennas",
+        "start": 7.061,
+        "end": 7.481,
+        "source": "whisperx_forced_alignment",
+        "score": 0.89
+      }
+    ],
+    [
+      {
+        "text": "were",
+        "start": 7.501,
+        "end": 7.641,
+        "source": "whisperx_forced_alignment",
+        "score": 0.748
+      },
+      {
+        "text": "lifted",
+        "start": 7.721,
+        "end": 8.021,
+        "source": "whisperx_forced_alignment",
+        "score": 0.838
+      }
+    ],
+    [
+      {
+        "text": "by",
+        "start": 8.061,
+        "end": 8.181,
+        "source": "whisperx_forced_alignment",
+        "score": 0.738
+      },
+      {
+        "text": "tethered",
+        "start": 8.281,
+        "end": 8.602,
+        "source": "whisperx_forced_alignment",
+        "score": 0.803
+      }
+    ],
+    [
+      {
+        "text": "balloons,",
+        "start": 8.642,
+        "end": 9.082,
+        "source": "whisperx_forced_alignment",
+        "score": 0.895
+      }
+    ],
+    [
+      {
+        "text": "but",
+        "start": 9.562,
+        "end": 9.702,
+        "source": "whisperx_forced_alignment",
+        "score": 0.899
+      },
+      {
+        "text": "this",
+        "start": 9.882,
+        "end": 10.022,
+        "source": "whisperx_forced_alignment",
+        "score": 0.794
+      },
+      {
+        "text": "depended",
+        "start": 10.082,
+        "end": 10.502,
+        "source": "whisperx_forced_alignment",
+        "score": 0.854
+      }
+    ],
+    [
+      {
+        "text": "on",
+        "start": 10.542,
+        "end": 10.602,
+        "source": "whisperx_forced_alignment",
+        "score": 0.762
+      },
+      {
+        "text": "the",
+        "start": 10.622,
+        "end": 10.702,
+        "source": "whisperx_forced_alignment",
+        "score": 0.833
+      },
+      {
+        "text": "weather.",
+        "start": 10.742,
+        "end": 11.022,
+        "source": "whisperx_forced_alignment",
+        "score": 0.837
+      }
+    ],
+    [
+      {
+        "text": "In",
+        "start": 11.722,
+        "end": 11.782,
+        "source": "whisperx_forced_alignment",
+        "score": 0.994
+      },
+      {
+        "text": "Paris,",
+        "start": 11.862,
+        "end": 12.222,
+        "source": "whisperx_forced_alignment",
+        "score": 0.899
+      }
+    ],
+    [
+      {
+        "text": "the",
+        "start": 12.582,
+        "end": 12.682,
+        "source": "whisperx_forced_alignment",
+        "score": 0.669
+      },
+      {
+        "text": "army",
+        "start": 12.802,
+        "end": 13.022,
+        "source": "whisperx_forced_alignment",
+        "score": 0.714
+      },
+      {
+        "text": "needed",
+        "start": 13.082,
+        "end": 13.322,
+        "source": "whisperx_forced_alignment",
+        "score": 0.85
+      }
+    ],
+    [
+      {
+        "text": "a",
+        "start": 13.402,
+        "end": 13.442,
+        "source": "whisperx_forced_alignment",
+        "score": 0.5
+      },
+      {
+        "text": "permanent,",
+        "start": 13.542,
+        "end": 14.002,
+        "source": "whisperx_forced_alignment",
+        "score": 0.799
+      }
+    ],
+    [
+      {
+        "text": "tall",
+        "start": 14.202,
+        "end": 14.523,
+        "source": "whisperx_forced_alignment",
+        "score": 0.909
+      },
+      {
+        "text": "structure",
+        "start": 14.563,
+        "end": 15.003,
+        "source": "whisperx_forced_alignment",
+        "score": 0.764
+      }
+    ],
+    [
+      {
+        "text": "to",
+        "start": 15.063,
+        "end": 15.163,
+        "source": "whisperx_forced_alignment",
+        "score": 0.826
+      },
+      {
+        "text": "support",
+        "start": 15.203,
+        "end": 15.543,
+        "source": "whisperx_forced_alignment",
+        "score": 0.938
+      }
+    ],
+    [
+      {
+        "text": "an",
+        "start": 15.583,
+        "end": 15.663,
+        "source": "whisperx_forced_alignment",
+        "score": 0.818
+      },
+      {
+        "text": "antenna.",
+        "start": 15.703,
+        "end": 16.103,
+        "source": "whisperx_forced_alignment",
+        "score": 0.91
+      }
+    ],
+    [
+      {
+        "text": "A",
+        "start": 16.763,
+        "end": 16.803,
+        "source": "whisperx_forced_alignment",
+        "score": 0.573
+      },
+      {
+        "text": "tower",
+        "start": 16.863,
+        "end": 17.143,
+        "source": "whisperx_forced_alignment",
+        "score": 0.856
+      },
+      {
+        "text": "built",
+        "start": 17.203,
+        "end": 17.403,
+        "source": "whisperx_forced_alignment",
+        "score": 0.672
+      }
+    ],
+    [
+      {
+        "text": "for",
+        "start": 17.443,
+        "end": 17.543,
+        "source": "whisperx_forced_alignment",
+        "score": 0.943
+      },
+      {
+        "text": "an",
+        "start": 17.583,
+        "end": 17.643,
+        "source": "whisperx_forced_alignment",
+        "score": 0.75
+      },
+      {
+        "text": "exhibition,",
+        "start": 17.723,
+        "end": 18.323,
+        "source": "whisperx_forced_alignment",
+        "score": 0.861
+      }
+    ],
+    [
+      {
+        "text": "not",
+        "start": 18.663,
+        "end": 18.803,
+        "source": "whisperx_forced_alignment",
+        "score": 0.863
+      },
+      {
+        "text": "for",
+        "start": 18.843,
+        "end": 18.943,
+        "source": "whisperx_forced_alignment",
+        "score": 0.834
+      },
+      {
+        "text": "the",
+        "start": 18.963,
+        "end": 19.043,
+        "source": "whisperx_forced_alignment",
+        "score": 0.833
+      }
+    ],
+    [
+      {
+        "text": "military,",
+        "start": 19.083,
+        "end": 19.563,
+        "source": "whisperx_forced_alignment",
+        "score": 0.859
+      },
+      {
+        "text": "could",
+        "start": 19.823,
+        "end": 20.024,
+        "source": "whisperx_forced_alignment",
+        "score": 0.708
+      }
+    ],
+    [
+      {
+        "text": "serve",
+        "start": 20.064,
+        "end": 20.284,
+        "source": "whisperx_forced_alignment",
+        "score": 0.861
+      },
+      {
+        "text": "that",
+        "start": 20.324,
+        "end": 20.464,
+        "source": "whisperx_forced_alignment",
+        "score": 0.755
+      },
+      {
+        "text": "purpose.",
+        "start": 20.504,
+        "end": 20.844,
+        "source": "whisperx_forced_alignment",
+        "score": 0.936
+      }
+    ],
+    [
+      {
+        "text": "The",
+        "start": 21.604,
+        "end": 21.724,
+        "source": "whisperx_forced_alignment",
+        "score": 0.617
+      },
+      {
+        "text": "Eiffel",
+        "start": 21.804,
+        "end": 22.084,
+        "source": "whisperx_forced_alignment",
+        "score": 0.602
+      },
+      {
+        "text": "Tower,",
+        "start": 22.124,
+        "end": 22.444,
+        "source": "whisperx_forced_alignment",
+        "score": 0.86
+      }
+    ],
+    [
+      {
+        "text": "about",
+        "start": 22.704,
+        "end": 22.904,
+        "source": "whisperx_forced_alignment",
+        "score": 0.857
+      },
+      {
+        "text": "300",
+        "start": 23.324,
+        "end": 23.564,
+        "source": "whisperx_forced_alignment",
+        "score": 0.587
+      },
+      {
+        "text": "metres",
+        "start": 23.604,
+        "end": 23.864,
+        "source": "whisperx_forced_alignment",
+        "score": 0.698
+      }
+    ],
+    [
+      {
+        "text": "tall,",
+        "start": 23.904,
+        "end": 24.224,
+        "source": "whisperx_forced_alignment",
+        "score": 0.913
+      },
+      {
+        "text": "opened",
+        "start": 24.664,
+        "end": 24.924,
+        "source": "whisperx_forced_alignment",
+        "score": 0.677
+      }
+    ],
+    [
+      {
+        "text": "in",
+        "start": 24.964,
+        "end": 25.044,
+        "source": "whisperx_forced_alignment",
+        "score": 0.761
+      },
+      {
+        "text": "1889",
+        "start": 25.184,
+        "end": 26.105,
+        "source": "whisperx_forced_alignment",
+        "score": 0.511
+      },
+      {
+        "text": "for",
+        "start": 26.165,
+        "end": 26.265,
+        "source": "whisperx_forced_alignment",
+        "score": 0.681
+      }
+    ],
+    [
+      {
+        "text": "the",
+        "start": 26.285,
+        "end": 26.365,
+        "source": "whisperx_forced_alignment",
+        "score": 0.833
+      },
+      {
+        "text": "World's",
+        "start": 26.425,
+        "end": 26.725,
+        "source": "whisperx_forced_alignment",
+        "score": 0.712
+      },
+      {
+        "text": "Fair.",
+        "start": 26.785,
+        "end": 27.805,
+        "source": "whisperx_forced_alignment",
+        "score": 0.872
+      }
+    ],
+    [
+      {
+        "text": "In",
+        "start": 27.925,
+        "end": 28.245,
+        "source": "whisperx_forced_alignment",
+        "score": 0.358
+      },
+      {
+        "text": "1898,",
+        "start": 28.285,
+        "end": 28.765,
+        "source": "whisperx_forced_alignment",
+        "score": 0.44
+      },
+      {
+        "text": "engineer",
+        "start": 29.165,
+        "end": 29.565,
+        "source": "whisperx_forced_alignment",
+        "score": 0.806
+      }
+    ],
+    [
+      {
+        "text": "Eugène",
+        "start": 29.585,
+        "end": 30.065,
+        "source": "whisperx_forced_alignment",
+        "score": 0.71
+      },
+      {
+        "text": "Ducretet",
+        "start": 30.085,
+        "end": 30.685,
+        "source": "whisperx_forced_alignment",
+        "score": 0.801
+      }
+    ],
+    [
+      {
+        "text": "sent",
+        "start": 30.805,
+        "end": 31.005,
+        "source": "whisperx_forced_alignment",
+        "score": 0.722
+      },
+      {
+        "text": "a",
+        "start": 31.045,
+        "end": 31.085,
+        "source": "whisperx_forced_alignment",
+        "score": 0.503
+      },
+      {
+        "text": "wireless",
+        "start": 31.165,
+        "end": 31.606,
+        "source": "whisperx_forced_alignment",
+        "score": 0.796
+      }
+    ],
+    [
+      {
+        "text": "Morse",
+        "start": 31.726,
+        "end": 31.986,
+        "source": "whisperx_forced_alignment",
+        "score": 0.941
+      },
+      {
+        "text": "code",
+        "start": 32.046,
+        "end": 32.266,
+        "source": "whisperx_forced_alignment",
+        "score": 0.659
+      },
+      {
+        "text": "signal",
+        "start": 32.306,
+        "end": 32.606,
+        "source": "whisperx_forced_alignment",
+        "score": 0.782
+      }
+    ],
+    [
+      {
+        "text": "from",
+        "start": 32.626,
+        "end": 32.746,
+        "source": "whisperx_forced_alignment",
+        "score": 0.76
+      },
+      {
+        "text": "the",
+        "start": 32.766,
+        "end": 32.846,
+        "source": "whisperx_forced_alignment",
+        "score": 0.833
+      },
+      {
+        "text": "tower",
+        "start": 32.906,
+        "end": 33.226,
+        "source": "whisperx_forced_alignment",
+        "score": 0.907
+      }
+    ],
+    [
+      {
+        "text": "to",
+        "start": 33.326,
+        "end": 33.406,
+        "source": "whisperx_forced_alignment",
+        "score": 0.752
+      },
+      {
+        "text": "the",
+        "start": 33.426,
+        "end": 33.506,
+        "source": "whisperx_forced_alignment",
+        "score": 0.833
+      },
+      {
+        "text": "Panthéon",
+        "start": 33.566,
+        "end": 34.066,
+        "source": "whisperx_forced_alignment",
+        "score": 0.878
+      }
+    ],
+    [
+      {
+        "text": "in",
+        "start": 34.146,
+        "end": 34.226,
+        "source": "whisperx_forced_alignment",
+        "score": 0.832
+      },
+      {
+        "text": "Paris.",
+        "start": 34.286,
+        "end": 34.646,
+        "source": "whisperx_forced_alignment",
+        "score": 0.835
+      }
+    ],
+    [
+      {
+        "text": "This",
+        "start": 35.346,
+        "end": 35.506,
+        "source": "whisperx_forced_alignment",
+        "score": 0.834
+      },
+      {
+        "text": "showed",
+        "start": 35.566,
+        "end": 35.806,
+        "source": "whisperx_forced_alignment",
+        "score": 0.886
+      },
+      {
+        "text": "that",
+        "start": 35.846,
+        "end": 35.926,
+        "source": "whisperx_forced_alignment",
+        "score": 1.0
+      }
+    ],
+    [
+      {
+        "text": "the",
+        "start": 35.966,
+        "end": 36.046,
+        "source": "whisperx_forced_alignment",
+        "score": 0.974
+      },
+      {
+        "text": "tower",
+        "start": 36.126,
+        "end": 36.426,
+        "source": "whisperx_forced_alignment",
+        "score": 0.888
+      },
+      {
+        "text": "could",
+        "start": 36.466,
+        "end": 36.606,
+        "source": "whisperx_forced_alignment",
+        "score": 0.813
+      }
+    ],
+    [
+      {
+        "text": "be",
+        "start": 36.626,
+        "end": 36.726,
+        "source": "whisperx_forced_alignment",
+        "score": 0.587
+      },
+      {
+        "text": "used",
+        "start": 36.846,
+        "end": 37.026,
+        "source": "whisperx_forced_alignment",
+        "score": 0.709
+      },
+      {
+        "text": "for",
+        "start": 37.066,
+        "end": 37.207,
+        "source": "whisperx_forced_alignment",
+        "score": 0.852
+      }
+    ],
+    [
+      {
+        "text": "radio",
+        "start": 37.267,
+        "end": 37.567,
+        "source": "whisperx_forced_alignment",
+        "score": 0.923
+      },
+      {
+        "text": "experiments.",
+        "start": 37.627,
+        "end": 38.147,
+        "source": "whisperx_forced_alignment",
+        "score": 0.879
+      }
+    ],
+    [
+      {
+        "text": "But",
+        "start": 38.727,
+        "end": 38.847,
+        "source": "whisperx_forced_alignment",
+        "score": 0.756
+      },
+      {
+        "text": "one",
+        "start": 39.027,
+        "end": 39.147,
+        "source": "whisperx_forced_alignment",
+        "score": 0.777
+      },
+      {
+        "text": "successful",
+        "start": 39.207,
+        "end": 39.707,
+        "source": "whisperx_forced_alignment",
+        "score": 0.897
+      }
+    ],
+    [
+      {
+        "text": "test",
+        "start": 39.767,
+        "end": 40.047,
+        "source": "whisperx_forced_alignment",
+        "score": 0.924
+      },
+      {
+        "text": "didn't",
+        "start": 40.227,
+        "end": 40.467,
+        "source": "whisperx_forced_alignment",
+        "score": 0.812
+      }
+    ],
+    [
+      {
+        "text": "prove",
+        "start": 40.547,
+        "end": 40.847,
+        "source": "whisperx_forced_alignment",
+        "score": 0.702
+      },
+      {
+        "text": "that",
+        "start": 40.887,
+        "end": 41.007,
+        "source": "whisperx_forced_alignment",
+        "score": 0.834
+      },
+      {
+        "text": "radio",
+        "start": 41.087,
+        "end": 41.407,
+        "source": "whisperx_forced_alignment",
+        "score": 0.851
+      }
+    ],
+    [
+      {
+        "text": "would",
+        "start": 41.447,
+        "end": 41.567,
+        "source": "whisperx_forced_alignment",
+        "score": 0.9
+      },
+      {
+        "text": "be",
+        "start": 41.587,
+        "end": 41.687,
+        "source": "whisperx_forced_alignment",
+        "score": 0.418
+      },
+      {
+        "text": "useful",
+        "start": 41.827,
+        "end": 42.087,
+        "source": "whisperx_forced_alignment",
+        "score": 0.866
+      }
+    ],
+    [
+      {
+        "text": "to",
+        "start": 42.127,
+        "end": 42.207,
+        "source": "whisperx_forced_alignment",
+        "score": 0.75
+      },
+      {
+        "text": "the",
+        "start": 42.227,
+        "end": 42.327,
+        "source": "whisperx_forced_alignment",
+        "score": 0.668
+      },
+      {
+        "text": "army.",
+        "start": 42.407,
+        "end": 42.647,
+        "source": "whisperx_forced_alignment",
+        "score": 0.838
+      }
+    ],
+    [
+      {
+        "text": "In",
+        "start": 43.528,
+        "end": 43.848,
+        "source": "whisperx_forced_alignment",
+        "score": 0.336
+      },
+      {
+        "text": "1899,",
+        "start": 43.948,
+        "end": 44.448,
+        "source": "whisperx_forced_alignment",
+        "score": 0.707
+      }
+    ],
+    [
+      {
+        "text": "military",
+        "start": 44.828,
+        "end": 45.308,
+        "source": "whisperx_forced_alignment",
+        "score": 0.828
+      },
+      {
+        "text": "engineer",
+        "start": 45.368,
+        "end": 45.748,
+        "source": "whisperx_forced_alignment",
+        "score": 0.813
+      }
+    ],
+    [
+      {
+        "text": "Gustave",
+        "start": 45.828,
+        "end": 46.268,
+        "source": "whisperx_forced_alignment",
+        "score": 0.7
+      },
+      {
+        "text": "Ferrié",
+        "start": 46.328,
+        "end": 46.808,
+        "source": "whisperx_forced_alignment",
+        "score": 0.896
+      }
+    ],
+    [
+      {
+        "text": "watched",
+        "start": 46.968,
+        "end": 47.248,
+        "source": "whisperx_forced_alignment",
+        "score": 0.828
+      },
+      {
+        "text": "Italian",
+        "start": 47.328,
+        "end": 47.788,
+        "source": "whisperx_forced_alignment",
+        "score": 0.78
+      }
+    ],
+    [
+      {
+        "text": "inventor",
+        "start": 47.828,
+        "end": 48.268,
+        "source": "whisperx_forced_alignment",
+        "score": 0.866
+      }
+    ],
+    [
+      {
+        "text": "Guglielmo",
+        "start": 48.408,
+        "end": 48.969,
+        "source": "whisperx_forced_alignment",
+        "score": 0.82
+      },
+      {
+        "text": "Marconi",
+        "start": 49.009,
+        "end": 49.509,
+        "source": "whisperx_forced_alignment",
+        "score": 0.894
+      }
+    ],
+    [
+      {
+        "text": "demonstrate",
+        "start": 49.809,
+        "end": 50.349,
+        "source": "whisperx_forced_alignment",
+        "score": 0.833
+      }
+    ],
+    [
+      {
+        "text": "wireless",
+        "start": 50.429,
+        "end": 50.809,
+        "source": "whisperx_forced_alignment",
+        "score": 0.868
+      }
+    ],
+    [
+      {
+        "text": "telegraphy.",
+        "start": 50.849,
+        "end": 51.409,
+        "source": "whisperx_forced_alignment",
+        "score": 0.902
+      }
+    ],
+    [
+      {
+        "text": "Ferrié",
+        "start": 52.109,
+        "end": 52.529,
+        "source": "whisperx_forced_alignment",
+        "score": 0.815
+      },
+      {
+        "text": "was",
+        "start": 52.569,
+        "end": 52.689,
+        "source": "whisperx_forced_alignment",
+        "score": 0.634
+      },
+      {
+        "text": "then",
+        "start": 52.749,
+        "end": 52.909,
+        "source": "whisperx_forced_alignment",
+        "score": 0.78
+      }
+    ],
+    [
+      {
+        "text": "assigned",
+        "start": 52.949,
+        "end": 53.309,
+        "source": "whisperx_forced_alignment",
+        "score": 0.906
+      },
+      {
+        "text": "to",
+        "start": 53.349,
+        "end": 53.409,
+        "source": "whisperx_forced_alignment",
+        "score": 0.77
+      },
+      {
+        "text": "develop",
+        "start": 53.449,
+        "end": 53.769,
+        "source": "whisperx_forced_alignment",
+        "score": 0.763
+      }
+    ],
+    [
+      {
+        "text": "radio",
+        "start": 53.869,
+        "end": 54.229,
+        "source": "whisperx_forced_alignment",
+        "score": 0.777
+      },
+      {
+        "text": "for",
+        "start": 54.29,
+        "end": 54.37,
+        "source": "whisperx_forced_alignment",
+        "score": 0.845
+      },
+      {
+        "text": "the",
+        "start": 54.41,
+        "end": 54.47,
+        "source": "whisperx_forced_alignment",
+        "score": 0.999
+      }
+    ],
+    [
+      {
+        "text": "French",
+        "start": 54.53,
+        "end": 54.77,
+        "source": "whisperx_forced_alignment",
+        "score": 0.825
+      },
+      {
+        "text": "military.",
+        "start": 54.83,
+        "end": 55.31,
+        "source": "whisperx_forced_alignment",
+        "score": 0.883
+      }
+    ],
+    [
+      {
+        "text": "Transmitters",
+        "start": 55.97,
+        "end": 56.55,
+        "source": "whisperx_forced_alignment",
+        "score": 0.82
+      }
+    ],
+    [
+      {
+        "text": "and",
+        "start": 56.61,
+        "end": 56.69,
+        "source": "whisperx_forced_alignment",
+        "score": 0.834
+      },
+      {
+        "text": "receivers",
+        "start": 56.73,
+        "end": 57.23,
+        "source": "whisperx_forced_alignment",
+        "score": 0.755
+      }
+    ],
+    [
+      {
+        "text": "were",
+        "start": 57.27,
+        "end": 57.39,
+        "source": "whisperx_forced_alignment",
+        "score": 0.874
+      },
+      {
+        "text": "tested",
+        "start": 57.45,
+        "end": 57.85,
+        "source": "whisperx_forced_alignment",
+        "score": 0.752
+      }
+    ],
+    [
+      {
+        "text": "at",
+        "start": 57.93,
+        "end": 57.99,
+        "source": "whisperx_forced_alignment",
+        "score": 0.751
+      },
+      {
+        "text": "military",
+        "start": 58.09,
+        "end": 58.51,
+        "source": "whisperx_forced_alignment",
+        "score": 0.673
+      }
+    ],
+    [
+      {
+        "text": "facilities",
+        "start": 58.55,
+        "end": 59.09,
+        "source": "whisperx_forced_alignment",
+        "score": 0.832
+      }
+    ],
+    [
+      {
+        "text": "and",
+        "start": 59.21,
+        "end": 59.31,
+        "source": "whisperx_forced_alignment",
+        "score": 0.742
+      },
+      {
+        "text": "lighthouses.",
+        "start": 59.35,
+        "end": 59.93,
+        "source": "whisperx_forced_alignment",
+        "score": 0.822
+      }
+    ],
+    [
+      {
+        "text": "Some",
+        "start": 60.651,
+        "end": 60.831,
+        "source": "whisperx_forced_alignment",
+        "score": 0.915
+      },
+      {
+        "text": "within",
+        "start": 60.851,
+        "end": 61.091,
+        "source": "whisperx_forced_alignment",
+        "score": 0.742
+      },
+      {
+        "text": "the",
+        "start": 61.111,
+        "end": 61.191,
+        "source": "whisperx_forced_alignment",
+        "score": 0.833
+      }
+    ],
+    [
+      {
+        "text": "military",
+        "start": 61.211,
+        "end": 61.691,
+        "source": "whisperx_forced_alignment",
+        "score": 0.79
+      },
+      {
+        "text": "doubted",
+        "start": 61.831,
+        "end": 62.171,
+        "source": "whisperx_forced_alignment",
+        "score": 0.852
+      }
+    ],
+    [
+      {
+        "text": "that",
+        "start": 62.211,
+        "end": 62.311,
+        "source": "whisperx_forced_alignment",
+        "score": 0.879
+      },
+      {
+        "text": "the",
+        "start": 62.351,
+        "end": 62.431,
+        "source": "whisperx_forced_alignment",
+        "score": 0.847
+      },
+      {
+        "text": "new",
+        "start": 62.491,
+        "end": 62.631,
+        "source": "whisperx_forced_alignment",
+        "score": 0.883
+      }
+    ],
+    [
+      {
+        "text": "technology",
+        "start": 62.671,
+        "end": 63.251,
+        "source": "whisperx_forced_alignment",
+        "score": 0.88
+      }
+    ],
+    [
+      {
+        "text": "would",
+        "start": 63.291,
+        "end": 63.431,
+        "source": "whisperx_forced_alignment",
+        "score": 0.8
+      },
+      {
+        "text": "be",
+        "start": 63.451,
+        "end": 63.531,
+        "source": "whisperx_forced_alignment",
+        "score": 0.748
+      },
+      {
+        "text": "useful.",
+        "start": 63.631,
+        "end": 63.951,
+        "source": "whisperx_forced_alignment",
+        "score": 0.896
+      }
+    ],
+    [
+      {
+        "text": "In",
+        "start": 64.811,
+        "end": 65.071,
+        "source": "whisperx_forced_alignment",
+        "score": 0.629
+      },
+      {
+        "text": "1903,",
+        "start": 65.131,
+        "end": 65.551,
+        "source": "whisperx_forced_alignment",
+        "score": 0.723
+      }
+    ],
+    [
+      {
+        "text": "Gustave",
+        "start": 65.892,
+        "end": 66.352,
+        "source": "whisperx_forced_alignment",
+        "score": 0.742
+      },
+      {
+        "text": "Eiffel,",
+        "start": 66.432,
+        "end": 66.752,
+        "source": "whisperx_forced_alignment",
+        "score": 0.747
+      }
+    ],
+    [
+      {
+        "text": "the",
+        "start": 67.052,
+        "end": 67.152,
+        "source": "whisperx_forced_alignment",
+        "score": 0.673
+      },
+      {
+        "text": "man",
+        "start": 67.172,
+        "end": 67.332,
+        "source": "whisperx_forced_alignment",
+        "score": 0.799
+      }
+    ],
+    [
+      {
+        "text": "behind",
+        "start": 67.372,
+        "end": 67.672,
+        "source": "whisperx_forced_alignment",
+        "score": 0.84
+      },
+      {
+        "text": "the",
+        "start": 67.712,
+        "end": 67.772,
+        "source": "whisperx_forced_alignment",
+        "score": 1.0
+      },
+      {
+        "text": "tower,",
+        "start": 67.832,
+        "end": 68.112,
+        "source": "whisperx_forced_alignment",
+        "score": 0.956
+      }
+    ],
+    [
+      {
+        "text": "let",
+        "start": 68.572,
+        "end": 68.732,
+        "source": "whisperx_forced_alignment",
+        "score": 0.934
+      },
+      {
+        "text": "Ferrié",
+        "start": 68.792,
+        "end": 69.192,
+        "source": "whisperx_forced_alignment",
+        "score": 0.776
+      },
+      {
+        "text": "use",
+        "start": 69.352,
+        "end": 69.472,
+        "source": "whisperx_forced_alignment",
+        "score": 0.948
+      }
+    ],
+    [
+      {
+        "text": "it",
+        "start": 69.492,
+        "end": 69.552,
+        "source": "whisperx_forced_alignment",
+        "score": 0.89
+      },
+      {
+        "text": "for",
+        "start": 69.592,
+        "end": 69.712,
+        "source": "whisperx_forced_alignment",
+        "score": 0.782
+      },
+      {
+        "text": "experiments",
+        "start": 69.752,
+        "end": 70.372,
+        "source": "whisperx_forced_alignment",
+        "score": 0.74
+      }
+    ],
+    [
+      {
+        "text": "and",
+        "start": 70.612,
+        "end": 70.712,
+        "source": "whisperx_forced_alignment",
+        "score": 0.685
+      },
+      {
+        "text": "helped",
+        "start": 70.752,
+        "end": 70.972,
+        "source": "whisperx_forced_alignment",
+        "score": 0.876
+      }
+    ],
+    [
+      {
+        "text": "fund",
+        "start": 71.072,
+        "end": 71.292,
+        "source": "whisperx_forced_alignment",
+        "score": 0.773
+      },
+      {
+        "text": "the",
+        "start": 71.312,
+        "end": 71.413,
+        "source": "whisperx_forced_alignment",
+        "score": 0.667
+      },
+      {
+        "text": "research.",
+        "start": 71.453,
+        "end": 71.873,
+        "source": "whisperx_forced_alignment",
+        "score": 0.852
+      }
+    ],
+    [
+      {
+        "text": "The",
+        "start": 72.553,
+        "end": 72.633,
+        "source": "whisperx_forced_alignment",
+        "score": 0.955
+      },
+      {
+        "text": "military",
+        "start": 72.673,
+        "end": 73.153,
+        "source": "whisperx_forced_alignment",
+        "score": 0.791
+      }
+    ],
+    [
+      {
+        "text": "engineering",
+        "start": 73.213,
+        "end": 73.633,
+        "source": "whisperx_forced_alignment",
+        "score": 0.865
+      }
+    ],
+    [
+      {
+        "text": "department",
+        "start": 73.673,
+        "end": 74.093,
+        "source": "whisperx_forced_alignment",
+        "score": 0.751
+      }
+    ],
+    [
+      {
+        "text": "gave",
+        "start": 74.153,
+        "end": 74.353,
+        "source": "whisperx_forced_alignment",
+        "score": 0.767
+      },
+      {
+        "text": "permission",
+        "start": 74.413,
+        "end": 74.793,
+        "source": "whisperx_forced_alignment",
+        "score": 0.833
+      }
+    ],
+    [
+      {
+        "text": "to",
+        "start": 74.833,
+        "end": 74.933,
+        "source": "whisperx_forced_alignment",
+        "score": 0.606
+      },
+      {
+        "text": "install",
+        "start": 74.993,
+        "end": 75.393,
+        "source": "whisperx_forced_alignment",
+        "score": 0.927
+      },
+      {
+        "text": "antennas.",
+        "start": 75.453,
+        "end": 75.953,
+        "source": "whisperx_forced_alignment",
+        "score": 0.884
+      }
+    ],
+    [
+      {
+        "text": "Ferrié's",
+        "start": 76.613,
+        "end": 77.053,
+        "source": "whisperx_forced_alignment",
+        "score": 0.815
+      },
+      {
+        "text": "team",
+        "start": 77.134,
+        "end": 77.394,
+        "source": "whisperx_forced_alignment",
+        "score": 0.914
+      }
+    ],
+    [
+      {
+        "text": "worked",
+        "start": 77.474,
+        "end": 77.714,
+        "source": "whisperx_forced_alignment",
+        "score": 0.833
+      },
+      {
+        "text": "in",
+        "start": 77.774,
+        "end": 77.834,
+        "source": "whisperx_forced_alignment",
+        "score": 0.772
+      },
+      {
+        "text": "a",
+        "start": 77.874,
+        "end": 77.914,
+        "source": "whisperx_forced_alignment",
+        "score": 0.5
+      }
+    ],
+    [
+      {
+        "text": "wooden",
+        "start": 77.994,
+        "end": 78.294,
+        "source": "whisperx_forced_alignment",
+        "score": 0.651
+      },
+      {
+        "text": "room",
+        "start": 78.354,
+        "end": 78.574,
+        "source": "whisperx_forced_alignment",
+        "score": 0.676
+      }
+    ],
+    [
+      {
+        "text": "near",
+        "start": 78.634,
+        "end": 78.774,
+        "source": "whisperx_forced_alignment",
+        "score": 0.694
+      },
+      {
+        "text": "the",
+        "start": 78.814,
+        "end": 78.894,
+        "source": "whisperx_forced_alignment",
+        "score": 0.833
+      }
+    ],
+    [
+      {
+        "text": "tower's",
+        "start": 78.954,
+        "end": 79.314,
+        "source": "whisperx_forced_alignment",
+        "score": 0.72
+      },
+      {
+        "text": "southern",
+        "start": 79.394,
+        "end": 79.714,
+        "source": "whisperx_forced_alignment",
+        "score": 0.879
+      }
+    ],
+    [
+      {
+        "text": "leg.",
+        "start": 79.754,
+        "end": 79.994,
+        "source": "whisperx_forced_alignment",
+        "score": 0.992
+      }
+    ],
+    [
+      {
+        "text": "Now",
+        "start": 80.694,
+        "end": 80.934,
+        "source": "whisperx_forced_alignment",
+        "score": 0.789
+      },
+      {
+        "text": "the",
+        "start": 81.194,
+        "end": 81.294,
+        "source": "whisperx_forced_alignment",
+        "score": 0.807
+      },
+      {
+        "text": "tall",
+        "start": 81.354,
+        "end": 81.614,
+        "source": "whisperx_forced_alignment",
+        "score": 0.94
+      }
+    ],
+    [
+      {
+        "text": "structure",
+        "start": 81.654,
+        "end": 82.034,
+        "source": "whisperx_forced_alignment",
+        "score": 0.813
+      },
+      {
+        "text": "in",
+        "start": 82.054,
+        "end": 82.134,
+        "source": "whisperx_forced_alignment",
+        "score": 0.883
+      },
+      {
+        "text": "Paris",
+        "start": 82.194,
+        "end": 82.554,
+        "source": "whisperx_forced_alignment",
+        "score": 0.727
+      }
+    ],
+    [
+      {
+        "text": "was",
+        "start": 82.614,
+        "end": 82.734,
+        "source": "whisperx_forced_alignment",
+        "score": 0.98
+      },
+      {
+        "text": "sending",
+        "start": 82.794,
+        "end": 83.115,
+        "source": "whisperx_forced_alignment",
+        "score": 0.876
+      },
+      {
+        "text": "signals",
+        "start": 83.195,
+        "end": 83.515,
+        "source": "whisperx_forced_alignment",
+        "score": 0.799
+      }
+    ],
+    [
+      {
+        "text": "to",
+        "start": 83.555,
+        "end": 83.655,
+        "source": "whisperx_forced_alignment",
+        "score": 0.816
+      },
+      {
+        "text": "fortresses",
+        "start": 83.735,
+        "end": 84.295,
+        "source": "whisperx_forced_alignment",
+        "score": 0.78
+      }
+    ],
+    [
+      {
+        "text": "in",
+        "start": 84.375,
+        "end": 84.455,
+        "source": "whisperx_forced_alignment",
+        "score": 0.83
+      },
+      {
+        "text": "eastern",
+        "start": 84.575,
+        "end": 84.895,
+        "source": "whisperx_forced_alignment",
+        "score": 0.809
+      },
+      {
+        "text": "France,",
+        "start": 84.955,
+        "end": 85.295,
+        "source": "whisperx_forced_alignment",
+        "score": 0.865
+      }
+    ],
+    [
+      {
+        "text": "exactly",
+        "start": 85.775,
+        "end": 86.335,
+        "source": "whisperx_forced_alignment",
+        "score": 0.892
+      }
+    ],
+    [
+      {
+        "text": "where",
+        "start": 86.375,
+        "end": 86.515,
+        "source": "whisperx_forced_alignment",
+        "score": 0.91
+      },
+      {
+        "text": "the",
+        "start": 86.555,
+        "end": 86.635,
+        "source": "whisperx_forced_alignment",
+        "score": 0.866
+      },
+      {
+        "text": "army",
+        "start": 86.735,
+        "end": 86.975,
+        "source": "whisperx_forced_alignment",
+        "score": 0.737
+      }
+    ],
+    [
+      {
+        "text": "needed",
+        "start": 87.055,
+        "end": 87.295,
+        "source": "whisperx_forced_alignment",
+        "score": 0.941
+      }
+    ],
+    [
+      {
+        "text": "communication.",
+        "start": 87.335,
+        "end": 88.055,
+        "source": "whisperx_forced_alignment",
+        "score": 0.794
+      }
+    ],
+    [
+      {
+        "text": "Later,",
+        "start": 88.776,
+        "end": 89.056,
+        "source": "whisperx_forced_alignment",
+        "score": 0.83
+      },
+      {
+        "text": "signals",
+        "start": 89.476,
+        "end": 89.776,
+        "source": "whisperx_forced_alignment",
+        "score": 0.785
+      }
+    ],
+    [
+      {
+        "text": "from",
+        "start": 89.816,
+        "end": 89.916,
+        "source": "whisperx_forced_alignment",
+        "score": 0.94
+      },
+      {
+        "text": "the",
+        "start": 89.956,
+        "end": 90.036,
+        "source": "whisperx_forced_alignment",
+        "score": 0.833
+      },
+      {
+        "text": "tower",
+        "start": 90.076,
+        "end": 90.376,
+        "source": "whisperx_forced_alignment",
+        "score": 0.869
+      }
+    ],
+    [
+      {
+        "text": "reached",
+        "start": 90.476,
+        "end": 90.696,
+        "source": "whisperx_forced_alignment",
+        "score": 0.846
+      }
+    ],
+    [
+      {
+        "text": "a",
+        "start": 90.736,
+        "end": 90.776,
+        "source": "whisperx_forced_alignment",
+        "score": 0.512
+      },
+      {
+        "text": "military",
+        "start": 90.836,
+        "end": 91.296,
+        "source": "whisperx_forced_alignment",
+        "score": 0.812
+      },
+      {
+        "text": "base",
+        "start": 91.356,
+        "end": 91.596,
+        "source": "whisperx_forced_alignment",
+        "score": 0.871
+      }
+    ],
+    [
+      {
+        "text": "in",
+        "start": 91.696,
+        "end": 91.776,
+        "source": "whisperx_forced_alignment",
+        "score": 0.832
+      },
+      {
+        "text": "Bizerte,",
+        "start": 91.816,
+        "end": 92.376,
+        "source": "whisperx_forced_alignment",
+        "score": 0.849
+      },
+      {
+        "text": "Tunisia.",
+        "start": 92.556,
+        "end": 93.056,
+        "source": "whisperx_forced_alignment",
+        "score": 0.882
+      }
+    ],
+    [
+      {
+        "text": "In",
+        "start": 93.936,
+        "end": 94.216,
+        "source": "whisperx_forced_alignment",
+        "score": 0.615
+      },
+      {
+        "text": "1909,",
+        "start": 94.257,
+        "end": 94.657,
+        "source": "whisperx_forced_alignment",
+        "score": 0.62
+      },
+      {
+        "text": "a",
+        "start": 94.937,
+        "end": 94.977,
+        "source": "whisperx_forced_alignment",
+        "score": 0.998
+      }
+    ],
+    [
+      {
+        "text": "permanent",
+        "start": 95.057,
+        "end": 95.457,
+        "source": "whisperx_forced_alignment",
+        "score": 0.82
+      },
+      {
+        "text": "military",
+        "start": 95.517,
+        "end": 95.997,
+        "source": "whisperx_forced_alignment",
+        "score": 0.687
+      }
+    ],
+    [
+      {
+        "text": "radio",
+        "start": 96.057,
+        "end": 96.357,
+        "source": "whisperx_forced_alignment",
+        "score": 0.999
+      },
+      {
+        "text": "station",
+        "start": 96.397,
+        "end": 96.737,
+        "source": "whisperx_forced_alignment",
+        "score": 0.903
+      }
+    ],
+    [
+      {
+        "text": "was",
+        "start": 96.797,
+        "end": 96.917,
+        "source": "whisperx_forced_alignment",
+        "score": 0.666
+      },
+      {
+        "text": "installed",
+        "start": 96.977,
+        "end": 97.437,
+        "source": "whisperx_forced_alignment",
+        "score": 0.841
+      }
+    ],
+    [
+      {
+        "text": "beneath",
+        "start": 97.477,
+        "end": 97.837,
+        "source": "whisperx_forced_alignment",
+        "score": 0.894
+      },
+      {
+        "text": "the",
+        "start": 97.897,
+        "end": 97.997,
+        "source": "whisperx_forced_alignment",
+        "score": 0.72
+      }
+    ],
+    [
+      {
+        "text": "Champ",
+        "start": 98.077,
+        "end": 98.297,
+        "source": "whisperx_forced_alignment",
+        "score": 0.724
+      },
+      {
+        "text": "de",
+        "start": 98.317,
+        "end": 98.397,
+        "source": "whisperx_forced_alignment",
+        "score": 0.93
+      },
+      {
+        "text": "Mars.",
+        "start": 98.437,
+        "end": 98.757,
+        "source": "whisperx_forced_alignment",
+        "score": 0.903
+      }
+    ],
+    [
+      {
+        "text": "The",
+        "start": 99.377,
+        "end": 99.477,
+        "source": "whisperx_forced_alignment",
+        "score": 0.668
+      },
+      {
+        "text": "equipment",
+        "start": 99.517,
+        "end": 99.877,
+        "source": "whisperx_forced_alignment",
+        "score": 0.886
+      }
+    ],
+    [
+      {
+        "text": "was",
+        "start": 99.917,
+        "end": 100.018,
+        "source": "whisperx_forced_alignment",
+        "score": 0.813
+      },
+      {
+        "text": "placed",
+        "start": 100.118,
+        "end": 100.378,
+        "source": "whisperx_forced_alignment",
+        "score": 0.723
+      }
+    ],
+    [
+      {
+        "text": "underground,",
+        "start": 100.498,
+        "end": 101.098,
+        "source": "whisperx_forced_alignment",
+        "score": 0.772
+      }
+    ],
+    [
+      {
+        "text": "while",
+        "start": 101.378,
+        "end": 101.518,
+        "source": "whisperx_forced_alignment",
+        "score": 0.806
+      },
+      {
+        "text": "the",
+        "start": 101.558,
+        "end": 101.638,
+        "source": "whisperx_forced_alignment",
+        "score": 0.834
+      },
+      {
+        "text": "antennas",
+        "start": 101.678,
+        "end": 102.158,
+        "source": "whisperx_forced_alignment",
+        "score": 0.851
+      }
+    ],
+    [
+      {
+        "text": "were",
+        "start": 102.198,
+        "end": 102.338,
+        "source": "whisperx_forced_alignment",
+        "score": 0.77
+      },
+      {
+        "text": "mounted",
+        "start": 102.398,
+        "end": 102.738,
+        "source": "whisperx_forced_alignment",
+        "score": 0.906
+      },
+      {
+        "text": "on",
+        "start": 102.818,
+        "end": 102.878,
+        "source": "whisperx_forced_alignment",
+        "score": 0.768
+      }
+    ],
+    [
+      {
+        "text": "the",
+        "start": 102.898,
+        "end": 102.998,
+        "source": "whisperx_forced_alignment",
+        "score": 0.667
+      },
+      {
+        "text": "Eiffel",
+        "start": 103.058,
+        "end": 103.298,
+        "source": "whisperx_forced_alignment",
+        "score": 0.686
+      },
+      {
+        "text": "Tower.",
+        "start": 103.338,
+        "end": 103.658,
+        "source": "whisperx_forced_alignment",
+        "score": 0.862
+      }
+    ],
+    [
+      {
+        "text": "A",
+        "start": 104.358,
+        "end": 104.398,
+        "source": "whisperx_forced_alignment",
+        "score": 0.73
+      },
+      {
+        "text": "tower",
+        "start": 104.478,
+        "end": 104.798,
+        "source": "whisperx_forced_alignment",
+        "score": 0.799
+      },
+      {
+        "text": "built",
+        "start": 104.878,
+        "end": 105.078,
+        "source": "whisperx_forced_alignment",
+        "score": 0.691
+      }
+    ],
+    [
+      {
+        "text": "for",
+        "start": 105.118,
+        "end": 105.218,
+        "source": "whisperx_forced_alignment",
+        "score": 0.95
+      },
+      {
+        "text": "an",
+        "start": 105.258,
+        "end": 105.318,
+        "source": "whisperx_forced_alignment",
+        "score": 0.75
+      },
+      {
+        "text": "exhibition",
+        "start": 105.398,
+        "end": 105.979,
+        "source": "whisperx_forced_alignment",
+        "score": 0.834
+      }
+    ],
+    [
+      {
+        "text": "had",
+        "start": 106.059,
+        "end": 106.159,
+        "source": "whisperx_forced_alignment",
+        "score": 0.876
+      },
+      {
+        "text": "become",
+        "start": 106.199,
+        "end": 106.499,
+        "source": "whisperx_forced_alignment",
+        "score": 0.818
+      }
+    ],
+    [
+      {
+        "text": "part",
+        "start": 106.599,
+        "end": 106.839,
+        "source": "whisperx_forced_alignment",
+        "score": 0.898
+      },
+      {
+        "text": "of",
+        "start": 106.879,
+        "end": 106.959,
+        "source": "whisperx_forced_alignment",
+        "score": 0.518
+      },
+      {
+        "text": "military",
+        "start": 107.079,
+        "end": 107.559,
+        "source": "whisperx_forced_alignment",
+        "score": 0.709
+      }
+    ],
+    [
+      {
+        "text": "communications.",
+        "start": 107.599,
+        "end": 108.339,
+        "source": "whisperx_forced_alignment",
+        "score": 0.889
+      }
+    ],
+    [
+      {
+        "text": "Its",
+        "start": 108.999,
+        "end": 109.099,
+        "source": "whisperx_forced_alignment",
+        "score": 0.797
+      },
+      {
+        "text": "antennas",
+        "start": 109.159,
+        "end": 109.599,
+        "source": "whisperx_forced_alignment",
+        "score": 0.841
+      },
+      {
+        "text": "stood",
+        "start": 109.639,
+        "end": 109.859,
+        "source": "whisperx_forced_alignment",
+        "score": 0.613
+      }
+    ],
+    [
+      {
+        "text": "high",
+        "start": 109.979,
+        "end": 110.199,
+        "source": "whisperx_forced_alignment",
+        "score": 0.85
+      },
+      {
+        "text": "above",
+        "start": 110.259,
+        "end": 110.459,
+        "source": "whisperx_forced_alignment",
+        "score": 0.881
+      },
+      {
+        "text": "Paris,",
+        "start": 110.539,
+        "end": 110.899,
+        "source": "whisperx_forced_alignment",
+        "score": 0.888
+      }
+    ],
+    [
+      {
+        "text": "while",
+        "start": 111.239,
+        "end": 111.379,
+        "source": "whisperx_forced_alignment",
+        "score": 0.899
+      },
+      {
+        "text": "the",
+        "start": 111.42,
+        "end": 111.5,
+        "source": "whisperx_forced_alignment",
+        "score": 0.833
+      }
+    ],
+    [
+      {
+        "text": "radio",
+        "start": 111.56,
+        "end": 111.86,
+        "source": "whisperx_forced_alignment",
+        "score": 0.848
+      },
+      {
+        "text": "station",
+        "start": 111.88,
+        "end": 112.2,
+        "source": "whisperx_forced_alignment",
+        "score": 0.81
+      }
+    ],
+    [
+      {
+        "text": "itself",
+        "start": 112.24,
+        "end": 112.66,
+        "source": "whisperx_forced_alignment",
+        "score": 0.863
+      },
+      {
+        "text": "was",
+        "start": 112.84,
+        "end": 112.96,
+        "source": "whisperx_forced_alignment",
+        "score": 0.825
+      },
+      {
+        "text": "housed",
+        "start": 113.0,
+        "end": 113.36,
+        "source": "whisperx_forced_alignment",
+        "score": 0.77
+      }
+    ],
+    [
+      {
+        "text": "underground.",
+        "start": 113.44,
+        "end": 113.98,
+        "source": "whisperx_forced_alignment",
+        "score": 0.781
+      }
+    ]
+  ],
+  "resolved": {
+    "resolved_font_size_px": 104,
+    "max_visible_width_px": 1024.0,
+    "center_x_px": 680.0,
+    "baseline": 1993,
+    "algorithm": "sentence-syntax-width-v5",
+    "display_intervals": [
+      {
+        "start_frame": 0,
+        "end_frame": 28
+      },
+      {
+        "start_frame": 28,
+        "end_frame": 49
+      },
+      {
+        "start_frame": 49,
+        "end_frame": 70
+      },
+      {
+        "start_frame": 70,
+        "end_frame": 98
+      },
+      {
+        "start_frame": 98,
+        "end_frame": 126
+      },
+      {
+        "start_frame": 126,
+        "end_frame": 178
+      },
+      {
+        "start_frame": 178,
+        "end_frame": 212
+      },
+      {
+        "start_frame": 212,
+        "end_frame": 226
+      },
+      {
+        "start_frame": 226,
+        "end_frame": 242
+      },
+      {
+        "start_frame": 242,
+        "end_frame": 260
+      },
+      {
+        "start_frame": 260,
+        "end_frame": 287
+      },
+      {
+        "start_frame": 287,
+        "end_frame": 317
+      },
+      {
+        "start_frame": 317,
+        "end_frame": 352
+      },
+      {
+        "start_frame": 352,
+        "end_frame": 378
+      },
+      {
+        "start_frame": 378,
+        "end_frame": 403
+      },
+      {
+        "start_frame": 403,
+        "end_frame": 427
+      },
+      {
+        "start_frame": 427,
+        "end_frame": 452
+      },
+      {
+        "start_frame": 452,
+        "end_frame": 468
+      },
+      {
+        "start_frame": 468,
+        "end_frame": 503
+      },
+      {
+        "start_frame": 503,
+        "end_frame": 524
+      },
+      {
+        "start_frame": 524,
+        "end_frame": 560
+      },
+      {
+        "start_frame": 560,
+        "end_frame": 573
+      },
+      {
+        "start_frame": 573,
+        "end_frame": 602
+      },
+      {
+        "start_frame": 602,
+        "end_frame": 649
+      },
+      {
+        "start_frame": 649,
+        "end_frame": 682
+      },
+      {
+        "start_frame": 682,
+        "end_frame": 718
+      },
+      {
+        "start_frame": 718,
+        "end_frame": 749
+      },
+      {
+        "start_frame": 749,
+        "end_frame": 789
+      },
+      {
+        "start_frame": 789,
+        "end_frame": 838
+      },
+      {
+        "start_frame": 838,
+        "end_frame": 888
+      },
+      {
+        "start_frame": 888,
+        "end_frame": 925
+      },
+      {
+        "start_frame": 925,
+        "end_frame": 952
+      },
+      {
+        "start_frame": 952,
+        "end_frame": 979
+      },
+      {
+        "start_frame": 979,
+        "end_frame": 1000
+      },
+      {
+        "start_frame": 1000,
+        "end_frame": 1025
+      },
+      {
+        "start_frame": 1025,
+        "end_frame": 1061
+      },
+      {
+        "start_frame": 1061,
+        "end_frame": 1079
+      },
+      {
+        "start_frame": 1079,
+        "end_frame": 1099
+      },
+      {
+        "start_frame": 1099,
+        "end_frame": 1119
+      },
+      {
+        "start_frame": 1119,
+        "end_frame": 1162
+      },
+      {
+        "start_frame": 1162,
+        "end_frame": 1194
+      },
+      {
+        "start_frame": 1194,
+        "end_frame": 1217
+      },
+      {
+        "start_frame": 1217,
+        "end_frame": 1244
+      },
+      {
+        "start_frame": 1244,
+        "end_frame": 1264
+      },
+      {
+        "start_frame": 1264,
+        "end_frame": 1306
+      },
+      {
+        "start_frame": 1306,
+        "end_frame": 1345
+      },
+      {
+        "start_frame": 1345,
+        "end_frame": 1375
+      },
+      {
+        "start_frame": 1375,
+        "end_frame": 1410
+      },
+      {
+        "start_frame": 1410,
+        "end_frame": 1435
+      },
+      {
+        "start_frame": 1435,
+        "end_frame": 1453
+      },
+      {
+        "start_frame": 1453,
+        "end_frame": 1495
+      },
+      {
+        "start_frame": 1495,
+        "end_frame": 1513
+      },
+      {
+        "start_frame": 1513,
+        "end_frame": 1526
+      },
+      {
+        "start_frame": 1526,
+        "end_frame": 1564
+      },
+      {
+        "start_frame": 1564,
+        "end_frame": 1589
+      },
+      {
+        "start_frame": 1589,
+        "end_frame": 1617
+      },
+      {
+        "start_frame": 1617,
+        "end_frame": 1636
+      },
+      {
+        "start_frame": 1636,
+        "end_frame": 1680
+      },
+      {
+        "start_frame": 1680,
+        "end_frame": 1699
+      },
+      {
+        "start_frame": 1699,
+        "end_frame": 1719
+      },
+      {
+        "start_frame": 1719,
+        "end_frame": 1738
+      },
+      {
+        "start_frame": 1738,
+        "end_frame": 1757
+      },
+      {
+        "start_frame": 1757,
+        "end_frame": 1777
+      },
+      {
+        "start_frame": 1777,
+        "end_frame": 1820
+      },
+      {
+        "start_frame": 1820,
+        "end_frame": 1837
+      },
+      {
+        "start_frame": 1837,
+        "end_frame": 1867
+      },
+      {
+        "start_frame": 1867,
+        "end_frame": 1881
+      },
+      {
+        "start_frame": 1881,
+        "end_frame": 1899
+      },
+      {
+        "start_frame": 1899,
+        "end_frame": 1945
+      },
+      {
+        "start_frame": 1945,
+        "end_frame": 1977
+      },
+      {
+        "start_frame": 1977,
+        "end_frame": 2012
+      },
+      {
+        "start_frame": 2012,
+        "end_frame": 2022
+      },
+      {
+        "start_frame": 2022,
+        "end_frame": 2058
+      },
+      {
+        "start_frame": 2058,
+        "end_frame": 2085
+      },
+      {
+        "start_frame": 2085,
+        "end_frame": 2119
+      },
+      {
+        "start_frame": 2119,
+        "end_frame": 2133
+      },
+      {
+        "start_frame": 2133,
+        "end_frame": 2177
+      },
+      {
+        "start_frame": 2177,
+        "end_frame": 2197
+      },
+      {
+        "start_frame": 2197,
+        "end_frame": 2211
+      },
+      {
+        "start_frame": 2211,
+        "end_frame": 2225
+      },
+      {
+        "start_frame": 2225,
+        "end_frame": 2245
+      },
+      {
+        "start_frame": 2245,
+        "end_frame": 2299
+      },
+      {
+        "start_frame": 2299,
+        "end_frame": 2325
+      },
+      {
+        "start_frame": 2325,
+        "end_frame": 2340
+      },
+      {
+        "start_frame": 2340,
+        "end_frame": 2360
+      },
+      {
+        "start_frame": 2360,
+        "end_frame": 2369
+      },
+      {
+        "start_frame": 2369,
+        "end_frame": 2393
+      },
+      {
+        "start_frame": 2393,
+        "end_frame": 2421
+      },
+      {
+        "start_frame": 2421,
+        "end_frame": 2450
+      },
+      {
+        "start_frame": 2450,
+        "end_frame": 2479
+      },
+      {
+        "start_frame": 2479,
+        "end_frame": 2507
+      },
+      {
+        "start_frame": 2507,
+        "end_frame": 2532
+      },
+      {
+        "start_frame": 2532,
+        "end_frame": 2574
+      },
+      {
+        "start_frame": 2574,
+        "end_frame": 2592
+      },
+      {
+        "start_frame": 2592,
+        "end_frame": 2612
+      },
+      {
+        "start_frame": 2612,
+        "end_frame": 2621
+      },
+      {
+        "start_frame": 2621,
+        "end_frame": 2664
+      },
+      {
+        "start_frame": 2664,
+        "end_frame": 2695
+      },
+      {
+        "start_frame": 2695,
+        "end_frame": 2715
+      },
+      {
+        "start_frame": 2715,
+        "end_frame": 2723
+      },
+      {
+        "start_frame": 2723,
+        "end_frame": 2751
+      },
+      {
+        "start_frame": 2751,
+        "end_frame": 2819
+      },
+      {
+        "start_frame": 2819,
+        "end_frame": 2852
+      },
+      {
+        "start_frame": 2852,
+        "end_frame": 2882
+      },
+      {
+        "start_frame": 2882,
+        "end_frame": 2904
+      },
+      {
+        "start_frame": 2904,
+        "end_frame": 2925
+      },
+      {
+        "start_frame": 2925,
+        "end_frame": 2943
+      },
+      {
+        "start_frame": 2943,
+        "end_frame": 2982
+      },
+      {
+        "start_frame": 2982,
+        "end_frame": 2998
+      },
+      {
+        "start_frame": 2998,
+        "end_frame": 3015
+      },
+      {
+        "start_frame": 3015,
+        "end_frame": 3042
+      },
+      {
+        "start_frame": 3042,
+        "end_frame": 3066
+      },
+      {
+        "start_frame": 3066,
+        "end_frame": 3087
+      },
+      {
+        "start_frame": 3087,
+        "end_frame": 3131
+      },
+      {
+        "start_frame": 3131,
+        "end_frame": 3154
+      },
+      {
+        "start_frame": 3154,
+        "end_frame": 3182
+      },
+      {
+        "start_frame": 3182,
+        "end_frame": 3198
+      },
+      {
+        "start_frame": 3198,
+        "end_frame": 3228
+      },
+      {
+        "start_frame": 3228,
+        "end_frame": 3270
+      },
+      {
+        "start_frame": 3270,
+        "end_frame": 3300
+      },
+      {
+        "start_frame": 3300,
+        "end_frame": 3338
+      },
+      {
+        "start_frame": 3338,
+        "end_frame": 3347
+      },
+      {
+        "start_frame": 3347,
+        "end_frame": 3368
+      },
+      {
+        "start_frame": 3368,
+        "end_frame": 3404
+      },
+      {
+        "start_frame": 3404,
+        "end_frame": 3428
+      }
+    ],
+    "boundary_warnings": [
+      {
+        "after_group": 7,
+        "left": "antennas",
+        "right": "were lifted",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 8,
+        "left": "were lifted",
+        "right": "by tethered",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 11,
+        "left": "but this depended",
+        "right": "on the weather.",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 19,
+        "left": "A tower built",
+        "right": "for an exhibition,",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 21,
+        "left": "not for the",
+        "right": "military, could",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 22,
+        "left": "military, could",
+        "right": "serve that purpose.",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 27,
+        "left": "in 1889 for",
+        "right": "the World's Fair.",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 36,
+        "left": "This showed that",
+        "right": "the tower could",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 37,
+        "left": "the tower could",
+        "right": "be used for",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 38,
+        "left": "be used for",
+        "right": "radio experiments.",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 42,
+        "left": "prove that radio",
+        "right": "would be useful",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 56,
+        "left": "radio for the",
+        "right": "French military.",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 59,
+        "left": "and receivers",
+        "right": "were tested",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 64,
+        "left": "Some within the",
+        "right": "military doubted",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 65,
+        "left": "military doubted",
+        "right": "that the new",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 67,
+        "left": "technology",
+        "right": "would be useful.",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 83,
+        "left": "worked in a",
+        "right": "wooden room",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 85,
+        "left": "near the",
+        "right": "tower's southern",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 89,
+        "left": "structure in Paris",
+        "right": "was sending signals",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 93,
+        "left": "exactly",
+        "right": "where the army",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 102,
+        "left": "In 1909, a",
+        "right": "permanent military",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 104,
+        "left": "radio station",
+        "right": "was installed",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 106,
+        "left": "beneath the",
+        "right": "Champ de Mars.",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 108,
+        "left": "The equipment",
+        "right": "was placed",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 111,
+        "left": "while the antennas",
+        "right": "were mounted on",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 112,
+        "left": "were mounted on",
+        "right": "the Eiffel Tower.",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 114,
+        "left": "A tower built",
+        "right": "for an exhibition",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 115,
+        "left": "for an exhibition",
+        "right": "had become",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 121,
+        "left": "while the",
+        "right": "radio station",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      }
+    ]
+  }
+}

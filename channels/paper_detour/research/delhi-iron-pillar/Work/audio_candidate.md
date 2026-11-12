@@ -1,0 +1,3 @@
+# Аудио v02 — для монтажной проверки
+
+Голос Lawrence, источник 98cd732f65a86735d2487f528db55334c28b5a2d5fa22f7ce326d30c12d75cf8; ускорение atempo=1.1 ровно один раз, без обрезок, PCM. Музыкальный фон Limit 70 — Kevin MacLeod, ISRC USUAN1900042, файл b3d2463a32cd6e87a2e0bdb9056113f3702883acbe617a6b029cc14c85561f33. CC BY 4.0: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1900042 ; https://creativecommons.org/licenses/by/4.0/ . Отрывок с 0:00, уровень 0.12, fade in 0.5s, fade out с 35.45s 0.7s; стерео 48kHz. Микс 6ab3d7ec579a0b2b6fcbcb1845c729c3c169407ffe31ecbc6e562f6549ee4e8c. Слуховая оценка и suitability музыки UNVERIFIED; это не принятие пользователем.

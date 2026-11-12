@@ -1,0 +1,169 @@
+{
+  "schema": "ytv-render-v1",
+  "origin": "render",
+  "export_contract": {
+    "original": {
+      "path": "/Users/diplomat/ytvideos/.agent/research/2026-11-10-four-shorts/production/history_hiroshima/export_review_v03.json",
+      "sha256": "c79eceeee7d493c008d97f9e62e3d7d88d8c34d4b24658f3ddcc8328ea785898"
+    },
+    "snapshot": {
+      "path": "/Users/diplomat/ytvideos/.agent/research/2026-11-10-four-shorts/production/history_hiroshima/Work/render_review_v03/render_provenance/export_contract.json",
+      "sha256": "c79eceeee7d493c008d97f9e62e3d7d88d8c34d4b24658f3ddcc8328ea785898"
+    }
+  },
+  "command": {
+    "original": {
+      "path": "/Users/diplomat/ytvideos/.agent/research/2026-11-10-four-shorts/production/history_hiroshima/Work/render_review_v03/render_command.json",
+      "sha256": "e91da3865288a44b9c6432dacfb390e85b1b702c670122fadc8fddcde1d7c7f3"
+    },
+    "snapshot": {
+      "path": "/Users/diplomat/ytvideos/.agent/research/2026-11-10-four-shorts/production/history_hiroshima/Work/render_review_v03/render_provenance/render_command.json",
+      "sha256": "e91da3865288a44b9c6432dacfb390e85b1b702c670122fadc8fddcde1d7c7f3"
+    }
+  },
+  "engine": [
+    {
+      "original": {
+        "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/montage.py",
+        "sha256": "62d26c06c972a8d5f9272d4d43068ac4c88909278c75eb56bfa4879fdae3298a"
+      },
+      "snapshot": {
+        "path": "/Users/diplomat/ytvideos/.agent/research/2026-11-10-four-shorts/production/history_hiroshima/Work/render_review_v03/render_provenance/engine_0_montage.py",
+        "sha256": "62d26c06c972a8d5f9272d4d43068ac4c88909278c75eb56bfa4879fdae3298a"
+      }
+    },
+    {
+      "original": {
+        "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/delivery.py",
+        "sha256": "d4611644090f7800fd09dbc3637a54a89b13ce6598edf7cf591cf33dc6275c29"
+      },
+      "snapshot": {
+        "path": "/Users/diplomat/ytvideos/.agent/research/2026-11-10-four-shorts/production/history_hiroshima/Work/render_review_v03/render_provenance/engine_1_delivery.py",
+        "sha256": "d4611644090f7800fd09dbc3637a54a89b13ce6598edf7cf591cf33dc6275c29"
+      }
+    },
+    {
+      "original": {
+        "path": "/Users/diplomat/ytvideos/.agents/skills/ytv-paper-subtitles/scripts/semantic_grouping.py",
+        "sha256": "82b5ede094316fecc3c48c08b388f31e064b1d36b4af40bce58225d2a9a8d2e4"
+      },
+      "snapshot": {
+        "path": "/Users/diplomat/ytvideos/.agent/research/2026-11-10-four-shorts/production/history_hiroshima/Work/render_review_v03/render_provenance/engine_2_semantic_grouping.py",
+        "sha256": "82b5ede094316fecc3c48c08b388f31e064b1d36b4af40bce58225d2a9a8d2e4"
+      }
+    }
+  ],
+  "prepared": {
+    "channel": "nuviko",
+    "format": "short",
+    "subtitle_mode": "words",
+    "audio": "/Users/diplomat/ytvideos/.agent/research/2026-11-10-four-shorts/production/history_hiroshima/voice/mix_110_draft.wav",
+    "canvas": [
+      1440,
+      2560
+    ],
+    "fps": 30,
+    "scenes": [
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/research/2026-11-10-four-shorts/production/history_hiroshima/scenes/S001_candidate.png",
+        "start_frame": 0,
+        "end_frame": 159,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/research/2026-11-10-four-shorts/production/history_hiroshima/scenes/S002_silverplate_candidate_v2.png",
+        "start_frame": 159,
+        "end_frame": 333,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/research/2026-11-10-four-shorts/production/history_hiroshima/scenes/S003_candidate.png",
+        "start_frame": 333,
+        "end_frame": 495,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/research/2026-11-10-four-shorts/production/history_hiroshima/scenes/S004_candidate.png",
+        "start_frame": 495,
+        "end_frame": 621,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/research/2026-11-10-four-shorts/production/history_hiroshima/scenes/S005_candidate.png",
+        "start_frame": 621,
+        "end_frame": 762,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/research/2026-11-10-four-shorts/production/history_hiroshima/scenes/S006_candidate.png",
+        "start_frame": 762,
+        "end_frame": 891,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/research/2026-11-10-four-shorts/production/history_hiroshima/scenes/S007_candidate.png",
+        "start_frame": 891,
+        "end_frame": 1019,
+        "direction": "left_to_right",
+        "zoom": "in"
+      }
+    ],
+    "frames": 1019,
+    "manifest_path": "/Users/diplomat/ytvideos/.agent/research/2026-11-10-four-shorts/production/history_hiroshima/edit_draft.json",
+    "source_transfer": "srgb"
+  },
+  "audio_source": {
+    "codec_name": "pcm_s16le",
+    "sample_rate": "48000",
+    "channels": 2,
+    "duration": "33.966667",
+    "bit_rate": "1536000"
+  },
+  "settings": {
+    "scope": "pre-render settings only; no encoded-result or AV QA",
+    "timeline": {
+      "width": 1440,
+      "height": 2560,
+      "frame_count": 1019,
+      "sample_aspect_ratio": "1:1",
+      "aspect_ratio": "9:16",
+      "output_color_space": "Rec.709 SDR"
+    },
+    "video": {
+      "codec_name": "h264",
+      "pix_fmt": "yuv420p",
+      "scan": "progressive",
+      "cadence": "constant 30/1 fps",
+      "color_primaries": "bt709",
+      "color_transfer": "bt709",
+      "color_space": "bt709",
+      "color_range": "tv"
+    },
+    "audio": {
+      "codec_name": "aac",
+      "profile": "LC",
+      "channels": 2,
+      "sample_rate": 48000,
+      "mode": "aac",
+      "target_bit_rate": 256000
+    },
+    "requested_arguments": {
+      "encoder": "libx264",
+      "video_bitrate": 20000000,
+      "output_pix_fmt": "yuv420p",
+      "fps": "30/1",
+      "audio_codec": "aac",
+      "audio_profile": "aac_low",
+      "audio_bitrate": 256000,
+      "audio_sample_rate": 48000,
+      "audio_channels": 2
+    }
+  },
+  "ffmpeg_version": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+}

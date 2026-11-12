@@ -1,0 +1,619 @@
+{
+  "schema_version": 1,
+  "episode": "046_eiffel_tower_radio",
+  "channel": "paper",
+  "format": "short",
+  "input": "collaborative",
+  "input_evidence": "User accepted the exact v31 Russian narration on 2026-11-05 and explicitly instructed full production through MP4: «огонь. делай раскадровку и все что надо согласно навыкам и доке. жду mp4». Evidence is the current user message; acceptance is not a release/YouTube decision.",
+  "scope": "Full Paper Detour production through immediate delivery of the English Short MP4 for user review, with packaging prepared in parallel as dependencies permit. Prepare title, description, three distinct cover options, hashtags and playlist assignment; tie chapters to the exact rendered version and recheck them if that version changes. Do not upload or publish without a separate explicit user instruction.",
+  "stages": [
+    {
+      "id": "develop_story",
+      "skills": [
+        "ytv-paper-production",
+        "ytv-shorts-story",
+        "ytv-shorts-loop"
+      ],
+      "status": "DONE",
+      "artifacts": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Source/Script/story_ru_draft_v31.md",
+          "version": "story_ru_draft_v31 accepted",
+          "sha256": "f929283b0753daf69699c691659d4e4c9c66358211eac757ead1131efbbedad6"
+        }
+      ],
+      "checks": [
+        {
+          "name": "user_story_acceptance",
+          "status": "PASS",
+          "reviewer": "user",
+          "method": "explicit instruction in current conversation to proceed with storyboard and production",
+          "coverage": "exact Russian narration v31",
+          "evidence": "User message 2026-11-05: «огонь. делай раскадровку и все что надо согласно навыкам и доке. жду mp4»"
+        },
+        {
+          "name": "first_listener_clarity",
+          "status": "PASS",
+          "reviewer": "ChatGPT Extra High; coordinated by user-project owner",
+          "method": "clean separate chat, exact narration only, blind first-listener check",
+          "coverage": "full 224-word narration v31",
+          "evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Source/Research/CONSULTATION_FIRST_LISTENER_SHORT_v31.md"
+        },
+        {
+          "name": "short_speech_loop",
+          "status": "PASS",
+          "reviewer": "coordinator",
+          "method": "exact final/first line read as continuous speech; complete 1909 ending retained",
+          "coverage": "last phrase to first phrase across two cycles",
+          "evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Source/Script/story_ru_draft_v31.md"
+        }
+      ],
+      "dependencies": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Source/Research/CONSULTATION_STORY_SHORT_v30.md",
+          "sha256": "4df2758efe48420a34a2d0a4db807c43f4cb3995d3fc291372171a100dfc9cfc"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Source/Research/CONSULTATION_FIRST_LISTENER_SHORT_v31.md",
+          "sha256": "2599a1c844be3a30ec8f6e2475321d6bbc7702963d36ae51b1902c07f0f94dc8"
+        }
+      ],
+      "skill_runs": [
+        {
+          "skill": "ytv-paper-production",
+          "status": "APPLIED",
+          "evidence": "/Users/diplomat/ytvideos/.agents/skills/ytv-paper-production/references/story-development.md; accepted story v31 and current production scope"
+        },
+        {
+          "skill": "ytv-shorts-story",
+          "status": "APPLIED",
+          "evidence": "/Users/diplomat/ytvideos/.agents/skills/ytv-shorts-story/SKILL.md; first-listener record /Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Source/Research/CONSULTATION_FIRST_LISTENER_SHORT_v31.md"
+        },
+        {
+          "skill": "ytv-shorts-loop",
+          "status": "APPLIED",
+          "evidence": "/Users/diplomat/ytvideos/.agents/skills/ytv-shorts-loop/SKILL.md; exact loop decision in /Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Source/Script/story_ru_draft_v31.md"
+        }
+      ]
+    },
+    {
+      "id": "script",
+      "skills": [
+        "ytv-paper-production"
+      ],
+      "status": "DONE",
+      "artifacts": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Source/Script/narration_en_v31.txt",
+          "version": "narration_en_v31",
+          "sha256": "d93fec9f09085f41a0af4327f1827dedb24b955a1c6415a9db2709494fc6355e"
+        }
+      ],
+      "checks": [
+        {
+          "name": "english_adaptation_submission",
+          "status": "PASS",
+          "reviewer": "coordinator",
+          "method": "Matched the entire visible composer with the saved prompt, then verified the posted message and empty composer after sending.",
+          "coverage": "GPT-6 / Extra High submission of accepted Russian v31 for English adaptation",
+          "evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Source/Research/CONSULTATION_EN_ADAPTATION_v03.md SHA-256 1b265b43d74e6d83676fb631e2dc73a72f15fcc9f00c31db88565b994674fb40"
+        },
+        {
+          "name": "english_adaptation_fidelity",
+          "status": "PASS",
+          "reviewer": "coordinator",
+          "method": "Compared the complete English response with all seven paragraphs of the accepted Russian narration.",
+          "coverage": "Accepted events, factual limits and 1909 ending of v31",
+          "evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Source/Research/CONSULTATION_EN_ADAPTATION_v03.md SHA-256 1b265b43d74e6d83676fb631e2dc73a72f15fcc9f00c31db88565b994674fb40"
+        }
+      ],
+      "dependencies": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Source/Script/story_ru_draft_v31.md",
+          "sha256": "f929283b0753daf69699c691659d4e4c9c66358211eac757ead1131efbbedad6"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Source/Research/CONSULTATION_EN_ADAPTATION_v03.md",
+          "sha256": "1b265b43d74e6d83676fb631e2dc73a72f15fcc9f00c31db88565b994674fb40"
+        }
+      ],
+      "skill_runs": [
+        {
+          "skill": "ytv-paper-production",
+          "status": "APPLIED",
+          "evidence": "Shared production language rule applied to the complete recorded response in /Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Source/Research/CONSULTATION_EN_ADAPTATION_v03.md."
+        }
+      ]
+    },
+    {
+      "id": "storyboard",
+      "skills": [
+        "ytv-paper-storyboard"
+      ],
+      "status": "DONE",
+      "artifacts": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Edit/Storyboard/storyboard_v31.md",
+          "sha256": "6333a62c5ec8b7d5755688c20461496e96441e597437a0249a4e09da20ce265e",
+          "version": "storyboard_v31"
+        }
+      ],
+      "checks": [
+        {
+          "name": "narration_coverage",
+          "status": "PASS",
+          "reviewer": "coordinator",
+          "method": "Concatenated contiguous word ranges and checked the total against the frozen production script.",
+          "coverage": "288 words across 23 scenes, once and in order",
+          "evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Edit/Storyboard/storyboard_v31.md"
+        },
+        {
+          "name": "draft_frame_grid",
+          "status": "PASS",
+          "reviewer": "coordinator",
+          "method": "Checked 23 contiguous, 30 fps frame intervals against the measured narration duration and the 120–180 frame bounds.",
+          "coverage": "Draft visual intervals, no audible subtitle claim",
+          "evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Edit/Storyboard/storyboard_v31.md"
+        },
+        {
+          "name": "paper_sequence_review",
+          "status": "PASS",
+          "reviewer": "coordinator",
+          "method": "Reviewed the scene sequence for purpose, scale, continuity, evidence limits and no loop.",
+          "coverage": "S01–S23 visual plan before PNG review",
+          "evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Edit/Storyboard/storyboard_v31.md"
+        }
+      ],
+      "dependencies": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Source/Research/CONSULTATION_STORYBOARD_V31.md",
+          "sha256": "3c481d8a3b6dc0d5497cc50954a64067f3e9e0fcf5d8f5a4fd37e9f526eae7e7"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Source/Script/narration_en_v31.txt",
+          "sha256": "d93fec9f09085f41a0af4327f1827dedb24b955a1c6415a9db2709494fc6355e"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Source/Voice/en_v31/voice_en.mp3",
+          "sha256": "f8fccc9f54559f2d293770f10f5eeee3619f6ff71eb7cf6a92aaf3ddd6659298"
+        }
+      ],
+      "skill_runs": [
+        {
+          "skill": "ytv-paper-storyboard",
+          "status": "APPLIED",
+          "evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Edit/Storyboard/storyboard_v31.md"
+        }
+      ]
+    },
+    {
+      "id": "audio",
+      "skills": [
+        "ytv-audio-delivery"
+      ],
+      "status": "PENDING",
+      "artifacts": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Source/Voice/en_v31/voice_en.mp3",
+          "sha256": "f8fccc9f54559f2d293770f10f5eeee3619f6ff71eb7cf6a92aaf3ddd6659298",
+          "version": "Lawrence en_v31, 1.10×"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Edit/Subtitles/word_timings_en_v31_source.json",
+          "sha256": "38ddd077ae0e54bd78144a475ff45e1cbb9f332b783d8f697fad8a691fa42566",
+          "version": "source alignment v31"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Edit/Subtitles/alignment_review_en_v31.md",
+          "sha256": "8011881d897f6290fb165fc51bd023477d21db5fc82363c6f41e0e27659c3bd1",
+          "version": "v31 review timing evidence"
+        }
+      ],
+      "checks": [
+        {
+          "name": "voice_identity_and_speed",
+          "status": "PASS",
+          "reviewer": "coordinator",
+          "method": "Compared source hash and provider input hash to the request receipt. Verified the recorded voice ID and speed and measured 114.240 s mono MP3.",
+          "coverage": "New frozen English v31 source",
+          "evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Source/Voice/en_v31/speed_evidence.md"
+        },
+        {
+          "name": "audible_word_alignment",
+          "status": "UNVERIFIED",
+          "reviewer": "codex-eiffel-v31",
+          "method": "Provider/forced waveform alignment comparison; hearing unavailable",
+          "coverage": "All 288 tokens compared, no subjective listening",
+          "evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Edit/Subtitles/alignment_review_en_v31.md"
+        }
+      ],
+      "dependencies": [],
+      "skill_runs": []
+    },
+    {
+      "id": "images",
+      "skills": [
+        "ytv-scene-images",
+        "ytv-image-motion"
+      ],
+      "status": "PENDING",
+      "artifacts": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Source/Images/paper_v31/manifest_v31.json",
+          "sha256": "8473cf3d8762aff0cab23c4137e1f96d7a1c244fcb8230975ab1cd22dc3e03dc",
+          "version": "v31 selected PNGs and motion"
+        }
+      ],
+      "checks": [
+        {
+          "name": "scene_sources_and_crop",
+          "status": "PASS",
+          "reviewer": "codex-eiffel-v31",
+          "method": "Source inspection and offline composites from prepared subtitle states",
+          "coverage": "23 exact selected images; 69 sampled compositions; no continuous playback",
+          "evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Edit/Export/PREFLIGHT_V31.md"
+        }
+      ],
+      "dependencies": [],
+      "skill_runs": [
+        {
+          "skill": "ytv-scene-images",
+          "status": "APPLIED",
+          "evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Edit/Export/PREFLIGHT_V31.md"
+        },
+        {
+          "skill": "ytv-image-motion",
+          "status": "APPLIED",
+          "evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Edit/Export/PREFLIGHT_V31.md"
+        }
+      ]
+    },
+    {
+      "id": "subtitles",
+      "skills": [
+        "ytv-paper-subtitles",
+        "ytv-srt"
+      ],
+      "status": "DONE",
+      "artifacts": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Edit/Export/subtitle_review_remake_v01.json",
+          "version": "pre-render exact-word caption review",
+          "sha256": "c50aa288ab659eb5c3f7bf290dee0339f40e245ba8ba3f1efd5b2836dd55d07b"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Edit/QA/qa-eiffel-remake-20261105/review.json",
+          "version": "post-render caption/continuity review",
+          "sha256": "faffe79db7997fbb3169df8910bec13963e551097c6267fa43a04acad85e89a3"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Work/eiffel-remake-frame-20261105/previews/Paper_Detour_046_Eiffel_Tower_Radio_EN_v31_review_02.srt",
+          "version": "v31 review 02 SRT sidecar",
+          "sha256": "5e397e268cb077536ed999dec18a9dc9d8c001c4c93c7cf6f3fc79e8eadb64e0"
+        }
+      ],
+      "checks": [
+        {
+          "name": "subtitle_continuity",
+          "status": "PASS",
+          "reviewer": "codex-eiffel-remake",
+          "method": "Validated prepared display intervals and exact render sample",
+          "coverage": "Intervals cover [0,3428); review frames through pause/ending",
+          "evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Edit/QA/qa-eiffel-remake-20261105/review.json"
+        },
+        {
+          "name": "semantic_grouping",
+          "status": "FAIL",
+          "reviewer": "codex-eiffel-remake",
+          "method": "Reviewed complete 125-group sequence and sampled frames",
+          "coverage": "29 flagged/awkward boundaries remain",
+          "evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Work/eiffel-remake-frame-20261105/scratch/subtitle-prep-v04/caption_groups.json"
+        },
+        {
+          "name": "audible_sync",
+          "status": "UNVERIFIED",
+          "reviewer": "codex-eiffel-remake",
+          "method": "No subjective listening claimed",
+          "coverage": "Full narration timing remains unverified by listening",
+          "evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Edit/Subtitles/srt_review_remake_v01.json"
+        },
+        {
+          "name": "srt_structure_and_text",
+          "status": "PASS",
+          "reviewer": "codex-eiffel-remake",
+          "method": "srt_tool.py validate against exact narration and measured MP4 duration",
+          "coverage": "32 cues; full literal narration coverage, no overlap/errors; mapping/playback UNVERIFIED",
+          "evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Edit/Subtitles/srt_validation_remake_v01.json"
+        }
+      ],
+      "dependencies": [],
+      "skill_runs": [
+        {
+          "skill": "ytv-paper-subtitles",
+          "status": "APPLIED",
+          "evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Edit/Export/PREFLIGHT_V31.md"
+        },
+        {
+          "skill": "ytv-srt",
+          "status": "APPLIED",
+          "evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Edit/Export/PREFLIGHT_V31.md"
+        }
+      ]
+    },
+    {
+      "id": "render",
+      "skills": [
+        "ytv-video-production",
+        "ytv-video-export",
+        "ytv-video-qa"
+      ],
+      "status": "DONE",
+      "artifacts": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Work/eiffel-remake-frame-20261105/previews/Paper_Detour_046_Eiffel_Tower_Radio_EN_v31_review_02.mp4",
+          "version": "v31 review 02; Paper Frame and visible pan/zoom remake",
+          "sha256": "5b8a647a01e26df6e053d56c9e451b8cd3656012d35c110574ebcd93bb281a33"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Work/eiffel-remake-frame-20261105/montage_remake_v01.json",
+          "version": "remake motion/frame manifest; 3428 frames",
+          "sha256": "e58861204e1dc2595fe421b964d8d617d2e2990b72fe84daa1d5aea2015e8a23"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Edit/Export/RENDER_IMPACT_AUDIT_remake_v01.json",
+          "version": "post-render engine impact audit",
+          "sha256": "a6ad117052a33c7e65ee24469108ad0a04b5155281975ca05afc2dbfff644227"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Edit/Export/EXPORT_CONTRACT_remake_v02.json",
+          "version": "v02 post-render contract state; official renderer receipt absent",
+          "sha256": "85f407900e8c6a251386433a35e1eec1ab49abde19dff57213dea977216a95be"
+        }
+      ],
+      "checks": [
+        {
+          "name": "settings_preflight",
+          "status": "PASS",
+          "reviewer": "codex-eiffel-remake",
+          "method": "Shared renderer --check-settings before encoding",
+          "coverage": "Exact plan, voice, subtitle contract, Paper Frame dependency and H.264/AAC command",
+          "evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Work/eiffel-remake-frame-20261105/scratch/settings-check-v02/settings_check.json"
+        },
+        {
+          "name": "paper_frame_sample",
+          "status": "PASS",
+          "reviewer": "codex-eiffel-remake",
+          "method": "Exported 341-frame implementation sample inspected at phone size",
+          "coverage": "Frames 30,100,160,164,165,250,330; all sides, animation, caption clearance, camera movement",
+          "evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Work/eiffel-remake-frame-20261105/scratch/sample-review-v02/contact.png"
+        },
+        {
+          "name": "renderer_freshness",
+          "status": "PASS_WITH_AUDIT",
+          "reviewer": "codex-eiffel-remake",
+          "method": "Compared frozen engine snapshot and actual command to current shared renderer",
+          "coverage": "Only post-freeze diff is Nuviko-only overlay guard; all Paper render functions match",
+          "evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Edit/Export/RENDER_IMPACT_AUDIT_remake_v01.json"
+        },
+        {
+          "name": "technical_export",
+          "status": "PASS",
+          "reviewer": "codex-eiffel-remake",
+          "method": "ffprobe plus complete FFmpeg video/audio decode",
+          "coverage": "1440×2560, 30 fps, 3428 frames, 114.267s, H.264/AAC mono 44.1 kHz",
+          "evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Edit/QA/qa-eiffel-remake-20261105/report.json"
+        },
+        {
+          "name": "renderer_delivery_receipt",
+          "status": "UNVERIFIED",
+          "reviewer": "codex-eiffel-remake",
+          "method": "Renderer declined receipt creation after post-encode live engine hash mismatch",
+          "coverage": "The output exists and is technically decoded; official VIDEO.mp4.delivery.json was not written. See scoped source audit.",
+          "evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Edit/Export/RENDER_IMPACT_AUDIT_remake_v01.json"
+        }
+      ],
+      "dependencies": [],
+      "skill_runs": [
+        {
+          "skill": "ytv-video-production",
+          "status": "APPLIED",
+          "evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Edit/Export/PREFLIGHT_V31.md"
+        },
+        {
+          "skill": "ytv-video-export",
+          "status": "APPLIED",
+          "evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Edit/Export/PREFLIGHT_V31.md"
+        },
+        {
+          "skill": "ytv-video-qa",
+          "status": "APPLIED",
+          "evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Edit/Export/PREFLIGHT_V31.md"
+        }
+      ]
+    },
+    {
+      "id": "review",
+      "skills": [],
+      "status": "PENDING",
+      "artifacts": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Work/eiffel-remake-frame-20261105/previews/Paper_Detour_046_Eiffel_Tower_Radio_EN_v31_review_02.mp4",
+          "version": "exact user-review output; not accepted for release",
+          "sha256": "5b8a647a01e26df6e053d56c9e451b8cd3656012d35c110574ebcd93bb281a33"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Edit/QA/qa-eiffel-remake-20261105/review.json",
+          "version": "self-review and unresolved checks",
+          "sha256": "faffe79db7997fbb3169df8910bec13963e551097c6267fa43a04acad85e89a3"
+        }
+      ],
+      "checks": [
+        {
+          "name": "technical_export",
+          "status": "PASS",
+          "reviewer": "codex-eiffel-remake",
+          "method": "Managed video QA plus full stream decode",
+          "coverage": "Exact SHA-256 bound; all 452 requested frames extracted and visually reviewed",
+          "evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Edit/QA/qa-eiffel-remake-20261105/report.json"
+        },
+        {
+          "name": "paper_frame",
+          "status": "PASS",
+          "reviewer": "codex-eiffel-remake",
+          "method": "Review exact-frame contact sheets and implementation sample",
+          "coverage": "All sides through the full timeline, animation loop boundaries and ending",
+          "evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Edit/QA/qa-eiffel-remake-20261105/review.json"
+        },
+        {
+          "name": "motion_framing",
+          "status": "PASS",
+          "reviewer": "codex-eiffel-remake",
+          "method": "Review all 452 sampled exact frames against 23-scene plan",
+          "coverage": "Whole-image direction/zoom, protected framing and cuts at phone size",
+          "evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Edit/QA/qa-eiffel-remake-20261105/review.json"
+        },
+        {
+          "name": "semantic_grouping",
+          "status": "FAIL",
+          "reviewer": "codex-eiffel-remake",
+          "method": "Reviewed exact word groups against contact sheets and warning report",
+          "coverage": "125 groups/288 tokens; 29 awkward/ambiguous boundaries remain",
+          "evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Work/eiffel-remake-frame-20261105/scratch/subtitle-prep-v04/caption_groups.json"
+        },
+        {
+          "name": "audible_sync",
+          "status": "UNVERIFIED",
+          "reviewer": "codex-eiffel-remake",
+          "method": "Listening not available in current review pass",
+          "coverage": "Forced alignment and SRT checks do not verify heard synchronization",
+          "evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Edit/Subtitles/srt_review_remake_v01.json"
+        },
+        {
+          "name": "user_mp4_acceptance",
+          "status": "UNVERIFIED",
+          "reviewer": "user",
+          "method": "Exact review_02 file handed over for user review",
+          "coverage": "User has not yet made a decision on this file/hash",
+          "evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Edit/QA/qa-eiffel-remake-20261105/review.json"
+        }
+      ],
+      "dependencies": [],
+      "skill_runs": []
+    },
+    {
+      "id": "packaging",
+      "skills": [
+        "ytv-youtube-video-titles",
+        "ytv-youtube-thumbnails",
+        "ytv-youtube-descriptions",
+        "ytv-youtube-hashtags",
+        "ytv-youtube-playlists"
+      ],
+      "status": "PENDING",
+      "artifacts": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Packaging/Metadata/CONSULTATION_PACKAGING_V31.md",
+          "sha256": "acf4692bdbe7a226a6422a33af1788cda5cbc94efb774afce07b31a30b5b76bb",
+          "version": "completed GPT-6 Extra High"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Packaging/Metadata/METADATA_V31.md",
+          "version": "v31 review title, description, tags and playlist",
+          "sha256": "fd32f238363a3193132dc117bc5c1fc0168357ae8b18d1f14e912ceb88653add"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Packaging/Thumbnails/manifest_v31.json",
+          "version": "v31 three cover options",
+          "sha256": "a741cf9c0cc30f8f73e7ab3c80e1761efc4ee64bebe3eff5a599a4df1202dcbe"
+        }
+      ],
+      "checks": [
+        {
+          "name": "packaging_proposal",
+          "status": "PASS",
+          "reviewer": "codex-eiffel-v31",
+          "method": "Compared titles and cover promises to locked narration and edit",
+          "coverage": "Three concepts, exact English lettering and local 180×270 simulated cards",
+          "evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Packaging/Thumbnails/manifest_v31.json"
+        },
+        {
+          "name": "user_packaging_acceptance",
+          "status": "UNVERIFIED",
+          "reviewer": "user",
+          "method": "Proposed in this chat",
+          "coverage": "No explicit choice of final title or cover",
+          "evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Packaging/Metadata/METADATA_V31.md"
+        }
+      ],
+      "dependencies": [],
+      "skill_runs": [
+        {
+          "skill": "ytv-youtube-video-titles",
+          "status": "APPLIED",
+          "evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Packaging/Metadata/METADATA_V31.md"
+        },
+        {
+          "skill": "ytv-youtube-thumbnails",
+          "status": "APPLIED",
+          "evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Packaging/Thumbnails/manifest_v31.json"
+        },
+        {
+          "skill": "ytv-youtube-descriptions",
+          "status": "APPLIED",
+          "evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Packaging/Metadata/METADATA_V31.md"
+        },
+        {
+          "skill": "ytv-youtube-hashtags",
+          "status": "APPLIED",
+          "evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Packaging/Metadata/METADATA_V31.md"
+        },
+        {
+          "skill": "ytv-youtube-playlists",
+          "status": "APPLIED",
+          "evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Packaging/Metadata/METADATA_V31.md"
+        }
+      ]
+    },
+    {
+      "id": "unlisted",
+      "skills": [
+        "ytv-youtube-release"
+      ],
+      "status": "PENDING",
+      "artifacts": [],
+      "checks": [],
+      "dependencies": [],
+      "skill_runs": []
+    },
+    {
+      "id": "release",
+      "skills": [
+        "ytv-youtube-release",
+        "ytv-media-lifecycle"
+      ],
+      "status": "BLOCKED",
+      "artifacts": [],
+      "checks": [],
+      "dependencies": [],
+      "skill_runs": []
+    }
+  ],
+  "decisions": {
+    "mp4_accepted": {
+      "accepted": true,
+      "target": "Paper_Detour_046_Eiffel_Tower_Radio_EN_no_frame_v01.mp4 sha256:70b5cd353a9394ba4239952195d108ef7e5db94fdf9f1e53f7ad4d6c9d667193",
+      "evidence": "User confirmed watching and accepting the exact frame-free export. See Packaging/Metadata/YOUTUBE_RELEASE_NO_FRAME_V01.md."
+    },
+    "packaging_accepted": {
+      "accepted": true,
+      "target": "cover_A_v32_v01.png sha256:24e156b05c0ce28ac78f4a6195d8bac4ec01383a3cebc4c9a809c6659aaa3afa and metadata in Packaging/Metadata/YOUTUBE_UPLOAD_NO_FRAME_V01.json",
+      "evidence": "User selected the displayed cover and explicitly requested immediate Public. See Packaging/Metadata/YOUTUBE_RELEASE_NO_FRAME_V01.md."
+    },
+    "story_accepted": {
+      "accepted": true,
+      "target": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Source/Script/story_ru_draft_v31.md sha256:f929283b0753daf69699c691659d4e4c9c66358211eac757ead1131efbbedad6",
+      "evidence": "User message in current conversation dated 2026-11-05: «огонь. делай раскадровку и все что надо согласно навыкам и доке. жду mp4»"
+    }
+  },
+  "next_step": "Publication verified Public for t8xjY9jl96Y. The local edit is retired and its media are in recoverable macOS Trash. CURRENT_CONTEXT.md and Packaging/Metadata/YOUTUBE_RELEASE_NO_FRAME_V01.md supersede this historical production map for current release status."
+}

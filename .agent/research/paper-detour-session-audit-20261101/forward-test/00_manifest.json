@@ -1,0 +1,70 @@
+{
+  "test_type": "independent forward simulation; no live services",
+  "output_dir": "/tmp/ytv-paper-production-forward-ve533fo7",
+  "read_inputs": [
+    {
+      "path": "/Users/diplomat/ytvideos/AGENTS.md",
+      "sha256": "3908941eb52aa20968b7f62e2fce64c18c1a0f30e8280a68cb7b3564db320aa9"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/.agent/CHANNEL_BOOTSTRAP.md",
+      "sha256": "280c3fdb31c1800569573cb6e47f5c3a55a953b721495da21ecbf9a93c0c6458"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/.agent/episode-registry.md",
+      "sha256": "413641a0b88c80b006329568e3cd8890d667996b097aad2a345ba43c08b5f8bb"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/.agent/documentation-index.md",
+      "sha256": "e26cde54e26742d0d726bf9a7785a010d98ca5f3d400619736d09f94582ca6db"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/.agent/skill-catalog.md",
+      "sha256": "c997b6282bfbcd244bf2649cf2ecf0b46463e731d2779f52839a45c922387dd4"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/new_channel/AGENTS.md",
+      "sha256": "06ddea848e9f58de707008bc4509b2b99a60332bc1c07db268a8b023690ee158"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/.agents/skills/ytv-paper-production/SKILL.md",
+      "sha256": "1daa98a6fe27df42705e83add8be07063223934435bc5551aa924d21417703c0"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/.agents/skills/ytv-paper-production/references/production-runbook.md",
+      "sha256": "fe0bd4cdfa8a2442e4ee5a9b7a226f179861d1c401629fa1d69ff9c37d5dd8ec"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/.agents/skills/ytv-paper-production/references/story-development.md",
+      "sha256": "12636cc8fddaae27951b720cb4e887c7d82f024b39e40be53f39745fa300b6cd"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/.agents/skills/ytv-paper-production/references/stages-and-handoffs.md",
+      "sha256": "878d739e6e97d707768111cbe450de9c2d60c3407eabc233867be8663a3941ae"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/.agents/skills/ytv-chatgpt-extra-high/SKILL.md",
+      "sha256": "cb81ba23fbb14ff83fb3a0d93450191a44913cd9557f614ba3f2726943190455"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/new_channel/research/2026-11-01-comfort-motivation-story/CURRENT_CONTEXT.md",
+      "sha256": "b6f2014d2ea3fc6e248630c8d6090ee46365da47d187665e9cab9f16db8e6c13"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/new_channel/research/2026-11-01-comfort-motivation-story/ACCEPTED_BASE_FROM_CHAT_20261101.md",
+      "sha256": "e7b71b55299ec9fafbb131ba70fcfc20442860abddf6b6c6a209c88cccf066df"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/new_channel/research/2026-11-01-comfort-motivation-story/NEXT_DRAFT_FROM_CHAT_20261101.md",
+      "sha256": "c5d8627c6b173ed7d014b5c789a3d12c18636486d63b2d5f3bb87c5d9339ca02"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/new_channel/research/2026-11-01-comfort-motivation-story/CHATGPT_EXTRA_HIGH_SCRIPT.md",
+      "sha256": "689d29577547e5c0427695eac983a9ec1f3477eb11df5e0495658fd04737936a"
+    }
+  ],
+  "additional_instruction_source": "/Users/diplomat/.codex/skills/.system/skill-creator/SKILL.md#Independent Forward-Testing",
+  "not_read": "No audit reports, linked audit evidence, raw rollout, or unrelated episode state read.",
+  "actual_side_effects": "Temporary test artifacts only. No canonical docs changed; no browser/ChatGPT/Palmier/audio/imagegen/upload executed.",
+  "consultation_status": "NOT_RUN_SIMULATION_CONSTRAINT; no observed mode label or answer"
+}

@@ -1,0 +1,108 @@
+{
+  "channel": "nuviko",
+  "format": "long",
+  "subtitle_mode": "words",
+  "audio": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Work/production-v01/subtitle_sample_v02/mix_excerpt_000_016.wav",
+  "canvas": [
+    2560,
+    1440
+  ],
+  "fps": 30,
+  "scenes": [
+    {
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_01_01_v01.png",
+      "start_frame": 0,
+      "end_frame": 207,
+      "direction": "left_to_right",
+      "zoom": "in",
+      "camera": {
+        "subject": "On July 8, 1941",
+        "focus": [
+          0.54,
+          0.48
+        ],
+        "direction": "left_to_right",
+        "zoom": "in",
+        "start": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "end": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "reason": "A restrained left-to-right move with a slow approach keeps On July 8, 1941 readable through “On July 8, 1941” and retains its surrounding context."
+      }
+    },
+    {
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_17_04a_v01.png",
+      "start_frame": 207,
+      "end_frame": 300,
+      "direction": "right_to_left",
+      "zoom": "out",
+      "camera": {
+        "subject": "the non-legible report sheets",
+        "focus": [
+          0.55,
+          0.5
+        ],
+        "direction": "right_to_left",
+        "zoom": "out",
+        "start": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "reason": "A restrained right-to-left move with a slow release keeps the non-legible report sheets readable through “signed a report on the fighting for Brest-Litovsk.” and retains its surrounding context."
+      }
+    },
+    {
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_14_01_v02.png",
+      "start_frame": 300,
+      "end_frame": 480,
+      "direction": "left_to_right",
+      "zoom": "none",
+      "camera": {
+        "subject": "the prisoner group",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "left_to_right",
+        "zoom": "none",
+        "start": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.042
+        },
+        "end": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.042
+        },
+        "reason": "A restrained left-to-right move with a steady scale keeps the prisoner group readable through “By then, the main centers” and retains its surrounding context."
+      }
+    }
+  ],
+  "frames": 480,
+  "manifest_path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Work/production-v01/subtitle_sample_v02/sample_plan.json"
+}

@@ -1,0 +1,115 @@
+{
+  "status": "REVIEW_REQUIRED",
+  "method": "two machine estimates only; neither establishes true audio timing",
+  "matched_word_outliers_gt_250ms": [
+    {
+      "word": "of",
+      "eleven_start": 1.0182,
+      "whisper_start": 0.68,
+      "difference": -0.338
+    },
+    {
+      "word": "lay",
+      "eleven_start": 7.1273,
+      "whisper_start": 6.84,
+      "difference": -0.287
+    },
+    {
+      "word": "were",
+      "eleven_start": 12.5455,
+      "whisper_start": 12.24,
+      "difference": -0.306
+    },
+    {
+      "word": "an",
+      "eleven_start": 17.4909,
+      "whisper_start": 17.2,
+      "difference": -0.291
+    },
+    {
+      "word": "Then",
+      "eleven_start": 18.9455,
+      "whisper_start": 18.66,
+      "difference": -0.285
+    },
+    {
+      "word": "it",
+      "eleven_start": 19.2727,
+      "whisper_start": 18.94,
+      "difference": -0.333
+    },
+    {
+      "word": "war.",
+      "eleven_start": 20.0,
+      "whisper_start": 19.74,
+      "difference": -0.26
+    },
+    {
+      "word": "began",
+      "eleven_start": 21.5027,
+      "whisper_start": 21.22,
+      "difference": -0.283
+    },
+    {
+      "word": "declared",
+      "eleven_start": 23.4909,
+      "whisper_start": 23.24,
+      "difference": -0.251
+    },
+    {
+      "word": "war",
+      "eleven_start": 23.8545,
+      "whisper_start": 23.58,
+      "difference": -0.275
+    },
+    {
+      "word": "Russia",
+      "eleven_start": 24.4727,
+      "whisper_start": 24.22,
+      "difference": -0.253
+    },
+    {
+      "word": "France",
+      "eleven_start": 25.1273,
+      "whisper_start": 24.78,
+      "difference": -0.347
+    },
+    {
+      "word": "and",
+      "eleven_start": 25.4545,
+      "whisper_start": 25.2,
+      "difference": -0.255
+    },
+    {
+      "word": "The",
+      "eleven_start": 28.9091,
+      "whisper_start": 28.6,
+      "difference": -0.309
+    },
+    {
+      "word": "triggered",
+      "eleven_start": 29.8909,
+      "whisper_start": 29.46,
+      "difference": -0.431
+    },
+    {
+      "word": "and",
+      "eleven_start": 31.3455,
+      "whisper_start": 30.82,
+      "difference": -0.526
+    },
+    {
+      "word": "turned",
+      "eleven_start": 32.6182,
+      "whisper_start": 32.32,
+      "difference": -0.298
+    },
+    {
+      "word": "great",
+      "eleven_start": 34.3273,
+      "whisper_start": 33.98,
+      "difference": -0.347
+    }
+  ],
+  "whisper_text": "The assassination of Austria-Hungary's heir did not lead to a world war that same day. A month of decisions lay between them. In June 1914, Franz Ferdinand and his wife Sophie were killed in Sarajevo. With Germany's support, Austria-Hungary gave Serbia an ultimatum. Then it declared war. Russia began to mobilize. Germany declared war on Russia and France and invaded Belgium. Britain entered the war too. The assassination triggered a crisis and government's decisions turned it into a war between great powers. That is why."
+}

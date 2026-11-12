@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "media": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Work/production-v02/previews/041_dune_origin_EN_v02_stage16_review.mp4",
+  "sha256": "e27b24ba56d80ef5ac62b5c1b1beca852103a2319b535c5f00835ca7bc9230f0",
+  "frame_recipe": {
+    "ffmpeg_version": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers",
+    "stream": "0:v:0",
+    "index_basis": "zero-based decoded video frame",
+    "fps": "30/1",
+    "reconstruction_command": "ffmpeg -v error -xerror -i /Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Work/production-v02/previews/041_dune_origin_EN_v02_stage16_review.mp4 -map 0:v:0 -vf select=((((((((eq(n\\,0)+eq(n\\,14))+(eq(n\\,28)+eq(n\\,29)))+((eq(n\\,30)+eq(n\\,31))+(eq(n\\,45)+eq(n\\,48))))+(((eq(n\\,59)+eq(n\\,60))+(eq(n\\,61)+eq(n\\,62)))+((eq(n\\,78)+eq(n\\,95))+(eq(n\\,96)+eq(n\\,97)))))+((((eq(n\\,98)+eq(n\\,104))+(eq(n\\,110)+eq(n\\,111)))+((eq(n\\,112)+eq(n\\,124))+(eq(n\\,136)+eq(n\\,137))))+(((eq(n\\,140)+eq(n\\,141))+(eq(n\\,149)+eq(n\\,158)))+((eq(n\\,159)+eq(n\\,160))+(eq(n\\,179)+eq(n\\,199))))))+(((((eq(n\\,200)+eq(n\\,201))+(eq(n\\,202)+eq(n\\,214)))+((eq(n\\,227)+eq(n\\,228))+(eq(n\\,229)+eq(n\\,230))))+(((eq(n\\,240)+eq(n\\,251))+(eq(n\\,252)+eq(n\\,254)))+((eq(n\\,255)+eq(n\\,276))+(eq(n\\,295)+eq(n\\,297)))))+((((eq(n\\,298)+eq(n\\,299))+(eq(n\\,300)+eq(n\\,313)))+((eq(n\\,326)+eq(n\\,327))+(eq(n\\,328)+eq(n\\,337))))+(((eq(n\\,347)+eq(n\\,348))+(eq(n\\,349)+eq(n\\,350)))+((eq(n\\,368)+eq(n\\,386))+(eq(n\\,387)+eq(n\\,388)))))))+((((((eq(n\\,389)+eq(n\\,395))+(eq(n\\,403)+eq(n\\,404)))+((eq(n\\,405)+eq(n\\,414))+(eq(n\\,424)+eq(n\\,425))))+(((eq(n\\,429)+eq(n\\,430))+(eq(n\\,447)+eq(n\\,465)))+((eq(n\\,466)+eq(n\\,467))+(eq(n\\,468)+eq(n\\,483)))))+((((eq(n\\,498)+eq(n\\,499))+(eq(n\\,500)+eq(n\\,501)))+((eq(n\\,509)+eq(n\\,518))+(eq(n\\,519)+eq(n\\,520))))+(((eq(n\\,540)+eq(n\\,561))+(eq(n\\,562)+eq(n\\,564)))+((eq(n\\,565)+eq(n\\,585))+(eq(n\\,606)+eq(n\\,607))))))+(((((eq(n\\,608)+eq(n\\,621))+(eq(n\\,635)+eq(n\\,636)))+((eq(n\\,638)+eq(n\\,639))+(eq(n\\,657)+eq(n\\,669))))+(((eq(n\\,675)+eq(n\\,676))+(eq(n\\,684)+eq(n\\,693)))+((eq(n\\,694)+eq(n\\,695))+(eq(n\\,696)+eq(n\\,713)))))+((((eq(n\\,730)+eq(n\\,731))+(eq(n\\,732)+eq(n\\,742)))+((eq(n\\,753)+eq(n\\,754))+(eq(n\\,755)+eq(n\\,756))))+(((eq(n\\,767)+eq(n\\,778))+(eq(n\\,779)+eq(n\\,780)))+((eq(n\\,781)+eq(n\\,782))+(eq(n\\,803)+eq(n\\,824))))))))+(((((((eq(n\\,825)+eq(n\\,826))+(eq(n\\,848)+eq(n\\,871)))+((eq(n\\,872)+eq(n\\,890))+(eq(n\\,909)+eq(n\\,910))))+(((eq(n\\,911)+eq(n\\,912))+(eq(n\\,921)+eq(n\\,931)))+((eq(n\\,932)+eq(n\\,933))+(eq(n\\,940)+eq(n\\,944)))))+((((eq(n\\,955)+eq(n\\,956))+(eq(n\\,957)+eq(n\\,958)))+((eq(n\\,975)+eq(n\\,993))+(eq(n\\,994)+eq(n\\,996))))+(((eq(n\\,997)+eq(n\\,1003))+(eq(n\\,1010)+eq(n\\,1011)))+((eq(n\\,1031)+eq(n\\,1052))+(eq(n\\,1053)+eq(n\\,1054))))))+(((((eq(n\\,1055)+eq(n\\,1065))+(eq(n\\,1077)+eq(n\\,1078)))+((eq(n\\,1079)+eq(n\\,1080))+(eq(n\\,1097)+eq(n\\,1114))))+(((eq(n\\,1115)+eq(n\\,1116))+(eq(n\\,1131)+eq(n\\,1136)))+((eq(n\\,1147)+eq(n\\,1148))+(eq(n\\,1149)+eq(n\\,1156)))))+((((eq(n\\,1163)+eq(n\\,1164))+(eq(n\\,1165)+eq(n\\,1166)))+((eq(n\\,1191)+eq(n\\,1216))+(eq(n\\,1217)+eq(n\\,1218))))+(((eq(n\\,1219)+eq(n\\,1232))+(eq(n\\,1245)+eq(n\\,1246)))+((eq(n\\,1247)+eq(n\\,1248))+(eq(n\\,1253)+eq(n\\,1255)))))))+((((((eq(n\\,1262)+eq(n\\,1263))+(eq(n\\,1264)+eq(n\\,1275)))+((eq(n\\,1287)+eq(n\\,1288))+(eq(n\\,1289)+eq(n\\,1302))))+(((eq(n\\,1317)+eq(n\\,1318))+(eq(n\\,1319)+eq(n\\,1320)))+((eq(n\\,1324)+eq(n\\,1329))+(eq(n\\,1330)+eq(n\\,1333)))))+((((eq(n\\,1334)+eq(n\\,1348))+(eq(n\\,1355)+eq(n\\,1362)))+((eq(n\\,1363)+eq(n\\,1364))+(eq(n\\,1367)+eq(n\\,1370))))+(((eq(n\\,1371)+eq(n\\,1372))+(eq(n\\,1396)+eq(n\\,1421)))+((eq(n\\,1422)+eq(n\\,1423))+(eq(n\\,1436)+eq(n\\,1449))))))+(((((eq(n\\,1450)+eq(n\\,1451))+(eq(n\\,1452)+eq(n\\,1465)))+((eq(n\\,1479)+eq(n\\,1480))+(eq(n\\,1481)+eq(n\\,1482))))+(((eq(n\\,1488)+eq(n\\,1495))+(eq(n\\,1496)+eq(n\\,1499)))+((eq(n\\,1502)+eq(n\\,1503))+(eq(n\\,1506)+eq(n\\,1507)))))+((((eq(n\\,1522)+eq(n\\,1534))+(eq(n\\,1537)+eq(n\\,1538)))+((eq(n\\,1540)+eq(n\\,1543))+(eq(n\\,1544)+eq(n\\,1549))))+(((eq(n\\,1550)+eq(n\\,1557))+(eq(n\\,1564)+eq(n\\,1565)))+((eq(n\\,1566)+eq(n\\,1567))+(eq(n\\,1576)+eq(n\\,1586))))))))) -fps_mode vfr -start_number 0 /Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Work/qa-041-dune-origin-stage16-final-v02/scratch/reconstruction/%06d.png"
+  },
+  "coverage": {
+    "source_indices": 256,
+    "reconstructed_indices": 256,
+    "matched_png_sha256": 256,
+    "all_matched": true,
+    "first": 0,
+    "last": 1586
+  },
+  "evidence_paths": [
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Edit/QA/qa-041-dune-origin-stage16-final-v02/report.json",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Work/qa-041-dune-origin-stage16-final-v02/scratch/reconstruction",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Work/qa-041-dune-origin-stage16-final-v02/scratch/qa"
+  ]
+}

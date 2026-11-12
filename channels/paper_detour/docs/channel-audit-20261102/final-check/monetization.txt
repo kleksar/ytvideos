@@ -1,0 +1,118 @@
+- generic: Зарабатывайте на YouTube
+- banner:
+  - button "Свернуть меню":
+  - link "Панель управления в новой Творческой студии":
+    - /url: /channel/UCMVfdfaNxV3ZkI3_J3Eejzw
+    - img "Панель управления в новой Творческой студии"
+  - button "Пропустить навигацию":
+    - generic: Пропустить навигацию
+  - textbox "Поиск на канале"
+  - button "Справка":
+  - button "Уведомления":
+  - button "Спросить у Студии":
+    - generic: Спросить у Студии
+  - button "Создать":
+    - generic: Создать
+  - generic "Аккаунт":
+    - button "Account"
+  - progressbar
+- navigation:
+  - img "Paper Detour"
+  - generic: Ваш канал
+  - generic: Paper Detour
+  - menu:
+    - menuitem "Главная":
+      - generic: Главная
+    - menuitem "Контент":
+      - generic: Контент
+    - menuitem "Аналитика":
+      - generic: Аналитика
+    - menuitem "Сообщество":
+      - generic: Сообщество
+    - menuitem "Языки":
+      - generic: Языки
+    - menuitem "Обнаружение контента":
+      - generic: Обнаружение контента
+    - menuitem "Монетизация":
+      - generic: Монетизация
+    - menuitem "Настройка канала":
+      - generic: Настройка канала
+    - menuitem "Фонотека":
+      - generic: Фонотека
+  - list:
+    - button "Настройки":
+      - generic: Настройки
+    - button "Отправить отзыв":
+      - generic: Отправить отзыв
+- main:
+  - heading "Зарабатывайте на YouTube" [level=1]
+  - generic: Следующий этап
+  - generic: Начните зарабатывать
+  - generic: Зарабатывайте, показывая рекламу в видео и общаясь со зрителями, пользуйтесь инструментами для авторов и получайте поддержку.
+  - button "Реклама на странице просмотра" [expanded]:
+    - generic: Реклама на странице просмотра
+  - button "Скрыть":
+    - generic "Скрыть":
+  - generic "Реклама на странице просмотра":
+    - generic: Получайте доход с помощью рекламы и YouTube Premium на странице просмотра
+    - paragraph: Вы можете зарабатывать на рекламе, которая показывается рядом с вашими видео на странице просмотра, а также на просмотрах ваших роликов подписчиками YouTube Premium.
+    - paragraph
+  - separator
+  - button "Реклама в ленте Shorts":
+    - generic: Реклама в ленте Shorts
+  - button "Развернуть":
+    - generic "Развернуть":
+  - separator
+  - button "Спонсорство":
+    - generic: Спонсорство
+  - button "Развернуть":
+    - generic "Развернуть":
+  - separator
+  - button "Supers":
+    - generic: Supers
+  - button "Развернуть":
+    - generic "Развернуть":
+  - separator
+  - button "Покупки":
+    - generic: Покупки
+  - button "Развернуть":
+    - generic "Развернуть":
+  - generic: Некоторые преимущества доступны, только если выполняются дополнительные требования.
+  - generic: Требования
+  - text: Данные на 28 окт. 2026 г.
+  - generic "Почему на обновление может уйти неделя? Мы внимательно проверяем показатели, прежде чем они отобразятся здесь. Этот процесс иногда занимает несколько дней, поэтому данные здесь могут отличаться от тех, которые вы видите на других страницах, например в YouTube Аналитике.":
+  - progressbar "8 подписчиков"
+  - generic: 8 подписчиков
+  - generic: 1 000
+  - generic: "Должно также выполняться одно из следующих условий:"
+  - progressbar "0 подходящих часов просмотра"
+  - generic: 0 подходящих часов просмотра
+  - generic: за последние 365 дней
+  - generic: 4 000
+  - progressbar "0 подходящих просмотров Shorts"
+  - generic: 0 подходящих просмотров Shorts
+  - generic: за последние 90 дней
+  - generic: 10 млн
+  - generic: Сообщить, когда можно будет подать заявку?
+  - button "Получить уведомление":
+    - generic: Получить уведомление
+  - generic: Ресурсы и инструменты для авторов
+  - link "Служба поддержки авторов YouTube":
+    - /url: https://support.google.com/youtube/answer/3545535?hl=ru
+    - generic: Служба поддержки авторов YouTube
+  - link "Инструмент поиска совпадений":
+    - /url: https://support.google.com/youtube/answer/7648743?hl=ru
+    - generic: Инструмент поиска совпадений
+  - link "Конечные заставки видео":
+    - /url: https://support.google.com/youtube/answer/6388789?hl=ru&ref_topic=9257785
+    - generic: Конечные заставки видео
+  - generic: После подачи заявки
+  - text: Мы проверим, соблюдаются ли на канале
+  - link "правила монетизации":
+    - /url: https://support.google.com/youtube/answer/1311392?hl=ru
+    - generic: правила монетизации
+  - text: ", и если все в порядке, то одобрим заявку."
+  - link "Подробнее…":
+    - /url: https://support.google.com/youtube/answer/72851?hl=ru
+    - button "Подробнее…":
+      - generic: Подробнее…

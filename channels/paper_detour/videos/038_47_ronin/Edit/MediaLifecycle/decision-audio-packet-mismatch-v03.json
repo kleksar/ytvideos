@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "file": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_47_ronin/Work/ffmpeg-rebuild-en-v03/previews/caption-review-v03/accent_review.mp4",
+  "sha256": "07c51c7637f626daa37715ee98b2baef1b3f23049b507c6b4caf6804c8ee11ad",
+  "decision": "rejected",
+  "reason": "Caption compositor truncated one AAC packet at the video end; its own audio preservation hash check failed. Replaced by stream-copy remux with the complete v03 AAC mix.",
+  "replacement": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_47_ronin/Work/ffmpeg-rebuild-en-v03/previews/caption-review-v03/accent_review_v02.mp4",
+  "replacement_sha256": "24b033ae2be194e337fbe27e070ff20acf49659e4f9ac8f98bf55a3efeadd20b"
+}

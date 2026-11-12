@@ -1,0 +1,30 @@
+{
+  "status": "draft_unverified",
+  "canvas": {"width": 941, "height": 1672, "origin": "top_left", "bounds": "inclusive"},
+  "master_candidate": "MASTER_candidate_DO_NOT_IMPORT.png",
+  "screen_state": "Blank textured display in base master; P12 55% paper graphic remains a separate registered screen-content layer.",
+  "planes": {
+    "BG": {
+      "role": "opaque environment",
+      "contents": ["room", "shelves", "picture frame", "lamp", "pots", "tabletop"],
+      "reconstruction": ["areas hidden behind laptop and attached hand", "area formerly covered by the removed table strip", "area hidden behind any confirmed FG silhouette"]
+    },
+    "MG": {
+      "role": "single connected middle group",
+      "contents": ["whole laptop", "attached resting hand and sleeve"],
+      "candidate_bounds_xyxy_inclusive": [0, 548, 929, 1234],
+      "contacts_to_preserve": ["laptop base on tabletop", "hand/sleeve on laptop keyboard/left side"]
+    },
+    "FG": {
+      "role": "candidate near foreground group; not approved yet",
+      "contents": ["existing out-of-focus green plant at lower-left frame edge"],
+      "candidate_bounds_xyxy_inclusive": [0, 1200, 235, 1671],
+      "anchor_side": "left",
+      "candidate_motion_direction": "right_to_left",
+      "candidate_delta_x_px_start_to_end": {"BG": -4, "MG": -8, "FG": -11},
+      "verification_required": "Confirm the plant's actual silhouette, overlap order, and whether its hidden tabletop background can be reconstructed without an artificial boundary. If not, stop and do not import P12."
+    }
+  },
+  "overlap_order": ["BG", "MG", "FG"],
+  "guide_note": "Draft bounds only; rectangles and outline are not mattes. The candidate FG is not accepted until its real edge is confirmed against the master. Do not import this package yet."
+}

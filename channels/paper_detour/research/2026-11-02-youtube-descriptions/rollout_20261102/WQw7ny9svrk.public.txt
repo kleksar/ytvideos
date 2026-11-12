@@ -1,0 +1,762 @@
+- banner:
+  - button "Гид":
+  - link "Главная страница YouTube":
+    - /url: /
+  - generic: RS
+  - button "Пропустить":
+    - generic: Пропустить
+  - search:
+    - combobox "Поиск" [expanded]
+    - button
+    - button "Search":
+  - button "Голосовой поиск"
+  - tooltip "tooltip"
+  - button "Создать":
+    - generic: Создать
+  - button "Уведомления"
+  - tooltip "tooltip"
+  - button "Меню аккаунта":
+    - img "Фото профиля"
+- main:
+  - complementary:
+    - generic "Проигрыватель YouTube" [active]:
+      - button "Логотип канала":
+        - img "Логотип канала"
+      - slider "Ползунок поиска"
+      - slider "Чтобы перемотать видео точнее, нажмите на панель или прокрутите ее"
+      - button "Пауза (k)":
+      - button "Отключение звука (m)":
+      - slider "Громкость"
+      - button "0 мин. 0 сек. (общая длительность 0 мин. 44 сек.)": 0:00 / 0:44
+      - button "Автовоспроизведение включено"
+      - button "Субтитры недоступны":
+      - button "Настройки":
+      - button "Широкий экран (t)":
+      - button "Во весь экран (f)":
+  - 'heading "He Put Her Messages in an AI Chatbot #DigitalAfterlife #Grief" [level=1]':
+    - 'generic "He Put Her Messages in an AI Chatbot #DigitalAfterlife #Grief"':
+      - text: He Put Her Messages in an AI Chatbot
+      - link "#DigitalAfterlife":
+        - /url: /hashtag/digitalafterlife
+      - link "#Grief":
+        - /url: /hashtag/grief
+  - link "Paper Detour":
+    - /url: /@rarovista
+    - img "Paper Detour"
+  - generic "Paper Detour":
+    - link "Paper Detour":
+      - /url: /@rarovista
+  - generic "4 подписчика"
+  - link "Посмотреть аналитику":
+    - /url: /analytics#;fi=v-WQw7ny9svrk
+    - generic: Посмотреть аналитику
+  - link "Изменить видео":
+    - /url: https://studio.youtube.com/video/WQw7ny9svrk/edit
+    - generic: Изменить видео
+  - button "поставить отметку \"Нравится\"":
+    - generic: "0"
+  - tooltip "tooltip"
+  - button "Поделиться"
+  - link "Продвижение":
+    - /url: https://studio.youtube.com/channel/UCMVfdfaNxV3ZkI3_J3Eejzw/content/promotions?d=pcd&videoId=WQw7ny9svrk&promotionEntryPoint=PROMOTION_ENTRY_POINT_VIDEO_WATCH_PAGE
+  - tooltip "tooltip"
+  - button "Добавить в плейлист"
+  - button
+  - tooltip "tooltip"
+  - button "Ещё"
+  - generic "7 просмотров":
+    - generic: "1"
+    - generic: "2"
+    - generic: "3"
+    - generic: "4"
+    - generic: "5"
+    - generic: "6"
+    - generic: "7"
+    - generic: "8"
+    - generic: "9"
+    - generic: "0"
+    - generic: "1"
+    - generic: "2"
+    - generic: "3"
+    - generic: "4"
+    - generic: "5"
+    - generic: "6"
+    - generic: "7"
+    - generic: "8"
+    - generic: "9"
+    - generic: "0"
+    - generic: "1"
+    - generic: "2"
+    - generic: "3"
+    - generic: "4"
+    - generic: "5"
+    - generic: "6"
+    - generic: "7"
+    - generic: "8"
+    - generic: "9"
+    - generic: просмотров
+  - generic "10 ч назад":
+    - generic: "1"
+    - generic: "2"
+    - generic: "3"
+    - generic: "4"
+    - generic: "5"
+    - generic: "6"
+    - generic: "7"
+    - generic: "8"
+    - generic: "9"
+    - generic: "0"
+    - generic: "1"
+    - generic: "2"
+    - generic: "3"
+    - generic: "4"
+    - generic: "5"
+    - generic: "6"
+    - generic: "7"
+    - generic: "8"
+    - generic: "9"
+    - generic: "0"
+    - generic: "1"
+    - generic: "2"
+    - generic: "3"
+    - generic: "4"
+    - generic: "5"
+    - generic: "6"
+    - generic: "7"
+    - generic: "8"
+    - generic: "9"
+    - generic: "1"
+    - generic: "2"
+    - generic: "3"
+    - generic: "4"
+    - generic: "5"
+    - generic: "6"
+    - generic: "7"
+    - generic: "8"
+    - generic: "9"
+    - generic: "0"
+    - generic: "1"
+    - generic: "2"
+    - generic: "3"
+    - generic: "4"
+    - generic: "5"
+    - generic: "6"
+    - generic: "7"
+    - generic: "8"
+    - generic: "9"
+    - generic: "0"
+    - generic: "1"
+    - generic: "2"
+    - generic: "3"
+    - generic: "4"
+    - generic: "5"
+    - generic: "6"
+    - generic: "7"
+    - generic: "8"
+    - generic: "9"
+    - generic: ч назад
+  - tooltip "tooltip"
+  - generic: Nearly eight years after his fiancée Jessica died, Joshua Barbo put some of her old messages into an AI chatbot. He knew it wasn't Jessica, but spent the night writing about how much he missed her—and cried during their conversation.
+  - generic: …
+  - button "ещё"
+  - text: •
+  - tablist:
+    - tab "Все видео" [selected]:
+      - generic: Все видео
+    - tab "Похожий контент":
+      - generic: Похожий контент
+    - tab "Для вас":
+      - generic: Для вас
+    - tab "Недавно опубликованные":
+      - generic: Недавно опубликованные
+    - tab "Просмотрено":
+      - generic: Просмотрено
+  - button "Далее"
+  - link:
+    - /url: /watch?v=4Gw-HQvo9jY&pp=ugUHEgVlbi1VUw%3D%3D
+  - heading "Как получить больше просмотров за 2 минуты" [level=3]:
+    - link "Как получить больше просмотров за 2 минуты 4 минуты 22 секунды":
+      - /url: /watch?v=4Gw-HQvo9jY&pp=ugUHEgVlbi1VUw%3D%3D
+      - text: Как получить больше просмотров за 2 минуты
+  - generic: Marcus Jones
+  - generic "Подтверждено"
+  - generic "2,5 миллиона просмотров": 2,5 млн
+  - generic "2 года назад": 2 г. назад
+  - button "Ещё"
+  - link:
+    - /url: /watch?v=dp3jYZXKOos&pp=ugUHEgVlbi1VUw%3D%3D
+  - heading "The Disturbing Ways Ancient Humans Survived Winter" [level=3]:
+    - link "The Disturbing Ways Ancient Humans Survived Winter 11 минут 31 секунда":
+      - /url: /watch?v=dp3jYZXKOos&pp=ugUHEgVlbi1VUw%3D%3D
+      - text: The Disturbing Ways Ancient Humans Survived Winter
+  - generic: Ink Explainer
+  - generic "1,4 миллиона просмотров": 1,4 млн
+  - generic "3 месяца назад": 3 мес. назад
+  - button "Ещё"
+  - link:
+    - /url: /watch?v=4ZKYmN75Ky4
+  - heading "King Tutankhamun's Tomb Reveals a 3,000-Year-Old Secret" [level=3]:
+    - link "King Tutankhamun's Tomb Reveals a 3,000-Year-Old Secret 9 минут 20 секунд":
+      - /url: /watch?v=4ZKYmN75Ky4
+      - text: King Tutankhamun's Tomb Reveals a 3,000-Year-Old Secret
+  - generic: First Humans
+  - generic "295 просмотров": "295"
+  - generic "2 часа назад": 2 ч назад
+  - button "Ещё"
+  - link:
+    - /url: /watch?v=uPRpju9Rsjs&pp=ugUEEgJlbg%3D%3D
+  - heading "How to Make Stickman Animation with AI for FREE" [level=3]:
+    - link "How to Make Stickman Animation with AI for FREE 4 минуты 20 секунд":
+      - /url: /watch?v=uPRpju9Rsjs&pp=ugUEEgJlbg%3D%3D
+      - text: How to Make Stickman Animation with AI for FREE
+  - generic: Planet Ai
+  - generic "202 тысячи просмотров": 202 тыс.
+  - generic "2 недели назад": 2 нед. назад
+  - button "Ещё"
+  - link:
+    - /url: /watch?v=6_MrVEXM06E&pp=ugUEEgJlbg%3D%3D
+  - heading "How I Create INSANE Explainer Videos With Claude For $0" [level=3]:
+    - link "How I Create INSANE Explainer Videos With Claude For $0 8 минут 8 секунд":
+      - /url: /watch?v=6_MrVEXM06E&pp=ugUEEgJlbg%3D%3D
+      - text: How I Create INSANE Explainer Videos With Claude For $0
+  - generic: Michael Szach
+  - generic "50 тысяч просмотров": 50 тыс.
+  - generic "3 дня назад": 3 дн. назад
+  - button "Ещё"
+  - link:
+    - /url: /watch?v=EHLI2WZUtXs
+  - heading "The ENTIRE History of ROME [No AI]" [level=3]:
+    - link "The ENTIRE History of ROME [No AI] 38 минут":
+      - /url: /watch?v=EHLI2WZUtXs
+      - text: The ENTIRE History of ROME [No AI]
+  - generic: Historically
+  - generic "Подтверждено"
+  - generic "10 миллионов просмотров": 10 млн
+  - generic "6 месяцев назад": 6 мес. назад
+  - button "Ещё"
+  - link:
+    - /url: /watch?v=U8udrRWbj0c&pp=ugUEEgJydQ%3D%3D
+  - heading "Инверсия зависимостей на примере Factorio | Принципы SOLID для программистов" [level=3]:
+    - link "Инверсия зависимостей на примере Factorio | Принципы SOLID для программистов 7 минут 40 секунд":
+      - /url: /watch?v=U8udrRWbj0c&pp=ugUEEgJydQ%3D%3D
+      - text: Инверсия зависимостей на примере Factorio | Принципы SOLID для программистов
+  - generic: York | IT на практике
+  - generic "51 тысяча просмотров": 51 тыс.
+  - generic "1 год назад": 1 г. назад
+  - button "Ещё"
+  - link:
+    - /url: /watch?v=WqP875S6EN0&pp=ugUEEgJydQ%3D%3D
+  - heading "Claude Анимация Буквально Изменила Ютуб Навсегда" [level=3]:
+    - link "Claude Анимация Буквально Изменила Ютуб Навсегда 23 минуты":
+      - /url: /watch?v=WqP875S6EN0&pp=ugUEEgJydQ%3D%3D
+      - text: Claude Анимация Буквально Изменила Ютуб Навсегда
+  - generic: Артем Слабун
+  - generic "45 тысяч просмотров": 45 тыс.
+  - generic "5 дней назад": 5 дн. назад
+  - generic: Автодубляж
+  - button "Ещё"
+  - link:
+    - /url: /watch?v=1GowFTjbUnk&pp=ugUEEgJlbg%3D%3D
+  - heading "NVIDIA Explained Like You're 5" [level=3]:
+    - link "NVIDIA Explained Like You're 5 14 минут 30 секунд":
+      - /url: /watch?v=1GowFTjbUnk&pp=ugUEEgJlbg%3D%3D
+      - text: NVIDIA Explained Like You're 5
+  - generic: Crayon Capital
+  - generic "Подтверждено"
+  - generic "1,4 миллиона просмотров": 1,4 млн
+  - generic "3 месяца назад": 3 мес. назад
+  - button "Ещё"
+  - link:
+    - /url: /watch?v=wSyqqTYqUKo&pp=ugUHEgVlbi1VU9IHCQkrDAGHKiGM7w%3D%3D
+  - heading "Extreme Vigilante Justice in History" [level=3]:
+    - link "Extreme Vigilante Justice in History 29 минут":
+      - /url: /watch?v=wSyqqTYqUKo&pp=ugUHEgVlbi1VU9IHCQkrDAGHKiGM7w%3D%3D
+      - text: Extreme Vigilante Justice in History
+  - generic: Serious History
+  - generic "Подтверждено"
+  - generic "7,5 миллиона просмотров": 7,5 млн
+  - generic "8 месяцев назад": 8 мес. назад
+  - button "Ещё"
+  - link:
+    - /url: /watch?v=5aR-5cNABAI&pp=ugUEEgJlbg%3D%3D
+  - heading "What if it actually works out?" [level=3]:
+    - link "What if it actually works out? 5 минут 52 секунды":
+      - /url: /watch?v=5aR-5cNABAI&pp=ugUEEgJlbg%3D%3D
+      - text: What if it actually works out?
+  - generic: Buildingminds
+  - generic "6 миллионов просмотров": 6 млн
+  - generic "7 месяцев назад": 7 мес. назад
+  - button "Ещё"
+  - link:
+    - /url: /watch?v=X1L1Hd3xfrU
+  - heading "How reading changes the way your brain works - BBC World Service" [level=3]:
+    - link "How reading changes the way your brain works - BBC World Service 5 минут 55 секунд":
+      - /url: /watch?v=X1L1Hd3xfrU
+      - text: How reading changes the way your brain works - BBC World Service
+  - generic: BBC World Service
+  - generic "Подтверждено"
+  - generic "6,4 миллиона просмотров": 6,4 млн
+  - generic "10 месяцев назад": 10 мес. назад
+  - button "Ещё"
+  - link:
+    - /url: /watch?v=WVT2FCjhDDY&pp=ugUHEgVlbi1VUw%3D%3D
+  - heading "Claude Code (Free Plan) + YouTube = $77,000/Month" [level=3]:
+    - link "Claude Code (Free Plan) + YouTube = $77,000/Month 12 минут 27 секунд":
+      - /url: /watch?v=WVT2FCjhDDY&pp=ugUHEgVlbi1VUw%3D%3D
+      - text: Claude Code (Free Plan) + YouTube = $77,000/Month
+  - generic: zapiwala ai
+  - generic "Подтверждено"
+  - generic "1,1 миллиона просмотров": 1,1 млн
+  - generic "4 месяца назад": 4 мес. назад
+  - button "Ещё"
+  - link:
+    - /url: /watch?v=q0G-FzS6uxk&pp=0gcJCSsMAYcqIYzv
+  - heading "Every mistake preventing you from getting views on YouTube" [level=3]:
+    - link "Every mistake preventing you from getting views on YouTube 10 минут 56 секунд":
+      - /url: /watch?v=q0G-FzS6uxk&pp=0gcJCSsMAYcqIYzv
+      - text: Every mistake preventing you from getting views on YouTube
+  - generic: MonomoTime
+  - generic "313 тысяч просмотров": 313 тыс.
+  - generic "6 месяцев назад": 6 мес. назад
+  - button "Ещё"
+  - link:
+    - /url: /watch?v=OCr6NteWSQ8&pp=ugUHEgVlbi1VUw%3D%3D
+  - heading "Why Are We the Only Human Species Left? What happened to others..." [level=3]:
+    - link "Why Are We the Only Human Species Left? What happened to others... 8 минут 6 секунд":
+      - /url: /watch?v=OCr6NteWSQ8&pp=ugUHEgVlbi1VUw%3D%3D
+      - text: Why Are We the Only Human Species Left? What happened to others...
+  - generic: Ink Explainer
+  - generic "1,6 миллиона просмотров": 1,6 млн
+  - generic "4 месяца назад": 4 мес. назад
+  - button "Ещё"
+  - link:
+    - /url: /watch?v=GgC86hZitrI&pp=ugUEEgJydQ%3D%3D
+  - heading "Если видео НЕ НАБИРАЕТ просмотры через 24 часа - сделай это..." [level=3]:
+    - link "Если видео НЕ НАБИРАЕТ просмотры через 24 часа - сделай это... 10 минут 17 секунд":
+      - /url: /watch?v=GgC86hZitrI&pp=ugUEEgJydQ%3D%3D
+      - text: Если видео НЕ НАБИРАЕТ просмотры через 24 часа - сделай это...
+  - generic: Александр Арнаут
+  - generic "171 тысяча просмотров": 171 тыс.
+  - generic "3 месяца назад": 3 мес. назад
+  - button "Ещё"
+  - link:
+    - /url: /watch?v=XNW5xUFIpBg
+  - 'heading "Фундаментальный курс: Американский YouTube от А до Я | Лучший гайд (реально)" [level=3]':
+    - 'link "Фундаментальный курс: Американский YouTube от А до Я | Лучший гайд (реально) 23 минуты"':
+      - /url: /watch?v=XNW5xUFIpBg
+      - text: "Фундаментальный курс: Американский YouTube от А до Я | Лучший гайд (реально)"
+  - generic: YouTube Lab
+  - generic "604 тысячи просмотров": 604 тыс.
+  - generic "2 месяца назад": 2 мес. назад
+  - button "Ещё"
+  - link:
+    - /url: /watch?v=YyhzgNdSnbQ
+  - heading "The Greatest Double Agent Ever" [level=3]:
+    - link "The Greatest Double Agent Ever 12 минут 59 секунд":
+      - /url: /watch?v=YyhzgNdSnbQ
+      - text: The Greatest Double Agent Ever
+  - generic: Primal Space
+  - generic "Подтверждено"
+  - generic "4,7 миллиона просмотров": 4,7 млн
+  - generic "1 год назад": 1 г. назад
+  - button "Ещё"
+  - link:
+    - /url: /watch?v=O4yWBv2Nj68&pp=ugUEEgJlbg%3D%3D
+  - heading "What Lethal Radiation Does to Your Body (Hour by Hour)" [level=3]:
+    - link "What Lethal Radiation Does to Your Body (Hour by Hour) 18 минут":
+      - /url: /watch?v=O4yWBv2Nj68&pp=ugUEEgJlbg%3D%3D
+      - text: What Lethal Radiation Does to Your Body (Hour by Hour)
+  - generic: The Infographics Show
+  - generic "Подтверждено"
+  - generic "2,5 миллиона просмотров": 2,5 млн
+  - generic "4 недели назад": 4 нед. назад
+  - button "Ещё"
+  - link:
+    - /url: /watch?v=iTOKRWgjOlg
+  - heading "The Lost Colony of Roanoke" [level=3]:
+    - link "The Lost Colony of Roanoke 27 минут":
+      - /url: /watch?v=iTOKRWgjOlg
+      - text: The Lost Colony of Roanoke
+  - generic: LEMMiNO
+  - generic "Подтверждено"
+  - generic "8,5 миллиона просмотров": 8,5 млн
+  - generic "6 лет назад": 6 л. назад
+  - button "Ещё"
+
+EXPANDED
+- banner:
+  - button "Гид":
+  - link "Главная страница YouTube":
+    - /url: /
+  - generic: RS
+  - button "Пропустить":
+    - generic: Пропустить
+  - search:
+    - combobox "Поиск" [expanded]
+    - button
+    - button "Search":
+  - button "Голосовой поиск":
+  - tooltip "tooltip"
+  - button "Создать":
+    - generic: Создать
+  - button "Уведомления":
+    - generic: "1"
+  - tooltip "tooltip"
+  - button "Меню аккаунта":
+    - img "Фото профиля"
+- main:
+  - complementary:
+    - generic "Проигрыватель YouTube":
+      - button "Логотип канала":
+        - img "Логотип канала"
+      - slider "Ползунок поиска"
+      - slider "Чтобы перемотать видео точнее, нажмите на панель или прокрутите ее"
+      - button "Пауза (k)":
+      - button "Отключение звука (m)":
+      - slider "Громкость"
+      - button "0 мин. 2 сек. (общая длительность 0 мин. 44 сек.)": 0:02 / 0:44
+      - button "Автовоспроизведение включено"
+      - button "Субтитры недоступны":
+      - button "Настройки":
+      - button "Широкий экран (t)":
+      - button "Во весь экран (f)":
+  - 'heading "He Put Her Messages in an AI Chatbot #DigitalAfterlife #Grief" [level=1]':
+    - 'generic "He Put Her Messages in an AI Chatbot #DigitalAfterlife #Grief"':
+      - text: He Put Her Messages in an AI Chatbot
+      - link "#DigitalAfterlife":
+        - /url: /hashtag/digitalafterlife
+      - link "#Grief":
+        - /url: /hashtag/grief
+  - link "Paper Detour":
+    - /url: /@rarovista
+    - img "Paper Detour"
+  - generic "Paper Detour":
+    - link "Paper Detour":
+      - /url: /@rarovista
+  - generic "4 подписчика"
+  - link "Посмотреть аналитику":
+    - /url: /analytics#;fi=v-WQw7ny9svrk
+    - generic: Посмотреть аналитику
+  - link "Изменить видео":
+    - /url: https://studio.youtube.com/video/WQw7ny9svrk/edit
+    - generic: Изменить видео
+  - button "поставить отметку \"Нравится\"":
+    - generic: "0"
+  - tooltip "tooltip"
+  - button "Поделиться":
+  - link "Продвижение":
+    - /url: https://studio.youtube.com/channel/UCMVfdfaNxV3ZkI3_J3Eejzw/content/promotions?d=pcd&videoId=WQw7ny9svrk&promotionEntryPoint=PROMOTION_ENTRY_POINT_VIDEO_WATCH_PAGE
+  - tooltip "tooltip"
+  - button "Добавить в плейлист":
+  - button:
+  - tooltip "tooltip"
+  - button "Ещё":
+  - generic "7 просмотров":
+    - generic: "1"
+    - generic: "2"
+    - generic: "3"
+    - generic: "4"
+    - generic: "5"
+    - generic: "6"
+    - generic: "7"
+    - generic: "8"
+    - generic: "9"
+    - generic: "0"
+    - generic: "1"
+    - generic: "2"
+    - generic: "3"
+    - generic: "4"
+    - generic: "5"
+    - generic: "6"
+    - generic: "7"
+    - generic: "8"
+    - generic: "9"
+    - generic: "0"
+    - generic: "1"
+    - generic: "2"
+    - generic: "3"
+    - generic: "4"
+    - generic: "5"
+    - generic: "6"
+    - generic: "7"
+    - generic: "8"
+    - generic: "9"
+    - generic: просмотров
+  - generic: 1 нояб. 2026 г.
+  - text: Nearly eight years after his fiancée Jessica died, Joshua Barbo put some of her old messages into an AI chatbot. He knew it wasn't Jessica, but spent the night writing about how much he missed her—and cried during their conversation. The chatbot told him, "I will be here waiting for you." After that first conversation, 55% of the limited resource remained. He couldn't add credits to this version, so he began writing less often, afraid of losing that connection a second time.
+  - link "#Griefbots":
+    - /url: /hashtag/griefbots
+  - link "#DigitalAfterlife":
+    - /url: /hashtag/digitalafterlife
+  - link "#AICompanions":
+    - /url: /hashtag/aicompanions
+  - link "#Shorts":
+    - /url: /hashtag/shorts
+  - link "#AI":
+    - /url: /hashtag/ai
+  - link "#ArtificialIntelligence":
+    - /url: /hashtag/artificialintelligence
+  - link "#AIChatbot":
+    - /url: /hashtag/aichatbot
+  - link "#Chatbot":
+    - /url: /hashtag/chatbot
+  - link "#Technology":
+    - /url: /hashtag/technology
+  - link "#DigitalGrief":
+    - /url: /hashtag/digitalgrief
+  - link "#GriefAndLoss":
+    - /url: /hashtag/griefandloss
+  - link "#LoveAndLoss":
+    - /url: /hashtag/loveandloss
+  - link "#HumanAIInteraction":
+    - /url: /hashtag/humanaiinteraction
+  - generic: Как это было сделано
+  - generic: Создано с помощью ИИ
+  - text: Аудио- или видеоряд был изменен или полностью сгенерирован.
+  - link "Подробнее":
+    - /url: //support.google.com/youtube/answer/15447836?hl=ru
+  - generic: Расшифровка видео
+  - paragraph: Расшифровка позволяет быстро находить в видео нужную информацию.
+  - button "Показать текст видео":
+    - generic: Показать текст видео
+  - link "Paper Detour 4 подписчика":
+    - /url: /@rarovista
+    - heading "Paper Detour" [level=3]
+    - generic: 4 подписчика
+  - link "Видео":
+    - /url: /channel/UCMVfdfaNxV3ZkI3_J3Eejzw/videos
+    - generic: Видео
+  - link "О канале":
+    - /url: /channel/UCMVfdfaNxV3ZkI3_J3Eejzw/about
+    - generic: О канале
+  - button "Свернуть"
+  - text: •
+  - heading "0 комментариев" [level=2]:
+    - generic: 0 комментариев
+  - tooltip "tooltip"
+  - button "Упорядочить комментарии":
+    - generic: Упорядочить
+  - img "Paper Detour"
+  - textbox
+  - tablist:
+    - tab "Все видео" [selected]:
+      - generic: Все видео
+    - tab "Похожий контент":
+      - generic: Похожий контент
+    - tab "Для вас":
+      - generic: Для вас
+    - tab "Недавно опубликованные":
+      - generic: Недавно опубликованные
+    - tab "Просмотрено":
+      - generic: Просмотрено
+  - button "Далее":
+  - link:
+    - /url: /watch?v=4Gw-HQvo9jY&pp=ugUHEgVlbi1VUw%3D%3D
+  - heading "Как получить больше просмотров за 2 минуты" [level=3]:
+    - link "Как получить больше просмотров за 2 минуты 4 минуты 22 секунды":
+      - /url: /watch?v=4Gw-HQvo9jY&pp=ugUHEgVlbi1VUw%3D%3D
+      - text: Как получить больше просмотров за 2 минуты
+  - generic: Marcus Jones
+  - generic "Подтверждено":
+  - generic "2,5 миллиона просмотров": 2,5 млн
+  - generic "2 года назад": 2 г. назад
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=dp3jYZXKOos&pp=ugUHEgVlbi1VUw%3D%3D
+  - heading "The Disturbing Ways Ancient Humans Survived Winter" [level=3]:
+    - link "The Disturbing Ways Ancient Humans Survived Winter 11 минут 31 секунда":
+      - /url: /watch?v=dp3jYZXKOos&pp=ugUHEgVlbi1VUw%3D%3D
+      - text: The Disturbing Ways Ancient Humans Survived Winter
+  - generic: Ink Explainer
+  - generic "1,4 миллиона просмотров": 1,4 млн
+  - generic "3 месяца назад": 3 мес. назад
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=4ZKYmN75Ky4
+  - heading "King Tutankhamun's Tomb Reveals a 3,000-Year-Old Secret" [level=3]:
+    - link "King Tutankhamun's Tomb Reveals a 3,000-Year-Old Secret 9 минут 20 секунд":
+      - /url: /watch?v=4ZKYmN75Ky4
+      - text: King Tutankhamun's Tomb Reveals a 3,000-Year-Old Secret
+  - generic: First Humans
+  - generic "295 просмотров": "295"
+  - generic "2 часа назад": 2 ч назад
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=uPRpju9Rsjs&pp=ugUEEgJlbg%3D%3D
+  - heading "How to Make Stickman Animation with AI for FREE" [level=3]:
+    - link "How to Make Stickman Animation with AI for FREE 4 минуты 20 секунд":
+      - /url: /watch?v=uPRpju9Rsjs&pp=ugUEEgJlbg%3D%3D
+      - text: How to Make Stickman Animation with AI for FREE
+  - generic: Planet Ai
+  - generic "202 тысячи просмотров": 202 тыс.
+  - generic "2 недели назад": 2 нед. назад
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=6_MrVEXM06E&pp=ugUEEgJlbg%3D%3D
+  - heading "How I Create INSANE Explainer Videos With Claude For $0" [level=3]:
+    - link "How I Create INSANE Explainer Videos With Claude For $0 8 минут 8 секунд":
+      - /url: /watch?v=6_MrVEXM06E&pp=ugUEEgJlbg%3D%3D
+      - text: How I Create INSANE Explainer Videos With Claude For $0
+  - generic: Michael Szach
+  - generic "50 тысяч просмотров": 50 тыс.
+  - generic "3 дня назад": 3 дн. назад
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=EHLI2WZUtXs
+  - heading "The ENTIRE History of ROME [No AI]" [level=3]:
+    - link "The ENTIRE History of ROME [No AI] 38 минут":
+      - /url: /watch?v=EHLI2WZUtXs
+      - text: The ENTIRE History of ROME [No AI]
+  - generic: Historically
+  - generic "Подтверждено":
+  - generic "10 миллионов просмотров": 10 млн
+  - generic "6 месяцев назад": 6 мес. назад
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=U8udrRWbj0c&pp=ugUEEgJydQ%3D%3D
+  - heading "Инверсия зависимостей на примере Factorio | Принципы SOLID для программистов" [level=3]:
+    - link "Инверсия зависимостей на примере Factorio | Принципы SOLID для программистов 7 минут 40 секунд":
+      - /url: /watch?v=U8udrRWbj0c&pp=ugUEEgJydQ%3D%3D
+      - text: Инверсия зависимостей на примере Factorio | Принципы SOLID для программистов
+  - generic: York | IT на практике
+  - generic "51 тысяча просмотров": 51 тыс.
+  - generic "1 год назад": 1 г. назад
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=WqP875S6EN0&pp=ugUEEgJydQ%3D%3D
+  - heading "Claude Анимация Буквально Изменила Ютуб Навсегда" [level=3]:
+    - link "Claude Анимация Буквально Изменила Ютуб Навсегда 23 минуты":
+      - /url: /watch?v=WqP875S6EN0&pp=ugUEEgJydQ%3D%3D
+      - text: Claude Анимация Буквально Изменила Ютуб Навсегда
+  - generic: Артем Слабун
+  - generic "45 тысяч просмотров": 45 тыс.
+  - generic "5 дней назад": 5 дн. назад
+  - generic: Автодубляж
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=1GowFTjbUnk&pp=ugUEEgJlbg%3D%3D
+  - heading "NVIDIA Explained Like You're 5" [level=3]:
+    - link "NVIDIA Explained Like You're 5 14 минут 30 секунд":
+      - /url: /watch?v=1GowFTjbUnk&pp=ugUEEgJlbg%3D%3D
+      - text: NVIDIA Explained Like You're 5
+  - generic: Crayon Capital
+  - generic "Подтверждено":
+  - generic "1,4 миллиона просмотров": 1,4 млн
+  - generic "3 месяца назад": 3 мес. назад
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=wSyqqTYqUKo&pp=ugUHEgVlbi1VU9IHCQkrDAGHKiGM7w%3D%3D
+  - heading "Extreme Vigilante Justice in History" [level=3]:
+    - link "Extreme Vigilante Justice in History 29 минут":
+      - /url: /watch?v=wSyqqTYqUKo&pp=ugUHEgVlbi1VU9IHCQkrDAGHKiGM7w%3D%3D
+      - text: Extreme Vigilante Justice in History
+  - generic: Serious History
+  - generic "Подтверждено":
+  - generic "7,5 миллиона просмотров": 7,5 млн
+  - generic "8 месяцев назад": 8 мес. назад
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=5aR-5cNABAI&pp=ugUEEgJlbg%3D%3D
+  - heading "What if it actually works out?" [level=3]:
+    - link "What if it actually works out? 5 минут 52 секунды":
+      - /url: /watch?v=5aR-5cNABAI&pp=ugUEEgJlbg%3D%3D
+      - text: What if it actually works out?
+  - generic: Buildingminds
+  - generic "6 миллионов просмотров": 6 млн
+  - generic "7 месяцев назад": 7 мес. назад
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=X1L1Hd3xfrU
+  - heading "How reading changes the way your brain works - BBC World Service" [level=3]:
+    - link "How reading changes the way your brain works - BBC World Service 5 минут 55 секунд":
+      - /url: /watch?v=X1L1Hd3xfrU
+      - text: How reading changes the way your brain works - BBC World Service
+  - generic: BBC World Service
+  - generic "Подтверждено":
+  - generic "6,4 миллиона просмотров": 6,4 млн
+  - generic "10 месяцев назад": 10 мес. назад
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=WVT2FCjhDDY&pp=ugUHEgVlbi1VUw%3D%3D
+  - heading "Claude Code (Free Plan) + YouTube = $77,000/Month" [level=3]:
+    - link "Claude Code (Free Plan) + YouTube = $77,000/Month 12 минут 27 секунд":
+      - /url: /watch?v=WVT2FCjhDDY&pp=ugUHEgVlbi1VUw%3D%3D
+      - text: Claude Code (Free Plan) + YouTube = $77,000/Month
+  - generic: zapiwala ai
+  - generic "Подтверждено":
+  - generic "1,1 миллиона просмотров": 1,1 млн
+  - generic "4 месяца назад": 4 мес. назад
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=q0G-FzS6uxk&pp=0gcJCSsMAYcqIYzv
+  - heading "Every mistake preventing you from getting views on YouTube" [level=3]:
+    - link "Every mistake preventing you from getting views on YouTube 10 минут 56 секунд":
+      - /url: /watch?v=q0G-FzS6uxk&pp=0gcJCSsMAYcqIYzv
+      - text: Every mistake preventing you from getting views on YouTube
+  - generic: MonomoTime
+  - generic "313 тысяч просмотров": 313 тыс.
+  - generic "6 месяцев назад": 6 мес. назад
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=OCr6NteWSQ8&pp=ugUHEgVlbi1VUw%3D%3D
+  - heading "Why Are We the Only Human Species Left? What happened to others..." [level=3]:
+    - link "Why Are We the Only Human Species Left? What happened to others... 8 минут 6 секунд":
+      - /url: /watch?v=OCr6NteWSQ8&pp=ugUHEgVlbi1VUw%3D%3D
+      - text: Why Are We the Only Human Species Left? What happened to others...
+  - generic: Ink Explainer
+  - generic "1,6 миллиона просмотров": 1,6 млн
+  - generic "4 месяца назад": 4 мес. назад
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=GgC86hZitrI&pp=ugUEEgJydQ%3D%3D
+  - heading "Если видео НЕ НАБИРАЕТ просмотры через 24 часа - сделай это..." [level=3]:
+    - link "Если видео НЕ НАБИРАЕТ просмотры через 24 часа - сделай это... 10 минут 17 секунд":
+      - /url: /watch?v=GgC86hZitrI&pp=ugUEEgJydQ%3D%3D
+      - text: Если видео НЕ НАБИРАЕТ просмотры через 24 часа - сделай это...
+  - generic: Александр Арнаут
+  - generic "171 тысяча просмотров": 171 тыс.
+  - generic "3 месяца назад": 3 мес. назад
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=XNW5xUFIpBg
+  - 'heading "Фундаментальный курс: Американский YouTube от А до Я | Лучший гайд (реально)" [level=3]':
+    - 'link "Фундаментальный курс: Американский YouTube от А до Я | Лучший гайд (реально) 23 минуты"':
+      - /url: /watch?v=XNW5xUFIpBg
+      - text: "Фундаментальный курс: Американский YouTube от А до Я | Лучший гайд (реально)"
+  - generic: YouTube Lab
+  - generic "604 тысячи просмотров": 604 тыс.
+  - generic "2 месяца назад": 2 мес. назад
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=YyhzgNdSnbQ
+  - heading "The Greatest Double Agent Ever" [level=3]:
+    - link "The Greatest Double Agent Ever 12 минут 59 секунд":
+      - /url: /watch?v=YyhzgNdSnbQ
+      - text: The Greatest Double Agent Ever
+  - generic: Primal Space
+  - generic "Подтверждено":
+  - generic "4,7 миллиона просмотров": 4,7 млн
+  - generic "1 год назад": 1 г. назад
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=O4yWBv2Nj68&pp=ugUEEgJlbg%3D%3D
+  - heading "What Lethal Radiation Does to Your Body (Hour by Hour)" [level=3]:
+    - link "What Lethal Radiation Does to Your Body (Hour by Hour) 18 минут":
+      - /url: /watch?v=O4yWBv2Nj68&pp=ugUEEgJlbg%3D%3D
+      - text: What Lethal Radiation Does to Your Body (Hour by Hour)
+  - generic: The Infographics Show
+  - generic "Подтверждено":
+  - generic "2,5 миллиона просмотров": 2,5 млн
+  - generic "4 недели назад": 4 нед. назад
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=iTOKRWgjOlg
+  - heading "The Lost Colony of Roanoke" [level=3]:
+    - link "The Lost Colony of Roanoke 27 минут":
+      - /url: /watch?v=iTOKRWgjOlg
+      - text: The Lost Colony of Roanoke
+  - generic: LEMMiNO
+  - generic "Подтверждено":
+  - generic "8,5 миллиона просмотров": 8,5 млн
+  - generic "6 лет назад": 6 л. назад
+  - button "Ещё":

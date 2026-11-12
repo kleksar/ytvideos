@@ -1,0 +1,93 @@
+{
+  "release_id": "paper-detour-039-release-v02",
+  "channel": "Paper Detour",
+  "channel_id": "UCMVfdfaNxV3ZkI3_J3Eejzw",
+  "video_id": "rsU6CkCwWjA",
+  "video_url": "https://youtu.be/rsU6CkCwWjA",
+  "observed_at_utc": "2026-11-03T20:41:40.941502+00:00",
+  "user_instruction": "Change the hashtags, make the video Public, and add A/B testing.",
+  "youtube_state": {
+    "privacy_status": "public",
+    "upload_status": "processed",
+    "processing_status": "succeeded",
+    "publish_at": null,
+    "etag": "IB6sq3umF6GHcQQPsvAt8KuF0FI",
+    "title": "The Machine Gun Jammed. The Emus Kept Coming.",
+    "thumbnail": "A",
+    "description": "Release_v02/DESCRIPTION_A.txt",
+    "description_normalization": "YouTube removed only the final newline; all other description characters matched the submitted text.",
+    "hashtags_count": 21,
+    "hashtags_line": "#GreatEmuWar #EmuWar #AustralianHistory #WesternAustralia #Australia #1932 #1930s #MilitaryHistory #AustralianArmy #MachineGuns #MilitaryFailure #Emus #AustralianWildlife #WheatFarming #CropProtection #AgriculturalHistory #HumanWildlifeConflict #WeirdHistory #HistoryDocumentary #History #PaperDetour"
+  },
+  "ab_test": {
+    "state": "active",
+    "platform": "YouTube Studio native experiment",
+    "type": "title_thumbnail_pair",
+    "status_readback": "Studio showed “Testing…” for the title and thumbnail experiment; the report page showed “Checking…” and an estimated 13 days 23 hours remaining.",
+    "variants": [
+      {
+        "id": "A",
+        "title": "The Machine Gun Jammed. The Emus Kept Coming.",
+        "thumbnail": "Packaging/Thumbnails/AB_v01/Masters/PD039_AB_v01_A.png"
+      },
+      {
+        "id": "B",
+        "title": "Why a Machine Gun Truck Couldn't Catch the Emus",
+        "thumbnail": "Packaging/Thumbnails/AB_v01/Masters/PD039_AB_v01_B.png"
+      },
+      {
+        "id": "C",
+        "title": "The Army Left. The Emus Came Back.",
+        "thumbnail": "Packaging/Thumbnails/AB_v01/Masters/PD039_AB_v01_C.png"
+      }
+    ],
+    "outcome": "pending",
+    "metric": "YouTube native watch-time share",
+    "instruction": "Do not select a winner or change the experiment before a platform result or direct user instruction."
+  },
+  "source_receipts": {
+    "original_upload": "Release_v01/RELEASE_REPORT_v01.json",
+    "description_write_readback": "Release_v02/DESCRIPTION_UPDATE_READBACK.json",
+    "public_readback": "Release_v02/PUBLICATION_READBACK_v02.json",
+    "hashtag_review": "Release_v02/HASHTAG_REVIEW_v02_20261103.md",
+    "playlist_assignment": "Release_v02/PLAYLIST_ASSIGNMENT_v02.json",
+    "playlist_consultation": "Release_v02/PLAYLIST_CONSULTATION_20261103.md",
+    "protected_description_blocks": "Release_v02/PROTECTED_BLOCKS.json",
+    "description_validation": "Release_v02/DESCRIPTION_VALIDATION_v02.json",
+    "lifecycle_final_public_readback": "Release_v02/LIFECYCLE_FINAL_PUBLIC_READBACK_v01.json",
+    "text_only_plan": "Edit/MediaLifecycle/TEXT_ONLY_PLAN_v01.json",
+    "text_only_receipt": "Edit/MediaLifecycle/TEXT_ONLY_DELETE_RECEIPT_v01.json"
+  },
+  "verification": {
+    "youtube_api_readback": "fresh independent readback confirmed Public; uploader status independently confirmed Public and processing succeeded.",
+    "studio_readback": "After local media retirement, Studio still showed Public access, active title testing, active thumbnail testing, and the Real Stories & Discoveries selection.",
+    "studio_readback_at_utc": "2026-11-03T21:04:00Z (approximate UI observation)",
+    "schedule_check": "At the release check, no upcoming scheduled upload was found; the user explicitly requested immediate Public access.",
+    "description_validation": "All three complete descriptions A/B/C passed protected chapters and hashtags block checks; both blocks occur once and in order.",
+    "playlist": "Assigned to Real Stories & Discoveries; one membership confirmed and existing order preserved.",
+    "playlist_assignment": {
+      "state": "saved_verified",
+      "playlist_id": "PLEIDCTZ8y2k8",
+      "playlist_title": "Real Stories & Discoveries",
+      "playlist_item_id": "UExFSURDVFo4eTJrOC43MTI1NDIwOTMwQjIxMzNG",
+      "before_count": 18,
+      "after_count": 19,
+      "video_occurrences": 1,
+      "existing_order_preserved": true,
+      "reason": "Matches the playlist promise for real events with documentary basis; Extra High consultation confirmed fit."
+    },
+    "post_render_av_qa": "not performed; the user-approved MP4 was used as-is.",
+    "end_screen": "not configured; existing timing plan does not match the accepted MP4 duration."
+  },
+  "last_updated_utc": "2026-11-03T21:07:10Z",
+  "storage_state": "TEXT_ONLY",
+  "local_media_retirement": {
+    "state": "verified",
+    "receipt": "Edit/MediaLifecycle/TEXT_ONLY_DELETE_RECEIPT_v01.json",
+    "plan": "Edit/MediaLifecycle/TEXT_ONLY_PLAN_v01.json",
+    "removed_file_count": 5476,
+    "removed_logical_bytes": 1392109367,
+    "accepted_video_local_copy": "removed",
+    "remote_video": "Public/processed/succeeded; see LIFECYCLE_FINAL_PUBLIC_READBACK_v01.json"
+  }
+}

@@ -1,0 +1,367 @@
+{
+  "sha256": "629644be7a4f6c0ca6accd567cd0409c00556f948062846609c00cc52f6da01b",
+  "frame_count": 1098,
+  "fps": "30/1",
+  "required_review_checks": [
+    "stream_metadata",
+    "full_decode",
+    "frame_sampling",
+    "motion_framing",
+    "cue_timing",
+    "audio_signal",
+    "subjective_audio_listening",
+    "independent_review"
+  ],
+  "freshness": {
+    "status": "CURRENT",
+    "evidence": "Palmier project 31F93804 / timeline 7537BAE9; saved snapshot named Short02 scene07 v03 and ASR subtitle review draft 20261102 at 16:58 local; review MP4 rendered from that live timeline at 17:02 local."
+  },
+  "expected": {
+    "video": {
+      "width": 1080,
+      "height": 1920,
+      "codec_name": "h264",
+      "pix_fmt": "yuv420p",
+      "color_space": "bt709"
+    },
+    "audio": {
+      "required": true,
+      "codec_name": "aac",
+      "channels": 2,
+      "sample_rate": 44100
+    }
+  },
+  "scenes": [
+    {
+      "id": "S01",
+      "start": 0,
+      "end": 177
+    },
+    {
+      "id": "S02",
+      "start": 177,
+      "end": 330
+    },
+    {
+      "id": "S03",
+      "start": 330,
+      "end": 468
+    },
+    {
+      "id": "S04",
+      "start": 468,
+      "end": 606
+    },
+    {
+      "id": "S05",
+      "start": 606,
+      "end": 774
+    },
+    {
+      "id": "S06",
+      "start": 774,
+      "end": 924
+    },
+    {
+      "id": "S07",
+      "start": 924,
+      "end": 1098
+    }
+  ],
+  "cues": [
+    {
+      "id": "C01",
+      "start": 0,
+      "end": 22,
+      "entry_end": 3,
+      "exit_start": 19
+    },
+    {
+      "id": "C02",
+      "start": 34,
+      "end": 60,
+      "entry_end": 37,
+      "exit_start": 57
+    },
+    {
+      "id": "C03",
+      "start": 71,
+      "end": 92,
+      "entry_end": 74,
+      "exit_start": 89
+    },
+    {
+      "id": "C04",
+      "start": 92,
+      "end": 116,
+      "entry_end": 95,
+      "exit_start": 113
+    },
+    {
+      "id": "C05",
+      "start": 116,
+      "end": 139,
+      "entry_end": 119,
+      "exit_start": 136
+    },
+    {
+      "id": "C06",
+      "start": 139,
+      "end": 160,
+      "entry_end": 142,
+      "exit_start": 157
+    },
+    {
+      "id": "C07",
+      "start": 160,
+      "end": 174,
+      "entry_end": 163,
+      "exit_start": 171
+    },
+    {
+      "id": "C08",
+      "start": 187,
+      "end": 229,
+      "entry_end": 190,
+      "exit_start": 226
+    },
+    {
+      "id": "C09",
+      "start": 229,
+      "end": 242,
+      "entry_end": 232,
+      "exit_start": 239
+    },
+    {
+      "id": "C10",
+      "start": 242,
+      "end": 266,
+      "entry_end": 245,
+      "exit_start": 263
+    },
+    {
+      "id": "C11",
+      "start": 266,
+      "end": 289,
+      "entry_end": 269,
+      "exit_start": 286
+    },
+    {
+      "id": "C12",
+      "start": 289,
+      "end": 304,
+      "entry_end": 292,
+      "exit_start": 301
+    },
+    {
+      "id": "C13",
+      "start": 304,
+      "end": 337,
+      "entry_end": 307,
+      "exit_start": 334
+    },
+    {
+      "id": "C14",
+      "start": 337,
+      "end": 363,
+      "entry_end": 340,
+      "exit_start": 360
+    },
+    {
+      "id": "C15",
+      "start": 363,
+      "end": 394,
+      "entry_end": 366,
+      "exit_start": 391
+    },
+    {
+      "id": "C16",
+      "start": 394,
+      "end": 421,
+      "entry_end": 397,
+      "exit_start": 418
+    },
+    {
+      "id": "C17",
+      "start": 421,
+      "end": 442,
+      "entry_end": 424,
+      "exit_start": 439
+    },
+    {
+      "id": "C18",
+      "start": 450,
+      "end": 468,
+      "entry_end": 453,
+      "exit_start": 465
+    },
+    {
+      "id": "C19",
+      "start": 468,
+      "end": 502,
+      "entry_end": 471,
+      "exit_start": 499
+    },
+    {
+      "id": "C20",
+      "start": 502,
+      "end": 526,
+      "entry_end": 505,
+      "exit_start": 523
+    },
+    {
+      "id": "C21",
+      "start": 538,
+      "end": 560,
+      "entry_end": 541,
+      "exit_start": 557
+    },
+    {
+      "id": "C22",
+      "start": 560,
+      "end": 575,
+      "entry_end": 563,
+      "exit_start": 572
+    },
+    {
+      "id": "C23",
+      "start": 575,
+      "end": 609,
+      "entry_end": 578,
+      "exit_start": 606
+    },
+    {
+      "id": "C24",
+      "start": 609,
+      "end": 641,
+      "entry_end": 612,
+      "exit_start": 638
+    },
+    {
+      "id": "C25",
+      "start": 641,
+      "end": 665,
+      "entry_end": 644,
+      "exit_start": 662
+    },
+    {
+      "id": "C26",
+      "start": 665,
+      "end": 706,
+      "entry_end": 668,
+      "exit_start": 703
+    },
+    {
+      "id": "C27",
+      "start": 706,
+      "end": 724,
+      "entry_end": 709,
+      "exit_start": 721
+    },
+    {
+      "id": "C28",
+      "start": 724,
+      "end": 749,
+      "entry_end": 727,
+      "exit_start": 746
+    },
+    {
+      "id": "C29",
+      "start": 749,
+      "end": 766,
+      "entry_end": 752,
+      "exit_start": 763
+    },
+    {
+      "id": "C30",
+      "start": 775,
+      "end": 796,
+      "entry_end": 778,
+      "exit_start": 793
+    },
+    {
+      "id": "C31",
+      "start": 796,
+      "end": 826,
+      "entry_end": 799,
+      "exit_start": 823
+    },
+    {
+      "id": "C32",
+      "start": 826,
+      "end": 851,
+      "entry_end": 829,
+      "exit_start": 848
+    },
+    {
+      "id": "C33",
+      "start": 851,
+      "end": 879,
+      "entry_end": 854,
+      "exit_start": 876
+    },
+    {
+      "id": "C34",
+      "start": 879,
+      "end": 889,
+      "entry_end": 882,
+      "exit_start": 886
+    },
+    {
+      "id": "C35",
+      "start": 889,
+      "end": 914,
+      "entry_end": 892,
+      "exit_start": 911
+    },
+    {
+      "id": "C36",
+      "start": 914,
+      "end": 933,
+      "entry_end": 917,
+      "exit_start": 930
+    },
+    {
+      "id": "C37",
+      "start": 933,
+      "end": 954,
+      "entry_end": 936,
+      "exit_start": 951
+    },
+    {
+      "id": "C38",
+      "start": 954,
+      "end": 984,
+      "entry_end": 957,
+      "exit_start": 981
+    },
+    {
+      "id": "C39",
+      "start": 984,
+      "end": 997,
+      "entry_end": 987,
+      "exit_start": 994
+    },
+    {
+      "id": "C40",
+      "start": 997,
+      "end": 1028,
+      "entry_end": 1000,
+      "exit_start": 1025
+    },
+    {
+      "id": "C41",
+      "start": 1028,
+      "end": 1059,
+      "entry_end": 1031,
+      "exit_start": 1056
+    }
+  ],
+  "extra_frames": [
+    924,
+    925,
+    1009,
+    1095,
+    1097
+  ]
+}

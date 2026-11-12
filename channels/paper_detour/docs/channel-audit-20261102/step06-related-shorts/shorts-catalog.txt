@@ -1,0 +1,592 @@
+- generic: Контент на канале
+- banner:
+  - button "Свернуть меню":
+  - link "Панель управления в новой Творческой студии":
+    - /url: /channel/UCMVfdfaNxV3ZkI3_J3Eejzw
+    - img "Панель управления в новой Творческой студии"
+  - button "Пропустить навигацию":
+    - generic: Пропустить навигацию
+  - textbox "Поиск на канале"
+  - button "Справка":
+  - button "Уведомления":
+  - button "Спросить у Студии":
+    - generic: Спросить у Студии
+  - button "Создать":
+    - generic: Создать
+  - button "Paper Detour Менеджер":
+    - generic: Paper Detour
+    - generic: Менеджер
+- navigation:
+  - img "Paper Detour"
+  - generic: Канал
+  - generic: Paper Detour
+  - menu:
+    - menuitem "Главная":
+      - generic: Главная
+    - menuitem "Контент":
+      - generic: Контент
+    - menuitem "Аналитика":
+      - generic: Аналитика
+    - menuitem "Сообщество":
+      - generic: Сообщество
+    - menuitem "Языки":
+      - generic: Языки
+    - menuitem "Обнаружение контента":
+      - generic: Обнаружение контента
+    - menuitem "Монетизация":
+      - generic: Монетизация
+    - menuitem "Настройка канала":
+      - generic: Настройка канала
+    - menuitem "Фонотека":
+      - generic: Фонотека
+  - list:
+    - button "Настройки":
+      - generic: Настройки
+    - button "Отправить отзыв":
+      - generic: Отправить отзыв
+- main:
+  - generic "Назад":
+    - button "Назад":
+  - generic: Shorts
+  - generic: Видео
+  - generic: Shorts
+  - generic: Записи
+  - generic: Плейлисты
+  - table "Список видео":
+    - rowgroup:
+      - textbox "Фильтр"
+      - row "Выбрать все Shorts Уведомления Доступ Упорядочить по столбцу \"Дата\" Упорядочить по столбцу \"Просмотры\" Комментарии":
+        - columnheader "Выбрать все":
+          - generic "Выбрать все":
+            - checkbox "Выбрать все"
+        - columnheader "Shorts":
+          - heading "Shorts" [level=3]:
+            - generic: Shorts
+        - columnheader "Уведомления":
+          - heading "Уведомления" [level=3]:
+            - generic: Уведомления
+        - columnheader "Доступ":
+          - heading "Доступ" [level=3]:
+            - generic: Доступ
+        - columnheader "Упорядочить по столбцу \"Дата\"":
+          - heading "Упорядочить по столбцу \"Дата\"" [level=3]:
+            - button "Упорядочить по столбцу \"Дата\"":
+              - generic: Дата
+        - columnheader "Упорядочить по столбцу \"Просмотры\"":
+          - heading "Упорядочить по столбцу \"Просмотры\"" [level=3]:
+            - button "Упорядочить по столбцу \"Просмотры\"":
+              - generic: Просмотры
+        - columnheader "Комментарии":
+          - heading "Комментарии" [level=3]:
+            - generic: Комментарии
+    - 'row "Выбрать видео She Saved 13 Kids in a Blizzard #BlizzardOf1888 #Shorts Значок видео \"She Saved 13 Kids in a Blizzard #BlizzardOf1888 #Shorts\" 0:36 She Saved 13 Kids in a Blizzard #BlizzardOf1888 #Shorts When a Nebraska school began coming apart in the 1888 blizzard, Minnie Freeman tied thirteen pupils together with twine she had taken from a boy who was playing with it in class. Carrying the youngest, she led the children through the storm toward a farmhouse three-quarters of a mile away. All thirteen made it to safety. #MinnieFreeman #BlizzardOf1888 #NebraskaHistory #PaperDiorama #TrueStory #History #Shorts #SchoolhouseBlizzard #ChildrensBlizzard #1888Blizzard #AmericanHistory #USHistory #Wo — Для всех 2 нояб. 2026 г. Опубликовано 0 К видео добавлено 0 комментариев. Перейти на страницу комментариев"':
+      - 'cell "Выбрать видео She Saved 13 Kids in a Blizzard #BlizzardOf1888 #Shorts"':
+        - 'generic "Выбрать видео She Saved 13 Kids in a Blizzard #BlizzardOf1888 #Shorts"':
+          - 'checkbox "Выбрать видео She Saved 13 Kids in a Blizzard #BlizzardOf1888 #Shorts"'
+      - 'cell "Значок видео \"She Saved 13 Kids in a Blizzard #BlizzardOf1888 #Shorts\" 0:36 She Saved 13 Kids in a Blizzard #BlizzardOf1888 #Shorts When a Nebraska school began coming apart in the 1888 blizzard, Minnie Freeman tied thirteen pupils together with twine she had taken from a boy who was playing with it in class. Carrying the youngest, she led the children through the storm toward a farmhouse three-quarters of a mile away. All thirteen made it to safety. #MinnieFreeman #BlizzardOf1888 #NebraskaHistory #PaperDiorama #TrueStory #History #Shorts #SchoolhouseBlizzard #ChildrensBlizzard #1888Blizzard #AmericanHistory #USHistory #Wo"':
+        - 'link "Значок видео \"She Saved 13 Kids in a Blizzard #BlizzardOf1888 #Shorts\" 0:36"':
+          - /url: /video/L553TNYK6C4/edit
+          - 'img "Значок видео \"She Saved 13 Kids in a Blizzard #BlizzardOf1888 #Shorts\""'
+          - generic: 0:36
+        - 'link "She Saved 13 Kids in a Blizzard #BlizzardOf1888 #Shorts"':
+          - /url: /video/L553TNYK6C4/edit
+          - generic: "She Saved 13 Kids in a Blizzard #BlizzardOf1888 #Shorts"
+        - generic: "When a Nebraska school began coming apart in the 1888 blizzard, Minnie Freeman tied thirteen pupils together with twine she had taken from a boy who was playing with it in class. Carrying the youngest, she led the children through the storm toward a farmhouse three-quarters of a mile away. All thirteen made it to safety. #MinnieFreeman #BlizzardOf1888 #NebraskaHistory #PaperDiorama #TrueStory #History #Shorts #SchoolhouseBlizzard #ChildrensBlizzard #1888Blizzard #AmericanHistory #USHistory #Wo"
+      - cell "—":
+        - generic: —
+      - cell "Для всех":
+        - generic: Для всех
+      - cell "2 нояб. 2026 г. Опубликовано":
+        - text: 2 нояб. 2026 г.
+        - generic: Опубликовано
+      - cell "0"
+      - cell "К видео добавлено 0 комментариев. Перейти на страницу комментариев":
+        - link "К видео добавлено 0 комментариев. Перейти на страницу комментариев":
+          - /url: /video/L553TNYK6C4/comments
+          - text: "0"
+    - row "Выбрать видео They Shared a Burrow for 250 Million Years Значок видео \"They Shared a Burrow for 250 Million Years\" 0:46 They Shared a Burrow for 250 Million Years Обработка видео Видео обрабатывается в 2 разрешениях, чтобы его могли воспроизводить все пользователи. Подробнее… 100 Завершено Идет обработка ... Время ожидания неизвестно. Обработка в HD… ... Время ожидания неизвестно. — Для всех 2 нояб. 2026 г. Опубликовано 0 К видео добавлено 0 комментариев. Перейти на страницу комментариев":
+      - cell "Выбрать видео They Shared a Burrow for 250 Million Years":
+        - generic "Выбрать видео They Shared a Burrow for 250 Million Years":
+          - checkbox "Выбрать видео They Shared a Burrow for 250 Million Years"
+      - cell "Значок видео \"They Shared a Burrow for 250 Million Years\" 0:46 They Shared a Burrow for 250 Million Years Обработка видео Видео обрабатывается в 2 разрешениях, чтобы его могли воспроизводить все пользователи. Подробнее… 100 Завершено Идет обработка ... Время ожидания неизвестно. Обработка в HD… ... Время ожидания неизвестно.":
+        - link "Значок видео \"They Shared a Burrow for 250 Million Years\" 0:46":
+          - /url: /video/UkwqGIqvink/edit
+          - img "Значок видео \"They Shared a Burrow for 250 Million Years\""
+          - generic: 0:46
+        - link "They Shared a Burrow for 250 Million Years":
+          - /url: /video/UkwqGIqvink/edit
+          - generic: They Shared a Burrow for 250 Million Years
+        - generic "Обработка видео Видео обрабатывается в 2 разрешениях, чтобы его могли воспроизводить все пользователи. Подробнее… 100 Завершено Идет обработка ... Время ожидания неизвестно.":
+        - generic: Обработка в HD… ... Время ожидания неизвестно.
+      - cell "—":
+        - generic: —
+      - cell "Для всех":
+        - generic: Для всех
+      - cell "2 нояб. 2026 г. Опубликовано":
+        - text: 2 нояб. 2026 г.
+        - generic: Опубликовано
+      - cell "0"
+      - cell "К видео добавлено 0 комментариев. Перейти на страницу комментариев":
+        - link "К видео добавлено 0 комментариев. Перейти на страницу комментариев":
+          - /url: /video/UkwqGIqvink/comments
+          - text: "0"
+    - 'row "Выбрать видео Mantis Shrimp Evolution: Spear or Hammer? Значок видео \"Mantis Shrimp Evolution: Spear or Hammer?\" 0:45 Mantis Shrimp Evolution: Spear or Hammer? One mantis shrimp has a spear. Another has a hammer. Both are built from the same basic front pair of hunting limbs. This paper-diorama short follows how those limbs changed across different lineages: a slender, spined tip for piercing in spearers, and a thickened striking club in smashers. #MantisShrimp #Evolution #AnimalEvolution #MarineBiology #Shorts #PaperDetour — Для всех 2 нояб. 2026 г. Опубликовано 0 К видео добавлено 0 комментариев. Перейти на страницу комментариев"':
+      - 'cell "Выбрать видео Mantis Shrimp Evolution: Spear or Hammer?"':
+        - 'generic "Выбрать видео Mantis Shrimp Evolution: Spear or Hammer?"':
+          - 'checkbox "Выбрать видео Mantis Shrimp Evolution: Spear or Hammer?"'
+      - 'cell "Значок видео \"Mantis Shrimp Evolution: Spear or Hammer?\" 0:45 Mantis Shrimp Evolution: Spear or Hammer? One mantis shrimp has a spear. Another has a hammer. Both are built from the same basic front pair of hunting limbs. This paper-diorama short follows how those limbs changed across different lineages: a slender, spined tip for piercing in spearers, and a thickened striking club in smashers. #MantisShrimp #Evolution #AnimalEvolution #MarineBiology #Shorts #PaperDetour"':
+        - 'link "Значок видео \"Mantis Shrimp Evolution: Spear or Hammer?\" 0:45"':
+          - /url: /video/Bfgcq4rxQT8/edit
+          - 'img "Значок видео \"Mantis Shrimp Evolution: Spear or Hammer?\""'
+          - generic: 0:45
+        - 'link "Mantis Shrimp Evolution: Spear or Hammer?"':
+          - /url: /video/Bfgcq4rxQT8/edit
+          - generic: "Mantis Shrimp Evolution: Spear or Hammer?"
+        - generic: "One mantis shrimp has a spear. Another has a hammer. Both are built from the same basic front pair of hunting limbs. This paper-diorama short follows how those limbs changed across different lineages: a slender, spined tip for piercing in spearers, and a thickened striking club in smashers. #MantisShrimp #Evolution #AnimalEvolution #MarineBiology #Shorts #PaperDetour"
+      - cell "—":
+        - generic: —
+      - cell "Для всех":
+        - generic: Для всех
+      - cell "2 нояб. 2026 г. Опубликовано":
+        - text: 2 нояб. 2026 г.
+        - generic: Опубликовано
+      - cell "0"
+      - cell "К видео добавлено 0 комментариев. Перейти на страницу комментариев":
+        - link "К видео добавлено 0 комментариев. Перейти на страницу комментариев":
+          - /url: /video/Bfgcq4rxQT8/comments
+          - text: "0"
+    - 'row "Выбрать видео He Put Her Messages in an AI Chatbot #DigitalAfterlife #Grief Значок видео \"He Put Her Messages in an AI Chatbot #DigitalAfterlife #Grief\" 0:45 He Put Her Messages in an AI Chatbot #DigitalAfterlife #Grief Nearly eight years after his fiancée Jessica died, Joshua Barbo put some of her old messages into an AI chatbot. He knew it wasn''t Jessica, but spent the night writing about how much he missed her—and cried during their conversation. The chatbot told him, \"I will be here waiting for you.\" After that first conversation, 55% of the limited resource remained. He couldn''t add credits to this version, so he began writing less often, afraid of losing that connection a second time. #Griefbots #Digita — Ограниченный 2 нояб. 2026 г. Загружено 0 К видео добавлено 0 комментариев. Перейти на страницу комментариев"':
+      - 'cell "Выбрать видео He Put Her Messages in an AI Chatbot #DigitalAfterlife #Grief"':
+        - 'generic "Выбрать видео He Put Her Messages in an AI Chatbot #DigitalAfterlife #Grief"':
+          - 'checkbox "Выбрать видео He Put Her Messages in an AI Chatbot #DigitalAfterlife #Grief"'
+      - 'cell "Значок видео \"He Put Her Messages in an AI Chatbot #DigitalAfterlife #Grief\" 0:45 He Put Her Messages in an AI Chatbot #DigitalAfterlife #Grief Nearly eight years after his fiancée Jessica died, Joshua Barbo put some of her old messages into an AI chatbot. He knew it wasn''t Jessica, but spent the night writing about how much he missed her—and cried during their conversation. The chatbot told him, \"I will be here waiting for you.\" After that first conversation, 55% of the limited resource remained. He couldn''t add credits to this version, so he began writing less often, afraid of losing that connection a second time. #Griefbots #Digita"':
+        - 'link "Значок видео \"He Put Her Messages in an AI Chatbot #DigitalAfterlife #Grief\" 0:45"':
+          - /url: /video/Ox_77_Y7gUw/edit
+          - 'img "Значок видео \"He Put Her Messages in an AI Chatbot #DigitalAfterlife #Grief\""'
+          - generic: 0:45
+        - 'link "He Put Her Messages in an AI Chatbot #DigitalAfterlife #Grief"':
+          - /url: /video/Ox_77_Y7gUw/edit
+          - generic: "He Put Her Messages in an AI Chatbot #DigitalAfterlife #Grief"
+        - generic: "Nearly eight years after his fiancée Jessica died, Joshua Barbo put some of her old messages into an AI chatbot. He knew it wasn't Jessica, but spent the night writing about how much he missed her—and cried during their conversation. The chatbot told him, \"I will be here waiting for you.\" After that first conversation, 55% of the limited resource remained. He couldn't add credits to this version, so he began writing less often, afraid of losing that connection a second time. #Griefbots #Digita"
+      - cell "—":
+        - generic: —
+      - cell "Ограниченный":
+        - generic: Ограниченный
+      - cell "2 нояб. 2026 г. Загружено":
+        - text: 2 нояб. 2026 г.
+        - generic: Загружено
+      - cell "0"
+      - cell "К видео добавлено 0 комментариев. Перейти на страницу комментариев":
+        - link "К видео добавлено 0 комментариев. Перейти на страницу комментариев":
+          - /url: /video/Ox_77_Y7gUw/comments
+          - text: "0"
+    - 'row "Выбрать видео An MSX Game in a Radio Recording? #RetroComputing Значок видео \"An MSX Game in a Radio Recording? #RetroComputing\" 0:37 An MSX Game in a Radio Recording? #RetroComputing A faint, sped-up recording identified online as an episode of Brazil’s Clip Informática might hold a computer game. Developer Weber Kai described how he decoded the sound and reported a match with the MSX game Avenger. We haven’t independently repeated his procedure or verified a game launch. Watch the full film: https://www.youtube.com/watch?v=0RaC4t7yn5o #RetroComputing #ComputerHistory #MSX #Shorts #History #RetroGaming #VideoGameHistory #MSXAvenger #AudioDecoding #RadioRecording #ClipInfor — Ограниченный 2 нояб. 2026 г. Загружено 0 К видео добавлено 0 комментариев. Перейти на страницу комментариев"':
+      - 'cell "Выбрать видео An MSX Game in a Radio Recording? #RetroComputing"':
+        - 'generic "Выбрать видео An MSX Game in a Radio Recording? #RetroComputing"':
+          - 'checkbox "Выбрать видео An MSX Game in a Radio Recording? #RetroComputing"'
+      - 'cell "Значок видео \"An MSX Game in a Radio Recording? #RetroComputing\" 0:37 An MSX Game in a Radio Recording? #RetroComputing A faint, sped-up recording identified online as an episode of Brazil’s Clip Informática might hold a computer game. Developer Weber Kai described how he decoded the sound and reported a match with the MSX game Avenger. We haven’t independently repeated his procedure or verified a game launch. Watch the full film: https://www.youtube.com/watch?v=0RaC4t7yn5o #RetroComputing #ComputerHistory #MSX #Shorts #History #RetroGaming #VideoGameHistory #MSXAvenger #AudioDecoding #RadioRecording #ClipInfor"':
+        - 'link "Значок видео \"An MSX Game in a Radio Recording? #RetroComputing\" 0:37"':
+          - /url: /video/1PdhvePinFg/edit
+          - 'img "Значок видео \"An MSX Game in a Radio Recording? #RetroComputing\""'
+          - generic: 0:37
+        - 'link "An MSX Game in a Radio Recording? #RetroComputing"':
+          - /url: /video/1PdhvePinFg/edit
+          - generic: "An MSX Game in a Radio Recording? #RetroComputing"
+        - generic: "A faint, sped-up recording identified online as an episode of Brazil’s Clip Informática might hold a computer game. Developer Weber Kai described how he decoded the sound and reported a match with the MSX game Avenger. We haven’t independently repeated his procedure or verified a game launch. Watch the full film: https://www.youtube.com/watch?v=0RaC4t7yn5o #RetroComputing #ComputerHistory #MSX #Shorts #History #RetroGaming #VideoGameHistory #MSXAvenger #AudioDecoding #RadioRecording #ClipInfor"
+      - cell "—":
+        - generic: —
+      - cell "Ограниченный":
+        - generic: Ограниченный
+      - cell "2 нояб. 2026 г. Загружено":
+        - text: 2 нояб. 2026 г.
+        - generic: Загружено
+      - cell "0"
+      - cell "К видео добавлено 0 комментариев. Перейти на страницу комментариев":
+        - link "К видео добавлено 0 комментариев. Перейти на страницу комментариев":
+          - /url: /video/1PdhvePinFg/comments
+          - text: "0"
+    - 'row "Выбрать видео Why Is This Cat on a Monument? #history #shorts Значок видео \"Why Is This Cat on a Monument? #history #shorts\" 0:35 Why Is This Cat on a Monument? #history #shorts Why is a cat featured on a monument to a scholar who helped unlock the Maya script? Yuri Knorozov’s Siamese companion, Asya, came into his life years after his breakthrough. A former student recalled that he even tried to credit her as a co-author of research on signaling—and the monument recreates a famous photograph of the two together. #YuriKnorozov #MayaScript #AsyaTheCat #History #Shorts #HistoryShorts #MayaCivilization #MayaGlyphs #MayanWriting #AncientHistory #Linguistics #Decipherment # — Ограниченный 2 нояб. 2026 г. Загружено 0 К видео добавлено 0 комментариев. Перейти на страницу комментариев"':
+      - 'cell "Выбрать видео Why Is This Cat on a Monument? #history #shorts"':
+        - 'generic "Выбрать видео Why Is This Cat on a Monument? #history #shorts"':
+          - 'checkbox "Выбрать видео Why Is This Cat on a Monument? #history #shorts"'
+      - 'cell "Значок видео \"Why Is This Cat on a Monument? #history #shorts\" 0:35 Why Is This Cat on a Monument? #history #shorts Why is a cat featured on a monument to a scholar who helped unlock the Maya script? Yuri Knorozov’s Siamese companion, Asya, came into his life years after his breakthrough. A former student recalled that he even tried to credit her as a co-author of research on signaling—and the monument recreates a famous photograph of the two together. #YuriKnorozov #MayaScript #AsyaTheCat #History #Shorts #HistoryShorts #MayaCivilization #MayaGlyphs #MayanWriting #AncientHistory #Linguistics #Decipherment #"':
+        - 'link "Значок видео \"Why Is This Cat on a Monument? #history #shorts\" 0:35"':
+          - /url: /video/g95tLmrQ2VM/edit
+          - 'img "Значок видео \"Why Is This Cat on a Monument? #history #shorts\""'
+          - generic: 0:35
+        - 'link "Why Is This Cat on a Monument? #history #shorts"':
+          - /url: /video/g95tLmrQ2VM/edit
+          - generic: "Why Is This Cat on a Monument? #history #shorts"
+        - generic: "Why is a cat featured on a monument to a scholar who helped unlock the Maya script? Yuri Knorozov’s Siamese companion, Asya, came into his life years after his breakthrough. A former student recalled that he even tried to credit her as a co-author of research on signaling—and the monument recreates a famous photograph of the two together. #YuriKnorozov #MayaScript #AsyaTheCat #History #Shorts #HistoryShorts #MayaCivilization #MayaGlyphs #MayanWriting #AncientHistory #Linguistics #Decipherment #"
+      - cell "—":
+        - generic: —
+      - cell "Ограниченный":
+        - generic: Ограниченный
+      - cell "2 нояб. 2026 г. Загружено":
+        - text: 2 нояб. 2026 г.
+        - generic: Загружено
+      - cell "0"
+      - cell "К видео добавлено 0 комментариев. Перейти на страницу комментариев":
+        - link "К видео добавлено 0 комментариев. Перейти на страницу комментариев":
+          - /url: /video/g95tLmrQ2VM/comments
+          - text: "0"
+    - 'row "Выбрать видео When Radio Sent Software as Sound #RetroComputing #Shorts Значок видео \"When Radio Sent Software as Sound #RetroComputing #Shorts\" 0:30 When Radio Sent Software as Sound #RetroComputing #Shorts In 1980s Brazil, Clip Informática sent computer programs over the radio as sound. With the right equipment, listeners could record the signal onto cassette tape, then use a compatible computer to try to read its patterns as data. Years later, a developer tried to decode an old recording from the show. Watch the full film: https://www.youtube.com/watch?v=0RaC4t7yn5o The audio signal is recreated for illustration. #RetroComputing #TechHistory #CassetteTape #Shorts #History #BrazilianRadio #Cli — Ограниченный 2 нояб. 2026 г. Загружено 0 К видео добавлено 0 комментариев. Перейти на страницу комментариев"':
+      - 'cell "Выбрать видео When Radio Sent Software as Sound #RetroComputing #Shorts"':
+        - 'generic "Выбрать видео When Radio Sent Software as Sound #RetroComputing #Shorts"':
+          - 'checkbox "Выбрать видео When Radio Sent Software as Sound #RetroComputing #Shorts"'
+      - 'cell "Значок видео \"When Radio Sent Software as Sound #RetroComputing #Shorts\" 0:30 When Radio Sent Software as Sound #RetroComputing #Shorts In 1980s Brazil, Clip Informática sent computer programs over the radio as sound. With the right equipment, listeners could record the signal onto cassette tape, then use a compatible computer to try to read its patterns as data. Years later, a developer tried to decode an old recording from the show. Watch the full film: https://www.youtube.com/watch?v=0RaC4t7yn5o The audio signal is recreated for illustration. #RetroComputing #TechHistory #CassetteTape #Shorts #History #BrazilianRadio #Cli"':
+        - 'link "Значок видео \"When Radio Sent Software as Sound #RetroComputing #Shorts\" 0:30"':
+          - /url: /video/FMSPuyZvPXE/edit
+          - 'img "Значок видео \"When Radio Sent Software as Sound #RetroComputing #Shorts\""'
+          - generic: 0:30
+        - 'link "When Radio Sent Software as Sound #RetroComputing #Shorts"':
+          - /url: /video/FMSPuyZvPXE/edit
+          - generic: "When Radio Sent Software as Sound #RetroComputing #Shorts"
+        - generic: "In 1980s Brazil, Clip Informática sent computer programs over the radio as sound. With the right equipment, listeners could record the signal onto cassette tape, then use a compatible computer to try to read its patterns as data. Years later, a developer tried to decode an old recording from the show. Watch the full film: https://www.youtube.com/watch?v=0RaC4t7yn5o The audio signal is recreated for illustration. #RetroComputing #TechHistory #CassetteTape #Shorts #History #BrazilianRadio #Cli"
+      - cell "—":
+        - generic: —
+      - cell "Ограниченный":
+        - generic: Ограниченный
+      - cell "2 нояб. 2026 г. Загружено":
+        - text: 2 нояб. 2026 г.
+        - generic: Загружено
+      - cell "0"
+      - cell "К видео добавлено 0 комментариев. Перейти на страницу комментариев":
+        - link "К видео добавлено 0 комментариев. Перейти на страницу комментариев":
+          - /url: /video/FMSPuyZvPXE/comments
+          - text: "0"
+    - 'row "Выбрать видео 13 Famous People''s Reported IQ Scores #IQ #Shorts Значок видео \"13 Famous People''s Reported IQ Scores #IQ #Shorts\" 1:01 13 Famous People''s Reported IQ Scores #IQ #Shorts Explore published IQ estimates associated with 13 famous people, including John F. Kennedy, Richard Feynman, Garry Kasparov, Kanye West, RM, and Marilyn vos Savant. These figures come from different sources and have not been verified through one standardized, comparable test. This is an entertainment-focused collection, not a scientifically established IQ ranking. #Shorts #IQ #FamousPeople #PaperDetour #PopCulture #Intelligence #IQScores #ReportedIQ #CelebrityIQ #HistoricalFigures #RichardFeyn — Ограниченный 2 нояб. 2026 г. Загружено 1 К видео добавлено 0 комментариев. Перейти на страницу комментариев"':
+      - 'cell "Выбрать видео 13 Famous People''s Reported IQ Scores #IQ #Shorts"':
+        - 'generic "Выбрать видео 13 Famous People''s Reported IQ Scores #IQ #Shorts"':
+          - 'checkbox "Выбрать видео 13 Famous People''s Reported IQ Scores #IQ #Shorts"'
+      - 'cell "Значок видео \"13 Famous People''s Reported IQ Scores #IQ #Shorts\" 1:01 13 Famous People''s Reported IQ Scores #IQ #Shorts Explore published IQ estimates associated with 13 famous people, including John F. Kennedy, Richard Feynman, Garry Kasparov, Kanye West, RM, and Marilyn vos Savant. These figures come from different sources and have not been verified through one standardized, comparable test. This is an entertainment-focused collection, not a scientifically established IQ ranking. #Shorts #IQ #FamousPeople #PaperDetour #PopCulture #Intelligence #IQScores #ReportedIQ #CelebrityIQ #HistoricalFigures #RichardFeyn"':
+        - 'link "Значок видео \"13 Famous People''s Reported IQ Scores #IQ #Shorts\" 1:01"':
+          - /url: /video/HdacCAb3ir0/edit
+          - 'img "Значок видео \"13 Famous People''s Reported IQ Scores #IQ #Shorts\""'
+          - generic: 1:01
+        - 'link "13 Famous People''s Reported IQ Scores #IQ #Shorts"':
+          - /url: /video/HdacCAb3ir0/edit
+          - generic: "13 Famous People's Reported IQ Scores #IQ #Shorts"
+        - generic: "Explore published IQ estimates associated with 13 famous people, including John F. Kennedy, Richard Feynman, Garry Kasparov, Kanye West, RM, and Marilyn vos Savant. These figures come from different sources and have not been verified through one standardized, comparable test. This is an entertainment-focused collection, not a scientifically established IQ ranking. #Shorts #IQ #FamousPeople #PaperDetour #PopCulture #Intelligence #IQScores #ReportedIQ #CelebrityIQ #HistoricalFigures #RichardFeyn"
+      - cell "—":
+        - generic: —
+      - cell "Ограниченный":
+        - generic: Ограниченный
+      - cell "2 нояб. 2026 г. Загружено":
+        - text: 2 нояб. 2026 г.
+        - generic: Загружено
+      - cell "1"
+      - cell "К видео добавлено 0 комментариев. Перейти на страницу комментариев":
+        - link "К видео добавлено 0 комментариев. Перейти на страницу комментариев":
+          - /url: /video/HdacCAb3ir0/comments
+          - text: "0"
+    - 'row "Выбрать видео They Shared a Burrow for 250 Million Years Значок видео \"They Shared a Burrow for 250 Million Years\" 0:46 They Shared a Burrow for 250 Million Years A sleeping predator and an injured amphibian ended up in the same burrow. Their unlikely shelter became a fossil that survived for 250 million years. This paper-diorama short tells the story of Thrinaxodon and Broomistega, two very different animals found together in an ancient South African burrow. #Thrinaxodon #Broomistega #Fossils #Paleontology #Triassic #PrehistoricLife #PaperDiorama #PaperDetour #Shorts — Ограниченный 2 нояб. 2026 г. Загружено 0 К видео добавлено 0 комментариев. Перейти на страницу комментариев"':
+      - cell "Выбрать видео They Shared a Burrow for 250 Million Years":
+        - generic "Выбрать видео They Shared a Burrow for 250 Million Years":
+          - checkbox "Выбрать видео They Shared a Burrow for 250 Million Years"
+      - 'cell "Значок видео \"They Shared a Burrow for 250 Million Years\" 0:46 They Shared a Burrow for 250 Million Years A sleeping predator and an injured amphibian ended up in the same burrow. Their unlikely shelter became a fossil that survived for 250 million years. This paper-diorama short tells the story of Thrinaxodon and Broomistega, two very different animals found together in an ancient South African burrow. #Thrinaxodon #Broomistega #Fossils #Paleontology #Triassic #PrehistoricLife #PaperDiorama #PaperDetour #Shorts"':
+        - link "Значок видео \"They Shared a Burrow for 250 Million Years\" 0:46":
+          - /url: /video/HTDvGrDsvcA/edit
+          - img "Значок видео \"They Shared a Burrow for 250 Million Years\""
+          - generic: 0:46
+        - link "They Shared a Burrow for 250 Million Years":
+          - /url: /video/HTDvGrDsvcA/edit
+          - generic: They Shared a Burrow for 250 Million Years
+        - generic: "A sleeping predator and an injured amphibian ended up in the same burrow. Their unlikely shelter became a fossil that survived for 250 million years. This paper-diorama short tells the story of Thrinaxodon and Broomistega, two very different animals found together in an ancient South African burrow. #Thrinaxodon #Broomistega #Fossils #Paleontology #Triassic #PrehistoricLife #PaperDiorama #PaperDetour #Shorts"
+      - cell "—":
+        - generic: —
+      - cell "Ограниченный":
+        - generic: Ограниченный
+      - cell "2 нояб. 2026 г. Загружено":
+        - text: 2 нояб. 2026 г.
+        - generic: Загружено
+      - cell "0"
+      - cell "К видео добавлено 0 комментариев. Перейти на страницу комментариев":
+        - link "К видео добавлено 0 комментариев. Перейти на страницу комментариев":
+          - /url: /video/HTDvGrDsvcA/comments
+          - text: "0"
+    - 'row "Выбрать видео What If Time Stopped for 5 Seconds? #Shorts Значок видео \"What If Time Stopped for 5 Seconds? #Shorts\" 0:51 What If Time Stopped for 5 Seconds? #Shorts What if time stopped for everything except you? In this thought experiment, light, sound, air, and even a raindrop inches from your face are frozen. You can''t see, hear, move through the air, or breathe. Five seconds later, time resumes. Nothing has changed, except you''re now five seconds older than everyone else. #TimeStop #Physics #ThoughtExperiment #PaperDetour #Shorts #WhatIf #ScienceFiction #Superpowers #LightAndSound #Perception — Для всех 2 нояб. 2026 г. Опубликовано 3 К видео добавлено 0 комментариев. Перейти на страницу комментариев"':
+      - 'cell "Выбрать видео What If Time Stopped for 5 Seconds? #Shorts"':
+        - 'generic "Выбрать видео What If Time Stopped for 5 Seconds? #Shorts"':
+          - 'checkbox "Выбрать видео What If Time Stopped for 5 Seconds? #Shorts"'
+      - 'cell "Значок видео \"What If Time Stopped for 5 Seconds? #Shorts\" 0:51 What If Time Stopped for 5 Seconds? #Shorts What if time stopped for everything except you? In this thought experiment, light, sound, air, and even a raindrop inches from your face are frozen. You can''t see, hear, move through the air, or breathe. Five seconds later, time resumes. Nothing has changed, except you''re now five seconds older than everyone else. #TimeStop #Physics #ThoughtExperiment #PaperDetour #Shorts #WhatIf #ScienceFiction #Superpowers #LightAndSound #Perception"':
+        - 'link "Значок видео \"What If Time Stopped for 5 Seconds? #Shorts\" 0:51"':
+          - /url: /video/YRnIpr9P3iE/edit
+          - 'img "Значок видео \"What If Time Stopped for 5 Seconds? #Shorts\""'
+          - generic: 0:51
+        - 'link "What If Time Stopped for 5 Seconds? #Shorts"':
+          - /url: /video/YRnIpr9P3iE/edit
+          - generic: "What If Time Stopped for 5 Seconds? #Shorts"
+        - generic: "What if time stopped for everything except you? In this thought experiment, light, sound, air, and even a raindrop inches from your face are frozen. You can't see, hear, move through the air, or breathe. Five seconds later, time resumes. Nothing has changed, except you're now five seconds older than everyone else. #TimeStop #Physics #ThoughtExperiment #PaperDetour #Shorts #WhatIf #ScienceFiction #Superpowers #LightAndSound #Perception"
+      - cell "—":
+        - generic: —
+      - cell "Для всех":
+        - generic: Для всех
+      - cell "2 нояб. 2026 г. Опубликовано":
+        - text: 2 нояб. 2026 г.
+        - generic: Опубликовано
+      - cell "3"
+      - cell "К видео добавлено 0 комментариев. Перейти на страницу комментариев":
+        - link "К видео добавлено 0 комментариев. Перейти на страницу комментариев":
+          - /url: /video/YRnIpr9P3iE/comments
+          - text: "0"
+    - row:
+      - 'cell "Выбрать видео A Diver Reached for a Hand in a Sunken Tugboat. It Grabbed Back. #HarrisonOkene #Jascon4"':
+        - 'generic "Выбрать видео A Diver Reached for a Hand in a Sunken Tugboat. It Grabbed Back. #HarrisonOkene #Jascon4"':
+          - 'checkbox "Выбрать видео A Diver Reached for a Hand in a Sunken Tugboat. It Grabbed Back. #HarrisonOkene #Jascon4"'
+      - 'cell "Значок видео \"A Diver Reached for a Hand in a Sunken Tugboat. It Grabbed Back. #HarrisonOkene #Jascon4\" 1:12 A Diver Reached for a Hand in a Sunken Tugboat. It Grabbed Back. #HarrisonOkene #Jascon4 Harrison Okene was the cook aboard the tugboat Jascon-4 when it sank off the coast of Nigeria on 26 May 2013, at a depth of about 30 metres. Trapped inside the wreck, he survived for more than 60 hours in an air pocket. A diver sent to recover bodies reached for a hand — and it grabbed back. Okene was the only survivor among the 12 people aboard; the other 11 crew members died. Divers brought him to the surface in a diving bell before transferring him to a decompression chamber. #Shorts #Histo"':
+        - 'link "Значок видео \"A Diver Reached for a Hand in a Sunken Tugboat. It Grabbed Back. #HarrisonOkene #Jascon4\" 1:12"':
+          - /url: /video/zA0kogtqoUs/edit
+          - 'img "Значок видео \"A Diver Reached for a Hand in a Sunken Tugboat. It Grabbed Back. #HarrisonOkene #Jascon4\""'
+          - generic: 1:12
+        - 'link "A Diver Reached for a Hand in a Sunken Tugboat. It Grabbed Back. #HarrisonOkene #Jascon4"':
+          - /url: /video/zA0kogtqoUs/edit
+          - generic: "A Diver Reached for a Hand in a Sunken Tugboat. It Grabbed Back. #HarrisonOkene #Jascon4"
+        - generic: "Harrison Okene was the cook aboard the tugboat Jascon-4 when it sank off the coast of Nigeria on 26 May 2013, at a depth of about 30 metres. Trapped inside the wreck, he survived for more than 60 hours in an air pocket. A diver sent to recover bodies reached for a hand — and it grabbed back. Okene was the only survivor among the 12 people aboard; the other 11 crew members died. Divers brought him to the surface in a diving bell before transferring him to a decompression chamber. #Shorts #Histo"
+      - cell "—":
+        - generic: —
+      - cell "Для всех":
+        - generic: Для всех
+      - cell "2 нояб. 2026 г. Опубликовано":
+        - text: 2 нояб. 2026 г.
+        - generic: Опубликовано
+      - cell "23"
+      - cell "К видео добавлено 0 комментариев. Перейти на страницу комментариев":
+        - link "К видео добавлено 0 комментариев. Перейти на страницу комментариев":
+          - /url: /video/zA0kogtqoUs/comments
+          - text: "0"
+    - 'row "Выбрать видео The Taj Mahal Cost Him His Hands #TajMahal #Shorts Значок видео \"The Taj Mahal Cost Him His Hands #TajMahal #Shorts\" 0:36 The Taj Mahal Cost Him His Hands #TajMahal #Shorts A dramatic paper-diorama retelling of the legend of Ahmad, the architect placed in charge of building the Taj Mahal—and the brutal price that followed his greatest achievement. A short story about skill, power, and what happens when being irreplaceable becomes dangerous. #TajMahal #PaperDiorama #HistoryShorts #Shorts #Folklore #IndianFolklore #HistoricalLegends #TajMahalLegend #Architecture #Storytelling #PaperDetour — Для всех 2 нояб. 2026 г. Опубликовано 123 К видео добавлено 0 комментариев. Перейти на страницу комментариев"':
+      - 'cell "Выбрать видео The Taj Mahal Cost Him His Hands #TajMahal #Shorts"':
+        - 'generic "Выбрать видео The Taj Mahal Cost Him His Hands #TajMahal #Shorts"':
+          - 'checkbox "Выбрать видео The Taj Mahal Cost Him His Hands #TajMahal #Shorts"'
+      - 'cell "Значок видео \"The Taj Mahal Cost Him His Hands #TajMahal #Shorts\" 0:36 The Taj Mahal Cost Him His Hands #TajMahal #Shorts A dramatic paper-diorama retelling of the legend of Ahmad, the architect placed in charge of building the Taj Mahal—and the brutal price that followed his greatest achievement. A short story about skill, power, and what happens when being irreplaceable becomes dangerous. #TajMahal #PaperDiorama #HistoryShorts #Shorts #Folklore #IndianFolklore #HistoricalLegends #TajMahalLegend #Architecture #Storytelling #PaperDetour"':
+        - 'link "Значок видео \"The Taj Mahal Cost Him His Hands #TajMahal #Shorts\" 0:36"':
+          - /url: /video/fvRm9Vxwagk/edit
+          - 'img "Значок видео \"The Taj Mahal Cost Him His Hands #TajMahal #Shorts\""'
+          - generic: 0:36
+        - 'link "The Taj Mahal Cost Him His Hands #TajMahal #Shorts"':
+          - /url: /video/fvRm9Vxwagk/edit
+          - generic: "The Taj Mahal Cost Him His Hands #TajMahal #Shorts"
+        - generic: "A dramatic paper-diorama retelling of the legend of Ahmad, the architect placed in charge of building the Taj Mahal—and the brutal price that followed his greatest achievement. A short story about skill, power, and what happens when being irreplaceable becomes dangerous. #TajMahal #PaperDiorama #HistoryShorts #Shorts #Folklore #IndianFolklore #HistoricalLegends #TajMahalLegend #Architecture #Storytelling #PaperDetour"
+      - cell "—":
+        - generic: —
+      - cell "Для всех":
+        - generic: Для всех
+      - cell "2 нояб. 2026 г. Опубликовано":
+        - text: 2 нояб. 2026 г.
+        - generic: Опубликовано
+      - cell "123"
+      - cell "К видео добавлено 0 комментариев. Перейти на страницу комментариев":
+        - link "К видео добавлено 0 комментариев. Перейти на страницу комментариев":
+          - /url: /video/fvRm9Vxwagk/comments
+          - text: "0"
+    - 'row "Выбрать видео Why Is This Cat on a Monument? #history #shorts Значок видео \"Why Is This Cat on a Monument? #history #shorts\" 0:35 Why Is This Cat on a Monument? #history #shorts Why is a cat featured on a monument to a scholar who helped unlock the Maya script? Yuri Knorozov’s Siamese companion, Asya, came into his life years after his breakthrough. A former student recalled that he even tried to credit her as a co-author of research on signaling—and the monument recreates a famous photograph of the two together. #YuriKnorozov #MayaScript #AsyaTheCat #History #Shorts #HistoryShorts #MayaCivilization #MayaGlyphs #MayanWriting #AncientHistory #Linguistics #Decipherment # — Для всех 1 нояб. 2026 г. Опубликовано 8 К видео добавлено 0 комментариев. Перейти на страницу комментариев"':
+      - 'cell "Выбрать видео Why Is This Cat on a Monument? #history #shorts"':
+        - 'generic "Выбрать видео Why Is This Cat on a Monument? #history #shorts"':
+          - 'checkbox "Выбрать видео Why Is This Cat on a Monument? #history #shorts"'
+      - 'cell "Значок видео \"Why Is This Cat on a Monument? #history #shorts\" 0:35 Why Is This Cat on a Monument? #history #shorts Why is a cat featured on a monument to a scholar who helped unlock the Maya script? Yuri Knorozov’s Siamese companion, Asya, came into his life years after his breakthrough. A former student recalled that he even tried to credit her as a co-author of research on signaling—and the monument recreates a famous photograph of the two together. #YuriKnorozov #MayaScript #AsyaTheCat #History #Shorts #HistoryShorts #MayaCivilization #MayaGlyphs #MayanWriting #AncientHistory #Linguistics #Decipherment #"':
+        - 'link "Значок видео \"Why Is This Cat on a Monument? #history #shorts\" 0:35"':
+          - /url: /video/orQiLIvOL-8/edit
+          - 'img "Значок видео \"Why Is This Cat on a Monument? #history #shorts\""'
+          - generic: 0:35
+        - 'link "Why Is This Cat on a Monument? #history #shorts"':
+          - /url: /video/orQiLIvOL-8/edit
+          - generic: "Why Is This Cat on a Monument? #history #shorts"
+        - generic: "Why is a cat featured on a monument to a scholar who helped unlock the Maya script? Yuri Knorozov’s Siamese companion, Asya, came into his life years after his breakthrough. A former student recalled that he even tried to credit her as a co-author of research on signaling—and the monument recreates a famous photograph of the two together. #YuriKnorozov #MayaScript #AsyaTheCat #History #Shorts #HistoryShorts #MayaCivilization #MayaGlyphs #MayanWriting #AncientHistory #Linguistics #Decipherment #"
+      - cell "—":
+        - generic: —
+      - cell "Для всех":
+        - generic: Для всех
+      - cell "1 нояб. 2026 г. Опубликовано":
+        - text: 1 нояб. 2026 г.
+        - generic: Опубликовано
+      - cell "8"
+      - cell "К видео добавлено 0 комментариев. Перейти на страницу комментариев":
+        - link "К видео добавлено 0 комментариев. Перейти на страницу комментариев":
+          - /url: /video/orQiLIvOL-8/comments
+          - text: "0"
+    - 'row "Выбрать видео 13 Famous People''s Reported IQ Scores #IQ #Shorts Значок видео \"13 Famous People''s Reported IQ Scores #IQ #Shorts\" 1:01 13 Famous People''s Reported IQ Scores #IQ #Shorts Explore published IQ estimates associated with 13 famous people, including John F. Kennedy, Richard Feynman, Garry Kasparov, Kanye West, RM, and Marilyn vos Savant. These figures come from different sources and have not been verified through one standardized, comparable test. This is an entertainment-focused collection, not a scientifically established IQ ranking. #Shorts #IQ #FamousPeople #PaperDetour #PopCulture #Intelligence #IQScores #ReportedIQ #CelebrityIQ #HistoricalFigures #RichardFeyn — Для всех 1 нояб. 2026 г. Опубликовано 8 К видео добавлено 0 комментариев. Перейти на страницу комментариев"':
+      - 'cell "Выбрать видео 13 Famous People''s Reported IQ Scores #IQ #Shorts"':
+        - 'generic "Выбрать видео 13 Famous People''s Reported IQ Scores #IQ #Shorts"':
+          - 'checkbox "Выбрать видео 13 Famous People''s Reported IQ Scores #IQ #Shorts"'
+      - 'cell "Значок видео \"13 Famous People''s Reported IQ Scores #IQ #Shorts\" 1:01 13 Famous People''s Reported IQ Scores #IQ #Shorts Explore published IQ estimates associated with 13 famous people, including John F. Kennedy, Richard Feynman, Garry Kasparov, Kanye West, RM, and Marilyn vos Savant. These figures come from different sources and have not been verified through one standardized, comparable test. This is an entertainment-focused collection, not a scientifically established IQ ranking. #Shorts #IQ #FamousPeople #PaperDetour #PopCulture #Intelligence #IQScores #ReportedIQ #CelebrityIQ #HistoricalFigures #RichardFeyn"':
+        - 'link "Значок видео \"13 Famous People''s Reported IQ Scores #IQ #Shorts\" 1:01"':
+          - /url: /video/xYS2XBeR_Jc/edit
+          - 'img "Значок видео \"13 Famous People''s Reported IQ Scores #IQ #Shorts\""'
+          - generic: 1:01
+        - 'link "13 Famous People''s Reported IQ Scores #IQ #Shorts"':
+          - /url: /video/xYS2XBeR_Jc/edit
+          - generic: "13 Famous People's Reported IQ Scores #IQ #Shorts"
+        - generic: "Explore published IQ estimates associated with 13 famous people, including John F. Kennedy, Richard Feynman, Garry Kasparov, Kanye West, RM, and Marilyn vos Savant. These figures come from different sources and have not been verified through one standardized, comparable test. This is an entertainment-focused collection, not a scientifically established IQ ranking. #Shorts #IQ #FamousPeople #PaperDetour #PopCulture #Intelligence #IQScores #ReportedIQ #CelebrityIQ #HistoricalFigures #RichardFeyn"
+      - cell "—":
+        - generic: —
+      - cell "Для всех":
+        - generic: Для всех
+      - cell "1 нояб. 2026 г. Опубликовано":
+        - text: 1 нояб. 2026 г.
+        - generic: Опубликовано
+      - cell "8"
+      - cell "К видео добавлено 0 комментариев. Перейти на страницу комментариев":
+        - link "К видео добавлено 0 комментариев. Перейти на страницу комментариев":
+          - /url: /video/xYS2XBeR_Jc/comments
+          - text: "0"
+    - 'row "Выбрать видео A Third Wheel on Every Date #dating #storytime Значок видео \"A Third Wheel on Every Date #dating #storytime\" 2:09 A Third Wheel on Every Date #dating #storytime In this story, my boyfriend’s best friend comes on every date. For three months, Matt joins us for movies, walks, and shopping. I want time alone with my boyfriend, but every request turns into another reason to feel guilty. My boyfriend says Matt has lost his mother and has almost no family or support. I even try arranging a double date, but nothing changes. When I finally plan to break up at the park, Matt comes too. This time, Matt hears the explanation I’ve been given. His mother is alive. — Для всех 1 нояб. 2026 г. Опубликовано 2 К видео добавлено 0 комментариев. Перейти на страницу комментариев"':
+      - 'cell "Выбрать видео A Third Wheel on Every Date #dating #storytime"':
+        - 'generic "Выбрать видео A Third Wheel on Every Date #dating #storytime"':
+          - 'checkbox "Выбрать видео A Third Wheel on Every Date #dating #storytime"'
+      - 'cell "Значок видео \"A Third Wheel on Every Date #dating #storytime\" 2:09 A Third Wheel on Every Date #dating #storytime In this story, my boyfriend’s best friend comes on every date. For three months, Matt joins us for movies, walks, and shopping. I want time alone with my boyfriend, but every request turns into another reason to feel guilty. My boyfriend says Matt has lost his mother and has almost no family or support. I even try arranging a double date, but nothing changes. When I finally plan to break up at the park, Matt comes too. This time, Matt hears the explanation I’ve been given. His mother is alive."':
+        - 'link "Значок видео \"A Third Wheel on Every Date #dating #storytime\" 2:09"':
+          - /url: /video/sA-PYrDl5H8/edit
+          - 'img "Значок видео \"A Third Wheel on Every Date #dating #storytime\""'
+          - generic: 2:09
+        - 'link "A Third Wheel on Every Date #dating #storytime"':
+          - /url: /video/sA-PYrDl5H8/edit
+          - generic: "A Third Wheel on Every Date #dating #storytime"
+        - generic: In this story, my boyfriend’s best friend comes on every date. For three months, Matt joins us for movies, walks, and shopping. I want time alone with my boyfriend, but every request turns into another reason to feel guilty. My boyfriend says Matt has lost his mother and has almost no family or support. I even try arranging a double date, but nothing changes. When I finally plan to break up at the park, Matt comes too. This time, Matt hears the explanation I’ve been given. His mother is alive.
+      - cell "—":
+        - generic: —
+      - cell "Для всех":
+        - generic: Для всех
+      - cell "1 нояб. 2026 г. Опубликовано":
+        - text: 1 нояб. 2026 г.
+        - generic: Опубликовано
+      - cell "2"
+      - cell "К видео добавлено 0 комментариев. Перейти на страницу комментариев":
+        - link "К видео добавлено 0 комментариев. Перейти на страницу комментариев":
+          - /url: /video/sA-PYrDl5H8/comments
+          - text: "0"
+    - 'row "Выбрать видео One More Video. Half an Hour Gone. #EndlessScrolling #Shorts Значок видео \"One More Video. Half an Hour Gone. #EndlessScrolling #Shorts\" 0:29 One More Video. Half an Hour Gone. #EndlessScrolling #Shorts You said this was your last video half an hour ago. Then came one TikTok, one Reel, one Short—and somehow you''re still here, watching other people''s lives instead of spending that time with people you love, learning something new, or simply resting. Maybe this really can be your last video for now. Close the app, put your phone down, and take a break. Otherwise, in an hour, you might be saying the same thing again. #Shorts #ScreenTime #PaperDetour #SocialMedia #DigitalWellbeing #MindfulScrolli — Для всех 1 нояб. 2026 г. Опубликовано 1 К видео добавлено 0 комментариев. Перейти на страницу комментариев"':
+      - 'cell "Выбрать видео One More Video. Half an Hour Gone. #EndlessScrolling #Shorts"':
+        - 'generic "Выбрать видео One More Video. Half an Hour Gone. #EndlessScrolling #Shorts"':
+          - 'checkbox "Выбрать видео One More Video. Half an Hour Gone. #EndlessScrolling #Shorts"'
+      - 'cell "Значок видео \"One More Video. Half an Hour Gone. #EndlessScrolling #Shorts\" 0:29 One More Video. Half an Hour Gone. #EndlessScrolling #Shorts You said this was your last video half an hour ago. Then came one TikTok, one Reel, one Short—and somehow you''re still here, watching other people''s lives instead of spending that time with people you love, learning something new, or simply resting. Maybe this really can be your last video for now. Close the app, put your phone down, and take a break. Otherwise, in an hour, you might be saying the same thing again. #Shorts #ScreenTime #PaperDetour #SocialMedia #DigitalWellbeing #MindfulScrolli"':
+        - 'link "Значок видео \"One More Video. Half an Hour Gone. #EndlessScrolling #Shorts\" 0:29"':
+          - /url: /video/-KW8jgSoEz0/edit
+          - 'img "Значок видео \"One More Video. Half an Hour Gone. #EndlessScrolling #Shorts\""'
+          - generic: 0:29
+        - 'link "One More Video. Half an Hour Gone. #EndlessScrolling #Shorts"':
+          - /url: /video/-KW8jgSoEz0/edit
+          - generic: "One More Video. Half an Hour Gone. #EndlessScrolling #Shorts"
+        - generic: "You said this was your last video half an hour ago. Then came one TikTok, one Reel, one Short—and somehow you're still here, watching other people's lives instead of spending that time with people you love, learning something new, or simply resting. Maybe this really can be your last video for now. Close the app, put your phone down, and take a break. Otherwise, in an hour, you might be saying the same thing again. #Shorts #ScreenTime #PaperDetour #SocialMedia #DigitalWellbeing #MindfulScrolli"
+      - cell "—":
+        - generic: —
+      - cell "Для всех":
+        - generic: Для всех
+      - cell "1 нояб. 2026 г. Опубликовано":
+        - text: 1 нояб. 2026 г.
+        - generic: Опубликовано
+      - cell "1"
+      - cell "К видео добавлено 0 комментариев. Перейти на страницу комментариев":
+        - link "К видео добавлено 0 комментариев. Перейти на страницу комментариев":
+          - /url: /video/-KW8jgSoEz0/comments
+          - text: "0"
+    - 'row "Выбрать видео He Put Her Messages in an AI Chatbot #DigitalAfterlife #Grief Значок видео \"He Put Her Messages in an AI Chatbot #DigitalAfterlife #Grief\" 0:45 He Put Her Messages in an AI Chatbot #DigitalAfterlife #Grief Nearly eight years after his fiancée Jessica died, Joshua Barbo put some of her old messages into an AI chatbot. He knew it wasn''t Jessica, but spent the night writing about how much he missed her—and cried during their conversation. The chatbot told him, \"I will be here waiting for you.\" After that first conversation, 55% of the limited resource remained. He couldn''t add credits to this version, so he began writing less often, afraid of losing that connection a second time. #Griefbots #Digita — Для всех 1 нояб. 2026 г. Опубликовано 11 К видео добавлено 0 комментариев. Перейти на страницу комментариев"':
+      - 'cell "Выбрать видео He Put Her Messages in an AI Chatbot #DigitalAfterlife #Grief"':
+        - 'generic "Выбрать видео He Put Her Messages in an AI Chatbot #DigitalAfterlife #Grief"':
+          - 'checkbox "Выбрать видео He Put Her Messages in an AI Chatbot #DigitalAfterlife #Grief"'
+      - 'cell "Значок видео \"He Put Her Messages in an AI Chatbot #DigitalAfterlife #Grief\" 0:45 He Put Her Messages in an AI Chatbot #DigitalAfterlife #Grief Nearly eight years after his fiancée Jessica died, Joshua Barbo put some of her old messages into an AI chatbot. He knew it wasn''t Jessica, but spent the night writing about how much he missed her—and cried during their conversation. The chatbot told him, \"I will be here waiting for you.\" After that first conversation, 55% of the limited resource remained. He couldn''t add credits to this version, so he began writing less often, afraid of losing that connection a second time. #Griefbots #Digita"':
+        - 'link "Значок видео \"He Put Her Messages in an AI Chatbot #DigitalAfterlife #Grief\" 0:45"':
+          - /url: /video/WQw7ny9svrk/edit
+          - 'img "Значок видео \"He Put Her Messages in an AI Chatbot #DigitalAfterlife #Grief\""'
+          - generic: 0:45
+        - 'link "He Put Her Messages in an AI Chatbot #DigitalAfterlife #Grief"':
+          - /url: /video/WQw7ny9svrk/edit
+          - generic: "He Put Her Messages in an AI Chatbot #DigitalAfterlife #Grief"
+        - generic: "Nearly eight years after his fiancée Jessica died, Joshua Barbo put some of her old messages into an AI chatbot. He knew it wasn't Jessica, but spent the night writing about how much he missed her—and cried during their conversation. The chatbot told him, \"I will be here waiting for you.\" After that first conversation, 55% of the limited resource remained. He couldn't add credits to this version, so he began writing less often, afraid of losing that connection a second time. #Griefbots #Digita"
+      - cell "—":
+        - generic: —
+      - cell "Для всех":
+        - generic: Для всех
+      - cell "1 нояб. 2026 г. Опубликовано":
+        - text: 1 нояб. 2026 г.
+        - generic: Опубликовано
+      - cell "11"
+      - cell "К видео добавлено 0 комментариев. Перейти на страницу комментариев":
+        - link "К видео добавлено 0 комментариев. Перейти на страницу комментариев":
+          - /url: /video/WQw7ny9svrk/comments
+          - text: "0"
+    - 'row "Выбрать видео They Opened Her Coffin. She Sat Up. #IrishLegends #Shorts Значок видео \"They Opened Her Coffin. She Sat Up. #IrishLegends #Shorts\" 1:17 They Opened Her Coffin. She Sat Up. #IrishLegends #Shorts An Irish legend tells of Margorie McCall, buried after a fever with a valuable ring still on her swollen finger. After the funeral, thieves opened her coffin and tried to take it. When a knife touched her finger, Margorie sat up and screamed, sending them fleeing. Still in her burial clothes, she walked home with a bleeding hand. Her husband recognized her knock and opened the door. When he saw her, he clutched his chest and died. Margorie later remarried and lived for years. The tale closes wi — Для всех 31 окт. 2026 г. Опубликовано 556 К видео добавлено 0 комментариев. Перейти на страницу комментариев"':
+      - 'cell "Выбрать видео They Opened Her Coffin. She Sat Up. #IrishLegends #Shorts"':
+        - 'generic "Выбрать видео They Opened Her Coffin. She Sat Up. #IrishLegends #Shorts"':
+          - 'checkbox "Выбрать видео They Opened Her Coffin. She Sat Up. #IrishLegends #Shorts"'
+      - 'cell "Значок видео \"They Opened Her Coffin. She Sat Up. #IrishLegends #Shorts\" 1:17 They Opened Her Coffin. She Sat Up. #IrishLegends #Shorts An Irish legend tells of Margorie McCall, buried after a fever with a valuable ring still on her swollen finger. After the funeral, thieves opened her coffin and tried to take it. When a knife touched her finger, Margorie sat up and screamed, sending them fleeing. Still in her burial clothes, she walked home with a bleeding hand. Her husband recognized her knock and opened the door. When he saw her, he clutched his chest and died. Margorie later remarried and lived for years. The tale closes wi"':
+        - 'link "Значок видео \"They Opened Her Coffin. She Sat Up. #IrishLegends #Shorts\" 1:17"':
+          - /url: /video/pdSgHe6ScTI/edit
+          - 'img "Значок видео \"They Opened Her Coffin. She Sat Up. #IrishLegends #Shorts\""'
+          - generic: 1:17
+        - 'link "They Opened Her Coffin. She Sat Up. #IrishLegends #Shorts"':
+          - /url: /video/pdSgHe6ScTI/edit
+          - generic: "They Opened Her Coffin. She Sat Up. #IrishLegends #Shorts"
+        - generic: An Irish legend tells of Margorie McCall, buried after a fever with a valuable ring still on her swollen finger. After the funeral, thieves opened her coffin and tried to take it. When a knife touched her finger, Margorie sat up and screamed, sending them fleeing. Still in her burial clothes, she walked home with a bleeding hand. Her husband recognized her knock and opened the door. When he saw her, he clutched his chest and died. Margorie later remarried and lived for years. The tale closes wi
+      - cell "—":
+        - generic: —
+      - cell "Для всех":
+        - generic: Для всех
+      - cell "31 окт. 2026 г. Опубликовано":
+        - text: 31 окт. 2026 г.
+        - generic: Опубликовано
+      - cell "556"
+      - cell "К видео добавлено 0 комментариев. Перейти на страницу комментариев":
+        - link "К видео добавлено 0 комментариев. Перейти на страницу комментариев":
+          - /url: /video/pdSgHe6ScTI/comments
+          - text: "0"
+    - 'row "Выбрать видео An MSX Game in a Radio Recording? #RetroComputing Значок видео \"An MSX Game in a Radio Recording? #RetroComputing\" 0:37 An MSX Game in a Radio Recording? #RetroComputing A faint, sped-up recording identified online as an episode of Brazil’s Clip Informática might hold a computer game. Developer Weber Kai described how he decoded the sound and reported a match with the MSX game Avenger. We haven’t independently repeated his procedure or verified a game launch. Watch the full film: https://www.youtube.com/watch?v=0RaC4t7yn5o #RetroComputing #ComputerHistory #MSX #Shorts #History #RetroGaming #VideoGameHistory #MSXAvenger #AudioDecoding #RadioRecording #ClipInfor — Для всех 31 окт. 2026 г. Опубликовано 103 К видео добавлен 1 комментарий. Перейти на страницу комментариев"':
+      - 'cell "Выбрать видео An MSX Game in a Radio Recording? #RetroComputing"':
+        - 'generic "Выбрать видео An MSX Game in a Radio Recording? #RetroComputing"':
+          - 'checkbox "Выбрать видео An MSX Game in a Radio Recording? #RetroComputing"'
+      - 'cell "Значок видео \"An MSX Game in a Radio Recording? #RetroComputing\" 0:37 An MSX Game in a Radio Recording? #RetroComputing A faint, sped-up recording identified online as an episode of Brazil’s Clip Informática might hold a computer game. Developer Weber Kai described how he decoded the sound and reported a match with the MSX game Avenger. We haven’t independently repeated his procedure or verified a game launch. Watch the full film: https://www.youtube.com/watch?v=0RaC4t7yn5o #RetroComputing #ComputerHistory #MSX #Shorts #History #RetroGaming #VideoGameHistory #MSXAvenger #AudioDecoding #RadioRecording #ClipInfor"':
+        - 'link "Значок видео \"An MSX Game in a Radio Recording? #RetroComputing\" 0:37"':
+          - /url: /video/7DygREwtxfY/edit
+          - 'img "Значок видео \"An MSX Game in a Radio Recording? #RetroComputing\""'
+          - generic: 0:37
+        - 'link "An MSX Game in a Radio Recording? #RetroComputing"':
+          - /url: /video/7DygREwtxfY/edit
+          - generic: "An MSX Game in a Radio Recording? #RetroComputing"
+        - generic: "A faint, sped-up recording identified online as an episode of Brazil’s Clip Informática might hold a computer game. Developer Weber Kai described how he decoded the sound and reported a match with the MSX game Avenger. We haven’t independently repeated his procedure or verified a game launch. Watch the full film: https://www.youtube.com/watch?v=0RaC4t7yn5o #RetroComputing #ComputerHistory #MSX #Shorts #History #RetroGaming #VideoGameHistory #MSXAvenger #AudioDecoding #RadioRecording #ClipInfor"
+      - cell "—":
+        - generic: —
+      - cell "Для всех":
+        - generic: Для всех
+      - cell "31 окт. 2026 г. Опубликовано":
+        - text: 31 окт. 2026 г.
+        - generic: Опубликовано
+      - cell "103"
+      - cell "К видео добавлен 1 комментарий. Перейти на страницу комментариев":
+        - link "К видео добавлен 1 комментарий. Перейти на страницу комментариев":
+          - /url: /video/7DygREwtxfY/comments
+          - text: "1"
+    - 'row "Выбрать видео When Radio Sent Software as Sound #RetroComputing #Shorts Значок видео \"When Radio Sent Software as Sound #RetroComputing #Shorts\" 0:30 When Radio Sent Software as Sound #RetroComputing #Shorts In 1980s Brazil, Clip Informática sent computer programs over the radio as sound. With the right equipment, listeners could record the signal onto cassette tape, then use a compatible computer to try to read its patterns as data. Years later, a developer tried to decode an old recording from the show. Watch the full film: https://www.youtube.com/watch?v=0RaC4t7yn5o The audio signal is recreated for illustration. #RetroComputing #TechHistory #CassetteTape #Shorts #History #BrazilianRadio #Cli — Для всех 31 окт. 2026 г. Опубликовано 458 К видео добавлен 1 комментарий. Перейти на страницу комментариев"':
+      - 'cell "Выбрать видео When Radio Sent Software as Sound #RetroComputing #Shorts"':
+        - 'generic "Выбрать видео When Radio Sent Software as Sound #RetroComputing #Shorts"':
+          - 'checkbox "Выбрать видео When Radio Sent Software as Sound #RetroComputing #Shorts"'
+      - 'cell "Значок видео \"When Radio Sent Software as Sound #RetroComputing #Shorts\" 0:30 When Radio Sent Software as Sound #RetroComputing #Shorts In 1980s Brazil, Clip Informática sent computer programs over the radio as sound. With the right equipment, listeners could record the signal onto cassette tape, then use a compatible computer to try to read its patterns as data. Years later, a developer tried to decode an old recording from the show. Watch the full film: https://www.youtube.com/watch?v=0RaC4t7yn5o The audio signal is recreated for illustration. #RetroComputing #TechHistory #CassetteTape #Shorts #History #BrazilianRadio #Cli"':
+        - 'link "Значок видео \"When Radio Sent Software as Sound #RetroComputing #Shorts\" 0:30"':
+          - /url: /video/85dwIXy_lZs/edit
+          - 'img "Значок видео \"When Radio Sent Software as Sound #RetroComputing #Shorts\""'
+          - generic: 0:30
+        - 'link "When Radio Sent Software as Sound #RetroComputing #Shorts"':
+          - /url: /video/85dwIXy_lZs/edit
+          - generic: "When Radio Sent Software as Sound #RetroComputing #Shorts"
+        - generic: "In 1980s Brazil, Clip Informática sent computer programs over the radio as sound. With the right equipment, listeners could record the signal onto cassette tape, then use a compatible computer to try to read its patterns as data. Years later, a developer tried to decode an old recording from the show. Watch the full film: https://www.youtube.com/watch?v=0RaC4t7yn5o The audio signal is recreated for illustration. #RetroComputing #TechHistory #CassetteTape #Shorts #History #BrazilianRadio #Cli"
+      - cell "—":
+        - generic: —
+      - cell "Для всех":
+        - generic: Для всех
+      - cell "31 окт. 2026 г. Опубликовано":
+        - text: 31 окт. 2026 г.
+        - generic: Опубликовано
+      - cell "458"
+      - cell "К видео добавлен 1 комментарий. Перейти на страницу комментариев":
+        - link "К видео добавлен 1 комментарий. Перейти на страницу комментариев":
+          - /url: /video/85dwIXy_lZs/comments
+          - text: "1"
+    - generic: "Строк на странице:"
+    - generic "Меню для выбора количества строк на странице.":
+      - button "30":
+        - button "30":
+          - generic: "30"
+    - generic: 1–20 из 20
+    - button "Перейти к первой странице" [disabled]:
+    - button "Перейти к предыдущей странице" [disabled]:
+    - button "Перейти к следующей странице" [disabled]:
+    - button "Перейти к последней странице" [disabled]:

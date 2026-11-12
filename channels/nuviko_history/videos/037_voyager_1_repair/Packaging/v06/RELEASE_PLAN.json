@@ -1,0 +1,69 @@
+{
+  "status": "PUBLIC_AB_ACTIVE",
+  "channel_id": "UCbyLx6Rf3iWww4bPZJ2oo2A",
+  "channel": "Nuviko History",
+  "film_path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Deliverables/voyager_037_en_v06_review_v01.mp4",
+  "film_sha256": "e97e2cddfb5429817a81aa7a17bac18c890dcf4a1a1cd7dcd78771ae33d44483",
+  "requested_access": "public immediately",
+  "approved_packaging": {
+    "default_title": "Voyager 1 Was Still Sending a Signal—So Why Couldn't Earth Read It?",
+    "thumbnail": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Packaging/v06/cover_A_signal_no_data.png",
+    "description": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Packaging/v06/description_A.txt",
+    "alternatives": [
+      "A",
+      "B",
+      "C"
+    ],
+    "native_experiment": "title + thumbnail pairs; authorized by direct user request and package approval"
+  },
+  "playlist": {
+    "id": "PLCtiNAU_98r0",
+    "title": "History Documentaries",
+    "privacy": "public",
+    "decision": "selected; relevant existing topic playlist"
+  },
+  "chapters": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Packaging/v06/chapters.txt",
+  "hashtags": "in selected description",
+  "audience": {
+    "made_for_kids": false,
+    "basis": "Channel history documentary; no child-directed indicators in the accepted story or channel profile"
+  },
+  "contains_synthetic_media": true,
+  "basis": "Photorealistic generated reconstructions depict scenes that did not occur; current YouTube rule requires altered/synthetic disclosure.",
+  "calendar_snapshot": "Read-only current API inventory on 2026-11-05: last channel upload published 2026-11-04T22:47:26Z; no scheduled videos in latest 7 uploads. User expressly requests immediate public release.",
+  "release_blocker": null,
+  "srt": {
+    "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Deliverables/voyager_037_en_v02.srt",
+    "sha256": "fc8f9de1f5d29a2f9cf9180df595d937c5dc961033f5982c5705e3718c478da4",
+    "machine_report": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Packaging/v06/srt_release_validation.json",
+    "status": "structure/text PASS; independent full-track cross-alignment PASS within 23 ms; user confirms sound good",
+    "independent_machine_crosscheck": {
+      "status": "PASS_WITH_LIMITS",
+      "report": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Work/production-20261105-v06/audio_sync_audit_v01/comparison_report.json",
+      "finding": "All 545 words and 153 cue boundaries agree within 23 ms. No timing correction indicated."
+    },
+    "user_review_evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Packaging/v06/USER_AV_CONFIRMATION_20261105.md"
+  },
+  "metadata_write": "uploaded and read back",
+  "external_state": "Public; processing succeeded; manual English captions serving; title+thumbnail A/B test A/B/C active and outcome pending",
+  "video_id": "-dTi-_jQPgg",
+  "video_url": "https://youtu.be/-dTi-_jQPgg",
+  "release_receipt": "Packaging/v06/YOUTUBE_RELEASE_V06.json",
+  "native_ab_test": {
+    "status": "active",
+    "type": "title_thumbnail_pair",
+    "variants": [
+      "A",
+      "B",
+      "C"
+    ],
+    "studio_status": "Идет проверка…",
+    "metric": "Доля во времени просмотра",
+    "expected_remaining": "13 дней 23 часа",
+    "outcome": "pending"
+  },
+  "storage_state": "PARTIAL_TEXT_ARCHIVE",
+  "lifecycle_receipt": "Edit/MediaLifecycle/TEXT_ONLY_EXECUTION_V06.ndjson",
+  "lifecycle_plan": "Edit/MediaLifecycle/TEXT_ONLY_PLAN_V06.json",
+  "cleanup_hold": "45 v03 scene PNGs and EN mix WAV plus their montage plan remain for the active sibling subtitle bundle."
+}

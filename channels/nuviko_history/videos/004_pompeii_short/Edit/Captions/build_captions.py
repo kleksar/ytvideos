@@ -1,0 +1,65 @@
+#!/usr/bin/env python3
+import bisect, importlib.util, json, math, re, subprocess
+from pathlib import Path
+from PIL import Image, ImageDraw, ImageFont
+ROOT=Path(__file__).resolve().parents[2]
+CAP=Path(__file__).resolve().parent
+spec=importlib.util.spec_from_file_location('base',str(ROOT.parent/'003_gus/Edit/Captions/003_build_and_render_captions.py'))
+base=importlib.util.module_from_spec(spec); spec.loader.exec_module(base)
+script=(ROOT/'Source/Voice/004_en_script.txt').read_text().strip()
+data=json.loads((ROOT/'Source/Voice/voice_en.alignment.json').read_text())['alignment']
+chars=data['characters']; starts=data['character_start_times_seconds']; ends=data['character_end_times_seconds']
+text=''.join(chars)
+if text.strip()!=script: raise ValueError('Alignment characters do not match script')
+raw,clean=base.tokenize(script,'en')
+spans=list(re.finditer(r"[A-Za-z0-9]+(?:[-'][A-Za-z0-9]+)*[.,!?;:…]*[\"”»]*",text))
+if [m.group() for m in spans]!=raw: raise ValueError('Alignment token mismatch')
+words=[{'word':w,'start':starts[m.start()],'end':ends[m.end()-1]} for m,w in zip(spans,clean)]
+plan="POMPEII WASN'T | DESTROYED BY A | RIVER OF LAVA | IN 79 AD | STONES BEGAN FALLING | FROM THE SKY | AT FIRST | SOME PEOPLE | TOOK SHELTER | INSIDE THEIR HOMES | BUT AS PUMICE | PILED UP | ROOFS BEGAN | TO COLLAPSE | OTHERS FLED | WHILE THEY | STILL COULD | BY THE NEXT | MORNING | A DEADLY CLOUD | OF HOT GAS | AND ASH | SWEPT THROUGH | THE CITY | POMPEII WAS BURIED | BUT TRACES | OF EVERYDAY LIFE | SURVIVED BENEATH | THE DEBRIS | WHAT REALLY HAPPENED | DURING THOSE | FINAL HOURS | WATCH THE | FULL STORY | ON NUVIKO HISTORY".split(' | ')
+cues=[]
+i=0
+for line in plan:
+ n=len(line.split()); cues.append((i,i+n)); i+=n
+if [x for line in plan for x in line.split()] != [x.upper() for x in clean]: raise ValueError('Caption text mismatch')
+cs=[words[a]['start'] for a,b in cues]
+ce=cs[1:]+[words[-1]['end']]
+if min(b-a for a,b in zip(cs,ce))<.20: raise ValueError('Caption duration too short')
+font=ImageFont.truetype(base.FONT,92,index=base.FONT_INDEX)
+def width(s,f): return f.getlength(s)+base.TRACKING*max(0,len(s)-1)
+peak=max(sum(width(w,font) for w in line.split())+base.WORD_GAP*(len(line.split())-1)+.05*max(width(w,font) for w in line.split()) for line in plan)
+if peak>1020: raise ValueError(f'Text too wide: {peak}')
+def stamp(sec):
+ ms=round(sec*1000); h,ms=divmod(ms,3600000); m,ms=divmod(ms,60000); s,ms=divmod(ms,1000); return f'{h:02}:{m:02}:{s:02},{ms:03}'
+srt='\n'.join(f'{i+1}\n{stamp(a)} --> {stamp(b)}\n{line}\n' for i,(a,b,line) in enumerate(zip(cs,ce,plan)))
+(CAP/'004_en_captions.srt').write_text(srt)
+(CAP/'004_en_caption_plan.txt').write_text('\n'.join(plan)+'\n')
+(CAP/'004_en_word_timings.json').write_text(json.dumps(words,indent=2))
+print('WORDS',len(words),'CUES',len(cues),'MAX WIDTH',round(peak),'MIN DURATION',round(min(b-a for a,b in zip(cs,ce)),3),flush=True)
+print('\n'.join(plan),flush=True)
+duration=float(subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration','-of','default=nw=1:nk=1',str(ROOT/'Source/Voice/voice_en.mp3')]))
+frames=math.ceil(duration*30)
+out=CAP/'004_en_caption_overlay.mov'
+if out.exists(): raise FileExistsError(out)
+cmd=['ffmpeg','-hide_banner','-loglevel','error','-f','rawvideo','-pixel_format','rgba','-video_size','1080x1920','-framerate','30','-i','pipe:0','-an','-c:v','prores_ks','-profile:v','4','-pix_fmt','yuva444p10le',str(out)]
+p=subprocess.Popen(cmd,stdin=subprocess.PIPE)
+cache={92:font}
+def font_at(size):
+ if size not in cache: cache[size]=ImageFont.truetype(base.FONT,size,index=base.FONT_INDEX)
+ return cache[size]
+for frame in range(frames):
+ t=frame/30; ci=bisect.bisect_right(cs,t)-1; im=Image.new('RGBA',(1080,1920),(0,0,0,0))
+ if ci>=0 and t<ce[ci]:
+  a,b=cues[ci]; w=words[a:b]; shown=[x.upper() for x in clean[a:b]]; widths=[width(x,font) for x in shown]; x=(1080-sum(widths)-base.WORD_GAP*(len(widths)-1))/2
+  active=next((j for j,v in enumerate(w) if v['start']<=t<v['end']),-1); draw=ImageDraw.Draw(im)
+  for j,word in enumerate(w):
+   f=font; color=(255,255,255,255)
+   if j==active:
+    dur=max(.001,word['end']-word['start']); ramp=min(.12,dur*.45); q=min(1,(t-word['start'])/ramp,(word['end']-t)/ramp); q=max(0,q); eased=q*q*(3-2*q); f=font_at(round(92*(1+.05*eased))); color=(255,213,79,255)
+   charx=x+widths[j]/2-width(shown[j],f)/2
+   for ch in shown[j]:
+    cw=f.getlength(ch); draw.text((charx+cw/2,768),ch,font=f,fill=color,anchor='mm',stroke_width=5,stroke_fill=(0,0,0,210)); charx+=cw+base.TRACKING
+   x+=widths[j]+base.WORD_GAP
+ p.stdin.write(im.tobytes())
+p.stdin.close(); rc=p.wait()
+if rc: raise SystemExit(rc)
+print(f'Overlay saved: {out}, frames {frames}',flush=True)

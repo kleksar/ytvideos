@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "kind": "plan",
+  "created_utc": "2026-11-02T05:35:37.139594+00:00",
+  "audit": "/Users/diplomat/ytvideos/channels/paper_detour/videos/035_mantis_shrimp_club/Edit/MediaLifecycle/rollout-20261102/operation-audit.json",
+  "audit_sha256": "d7f176d3b72acd25c66b08a1607c6cb798209ab47f22a2be32f309c43d165d15",
+  "episode": "/Users/diplomat/ytvideos/channels/paper_detour/videos/035_mantis_shrimp_club",
+  "executable": false,
+  "deletion_implemented": false,
+  "stale_inputs": [],
+  "entries": [
+    {
+      "path": "Edit/Previews/Paper Detour 035 Mantis Shrimp Evolution Motion Review v01.mp4",
+      "device": 16777233,
+      "inode": 124856043,
+      "bytes": 56792861,
+      "mtime_ns": 1793593507249821987,
+      "ctime_ns": 1793593507320359022,
+      "nlink": 1,
+      "allocated_bytes": 56795136,
+      "project_references": [],
+      "text_mentions": [
+        "/Users/diplomat/ytvideos/channels/paper_detour/videos/035_mantis_shrimp_club/Source/Production/PALMIER_EDIT_LOG_20261102.md"
+      ],
+      "protections": [],
+      "classification": "BLOCKED",
+      "declaration": {
+        "path": "Edit/Previews/Paper Detour 035 Mantis Shrimp Evolution Motion Review v01.mp4",
+        "role": "rejected_preview",
+        "status": "rejected",
+        "reason": "Superseded motion preview with user-reported cropping; retained v02 framing revision plus original selected sources, timelines and old QA evidence. Storage disposition by coordinator under explicit cleanup instruction, not new final QA approval.",
+        "evidence": [
+          "Edit/MediaLifecycle/rollout-20261102/decision-00.json",
+          "Source/Production/PALMIER_EDIT_LOG_20261102.md"
+        ],
+        "rebuild_from": [
+          "Edit/Previews/Paper Detour 035 Motion Safe Review v02.mp4"
+        ]
+      },
+      "blockers": [
+        "TEXT_REFERENCE_REVIEW"
+      ],
+      "sha256": "4c2d9291a5082b7d23eaa5f096dd36df020b91cc1a68970fea52346bdd8687de",
+      "required_before_any_future_removal": [
+        "Fresh dependency scan including retained project histories and all known consumers",
+        "Writer/import/render completion verified; absent locks do not prove inactivity",
+        "Resolve text mentions, pins and source/rebuild dependencies",
+        "Applicable retention/authorization and changed-file check at action time"
+      ]
+    }
+  ],
+  "review_candidate_logical_bytes": 0,
+  "blocked_logical_bytes": 56792861,
+  "physical_reclaimable_bytes": null,
+  "missing_declared_candidates": [],
+  "limitations": [
+    "No deletion implementation or permission. No writer absence proof.",
+    "All found imports protected, including retained timelines; unlisted/inaccessible projects and external consumers remain unknown.",
+    "Text scan is heuristic and cannot prove absence of dependencies. Source hashes/QA are evidence, not user acceptance.",
+    "APFS CoW and snapshots prevent inferring physical reclaim from logical or allocated sums."
+  ],
+  "errors": []
+}

@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-02",
+  "canonical_episode": "channels/paper_detour/videos/003_iq_gallery",
+  "legacy_alias": "channels/paper_detour/legacy/025_iq_gallery",
+  "action": "removed_superseded_local_same_format_deliverables",
+  "current_retained": {
+    "path": "channels/paper_detour/legacy/025_iq_gallery/Deliverables/025_iq_gallery_paper_detour_60s_v24.mp4",
+    "size_bytes": 206334580,
+    "sha256": "cadeb73f8f7990ffcb49b5ad785988b236586cfbd0732ae9e9a30ee40b7525df",
+    "validation": "Canonical README and QA report: full decode, AAC packet match, 13 sampled frames; no continuous real-time watch or subjective listening. Public YouTube state verified in canonical README."
+  },
+  "removed": [
+    {
+      "path": "channels/paper_detour/legacy/025_iq_gallery/Deliverables/025_iq_gallery_paper_detour_60s_v17.mp4",
+      "size_bytes": 112878210,
+      "sha256": "ca910a79fb8b85a57d3cfec82d94f8d9ef0d28787d5b9692eaeaa053f476d500"
+    },
+    {
+      "path": "channels/paper_detour/legacy/025_iq_gallery/Deliverables/025_iq_gallery_paper_detour_60s_v18.mp4",
+      "size_bytes": 128696519,
+      "sha256": "aecef33bcba0ffe68f8bfca6fc529971d7dae22d7be4f0985feb34be5b70b20a"
+    },
+    {
+      "path": "channels/paper_detour/legacy/025_iq_gallery/Deliverables/025_iq_gallery_paper_detour_60s_v22.mp4",
+      "size_bytes": 206600271,
+      "sha256": "341f49c6b8f9813f34c8ba151e477b7e7b5e561ba4f6b5392794da4a1cc4986c"
+    },
+    {
+      "path": "channels/paper_detour/legacy/025_iq_gallery/Deliverables/025_iq_gallery_paper_detour_60s_v23.mp4",
+      "size_bytes": 206586660,
+      "sha256": "7c0481d4a2e711a079750ff1acf71c84de02d925652175295fc48a92fa8b184c"
+    }
+  ],
+  "bytes_removed": 654761660,
+  "decision": "v17/v18/v22/v23 are prior English 60 s 1080x1920 local MP4 outputs, not inputs to the current render manifests. Keep v19: current v22/v23/v24 manifests explicitly use it as audio reference. Keep v24, preview_v2, the archived v18 fade candidate, source images/audio, reports, scripts, QA records and packaging materials.",
+  "provenance": "All QA reports and sidecar render reports remain. The newer result was checked before removing local older outputs under AGENTS.md §9."
+}

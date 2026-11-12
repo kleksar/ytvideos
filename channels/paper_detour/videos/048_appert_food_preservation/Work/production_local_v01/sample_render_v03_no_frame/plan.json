@@ -1,0 +1,132 @@
+{
+  "channel": "paper",
+  "format": "long",
+  "subtitle_mode": "words",
+  "audio": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Work/production_local_v01/voice_fullmix.wav",
+  "canvas": [
+    2560,
+    1440
+  ],
+  "fps": 30,
+  "scenes": [
+    {
+      "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S01_v02.png",
+      "start_frame": 0,
+      "end_frame": 169,
+      "direction": "left_to_right",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.22,
+          0.54
+        ],
+        "subject": "sealed sample jar at the harbor",
+        "reason": "Keep the cork and jar readable against the distant ships.",
+        "start": {
+          "center": [
+            0.502,
+            0.5
+          ],
+          "scale": 1.005
+        },
+        "end": {
+          "center": [
+            0.498,
+            0.5
+          ],
+          "scale": 1.025
+        }
+      }
+    },
+    {
+      "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S02_v03.png",
+      "start_frame": 169,
+      "end_frame": 320,
+      "direction": "right_to_left",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.24,
+          0.56
+        ],
+        "subject": "food jar and three-month marker",
+        "reason": "Carry the storage interval from the jar toward the paper time marker.",
+        "start": {
+          "center": [
+            0.498,
+            0.5
+          ],
+          "scale": 1.025
+        },
+        "end": {
+          "center": [
+            0.502,
+            0.5
+          ],
+          "scale": 1.005
+        }
+      }
+    },
+    {
+      "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S03_v01.png",
+      "start_frame": 320,
+      "end_frame": 481,
+      "direction": "left_to_right",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.52,
+          0.54
+        ],
+        "subject": "four inspected food samples and hands",
+        "reason": "Let attention move across the samples being examined.",
+        "start": {
+          "center": [
+            0.502,
+            0.5
+          ],
+          "scale": 1.005
+        },
+        "end": {
+          "center": [
+            0.498,
+            0.5
+          ],
+          "scale": 1.025
+        }
+      }
+    },
+    {
+      "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S04_v01.png",
+      "start_frame": 481,
+      "end_frame": 649,
+      "direction": "right_to_left",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.52,
+          0.62
+        ],
+        "subject": "broth, meat, beans and peas at the table",
+        "reason": "Hold on the dishes before the group in the doorway.",
+        "start": {
+          "center": [
+            0.498,
+            0.5
+          ],
+          "scale": 1.025
+        },
+        "end": {
+          "center": [
+            0.502,
+            0.5
+          ],
+          "scale": 1.005
+        }
+      }
+    }
+  ],
+  "frames": 649,
+  "manifest_path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Work/production_local_v01/Edit/plan_sample_v03_no_paper_frame.json",
+  "source_transfer": "srgb"
+}

@@ -1,0 +1,7 @@
+# Short 03 native export contract v02 — READY_TO_RENDER
+
+Supersedes v01 readiness/edit handoff, preserving its delivery/audio expectations. User explicitly reported “Посмотрел: подсветка совпадает” for the complete approved review. This is user hearing acceptance of that map/review, not independent QA or automatic proof of native export sync.
+
+Exact saved native project 2D2F01B4 / timeline 81B14597, snapshot 9A701F80. Live native edit: 1080×1920, 30 fps, rec709, 1227 frames (40.9 s); 8 exact-length video clips, 101 subtitle image clips at one fixed baseline, 5 accent PNGs with rise/hold/rise and opacity keys, original A1 preserved. Native frame checks saved for all five accent midpoints; subtitle positions corrected after reading all 101 clips from live timeline. Position keys converted to top-left coordinates per actual MCP schema. Original image source resolution remains as disclosed in v01.
+
+Output: /Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Shorts/03_stereo_text/Deliverables/PAPER_DETOUR_001_SHORT03_STEREO_EN_REWORK_20261102_v01.mp4. H.264 / Match Timeline, overwrite false; all internal codec/AAC settings engine-managed. No new audio. Required geometry, frame count, colour/range, codec and sound expectations unchanged from v01 and Paper profile. Scoped audit storage_audit_native completed with coverage_errors=0, no deletion. Native self-review has limited sample coverage and does not constitute independent release QA. After export verify exact output and native subtitle/audio conformance before release.

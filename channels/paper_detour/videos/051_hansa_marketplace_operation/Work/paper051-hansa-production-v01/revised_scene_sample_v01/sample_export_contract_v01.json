@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "status": "READY_TO_RENDER",
+  "episode": "051",
+  "language": "en",
+  "format": "short",
+  "purpose": "Internal revised-scene/caption/Frame sample; not a release export",
+  "settings_profile": {
+    "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/profiles/paper.json",
+    "sha256": "e2b89e813ec25985601ef65997ea8b94c19e96aa6d158333edf962b42e02ffc0"
+  },
+  "edit": {
+    "project_id": "paper051-hansa-short-v01-revised-scene-sample",
+    "timeline_id": "/Users/diplomat/ytvideos/channels/paper_detour/videos/051_hansa_marketplace_operation/Work/paper051-hansa-production-v01/revised_scene_sample_v01/sample_plan.json",
+    "saved_revision_evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/051_hansa_marketplace_operation/Work/paper051-hansa-production-v01/revised_scene_sample_v01/sample_plan.json",
+    "timeline_read_path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/051_hansa_marketplace_operation/Work/paper051-hansa-production-v01/revised_scene_sample_v01/sample_plan.json",
+    "timeline_read_sha256": "f8180fab499a3927a432e306d88b1dc09f68d936d76ef735c77a680d3c99ee12",
+    "dependencies": [
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/051_hansa_marketplace_operation/Work/paper051-hansa-production-v01/revised_scene_sample_v01/sample_plan.json",
+        "sha256": "f8180fab499a3927a432e306d88b1dc09f68d936d76ef735c77a680d3c99ee12"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/051_hansa_marketplace_operation/Work/paper051-hansa-production-v01/revised_scene_sample_v01/accepted_mix_excerpt_21s.wav",
+        "sha256": "4c197b63f705d53a212585dd5de17dbc695b4292756123bc47b1f678beec91ff"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/051_hansa_marketplace_operation/Work/paper051-hansa-production-v01/revised_scene_sample_v01/excerpt_word_map.json",
+        "sha256": "c497578c13cfcc19b795efb25c1d34fe0746d206125f2727b0b437d74c4d6d8d"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/051_hansa_marketplace_operation/Work/paper051-hansa-production-v01/revised_scene_sample_v01/excerpt_transcript.txt",
+        "sha256": "2949f64fb53c88e7964963b21b20d56b354632cd90d898e69eb1f33ab5e51a0d"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/051_hansa_marketplace_operation/Work/paper051-hansa-production-v01/revised_scene_sample_v01/paper_frame_393f_v01.mov",
+        "sha256": "a186028d837567b014799347225b1035ed71d754c2dfa763412d48b04f3ae46b"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/profiles/paper.json",
+        "sha256": "e2b89e813ec25985601ef65997ea8b94c19e96aa6d158333edf962b42e02ffc0"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/profiles/short.json",
+        "sha256": "ab84ac0aed239ea59e26a4d0e4878decd47f1e5f42db9a3563ca06bbea0adb6b"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/051_hansa_marketplace_operation/Source/Images/paper_v01/scene_005_v02.png",
+        "sha256": "61066a389f95df1b377f336ecd29df10026193e3b13df4f1e27b60111c4d298d"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/051_hansa_marketplace_operation/Source/Images/paper_v01/scene_006_v02.png",
+        "sha256": "13880f89fa802908b76dcd3f696fbae5304238466563bb4f92e3f8e2338aeac9"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/051_hansa_marketplace_operation/Source/Images/paper_v01/scene_007_v02.png",
+        "sha256": "c6e3dba1a988c5b272d28281733e733d49a066434a456d971321f1971f02b8ae"
+      }
+    ]
+  },
+  "timeline": {
+    "width": 1440,
+    "height": 2560,
+    "aspect_ratio": "9:16",
+    "sample_aspect_ratio": "1:1",
+    "fps": "30/1",
+    "frame_count": 393,
+    "duration_seconds": 13.1,
+    "output_color_space": "Rec.709 SDR"
+  },
+  "required_delivery": {
+    "container": "MP4",
+    "video": {
+      "codec_name": "h264",
+      "pix_fmt": "yuv420p",
+      "scan": "progressive",
+      "cadence": "constant 30/1 fps",
+      "color_primaries": "bt709",
+      "color_transfer": "bt709",
+      "color_space": "bt709",
+      "color_range": "tv"
+    },
+    "audio_contract": {
+      "owner_handoff": "Internal excerpt of accepted narration-only mix for scene/caption review; sample only.",
+      "accepted_complete_mix": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/051_hansa_marketplace_operation/Work/paper051-hansa-production-v01/revised_scene_sample_v01/accepted_mix_excerpt_21s.wav",
+        "sha256": "4c197b63f705d53a212585dd5de17dbc695b4292756123bc47b1f678beec91ff"
+      },
+      "source_rate_channels": {
+        "codec": "pcm_s16le",
+        "sample_rate": 44100,
+        "channels": 1,
+        "duration_seconds": 13.08
+      },
+      "codec_name": "aac",
+      "profile": "LC",
+      "sample_rate": 44100,
+      "channels": 1,
+      "target_bit_rate": "192k"
+    }
+  },
+  "encoding": {
+    "engine": "FFmpeg h264_videotoolbox",
+    "version_evidence": "FFmpeg -version was read from the current local executable before settings inspection.",
+    "requested_arguments": {
+      "encoder": "h264_videotoolbox",
+      "video_bitrate": "20M",
+      "output_pix_fmt": "yuv420p",
+      "fps": "30/1",
+      "audio_codec": "aac",
+      "audio_profile": "aac_low",
+      "audio_bitrate": 192000,
+      "audio_sample_rate": 44100,
+      "audio_channels": 1
+    },
+    "quality_preferences": {
+      "video_bitrate": "20 Mbps starting point for 2K SDR",
+      "audio": "AAC LC, mono, 44.1 kHz, 192 kbps"
+    },
+    "capability_evidence": "The local FFmpeg encoder list contains h264_videotoolbox and prores_ks; command-level setting check will record actual submitted arguments.",
+    "engine_managed_fields": [
+      "hardware profile and level",
+      "GOP/B-frame policy"
+    ]
+  },
+  "preflight": {
+    "author": "Codex",
+    "time": "2026-11-05",
+    "authorization_references": [
+      "User authorized full production and sample checks for Paper 051 on 2026-11-05."
+    ],
+    "fresh_settings_evidence": "channels/paper_detour/videos/051_hansa_marketplace_operation/Work/paper051-hansa-production-v01/revised_scene_sample_v01/settings_check_v01/settings_check.json",
+    "writer_and_export_state": "No active writer; new internal sample output path does not exist.",
+    "output_path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/051_hansa_marketplace_operation/Work/paper051-hansa-production-v01/revised_scene_sample_v01/sample_preview_v01.mp4",
+    "overwrite": false,
+    "media_lifecycle_receipt": "/Users/diplomat/ytvideos/channels/paper_detour/videos/051_hansa_marketplace_operation/Edit/MediaLifecycle/layout.json",
+    "unresolved_required_fields": []
+  },
+  "render_receipt": null,
+  "qa_receipt": null,
+  "settings_check_receipt": null,
+  "render_provenance": null
+}

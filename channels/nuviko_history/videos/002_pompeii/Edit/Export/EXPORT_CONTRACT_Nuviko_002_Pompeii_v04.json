@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "status": "RENDERED_PENDING_USER_REVIEW",
+  "episode": "002 \u2014 Pompeii Final Hours",
+  "language": "English",
+  "format": "long",
+  "purpose": "v04 current shared subtitle geometry and reviewed phrase grouping",
+  "settings_profile": {
+    "path": "automation/ffmpeg_montage/profiles/nuviko.json",
+    "sha256": "bd6dbebb771828acf54d6b005d0be61e304498b585e4a7c5529ae509554a95b0"
+  },
+  "edit": {
+    "project_id": null,
+    "timeline_id": null,
+    "saved_revision_evidence": "v04 subtitle reconstruction over unchanged clean picture/audio",
+    "timeline_read_path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/002_pompeii/Edit/FFmpeg/subtitles-20261103-v04/montage_plan_v04.json",
+    "timeline_read_sha256": "03f2f37cd192ed110deb92f54c14c4cea470c6dc8a41bf45925ef319271e4f78",
+    "dependencies": [
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/002_pompeii/Edit/FFmpeg/subtitles-20261103-v04/montage_plan_v04.json",
+        "sha256": "03f2f37cd192ed110deb92f54c14c4cea470c6dc8a41bf45925ef319271e4f78"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/002_pompeii/Assets/Generated/Pompeii_Remake_v02/pompeii_final_hours_audio_1_10x.m4a",
+        "sha256": "f8056f2cf383917d0fb31f477773efb8a1c535185e1d3ceeebbcde9d7d90210b"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/002_pompeii/Work/remaster-nuviko-20261103-v03/scratch/ffmpeg_render_v03/picture.mp4",
+        "sha256": "98be90266e20560f963ba0b8a405a3d6e61935769e41354bda53fc3e6c812b96"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/002_pompeii/Edit/FFmpeg/remaster-nuviko-20261103-v02/word_times_en_v02_1_10x.json",
+        "sha256": "ba39f444032e8cfd4426727b987ff4b51aa9fd6512c65aa2f42118f4afa6ac81"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/montage.py",
+        "sha256": "58268dde92d0c9c111dc7e837972e9a50959d12d54c3a68eda7e7b1f39cb5989"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/.agents/skills/ytv-paper-subtitles/scripts/semantic_grouping.py",
+        "sha256": "56bcd33d2b73c0f16f2593633a24a78fc60366b2694305a3d294e93150589f28"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/profiles/long.json",
+        "sha256": "e8f9f5dd0354283634a0cf9dc1816736bac38de158de1d0bdd1b8b4658f51459"
+      }
+    ]
+  },
+  "timeline": {
+    "width": 2560,
+    "height": 1440,
+    "aspect_ratio": "16:9",
+    "sample_aspect_ratio": "1:1",
+    "fps": "30/1",
+    "frame_count": 25691,
+    "duration_seconds": 856.3666666666667,
+    "output_color_space": "Rec.709 SDR"
+  },
+  "required_delivery": {
+    "container": "MP4",
+    "video": {
+      "codec_name": "h264",
+      "pix_fmt": "yuv420p",
+      "scan": "progressive",
+      "cadence": "30/1 constant frame cadence",
+      "color_primaries": "bt709",
+      "color_transfer": "bt709",
+      "color_space": "bt709",
+      "color_range": "tv"
+    },
+    "audio_contract": {
+      "owner_handoff": "ytv-audio-delivery; existing accepted audio conformed from 1.05x to 1.10x with pitch preservation",
+      "accepted_complete_mix": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/002_pompeii/Assets/Generated/Pompeii_Remake_v02/pompeii_final_hours_audio_1_10x.m4a",
+      "source_rate_channels": "44,100 Hz, stereo AAC-LC; source duration 897.149388 seconds",
+      "codec_name": "aac",
+      "profile": "LC",
+      "sample_rate": 44100,
+      "channels": 2,
+      "target_bit_rate": "256 kbit/s encoder target"
+    }
+  },
+  "encoding": {
+    "engine": "FFmpeg montage.py",
+    "version_evidence": "FFmpeg 8.1.2; h264_videotoolbox encoder available",
+    "requested_arguments": {
+      "encoder": "h264_videotoolbox",
+      "video_bitrate": "16M",
+      "pixel_format": "yuv420p",
+      "audio": "AAC-LC 256k target; 44.1 kHz stereo",
+      "movflags": "+faststart",
+      "command_file": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/002_pompeii/Edit/FFmpeg/subtitles-20261103-v04/render_command_v04.json"
+    },
+    "quality_preferences": {
+      "target_video_bitrate": "16 Mbps",
+      "basis": "YouTube SDR 1440p/30 reference bitrate; adjusted from 20M project starting preference to fit current local disk headroom."
+    },
+    "capability_evidence": "Renderer supports whole-image pan/zoom, generated continuous word captions, audio input and Rec.709 limited tags",
+    "engine_managed_fields": [
+      "H.264 profile/level selected by VideoToolbox",
+      "measured video bitrate"
+    ],
+    "composition_note": "Composite captions in YUV420 output domain; inspected encoded 10-second probe and sample at 0.7s before full render. Avoid full-frame RGB round trip."
+  },
+  "preflight": {
+    "author": "Codex",
+    "output_path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/002_pompeii/Work/subtitles-20261103-v04/previews/NuvikoHistory_002_Pompeii_Final_Hours_review_v04.mp4",
+    "overwrite": false,
+    "unresolved_required_fields": [],
+    "receipt": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/002_pompeii/Edit/FFmpeg/subtitles-20261103-v04/PRE_RENDER_RECEIPT.json",
+    "media_lifecycle_receipt": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/002_pompeii/Edit/MediaLifecycle/subtitles-v04-preflight/audit.json",
+    "authorization": "User requested rebuilding video with current subtitle rules/scripts"
+  },
+  "render_receipt": {
+    "file": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/002_pompeii/Work/subtitles-20261103-v04/previews/NuvikoHistory_002_Pompeii_Final_Hours_review_v04.mp4",
+    "sha256": "5212f7f04dcb607a642dd24e9e3895290c05ab1a30fc6b702efd209bf9c672ff",
+    "bytes": 1745688873,
+    "command": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/002_pompeii/Edit/FFmpeg/subtitles-20261103-v04/render_command_v04.json",
+    "exit_code": 0,
+    "status": "RENDER_COMPLETED_PENDING_USER_REVIEW",
+    "full_playback": "not_performed",
+    "audio_speed": 1.1,
+    "duration_from_edit": 856.3666666666667
+  },
+  "qa_receipt": null
+}

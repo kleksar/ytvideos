@@ -1,0 +1,3 @@
+# Four motion-direction combinations
+
+Source parallax variant 08 and 08_reverse (height .26, signed offset .18, linear one-direction) are retained untouched; screen directions checked on face relative to background: 08 moves left, reverse moves right. Each derivative applies separate linear whole-image translation to its already-rendered parallax, by uniform 2056x1156 scale and 1920x1080 crop traveling 136 px over 179 frames. Names express visible image-content movement; physical camera direction is opposite. No grain, subtitles or audio. Four six-second 30fps clips; automated start/end background feature comparison verifies direction of whole image; no full visual playback or independent QA. No production timeline or settings changed.

@@ -1,0 +1,73 @@
+{
+  "phase": "verified",
+  "snapshot": {
+    "snapshot": {
+      "author": {
+        "kind": "agent"
+      },
+      "createdAt": "2026-11-02T12:53:19Z",
+      "name": "Before ship camera-only correction",
+      "snapshotId": "2B6D27EE"
+    }
+  },
+  "asset": {
+    "actionId": "FB88CF98",
+    "mediaRef": "619FA070",
+    "name": "R007 camera only G08",
+    "status": "ready",
+    "type": "video"
+  },
+  "media": {
+    "assets": [
+      {
+        "durationSeconds": 4.067,
+        "fps": 30,
+        "height": 1440,
+        "id": "619FA070",
+        "name": "R007 camera only G08",
+        "type": "video",
+        "width": 2560
+      }
+    ]
+  },
+  "swap": {
+    "actionId": "851160BF",
+    "affectedClipIds": [
+      "63CEB173"
+    ],
+    "changed": true,
+    "clipId": "63CEB173",
+    "clips": [
+      {
+        "frames": [
+          738,
+          858
+        ],
+        "id": "63CEB173",
+        "mediaRef": "619FA070",
+        "track": 2,
+        "trimEndFrame": 2
+      }
+    ],
+    "mediaRef": "619FA070",
+    "oldMediaRef": "B1682F49"
+  },
+  "clip": {
+    "frames": [
+      738,
+      858
+    ],
+    "id": "63CEB173",
+    "mediaRef": "619FA070",
+    "trimEndFrame": 2
+  },
+  "source_static_image": "/Users/diplomat/ytvideos/new_channel/videos/032_galveston_1900/Source/Images/paper_v01/scene_007_v01.png",
+  "method": "static image, camera and G08 only; no depth/parallax",
+  "visual_trajectory_samples": [
+    0,
+    30,
+    60,
+    90,
+    119
+  ]
+}

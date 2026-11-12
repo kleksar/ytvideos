@@ -1,0 +1,62 @@
+{
+  "state": "scheduled_verified",
+  "channel_id": "UCqct_dth0WSCwiDZx1WMfgg",
+  "verified_at": "2026-11-09T20:40:34+01:00",
+  "method": "YouTube Studio in Chrome",
+  "api_preflight": "videos read failed HTTP 403",
+  "authorization": "User instructed to schedule all three revised videos after receiving current release and rights status.",
+  "time_zone": "Europe/Belgrade",
+  "timing_basis": "09:00 and 21:00 trial grid, 12 hours apart. No verified vidIQ timing for this channel.",
+  "rights_verification": "unverified",
+  "copyright_claim": {
+    "video_id": "YlhdeNyayKQ",
+    "claimant": "Warner Bros. Films",
+    "type": "audio and video",
+    "start": "0:00",
+    "end": "0:28",
+    "studio_effect": "no impact on access, reach or channel"
+  },
+  "storage_state": "ACTIVE",
+  "storage_hold": "HD processing has not been independently confirmed. The 16:9 assembly remains active and depends on local media.",
+  "clips": [
+    {
+      "id": "leviosa-v04",
+      "video_id": "VIwUhyP-wUo",
+      "studio_url": "https://studio.youtube.com/video/VIwUhyP-wUo/edit",
+      "mp4": "channels/scenes_on_repeat/videos/harry-potter-philosophers-stone-2001/Deliverables/leviosa-v04/leviosa-v04.mp4",
+      "mp4_sha256": "693ea6794002268553d2833c6312a43c6d93b30b616e31e8bf2f66f347405e21",
+      "srt_sha256": "dfa6288a7b0c68e96493a6de80315f9d5f81db9b8cb27f4fe22931ffc8b3d15a",
+      "state": "scheduled_verified",
+      "publish_at_local": "2026-11-09T21:00:00+01:00",
+      "publish_at_utc": "2026-11-09T20:00:00Z",
+      "studio_status": "Отложенная публикация",
+      "visibility_before_release": "private"
+    },
+    {
+      "id": "trailer-v05",
+      "video_id": "x5XEtX4tud8",
+      "studio_url": "https://studio.youtube.com/video/x5XEtX4tud8/edit",
+      "mp4": "channels/scenes_on_repeat/videos/harry-potter-philosophers-stone-2001/Deliverables/trailer-v05/trailer-v05.mp4",
+      "mp4_sha256": "9832c65fadd62bc848febb09e93ea75698d708035f7dead8f88587243ff822f1",
+      "srt_sha256": "e09ce6376a2528c3ed4145481ebc5788b325294cb4f62004af10a09f2ce0c6bb",
+      "state": "scheduled_verified",
+      "publish_at_local": "2026-11-10T09:00:00+01:00",
+      "publish_at_utc": "2026-11-10T08:00:00Z",
+      "studio_status": "Отложенная публикация",
+      "visibility_before_release": "private"
+    },
+    {
+      "id": "wand-v03",
+      "video_id": "YlhdeNyayKQ",
+      "studio_url": "https://studio.youtube.com/video/YlhdeNyayKQ/edit",
+      "mp4": "channels/scenes_on_repeat/videos/harry-potter-philosophers-stone-2001/Deliverables/wand-v03/wand-v03.mp4",
+      "mp4_sha256": "46ba38f0e1a501aa5aefae8cb98756731e2d308d7c3006c51d76a0092ad9d695",
+      "srt_sha256": "00359f696f1d11167f71df93e26517898941dbc431302a8a95932a174bdece54",
+      "state": "scheduled_verified",
+      "publish_at_local": "2026-11-10T21:00:00+01:00",
+      "publish_at_utc": "2026-11-10T20:00:00Z",
+      "studio_status": "Отложенная публикация",
+      "visibility_before_release": "private"
+    }
+  ]
+}

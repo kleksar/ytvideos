@@ -1,0 +1,493 @@
+{
+  "canvas": [
+    1080,
+    1920
+  ],
+  "checks": {
+    "motion": "UNVERIFIED",
+    "scope": "assigned pairs at their selected anchors; static geometry only",
+    "sync": "UNVERIFIED",
+    "technical": "PASS",
+    "visual": "UNVERIFIED"
+  },
+  "cues": [
+    {
+      "backend": {
+        "face": {
+          "mode": "creamOrange"
+        },
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/027_doomscrolling_short/Source/Images/minnie_v02/Import_Packs/Accents/THIRTEEN.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/027_doomscrolling_short/Source/Images/minnie_v02/Import_Packs/Accents/THIRTEEN.png",
+        "status": "Candidate legacy asset; visual and sync unverified",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/C01/face.png",
+      "face_mask_sha256": "99ea04d220076113f3e4cccb7e1e40c6015425639452b5cd0e562ef5646b0564",
+      "id": "C01",
+      "lines": [
+        "THIRTEEN"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          11,
+          39,
+          562,
+          189
+        ],
+        "alpha_height_px": 150,
+        "alpha_width_px": 551,
+        "face_bbox": [
+          20,
+          48,
+          553,
+          148
+        ],
+        "face_height_px": 100,
+        "face_line_boxes": [
+          [
+            20,
+            48,
+            553,
+            148
+          ]
+        ],
+        "face_line_heights_px": [
+          100
+        ],
+        "size_px": [
+          573,
+          197
+        ]
+      },
+      "png": "cues/C01/cue.png",
+      "png_sha256": "184f4ad6d4b0be73438cf6175417ec009f53e85fc31944154295cbd3e2972e4f",
+      "provenance": {
+        "record": "Minnie original image pack"
+      },
+      "timing": {
+        "note": "Machine alignment only; listening absent",
+        "status": "UNVERIFIED"
+      },
+      "uniform_scale": 0.26737967914438504
+    },
+    {
+      "backend": {
+        "face": {
+          "mode": "creamOrange"
+        },
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/027_doomscrolling_short/Source/Images/minnie_v02/Import_Packs/Accents/3_4_MILE.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/027_doomscrolling_short/Source/Images/minnie_v02/Import_Packs/Accents/3_4_MILE.png",
+        "status": "Candidate legacy asset; visual and sync unverified",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/C02/face.png",
+      "face_mask_sha256": "d518b259fd31fcd6608eeea97125845e7d3bf2010b2f90c5cfec1e2d7df909e1",
+      "id": "C02",
+      "lines": [
+        "3/4 MILE"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          8,
+          5,
+          488,
+          157
+        ],
+        "alpha_height_px": 152,
+        "alpha_width_px": 480,
+        "face_bbox": [
+          17,
+          33,
+          479,
+          133
+        ],
+        "face_height_px": 100,
+        "face_line_boxes": [
+          [
+            17,
+            33,
+            479,
+            133
+          ]
+        ],
+        "face_line_heights_px": [
+          100
+        ],
+        "size_px": [
+          496,
+          170
+        ]
+      },
+      "png": "cues/C02/cue.png",
+      "png_sha256": "111655d9866191053f6c0d03faf1891d99d06298f3a394ed594f0490667e6f1d",
+      "provenance": {
+        "record": "Minnie original image pack"
+      },
+      "timing": {
+        "note": "Machine alignment only; listening absent",
+        "status": "UNVERIFIED"
+      },
+      "uniform_scale": 0.23094688221709006
+    },
+    {
+      "backend": {
+        "face": {
+          "mode": "creamOrange"
+        },
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/027_doomscrolling_short/Source/Images/minnie_v02/Import_Packs/Accents/WAIT.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/027_doomscrolling_short/Source/Images/minnie_v02/Import_Packs/Accents/WAIT.png",
+        "status": "Candidate legacy asset; visual and sync unverified",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/C03/face.png",
+      "face_mask_sha256": "a1d07fe7ffc5607a118bd5b5f46bbe966f07fccad47f11432e37fd2bc3a47f15",
+      "id": "C03",
+      "lines": [
+        "WAIT"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          10,
+          14,
+          333,
+          133
+        ],
+        "alpha_height_px": 119,
+        "alpha_width_px": 323,
+        "face_bbox": [
+          19,
+          22,
+          323,
+          122
+        ],
+        "face_height_px": 100,
+        "face_line_boxes": [
+          [
+            19,
+            22,
+            323,
+            122
+          ]
+        ],
+        "face_line_heights_px": [
+          100
+        ],
+        "size_px": [
+          344,
+          148
+        ]
+      },
+      "png": "cues/C03/cue.png",
+      "png_sha256": "63541ecb1347a4f93dadc5c296f17e73ca663a087531e5b12ccadacf6224990b",
+      "provenance": {
+        "record": "Minnie original image pack"
+      },
+      "timing": {
+        "note": "Machine alignment only; listening absent",
+        "status": "UNVERIFIED"
+      },
+      "uniform_scale": 0.17921146953405018
+    }
+  ],
+  "helper_sha256": "86fcde095d01b3300ac1497f9f38c5f38494a740f5dcd987af9a8595d42a8150",
+  "helper_version": "1.1.0",
+  "inputs": [
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/027_doomscrolling_short/Edit/renewal_20261102/caption_candidates.json",
+      "sha256": "7f14a9dd896a40366468f2231025e20ebb77612e2ceb2945b10cf55a002804ff"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/027_doomscrolling_short/Source/Images/minnie_v02/Import_Packs/Accents/3_4_MILE.png",
+      "sha256": "18f43de9dd135c627c8482694a4bb2c217f3da319bed7ade3fcd73e2709e0c7b"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/027_doomscrolling_short/Source/Images/minnie_v02/Import_Packs/Accents/THIRTEEN.png",
+      "sha256": "823150a6fae67ac65d90bae595a058f1852e92bc9391859ca25e4754130390a5"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/027_doomscrolling_short/Source/Images/minnie_v02/Import_Packs/Accents/WAIT.png",
+      "sha256": "19d88510ded6ef58e3cfee838cfe9be9fb304eb8c3dc26cd67e2d6da7d2c9ecb"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/027_doomscrolling_short/Work/renewal_20261102/frames/S01.png",
+      "sha256": "63446429aa1e56f6d5ccebe7ab5992e6b95e08c6762c04328c42a3c9a99b89b7"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/027_doomscrolling_short/Work/renewal_20261102/frames/S04.png",
+      "sha256": "97a2aabb3a02917aa5681425cb78e08f089cb3f4342098318bcbac2e7512b86e"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/027_doomscrolling_short/Work/renewal_20261102/frames/S05.png",
+      "sha256": "3e068effcd1331e1fae7c67b5b02b851091b5004b8fc3ee91eeae6d925df6046"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/027_doomscrolling_short/Work/renewal_20261102/frames/S06.png",
+      "sha256": "55741a92cf49d50b062a22bf247418584175fc71fa1e50ec2bb6a24a37aa76a2"
+    }
+  ],
+  "manifest_sha256": "7f14a9dd896a40366468f2231025e20ebb77612e2ceb2945b10cf55a002804ff",
+  "pairs": [
+    {
+      "anchor": "primary",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.165
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              265,
+              258,
+              816,
+              408
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            254,
+            219
+          ],
+          "phone_preview": "../../../Work/renewal-captions-candidate-20261102/previews/S01/C01/primary__phone.png",
+          "preview": "../../../Work/renewal-captions-candidate-20261102/previews/S01/C01/primary.png"
+        }
+      ],
+      "cue": "C01",
+      "scene": "S01"
+    },
+    {
+      "anchor": "primary",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.165
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              300,
+              239,
+              780,
+              391
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            292,
+            234
+          ],
+          "phone_preview": "../../../Work/renewal-captions-candidate-20261102/previews/S04/C02/primary__phone.png",
+          "preview": "../../../Work/renewal-captions-candidate-20261102/previews/S04/C02/primary.png"
+        }
+      ],
+      "cue": "C02",
+      "scene": "S04"
+    },
+    {
+      "anchor": "primary",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.165
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              379,
+              259,
+              702,
+              378
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            369,
+            245
+          ],
+          "phone_preview": "../../../Work/renewal-captions-candidate-20261102/previews/S05/C03/primary__phone.png",
+          "preview": "../../../Work/renewal-captions-candidate-20261102/previews/S05/C03/primary.png"
+        }
+      ],
+      "cue": "C03",
+      "scene": "S05"
+    },
+    {
+      "anchor": "primary",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.165
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              379,
+              259,
+              702,
+              378
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            369,
+            245
+          ],
+          "phone_preview": "../../../Work/renewal-captions-candidate-20261102/previews/S06/C03/primary__phone.png",
+          "preview": "../../../Work/renewal-captions-candidate-20261102/previews/S06/C03/primary.png"
+        }
+      ],
+      "cue": "C03",
+      "scene": "S06"
+    }
+  ],
+  "pillow_version": "11.3.0",
+  "shared_face_height_px": 100,
+  "source_manifest": {
+    "anchors": {
+      "primary": {
+        "center": [
+          0.5,
+          0.165
+        ],
+        "max_height_px": 400,
+        "max_width_px": 900
+      }
+    },
+    "canvas": [
+      1080,
+      1920
+    ],
+    "cues": [
+      {
+        "backend": {
+          "face": {
+            "mode": "creamOrange"
+          },
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/027_doomscrolling_short/Source/Images/minnie_v02/Import_Packs/Accents/THIRTEEN.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/027_doomscrolling_short/Source/Images/minnie_v02/Import_Packs/Accents/THIRTEEN.png",
+          "status": "Candidate legacy asset; visual and sync unverified",
+          "type": "existingPNG"
+        },
+        "id": "C01",
+        "lines": [
+          "THIRTEEN"
+        ],
+        "provenance": {
+          "record": "Minnie original image pack"
+        },
+        "timing": {
+          "note": "Machine alignment only; listening absent",
+          "status": "UNVERIFIED"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "mode": "creamOrange"
+          },
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/027_doomscrolling_short/Source/Images/minnie_v02/Import_Packs/Accents/3_4_MILE.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/027_doomscrolling_short/Source/Images/minnie_v02/Import_Packs/Accents/3_4_MILE.png",
+          "status": "Candidate legacy asset; visual and sync unverified",
+          "type": "existingPNG"
+        },
+        "id": "C02",
+        "lines": [
+          "3/4 MILE"
+        ],
+        "provenance": {
+          "record": "Minnie original image pack"
+        },
+        "timing": {
+          "note": "Machine alignment only; listening absent",
+          "status": "UNVERIFIED"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "mode": "creamOrange"
+          },
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/027_doomscrolling_short/Source/Images/minnie_v02/Import_Packs/Accents/WAIT.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/027_doomscrolling_short/Source/Images/minnie_v02/Import_Packs/Accents/WAIT.png",
+          "status": "Candidate legacy asset; visual and sync unverified",
+          "type": "existingPNG"
+        },
+        "id": "C03",
+        "lines": [
+          "WAIT"
+        ],
+        "provenance": {
+          "record": "Minnie original image pack"
+        },
+        "timing": {
+          "note": "Machine alignment only; listening absent",
+          "status": "UNVERIFIED"
+        }
+      }
+    ],
+    "face_height_px": 100,
+    "min_face_height_px": 65,
+    "pairs": [
+      {
+        "anchor": "primary",
+        "cue": "C01",
+        "scene": "S01"
+      },
+      {
+        "anchor": "primary",
+        "cue": "C02",
+        "scene": "S04"
+      },
+      {
+        "anchor": "primary",
+        "cue": "C03",
+        "scene": "S05"
+      },
+      {
+        "anchor": "primary",
+        "cue": "C03",
+        "scene": "S06"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "S01",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/027_doomscrolling_short/Work/renewal_20261102/frames/S01.png"
+      },
+      {
+        "id": "S04",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/027_doomscrolling_short/Work/renewal_20261102/frames/S04.png"
+      },
+      {
+        "id": "S05",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/027_doomscrolling_short/Work/renewal_20261102/frames/S05.png"
+      },
+      {
+        "id": "S06",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/027_doomscrolling_short/Work/renewal_20261102/frames/S06.png"
+      }
+    ],
+    "version": 1
+  },
+  "storage": {
+    "dependencies": "/Users/diplomat/ytvideos/channels/paper_detour/videos/027_doomscrolling_short/Assets/Generated/renewal-captions-candidate-20261102",
+    "previews": "/Users/diplomat/ytvideos/channels/paper_detour/videos/027_doomscrolling_short/Work/renewal-captions-candidate-20261102/previews"
+  },
+  "version": 1
+}

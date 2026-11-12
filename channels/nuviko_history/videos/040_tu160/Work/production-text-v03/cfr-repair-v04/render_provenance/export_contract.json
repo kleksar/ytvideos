@@ -1,0 +1,598 @@
+{
+  "schema_version": 1,
+  "status": "READY_TO_RENDER",
+  "episode": "040_tu160",
+  "language": "English",
+  "format": "long film",
+  "purpose": "Review export; CFR correction to visual revision v03 after technical QA detected two missing frames.",
+  "settings_profile": {
+    "path": "/Users/diplomat/ytvideos/.agents/skills/ytv-video-export/references/delivery.md",
+    "sha256": "494eb3736b9a39861949084e6623b2033bbd2ea9c4cdef31c48f035938dc89a6"
+  },
+  "edit": {
+    "project_id": "FFmpeg montage plan; no native editor project ID",
+    "timeline_id": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Edit/Production/v03/plan.json",
+    "saved_revision_evidence": {
+      "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Edit/Production/v03/plan.json",
+      "sha256": "ac1b002410ba260963344c0a6d224dee2a84f2c9bd94cedb0f299048228de5bf"
+    },
+    "timeline_read_path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Edit/Production/v03/plan.json",
+    "timeline_read_sha256": "ac1b002410ba260963344c0a6d224dee2a84f2c9bd94cedb0f299048228de5bf",
+    "dependencies": [
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Edit/Production/v03/plan.json",
+        "sha256": "ac1b002410ba260963344c0a6d224dee2a84f2c9bd94cedb0f299048228de5bf"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Audio/mix_en_v01.wav",
+        "sha256": "f4c1215bf34967fbb8f24b1f560cd5759e2ab51e074e6b576a4171fc606ff3e2"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Audio/word_map_mix_v01.json",
+        "sha256": "e761ef7d3b1c7c526219d5f9a43a1d1d54380383b3d596790eb5ec4e8a4daaac"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Voice/voice_en_text_v01.txt",
+        "sha256": "f53003b298021f991c2d7d9c4754bbdaff5f42ed9b7f0f9b52ee413b66df9a92"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Work/production-text-v03/prepare/subtitle_review.json",
+        "sha256": "ab4839b30665c56296013d48f42e278d17b603ec900f1ff9202c56208c79371e"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_001_v02.png",
+        "sha256": "c9db5782ea302e06af7aa5bf29782c6a4e71f1298b56badb15cf7e2025a67c59"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_002_v01.png",
+        "sha256": "916bb2d58b3a4b3012171cae4db28344cdcc3fba7269847f0a07d4cc0858a385"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_007_v02.png",
+        "sha256": "53becd8d7a9212233bd9b5cc7c703cce55723e79e71e87e765514c60d43f1724"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/TextRevision/shot_004_text_v01.png",
+        "sha256": "78e0947320077e2951a8fce5dc1edf9e869bab44f1b3075b9006476765ffa2f2"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_004_v01.png",
+        "sha256": "d73de9ba474bef95dd8dd74905009023312e365bfc760c7761624b79e7782174"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_005_v01.png",
+        "sha256": "96e9738fbbed614524ab775f3821ee6a2a82bef03d55ee34ad9e53bca3ff9117"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_021_v02.png",
+        "sha256": "c609e138253729cbb2b4c3eea19139b4e4bcb902e6f839435ace5d2dfba92e07"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_006_v02.png",
+        "sha256": "eabfa52d81df78707630f1dbc40bca83ee1bc00fcc4cef64890edac6c3d5d2bb"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_010_v01.png",
+        "sha256": "bbb2b4a3708b7f718c62ca9c941db674bfb5139d07134722cfafde59f1512c73"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/TextRevision/shot_011_text_v01.png",
+        "sha256": "7a2c6ce7a52dcdb572f69e2f58174ff5f4c751cb52881cb9069f385f80a4d078"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_009_v01.png",
+        "sha256": "58bdeb5fb7f12baf85d1242160ad55309908de1748dd5126c3e48290fd572acc"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_011_v01.png",
+        "sha256": "ffd4d76411b4cc6f75b41c51ae952a4171543887c465da0cd0c015d2d431b365"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_012_v01.png",
+        "sha256": "fd3b66cad2555ffbc4208578fb04926bd6cd248f406158d16e48f5adde6a3345"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_013_v01.png",
+        "sha256": "b4834584e89a83dc3b2e544b92e394f8b8d75a579faac5acacdbc9048d849004"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_033_v01.png",
+        "sha256": "0916c930640682e8b5c98b04962bb3c89312aea00b22fc23c1feb88fc9140535"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_014_v03.png",
+        "sha256": "0326303ff4db2a26499d4d6fac9142bc15eeac6011a5bbc0be59239ccde62184"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_015_v01.jpg",
+        "sha256": "25b69c6013021907ac19a7737216cd1dbd3634ebc61b17444b5da7100b33210d"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_016_v01.png",
+        "sha256": "7377c5e0f22c281ea3ed5e7aedeaec32229f35c06f9c76b6f88e274d923084fa"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_017_v01.png",
+        "sha256": "5310600d35a39ccb76d5aaaf5b495358b2b3d83b8bc8c09f7f138af358cf16ce"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_023_v01.png",
+        "sha256": "000d9237c8e72019f5885f9606ae64c6f5d596f8d5f59db5adc212f234bc1184"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_018_v01.png",
+        "sha256": "c4d72224abc1b867763f4c67db8faa9822d18573233af611a517edbe795ee654"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_019_v01.png",
+        "sha256": "ebce8ca5871daa14aadf101b4d78f11da27acd74d62098872c64e249d971838c"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_020_v02.png",
+        "sha256": "3074eac92fcffec89015d415922f61ab5f9f8e1f7af52efae0cd2d28bd63076d"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_022_v02.png",
+        "sha256": "d3949fc46015b4e12c4c252b71bfd5bcc761e5ca03384ee51b497f87762c25c8"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_024_v01.png",
+        "sha256": "03d4faaa868adbb45cd5a92ea5acf291e17e84e50a5d5253fcc9d909ddafe916"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_085_v01.png",
+        "sha256": "bac66709fedb92a11dd5f60d60763efe07906ca04e07f2852ec617f1e65396bf"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_025_v01.png",
+        "sha256": "f1f9c6dc136b9c2f40a6fde65ef804ca49ae920057c37e4a2a99ff6527c03326"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_026_v01.png",
+        "sha256": "800de2e60515b5372f8692ef0d082e976c0d46eb1a315f819655d04d6bbde2a6"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_027_v01.png",
+        "sha256": "40cb89c60dee08de1a95fff29aedf86f79eff47e2de9ec9c2c7bd7e6109c3c18"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Research/VisualReferences/tu22m_schleiffert_2014.jpg",
+        "sha256": "74e5e41665394f36261b20659f8467f554e7f3840ed5555c168ce47a85cc6e1d"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_028_v01.jpg",
+        "sha256": "b7c070149e0a8f56678ad997e279765656f8ed1ecb74a2c556d8726811bf1252"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_029_v01.png",
+        "sha256": "53e23dd73ed34f66f3815835df7659d2e4069aa4fff53f64b819320d6e85d279"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_068_v01.png",
+        "sha256": "ae1023efc7453793105a0f01832cee25f245cd88ed8a2be686c20a7c20f0d2f4"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_030_v01.png",
+        "sha256": "ccd7201b5b68daf3c2df56cb88d9fcbe2255af1cdbcc33b76a6f532100741b1b"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/TextRevision/shot_039_text_v01.png",
+        "sha256": "ce34a3769e2e29a8dc436c3c24f582473b5f19e519930296a0f4797f25169e36"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_032_v01.png",
+        "sha256": "cf96e4075abe3ab08f4b4abae144fd7dae883df5939045d417e8c8379b2a7952"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_034_v01.png",
+        "sha256": "71f8a488580c9bf99d8a482c9e155d72ea93390f4355c816c662277bffe0b475"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/TextRevision/shot_043_text_v01.png",
+        "sha256": "07de140958db98df13934bc9d75190764809f5e4d0caecc3afd24e81ce05f724"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_036_v02.png",
+        "sha256": "b7ccfc870829fdb8fe45a88890cd3a9e6729ea412918d5b0c6db6719327b0397"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_037_v01.png",
+        "sha256": "4a2bdbb132fd39fe617ee311dcbbed3b4111163b9a90b9c2e416379001fcdfbe"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_038_v01.png",
+        "sha256": "399744fb200a0a8daadf63b6ee6daece1758fae5925136a2fd02609d305673b3"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_039_v01.png",
+        "sha256": "e07e28663edf4095062fd179ef7848f2570970bb5de0c73a75ae06012229e7f6"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_043_v02.png",
+        "sha256": "bfde04655f957a698bb75077dfe8adae0a617051042b5206816a3db7498300f9"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_040_v01.png",
+        "sha256": "c4ae769b53099430c21578fc0a871b158add993d5d67713a2dd211bcf015e90e"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_041_v01.png",
+        "sha256": "43c1774677d742c795ab123e9dfe47cdb1712f04da0370e1a22478b53884f129"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_042_v01.png",
+        "sha256": "7b2d3d4eacf0b8eaeff1caeb6546c4e9e45e2b33c11a5d995eda7619af6eca56"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_044_v02.png",
+        "sha256": "b23713adffe53399d121640015f1744926b308a229262dcda5bf8476a662ccc5"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_045_v01.png",
+        "sha256": "449e1e098010215f723d21b6bd74d1a0d2135e10f50d3e6804afdab246200fea"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_046_v02.png",
+        "sha256": "82e8dd660794fb7e0cb90ea1f74ca5678f9307f5fbafc3cfc132bbf15e73cb8a"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_047_v02.png",
+        "sha256": "eb6826ca2ed2844d92ebbdc0dc46467ba2c4eb7b3bd4f21dfefd031536d359cf"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_048_v01.png",
+        "sha256": "1c227b4f5b05aebb3ac9edadd5c8ea2b6638eb0122a967140f9165c293b842fe"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_052_v01.png",
+        "sha256": "444243da99a062d19d7890d14f5e7d97b080ed4a32789a4f15240da504adb69b"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_049_v01.png",
+        "sha256": "501f5fadd41807660a979fdee283724481532324dd8630030e3c35560ef7d129"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_050_v01.png",
+        "sha256": "a8d127b4d91e4bbab5d46b12cfa4261ab5fd0fa6ccf6f397bd4e569d6609925b"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/TextRevision/shot_062_text_v02.png",
+        "sha256": "b0f3b3a75eacb3385d2e9e9281dac552b7cb5a08895995a7d058b7088488b0b6"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/TextRevision/shot_064_text_v01.png",
+        "sha256": "142a6c86945dd99d0b39181208f4913d4d4e255290cd4f9d79fd58aaab5c604f"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_054_v01.png",
+        "sha256": "bb176eb619965584b3563eb0894590609c01deb36b888cf01b817ea66bbc92bb"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_055_v01.png",
+        "sha256": "e7a31f052af0a14202568c9a1e2cd3307becf0e31d5a8e3d1d7f87fecf44110f"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_056_v01.png",
+        "sha256": "1315a3fdd6e7a13d3ecaf270abdfd81227e7fb218aae6724cf849a7f7f80c492"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_057_v01.png",
+        "sha256": "671604b0d2cd86d64976a60f6116fefbdde99891c617752bd1221dcaefe624d4"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_058_v01.png",
+        "sha256": "faf4fa8eda080a28effba2787af708648e7a5611ff200203178eaff4cccaa242"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_059_v03.png",
+        "sha256": "9391aa9745e3f81ec0ec849bf7a6ff8f9d451daed7d6e39f9008652b40af9a31"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_051_v01.png",
+        "sha256": "742342908f93b29ad238ae6d5fac3cf9d53e17fd9d56e387871c884c42b3c17d"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_060_v01.png",
+        "sha256": "f483fe244b711c3cd72578314bac80757e0e9dd3b08b70bc237b7308444de7e2"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_061_v01.png",
+        "sha256": "c81c36fc3f64250374f22f7d99563bb3d9952fd9a0320097155c4d266c760d98"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/TextRevision/shot_074_text_v01.png",
+        "sha256": "0c9abd0f08414f55424eb634db2c512c076617c1dec3804a9697a04df5863c5e"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_063_v02.png",
+        "sha256": "765f4e571dd831a0848178767c32ebe6fe56d1ce6652423c52618ba4ac47229a"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_064_v01.png",
+        "sha256": "df32ed0be00654cd1fbd20c6761eac5ec3578bfe43c3ac4966917351a722ba09"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_065_v01.png",
+        "sha256": "ee9e511a71379c021c36f9db980926e3e05a956f2996642e943ffc57553dbf46"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_066_v01.png",
+        "sha256": "2b5ab9de5bb9f363b1c2e33df470294bd6d3c114735a82c2a64b84f31eaed3f4"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_067_v01.png",
+        "sha256": "f7f872a276594140ae4fd2b45d6eb504c5068347ea736c787f50df58c75fd8c4"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_070_v01.png",
+        "sha256": "3131e9018ffab401f20b429a761db9e230ea8dcc3a709553e3d879ca41cc2e80"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_069_v01.png",
+        "sha256": "bfeffc0eb05aa383e7e3cde9c20502372bf4ebe87a7f717c6d077e685a76c526"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_071_v01.png",
+        "sha256": "da563fa58cff5916f60c1036fc7e417a8ab9941811c7fd59a59d8d8fba3a03ef"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_081_v01.png",
+        "sha256": "af471aafb5857153b838e750b04489169defb490a47ac3f818b7e51ac55b9722"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_072_v02.png",
+        "sha256": "916bb2d58b3a4b3012171cae4db28344cdcc3fba7269847f0a07d4cc0858a385"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_082_v01.png",
+        "sha256": "c42b549410b0a24410f01dcffff50d71ec87469b1f9a5cc454248d34d81a6e7c"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_074_v02.png",
+        "sha256": "cdd67d0701455382a14b3b43fe16b303d364566d9901ed517e99622180bc15e7"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_075_v01.png",
+        "sha256": "428bdee5e9727c01c1f71bd50923f5bfc2807642f0cde6b0ffb6cbace666ec84"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_076_v01.png",
+        "sha256": "0f5049c61a74358bbb1f5d4da39b1e8204b3a91742005e3dce38ecfa34889017"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_077_v01.png",
+        "sha256": "c42b549410b0a24410f01dcffff50d71ec87469b1f9a5cc454248d34d81a6e7c"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_078_v01.png",
+        "sha256": "12a1fb32b362f09061c34e78ccb724d410be1bf4defa0265384030506371e985"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_079_v01.png",
+        "sha256": "afbc593b11c7ca37b27f4bd9e3e67957fe3250d0858f10d4eddc31c7e864da04"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_080_v01.png",
+        "sha256": "85f86368f11f9637e6a1d03bbd920bd8520872b5dc4931bb3d380f074af77691"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/TextRevision/shot_102_text_v02.png",
+        "sha256": "1bfbd19b9bbbd6584850537dfb0d71799af5cf58a7ea45b7505203bdc6ed538d"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_084_v01.png",
+        "sha256": "d410c01ae76fbcd5439b42ed5f090503da0fb35cc11dd071fe69777002753fbd"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_086_v01.png",
+        "sha256": "d9754d8352fd14e178a8fae6b38bf39869d0cda0e6cd9c5dae9f5b2b0b829e95"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/TextRevision/shot_108_text_v02.png",
+        "sha256": "7777b0a3fee70c95e9748d2c13d4e035fe6494aad6c4faa566c97de6a671cc18"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_088_v01.jpg",
+        "sha256": "4af68ccd28a86b4f45a2ea6cf31d31ece66393ce4eaf86d74568d85a408ef63a"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_089_v01.png",
+        "sha256": "aad7c406d08f7478c33e5ef4aa0be361eed4136b606f616375425dc42fe141b2"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_090_v01.png",
+        "sha256": "43bc6f7439b230213d054ebd60ddac5114cf0e2791ae746582e5051a06f865c3"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_091_v01.png",
+        "sha256": "522ad99744a9f46d7f3f9592ae1c7ee0439e0a90f23237034412344779ed0e59"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_092_v02.png",
+        "sha256": "da3b6b17f778be18b25d6a3f02969308bd1afb9198fe9e6c8b088e81c3262d13"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_093_v01.png",
+        "sha256": "080e0f45347b85ce91e23ef60796817a97f8c11a934101fe2e025271cd98ed9c"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_094_v01.png",
+        "sha256": "fd230bc0d24183269867a5f1d7173de6f27830dbe6f140d6ecb070a22d9755f7"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_095_v01.png",
+        "sha256": "369ed94e332b9fe9e8c66b875e5bc5fc023d0824d9111473148fb35c957ad5c8"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/TextRevision/shot_119_text_v02.png",
+        "sha256": "3dd153287cae5c5a488bafe8887866947ebceb765f141d63506be7a6e70f0ab4"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_097_v01.png",
+        "sha256": "8215ce6155c6ff479d6b0635a732750517cceda154eefd7494d26a3648bd1267"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_098_v01.png",
+        "sha256": "336f9a8f7414be16c16a06083b577f88e6c6bf99c5e258e448e77a7635d7e312"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_099_v02.png",
+        "sha256": "d864f6bb353add56fa4db366e76960337dcf36487e7d4247982f784b1a5df164"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_100_v01.png",
+        "sha256": "d8af1d07b33aa603fa835ffc0981fedbaedd4eceaf0acced6ee2f8b085e90d20"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_101_v01.jpg",
+        "sha256": "4af68ccd28a86b4f45a2ea6cf31d31ece66393ce4eaf86d74568d85a408ef63a"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_102_v01.png",
+        "sha256": "ee03dde608b97ec7c691bbe5e754b3942df570f932780fbaef38483b65281367"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_103_v01.png",
+        "sha256": "5934ae36080000254b270ce936e5202ffcd028f0d513cd0f360d8401321c81ea"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_104_v01.png",
+        "sha256": "a63b30bd6af951878aa46ba0c2cd738458296e4ee539294d8c80d8d372bd3886"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_105_v01.png",
+        "sha256": "449e1e098010215f723d21b6bd74d1a0d2135e10f50d3e6804afdab246200fea"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_106_v01.jpg",
+        "sha256": "2c863d8e23d2913c7ae3ba0812da70aa7a98da674466fb2fbd7be19e62452571"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_107_v01.png",
+        "sha256": "cc3b8f3e68ca4733038ae04c0543cf5366c32846aec32a5f13f227fd5a9e3769"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_108_v02.png",
+        "sha256": "4fc03499cccb7a5a070e66d56dbf3752e7ecb4a2ba148d199ea2bea6f0dd3992"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_109_v01.png",
+        "sha256": "47220d51d9ff636121eeef0fed37d9201da397b672675742cb21394b98368273"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_110_v01.jpg",
+        "sha256": "4a7377e6646c7a5bb7cbf7171bdb8716a984d591ab63a8cc76a2092dd84fd1c1"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_111_v01.png",
+        "sha256": "10aaeabe21e6e5a875895e8435607ca6325961ecc23a48fa027b066a1a717daf"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_112_v01.png",
+        "sha256": "56b974a0140b47cbf04b70477d82dfa5328c994ce9bad12e2b2acd081a040a82"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_113_v01.png",
+        "sha256": "d3167f07fd08a08f1d4021b565876c029e96e6f82d080c3e5641e925400a75d2"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_114_v01.png",
+        "sha256": "90bcc39a3aadaa9dd559580d2fcac0f7a2cd0741175f533d3cf242b49fb26cef"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_115_v01.png",
+        "sha256": "cd3ee1af64b95bd5608b1d92d79b29ea748c1f23094a9208869690b8a06f1f87"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_117_v02.png",
+        "sha256": "ac10041434a6bd19b4c0412b3926dfcedd330daddb84eb271ac399d22554f9d2"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_118_v01.jpg",
+        "sha256": "c0eea2def30f50d3654f8579f9ec3ea0b5c4da979acecf9e46034bb48298b0d9"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_119_v01.png",
+        "sha256": "6d75a469930dd94ce10b5424c41f361de65b2f433fbf8e8b127663262cc9113c"
+      }
+    ]
+  },
+  "timeline": {
+    "width": 2560,
+    "height": 1440,
+    "aspect_ratio": "16:9",
+    "sample_aspect_ratio": "1:1",
+    "fps": "30/1",
+    "frame_count": 21773,
+    "duration_seconds": 725.7666666666667,
+    "output_color_space": "Rec.709 SDR"
+  },
+  "required_delivery": {
+    "container": "MP4",
+    "video": {
+      "codec_name": "h264",
+      "pix_fmt": "yuv420p",
+      "scan": "progressive",
+      "cadence": "constant 30/1 fps",
+      "color_primaries": "bt709",
+      "color_transfer": "bt709",
+      "color_space": "bt709",
+      "color_range": "tv"
+    },
+    "audio_contract": {
+      "owner_handoff": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Audio/mix_en_v01.evidence.json",
+      "accepted_complete_mix": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Audio/mix_en_v01.wav",
+        "sha256": "f4c1215bf34967fbb8f24b1f560cd5759e2ab51e074e6b576a4171fc606ff3e2"
+      },
+      "source_rate_channels": "44100 Hz, stereo; no speed change or resampling in montage",
+      "codec_name": "aac",
+      "profile": "LC",
+      "sample_rate": 44100,
+      "channels": 2,
+      "target_bit_rate": 256000
+    }
+  },
+  "encoding": {
+    "engine": "Frozen shared FFmpeg renderer with h264_videotoolbox; final command includes explicit 30 fps CFR and frame limit",
+    "version_evidence": "FFmpeg and renderer snapshots recorded during run",
+    "requested_arguments": {
+      "encoder": "h264_videotoolbox",
+      "video_bitrate": "20M",
+      "output_pix_fmt": "yuv420p",
+      "fps": "30/1",
+      "audio_codec": "aac",
+      "audio_profile": "aac_low",
+      "audio_bitrate": 256000,
+      "audio_sample_rate": 44100,
+      "audio_channels": 2
+    },
+    "quality_preferences": {
+      "video": "20 Mbps 2K starting point",
+      "audio": "AAC 256 kbps stereo"
+    },
+    "capability_evidence": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/README.md",
+    "engine_managed_fields": [
+      "GOP and exact mean VBR bitrate",
+      "Explicit CFR repair -r 30 -fps_mode cfr -frames:v 21773; other render inputs unchanged"
+    ]
+  },
+  "preflight": {
+    "author": "Codex",
+    "time": "2026-11-05T19:44:44.546140+01:00",
+    "authorization_references": [
+      "User approved the existing film and requested regenerative in-image text, preserving soundtrack.",
+      "User approved the subtitle break after more than."
+    ],
+    "fresh_settings_evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Work/production-text-v03/cfr-repair-v04/settings_check.json",
+    "writer_and_export_state": "New v03 output, no known competing writer.",
+    "output_path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Deliverables/NUVIKO_040_TU160_EN_REVIEW_v04.mp4",
+    "overwrite": false,
+    "media_lifecycle_receipt": "v02 is last user-approved baseline; v01 has active hold. Both retained, no cleanup claimed.",
+    "unresolved_required_fields": []
+  },
+  "render_receipt": null,
+  "qa_receipt": null,
+  "settings_check_receipt": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Work/production-text-v03/cfr-repair-v04/settings_check.json",
+  "render_provenance": null
+}

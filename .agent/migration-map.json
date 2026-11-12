@@ -1,0 +1,218 @@
+{
+  "source": ".agent/archive/before-skills-20261101/AGENTS.md",
+  "source_sha256": "eb40ea54e51255ce5f7933077ce3c874e4fe775813ac182490356d430ea4ae58",
+  "original_line_count": 229,
+  "preamble_lines": [
+    1,
+    4
+  ],
+  "sections": [
+    {
+      "start_line": 5,
+      "end_line": 13,
+      "heading": "Чаты и источники ChatGPT в Chrome",
+      "destination": ".agent/archive/before-skills-20261101/AGENTS.md",
+      "kind": "rules-to-routing",
+      "active_owner": ".agents/skills/ytv-chatgpt-extra-high/SKILL.md"
+    },
+    {
+      "start_line": 14,
+      "end_line": 49,
+      "heading": "Каналы и монтаж",
+      "destination": ".agent/archive/before-skills-20261101/AGENTS.md",
+      "kind": "rules-to-routing",
+      "active_owner": ".agent/documentation-index.md"
+    },
+    {
+      "start_line": 50,
+      "end_line": 56,
+      "heading": "Итоговые файлы и очистка версий",
+      "destination": ".agent/archive/before-skills-20261101/AGENTS.md",
+      "kind": "rules-to-routing",
+      "active_owner": ".agents/skills/ytv-audio-delivery/SKILL.md"
+    },
+    {
+      "start_line": 57,
+      "end_line": 62,
+      "heading": "Стандарт звука для всех финальных рендеров",
+      "destination": ".agent/archive/before-skills-20261101/AGENTS.md",
+      "kind": "rules-to-routing",
+      "active_owner": ".agents/skills/ytv-audio-delivery/references/delivery-checks.md"
+    },
+    {
+      "start_line": 63,
+      "end_line": 72,
+      "heading": "Загрузка на YouTube",
+      "destination": ".agent/archive/before-skills-20261101/AGENTS.md",
+      "kind": "rules-to-routing",
+      "active_owner": ".agents/skills/ytv-youtube-release/SKILL.md"
+    },
+    {
+      "start_line": 73,
+      "end_line": 82,
+      "heading": "Текущий выпуск 002 — Pompeii",
+      "destination": "channels/nuviko_history/videos/002_pompeii/AGENTS_STATUS_20261101.md",
+      "kind": "episode-snapshot",
+      "block_sha256": "891db8ca0847fdd7a34207f751e53e547f1ee1976d3552a59e59d73584664043"
+    },
+    {
+      "start_line": 83,
+      "end_line": 86,
+      "heading": "Текущий выпуск 004 — Pompeii Shorts",
+      "destination": "channels/nuviko_history/videos/004_pompeii_short/AGENTS_STATUS_20261101.md",
+      "kind": "episode-snapshot",
+      "block_sha256": "6ee1d7af1b05149fe79105c48a9c82744f4554e2171fb5442f782add09ac56b7"
+    },
+    {
+      "start_line": 87,
+      "end_line": 90,
+      "heading": "Выпуск 010 — перелёты птиц",
+      "destination": ".agent/episode-status/010_pfeilstorch.md",
+      "kind": "missing-original-directory",
+      "block_sha256": "596897084375719da0c7e54b13c7514bd3a991f4973b6af73ddc00e2e70140d7"
+    },
+    {
+      "start_line": 91,
+      "end_line": 97,
+      "heading": "Историческая серия: фильм и поддерживающие Shorts",
+      "destination": ".agent/archive/before-skills-20261101/AGENTS.md",
+      "kind": "rules-to-routing",
+      "active_owner": ".agents/skills/ytv-history-story/SKILL.md"
+    },
+    {
+      "start_line": 98,
+      "end_line": 101,
+      "heading": "Выпуск 001 — бывшая брата и лучшая подруга",
+      "destination": "channels/nuviko_stories/videos/001_brother_ex_best_friend/AGENTS_STATUS_20261101.md",
+      "kind": "episode-snapshot",
+      "block_sha256": "5a22290de0af46b821dac060ceb327c92ffe66e5cfa4426ce84d3e9c5c41868b"
+    },
+    {
+      "start_line": 102,
+      "end_line": 107,
+      "heading": "Выпуск 011 — свидания с другом",
+      "destination": "channels/nuviko_stories/videos/011_парень_приводил_друга_на_каждое_свидание/AGENTS_STATUS_20261101.md",
+      "kind": "episode-snapshot",
+      "block_sha256": "bc3c04324e77918360b17ea3990ef98677364409c3b90c6ce9632a42324738bd"
+    },
+    {
+      "start_line": 108,
+      "end_line": 112,
+      "heading": "Выпуск 012 — семейная реликвия",
+      "destination": "channels/nuviko_stories/videos/012_дорогой_подарок_оказался_семейной_реликвией/AGENTS_STATUS_20261101.md",
+      "kind": "episode-snapshot",
+      "block_sha256": "2e46466848f2338fb1dcc0a20fc91f1cbe6ba50f00de2f17a53b883febd610f1"
+    },
+    {
+      "start_line": 113,
+      "end_line": 117,
+      "heading": "Выпуск 013 — сестра на помолвке",
+      "destination": "channels/nuviko_stories/videos/013_сестра_пришла_на_помолвку_в_свадебном_платье/AGENTS_STATUS_20261101.md",
+      "kind": "episode-snapshot",
+      "block_sha256": "8e8333212bd40f48f840cdae650ea530e49b5d824d3514154bf440be91737698"
+    },
+    {
+      "start_line": 118,
+      "end_line": 124,
+      "heading": "Выпуск 014 — книги Толкина и незнакомец",
+      "destination": "channels/nuviko_stories/videos/014_подарок_парню_и_незнакомец_с_книгами_толкина/AGENTS_STATUS_20261101.md",
+      "kind": "episode-snapshot",
+      "block_sha256": "aa51b517630b110308387c4ffbee0c0f89a94191783882c07e2a829aec1b2634"
+    },
+    {
+      "start_line": 125,
+      "end_line": 130,
+      "heading": "Выпуск 015 — девушка брата и LEGO",
+      "destination": "channels/nuviko_stories/videos/015_девушка_моего_брата_приревновала_его_ко_мне/AGENTS_STATUS_20261101.md",
+      "kind": "episode-snapshot",
+      "block_sha256": "c299d629f420994647c839ea5e4990bce1c15bff62a1ff63c557b614229f3ccf"
+    },
+    {
+      "start_line": 131,
+      "end_line": 136,
+      "heading": "Выпуск 018 — соседский мальчик назвал меня папой",
+      "destination": "channels/nuviko_stories/videos/018_соседский_мальчик_назвал_меня_папой/AGENTS_STATUS_20261101.md",
+      "kind": "episode-snapshot",
+      "block_sha256": "27aa7c2937994d59f7487738d094eb238db4d0ddee86fd6985dc409197dc49b5"
+    },
+    {
+      "start_line": 137,
+      "end_line": 141,
+      "heading": "Выпуск 019 — торт с чужим именем",
+      "destination": "channels/nuviko_stories/videos/019_торт_с_чужим_именем/AGENTS_STATUS_20261101.md",
+      "kind": "episode-snapshot",
+      "block_sha256": "e28803d70c4311a07b93abf4abf25a1bfb4ef82190ee0e94f2eb6056b43af58d"
+    },
+    {
+      "start_line": 142,
+      "end_line": 146,
+      "heading": "Выпуск 021 — семейный ужин-сюрприз",
+      "destination": "channels/nuviko_stories/videos/021_семейный_ужин_сюрприз/AGENTS_STATUS_20261101.md",
+      "kind": "episode-snapshot",
+      "block_sha256": "5c5b2e259bc842b9f97280a2b9770b7ac4ac5ddae4b7d1bf6f3e05477936ed92"
+    },
+    {
+      "start_line": 147,
+      "end_line": 151,
+      "heading": "Выпуск 022 — свадьба сестры в подарок",
+      "destination": "channels/nuviko_stories/videos/022_свадьба_сестры_в_подарок/AGENTS_STATUS_20261101.md",
+      "kind": "episode-snapshot",
+      "block_sha256": "fb972d75bb44b1372884d7c208d21ff0af48718721bcfb46cbe457aba7f02531"
+    },
+    {
+      "start_line": 152,
+      "end_line": 183,
+      "heading": "Выпуск 020 — Rarovista: программа в радиоэфире",
+      "destination": "channels/paper_detour/videos/001_radio_game/AGENTS_STATUS_20261101.md",
+      "kind": "episode-snapshot",
+      "block_sha256": "92b1aad12f8d03df2855fccc3336da39f8823edd76f4f6459b956e2663e1c2c5"
+    },
+    {
+      "start_line": 184,
+      "end_line": 192,
+      "heading": "Paper Detour 002 — Margorie McCall",
+      "destination": "channels/paper_detour/videos/002_margorie_mccall/AGENTS_STATUS_20261101.md",
+      "kind": "episode-snapshot",
+      "block_sha256": "a8b5134ae189b76086974e94d8de0c54ae1dbc048d9990807ce6334601e7c312"
+    },
+    {
+      "start_line": 193,
+      "end_line": 200,
+      "heading": "Выпуск 025 — IQ Gallery, минутный Shorts",
+      "destination": "channels/paper_detour/videos/003_iq_gallery/AGENTS_STATUS_20261101.md",
+      "kind": "episode-snapshot",
+      "block_sha256": "66c098f4749bf23616b01f49c380c1ed79f42a2dd30b8df21a5524b1cfe83d83"
+    },
+    {
+      "start_line": 201,
+      "end_line": 216,
+      "heading": "Paper Detour 004 — Last Video",
+      "destination": "channels/paper_detour/videos/004_last_video/AGENTS_STATUS_20261101.md",
+      "kind": "episode-snapshot",
+      "block_sha256": "8ecd0224423c5d5c77b5129025a59b8803d3777f50d256ba9218b4488a83930f"
+    },
+    {
+      "start_line": 217,
+      "end_line": 224,
+      "heading": "Paper Detour 007 — Joshua and Jessica",
+      "destination": "channels/paper_detour/videos/007_joshua_jessica/AGENTS_STATUS_20261101.md",
+      "kind": "episode-snapshot",
+      "block_sha256": "d6b4916c05d59c9497f826d2e77a39327a27464b99103c40983a7d89f3a5f5cd"
+    },
+    {
+      "start_line": 225,
+      "end_line": 229,
+      "heading": "Paper Detour 009 — Knorozov and Asya",
+      "destination": "channels/paper_detour/videos/009_knorozov_asya/AGENTS_STATUS_20261101.md",
+      "kind": "episode-snapshot",
+      "block_sha256": "6c6bfcd9d9c7fdc8d429aed5d56a6b3837ec061c72615da51d6b85acf16b4c3e"
+    }
+  ],
+  "embedded_episode_records": [
+    {
+      "source_line": 22,
+      "destination": "channels/paper_detour/videos/027_doomscrolling_short/AGENTS_STATUS_20261101.md",
+      "note": "Identity and accepted assets only; upload and permission state remain local records"
+    }
+  ]
+}

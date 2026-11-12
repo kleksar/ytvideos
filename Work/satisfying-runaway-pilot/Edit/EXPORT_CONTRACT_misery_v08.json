@@ -1,0 +1,881 @@
+{
+  "status": "READY_TO_RENDER",
+  "purpose": "Faster beat-cut finale, landscape-first shot selection, smooth push, and centered lyric animation",
+  "editor": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers",
+  "sources": [
+    {
+      "path": "/Users/diplomat/ytvideos/Work/satisfying-runaway-pilot/Source/40480214.mp4",
+      "public_page": "https://www.pexels.com/video/rainy-city-night-street-scene-reflection-40480214/",
+      "author": "Hassan Ehsan",
+      "license": "Pexels License",
+      "license_url": "https://www.pexels.com/license/",
+      "sha256": "295b6b52d91b7ae4d68658b9162ac0ce08197b21fe3b06866087a17e108af03b"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/Work/satisfying-runaway-pilot/Source/32271706.mp4",
+      "public_page": "https://www.pexels.com/video/warm-campfire-flames-at-night-32271706/",
+      "author": "Şahin Doğdu",
+      "license": "Pexels License",
+      "license_url": "https://www.pexels.com/license/",
+      "sha256": "053399a3c7e0bb51294d0684d5b35068aeea3bc79bbb692dd185ed8c8385a3cc"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/Work/satisfying-runaway-pilot/Source/32509235.mp4",
+      "sha256": "143f790da160381b7c0e856203d63acefcc893af38b9c80bfa22be94e0a5558f",
+      "public_page": "https://www.pexels.com/video/tranquil-mountain-lake-reflection-scene-32509235/",
+      "license": "Pexels License",
+      "license_url": "https://www.pexels.com/license/"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/Work/satisfying-runaway-pilot/Source/36037810.mp4",
+      "public_page": "https://www.pexels.com/video/owl-perched-on-tree-branch-in-forest-setting-36037810/",
+      "author": "Joolsmagools ®️",
+      "license": "Pexels License",
+      "license_url": "https://www.pexels.com/license/",
+      "sha256": "ec3183a2a45f608df089425c3e7fb1a0568239463a1f32abfd078bb1e36a90c0"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/Work/satisfying-runaway-pilot/Source/8859850.mp4",
+      "public_page": "https://www.pexels.com/video/vertical-video-of-a-waterfalls-8859850/",
+      "author": "Pavel Danilyuk",
+      "license": "Pexels License",
+      "sha256": "6327ec78a0d454525b9396bef481e40c41e79bfe006f89698b32bf83e77f7c67",
+      "license_url": "https://www.pexels.com/license/"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/Work/satisfying-runaway-pilot/Source/35734861.mp4",
+      "public_page": "https://www.pexels.com/video/winter-forest-sunrise-with-snow-covered-trees-35734861/",
+      "author": "Manuel Campagnoli",
+      "license": "Pexels License",
+      "license_url": "https://www.pexels.com/license/",
+      "sha256": "d4c459fe03b7d5a056a250201ea8296f55dbc41b43e329a3495a7660bdac501d"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/Work/satisfying-runaway-pilot/Source/34535413.mp4",
+      "public_page": "https://www.pexels.com/video/majestic-sand-dunes-in-golden-desert-sunset-34535413/",
+      "author": "Ahmed",
+      "license": "Pexels License",
+      "sha256": "3c39b8be327207fd30c5f2561c9cb27ae5a68005895aeaf8074746275b24462f",
+      "license_url": "https://www.pexels.com/license/"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/Work/satisfying-runaway-pilot/Source/6316369.mp4",
+      "public_page": "https://www.pexels.com/video/vertical-drone-footage-of-the-forest-during-winter-6316369/",
+      "author": "Tima Miroshnichenko",
+      "license": "Pexels License",
+      "sha256": "d60d4522fb27ab49cfa0c93f4edeeb0e74f9e91d3b626cd265fe9a81f468c46c",
+      "license_url": "https://www.pexels.com/license/"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/Work/satisfying-runaway-pilot/Source/36974946.mp4",
+      "public_page": "https://www.pexels.com/video/aerial-view-of-misty-mountain-landscape-at-dawn-36974946/",
+      "author": "Sherine",
+      "license": "Pexels License",
+      "sha256": "c01d4eb1a4f84dca55a1300c2df32700df417d406d1e680599803f7e72a1e6d8",
+      "license_url": "https://www.pexels.com/license/"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/Work/satisfying-runaway-pilot/Source/35867202.mp4",
+      "public_page": "https://www.pexels.com/video/breathtaking-aerial-view-of-turquoise-mountain-lake-35867202/",
+      "author": "Yussuf Muradov",
+      "license": "Pexels License",
+      "sha256": "8bda0fda3324a651985732356890781576cc490167b4143910c3b25d0fd695e2",
+      "license_url": "https://www.pexels.com/license/"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/Work/satisfying-runaway-pilot/Source/misery-pupsies-reference.m4a",
+      "sha256": "7ffdf370df17ecb3be5e1f68ef72a7bd2f925f046340b23aa4d9ffc67c1da765",
+      "public_page": "https://music.apple.com/us/song/6765465347",
+      "role": "original Apple Music catalog preview for local review"
+    }
+  ],
+  "timeline": {
+    "filtergraph": "/Users/diplomat/ytvideos/Work/satisfying-runaway-pilot/Edit/render-misery-v08.ffgraph",
+    "sha256": "2ad2e654cea3122cb6e9912a1de1bd422ecac5f9abe8811c8dfaf2074abc59e3",
+    "scene_start_frames": [
+      0,
+      61,
+      122,
+      182,
+      243,
+      304,
+      364,
+      395,
+      410,
+      425
+    ],
+    "end_frame_exclusive": 455,
+    "duration_seconds": 15.166666666666666,
+    "shots": [
+      {
+        "label": "rainy_street",
+        "start_frame": 0,
+        "frames": 61,
+        "source_id": 40480214,
+        "start_source_frame_after_30_fps_conversion": 17,
+        "zoom_anchor": [
+          0.5,
+          0.66
+        ],
+        "hdr_to_sdr": false,
+        "selection_reason": "Street reflections, paving and lit storefronts."
+      },
+      {
+        "label": "campfire",
+        "start_frame": 61,
+        "frames": 61,
+        "source_id": 32271706,
+        "start_source_frame_after_30_fps_conversion": 49,
+        "zoom_anchor": [
+          0.5,
+          0.62
+        ],
+        "hdr_to_sdr": false,
+        "selection_reason": "Embers and layered split logs, with a flame climbing diagonally."
+      },
+      {
+        "label": "mirror_lake",
+        "start_frame": 122,
+        "frames": 60,
+        "source_id": 32509235,
+        "start_source_frame_after_30_fps_conversion": 51,
+        "zoom_anchor": [
+          0.5,
+          0.56
+        ],
+        "hdr_to_sdr": false,
+        "selection_reason": "Near shore, reflected peaks and layers of clouds."
+      },
+      {
+        "label": "owl",
+        "start_frame": 182,
+        "frames": 61,
+        "source_id": 36037810,
+        "start_source_frame_after_30_fps_conversion": 96,
+        "zoom_anchor": [
+          0.5,
+          0.42
+        ],
+        "hdr_to_sdr": false,
+        "selection_reason": "One wildlife accent. Feather patterns, branches and leaf depth."
+      },
+      {
+        "label": "waterfall",
+        "start_frame": 243,
+        "frames": 61,
+        "source_id": 8859850,
+        "start_source_frame_after_30_fps_conversion": 81,
+        "zoom_anchor": [
+          0.42,
+          0.57
+        ],
+        "hdr_to_sdr": false,
+        "selection_reason": "Mist and moving water divided by dark rock and greenery."
+      },
+      {
+        "label": "snowy_forest",
+        "start_frame": 304,
+        "frames": 60,
+        "source_id": 35734861,
+        "start_source_frame_after_30_fps_conversion": 214,
+        "zoom_anchor": [
+          0.62,
+          0.52
+        ],
+        "hdr_to_sdr": false,
+        "selection_reason": "Sun reveal, foreground trunk, snow and long shadows."
+      },
+      {
+        "label": "desert_dunes",
+        "start_frame": 364,
+        "frames": 31,
+        "source_id": 34535413,
+        "start_source_frame_after_30_fps_conversion": 40,
+        "zoom_anchor": [
+          0.51,
+          0.6
+        ],
+        "hdr_to_sdr": false,
+        "selection_reason": "Sharp ridge, wind ripples and tracks in the orange sand."
+      },
+      {
+        "label": "frosted_canopy",
+        "start_frame": 395,
+        "frames": 15,
+        "source_id": 6316369,
+        "start_source_frame_after_30_fps_conversion": 33,
+        "zoom_anchor": [
+          0.5,
+          0.53
+        ],
+        "hdr_to_sdr": false,
+        "selection_reason": "Top-down view of frost-covered treetops, with a diagonal glide over the dark and silver canopy."
+      },
+      {
+        "label": "misty_ridges",
+        "start_frame": 410,
+        "frames": 15,
+        "source_id": 36974946,
+        "start_source_frame_after_30_fps_conversion": 49,
+        "zoom_anchor": [
+          0.51,
+          0.57
+        ],
+        "hdr_to_sdr": false,
+        "selection_reason": "Clouds rolling through multiple mountain ridges below a warm sky."
+      },
+      {
+        "label": "turquoise_lake",
+        "start_frame": 425,
+        "frames": 30,
+        "source_id": 35867202,
+        "start_source_frame_after_30_fps_conversion": 94,
+        "zoom_anchor": [
+          0.51,
+          0.58
+        ],
+        "hdr_to_sdr": false,
+        "selection_reason": "Shoreline, wooded slope and autumn detail around turquoise water."
+      }
+    ],
+    "transitions": [
+      {
+        "cut_frame": 61,
+        "outgoing_seconds": 0.25,
+        "incoming_seconds": 0.25,
+        "peak_blur_mix": 0.88,
+        "gaussian_sigma_px": 25,
+        "bloom": {
+          "seconds_before_beat": 0.125,
+          "seconds_after_beat": 0.125,
+          "luma_threshold_y8": 127,
+          "energy_gamma": 1.55,
+          "halo_sigma_px": 17.4,
+          "strength": 0.88,
+          "mode": "additive luma from source highlights"
+        },
+        "shake_offsets_px": [
+          [
+            -3,
+            -2,
+            2
+          ],
+          [
+            -2,
+            4,
+            0
+          ],
+          [
+            -1,
+            -8,
+            -4
+          ],
+          [
+            0,
+            14,
+            8
+          ],
+          [
+            1,
+            -10,
+            4
+          ],
+          [
+            2,
+            4,
+            -2
+          ],
+          [
+            3,
+            -2,
+            0
+          ]
+        ]
+      },
+      {
+        "cut_frame": 122,
+        "outgoing_seconds": 0.25,
+        "incoming_seconds": 0.25,
+        "peak_blur_mix": 0.88,
+        "gaussian_sigma_px": 25,
+        "bloom": {
+          "seconds_before_beat": 0.125,
+          "seconds_after_beat": 0.125,
+          "luma_threshold_y8": 127,
+          "energy_gamma": 1.55,
+          "halo_sigma_px": 17.4,
+          "strength": 0.82,
+          "mode": "additive luma from source highlights"
+        },
+        "shake_offsets_px": [
+          [
+            -3,
+            2,
+            2
+          ],
+          [
+            -2,
+            -4,
+            0
+          ],
+          [
+            -1,
+            8,
+            -4
+          ],
+          [
+            0,
+            -14,
+            8
+          ],
+          [
+            1,
+            10,
+            4
+          ],
+          [
+            2,
+            -4,
+            -2
+          ],
+          [
+            3,
+            2,
+            0
+          ]
+        ]
+      },
+      {
+        "cut_frame": 182,
+        "outgoing_seconds": 0.25,
+        "incoming_seconds": 0.25,
+        "peak_blur_mix": 0.88,
+        "gaussian_sigma_px": 25,
+        "bloom": {
+          "seconds_before_beat": 0.125,
+          "seconds_after_beat": 0.125,
+          "luma_threshold_y8": 127,
+          "energy_gamma": 1.55,
+          "halo_sigma_px": 17.4,
+          "strength": 0.9,
+          "mode": "additive luma from source highlights"
+        },
+        "shake_offsets_px": [
+          [
+            -3,
+            -2,
+            2
+          ],
+          [
+            -2,
+            4,
+            0
+          ],
+          [
+            -1,
+            -8,
+            -4
+          ],
+          [
+            0,
+            14,
+            8
+          ],
+          [
+            1,
+            -10,
+            4
+          ],
+          [
+            2,
+            4,
+            -2
+          ],
+          [
+            3,
+            -2,
+            0
+          ]
+        ]
+      },
+      {
+        "cut_frame": 243,
+        "outgoing_seconds": 0.25,
+        "incoming_seconds": 0.25,
+        "peak_blur_mix": 0.88,
+        "gaussian_sigma_px": 25,
+        "bloom": {
+          "seconds_before_beat": 0.125,
+          "seconds_after_beat": 0.125,
+          "luma_threshold_y8": 127,
+          "energy_gamma": 1.55,
+          "halo_sigma_px": 17.4,
+          "strength": 0.9,
+          "mode": "additive luma from source highlights"
+        },
+        "shake_offsets_px": [
+          [
+            -3,
+            2,
+            2
+          ],
+          [
+            -2,
+            -4,
+            0
+          ],
+          [
+            -1,
+            8,
+            -4
+          ],
+          [
+            0,
+            -14,
+            8
+          ],
+          [
+            1,
+            10,
+            4
+          ],
+          [
+            2,
+            -4,
+            -2
+          ],
+          [
+            3,
+            2,
+            0
+          ]
+        ]
+      },
+      {
+        "cut_frame": 304,
+        "outgoing_seconds": 0.25,
+        "incoming_seconds": 0.25,
+        "peak_blur_mix": 0.88,
+        "gaussian_sigma_px": 25,
+        "bloom": {
+          "seconds_before_beat": 0.125,
+          "seconds_after_beat": 0.125,
+          "luma_threshold_y8": 127,
+          "energy_gamma": 1.55,
+          "halo_sigma_px": 17.4,
+          "strength": 0.83,
+          "mode": "additive luma from source highlights"
+        },
+        "shake_offsets_px": [
+          [
+            -3,
+            -2,
+            2
+          ],
+          [
+            -2,
+            4,
+            0
+          ],
+          [
+            -1,
+            -8,
+            -4
+          ],
+          [
+            0,
+            14,
+            8
+          ],
+          [
+            1,
+            -10,
+            4
+          ],
+          [
+            2,
+            4,
+            -2
+          ],
+          [
+            3,
+            -2,
+            0
+          ]
+        ]
+      },
+      {
+        "cut_frame": 364,
+        "outgoing_seconds": 0.25,
+        "incoming_seconds": 0.25,
+        "peak_blur_mix": 0.88,
+        "gaussian_sigma_px": 25,
+        "bloom": {
+          "seconds_before_beat": 0.125,
+          "seconds_after_beat": 0.125,
+          "luma_threshold_y8": 127,
+          "energy_gamma": 1.55,
+          "halo_sigma_px": 17.4,
+          "strength": 1.06,
+          "mode": "additive luma from source highlights"
+        },
+        "shake_offsets_px": [
+          [
+            -3,
+            4,
+            2
+          ],
+          [
+            -2,
+            -6,
+            2
+          ],
+          [
+            -1,
+            12,
+            -6
+          ],
+          [
+            0,
+            -20,
+            12
+          ],
+          [
+            1,
+            14,
+            6
+          ],
+          [
+            2,
+            -6,
+            -4
+          ],
+          [
+            3,
+            2,
+            2
+          ]
+        ]
+      },
+      {
+        "cut_frame": 395,
+        "outgoing_seconds": 0.25,
+        "incoming_seconds": 0.25,
+        "peak_blur_mix": 0.88,
+        "gaussian_sigma_px": 25,
+        "bloom": {
+          "seconds_before_beat": 0.125,
+          "seconds_after_beat": 0.125,
+          "luma_threshold_y8": 127,
+          "energy_gamma": 1.55,
+          "halo_sigma_px": 17.4,
+          "strength": 0.82,
+          "mode": "additive luma from source highlights"
+        },
+        "shake_offsets_px": [
+          [
+            -3,
+            -2,
+            2
+          ],
+          [
+            -2,
+            4,
+            0
+          ],
+          [
+            -1,
+            -8,
+            -4
+          ],
+          [
+            0,
+            14,
+            8
+          ],
+          [
+            1,
+            -10,
+            4
+          ],
+          [
+            2,
+            4,
+            -2
+          ],
+          [
+            3,
+            -2,
+            0
+          ]
+        ]
+      },
+      {
+        "cut_frame": 410,
+        "outgoing_seconds": 0.25,
+        "incoming_seconds": 0.25,
+        "peak_blur_mix": 0.88,
+        "gaussian_sigma_px": 25,
+        "bloom": {
+          "seconds_before_beat": 0.125,
+          "seconds_after_beat": 0.125,
+          "luma_threshold_y8": 127,
+          "energy_gamma": 1.55,
+          "halo_sigma_px": 17.4,
+          "strength": 0.83,
+          "mode": "additive luma from source highlights"
+        },
+        "shake_offsets_px": [
+          [
+            -3,
+            2,
+            2
+          ],
+          [
+            -2,
+            -4,
+            0
+          ],
+          [
+            -1,
+            8,
+            -4
+          ],
+          [
+            0,
+            -14,
+            8
+          ],
+          [
+            1,
+            10,
+            4
+          ],
+          [
+            2,
+            -4,
+            -2
+          ],
+          [
+            3,
+            2,
+            0
+          ]
+        ]
+      },
+      {
+        "cut_frame": 425,
+        "outgoing_seconds": 0.25,
+        "incoming_seconds": 0.25,
+        "peak_blur_mix": 0.88,
+        "gaussian_sigma_px": 25,
+        "bloom": {
+          "seconds_before_beat": 0.125,
+          "seconds_after_beat": 0.125,
+          "luma_threshold_y8": 127,
+          "energy_gamma": 1.55,
+          "halo_sigma_px": 17.4,
+          "strength": 0.9,
+          "mode": "additive luma from source highlights"
+        },
+        "shake_offsets_px": [
+          [
+            -3,
+            -2,
+            2
+          ],
+          [
+            -2,
+            4,
+            0
+          ],
+          [
+            -1,
+            -8,
+            -4
+          ],
+          [
+            0,
+            14,
+            8
+          ],
+          [
+            1,
+            -10,
+            4
+          ],
+          [
+            2,
+            4,
+            -2
+          ],
+          [
+            3,
+            -2,
+            0
+          ]
+        ]
+      }
+    ],
+    "midtone_contrast_multiplier": 1.5,
+    "loop": "Visual callback from the turquoise lake surface to moving reflections in the opening street.",
+    "transition_reference": {
+      "contract_path": "/Users/diplomat/ytvideos/Work/satisfying-runaway-pilot/Edit/EXPORT_CONTRACT_misery_v06.json",
+      "contract_sha256": "9881a54848fc0323ac14577653a55d6bef33cbd57764bc0ccaba7dba8cd6bd49"
+    },
+    "zoom": {
+      "easing": "raised cosine",
+      "start_scale": 1.0,
+      "end_scale": 1.1,
+      "work_raster": [
+        2160,
+        3840
+      ]
+    },
+    "grading": {
+      "v06_relative_midtone_slope": 1.25,
+      "luma_unsharp_amount": 0.25,
+      "luma_unsharp_kernel": [
+        5,
+        5
+      ]
+    },
+    "lyrics": {
+      "words": "/Users/diplomat/ytvideos/Work/satisfying-runaway-pilot/Edit/misery-v08-words.json",
+      "words_sha256": "1b161ba5622fcb790a2b838e36f81f75ce5f616c12aa41301f5eb8668b213540",
+      "overlay": "/Users/diplomat/ytvideos/Work/satisfying-runaway-pilot/Edit/misery-v08-lyric-overlay.mov",
+      "overlay_sha256": "dc6459f02a54b4a7b638555113370dd036b30366d92b7ec67b7cfbe3d9e44707",
+      "plan": "/Users/diplomat/ytvideos/Work/satisfying-runaway-pilot/Edit/misery-v08-lyric-plan.json",
+      "plan_sha256": "a8e961a00dc7bc88b6b8b49a1ffe38920e7a79ee2a2b9f955a13dad9452da17a",
+      "script": "automation/captions/music_lyrics.py",
+      "script_sha256": "0f978a3e2d57a6c1a39d274fc3654c110100af24b502f59b920f610139498e4e"
+    }
+  },
+  "audio": {
+    "track": "pupsies — misery. (original Apple Music preview)",
+    "trim_reference_samples": [
+      387462,
+      1056312
+    ],
+    "start_in_reference_seconds": 8.785986394557822,
+    "marked_low_frequency_transient_peak_reference_s": [
+      10.815,
+      12.836,
+      14.861,
+      16.892,
+      18.907,
+      20.927,
+      21.955,
+      22.464,
+      22.968
+    ],
+    "gain_db": -6.5,
+    "fades_seconds": [
+      0.02,
+      0.1
+    ],
+    "codec": "AAC-LC",
+    "target_bit_rate": 256000,
+    "sample_rate": 44100,
+    "channels": 2,
+    "stream_copy": {
+      "source_path": "/Users/diplomat/ytvideos/Deliverables/Satisfying-Elements/Misery-Elements-v06.mp4",
+      "source_sha256": "8aa85c62a06ed76779006bd8ba3b4b4cf1751f23c77132e2b955d8aee4466577",
+      "streamhash": "0,a,SHA256=99da277744e2753c8d6baba7da376a95d9a68bbdd9f7b819f359514fd6f31943"
+    }
+  },
+  "video": {
+    "container": "MP4",
+    "codec": "H.264 High",
+    "width": 1080,
+    "height": 1920,
+    "sar": "1:1",
+    "fps": "30/1",
+    "frame_count": 455,
+    "range": "tv",
+    "primaries": "bt709",
+    "transfer": "bt709",
+    "matrix": "bt709",
+    "pixel_format": "yuv420p",
+    "crf": 17,
+    "fast_start": true
+  },
+  "chart": {
+    "selection": "User selected exact track and artist from screenshot",
+    "official_track_url": "https://music.apple.com/us/song/6765465347"
+  },
+  "output": "/Users/diplomat/ytvideos/Deliverables/Satisfying-Elements/Misery-Elements-v08.mp4",
+  "argv": [
+    "ffmpeg",
+    "-nostdin",
+    "-n",
+    "-hide_banner",
+    "-v",
+    "error",
+    "-filter_complex_threads",
+    "4",
+    "-i",
+    "/Users/diplomat/ytvideos/Work/satisfying-runaway-pilot/Source/40480214.mp4",
+    "-i",
+    "/Users/diplomat/ytvideos/Work/satisfying-runaway-pilot/Source/32271706.mp4",
+    "-i",
+    "/Users/diplomat/ytvideos/Work/satisfying-runaway-pilot/Source/32509235.mp4",
+    "-i",
+    "/Users/diplomat/ytvideos/Work/satisfying-runaway-pilot/Source/36037810.mp4",
+    "-i",
+    "/Users/diplomat/ytvideos/Work/satisfying-runaway-pilot/Source/8859850.mp4",
+    "-i",
+    "/Users/diplomat/ytvideos/Work/satisfying-runaway-pilot/Source/35734861.mp4",
+    "-i",
+    "/Users/diplomat/ytvideos/Work/satisfying-runaway-pilot/Source/34535413.mp4",
+    "-i",
+    "/Users/diplomat/ytvideos/Work/satisfying-runaway-pilot/Source/6316369.mp4",
+    "-i",
+    "/Users/diplomat/ytvideos/Work/satisfying-runaway-pilot/Source/36974946.mp4",
+    "-i",
+    "/Users/diplomat/ytvideos/Work/satisfying-runaway-pilot/Source/35867202.mp4",
+    "-i",
+    "/Users/diplomat/ytvideos/Deliverables/Satisfying-Elements/Misery-Elements-v06.mp4",
+    "-i",
+    "/Users/diplomat/ytvideos/Work/satisfying-runaway-pilot/Edit/misery-v08-lyric-overlay.mov",
+    "-/filter_complex",
+    "/Users/diplomat/ytvideos/Work/satisfying-runaway-pilot/Edit/render-misery-v08.ffgraph",
+    "-map",
+    "[video]",
+    "-map",
+    "10:a:0",
+    "-r",
+    "30",
+    "-fps_mode",
+    "cfr",
+    "-c:v",
+    "libx264",
+    "-preset",
+    "medium",
+    "-crf",
+    "17",
+    "-profile:v",
+    "high",
+    "-level:v",
+    "4.2",
+    "-pix_fmt",
+    "yuv420p",
+    "-color_range",
+    "tv",
+    "-colorspace",
+    "bt709",
+    "-color_primaries",
+    "bt709",
+    "-color_trc",
+    "bt709",
+    "-c:a",
+    "copy",
+    "-movflags",
+    "+faststart",
+    "-map_metadata",
+    "-1",
+    "-metadata",
+    "title=misery. | Satisfying Shorts Elements v08",
+    "/Users/diplomat/ytvideos/Deliverables/Satisfying-Elements/Misery-Elements-v08.mp4"
+  ]
+}

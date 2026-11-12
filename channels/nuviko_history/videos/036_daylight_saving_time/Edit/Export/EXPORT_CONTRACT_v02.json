@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "status": "READY_TO_RENDER",
+  "episode": "036_daylight_saving_time",
+  "channel": "Nuviko History",
+  "language": "en",
+  "format": "short",
+  "purpose": "user-review MP4; not yet editorially accepted",
+  "settings_profile": {
+    "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/profiles/nuviko.json",
+    "sha256": "bd6dbebb771828acf54d6b005d0be61e304498b585e4a7c5529ae509554a95b0"
+  },
+  "edit": {
+    "project_id": null,
+    "timeline_id": null,
+    "saved_revision_evidence": "FFmpeg manifest /Users/diplomat/ytvideos/channels/nuviko_history/videos/036_daylight_saving_time/Work/prod-ffmpeg-en-v02/ffmpeg_manifest_v02.json; sha256 ebffc0d72f727356334b18bbbe1303bd3a22fcf47cb427cab1335912f760fd73",
+    "timeline_read_path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/036_daylight_saving_time/Edit/shot_map_v02.json",
+    "timeline_read_sha256": "5637e257c353d163d37e37f7b915b0ffcca68d2cc4a079b8984a0a906e2068e1",
+    "dependencies": [
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/036_daylight_saving_time/Source/Voice/en_v02/voice_en.mp3",
+        "sha256": "9162ced885fd6872abd7449fda8c8e32c298b1dff23c6c5882d5e4ac949edb0d",
+        "role": "accepted voice-only narration source"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/036_daylight_saving_time/Source/Voice/en_v02/voice_en.alignment.json",
+        "sha256": "d432b3d9f44c1a9959a6851dc04be075a5c67b2416ed8f697908bb3e009f3d61",
+        "role": "provider timing alignment; audible sync not verified"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/036_daylight_saving_time/Edit/shot_map_v02.json",
+        "sha256": "5637e257c353d163d37e37f7b915b0ffcca68d2cc4a079b8984a0a906e2068e1",
+        "role": "accepted image order and whole-frame motion plan"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/036_daylight_saving_time/Work/prod-ffmpeg-en-v02/ffmpeg_manifest_v02.json",
+        "sha256": "ebffc0d72f727356334b18bbbe1303bd3a22fcf47cb427cab1335912f760fd73",
+        "role": "FFmpeg montage input plan"
+      }
+    ]
+  },
+  "timeline": {
+    "width": 1440,
+    "height": 2560,
+    "aspect_ratio": "9:16",
+    "sample_aspect_ratio": "1:1",
+    "fps": "30/1",
+    "frame_count": 2107,
+    "duration_seconds": 70.23333333333333,
+    "output_color_space": "BT.709 limited range"
+  },
+  "required_delivery": {
+    "container": "MP4",
+    "video": {
+      "codec_name": "h264",
+      "pix_fmt": "yuv420p",
+      "scan": "progressive",
+      "cadence": "constant 30 fps",
+      "color_primaries": "bt709",
+      "color_transfer": "bt709",
+      "color_space": "bt709",
+      "color_range": "tv"
+    },
+    "audio_contract": {
+      "owner_handoff": "Nuviko short voice-only delivery profile; exact v02 recording retained as the narration track",
+      "accepted_complete_mix": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/036_daylight_saving_time/Source/Voice/en_v02/voice_en.mp3",
+      "source_rate_channels": "44100 Hz, mono, MP3 128 kb/s source",
+      "codec_name": "aac",
+      "profile": "AAC-LC (FFmpeg native AAC encoder default)",
+      "sample_rate": 44100,
+      "channels": 1,
+      "target_bit_rate": 192000
+    }
+  },
+  "encoding": {
+    "engine": "FFmpeg 8.1.2, libx264",
+    "version_evidence": "ffmpeg -version reports 8.1.2; local encoder listing contains libx264 and h264_videotoolbox",
+    "requested_arguments": {
+      "manifest": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/036_daylight_saving_time/Work/prod-ffmpeg-en-v02/ffmpeg_manifest_v02.json",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/036_daylight_saving_time/Work/prod-ffmpeg-en-v02/previews/NUVIKO_036_DAYLIGHT_SAVING_TIME_EN_v02.mp4",
+      "work_dir": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/036_daylight_saving_time/Work/prod-ffmpeg-en-v02/renderer_v02",
+      "encoder": "libx264",
+      "video_bitrate": "12M",
+      "fps": "30",
+      "canvas": "1440x2560",
+      "pix_fmt": "yuv420p",
+      "color_tags": "BT.709 limited",
+      "audio": "AAC 192 kb/s from 44.1 kHz mono MP3"
+    },
+    "quality_preferences": {
+      "video_target_bitrate": "12 Mbps",
+      "whole_frame_motion": "horizontal pan and/or zoom; no depth/parallax",
+      "source_upscale": "941x1672 to 1440x2560 (1.53x linear upscale)"
+    },
+    "capability_evidence": "Montage --plan-only PASS at /Users/diplomat/ytvideos/channels/nuviko_history/videos/036_daylight_saving_time/Work/prod-ffmpeg-en-v02/scratch/renderer_plan_v02/plan.json; installed FFmpeg encoder listing confirms libx264.",
+    "engine_managed_fields": [
+      "libx264 preset/profile/level default",
+      "AAC profile and exact packet parameters",
+      "container interleaving and fast-start flags"
+    ]
+  },
+  "preflight": {
+    "author": "Codex",
+    "time": "2026-11-03T17:18:55+00:00",
+    "authorization_references": [
+      "User accepted Nuviko 036 daylight-saving-time story and explicitly requested voiceover and finished MP4 in this conversation."
+    ],
+    "fresh_settings_evidence": {
+      "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/profiles/nuviko.json",
+      "sha256": "bd6dbebb771828acf54d6b005d0be61e304498b585e4a7c5529ae509554a95b0"
+    },
+    "writer_and_export_state": "FFmpeg renderer selected; manifest and timeline plan validated; new output path selected; no overwrite requested.",
+    "output_path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/036_daylight_saving_time/Work/prod-ffmpeg-en-v02/previews/NUVIKO_036_DAYLIGHT_SAVING_TIME_EN_v02.mp4",
+    "overwrite": false,
+    "media_lifecycle_receipt": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/036_daylight_saving_time/Work/prod-ffmpeg-en-v02/manifest.json",
+    "unresolved_required_fields": [],
+    "known_open_items": [
+      "Provider word alignment is not audibly verified; caption and SRT playback sync remains unverified.",
+      "Input scenes are 941x1672 and will be upscaled to 1440x2560."
+    ]
+  },
+  "render_receipt": null,
+  "qa_receipt": null
+}

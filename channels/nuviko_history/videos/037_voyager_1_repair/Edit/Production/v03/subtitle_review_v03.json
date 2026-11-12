@@ -1,0 +1,26 @@
+{
+  "subtitle_contract_sha256": "ccdaf560adddd4df030251e22de7e73c265115b43f859684d467e0a0af837f19",
+  "checks": {
+    "semantic_grouping": {
+      "status": "PASS",
+      "reviewer": "Coordinator, not independent",
+      "method": "Read all 153 saved phrase groups; exact transcript sequence and renderer semantic validation; three measured forced-width exceptions personally consulted.",
+      "coverage": "153 groups / 545 tokens",
+      "evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Research/CONSULTATION_CAPTION_BOUNDARIES_v01.md"
+    },
+    "audible_sync": {
+      "status": "UNVERIFIED",
+      "reviewer": "Coordinator",
+      "method": "Local forced alignment compared to provider duration-corrected character map only; no human listening performed.",
+      "coverage": "544 spoken words machine comparison: median absolute start delta 35 ms, p95 201.85 ms, max 521 ms; punctuation dash excluded.",
+      "evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Edit/Production/v02/word_times_mix_v02.json"
+    },
+    "visual_placement": {
+      "status": "UNVERIFIED",
+      "reviewer": "",
+      "method": "No v03 captioned composites individually reviewed; old v02 evidence does not transfer to new images.",
+      "coverage": "0/44 v03 caption composites visually reviewed.",
+      "evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Edit/Production/v03/contact_v03.jpg"
+    }
+  }
+}

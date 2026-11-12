@@ -1,0 +1,8 @@
+# TWL E003 v02 review
+
+Master: `Deliverables/TWL_E003_review_v02.mp4`; SHA-256 `2905ec8321eb23828bee7d6f83a3741b5f2284d995d4179fcc3507e38e667637`. User acceptance pending.
+
+- Full FFmpeg decode passed. ffprobe: 1080x1920, 30 fps, H.264/yuv420p, Rec.709, stereo AAC 24 kHz, 43.567 s.
+- Exact final render contact sheet `contact_v02.jpg` inspected at opening, transitions, story states, results and final frame. The same hallway and door geometry remain, six items are shown at the start and basket states show six, four and two; person appears complete. The 120 METERS and 60 METERS graphics read correctly at sampled frames; no clipping observed there. All non-caption lettering comes from separately generated images; exact sources and hashes in image manifest.
+- Narration is Mike `zfc8CJQpe8Kqyl0vvCzo`, ElevenLabs `eleven_v4`, speed 1.1 at synthesis, one request. Local Whisper transcription of v01 voice covered the complete narration; v02 uses the same take with silence edits. The final v02 voice yielded no FFmpeg `silencedetect=-40dB:d=0.25` intervals. This threshold is an estimate, not proof of perceptual pause length or naturalness. Secondary normalized-signal silence cleanup is implemented in build_audio_v02.py and was mapped to word times; synthetic original E001 music reused, source rights described in E001 audio evidence.
+- Separate SRT structure and literal text coverage passed automated checks; timestamps derive from provider alignment and transformed cuts. Playback/timing and subjective listening were not verified. First/last image match; speech seam was prepared in one utterance and rotated, but audible seamlessness remains unverified. This is not independent review.

@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "status": "RENDERED_PENDING_QA",
+  "episode": "032 Galveston",
+  "language": "en",
+  "purpose": "G08 technical comparison from existing accepted church art; new editorial block pending consultation exception",
+  "profile": {
+    "path": "/Users/diplomat/ytvideos/.agents/skills/ytv-video-export/references/paper-detour.md",
+    "sha256": "ab2ea5f41ea8fb284cd681c8873093bc547a587c6cbc9d279a8e8f7832879861"
+  },
+  "edit": {
+    "project_id": "25533909",
+    "baseline_timeline_id": "E16F5CD2",
+    "target_timeline_id": "9A627C98",
+    "frame_count": 668,
+    "fps": "30/1",
+    "width": 2560,
+    "height": 1440,
+    "outputColorSpace": "rec709",
+    "saved_timeline_receipt": "motion_target_pre_export.json",
+    "saved_timeline_sha256": "21199206ca1f3df685f0650f8c310c5cdc77b0e9e84e973a9cf68d803aaad889"
+  },
+  "required": {
+    "container": "mp4",
+    "video_codec": "h264",
+    "pixel_format": "yuv420p",
+    "sar": "1:1",
+    "progressive": true,
+    "color_primaries": "bt709",
+    "color_transfer": "bt709",
+    "color_matrix": "bt709",
+    "color_range": "tv",
+    "audio_codec": "aac",
+    "audio_profile": "LC",
+    "audio_sample_rate": 48000,
+    "audio_channels": 2
+  },
+  "audio": {
+    "source": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/017_galveston_1900/Source/Voice/odom_5vsg/film/voice_en_105.wav",
+    "sha256": "ddfe274d2a67c1250053192a0ef3b28f41cdd49e3120404a0fa9f8700ce5cd52",
+    "source_rate": 44100,
+    "source_channels": 1,
+    "source_start_seconds": 472.43333333333334,
+    "duration_seconds": 22.266666666666666,
+    "speed_in_editor": 1,
+    "already_applied_source_speed": 1.05,
+    "gain_db": 0,
+    "fades": null,
+    "music": null,
+    "sfx": null,
+    "mapping": "source mono duplicated identically into L/R; no spatial widening or gain boost",
+    "target_bitrate": 384000
+  },
+  "grain": {
+    "preset": "g08",
+    "rms_y_codes": 3,
+    "sigma_at_1440p": 0.77,
+    "rho": 0.35,
+    "order": "depth -> camera -> screen-space grain; captions separate"
+  },
+  "engine": {
+    "native_export": {
+      "projectId": "25533909",
+      "timelineId": "9A627C98",
+      "mode": "video",
+      "codec": "H.264",
+      "resolution": "Match Timeline",
+      "outputPath": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Work/church-demo-v01/previews/native_technical.mp4",
+      "overwrite": false
+    },
+    "rate_control": "AUTO_ENGINE_MANAGED",
+    "aac_controls": "AUTO_ENGINE_MANAGED",
+    "fallback": "If native audio mismatches, stream-copy accepted video and encode excerpt directly from original WAV to AAC-LC48k dual-mono384k; do not transcode native AAC"
+  },
+  "srt": {
+    "status": "NOT_REQUESTED",
+    "reason": "scoped 22-second technical comparison, not full film delivery"
+  },
+  "authorization": "User requested church demonstration and G08; narration retained. New creative staging pending explicit Extra High exception.",
+  "preflight": {
+    "author": "codex-galveston-church",
+    "readback": "PASS",
+    "original_full_timeline_tracks_unchanged": true,
+    "live_project_exports": "no active conflict",
+    "storage_audit": "../MediaLifecycle/audit-church-demo-v01/audit.json",
+    "date": "2026-11-02"
+  },
+  "rendered": {
+    "native_file": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Work/church-demo-v01/previews/native_technical.mp4",
+    "delivered_candidate": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Work/church-demo-v01/previews/032_church_g08_technical_v01.mp4",
+    "jobId": "18B054AB-F7BC-4DBF-9C48-DC76E57D57DD",
+    "native_status": "completed",
+    "discrepancy": "Native AAC44100mono64936bps does not meet delivery audio target; source-WAV excerpt encoded directly to48k dual-mono384k with video stream copy."
+  }
+}

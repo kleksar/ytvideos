@@ -1,0 +1,8 @@
+# TWL_E001 v10 - review draft
+
+MP4 SHA-256 `079b8482f9b36fc6f694dcb85022c5b0785322bab80c759516ae1b51726dd11e`. NOT an accepted final: user requested a rewritten story and a natural loop, while expressly retaining the old narration.
+
+- The audio comes from the v03 mix, identical through the first 28.2 seconds, trimmed after the complete conclusion to remove the rejected incomplete last phrase. A short fade is applied only at the end. Original voice and story wording remain; no replacement voice was generated. Exact source and trim: ../../Source/Audio/v04/mix-evidence.md.
+- Two generated images highlight the modeled result at the corresponding spoken result, and a third highlights the two factors behind the reversal. Source/hash/prompt: ../lettering_manifest_v10.json and ../lettering_manifest_v08.json. Full storyboard and new narration draft: ../../EPISODE.md. The new narration is NOT what this edit says.
+- Ending and beginning form a thematic reset between two complete sentences. This does not satisfy the project definition of a continuous spoken loop. The requested natural loop and subjective speech quality are UNVERIFIED; audio was not perceptually auditioned. The visual edit is a stopgap, not a finished story rewrite.
+- Full FFmpeg decode succeeded; stream details in ffprobe_v10.json. Nine 270x480 frames sampled in v10_sheet.jpg; result labels correspond to the spoken results in these samples. Not every frame, physical mobile playback, independent review, or exact loop playback was checked. Subtitle format is unchanged; final rejected phrase removed from SRT and on-screen captions.

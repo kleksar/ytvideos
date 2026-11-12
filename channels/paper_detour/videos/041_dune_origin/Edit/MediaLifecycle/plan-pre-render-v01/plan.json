@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "kind": "plan",
+  "created_utc": "2026-11-03T14:02:19.562753+00:00",
+  "audit": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Edit/MediaLifecycle/audit-pre-render-v01/audit.json",
+  "audit_sha256": "55120a38846cf5fae0b308109031e0d8c1f65db135ec858af26315e58be432e1",
+  "episode": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin",
+  "executable": false,
+  "deletion_implemented": false,
+  "stale_inputs": [],
+  "entries": [],
+  "review_candidate_logical_bytes": 0,
+  "blocked_logical_bytes": 0,
+  "physical_reclaimable_bytes": null,
+  "missing_declared_candidates": [],
+  "limitations": [
+    "No deletion implementation or permission. No writer absence proof.",
+    "All found imports protected, including retained timelines; unlisted/inaccessible projects and external consumers remain unknown.",
+    "Text scan is heuristic and cannot prove absence of dependencies. Source hashes/QA are evidence, not user acceptance.",
+    "APFS CoW and snapshots prevent inferring physical reclaim from logical or allocated sums."
+  ],
+  "errors": []
+}

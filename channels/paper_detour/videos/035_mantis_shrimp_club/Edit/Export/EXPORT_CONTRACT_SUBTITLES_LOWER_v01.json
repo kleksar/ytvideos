@@ -1,0 +1,12 @@
+{
+  "purpose": "local subtitle style review only",
+  "source": "Deliverables/035_mantis_shrimp_evolution_en_v01.mp4",
+  "source_sha256": "b693be4bf26d33ad609ee7edd6668aee2b4de59e7c3ebba124e00f988c2b0e23",
+  "edit_binding": "previous accepted rendered edit; FFmpeg overlay, no Palmier timeline mutation",
+  "output": "Work/subtitles-shorts-review-v04/previews/035_subtitles_lower_single_line.mp4",
+  "video": "1080x1920, 30 fps, 1325 frames, H.264 yuv420p Rec.709 limited; CRF18 preview",
+  "audio": "source AAC remuxed after video encoding; packet hash matches source",
+  "limitations": "second lossy encode for review; timing derived from automatic alignment; user screenshot is one UI configuration, not a universal safe-zone guarantee",
+  "subtitle_area": "overlay x=115..965, y=1420..1610; screenshot-based estimate",
+  "subtitle_groups": "one line, maximum three words; font is reduced where width requires"
+}

@@ -1,0 +1,54 @@
+{
+  "state": "applied_verified",
+  "timestamp_utc": "2026-11-03T20:46:54.855886+00:00",
+  "operation": "videos.update",
+  "part": "status",
+  "channel_id": "UCbyLx6Rf3iWww4bPZJ2oo2A",
+  "video_id": "5v6exl0iQJE",
+  "title": "Why England Tried to Hold Down Wages After the Plague",
+  "url": "https://www.youtube.com/shorts/5v6exl0iQJE",
+  "after": {
+    "etag": "m-F_PugOoafN7vP0ue0haDO44Tg",
+    "status": {
+      "uploadStatus": "processed",
+      "privacyStatus": "public",
+      "license": "youtube",
+      "embeddable": true,
+      "publicStatsViewable": true,
+      "madeForKids": false,
+      "selfDeclaredMadeForKids": false
+    },
+    "processing": "succeeded"
+  },
+  "changed_fields": [
+    "status.privacyStatus"
+  ],
+  "preserved_fields": [
+    "status.embeddable",
+    "status.license",
+    "status.publicStatsViewable",
+    "status.selfDeclaredMadeForKids",
+    "status.containsSyntheticMedia (submitted true; not returned by API)"
+  ],
+  "upload_mp4_sha256": "b63dbe5c84af821055a6e6c6bb5919485d782693a8be4382d2a2e967b2e741b2",
+  "first_postwrite_readback": "did not confirm expected result; no second write sent",
+  "reconciliation": "subsequent read-only Data API read confirmed Public and processing succeeded",
+  "visual_check": "not performed",
+  "cleanup_gate": "fresh Public and succeeded processing confirmed",
+  "dynamic_release_check": {
+    "checked_on": "2026-11-03",
+    "youtube_data_api_uploads_checked": 6,
+    "future_publish_at_entries": 0,
+    "studio_community_posts_tab": {
+      "url": "https://studio.youtube.com/channel/UCbyLx6Rf3iWww4bPZJ2oo2A/content/posts",
+      "visible_rows": 0,
+      "state": "first-post prompt; no scheduled or published posts visible"
+    },
+    "execution": "immediate Public was explicitly requested"
+  },
+  "visual_verification": {
+    "surface": "https://www.youtube.com/shorts/5v6exl0iQJE",
+    "observed": "The public Short page loaded with the expected title and YouTube player.",
+    "playback_review": "not performed"
+  }
+}

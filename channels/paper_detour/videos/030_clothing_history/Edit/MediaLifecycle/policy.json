@@ -1,0 +1,85 @@
+{
+  "version": 1,
+  "scope": "030 storage migration authorized by user for nonimported legacy v07-v10 media; comparison pins preserved at new locations; current/grain/compliance scopes retained. Read-only audit/plan never authorizes deletion.",
+  "palmier_projects": [
+    "/Users/diplomat/Documents/Palmier Pro/Paper Detour 030 Clothing History v04 20261102.palmier"
+  ],
+  "current": [
+    {
+      "path": "Deliverables/PAPER_DETOUR_030_CLOTHING_HISTORY_EN_v13.mp4",
+      "reason": "Retained existing Full HD format; current primary delivery is v14 2K. Original accepted edit and historical receipts retained.",
+      "evidence": [
+        "Edit/v13/QA/REPORT.json",
+        "Edit/v13/POST_EDIT.json",
+        "Edit/ComplianceAudit_20261102/REPORT.json"
+      ]
+    },
+    {
+      "path": "Edit/Grain_Test_20261102_v03",
+      "reason": "Current technically checked private Test03; final grain choice awaits user review. This is a preview, separate from v13 delivery.",
+      "evidence": [
+        "Edit/Grain_Test_20261102_v03/local_qa.json",
+        "Edit/Grain_Test_20261102_v03/youtube_receipt.json"
+      ]
+    },
+    {
+      "path": "Deliverables/PAPER_DETOUR_030_CLOTHING_HISTORY_EN_v14.mp4",
+      "reason": "Current primary2K EN full film; requiredofflineQA PASS; subjective listening UNVERIFIED",
+      "evidence": [
+        "Edit/v14/DELIVERY_VERIFIED.json",
+        "Edit/v14/QA/REPORT.json"
+      ]
+    },
+    {
+      "path": "Deliverables/PAPER_DETOUR_030_CLOTHING_HISTORY_EN_v14.srt",
+      "reason": "Current separate92cueENsidecar; full text/conform/offlineframechecksPASS",
+      "evidence": [
+        "Edit/v14/QA/SRT_VERIFIED.json"
+      ]
+    }
+  ],
+  "pins": [
+    {
+      "path": "Work/legacy-storage-20261102/previews/legacy/Edit/v09/PAPER_DETOUR_030_GRAIN_25_BASELINE_EN_v09.mp4",
+      "reason": "Внутренний hold: сравнительная или native-диагностическая версия; закрывающее решение о ненужности не подтверждено этим аудитом."
+    },
+    {
+      "path": "Edit/Previews/PAPER_DETOUR_030_PARALLAX_15_SCENES_NO_GRAIN_PRIVATE_REVIEW_20261102.mp4",
+      "reason": "Active grain Test03 input, exact same accepted 15-second excerpt. Preserve for deterministic rerender.",
+      "evidence": [
+        "Edit/Grain_Test_20261102_v03/preset.json"
+      ]
+    },
+    {
+      "path": "Edit/Grain_Test_20261102_v02",
+      "reason": "Grain Test02 comparison retained during user-requested Test03 review.",
+      "evidence": [
+        "Edit/Grain_Test_20261102_v03/REVIEW.md"
+      ]
+    },
+    {
+      "path": "Edit/Grain_Test_20261102_v03",
+      "reason": "Active user-requested grain Test03 render and private YouTube review.",
+      "evidence": [
+        "Edit/Grain_Test_20261102_v03/preset.json"
+      ]
+    },
+    {
+      "path": "Edit/v13/QA",
+      "reason": "Retain actual final/rejected-frame evidence and hashes",
+      "evidence": [
+        "Edit/v13/QA/REPORT.json"
+      ]
+    },
+    {
+      "path": "Edit/ComplianceAudit_20261102",
+      "reason": "Completed compliance audit evidence; known open production findings retained",
+      "evidence": [
+        "Edit/ComplianceAudit_20261102/REPORT.json"
+      ]
+    }
+  ],
+  "active_work": [],
+  "candidates": [],
+  "completed_storage_migration": "Edit/MediaLifecycle/migration-20261102/cleanup-receipt.json"
+}

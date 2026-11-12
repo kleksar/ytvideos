@@ -1,0 +1,2835 @@
+{
+  "version": "nuviko_black_death_visual_score_v02",
+  "status": "DRAFT_PRODUCTION_MAP_REQUIRES_SCENE_IMAGE_GENERATION_AND_REVIEW",
+  "episode": "009_black_death",
+  "duration_seconds": 707.465578,
+  "fps": 30,
+  "total_frames": 21224,
+  "planned_unique_compositions": 118,
+  "duration_rule_frames_inclusive": [
+    120,
+    180
+  ],
+  "duration_rule": "Every unique source composition appears for 120–180 frames inclusive. For this edit, 118 shots cover all 21,224 frames at 179 or 180 frames each; no crop or motion reset counts as a new composition.",
+  "subtitles": "Use accepted Nuviko one-line continuous karaoke profile and cue map; subtitle layer is screen-space after scene motion.",
+  "motion": "Whole-image depth parallax before camera animation, then grain; screen text is composited after the image-motion render. Parameters require a clean low-amplitude pilot before full run.",
+  "sections": [
+    {
+      "id": "coins_and_cemetery",
+      "anchor": "At a plague cemetery in London",
+      "visual_intent": "Modern archaeological trench, careful recording of medieval coins and a grave near the Tower; distinguish the present excavation from the fourteenth-century event."
+    },
+    {
+      "id": "burial_and_decisions",
+      "anchor": "The cemetery was established near the Tower of London",
+      "visual_intent": "Medieval London in 1348–49: limited burial space, streets, household decisions, food and work continuing under fear."
+    },
+    {
+      "id": "trade_network",
+      "anchor": "Medieval Europe was not a collection of isolated villages",
+      "visual_intent": "Historically grounded ports, roads, cargo, grain, cloth, metal and ordinary travelers linking towns; avoid a single literal disease path."
+    },
+    {
+      "id": "pandemic_spread",
+      "anchor": "By the end of thirteen forty-seven",
+      "visual_intent": "Mediterranean port traffic and separate regions experiencing outbreaks at different times; no invented precise route."
+    },
+    {
+      "id": "city_supply",
+      "anchor": "Behind every point on the map",
+      "visual_intent": "A city gate and a food delivery problem: a guarded entrance cannot supply grain by itself."
+    },
+    {
+      "id": "symptoms_and_beliefs",
+      "anchor": "For someone who fell ill",
+      "visual_intent": "A household with a feverish person; historical interpretations shown as period beliefs, without diagnosing a specific victim."
+    },
+    {
+      "id": "pathogen_and_transmission",
+      "anchor": "The cause was a bacterium",
+      "visual_intent": "Naturalistic explanatory visuals of fleas, small mammals and close contact, only where narration names each route; avoid a single rat explaining the pandemic."
+    },
+    {
+      "id": "florence_choices",
+      "anchor": "When the sick person was a stranger",
+      "visual_intent": "Fourteenth-century Florence domestic spaces and street life reflecting isolation, moderation, tavern-going and departure as alternatives, not a universal census."
+    },
+    {
+      "id": "care_and_abandonment",
+      "anchor": "Particularly painful are the passages",
+      "visual_intent": "A household threshold, water or bread being carried to a sick person, and the difficulty of leaving; no identifiable reenactment of a documented individual."
+    },
+    {
+      "id": "east_smithfield_order",
+      "anchor": "And when we return to the London burials",
+      "visual_intent": "East Smithfield cemetery: individual graves and trench burials arranged in rows; respectful archaeological reconstruction, no careless dumping."
+    },
+    {
+      "id": "persecution",
+      "anchor": "At the same time, fear could lead",
+      "visual_intent": "Anti-Jewish accusations, exclusion and violence shown without spectacle; identify victims as people and do not depict false accusations as fact."
+    },
+    {
+      "id": "labor_consequences",
+      "anchor": "By the early thirteen fifties",
+      "visual_intent": "Fields and workshops short of workers; bargaining and movement constrained by owners and authorities."
+    },
+    {
+      "id": "labor_law",
+      "anchor": "In England, the response included",
+      "visual_intent": "A 1349 ordinance and 1351 Statute of Labourers represented through a period document and workers at a manor/workshop; no fabricated readable text."
+    },
+    {
+      "id": "dubrovnik_trade",
+      "anchor": "Ways of protecting a city from another outbreak also changed",
+      "visual_intent": "Late-fourteenth-century Ragusa/Dubrovnik as an Adriatic trading port; arriving people and goods separated beyond the city while trade continues."
+    },
+    {
+      "id": "isolation_supplies",
+      "anchor": "The wait itself was a severe ordeal",
+      "visual_intent": "A modest temporary isolation place, supplies carried from outside and controlled visits; do not portray the seventeenth-century Lazareti as already built in 1377."
+    },
+    {
+      "id": "quarantine",
+      "anchor": "Later, a forty-day period became widespread",
+      "visual_intent": "A measured passage of time and guarded threshold; 1377 order is thirty days, later forty-day practice gives the word quarantine."
+    },
+    {
+      "id": "london_genetics",
+      "anchor": "Now let us return to London",
+      "visual_intent": "Modern laboratory examination of ancient remains and a carefully abstract DNA detail tied back to the London burial."
+    },
+    {
+      "id": "chuy_valley",
+      "anchor": "Later, another important trace was found",
+      "visual_intent": "Chüy Valley in present-day Kyrgyzstan: marked medieval gravestones from 1338–39 and a careful excavation, no claim of identifying a first patient."
+    },
+    {
+      "id": "conclusion",
+      "anchor": "To understand how people lived through the disaster",
+      "visual_intent": "Return to London cemetery rows, the woman’s coins and unnamed workers; close on the work that continued, not a speculative portrait of her motive."
+    }
+  ],
+  "shots": [
+    {
+      "shot_id": "S001",
+      "frames": [
+        0,
+        179
+      ],
+      "duration_frames": 179,
+      "duration_seconds": 5.966667,
+      "time_seconds": [
+        0.0,
+        5.966667
+      ],
+      "narration_excerpt": "At a plague cemetery in London, archaeologists found one hundred and eighty-one coins. They lay in the grave",
+      "section": "coins_and_cemetery",
+      "section_anchor": "At a plague cemetery in London",
+      "visual_intent": "Modern archaeological trench, careful recording of medieval coins and a grave near the Tower; distinguish the present excavation from the fourteenth-century event.",
+      "composition_type": "wide establishing",
+      "traveler_direction": "One upright traveler at right; no other people; no lying or crouching figure; left foreground open.",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene001_london_excavation_v02.png"
+    },
+    {
+      "shot_id": "S002",
+      "frames": [
+        179,
+        359
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        5.966667,
+        11.966667
+      ],
+      "narration_excerpt": "grave of a woman who died during the epidemic. We do not know why the money remained with her. Perhaps people feared",
+      "section": "coins_and_cemetery",
+      "section_anchor": "At a plague cemetery in London",
+      "visual_intent": "Modern archaeological trench, careful recording of medieval coins and a grave near the Tower; distinguish the present excavation from the fourteenth-century event.",
+      "composition_type": "medium action",
+      "traveler_direction": "No traveler; archaeology detail is the subject.",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene002_coins_detail.png"
+    },
+    {
+      "shot_id": "S003",
+      "frames": [
+        359,
+        539
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        11.966667,
+        17.966667
+      ],
+      "narration_excerpt": "feared infection if they removed the dead woman's clothing. But the same cemetery holds another important detail. Even",
+      "section": "coins_and_cemetery",
+      "section_anchor": "At a plague cemetery in London",
+      "visual_intent": "Modern archaeological trench, careful recording of medieval coins and a grave near the Tower; distinguish the present excavation from the fourteenth-century event.",
+      "composition_type": "over-the-shoulder observation",
+      "traveler_direction": "Traveler stands upright at artifact table; no one lying/crouching and no body shown.",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene003_coin_mystery.png"
+    },
+    {
+      "shot_id": "S004",
+      "frames": [
+        539,
+        719
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        17.966667,
+        23.966667
+      ],
+      "narration_excerpt": "Even in the communal graves, bodies were carefully laid out in rows. Fear did not bring all essential work",
+      "section": "coins_and_cemetery",
+      "section_anchor": "At a plague cemetery in London",
+      "visual_intent": "Modern archaeological trench, careful recording of medieval coins and a grave near the Tower; distinguish the present excavation from the fourteenth-century event.",
+      "composition_type": "close detail",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene004_ordered_burials.png"
+    },
+    {
+      "shot_id": "S005",
+      "frames": [
+        719,
+        899
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        23.966667,
+        29.966667
+      ],
+      "narration_excerpt": "work to a stop. Someone continued to do it. The cemetery was established near the Tower of London when plague",
+      "section": "coins_and_cemetery",
+      "section_anchor": "At a plague cemetery in London",
+      "visual_intent": "Modern archaeological trench, careful recording of medieval coins and a grave near the Tower; distinguish the present excavation from the fourteenth-century event.",
+      "composition_type": "high-angle spatial view",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene005_work_continues.png"
+    },
+    {
+      "shot_id": "S006",
+      "frames": [
+        899,
+        1079
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        29.966667,
+        35.966667
+      ],
+      "narration_excerpt": "plague reached the city in late thirteen forty-eight. Ordinary burial grounds were running out of space. People did not",
+      "section": "burial_and_decisions",
+      "section_anchor": "The cemetery was established near the Tower of London",
+      "visual_intent": "Medieval London in 1348–49: limited burial space, streets, household decisions, food and work continuing under fear.",
+      "composition_type": "ground-level perspective",
+      "traveler_direction": "Omit the traveler in this establishing view.",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene006_london_cemetery.png"
+    },
+    {
+      "shot_id": "S007",
+      "frames": [
+        1079,
+        1259
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        35.966667,
+        41.966667
+      ],
+      "narration_excerpt": "not know what caused the disease. They had to decide whether to open the door to a neighbor, care for a sick relative, or",
+      "section": "burial_and_decisions",
+      "section_anchor": "The cemetery was established near the Tower of London",
+      "visual_intent": "Medieval London in 1348–49: limited burial space, streets, household decisions, food and work continuing under fear.",
+      "composition_type": "environmental portrait",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene007_household_choice.png"
+    },
+    {
+      "shot_id": "S008",
+      "frames": [
+        1259,
+        1438
+      ],
+      "duration_frames": 179,
+      "duration_seconds": 5.966667,
+      "time_seconds": [
+        41.966667,
+        47.933333
+      ],
+      "narration_excerpt": "or go to market. Lives depended on those decisions. But people often had no reliable way to tell which",
+      "section": "burial_and_decisions",
+      "section_anchor": "The cemetery was established near the Tower of London",
+      "visual_intent": "Medieval London in 1348–49: limited burial space, streets, household decisions, food and work continuing under fear.",
+      "composition_type": "hands and objects",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene008_market_choice.png"
+    },
+    {
+      "shot_id": "S009",
+      "frames": [
+        1438,
+        1618
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        47.933333,
+        53.933333
+      ],
+      "narration_excerpt": "which choice was right. How do you protect yourself from a danger you cannot recognize? And how do you preserve a city when",
+      "section": "burial_and_decisions",
+      "section_anchor": "The cemetery was established near the Tower of London",
+      "visual_intent": "Medieval London in 1348–49: limited burial space, streets, household decisions, food and work continuing under fear.",
+      "composition_type": "long-lens street view",
+      "traveler_direction": "include the selected traveler as an upright restrained illustrated observer; position him at whatever depth best serves this composition",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene009_city_gate_supply.png"
+    },
+    {
+      "shot_id": "S010",
+      "frames": [
+        1618,
+        1798
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        53.933333,
+        59.933333
+      ],
+      "narration_excerpt": "when everyone is afraid to come close to another person? Medieval Europe was not a collection of isolated villages.",
+      "section": "burial_and_decisions",
+      "section_anchor": "The cemetery was established near the Tower of London",
+      "visual_intent": "Medieval London in 1348–49: limited burial space, streets, household decisions, food and work continuing under fear.",
+      "composition_type": "deep foreground-to-background composition",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene010_trade_network.png"
+    },
+    {
+      "shot_id": "S011",
+      "frames": [
+        1798,
+        1978
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        59.933333,
+        65.933333
+      ],
+      "narration_excerpt": "villages. Cities needed grain, cloth, and metal. Ships sailed between ports, merchants carried goods",
+      "section": "trade_network",
+      "section_anchor": "Medieval Europe was not a collection of isolated villages",
+      "visual_intent": "Historically grounded ports, roads, cargo, grain, cloth, metal and ordinary travelers linking towns; avoid a single literal disease path.",
+      "composition_type": "wide establishing",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene011_port_goods.png"
+    },
+    {
+      "shot_id": "S012",
+      "frames": [
+        1978,
+        2158
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        65.933333,
+        71.933333
+      ],
+      "narration_excerpt": "goods across borders, and people traveled for work and returned home. This network made life possible even in places",
+      "section": "trade_network",
+      "section_anchor": "Medieval Europe was not a collection of isolated villages",
+      "visual_intent": "Historically grounded ports, roads, cargo, grain, cloth, metal and ordinary travelers linking towns; avoid a single literal disease path.",
+      "composition_type": "medium action",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene012_return_route.png"
+    },
+    {
+      "shot_id": "S013",
+      "frames": [
+        2158,
+        2338
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        71.933333,
+        77.933333
+      ],
+      "narration_excerpt": "places that could not produce everything they needed. It also created routes for infection. Animals and parasites",
+      "section": "trade_network",
+      "section_anchor": "Medieval Europe was not a collection of isolated villages",
+      "visual_intent": "Historically grounded ports, roads, cargo, grain, cloth, metal and ordinary travelers linking towns; avoid a single literal disease path.",
+      "composition_type": "over-the-shoulder observation",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene013_animals_with_cargo.png"
+    },
+    {
+      "shot_id": "S014",
+      "frames": [
+        2338,
+        2518
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        77.933333,
+        83.933333
+      ],
+      "narration_excerpt": "parasites moved alongside people and cargo. The disease could cross distances that no single sick person traveled",
+      "section": "trade_network",
+      "section_anchor": "Medieval Europe was not a collection of isolated villages",
+      "visual_intent": "Historically grounded ports, roads, cargo, grain, cloth, metal and ordinary travelers linking towns; avoid a single literal disease path.",
+      "composition_type": "close detail",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene014_distance_by_sea.png"
+    },
+    {
+      "shot_id": "S015",
+      "frames": [
+        2518,
+        2697
+      ],
+      "duration_frames": 179,
+      "duration_seconds": 5.966667,
+      "time_seconds": [
+        83.933333,
+        89.9
+      ],
+      "narration_excerpt": "traveled from beginning to end. By the end of thirteen forty-seven, the epidemic was spreading across the Mediterranean. The",
+      "section": "trade_network",
+      "section_anchor": "Medieval Europe was not a collection of isolated villages",
+      "visual_intent": "Historically grounded ports, roads, cargo, grain, cloth, metal and ordinary travelers linking towns; avoid a single literal disease path.",
+      "composition_type": "high-angle spatial view",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene015_mediterranean_port.png"
+    },
+    {
+      "shot_id": "S016",
+      "frames": [
+        2697,
+        2877
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        89.9,
+        95.9
+      ],
+      "narration_excerpt": "The following year, it swept through Florence, reached England, and made its way to London. The disaster also affected",
+      "section": "pandemic_spread",
+      "section_anchor": "By the end of thirteen forty-seven",
+      "visual_intent": "Mediterranean port traffic and separate regions experiencing outbreaks at different times; no invented precise route.",
+      "composition_type": "ground-level perspective",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene016_florence_river_city.png",
+      "image_candidate_note": "Mapped from sequential visual-generation outputs; candidate review remains pending."
+    },
+    {
+      "shot_id": "S017",
+      "frames": [
+        2877,
+        3057
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        95.9,
+        101.9
+      ],
+      "narration_excerpt": "affected other parts of Eurasia and North Africa. Looking at a map, it is tempting to draw a single line and trace",
+      "section": "pandemic_spread",
+      "section_anchor": "By the end of thirteen forty-seven",
+      "visual_intent": "Mediterranean port traffic and separate regions experiencing outbreaks at different times; no invented precise route.",
+      "composition_type": "environmental portrait",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene017_north_african_port.png",
+      "image_candidate_note": "Mapped from sequential visual-generation outputs; candidate review remains pending."
+    },
+    {
+      "shot_id": "S018",
+      "frames": [
+        3057,
+        3237
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        101.9,
+        107.9
+      ],
+      "narration_excerpt": "trace the disease's movement. In reality, there were many routes and separate outbreaks. Neighboring regions could experience",
+      "section": "pandemic_spread",
+      "section_anchor": "By the end of thirteen forty-seven",
+      "visual_intent": "Mediterranean port traffic and separate regions experiencing outbreaks at different times; no invented precise route.",
+      "composition_type": "hands and objects",
+      "traveler_direction": "include the selected traveler as an upright restrained illustrated observer; position him at whatever depth best serves this composition",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene018_many_routes_river_town.png",
+      "image_candidate_note": "Mapped from sequential visual-generation outputs; candidate review remains pending."
+    },
+    {
+      "shot_id": "S019",
+      "frames": [
+        3237,
+        3417
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        107.9,
+        113.9
+      ],
+      "narration_excerpt": "experience them very differently. News of the disaster could arrive before the disease itself. People in England knew",
+      "section": "pandemic_spread",
+      "section_anchor": "By the end of thirteen forty-seven",
+      "visual_intent": "Mediterranean port traffic and separate regions experiencing outbreaks at different times; no invented precise route.",
+      "composition_type": "long-lens street view",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene019_warning_reaches_england.png",
+      "image_candidate_note": "Mapped from sequential visual-generation outputs; candidate review remains pending."
+    },
+    {
+      "shot_id": "S020",
+      "frames": [
+        3417,
+        3597
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        113.9,
+        119.9
+      ],
+      "narration_excerpt": "knew of the approaching danger before the first local outbreaks. But the warning did not answer the central question.",
+      "section": "pandemic_spread",
+      "section_anchor": "By the end of thirteen forty-seven",
+      "visual_intent": "Mediterranean port traffic and separate regions experiencing outbreaks at different times; no invented precise route.",
+      "composition_type": "deep foreground-to-background composition",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene020_town_square_choices.png",
+      "image_candidate_note": "Mapped from sequential visual-generation outputs; candidate review remains pending."
+    },
+    {
+      "shot_id": "S021",
+      "frames": [
+        3597,
+        3777
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        119.9,
+        125.9
+      ],
+      "narration_excerpt": "question. What should they do now? Behind every point on the map was a place that still needed food. An order could",
+      "section": "pandemic_spread",
+      "section_anchor": "By the end of thirteen forty-seven",
+      "visual_intent": "Mediterranean port traffic and separate regions experiencing outbreaks at different times; no invented precise route.",
+      "composition_type": "wide establishing",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene021_city_gate_grain_waiting.png"
+    },
+    {
+      "shot_id": "S022",
+      "frames": [
+        3777,
+        3957
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        125.9,
+        131.9
+      ],
+      "narration_excerpt": "could close the gates. An order alone could not feed the people inside. So, authorities faced a problem with",
+      "section": "city_supply",
+      "section_anchor": "Behind every point on the map",
+      "visual_intent": "A city gate and a food delivery problem: a guarded entrance cannot supply grain by itself.",
+      "composition_type": "medium action",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene022_gate_supply_observation.png"
+    },
+    {
+      "shot_id": "S023",
+      "frames": [
+        3957,
+        4136
+      ],
+      "duration_frames": 179,
+      "duration_seconds": 5.966667,
+      "time_seconds": [
+        131.9,
+        137.866667
+      ],
+      "narration_excerpt": "with no simple solution. How to limit dangerous connections without depriving a city of the things it needed",
+      "section": "city_supply",
+      "section_anchor": "Behind every point on the map",
+      "visual_intent": "A city gate and a food delivery problem: a guarded entrance cannot supply grain by itself.",
+      "composition_type": "over-the-shoulder observation",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene023_grain_and_city_gate_detail.png"
+    },
+    {
+      "shot_id": "S024",
+      "frames": [
+        4136,
+        4316
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        137.866667,
+        143.866667
+      ],
+      "narration_excerpt": "needed to survive? For someone who fell ill, that vast geography meant nothing. A fever began",
+      "section": "city_supply",
+      "section_anchor": "Behind every point on the map",
+      "visual_intent": "A city gate and a food delivery problem: a guarded entrance cannot supply grain by itself.",
+      "composition_type": "close detail",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene024_household_care.png"
+    },
+    {
+      "shot_id": "S025",
+      "frames": [
+        4316,
+        4496
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        143.866667,
+        149.866667
+      ],
+      "narration_excerpt": "began followed by severe weakness. In the bubonic form of plague, the lymph nodes became painfully swollen,",
+      "section": "symptoms_and_beliefs",
+      "section_anchor": "For someone who fell ill",
+      "visual_intent": "A household with a feverish person; historical interpretations shown as period beliefs, without diagnosing a specific victim.",
+      "composition_type": "high-angle spatial view",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene025_fever_and_care.png"
+    },
+    {
+      "shot_id": "S026",
+      "frames": [
+        4496,
+        4676
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        149.866667,
+        155.866667
+      ],
+      "narration_excerpt": "swollen, often in the groin or under the arms. Sometimes the infection affected the blood or lungs. Today,",
+      "section": "symptoms_and_beliefs",
+      "section_anchor": "For someone who fell ill",
+      "visual_intent": "A household with a feverish person; historical interpretations shown as period beliefs, without diagnosing a specific victim.",
+      "composition_type": "ground-level perspective",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene026_painful_swelling.png"
+    },
+    {
+      "shot_id": "S027",
+      "frames": [
+        4676,
+        4856
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        155.866667,
+        161.866667
+      ],
+      "narration_excerpt": "Today, a doctor knows what infection such symptoms may indicate. In the fourteenth century, people looked for different",
+      "section": "symptoms_and_beliefs",
+      "section_anchor": "For someone who fell ill",
+      "visual_intent": "A household with a feverish person; historical interpretations shown as period beliefs, without diagnosing a specific victim.",
+      "composition_type": "environmental portrait",
+      "traveler_direction": "include the selected traveler as an upright restrained illustrated observer; position him at whatever depth best serves this composition",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene027_healer_visits_household.png"
+    },
+    {
+      "shot_id": "S028",
+      "frames": [
+        4856,
+        5036
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        161.866667,
+        167.866667
+      ],
+      "narration_excerpt": "different explanations. An imbalance within the body, corrupted air, or the influence of heavenly bodies.",
+      "section": "symptoms_and_beliefs",
+      "section_anchor": "For someone who fell ill",
+      "visual_intent": "A household with a feverish person; historical interpretations shown as period beliefs, without diagnosing a specific victim.",
+      "composition_type": "hands and objects",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene028_celestial_explanation.png"
+    },
+    {
+      "shot_id": "S029",
+      "frames": [
+        5036,
+        5216
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        167.866667,
+        173.866667
+      ],
+      "narration_excerpt": "bodies. Religious beliefs linked the disaster to punishment for sin. If someone believes the air is dangerous,",
+      "section": "symptoms_and_beliefs",
+      "section_anchor": "For someone who fell ill",
+      "visual_intent": "A household with a feverish person; historical interpretations shown as period beliefs, without diagnosing a specific victim.",
+      "composition_type": "long-lens street view",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene029_prayer_for_protection.png"
+    },
+    {
+      "shot_id": "S030",
+      "frames": [
+        5216,
+        5395
+      ],
+      "duration_frames": 179,
+      "duration_seconds": 5.966667,
+      "time_seconds": [
+        173.866667,
+        179.833333
+      ],
+      "narration_excerpt": "dangerous, fragrant herbs and incense seem like reasonable protection. They act according to the knowledge available to them.",
+      "section": "symptoms_and_beliefs",
+      "section_anchor": "For someone who fell ill",
+      "visual_intent": "A household with a feverish person; historical interpretations shown as period beliefs, without diagnosing a specific victim.",
+      "composition_type": "deep foreground-to-background composition",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene030_herbs_and_incense.png"
+    },
+    {
+      "shot_id": "S031",
+      "frames": [
+        5395,
+        5575
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        179.833333,
+        185.833333
+      ],
+      "narration_excerpt": "them. The problem is that this knowledge does not explain what is happening. The cause was a bacterium, Yersinia",
+      "section": "symptoms_and_beliefs",
+      "section_anchor": "For someone who fell ill",
+      "visual_intent": "A household with a feverish person; historical interpretations shown as period beliefs, without diagnosing a specific victim.",
+      "composition_type": "wide establishing",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene031_bacterium_visualization.png"
+    },
+    {
+      "shot_id": "S032",
+      "frames": [
+        5575,
+        5755
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        185.833333,
+        191.833333
+      ],
+      "narration_excerpt": "Yersinia pestis. It persists in natural reservoirs among small mammals and their fleas. A person can become",
+      "section": "pathogen_and_transmission",
+      "section_anchor": "The cause was a bacterium",
+      "visual_intent": "Naturalistic explanatory visuals of fleas, small mammals and close contact, only where narration names each route; avoid a single rat explaining the pandemic.",
+      "composition_type": "medium action",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene032_wild_rodent_granary.png"
+    },
+    {
+      "shot_id": "S033",
+      "frames": [
+        5755,
+        5935
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        191.833333,
+        197.833333
+      ],
+      "narration_excerpt": "become infected through the bite of an infected flea or through contact with infected animal tissue. In the pneumonic",
+      "section": "pathogen_and_transmission",
+      "section_anchor": "The cause was a bacterium",
+      "visual_intent": "Naturalistic explanatory visuals of fleas, small mammals and close contact, only where narration names each route; avoid a single rat explaining the pandemic.",
+      "composition_type": "over-the-shoulder observation",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene033_animal_tissue_contact.png"
+    },
+    {
+      "shot_id": "S034",
+      "frames": [
+        5935,
+        6115
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        197.833333,
+        203.833333
+      ],
+      "narration_excerpt": "pneumonic form, transmission through respiratory droplets is possible during close contact with a sick person. Scientists",
+      "section": "pathogen_and_transmission",
+      "section_anchor": "The cause was a bacterium",
+      "visual_intent": "Naturalistic explanatory visuals of fleas, small mammals and close contact, only where narration names each route; avoid a single rat explaining the pandemic.",
+      "composition_type": "close detail",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene034_close_contact_care.png"
+    },
+    {
+      "shot_id": "S035",
+      "frames": [
+        6115,
+        6295
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        203.833333,
+        209.833333
+      ],
+      "narration_excerpt": "Scientists are still investigating which routes predominated in different medieval outbreaks. They also debate the role of parasites",
+      "section": "pathogen_and_transmission",
+      "section_anchor": "The cause was a bacterium",
+      "visual_intent": "Naturalistic explanatory visuals of fleas, small mammals and close contact, only where narration names each route; avoid a single rat explaining the pandemic.",
+      "composition_type": "high-angle spatial view",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene035_trade_routes_port.png"
+    },
+    {
+      "shot_id": "S036",
+      "frames": [
+        6295,
+        6475
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        209.833333,
+        215.833333
+      ],
+      "narration_excerpt": "parasites that live on humans. A single diagram featuring a rat cannot confidently explain the entire pandemic.",
+      "section": "pathogen_and_transmission",
+      "section_anchor": "The cause was a bacterium",
+      "visual_intent": "Naturalistic explanatory visuals of fleas, small mammals and close contact, only where narration names each route; avoid a single rat explaining the pandemic.",
+      "composition_type": "ground-level perspective",
+      "traveler_direction": "include the selected traveler as an upright restrained illustrated observer; position him at whatever depth best serves this composition",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene036_multiple_possible_links.png"
+    },
+    {
+      "shot_id": "S037",
+      "frames": [
+        6475,
+        6654
+      ],
+      "duration_frames": 179,
+      "duration_seconds": 5.966667,
+      "time_seconds": [
+        215.833333,
+        221.8
+      ],
+      "narration_excerpt": "pandemic. But people around someone who was ill saw a simpler sequence. One person became sick, and then someone",
+      "section": "pathogen_and_transmission",
+      "section_anchor": "The cause was a bacterium",
+      "visual_intent": "Naturalistic explanatory visuals of fleas, small mammals and close contact, only where narration names each route; avoid a single rat explaining the pandemic.",
+      "composition_type": "environmental portrait",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene037_illness_through_window.png"
+    },
+    {
+      "shot_id": "S038",
+      "frames": [
+        6654,
+        6834
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        221.8,
+        227.8
+      ],
+      "narration_excerpt": "someone nearby became sick, too. Even without knowledge of bacteria, closeness began to inspire fear.",
+      "section": "pathogen_and_transmission",
+      "section_anchor": "The cause was a bacterium",
+      "visual_intent": "Naturalistic explanatory visuals of fleas, small mammals and close contact, only where narration names each route; avoid a single rat explaining the pandemic.",
+      "composition_type": "hands and objects",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene038_distance_in_street.png"
+    },
+    {
+      "shot_id": "S039",
+      "frames": [
+        6834,
+        7014
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        227.8,
+        233.8
+      ],
+      "narration_excerpt": "fear. And so, a question about disease became a question about another person. When the sick person was a",
+      "section": "pathogen_and_transmission",
+      "section_anchor": "The cause was a bacterium",
+      "visual_intent": "Naturalistic explanatory visuals of fleas, small mammals and close contact, only where narration names each route; avoid a single rat explaining the pandemic.",
+      "composition_type": "long-lens street view",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene039_stranger_in_florence.png"
+    },
+    {
+      "shot_id": "S040",
+      "frames": [
+        7014,
+        7194
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        233.8,
+        239.8
+      ],
+      "narration_excerpt": "a stranger, you could step away. But what could you do when the person who fell ill lived with you? In Florence,",
+      "section": "florence_choices",
+      "section_anchor": "When the sick person was a stranger",
+      "visual_intent": "Fourteenth-century Florence domestic spaces and street life reflecting isolation, moderation, tavern-going and departure as alternatives, not a universal census.",
+      "composition_type": "deep foreground-to-background composition",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene040_family_at_threshold.png"
+    },
+    {
+      "shot_id": "S041",
+      "frames": [
+        7194,
+        7374
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        239.8,
+        245.8
+      ],
+      "narration_excerpt": "Florence, Giovanni Boccaccio described this change. In the introduction to the Decameron, he recounts how people tried",
+      "section": "florence_choices",
+      "section_anchor": "When the sick person was a stranger",
+      "visual_intent": "Fourteenth-century Florence domestic spaces and street life reflecting isolation, moderation, tavern-going and departure as alternatives, not a universal census.",
+      "composition_type": "wide establishing",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene041_florence_citizens_gather.png"
+    },
+    {
+      "shot_id": "S042",
+      "frames": [
+        7374,
+        7554
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        245.8,
+        251.8
+      ],
+      "narration_excerpt": "tried to survive the epidemic. Authorities removed refuse, barred sick people from entering the city, and issued advice",
+      "section": "florence_choices",
+      "section_anchor": "When the sick person was a stranger",
+      "visual_intent": "Fourteenth-century Florence domestic spaces and street life reflecting isolation, moderation, tavern-going and departure as alternatives, not a universal census.",
+      "composition_type": "medium action",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene042_street_cleaning.png"
+    },
+    {
+      "shot_id": "S043",
+      "frames": [
+        7554,
+        7734
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        251.8,
+        257.8
+      ],
+      "narration_excerpt": "advice on staying healthy. Measures were taken, but the disaster could not be stopped. Some limited their contact",
+      "section": "florence_choices",
+      "section_anchor": "When the sick person was a stranger",
+      "visual_intent": "Fourteenth-century Florence domestic spaces and street life reflecting isolation, moderation, tavern-going and departure as alternatives, not a universal census.",
+      "composition_type": "over-the-shoulder observation",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene043_gate_excludes_sick_traveler.png"
+    },
+    {
+      "shot_id": "S044",
+      "frames": [
+        7734,
+        7914
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        257.8,
+        263.8
+      ],
+      "narration_excerpt": "contact with others, shut themselves away with a small circle of people, and tried to live moderately. Others drank,",
+      "section": "florence_choices",
+      "section_anchor": "When the sick person was a stranger",
+      "visual_intent": "Fourteenth-century Florence domestic spaces and street life reflecting isolation, moderation, tavern-going and departure as alternatives, not a universal census.",
+      "composition_type": "close detail",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene044_household_small_circle.png"
+    },
+    {
+      "shot_id": "S045",
+      "frames": [
+        7914,
+        8093
+      ],
+      "duration_frames": 179,
+      "duration_seconds": 5.966667,
+      "time_seconds": [
+        263.8,
+        269.766667
+      ],
+      "narration_excerpt": "drank, visited taverns, and sought entertainment. Some left the city. This is a work of literature, not",
+      "section": "florence_choices",
+      "section_anchor": "When the sick person was a stranger",
+      "visual_intent": "Fourteenth-century Florence domestic spaces and street life reflecting isolation, moderation, tavern-going and departure as alternatives, not a universal census.",
+      "composition_type": "high-angle spatial view",
+      "traveler_direction": "include the selected traveler as an upright restrained illustrated observer; position him at whatever depth best serves this composition",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene045_florence_tavern.png"
+    },
+    {
+      "shot_id": "S046",
+      "frames": [
+        8093,
+        8273
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        269.766667,
+        275.766667
+      ],
+      "narration_excerpt": "a census of how every Florentine behaved. But it reveals the fear of people who no longer knew which of their habits",
+      "section": "florence_choices",
+      "section_anchor": "When the sick person was a stranger",
+      "visual_intent": "Fourteenth-century Florence domestic spaces and street life reflecting isolation, moderation, tavern-going and departure as alternatives, not a universal census.",
+      "composition_type": "ground-level perspective",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene046_different_households.png"
+    },
+    {
+      "shot_id": "S047",
+      "frames": [
+        8273,
+        8453
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        275.766667,
+        281.766667
+      ],
+      "narration_excerpt": "habits were safe. Particularly painful are the passages about relatives who left the sick without help. Boccaccio",
+      "section": "florence_choices",
+      "section_anchor": "When the sick person was a stranger",
+      "visual_intent": "Fourteenth-century Florence domestic spaces and street life reflecting isolation, moderation, tavern-going and departure as alternatives, not a universal census.",
+      "composition_type": "environmental portrait",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene047_uncertain_household_choice.png"
+    },
+    {
+      "shot_id": "S048",
+      "frames": [
+        8453,
+        8633
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        281.766667,
+        287.766667
+      ],
+      "narration_excerpt": "describes the breaking of bonds people usually rely on in a crisis. A home, where a person should have been cared",
+      "section": "care_and_abandonment",
+      "section_anchor": "Particularly painful are the passages",
+      "visual_intent": "A household threshold, water or bread being carried to a sick person, and the difficulty of leaving; no identifiable reenactment of a documented individual.",
+      "composition_type": "hands and objects",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene048_bread_at_threshold.png"
+    },
+    {
+      "shot_id": "S049",
+      "frames": [
+        8633,
+        8813
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        287.766667,
+        293.766667
+      ],
+      "narration_excerpt": "for, could become a place of isolation. Not everyone had the means to leave. Waiting out the disaster in the countryside",
+      "section": "care_and_abandonment",
+      "section_anchor": "Particularly painful are the passages",
+      "visual_intent": "A household threshold, water or bread being carried to a sick person, and the difficulty of leaving; no identifiable reenactment of a documented individual.",
+      "composition_type": "long-lens street view",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene049_countryside_shelter_and_supplies.png"
+    },
+    {
+      "shot_id": "S050",
+      "frames": [
+        8813,
+        8993
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        293.766667,
+        299.766667
+      ],
+      "narration_excerpt": "countryside required money, shelter, and people to provide for everyday life. In the Decameron itself, the group",
+      "section": "care_and_abandonment",
+      "section_anchor": "Particularly painful are the passages",
+      "visual_intent": "A household threshold, water or bread being carried to a sick person, and the difficulty of leaving; no identifiable reenactment of a documented individual.",
+      "composition_type": "deep foreground-to-background composition",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene050_wealthy_leave_for_countryside.png"
+    },
+    {
+      "shot_id": "S051",
+      "frames": [
+        8993,
+        9173
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        299.766667,
+        305.766667
+      ],
+      "narration_excerpt": "group that leaves Florence has those resources. But if everyone leaves, who will bring water to the sick? Who will bake",
+      "section": "care_and_abandonment",
+      "section_anchor": "Particularly painful are the passages",
+      "visual_intent": "A household threshold, water or bread being carried to a sick person, and the difficulty of leaving; no identifiable reenactment of a documented individual.",
+      "composition_type": "wide establishing",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene051_water_and_bread_delivery.png"
+    },
+    {
+      "shot_id": "S052",
+      "frames": [
+        9173,
+        9352
+      ],
+      "duration_frames": 179,
+      "duration_seconds": 5.966667,
+      "time_seconds": [
+        305.766667,
+        311.733333
+      ],
+      "narration_excerpt": "bake bread? Who will take away the dead? This was one of the epidemic's hardest contradictions. Staying away from",
+      "section": "care_and_abandonment",
+      "section_anchor": "Particularly painful are the passages",
+      "visual_intent": "A household threshold, water or bread being carried to a sick person, and the difficulty of leaving; no identifiable reenactment of a documented individual.",
+      "composition_type": "medium action",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene052_care_despite_distance.png"
+    },
+    {
+      "shot_id": "S053",
+      "frames": [
+        9352,
+        9532
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        311.733333,
+        317.733333
+      ],
+      "narration_excerpt": "from the sick could reduce the danger to an individual, yet someone still had to care for those who could no longer help themselves.",
+      "section": "care_and_abandonment",
+      "section_anchor": "Particularly painful are the passages",
+      "visual_intent": "A household threshold, water or bread being carried to a sick person, and the difficulty of leaving; no identifiable reenactment of a documented individual.",
+      "composition_type": "over-the-shoulder observation",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene053_care_water_at_home.png"
+    },
+    {
+      "shot_id": "S054",
+      "frames": [
+        9532,
+        9712
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        317.733333,
+        323.733333
+      ],
+      "narration_excerpt": "themselves. And when we return to the London burials, it becomes clear that a story in which everyone fled would be incomplete.",
+      "section": "care_and_abandonment",
+      "section_anchor": "Particularly painful are the passages",
+      "visual_intent": "A household threshold, water or bread being carried to a sick person, and the difficulty of leaving; no identifiable reenactment of a documented individual.",
+      "composition_type": "close detail",
+      "traveler_direction": "include the selected traveler as an upright restrained illustrated observer; position him at whatever depth best serves this composition",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene054_return_to_east_smithfield.png"
+    },
+    {
+      "shot_id": "S055",
+      "frames": [
+        9712,
+        9892
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        323.733333,
+        329.733333
+      ],
+      "narration_excerpt": "incomplete. At the East Smithfield Cemetery, there were individual graves as well as communal burial trenches. It is",
+      "section": "east_smithfield_order",
+      "section_anchor": "And when we return to the London burials",
+      "visual_intent": "East Smithfield cemetery: individual graves and trench burials arranged in rows; respectful archaeological reconstruction, no careless dumping.",
+      "composition_type": "high-angle spatial view",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene055_medieval_orderly_graves.png"
+    },
+    {
+      "shot_id": "S056",
+      "frames": [
+        9892,
+        10072
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        329.733333,
+        335.733333
+      ],
+      "narration_excerpt": "is easy to imagine the latter as chaotic pits, but archaeologists found carefully arranged bodies. The cemetery",
+      "section": "east_smithfield_order",
+      "section_anchor": "And when we return to the London burials",
+      "visual_intent": "East Smithfield cemetery: individual graves and trench burials arranged in rows; respectful archaeological reconstruction, no careless dumping.",
+      "composition_type": "ground-level perspective",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene056_archaeology_measured_trenches.png"
+    },
+    {
+      "shot_id": "S057",
+      "frames": [
+        10072,
+        10252
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        335.733333,
+        341.733333
+      ],
+      "narration_excerpt": "cemetery itself required organization. Land had to be set aside, graves dug, the dead brought in, and burials",
+      "section": "east_smithfield_order",
+      "section_anchor": "And when we return to the London burials",
+      "visual_intent": "East Smithfield cemetery: individual graves and trench burials arranged in rows; respectful archaeological reconstruction, no careless dumping.",
+      "composition_type": "environmental portrait",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene057_cemetery_land_set_aside.png"
+    },
+    {
+      "shot_id": "S058",
+      "frames": [
+        10252,
+        10432
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        341.733333,
+        347.733333
+      ],
+      "narration_excerpt": "burials carried out. The living did this work in a city where they too could fall ill. Excavations cannot tell us",
+      "section": "east_smithfield_order",
+      "section_anchor": "And when we return to the London burials",
+      "visual_intent": "East Smithfield cemetery: individual graves and trench burials arranged in rows; respectful archaeological reconstruction, no careless dumping.",
+      "composition_type": "hands and objects",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene058_digging_empty_graves.png"
+    },
+    {
+      "shot_id": "S059",
+      "frames": [
+        10432,
+        10612
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        347.733333,
+        353.733333
+      ],
+      "narration_excerpt": "us what each of them felt, but they show the result of their work. Even amid enormous losses, people were not always",
+      "section": "east_smithfield_order",
+      "section_anchor": "And when we return to the London burials",
+      "visual_intent": "East Smithfield cemetery: individual graves and trench burials arranged in rows; respectful archaeological reconstruction, no careless dumping.",
+      "composition_type": "long-lens street view",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene059_covered_bier_procession.png"
+    },
+    {
+      "shot_id": "S060",
+      "frames": [
+        10612,
+        10791
+      ],
+      "duration_frames": 179,
+      "duration_seconds": 5.966667,
+      "time_seconds": [
+        353.733333,
+        359.7
+      ],
+      "narration_excerpt": "always buried hastily and without order. At the same time, fear could lead to very different actions. Across",
+      "section": "east_smithfield_order",
+      "section_anchor": "And when we return to the London burials",
+      "visual_intent": "East Smithfield cemetery: individual graves and trench burials arranged in rows; respectful archaeological reconstruction, no careless dumping.",
+      "composition_type": "deep foreground-to-background composition",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene060_orderly_cemetery_rows.png"
+    },
+    {
+      "shot_id": "S061",
+      "frames": [
+        10791,
+        10971
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        359.7,
+        365.7
+      ],
+      "narration_excerpt": "Across Europe, false accusations spread against Jews that they were poisoning wells and causing the disease.",
+      "section": "persecution",
+      "section_anchor": "At the same time, fear could lead",
+      "visual_intent": "Anti-Jewish accusations, exclusion and violence shown without spectacle; identify victims as people and do not depict false accusations as fact.",
+      "composition_type": "wide establishing",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene061_false_accusation_at_well.png"
+    },
+    {
+      "shot_id": "S062",
+      "frames": [
+        10971,
+        11151
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        365.7,
+        371.7
+      ],
+      "narration_excerpt": "disease. Long-standing prejudices found a new justification. Persecution and mass killings followed. These",
+      "section": "persecution",
+      "section_anchor": "At the same time, fear could lead",
+      "visual_intent": "Anti-Jewish accusations, exclusion and violence shown without spectacle; identify victims as people and do not depict false accusations as fact.",
+      "composition_type": "medium action",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene062_exclusion_at_city_gate.png"
+    },
+    {
+      "shot_id": "S063",
+      "frames": [
+        11151,
+        11331
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        371.7,
+        377.7
+      ],
+      "narration_excerpt": "These accusations had nothing to do with the true cause of the plague. People became victims of violence that infection did",
+      "section": "persecution",
+      "section_anchor": "At the same time, fear could lead",
+      "visual_intent": "Anti-Jewish accusations, exclusion and violence shown without spectacle; identify victims as people and do not depict false accusations as fact.",
+      "composition_type": "over-the-shoulder observation",
+      "traveler_direction": "include the selected traveler as an upright restrained illustrated observer; position him at whatever depth best serves this composition",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene063_family_forced_to_leave.png"
+    },
+    {
+      "shot_id": "S064",
+      "frames": [
+        11331,
+        11511
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        377.7,
+        383.7
+      ],
+      "narration_excerpt": "did not make inevitable. Other people committed it. So, it would be just as wrong to see the entire era only as a time",
+      "section": "persecution",
+      "section_anchor": "At the same time, fear could lead",
+      "visual_intent": "Anti-Jewish accusations, exclusion and violence shown without spectacle; identify victims as people and do not depict false accusations as fact.",
+      "composition_type": "close detail",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene064_neighbor_offers_help.png"
+    },
+    {
+      "shot_id": "S065",
+      "frames": [
+        11511,
+        11691
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        383.7,
+        389.7
+      ],
+      "narration_excerpt": "time of mutual help as it would be to see nothing but cruelty. Evidence of both care and brutality has",
+      "section": "persecution",
+      "section_anchor": "At the same time, fear could lead",
+      "visual_intent": "Anti-Jewish accusations, exclusion and violence shown without spectacle; identify victims as people and do not depict false accusations as fact.",
+      "composition_type": "high-angle spatial view",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene065_neighbors_share_food.png"
+    },
+    {
+      "shot_id": "S066",
+      "frames": [
+        11691,
+        11871
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        389.7,
+        395.7
+      ],
+      "narration_excerpt": "has survived. That evidence matters no less than what we know about the disease itself. Plague placed people in terrible",
+      "section": "persecution",
+      "section_anchor": "At the same time, fear could lead",
+      "visual_intent": "Anti-Jewish accusations, exclusion and violence shown without spectacle; identify victims as people and do not depict false accusations as fact.",
+      "composition_type": "ground-level perspective",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene066_quiet_community_gathering.png"
+    },
+    {
+      "shot_id": "S067",
+      "frames": [
+        11871,
+        12050
+      ],
+      "duration_frames": 179,
+      "duration_seconds": 5.966667,
+      "time_seconds": [
+        395.7,
+        401.666667
+      ],
+      "narration_excerpt": "terrible circumstances, but their actions did not all amount to the same response. By the early thirteen fifties,",
+      "section": "persecution",
+      "section_anchor": "At the same time, fear could lead",
+      "visual_intent": "Anti-Jewish accusations, exclusion and violence shown without spectacle; identify victims as people and do not depict false accusations as fact.",
+      "composition_type": "environmental portrait",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene067_care_and_closed_gate.png"
+    },
+    {
+      "shot_id": "S068",
+      "frames": [
+        12050,
+        12230
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        401.666667,
+        407.666667
+      ],
+      "narration_excerpt": "fifties, the first wave had weakened in many places. Plague would return again and again, but even now",
+      "section": "labor_consequences",
+      "section_anchor": "By the early thirteen fifties",
+      "visual_intent": "Fields and workshops short of workers; bargaining and movement constrained by owners and authorities.",
+      "composition_type": "hands and objects",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene068_market_reopens.png"
+    },
+    {
+      "shot_id": "S069",
+      "frames": [
+        12230,
+        12410
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        407.666667,
+        413.666667
+      ],
+      "narration_excerpt": "now survivors faced consequences that the end of mass deaths could not undo. Historical accounts often cite",
+      "section": "labor_consequences",
+      "section_anchor": "By the early thirteen fifties",
+      "visual_intent": "Fields and workshops short of workers; bargaining and movement constrained by owners and authorities.",
+      "composition_type": "long-lens street view",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene069_recovery_after_first_wave.png"
+    },
+    {
+      "shot_id": "S070",
+      "frames": [
+        12410,
+        12590
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        413.666667,
+        419.666667
+      ],
+      "narration_excerpt": "cite estimates that roughly a third or as much as half of Europe's population died. These are not the results of an exact",
+      "section": "labor_consequences",
+      "section_anchor": "By the early thirteen fifties",
+      "visual_intent": "Fields and workshops short of workers; bargaining and movement constrained by owners and authorities.",
+      "composition_type": "deep foreground-to-background composition",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene070_incomplete_record_book.png"
+    },
+    {
+      "shot_id": "S071",
+      "frames": [
+        12590,
+        12770
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        419.666667,
+        425.666667
+      ],
+      "narration_excerpt": "exact count. Medieval records are incomplete and newer research emphasizes how uneven the losses were.",
+      "section": "labor_consequences",
+      "section_anchor": "By the early thirteen fifties",
+      "visual_intent": "Fields and workshops short of workers; bargaining and movement constrained by owners and authorities.",
+      "composition_type": "wide establishing",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene071_uneven_village_impact.png"
+    },
+    {
+      "shot_id": "S072",
+      "frames": [
+        12770,
+        12950
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        425.666667,
+        431.666667
+      ],
+      "narration_excerpt": "were. A percentage calculated for one city cannot simply be applied to an entire continent. On the ground, however,",
+      "section": "labor_consequences",
+      "section_anchor": "By the early thirteen fifties",
+      "visual_intent": "Fields and workshops short of workers; bargaining and movement constrained by owners and authorities.",
+      "composition_type": "medium action",
+      "traveler_direction": "include the selected traveler as an upright restrained illustrated observer; position him at whatever depth best serves this composition",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene072_city_and_countryside_scale.png"
+    },
+    {
+      "shot_id": "S073",
+      "frames": [
+        12950,
+        13130
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        431.666667,
+        437.666667
+      ],
+      "narration_excerpt": "however, the consequences were tangible. Where many people had died, fields remained with too few hands to work",
+      "section": "labor_consequences",
+      "section_anchor": "By the early thirteen fifties",
+      "visual_intent": "Fields and workshops short of workers; bargaining and movement constrained by owners and authorities.",
+      "composition_type": "over-the-shoulder observation",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene073_few_hands_in_field.png"
+    },
+    {
+      "shot_id": "S074",
+      "frames": [
+        13130,
+        13309
+      ],
+      "duration_frames": 179,
+      "duration_seconds": 5.966667,
+      "time_seconds": [
+        437.666667,
+        443.633333
+      ],
+      "narration_excerpt": "work them and workshops were short of workers. Land alone did not produce a harvest. A workshop without a craftsperson",
+      "section": "labor_consequences",
+      "section_anchor": "By the early thirteen fifties",
+      "visual_intent": "Fields and workshops short of workers; bargaining and movement constrained by owners and authorities.",
+      "composition_type": "close detail",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene074_empty_weaving_workshop.png"
+    },
+    {
+      "shot_id": "S075",
+      "frames": [
+        13309,
+        13489
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        443.633333,
+        449.633333
+      ],
+      "narration_excerpt": "craftsperson could not fill an order. Those who hired labor had to compete for the people who remained. Some workers",
+      "section": "labor_consequences",
+      "section_anchor": "By the early thirteen fifties",
+      "visual_intent": "Fields and workshops short of workers; bargaining and movement constrained by owners and authorities.",
+      "composition_type": "high-angle spatial view",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene075_employer_offers_wage.png"
+    },
+    {
+      "shot_id": "S076",
+      "frames": [
+        13489,
+        13669
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        449.633333,
+        455.633333
+      ],
+      "narration_excerpt": "workers gained the opportunity to demand higher wages or choose another employer. For landowners and workshop owners, this meant",
+      "section": "labor_consequences",
+      "section_anchor": "By the early thirteen fifties",
+      "visual_intent": "Fields and workshops short of workers; bargaining and movement constrained by owners and authorities.",
+      "composition_type": "ground-level perspective",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene076_worker_bargains_for_choice.png"
+    },
+    {
+      "shot_id": "S077",
+      "frames": [
+        13669,
+        13849
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        455.633333,
+        461.633333
+      ],
+      "narration_excerpt": "meant higher costs and a weakening of their customary control over other people's labor. In England, the response included",
+      "section": "labor_consequences",
+      "section_anchor": "By the early thirteen fifties",
+      "visual_intent": "Fields and workshops short of workers; bargaining and movement constrained by owners and authorities.",
+      "composition_type": "environmental portrait",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene077_owner_worker_negotiation.png"
+    },
+    {
+      "shot_id": "S078",
+      "frames": [
+        13849,
+        14029
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        461.633333,
+        467.633333
+      ],
+      "narration_excerpt": "included an ordinance in thirteen forty-nine and the Statute of Labourers, passed two years later. They attempted to limit",
+      "section": "labor_law",
+      "section_anchor": "In England, the response included",
+      "visual_intent": "A 1349 ordinance and 1351 Statute of Labourers represented through a period document and workers at a manor/workshop; no fabricated readable text.",
+      "composition_type": "hands and objects",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene078_council_labour_ordinance.png"
+    },
+    {
+      "shot_id": "S079",
+      "frames": [
+        14029,
+        14209
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        467.633333,
+        473.633333
+      ],
+      "narration_excerpt": "limit wages, workers' movement, and their ability to take better terms elsewhere. Able-bodied people were required to accept",
+      "section": "labor_law",
+      "section_anchor": "In England, the response included",
+      "visual_intent": "A 1349 ordinance and 1351 Statute of Labourers represented through a period document and workers at a manor/workshop; no fabricated readable text.",
+      "composition_type": "long-lens street view",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene079_worker_stopped_on_road.png"
+    },
+    {
+      "shot_id": "S080",
+      "frames": [
+        14209,
+        14389
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        473.633333,
+        479.633333
+      ],
+      "narration_excerpt": "accept work under the prescribed rules. Surviving did not yet mean freedom to direct one's own life. New opportunities",
+      "section": "labor_law",
+      "section_anchor": "In England, the response included",
+      "visual_intent": "A 1349 ordinance and 1351 Statute of Labourers represented through a period document and workers at a manor/workshop; no fabricated readable text.",
+      "composition_type": "deep foreground-to-background composition",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene080_prescribed_field_work.png"
+    },
+    {
+      "shot_id": "S081",
+      "frames": [
+        14389,
+        14569
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        479.633333,
+        485.633333
+      ],
+      "narration_excerpt": "opportunities had to be fought for while those in power tried to restore the old relationships. The plague did not abolish",
+      "section": "labor_law",
+      "section_anchor": "In England, the response included",
+      "visual_intent": "A 1349 ordinance and 1351 Statute of Labourers represented through a period document and workers at a manor/workshop; no fabricated readable text.",
+      "composition_type": "wide establishing",
+      "traveler_direction": "include the selected traveler as an upright restrained illustrated observer; position him at whatever depth best serves this composition",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene081_workers_negotiate_terms.png"
+    },
+    {
+      "shot_id": "S082",
+      "frames": [
+        14569,
+        14748
+      ],
+      "duration_frames": 179,
+      "duration_seconds": 5.966667,
+      "time_seconds": [
+        485.633333,
+        491.6
+      ],
+      "narration_excerpt": "abolish dependence and poverty in a single blow. Its consequences differed from place to place, but the enormous losses",
+      "section": "labor_law",
+      "section_anchor": "In England, the response included",
+      "visual_intent": "A 1349 ordinance and 1351 Statute of Labourers represented through a period document and workers at a manor/workshop; no fabricated readable text.",
+      "composition_type": "medium action",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene082_poverty_persists.png"
+    },
+    {
+      "shot_id": "S083",
+      "frames": [
+        14748,
+        14928
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        491.6,
+        497.6
+      ],
+      "narration_excerpt": "losses forced people to confront a question that had once seemed settled. What is human labor worth, and",
+      "section": "labor_law",
+      "section_anchor": "In England, the response included",
+      "visual_intent": "A 1349 ordinance and 1351 Statute of Labourers represented through a period document and workers at a manor/workshop; no fabricated readable text.",
+      "composition_type": "over-the-shoulder observation",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene083_worker_receives_wages.png"
+    },
+    {
+      "shot_id": "S084",
+      "frames": [
+        14928,
+        15108
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        497.6,
+        503.6
+      ],
+      "narration_excerpt": "and who has the right to set its price? Ways of protecting a city from another outbreak also changed. For",
+      "section": "labor_law",
+      "section_anchor": "In England, the response included",
+      "visual_intent": "A 1349 ordinance and 1351 Statute of Labourers represented through a period document and workers at a manor/workshop; no fabricated readable text.",
+      "composition_type": "close detail",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene084_who_sets_the_price.png"
+    },
+    {
+      "shot_id": "S085",
+      "frames": [
+        15108,
+        15288
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        503.6,
+        509.6
+      ],
+      "narration_excerpt": "For a trading port, the challenge remained the same. Keep disease out without stopping a way of life that depended on arriving",
+      "section": "dubrovnik_trade",
+      "section_anchor": "Ways of protecting a city from another outbreak also changed",
+      "visual_intent": "Late-fourteenth-century Ragusa/Dubrovnik as an Adriatic trading port; arriving people and goods separated beyond the city while trade continues.",
+      "composition_type": "high-angle spatial view",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene085_ragusa_trading_port.png"
+    },
+    {
+      "shot_id": "S086",
+      "frames": [
+        15288,
+        15468
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        509.6,
+        515.6
+      ],
+      "narration_excerpt": "arriving people and cargo. In thirteen seventy-seven, the authorities of Ragusa, today's Dubrovnik,",
+      "section": "dubrovnik_trade",
+      "section_anchor": "Ways of protecting a city from another outbreak also changed",
+      "visual_intent": "Late-fourteenth-century Ragusa/Dubrovnik as an Adriatic trading port; arriving people and goods separated beyond the city while trade continues.",
+      "composition_type": "ground-level perspective",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene086_ragusa_harbor_gate.png"
+    },
+    {
+      "shot_id": "S087",
+      "frames": [
+        15468,
+        15648
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        515.6,
+        521.6
+      ],
+      "narration_excerpt": "Dubrovnik, adopted a special rule. People arriving from places where the disease was raging were forbidden to enter the city immediately.",
+      "section": "dubrovnik_trade",
+      "section_anchor": "Ways of protecting a city from another outbreak also changed",
+      "visual_intent": "Late-fourteenth-century Ragusa/Dubrovnik as an Adriatic trading port; arriving people and goods separated beyond the city while trade continues.",
+      "composition_type": "environmental portrait",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene087_arrivals_wait_outside.png"
+    },
+    {
+      "shot_id": "S088",
+      "frames": [
+        15648,
+        15828
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        521.6,
+        527.6
+      ],
+      "narration_excerpt": "immediately. First, they had to spend thirty days apart in designated places outside it. The rule",
+      "section": "dubrovnik_trade",
+      "section_anchor": "Ways of protecting a city from another outbreak also changed",
+      "visual_intent": "Late-fourteenth-century Ragusa/Dubrovnik as an Adriatic trading port; arriving people and goods separated beyond the city while trade continues.",
+      "composition_type": "hands and objects",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene088_temporary_waiting_shelter.png"
+    },
+    {
+      "shot_id": "S089",
+      "frames": [
+        15828,
+        16007
+      ],
+      "duration_frames": 179,
+      "duration_seconds": 5.966667,
+      "time_seconds": [
+        527.6,
+        533.566667
+      ],
+      "narration_excerpt": "rule also applied to local residents returning from infected areas. Even someone with a home in the city could be required",
+      "section": "dubrovnik_trade",
+      "section_anchor": "Ways of protecting a city from another outbreak also changed",
+      "visual_intent": "Late-fourteenth-century Ragusa/Dubrovnik as an Adriatic trading port; arriving people and goods separated beyond the city while trade continues.",
+      "composition_type": "long-lens street view",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene089_returning_resident_waits.png"
+    },
+    {
+      "shot_id": "S090",
+      "frames": [
+        16007,
+        16187
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        533.566667,
+        539.566667
+      ],
+      "narration_excerpt": "required to wait before going back inside. The wait itself was a severe ordeal. Conditions in the first",
+      "section": "dubrovnik_trade",
+      "section_anchor": "Ways of protecting a city from another outbreak also changed",
+      "visual_intent": "Late-fourteenth-century Ragusa/Dubrovnik as an Adriatic trading port; arriving people and goods separated beyond the city while trade continues.",
+      "composition_type": "deep foreground-to-background composition",
+      "traveler_direction": "include the selected traveler as an upright restrained illustrated observer; position him at whatever depth best serves this composition",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene090_long_isolation_wait.png"
+    },
+    {
+      "shot_id": "S091",
+      "frames": [
+        16187,
+        16367
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        539.566667,
+        545.566667
+      ],
+      "narration_excerpt": "first places of isolation were harsh. Food was brought in from outside. The decision to separate arrivals immediately",
+      "section": "isolation_supplies",
+      "section_anchor": "The wait itself was a severe ordeal",
+      "visual_intent": "A modest temporary isolation place, supplies carried from outside and controlled visits; do not portray the seventeenth-century Lazareti as already built in 1377.",
+      "composition_type": "wide establishing",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene091_food_delivered_across_boundary.png"
+    },
+    {
+      "shot_id": "S092",
+      "frames": [
+        16367,
+        16547
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        545.566667,
+        551.566667
+      ],
+      "narration_excerpt": "immediately created another obligation, to supply them with what they needed. Visits to people in isolation were restricted,",
+      "section": "isolation_supplies",
+      "section_anchor": "The wait itself was a severe ordeal",
+      "visual_intent": "A modest temporary isolation place, supplies carried from outside and controlled visits; do not portray the seventeenth-century Lazareti as already built in 1377.",
+      "composition_type": "medium action",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene092_controlled_visit_at_shelter.png"
+    },
+    {
+      "shot_id": "S093",
+      "frames": [
+        16547,
+        16727
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        551.566667,
+        557.566667
+      ],
+      "narration_excerpt": "restricted, too. The delivery of necessities had to be arranged separately. Otherwise, the people coming to help would themselves",
+      "section": "isolation_supplies",
+      "section_anchor": "The wait itself was a severe ordeal",
+      "visual_intent": "A modest temporary isolation place, supplies carried from outside and controlled visits; do not portray the seventeenth-century Lazareti as already built in 1377.",
+      "composition_type": "over-the-shoulder observation",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene093_necessities_outside_shelter.png"
+    },
+    {
+      "shot_id": "S094",
+      "frames": [
+        16727,
+        16907
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        557.566667,
+        563.566667
+      ],
+      "narration_excerpt": "themselves defeat the purpose of isolation. Later, a forty-day period became widespread. The word quarantine",
+      "section": "isolation_supplies",
+      "section_anchor": "The wait itself was a severe ordeal",
+      "visual_intent": "A modest temporary isolation place, supplies carried from outside and controlled visits; do not portray the seventeenth-century Lazareti as already built in 1377.",
+      "composition_type": "close detail",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene094_delivery_across_boundary.png"
+    },
+    {
+      "shot_id": "S095",
+      "frames": [
+        16907,
+        17087
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        563.566667,
+        569.566667
+      ],
+      "narration_excerpt": "quarantine comes from the Italian word for forty. Doctors still could not see the pathogen, but the authorities were",
+      "section": "quarantine",
+      "section_anchor": "Later, a forty-day period became widespread",
+      "visual_intent": "A measured passage of time and guarded threshold; 1377 order is thirty days, later forty-day practice gives the word quarantine.",
+      "composition_type": "high-angle spatial view",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene095_hourglass_by_harbor.png"
+    },
+    {
+      "shot_id": "S096",
+      "frames": [
+        17087,
+        17266
+      ],
+      "duration_frames": 179,
+      "duration_seconds": 5.966667,
+      "time_seconds": [
+        569.566667,
+        575.533333
+      ],
+      "narration_excerpt": "were already changing the way people came into contact with one another in an effort to reduce risk. They had found a measure they could",
+      "section": "quarantine",
+      "section_anchor": "Later, a forty-day period became widespread",
+      "visual_intent": "A measured passage of time and guarded threshold; 1377 order is thirty days, later forty-day practice gives the word quarantine.",
+      "composition_type": "ground-level perspective",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene096_port_manages_arrivals.png"
+    },
+    {
+      "shot_id": "S097",
+      "frames": [
+        17266,
+        17446
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        575.533333,
+        581.533333
+      ],
+      "narration_excerpt": "could carry out even without a complete explanation of the disease. It was not a final victory. Plague returned",
+      "section": "quarantine",
+      "section_anchor": "Later, a forty-day period became widespread",
+      "visual_intent": "A measured passage of time and guarded threshold; 1377 order is thirty days, later forty-day practice gives the word quarantine.",
+      "composition_type": "environmental portrait",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene097_later_ship_returns.png"
+    },
+    {
+      "shot_id": "S098",
+      "frames": [
+        17446,
+        17626
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        581.533333,
+        587.533333
+      ],
+      "narration_excerpt": "returned for centuries, nor did quarantine turn a port into an impregnable fortress. But between helpless waiting",
+      "section": "quarantine",
+      "section_anchor": "Later, a forty-day period became widespread",
+      "visual_intent": "A measured passage of time and guarded threshold; 1377 order is thirty days, later forty-day practice gives the word quarantine.",
+      "composition_type": "hands and objects",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene098_fortified_harbor_open_sea.png"
+    },
+    {
+      "shot_id": "S099",
+      "frames": [
+        17626,
+        17806
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        587.533333,
+        593.533333
+      ],
+      "narration_excerpt": "waiting and bringing trade to a complete halt, another course of action had emerged, to separate a person's arrival",
+      "section": "quarantine",
+      "section_anchor": "Later, a forty-day period became widespread",
+      "visual_intent": "A measured passage of time and guarded threshold; 1377 order is thirty days, later forty-day practice gives the word quarantine.",
+      "composition_type": "long-lens street view",
+      "traveler_direction": "include the selected traveler as an upright restrained illustrated observer; position him at whatever depth best serves this composition",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene099_checkpoint_after_wait.png"
+    },
+    {
+      "shot_id": "S100",
+      "frames": [
+        17806,
+        17986
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        593.533333,
+        599.533333
+      ],
+      "narration_excerpt": "arrival from their meeting with the city by a period of time. Now, let us return to London, to the cemetery near the tower.",
+      "section": "quarantine",
+      "section_anchor": "Later, a forty-day period became widespread",
+      "visual_intent": "A measured passage of time and guarded threshold; 1377 order is thirty days, later forty-day practice gives the word quarantine.",
+      "composition_type": "deep foreground-to-background composition",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene100_modern_london_excavation_return.png"
+    },
+    {
+      "shot_id": "S101",
+      "frames": [
+        17986,
+        18166
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        599.533333,
+        605.533333
+      ],
+      "narration_excerpt": "tower. The people buried there did not know what had caused their illness, but something survived in their remains that allowed",
+      "section": "london_genetics",
+      "section_anchor": "Now let us return to London",
+      "visual_intent": "Modern laboratory examination of ancient remains and a carefully abstract DNA detail tied back to the London burial.",
+      "composition_type": "wide establishing",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene101_london_lab_tooth_analysis.png"
+    },
+    {
+      "shot_id": "S102",
+      "frames": [
+        18166,
+        18346
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        605.533333,
+        611.533333
+      ],
+      "narration_excerpt": "allowed researchers to investigate it centuries later, fragments of bacterial DNA. In twenty eleven,",
+      "section": "london_genetics",
+      "section_anchor": "Now let us return to London",
+      "visual_intent": "Modern laboratory examination of ancient remains and a carefully abstract DNA detail tied back to the London burial.",
+      "composition_type": "medium action",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene102_ancient_tooth_fragment.png"
+    },
+    {
+      "shot_id": "S103",
+      "frames": [
+        18346,
+        18526
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        611.533333,
+        617.533333
+      ],
+      "narration_excerpt": "eleven, researchers published a reconstruction of the genome of the plague bacterium from the remains of victims of the London epidemic.",
+      "section": "london_genetics",
+      "section_anchor": "Now let us return to London",
+      "visual_intent": "Modern laboratory examination of ancient remains and a carefully abstract DNA detail tied back to the London burial.",
+      "composition_type": "over-the-shoulder observation",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene103_ancient_pathogen_dna.png"
+    },
+    {
+      "shot_id": "S104",
+      "frames": [
+        18526,
+        18705
+      ],
+      "duration_frames": 179,
+      "duration_seconds": 5.966667,
+      "time_seconds": [
+        617.533333,
+        623.5
+      ],
+      "narration_excerpt": "epidemic. By then, Yersinia pestis had long been known to science. Now, researchers could connect it to particular",
+      "section": "london_genetics",
+      "section_anchor": "Now let us return to London",
+      "visual_intent": "Modern laboratory examination of ancient remains and a carefully abstract DNA detail tied back to the London burial.",
+      "composition_type": "close detail",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene104_coins_at_tower_excavation.png"
+    },
+    {
+      "shot_id": "S105",
+      "frames": [
+        18705,
+        18885
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        623.5,
+        629.5
+      ],
+      "narration_excerpt": "particular people who had died during the Black Death and study an ancient form of the pathogen. Later, another",
+      "section": "london_genetics",
+      "section_anchor": "Now let us return to London",
+      "visual_intent": "Modern laboratory examination of ancient remains and a carefully abstract DNA detail tied back to the London burial.",
+      "composition_type": "high-angle spatial view",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene105_london_archaeological_sample.png"
+    },
+    {
+      "shot_id": "S106",
+      "frames": [
+        18885,
+        19065
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        629.5,
+        635.5
+      ],
+      "narration_excerpt": "another important trace was found far from Europe in what is now Kyrgyzstan. In the Chüy Valley, gravestones",
+      "section": "chuy_valley",
+      "section_anchor": "Later, another important trace was found",
+      "visual_intent": "Chüy Valley in present-day Kyrgyzstan: marked medieval gravestones from 1338–39 and a careful excavation, no claim of identifying a first patient.",
+      "composition_type": "ground-level perspective",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene106_chuy_valley_landscape.png"
+    },
+    {
+      "shot_id": "S107",
+      "frames": [
+        19065,
+        19245
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        635.5,
+        641.5
+      ],
+      "narration_excerpt": "gravestones from thirteen thirty-eight and thirteen thirty-nine survived with references to pestilence. Scientists studied remains",
+      "section": "chuy_valley",
+      "section_anchor": "Later, another important trace was found",
+      "visual_intent": "Chüy Valley in present-day Kyrgyzstan: marked medieval gravestones from 1338–39 and a careful excavation, no claim of identifying a first patient.",
+      "composition_type": "environmental portrait",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene107_weathered_valley_gravestones.png"
+    },
+    {
+      "shot_id": "S108",
+      "frames": [
+        19245,
+        19425
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        641.5,
+        647.5
+      ],
+      "narration_excerpt": "remains from these burials and found the plague bacterium there as well. The findings, published in twenty twenty-two, placed",
+      "section": "chuy_valley",
+      "section_anchor": "Later, another important trace was found",
+      "visual_intent": "Chüy Valley in present-day Kyrgyzstan: marked medieval gravestones from 1338–39 and a careful excavation, no claim of identifying a first patient.",
+      "composition_type": "hands and objects",
+      "traveler_direction": "include the selected traveler as an upright restrained illustrated observer; position him at whatever depth best serves this composition",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene108_chuy_valley_excavation.png"
+    },
+    {
+      "shot_id": "S109",
+      "frames": [
+        19425,
+        19605
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        647.5,
+        653.5
+      ],
+      "narration_excerpt": "placed the identified strain at the base of a genetic branching associated with the Black Death. In other words, an important",
+      "section": "chuy_valley",
+      "section_anchor": "Later, another important trace was found",
+      "visual_intent": "Chüy Valley in present-day Kyrgyzstan: marked medieval gravestones from 1338–39 and a careful excavation, no claim of identifying a first patient.",
+      "composition_type": "long-lens street view",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene109_genetic_branch_visual.png"
+    },
+    {
+      "shot_id": "S110",
+      "frames": [
+        19605,
+        19785
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        653.5,
+        659.5
+      ],
+      "narration_excerpt": "important clue to the early history of the pandemic had emerged from about ten years before the disaster in Florence and",
+      "section": "chuy_valley",
+      "section_anchor": "Later, another important trace was found",
+      "visual_intent": "Chüy Valley in present-day Kyrgyzstan: marked medieval gravestones from 1338–39 and a careful excavation, no claim of identifying a first patient.",
+      "composition_type": "deep foreground-to-background composition",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene110_early_chuy_burial_landscape.png"
+    },
+    {
+      "shot_id": "S111",
+      "frames": [
+        19785,
+        19964
+      ],
+      "duration_frames": 179,
+      "duration_seconds": 5.966667,
+      "time_seconds": [
+        659.5,
+        665.466667
+      ],
+      "narration_excerpt": "and London. This is not a map of every infected person's journey, nor does it establish who the first patient was,",
+      "section": "chuy_valley",
+      "section_anchor": "Later, another important trace was found",
+      "visual_intent": "Chüy Valley in present-day Kyrgyzstan: marked medieval gravestones from 1338–39 and a careful excavation, no claim of identifying a first patient.",
+      "composition_type": "wide establishing",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene111_many_paths_no_first_patient.png"
+    },
+    {
+      "shot_id": "S112",
+      "frames": [
+        19964,
+        20144
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        665.466667,
+        671.466667
+      ],
+      "narration_excerpt": "was, but later theories can now be compared with physical traces of the disease itself. Genetic analysis can identify",
+      "section": "chuy_valley",
+      "section_anchor": "Later, another important trace was found",
+      "visual_intent": "Chüy Valley in present-day Kyrgyzstan: marked medieval gravestones from 1338–39 and a careful excavation, no claim of identifying a first patient.",
+      "composition_type": "medium action",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene112_compare_physical_traces.png"
+    },
+    {
+      "shot_id": "S113",
+      "frames": [
+        20144,
+        20324
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        671.466667,
+        677.466667
+      ],
+      "narration_excerpt": "identify the pathogen. To understand how people lived through the disaster, we need other evidence, too.",
+      "section": "chuy_valley",
+      "section_anchor": "Later, another important trace was found",
+      "visual_intent": "Chüy Valley in present-day Kyrgyzstan: marked medieval gravestones from 1338–39 and a careful excavation, no claim of identifying a first patient.",
+      "composition_type": "over-the-shoulder observation",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene113_pathogen_sample_identified.png"
+    },
+    {
+      "shot_id": "S114",
+      "frames": [
+        20324,
+        20504
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        677.466667,
+        683.466667
+      ],
+      "narration_excerpt": "too. Letters, books, documents, and the burials themselves. The arrangement of the graves preserves part of that",
+      "section": "conclusion",
+      "section_anchor": "To understand how people lived through the disaster",
+      "visual_intent": "Return to London cemetery rows, the woman’s coins and unnamed workers; close on the work that continued, not a speculative portrait of her motive.",
+      "composition_type": "close detail",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene114_closed_sources_and_burial_plan.png"
+    },
+    {
+      "shot_id": "S115",
+      "frames": [
+        20504,
+        20684
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        683.466667,
+        689.466667
+      ],
+      "narration_excerpt": "that story as well. The money remained with the dead woman, and beside her lay other people buried in an order",
+      "section": "conclusion",
+      "section_anchor": "To understand how people lived through the disaster",
+      "visual_intent": "Return to London cemetery rows, the woman’s coins and unnamed workers; close on the work that continued, not a speculative portrait of her motive.",
+      "composition_type": "high-angle spatial view",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene115_woman_grave_coins.png"
+    },
+    {
+      "shot_id": "S116",
+      "frames": [
+        20684,
+        20864
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        689.466667,
+        695.466667
+      ],
+      "narration_excerpt": "order that someone continued to maintain. We do not know the names of those who dug the graves and brought the dead here. We",
+      "section": "conclusion",
+      "section_anchor": "To understand how people lived through the disaster",
+      "visual_intent": "Return to London cemetery rows, the woman’s coins and unnamed workers; close on the work that continued, not a speculative portrait of her motive.",
+      "composition_type": "ground-level perspective",
+      "traveler_direction": "omit the traveler unless this shot benefits from a quiet observer",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene116_workers_maintain_cemetery.png"
+    },
+    {
+      "shot_id": "S117",
+      "frames": [
+        20864,
+        21044
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        695.466667,
+        701.466667
+      ],
+      "narration_excerpt": "We do not know what drove them. Duty, wages, faith, or care for their loved ones. But the city held",
+      "section": "conclusion",
+      "section_anchor": "To understand how people lived through the disaster",
+      "visual_intent": "Return to London cemetery rows, the woman’s coins and unnamed workers; close on the work that continued, not a speculative portrait of her motive.",
+      "composition_type": "environmental portrait",
+      "traveler_direction": "include the selected traveler as an upright restrained illustrated observer; position him at whatever depth best serves this composition",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene117_anonymous_workers_finish.png"
+    },
+    {
+      "shot_id": "S118",
+      "frames": [
+        21044,
+        21224
+      ],
+      "duration_frames": 180,
+      "duration_seconds": 6.0,
+      "time_seconds": [
+        701.466667,
+        707.466667
+      ],
+      "narration_excerpt": "held together in part because of their work. They carried it out without yet knowing what was killing their neighbors.",
+      "section": "conclusion",
+      "section_anchor": "To understand how people lived through the disaster",
+      "visual_intent": "Return to London cemetery rows, the woman’s coins and unnamed workers; close on the work that continued, not a speculative portrait of her motive.",
+      "composition_type": "hands and objects",
+      "traveler_direction": "include the selected traveler as an upright restrained illustrated observer; position him at whatever depth best serves this composition",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "on_screen_text": "Only the approved continuous one-line subtitles. No other text.",
+      "image": "Assets/Generated/remake_v01/scene118_dawn_over_east_smithfield.png"
+    }
+  ],
+  "on_screen_text_policy": "Only the continuous one-line spoken-word subtitles are permitted. No upper text, location cards, accent text, labels or other in-video typography."
+}

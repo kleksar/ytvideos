@@ -1,0 +1,48 @@
+{
+  "status": "TECHNICAL_PASS_FOR_LOCAL_REVIEW",
+  "output": "/Users/diplomat/ytvideos/Deliverables/Satisfying-Runaway/Runaway-Pilot-v02.mp4",
+  "sha256": "1bde50a8f87ef6596db263fd045c614e684a4e280b3592d42bc56945484d7e10",
+  "contract": "/Users/diplomat/ytvideos/Work/satisfying-runaway-pilot/Edit/EXPORT_CONTRACT_v02.json",
+  "contract_sha256": "6fd943e96adec0c5ed053b3eb379a45c427c796a1e01625ad4be428826b1cf87",
+  "stream_metadata": "PASS",
+  "full_decode": "PASS",
+  "cfr_frame_count": 438,
+  "fast_start": "PASS",
+  "audio_lufs_i": -16.7,
+  "audio_true_peak_dbtp": -1.7,
+  "frame_sampling": {
+    "status": "PASS",
+    "frames": [
+      0,
+      61,
+      122,
+      123,
+      186,
+      246,
+      248,
+      249,
+      250,
+      251,
+      252,
+      254,
+      325,
+      437
+    ],
+    "evidence": "QA-v02-frames.jpg",
+    "basis": "v02 H.264 packet hash identical to visually inspected v01; screen-filling compositions and retained image detail at the 68% peak"
+  },
+  "audio_signal": {
+    "status": "PASS",
+    "reference_audio_correlation": 0.9954360127449036,
+    "alignment_samples_at_22050_hz": 0,
+    "reference_attack_seconds": 26.31591836734694,
+    "export_attack_seconds": 8.340861678004535,
+    "cut_seconds": 8.333333333333334,
+    "error_ms": 7.528344671200671
+  },
+  "subjective_audio_listening": "UNVERIFIED — audio input unavailable to the model; signal compared against the source",
+  "youtube_native_sound": "UNVERIFIED — Apple Music reference used for local review",
+  "independent_review": "NOT_REQUESTED",
+  "srt": "N_A — no narration",
+  "render_revision": "v02 corrected source AAC timestamps before sample-based trim"
+}

@@ -1,0 +1,176 @@
+{
+  "schema": "ytv-render-v1",
+  "origin": "render",
+  "export_contract": {
+    "original": {
+      "path": "/Users/diplomat/ytvideos/.agent/research/2026-11-10-four-shorts/production/history_sarajevo/export_review_v03.json",
+      "sha256": "ab7fc6cf398a1e8d1e5dd719e52247584ca46fce67253806dd6f22d25237b8f3"
+    },
+    "snapshot": {
+      "path": "/Users/diplomat/ytvideos/.agent/research/2026-11-10-four-shorts/production/history_sarajevo/Work/render_review_v03/render_provenance/export_contract.json",
+      "sha256": "ab7fc6cf398a1e8d1e5dd719e52247584ca46fce67253806dd6f22d25237b8f3"
+    }
+  },
+  "command": {
+    "original": {
+      "path": "/Users/diplomat/ytvideos/.agent/research/2026-11-10-four-shorts/production/history_sarajevo/Work/render_review_v03/render_command.json",
+      "sha256": "4794645d8efc10c6bfd5f99ee72289a10e7ee02987ee5f89ca61df8d04794409"
+    },
+    "snapshot": {
+      "path": "/Users/diplomat/ytvideos/.agent/research/2026-11-10-four-shorts/production/history_sarajevo/Work/render_review_v03/render_provenance/render_command.json",
+      "sha256": "4794645d8efc10c6bfd5f99ee72289a10e7ee02987ee5f89ca61df8d04794409"
+    }
+  },
+  "engine": [
+    {
+      "original": {
+        "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/montage.py",
+        "sha256": "62d26c06c972a8d5f9272d4d43068ac4c88909278c75eb56bfa4879fdae3298a"
+      },
+      "snapshot": {
+        "path": "/Users/diplomat/ytvideos/.agent/research/2026-11-10-four-shorts/production/history_sarajevo/Work/render_review_v03/render_provenance/engine_0_montage.py",
+        "sha256": "62d26c06c972a8d5f9272d4d43068ac4c88909278c75eb56bfa4879fdae3298a"
+      }
+    },
+    {
+      "original": {
+        "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/delivery.py",
+        "sha256": "d4611644090f7800fd09dbc3637a54a89b13ce6598edf7cf591cf33dc6275c29"
+      },
+      "snapshot": {
+        "path": "/Users/diplomat/ytvideos/.agent/research/2026-11-10-four-shorts/production/history_sarajevo/Work/render_review_v03/render_provenance/engine_1_delivery.py",
+        "sha256": "d4611644090f7800fd09dbc3637a54a89b13ce6598edf7cf591cf33dc6275c29"
+      }
+    },
+    {
+      "original": {
+        "path": "/Users/diplomat/ytvideos/.agents/skills/ytv-paper-subtitles/scripts/semantic_grouping.py",
+        "sha256": "82b5ede094316fecc3c48c08b388f31e064b1d36b4af40bce58225d2a9a8d2e4"
+      },
+      "snapshot": {
+        "path": "/Users/diplomat/ytvideos/.agent/research/2026-11-10-four-shorts/production/history_sarajevo/Work/render_review_v03/render_provenance/engine_2_semantic_grouping.py",
+        "sha256": "82b5ede094316fecc3c48c08b388f31e064b1d36b4af40bce58225d2a9a8d2e4"
+      }
+    }
+  ],
+  "prepared": {
+    "channel": "nuviko",
+    "format": "short",
+    "subtitle_mode": "words",
+    "audio": "/Users/diplomat/ytvideos/.agent/research/2026-11-10-four-shorts/production/history_sarajevo/voice/mix_110_draft.wav",
+    "canvas": [
+      1440,
+      2560
+    ],
+    "fps": 30,
+    "scenes": [
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/research/2026-11-10-four-shorts/production/history_sarajevo/scenes/S001_candidate.png",
+        "start_frame": 0,
+        "end_frame": 150,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/research/2026-11-10-four-shorts/production/history_sarajevo/scenes/S001b_candidate.png",
+        "start_frame": 150,
+        "end_frame": 276,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/research/2026-11-10-four-shorts/production/history_sarajevo/scenes/S002_uniform_candidate_v2.png",
+        "start_frame": 276,
+        "end_frame": 426,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/research/2026-11-10-four-shorts/production/history_sarajevo/scenes/S003_candidate.png",
+        "start_frame": 426,
+        "end_frame": 576,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/research/2026-11-10-four-shorts/production/history_sarajevo/scenes/S004_candidate.png",
+        "start_frame": 576,
+        "end_frame": 696,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/research/2026-11-10-four-shorts/production/history_sarajevo/scenes/S005_candidate.png",
+        "start_frame": 696,
+        "end_frame": 816,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/research/2026-11-10-four-shorts/production/history_sarajevo/scenes/S006_candidate.png",
+        "start_frame": 816,
+        "end_frame": 936,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/research/2026-11-10-four-shorts/production/history_sarajevo/scenes/S007_candidate.png",
+        "start_frame": 936,
+        "end_frame": 1106,
+        "direction": "right_to_left",
+        "zoom": "out"
+      }
+    ],
+    "frames": 1106,
+    "manifest_path": "/Users/diplomat/ytvideos/.agent/research/2026-11-10-four-shorts/production/history_sarajevo/edit_draft.json",
+    "source_transfer": "srgb"
+  },
+  "audio_source": {
+    "codec_name": "pcm_s16le",
+    "sample_rate": "48000",
+    "channels": 2,
+    "duration": "36.866667",
+    "bit_rate": "1536000"
+  },
+  "settings": {
+    "scope": "pre-render settings only; no encoded-result or AV QA",
+    "timeline": {
+      "width": 1440,
+      "height": 2560,
+      "frame_count": 1106,
+      "sample_aspect_ratio": "1:1",
+      "aspect_ratio": "9:16",
+      "output_color_space": "Rec.709 SDR"
+    },
+    "video": {
+      "codec_name": "h264",
+      "pix_fmt": "yuv420p",
+      "scan": "progressive",
+      "cadence": "constant 30/1 fps",
+      "color_primaries": "bt709",
+      "color_transfer": "bt709",
+      "color_space": "bt709",
+      "color_range": "tv"
+    },
+    "audio": {
+      "codec_name": "aac",
+      "profile": "LC",
+      "channels": 2,
+      "sample_rate": 48000,
+      "mode": "aac",
+      "target_bit_rate": 256000
+    },
+    "requested_arguments": {
+      "encoder": "libx264",
+      "video_bitrate": 20000000,
+      "output_pix_fmt": "yuv420p",
+      "fps": "30/1",
+      "audio_codec": "aac",
+      "audio_profile": "aac_low",
+      "audio_bitrate": 256000,
+      "audio_sample_rate": 48000,
+      "audio_channels": 2
+    }
+  },
+  "ffmpeg_version": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+}

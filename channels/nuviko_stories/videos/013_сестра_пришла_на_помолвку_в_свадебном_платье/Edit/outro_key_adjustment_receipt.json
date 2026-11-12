@@ -1,0 +1,150 @@
+{
+  "timelineId": "6FB7B8EE",
+  "timelineFrames": 4201,
+  "clips": [
+    {
+      "effects": [
+        {
+          "params": {
+            "keyHue": 0.333,
+            "softness": 0.04,
+            "spill": 1,
+            "tolerance": 0.38
+          },
+          "type": "key.chroma"
+        }
+      ],
+      "frames": [
+        4102,
+        4201
+      ],
+      "id": "73E02469",
+      "mediaRef": "9C5F45E3",
+      "mediaType": "image",
+      "transform": {
+        "centerX": 0.4,
+        "centerY": 0.645,
+        "width": 0.8
+      },
+      "trimEndFrame": 51
+    },
+    {
+      "crop": {
+        "bottom": 0.09,
+        "top": 0.09
+      },
+      "frames": [
+        4102,
+        4201
+      ],
+      "id": "326AC1F6",
+      "mediaRef": "60EFB449",
+      "mediaType": "image",
+      "opacity": 0.67,
+      "transform": {
+        "height": 1.218
+      },
+      "trimEndFrame": 51
+    },
+    {
+      "crop": {
+        "bottom": 0.09,
+        "top": 0.09
+      },
+      "frames": [
+        4102,
+        4201
+      ],
+      "id": "FA163524",
+      "mediaRef": "CF9A49AE",
+      "mediaType": "image",
+      "opacity": 0.67,
+      "transform": {
+        "height": 1.219
+      },
+      "trimEndFrame": 51
+    }
+  ],
+  "frameInspections": [
+    {
+      "coordinateGrid": "0-1, origin top-left",
+      "fps": 30,
+      "frames": [
+        {
+          "clips": [
+            "A231EB22",
+            "79BE4CF8"
+          ],
+          "frame": 4101
+        }
+      ],
+      "height": 512,
+      "totalFrames": 4201,
+      "width": 288
+    },
+    {
+      "coordinateGrid": "0-1, origin top-left",
+      "fps": 30,
+      "frames": [
+        {
+          "clips": [
+            "73E02469",
+            "D9EF58CA",
+            "A3516FC4",
+            "52145079",
+            "326AC1F6",
+            "FA163524",
+            "79BE4CF8"
+          ],
+          "frame": 4102
+        }
+      ],
+      "height": 512,
+      "totalFrames": 4201,
+      "width": 288
+    },
+    {
+      "coordinateGrid": "0-1, origin top-left",
+      "fps": 30,
+      "frames": [
+        {
+          "clips": [
+            "73E02469",
+            "D9A3DA7E",
+            "75BB651C",
+            "44FF85F3",
+            "326AC1F6",
+            "FA163524",
+            "79BE4CF8"
+          ],
+          "frame": 4120
+        }
+      ],
+      "height": 512,
+      "totalFrames": 4201,
+      "width": 288
+    },
+    {
+      "coordinateGrid": "0-1, origin top-left",
+      "fps": 30,
+      "frames": [
+        {
+          "clips": [
+            "73E02469",
+            "960626DC",
+            "D301B251",
+            "7E09B491",
+            "326AC1F6",
+            "FA163524",
+            "79BE4CF8"
+          ],
+          "frame": 4190
+        }
+      ],
+      "height": 512,
+      "totalFrames": 4201,
+      "width": 288
+    }
+  ],
+  "note": "Сдвиг вниз на 0.145 высоты кадра — примерно половина высоты видимой плашки со стрелкой; ширина 0.8, левый край сохранён; настройки редактируемы. Финальный рендер не запускался."
+}

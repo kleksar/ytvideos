@@ -63,6 +63,10 @@ Desktop.ini
 *.tmp
 *.temp
 *.pid
+*.json.lock
+*_AX.txt
+*.sse
+/channels/nuviko_history/research/world_discovery_story/Work/voice_qa_v01/end_audio_stats.txt
 **/FLOW_STATE.json.lock
 **/workspace.lock
 
@@ -102,6 +106,20 @@ Desktop.ini
 *.avi
 *.3gp
 
+# Images and binary media are local artifacts, including accepted brand references.
+# Tracked assets remain tracked; this does not delete or back up local files.
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.tif
+*.tiff
+*.psd
+*.f32le
+*.pdf
+*.zip
+
 # Superseded records retained locally; canonical current docs remain trackable
 /.agent/archive/
 /.agent/audits/
@@ -113,10 +131,32 @@ Desktop.ini
 **/client.json
 **/*oauth*.json
 **/*token*.json
+# This file contains visual palette values, not authentication tokens.
+!/channels/two_ways_lab/brand/tokens.json
 **/chat/
 
 # Local relocation backups and migration scratch
 /Work/channel_layout_20261104/
+/Work/reconciliation-20261112/legacy-snapshot/
+
+# Episode scene media and rendered working images are local artifacts, not source.
+# Keep textual manifests and project-wide brand references trackable.
+/channels/*/videos/*/Source/Images/**/*.png
+/channels/*/videos/*/Source/Images/**/*.jpg
+/channels/*/videos/*/Source/Images/**/*.jpeg
+/channels/*/videos/*/Source/Images/**/*.webp
+/channels/*/research/**/Source/Images/**/*.png
+/channels/*/research/**/Source/Images/**/*.jpg
+/channels/*/research/**/Source/Images/**/*.jpeg
+/channels/*/research/**/Source/Images/**/*.webp
+/channels/*/videos/*/Work/**/*.png
+/channels/*/videos/*/Work/**/*.jpg
+/channels/*/videos/*/Work/**/*.jpeg
+/channels/*/videos/*/Work/**/*.webp
+/channels/*/research/**/Work/**/*.png
+/channels/*/research/**/Work/**/*.jpg
+/channels/*/research/**/Work/**/*.jpeg
+/channels/*/research/**/Work/**/*.webp
 
 # Temporary compatibility symlinks; use canonical channels/ and project paths instead.
 /new_channel
@@ -146,6 +186,10 @@ Desktop.ini
 /archive/*/.agents/skills
 /archive/*/*/.agents/skills
 /archive/*/*/*/.agents/skills
+/channels/*/research/**/.agents/skills
+/channels/*/videos/*/Work/**/.agents/skills/*
+# A compiled, machine-specific foreground extraction tool.
+/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/pilot/vision_foreground
 
 # Generated caption bitmaps in research production runs (keep adjacent JSON/text).
 /channels/*/research/**/caption_states/*.png

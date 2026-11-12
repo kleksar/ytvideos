@@ -1,0 +1,228 @@
+{
+  "status": "DRAFT_NOT_AUDIBLY_VERIFIED",
+  "note": "O is spelled oh to give forced aligner a phonetic token. Estimates are not verified against hearing.",
+  "segments": [
+    {
+      "start": 505.5,
+      "end": 513.4,
+      "text": "At first the words ship oh were mistaken for lunch oh Then the men saw the vessel"
+    }
+  ],
+  "alignment": {
+    "segments": [
+      {
+        "start": 505.861,
+        "end": 512.979,
+        "text": "At first the words ship oh were mistaken for lunch oh Then the men saw the vessel",
+        "words": [
+          {
+            "word": "At",
+            "start": 505.861,
+            "end": 505.941,
+            "score": 0.698
+          },
+          {
+            "word": "first",
+            "start": 506.021,
+            "end": 506.402,
+            "score": 0.688
+          },
+          {
+            "word": "the",
+            "start": 506.623,
+            "end": 506.723,
+            "score": 0.893
+          },
+          {
+            "word": "words",
+            "start": 506.763,
+            "end": 507.064,
+            "score": 0.897
+          },
+          {
+            "word": "ship",
+            "start": 507.445,
+            "end": 507.946,
+            "score": 0.863
+          },
+          {
+            "word": "oh",
+            "start": 507.966,
+            "end": 508.006,
+            "score": 0.0
+          },
+          {
+            "word": "were",
+            "start": 508.347,
+            "end": 508.488,
+            "score": 0.899
+          },
+          {
+            "word": "mistaken",
+            "start": 508.528,
+            "end": 509.049,
+            "score": 0.852
+          },
+          {
+            "word": "for",
+            "start": 509.149,
+            "end": 509.41,
+            "score": 0.769
+          },
+          {
+            "word": "lunch",
+            "start": 509.771,
+            "end": 510.372,
+            "score": 0.905
+          },
+          {
+            "word": "oh",
+            "start": 510.392,
+            "end": 510.432,
+            "score": 0.0
+          },
+          {
+            "word": "Then",
+            "start": 510.974,
+            "end": 511.275,
+            "score": 0.747
+          },
+          {
+            "word": "the",
+            "start": 511.555,
+            "end": 511.676,
+            "score": 0.721
+          },
+          {
+            "word": "men",
+            "start": 511.756,
+            "end": 512.016,
+            "score": 0.81
+          },
+          {
+            "word": "saw",
+            "start": 512.197,
+            "end": 512.458,
+            "score": 0.727
+          },
+          {
+            "word": "the",
+            "start": 512.518,
+            "end": 512.618,
+            "score": 0.865
+          },
+          {
+            "word": "vessel",
+            "start": 512.678,
+            "end": 512.979,
+            "score": 0.958
+          }
+        ]
+      }
+    ],
+    "word_segments": [
+      {
+        "word": "At",
+        "start": 505.861,
+        "end": 505.941,
+        "score": 0.698
+      },
+      {
+        "word": "first",
+        "start": 506.021,
+        "end": 506.402,
+        "score": 0.688
+      },
+      {
+        "word": "the",
+        "start": 506.623,
+        "end": 506.723,
+        "score": 0.893
+      },
+      {
+        "word": "words",
+        "start": 506.763,
+        "end": 507.064,
+        "score": 0.897
+      },
+      {
+        "word": "ship",
+        "start": 507.445,
+        "end": 507.946,
+        "score": 0.863
+      },
+      {
+        "word": "oh",
+        "start": 507.966,
+        "end": 508.006,
+        "score": 0.0
+      },
+      {
+        "word": "were",
+        "start": 508.347,
+        "end": 508.488,
+        "score": 0.899
+      },
+      {
+        "word": "mistaken",
+        "start": 508.528,
+        "end": 509.049,
+        "score": 0.852
+      },
+      {
+        "word": "for",
+        "start": 509.149,
+        "end": 509.41,
+        "score": 0.769
+      },
+      {
+        "word": "lunch",
+        "start": 509.771,
+        "end": 510.372,
+        "score": 0.905
+      },
+      {
+        "word": "oh",
+        "start": 510.392,
+        "end": 510.432,
+        "score": 0.0
+      },
+      {
+        "word": "Then",
+        "start": 510.974,
+        "end": 511.275,
+        "score": 0.747
+      },
+      {
+        "word": "the",
+        "start": 511.555,
+        "end": 511.676,
+        "score": 0.721
+      },
+      {
+        "word": "men",
+        "start": 511.756,
+        "end": 512.016,
+        "score": 0.81
+      },
+      {
+        "word": "saw",
+        "start": 512.197,
+        "end": 512.458,
+        "score": 0.727
+      },
+      {
+        "word": "the",
+        "start": 512.518,
+        "end": 512.618,
+        "score": 0.865
+      },
+      {
+        "word": "vessel",
+        "start": 512.678,
+        "end": 512.979,
+        "score": 0.958
+      }
+    ]
+  }
+}

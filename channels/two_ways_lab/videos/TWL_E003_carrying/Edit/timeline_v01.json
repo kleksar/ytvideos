@@ -1,0 +1,375 @@
+{
+  "channel": "two_ways_lab",
+  "format": "short",
+  "fps": 30,
+  "canvas": [
+    1080,
+    1920
+  ],
+  "source_transfer": "srgb",
+  "audio": "../Source/Audio/v01/mix.wav",
+  "audio_contract": {
+    "final_audio_sha256": "dcebcdd34d54f99d004149e9ab3b1a7e929c162ca1c5891f67a6b0a0f717574c",
+    "applied_speed": 1.0,
+    "speed_evidence": "../Source/Audio/v01/mix-evidence.md"
+  },
+  "scenes": [
+    {
+      "image": "../Source/Images/v01/initial.png",
+      "start_frame": 0,
+      "end_frame": 210,
+      "direction": "none",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "initial state",
+        "reason": "Fixed viewpoint shows progress in the same hallway",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        }
+      }
+    },
+    {
+      "image": "../Source/Images/v01/one.png",
+      "start_frame": 210,
+      "end_frame": 370,
+      "direction": "none",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "one state",
+        "reason": "Fixed viewpoint shows progress in the same hallway",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        }
+      }
+    },
+    {
+      "image": "../Source/Images/v01/cleared.png",
+      "start_frame": 370,
+      "end_frame": 500,
+      "direction": "none",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "cleared state",
+        "reason": "Fixed viewpoint shows progress in the same hallway",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        }
+      }
+    },
+    {
+      "image": "../Source/Images/v01/basket.png",
+      "start_frame": 500,
+      "end_frame": 617,
+      "direction": "none",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "basket state",
+        "reason": "Fixed viewpoint shows progress in the same hallway",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        }
+      }
+    },
+    {
+      "image": "../Source/Images/v01/basket_four.png",
+      "start_frame": 617,
+      "end_frame": 719,
+      "direction": "none",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "basket_four state",
+        "reason": "Fixed viewpoint shows progress in the same hallway",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        }
+      }
+    },
+    {
+      "image": "../Source/Images/v01/basket_two.png",
+      "start_frame": 719,
+      "end_frame": 804,
+      "direction": "none",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "basket_two state",
+        "reason": "Fixed viewpoint shows progress in the same hallway",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        }
+      }
+    },
+    {
+      "image": "../Source/Images/v01/cleared.png",
+      "start_frame": 804,
+      "end_frame": 883,
+      "direction": "none",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "cleared state",
+        "reason": "Fixed viewpoint shows progress in the same hallway",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        }
+      }
+    },
+    {
+      "image": "../Source/Images/v01/cleared.png",
+      "start_frame": 883,
+      "end_frame": 967,
+      "direction": "none",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "cleared state",
+        "reason": "Fixed viewpoint shows progress in the same hallway",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        }
+      }
+    },
+    {
+      "image": "../Source/Images/v01/basket.png",
+      "start_frame": 967,
+      "end_frame": 1242,
+      "direction": "none",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "basket state",
+        "reason": "Fixed viewpoint shows progress in the same hallway",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        }
+      }
+    },
+    {
+      "image": "../Source/Images/v01/initial.png",
+      "start_frame": 1242,
+      "end_frame": 1311,
+      "direction": "none",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "initial state",
+        "reason": "Fixed viewpoint shows progress in the same hallway",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        }
+      }
+    }
+  ],
+  "overlays": [
+    {
+      "path": "../Source/Lettering/v01/120.png",
+      "start_frame": 924,
+      "end_frame": 967,
+      "y": 15,
+      "lettering_motion": {
+        "scale_amplitude": 0.02,
+        "rotation_degrees": 2
+      }
+    },
+    {
+      "path": "../Source/Lettering/v01/60.png",
+      "start_frame": 969,
+      "end_frame": 1006,
+      "y": 15,
+      "lettering_motion": {
+        "scale_amplitude": 0.02,
+        "rotation_degrees": 2
+      }
+    }
+  ],
+  "subtitles": {
+    "mode": "words",
+    "transcript": "../Source/Audio/v01/narration.txt",
+    "words": "../Source/Audio/v01/word_times.json",
+    "phrases": [
+      "Six things in the hallway.",
+      "Two go to the bedroom,",
+      "two to the kitchen,",
+      "and two to the bathroom.",
+      "Which way means less walking?",
+      "First, you take one thing",
+      "at a time.",
+      "Each time, you walk",
+      "to its room",
+      "and return for the next.",
+      "All six things are put away,",
+      "but you've made six trips.",
+      "Now reset.",
+      "Put all six things",
+      "in a basket.",
+      "Take two to the bedroom",
+      "and return.",
+      "Then two to the kitchen,",
+      "and finally two",
+      "to the bathroom,",
+      "returning after each trip.",
+      "That's just three trips.",
+      "In this test,",
+      "each room is ten meters away.",
+      "The first way",
+      "adds up to one hundred",
+      "twenty meters.",
+      "The basket?",
+      "Sixty.",
+      "But the basket",
+      "has to hold everything,",
+      "and the things you need",
+      "must be easy to reach.",
+      "With a different home",
+      "or heavy items,",
+      "the result can change.",
+      "So which would you choose for..."
+    ]
+  },
+  "minimum_scene_frames": 45
+}

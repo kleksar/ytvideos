@@ -1,0 +1,158 @@
+{
+  "input": "/Users/diplomat/ytvideos/Shared/Image_Motion/Cache/video/60a57ca0ddfa7077ca50b8cf411a58a95fcd6fad469e5f237fe91f897d6b70f0.mp4",
+  "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Work/image-motion-e710ec4a0e3d9ff855ed/scratch/f3064e532adee97859f90a2a5ca4e9584eb66cb07316b0653ab611e86b9a7bab.finished.partial.mp4",
+  "frames": 182,
+  "visible_frames": 180,
+  "grain": {
+    "id": "g08",
+    "name": "Short Persistence",
+    "version": 1,
+    "rms_y_codes": 3.0,
+    "sigma_reference_px": 0.77,
+    "reference_short_side": 1440,
+    "update_hz": 30,
+    "rho": 0.35,
+    "mask_y": [
+      20,
+      64,
+      208,
+      235
+    ],
+    "range_y": [
+      16,
+      235
+    ],
+    "chroma": false,
+    "seed": 20261102
+  },
+  "sigma_output_px": 0.5775,
+  "seed": 15576000206699114443,
+  "camera": {
+    "position": [
+      [
+        0,
+        -0.029750000000000054,
+        -0.029750000000000054,
+        "linear"
+      ],
+      [
+        179,
+        -0.04025000000000001,
+        -0.04025000000000001
+      ]
+    ],
+    "scale": [
+      [
+        0,
+        1.0595,
+        1.0595,
+        "linear"
+      ],
+      [
+        179,
+        1.0805,
+        1.0805
+      ]
+    ]
+  },
+  "metrics": [
+    {
+      "frame": 0,
+      "camera": [
+        -0.029750000000000054,
+        -0.029750000000000054,
+        1.0595,
+        1.0595
+      ],
+      "applied_rms": 2.4939444065093994,
+      "noise_hash": "5abde81e54e42850297b3652c24f7111a49d8a7dee5050ad457c16ab8fd9e407"
+    },
+    {
+      "frame": 90,
+      "camera": [
+        -0.03502932960893858,
+        -0.03502932960893858,
+        1.0700586592178771,
+        1.0700586592178771
+      ],
+      "applied_rms": 2.4952971935272217,
+      "noise_hash": "750f4963a28594a13db8c15cbe9070b974a8c772e534a16a1138316d507782ea"
+    },
+    {
+      "frame": 179,
+      "camera": [
+        -0.04025000000000001,
+        -0.04025000000000001,
+        1.0805,
+        1.0805
+      ],
+      "applied_rms": 2.495018482208252,
+      "noise_hash": "f5d9a11939c90dc2bee14f469c2ea4e91753554f6792c370d1fca7c5989a96e2"
+    }
+  ],
+  "decode": [
+    "ffmpeg",
+    "-v",
+    "error",
+    "-i",
+    "/Users/diplomat/ytvideos/Shared/Image_Motion/Cache/video/60a57ca0ddfa7077ca50b8cf411a58a95fcd6fad469e5f237fe91f897d6b70f0.mp4",
+    "-an",
+    "-vf",
+    "colorspace=iall=bt601-6-625:iprimaries=bt709:itrc=srgb:irange=tv:all=bt709:range=tv:format=yuv420p,setsar=1",
+    "-frames:v",
+    "180",
+    "-f",
+    "rawvideo",
+    "-pix_fmt",
+    "yuv420p",
+    "pipe:1"
+  ],
+  "encode": [
+    "ffmpeg",
+    "-y",
+    "-v",
+    "error",
+    "-f",
+    "rawvideo",
+    "-pix_fmt",
+    "yuv420p",
+    "-video_size",
+    "1920x1080",
+    "-framerate",
+    "30",
+    "-i",
+    "pipe:0",
+    "-an",
+    "-vf",
+    "setsar=1,setparams=range=limited:color_primaries=bt709:color_trc=bt709:colorspace=bt709",
+    "-c:v",
+    "libx264",
+    "-crf",
+    "16",
+    "-preset",
+    "fast",
+    "-tune",
+    "grain",
+    "-pix_fmt",
+    "yuv420p",
+    "-color_primaries",
+    "bt709",
+    "-color_trc",
+    "bt709",
+    "-colorspace",
+    "bt709",
+    "-color_range",
+    "tv",
+    "-movflags",
+    "+faststart+negative_cts_offsets",
+    "-use_editlist",
+    "0",
+    "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Work/image-motion-e710ec4a0e3d9ff855ed/scratch/f3064e532adee97859f90a2a5ca4e9584eb66cb07316b0653ab611e86b9a7bab.finished.partial.mp4"
+  ],
+  "order": [
+    "parallax",
+    "camera",
+    "grain"
+  ],
+  "colour": "BT709 limited YUV420p; chroma has no added noise"
+}

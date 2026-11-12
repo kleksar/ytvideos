@@ -1,0 +1,362 @@
+{
+  "channel": "paper",
+  "format": "short",
+  "fps": 30,
+  "audio": "../../Source/Voice/en_v02_lawrence/voice_en_1.10x.wav",
+  "scenes": [
+    {
+      "image": "../../Source/Images/S01_v05.png",
+      "start_frame": 0,
+      "end_frame": 126,
+      "direction": "none",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.48,
+          0.43
+        ],
+        "subject": "white stork neck, red bill and arrow",
+        "reason": "Zoom in gently on the shaft and the layered neck to land the hook; tiny amplitude only.",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.012
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/S02_v02.png",
+      "start_frame": 126,
+      "end_frame": 306,
+      "direction": "left_to_right",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.58,
+          0.28
+        ],
+        "subject": "returning birds above the spring roofs",
+        "reason": "Reveal the returning birds across the village while retaining the roof nest and clear subtitle zone.",
+        "start": {
+          "center": [
+            0.504,
+            0.5
+          ],
+          "scale": 1.012
+        },
+        "end": {
+          "center": [
+            0.496,
+            0.5
+          ],
+          "scale": 1.012
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/S03_v01.png",
+      "start_frame": 306,
+      "end_frame": 456,
+      "direction": "none",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.5,
+          0.55
+        ],
+        "subject": "generic scholar, open book and moonlit window",
+        "reason": "Small push toward the scholar and open book, keeping the moonlit window readable.",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.012
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/S04_v02.png",
+      "start_frame": 456,
+      "end_frame": 579,
+      "direction": "none",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.5,
+          0.4
+        ],
+        "subject": "paper Moon with small bird silhouettes",
+        "reason": "Ease outward to show the birds against the full imagined Moon.",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.012
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/S05_v02.png",
+      "start_frame": 579,
+      "end_frame": 750,
+      "direction": "right_to_left",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.49,
+          0.36
+        ],
+        "subject": "standing stork and arrow in its neck",
+        "reason": "Quiet lateral drift across the standing stork; retain full arrow, legs and lower-center subtitle clearance.",
+        "start": {
+          "center": [
+            0.496,
+            0.5
+          ],
+          "scale": 1.012
+        },
+        "end": {
+          "center": [
+            0.504,
+            0.5
+          ],
+          "scale": 1.012
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/S06_v01.png",
+      "start_frame": 750,
+      "end_frame": 894,
+      "direction": "none",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.5,
+          0.48
+        ],
+        "subject": "stork neck and entire arrow shaft",
+        "reason": "Subtle push toward the physical clue while keeping the whole shaft and feather fletching inside frame.",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.012
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/S07_v02.png",
+      "start_frame": 894,
+      "end_frame": 1032,
+      "direction": "left_to_right",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.5,
+          0.32
+        ],
+        "subject": "flying stork carrying arrow over open sea",
+        "reason": "Slow drift across the distance image; preserve the bird and keep lower-center sea unobstructed.",
+        "start": {
+          "center": [
+            0.504,
+            0.5
+          ],
+          "scale": 1.012
+        },
+        "end": {
+          "center": [
+            0.496,
+            0.5
+          ],
+          "scale": 1.012
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/S08_v02.png",
+      "start_frame": 1032,
+      "end_frame": 1152,
+      "direction": "none",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.5,
+          0.47
+        ],
+        "subject": "complete stork specimen on its plinth",
+        "reason": "Ease outward from the specimen so the entire plinth and study context remain visible.",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.012
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/S09_v01.png",
+      "start_frame": 1152,
+      "end_frame": 1272,
+      "direction": "none",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.5,
+          0.48
+        ],
+        "subject": "central display case and stork specimen",
+        "reason": "Very small push toward the preserved bird within the central case.",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.012
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/S10_v01.png",
+      "start_frame": 1272,
+      "end_frame": 1403,
+      "direction": "right_to_left",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.5,
+          0.45
+        ],
+        "subject": "birds between distant landmasses and small Moon",
+        "reason": "Drift gently across the broad geography without suggesting a specific route.",
+        "start": {
+          "center": [
+            0.496,
+            0.5
+          ],
+          "scale": 1.012
+        },
+        "end": {
+          "center": [
+            0.504,
+            0.5
+          ],
+          "scale": 1.012
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/S11_v04.png",
+      "start_frame": 1403,
+      "end_frame": 1523,
+      "direction": "none",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.48,
+          0.43
+        ],
+        "subject": "same white stork neck, red bill and arrow as S01",
+        "reason": "Return to the opening crop over this exact same PNG; zoom out to the opening scale so the last frame meets S01 at the loop seam.",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.012
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        }
+      }
+    }
+  ],
+  "subtitles": {
+    "mode": "words",
+    "words": "../../Source/Voice/en_v02_lawrence/word_times_for_montage_v02.json"
+  },
+  "overlays": [
+    {
+      "path": "../../Assets/Generated/captions-042-v06/cues/C01/cue.png",
+      "start_frame": 34,
+      "end_frame": 90,
+      "x": 187,
+      "y": 345
+    },
+    {
+      "path": "../../Assets/Generated/captions-042-v06/cues/C02/cue.png",
+      "start_frame": 513,
+      "end_frame": 561,
+      "x": 246,
+      "y": 346
+    },
+    {
+      "path": "../../Assets/Generated/captions-042-v06/cues/C03/cue.png",
+      "start_frame": 1041,
+      "end_frame": 1089,
+      "x": 186,
+      "y": 347
+    },
+    {
+      "path": "../../Assets/Generated/captions-042-v06/cues/C04/cue.png",
+      "start_frame": 1344,
+      "end_frame": 1395,
+      "x": 122,
+      "y": 205
+    }
+  ],
+  "revision": "v05"
+}

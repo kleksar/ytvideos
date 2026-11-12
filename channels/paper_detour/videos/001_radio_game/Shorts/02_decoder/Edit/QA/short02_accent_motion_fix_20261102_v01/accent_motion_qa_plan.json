@@ -1,0 +1,243 @@
+{
+  "frame_count": 1098,
+  "fps": "30/1",
+  "sha256": "5045b616adb23bb7d0fd0a08f4a2c79583f4c682ebed3514c6e7c54cca1f284f",
+  "required_review_checks": [
+    "stream_metadata",
+    "full_decode",
+    "frame_sampling",
+    "scene_edit",
+    "motion_framing",
+    "text_composition",
+    "cue_timing",
+    "audio_signal",
+    "subjective_audio_listening"
+  ],
+  "freshness": {
+    "status": "CURRENT",
+    "evidence": "Palmier snapshot AEBCE842; live post-mutation get_timeline 7537BAE9; mutation report; native export job 934221A0-B178-4FA6-87D7-0236F412A672; stream-copy mux receipt."
+  },
+  "expected": {
+    "video": {
+      "width": 1080,
+      "height": 1920,
+      "codec_name": "h264",
+      "pix_fmt": "yuv420p",
+      "color_space": "bt709"
+    },
+    "audio": {
+      "required": true,
+      "codec_name": "aac",
+      "channels": 2,
+      "sample_rate": 44100
+    }
+  },
+  "scene_seconds": [
+    4,
+    6
+  ],
+  "scenes": [
+    {
+      "id": "S01",
+      "start": 0,
+      "end": 177
+    },
+    {
+      "id": "S02",
+      "start": 177,
+      "end": 330
+    },
+    {
+      "id": "S03",
+      "start": 330,
+      "end": 468
+    },
+    {
+      "id": "S04",
+      "start": 468,
+      "end": 606
+    },
+    {
+      "id": "S05",
+      "start": 606,
+      "end": 774
+    },
+    {
+      "id": "S06",
+      "start": 774,
+      "end": 924
+    },
+    {
+      "id": "S07",
+      "start": 924,
+      "end": 1098
+    }
+  ],
+  "cues": [
+    {
+      "id": "C01",
+      "start": 82,
+      "end": 171,
+      "entry_end": 86,
+      "exit_start": 166
+    },
+    {
+      "id": "C02",
+      "start": 194,
+      "end": 305,
+      "entry_end": 198,
+      "exit_start": 300
+    },
+    {
+      "id": "C03",
+      "start": 380,
+      "end": 450,
+      "entry_end": 384,
+      "exit_start": 445
+    },
+    {
+      "id": "C04",
+      "start": 516,
+      "end": 574,
+      "entry_end": 520,
+      "exit_start": 569
+    },
+    {
+      "id": "C05",
+      "start": 673,
+      "end": 766,
+      "entry_end": 677,
+      "exit_start": 761
+    },
+    {
+      "id": "C06",
+      "start": 820,
+      "end": 865,
+      "entry_end": 824,
+      "exit_start": 860
+    },
+    {
+      "id": "C07",
+      "start": 867,
+      "end": 922,
+      "entry_end": 871,
+      "exit_start": 917
+    },
+    {
+      "id": "C08",
+      "start": 925,
+      "end": 1037,
+      "entry_end": 929,
+      "exit_start": 1032
+    },
+    {
+      "id": "C09",
+      "start": 1045,
+      "end": 1098,
+      "entry_end": 1049,
+      "exit_start": 1093
+    }
+  ],
+  "extra_frames": [
+    82,
+    83,
+    84,
+    85,
+    86,
+    126,
+    166,
+    167,
+    168,
+    169,
+    170,
+    194,
+    195,
+    196,
+    197,
+    198,
+    249,
+    300,
+    301,
+    302,
+    303,
+    304,
+    380,
+    381,
+    382,
+    383,
+    384,
+    414,
+    445,
+    446,
+    447,
+    448,
+    449,
+    516,
+    517,
+    518,
+    519,
+    520,
+    544,
+    569,
+    570,
+    571,
+    572,
+    573,
+    673,
+    674,
+    675,
+    676,
+    677,
+    719,
+    761,
+    762,
+    763,
+    764,
+    765,
+    820,
+    821,
+    822,
+    823,
+    824,
+    842,
+    860,
+    861,
+    862,
+    863,
+    864,
+    867,
+    868,
+    869,
+    870,
+    871,
+    894,
+    917,
+    918,
+    919,
+    920,
+    921,
+    925,
+    926,
+    927,
+    928,
+    929,
+    980,
+    1032,
+    1033,
+    1034,
+    1035,
+    1036,
+    1045,
+    1046,
+    1047,
+    1048,
+    1049,
+    1071,
+    1093,
+    1094,
+    1095,
+    1096,
+    1097
+  ],
+  "scope_note": "Targeted regression check of nine animated accent PNG cues on this new final-file identity. The previous v03 403-frame visual sample remains evidence for unchanged scenes and the V3 subtitle design; this run rechecks new motion/caption co-existence at every accent transition and a hold point. Overall QA is not inherited and remains UNVERIFIED pending spoken-sync review."
+}

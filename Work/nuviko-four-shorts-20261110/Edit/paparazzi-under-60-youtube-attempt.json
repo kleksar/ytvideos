@@ -1,0 +1,38 @@
+{
+  "status": "blocked_by_channel_daily_upload_limit",
+  "http_status": 400,
+  "youtube_reason": "uploadLimitExceeded",
+  "failed_at": "2026-11-11T02:00:05.099998+00:00",
+  "youtube_recommended_retry_after": "2026-11-12T02:00:05.099998+00:00",
+  "video_id": null,
+  "publishAt": null,
+  "file": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Deliverables/Paparazzi-under-60-v01.mp4",
+  "sha256": "1256734a8a73f241d13a5bd71a8f207d79ab84c09b5f373154d7844e8b72d318",
+  "duration_seconds": 34.8,
+  "old_video": {
+    "id": "QT1ueMIuIJc",
+    "privacy": "public",
+    "local_master": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Deliverables/Paparazzi-full-v01.mp4",
+    "old_sha256": "74b3c835a0e9b0977abb28a982e8734d462b0d80ed3d5e88af90ab0bfe88b307",
+    "trash_path": "/Users/diplomat/.Trash/Paparazzi-full-v01.mp4",
+    "old_master_state": "trashed"
+  },
+  "requested_interval_hours": 6,
+  "last_retry": {
+    "attempted_at": "2026-11-11T15:14:15.133707+00:00",
+    "http_status": 400,
+    "youtube_reason": "uploadLimitExceeded",
+    "new_upload_found": false,
+    "trigger": "manual"
+  },
+  "next_scheduled_retry": "2026-11-12T04:00:00+01:00",
+  "earlier_retries": [
+    {
+      "attempted_at": "2026-11-11T03:55:54.172610+00:00",
+      "http_status": 400,
+      "youtube_reason": "uploadLimitExceeded",
+      "new_upload_found": false,
+      "automation_id": "paparazzi-shorts"
+    }
+  ]
+}

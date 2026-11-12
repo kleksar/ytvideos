@@ -1,0 +1,707 @@
+{
+  "channel": "paper",
+  "format": "short",
+  "source_transfer": "srgb",
+  "audio": "../Source/Voice/en_v31/voice_en.mp3",
+  "audio_contract": {
+    "final_audio_sha256": "f8fccc9f54559f2d293770f10f5eeee3619f6ff71eb7cf6a92aaf3ddd6659298",
+    "applied_speed": 1.1,
+    "speed_evidence": "../Source/Voice/en_v31/speed_evidence.md"
+  },
+  "scenes": [
+    {
+      "image": "../Source/Images/paper_v31/S01_v01.png",
+      "start_frame": 0,
+      "end_frame": 165,
+      "direction": "none",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.5,
+          0.47
+        ],
+        "subject": "Map between Paris and the eastern forts",
+        "reason": "Bring the two location labels and the hand forward",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.006
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.026
+        }
+      }
+    },
+    {
+      "image": "../Source/Images/paper_v31/S02_v01.png",
+      "start_frame": 165,
+      "end_frame": 341,
+      "direction": "none",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.61,
+          0.49
+        ],
+        "subject": "Tethered balloon and anchor",
+        "reason": "Open enough to retain the entire line and ground anchor",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.027
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.005
+        }
+      }
+    },
+    {
+      "image": "../Source/Images/paper_v31/S03_v01.png",
+      "start_frame": 341,
+      "end_frame": 515,
+      "direction": "none",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.52,
+          0.51
+        ],
+        "subject": "Proposed high support",
+        "reason": "Approach the planning card while retaining the structure above the roofs",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.006
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.03
+        }
+      }
+    },
+    {
+      "image": "../Source/Images/paper_v31/S04_v01.png",
+      "start_frame": 515,
+      "end_frame": 677,
+      "direction": "right_to_left",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.57,
+          0.47
+        ],
+        "subject": "Tower model and small exhibition pavilion",
+        "reason": "Hold the scale contrast and keep the whole summit",
+        "start": {
+          "center": [
+            0.4965,
+            0.5
+          ],
+          "scale": 1.02
+        },
+        "end": {
+          "center": [
+            0.5035,
+            0.5
+          ],
+          "scale": 1.02
+        }
+      }
+    },
+    {
+      "image": "../Source/Images/paper_v31/S05_v01.png",
+      "start_frame": 677,
+      "end_frame": 836,
+      "direction": "none",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.5,
+          0.44
+        ],
+        "subject": "Tower over the 1889 fairground",
+        "reason": "Open to the fairground and preserve the summit",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.02
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.004
+        }
+      }
+    },
+    {
+      "image": "../Source/Images/paper_v31/S06_v01.png",
+      "start_frame": 836,
+      "end_frame": 998,
+      "direction": "none",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.53,
+          0.49
+        ],
+        "subject": "Morse key and fingertip",
+        "reason": "Take the eye to the point of contact",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.008
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.043
+        }
+      }
+    },
+    {
+      "image": "../Source/Images/paper_v31/S07_v01.png",
+      "start_frame": 998,
+      "end_frame": 1175,
+      "direction": "left_to_right",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.51,
+          0.27
+        ],
+        "subject": "Tower and Panthéon across Paris",
+        "reason": "Scan across the two recognizable landmarks",
+        "start": {
+          "center": [
+            0.5035,
+            0.5
+          ],
+          "scale": 1.018
+        },
+        "end": {
+          "center": [
+            0.4965,
+            0.5
+          ],
+          "scale": 1.018
+        }
+      }
+    },
+    {
+      "image": "../Source/Images/paper_v31/S08_v01.png",
+      "start_frame": 1175,
+      "end_frame": 1339,
+      "direction": "none",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.47,
+          0.55
+        ],
+        "subject": "Completed test card and empty slots",
+        "reason": "Let the empty slots register with the test card",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.035
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.01
+        }
+      }
+    },
+    {
+      "image": "../Source/Images/paper_v31/S09_v01.png",
+      "start_frame": 1339,
+      "end_frame": 1490,
+      "direction": "none",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.52,
+          0.5
+        ],
+        "subject": "Demonstrator’s hands and apparatus",
+        "reason": "Concentrate on the instrument between the observers",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.009
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.038
+        }
+      }
+    },
+    {
+      "image": "../Source/Images/paper_v31/S10_v01.png",
+      "start_frame": 1490,
+      "end_frame": 1628,
+      "direction": "none",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.54,
+          0.52
+        ],
+        "subject": "Work drawing and hand",
+        "reason": "Open to show the workbench around the drawing",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.032
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.009
+        }
+      }
+    },
+    {
+      "image": "../Source/Images/paper_v31/S11_v01.png",
+      "start_frame": 1628,
+      "end_frame": 1775,
+      "direction": "right_to_left",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.6,
+          0.43
+        ],
+        "subject": "Fort and lighthouse on one coastal relief",
+        "reason": "Scan both test environments without cropping the lighthouse",
+        "start": {
+          "center": [
+            0.4965,
+            0.5
+          ],
+          "scale": 1.023
+        },
+        "end": {
+          "center": [
+            0.5035,
+            0.5
+          ],
+          "scale": 1.023
+        }
+      }
+    },
+    {
+      "image": "../Source/Images/paper_v31/S12_v01.png",
+      "start_frame": 1775,
+      "end_frame": 1898,
+      "direction": "none",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.51,
+          0.48
+        ],
+        "subject": "Officer’s response and receiver",
+        "reason": "Bring attention to the eyes and radio under the lamp",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.007
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.032
+        }
+      }
+    },
+    {
+      "image": "../Source/Images/paper_v31/S13_v01.png",
+      "start_frame": 1898,
+      "end_frame": 2031,
+      "direction": "none",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.52,
+          0.53
+        ],
+        "subject": "Eiffel, Ferrié and scale model",
+        "reason": "Hold both profiles while opening slightly to the real tower behind them",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.016
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.003
+        }
+      }
+    },
+    {
+      "image": "../Source/Images/paper_v31/S14_v01.png",
+      "start_frame": 2031,
+      "end_frame": 2166,
+      "direction": "left_to_right",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.54,
+          0.51
+        ],
+        "subject": "Tower model, ledger and sketches",
+        "reason": "Follow the arrangement across the desk without crowding the objects",
+        "start": {
+          "center": [
+            0.5035,
+            0.5
+          ],
+          "scale": 1.029
+        },
+        "end": {
+          "center": [
+            0.4965,
+            0.5
+          ],
+          "scale": 1.029
+        }
+      }
+    },
+    {
+      "image": "../Source/Images/paper_v31/S15_v01.png",
+      "start_frame": 2166,
+      "end_frame": 2288,
+      "direction": "none",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.54,
+          0.53
+        ],
+        "subject": "Insulator at a lattice joint",
+        "reason": "Approach the point where the short aerial is held",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.008
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.043
+        }
+      }
+    },
+    {
+      "image": "../Source/Images/paper_v31/S16_v01.png",
+      "start_frame": 2288,
+      "end_frame": 2410,
+      "direction": "none",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.57,
+          0.6
+        ],
+        "subject": "Wood workroom beside the south leg",
+        "reason": "Pull back from the room to show its scale against the leg",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.028
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.006
+        }
+      }
+    },
+    {
+      "image": "../Source/Images/paper_v31/S17_v01.png",
+      "start_frame": 2410,
+      "end_frame": 2530,
+      "direction": "right_to_left",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.55,
+          0.31
+        ],
+        "subject": "Aerial near the top of the tower",
+        "reason": "Look into the sky and keep the summit and aerial clear",
+        "start": {
+          "center": [
+            0.4965,
+            0.5
+          ],
+          "scale": 1.018
+        },
+        "end": {
+          "center": [
+            0.5035,
+            0.5
+          ],
+          "scale": 1.018
+        }
+      }
+    },
+    {
+      "image": "../Source/Images/paper_v31/S18_v01.png",
+      "start_frame": 2530,
+      "end_frame": 2652,
+      "direction": "none",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.55,
+          0.53
+        ],
+        "subject": "Fort receiver and listening operator",
+        "reason": "Make the hand on the dial the point of attention",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.007
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.035
+        }
+      }
+    },
+    {
+      "image": "../Source/Images/paper_v31/S19_v01.png",
+      "start_frame": 2652,
+      "end_frame": 2805,
+      "direction": "none",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.6,
+          0.55
+        ],
+        "subject": "Bizerte location marker and harbor",
+        "reason": "Open from the destination to its coast",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.029
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.005
+        }
+      }
+    },
+    {
+      "image": "../Source/Images/paper_v31/S20_v01.png",
+      "start_frame": 2805,
+      "end_frame": 2972,
+      "direction": "left_to_right",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.54,
+          0.53
+        ],
+        "subject": "Radio operators in the underground room",
+        "reason": "Track across the equipment and the two operators",
+        "start": {
+          "center": [
+            0.5035,
+            0.5
+          ],
+          "scale": 1.025
+        },
+        "end": {
+          "center": [
+            0.4965,
+            0.5
+          ],
+          "scale": 1.025
+        }
+      }
+    },
+    {
+      "image": "../Source/Images/paper_v31/S21_v01.png",
+      "start_frame": 2972,
+      "end_frame": 3120,
+      "direction": "none",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.53,
+          0.51
+        ],
+        "subject": "Aerial above ground and equipment below",
+        "reason": "Approach the two working levels while keeping them in view",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.005
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.023
+        }
+      }
+    },
+    {
+      "image": "../Source/Images/paper_v31/S22_v01.png",
+      "start_frame": 3120,
+      "end_frame": 3260,
+      "direction": "none",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.53,
+          0.5
+        ],
+        "subject": "Exhibition pavilion, miniature and receiver",
+        "reason": "Reveal the contrasting objects around the one unchanged tower",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.025
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.004
+        }
+      }
+    },
+    {
+      "image": "../Source/Images/paper_v31/S23_v01.png",
+      "start_frame": 3260,
+      "end_frame": 3428,
+      "direction": "right_to_left",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.51,
+          0.49
+        ],
+        "subject": "Full tower above the underground station",
+        "reason": "Keep the complete summit and room; move across only a few pixels",
+        "start": {
+          "center": [
+            0.498,
+            0.5
+          ],
+          "scale": 1.01
+        },
+        "end": {
+          "center": [
+            0.502,
+            0.5
+          ],
+          "scale": 1.01
+        }
+      }
+    }
+  ],
+  "subtitles": {
+    "mode": "words",
+    "words": "Subtitles/word_timings_en_v31_review.json",
+    "transcript": "../Source/Script/narration_en_v31.txt",
+    "keep_together": [
+      "French army",
+      "eastern France",
+      "Eiffel Tower",
+      "World's Fair",
+      "Eugène Ducretet",
+      "Morse code",
+      "Gustave Ferrié",
+      "Guglielmo Marconi",
+      "Gustave Eiffel",
+      "radio station",
+      "de Mars",
+      "Bizerte Tunisia",
+      "military base",
+      "that purpose",
+      "radio experiments",
+      "wooden room",
+      "the research",
+      "high above",
+      "French military",
+      "Champ de"
+    ]
+  }
+}

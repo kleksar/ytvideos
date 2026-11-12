@@ -1,0 +1,416 @@
+{
+  "boundaryFrame": 304,
+  "beforeCount": 57,
+  "crossing": [
+    {
+      "frames": [
+        273,
+        311
+      ],
+      "id": "8505E12D",
+      "mediaRef": "",
+      "mediaType": "text",
+      "textContent": "МАМЫ",
+      "textStyle": {
+        "border": {
+          "color": {
+            "a": 0.824
+          },
+          "enabled": true,
+          "width": 5
+        },
+        "fontName": "HelveticaNeue-CondensedBlack",
+        "fontSize": 52,
+        "isBold": true,
+        "tracking": 1.5
+      },
+      "transform": {
+        "x": 0.731,
+        "y": 0.235
+      }
+    },
+    {
+      "frames": [
+        273,
+        311
+      ],
+      "id": "8319869E",
+      "mediaRef": "",
+      "mediaType": "text",
+      "textContent": "РАЗНЫЕ",
+      "textStyle": {
+        "border": {
+          "color": {
+            "a": 0.824
+          },
+          "enabled": true,
+          "width": 5
+        },
+        "fontName": "HelveticaNeue-CondensedBlack",
+        "fontSize": 52,
+        "isBold": true,
+        "tracking": 1.5
+      },
+      "transform": {
+        "x": 0.424,
+        "y": 0.235
+      }
+    },
+    {
+      "frames": [
+        273,
+        311
+      ],
+      "id": "FC78E352",
+      "mediaRef": "",
+      "mediaType": "text",
+      "textContent": "НО",
+      "textStyle": {
+        "border": {
+          "color": {
+            "a": 0.824
+          },
+          "enabled": true,
+          "width": 5
+        },
+        "fontName": "HelveticaNeue-CondensedBlack",
+        "fontSize": 52,
+        "isBold": true,
+        "tracking": 1.5
+      },
+      "transform": {
+        "x": 0.193,
+        "y": 0.235
+      }
+    }
+  ],
+  "steps": [
+    {
+      "name": "split_clips",
+      "args": {
+        "splits": [
+          {
+            "clipId": "8505E12D",
+            "atFrame": 304
+          },
+          {
+            "clipId": "8319869E",
+            "atFrame": 304
+          },
+          {
+            "clipId": "FC78E352",
+            "atFrame": 304
+          }
+        ]
+      },
+      "state": "done",
+      "result": {
+        "clips": [
+          {
+            "frames": [
+              273,
+              304
+            ],
+            "id": "8505E12D",
+            "mediaRef": "",
+            "mediaType": "text",
+            "textContent": "МАМЫ",
+            "textStyle": {
+              "border": {
+                "color": {
+                  "a": 0.824
+                },
+                "enabled": true,
+                "width": 5
+              },
+              "fontName": "HelveticaNeue-CondensedBlack",
+              "fontSize": 52,
+              "isBold": true,
+              "tracking": 1.5
+            },
+            "track": 1,
+            "transform": {
+              "x": 0.731,
+              "y": 0.235
+            }
+          },
+          {
+            "frames": [
+              304,
+              311
+            ],
+            "id": "6B8FABA4",
+            "mediaRef": "",
+            "mediaType": "text",
+            "textContent": "МАМЫ",
+            "textStyle": {
+              "border": {
+                "color": {
+                  "a": 0.824
+                },
+                "enabled": true,
+                "width": 5
+              },
+              "fontName": "HelveticaNeue-CondensedBlack",
+              "fontSize": 52,
+              "isBold": true,
+              "tracking": 1.5
+            },
+            "track": 1,
+            "transform": {
+              "x": 0.731,
+              "y": 0.235
+            }
+          },
+          {
+            "frames": [
+              273,
+              304
+            ],
+            "id": "8319869E",
+            "mediaRef": "",
+            "mediaType": "text",
+            "textContent": "РАЗНЫЕ",
+            "textStyle": {
+              "border": {
+                "color": {
+                  "a": 0.824
+                },
+                "enabled": true,
+                "width": 5
+              },
+              "fontName": "HelveticaNeue-CondensedBlack",
+              "fontSize": 52,
+              "isBold": true,
+              "tracking": 1.5
+            },
+            "track": 2,
+            "transform": {
+              "x": 0.424,
+              "y": 0.235
+            }
+          },
+          {
+            "frames": [
+              304,
+              311
+            ],
+            "id": "5AAFB9EB",
+            "mediaRef": "",
+            "mediaType": "text",
+            "textContent": "РАЗНЫЕ",
+            "textStyle": {
+              "border": {
+                "color": {
+                  "a": 0.824
+                },
+                "enabled": true,
+                "width": 5
+              },
+              "fontName": "HelveticaNeue-CondensedBlack",
+              "fontSize": 52,
+              "isBold": true,
+              "tracking": 1.5
+            },
+            "track": 2,
+            "transform": {
+              "x": 0.424,
+              "y": 0.235
+            }
+          },
+          {
+            "frames": [
+              273,
+              304
+            ],
+            "id": "FC78E352",
+            "mediaRef": "",
+            "mediaType": "text",
+            "textContent": "НО",
+            "textStyle": {
+              "border": {
+                "color": {
+                  "a": 0.824
+                },
+                "enabled": true,
+                "width": 5
+              },
+              "fontName": "HelveticaNeue-CondensedBlack",
+              "fontSize": 52,
+              "isBold": true,
+              "tracking": 1.5
+            },
+            "track": 3,
+            "transform": {
+              "x": 0.193,
+              "y": 0.235
+            }
+          },
+          {
+            "frames": [
+              304,
+              311
+            ],
+            "id": "987D5320",
+            "mediaRef": "",
+            "mediaType": "text",
+            "textContent": "НО",
+            "textStyle": {
+              "border": {
+                "color": {
+                  "a": 0.824
+                },
+                "enabled": true,
+                "width": 5
+              },
+              "fontName": "HelveticaNeue-CondensedBlack",
+              "fontSize": 52,
+              "isBold": true,
+              "tracking": 1.5
+            },
+            "track": 3,
+            "transform": {
+              "x": 0.193,
+              "y": 0.235
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "remove_clips",
+      "args": {
+        "clipIds": [
+          "D5BB13F5",
+          "FC42AC64",
+          "2E786D1A",
+          "225F0765",
+          "0EA26543",
+          "F4505180",
+          "76058F04",
+          "CD30339C",
+          "158D3787",
+          "7CB37E92",
+          "7546B19B",
+          "8A0976AE",
+          "E9ACEFC2",
+          "3C736540",
+          "B15E625A",
+          "A98B349A",
+          "051E477F",
+          "E20632A4",
+          "701E8E37",
+          "EC276FF8",
+          "03AD7564",
+          "FF273F16",
+          "5B27825C",
+          "BCDBD2D4",
+          "2C2F6B85",
+          "3EFA8FBB",
+          "E0537832",
+          "5DC97677",
+          "51BB2A66",
+          "49714CD0",
+          "4BB65C40",
+          "8505E12D",
+          "94EF2886",
+          "1B120942",
+          "20AF8EF8",
+          "62A2101A",
+          "7621DED4",
+          "9908C16E",
+          "8688DB7C",
+          "EE1E10B3",
+          "F56811D1",
+          "423CADB5",
+          "BCC4ED09",
+          "8319869E",
+          "CC4EDC21",
+          "EBA93CC6",
+          "02F26D47",
+          "1028754E",
+          "FDF4770F",
+          "5D799722",
+          "974DAC85",
+          "1B96B0B0",
+          "683AF397",
+          "05016B69",
+          "11C24C9B",
+          "FC78E352",
+          "E85163D2",
+          "5AAEB0D1",
+          "EED1812D",
+          "45A4144A"
+        ]
+      },
+      "state": "done",
+      "result": {
+        "notes": [
+          "Track indices shifted — re-read get_timeline before the next index-based call."
+        ],
+        "removedClipIds": [
+          "02F26D47",
+          "03AD7564",
+          "05016B69",
+          "051E477F",
+          "0EA26543",
+          "1028754E",
+          "11C24C9B",
+          "158D3787",
+          "1B120942",
+          "1B96B0B0",
+          "20AF8EF8",
+          "225F0765",
+          "2C2F6B85",
+          "2E786D1A",
+          "3C736540",
+          "3EFA8FBB",
+          "423CADB5",
+          "45A4144A",
+          "49714CD0",
+          "4BB65C40",
+          "51BB2A66",
+          "5AAEB0D1",
+          "5B27825C",
+          "5D799722",
+          "5DC97677",
+          "62A2101A",
+          "683AF397",
+          "701E8E37",
+          "7546B19B",
+          "76058F04",
+          "7621DED4",
+          "7CB37E92",
+          "8319869E",
+          "8505E12D",
+          "8688DB7C",
+          "8A0976AE",
+          "94EF2886",
+          "974DAC85",
+          "9908C16E",
+          "A98B349A",
+          "B15E625A",
+          "BCC4ED09",
+          "BCDBD2D4",
+          "CC4EDC21",
+          "CD30339C",
+          "D5BB13F5",
+          "E0537832",
+          "E20632A4",
+          "E85163D2",
+          "E9ACEFC2",
+          "EBA93CC6",
+          "EC276FF8",
+          "EE1E10B3",
+          "EED1812D",
+          "F4505180",
+          "F56811D1",
+          "FC42AC64",
+          "FC78E352",
+          "FDF4770F",
+          "FF273F16"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-02",
+  "status": "EDITORIAL_REVIEW_DRAFT_NOT_NEW_MEDIA_QA",
+  "thread_id": "01a1981d-a870-7112-8979-ccd0e34cc760",
+  "thread_read_method": "read_thread followed by read-only local session messages for oversized turns",
+  "session_source": "/Users/diplomat/.codex/sessions/2026/11/01/rollout-2026-11-01T18-17-22-01a1981d-a870-7112-8979-ccd0e34cc760.jsonl",
+  "reference": {
+    "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Deliverables/PAPER_DETOUR_030_CLOTHING_HISTORY_EN_v14.mp4",
+    "sha256": "f038c0188cae809971ffd259cde0a064370dce87e61e53ce303811b14b4a470a",
+    "visual_coverage": "all 39 scenes on SCENES_1/2/3.jpg with start/mid/end; native selected_v03/26_kmska_look_beyond_faces.png"
+  },
+  "current_delivery": {
+    "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Deliverables/032_galveston_en_motion_review_v01.mp4",
+    "sha256": "6ac817c61e5dd788405bde0ba83a74e41936786bccf9b0f753f71af0a2589538",
+    "timeline_unchanged": true,
+    "full_continuous_playback_this_task": false,
+    "subjective_listening_this_task": false,
+    "independent_qa_this_task": false
+  },
+  "current_qa_boards_reviewed_this_task": [
+    "scenes_01.jpg",
+    "scenes_18.jpg",
+    "scenes_19.jpg",
+    "scenes_23.jpg",
+    "scenes_27.jpg",
+    "scenes_28.jpg",
+    "scenes_32.jpg"
+  ],
+  "timing": {
+    "outside_4_6": 89,
+    "below_4": 62,
+    "above_6": 27,
+    "short_hold_cues": [
+      "C02",
+      "C04",
+      "C10",
+      "C13",
+      "C14",
+      "C16"
+    ]
+  },
+  "no_media_mutation": true
+}

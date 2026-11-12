@@ -1,0 +1,5 @@
+# Черновой микс: paper_fingers
+
+Источник речи: voice_en.mp3, SHA-256 `d4c43d31ddc5b3cbd1cf4a3196e3f6d1f4ed7489a804cae39728f40d22f288c0`. Один раз применено `ffmpeg atempo=1.1`, результат voice_en_110_draft.wav, SHA-256 `9784a0dd0ef3f8cbc396f2c1c3f5726f7d529b1ee2536d8a948859e35717458a`. Музыкальный кандидат: Limit 70.mp3, SHA-256 `b3d2463a32cd6e87a2e0bdb9056113f3702883acbe617a6b029cc14c85561f33`, из локальных Downloads; карточка автора и CC BY 4.0 проверены в Chrome. Фрагмент с 20 с, уровень 0.13, выходной фейд 0.25 с. Сведение: `[0:a]apad,atrim=duration=28.733333333333334[v];[1:a]atrim=start=20:duration=28.733333333333334,asetpts=PTS-STARTPTS,volume=0.13,afade=t=out:st=28.483333333333334:d=0.25[m];[v][m]amix=inputs=2:duration=first:normalize=0,alimiter=limit=0.95:latency=1[out]`. Итог mix_110_draft.wav, SHA-256 `fa4e5d9e2f39e3549f6945ea45bbbb3df168046d09da662cfd89af40e0f121a2`.
+
+Это технический черновик, не принятый микс: нужны прослушивание голоса и музыки, проверка баланса, границ речи, версии трека и соответствующей атрибуции. Тайминги слов — автоматическая оценка; возможна погрешность после преобразования темпа.

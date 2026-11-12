@@ -1,0 +1,85 @@
+{
+  "purpose": "English long review MP4, audio-only replacement",
+  "status": "READY_TO_RENDER",
+  "picture_source": {
+    "path": "Deliverables/review_redesign_en_v02.mp4",
+    "sha256": "2f2c74c675dd27437c5290ca9abb2b32122a884cf27363f4cd538ca3a8491b3b"
+  },
+  "inherited_picture_contract": {
+    "path": "Edit/LongForm_v01/EXPORT_CONTRACT_redesign_review_v02.json",
+    "sha256": "91fc712075fa917f8da90e7dc22746a26ca9197d1cf2aa7801caba486e2f29fb"
+  },
+  "timeline": {
+    "width": 2560,
+    "height": 1440,
+    "aspect_ratio": "16:9",
+    "sample_aspect_ratio": "1:1",
+    "fps": "30/1",
+    "frame_count": 7584,
+    "duration_seconds": 252.8,
+    "output_color_space": "Rec.709 SDR"
+  },
+  "video": {
+    "codec_name": "h264",
+    "pix_fmt": "yuv420p",
+    "scan": "progressive",
+    "cadence": "constant 30/1 fps",
+    "color_primaries": "bt709",
+    "color_transfer": "bt709",
+    "color_space": "bt709",
+    "color_range": "tv"
+  },
+  "audio": {
+    "mix": {
+      "path": "Edit/Audio/mix_continuous_v03.wav",
+      "sha256": "1cce49d58c9015a0c2911974566dc0b6118dd6214198bf53652f248d51c21967"
+    },
+    "handoff": {
+      "path": "Edit/Audio/MUSIC_CONTINUOUS_V03.md",
+      "sha256": "72b57505ece4216895dc1825a6f78ec550f91d2fce0f795e79e3fbcc8d787a7e"
+    },
+    "word_map": {
+      "path": "Edit/Audio/word_times_music_v03.json",
+      "sha256": "209be428f7e7f47de69565b83b3a2a1e594103d43f7e4a648614fec283ad1f16"
+    },
+    "codec": "AAC-LC",
+    "sample_rate": 44100,
+    "channels": 2,
+    "target_bit_rate": 256000
+  },
+  "engine": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers",
+  "working_directory": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london",
+  "argv": [
+    "ffmpeg",
+    "-v",
+    "error",
+    "-xerror",
+    "-n",
+    "-i",
+    "Deliverables/review_redesign_en_v02.mp4",
+    "-i",
+    "Edit/Audio/mix_continuous_v03.wav",
+    "-map",
+    "0:v:0",
+    "-map",
+    "1:a:0",
+    "-c:v",
+    "copy",
+    "-c:a",
+    "aac",
+    "-profile:a",
+    "aac_low",
+    "-b:a",
+    "256k",
+    "-ar",
+    "44100",
+    "-ac",
+    "2",
+    "-movflags",
+    "+faststart",
+    "Deliverables/review_redesign_en_v03.mp4"
+  ],
+  "output": "Deliverables/review_redesign_en_v03.mp4",
+  "capability_mapping": "FFmpeg video stream copy including captions; AAC encode from new PCM only.",
+  "preflight_audit": "Edit/MediaLifecycle/audit_audio_remux_v03/audit.json"
+}

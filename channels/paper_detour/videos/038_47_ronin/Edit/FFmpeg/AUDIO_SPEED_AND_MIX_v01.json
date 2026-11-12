@@ -1,0 +1,56 @@
+{
+  "episode": "038_47_ronin",
+  "product_language": "en",
+  "status": "DRAFT_READY_FOR_SCENE_AND_VIDEO_REVIEW",
+  "voice_source": {
+    "path": "Source/Voice/en_v09/voice_en_patched.wav",
+    "sha256": "ced46158b35b0ede288ecbf2f707b4934c0b138143129c65305677b1fc1af327",
+    "duration_seconds": 614.16,
+    "sample_rate": 44100,
+    "channels": 1,
+    "recorded_speed": 1.0
+  },
+  "voice_delivery": {
+    "path": "Assets/Generated/audio-en-v01/voice_en_v09_speed110.wav",
+    "sha256": "8e275f54f7fde63a1be22c8d7d801bb8932991774a820d9c27d53fbf02cf2df4",
+    "method": "FFmpeg atempo=1.1 applied once to the full accepted ENv09 recording",
+    "duration_seconds": 558.327,
+    "sample_rate": 44100,
+    "channels": 1,
+    "codec": "PCM s16le"
+  },
+  "alignment": {
+    "path": "Edit/FFmpeg/word-times-en-v09-speed110-v01.json",
+    "audio_sha256": "8e275f54f7fde63a1be22c8d7d801bb8932991774a820d9c27d53fbf02cf2df4",
+    "transcript_sha256": "2febc1f0a0e9ed5162c8975d238baaa77c9e0a358bad8334460f48e81ff71f4b",
+    "word_count": 1668,
+    "method": "WhisperX forced alignment",
+    "status": "REVIEW_REQUIRED; audible synchronization and pronunciation remain unverified"
+  },
+  "music_source": {
+    "path": "Assets/Generated/audio-en-v01/music_score_v01.mp3",
+    "sha256": "805f62560cc2f9e7a31c72795982121307be8da8e42129502b63bf3b51901d86",
+    "duration_seconds": 600.033,
+    "sample_rate": 44100,
+    "channels": 2,
+    "codec": "MP3"
+  },
+  "mix": {
+    "path": "Assets/Generated/audio-en-v01/full_mix_v01.m4a",
+    "sha256": "eb6f2c29e234db9265b3455a038ed99e495cf6d376ad6ced339f1784d4674e61",
+    "duration_seconds": 558.327,
+    "codec": "AAC-LC",
+    "sample_rate": 44100,
+    "channels": 2,
+    "target_bitrate_bps": 256000,
+    "measured_bitrate_bps": 261216,
+    "voice_pan": "center dual-mono into stereo bus",
+    "music_gain_db": -18,
+    "music_start_seconds": 14,
+    "music_fade_in_seconds": 2,
+    "music_fade_out_seconds": 3,
+    "music_end_seconds": 558.327,
+    "measured_mix_peak_dbfs": -2.1,
+    "subjective_listening": "UNVERIFIED"
+  }
+}

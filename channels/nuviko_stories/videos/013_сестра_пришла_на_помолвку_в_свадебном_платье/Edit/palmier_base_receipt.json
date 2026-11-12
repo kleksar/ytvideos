@@ -1,0 +1,1138 @@
+{
+  "project": "/Users/diplomat/ytvideos/channels/nuviko_stories/videos/1/1.palmier",
+  "timeline_id": "6FB7B8EE",
+  "timeline_name": "013_ru_shorts_110",
+  "operations": [
+    {
+      "operation": "import_media",
+      "result": {
+        "mediaRef": "89B3E990",
+        "name": "013_female_before",
+        "status": "ready",
+        "type": "audio"
+      }
+    },
+    {
+      "operation": "import_media",
+      "result": {
+        "mediaRef": "9565F1CA",
+        "name": "013_male_line",
+        "status": "ready",
+        "type": "audio"
+      }
+    },
+    {
+      "operation": "import_media",
+      "result": {
+        "mediaRef": "24A67597",
+        "name": "013_female_after",
+        "status": "ready",
+        "type": "audio"
+      }
+    },
+    {
+      "operation": "add_voice",
+      "result": {
+        "clips": [
+          {
+            "frames": [
+              0,
+              3692
+            ],
+            "id": "0F6E216B",
+            "mediaRef": "89B3E990",
+            "mediaType": "audio",
+            "track": 0
+          }
+        ],
+        "createdTracks": [
+          {
+            "index": 0,
+            "label": "A1",
+            "type": "audio"
+          }
+        ]
+      }
+    },
+    {
+      "operation": "edit_speed",
+      "result": {
+        "action": "uniform",
+        "affectedClipIds": [
+          "0F6E216B"
+        ],
+        "changed": true,
+        "clipId": "0F6E216B",
+        "clips": [
+          {
+            "frames": [
+              0,
+              3356
+            ],
+            "id": "0F6E216B",
+            "mediaRef": "89B3E990",
+            "mediaType": "audio",
+            "speed": 1.1,
+            "track": 0
+          }
+        ],
+        "speed": {
+          "mode": "uniform",
+          "rate": 1.1
+        }
+      }
+    },
+    {
+      "operation": "add_voice",
+      "result": {
+        "clips": [
+          {
+            "frames": [
+              3359,
+              3535
+            ],
+            "id": "D65BD180",
+            "mediaRef": "9565F1CA",
+            "mediaType": "audio",
+            "track": 0
+          }
+        ]
+      }
+    },
+    {
+      "operation": "edit_speed",
+      "result": {
+        "action": "uniform",
+        "affectedClipIds": [
+          "D65BD180"
+        ],
+        "changed": true,
+        "clipId": "D65BD180",
+        "clips": [
+          {
+            "frames": [
+              3359,
+              3519
+            ],
+            "id": "D65BD180",
+            "mediaRef": "9565F1CA",
+            "mediaType": "audio",
+            "speed": 1.1,
+            "track": 0
+          }
+        ],
+        "speed": {
+          "mode": "uniform",
+          "rate": 1.1
+        }
+      }
+    },
+    {
+      "operation": "add_voice",
+      "result": {
+        "clips": [
+          {
+            "frames": [
+              3522,
+              4269
+            ],
+            "id": "EA5163FC",
+            "mediaRef": "24A67597",
+            "mediaType": "audio",
+            "track": 0
+          }
+        ]
+      }
+    },
+    {
+      "operation": "edit_speed",
+      "result": {
+        "action": "uniform",
+        "affectedClipIds": [
+          "EA5163FC"
+        ],
+        "changed": true,
+        "clipId": "EA5163FC",
+        "clips": [
+          {
+            "frames": [
+              3522,
+              4201
+            ],
+            "id": "EA5163FC",
+            "mediaRef": "24A67597",
+            "mediaType": "audio",
+            "speed": 1.1,
+            "track": 0
+          }
+        ],
+        "speed": {
+          "mode": "uniform",
+          "rate": 1.1
+        }
+      }
+    },
+    {
+      "operation": "add_broll",
+      "result": {
+        "clips": [
+          {
+            "frames": [
+              0,
+              178
+            ],
+            "id": "65A8C280",
+            "mediaRef": "8D5C44DA",
+            "track": 0
+          },
+          {
+            "frames": [
+              178,
+              311
+            ],
+            "id": "0235B6A9",
+            "mediaRef": "DE33B72E",
+            "track": 0
+          },
+          {
+            "frames": [
+              311,
+              462
+            ],
+            "id": "F9814B9A",
+            "mediaRef": "3E6E1BEB",
+            "track": 0
+          },
+          {
+            "frames": [
+              462,
+              611
+            ],
+            "id": "78755E3A",
+            "mediaRef": "F1AB460D",
+            "track": 0
+          },
+          {
+            "frames": [
+              611,
+              743
+            ],
+            "id": "29A65D59",
+            "mediaRef": "81FC0511",
+            "track": 0
+          },
+          {
+            "frames": [
+              743,
+              890
+            ],
+            "id": "AA5A3FF5",
+            "mediaRef": "F6516C7C",
+            "track": 0
+          },
+          {
+            "frames": [
+              890,
+              1055
+            ],
+            "id": "CF1054C2",
+            "mediaRef": "821AC811",
+            "track": 0
+          },
+          {
+            "frames": [
+              1055,
+              1213
+            ],
+            "id": "BFDD8087",
+            "mediaRef": "C7AAB474",
+            "track": 0
+          },
+          {
+            "frames": [
+              1213,
+              1360
+            ],
+            "id": "681F6AB5",
+            "mediaRef": "5CC8C5BA",
+            "track": 0
+          },
+          {
+            "frames": [
+              1360,
+              1487
+            ],
+            "id": "20432C59",
+            "mediaRef": "39FCF74F",
+            "track": 0
+          },
+          {
+            "frames": [
+              1487,
+              1602
+            ],
+            "id": "5F292765",
+            "mediaRef": "54343D87",
+            "track": 0
+          },
+          {
+            "frames": [
+              1602,
+              1748
+            ],
+            "id": "161CE22A",
+            "mediaRef": "C55FDBAD",
+            "track": 0
+          },
+          {
+            "frames": [
+              1748,
+              1882
+            ],
+            "id": "A411E529",
+            "mediaRef": "266D1B63",
+            "track": 0
+          },
+          {
+            "frames": [
+              1882,
+              2044
+            ],
+            "id": "483077DA",
+            "mediaRef": "3B3FE992",
+            "track": 0
+          },
+          {
+            "frames": [
+              2044,
+              2199
+            ],
+            "id": "6EA1C778",
+            "mediaRef": "0E79E2CD",
+            "track": 0
+          },
+          {
+            "frames": [
+              2199,
+              2338
+            ],
+            "id": "927B2678",
+            "mediaRef": "909604D2",
+            "track": 0
+          },
+          {
+            "frames": [
+              2338,
+              2487
+            ],
+            "id": "5D7AF1E8",
+            "mediaRef": "A9E047D8",
+            "track": 0
+          },
+          {
+            "frames": [
+              2487,
+              2629
+            ],
+            "id": "E13A98CC",
+            "mediaRef": "52F42E73",
+            "track": 0
+          },
+          {
+            "frames": [
+              2629,
+              2759
+            ],
+            "id": "1100B551",
+            "mediaRef": "77E83625",
+            "track": 0
+          },
+          {
+            "frames": [
+              2759,
+              2890
+            ],
+            "id": "3A785767",
+            "mediaRef": "105BA89E",
+            "track": 0
+          },
+          {
+            "frames": [
+              2890,
+              3044
+            ],
+            "id": "CE4A794E",
+            "mediaRef": "DFE443B1",
+            "track": 0
+          },
+          {
+            "frames": [
+              3044,
+              3174
+            ],
+            "id": "4F54170C",
+            "mediaRef": "93934681",
+            "track": 0
+          },
+          {
+            "frames": [
+              3174,
+              3313
+            ],
+            "id": "20A9D05D",
+            "mediaRef": "CC8F3D37",
+            "track": 0
+          },
+          {
+            "frames": [
+              3313,
+              3461
+            ],
+            "id": "671823A6",
+            "mediaRef": "2C789128",
+            "track": 0
+          },
+          {
+            "frames": [
+              3461,
+              3611
+            ],
+            "id": "A3F9CBAE",
+            "mediaRef": "20E85814",
+            "track": 0
+          },
+          {
+            "frames": [
+              3611,
+              3751
+            ],
+            "id": "5BBDB834",
+            "mediaRef": "582AB0E3",
+            "track": 0
+          },
+          {
+            "frames": [
+              3751,
+              3886
+            ],
+            "id": "27CDF00A",
+            "mediaRef": "D7DEFF42",
+            "track": 0
+          },
+          {
+            "frames": [
+              3886,
+              4036
+            ],
+            "id": "703C8AB6",
+            "mediaRef": "6C577ACB",
+            "track": 0
+          },
+          {
+            "frames": [
+              4036,
+              4184
+            ],
+            "id": "3CA52C69",
+            "mediaRef": "04B6E7A4",
+            "track": 0
+          },
+          {
+            "frames": [
+              4184,
+              4201
+            ],
+            "id": "7F80BAF8",
+            "mediaRef": "E8E4BEE1",
+            "track": 0,
+            "trimEndFrame": 150
+          }
+        ],
+        "createdTracks": [
+          {
+            "index": 0,
+            "label": "V1",
+            "type": "video"
+          }
+        ],
+        "notes": [
+          "Track indices shifted — re-read get_timeline before the next index-based call."
+        ]
+      }
+    },
+    {
+      "operation": "replace_short_end",
+      "result": {
+        "clips": [
+          {
+            "frames": [
+              4036,
+              4201
+            ],
+            "id": "79BE4CF8",
+            "mediaRef": "E8E4BEE1",
+            "track": 0,
+            "trimEndFrame": 2
+          }
+        ],
+        "removedClipIds": [
+          "3CA52C69",
+          "7F80BAF8"
+        ]
+      }
+    }
+  ],
+  "voice": [
+    {
+      "segment": "female_before",
+      "source": "/Users/diplomat/ytvideos/channels/nuviko_stories/videos/013_сестра_пришла_на_помолвку_в_свадебном_платье/Source/Voice/female_before.mp3",
+      "mediaRef": "89B3E990",
+      "frames": [
+        0,
+        3356
+      ],
+      "id": "0F6E216B",
+      "mediaType": "audio",
+      "speed": 1.1
+    },
+    {
+      "segment": "male_line",
+      "source": "/Users/diplomat/ytvideos/channels/nuviko_stories/videos/013_сестра_пришла_на_помолвку_в_свадебном_платье/Source/Voice/male_line.mp3",
+      "mediaRef": "9565F1CA",
+      "frames": [
+        3359,
+        3519
+      ],
+      "id": "D65BD180",
+      "mediaType": "audio",
+      "speed": 1.1
+    },
+    {
+      "segment": "female_after",
+      "source": "/Users/diplomat/ytvideos/channels/nuviko_stories/videos/013_сестра_пришла_на_помолвку_в_свадебном_платье/Source/Voice/female_after.mp3",
+      "mediaRef": "24A67597",
+      "frames": [
+        3522,
+        4201
+      ],
+      "id": "EA5163FC",
+      "mediaType": "audio",
+      "speed": 1.1
+    }
+  ],
+  "broll_plan": [
+    {
+      "name": "34",
+      "mediaRef": "8D5C44DA",
+      "startFrame": 0,
+      "endFrame": 178
+    },
+    {
+      "name": "6",
+      "mediaRef": "DE33B72E",
+      "startFrame": 178,
+      "endFrame": 311
+    },
+    {
+      "name": "11",
+      "mediaRef": "3E6E1BEB",
+      "startFrame": 311,
+      "endFrame": 462
+    },
+    {
+      "name": "82",
+      "mediaRef": "F1AB460D",
+      "startFrame": 462,
+      "endFrame": 611
+    },
+    {
+      "name": "29",
+      "mediaRef": "81FC0511",
+      "startFrame": 611,
+      "endFrame": 743
+    },
+    {
+      "name": "48",
+      "mediaRef": "F6516C7C",
+      "startFrame": 743,
+      "endFrame": 890
+    },
+    {
+      "name": "49",
+      "mediaRef": "821AC811",
+      "startFrame": 890,
+      "endFrame": 1055
+    },
+    {
+      "name": "41",
+      "mediaRef": "C7AAB474",
+      "startFrame": 1055,
+      "endFrame": 1213
+    },
+    {
+      "name": "57",
+      "mediaRef": "5CC8C5BA",
+      "startFrame": 1213,
+      "endFrame": 1360
+    },
+    {
+      "name": "30",
+      "mediaRef": "39FCF74F",
+      "startFrame": 1360,
+      "endFrame": 1487
+    },
+    {
+      "name": "26",
+      "mediaRef": "54343D87",
+      "startFrame": 1487,
+      "endFrame": 1602
+    },
+    {
+      "name": "72",
+      "mediaRef": "C55FDBAD",
+      "startFrame": 1602,
+      "endFrame": 1748
+    },
+    {
+      "name": "15",
+      "mediaRef": "266D1B63",
+      "startFrame": 1748,
+      "endFrame": 1882
+    },
+    {
+      "name": "33",
+      "mediaRef": "3B3FE992",
+      "startFrame": 1882,
+      "endFrame": 2044
+    },
+    {
+      "name": "74",
+      "mediaRef": "0E79E2CD",
+      "startFrame": 2044,
+      "endFrame": 2199
+    },
+    {
+      "name": "12",
+      "mediaRef": "909604D2",
+      "startFrame": 2199,
+      "endFrame": 2338
+    },
+    {
+      "name": "18",
+      "mediaRef": "A9E047D8",
+      "startFrame": 2338,
+      "endFrame": 2487
+    },
+    {
+      "name": "64",
+      "mediaRef": "52F42E73",
+      "startFrame": 2487,
+      "endFrame": 2629
+    },
+    {
+      "name": "22",
+      "mediaRef": "77E83625",
+      "startFrame": 2629,
+      "endFrame": 2759
+    },
+    {
+      "name": "3",
+      "mediaRef": "105BA89E",
+      "startFrame": 2759,
+      "endFrame": 2890
+    },
+    {
+      "name": "70",
+      "mediaRef": "DFE443B1",
+      "startFrame": 2890,
+      "endFrame": 3044
+    },
+    {
+      "name": "83",
+      "mediaRef": "93934681",
+      "startFrame": 3044,
+      "endFrame": 3174
+    },
+    {
+      "name": "13",
+      "mediaRef": "CC8F3D37",
+      "startFrame": 3174,
+      "endFrame": 3313
+    },
+    {
+      "name": "53",
+      "mediaRef": "2C789128",
+      "startFrame": 3313,
+      "endFrame": 3461
+    },
+    {
+      "name": "38",
+      "mediaRef": "20E85814",
+      "startFrame": 3461,
+      "endFrame": 3611
+    },
+    {
+      "name": "62",
+      "mediaRef": "582AB0E3",
+      "startFrame": 3611,
+      "endFrame": 3751
+    },
+    {
+      "name": "4",
+      "mediaRef": "D7DEFF42",
+      "startFrame": 3751,
+      "endFrame": 3886
+    },
+    {
+      "name": "80",
+      "mediaRef": "6C577ACB",
+      "startFrame": 3886,
+      "endFrame": 4036
+    },
+    {
+      "name": "31",
+      "mediaRef": "E8E4BEE1",
+      "startFrame": 4036,
+      "endFrame": 4201
+    }
+  ],
+  "timeline_snapshot": {
+    "canGenerate": false,
+    "currentFrame": 0,
+    "durationSeconds": 140.033,
+    "fps": 30,
+    "height": 1920,
+    "id": "6FB7B8EE",
+    "maskOverlayVisible": true,
+    "name": "013_ru_shorts_110",
+    "timelines": [
+      {
+        "name": "Timeline 1",
+        "timelineId": "9804B871"
+      },
+      {
+        "name": "1_en",
+        "timelineId": "37A283F5"
+      },
+      {
+        "name": "1_ru",
+        "timelineId": "BAEB7DBB"
+      },
+      {
+        "name": "002_en_long",
+        "timelineId": "7D4B5711"
+      },
+      {
+        "name": "003_en_shorts",
+        "timelineId": "4131508C"
+      },
+      {
+        "name": "003_ru_shorts",
+        "timelineId": "297C29CC"
+      },
+      {
+        "name": "003_en_shorts",
+        "timelineId": "F5626B89"
+      },
+      {
+        "name": "003_ru_shorts",
+        "timelineId": "52173992"
+      },
+      {
+        "name": "002_en_long_dynamic_20261028T105013Z_b83393c0",
+        "timelineId": "63EB9FE9"
+      },
+      {
+        "name": "002_en_long_dynamic_20261028T115200Z_5997d296",
+        "timelineId": "46860109"
+      },
+      {
+        "name": "002_en_long_dynamic_20261028T115443Z_0610b6d8",
+        "timelineId": "63DE59B6"
+      },
+      {
+        "name": "004_en_pompeii_shorts",
+        "timelineId": "513CD38A"
+      },
+      {
+        "name": "005_en_pompeii_shorts",
+        "timelineId": "9BF42AF7"
+      },
+      {
+        "name": "006_en_pompeii_shorts",
+        "timelineId": "B09392F6"
+      },
+      {
+        "name": "008_en_pompeii_shorts",
+        "timelineId": "794D2109"
+      },
+      {
+        "name": "007_en_pompeii_shorts",
+        "timelineId": "1EE9DF97"
+      },
+      {
+        "name": "010_en_pfeilstorch_shorts",
+        "timelineId": "95C9414A"
+      },
+      {
+        "name": "009_en_black_death_01_shorts",
+        "timelineId": "7E808796"
+      },
+      {
+        "name": "009_en_black_death_03_shorts",
+        "timelineId": "C5EBC76D"
+      },
+      {
+        "name": "009_en_black_death_05_shorts",
+        "timelineId": "9A3F08E3"
+      },
+      {
+        "name": "009_en_black_death_02_shorts",
+        "timelineId": "4122F90D"
+      },
+      {
+        "name": "009_en_black_death_01_shorts_105",
+        "timelineId": "EF8F0BF7"
+      },
+      {
+        "name": "009_en_black_death_02_shorts_105",
+        "timelineId": "D52C03EF"
+      },
+      {
+        "name": "009_en_black_death_04_shorts_105",
+        "timelineId": "3726D71D"
+      },
+      {
+        "name": "009_en_black_death_03_shorts_105",
+        "timelineId": "B0B378E9"
+      },
+      {
+        "name": "009_en_black_death_05_shorts_105",
+        "timelineId": "2544A78F"
+      },
+      {
+        "name": "011_ru_shorts",
+        "timelineId": "52184D12"
+      },
+      {
+        "name": "011_ru_shorts_110",
+        "timelineId": "0955FE32"
+      },
+      {
+        "name": "012_ru_shorts_110",
+        "timelineId": "84C03ABF"
+      },
+      {
+        "name": "012_en_shorts_110",
+        "timelineId": "1B19694C"
+      },
+      {
+        "name": "011_en_shorts_110",
+        "timelineId": "C206171A"
+      },
+      {
+        "name": "female_voice_speed_comparison",
+        "timelineId": "DC38F1BC"
+      },
+      {
+        "active": true,
+        "name": "013_ru_shorts_110",
+        "timelineId": "6FB7B8EE"
+      }
+    ],
+    "totalFrames": 4201,
+    "tracks": [
+      {
+        "clips": [
+          {
+            "frames": [
+              0,
+              178
+            ],
+            "id": "65A8C280",
+            "mediaRef": "8D5C44DA"
+          },
+          {
+            "frames": [
+              178,
+              311
+            ],
+            "id": "0235B6A9",
+            "mediaRef": "DE33B72E"
+          },
+          {
+            "frames": [
+              311,
+              462
+            ],
+            "id": "F9814B9A",
+            "mediaRef": "3E6E1BEB"
+          },
+          {
+            "frames": [
+              462,
+              611
+            ],
+            "id": "78755E3A",
+            "mediaRef": "F1AB460D"
+          },
+          {
+            "frames": [
+              611,
+              743
+            ],
+            "id": "29A65D59",
+            "mediaRef": "81FC0511"
+          },
+          {
+            "frames": [
+              743,
+              890
+            ],
+            "id": "AA5A3FF5",
+            "mediaRef": "F6516C7C"
+          },
+          {
+            "frames": [
+              890,
+              1055
+            ],
+            "id": "CF1054C2",
+            "mediaRef": "821AC811"
+          },
+          {
+            "frames": [
+              1055,
+              1213
+            ],
+            "id": "BFDD8087",
+            "mediaRef": "C7AAB474"
+          },
+          {
+            "frames": [
+              1213,
+              1360
+            ],
+            "id": "681F6AB5",
+            "mediaRef": "5CC8C5BA"
+          },
+          {
+            "frames": [
+              1360,
+              1487
+            ],
+            "id": "20432C59",
+            "mediaRef": "39FCF74F"
+          },
+          {
+            "frames": [
+              1487,
+              1602
+            ],
+            "id": "5F292765",
+            "mediaRef": "54343D87"
+          },
+          {
+            "frames": [
+              1602,
+              1748
+            ],
+            "id": "161CE22A",
+            "mediaRef": "C55FDBAD"
+          },
+          {
+            "frames": [
+              1748,
+              1882
+            ],
+            "id": "A411E529",
+            "mediaRef": "266D1B63"
+          },
+          {
+            "frames": [
+              1882,
+              2044
+            ],
+            "id": "483077DA",
+            "mediaRef": "3B3FE992"
+          },
+          {
+            "frames": [
+              2044,
+              2199
+            ],
+            "id": "6EA1C778",
+            "mediaRef": "0E79E2CD"
+          },
+          {
+            "frames": [
+              2199,
+              2338
+            ],
+            "id": "927B2678",
+            "mediaRef": "909604D2"
+          },
+          {
+            "frames": [
+              2338,
+              2487
+            ],
+            "id": "5D7AF1E8",
+            "mediaRef": "A9E047D8"
+          },
+          {
+            "frames": [
+              2487,
+              2629
+            ],
+            "id": "E13A98CC",
+            "mediaRef": "52F42E73"
+          },
+          {
+            "frames": [
+              2629,
+              2759
+            ],
+            "id": "1100B551",
+            "mediaRef": "77E83625"
+          },
+          {
+            "frames": [
+              2759,
+              2890
+            ],
+            "id": "3A785767",
+            "mediaRef": "105BA89E"
+          },
+          {
+            "frames": [
+              2890,
+              3044
+            ],
+            "id": "CE4A794E",
+            "mediaRef": "DFE443B1"
+          },
+          {
+            "frames": [
+              3044,
+              3174
+            ],
+            "id": "4F54170C",
+            "mediaRef": "93934681"
+          },
+          {
+            "frames": [
+              3174,
+              3313
+            ],
+            "id": "20A9D05D",
+            "mediaRef": "CC8F3D37"
+          },
+          {
+            "frames": [
+              3313,
+              3461
+            ],
+            "id": "671823A6",
+            "mediaRef": "2C789128"
+          },
+          {
+            "frames": [
+              3461,
+              3611
+            ],
+            "id": "A3F9CBAE",
+            "mediaRef": "20E85814"
+          },
+          {
+            "frames": [
+              3611,
+              3751
+            ],
+            "id": "5BBDB834",
+            "mediaRef": "582AB0E3"
+          },
+          {
+            "frames": [
+              3751,
+              3886
+            ],
+            "id": "27CDF00A",
+            "mediaRef": "D7DEFF42"
+          },
+          {
+            "frames": [
+              3886,
+              4036
+            ],
+            "id": "703C8AB6",
+            "mediaRef": "6C577ACB"
+          },
+          {
+            "frames": [
+              4036,
+              4201
+            ],
+            "id": "79BE4CF8",
+            "mediaRef": "E8E4BEE1",
+            "trimEndFrame": 2
+          }
+        ],
+        "index": 0,
+        "label": "V1",
+        "trackId": "196B77FA",
+        "type": "video"
+      },
+      {
+        "clips": [
+          {
+            "frames": [
+              0,
+              3356
+            ],
+            "id": "0F6E216B",
+            "mediaRef": "89B3E990",
+            "mediaType": "audio",
+            "speed": 1.1
+          },
+          {
+            "frames": [
+              3359,
+              3519
+            ],
+            "id": "D65BD180",
+            "mediaRef": "9565F1CA",
+            "mediaType": "audio",
+            "speed": 1.1
+          },
+          {
+            "frames": [
+              3522,
+              4201
+            ],
+            "id": "EA5163FC",
+            "mediaRef": "24A67597",
+            "mediaType": "audio",
+            "speed": 1.1
+          }
+        ],
+        "gaps": [
+          [
+            3356,
+            3359
+          ],
+          [
+            3519,
+            3522
+          ]
+        ],
+        "index": 1,
+        "label": "A1",
+        "trackId": "7B2BFBEC",
+        "type": "audio"
+      }
+    ],
+    "width": 1080
+  },
+  "status": "base_ready_no_captions_no_render"
+}

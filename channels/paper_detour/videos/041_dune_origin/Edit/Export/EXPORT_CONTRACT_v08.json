@@ -1,0 +1,220 @@
+{
+  "schema_version": 1,
+  "status": "RETIRED_TEXT_ONLY",
+  "episode": "041_dune_origin",
+  "language": "en",
+  "format": "short",
+  "purpose": "stage16 user review MP4 v08; remove all three upper text overlays",
+  "settings_profile": {
+    "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/profiles/short.json",
+    "sha256": "ab84ac0aed239ea59e26a4d0e4878decd47f1e5f42db9a3563ca06bbea0adb6b"
+  },
+  "edit": {
+    "project_id": null,
+    "timeline_id": null,
+    "saved_revision_evidence": "FFmpeg edit manifest; no native editor timeline is used",
+    "timeline_read_path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Edit/ffmpeg/edit_v08.json",
+    "timeline_read_sha256": "0253fd9be77c074ea175b53a041e334c5c06cc6d4cfa485ead66e20f587d25ce",
+    "dependencies": [
+      {
+        "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/profiles/paper.json",
+        "sha256": "e2b89e813ec25985601ef65997ea8b94c19e96aa6d158333edf962b42e02ffc0"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/profiles/short.json",
+        "sha256": "ab84ac0aed239ea59e26a4d0e4878decd47f1e5f42db9a3563ca06bbea0adb6b"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/montage.py",
+        "sha256": "55acc85feac44ff4baeefaf96a29c0c1fc069a0ff326e2e4da856c2a207f5615"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/delivery.py",
+        "sha256": "59681f2ac801bac9922f4d9a9b55dd62c20a0a61bc39f143096ca323a9403e52"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/.agents/skills/ytv-paper-subtitles/scripts/semantic_grouping.py",
+        "sha256": "6753059c5e608b1d9a9b456b2c502f14a4a6fc4a9e748399f831f800e6cf69ca"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/.agents/skills/ytv-audio-delivery/references/speed.json",
+        "sha256": "32c378c36c1e297cbdc4e3593c965163d33e531b8b8eea026b367bddb51a668a"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Edit/ffmpeg/edit_v08.json",
+        "sha256": "0253fd9be77c074ea175b53a041e334c5c06cc6d4cfa485ead66e20f587d25ce"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Source/Audio/voiceonly_master_en_v03_1p1.wav",
+        "sha256": "1ad861d07633c825e63d9d57d99adb800001f52d84e45272a39cffea5e46b2f6"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Source/Audio/MIX_LOG_v03.md",
+        "sha256": "cb28b5156bad2eb4c8f35c8761db588e2907da66300daa3b8d0a25295948d016"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Source/Subtitles/narration_en_v04_transcript.txt",
+        "sha256": "8655b8fbc2d77da11eb898536eeb3a7f3f98308e44d69ba0a3706872589c44dd"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Source/Subtitles/word_times_en_v05_1p1.json",
+        "sha256": "d7e20cf7bb94de8b932d96ee7c8287cf8027431ec5b4c97733de6ac2ae82d25f"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Source/Images/accepted_v01/S01.jpg",
+        "sha256": "05408180065be787f0e9da04a9ac148254bddb051a5d034a64240fc2c1037b6a"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Source/Images/accepted_v01/S02.jpg",
+        "sha256": "beceae2a88e78cd8bd8b83937aa15e7e891677a5655849149a2b2ba4975c4da2"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Source/Images/accepted_v01/S03.jpg",
+        "sha256": "de1ae5cd6cc63e31185ad81d7d1d340efe0d6653236191d07fe2a554d5bbde9f"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Source/Images/accepted_v01/S04.jpg",
+        "sha256": "22d9c823e538e186777afc4b5068a4829c47090a8b83a8b7ea10749d571cb318"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Source/Images/accepted_v01/S05.jpg",
+        "sha256": "30cc38f3f83ea1eae54a5e28961a98eaa8863f577cb332de8875214df51bc13e"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Source/Images/accepted_v01/S06.jpg",
+        "sha256": "381a4361cbab4f04335087eb5623a146f067b1e251497d4f3ae7af696af24520"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Source/Images/accepted_v01/S07.jpg",
+        "sha256": "b01111c1c2d6a96c6c7186356c7946e26dff2d937cc5b8423b3bb8a3856aa669"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Source/Images/accepted_v01/S08.jpg",
+        "sha256": "021e55b599f5a60634d25783927c659da81d46a30656d7d7a999bea869040b58"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Source/Images/accepted_v01/S09.jpg",
+        "sha256": "4954d908af1f570ee23de582337235705eaa6fdaed204b205e8882490df0f314"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Source/Images/accepted_v01/S10.jpg",
+        "sha256": "b8bae97072e914d36d3a60d4d0ed2e29450c9532e2c32d8c6b72d59db4e7b7cd"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Source/Images/accepted_v01/S11.jpg",
+        "sha256": "912880c3273cfb2a6d59c8332965e882226889c86d7e6cf7f8ca4d31ca5e4074"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Source/Images/accepted_v01/S12.jpg",
+        "sha256": "05408180065be787f0e9da04a9ac148254bddb051a5d034a64240fc2c1037b6a"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Work/production-v08-render/scratch/caption-preflight/subtitle_review.json",
+        "sha256": "38463225c940491a07137f6cde0d2bbeb389610d6254a00f91e29e58ed267030"
+      }
+    ]
+  },
+  "timeline": {
+    "width": 1440,
+    "height": 2560,
+    "aspect_ratio": "9:16",
+    "sample_aspect_ratio": "1:1",
+    "fps": "30/1",
+    "frame_count": 1443,
+    "duration_seconds": 48.1,
+    "output_color_space": "Rec.709"
+  },
+  "required_delivery": {
+    "container": "MP4",
+    "video": {
+      "codec_name": "h264",
+      "pix_fmt": "yuv420p",
+      "scan": "progressive",
+      "cadence": "constant 30/1 FPS",
+      "color_primaries": "bt709",
+      "color_transfer": "bt709",
+      "color_space": "bt709",
+      "color_range": "tv"
+    },
+    "audio_contract": {
+      "owner_handoff": "ytv-audio-delivery Paper mono voice-only delivery rules",
+      "accepted_complete_mix": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Source/Audio/voiceonly_master_en_v03_1p1.wav",
+      "source_rate_channels": "PCM S24LE, 44,100 Hz, mono; 48.078277 s; voice atempo=1.1x applied once.",
+      "codec_name": "AAC",
+      "profile": "LC",
+      "sample_rate": 44100,
+      "channels": 1,
+      "target_bit_rate": 192000
+    }
+  },
+  "encoding": {
+    "engine": "FFmpeg montage.py",
+    "version_evidence": "FFmpeg 8.1.2; h264_videotoolbox and libx264 are available",
+    "requested_arguments": {
+      "encoder": "h264_videotoolbox",
+      "video_bitrate": "20M",
+      "audio": "AAC-LC mono 192 kbit/s",
+      "output": "-pix_fmt yuv420p -color_primaries bt709 -color_trc bt709 -colorspace bt709 -color_range tv -movflags +faststart"
+    },
+    "quality_preferences": {
+      "video_bitrate": "20 Mbps starting point for 2K when encoder exposes rate control",
+      "faststart": true
+    },
+    "capability_evidence": "FFmpeg montage.py resolves the v07 manifest to 1443 frames (48.1 s). Scene boundaries and accent windows are retimed by 1/1.1 to the voice-only 1.1x track; source images and pan/zoom directions are preserved. The user-directed short edit explicitly disables the default 4–6 s per-scene validator. No global video speed filter or silent tail.",
+    "engine_managed_fields": [
+      "H.264 profile/level and GOP selected by VideoToolbox; not forced by montage CLI",
+      "AAC encoder delay/padding and packet framing"
+    ]
+  },
+  "preflight": {
+    "author": "Codex",
+    "time": "2026-11-03",
+    "authorization_references": [
+      "User approved the exact v08 MP4 and confirmed full playback with sound, accepting current subtitle grouping and synchronization; see Edit/QA/user_review_v08_20261103.md.",
+      "User had already authorized Public release and TEXT_ONLY cleanup after verified Public."
+    ],
+    "fresh_settings_evidence": "Paper Short profile: 1440x2560 at 30 fps. Accepted voice-only master remains voiceonly_master_en_v03_1p1.wav at 1.10x; v08 word-map v05 binds the unchanged 133 spoken tokens to this exact audio and transcript. Scene intervals and movement are unchanged. All three upper overlays are removed; lower subtitle rendering is preserved.",
+    "writer_and_export_state": "Single FFmpeg run production-v08-render; output is a new review MP4, no overwrite.",
+    "output_path": null,
+    "overwrite": false,
+    "media_lifecycle_receipt": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Edit/MediaLifecycle/audit-v08-pre-render-final/audit.json",
+    "unresolved_required_fields": [],
+    "media_lifecycle_plan": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Edit/MediaLifecycle/plan-v08-pre-render-final/plan.json",
+    "scope_override": "User selected a 48.08 s montage to match voice-only 1.1x. Scene boundaries use exact 1/1.1 frame scaling; the default 4–6 s validator is disabled for this explicitly requested short version. 30 fps quantizes final duration to 1443 frames / 48.1 s.",
+    "subtitle_handoff": {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Work/production-v08-render/scratch/caption-preflight/subtitle_contract.json",
+      "sha256": "dc5623d7a8fcd2ca12ce845560126a49b35d95be834ede57f90dacd3910e2940",
+      "review_path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Work/production-v08-render/scratch/caption-preflight/subtitle_review.json",
+      "review_status": "User fully reviewed exact v08 with sound and accepted the current lower subtitle groups and sync; evidence in Edit/QA/user_review_v08_20261103.md."
+    },
+    "media_lifecycle_audit": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Edit/MediaLifecycle/audit-v08-pre-render-final/audit.json",
+    "retired_output_path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Work/production-v08-render/previews/041_dune_origin_EN_v08_review.mp4"
+  },
+  "render_receipt": {
+    "path": "channels/paper_detour/videos/041_dune_origin/Edit/Export/DELIVERY_RECEIPT_v08_ARCHIVE.json",
+    "sha256": "761d229f19a8c13230bd8feff211cfcd7163375b9442fa9c1d9d1e10e2608d7e",
+    "media_path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Work/production-v08-render/previews/041_dune_origin_EN_v08_review.mp4",
+    "media_sha256": "246f363529587216ce022fca83e4056d2d2c0998dc438c82e601e9249df94f1a",
+    "writer": "FFmpeg montage.py",
+    "run": "production-v08-render",
+    "media_local_state": "removed after verified Public",
+    "archive_copy": "channels/paper_detour/videos/041_dune_origin/Edit/Export/DELIVERY_RECEIPT_v08_ARCHIVE.json"
+  },
+  "qa_receipt": {
+    "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Edit/QA/qa-v08-release/report.json",
+    "sha256": "f5e8b4a9f0fd75ab5ca994ab40037f659d2d78b7f80b53a216ab971ce571ab14",
+    "review_path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Edit/QA/visual_subtitle_review_v08.md",
+    "review_sha256": "a54ab9f65fc906941d210f55a8340468b4f7db24030f962e7fffb10c563f1b67",
+    "verdict": "PASS",
+    "open_required_checks": []
+  },
+  "retirement": {
+    "completed_utc": "2026-11-03T21:38:47.403892+00:00",
+    "storage_state": "TEXT_ONLY",
+    "remote_video_id": "ba2GMSKTB5g",
+    "remote_url": "https://www.youtube.com/shorts/ba2GMSKTB5g",
+    "media_sha256": "246f363529587216ce022fca83e4056d2d2c0998dc438c82e601e9249df94f1a",
+    "local_media_removed": true,
+    "receipt": "Edit/MediaLifecycle/text-only-receipt-20261103.json"
+  }
+}

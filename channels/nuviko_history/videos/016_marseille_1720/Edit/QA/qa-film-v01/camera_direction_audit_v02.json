@@ -1,0 +1,402 @@
+{
+  "created_utc": "2026-11-03T09:11:24Z",
+  "supersedes": "phase_motion_audit_v01.json interpretation only; raw measurements preserved",
+  "method": "Reinterpret the 42 endpoint phase-correlation measurements against the camera viewport direction, not the apparent screen-space travel of scene features. Camera pan right moves the viewport right, so fixed scene features move left on screen; camera pan left moves features right.",
+  "implementation_evidence": "automation/image_motion/run.py camera_keys sets positive center-X delta for pan-right and negative delta for pan-left; global viewport movement and screen-space feature movement therefore have opposite signs.",
+  "coverage": {
+    "pan_scenes": 42,
+    "pan_right": 22,
+    "pan_left": 20,
+    "matched_opposite_screen_feature_direction": 42,
+    "mismatches": 0,
+    "confidence": "all source phase rows report high confidence"
+  },
+  "result": "PASS for camera pan direction at scene endpoints only",
+  "limitations": [
+    "This is not full per-frame crop or depth-artifact QA.",
+    "Endpoint phase correlation cannot establish every intermediate parallax trajectory, protected-object containment, or subtitle/audible-word synchronization.",
+    "Overall motion_framing and overall film QA remain UNVERIFIED."
+  ],
+  "source_measurements": "Edit/QA/qa-film-v01/phase_motion_audit_v01.json",
+  "camera_path_audit": "Edit/QA/qa-film-v01/camera_path_audit_v01.json",
+  "scene_results": [
+    {
+      "scene": "S002",
+      "camera_mode": "pan-right",
+      "feature_dx_480": -25.0,
+      "screen_feature_direction": "left",
+      "camera_direction_match": true,
+      "confidence": "high",
+      "phase_peak_ratio": 100.71
+    },
+    {
+      "scene": "S007",
+      "camera_mode": "pan-right",
+      "feature_dx_480": -24.0,
+      "screen_feature_direction": "left",
+      "camera_direction_match": true,
+      "confidence": "high",
+      "phase_peak_ratio": 242.56
+    },
+    {
+      "scene": "S010",
+      "camera_mode": "pan-left",
+      "feature_dx_480": 24.0,
+      "screen_feature_direction": "right",
+      "camera_direction_match": true,
+      "confidence": "high",
+      "phase_peak_ratio": 152.87
+    },
+    {
+      "scene": "S013",
+      "camera_mode": "pan-right",
+      "feature_dx_480": -27.0,
+      "screen_feature_direction": "left",
+      "camera_direction_match": true,
+      "confidence": "high",
+      "phase_peak_ratio": 139.12
+    },
+    {
+      "scene": "S015",
+      "camera_mode": "pan-right",
+      "feature_dx_480": -22.0,
+      "screen_feature_direction": "left",
+      "camera_direction_match": true,
+      "confidence": "high",
+      "phase_peak_ratio": 273.77
+    },
+    {
+      "scene": "S017",
+      "camera_mode": "pan-left",
+      "feature_dx_480": 25.0,
+      "screen_feature_direction": "right",
+      "camera_direction_match": true,
+      "confidence": "high",
+      "phase_peak_ratio": 98.46
+    },
+    {
+      "scene": "S018",
+      "camera_mode": "pan-right",
+      "feature_dx_480": -26.0,
+      "screen_feature_direction": "left",
+      "camera_direction_match": true,
+      "confidence": "high",
+      "phase_peak_ratio": 148.22
+    },
+    {
+      "scene": "S021",
+      "camera_mode": "pan-left",
+      "feature_dx_480": 23.0,
+      "screen_feature_direction": "right",
+      "camera_direction_match": true,
+      "confidence": "high",
+      "phase_peak_ratio": 153.0
+    },
+    {
+      "scene": "S025",
+      "camera_mode": "pan-right",
+      "feature_dx_480": -24.0,
+      "screen_feature_direction": "left",
+      "camera_direction_match": true,
+      "confidence": "high",
+      "phase_peak_ratio": 233.81
+    },
+    {
+      "scene": "S028",
+      "camera_mode": "pan-left",
+      "feature_dx_480": 23.0,
+      "screen_feature_direction": "right",
+      "camera_direction_match": true,
+      "confidence": "high",
+      "phase_peak_ratio": 190.76
+    },
+    {
+      "scene": "S033",
+      "camera_mode": "pan-right",
+      "feature_dx_480": -25.0,
+      "screen_feature_direction": "left",
+      "camera_direction_match": true,
+      "confidence": "high",
+      "phase_peak_ratio": 318.51
+    },
+    {
+      "scene": "S036",
+      "camera_mode": "pan-left",
+      "feature_dx_480": 24.0,
+      "screen_feature_direction": "right",
+      "camera_direction_match": true,
+      "confidence": "high",
+      "phase_peak_ratio": 287.15
+    },
+    {
+      "scene": "S037",
+      "camera_mode": "pan-right",
+      "feature_dx_480": -22.0,
+      "screen_feature_direction": "left",
+      "camera_direction_match": true,
+      "confidence": "high",
+      "phase_peak_ratio": 214.54
+    },
+    {
+      "scene": "S040",
+      "camera_mode": "pan-left",
+      "feature_dx_480": 24.0,
+      "screen_feature_direction": "right",
+      "camera_direction_match": true,
+      "confidence": "high",
+      "phase_peak_ratio": 108.05
+    },
+    {
+      "scene": "S041",
+      "camera_mode": "pan-right",
+      "feature_dx_480": -22.0,
+      "screen_feature_direction": "left",
+      "camera_direction_match": true,
+      "confidence": "high",
+      "phase_peak_ratio": 294.64
+    },
+    {
+      "scene": "S043",
+      "camera_mode": "pan-left",
+      "feature_dx_480": 24.0,
+      "screen_feature_direction": "right",
+      "camera_direction_match": true,
+      "confidence": "high",
+      "phase_peak_ratio": 308.65
+    },
+    {
+      "scene": "S046",
+      "camera_mode": "pan-right",
+      "feature_dx_480": -22.0,
+      "screen_feature_direction": "left",
+      "camera_direction_match": true,
+      "confidence": "high",
+      "phase_peak_ratio": 430.9
+    },
+    {
+      "scene": "S049",
+      "camera_mode": "pan-left",
+      "feature_dx_480": 28.0,
+      "screen_feature_direction": "right",
+      "camera_direction_match": true,
+      "confidence": "high",
+      "phase_peak_ratio": 266.1
+    },
+    {
+      "scene": "S050",
+      "camera_mode": "pan-right",
+      "feature_dx_480": -28.0,
+      "screen_feature_direction": "left",
+      "camera_direction_match": true,
+      "confidence": "high",
+      "phase_peak_ratio": 86.14
+    },
+    {
+      "scene": "S052",
+      "camera_mode": "pan-left",
+      "feature_dx_480": 28.0,
+      "screen_feature_direction": "right",
+      "camera_direction_match": true,
+      "confidence": "high",
+      "phase_peak_ratio": 133.87
+    },
+    {
+      "scene": "S056",
+      "camera_mode": "pan-right",
+      "feature_dx_480": -23.0,
+      "screen_feature_direction": "left",
+      "camera_direction_match": true,
+      "confidence": "high",
+      "phase_peak_ratio": 59.61
+    },
+    {
+      "scene": "S060",
+      "camera_mode": "pan-left",
+      "feature_dx_480": 22.0,
+      "screen_feature_direction": "right",
+      "camera_direction_match": true,
+      "confidence": "high",
+      "phase_peak_ratio": 187.05
+    },
+    {
+      "scene": "S062",
+      "camera_mode": "pan-right",
+      "feature_dx_480": -22.0,
+      "screen_feature_direction": "left",
+      "camera_direction_match": true,
+      "confidence": "high",
+      "phase_peak_ratio": 204.5
+    },
+    {
+      "scene": "S071",
+      "camera_mode": "pan-left",
+      "feature_dx_480": 22.0,
+      "screen_feature_direction": "right",
+      "camera_direction_match": true,
+      "confidence": "high",
+      "phase_peak_ratio": 194.52
+    },
+    {
+      "scene": "S074",
+      "camera_mode": "pan-right",
+      "feature_dx_480": -23.0,
+      "screen_feature_direction": "left",
+      "camera_direction_match": true,
+      "confidence": "high",
+      "phase_peak_ratio": 247.72
+    },
+    {
+      "scene": "S077",
+      "camera_mode": "pan-left",
+      "feature_dx_480": 23.0,
+      "screen_feature_direction": "right",
+      "camera_direction_match": true,
+      "confidence": "high",
+      "phase_peak_ratio": 182.89
+    },
+    {
+      "scene": "S078",
+      "camera_mode": "pan-right",
+      "feature_dx_480": -23.0,
+      "screen_feature_direction": "left",
+      "camera_direction_match": true,
+      "confidence": "high",
+      "phase_peak_ratio": 136.62
+    },
+    {
+      "scene": "S079",
+      "camera_mode": "pan-left",
+      "feature_dx_480": 24.0,
+      "screen_feature_direction": "right",
+      "camera_direction_match": true,
+      "confidence": "high",
+      "phase_peak_ratio": 108.44
+    },
+    {
+      "scene": "S084",
+      "camera_mode": "pan-right",
+      "feature_dx_480": -26.0,
+      "screen_feature_direction": "left",
+      "camera_direction_match": true,
+      "confidence": "high",
+      "phase_peak_ratio": 102.1
+    },
+    {
+      "scene": "S085",
+      "camera_mode": "pan-left",
+      "feature_dx_480": 24.0,
+      "screen_feature_direction": "right",
+      "camera_direction_match": true,
+      "confidence": "high",
+      "phase_peak_ratio": 254.2
+    },
+    {
+      "scene": "S088",
+      "camera_mode": "pan-right",
+      "feature_dx_480": -24.0,
+      "screen_feature_direction": "left",
+      "camera_direction_match": true,
+      "confidence": "high",
+      "phase_peak_ratio": 90.86
+    },
+    {
+      "scene": "S089",
+      "camera_mode": "pan-left",
+      "feature_dx_480": 29.0,
+      "screen_feature_direction": "right",
+      "camera_direction_match": true,
+      "confidence": "high",
+      "phase_peak_ratio": 111.62
+    },
+    {
+      "scene": "S091",
+      "camera_mode": "pan-right",
+      "feature_dx_480": -29.0,
+      "screen_feature_direction": "left",
+      "camera_direction_match": true,
+      "confidence": "high",
+      "phase_peak_ratio": 107.62
+    },
+    {
+      "scene": "S098",
+      "camera_mode": "pan-left",
+      "feature_dx_480": 25.0,
+      "screen_feature_direction": "right",
+      "camera_direction_match": true,
+      "confidence": "high",
+      "phase_peak_ratio": 157.73
+    },
+    {
+      "scene": "S103",
+      "camera_mode": "pan-right",
+      "feature_dx_480": -24.0,
+      "screen_feature_direction": "left",
+      "camera_direction_match": true,
+      "confidence": "high",
+      "phase_peak_ratio": 176.95
+    },
+    {
+      "scene": "S107",
+      "camera_mode": "pan-left",
+      "feature_dx_480": 26.0,
+      "screen_feature_direction": "right",
+      "camera_direction_match": true,
+      "confidence": "high",
+      "phase_peak_ratio": 123.08
+    },
+    {
+      "scene": "S108",
+      "camera_mode": "pan-right",
+      "feature_dx_480": -31.0,
+      "screen_feature_direction": "left",
+      "camera_direction_match": true,
+      "confidence": "high",
+      "phase_peak_ratio": 82.55
+    },
+    {
+      "scene": "S114",
+      "camera_mode": "pan-left",
+      "feature_dx_480": 24.0,
+      "screen_feature_direction": "right",
+      "camera_direction_match": true,
+      "confidence": "high",
+      "phase_peak_ratio": 82.24
+    },
+    {
+      "scene": "S116",
+      "camera_mode": "pan-right",
+      "feature_dx_480": -26.0,
+      "screen_feature_direction": "left",
+      "camera_direction_match": true,
+      "confidence": "high",
+      "phase_peak_ratio": 106.59
+    },
+    {
+      "scene": "S118",
+      "camera_mode": "pan-left",
+      "feature_dx_480": 27.0,
+      "screen_feature_direction": "right",
+      "camera_direction_match": true,
+      "confidence": "high",
+      "phase_peak_ratio": 166.55
+    },
+    {
+      "scene": "S119",
+      "camera_mode": "pan-right",
+      "feature_dx_480": -27.0,
+      "screen_feature_direction": "left",
+      "camera_direction_match": true,
+      "confidence": "high",
+      "phase_peak_ratio": 228.77
+    },
+    {
+      "scene": "S122",
+      "camera_mode": "pan-left",
+      "feature_dx_480": 28.0,
+      "screen_feature_direction": "right",
+      "camera_direction_match": true,
+      "confidence": "high",
+      "phase_peak_ratio": 114.65
+    }
+  ]
+}

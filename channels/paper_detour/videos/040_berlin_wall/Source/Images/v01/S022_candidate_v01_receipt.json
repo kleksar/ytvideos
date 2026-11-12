@@ -1,0 +1,33 @@
+{
+  "scene_id": "S022",
+  "version": "candidate_v01",
+  "status": "ACCEPTED_STATIC_SOURCE",
+  "depiction": "symbolic collective public demand before anonymous government building",
+  "selected_copy": "/Users/diplomat/ytvideos/channels/paper_detour/videos/040_berlin_wall/Source/Images/v01/S022_candidate_v01.png",
+  "source_image": "/Users/diplomat/.codex/generated_images/01a1a186-1011-7450-b9d7-7b0e7f1e2f40/exec-53fed0bb-14fb-4941-86bf-75e7476db0e3.png",
+  "sha256": "459b1b3f81557348285aa88e78de25b110761c99a1f7ba3735cd5bedaa721821",
+  "reference_paths": [
+    "/Users/diplomat/ytvideos/channels/paper_detour/Shared/References/Paper/paper004_user_38.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/040_berlin_wall/Source/Images/v01/S021_candidate_v01.png"
+  ],
+  "reference_hashes": {
+    "/Users/diplomat/ytvideos/channels/paper_detour/Shared/References/Paper/paper004_user_38.png": "238bb11958c8e59224edcd006db060df0bddd0c9e100f795e44eeb537ebdc166",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/040_berlin_wall/Source/Images/v01/S021_candidate_v01.png": "6f008b6824a7de706b260acbc2fbc94ebe3ce68f28cd40e58fb4dfcbd6dc67f2"
+  },
+  "missing_catalog_anchor": "Paper Detour033 S01_v01.png unavailable locally and not used.",
+  "requested_generation_target": "3840x2160 landscape 16:9",
+  "actual_source_dimensions": "1672x941",
+  "image_tool_controls": "not exposed; target stated in prompt",
+  "delivery_target": "2560x1440 16:9 at 30 fps; motion/crop pending",
+  "visual_review": {
+    "reviewer": "Codex author (not an independent reviewer)",
+    "scope": "full-frame inspected against Paper004 and S021 palette",
+    "result": "ACCEPTED static composition: a unified crowd faces one open central doorway in a generic government facade; the single shared demand reads symbolically without signs/text.",
+    "limitations": [
+      "Tool output below requested 4K target.",
+      "Building and doorway are symbolic, not a documented specific office or opening.",
+      "Motion/crop/composite unverified."
+    ]
+  },
+  "prompt_file": "S022_candidate_v01_prompt.txt"
+}

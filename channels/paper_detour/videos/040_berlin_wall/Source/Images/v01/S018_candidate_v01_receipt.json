@@ -1,0 +1,33 @@
+{
+  "scene_id": "S018",
+  "version": "candidate_v01",
+  "status": "ACCEPTED_STATIC_SOURCE",
+  "depiction": "illustrative mass demonstration in Leipzig; buildings are generic, not an exact street reconstruction",
+  "selected_copy": "/Users/diplomat/ytvideos/channels/paper_detour/videos/040_berlin_wall/Source/Images/v01/S018_candidate_v01.png",
+  "source_image": "/Users/diplomat/.codex/generated_images/01a1a186-1011-7450-b9d7-7b0e7f1e2f40/exec-ab19cff0-1da0-4ef6-864a-2204e0369394.png",
+  "sha256": "eadfd144e0601555e471ad103385e89b6a0dbc98004c04c09b75ec1c0d33937c",
+  "reference_paths": [
+    "/Users/diplomat/ytvideos/channels/paper_detour/Shared/References/Paper/paper004_user_38.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/040_berlin_wall/Source/Images/v01/S017_candidate_v01.png"
+  ],
+  "reference_hashes": {
+    "/Users/diplomat/ytvideos/channels/paper_detour/Shared/References/Paper/paper004_user_38.png": "238bb11958c8e59224edcd006db060df0bddd0c9e100f795e44eeb537ebdc166",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/040_berlin_wall/Source/Images/v01/S017_candidate_v01.png": "3d832ce27a1a98515d6f43c625ef2d2c1f8526070f1b63c14812a0dfb942ca20"
+  },
+  "missing_catalog_anchor": "Paper Detour033 S01_v01.png unavailable locally and not used.",
+  "requested_generation_target": "3840x2160 landscape 16:9",
+  "actual_source_dimensions": "1672x941",
+  "image_tool_controls": "not exposed; target stated in prompt",
+  "delivery_target": "2560x1440 16:9 at 30 fps; motion/crop pending",
+  "visual_review": {
+    "reviewer": "Codex author (not an independent reviewer)",
+    "scope": "full-frame source inspected against Paper004 and S017 palette",
+    "result": "ACCEPTED static composition: a huge calm crowd fills a long city street, clearly scaling up from S017; no specific landmark or text.",
+    "limitations": [
+      "Tool output below requested 4K target.",
+      "Street and architecture are illustrative, not an exact Leipzig location reconstruction.",
+      "Motion/crop/composite unverified."
+    ]
+  },
+  "prompt_file": "S018_candidate_v01_prompt.txt"
+}

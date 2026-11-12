@@ -1,0 +1,45 @@
+{
+  "episode": "Paper Detour 033 — Five-second time stop",
+  "channel_id": "UCMVfdfaNxV3ZkI3_J3Eejzw",
+  "user_instruction": "Delete the ProRes upload from YouTube; keep H.264.",
+  "operation": "YouTube Data API videos.delete",
+  "target_video_id": "F4ENqN9_2Dc",
+  "target_format": "ProRes 422 QuickTime MOV",
+  "preflight_verified_at_utc": "2026-11-02T01:55:14.953650+00:00",
+  "preflight": {
+    "prores": {
+      "video_id": "F4ENqN9_2Dc",
+      "title": "Time Stop 033 — ProRes Master (comparison)",
+      "channel_id": "UCMVfdfaNxV3ZkI3_J3Eejzw",
+      "privacy": "private",
+      "upload_status": "processed",
+      "processing_status": "succeeded"
+    },
+    "h264": {
+      "video_id": "8WNac9FGxKs",
+      "title": "What If Time Stopped for 5 Seconds? #Shorts",
+      "channel_id": "UCMVfdfaNxV3ZkI3_J3Eejzw",
+      "privacy": "private",
+      "upload_status": "processed",
+      "processing_status": "succeeded"
+    }
+  },
+  "delete_request_status": "succeeded_http_204_no_content",
+  "post_delete_readback": {
+    "verified_at_utc": "2026-11-02T01:55:26.909231+00:00",
+    "prores": {
+      "video_id": "F4ENqN9_2Dc",
+      "items_returned": 0,
+      "deleted": true
+    },
+    "h264": {
+      "video_id": "8WNac9FGxKs",
+      "channel_id": "UCMVfdfaNxV3ZkI3_J3Eejzw",
+      "title": "What If Time Stopped for 5 Seconds? #Shorts",
+      "privacy": "private",
+      "upload_status": "processed",
+      "processing_status": "succeeded"
+    }
+  },
+  "delete_request_method": "DELETE /youtube/v3/videos?id=F4ENqN9_2Dc"
+}

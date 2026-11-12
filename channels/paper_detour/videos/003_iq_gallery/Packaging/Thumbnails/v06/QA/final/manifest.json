@@ -1,0 +1,151 @@
+{
+  "source": "/Users/diplomat/ytvideos/channels/paper_detour/videos/003_iq_gallery/Packaging/Thumbnails/v06/iq_cover_v06_2160x3840.jpg",
+  "sha256": "29f1aa9a9f538caee10247577ad449e357b231cb7b8f1b2f9adb0ee17dabd889",
+  "source_pixels": [
+    2160,
+    3840
+  ],
+  "previews": [
+    {
+      "path": "channels/paper_detour/videos/003_iq_gallery/Packaging/Thumbnails/v06/QA/final/qa_full_360x640.jpg",
+      "pixels": [
+        360,
+        640
+      ],
+      "crop_box_source_px": [
+        0,
+        0,
+        2160,
+        3840
+      ],
+      "regions": [
+        {
+          "label": "entire lettering including thickness/shadow",
+          "contained": true,
+          "margins_source_px": [
+            436.13177470775776,
+            1584.688995215311,
+            381.04144527098833,
+            1462.9665071770332
+          ]
+        },
+        {
+          "label": "all thirteen portrait head/face regions (conservative union)",
+          "contained": true,
+          "margins_source_px": [
+            45.908607863974495,
+            344.4976076555024,
+            48.204038257173124,
+            417.9904306220096
+          ]
+        }
+      ]
+    },
+    {
+      "path": "channels/paper_detour/videos/003_iq_gallery/Packaging/Thumbnails/v06/QA/final/qa_full_180x320.jpg",
+      "pixels": [
+        180,
+        320
+      ],
+      "crop_box_source_px": [
+        0,
+        0,
+        2160,
+        3840
+      ],
+      "regions": [
+        {
+          "label": "entire lettering including thickness/shadow",
+          "contained": true,
+          "margins_source_px": [
+            436.13177470775776,
+            1584.688995215311,
+            381.04144527098833,
+            1462.9665071770332
+          ]
+        },
+        {
+          "label": "all thirteen portrait head/face regions (conservative union)",
+          "contained": true,
+          "margins_source_px": [
+            45.908607863974495,
+            344.4976076555024,
+            48.204038257173124,
+            417.9904306220096
+          ]
+        }
+      ]
+    },
+    {
+      "path": "channels/paper_detour/videos/003_iq_gallery/Packaging/Thumbnails/v06/QA/final/qa_2x3_360x540.jpg",
+      "pixels": [
+        360,
+        540
+      ],
+      "crop_box_source_px": [
+        0.0,
+        300.0,
+        2160.0,
+        3540.0
+      ],
+      "regions": [
+        {
+          "label": "entire lettering including thickness/shadow",
+          "contained": true,
+          "margins_source_px": [
+            436.13177470775776,
+            1284.688995215311,
+            381.04144527098833,
+            1162.9665071770332
+          ]
+        },
+        {
+          "label": "all thirteen portrait head/face regions (conservative union)",
+          "contained": true,
+          "margins_source_px": [
+            45.908607863974495,
+            44.49760765550241,
+            48.204038257173124,
+            117.99043062200963
+          ]
+        }
+      ]
+    },
+    {
+      "path": "channels/paper_detour/videos/003_iq_gallery/Packaging/Thumbnails/v06/QA/final/qa_2x3_180x270.jpg",
+      "pixels": [
+        180,
+        270
+      ],
+      "crop_box_source_px": [
+        0.0,
+        300.0,
+        2160.0,
+        3540.0
+      ],
+      "regions": [
+        {
+          "label": "entire lettering including thickness/shadow",
+          "contained": true,
+          "margins_source_px": [
+            436.13177470775776,
+            1284.688995215311,
+            381.04144527098833,
+            1162.9665071770332
+          ]
+        },
+        {
+          "label": "all thirteen portrait head/face regions (conservative union)",
+          "contained": true,
+          "margins_source_px": [
+            45.908607863974495,
+            44.49760765550241,
+            48.204038257173124,
+            117.99043062200963
+          ]
+        }
+      ]
+    }
+  ],
+  "limits": "Local simulation only. Region containment uses supplied bounds, not OCR or face detection. Visual readability, actual device and YouTube display require separate observation."
+}

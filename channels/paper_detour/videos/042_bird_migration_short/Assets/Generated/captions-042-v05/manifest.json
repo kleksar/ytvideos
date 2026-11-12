@@ -1,0 +1,746 @@
+{
+  "canvas": [
+    1440,
+    2560
+  ],
+  "checks": {
+    "motion": "UNVERIFIED",
+    "scope": "assigned pairs at their selected anchors; static geometry only",
+    "sync": "UNVERIFIED",
+    "technical": "PASS",
+    "visual": "UNVERIFIED"
+  },
+  "cues": [
+    {
+      "backend": {
+        "face": {
+          "mode": "mask",
+          "path": "../../Source/Graphics/cues_v01/face_masks/C01_v01_mask.png"
+        },
+        "path": "../../Source/Graphics/cues_v01/cropped/C01_v01.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/Shared/References/Paper/paper004_user_38.png",
+        "status": "generated type treatment; exact accepted Paper glyph sample unavailable",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/C01/face.png",
+      "face_mask_sha256": "533ddb9652265aa1ddb792e11a82a50c774f34036b535e7265d16805637b8de7",
+      "id": "C01",
+      "lines": [
+        "THE ARROW MYSTERY"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          0,
+          0,
+          1061,
+          138
+        ],
+        "alpha_height_px": 138,
+        "alpha_width_px": 1061,
+        "face_bbox": [
+          14,
+          9,
+          1052,
+          120
+        ],
+        "face_height_px": 111,
+        "face_line_boxes": [
+          [
+            14,
+            9,
+            1052,
+            120
+          ]
+        ],
+        "face_line_heights_px": [
+          111
+        ],
+        "size_px": [
+          1063,
+          139
+        ]
+      },
+      "png": "cues/C01/cue.png",
+      "png_sha256": "92a37371df4b08695e1f9e19bcb0c51c03abc28043c4aecaa08e31ffba038cc2",
+      "provenance": {
+        "accepted_typography_sample_available": false,
+        "method": "image_gen transparent text graphic",
+        "style_reference": "/Users/diplomat/ytvideos/channels/paper_detour/Shared/References/Paper/paper004_user_38.png",
+        "style_reference_sha256": "238bb11958c8e59224edcd006db060df0bddd0c9e100f795e44eeb537ebdc166"
+      },
+      "timing": {
+        "end_frame": 90,
+        "start_frame": 34,
+        "status": "PROVISIONAL_FROM_FORCED_MACHINE_ALIGNMENT"
+      },
+      "uniform_scale": 1.353658536585366
+    },
+    {
+      "backend": {
+        "face": {
+          "mode": "mask",
+          "path": "../../Source/Graphics/cues_v01/face_masks/C02_v01_mask.png"
+        },
+        "path": "../../Source/Graphics/cues_v01/cropped/C02_v01.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/Shared/References/Paper/paper004_user_38.png",
+        "status": "generated type treatment; exact accepted Paper glyph sample unavailable",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/C02/face.png",
+      "face_mask_sha256": "41be440279a4ffcb717a6088c162140d767f49f62ba408071dbeb89096e17772",
+      "id": "C02",
+      "lines": [
+        "A LUNAR THEORY"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          2,
+          0,
+          947,
+          140
+        ],
+        "alpha_height_px": 140,
+        "alpha_width_px": 945,
+        "face_bbox": [
+          7,
+          8,
+          941,
+          119
+        ],
+        "face_height_px": 111,
+        "face_line_boxes": [
+          [
+            7,
+            8,
+            941,
+            119
+          ]
+        ],
+        "face_line_heights_px": [
+          111
+        ],
+        "size_px": [
+          950,
+          142
+        ]
+      },
+      "png": "cues/C02/cue.png",
+      "png_sha256": "384a0fa5eb5d60a25a0442c4f66ebda98eb38dc8b6433ce28d370c1199caa5ff",
+      "provenance": {
+        "accepted_typography_sample_available": false,
+        "method": "image_gen transparent text graphic",
+        "style_reference": "/Users/diplomat/ytvideos/channels/paper_detour/Shared/References/Paper/paper004_user_38.png",
+        "style_reference_sha256": "238bb11958c8e59224edcd006db060df0bddd0c9e100f795e44eeb537ebdc166"
+      },
+      "timing": {
+        "end_frame": 561,
+        "start_frame": 513,
+        "status": "PROVISIONAL_FROM_FORCED_MACHINE_ALIGNMENT"
+      },
+      "uniform_scale": 1.3373493975903614
+    },
+    {
+      "backend": {
+        "face": {
+          "mode": "mask",
+          "path": "../../Source/Graphics/cues_v01/face_masks/C03_v01_mask.png"
+        },
+        "path": "../../Source/Graphics/cues_v01/cropped/C03_v01.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/Shared/References/Paper/paper004_user_38.png",
+        "status": "generated type treatment; exact accepted Paper glyph sample unavailable",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/C03/face.png",
+      "face_mask_sha256": "8d23bdc1dc0e5f47cab80a14c89b5d6ce89c4547cf725a2d61a5edb7576df50a",
+      "id": "C03",
+      "lines": [
+        "TANGIBLE EVIDENCE"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          2,
+          0,
+          1066,
+          140
+        ],
+        "alpha_height_px": 140,
+        "alpha_width_px": 1064,
+        "face_bbox": [
+          8,
+          7,
+          1061,
+          118
+        ],
+        "face_height_px": 111,
+        "face_line_boxes": [
+          [
+            8,
+            7,
+            1061,
+            118
+          ]
+        ],
+        "face_line_heights_px": [
+          111
+        ],
+        "size_px": [
+          1069,
+          140
+        ]
+      },
+      "png": "cues/C03/cue.png",
+      "png_sha256": "4c16b41b4684a80b86c3b81b80c3aa1ea02e90afbe501cf5249dff2942047ae3",
+      "provenance": {
+        "accepted_typography_sample_available": false,
+        "method": "image_gen transparent text graphic",
+        "style_reference": "/Users/diplomat/ytvideos/channels/paper_detour/Shared/References/Paper/paper004_user_38.png",
+        "style_reference_sha256": "238bb11958c8e59224edcd006db060df0bddd0c9e100f795e44eeb537ebdc166"
+      },
+      "timing": {
+        "end_frame": 1089,
+        "start_frame": 1041,
+        "status": "PROVISIONAL_FROM_FORCED_MACHINE_ALIGNMENT"
+      },
+      "uniform_scale": 1.3703703703703705
+    },
+    {
+      "backend": {
+        "face": {
+          "mode": "mask",
+          "path": "../../Source/Graphics/cues_v01/face_masks/C04_v01_mask.png"
+        },
+        "path": "../../Source/Graphics/cues_v01/cropped/C04_v01.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/Shared/References/Paper/paper004_user_38.png",
+        "status": "generated type treatment; exact accepted Paper glyph sample unavailable",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/C04/face.png",
+      "face_mask_sha256": "4daff1f053bc1b062a0e3ed72b16edd3ad2761d699f3f18e440562f9e082b968",
+      "id": "C04",
+      "lines": [
+        "WINTER BEYOND EUROPE"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          2,
+          0,
+          1195,
+          141
+        ],
+        "alpha_height_px": 141,
+        "alpha_width_px": 1193,
+        "face_bbox": [
+          8,
+          8,
+          1189,
+          119
+        ],
+        "face_height_px": 111,
+        "face_line_boxes": [
+          [
+            8,
+            8,
+            1189,
+            119
+          ]
+        ],
+        "face_line_heights_px": [
+          111
+        ],
+        "size_px": [
+          1197,
+          142
+        ]
+      },
+      "png": "cues/C04/cue.png",
+      "png_sha256": "4a2050e225e884c7e42737f3310d60a2cf01778a80f21f9c323c8911e98c72c4",
+      "provenance": {
+        "accepted_typography_sample_available": false,
+        "method": "image_gen transparent text graphic",
+        "style_reference": "/Users/diplomat/ytvideos/channels/paper_detour/Shared/References/Paper/paper004_user_38.png",
+        "style_reference_sha256": "238bb11958c8e59224edcd006db060df0bddd0c9e100f795e44eeb537ebdc166"
+      },
+      "timing": {
+        "end_frame": 1395,
+        "start_frame": 1344,
+        "status": "PROVISIONAL_FROM_FORCED_MACHINE_ALIGNMENT"
+      },
+      "uniform_scale": 1.5205479452054795
+    }
+  ],
+  "helper_sha256": "86fcde095d01b3300ac1497f9f38c5f38494a740f5dcd987af9a8595d42a8150",
+  "helper_version": "1.1.0",
+  "inputs": [
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/Shared/References/Paper/paper004_user_38.png",
+      "sha256": "238bb11958c8e59224edcd006db060df0bddd0c9e100f795e44eeb537ebdc166"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/042_bird_migration_short/Source/Graphics/cues_v01/cropped/C01_v01.png",
+      "sha256": "72ad63b09300f39e31be1fe423954044d2999d331e3ea5b9228f9aad613eeba3"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/042_bird_migration_short/Source/Graphics/cues_v01/cropped/C02_v01.png",
+      "sha256": "a8e02d3a2d430cb9d4a84f6c83c86373e37ff17e46d75c2c2960fef8448686f0"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/042_bird_migration_short/Source/Graphics/cues_v01/cropped/C03_v01.png",
+      "sha256": "8905a29c0df153f5b96ad7c3ce32e20076936dc36a5e810ed585b952f3a2eecc"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/042_bird_migration_short/Source/Graphics/cues_v01/cropped/C04_v01.png",
+      "sha256": "c9e11b8def275ebd9711468420444a9c5083d7cea99c998e67af6266bc7680cb"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/042_bird_migration_short/Source/Graphics/cues_v01/face_masks/C01_v01_mask.png",
+      "sha256": "c072a53a8d683ced372ec1e4478dce1bf4b54fc4a84290978d6daf611c8f93b8"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/042_bird_migration_short/Source/Graphics/cues_v01/face_masks/C02_v01_mask.png",
+      "sha256": "cc7f5535c08ac5fb94cb2171cc4bfff7e7440fe4c2998d5322e8c8bcea6842e7"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/042_bird_migration_short/Source/Graphics/cues_v01/face_masks/C03_v01_mask.png",
+      "sha256": "71b5f006cc0923ac67922346d25cee91579ad61b31d9d300804a43bc6d4263ef"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/042_bird_migration_short/Source/Graphics/cues_v01/face_masks/C04_v01_mask.png",
+      "sha256": "a3820b67f04129bac06d1a8e5264693abf0770d05ff8e06dad184db317f98d59"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/042_bird_migration_short/Work/caption_preflight_v02/caption_manifest_v02.json",
+      "sha256": "7ab35568087f422277969757a10efc9d2d764abb38375ec9dd96d4929916d3fd"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/042_bird_migration_short/Work/caption_preflight_v02/scenes/S01.png",
+      "sha256": "4280eae609699d670ce04ac8d8a9872cf9ef3ed95374b55472cde1a915d2b189"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/042_bird_migration_short/Work/caption_preflight_v02/scenes/S04.png",
+      "sha256": "37d6ab8e779c328d781a6fbdfb90d5557dd31a8204d29f899beb7724b1757149"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/042_bird_migration_short/Work/caption_preflight_v02/scenes/S08.png",
+      "sha256": "b2ec859b5aa8eb33c598810d3ec2398e91dec0d496b3846e7352ba3e6af71b03"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/042_bird_migration_short/Work/caption_preflight_v02/scenes/S10.png",
+      "sha256": "046f5df278ed84e41770ee2c2cb48ec1b940e9a9ee01dfbf2e7213559337f16e"
+    }
+  ],
+  "manifest_sha256": "7ab35568087f422277969757a10efc9d2d764abb38375ec9dd96d4929916d3fd",
+  "pairs": [
+    {
+      "anchor": "primary",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.16
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              187,
+              345,
+              1248,
+              483
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            187,
+            345
+          ],
+          "phone_preview": "../../../Work/captions-042-v05/previews/S01/C01/primary__phone.png",
+          "preview": "../../../Work/captions-042-v05/previews/S01/C01/primary.png"
+        },
+        {
+          "anchor": "alternate",
+          "center": [
+            0.5,
+            0.105
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              187,
+              204,
+              1248,
+              342
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            187,
+            204
+          ],
+          "phone_preview": "../../../Work/captions-042-v05/previews/S01/C01/alternate__phone.png",
+          "preview": "../../../Work/captions-042-v05/previews/S01/C01/alternate.png"
+        }
+      ],
+      "cue": "C01",
+      "scene": "S01"
+    },
+    {
+      "anchor": "primary",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.16
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              248,
+              346,
+              1193,
+              486
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            246,
+            346
+          ],
+          "phone_preview": "../../../Work/captions-042-v05/previews/S04/C02/primary__phone.png",
+          "preview": "../../../Work/captions-042-v05/previews/S04/C02/primary.png"
+        },
+        {
+          "anchor": "alternate",
+          "center": [
+            0.5,
+            0.105
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              248,
+              205,
+              1193,
+              345
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            246,
+            205
+          ],
+          "phone_preview": "../../../Work/captions-042-v05/previews/S04/C02/alternate__phone.png",
+          "preview": "../../../Work/captions-042-v05/previews/S04/C02/alternate.png"
+        }
+      ],
+      "cue": "C02",
+      "scene": "S04"
+    },
+    {
+      "anchor": "primary",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.16
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              188,
+              347,
+              1252,
+              487
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            186,
+            347
+          ],
+          "phone_preview": "../../../Work/captions-042-v05/previews/S08/C03/primary__phone.png",
+          "preview": "../../../Work/captions-042-v05/previews/S08/C03/primary.png"
+        },
+        {
+          "anchor": "alternate",
+          "center": [
+            0.5,
+            0.105
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              188,
+              206,
+              1252,
+              346
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            186,
+            206
+          ],
+          "phone_preview": "../../../Work/captions-042-v05/previews/S08/C03/alternate__phone.png",
+          "preview": "../../../Work/captions-042-v05/previews/S08/C03/alternate.png"
+        }
+      ],
+      "cue": "C03",
+      "scene": "S08"
+    },
+    {
+      "anchor": "alternate",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.16
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              124,
+              346,
+              1317,
+              487
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            122,
+            346
+          ],
+          "phone_preview": "../../../Work/captions-042-v05/previews/S10/C04/primary__phone.png",
+          "preview": "../../../Work/captions-042-v05/previews/S10/C04/primary.png"
+        },
+        {
+          "anchor": "alternate",
+          "center": [
+            0.5,
+            0.105
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              124,
+              205,
+              1317,
+              346
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            122,
+            205
+          ],
+          "phone_preview": "../../../Work/captions-042-v05/previews/S10/C04/alternate__phone.png",
+          "preview": "../../../Work/captions-042-v05/previews/S10/C04/alternate.png"
+        }
+      ],
+      "cue": "C04",
+      "scene": "S10"
+    }
+  ],
+  "pillow_version": "11.3.0",
+  "shared_face_height_px": 111,
+  "source_manifest": {
+    "anchors": {
+      "alternate": {
+        "center": [
+          0.5,
+          0.105
+        ],
+        "max_height_px": 330,
+        "max_width_px": 1200
+      },
+      "primary": {
+        "center": [
+          0.5,
+          0.16
+        ],
+        "max_height_px": 330,
+        "max_width_px": 1200
+      }
+    },
+    "canvas": [
+      1440,
+      2560
+    ],
+    "cues": [
+      {
+        "backend": {
+          "face": {
+            "mode": "mask",
+            "path": "../../Source/Graphics/cues_v01/face_masks/C01_v01_mask.png"
+          },
+          "path": "../../Source/Graphics/cues_v01/cropped/C01_v01.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/Shared/References/Paper/paper004_user_38.png",
+          "status": "generated type treatment; exact accepted Paper glyph sample unavailable",
+          "type": "existingPNG"
+        },
+        "id": "C01",
+        "lines": [
+          "THE ARROW MYSTERY"
+        ],
+        "provenance": {
+          "accepted_typography_sample_available": false,
+          "method": "image_gen transparent text graphic",
+          "style_reference": "/Users/diplomat/ytvideos/channels/paper_detour/Shared/References/Paper/paper004_user_38.png",
+          "style_reference_sha256": "238bb11958c8e59224edcd006db060df0bddd0c9e100f795e44eeb537ebdc166"
+        },
+        "timing": {
+          "end_frame": 90,
+          "start_frame": 34,
+          "status": "PROVISIONAL_FROM_FORCED_MACHINE_ALIGNMENT"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "mode": "mask",
+            "path": "../../Source/Graphics/cues_v01/face_masks/C02_v01_mask.png"
+          },
+          "path": "../../Source/Graphics/cues_v01/cropped/C02_v01.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/Shared/References/Paper/paper004_user_38.png",
+          "status": "generated type treatment; exact accepted Paper glyph sample unavailable",
+          "type": "existingPNG"
+        },
+        "id": "C02",
+        "lines": [
+          "A LUNAR THEORY"
+        ],
+        "provenance": {
+          "accepted_typography_sample_available": false,
+          "method": "image_gen transparent text graphic",
+          "style_reference": "/Users/diplomat/ytvideos/channels/paper_detour/Shared/References/Paper/paper004_user_38.png",
+          "style_reference_sha256": "238bb11958c8e59224edcd006db060df0bddd0c9e100f795e44eeb537ebdc166"
+        },
+        "timing": {
+          "end_frame": 561,
+          "start_frame": 513,
+          "status": "PROVISIONAL_FROM_FORCED_MACHINE_ALIGNMENT"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "mode": "mask",
+            "path": "../../Source/Graphics/cues_v01/face_masks/C03_v01_mask.png"
+          },
+          "path": "../../Source/Graphics/cues_v01/cropped/C03_v01.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/Shared/References/Paper/paper004_user_38.png",
+          "status": "generated type treatment; exact accepted Paper glyph sample unavailable",
+          "type": "existingPNG"
+        },
+        "id": "C03",
+        "lines": [
+          "TANGIBLE EVIDENCE"
+        ],
+        "provenance": {
+          "accepted_typography_sample_available": false,
+          "method": "image_gen transparent text graphic",
+          "style_reference": "/Users/diplomat/ytvideos/channels/paper_detour/Shared/References/Paper/paper004_user_38.png",
+          "style_reference_sha256": "238bb11958c8e59224edcd006db060df0bddd0c9e100f795e44eeb537ebdc166"
+        },
+        "timing": {
+          "end_frame": 1089,
+          "start_frame": 1041,
+          "status": "PROVISIONAL_FROM_FORCED_MACHINE_ALIGNMENT"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "mode": "mask",
+            "path": "../../Source/Graphics/cues_v01/face_masks/C04_v01_mask.png"
+          },
+          "path": "../../Source/Graphics/cues_v01/cropped/C04_v01.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/Shared/References/Paper/paper004_user_38.png",
+          "status": "generated type treatment; exact accepted Paper glyph sample unavailable",
+          "type": "existingPNG"
+        },
+        "id": "C04",
+        "lines": [
+          "WINTER BEYOND EUROPE"
+        ],
+        "provenance": {
+          "accepted_typography_sample_available": false,
+          "method": "image_gen transparent text graphic",
+          "style_reference": "/Users/diplomat/ytvideos/channels/paper_detour/Shared/References/Paper/paper004_user_38.png",
+          "style_reference_sha256": "238bb11958c8e59224edcd006db060df0bddd0c9e100f795e44eeb537ebdc166"
+        },
+        "timing": {
+          "end_frame": 1395,
+          "start_frame": 1344,
+          "status": "PROVISIONAL_FROM_FORCED_MACHINE_ALIGNMENT"
+        }
+      }
+    ],
+    "face_height_px": 112,
+    "min_face_height_px": 48,
+    "pairs": [
+      {
+        "anchor": "primary",
+        "cue": "C01",
+        "scene": "S01"
+      },
+      {
+        "anchor": "primary",
+        "cue": "C02",
+        "scene": "S04"
+      },
+      {
+        "anchor": "primary",
+        "cue": "C03",
+        "scene": "S08"
+      },
+      {
+        "anchor": "alternate",
+        "cue": "C04",
+        "scene": "S10"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "S01",
+        "path": "scenes/S01.png"
+      },
+      {
+        "id": "S04",
+        "path": "scenes/S04.png"
+      },
+      {
+        "id": "S08",
+        "path": "scenes/S08.png"
+      },
+      {
+        "id": "S10",
+        "path": "scenes/S10.png"
+      }
+    ],
+    "version": 1
+  },
+  "storage": {
+    "dependencies": "/Users/diplomat/ytvideos/channels/paper_detour/videos/042_bird_migration_short/Assets/Generated/captions-042-v05",
+    "previews": "/Users/diplomat/ytvideos/channels/paper_detour/videos/042_bird_migration_short/Work/captions-042-v05/previews"
+  },
+  "version": 1
+}

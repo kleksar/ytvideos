@@ -1,0 +1,65 @@
+{
+  "version": "nuviko-history-black-death-packaging-v01",
+  "language": "en",
+  "channel_id": "UCbyLx6Rf3iWww4bPZJ2oo2A",
+  "default_title": "Why Were 181 Coins Left in a Black Death Grave in London?",
+  "title_variants": [
+    {
+      "id": "A",
+      "title": "Why Were 181 Coins Left in a Black Death Grave in London?",
+      "angle": "question-led mystery"
+    },
+    {
+      "id": "B",
+      "title": "The 181 Coins Buried in London’s Black Death Cemetery",
+      "angle": "evidence-first, location-led"
+    },
+    {
+      "id": "C",
+      "title": "What One London Grave Reveals About the Black Death",
+      "angle": "consequence and broader story"
+    }
+  ],
+  "thumbnail": {
+    "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Packaging/v01/thumb_181_coins_v01.jpg",
+    "sha256": "e33a6055ae8c08b98b8b17db9a6160af9675e9aa37434b97e2082db4ed6edb77",
+    "width": 1672,
+    "height": 941,
+    "text": "181 COINS",
+    "source_image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Source/Long/Images/S002_scene002_coins_detail.png",
+    "status": "candidate"
+  },
+  "description_draft": "The Black Death reached London in 1348. At East Smithfield, near the Tower of London, archaeologists found 181 coins in the grave of a woman buried during the epidemic. Why were the coins left with her? The reason is unknown. The cemetery’s carefully arranged burials show that essential work continued through the crisis.\n\nThis story follows the choices families faced, the disruption to work and trade, and a 1377 Dubrovnik rule requiring arrivals from plague-affected places to remain in isolation for 30 days.\n\nChapters\n00:00 The 181 Coins at East Smithfield\n00:59 Trade Across Medieval Europe\n01:29 The Plague Reaches New Cities\n02:23 Illness and Care\n03:53 Choices in Florence\n05:23 Order, Fear, and Loss at East Smithfield\n06:41 Labor Shortages and New Laws\n08:23 Dubrovnik and Isolation\n09:59 London and the Earlier Evidence\n11:17 The Work That Continued\n\nThe visuals are historical reconstructions.\n\nSources:\nLondon Museum — The Great Pestilence in London: https://www.londonmuseum.org.uk/collections/london-stories/great-pestilence-london/\nHistoric England — Commemorative and funerary scheduled monuments: https://historicengland.org.uk/images-books/publications/dssg-commemorative-funerary/heag239-commemorative-and-funerary-ssg/\nState Archives in Dubrovnik — HR-DADU-107 inventory: https://dad.hr/wp-content/uploads/2024/12/HR-DADU-107-Sumarni-inventar-Uprava-Lazareta-u-Dubrovniku.pdf?lang=es\n\n#BlackDeath #MedievalHistory #LondonHistory",
+  "experiment": {
+    "type": "title_only",
+    "hypothesis": "The question-led title will earn more watch time per viewer than an evidence-first or consequence-led title because the unexplained coins are the film’s clearest curiosity hook.",
+    "metric": "watch time share, as reported by YouTube native testing",
+    "variants": [
+      {
+        "id": "A",
+        "title": "Why Were 181 Coins Left in a Black Death Grave in London?",
+        "angle": "question-led mystery"
+      },
+      {
+        "id": "B",
+        "title": "The 181 Coins Buried in London’s Black Death Cemetery",
+        "angle": "evidence-first, location-led"
+      },
+      {
+        "id": "C",
+        "title": "What One London Grave Reveals About the Black Death",
+        "angle": "consequence and broader story"
+      }
+    ],
+    "thumbnail_constant": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Packaging/v01/thumb_181_coins_v01.jpg",
+    "status": "prepared_deferred_private_video_and_advanced_features_pending",
+    "eligible_action": "Once the video is public and advanced features are enabled, start title-only native test with these three titles and the same thumbnail; do not switch visibility as part of this package."
+  },
+  "upload_intent": "private",
+  "synthetic_media_disclosure": true,
+  "notes": [
+    "Description and chapters are grounded in the retained narration and visual research notes; final timestamp validation remains pending the final MP4.",
+    "Native A/B cannot start while the video is Private; advanced features are still pending channel verification.",
+    "Realistic AI-generated historical scenes require YouTube altered/synthetic media disclosure; uploader metadata sets contains_synthetic_media=true."
+  ]
+}

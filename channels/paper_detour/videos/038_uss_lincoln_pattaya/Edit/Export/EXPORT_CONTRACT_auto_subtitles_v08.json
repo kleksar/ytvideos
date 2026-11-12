@@ -1,0 +1,23 @@
+{
+  "purpose": "96 px Shorts subtitle review",
+  "channel": "paper",
+  "format": "short",
+  "input_manifest": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Edit/ffmpeg/montage_auto_subtitles_v07.json",
+  "reference_edit": "Work/ffmpeg-short-v06/render/input_manifest.json",
+  "word_source": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Work/paper038-review-v03/forced_word_map_v01.json",
+  "word_timing": "source times divided once by 1.1; source alignment REVIEW_REQUIRED",
+  "audio": "Work/ffmpeg-short-v05/accepted_mix_1.1x.wav",
+  "canvas": [
+    1440,
+    2560
+  ],
+  "fps": "30/1",
+  "frames": 1800,
+  "format_delivery": "MP4 H.264 yuv420p",
+  "target": "Work/ffmpeg-subtitles-auto-v08/previews/Paper038_auto_subtitles_96px_v08.mp4",
+  "encoder": "h264_videotoolbox",
+  "bitrate": "20M",
+  "controls": "FFmpeg defaults unless specified; colour metadata not explicitly controlled by renderer",
+  "subtitle_profile_sha256": "0f008d401078ca59f4c45ea213d1e5d604eac36be4f68e100a228c0966e583bd",
+  "subtitle_font_px_at_1440x2560": 96
+}

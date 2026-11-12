@@ -1,0 +1,339 @@
+{
+  "schema_version": 1,
+  "status": "READY_TO_RENDER",
+  "episode": "049_anandibai_joshee",
+  "language": "en",
+  "format": "long",
+  "purpose": "user_review_mp4",
+  "settings_profile": {
+    "path": "/Users/diplomat/ytvideos/.agents/skills/ytv-video-export/references/delivery.md",
+    "sha256": "494eb3736b9a39861949084e6623b2033bbd2ea9c4cdef31c48f035938dc89a6",
+    "audio_profile_path": "/Users/diplomat/ytvideos/.agents/skills/ytv-audio-delivery/references/delivery-checks.md",
+    "audio_profile_sha256": "c76052c7d315f74055f664d8e55111b0d743fa77603ca416c70948e44762d328"
+  },
+  "edit": {
+    "project_id": "not applicable; FFmpeg montage manifest",
+    "timeline_id": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Edit/Storyboard/montage_v01.json",
+    "saved_revision_evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Edit/Storyboard/montage_v01.json; compiled /Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Work/plan_check_v02/plan.json",
+    "timeline_read_path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Work/plan_check_v02/plan.json",
+    "timeline_read_sha256": "3ed901876b70628b606069c92d48e39c2375c085af195c3511e4315ed7480995",
+    "input_manifest_path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Work/plan_check_v02/input_manifest.json",
+    "input_manifest_sha256": "75b8fc4386bef2f2149a4bd165584dbeea6763e52b5f8b1b5c3a3350d218c73d",
+    "dependencies": [
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Edit/Storyboard/montage_v01.json",
+        "sha256": "e3f794187864ff4b92e035fcacbc819a5c97e10eb48eb5d9639a47b9d1fb7b4a"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Work/plan_check_v02/plan.json",
+        "sha256": "3ed901876b70628b606069c92d48e39c2375c085af195c3511e4315ed7480995"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Work/plan_check_v02/input_manifest.json",
+        "sha256": "75b8fc4386bef2f2149a4bd165584dbeea6763e52b5f8b1b5c3a3350d218c73d"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Work/subtitle_prepare_v03/subtitle_contract.json",
+        "sha256": "e3a1edb6b05e2839a304afc8316b32db7667ad63ab476b0afc81c8c5bb80fb82"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Work/subtitle_prepare_v03/caption_groups.json",
+        "sha256": "8640bab7dba0a17131d45e45bbb479e568776d2afaad270af2c9faa506894793"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Edit/Timebase/word_times_en_v26_110_forced_v01.json",
+        "sha256": "e7421a3e9ad7f0e5613e3e1332ca407f9f4fc505ce0a335e8b078d80a0fffd33"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Source/Audio/narration_en_v26_110.wav",
+        "sha256": "c4f81d49216ffb1c8767180ecef5f9199b3901c478946b3c582e105a4a38cf2a"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Source/Script/narration_en_v26.md",
+        "sha256": "52c534de62209629257213f49a5c6c3301010d2f5bae1c87426a9bbc66ff6956"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Edit/Audio/speed_evidence_v01.md",
+        "sha256": "a1f263cd3f9677327f7ce31a7337d17ac8bd8775b3f72be067cf955277509512"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Source/Images/Long/en/scene_selection_manifest_v01.json",
+        "sha256": "19a3b969d3640d0506b0a574373895a2a0c3ced74ee1e5084d0369851cce983d"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Source/Images/Long/en/contact_sheet_v02.jpg",
+        "sha256": "d68f8f5bd165496d310ae3064c84846ede9ea12f2b580b2e12a9c5bbcdd967e5"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Source/Images/image_generation_log_v02.md",
+        "sha256": "ccc3be48bba426f203b2deb2bb0837e2a8588f61aa4f21b77cc0b918c39e2f9b"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Work/paper_frame_v01/paper_frame_4784_v02.mov",
+        "sha256": "2c015ce38c7b69686a93ee08111c4a2962df748a70e0c0a6f12df7d02d75b539"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/Shared/Overlays/Paper_Frame/masters/paper-border-16x9-16s-v02-crf18.webm",
+        "sha256": "a5d31ac4f6f8945ab245afa31a60b11a17f665f8a79a80d8d24817fd4c2e4706"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/Shared/Overlays/Paper_Frame/README.md",
+        "sha256": "8b3342fb683082a26f14dee6c6cfedb2bbda691f1382e904d6a0ceda3588625c"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/Shared/Overlays/Paper_Frame/source/VALIDATION.md",
+        "sha256": "4b0f64971bb157ae059b8f4f4872ae3e13989572f60c100b3e364b138716782a"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/montage.py",
+        "sha256": "b5a475a188bd502c9a2c0982a7d0bbc7a5547e81fe01ad4705d3e3019dbc7f9e"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/delivery.py",
+        "sha256": "8fcba5854d8832a966d4960dbdae3c8fa362d124d04a67f2b4b0df4347a71c65"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/profiles/paper.json",
+        "sha256": "e2b89e813ec25985601ef65997ea8b94c19e96aa6d158333edf962b42e02ffc0"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/profiles/long.json",
+        "sha256": "e8f9f5dd0354283634a0cf9dc1816736bac38de158de1d0bdd1b8b4658f51459"
+      },
+      {
+        "path": "/System/Library/Fonts/Supplemental/ChalkboardSE.ttc",
+        "sha256": "256d3dd291f0d2bd3379882e7fb9c8276fba219ea447a1073d2fce17690e0478"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Edit/Export/encoder_capability_v01.txt",
+        "sha256": "7d7ec3689e5ef7f2f8367b1f4be2e4dec658bac64e489d3dc992725d35ee6306"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Work/subtitle_prepare_v03/subtitle_review.json",
+        "sha256": "28b2cbb196d6f459a8f8414bcb10c588cb7e86d05cf025bd2a3e6ec355b17db3"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Work/srt_v02/srt_validation.json",
+        "sha256": "f5b0dcaab3afb483de4c4915767f5014bd0a91a27814746d2c42bc196c5b7604"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Edit/MediaLifecycle/audit-pre-render-v01/audit.json",
+        "sha256": "c88dc59aefc647aa1f919c0fb4230ccf6fbedf1dcc3d6deeb57c79873e7e1e83"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Source/Images/Long/en/scene_01_v01.png",
+        "sha256": "6952444401d833a562f5bc9861d8237d7bae6f0167583807951e73a83413ade3"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Source/Images/Long/en/scene_02_v01.png",
+        "sha256": "c404a0b99d4fc91db4d988cea737fcb1ea6cd45fbcaf6088f4a4982da395ff5b"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Source/Images/Long/en/scene_03_v01.png",
+        "sha256": "ad89b8293415f1af4bbeeda1bfa8986b93664a277e256f4ee4adbf40470eab8b"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Source/Images/Long/en/scene_04_v01.png",
+        "sha256": "e4e69f3fd6ca1d947133b855a9271daae7591b9dc5aa8544fbfedaf0e1d390e3"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Source/Images/Long/en/scene_05_v01.png",
+        "sha256": "05f4f8dbfd99acfadd991ecac67add77a7bd7f2d9f579ea5456289a001153380"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Source/Images/Long/en/scene_06_v01.png",
+        "sha256": "379132b560d0110ae0af1e3cb9cce48dcc9d1260099cb5ef7c24354e9a2bf93b"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Source/Images/Long/en/scene_07_v01.png",
+        "sha256": "9d5b61f5f9eedb99247f64bc882279feee33daf4c16d34711fa1c93de57d38c8"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Source/Images/Long/en/scene_08_v01.png",
+        "sha256": "c4aecddccfb71ef19c3fe7c6d3203f3fec68f28f05b17ca13860ac0857505eed"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Source/Images/Long/en/scene_09_v01.png",
+        "sha256": "c29bd82c46638f332c9f61ed933fcbbffb8db74ed60407ed8cf07f9e20711960"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Source/Images/Long/en/scene_10_v01.png",
+        "sha256": "fd80fddb0268f50c4f1e2e520d3757c94db343d1d2a9159b526ef84ca87ef768"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Source/Images/Long/en/scene_11_v01.png",
+        "sha256": "cd8cc956229e9aff2491486cef9b4080e0b9b7eaca2c1b364b3e2c0a84c48bfe"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Source/Images/Long/en/scene_12_v01.png",
+        "sha256": "d931b4a8b00b9114e49e2ea8e97d321f2eff78ef1d74020374957da3eadaf418"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Source/Images/Long/en/scene_13_v01.png",
+        "sha256": "17004660e2b1147050d25359bf7aee2c47a15e4021ac22cf3446e028935919b7"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Source/Images/Long/en/scene_14_v01.png",
+        "sha256": "90b751af93cf667e284a0ee5f6ad8ea7afeefc2bf3fd71a2ed4094dd23b54203"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Source/Images/Long/en/scene_15_v01.png",
+        "sha256": "70ef6bcdd4e631255e344fd3ba7fa2524a72307a4d7eab8c3689509f530283e1"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Source/Images/Long/en/scene_16_v01.png",
+        "sha256": "ad00a6ec10cf735556d80671c27e9d82a79c7151485f59c30ee880d4f81c2ac0"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Source/Images/Long/en/scene_17_v01.png",
+        "sha256": "75914dc8eb4c57f13f62248da8fe9f05aaf401abe02aaee3e975b2a10b67e479"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Source/Images/Long/en/scene_18_v01.png",
+        "sha256": "5910ed54a6d33ceb09bb2d9429b9ee397f1fc6360417f5275dff56aaef5ec19e"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Source/Images/Long/en/scene_19_v01.png",
+        "sha256": "7fcb90f15ce792713f514dbbf74085583c021cb94a8a6ccd969f7eebdb0ceff0"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Source/Images/Long/en/scene_20_v01.png",
+        "sha256": "dc3fd501dda2fa743117c7323a5b1fbe04fade69169eee75971ffe65431643e2"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Source/Images/Long/en/scene_21_v01.png",
+        "sha256": "2eabbb9a5d272112981ceed295b8a1904e039762d960ec4af6cb8b13833dedb1"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Source/Images/Long/en/scene_22_v01.png",
+        "sha256": "207ce636ac643a4de83b3e269632ec51cdc0ca195c37df47fb78433ff054f089"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Source/Images/Long/en/scene_23_v01.png",
+        "sha256": "ac142e4203c371d8bb5ca0536f7aa04b951f3284d756ee0ecb66685782fc4ebc"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Source/Images/Long/en/scene_24_v01.png",
+        "sha256": "2fd467c39f932b501c62dd38c5780761b640c49000d4b77b1410563d606de9ff"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Source/Images/Long/en/scene_25_v01.png",
+        "sha256": "80fa89349a0a4c56cef3f795b7088609d8fc887d4e39cd7ffd7c91a1ea95f6cd"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Source/Images/Long/en/scene_26_v01.png",
+        "sha256": "eeceb5b8d5a954b0b3a211eb98987fdb91011d6271dd0b68d2d1ccee822daab9"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Source/Images/Long/en/scene_27_v01.png",
+        "sha256": "883c560357bcc4f4228690557fa525ee2861d3546f8d8595b7e1000585cf22d1"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Source/Images/Long/en/scene_28_v01.png",
+        "sha256": "3ef71f9ee529296e092f1cfaf2309e42dc00f3048a7dca73545e5aeed633db87"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Source/Images/Long/en/scene_29_v02.png",
+        "sha256": "8ac6c0fa1d60c3108b5ac6797d587aedfbd96b0a5e0f25ea80c6afeb17d93c92"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Source/Images/Long/en/scene_30_v01.png",
+        "sha256": "b36de25d0645f87d7271b3cf2aa43967b3d11cd8e69200b18b72cc5f0a314fd1"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Source/Images/Long/en/end_screen_A_v01.png",
+        "sha256": "8bdb707e745ee0fe3afc697a505f5025a30e2ea1dea9b8247edebaba49113a4f"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Source/Images/Long/en/end_screen_B_v01.png",
+        "sha256": "683b55dd3a286d3cde1876a4f35a39778c102047f22213474090c6e9899aee7a"
+      }
+    ]
+  },
+  "timeline": {
+    "width": 2560,
+    "height": 1440,
+    "aspect_ratio": "16:9",
+    "sample_aspect_ratio": "1:1",
+    "fps": "30/1",
+    "frame_count": 4784,
+    "duration_seconds": 159.46666666666667,
+    "output_color_space": "Rec.709 SDR"
+  },
+  "required_delivery": {
+    "container": "MP4",
+    "video": {
+      "codec_name": "h264",
+      "pix_fmt": "yuv420p",
+      "scan": "progressive",
+      "cadence": "30/1 constant frame-addressed output",
+      "color_primaries": "bt709",
+      "color_transfer": "bt709",
+      "color_space": "bt709",
+      "color_range": "tv"
+    },
+    "audio_contract": {
+      "owner_handoff": "ytv-audio-delivery Paper voice-only delivery: preserve mono 44.1 kHz and encode AAC-LC at 192 kbit/s.",
+      "accepted_complete_mix": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Source/Audio/narration_en_v26_110.wav",
+        "sha256": "c4f81d49216ffb1c8767180ecef5f9199b3901c478946b3c582e105a4a38cf2a",
+        "mapping": "Accepted narration only, begins at frame 0, no music/SFX, full 149.459206 s WAV; final 10 s are silent picture end screens. Speed 1.10\u00d7 was applied once before this mix."
+      },
+      "source_rate_channels": {
+        "sample_rate_hz": 44100,
+        "channels": 1,
+        "codec": "PCM S16LE WAV"
+      },
+      "codec_name": "aac",
+      "profile": "LC",
+      "sample_rate": 44100,
+      "channels": 1,
+      "target_bit_rate": "192k"
+    }
+  },
+  "encoding": {
+    "engine": "FFmpeg automation/ffmpeg_montage/montage.py",
+    "version_evidence": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers",
+    "requested_arguments": {
+      "encoder": "h264_videotoolbox",
+      "video_bitrate": "20M",
+      "output_pix_fmt": "yuv420p",
+      "fps": "30/1",
+      "audio_codec": "aac",
+      "audio_profile": "aac_low",
+      "audio_bitrate": "192k",
+      "audio_sample_rate": 44100,
+      "audio_channels": 1
+    },
+    "quality_preferences": [
+      "20 Mbit/s target for 2K H.264; generated scene images are 1672\u00d7941 and are proportionally upscaled, which adds no native detail.",
+      "No sharpening or extra effects."
+    ],
+    "capability_evidence": {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Edit/Export/encoder_capability_v01.txt",
+      "sha256": "7d7ec3689e5ef7f2f8367b1f4be2e4dec658bac64e489d3dc992725d35ee6306",
+      "videotoolbox_encoder_available": true
+    },
+    "engine_managed_fields": [
+      "Measured bitrate and H.264 profile/level, GOP and B-frame behaviour are encoder/output facts; not asserted before encoding."
+    ]
+  },
+  "preflight": {
+    "author": "Codex",
+    "time": "2026-11-05",
+    "authorization_references": [
+      "User request: complete video with images and MP4, accepted English narration.",
+      "Project flow authorizes one local review MP4; no upload/publication."
+    ],
+    "fresh_settings_evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Edit/Export/PREFLIGHT_v01.md",
+    "writer_and_export_state": "Final MP4 path does not exist; no writer targets it. Other active project renders are separate outputs. Plan-only and subtitle preparation completed; renderer settings check to run against this manifest.",
+    "output_path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Deliverables/Anandibai_Joshee_EN_review_v01.mp4",
+    "overwrite": false,
+    "media_lifecycle_receipt": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Edit/MediaLifecycle/audit-pre-render-v01/audit.json",
+    "unresolved_required_fields": []
+  },
+  "render_receipt": null,
+  "qa_receipt": null,
+  "settings_check_receipt": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Work/render_preflight_v01/settings_check.json",
+  "render_provenance": "/Users/diplomat/ytvideos/channels/paper_detour/videos/049_anandibai_joshee/Work/render_preflight_v01/render_provenance.json"
+}

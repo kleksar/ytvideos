@@ -1,0 +1,317 @@
+{
+  "channel": "two_ways_lab",
+  "format": "short",
+  "fps": 30,
+  "canvas": [
+    1080,
+    1920
+  ],
+  "source_transfer": "srgb",
+  "audio": "../Source/Audio/v01/mix.wav",
+  "audio_contract": {
+    "final_audio_sha256": "4cba7f4d76ca2fc8a02a030ec7e99ad009bdb5e667e3af07fbd81d4189c61654",
+    "applied_speed": 1.0,
+    "speed_evidence": "../Source/Audio/v01/mix-evidence.md"
+  },
+  "scenes": [
+    {
+      "image": "../Source/Images/v01/initial.png",
+      "start_frame": 0,
+      "end_frame": 326,
+      "direction": "none",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "initial sock arrangement",
+        "reason": "Fixed camera shows changes to the same set of eight socks",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        }
+      }
+    },
+    {
+      "image": "../Source/Images/v01/compare.png",
+      "start_frame": 326,
+      "end_frame": 417,
+      "direction": "none",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "compare sock arrangement",
+        "reason": "Fixed camera shows changes to the same set of eight socks",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        }
+      }
+    },
+    {
+      "image": "../Source/Images/v01/first_pair.png",
+      "start_frame": 417,
+      "end_frame": 468,
+      "direction": "none",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "first_pair sock arrangement",
+        "reason": "Fixed camera shows changes to the same set of eight socks",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        }
+      }
+    },
+    {
+      "image": "../Source/Images/v01/sorted.png",
+      "start_frame": 468,
+      "end_frame": 530,
+      "direction": "none",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "sorted sock arrangement",
+        "reason": "Fixed camera shows changes to the same set of eight socks",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        }
+      }
+    },
+    {
+      "image": "../Source/Images/v01/initial.png",
+      "start_frame": 530,
+      "end_frame": 590,
+      "direction": "none",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "initial sock arrangement",
+        "reason": "Fixed camera shows changes to the same set of eight socks",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        }
+      }
+    },
+    {
+      "image": "../Source/Images/v01/two_pairs.png",
+      "start_frame": 590,
+      "end_frame": 657,
+      "direction": "none",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "two_pairs sock arrangement",
+        "reason": "Fixed camera shows changes to the same set of eight socks",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        }
+      }
+    },
+    {
+      "image": "../Source/Images/v01/sorted.png",
+      "start_frame": 657,
+      "end_frame": 979,
+      "direction": "none",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "sorted sock arrangement",
+        "reason": "Fixed camera shows changes to the same set of eight socks",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        }
+      }
+    },
+    {
+      "image": "../Source/Images/v01/initial.png",
+      "start_frame": 979,
+      "end_frame": 1039,
+      "direction": "none",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "initial sock arrangement",
+        "reason": "Fixed camera shows changes to the same set of eight socks",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        }
+      }
+    }
+  ],
+  "overlays": [
+    {
+      "path": "../Source/Lettering/v01/hook.png",
+      "start_frame": 0,
+      "end_frame": 167,
+      "y": 15,
+      "lettering_motion": {
+        "scale_amplitude": 0.02,
+        "rotation_degrees": 2
+      }
+    },
+    {
+      "path": "../Source/Lettering/v01/ten.png",
+      "start_frame": 468,
+      "end_frame": 530,
+      "y": 15,
+      "lettering_motion": {
+        "scale_amplitude": 0.02,
+        "rotation_degrees": 2
+      }
+    },
+    {
+      "path": "../Source/Lettering/v01/eight.png",
+      "start_frame": 657,
+      "end_frame": 732,
+      "y": 15,
+      "lettering_motion": {
+        "scale_amplitude": 0.02,
+        "rotation_degrees": 2
+      }
+    }
+  ],
+  "subtitles": {
+    "mode": "words",
+    "transcript": "../Source/Audio/v01/narration.txt",
+    "words": "../Source/Audio/v01/word_times.json",
+    "phrases": [
+      "Eight socks.",
+      "Four matching pairs.",
+      "Would you match them",
+      "one by one,",
+      "or sort the colors first?",
+      "Let's try the same pile",
+      "both ways.",
+      "Every comparison",
+      "or sorting move",
+      "counts as one action.",
+      "First, you grab a sock",
+      "and check the others",
+      "until you find its match.",
+      "Then you do it again.",
+      "Four pairs, ten comparisons.",
+      "Now reset the pile.",
+      "This time, drop every sock",
+      "into its color group.",
+      "Eight moves,",
+      "and the pairs are already together.",
+      "Sorting wins this test",
+      "by two actions.",
+      "But a move and a comparison",
+      "don't always take the same time,",
+      "and a different pile",
+      "can change the result.",
+      "So, what would you do with..."
+    ]
+  },
+  "minimum_scene_frames": 45
+}

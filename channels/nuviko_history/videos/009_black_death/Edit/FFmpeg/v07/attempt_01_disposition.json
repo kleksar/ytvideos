@@ -1,0 +1,22 @@
+{
+  "status": "ABANDONED_PARTIAL_RENDER",
+  "reason": "Stopped before completion because shared volume free space fell to 2.6 GiB during concurrent FFmpeg renders.",
+  "removed_paths": [
+    {
+      "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Work/ffmpeg-black-death-v07/run01",
+      "logical_bytes": 230474271
+    }
+  ],
+  "retained_inputs": [
+    "Edit/FFmpeg/v07/black_death_nuviko_en_v07.json",
+    "Edit/FFmpeg/v07/word_times_1_10x.json",
+    "Assets/Generated/remake_v07/audio/black_death_audio_1_10x.m4a",
+    "Edit/FFmpeg/v07/EXPORT_CONTRACT_v07.json"
+  ],
+  "retained_partial_evidence": [
+    "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/FFmpeg/v07/partial_input_manifest.json",
+    "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/FFmpeg/v07/partial_plan.json",
+    "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/FFmpeg/v07/partial_caption_groups.json"
+  ],
+  "time_utc": "2026-11-03T17:12:35+00:00"
+}

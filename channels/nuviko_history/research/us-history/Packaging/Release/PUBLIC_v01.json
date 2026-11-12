@@ -1,0 +1,44 @@
+{
+  "state": "confirmed",
+  "action": "publish_public",
+  "channel_id": "UCbyLx6Rf3iWww4bPZJ2oo2A",
+  "video_id": "Gm_E_yZlxfU",
+  "url": "https://www.youtube.com/watch?v=Gm_E_yZlxfU",
+  "privacy": "public",
+  "processing": "succeeded",
+  "upload_status": "processed",
+  "published_at": "2026-11-09T16:08:02Z",
+  "verified_at": "2026-11-09T16:10:42+00:00",
+  "verification": "fresh YouTube Data API read after public write and A/B setup",
+  "package": {
+    "title": "How America Grew and Nearly Broke Apart",
+    "description": "C matched",
+    "audio_language": "en",
+    "metadata_language": "en",
+    "localizations": [
+      "en"
+    ]
+  },
+  "evidence": {
+    "srt_sha256": "d83c57b9b74e12b99d52ca5af57d4114cef06fec36c59e9384b95ce0129845f3",
+    "caption_id": "AUieDaaMLqnYYiuVRdi9lfZiC0LdfwJ7ILZkPuLUHqfyjqyHlQ_anBsp",
+    "playlist_id": "PLCtiNAU_98r0",
+    "playlist_item_id": "UExDdGlOQVVfOThyMC45ODRDNTg0QjA4NkFBNkQy"
+  },
+  "captions": [
+    {
+      "id": "AUieDaaMLqnYYiuVRdi9lfZiC0LdfwJ7ILZkPuLUHqfyjqyHlQ_anBsp",
+      "language": "en",
+      "kind": "standard",
+      "status": "serving",
+      "is_draft": false
+    }
+  ],
+  "synthetic_media_api_readback": "not_returned",
+  "synthetic_media_studio_readback": "Yes",
+  "alternate_upload": {
+    "id": "I0LOUBN47Xg",
+    "privacy": "private",
+    "publish_at": null
+  }
+}

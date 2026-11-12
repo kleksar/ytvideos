@@ -1,0 +1,208 @@
+{
+  "schema": "ytv-delivery-v1",
+  "channel": "nuviko",
+  "format": "long",
+  "canvas": [
+    2560,
+    1440
+  ],
+  "fps": 30,
+  "frames": 168,
+  "audio": {
+    "audio": {
+      "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Work/production-20261104-v02/sample_inputs/mix_sample.wav",
+      "sha256": "09792c5eaeb540e6157b23950c84e117b1411d12963233f676ccb618a7b24ba1"
+    },
+    "applied_speed": 1.1,
+    "speed_policy": {
+      "path": "/Users/diplomat/ytvideos/.agents/skills/ytv-audio-delivery/references/speed.json",
+      "sha256": "32c378c36c1e297cbdc4e3593c965163d33e531b8b8eea026b367bddb51a668a"
+    },
+    "speed_evidence": {
+      "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Work/production-20261104-v02/sample_inputs/speed.md",
+      "sha256": "5e0da81874f7ad45e09627f7fad6e1c9f750d41c953a3366be59a0e56b38f189"
+    }
+  },
+  "transcript": {
+    "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Work/production-20261104-v02/sample_inputs/transcript.txt",
+    "sha256": "3252fc800f677a5dbab4af93527277ebcabd37a613f7763eb1ff009aa6f82e32"
+  },
+  "word_map": {
+    "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Work/production-20261104-v02/sample_inputs/words.json",
+    "sha256": "e7b8817cd4ada45173df799daab0374c41e3e5aef310d0574a46024b3817d63e"
+  },
+  "profiles": [
+    {
+      "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/profiles/nuviko.json",
+      "sha256": "e710153ae2bd0587adf233b671924ebbf64d183c3e77d2f5ea0c48b266f467a0"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/profiles/long.json",
+      "sha256": "e8f9f5dd0354283634a0cf9dc1816736bac38de158de1d0bdd1b8b4658f51459"
+    },
+    {
+      "path": "/System/Library/Fonts/Supplemental/Georgia Bold.ttf",
+      "sha256": "1cfa9abd55be746c798c22ef4eba88fce82257934897404be2dae53ed0a4142a"
+    }
+  ],
+  "engine": [
+    {
+      "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/montage.py",
+      "sha256": "30b44406818c88571a4a14d9ac03936c7835ca0bec0992c19cb364b3e4293387"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/delivery.py",
+      "sha256": "699f9932aff2e15da12c0af6e522053a7969c99fcf66314e29222333645c7ce6"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/.agents/skills/ytv-paper-subtitles/scripts/semantic_grouping.py",
+      "sha256": "d306fe60e6e82ea6bda440b37ba83ba853b25c9d2eb60a68db3e2a2d2846f703"
+    }
+  ],
+  "picture": [
+    {
+      "scene": {
+        "id": "S01",
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v02/host_opening_v01.png",
+        "start_frame": 0,
+        "end_frame": 168,
+        "direction": "none",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.76,
+            0.34
+          ],
+          "subject": "Traveler in separate explanatory space with Earth and a distant Voyager visualization.",
+          "reason": "Traveler opening the question; preserve the left explanatory model.",
+          "start": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1
+          },
+          "end": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.025
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v02/host_opening_v01.png",
+        "sha256": "bae4868eea91b924321dc461e751fac71ac3c3f394665aad19cbc9b8448e123e"
+      }
+    }
+  ],
+  "overlays": [],
+  "groups": [
+    [
+      {
+        "text": "How",
+        "start": 0.12,
+        "end": 0.26,
+        "source": "whisperx_forced_alignment",
+        "score": 0.999
+      },
+      {
+        "text": "Do",
+        "start": 0.3,
+        "end": 0.36,
+        "source": "whisperx_forced_alignment",
+        "score": 0.812
+      },
+      {
+        "text": "You",
+        "start": 0.4,
+        "end": 0.52,
+        "source": "whisperx_forced_alignment",
+        "score": 0.831
+      },
+      {
+        "text": "Fix",
+        "start": 0.58,
+        "end": 0.84,
+        "source": "whisperx_forced_alignment",
+        "score": 0.879
+      },
+      {
+        "text": "Voyager",
+        "start": 0.92,
+        "end": 1.82,
+        "source": "whisperx_forced_alignment",
+        "score": 0.697
+      },
+      {
+        "text": "1",
+        "start": 1.84,
+        "end": 1.86,
+        "source": "whisperx_forced_alignment",
+        "score": 1.0
+      }
+    ],
+    [
+      {
+        "text": "From",
+        "start": 1.96,
+        "end": 2.12,
+        "source": "whisperx_forced_alignment",
+        "score": 0.748
+      },
+      {
+        "text": "24",
+        "start": 2.4,
+        "end": 2.9,
+        "source": "whisperx_forced_alignment",
+        "score": 0.728
+      },
+      {
+        "text": "Billion",
+        "start": 3.16,
+        "end": 3.6,
+        "source": "whisperx_forced_alignment",
+        "score": 0.86
+      },
+      {
+        "text": "Kilometers",
+        "start": 3.64,
+        "end": 4.22,
+        "source": "whisperx_forced_alignment",
+        "score": 0.786
+      }
+    ],
+    [
+      {
+        "text": "Away?",
+        "start": 4.28,
+        "end": 4.66,
+        "source": "whisperx_forced_alignment",
+        "score": 0.806
+      }
+    ]
+  ],
+  "resolved": {
+    "resolved_font_size_px": 84,
+    "max_visible_width_px": 1344.0,
+    "center_x_px": 1280.0,
+    "baseline": 1288,
+    "algorithm": "sentence-syntax-width-v4",
+    "display_intervals": [
+      {
+        "start_frame": 0,
+        "end_frame": 59
+      },
+      {
+        "start_frame": 59,
+        "end_frame": 129
+      },
+      {
+        "start_frame": 129,
+        "end_frame": 168
+      }
+    ],
+    "boundary_warnings": []
+  }
+}

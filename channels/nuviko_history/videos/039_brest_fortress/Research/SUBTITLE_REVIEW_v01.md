@@ -1,0 +1,5 @@
+For the semantic review, the rendered plan binds the exact accepted 1,555-word narration and mix. The 432 renderer-generated caption groups preserve all words in order; 55 forced or ambiguous syntax-boundary warnings were reviewed against the surrounding narration and the Extra High grouping consultation. The June-end organized-defense transition and July individual resistance remain separate; names/dates and the 453/668 statistics with Brest-Litovsk scope remain present. Several clauses still continue across a boundary because the single-line 84 px Georgia width limit prevents keeping every full clause on one line. These are disclosed for user review in the MP4.
+
+Visual placement was checked on a 16-second sample rendered by the shared renderer. Four exported frames at 2, 6, 10 and 15 seconds showed the stable lower caption band, dark backing, readable cream text, and yellow active-word highlight over the source imagery.
+
+Human listening and playback timing of the final mix remain unverified. Provider character alignment is machine-derived; this review does not establish audible synchronization.

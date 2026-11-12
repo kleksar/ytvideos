@@ -1,0 +1,37 @@
+{
+  "subtitle_contract_sha256": "7ce64ce418c2aa074b1c4cf13b4a56b609abd47272b97d27a1335c8d256c4894",
+  "checks": {
+    "semantic_grouping": {
+      "status": "PASS_WITH_LIMITS",
+      "reviewer": "Coordinator, not independent",
+      "method": "Read complete 153-phrase sequence, checked adjacent join widths against fixed channel font; no adjacent unfinished pair fits the 1286px text budget. Existing exact wording and cue boundaries retained.",
+      "coverage": "All 153 phrases; text only, no listening",
+      "evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Work/production-20261105-v06/subtitle_prep/caption_groups.json"
+    },
+    "audible_sync": {
+      "status": "UNVERIFIED",
+      "reviewer": "",
+      "method": "",
+      "coverage": "",
+      "evidence": null
+    },
+    "visual_placement": {
+      "status": "PASS",
+      "reviewer": "Coordinator, not independent",
+      "method": "Viewed all six source/motion/caption static-preview sheets",
+      "coverage": "44 scenes x start/mid/end; selected current word-highlight layer",
+      "evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Edit/Production/v06/preflight_frame_coverage.json"
+    }
+  },
+  "independent_machine_timing_crosscheck": {
+    "status": "PASS_WITH_LIMITS",
+    "reviewer": "Coordinator",
+    "method": "WhisperX forced alignment on PCM audio extracted from exact accepted MP4; compared all transcript words and every SRT cue boundary.",
+    "coverage": "545 words and 153 cues across full 211.766667 s; maximum SRT boundary difference 23 ms; max original-vs-independent onset difference 24 ms.",
+    "evidence": {
+      "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Work/production-20261105-v06/audio_sync_audit_v01/comparison_report.json",
+      "sha256": "e9fa8f8b8c09b0662af57c1cf9924931447f9a674bc029627c9e290621e0570c"
+    },
+    "limits": "Machine timing cross-check only. Human playback/audible_sync remains UNVERIFIED."
+  }
+}

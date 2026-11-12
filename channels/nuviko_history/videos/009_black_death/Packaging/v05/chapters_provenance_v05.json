@@ -1,0 +1,51 @@
+{
+  "status": "machine_checked",
+  "media": "Deliverables/en/long/black_death_nuviko_en_v08.mp4",
+  "duration_seconds": 643.166667,
+  "time_basis": "Existing accepted chapter starts retimed once by exact 1.10x narration speed; nearest-second labels checked against current SRT context. Final chapter moved to 10:29, where cemetery workers are introduced.",
+  "boundary_evidence": "Current v08 SRT cues sampled around each boundary; no playback or full audiovisual audit claimed.",
+  "validator": ".agents/skills/ytv-youtube-chapters/scripts/validate_chapters.py",
+  "validator_result": "formal_validation=passed; media_review=not_assessed",
+  "chapters": [
+    {
+      "timestamp": "00:00",
+      "title": "The 181 Coins at East Smithfield"
+    },
+    {
+      "timestamp": "00:54",
+      "title": "Trade Across Medieval Europe"
+    },
+    {
+      "timestamp": "01:21",
+      "title": "The Plague Reaches New Cities"
+    },
+    {
+      "timestamp": "02:10",
+      "title": "Illness and Care"
+    },
+    {
+      "timestamp": "03:32",
+      "title": "Choices in Florence"
+    },
+    {
+      "timestamp": "04:54",
+      "title": "Order, Fear, and Loss at East Smithfield"
+    },
+    {
+      "timestamp": "06:05",
+      "title": "Labor Shortages and New Laws"
+    },
+    {
+      "timestamp": "07:37",
+      "title": "Dubrovnik and Isolation"
+    },
+    {
+      "timestamp": "09:05",
+      "title": "London and the Earlier Evidence"
+    },
+    {
+      "timestamp": "10:29",
+      "title": "The Work That Continued"
+    }
+  ]
+}

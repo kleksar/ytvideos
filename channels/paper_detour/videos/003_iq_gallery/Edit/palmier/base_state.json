@@ -1,0 +1,70 @@
+{
+  "canGenerate": false,
+  "currentFrame": 0,
+  "durationSeconds": 30.4,
+  "fps": 30,
+  "height": 1920,
+  "id": "19F2B39F",
+  "maskOverlayVisible": true,
+  "name": "Timeline 1",
+  "totalFrames": 912,
+  "tracks": [
+    {
+      "clips": [
+        {
+          "frames": [
+            0,
+            114
+          ],
+          "id": "B9BB3090",
+          "mediaRef": "E6806E55",
+          "mediaType": "image",
+          "transform": {
+            "height": 0.844
+          },
+          "trimEndFrame": 36
+        }
+      ],
+      "index": 0,
+      "label": "V2",
+      "trackId": "9AD90326",
+      "type": "video"
+    },
+    {
+      "clips": [
+        {
+          "frames": [
+            0,
+            912
+          ],
+          "id": "8BC0C92A",
+          "mediaRef": "4B2AB77D",
+          "mediaType": "image"
+        }
+      ],
+      "index": 1,
+      "label": "V1",
+      "trackId": "923C3DF2",
+      "type": "video"
+    },
+    {
+      "clips": [
+        {
+          "frames": [
+            0,
+            912
+          ],
+          "id": "E025C9D4",
+          "mediaRef": "8CB38682",
+          "mediaType": "audio",
+          "trimEndFrame": 768
+        }
+      ],
+      "index": 2,
+      "label": "A1",
+      "trackId": "7BC8AFA7",
+      "type": "audio"
+    }
+  ],
+  "width": 1080
+}

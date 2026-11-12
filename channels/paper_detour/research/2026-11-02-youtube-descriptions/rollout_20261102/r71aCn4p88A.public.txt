@@ -1,0 +1,823 @@
+- banner:
+  - button "Гид":
+  - link "Главная страница YouTube":
+    - /url: /
+  - generic: RS
+  - button "Пропустить":
+    - generic: Пропустить
+  - search:
+    - combobox "Поиск" [expanded]
+    - button
+    - button "Search":
+  - button "Голосовой поиск"
+  - tooltip "tooltip"
+  - button "Создать":
+    - generic: Создать
+  - button "Уведомления"
+  - tooltip "tooltip"
+  - button "Меню аккаунта":
+    - img "Фото профиля"
+- main:
+  - complementary:
+    - generic "Проигрыватель YouTube" [active]:
+      - button "Смотреть":
+      - button "Логотип канала":
+        - img "Логотип канала"
+      - slider "Ползунок поиска"
+      - slider "Чтобы перемотать видео точнее, нажмите на панель или прокрутите ее"
+      - button "Смотреть (k)":
+      - button "Отключение звука (m)":
+      - slider "Громкость"
+      - button "0 мин. 0 сек. (общая длительность 0 мин. 35 сек.)": 0:00 / 0:35
+      - button "Автовоспроизведение включено"
+      - button "Субтитры недоступны":
+      - button "Настройки":
+      - button "Широкий экран (t)":
+      - button "Во весь экран (f)":
+  - 'heading "She Saved 13 Kids in a Blizzard #BlizzardOf1888 #Shorts" [level=1]':
+    - 'generic "She Saved 13 Kids in a Blizzard #BlizzardOf1888 #Shorts"':
+      - text: She Saved 13 Kids in a Blizzard
+      - link "#BlizzardOf1888":
+        - /url: /hashtag/blizzardof1888
+      - link "#Shorts":
+        - /url: /hashtag/shorts
+  - link "Paper Detour":
+    - /url: /@rarovista
+    - img "Paper Detour"
+  - generic "Paper Detour":
+    - link "Paper Detour":
+      - /url: /@rarovista
+  - generic "4 подписчика"
+  - link "Посмотреть аналитику":
+    - /url: /analytics#;fi=v-r71aCn4p88A
+    - generic: Посмотреть аналитику
+  - link "Изменить видео":
+    - /url: https://studio.youtube.com/video/r71aCn4p88A/edit
+    - generic: Изменить видео
+  - button "поставить отметку \"Нравится\"":
+    - generic: "0"
+  - tooltip "tooltip"
+  - button "Поделиться"
+  - link "Продвижение":
+    - /url: https://studio.youtube.com/channel/UCMVfdfaNxV3ZkI3_J3Eejzw/content/promotions?d=pcd&videoId=r71aCn4p88A&promotionEntryPoint=PROMOTION_ENTRY_POINT_VIDEO_WATCH_PAGE
+  - tooltip "tooltip"
+  - button "Добавить в плейлист"
+  - button
+  - tooltip "tooltip"
+  - button "Ещё"
+  - generic "3 просмотра":
+    - generic: "1"
+    - generic: "2"
+    - generic: "3"
+    - generic: "4"
+    - generic: "5"
+    - generic: "6"
+    - generic: "7"
+    - generic: "8"
+    - generic: "9"
+    - generic: "0"
+    - generic: "1"
+    - generic: "2"
+    - generic: "3"
+    - generic: "4"
+    - generic: "5"
+    - generic: "6"
+    - generic: "7"
+    - generic: "8"
+    - generic: "9"
+    - generic: "0"
+    - generic: "1"
+    - generic: "2"
+    - generic: "3"
+    - generic: "4"
+    - generic: "5"
+    - generic: "6"
+    - generic: "7"
+    - generic: "8"
+    - generic: "9"
+    - generic: просмотра
+  - generic "7 ч назад":
+    - generic: "1"
+    - generic: "2"
+    - generic: "3"
+    - generic: "4"
+    - generic: "5"
+    - generic: "6"
+    - generic: "7"
+    - generic: "8"
+    - generic: "9"
+    - generic: "0"
+    - generic: "1"
+    - generic: "2"
+    - generic: "3"
+    - generic: "4"
+    - generic: "5"
+    - generic: "6"
+    - generic: "7"
+    - generic: "8"
+    - generic: "9"
+    - generic: "0"
+    - generic: "1"
+    - generic: "2"
+    - generic: "3"
+    - generic: "4"
+    - generic: "5"
+    - generic: "6"
+    - generic: "7"
+    - generic: "8"
+    - generic: "9"
+    - generic: ч назад
+  - tooltip "tooltip"
+  - generic: When a Nebraska school began coming apart in the 1888 blizzard, Minnie Freeman tied thirteen pupils together with twine she had taken from a boy who was playing with it in class. Carrying the youngest, she led the children through the storm toward a farmhouse three-quarters of a mile away. All thirteen made it to safety.
+  - generic: …
+  - button "ещё"
+  - text: •
+  - tablist:
+    - tab "Все видео" [selected]:
+      - generic: Все видео
+    - tab "Для вас":
+      - generic: Для вас
+    - tab "Недавно опубликованные":
+      - generic: Недавно опубликованные
+    - tab "Просмотрено":
+      - generic: Просмотрено
+  - link:
+    - /url: /watch?v=GgC86hZitrI&pp=ugUEEgJyddIHCQkrDAGHKiGM7w%3D%3D
+  - heading "Если видео НЕ НАБИРАЕТ просмотры через 24 часа - сделай это..." [level=3]:
+    - link "Если видео НЕ НАБИРАЕТ просмотры через 24 часа - сделай это... 10 минут 17 секунд":
+      - /url: /watch?v=GgC86hZitrI&pp=ugUEEgJyddIHCQkrDAGHKiGM7w%3D%3D
+      - text: Если видео НЕ НАБИРАЕТ просмотры через 24 часа - сделай это...
+  - generic: Александр Арнаут
+  - generic "171 тысяча просмотров": 171 тыс.
+  - generic "3 месяца назад": 3 мес. назад
+  - button "Ещё"
+  - link:
+    - /url: /shorts/p_7otgBWTos
+  - 'heading "Книга которую нельзя открыть #амитеш #технологии" [level=3]':
+    - 'link "Книга которую нельзя открыть #амитеш #технологии"':
+      - /url: /shorts/p_7otgBWTos
+  - generic: 7,7 млн просмотров
+  - button "Ещё"
+  - link:
+    - /url: /shorts/4srmBOC_a30
+  - heading "Муравьиный начальник" [level=3]:
+    - link "Муравьиный начальник":
+      - /url: /shorts/4srmBOC_a30
+  - generic: 12 млн просмотров
+  - button "Ещё"
+  - link:
+    - /url: /shorts/Yeu9SkfaSeo
+  - heading "Он знал ради чего идет" [level=3]:
+    - link "Он знал ради чего идет":
+      - /url: /shorts/Yeu9SkfaSeo
+  - generic: 7,8 млн просмотров
+  - button "Ещё"
+  - link:
+    - /url: /shorts/9PyAKmSeTPo
+  - heading "Доказал что достоин" [level=3]:
+    - link "Доказал что достоин":
+      - /url: /shorts/9PyAKmSeTPo
+  - generic: 5,2 млн просмотров
+  - button "Ещё"
+  - link:
+    - /url: /shorts/UD3GzItWkH4
+  - heading "Босс, вы уволены" [level=3]:
+    - link "Босс, вы уволены":
+      - /url: /shorts/UD3GzItWkH4
+  - generic: 2,2 млн просмотров
+  - button "Ещё"
+  - link:
+    - /url: /shorts/gllyyPUbsos
+  - 'heading "НЕогнемет Илона Маска: обход закона за 5 долларов" [level=3]':
+    - 'link "НЕогнемет Илона Маска: обход закона за 5 долларов"':
+      - /url: /shorts/gllyyPUbsos
+  - generic: 11 млн просмотров
+  - button "Ещё"
+  - button "Далее"
+  - link:
+    - /url: /watch?v=OtbLL6OBNE4
+  - heading "How to Make Viral Animated Shorts Using Claude (Full Workflow)" [level=3]:
+    - link "How to Make Viral Animated Shorts Using Claude (Full Workflow) 11 минут 53 секунды":
+      - /url: /watch?v=OtbLL6OBNE4
+      - text: How to Make Viral Animated Shorts Using Claude (Full Workflow)
+  - generic: Mr omi
+  - generic "76 тысяч просмотров": 76 тыс.
+  - generic "18 часов назад": 18 ч назад
+  - button "Ещё"
+  - link:
+    - /url: /watch?v=BePppCvXC-k&t=289s&pp=ugUEEgJlbg%3D%3D
+  - heading "I Proved $1,000/Day On YouTube Isn't Luck (Secret Channel Exposed)" [level=3]:
+    - link "I Proved $1,000/Day On YouTube Isn't Luck (Secret Channel Exposed) 10 минут 27 секунд":
+      - /url: /watch?v=BePppCvXC-k&t=289s&pp=ugUEEgJlbg%3D%3D
+      - text: I Proved $1,000/Day On YouTube Isn't Luck (Secret Channel Exposed)
+  - generic: WOLF Money
+  - generic "1,2 миллиона просмотров": 1,2 млн
+  - generic "10 месяцев назад": 10 мес. назад
+  - button "Ещё"
+  - link:
+    - /url: /watch?v=U1mtJl7oRS0&pp=ugUHEgVlbi1VUw%3D%3D
+  - heading "Why Did So Few Survive the Titanic?" [level=3]:
+    - link "Why Did So Few Survive the Titanic? 39 минут":
+      - /url: /watch?v=U1mtJl7oRS0&pp=ugUHEgVlbi1VUw%3D%3D
+      - text: Why Did So Few Survive the Titanic?
+  - generic: Yesterday
+  - generic "460 тысяч просмотров": 460 тыс.
+  - generic "2 месяца назад": 2 мес. назад
+  - button "Ещё"
+  - link:
+    - /url: /watch?v=kHCamT4zfH4&pp=ugUEEgJlbtIHCQkrDAGHKiGM7w%3D%3D
+  - heading "The ENTIRE History of ROME in 12 Minutes" [level=3]:
+    - link "The ENTIRE History of ROME in 12 Minutes 12 минут 13 секунд":
+      - /url: /watch?v=kHCamT4zfH4&pp=ugUEEgJlbtIHCQkrDAGHKiGM7w%3D%3D
+      - text: The ENTIRE History of ROME in 12 Minutes
+  - generic: Genius History
+  - generic "360 тысяч просмотров": 360 тыс.
+  - generic "2 месяца назад": 2 мес. назад
+  - button "Ещё"
+  - link:
+    - /url: /watch?v=4ZKYmN75Ky4&pp=0gcJCSsMAYcqIYzv
+  - heading "King Tutankhamun's Tomb Reveals a 3,000-Year-Old Secret" [level=3]:
+    - link "King Tutankhamun's Tomb Reveals a 3,000-Year-Old Secret 9 минут 20 секунд":
+      - /url: /watch?v=4ZKYmN75Ky4&pp=0gcJCSsMAYcqIYzv
+      - text: King Tutankhamun's Tomb Reveals a 3,000-Year-Old Secret
+  - generic: First Humans
+  - generic "295 просмотров": "295"
+  - generic "2 часа назад": 2 ч назад
+  - button "Ещё"
+  - link:
+    - /url: /watch?v=WqP875S6EN0&pp=ugUEEgJydQ%3D%3D
+  - heading "Claude Анимация Буквально Изменила Ютуб Навсегда" [level=3]:
+    - link "Claude Анимация Буквально Изменила Ютуб Навсегда 23 минуты":
+      - /url: /watch?v=WqP875S6EN0&pp=ugUEEgJydQ%3D%3D
+      - text: Claude Анимация Буквально Изменила Ютуб Навсегда
+  - generic: Артем Слабун
+  - generic "45 тысяч просмотров": 45 тыс.
+  - generic "5 дней назад": 5 дн. назад
+  - generic: Автодубляж
+  - button "Ещё"
+  - link:
+    - /url: /watch?v=YyhzgNdSnbQ
+  - heading "The Greatest Double Agent Ever" [level=3]:
+    - link "The Greatest Double Agent Ever 12 минут 59 секунд":
+      - /url: /watch?v=YyhzgNdSnbQ
+      - text: The Greatest Double Agent Ever
+  - generic: Primal Space
+  - generic "Подтверждено"
+  - generic "4,7 миллиона просмотров": 4,7 млн
+  - generic "1 год назад": 1 г. назад
+  - button "Ещё"
+  - link:
+    - /url: /watch?v=M_t2ZUz7_pc&pp=ugUEEgJydQ%3D%3D
+  - heading "А что, если бы ты был БЕССМЕРТНЫМ?" [level=3]:
+    - link "А что, если бы ты был БЕССМЕРТНЫМ? 8 минут 45 секунд":
+      - /url: /watch?v=M_t2ZUz7_pc&pp=ugUEEgJydQ%3D%3D
+      - text: А что, если бы ты был БЕССМЕРТНЫМ?
+  - generic: Iflord
+  - generic "1 миллион просмотров": 1 млн
+  - generic "12 дней назад": 12 дн. назад
+  - generic: Дубляж
+  - button "Ещё"
+  - link:
+    - /url: /watch?v=qc1fLT6VllY&pp=ugUHEgVlbi1VUw%3D%3D
+  - heading "YouTube Is Testing Your Channel Right Now" [level=3]:
+    - link "YouTube Is Testing Your Channel Right Now 6 минут 29 секунд":
+      - /url: /watch?v=qc1fLT6VllY&pp=ugUHEgVlbi1VUw%3D%3D
+      - text: YouTube Is Testing Your Channel Right Now
+  - generic: BigStepsMedia
+  - generic "120 тысяч просмотров": 120 тыс.
+  - generic "3 недели назад": 3 нед. назад
+  - button "Ещё"
+  - link:
+    - /url: /watch?v=OCr6NteWSQ8&pp=ugUHEgVlbi1VUw%3D%3D
+  - heading "Why Are We the Only Human Species Left? What happened to others..." [level=3]:
+    - link "Why Are We the Only Human Species Left? What happened to others... 8 минут 6 секунд":
+      - /url: /watch?v=OCr6NteWSQ8&pp=ugUHEgVlbi1VUw%3D%3D
+      - text: Why Are We the Only Human Species Left? What happened to others...
+  - generic: Ink Explainer
+  - generic "1,6 миллиона просмотров": 1,6 млн
+  - generic "4 месяца назад": 4 мес. назад
+  - button "Ещё"
+  - link:
+    - /url: /watch?v=X1L1Hd3xfrU
+  - heading "How reading changes the way your brain works - BBC World Service" [level=3]:
+    - link "How reading changes the way your brain works - BBC World Service 5 минут 55 секунд":
+      - /url: /watch?v=X1L1Hd3xfrU
+      - text: How reading changes the way your brain works - BBC World Service
+  - generic: BBC World Service
+  - generic "Подтверждено"
+  - generic "6,4 миллиона просмотров": 6,4 млн
+  - generic "10 месяцев назад": 10 мес. назад
+  - button "Ещё"
+  - link:
+    - /url: /watch?v=fTNN01enaag
+  - heading "Как делать ВИРУСНЫЕ 3D-мультики в Claude (1 запрос)" [level=3]:
+    - link "Как делать ВИРУСНЫЕ 3D-мультики в Claude (1 запрос) 6 минут 30 секунд":
+      - /url: /watch?v=fTNN01enaag
+      - text: Как делать ВИРУСНЫЕ 3D-мультики в Claude (1 запрос)
+  - generic: Novichkov
+  - generic "39 тысяч просмотров": 39 тыс.
+  - generic "5 дней назад": 5 дн. назад
+  - button "Ещё"
+  - link:
+    - /url: /watch?v=EHLI2WZUtXs
+  - heading "The ENTIRE History of ROME [No AI]" [level=3]:
+    - link "The ENTIRE History of ROME [No AI] 38 минут":
+      - /url: /watch?v=EHLI2WZUtXs
+      - text: The ENTIRE History of ROME [No AI]
+  - generic: Historically
+  - generic "Подтверждено"
+  - generic "10 миллионов просмотров": 10 млн
+  - generic "6 месяцев назад": 6 мес. назад
+  - button "Ещё"
+  - link:
+    - /url: /watch?v=iRy09X_SYk4
+  - heading "How I got monetized on YouTube in 1 Month (After failing for 5 Years)" [level=3]:
+    - link "How I got monetized on YouTube in 1 Month (After failing for 5 Years) 8 минут 17 секунд":
+      - /url: /watch?v=iRy09X_SYk4
+      - text: How I got monetized on YouTube in 1 Month (After failing for 5 Years)
+  - generic: MonomoTime
+  - generic "332 тысячи просмотров": 332 тыс.
+  - generic "6 месяцев назад": 6 мес. назад
+  - button "Ещё"
+  - link:
+    - /url: /watch?v=zy6ZN1qM3sY
+  - heading "The Unsolved Murder in Room 1046" [level=3]:
+    - link "The Unsolved Murder in Room 1046 35 минут":
+      - /url: /watch?v=zy6ZN1qM3sY
+      - text: The Unsolved Murder in Room 1046
+  - generic: fern
+  - generic "Подтверждено"
+  - generic "6,1 миллиона просмотров": 6,1 млн
+  - generic "2 месяца назад": 2 мес. назад
+  - button "Ещё"
+  - link:
+    - /url: /watch?v=UCP_be8pT50&pp=ugUEEgJlbg%3D%3D
+  - heading "The Psychology of People Who Are Lazy but Ambitious" [level=3]:
+    - link "The Psychology of People Who Are Lazy but Ambitious 14 минут 33 секунды":
+      - /url: /watch?v=UCP_be8pT50&pp=ugUEEgJlbg%3D%3D
+      - text: The Psychology of People Who Are Lazy but Ambitious
+  - generic: Unf*ck Everything
+  - generic "2,8 миллиона просмотров": 2,8 млн
+  - generic "11 месяцев назад": 11 мес. назад
+  - button "Ещё"
+  - link:
+    - /url: /watch?v=XNW5xUFIpBg&pp=0gcJCSsMAYcqIYzv
+  - 'heading "Фундаментальный курс: Американский YouTube от А до Я | Лучший гайд (реально)" [level=3]':
+    - 'link "Фундаментальный курс: Американский YouTube от А до Я | Лучший гайд (реально) 23 минуты"':
+      - /url: /watch?v=XNW5xUFIpBg&pp=0gcJCSsMAYcqIYzv
+      - text: "Фундаментальный курс: Американский YouTube от А до Я | Лучший гайд (реально)"
+  - generic: YouTube Lab
+  - generic "604 тысячи просмотров": 604 тыс.
+  - generic "2 месяца назад": 2 мес. назад
+  - button "Ещё"
+  - link:
+    - /url: /watch?v=9t2fV52jMA8&pp=ugUEEgJlbtIHCQkrDAGHKiGM7w%3D%3D
+  - heading "Running Minecraft Until It Beats Itself" [level=3]:
+    - link "Running Minecraft Until It Beats Itself 11 минут 25 секунд":
+      - /url: /watch?v=9t2fV52jMA8&pp=ugUEEgJlbtIHCQkrDAGHKiGM7w%3D%3D
+      - text: Running Minecraft Until It Beats Itself
+  - generic: RedLogic
+  - generic "8 миллионов просмотров": 8 млн
+  - generic "1 месяц назад": 1 мес. назад
+  - generic: Автодубляж
+  - button "Ещё"
+  - link:
+    - /url: /watch?v=dp3jYZXKOos&pp=ugUHEgVlbi1VUw%3D%3D
+  - heading "The Disturbing Ways Ancient Humans Survived Winter" [level=3]:
+    - link "The Disturbing Ways Ancient Humans Survived Winter 11 минут 31 секунда":
+      - /url: /watch?v=dp3jYZXKOos&pp=ugUHEgVlbi1VUw%3D%3D
+      - text: The Disturbing Ways Ancient Humans Survived Winter
+  - generic: Ink Explainer
+  - generic "1,4 миллиона просмотров": 1,4 млн
+  - generic "3 месяца назад": 3 мес. назад
+  - button "Ещё"
+
+EXPANDED
+- banner:
+  - button "Гид":
+  - link "Главная страница YouTube":
+    - /url: /
+  - generic: RS
+  - button "Пропустить":
+    - generic: Пропустить
+  - search:
+    - combobox "Поиск" [expanded]
+    - button
+    - button "Search":
+  - button "Голосовой поиск":
+  - tooltip "tooltip"
+  - button "Создать":
+    - generic: Создать
+  - button "Уведомления":
+    - generic: "1"
+  - tooltip "tooltip"
+  - button "Меню аккаунта":
+    - img "Фото профиля"
+- main:
+  - complementary:
+    - generic "Проигрыватель YouTube":
+      - button "Смотреть":
+      - button "Логотип канала":
+        - img "Логотип канала"
+      - slider "Ползунок поиска"
+      - slider "Чтобы перемотать видео точнее, нажмите на панель или прокрутите ее"
+      - button "Смотреть (k)":
+      - button "Отключение звука (m)":
+      - slider "Громкость"
+      - button "0 мин. 0 сек. (общая длительность 0 мин. 35 сек.)": 0:00 / 0:35
+      - button "Автовоспроизведение включено"
+      - button "Субтитры недоступны":
+      - button "Настройки":
+      - button "Широкий экран (t)":
+      - button "Во весь экран (f)":
+  - 'heading "She Saved 13 Kids in a Blizzard #BlizzardOf1888 #Shorts" [level=1]':
+    - 'generic "She Saved 13 Kids in a Blizzard #BlizzardOf1888 #Shorts"':
+      - text: She Saved 13 Kids in a Blizzard
+      - link "#BlizzardOf1888":
+        - /url: /hashtag/blizzardof1888
+      - link "#Shorts":
+        - /url: /hashtag/shorts
+  - link "Paper Detour":
+    - /url: /@rarovista
+    - img "Paper Detour"
+  - generic "Paper Detour":
+    - link "Paper Detour":
+      - /url: /@rarovista
+  - generic "4 подписчика"
+  - link "Посмотреть аналитику":
+    - /url: /analytics#;fi=v-r71aCn4p88A
+    - generic: Посмотреть аналитику
+  - link "Изменить видео":
+    - /url: https://studio.youtube.com/video/r71aCn4p88A/edit
+    - generic: Изменить видео
+  - button "поставить отметку \"Нравится\"":
+    - generic: "0"
+  - tooltip "tooltip"
+  - button "Поделиться":
+  - link "Продвижение":
+    - /url: https://studio.youtube.com/channel/UCMVfdfaNxV3ZkI3_J3Eejzw/content/promotions?d=pcd&videoId=r71aCn4p88A&promotionEntryPoint=PROMOTION_ENTRY_POINT_VIDEO_WATCH_PAGE
+  - tooltip "tooltip"
+  - button "Добавить в плейлист":
+  - button:
+  - tooltip "tooltip"
+  - button "Ещё":
+  - generic "3 просмотра":
+    - generic: "1"
+    - generic: "2"
+    - generic: "3"
+    - generic: "4"
+    - generic: "5"
+    - generic: "6"
+    - generic: "7"
+    - generic: "8"
+    - generic: "9"
+    - generic: "0"
+    - generic: "1"
+    - generic: "2"
+    - generic: "3"
+    - generic: "4"
+    - generic: "5"
+    - generic: "6"
+    - generic: "7"
+    - generic: "8"
+    - generic: "9"
+    - generic: "0"
+    - generic: "1"
+    - generic: "2"
+    - generic: "3"
+    - generic: "4"
+    - generic: "5"
+    - generic: "6"
+    - generic: "7"
+    - generic: "8"
+    - generic: "9"
+    - generic: просмотра
+  - generic: 1 нояб. 2026 г.
+  - text: When a Nebraska school began coming apart in the 1888 blizzard, Minnie Freeman tied thirteen pupils together with twine she had taken from a boy who was playing with it in class. Carrying the youngest, she led the children through the storm toward a farmhouse three-quarters of a mile away. All thirteen made it to safety.
+  - link "#MinnieFreeman":
+    - /url: /hashtag/minniefreeman
+  - link "#BlizzardOf1888":
+    - /url: /hashtag/blizzardof1888
+  - link "#NebraskaHistory":
+    - /url: /hashtag/nebraskahistory
+  - link "#PaperDiorama":
+    - /url: /hashtag/paperdiorama
+  - link "#TrueStory":
+    - /url: /hashtag/truestory
+  - link "#History":
+    - /url: /hashtag/history
+  - link "#Shorts":
+    - /url: /hashtag/shorts
+  - link "#SchoolhouseBlizzard":
+    - /url: /hashtag/schoolhouseblizzard
+  - link "#ChildrensBlizzard":
+    - /url: /hashtag/childrensblizzard
+  - link "#1888Blizzard":
+    - /url: /hashtag/1888blizzard
+  - link "#AmericanHistory":
+    - /url: /hashtag/americanhistory
+  - link "#USHistory":
+    - /url: /hashtag/ushistory
+  - link "#WomenInHistory":
+    - /url: /hashtag/womeninhistory
+  - link "#WomenEducators":
+    - /url: /hashtag/womeneducators
+  - link "#HistoricalRescue":
+    - /url: /hashtag/historicalrescue
+  - link "#SurvivalStory":
+    - /url: /hashtag/survivalstory
+  - link "#BlizzardSurvival":
+    - /url: /hashtag/blizzardsurvival
+  - link "#ExtremeWeather":
+    - /url: /hashtag/extremeweather
+  - link "#Nebraska":
+    - /url: /hashtag/nebraska
+  - link "#HistoricalEvents":
+    - /url: /hashtag/historicalevents
+  - generic: Как это было сделано
+  - generic: Создано с помощью ИИ
+  - text: Аудио- или видеоряд был изменен или полностью сгенерирован.
+  - link "Подробнее":
+    - /url: //support.google.com/youtube/answer/15447836?hl=ru
+  - generic: Расшифровка видео
+  - paragraph: Расшифровка позволяет быстро находить в видео нужную информацию.
+  - button "Показать текст видео":
+    - generic: Показать текст видео
+  - link "Paper Detour 4 подписчика":
+    - /url: /@rarovista
+    - heading "Paper Detour" [level=3]
+    - generic: 4 подписчика
+  - link "Видео":
+    - /url: /channel/UCMVfdfaNxV3ZkI3_J3Eejzw/videos
+    - generic: Видео
+  - link "О канале":
+    - /url: /channel/UCMVfdfaNxV3ZkI3_J3Eejzw/about
+    - generic: О канале
+  - button "Свернуть"
+  - text: •
+  - heading "0 комментариев" [level=2]:
+    - generic: 0 комментариев
+  - tooltip "tooltip"
+  - button "Упорядочить комментарии":
+    - generic: Упорядочить
+  - img "Paper Detour"
+  - textbox
+  - tablist:
+    - tab "Все видео" [selected]:
+      - generic: Все видео
+    - tab "Для вас":
+      - generic: Для вас
+    - tab "Недавно опубликованные":
+      - generic: Недавно опубликованные
+    - tab "Просмотрено":
+      - generic: Просмотрено
+  - link:
+    - /url: /watch?v=GgC86hZitrI&pp=ugUEEgJyddIHCQkrDAGHKiGM7w%3D%3D
+  - heading "Если видео НЕ НАБИРАЕТ просмотры через 24 часа - сделай это..." [level=3]:
+    - link "Если видео НЕ НАБИРАЕТ просмотры через 24 часа - сделай это... 10 минут 17 секунд":
+      - /url: /watch?v=GgC86hZitrI&pp=ugUEEgJyddIHCQkrDAGHKiGM7w%3D%3D
+      - text: Если видео НЕ НАБИРАЕТ просмотры через 24 часа - сделай это...
+  - generic: Александр Арнаут
+  - generic "171 тысяча просмотров": 171 тыс.
+  - generic "3 месяца назад": 3 мес. назад
+  - button "Ещё":
+  - link:
+    - /url: /shorts/p_7otgBWTos
+  - 'heading "Книга которую нельзя открыть #амитеш #технологии" [level=3]':
+    - 'link "Книга которую нельзя открыть #амитеш #технологии"':
+      - /url: /shorts/p_7otgBWTos
+  - generic: 7,7 млн просмотров
+  - button "Ещё":
+  - link:
+    - /url: /shorts/4srmBOC_a30
+  - heading "Муравьиный начальник" [level=3]:
+    - link "Муравьиный начальник":
+      - /url: /shorts/4srmBOC_a30
+  - generic: 12 млн просмотров
+  - button "Ещё":
+  - link:
+    - /url: /shorts/Yeu9SkfaSeo
+  - heading "Он знал ради чего идет" [level=3]:
+    - link "Он знал ради чего идет":
+      - /url: /shorts/Yeu9SkfaSeo
+  - generic: 7,8 млн просмотров
+  - button "Ещё":
+  - link:
+    - /url: /shorts/9PyAKmSeTPo
+  - heading "Доказал что достоин" [level=3]:
+    - link "Доказал что достоин":
+      - /url: /shorts/9PyAKmSeTPo
+  - generic: 5,2 млн просмотров
+  - button "Ещё":
+  - link:
+    - /url: /shorts/UD3GzItWkH4
+  - heading "Босс, вы уволены" [level=3]:
+    - link "Босс, вы уволены":
+      - /url: /shorts/UD3GzItWkH4
+  - generic: 2,2 млн просмотров
+  - button "Ещё":
+  - link:
+    - /url: /shorts/gllyyPUbsos
+  - 'heading "НЕогнемет Илона Маска: обход закона за 5 долларов" [level=3]':
+    - 'link "НЕогнемет Илона Маска: обход закона за 5 долларов"':
+      - /url: /shorts/gllyyPUbsos
+  - generic: 11 млн просмотров
+  - button "Ещё":
+  - button "Далее":
+  - link:
+    - /url: /watch?v=OtbLL6OBNE4
+  - heading "How to Make Viral Animated Shorts Using Claude (Full Workflow)" [level=3]:
+    - link "How to Make Viral Animated Shorts Using Claude (Full Workflow) 11 минут 53 секунды":
+      - /url: /watch?v=OtbLL6OBNE4
+      - text: How to Make Viral Animated Shorts Using Claude (Full Workflow)
+  - generic: Mr omi
+  - generic "76 тысяч просмотров": 76 тыс.
+  - generic "18 часов назад": 18 ч назад
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=BePppCvXC-k&t=289s&pp=ugUEEgJlbg%3D%3D
+  - heading "I Proved $1,000/Day On YouTube Isn't Luck (Secret Channel Exposed)" [level=3]:
+    - link "I Proved $1,000/Day On YouTube Isn't Luck (Secret Channel Exposed) 10 минут 27 секунд":
+      - /url: /watch?v=BePppCvXC-k&t=289s&pp=ugUEEgJlbg%3D%3D
+      - text: I Proved $1,000/Day On YouTube Isn't Luck (Secret Channel Exposed)
+  - generic: WOLF Money
+  - generic "1,2 миллиона просмотров": 1,2 млн
+  - generic "10 месяцев назад": 10 мес. назад
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=U1mtJl7oRS0&pp=ugUHEgVlbi1VUw%3D%3D
+  - heading "Why Did So Few Survive the Titanic?" [level=3]:
+    - link "Why Did So Few Survive the Titanic? 39 минут":
+      - /url: /watch?v=U1mtJl7oRS0&pp=ugUHEgVlbi1VUw%3D%3D
+      - text: Why Did So Few Survive the Titanic?
+  - generic: Yesterday
+  - generic "460 тысяч просмотров": 460 тыс.
+  - generic "2 месяца назад": 2 мес. назад
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=kHCamT4zfH4&pp=ugUEEgJlbtIHCQkrDAGHKiGM7w%3D%3D
+  - heading "The ENTIRE History of ROME in 12 Minutes" [level=3]:
+    - link "The ENTIRE History of ROME in 12 Minutes 12 минут 13 секунд":
+      - /url: /watch?v=kHCamT4zfH4&pp=ugUEEgJlbtIHCQkrDAGHKiGM7w%3D%3D
+      - text: The ENTIRE History of ROME in 12 Minutes
+  - generic: Genius History
+  - generic "360 тысяч просмотров": 360 тыс.
+  - generic "2 месяца назад": 2 мес. назад
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=4ZKYmN75Ky4&pp=0gcJCSsMAYcqIYzv
+  - heading "King Tutankhamun's Tomb Reveals a 3,000-Year-Old Secret" [level=3]:
+    - link "King Tutankhamun's Tomb Reveals a 3,000-Year-Old Secret 9 минут 20 секунд":
+      - /url: /watch?v=4ZKYmN75Ky4&pp=0gcJCSsMAYcqIYzv
+      - text: King Tutankhamun's Tomb Reveals a 3,000-Year-Old Secret
+  - generic: First Humans
+  - generic "295 просмотров": "295"
+  - generic "2 часа назад": 2 ч назад
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=WqP875S6EN0&pp=ugUEEgJydQ%3D%3D
+  - heading "Claude Анимация Буквально Изменила Ютуб Навсегда" [level=3]:
+    - link "Claude Анимация Буквально Изменила Ютуб Навсегда 23 минуты":
+      - /url: /watch?v=WqP875S6EN0&pp=ugUEEgJydQ%3D%3D
+      - text: Claude Анимация Буквально Изменила Ютуб Навсегда
+  - generic: Артем Слабун
+  - generic "45 тысяч просмотров": 45 тыс.
+  - generic "5 дней назад": 5 дн. назад
+  - generic: Автодубляж
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=YyhzgNdSnbQ
+  - heading "The Greatest Double Agent Ever" [level=3]:
+    - link "The Greatest Double Agent Ever 12 минут 59 секунд":
+      - /url: /watch?v=YyhzgNdSnbQ
+      - text: The Greatest Double Agent Ever
+  - generic: Primal Space
+  - generic "Подтверждено":
+  - generic "4,7 миллиона просмотров": 4,7 млн
+  - generic "1 год назад": 1 г. назад
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=M_t2ZUz7_pc&pp=ugUEEgJydQ%3D%3D
+  - heading "А что, если бы ты был БЕССМЕРТНЫМ?" [level=3]:
+    - link "А что, если бы ты был БЕССМЕРТНЫМ? 8 минут 45 секунд":
+      - /url: /watch?v=M_t2ZUz7_pc&pp=ugUEEgJydQ%3D%3D
+      - text: А что, если бы ты был БЕССМЕРТНЫМ?
+  - generic: Iflord
+  - generic "1 миллион просмотров": 1 млн
+  - generic "12 дней назад": 12 дн. назад
+  - generic: Дубляж
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=qc1fLT6VllY&pp=ugUHEgVlbi1VUw%3D%3D
+  - heading "YouTube Is Testing Your Channel Right Now" [level=3]:
+    - link "YouTube Is Testing Your Channel Right Now 6 минут 29 секунд":
+      - /url: /watch?v=qc1fLT6VllY&pp=ugUHEgVlbi1VUw%3D%3D
+      - text: YouTube Is Testing Your Channel Right Now
+  - generic: BigStepsMedia
+  - generic "120 тысяч просмотров": 120 тыс.
+  - generic "3 недели назад": 3 нед. назад
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=OCr6NteWSQ8&pp=ugUHEgVlbi1VUw%3D%3D
+  - heading "Why Are We the Only Human Species Left? What happened to others..." [level=3]:
+    - link "Why Are We the Only Human Species Left? What happened to others... 8 минут 6 секунд":
+      - /url: /watch?v=OCr6NteWSQ8&pp=ugUHEgVlbi1VUw%3D%3D
+      - text: Why Are We the Only Human Species Left? What happened to others...
+  - generic: Ink Explainer
+  - generic "1,6 миллиона просмотров": 1,6 млн
+  - generic "4 месяца назад": 4 мес. назад
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=X1L1Hd3xfrU
+  - heading "How reading changes the way your brain works - BBC World Service" [level=3]:
+    - link "How reading changes the way your brain works - BBC World Service 5 минут 55 секунд":
+      - /url: /watch?v=X1L1Hd3xfrU
+      - text: How reading changes the way your brain works - BBC World Service
+  - generic: BBC World Service
+  - generic "Подтверждено":
+  - generic "6,4 миллиона просмотров": 6,4 млн
+  - generic "10 месяцев назад": 10 мес. назад
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=fTNN01enaag
+  - heading "Как делать ВИРУСНЫЕ 3D-мультики в Claude (1 запрос)" [level=3]:
+    - link "Как делать ВИРУСНЫЕ 3D-мультики в Claude (1 запрос) 6 минут 30 секунд":
+      - /url: /watch?v=fTNN01enaag
+      - text: Как делать ВИРУСНЫЕ 3D-мультики в Claude (1 запрос)
+  - generic: Novichkov
+  - generic "39 тысяч просмотров": 39 тыс.
+  - generic "5 дней назад": 5 дн. назад
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=EHLI2WZUtXs
+  - heading "The ENTIRE History of ROME [No AI]" [level=3]:
+    - link "The ENTIRE History of ROME [No AI] 38 минут":
+      - /url: /watch?v=EHLI2WZUtXs
+      - text: The ENTIRE History of ROME [No AI]
+  - generic: Historically
+  - generic "Подтверждено":
+  - generic "10 миллионов просмотров": 10 млн
+  - generic "6 месяцев назад": 6 мес. назад
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=iRy09X_SYk4
+  - heading "How I got monetized on YouTube in 1 Month (After failing for 5 Years)" [level=3]:
+    - link "How I got monetized on YouTube in 1 Month (After failing for 5 Years) 8 минут 17 секунд":
+      - /url: /watch?v=iRy09X_SYk4
+      - text: How I got monetized on YouTube in 1 Month (After failing for 5 Years)
+  - generic: MonomoTime
+  - generic "332 тысячи просмотров": 332 тыс.
+  - generic "6 месяцев назад": 6 мес. назад
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=zy6ZN1qM3sY
+  - heading "The Unsolved Murder in Room 1046" [level=3]:
+    - link "The Unsolved Murder in Room 1046 35 минут":
+      - /url: /watch?v=zy6ZN1qM3sY
+      - text: The Unsolved Murder in Room 1046
+  - generic: fern
+  - generic "Подтверждено":
+  - generic "6,1 миллиона просмотров": 6,1 млн
+  - generic "2 месяца назад": 2 мес. назад
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=UCP_be8pT50&pp=ugUEEgJlbg%3D%3D
+  - heading "The Psychology of People Who Are Lazy but Ambitious" [level=3]:
+    - link "The Psychology of People Who Are Lazy but Ambitious 14 минут 33 секунды":
+      - /url: /watch?v=UCP_be8pT50&pp=ugUEEgJlbg%3D%3D
+      - text: The Psychology of People Who Are Lazy but Ambitious
+  - generic: Unf*ck Everything
+  - generic "2,8 миллиона просмотров": 2,8 млн
+  - generic "11 месяцев назад": 11 мес. назад
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=XNW5xUFIpBg&pp=0gcJCSsMAYcqIYzv
+  - 'heading "Фундаментальный курс: Американский YouTube от А до Я | Лучший гайд (реально)" [level=3]':
+    - 'link "Фундаментальный курс: Американский YouTube от А до Я | Лучший гайд (реально) 23 минуты"':
+      - /url: /watch?v=XNW5xUFIpBg&pp=0gcJCSsMAYcqIYzv
+      - text: "Фундаментальный курс: Американский YouTube от А до Я | Лучший гайд (реально)"
+  - generic: YouTube Lab
+  - generic "604 тысячи просмотров": 604 тыс.
+  - generic "2 месяца назад": 2 мес. назад
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=9t2fV52jMA8&pp=ugUEEgJlbtIHCQkrDAGHKiGM7w%3D%3D
+  - heading "Running Minecraft Until It Beats Itself" [level=3]:
+    - link "Running Minecraft Until It Beats Itself 11 минут 25 секунд":
+      - /url: /watch?v=9t2fV52jMA8&pp=ugUEEgJlbtIHCQkrDAGHKiGM7w%3D%3D
+      - text: Running Minecraft Until It Beats Itself
+  - generic: RedLogic
+  - generic "8 миллионов просмотров": 8 млн
+  - generic "1 месяц назад": 1 мес. назад
+  - generic: Автодубляж
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=dp3jYZXKOos&pp=ugUHEgVlbi1VUw%3D%3D
+  - heading "The Disturbing Ways Ancient Humans Survived Winter" [level=3]:
+    - link "The Disturbing Ways Ancient Humans Survived Winter 11 минут 31 секунда":
+      - /url: /watch?v=dp3jYZXKOos&pp=ugUHEgVlbi1VUw%3D%3D
+      - text: The Disturbing Ways Ancient Humans Survived Winter
+  - generic: Ink Explainer
+  - generic "1,4 миллиона просмотров": 1,4 млн
+  - generic "3 месяца назад": 3 мес. назад
+  - button "Ещё":

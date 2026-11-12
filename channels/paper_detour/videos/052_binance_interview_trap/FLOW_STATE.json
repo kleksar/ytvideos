@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "episode": "052",
+  "channel": "paper",
+  "format": "long",
+  "input": "accepted_story",
+  "input_evidence": "User accepted story and requested full production through MP4 2026-11-05; exact review receipt at .agent/consultations/binance-story-20261105/rewrite/review2-full-v3-response.md.",
+  "scope": "Complete Paper Detour long-film production through internally QA-reviewed English MP4 for user approval. No YouTube upload or publication.",
+  "stages": [
+    {
+      "id": "script",
+      "skills": [
+        "ytv-storycraft"
+      ],
+      "status": "DONE",
+      "artifacts": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/052_binance_interview_trap/Source/Script/story_ru_accepted_v01.md",
+          "version": "v01",
+          "sha256": "8ee0cb21b2219426bbeead764dea35ffb78156fa98891e46c08ca540856113b8"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/052_binance_interview_trap/Source/Script/narration_en_v01.md",
+          "version": "v01",
+          "sha256": "d3c45b7b930be15c9db07ac6f1b050713766449c317c9b4c783b8ae570765bf2"
+        }
+      ],
+      "checks": [
+        {
+          "status": "PASS",
+          "basis": "user accepted RU v3; independent Extra High review PASS"
+        }
+      ],
+      "dependencies": [],
+      "skill_runs": [
+        {
+          "skill": "ytv-storycraft",
+          "status": "APPLIED",
+          "evidence": "/Users/diplomat/ytvideos/.agent/consultations/binance-story-20261105/rewrite/review2-full-v3-response.md"
+        }
+      ]
+    },
+    {
+      "id": "storyboard",
+      "skills": [
+        "ytv-paper-storyboard"
+      ],
+      "status": "PENDING",
+      "artifacts": [],
+      "checks": [],
+      "dependencies": [],
+      "skill_runs": []
+    },
+    {
+      "id": "audio",
+      "skills": [
+        "ytv-audio-delivery"
+      ],
+      "status": "PENDING",
+      "artifacts": [],
+      "checks": [],
+      "dependencies": [],
+      "skill_runs": []
+    },
+    {
+      "id": "images",
+      "skills": [
+        "ytv-scene-images",
+        "ytv-image-motion"
+      ],
+      "status": "PENDING",
+      "artifacts": [],
+      "checks": [],
+      "dependencies": [],
+      "skill_runs": []
+    },
+    {
+      "id": "subtitles",
+      "skills": [
+        "ytv-paper-subtitles",
+        "ytv-srt"
+      ],
+      "status": "PENDING",
+      "artifacts": [],
+      "checks": [],
+      "dependencies": [],
+      "skill_runs": []
+    },
+    {
+      "id": "render",
+      "skills": [
+        "ytv-video-production",
+        "ytv-video-export",
+        "ytv-video-qa"
+      ],
+      "status": "PENDING",
+      "artifacts": [],
+      "checks": [],
+      "dependencies": [],
+      "skill_runs": []
+    },
+    {
+      "id": "review",
+      "skills": [],
+      "status": "PENDING",
+      "artifacts": [],
+      "checks": [],
+      "dependencies": [],
+      "skill_runs": []
+    },
+    {
+      "id": "packaging",
+      "skills": [
+        "ytv-youtube-video-titles",
+        "ytv-youtube-thumbnails",
+        "ytv-youtube-descriptions",
+        "ytv-youtube-hashtags",
+        "ytv-youtube-playlists"
+      ],
+      "status": "PENDING",
+      "artifacts": [],
+      "checks": [],
+      "dependencies": [],
+      "skill_runs": []
+    },
+    {
+      "id": "unlisted",
+      "skills": [
+        "ytv-youtube-release"
+      ],
+      "status": "PENDING",
+      "artifacts": [],
+      "checks": [],
+      "dependencies": [],
+      "skill_runs": []
+    },
+    {
+      "id": "release",
+      "skills": [
+        "ytv-youtube-release",
+        "ytv-media-lifecycle"
+      ],
+      "status": "PENDING",
+      "artifacts": [],
+      "checks": [],
+      "dependencies": [],
+      "skill_runs": []
+    }
+  ],
+  "decisions": {
+    "story_accepted": {
+      "accepted": true,
+      "target": "Source/Script/story_ru_accepted_v01.md",
+      "evidence": "/Users/diplomat/ytvideos/.agent/consultations/binance-story-20261105/rewrite/review2-full-v3-response.md"
+    },
+    "output_language": "en",
+    "publication_authorized": false
+  },
+  "next_step": "Complete the accepted storyboard and paper frame/end-screen plan; then generate and measure English narration."
+}

@@ -1,0 +1,160 @@
+{
+  "frame_count": 1502,
+  "fps": "30/1",
+  "sha256": "6d3ce02af25a3a655961d25c84448f6d697f7ed4a74865a840cf7df179653dd9",
+  "freshness": {
+    "status": "STALE",
+    "evidence": "CURRENT_CONTEXT: saved edit cleanup after delivery receipt; audit target is existing historical v01, not later motion copy"
+  },
+  "expected": {
+    "video": {
+      "width": 1080,
+      "height": 1920,
+      "codec_name": "h264",
+      "color_space": "bt709"
+    },
+    "audio": {
+      "required": true,
+      "codec_name": "aac",
+      "channels": 1,
+      "sample_rate": 44100
+    }
+  },
+  "scene_seconds": [
+    4,
+    6
+  ],
+  "scenes": [
+    {
+      "id": "S01_v02",
+      "start": 0,
+      "end": 227
+    },
+    {
+      "id": "S02_v02",
+      "start": 227,
+      "end": 317
+    },
+    {
+      "id": "S03_v02",
+      "start": 317,
+      "end": 413
+    },
+    {
+      "id": "S04_v02",
+      "start": 413,
+      "end": 528
+    },
+    {
+      "id": "S05_v02",
+      "start": 528,
+      "end": 670
+    },
+    {
+      "id": "S06_v02",
+      "start": 670,
+      "end": 732
+    },
+    {
+      "id": "S07_v03",
+      "start": 732,
+      "end": 778
+    },
+    {
+      "id": "S08_v03",
+      "start": 778,
+      "end": 842
+    },
+    {
+      "id": "S09_v03",
+      "start": 842,
+      "end": 929
+    },
+    {
+      "id": "S10_v02",
+      "start": 929,
+      "end": 1032
+    },
+    {
+      "id": "S11_v02",
+      "start": 1032,
+      "end": 1170
+    },
+    {
+      "id": "S12_v02",
+      "start": 1170,
+      "end": 1270
+    },
+    {
+      "id": "S13_v02",
+      "start": 1270,
+      "end": 1380
+    },
+    {
+      "id": "S14_v03",
+      "start": 1380,
+      "end": 1502
+    }
+  ],
+  "cues": [
+    {
+      "id": "C04",
+      "start": 413,
+      "end": 526,
+      "entry_end": 417,
+      "exit_start": 521
+    },
+    {
+      "id": "C05",
+      "start": 586,
+      "end": 667,
+      "entry_end": 590,
+      "exit_start": 662
+    },
+    {
+      "id": "C07",
+      "start": 732,
+      "end": 775,
+      "entry_end": 736,
+      "exit_start": 770
+    },
+    {
+      "id": "C08",
+      "start": 778,
+      "end": 840,
+      "entry_end": 782,
+      "exit_start": 835
+    },
+    {
+      "id": "C09",
+      "start": 842,
+      "end": 926,
+      "entry_end": 846,
+      "exit_start": 921
+    },
+    {
+      "id": "C11",
+      "start": 1032,
+      "end": 1162,
+      "entry_end": 1036,
+      "exit_start": 1157
+    },
+    {
+      "id": "C13",
+      "start": 1378,
+      "end": 1442,
+      "entry_end": 1382,
+      "exit_start": 1437
+    },
+    {
+      "id": "C14",
+      "start": 1442,
+      "end": 1502,
+      "entry_end": 1446
+    }
+  ],
+  "extra_frames": [
+    1497
+  ],
+  "notes": "C14 has no authored fade-out; frame1497 retained only as extra final-hold sample. Corrected review interpretation; raw machine report preserves initial plan."
+}

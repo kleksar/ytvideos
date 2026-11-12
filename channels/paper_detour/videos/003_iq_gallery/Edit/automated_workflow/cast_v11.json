@@ -1,0 +1,466 @@
+{
+  "schema_version": 1,
+  "title_assets": "../../Source/Graphics/names/automated_tracking_20261101",
+  "digit_assets": "../../Source/Graphics",
+  "iq_asset": "../../Source/Graphics/iq_letters_generated.png",
+  "audio": "../../Source/Audio/iq_gallery_music_mix_20261101.m4a",
+  "grain": "../../../../videos/001_radio_game/Shorts/02_decoder/Source/Graphics/director_trial_20261031/film_grain_vertical_8s_prores4444.mov",
+  "output": "../../../../../channels/paper_detour/legacy/025_iq_gallery/Deliverables/025_iq_gallery_paper_detour_60s_v11.mp4",
+  "transition_frames": 15,
+  "layout": {
+    "name_x": 42,
+    "name_y": 720,
+    "name_max_width": 520,
+    "name_line_max_height": 128,
+    "name_line_gap": 22,
+    "iq_x": 42,
+    "iq_y": 1050,
+    "iq_max_height": 108,
+    "iq_digit_height": 100,
+    "iq_gap": 24,
+    "digit_gap": 12,
+    "entry": {
+      "start": 0.45,
+      "duration": 0.6333333333333333,
+      "rise": 32
+    },
+    "overscan_x": 40,
+    "overscan_y": 36,
+    "velocity_x": {
+      "background": 4,
+      "midground": 7,
+      "foreground": 10
+    },
+    "midground_scale": 0.74,
+    "midground_anchor": "right_bottom",
+    "midground_offset": {
+      "x": -55,
+      "y": -36
+    },
+    "name_letter_spacing_em": 0.025
+  },
+  "scenes": [
+    {
+      "slug": "john_f_kennedy",
+      "display_name": "JOHN F KENNEDY",
+      "iq": 119,
+      "background": "../../Source/Images/independent_world_trial_20261101/jfk_background_no_desk.png",
+      "midground": "../../Source/Images/independent_world_trial_20261101/jfk_subject.png",
+      "foreground": "../../Source/Images/independent_world_trial_20261101/jfk_foreground.png",
+      "name_asset": "john_f_kennedy.png",
+      "name_lines": [
+        "JOHN F",
+        "KENNEDY"
+      ],
+      "foreground_scale": 0.45,
+      "foreground_anchor": "right_bottom",
+      "midground_scale": 0.68,
+      "motion_direction": "left_to_right",
+      "foreground_anchor_side": "right",
+      "velocity_x": {
+        "background": 4,
+        "midground": 7,
+        "foreground": 8
+      },
+      "foreground_offset": {
+        "x": -16,
+        "y": 0
+      },
+      "occlusion_overlays": [
+        {
+          "name": "left_hand_front",
+          "transform_layer": "midground",
+          "polygon_px": [
+            [
+              252,
+              1150
+            ],
+            [
+              266,
+              1138
+            ],
+            [
+              288,
+              1131
+            ],
+            [
+              319,
+              1130
+            ],
+            [
+              340,
+              1138
+            ],
+            [
+              354,
+              1152
+            ],
+            [
+              367,
+              1172
+            ],
+            [
+              385,
+              1185
+            ],
+            [
+              398,
+              1202
+            ],
+            [
+              404,
+              1224
+            ],
+            [
+              400,
+              1248
+            ],
+            [
+              392,
+              1270
+            ],
+            [
+              398,
+              1288
+            ],
+            [
+              409,
+              1298
+            ],
+            [
+              402,
+              1308
+            ],
+            [
+              382,
+              1305
+            ],
+            [
+              361,
+              1300
+            ],
+            [
+              337,
+              1293
+            ],
+            [
+              314,
+              1288
+            ],
+            [
+              293,
+              1277
+            ],
+            [
+              275,
+              1262
+            ],
+            [
+              263,
+              1244
+            ],
+            [
+              256,
+              1223
+            ],
+            [
+              251,
+              1198
+            ]
+          ]
+        }
+      ],
+      "midground_offset": {
+        "x": 0,
+        "y": -36
+      }
+    },
+    {
+      "slug": "kasparov",
+      "display_name": "GARRY KASPAROV",
+      "iq": 123,
+      "background": "../../Source/Images/automated_layers_20261101/kasparov_background.png",
+      "midground": "../../Source/Images/automated_layers_20261101/kasparov_midground.png",
+      "foreground": "../../Source/Images/automated_layers_20261101/kasparov_foreground.png",
+      "name_asset": "kasparov.png",
+      "name_lines": [
+        "GARRY",
+        "KASPAROV"
+      ],
+      "foreground_scale": 0.38,
+      "foreground_anchor": "left_bottom",
+      "motion_direction": "right_to_left",
+      "foreground_anchor_side": "left",
+      "velocity_x": {
+        "background": -4,
+        "midground": -7,
+        "foreground": -10
+      }
+    },
+    {
+      "slug": "feynman",
+      "display_name": "RICHARD FEYNMAN",
+      "iq": 125,
+      "background": "../../Source/Images/automated_layers_20261101/feynman_background_v2.png",
+      "midground": "../../Source/Images/automated_layers_20261101/feynman_midground.png",
+      "foreground": "../../Source/Images/automated_layers_20261101/feynman_foreground.png",
+      "name_asset": "feynman.png",
+      "name_lines": [
+        "RICHARD",
+        "FEYNMAN"
+      ],
+      "foreground_scale": 0.48,
+      "foreground_anchor": "left_bottom",
+      "motion_direction": "right_to_left",
+      "foreground_anchor_side": "left",
+      "velocity_x": {
+        "background": -4,
+        "midground": -7,
+        "foreground": -10
+      },
+      "direction_exception_reason": "Continue the ranked gallery sweep while preserving the portrait\u2019s foreground anchor."
+    },
+    {
+      "slug": "kanye_west",
+      "display_name": "KANYE WEST",
+      "iq": 133,
+      "background": "../../Source/Images/automated_layers_20261101/kanye_west_background.png",
+      "midground": "../../Source/Images/automated_layers_20261101/kanye_west_midground.png",
+      "foreground": "../../Source/Images/automated_layers_20261101/kanye_west_foreground_v2.png",
+      "name_asset": "kanye_west.png",
+      "name_lines": [
+        "KANYE",
+        "WEST"
+      ],
+      "foreground_scale": 0.78,
+      "foreground_anchor": "left_bottom",
+      "foreground_offset": {
+        "x": 0,
+        "y": 170
+      },
+      "motion_direction": "right_to_left",
+      "foreground_anchor_side": "left",
+      "velocity_x": {
+        "background": -4,
+        "midground": -7,
+        "foreground": -10
+      },
+      "direction_exception_reason": "Continue the ranked gallery sweep while preserving the portrait\u2019s foreground anchor."
+    },
+    {
+      "slug": "logan_paul",
+      "display_name": "LOGAN PAUL",
+      "iq": 139,
+      "background": "../../Source/Images/automated_layers_20261101/logan_paul_background.png",
+      "midground": "../../Source/Images/automated_layers_20261101/logan_paul_midground.png",
+      "foreground": "../../Source/Images/automated_layers_20261101/logan_paul_foreground.png",
+      "name_asset": "logan_paul.png",
+      "name_lines": [
+        "LOGAN",
+        "PAUL"
+      ],
+      "foreground_scale": 0.72,
+      "foreground_anchor": "right_bottom",
+      "motion_direction": "left_to_right",
+      "foreground_anchor_side": "right",
+      "velocity_x": {
+        "background": 4,
+        "midground": 7,
+        "foreground": 10
+      }
+    },
+    {
+      "slug": "rm",
+      "display_name": "RM",
+      "iq": 148,
+      "background": "../../Source/Images/automated_layers_20261101/rm_background.png",
+      "midground": "../../Source/Images/automated_layers_20261101/rm_midground.png",
+      "foreground": "../../Source/Images/automated_layers_20261101/rm_foreground_v2.png",
+      "name_asset": "rm.png",
+      "name_lines": [
+        "RM"
+      ],
+      "foreground_scale": 0.85,
+      "foreground_anchor": "left_bottom",
+      "motion_direction": "right_to_left",
+      "foreground_anchor_side": "left",
+      "velocity_x": {
+        "background": -4,
+        "midground": -7,
+        "foreground": -10
+      }
+    },
+    {
+      "slug": "nolan_gould",
+      "display_name": "NOLAN GOULD",
+      "iq": 150,
+      "background": "../../Source/Images/automated_layers_20261101/nolan_gould_background.png",
+      "midground": "../../Source/Images/automated_layers_20261101/nolan_gould_midground.png",
+      "foreground": "../../Source/Images/automated_layers_20261101/nolan_gould_foreground_v3.png",
+      "name_asset": "nolan_gould.png",
+      "name_lines": [
+        "NOLAN",
+        "GOULD"
+      ],
+      "foreground_scale": 0.8,
+      "foreground_anchor": "right_bottom",
+      "motion_direction": "left_to_right",
+      "foreground_anchor_side": "right",
+      "velocity_x": {
+        "background": 4,
+        "midground": 7,
+        "foreground": 10
+      }
+    },
+    {
+      "slug": "frank_lampard",
+      "display_name": "FRANK LAMPARD",
+      "iq": 150,
+      "background": "../../Source/Images/automated_layers_20261101/frank_lampard_background.png",
+      "midground": "../../Source/Images/automated_layers_20261101/frank_lampard_midground.png",
+      "foreground": "../../Source/Images/automated_layers_20261101/frank_lampard_foreground_v2.png",
+      "name_asset": "frank_lampard.png",
+      "name_lines": [
+        "FRANK",
+        "LAMPARD"
+      ],
+      "foreground_scale": 0.8,
+      "foreground_anchor": "left_bottom",
+      "midground_scale": 0.68,
+      "name_max_width": 440,
+      "motion_direction": "right_to_left",
+      "foreground_anchor_side": "left",
+      "velocity_x": {
+        "background": -4,
+        "midground": -7,
+        "foreground": -10
+      }
+    },
+    {
+      "slug": "kate_beckinsale",
+      "display_name": "KATE BECKINSALE",
+      "iq": 152,
+      "background": "../../Source/Images/automated_layers_20261101/kate_beckinsale_background.png",
+      "midground": "../../Source/Images/automated_layers_20261101/kate_beckinsale_midground.png",
+      "foreground": "../../Source/Images/automated_layers_20261101/kate_beckinsale_foreground_v2.png",
+      "name_asset": "kate_beckinsale.png",
+      "name_lines": [
+        "KATE",
+        "BECKINSALE"
+      ],
+      "foreground_scale": 0.62,
+      "foreground_anchor": "right_bottom",
+      "motion_direction": "left_to_right",
+      "foreground_anchor_side": "right",
+      "velocity_x": {
+        "background": 4,
+        "midground": 7,
+        "foreground": 10
+      }
+    },
+    {
+      "slug": "sharon_stone",
+      "display_name": "SHARON STONE",
+      "iq": 154,
+      "background": "../../Source/Images/automated_layers_20261101/sharon_stone_background.png",
+      "midground": "../../Source/Images/automated_layers_20261101/sharon_stone_midground.png",
+      "foreground": "../../Source/Images/automated_layers_20261101/sharon_stone_foreground.png",
+      "name_asset": "sharon_stone.png",
+      "name_lines": [
+        "SHARON",
+        "STONE"
+      ],
+      "foreground_scale": 0.55,
+      "foreground_anchor": "right_bottom",
+      "motion_direction": "left_to_right",
+      "foreground_anchor_side": "right",
+      "velocity_x": {
+        "background": 4,
+        "midground": 7,
+        "foreground": 10
+      },
+      "direction_exception_reason": "Continue the ranked gallery sweep while preserving the portrait\u2019s foreground anchor."
+    },
+    {
+      "slug": "lee_byung_hun",
+      "display_name": "LEE BYUNG-HUN",
+      "iq": 155,
+      "background": "../../Source/Images/automated_layers_20261101/lee_byung_hun_background.png",
+      "midground": "../../Source/Images/automated_layers_20261101/lee_byung_hun_midground.png",
+      "foreground": "../../Source/Images/automated_layers_20261101/lee_byung_hun_foreground.png",
+      "name_asset": "lee_byung_hun.png",
+      "name_lines": [
+        "LEE",
+        "BYUNG-HUN"
+      ],
+      "foreground_scale": 0.45,
+      "foreground_anchor": "right_bottom",
+      "motion_direction": "left_to_right",
+      "foreground_anchor_side": "right",
+      "velocity_x": {
+        "background": 4,
+        "midground": 7,
+        "foreground": 10
+      },
+      "direction_exception_reason": "Continue the ranked gallery sweep while preserving the portrait\u2019s foreground anchor."
+    },
+    {
+      "slug": "tarantino",
+      "display_name": "QUENTIN TARANTINO",
+      "iq": 160,
+      "background": "../../Source/Images/automated_layers_20261101/tarantino_background.png",
+      "midground": "../../Source/Images/automated_layers_20261101/tarantino_midground.png",
+      "foreground": "../../Source/Images/automated_layers_20261101/tarantino_foreground.png",
+      "name_asset": "tarantino.png",
+      "name_lines": [
+        "QUENTIN",
+        "TARANTINO"
+      ],
+      "foreground_scale": 0.55,
+      "foreground_anchor": "right_bottom",
+      "motion_direction": "left_to_right",
+      "foreground_anchor_side": "right",
+      "velocity_x": {
+        "background": 4,
+        "midground": 7,
+        "foreground": 10
+      },
+      "direction_exception_reason": "Continue the ranked gallery sweep while preserving the portrait\u2019s foreground anchor."
+    },
+    {
+      "slug": "marilyn",
+      "display_name": "MARILYN VOS SAVANT",
+      "iq": 228,
+      "background": "../../Source/Images/automated_layers_20261101/marilyn_background.png",
+      "midground": "../../Source/Images/automated_layers_20261101/marilyn_midground.png",
+      "foreground": "../../Source/Images/automated_layers_20261101/marilyn_foreground_v2.png",
+      "name_asset": "marilyn.png",
+      "name_lines": [
+        "MARILYN",
+        "VOS SAVANT"
+      ],
+      "foreground_scale": 0.65,
+      "foreground_anchor": "left_bottom",
+      "motion_direction": "right_to_left",
+      "foreground_anchor_side": "left",
+      "velocity_x": {
+        "background": -4,
+        "midground": -7,
+        "foreground": -10
+      }
+    }
+  ],
+  "duration_frames": 1800,
+  "direction_rules_version": 1,
+  "title_motion": {
+    "cycle_seconds": 3.7,
+    "entry_scale_from": 0.992,
+    "entry_settle_frames": 6,
+    "group_scale_amplitude": 0.005,
+    "group_rotation_amplitude_degrees": 0.25,
+    "scale_amplitude": 0.0,
+    "rotation_amplitude_degrees": 0.0,
+    "x_oscillation_px_1080": 0.0,
+    "y_oscillation_px_1080": 0.0
+  }
+}

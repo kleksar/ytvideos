@@ -1,0 +1,39 @@
+{
+  "input": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/002_pompeii/Work/remaster-nuviko-20261103-v01/scratch/clean_motion_v01/K006.mp4",
+  "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/002_pompeii/Assets/Generated/Pompeii_Motion_v01/K006.mp4",
+  "image_sha256": "672cad5b3ba43c01209d5fd39ff20469aca78cf11dc0c10aa08e4e5e08653c28",
+  "frames": 170,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "preset": "g08",
+  "grain": {
+    "name": "Short Persistence",
+    "version": 1,
+    "rms_y_codes": 3.0,
+    "sigma_reference_px": 0.77,
+    "reference_short_side": 1440,
+    "update_hz": 30,
+    "rho": 0.35,
+    "mask_y": [
+      20,
+      64,
+      208,
+      235
+    ],
+    "range_y": [
+      16,
+      235
+    ],
+    "chroma": false,
+    "seed": 20261102
+  },
+  "seed": 4263543607834705016,
+  "sigma_output_px": 0.5775,
+  "order": [
+    "source still",
+    "layered parallax",
+    "opposed camera",
+    "G08"
+  ]
+}

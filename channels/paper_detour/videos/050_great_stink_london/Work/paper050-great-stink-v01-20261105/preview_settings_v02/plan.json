@@ -1,0 +1,74 @@
+{
+  "channel": "paper",
+  "format": "long",
+  "subtitle_mode": "words",
+  "audio": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Work/paper050-great-stink-v01-20261105/preview_inputs_v01/audio.wav",
+  "canvas": [
+    1280,
+    720
+  ],
+  "fps": 30,
+  "scenes": [
+    {
+      "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Source/Images/scene_01_crossness_opening_v01.png",
+      "start_frame": 0,
+      "end_frame": 178,
+      "direction": "left_to_right",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "scene 01 crossness opening v01",
+        "reason": "Slow whole-image movement retains the main paper composition; verify faces, outfalls and subtitle clearance in rendered frames.",
+        "start": {
+          "center": [
+            0.506,
+            0.5
+          ],
+          "scale": 1.035
+        },
+        "end": {
+          "center": [
+            0.494,
+            0.5
+          ],
+          "scale": 1.055
+        }
+      }
+    },
+    {
+      "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Source/Images/scene_02_crossness_beam_engine_v01.png",
+      "start_frame": 178,
+      "end_frame": 336,
+      "direction": "right_to_left",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "scene 02 crossness beam engine v01",
+        "reason": "Slow whole-image movement retains the main paper composition; verify faces, outfalls and subtitle clearance in rendered frames.",
+        "start": {
+          "center": [
+            0.494,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.506,
+            0.5
+          ],
+          "scale": 1.035
+        }
+      }
+    }
+  ],
+  "frames": 336,
+  "manifest_path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Edit/LongForm_v01/preview_sample_v02.json",
+  "source_transfer": "srgb"
+}

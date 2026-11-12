@@ -1,0 +1,149 @@
+{
+  "title": "Bow-Bow-Bow",
+  "source": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/bow-bow-bow-muzso.m4a",
+  "source_sha256": "55aa39d32235aeb83116855b7080cac39b42904d050f19bf04001db37254b604",
+  "offset": 9.5,
+  "frames": 498,
+  "fps": 30,
+  "size": [
+    1080,
+    1920
+  ],
+  "transition_centres": [
+    62,
+    118,
+    188,
+    257,
+    312,
+    381,
+    437
+  ],
+  "transition_seconds": 0.26666666666666666,
+  "transition_types": [
+    "smoothleft",
+    "radial",
+    "smoothup",
+    "circleopen",
+    "smoothright",
+    "fadefast"
+  ],
+  "clips": [
+    {
+      "path": "/Users/diplomat/ytvideos/Work/nuviko-videos-short-batch-20261110/new-footage/6216792.mp4",
+      "source_in": 1,
+      "sha256": "99985b778eb918343abee5ce1adb5a3b43610d8020f4d1fedbc657f35071b892",
+      "pre_crop": ""
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/Footage/san-francisco-timelapse.webm",
+      "source_in": 4,
+      "sha256": "3143237288fc9479b936bce326eac1f9c9c212d35826045f06f680514464580a",
+      "pre_crop": ""
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/Work/nuviko-videos-short-batch-20261110/new-footage/34707370.mp4",
+      "source_in": 1,
+      "sha256": "84cd008504d2431eabda7854bc69c0b24b34aeaefb307258aa20087e5d2d3071",
+      "pre_crop": ""
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/Footage/amnesia-ibiza.webm",
+      "source_in": 2,
+      "sha256": "86b979d7d938a0693c108e65221acdf9d9a63865cbbe515f292a6cf4bb67603b",
+      "pre_crop": ""
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/Footage/amnesia-ibiza.webm",
+      "source_in": 13.2,
+      "sha256": "86b979d7d938a0693c108e65221acdf9d9a63865cbbe515f292a6cf4bb67603b",
+      "pre_crop": ""
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/Work/nuviko-videos-short-batch-20261110/new-footage/10411103.mp4",
+      "source_in": 1,
+      "sha256": "d5e0192c12a3821ad64aa1760cf8e7a0bc0194fc22a568c971cce996071b001d",
+      "pre_crop": ""
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/Footage/amnesia-ibiza.webm",
+      "source_in": 20,
+      "sha256": "86b979d7d938a0693c108e65221acdf9d9a63865cbbe515f292a6cf4bb67603b",
+      "pre_crop": ""
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/Footage/amnesia-ibiza.webm",
+      "source_in": 26,
+      "sha256": "86b979d7d938a0693c108e65221acdf9d9a63865cbbe515f292a6cf4bb67603b",
+      "pre_crop": ""
+    }
+  ],
+  "lyrics": "ASR draft with scoped manual corrections; listening pending",
+  "argv": [
+    "ffmpeg",
+    "-nostdin",
+    "-n",
+    "-v",
+    "error",
+    "-filter_complex_threads",
+    "2",
+    "-i",
+    "/Users/diplomat/ytvideos/Work/nuviko-videos-short-batch-20261110/new-footage/6216792.mp4",
+    "-i",
+    "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/Footage/san-francisco-timelapse.webm",
+    "-i",
+    "/Users/diplomat/ytvideos/Work/nuviko-videos-short-batch-20261110/new-footage/34707370.mp4",
+    "-i",
+    "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/Footage/amnesia-ibiza.webm",
+    "-i",
+    "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/Footage/amnesia-ibiza.webm",
+    "-i",
+    "/Users/diplomat/ytvideos/Work/nuviko-videos-short-batch-20261110/new-footage/10411103.mp4",
+    "-i",
+    "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/Footage/amnesia-ibiza.webm",
+    "-i",
+    "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/Footage/amnesia-ibiza.webm",
+    "-i",
+    "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Edit/bow-bow-bow-review-mask.mov",
+    "-i",
+    "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Edit/bow-bow-bow-review-excerpt.wav",
+    "-filter_complex_script",
+    "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Edit/bow-bow-bow-review.ffgraph",
+    "-map",
+    "[video]",
+    "-map",
+    "[audio]",
+    "-t",
+    "16.6",
+    "-r",
+    "30",
+    "-fps_mode",
+    "cfr",
+    "-c:v",
+    "libx264",
+    "-threads",
+    "3",
+    "-preset",
+    "veryfast",
+    "-crf",
+    "19",
+    "-pix_fmt",
+    "yuv420p",
+    "-color_primaries",
+    "bt709",
+    "-color_trc",
+    "bt709",
+    "-colorspace",
+    "bt709",
+    "-c:a",
+    "aac",
+    "-b:a",
+    "192k",
+    "-ar",
+    "44100",
+    "-ac",
+    "2",
+    "-movflags",
+    "+faststart",
+    "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Deliverables/Bow-Bow-Bow-review-v01.mp4"
+  ]
+}

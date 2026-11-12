@@ -1,0 +1,266 @@
+{
+  "schema": "ytv-render-v1",
+  "origin": "render",
+  "export_contract": {
+    "original": {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/052_binance_interview_trap/Work/subtitle_sample_contract_v01.json",
+      "sha256": "487b109ebb3b92478e6089d033998e8ac211b9296b93b812172e0577ed83eac9"
+    },
+    "snapshot": {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/052_binance_interview_trap/Work/sample-render-v01/render_provenance/export_contract.json",
+      "sha256": "487b109ebb3b92478e6089d033998e8ac211b9296b93b812172e0577ed83eac9"
+    }
+  },
+  "command": {
+    "original": {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/052_binance_interview_trap/Work/sample-render-v01/render_command.json",
+      "sha256": "0a28ea2f48756a12c9296b05dc5bccaeaf79a229324ce2017a2794c2da3e661e"
+    },
+    "snapshot": {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/052_binance_interview_trap/Work/sample-render-v01/render_provenance/render_command.json",
+      "sha256": "0a28ea2f48756a12c9296b05dc5bccaeaf79a229324ce2017a2794c2da3e661e"
+    }
+  },
+  "engine": [
+    {
+      "original": {
+        "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/montage.py",
+        "sha256": "036993a385e9f1eb500bd566effee1ec036a23f55e2558365e09869fd1d0167b"
+      },
+      "snapshot": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/052_binance_interview_trap/Work/sample-render-v01/render_provenance/engine_0_montage.py",
+        "sha256": "036993a385e9f1eb500bd566effee1ec036a23f55e2558365e09869fd1d0167b"
+      }
+    },
+    {
+      "original": {
+        "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/delivery.py",
+        "sha256": "8fcba5854d8832a966d4960dbdae3c8fa362d124d04a67f2b4b0df4347a71c65"
+      },
+      "snapshot": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/052_binance_interview_trap/Work/sample-render-v01/render_provenance/engine_1_delivery.py",
+        "sha256": "8fcba5854d8832a966d4960dbdae3c8fa362d124d04a67f2b4b0df4347a71c65"
+      }
+    },
+    {
+      "original": {
+        "path": "/Users/diplomat/ytvideos/.agents/skills/ytv-paper-subtitles/scripts/semantic_grouping.py",
+        "sha256": "f18deb4cbb5af9c10cfd51fd60b15ef1c87b5ebaaaa46f073210935821d8fc3e"
+      },
+      "snapshot": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/052_binance_interview_trap/Work/sample-render-v01/render_provenance/engine_2_semantic_grouping.py",
+        "sha256": "f18deb4cbb5af9c10cfd51fd60b15ef1c87b5ebaaaa46f073210935821d8fc3e"
+      }
+    }
+  ],
+  "prepared": {
+    "channel": "paper",
+    "format": "long",
+    "subtitle_mode": "words",
+    "audio": "/Users/diplomat/ytvideos/channels/paper_detour/videos/052_binance_interview_trap/Work/subtitle-sample-assets/audio_25s.m4a",
+    "canvas": [
+      2560,
+      1440
+    ],
+    "fps": 30,
+    "scenes": [
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/052_binance_interview_trap/Source/Images/S01_v03.png",
+        "start_frame": 0,
+        "end_frame": 180,
+        "direction": "left_to_right",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Interview trap hook",
+          "reason": "Very small whole-image move; preserve full paper composition and keep meaningful labels in frame.",
+          "start": {
+            "center": [
+              0.505,
+              0.5
+            ],
+            "scale": 1.025
+          },
+          "end": {
+            "center": [
+              0.495,
+              0.5
+            ],
+            "scale": 1.045
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/052_binance_interview_trap/Source/Images/S24_v02.png",
+        "start_frame": 180,
+        "end_frame": 300,
+        "direction": "right_to_left",
+        "zoom": "none",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Second interview",
+          "reason": "Very small whole-image move; preserve full paper composition and keep meaningful labels in frame.",
+          "start": {
+            "center": [
+              0.495,
+              0.5
+            ],
+            "scale": 1.015
+          },
+          "end": {
+            "center": [
+              0.505,
+              0.5
+            ],
+            "scale": 1.015
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/052_binance_interview_trap/Source/Images/S03_v03.png",
+        "start_frame": 300,
+        "end_frame": 450,
+        "direction": "none",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Test assignment downloaded",
+          "reason": "Very small whole-image move; preserve full paper composition and keep meaningful labels in frame.",
+          "start": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.035
+          },
+          "end": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.015
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/052_binance_interview_trap/Source/Images/S04_v02.png",
+        "start_frame": 450,
+        "end_frame": 570,
+        "direction": "left_to_right",
+        "zoom": "none",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "The company is fake",
+          "reason": "Very small whole-image move; preserve full paper composition and keep meaningful labels in frame.",
+          "start": {
+            "center": [
+              0.505,
+              0.5
+            ],
+            "scale": 1.015
+          },
+          "end": {
+            "center": [
+              0.495,
+              0.5
+            ],
+            "scale": 1.015
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/052_binance_interview_trap/Source/Images/05_v02.png",
+        "start_frame": 570,
+        "end_frame": 750,
+        "direction": "none",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Coming scale of loss",
+          "reason": "Very small whole-image move; preserve full paper composition and keep meaningful labels in frame.",
+          "start": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.025
+          },
+          "end": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.045
+          }
+        }
+      }
+    ],
+    "frames": 750,
+    "manifest_path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/052_binance_interview_trap/Edit/plan_subtitle_sample_v01.json",
+    "source_transfer": "srgb"
+  },
+  "audio_source": {
+    "codec_name": "aac",
+    "profile": "LC",
+    "sample_rate": "44100",
+    "channels": 1,
+    "duration": "25.008005",
+    "bit_rate": "170299"
+  },
+  "settings": {
+    "scope": "pre-render settings only; no encoded-result or AV QA",
+    "timeline": {
+      "width": 2560,
+      "height": 1440,
+      "frame_count": 750,
+      "sample_aspect_ratio": "1:1",
+      "aspect_ratio": "16:9",
+      "output_color_space": "Rec.709 SDR"
+    },
+    "video": {
+      "codec_name": "h264",
+      "pix_fmt": "yuv420p",
+      "scan": "progressive",
+      "cadence": "constant 30/1 fps",
+      "color_primaries": "bt709",
+      "color_transfer": "bt709",
+      "color_space": "bt709",
+      "color_range": "tv"
+    },
+    "audio": {
+      "codec_name": "aac",
+      "profile": "LC",
+      "channels": 1,
+      "sample_rate": 44100,
+      "mode": "copy",
+      "target_bit_rate": "STREAM_COPY"
+    },
+    "requested_arguments": {
+      "encoder": "libx264",
+      "video_bitrate": 20000000,
+      "output_pix_fmt": "yuv420p",
+      "fps": "30/1",
+      "audio_codec": "copy",
+      "audio_profile": "aac_low",
+      "audio_bitrate": "STREAM_COPY",
+      "audio_sample_rate": 44100,
+      "audio_channels": 1
+    }
+  },
+  "ffmpeg_version": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+}

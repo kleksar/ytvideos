@@ -1,0 +1,199 @@
+{
+  "schema_version": 1,
+  "episode": "053_openai_claude_short",
+  "channel": "paper",
+  "format": "short",
+  "input": "collaborative",
+  "input_evidence": "User: «отлично получилось. давай делать ролик» 2026-11-05, accepting previous displayed EN/RU story.",
+  "scope": "Full Paper Detour Short production for review; no upload or publication authorized.",
+  "stages": [
+    {
+      "id": "develop_story",
+      "skills": [
+        "ytv-storycraft",
+        "ytv-shorts-story",
+        "ytv-shorts-loop"
+      ],
+      "status": "PENDING",
+      "artifacts": [],
+      "checks": [],
+      "dependencies": [],
+      "skill_runs": []
+    },
+    {
+      "id": "script",
+      "skills": [
+        "ytv-storycraft"
+      ],
+      "status": "PENDING",
+      "artifacts": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/053_openai_claude_short/Source/Script/narration_en_accepted_v01.txt",
+          "version": "accepted_v01",
+          "sha256": "4febf022e834ae632d4437a9a68513b6d03878837e9e327a23ea8dda42537ccc"
+        }
+      ],
+      "checks": [],
+      "dependencies": [],
+      "skill_runs": []
+    },
+    {
+      "id": "storyboard",
+      "skills": [
+        "ytv-video-production"
+      ],
+      "status": "PENDING",
+      "artifacts": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/053_openai_claude_short/Storyboard/STORYBOARD_v01.md",
+          "version": "v01",
+          "sha256": "2377b07d4a5e208c756c845d868cf5a25c73ce9d9b33df116cf60f6d9016fdc6"
+        }
+      ],
+      "checks": [],
+      "dependencies": [],
+      "skill_runs": []
+    },
+    {
+      "id": "audio",
+      "skills": [
+        "ytv-audio-delivery"
+      ],
+      "status": "PENDING",
+      "artifacts": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/053_openai_claude_short/Source/Voice/en_v01/voice_en_110.wav",
+          "version": "v01_110",
+          "sha256": "2698923b3b0f7dc8b04f5309f96189d999faf230fca9dbd3548198a6fbb647ec"
+        }
+      ],
+      "checks": [
+        {
+          "name": "audio_listening",
+          "status": "UNVERIFIED",
+          "reviewer": "coordinator",
+          "method": "not yet performed",
+          "coverage": "pronunciation, full mix",
+          "evidence": ""
+        }
+      ],
+      "dependencies": [],
+      "skill_runs": []
+    },
+    {
+      "id": "images",
+      "skills": [
+        "ytv-scene-images",
+        "ytv-image-motion"
+      ],
+      "status": "PENDING",
+      "artifacts": [],
+      "checks": [],
+      "dependencies": [],
+      "skill_runs": []
+    },
+    {
+      "id": "subtitles",
+      "skills": [
+        "ytv-paper-subtitles",
+        "ytv-srt"
+      ],
+      "status": "PENDING",
+      "artifacts": [],
+      "checks": [],
+      "dependencies": [],
+      "skill_runs": []
+    },
+    {
+      "id": "render",
+      "skills": [
+        "ytv-video-production",
+        "ytv-video-export",
+        "ytv-video-qa"
+      ],
+      "status": "PENDING",
+      "artifacts": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/053_openai_claude_short/Work/full_technical_v01.mp4",
+          "version": "technical_v01",
+          "sha256": "52bba1e886eb98fe7ad1cee19f0c45e89d324bcf333cf004680492f704cbe562"
+        }
+      ],
+      "checks": [
+        {
+          "name": "full_decode",
+          "status": "PASS",
+          "reviewer": "coordinator",
+          "method": "ffmpeg decode to null",
+          "coverage": "all frames and audio packets",
+          "evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/053_openai_claude_short/Work/full_qa_v01/QA.md"
+        },
+        {
+          "name": "audiovisual_playback",
+          "status": "UNVERIFIED",
+          "reviewer": "coordinator",
+          "method": "not performed",
+          "coverage": "speech, sync and motion",
+          "evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/053_openai_claude_short/Work/full_qa_v01/QA.md"
+        }
+      ],
+      "dependencies": [],
+      "skill_runs": []
+    },
+    {
+      "id": "review",
+      "skills": [],
+      "status": "PENDING",
+      "artifacts": [],
+      "checks": [],
+      "dependencies": [],
+      "skill_runs": []
+    },
+    {
+      "id": "packaging",
+      "skills": [
+        "ytv-youtube-video-titles",
+        "ytv-youtube-thumbnails",
+        "ytv-youtube-descriptions",
+        "ytv-youtube-hashtags",
+        "ytv-youtube-playlists"
+      ],
+      "status": "PENDING",
+      "artifacts": [],
+      "checks": [],
+      "dependencies": [],
+      "skill_runs": []
+    },
+    {
+      "id": "unlisted",
+      "skills": [
+        "ytv-youtube-release"
+      ],
+      "status": "PENDING",
+      "artifacts": [],
+      "checks": [],
+      "dependencies": [],
+      "skill_runs": []
+    },
+    {
+      "id": "release",
+      "skills": [
+        "ytv-youtube-release",
+        "ytv-media-lifecycle"
+      ],
+      "status": "PENDING",
+      "artifacts": [],
+      "checks": [],
+      "dependencies": [],
+      "skill_runs": []
+    }
+  ],
+  "decisions": {
+    "story_accepted": {
+      "accepted": true,
+      "target": "/Users/diplomat/ytvideos/channels/paper_detour/videos/053_openai_claude_short/Source/Script/narration_en_accepted_v01.txt sha256:4febf022e834ae632d4437a9a68513b6d03878837e9e327a23ea8dda42537ccc",
+      "evidence": "User message «отлично получилось. давай делать ролик» 2026-11-05 after shown English and Russian text."
+    }
+  },
+  "next_step": "Complete audio playback, word-level sync, motion-extremes review and required corrections; technical MP4 candidate exists but AV QA remains unverified."
+}

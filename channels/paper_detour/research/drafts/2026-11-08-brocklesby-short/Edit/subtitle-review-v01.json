@@ -1,0 +1,25 @@
+{
+  "subtitle_contract_sha256": "0621a328cc46439bb1b0c035b31af973d5793deb0902ffc32fbd2aeaaffc3ff7",
+  "checks": {
+    "semantic_grouping": {
+      "status": "PASS",
+      "reviewer": "Codex",
+      "method": "Full text reading and fixed-width group inspection",
+      "coverage": "46 groups, all 102 words and adjacent boundaries",
+      "evidence": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/drafts/2026-11-08-brocklesby-short/Edit/subtitle-preflight-v01.md",
+        "sha256": "adf8c514dd952fe7983226b060f02c2e47ccc52878ae7ffe3b583f008e2f4d8d"
+      }
+    },
+    "visual_placement": {
+      "status": "PASS",
+      "reviewer": "Codex",
+      "method": "Actual source, precise horizontal camera endpoints and subtitle positions at phone size",
+      "coverage": "All eight scenes at start/middle/end, 24 composites",
+      "evidence": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/drafts/2026-11-08-brocklesby-short/Edit/subtitle-preflight-v01.md",
+        "sha256": "adf8c514dd952fe7983226b060f02c2e47ccc52878ae7ffe3b583f008e2f4d8d"
+      }
+    }
+  }
+}

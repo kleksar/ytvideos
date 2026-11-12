@@ -1,0 +1,17 @@
+{
+  "language": "en",
+  "applicability": "REQUIRED",
+  "identities": {
+    "Deliverables/Anandibai_Joshee_EN_v02.srt": "3e8366d5a8035ebd384a926f449ccad060203bf9fecc9b805bb780aa362a56e2",
+    "Source/Script/narration_en_v26.md": "52c534de62209629257213f49a5c6c3301010d2f5bae1c87426a9bbc66ff6956",
+    "Source/Audio/narration_en_v26_110_endcard_silence.wav": "aec3ec03a8da8ea8df8252458814ba9e92331ad69eead732101c0c7b63899d75",
+    "Edit/Timebase/word_times_en_v26_110_forced_v01.json": "b80277ca4c4292f357f6d7e4aaa5093bfacbedbe9fad5d56f9ab1458dfe44983",
+    "Edit/Storyboard/montage_v02.json": "17eed18fc4eb29d67b2af1f4e27df645ba92aa421ec72220f2f6fba20a6aafdc",
+    "Deliverables/Anandibai_Joshee_EN_review_v02.mp4": "b06445fc94ba7366d69a0ac297871e5c31b5a93fff53c2a8163151e13e9f2b8a"
+  },
+  "text_and_structure": "PASS via Work/srt_v03/srt_validation.json",
+  "cue_to_word_map": "PASS: all 112 cues matched first/last group word times to 1 ms and exact grouped text; same unchanged final audio and timeline",
+  "playback": "UNVERIFIED: user reports burned-in subtitles match voice; separate sidecar playback and internal listening were not observed",
+  "editorial_readability": "UNVERIFIED",
+  "status": "NOT READY for upload until applicable outstanding checks are resolved"
+}

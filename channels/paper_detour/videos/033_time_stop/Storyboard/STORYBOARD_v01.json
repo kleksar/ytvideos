@@ -1,0 +1,627 @@
+{
+  "version": "v01",
+  "episode": "Paper Detour 033",
+  "format": "9:16",
+  "language": "EN",
+  "narration_sha256": "9abd6171d07f6914fe46cbedad31f19bfc49b036604ab768f3336d2248c14beb",
+  "narration_acceptance": "USER_ACCEPTED_20261101",
+  "storyboard_acceptance": "USER_ACCEPTED_20261101",
+  "estimated_duration_s": 60,
+  "actual_voice": null,
+  "scenes": [
+    {
+      "id": "S01",
+      "estimated_start_s": 0,
+      "estimated_end_s": 5,
+      "timing_status": "ESTIMATED_NOT_RECORDED",
+      "narration": "Stopping time for five seconds sounds like the perfect superpower.",
+      "composition": "**Обещание суперсилы.** Средний, чуть снизу. Герой на мокром тротуаре; рука уже поднята возле лица/плеча, как в принятом S01_v01, оба кроссовка стоят на земле. За ним зависли капли и велосипедист. Тёплая улица, уверенная поза. Ловушку и итог не показываем.",
+      "caption_plan": "5 SECONDS",
+      "cut": "DIRECT",
+      "image_status": "USER_ACCEPTED_STYLE_REFERENCE",
+      "image_path": "Source/Images/paper_v01/S01_v01.png",
+      "actual_png_qa": "UNVERIFIED_DETAIL_AND_CUE_QA",
+      "cues": [
+        {
+          "id": "C01",
+          "text": "5 SECONDS",
+          "spoken_trigger": "five seconds",
+          "spoken_end": "perfect superpower",
+          "function": "Масштаб обещания.",
+          "timing_status": "WORD_MARKERS_ONLY",
+          "start_frame": null,
+          "end_frame": null,
+          "png_status": "PLANNED",
+          "png_path": "Source/Graphics/accents_v01/C01.png",
+          "preflight": "UNVERIFIED"
+        }
+      ],
+      "image_type": "fictional_setup",
+      "fact_status": "FICTIONAL_STIPULATION_OR_METAPHOR",
+      "fact_notes_path": "Source/Research/FACTS_AND_EDIT_REVIEW_v01.md",
+      "image_sha256": "700b11da5d3c4c0bc1032eb1f48b3bdb7373378865b94cdf33184e9921b048f0",
+      "image_native_size": [
+        941,
+        1672
+      ],
+      "image_user_acceptance": "USER_ACCEPTED_20261101",
+      "image_full_frame_review": {
+        "status": "NO_BLOCKER_FOR_USER_STYLE_REVIEW",
+        "reviewer": "paper_quality_reviewer /root/time_stop_s01_visual_review",
+        "record": "Source/Images/paper_v01/GENERATION_LOG_v01.md"
+      },
+      "image_reference_detail_review": "Source/Production/SCENES_VISUAL_REVIEW_v01.md"
+    },
+    {
+      "id": "S02",
+      "estimated_start_s": 5,
+      "estimated_end_s": 11,
+      "timing_status": "ESTIMATED_NOT_RECORDED",
+      "narration": "Until you realize what else stops. Suppose everything outside your body freezes—even light.",
+      "composition": "**Расширяем условие.** Общий с небольшого возвышения, та же сторона улицы. Тот же герой в прежней позе; велосипедист и главная капля сохраняют места. Холодный сумеречный свет. Движение остановлено в позах; поздние препятствия ещё не вводим.",
+      "caption_plan": "WHAT ELSE STOPS?",
+      "cut": "DIRECT",
+      "image_status": "ACCEPTED_FOR_NEXT_VISUAL_STAGE",
+      "image_path": "Source/Images/paper_v01/S02_v01.png",
+      "actual_png_qa": "INDEPENDENT_FULL_FRAME_AND_DETAIL_REVIEW_PASS_CAPTION_FIT_UNVERIFIED",
+      "cues": [
+        {
+          "id": "C02",
+          "text": "WHAT ELSE STOPS?",
+          "spoken_trigger": "what else stops",
+          "spoken_end": "even light",
+          "function": "Вопрос об ограничении суперсилы.",
+          "timing_status": "WORD_MARKERS_ONLY",
+          "start_frame": null,
+          "end_frame": null,
+          "png_status": "PLANNED",
+          "png_path": "Source/Graphics/accents_v01/C02.png",
+          "preflight": "UNVERIFIED"
+        }
+      ],
+      "image_type": "fictional_setup",
+      "fact_status": "FICTIONAL_STIPULATION_OR_METAPHOR",
+      "fact_notes_path": "Source/Research/FACTS_AND_EDIT_REVIEW_v01.md",
+      "image_sha256": "e4fcefd61b184223afda3c1e521caff05128fe8be84604ba77bd64eaa719aa72",
+      "image_native_size": [
+        941,
+        1672
+      ],
+      "image_user_acceptance": "NOT_YET_USER_REVIEWED",
+      "image_full_frame_review": {
+        "status": "ACCEPTED_FOR_NEXT_VISUAL_STAGE",
+        "reviewer": "paper_quality_reviewer /root/time_stop_s01_visual_review",
+        "record": "Source/Production/SCENES_VISUAL_REVIEW_v01.md",
+        "record_sha256": "25ceeb01161a6a7ca26b1810f3e1ac57a91eadc7b4c8291f32190885e007aafe"
+      }
+    },
+    {
+      "id": "S03",
+      "estimated_start_s": 11,
+      "estimated_end_s": 17,
+      "timing_status": "ESTIMATED_NOT_RECORDED",
+      "narration": "You wouldn't see a world on pause. No light could reach your eyes. Just darkness.",
+      "composition": "**Потеря зрения на мир.** Очень крупный профиль глаза в нижних двух третях кадра. Перед лицом глубокое чёрное пространство из матовой бумаги; глаз открыт, отражения улицы в нём нет. Внешняя поясняющая композиция, не POV. Без лазеров и светящихся фотонов.",
+      "caption_plan": "NO LIGHT",
+      "cut": "DIRECT",
+      "image_status": "ACCEPTED_FOR_NEXT_VISUAL_STAGE",
+      "image_path": "Source/Images/paper_v01/S03_v01.png",
+      "actual_png_qa": "INDEPENDENT_FULL_FRAME_AND_DETAIL_REVIEW_PASS_CAPTION_FIT_UNVERIFIED",
+      "cues": [
+        {
+          "id": "C03",
+          "text": "NO LIGHT",
+          "spoken_trigger": "No light",
+          "spoken_end": "Just darkness",
+          "function": "Первое последствие.",
+          "timing_status": "WORD_MARKERS_ONLY",
+          "start_frame": null,
+          "end_frame": null,
+          "png_status": "PLANNED",
+          "png_path": "Source/Graphics/accents_v01/C03.png",
+          "preflight": "UNVERIFIED"
+        }
+      ],
+      "image_type": "explanatory_metaphor",
+      "fact_status": "FICTIONAL_STIPULATION_OR_METAPHOR",
+      "fact_notes_path": "Source/Research/FACTS_AND_EDIT_REVIEW_v01.md",
+      "image_sha256": "0889abab4189c4b767b86dbcf2df445dc1cc4b66f11462d96c554a3bdca6a45d",
+      "image_native_size": [
+        941,
+        1672
+      ],
+      "image_user_acceptance": "NOT_YET_USER_REVIEWED",
+      "image_full_frame_review": {
+        "status": "ACCEPTED_FOR_NEXT_VISUAL_STAGE",
+        "reviewer": "paper_quality_reviewer /root/time_stop_s01_visual_review",
+        "record": "Source/Production/SCENES_VISUAL_REVIEW_v01.md",
+        "record_sha256": "25ceeb01161a6a7ca26b1810f3e1ac57a91eadc7b4c8291f32190885e007aafe"
+      }
+    },
+    {
+      "id": "S04",
+      "estimated_start_s": 17,
+      "estimated_end_s": 20,
+      "timing_status": "ESTIMATED_NOT_RECORDED",
+      "narration": "You wouldn't hear the outside world either.",
+      "composition": "**Внешняя тишина.** Крупный профиль уха того же героя, в глубине замершая улица и велосипедный звонок. Ухо и плечо принадлежат фигуре, отдельного парящего уха нет. Холодное внешнее освещение модели.",
+      "caption_plan": "NO OUTSIDE SOUND",
+      "cut": "DIRECT",
+      "image_status": "ACCEPTED_FOR_NEXT_VISUAL_STAGE",
+      "image_path": "Source/Images/paper_v01/S04_v02.png",
+      "actual_png_qa": "INDEPENDENT_FULL_FRAME_AND_DETAIL_REVIEW_PASS_CAPTION_FIT_UNVERIFIED",
+      "cues": [
+        {
+          "id": "C04",
+          "text": "NO OUTSIDE SOUND",
+          "spoken_trigger": "wouldn't hear",
+          "spoken_end": "outside world either",
+          "function": "Ограничить тишину внешним миром.",
+          "timing_status": "WORD_MARKERS_ONLY",
+          "start_frame": null,
+          "end_frame": null,
+          "png_status": "PLANNED",
+          "png_path": "Source/Graphics/accents_v01/C04.png",
+          "preflight": "UNVERIFIED"
+        }
+      ],
+      "image_type": "explanatory_view",
+      "fact_status": "FICTIONAL_STIPULATION_OR_METAPHOR",
+      "fact_notes_path": "Source/Research/FACTS_AND_EDIT_REVIEW_v01.md",
+      "image_sha256": "06b4e747c2bd64ecb566008cd622f2fa70be17b67b162c26ff13b53365b18c83",
+      "image_native_size": [
+        941,
+        1672
+      ],
+      "image_user_acceptance": "NOT_YET_USER_REVIEWED",
+      "image_full_frame_review": {
+        "status": "ACCEPTED_FOR_NEXT_VISUAL_STAGE",
+        "reviewer": "paper_quality_reviewer /root/time_stop_s01_visual_review",
+        "record": "Source/Production/SCENES_VISUAL_REVIEW_v01.md",
+        "record_sha256": "25ceeb01161a6a7ca26b1810f3e1ac57a91eadc7b4c8291f32190885e007aafe"
+      }
+    },
+    {
+      "id": "S05",
+      "estimated_start_s": 20,
+      "estimated_end_s": 25,
+      "timing_status": "ESTIMATED_NOT_RECORDED",
+      "narration": "Sound needs vibrations, and air frozen in time couldn't carry them.",
+      "composition": "**Колебания.** Макро условной бумажной модели воздуха на основании. Кружки расположены нерегулярно, каждый держится скрытым креплением к заднику; видимых связей между кружками нет. Ряд бумажных волновых дуг не продолжается через модель. Это метафора, не лёд, кристалл или настоящие химические связи. Весь кадр статичен.",
+      "caption_plan": "NO VIBRATIONS — с air frozen in time",
+      "cut": "DIRECT",
+      "image_status": "ACCEPTED_FOR_NEXT_VISUAL_STAGE",
+      "image_path": "Source/Images/paper_v01/S05_v01.png",
+      "actual_png_qa": "INDEPENDENT_FULL_FRAME_AND_DETAIL_REVIEW_PASS_CAPTION_FIT_UNVERIFIED",
+      "cues": [
+        {
+          "id": "C05",
+          "text": "NO VIBRATIONS",
+          "spoken_trigger": "air frozen in time",
+          "spoken_end": "couldn't carry them",
+          "function": "Отрицание появляется после положительного объяснения Sound needs vibrations.",
+          "timing_status": "WORD_MARKERS_ONLY",
+          "start_frame": null,
+          "end_frame": null,
+          "png_status": "PLANNED",
+          "png_path": "Source/Graphics/accents_v01/C05.png",
+          "preflight": "UNVERIFIED"
+        }
+      ],
+      "image_type": "explanatory_metaphor",
+      "fact_status": "FICTIONAL_STIPULATION_OR_METAPHOR",
+      "fact_notes_path": "Source/Research/FACTS_AND_EDIT_REVIEW_v01.md",
+      "image_sha256": "793f83bff15f0ca33ea10071c50b0de113df9392d43786be07aca247d7751da9",
+      "image_native_size": [
+        941,
+        1672
+      ],
+      "image_user_acceptance": "NOT_YET_USER_REVIEWED",
+      "image_full_frame_review": {
+        "status": "ACCEPTED_FOR_NEXT_VISUAL_STAGE",
+        "reviewer": "paper_quality_reviewer /root/time_stop_s01_visual_review",
+        "record": "Source/Production/SCENES_VISUAL_REVIEW_v01.md",
+        "record_sha256": "25ceeb01161a6a7ca26b1810f3e1ac57a91eadc7b4c8291f32190885e007aafe"
+      }
+    },
+    {
+      "id": "S06",
+      "estimated_start_s": 25,
+      "estimated_end_s": 28,
+      "timing_status": "ESTIMATED_NOT_RECORDED",
+      "narration": "But that air is the real trap.",
+      "composition": "**Главный поворот.** Общий в три четверти с той же стороны оси. Герой на прежнем месте и в прежней позе. Теперь вокруг видна та же условная система бумажных частиц, тесно окружающая силуэт. Это модель невидимого воздуха для зрителя. Решётки, стеклянной клетки или нового механизма нет.",
+      "caption_plan": "AIR IS THE TRAP",
+      "cut": "DIRECT",
+      "image_status": "ACCEPTED_FOR_NEXT_VISUAL_STAGE",
+      "image_path": "Source/Images/paper_v01/S06_v01.png",
+      "actual_png_qa": "INDEPENDENT_FULL_FRAME_AND_DETAIL_REVIEW_PASS_CAPTION_FIT_UNVERIFIED",
+      "cues": [
+        {
+          "id": "C06",
+          "text": "AIR IS THE TRAP",
+          "spoken_trigger": "But that air",
+          "spoken_end": "the real trap",
+          "function": "Главный поворот.",
+          "timing_status": "WORD_MARKERS_ONLY",
+          "start_frame": null,
+          "end_frame": null,
+          "png_status": "PLANNED",
+          "png_path": "Source/Graphics/accents_v01/C06.png",
+          "preflight": "UNVERIFIED"
+        }
+      ],
+      "image_type": "explanatory_metaphor",
+      "fact_status": "FICTIONAL_STIPULATION_OR_METAPHOR",
+      "fact_notes_path": "Source/Research/FACTS_AND_EDIT_REVIEW_v01.md",
+      "image_sha256": "d8d964678dade5baafbb89da93916c121c1ee0bee9092d9cd7d3f5376c499805",
+      "image_native_size": [
+        941,
+        1672
+      ],
+      "image_user_acceptance": "NOT_YET_USER_REVIEWED",
+      "image_full_frame_review": {
+        "status": "ACCEPTED_FOR_NEXT_VISUAL_STAGE",
+        "reviewer": "paper_quality_reviewer /root/time_stop_s01_visual_review",
+        "record": "Source/Production/SCENES_VISUAL_REVIEW_v01.md",
+        "record_sha256": "25ceeb01161a6a7ca26b1810f3e1ac57a91eadc7b4c8291f32190885e007aafe"
+      }
+    },
+    {
+      "id": "S07",
+      "estimated_start_s": 28,
+      "estimated_end_s": 33,
+      "timing_status": "ESTIMATED_NOT_RECORDED",
+      "narration": "If every molecule is locked in place, you couldn't push through it.",
+      "composition": "**Нельзя шагнуть.** Низкий крупный план обуви и мокрого бордюра. Оба кроссовка стоят как в S01; частицы модели заполняют пространство перед носками. Никакого уже совершённого шага, раздвинутого воздуха, цепей или наручников.",
+      "caption_plan": "LOCKED IN PLACE",
+      "cut": "DIRECT",
+      "image_status": "ACCEPTED_FOR_NEXT_VISUAL_STAGE",
+      "image_path": "Source/Images/paper_v01/S07_v01.png",
+      "actual_png_qa": "INDEPENDENT_FULL_FRAME_AND_DETAIL_REVIEW_PASS_CAPTION_FIT_UNVERIFIED",
+      "cues": [
+        {
+          "id": "C07",
+          "text": "LOCKED IN PLACE",
+          "spoken_trigger": "locked in place",
+          "spoken_end": "push through it",
+          "function": "Запрет перемещения, не твёрдость.",
+          "timing_status": "WORD_MARKERS_ONLY",
+          "start_frame": null,
+          "end_frame": null,
+          "png_status": "PLANNED",
+          "png_path": "Source/Graphics/accents_v01/C07.png",
+          "preflight": "UNVERIFIED"
+        }
+      ],
+      "image_type": "explanatory_metaphor",
+      "fact_status": "FICTIONAL_STIPULATION_OR_METAPHOR",
+      "fact_notes_path": "Source/Research/FACTS_AND_EDIT_REVIEW_v01.md",
+      "image_sha256": "dba338bac4a9c1c12a34a4d6dd3a98d88fed56d3877bc61d83606138d98a82e8",
+      "image_native_size": [
+        941,
+        1672
+      ],
+      "image_user_acceptance": "NOT_YET_USER_REVIEWED",
+      "image_full_frame_review": {
+        "status": "ACCEPTED_FOR_NEXT_VISUAL_STAGE",
+        "reviewer": "paper_quality_reviewer /root/time_stop_s01_visual_review",
+        "record": "Source/Production/SCENES_VISUAL_REVIEW_v01.md",
+        "record_sha256": "25ceeb01161a6a7ca26b1810f3e1ac57a91eadc7b4c8291f32190885e007aafe"
+      }
+    },
+    {
+      "id": "S08",
+      "estimated_start_s": 33,
+      "estimated_end_s": 37,
+      "timing_status": "ESTIMATED_NOT_RECORDED",
+      "narration": "You couldn't even draw it into your lungs.",
+      "composition": "**Нельзя вдохнуть.** Крупный профиль от носа до груди, та же одежда и положение тела. Перед носом и чуть приоткрытым ртом неподвижные частицы модели; путь воздуха внутрь не изображён. Без разреза тела, удушения руками и признаков смерти.",
+      "caption_plan": "CAN'T INHALE",
+      "cut": "DIRECT",
+      "image_status": "ACCEPTED_FOR_NEXT_VISUAL_STAGE",
+      "image_path": "Source/Images/paper_v01/S08_v01.png",
+      "actual_png_qa": "INDEPENDENT_FULL_FRAME_AND_DETAIL_REVIEW_PASS_CAPTION_FIT_UNVERIFIED",
+      "cues": [
+        {
+          "id": "C08",
+          "text": "CAN'T INHALE",
+          "spoken_trigger": "couldn't even draw",
+          "spoken_end": "into your lungs",
+          "function": "Ограничение вдоха, без смертельного исхода.",
+          "timing_status": "WORD_MARKERS_ONLY",
+          "start_frame": null,
+          "end_frame": null,
+          "png_status": "PLANNED",
+          "png_path": "Source/Graphics/accents_v01/C08.png",
+          "preflight": "UNVERIFIED"
+        }
+      ],
+      "image_type": "explanatory_metaphor",
+      "fact_status": "FICTIONAL_STIPULATION_OR_METAPHOR",
+      "fact_notes_path": "Source/Research/FACTS_AND_EDIT_REVIEW_v01.md",
+      "image_sha256": "51f37f7e7e447351814f9ea19a75b2be2eb18ac9226e742b347e95b3eed7ec06",
+      "image_native_size": [
+        941,
+        1672
+      ],
+      "image_user_acceptance": "NOT_YET_USER_REVIEWED",
+      "image_full_frame_review": {
+        "status": "ACCEPTED_FOR_NEXT_VISUAL_STAGE",
+        "reviewer": "paper_quality_reviewer /root/time_stop_s01_visual_review",
+        "record": "Source/Production/SCENES_VISUAL_REVIEW_v01.md",
+        "record_sha256": "25ceeb01161a6a7ca26b1810f3e1ac57a91eadc7b4c8291f32190885e007aafe"
+      }
+    },
+    {
+      "id": "S09",
+      "estimated_start_s": 37,
+      "estimated_end_s": 41,
+      "timing_status": "ESTIMATED_NOT_RECORDED",
+      "narration": "You'd be stuck like an insect in amber.",
+      "composition": "**Сравнение.** Макро бумажного насекомого в слоистом медово-янтарном бумажном объёме на основании. Насекомое внутри, слои полупрозрачной бумаги сохраняют ручную фактуру. Героя в янтарь не помещать: это сравнение, не событие.",
+      "caption_plan": "LIKE AN INSECT",
+      "cut": "DIRECT",
+      "image_status": "ACCEPTED_FOR_NEXT_VISUAL_STAGE",
+      "image_path": "Source/Images/paper_v01/S09_v01.png",
+      "actual_png_qa": "INDEPENDENT_FULL_FRAME_AND_DETAIL_REVIEW_PASS_CAPTION_FIT_UNVERIFIED",
+      "cues": [
+        {
+          "id": "C09",
+          "text": "LIKE AN INSECT",
+          "spoken_trigger": "stuck like an insect",
+          "spoken_end": "in amber",
+          "function": "Сохранить сравнение.",
+          "timing_status": "WORD_MARKERS_ONLY",
+          "start_frame": null,
+          "end_frame": null,
+          "png_status": "PLANNED",
+          "png_path": "Source/Graphics/accents_v01/C09.png",
+          "preflight": "UNVERIFIED"
+        }
+      ],
+      "image_type": "simile",
+      "fact_status": "FICTIONAL_STIPULATION_OR_METAPHOR",
+      "fact_notes_path": "Source/Research/FACTS_AND_EDIT_REVIEW_v01.md",
+      "image_sha256": "e05cee51ce263bd9bf30a58ff08ab8854be754de5ddff782a3adfb8d9bdfb97a",
+      "image_native_size": [
+        941,
+        1672
+      ],
+      "image_user_acceptance": "NOT_YET_USER_REVIEWED",
+      "image_full_frame_review": {
+        "status": "ACCEPTED_FOR_NEXT_VISUAL_STAGE",
+        "reviewer": "paper_quality_reviewer /root/time_stop_s01_visual_review",
+        "record": "Source/Production/SCENES_VISUAL_REVIEW_v01.md",
+        "record_sha256": "25ceeb01161a6a7ca26b1810f3e1ac57a91eadc7b4c8291f32190885e007aafe"
+      }
+    },
+    {
+      "id": "S10",
+      "estimated_start_s": 41,
+      "estimated_end_s": 45,
+      "timing_status": "ESTIMATED_NOT_RECORDED",
+      "narration": "Even a raindrop in front of your face wouldn't budge.",
+      "composition": "**Маленькая преграда.** Экстремально крупный боковой план: та же капля перед лицом, расстояние до носа как в S02. Материал и блик капли — как в принятом S01_v01, стекловидный; подвес скрыт. Палец не касается и не сдвигает каплю. Нет металла, трещин или камня.",
+      "caption_plan": "EVEN A RAINDROP",
+      "cut": "DIRECT",
+      "image_status": "ACCEPTED_FOR_NEXT_VISUAL_STAGE",
+      "image_path": "Source/Images/paper_v01/S10_v01.png",
+      "actual_png_qa": "INDEPENDENT_FULL_FRAME_AND_DETAIL_REVIEW_PASS_CAPTION_FIT_UNVERIFIED",
+      "cues": [
+        {
+          "id": "C10",
+          "text": "EVEN A RAINDROP",
+          "spoken_trigger": "a raindrop",
+          "spoken_end": "wouldn't budge",
+          "function": "Контраст масштаба и преграды.",
+          "timing_status": "WORD_MARKERS_ONLY",
+          "start_frame": null,
+          "end_frame": null,
+          "png_status": "PLANNED",
+          "png_path": "Source/Graphics/accents_v01/C10.png",
+          "preflight": "UNVERIFIED"
+        }
+      ],
+      "image_type": "fictional_consequence",
+      "fact_status": "FICTIONAL_STIPULATION_OR_METAPHOR",
+      "fact_notes_path": "Source/Research/FACTS_AND_EDIT_REVIEW_v01.md",
+      "image_sha256": "0fb6b766069a15d40bf1ea96adc694812a6abff2f7b77cd21440b031d59bbbab",
+      "image_native_size": [
+        941,
+        1672
+      ],
+      "image_user_acceptance": "NOT_YET_USER_REVIEWED",
+      "image_full_frame_review": {
+        "status": "ACCEPTED_FOR_NEXT_VISUAL_STAGE",
+        "reviewer": "paper_quality_reviewer /root/time_stop_s01_visual_review",
+        "record": "Source/Production/SCENES_VISUAL_REVIEW_v01.md",
+        "record_sha256": "25ceeb01161a6a7ca26b1810f3e1ac57a91eadc7b4c8291f32190885e007aafe"
+      }
+    },
+    {
+      "id": "S11",
+      "estimated_start_s": 45,
+      "estimated_end_s": 47,
+      "timing_status": "ESTIMATED_NOT_RECORDED",
+      "narration": "So much for unlimited power.",
+      "composition": "**Саркастический удар.** Дальний сверху: маленькая фигура в охристой куртке на прежнем тротуаре, та же тёмная улица и велосипедист. Герой никуда не переместился. Много спокойного бумажного пространства вокруг.",
+      "caption_plan": "Без текста: короткая пауза перед итогом.",
+      "cut": "DIRECT",
+      "image_status": "ACCEPTED_FOR_NEXT_VISUAL_STAGE",
+      "image_path": "Source/Images/paper_v01/S11_v01.png",
+      "actual_png_qa": "INDEPENDENT_FULL_FRAME_AND_DETAIL_REVIEW_PASS_CAPTION_FIT_UNVERIFIED",
+      "cues": [],
+      "image_type": "fictional_view",
+      "fact_status": "FICTIONAL_STIPULATION_OR_METAPHOR",
+      "fact_notes_path": "Source/Research/FACTS_AND_EDIT_REVIEW_v01.md",
+      "image_sha256": "2d007fcb0e3531bca8e542558283a3bca147d5022cc25c9120d9bd2ea03c7ebc",
+      "image_native_size": [
+        941,
+        1672
+      ],
+      "image_user_acceptance": "NOT_YET_USER_REVIEWED",
+      "image_full_frame_review": {
+        "status": "ACCEPTED_FOR_NEXT_VISUAL_STAGE",
+        "reviewer": "paper_quality_reviewer /root/time_stop_s01_visual_review",
+        "record": "Source/Production/SCENES_VISUAL_REVIEW_v01.md",
+        "record_sha256": "25ceeb01161a6a7ca26b1810f3e1ac57a91eadc7b4c8291f32190885e007aafe"
+      }
+    },
+    {
+      "id": "S12",
+      "estimated_start_s": 47,
+      "estimated_end_s": 53,
+      "timing_status": "ESTIMATED_NOT_RECORDED",
+      "narration": "Five seconds in the dark. Cut off from the world. Unable to move.",
+      "composition": "**Три последствия.** Средний в три четверти с той же стороны улицы; неподвижный герой, поднятая рука и обувь сохраняют исходные положения. Чёрно-синее бумажное окружение, мягкий внешний контровой свет для зрительской читаемости. Один базовый PNG для трёх последовательных акцентов.",
+      "caption_plan": "IN THE DARK → CUT OFF → UNABLE TO MOVE",
+      "cut": "DIRECT",
+      "image_status": "ACCEPTED_FOR_NEXT_VISUAL_STAGE",
+      "image_path": "Source/Images/paper_v01/S12_v02.png",
+      "actual_png_qa": "INDEPENDENT_FULL_FRAME_AND_DETAIL_REVIEW_PASS_CAPTION_FIT_UNVERIFIED",
+      "cues": [
+        {
+          "id": "C11",
+          "text": "IN THE DARK",
+          "spoken_trigger": "Five seconds in the dark",
+          "spoken_end": "in the dark",
+          "function": "Первый пункт итога.",
+          "timing_status": "WORD_MARKERS_ONLY",
+          "start_frame": null,
+          "end_frame": null,
+          "png_status": "PLANNED",
+          "png_path": "Source/Graphics/accents_v01/C11.png",
+          "preflight": "UNVERIFIED"
+        },
+        {
+          "id": "C12",
+          "text": "CUT OFF",
+          "spoken_trigger": "Cut off",
+          "spoken_end": "the world",
+          "function": "Второй; первый уже убран.",
+          "timing_status": "WORD_MARKERS_ONLY",
+          "start_frame": null,
+          "end_frame": null,
+          "png_status": "PLANNED",
+          "png_path": "Source/Graphics/accents_v01/C12.png",
+          "preflight": "UNVERIFIED"
+        },
+        {
+          "id": "C13",
+          "text": "UNABLE TO MOVE",
+          "spoken_trigger": "Unable to move",
+          "spoken_end": "to move",
+          "function": "Третий; первые два убраны.",
+          "timing_status": "WORD_MARKERS_ONLY",
+          "start_frame": null,
+          "end_frame": null,
+          "png_status": "PLANNED",
+          "png_path": "Source/Graphics/accents_v01/C13.png",
+          "preflight": "UNVERIFIED"
+        }
+      ],
+      "image_type": "explanatory_view",
+      "fact_status": "FICTIONAL_STIPULATION_OR_METAPHOR",
+      "fact_notes_path": "Source/Research/FACTS_AND_EDIT_REVIEW_v01.md",
+      "image_sha256": "27c85cfe6703a9b5594dd205b93091f1726fe6ade66723d1ac5e3c7d1350e034",
+      "image_native_size": [
+        941,
+        1672
+      ],
+      "image_user_acceptance": "NOT_YET_USER_REVIEWED",
+      "image_full_frame_review": {
+        "status": "ACCEPTED_FOR_NEXT_VISUAL_STAGE",
+        "reviewer": "paper_quality_reviewer /root/time_stop_s01_visual_review",
+        "record": "Source/Production/SCENES_VISUAL_REVIEW_v01.md",
+        "record_sha256": "25ceeb01161a6a7ca26b1810f3e1ac57a91eadc7b4c8291f32190885e007aafe"
+      }
+    },
+    {
+      "id": "S13",
+      "estimated_start_s": 53,
+      "estimated_end_s": 57,
+      "timing_status": "ESTIMATED_NOT_RECORDED",
+      "narration": "Then everything starts again. And the only thing you've accomplished?",
+      "composition": "**Возврат и вопрос.** Общий с того же направления, что S02. Новая цельная композиция после возобновления времени: велосипедист немного дальше по ходу, капля уже внизу у тротуара, тёплое освещение вернулось. Другой статичный PNG, без анимации падения и езды. Ответ про возраст ещё не написан.",
+      "caption_plan": "Без текста: не раскрываем финальный ответ раньше реплики.",
+      "cut": "DIRECT",
+      "image_status": "ACCEPTED_FOR_NEXT_VISUAL_STAGE",
+      "image_path": "Source/Images/paper_v01/S13_v01.png",
+      "actual_png_qa": "INDEPENDENT_FULL_FRAME_AND_DETAIL_REVIEW_PASS_CAPTION_FIT_UNVERIFIED",
+      "cues": [],
+      "image_type": "fictional_aftermath",
+      "fact_status": "FICTIONAL_STIPULATION_OR_METAPHOR",
+      "fact_notes_path": "Source/Research/FACTS_AND_EDIT_REVIEW_v01.md",
+      "image_sha256": "2c3bdaae42594f5ea340856fb65bf3e023f965e0261ee4c5fad6e11e15ae2387",
+      "image_native_size": [
+        941,
+        1672
+      ],
+      "image_user_acceptance": "NOT_YET_USER_REVIEWED",
+      "image_full_frame_review": {
+        "status": "ACCEPTED_FOR_NEXT_VISUAL_STAGE",
+        "reviewer": "paper_quality_reviewer /root/time_stop_s01_visual_review",
+        "record": "Source/Production/SCENES_VISUAL_REVIEW_v01.md",
+        "record_sha256": "25ceeb01161a6a7ca26b1810f3e1ac57a91eadc7b4c8291f32190885e007aafe"
+      }
+    },
+    {
+      "id": "S14",
+      "estimated_start_s": 57,
+      "estimated_end_s": 60,
+      "timing_status": "ESTIMATED_NOT_RECORDED",
+      "narration": "Making yourself five seconds older.",
+      "composition": "**Шутка.** Средний крупный того же героя на вернувшейся тёплой улице, спокойная растерянная мимика. Одежда и внешность те же: без морщин, седины и старческого лица. Чистое место над головой для финального акцента. Часы, будто доказавшие прибавку возраста, не вводим.",
+      "caption_plan": "5 SECONDS OLDER",
+      "cut": "DIRECT",
+      "image_status": "ACCEPTED_FOR_NEXT_VISUAL_STAGE",
+      "image_path": "Source/Images/paper_v01/S14_v02.png",
+      "actual_png_qa": "INDEPENDENT_FULL_FRAME_AND_DETAIL_REVIEW_PASS_CAPTION_FIT_UNVERIFIED",
+      "cues": [
+        {
+          "id": "C14",
+          "text": "5 SECONDS OLDER",
+          "spoken_trigger": "five seconds older",
+          "spoken_end": "older",
+          "function": "Финальный ответ только здесь.",
+          "timing_status": "WORD_MARKERS_ONLY",
+          "start_frame": null,
+          "end_frame": null,
+          "png_status": "PLANNED",
+          "png_path": "Source/Graphics/accents_v01/C14.png",
+          "preflight": "UNVERIFIED"
+        }
+      ],
+      "image_type": "fictional_payoff",
+      "fact_status": "FICTIONAL_STIPULATION_OR_METAPHOR",
+      "fact_notes_path": "Source/Research/FACTS_AND_EDIT_REVIEW_v01.md",
+      "image_sha256": "af097e5578acb4ca268c4a9acaaacf7710f0bd82e8fce301c639367d5cfe2d2a",
+      "image_native_size": [
+        941,
+        1672
+      ],
+      "image_user_acceptance": "NOT_YET_USER_REVIEWED",
+      "image_full_frame_review": {
+        "status": "ACCEPTED_FOR_NEXT_VISUAL_STAGE",
+        "reviewer": "paper_quality_reviewer /root/time_stop_s01_visual_review",
+        "record": "Source/Production/SCENES_VISUAL_REVIEW_v01.md",
+        "record_sha256": "25ceeb01161a6a7ca26b1810f3e1ac57a91eadc7b4c8291f32190885e007aafe"
+      }
+    }
+  ],
+  "screen_geography": {
+    "hero": "slightly left of centre, faces screen-right",
+    "raindrop": "screen-right of nose, about 20 cm away, nose height",
+    "cyclist": "background screen-left, travels left to right",
+    "camera": "same side of axis; profile nose points right",
+    "body_pose": "S01_v01 actual accepted pose: right open palm near face/shoulder, left arm down, both feet grounded; unchanged S02–S12"
+  },
+  "storyboard_acceptance_quote": "Да, берём эту раскадровку.",
+  "image_generation_scope": "S01_ACCEPTED_REMAINING_S02_S14_AUTHORIZED_20261101",
+  "image_style_reference": "Source/Images/paper_v01/S01_v01.png",
+  "visual_bible": "Source/Production/VISUAL_BIBLE_v01.md",
+  "status": "SUPERSEDED_BY_USER_REQUEST_20261102_REDO_IMAGES_WITH_SHOT_VARIETY",
+  "superseded_by": "Storyboard/STORYBOARD_v02.json",
+  "notes": "Historical accepted plan and generated assets retained for provenance; not current visual direction."
+}

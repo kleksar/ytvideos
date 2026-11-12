@@ -1,0 +1,19 @@
+{
+  "status": "WAITING_FOR_DISK_SPACE",
+  "reason": "Concurrent project renders exhausted the shared volume after our partial render was stopped; all dependent v07 inputs and evidence are retained.",
+  "temporary_paths_removed": [
+    {
+      "path": "/Users/diplomat/ytvideos/stories/videos/009_black_death/Work/ffmpeg-black-death-v07/caption-build",
+      "logical_bytes": 76061034
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/stories/videos/009_black_death/Work/ffmpeg-black-death-v07/preflight-plan-v3",
+      "logical_bytes": 177758
+    }
+  ],
+  "evidence_retained": [
+    "/Users/diplomat/ytvideos/stories/videos/009_black_death/Edit/FFmpeg/v07/caption_groups_1_10x.json",
+    "/Users/diplomat/ytvideos/stories/videos/009_black_death/Edit/FFmpeg/v07/preflight_plan_v07.json"
+  ],
+  "time_utc": "2026-11-03T17:14:53+00:00"
+}

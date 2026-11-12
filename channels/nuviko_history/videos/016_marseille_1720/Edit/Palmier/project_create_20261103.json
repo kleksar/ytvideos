@@ -1,0 +1,30 @@
+{
+  "operation": "manage_project.create",
+  "arguments": {
+    "action": "create",
+    "name": "Nuviko 016 Marseille 1720",
+    "fps": 30,
+    "aspectRatio": "16:9",
+    "quality": "1080p"
+  },
+  "response": {
+    "canGenerate": false,
+    "fps": 30,
+    "id": "3C0B4689",
+    "mediaCount": 0,
+    "name": "Nuviko 016 Marseille 1720",
+    "openCount": 3,
+    "path": "/Users/diplomat/Documents/Palmier Pro/Nuviko 016 Marseille 1720.palmier",
+    "resolution": "1920x1080",
+    "status": "created",
+    "timelines": [
+      {
+        "name": "Timeline 1",
+        "timelineId": "858E805E",
+        "visible": true
+      }
+    ]
+  },
+  "recorded_unix": 1793689375.686701,
+  "status": "created_readback_pending"
+}

@@ -1,0 +1,51 @@
+{
+  "revision": "v04",
+  "purpose": "local review only",
+  "freshness": "CURRENT",
+  "file": "Deliverables/meme-time-machine-01_draft-v04.mp4",
+  "sha256": "5ca804a3e0cc535eb91a161c912ec04f0492e1a88066cf0912fcf40364f143b9",
+  "bytes": 8951952,
+  "contract": "Edit/export-contract-v04.json",
+  "stream_metadata": "PASS",
+  "full_decode": "PASS",
+  "visual_review": {
+    "result": "PASS for sampled frames",
+    "contact_sheet": "Edit/QA/v04/contact-sheet.jpg",
+    "frames": [
+      0,
+      30,
+      57,
+      58,
+      125,
+      255,
+      256,
+      280,
+      306,
+      307,
+      332,
+      367,
+      368,
+      410,
+      429,
+      430,
+      445,
+      457
+    ],
+    "observations": "Title, footage, blur and new rank row change together at sampled boundaries. Visible row counts progress 1–2–3–4–5. Corn Kid's inner cut retains all five rows. Foreground is intact in samples.",
+    "foreground_comparison_to_v03": {
+      "crop": "990:570:44:674",
+      "all_ssim": 0.99411
+    }
+  },
+  "audio_signal": {
+    "result": "PASS",
+    "mode": "stream copy with identical decoded PCM",
+    "aac_stream_sha256": "603ee3dbee12d0f1c033068956600f38aa39bd1a4d966d3913093e551a44d80e",
+    "pcm_s16le_sha256": "a15ac1189a44a631582417d756c7b387c715ef25eb714f7747e00b87cd8cf09f",
+    "v03_qa": "Edit/qa-v03.json"
+  },
+  "caption_timing": "Existing cues and source captions retained, additional captions positioned above the rank rows.",
+  "subjective_audio_listening": "UNVERIFIED",
+  "independent_review": "NOT_REQUESTED",
+  "release": "Local review. No upload or publication."
+}

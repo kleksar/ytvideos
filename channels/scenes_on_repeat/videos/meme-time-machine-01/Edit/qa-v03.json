@@ -1,0 +1,55 @@
+{
+  "revision": "v03",
+  "purpose": "local review only",
+  "file": "Deliverables/meme-time-machine-01_draft-v03.mp4",
+  "sha256": "45be5d59ecd4658b72b0738ec6ecdfe336386d4e2d165826d49449ca554697d6",
+  "bytes": 5150293,
+  "contract": "Edit/export-contract-v03.json",
+  "freshness": "CURRENT",
+  "stream_metadata": "PASS",
+  "full_decode": "PASS",
+  "visual_review": {
+    "result": "PASS for sampled frames",
+    "contact_sheet": "Edit/QA/v03/contact-sheet.jpg",
+    "frames": [
+      0,
+      30,
+      57,
+      58,
+      125,
+      255,
+      256,
+      280,
+      306,
+      307,
+      332,
+      367,
+      368,
+      410,
+      429,
+      430,
+      445,
+      457
+    ],
+    "rank_order": [
+      2,
+      4,
+      3,
+      5,
+      1
+    ],
+    "observations": "Original footage; rank visible at sampled cuts. Grogu crop excludes weapons in reviewed frames. Bottle landing and reaction preserved before pan. Corn opening uses embedded source captions."
+  },
+  "audio_signal": {
+    "result": "PASS",
+    "integrated_lufs": -17.2,
+    "true_peak_dbtp": -2.3,
+    "silence_threshold_db": -55,
+    "silence_min_duration_s": 0.25,
+    "detected_silence_intervals": []
+  },
+  "speech_timing": "Gru and Corn Kid cues based on source word map. Final local ASR detects the retained lines and transcribes 'corn' as 'cold' in context. Text checked against the original source transcript and burned-in source caption.",
+  "subjective_audio_listening": "UNVERIFIED",
+  "independent_review": "NOT_REQUESTED",
+  "release": "No upload or publication requested. Rights for public reuse not verified."
+}

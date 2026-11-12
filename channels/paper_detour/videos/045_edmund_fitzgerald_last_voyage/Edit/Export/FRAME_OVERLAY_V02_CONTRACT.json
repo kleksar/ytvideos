@@ -1,0 +1,64 @@
+{
+  "schema": "paper-frame-overlay-export-v1",
+  "status": "REVIEW_PREVIEW_RENDERED_PENDING_USER_REVIEW",
+  "episode": "045_edmund_fitzgerald_last_voyage",
+  "purpose": "Separate Paper Frame review export; no publication or source replacement.",
+  "user_authorization": "User explicitly requested horizontal overlay loop, new v02 MP4, and post-render technical and visual checks.",
+  "input": {
+    "video": "/Users/diplomat/ytvideos/channels/paper_detour/videos/045_edmund_fitzgerald_last_voyage/Work/render_final_20261104/previews/edmund_fitzgerald_full_film_en_v01.mp4",
+    "sha256": "2f0d0d0ec4f8f2f752cb1042b4be5b475bb7299b841981c783674611a4266c7b",
+    "role": "unchanged base picture and AAC audio"
+  },
+  "overlay": {
+    "master": "/Users/diplomat/Documents/Codex/2026-11-04/task-3/paper-border-source-kit/paper-border-kit/masters/paper-border-16x9.mov",
+    "sha256": "861ca2b08d1f635f8b0beb30c7fca16db17a30a58fd79a2186c467bf868ace6c",
+    "width": 2560,
+    "height": 1440,
+    "fps": "30/1",
+    "frames": 240,
+    "duration_seconds": 8.0,
+    "codec": "ProRes 4444",
+    "pix_fmt": "yuva444p12le",
+    "alpha": "straight",
+    "loop": "-stream_loop -1; exact 240-frame cycle"
+  },
+  "output": {
+    "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/045_edmund_fitzgerald_last_voyage/Work/render_final_20261104/previews/edmund_fitzgerald_full_film_en_frame_v02.mp4",
+    "overwrite": false,
+    "container": "MP4",
+    "video_codec": "H.264 AVC",
+    "encoder": "h264_videotoolbox",
+    "size": [
+      2560,
+      1440
+    ],
+    "aspect_ratio": "16:9",
+    "fps": "30/1",
+    "frames": 6764,
+    "duration_seconds": 225.466667,
+    "pix_fmt": "yuv420p",
+    "colour": "BT.709 limited range",
+    "audio": "source AAC-LC mono 44.1 kHz; two-stage remux; all 9712 packet payloads SHA-256 match source v01"
+  },
+  "filter_complex": "[0:v]fps=30,setpts=PTS-STARTPTS[base];[1:v]fps=30,setpts=PTS-STARTPTS,format=rgba[frame];[base][frame]overlay=0:0:alpha=straight:eof_action=pass:shortest=1:format=auto,format=yuv420p,setsar=1[v]",
+  "video_bitrate_target": "20M",
+  "required_checks": [
+    "ffprobe source/output",
+    "full decode output",
+    "start/mid/end/loop/caption visual review",
+    "all 9712 source/output AAC packet hashes identical",
+    "size/duration/stream comparison"
+  ],
+  "limitations": [
+    "Source is already H.264; adding the overlay requires one new lossy video encode.",
+    "Final H.264 yuv420p MP4 has no alpha; frame pixels are composited into the picture."
+  ],
+  "audio_preservation_correction": "A single ffmpeg output with -frames:v stopped muxing AAC at the last video frame and omitted 3 trailing AAC packets. The accepted two-stage pipeline encodes the overlay video-only with 6764 frames, then remuxes that video with the original source AAC to EOF using stream copy and no duration/frame limit. Verified 9712 packet payload hashes identical.",
+  "render_implementation": {
+    "video_stage": "H.264 encode with overlay, 6764 frames, video-only",
+    "audio_stage": "stream-copy remux of original AAC to EOF without -t, -shortest or frame cap",
+    "commands": "Work/frame_overlay_v02/render_command.json"
+  },
+  "review_receipt": "/Users/diplomat/ytvideos/channels/paper_detour/videos/045_edmund_fitzgerald_last_voyage/Edit/Export/FRAME_OVERLAY_V02_REVIEW.md",
+  "review_preview_sidecar": "/Users/diplomat/ytvideos/channels/paper_detour/videos/045_edmund_fitzgerald_last_voyage/Work/render_final_20261104/previews/edmund_fitzgerald_full_film_en_frame_v02.mp4.delivery.json"
+}

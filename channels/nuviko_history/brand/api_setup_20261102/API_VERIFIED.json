@@ -1,0 +1,20 @@
+{
+  "status": "VERIFIED",
+  "channel": {
+    "id": "UCbyLx6Rf3iWww4bPZJ2oo2A",
+    "snippet": {
+      "title": "Nuviko History",
+      "customUrl": "@nuviko_history"
+    }
+  },
+  "granted_scopes": [
+    "https://www.googleapis.com/auth/youtube.force-ssl",
+    "https://www.googleapis.com/auth/youtube.readonly",
+    "https://www.googleapis.com/auth/youtube.upload"
+  ],
+  "offline_refresh": "succeeded",
+  "credential_file": "/Users/diplomat/.local/share/story-youtube/nuviko-history/token.json",
+  "credential_mode": "0o600",
+  "readback": "channels.list mine=true; exact ID matched",
+  "video_mutations": 0
+}

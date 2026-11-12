@@ -1,0 +1,366 @@
+{
+  "schema": "ytv-delivery-v1",
+  "channel": "paper",
+  "format": "long",
+  "canvas": [
+    2560,
+    1440
+  ],
+  "fps": 30,
+  "frames": 320,
+  "caption_end_frame": 320,
+  "audio": {
+    "audio": {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Work/production_local_v01/sample_audio.wav",
+      "sha256": "c6f22d0754bcb3b7f64368d0022c27d6e19e4825db9b5057f8f8fe57d60a12f5"
+    },
+    "applied_speed": 1.1,
+    "speed_policy": {
+      "path": "/Users/diplomat/ytvideos/.agents/skills/ytv-audio-delivery/references/speed.json",
+      "sha256": "32c378c36c1e297cbdc4e3593c965163d33e531b8b8eea026b367bddb51a668a"
+    },
+    "speed_evidence": {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Edit/Audio/speed_evidence_v02.md",
+      "sha256": "8f2ddbd5c4d9fa6f4d7a282d7314eda1b831a13e406992fdec1c0fda2ca3ccc7"
+    }
+  },
+  "transcript": {
+    "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Work/production_local_v01/sample_transcript.txt",
+    "sha256": "6d6164158f195e459f958be73e861062be23534b81cbf1f850336e8799d886c8"
+  },
+  "word_map": {
+    "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Work/production_local_v01/sample_word_times.json",
+    "sha256": "8ed5bd6084b03725ff6294865a3e90747f20a2af1bc5c3ecdda55e86aa99a5a6"
+  },
+  "profiles": [
+    {
+      "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/profiles/paper.json",
+      "sha256": "e2b89e813ec25985601ef65997ea8b94c19e96aa6d158333edf962b42e02ffc0"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/profiles/long.json",
+      "sha256": "e8f9f5dd0354283634a0cf9dc1816736bac38de158de1d0bdd1b8b4658f51459"
+    },
+    {
+      "path": "/System/Library/Fonts/Supplemental/ChalkboardSE.ttc",
+      "sha256": "256d3dd291f0d2bd3379882e7fb9c8276fba219ea447a1073d2fce17690e0478"
+    }
+  ],
+  "engine": [
+    {
+      "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/montage.py",
+      "sha256": "35eb0ea42c4823eb93d18d87468eb55cef9a3f16988a37c533c417b3780a7ad7"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/delivery.py",
+      "sha256": "8fcba5854d8832a966d4960dbdae3c8fa362d124d04a67f2b4b0df4347a71c65"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/.agents/skills/ytv-paper-subtitles/scripts/semantic_grouping.py",
+      "sha256": "f18deb4cbb5af9c10cfd51fd60b15ef1c87b5ebaaaa46f073210935821d8fc3e"
+    }
+  ],
+  "picture": [
+    {
+      "scene": {
+        "image": "../../../Source/Images/S01_v02.png",
+        "start_frame": 0,
+        "end_frame": 169,
+        "direction": "left_to_right",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Primary focal object in S01_v02",
+          "reason": "Very restrained whole-frame movement keeps the reviewed paper composition legible.",
+          "start": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          },
+          "end": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S01_v02.png",
+        "sha256": "63f74ed367473e030f6f0d8beb9257266d14f942395efef34c04b80044ad9d1f"
+      }
+    },
+    {
+      "scene": {
+        "image": "../../../Source/Images/S02_v02.png",
+        "start_frame": 169,
+        "end_frame": 320,
+        "direction": "right_to_left",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Primary focal object in S02_v02",
+          "reason": "Very restrained whole-frame movement keeps the reviewed paper composition legible.",
+          "start": {
+            "center": [
+              0.498,
+              0.5
+            ],
+            "scale": 1.025
+          },
+          "end": {
+            "center": [
+              0.502,
+              0.5
+            ],
+            "scale": 1.005
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Source/Images/S02_v02.png",
+        "sha256": "f1014792dd6b0dd836fc1da531b1178780e8bf54d2fe0999c76dcc7d6f541d87"
+      }
+    }
+  ],
+  "overlays": [
+    {
+      "layer": {
+        "path": "../paper_frame_sample_v02.mov",
+        "start_frame": 0,
+        "end_frame": 320,
+        "x": 0,
+        "y": 0
+      },
+      "file": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Work/production_local_v01/paper_frame_sample_v02.mov",
+        "sha256": "b43fe03cdc371181ebdf24d0b2548e215d10b12bd4b6ddffea18e7fbc0ab6faf"
+      }
+    }
+  ],
+  "groups": [
+    [
+      {
+        "text": "Pastry",
+        "start": 0.08,
+        "end": 0.44
+      },
+      {
+        "text": "chef",
+        "start": 0.48,
+        "end": 0.74
+      },
+      {
+        "text": "Nicolas",
+        "start": 0.84,
+        "end": 1.22
+      }
+    ],
+    [
+      {
+        "text": "Appert",
+        "start": 1.3,
+        "end": 1.68
+      },
+      {
+        "text": "was",
+        "start": 1.84,
+        "end": 1.96
+      },
+      {
+        "text": "looking",
+        "start": 2.02,
+        "end": 2.3
+      },
+      {
+        "text": "for",
+        "start": 2.34,
+        "end": 2.48
+      },
+      {
+        "text": "a",
+        "start": 2.52,
+        "end": 2.54
+      },
+      {
+        "text": "way",
+        "start": 2.58,
+        "end": 2.76
+      }
+    ],
+    [
+      {
+        "text": "to",
+        "start": 2.8,
+        "end": 2.88
+      },
+      {
+        "text": "preserve",
+        "start": 2.94,
+        "end": 3.36
+      },
+      {
+        "text": "food",
+        "start": 3.42,
+        "end": 3.66
+      },
+      {
+        "text": "for",
+        "start": 3.7,
+        "end": 3.82
+      },
+      {
+        "text": "longer.",
+        "start": 3.88,
+        "end": 4.241
+      }
+    ],
+    [
+      {
+        "text": "In",
+        "start": 4.901,
+        "end": 4.981
+      },
+      {
+        "text": "Brest,",
+        "start": 5.041,
+        "end": 5.421
+      },
+      {
+        "text": "food",
+        "start": 5.881,
+        "end": 6.081
+      },
+      {
+        "text": "prepared",
+        "start": 6.121,
+        "end": 6.481
+      }
+    ],
+    [
+      {
+        "text": "by",
+        "start": 6.521,
+        "end": 6.661
+      },
+      {
+        "text": "his",
+        "start": 6.741,
+        "end": 6.901
+      },
+      {
+        "text": "method",
+        "start": 6.981,
+        "end": 7.281
+      },
+      {
+        "text": "remained",
+        "start": 7.421,
+        "end": 7.781
+      }
+    ],
+    [
+      {
+        "text": "in",
+        "start": 7.841,
+        "end": 7.921
+      },
+      {
+        "text": "sealed",
+        "start": 8.041,
+        "end": 8.321
+      },
+      {
+        "text": "vessels",
+        "start": 8.381,
+        "end": 8.741
+      },
+      {
+        "text": "for",
+        "start": 8.821,
+        "end": 8.941
+      },
+      {
+        "text": "three",
+        "start": 9.061,
+        "end": 9.341
+      }
+    ],
+    [
+      {
+        "text": "months",
+        "start": 9.441,
+        "end": 9.721
+      },
+      {
+        "text": "at",
+        "start": 9.821,
+        "end": 9.881
+      },
+      {
+        "text": "the",
+        "start": 9.901,
+        "end": 10.001
+      },
+      {
+        "text": "roadstead,",
+        "start": 10.041,
+        "end": 10.521
+      }
+    ]
+  ],
+  "resolved": {
+    "resolved_font_size_px": 84,
+    "max_visible_width_px": 1344.0,
+    "center_x_px": 1280.0,
+    "baseline": 1288,
+    "algorithm": "sentence-syntax-width-v5",
+    "display_intervals": [
+      {
+        "start_frame": 0,
+        "end_frame": 39
+      },
+      {
+        "start_frame": 39,
+        "end_frame": 84
+      },
+      {
+        "start_frame": 84,
+        "end_frame": 148
+      },
+      {
+        "start_frame": 148,
+        "end_frame": 196
+      },
+      {
+        "start_frame": 196,
+        "end_frame": 236
+      },
+      {
+        "start_frame": 236,
+        "end_frame": 284
+      },
+      {
+        "start_frame": 284,
+        "end_frame": 320
+      }
+    ],
+    "boundary_warnings": [
+      {
+        "after_group": 3,
+        "left": "In Brest, food prepared",
+        "right": "by his method remained",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      }
+    ]
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "schema": "ytv-render-v1",
+  "origin": "render",
+  "export_contract": {
+    "original": {
+      "path": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/preview_013_014/export_preview_v03.json",
+      "sha256": "573f17e01ff82876c6a79cdb37e162ae80ef1dae5995c56e53c68f2b88ba89c2"
+    },
+    "snapshot": {
+      "path": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/preview_013_014/render_v03/render_provenance/export_contract.json",
+      "sha256": "573f17e01ff82876c6a79cdb37e162ae80ef1dae5995c56e53c68f2b88ba89c2"
+    }
+  },
+  "command": {
+    "original": {
+      "path": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/preview_013_014/render_v03/render_command.json",
+      "sha256": "3306469c7d0b564982c08278b911d344ba542a4d237bbb5bb47a882de4638a0a"
+    },
+    "snapshot": {
+      "path": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/preview_013_014/render_v03/render_provenance/render_command.json",
+      "sha256": "3306469c7d0b564982c08278b911d344ba542a4d237bbb5bb47a882de4638a0a"
+    }
+  },
+  "engine": [
+    {
+      "original": {
+        "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/montage.py",
+        "sha256": "24c1486c0e6302b93372a390da21b198d2c4567be79813acc5b5d12ad7c82023"
+      },
+      "snapshot": {
+        "path": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/preview_013_014/render_v03/render_provenance/engine_0_montage.py",
+        "sha256": "24c1486c0e6302b93372a390da21b198d2c4567be79813acc5b5d12ad7c82023"
+      }
+    },
+    {
+      "original": {
+        "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/delivery.py",
+        "sha256": "218a0bbc2a70ac463d32ac2ca321bc090335f8abcaa386bafb1983bce12a3f6f"
+      },
+      "snapshot": {
+        "path": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/preview_013_014/render_v03/render_provenance/engine_1_delivery.py",
+        "sha256": "218a0bbc2a70ac463d32ac2ca321bc090335f8abcaa386bafb1983bce12a3f6f"
+      }
+    },
+    {
+      "original": {
+        "path": "/Users/diplomat/ytvideos/.agents/skills/ytv-paper-subtitles/scripts/semantic_grouping.py",
+        "sha256": "046d92c9fecbd993cd2f0087357ae8354d6e17a0db801655cb57f1682aac9dcd"
+      },
+      "snapshot": {
+        "path": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/preview_013_014/render_v03/render_provenance/engine_2_semantic_grouping.py",
+        "sha256": "046d92c9fecbd993cd2f0087357ae8354d6e17a0db801655cb57f1682aac9dcd"
+      }
+    }
+  ],
+  "prepared": {
+    "channel": "paper",
+    "format": "long",
+    "subtitle_mode": "words",
+    "audio": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/preview_013_014/voice_padded.wav",
+    "canvas": [
+      2560,
+      1440
+    ],
+    "fps": 30,
+    "scenes": [
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S013_v03.png",
+        "start_frame": 0,
+        "end_frame": 120,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S014_v03.png",
+        "start_frame": 120,
+        "end_frame": 240,
+        "direction": "right_to_left",
+        "zoom": "out"
+      }
+    ],
+    "frames": 240,
+    "manifest_path": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/preview_013_014/plan_v03.json",
+    "source_transfer": null
+  },
+  "audio_source": {
+    "codec_name": "pcm_s24le",
+    "sample_rate": "48000",
+    "channels": 1,
+    "duration": "8.050000",
+    "bit_rate": "1152000"
+  },
+  "settings": {
+    "scope": "pre-render settings only; no encoded-result or AV QA",
+    "timeline": {
+      "width": 2560,
+      "height": 1440,
+      "frame_count": 240,
+      "sample_aspect_ratio": "1:1",
+      "aspect_ratio": "16:9",
+      "output_color_space": "Rec.709 SDR"
+    },
+    "video": {
+      "codec_name": "h264",
+      "pix_fmt": "yuv420p",
+      "scan": "progressive",
+      "cadence": "constant 30/1 fps",
+      "color_primaries": "bt709",
+      "color_transfer": "bt709",
+      "color_space": "bt709",
+      "color_range": "tv"
+    },
+    "audio": {
+      "codec_name": "aac",
+      "profile": "LC",
+      "channels": 1,
+      "sample_rate": 48000,
+      "mode": "aac",
+      "target_bit_rate": 192000
+    },
+    "requested_arguments": {
+      "encoder": "h264_videotoolbox",
+      "video_bitrate": 20000000,
+      "output_pix_fmt": "yuv420p",
+      "fps": "30/1",
+      "audio_codec": "aac",
+      "audio_profile": "aac_low",
+      "audio_bitrate": 192000,
+      "audio_sample_rate": 48000,
+      "audio_channels": 1
+    }
+  },
+  "ffmpeg_version": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+}

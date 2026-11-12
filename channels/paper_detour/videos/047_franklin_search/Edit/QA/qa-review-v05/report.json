@@ -1,0 +1,2647 @@
+{
+  "created_utc": "2026-11-05T18:27:41.435164+00:00",
+  "media": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Deliverables/047_franklin_search_review_v05.mp4",
+  "plan": {
+    "frame_count": 17297,
+    "fps": "30/1",
+    "required_review_checks": [
+      "stream_metadata",
+      "full_decode",
+      "frame_sampling",
+      "motion_framing",
+      "cue_timing",
+      "word_highlighting",
+      "audio_signal",
+      "subjective_audio_listening",
+      "srt",
+      "independent_review"
+    ],
+    "freshness": {
+      "status": "UNVERIFIED",
+      "evidence": "pending exact completed render provenance comparison"
+    },
+    "expected": {
+      "video": {
+        "width": 2560,
+        "height": 1440,
+        "codec_name": "h264",
+        "pix_fmt": "yuv420p",
+        "color_space": "bt709"
+      },
+      "audio": {
+        "required": true,
+        "codec_name": "aac",
+        "channels": 1,
+        "sample_rate": 44100
+      }
+    },
+    "scenes": [
+      {
+        "id": "S001",
+        "start": 0,
+        "end": 140
+      },
+      {
+        "id": "S002",
+        "start": 140,
+        "end": 274
+      },
+      {
+        "id": "S003",
+        "start": 274,
+        "end": 413
+      },
+      {
+        "id": "S004",
+        "start": 413,
+        "end": 548
+      },
+      {
+        "id": "S005",
+        "start": 548,
+        "end": 695
+      },
+      {
+        "id": "S006",
+        "start": 695,
+        "end": 828
+      },
+      {
+        "id": "S007",
+        "start": 828,
+        "end": 969
+      },
+      {
+        "id": "S008",
+        "start": 969,
+        "end": 1096
+      },
+      {
+        "id": "S009",
+        "start": 1096,
+        "end": 1241
+      },
+      {
+        "id": "S010",
+        "start": 1241,
+        "end": 1380
+      },
+      {
+        "id": "S011",
+        "start": 1380,
+        "end": 1516
+      },
+      {
+        "id": "S012",
+        "start": 1516,
+        "end": 1685
+      },
+      {
+        "id": "S013",
+        "start": 1685,
+        "end": 1860
+      },
+      {
+        "id": "S014",
+        "start": 1860,
+        "end": 1988
+      },
+      {
+        "id": "S015",
+        "start": 1988,
+        "end": 2144
+      },
+      {
+        "id": "S016",
+        "start": 2144,
+        "end": 2295
+      },
+      {
+        "id": "S017",
+        "start": 2295,
+        "end": 2422
+      },
+      {
+        "id": "S018",
+        "start": 2422,
+        "end": 2554
+      },
+      {
+        "id": "S019",
+        "start": 2554,
+        "end": 2714
+      },
+      {
+        "id": "S020",
+        "start": 2714,
+        "end": 2864
+      },
+      {
+        "id": "S021",
+        "start": 2864,
+        "end": 3027
+      },
+      {
+        "id": "S022",
+        "start": 3027,
+        "end": 3171
+      },
+      {
+        "id": "S023",
+        "start": 3171,
+        "end": 3322
+      },
+      {
+        "id": "S024",
+        "start": 3322,
+        "end": 3464
+      },
+      {
+        "id": "S025",
+        "start": 3464,
+        "end": 3627
+      },
+      {
+        "id": "S026",
+        "start": 3627,
+        "end": 3765
+      },
+      {
+        "id": "S027",
+        "start": 3765,
+        "end": 3929
+      },
+      {
+        "id": "S028",
+        "start": 3929,
+        "end": 4059
+      },
+      {
+        "id": "S029",
+        "start": 4059,
+        "end": 4203
+      },
+      {
+        "id": "S030",
+        "start": 4203,
+        "end": 4349
+      },
+      {
+        "id": "S031",
+        "start": 4349,
+        "end": 4503
+      },
+      {
+        "id": "S032",
+        "start": 4503,
+        "end": 4654
+      },
+      {
+        "id": "S033",
+        "start": 4654,
+        "end": 4822
+      },
+      {
+        "id": "S034",
+        "start": 4822,
+        "end": 4961
+      },
+      {
+        "id": "S035",
+        "start": 4961,
+        "end": 5096
+      },
+      {
+        "id": "S036",
+        "start": 5096,
+        "end": 5250
+      },
+      {
+        "id": "S037",
+        "start": 5250,
+        "end": 5408
+      },
+      {
+        "id": "S038",
+        "start": 5408,
+        "end": 5549
+      },
+      {
+        "id": "S039",
+        "start": 5549,
+        "end": 5688
+      },
+      {
+        "id": "S040",
+        "start": 5688,
+        "end": 5850
+      },
+      {
+        "id": "S041",
+        "start": 5850,
+        "end": 6000
+      },
+      {
+        "id": "S042",
+        "start": 6000,
+        "end": 6121
+      },
+      {
+        "id": "S043",
+        "start": 6121,
+        "end": 6257
+      },
+      {
+        "id": "S044",
+        "start": 6257,
+        "end": 6399
+      },
+      {
+        "id": "S045",
+        "start": 6399,
+        "end": 6548
+      },
+      {
+        "id": "S046",
+        "start": 6548,
+        "end": 6689
+      },
+      {
+        "id": "S047",
+        "start": 6689,
+        "end": 6844
+      },
+      {
+        "id": "S048",
+        "start": 6844,
+        "end": 6982
+      },
+      {
+        "id": "S049",
+        "start": 6982,
+        "end": 7127
+      },
+      {
+        "id": "S050",
+        "start": 7127,
+        "end": 7277
+      },
+      {
+        "id": "S051",
+        "start": 7277,
+        "end": 7426
+      },
+      {
+        "id": "S052",
+        "start": 7426,
+        "end": 7570
+      },
+      {
+        "id": "S053",
+        "start": 7570,
+        "end": 7731
+      },
+      {
+        "id": "S054",
+        "start": 7731,
+        "end": 7858
+      },
+      {
+        "id": "S055",
+        "start": 7858,
+        "end": 7978
+      },
+      {
+        "id": "S056",
+        "start": 7978,
+        "end": 8139
+      },
+      {
+        "id": "S057",
+        "start": 8139,
+        "end": 8277
+      },
+      {
+        "id": "S058",
+        "start": 8277,
+        "end": 8426
+      },
+      {
+        "id": "S059",
+        "start": 8426,
+        "end": 8580
+      },
+      {
+        "id": "S060",
+        "start": 8580,
+        "end": 8714
+      },
+      {
+        "id": "S061",
+        "start": 8714,
+        "end": 8853
+      },
+      {
+        "id": "S062",
+        "start": 8853,
+        "end": 9008
+      },
+      {
+        "id": "S063",
+        "start": 9008,
+        "end": 9156
+      },
+      {
+        "id": "S064",
+        "start": 9156,
+        "end": 9308
+      },
+      {
+        "id": "S065",
+        "start": 9308,
+        "end": 9454
+      },
+      {
+        "id": "S066",
+        "start": 9454,
+        "end": 9593
+      },
+      {
+        "id": "S067",
+        "start": 9593,
+        "end": 9732
+      },
+      {
+        "id": "S068",
+        "start": 9732,
+        "end": 9869
+      },
+      {
+        "id": "S069",
+        "start": 9869,
+        "end": 10004
+      },
+      {
+        "id": "S070",
+        "start": 10004,
+        "end": 10148
+      },
+      {
+        "id": "S071",
+        "start": 10148,
+        "end": 10292
+      },
+      {
+        "id": "S072",
+        "start": 10292,
+        "end": 10431
+      },
+      {
+        "id": "S073",
+        "start": 10431,
+        "end": 10578
+      },
+      {
+        "id": "S074",
+        "start": 10578,
+        "end": 10724
+      },
+      {
+        "id": "S075",
+        "start": 10724,
+        "end": 10865
+      },
+      {
+        "id": "S076",
+        "start": 10865,
+        "end": 11004
+      },
+      {
+        "id": "S077",
+        "start": 11004,
+        "end": 11134
+      },
+      {
+        "id": "S078",
+        "start": 11134,
+        "end": 11285
+      },
+      {
+        "id": "S079",
+        "start": 11285,
+        "end": 11434
+      },
+      {
+        "id": "S080",
+        "start": 11434,
+        "end": 11578
+      },
+      {
+        "id": "S081",
+        "start": 11578,
+        "end": 11734
+      },
+      {
+        "id": "S082",
+        "start": 11734,
+        "end": 11883
+      },
+      {
+        "id": "S083",
+        "start": 11883,
+        "end": 12022
+      },
+      {
+        "id": "S084",
+        "start": 12022,
+        "end": 12166
+      },
+      {
+        "id": "S085",
+        "start": 12166,
+        "end": 12332
+      },
+      {
+        "id": "S086",
+        "start": 12332,
+        "end": 12466
+      },
+      {
+        "id": "S087",
+        "start": 12466,
+        "end": 12603
+      },
+      {
+        "id": "S088",
+        "start": 12603,
+        "end": 12767
+      },
+      {
+        "id": "S089",
+        "start": 12767,
+        "end": 12914
+      },
+      {
+        "id": "S090",
+        "start": 12914,
+        "end": 13085
+      },
+      {
+        "id": "S091",
+        "start": 13085,
+        "end": 13225
+      },
+      {
+        "id": "S092",
+        "start": 13225,
+        "end": 13348
+      },
+      {
+        "id": "S093",
+        "start": 13348,
+        "end": 13503
+      },
+      {
+        "id": "S094",
+        "start": 13503,
+        "end": 13632
+      },
+      {
+        "id": "S095",
+        "start": 13632,
+        "end": 13769
+      },
+      {
+        "id": "S096",
+        "start": 13769,
+        "end": 13908
+      },
+      {
+        "id": "S097",
+        "start": 13908,
+        "end": 14057
+      },
+      {
+        "id": "S098",
+        "start": 14057,
+        "end": 14204
+      },
+      {
+        "id": "S099",
+        "start": 14204,
+        "end": 14339
+      },
+      {
+        "id": "S100",
+        "start": 14339,
+        "end": 14488
+      },
+      {
+        "id": "S101",
+        "start": 14488,
+        "end": 14633
+      },
+      {
+        "id": "S102",
+        "start": 14633,
+        "end": 14792
+      },
+      {
+        "id": "S103",
+        "start": 14792,
+        "end": 14952
+      },
+      {
+        "id": "S104",
+        "start": 14952,
+        "end": 15099
+      },
+      {
+        "id": "S105",
+        "start": 15099,
+        "end": 15250
+      },
+      {
+        "id": "S106",
+        "start": 15250,
+        "end": 15374
+      },
+      {
+        "id": "S107",
+        "start": 15374,
+        "end": 15545
+      },
+      {
+        "id": "S108",
+        "start": 15545,
+        "end": 15689
+      },
+      {
+        "id": "S109",
+        "start": 15689,
+        "end": 15848
+      },
+      {
+        "id": "S110",
+        "start": 15848,
+        "end": 15982
+      },
+      {
+        "id": "S111",
+        "start": 15982,
+        "end": 16138
+      },
+      {
+        "id": "S112",
+        "start": 16138,
+        "end": 16275
+      },
+      {
+        "id": "S113",
+        "start": 16275,
+        "end": 16426
+      },
+      {
+        "id": "S114",
+        "start": 16426,
+        "end": 16577
+      },
+      {
+        "id": "S115",
+        "start": 16577,
+        "end": 16721
+      },
+      {
+        "id": "S116",
+        "start": 16721,
+        "end": 16875
+      },
+      {
+        "id": "S117",
+        "start": 16875,
+        "end": 16997
+      },
+      {
+        "id": "S118",
+        "start": 16997,
+        "end": 17147
+      },
+      {
+        "id": "S119",
+        "start": 17147,
+        "end": 17297
+      }
+    ],
+    "extra_frames": [
+      630,
+      750,
+      1230,
+      2670,
+      3780,
+      17070,
+      17220
+    ]
+  },
+  "policy_failures": [],
+  "failures": [],
+  "reported_freshness": {
+    "status": "UNVERIFIED",
+    "evidence": "pending exact completed render provenance comparison"
+  },
+  "checks": {
+    "stream_metadata": "PASS",
+    "full_decode": "PASS",
+    "frame_extraction": "PASS",
+    "frame_sampling": "UNVERIFIED",
+    "motion_framing": "UNVERIFIED",
+    "cue_timing": "UNVERIFIED",
+    "audio_signal": "UNVERIFIED",
+    "subjective_audio_listening": "UNVERIFIED",
+    "independent_review": "UNVERIFIED"
+  },
+  "inspected_frame_indices": [],
+  "requested_frame_indices": [
+    0,
+    69,
+    139,
+    140,
+    206,
+    273,
+    274,
+    343,
+    412,
+    413,
+    480,
+    547,
+    548,
+    621,
+    630,
+    694,
+    695,
+    750,
+    761,
+    827,
+    828,
+    898,
+    968,
+    969,
+    1032,
+    1095,
+    1096,
+    1168,
+    1230,
+    1240,
+    1241,
+    1310,
+    1379,
+    1380,
+    1447,
+    1515,
+    1516,
+    1600,
+    1684,
+    1685,
+    1772,
+    1859,
+    1860,
+    1923,
+    1987,
+    1988,
+    2065,
+    2143,
+    2144,
+    2219,
+    2294,
+    2295,
+    2358,
+    2421,
+    2422,
+    2487,
+    2553,
+    2554,
+    2633,
+    2670,
+    2713,
+    2714,
+    2788,
+    2863,
+    2864,
+    2945,
+    3026,
+    3027,
+    3098,
+    3170,
+    3171,
+    3246,
+    3321,
+    3322,
+    3392,
+    3463,
+    3464,
+    3545,
+    3626,
+    3627,
+    3695,
+    3764,
+    3765,
+    3780,
+    3846,
+    3928,
+    3929,
+    3993,
+    4058,
+    4059,
+    4130,
+    4202,
+    4203,
+    4275,
+    4348,
+    4349,
+    4425,
+    4502,
+    4503,
+    4578,
+    4653,
+    4654,
+    4737,
+    4821,
+    4822,
+    4891,
+    4960,
+    4961,
+    5028,
+    5095,
+    5096,
+    5172,
+    5249,
+    5250,
+    5328,
+    5407,
+    5408,
+    5478,
+    5548,
+    5549,
+    5618,
+    5687,
+    5688,
+    5768,
+    5849,
+    5850,
+    5924,
+    5999,
+    6000,
+    6060,
+    6120,
+    6121,
+    6188,
+    6256,
+    6257,
+    6327,
+    6398,
+    6399,
+    6473,
+    6547,
+    6548,
+    6618,
+    6688,
+    6689,
+    6766,
+    6843,
+    6844,
+    6912,
+    6981,
+    6982,
+    7054,
+    7126,
+    7127,
+    7201,
+    7276,
+    7277,
+    7351,
+    7425,
+    7426,
+    7497,
+    7569,
+    7570,
+    7650,
+    7730,
+    7731,
+    7794,
+    7857,
+    7858,
+    7917,
+    7977,
+    7978,
+    8058,
+    8138,
+    8139,
+    8207,
+    8276,
+    8277,
+    8351,
+    8425,
+    8426,
+    8502,
+    8579,
+    8580,
+    8646,
+    8713,
+    8714,
+    8783,
+    8852,
+    8853,
+    8930,
+    9007,
+    9008,
+    9081,
+    9155,
+    9156,
+    9231,
+    9307,
+    9308,
+    9380,
+    9453,
+    9454,
+    9523,
+    9592,
+    9593,
+    9662,
+    9731,
+    9732,
+    9800,
+    9868,
+    9869,
+    9936,
+    10003,
+    10004,
+    10075,
+    10147,
+    10148,
+    10219,
+    10291,
+    10292,
+    10361,
+    10430,
+    10431,
+    10504,
+    10577,
+    10578,
+    10650,
+    10723,
+    10724,
+    10794,
+    10864,
+    10865,
+    10934,
+    11003,
+    11004,
+    11068,
+    11133,
+    11134,
+    11209,
+    11284,
+    11285,
+    11359,
+    11433,
+    11434,
+    11505,
+    11577,
+    11578,
+    11655,
+    11733,
+    11734,
+    11808,
+    11882,
+    11883,
+    11952,
+    12021,
+    12022,
+    12093,
+    12165,
+    12166,
+    12248,
+    12331,
+    12332,
+    12398,
+    12465,
+    12466,
+    12534,
+    12602,
+    12603,
+    12684,
+    12766,
+    12767,
+    12840,
+    12913,
+    12914,
+    12999,
+    13084,
+    13085,
+    13154,
+    13224,
+    13225,
+    13286,
+    13347,
+    13348,
+    13425,
+    13502,
+    13503,
+    13567,
+    13631,
+    13632,
+    13700,
+    13768,
+    13769,
+    13838,
+    13907,
+    13908,
+    13982,
+    14056,
+    14057,
+    14130,
+    14203,
+    14204,
+    14271,
+    14338,
+    14339,
+    14413,
+    14487,
+    14488,
+    14560,
+    14632,
+    14633,
+    14712,
+    14791,
+    14792,
+    14871,
+    14951,
+    14952,
+    15025,
+    15098,
+    15099,
+    15174,
+    15249,
+    15250,
+    15311,
+    15373,
+    15374,
+    15459,
+    15544,
+    15545,
+    15616,
+    15688,
+    15689,
+    15768,
+    15847,
+    15848,
+    15914,
+    15981,
+    15982,
+    16059,
+    16137,
+    16138,
+    16206,
+    16274,
+    16275,
+    16350,
+    16425,
+    16426,
+    16501,
+    16576,
+    16577,
+    16648,
+    16720,
+    16721,
+    16797,
+    16874,
+    16875,
+    16935,
+    16996,
+    16997,
+    17070,
+    17071,
+    17146,
+    17147,
+    17220,
+    17221,
+    17296
+  ],
+  "sha256": "edc32753ad91003b5958b6bb9e5e0ba05c558583c9f84746d470c436440d12d5",
+  "streams": [
+    {
+      "index": 0,
+      "codec_name": "h264",
+      "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+      "profile": "High",
+      "codec_type": "video",
+      "codec_tag_string": "avc1",
+      "codec_tag": "0x31637661",
+      "mime_codec_string": "avc1.640032",
+      "width": 2560,
+      "height": 1440,
+      "coded_width": 2560,
+      "coded_height": 1440,
+      "has_b_frames": 0,
+      "sample_aspect_ratio": "1:1",
+      "display_aspect_ratio": "16:9",
+      "pix_fmt": "yuv420p",
+      "level": 50,
+      "color_range": "tv",
+      "color_space": "bt709",
+      "color_transfer": "bt709",
+      "color_primaries": "bt709",
+      "chroma_location": "left",
+      "field_order": "progressive",
+      "is_avc": "true",
+      "nal_length_size": "4",
+      "id": "0x1",
+      "r_frame_rate": "30/1",
+      "avg_frame_rate": "30/1",
+      "time_base": "1/15360",
+      "start_pts": 0,
+      "start_time": "0.000000",
+      "duration_ts": 8856064,
+      "duration": "576.566667",
+      "bit_rate": "19919752",
+      "bits_per_raw_sample": "8",
+      "nb_frames": "17297",
+      "extradata_size": 35,
+      "disposition": {
+        "default": 1,
+        "dub": 0,
+        "original": 0,
+        "comment": 0,
+        "lyrics": 0,
+        "karaoke": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "visual_impaired": 0,
+        "clean_effects": 0,
+        "attached_pic": 0,
+        "timed_thumbnails": 0,
+        "non_diegetic": 0,
+        "captions": 0,
+        "descriptions": 0,
+        "metadata": 0,
+        "dependent": 0,
+        "still_image": 0,
+        "multilayer": 0
+      },
+      "tags": {
+        "language": "und",
+        "handler_name": "VideoHandler",
+        "encoder": "Lavc62.28.102 h264_videotoolbox"
+      }
+    },
+    {
+      "index": 1,
+      "codec_name": "aac",
+      "codec_long_name": "AAC (Advanced Audio Coding)",
+      "profile": "LC",
+      "codec_type": "audio",
+      "codec_tag_string": "mp4a",
+      "codec_tag": "0x6134706d",
+      "mime_codec_string": "mp4a.40.2",
+      "sample_fmt": "fltp",
+      "sample_rate": "44100",
+      "channels": 1,
+      "channel_layout": "mono",
+      "bits_per_sample": 0,
+      "initial_padding": 0,
+      "id": "0x2",
+      "r_frame_rate": "0/0",
+      "avg_frame_rate": "0/0",
+      "time_base": "1/44100",
+      "start_pts": 0,
+      "start_time": "0.000000",
+      "duration_ts": 25426561,
+      "duration": "576.566009",
+      "bit_rate": "183229",
+      "nb_frames": "24832",
+      "extradata_size": 5,
+      "disposition": {
+        "default": 1,
+        "dub": 0,
+        "original": 0,
+        "comment": 0,
+        "lyrics": 0,
+        "karaoke": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "visual_impaired": 0,
+        "clean_effects": 0,
+        "attached_pic": 0,
+        "timed_thumbnails": 0,
+        "non_diegetic": 0,
+        "captions": 0,
+        "descriptions": 0,
+        "metadata": 0,
+        "dependent": 0,
+        "still_image": 0,
+        "multilayer": 0
+      },
+      "tags": {
+        "language": "und",
+        "handler_name": "SoundHandler"
+      }
+    }
+  ],
+  "decoded_video_frames": 17297,
+  "audio_measurements": {
+    "stream": "0:a:0",
+    "method": "sample levels and silence candidates; not listening",
+    "mean_dbfs": [
+      "-25.0"
+    ],
+    "sample_peak_dbfs": [
+      "-2.7"
+    ],
+    "silence_candidate_threshold_dbfs": -50,
+    "minimum_silence_seconds": 0.25
+  },
+  "audio_analysis_execution": "PASS",
+  "frame_recipe": {
+    "argv": [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-xerror",
+      "-i",
+      "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Deliverables/047_franklin_search_review_v05.mp4",
+      "-map",
+      "0:v:0",
+      "-vf",
+      "select=(((((((((eq(n\\,0)+eq(n\\,69))+(eq(n\\,139)+eq(n\\,140)))+((eq(n\\,206)+eq(n\\,273))+(eq(n\\,274)+eq(n\\,343))))+(((eq(n\\,412)+eq(n\\,413))+(eq(n\\,480)+eq(n\\,547)))+((eq(n\\,548)+eq(n\\,621))+(eq(n\\,630)+eq(n\\,694)))))+((((eq(n\\,695)+eq(n\\,750))+(eq(n\\,761)+eq(n\\,827)))+((eq(n\\,828)+eq(n\\,898))+(eq(n\\,968)+eq(n\\,969))))+(((eq(n\\,1032)+eq(n\\,1095))+(eq(n\\,1096)+eq(n\\,1168)))+((eq(n\\,1230)+eq(n\\,1240))+(eq(n\\,1241)+eq(n\\,1310))))))+(((((eq(n\\,1379)+eq(n\\,1380))+(eq(n\\,1447)+eq(n\\,1515)))+((eq(n\\,1516)+eq(n\\,1600))+(eq(n\\,1684)+eq(n\\,1685))))+(((eq(n\\,1772)+eq(n\\,1859))+(eq(n\\,1860)+eq(n\\,1923)))+((eq(n\\,1987)+eq(n\\,1988))+(eq(n\\,2065)+eq(n\\,2143)))))+((((eq(n\\,2144)+eq(n\\,2219))+(eq(n\\,2294)+eq(n\\,2295)))+((eq(n\\,2358)+eq(n\\,2421))+(eq(n\\,2422)+eq(n\\,2487))))+(((eq(n\\,2553)+eq(n\\,2554))+(eq(n\\,2633)+eq(n\\,2670)))+((eq(n\\,2713)+eq(n\\,2714))+(eq(n\\,2788)+eq(n\\,2863)))))))+((((((eq(n\\,2864)+eq(n\\,2945))+(eq(n\\,3026)+eq(n\\,3027)))+((eq(n\\,3098)+eq(n\\,3170))+(eq(n\\,3171)+eq(n\\,3246))))+(((eq(n\\,3321)+eq(n\\,3322))+(eq(n\\,3392)+eq(n\\,3463)))+((eq(n\\,3464)+eq(n\\,3545))+(eq(n\\,3626)+eq(n\\,3627)))))+((((eq(n\\,3695)+eq(n\\,3764))+(eq(n\\,3765)+eq(n\\,3780)))+((eq(n\\,3846)+eq(n\\,3928))+(eq(n\\,3929)+eq(n\\,3993))))+(((eq(n\\,4058)+eq(n\\,4059))+(eq(n\\,4130)+eq(n\\,4202)))+((eq(n\\,4203)+eq(n\\,4275))+(eq(n\\,4348)+eq(n\\,4349))))))+(((((eq(n\\,4425)+eq(n\\,4502))+(eq(n\\,4503)+eq(n\\,4578)))+((eq(n\\,4653)+eq(n\\,4654))+(eq(n\\,4737)+eq(n\\,4821))))+(((eq(n\\,4822)+eq(n\\,4891))+(eq(n\\,4960)+eq(n\\,4961)))+((eq(n\\,5028)+eq(n\\,5095))+(eq(n\\,5096)+eq(n\\,5172)))))+((((eq(n\\,5249)+eq(n\\,5250))+(eq(n\\,5328)+eq(n\\,5407)))+((eq(n\\,5408)+eq(n\\,5478))+(eq(n\\,5548)+eq(n\\,5549))))+(((eq(n\\,5618)+eq(n\\,5687))+(eq(n\\,5688)+eq(n\\,5768)))+((eq(n\\,5849)+eq(n\\,5850))+(eq(n\\,5924)+eq(n\\,5999))))))))+(((((((eq(n\\,6000)+eq(n\\,6060))+(eq(n\\,6120)+eq(n\\,6121)))+((eq(n\\,6188)+eq(n\\,6256))+(eq(n\\,6257)+eq(n\\,6327))))+(((eq(n\\,6398)+eq(n\\,6399))+(eq(n\\,6473)+eq(n\\,6547)))+((eq(n\\,6548)+eq(n\\,6618))+(eq(n\\,6688)+eq(n\\,6689)))))+((((eq(n\\,6766)+eq(n\\,6843))+(eq(n\\,6844)+eq(n\\,6912)))+((eq(n\\,6981)+eq(n\\,6982))+(eq(n\\,7054)+eq(n\\,7126))))+(((eq(n\\,7127)+eq(n\\,7201))+(eq(n\\,7276)+eq(n\\,7277)))+((eq(n\\,7351)+eq(n\\,7425))+(eq(n\\,7426)+eq(n\\,7497))))))+(((((eq(n\\,7569)+eq(n\\,7570))+(eq(n\\,7650)+eq(n\\,7730)))+((eq(n\\,7731)+eq(n\\,7794))+(eq(n\\,7857)+eq(n\\,7858))))+(((eq(n\\,7917)+eq(n\\,7977))+(eq(n\\,7978)+eq(n\\,8058)))+((eq(n\\,8138)+eq(n\\,8139))+(eq(n\\,8207)+eq(n\\,8276)))))+((((eq(n\\,8277)+eq(n\\,8351))+(eq(n\\,8425)+eq(n\\,8426)))+((eq(n\\,8502)+eq(n\\,8579))+(eq(n\\,8580)+eq(n\\,8646))))+(((eq(n\\,8713)+eq(n\\,8714))+(eq(n\\,8783)+eq(n\\,8852)))+((eq(n\\,8853)+eq(n\\,8930))+(eq(n\\,9007)+eq(n\\,9008)))))))+((((((eq(n\\,9081)+eq(n\\,9155))+(eq(n\\,9156)+eq(n\\,9231)))+((eq(n\\,9307)+eq(n\\,9308))+(eq(n\\,9380)+eq(n\\,9453))))+(((eq(n\\,9454)+eq(n\\,9523))+(eq(n\\,9592)+eq(n\\,9593)))+((eq(n\\,9662)+eq(n\\,9731))+(eq(n\\,9732)+eq(n\\,9800)))))+((((eq(n\\,9868)+eq(n\\,9869))+(eq(n\\,9936)+eq(n\\,10003)))+((eq(n\\,10004)+eq(n\\,10075))+(eq(n\\,10147)+eq(n\\,10148))))+(((eq(n\\,10219)+eq(n\\,10291))+(eq(n\\,10292)+eq(n\\,10361)))+((eq(n\\,10430)+eq(n\\,10431))+(eq(n\\,10504)+eq(n\\,10577))))))+(((((eq(n\\,10578)+eq(n\\,10650))+(eq(n\\,10723)+eq(n\\,10724)))+((eq(n\\,10794)+eq(n\\,10864))+(eq(n\\,10865)+eq(n\\,10934))))+(((eq(n\\,11003)+eq(n\\,11004))+(eq(n\\,11068)+eq(n\\,11133)))+((eq(n\\,11134)+eq(n\\,11209))+(eq(n\\,11284)+eq(n\\,11285)))))+((((eq(n\\,11359)+eq(n\\,11433))+(eq(n\\,11434)+eq(n\\,11505)))+((eq(n\\,11577)+eq(n\\,11578))+(eq(n\\,11655)+eq(n\\,11733))))+(((eq(n\\,11734)+eq(n\\,11808))+(eq(n\\,11882)+eq(n\\,11883)))+((eq(n\\,11952)+eq(n\\,12021))+(eq(n\\,12022)+eq(n\\,12093)))))))))+(((((((eq(n\\,12165)+eq(n\\,12166))+(eq(n\\,12248)+eq(n\\,12331)))+((eq(n\\,12332)+eq(n\\,12398))+(eq(n\\,12465)+eq(n\\,12466))))+(((eq(n\\,12534)+eq(n\\,12602))+(eq(n\\,12603)+eq(n\\,12684)))+((eq(n\\,12766)+eq(n\\,12767))+(eq(n\\,12840)+eq(n\\,12913)))))+((((eq(n\\,12914)+eq(n\\,12999))+(eq(n\\,13084)+eq(n\\,13085)))+((eq(n\\,13154)+eq(n\\,13224))+(eq(n\\,13225)+eq(n\\,13286))))+(((eq(n\\,13347)+eq(n\\,13348))+(eq(n\\,13425)+eq(n\\,13502)))+((eq(n\\,13503)+eq(n\\,13567))+(eq(n\\,13631)+eq(n\\,13632))))))+(((((eq(n\\,13700)+eq(n\\,13768))+(eq(n\\,13769)+eq(n\\,13838)))+((eq(n\\,13907)+eq(n\\,13908))+(eq(n\\,13982)+eq(n\\,14056))))+(((eq(n\\,14057)+eq(n\\,14130))+(eq(n\\,14203)+eq(n\\,14204)))+((eq(n\\,14271)+eq(n\\,14338))+(eq(n\\,14339)+eq(n\\,14413)))))+((((eq(n\\,14487)+eq(n\\,14488))+(eq(n\\,14560)+eq(n\\,14632)))+((eq(n\\,14633)+eq(n\\,14712))+(eq(n\\,14791)+eq(n\\,14792))))+(((eq(n\\,14871)+eq(n\\,14951))+(eq(n\\,14952)+eq(n\\,15025)))+((eq(n\\,15098)+eq(n\\,15099))+(eq(n\\,15174)+eq(n\\,15249)))))))+((((((eq(n\\,15250)+eq(n\\,15311))+(eq(n\\,15373)+eq(n\\,15374)))+((eq(n\\,15459)+eq(n\\,15544))+(eq(n\\,15545)+eq(n\\,15616))))+(((eq(n\\,15688)+eq(n\\,15689))+(eq(n\\,15768)+eq(n\\,15847)))+((eq(n\\,15848)+eq(n\\,15914))+(eq(n\\,15981)+eq(n\\,15982)))))+((((eq(n\\,16059)+eq(n\\,16137))+(eq(n\\,16138)+eq(n\\,16206)))+((eq(n\\,16274)+eq(n\\,16275))+(eq(n\\,16350)+eq(n\\,16425))))+(((eq(n\\,16426)+eq(n\\,16501))+(eq(n\\,16576)+eq(n\\,16577)))+((eq(n\\,16648)+eq(n\\,16720))+(eq(n\\,16721)+eq(n\\,16797))))))+((((eq(n\\,16874)+eq(n\\,16875))+(eq(n\\,16935)+eq(n\\,16996)))+((eq(n\\,16997)+eq(n\\,17070))+(eq(n\\,17071)+eq(n\\,17146))))+((eq(n\\,17147)+eq(n\\,17220))+(eq(n\\,17221)+eq(n\\,17296)))))))",
+      "-fps_mode",
+      "vfr",
+      "-start_number",
+      "0",
+      "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Work/qa-review-v05/scratch/qa/%06d.png"
+    ],
+    "ffmpeg_version": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers",
+    "stream": "0:v:0",
+    "index_basis": "zero-based decoded video frame",
+    "fps": "30/1"
+  },
+  "frame_map": [
+    {
+      "index": 0,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000000.png"
+    },
+    {
+      "index": 69,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000001.png"
+    },
+    {
+      "index": 139,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000002.png"
+    },
+    {
+      "index": 140,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000003.png"
+    },
+    {
+      "index": 206,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000004.png"
+    },
+    {
+      "index": 273,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000005.png"
+    },
+    {
+      "index": 274,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000006.png"
+    },
+    {
+      "index": 343,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000007.png"
+    },
+    {
+      "index": 412,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000008.png"
+    },
+    {
+      "index": 413,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000009.png"
+    },
+    {
+      "index": 480,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000010.png"
+    },
+    {
+      "index": 547,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000011.png"
+    },
+    {
+      "index": 548,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000012.png"
+    },
+    {
+      "index": 621,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000013.png"
+    },
+    {
+      "index": 630,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000014.png"
+    },
+    {
+      "index": 694,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000015.png"
+    },
+    {
+      "index": 695,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000016.png"
+    },
+    {
+      "index": 750,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000017.png"
+    },
+    {
+      "index": 761,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000018.png"
+    },
+    {
+      "index": 827,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000019.png"
+    },
+    {
+      "index": 828,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000020.png"
+    },
+    {
+      "index": 898,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000021.png"
+    },
+    {
+      "index": 968,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000022.png"
+    },
+    {
+      "index": 969,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000023.png"
+    },
+    {
+      "index": 1032,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000024.png"
+    },
+    {
+      "index": 1095,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000025.png"
+    },
+    {
+      "index": 1096,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000026.png"
+    },
+    {
+      "index": 1168,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000027.png"
+    },
+    {
+      "index": 1230,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000028.png"
+    },
+    {
+      "index": 1240,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000029.png"
+    },
+    {
+      "index": 1241,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000030.png"
+    },
+    {
+      "index": 1310,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000031.png"
+    },
+    {
+      "index": 1379,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000032.png"
+    },
+    {
+      "index": 1380,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000033.png"
+    },
+    {
+      "index": 1447,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000034.png"
+    },
+    {
+      "index": 1515,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000035.png"
+    },
+    {
+      "index": 1516,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000036.png"
+    },
+    {
+      "index": 1600,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000037.png"
+    },
+    {
+      "index": 1684,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000038.png"
+    },
+    {
+      "index": 1685,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000039.png"
+    },
+    {
+      "index": 1772,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000040.png"
+    },
+    {
+      "index": 1859,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000041.png"
+    },
+    {
+      "index": 1860,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000042.png"
+    },
+    {
+      "index": 1923,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000043.png"
+    },
+    {
+      "index": 1987,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000044.png"
+    },
+    {
+      "index": 1988,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000045.png"
+    },
+    {
+      "index": 2065,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000046.png"
+    },
+    {
+      "index": 2143,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000047.png"
+    },
+    {
+      "index": 2144,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000048.png"
+    },
+    {
+      "index": 2219,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000049.png"
+    },
+    {
+      "index": 2294,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000050.png"
+    },
+    {
+      "index": 2295,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000051.png"
+    },
+    {
+      "index": 2358,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000052.png"
+    },
+    {
+      "index": 2421,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000053.png"
+    },
+    {
+      "index": 2422,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000054.png"
+    },
+    {
+      "index": 2487,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000055.png"
+    },
+    {
+      "index": 2553,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000056.png"
+    },
+    {
+      "index": 2554,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000057.png"
+    },
+    {
+      "index": 2633,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000058.png"
+    },
+    {
+      "index": 2670,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000059.png"
+    },
+    {
+      "index": 2713,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000060.png"
+    },
+    {
+      "index": 2714,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000061.png"
+    },
+    {
+      "index": 2788,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000062.png"
+    },
+    {
+      "index": 2863,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000063.png"
+    },
+    {
+      "index": 2864,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000064.png"
+    },
+    {
+      "index": 2945,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000065.png"
+    },
+    {
+      "index": 3026,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000066.png"
+    },
+    {
+      "index": 3027,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000067.png"
+    },
+    {
+      "index": 3098,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000068.png"
+    },
+    {
+      "index": 3170,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000069.png"
+    },
+    {
+      "index": 3171,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000070.png"
+    },
+    {
+      "index": 3246,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000071.png"
+    },
+    {
+      "index": 3321,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000072.png"
+    },
+    {
+      "index": 3322,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000073.png"
+    },
+    {
+      "index": 3392,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000074.png"
+    },
+    {
+      "index": 3463,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000075.png"
+    },
+    {
+      "index": 3464,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000076.png"
+    },
+    {
+      "index": 3545,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000077.png"
+    },
+    {
+      "index": 3626,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000078.png"
+    },
+    {
+      "index": 3627,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000079.png"
+    },
+    {
+      "index": 3695,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000080.png"
+    },
+    {
+      "index": 3764,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000081.png"
+    },
+    {
+      "index": 3765,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000082.png"
+    },
+    {
+      "index": 3780,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000083.png"
+    },
+    {
+      "index": 3846,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000084.png"
+    },
+    {
+      "index": 3928,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000085.png"
+    },
+    {
+      "index": 3929,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000086.png"
+    },
+    {
+      "index": 3993,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000087.png"
+    },
+    {
+      "index": 4058,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000088.png"
+    },
+    {
+      "index": 4059,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000089.png"
+    },
+    {
+      "index": 4130,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000090.png"
+    },
+    {
+      "index": 4202,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000091.png"
+    },
+    {
+      "index": 4203,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000092.png"
+    },
+    {
+      "index": 4275,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000093.png"
+    },
+    {
+      "index": 4348,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000094.png"
+    },
+    {
+      "index": 4349,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000095.png"
+    },
+    {
+      "index": 4425,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000096.png"
+    },
+    {
+      "index": 4502,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000097.png"
+    },
+    {
+      "index": 4503,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000098.png"
+    },
+    {
+      "index": 4578,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000099.png"
+    },
+    {
+      "index": 4653,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000100.png"
+    },
+    {
+      "index": 4654,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000101.png"
+    },
+    {
+      "index": 4737,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000102.png"
+    },
+    {
+      "index": 4821,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000103.png"
+    },
+    {
+      "index": 4822,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000104.png"
+    },
+    {
+      "index": 4891,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000105.png"
+    },
+    {
+      "index": 4960,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000106.png"
+    },
+    {
+      "index": 4961,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000107.png"
+    },
+    {
+      "index": 5028,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000108.png"
+    },
+    {
+      "index": 5095,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000109.png"
+    },
+    {
+      "index": 5096,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000110.png"
+    },
+    {
+      "index": 5172,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000111.png"
+    },
+    {
+      "index": 5249,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000112.png"
+    },
+    {
+      "index": 5250,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000113.png"
+    },
+    {
+      "index": 5328,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000114.png"
+    },
+    {
+      "index": 5407,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000115.png"
+    },
+    {
+      "index": 5408,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000116.png"
+    },
+    {
+      "index": 5478,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000117.png"
+    },
+    {
+      "index": 5548,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000118.png"
+    },
+    {
+      "index": 5549,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000119.png"
+    },
+    {
+      "index": 5618,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000120.png"
+    },
+    {
+      "index": 5687,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000121.png"
+    },
+    {
+      "index": 5688,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000122.png"
+    },
+    {
+      "index": 5768,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000123.png"
+    },
+    {
+      "index": 5849,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000124.png"
+    },
+    {
+      "index": 5850,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000125.png"
+    },
+    {
+      "index": 5924,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000126.png"
+    },
+    {
+      "index": 5999,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000127.png"
+    },
+    {
+      "index": 6000,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000128.png"
+    },
+    {
+      "index": 6060,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000129.png"
+    },
+    {
+      "index": 6120,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000130.png"
+    },
+    {
+      "index": 6121,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000131.png"
+    },
+    {
+      "index": 6188,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000132.png"
+    },
+    {
+      "index": 6256,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000133.png"
+    },
+    {
+      "index": 6257,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000134.png"
+    },
+    {
+      "index": 6327,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000135.png"
+    },
+    {
+      "index": 6398,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000136.png"
+    },
+    {
+      "index": 6399,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000137.png"
+    },
+    {
+      "index": 6473,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000138.png"
+    },
+    {
+      "index": 6547,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000139.png"
+    },
+    {
+      "index": 6548,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000140.png"
+    },
+    {
+      "index": 6618,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000141.png"
+    },
+    {
+      "index": 6688,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000142.png"
+    },
+    {
+      "index": 6689,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000143.png"
+    },
+    {
+      "index": 6766,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000144.png"
+    },
+    {
+      "index": 6843,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000145.png"
+    },
+    {
+      "index": 6844,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000146.png"
+    },
+    {
+      "index": 6912,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000147.png"
+    },
+    {
+      "index": 6981,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000148.png"
+    },
+    {
+      "index": 6982,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000149.png"
+    },
+    {
+      "index": 7054,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000150.png"
+    },
+    {
+      "index": 7126,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000151.png"
+    },
+    {
+      "index": 7127,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000152.png"
+    },
+    {
+      "index": 7201,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000153.png"
+    },
+    {
+      "index": 7276,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000154.png"
+    },
+    {
+      "index": 7277,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000155.png"
+    },
+    {
+      "index": 7351,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000156.png"
+    },
+    {
+      "index": 7425,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000157.png"
+    },
+    {
+      "index": 7426,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000158.png"
+    },
+    {
+      "index": 7497,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000159.png"
+    },
+    {
+      "index": 7569,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000160.png"
+    },
+    {
+      "index": 7570,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000161.png"
+    },
+    {
+      "index": 7650,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000162.png"
+    },
+    {
+      "index": 7730,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000163.png"
+    },
+    {
+      "index": 7731,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000164.png"
+    },
+    {
+      "index": 7794,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000165.png"
+    },
+    {
+      "index": 7857,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000166.png"
+    },
+    {
+      "index": 7858,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000167.png"
+    },
+    {
+      "index": 7917,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000168.png"
+    },
+    {
+      "index": 7977,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000169.png"
+    },
+    {
+      "index": 7978,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000170.png"
+    },
+    {
+      "index": 8058,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000171.png"
+    },
+    {
+      "index": 8138,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000172.png"
+    },
+    {
+      "index": 8139,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000173.png"
+    },
+    {
+      "index": 8207,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000174.png"
+    },
+    {
+      "index": 8276,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000175.png"
+    },
+    {
+      "index": 8277,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000176.png"
+    },
+    {
+      "index": 8351,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000177.png"
+    },
+    {
+      "index": 8425,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000178.png"
+    },
+    {
+      "index": 8426,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000179.png"
+    },
+    {
+      "index": 8502,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000180.png"
+    },
+    {
+      "index": 8579,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000181.png"
+    },
+    {
+      "index": 8580,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000182.png"
+    },
+    {
+      "index": 8646,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000183.png"
+    },
+    {
+      "index": 8713,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000184.png"
+    },
+    {
+      "index": 8714,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000185.png"
+    },
+    {
+      "index": 8783,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000186.png"
+    },
+    {
+      "index": 8852,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000187.png"
+    },
+    {
+      "index": 8853,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000188.png"
+    },
+    {
+      "index": 8930,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000189.png"
+    },
+    {
+      "index": 9007,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000190.png"
+    },
+    {
+      "index": 9008,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000191.png"
+    },
+    {
+      "index": 9081,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000192.png"
+    },
+    {
+      "index": 9155,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000193.png"
+    },
+    {
+      "index": 9156,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000194.png"
+    },
+    {
+      "index": 9231,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000195.png"
+    },
+    {
+      "index": 9307,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000196.png"
+    },
+    {
+      "index": 9308,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000197.png"
+    },
+    {
+      "index": 9380,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000198.png"
+    },
+    {
+      "index": 9453,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000199.png"
+    },
+    {
+      "index": 9454,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000200.png"
+    },
+    {
+      "index": 9523,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000201.png"
+    },
+    {
+      "index": 9592,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000202.png"
+    },
+    {
+      "index": 9593,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000203.png"
+    },
+    {
+      "index": 9662,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000204.png"
+    },
+    {
+      "index": 9731,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000205.png"
+    },
+    {
+      "index": 9732,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000206.png"
+    },
+    {
+      "index": 9800,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000207.png"
+    },
+    {
+      "index": 9868,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000208.png"
+    },
+    {
+      "index": 9869,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000209.png"
+    },
+    {
+      "index": 9936,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000210.png"
+    },
+    {
+      "index": 10003,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000211.png"
+    },
+    {
+      "index": 10004,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000212.png"
+    },
+    {
+      "index": 10075,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000213.png"
+    },
+    {
+      "index": 10147,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000214.png"
+    },
+    {
+      "index": 10148,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000215.png"
+    },
+    {
+      "index": 10219,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000216.png"
+    },
+    {
+      "index": 10291,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000217.png"
+    },
+    {
+      "index": 10292,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000218.png"
+    },
+    {
+      "index": 10361,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000219.png"
+    },
+    {
+      "index": 10430,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000220.png"
+    },
+    {
+      "index": 10431,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000221.png"
+    },
+    {
+      "index": 10504,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000222.png"
+    },
+    {
+      "index": 10577,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000223.png"
+    },
+    {
+      "index": 10578,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000224.png"
+    },
+    {
+      "index": 10650,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000225.png"
+    },
+    {
+      "index": 10723,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000226.png"
+    },
+    {
+      "index": 10724,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000227.png"
+    },
+    {
+      "index": 10794,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000228.png"
+    },
+    {
+      "index": 10864,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000229.png"
+    },
+    {
+      "index": 10865,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000230.png"
+    },
+    {
+      "index": 10934,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000231.png"
+    },
+    {
+      "index": 11003,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000232.png"
+    },
+    {
+      "index": 11004,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000233.png"
+    },
+    {
+      "index": 11068,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000234.png"
+    },
+    {
+      "index": 11133,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000235.png"
+    },
+    {
+      "index": 11134,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000236.png"
+    },
+    {
+      "index": 11209,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000237.png"
+    },
+    {
+      "index": 11284,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000238.png"
+    },
+    {
+      "index": 11285,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000239.png"
+    },
+    {
+      "index": 11359,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000240.png"
+    },
+    {
+      "index": 11433,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000241.png"
+    },
+    {
+      "index": 11434,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000242.png"
+    },
+    {
+      "index": 11505,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000243.png"
+    },
+    {
+      "index": 11577,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000244.png"
+    },
+    {
+      "index": 11578,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000245.png"
+    },
+    {
+      "index": 11655,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000246.png"
+    },
+    {
+      "index": 11733,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000247.png"
+    },
+    {
+      "index": 11734,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000248.png"
+    },
+    {
+      "index": 11808,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000249.png"
+    },
+    {
+      "index": 11882,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000250.png"
+    },
+    {
+      "index": 11883,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000251.png"
+    },
+    {
+      "index": 11952,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000252.png"
+    },
+    {
+      "index": 12021,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000253.png"
+    },
+    {
+      "index": 12022,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000254.png"
+    },
+    {
+      "index": 12093,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000255.png"
+    },
+    {
+      "index": 12165,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000256.png"
+    },
+    {
+      "index": 12166,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000257.png"
+    },
+    {
+      "index": 12248,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000258.png"
+    },
+    {
+      "index": 12331,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000259.png"
+    },
+    {
+      "index": 12332,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000260.png"
+    },
+    {
+      "index": 12398,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000261.png"
+    },
+    {
+      "index": 12465,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000262.png"
+    },
+    {
+      "index": 12466,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000263.png"
+    },
+    {
+      "index": 12534,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000264.png"
+    },
+    {
+      "index": 12602,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000265.png"
+    },
+    {
+      "index": 12603,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000266.png"
+    },
+    {
+      "index": 12684,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000267.png"
+    },
+    {
+      "index": 12766,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000268.png"
+    },
+    {
+      "index": 12767,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000269.png"
+    },
+    {
+      "index": 12840,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000270.png"
+    },
+    {
+      "index": 12913,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000271.png"
+    },
+    {
+      "index": 12914,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000272.png"
+    },
+    {
+      "index": 12999,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000273.png"
+    },
+    {
+      "index": 13084,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000274.png"
+    },
+    {
+      "index": 13085,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000275.png"
+    },
+    {
+      "index": 13154,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000276.png"
+    },
+    {
+      "index": 13224,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000277.png"
+    },
+    {
+      "index": 13225,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000278.png"
+    },
+    {
+      "index": 13286,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000279.png"
+    },
+    {
+      "index": 13347,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000280.png"
+    },
+    {
+      "index": 13348,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000281.png"
+    },
+    {
+      "index": 13425,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000282.png"
+    },
+    {
+      "index": 13502,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000283.png"
+    },
+    {
+      "index": 13503,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000284.png"
+    },
+    {
+      "index": 13567,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000285.png"
+    },
+    {
+      "index": 13631,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000286.png"
+    },
+    {
+      "index": 13632,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000287.png"
+    },
+    {
+      "index": 13700,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000288.png"
+    },
+    {
+      "index": 13768,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000289.png"
+    },
+    {
+      "index": 13769,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000290.png"
+    },
+    {
+      "index": 13838,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000291.png"
+    },
+    {
+      "index": 13907,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000292.png"
+    },
+    {
+      "index": 13908,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000293.png"
+    },
+    {
+      "index": 13982,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000294.png"
+    },
+    {
+      "index": 14056,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000295.png"
+    },
+    {
+      "index": 14057,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000296.png"
+    },
+    {
+      "index": 14130,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000297.png"
+    },
+    {
+      "index": 14203,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000298.png"
+    },
+    {
+      "index": 14204,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000299.png"
+    },
+    {
+      "index": 14271,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000300.png"
+    },
+    {
+      "index": 14338,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000301.png"
+    },
+    {
+      "index": 14339,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000302.png"
+    },
+    {
+      "index": 14413,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000303.png"
+    },
+    {
+      "index": 14487,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000304.png"
+    },
+    {
+      "index": 14488,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000305.png"
+    },
+    {
+      "index": 14560,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000306.png"
+    },
+    {
+      "index": 14632,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000307.png"
+    },
+    {
+      "index": 14633,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000308.png"
+    },
+    {
+      "index": 14712,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000309.png"
+    },
+    {
+      "index": 14791,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000310.png"
+    },
+    {
+      "index": 14792,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000311.png"
+    },
+    {
+      "index": 14871,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000312.png"
+    },
+    {
+      "index": 14951,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000313.png"
+    },
+    {
+      "index": 14952,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000314.png"
+    },
+    {
+      "index": 15025,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000315.png"
+    },
+    {
+      "index": 15098,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000316.png"
+    },
+    {
+      "index": 15099,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000317.png"
+    },
+    {
+      "index": 15174,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000318.png"
+    },
+    {
+      "index": 15249,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000319.png"
+    },
+    {
+      "index": 15250,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000320.png"
+    },
+    {
+      "index": 15311,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000321.png"
+    },
+    {
+      "index": 15373,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000322.png"
+    },
+    {
+      "index": 15374,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000323.png"
+    },
+    {
+      "index": 15459,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000324.png"
+    },
+    {
+      "index": 15544,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000325.png"
+    },
+    {
+      "index": 15545,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000326.png"
+    },
+    {
+      "index": 15616,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000327.png"
+    },
+    {
+      "index": 15688,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000328.png"
+    },
+    {
+      "index": 15689,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000329.png"
+    },
+    {
+      "index": 15768,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000330.png"
+    },
+    {
+      "index": 15847,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000331.png"
+    },
+    {
+      "index": 15848,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000332.png"
+    },
+    {
+      "index": 15914,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000333.png"
+    },
+    {
+      "index": 15981,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000334.png"
+    },
+    {
+      "index": 15982,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000335.png"
+    },
+    {
+      "index": 16059,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000336.png"
+    },
+    {
+      "index": 16137,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000337.png"
+    },
+    {
+      "index": 16138,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000338.png"
+    },
+    {
+      "index": 16206,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000339.png"
+    },
+    {
+      "index": 16274,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000340.png"
+    },
+    {
+      "index": 16275,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000341.png"
+    },
+    {
+      "index": 16350,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000342.png"
+    },
+    {
+      "index": 16425,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000343.png"
+    },
+    {
+      "index": 16426,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000344.png"
+    },
+    {
+      "index": 16501,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000345.png"
+    },
+    {
+      "index": 16576,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000346.png"
+    },
+    {
+      "index": 16577,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000347.png"
+    },
+    {
+      "index": 16648,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000348.png"
+    },
+    {
+      "index": 16720,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000349.png"
+    },
+    {
+      "index": 16721,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000350.png"
+    },
+    {
+      "index": 16797,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000351.png"
+    },
+    {
+      "index": 16874,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000352.png"
+    },
+    {
+      "index": 16875,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000353.png"
+    },
+    {
+      "index": 16935,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000354.png"
+    },
+    {
+      "index": 16996,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000355.png"
+    },
+    {
+      "index": 16997,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000356.png"
+    },
+    {
+      "index": 17070,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000357.png"
+    },
+    {
+      "index": 17071,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000358.png"
+    },
+    {
+      "index": 17146,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000359.png"
+    },
+    {
+      "index": 17147,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000360.png"
+    },
+    {
+      "index": 17220,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000361.png"
+    },
+    {
+      "index": 17221,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000362.png"
+    },
+    {
+      "index": 17296,
+      "path": "../../../Work/qa-review-v05/scratch/qa/000363.png"
+    }
+  ],
+  "frames_directory": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Work/qa-review-v05/scratch/qa",
+  "technical_status": "PASS",
+  "verdict": "UNVERIFIED"
+}

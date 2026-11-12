@@ -1,0 +1,157 @@
+{
+  "version": 1,
+  "scene_revision": "paper_v03",
+  "source_canvas": [
+    941,
+    1672
+  ],
+  "scene_hashes": {
+    "S05_v03": "cc43452f96cd9d0d10ff83ee23a70035bd08301765c4e3da06ba662d8ecb6eff",
+    "S04_v03": "8e1284f2416eadd990327f1e831c22b0d296a6e695c1046c58806d5d428bfdb9",
+    "S06_v03": "b29b20f650ef4c6a1e20343329f5d60ce4a14b4d2cbd48f9883dd11ace0e36ef",
+    "S07_v03": "97f4b694fbc81ad28cad3a7531fc47abe79e85498cd2b904fa31cc3483937838",
+    "S02B_v03": "a0117a6e9e54f5b97361133fa977ae632be51803ca96ea5b893747a36dedd333",
+    "S03_v03": "51e1a35688858b60580ebfd9f8e0ca293e594558155c5ab73342e665af0502d9",
+    "S02A_v03": "851d47a8f4060bed4f7373bda0b9211408ee6380680bccc102cab7da1feba59b",
+    "S08_v03": "369d30448e1c28ab4b84bca623b61a4be94c3f4ec4c17e92e5d89cc957ac962c",
+    "S01_v03": "c20c7f3c41c4458912ab9241bc52a33eaa34cfe22abea6e99c26d353d6b8c34d",
+    "S09_v03": "9d4bed28a43ce4ee2001902e1511af7973dbdf6f23e37d108777c0ac11114c32"
+  },
+  "cue_pairs": [
+    {
+      "scene": "S01_v03.png",
+      "cue": "C03",
+      "anchor": "primary",
+      "source_png": "channels/paper_detour/videos/035_mantis_shrimp_club/Source/Graphics/accent_pngs_v01/C03_ONE_LIMB_TWO_WEAPONS_v01.png",
+      "scale": 0.30522088353413657,
+      "top_left_px": [
+        182,
+        109
+      ],
+      "rendered_cue_size": [
+        574,
+        255
+      ],
+      "composite": "channels/paper_detour/videos/035_mantis_shrimp_club/Source/Graphics/render_v05/pairs/S01/C03/composite.png",
+      "phone": "channels/paper_detour/videos/035_mantis_shrimp_club/Source/Graphics/render_v05/pairs/S01/C03/phone.png"
+    },
+    {
+      "scene": "S03_v03.png",
+      "cue": "C01",
+      "anchor": "primary",
+      "source_png": "channels/paper_detour/videos/035_mantis_shrimp_club/Source/Graphics/accent_pngs_v01/C01_THE_EXCEPTION_v01.png",
+      "scale": 0.2620689655172414,
+      "top_left_px": [
+        312,
+        66
+      ],
+      "rendered_cue_size": [
+        314,
+        344
+      ],
+      "composite": "channels/paper_detour/videos/035_mantis_shrimp_club/Source/Graphics/render_v05/pairs/S03/C01/composite.png",
+      "phone": "channels/paper_detour/videos/035_mantis_shrimp_club/Source/Graphics/render_v05/pairs/S03/C01/phone.png"
+    },
+    {
+      "scene": "S04_v03.png",
+      "cue": "C04",
+      "anchor": "primary",
+      "source_png": "channels/paper_detour/videos/035_mantis_shrimp_club/Source/Graphics/accent_pngs_v01/C04_SEPARATE_PATHS_v01.png",
+      "scale": 0.2846441947565543,
+      "top_left_px": [
+        165,
+        143
+      ],
+      "rendered_cue_size": [
+        611,
+        209
+      ],
+      "composite": "channels/paper_detour/videos/035_mantis_shrimp_club/Source/Graphics/render_v05/pairs/S04/C04/composite.png",
+      "phone": "channels/paper_detour/videos/035_mantis_shrimp_club/Source/Graphics/render_v05/pairs/S04/C04/phone.png"
+    },
+    {
+      "scene": "S06_v03.png",
+      "cue": "C02",
+      "anchor": "alternate",
+      "source_png": "channels/paper_detour/videos/035_mantis_shrimp_club/Source/Graphics/accent_pngs_v01/C02_PIERCE_NOT_EQUAL_STRIKE_v01.png",
+      "scale": 0.21529745042492918,
+      "top_left_px": [
+        459,
+        142
+      ],
+      "rendered_cue_size": [
+        360,
+        203
+      ],
+      "composite": "channels/paper_detour/videos/035_mantis_shrimp_club/Source/Graphics/render_v05/pairs/S06/C02/composite.png",
+      "phone": "channels/paper_detour/videos/035_mantis_shrimp_club/Source/Graphics/render_v05/pairs/S06/C02/phone.png"
+    },
+    {
+      "scene": "S07_v03.png",
+      "cue": "C05",
+      "anchor": "primary",
+      "source_png": "channels/paper_detour/videos/035_mantis_shrimp_club/Source/Graphics/accent_pngs_v01/C05_A_NEW_ROLE_v01.png",
+      "scale": 0.2222222222222222,
+      "top_left_px": [
+        232,
+        166
+      ],
+      "rendered_cue_size": [
+        477,
+        163
+      ],
+      "composite": "channels/paper_detour/videos/035_mantis_shrimp_club/Source/Graphics/render_v05/pairs/S07/C05/composite.png",
+      "phone": "channels/paper_detour/videos/035_mantis_shrimp_club/Source/Graphics/render_v05/pairs/S07/C05/phone.png"
+    }
+  ],
+  "assets": [
+    {
+      "path": "channels/paper_detour/videos/035_mantis_shrimp_club/Source/Graphics/render_v05/pairs/S01/C03/composite.png",
+      "sha256": "85958acca1ddde5b253f855743c34c974e93e6e20dff3b7c775df10a068cb583"
+    },
+    {
+      "path": "channels/paper_detour/videos/035_mantis_shrimp_club/Source/Graphics/render_v05/pairs/S01/C03/phone.png",
+      "sha256": "ddc85c193da1ea03c386ed1298037dc2c0a69a68ed23e3f8d6f46dc3f15be0f6"
+    },
+    {
+      "path": "channels/paper_detour/videos/035_mantis_shrimp_club/Source/Graphics/render_v05/pairs/S03/C01/composite.png",
+      "sha256": "982fa18e0cb6e550abf5d927cd33facbba0bf7603f4af0e424ebfba23ada3350"
+    },
+    {
+      "path": "channels/paper_detour/videos/035_mantis_shrimp_club/Source/Graphics/render_v05/pairs/S03/C01/phone.png",
+      "sha256": "91c3f812839d1ba22707cc016ddafa9af1a376dca83d38328daaa5b498ca2fbf"
+    },
+    {
+      "path": "channels/paper_detour/videos/035_mantis_shrimp_club/Source/Graphics/render_v05/pairs/S04/C04/composite.png",
+      "sha256": "741c06cb0aa586f37d8b68727a06ab184cb17a196de15b03460e115a15997905"
+    },
+    {
+      "path": "channels/paper_detour/videos/035_mantis_shrimp_club/Source/Graphics/render_v05/pairs/S04/C04/phone.png",
+      "sha256": "38c70d73dfce5e9d276450d149731387b62b7b2e5e32b3e414d5ccc21c74882b"
+    },
+    {
+      "path": "channels/paper_detour/videos/035_mantis_shrimp_club/Source/Graphics/render_v05/pairs/S06/C02/composite.png",
+      "sha256": "9c24b311175b1a572008e68cdb5b2feab507b976c4efa17e268b8db24af424f0"
+    },
+    {
+      "path": "channels/paper_detour/videos/035_mantis_shrimp_club/Source/Graphics/render_v05/pairs/S06/C02/phone.png",
+      "sha256": "2c09d4bef7dd80646b0d1821e94a003301304052673f1f2c077a2fe5d33117e3"
+    },
+    {
+      "path": "channels/paper_detour/videos/035_mantis_shrimp_club/Source/Graphics/render_v05/pairs/S07/C05/composite.png",
+      "sha256": "42008e54f54f230790ff5fa4364cfa2af8a91e253b16c9322d7332bb1aa53336"
+    },
+    {
+      "path": "channels/paper_detour/videos/035_mantis_shrimp_club/Source/Graphics/render_v05/pairs/S07/C05/phone.png",
+      "sha256": "46eb22b2322445b5108d3686be7652a2eb69079c6a353eebb3f0c8e6d22b75b6"
+    }
+  ],
+  "checks": {
+    "technical": "PASS",
+    "static_visual": "PASS",
+    "motion": "UNVERIFIED",
+    "sync": "UNVERIFIED",
+    "export": "UNVERIFIED"
+  },
+  "review_note": "Coordinator inspected all five full composites and phone reductions. No collision with eyes, weapons/limbs or animal silhouettes in static placement. Motion review required."
+}

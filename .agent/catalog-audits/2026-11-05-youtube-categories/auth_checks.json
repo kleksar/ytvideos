@@ -1,0 +1,104 @@
+[
+  {
+    "token_file": "en-playlist-token.json",
+    "error": "RefreshError",
+    "code": "invalid_grant"
+  },
+  {
+    "token_file": "en-token.json",
+    "error": "RefreshError",
+    "code": "invalid_grant"
+  },
+  {
+    "token_file": "history-manage-token.json",
+    "error": "RefreshError",
+    "code": "invalid_grant"
+  },
+  {
+    "token_file": "history-token.json",
+    "error": "RefreshError",
+    "code": "invalid_grant"
+  },
+  {
+    "token_file": "nuviko-history/token.json",
+    "http": 200,
+    "items": [
+      {
+        "id": "UCbyLx6Rf3iWww4bPZJ2oo2A",
+        "title": "Nuviko History",
+        "handle": "@nuviko_history"
+      }
+    ],
+    "write_scope": true
+  },
+  {
+    "token_file": "paper-detour/manage-token.json",
+    "http": 200,
+    "items": [
+      {
+        "id": "UCMVfdfaNxV3ZkI3_J3Eejzw",
+        "title": "Paper Detour",
+        "handle": "@rarovista"
+      }
+    ],
+    "write_scope": true
+  },
+  {
+    "token_file": "paper-detour/token.json",
+    "http": 200,
+    "items": [
+      {
+        "id": "UCMVfdfaNxV3ZkI3_J3Eejzw",
+        "title": "Paper Detour",
+        "handle": "@rarovista"
+      }
+    ],
+    "write_scope": false
+  },
+  {
+    "token_file": "paper-detour-diplomatgmg-token.json",
+    "http": 200,
+    "items": [
+      {
+        "id": "UCMVfdfaNxV3ZkI3_J3Eejzw",
+        "title": "Paper Detour",
+        "handle": "@rarovista"
+      }
+    ],
+    "write_scope": false
+  },
+  {
+    "token_file": "paper-detour-token.json",
+    "http": 200,
+    "items": [
+      {
+        "id": "UC9-SisjlACIUklej0365UfA",
+        "title": "Жена главреда",
+        "handle": "@tanyagenaglavreda"
+      }
+    ],
+    "write_scope": false
+  },
+  {
+    "token_file": "paper-token.json",
+    "http": 200,
+    "items": [
+      {
+        "id": "UC9-SisjlACIUklej0365UfA",
+        "title": "Жена главреда",
+        "handle": "@tanyagenaglavreda"
+      }
+    ],
+    "write_scope": false
+  },
+  {
+    "token_file": "ru-playlist-token.json",
+    "error": "RefreshError",
+    "code": "invalid_grant"
+  },
+  {
+    "token_file": "ru-token.json",
+    "error": "RefreshError",
+    "code": "invalid_grant"
+  }
+]

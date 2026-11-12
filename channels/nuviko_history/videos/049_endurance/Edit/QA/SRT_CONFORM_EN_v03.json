@@ -1,0 +1,32 @@
+{
+  "media": {
+    "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Deliverables/Endurance_en_review_v03.mp4",
+    "sha256": "f6016892bbb20eb62dd70578825086c6109326ed2a8a5645d466a23f53bc42b6"
+  },
+  "srt": {
+    "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Deliverables/Endurance_en_review_v03.srt",
+    "sha256": "ea5413fa6e5e91f036943b7eb1f4c37dc6557fa9f7a42bbd4131f22385d18c34"
+  },
+  "language": "en",
+  "source_mix": {
+    "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Work/sound_draft_v01/mix_draft_v02.wav",
+    "sha256": "a7bb5fb1361389af8f100488d1a77279aac874c191922ac2c4034d02e15387b7"
+  },
+  "structure": "PASS",
+  "text_coverage": "PASS",
+  "timing_mapping": "PASS",
+  "playback": "UNVERIFIED",
+  "method": "The 384 previously conformed cues are byte-identical. Exact word map, exact AAC packets including timestamps, zero-origin track, and final video frame count are verified against v03.",
+  "word_map": {
+    "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Work/word_map_mix_prefer_b_draft_v02.json",
+    "sha256": "1789cd9cccc24b1cee1ecaa3f05b774d2ee3ce7b8785ea9bf8a4119feb7f14d0"
+  },
+  "structural_evidence": {
+    "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Edit/QA/SRT_CHECK_EN_v01.json",
+    "sha256": "87fafc50a05a08a379c1c09a6391bcb63c988fda0f9efb547bb98e0b026cdc86"
+  },
+  "audio_evidence": {
+    "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Edit/QA/AV_SIGNAL_EN_v03.json",
+    "sha256": "db29fd6f05a7ebf991246aea5a9edeaeef3d4d3942f0ebb8a0f10316604fe7be"
+  }
+}

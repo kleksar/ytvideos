@@ -1,0 +1,1242 @@
+{
+  "created_utc": "2026-11-06T16:48:47.899733+00:00",
+  "media": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Deliverables/review_redesign_en_v01.mp4",
+  "plan": {
+    "frame_count": 7584,
+    "fps": "30/1",
+    "required_review_checks": [
+      "stream_metadata",
+      "full_decode",
+      "frame_sampling",
+      "motion_framing",
+      "cue_timing",
+      "audio_signal",
+      "subjective_audio_listening",
+      "srt",
+      "independent_review"
+    ],
+    "freshness": {
+      "status": "UNVERIFIED",
+      "evidence": "Pending exact rendered output and renderer delivery receipt."
+    },
+    "expected": {
+      "video": {
+        "width": 2560,
+        "height": 1440,
+        "codec_name": "h264",
+        "pix_fmt": "yuv420p",
+        "color_space": "bt709"
+      },
+      "audio": {
+        "required": true,
+        "codec_name": "aac",
+        "channels": 2,
+        "sample_rate": 44100
+      }
+    },
+    "scenes": [
+      {
+        "id": "S01",
+        "start": 0,
+        "end": 178
+      },
+      {
+        "id": "S02",
+        "start": 178,
+        "end": 323
+      },
+      {
+        "id": "S03",
+        "start": 323,
+        "end": 451
+      },
+      {
+        "id": "S04",
+        "start": 451,
+        "end": 583
+      },
+      {
+        "id": "S05",
+        "start": 583,
+        "end": 703
+      },
+      {
+        "id": "S06",
+        "start": 703,
+        "end": 877
+      },
+      {
+        "id": "S07",
+        "start": 877,
+        "end": 1026
+      },
+      {
+        "id": "S08",
+        "start": 1026,
+        "end": 1162
+      },
+      {
+        "id": "S09",
+        "start": 1162,
+        "end": 1311
+      },
+      {
+        "id": "S10",
+        "start": 1311,
+        "end": 1453
+      },
+      {
+        "id": "S11",
+        "start": 1453,
+        "end": 1586
+      },
+      {
+        "id": "S12",
+        "start": 1586,
+        "end": 1711
+      },
+      {
+        "id": "S13",
+        "start": 1711,
+        "end": 1848
+      },
+      {
+        "id": "S14",
+        "start": 1848,
+        "end": 1971
+      },
+      {
+        "id": "S15",
+        "start": 1971,
+        "end": 2112
+      },
+      {
+        "id": "S16",
+        "start": 2112,
+        "end": 2290
+      },
+      {
+        "id": "S17",
+        "start": 2290,
+        "end": 2453
+      },
+      {
+        "id": "S18",
+        "start": 2453,
+        "end": 2607
+      },
+      {
+        "id": "S19",
+        "start": 2607,
+        "end": 2764
+      },
+      {
+        "id": "S20",
+        "start": 2764,
+        "end": 2926
+      },
+      {
+        "id": "S21",
+        "start": 2926,
+        "end": 3056
+      },
+      {
+        "id": "S22",
+        "start": 3056,
+        "end": 3177
+      },
+      {
+        "id": "S23",
+        "start": 3177,
+        "end": 3357
+      },
+      {
+        "id": "S24",
+        "start": 3357,
+        "end": 3522
+      },
+      {
+        "id": "S25",
+        "start": 3522,
+        "end": 3680
+      },
+      {
+        "id": "S26",
+        "start": 3680,
+        "end": 3800
+      },
+      {
+        "id": "S27",
+        "start": 3800,
+        "end": 3924
+      },
+      {
+        "id": "S28",
+        "start": 3924,
+        "end": 4076
+      },
+      {
+        "id": "S29",
+        "start": 4076,
+        "end": 4221
+      },
+      {
+        "id": "S30",
+        "start": 4221,
+        "end": 4368
+      },
+      {
+        "id": "S31",
+        "start": 4368,
+        "end": 4525
+      },
+      {
+        "id": "S32",
+        "start": 4525,
+        "end": 4671
+      },
+      {
+        "id": "S33",
+        "start": 4671,
+        "end": 4803
+      },
+      {
+        "id": "S34",
+        "start": 4803,
+        "end": 4924
+      },
+      {
+        "id": "S35",
+        "start": 4924,
+        "end": 5048
+      },
+      {
+        "id": "S36",
+        "start": 5048,
+        "end": 5198
+      },
+      {
+        "id": "S37",
+        "start": 5198,
+        "end": 5347
+      },
+      {
+        "id": "S38",
+        "start": 5347,
+        "end": 5494
+      },
+      {
+        "id": "S39",
+        "start": 5494,
+        "end": 5646
+      },
+      {
+        "id": "S40",
+        "start": 5646,
+        "end": 5810
+      },
+      {
+        "id": "S41",
+        "start": 5810,
+        "end": 5950
+      },
+      {
+        "id": "S42",
+        "start": 5950,
+        "end": 6126
+      },
+      {
+        "id": "S43",
+        "start": 6126,
+        "end": 6291
+      },
+      {
+        "id": "S44",
+        "start": 6291,
+        "end": 6437
+      },
+      {
+        "id": "S45",
+        "start": 6437,
+        "end": 6575
+      },
+      {
+        "id": "S46",
+        "start": 6575,
+        "end": 6721
+      },
+      {
+        "id": "S47",
+        "start": 6721,
+        "end": 6869
+      },
+      {
+        "id": "S48",
+        "start": 6869,
+        "end": 7019
+      },
+      {
+        "id": "S49",
+        "start": 7019,
+        "end": 7151
+      },
+      {
+        "id": "S50",
+        "start": 7151,
+        "end": 7284
+      },
+      {
+        "id": "S51",
+        "start": 7284,
+        "end": 7584
+      }
+    ]
+  },
+  "policy_failures": [],
+  "failures": [],
+  "reported_freshness": {
+    "status": "UNVERIFIED",
+    "evidence": "Pending exact rendered output and renderer delivery receipt."
+  },
+  "checks": {
+    "stream_metadata": "PASS",
+    "full_decode": "PASS",
+    "frame_extraction": "PASS",
+    "frame_sampling": "UNVERIFIED",
+    "motion_framing": "UNVERIFIED",
+    "cue_timing": "UNVERIFIED",
+    "audio_signal": "UNVERIFIED",
+    "subjective_audio_listening": "UNVERIFIED",
+    "independent_review": "UNVERIFIED"
+  },
+  "inspected_frame_indices": [],
+  "requested_frame_indices": [
+    0,
+    88,
+    177,
+    178,
+    250,
+    322,
+    323,
+    386,
+    450,
+    451,
+    516,
+    582,
+    583,
+    642,
+    702,
+    703,
+    789,
+    876,
+    877,
+    951,
+    1025,
+    1026,
+    1093,
+    1161,
+    1162,
+    1236,
+    1310,
+    1311,
+    1381,
+    1452,
+    1453,
+    1519,
+    1585,
+    1586,
+    1648,
+    1710,
+    1711,
+    1779,
+    1847,
+    1848,
+    1909,
+    1970,
+    1971,
+    2041,
+    2111,
+    2112,
+    2200,
+    2289,
+    2290,
+    2371,
+    2452,
+    2453,
+    2529,
+    2606,
+    2607,
+    2685,
+    2763,
+    2764,
+    2844,
+    2925,
+    2926,
+    2990,
+    3055,
+    3056,
+    3116,
+    3176,
+    3177,
+    3266,
+    3356,
+    3357,
+    3439,
+    3521,
+    3522,
+    3600,
+    3679,
+    3680,
+    3739,
+    3799,
+    3800,
+    3861,
+    3923,
+    3924,
+    3999,
+    4075,
+    4076,
+    4148,
+    4220,
+    4221,
+    4294,
+    4367,
+    4368,
+    4446,
+    4524,
+    4525,
+    4597,
+    4670,
+    4671,
+    4736,
+    4802,
+    4803,
+    4863,
+    4923,
+    4924,
+    4985,
+    5047,
+    5048,
+    5122,
+    5197,
+    5198,
+    5272,
+    5346,
+    5347,
+    5420,
+    5493,
+    5494,
+    5569,
+    5645,
+    5646,
+    5727,
+    5809,
+    5810,
+    5879,
+    5949,
+    5950,
+    6037,
+    6125,
+    6126,
+    6208,
+    6290,
+    6291,
+    6363,
+    6436,
+    6437,
+    6505,
+    6574,
+    6575,
+    6647,
+    6720,
+    6721,
+    6794,
+    6868,
+    6869,
+    6943,
+    7018,
+    7019,
+    7084,
+    7150,
+    7151,
+    7217,
+    7283,
+    7284,
+    7433,
+    7583
+  ],
+  "sha256": "2756283811cafd57023650a4a5930849d455fdb410b8a434e8ca289d4ddad3ae",
+  "streams": [
+    {
+      "index": 0,
+      "codec_name": "h264",
+      "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+      "profile": "High",
+      "codec_type": "video",
+      "codec_tag_string": "avc1",
+      "codec_tag": "0x31637661",
+      "mime_codec_string": "avc1.640032",
+      "width": 2560,
+      "height": 1440,
+      "coded_width": 2560,
+      "coded_height": 1440,
+      "has_b_frames": 0,
+      "sample_aspect_ratio": "1:1",
+      "display_aspect_ratio": "16:9",
+      "pix_fmt": "yuv420p",
+      "level": 50,
+      "color_range": "tv",
+      "color_space": "bt709",
+      "color_transfer": "bt709",
+      "color_primaries": "bt709",
+      "chroma_location": "left",
+      "field_order": "progressive",
+      "is_avc": "true",
+      "nal_length_size": "4",
+      "id": "0x1",
+      "r_frame_rate": "30/1",
+      "avg_frame_rate": "30/1",
+      "time_base": "1/15360",
+      "start_pts": 0,
+      "start_time": "0.000000",
+      "duration_ts": 3883008,
+      "duration": "252.800000",
+      "bit_rate": "20163808",
+      "bits_per_raw_sample": "8",
+      "nb_frames": "7584",
+      "extradata_size": 35,
+      "disposition": {
+        "default": 1,
+        "dub": 0,
+        "original": 0,
+        "comment": 0,
+        "lyrics": 0,
+        "karaoke": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "visual_impaired": 0,
+        "clean_effects": 0,
+        "attached_pic": 0,
+        "timed_thumbnails": 0,
+        "non_diegetic": 0,
+        "captions": 0,
+        "descriptions": 0,
+        "metadata": 0,
+        "dependent": 0,
+        "still_image": 0,
+        "multilayer": 0
+      },
+      "tags": {
+        "language": "und",
+        "handler_name": "VideoHandler",
+        "encoder": "Lavc62.28.102 h264_videotoolbox"
+      }
+    },
+    {
+      "index": 1,
+      "codec_name": "aac",
+      "codec_long_name": "AAC (Advanced Audio Coding)",
+      "profile": "LC",
+      "codec_type": "audio",
+      "codec_tag_string": "mp4a",
+      "codec_tag": "0x6134706d",
+      "mime_codec_string": "mp4a.40.2",
+      "sample_fmt": "fltp",
+      "sample_rate": "44100",
+      "channels": 2,
+      "channel_layout": "stereo",
+      "bits_per_sample": 0,
+      "initial_padding": 0,
+      "id": "0x2",
+      "r_frame_rate": "0/0",
+      "avg_frame_rate": "0/0",
+      "time_base": "1/44100",
+      "start_pts": 0,
+      "start_time": "0.000000",
+      "duration_ts": 11148480,
+      "duration": "252.800000",
+      "bit_rate": "236546",
+      "nb_frames": "10889",
+      "extradata_size": 5,
+      "disposition": {
+        "default": 1,
+        "dub": 0,
+        "original": 0,
+        "comment": 0,
+        "lyrics": 0,
+        "karaoke": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "visual_impaired": 0,
+        "clean_effects": 0,
+        "attached_pic": 0,
+        "timed_thumbnails": 0,
+        "non_diegetic": 0,
+        "captions": 0,
+        "descriptions": 0,
+        "metadata": 0,
+        "dependent": 0,
+        "still_image": 0,
+        "multilayer": 0
+      },
+      "tags": {
+        "language": "und",
+        "handler_name": "SoundHandler"
+      }
+    }
+  ],
+  "decoded_video_frames": 7584,
+  "audio_measurements": {
+    "stream": "0:a:0",
+    "method": "sample levels and silence candidates; not listening",
+    "mean_dbfs": [
+      "-25.0"
+    ],
+    "sample_peak_dbfs": [
+      "-2.9"
+    ],
+    "silence_candidate_threshold_dbfs": -50,
+    "minimum_silence_seconds": 0.25
+  },
+  "audio_analysis_execution": "PASS",
+  "frame_recipe": {
+    "argv": [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-xerror",
+      "-i",
+      "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Deliverables/review_redesign_en_v01.mp4",
+      "-map",
+      "0:v:0",
+      "-vf",
+      "select=((((((((eq(n\\,0)+eq(n\\,88))+(eq(n\\,177)+eq(n\\,178)))+((eq(n\\,250)+eq(n\\,322))+(eq(n\\,323)+eq(n\\,386))))+(((eq(n\\,450)+eq(n\\,451))+(eq(n\\,516)+eq(n\\,582)))+((eq(n\\,583)+eq(n\\,642))+(eq(n\\,702)+eq(n\\,703)))))+((((eq(n\\,789)+eq(n\\,876))+(eq(n\\,877)+eq(n\\,951)))+((eq(n\\,1025)+eq(n\\,1026))+(eq(n\\,1093)+eq(n\\,1161))))+(((eq(n\\,1162)+eq(n\\,1236))+(eq(n\\,1310)+eq(n\\,1311)))+((eq(n\\,1381)+eq(n\\,1452))+(eq(n\\,1453)+eq(n\\,1519))))))+(((((eq(n\\,1585)+eq(n\\,1586))+(eq(n\\,1648)+eq(n\\,1710)))+((eq(n\\,1711)+eq(n\\,1779))+(eq(n\\,1847)+eq(n\\,1848))))+(((eq(n\\,1909)+eq(n\\,1970))+(eq(n\\,1971)+eq(n\\,2041)))+((eq(n\\,2111)+eq(n\\,2112))+(eq(n\\,2200)+eq(n\\,2289)))))+((((eq(n\\,2290)+eq(n\\,2371))+(eq(n\\,2452)+eq(n\\,2453)))+((eq(n\\,2529)+eq(n\\,2606))+(eq(n\\,2607)+eq(n\\,2685))))+(((eq(n\\,2763)+eq(n\\,2764))+(eq(n\\,2844)+eq(n\\,2925)))+((eq(n\\,2926)+eq(n\\,2990))+(eq(n\\,3055)+eq(n\\,3056)))))))+((((((eq(n\\,3116)+eq(n\\,3176))+(eq(n\\,3177)+eq(n\\,3266)))+((eq(n\\,3356)+eq(n\\,3357))+(eq(n\\,3439)+eq(n\\,3521))))+(((eq(n\\,3522)+eq(n\\,3600))+(eq(n\\,3679)+eq(n\\,3680)))+((eq(n\\,3739)+eq(n\\,3799))+(eq(n\\,3800)+eq(n\\,3861)))))+((((eq(n\\,3923)+eq(n\\,3924))+(eq(n\\,3999)+eq(n\\,4075)))+((eq(n\\,4076)+eq(n\\,4148))+(eq(n\\,4220)+eq(n\\,4221))))+(((eq(n\\,4294)+eq(n\\,4367))+(eq(n\\,4368)+eq(n\\,4446)))+((eq(n\\,4524)+eq(n\\,4525))+(eq(n\\,4597)+eq(n\\,4670))))))+(((((eq(n\\,4671)+eq(n\\,4736))+(eq(n\\,4802)+eq(n\\,4803)))+((eq(n\\,4863)+eq(n\\,4923))+(eq(n\\,4924)+eq(n\\,4985))))+(((eq(n\\,5047)+eq(n\\,5048))+(eq(n\\,5122)+eq(n\\,5197)))+((eq(n\\,5198)+eq(n\\,5272))+(eq(n\\,5346)+eq(n\\,5347)))))+((((eq(n\\,5420)+eq(n\\,5493))+(eq(n\\,5494)+eq(n\\,5569)))+((eq(n\\,5645)+eq(n\\,5646))+(eq(n\\,5727)+eq(n\\,5809))))+(((eq(n\\,5810)+eq(n\\,5879))+(eq(n\\,5949)+eq(n\\,5950)))+((eq(n\\,6037)+eq(n\\,6125))+(eq(n\\,6126)+eq(n\\,6208))))))))+(((((eq(n\\,6290)+eq(n\\,6291))+(eq(n\\,6363)+eq(n\\,6436)))+((eq(n\\,6437)+eq(n\\,6505))+(eq(n\\,6574)+eq(n\\,6575))))+(((eq(n\\,6647)+eq(n\\,6720))+(eq(n\\,6721)+eq(n\\,6794)))+((eq(n\\,6868)+eq(n\\,6869))+(eq(n\\,6943)+eq(n\\,7018)))))+((((eq(n\\,7019)+eq(n\\,7084))+(eq(n\\,7150)+eq(n\\,7151)))+((eq(n\\,7217)+eq(n\\,7283))+(eq(n\\,7284)+eq(n\\,7433))))+eq(n\\,7583))))",
+      "-fps_mode",
+      "vfr",
+      "-start_number",
+      "0",
+      "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Work/qa-redesign-v01/scratch/qa/%06d.png"
+    ],
+    "ffmpeg_version": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers",
+    "stream": "0:v:0",
+    "index_basis": "zero-based decoded video frame",
+    "fps": "30/1"
+  },
+  "frame_map": [
+    {
+      "index": 0,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000000.png"
+    },
+    {
+      "index": 88,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000001.png"
+    },
+    {
+      "index": 177,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000002.png"
+    },
+    {
+      "index": 178,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000003.png"
+    },
+    {
+      "index": 250,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000004.png"
+    },
+    {
+      "index": 322,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000005.png"
+    },
+    {
+      "index": 323,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000006.png"
+    },
+    {
+      "index": 386,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000007.png"
+    },
+    {
+      "index": 450,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000008.png"
+    },
+    {
+      "index": 451,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000009.png"
+    },
+    {
+      "index": 516,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000010.png"
+    },
+    {
+      "index": 582,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000011.png"
+    },
+    {
+      "index": 583,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000012.png"
+    },
+    {
+      "index": 642,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000013.png"
+    },
+    {
+      "index": 702,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000014.png"
+    },
+    {
+      "index": 703,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000015.png"
+    },
+    {
+      "index": 789,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000016.png"
+    },
+    {
+      "index": 876,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000017.png"
+    },
+    {
+      "index": 877,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000018.png"
+    },
+    {
+      "index": 951,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000019.png"
+    },
+    {
+      "index": 1025,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000020.png"
+    },
+    {
+      "index": 1026,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000021.png"
+    },
+    {
+      "index": 1093,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000022.png"
+    },
+    {
+      "index": 1161,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000023.png"
+    },
+    {
+      "index": 1162,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000024.png"
+    },
+    {
+      "index": 1236,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000025.png"
+    },
+    {
+      "index": 1310,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000026.png"
+    },
+    {
+      "index": 1311,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000027.png"
+    },
+    {
+      "index": 1381,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000028.png"
+    },
+    {
+      "index": 1452,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000029.png"
+    },
+    {
+      "index": 1453,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000030.png"
+    },
+    {
+      "index": 1519,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000031.png"
+    },
+    {
+      "index": 1585,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000032.png"
+    },
+    {
+      "index": 1586,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000033.png"
+    },
+    {
+      "index": 1648,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000034.png"
+    },
+    {
+      "index": 1710,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000035.png"
+    },
+    {
+      "index": 1711,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000036.png"
+    },
+    {
+      "index": 1779,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000037.png"
+    },
+    {
+      "index": 1847,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000038.png"
+    },
+    {
+      "index": 1848,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000039.png"
+    },
+    {
+      "index": 1909,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000040.png"
+    },
+    {
+      "index": 1970,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000041.png"
+    },
+    {
+      "index": 1971,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000042.png"
+    },
+    {
+      "index": 2041,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000043.png"
+    },
+    {
+      "index": 2111,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000044.png"
+    },
+    {
+      "index": 2112,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000045.png"
+    },
+    {
+      "index": 2200,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000046.png"
+    },
+    {
+      "index": 2289,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000047.png"
+    },
+    {
+      "index": 2290,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000048.png"
+    },
+    {
+      "index": 2371,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000049.png"
+    },
+    {
+      "index": 2452,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000050.png"
+    },
+    {
+      "index": 2453,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000051.png"
+    },
+    {
+      "index": 2529,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000052.png"
+    },
+    {
+      "index": 2606,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000053.png"
+    },
+    {
+      "index": 2607,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000054.png"
+    },
+    {
+      "index": 2685,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000055.png"
+    },
+    {
+      "index": 2763,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000056.png"
+    },
+    {
+      "index": 2764,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000057.png"
+    },
+    {
+      "index": 2844,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000058.png"
+    },
+    {
+      "index": 2925,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000059.png"
+    },
+    {
+      "index": 2926,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000060.png"
+    },
+    {
+      "index": 2990,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000061.png"
+    },
+    {
+      "index": 3055,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000062.png"
+    },
+    {
+      "index": 3056,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000063.png"
+    },
+    {
+      "index": 3116,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000064.png"
+    },
+    {
+      "index": 3176,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000065.png"
+    },
+    {
+      "index": 3177,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000066.png"
+    },
+    {
+      "index": 3266,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000067.png"
+    },
+    {
+      "index": 3356,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000068.png"
+    },
+    {
+      "index": 3357,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000069.png"
+    },
+    {
+      "index": 3439,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000070.png"
+    },
+    {
+      "index": 3521,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000071.png"
+    },
+    {
+      "index": 3522,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000072.png"
+    },
+    {
+      "index": 3600,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000073.png"
+    },
+    {
+      "index": 3679,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000074.png"
+    },
+    {
+      "index": 3680,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000075.png"
+    },
+    {
+      "index": 3739,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000076.png"
+    },
+    {
+      "index": 3799,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000077.png"
+    },
+    {
+      "index": 3800,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000078.png"
+    },
+    {
+      "index": 3861,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000079.png"
+    },
+    {
+      "index": 3923,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000080.png"
+    },
+    {
+      "index": 3924,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000081.png"
+    },
+    {
+      "index": 3999,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000082.png"
+    },
+    {
+      "index": 4075,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000083.png"
+    },
+    {
+      "index": 4076,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000084.png"
+    },
+    {
+      "index": 4148,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000085.png"
+    },
+    {
+      "index": 4220,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000086.png"
+    },
+    {
+      "index": 4221,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000087.png"
+    },
+    {
+      "index": 4294,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000088.png"
+    },
+    {
+      "index": 4367,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000089.png"
+    },
+    {
+      "index": 4368,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000090.png"
+    },
+    {
+      "index": 4446,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000091.png"
+    },
+    {
+      "index": 4524,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000092.png"
+    },
+    {
+      "index": 4525,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000093.png"
+    },
+    {
+      "index": 4597,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000094.png"
+    },
+    {
+      "index": 4670,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000095.png"
+    },
+    {
+      "index": 4671,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000096.png"
+    },
+    {
+      "index": 4736,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000097.png"
+    },
+    {
+      "index": 4802,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000098.png"
+    },
+    {
+      "index": 4803,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000099.png"
+    },
+    {
+      "index": 4863,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000100.png"
+    },
+    {
+      "index": 4923,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000101.png"
+    },
+    {
+      "index": 4924,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000102.png"
+    },
+    {
+      "index": 4985,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000103.png"
+    },
+    {
+      "index": 5047,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000104.png"
+    },
+    {
+      "index": 5048,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000105.png"
+    },
+    {
+      "index": 5122,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000106.png"
+    },
+    {
+      "index": 5197,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000107.png"
+    },
+    {
+      "index": 5198,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000108.png"
+    },
+    {
+      "index": 5272,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000109.png"
+    },
+    {
+      "index": 5346,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000110.png"
+    },
+    {
+      "index": 5347,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000111.png"
+    },
+    {
+      "index": 5420,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000112.png"
+    },
+    {
+      "index": 5493,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000113.png"
+    },
+    {
+      "index": 5494,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000114.png"
+    },
+    {
+      "index": 5569,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000115.png"
+    },
+    {
+      "index": 5645,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000116.png"
+    },
+    {
+      "index": 5646,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000117.png"
+    },
+    {
+      "index": 5727,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000118.png"
+    },
+    {
+      "index": 5809,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000119.png"
+    },
+    {
+      "index": 5810,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000120.png"
+    },
+    {
+      "index": 5879,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000121.png"
+    },
+    {
+      "index": 5949,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000122.png"
+    },
+    {
+      "index": 5950,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000123.png"
+    },
+    {
+      "index": 6037,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000124.png"
+    },
+    {
+      "index": 6125,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000125.png"
+    },
+    {
+      "index": 6126,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000126.png"
+    },
+    {
+      "index": 6208,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000127.png"
+    },
+    {
+      "index": 6290,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000128.png"
+    },
+    {
+      "index": 6291,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000129.png"
+    },
+    {
+      "index": 6363,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000130.png"
+    },
+    {
+      "index": 6436,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000131.png"
+    },
+    {
+      "index": 6437,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000132.png"
+    },
+    {
+      "index": 6505,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000133.png"
+    },
+    {
+      "index": 6574,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000134.png"
+    },
+    {
+      "index": 6575,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000135.png"
+    },
+    {
+      "index": 6647,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000136.png"
+    },
+    {
+      "index": 6720,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000137.png"
+    },
+    {
+      "index": 6721,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000138.png"
+    },
+    {
+      "index": 6794,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000139.png"
+    },
+    {
+      "index": 6868,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000140.png"
+    },
+    {
+      "index": 6869,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000141.png"
+    },
+    {
+      "index": 6943,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000142.png"
+    },
+    {
+      "index": 7018,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000143.png"
+    },
+    {
+      "index": 7019,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000144.png"
+    },
+    {
+      "index": 7084,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000145.png"
+    },
+    {
+      "index": 7150,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000146.png"
+    },
+    {
+      "index": 7151,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000147.png"
+    },
+    {
+      "index": 7217,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000148.png"
+    },
+    {
+      "index": 7283,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000149.png"
+    },
+    {
+      "index": 7284,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000150.png"
+    },
+    {
+      "index": 7433,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000151.png"
+    },
+    {
+      "index": 7583,
+      "path": "../../../Work/qa-redesign-v01/scratch/qa/000152.png"
+    }
+  ],
+  "frames_directory": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Work/qa-redesign-v01/scratch/qa",
+  "technical_status": "PASS",
+  "verdict": "UNVERIFIED"
+}

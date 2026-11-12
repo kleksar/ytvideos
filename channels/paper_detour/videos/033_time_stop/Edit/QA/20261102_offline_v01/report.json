@@ -1,0 +1,827 @@
+{
+  "created_utc": "2026-11-02T04:22:46.748998+00:00",
+  "media": "/Users/diplomat/ytvideos/channels/paper_detour/videos/033_time_stop/Deliverables/Paper_Detour_033_time_stop_EN_1080x1920_30fps_v01.mp4",
+  "plan": {
+    "frame_count": 1502,
+    "fps": "30/1",
+    "sha256": "6d3ce02af25a3a655961d25c84448f6d697f7ed4a74865a840cf7df179653dd9",
+    "freshness": {
+      "status": "STALE",
+      "evidence": "CURRENT_CONTEXT: saved edit cleanup after delivery receipt; audit target is existing historical v01, not later motion copy"
+    },
+    "expected": {
+      "video": {
+        "width": 1080,
+        "height": 1920,
+        "codec_name": "h264",
+        "color_space": "bt709"
+      },
+      "audio": {
+        "required": true,
+        "codec_name": "aac",
+        "channels": 1,
+        "sample_rate": 44100
+      }
+    },
+    "scene_seconds": [
+      4,
+      6
+    ],
+    "scenes": [
+      {
+        "id": "S01_v02",
+        "start": 0,
+        "end": 227
+      },
+      {
+        "id": "S02_v02",
+        "start": 227,
+        "end": 317
+      },
+      {
+        "id": "S03_v02",
+        "start": 317,
+        "end": 413
+      },
+      {
+        "id": "S04_v02",
+        "start": 413,
+        "end": 528
+      },
+      {
+        "id": "S05_v02",
+        "start": 528,
+        "end": 670
+      },
+      {
+        "id": "S06_v02",
+        "start": 670,
+        "end": 732
+      },
+      {
+        "id": "S07_v03",
+        "start": 732,
+        "end": 778
+      },
+      {
+        "id": "S08_v03",
+        "start": 778,
+        "end": 842
+      },
+      {
+        "id": "S09_v03",
+        "start": 842,
+        "end": 929
+      },
+      {
+        "id": "S10_v02",
+        "start": 929,
+        "end": 1032
+      },
+      {
+        "id": "S11_v02",
+        "start": 1032,
+        "end": 1170
+      },
+      {
+        "id": "S12_v02",
+        "start": 1170,
+        "end": 1270
+      },
+      {
+        "id": "S13_v02",
+        "start": 1270,
+        "end": 1380
+      },
+      {
+        "id": "S14_v03",
+        "start": 1380,
+        "end": 1502
+      }
+    ],
+    "cues": [
+      {
+        "id": "C04",
+        "start": 413,
+        "end": 526,
+        "entry_end": 417,
+        "exit_start": 521
+      },
+      {
+        "id": "C05",
+        "start": 586,
+        "end": 667,
+        "entry_end": 590,
+        "exit_start": 662
+      },
+      {
+        "id": "C07",
+        "start": 732,
+        "end": 775,
+        "entry_end": 736,
+        "exit_start": 770
+      },
+      {
+        "id": "C08",
+        "start": 778,
+        "end": 840,
+        "entry_end": 782,
+        "exit_start": 835
+      },
+      {
+        "id": "C09",
+        "start": 842,
+        "end": 926,
+        "entry_end": 846,
+        "exit_start": 921
+      },
+      {
+        "id": "C11",
+        "start": 1032,
+        "end": 1162,
+        "entry_end": 1036,
+        "exit_start": 1157
+      },
+      {
+        "id": "C13",
+        "start": 1378,
+        "end": 1442,
+        "entry_end": 1382,
+        "exit_start": 1437
+      },
+      {
+        "id": "C14",
+        "start": 1442,
+        "end": 1502,
+        "entry_end": 1446,
+        "exit_start": 1497
+      }
+    ],
+    "extra_frames": []
+  },
+  "policy_failures": [
+    {
+      "scene": "S01_v02",
+      "duration_seconds": 7.566666666666666,
+      "required_range_seconds": [
+        4,
+        6
+      ]
+    },
+    {
+      "scene": "S02_v02",
+      "duration_seconds": 3.0,
+      "required_range_seconds": [
+        4,
+        6
+      ]
+    },
+    {
+      "scene": "S03_v02",
+      "duration_seconds": 3.2,
+      "required_range_seconds": [
+        4,
+        6
+      ]
+    },
+    {
+      "scene": "S04_v02",
+      "duration_seconds": 3.8333333333333335,
+      "required_range_seconds": [
+        4,
+        6
+      ]
+    },
+    {
+      "scene": "S06_v02",
+      "duration_seconds": 2.066666666666667,
+      "required_range_seconds": [
+        4,
+        6
+      ]
+    },
+    {
+      "scene": "S07_v03",
+      "duration_seconds": 1.5333333333333334,
+      "required_range_seconds": [
+        4,
+        6
+      ]
+    },
+    {
+      "scene": "S08_v03",
+      "duration_seconds": 2.1333333333333333,
+      "required_range_seconds": [
+        4,
+        6
+      ]
+    },
+    {
+      "scene": "S09_v03",
+      "duration_seconds": 2.9,
+      "required_range_seconds": [
+        4,
+        6
+      ]
+    },
+    {
+      "scene": "S10_v02",
+      "duration_seconds": 3.433333333333333,
+      "required_range_seconds": [
+        4,
+        6
+      ]
+    },
+    {
+      "scene": "S12_v02",
+      "duration_seconds": 3.3333333333333335,
+      "required_range_seconds": [
+        4,
+        6
+      ]
+    },
+    {
+      "scene": "S13_v02",
+      "duration_seconds": 3.6666666666666665,
+      "required_range_seconds": [
+        4,
+        6
+      ]
+    }
+  ],
+  "failures": [],
+  "reported_freshness": {
+    "status": "STALE",
+    "evidence": "CURRENT_CONTEXT: saved edit cleanup after delivery receipt; audit target is existing historical v01, not later motion copy"
+  },
+  "checks": {
+    "stream_metadata": "PASS",
+    "full_decode": "PASS",
+    "frame_extraction": "PASS",
+    "frame_sampling": "UNVERIFIED",
+    "motion_framing": "UNVERIFIED",
+    "cue_timing": "UNVERIFIED",
+    "audio_signal": "UNVERIFIED",
+    "subjective_audio_listening": "UNVERIFIED",
+    "independent_review": "UNVERIFIED"
+  },
+  "inspected_frame_indices": [],
+  "requested_frame_indices": [
+    0,
+    113,
+    226,
+    227,
+    271,
+    316,
+    317,
+    364,
+    412,
+    413,
+    417,
+    469,
+    470,
+    521,
+    525,
+    526,
+    527,
+    528,
+    585,
+    586,
+    590,
+    598,
+    626,
+    662,
+    666,
+    667,
+    669,
+    670,
+    700,
+    731,
+    732,
+    736,
+    753,
+    754,
+    770,
+    774,
+    775,
+    777,
+    778,
+    782,
+    808,
+    809,
+    835,
+    839,
+    840,
+    841,
+    842,
+    846,
+    883,
+    885,
+    921,
+    925,
+    926,
+    928,
+    929,
+    980,
+    1031,
+    1032,
+    1036,
+    1096,
+    1100,
+    1157,
+    1161,
+    1162,
+    1169,
+    1170,
+    1219,
+    1269,
+    1270,
+    1324,
+    1377,
+    1378,
+    1379,
+    1380,
+    1382,
+    1409,
+    1437,
+    1440,
+    1441,
+    1442,
+    1446,
+    1471,
+    1497,
+    1501
+  ],
+  "sha256": "6d3ce02af25a3a655961d25c84448f6d697f7ed4a74865a840cf7df179653dd9",
+  "streams": [
+    {
+      "index": 0,
+      "codec_name": "h264",
+      "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+      "profile": "High",
+      "codec_type": "video",
+      "codec_tag_string": "avc1",
+      "codec_tag": "0x31637661",
+      "mime_codec_string": "avc1.640028",
+      "width": 1080,
+      "height": 1920,
+      "coded_width": 1080,
+      "coded_height": 1920,
+      "has_b_frames": 2,
+      "pix_fmt": "yuv420p",
+      "level": 40,
+      "color_range": "tv",
+      "color_space": "bt709",
+      "color_transfer": "bt709",
+      "color_primaries": "bt709",
+      "chroma_location": "left",
+      "field_order": "progressive",
+      "is_avc": "true",
+      "nal_length_size": "4",
+      "id": "0x1",
+      "r_frame_rate": "30/1",
+      "avg_frame_rate": "30/1",
+      "time_base": "1/15360",
+      "start_pts": 0,
+      "start_time": "0.000000",
+      "duration_ts": 769024,
+      "duration": "50.066667",
+      "bit_rate": "45330704",
+      "bits_per_raw_sample": "8",
+      "nb_frames": "1502",
+      "extradata_size": 51,
+      "disposition": {
+        "default": 1,
+        "dub": 0,
+        "original": 0,
+        "comment": 0,
+        "lyrics": 0,
+        "karaoke": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "visual_impaired": 0,
+        "clean_effects": 0,
+        "attached_pic": 0,
+        "timed_thumbnails": 0,
+        "non_diegetic": 0,
+        "captions": 0,
+        "descriptions": 0,
+        "metadata": 0,
+        "dependent": 0,
+        "still_image": 0,
+        "multilayer": 0
+      },
+      "tags": {
+        "language": "und",
+        "handler_name": "Core Media Video",
+        "encoder": "Lavc62.28.102 libx264"
+      }
+    },
+    {
+      "index": 1,
+      "codec_name": "aac",
+      "codec_long_name": "AAC (Advanced Audio Coding)",
+      "profile": "LC",
+      "codec_type": "audio",
+      "codec_tag_string": "mp4a",
+      "codec_tag": "0x6134706d",
+      "mime_codec_string": "mp4a.40.2",
+      "sample_fmt": "fltp",
+      "sample_rate": "44100",
+      "channels": 1,
+      "channel_layout": "mono",
+      "bits_per_sample": 0,
+      "initial_padding": 0,
+      "id": "0x2",
+      "r_frame_rate": "0/0",
+      "avg_frame_rate": "0/0",
+      "time_base": "1/44100",
+      "start_pts": 0,
+      "start_time": "0.000000",
+      "duration_ts": 2118255,
+      "duration": "48.032993",
+      "bit_rate": "181298",
+      "nb_frames": "2070",
+      "extradata_size": 5,
+      "disposition": {
+        "default": 1,
+        "dub": 0,
+        "original": 0,
+        "comment": 0,
+        "lyrics": 0,
+        "karaoke": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "visual_impaired": 0,
+        "clean_effects": 0,
+        "attached_pic": 0,
+        "timed_thumbnails": 0,
+        "non_diegetic": 0,
+        "captions": 0,
+        "descriptions": 0,
+        "metadata": 0,
+        "dependent": 0,
+        "still_image": 0,
+        "multilayer": 0
+      },
+      "tags": {
+        "language": "und",
+        "handler_name": "Core Media Audio"
+      }
+    }
+  ],
+  "decoded_video_frames": 1502,
+  "audio_measurements": {
+    "stream": "0:a:0",
+    "method": "sample levels and silence candidates; not listening",
+    "mean_dbfs": [
+      "-25.3"
+    ],
+    "sample_peak_dbfs": [
+      "-4.1"
+    ],
+    "silence_candidate_threshold_dbfs": -50,
+    "minimum_silence_seconds": 0.25
+  },
+  "audio_analysis_execution": "PASS",
+  "frame_map": [
+    {
+      "index": 0,
+      "path": "frames/000000.png"
+    },
+    {
+      "index": 113,
+      "path": "frames/000001.png"
+    },
+    {
+      "index": 226,
+      "path": "frames/000002.png"
+    },
+    {
+      "index": 227,
+      "path": "frames/000003.png"
+    },
+    {
+      "index": 271,
+      "path": "frames/000004.png"
+    },
+    {
+      "index": 316,
+      "path": "frames/000005.png"
+    },
+    {
+      "index": 317,
+      "path": "frames/000006.png"
+    },
+    {
+      "index": 364,
+      "path": "frames/000007.png"
+    },
+    {
+      "index": 412,
+      "path": "frames/000008.png"
+    },
+    {
+      "index": 413,
+      "path": "frames/000009.png"
+    },
+    {
+      "index": 417,
+      "path": "frames/000010.png"
+    },
+    {
+      "index": 469,
+      "path": "frames/000011.png"
+    },
+    {
+      "index": 470,
+      "path": "frames/000012.png"
+    },
+    {
+      "index": 521,
+      "path": "frames/000013.png"
+    },
+    {
+      "index": 525,
+      "path": "frames/000014.png"
+    },
+    {
+      "index": 526,
+      "path": "frames/000015.png"
+    },
+    {
+      "index": 527,
+      "path": "frames/000016.png"
+    },
+    {
+      "index": 528,
+      "path": "frames/000017.png"
+    },
+    {
+      "index": 585,
+      "path": "frames/000018.png"
+    },
+    {
+      "index": 586,
+      "path": "frames/000019.png"
+    },
+    {
+      "index": 590,
+      "path": "frames/000020.png"
+    },
+    {
+      "index": 598,
+      "path": "frames/000021.png"
+    },
+    {
+      "index": 626,
+      "path": "frames/000022.png"
+    },
+    {
+      "index": 662,
+      "path": "frames/000023.png"
+    },
+    {
+      "index": 666,
+      "path": "frames/000024.png"
+    },
+    {
+      "index": 667,
+      "path": "frames/000025.png"
+    },
+    {
+      "index": 669,
+      "path": "frames/000026.png"
+    },
+    {
+      "index": 670,
+      "path": "frames/000027.png"
+    },
+    {
+      "index": 700,
+      "path": "frames/000028.png"
+    },
+    {
+      "index": 731,
+      "path": "frames/000029.png"
+    },
+    {
+      "index": 732,
+      "path": "frames/000030.png"
+    },
+    {
+      "index": 736,
+      "path": "frames/000031.png"
+    },
+    {
+      "index": 753,
+      "path": "frames/000032.png"
+    },
+    {
+      "index": 754,
+      "path": "frames/000033.png"
+    },
+    {
+      "index": 770,
+      "path": "frames/000034.png"
+    },
+    {
+      "index": 774,
+      "path": "frames/000035.png"
+    },
+    {
+      "index": 775,
+      "path": "frames/000036.png"
+    },
+    {
+      "index": 777,
+      "path": "frames/000037.png"
+    },
+    {
+      "index": 778,
+      "path": "frames/000038.png"
+    },
+    {
+      "index": 782,
+      "path": "frames/000039.png"
+    },
+    {
+      "index": 808,
+      "path": "frames/000040.png"
+    },
+    {
+      "index": 809,
+      "path": "frames/000041.png"
+    },
+    {
+      "index": 835,
+      "path": "frames/000042.png"
+    },
+    {
+      "index": 839,
+      "path": "frames/000043.png"
+    },
+    {
+      "index": 840,
+      "path": "frames/000044.png"
+    },
+    {
+      "index": 841,
+      "path": "frames/000045.png"
+    },
+    {
+      "index": 842,
+      "path": "frames/000046.png"
+    },
+    {
+      "index": 846,
+      "path": "frames/000047.png"
+    },
+    {
+      "index": 883,
+      "path": "frames/000048.png"
+    },
+    {
+      "index": 885,
+      "path": "frames/000049.png"
+    },
+    {
+      "index": 921,
+      "path": "frames/000050.png"
+    },
+    {
+      "index": 925,
+      "path": "frames/000051.png"
+    },
+    {
+      "index": 926,
+      "path": "frames/000052.png"
+    },
+    {
+      "index": 928,
+      "path": "frames/000053.png"
+    },
+    {
+      "index": 929,
+      "path": "frames/000054.png"
+    },
+    {
+      "index": 980,
+      "path": "frames/000055.png"
+    },
+    {
+      "index": 1031,
+      "path": "frames/000056.png"
+    },
+    {
+      "index": 1032,
+      "path": "frames/000057.png"
+    },
+    {
+      "index": 1036,
+      "path": "frames/000058.png"
+    },
+    {
+      "index": 1096,
+      "path": "frames/000059.png"
+    },
+    {
+      "index": 1100,
+      "path": "frames/000060.png"
+    },
+    {
+      "index": 1157,
+      "path": "frames/000061.png"
+    },
+    {
+      "index": 1161,
+      "path": "frames/000062.png"
+    },
+    {
+      "index": 1162,
+      "path": "frames/000063.png"
+    },
+    {
+      "index": 1169,
+      "path": "frames/000064.png"
+    },
+    {
+      "index": 1170,
+      "path": "frames/000065.png"
+    },
+    {
+      "index": 1219,
+      "path": "frames/000066.png"
+    },
+    {
+      "index": 1269,
+      "path": "frames/000067.png"
+    },
+    {
+      "index": 1270,
+      "path": "frames/000068.png"
+    },
+    {
+      "index": 1324,
+      "path": "frames/000069.png"
+    },
+    {
+      "index": 1377,
+      "path": "frames/000070.png"
+    },
+    {
+      "index": 1378,
+      "path": "frames/000071.png"
+    },
+    {
+      "index": 1379,
+      "path": "frames/000072.png"
+    },
+    {
+      "index": 1380,
+      "path": "frames/000073.png"
+    },
+    {
+      "index": 1382,
+      "path": "frames/000074.png"
+    },
+    {
+      "index": 1409,
+      "path": "frames/000075.png"
+    },
+    {
+      "index": 1437,
+      "path": "frames/000076.png"
+    },
+    {
+      "index": 1440,
+      "path": "frames/000077.png"
+    },
+    {
+      "index": 1441,
+      "path": "frames/000078.png"
+    },
+    {
+      "index": 1442,
+      "path": "frames/000079.png"
+    },
+    {
+      "index": 1446,
+      "path": "frames/000080.png"
+    },
+    {
+      "index": 1471,
+      "path": "frames/000081.png"
+    },
+    {
+      "index": 1497,
+      "path": "frames/000082.png"
+    },
+    {
+      "index": 1501,
+      "path": "frames/000083.png"
+    }
+  ],
+  "technical_status": "PASS",
+  "verdict": "FAIL"
+}

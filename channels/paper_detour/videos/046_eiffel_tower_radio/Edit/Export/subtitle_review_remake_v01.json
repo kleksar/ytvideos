@@ -1,0 +1,37 @@
+{
+  "subtitle_contract_sha256": "f0043a4453c23b6cced3f197cf0c25469a07a071e27642689a9118083b6a7038",
+  "checks": {
+    "semantic_grouping": {
+      "status": "UNVERIFIED",
+      "reviewer": "codex-eiffel-remake",
+      "method": "Generated exact-word groups, retained old proper-name protections; heuristic still flags syntax boundaries.",
+      "coverage": "125 groups / 288 tokens; 29 machine boundary warnings remain for full manual review.",
+      "evidence": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Work/eiffel-remake-frame-20261105/scratch/subtitle-prep-v04/caption_groups.json",
+        "sha256": "1fdcad6a54e69bd1c3b9d4d4d7b782431a091799ad55303a0611a3e21d5b635d"
+      }
+    },
+    "audible_sync": {
+      "status": "UNVERIFIED",
+      "reviewer": "codex-eiffel-remake",
+      "method": "No subjective listening mode used in this pass.",
+      "coverage": "Short implementation sample rendered against accepted recording; full speech sync not heard.",
+      "evidence": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Edit/Subtitles/alignment_review_en_v31.md",
+        "sha256": "8011881d897f6290fb165fc51bd023477d21db5fc82363c6f41e0e27659c3bd1"
+      }
+    },
+    "visual_placement": {
+      "status": "PASS",
+      "reviewer": "codex-eiffel-remake",
+      "method": "Reviewed exported 11.37-second two-scene implementation sample at phone size with paper frame, camera movement and word captions composited.",
+      "coverage": "Frames 30,100,160,164,165,250,330; all four frame edges present, caption clears frame, scene motion perceptible, cut 164/165 checked.",
+      "evidence": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Work/eiffel-remake-frame-20261105/scratch/sample-review-v02/contact.png",
+        "sha256": "bf4e78158bcda3a091a40578e29d266460e7b4e2bb23c073b5498b86340bfb3c",
+        "sample_video": "/Users/diplomat/ytvideos/channels/paper_detour/videos/046_eiffel_tower_radio/Work/eiffel-remake-frame-20261105/scratch/sample-output-v04/paper_frame_motion_caption_sample_v02.mp4",
+        "sample_video_sha256": "7c524450a1b294413a68228e10c311154e16b6c3a4af4131f0aa1e74233316fe"
+      }
+    }
+  }
+}

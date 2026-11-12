@@ -1,0 +1,100 @@
+{
+  "version": 1,
+  "video_id": "Y_TB6r4jI9I",
+  "channel_id": "UCMVfdfaNxV3ZkI3_J3Eejzw",
+  "title": "Even Coming Home Meant 30 Days of Waiting",
+  "state": "option_A_applied_in_studio",
+  "requested_count": 3,
+  "options": [
+    {
+      "option": "A",
+      "lettering": "SO CLOSE TO HOME",
+      "concept": "Return home: one traveler at the closed gate, rooftops visible through a narrow opening.",
+      "master": {
+        "path": "Masters/PD044_A_so_close_to_home_v03.png",
+        "sha256": "1e613a9fb23e0e38fb9b312e2260a8ab841863250deb433c456188b2f7eed2be",
+        "width": 981,
+        "height": 1602,
+        "bytes": 3129891
+      },
+      "export_9x16": {
+        "path": "Exports/PD044_A_so_close_to_home_v03_9x16.png",
+        "sha256": "9dfd6437293a4fc46b84f3c0fa886523f7bbf3e314464a642a070efcdd2cf4f8",
+        "width": 900,
+        "height": 1600,
+        "bytes": 2744315
+      },
+      "qa": {
+        "directory": "QA_A_v03",
+        "full_preview": "qa_full_360x640.jpg",
+        "central_2x3_preview": "qa_2x3_360x540.jpg",
+        "observed": "Exact lettering is legible; main story clue is visible in full and central crop."
+      },
+      "status": "selected_by_user_and_applied_in_studio"
+    },
+    {
+      "option": "B",
+      "lettering": "30 DAYS APART",
+      "concept": "The 30-day rule: two travelers wait at a schematic shore shelter, with a broad gap to the walled harbor.",
+      "master": {
+        "path": "Masters/PD044_B_30_days_apart_v01.png",
+        "sha256": "b557e8b43941fca60fa311d91a889bfc8bc0ccfd1b121e4ad5c35d9898688a9c",
+        "width": 941,
+        "height": 1672,
+        "bytes": 3324517
+      },
+      "export_9x16": {
+        "path": "Exports/PD044_B_30_days_apart_v01_9x16.png",
+        "sha256": "039a8c0817b270b2197ff6641be3132508eb0c7f3f2b90f23648b4b616e37b1f",
+        "width": 936,
+        "height": 1664,
+        "bytes": 3054138
+      },
+      "qa": {
+        "directory": "QA_B_v01",
+        "full_preview": "qa_full_360x640.jpg",
+        "central_2x3_preview": "qa_2x3_360x540.jpg",
+        "observed": "Exact lettering is legible; main story clue is visible in full and central crop."
+      },
+      "status": "proposal_only_not_applied"
+    },
+    {
+      "option": "C",
+      "lettering": "30 BECAME 40",
+      "concept": "The later change to forty days and the word quarantine: symbolic paper hourglass before the harbor.",
+      "master": {
+        "path": "Masters/PD044_C_30_became_40_v02.png",
+        "sha256": "b2520babfc3e548a9714905d132e84bddbe02068090846a779a44b7e60d5aea6",
+        "width": 941,
+        "height": 1671,
+        "bytes": 3107415
+      },
+      "export_9x16": {
+        "path": "Exports/PD044_C_30_became_40_v02_9x16.png",
+        "sha256": "e40c474ef114b5b7e4101fef35429cbdbb57fea13cf0c0272cab9f40441f4234",
+        "width": 936,
+        "height": 1664,
+        "bytes": 2933854
+      },
+      "qa": {
+        "directory": "QA_C_v02",
+        "full_preview": "qa_full_360x640.jpg",
+        "central_2x3_preview": "qa_2x3_360x540.jpg",
+        "observed": "Exact lettering is legible; main story clue is visible in full and central crop."
+      },
+      "status": "proposal_only_not_applied"
+    }
+  ],
+  "native_shorts_ab_testing": "unavailable; no experiment started",
+  "live_card_check": "Studio save confirmation observed for option A; actual public Shorts shelf propagation not rechecked.",
+  "applied_asset": {
+    "path": "Upload/PD044_A_so_close_to_home_v03_2160x3840.png",
+    "sha256": "1e0a5d119aef5bbb724c2b09125678ecc82a498e51ba586ddfef09e8c89e6fb3",
+    "width": 2160,
+    "height": 3840,
+    "studio_save_confirmed": true
+  },
+  "local_media_retired": true,
+  "retired_at_utc": "2026-11-03T21:42:35Z",
+  "retirement_receipt": "../../../Edit/MediaLifecycle/REOPENED_ASSETS_RETIREMENT_v01.json"
+}

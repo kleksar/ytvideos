@@ -1,0 +1,36 @@
+{
+  "run_id": "123f33f7-7115-4f29-b055-028bb93f59ea",
+  "task_id": "research",
+  "input_hash": "721808383d9e0dc05ef80e98d459af8b0a0cfa4e25ff39b15c81dd654bb4069a",
+  "output_sha256": "c7a52a6d44c052323facedc523ef51e9e9a4f67b084b8730f5360d002dddbba6",
+  "worker": "codex-current",
+  "checks": [
+    {
+      "name": "sources",
+      "status": "pass",
+      "method": "Compared episode descriptions with retrieved webpages",
+      "observed": {
+        "sources": 4,
+        "precision": "episode-level only"
+      }
+    },
+    {
+      "name": "topic_overlap",
+      "status": "pass",
+      "method": "Searched local channel markdown and JSON for names",
+      "observed": {
+        "match": "channels/scenes_on_repeat/research/20261111-next-character-series.md",
+        "limitation": "Full chat and publication history not verified"
+      }
+    },
+    {
+      "name": "viewer_value",
+      "status": "pass",
+      "method": "Editorial analysis of selected concept and user brief",
+      "observed": {
+        "value": "Recognizable emotional and visual contrasts in two distinct short edits.",
+        "limitation": "Viewer response not tested"
+      }
+    }
+  ]
+}

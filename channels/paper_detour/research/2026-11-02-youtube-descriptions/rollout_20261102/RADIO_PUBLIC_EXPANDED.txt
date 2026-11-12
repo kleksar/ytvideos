@@ -1,0 +1,401 @@
+- banner:
+  - button "Гид":
+  - link "Главная страница YouTube":
+    - /url: /
+  - generic: RS
+  - button "Пропустить":
+    - generic: Пропустить
+  - search:
+    - combobox "Поиск" [expanded]
+    - button
+    - button "Search":
+  - button "Голосовой поиск":
+  - tooltip "tooltip"
+  - button "Создать":
+    - generic: Создать
+  - button "Уведомления":
+    - generic: "1"
+  - tooltip "tooltip"
+  - button "Меню аккаунта":
+    - img "Фото профиля"
+- main:
+  - complementary:
+    - generic "Проигрыватель YouTube":
+      - button "Смотреть":
+      - button "Логотип канала":
+        - img "Логотип канала"
+      - slider "Ползунок поиска"
+      - slider "Чтобы перемотать видео точнее, нажмите на панель или прокрутите ее"
+      - button "Смотреть (k)":
+      - button "Отключение звука (m)":
+      - slider "Громкость"
+      - button "0 мин. 0 сек. (общая длительность 4 мин. 20 сек.)": 0:00 / 4:20
+      - button "A sound worth recording":
+        - generic "A sound worth recording"
+      - button "Автовоспроизведение включено"
+      - button "Субтитры недоступны":
+      - button "Настройки":
+      - button "Широкий экран (t)":
+      - button "Во весь экран (f)":
+  - heading "How People Got Computer Programs From the Radio" [level=1]
+  - link "Paper Detour":
+    - /url: /@rarovista
+    - img "Paper Detour"
+  - generic "Paper Detour":
+    - link "Paper Detour":
+      - /url: /@rarovista
+  - generic "4 подписчика"
+  - link "Посмотреть аналитику":
+    - /url: /analytics#;fi=v-0RaC4t7yn5o
+    - generic: Посмотреть аналитику
+  - link "Изменить видео":
+    - /url: https://studio.youtube.com/video/0RaC4t7yn5o/edit
+    - generic: Изменить видео
+  - button "поставить отметку \"Нравится\"":
+    - generic: "0"
+  - tooltip "tooltip"
+  - button "Поделиться":
+  - link "Продвижение":
+    - /url: https://studio.youtube.com/channel/UCMVfdfaNxV3ZkI3_J3Eejzw/content/promotions?d=pcd&videoId=0RaC4t7yn5o&promotionEntryPoint=PROMOTION_ENTRY_POINT_VIDEO_WATCH_PAGE
+  - tooltip "tooltip"
+  - button "Добавить в плейлист":
+  - button:
+  - tooltip "tooltip"
+  - button "Ещё":
+  - text: 13 просмотров 31 окт. 2026 г.
+  - link "#RetroComputing":
+    - /url: /hashtag/retrocomputing
+  - link "#ComputerHistory":
+    - /url: /hashtag/computerhistory
+  - link "#TechnologyHistory":
+    - /url: /hashtag/technologyhistory
+  - text: In 1980s Brazil, Clip Informática on Radio USP in São Paulo sent computer programs over the air as sound. A listener could record the signal onto cassette; a compatible home computer could then try to read its patterns as data. The path ran from station to radio, cassette, and computer—but distortion, recording level, playback speed, and compatibility all mattered. Datassette catalogues its copy of episode 102 with a 1987 date and MSX software audio near the end. Separately, developer Weber Kai identified an online recording as episode 102 and described trying to decode it. Kai reported a match with the MSX game Avenger. We haven’t independently repeated his decoding, established that the two recordings are identical, or verified a game launch. His public notes do not provide a complete comparison record.
+  - link "0 секунд":
+    - /url: /watch?v=0RaC4t7yn5o
+    - text: 00:00
+  - text: A sound worth recording
+  - link "32 секунды":
+    - /url: /watch?v=0RaC4t7yn5o&t=32s&pp=0gcJCWMAwfN6Pr3D
+    - text: 00:32
+  - text: The Brazilian radio show
+  - link "1 минута 15 секунд":
+    - /url: /watch?v=0RaC4t7yn5o&t=75s
+    - text: 01:15
+  - text: How a cassette carries data
+  - link "2 минуты":
+    - /url: /watch?v=0RaC4t7yn5o&t=120s
+    - text: 02:00
+  - text: A program takes the air
+  - link "2 минуты 43 секунды":
+    - /url: /watch?v=0RaC4t7yn5o&t=163s
+    - text: 02:43
+  - text: Decoding the recording
+  - link "3 минуты 21 секунда":
+    - /url: /watch?v=0RaC4t7yn5o&t=201s
+    - text: 03:21
+  - text: The reported match
+  - link "3 минуты 54 секунды":
+    - /url: /watch?v=0RaC4t7yn5o&t=234s
+    - text: 03:54
+  - text: The sound and the message
+  - link "#RetroComputing":
+    - /url: /hashtag/retrocomputing
+  - link "#ComputerHistory":
+    - /url: /hashtag/computerhistory
+  - link "#TechnologyHistory":
+    - /url: /hashtag/technologyhistory
+  - link "#History":
+    - /url: /hashtag/history
+  - link "#RetroTechnology":
+    - /url: /hashtag/retrotechnology
+  - link "#ClipInformatica":
+    - /url: /hashtag/clipinformatica
+  - link "#BrazilianRadio":
+    - /url: /hashtag/brazilianradio
+  - link "#MSX":
+    - /url: /hashtag/msx
+  - link "#1980sComputing":
+    - /url: /hashtag/1980scomputing
+  - generic: Как это было сделано
+  - generic: Создано с помощью ИИ
+  - text: Аудио- или видеоряд был изменен или полностью сгенерирован.
+  - link "Подробнее":
+    - /url: //support.google.com/youtube/answer/15447836?hl=ru
+  - heading "Эпизоды Показать все" [level=2]:
+    - generic: Эпизоды
+    - button "Показать все":
+      - generic: Показать все
+  - link "A sound worth recording 0:00":
+    - /url: /watch?v=0RaC4t7yn5o
+    - heading "A sound worth recording" [level=3]
+    - generic: 0:00
+  - link "The Brazilian radio show 0:32":
+    - /url: /watch?v=0RaC4t7yn5o&t=32s
+    - heading "The Brazilian radio show" [level=3]
+    - generic: 0:32
+  - link "How a cassette carries data 1:15":
+    - /url: /watch?v=0RaC4t7yn5o&t=75s
+    - heading "How a cassette carries data" [level=3]
+    - generic: 1:15
+  - link "A program takes the air 2:00":
+    - /url: /watch?v=0RaC4t7yn5o&t=120s
+    - heading "A program takes the air" [level=3]
+    - generic: 2:00
+  - link "Decoding the recording 2:43":
+    - /url: /watch?v=0RaC4t7yn5o&t=163s
+    - heading "Decoding the recording" [level=3]
+    - generic: 2:43
+  - link "The reported match 3:21":
+    - /url: /watch?v=0RaC4t7yn5o&t=201s
+    - heading "The reported match" [level=3]
+    - generic: 3:21
+  - link "The sound and the message 3:54":
+    - /url: /watch?v=0RaC4t7yn5o&t=234s
+    - heading "The sound and the message" [level=3]
+    - generic: 3:54
+  - generic: Расшифровка видео
+  - paragraph: Расшифровка позволяет быстро находить в видео нужную информацию.
+  - button "Показать текст видео":
+    - generic: Показать текст видео
+  - link "Paper Detour 4 подписчика":
+    - /url: /@rarovista
+    - heading "Paper Detour" [level=3]
+    - generic: 4 подписчика
+  - link "Видео":
+    - /url: /channel/UCMVfdfaNxV3ZkI3_J3Eejzw/videos
+    - generic: Видео
+  - link "О канале":
+    - /url: /channel/UCMVfdfaNxV3ZkI3_J3Eejzw/about
+    - generic: О канале
+  - button "Свернуть"
+  - text: •
+  - heading "0 комментариев" [level=2]:
+    - generic: 0 комментариев
+  - tooltip "tooltip"
+  - button "Упорядочить комментарии":
+    - generic: Упорядочить
+  - img "Paper Detour"
+  - textbox
+  - tablist:
+    - tab "Все видео" [selected]:
+      - generic: Все видео
+    - tab "Просмотрено":
+      - generic: Просмотрено
+  - link:
+    - /url: /watch?v=m6KnVTYtSc0&pp=0gcJCSsMAYcqIYzv
+  - heading "Why Does Fentanyl Feel So Good?" [level=3]:
+    - link "Why Does Fentanyl Feel So Good? 14 минут 58 секунд":
+      - /url: /watch?v=m6KnVTYtSc0&pp=0gcJCSsMAYcqIYzv
+      - text: Why Does Fentanyl Feel So Good?
+  - generic: Kurzgesagt – In a Nutshell
+  - generic "Подтверждено":
+  - generic "13 миллионов просмотров": 13 млн
+  - generic "1 год назад": 1 г. назад
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=LPZh9BOjkQs&pp=ugUEEgJydQ%3D%3D
+  - heading "Краткое объяснение больших языковых моделей" [level=3]:
+    - link "Краткое объяснение больших языковых моделей 7 минут 58 секунд":
+      - /url: /watch?v=LPZh9BOjkQs&pp=ugUEEgJydQ%3D%3D
+      - text: Краткое объяснение больших языковых моделей
+  - generic: 3Blue1Brown
+  - generic "Подтверждено":
+  - generic "8,3 миллиона просмотров": 8,3 млн
+  - generic "1 год назад": 1 г. назад
+  - generic: Дубляж
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=gtyKM7xTv18
+  - 'heading "Заработок на AI-видео: Самый позорный скам 2026 года" [level=3]':
+    - 'link "Заработок на AI-видео: Самый позорный скам 2026 года 52 минуты"':
+      - /url: /watch?v=gtyKM7xTv18
+      - text: "Заработок на AI-видео: Самый позорный скам 2026 года"
+  - generic: YETI INSIGHT
+  - generic "7,8 тысячи просмотров": 7,8 тыс.
+  - generic "10 часов назад": 10 ч назад
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=QQkmJI63ykI
+  - heading "The Man Who Killed Millions and Saved Billions (Clean Version)" [level=3]:
+    - link "The Man Who Killed Millions and Saved Billions (Clean Version) 20 минут":
+      - /url: /watch?v=QQkmJI63ykI
+      - text: The Man Who Killed Millions and Saved Billions (Clean Version)
+  - generic: Veritasium
+  - generic "Подтверждено":
+  - generic "10 миллионов просмотров": 10 млн
+  - generic "3 года назад": 3 г. назад
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=UCrC5B3Soyc&pp=ugUEEgJlbg%3D%3D
+  - heading "8 Bad Habits that KILL Small Channels" [level=3]:
+    - link "8 Bad Habits that KILL Small Channels 10 минут 42 секунды":
+      - /url: /watch?v=UCrC5B3Soyc&pp=ugUEEgJlbg%3D%3D
+      - text: 8 Bad Habits that KILL Small Channels
+  - generic: vidIQ
+  - generic "Подтверждено":
+  - generic "231 тысяча просмотров": 231 тыс.
+  - generic "5 месяцев назад": 5 мес. назад
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=6_MrVEXM06E&pp=ugUEEgJlbg%3D%3D
+  - heading "How I Create INSANE Explainer Videos With Claude For $0" [level=3]:
+    - link "How I Create INSANE Explainer Videos With Claude For $0 8 минут 8 секунд":
+      - /url: /watch?v=6_MrVEXM06E&pp=ugUEEgJlbg%3D%3D
+      - text: How I Create INSANE Explainer Videos With Claude For $0
+  - generic: Michael Szach
+  - generic "50 тысяч просмотров": 50 тыс.
+  - generic "3 дня назад": 3 дн. назад
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=pQsdygaYcE4&pp=ugUEEgJlbg%3D%3D
+  - 'heading "P vs NP Explained: Computer Science''s Biggest Puzzle" [level=3]':
+    - 'link "P vs NP Explained: Computer Science''s Biggest Puzzle 19 минут"':
+      - /url: /watch?v=pQsdygaYcE4&pp=ugUEEgJlbg%3D%3D
+      - text: "P vs NP Explained: Computer Science's Biggest Puzzle"
+  - generic: Quanta Magazine
+  - generic "Подтверждено":
+  - generic "1,5 миллиона просмотров": 1,5 млн
+  - generic "2 года назад": 2 г. назад
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=wSyqqTYqUKo&pp=ugUHEgVlbi1VUw%3D%3D
+  - heading "Extreme Vigilante Justice in History" [level=3]:
+    - link "Extreme Vigilante Justice in History 29 минут":
+      - /url: /watch?v=wSyqqTYqUKo&pp=ugUHEgVlbi1VUw%3D%3D
+      - text: Extreme Vigilante Justice in History
+  - generic: Serious History
+  - generic "Подтверждено":
+  - generic "7,5 миллиона просмотров": 7,5 млн
+  - generic "8 месяцев назад": 8 мес. назад
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=iTOKRWgjOlg
+  - heading "The Lost Colony of Roanoke" [level=3]:
+    - link "The Lost Colony of Roanoke 27 минут":
+      - /url: /watch?v=iTOKRWgjOlg
+      - text: The Lost Colony of Roanoke
+  - generic: LEMMiNO
+  - generic "Подтверждено":
+  - generic "8,5 миллиона просмотров": 8,5 млн
+  - generic "6 лет назад": 6 л. назад
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=QtxVdC7pBQM
+  - heading "The Ridiculous Engineering Of Jet Engines" [level=3]:
+    - link "The Ridiculous Engineering Of Jet Engines 39 минут":
+      - /url: /watch?v=QtxVdC7pBQM
+      - text: The Ridiculous Engineering Of Jet Engines
+  - generic: Veritasium
+  - generic "Подтверждено":
+  - generic "16 миллионов просмотров": 16 млн
+  - generic "11 месяцев назад": 11 мес. назад
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=uig28JMWoWY
+  - 'heading "Wisdom Research Forum: \"Solomon''s paradox\" by Igor Grossmann, PhD" [level=3]':
+    - 'link "Wisdom Research Forum: \"Solomon''s paradox\" by Igor Grossmann, PhD 26 минут"':
+      - /url: /watch?v=uig28JMWoWY
+      - text: "Wisdom Research Forum: \"Solomon's paradox\" by Igor Grossmann, PhD"
+  - generic: University of Chicago Center for Practical Wisdom
+  - generic "3,3 тысячи просмотров": 3,3 тыс.
+  - generic "11 лет назад": 11 л. назад
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=AF8d72mA41M&pp=ugUEEgJlbg%3D%3D
+  - heading "Why It Was Almost Impossible to Make the Blue LED" [level=3]:
+    - link "Why It Was Almost Impossible to Make the Blue LED 33 минуты":
+      - /url: /watch?v=AF8d72mA41M&pp=ugUEEgJlbg%3D%3D
+      - text: Why It Was Almost Impossible to Make the Blue LED
+  - generic: Veritasium
+  - generic "Подтверждено":
+  - generic "56 миллионов просмотров": 56 млн
+  - generic "2 года назад": 2 г. назад
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=X1L1Hd3xfrU
+  - heading "How reading changes the way your brain works - BBC World Service" [level=3]:
+    - link "How reading changes the way your brain works - BBC World Service 5 минут 55 секунд":
+      - /url: /watch?v=X1L1Hd3xfrU
+      - text: How reading changes the way your brain works - BBC World Service
+  - generic: BBC World Service
+  - generic "Подтверждено":
+  - generic "6,4 миллиона просмотров": 6,4 млн
+  - generic "10 месяцев назад": 10 мес. назад
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=d59UDOzfxeg
+  - heading "Айсберг дистрибутивов Linux" [level=3]:
+    - link "Айсберг дистрибутивов Linux 23 минуты":
+      - /url: /watch?v=d59UDOzfxeg
+      - text: Айсберг дистрибутивов Linux
+  - generic: Merion Academy
+  - generic "Подтверждено":
+  - generic "397 тысяч просмотров": 397 тыс.
+  - generic "2 месяца назад": 2 мес. назад
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=kd2KEHvK-q8&pp=ugUEEgJlbtIHCQkrDAGHKiGM7w%3D%3D
+  - heading "The Vanishing of Flight 370" [level=3]:
+    - link "The Vanishing of Flight 370 24 минуты":
+      - /url: /watch?v=kd2KEHvK-q8&pp=ugUEEgJlbtIHCQkrDAGHKiGM7w%3D%3D
+      - text: The Vanishing of Flight 370
+  - generic: LEMMiNO
+  - generic "Подтверждено":
+  - generic "30 миллионов просмотров": 30 млн
+  - generic "7 лет назад": 7 л. назад
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=ILgSesWMUEI
+  - heading "The Closest We've Come to Destroying Humantiy" [level=3]:
+    - link "The Closest We've Come to Destroying Humantiy 16 минут":
+      - /url: /watch?v=ILgSesWMUEI
+      - text: The Closest We've Come to Destroying Humantiy
+  - generic: Veritasium
+  - generic "Подтверждено":
+  - generic "4,9 миллиона просмотров": 4,9 млн
+  - generic "3 года назад": 3 г. назад
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=U0-ttGGB7b4&pp=ugUEEgJlbg%3D%3D
+  - heading "When You Just Ain’t Got it All Together" [level=3]:
+    - link "When You Just Ain’t Got it All Together 16 минут":
+      - /url: /watch?v=U0-ttGGB7b4&pp=ugUEEgJlbg%3D%3D
+      - text: When You Just Ain’t Got it All Together
+  - generic: Dry Creek Wrangler School
+  - generic "Подтверждено":
+  - generic "8,9 миллиона просмотров": 8,9 млн
+  - generic "3 года назад": 3 г. назад
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=A6nGdWlcdaE&pp=ugUEEgJlbg%3D%3D
+  - heading "The Fastest Way to 1,000 Subs in 2026" [level=3]:
+    - link "The Fastest Way to 1,000 Subs in 2026 9 минут 21 секунда":
+      - /url: /watch?v=A6nGdWlcdaE&pp=ugUEEgJlbg%3D%3D
+      - text: The Fastest Way to 1,000 Subs in 2026
+  - generic: vidIQ
+  - generic "Подтверждено":
+  - generic "168 тысяч просмотров": 168 тыс.
+  - generic "5 месяцев назад": 5 мес. назад
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=GgC86hZitrI&pp=ugUEEgJyddIHCQkrDAGHKiGM7w%3D%3D
+  - heading "Если видео НЕ НАБИРАЕТ просмотры через 24 часа - сделай это..." [level=3]:
+    - link "Если видео НЕ НАБИРАЕТ просмотры через 24 часа - сделай это... 10 минут 17 секунд":
+      - /url: /watch?v=GgC86hZitrI&pp=ugUEEgJyddIHCQkrDAGHKiGM7w%3D%3D
+      - text: Если видео НЕ НАБИРАЕТ просмотры через 24 часа - сделай это...
+  - generic: Александр Арнаут
+  - generic "171 тысяча просмотров": 171 тыс.
+  - generic "3 месяца назад": 3 мес. назад
+  - button "Ещё":
+  - link:
+    - /url: /watch?v=5N1moUCsVhI&pp=ugUEEgJlbg%3D%3D
+  - heading "Claude Edited My Entire CapCut Video (I Didn’t Touch the Timeline)" [level=3]:
+    - link "Claude Edited My Entire CapCut Video (I Didn’t Touch the Timeline) 10 минут 1 секунда":
+      - /url: /watch?v=5N1moUCsVhI&pp=ugUEEgJlbg%3D%3D
+      - text: Claude Edited My Entire CapCut Video (I Didn’t Touch the Timeline)
+  - generic: Matt Loui
+  - generic "Подтверждено":
+  - generic "892 тысячи просмотров": 892 тыс.
+  - generic "3 недели назад": 3 нед. назад
+  - generic: Автодубляж
+  - button "Ещё":

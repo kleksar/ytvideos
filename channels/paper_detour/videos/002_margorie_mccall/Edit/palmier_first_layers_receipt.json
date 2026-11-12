@@ -1,0 +1,1188 @@
+{
+  "project": "/Users/diplomat/Documents/Palmier Pro/Paper Detour 002 Margorie McCall.palmier",
+  "timeline": "7AD04C1F",
+  "steps": [
+    {
+      "tool": "import_media",
+      "arguments": {
+        "source": {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/002_margorie_mccall/Source/Images/11_home_bg.png"
+        },
+        "folder": "Independent layers"
+      },
+      "status": "done",
+      "result": {
+        "mediaRef": "9C77C8E4",
+        "name": "11_home_bg",
+        "status": "ready",
+        "type": "image"
+      }
+    },
+    {
+      "tool": "import_media",
+      "arguments": {
+        "source": {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/002_margorie_mccall/Source/Images/12_family_table_layer.png"
+        },
+        "folder": "Independent layers"
+      },
+      "status": "done",
+      "result": {
+        "mediaRef": "356839F0",
+        "name": "12_family_table_layer",
+        "status": "ready",
+        "type": "image"
+      }
+    },
+    {
+      "tool": "import_media",
+      "arguments": {
+        "source": {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/002_margorie_mccall/Source/Images/13_grave_bg.png"
+        },
+        "folder": "Independent layers"
+      },
+      "status": "done",
+      "result": {
+        "mediaRef": "A7DA7334",
+        "name": "13_grave_bg",
+        "status": "ready",
+        "type": "image"
+      }
+    },
+    {
+      "tool": "import_media",
+      "arguments": {
+        "source": {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/002_margorie_mccall/Source/Images/14_grave_robbers_layer.png"
+        },
+        "folder": "Independent layers"
+      },
+      "status": "done",
+      "result": {
+        "mediaRef": "8449BFBE",
+        "name": "14_grave_robbers_layer",
+        "status": "ready",
+        "type": "image"
+      }
+    },
+    {
+      "tool": "import_media",
+      "arguments": {
+        "source": {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/002_margorie_mccall/Source/Images/15_grave_front_layer.png"
+        },
+        "folder": "Independent layers"
+      },
+      "status": "done",
+      "result": {
+        "mediaRef": "9785E8E9",
+        "name": "15_grave_front_layer",
+        "status": "ready",
+        "type": "image"
+      }
+    },
+    {
+      "tool": "add_clips",
+      "arguments": {
+        "entries": [
+          {
+            "mediaRef": "A7DA7334",
+            "startFrame": 523,
+            "endFrame": 623,
+            "trackIndex": 0
+          },
+          {
+            "mediaRef": "9C77C8E4",
+            "startFrame": 1279,
+            "endFrame": 1546,
+            "trackIndex": 0
+          }
+        ]
+      },
+      "status": "done",
+      "result": {
+        "clips": [
+          {
+            "frames": [
+              523,
+              623
+            ],
+            "id": "ACA5B905",
+            "mediaRef": "A7DA7334",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 50
+          },
+          {
+            "frames": [
+              1279,
+              1546
+            ],
+            "id": "563985E8",
+            "mediaRef": "9C77C8E4",
+            "mediaType": "image",
+            "track": 0
+          }
+        ],
+        "removedClipIds": [
+          "4F9C78A4",
+          "FD0A5B1A"
+        ]
+      }
+    },
+    {
+      "tool": "add_clips",
+      "arguments": {
+        "entries": [
+          {
+            "mediaRef": "8449BFBE",
+            "startFrame": 523,
+            "endFrame": 623
+          },
+          {
+            "mediaRef": "356839F0",
+            "startFrame": 1279,
+            "endFrame": 1546
+          }
+        ]
+      },
+      "status": "done",
+      "result": {
+        "clips": [
+          {
+            "frames": [
+              523,
+              623
+            ],
+            "id": "CD9A3DA7",
+            "mediaRef": "8449BFBE",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 50
+          },
+          {
+            "frames": [
+              1279,
+              1546
+            ],
+            "id": "5FB9EE36",
+            "mediaRef": "356839F0",
+            "mediaType": "image",
+            "track": 0
+          }
+        ],
+        "createdTracks": [
+          {
+            "index": 0,
+            "label": "V2",
+            "type": "video"
+          }
+        ],
+        "notes": [
+          "Track indices shifted — re-read get_timeline before the next index-based call."
+        ]
+      }
+    },
+    {
+      "tool": "add_clips",
+      "arguments": {
+        "entries": [
+          {
+            "mediaRef": "9785E8E9",
+            "startFrame": 523,
+            "endFrame": 623
+          }
+        ]
+      },
+      "status": "done",
+      "result": {
+        "clips": [
+          {
+            "frames": [
+              523,
+              623
+            ],
+            "id": "BF815D7B",
+            "mediaRef": "9785E8E9",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 50
+          }
+        ],
+        "createdTracks": [
+          {
+            "index": 0,
+            "label": "V3",
+            "type": "video"
+          }
+        ],
+        "notes": [
+          "Track indices shifted — re-read get_timeline before the next index-based call."
+        ]
+      }
+    },
+    {
+      "tool": "set_clip_properties",
+      "arguments": {
+        "clipIds": [
+          "BF815D7B"
+        ],
+        "crop": {
+          "top": 0.3
+        }
+      },
+      "status": "done",
+      "result": {
+        "changed": true,
+        "clips": [
+          {
+            "crop": {
+              "top": 0.3
+            },
+            "frames": [
+              523,
+              623
+            ],
+            "id": "BF815D7B",
+            "mediaRef": "9785E8E9",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 50
+          }
+        ]
+      }
+    },
+    {
+      "tool": "set_keyframes",
+      "arguments": {
+        "clipId": "ACA5B905",
+        "property": "scale",
+        "keyframes": [
+          [
+            0,
+            1.04,
+            1.04,
+            "smooth"
+          ],
+          [
+            99,
+            1.04,
+            1.04,
+            "smooth"
+          ]
+        ]
+      },
+      "status": "done",
+      "result": {
+        "clips": [
+          {
+            "frames": [
+              523,
+              623
+            ],
+            "id": "ACA5B905",
+            "keyframes": {
+              "scale": [
+                [
+                  0,
+                  1.04,
+                  1.04
+                ],
+                [
+                  99,
+                  1.04,
+                  1.04
+                ]
+              ]
+            },
+            "mediaRef": "A7DA7334",
+            "mediaType": "image",
+            "track": 2,
+            "trimEndFrame": 50
+          }
+        ]
+      }
+    },
+    {
+      "tool": "set_keyframes",
+      "arguments": {
+        "clipId": "ACA5B905",
+        "property": "position",
+        "keyframes": [
+          [
+            0,
+            -0.02,
+            -0.02,
+            "smooth"
+          ],
+          [
+            99,
+            -0.024,
+            -0.02,
+            "smooth"
+          ]
+        ]
+      },
+      "status": "done",
+      "result": {
+        "clips": [
+          {
+            "frames": [
+              523,
+              623
+            ],
+            "id": "ACA5B905",
+            "keyframes": {
+              "position": [
+                [
+                  0,
+                  -0.02,
+                  -0.02
+                ],
+                [
+                  99,
+                  -0.024,
+                  -0.02
+                ]
+              ],
+              "scale": [
+                [
+                  0,
+                  1.04,
+                  1.04
+                ],
+                [
+                  99,
+                  1.04,
+                  1.04
+                ]
+              ]
+            },
+            "mediaRef": "A7DA7334",
+            "mediaType": "image",
+            "track": 2,
+            "trimEndFrame": 50
+          }
+        ]
+      }
+    },
+    {
+      "tool": "set_keyframes",
+      "arguments": {
+        "clipId": "CD9A3DA7",
+        "property": "scale",
+        "keyframes": [
+          [
+            0,
+            1.04,
+            1.04,
+            "smooth"
+          ],
+          [
+            99,
+            1.04,
+            1.04,
+            "smooth"
+          ]
+        ]
+      },
+      "status": "done",
+      "result": {
+        "clips": [
+          {
+            "frames": [
+              523,
+              623
+            ],
+            "id": "CD9A3DA7",
+            "keyframes": {
+              "scale": [
+                [
+                  0,
+                  1.04,
+                  1.04
+                ],
+                [
+                  99,
+                  1.04,
+                  1.04
+                ]
+              ]
+            },
+            "mediaRef": "8449BFBE",
+            "mediaType": "image",
+            "track": 1,
+            "trimEndFrame": 50
+          }
+        ]
+      }
+    },
+    {
+      "tool": "set_keyframes",
+      "arguments": {
+        "clipId": "CD9A3DA7",
+        "property": "position",
+        "keyframes": [
+          [
+            0,
+            -0.02,
+            -0.02,
+            "smooth"
+          ],
+          [
+            99,
+            -0.012,
+            -0.02,
+            "smooth"
+          ]
+        ]
+      },
+      "status": "done",
+      "result": {
+        "clips": [
+          {
+            "frames": [
+              523,
+              623
+            ],
+            "id": "CD9A3DA7",
+            "keyframes": {
+              "position": [
+                [
+                  0,
+                  -0.02,
+                  -0.02
+                ],
+                [
+                  99,
+                  -0.012,
+                  -0.02
+                ]
+              ],
+              "scale": [
+                [
+                  0,
+                  1.04,
+                  1.04
+                ],
+                [
+                  99,
+                  1.04,
+                  1.04
+                ]
+              ]
+            },
+            "mediaRef": "8449BFBE",
+            "mediaType": "image",
+            "track": 1,
+            "trimEndFrame": 50
+          }
+        ]
+      }
+    },
+    {
+      "tool": "set_keyframes",
+      "arguments": {
+        "clipId": "BF815D7B",
+        "property": "scale",
+        "keyframes": [
+          [
+            0,
+            1.04,
+            1.04,
+            "smooth"
+          ],
+          [
+            99,
+            1.04,
+            1.04,
+            "smooth"
+          ]
+        ]
+      },
+      "status": "done",
+      "result": {
+        "clips": [
+          {
+            "crop": {
+              "top": 0.3
+            },
+            "frames": [
+              523,
+              623
+            ],
+            "id": "BF815D7B",
+            "keyframes": {
+              "scale": [
+                [
+                  0,
+                  1.04,
+                  1.04
+                ],
+                [
+                  99,
+                  1.04,
+                  1.04
+                ]
+              ]
+            },
+            "mediaRef": "9785E8E9",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 50
+          }
+        ]
+      }
+    },
+    {
+      "tool": "set_keyframes",
+      "arguments": {
+        "clipId": "BF815D7B",
+        "property": "position",
+        "keyframes": [
+          [
+            0,
+            -0.02,
+            -0.02,
+            "smooth"
+          ],
+          [
+            99,
+            -0.03,
+            -0.02,
+            "smooth"
+          ]
+        ]
+      },
+      "status": "done",
+      "result": {
+        "clips": [
+          {
+            "crop": {
+              "top": 0.3
+            },
+            "frames": [
+              523,
+              623
+            ],
+            "id": "BF815D7B",
+            "keyframes": {
+              "position": [
+                [
+                  0,
+                  -0.02,
+                  -0.02
+                ],
+                [
+                  99,
+                  -0.03,
+                  -0.02
+                ]
+              ],
+              "scale": [
+                [
+                  0,
+                  1.04,
+                  1.04
+                ],
+                [
+                  99,
+                  1.04,
+                  1.04
+                ]
+              ]
+            },
+            "mediaRef": "9785E8E9",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 50
+          }
+        ]
+      }
+    },
+    {
+      "tool": "set_keyframes",
+      "arguments": {
+        "clipId": "563985E8",
+        "property": "scale",
+        "keyframes": [
+          [
+            0,
+            1.04,
+            1.04,
+            "smooth"
+          ],
+          [
+            266,
+            1.04,
+            1.04,
+            "smooth"
+          ]
+        ]
+      },
+      "status": "done",
+      "result": {
+        "clips": [
+          {
+            "frames": [
+              1279,
+              1546
+            ],
+            "id": "563985E8",
+            "keyframes": {
+              "scale": [
+                [
+                  0,
+                  1.04,
+                  1.04
+                ],
+                [
+                  266,
+                  1.04,
+                  1.04
+                ]
+              ]
+            },
+            "mediaRef": "9C77C8E4",
+            "mediaType": "image",
+            "track": 2
+          }
+        ]
+      }
+    },
+    {
+      "tool": "set_keyframes",
+      "arguments": {
+        "clipId": "563985E8",
+        "property": "position",
+        "keyframes": [
+          [
+            0,
+            -0.02,
+            -0.02,
+            "smooth"
+          ],
+          [
+            266,
+            -0.025,
+            -0.02,
+            "smooth"
+          ]
+        ]
+      },
+      "status": "done",
+      "result": {
+        "clips": [
+          {
+            "frames": [
+              1279,
+              1546
+            ],
+            "id": "563985E8",
+            "keyframes": {
+              "position": [
+                [
+                  0,
+                  -0.02,
+                  -0.02
+                ],
+                [
+                  266,
+                  -0.025,
+                  -0.02
+                ]
+              ],
+              "scale": [
+                [
+                  0,
+                  1.04,
+                  1.04
+                ],
+                [
+                  266,
+                  1.04,
+                  1.04
+                ]
+              ]
+            },
+            "mediaRef": "9C77C8E4",
+            "mediaType": "image",
+            "track": 2
+          }
+        ]
+      }
+    },
+    {
+      "tool": "set_keyframes",
+      "arguments": {
+        "clipId": "5FB9EE36",
+        "property": "scale",
+        "keyframes": [
+          [
+            0,
+            1.04,
+            1.04,
+            "smooth"
+          ],
+          [
+            266,
+            1.04,
+            1.04,
+            "smooth"
+          ]
+        ]
+      },
+      "status": "done",
+      "result": {
+        "clips": [
+          {
+            "frames": [
+              1279,
+              1546
+            ],
+            "id": "5FB9EE36",
+            "keyframes": {
+              "scale": [
+                [
+                  0,
+                  1.04,
+                  1.04
+                ],
+                [
+                  266,
+                  1.04,
+                  1.04
+                ]
+              ]
+            },
+            "mediaRef": "356839F0",
+            "mediaType": "image",
+            "track": 1
+          }
+        ]
+      }
+    },
+    {
+      "tool": "set_keyframes",
+      "arguments": {
+        "clipId": "5FB9EE36",
+        "property": "position",
+        "keyframes": [
+          [
+            0,
+            -0.02,
+            -0.02,
+            "smooth"
+          ],
+          [
+            266,
+            -0.007,
+            -0.02,
+            "smooth"
+          ]
+        ]
+      },
+      "status": "done",
+      "result": {
+        "clips": [
+          {
+            "frames": [
+              1279,
+              1546
+            ],
+            "id": "5FB9EE36",
+            "keyframes": {
+              "position": [
+                [
+                  0,
+                  -0.02,
+                  -0.02
+                ],
+                [
+                  266,
+                  -0.007,
+                  -0.02
+                ]
+              ],
+              "scale": [
+                [
+                  0,
+                  1.04,
+                  1.04
+                ],
+                [
+                  266,
+                  1.04,
+                  1.04
+                ]
+              ]
+            },
+            "mediaRef": "356839F0",
+            "mediaType": "image",
+            "track": 1
+          }
+        ]
+      }
+    }
+  ],
+  "refs": {
+    "11_home_bg.png": "9C77C8E4",
+    "12_family_table_layer.png": "356839F0",
+    "13_grave_bg.png": "A7DA7334",
+    "14_grave_robbers_layer.png": "8449BFBE",
+    "15_grave_front_layer.png": "9785E8E9"
+  },
+  "backgrounds": {
+    "A7DA7334": "ACA5B905",
+    "9C77C8E4": "563985E8"
+  },
+  "middles": {
+    "8449BFBE": "CD9A3DA7",
+    "356839F0": "5FB9EE36"
+  },
+  "foreground": "BF815D7B",
+  "timelineAfter": {
+    "canGenerate": false,
+    "currentFrame": 0,
+    "durationSeconds": 76.533,
+    "fps": 30,
+    "height": 1920,
+    "id": "7AD04C1F",
+    "maskOverlayVisible": true,
+    "name": "Timeline 1",
+    "totalFrames": 2296,
+    "tracks": [
+      {
+        "clips": [
+          {
+            "crop": {
+              "top": 0.3
+            },
+            "frames": [
+              523,
+              623
+            ],
+            "id": "BF815D7B",
+            "keyframes": {
+              "position": [
+                [
+                  0,
+                  -0.02,
+                  -0.02
+                ],
+                [
+                  99,
+                  -0.03,
+                  -0.02
+                ]
+              ],
+              "scale": [
+                [
+                  0,
+                  1.04,
+                  1.04
+                ],
+                [
+                  99,
+                  1.04,
+                  1.04
+                ]
+              ]
+            },
+            "mediaRef": "9785E8E9",
+            "mediaType": "image",
+            "trimEndFrame": 50
+          }
+        ],
+        "index": 0,
+        "label": "V3",
+        "trackId": "144FC7F2",
+        "type": "video"
+      },
+      {
+        "clips": [
+          {
+            "frames": [
+              523,
+              623
+            ],
+            "id": "CD9A3DA7",
+            "keyframes": {
+              "position": [
+                [
+                  0,
+                  -0.02,
+                  -0.02
+                ],
+                [
+                  99,
+                  -0.012,
+                  -0.02
+                ]
+              ],
+              "scale": [
+                [
+                  0,
+                  1.04,
+                  1.04
+                ],
+                [
+                  99,
+                  1.04,
+                  1.04
+                ]
+              ]
+            },
+            "mediaRef": "8449BFBE",
+            "mediaType": "image",
+            "trimEndFrame": 50
+          },
+          {
+            "frames": [
+              1279,
+              1546
+            ],
+            "id": "5FB9EE36",
+            "keyframes": {
+              "position": [
+                [
+                  0,
+                  -0.02,
+                  -0.02
+                ],
+                [
+                  266,
+                  -0.007,
+                  -0.02
+                ]
+              ],
+              "scale": [
+                [
+                  0,
+                  1.04,
+                  1.04
+                ],
+                [
+                  266,
+                  1.04,
+                  1.04
+                ]
+              ]
+            },
+            "mediaRef": "356839F0",
+            "mediaType": "image"
+          }
+        ],
+        "gaps": [
+          [
+            623,
+            1279
+          ]
+        ],
+        "index": 1,
+        "label": "V2",
+        "trackId": "3416CA41",
+        "type": "video"
+      },
+      {
+        "clips": [
+          {
+            "frames": [
+              140,
+              248
+            ],
+            "id": "3FCBACF2",
+            "mediaRef": "789DB177",
+            "mediaType": "image",
+            "trimEndFrame": 42
+          },
+          {
+            "frames": [
+              248,
+              423
+            ],
+            "id": "672F6D25",
+            "mediaRef": "CFDB607D",
+            "mediaType": "image"
+          },
+          {
+            "frames": [
+              523,
+              623
+            ],
+            "id": "ACA5B905",
+            "keyframes": {
+              "position": [
+                [
+                  0,
+                  -0.02,
+                  -0.02
+                ],
+                [
+                  99,
+                  -0.024,
+                  -0.02
+                ]
+              ],
+              "scale": [
+                [
+                  0,
+                  1.04,
+                  1.04
+                ],
+                [
+                  99,
+                  1.04,
+                  1.04
+                ]
+              ]
+            },
+            "mediaRef": "A7DA7334",
+            "mediaType": "image",
+            "trimEndFrame": 50
+          },
+          {
+            "frames": [
+              623,
+              773
+            ],
+            "id": "526CF001",
+            "mediaRef": "D5748C1C",
+            "mediaType": "image"
+          },
+          {
+            "frames": [
+              773,
+              1039
+            ],
+            "id": "2CC01C20",
+            "mediaRef": "866D2A87",
+            "mediaType": "image"
+          },
+          {
+            "frames": [
+              1039,
+              1166
+            ],
+            "id": "55FAFBFE",
+            "mediaRef": "C9AA3254",
+            "mediaType": "image",
+            "trimEndFrame": 23
+          },
+          {
+            "frames": [
+              1279,
+              1546
+            ],
+            "id": "563985E8",
+            "keyframes": {
+              "position": [
+                [
+                  0,
+                  -0.02,
+                  -0.02
+                ],
+                [
+                  266,
+                  -0.025,
+                  -0.02
+                ]
+              ],
+              "scale": [
+                [
+                  0,
+                  1.04,
+                  1.04
+                ],
+                [
+                  266,
+                  1.04,
+                  1.04
+                ]
+              ]
+            },
+            "mediaRef": "9C77C8E4",
+            "mediaType": "image"
+          },
+          {
+            "frames": [
+              1586,
+              1813
+            ],
+            "id": "FC3D2936",
+            "mediaRef": "DC9AFDB4",
+            "mediaType": "image"
+          },
+          {
+            "frames": [
+              1881,
+              1989
+            ],
+            "id": "08CF9414",
+            "mediaRef": "46E30A18",
+            "mediaType": "image",
+            "trimEndFrame": 42
+          },
+          {
+            "frames": [
+              2109,
+              2296
+            ],
+            "id": "1C87E4DF",
+            "mediaRef": "9F9E481F",
+            "mediaType": "image",
+            "transform": {
+              "width": 1.185
+            }
+          }
+        ],
+        "gaps": [
+          [
+            423,
+            523
+          ],
+          [
+            1166,
+            1279
+          ],
+          [
+            1546,
+            1586
+          ],
+          [
+            1813,
+            1881
+          ],
+          [
+            1989,
+            2109
+          ]
+        ],
+        "index": 2,
+        "label": "V1",
+        "trackId": "0F53D4EC",
+        "type": "video"
+      },
+      {
+        "clips": [
+          {
+            "frames": [
+              0,
+              2296
+            ],
+            "id": "4605B1B1",
+            "mediaRef": "299695C7",
+            "mediaType": "audio",
+            "speed": 1.1
+          }
+        ],
+        "index": 3,
+        "label": "A1",
+        "trackId": "8BEB1F8B",
+        "type": "audio"
+      }
+    ],
+    "width": 1080
+  }
+}

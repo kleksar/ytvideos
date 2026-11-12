@@ -1,0 +1,68 @@
+{
+  "channel": "paper",
+  "format": "short",
+  "fps": 30,
+  "source_transfer": "srgb",
+  "enforce_scene_duration": false,
+  "audio": "../../../Source/Voice/voice_en.mp3",
+  "audio_contract": {
+    "final_audio_sha256": "84e95cde9f4dc86c6dec491a9e12566470a9c34abc5fb716e01478bdcb4fdf8b",
+    "applied_speed": 1.1,
+    "speed_evidence": "../../../Source/Voice/MIX_MANIFEST_v01.md"
+  },
+  "scenes": [
+    {
+      "image": "../../../Source/Images/paper_v01/scene_001_v01.png",
+      "start_frame": 0,
+      "end_frame": 162,
+      "direction": "none",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.52,
+          0.4
+        ],
+        "subject": "the centered Hansa arch and tiered visitors",
+        "reason": "Keep the eightfold surge and both physical labels in view during the opening push.",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.045
+        }
+      }
+    }
+  ],
+  "overlays": [
+    {
+      "path": "paper_frame_162f_v01.mov",
+      "start_frame": 0,
+      "end_frame": 162,
+      "x": 0,
+      "y": 0
+    }
+  ],
+  "subtitles": {
+    "mode": "words",
+    "words": "sample_word_map.json",
+    "transcript": "sample_transcript.txt",
+    "end_frame": 162,
+    "phrases": [
+      "After a rival",
+      "dark-web",
+      "marketplace",
+      "shut down,",
+      "daily visits",
+      "to Hansa",
+      "grew eightfold."
+    ]
+  }
+}

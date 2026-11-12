@@ -1,0 +1,12 @@
+# Paper Detour 042 — текущий контекст
+
+- Канал: Paper Detour (`UCMVfdfaNxV3ZkI3_J3Eejzw`); английский самостоятельный Short о предположении Чарльза Мортона и документированном «стрельном аисте» 1822 года.
+- Пользователь выбрал обложку A и название B: `Did People Really Think Birds Flew to the Moon?`.
+- MP4 v04 принят пользователем и загружен: SHA-256 `bbf951340478cab5cab914564f3c9b4f8cca36de219c3c0c0b683f390dddebba`. Локальный путь `Work/render-042-v09/previews/042_bird_migration_en_review_v04.mp4` выведен из хранения после подтверждённого Public; версия была review preview, независимая пострендерная QA не проводилась.
+- YouTube video ID `UqWIwpbTMik`; https://youtube.com/shorts/UqWIwpbTMik . Текущий API read-back: `public`, обработка `succeeded`; title, описание, 24 хэштега, отдельные Tags, category, текстовый язык и аудитория подтверждены. Studio ранее подтвердила выбранную обложку A; текущий Public-доступ и успешная обработка подтверждены свежим API read-back.
+- Текущий description hashtag block v02: `#Shorts #History #PaperDetour #Birds #AnimalMigration #BirdMigration #BirdMigrationHistory #Ornithology #NaturalHistory #HistoryOfScience #WhiteStork #Storks #Swallows #Pfeilstorch #CharlesMorton #BirdMigrationTheories #Moon #17thCentury #1822 #Kluetz #CentralAfrica #Rostock #UniversityOfRostock #MigrationEvidence`. Отдельное поле YouTube Tags пустое. `containsSyntheticMedia:false` отправлено при загрузке; API не вернул это поле при финальном read-back, итоговое значение не подтверждено.
+- При metadata update поле `defaultAudioLanguage` сменилось в API read-back с `en` на `en-US`; изменение не запрашивалось, причина неизвестна, поле оставлено как прочитано без повторной записи. Квитанция `Packaging/Metadata/YOUTUBE_METADATA_UPDATE_RECEIPT_v02.md`.
+- Playlist: не назначен; изменение доступа на Public не включало поручения менять членство в подборке.
+- Shorts native A/B тест не запускался: формат не поддерживается текущим экспериментом YouTube. Выбран один комплект A/B.
+- Квитанция и точные API state files — `Packaging/Metadata/YOUTUBE_RELEASE_RECEIPT_v01.md` и защищённый локальный каталог `~/.local/share/story-youtube/paper-detour/releases/042/`.
+- Хранение: `TEXT_ONLY`; удалено 795 принадлежащих выпуску файлов (893,700,055 байт логических данных), остаток 115 текстовых файлов / 3,230,508 байт; бинарных медиа в эпизоде нет. Оригинальный файл в Downloads сохранён вне области episode cleanup. Квитанция: `Edit/MediaLifecycle/TEXT_ONLY_ARCHIVE_RECEIPT_v01.json`.

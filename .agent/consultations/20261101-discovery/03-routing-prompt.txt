@@ -1,0 +1,48 @@
+Ты консультант в этом ChatGPT ExtraHigh, не запускай tools/другойчат. ОДНА узкая задача: семантическая проверка выбора skills и канального bootstrap по контрольным запросам. Это НЕ nativeCodex implicit e2e, не называй так. После исправлений native skills/list freshserver уже фактически дал 10 enabled/0errors/0duplicates/тежеcanonicalpaths во41CWD(root,2канала,2videos,36рабочихкаталогов). Container-symlink pilot прошёл, native возвращает rootpath SKILL. Все10SKILLначинаютсяабсолютнойссылкойнаbootstrapниже,38episode/containerAGENTSroutersдобавлены,существующиеroot/channelнеперезаписаны. Определи по каждому запросу primaryskill(s), нужныеинструкцииканала, критическоеограничение. Отдельноукажи РЕАЛЬНЫЕ пропуски/ложныетриггерывописанияхилиbootstrap, толькоеслиесть. Проверяйописаниянакороткомprefix155символовкаквruntime; не предлагайдобавлятьбессмысленныеновыескиллы/настройки.
+METADATA
+[{"name":"ytv-audio-delivery","description":"Handle authorized audio work and validate a ytvideos MP4/SRT delivery bundle, including voice speed, full mix, measured export parameters and honest playba"},{"name":"ytv-chatgpt-extra-high","description":"Run the required personal ChatGPT.com Extra High consultation for ytvideos research, analysis, creative decisions, or reviews; preserve one narrow task per"},{"name":"ytv-history-story","description":"Research, outline, write or review a Nuviko History film or supporting Short using the historical pipeline and causal storytelling standard; execute only t"},{"name":"ytv-palmier-edit","description":"Inspect or change Palmier projects and timelines using explicit IDs, scoped ownership, preserved versions and snapshots, and verified background-task compl"},{"name":"ytv-paper-images","description":"Generate, revise, or accept complete Paper Detour paper-diorama scene images from an approved storyboard; verify actual files against the exact channel ref"},{"name":"ytv-paper-production","description":"Start, resume, or hand off a Paper Detour episode; establish accepted inputs, production stages, artifact states, dependencies, and permitted ownership. No"},{"name":"ytv-paper-storyboard","description":"Turn an accepted Paper Detour narration into a full-frame storyboard with shot variety, direct cuts, continuity, and integrated paper word accents. Exclude"},{"name":"ytv-stories-shorts","description":"Produce or repair RU/EN Stories episodes using the prepared footage library, channel-specific adaptation, stable centered captions, 1.10x voice timing, and"},{"name":"ytv-video-packaging","description":"Develop a truthful title and thumbnail pair for a ytvideos episode, preserving its channel style and testing phone-size clarity; prepare packaging files wi"},{"name":"ytv-youtube-release","description":"Apply ytvideos channel-specific YouTube release, playlist, Shorts linkage and post rules; use the existing youtube-upload skill for upload mechanics and ve"}]
+BOOTSTRAP
+# Обязательный вход в работу канала
+
+Прочитать этот документ до процедуры любого `ytv-*` skill. Ссылка на документ сама по себе не означает его загрузку.
+
+1. Прочитать [корневой AGENTS.md](../AGENTS.md): общие ограничения действуют на все каналы.
+2. Для существующего выпуска найти **точный рабочий путь** в [реестре](episode-registry.md), перейти к указанному canonical-каталогу и прочитать локальный README/журнал, перечисленные records, текущие версии и ранее полученные разрешения. Номер, тема истории и slug не назначают канал. Перенесённый снимок состояния не является новой проверкой.
+3. Прочитать нужные канальные инструкции: **Paper Detour / прежний Rarovista** → [new_channel/AGENTS.md](../new_channel/AGENTS.md); **Stories RU/EN** → раздел Stories в [stories/AGENTS.md](../stories/AGENTS.md); **Nuviko History** → раздел History там же. Не переносить ограничения другого раздела только из-за общего физического каталога.
+4. Для нового выпуска или задачи о канале без выпуска брать явно заданный канал из поручения и фактических материалов, затем читать тот же канальный AGENTS. Для общепроектной технической задачи выпуск не выдумывать: достаточно root и нужной предметной документации. `UNVERIFIED` блокирует только действия, требующие знания канала; сначала установить идентичность по данным, а не по имени папки.
+5. Применить только workflow текущей задачи. Если канал не соответствует узкому skill, выбрать подходящий маршрут, а не переделывать канал под skill:
+
+| Skills | Область |
+|---|---|
+| ytv-paper-production / ytv-paper-storyboard / ytv-paper-images | Только Paper Detour |
+| ytv-history-story | Только Nuviko History |
+| ytv-stories-shorts | Только Stories RU/EN |
+| ytv-video-packaging / ytv-palmier-edit / ytv-audio-delivery / ytv-youtube-release | Все три семейства после чтения правил конкретного канала |
+| ytv-chatgpt-extra-high | Общий gate; для задачи выпуска/канала передать его уже проверенный контекст |
+
+Обязательные частные случаи проверяются через реестр и локальные записи: `027_doomscrolling_short` — Минни / Paper Detour; `new_channel/videos/001_radio_game` — исключение с одним canonical timeline. Stories 1,10× и RU-only VPN не наследуются History/Paper; History 1,05× и его ведущий не наследуются Paper. Детальные правила имеют канальных владельцев выше.
+
+## Discovery без Git
+
+Канонические десять skills находятся только в `/Users/diplomat/ytvideos/.agents/skills`. В поддерживаемых точках входа (корень, оба канала, оба `videos`, зарегистрированные каталоги выпусков) `.agents/skills` ссылается на этот же каталог. Это ссылки, не копии навыков. Перед вычислением относительных ссылок SKILL разрешить symlink до канонического файла; свежий native `skills/list` проверяет совпадение путей и отсутствие дублей.
+
+Эпизодные AGENTS — маленькие явные указатели на root, реестр и канальные правила. Для нового каталога после добавления записи в реестр выполнить `python3.11 .agent/scripts/install-entrypoints.py`, затем probe discovery. Самостоятельный запуск из более глубокой папки `Source/`, `Edit/` и произвольных новых каталогов этим контрактом не покрыт: использовать корень проекта либо зарегистрированный вход выпуска.
+
+Discovery metadata не доказывает безошибочный выбор skill моделью на любом будущем запросе. Для отчёта различать фактически наблюдаемый каталог, разрешённый implicit policy, прочитанный bootstrap и отдельные e2e model traces.
+
+КОНТРОЛЬНЫЕ ЗАПРОСЫ
+A: Продолжи работу над Минни из stories/videos/027_doomscrolling_short; сначала установи текущий этап.
+B: Сделай раскадровку принятой речи Paper Detour.
+C: Исправь пустую страницу на готовом кадре Paper Detour по принятой постановке.
+D: Придумай заголовок и обложку для Nuviko History о Помпеях.
+E: Исполни принятые монтажные правки new_channel/videos/001_radio_game.
+F: Проверь готовый микс и SRT русской Stories013, новый звук не нужен.
+G: Загрузи Paper027 в закрытый доступ, проверь плейлист.
+H: Найди исторический сюжет для англоязычного Nuviko History.
+I: Адаптируй личную историю для английского Stories и подготовь его титры.
+J: Проверь режим/запиши завершённый ответ ChatGPT для общепроектной задачи.
+K: Какая погода завтра в Белграде?
+L: Оцени фактологические оговорки легенды Margorie McCall для Paper Detour, это не NuvikoHistory.
+M: Создай фотореалистичную историческую сцену с нашим мультяшным ведущим Nuviko History, материаллежит stories/videos/004_pompeii_short.
+N: Новый каталог имеет channelUNVERIFIED, пользователь не указал канал; подбери ему голос и рисовку.
+O: У выпуска уже есть прямое разрешение на Lawrence v03; продолжаем тот же scope. Нужно ли спрашивать заново?

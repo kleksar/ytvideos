@@ -1,0 +1,3 @@
+# V07 exact-file review
+
+Technical helper PASS, verdict UNVERIFIED. Exact V07 hash `bfc4c3cda880892615df2c533ede1373a993c2bed9ff14f4aadde73c5a381e5f`. Full decode PASS; 354 sampled frames extracted at beginning, midpoint and end for 118 scenes; only the 118 midpoints reviewed on five contact sheets, not the remaining boundary samples individually. Visible repetitions at scenes 59/61 and 73/76/84; these are creative follow-ups, not claimed corrected. Audio signal mean -21.8 dBFS, sample peak -0.7 dBFS; subjective listening, full cue timing, motion and independent review UNVERIFIED. Scene 64 was sparse and replaced in V08; this invalidates V07-specific delivery readiness for V08.

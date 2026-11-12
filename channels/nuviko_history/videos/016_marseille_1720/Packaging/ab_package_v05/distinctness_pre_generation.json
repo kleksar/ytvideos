@@ -1,0 +1,25 @@
+{
+  "stage": "pre_generation",
+  "result": "pass",
+  "method": "author semantic review against accepted transcript; not independent review",
+  "pairs": [
+    {
+      "pair": "A-B",
+      "titles": "A asks about the decision over cargo; B asks about life in the isolated city.",
+      "images": "A shows an administrative decision and silk indoors; B shows a cordoned street and restrictions.",
+      "result": "pass"
+    },
+    {
+      "pair": "A-C",
+      "titles": "A frames the quarantine decision; C frames the captain’s eventual release.",
+      "images": "A shows valuable cargo and paperwork; C shows a human prisoner behind bars.",
+      "result": "pass"
+    },
+    {
+      "pair": "B-C",
+      "titles": "B frames collective life during epidemic; C frames an individual legal fate.",
+      "images": "B is a wide public street with a barrier; C is an intimate prison portrait.",
+      "result": "pass"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+# Paper Detour export settings / skill ownership — 2026-11-02
+
+- Coordinator personally used Google Chrome, [chat](https://chatgpt.com/c/6ae815e7-6aa0-83ed-b1d7-f9e2760ee251).
+- Exact model/mode before **each** of two submitted requests: `GPT-6`; `Extra High, 4 из 5.` Usage-limit notice was also visible; it did not prevent these two substantive answers.
+- Full prompts and visible completed answers: [transcript](paper_export_settings_20261102.txt). First prompt: narrow SDR technical profile. Second prompt: separate skill ownership. The first answer was fully read after streaming completed (UI `Ответ готов` and Send button). An early continuation draft during streaming was cleared without submission and is not counted as a request/retry.
+- Accepted inputs: user's2K/30default; current skills; actual live58-tool Palmier schema; public source2K1440shortedge/HighestQuality mapping. No episode was invented for channel-level work.
+- Verification and adopted/rejected advice: [research receipt](../../new_channel/research/2026-11-02-export-settings/REPORT.md). Complete numeric controls were not attributed to Palmier. Consultant's automatic stereo/grain rationale and bitrate-based blanket quality claims were not promoted to rules. Audio384stereo is a chosen detailed-upload target, not a claim that256 is prohibited.
+- Result: separate portable `ytv-video-export` owns pre-render passport; audio contract stays with audio delivery, execution with edit, final comparison with QA. Actual new2K exports/independent review are unperformed; no rendering or sound generation authorized by this consultation.

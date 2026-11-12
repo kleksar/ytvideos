@@ -1,0 +1,45 @@
+{
+  "schema": "ytv-native-title-thumbnail-test-v1",
+  "status": "running_verified_in_studio",
+  "channel_id": "UCbyLx6Rf3iWww4bPZJ2oo2A",
+  "video_id": "S9dKN5iXmPc",
+  "media_path": "Deliverables/GUY_FAWKES_EN_review_v02.mp4",
+  "media_acceptance": "accepted_user_v02",
+  "test_type": "title_thumbnail_pair",
+  "hypothesis": "Three distinct story angles may earn different watch-time share: role reveal (A), warning-to-arrest sequence (B), and the later tradition (C).",
+  "primary_metric": "YouTube Studio native result (watch-time share); do not substitute CTR as the winner metric.",
+  "description_path": "Packaging/Metadata/description_fixed_v02.txt",
+  "description_sha256": "71351eeeb2ab8a6217862f886eed6948a033b59ea5f9f297634990b32e7cd71b",
+  "playlist_id": "PLCtiNAU_98r0",
+  "playlist_title": "History Documentaries",
+  "fallback_pair": "B",
+  "variants": [
+    {
+      "key": "A",
+      "title": "Guy Fawkes Is the Face of the Gunpowder Plot — But He Didn’t Lead It",
+      "thumbnail": "Packaging/Thumbnails/Upload/thumbnail_A_v02.jpg",
+      "sha256": "7865a4ad1ad41f7f3e513a8d8404df6cad4b9332ae129b44bd4e0092f66149cc"
+    },
+    {
+      "key": "B",
+      "title": "How One Letter Helped Stop the Gunpowder Plot",
+      "thumbnail": "Packaging/Thumbnails/Upload/thumbnail_B_v03.jpg",
+      "sha256": "b8a6df7cdae11edd28a6f4b2516263d4efcbe439940d89bb6d30c80a53b68bc5"
+    },
+    {
+      "key": "C",
+      "title": "Why Britain Burns an Effigy of Guy Fawkes",
+      "thumbnail": "Packaging/Thumbnails/Upload/thumbnail_C_v02.jpg",
+      "sha256": "f416c731dfc3a2d5ef4ce851fc8ec470df195b0de354bf4745a629fcb38459d1"
+    }
+  ],
+  "eligibility": "Verified in Studio on Nuviko History; paired title/thumbnail test saved and running.",
+  "authorization": "User approved selected pair B and previously requested public release and native three-pair test.",
+  "external_state": "Studio report: Название и значок; Идет проверка…; three matching pairs; expected remaining time 13 days 23 hours.",
+  "submission_order": [
+    "B",
+    "A",
+    "C"
+  ],
+  "local_media_storage": "TEXT_ONLY; thumbnail and media files retired after confirmed upload and running test; hashes identify uploaded assets."
+}

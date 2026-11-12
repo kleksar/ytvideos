@@ -1,0 +1,23 @@
+{
+  "valid": true,
+  "errors": [],
+  "characters": 1163,
+  "utf8_bytes": 1169,
+  "protected_blocks": [
+    {
+      "label": "chapters",
+      "expected": 1,
+      "actual": 1,
+      "sha256": "628dec7c9d96e1e2853cfd153b5f0606cd483bee62e6808ed2d6cb3fb5113718"
+    },
+    {
+      "label": "hashtags",
+      "expected": 1,
+      "actual": 1,
+      "sha256": "220e7242d1f07c9a54fbc8388670bb043562445e813083d350f89a01738e4cef"
+    }
+  ],
+  "limits": "Mechanical checks only: no factual, timing, URL, media or live-display validation.",
+  "changed": true,
+  "diff": "--- before\n+++ proposed\n@@ -1,8 +1,8 @@\n-An archived copy of Clip Informática episode 102, dated to 1987, is catalogued with MSX software audio near the end.\n+In 1980s Brazil, Clip Informática on Radio USP in São Paulo sent computer programs over the air as sound. A listener could record the signal onto cassette; a compatible home computer could then try to read its patterns as data. The path ran from station to radio, cassette, and computer—but distortion, recording level, playback speed, and compatibility all mattered.\n \n-Years later, developer Weber Kai tried to decode a separate online recording he identified as episode 102 and reported a match between the recovered data and a computer game.\n+Datassette catalogues its copy of episode 102 with a 1987 date and MSX software audio near the end. Separately, developer Weber Kai identified an online recording as episode 102 and described trying to decode it.\n \n-How could software travel through a radio signal — and what can the surviving evidence actually tell us?\n+Kai reported a match with the MSX game Avenger. We haven’t independently repeated his decoding, established that the two recordings are identical, or verified a game launch. His public notes do not provide a complete comparison record.\n \n 00:00 A sound worth recording\n 00:32 The Brazilian radio show\n"
+}

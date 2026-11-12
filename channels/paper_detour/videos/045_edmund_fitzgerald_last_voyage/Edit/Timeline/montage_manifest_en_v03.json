@@ -1,0 +1,1324 @@
+{
+  "channel": "paper",
+  "format": "long",
+  "fps": 30,
+  "audio": "../../Source/Audio/mix_en_v02.wav",
+  "audio_contract": {
+    "final_audio_sha256": "5709d7740516f33f152f9106258cccb85e0208464031bcd48bbe7378250f5c2f",
+    "applied_speed": 1.1,
+    "speed_evidence": "../../Source/Audio/MIX_LOG_v02.md"
+  },
+  "scenes": [
+    {
+      "image": "../../Source/Images/paper_v01/S01.png",
+      "start_frame": 0,
+      "end_frame": 176,
+      "direction": "left_to_right",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.5,
+          0.54
+        ],
+        "subject": "long Fitzgerald silhouette",
+        "reason": "Keep the full ore freighter legible against lake and sky.",
+        "start": {
+          "center": [
+            0.51,
+            0.5
+          ],
+          "scale": 1.025
+        },
+        "end": {
+          "center": [
+            0.49,
+            0.5
+          ],
+          "scale": 1.075
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/paper_v01/S02.png",
+      "start_frame": 176,
+      "end_frame": 348,
+      "direction": "right_to_left",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.5,
+          0.57
+        ],
+        "subject": "ore in the ship cutaway",
+        "reason": "Center the hold and cargo mass.",
+        "start": {
+          "center": [
+            0.49,
+            0.5
+          ],
+          "scale": 1.075
+        },
+        "end": {
+          "center": [
+            0.51,
+            0.5
+          ],
+          "scale": 1.025
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/paper_v01/S03.png",
+      "start_frame": 348,
+      "end_frame": 514,
+      "direction": "left_to_right",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "subject": "empty storm horizon",
+        "reason": "Hold the absence of the ship in negative space.",
+        "start": {
+          "center": [
+            0.51,
+            0.5
+          ],
+          "scale": 1.04
+        },
+        "end": {
+          "center": [
+            0.49,
+            0.5
+          ],
+          "scale": 1.04
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/paper_v01/S04.png",
+      "start_frame": 514,
+      "end_frame": 641,
+      "direction": "right_to_left",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.7,
+          0.49
+        ],
+        "subject": "Fitzgerald in snowstorm",
+        "reason": "Keep the forward bridge and hull visible.",
+        "start": {
+          "center": [
+            0.49,
+            0.5
+          ],
+          "scale": 1.025
+        },
+        "end": {
+          "center": [
+            0.51,
+            0.5
+          ],
+          "scale": 1.075
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/paper_v01/S05.png",
+      "start_frame": 641,
+      "end_frame": 766,
+      "direction": "left_to_right",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.52,
+          0.56
+        ],
+        "subject": "bridge microphone",
+        "reason": "Center the radio and anonymous hand.",
+        "start": {
+          "center": [
+            0.51,
+            0.5
+          ],
+          "scale": 1.075
+        },
+        "end": {
+          "center": [
+            0.49,
+            0.5
+          ],
+          "scale": 1.025
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/paper_v01/S06.png",
+      "start_frame": 766,
+      "end_frame": 936,
+      "direction": "right_to_left",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.62,
+          0.47
+        ],
+        "subject": "distant ship at horizon",
+        "reason": "Hold the tiny vessel without losing the lake scale.",
+        "start": {
+          "center": [
+            0.49,
+            0.5
+          ],
+          "scale": 1.04
+        },
+        "end": {
+          "center": [
+            0.51,
+            0.5
+          ],
+          "scale": 1.04
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/paper_v01/S07.png",
+      "start_frame": 936,
+      "end_frame": 1064,
+      "direction": "left_to_right",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.57,
+          0.53
+        ],
+        "subject": "Fitzgerald leaving shore",
+        "reason": "Keep the freighter and departure water together.",
+        "start": {
+          "center": [
+            0.51,
+            0.5
+          ],
+          "scale": 1.025
+        },
+        "end": {
+          "center": [
+            0.49,
+            0.5
+          ],
+          "scale": 1.075
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/paper_v01/S08.png",
+      "start_frame": 1064,
+      "end_frame": 1234,
+      "direction": "right_to_left",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.28,
+          0.75
+        ],
+        "subject": "ship on the lake relief",
+        "reason": "Keep the tiny vessel visible in the layered basin.",
+        "start": {
+          "center": [
+            0.49,
+            0.5
+          ],
+          "scale": 1.075
+        },
+        "end": {
+          "center": [
+            0.51,
+            0.5
+          ],
+          "scale": 1.025
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/paper_v01/S09.png",
+      "start_frame": 1234,
+      "end_frame": 1412,
+      "direction": "left_to_right",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.5,
+          0.55
+        ],
+        "subject": "complete side-profile ship",
+        "reason": "Preserve the entire long silhouette.",
+        "start": {
+          "center": [
+            0.51,
+            0.5
+          ],
+          "scale": 1.04
+        },
+        "end": {
+          "center": [
+            0.49,
+            0.5
+          ],
+          "scale": 1.04
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/paper_v01/S10.png",
+      "start_frame": 1412,
+      "end_frame": 1556,
+      "direction": "right_to_left",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.5,
+          0.54
+        ],
+        "subject": "Arthur M. Anderson",
+        "reason": "Keep the second freighter distinct and centered.",
+        "start": {
+          "center": [
+            0.49,
+            0.5
+          ],
+          "scale": 1.025
+        },
+        "end": {
+          "center": [
+            0.51,
+            0.5
+          ],
+          "scale": 1.075
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/paper_v01/S11.png",
+      "start_frame": 1556,
+      "end_frame": 1700,
+      "direction": "left_to_right",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.5,
+          0.57
+        ],
+        "subject": "both freighters",
+        "reason": "Preserve relative scale and separation.",
+        "start": {
+          "center": [
+            0.51,
+            0.5
+          ],
+          "scale": 1.075
+        },
+        "end": {
+          "center": [
+            0.49,
+            0.5
+          ],
+          "scale": 1.025
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/paper_v01/S12.png",
+      "start_frame": 1700,
+      "end_frame": 1862,
+      "direction": "right_to_left",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.51,
+          0.52
+        ],
+        "subject": "two ships and Canadian shore",
+        "reason": "Keep both vessels legible against the distant coastline.",
+        "start": {
+          "center": [
+            0.49,
+            0.5
+          ],
+          "scale": 1.04
+        },
+        "end": {
+          "center": [
+            0.51,
+            0.5
+          ],
+          "scale": 1.04
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/paper_v01/S13.png",
+      "start_frame": 1862,
+      "end_frame": 2013,
+      "direction": "left_to_right",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.63,
+          0.52
+        ],
+        "subject": "Fitzgerald in high waves",
+        "reason": "Preserve the intact bow and forward pilothouse.",
+        "start": {
+          "center": [
+            0.51,
+            0.5
+          ],
+          "scale": 1.025
+        },
+        "end": {
+          "center": [
+            0.49,
+            0.5
+          ],
+          "scale": 1.075
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/paper_v01/S14.png",
+      "start_frame": 2013,
+      "end_frame": 2187,
+      "direction": "right_to_left",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.26,
+          0.52
+        ],
+        "subject": "small ship beyond foreground wave",
+        "reason": "Keep the distant freighter visible in the snow gap.",
+        "start": {
+          "center": [
+            0.49,
+            0.5
+          ],
+          "scale": 1.075
+        },
+        "end": {
+          "center": [
+            0.51,
+            0.5
+          ],
+          "scale": 1.025
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/paper_v01/S15.png",
+      "start_frame": 2187,
+      "end_frame": 2355,
+      "direction": "left_to_right",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.53,
+          0.55
+        ],
+        "subject": "two ships outside sheltered water",
+        "reason": "Hold both vessels and bay mouth in one view.",
+        "start": {
+          "center": [
+            0.51,
+            0.5
+          ],
+          "scale": 1.04
+        },
+        "end": {
+          "center": [
+            0.49,
+            0.5
+          ],
+          "scale": 1.04
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/paper_v01/S16.png",
+      "start_frame": 2355,
+      "end_frame": 2518,
+      "direction": "right_to_left",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.5,
+          0.61
+        ],
+        "subject": "broken deck railing",
+        "reason": "Keep the bent paper rail break unobstructed.",
+        "start": {
+          "center": [
+            0.49,
+            0.5
+          ],
+          "scale": 1.025
+        },
+        "end": {
+          "center": [
+            0.51,
+            0.5
+          ],
+          "scale": 1.075
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/paper_v01/S17.png",
+      "start_frame": 2518,
+      "end_frame": 2693,
+      "direction": "left_to_right",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.52,
+          0.54
+        ],
+        "subject": "pump and ventilation fixtures",
+        "reason": "Center the reported equipment without claiming a cause.",
+        "start": {
+          "center": [
+            0.51,
+            0.5
+          ],
+          "scale": 1.075
+        },
+        "end": {
+          "center": [
+            0.49,
+            0.5
+          ],
+          "scale": 1.025
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/paper_v01/S18.png",
+      "start_frame": 2693,
+      "end_frame": 2861,
+      "direction": "right_to_left",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.5,
+          0.72
+        ],
+        "subject": "blank failed radar display",
+        "reason": "Keep the dark display and following vessel visible.",
+        "start": {
+          "center": [
+            0.49,
+            0.5
+          ],
+          "scale": 1.04
+        },
+        "end": {
+          "center": [
+            0.51,
+            0.5
+          ],
+          "scale": 1.04
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/paper_v01/S19.png",
+      "start_frame": 2861,
+      "end_frame": 3029,
+      "direction": "left_to_right",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.5,
+          0.55
+        ],
+        "subject": "Anderson radio and shoreline",
+        "reason": "Balance the hand-held microphone and window view.",
+        "start": {
+          "center": [
+            0.51,
+            0.5
+          ],
+          "scale": 1.025
+        },
+        "end": {
+          "center": [
+            0.49,
+            0.5
+          ],
+          "scale": 1.075
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/paper_v01/S20.png",
+      "start_frame": 3029,
+      "end_frame": 3203,
+      "direction": "right_to_left",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.5,
+          0.48
+        ],
+        "subject": "radio microphone in hand",
+        "reason": "Preserve the microphone as the foreground subject.",
+        "start": {
+          "center": [
+            0.49,
+            0.5
+          ],
+          "scale": 1.075
+        },
+        "end": {
+          "center": [
+            0.51,
+            0.5
+          ],
+          "scale": 1.025
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/paper_v01/S21.png",
+      "start_frame": 3203,
+      "end_frame": 3377,
+      "direction": "left_to_right",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.5,
+          0.57
+        ],
+        "subject": "anonymous crew member and microphone",
+        "reason": "Keep the silhouette and microphone in frame.",
+        "start": {
+          "center": [
+            0.51,
+            0.5
+          ],
+          "scale": 1.04
+        },
+        "end": {
+          "center": [
+            0.49,
+            0.5
+          ],
+          "scale": 1.04
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/paper_v01/S22.png",
+      "start_frame": 3377,
+      "end_frame": 3556,
+      "direction": "right_to_left",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.52,
+          0.52
+        ],
+        "subject": "blank radar screen",
+        "reason": "Keep the absence of the Fitzgerald echo clear.",
+        "start": {
+          "center": [
+            0.49,
+            0.5
+          ],
+          "scale": 1.025
+        },
+        "end": {
+          "center": [
+            0.51,
+            0.5
+          ],
+          "scale": 1.075
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/paper_v01/S23.png",
+      "start_frame": 3556,
+      "end_frame": 3731,
+      "direction": "left_to_right",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.52,
+          0.49
+        ],
+        "subject": "empty lake from Anderson deck",
+        "reason": "Keep the horizon and empty water dominant.",
+        "start": {
+          "center": [
+            0.51,
+            0.5
+          ],
+          "scale": 1.075
+        },
+        "end": {
+          "center": [
+            0.49,
+            0.5
+          ],
+          "scale": 1.025
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/paper_v01/S24.png",
+      "start_frame": 3731,
+      "end_frame": 3899,
+      "direction": "right_to_left",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.52,
+          0.55
+        ],
+        "subject": "Anderson radio console and shore",
+        "reason": "Balance the console with protected water outside.",
+        "start": {
+          "center": [
+            0.49,
+            0.5
+          ],
+          "scale": 1.04
+        },
+        "end": {
+          "center": [
+            0.51,
+            0.5
+          ],
+          "scale": 1.04
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/paper_v01/S25.png",
+      "start_frame": 3899,
+      "end_frame": 4028,
+      "direction": "left_to_right",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.5,
+          0.56
+        ],
+        "subject": "Anderson turning toward open lake",
+        "reason": "Preserve the ship and contrast between water areas.",
+        "start": {
+          "center": [
+            0.51,
+            0.5
+          ],
+          "scale": 1.025
+        },
+        "end": {
+          "center": [
+            0.49,
+            0.5
+          ],
+          "scale": 1.075
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/paper_v01/S26.png",
+      "start_frame": 4028,
+      "end_frame": 4160,
+      "direction": "right_to_left",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.51,
+          0.51
+        ],
+        "subject": "empty lifeboat",
+        "reason": "Keep the boat intact and centered among sparse debris.",
+        "start": {
+          "center": [
+            0.49,
+            0.5
+          ],
+          "scale": 1.075
+        },
+        "end": {
+          "center": [
+            0.51,
+            0.5
+          ],
+          "scale": 1.025
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/paper_v01/S27.png",
+      "start_frame": 4160,
+      "end_frame": 4284,
+      "direction": "left_to_right",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.57,
+          0.61
+        ],
+        "subject": "empty bridge chair and radio",
+        "reason": "Keep the empty work area visible.",
+        "start": {
+          "center": [
+            0.51,
+            0.5
+          ],
+          "scale": 1.04
+        },
+        "end": {
+          "center": [
+            0.49,
+            0.5
+          ],
+          "scale": 1.04
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/paper_v01/S28.png",
+      "start_frame": 4284,
+      "end_frame": 4446,
+      "direction": "right_to_left",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.52,
+          0.72
+        ],
+        "subject": "faint partial wreck fragment in search light",
+        "reason": "Keep the indistinct fragment visible without implying the vessel remained intact.",
+        "start": {
+          "center": [
+            0.49,
+            0.5
+          ],
+          "scale": 1.025
+        },
+        "end": {
+          "center": [
+            0.51,
+            0.5
+          ],
+          "scale": 1.075
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/paper_v01/S29.png",
+      "start_frame": 4446,
+      "end_frame": 4625,
+      "direction": "left_to_right",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.53,
+          0.5
+        ],
+        "subject": "upright bow and inverted stern",
+        "reason": "Keep both sections and their orientations legible.",
+        "start": {
+          "center": [
+            0.51,
+            0.5
+          ],
+          "scale": 1.075
+        },
+        "end": {
+          "center": [
+            0.49,
+            0.5
+          ],
+          "scale": 1.025
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/paper_v01/S30.png",
+      "start_frame": 4625,
+      "end_frame": 4781,
+      "direction": "right_to_left",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.53,
+          0.52
+        ],
+        "subject": "side of known wreck",
+        "reason": "Keep the large hull section readable without highlighting damage.",
+        "start": {
+          "center": [
+            0.49,
+            0.5
+          ],
+          "scale": 1.04
+        },
+        "end": {
+          "center": [
+            0.51,
+            0.5
+          ],
+          "scale": 1.04
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/paper_v01/S31.png",
+      "start_frame": 4781,
+      "end_frame": 4910,
+      "direction": "left_to_right",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.27,
+          0.66
+        ],
+        "subject": "small radio before deep water",
+        "reason": "Keep the radio on the left and retain open water.",
+        "start": {
+          "center": [
+            0.51,
+            0.5
+          ],
+          "scale": 1.025
+        },
+        "end": {
+          "center": [
+            0.49,
+            0.5
+          ],
+          "scale": 1.075
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/paper_v01/S32.png",
+      "start_frame": 4910,
+      "end_frame": 5040,
+      "direction": "right_to_left",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.5,
+          0.58
+        ],
+        "subject": "ore and shallow water in schematic hold",
+        "reason": "Keep cargo and gradual accumulation visible.",
+        "start": {
+          "center": [
+            0.49,
+            0.5
+          ],
+          "scale": 1.075
+        },
+        "end": {
+          "center": [
+            0.51,
+            0.5
+          ],
+          "scale": 1.025
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/paper_v01/S33.png",
+      "start_frame": 5040,
+      "end_frame": 5165,
+      "direction": "left_to_right",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.52,
+          0.55
+        ],
+        "subject": "generic hatch seam and trickle",
+        "reason": "Keep the illustrative seam centered.",
+        "start": {
+          "center": [
+            0.51,
+            0.5
+          ],
+          "scale": 1.04
+        },
+        "end": {
+          "center": [
+            0.49,
+            0.5
+          ],
+          "scale": 1.04
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/paper_v01/S34.png",
+      "start_frame": 5165,
+      "end_frame": 5290,
+      "direction": "right_to_left",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.54,
+          0.53
+        ],
+        "subject": "low-freeboard Fitzgerald",
+        "reason": "Keep the elevated waterline visible while the ship stays afloat.",
+        "start": {
+          "center": [
+            0.49,
+            0.5
+          ],
+          "scale": 1.025
+        },
+        "end": {
+          "center": [
+            0.51,
+            0.5
+          ],
+          "scale": 1.075
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/paper_v01/S35.png",
+      "start_frame": 5290,
+      "end_frame": 5412,
+      "direction": "left_to_right",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.5,
+          0.57
+        ],
+        "subject": "iron ore in alternative model",
+        "reason": "Hold the cutaway as an abstract investigation model.",
+        "start": {
+          "center": [
+            0.51,
+            0.5
+          ],
+          "scale": 1.075
+        },
+        "end": {
+          "center": [
+            0.49,
+            0.5
+          ],
+          "scale": 1.025
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/paper_v01/S36.png",
+      "start_frame": 5412,
+      "end_frame": 5552,
+      "direction": "right_to_left",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.5,
+          0.59
+        ],
+        "subject": "water accumulating around ore",
+        "reason": "Keep the shallow layer distinct from rapid flooding.",
+        "start": {
+          "center": [
+            0.49,
+            0.5
+          ],
+          "scale": 1.04
+        },
+        "end": {
+          "center": [
+            0.51,
+            0.5
+          ],
+          "scale": 1.04
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/paper_v01/S37.png",
+      "start_frame": 5552,
+      "end_frame": 5674,
+      "direction": "left_to_right",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.52,
+          0.47
+        ],
+        "subject": "single hatch cover giving way",
+        "reason": "Keep cover, seam and ore visible as a schematic.",
+        "start": {
+          "center": [
+            0.51,
+            0.5
+          ],
+          "scale": 1.025
+        },
+        "end": {
+          "center": [
+            0.49,
+            0.5
+          ],
+          "scale": 1.075
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/paper_v01/S38.png",
+      "start_frame": 5674,
+      "end_frame": 5818,
+      "direction": "right_to_left",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.5,
+          0.57
+        ],
+        "subject": "rapid paper-water flow over ore",
+        "reason": "Keep the flow inside the hold and clearly hypothetical.",
+        "start": {
+          "center": [
+            0.49,
+            0.5
+          ],
+          "scale": 1.075
+        },
+        "end": {
+          "center": [
+            0.51,
+            0.5
+          ],
+          "scale": 1.025
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/paper_v01/S39.png",
+      "start_frame": 5818,
+      "end_frame": 5943,
+      "direction": "left_to_right",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "two separate theory models",
+        "reason": "Keep the equal models and empty gap balanced.",
+        "start": {
+          "center": [
+            0.51,
+            0.5
+          ],
+          "scale": 1.04
+        },
+        "end": {
+          "center": [
+            0.49,
+            0.5
+          ],
+          "scale": 1.04
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/paper_v01/S40.png",
+      "start_frame": 5943,
+      "end_frame": 6082,
+      "direction": "right_to_left",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "empty radio room microphone",
+        "reason": "Keep the vacant console and dark window in view.",
+        "start": {
+          "center": [
+            0.49,
+            0.5
+          ],
+          "scale": 1.025
+        },
+        "end": {
+          "center": [
+            0.51,
+            0.5
+          ],
+          "scale": 1.075
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/paper_v01/S41.png",
+      "start_frame": 6082,
+      "end_frame": 6213,
+      "direction": "left_to_right",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.52,
+          0.52
+        ],
+        "subject": "route, radio, surface ship and wreck",
+        "reason": "Hold the model\u2019s connected layers without implying a route line.",
+        "start": {
+          "center": [
+            0.51,
+            0.5
+          ],
+          "scale": 1.075
+        },
+        "end": {
+          "center": [
+            0.49,
+            0.5
+          ],
+          "scale": 1.025
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/paper_v01/S42.png",
+      "start_frame": 6213,
+      "end_frame": 6344,
+      "direction": "right_to_left",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.5,
+          0.55
+        ],
+        "subject": "bridge microphone before dark lake",
+        "reason": "Keep the mic as foreground and water as negative space.",
+        "start": {
+          "center": [
+            0.49,
+            0.5
+          ],
+          "scale": 1.04
+        },
+        "end": {
+          "center": [
+            0.51,
+            0.5
+          ],
+          "scale": 1.04
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/paper_v01/S43.png",
+      "start_frame": 6344,
+      "end_frame": 6464,
+      "direction": "left_to_right",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.73,
+          0.52
+        ],
+        "subject": "tiny distant freighter",
+        "reason": "Keep the ship small at the horizon and the unresolved gap open.",
+        "start": {
+          "center": [
+            0.51,
+            0.5
+          ],
+          "scale": 1.025
+        },
+        "end": {
+          "center": [
+            0.49,
+            0.5
+          ],
+          "scale": 1.075
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/paper_v01/S44.png",
+      "start_frame": 6464,
+      "end_frame": 6614,
+      "direction": "right_to_left",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.5,
+          0.45
+        ],
+        "subject": "distant ship at dusk",
+        "reason": "Keep dark lower-left and right areas clear for later native end-screen elements.",
+        "start": {
+          "center": [
+            0.49,
+            0.5
+          ],
+          "scale": 1.075
+        },
+        "end": {
+          "center": [
+            0.51,
+            0.5
+          ],
+          "scale": 1.025
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/paper_v01/S45.png",
+      "start_frame": 6614,
+      "end_frame": 6764,
+      "direction": "left_to_right",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.51,
+          0.86
+        ],
+        "subject": "two small wreck sections on the lakebed",
+        "reason": "Keep the upright bow and inverted stern in the lower strip, clear of end-screen areas.",
+        "start": {
+          "center": [
+            0.51,
+            0.5
+          ],
+          "scale": 1.04
+        },
+        "end": {
+          "center": [
+            0.49,
+            0.5
+          ],
+          "scale": 1.04
+        }
+      }
+    }
+  ],
+  "subtitles": {
+    "mode": "words",
+    "words": "word_times_en_v02.json",
+    "transcript": "../../Source/Script/narration_en_tts_v02.txt"
+  },
+  "source_transfer": "srgb"
+}

@@ -1,0 +1,129 @@
+- heading "ChatGPT сказал:" [level=4]
+    - paragraph:
+      - text: Минимальная проверка должна разделять
+      - strong: discovery
+      - text: ","
+      - strong: bootstrap инструкций
+      - text: и
+      - strong: implicit selection
+      - text: ". Сейчас доказано только первое для CWD=/Users/diplomat/ytvideos: runtime реально увидел все 10 ytv-* по name/description/path. Этого достаточно считать metadata discovery в root рабочим, но недостаточно для channel CWD и implicit routing."
+    - heading "1. Минимальная read-only проверка discovery" [level=2]
+    - paragraph: "Через native Codex app-server skills/list выполнить только три вызова с разным cwd:"
+    - table:
+      - rowgroup:
+        - row "CWD Критерий":
+          - columnheader "CWD"
+          - columnheader "Критерий"
+      - rowgroup:
+        - row "/Users/diplomat/ytvideos присутствуют ровно все 10 ожидаемых ytv-*":
+          - cell "/Users/diplomat/ytvideos"
+          - cell "присутствуют ровно все 10 ожидаемых ytv-*"
+        - row "/Users/diplomat/ytvideos/new_channel проверить, доступны ли те же 10 project skills":
+          - cell "/Users/diplomat/ytvideos/new_channel"
+          - cell "проверить, доступны ли те же 10 project skills"
+        - row "/Users/diplomat/ytvideos/stories проверить, доступны ли те же 10 project skills":
+          - cell "/Users/diplomat/ytvideos/stories"
+          - cell "проверить, доступны ли те же 10 project skills"
+    - button "Скопировать таблицу":
+    - button "Развернуть таблицу":
+    - paragraph: Сравнивать именно canonical name и resolved path. Никаких model turns для этого не нужно.
+    - paragraph:
+      - strong: "Достаточное evidence для discovery:"
+      - text: фактический ответ skills/list для каждого из трёх CWD, сохранённый с CWD и списком name/path. Уже имеющийся runtime-каталог закрывает только первую строку.
+    - paragraph: "Deep episode CWD сейчас проверять не нужно: проектная политика уже задаёт bootstrap через root/channel, а расширять матрицу до десятков каталогов преждевременно."
+    - heading "2. Если skills не обнаруживаются из channel CWD" [level=2]
+    - paragraph: "При отсутствии Git это не считать поломкой самих SKILL.md: ожидаемый риск — discovery начинается от фактического CWD и не обязан находить родительский .agents/skills."
+    - paragraph:
+      - text: Минимальное исправление —
+      - strong: не копировать 10 skills в каждый канал и не создавать одноимённые symlink-дубликаты
+      - text: .
+    - paragraph: "Закрепить единственный operational rule:"
+    - blockquote:
+      - paragraph: Codex для этого проекта запускается с CWD=/Users/diplomat/ytvideos; работа с channel/episode определяется registry и явным чтением channel instructions, а не сменой CWD.
+    - paragraph: Это правило должно быть коротко и однозначно в root/bootstrap документации. Если уже есть эквивалентная формулировка, больше ничего менять не надо.
+    - paragraph: "Symlink .agents/skills внутри new_channel/`stories` нужен только если существует реальная обязательная эксплуатационная причина запускать Codex непосредственно из этих CWD. Иначе он создаёт лишние discovery surfaces без пользы."
+    - heading "3. Проверка маршрута правил канала" [level=2]
+    - paragraph: skills/list этого не доказывает. Skill body не означает автоматическую загрузку root, registry или channel AGENTS.md.
+    - paragraph: "Поэтому сделать статический audit всех 10 skills по одному критерию:"
+    - paragraph:
+      - strong: "Любой skill, способный работать с конкретным выпуском, до содержательных steps должен явно требовать:"
+    - generic: Обычный текст
+    - button "Включить перенос строк":
+    - button "Копировать код":
+    - code: root/project invariants → episode registry / local episode state → соответствующий channel AGENTS.md → затем procedure skill
+    - paragraph: Не нужно копировать правила каналов внутрь skills — только обязательный bootstrap.
+    - heading "Skills, где bootstrap обязателен" [level=3]
+    - paragraph: "Для episode/channel work это как минимум:"
+    - list:
+      - listitem: ytv-paper-production
+      - listitem: ytv-paper-storyboard
+      - listitem: ytv-paper-images
+      - listitem: ytv-video-packaging
+      - listitem: ytv-palmier-edit
+      - listitem: ytv-audio-delivery
+      - listitem: ytv-youtube-release
+      - listitem: ytv-history-story
+      - listitem: ytv-stories-shorts
+    - paragraph: ytv-chatgpt-extra-high может оставаться без channel bootstrap, когда он лишь реализует gate. Если через него передаётся episode-specific задача, channel context обязан уже предоставить вызывающий workflow.
+    - heading "4. Минимальный fix для generic skills" [level=2]
+    - paragraph: "Если generic skill сейчас начинает непосредственно с procedure и может пропустить канал, добавить в начало один общий по смыслу шаг, без дублирования правил:"
+    - blockquote:
+      - paragraph: Для работы с выпуском сначала определить его через .agent/episode-registry.md, прочитать локальный журнал/README и применимый channel AGENTS.md; не определять канал по slug/номеру. Затем выполнять этот workflow.
+    - paragraph:
+      - text: "Для Paper-specific skills ещё проще: они могут прямо ссылаться на new_channel/AGENTS.md,"
+      - strong: но registry всё равно нужен
+      - text: ", потому что Paper-выпуск может физически находиться вне new_channel — пример с Minnie/027 показывает, зачем это необходимо."
+    - paragraph: Для ytv-history-story и ytv-stories-shorts достаточно ссылки на stories/AGENTS.md после идентификации выпуска.
+    - heading "5. Критерий исправности routing" [level=2]
+    - paragraph: "Считать документный routing исправленным, если одновременно выполняются четыре условия:"
+    - list:
+      - listitem: Все 10 skills обнаруживаются при штатном CWD=root.
+      - listitem: Root однозначно задаёт registry → local state → channel AGENTS → relevant skill.
+      - listitem: Каждый episode-capable skill либо сам содержит этот bootstrap, либо является узкоканальным и явно требует нужный channel AGENTS.md; ни один не предполагает, что linked docs загрузились автоматически.
+      - listitem: Ни skill description, ни procedure не выводят канал из slug/номера; 027_doomscrolling_short должен маршрутизироваться как Paper только через registry/local state.
+    - heading "6. Что считать полноценным implicit-selection e2e" [level=2]
+    - paragraph:
+      - text: Текущий факт появления всех 10 skills в catalog
+      - strong: не доказывает implicit selection
+      - text: .
+    - paragraph:
+      - text: Для последующей e2e достаточно по
+      - strong: одному диагностическому model turn на distinct route
+      - text: ", а не по 10 skills:"
+    - list:
+      - listitem: "Paper episode с неочевидным путём: Minnie/027;"
+      - listitem: Stories RU episode — чтобы проявились Stories + RU-only VPN/1.10× ограничения;
+      - listitem: Nuviko History — чтобы проявился History route и 1.05×/другой ведущий;
+      - listitem: Palmier radio new_channel/videos/001_radio_game — чтобы проявилось точное исключение canonical timeline.
+    - paragraph:
+      - text: Успех — не просто «выбран какой-то skill», а observable trace/результат, показывающий правильный skill
+      - strong: и
+      - text: "правильный channel bootstrap. До такого теста статус следует формулировать как:"
+      - strong: metadata discovery подтверждён; implicit-selection e2e не проверен
+      - text: .
+    - paragraph: "Никаких openai.yaml или implicit-toggle изменений сейчас не требуется: фактический discovery уже работает, а сначала нужно устранить только возможные bootstrap gaps в существующих SKILL.md."
+    - button "Копировать":
+    - button "Оценить ответ":
+    - button "Прочитать вслух":
+    - button "Поделиться":
+    - button "Добавить в источники проекта":
+    - button "Сгенерировать ответ заново":
+    - button "Ещё действия":
+    - generic: ChatGPT может допускать ошибки. Проверяйте важную информацию.
+    - button "Прокрутить вниз":
+    - heading "Последний ответ" [level=4]
+    - status
+    - button "Добавить файлы и другое":
+    - textbox "Спросить ChatGPT" [active]:
+      - paragraph: Спросить ChatGPT
+    - button "Выбрать модель ChatGPT":
+      - generic: Уровень усилий рассуждения
+      - generic: 5.6 Extra High
+    - button "Диктовать":
+    - button "Начать голосовой разговор":
+- status
+- status
+- status
+- status: Ответ готов
+- status
+- status

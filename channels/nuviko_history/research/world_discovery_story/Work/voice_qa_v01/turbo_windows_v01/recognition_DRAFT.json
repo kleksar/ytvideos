@@ -1,0 +1,687 @@
+{
+  "audio_sha256": "710c96010938c89f099f896e888b967c343de32a63f528d1064f0e8ff7793ed4",
+  "model": "faster-whisper-large-v3-turbo local CPU int8",
+  "status": "ASR diagnostic, not listening or pronunciation verification",
+  "windows": [
+    {
+      "id": "maori",
+      "source_offset": 15,
+      "duration": 10,
+      "text": "land. Someone was already living there. For the Maori, these islands were home. Their ancestors had crossed the Pacific from East Polynesia",
+      "words": [
+        {
+          "word": " land.",
+          "start": 15.0,
+          "end": 15.46,
+          "probability": 0.8603577017784119
+        },
+        {
+          "word": " Someone",
+          "start": 15.7,
+          "end": 16.36,
+          "probability": 0.9647152423858643
+        },
+        {
+          "word": " was",
+          "start": 16.36,
+          "end": 16.76,
+          "probability": 0.9991182684898376
+        },
+        {
+          "word": " already",
+          "start": 16.76,
+          "end": 17.32,
+          "probability": 0.9989546537399292
+        },
+        {
+          "word": " living",
+          "start": 17.32,
+          "end": 17.72,
+          "probability": 0.9980239868164062
+        },
+        {
+          "word": " there.",
+          "start": 17.72,
+          "end": 18.1,
+          "probability": 0.9969099164009094
+        },
+        {
+          "word": " For",
+          "start": 18.36,
+          "end": 18.82,
+          "probability": 0.9969586133956909
+        },
+        {
+          "word": " the",
+          "start": 18.82,
+          "end": 18.98,
+          "probability": 0.9987842440605164
+        },
+        {
+          "word": " Maori,",
+          "start": 18.98,
+          "end": 19.3,
+          "probability": 0.8471196293830872
+        },
+        {
+          "word": " these",
+          "start": 19.82,
+          "end": 20.0,
+          "probability": 0.9955287575721741
+        },
+        {
+          "word": " islands",
+          "start": 20.0,
+          "end": 20.48,
+          "probability": 0.9901056885719299
+        },
+        {
+          "word": " were",
+          "start": 20.48,
+          "end": 20.8,
+          "probability": 0.9982470273971558
+        },
+        {
+          "word": " home.",
+          "start": 20.8,
+          "end": 21.3,
+          "probability": 0.9933962821960449
+        },
+        {
+          "word": " Their",
+          "start": 21.54,
+          "end": 22.0,
+          "probability": 0.993705689907074
+        },
+        {
+          "word": " ancestors",
+          "start": 22.0,
+          "end": 22.6,
+          "probability": 0.9979931116104126
+        },
+        {
+          "word": " had",
+          "start": 22.6,
+          "end": 22.88,
+          "probability": 0.9974750876426697
+        },
+        {
+          "word": " crossed",
+          "start": 22.88,
+          "end": 23.26,
+          "probability": 0.9959803819656372
+        },
+        {
+          "word": " the",
+          "start": 23.26,
+          "end": 23.44,
+          "probability": 0.9993483424186707
+        },
+        {
+          "word": " Pacific",
+          "start": 23.44,
+          "end": 23.82,
+          "probability": 0.972756564617157
+        },
+        {
+          "word": " from",
+          "start": 23.82,
+          "end": 24.1,
+          "probability": 0.995261013507843
+        },
+        {
+          "word": " East",
+          "start": 24.1,
+          "end": 24.4,
+          "probability": 0.9015159010887146
+        },
+        {
+          "word": " Polynesia",
+          "start": 24.4,
+          "end": 24.98,
+          "probability": 0.9735912879308065
+        }
+      ]
+    },
+    {
+      "id": "al_idrisi",
+      "source_offset": 232,
+      "duration": 12,
+      "text": "knowledge from communities around a different sea. In 12th century Sicily, the mapmaker Al Idrisi assembled accounts of lands and roots. His work drew on information from many places.",
+      "words": [
+        {
+          "word": " knowledge",
+          "start": 232.0,
+          "end": 232.3,
+          "probability": 0.7695928812026978
+        },
+        {
+          "word": " from",
+          "start": 232.3,
+          "end": 232.52,
+          "probability": 0.9968618154525757
+        },
+        {
+          "word": " communities",
+          "start": 232.52,
+          "end": 233.0,
+          "probability": 0.9959178566932678
+        },
+        {
+          "word": " around",
+          "start": 233.0,
+          "end": 233.52,
+          "probability": 0.997820258140564
+        },
+        {
+          "word": " a",
+          "start": 233.52,
+          "end": 233.72,
+          "probability": 0.9965986609458923
+        },
+        {
+          "word": " different",
+          "start": 233.72,
+          "end": 234.02,
+          "probability": 0.9955126643180847
+        },
+        {
+          "word": " sea.",
+          "start": 234.02,
+          "end": 234.42,
+          "probability": 0.9603986740112305
+        },
+        {
+          "word": " In",
+          "start": 234.64,
+          "end": 234.98,
+          "probability": 0.9937811493873596
+        },
+        {
+          "word": " 12th",
+          "start": 234.98,
+          "end": 235.4,
+          "probability": 0.9220293462276459
+        },
+        {
+          "word": " century",
+          "start": 235.4,
+          "end": 235.7,
+          "probability": 0.790256917476654
+        },
+        {
+          "word": " Sicily,",
+          "start": 235.7,
+          "end": 236.3,
+          "probability": 0.9880318641662598
+        },
+        {
+          "word": " the",
+          "start": 236.66,
+          "end": 236.68,
+          "probability": 0.9939490556716919
+        },
+        {
+          "word": " mapmaker",
+          "start": 236.68,
+          "end": 237.28,
+          "probability": 0.87262162566185
+        },
+        {
+          "word": " Al",
+          "start": 237.28,
+          "end": 237.62,
+          "probability": 0.8450688719749451
+        },
+        {
+          "word": " Idrisi",
+          "start": 237.62,
+          "end": 238.26,
+          "probability": 0.896946370601654
+        },
+        {
+          "word": " assembled",
+          "start": 238.26,
+          "end": 238.82,
+          "probability": 0.9836897253990173
+        },
+        {
+          "word": " accounts",
+          "start": 238.82,
+          "end": 239.24,
+          "probability": 0.9981503486633301
+        },
+        {
+          "word": " of",
+          "start": 239.24,
+          "end": 239.5,
+          "probability": 0.9981166124343872
+        },
+        {
+          "word": " lands",
+          "start": 239.5,
+          "end": 239.86,
+          "probability": 0.9926438927650452
+        },
+        {
+          "word": " and",
+          "start": 239.86,
+          "end": 240.16,
+          "probability": 0.9987961053848267
+        },
+        {
+          "word": " roots.",
+          "start": 240.16,
+          "end": 240.52,
+          "probability": 0.9173793196678162
+        },
+        {
+          "word": " His",
+          "start": 240.74,
+          "end": 241.2,
+          "probability": 0.9952359795570374
+        },
+        {
+          "word": " work",
+          "start": 241.2,
+          "end": 241.5,
+          "probability": 0.9986093044281006
+        },
+        {
+          "word": " drew",
+          "start": 241.5,
+          "end": 241.74,
+          "probability": 0.9986746311187744
+        },
+        {
+          "word": " on",
+          "start": 241.74,
+          "end": 241.96,
+          "probability": 0.9980625510215759
+        },
+        {
+          "word": " information",
+          "start": 241.96,
+          "end": 242.48,
+          "probability": 0.9983602166175842
+        },
+        {
+          "word": " from",
+          "start": 242.48,
+          "end": 242.82,
+          "probability": 0.9984278678894043
+        },
+        {
+          "word": " many",
+          "start": 242.82,
+          "end": 243.14,
+          "probability": 0.9989485144615173
+        },
+        {
+          "word": " places.",
+          "start": 243.14,
+          "end": 243.58,
+          "probability": 0.9985408782958984
+        }
+      ]
+    },
+    {
+      "id": "taino",
+      "source_offset": 316,
+      "duration": 12,
+      "text": "while sailing west from Europe. He had not reached an empty world. Taino people already lived on those islands. The encounter began a period of conquest, forced labor, and death.",
+      "words": [
+        {
+          "word": " while",
+          "start": 316.0,
+          "end": 316.42,
+          "probability": 0.13146670162677765
+        },
+        {
+          "word": " sailing",
+          "start": 316.42,
+          "end": 316.84,
+          "probability": 0.9920316934585571
+        },
+        {
+          "word": " west",
+          "start": 316.84,
+          "end": 317.22,
+          "probability": 0.9310557246208191
+        },
+        {
+          "word": " from",
+          "start": 317.22,
+          "end": 317.46,
+          "probability": 0.9938778281211853
+        },
+        {
+          "word": " Europe.",
+          "start": 317.46,
+          "end": 317.78,
+          "probability": 0.9750438928604126
+        },
+        {
+          "word": " He",
+          "start": 318.04,
+          "end": 318.36,
+          "probability": 0.9878700375556946
+        },
+        {
+          "word": " had",
+          "start": 318.36,
+          "end": 318.56,
+          "probability": 0.9961485862731934
+        },
+        {
+          "word": " not",
+          "start": 318.56,
+          "end": 318.8,
+          "probability": 0.9984990358352661
+        },
+        {
+          "word": " reached",
+          "start": 318.8,
+          "end": 319.18,
+          "probability": 0.9984266757965088
+        },
+        {
+          "word": " an",
+          "start": 319.18,
+          "end": 319.4,
+          "probability": 0.9938074946403503
+        },
+        {
+          "word": " empty",
+          "start": 319.4,
+          "end": 319.72,
+          "probability": 0.9828535914421082
+        },
+        {
+          "word": " world.",
+          "start": 319.72,
+          "end": 320.22,
+          "probability": 0.9967696666717529
+        },
+        {
+          "word": " Taino",
+          "start": 320.5,
+          "end": 320.98,
+          "probability": 0.7873970667521158
+        },
+        {
+          "word": " people",
+          "start": 320.98,
+          "end": 321.3,
+          "probability": 0.9918107986450195
+        },
+        {
+          "word": " already",
+          "start": 321.3,
+          "end": 321.92,
+          "probability": 0.9951306581497192
+        },
+        {
+          "word": " lived",
+          "start": 321.92,
+          "end": 322.36,
+          "probability": 0.9982929825782776
+        },
+        {
+          "word": " on",
+          "start": 322.36,
+          "end": 322.58,
+          "probability": 0.9983569979667664
+        },
+        {
+          "word": " those",
+          "start": 322.58,
+          "end": 322.82,
+          "probability": 0.9935311675071716
+        },
+        {
+          "word": " islands.",
+          "start": 322.82,
+          "end": 323.18,
+          "probability": 0.9950763583183289
+        },
+        {
+          "word": " The",
+          "start": 323.52,
+          "end": 323.84,
+          "probability": 0.992432713508606
+        },
+        {
+          "word": " encounter",
+          "start": 323.84,
+          "end": 324.3,
+          "probability": 0.9966363906860352
+        },
+        {
+          "word": " began",
+          "start": 324.3,
+          "end": 324.7,
+          "probability": 0.9981679916381836
+        },
+        {
+          "word": " a",
+          "start": 324.7,
+          "end": 324.92,
+          "probability": 0.9952548742294312
+        },
+        {
+          "word": " period",
+          "start": 324.92,
+          "end": 325.28,
+          "probability": 0.9992751479148865
+        },
+        {
+          "word": " of",
+          "start": 325.28,
+          "end": 325.5,
+          "probability": 0.9990027546882629
+        },
+        {
+          "word": " conquest,",
+          "start": 325.5,
+          "end": 326.12,
+          "probability": 0.9957979321479797
+        },
+        {
+          "word": " forced",
+          "start": 326.42,
+          "end": 326.86,
+          "probability": 0.9983793497085571
+        },
+        {
+          "word": " labor,",
+          "start": 326.86,
+          "end": 327.24,
+          "probability": 0.9526320099830627
+        },
+        {
+          "word": " and",
+          "start": 327.64,
+          "end": 327.7,
+          "probability": 0.9953304529190063
+        },
+        {
+          "word": " death.",
+          "start": 327.7,
+          "end": 327.98,
+          "probability": 0.6763429641723633
+        }
+      ]
+    },
+    {
+      "id": "elcano",
+      "source_offset": 382,
+      "duration": 12,
+      "text": "journey. In 1522, the ship Victoria returned to Spain under Juan Sebastián Elcano. The expedition had circled the globe, but Magellan himself had not completed the world.",
+      "words": [
+        {
+          "word": " journey.",
+          "start": 382.0,
+          "end": 382.3,
+          "probability": 0.7134085297584534
+        },
+        {
+          "word": " In",
+          "start": 382.56,
+          "end": 382.98,
+          "probability": 0.9923101663589478
+        },
+        {
+          "word": " 1522,",
+          "start": 382.98,
+          "end": 383.92,
+          "probability": 0.9989826083183289
+        },
+        {
+          "word": " the",
+          "start": 384.44,
+          "end": 384.5,
+          "probability": 0.9990261793136597
+        },
+        {
+          "word": " ship",
+          "start": 384.5,
+          "end": 384.76,
+          "probability": 0.9969000816345215
+        },
+        {
+          "word": " Victoria",
+          "start": 384.76,
+          "end": 385.4,
+          "probability": 0.9864138960838318
+        },
+        {
+          "word": " returned",
+          "start": 385.4,
+          "end": 385.98,
+          "probability": 0.9979999661445618
+        },
+        {
+          "word": " to",
+          "start": 385.98,
+          "end": 386.18,
+          "probability": 0.9997366070747375
+        },
+        {
+          "word": " Spain",
+          "start": 386.18,
+          "end": 386.56,
+          "probability": 0.9996997117996216
+        },
+        {
+          "word": " under",
+          "start": 386.56,
+          "end": 386.9,
+          "probability": 0.9969486594200134
+        },
+        {
+          "word": " Juan",
+          "start": 386.9,
+          "end": 387.24,
+          "probability": 0.9988335967063904
+        },
+        {
+          "word": " Sebastián",
+          "start": 387.24,
+          "end": 387.98,
+          "probability": 0.7368344863255819
+        },
+        {
+          "word": " Elcano.",
+          "start": 387.98,
+          "end": 388.48,
+          "probability": 0.826796680688858
+        },
+        {
+          "word": " The",
+          "start": 388.8,
+          "end": 389.1,
+          "probability": 0.9978813529014587
+        },
+        {
+          "word": " expedition",
+          "start": 389.1,
+          "end": 389.64,
+          "probability": 0.9983110427856445
+        },
+        {
+          "word": " had",
+          "start": 389.64,
+          "end": 389.98,
+          "probability": 0.9986328482627869
+        },
+        {
+          "word": " circled",
+          "start": 389.98,
+          "end": 390.54,
+          "probability": 0.9983368813991547
+        },
+        {
+          "word": " the",
+          "start": 390.54,
+          "end": 390.66,
+          "probability": 0.9993150234222412
+        },
+        {
+          "word": " globe,",
+          "start": 390.66,
+          "end": 391.1,
+          "probability": 0.9982655644416809
+        },
+        {
+          "word": " but",
+          "start": 391.26,
+          "end": 391.62,
+          "probability": 0.9996756315231323
+        },
+        {
+          "word": " Magellan",
+          "start": 391.62,
+          "end": 392.12,
+          "probability": 0.9958252310752869
+        },
+        {
+          "word": " himself",
+          "start": 392.12,
+          "end": 392.6,
+          "probability": 0.9976239800453186
+        },
+        {
+          "word": " had",
+          "start": 392.6,
+          "end": 393.08,
+          "probability": 0.9992596507072449
+        },
+        {
+          "word": " not",
+          "start": 393.08,
+          "end": 393.34,
+          "probability": 0.999190628528595
+        },
+        {
+          "word": " completed",
+          "start": 393.34,
+          "end": 393.86,
+          "probability": 0.998909592628479
+        },
+        {
+          "word": " the",
+          "start": 393.86,
+          "end": 393.98,
+          "probability": 0.8972177505493164
+        },
+        {
+          "word": " world.",
+          "start": 393.98,
+          "end": 393.98,
+          "probability": 0.028864623978734016
+        }
+      ]
+    }
+  ]
+}

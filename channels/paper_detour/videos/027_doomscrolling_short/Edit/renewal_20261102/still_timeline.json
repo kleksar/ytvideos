@@ -1,0 +1,134 @@
+{
+  "canGenerate": false,
+  "durationSeconds": 35,
+  "fps": 30,
+  "height": 1920,
+  "maskOverlayVisible": false,
+  "name": "Minnie renewal 20261102 still edit",
+  "outputColorSpace": "rec709",
+  "timelineId": "33AD7B40",
+  "timelines": [
+    {
+      "name": "Timeline 1",
+      "timelineId": "547C6295"
+    },
+    {
+      "name": "PD027 Minnie Freeman paper diorama v02 20261101",
+      "timelineId": "B332DEEF",
+      "visible": true
+    },
+    {
+      "name": "Minnie renewal 20261102 still edit",
+      "timelineId": "33AD7B40"
+    }
+  ],
+  "totalFrames": 1050,
+  "tracks": [
+    {
+      "clips": [
+        {
+          "frames": [
+            0,
+            173
+          ],
+          "id": "A7167FE7",
+          "mediaRef": "63D117B3",
+          "mediaType": "image"
+        },
+        {
+          "frames": [
+            173,
+            300
+          ],
+          "id": "A687238D",
+          "mediaRef": "1E8B4A98",
+          "mediaType": "image",
+          "trimEndFrame": 23
+        },
+        {
+          "frames": [
+            300,
+            420
+          ],
+          "id": "C58D6DC3",
+          "mediaRef": "38E41522",
+          "mediaType": "image",
+          "trimEndFrame": 30
+        },
+        {
+          "frames": [
+            420,
+            570
+          ],
+          "id": "4EC2A711",
+          "mediaRef": "3F9F580D",
+          "mediaType": "image"
+        },
+        {
+          "frames": [
+            570,
+            690
+          ],
+          "id": "525358AE",
+          "mediaRef": "1F865F62",
+          "mediaType": "image",
+          "trimEndFrame": 30
+        },
+        {
+          "frames": [
+            690,
+            810
+          ],
+          "id": "10A4960C",
+          "mediaRef": "1F885315",
+          "mediaType": "image",
+          "trimEndFrame": 30
+        },
+        {
+          "frames": [
+            810,
+            930
+          ],
+          "id": "3EB68582",
+          "mediaRef": "3B2BD464",
+          "mediaType": "image",
+          "trimEndFrame": 30
+        },
+        {
+          "frames": [
+            930,
+            1050
+          ],
+          "id": "4151EFCD",
+          "mediaRef": "5A7DC30D",
+          "mediaType": "image",
+          "trimEndFrame": 30
+        }
+      ],
+      "index": 0,
+      "label": "V1",
+      "name": "Scenes",
+      "trackId": "3608432F",
+      "type": "video"
+    },
+    {
+      "clips": [
+        {
+          "frames": [
+            0,
+            1050
+          ],
+          "id": "18289058",
+          "mediaRef": "CF78F82E",
+          "mediaType": "audio"
+        }
+      ],
+      "index": 1,
+      "label": "A1",
+      "name": "Dialogue",
+      "trackId": "2B250262",
+      "type": "audio"
+    }
+  ],
+  "width": 1080
+}

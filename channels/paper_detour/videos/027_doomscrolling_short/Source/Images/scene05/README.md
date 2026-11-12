@@ -1,0 +1,70 @@
+# 027 — сцена 05, крупный план телефона, v01 / фон v02
+
+Исполнитель `/root/artist_modern`. Изображения созданы встроенным инструментом OpenAI image generation 31 октября 2026. В качестве визуального референса использован `../scene01/master_v01.png`; оригиналы оставлены в `/Users/diplomat/.codex/generated_images/01a19401-8225-7892-b2a6-5d8c42f1b940/`, версии скопированы сюда. Palmier и звук не менялись.
+
+## Что создано и проверено
+
+- `master_v01.png` — 941×1672, вид через плечо в знакомой комнате; рукава героя узнаются по цвету и фактуре. Экран показывает условные карточки, без читаемых заголовков. Большие пальцы соприкасаются с рамкой/экраном; другие пальцы частично скрыты, достоверно пересчитать их по кадру не удаётся.
+- `contact_group_v01.png` — прозрачный PNG с обеими руками, рукавами и телефоном на исходном холсте. При alpha≥128 ограничивающий прямоугольник `(0,644)–(941,1672)`, включая рукава на краях. Телефон и экран входят в эту группу; движущаяся лента и отдельная маска экрана **не созданы**. Среднее абсолютное отличие RGB непрозрачных областей от мастера 13,81/255; только 48,2% пикселей отличаются по каждому каналу не более чем на 12. В прозрачных областях есть 7499 пикселей alpha 1–7.
+- `foreground_v01.png` — отдельный прозрачный край одеяла внизу, alpha≥128 `(0,1322)–(941,1672)`. Он дорисован генератором: отличие от мастера 38,06/255, доля пикселей в пределах 12 — 3,6%; 2669 слабых alpha 1–7. Свет/форма похожи, но это не пиксельная вырезка.
+- `background_v01.png` — восстановленная комната с повторной полосатой складкой под отдельным одеялом: эта версия отбракована из-за риска двойника в движении.
+- `background_v02.png` — отдельная переделка: дублирующаяся полосатая складка заменена спокойной синей подложкой. Верх сцены визуально сохранён, но генератор изменил освещённость и детализацию; пиксельная идентичность не проверена.
+- `composite_test_v01.png`, `composite_test_v02.png` — неподвижные FFmpeg-композиты соответствующих фонов с контактной группой и передним планом без трансформаций. В v02 видимого дублирования полосы нет, рука и телефон соприкасаются. Это не монтаж Palmier и не проверка движения. Рукава и слои касаются границ холста; безопасный запас, ореолы alpha, перспектива, свет в движении, маска экрана, мобильная читаемость и стыки остаются непроверенными.
+
+## Точные промпты
+
+**Мастер**, референс `../scene01/master_v01.png`:
+
+> Use case: illustration-story. Image 1 is the exact paper-diorama style reference and continuity reference for the character's teal sweater, hands and bedroom. Create ONE new vertical 9:16 master composition as a separate close-up shot, not an enlarged crop: over the character's shoulder looking at the front of a smartphone held securely in both hands, hands and phone occupying the lower half to two-thirds of frame. Hands show a natural secure grip, anatomically plausible fingers; thumbs near but not covering the display. The phone screen contains only generic tiny blank paper news cards, small unlabeled picture boxes and meaningless horizontal graphic strokes, no readable letters, brand names or logos. Make the screen mostly flat and visible, easy to later isolate with a screen mask. Show teal sweater sleeves to connect to Image 1, no need to show face. Background is the same blue nighttime bedroom and amber lamp, softly distant. Reserve quiet uncluttered space ABOVE the phone for future separate paper words; no words in the image. At one bottom edge place a foreground blanket corner or leaf, clear of fingers and screen. Entire image is handmade textured cut paper and cardboard, visible layers, paper edges and soft contact shadows, cinematic amber and cool blue light as in Image 1. Keep consistent perspective, phone held in hands and no floating or duplicate objects. No visible text, no caption, no logos, no watermark, no photo-real hands.
+
+**Контактная группа**, вход `master_v01.png`, запрошена прозрачность:
+
+> Use case: background-extraction. Image 1 is the exact editing target. Extract as one transparent cutout ONLY the original two hands with teal sweater sleeves and the smartphone they hold, including the exact original screen and grip. Preserve EXACT 941×1672 canvas and original scale, orientation and position: phone top near x430 y640 and base near x580 y1230. Hands and phone must stay at their original locations in the original full canvas; do not zoom, crop, pan, enlarge, recenter, rotate or redraw. Leave transparent empty canvas above, behind and below them; REMOVE trousers, lap, blanket, plant and room. Keep original fingers, grip, light, phone screen and styles unchanged. Real alpha transparency, no checkerboard, no text.
+
+**Фон v01**, вход `master_v01.png`:
+
+> Use case: precise-object-edit. Image 1 is the exact input. Remove the smartphone and both hands with sleeves, and remove the close foreground mustard-and-blue blanket at the bottom; reconstruct the covered bed, bedding, walls and rug beneath them consistently with the same room, camera and paper texture. Keep the window, moon, mountain view, lamp, furniture and background shelf in exact positions and perspective. Preserve the full 941×1672 composition. No hands, phone, fingers, duplicate devices, odd floating pieces or invented text.
+
+**Передний план**, вход `master_v01.png`, запрошена прозрачность:
+
+> Use case: background-extraction. Image 1 is the exact target. Extract ONLY the mustard-and-blue folded blanket along the very bottom foreground, retaining original cut-paper texture and soft depth, with its original position and scale in the full 941×1672 canvas. Include no hands, sleeves, phone, knees, bed, room, books or plants; all non-blanket pixels genuinely transparent. Do not zoom, crop, pan, recenter, re-illustrate or add text.
+
+**Фон v02**, вход `background_v01.png`:
+
+> Use case: precise-object-edit. Image 1 is the exact editing target and must keep its 941×1672 canvas and all existing objects from y=0 to y=1060 unchanged. Change ONLY the lower area from y≈1060 to bottom: remove ALL foreground folded striped or multicolored blankets, and fill that area with a continuous simple dark navy blue paper bedcover with very gentle shading, no folds, no edges, no stripes, no additional blanket. Keep no hands, phone or human body. This creates a clean empty backing for a separately layered foreground blanket. Preserve paper diorama style and current lighting, position and perspective everywhere else. No text or logos.
+
+## Фон v03 и проба движущегося экрана
+
+После независимого замечания о географии комнаты подготовлен `background_v03.png`: видимая слева лампа и тумба удалены, кровать/стена восстановлены; во временном `composite_test_v03.png` они больше не появляются. В исходной сцене 01 лампа справа от кровати; её свет в v03 считается идущим из-за правого края. Непрерывность света с другими сценами и правдоподобие при параллаксе ещё требуется проверить. Старые версии сохранены.
+
+- `screen_mask_v01.png` — отбракована: белая маска перекрывает большой палец.
+- `screen_mask_v02.png` — пробная белая область видимого экрана, с выемкой для большого пальца. Размер 941×1672, границы alpha≥128 `(314,665)–(680,1213)`, 3393 пикселя alpha 1–7. `screen_mask_overlay_test_v02.png` демонстрирует вырез палец/экран в одном неподвижном положении; точную маску по всем краям и движение не проверяли.
+- `screen_cards_v01.png` — отдельная бумажная полоса карточек без читаемых надписей, настоящий alpha, размер **941×1670**, а не размер холста мастер-кадра. Генератор увеличил её относительно телефона вопреки просьбе; исходную позицию без преобразований использовать нельзя. `screen_cards_overlay_test_v01.png` демонстрирует ошибку масштаба.
+- `screen_masked_composite_test_v01.png` — первая проверка маски и уменьшенной полосы. `screen_masked_composite_shift_test_v01.png` показывает дефект: при сдвиге виден нижний стык с прежней картинкой, так как содержимое полосы не покрывает всю маску.
+- `screen_overscan_test_v01.png` и `screen_overscan_shift_test_v01.png` — проверки покрытия с запасом: для обоих тестов полоса масштабирована до **772×1369** и помещена на холст 941×1672 соответственно с позициями **(100,120)** и **(110,75)**. Её альфа перемножена с альфой маски v02, а результат наложен поверх `composite_test_v03.png`. На двух стоп-кадрах палец остаётся видим и стыка в показанном экране не видно. Движение между ними, все крайние положения, отсутствие ореолов и корректная обработка маски в Palmier **не проверены**. При другом масштабе/движении повторить проверку: экран старого изображения остаётся под новой лентой. Это ещё не готовая анимация.
+
+### Точные промпты новых версий
+
+**Фон v03**, input 1 `background_v02.png`, input 2 `../scene01/master_v01.png`:
+
+> Use case: precise-object-edit. Image 1 is the exact scene 05 background target; Image 2 is a geography reference for the same bedroom, where the lamp sits to the RIGHT of the bed next to the window, not to the left. In image 1 remove the lit lamp, its stand and its visible illuminated left bedside cabinet entirely; reconstruct the area behind them with the same blue wall and ordinary paper bed/headboard, maintaining the camera perspective. The lamp must not remain or be replaced with a new lamp anywhere on the left. Preserve ALL else in image 1 as closely as possible, including the size 941×1672, window, night mountain view, pictures, shelf, bed, clear navy foreground and lighting. Do not add any people, phone, hands, text or extra objects; retain soft warm lighting from the right side, consistent with the off-frame lamp's location in reference image 2. The image is a matte handmade paper diorama.
+
+**Маска v01**, input `master_v01.png`, прозрачный фон:
+
+> Use case: precise-object-edit. Image 1 is an exact editing target. Create a pure matte for compositing: replace the inside of the phone's lit screen ONLY with a solid flat white opaque shape. Leave transparent EVERY other pixel of the exact full 941×1672 canvas; no frame, no thumb, no hands, no room, no text. Follow the phone screen's precise rotated perspective and rounded corners in the source, do not include dark outer phone bezel or either hand. Its approximate bounds are x=317–680, y=661–1205 and its top tilts down toward the right. Keep same original canvas, scale and position; do not zoom, pan, rotate, crop or recenter. White must be opaque, all exterior genuinely transparent, no checkerboard.
+
+**Лента**, input `master_v01.png`, прозрачный фон:
+
+> Use case: background-extraction. Image 1 is an exact editing target. Isolate only the visible stack of generic paper news cards INSIDE the smartphone screen, in exactly the same rotated perspective, scale and pixel coordinates; remove the smartphone's black bezel and hands. Keep full original 941×1672 canvas without cropping, rotating, enlarging, panning or recentering; everything outside the screen is transparent. Preserve screen card layout and paper art, anonymous little pictures and gray horizontal strokes; no real text, captions, logos, brand, names, or watermarks. This will be a layer for compositing and later motion. True alpha outside the screen, no checkerboard.
+
+**Маска v02**, input `master_v01.png`, прозрачный фон:
+
+> Use case: background-extraction. Create a compositing mask from Image 1. Output the exact same full 941×1672 canvas, no crop, zoom, reposition, or rotation. Make solid white ONLY the portion of the phone's pale screen that is actually VISIBLE, and make all other pixels completely transparent. Critical: the right thumb overlaps the display along the right-middle edge, approximately x=580–650, y=920–1005. This thumb's full silhouette MUST remain fully transparent as an excluded cutout in the right edge of the screen mask; do not paint white over the thumb. The phone's dark bezel and top notch must also be excluded as transparent. Accurately trace the original screen's irregular visible outline, rounded bottom and tilted perspective, without enlarging or changing any coordinates. Do not display the phone, hands, card details, colors, room, text, watermark or checkerboard; only white opaque visible-screen area on transparent background.
+
+## Фон v04 — непрерывность лампы
+
+Повторная независимая проверка отметила, что в сценах 01 и 06 лампа находится на тумбе справа, а на v03 эта тумба пуста. Поэтому подготовлен `background_v04.png` на основе v03 с аналогичной включённой бумажной лампой на видимой части правой тумбы. На неподвижном `composite_test_v04.png` лампа касается поверхности тумбы и частично выходит за правый край, слева лампы нет, телефон и руки не изменялись. `screen_overscan_test_v02.png` проверяет тот же фон со слоем экрана в одном положении. Лампа сгенерирована заново: сходство формы, тени и точной яркости с соседними сценами оценено визуально по стоп-кадру, идентичность не подтверждена. Склейки, движение, края и анимация экрана в Palmier остаются непроверенными. Исходные v01–v03 сохранены.
+
+**Точный промпт встроенного imagegen**, input 1 `background_v03.png`, input 2 `../scene01/master_v01.png`:
+
+> Use case: precise-object-edit. Image 1 is the only target. Image 2 is the continuity reference for the same bedroom, especially the SMALL LIT bedside lamp on the table to the RIGHT of the window. In Image 1 add that same cream-colored trapezoidal paper lampshade, slim brown stand, and small warm foot, placing it on the existing RIGHT-EDGE tabletop by the window (x≈820–940 on a 941×1672 canvas, the lamp foot touching the tabletop at y≈900); part may naturally be out of frame at the right. Match its form, relative size, layered paper texture, amber illumination and shadow direction to reference 2 and the perspective of Image 1. The lamp must not float, and no lamp may appear on the left. Preserve every other feature and pixel placement in Image 1 as closely as possible: unchanged 941×1672 frame, blue wall, pictures, bed, shelf, moonlit window, plain navy lower foreground, table and books. No person, hands, telephone, captions, brand or additional objects. Consistent cinematic hand-cut paper diorama.

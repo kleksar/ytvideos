@@ -1,0 +1,208 @@
+{
+  "schema": "ytv-delivery-v1",
+  "channel": "nuviko",
+  "format": "long",
+  "canvas": [
+    2560,
+    1440
+  ],
+  "fps": 30,
+  "frames": 173,
+  "caption_end_frame": 173,
+  "audio": {
+    "audio": {
+      "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Work/subtitle_geometry_probe_s008_v01/voice_excerpt.wav",
+      "sha256": "dac8e28e2b62984fca2da1e9ef159f216ea6c2132911612f0e5111fb92b0a250"
+    },
+    "applied_speed": 1.1,
+    "speed_policy": {
+      "path": "/Users/diplomat/ytvideos/.agents/skills/ytv-audio-delivery/references/speed.json",
+      "sha256": "32c378c36c1e297cbdc4e3593c965163d33e531b8b8eea026b367bddb51a668a"
+    },
+    "speed_evidence": {
+      "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Work/subtitle_geometry_probe_s008_v01/speed_evidence.md",
+      "sha256": "ea4081dc084e1d62e16ebf8bc3c4e1a2ccef496cfb61deb6c79a873f2f723c21"
+    }
+  },
+  "transcript": {
+    "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Work/subtitle_geometry_probe_s008_v01/transcript.txt",
+    "sha256": "c30768c31110b35341a5c8d0f9ef16777cfb992f1e20aa3d4bd441cda55527da"
+  },
+  "word_map": {
+    "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Work/subtitle_geometry_probe_s008_v01/words.json",
+    "sha256": "233067d9696aeed3ad055d963bd7c1370fd90a09e96cd9593ab45fcacd203a72"
+  },
+  "profiles": [
+    {
+      "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/profiles/nuviko.json",
+      "sha256": "e710153ae2bd0587adf233b671924ebbf64d183c3e77d2f5ea0c48b266f467a0"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/profiles/long.json",
+      "sha256": "e8f9f5dd0354283634a0cf9dc1816736bac38de158de1d0bdd1b8b4658f51459"
+    },
+    {
+      "path": "/System/Library/Fonts/Supplemental/Georgia Bold.ttf",
+      "sha256": "1cfa9abd55be746c798c22ef4eba88fce82257934897404be2dae53ed0a4142a"
+    }
+  ],
+  "engine": [
+    {
+      "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/montage.py",
+      "sha256": "24c1486c0e6302b93372a390da21b198d2c4567be79813acc5b5d12ad7c82023"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/delivery.py",
+      "sha256": "218a0bbc2a70ac463d32ac2ca321bc090335f8abcaa386bafb1983bce12a3f6f"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/.agents/skills/ytv-paper-subtitles/scripts/semantic_grouping.py",
+      "sha256": "046d92c9fecbd993cd2f0087357ae8354d6e17a0db801655cb57f1682aac9dcd"
+    }
+  ],
+  "picture": [
+    {
+      "scene": {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Work/early_visual_probe_v02/S008_candidate_v02.png",
+        "start_frame": 0,
+        "end_frame": 173,
+        "direction": "none",
+        "zoom": "in",
+        "camera": {
+          "subject": "distance and boat scale diagram",
+          "focus": [
+            0.56,
+            0.45
+          ],
+          "reason": "Very small push to focus the distance comparison while preserving both labels.",
+          "start": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.0
+          },
+          "end": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.015
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Work/early_visual_probe_v02/S008_candidate_v02.png",
+        "sha256": "44aed0477219dc8b58bd443e33b04c2a1dcc3ea5ba20fc8308bfbc68fcb6b5d6"
+      }
+    }
+  ],
+  "overlays": [],
+  "groups": [
+    [
+      {
+        "text": "than",
+        "start": 0.013333,
+        "end": 0.333333
+      },
+      {
+        "text": "eight",
+        "start": 0.453333,
+        "end": 0.573333
+      },
+      {
+        "text": "hundred",
+        "start": 0.653333,
+        "end": 0.973333
+      },
+      {
+        "text": "miles",
+        "start": 1.133333,
+        "end": 1.533333
+      }
+    ],
+    [
+      {
+        "text": "of",
+        "start": 1.653333,
+        "end": 1.773333
+      },
+      {
+        "text": "open",
+        "start": 1.933333,
+        "end": 2.093333
+      },
+      {
+        "text": "ocean",
+        "start": 2.173333,
+        "end": 2.733333
+      },
+      {
+        "text": "in",
+        "start": 2.773333,
+        "end": 2.813333
+      },
+      {
+        "text": "a",
+        "start": 2.893333,
+        "end": 3.053333
+      },
+      {
+        "text": "boat",
+        "start": 3.293333,
+        "end": 3.533333
+      },
+      {
+        "text": "barely",
+        "start": 3.653333,
+        "end": 4.013333
+      }
+    ],
+    [
+      {
+        "text": "seven",
+        "start": 4.093333,
+        "end": 4.333333
+      },
+      {
+        "text": "metres",
+        "start": 4.413333,
+        "end": 4.813333
+      },
+      {
+        "text": "long",
+        "start": 4.893333,
+        "end": 5.213333
+      }
+    ]
+  ],
+  "resolved": {
+    "resolved_font_size_px": 84,
+    "max_visible_width_px": 1344.0,
+    "center_x_px": 1280.0,
+    "baseline": 1288,
+    "algorithm": "sentence-syntax-width-v6",
+    "display_intervals": [
+      {
+        "start_frame": 0,
+        "end_frame": 50
+      },
+      {
+        "start_frame": 50,
+        "end_frame": 123
+      },
+      {
+        "start_frame": 123,
+        "end_frame": 173
+      }
+    ],
+    "boundary_warnings": [
+      {
+        "after_group": 0,
+        "left": "than eight hundred miles",
+        "right": "of open ocean in a boat barely",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      }
+    ]
+  }
+}

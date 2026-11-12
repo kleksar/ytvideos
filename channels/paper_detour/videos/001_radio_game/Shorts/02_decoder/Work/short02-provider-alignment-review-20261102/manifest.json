@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "run": "short02-provider-alignment-review-20261102",
+  "owner": "/root",
+  "status": "complete",
+  "created_utc": "2026-11-02T21:40:17.467684+00:00",
+  "entries": [
+    {
+      "path": "Work/short02-provider-alignment-review-20261102/previews/PAPER_DETOUR_001_SHORT02_RENEWAL_EN_REVIEW_20261102_v03.mp4",
+      "role": "preview",
+      "identity": {
+        "device": 16777233,
+        "inode": 125494105,
+        "bytes": 49188019,
+        "mtime_ns": 1793655853734888862,
+        "ctime_ns": 1793655853781487737,
+        "nlink": 1,
+        "allocated_bytes": 49807360
+      },
+      "sha256": "bd5d071beb1465db056f6c2746da778b74602814675d3f04b2de425ec4685d6f",
+      "rebuild_from": [],
+      "evidence": [],
+      "disposition": "pending"
+    },
+    {
+      "path": "Edit/QA/short02-provider-timing-review-v03-20261102/review.json",
+      "role": "evidence",
+      "identity": {
+        "device": 16777233,
+        "inode": 125496331,
+        "bytes": 6381,
+        "mtime_ns": 1793656264600453311,
+        "ctime_ns": 1793656264600453311,
+        "nlink": 1,
+        "allocated_bytes": 8192
+      },
+      "sha256": "65e60e47b74a348307ed9039d9dc6dbe72bf1f9bcaa202b70299ba18a0962159",
+      "rebuild_from": [],
+      "evidence": [],
+      "disposition": "pending"
+    },
+    {
+      "path": "Edit/renewal_20261102/subtitle_forced_alignment_20261102/COMPARISON.md",
+      "role": "evidence",
+      "identity": {
+        "device": 16777233,
+        "inode": 125488672,
+        "bytes": 2591,
+        "mtime_ns": 1793655521726025750,
+        "ctime_ns": 1793655521726025750,
+        "nlink": 1,
+        "allocated_bytes": 4096
+      },
+      "sha256": "7256c6d69cdba59231bab74c5b8ca8437f6f739dd9dc3017a71bec7d5785dc71",
+      "rebuild_from": [],
+      "evidence": [],
+      "disposition": "pending"
+    }
+  ],
+  "writer_finished_utc": "2026-11-02T21:52:25.287168+00:00"
+}

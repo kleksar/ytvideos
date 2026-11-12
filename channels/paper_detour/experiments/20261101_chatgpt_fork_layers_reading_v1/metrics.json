@@ -1,0 +1,81 @@
+{
+  "MASTER": {
+    "size": [
+      941,
+      1672
+    ],
+    "alpha_min_max": [
+      255,
+      255
+    ],
+    "bbox_alpha128": [
+      0,
+      0,
+      941,
+      1672
+    ],
+    "opaque_pixels": 1573352,
+    "opaque_rgb_exact_master_fraction": 1.0
+  },
+  "BG": {
+    "size": [
+      941,
+      1672
+    ],
+    "alpha_min_max": [
+      255,
+      255
+    ],
+    "bbox_alpha128": [
+      0,
+      0,
+      941,
+      1672
+    ],
+    "opaque_pixels": 1573352,
+    "opaque_rgb_exact_master_fraction": 0.46044305406546027
+  },
+  "MG": {
+    "size": [
+      941,
+      1672
+    ],
+    "alpha_min_max": [
+      0,
+      255
+    ],
+    "bbox_alpha128": [
+      271,
+      390,
+      941,
+      1448
+    ],
+    "opaque_pixels": 438078,
+    "opaque_rgb_exact_master_fraction": 0.9827359511319902
+  },
+  "FG": {
+    "size": [
+      941,
+      1672
+    ],
+    "alpha_min_max": [
+      0,
+      255
+    ],
+    "bbox_alpha128": [
+      0,
+      1037,
+      415,
+      1608
+    ],
+    "opaque_pixels": 103637,
+    "opaque_rgb_exact_master_fraction": 1.0
+  },
+  "COMPOSITE": {
+    "zero_offset": true,
+    "scale": 1,
+    "rgb_exact_master_fraction": 0.8000568213597465,
+    "mean_abs_rgb_difference": 4.604118044362186,
+    "note": "Numerical diagnostics only, not visual acceptance or motion verification."
+  }
+}

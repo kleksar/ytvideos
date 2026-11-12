@@ -1,0 +1,32 @@
+{
+  "subtitle_contract_sha256": "14f7fa42ff75ffe88adf70a731ac924cf348796d20c1c543d644b61896bfc922",
+  "checks": {
+    "semantic_grouping": {
+      "status": "PASS",
+      "reviewer": "Endurance coordinator",
+      "method": "Read exact groups, adjacent clauses and prior boundary-warning review",
+      "coverage": "All 384 groups, 1,391 mapped words",
+      "evidence": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Edit/ENDURANCE_PREFLIGHT_v01.md",
+        "sha256": "8a0ec50abbc1daa8a2efc2c891edd26873b4d14354cdeb66cb3dd37ab13da174"
+      }
+    },
+    "audible_sync": {
+      "status": "UNVERIFIED",
+      "reviewer": "",
+      "method": "",
+      "coverage": "User-confirmed S110 excerpt only; full-file listening UNVERIFIED",
+      "evidence": null
+    },
+    "visual_placement": {
+      "status": "PASS",
+      "reviewer": "Endurance coordinator",
+      "method": "Viewed actual-profile still midpoint composites against selected storyboard images",
+      "coverage": "One midpoint composite per scene, 122 scenes; final frame coverage pending",
+      "evidence": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Edit/ENDURANCE_PREFLIGHT_v01.md",
+        "sha256": "8a0ec50abbc1daa8a2efc2c891edd26873b4d14354cdeb66cb3dd37ab13da174"
+      }
+    }
+  }
+}

@@ -1,0 +1,9558 @@
+{
+  "schema": "ytv-delivery-v1",
+  "channel": "paper",
+  "format": "long",
+  "canvas": [
+    2560,
+    1440
+  ],
+  "fps": 30,
+  "frames": 14830,
+  "audio": {
+    "audio": {
+      "path": "/Users/diplomat/ytvideos/new_channel/videos/040_berlin_wall/Source/Voice/v02/voice_en_atempo110_v02.wav",
+      "sha256": "cee8d766f041e4a46b5782861139055a0bd8bb943bdf026ffc9b74e619fd4368"
+    },
+    "applied_speed": 1.1,
+    "speed_policy": {
+      "path": "/Users/diplomat/ytvideos/.agents/skills/ytv-audio-delivery/references/speed.json",
+      "sha256": "32c378c36c1e297cbdc4e3593c965163d33e531b8b8eea026b367bddb51a668a"
+    },
+    "speed_evidence": {
+      "path": "/Users/diplomat/ytvideos/new_channel/videos/040_berlin_wall/Edit/Montage/v02/speed_evidence.json",
+      "sha256": "0373b715975886d1f4a831f12aee7d96d8680df3b753ee3c4c4c445a49fa0064"
+    }
+  },
+  "transcript": {
+    "path": "/Users/diplomat/ytvideos/new_channel/videos/040_berlin_wall/Source/Voice/voice_en_tts_v01.txt",
+    "sha256": "0a264a5d770b3bd2a6ec08048cbc1218548c199486697eb1ad23de06424f3dcb"
+  },
+  "word_map": {
+    "path": "/Users/diplomat/ytvideos/new_channel/videos/040_berlin_wall/Edit/Montage/v02/word_times_v02.json",
+    "sha256": "f67475bb2545e2ea3cebccbdb27558c11ffa54fdb1c0a145f3e835e6ce4fca79"
+  },
+  "profiles": [
+    {
+      "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/profiles/paper.json",
+      "sha256": "e2b89e813ec25985601ef65997ea8b94c19e96aa6d158333edf962b42e02ffc0"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/profiles/long.json",
+      "sha256": "e8f9f5dd0354283634a0cf9dc1816736bac38de158de1d0bdd1b8b4658f51459"
+    },
+    {
+      "path": "/System/Library/Fonts/Supplemental/ChalkboardSE.ttc",
+      "sha256": "2f115e259dbd66e39a5891fe1fb49fa18b20b8d2db08a1e43b3b1360ca0e0bbe"
+    }
+  ],
+  "engine": [
+    {
+      "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/montage.py",
+      "sha256": "55acc85feac44ff4baeefaf96a29c0c1fc069a0ff326e2e4da856c2a207f5615"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/delivery.py",
+      "sha256": "f8f9353f44d36449e6df57ce5f7d76d9bbe07c8e417e4cdab3631942f01188af"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/.agents/skills/ytv-paper-subtitles/scripts/semantic_grouping.py",
+      "sha256": "6753059c5e608b1d9a9b456b2c502f14a4a6fc4a9e748399f831f800e6cf69ca"
+    }
+  ],
+  "groups": [
+    [
+      {
+        "text": "November",
+        "start": 0.0,
+        "end": 0.363636
+      },
+      {
+        "text": "9,",
+        "start": 0.436364,
+        "end": 1.018182
+      },
+      {
+        "text": "1989.",
+        "start": 1.090909,
+        "end": 2.4
+      },
+      {
+        "text": "East",
+        "start": 2.509091,
+        "end": 2.618182
+      },
+      {
+        "text": "Berlin.",
+        "start": 2.690909,
+        "end": 3.127273
+      }
+    ],
+    [
+      {
+        "text": "A",
+        "start": 3.709091,
+        "end": 3.781818
+      },
+      {
+        "text": "government",
+        "start": 3.927273,
+        "end": 4.072727
+      }
+    ],
+    [
+      {
+        "text": "official",
+        "start": 4.145455,
+        "end": 4.509091
+      },
+      {
+        "text": "is",
+        "start": 4.581818,
+        "end": 4.727273
+      },
+      {
+        "text": "answering",
+        "start": 4.8,
+        "end": 5.090909
+      }
+    ],
+    [
+      {
+        "text": "questions",
+        "start": 5.163636,
+        "end": 5.527273
+      },
+      {
+        "text": "on",
+        "start": 5.6,
+        "end": 5.672727
+      },
+      {
+        "text": "live",
+        "start": 5.818182,
+        "end": 6.036364
+      },
+      {
+        "text": "television.",
+        "start": 6.109091,
+        "end": 7.054545
+      }
+    ],
+    [
+      {
+        "text": "Near",
+        "start": 7.127273,
+        "end": 7.2
+      },
+      {
+        "text": "the",
+        "start": 7.272727,
+        "end": 7.345455
+      },
+      {
+        "text": "end,",
+        "start": 7.418182,
+        "end": 7.854545
+      }
+    ],
+    [
+      {
+        "text": "a",
+        "start": 7.927273,
+        "end": 8.0
+      },
+      {
+        "text": "journalist",
+        "start": 8.109091,
+        "end": 8.436364
+      },
+      {
+        "text": "asks",
+        "start": 8.509091,
+        "end": 8.8
+      },
+      {
+        "text": "when",
+        "start": 8.872727,
+        "end": 8.945455
+      },
+      {
+        "text": "a",
+        "start": 8.981818,
+        "end": 9.018182
+      },
+      {
+        "text": "new",
+        "start": 9.090909,
+        "end": 9.236364
+      }
+    ],
+    [
+      {
+        "text": "travel",
+        "start": 9.309091,
+        "end": 9.6
+      },
+      {
+        "text": "rule",
+        "start": 9.672727,
+        "end": 9.890909
+      },
+      {
+        "text": "will",
+        "start": 9.963636,
+        "end": 10.036364
+      },
+      {
+        "text": "take",
+        "start": 10.109091,
+        "end": 10.181818
+      },
+      {
+        "text": "effect.",
+        "start": 10.363636,
+        "end": 11.054545
+      }
+    ],
+    [
+      {
+        "text": "The",
+        "start": 11.090909,
+        "end": 11.127273
+      },
+      {
+        "text": "official",
+        "start": 11.2,
+        "end": 11.563636
+      },
+      {
+        "text": "looks",
+        "start": 11.672727,
+        "end": 11.781818
+      }
+    ],
+    [
+      {
+        "text": "through",
+        "start": 11.854545,
+        "end": 11.927273
+      },
+      {
+        "text": "his",
+        "start": 12.0,
+        "end": 12.072727
+      },
+      {
+        "text": "papers.",
+        "start": 12.290909,
+        "end": 12.763636
+      }
+    ],
+    [
+      {
+        "text": "Immediately.",
+        "start": 13.018182,
+        "end": 13.963636
+      },
+      {
+        "text": "Without",
+        "start": 14.109091,
+        "end": 14.254545
+      },
+      {
+        "text": "delay.",
+        "start": 14.327273,
+        "end": 15.272727
+      }
+    ],
+    [
+      {
+        "text": "A",
+        "start": 15.345455,
+        "end": 15.418182
+      },
+      {
+        "text": "few",
+        "start": 15.490909,
+        "end": 15.563636
+      },
+      {
+        "text": "hours",
+        "start": 15.709091,
+        "end": 15.854545
+      },
+      {
+        "text": "later,",
+        "start": 15.927273,
+        "end": 16.436364
+      },
+      {
+        "text": "thousands",
+        "start": 16.509091,
+        "end": 16.872727
+      }
+    ],
+    [
+      {
+        "text": "of",
+        "start": 16.945455,
+        "end": 17.018182
+      },
+      {
+        "text": "people",
+        "start": 17.163636,
+        "end": 17.309091
+      },
+      {
+        "text": "are",
+        "start": 17.381818,
+        "end": 17.454545
+      },
+      {
+        "text": "standing",
+        "start": 17.527273,
+        "end": 17.818182
+      }
+    ],
+    [
+      {
+        "text": "at",
+        "start": 17.890909,
+        "end": 17.963636
+      },
+      {
+        "text": "the",
+        "start": 18.0,
+        "end": 18.036364
+      },
+      {
+        "text": "Berlin",
+        "start": 18.109091,
+        "end": 18.4
+      },
+      {
+        "text": "Wall,",
+        "start": 18.472727,
+        "end": 18.981818
+      },
+      {
+        "text": "demanding",
+        "start": 19.163636,
+        "end": 19.490909
+      }
+    ],
+    [
+      {
+        "text": "to",
+        "start": 19.563636,
+        "end": 19.636364
+      },
+      {
+        "text": "cross",
+        "start": 19.781818,
+        "end": 19.927273
+      },
+      {
+        "text": "into",
+        "start": 20.0,
+        "end": 20.145455
+      },
+      {
+        "text": "the",
+        "start": 20.218182,
+        "end": 20.290909
+      },
+      {
+        "text": "West.",
+        "start": 20.436364,
+        "end": 21.090909
+      }
+    ],
+    [
+      {
+        "text": "But",
+        "start": 21.163636,
+        "end": 21.236364
+      },
+      {
+        "text": "there",
+        "start": 21.272727,
+        "end": 21.309091
+      },
+      {
+        "text": "is",
+        "start": 21.381818,
+        "end": 21.454545
+      },
+      {
+        "text": "a",
+        "start": 21.527273,
+        "end": 21.672727
+      },
+      {
+        "text": "problem.",
+        "start": 21.818182,
+        "end": 22.472727
+      }
+    ],
+    [
+      {
+        "text": "Nobody",
+        "start": 22.545455,
+        "end": 22.909091
+      },
+      {
+        "text": "has",
+        "start": 22.981818,
+        "end": 23.054545
+      },
+      {
+        "text": "ordered",
+        "start": 23.127273,
+        "end": 23.345455
+      },
+      {
+        "text": "the",
+        "start": 23.418182,
+        "end": 23.490909
+      },
+      {
+        "text": "border",
+        "start": 23.6,
+        "end": 23.709091
+      }
+    ],
+    [
+      {
+        "text": "guards",
+        "start": 23.781818,
+        "end": 24.0
+      },
+      {
+        "text": "to",
+        "start": 24.072727,
+        "end": 24.145455
+      },
+      {
+        "text": "open",
+        "start": 24.218182,
+        "end": 24.363636
+      },
+      {
+        "text": "the",
+        "start": 24.436364,
+        "end": 24.509091
+      },
+      {
+        "text": "gates.",
+        "start": 24.545455,
+        "end": 25.309091
+      }
+    ],
+    [
+      {
+        "text": "And",
+        "start": 25.345455,
+        "end": 25.381818
+      },
+      {
+        "text": "the",
+        "start": 25.454545,
+        "end": 25.527273
+      },
+      {
+        "text": "people",
+        "start": 25.636364,
+        "end": 25.745455
+      }
+    ],
+    [
+      {
+        "text": "at",
+        "start": 25.818182,
+        "end": 25.890909
+      },
+      {
+        "text": "the",
+        "start": 25.963636,
+        "end": 26.036364
+      },
+      {
+        "text": "front",
+        "start": 26.181818,
+        "end": 26.327273
+      },
+      {
+        "text": "have",
+        "start": 26.472727,
+        "end": 26.618182
+      },
+      {
+        "text": "no",
+        "start": 26.690909,
+        "end": 26.763636
+      },
+      {
+        "text": "intention",
+        "start": 26.836364,
+        "end": 27.272727
+      }
+    ],
+    [
+      {
+        "text": "of",
+        "start": 27.309091,
+        "end": 27.345455
+      },
+      {
+        "text": "going",
+        "start": 27.418182,
+        "end": 27.636364
+      },
+      {
+        "text": "home.",
+        "start": 27.781818,
+        "end": 28.436364
+      }
+    ],
+    [
+      {
+        "text": "In",
+        "start": 28.509091,
+        "end": 28.581818
+      },
+      {
+        "text": "1961,",
+        "start": 28.654545,
+        "end": 29.818182
+      },
+      {
+        "text": "East",
+        "start": 29.927273,
+        "end": 30.036364
+      },
+      {
+        "text": "Germany",
+        "start": 30.109091,
+        "end": 30.472727
+      },
+      {
+        "text": "sealed",
+        "start": 30.545455,
+        "end": 30.836364
+      }
+    ],
+    [
+      {
+        "text": "the",
+        "start": 30.872727,
+        "end": 30.909091
+      },
+      {
+        "text": "border",
+        "start": 30.981818,
+        "end": 31.2
+      },
+      {
+        "text": "dividing",
+        "start": 31.272727,
+        "end": 31.636364
+      },
+      {
+        "text": "Berlin.",
+        "start": 31.709091,
+        "end": 32.581818
+      }
+    ],
+    [
+      {
+        "text": "Families",
+        "start": 32.618182,
+        "end": 33.018182
+      },
+      {
+        "text": "found",
+        "start": 33.090909,
+        "end": 33.236364
+      },
+      {
+        "text": "themselves",
+        "start": 33.272727,
+        "end": 33.672727
+      }
+    ],
+    [
+      {
+        "text": "separated",
+        "start": 33.745455,
+        "end": 34.109091
+      },
+      {
+        "text": "by",
+        "start": 34.181818,
+        "end": 34.327273
+      },
+      {
+        "text": "concrete,",
+        "start": 34.4,
+        "end": 35.054545
+      },
+      {
+        "text": "fences,",
+        "start": 35.090909,
+        "end": 35.563636
+      }
+    ],
+    [
+      {
+        "text": "and",
+        "start": 35.636364,
+        "end": 35.709091
+      },
+      {
+        "text": "armed",
+        "start": 35.781818,
+        "end": 36.072727
+      },
+      {
+        "text": "checkpoints.",
+        "start": 36.145455,
+        "end": 37.163636
+      }
+    ],
+    [
+      {
+        "text": "West",
+        "start": 37.272727,
+        "end": 37.381818
+      },
+      {
+        "text": "Berlin",
+        "start": 37.454545,
+        "end": 37.745455
+      },
+      {
+        "text": "remained",
+        "start": 37.818182,
+        "end": 38.036364
+      },
+      {
+        "text": "an",
+        "start": 38.109091,
+        "end": 38.181818
+      },
+      {
+        "text": "island",
+        "start": 38.254545,
+        "end": 38.618182
+      }
+    ],
+    [
+      {
+        "text": "surrounded",
+        "start": 38.690909,
+        "end": 39.127273
+      },
+      {
+        "text": "by",
+        "start": 39.236364,
+        "end": 39.345455
+      },
+      {
+        "text": "East",
+        "start": 39.454545,
+        "end": 39.563636
+      }
+    ],
+    [
+      {
+        "text": "German",
+        "start": 39.636364,
+        "end": 39.854545
+      },
+      {
+        "text": "territory.",
+        "start": 39.927273,
+        "end": 40.872727
+      }
+    ],
+    [
+      {
+        "text": "For",
+        "start": 40.945455,
+        "end": 41.018182
+      },
+      {
+        "text": "ordinary",
+        "start": 41.090909,
+        "end": 41.454545
+      },
+      {
+        "text": "East",
+        "start": 41.527273,
+        "end": 41.672727
+      },
+      {
+        "text": "Germans,",
+        "start": 41.745455,
+        "end": 42.327273
+      }
+    ],
+    [
+      {
+        "text": "visiting",
+        "start": 42.4,
+        "end": 42.690909
+      },
+      {
+        "text": "the",
+        "start": 42.727273,
+        "end": 42.763636
+      },
+      {
+        "text": "other",
+        "start": 42.909091,
+        "end": 43.054545
+      }
+    ],
+    [
+      {
+        "text": "side",
+        "start": 43.127273,
+        "end": 43.345455
+      },
+      {
+        "text": "could",
+        "start": 43.418182,
+        "end": 43.490909
+      },
+      {
+        "text": "be",
+        "start": 43.563636,
+        "end": 43.636364
+      },
+      {
+        "text": "impossible.",
+        "start": 43.709091,
+        "end": 44.727273
+      }
+    ],
+    [
+      {
+        "text": "People",
+        "start": 44.836364,
+        "end": 44.945455
+      },
+      {
+        "text": "had",
+        "start": 45.018182,
+        "end": 45.090909
+      },
+      {
+        "text": "tried",
+        "start": 45.163636,
+        "end": 45.381818
+      },
+      {
+        "text": "to",
+        "start": 45.418182,
+        "end": 45.454545
+      },
+      {
+        "text": "escape",
+        "start": 45.527273,
+        "end": 45.890909
+      }
+    ],
+    [
+      {
+        "text": "over",
+        "start": 45.963636,
+        "end": 46.036364
+      },
+      {
+        "text": "the",
+        "start": 46.109091,
+        "end": 46.181818
+      },
+      {
+        "text": "Wall,",
+        "start": 46.254545,
+        "end": 46.690909
+      },
+      {
+        "text": "through",
+        "start": 46.8,
+        "end": 46.909091
+      },
+      {
+        "text": "tunnels,",
+        "start": 46.945455,
+        "end": 47.490909
+      }
+    ],
+    [
+      {
+        "text": "and",
+        "start": 47.527273,
+        "end": 47.563636
+      },
+      {
+        "text": "across",
+        "start": 47.636364,
+        "end": 47.927273
+      },
+      {
+        "text": "the",
+        "start": 47.963636,
+        "end": 48.0
+      },
+      {
+        "text": "border.",
+        "start": 48.072727,
+        "end": 48.654545
+      }
+    ],
+    [
+      {
+        "text": "Some",
+        "start": 48.945455,
+        "end": 49.163636
+      },
+      {
+        "text": "made",
+        "start": 49.236364,
+        "end": 49.381818
+      },
+      {
+        "text": "it.",
+        "start": 49.454545,
+        "end": 49.745455
+      }
+    ],
+    [
+      {
+        "text": "Others",
+        "start": 49.963636,
+        "end": 50.254545
+      },
+      {
+        "text": "were",
+        "start": 50.327273,
+        "end": 50.4
+      },
+      {
+        "text": "arrested.",
+        "start": 50.472727,
+        "end": 50.981818
+      }
+    ],
+    [
+      {
+        "text": "Some",
+        "start": 51.490909,
+        "end": 51.709091
+      },
+      {
+        "text": "were",
+        "start": 51.854545,
+        "end": 52.0
+      },
+      {
+        "text": "killed.",
+        "start": 52.072727,
+        "end": 52.727273
+      }
+    ],
+    [
+      {
+        "text": "For",
+        "start": 53.018182,
+        "end": 53.090909
+      },
+      {
+        "text": "nearly",
+        "start": 53.163636,
+        "end": 53.454545
+      },
+      {
+        "text": "three",
+        "start": 53.563636,
+        "end": 53.672727
+      },
+      {
+        "text": "decades,",
+        "start": 53.818182,
+        "end": 54.4
+      }
+    ],
+    [
+      {
+        "text": "the",
+        "start": 54.472727,
+        "end": 54.545455
+      },
+      {
+        "text": "government",
+        "start": 54.690909,
+        "end": 54.836364
+      },
+      {
+        "text": "controlled",
+        "start": 54.909091,
+        "end": 55.345455
+      }
+    ],
+    [
+      {
+        "text": "who",
+        "start": 55.418182,
+        "end": 55.490909
+      },
+      {
+        "text": "could",
+        "start": 55.563636,
+        "end": 55.709091
+      },
+      {
+        "text": "leave,",
+        "start": 55.781818,
+        "end": 56.218182
+      },
+      {
+        "text": "and",
+        "start": 56.290909,
+        "end": 56.363636
+      },
+      {
+        "text": "when.",
+        "start": 56.436364,
+        "end": 57.163636
+      }
+    ],
+    [
+      {
+        "text": "Then,",
+        "start": 57.236364,
+        "end": 57.6
+      },
+      {
+        "text": "in",
+        "start": 57.672727,
+        "end": 57.745455
+      },
+      {
+        "text": "1989,",
+        "start": 57.818182,
+        "end": 58.981818
+      }
+    ],
+    [
+      {
+        "text": "that",
+        "start": 59.054545,
+        "end": 59.127273
+      },
+      {
+        "text": "control",
+        "start": 59.2,
+        "end": 59.636364
+      },
+      {
+        "text": "began",
+        "start": 59.709091,
+        "end": 60.072727
+      },
+      {
+        "text": "to",
+        "start": 60.109091,
+        "end": 60.145455
+      },
+      {
+        "text": "collapse.",
+        "start": 60.218182,
+        "end": 60.909091
+      }
+    ],
+    [
+      {
+        "text": "East",
+        "start": 61.163636,
+        "end": 61.381818
+      },
+      {
+        "text": "Germans",
+        "start": 61.418182,
+        "end": 61.745455
+      },
+      {
+        "text": "were",
+        "start": 61.818182,
+        "end": 61.890909
+      },
+      {
+        "text": "finding",
+        "start": 61.963636,
+        "end": 62.254545
+      }
+    ],
+    [
+      {
+        "text": "routes",
+        "start": 62.363636,
+        "end": 62.472727
+      },
+      {
+        "text": "to",
+        "start": 62.545455,
+        "end": 62.618182
+      },
+      {
+        "text": "the",
+        "start": 62.654545,
+        "end": 62.690909
+      },
+      {
+        "text": "West",
+        "start": 62.763636,
+        "end": 63.054545
+      }
+    ],
+    [
+      {
+        "text": "through",
+        "start": 63.127273,
+        "end": 63.272727
+      },
+      {
+        "text": "other",
+        "start": 63.345455,
+        "end": 63.490909
+      },
+      {
+        "text": "countries.",
+        "start": 63.563636,
+        "end": 64.363636
+      }
+    ],
+    [
+      {
+        "text": "Hungary",
+        "start": 64.472727,
+        "end": 64.8
+      },
+      {
+        "text": "opened",
+        "start": 64.872727,
+        "end": 65.018182
+      }
+    ],
+    [
+      {
+        "text": "a",
+        "start": 65.090909,
+        "end": 65.163636
+      },
+      {
+        "text": "path",
+        "start": 65.309091,
+        "end": 65.454545
+      },
+      {
+        "text": "toward",
+        "start": 65.527273,
+        "end": 65.672727
+      },
+      {
+        "text": "Austria.",
+        "start": 65.745455,
+        "end": 66.618182
+      }
+    ],
+    [
+      {
+        "text": "Thousands",
+        "start": 66.690909,
+        "end": 67.127273
+      },
+      {
+        "text": "more",
+        "start": 67.2,
+        "end": 67.418182
+      },
+      {
+        "text": "sought",
+        "start": 67.490909,
+        "end": 67.709091
+      }
+    ],
+    [
+      {
+        "text": "refuge",
+        "start": 67.818182,
+        "end": 68.072727
+      },
+      {
+        "text": "at",
+        "start": 68.145455,
+        "end": 68.218182
+      },
+      {
+        "text": "the",
+        "start": 68.290909,
+        "end": 68.363636
+      },
+      {
+        "text": "West",
+        "start": 68.472727,
+        "end": 68.581818
+      }
+    ],
+    [
+      {
+        "text": "German",
+        "start": 68.727273,
+        "end": 68.872727
+      },
+      {
+        "text": "embassy",
+        "start": 68.945455,
+        "end": 69.236364
+      },
+      {
+        "text": "in",
+        "start": 69.309091,
+        "end": 69.381818
+      },
+      {
+        "text": "Prague.",
+        "start": 69.454545,
+        "end": 70.254545
+      }
+    ],
+    [
+      {
+        "text": "Even",
+        "start": 70.363636,
+        "end": 70.472727
+      },
+      {
+        "text": "when",
+        "start": 70.509091,
+        "end": 70.545455
+      },
+      {
+        "text": "officials",
+        "start": 70.727273,
+        "end": 70.981818
+      }
+    ],
+    [
+      {
+        "text": "stopped",
+        "start": 71.163636,
+        "end": 71.345455
+      },
+      {
+        "text": "one",
+        "start": 71.418182,
+        "end": 71.563636
+      },
+      {
+        "text": "route,",
+        "start": 71.672727,
+        "end": 72.072727
+      }
+    ],
+    [
+      {
+        "text": "people",
+        "start": 72.145455,
+        "end": 72.436364
+      },
+      {
+        "text": "looked",
+        "start": 72.509091,
+        "end": 72.654545
+      },
+      {
+        "text": "for",
+        "start": 72.690909,
+        "end": 72.727273
+      },
+      {
+        "text": "another.",
+        "start": 72.8,
+        "end": 73.6
+      }
+    ],
+    [
+      {
+        "text": "Meanwhile,",
+        "start": 73.672727,
+        "end": 74.327273
+      },
+      {
+        "text": "demonstrations",
+        "start": 74.4,
+        "end": 75.127273
+      }
+    ],
+    [
+      {
+        "text": "spread",
+        "start": 75.309091,
+        "end": 75.490909
+      },
+      {
+        "text": "across",
+        "start": 75.563636,
+        "end": 75.854545
+      },
+      {
+        "text": "East",
+        "start": 75.927273,
+        "end": 76.072727
+      },
+      {
+        "text": "Germany.",
+        "start": 76.145455,
+        "end": 76.945455
+      }
+    ],
+    [
+      {
+        "text": "In",
+        "start": 77.018182,
+        "end": 77.090909
+      },
+      {
+        "text": "Leipzig,",
+        "start": 77.127273,
+        "end": 77.745455
+      }
+    ],
+    [
+      {
+        "text": "crowds",
+        "start": 77.818182,
+        "end": 78.327273
+      },
+      {
+        "text": "filled",
+        "start": 78.436364,
+        "end": 78.545455
+      },
+      {
+        "text": "the",
+        "start": 78.618182,
+        "end": 78.690909
+      },
+      {
+        "text": "streets.",
+        "start": 78.763636,
+        "end": 79.490909
+      }
+    ],
+    [
+      {
+        "text": "On",
+        "start": 79.563636,
+        "end": 79.636364
+      },
+      {
+        "text": "November",
+        "start": 79.781818,
+        "end": 79.927273
+      },
+      {
+        "text": "4,",
+        "start": 80.072727,
+        "end": 80.581818
+      },
+      {
+        "text": "hundreds",
+        "start": 80.618182,
+        "end": 80.945455
+      }
+    ],
+    [
+      {
+        "text": "of",
+        "start": 81.018182,
+        "end": 81.163636
+      },
+      {
+        "text": "thousands",
+        "start": 81.236364,
+        "end": 81.672727
+      },
+      {
+        "text": "gathered",
+        "start": 81.781818,
+        "end": 81.963636
+      },
+      {
+        "text": "in",
+        "start": 82.036364,
+        "end": 82.109091
+      },
+      {
+        "text": "East",
+        "start": 82.181818,
+        "end": 82.327273
+      }
+    ],
+    [
+      {
+        "text": "Berlin,",
+        "start": 82.4,
+        "end": 82.981818
+      },
+      {
+        "text": "calling",
+        "start": 83.054545,
+        "end": 83.345455
+      },
+      {
+        "text": "for",
+        "start": 83.418182,
+        "end": 83.490909
+      },
+      {
+        "text": "change.",
+        "start": 83.563636,
+        "end": 84.363636
+      }
+    ],
+    [
+      {
+        "text": "The",
+        "start": 84.436364,
+        "end": 84.509091
+      },
+      {
+        "text": "country's",
+        "start": 84.654545,
+        "end": 84.945455
+      },
+      {
+        "text": "long-serving",
+        "start": 85.054545,
+        "end": 85.527273
+      }
+    ],
+    [
+      {
+        "text": "leader,",
+        "start": 85.672727,
+        "end": 86.036364
+      },
+      {
+        "text": "Erich",
+        "start": 86.072727,
+        "end": 86.254545
+      },
+      {
+        "text": "Honecker,",
+        "start": 86.327273,
+        "end": 86.909091
+      }
+    ],
+    [
+      {
+        "text": "had",
+        "start": 87.018182,
+        "end": 87.127273
+      },
+      {
+        "text": "already",
+        "start": 87.2,
+        "end": 87.490909
+      },
+      {
+        "text": "been",
+        "start": 87.563636,
+        "end": 87.636364
+      },
+      {
+        "text": "replaced.",
+        "start": 87.709091,
+        "end": 88.581818
+      }
+    ],
+    [
+      {
+        "text": "His",
+        "start": 88.654545,
+        "end": 88.727273
+      },
+      {
+        "text": "successor,",
+        "start": 88.945455,
+        "end": 89.454545
+      }
+    ],
+    [
+      {
+        "text": "Egon",
+        "start": 89.527273,
+        "end": 89.818182
+      },
+      {
+        "text": "Krenz,",
+        "start": 89.890909,
+        "end": 90.4
+      },
+      {
+        "text": "promised",
+        "start": 90.472727,
+        "end": 90.836364
+      },
+      {
+        "text": "reforms.",
+        "start": 90.909091,
+        "end": 91.781818
+      }
+    ],
+    [
+      {
+        "text": "But",
+        "start": 91.854545,
+        "end": 91.927273
+      },
+      {
+        "text": "the",
+        "start": 91.963636,
+        "end": 92.0
+      },
+      {
+        "text": "crowds",
+        "start": 92.072727,
+        "end": 92.436364
+      }
+    ],
+    [
+      {
+        "text": "wanted",
+        "start": 92.581818,
+        "end": 92.727273
+      },
+      {
+        "text": "more",
+        "start": 92.8,
+        "end": 92.945455
+      },
+      {
+        "text": "than",
+        "start": 93.018182,
+        "end": 93.163636
+      },
+      {
+        "text": "promises.",
+        "start": 93.272727,
+        "end": 94.109091
+      }
+    ],
+    [
+      {
+        "text": "And",
+        "start": 94.145455,
+        "end": 94.181818
+      },
+      {
+        "text": "there",
+        "start": 94.254545,
+        "end": 94.327273
+      },
+      {
+        "text": "was",
+        "start": 94.436364,
+        "end": 94.545455
+      },
+      {
+        "text": "one",
+        "start": 94.618182,
+        "end": 94.690909
+      }
+    ],
+    [
+      {
+        "text": "demand",
+        "start": 94.763636,
+        "end": 95.127273
+      },
+      {
+        "text": "the",
+        "start": 95.2,
+        "end": 95.272727
+      },
+      {
+        "text": "government",
+        "start": 95.454545,
+        "end": 95.636364
+      }
+    ],
+    [
+      {
+        "text": "could",
+        "start": 95.745455,
+        "end": 95.854545
+      },
+      {
+        "text": "no",
+        "start": 95.927273,
+        "end": 96.0
+      },
+      {
+        "text": "longer",
+        "start": 96.145455,
+        "end": 96.363636
+      },
+      {
+        "text": "ignore.",
+        "start": 96.436364,
+        "end": 97.236364
+      }
+    ],
+    [
+      {
+        "text": "People",
+        "start": 97.418182,
+        "end": 97.6
+      },
+      {
+        "text": "wanted",
+        "start": 97.709091,
+        "end": 97.818182
+      }
+    ],
+    [
+      {
+        "text": "to",
+        "start": 97.890909,
+        "end": 97.963636
+      },
+      {
+        "text": "travel",
+        "start": 98.181818,
+        "end": 98.4
+      },
+      {
+        "text": "without",
+        "start": 98.581818,
+        "end": 98.763636
+      },
+      {
+        "text": "asking",
+        "start": 98.836364,
+        "end": 99.054545
+      }
+    ],
+    [
+      {
+        "text": "the",
+        "start": 99.127273,
+        "end": 99.2
+      },
+      {
+        "text": "state",
+        "start": 99.345455,
+        "end": 99.490909
+      },
+      {
+        "text": "for",
+        "start": 99.563636,
+        "end": 99.636364
+      },
+      {
+        "text": "permission.",
+        "start": 99.854545,
+        "end": 100.509091
+      }
+    ],
+    [
+      {
+        "text": "On",
+        "start": 100.581818,
+        "end": 100.654545
+      },
+      {
+        "text": "November",
+        "start": 100.8,
+        "end": 100.945455
+      },
+      {
+        "text": "6,",
+        "start": 101.090909,
+        "end": 101.6
+      }
+    ],
+    [
+      {
+        "text": "officials",
+        "start": 101.781818,
+        "end": 102.036364
+      },
+      {
+        "text": "proposed",
+        "start": 102.109091,
+        "end": 102.545455
+      },
+      {
+        "text": "new",
+        "start": 102.690909,
+        "end": 102.836364
+      },
+      {
+        "text": "rules.",
+        "start": 102.909091,
+        "end": 103.709091
+      }
+    ],
+    [
+      {
+        "text": "East",
+        "start": 103.818182,
+        "end": 103.927273
+      },
+      {
+        "text": "Germans",
+        "start": 104.0,
+        "end": 104.290909
+      },
+      {
+        "text": "would",
+        "start": 104.4,
+        "end": 104.509091
+      },
+      {
+        "text": "still",
+        "start": 104.581818,
+        "end": 104.727273
+      },
+      {
+        "text": "need",
+        "start": 104.8,
+        "end": 104.945455
+      }
+    ],
+    [
+      {
+        "text": "documents,",
+        "start": 105.2,
+        "end": 105.672727
+      },
+      {
+        "text": "applications,",
+        "start": 106.0,
+        "end": 106.472727
+      }
+    ],
+    [
+      {
+        "text": "and",
+        "start": 106.509091,
+        "end": 106.545455
+      },
+      {
+        "text": "approval.",
+        "start": 106.763636,
+        "end": 107.490909
+      }
+    ],
+    [
+      {
+        "text": "To",
+        "start": 107.563636,
+        "end": 107.636364
+      },
+      {
+        "text": "people",
+        "start": 107.745455,
+        "end": 107.854545
+      },
+      {
+        "text": "who",
+        "start": 107.927273,
+        "end": 108.0
+      },
+      {
+        "text": "had",
+        "start": 108.072727,
+        "end": 108.145455
+      },
+      {
+        "text": "waited",
+        "start": 108.218182,
+        "end": 108.509091
+      }
+    ],
+    [
+      {
+        "text": "years",
+        "start": 108.581818,
+        "end": 108.8
+      },
+      {
+        "text": "to",
+        "start": 108.872727,
+        "end": 108.945455
+      },
+      {
+        "text": "travel",
+        "start": 109.127273,
+        "end": 109.309091
+      },
+      {
+        "text": "freely,",
+        "start": 109.381818,
+        "end": 109.963636
+      }
+    ],
+    [
+      {
+        "text": "it",
+        "start": 110.036364,
+        "end": 110.109091
+      },
+      {
+        "text": "was",
+        "start": 110.218182,
+        "end": 110.327273
+      },
+      {
+        "text": "not",
+        "start": 110.436364,
+        "end": 110.545455
+      },
+      {
+        "text": "enough.",
+        "start": 110.618182,
+        "end": 111.418182
+      }
+    ],
+    [
+      {
+        "text": "Three",
+        "start": 111.527273,
+        "end": 111.636364
+      },
+      {
+        "text": "days",
+        "start": 111.745455,
+        "end": 111.854545
+      },
+      {
+        "text": "later,",
+        "start": 111.927273,
+        "end": 112.411818
+      }
+    ],
+    [
+      {
+        "text": "the",
+        "start": 112.460909,
+        "end": 112.509091
+      },
+      {
+        "text": "leadership",
+        "start": 112.654545,
+        "end": 112.945455
+      },
+      {
+        "text": "tried",
+        "start": 113.018182,
+        "end": 113.163636
+      },
+      {
+        "text": "again.",
+        "start": 113.236364,
+        "end": 114.036364
+      }
+    ],
+    [
+      {
+        "text": "This",
+        "start": 114.109091,
+        "end": 114.254545
+      },
+      {
+        "text": "time,",
+        "start": 114.327273,
+        "end": 114.8
+      },
+      {
+        "text": "a",
+        "start": 114.836364,
+        "end": 114.909091
+      },
+      {
+        "text": "small",
+        "start": 114.981818,
+        "end": 115.2
+      }
+    ],
+    [
+      {
+        "text": "group",
+        "start": 115.272727,
+        "end": 115.418182
+      },
+      {
+        "text": "of",
+        "start": 115.454545,
+        "end": 115.490909
+      },
+      {
+        "text": "officials",
+        "start": 115.563636,
+        "end": 116.0
+      },
+      {
+        "text": "drafted",
+        "start": 116.072727,
+        "end": 116.436364
+      }
+    ],
+    [
+      {
+        "text": "emergency",
+        "start": 116.727273,
+        "end": 117.018182
+      },
+      {
+        "text": "travel",
+        "start": 117.163636,
+        "end": 117.309091
+      },
+      {
+        "text": "regulations.",
+        "start": 117.418182,
+        "end": 118.448182
+      }
+    ],
+    [
+      {
+        "text": "The",
+        "start": 118.497273,
+        "end": 118.545455
+      },
+      {
+        "text": "rules",
+        "start": 118.690909,
+        "end": 118.836364
+      },
+      {
+        "text": "would",
+        "start": 118.909091,
+        "end": 118.981818
+      },
+      {
+        "text": "make",
+        "start": 119.018182,
+        "end": 119.054545
+      },
+      {
+        "text": "it",
+        "start": 119.127273,
+        "end": 119.345455
+      },
+      {
+        "text": "much",
+        "start": 119.454545,
+        "end": 119.563636
+      }
+    ],
+    [
+      {
+        "text": "easier",
+        "start": 119.636364,
+        "end": 119.927273
+      },
+      {
+        "text": "to",
+        "start": 120.0,
+        "end": 120.072727
+      },
+      {
+        "text": "apply",
+        "start": 120.218182,
+        "end": 120.363636
+      },
+      {
+        "text": "for",
+        "start": 120.436364,
+        "end": 120.581818
+      },
+      {
+        "text": "visits",
+        "start": 120.654545,
+        "end": 120.945455
+      }
+    ],
+    [
+      {
+        "text": "and",
+        "start": 121.018182,
+        "end": 121.163636
+      },
+      {
+        "text": "permanent",
+        "start": 121.345455,
+        "end": 121.527273
+      },
+      {
+        "text": "departure.",
+        "start": 122.0,
+        "end": 122.509091
+      }
+    ],
+    [
+      {
+        "text": "Crucially,",
+        "start": 122.545455,
+        "end": 123.236364
+      },
+      {
+        "text": "they",
+        "start": 123.272727,
+        "end": 123.309091
+      },
+      {
+        "text": "were",
+        "start": 123.345455,
+        "end": 123.418182
+      },
+      {
+        "text": "supposed",
+        "start": 123.490909,
+        "end": 123.781818
+      }
+    ],
+    [
+      {
+        "text": "to",
+        "start": 123.818182,
+        "end": 123.854545
+      },
+      {
+        "text": "be",
+        "start": 123.890909,
+        "end": 123.927273
+      },
+      {
+        "text": "announced",
+        "start": 124.0,
+        "end": 124.290909
+      },
+      {
+        "text": "the",
+        "start": 124.363636,
+        "end": 124.436364
+      },
+      {
+        "text": "following",
+        "start": 124.509091,
+        "end": 124.8
+      }
+    ],
+    [
+      {
+        "text": "morning,",
+        "start": 124.872727,
+        "end": 125.418182
+      },
+      {
+        "text": "when",
+        "start": 125.454545,
+        "end": 125.527273
+      },
+      {
+        "text": "the",
+        "start": 125.563636,
+        "end": 125.6
+      },
+      {
+        "text": "authorities",
+        "start": 125.745455,
+        "end": 126.109091
+      }
+    ],
+    [
+      {
+        "text": "could",
+        "start": 126.181818,
+        "end": 126.254545
+      },
+      {
+        "text": "put",
+        "start": 126.327273,
+        "end": 126.4
+      },
+      {
+        "text": "procedures",
+        "start": 126.509091,
+        "end": 126.909091
+      },
+      {
+        "text": "in",
+        "start": 126.945455,
+        "end": 126.981818
+      },
+      {
+        "text": "place.",
+        "start": 127.054545,
+        "end": 127.890909
+      }
+    ],
+    [
+      {
+        "text": "The",
+        "start": 127.927273,
+        "end": 128.0
+      },
+      {
+        "text": "government",
+        "start": 128.181818,
+        "end": 128.363636
+      },
+      {
+        "text": "was",
+        "start": 128.436364,
+        "end": 128.509091
+      },
+      {
+        "text": "preparing",
+        "start": 128.581818,
+        "end": 128.945455
+      }
+    ],
+    [
+      {
+        "text": "a",
+        "start": 129.018182,
+        "end": 129.090909
+      },
+      {
+        "text": "controlled",
+        "start": 129.381818,
+        "end": 129.672727
+      },
+      {
+        "text": "change.",
+        "start": 130.072727,
+        "end": 130.509091
+      }
+    ],
+    [
+      {
+        "text": "It",
+        "start": 130.545455,
+        "end": 130.581818
+      },
+      {
+        "text": "was",
+        "start": 130.618182,
+        "end": 130.690909
+      },
+      {
+        "text": "about",
+        "start": 130.836364,
+        "end": 130.981818
+      },
+      {
+        "text": "to",
+        "start": 131.054545,
+        "end": 131.127273
+      },
+      {
+        "text": "get",
+        "start": 131.2,
+        "end": 131.272727
+      }
+    ],
+    [
+      {
+        "text": "something",
+        "start": 131.345455,
+        "end": 131.854545
+      },
+      {
+        "text": "very",
+        "start": 132.0,
+        "end": 132.145455
+      },
+      {
+        "text": "different.",
+        "start": 132.218182,
+        "end": 132.727273
+      }
+    ],
+    [
+      {
+        "text": "Late",
+        "start": 132.8,
+        "end": 133.054545
+      },
+      {
+        "text": "that",
+        "start": 133.090909,
+        "end": 133.218182
+      },
+      {
+        "text": "afternoon,",
+        "start": 133.236364,
+        "end": 133.745455
+      },
+      {
+        "text": "Krenz",
+        "start": 134.072727,
+        "end": 134.4
+      }
+    ],
+    [
+      {
+        "text": "handed",
+        "start": 134.472727,
+        "end": 134.618182
+      },
+      {
+        "text": "the",
+        "start": 134.690909,
+        "end": 134.763636
+      },
+      {
+        "text": "new",
+        "start": 134.836364,
+        "end": 134.909091
+      },
+      {
+        "text": "document",
+        "start": 134.981818,
+        "end": 135.418182
+      }
+    ],
+    [
+      {
+        "text": "to",
+        "start": 135.454545,
+        "end": 135.490909
+      },
+      {
+        "text": "Günter",
+        "start": 135.563636,
+        "end": 135.854545
+      },
+      {
+        "text": "Schabowski,",
+        "start": 135.927273,
+        "end": 136.8
+      }
+    ],
+    [
+      {
+        "text": "a",
+        "start": 136.872727,
+        "end": 136.945455
+      },
+      {
+        "text": "senior",
+        "start": 137.018182,
+        "end": 137.309091
+      },
+      {
+        "text": "Communist",
+        "start": 137.418182,
+        "end": 137.672727
+      },
+      {
+        "text": "Party",
+        "start": 137.745455,
+        "end": 137.963636
+      }
+    ],
+    [
+      {
+        "text": "official",
+        "start": 138.181818,
+        "end": 138.4
+      },
+      {
+        "text": "who",
+        "start": 138.618182,
+        "end": 138.690909
+      },
+      {
+        "text": "was",
+        "start": 138.727273,
+        "end": 138.763636
+      },
+      {
+        "text": "about",
+        "start": 138.909091,
+        "end": 139.127273
+      },
+      {
+        "text": "to",
+        "start": 139.2,
+        "end": 139.272727
+      },
+      {
+        "text": "face",
+        "start": 139.381818,
+        "end": 139.490909
+      }
+    ],
+    [
+      {
+        "text": "the",
+        "start": 139.563636,
+        "end": 139.636364
+      },
+      {
+        "text": "international",
+        "start": 139.709091,
+        "end": 140.218182
+      },
+      {
+        "text": "press.",
+        "start": 140.290909,
+        "end": 141.163636
+      }
+    ],
+    [
+      {
+        "text": "Schabowski",
+        "start": 141.236364,
+        "end": 141.672727
+      },
+      {
+        "text": "had",
+        "start": 141.745455,
+        "end": 141.963636
+      },
+      {
+        "text": "not",
+        "start": 142.072727,
+        "end": 142.181818
+      },
+      {
+        "text": "taken",
+        "start": 142.327273,
+        "end": 142.472727
+      }
+    ],
+    [
+      {
+        "text": "part",
+        "start": 142.581818,
+        "end": 142.690909
+      },
+      {
+        "text": "in",
+        "start": 142.763636,
+        "end": 142.836364
+      },
+      {
+        "text": "drafting",
+        "start": 142.981818,
+        "end": 143.2
+      },
+      {
+        "text": "the",
+        "start": 143.236364,
+        "end": 143.272727
+      },
+      {
+        "text": "details.",
+        "start": 143.527273,
+        "end": 144.218182
+      }
+    ],
+    [
+      {
+        "text": "He",
+        "start": 144.290909,
+        "end": 144.363636
+      },
+      {
+        "text": "had",
+        "start": 144.436364,
+        "end": 144.509091
+      },
+      {
+        "text": "notes,",
+        "start": 144.581818,
+        "end": 145.163636
+      },
+      {
+        "text": "a",
+        "start": 145.2,
+        "end": 145.236364
+      },
+      {
+        "text": "document,",
+        "start": 145.309091,
+        "end": 146.036364
+      }
+    ],
+    [
+      {
+        "text": "and",
+        "start": 146.072727,
+        "end": 146.109091
+      },
+      {
+        "text": "a",
+        "start": 146.181818,
+        "end": 146.254545
+      },
+      {
+        "text": "live",
+        "start": 146.327273,
+        "end": 146.618182
+      },
+      {
+        "text": "television",
+        "start": 146.690909,
+        "end": 147.127273
+      },
+      {
+        "text": "audience.",
+        "start": 147.2,
+        "end": 147.927273
+      }
+    ],
+    [
+      {
+        "text": "At",
+        "start": 148.218182,
+        "end": 148.363636
+      },
+      {
+        "text": "six",
+        "start": 148.436364,
+        "end": 148.581818
+      },
+      {
+        "text": "in",
+        "start": 148.654545,
+        "end": 148.727273
+      },
+      {
+        "text": "the",
+        "start": 148.763636,
+        "end": 148.8
+      },
+      {
+        "text": "evening,",
+        "start": 148.872727,
+        "end": 149.381818
+      }
+    ],
+    [
+      {
+        "text": "the",
+        "start": 149.454545,
+        "end": 149.527273
+      },
+      {
+        "text": "press",
+        "start": 149.636364,
+        "end": 149.745455
+      },
+      {
+        "text": "conference",
+        "start": 149.818182,
+        "end": 150.181818
+      },
+      {
+        "text": "began.",
+        "start": 150.218182,
+        "end": 150.909091
+      }
+    ],
+    [
+      {
+        "text": "For",
+        "start": 151.2,
+        "end": 151.345455
+      },
+      {
+        "text": "almost",
+        "start": 151.418182,
+        "end": 151.709091
+      },
+      {
+        "text": "an",
+        "start": 151.818182,
+        "end": 151.927273
+      },
+      {
+        "text": "hour,",
+        "start": 152.0,
+        "end": 152.436364
+      }
+    ],
+    [
+      {
+        "text": "he",
+        "start": 152.509091,
+        "end": 152.581818
+      },
+      {
+        "text": "spoke",
+        "start": 152.618182,
+        "end": 152.8
+      },
+      {
+        "text": "about",
+        "start": 152.909091,
+        "end": 153.018182
+      },
+      {
+        "text": "politics,",
+        "start": 153.127273,
+        "end": 153.818182
+      }
+    ],
+    [
+      {
+        "text": "party",
+        "start": 153.963636,
+        "end": 154.109091
+      },
+      {
+        "text": "changes,",
+        "start": 154.181818,
+        "end": 154.763636
+      },
+      {
+        "text": "and",
+        "start": 154.8,
+        "end": 154.836364
+      },
+      {
+        "text": "the",
+        "start": 154.872727,
+        "end": 154.909091
+      },
+      {
+        "text": "future",
+        "start": 155.054545,
+        "end": 155.418182
+      }
+    ],
+    [
+      {
+        "text": "of",
+        "start": 155.490909,
+        "end": 155.563636
+      },
+      {
+        "text": "East",
+        "start": 155.636364,
+        "end": 155.781818
+      },
+      {
+        "text": "Germany.",
+        "start": 155.854545,
+        "end": 156.509091
+      }
+    ],
+    [
+      {
+        "text": "The",
+        "start": 156.8,
+        "end": 156.872727
+      },
+      {
+        "text": "most",
+        "start": 156.981818,
+        "end": 157.090909
+      },
+      {
+        "text": "important",
+        "start": 157.309091,
+        "end": 157.527273
+      }
+    ],
+    [
+      {
+        "text": "announcement",
+        "start": 157.781818,
+        "end": 158.036364
+      },
+      {
+        "text": "came",
+        "start": 158.145455,
+        "end": 158.254545
+      }
+    ],
+    [
+      {
+        "text": "near",
+        "start": 158.327273,
+        "end": 158.472727
+      },
+      {
+        "text": "the",
+        "start": 158.509091,
+        "end": 158.545455
+      },
+      {
+        "text": "end.",
+        "start": 158.690909,
+        "end": 159.163636
+      }
+    ],
+    [
+      {
+        "text": "An",
+        "start": 159.418182,
+        "end": 159.490909
+      },
+      {
+        "text": "Italian",
+        "start": 159.563636,
+        "end": 159.927273
+      },
+      {
+        "text": "journalist,",
+        "start": 160.0,
+        "end": 160.581818
+      },
+      {
+        "text": "Riccardo",
+        "start": 160.618182,
+        "end": 161.018182
+      }
+    ],
+    [
+      {
+        "text": "Ehrman,",
+        "start": 161.090909,
+        "end": 161.745455
+      },
+      {
+        "text": "challenged",
+        "start": 161.818182,
+        "end": 162.181818
+      },
+      {
+        "text": "him",
+        "start": 162.254545,
+        "end": 162.327273
+      }
+    ],
+    [
+      {
+        "text": "about",
+        "start": 162.4,
+        "end": 162.545455
+      },
+      {
+        "text": "the",
+        "start": 162.581818,
+        "end": 162.618182
+      },
+      {
+        "text": "government's",
+        "start": 162.690909,
+        "end": 163.054545
+      },
+      {
+        "text": "travel",
+        "start": 163.127273,
+        "end": 163.345455
+      }
+    ],
+    [
+      {
+        "text": "policy.",
+        "start": 163.418182,
+        "end": 164.145455
+      }
+    ],
+    [
+      {
+        "text": "Schabowski",
+        "start": 164.436364,
+        "end": 164.945455
+      },
+      {
+        "text": "searched",
+        "start": 165.018182,
+        "end": 165.309091
+      }
+    ],
+    [
+      {
+        "text": "his",
+        "start": 165.345455,
+        "end": 165.381818
+      },
+      {
+        "text": "papers",
+        "start": 165.454545,
+        "end": 165.818182
+      },
+      {
+        "text": "and",
+        "start": 165.890909,
+        "end": 166.036364
+      },
+      {
+        "text": "read",
+        "start": 166.109091,
+        "end": 166.254545
+      }
+    ],
+    [
+      {
+        "text": "out",
+        "start": 166.327273,
+        "end": 166.4
+      },
+      {
+        "text": "the",
+        "start": 166.436364,
+        "end": 166.472727
+      },
+      {
+        "text": "new",
+        "start": 166.618182,
+        "end": 166.690909
+      },
+      {
+        "text": "regulation.",
+        "start": 166.763636,
+        "end": 167.636364
+      }
+    ],
+    [
+      {
+        "text": "East",
+        "start": 167.927273,
+        "end": 168.145455
+      },
+      {
+        "text": "Germans",
+        "start": 168.218182,
+        "end": 168.509091
+      },
+      {
+        "text": "could",
+        "start": 168.581818,
+        "end": 168.727273
+      },
+      {
+        "text": "now",
+        "start": 168.8,
+        "end": 168.872727
+      },
+      {
+        "text": "apply",
+        "start": 168.945455,
+        "end": 169.236364
+      }
+    ],
+    [
+      {
+        "text": "to",
+        "start": 169.309091,
+        "end": 169.381818
+      },
+      {
+        "text": "travel",
+        "start": 169.527273,
+        "end": 169.672727
+      },
+      {
+        "text": "abroad",
+        "start": 169.745455,
+        "end": 170.036364
+      },
+      {
+        "text": "without",
+        "start": 170.109091,
+        "end": 170.472727
+      },
+      {
+        "text": "having",
+        "start": 170.545455,
+        "end": 170.763636
+      }
+    ],
+    [
+      {
+        "text": "to",
+        "start": 170.836364,
+        "end": 170.909091
+      },
+      {
+        "text": "prove",
+        "start": 171.018182,
+        "end": 171.127273
+      },
+      {
+        "text": "a",
+        "start": 171.2,
+        "end": 171.272727
+      },
+      {
+        "text": "special",
+        "start": 171.345455,
+        "end": 171.636364
+      },
+      {
+        "text": "reason.",
+        "start": 171.709091,
+        "end": 172.290909
+      }
+    ],
+    [
+      {
+        "text": "Permission",
+        "start": 172.509091,
+        "end": 172.945455
+      },
+      {
+        "text": "would",
+        "start": 173.018182,
+        "end": 173.090909
+      },
+      {
+        "text": "be",
+        "start": 173.127273,
+        "end": 173.163636
+      },
+      {
+        "text": "granted",
+        "start": 173.236364,
+        "end": 173.527273
+      }
+    ],
+    [
+      {
+        "text": "quickly.",
+        "start": 173.6,
+        "end": 174.218182
+      }
+    ],
+    [
+      {
+        "text": "Permanent",
+        "start": 174.472727,
+        "end": 174.763636
+      },
+      {
+        "text": "departure",
+        "start": 174.836364,
+        "end": 175.272727
+      }
+    ],
+    [
+      {
+        "text": "would",
+        "start": 175.309091,
+        "end": 175.345455
+      },
+      {
+        "text": "be",
+        "start": 175.418182,
+        "end": 175.490909
+      },
+      {
+        "text": "possible",
+        "start": 175.563636,
+        "end": 176.0
+      }
+    ],
+    [
+      {
+        "text": "through",
+        "start": 176.072727,
+        "end": 176.218182
+      },
+      {
+        "text": "official",
+        "start": 176.436364,
+        "end": 176.654545
+      },
+      {
+        "text": "crossing",
+        "start": 176.727273,
+        "end": 177.090909
+      },
+      {
+        "text": "points.",
+        "start": 177.163636,
+        "end": 177.745455
+      }
+    ],
+    [
+      {
+        "text": "The",
+        "start": 178.036364,
+        "end": 178.109091
+      },
+      {
+        "text": "words",
+        "start": 178.181818,
+        "end": 178.472727
+      },
+      {
+        "text": "sounded",
+        "start": 178.545455,
+        "end": 178.836364
+      },
+      {
+        "text": "significant,",
+        "start": 179.163636,
+        "end": 179.709091
+      }
+    ],
+    [
+      {
+        "text": "but",
+        "start": 179.818182,
+        "end": 179.927273
+      },
+      {
+        "text": "also",
+        "start": 180.0,
+        "end": 180.290909
+      },
+      {
+        "text": "bureaucratic.",
+        "start": 180.363636,
+        "end": 181.272727
+      }
+    ],
+    [
+      {
+        "text": "You",
+        "start": 181.527273,
+        "end": 181.6
+      },
+      {
+        "text": "could",
+        "start": 181.636364,
+        "end": 181.672727
+      },
+      {
+        "text": "apply.",
+        "start": 181.745455,
+        "end": 182.545455
+      }
+    ],
+    [
+      {
+        "text": "You",
+        "start": 182.581818,
+        "end": 182.618182
+      },
+      {
+        "text": "could",
+        "start": 182.690909,
+        "end": 182.763636
+      },
+      {
+        "text": "receive",
+        "start": 182.945455,
+        "end": 183.127273
+      },
+      {
+        "text": "permission.",
+        "start": 183.345455,
+        "end": 184.0
+      }
+    ],
+    [
+      {
+        "text": "The",
+        "start": 184.072727,
+        "end": 184.145455
+      },
+      {
+        "text": "system",
+        "start": 184.218182,
+        "end": 184.581818
+      },
+      {
+        "text": "would",
+        "start": 184.690909,
+        "end": 184.8
+      },
+      {
+        "text": "process",
+        "start": 184.872727,
+        "end": 185.309091
+      }
+    ],
+    [
+      {
+        "text": "your",
+        "start": 185.381818,
+        "end": 185.454545
+      },
+      {
+        "text": "request.",
+        "start": 185.709091,
+        "end": 186.545455
+      }
+    ],
+    [
+      {
+        "text": "Then",
+        "start": 186.727273,
+        "end": 186.909091
+      },
+      {
+        "text": "another",
+        "start": 186.981818,
+        "end": 187.272727
+      },
+      {
+        "text": "journalist,",
+        "start": 187.345455,
+        "end": 187.927273
+      },
+      {
+        "text": "Peter",
+        "start": 188.0,
+        "end": 188.145455
+      }
+    ],
+    [
+      {
+        "text": "Brinkmann,",
+        "start": 188.218182,
+        "end": 188.909091
+      },
+      {
+        "text": "asked",
+        "start": 188.945455,
+        "end": 189.163636
+      },
+      {
+        "text": "the",
+        "start": 189.2,
+        "end": 189.236364
+      },
+      {
+        "text": "question",
+        "start": 189.309091,
+        "end": 189.672727
+      }
+    ],
+    [
+      {
+        "text": "that",
+        "start": 189.781818,
+        "end": 189.890909
+      },
+      {
+        "text": "changed",
+        "start": 190.072727,
+        "end": 190.254545
+      },
+      {
+        "text": "the",
+        "start": 190.327273,
+        "end": 190.4
+      },
+      {
+        "text": "evening.",
+        "start": 190.472727,
+        "end": 191.345455
+      }
+    ],
+    [
+      {
+        "text": "When",
+        "start": 191.418182,
+        "end": 191.490909
+      },
+      {
+        "text": "did",
+        "start": 191.563636,
+        "end": 191.636364
+      },
+      {
+        "text": "the",
+        "start": 191.672727,
+        "end": 191.709091
+      },
+      {
+        "text": "rule",
+        "start": 191.781818,
+        "end": 192.0
+      },
+      {
+        "text": "take",
+        "start": 192.072727,
+        "end": 192.145455
+      },
+      {
+        "text": "effect?",
+        "start": 192.363636,
+        "end": 193.163636
+      }
+    ],
+    [
+      {
+        "text": "Schabowski",
+        "start": 193.236364,
+        "end": 193.745455
+      },
+      {
+        "text": "checked",
+        "start": 193.818182,
+        "end": 193.963636
+      },
+      {
+        "text": "his",
+        "start": 194.036364,
+        "end": 194.109091
+      },
+      {
+        "text": "papers.",
+        "start": 194.181818,
+        "end": 194.981818
+      }
+    ],
+    [
+      {
+        "text": "He",
+        "start": 195.054545,
+        "end": 195.127273
+      },
+      {
+        "text": "didn't",
+        "start": 195.163636,
+        "end": 195.345455
+      },
+      {
+        "text": "find",
+        "start": 195.418182,
+        "end": 195.490909
+      },
+      {
+        "text": "a",
+        "start": 195.563636,
+        "end": 195.636364
+      },
+      {
+        "text": "clear",
+        "start": 195.709091,
+        "end": 195.927273
+      }
+    ],
+    [
+      {
+        "text": "answer",
+        "start": 196.0,
+        "end": 196.218182
+      },
+      {
+        "text": "in",
+        "start": 196.290909,
+        "end": 196.339091
+      },
+      {
+        "text": "his",
+        "start": 196.388182,
+        "end": 196.436364
+      },
+      {
+        "text": "notes.",
+        "start": 196.509091,
+        "end": 197.309091
+      }
+    ],
+    [
+      {
+        "text": "So",
+        "start": 197.418182,
+        "end": 197.527273
+      },
+      {
+        "text": "he",
+        "start": 197.745455,
+        "end": 197.818182
+      },
+      {
+        "text": "answered,",
+        "start": 197.890909,
+        "end": 198.472727
+      }
+    ],
+    [
+      {
+        "text": "in",
+        "start": 198.545455,
+        "end": 198.618182
+      },
+      {
+        "text": "German,",
+        "start": 198.690909,
+        "end": 199.490909
+      },
+      {
+        "text": "Sofort.",
+        "start": 199.515455,
+        "end": 200.363636
+      }
+    ],
+    [
+      {
+        "text": "Unverzüglich.",
+        "start": 200.472727,
+        "end": 201.6
+      },
+      {
+        "text": "Immediately.",
+        "start": 201.927273,
+        "end": 202.618182
+      }
+    ],
+    [
+      {
+        "text": "Without",
+        "start": 202.8,
+        "end": 202.981818
+      },
+      {
+        "text": "delay.",
+        "start": 203.054545,
+        "end": 203.745455
+      }
+    ],
+    [
+      {
+        "text": "That",
+        "start": 204.072727,
+        "end": 204.218182
+      },
+      {
+        "text": "was",
+        "start": 204.327273,
+        "end": 204.436364
+      },
+      {
+        "text": "not",
+        "start": 204.509091,
+        "end": 204.727273
+      },
+      {
+        "text": "how",
+        "start": 204.8,
+        "end": 204.872727
+      }
+    ],
+    [
+      {
+        "text": "the",
+        "start": 204.909091,
+        "end": 204.945455
+      },
+      {
+        "text": "government",
+        "start": 205.018182,
+        "end": 205.309091
+      },
+      {
+        "text": "had",
+        "start": 205.381818,
+        "end": 205.454545
+      },
+      {
+        "text": "planned",
+        "start": 205.527273,
+        "end": 205.745455
+      }
+    ],
+    [
+      {
+        "text": "to",
+        "start": 205.818182,
+        "end": 205.890909
+      },
+      {
+        "text": "introduce",
+        "start": 205.963636,
+        "end": 206.327273
+      },
+      {
+        "text": "the",
+        "start": 206.363636,
+        "end": 206.4
+      },
+      {
+        "text": "new",
+        "start": 206.472727,
+        "end": 206.545455
+      },
+      {
+        "text": "rules.",
+        "start": 206.618182,
+        "end": 207.418182
+      }
+    ],
+    [
+      {
+        "text": "And",
+        "start": 207.527273,
+        "end": 207.636364
+      },
+      {
+        "text": "thousands",
+        "start": 207.709091,
+        "end": 208.145455
+      },
+      {
+        "text": "of",
+        "start": 208.181818,
+        "end": 208.218182
+      },
+      {
+        "text": "people",
+        "start": 208.290909,
+        "end": 208.581818
+      }
+    ],
+    [
+      {
+        "text": "were",
+        "start": 208.654545,
+        "end": 208.727273
+      },
+      {
+        "text": "about",
+        "start": 208.8,
+        "end": 209.090909
+      },
+      {
+        "text": "to",
+        "start": 209.163636,
+        "end": 209.236364
+      },
+      {
+        "text": "take",
+        "start": 209.309091,
+        "end": 209.454545
+      }
+    ],
+    [
+      {
+        "text": "him",
+        "start": 209.527273,
+        "end": 209.6
+      },
+      {
+        "text": "at",
+        "start": 209.636364,
+        "end": 209.672727
+      },
+      {
+        "text": "his",
+        "start": 209.745455,
+        "end": 209.818182
+      },
+      {
+        "text": "word.",
+        "start": 209.890909,
+        "end": 210.763636
+      }
+    ],
+    [
+      {
+        "text": "Within",
+        "start": 210.909091,
+        "end": 211.054545
+      },
+      {
+        "text": "minutes,",
+        "start": 211.127273,
+        "end": 211.709091
+      },
+      {
+        "text": "news",
+        "start": 211.781818,
+        "end": 212.0
+      },
+      {
+        "text": "agencies",
+        "start": 212.072727,
+        "end": 212.436364
+      }
+    ],
+    [
+      {
+        "text": "began",
+        "start": 212.509091,
+        "end": 212.8
+      },
+      {
+        "text": "sending",
+        "start": 212.872727,
+        "end": 213.090909
+      },
+      {
+        "text": "out",
+        "start": 213.163636,
+        "end": 213.236364
+      },
+      {
+        "text": "alerts.",
+        "start": 213.309091,
+        "end": 214.0
+      }
+    ],
+    [
+      {
+        "text": "Television",
+        "start": 214.254545,
+        "end": 214.618182
+      },
+      {
+        "text": "reports",
+        "start": 214.690909,
+        "end": 215.054545
+      },
+      {
+        "text": "condensed",
+        "start": 215.127273,
+        "end": 215.490909
+      }
+    ],
+    [
+      {
+        "text": "a",
+        "start": 215.563636,
+        "end": 215.636364
+      },
+      {
+        "text": "complicated",
+        "start": 215.709091,
+        "end": 216.218182
+      },
+      {
+        "text": "travel",
+        "start": 216.290909,
+        "end": 216.581818
+      },
+      {
+        "text": "regulation",
+        "start": 216.654545,
+        "end": 217.163636
+      }
+    ],
+    [
+      {
+        "text": "into",
+        "start": 217.381818,
+        "end": 217.6
+      },
+      {
+        "text": "a",
+        "start": 217.636364,
+        "end": 217.672727
+      },
+      {
+        "text": "much",
+        "start": 217.818182,
+        "end": 218.036364
+      },
+      {
+        "text": "simpler",
+        "start": 218.181818,
+        "end": 218.472727
+      },
+      {
+        "text": "message.",
+        "start": 218.690909,
+        "end": 219.163636
+      }
+    ],
+    [
+      {
+        "text": "East",
+        "start": 219.418182,
+        "end": 219.636364
+      },
+      {
+        "text": "Germany",
+        "start": 219.709091,
+        "end": 220.145455
+      },
+      {
+        "text": "had",
+        "start": 220.254545,
+        "end": 220.363636
+      },
+      {
+        "text": "opened",
+        "start": 220.436364,
+        "end": 220.654545
+      }
+    ],
+    [
+      {
+        "text": "its",
+        "start": 220.727273,
+        "end": 220.8
+      },
+      {
+        "text": "border.",
+        "start": 220.872727,
+        "end": 221.527273
+      }
+    ],
+    [
+      {
+        "text": "The",
+        "start": 221.818182,
+        "end": 221.890909
+      },
+      {
+        "text": "problem",
+        "start": 221.963636,
+        "end": 222.254545
+      },
+      {
+        "text": "was",
+        "start": 222.327273,
+        "end": 222.4
+      },
+      {
+        "text": "that,",
+        "start": 222.472727,
+        "end": 222.836364
+      }
+    ],
+    [
+      {
+        "text": "at",
+        "start": 222.909091,
+        "end": 222.981818
+      },
+      {
+        "text": "the",
+        "start": 223.018182,
+        "end": 223.054545
+      },
+      {
+        "text": "actual",
+        "start": 223.2,
+        "end": 223.490909
+      },
+      {
+        "text": "border,",
+        "start": 223.563636,
+        "end": 224.145455
+      }
+    ],
+    [
+      {
+        "text": "almost",
+        "start": 224.327273,
+        "end": 224.509091
+      },
+      {
+        "text": "nothing",
+        "start": 224.654545,
+        "end": 224.945455
+      },
+      {
+        "text": "had",
+        "start": 225.018182,
+        "end": 225.090909
+      },
+      {
+        "text": "changed.",
+        "start": 225.163636,
+        "end": 225.6
+      }
+    ],
+    [
+      {
+        "text": "The",
+        "start": 226.036364,
+        "end": 226.109091
+      },
+      {
+        "text": "gates",
+        "start": 226.181818,
+        "end": 226.4
+      },
+      {
+        "text": "were",
+        "start": 226.472727,
+        "end": 226.545455
+      },
+      {
+        "text": "still",
+        "start": 226.618182,
+        "end": 226.836364
+      },
+      {
+        "text": "closed.",
+        "start": 226.909091,
+        "end": 227.636364
+      }
+    ],
+    [
+      {
+        "text": "The",
+        "start": 227.672727,
+        "end": 227.709091
+      },
+      {
+        "text": "guards",
+        "start": 227.781818,
+        "end": 228.072727
+      }
+    ],
+    [
+      {
+        "text": "were",
+        "start": 228.145455,
+        "end": 228.290909
+      },
+      {
+        "text": "still",
+        "start": 228.4,
+        "end": 228.509091
+      },
+      {
+        "text": "checking",
+        "start": 228.654545,
+        "end": 228.872727
+      },
+      {
+        "text": "documents.",
+        "start": 228.945455,
+        "end": 229.890909
+      }
+    ],
+    [
+      {
+        "text": "Their",
+        "start": 229.963636,
+        "end": 230.036364
+      },
+      {
+        "text": "instructions",
+        "start": 230.327273,
+        "end": 230.618182
+      }
+    ],
+    [
+      {
+        "text": "had",
+        "start": 230.727273,
+        "end": 230.836364
+      },
+      {
+        "text": "not",
+        "start": 230.909091,
+        "end": 231.127273
+      },
+      {
+        "text": "suddenly",
+        "start": 231.2,
+        "end": 231.490909
+      },
+      {
+        "text": "been",
+        "start": 231.563636,
+        "end": 231.636364
+      },
+      {
+        "text": "replaced",
+        "start": 231.709091,
+        "end": 232.072727
+      }
+    ],
+    [
+      {
+        "text": "by",
+        "start": 232.145455,
+        "end": 232.218182
+      },
+      {
+        "text": "a",
+        "start": 232.290909,
+        "end": 232.363636
+      },
+      {
+        "text": "new",
+        "start": 232.4,
+        "end": 232.436364
+      },
+      {
+        "text": "system.",
+        "start": 232.581818,
+        "end": 233.454545
+      }
+    ],
+    [
+      {
+        "text": "But",
+        "start": 233.527273,
+        "end": 233.6
+      },
+      {
+        "text": "people",
+        "start": 233.672727,
+        "end": 233.890909
+      },
+      {
+        "text": "watching",
+        "start": 233.963636,
+        "end": 234.254545
+      },
+      {
+        "text": "television",
+        "start": 234.327273,
+        "end": 234.836364
+      }
+    ],
+    [
+      {
+        "text": "saw",
+        "start": 234.872727,
+        "end": 235.054545
+      },
+      {
+        "text": "a",
+        "start": 235.127273,
+        "end": 235.2
+      },
+      {
+        "text": "senior",
+        "start": 235.272727,
+        "end": 235.490909
+      },
+      {
+        "text": "official",
+        "start": 235.563636,
+        "end": 236.0
+      },
+      {
+        "text": "say",
+        "start": 236.072727,
+        "end": 236.145455
+      }
+    ],
+    [
+      {
+        "text": "they",
+        "start": 236.218182,
+        "end": 236.290909
+      },
+      {
+        "text": "could",
+        "start": 236.4,
+        "end": 236.509091
+      },
+      {
+        "text": "leave",
+        "start": 236.654545,
+        "end": 236.8
+      },
+      {
+        "text": "immediately.",
+        "start": 236.909091,
+        "end": 237.963636
+      }
+    ],
+    [
+      {
+        "text": "And",
+        "start": 238.036364,
+        "end": 238.109091
+      },
+      {
+        "text": "they",
+        "start": 238.181818,
+        "end": 238.254545
+      },
+      {
+        "text": "believed",
+        "start": 238.327273,
+        "end": 238.618182
+      },
+      {
+        "text": "him.",
+        "start": 238.727273,
+        "end": 239.418182
+      }
+    ],
+    [
+      {
+        "text": "At",
+        "start": 239.563636,
+        "end": 239.745455
+      },
+      {
+        "text": "first,",
+        "start": 239.927273,
+        "end": 240.218182
+      }
+    ],
+    [
+      {
+        "text": "only",
+        "start": 240.509091,
+        "end": 240.654545
+      },
+      {
+        "text": "small",
+        "start": 240.8,
+        "end": 240.872727
+      },
+      {
+        "text": "groups",
+        "start": 241.090909,
+        "end": 241.163636
+      },
+      {
+        "text": "appeared",
+        "start": 241.381818,
+        "end": 241.454545
+      }
+    ],
+    [
+      {
+        "text": "at",
+        "start": 241.527273,
+        "end": 241.672727
+      },
+      {
+        "text": "Berlin's",
+        "start": 241.818182,
+        "end": 242.0
+      },
+      {
+        "text": "checkpoints.",
+        "start": 242.109091,
+        "end": 242.981818
+      }
+    ],
+    [
+      {
+        "text": "Guards",
+        "start": 243.054545,
+        "end": 243.309091
+      },
+      {
+        "text": "told",
+        "start": 243.345455,
+        "end": 243.490909
+      },
+      {
+        "text": "them",
+        "start": 243.636364,
+        "end": 243.709091
+      }
+    ],
+    [
+      {
+        "text": "to",
+        "start": 243.781818,
+        "end": 243.890909
+      },
+      {
+        "text": "come",
+        "start": 244.0,
+        "end": 244.109091
+      },
+      {
+        "text": "back",
+        "start": 244.218182,
+        "end": 244.254545
+      },
+      {
+        "text": "the",
+        "start": 244.290909,
+        "end": 244.363636
+      },
+      {
+        "text": "next",
+        "start": 244.581818,
+        "end": 244.690909
+      },
+      {
+        "text": "day.",
+        "start": 244.8,
+        "end": 245.381818
+      }
+    ],
+    [
+      {
+        "text": "Then",
+        "start": 245.745455,
+        "end": 245.818182
+      },
+      {
+        "text": "the",
+        "start": 245.963636,
+        "end": 246.036364
+      },
+      {
+        "text": "eight",
+        "start": 246.109091,
+        "end": 246.145455
+      },
+      {
+        "text": "o'clock",
+        "start": 246.181818,
+        "end": 246.472727
+      },
+      {
+        "text": "news",
+        "start": 246.690909,
+        "end": 246.763636
+      }
+    ],
+    [
+      {
+        "text": "announced",
+        "start": 246.909091,
+        "end": 247.163636
+      },
+      {
+        "text": "that",
+        "start": 247.2,
+        "end": 247.272727
+      },
+      {
+        "text": "the",
+        "start": 247.418182,
+        "end": 247.563636
+      },
+      {
+        "text": "border",
+        "start": 247.709091,
+        "end": 247.818182
+      }
+    ],
+    [
+      {
+        "text": "was",
+        "start": 247.927273,
+        "end": 248.0
+      },
+      {
+        "text": "open.",
+        "start": 248.290909,
+        "end": 248.872727
+      }
+    ],
+    [
+      {
+        "text": "More",
+        "start": 249.090909,
+        "end": 249.236364
+      },
+      {
+        "text": "people",
+        "start": 249.381818,
+        "end": 249.527273
+      },
+      {
+        "text": "came.",
+        "start": 249.672727,
+        "end": 250.254545
+      }
+    ],
+    [
+      {
+        "text": "At",
+        "start": 250.327273,
+        "end": 250.4
+      },
+      {
+        "text": "Bornholmer",
+        "start": 250.618182,
+        "end": 250.909091
+      },
+      {
+        "text": "Straße,",
+        "start": 251.127273,
+        "end": 251.709091
+      }
+    ],
+    [
+      {
+        "text": "one",
+        "start": 251.781818,
+        "end": 251.818182
+      },
+      {
+        "text": "of",
+        "start": 251.854545,
+        "end": 251.890909
+      },
+      {
+        "text": "the",
+        "start": 251.927273,
+        "end": 252.0
+      },
+      {
+        "text": "crossings",
+        "start": 252.218182,
+        "end": 252.436364
+      },
+      {
+        "text": "into",
+        "start": 252.581818,
+        "end": 252.654545
+      },
+      {
+        "text": "West",
+        "start": 252.8,
+        "end": 253.018182
+      }
+    ],
+    [
+      {
+        "text": "Berlin,",
+        "start": 253.236364,
+        "end": 253.6
+      },
+      {
+        "text": "an",
+        "start": 253.672727,
+        "end": 253.745455
+      },
+      {
+        "text": "officer",
+        "start": 253.890909,
+        "end": 254.218182
+      }
+    ],
+    [
+      {
+        "text": "named",
+        "start": 254.327273,
+        "end": 254.4
+      },
+      {
+        "text": "Harald",
+        "start": 254.545455,
+        "end": 254.763636
+      },
+      {
+        "text": "Jäger",
+        "start": 254.836364,
+        "end": 255.2
+      },
+      {
+        "text": "was",
+        "start": 255.345455,
+        "end": 255.418182
+      },
+      {
+        "text": "trying",
+        "start": 255.636364,
+        "end": 255.709091
+      }
+    ],
+    [
+      {
+        "text": "to",
+        "start": 255.781818,
+        "end": 255.854545
+      },
+      {
+        "text": "work",
+        "start": 255.927273,
+        "end": 256.0
+      },
+      {
+        "text": "out",
+        "start": 256.145455,
+        "end": 256.218182
+      },
+      {
+        "text": "what",
+        "start": 256.363636,
+        "end": 256.436364
+      }
+    ],
+    [
+      {
+        "text": "he",
+        "start": 256.509091,
+        "end": 256.545455
+      },
+      {
+        "text": "was",
+        "start": 256.581818,
+        "end": 256.690909
+      },
+      {
+        "text": "supposed",
+        "start": 256.8,
+        "end": 257.018182
+      },
+      {
+        "text": "to",
+        "start": 257.090909,
+        "end": 257.2
+      },
+      {
+        "text": "do.",
+        "start": 257.309091,
+        "end": 257.890909
+      }
+    ],
+    [
+      {
+        "text": "He",
+        "start": 257.963636,
+        "end": 258.036364
+      },
+      {
+        "text": "had",
+        "start": 258.109091,
+        "end": 258.218182
+      },
+      {
+        "text": "watched",
+        "start": 258.327273,
+        "end": 258.4
+      }
+    ],
+    [
+      {
+        "text": "Schabowski's",
+        "start": 258.472727,
+        "end": 258.909091
+      },
+      {
+        "text": "announcement",
+        "start": 259.345455,
+        "end": 259.418182
+      }
+    ],
+    [
+      {
+        "text": "on",
+        "start": 259.490909,
+        "end": 259.527273
+      },
+      {
+        "text": "television.",
+        "start": 259.563636,
+        "end": 260.472727
+      }
+    ],
+    [
+      {
+        "text": "He",
+        "start": 260.509091,
+        "end": 260.581818
+      },
+      {
+        "text": "called",
+        "start": 260.727273,
+        "end": 260.8
+      },
+      {
+        "text": "his",
+        "start": 260.872727,
+        "end": 261.018182
+      },
+      {
+        "text": "superiors.",
+        "start": 261.163636,
+        "end": 261.963636
+      }
+    ],
+    [
+      {
+        "text": "They",
+        "start": 262.036364,
+        "end": 262.109091
+      },
+      {
+        "text": "had",
+        "start": 262.327273,
+        "end": 262.4
+      },
+      {
+        "text": "no",
+        "start": 262.472727,
+        "end": 262.618182
+      },
+      {
+        "text": "clear",
+        "start": 262.763636,
+        "end": 263.054545
+      }
+    ],
+    [
+      {
+        "text": "instructions",
+        "start": 263.345455,
+        "end": 263.418182
+      },
+      {
+        "text": "that",
+        "start": 263.490909,
+        "end": 263.563636
+      },
+      {
+        "text": "matched",
+        "start": 263.854545,
+        "end": 263.927273
+      },
+      {
+        "text": "what",
+        "start": 264.0,
+        "end": 264.036364
+      }
+    ],
+    [
+      {
+        "text": "the",
+        "start": 264.072727,
+        "end": 264.145455
+      },
+      {
+        "text": "public",
+        "start": 264.363636,
+        "end": 264.436364
+      },
+      {
+        "text": "had",
+        "start": 264.509091,
+        "end": 264.581818
+      },
+      {
+        "text": "just",
+        "start": 264.727273,
+        "end": 264.8
+      },
+      {
+        "text": "heard.",
+        "start": 265.090909,
+        "end": 265.927273
+      }
+    ],
+    [
+      {
+        "text": "Outside,",
+        "start": 266.181818,
+        "end": 266.472727
+      },
+      {
+        "text": "the",
+        "start": 266.545455,
+        "end": 266.618182
+      },
+      {
+        "text": "crowd",
+        "start": 266.763636,
+        "end": 266.981818
+      }
+    ],
+    [
+      {
+        "text": "continued",
+        "start": 267.490909,
+        "end": 267.527273
+      },
+      {
+        "text": "to",
+        "start": 267.563636,
+        "end": 267.636364
+      },
+      {
+        "text": "grow.",
+        "start": 267.927273,
+        "end": 268.509091
+      }
+    ],
+    [
+      {
+        "text": "By",
+        "start": 268.581818,
+        "end": 268.727273
+      },
+      {
+        "text": "around",
+        "start": 268.872727,
+        "end": 268.945455
+      },
+      {
+        "text": "nine",
+        "start": 269.018182,
+        "end": 269.236364
+      },
+      {
+        "text": "thirty,",
+        "start": 269.345455,
+        "end": 269.781818
+      },
+      {
+        "text": "hundreds",
+        "start": 269.818182,
+        "end": 270.181818
+      }
+    ],
+    [
+      {
+        "text": "of",
+        "start": 270.254545,
+        "end": 270.327273
+      },
+      {
+        "text": "people",
+        "start": 270.545455,
+        "end": 270.618182
+      },
+      {
+        "text": "were",
+        "start": 270.690909,
+        "end": 270.8
+      },
+      {
+        "text": "gathered",
+        "start": 270.909091,
+        "end": 271.054545
+      },
+      {
+        "text": "there.",
+        "start": 271.272727,
+        "end": 271.781818
+      }
+    ],
+    [
+      {
+        "text": "They",
+        "start": 271.854545,
+        "end": 271.890909
+      },
+      {
+        "text": "weren't",
+        "start": 271.927273,
+        "end": 272.181818
+      },
+      {
+        "text": "trying",
+        "start": 272.290909,
+        "end": 272.363636
+      }
+    ],
+    [
+      {
+        "text": "to",
+        "start": 272.436364,
+        "end": 272.509091
+      },
+      {
+        "text": "sneak",
+        "start": 272.545455,
+        "end": 272.727273
+      },
+      {
+        "text": "across.",
+        "start": 272.872727,
+        "end": 273.418182
+      }
+    ],
+    [
+      {
+        "text": "They",
+        "start": 273.454545,
+        "end": 273.6
+      },
+      {
+        "text": "were",
+        "start": 273.672727,
+        "end": 273.745455
+      },
+      {
+        "text": "demanding",
+        "start": 273.963636,
+        "end": 274.254545
+      }
+    ],
+    [
+      {
+        "text": "the",
+        "start": 274.327273,
+        "end": 274.4
+      },
+      {
+        "text": "journey",
+        "start": 274.472727,
+        "end": 274.690909
+      },
+      {
+        "text": "they",
+        "start": 274.836364,
+        "end": 274.981818
+      },
+      {
+        "text": "believed",
+        "start": 275.054545,
+        "end": 275.345455
+      }
+    ],
+    [
+      {
+        "text": "their",
+        "start": 275.418182,
+        "end": 275.636364
+      },
+      {
+        "text": "own",
+        "start": 275.709091,
+        "end": 275.854545
+      },
+      {
+        "text": "government",
+        "start": 275.927273,
+        "end": 276.290909
+      }
+    ],
+    [
+      {
+        "text": "had",
+        "start": 276.4,
+        "end": 276.509091
+      },
+      {
+        "text": "just",
+        "start": 276.581818,
+        "end": 276.8
+      },
+      {
+        "text": "authorized.",
+        "start": 276.872727,
+        "end": 277.781818
+      }
+    ],
+    [
+      {
+        "text": "Jäger",
+        "start": 278.109091,
+        "end": 278.4
+      },
+      {
+        "text": "and",
+        "start": 278.436364,
+        "end": 278.472727
+      },
+      {
+        "text": "his",
+        "start": 278.545455,
+        "end": 278.618182
+      },
+      {
+        "text": "colleagues",
+        "start": 278.690909,
+        "end": 279.054545
+      }
+    ],
+    [
+      {
+        "text": "were",
+        "start": 279.163636,
+        "end": 279.272727
+      },
+      {
+        "text": "trapped",
+        "start": 279.345455,
+        "end": 279.636364
+      }
+    ],
+    [
+      {
+        "text": "between",
+        "start": 279.854545,
+        "end": 280.072727
+      },
+      {
+        "text": "two",
+        "start": 280.181818,
+        "end": 280.290909
+      },
+      {
+        "text": "realities.",
+        "start": 280.363636,
+        "end": 281.163636
+      }
+    ],
+    [
+      {
+        "text": "On",
+        "start": 281.381818,
+        "end": 281.527273
+      },
+      {
+        "text": "television,",
+        "start": 281.6,
+        "end": 282.254545
+      }
+    ],
+    [
+      {
+        "text": "the",
+        "start": 282.290909,
+        "end": 282.327273
+      },
+      {
+        "text": "border",
+        "start": 282.472727,
+        "end": 282.618182
+      },
+      {
+        "text": "was",
+        "start": 282.690909,
+        "end": 282.763636
+      },
+      {
+        "text": "open.",
+        "start": 282.836364,
+        "end": 283.127273
+      }
+    ],
+    [
+      {
+        "text": "At",
+        "start": 283.563636,
+        "end": 283.709091
+      },
+      {
+        "text": "their",
+        "start": 283.781818,
+        "end": 283.854545
+      },
+      {
+        "text": "checkpoint,",
+        "start": 284.109091,
+        "end": 284.654545
+      },
+      {
+        "text": "it",
+        "start": 284.727273,
+        "end": 284.763636
+      },
+      {
+        "text": "was",
+        "start": 284.8,
+        "end": 284.945455
+      },
+      {
+        "text": "not.",
+        "start": 285.090909,
+        "end": 285.527273
+      }
+    ],
+    [
+      {
+        "text": "Then",
+        "start": 285.818182,
+        "end": 286.036364
+      },
+      {
+        "text": "the",
+        "start": 286.254545,
+        "end": 286.327273
+      },
+      {
+        "text": "authorities",
+        "start": 286.472727,
+        "end": 286.836364
+      }
+    ],
+    [
+      {
+        "text": "tried",
+        "start": 286.872727,
+        "end": 287.054545
+      },
+      {
+        "text": "a",
+        "start": 287.090909,
+        "end": 287.127273
+      },
+      {
+        "text": "solution",
+        "start": 287.345455,
+        "end": 287.563636
+      },
+      {
+        "text": "that",
+        "start": 287.636364,
+        "end": 287.709091
+      },
+      {
+        "text": "made",
+        "start": 287.781818,
+        "end": 288.072727
+      }
+    ],
+    [
+      {
+        "text": "everything",
+        "start": 288.145455,
+        "end": 288.581818
+      },
+      {
+        "text": "worse.",
+        "start": 288.654545,
+        "end": 289.272727
+      }
+    ],
+    [
+      {
+        "text": "They",
+        "start": 289.527273,
+        "end": 289.6
+      },
+      {
+        "text": "would",
+        "start": 289.672727,
+        "end": 289.745455
+      },
+      {
+        "text": "let",
+        "start": 289.818182,
+        "end": 289.890909
+      },
+      {
+        "text": "a",
+        "start": 289.963636,
+        "end": 290.036364
+      },
+      {
+        "text": "small",
+        "start": 290.109091,
+        "end": 290.327273
+      }
+    ],
+    [
+      {
+        "text": "number",
+        "start": 290.4,
+        "end": 290.690909
+      },
+      {
+        "text": "of",
+        "start": 290.727273,
+        "end": 290.763636
+      },
+      {
+        "text": "the",
+        "start": 290.836364,
+        "end": 290.909091
+      },
+      {
+        "text": "most",
+        "start": 291.018182,
+        "end": 291.127273
+      }
+    ],
+    [
+      {
+        "text": "insistent",
+        "start": 291.2,
+        "end": 291.709091
+      },
+      {
+        "text": "people",
+        "start": 291.781818,
+        "end": 292.0
+      },
+      {
+        "text": "through,",
+        "start": 292.072727,
+        "end": 292.654545
+      }
+    ],
+    [
+      {
+        "text": "hoping",
+        "start": 292.727273,
+        "end": 292.945455
+      },
+      {
+        "text": "to",
+        "start": 293.018182,
+        "end": 293.054545
+      },
+      {
+        "text": "relieve",
+        "start": 293.090909,
+        "end": 293.381818
+      },
+      {
+        "text": "the",
+        "start": 293.418182,
+        "end": 293.454545
+      },
+      {
+        "text": "pressure.",
+        "start": 293.527273,
+        "end": 293.890909
+      }
+    ],
+    [
+      {
+        "text": "But",
+        "start": 294.4,
+        "end": 294.472727
+      },
+      {
+        "text": "for",
+        "start": 294.545455,
+        "end": 294.618182
+      },
+      {
+        "text": "some",
+        "start": 294.690909,
+        "end": 294.763636
+      },
+      {
+        "text": "of",
+        "start": 294.836364,
+        "end": 294.909091
+      },
+      {
+        "text": "those",
+        "start": 294.981818,
+        "end": 295.054545
+      },
+      {
+        "text": "people,",
+        "start": 295.127273,
+        "end": 295.709091
+      }
+    ],
+    [
+      {
+        "text": "officials",
+        "start": 295.890909,
+        "end": 296.218182
+      },
+      {
+        "text": "stamped",
+        "start": 296.290909,
+        "end": 296.509091
+      }
+    ],
+    [
+      {
+        "text": "across",
+        "start": 296.581818,
+        "end": 296.872727
+      },
+      {
+        "text": "the",
+        "start": 296.909091,
+        "end": 296.945455
+      },
+      {
+        "text": "photographs",
+        "start": 297.018182,
+        "end": 297.527273
+      }
+    ],
+    [
+      {
+        "text": "on",
+        "start": 297.563636,
+        "end": 297.6
+      },
+      {
+        "text": "their",
+        "start": 297.672727,
+        "end": 297.745455
+      },
+      {
+        "text": "identity",
+        "start": 297.818182,
+        "end": 298.109091
+      },
+      {
+        "text": "cards.",
+        "start": 298.181818,
+        "end": 298.8
+      }
+    ],
+    [
+      {
+        "text": "The",
+        "start": 299.054545,
+        "end": 299.127273
+      },
+      {
+        "text": "mark",
+        "start": 299.2,
+        "end": 299.418182
+      }
+    ],
+    [
+      {
+        "text": "invalidated",
+        "start": 299.563636,
+        "end": 300.218182
+      },
+      {
+        "text": "the",
+        "start": 300.254545,
+        "end": 300.290909
+      },
+      {
+        "text": "document.",
+        "start": 300.363636,
+        "end": 301.054545
+      }
+    ],
+    [
+      {
+        "text": "Under",
+        "start": 301.309091,
+        "end": 301.454545
+      },
+      {
+        "text": "the",
+        "start": 301.490909,
+        "end": 301.527273
+      },
+      {
+        "text": "plan,",
+        "start": 301.6,
+        "end": 302.109091
+      }
+    ],
+    [
+      {
+        "text": "they",
+        "start": 302.181818,
+        "end": 302.254545
+      },
+      {
+        "text": "would",
+        "start": 302.327273,
+        "end": 302.4
+      },
+      {
+        "text": "not",
+        "start": 302.472727,
+        "end": 302.618182
+      },
+      {
+        "text": "be",
+        "start": 302.690909,
+        "end": 302.763636
+      },
+      {
+        "text": "allowed",
+        "start": 302.836364,
+        "end": 303.127273
+      }
+    ],
+    [
+      {
+        "text": "to",
+        "start": 303.163636,
+        "end": 303.2
+      },
+      {
+        "text": "return",
+        "start": 303.418182,
+        "end": 303.636364
+      },
+      {
+        "text": "to",
+        "start": 303.672727,
+        "end": 303.709091
+      },
+      {
+        "text": "East",
+        "start": 303.781818,
+        "end": 303.927273
+      },
+      {
+        "text": "Germany.",
+        "start": 304.0,
+        "end": 304.618182
+      }
+    ],
+    [
+      {
+        "text": "And",
+        "start": 304.872727,
+        "end": 304.945455
+      },
+      {
+        "text": "the",
+        "start": 304.981818,
+        "end": 305.018182
+      },
+      {
+        "text": "people",
+        "start": 305.090909,
+        "end": 305.309091
+      }
+    ],
+    [
+      {
+        "text": "crossing",
+        "start": 305.381818,
+        "end": 305.818182
+      },
+      {
+        "text": "did",
+        "start": 305.890909,
+        "end": 306.036364
+      },
+      {
+        "text": "not",
+        "start": 306.109091,
+        "end": 306.327273
+      },
+      {
+        "text": "know.",
+        "start": 306.4,
+        "end": 306.981818
+      }
+    ],
+    [
+      {
+        "text": "Imagine",
+        "start": 307.272727,
+        "end": 307.636364
+      },
+      {
+        "text": "thinking",
+        "start": 307.709091,
+        "end": 308.0
+      }
+    ],
+    [
+      {
+        "text": "you",
+        "start": 308.036364,
+        "end": 308.072727
+      },
+      {
+        "text": "are",
+        "start": 308.145455,
+        "end": 308.218182
+      },
+      {
+        "text": "making",
+        "start": 308.327273,
+        "end": 308.436364
+      },
+      {
+        "text": "a",
+        "start": 308.509091,
+        "end": 308.581818
+      },
+      {
+        "text": "short",
+        "start": 308.654545,
+        "end": 308.872727
+      },
+      {
+        "text": "visit",
+        "start": 308.945455,
+        "end": 309.163636
+      }
+    ],
+    [
+      {
+        "text": "across",
+        "start": 309.236364,
+        "end": 309.454545
+      },
+      {
+        "text": "town,",
+        "start": 309.527273,
+        "end": 310.109091
+      },
+      {
+        "text": "while",
+        "start": 310.181818,
+        "end": 310.254545
+      },
+      {
+        "text": "the",
+        "start": 310.290909,
+        "end": 310.327273
+      },
+      {
+        "text": "officials",
+        "start": 310.509091,
+        "end": 310.763636
+      }
+    ],
+    [
+      {
+        "text": "behind",
+        "start": 310.836364,
+        "end": 311.054545
+      },
+      {
+        "text": "the",
+        "start": 311.090909,
+        "end": 311.127273
+      },
+      {
+        "text": "counter",
+        "start": 311.2,
+        "end": 311.490909
+      },
+      {
+        "text": "are",
+        "start": 311.563636,
+        "end": 311.636364
+      },
+      {
+        "text": "treating",
+        "start": 311.709091,
+        "end": 312.0
+      }
+    ],
+    [
+      {
+        "text": "it",
+        "start": 312.072727,
+        "end": 312.145455
+      },
+      {
+        "text": "as",
+        "start": 312.181818,
+        "end": 312.218182
+      },
+      {
+        "text": "a",
+        "start": 312.290909,
+        "end": 312.436364
+      },
+      {
+        "text": "permanent",
+        "start": 312.618182,
+        "end": 312.8
+      },
+      {
+        "text": "departure.",
+        "start": 312.872727,
+        "end": 313.381818
+      }
+    ],
+    [
+      {
+        "text": "This",
+        "start": 313.963636,
+        "end": 314.181818
+      },
+      {
+        "text": "was",
+        "start": 314.254545,
+        "end": 314.327273
+      },
+      {
+        "text": "meant",
+        "start": 314.4,
+        "end": 314.545455
+      }
+    ],
+    [
+      {
+        "text": "to",
+        "start": 314.618182,
+        "end": 314.690909
+      },
+      {
+        "text": "protect",
+        "start": 314.909091,
+        "end": 315.127273
+      },
+      {
+        "text": "the",
+        "start": 315.163636,
+        "end": 315.2
+      },
+      {
+        "text": "border.",
+        "start": 315.272727,
+        "end": 315.636364
+      }
+    ],
+    [
+      {
+        "text": "Instead,",
+        "start": 316.072727,
+        "end": 316.8
+      },
+      {
+        "text": "it",
+        "start": 316.872727,
+        "end": 316.945455
+      },
+      {
+        "text": "gave",
+        "start": 316.981818,
+        "end": 317.090909
+      },
+      {
+        "text": "the",
+        "start": 317.163636,
+        "end": 317.236364
+      },
+      {
+        "text": "crowd",
+        "start": 317.309091,
+        "end": 317.527273
+      }
+    ],
+    [
+      {
+        "text": "proof",
+        "start": 317.6,
+        "end": 317.963636
+      },
+      {
+        "text": "that",
+        "start": 318.036364,
+        "end": 318.109091
+      },
+      {
+        "text": "crossing",
+        "start": 318.181818,
+        "end": 318.618182
+      }
+    ],
+    [
+      {
+        "text": "was",
+        "start": 318.690909,
+        "end": 318.763636
+      },
+      {
+        "text": "possible.",
+        "start": 318.981818,
+        "end": 319.454545
+      }
+    ],
+    [
+      {
+        "text": "People",
+        "start": 319.709091,
+        "end": 319.927273
+      },
+      {
+        "text": "who",
+        "start": 319.963636,
+        "end": 320.0
+      },
+      {
+        "text": "had",
+        "start": 320.072727,
+        "end": 320.145455
+      },
+      {
+        "text": "been",
+        "start": 320.218182,
+        "end": 320.290909
+      },
+      {
+        "text": "told",
+        "start": 320.327273,
+        "end": 320.509091
+      }
+    ],
+    [
+      {
+        "text": "to",
+        "start": 320.545455,
+        "end": 320.581818
+      },
+      {
+        "text": "wait",
+        "start": 320.727273,
+        "end": 321.018182
+      },
+      {
+        "text": "could",
+        "start": 321.090909,
+        "end": 321.163636
+      },
+      {
+        "text": "see",
+        "start": 321.236364,
+        "end": 321.381818
+      }
+    ],
+    [
+      {
+        "text": "others",
+        "start": 321.454545,
+        "end": 321.745455
+      },
+      {
+        "text": "being",
+        "start": 321.854545,
+        "end": 321.963636
+      },
+      {
+        "text": "let",
+        "start": 322.072727,
+        "end": 322.181818
+      },
+      {
+        "text": "through.",
+        "start": 322.327273,
+        "end": 322.909091
+      }
+    ],
+    [
+      {
+        "text": "They",
+        "start": 323.018182,
+        "end": 323.127273
+      },
+      {
+        "text": "pushed",
+        "start": 323.236364,
+        "end": 323.418182
+      }
+    ],
+    [
+      {
+        "text": "for",
+        "start": 323.490909,
+        "end": 323.563636
+      },
+      {
+        "text": "the",
+        "start": 323.636364,
+        "end": 323.709091
+      },
+      {
+        "text": "same",
+        "start": 323.781818,
+        "end": 324.0
+      },
+      {
+        "text": "right.",
+        "start": 324.072727,
+        "end": 324.545455
+      }
+    ],
+    [
+      {
+        "text": "The",
+        "start": 324.8,
+        "end": 324.945455
+      },
+      {
+        "text": "pressure",
+        "start": 325.018182,
+        "end": 325.309091
+      }
+    ],
+    [
+      {
+        "text": "on",
+        "start": 325.381818,
+        "end": 325.418182
+      },
+      {
+        "text": "the",
+        "start": 325.454545,
+        "end": 325.527273
+      },
+      {
+        "text": "checkpoint",
+        "start": 325.6,
+        "end": 326.036364
+      },
+      {
+        "text": "increased.",
+        "start": 326.109091,
+        "end": 327.127273
+      }
+    ],
+    [
+      {
+        "text": "By",
+        "start": 327.2,
+        "end": 327.272727
+      },
+      {
+        "text": "ten",
+        "start": 327.345455,
+        "end": 327.418182
+      },
+      {
+        "text": "o'clock,",
+        "start": 327.490909,
+        "end": 328.072727
+      }
+    ],
+    [
+      {
+        "text": "the",
+        "start": 328.145455,
+        "end": 328.218182
+      },
+      {
+        "text": "problem",
+        "start": 328.290909,
+        "end": 328.581818
+      },
+      {
+        "text": "was",
+        "start": 328.654545,
+        "end": 328.727273
+      },
+      {
+        "text": "no",
+        "start": 328.8,
+        "end": 328.945455
+      },
+      {
+        "text": "longer",
+        "start": 329.018182,
+        "end": 329.309091
+      },
+      {
+        "text": "how",
+        "start": 329.381818,
+        "end": 329.454545
+      }
+    ],
+    [
+      {
+        "text": "to",
+        "start": 329.527273,
+        "end": 329.6
+      },
+      {
+        "text": "process",
+        "start": 329.781818,
+        "end": 329.963636
+      },
+      {
+        "text": "applications.",
+        "start": 330.327273,
+        "end": 331.054545
+      }
+    ],
+    [
+      {
+        "text": "It",
+        "start": 331.090909,
+        "end": 331.127273
+      },
+      {
+        "text": "was",
+        "start": 331.2,
+        "end": 331.272727
+      },
+      {
+        "text": "how",
+        "start": 331.345455,
+        "end": 331.418182
+      },
+      {
+        "text": "to",
+        "start": 331.490909,
+        "end": 331.563636
+      },
+      {
+        "text": "hold",
+        "start": 331.636364,
+        "end": 331.854545
+      }
+    ],
+    [
+      {
+        "text": "back",
+        "start": 331.963636,
+        "end": 332.072727
+      },
+      {
+        "text": "the",
+        "start": 332.109091,
+        "end": 332.145455
+      },
+      {
+        "text": "people",
+        "start": 332.218182,
+        "end": 332.509091
+      },
+      {
+        "text": "outside.",
+        "start": 332.8,
+        "end": 333.6
+      }
+    ],
+    [
+      {
+        "text": "Television",
+        "start": 333.672727,
+        "end": 334.181818
+      },
+      {
+        "text": "kept",
+        "start": 334.254545,
+        "end": 334.472727
+      }
+    ],
+    [
+      {
+        "text": "spreading",
+        "start": 334.545455,
+        "end": 334.763636
+      },
+      {
+        "text": "the",
+        "start": 334.836364,
+        "end": 334.909091
+      },
+      {
+        "text": "news.",
+        "start": 335.090909,
+        "end": 335.709091
+      }
+    ],
+    [
+      {
+        "text": "At",
+        "start": 335.781818,
+        "end": 335.854545
+      },
+      {
+        "text": "10:42,",
+        "start": 335.927273,
+        "end": 336.872727
+      }
+    ],
+    [
+      {
+        "text": "a",
+        "start": 336.945455,
+        "end": 337.018182
+      },
+      {
+        "text": "West",
+        "start": 337.090909,
+        "end": 337.236364
+      },
+      {
+        "text": "German",
+        "start": 337.309091,
+        "end": 337.6
+      },
+      {
+        "text": "news",
+        "start": 337.672727,
+        "end": 337.745455
+      },
+      {
+        "text": "broadcast",
+        "start": 337.818182,
+        "end": 338.327273
+      }
+    ],
+    [
+      {
+        "text": "declared",
+        "start": 338.436364,
+        "end": 338.690909
+      },
+      {
+        "text": "that",
+        "start": 338.763636,
+        "end": 338.836364
+      },
+      {
+        "text": "the",
+        "start": 338.909091,
+        "end": 338.981818
+      },
+      {
+        "text": "gates",
+        "start": 339.018182,
+        "end": 339.2
+      }
+    ],
+    [
+      {
+        "text": "in",
+        "start": 339.272727,
+        "end": 339.345455
+      },
+      {
+        "text": "the",
+        "start": 339.381818,
+        "end": 339.418182
+      },
+      {
+        "text": "Wall",
+        "start": 339.490909,
+        "end": 339.781818
+      },
+      {
+        "text": "were",
+        "start": 339.927273,
+        "end": 340.072727
+      },
+      {
+        "text": "wide",
+        "start": 340.218182,
+        "end": 340.363636
+      },
+      {
+        "text": "open.",
+        "start": 340.436364,
+        "end": 341.236364
+      }
+    ],
+    [
+      {
+        "text": "At",
+        "start": 341.309091,
+        "end": 341.381818
+      },
+      {
+        "text": "Bornholmer",
+        "start": 341.454545,
+        "end": 341.890909
+      },
+      {
+        "text": "Straße,",
+        "start": 342.0,
+        "end": 342.545455
+      }
+    ],
+    [
+      {
+        "text": "that",
+        "start": 342.618182,
+        "end": 342.763636
+      },
+      {
+        "text": "still",
+        "start": 342.836364,
+        "end": 343.127273
+      },
+      {
+        "text": "wasn't",
+        "start": 343.2,
+        "end": 343.345455
+      },
+      {
+        "text": "true.",
+        "start": 343.490909,
+        "end": 344.145455
+      }
+    ],
+    [
+      {
+        "text": "Not",
+        "start": 344.218182,
+        "end": 344.363636
+      },
+      {
+        "text": "yet.",
+        "start": 344.436364,
+        "end": 345.163636
+      }
+    ],
+    [
+      {
+        "text": "The",
+        "start": 345.236364,
+        "end": 345.309091
+      },
+      {
+        "text": "officers",
+        "start": 345.381818,
+        "end": 345.745455
+      },
+      {
+        "text": "faced",
+        "start": 345.818182,
+        "end": 346.181818
+      },
+      {
+        "text": "thousands",
+        "start": 346.254545,
+        "end": 346.618182
+      }
+    ],
+    [
+      {
+        "text": "of",
+        "start": 346.690909,
+        "end": 346.763636
+      },
+      {
+        "text": "people",
+        "start": 346.836364,
+        "end": 347.127273
+      },
+      {
+        "text": "and",
+        "start": 347.2,
+        "end": 347.272727
+      },
+      {
+        "text": "a",
+        "start": 347.345455,
+        "end": 347.418182
+      },
+      {
+        "text": "barrier",
+        "start": 347.490909,
+        "end": 347.781818
+      }
+    ],
+    [
+      {
+        "text": "that",
+        "start": 347.854545,
+        "end": 347.927273
+      },
+      {
+        "text": "was",
+        "start": 348.036364,
+        "end": 348.145455
+      },
+      {
+        "text": "never",
+        "start": 348.218182,
+        "end": 348.436364
+      },
+      {
+        "text": "designed",
+        "start": 348.545455,
+        "end": 348.8
+      }
+    ],
+    [
+      {
+        "text": "to",
+        "start": 348.836364,
+        "end": 348.872727
+      },
+      {
+        "text": "withstand",
+        "start": 348.945455,
+        "end": 349.309091
+      },
+      {
+        "text": "a",
+        "start": 349.381818,
+        "end": 349.454545
+      },
+      {
+        "text": "crowd",
+        "start": 349.563636,
+        "end": 349.818182
+      },
+      {
+        "text": "this",
+        "start": 349.927273,
+        "end": 350.036364
+      },
+      {
+        "text": "size.",
+        "start": 350.218182,
+        "end": 350.836364
+      }
+    ],
+    [
+      {
+        "text": "The",
+        "start": 350.909091,
+        "end": 350.981818
+      },
+      {
+        "text": "possibility",
+        "start": 351.090909,
+        "end": 351.490909
+      },
+      {
+        "text": "of",
+        "start": 351.563636,
+        "end": 351.709091
+      },
+      {
+        "text": "panic",
+        "start": 351.927273,
+        "end": 352.145455
+      }
+    ],
+    [
+      {
+        "text": "or",
+        "start": 352.181818,
+        "end": 352.218182
+      },
+      {
+        "text": "a",
+        "start": 352.290909,
+        "end": 352.436364
+      },
+      {
+        "text": "violent",
+        "start": 352.618182,
+        "end": 352.8
+      }
+    ],
+    [
+      {
+        "text": "confrontation",
+        "start": 352.872727,
+        "end": 353.527273
+      },
+      {
+        "text": "was",
+        "start": 353.636364,
+        "end": 353.745455
+      },
+      {
+        "text": "growing.",
+        "start": 353.781818,
+        "end": 354.618182
+      }
+    ],
+    [
+      {
+        "text": "Jäger",
+        "start": 354.690909,
+        "end": 355.054545
+      },
+      {
+        "text": "contacted",
+        "start": 355.272727,
+        "end": 355.563636
+      }
+    ],
+    [
+      {
+        "text": "his",
+        "start": 355.636364,
+        "end": 355.709091
+      },
+      {
+        "text": "superiors",
+        "start": 355.854545,
+        "end": 356.218182
+      },
+      {
+        "text": "again.",
+        "start": 356.4,
+        "end": 357.018182
+      }
+    ],
+    [
+      {
+        "text": "There",
+        "start": 357.090909,
+        "end": 357.163636
+      },
+      {
+        "text": "was",
+        "start": 357.236364,
+        "end": 357.309091
+      },
+      {
+        "text": "still",
+        "start": 357.381818,
+        "end": 357.672727
+      },
+      {
+        "text": "no",
+        "start": 357.745455,
+        "end": 357.890909
+      },
+      {
+        "text": "workable",
+        "start": 357.963636,
+        "end": 358.327273
+      }
+    ],
+    [
+      {
+        "text": "answer",
+        "start": 358.509091,
+        "end": 358.690909
+      },
+      {
+        "text": "that",
+        "start": 358.727273,
+        "end": 358.763636
+      },
+      {
+        "text": "would",
+        "start": 358.836364,
+        "end": 358.981818
+      },
+      {
+        "text": "empty",
+        "start": 359.054545,
+        "end": 359.272727
+      }
+    ],
+    [
+      {
+        "text": "the",
+        "start": 359.320909,
+        "end": 359.37
+      },
+      {
+        "text": "checkpoint",
+        "start": 359.418182,
+        "end": 359.781818
+      },
+      {
+        "text": "safely.",
+        "start": 359.854545,
+        "end": 360.727273
+      }
+    ],
+    [
+      {
+        "text": "And",
+        "start": 360.8,
+        "end": 360.872727
+      },
+      {
+        "text": "something",
+        "start": 361.018182,
+        "end": 361.163636
+      }
+    ],
+    [
+      {
+        "text": "else",
+        "start": 361.236364,
+        "end": 361.454545
+      },
+      {
+        "text": "had",
+        "start": 361.527273,
+        "end": 361.6
+      },
+      {
+        "text": "changed.",
+        "start": 361.781818,
+        "end": 362.472727
+      }
+    ],
+    [
+      {
+        "text": "Many",
+        "start": 362.545455,
+        "end": 362.690909
+      },
+      {
+        "text": "of",
+        "start": 362.727273,
+        "end": 362.763636
+      },
+      {
+        "text": "the",
+        "start": 362.836364,
+        "end": 362.909091
+      },
+      {
+        "text": "people",
+        "start": 363.018182,
+        "end": 363.127273
+      }
+    ],
+    [
+      {
+        "text": "outside",
+        "start": 363.2,
+        "end": 363.709091
+      },
+      {
+        "text": "did",
+        "start": 363.818182,
+        "end": 363.927273
+      },
+      {
+        "text": "not",
+        "start": 364.036364,
+        "end": 364.145455
+      },
+      {
+        "text": "want",
+        "start": 364.218182,
+        "end": 364.363636
+      }
+    ],
+    [
+      {
+        "text": "to",
+        "start": 364.4,
+        "end": 364.436364
+      },
+      {
+        "text": "abandon",
+        "start": 364.509091,
+        "end": 364.945455
+      },
+      {
+        "text": "East",
+        "start": 365.054545,
+        "end": 365.163636
+      }
+    ],
+    [
+      {
+        "text": "Germany",
+        "start": 365.345455,
+        "end": 365.527273
+      },
+      {
+        "text": "forever.",
+        "start": 365.636364,
+        "end": 366.4
+      }
+    ],
+    [
+      {
+        "text": "They",
+        "start": 366.472727,
+        "end": 366.545455
+      },
+      {
+        "text": "wanted",
+        "start": 366.654545,
+        "end": 366.763636
+      },
+      {
+        "text": "to",
+        "start": 366.836364,
+        "end": 366.909091
+      },
+      {
+        "text": "visit",
+        "start": 367.054545,
+        "end": 367.2
+      }
+    ],
+    [
+      {
+        "text": "West",
+        "start": 367.272727,
+        "end": 367.345455
+      },
+      {
+        "text": "Berlin,",
+        "start": 367.418182,
+        "end": 368.072727
+      },
+      {
+        "text": "look",
+        "start": 368.145455,
+        "end": 368.218182
+      },
+      {
+        "text": "around,",
+        "start": 368.290909,
+        "end": 368.920909
+      }
+    ],
+    [
+      {
+        "text": "and",
+        "start": 368.97,
+        "end": 369.018182
+      },
+      {
+        "text": "come",
+        "start": 369.090909,
+        "end": 369.236364
+      },
+      {
+        "text": "home.",
+        "start": 369.381818,
+        "end": 370.036364
+      }
+    ],
+    [
+      {
+        "text": "The",
+        "start": 370.109091,
+        "end": 370.181818
+      },
+      {
+        "text": "government's",
+        "start": 370.327273,
+        "end": 370.509091
+      },
+      {
+        "text": "attempt",
+        "start": 370.545455,
+        "end": 370.836364
+      }
+    ],
+    [
+      {
+        "text": "to",
+        "start": 370.909091,
+        "end": 370.981818
+      },
+      {
+        "text": "quietly",
+        "start": 371.054545,
+        "end": 371.490909
+      },
+      {
+        "text": "turn",
+        "start": 371.563636,
+        "end": 371.636364
+      }
+    ],
+    [
+      {
+        "text": "a",
+        "start": 371.709091,
+        "end": 371.781818
+      },
+      {
+        "text": "visit",
+        "start": 371.927273,
+        "end": 372.072727
+      },
+      {
+        "text": "into",
+        "start": 372.218182,
+        "end": 372.363636
+      },
+      {
+        "text": "permanent",
+        "start": 372.545455,
+        "end": 372.727273
+      }
+    ],
+    [
+      {
+        "text": "emigration",
+        "start": 372.8,
+        "end": 373.6
+      },
+      {
+        "text": "had",
+        "start": 373.672727,
+        "end": 373.745455
+      },
+      {
+        "text": "misunderstood",
+        "start": 373.818182,
+        "end": 374.4
+      }
+    ],
+    [
+      {
+        "text": "the",
+        "start": 374.436364,
+        "end": 374.472727
+      },
+      {
+        "text": "crowd",
+        "start": 374.545455,
+        "end": 374.836364
+      },
+      {
+        "text": "completely.",
+        "start": 374.909091,
+        "end": 376.072727
+      }
+    ],
+    [
+      {
+        "text": "Soon,",
+        "start": 376.145455,
+        "end": 376.690909
+      },
+      {
+        "text": "the",
+        "start": 376.727273,
+        "end": 376.8
+      },
+      {
+        "text": "guards",
+        "start": 376.945455,
+        "end": 377.090909
+      }
+    ],
+    [
+      {
+        "text": "had",
+        "start": 377.163636,
+        "end": 377.236364
+      },
+      {
+        "text": "to",
+        "start": 377.272727,
+        "end": 377.309091
+      },
+      {
+        "text": "confront",
+        "start": 377.381818,
+        "end": 377.672727
+      },
+      {
+        "text": "a",
+        "start": 377.709091,
+        "end": 377.745455
+      },
+      {
+        "text": "choice",
+        "start": 377.818182,
+        "end": 378.109091
+      }
+    ],
+    [
+      {
+        "text": "that",
+        "start": 378.218182,
+        "end": 378.327273
+      },
+      {
+        "text": "no",
+        "start": 378.4,
+        "end": 378.618182
+      },
+      {
+        "text": "television",
+        "start": 378.690909,
+        "end": 378.981818
+      },
+      {
+        "text": "announcement",
+        "start": 379.054545,
+        "end": 379.490909
+      }
+    ],
+    [
+      {
+        "text": "could",
+        "start": 379.563636,
+        "end": 379.636364
+      },
+      {
+        "text": "make",
+        "start": 379.709091,
+        "end": 379.854545
+      },
+      {
+        "text": "for",
+        "start": 379.890909,
+        "end": 379.927273
+      },
+      {
+        "text": "them.",
+        "start": 380.0,
+        "end": 380.654545
+      }
+    ],
+    [
+      {
+        "text": "Keep",
+        "start": 380.727273,
+        "end": 380.872727
+      },
+      {
+        "text": "the",
+        "start": 380.909091,
+        "end": 380.945455
+      },
+      {
+        "text": "gate",
+        "start": 381.018182,
+        "end": 381.163636
+      },
+      {
+        "text": "closed,",
+        "start": 381.236364,
+        "end": 381.818182
+      }
+    ],
+    [
+      {
+        "text": "and",
+        "start": 381.890909,
+        "end": 381.963636
+      },
+      {
+        "text": "risk",
+        "start": 382.036364,
+        "end": 382.254545
+      },
+      {
+        "text": "the",
+        "start": 382.290909,
+        "end": 382.327273
+      },
+      {
+        "text": "situation",
+        "start": 382.436364,
+        "end": 382.909091
+      }
+    ],
+    [
+      {
+        "text": "getting",
+        "start": 382.981818,
+        "end": 383.2
+      },
+      {
+        "text": "out",
+        "start": 383.272727,
+        "end": 383.345455
+      },
+      {
+        "text": "of",
+        "start": 383.381818,
+        "end": 383.418182
+      },
+      {
+        "text": "control.",
+        "start": 383.490909,
+        "end": 384.363636
+      }
+    ],
+    [
+      {
+        "text": "Or",
+        "start": 384.436364,
+        "end": 384.654545
+      },
+      {
+        "text": "stop",
+        "start": 385.018182,
+        "end": 385.309091
+      },
+      {
+        "text": "checking",
+        "start": 385.381818,
+        "end": 385.6
+      },
+      {
+        "text": "documents,",
+        "start": 385.854545,
+        "end": 386.254545
+      }
+    ],
+    [
+      {
+        "text": "and",
+        "start": 386.327273,
+        "end": 386.4
+      },
+      {
+        "text": "let",
+        "start": 386.472727,
+        "end": 386.545455
+      },
+      {
+        "text": "everyone",
+        "start": 386.690909,
+        "end": 387.054545
+      },
+      {
+        "text": "through.",
+        "start": 387.127273,
+        "end": 387.927273
+      }
+    ],
+    [
+      {
+        "text": "At",
+        "start": 387.963636,
+        "end": 388.0
+      },
+      {
+        "text": "about",
+        "start": 388.072727,
+        "end": 388.218182
+      },
+      {
+        "text": "eleven",
+        "start": 388.290909,
+        "end": 388.581818
+      },
+      {
+        "text": "thirty",
+        "start": 388.727273,
+        "end": 388.945455
+      }
+    ],
+    [
+      {
+        "text": "that",
+        "start": 389.018182,
+        "end": 389.090909
+      },
+      {
+        "text": "night,",
+        "start": 389.163636,
+        "end": 389.672727
+      },
+      {
+        "text": "Jäger",
+        "start": 389.745455,
+        "end": 390.036364
+      },
+      {
+        "text": "and",
+        "start": 390.109091,
+        "end": 390.181818
+      },
+      {
+        "text": "the",
+        "start": 390.218182,
+        "end": 390.254545
+      },
+      {
+        "text": "other",
+        "start": 390.327273,
+        "end": 390.472727
+      }
+    ],
+    [
+      {
+        "text": "officers",
+        "start": 390.618182,
+        "end": 390.981818
+      },
+      {
+        "text": "at",
+        "start": 391.018182,
+        "end": 391.054545
+      },
+      {
+        "text": "Bornholmer",
+        "start": 391.127273,
+        "end": 391.636364
+      },
+      {
+        "text": "Straße",
+        "start": 391.745455,
+        "end": 392.145455
+      }
+    ],
+    [
+      {
+        "text": "gave",
+        "start": 392.218182,
+        "end": 392.436364
+      },
+      {
+        "text": "way",
+        "start": 392.509091,
+        "end": 392.654545
+      },
+      {
+        "text": "to",
+        "start": 392.727273,
+        "end": 392.763636
+      },
+      {
+        "text": "the",
+        "start": 392.8,
+        "end": 392.872727
+      },
+      {
+        "text": "crowd.",
+        "start": 392.945455,
+        "end": 393.672727
+      }
+    ],
+    [
+      {
+        "text": "The",
+        "start": 393.745455,
+        "end": 393.818182
+      },
+      {
+        "text": "checks",
+        "start": 393.890909,
+        "end": 394.181818
+      },
+      {
+        "text": "stopped.",
+        "start": 394.4,
+        "end": 395.054545
+      }
+    ],
+    [
+      {
+        "text": "The",
+        "start": 395.272727,
+        "end": 395.345455
+      },
+      {
+        "text": "barrier",
+        "start": 395.418182,
+        "end": 395.781818
+      },
+      {
+        "text": "opened.",
+        "start": 396.0,
+        "end": 396.581818
+      }
+    ],
+    [
+      {
+        "text": "People",
+        "start": 396.8,
+        "end": 397.163636
+      },
+      {
+        "text": "poured",
+        "start": 397.236364,
+        "end": 397.527273
+      },
+      {
+        "text": "over",
+        "start": 397.6,
+        "end": 397.745455
+      },
+      {
+        "text": "the",
+        "start": 397.781818,
+        "end": 397.818182
+      },
+      {
+        "text": "bridge",
+        "start": 397.890909,
+        "end": 398.181818
+      }
+    ],
+    [
+      {
+        "text": "into",
+        "start": 398.254545,
+        "end": 398.472727
+      },
+      {
+        "text": "West",
+        "start": 398.545455,
+        "end": 398.690909
+      },
+      {
+        "text": "Berlin.",
+        "start": 398.763636,
+        "end": 399.2
+      }
+    ],
+    [
+      {
+        "text": "Some",
+        "start": 399.709091,
+        "end": 399.854545
+      },
+      {
+        "text": "ran.",
+        "start": 399.927273,
+        "end": 400.4
+      },
+      {
+        "text": "Some",
+        "start": 400.581818,
+        "end": 400.727273
+      },
+      {
+        "text": "walked.",
+        "start": 400.8,
+        "end": 401.163636
+      }
+    ],
+    [
+      {
+        "text": "On",
+        "start": 401.6,
+        "end": 401.672727
+      },
+      {
+        "text": "the",
+        "start": 401.745455,
+        "end": 401.781818
+      },
+      {
+        "text": "other",
+        "start": 401.818182,
+        "end": 401.963636
+      },
+      {
+        "text": "side,",
+        "start": 402.036364,
+        "end": 402.545455
+      }
+    ],
+    [
+      {
+        "text": "strangers",
+        "start": 402.618182,
+        "end": 403.054545
+      },
+      {
+        "text": "greeted",
+        "start": 403.127273,
+        "end": 403.418182
+      },
+      {
+        "text": "them,",
+        "start": 403.490909,
+        "end": 403.927273
+      }
+    ],
+    [
+      {
+        "text": "cheered,",
+        "start": 404.0,
+        "end": 404.509091
+      },
+      {
+        "text": "and",
+        "start": 404.581818,
+        "end": 404.654545
+      },
+      {
+        "text": "embraced",
+        "start": 404.8,
+        "end": 405.163636
+      },
+      {
+        "text": "them.",
+        "start": 405.272727,
+        "end": 405.527273
+      }
+    ],
+    [
+      {
+        "text": "People",
+        "start": 405.6,
+        "end": 405.890909
+      },
+      {
+        "text": "who",
+        "start": 405.963636,
+        "end": 406.036364
+      },
+      {
+        "text": "had",
+        "start": 406.109091,
+        "end": 406.181818
+      },
+      {
+        "text": "lived",
+        "start": 406.254545,
+        "end": 406.4
+      },
+      {
+        "text": "minutes",
+        "start": 406.545455,
+        "end": 406.763636
+      }
+    ],
+    [
+      {
+        "text": "apart,",
+        "start": 406.836364,
+        "end": 407.418182
+      },
+      {
+        "text": "but",
+        "start": 407.490909,
+        "end": 407.563636
+      },
+      {
+        "text": "behind",
+        "start": 407.636364,
+        "end": 407.854545
+      },
+      {
+        "text": "different",
+        "start": 407.927273,
+        "end": 408.218182
+      }
+    ],
+    [
+      {
+        "text": "political",
+        "start": 408.4,
+        "end": 408.581818
+      },
+      {
+        "text": "systems",
+        "start": 408.654545,
+        "end": 409.018182
+      },
+      {
+        "text": "for",
+        "start": 409.127273,
+        "end": 409.236364
+      },
+      {
+        "text": "decades,",
+        "start": 409.309091,
+        "end": 410.036364
+      }
+    ],
+    [
+      {
+        "text": "could",
+        "start": 410.145455,
+        "end": 410.254545
+      },
+      {
+        "text": "finally",
+        "start": 410.327273,
+        "end": 410.690909
+      }
+    ],
+    [
+      {
+        "text": "meet",
+        "start": 410.763636,
+        "end": 410.981818
+      },
+      {
+        "text": "without",
+        "start": 411.127273,
+        "end": 411.418182
+      },
+      {
+        "text": "a",
+        "start": 411.454545,
+        "end": 411.490909
+      },
+      {
+        "text": "wall",
+        "start": 411.563636,
+        "end": 411.781818
+      }
+    ],
+    [
+      {
+        "text": "standing",
+        "start": 411.854545,
+        "end": 412.145455
+      },
+      {
+        "text": "between",
+        "start": 412.327273,
+        "end": 412.509091
+      },
+      {
+        "text": "them.",
+        "start": 412.581818,
+        "end": 413.236364
+      }
+    ],
+    [
+      {
+        "text": "Around",
+        "start": 413.418182,
+        "end": 413.6
+      },
+      {
+        "text": "twenty",
+        "start": 413.672727,
+        "end": 413.890909
+      },
+      {
+        "text": "thousand",
+        "start": 414.036364,
+        "end": 414.4
+      },
+      {
+        "text": "people",
+        "start": 414.581818,
+        "end": 414.763636
+      }
+    ],
+    [
+      {
+        "text": "crossed",
+        "start": 414.909091,
+        "end": 415.090909
+      },
+      {
+        "text": "at",
+        "start": 415.127273,
+        "end": 415.2
+      },
+      {
+        "text": "Bornholmer",
+        "start": 415.272727,
+        "end": 415.709091
+      }
+    ],
+    [
+      {
+        "text": "Straße",
+        "start": 415.818182,
+        "end": 416.218182
+      },
+      {
+        "text": "in",
+        "start": 416.290909,
+        "end": 416.436364
+      },
+      {
+        "text": "roughly",
+        "start": 416.545455,
+        "end": 416.727273
+      }
+    ],
+    [
+      {
+        "text": "the",
+        "start": 416.8,
+        "end": 416.872727
+      },
+      {
+        "text": "next",
+        "start": 416.981818,
+        "end": 417.090909
+      },
+      {
+        "text": "forty-five",
+        "start": 417.236364,
+        "end": 417.672727
+      },
+      {
+        "text": "minutes.",
+        "start": 417.745455,
+        "end": 418.545455
+      }
+    ],
+    [
+      {
+        "text": "Other",
+        "start": 418.618182,
+        "end": 418.763636
+      },
+      {
+        "text": "Berlin",
+        "start": 418.836364,
+        "end": 419.127273
+      },
+      {
+        "text": "crossings",
+        "start": 419.236364,
+        "end": 419.563636
+      }
+    ],
+    [
+      {
+        "text": "opened",
+        "start": 419.636364,
+        "end": 419.854545
+      },
+      {
+        "text": "that",
+        "start": 419.927273,
+        "end": 420.0
+      },
+      {
+        "text": "night,",
+        "start": 420.109091,
+        "end": 420.290909
+      },
+      {
+        "text": "too.",
+        "start": 420.363636,
+        "end": 421.018182
+      }
+    ],
+    [
+      {
+        "text": "What",
+        "start": 421.054545,
+        "end": 421.090909
+      },
+      {
+        "text": "had",
+        "start": 421.163636,
+        "end": 421.236364
+      },
+      {
+        "text": "begun",
+        "start": 421.345455,
+        "end": 421.672727
+      }
+    ],
+    [
+      {
+        "text": "as",
+        "start": 421.745455,
+        "end": 421.818182
+      },
+      {
+        "text": "an",
+        "start": 421.854545,
+        "end": 421.890909
+      },
+      {
+        "text": "announcement",
+        "start": 421.963636,
+        "end": 422.618182
+      },
+      {
+        "text": "was",
+        "start": 422.727273,
+        "end": 422.836364
+      },
+      {
+        "text": "now",
+        "start": 422.909091,
+        "end": 423.127273
+      }
+    ],
+    [
+      {
+        "text": "an",
+        "start": 423.236364,
+        "end": 423.345455
+      },
+      {
+        "text": "irreversible",
+        "start": 423.418182,
+        "end": 424.145455
+      },
+      {
+        "text": "public",
+        "start": 424.290909,
+        "end": 424.436364
+      },
+      {
+        "text": "event.",
+        "start": 424.618182,
+        "end": 425.454545
+      }
+    ],
+    [
+      {
+        "text": "For",
+        "start": 425.563636,
+        "end": 425.672727
+      },
+      {
+        "text": "months,",
+        "start": 425.963636,
+        "end": 426.290909
+      },
+      {
+        "text": "East",
+        "start": 426.327273,
+        "end": 426.472727
+      },
+      {
+        "text": "Germans",
+        "start": 426.545455,
+        "end": 426.836364
+      }
+    ],
+    [
+      {
+        "text": "had",
+        "start": 426.909091,
+        "end": 426.981818
+      },
+      {
+        "text": "been",
+        "start": 427.054545,
+        "end": 427.127273
+      },
+      {
+        "text": "leaving,",
+        "start": 427.2,
+        "end": 427.854545
+      },
+      {
+        "text": "protesting,",
+        "start": 427.927273,
+        "end": 428.557273
+      }
+    ],
+    [
+      {
+        "text": "and",
+        "start": 428.606364,
+        "end": 428.654545
+      },
+      {
+        "text": "demanding",
+        "start": 428.836364,
+        "end": 429.236364
+      },
+      {
+        "text": "change.",
+        "start": 429.418182,
+        "end": 430.109091
+      }
+    ],
+    [
+      {
+        "text": "The",
+        "start": 430.181818,
+        "end": 430.254545
+      },
+      {
+        "text": "country's",
+        "start": 430.4,
+        "end": 430.618182
+      },
+      {
+        "text": "leadership",
+        "start": 430.763636,
+        "end": 431.054545
+      }
+    ],
+    [
+      {
+        "text": "had",
+        "start": 431.127273,
+        "end": 431.2
+      },
+      {
+        "text": "changed,",
+        "start": 431.418182,
+        "end": 431.854545
+      }
+    ],
+    [
+      {
+        "text": "and",
+        "start": 431.890909,
+        "end": 431.927273
+      },
+      {
+        "text": "the",
+        "start": 432.0,
+        "end": 432.072727
+      },
+      {
+        "text": "government",
+        "start": 432.254545,
+        "end": 432.436364
+      }
+    ],
+    [
+      {
+        "text": "was",
+        "start": 432.545455,
+        "end": 432.654545
+      },
+      {
+        "text": "struggling",
+        "start": 432.763636,
+        "end": 433.163636
+      },
+      {
+        "text": "to",
+        "start": 433.2,
+        "end": 433.236364
+      },
+      {
+        "text": "maintain",
+        "start": 433.309091,
+        "end": 433.672727
+      }
+    ],
+    [
+      {
+        "text": "control",
+        "start": 433.890909,
+        "end": 434.109091
+      },
+      {
+        "text": "over",
+        "start": 434.181818,
+        "end": 434.327273
+      },
+      {
+        "text": "travel.",
+        "start": 434.509091,
+        "end": 435.272727
+      }
+    ],
+    [
+      {
+        "text": "Schabowski's",
+        "start": 435.309091,
+        "end": 435.781818
+      },
+      {
+        "text": "announcement",
+        "start": 435.854545,
+        "end": 436.290909
+      }
+    ],
+    [
+      {
+        "text": "sent",
+        "start": 436.363636,
+        "end": 436.654545
+      },
+      {
+        "text": "thousands",
+        "start": 436.727273,
+        "end": 437.163636
+      },
+      {
+        "text": "to",
+        "start": 437.2,
+        "end": 437.236364
+      },
+      {
+        "text": "the",
+        "start": 437.272727,
+        "end": 437.309091
+      },
+      {
+        "text": "border",
+        "start": 437.381818,
+        "end": 437.6
+      }
+    ],
+    [
+      {
+        "text": "crossings",
+        "start": 437.672727,
+        "end": 438.109091
+      },
+      {
+        "text": "before",
+        "start": 438.290909,
+        "end": 438.472727
+      },
+      {
+        "text": "the",
+        "start": 438.545455,
+        "end": 438.581818
+      },
+      {
+        "text": "new",
+        "start": 438.618182,
+        "end": 438.690909
+      }
+    ],
+    [
+      {
+        "text": "procedures",
+        "start": 438.763636,
+        "end": 439.2
+      },
+      {
+        "text": "were",
+        "start": 439.272727,
+        "end": 439.345455
+      },
+      {
+        "text": "in",
+        "start": 439.381818,
+        "end": 439.418182
+      },
+      {
+        "text": "place.",
+        "start": 439.490909,
+        "end": 440.363636
+      }
+    ],
+    [
+      {
+        "text": "As",
+        "start": 440.436364,
+        "end": 440.509091
+      },
+      {
+        "text": "the",
+        "start": 440.581818,
+        "end": 440.618182
+      },
+      {
+        "text": "crowds",
+        "start": 440.654545,
+        "end": 440.945455
+      },
+      {
+        "text": "grew,",
+        "start": 441.018182,
+        "end": 441.527273
+      }
+    ],
+    [
+      {
+        "text": "the",
+        "start": 441.6,
+        "end": 441.672727
+      },
+      {
+        "text": "guards",
+        "start": 441.818182,
+        "end": 441.963636
+      },
+      {
+        "text": "still",
+        "start": 442.036364,
+        "end": 442.254545
+      },
+      {
+        "text": "had",
+        "start": 442.327273,
+        "end": 442.472727
+      },
+      {
+        "text": "no",
+        "start": 442.618182,
+        "end": 442.763636
+      },
+      {
+        "text": "clear",
+        "start": 442.836364,
+        "end": 442.981818
+      }
+    ],
+    [
+      {
+        "text": "instructions",
+        "start": 443.272727,
+        "end": 443.563636
+      },
+      {
+        "text": "for",
+        "start": 443.636364,
+        "end": 443.709091
+      },
+      {
+        "text": "handling",
+        "start": 443.890909,
+        "end": 444.072727
+      },
+      {
+        "text": "them.",
+        "start": 444.145455,
+        "end": 444.727273
+      }
+    ],
+    [
+      {
+        "text": "At",
+        "start": 444.8,
+        "end": 444.872727
+      },
+      {
+        "text": "Bornholmer",
+        "start": 444.945455,
+        "end": 445.381818
+      },
+      {
+        "text": "Straße,",
+        "start": 445.490909,
+        "end": 446.036364
+      }
+    ],
+    [
+      {
+        "text": "they",
+        "start": 446.109091,
+        "end": 446.254545
+      },
+      {
+        "text": "finally",
+        "start": 446.327273,
+        "end": 446.690909
+      },
+      {
+        "text": "made",
+        "start": 446.763636,
+        "end": 446.836364
+      },
+      {
+        "text": "their",
+        "start": 446.909091,
+        "end": 447.054545
+      },
+      {
+        "text": "own",
+        "start": 447.127273,
+        "end": 447.272727
+      }
+    ],
+    [
+      {
+        "text": "decision",
+        "start": 447.527273,
+        "end": 447.781818
+      },
+      {
+        "text": "to",
+        "start": 447.854545,
+        "end": 447.927273
+      },
+      {
+        "text": "let",
+        "start": 448.0,
+        "end": 448.072727
+      },
+      {
+        "text": "people",
+        "start": 448.218182,
+        "end": 448.363636
+      },
+      {
+        "text": "cross.",
+        "start": 448.581818,
+        "end": 449.309091
+      }
+    ],
+    [
+      {
+        "text": "Schabowski",
+        "start": 449.381818,
+        "end": 449.890909
+      },
+      {
+        "text": "had",
+        "start": 450.0,
+        "end": 450.109091
+      },
+      {
+        "text": "not",
+        "start": 450.181818,
+        "end": 450.327273
+      },
+      {
+        "text": "intended",
+        "start": 450.436364,
+        "end": 450.836364
+      }
+    ],
+    [
+      {
+        "text": "to",
+        "start": 450.872727,
+        "end": 450.909091
+      },
+      {
+        "text": "create",
+        "start": 450.981818,
+        "end": 451.272727
+      },
+      {
+        "text": "that",
+        "start": 451.345455,
+        "end": 451.490909
+      },
+      {
+        "text": "scene.",
+        "start": 451.636364,
+        "end": 452.218182
+      }
+    ],
+    [
+      {
+        "text": "He",
+        "start": 452.290909,
+        "end": 452.363636
+      },
+      {
+        "text": "went",
+        "start": 452.472727,
+        "end": 452.581818
+      },
+      {
+        "text": "home",
+        "start": 452.690909,
+        "end": 452.8
+      },
+      {
+        "text": "after",
+        "start": 452.909091,
+        "end": 453.018182
+      },
+      {
+        "text": "the",
+        "start": 453.054545,
+        "end": 453.090909
+      },
+      {
+        "text": "press",
+        "start": 453.163636,
+        "end": 453.309091
+      }
+    ],
+    [
+      {
+        "text": "conference,",
+        "start": 453.381818,
+        "end": 453.963636
+      },
+      {
+        "text": "expecting",
+        "start": 454.145455,
+        "end": 454.4
+      }
+    ],
+    [
+      {
+        "text": "the",
+        "start": 454.436364,
+        "end": 454.472727
+      },
+      {
+        "text": "bureaucracy",
+        "start": 454.545455,
+        "end": 455.127273
+      },
+      {
+        "text": "to",
+        "start": 455.2,
+        "end": 455.272727
+      },
+      {
+        "text": "carry",
+        "start": 455.418182,
+        "end": 455.563636
+      }
+    ],
+    [
+      {
+        "text": "out",
+        "start": 455.636364,
+        "end": 455.709091
+      },
+      {
+        "text": "the",
+        "start": 455.745455,
+        "end": 455.781818
+      },
+      {
+        "text": "regulation",
+        "start": 455.854545,
+        "end": 456.363636
+      },
+      {
+        "text": "as",
+        "start": 456.436364,
+        "end": 456.509091
+      },
+      {
+        "text": "planned.",
+        "start": 456.581818,
+        "end": 457.381818
+      }
+    ],
+    [
+      {
+        "text": "Instead,",
+        "start": 457.454545,
+        "end": 458.254545
+      },
+      {
+        "text": "ordinary",
+        "start": 458.472727,
+        "end": 458.690909
+      }
+    ],
+    [
+      {
+        "text": "people",
+        "start": 458.763636,
+        "end": 459.054545
+      },
+      {
+        "text": "had",
+        "start": 459.127273,
+        "end": 459.272727
+      },
+      {
+        "text": "already",
+        "start": 459.345455,
+        "end": 459.709091
+      },
+      {
+        "text": "made",
+        "start": 459.781818,
+        "end": 459.927273
+      }
+    ],
+    [
+      {
+        "text": "his",
+        "start": 460.0,
+        "end": 460.145455
+      },
+      {
+        "text": "words",
+        "start": 460.218182,
+        "end": 460.509091
+      },
+      {
+        "text": "real.",
+        "start": 460.727273,
+        "end": 461.309091
+      }
+    ],
+    [
+      {
+        "text": "The",
+        "start": 461.6,
+        "end": 461.672727
+      },
+      {
+        "text": "concrete",
+        "start": 461.745455,
+        "end": 462.109091
+      },
+      {
+        "text": "Wall",
+        "start": 462.181818,
+        "end": 462.4
+      }
+    ],
+    [
+      {
+        "text": "did",
+        "start": 462.472727,
+        "end": 462.618182
+      },
+      {
+        "text": "not",
+        "start": 462.690909,
+        "end": 462.909091
+      },
+      {
+        "text": "disappear",
+        "start": 462.981818,
+        "end": 463.345455
+      },
+      {
+        "text": "overnight.",
+        "start": 463.418182,
+        "end": 464.072727
+      }
+    ],
+    [
+      {
+        "text": "But",
+        "start": 464.290909,
+        "end": 464.363636
+      },
+      {
+        "text": "its",
+        "start": 464.472727,
+        "end": 464.581818
+      },
+      {
+        "text": "power",
+        "start": 464.654545,
+        "end": 464.872727
+      },
+      {
+        "text": "to",
+        "start": 464.945455,
+        "end": 465.018182
+      },
+      {
+        "text": "keep",
+        "start": 465.090909,
+        "end": 465.236364
+      },
+      {
+        "text": "Berlin",
+        "start": 465.381818,
+        "end": 465.527273
+      }
+    ],
+    [
+      {
+        "text": "divided",
+        "start": 465.6,
+        "end": 466.181818
+      },
+      {
+        "text": "had",
+        "start": 466.254545,
+        "end": 466.327273
+      },
+      {
+        "text": "been",
+        "start": 466.4,
+        "end": 466.472727
+      },
+      {
+        "text": "broken.",
+        "start": 466.545455,
+        "end": 467.236364
+      }
+    ],
+    [
+      {
+        "text": "Less",
+        "start": 467.563636,
+        "end": 467.709091
+      },
+      {
+        "text": "than",
+        "start": 467.781818,
+        "end": 467.854545
+      },
+      {
+        "text": "a",
+        "start": 467.890909,
+        "end": 467.927273
+      },
+      {
+        "text": "year",
+        "start": 468.0,
+        "end": 468.145455
+      },
+      {
+        "text": "later,",
+        "start": 468.218182,
+        "end": 468.727273
+      }
+    ],
+    [
+      {
+        "text": "on",
+        "start": 468.763636,
+        "end": 468.8
+      },
+      {
+        "text": "October",
+        "start": 468.872727,
+        "end": 469.163636
+      },
+      {
+        "text": "3,",
+        "start": 469.309091,
+        "end": 469.6
+      },
+      {
+        "text": "1990,",
+        "start": 469.636364,
+        "end": 470.618182
+      }
+    ],
+    [
+      {
+        "text": "East",
+        "start": 470.690909,
+        "end": 470.909091
+      },
+      {
+        "text": "and",
+        "start": 470.981818,
+        "end": 471.054545
+      },
+      {
+        "text": "West",
+        "start": 471.127273,
+        "end": 471.345455
+      }
+    ],
+    [
+      {
+        "text": "Germany",
+        "start": 471.418182,
+        "end": 471.781818
+      },
+      {
+        "text": "were",
+        "start": 471.890909,
+        "end": 472.0
+      },
+      {
+        "text": "reunited.",
+        "start": 472.072727,
+        "end": 473.090909
+      }
+    ],
+    [
+      {
+        "text": "The",
+        "start": 473.163636,
+        "end": 473.236364
+      },
+      {
+        "text": "world",
+        "start": 473.309091,
+        "end": 473.527273
+      },
+      {
+        "text": "remembers",
+        "start": 473.6,
+        "end": 473.963636
+      },
+      {
+        "text": "the",
+        "start": 474.036364,
+        "end": 474.109091
+      },
+      {
+        "text": "two",
+        "start": 474.181818,
+        "end": 474.327273
+      }
+    ],
+    [
+      {
+        "text": "words",
+        "start": 474.4,
+        "end": 474.690909
+      },
+      {
+        "text": "spoken",
+        "start": 474.872727,
+        "end": 475.054545
+      },
+      {
+        "text": "at",
+        "start": 475.127273,
+        "end": 475.2
+      },
+      {
+        "text": "that",
+        "start": 475.272727,
+        "end": 475.345455
+      },
+      {
+        "text": "press",
+        "start": 475.418182,
+        "end": 475.563636
+      }
+    ],
+    [
+      {
+        "text": "conference:",
+        "start": 475.636364,
+        "end": 476.581818
+      },
+      {
+        "text": "Immediately.",
+        "start": 476.8,
+        "end": 477.6
+      }
+    ],
+    [
+      {
+        "text": "Without",
+        "start": 477.781818,
+        "end": 477.963636
+      },
+      {
+        "text": "delay.",
+        "start": 478.036364,
+        "end": 478.981818
+      }
+    ],
+    [
+      {
+        "text": "But",
+        "start": 479.018182,
+        "end": 479.054545
+      },
+      {
+        "text": "those",
+        "start": 479.127273,
+        "end": 479.345455
+      },
+      {
+        "text": "words",
+        "start": 479.418182,
+        "end": 479.709091
+      },
+      {
+        "text": "did",
+        "start": 479.818182,
+        "end": 479.927273
+      },
+      {
+        "text": "not",
+        "start": 480.036364,
+        "end": 480.145455
+      },
+      {
+        "text": "lift",
+        "start": 480.218182,
+        "end": 480.436364
+      }
+    ],
+    [
+      {
+        "text": "a",
+        "start": 480.509091,
+        "end": 480.654545
+      },
+      {
+        "text": "single",
+        "start": 480.727273,
+        "end": 481.018182
+      },
+      {
+        "text": "barrier.",
+        "start": 481.090909,
+        "end": 481.890909
+      }
+    ],
+    [
+      {
+        "text": "Thousands",
+        "start": 481.963636,
+        "end": 482.327273
+      },
+      {
+        "text": "of",
+        "start": 482.4,
+        "end": 482.472727
+      },
+      {
+        "text": "people",
+        "start": 482.545455,
+        "end": 482.836364
+      },
+      {
+        "text": "went",
+        "start": 482.909091,
+        "end": 482.981818
+      }
+    ],
+    [
+      {
+        "text": "to",
+        "start": 483.018182,
+        "end": 483.054545
+      },
+      {
+        "text": "the",
+        "start": 483.127273,
+        "end": 483.2
+      },
+      {
+        "text": "gates",
+        "start": 483.236364,
+        "end": 483.563636
+      },
+      {
+        "text": "and",
+        "start": 483.6,
+        "end": 483.636364
+      },
+      {
+        "text": "refused",
+        "start": 483.709091,
+        "end": 484.218182
+      }
+    ],
+    [
+      {
+        "text": "to",
+        "start": 484.290909,
+        "end": 484.363636
+      },
+      {
+        "text": "leave.",
+        "start": 484.509091,
+        "end": 485.090909
+      }
+    ],
+    [
+      {
+        "text": "And",
+        "start": 485.127273,
+        "end": 485.163636
+      },
+      {
+        "text": "the",
+        "start": 485.236364,
+        "end": 485.309091
+      },
+      {
+        "text": "officers",
+        "start": 485.381818,
+        "end": 485.745455
+      }
+    ],
+    [
+      {
+        "text": "standing",
+        "start": 485.818182,
+        "end": 486.109091
+      },
+      {
+        "text": "opposite",
+        "start": 486.181818,
+        "end": 486.472727
+      },
+      {
+        "text": "them",
+        "start": 486.545455,
+        "end": 486.909091
+      },
+      {
+        "text": "finally",
+        "start": 486.981818,
+        "end": 487.418182
+      }
+    ],
+    [
+      {
+        "text": "let",
+        "start": 487.490909,
+        "end": 487.563636
+      },
+      {
+        "text": "them",
+        "start": 487.636364,
+        "end": 487.709091
+      },
+      {
+        "text": "through.",
+        "start": 487.781818,
+        "end": 488.581818
+      }
+    ],
+    [
+      {
+        "text": "That",
+        "start": 488.654545,
+        "end": 488.8
+      },
+      {
+        "text": "evening,",
+        "start": 488.872727,
+        "end": 489.345455
+      }
+    ],
+    [
+      {
+        "text": "a",
+        "start": 489.381818,
+        "end": 489.454545
+      },
+      {
+        "text": "journalist",
+        "start": 489.6,
+        "end": 489.818182
+      },
+      {
+        "text": "had",
+        "start": 489.890909,
+        "end": 490.036364
+      },
+      {
+        "text": "asked",
+        "start": 490.109091,
+        "end": 490.4
+      }
+    ],
+    [
+      {
+        "text": "when",
+        "start": 490.472727,
+        "end": 490.545455
+      },
+      {
+        "text": "the",
+        "start": 490.618182,
+        "end": 490.690909
+      },
+      {
+        "text": "border",
+        "start": 490.8,
+        "end": 490.909091
+      },
+      {
+        "text": "would",
+        "start": 490.981818,
+        "end": 491.054545
+      },
+      {
+        "text": "open.",
+        "start": 491.127273,
+        "end": 491.854545
+      }
+    ],
+    [
+      {
+        "text": "By",
+        "start": 491.927273,
+        "end": 492.072727
+      },
+      {
+        "text": "midnight,",
+        "start": 492.145455,
+        "end": 492.654545
+      },
+      {
+        "text": "the",
+        "start": 492.727273,
+        "end": 492.8
+      },
+      {
+        "text": "people",
+        "start": 492.872727,
+        "end": 493.090909
+      }
+    ],
+    [
+      {
+        "text": "of",
+        "start": 493.127273,
+        "end": 493.163636
+      },
+      {
+        "text": "Berlin",
+        "start": 493.236364,
+        "end": 493.672727
+      },
+      {
+        "text": "had",
+        "start": 493.781818,
+        "end": 493.890909
+      },
+      {
+        "text": "answered",
+        "start": 493.963636,
+        "end": 494.181818
+      },
+      {
+        "text": "him.",
+        "start": 494.290909,
+        "end": 494.328617
+      }
+    ]
+  ],
+  "resolved": {
+    "resolved_font_size_px": 84,
+    "max_visible_width_px": 1344.0,
+    "center_x_px": 1280.0,
+    "baseline": 1288,
+    "algorithm": "sentence-syntax-width-v3",
+    "display_intervals": [
+      {
+        "start_frame": 0,
+        "end_frame": 112
+      },
+      {
+        "start_frame": 112,
+        "end_frame": 125
+      },
+      {
+        "start_frame": 125,
+        "end_frame": 155
+      },
+      {
+        "start_frame": 155,
+        "end_frame": 214
+      },
+      {
+        "start_frame": 214,
+        "end_frame": 238
+      },
+      {
+        "start_frame": 238,
+        "end_frame": 280
+      },
+      {
+        "start_frame": 280,
+        "end_frame": 333
+      },
+      {
+        "start_frame": 333,
+        "end_frame": 356
+      },
+      {
+        "start_frame": 356,
+        "end_frame": 391
+      },
+      {
+        "start_frame": 391,
+        "end_frame": 461
+      },
+      {
+        "start_frame": 461,
+        "end_frame": 509
+      },
+      {
+        "start_frame": 509,
+        "end_frame": 537
+      },
+      {
+        "start_frame": 537,
+        "end_frame": 587
+      },
+      {
+        "start_frame": 587,
+        "end_frame": 635
+      },
+      {
+        "start_frame": 635,
+        "end_frame": 677
+      },
+      {
+        "start_frame": 677,
+        "end_frame": 714
+      },
+      {
+        "start_frame": 714,
+        "end_frame": 761
+      },
+      {
+        "start_frame": 761,
+        "end_frame": 775
+      },
+      {
+        "start_frame": 775,
+        "end_frame": 820
+      },
+      {
+        "start_frame": 820,
+        "end_frame": 856
+      },
+      {
+        "start_frame": 856,
+        "end_frame": 927
+      },
+      {
+        "start_frame": 927,
+        "end_frame": 979
+      },
+      {
+        "start_frame": 979,
+        "end_frame": 1013
+      },
+      {
+        "start_frame": 1013,
+        "end_frame": 1070
+      },
+      {
+        "start_frame": 1070,
+        "end_frame": 1119
+      },
+      {
+        "start_frame": 1119,
+        "end_frame": 1161
+      },
+      {
+        "start_frame": 1161,
+        "end_frame": 1190
+      },
+      {
+        "start_frame": 1190,
+        "end_frame": 1229
+      },
+      {
+        "start_frame": 1229,
+        "end_frame": 1272
+      },
+      {
+        "start_frame": 1272,
+        "end_frame": 1294
+      },
+      {
+        "start_frame": 1294,
+        "end_frame": 1346
+      },
+      {
+        "start_frame": 1346,
+        "end_frame": 1379
+      },
+      {
+        "start_frame": 1379,
+        "end_frame": 1426
+      },
+      {
+        "start_frame": 1426,
+        "end_frame": 1469
+      },
+      {
+        "start_frame": 1469,
+        "end_frame": 1499
+      },
+      {
+        "start_frame": 1499,
+        "end_frame": 1545
+      },
+      {
+        "start_frame": 1545,
+        "end_frame": 1591
+      },
+      {
+        "start_frame": 1591,
+        "end_frame": 1635
+      },
+      {
+        "start_frame": 1635,
+        "end_frame": 1663
+      },
+      {
+        "start_frame": 1663,
+        "end_frame": 1718
+      },
+      {
+        "start_frame": 1718,
+        "end_frame": 1772
+      },
+      {
+        "start_frame": 1772,
+        "end_frame": 1835
+      },
+      {
+        "start_frame": 1835,
+        "end_frame": 1871
+      },
+      {
+        "start_frame": 1871,
+        "end_frame": 1894
+      },
+      {
+        "start_frame": 1894,
+        "end_frame": 1935
+      },
+      {
+        "start_frame": 1935,
+        "end_frame": 1953
+      },
+      {
+        "start_frame": 1953,
+        "end_frame": 2001
+      },
+      {
+        "start_frame": 2001,
+        "end_frame": 2035
+      },
+      {
+        "start_frame": 2035,
+        "end_frame": 2062
+      },
+      {
+        "start_frame": 2062,
+        "end_frame": 2111
+      },
+      {
+        "start_frame": 2111,
+        "end_frame": 2135
+      },
+      {
+        "start_frame": 2135,
+        "end_frame": 2165
+      },
+      {
+        "start_frame": 2165,
+        "end_frame": 2211
+      },
+      {
+        "start_frame": 2211,
+        "end_frame": 2260
+      },
+      {
+        "start_frame": 2260,
+        "end_frame": 2311
+      },
+      {
+        "start_frame": 2311,
+        "end_frame": 2335
+      },
+      {
+        "start_frame": 2335,
+        "end_frame": 2387
+      },
+      {
+        "start_frame": 2387,
+        "end_frame": 2431
+      },
+      {
+        "start_frame": 2431,
+        "end_frame": 2472
+      },
+      {
+        "start_frame": 2472,
+        "end_frame": 2534
+      },
+      {
+        "start_frame": 2534,
+        "end_frame": 2571
+      },
+      {
+        "start_frame": 2571,
+        "end_frame": 2611
+      },
+      {
+        "start_frame": 2611,
+        "end_frame": 2660
+      },
+      {
+        "start_frame": 2660,
+        "end_frame": 2686
+      },
+      {
+        "start_frame": 2686,
+        "end_frame": 2756
+      },
+      {
+        "start_frame": 2756,
+        "end_frame": 2778
+      },
+      {
+        "start_frame": 2778,
+        "end_frame": 2825
+      },
+      {
+        "start_frame": 2825,
+        "end_frame": 2843
+      },
+      {
+        "start_frame": 2843,
+        "end_frame": 2873
+      },
+      {
+        "start_frame": 2873,
+        "end_frame": 2923
+      },
+      {
+        "start_frame": 2923,
+        "end_frame": 2937
+      },
+      {
+        "start_frame": 2937,
+        "end_frame": 2974
+      },
+      {
+        "start_frame": 2974,
+        "end_frame": 3018
+      },
+      {
+        "start_frame": 3018,
+        "end_frame": 3054
+      },
+      {
+        "start_frame": 3054,
+        "end_frame": 3115
+      },
+      {
+        "start_frame": 3115,
+        "end_frame": 3156
+      },
+      {
+        "start_frame": 3156,
+        "end_frame": 3196
+      },
+      {
+        "start_frame": 3196,
+        "end_frame": 3227
+      },
+      {
+        "start_frame": 3227,
+        "end_frame": 3258
+      },
+      {
+        "start_frame": 3258,
+        "end_frame": 3302
+      },
+      {
+        "start_frame": 3302,
+        "end_frame": 3346
+      },
+      {
+        "start_frame": 3346,
+        "end_frame": 3374
+      },
+      {
+        "start_frame": 3374,
+        "end_frame": 3424
+      },
+      {
+        "start_frame": 3424,
+        "end_frame": 3459
+      },
+      {
+        "start_frame": 3459,
+        "end_frame": 3502
+      },
+      {
+        "start_frame": 3502,
+        "end_frame": 3555
+      },
+      {
+        "start_frame": 3555,
+        "end_frame": 3590
+      },
+      {
+        "start_frame": 3590,
+        "end_frame": 3631
+      },
+      {
+        "start_frame": 3631,
+        "end_frame": 3677
+      },
+      {
+        "start_frame": 3677,
+        "end_frame": 3715
+      },
+      {
+        "start_frame": 3715,
+        "end_frame": 3747
+      },
+      {
+        "start_frame": 3747,
+        "end_frame": 3786
+      },
+      {
+        "start_frame": 3786,
+        "end_frame": 3838
+      },
+      {
+        "start_frame": 3838,
+        "end_frame": 3871
+      },
+      {
+        "start_frame": 3871,
+        "end_frame": 3917
+      },
+      {
+        "start_frame": 3917,
+        "end_frame": 3941
+      },
+      {
+        "start_frame": 3941,
+        "end_frame": 3984
+      },
+      {
+        "start_frame": 3984,
+        "end_frame": 4035
+      },
+      {
+        "start_frame": 4035,
+        "end_frame": 4064
+      },
+      {
+        "start_frame": 4064,
+        "end_frame": 4107
+      },
+      {
+        "start_frame": 4107,
+        "end_frame": 4146
+      },
+      {
+        "start_frame": 4146,
+        "end_frame": 4187
+      },
+      {
+        "start_frame": 4187,
+        "end_frame": 4238
+      },
+      {
+        "start_frame": 4238,
+        "end_frame": 4278
+      },
+      {
+        "start_frame": 4278,
+        "end_frame": 4329
+      },
+      {
+        "start_frame": 4329,
+        "end_frame": 4383
+      },
+      {
+        "start_frame": 4383,
+        "end_frame": 4447
+      },
+      {
+        "start_frame": 4447,
+        "end_frame": 4484
+      },
+      {
+        "start_frame": 4484,
+        "end_frame": 4536
+      },
+      {
+        "start_frame": 4536,
+        "end_frame": 4576
+      },
+      {
+        "start_frame": 4576,
+        "end_frame": 4619
+      },
+      {
+        "start_frame": 4619,
+        "end_frame": 4665
+      },
+      {
+        "start_frame": 4665,
+        "end_frame": 4704
+      },
+      {
+        "start_frame": 4704,
+        "end_frame": 4734
+      },
+      {
+        "start_frame": 4734,
+        "end_frame": 4750
+      },
+      {
+        "start_frame": 4750,
+        "end_frame": 4783
+      },
+      {
+        "start_frame": 4783,
+        "end_frame": 4833
+      },
+      {
+        "start_frame": 4833,
+        "end_frame": 4872
+      },
+      {
+        "start_frame": 4872,
+        "end_frame": 4903
+      },
+      {
+        "start_frame": 4903,
+        "end_frame": 4934
+      },
+      {
+        "start_frame": 4934,
+        "end_frame": 4961
+      },
+      {
+        "start_frame": 4961,
+        "end_frame": 4990
+      },
+      {
+        "start_frame": 4990,
+        "end_frame": 5038
+      },
+      {
+        "start_frame": 5038,
+        "end_frame": 5080
+      },
+      {
+        "start_frame": 5080,
+        "end_frame": 5126
+      },
+      {
+        "start_frame": 5126,
+        "end_frame": 5176
+      },
+      {
+        "start_frame": 5176,
+        "end_frame": 5208
+      },
+      {
+        "start_frame": 5208,
+        "end_frame": 5235
+      },
+      {
+        "start_frame": 5235,
+        "end_frame": 5260
+      },
+      {
+        "start_frame": 5260,
+        "end_frame": 5283
+      },
+      {
+        "start_frame": 5283,
+        "end_frame": 5342
+      },
+      {
+        "start_frame": 5342,
+        "end_frame": 5395
+      },
+      {
+        "start_frame": 5395,
+        "end_frame": 5446
+      },
+      {
+        "start_frame": 5446,
+        "end_frame": 5478
+      },
+      {
+        "start_frame": 5478,
+        "end_frame": 5523
+      },
+      {
+        "start_frame": 5523,
+        "end_frame": 5562
+      },
+      {
+        "start_frame": 5562,
+        "end_frame": 5602
+      },
+      {
+        "start_frame": 5602,
+        "end_frame": 5647
+      },
+      {
+        "start_frame": 5647,
+        "end_frame": 5694
+      },
+      {
+        "start_frame": 5694,
+        "end_frame": 5743
+      },
+      {
+        "start_frame": 5743,
+        "end_frame": 5798
+      },
+      {
+        "start_frame": 5798,
+        "end_frame": 5852
+      },
+      {
+        "start_frame": 5852,
+        "end_frame": 5880
+      },
+      {
+        "start_frame": 5880,
+        "end_frame": 5923
+      },
+      {
+        "start_frame": 5923,
+        "end_frame": 5957
+      },
+      {
+        "start_frame": 5957,
+        "end_frame": 6015
+      },
+      {
+        "start_frame": 6015,
+        "end_frame": 6084
+      },
+      {
+        "start_frame": 6084,
+        "end_frame": 6123
+      },
+      {
+        "start_frame": 6123,
+        "end_frame": 6148
+      },
+      {
+        "start_frame": 6148,
+        "end_frame": 6175
+      },
+      {
+        "start_frame": 6175,
+        "end_frame": 6226
+      },
+      {
+        "start_frame": 6226,
+        "end_frame": 6260
+      },
+      {
+        "start_frame": 6260,
+        "end_frame": 6286
+      },
+      {
+        "start_frame": 6286,
+        "end_frame": 6328
+      },
+      {
+        "start_frame": 6328,
+        "end_frame": 6376
+      },
+      {
+        "start_frame": 6376,
+        "end_frame": 6428
+      },
+      {
+        "start_frame": 6428,
+        "end_frame": 6467
+      },
+      {
+        "start_frame": 6467,
+        "end_frame": 6522
+      },
+      {
+        "start_frame": 6522,
+        "end_frame": 6583
+      },
+      {
+        "start_frame": 6583,
+        "end_frame": 6622
+      },
+      {
+        "start_frame": 6622,
+        "end_frame": 6655
+      },
+      {
+        "start_frame": 6655,
+        "end_frame": 6688
+      },
+      {
+        "start_frame": 6688,
+        "end_frame": 6730
+      },
+      {
+        "start_frame": 6730,
+        "end_frame": 6782
+      },
+      {
+        "start_frame": 6782,
+        "end_frame": 6831
+      },
+      {
+        "start_frame": 6831,
+        "end_frame": 6845
+      },
+      {
+        "start_frame": 6845,
+        "end_frame": 6899
+      },
+      {
+        "start_frame": 6899,
+        "end_frame": 6922
+      },
+      {
+        "start_frame": 6922,
+        "end_frame": 6965
+      },
+      {
+        "start_frame": 6965,
+        "end_frame": 7006
+      },
+      {
+        "start_frame": 7006,
+        "end_frame": 7047
+      },
+      {
+        "start_frame": 7047,
+        "end_frame": 7087
+      },
+      {
+        "start_frame": 7087,
+        "end_frame": 7142
+      },
+      {
+        "start_frame": 7142,
+        "end_frame": 7187
+      },
+      {
+        "start_frame": 7187,
+        "end_frame": 7216
+      },
+      {
+        "start_frame": 7216,
+        "end_frame": 7246
+      },
+      {
+        "start_frame": 7246,
+        "end_frame": 7292
+      },
+      {
+        "start_frame": 7292,
+        "end_frame": 7314
+      },
+      {
+        "start_frame": 7314,
+        "end_frame": 7373
+      },
+      {
+        "start_frame": 7373,
+        "end_frame": 7408
+      },
+      {
+        "start_frame": 7408,
+        "end_frame": 7438
+      },
+      {
+        "start_frame": 7438,
+        "end_frame": 7473
+      },
+      {
+        "start_frame": 7473,
+        "end_frame": 7510
+      },
+      {
+        "start_frame": 7510,
+        "end_frame": 7554
+      },
+      {
+        "start_frame": 7554,
+        "end_frame": 7598
+      },
+      {
+        "start_frame": 7598,
+        "end_frame": 7630
+      },
+      {
+        "start_frame": 7630,
+        "end_frame": 7674
+      },
+      {
+        "start_frame": 7674,
+        "end_frame": 7696
+      },
+      {
+        "start_frame": 7696,
+        "end_frame": 7739
+      },
+      {
+        "start_frame": 7739,
+        "end_frame": 7755
+      },
+      {
+        "start_frame": 7755,
+        "end_frame": 7785
+      },
+      {
+        "start_frame": 7785,
+        "end_frame": 7816
+      },
+      {
+        "start_frame": 7816,
+        "end_frame": 7862
+      },
+      {
+        "start_frame": 7862,
+        "end_frame": 7901
+      },
+      {
+        "start_frame": 7901,
+        "end_frame": 7923
+      },
+      {
+        "start_frame": 7923,
+        "end_frame": 7986
+      },
+      {
+        "start_frame": 7986,
+        "end_frame": 8025
+      },
+      {
+        "start_frame": 8025,
+        "end_frame": 8058
+      },
+      {
+        "start_frame": 8058,
+        "end_frame": 8108
+      },
+      {
+        "start_frame": 8108,
+        "end_frame": 8156
+      },
+      {
+        "start_frame": 8156,
+        "end_frame": 8174
+      },
+      {
+        "start_frame": 8174,
+        "end_frame": 8204
+      },
+      {
+        "start_frame": 8204,
+        "end_frame": 8230
+      },
+      {
+        "start_frame": 8230,
+        "end_frame": 8263
+      },
+      {
+        "start_frame": 8263,
+        "end_frame": 8292
+      },
+      {
+        "start_frame": 8292,
+        "end_frame": 8344
+      },
+      {
+        "start_frame": 8344,
+        "end_frame": 8375
+      },
+      {
+        "start_frame": 8375,
+        "end_frame": 8396
+      },
+      {
+        "start_frame": 8396,
+        "end_frame": 8442
+      },
+      {
+        "start_frame": 8442,
+        "end_frame": 8469
+      },
+      {
+        "start_frame": 8469,
+        "end_frame": 8507
+      },
+      {
+        "start_frame": 8507,
+        "end_frame": 8575
+      },
+      {
+        "start_frame": 8575,
+        "end_frame": 8607
+      },
+      {
+        "start_frame": 8607,
+        "end_frame": 8645
+      },
+      {
+        "start_frame": 8645,
+        "end_frame": 8686
+      },
+      {
+        "start_frame": 8686,
+        "end_frame": 8712
+      },
+      {
+        "start_frame": 8712,
+        "end_frame": 8736
+      },
+      {
+        "start_frame": 8736,
+        "end_frame": 8782
+      },
+      {
+        "start_frame": 8782,
+        "end_frame": 8832
+      },
+      {
+        "start_frame": 8832,
+        "end_frame": 8877
+      },
+      {
+        "start_frame": 8877,
+        "end_frame": 8898
+      },
+      {
+        "start_frame": 8898,
+        "end_frame": 8927
+      },
+      {
+        "start_frame": 8927,
+        "end_frame": 8972
+      },
+      {
+        "start_frame": 8972,
+        "end_frame": 8987
+      },
+      {
+        "start_frame": 8987,
+        "end_frame": 9040
+      },
+      {
+        "start_frame": 9040,
+        "end_frame": 9066
+      },
+      {
+        "start_frame": 9066,
+        "end_frame": 9095
+      },
+      {
+        "start_frame": 9095,
+        "end_frame": 9147
+      },
+      {
+        "start_frame": 9147,
+        "end_frame": 9162
+      },
+      {
+        "start_frame": 9162,
+        "end_frame": 9219
+      },
+      {
+        "start_frame": 9219,
+        "end_frame": 9242
+      },
+      {
+        "start_frame": 9242,
+        "end_frame": 9278
+      },
+      {
+        "start_frame": 9278,
+        "end_frame": 9326
+      },
+      {
+        "start_frame": 9326,
+        "end_frame": 9363
+      },
+      {
+        "start_frame": 9363,
+        "end_frame": 9419
+      },
+      {
+        "start_frame": 9419,
+        "end_frame": 9439
+      },
+      {
+        "start_frame": 9439,
+        "end_frame": 9483
+      },
+      {
+        "start_frame": 9483,
+        "end_frame": 9528
+      },
+      {
+        "start_frame": 9528,
+        "end_frame": 9561
+      },
+      {
+        "start_frame": 9561,
+        "end_frame": 9592
+      },
+      {
+        "start_frame": 9592,
+        "end_frame": 9617
+      },
+      {
+        "start_frame": 9617,
+        "end_frame": 9644
+      },
+      {
+        "start_frame": 9644,
+        "end_frame": 9691
+      },
+      {
+        "start_frame": 9691,
+        "end_frame": 9705
+      },
+      {
+        "start_frame": 9705,
+        "end_frame": 9744
+      },
+      {
+        "start_frame": 9744,
+        "end_frame": 9762
+      },
+      {
+        "start_frame": 9762,
+        "end_frame": 9816
+      },
+      {
+        "start_frame": 9816,
+        "end_frame": 9845
+      },
+      {
+        "start_frame": 9845,
+        "end_frame": 9886
+      },
+      {
+        "start_frame": 9886,
+        "end_frame": 9933
+      },
+      {
+        "start_frame": 9933,
+        "end_frame": 9959
+      },
+      {
+        "start_frame": 9959,
+        "end_frame": 10011
+      },
+      {
+        "start_frame": 10011,
+        "end_frame": 10037
+      },
+      {
+        "start_frame": 10037,
+        "end_frame": 10074
+      },
+      {
+        "start_frame": 10074,
+        "end_frame": 10109
+      },
+      {
+        "start_frame": 10109,
+        "end_frame": 10154
+      },
+      {
+        "start_frame": 10154,
+        "end_frame": 10179
+      },
+      {
+        "start_frame": 10179,
+        "end_frame": 10240
+      },
+      {
+        "start_frame": 10240,
+        "end_frame": 10279
+      },
+      {
+        "start_frame": 10279,
+        "end_frame": 10327
+      },
+      {
+        "start_frame": 10327,
+        "end_frame": 10358
+      },
+      {
+        "start_frame": 10358,
+        "end_frame": 10401
+      },
+      {
+        "start_frame": 10401,
+        "end_frame": 10436
+      },
+      {
+        "start_frame": 10436,
+        "end_frame": 10466
+      },
+      {
+        "start_frame": 10466,
+        "end_frame": 10528
+      },
+      {
+        "start_frame": 10528,
+        "end_frame": 10566
+      },
+      {
+        "start_frame": 10566,
+        "end_frame": 10587
+      },
+      {
+        "start_frame": 10587,
+        "end_frame": 10641
+      },
+      {
+        "start_frame": 10641,
+        "end_frame": 10670
+      },
+      {
+        "start_frame": 10670,
+        "end_frame": 10713
+      },
+      {
+        "start_frame": 10713,
+        "end_frame": 10756
+      },
+      {
+        "start_frame": 10756,
+        "end_frame": 10780
+      },
+      {
+        "start_frame": 10780,
+        "end_frame": 10824
+      },
+      {
+        "start_frame": 10824,
+        "end_frame": 10838
+      },
+      {
+        "start_frame": 10838,
+        "end_frame": 10877
+      },
+      {
+        "start_frame": 10877,
+        "end_frame": 10896
+      },
+      {
+        "start_frame": 10896,
+        "end_frame": 10932
+      },
+      {
+        "start_frame": 10932,
+        "end_frame": 10961
+      },
+      {
+        "start_frame": 10961,
+        "end_frame": 10995
+      },
+      {
+        "start_frame": 10995,
+        "end_frame": 11019
+      },
+      {
+        "start_frame": 11019,
+        "end_frame": 11070
+      },
+      {
+        "start_frame": 11070,
+        "end_frame": 11104
+      },
+      {
+        "start_frame": 11104,
+        "end_frame": 11128
+      },
+      {
+        "start_frame": 11128,
+        "end_frame": 11152
+      },
+      {
+        "start_frame": 11152,
+        "end_frame": 11184
+      },
+      {
+        "start_frame": 11184,
+        "end_frame": 11234
+      },
+      {
+        "start_frame": 11234,
+        "end_frame": 11285
+      },
+      {
+        "start_frame": 11285,
+        "end_frame": 11315
+      },
+      {
+        "start_frame": 11315,
+        "end_frame": 11347
+      },
+      {
+        "start_frame": 11347,
+        "end_frame": 11387
+      },
+      {
+        "start_frame": 11387,
+        "end_frame": 11422
+      },
+      {
+        "start_frame": 11422,
+        "end_frame": 11457
+      },
+      {
+        "start_frame": 11457,
+        "end_frame": 11490
+      },
+      {
+        "start_frame": 11490,
+        "end_frame": 11534
+      },
+      {
+        "start_frame": 11534,
+        "end_frame": 11590
+      },
+      {
+        "start_frame": 11590,
+        "end_frame": 11639
+      },
+      {
+        "start_frame": 11639,
+        "end_frame": 11671
+      },
+      {
+        "start_frame": 11671,
+        "end_frame": 11719
+      },
+      {
+        "start_frame": 11719,
+        "end_frame": 11767
+      },
+      {
+        "start_frame": 11767,
+        "end_frame": 11813
+      },
+      {
+        "start_frame": 11813,
+        "end_frame": 11859
+      },
+      {
+        "start_frame": 11859,
+        "end_frame": 11904
+      },
+      {
+        "start_frame": 11904,
+        "end_frame": 11948
+      },
+      {
+        "start_frame": 11948,
+        "end_frame": 11992
+      },
+      {
+        "start_frame": 11992,
+        "end_frame": 12048
+      },
+      {
+        "start_frame": 12048,
+        "end_frame": 12079
+      },
+      {
+        "start_frame": 12079,
+        "end_frame": 12120
+      },
+      {
+        "start_frame": 12120,
+        "end_frame": 12168
+      },
+      {
+        "start_frame": 12168,
+        "end_frame": 12206
+      },
+      {
+        "start_frame": 12206,
+        "end_frame": 12252
+      },
+      {
+        "start_frame": 12252,
+        "end_frame": 12305
+      },
+      {
+        "start_frame": 12305,
+        "end_frame": 12323
+      },
+      {
+        "start_frame": 12323,
+        "end_frame": 12356
+      },
+      {
+        "start_frame": 12356,
+        "end_frame": 12403
+      },
+      {
+        "start_frame": 12403,
+        "end_frame": 12448
+      },
+      {
+        "start_frame": 12448,
+        "end_frame": 12475
+      },
+      {
+        "start_frame": 12475,
+        "end_frame": 12504
+      },
+      {
+        "start_frame": 12504,
+        "end_frame": 12559
+      },
+      {
+        "start_frame": 12559,
+        "end_frame": 12590
+      },
+      {
+        "start_frame": 12590,
+        "end_frame": 12632
+      },
+      {
+        "start_frame": 12632,
+        "end_frame": 12653
+      },
+      {
+        "start_frame": 12653,
+        "end_frame": 12698
+      },
+      {
+        "start_frame": 12698,
+        "end_frame": 12767
+      },
+      {
+        "start_frame": 12767,
+        "end_frame": 12808
+      },
+      {
+        "start_frame": 12808,
+        "end_frame": 12859
+      },
+      {
+        "start_frame": 12859,
+        "end_frame": 12906
+      },
+      {
+        "start_frame": 12906,
+        "end_frame": 12934
+      },
+      {
+        "start_frame": 12934,
+        "end_frame": 12957
+      },
+      {
+        "start_frame": 12957,
+        "end_frame": 12977
+      },
+      {
+        "start_frame": 12977,
+        "end_frame": 13017
+      },
+      {
+        "start_frame": 13017,
+        "end_frame": 13060
+      },
+      {
+        "start_frame": 13060,
+        "end_frame": 13091
+      },
+      {
+        "start_frame": 13091,
+        "end_frame": 13131
+      },
+      {
+        "start_frame": 13131,
+        "end_frame": 13163
+      },
+      {
+        "start_frame": 13163,
+        "end_frame": 13214
+      },
+      {
+        "start_frame": 13214,
+        "end_frame": 13248
+      },
+      {
+        "start_frame": 13248,
+        "end_frame": 13299
+      },
+      {
+        "start_frame": 13299,
+        "end_frame": 13344
+      },
+      {
+        "start_frame": 13344,
+        "end_frame": 13384
+      },
+      {
+        "start_frame": 13384,
+        "end_frame": 13426
+      },
+      {
+        "start_frame": 13426,
+        "end_frame": 13482
+      },
+      {
+        "start_frame": 13482,
+        "end_frame": 13527
+      },
+      {
+        "start_frame": 13527,
+        "end_frame": 13569
+      },
+      {
+        "start_frame": 13569,
+        "end_frame": 13602
+      },
+      {
+        "start_frame": 13602,
+        "end_frame": 13634
+      },
+      {
+        "start_frame": 13634,
+        "end_frame": 13670
+      },
+      {
+        "start_frame": 13670,
+        "end_frame": 13724
+      },
+      {
+        "start_frame": 13724,
+        "end_frame": 13763
+      },
+      {
+        "start_frame": 13763,
+        "end_frame": 13800
+      },
+      {
+        "start_frame": 13800,
+        "end_frame": 13848
+      },
+      {
+        "start_frame": 13848,
+        "end_frame": 13875
+      },
+      {
+        "start_frame": 13875,
+        "end_frame": 13929
+      },
+      {
+        "start_frame": 13929,
+        "end_frame": 13968
+      },
+      {
+        "start_frame": 13968,
+        "end_frame": 14027
+      },
+      {
+        "start_frame": 14027,
+        "end_frame": 14063
+      },
+      {
+        "start_frame": 14063,
+        "end_frame": 14121
+      },
+      {
+        "start_frame": 14121,
+        "end_frame": 14143
+      },
+      {
+        "start_frame": 14143,
+        "end_frame": 14195
+      },
+      {
+        "start_frame": 14195,
+        "end_frame": 14232
+      },
+      {
+        "start_frame": 14232,
+        "end_frame": 14270
+      },
+      {
+        "start_frame": 14270,
+        "end_frame": 14334
+      },
+      {
+        "start_frame": 14334,
+        "end_frame": 14371
+      },
+      {
+        "start_frame": 14371,
+        "end_frame": 14416
+      },
+      {
+        "start_frame": 14416,
+        "end_frame": 14459
+      },
+      {
+        "start_frame": 14459,
+        "end_frame": 14491
+      },
+      {
+        "start_frame": 14491,
+        "end_frame": 14529
+      },
+      {
+        "start_frame": 14529,
+        "end_frame": 14554
+      },
+      {
+        "start_frame": 14554,
+        "end_frame": 14575
+      },
+      {
+        "start_frame": 14575,
+        "end_frame": 14625
+      },
+      {
+        "start_frame": 14625,
+        "end_frame": 14660
+      },
+      {
+        "start_frame": 14660,
+        "end_frame": 14682
+      },
+      {
+        "start_frame": 14682,
+        "end_frame": 14715
+      },
+      {
+        "start_frame": 14715,
+        "end_frame": 14758
+      },
+      {
+        "start_frame": 14758,
+        "end_frame": 14794
+      },
+      {
+        "start_frame": 14794,
+        "end_frame": 14830
+      }
+    ],
+    "boundary_warnings": [
+      {
+        "after_group": 10,
+        "left": "A few hours later, thousands",
+        "right": "of people are standing",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 18,
+        "left": "at the front have no intention",
+        "right": "of going home.",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 38,
+        "left": "the government controlled",
+        "right": "who could leave, and when.",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 57,
+        "left": "On November 4, hundreds",
+        "right": "of thousands gathered in East",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 68,
+        "left": "demand the government",
+        "right": "could no longer ignore.",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 91,
+        "left": "morning, when the authorities",
+        "right": "could put procedures in place.",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 111,
+        "left": "party changes, and the future",
+        "right": "of East Germany.",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 117,
+        "left": "Ehrman, challenged him",
+        "right": "about the government's travel",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 128,
+        "left": "Permanent departure",
+        "right": "would be possible",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 138,
+        "left": "Brinkmann, asked the question",
+        "right": "that changed the evening.",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 151,
+        "left": "And thousands of people",
+        "right": "were about to take",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 165,
+        "left": "The guards",
+        "right": "were still checking documents.",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 167,
+        "left": "Their instructions",
+        "right": "had not suddenly been replaced",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 168,
+        "left": "had not suddenly been replaced",
+        "right": "by a new system.",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 180,
+        "left": "announced that the border",
+        "right": "was open.",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 198,
+        "left": "By around nine thirty, hundreds",
+        "right": "of people were gathered there.",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 204,
+        "left": "their own government",
+        "right": "had just authorized.",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 206,
+        "left": "Jäger and his colleagues",
+        "right": "were trapped",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 238,
+        "left": "proof that crossing",
+        "right": "was possible.",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 243,
+        "left": "They pushed",
+        "right": "for the same right.",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 261,
+        "left": "The officers faced thousands",
+        "right": "of people and a barrier",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 262,
+        "left": "of people and a barrier",
+        "right": "that was never designed",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 287,
+        "left": "Soon, the guards",
+        "right": "had to confront a choice",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 288,
+        "left": "had to confront a choice",
+        "right": "that no television announcement",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 289,
+        "left": "that no television announcement",
+        "right": "could make for them.",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 296,
+        "left": "At about eleven thirty",
+        "right": "that night, Jäger and the other",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 320,
+        "left": "What had begun",
+        "right": "as an announcement was now",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 323,
+        "left": "For months, East Germans",
+        "right": "had been leaving, protesting,",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 326,
+        "left": "The country's leadership",
+        "right": "had changed,",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 328,
+        "left": "and the government",
+        "right": "was struggling to maintain",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 350,
+        "left": "The concrete Wall",
+        "right": "did not disappear overnight.",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 371,
+        "left": "a journalist had asked",
+        "right": "when the border would open.",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 373,
+        "left": "By midnight, the people",
+        "right": "of Berlin had answered him.",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      }
+    ]
+  }
+}

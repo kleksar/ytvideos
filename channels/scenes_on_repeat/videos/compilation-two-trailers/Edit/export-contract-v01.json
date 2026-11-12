@@ -1,0 +1,26 @@
+{
+  "purpose": "User review; two accepted trailer edits assembled horizontally",
+  "edits": [
+    {
+      "handoff": "/Users/diplomat/.codex/worktrees/ad59/ytvideos/channels/scenes_on_repeat/videos/edge-of-tomorrow-2014/Edit/trailer-v03/compilation-handoff.json",
+      "sha256": "a313ccab1f38eb31a57e0d83492a353921d4d759c6a88c658f3bcb14484512f1"
+    },
+    {
+      "handoff": "/Users/diplomat/.codex/worktrees/ad59/ytvideos/channels/scenes_on_repeat/videos/home-alone-1990/Edit/trailer-v02/compilation-handoff.json",
+      "sha256": "2bcf65c55b51033592df1885fbe35a6c4b8a051224cc27e98b28dad53a8a7c39"
+    }
+  ],
+  "frames": 2448,
+  "fps": "24/1",
+  "canvas": [
+    1280,
+    720
+  ],
+  "card_frames": 72,
+  "duration_seconds": 102,
+  "video": "H.264 yuv420p CRF 18, BT.709, source picture fit within 16:9",
+  "audio": "Original per-trailer reconstructed mixes, AAC stereo 48 kHz 256k, silent poster cards",
+  "subtitle": "English cue maps rebuilt for 16:9, separate SRT and burned captions",
+  "output": "/Users/diplomat/ytvideos/channels/scenes_on_repeat/videos/compilation-two-trailers/Deliverables/movie-trailers-compilation-v01.mp4",
+  "status": "READY_TO_RENDER"
+}

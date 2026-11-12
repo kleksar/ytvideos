@@ -1,0 +1,643 @@
+{
+  "summary": {
+    "mps_words": 2077,
+    "cpu_words": 2075,
+    "same_word_pairs": 2067,
+    "lexical_difference_regions": 8,
+    "median_start_difference": 0.0,
+    "p95_start_difference": 0.06,
+    "max_start_difference": 0.6,
+    "median_end_difference": 0.0,
+    "p95_end_difference": 0.04,
+    "max_end_difference": 0.44,
+    "start_differences_over_0.25": 27,
+    "end_differences_over_0.25": 1,
+    "mps_first": {
+      "word": " At",
+      "start": 0.0,
+      "end": 0.22,
+      "probability": 0.9469413757324219
+    },
+    "cpu_first": {
+      "word": " At",
+      "start": 0.0,
+      "end": 0.22,
+      "probability": 0.9470489025115967
+    },
+    "mps_last": {
+      "word": " it.",
+      "start": 905.38,
+      "end": 905.64,
+      "probability": 0.9980469942092896
+    },
+    "cpu_last": {
+      "word": " it.",
+      "start": 905.38,
+      "end": 905.64,
+      "probability": 0.9983850717544556
+    },
+    "note": "Two passes of the same Whisper small model are not independent ground truth, and agreement does not prove synchrony."
+  },
+  "lexical_differences": [
+    {
+      "op": "replace",
+      "mps": "Nabfisuvius,",
+      "cpu": "Novus Vesuvius,",
+      "mps_start": 35.56,
+      "cpu_start": 35.56
+    },
+    {
+      "op": "replace",
+      "mps": "Seventeen",
+      "cpu": "17",
+      "mps_start": 145.28,
+      "cpu_start": 145.24
+    },
+    {
+      "op": "delete",
+      "mps": "still",
+      "cpu": "",
+      "mps_start": 153.02,
+      "cpu_start": 153.18
+    },
+    {
+      "op": "replace",
+      "mps": "Some time",
+      "cpu": "Sometime",
+      "mps_start": 189.9,
+      "cpu_start": 190.18
+    },
+    {
+      "op": "replace",
+      "mps": "miscenum",
+      "cpu": "misenum",
+      "mps_start": 207.26,
+      "cpu_start": 207.26
+    },
+    {
+      "op": "replace",
+      "mps": "eye witness's",
+      "cpu": "eyewitness's",
+      "mps_start": 335.08,
+      "cpu_start": 335.08
+    },
+    {
+      "op": "replace",
+      "mps": "reign",
+      "cpu": "rain",
+      "mps_start": 545.72,
+      "cpu_start": 545.72
+    },
+    {
+      "op": "replace",
+      "mps": "three",
+      "cpu": "3",
+      "mps_start": 551.84,
+      "cpu_start": 551.84
+    }
+  ],
+  "largest_start_differences": [
+    {
+      "word": "Pompeii",
+      "mps_start": 106.28,
+      "mps_end": 107.4,
+      "cpu_start": 106.88,
+      "cpu_end": 107.4,
+      "start_difference_sec": 0.6,
+      "end_difference_sec": 0.0
+    },
+    {
+      "word": "In",
+      "mps_start": 295.66,
+      "mps_end": 296.42,
+      "cpu_start": 296.26,
+      "cpu_end": 296.44,
+      "start_difference_sec": 0.6,
+      "end_difference_sec": 0.02
+    },
+    {
+      "word": "The",
+      "mps_start": 232.08,
+      "mps_end": 232.22,
+      "cpu_start": 231.5,
+      "cpu_end": 232.22,
+      "start_difference_sec": 0.58,
+      "end_difference_sec": 0.0
+    },
+    {
+      "word": "What",
+      "mps_start": 269.72,
+      "mps_end": 270.38,
+      "cpu_start": 270.24,
+      "cpu_end": 270.42,
+      "start_difference_sec": 0.52,
+      "end_difference_sec": 0.04
+    },
+    {
+      "word": "Pompeii",
+      "mps_start": 312.4,
+      "mps_end": 313.08,
+      "cpu_start": 311.88,
+      "cpu_end": 313.04,
+      "start_difference_sec": 0.52,
+      "end_difference_sec": 0.04
+    },
+    {
+      "word": "but",
+      "mps_start": 124.5,
+      "mps_end": 124.78,
+      "cpu_start": 124.02,
+      "cpu_end": 124.78,
+      "start_difference_sec": 0.48,
+      "end_difference_sec": 0.0
+    },
+    {
+      "word": "It",
+      "mps_start": 607.78,
+      "mps_end": 607.96,
+      "cpu_start": 607.3,
+      "cpu_end": 607.94,
+      "start_difference_sec": 0.48,
+      "end_difference_sec": 0.02
+    },
+    {
+      "word": "it",
+      "mps_start": 126.86,
+      "mps_end": 127.06,
+      "cpu_start": 126.4,
+      "cpu_end": 126.98,
+      "start_difference_sec": 0.46,
+      "end_difference_sec": 0.08
+    },
+    {
+      "word": "century,",
+      "mps_start": 780.16,
+      "mps_end": 780.16,
+      "cpu_start": 779.72,
+      "cpu_end": 780.14,
+      "start_difference_sec": 0.44,
+      "end_difference_sec": 0.02
+    },
+    {
+      "word": "commanded",
+      "mps_start": 336.56,
+      "mps_end": 337.02,
+      "cpu_start": 336.16,
+      "cpu_end": 336.86,
+      "start_difference_sec": 0.4,
+      "end_difference_sec": 0.16
+    },
+    {
+      "word": "the",
+      "mps_start": 362.88,
+      "mps_end": 362.96,
+      "cpu_start": 362.48,
+      "cpu_end": 362.96,
+      "start_difference_sec": 0.4,
+      "end_difference_sec": 0.0
+    },
+    {
+      "word": "ash,",
+      "mps_start": 514.78,
+      "mps_end": 515.34,
+      "cpu_start": 515.18,
+      "cpu_end": 515.52,
+      "start_difference_sec": 0.4,
+      "end_difference_sec": 0.18
+    },
+    {
+      "word": "What",
+      "mps_start": 667.84,
+      "mps_end": 668.46,
+      "cpu_start": 668.22,
+      "cpu_end": 668.46,
+      "start_difference_sec": 0.38,
+      "end_difference_sec": 0.0
+    },
+    {
+      "word": "his",
+      "mps_start": 694.52,
+      "mps_end": 695.02,
+      "cpu_start": 694.9,
+      "cpu_end": 695.06,
+      "start_difference_sec": 0.38,
+      "end_difference_sec": 0.04
+    },
+    {
+      "word": "and",
+      "mps_start": 134.38,
+      "mps_end": 134.94,
+      "cpu_start": 134.74,
+      "cpu_end": 134.96,
+      "start_difference_sec": 0.36,
+      "end_difference_sec": 0.02
+    },
+    {
+      "word": "worked,",
+      "mps_start": 838.78,
+      "mps_end": 839.12,
+      "cpu_start": 838.42,
+      "cpu_end": 839.02,
+      "start_difference_sec": 0.36,
+      "end_difference_sec": 0.1
+    },
+    {
+      "word": "whenever",
+      "mps_start": 893.8,
+      "mps_end": 894.12,
+      "cpu_start": 893.44,
+      "cpu_end": 894.06,
+      "start_difference_sec": 0.36,
+      "end_difference_sec": 0.06
+    },
+    {
+      "word": "climbing",
+      "mps_start": 564.54,
+      "mps_end": 565.16,
+      "cpu_start": 564.88,
+      "cpu_end": 565.2,
+      "start_difference_sec": 0.34,
+      "end_difference_sec": 0.04
+    },
+    {
+      "word": "and",
+      "mps_start": 805.72,
+      "mps_end": 805.98,
+      "cpu_start": 805.38,
+      "cpu_end": 805.98,
+      "start_difference_sec": 0.34,
+      "end_difference_sec": 0.0
+    },
+    {
+      "word": "but",
+      "mps_start": 256.78,
+      "mps_end": 256.98,
+      "cpu_start": 256.46,
+      "cpu_end": 256.96,
+      "start_difference_sec": 0.32,
+      "end_difference_sec": 0.02
+    },
+    {
+      "word": "and",
+      "mps_start": 365.34,
+      "mps_end": 365.54,
+      "cpu_start": 365.02,
+      "cpu_end": 365.52,
+      "start_difference_sec": 0.32,
+      "end_difference_sec": 0.02
+    },
+    {
+      "word": "only",
+      "mps_start": 882.62,
+      "mps_end": 883.28,
+      "cpu_start": 882.94,
+      "cpu_end": 883.3,
+      "start_difference_sec": 0.32,
+      "end_difference_sec": 0.02
+    },
+    {
+      "word": "yet",
+      "mps_start": 826.58,
+      "mps_end": 827.1,
+      "cpu_start": 826.88,
+      "cpu_end": 827.14,
+      "start_difference_sec": 0.3,
+      "end_difference_sec": 0.04
+    },
+    {
+      "word": "and",
+      "mps_start": 309.84,
+      "mps_end": 310.04,
+      "cpu_start": 309.56,
+      "cpu_end": 310.04,
+      "start_difference_sec": 0.28,
+      "end_difference_sec": 0.0
+    },
+    {
+      "word": "It",
+      "mps_start": 445.98,
+      "mps_end": 446.68,
+      "cpu_start": 446.26,
+      "cpu_end": 446.68,
+      "start_difference_sec": 0.28,
+      "end_difference_sec": 0.0
+    },
+    {
+      "word": "because",
+      "mps_start": 704.78,
+      "mps_end": 705.34,
+      "cpu_start": 705.06,
+      "cpu_end": 705.38,
+      "start_difference_sec": 0.28,
+      "end_difference_sec": 0.04
+    },
+    {
+      "word": "Life",
+      "mps_start": 715.46,
+      "mps_end": 716.04,
+      "cpu_start": 715.72,
+      "cpu_end": 716.04,
+      "start_difference_sec": 0.26,
+      "end_difference_sec": 0.0
+    },
+    {
+      "word": "it",
+      "mps_start": 413.82,
+      "mps_end": 414.0,
+      "cpu_start": 413.58,
+      "cpu_end": 414.0,
+      "start_difference_sec": 0.24,
+      "end_difference_sec": 0.0
+    },
+    {
+      "word": "following",
+      "mps_start": 550.42,
+      "mps_end": 550.8,
+      "cpu_start": 550.66,
+      "cpu_end": 550.84,
+      "start_difference_sec": 0.24,
+      "end_difference_sec": 0.04
+    },
+    {
+      "word": "We",
+      "mps_start": 49.5,
+      "mps_end": 49.7,
+      "cpu_start": 49.28,
+      "cpu_end": 49.68,
+      "start_difference_sec": 0.22,
+      "end_difference_sec": 0.02
+    }
+  ],
+  "largest_end_differences": [
+    {
+      "word": "19th",
+      "mps_start": 779.14,
+      "mps_end": 780.16,
+      "cpu_start": 779.14,
+      "cpu_end": 779.72,
+      "start_difference_sec": 0.0,
+      "end_difference_sec": 0.44
+    },
+    {
+      "word": "the",
+      "mps_start": 550.28,
+      "mps_end": 550.42,
+      "cpu_start": 550.28,
+      "cpu_end": 550.66,
+      "start_difference_sec": 0.0,
+      "end_difference_sec": 0.24
+    },
+    {
+      "word": "ash,",
+      "mps_start": 514.78,
+      "mps_end": 515.34,
+      "cpu_start": 515.18,
+      "cpu_end": 515.52,
+      "start_difference_sec": 0.4,
+      "end_difference_sec": 0.18
+    },
+    {
+      "word": "was",
+      "mps_start": 152.8,
+      "mps_end": 153.02,
+      "cpu_start": 152.8,
+      "cpu_end": 153.18,
+      "start_difference_sec": 0.0,
+      "end_difference_sec": 0.16
+    },
+    {
+      "word": "commanded",
+      "mps_start": 336.56,
+      "mps_end": 337.02,
+      "cpu_start": 336.16,
+      "cpu_end": 336.86,
+      "start_difference_sec": 0.4,
+      "end_difference_sec": 0.16
+    },
+    {
+      "word": "circumstances,",
+      "mps_start": 635.88,
+      "mps_end": 636.62,
+      "cpu_start": 635.88,
+      "cpu_end": 636.78,
+      "start_difference_sec": 0.0,
+      "end_difference_sec": 0.16
+    },
+    {
+      "word": "changed.",
+      "mps_start": 172.8,
+      "mps_end": 173.52,
+      "cpu_start": 172.82,
+      "cpu_end": 173.66,
+      "start_difference_sec": 0.02,
+      "end_difference_sec": 0.14
+    },
+    {
+      "word": "functioned",
+      "mps_start": 736.22,
+      "mps_end": 737.18,
+      "cpu_start": 736.24,
+      "cpu_end": 737.06,
+      "start_difference_sec": 0.02,
+      "end_difference_sec": 0.12
+    },
+    {
+      "word": "a",
+      "mps_start": 843.86,
+      "mps_end": 844.02,
+      "cpu_start": 843.86,
+      "cpu_end": 844.14,
+      "start_difference_sec": 0.0,
+      "end_difference_sec": 0.12
+    },
+    {
+      "word": "being",
+      "mps_start": 153.4,
+      "mps_end": 153.68,
+      "cpu_start": 153.18,
+      "cpu_end": 153.58,
+      "start_difference_sec": 0.22,
+      "end_difference_sec": 0.1
+    },
+    {
+      "word": "rebuilt,",
+      "mps_start": 153.68,
+      "mps_end": 154.12,
+      "cpu_start": 153.58,
+      "cpu_end": 154.22,
+      "start_difference_sec": 0.1,
+      "end_difference_sec": 0.1
+    },
+    {
+      "word": "first,",
+      "mps_start": 339.64,
+      "mps_end": 340.0,
+      "cpu_start": 339.64,
+      "cpu_end": 340.1,
+      "start_difference_sec": 0.0,
+      "end_difference_sec": 0.1
+    },
+    {
+      "word": "networks,",
+      "mps_start": 462.62,
+      "mps_end": 463.1,
+      "cpu_start": 462.6,
+      "cpu_end": 463.2,
+      "start_difference_sec": 0.02,
+      "end_difference_sec": 0.1
+    },
+    {
+      "word": "precise",
+      "mps_start": 640.16,
+      "mps_end": 640.56,
+      "cpu_start": 640.18,
+      "cpu_end": 640.66,
+      "start_difference_sec": 0.02,
+      "end_difference_sec": 0.1
+    },
+    {
+      "word": "worked,",
+      "mps_start": 838.78,
+      "mps_end": 839.12,
+      "cpu_start": 838.42,
+      "cpu_end": 839.02,
+      "start_difference_sec": 0.36,
+      "end_difference_sec": 0.1
+    },
+    {
+      "word": "it",
+      "mps_start": 126.86,
+      "mps_end": 127.06,
+      "cpu_start": 126.4,
+      "cpu_end": 126.98,
+      "start_difference_sec": 0.46,
+      "end_difference_sec": 0.08
+    },
+    {
+      "word": "Stones",
+      "mps_start": 261.36,
+      "mps_end": 261.74,
+      "cpu_start": 261.24,
+      "cpu_end": 261.66,
+      "start_difference_sec": 0.12,
+      "end_difference_sec": 0.08
+    },
+    {
+      "word": "collapsed.",
+      "mps_start": 301.96,
+      "mps_end": 302.64,
+      "cpu_start": 301.96,
+      "cpu_end": 302.56,
+      "start_difference_sec": 0.0,
+      "end_difference_sec": 0.08
+    },
+    {
+      "word": "volcano",
+      "mps_start": 349.38,
+      "mps_end": 349.82,
+      "cpu_start": 349.38,
+      "cpu_end": 349.9,
+      "start_difference_sec": 0.0,
+      "end_difference_sec": 0.08
+    },
+    {
+      "word": "Eventually,",
+      "mps_start": 371.6,
+      "mps_end": 372.16,
+      "cpu_start": 371.48,
+      "cpu_end": 372.24,
+      "start_difference_sec": 0.12,
+      "end_difference_sec": 0.08
+    },
+    {
+      "word": "continued,",
+      "mps_start": 422.42,
+      "mps_end": 423.16,
+      "cpu_start": 422.4,
+      "cpu_end": 423.24,
+      "start_difference_sec": 0.02,
+      "end_difference_sec": 0.08
+    },
+    {
+      "word": "This",
+      "mps_start": 616.33,
+      "mps_end": 616.74,
+      "cpu_start": 616.26,
+      "cpu_end": 616.82,
+      "start_difference_sec": 0.07,
+      "end_difference_sec": 0.08
+    },
+    {
+      "word": "living",
+      "mps_start": 853.18,
+      "mps_end": 853.48,
+      "cpu_start": 853.2,
+      "cpu_end": 853.56,
+      "start_difference_sec": 0.02,
+      "end_difference_sec": 0.08
+    },
+    {
+      "word": "collapse?",
+      "mps_start": 48.12,
+      "mps_end": 48.58,
+      "cpu_start": 48.14,
+      "cpu_end": 48.64,
+      "start_difference_sec": 0.02,
+      "end_difference_sec": 0.06
+    },
+    {
+      "word": "earthquakes",
+      "mps_start": 158.82,
+      "mps_end": 159.28,
+      "cpu_start": 158.82,
+      "cpu_end": 159.34,
+      "start_difference_sec": 0.0,
+      "end_difference_sec": 0.06
+    },
+    {
+      "word": "inside",
+      "mps_start": 218.44,
+      "mps_end": 219.16,
+      "cpu_start": 218.44,
+      "cpu_end": 219.1,
+      "start_difference_sec": 0.0,
+      "end_difference_sec": 0.06
+    },
+    {
+      "word": "doorways.",
+      "mps_start": 265.7,
+      "mps_end": 266.24,
+      "cpu_start": 265.7,
+      "cpu_end": 266.3,
+      "start_difference_sec": 0.0,
+      "end_difference_sec": 0.06
+    },
+    {
+      "word": "survives",
+      "mps_start": 321.34,
+      "mps_end": 321.82,
+      "cpu_start": 321.34,
+      "cpu_end": 321.88,
+      "start_difference_sec": 0.0,
+      "end_difference_sec": 0.06
+    },
+    {
+      "word": "interested",
+      "mps_start": 341.52,
+      "mps_end": 342.06,
+      "cpu_start": 341.52,
+      "cpu_end": 342.12,
+      "start_difference_sec": 0.0,
+      "end_difference_sec": 0.06
+    },
+    {
+      "word": "ships",
+      "mps_start": 354.7,
+      "mps_end": 355.22,
+      "cpu_start": 354.7,
+      "cpu_end": 355.16,
+      "start_difference_sec": 0.0,
+      "end_difference_sec": 0.06
+    }
+  ]
+}

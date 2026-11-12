@@ -1,0 +1,94 @@
+{
+  "voice": "Kokoro af_heart",
+  "speed": 1.0,
+  "model": "hexgrad/Kokoro-82M",
+  "user_script_sha256": "8e3e06227dc285bf62d4c0083888f5b7854f4bc54187817c87271e26f683cddd",
+  "speech_initial_raw_line_starts": [
+    0.0,
+    4.5125,
+    8.3975,
+    13.6575,
+    16.7425,
+    23.0025,
+    27.0375,
+    30.5975
+  ],
+  "seam_synthesis": "Now imagine you're back at the checkout... | Two full shopping carts. Five tiny baskets. Which line would you pick?",
+  "removed_low_level_gaps_samples": [
+    [
+      32180,
+      34716
+    ],
+    [
+      67070,
+      71810
+    ],
+    [
+      96079,
+      109087
+    ],
+    [
+      134831,
+      139555
+    ],
+    [
+      190874,
+      201853
+    ],
+    [
+      244327,
+      253625
+    ],
+    [
+      316362,
+      329026
+    ],
+    [
+      350520,
+      354651
+    ],
+    [
+      389700,
+      402117
+    ],
+    [
+      461961,
+      470621
+    ],
+    [
+      507676,
+      512594
+    ],
+    [
+      539528,
+      553098
+    ],
+    [
+      589785,
+      595005
+    ],
+    [
+      637143,
+      649847
+    ],
+    [
+      672054,
+      674155
+    ],
+    [
+      722841,
+      740889
+    ],
+    [
+      780579,
+      787440
+    ]
+  ],
+  "frames": 802,
+  "sample_rate": 24000,
+  "peak": 0.7319022186956389,
+  "extra_alignment_gap_cut_seconds": [
+    6.88,
+    6.93
+  ]
+}

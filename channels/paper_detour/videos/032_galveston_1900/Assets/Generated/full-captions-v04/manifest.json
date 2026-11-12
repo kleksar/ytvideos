@@ -1,0 +1,3559 @@
+{
+  "canvas": [
+    1672,
+    941
+  ],
+  "checks": {
+    "motion": "UNVERIFIED",
+    "scope": "assigned pairs at their selected anchors; static geometry only",
+    "sync": "UNVERIFIED",
+    "technical": "PASS",
+    "visual": "UNVERIFIED"
+  },
+  "cues": [
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              0,
+              0,
+              2146,
+              378
+            ],
+            [
+              0,
+              378,
+              2146,
+              733
+            ]
+          ],
+          "mode": "creamOrange"
+        },
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/revision_v02/P01_v01.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+        "status": "Imagegen glyphs individually viewed: exact spelling, cream face/orange cut layers; measured mask and composites pending",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/P01/face.png",
+      "face_mask_sha256": "65d9d2cc210044c7706bece1ca5b484270546495aa325ca907fee5a63ef95e41",
+      "id": "P01",
+      "lines": [
+        "HOW DO YOU",
+        "SAVE A CITY?"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          24,
+          24,
+          629,
+          214
+        ],
+        "alpha_height_px": 190,
+        "alpha_width_px": 605,
+        "face_bbox": [
+          31,
+          31,
+          620,
+          205
+        ],
+        "face_height_px": 84,
+        "face_line_boxes": [
+          [
+            58,
+            31,
+            595,
+            114
+          ],
+          [
+            31,
+            121,
+            620,
+            205
+          ]
+        ],
+        "face_line_heights_px": [
+          83,
+          84
+        ],
+        "size_px": [
+          654,
+          224
+        ]
+      },
+      "png": "cues/P01/cue.png",
+      "png_sha256": "6802f3e88244f9183013e7fa2e7b3a3826469dcab30cdde4dbf9277ec9099ab1",
+      "provenance": {
+        "decision": {
+          "complementary_candidate": "HOW DO YOU / SAVE A CITY?",
+          "literal_candidate": "how do you save a city",
+          "no_text_candidate": "Image and narration remain understandable; omit if both safe anchors are occupied.",
+          "reason": "The rebuilding question is the hook; deliberately give it visual weight rather than repeat every sentence.",
+          "selected": "complementary framing"
+        },
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/storyboard_v02.json"
+      },
+      "timing": {
+        "global_frames": [
+          618,
+          714
+        ],
+        "status": "ALIGNMENT_BASED_UNLISTENED"
+      },
+      "uniform_scale": 0.30434782608695654
+    },
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              0,
+              0,
+              476,
+              131
+            ],
+            [
+              0,
+              131,
+              476,
+              251
+            ]
+          ],
+          "mode": "mask",
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/accent_preflight_v04/cues/C03/face.png"
+        },
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/accent_preflight_v04/cues/C03/cue.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/church_v02/T01_v01.png",
+        "status": "Retained accepted exact glyph PNG; new timing and paired composites require recheck",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/C03/face.png",
+      "face_mask_sha256": "c6cbfc3ca2d65e364ed21f59366f957e818edd8c9a466f7d6f8711749d970903",
+      "id": "C03",
+      "lines": [
+        "LESS THAN",
+        "NINE FEET"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          16,
+          29,
+          440,
+          227
+        ],
+        "alpha_height_px": 198,
+        "alpha_width_px": 424,
+        "face_bbox": [
+          34,
+          39,
+          426,
+          211
+        ],
+        "face_height_px": 84,
+        "face_line_boxes": [
+          [
+            34,
+            39,
+            426,
+            123
+          ],
+          [
+            52,
+            127,
+            421,
+            211
+          ]
+        ],
+        "face_line_heights_px": [
+          84,
+          84
+        ],
+        "size_px": [
+          455,
+          240
+        ]
+      },
+      "png": "cues/C03/cue.png",
+      "png_sha256": "1f84bfcc47a8ac5fc56377060e001507c979959bb0258772feeb389a1e88d4e2",
+      "provenance": {
+        "decision": {
+          "complementary_candidate": "less than nine feet",
+          "literal_candidate": "less than nine feet",
+          "no_text_candidate": "Image and narration remain understandable; omit if both safe anchors are occupied.",
+          "reason": "Retain an intentional key quantity; natural ground estimate, not the seawall datum.",
+          "selected": "literal key emphasis"
+        },
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/storyboard_v02.json"
+      },
+      "timing": {
+        "global_frames": [
+          1545,
+          1620
+        ],
+        "status": "ALIGNMENT_BASED_UNLISTENED"
+      },
+      "uniform_scale": 0.9545454545454546
+    },
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              0,
+              0,
+              473,
+              126
+            ],
+            [
+              0,
+              126,
+              473,
+              251
+            ]
+          ],
+          "mode": "mask",
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/accent_preflight_v04/cues/C04/face.png"
+        },
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/accent_preflight_v04/cues/C04/cue.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/church_v02/T01_v01.png",
+        "status": "Retained accepted exact glyph PNG; new timing and paired composites require recheck",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/C04/face.png",
+      "face_mask_sha256": "d21987d4ea6e374c91934be4787e018b519a7fa9b3ff980e7057dac00b5be7ec",
+      "id": "C04",
+      "lines": [
+        "NO WEATHER",
+        "SATELLITES"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          26,
+          27,
+          430,
+          235
+        ],
+        "alpha_height_px": 208,
+        "alpha_width_px": 404,
+        "face_bbox": [
+          41,
+          38,
+          417,
+          204
+        ],
+        "face_height_px": 84,
+        "face_line_boxes": [
+          [
+            41,
+            38,
+            417,
+            121
+          ],
+          [
+            47,
+            120,
+            410,
+            204
+          ]
+        ],
+        "face_line_heights_px": [
+          83,
+          84
+        ],
+        "size_px": [
+          452,
+          240
+        ]
+      },
+      "png": "cues/C04/cue.png",
+      "png_sha256": "76516af14e68e0dbfc06b9b42cbc63dcb626152f43972e910627c72729e5a3bc",
+      "provenance": {
+        "decision": {
+          "complementary_candidate": "no weather satellites",
+          "literal_candidate": "no weather satellites",
+          "no_text_candidate": "Image and narration remain understandable; omit if both safe anchors are occupied.",
+          "reason": "Intentional key absence in 1900 forecasting, not an exhaustive list revealed early.",
+          "selected": "literal key emphasis"
+        },
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/storyboard_v02.json"
+      },
+      "timing": {
+        "global_frames": [
+          2525,
+          2585
+        ],
+        "status": "ALIGNMENT_BASED_UNLISTENED"
+      },
+      "uniform_scale": 0.9545454545454546
+    },
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              0,
+              0,
+              583,
+              138
+            ],
+            [
+              0,
+              138,
+              583,
+              280
+            ]
+          ],
+          "mode": "mask",
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/accent_preflight_v04/cues/C05/face.png"
+        },
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/accent_preflight_v04/cues/C05/cue.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/church_v02/T01_v01.png",
+        "status": "Retained accepted exact glyph PNG; new timing and paired composites require recheck",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/C05/face.png",
+      "face_mask_sha256": "8af62631b8d8fb47b896c2bad934812b5c1b3d79b64761d6760435bc2ca2f446",
+      "id": "C05",
+      "lines": [
+        "NEARLY SIXTEEN",
+        "FEET"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          20,
+          35,
+          533,
+          239
+        ],
+        "alpha_height_px": 204,
+        "alpha_width_px": 513,
+        "face_bbox": [
+          34,
+          48,
+          518,
+          213
+        ],
+        "face_height_px": 84,
+        "face_line_boxes": [
+          [
+            34,
+            48,
+            518,
+            132
+          ],
+          [
+            176,
+            131,
+            378,
+            213
+          ]
+        ],
+        "face_line_heights_px": [
+          84,
+          82
+        ],
+        "size_px": [
+          557,
+          268
+        ]
+      },
+      "png": "cues/C05/cue.png",
+      "png_sha256": "126acd14f69d9b78fb7b4e11b51c938d21464293b4e9a5f92f1d0f3aa48a0c1e",
+      "provenance": {
+        "decision": {
+          "complementary_candidate": "nearly sixteen feet",
+          "literal_candidate": "nearly sixteen feet",
+          "no_text_candidate": "Image and narration remain understandable; omit if both safe anchors are occupied.",
+          "reason": "Retain estimated surge wording in its own scene, separate from all other levels.",
+          "selected": "literal key emphasis"
+        },
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/storyboard_v02.json"
+      },
+      "timing": {
+        "global_frames": [
+          4546,
+          4606
+        ],
+        "status": "ALIGNMENT_BASED_UNLISTENED"
+      },
+      "uniform_scale": 0.9545454545454546
+    },
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              0,
+              0,
+              520,
+              132
+            ],
+            [
+              0,
+              132,
+              520,
+              274
+            ]
+          ],
+          "mode": "mask",
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/accent_preflight_v04/cues/C06/face.png"
+        },
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/accent_preflight_v04/cues/C06/cue.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/church_v02/T01_v01.png",
+        "status": "Retained accepted exact glyph PNG; new timing and paired composites require recheck",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/C06/face.png",
+      "face_mask_sha256": "0e7bc21a95673f014ab167e07288ee495a4f0a3dc6fbbf0b4741d6ca39593407",
+      "id": "C06",
+      "lines": [
+        "AT LEAST",
+        "SIX THOUSAND"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          14,
+          7,
+          496,
+          260
+        ],
+        "alpha_height_px": 253,
+        "alpha_width_px": 482,
+        "face_bbox": [
+          26,
+          45,
+          474,
+          213
+        ],
+        "face_height_px": 84,
+        "face_line_boxes": [
+          [
+            91,
+            45,
+            423,
+            124
+          ],
+          [
+            26,
+            129,
+            474,
+            213
+          ]
+        ],
+        "face_line_heights_px": [
+          79,
+          84
+        ],
+        "size_px": [
+          497,
+          262
+        ]
+      },
+      "png": "cues/C06/cue.png",
+      "png_sha256": "6da50576062922d7ec672bd33ec7dec5075a72430611f755b86c36b9280363d3",
+      "provenance": {
+        "decision": {
+          "complementary_candidate": "at least six thousand",
+          "literal_candidate": "at least six thousand",
+          "no_text_candidate": "Image and narration remain understandable; omit if both safe anchors are occupied.",
+          "reason": "Sober minimum, not exact total; crosses into R056 and must be checked on both images.",
+          "selected": "literal key emphasis"
+        },
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/storyboard_v02.json"
+      },
+      "timing": {
+        "global_frames": [
+          7083,
+          7145
+        ],
+        "status": "ALIGNMENT_BASED_UNLISTENED"
+      },
+      "uniform_scale": 0.9545454545454546
+    },
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              0,
+              0,
+              528,
+              132
+            ],
+            [
+              0,
+              132,
+              528,
+              273
+            ]
+          ],
+          "mode": "mask",
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/accent_preflight_v04/cues/C07/face.png"
+        },
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/accent_preflight_v04/cues/C07/cue.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/church_v02/T01_v01.png",
+        "status": "Retained accepted exact glyph PNG; new timing and paired composites require recheck",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/C07/face.png",
+      "face_mask_sha256": "2f2b39aec59f3a483db315efb752649e22fbc799f031d09d07eac334c9c2bb53",
+      "id": "C07",
+      "lines": [
+        "BETTER CHANCE",
+        "NEXT TIME"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          0,
+          30,
+          502,
+          239
+        ],
+        "alpha_height_px": 209,
+        "alpha_width_px": 502,
+        "face_bbox": [
+          35,
+          46,
+          480,
+          210
+        ],
+        "face_height_px": 84,
+        "face_line_boxes": [
+          [
+            35,
+            46,
+            480,
+            126
+          ],
+          [
+            41,
+            126,
+            459,
+            210
+          ]
+        ],
+        "face_line_heights_px": [
+          80,
+          84
+        ],
+        "size_px": [
+          504,
+          261
+        ]
+      },
+      "png": "cues/C07/cue.png",
+      "png_sha256": "ccb7929f38b0d0204c84669bd2e52e9d34dc775835a6df45ad1132f85db217e7",
+      "provenance": {
+        "decision": {
+          "complementary_candidate": "better chance next time",
+          "literal_candidate": "better chance next time",
+          "no_text_candidate": "Image and narration remain understandable; omit if both safe anchors are occupied.",
+          "reason": "A deliberate forward-looking hinge after the immediate recovery.",
+          "selected": "literal key emphasis"
+        },
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/storyboard_v02.json"
+      },
+      "timing": {
+        "global_frames": [
+          8835,
+          8889
+        ],
+        "status": "ALIGNMENT_BASED_UNLISTENED"
+      },
+      "uniform_scale": 0.9545454545454546
+    },
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              0,
+              0,
+              2140,
+              368
+            ],
+            [
+              0,
+              368,
+              2140,
+              735
+            ]
+          ],
+          "mode": "creamOrange"
+        },
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/revision_v02/P02_v01.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+        "status": "Imagegen glyphs individually viewed: exact spelling, cream face/orange cut layers; measured mask and composites pending",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/P02/face.png",
+      "face_mask_sha256": "6a7ae27ca8fe759416ab099126a58fd5c4f83fd4ca3cddf9f4264513d8680976",
+      "id": "P02",
+      "lines": [
+        "A WALL",
+        "ISN’T ENOUGH"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          13,
+          20,
+          635,
+          209
+        ],
+        "alpha_height_px": 189,
+        "alpha_width_px": 622,
+        "face_bbox": [
+          21,
+          27,
+          627,
+          198
+        ],
+        "face_height_px": 84,
+        "face_line_boxes": [
+          [
+            144,
+            27,
+            504,
+            111
+          ],
+          [
+            21,
+            117,
+            627,
+            198
+          ]
+        ],
+        "face_line_heights_px": [
+          84,
+          81
+        ],
+        "size_px": [
+          649,
+          223
+        ]
+      },
+      "png": "cues/P02/cue.png",
+      "png_sha256": "5cd0139ffa26e1c937840b863d2c785fd733d1012a8503127537b21a29168697",
+      "provenance": {
+        "decision": {
+          "complementary_candidate": "A WALL / ISN’T ENOUGH",
+          "literal_candidate": "a problem behind it",
+          "no_text_candidate": "Image and narration remain understandable; omit if both safe anchors are occupied.",
+          "reason": "Reveal the landward problem after the wall, without showing the next solution early.",
+          "selected": "complementary framing"
+        },
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/storyboard_v02.json"
+      },
+      "timing": {
+        "global_frames": [
+          9258,
+          9340
+        ],
+        "status": "ALIGNMENT_BASED_UNLISTENED"
+      },
+      "uniform_scale": 0.30324909747292417
+    },
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              0,
+              0,
+              738,
+              122
+            ]
+          ],
+          "mode": "mask",
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/accent_preflight_v04/cues/C10/face.png"
+        },
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/accent_preflight_v04/cues/C10/cue.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/church_v02/T01_v01.png",
+        "status": "Retained accepted exact glyph PNG; new timing and paired composites require recheck",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/C10/face.png",
+      "face_mask_sha256": "0ecf1238fdc0da7ee2cf2e0aad853ab23adf622ad644151f33b7b7dbe881dac9",
+      "id": "C10",
+      "lines": [
+        "SEVENTEEN FEET"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          8,
+          8,
+          695,
+          108
+        ],
+        "alpha_height_px": 100,
+        "alpha_width_px": 687,
+        "face_bbox": [
+          14,
+          14,
+          688,
+          98
+        ],
+        "face_height_px": 84,
+        "face_line_boxes": [
+          [
+            14,
+            14,
+            688,
+            98
+          ]
+        ],
+        "face_line_heights_px": [
+          84
+        ],
+        "size_px": [
+          705,
+          117
+        ]
+      },
+      "png": "cues/C10/cue.png",
+      "png_sha256": "90dbadd4af9792fb438c0852393fa58624d73aae5ff9f24cfd4c765aa8d8e654",
+      "provenance": {
+        "decision": {
+          "complementary_candidate": "seventeen feet",
+          "literal_candidate": "seventeen feet",
+          "no_text_candidate": "Image and narration remain understandable; omit if both safe anchors are occupied.",
+          "reason": "Height above mean low water, no comparison axis to natural ground or surge.",
+          "selected": "literal key emphasis"
+        },
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/storyboard_v02.json"
+      },
+      "timing": {
+        "global_frames": [
+          10050,
+          10113
+        ],
+        "status": "ALIGNMENT_BASED_UNLISTENED"
+      },
+      "uniform_scale": 0.9545454545454546
+    },
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              0,
+              0,
+              828,
+              114
+            ],
+            [
+              0,
+              114,
+              828,
+              219
+            ],
+            [
+              0,
+              219,
+              828,
+              331
+            ]
+          ],
+          "mode": "mask",
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/accent_preflight_v04/cues/C11/face.png"
+        },
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/accent_preflight_v04/cues/C11/cue.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/church_v02/T01_v01.png",
+        "status": "Retained accepted exact glyph PNG; new timing and paired composites require recheck",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/C11/face.png",
+      "face_mask_sha256": "93d8290daea1ab8d868986981855fa5c07afe66c82e51528d4a21b70ade0d169",
+      "id": "C11",
+      "lines": [
+        "ABOUT",
+        "TWO THOUSAND",
+        "BUILDINGS"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          6,
+          11,
+          785,
+          309
+        ],
+        "alpha_height_px": 298,
+        "alpha_width_px": 779,
+        "face_bbox": [
+          15,
+          17,
+          778,
+          300
+        ],
+        "face_height_px": 84,
+        "face_line_boxes": [
+          [
+            216,
+            17,
+            566,
+            101
+          ],
+          [
+            15,
+            117,
+            778,
+            201
+          ],
+          [
+            148,
+            217,
+            663,
+            300
+          ]
+        ],
+        "face_line_heights_px": [
+          84,
+          84,
+          83
+        ],
+        "size_px": [
+          791,
+          316
+        ]
+      },
+      "png": "cues/C11/cue.png",
+      "png_sha256": "67d55c6d857c6e37a126a16642a62783145bb81c732ff4a8e7020125df3d92f1",
+      "provenance": {
+        "decision": {
+          "complementary_candidate": "About two thousand buildings",
+          "literal_candidate": "About two thousand buildings",
+          "no_text_candidate": "Image and narration remain understandable; omit if both safe anchors are occupied.",
+          "reason": "Keep about and buildings; do not substitute count of all structures.",
+          "selected": "literal key emphasis"
+        },
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/storyboard_v02.json"
+      },
+      "timing": {
+        "global_frames": [
+          10702,
+          10777
+        ],
+        "status": "ALIGNMENT_BASED_UNLISTENED"
+      },
+      "uniform_scale": 0.9545454545454546
+    },
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              0,
+              0,
+              1918,
+              418
+            ],
+            [
+              0,
+              418,
+              1918,
+              820
+            ]
+          ],
+          "mode": "creamOrange"
+        },
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/revision_v02/P03_v01.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+        "status": "Imagegen glyphs individually viewed: exact spelling, cream face/orange cut layers; measured mask and composites pending",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/P03/face.png",
+      "face_mask_sha256": "9b7199c1e6aed09c79eda5b61a1237b521c87594fb47e8fa63b1be4c60483793",
+      "id": "P03",
+      "lines": [
+        "THE CITY",
+        "STILL LIVED"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          18,
+          29,
+          547,
+          223
+        ],
+        "alpha_height_px": 194,
+        "alpha_width_px": 529,
+        "face_bbox": [
+          25,
+          38,
+          538,
+          212
+        ],
+        "face_height_px": 84,
+        "face_line_boxes": [
+          [
+            73,
+            38,
+            495,
+            122
+          ],
+          [
+            25,
+            130,
+            538,
+            212
+          ]
+        ],
+        "face_line_heights_px": [
+          84,
+          82
+        ],
+        "size_px": [
+          564,
+          241
+        ]
+      },
+      "png": "cues/P03/cue.png",
+      "png_sha256": "286a012fed82aba52b53a076cc619170c4fb246d63e88785e064d59b9b77aeba",
+      "provenance": {
+        "decision": {
+          "complementary_candidate": "THE CITY / STILL LIVED",
+          "literal_candidate": "a living city",
+          "no_text_candidate": "Image and narration remain understandable; omit if both safe anchors are occupied.",
+          "reason": "Add the contrast of ordinary life persisting inside the construction site.",
+          "selected": "complementary framing"
+        },
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/storyboard_v02.json"
+      },
+      "timing": {
+        "global_frames": [
+          11670,
+          11750
+        ],
+        "status": "ALIGNMENT_BASED_UNLISTENED"
+      },
+      "uniform_scale": 0.2937062937062937
+    },
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              0,
+              0,
+              776,
+              157
+            ]
+          ],
+          "mode": "mask",
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/accent_preflight_v04/cues/C13/face.png"
+        },
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/accent_preflight_v04/cues/C13/cue.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/church_v02/T01_v01.png",
+        "status": "Retained accepted exact glyph PNG; new timing and paired composites require recheck",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/C13/face.png",
+      "face_mask_sha256": "5fafddc44fb39edb09851fc55fb4490d90c3e4f0f3f886cf286c232815d0355d",
+      "id": "C13",
+      "lines": [
+        "THE NEW GROUND"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          20,
+          15,
+          719,
+          130
+        ],
+        "alpha_height_px": 115,
+        "alpha_width_px": 699,
+        "face_bbox": [
+          30,
+          31,
+          708,
+          115
+        ],
+        "face_height_px": 84,
+        "face_line_boxes": [
+          [
+            30,
+            31,
+            708,
+            115
+          ]
+        ],
+        "face_line_heights_px": [
+          84
+        ],
+        "size_px": [
+          741,
+          150
+        ]
+      },
+      "png": "cues/C13/cue.png",
+      "png_sha256": "8b32047e231276e067d117a7661f78f87a535f6c95a5e0c62be359cb21b97c8a",
+      "provenance": {
+        "decision": {
+          "complementary_candidate": "the new ground",
+          "literal_candidate": "the new ground",
+          "no_text_candidate": "Image and narration remain understandable; omit if both safe anchors are occupied.",
+          "reason": "Intentional label on the moment fill becomes the city’s supporting ground.",
+          "selected": "literal key emphasis"
+        },
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/storyboard_v02.json"
+      },
+      "timing": {
+        "global_frames": [
+          12667,
+          12721
+        ],
+        "status": "ALIGNMENT_BASED_UNLISTENED"
+      },
+      "uniform_scale": 0.9545454545454546
+    },
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              0,
+              0,
+              2146,
+              398
+            ],
+            [
+              0,
+              398,
+              2146,
+              732
+            ]
+          ],
+          "mode": "creamOrange"
+        },
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/revision_v02/P04_v01.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+        "status": "Imagegen glyphs individually viewed: exact spelling, cream face/orange cut layers; measured mask and composites pending",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/P04/face.png",
+      "face_mask_sha256": "d2f3efcf46a55cea54c94c1aeaa66d7c64294711841c47d6b22563993871b724",
+      "id": "P04",
+      "lines": [
+        "REBUILDING",
+        "HAD A PRICE"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          29,
+          29,
+          631,
+          221
+        ],
+        "alpha_height_px": 192,
+        "alpha_width_px": 602,
+        "face_bbox": [
+          36,
+          38,
+          623,
+          213
+        ],
+        "face_height_px": 84,
+        "face_line_boxes": [
+          [
+            49,
+            38,
+            613,
+            122
+          ],
+          [
+            36,
+            130,
+            623,
+            213
+          ]
+        ],
+        "face_line_heights_px": [
+          84,
+          83
+        ],
+        "size_px": [
+          661,
+          226
+        ]
+      },
+      "png": "cues/P04/cue.png",
+      "png_sha256": "1abec112b5ba3195f0fec85a78d2dfb0a0e2f01b2a4f3e8fedcd6194bed964b1",
+      "provenance": {
+        "decision": {
+          "complementary_candidate": "REBUILDING / HAD A PRICE",
+          "literal_candidate": "property owners had to pay",
+          "no_text_candidate": "Image and narration remain understandable; omit if both safe anchors are occupied.",
+          "reason": "Connect public engineering to household expense; no invented sum or bill.",
+          "selected": "complementary framing"
+        },
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/storyboard_v02.json"
+      },
+      "timing": {
+        "global_frames": [
+          13665,
+          13745
+        ],
+        "status": "ALIGNMENT_BASED_UNLISTENED"
+      },
+      "uniform_scale": 0.3076923076923077
+    },
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              0,
+              0,
+              1919,
+              410
+            ],
+            [
+              0,
+              410,
+              1919,
+              820
+            ]
+          ],
+          "mode": "creamOrange"
+        },
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/church_v02/T01_v01.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+        "status": "Imagegen glyphs individually viewed: exact spelling, cream face/orange cut layers; measured mask and composites pending",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/T01/face.png",
+      "face_mask_sha256": "3bf019ff4d36368df86764b377ebae90b3997af91ac059cc5d1273c3f2c4aa0b",
+      "id": "T01",
+      "lines": [
+        "700 JACKS",
+        "ONE CHURCH"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          13,
+          28,
+          540,
+          216
+        ],
+        "alpha_height_px": 188,
+        "alpha_width_px": 527,
+        "face_bbox": [
+          20,
+          35,
+          531,
+          206
+        ],
+        "face_height_px": 82,
+        "face_line_boxes": [
+          [
+            47,
+            35,
+            509,
+            117
+          ],
+          [
+            20,
+            125,
+            531,
+            206
+          ]
+        ],
+        "face_line_heights_px": [
+          82,
+          81
+        ],
+        "size_px": [
+          554,
+          237
+        ]
+      },
+      "png": "cues/T01/cue.png",
+      "png_sha256": "e244ddbd3fe114b5121210a93a2d1990397865bc64113a7a34200fb537173253",
+      "provenance": {
+        "decision": {
+          "complementary_candidate": "700 JACKS / ONE CHURCH",
+          "literal_candidate": "seven hundred jacks",
+          "no_text_candidate": "Image and narration remain understandable; omit if both safe anchors are occupied.",
+          "reason": "The relation between small instruments and one immense building; one tool in image.",
+          "selected": "complementary framing"
+        },
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/storyboard_v02.json"
+      },
+      "timing": {
+        "global_frames": [
+          14498,
+          14563
+        ],
+        "status": "ALIGNMENT_BASED_UNLISTENED"
+      },
+      "uniform_scale": 0.28865979381443296
+    },
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              0,
+              0,
+              2146,
+              370
+            ],
+            [
+              0,
+              370,
+              2146,
+              733
+            ]
+          ],
+          "mode": "creamOrange"
+        },
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/church_v02/T02_v01.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+        "status": "Imagegen glyphs individually viewed: exact spelling, cream face/orange cut layers; measured mask and composites pending",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/T02/face.png",
+      "face_mask_sha256": "9d380e360c0cb91a6d961c63af090feab31286e7d261c927c532175af5253a9b",
+      "id": "T02",
+      "lines": [
+        "MANY HANDS",
+        "ONE BUILDING"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          23,
+          18,
+          586,
+          192
+        ],
+        "alpha_height_px": 174,
+        "alpha_width_px": 563,
+        "face_bbox": [
+          31,
+          20,
+          579,
+          183
+        ],
+        "face_height_px": 84,
+        "face_line_boxes": [
+          [
+            31,
+            20,
+            578,
+            104
+          ],
+          [
+            31,
+            108,
+            579,
+            183
+          ]
+        ],
+        "face_line_heights_px": [
+          84,
+          75
+        ],
+        "size_px": [
+          607,
+          208
+        ]
+      },
+      "png": "cues/T02/cue.png",
+      "png_sha256": "ffe77f4985395ff047741fb840759c2875ea38a117e5237185078cd08ffa2c48",
+      "provenance": {
+        "decision": {
+          "complementary_candidate": "MANY HANDS / ONE BUILDING",
+          "literal_candidate": "many smaller lifts",
+          "no_text_candidate": "Image and narration remain understandable; omit if both safe anchors are occupied.",
+          "reason": "A complementary human-scale conclusion anchored to patient coordination, not literal highlighting of the final word lifts.",
+          "selected": "complementary framing"
+        },
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/storyboard_v02.json"
+      },
+      "timing": {
+        "global_frames": [
+          14743,
+          14833
+        ],
+        "status": "ALIGNMENT_BASED_UNLISTENED"
+      },
+      "uniform_scale": 0.2828282828282828
+    },
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              0,
+              0,
+              2172,
+              387
+            ],
+            [
+              0,
+              387,
+              2172,
+              724
+            ]
+          ],
+          "mode": "creamOrange"
+        },
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/revision_v02/P05_v01.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+        "status": "Imagegen glyphs individually viewed: exact spelling, cream face/orange cut layers; measured mask and composites pending",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/P05/face.png",
+      "face_mask_sha256": "502663310caee2024efb5ab5a5b7a7a5cd40e8cda31a7fc6dd460e3464d9926d",
+      "id": "P05",
+      "lines": [
+        "SAFER",
+        "NOT INVULNERABLE"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          17,
+          36,
+          703,
+          214
+        ],
+        "alpha_height_px": 178,
+        "alpha_width_px": 686,
+        "face_bbox": [
+          25,
+          44,
+          694,
+          204
+        ],
+        "face_height_px": 84,
+        "face_line_boxes": [
+          [
+            203,
+            44,
+            515,
+            128
+          ],
+          [
+            25,
+            133,
+            694,
+            204
+          ]
+        ],
+        "face_line_heights_px": [
+          84,
+          71
+        ],
+        "size_px": [
+          722,
+          241
+        ]
+      },
+      "png": "cues/P05/cue.png",
+      "png_sha256": "0f82381e4f513be1a3c161d16c5e97f414e5ce167153284ed7530ab66fbd635b",
+      "provenance": {
+        "decision": {
+          "complementary_candidate": "SAFER / NOT INVULNERABLE",
+          "literal_candidate": "did not make Galveston invulnerable",
+          "no_text_candidate": "Image and narration remain understandable; omit if both safe anchors are occupied.",
+          "reason": "Frame the contrast between improved defense and continuing hurricane risk.",
+          "selected": "complementary framing"
+        },
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/storyboard_v02.json"
+      },
+      "timing": {
+        "global_frames": [
+          15990,
+          16062
+        ],
+        "status": "ALIGNMENT_BASED_UNLISTENED"
+      },
+      "uniform_scale": 0.33201581027667987
+    },
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              0,
+              0,
+              1918,
+              421
+            ],
+            [
+              0,
+              421,
+              1918,
+              820
+            ]
+          ],
+          "mode": "creamOrange"
+        },
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/revision_v02/P06_v01.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+        "status": "Imagegen glyphs individually viewed: exact spelling, cream face/orange cut layers; measured mask and composites pending",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/P06/face.png",
+      "face_mask_sha256": "e77c7f794895878acc6ead33b67874fb0626fa4ff14bca1c0e6078656d476496",
+      "id": "P06",
+      "lines": [
+        "GROUND",
+        "AT LAST"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          58,
+          21,
+          458,
+          207
+        ],
+        "alpha_height_px": 186,
+        "alpha_width_px": 400,
+        "face_bbox": [
+          66,
+          28,
+          450,
+          199
+        ],
+        "face_height_px": 84,
+        "face_line_boxes": [
+          [
+            66,
+            28,
+            450,
+            112
+          ],
+          [
+            77,
+            120,
+            441,
+            199
+          ]
+        ],
+        "face_line_heights_px": [
+          84,
+          79
+        ],
+        "size_px": [
+          514,
+          220
+        ]
+      },
+      "png": "cues/P06/cue.png",
+      "png_sha256": "2d9be768d60b2de5adc23bf1beafd74a81b266dc958ef565a060d6b68efb281a",
+      "provenance": {
+        "decision": {
+          "complementary_candidate": "GROUND / AT LAST",
+          "literal_candidate": "changed the ground",
+          "no_text_candidate": "Image and narration remain understandable; omit if both safe anchors are occupied.",
+          "reason": "The filled entrance answers the opening void; put this short phrase on the alternate left zone to leave the actual door visible.",
+          "selected": "complementary framing"
+        },
+        "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/storyboard_v02.json"
+      },
+      "timing": {
+        "global_frames": [
+          16713,
+          16798
+        ],
+        "status": "ALIGNMENT_BASED_UNLISTENED"
+      },
+      "uniform_scale": 0.267515923566879
+    }
+  ],
+  "helper_sha256": "86fcde095d01b3300ac1497f9f38c5f38494a740f5dcd987af9a8595d42a8150",
+  "helper_version": "1.1.0",
+  "inputs": [
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+      "sha256": "ba67eb5c6a99c647887765ec9da7dc0ce7576c990d5e37aa04d3a4533c3ff07b"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Edit/ChurchDemo_v01/full_caption_input_v02.json",
+      "sha256": "6349e6d14091dd54adefa71e6785091acaff98255996aaa7143afcc98c5a3927"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/church_v02/CH03_v01.png",
+      "sha256": "c34d84d54964f49476ffa61df939d932978840c9d6561a4e4610169fbcdd49b3"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/church_v02/T01_v01.png",
+      "sha256": "76d0c95cd47b8cccb8dae4b104097c5c7177b852211c6cf3b2bce4f33ff09dd1"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/church_v02/T02_v01.png",
+      "sha256": "470db605fba7728a4551a2c61a45b848330e62f92f89955d6ec45897191c6d42"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/paper_v01/scene_006_v01.png",
+      "sha256": "ad554883785dd97949971601921c51231ae434d218fe6d9fdee0d81544167d93"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/paper_v01/scene_013_v01.png",
+      "sha256": "616093a97f31af23c138077b934294f452aa2bc24719619de28a3dd81deb0f4b"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/paper_v01/scene_021_v01.png",
+      "sha256": "7e011916bc33d9d5408d50114ec86e89e1a97b9657bb329a2d5891afeedcc2aa"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/paper_v01/scene_035_v01.png",
+      "sha256": "e05a672ed2101ea30098abb220d52358a16a6ea80154d8d8720c713c127be720"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/paper_v01/scene_056_v01.png",
+      "sha256": "a61f799290ece0b73c0f37117b94a89a009f173f339d75e2dd91a36ab131bff5"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/paper_v01/scene_060_v01.png",
+      "sha256": "40cbf0d9e6038c1e9d4aa537dad5049b2fa5e13ef160976094ce14aeea56827a"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/paper_v01/scene_068_v01.png",
+      "sha256": "0197a381f14714743271db89bb5144e46d830f1d8fb0b8b7788d6eeaaab739d4"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/paper_v01/scene_078_v01.png",
+      "sha256": "bd58eae6ec5349af81d50590bc6d8532bf58cb8ad8edf9ffc39193adc25e4f45"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/paper_v01/scene_083_v01.png",
+      "sha256": "0f50c16f919879f4f3cd78e9379f7f95dcaf489110dab6074b3d33ce9d63f324"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/paper_v01/scene_090_v01.png",
+      "sha256": "9009da384a88efb8f6a5819a6f9a86089248e8db4f2fcaa718876ce0f4de64b1"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/paper_v01/scene_096_v01.png",
+      "sha256": "8982dbb712b1fcc921df913788fc8d600ba88019fac96eb3e26717808113f238"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/paper_v01/scene_104_v01.png",
+      "sha256": "93e47bd73f2d5a6170ef57c4fde1d9692aeea6dcb4e4f4a8f80c0d4ebb62fd9d"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/paper_v01/scene_110_v01.png",
+      "sha256": "3f3a425616f1a7a76289a0325b6fea7c671b2d37f30290024649437b42d02850"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/paper_v01/scene_120_v01.png",
+      "sha256": "ee0b28b1b2f534279261c2d7031f231c9ea8e1116501f11d7abfbcdcb33000a8"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/revision_v02/P01_v01.png",
+      "sha256": "86cca89484a6d902ccdeff40f81c9220d777d0a9a2b276a3438e744fc651ccbe"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/revision_v02/P02_v01.png",
+      "sha256": "ad6e782eaadd69f3e7aba7daa062bd4d0855ad16a385484298677645896fd780"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/revision_v02/P03_v01.png",
+      "sha256": "1266fd2a81f74ff0dbc250e79b8e28d64dcd285cc23ba5f07f4e9d546731a935"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/revision_v02/P04_v01.png",
+      "sha256": "898bcd254b0afd602d221240e533c23706041748896efd289e8ff654d862ce68"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/revision_v02/P05_v01.png",
+      "sha256": "01d9da06a69a5d1aefee0e74384de015e5b4f73a75e78cbb7f75b4a9eea1c9c4"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/revision_v02/P06_v01.png",
+      "sha256": "c74be67d9e51b726c00989c01b99b66bd4818d6638f4f596c43ba414448b108c"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/revision_v02/R072_v01.png",
+      "sha256": "cb9369fa0c2b8f6c4193b04e431dccc13d9f300cc4ce6024f9e2b8d0774b97c9"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/revision_v02/R125_v01.png",
+      "sha256": "f60d7f4ada44b0fa601bed036939c87218308b51042f8fa5a42ccb84fcac2eb5"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/accent_preflight_v04/cues/C03/cue.png",
+      "sha256": "6450abe2106f16faf53578c5f2792820e94c693a5af6c693b4c441dcf3bcd293"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/accent_preflight_v04/cues/C03/face.png",
+      "sha256": "97d12e60428808b9edd2b02e5f9a4e1b8906e0f0f42edde125a2115db42e00aa"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/accent_preflight_v04/cues/C04/cue.png",
+      "sha256": "fb11c17716c567644f8cf7e00c63861848a0ca3f19725708cd2c43961350bbcf"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/accent_preflight_v04/cues/C04/face.png",
+      "sha256": "714c78d25a88cb0b8722287e58840aa229dba27ee457f7d0428fe18196939508"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/accent_preflight_v04/cues/C05/cue.png",
+      "sha256": "5a8a35fb07d4824c7fd9384bd688747d474ffb25210573e7fac221bf5d7f6c8d"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/accent_preflight_v04/cues/C05/face.png",
+      "sha256": "3c6ff2a061cd58e6d408522a6c4e46e97813bb508fddd49d189bde791ab5b217"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/accent_preflight_v04/cues/C06/cue.png",
+      "sha256": "753dbcd6d0dcc4a14e22e09da1f3cc53a76f2196814d36d8f75c7fa5a63cfee4"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/accent_preflight_v04/cues/C06/face.png",
+      "sha256": "fd08004540dc44a4670f25cd5570a222cbe4c1432780f9a40553c7a3598c5ca7"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/accent_preflight_v04/cues/C07/cue.png",
+      "sha256": "4fc63459239114a71498a0eaaac19894b4c7b609dcdbccf7dbb33455d3c52933"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/accent_preflight_v04/cues/C07/face.png",
+      "sha256": "a2cc6970bd0e8edb752782c2a8083bc363845c0cea08b3a275147327f66492b2"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/accent_preflight_v04/cues/C10/cue.png",
+      "sha256": "89aa6cc104d395d7149f242057d75d365f8af77fceb9934d17785ba4ea97aaa6"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/accent_preflight_v04/cues/C10/face.png",
+      "sha256": "df96af9296345d9e73ac74a8bda30cf3b05da3389d5edc86eaa1ed0abeefa474"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/accent_preflight_v04/cues/C11/cue.png",
+      "sha256": "47de3422a3534130e64aeeee18438793847bfb7569915147ca20349d42c92a99"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/accent_preflight_v04/cues/C11/face.png",
+      "sha256": "138f3a57a36af1eb63e687d6f7cb32f17d20ecb9d019246e353bcad330117bc8"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/accent_preflight_v04/cues/C13/cue.png",
+      "sha256": "20eb4a1d3477ae58a27c86f94f2eed0e8e0f52aae5c7f4a7a907ae4777e20282"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/accent_preflight_v04/cues/C13/face.png",
+      "sha256": "694cc8f0188fdb90071d27c3d39e3615d3847ed92bf59906833f1cd791afa1cf"
+    }
+  ],
+  "manifest_sha256": "6349e6d14091dd54adefa71e6785091acaff98255996aaa7143afcc98c5a3927",
+  "pairs": [
+    {
+      "anchor": "primary",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.2
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              534,
+              94,
+              1139,
+              284
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            510,
+            70
+          ],
+          "phone_preview": "../../../Work/full-captions-v04/previews/R006/P01/primary__phone.png",
+          "preview": "../../../Work/full-captions-v04/previews/R006/P01/primary.png"
+        },
+        {
+          "anchor": "alternate",
+          "center": [
+            0.22,
+            0.2
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              66,
+              94,
+              671,
+              284
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            42,
+            70
+          ],
+          "phone_preview": "../../../Work/full-captions-v04/previews/R006/P01/alternate__phone.png",
+          "preview": "../../../Work/full-captions-v04/previews/R006/P01/alternate.png"
+        }
+      ],
+      "cue": "P01",
+      "scene": "R006"
+    },
+    {
+      "anchor": "primary",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.2
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              622,
+              92,
+              1046,
+              290
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            606,
+            63
+          ],
+          "phone_preview": "../../../Work/full-captions-v04/previews/R013/C03/primary__phone.png",
+          "preview": "../../../Work/full-captions-v04/previews/R013/C03/primary.png"
+        },
+        {
+          "anchor": "alternate",
+          "center": [
+            0.22,
+            0.2
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              154,
+              92,
+              578,
+              290
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            138,
+            63
+          ],
+          "phone_preview": "../../../Work/full-captions-v04/previews/R013/C03/alternate__phone.png",
+          "preview": "../../../Work/full-captions-v04/previews/R013/C03/alternate.png"
+        }
+      ],
+      "cue": "C03",
+      "scene": "R013"
+    },
+    {
+      "anchor": "primary",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.2
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              633,
+              94,
+              1037,
+              302
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            607,
+            67
+          ],
+          "phone_preview": "../../../Work/full-captions-v04/previews/R021/C04/primary__phone.png",
+          "preview": "../../../Work/full-captions-v04/previews/R021/C04/primary.png"
+        },
+        {
+          "anchor": "alternate",
+          "center": [
+            0.22,
+            0.2
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              165,
+              94,
+              569,
+              302
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            139,
+            67
+          ],
+          "phone_preview": "../../../Work/full-captions-v04/previews/R021/C04/alternate__phone.png",
+          "preview": "../../../Work/full-captions-v04/previews/R021/C04/alternate.png"
+        }
+      ],
+      "cue": "C04",
+      "scene": "R021"
+    },
+    {
+      "anchor": "primary",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.2
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              580,
+              93,
+              1093,
+              297
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            560,
+            58
+          ],
+          "phone_preview": "../../../Work/full-captions-v04/previews/R035/C05/primary__phone.png",
+          "preview": "../../../Work/full-captions-v04/previews/R035/C05/primary.png"
+        },
+        {
+          "anchor": "alternate",
+          "center": [
+            0.22,
+            0.2
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              112,
+              93,
+              625,
+              297
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            92,
+            58
+          ],
+          "phone_preview": "../../../Work/full-captions-v04/previews/R035/C05/alternate__phone.png",
+          "preview": "../../../Work/full-captions-v04/previews/R035/C05/alternate.png"
+        }
+      ],
+      "cue": "C05",
+      "scene": "R035"
+    },
+    {
+      "anchor": "primary",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.2
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              600,
+              66,
+              1082,
+              319
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            586,
+            59
+          ],
+          "phone_preview": "../../../Work/full-captions-v04/previews/R055/C06/primary__phone.png",
+          "preview": "../../../Work/full-captions-v04/previews/R055/C06/primary.png"
+        },
+        {
+          "anchor": "alternate",
+          "center": [
+            0.22,
+            0.2
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              132,
+              66,
+              614,
+              319
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            118,
+            59
+          ],
+          "phone_preview": "../../../Work/full-captions-v04/previews/R055/C06/alternate__phone.png",
+          "preview": "../../../Work/full-captions-v04/previews/R055/C06/alternate.png"
+        }
+      ],
+      "cue": "C06",
+      "scene": "R055"
+    },
+    {
+      "anchor": "primary",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.2
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              600,
+              66,
+              1082,
+              319
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            586,
+            59
+          ],
+          "phone_preview": "../../../Work/full-captions-v04/previews/R056/C06/primary__phone.png",
+          "preview": "../../../Work/full-captions-v04/previews/R056/C06/primary.png"
+        },
+        {
+          "anchor": "alternate",
+          "center": [
+            0.22,
+            0.2
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              132,
+              66,
+              614,
+              319
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            118,
+            59
+          ],
+          "phone_preview": "../../../Work/full-captions-v04/previews/R056/C06/alternate__phone.png",
+          "preview": "../../../Work/full-captions-v04/previews/R056/C06/alternate.png"
+        }
+      ],
+      "cue": "C06",
+      "scene": "R056"
+    },
+    {
+      "anchor": "primary",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.2
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              578,
+              90,
+              1080,
+              299
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            578,
+            60
+          ],
+          "phone_preview": "../../../Work/full-captions-v04/previews/R068/C07/primary__phone.png",
+          "preview": "../../../Work/full-captions-v04/previews/R068/C07/primary.png"
+        },
+        {
+          "anchor": "alternate",
+          "center": [
+            0.22,
+            0.2
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              110,
+              90,
+              612,
+              299
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            110,
+            60
+          ],
+          "phone_preview": "../../../Work/full-captions-v04/previews/R068/C07/alternate__phone.png",
+          "preview": "../../../Work/full-captions-v04/previews/R068/C07/alternate.png"
+        }
+      ],
+      "cue": "C07",
+      "scene": "R068"
+    },
+    {
+      "anchor": "alternate",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.2
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              525,
+              96,
+              1147,
+              285
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            512,
+            76
+          ],
+          "phone_preview": "../../../Work/full-captions-v04/previews/R072/P02/primary__phone.png",
+          "preview": "../../../Work/full-captions-v04/previews/R072/P02/primary.png"
+        },
+        {
+          "anchor": "alternate",
+          "center": [
+            0.22,
+            0.2
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              57,
+              96,
+              679,
+              285
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            44,
+            76
+          ],
+          "phone_preview": "../../../Work/full-captions-v04/previews/R072/P02/alternate__phone.png",
+          "preview": "../../../Work/full-captions-v04/previews/R072/P02/alternate.png"
+        }
+      ],
+      "cue": "P02",
+      "scene": "R072"
+    },
+    {
+      "anchor": "primary",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.2
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              493,
+              140,
+              1180,
+              240
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            485,
+            132
+          ],
+          "phone_preview": "../../../Work/full-captions-v04/previews/R078/C10/primary__phone.png",
+          "preview": "../../../Work/full-captions-v04/previews/R078/C10/primary.png"
+        },
+        {
+          "anchor": "alternate",
+          "center": [
+            0.22,
+            0.2
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              25,
+              140,
+              712,
+              240
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "FAIL",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            17,
+            132
+          ],
+          "phone_preview": "../../../Work/full-captions-v04/previews/R078/C10/alternate__phone.png",
+          "preview": "../../../Work/full-captions-v04/previews/R078/C10/alternate.png"
+        }
+      ],
+      "cue": "C10",
+      "scene": "R078"
+    },
+    {
+      "anchor": "primary",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.2
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              446,
+              41,
+              1225,
+              339
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            440,
+            30
+          ],
+          "phone_preview": "../../../Work/full-captions-v04/previews/R083/C11/primary__phone.png",
+          "preview": "../../../Work/full-captions-v04/previews/R083/C11/primary.png"
+        },
+        {
+          "anchor": "alternate",
+          "center": [
+            0.22,
+            0.2
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              -23,
+              41,
+              756,
+              339
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "FAIL",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            -29,
+            30
+          ],
+          "phone_preview": "../../../Work/full-captions-v04/previews/R083/C11/alternate__phone.png",
+          "preview": "../../../Work/full-captions-v04/previews/R083/C11/alternate.png"
+        }
+      ],
+      "cue": "C11",
+      "scene": "R083"
+    },
+    {
+      "anchor": "primary",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.2
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              572,
+              92,
+              1101,
+              286
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            554,
+            63
+          ],
+          "phone_preview": "../../../Work/full-captions-v04/previews/R090/P03/primary__phone.png",
+          "preview": "../../../Work/full-captions-v04/previews/R090/P03/primary.png"
+        },
+        {
+          "anchor": "alternate",
+          "center": [
+            0.22,
+            0.2
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              104,
+              92,
+              633,
+              286
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            86,
+            63
+          ],
+          "phone_preview": "../../../Work/full-captions-v04/previews/R090/P03/alternate__phone.png",
+          "preview": "../../../Work/full-captions-v04/previews/R090/P03/alternate.png"
+        }
+      ],
+      "cue": "P03",
+      "scene": "R090"
+    },
+    {
+      "anchor": "primary",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.2
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              487,
+              130,
+              1186,
+              245
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            467,
+            115
+          ],
+          "phone_preview": "../../../Work/full-captions-v04/previews/R096/C13/primary__phone.png",
+          "preview": "../../../Work/full-captions-v04/previews/R096/C13/primary.png"
+        },
+        {
+          "anchor": "alternate",
+          "center": [
+            0.22,
+            0.2
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              19,
+              130,
+              718,
+              245
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "FAIL",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            -1,
+            115
+          ],
+          "phone_preview": "../../../Work/full-captions-v04/previews/R096/C13/alternate__phone.png",
+          "preview": "../../../Work/full-captions-v04/previews/R096/C13/alternate.png"
+        }
+      ],
+      "cue": "C13",
+      "scene": "R096"
+    },
+    {
+      "anchor": "primary",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.2
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              535,
+              92,
+              1137,
+              284
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            506,
+            63
+          ],
+          "phone_preview": "../../../Work/full-captions-v04/previews/R104/P04/primary__phone.png",
+          "preview": "../../../Work/full-captions-v04/previews/R104/P04/primary.png"
+        },
+        {
+          "anchor": "alternate",
+          "center": [
+            0.22,
+            0.2
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              67,
+              92,
+              669,
+              284
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            38,
+            63
+          ],
+          "phone_preview": "../../../Work/full-captions-v04/previews/R104/P04/alternate__phone.png",
+          "preview": "../../../Work/full-captions-v04/previews/R104/P04/alternate.png"
+        }
+      ],
+      "cue": "P04",
+      "scene": "R104"
+    },
+    {
+      "anchor": "primary",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.2
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              573,
+              96,
+              1100,
+              284
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            560,
+            68
+          ],
+          "phone_preview": "../../../Work/full-captions-v04/previews/CH03/T01/primary__phone.png",
+          "preview": "../../../Work/full-captions-v04/previews/CH03/T01/primary.png"
+        },
+        {
+          "anchor": "alternate",
+          "center": [
+            0.22,
+            0.2
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              105,
+              96,
+              632,
+              284
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            92,
+            68
+          ],
+          "phone_preview": "../../../Work/full-captions-v04/previews/CH03/T01/alternate__phone.png",
+          "preview": "../../../Work/full-captions-v04/previews/CH03/T01/alternate.png"
+        }
+      ],
+      "cue": "T01",
+      "scene": "CH03"
+    },
+    {
+      "anchor": "alternate",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.2
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              554,
+              105,
+              1117,
+              279
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            531,
+            87
+          ],
+          "phone_preview": "../../../Work/full-captions-v04/previews/CH05/T02/primary__phone.png",
+          "preview": "../../../Work/full-captions-v04/previews/CH05/T02/primary.png"
+        },
+        {
+          "anchor": "alternate",
+          "center": [
+            0.22,
+            0.2
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              86,
+              105,
+              649,
+              279
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            63,
+            87
+          ],
+          "phone_preview": "../../../Work/full-captions-v04/previews/CH05/T02/alternate__phone.png",
+          "preview": "../../../Work/full-captions-v04/previews/CH05/T02/alternate.png"
+        }
+      ],
+      "cue": "T02",
+      "scene": "CH05"
+    },
+    {
+      "anchor": "primary",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.2
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              493,
+              100,
+              1179,
+              278
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            476,
+            64
+          ],
+          "phone_preview": "../../../Work/full-captions-v04/previews/R120/P05/primary__phone.png",
+          "preview": "../../../Work/full-captions-v04/previews/R120/P05/primary.png"
+        },
+        {
+          "anchor": "alternate",
+          "center": [
+            0.22,
+            0.2
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              25,
+              100,
+              711,
+              278
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "FAIL",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            8,
+            64
+          ],
+          "phone_preview": "../../../Work/full-captions-v04/previews/R120/P05/alternate__phone.png",
+          "preview": "../../../Work/full-captions-v04/previews/R120/P05/alternate.png"
+        }
+      ],
+      "cue": "P05",
+      "scene": "R120"
+    },
+    {
+      "anchor": "alternate",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.2
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              636,
+              96,
+              1036,
+              282
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            578,
+            75
+          ],
+          "phone_preview": "../../../Work/full-captions-v04/previews/R125/P06/primary__phone.png",
+          "preview": "../../../Work/full-captions-v04/previews/R125/P06/primary.png"
+        },
+        {
+          "anchor": "alternate",
+          "center": [
+            0.22,
+            0.2
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              168,
+              96,
+              568,
+              282
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            110,
+            75
+          ],
+          "phone_preview": "../../../Work/full-captions-v04/previews/R125/P06/alternate__phone.png",
+          "preview": "../../../Work/full-captions-v04/previews/R125/P06/alternate.png"
+        }
+      ],
+      "cue": "P06",
+      "scene": "R125"
+    }
+  ],
+  "pillow_version": "11.3.0",
+  "shared_face_height_px": 84,
+  "source_manifest": {
+    "anchors": {
+      "alternate": {
+        "center": [
+          0.22,
+          0.2
+        ],
+        "max_height_px": 300,
+        "max_width_px": 670
+      },
+      "primary": {
+        "center": [
+          0.5,
+          0.2
+        ],
+        "max_height_px": 300,
+        "max_width_px": 1300
+      }
+    },
+    "canvas": [
+      1672,
+      941
+    ],
+    "cues": [
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                0,
+                0,
+                2146,
+                378
+              ],
+              [
+                0,
+                378,
+                2146,
+                733
+              ]
+            ],
+            "mode": "creamOrange"
+          },
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/revision_v02/P01_v01.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+          "status": "Imagegen glyphs individually viewed: exact spelling, cream face/orange cut layers; measured mask and composites pending",
+          "type": "existingPNG"
+        },
+        "id": "P01",
+        "lines": [
+          "HOW DO YOU",
+          "SAVE A CITY?"
+        ],
+        "provenance": {
+          "decision": {
+            "complementary_candidate": "HOW DO YOU / SAVE A CITY?",
+            "literal_candidate": "how do you save a city",
+            "no_text_candidate": "Image and narration remain understandable; omit if both safe anchors are occupied.",
+            "reason": "The rebuilding question is the hook; deliberately give it visual weight rather than repeat every sentence.",
+            "selected": "complementary framing"
+          },
+          "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/storyboard_v02.json"
+        },
+        "timing": {
+          "global_frames": [
+            618,
+            714
+          ],
+          "status": "ALIGNMENT_BASED_UNLISTENED"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                0,
+                0,
+                476,
+                131
+              ],
+              [
+                0,
+                131,
+                476,
+                251
+              ]
+            ],
+            "mode": "mask",
+            "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/accent_preflight_v04/cues/C03/face.png"
+          },
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/accent_preflight_v04/cues/C03/cue.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/church_v02/T01_v01.png",
+          "status": "Retained accepted exact glyph PNG; new timing and paired composites require recheck",
+          "type": "existingPNG"
+        },
+        "id": "C03",
+        "lines": [
+          "LESS THAN",
+          "NINE FEET"
+        ],
+        "provenance": {
+          "decision": {
+            "complementary_candidate": "less than nine feet",
+            "literal_candidate": "less than nine feet",
+            "no_text_candidate": "Image and narration remain understandable; omit if both safe anchors are occupied.",
+            "reason": "Retain an intentional key quantity; natural ground estimate, not the seawall datum.",
+            "selected": "literal key emphasis"
+          },
+          "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/storyboard_v02.json"
+        },
+        "timing": {
+          "global_frames": [
+            1545,
+            1620
+          ],
+          "status": "ALIGNMENT_BASED_UNLISTENED"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                0,
+                0,
+                473,
+                126
+              ],
+              [
+                0,
+                126,
+                473,
+                251
+              ]
+            ],
+            "mode": "mask",
+            "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/accent_preflight_v04/cues/C04/face.png"
+          },
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/accent_preflight_v04/cues/C04/cue.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/church_v02/T01_v01.png",
+          "status": "Retained accepted exact glyph PNG; new timing and paired composites require recheck",
+          "type": "existingPNG"
+        },
+        "id": "C04",
+        "lines": [
+          "NO WEATHER",
+          "SATELLITES"
+        ],
+        "provenance": {
+          "decision": {
+            "complementary_candidate": "no weather satellites",
+            "literal_candidate": "no weather satellites",
+            "no_text_candidate": "Image and narration remain understandable; omit if both safe anchors are occupied.",
+            "reason": "Intentional key absence in 1900 forecasting, not an exhaustive list revealed early.",
+            "selected": "literal key emphasis"
+          },
+          "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/storyboard_v02.json"
+        },
+        "timing": {
+          "global_frames": [
+            2525,
+            2585
+          ],
+          "status": "ALIGNMENT_BASED_UNLISTENED"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                0,
+                0,
+                583,
+                138
+              ],
+              [
+                0,
+                138,
+                583,
+                280
+              ]
+            ],
+            "mode": "mask",
+            "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/accent_preflight_v04/cues/C05/face.png"
+          },
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/accent_preflight_v04/cues/C05/cue.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/church_v02/T01_v01.png",
+          "status": "Retained accepted exact glyph PNG; new timing and paired composites require recheck",
+          "type": "existingPNG"
+        },
+        "id": "C05",
+        "lines": [
+          "NEARLY SIXTEEN",
+          "FEET"
+        ],
+        "provenance": {
+          "decision": {
+            "complementary_candidate": "nearly sixteen feet",
+            "literal_candidate": "nearly sixteen feet",
+            "no_text_candidate": "Image and narration remain understandable; omit if both safe anchors are occupied.",
+            "reason": "Retain estimated surge wording in its own scene, separate from all other levels.",
+            "selected": "literal key emphasis"
+          },
+          "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/storyboard_v02.json"
+        },
+        "timing": {
+          "global_frames": [
+            4546,
+            4606
+          ],
+          "status": "ALIGNMENT_BASED_UNLISTENED"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                0,
+                0,
+                520,
+                132
+              ],
+              [
+                0,
+                132,
+                520,
+                274
+              ]
+            ],
+            "mode": "mask",
+            "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/accent_preflight_v04/cues/C06/face.png"
+          },
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/accent_preflight_v04/cues/C06/cue.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/church_v02/T01_v01.png",
+          "status": "Retained accepted exact glyph PNG; new timing and paired composites require recheck",
+          "type": "existingPNG"
+        },
+        "id": "C06",
+        "lines": [
+          "AT LEAST",
+          "SIX THOUSAND"
+        ],
+        "provenance": {
+          "decision": {
+            "complementary_candidate": "at least six thousand",
+            "literal_candidate": "at least six thousand",
+            "no_text_candidate": "Image and narration remain understandable; omit if both safe anchors are occupied.",
+            "reason": "Sober minimum, not exact total; crosses into R056 and must be checked on both images.",
+            "selected": "literal key emphasis"
+          },
+          "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/storyboard_v02.json"
+        },
+        "timing": {
+          "global_frames": [
+            7083,
+            7145
+          ],
+          "status": "ALIGNMENT_BASED_UNLISTENED"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                0,
+                0,
+                528,
+                132
+              ],
+              [
+                0,
+                132,
+                528,
+                273
+              ]
+            ],
+            "mode": "mask",
+            "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/accent_preflight_v04/cues/C07/face.png"
+          },
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/accent_preflight_v04/cues/C07/cue.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/church_v02/T01_v01.png",
+          "status": "Retained accepted exact glyph PNG; new timing and paired composites require recheck",
+          "type": "existingPNG"
+        },
+        "id": "C07",
+        "lines": [
+          "BETTER CHANCE",
+          "NEXT TIME"
+        ],
+        "provenance": {
+          "decision": {
+            "complementary_candidate": "better chance next time",
+            "literal_candidate": "better chance next time",
+            "no_text_candidate": "Image and narration remain understandable; omit if both safe anchors are occupied.",
+            "reason": "A deliberate forward-looking hinge after the immediate recovery.",
+            "selected": "literal key emphasis"
+          },
+          "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/storyboard_v02.json"
+        },
+        "timing": {
+          "global_frames": [
+            8835,
+            8889
+          ],
+          "status": "ALIGNMENT_BASED_UNLISTENED"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                0,
+                0,
+                2140,
+                368
+              ],
+              [
+                0,
+                368,
+                2140,
+                735
+              ]
+            ],
+            "mode": "creamOrange"
+          },
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/revision_v02/P02_v01.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+          "status": "Imagegen glyphs individually viewed: exact spelling, cream face/orange cut layers; measured mask and composites pending",
+          "type": "existingPNG"
+        },
+        "id": "P02",
+        "lines": [
+          "A WALL",
+          "ISN’T ENOUGH"
+        ],
+        "provenance": {
+          "decision": {
+            "complementary_candidate": "A WALL / ISN’T ENOUGH",
+            "literal_candidate": "a problem behind it",
+            "no_text_candidate": "Image and narration remain understandable; omit if both safe anchors are occupied.",
+            "reason": "Reveal the landward problem after the wall, without showing the next solution early.",
+            "selected": "complementary framing"
+          },
+          "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/storyboard_v02.json"
+        },
+        "timing": {
+          "global_frames": [
+            9258,
+            9340
+          ],
+          "status": "ALIGNMENT_BASED_UNLISTENED"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                0,
+                0,
+                738,
+                122
+              ]
+            ],
+            "mode": "mask",
+            "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/accent_preflight_v04/cues/C10/face.png"
+          },
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/accent_preflight_v04/cues/C10/cue.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/church_v02/T01_v01.png",
+          "status": "Retained accepted exact glyph PNG; new timing and paired composites require recheck",
+          "type": "existingPNG"
+        },
+        "id": "C10",
+        "lines": [
+          "SEVENTEEN FEET"
+        ],
+        "provenance": {
+          "decision": {
+            "complementary_candidate": "seventeen feet",
+            "literal_candidate": "seventeen feet",
+            "no_text_candidate": "Image and narration remain understandable; omit if both safe anchors are occupied.",
+            "reason": "Height above mean low water, no comparison axis to natural ground or surge.",
+            "selected": "literal key emphasis"
+          },
+          "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/storyboard_v02.json"
+        },
+        "timing": {
+          "global_frames": [
+            10050,
+            10113
+          ],
+          "status": "ALIGNMENT_BASED_UNLISTENED"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                0,
+                0,
+                828,
+                114
+              ],
+              [
+                0,
+                114,
+                828,
+                219
+              ],
+              [
+                0,
+                219,
+                828,
+                331
+              ]
+            ],
+            "mode": "mask",
+            "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/accent_preflight_v04/cues/C11/face.png"
+          },
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/accent_preflight_v04/cues/C11/cue.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/church_v02/T01_v01.png",
+          "status": "Retained accepted exact glyph PNG; new timing and paired composites require recheck",
+          "type": "existingPNG"
+        },
+        "id": "C11",
+        "lines": [
+          "ABOUT",
+          "TWO THOUSAND",
+          "BUILDINGS"
+        ],
+        "provenance": {
+          "decision": {
+            "complementary_candidate": "About two thousand buildings",
+            "literal_candidate": "About two thousand buildings",
+            "no_text_candidate": "Image and narration remain understandable; omit if both safe anchors are occupied.",
+            "reason": "Keep about and buildings; do not substitute count of all structures.",
+            "selected": "literal key emphasis"
+          },
+          "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/storyboard_v02.json"
+        },
+        "timing": {
+          "global_frames": [
+            10702,
+            10777
+          ],
+          "status": "ALIGNMENT_BASED_UNLISTENED"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                0,
+                0,
+                1918,
+                418
+              ],
+              [
+                0,
+                418,
+                1918,
+                820
+              ]
+            ],
+            "mode": "creamOrange"
+          },
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/revision_v02/P03_v01.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+          "status": "Imagegen glyphs individually viewed: exact spelling, cream face/orange cut layers; measured mask and composites pending",
+          "type": "existingPNG"
+        },
+        "id": "P03",
+        "lines": [
+          "THE CITY",
+          "STILL LIVED"
+        ],
+        "provenance": {
+          "decision": {
+            "complementary_candidate": "THE CITY / STILL LIVED",
+            "literal_candidate": "a living city",
+            "no_text_candidate": "Image and narration remain understandable; omit if both safe anchors are occupied.",
+            "reason": "Add the contrast of ordinary life persisting inside the construction site.",
+            "selected": "complementary framing"
+          },
+          "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/storyboard_v02.json"
+        },
+        "timing": {
+          "global_frames": [
+            11670,
+            11750
+          ],
+          "status": "ALIGNMENT_BASED_UNLISTENED"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                0,
+                0,
+                776,
+                157
+              ]
+            ],
+            "mode": "mask",
+            "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/accent_preflight_v04/cues/C13/face.png"
+          },
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/accent_preflight_v04/cues/C13/cue.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/church_v02/T01_v01.png",
+          "status": "Retained accepted exact glyph PNG; new timing and paired composites require recheck",
+          "type": "existingPNG"
+        },
+        "id": "C13",
+        "lines": [
+          "THE NEW GROUND"
+        ],
+        "provenance": {
+          "decision": {
+            "complementary_candidate": "the new ground",
+            "literal_candidate": "the new ground",
+            "no_text_candidate": "Image and narration remain understandable; omit if both safe anchors are occupied.",
+            "reason": "Intentional label on the moment fill becomes the city’s supporting ground.",
+            "selected": "literal key emphasis"
+          },
+          "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/storyboard_v02.json"
+        },
+        "timing": {
+          "global_frames": [
+            12667,
+            12721
+          ],
+          "status": "ALIGNMENT_BASED_UNLISTENED"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                0,
+                0,
+                2146,
+                398
+              ],
+              [
+                0,
+                398,
+                2146,
+                732
+              ]
+            ],
+            "mode": "creamOrange"
+          },
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/revision_v02/P04_v01.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+          "status": "Imagegen glyphs individually viewed: exact spelling, cream face/orange cut layers; measured mask and composites pending",
+          "type": "existingPNG"
+        },
+        "id": "P04",
+        "lines": [
+          "REBUILDING",
+          "HAD A PRICE"
+        ],
+        "provenance": {
+          "decision": {
+            "complementary_candidate": "REBUILDING / HAD A PRICE",
+            "literal_candidate": "property owners had to pay",
+            "no_text_candidate": "Image and narration remain understandable; omit if both safe anchors are occupied.",
+            "reason": "Connect public engineering to household expense; no invented sum or bill.",
+            "selected": "complementary framing"
+          },
+          "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/storyboard_v02.json"
+        },
+        "timing": {
+          "global_frames": [
+            13665,
+            13745
+          ],
+          "status": "ALIGNMENT_BASED_UNLISTENED"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                0,
+                0,
+                1919,
+                410
+              ],
+              [
+                0,
+                410,
+                1919,
+                820
+              ]
+            ],
+            "mode": "creamOrange"
+          },
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/church_v02/T01_v01.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+          "status": "Imagegen glyphs individually viewed: exact spelling, cream face/orange cut layers; measured mask and composites pending",
+          "type": "existingPNG"
+        },
+        "id": "T01",
+        "lines": [
+          "700 JACKS",
+          "ONE CHURCH"
+        ],
+        "provenance": {
+          "decision": {
+            "complementary_candidate": "700 JACKS / ONE CHURCH",
+            "literal_candidate": "seven hundred jacks",
+            "no_text_candidate": "Image and narration remain understandable; omit if both safe anchors are occupied.",
+            "reason": "The relation between small instruments and one immense building; one tool in image.",
+            "selected": "complementary framing"
+          },
+          "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/storyboard_v02.json"
+        },
+        "timing": {
+          "global_frames": [
+            14498,
+            14563
+          ],
+          "status": "ALIGNMENT_BASED_UNLISTENED"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                0,
+                0,
+                2146,
+                370
+              ],
+              [
+                0,
+                370,
+                2146,
+                733
+              ]
+            ],
+            "mode": "creamOrange"
+          },
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/church_v02/T02_v01.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+          "status": "Imagegen glyphs individually viewed: exact spelling, cream face/orange cut layers; measured mask and composites pending",
+          "type": "existingPNG"
+        },
+        "id": "T02",
+        "lines": [
+          "MANY HANDS",
+          "ONE BUILDING"
+        ],
+        "provenance": {
+          "decision": {
+            "complementary_candidate": "MANY HANDS / ONE BUILDING",
+            "literal_candidate": "many smaller lifts",
+            "no_text_candidate": "Image and narration remain understandable; omit if both safe anchors are occupied.",
+            "reason": "A complementary human-scale conclusion anchored to patient coordination, not literal highlighting of the final word lifts.",
+            "selected": "complementary framing"
+          },
+          "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/storyboard_v02.json"
+        },
+        "timing": {
+          "global_frames": [
+            14743,
+            14833
+          ],
+          "status": "ALIGNMENT_BASED_UNLISTENED"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                0,
+                0,
+                2172,
+                387
+              ],
+              [
+                0,
+                387,
+                2172,
+                724
+              ]
+            ],
+            "mode": "creamOrange"
+          },
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/revision_v02/P05_v01.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+          "status": "Imagegen glyphs individually viewed: exact spelling, cream face/orange cut layers; measured mask and composites pending",
+          "type": "existingPNG"
+        },
+        "id": "P05",
+        "lines": [
+          "SAFER",
+          "NOT INVULNERABLE"
+        ],
+        "provenance": {
+          "decision": {
+            "complementary_candidate": "SAFER / NOT INVULNERABLE",
+            "literal_candidate": "did not make Galveston invulnerable",
+            "no_text_candidate": "Image and narration remain understandable; omit if both safe anchors are occupied.",
+            "reason": "Frame the contrast between improved defense and continuing hurricane risk.",
+            "selected": "complementary framing"
+          },
+          "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/storyboard_v02.json"
+        },
+        "timing": {
+          "global_frames": [
+            15990,
+            16062
+          ],
+          "status": "ALIGNMENT_BASED_UNLISTENED"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                0,
+                0,
+                1918,
+                421
+              ],
+              [
+                0,
+                421,
+                1918,
+                820
+              ]
+            ],
+            "mode": "creamOrange"
+          },
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/revision_v02/P06_v01.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+          "status": "Imagegen glyphs individually viewed: exact spelling, cream face/orange cut layers; measured mask and composites pending",
+          "type": "existingPNG"
+        },
+        "id": "P06",
+        "lines": [
+          "GROUND",
+          "AT LAST"
+        ],
+        "provenance": {
+          "decision": {
+            "complementary_candidate": "GROUND / AT LAST",
+            "literal_candidate": "changed the ground",
+            "no_text_candidate": "Image and narration remain understandable; omit if both safe anchors are occupied.",
+            "reason": "The filled entrance answers the opening void; put this short phrase on the alternate left zone to leave the actual door visible.",
+            "selected": "complementary framing"
+          },
+          "record": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Storyboard/storyboard_v02.json"
+        },
+        "timing": {
+          "global_frames": [
+            16713,
+            16798
+          ],
+          "status": "ALIGNMENT_BASED_UNLISTENED"
+        }
+      }
+    ],
+    "face_height_px": 88,
+    "min_face_height_px": 72,
+    "pairs": [
+      {
+        "anchor": "primary",
+        "cue": "P01",
+        "scene": "R006"
+      },
+      {
+        "anchor": "primary",
+        "cue": "C03",
+        "scene": "R013"
+      },
+      {
+        "anchor": "primary",
+        "cue": "C04",
+        "scene": "R021"
+      },
+      {
+        "anchor": "primary",
+        "cue": "C05",
+        "scene": "R035"
+      },
+      {
+        "anchor": "primary",
+        "cue": "C06",
+        "scene": "R055"
+      },
+      {
+        "anchor": "primary",
+        "cue": "C06",
+        "scene": "R056"
+      },
+      {
+        "anchor": "primary",
+        "cue": "C07",
+        "scene": "R068"
+      },
+      {
+        "anchor": "alternate",
+        "cue": "P02",
+        "scene": "R072"
+      },
+      {
+        "anchor": "primary",
+        "cue": "C10",
+        "scene": "R078"
+      },
+      {
+        "anchor": "primary",
+        "cue": "C11",
+        "scene": "R083"
+      },
+      {
+        "anchor": "primary",
+        "cue": "P03",
+        "scene": "R090"
+      },
+      {
+        "anchor": "primary",
+        "cue": "C13",
+        "scene": "R096"
+      },
+      {
+        "anchor": "primary",
+        "cue": "P04",
+        "scene": "R104"
+      },
+      {
+        "anchor": "primary",
+        "cue": "T01",
+        "scene": "CH03"
+      },
+      {
+        "anchor": "alternate",
+        "cue": "T02",
+        "scene": "CH05"
+      },
+      {
+        "anchor": "primary",
+        "cue": "P05",
+        "scene": "R120"
+      },
+      {
+        "anchor": "alternate",
+        "cue": "P06",
+        "scene": "R125"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "R006",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/paper_v01/scene_006_v01.png"
+      },
+      {
+        "id": "R013",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/paper_v01/scene_013_v01.png"
+      },
+      {
+        "id": "R021",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/paper_v01/scene_021_v01.png"
+      },
+      {
+        "id": "R035",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/paper_v01/scene_035_v01.png"
+      },
+      {
+        "id": "R055",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/paper_v01/scene_060_v01.png"
+      },
+      {
+        "id": "R056",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/paper_v01/scene_056_v01.png"
+      },
+      {
+        "id": "R068",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/paper_v01/scene_068_v01.png"
+      },
+      {
+        "id": "R072",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/revision_v02/R072_v01.png"
+      },
+      {
+        "id": "R078",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/paper_v01/scene_078_v01.png"
+      },
+      {
+        "id": "R083",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/paper_v01/scene_083_v01.png"
+      },
+      {
+        "id": "R090",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/paper_v01/scene_090_v01.png"
+      },
+      {
+        "id": "R096",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/paper_v01/scene_096_v01.png"
+      },
+      {
+        "id": "R104",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/paper_v01/scene_104_v01.png"
+      },
+      {
+        "id": "CH03",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/church_v02/CH03_v01.png"
+      },
+      {
+        "id": "CH05",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/paper_v01/scene_110_v01.png"
+      },
+      {
+        "id": "R120",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/paper_v01/scene_120_v01.png"
+      },
+      {
+        "id": "R125",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Source/Images/revision_v02/R125_v01.png"
+      }
+    ],
+    "version": 1
+  },
+  "storage": {
+    "dependencies": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Assets/Generated/full-captions-v04",
+    "previews": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Work/full-captions-v04/previews"
+  },
+  "version": 1
+}

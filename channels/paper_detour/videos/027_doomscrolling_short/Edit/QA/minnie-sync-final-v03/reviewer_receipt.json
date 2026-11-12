@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "episode": "Paper Detour 027 — Minnie Freeman",
+  "reviewed_at_utc": "2026-11-02T14:46:37Z",
+  "media": {
+    "path": "Deliverables/PAPER_DETOUR_027_MINNIE_SYNC_FINAL_EN_20261102.mp4",
+    "sha256": "ebf722950425fa83b7b2157bf3ecf1870aba49d53a25f5c4455bef40404cbe74",
+    "duration_seconds": 35,
+    "frame_count": 1050,
+    "fps": "30/1",
+    "project_id": "7CDA44DD",
+    "timeline_id": "DE25483E"
+  },
+  "technical_report": "Edit/QA/minnie-sync-final-v03/report.json",
+  "checks": {
+    "stream_metadata": {
+      "status": "PASS",
+      "evidence": "Technical report; 1080x1920 H.264/yuv420p/BT.709 at 30 fps; mono MP3 44.1 kHz; 35.000 s."
+    },
+    "full_decode": {
+      "status": "PASS",
+      "evidence": "Technical report full FFmpeg decode of both streams; no decode errors."
+    },
+    "audio_stream_identity": {
+      "status": "PASS",
+      "evidence": "SHA-256 of copied audio packet stream equals retained voice source packet stream: 7cfbb80c2aca1a1361dedb031eee915cc30a84f1d7d1e34e470c3b115c7ac57f."
+    },
+    "frame_sampling": {
+      "status": "PASS",
+      "coverage": "All 181 helper-selected frames were reviewed through 19 scene/cue contact sheets. The selection spans all 8 scenes, cut boundaries, all 39 subtitle groups and both semantic accents; three representative frames were also inspected at 1080x1920. This is a selected-frame review, not continuous playback or every-frame motion review.",
+      "evidence": [
+        "Edit/QA/minnie-sync-final-v03/contact_sheets/contact_01.jpg through contact_19.jpg",
+        "Work/minnie-sync-final-v03/scratch/qa/"
+      ]
+    },
+    "text_composition": {
+      "status": "PASS_WITH_SAMPLED_SCOPE",
+      "coverage": "Subtitle legibility, contrast, placement, scene/cue transitions and visible overlap reviewed across all 181 selected frames at phone-size contact-sheet scale; 3 frames were checked full-size. No caption obscures a face in the reviewed samples. Continuous camera-motion extrema remain outside this check."
+    },
+    "cue_timing": {
+      "status": "UNVERIFIED",
+      "evidence": "Word-group timings originate from automatic alignment. The user accepted the sync review preview v03 (SHA-256 187f62fb1eb2b2980cae26687881eb0c1ecaa51234f10313b5745bcf5c08e5df); exact final export was not separately heard during this review."
+    },
+    "motion_framing": {
+      "status": "UNVERIFIED",
+      "reason": "Scene/cue sample coverage is complete, but intermediate camera/depth-motion extrema were not separately reviewed for this exact export."
+    },
+    "audio_signal": {
+      "status": "UNVERIFIED",
+      "reason": "Packet identity and decode were checked; no full signal-level gap/peak analysis performed in this pass."
+    },
+    "subjective_audio_listening": {
+      "status": "UNVERIFIED",
+      "reason": "No independent listening of this exact final MP4 in this pass."
+    },
+    "independent_review": {
+      "status": "UNVERIFIED",
+      "reason": "No independent reviewer."
+    },
+    "srt": {
+      "status": "NOT_REQUESTED",
+      "reason": "Paper Shorts subtitles are burned into the image; separate SRT was not requested."
+    }
+  },
+  "technical_status": "PASS",
+  "profile_verdict": "UNVERIFIED",
+  "reviewer": "Codex; user acceptance of review preview recorded separately."
+}

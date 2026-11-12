@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "status": "built_pending_measurement_and_remux",
+  "voice": "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Source/Voice/lawrence_v3/voice_en.mp3",
+  "foley": "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Source/Audio/book-page-02.wav",
+  "output": "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Sound/007_joshua_jessica_stereo_mix_v04.wav",
+  "output_sha256": "1094aab4d8be7502baef3c60fe9090229253b021bb3be890a53f760a0f470264",
+  "ffmpeg_args": [
+    "ffmpeg",
+    "-hide_banner",
+    "-nostdin",
+    "-n",
+    "-i",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Source/Voice/lawrence_v3/voice_en.mp3",
+    "-i",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Source/Audio/book-page-02.wav",
+    "-filter_complex",
+    "[0:a]aresample=44100,aformat=sample_fmts=fltp:channel_layouts=stereo[voice];[1:a]atrim=0:0.7,asetpts=PTS-STARTPTS,volume='if(lt(t,0.566666667),0.0630957344,if(lt(t,0.666666667),0.0630957344*pow(10,-18*(t-0.566666667)),0.001))':eval=frame,adelay=34267|34267[page];[voice][page]amix=inputs=2:duration=first:normalize=0:dropout_transition=0,loudnorm=I=-22:TP=-2:LRA=3:print_format=json[mix]",
+    "-map",
+    "[mix]",
+    "-ar",
+    "44100",
+    "-ac",
+    "2",
+    "-c:a",
+    "pcm_s24le",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Sound/007_joshua_jessica_stereo_mix_v04.wav"
+  ],
+  "loudnorm_measurements": "Input #0, mp3, from '/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Source/Voice/lawrence_v3/voice_en.mp3':\n  Metadata:\n    encoder         : Lavf63.1.102\n  Duration: 00:00:44.80, start: 0.025057, bitrate: 128 kb/s\n  Stream #0:0: Audio: mp3 (mp3float), 44100 Hz, mono, fltp, 128 kb/s, start 0.025057\n[aist#1:0/pcm_s16le @ 0xb2f004480] Guessed Channel Layout: stereo\nInput #1, wav, from '/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Source/Audio/book-page-02.wav':\n  Metadata:\n    encoder         : Edison\n  Duration: 00:00:00.73, bitrate: 1413 kb/s\n  Stream #1:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s16, 1411 kb/s\nStream mapping:\n  Stream #0:0 (mp3float) -> aresample:default\n  Stream #1:0 (pcm_s16le) -> atrim:default\n  loudnorm:default -> Stream #0:0 (pcm_s24le)\nOutput #0, wav, to '/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Sound/007_joshua_jessica_stereo_mix_v04.wav':\n  Metadata:\n    ISFT            : Lavf62.12.102\n  Stream #0:0: Audio: pcm_s24le ([1][0][0][0] / 0x0001), 44100 Hz, stereo, s32 (24 bit), 2116 kb/s\n    Metadata:\n      encoder         : Lavc62.28.102 pcm_s24le\nsize=    3072KiB time=00:00:11.99 bitrate=2097.2kbits/s speed=23.9x elapsed=0:00:00.50    \nsize=    6400KiB time=00:00:24.99 bitrate=2097.2kbits/s speed=24.9x elapsed=0:00:01.00    \nsize=    9728KiB time=00:00:37.99 bitrate=2097.2kbits/s speed=25.2x elapsed=0:00:01.50    \n[Parsed_loudnorm_7 @ 0xb2ec29380] \n{\n\t\"input_i\" : \"-24.72\",\n\t\"input_tp\" : \"-7.04\",\n\t\"input_lra\" : \"3.20\",\n\t\"input_thresh\" : \"-35.20\",\n\t\"output_i\" : \"-22.01\",\n\t\"output_tp\" : \"-4.05\",\n\t\"output_lra\" : \"2.70\",\n\t\"output_thresh\" : \"-32.50\",\n\t\"normalization_type\" : \"dynamic\",\n\t\"target_offset\" : \"0.01\"\n}\n[out#0/wav @ 0xb2ec28480] video:0KiB audio:11576KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.000860%\nsize=   11576KiB time=00:00:44.80 bitrate=2116.8kbits/s speed=25.9x elapsed=0:00:01.72    \n",
+  "ffprobe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "pcm_s24le",
+        "codec_type": "audio",
+        "sample_rate": "44100",
+        "channels": 2,
+        "channel_layout": "stereo",
+        "duration": "44.800000",
+        "bit_rate": "2116800"
+      }
+    ],
+    "format": {
+      "duration": "44.800000",
+      "size": "11854182"
+    }
+  },
+  "placement": {
+    "sfx_start_frame": 1028,
+    "sfx_start_seconds": 34.266666666666666,
+    "sfx_timeline_frames": [
+      1028,
+      1049
+    ],
+    "sfx_trim_seconds": 0.7,
+    "gain": "-24 dB through frame 17, logarithmic dB keyframe fade to -60 dB at frame 20",
+    "voice_preserved_at_original_timing": true
+  },
+  "target_loudness_lufs": -22,
+  "true_peak_limit_dbtp": -2
+}

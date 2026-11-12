@@ -1,0 +1,35 @@
+{
+  "status": "TECHNICAL_PASS",
+  "subjective_audio_listening": "UNVERIFIED",
+  "full_decode": "PASS",
+  "video_packets_and_timestamps_identical": true,
+  "video_packet_manifest_sha256": "0b67520ca0ed2931aadb3bdebcc354b68971a15ffd8805c7247f1f9223ccd4e1",
+  "audio_track_bitrate_bps": "289845",
+  "mp4": "/Users/diplomat/ytvideos/.agent/research/2026-11-10-four-shorts/production/paper_fingers/Edit/Previews/music_ab_v01/paper_fingers_B_luminance.mp4",
+  "sha256": "c61d7ed8b3a6317f99f72f12bdd22f673e1dca8fecabd4b8b79ddaa242ca904b",
+  "music_stem_lufs": -37.0,
+  "mix_lufs": -23.79,
+  "true_peak_dbtp": -7.14,
+  "decoded_mix_correlation_per_channel": [
+    0.9999619593367063,
+    0.9999623074393217
+  ],
+  "mono_fold_down_delta_db": -0.08,
+  "key_windows_music_vs_voice_db": [
+    [
+      13.9,
+      15.5,
+      -14.91
+    ],
+    [
+      19.52,
+      22.55,
+      -14.41
+    ],
+    [
+      27.4,
+      28.73333,
+      -9.99
+    ]
+  ]
+}

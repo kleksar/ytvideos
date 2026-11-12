@@ -1,0 +1,447 @@
+{
+  "schema": "ytv-delivery-v1",
+  "channel": "nuviko",
+  "format": "long",
+  "canvas": [
+    2560,
+    1440
+  ],
+  "fps": 30,
+  "frames": 480,
+  "audio": {
+    "audio": {
+      "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Work/production-v01/subtitle_sample_v02/mix_excerpt_000_016.wav",
+      "sha256": "7c0bb415045ecc3546fdb184acac7230e4f24c06560954e997f260152dfb1d19"
+    },
+    "applied_speed": 1.1,
+    "speed_policy": {
+      "path": "/Users/diplomat/ytvideos/.agents/skills/ytv-audio-delivery/references/speed.json",
+      "sha256": "32c378c36c1e297cbdc4e3593c965163d33e531b8b8eea026b367bddb51a668a"
+    },
+    "speed_evidence": {
+      "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Work/production-v01/subtitle_sample_v02/speed_evidence_excerpt.json",
+      "sha256": "f4b45404eb154865ea42a15135328648489ceee708cb008c97b3e269dedc85b6"
+    }
+  },
+  "transcript": {
+    "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Work/production-v01/subtitle_sample_v02/transcript_excerpt_en.txt",
+    "sha256": "c58ec46a535f68cd04c69373481791a5d257ec7a81f45dfb914baeaf8100750e"
+  },
+  "word_map": {
+    "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Work/production-v01/subtitle_sample_v02/word_map_excerpt_en.json",
+    "sha256": "2446787d7b265032364b4d10de484dc04958a464c2d89fa9c10fa732498a2043"
+  },
+  "profiles": [
+    {
+      "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/profiles/nuviko.json",
+      "sha256": "e710153ae2bd0587adf233b671924ebbf64d183c3e77d2f5ea0c48b266f467a0"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/profiles/long.json",
+      "sha256": "e8f9f5dd0354283634a0cf9dc1816736bac38de158de1d0bdd1b8b4658f51459"
+    },
+    {
+      "path": "/System/Library/Fonts/Supplemental/Georgia Bold.ttf",
+      "sha256": "1cfa9abd55be746c798c22ef4eba88fce82257934897404be2dae53ed0a4142a"
+    }
+  ],
+  "engine": [
+    {
+      "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/montage.py",
+      "sha256": "8421b4d3544018a5451d3255046cf166f1d41ab907811d285dc455d6c4c11aa0"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/delivery.py",
+      "sha256": "699f9932aff2e15da12c0af6e522053a7969c99fcf66314e29222333645c7ce6"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/.agents/skills/ytv-paper-subtitles/scripts/semantic_grouping.py",
+      "sha256": "d306fe60e6e82ea6bda440b37ba83ba853b25c9d2eb60a68db3e2a2d2846f703"
+    }
+  ],
+  "picture": [
+    {
+      "scene": {
+        "start_frame": 0,
+        "end_frame": 207,
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_01_01_v01.png",
+        "direction": "left_to_right",
+        "zoom": "in",
+        "camera": {
+          "subject": "On July 8, 1941",
+          "focus": [
+            0.54,
+            0.48
+          ],
+          "direction": "left_to_right",
+          "zoom": "in",
+          "start": {
+            "center": [
+              0.508,
+              0.5
+            ],
+            "scale": 1.03
+          },
+          "end": {
+            "center": [
+              0.492,
+              0.5
+            ],
+            "scale": 1.055
+          },
+          "reason": "A restrained left-to-right move with a slow approach keeps On July 8, 1941 readable through “On July 8, 1941” and retains its surrounding context."
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_01_01_v01.png",
+        "sha256": "380e2e63df91ae04bf9517b5c1c9a895f73ce431d084fc1aebe899219d9addc3"
+      }
+    },
+    {
+      "scene": {
+        "start_frame": 207,
+        "end_frame": 300,
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_17_04a_v01.png",
+        "direction": "right_to_left",
+        "zoom": "out",
+        "camera": {
+          "subject": "the non-legible report sheets",
+          "focus": [
+            0.55,
+            0.5
+          ],
+          "direction": "right_to_left",
+          "zoom": "out",
+          "start": {
+            "center": [
+              0.492,
+              0.5
+            ],
+            "scale": 1.055
+          },
+          "end": {
+            "center": [
+              0.508,
+              0.5
+            ],
+            "scale": 1.03
+          },
+          "reason": "A restrained right-to-left move with a slow release keeps the non-legible report sheets readable through “signed a report on the fighting for Brest-Litovsk.” and retains its surrounding context."
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_17_04a_v01.png",
+        "sha256": "7f0bdbe8b76607afbb06a7502d1456a717e6b76c3f017cde555b5415bebed6ed"
+      }
+    },
+    {
+      "scene": {
+        "start_frame": 300,
+        "end_frame": 480,
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_14_01_v02.png",
+        "direction": "left_to_right",
+        "zoom": "none",
+        "camera": {
+          "subject": "the prisoner group",
+          "focus": [
+            0.5,
+            0.52
+          ],
+          "direction": "left_to_right",
+          "zoom": "none",
+          "start": {
+            "center": [
+              0.508,
+              0.5
+            ],
+            "scale": 1.042
+          },
+          "end": {
+            "center": [
+              0.492,
+              0.5
+            ],
+            "scale": 1.042
+          },
+          "reason": "A restrained left-to-right move with a steady scale keeps the prisoner group readable through “By then, the main centers” and retains its surrounding context."
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_14_01_v02.png",
+        "sha256": "467fc8af29b3b05eddd340135797bf59e18b847797bca0154d640ebfeb7bf8fd"
+      }
+    }
+  ],
+  "overlays": [],
+  "groups": [
+    [
+      {
+        "text": "On",
+        "start": 0.0,
+        "end": 0.16
+      },
+      {
+        "text": "July",
+        "start": 0.24,
+        "end": 0.56
+      },
+      {
+        "text": "8,",
+        "start": 0.72,
+        "end": 1.2
+      },
+      {
+        "text": "1941,",
+        "start": 1.28,
+        "end": 2.64
+      }
+    ],
+    [
+      {
+        "text": "Fritz",
+        "start": 2.72,
+        "end": 3.04
+      },
+      {
+        "text": "Schlieper,",
+        "start": 3.12,
+        "end": 3.76
+      }
+    ],
+    [
+      {
+        "text": "commander",
+        "start": 3.96,
+        "end": 4.24
+      },
+      {
+        "text": "of",
+        "start": 4.28,
+        "end": 4.32
+      },
+      {
+        "text": "the",
+        "start": 4.4,
+        "end": 4.48
+      },
+      {
+        "text": "German",
+        "start": 4.56,
+        "end": 4.88
+      }
+    ],
+    [
+      {
+        "text": "45th",
+        "start": 5.04,
+        "end": 5.6
+      },
+      {
+        "text": "Infantry",
+        "start": 5.68,
+        "end": 6.08
+      },
+      {
+        "text": "Division,",
+        "start": 6.16,
+        "end": 6.8
+      }
+    ],
+    [
+      {
+        "text": "signed",
+        "start": 6.88,
+        "end": 7.2
+      },
+      {
+        "text": "a",
+        "start": 7.227,
+        "end": 7.253
+      },
+      {
+        "text": "report",
+        "start": 7.28,
+        "end": 7.76
+      }
+    ],
+    [
+      {
+        "text": "on",
+        "start": 7.8,
+        "end": 7.84
+      },
+      {
+        "text": "the",
+        "start": 7.92,
+        "end": 8.0
+      },
+      {
+        "text": "fighting",
+        "start": 8.08,
+        "end": 8.4
+      }
+    ],
+    [
+      {
+        "text": "for",
+        "start": 8.48,
+        "end": 8.64
+      },
+      {
+        "text": "Brest-Litovsk.",
+        "start": 8.72,
+        "end": 9.8
+      }
+    ],
+    [
+      {
+        "text": "By",
+        "start": 10.0,
+        "end": 10.16
+      },
+      {
+        "text": "then,",
+        "start": 10.24,
+        "end": 10.72
+      }
+    ],
+    [
+      {
+        "text": "the",
+        "start": 10.8,
+        "end": 10.88
+      },
+      {
+        "text": "main",
+        "start": 11.0,
+        "end": 11.12
+      },
+      {
+        "text": "centers",
+        "start": 11.28,
+        "end": 11.6
+      },
+      {
+        "text": "of",
+        "start": 11.68,
+        "end": 11.76
+      },
+      {
+        "text": "organized",
+        "start": 11.84,
+        "end": 12.32
+      }
+    ],
+    [
+      {
+        "text": "resistance",
+        "start": 12.4,
+        "end": 12.96
+      },
+      {
+        "text": "inside",
+        "start": 13.04,
+        "end": 13.44
+      },
+      {
+        "text": "the",
+        "start": 13.52,
+        "end": 13.6
+      },
+      {
+        "text": "fortress",
+        "start": 13.68,
+        "end": 14.16
+      }
+    ],
+    [
+      {
+        "text": "had",
+        "start": 14.24,
+        "end": 14.48
+      },
+      {
+        "text": "already",
+        "start": 14.56,
+        "end": 14.96
+      },
+      {
+        "text": "been",
+        "start": 15.04,
+        "end": 15.2
+      },
+      {
+        "text": "crushed.",
+        "start": 15.28,
+        "end": 15.96
+      }
+    ]
+  ],
+  "resolved": {
+    "resolved_font_size_px": 84,
+    "max_visible_width_px": 1344.0,
+    "center_x_px": 1280.0,
+    "baseline": 1288,
+    "algorithm": "sentence-syntax-width-v4",
+    "display_intervals": [
+      {
+        "start_frame": 0,
+        "end_frame": 82
+      },
+      {
+        "start_frame": 82,
+        "end_frame": 119
+      },
+      {
+        "start_frame": 119,
+        "end_frame": 152
+      },
+      {
+        "start_frame": 152,
+        "end_frame": 207
+      },
+      {
+        "start_frame": 207,
+        "end_frame": 234
+      },
+      {
+        "start_frame": 234,
+        "end_frame": 255
+      },
+      {
+        "start_frame": 255,
+        "end_frame": 300
+      },
+      {
+        "start_frame": 300,
+        "end_frame": 324
+      },
+      {
+        "start_frame": 324,
+        "end_frame": 372
+      },
+      {
+        "start_frame": 372,
+        "end_frame": 428
+      },
+      {
+        "start_frame": 428,
+        "end_frame": 480
+      }
+    ],
+    "boundary_warnings": [
+      {
+        "after_group": 5,
+        "left": "on the fighting",
+        "right": "for Brest-Litovsk.",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 9,
+        "left": "resistance inside the fortress",
+        "right": "had already been crushed.",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      }
+    ]
+  }
+}

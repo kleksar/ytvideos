@@ -1,0 +1,395 @@
+{
+  "canvas": [
+    1080,
+    1920
+  ],
+  "checks": {
+    "motion": "UNVERIFIED",
+    "scope": "assigned pairs at their selected anchors; static geometry only",
+    "sync": "UNVERIFIED",
+    "technical": "PASS",
+    "visual": "UNVERIFIED"
+  },
+  "cues": [
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              73,
+              187,
+              2099,
+              536
+            ]
+          ],
+          "mode": "creamOrange"
+        },
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Source/Graphics/captions_v01/IRAN-BORN_v01.png",
+        "provenance": {
+          "author": "coordinator via built-in image_gen",
+          "record": "DECISION_RECORD_v01.md; accepted Paper typography PNG references A_MESSAGE, MATCH, REPORTED, FORMAT_MATTERS"
+        },
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+        "status": "imagegen candidate; visual style acceptance pending",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/C01/face.png",
+      "face_mask_sha256": "8f85c14fe38cec5beaa7a431177c85526c9940c276c5cba75d642c04a694cee7",
+      "id": "C01",
+      "lines": [
+        "IRAN-BORN"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          13,
+          2,
+          579,
+          182
+        ],
+        "alpha_height_px": 180,
+        "alpha_width_px": 566,
+        "face_bbox": [
+          20,
+          51,
+          571,
+          146
+        ],
+        "face_height_px": 95,
+        "face_line_boxes": [
+          [
+            20,
+            51,
+            571,
+            146
+          ]
+        ],
+        "face_line_heights_px": [
+          95
+        ],
+        "size_px": [
+          592,
+          198
+        ]
+      },
+      "png": "cues/C01/cue.png",
+      "png_sha256": "8f239c6fb5adb0cead52fbc84d10cd16e05c8e7c51877d934d2566c93f150244",
+      "provenance": {
+        "author": "coordinator",
+        "record": "DECISION_RECORD_v01.md"
+      },
+      "timing": {
+        "note": "estimated S01 window about 1.0–4.0 s after Iranian-born through ashore; no recording/listening",
+        "status": "UNVERIFIED"
+      },
+      "uniform_scale": 0.2722063037249284
+    },
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              175,
+              55,
+              2004,
+              352
+            ],
+            [
+              175,
+              390,
+              2004,
+              694
+            ]
+          ],
+          "mode": "creamOrange"
+        },
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Source/Graphics/captions_v01/WE_ARE_ALL_BROTHERS_v01.png",
+        "provenance": {
+          "author": "coordinator via built-in image_gen",
+          "record": "DECISION_RECORD_v01.md; accepted Paper typography PNG references A_MESSAGE, MATCH, REPORTED, FORMAT_MATTERS"
+        },
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+        "status": "imagegen candidate; visual style acceptance pending",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/C16/face.png",
+      "face_mask_sha256": "79f160a17823b61d18755e764d606032a7e699de8bce622b1f7945d421b59b28",
+      "id": "C16",
+      "lines": [
+        "WE ARE ALL",
+        "BROTHERS"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          46,
+          15,
+          633,
+          226
+        ],
+        "alpha_height_px": 211,
+        "alpha_width_px": 587,
+        "face_bbox": [
+          55,
+          22,
+          626,
+          217
+        ],
+        "face_height_px": 95,
+        "face_line_boxes": [
+          [
+            55,
+            22,
+            626,
+            110
+          ],
+          [
+            78,
+            122,
+            601,
+            217
+          ]
+        ],
+        "face_line_heights_px": [
+          88,
+          95
+        ],
+        "size_px": [
+          679,
+          227
+        ]
+      },
+      "png": "cues/C16/cue.png",
+      "png_sha256": "581f5e7b82d428f7e8428ab72c14094f7a1261c86c5f3b9a5e9a17b325a156b3",
+      "provenance": {
+        "author": "coordinator",
+        "record": "DECISION_RECORD_v01.md"
+      },
+      "timing": {
+        "note": "estimated S16 window about 1.5–4.0 s on brothers through Pattaya; no recording/listening",
+        "status": "UNVERIFIED"
+      },
+      "uniform_scale": 0.3125
+    }
+  ],
+  "helper_sha256": "86fcde095d01b3300ac1497f9f38c5f38494a740f5dcd987af9a8595d42a8150",
+  "helper_version": "1.1.0",
+  "inputs": [
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+      "sha256": "ba67eb5c6a99c647887765ec9da7dc0ce7576c990d5e37aa04d3a4533c3ff07b"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Source/Graphics/captions_v01/IRAN-BORN_v01.png",
+      "sha256": "4705f8e03189c0ee44d1382084dd141dcdb07703181bf195e72a5edbfafae531"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Source/Graphics/captions_v01/WE_ARE_ALL_BROTHERS_v01.png",
+      "sha256": "94562033be64459b0e140f4eebcc31d44a3d27069041ba61c1090ac8c9f4e06d"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Source/Graphics/captions_v01/caption-input_v01.json",
+      "sha256": "c7ea6b834e7aaf083a42ea3dfe48f9cf61b458ae86f9a44adde889997a4365cf"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Work/captions-v01/prepared-scenes/S01_1080x1920.png",
+      "sha256": "e7dc4e3f818be389d8803b281ec74018739611199f354e1f2a7062561e11af8f"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Work/captions-v01/prepared-scenes/S16_1080x1920.png",
+      "sha256": "d6b90344454b09b11397bb069bf351808765e5715e0d1e6da75e6e87729daeed"
+    }
+  ],
+  "manifest_sha256": "c7ea6b834e7aaf083a42ea3dfe48f9cf61b458ae86f9a44adde889997a4365cf",
+  "pairs": [
+    {
+      "anchor": "primary",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.66,
+            0.16
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              430,
+              211,
+              996,
+              391
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            417,
+            209
+          ],
+          "phone_preview": "../../../Work/captions-v01-preflight-2/previews/S01/C01/primary__phone.png",
+          "preview": "../../../Work/captions-v01-preflight-2/previews/S01/C01/primary.png"
+        }
+      ],
+      "cue": "C01",
+      "scene": "S01"
+    },
+    {
+      "anchor": "primary",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.66,
+            0.16
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              418,
+              203,
+              1005,
+              414
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            372,
+            188
+          ],
+          "phone_preview": "../../../Work/captions-v01-preflight-2/previews/S16/C16/primary__phone.png",
+          "preview": "../../../Work/captions-v01-preflight-2/previews/S16/C16/primary.png"
+        }
+      ],
+      "cue": "C16",
+      "scene": "S16"
+    }
+  ],
+  "pillow_version": "11.3.0",
+  "shared_face_height_px": 95,
+  "source_manifest": {
+    "anchors": {
+      "primary": {
+        "center": [
+          0.66,
+          0.16
+        ],
+        "max_height_px": 340,
+        "max_width_px": 880
+      }
+    },
+    "canvas": [
+      1080,
+      1920
+    ],
+    "cues": [
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                73,
+                187,
+                2099,
+                536
+              ]
+            ],
+            "mode": "creamOrange"
+          },
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Source/Graphics/captions_v01/IRAN-BORN_v01.png",
+          "provenance": {
+            "author": "coordinator via built-in image_gen",
+            "record": "DECISION_RECORD_v01.md; accepted Paper typography PNG references A_MESSAGE, MATCH, REPORTED, FORMAT_MATTERS"
+          },
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+          "status": "imagegen candidate; visual style acceptance pending",
+          "type": "existingPNG"
+        },
+        "id": "C01",
+        "lines": [
+          "IRAN-BORN"
+        ],
+        "provenance": {
+          "author": "coordinator",
+          "record": "DECISION_RECORD_v01.md"
+        },
+        "timing": {
+          "note": "estimated S01 window about 1.0–4.0 s after Iranian-born through ashore; no recording/listening",
+          "status": "UNVERIFIED"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                175,
+                55,
+                2004,
+                352
+              ],
+              [
+                175,
+                390,
+                2004,
+                694
+              ]
+            ],
+            "mode": "creamOrange"
+          },
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Source/Graphics/captions_v01/WE_ARE_ALL_BROTHERS_v01.png",
+          "provenance": {
+            "author": "coordinator via built-in image_gen",
+            "record": "DECISION_RECORD_v01.md; accepted Paper typography PNG references A_MESSAGE, MATCH, REPORTED, FORMAT_MATTERS"
+          },
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Source/Images/accent_typography_v2/A_MESSAGE.png",
+          "status": "imagegen candidate; visual style acceptance pending",
+          "type": "existingPNG"
+        },
+        "id": "C16",
+        "lines": [
+          "WE ARE ALL",
+          "BROTHERS"
+        ],
+        "provenance": {
+          "author": "coordinator",
+          "record": "DECISION_RECORD_v01.md"
+        },
+        "timing": {
+          "note": "estimated S16 window about 1.5–4.0 s on brothers through Pattaya; no recording/listening",
+          "status": "UNVERIFIED"
+        }
+      }
+    ],
+    "face_height_px": 95,
+    "min_face_height_px": 75,
+    "pairs": [
+      {
+        "anchor": "primary",
+        "cue": "C01",
+        "scene": "S01"
+      },
+      {
+        "anchor": "primary",
+        "cue": "C16",
+        "scene": "S16"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "S01",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Work/captions-v01/prepared-scenes/S01_1080x1920.png"
+      },
+      {
+        "id": "S16",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Work/captions-v01/prepared-scenes/S16_1080x1920.png"
+      }
+    ],
+    "version": 1
+  },
+  "storage": {
+    "dependencies": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Assets/Generated/captions-v01-preflight-2",
+    "previews": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Work/captions-v01-preflight-2/previews"
+  },
+  "version": 1
+}

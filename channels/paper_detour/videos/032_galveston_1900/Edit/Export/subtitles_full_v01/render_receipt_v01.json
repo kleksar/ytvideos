@@ -1,0 +1,50 @@
+{
+  "file": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Deliverables/032_galveston_en_subtitles_v01.mp4",
+  "sha256": "ab572949999091f7b2c7527c18d58281dd6fed9d2acb11afbe59661df8e0ac83",
+  "job": {
+    "filename": "032_galveston_native_subtitles_v01.mp4",
+    "jobId": "D724B497-904F-4C88-A7F5-2EE81689538F",
+    "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Work/subtitles-final-v01/previews/032_galveston_native_subtitles_v01.mp4",
+    "progress": 100,
+    "status": "completed"
+  },
+  "timeline": "6545DD44",
+  "source_snapshot_equal_after_export": true,
+  "native_video_unchanged": true,
+  "accepted_audio_unchanged": true,
+  "audio_stream_sha256": "253f9c0ae433cac21885e8b575e109f3608cc5dcb7c28dab9da901b0b3e4a99b",
+  "video_stream_sha256": "b35308eceab995a614369094798868a8136f8c42186be9eca231d8d7409c3c35",
+  "ship_scene": {
+    "frames": [
+      738,
+      858
+    ],
+    "mediaRef": "619FA070",
+    "asset_sha256": "de004538851ee8d0cd3a2f7d67a15fa32464cb03958e4b1633f99b9936150951",
+    "depth_parallax": "none",
+    "camera": "pan-right",
+    "grain": "g08"
+  },
+  "command": [
+    "ffmpeg",
+    "-v",
+    "error",
+    "-n",
+    "-i",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Work/subtitles-final-v01/previews/032_galveston_native_subtitles_v01.mp4",
+    "-i",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Deliverables/032_galveston_en_final_v02.mp4",
+    "-map",
+    "0:v:0",
+    "-map",
+    "1:a:0",
+    "-c",
+    "copy",
+    "-aspect:v:0",
+    "16:9",
+    "-movflags",
+    "+faststart",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/032_galveston_1900/Deliverables/032_galveston_en_subtitles_v01.mp4"
+  ],
+  "created_utc": "2026-11-02T12:56:14Z"
+}

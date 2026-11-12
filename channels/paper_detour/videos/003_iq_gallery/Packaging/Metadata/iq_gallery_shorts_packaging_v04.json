@@ -1,0 +1,101 @@
+{
+  "asset": "IQ Gallery — YouTube Shorts metadata and selected thumbnail",
+  "version": "v04",
+  "status": "superseded_by_v05_after_channel_rule_review",
+  "channel": "Paper Detour",
+  "episode": "channels/paper_detour/videos/003_iq_gallery (channels/paper_detour/legacy/025_iq_gallery)",
+  "video_version": "v24",
+  "video_file": "channels/paper_detour/legacy/025_iq_gallery/Deliverables/025_iq_gallery_paper_detour_60s_v24.mp4",
+  "language": "English",
+  "category": "Entertainment",
+  "title": "13 Famous People and Their Reported IQ Scores",
+  "title_character_count": 45,
+  "description": "Explore published IQ estimates associated with 13 famous people, including John F. Kennedy, Richard Feynman, Garry Kasparov, Kanye West, RM, and Marilyn vos Savant.\n\nThese figures come from different sources and have not been verified through one standardized, comparable test. This is an entertainment-focused collection, not a scientifically established IQ ranking.\n\n#IQ #FamousPeople #PaperDetour",
+  "description_character_count": 399,
+  "hashtags": [
+    "#IQ",
+    "#FamousPeople",
+    "#PaperDetour"
+  ],
+  "search_tags": [
+    "famous people IQ",
+    "reported IQ scores",
+    "John F Kennedy",
+    "Garry Kasparov",
+    "Richard Feynman",
+    "Kanye West",
+    "Logan Paul",
+    "RM Kim Namjoon",
+    "Nolan Gould",
+    "Frank Lampard",
+    "Kate Beckinsale",
+    "Sharon Stone",
+    "Lee Byung-hun",
+    "Quentin Tarantino",
+    "Marilyn vos Savant"
+  ],
+  "pinned_comment_draft": "Which reported IQ estimate surprised you the most? Remember, these figures come from different sources and aren't directly comparable.",
+  "thumbnail_text": "THINK YOU'RE SMARTER THAN THEM?",
+  "thumbnail_source_input": "user-selected attachment; pixel-identical to ImageGen output exec-c8f9188e-3fc3-4112-8e02-7329e3e999c4.png",
+  "thumbnail_source_sha256": "05ef10ae72d0598f83faeaa96d3c97ac0cbeab7768aabbeaf6a120fed05bd028",
+  "thumbnail_files": {
+    "selected_source": {
+      "path": "Packaging/Thumbnail/Selected/v04/iq_gallery_short_thumbnail_v04_selected_source.png",
+      "dimensions_px": [
+        941,
+        1672
+      ],
+      "file_size_bytes": 3203535,
+      "sha256": "05ef10ae72d0598f83faeaa96d3c97ac0cbeab7768aabbeaf6a120fed05bd028"
+    },
+    "selected_jpeg": {
+      "path": "Packaging/Thumbnail/Selected/v04/iq_gallery_short_thumbnail_v04_selected_2160x3840.jpg",
+      "dimensions_px": [
+        2160,
+        3840
+      ],
+      "file_size_bytes": 3490787,
+      "sha256": "6356f58fa383fa1de334d55291561e7cfc09109cab406ef4ed3f034ca69738e6"
+    },
+    "phone_preview": {
+      "path": "Packaging/Thumbnail/QA/v04/iq_gallery_short_thumbnail_v04_selected_360x640.jpg",
+      "dimensions_px": [
+        360,
+        640
+      ],
+      "file_size_bytes": 162954,
+      "sha256": "1b28d77383755f130fcd0b823c93fd96e732197ca19dd1155263872d965e28df"
+    },
+    "center_2x3_preview": {
+      "path": "Packaging/Thumbnail/QA/v04/iq_gallery_short_thumbnail_v04_selected_center_2x3_360x540.jpg",
+      "dimensions_px": [
+        360,
+        540
+      ],
+      "file_size_bytes": 143957,
+      "sha256": "f4694c450b3000fe758f3fa52f651361c43dd2e85e2c96b11da2028b68cdc832"
+    }
+  },
+  "claims_caveat": "Reported estimates from varied sources are not a single verified, comparable test and do not establish a scientific IQ ranking.",
+  "upload_defaults": {
+    "visibility": "Private until final review; not uploaded",
+    "made_for_kids": "Not set in YouTube Studio; confirm during upload against the channel audience setting.",
+    "paid_promotion": "Not assessed here; confirm if applicable before upload.",
+    "playlist": "Not assigned in this local draft.",
+    "pinned_comment": "Draft only; not posted.",
+    "altered_or_synthetic_content": "The video and thumbnail use conspicuously stylized handmade paper-diorama imagery. Current YouTube guidance says non-realistic AI content does not require disclosure; re-evaluate if the final asset/video changes to appear photorealistic."
+  },
+  "consultation": {
+    "service": "ChatGPT.com project YT Видео in Google Chrome",
+    "visible_mode_before_prompt": "Extra High",
+    "task": "One metadata package for an English 60-second IQ Gallery Short; one title, description, 3 hashtags, 10–15 tags, pinned comment, language, and category.",
+    "conversation_url": "https://chatgpt.com/g/g-p-6ae147d3975481919b5bfda6935777d0-yt-video/c/6ae7954a-4308-83eb-b1ee-d8a6abc5041f"
+  },
+  "external_state": "No YouTube metadata, thumbnail, comment, playlist, visibility, or publication changes were made.",
+  "review_notes": {
+    "phone_preview": "Viewed at 360x640; question remains legible and main collage is visible.",
+    "safe_area_preview": "Centered 2:3 crop retains the question and all expressions, while trimming some top-row hair and lower portrait edges.",
+    "studio_card_preview": "Not checked because the package has not been applied to an uploaded/private draft."
+  },
+  "superseded_by": "Packaging/Metadata/iq_gallery_shorts_packaging_v05.json"
+}

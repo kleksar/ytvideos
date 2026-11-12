@@ -1,0 +1,184 @@
+{
+  "structure": "PASS",
+  "text_coverage": "PASS",
+  "timing_mapping": "UNVERIFIED",
+  "playback": "UNVERIFIED",
+  "readability": "N_A",
+  "limits": {},
+  "errors": [],
+  "warnings": [],
+  "cues": [
+    {
+      "cue": 1,
+      "lines": 1,
+      "longest_line": 35,
+      "duration_seconds": 2.763636,
+      "characters_per_second": 12.664475350588862
+    },
+    {
+      "cue": 2,
+      "lines": 1,
+      "longest_line": 40,
+      "duration_seconds": 2.109091,
+      "characters_per_second": 18.965516423900155
+    },
+    {
+      "cue": 3,
+      "lines": 1,
+      "longest_line": 31,
+      "duration_seconds": 1.818182,
+      "characters_per_second": 17.049998295000172
+    },
+    {
+      "cue": 4,
+      "lines": 1,
+      "longest_line": 42,
+      "duration_seconds": 2.290909,
+      "characters_per_second": 18.33333406084659
+    },
+    {
+      "cue": 5,
+      "lines": 1,
+      "longest_line": 8,
+      "duration_seconds": 0.618182,
+      "characters_per_second": 12.94117266436098
+    },
+    {
+      "cue": 6,
+      "lines": 1,
+      "longest_line": 49,
+      "duration_seconds": 3.236364,
+      "characters_per_second": 15.140447737028344
+    },
+    {
+      "cue": 7,
+      "lines": 1,
+      "longest_line": 6,
+      "duration_seconds": 0.727272,
+      "characters_per_second": 8.25000825000825
+    },
+    {
+      "cue": 8,
+      "lines": 1,
+      "longest_line": 37,
+      "duration_seconds": 2.072727,
+      "characters_per_second": 17.850879541782398
+    },
+    {
+      "cue": 9,
+      "lines": 1,
+      "longest_line": 30,
+      "duration_seconds": 2.072728,
+      "characters_per_second": 14.47367913204241
+    },
+    {
+      "cue": 10,
+      "lines": 1,
+      "longest_line": 46,
+      "duration_seconds": 2.472727,
+      "characters_per_second": 18.602943228265797
+    },
+    {
+      "cue": 11,
+      "lines": 1,
+      "longest_line": 23,
+      "duration_seconds": 1.418182,
+      "characters_per_second": 16.21794663872479
+    },
+    {
+      "cue": 12,
+      "lines": 1,
+      "longest_line": 39,
+      "duration_seconds": 1.89091,
+      "characters_per_second": 20.62499008413938
+    },
+    {
+      "cue": 13,
+      "lines": 1,
+      "longest_line": 24,
+      "duration_seconds": 1.381818,
+      "characters_per_second": 17.36842333795044
+    },
+    {
+      "cue": 14,
+      "lines": 1,
+      "longest_line": 33,
+      "duration_seconds": 1.672728,
+      "characters_per_second": 19.72825229206422
+    },
+    {
+      "cue": 15,
+      "lines": 1,
+      "longest_line": 26,
+      "duration_seconds": 1.745454,
+      "characters_per_second": 14.895837988282704
+    },
+    {
+      "cue": 16,
+      "lines": 1,
+      "longest_line": 45,
+      "duration_seconds": 2.363636,
+      "characters_per_second": 19.03846446745607
+    },
+    {
+      "cue": 17,
+      "lines": 1,
+      "longest_line": 21,
+      "duration_seconds": 1.345454,
+      "characters_per_second": 15.608114435722069
+    },
+    {
+      "cue": 18,
+      "lines": 1,
+      "longest_line": 35,
+      "duration_seconds": 1.818181,
+      "characters_per_second": 19.250008662503898
+    },
+    {
+      "cue": 19,
+      "lines": 1,
+      "longest_line": 37,
+      "duration_seconds": 1.709091,
+      "characters_per_second": 21.64893501867367
+    },
+    {
+      "cue": 20,
+      "lines": 1,
+      "longest_line": 10,
+      "duration_seconds": 0.654546,
+      "characters_per_second": 15.277765046306907
+    },
+    {
+      "cue": 21,
+      "lines": 1,
+      "longest_line": 39,
+      "duration_seconds": 1.963636,
+      "characters_per_second": 19.861114789095332
+    },
+    {
+      "cue": 22,
+      "lines": 1,
+      "longest_line": 9,
+      "duration_seconds": 0.581819,
+      "characters_per_second": 15.468728247100904
+    }
+  ],
+  "limits_note": "Readability metrics do not verify semantic breaks, player layout or hearing sync.",
+  "timebase": "source",
+  "duration_seconds": "41.457778",
+  "inputs": {
+    "text": {
+      "path": "channels/nuviko_history/research/molasses-flood/Source/Voice/narration_en_v01.txt",
+      "sha256": "e270a5fb5ad404b97eecc84bfc36250c0bb53446ae4300e36a599062570ccc0b"
+    },
+    "build": {
+      "path": "channels/nuviko_history/research/molasses-flood/Work/Audio/cues_v01_DRAFT.json",
+      "sha256": "625e9caeeb69a94a85f0787f24ec151ad41620e5a4fea51021d09812d8885455"
+    }
+  },
+  "result": "MACHINE_CHECKED",
+  "output": {
+    "path": "channels/nuviko_history/research/molasses-flood/Work/Audio/subtitles_en_v01_DRAFT.srt",
+    "sha256": "5d022cc8783574b820be5da97cb92aa3fd63f4068d7f8338b31c818ea38e9e9c"
+  }
+}

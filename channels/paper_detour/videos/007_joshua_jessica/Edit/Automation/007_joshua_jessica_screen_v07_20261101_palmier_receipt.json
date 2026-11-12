@@ -1,0 +1,4934 @@
+{
+  "status": "ready_for_review",
+  "manifest": "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/visual_manifest_v02.json",
+  "manifest_sha256": "3864e955631c1d2a508e5d3b683d07c5216adaf7259ae926a5d01815d9d69a17",
+  "steps": [
+    {
+      "label": "create isolated timeline",
+      "tool": "create_timeline",
+      "actionId": "8E4A32DE",
+      "result": {
+        "actionId": "8E4A32DE",
+        "name": "007_joshua_jessica_screen_v07_20261101",
+        "note": "Empty. Pass this timelineId to edit it.",
+        "timelineId": "92BD1E43"
+      }
+    },
+    {
+      "label": "snapshot source timeline copy",
+      "tool": "manage_snapshots",
+      "actionId": null,
+      "result": {
+        "snapshot": {
+          "author": {
+            "kind": "agent",
+            "name": "yt-stories-inspect"
+          },
+          "createdAt": "2026-11-01T10:15:56Z",
+          "name": "Before Paper layer build",
+          "snapshotId": "70B63276"
+        }
+      }
+    },
+    {
+      "label": "import FG.png",
+      "tool": "import_media",
+      "actionId": "270AAB92",
+      "result": {
+        "actionId": "270AAB92",
+        "mediaRef": "051A3F87",
+        "name": "FG",
+        "status": "ready",
+        "type": "image"
+      }
+    },
+    {
+      "label": "import FG.png",
+      "tool": "import_media",
+      "actionId": "E6211337",
+      "result": {
+        "actionId": "E6211337",
+        "mediaRef": "5900650D",
+        "name": "FG",
+        "status": "ready",
+        "type": "image"
+      }
+    },
+    {
+      "label": "import FG.png",
+      "tool": "import_media",
+      "actionId": "0216F345",
+      "result": {
+        "actionId": "0216F345",
+        "mediaRef": "A70CF609",
+        "name": "FG",
+        "status": "ready",
+        "type": "image"
+      }
+    },
+    {
+      "label": "import FG.png",
+      "tool": "import_media",
+      "actionId": "B173FD6A",
+      "result": {
+        "actionId": "B173FD6A",
+        "mediaRef": "D1043703",
+        "name": "FG",
+        "status": "ready",
+        "type": "image"
+      }
+    },
+    {
+      "label": "import FG.png",
+      "tool": "import_media",
+      "actionId": "FFD620FB",
+      "result": {
+        "actionId": "FFD620FB",
+        "mediaRef": "D6C63544",
+        "name": "FG",
+        "status": "ready",
+        "type": "image"
+      }
+    },
+    {
+      "label": "import FG.png",
+      "tool": "import_media",
+      "actionId": "0921AC2D",
+      "result": {
+        "actionId": "0921AC2D",
+        "mediaRef": "0AF49155",
+        "name": "FG",
+        "status": "ready",
+        "type": "image"
+      }
+    },
+    {
+      "label": "import FG.png",
+      "tool": "import_media",
+      "actionId": "B875D9FF",
+      "result": {
+        "actionId": "B875D9FF",
+        "mediaRef": "F5F93A69",
+        "name": "FG",
+        "status": "ready",
+        "type": "image"
+      }
+    },
+    {
+      "label": "import FG.png",
+      "tool": "import_media",
+      "actionId": "CD106D82",
+      "result": {
+        "actionId": "CD106D82",
+        "mediaRef": "6510FCBD",
+        "name": "FG",
+        "status": "ready",
+        "type": "image"
+      }
+    },
+    {
+      "label": "import FG.png",
+      "tool": "import_media",
+      "actionId": "CB618115",
+      "result": {
+        "actionId": "CB618115",
+        "mediaRef": "7C2C8F11",
+        "name": "FG",
+        "status": "ready",
+        "type": "image"
+      }
+    },
+    {
+      "label": "import FG.png",
+      "tool": "import_media",
+      "actionId": "49AF741D",
+      "result": {
+        "actionId": "49AF741D",
+        "mediaRef": "42B713A9",
+        "name": "FG",
+        "status": "ready",
+        "type": "image"
+      }
+    },
+    {
+      "label": "import FG.png",
+      "tool": "import_media",
+      "actionId": "197317A1",
+      "result": {
+        "actionId": "197317A1",
+        "mediaRef": "60B2D1C5",
+        "name": "FG",
+        "status": "ready",
+        "type": "image"
+      }
+    },
+    {
+      "label": "import FG.png",
+      "tool": "import_media",
+      "actionId": "0A2E1E91",
+      "result": {
+        "actionId": "0A2E1E91",
+        "mediaRef": "491744D4",
+        "name": "FG",
+        "status": "ready",
+        "type": "image"
+      }
+    },
+    {
+      "label": "import MG.png",
+      "tool": "import_media",
+      "actionId": "87D4D5F6",
+      "result": {
+        "actionId": "87D4D5F6",
+        "mediaRef": "23160D5D",
+        "name": "MG",
+        "status": "ready",
+        "type": "image"
+      }
+    },
+    {
+      "label": "import MG.png",
+      "tool": "import_media",
+      "actionId": "EAC44F2E",
+      "result": {
+        "actionId": "EAC44F2E",
+        "mediaRef": "28673FD5",
+        "name": "MG",
+        "status": "ready",
+        "type": "image"
+      }
+    },
+    {
+      "label": "import MG.png",
+      "tool": "import_media",
+      "actionId": "AAC9D051",
+      "result": {
+        "actionId": "AAC9D051",
+        "mediaRef": "3F86F98F",
+        "name": "MG",
+        "status": "ready",
+        "type": "image"
+      }
+    },
+    {
+      "label": "import MG.png",
+      "tool": "import_media",
+      "actionId": "641AAAC1",
+      "result": {
+        "actionId": "641AAAC1",
+        "mediaRef": "86615797",
+        "name": "MG",
+        "status": "ready",
+        "type": "image"
+      }
+    },
+    {
+      "label": "import MG.png",
+      "tool": "import_media",
+      "actionId": "980E791F",
+      "result": {
+        "actionId": "980E791F",
+        "mediaRef": "13A2E028",
+        "name": "MG",
+        "status": "ready",
+        "type": "image"
+      }
+    },
+    {
+      "label": "import MG.png",
+      "tool": "import_media",
+      "actionId": "9BEF72E5",
+      "result": {
+        "actionId": "9BEF72E5",
+        "mediaRef": "FF36B1FA",
+        "name": "MG",
+        "status": "ready",
+        "type": "image"
+      }
+    },
+    {
+      "label": "import MG.png",
+      "tool": "import_media",
+      "actionId": "3399A26F",
+      "result": {
+        "actionId": "3399A26F",
+        "mediaRef": "9669045D",
+        "name": "MG",
+        "status": "ready",
+        "type": "image"
+      }
+    },
+    {
+      "label": "import MG.png",
+      "tool": "import_media",
+      "actionId": "DCE7DA2A",
+      "result": {
+        "actionId": "DCE7DA2A",
+        "mediaRef": "B01294AF",
+        "name": "MG",
+        "status": "ready",
+        "type": "image"
+      }
+    },
+    {
+      "label": "import MG.png",
+      "tool": "import_media",
+      "actionId": "44826783",
+      "result": {
+        "actionId": "44826783",
+        "mediaRef": "1E088738",
+        "name": "MG",
+        "status": "ready",
+        "type": "image"
+      }
+    },
+    {
+      "label": "import MG.png",
+      "tool": "import_media",
+      "actionId": "4BCAD145",
+      "result": {
+        "actionId": "4BCAD145",
+        "mediaRef": "ACFC6542",
+        "name": "MG",
+        "status": "ready",
+        "type": "image"
+      }
+    },
+    {
+      "label": "import MG.png",
+      "tool": "import_media",
+      "actionId": "B694AA7A",
+      "result": {
+        "actionId": "B694AA7A",
+        "mediaRef": "E5F8C77E",
+        "name": "MG",
+        "status": "ready",
+        "type": "image"
+      }
+    },
+    {
+      "label": "import MG.png",
+      "tool": "import_media",
+      "actionId": "86DCBCF1",
+      "result": {
+        "actionId": "86DCBCF1",
+        "mediaRef": "AF52807B",
+        "name": "MG",
+        "status": "ready",
+        "type": "image"
+      }
+    },
+    {
+      "label": "import BG.png",
+      "tool": "import_media",
+      "actionId": "4A7B3B70",
+      "result": {
+        "actionId": "4A7B3B70",
+        "mediaRef": "5451094B",
+        "name": "BG",
+        "status": "ready",
+        "type": "image"
+      }
+    },
+    {
+      "label": "import BG.png",
+      "tool": "import_media",
+      "actionId": "6F8752FD",
+      "result": {
+        "actionId": "6F8752FD",
+        "mediaRef": "16CAAC54",
+        "name": "BG",
+        "status": "ready",
+        "type": "image"
+      }
+    },
+    {
+      "label": "import BG.png",
+      "tool": "import_media",
+      "actionId": "9E9EDEFE",
+      "result": {
+        "actionId": "9E9EDEFE",
+        "mediaRef": "DC7D2358",
+        "name": "BG",
+        "status": "ready",
+        "type": "image"
+      }
+    },
+    {
+      "label": "import BG.png",
+      "tool": "import_media",
+      "actionId": "9353989E",
+      "result": {
+        "actionId": "9353989E",
+        "mediaRef": "5D503906",
+        "name": "BG",
+        "status": "ready",
+        "type": "image"
+      }
+    },
+    {
+      "label": "import BG.png",
+      "tool": "import_media",
+      "actionId": "7FE2F648",
+      "result": {
+        "actionId": "7FE2F648",
+        "mediaRef": "2F2DAAA4",
+        "name": "BG",
+        "status": "ready",
+        "type": "image"
+      }
+    },
+    {
+      "label": "import BG.png",
+      "tool": "import_media",
+      "actionId": "4A7E54CF",
+      "result": {
+        "actionId": "4A7E54CF",
+        "mediaRef": "787383FA",
+        "name": "BG",
+        "status": "ready",
+        "type": "image"
+      }
+    },
+    {
+      "label": "import BG.png",
+      "tool": "import_media",
+      "actionId": "A7EA9250",
+      "result": {
+        "actionId": "A7EA9250",
+        "mediaRef": "F45BF865",
+        "name": "BG",
+        "status": "ready",
+        "type": "image"
+      }
+    },
+    {
+      "label": "import BG.png",
+      "tool": "import_media",
+      "actionId": "C1F01917",
+      "result": {
+        "actionId": "C1F01917",
+        "mediaRef": "D4108CB8",
+        "name": "BG",
+        "status": "ready",
+        "type": "image"
+      }
+    },
+    {
+      "label": "import BG.png",
+      "tool": "import_media",
+      "actionId": "A6670DBF",
+      "result": {
+        "actionId": "A6670DBF",
+        "mediaRef": "BA605B7A",
+        "name": "BG",
+        "status": "ready",
+        "type": "image"
+      }
+    },
+    {
+      "label": "import BG.png",
+      "tool": "import_media",
+      "actionId": "AA7F50F4",
+      "result": {
+        "actionId": "AA7F50F4",
+        "mediaRef": "33E728FD",
+        "name": "BG",
+        "status": "ready",
+        "type": "image"
+      }
+    },
+    {
+      "label": "import BG.png",
+      "tool": "import_media",
+      "actionId": "89672579",
+      "result": {
+        "actionId": "89672579",
+        "mediaRef": "01F0AC8A",
+        "name": "BG",
+        "status": "ready",
+        "type": "image"
+      }
+    },
+    {
+      "label": "import BG.png",
+      "tool": "import_media",
+      "actionId": "9FBCD70F",
+      "result": {
+        "actionId": "9FBCD70F",
+        "mediaRef": "FA226CD9",
+        "name": "BG",
+        "status": "ready",
+        "type": "image"
+      }
+    },
+    {
+      "label": "place background layer",
+      "tool": "add_clips",
+      "actionId": "18E0C92B",
+      "result": {
+        "actionId": "18E0C92B",
+        "clips": [
+          {
+            "frames": [
+              0,
+              90
+            ],
+            "id": "4C668CCC",
+            "mediaRef": "5451094B",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 60
+          },
+          {
+            "frames": [
+              90,
+              183
+            ],
+            "id": "969399FF",
+            "mediaRef": "16CAAC54",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 57
+          },
+          {
+            "frames": [
+              183,
+              273
+            ],
+            "id": "4B854B0F",
+            "mediaRef": "DC7D2358",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 60
+          },
+          {
+            "frames": [
+              273,
+              366
+            ],
+            "id": "5F9DAEC6",
+            "mediaRef": "5D503906",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 57
+          },
+          {
+            "frames": [
+              366,
+              456
+            ],
+            "id": "EC25449F",
+            "mediaRef": "2F2DAAA4",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 60
+          },
+          {
+            "frames": [
+              456,
+              546
+            ],
+            "id": "3C31249B",
+            "mediaRef": "787383FA",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 60
+          },
+          {
+            "frames": [
+              546,
+              636
+            ],
+            "id": "2B0342F6",
+            "mediaRef": "5451094B",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 60
+          },
+          {
+            "frames": [
+              636,
+              726
+            ],
+            "id": "A6DB9CF3",
+            "mediaRef": "F45BF865",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 60
+          },
+          {
+            "frames": [
+              726,
+              816
+            ],
+            "id": "E73D40E8",
+            "mediaRef": "D4108CB8",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 60
+          },
+          {
+            "frames": [
+              816,
+              906
+            ],
+            "id": "29176BF0",
+            "mediaRef": "BA605B7A",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 60
+          },
+          {
+            "frames": [
+              906,
+              996
+            ],
+            "id": "FFE25242",
+            "mediaRef": "33E728FD",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 60
+          },
+          {
+            "frames": [
+              996,
+              1164
+            ],
+            "id": "DDABCC14",
+            "mediaRef": "01F0AC8A",
+            "mediaType": "image",
+            "track": 0
+          },
+          {
+            "frames": [
+              1164,
+              1254
+            ],
+            "id": "05F27022",
+            "mediaRef": "FA226CD9",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 60
+          },
+          {
+            "frames": [
+              1254,
+              1344
+            ],
+            "id": "67841FE6",
+            "mediaRef": "5451094B",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 60
+          }
+        ],
+        "createdTracks": [
+          {
+            "index": 0,
+            "label": "V1",
+            "trackId": "7F584256",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "label": "place middle layer",
+      "tool": "add_clips",
+      "actionId": "3007D545",
+      "result": {
+        "actionId": "3007D545",
+        "clips": [
+          {
+            "frames": [
+              0,
+              90
+            ],
+            "id": "018C6FB6",
+            "mediaRef": "23160D5D",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 60
+          },
+          {
+            "frames": [
+              90,
+              183
+            ],
+            "id": "1B03B708",
+            "mediaRef": "28673FD5",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 57
+          },
+          {
+            "frames": [
+              183,
+              273
+            ],
+            "id": "D1B01EE2",
+            "mediaRef": "3F86F98F",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 60
+          },
+          {
+            "frames": [
+              273,
+              366
+            ],
+            "id": "354F1D49",
+            "mediaRef": "86615797",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 57
+          },
+          {
+            "frames": [
+              366,
+              456
+            ],
+            "id": "ED619788",
+            "mediaRef": "13A2E028",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 60
+          },
+          {
+            "frames": [
+              456,
+              546
+            ],
+            "id": "549E4F7A",
+            "mediaRef": "FF36B1FA",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 60
+          },
+          {
+            "frames": [
+              546,
+              636
+            ],
+            "id": "A6ACA3E8",
+            "mediaRef": "23160D5D",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 60
+          },
+          {
+            "frames": [
+              636,
+              726
+            ],
+            "id": "059B590A",
+            "mediaRef": "9669045D",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 60
+          },
+          {
+            "frames": [
+              726,
+              816
+            ],
+            "id": "F08CA08F",
+            "mediaRef": "B01294AF",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 60
+          },
+          {
+            "frames": [
+              816,
+              906
+            ],
+            "id": "EB0B6B30",
+            "mediaRef": "1E088738",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 60
+          },
+          {
+            "frames": [
+              906,
+              996
+            ],
+            "id": "A064C7F6",
+            "mediaRef": "ACFC6542",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 60
+          },
+          {
+            "frames": [
+              996,
+              1164
+            ],
+            "id": "FD1B34C3",
+            "mediaRef": "E5F8C77E",
+            "mediaType": "image",
+            "track": 0
+          },
+          {
+            "frames": [
+              1164,
+              1254
+            ],
+            "id": "65FD3BB2",
+            "mediaRef": "AF52807B",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 60
+          },
+          {
+            "frames": [
+              1254,
+              1344
+            ],
+            "id": "340343B8",
+            "mediaRef": "23160D5D",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 60
+          }
+        ],
+        "createdTracks": [
+          {
+            "index": 0,
+            "label": "V2",
+            "trackId": "FEC31B29",
+            "type": "video"
+          }
+        ],
+        "notes": [
+          "Track indices shifted — re-read get_timeline before the next index-based call."
+        ]
+      }
+    },
+    {
+      "label": "place foreground layer",
+      "tool": "add_clips",
+      "actionId": "83663ABC",
+      "result": {
+        "actionId": "83663ABC",
+        "clips": [
+          {
+            "frames": [
+              0,
+              90
+            ],
+            "id": "7889A60E",
+            "mediaRef": "051A3F87",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 60
+          },
+          {
+            "frames": [
+              90,
+              183
+            ],
+            "id": "FD3E07D3",
+            "mediaRef": "5900650D",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 57
+          },
+          {
+            "frames": [
+              183,
+              273
+            ],
+            "id": "97C1167C",
+            "mediaRef": "A70CF609",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 60
+          },
+          {
+            "frames": [
+              273,
+              366
+            ],
+            "id": "8BEE612A",
+            "mediaRef": "D1043703",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 57
+          },
+          {
+            "frames": [
+              366,
+              456
+            ],
+            "id": "9909B079",
+            "mediaRef": "D6C63544",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 60
+          },
+          {
+            "frames": [
+              456,
+              546
+            ],
+            "id": "4B1CF5BA",
+            "mediaRef": "0AF49155",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 60
+          },
+          {
+            "frames": [
+              546,
+              636
+            ],
+            "id": "8012DED7",
+            "mediaRef": "051A3F87",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 60
+          },
+          {
+            "frames": [
+              636,
+              726
+            ],
+            "id": "8EF3E329",
+            "mediaRef": "F5F93A69",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 60
+          },
+          {
+            "frames": [
+              726,
+              816
+            ],
+            "id": "8FEF75EF",
+            "mediaRef": "6510FCBD",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 60
+          },
+          {
+            "frames": [
+              816,
+              906
+            ],
+            "id": "1370E910",
+            "mediaRef": "7C2C8F11",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 60
+          },
+          {
+            "frames": [
+              906,
+              996
+            ],
+            "id": "DDFE1271",
+            "mediaRef": "42B713A9",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 60
+          },
+          {
+            "frames": [
+              996,
+              1164
+            ],
+            "id": "363D506A",
+            "mediaRef": "60B2D1C5",
+            "mediaType": "image",
+            "track": 0
+          },
+          {
+            "frames": [
+              1164,
+              1254
+            ],
+            "id": "658F9B8B",
+            "mediaRef": "491744D4",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 60
+          },
+          {
+            "frames": [
+              1254,
+              1344
+            ],
+            "id": "1127B640",
+            "mediaRef": "051A3F87",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 60
+          }
+        ],
+        "createdTracks": [
+          {
+            "index": 0,
+            "label": "V3",
+            "trackId": "7FBBD36D",
+            "type": "video"
+          }
+        ],
+        "notes": [
+          "Track indices shifted — re-read get_timeline before the next index-based call."
+        ]
+      }
+    },
+    {
+      "label": "name foreground track",
+      "tool": "manage_tracks",
+      "actionId": "F7014A0C",
+      "result": {
+        "actionId": "F7014A0C",
+        "renamed": [
+          {
+            "changed": true,
+            "name": "Foreground",
+            "trackId": "7FBBD36D"
+          }
+        ],
+        "tracks": [
+          {
+            "index": 0,
+            "label": "V3",
+            "name": "Foreground",
+            "trackId": "7FBBD36D",
+            "type": "video"
+          },
+          {
+            "index": 1,
+            "label": "V2",
+            "trackId": "FEC31B29",
+            "type": "video"
+          },
+          {
+            "index": 2,
+            "label": "V1",
+            "trackId": "7F584256",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "label": "name middle track",
+      "tool": "manage_tracks",
+      "actionId": "F9C67EEB",
+      "result": {
+        "actionId": "F9C67EEB",
+        "renamed": [
+          {
+            "changed": true,
+            "name": "Middle",
+            "trackId": "FEC31B29"
+          }
+        ],
+        "tracks": [
+          {
+            "index": 0,
+            "label": "V3",
+            "name": "Foreground",
+            "trackId": "7FBBD36D",
+            "type": "video"
+          },
+          {
+            "index": 1,
+            "label": "V2",
+            "name": "Middle",
+            "trackId": "FEC31B29",
+            "type": "video"
+          },
+          {
+            "index": 2,
+            "label": "V1",
+            "trackId": "7F584256",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "label": "name background track",
+      "tool": "manage_tracks",
+      "actionId": "9AB86FD7",
+      "result": {
+        "actionId": "9AB86FD7",
+        "renamed": [
+          {
+            "changed": true,
+            "name": "Background",
+            "trackId": "7F584256"
+          }
+        ],
+        "tracks": [
+          {
+            "index": 0,
+            "label": "V3",
+            "name": "Foreground",
+            "trackId": "7FBBD36D",
+            "type": "video"
+          },
+          {
+            "index": 1,
+            "label": "V2",
+            "name": "Middle",
+            "trackId": "FEC31B29",
+            "type": "video"
+          },
+          {
+            "index": 2,
+            "label": "V1",
+            "name": "Background",
+            "trackId": "7F584256",
+            "type": "video"
+          }
+        ]
+      }
+    },
+    {
+      "label": "scale foreground / P01_hook",
+      "tool": "set_keyframes",
+      "actionId": "C8ADD7DA",
+      "result": {
+        "actionId": "C8ADD7DA",
+        "clips": [
+          {
+            "frames": [
+              0,
+              90
+            ],
+            "id": "7889A60E",
+            "keyframes": {
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  89,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "051A3F87",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "label": "drift foreground / P01_hook",
+      "tool": "set_keyframes",
+      "actionId": "FE33D18C",
+      "result": {
+        "actionId": "FE33D18C",
+        "clips": [
+          {
+            "frames": [
+              0,
+              90
+            ],
+            "id": "7889A60E",
+            "keyframes": {
+              "position": [
+                [
+                  0,
+                  -0.027,
+                  0
+                ],
+                [
+                  89,
+                  -0.018,
+                  0
+                ]
+              ],
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  89,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "051A3F87",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "label": "scale middle / P01_hook",
+      "tool": "set_keyframes",
+      "actionId": "CBEAF99A",
+      "result": {
+        "actionId": "CBEAF99A",
+        "clips": [
+          {
+            "frames": [
+              0,
+              90
+            ],
+            "id": "018C6FB6",
+            "keyframes": {
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  89,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "23160D5D",
+            "mediaType": "image",
+            "track": 1,
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "label": "drift middle / P01_hook",
+      "tool": "set_keyframes",
+      "actionId": "8BA651C6",
+      "result": {
+        "actionId": "8BA651C6",
+        "clips": [
+          {
+            "frames": [
+              0,
+              90
+            ],
+            "id": "018C6FB6",
+            "keyframes": {
+              "position": [
+                [
+                  0,
+                  -0.021,
+                  0
+                ],
+                [
+                  89,
+                  -0.015,
+                  0
+                ]
+              ],
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  89,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "23160D5D",
+            "mediaType": "image",
+            "track": 1,
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "label": "scale background / P01_hook",
+      "tool": "set_keyframes",
+      "actionId": "387E0C1D",
+      "result": {
+        "actionId": "387E0C1D",
+        "clips": [
+          {
+            "frames": [
+              0,
+              90
+            ],
+            "id": "4C668CCC",
+            "keyframes": {
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  89,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "5451094B",
+            "mediaType": "image",
+            "track": 2,
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "label": "drift background / P01_hook",
+      "tool": "set_keyframes",
+      "actionId": "7F00EFBD",
+      "result": {
+        "actionId": "7F00EFBD",
+        "clips": [
+          {
+            "frames": [
+              0,
+              90
+            ],
+            "id": "4C668CCC",
+            "keyframes": {
+              "position": [
+                [
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  89,
+                  0.003,
+                  0
+                ]
+              ],
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  89,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "5451094B",
+            "mediaType": "image",
+            "track": 2,
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "label": "scale foreground / P02_absence",
+      "tool": "set_keyframes",
+      "actionId": "83006DE3",
+      "result": {
+        "actionId": "83006DE3",
+        "clips": [
+          {
+            "frames": [
+              90,
+              183
+            ],
+            "id": "FD3E07D3",
+            "keyframes": {
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  92,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "5900650D",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 57
+          }
+        ]
+      }
+    },
+    {
+      "label": "drift foreground / P02_absence",
+      "tool": "set_keyframes",
+      "actionId": "71C6DA70",
+      "result": {
+        "actionId": "71C6DA70",
+        "clips": [
+          {
+            "frames": [
+              90,
+              183
+            ],
+            "id": "FD3E07D3",
+            "keyframes": {
+              "position": [
+                [
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  92,
+                  0.009,
+                  0
+                ]
+              ],
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  92,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "5900650D",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 57
+          }
+        ]
+      }
+    },
+    {
+      "label": "scale middle / P02_absence",
+      "tool": "set_keyframes",
+      "actionId": "948924CB",
+      "result": {
+        "actionId": "948924CB",
+        "clips": [
+          {
+            "frames": [
+              90,
+              183
+            ],
+            "id": "1B03B708",
+            "keyframes": {
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  92,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "28673FD5",
+            "mediaType": "image",
+            "track": 1,
+            "trimEndFrame": 57
+          }
+        ]
+      }
+    },
+    {
+      "label": "drift middle / P02_absence",
+      "tool": "set_keyframes",
+      "actionId": "1E42D8E5",
+      "result": {
+        "actionId": "1E42D8E5",
+        "clips": [
+          {
+            "frames": [
+              90,
+              183
+            ],
+            "id": "1B03B708",
+            "keyframes": {
+              "position": [
+                [
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  92,
+                  0.007,
+                  0
+                ]
+              ],
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  92,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "28673FD5",
+            "mediaType": "image",
+            "track": 1,
+            "trimEndFrame": 57
+          }
+        ]
+      }
+    },
+    {
+      "label": "scale background / P02_absence",
+      "tool": "set_keyframes",
+      "actionId": "71F7AEDE",
+      "result": {
+        "actionId": "71F7AEDE",
+        "clips": [
+          {
+            "frames": [
+              90,
+              183
+            ],
+            "id": "969399FF",
+            "keyframes": {
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  92,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "16CAAC54",
+            "mediaType": "image",
+            "track": 2,
+            "trimEndFrame": 57
+          }
+        ]
+      }
+    },
+    {
+      "label": "drift background / P02_absence",
+      "tool": "set_keyframes",
+      "actionId": "4CD1B0FA",
+      "result": {
+        "actionId": "4CD1B0FA",
+        "clips": [
+          {
+            "frames": [
+              90,
+              183
+            ],
+            "id": "969399FF",
+            "keyframes": {
+              "position": [
+                [
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  92,
+                  0.003,
+                  0
+                ]
+              ],
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  92,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "16CAAC54",
+            "mediaType": "image",
+            "track": 2,
+            "trimEndFrame": 57
+          }
+        ]
+      }
+    },
+    {
+      "label": "scale foreground / P03_jessica",
+      "tool": "set_keyframes",
+      "actionId": "088619C9",
+      "result": {
+        "actionId": "088619C9",
+        "clips": [
+          {
+            "frames": [
+              183,
+              273
+            ],
+            "id": "97C1167C",
+            "keyframes": {
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  89,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "A70CF609",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "label": "drift foreground / P03_jessica",
+      "tool": "set_keyframes",
+      "actionId": "D7364D8D",
+      "result": {
+        "actionId": "D7364D8D",
+        "clips": [
+          {
+            "frames": [
+              183,
+              273
+            ],
+            "id": "97C1167C",
+            "keyframes": {
+              "position": [
+                [
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  89,
+                  0.009,
+                  0
+                ]
+              ],
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  89,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "A70CF609",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "label": "scale middle / P03_jessica",
+      "tool": "set_keyframes",
+      "actionId": "6A7F86CC",
+      "result": {
+        "actionId": "6A7F86CC",
+        "clips": [
+          {
+            "frames": [
+              183,
+              273
+            ],
+            "id": "D1B01EE2",
+            "keyframes": {
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  89,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "3F86F98F",
+            "mediaType": "image",
+            "track": 1,
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "label": "drift middle / P03_jessica",
+      "tool": "set_keyframes",
+      "actionId": "FED5667C",
+      "result": {
+        "actionId": "FED5667C",
+        "clips": [
+          {
+            "frames": [
+              183,
+              273
+            ],
+            "id": "D1B01EE2",
+            "keyframes": {
+              "position": [
+                [
+                  0,
+                  -0.009,
+                  0
+                ],
+                [
+                  89,
+                  -0.002,
+                  0
+                ]
+              ],
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  89,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "3F86F98F",
+            "mediaType": "image",
+            "track": 1,
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "label": "scale background / P03_jessica",
+      "tool": "set_keyframes",
+      "actionId": "5F01281E",
+      "result": {
+        "actionId": "5F01281E",
+        "clips": [
+          {
+            "frames": [
+              183,
+              273
+            ],
+            "id": "4B854B0F",
+            "keyframes": {
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  89,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "DC7D2358",
+            "mediaType": "image",
+            "track": 2,
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "label": "drift background / P03_jessica",
+      "tool": "set_keyframes",
+      "actionId": "7219CE2E",
+      "result": {
+        "actionId": "7219CE2E",
+        "clips": [
+          {
+            "frames": [
+              183,
+              273
+            ],
+            "id": "4B854B0F",
+            "keyframes": {
+              "position": [
+                [
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  89,
+                  0.003,
+                  0
+                ]
+              ],
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  89,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "DC7D2358",
+            "mediaType": "image",
+            "track": 2,
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "label": "scale foreground / P04_old_messages",
+      "tool": "set_keyframes",
+      "actionId": "55385E42",
+      "result": {
+        "actionId": "55385E42",
+        "clips": [
+          {
+            "frames": [
+              273,
+              366
+            ],
+            "id": "8BEE612A",
+            "keyframes": {
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  92,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "D1043703",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 57
+          }
+        ]
+      }
+    },
+    {
+      "label": "drift foreground / P04_old_messages",
+      "tool": "set_keyframes",
+      "actionId": "4BB7C785",
+      "result": {
+        "actionId": "4BB7C785",
+        "clips": [
+          {
+            "frames": [
+              273,
+              366
+            ],
+            "id": "8BEE612A",
+            "keyframes": {
+              "position": [
+                [
+                  0,
+                  -0.021,
+                  0
+                ],
+                [
+                  92,
+                  -0.012,
+                  0
+                ]
+              ],
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  92,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "D1043703",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 57
+          }
+        ]
+      }
+    },
+    {
+      "label": "scale middle / P04_old_messages",
+      "tool": "set_keyframes",
+      "actionId": "45ADDBD8",
+      "result": {
+        "actionId": "45ADDBD8",
+        "clips": [
+          {
+            "frames": [
+              273,
+              366
+            ],
+            "id": "354F1D49",
+            "keyframes": {
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  92,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "86615797",
+            "mediaType": "image",
+            "track": 1,
+            "trimEndFrame": 57
+          }
+        ]
+      }
+    },
+    {
+      "label": "drift middle / P04_old_messages",
+      "tool": "set_keyframes",
+      "actionId": "24AECC98",
+      "result": {
+        "actionId": "24AECC98",
+        "clips": [
+          {
+            "frames": [
+              273,
+              366
+            ],
+            "id": "354F1D49",
+            "keyframes": {
+              "position": [
+                [
+                  0,
+                  -0.009,
+                  0
+                ],
+                [
+                  92,
+                  -0.002,
+                  0
+                ]
+              ],
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  92,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "86615797",
+            "mediaType": "image",
+            "track": 1,
+            "trimEndFrame": 57
+          }
+        ]
+      }
+    },
+    {
+      "label": "scale background / P04_old_messages",
+      "tool": "set_keyframes",
+      "actionId": "4FF2405D",
+      "result": {
+        "actionId": "4FF2405D",
+        "clips": [
+          {
+            "frames": [
+              273,
+              366
+            ],
+            "id": "5F9DAEC6",
+            "keyframes": {
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  92,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "5D503906",
+            "mediaType": "image",
+            "track": 2,
+            "trimEndFrame": 57
+          }
+        ]
+      }
+    },
+    {
+      "label": "drift background / P04_old_messages",
+      "tool": "set_keyframes",
+      "actionId": "D9D391B5",
+      "result": {
+        "actionId": "D9D391B5",
+        "clips": [
+          {
+            "frames": [
+              273,
+              366
+            ],
+            "id": "5F9DAEC6",
+            "keyframes": {
+              "position": [
+                [
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  92,
+                  0.003,
+                  0
+                ]
+              ],
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  92,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "5D503906",
+            "mediaType": "image",
+            "track": 2,
+            "trimEndFrame": 57
+          }
+        ]
+      }
+    },
+    {
+      "label": "scale foreground / P05_reply",
+      "tool": "set_keyframes",
+      "actionId": "648A2567",
+      "result": {
+        "actionId": "648A2567",
+        "clips": [
+          {
+            "frames": [
+              366,
+              456
+            ],
+            "id": "9909B079",
+            "keyframes": {
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  89,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "D6C63544",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "label": "drift foreground / P05_reply",
+      "tool": "set_keyframes",
+      "actionId": "A840C7E9",
+      "result": {
+        "actionId": "A840C7E9",
+        "clips": [
+          {
+            "frames": [
+              366,
+              456
+            ],
+            "id": "9909B079",
+            "keyframes": {
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  89,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "D6C63544",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "label": "scale middle / P05_reply",
+      "tool": "set_keyframes",
+      "actionId": "78CDC90C",
+      "result": {
+        "actionId": "78CDC90C",
+        "clips": [
+          {
+            "frames": [
+              366,
+              456
+            ],
+            "id": "ED619788",
+            "keyframes": {
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  89,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "13A2E028",
+            "mediaType": "image",
+            "track": 1,
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "label": "drift middle / P05_reply",
+      "tool": "set_keyframes",
+      "actionId": "359FC80F",
+      "result": {
+        "actionId": "359FC80F",
+        "clips": [
+          {
+            "frames": [
+              366,
+              456
+            ],
+            "id": "ED619788",
+            "keyframes": {
+              "position": [
+                [
+                  0,
+                  -0.012,
+                  0
+                ],
+                [
+                  89,
+                  -0.012,
+                  0
+                ]
+              ],
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  89,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "13A2E028",
+            "mediaType": "image",
+            "track": 1,
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "label": "scale background / P05_reply",
+      "tool": "set_keyframes",
+      "actionId": "1E130B4E",
+      "result": {
+        "actionId": "1E130B4E",
+        "clips": [
+          {
+            "frames": [
+              366,
+              456
+            ],
+            "id": "EC25449F",
+            "keyframes": {
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  89,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "2F2DAAA4",
+            "mediaType": "image",
+            "track": 2,
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "label": "drift background / P05_reply",
+      "tool": "set_keyframes",
+      "actionId": "796C32C1",
+      "result": {
+        "actionId": "796C32C1",
+        "clips": [
+          {
+            "frames": [
+              366,
+              456
+            ],
+            "id": "EC25449F",
+            "keyframes": {
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  89,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "2F2DAAA4",
+            "mediaType": "image",
+            "track": 2,
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "label": "scale foreground / P06_all_night",
+      "tool": "set_keyframes",
+      "actionId": "06AFC55A",
+      "result": {
+        "actionId": "06AFC55A",
+        "clips": [
+          {
+            "frames": [
+              456,
+              546
+            ],
+            "id": "4B1CF5BA",
+            "keyframes": {
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  89,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "0AF49155",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "label": "drift foreground / P06_all_night",
+      "tool": "set_keyframes",
+      "actionId": "8E026281",
+      "result": {
+        "actionId": "8E026281",
+        "clips": [
+          {
+            "frames": [
+              456,
+              546
+            ],
+            "id": "4B1CF5BA",
+            "keyframes": {
+              "position": [
+                [
+                  0,
+                  -0.012,
+                  0
+                ],
+                [
+                  89,
+                  -0.003,
+                  0
+                ]
+              ],
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  89,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "0AF49155",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "label": "scale middle / P06_all_night",
+      "tool": "set_keyframes",
+      "actionId": "E5347163",
+      "result": {
+        "actionId": "E5347163",
+        "clips": [
+          {
+            "frames": [
+              456,
+              546
+            ],
+            "id": "549E4F7A",
+            "keyframes": {
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  89,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "FF36B1FA",
+            "mediaType": "image",
+            "track": 1,
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "label": "drift middle / P06_all_night",
+      "tool": "set_keyframes",
+      "actionId": "E4519E2E",
+      "result": {
+        "actionId": "E4519E2E",
+        "clips": [
+          {
+            "frames": [
+              456,
+              546
+            ],
+            "id": "549E4F7A",
+            "keyframes": {
+              "position": [
+                [
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  89,
+                  0.006,
+                  0
+                ]
+              ],
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  89,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "FF36B1FA",
+            "mediaType": "image",
+            "track": 1,
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "label": "scale background / P06_all_night",
+      "tool": "set_keyframes",
+      "actionId": "5C31238A",
+      "result": {
+        "actionId": "5C31238A",
+        "clips": [
+          {
+            "frames": [
+              456,
+              546
+            ],
+            "id": "3C31249B",
+            "keyframes": {
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  89,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "787383FA",
+            "mediaType": "image",
+            "track": 2,
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "label": "drift background / P06_all_night",
+      "tool": "set_keyframes",
+      "actionId": "AFBE9CFD",
+      "result": {
+        "actionId": "AFBE9CFD",
+        "clips": [
+          {
+            "frames": [
+              456,
+              546
+            ],
+            "id": "3C31249B",
+            "keyframes": {
+              "position": [
+                [
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  89,
+                  0.003,
+                  0
+                ]
+              ],
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  89,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "787383FA",
+            "mediaType": "image",
+            "track": 2,
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "label": "scale foreground / P07_hook_return",
+      "tool": "set_keyframes",
+      "actionId": "934B1C48",
+      "result": {
+        "actionId": "934B1C48",
+        "clips": [
+          {
+            "frames": [
+              546,
+              636
+            ],
+            "id": "8012DED7",
+            "keyframes": {
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  89,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "051A3F87",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "label": "drift foreground / P07_hook_return",
+      "tool": "set_keyframes",
+      "actionId": "0C99A101",
+      "result": {
+        "actionId": "0C99A101",
+        "clips": [
+          {
+            "frames": [
+              546,
+              636
+            ],
+            "id": "8012DED7",
+            "keyframes": {
+              "position": [
+                [
+                  0,
+                  -0.027,
+                  0
+                ],
+                [
+                  89,
+                  -0.018,
+                  0
+                ]
+              ],
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  89,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "051A3F87",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "label": "scale middle / P07_hook_return",
+      "tool": "set_keyframes",
+      "actionId": "E28F088B",
+      "result": {
+        "actionId": "E28F088B",
+        "clips": [
+          {
+            "frames": [
+              546,
+              636
+            ],
+            "id": "A6ACA3E8",
+            "keyframes": {
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  89,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "23160D5D",
+            "mediaType": "image",
+            "track": 1,
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "label": "drift middle / P07_hook_return",
+      "tool": "set_keyframes",
+      "actionId": "680187EA",
+      "result": {
+        "actionId": "680187EA",
+        "clips": [
+          {
+            "frames": [
+              546,
+              636
+            ],
+            "id": "A6ACA3E8",
+            "keyframes": {
+              "position": [
+                [
+                  0,
+                  -0.021,
+                  0
+                ],
+                [
+                  89,
+                  -0.015,
+                  0
+                ]
+              ],
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  89,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "23160D5D",
+            "mediaType": "image",
+            "track": 1,
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "label": "scale background / P07_hook_return",
+      "tool": "set_keyframes",
+      "actionId": "300757AF",
+      "result": {
+        "actionId": "300757AF",
+        "clips": [
+          {
+            "frames": [
+              546,
+              636
+            ],
+            "id": "2B0342F6",
+            "keyframes": {
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  89,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "5451094B",
+            "mediaType": "image",
+            "track": 2,
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "label": "drift background / P07_hook_return",
+      "tool": "set_keyframes",
+      "actionId": "E7A8CF8E",
+      "result": {
+        "actionId": "E7A8CF8E",
+        "clips": [
+          {
+            "frames": [
+              546,
+              636
+            ],
+            "id": "2B0342F6",
+            "keyframes": {
+              "position": [
+                [
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  89,
+                  0.003,
+                  0
+                ]
+              ],
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  89,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "5451094B",
+            "mediaType": "image",
+            "track": 2,
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "label": "scale foreground / P08_tears",
+      "tool": "set_keyframes",
+      "actionId": "782E8E2C",
+      "result": {
+        "actionId": "782E8E2C",
+        "clips": [
+          {
+            "frames": [
+              636,
+              726
+            ],
+            "id": "8EF3E329",
+            "keyframes": {
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  89,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "F5F93A69",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "label": "drift foreground / P08_tears",
+      "tool": "set_keyframes",
+      "actionId": "56F6EBB4",
+      "result": {
+        "actionId": "56F6EBB4",
+        "clips": [
+          {
+            "frames": [
+              636,
+              726
+            ],
+            "id": "8EF3E329",
+            "keyframes": {
+              "position": [
+                [
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  89,
+                  0.009,
+                  0
+                ]
+              ],
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  89,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "F5F93A69",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "label": "scale middle / P08_tears",
+      "tool": "set_keyframes",
+      "actionId": "937A2CA7",
+      "result": {
+        "actionId": "937A2CA7",
+        "clips": [
+          {
+            "frames": [
+              636,
+              726
+            ],
+            "id": "059B590A",
+            "keyframes": {
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  89,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "9669045D",
+            "mediaType": "image",
+            "track": 1,
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "label": "drift middle / P08_tears",
+      "tool": "set_keyframes",
+      "actionId": "07D065AB",
+      "result": {
+        "actionId": "07D065AB",
+        "clips": [
+          {
+            "frames": [
+              636,
+              726
+            ],
+            "id": "059B590A",
+            "keyframes": {
+              "position": [
+                [
+                  0,
+                  -0.021,
+                  0
+                ],
+                [
+                  89,
+                  -0.015,
+                  0
+                ]
+              ],
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  89,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "9669045D",
+            "mediaType": "image",
+            "track": 1,
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "label": "scale background / P08_tears",
+      "tool": "set_keyframes",
+      "actionId": "CD406B8C",
+      "result": {
+        "actionId": "CD406B8C",
+        "clips": [
+          {
+            "frames": [
+              636,
+              726
+            ],
+            "id": "A6DB9CF3",
+            "keyframes": {
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  89,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "F45BF865",
+            "mediaType": "image",
+            "track": 2,
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "label": "drift background / P08_tears",
+      "tool": "set_keyframes",
+      "actionId": "2F87241E",
+      "result": {
+        "actionId": "2F87241E",
+        "clips": [
+          {
+            "frames": [
+              636,
+              726
+            ],
+            "id": "A6DB9CF3",
+            "keyframes": {
+              "position": [
+                [
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  89,
+                  0.003,
+                  0
+                ]
+              ],
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  89,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "F45BF865",
+            "mediaType": "image",
+            "track": 2,
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "label": "scale foreground / P09_promise",
+      "tool": "set_keyframes",
+      "actionId": "A8063367",
+      "result": {
+        "actionId": "A8063367",
+        "clips": [
+          {
+            "frames": [
+              726,
+              816
+            ],
+            "id": "8FEF75EF",
+            "keyframes": {
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  89,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "6510FCBD",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "label": "drift foreground / P09_promise",
+      "tool": "set_keyframes",
+      "actionId": "D7E5576F",
+      "result": {
+        "actionId": "D7E5576F",
+        "clips": [
+          {
+            "frames": [
+              726,
+              816
+            ],
+            "id": "8FEF75EF",
+            "keyframes": {
+              "position": [
+                [
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  89,
+                  0.009,
+                  0
+                ]
+              ],
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  89,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "6510FCBD",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "label": "scale middle / P09_promise",
+      "tool": "set_keyframes",
+      "actionId": "AF67F370",
+      "result": {
+        "actionId": "AF67F370",
+        "clips": [
+          {
+            "frames": [
+              726,
+              816
+            ],
+            "id": "F08CA08F",
+            "keyframes": {
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  89,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "B01294AF",
+            "mediaType": "image",
+            "track": 1,
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "label": "drift middle / P09_promise",
+      "tool": "set_keyframes",
+      "actionId": "C0764E89",
+      "result": {
+        "actionId": "C0764E89",
+        "clips": [
+          {
+            "frames": [
+              726,
+              816
+            ],
+            "id": "F08CA08F",
+            "keyframes": {
+              "position": [
+                [
+                  0,
+                  -0.021,
+                  0
+                ],
+                [
+                  89,
+                  -0.015,
+                  0
+                ]
+              ],
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  89,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "B01294AF",
+            "mediaType": "image",
+            "track": 1,
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "label": "scale background / P09_promise",
+      "tool": "set_keyframes",
+      "actionId": "CF7FAAFC",
+      "result": {
+        "actionId": "CF7FAAFC",
+        "clips": [
+          {
+            "frames": [
+              726,
+              816
+            ],
+            "id": "E73D40E8",
+            "keyframes": {
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  89,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "D4108CB8",
+            "mediaType": "image",
+            "track": 2,
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "label": "drift background / P09_promise",
+      "tool": "set_keyframes",
+      "actionId": "AA97C67A",
+      "result": {
+        "actionId": "AA97C67A",
+        "clips": [
+          {
+            "frames": [
+              726,
+              816
+            ],
+            "id": "E73D40E8",
+            "keyframes": {
+              "position": [
+                [
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  89,
+                  0.003,
+                  0
+                ]
+              ],
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  89,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "D4108CB8",
+            "mediaType": "image",
+            "track": 2,
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "label": "scale foreground / P10_waiting",
+      "tool": "set_keyframes",
+      "actionId": "89415542",
+      "result": {
+        "actionId": "89415542",
+        "clips": [
+          {
+            "frames": [
+              816,
+              906
+            ],
+            "id": "1370E910",
+            "keyframes": {
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  89,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "7C2C8F11",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "label": "drift foreground / P10_waiting",
+      "tool": "set_keyframes",
+      "actionId": "DA8D163A",
+      "result": {
+        "actionId": "DA8D163A",
+        "clips": [
+          {
+            "frames": [
+              816,
+              906
+            ],
+            "id": "1370E910",
+            "keyframes": {
+              "position": [
+                [
+                  0,
+                  -0.012,
+                  0
+                ],
+                [
+                  89,
+                  -0.003,
+                  0
+                ]
+              ],
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  89,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "7C2C8F11",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "label": "scale middle / P10_waiting",
+      "tool": "set_keyframes",
+      "actionId": "27916709",
+      "result": {
+        "actionId": "27916709",
+        "clips": [
+          {
+            "frames": [
+              816,
+              906
+            ],
+            "id": "EB0B6B30",
+            "keyframes": {
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  89,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "1E088738",
+            "mediaType": "image",
+            "track": 1,
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "label": "drift middle / P10_waiting",
+      "tool": "set_keyframes",
+      "actionId": "5183D7D1",
+      "result": {
+        "actionId": "5183D7D1",
+        "clips": [
+          {
+            "frames": [
+              816,
+              906
+            ],
+            "id": "EB0B6B30",
+            "keyframes": {
+              "position": [
+                [
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  89,
+                  0.006,
+                  0
+                ]
+              ],
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  89,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "1E088738",
+            "mediaType": "image",
+            "track": 1,
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "label": "scale background / P10_waiting",
+      "tool": "set_keyframes",
+      "actionId": "1D54641C",
+      "result": {
+        "actionId": "1D54641C",
+        "clips": [
+          {
+            "frames": [
+              816,
+              906
+            ],
+            "id": "29176BF0",
+            "keyframes": {
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  89,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "BA605B7A",
+            "mediaType": "image",
+            "track": 2,
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "label": "drift background / P10_waiting",
+      "tool": "set_keyframes",
+      "actionId": "0BF04691",
+      "result": {
+        "actionId": "0BF04691",
+        "clips": [
+          {
+            "frames": [
+              816,
+              906
+            ],
+            "id": "29176BF0",
+            "keyframes": {
+              "position": [
+                [
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  89,
+                  0.003,
+                  0
+                ]
+              ],
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  89,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "BA605B7A",
+            "mediaType": "image",
+            "track": 2,
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "label": "scale foreground / P11_resource_used",
+      "tool": "set_keyframes",
+      "actionId": "F672E67B",
+      "result": {
+        "actionId": "F672E67B",
+        "clips": [
+          {
+            "frames": [
+              906,
+              996
+            ],
+            "id": "DDFE1271",
+            "keyframes": {
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  89,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "42B713A9",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "label": "drift foreground / P11_resource_used",
+      "tool": "set_keyframes",
+      "actionId": "EBF565EB",
+      "result": {
+        "actionId": "EBF565EB",
+        "clips": [
+          {
+            "frames": [
+              906,
+              996
+            ],
+            "id": "DDFE1271",
+            "keyframes": {
+              "position": [
+                [
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  89,
+                  0.009,
+                  0
+                ]
+              ],
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  89,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "42B713A9",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "label": "scale middle / P11_resource_used",
+      "tool": "set_keyframes",
+      "actionId": "A96811D3",
+      "result": {
+        "actionId": "A96811D3",
+        "clips": [
+          {
+            "frames": [
+              906,
+              996
+            ],
+            "id": "A064C7F6",
+            "keyframes": {
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  89,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "ACFC6542",
+            "mediaType": "image",
+            "track": 1,
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "label": "drift middle / P11_resource_used",
+      "tool": "set_keyframes",
+      "actionId": "5B7B6DEE",
+      "result": {
+        "actionId": "5B7B6DEE",
+        "clips": [
+          {
+            "frames": [
+              906,
+              996
+            ],
+            "id": "A064C7F6",
+            "keyframes": {
+              "position": [
+                [
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  89,
+                  0.006,
+                  0
+                ]
+              ],
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  89,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "ACFC6542",
+            "mediaType": "image",
+            "track": 1,
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "label": "scale background / P11_resource_used",
+      "tool": "set_keyframes",
+      "actionId": "FE768582",
+      "result": {
+        "actionId": "FE768582",
+        "clips": [
+          {
+            "frames": [
+              906,
+              996
+            ],
+            "id": "FFE25242",
+            "keyframes": {
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  89,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "33E728FD",
+            "mediaType": "image",
+            "track": 2,
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "label": "drift background / P11_resource_used",
+      "tool": "set_keyframes",
+      "actionId": "B1550ACF",
+      "result": {
+        "actionId": "B1550ACF",
+        "clips": [
+          {
+            "frames": [
+              906,
+              996
+            ],
+            "id": "FFE25242",
+            "keyframes": {
+              "position": [
+                [
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  89,
+                  0.003,
+                  0
+                ]
+              ],
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  89,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "33E728FD",
+            "mediaType": "image",
+            "track": 2,
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "label": "scale foreground / P12_resource_meter",
+      "tool": "set_keyframes",
+      "actionId": "E3F165BB",
+      "result": {
+        "actionId": "E3F165BB",
+        "clips": [
+          {
+            "frames": [
+              996,
+              1164
+            ],
+            "id": "363D506A",
+            "keyframes": {
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  167,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "60B2D1C5",
+            "mediaType": "image",
+            "track": 0
+          }
+        ]
+      }
+    },
+    {
+      "label": "drift foreground / P12_resource_meter",
+      "tool": "set_keyframes",
+      "actionId": "93B9FF6F",
+      "result": {
+        "actionId": "93B9FF6F",
+        "clips": [
+          {
+            "frames": [
+              996,
+              1164
+            ],
+            "id": "363D506A",
+            "keyframes": {
+              "position": [
+                [
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  167,
+                  0.016,
+                  0
+                ]
+              ],
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  167,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "60B2D1C5",
+            "mediaType": "image",
+            "track": 0
+          }
+        ]
+      }
+    },
+    {
+      "label": "scale middle / P12_resource_meter",
+      "tool": "set_keyframes",
+      "actionId": "90D260D4",
+      "result": {
+        "actionId": "90D260D4",
+        "clips": [
+          {
+            "frames": [
+              996,
+              1164
+            ],
+            "id": "FD1B34C3",
+            "keyframes": {
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  167,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "E5F8C77E",
+            "mediaType": "image",
+            "track": 1
+          }
+        ]
+      }
+    },
+    {
+      "label": "drift middle / P12_resource_meter",
+      "tool": "set_keyframes",
+      "actionId": "638E3B39",
+      "result": {
+        "actionId": "638E3B39",
+        "clips": [
+          {
+            "frames": [
+              996,
+              1164
+            ],
+            "id": "FD1B34C3",
+            "keyframes": {
+              "position": [
+                [
+                  0,
+                  -0.009,
+                  0
+                ],
+                [
+                  167,
+                  0.003,
+                  0
+                ]
+              ],
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  167,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "E5F8C77E",
+            "mediaType": "image",
+            "track": 1
+          }
+        ]
+      }
+    },
+    {
+      "label": "scale background / P12_resource_meter",
+      "tool": "set_keyframes",
+      "actionId": "ADF9DDCF",
+      "result": {
+        "actionId": "ADF9DDCF",
+        "clips": [
+          {
+            "frames": [
+              996,
+              1164
+            ],
+            "id": "DDABCC14",
+            "keyframes": {
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  167,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "01F0AC8A",
+            "mediaType": "image",
+            "track": 2
+          }
+        ]
+      }
+    },
+    {
+      "label": "drift background / P12_resource_meter",
+      "tool": "set_keyframes",
+      "actionId": "E78BDF34",
+      "result": {
+        "actionId": "E78BDF34",
+        "clips": [
+          {
+            "frames": [
+              996,
+              1164
+            ],
+            "id": "DDABCC14",
+            "keyframes": {
+              "position": [
+                [
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  167,
+                  0.006,
+                  0
+                ]
+              ],
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  167,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "01F0AC8A",
+            "mediaType": "image",
+            "track": 2
+          }
+        ]
+      }
+    },
+    {
+      "label": "scale foreground / P13_saved",
+      "tool": "set_keyframes",
+      "actionId": "4F6D49FE",
+      "result": {
+        "actionId": "4F6D49FE",
+        "clips": [
+          {
+            "frames": [
+              1164,
+              1254
+            ],
+            "id": "658F9B8B",
+            "keyframes": {
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  89,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "491744D4",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "label": "drift foreground / P13_saved",
+      "tool": "set_keyframes",
+      "actionId": "3593F7AD",
+      "result": {
+        "actionId": "3593F7AD",
+        "clips": [
+          {
+            "frames": [
+              1164,
+              1254
+            ],
+            "id": "658F9B8B",
+            "keyframes": {
+              "position": [
+                [
+                  0,
+                  -0.012,
+                  0
+                ],
+                [
+                  89,
+                  -0.003,
+                  0
+                ]
+              ],
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  89,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "491744D4",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "label": "scale middle / P13_saved",
+      "tool": "set_keyframes",
+      "actionId": "ECE9B875",
+      "result": {
+        "actionId": "ECE9B875",
+        "clips": [
+          {
+            "frames": [
+              1164,
+              1254
+            ],
+            "id": "65FD3BB2",
+            "keyframes": {
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  89,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "AF52807B",
+            "mediaType": "image",
+            "track": 1,
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "label": "drift middle / P13_saved",
+      "tool": "set_keyframes",
+      "actionId": "2DD779A3",
+      "result": {
+        "actionId": "2DD779A3",
+        "clips": [
+          {
+            "frames": [
+              1164,
+              1254
+            ],
+            "id": "65FD3BB2",
+            "keyframes": {
+              "position": [
+                [
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  89,
+                  0.006,
+                  0
+                ]
+              ],
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  89,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "AF52807B",
+            "mediaType": "image",
+            "track": 1,
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "label": "scale background / P13_saved",
+      "tool": "set_keyframes",
+      "actionId": "54517A7A",
+      "result": {
+        "actionId": "54517A7A",
+        "clips": [
+          {
+            "frames": [
+              1164,
+              1254
+            ],
+            "id": "05F27022",
+            "keyframes": {
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  89,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "FA226CD9",
+            "mediaType": "image",
+            "track": 2,
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "label": "drift background / P13_saved",
+      "tool": "set_keyframes",
+      "actionId": "5C1153E9",
+      "result": {
+        "actionId": "5C1153E9",
+        "clips": [
+          {
+            "frames": [
+              1164,
+              1254
+            ],
+            "id": "05F27022",
+            "keyframes": {
+              "position": [
+                [
+                  0,
+                  0,
+                  0
+                ],
+                [
+                  89,
+                  0.003,
+                  0
+                ]
+              ],
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  89,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "FA226CD9",
+            "mediaType": "image",
+            "track": 2,
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "label": "scale foreground / P14_loop",
+      "tool": "set_keyframes",
+      "actionId": "EA0E0E28",
+      "result": {
+        "actionId": "EA0E0E28",
+        "clips": [
+          {
+            "frames": [
+              1254,
+              1344
+            ],
+            "id": "1127B640",
+            "keyframes": {
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  89,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "051A3F87",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "label": "drift foreground / P14_loop",
+      "tool": "set_keyframes",
+      "actionId": "177D1F79",
+      "result": {
+        "actionId": "177D1F79",
+        "clips": [
+          {
+            "frames": [
+              1254,
+              1344
+            ],
+            "id": "1127B640",
+            "keyframes": {
+              "position": [
+                [
+                  0,
+                  -0.027,
+                  0
+                ],
+                [
+                  89,
+                  -0.027,
+                  0
+                ]
+              ],
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  89,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "051A3F87",
+            "mediaType": "image",
+            "track": 0,
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "label": "scale middle / P14_loop",
+      "tool": "set_keyframes",
+      "actionId": "C8F7A62D",
+      "result": {
+        "actionId": "C8F7A62D",
+        "clips": [
+          {
+            "frames": [
+              1254,
+              1344
+            ],
+            "id": "340343B8",
+            "keyframes": {
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  89,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "23160D5D",
+            "mediaType": "image",
+            "track": 1,
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "label": "drift middle / P14_loop",
+      "tool": "set_keyframes",
+      "actionId": "FF75B751",
+      "result": {
+        "actionId": "FF75B751",
+        "clips": [
+          {
+            "frames": [
+              1254,
+              1344
+            ],
+            "id": "340343B8",
+            "keyframes": {
+              "position": [
+                [
+                  0,
+                  -0.021,
+                  0
+                ],
+                [
+                  89,
+                  -0.021,
+                  0
+                ]
+              ],
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  89,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "23160D5D",
+            "mediaType": "image",
+            "track": 1,
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "label": "scale background / P14_loop",
+      "tool": "set_keyframes",
+      "actionId": "44492583",
+      "result": {
+        "actionId": "44492583",
+        "clips": [
+          {
+            "frames": [
+              1254,
+              1344
+            ],
+            "id": "67841FE6",
+            "keyframes": {
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  89,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "5451094B",
+            "mediaType": "image",
+            "track": 2,
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    },
+    {
+      "label": "drift background / P14_loop",
+      "tool": "set_keyframes",
+      "actionId": "E6754A0A",
+      "result": {
+        "actionId": "E6754A0A",
+        "clips": [
+          {
+            "frames": [
+              1254,
+              1344
+            ],
+            "id": "67841FE6",
+            "keyframes": {
+              "scale": [
+                [
+                  0,
+                  1.001,
+                  1,
+                  "linear"
+                ],
+                [
+                  89,
+                  1.001,
+                  1,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "5451094B",
+            "mediaType": "image",
+            "track": 2,
+            "trimEndFrame": 60
+          }
+        ]
+      }
+    }
+  ],
+  "project_id": "01CB00DB",
+  "project_name": "Paper Detour 007 Joshua Jessica Screen Fix v07 20261101",
+  "timeline_name": "007_joshua_jessica_screen_v07_20261101",
+  "frames": 1344,
+  "base_timeline_id": null,
+  "preserve_tracks": {},
+  "scenes": [
+    "P01_hook",
+    "P02_absence",
+    "P03_jessica",
+    "P04_old_messages",
+    "P05_reply",
+    "P06_all_night",
+    "P07_hook_return",
+    "P08_tears",
+    "P09_promise",
+    "P10_waiting",
+    "P11_resource_used",
+    "P12_resource_meter",
+    "P13_saved",
+    "P14_loop"
+  ],
+  "media_folder": "PaperLayers/007_joshua_jessica_screen_v07_20261101",
+  "media": {
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Source/Images/QUICK_IMPORT_CURRENT/01_14_hook_loop/FG.png": "051A3F87",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Source/Images/QUICK_IMPORT_CURRENT/02_absence/FG.png": "5900650D",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Source/Images/QUICK_IMPORT_CURRENT/03_jessica_name/FG.png": "A70CF609",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Source/Images/QUICK_IMPORT_CURRENT/04_old_messages/FG.png": "D1043703",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Source/Images/QUICK_IMPORT_CURRENT/05_reply_card/FG.png": "D6C63544",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Source/Images/QUICK_IMPORT_CURRENT/06_all_night/FG.png": "0AF49155",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Source/Images/QUICK_IMPORT_CURRENT/08_tears/FG.png": "F5F93A69",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Source/Images/QUICK_IMPORT_CURRENT/09_promise_daylight/FG.png": "6510FCBD",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Source/Images/QUICK_IMPORT_CURRENT/10_waiting_quote/FG.png": "7C2C8F11",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Source/Images/QUICK_IMPORT_CURRENT/11_resource_used/FG.png": "42B713A9",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Source/Images/QUICK_IMPORT_CURRENT/12_resource_meter/FG.png": "60B2D1C5",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Source/Images/QUICK_IMPORT_CURRENT/13_saved_conversations/FG.png": "491744D4",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Source/Images/QUICK_IMPORT_CURRENT/01_14_hook_loop/MG.png": "23160D5D",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Source/Images/QUICK_IMPORT_CURRENT/02_absence/MG.png": "28673FD5",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Source/Images/QUICK_IMPORT_CURRENT/03_jessica_name/MG.png": "3F86F98F",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Source/Images/QUICK_IMPORT_CURRENT/04_old_messages/MG.png": "86615797",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Source/Images/QUICK_IMPORT_CURRENT/05_reply_card/MG.png": "13A2E028",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Source/Images/QUICK_IMPORT_CURRENT/06_all_night/MG.png": "FF36B1FA",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Source/Images/QUICK_IMPORT_CURRENT/08_tears/MG.png": "9669045D",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Source/Images/QUICK_IMPORT_CURRENT/09_promise_daylight/MG.png": "B01294AF",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Source/Images/QUICK_IMPORT_CURRENT/10_waiting_quote/MG.png": "1E088738",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Source/Images/QUICK_IMPORT_CURRENT/11_resource_used/MG.png": "ACFC6542",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Source/Images/QUICK_IMPORT_CURRENT/12_resource_meter/MG.png": "E5F8C77E",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Source/Images/QUICK_IMPORT_CURRENT/13_saved_conversations/MG.png": "AF52807B",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Source/Images/QUICK_IMPORT_CURRENT/01_14_hook_loop/BG.png": "5451094B",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Source/Images/QUICK_IMPORT_CURRENT/02_absence/BG.png": "16CAAC54",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Source/Images/QUICK_IMPORT_CURRENT/03_jessica_name/BG.png": "DC7D2358",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Source/Images/QUICK_IMPORT_CURRENT/04_old_messages/BG.png": "5D503906",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Source/Images/QUICK_IMPORT_CURRENT/05_reply_card/BG.png": "2F2DAAA4",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Source/Images/QUICK_IMPORT_CURRENT/06_all_night/BG.png": "787383FA",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Source/Images/QUICK_IMPORT_CURRENT/08_tears/BG.png": "F45BF865",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Source/Images/QUICK_IMPORT_CURRENT/09_promise_daylight/BG.png": "D4108CB8",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Source/Images/QUICK_IMPORT_CURRENT/10_waiting_quote/BG.png": "BA605B7A",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Source/Images/QUICK_IMPORT_CURRENT/11_resource_used/BG.png": "33E728FD",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Source/Images/QUICK_IMPORT_CURRENT/12_resource_meter/BG.png": "01F0AC8A",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Source/Images/QUICK_IMPORT_CURRENT/13_saved_conversations/BG.png": "FA226CD9"
+  },
+  "clips": {
+    "background": [
+      "4C668CCC",
+      "969399FF",
+      "4B854B0F",
+      "5F9DAEC6",
+      "EC25449F",
+      "3C31249B",
+      "2B0342F6",
+      "A6DB9CF3",
+      "E73D40E8",
+      "29176BF0",
+      "FFE25242",
+      "DDABCC14",
+      "05F27022",
+      "67841FE6"
+    ],
+    "middle": [
+      "018C6FB6",
+      "1B03B708",
+      "D1B01EE2",
+      "354F1D49",
+      "ED619788",
+      "549E4F7A",
+      "A6ACA3E8",
+      "059B590A",
+      "F08CA08F",
+      "EB0B6B30",
+      "A064C7F6",
+      "FD1B34C3",
+      "65FD3BB2",
+      "340343B8"
+    ],
+    "foreground": [
+      "7889A60E",
+      "FD3E07D3",
+      "97C1167C",
+      "8BEE612A",
+      "9909B079",
+      "4B1CF5BA",
+      "8012DED7",
+      "8EF3E329",
+      "8FEF75EF",
+      "1370E910",
+      "DDFE1271",
+      "363D506A",
+      "658F9B8B",
+      "1127B640"
+    ]
+  },
+  "timeline_id": "92BD1E43",
+  "clip_by_scene": {
+    "P01_hook": {
+      "background": "4C668CCC",
+      "middle": "018C6FB6",
+      "foreground": "7889A60E"
+    },
+    "P02_absence": {
+      "background": "969399FF",
+      "middle": "1B03B708",
+      "foreground": "FD3E07D3"
+    },
+    "P03_jessica": {
+      "background": "4B854B0F",
+      "middle": "D1B01EE2",
+      "foreground": "97C1167C"
+    },
+    "P04_old_messages": {
+      "background": "5F9DAEC6",
+      "middle": "354F1D49",
+      "foreground": "8BEE612A"
+    },
+    "P05_reply": {
+      "background": "EC25449F",
+      "middle": "ED619788",
+      "foreground": "9909B079"
+    },
+    "P06_all_night": {
+      "background": "3C31249B",
+      "middle": "549E4F7A",
+      "foreground": "4B1CF5BA"
+    },
+    "P07_hook_return": {
+      "background": "2B0342F6",
+      "middle": "A6ACA3E8",
+      "foreground": "8012DED7"
+    },
+    "P08_tears": {
+      "background": "A6DB9CF3",
+      "middle": "059B590A",
+      "foreground": "8EF3E329"
+    },
+    "P09_promise": {
+      "background": "E73D40E8",
+      "middle": "F08CA08F",
+      "foreground": "8FEF75EF"
+    },
+    "P10_waiting": {
+      "background": "29176BF0",
+      "middle": "EB0B6B30",
+      "foreground": "1370E910"
+    },
+    "P11_resource_used": {
+      "background": "FFE25242",
+      "middle": "A064C7F6",
+      "foreground": "DDFE1271"
+    },
+    "P12_resource_meter": {
+      "background": "DDABCC14",
+      "middle": "FD1B34C3",
+      "foreground": "363D506A"
+    },
+    "P13_saved": {
+      "background": "05F27022",
+      "middle": "65FD3BB2",
+      "foreground": "658F9B8B"
+    },
+    "P14_loop": {
+      "background": "67841FE6",
+      "middle": "340343B8",
+      "foreground": "1127B640"
+    }
+  },
+  "tracks": {
+    "background": "7F584256",
+    "middle": "FEC31B29",
+    "foreground": "7FBBD36D"
+  },
+  "review_frames": [
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_000000.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_000030.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_000060.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_000089.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_000089.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_000090.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_000120.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_000150.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_000180.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_000182.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_000182.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_000183.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_000213.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_000243.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_000272.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_000272.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_000273.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_000303.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_000333.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_000363.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_000365.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_000365.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_000366.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_000396.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_000426.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_000455.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_000455.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_000456.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_000486.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_000516.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_000545.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_000545.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_000546.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_000576.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_000606.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_000635.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_000635.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_000636.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_000666.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_000696.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_000725.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_000725.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_000726.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_000756.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_000786.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_000815.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_000815.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_000816.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_000846.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_000876.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_000905.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_000905.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_000906.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_000936.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_000966.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_000995.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_000995.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_000996.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_001026.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_001056.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_001086.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_001116.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_001146.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_001163.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_001163.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_001164.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_001194.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_001224.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_001253.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_001253.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_001254.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_001284.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_001314.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/Automation/007_joshua_jessica_screen_v07_20261101_frames/frame_001343.png"
+  ],
+  "visible_project_switched": false,
+  "existing_timelines_modified": false,
+  "exported": false
+}

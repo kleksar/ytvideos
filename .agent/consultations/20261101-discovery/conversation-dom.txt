@@ -1,0 +1,759 @@
+- link "Перейти к контенту":
+  - /url: "#_r_8f_"
+- complementary:
+  - navigation "Навигация по приложению":
+    - button "Главная":
+      - generic: Главная
+    - button "Пространство":
+      - generic: Пространство
+    - button "Запланировано":
+      - generic: Запланировано
+    - button "Плагины":
+      - generic: Плагины
+    - button "Обзор":
+      - generic: Обзор
+    - button "Сайты":
+      - generic: Сайты
+    - button "Проекты":
+      - generic: Проекты
+    - button "Открыть меню профиля"
+  - navigation "Главная":
+    - link "Главная":
+      - /url: /
+      - generic: ChatGPT
+    - button "Поиск":
+    - button "Переключить боковую панель" [expanded]:
+    - button "Новый чат":
+      - generic: Новый чат
+    - list:
+      - button "Ваш dot 3 непрочитанных сообщения":
+        - generic: Ваш dot
+        - generic: "3"
+        - generic: 3 непрочитанных сообщения
+    - button "Закрепленные" [expanded]:
+      - generic: Закрепленные
+    - list:
+      - group "Анализ задержки 4.42":
+        - link "Анализ задержки 4.42":
+          - /url: /c/6ae1c4ea-9868-83ed-ba6e-96006ebe5dfe
+          - generic: Анализ задержки 4.42
+        - button "Открепить чат":
+        - button "Действия чата":
+      - group "Ускорять CI/CD виток":
+        - link "Ускорять CI/CD виток":
+          - /url: /c/6ae4ecef-df40-83eb-91f1-26029ae1196a
+          - generic: Ускорять CI/CD виток
+        - button "Открепить чат":
+        - button "Действия чата":
+      - button "YT Видео" [expanded]:
+        - generic: YT Видео
+        - button "Действия проекта YT Видео":
+        - button "Новый чат в YT Видео":
+      - list "Чаты в YT Видео":
+        - group "Драматургический каркас Shorts":
+          - link "Драматургический каркас Shorts":
+            - /url: /g/g-p-6ae147d3975481919b5bfda6935777d0/c/6ae74b79-d8d0-83eb-8e7f-7d2ab9ea2de0
+            - generic: Драматургический каркас Shorts
+          - button "Действия чата":
+          - button "Закрепить чат":
+        - group "Сюжетная основа фильма":
+          - link "Сюжетная основа фильма":
+            - /url: /g/g-p-6ae147d3975481919b5bfda6935777d0/c/6ae757b5-fdb0-83ed-af40-7dbc5fb9f45f
+            - generic: Сюжетная основа фильма
+          - button "Действия чата":
+          - button "Закрепить чат":
+        - group "Minnie Freeman Rescue":
+          - link "Minnie Freeman Rescue":
+            - /url: /g/g-p-6ae147d3975481919b5bfda6935777d0/c/6ae74139-aea4-83ed-a633-962787d26477
+            - generic: Minnie Freeman Rescue
+          - button "Действия чата":
+          - button "Закрепить чат":
+        - group "Экранные акценты Shorts":
+          - link "Экранные акценты Shorts":
+            - /url: /g/g-p-6ae147d3975481919b5bfda6935777d0/c/6ae755de-5b9c-83ed-9fea-6532ce4575c0
+            - generic: Экранные акценты Shorts
+          - button "Действия чата":
+          - button "Закрепить чат":
+        - group "Визуальный сценарий одежды":
+          - link "Визуальный сценарий одежды":
+            - /url: /g/g-p-6ae147d3975481919b5bfda6935777d0/c/6ae737fc-207c-83eb-a549-eedf1f06c88e
+            - generic: Визуальный сценарий одежды
+          - button "Действия чата":
+          - button "Закрепить чат":
+        - button "Показать больше":
+          - generic: Показать больше
+      - status
+    - button "Проекты" [expanded]:
+      - generic: Проекты
+    - button "Параметры боковой панели проекта":
+    - button "Добавить новый проект":
+    - list:
+      - button "автоматизация reels":
+        - generic: автоматизация reels
+        - button "Действия проекта автоматизация reels":
+        - button "Новый чат в автоматизация reels":
+      - button "witok":
+        - generic: witok
+        - button "Действия проекта witok":
+        - button "Новый чат в witok":
+      - button "Телеграм каналы":
+        - generic: Телеграм каналы
+        - button "Действия проекта Телеграм каналы":
+        - button "Новый чат в Телеграм каналы":
+      - button "Расследования":
+        - generic: Расследования
+        - button "Действия проекта Расследования":
+        - button "Новый чат в Расследования":
+      - button "kleksar/pi-web":
+        - generic: kleksar/pi-web
+        - button "Действия проекта kleksar/pi-web":
+        - button "Новый чат в kleksar/pi-web":
+      - button "Показать больше":
+        - generic: Показать больше
+    - button "Недавние" [expanded]:
+      - generic: Недавние
+    - button "Параметры боковой панели чата":
+    - button "Фильтр по разделам Chat и Work":
+    - button "Новый чат":
+    - list:
+      - group "Решение заданий":
+        - link "Решение заданий":
+          - /url: /c/6ae742bb-0078-83eb-9bab-59a63aad3d17
+          - generic: Решение заданий
+        - button "Действия чата":
+        - button "Закрепить чат":
+      - group "Редакционный стандарт сюжетов":
+        - link "Редакционный стандарт сюжетов":
+          - /url: /c/6ae73ff4-514c-83ed-87c9-a0c2b433b24a
+          - generic: Редакционный стандарт сюжетов
+        - button "Действия чата":
+        - button "Закрепить чат":
+      - group "Мерж develop в main":
+        - link "Мерж develop в main":
+          - /url: /c/6ae69b36-3808-83ed-a074-c19258b87f70
+          - generic: Мерж develop в main
+        - button "Действия чата":
+        - button "Закрепить чат":
+      - group "Искать сильные истории для Shorts":
+        - link "Искать сильные истории для Shorts":
+          - /url: /c/6ae0f9f3-f2fc-83eb-aa53-99215c161e13
+          - generic: Искать сильные истории для Shorts
+        - button "Действия чата":
+        - button "Закрепить чат":
+      - group "Сравнение концепций ролика":
+        - link "Сравнение концепций ролика":
+          - /url: /c/6ae65b3b-972c-83ed-b8c1-74e59077bb48
+          - generic: Сравнение концепций ролика
+        - button "Действия чата":
+        - button "Закрепить чат":
+      - group "Координаты на компасе в PUBG":
+        - link "Координаты на компасе в PUBG":
+          - /url: /c/6ae276dc-c7b8-83ed-a3e0-86a0224ed28d
+          - generic: Координаты на компасе в PUBG
+        - button "Действия чата":
+        - button "Закрепить чат":
+      - group "Ветка · Ветка · Автоматизация Reddit видео":
+        - link "Ветка · Ветка · Автоматизация Reddit видео":
+          - /url: /c/6ae0fa12-c118-83ed-b24e-0f0f67609f7b
+          - generic: Ветка · Ветка · Автоматизация Reddit видео
+        - button "Действия чата":
+        - button "Закрепить чат":
+      - group "Ветка · Автоматизация Reddit видео":
+        - link "Ветка · Автоматизация Reddit видео":
+          - /url: /c/6ae0ed29-1680-83eb-85a5-8db154a0e807
+          - generic: Ветка · Автоматизация Reddit видео
+        - button "Действия чата":
+        - button "Закрепить чат":
+      - group "Создание сайта лендинга":
+        - link "Создание сайта лендинга":
+          - /url: /g/g-p-6a9985031f3481918ae22df7b175572d/c/6aa03105-a19c-83eb-a28f-075a33aa3948
+          - generic: Создание сайта лендинга
+        - button "Действия чата":
+        - button "Закрепить чат":
+      - group "Ветка · Архитектура highload сервиса":
+        - link "Ветка · Архитектура highload сервиса":
+          - /url: /c/6ab8d2e2-9e4c-83ed-8c50-85c0a74af065
+          - generic: Ветка · Архитектура highload сервиса
+        - button "Действия чата":
+        - button "Закрепить чат":
+      - group "Определить первоисточники каналов":
+        - link "Определить первоисточники каналов":
+          - /url: /c/6ade2073-5ab4-83eb-b5ef-20ebb8767d33
+          - generic: Определить первоисточники каналов
+        - button "Действия чата":
+        - button "Закрепить чат":
+      - group "Ветка · Стиль новостей канала":
+        - link "Ветка · Стиль новостей канала":
+          - /url: /c/6ade1be8-3ed0-83ed-9d2b-4409ee451db8
+          - generic: Ветка · Стиль новостей канала
+        - button "Действия чата":
+        - button "Закрепить чат":
+      - group "Ветка · Определить первоисточники каналов":
+        - link "Ветка · Определить первоисточники каналов":
+          - /url: /c/6ade2a2a-0e6c-83ed-a9a2-461bcf651595
+          - generic: Ветка · Определить первоисточники каналов
+        - button "Действия чата":
+        - button "Закрепить чат":
+      - group "Доведи PR до мержа":
+        - link "Доведи PR до мержа":
+          - /url: /c/6addf67b-676c-83ed-866e-b438bf57235d
+          - generic: Доведи PR до мержа
+        - button "Действия чата":
+        - button "Закрепить чат":
+      - group "Ветка · Ветка · Поиск первоисточника бага":
+        - link "Ветка · Ветка · Поиск первоисточника бага":
+          - /url: /c/6addd8ce-21f0-83eb-b9cd-84f677f49c38
+          - generic: Ветка · Ветка · Поиск первоисточника бага
+        - button "Действия чата":
+        - button "Закрепить чат":
+    - status:
+      - text: Не удалось загрузить историю
+      - button "Повторить":
+        - text: Повторить
+  - separator
+- main:
+  - navigation "Навигационная цепочка":
+    - link "YT Видео":
+      - /url: /g/g-p-6ae147d3975481919b5bfda6935777d0/project
+      - generic: YT Видео
+  - button "Действия с чатом":
+  - button "Поделиться":
+    - text: Поделиться
+  - region "Разговор":
+    - status:
+      - generic: Загрузка более ранних сообщений…
+    - heading "Вы сказали:" [level=4]
+    - button "Вставленный текст.txt"
+    - generic "Вставленный текст.txt"
+    - generic: Документ
+    - button "Обработка заняла 1m 4s":
+      - generic: Обработка заняла 1m 4s
+    - heading "ChatGPT сказал:" [level=4]
+    - heading "Блокирующие замечания" [level=2]
+    - list:
+      - paragraph:
+        - strong: "Root всё ещё превышает согласованный лимит 6–8 KB:"
+        - text: в отчёте зафиксировано 13395 bytes. Это регрессия относительно принятого ограничения и снова повышает риск обрезки/лишнего постоянного контекста.
+        - strong: "Минимальное исправление:"
+        - text: "сократить только root примерно до 7–8 KB, убрав пояснения, уже доступные через skill-catalog/`documentation-index`, но сохранив все safety-инварианты."
+        - button "Открыть предпросмотр файла Вставленный текст.txt":
+          - generic: Вставленный текст
+      - paragraph:
+        - strong: Исключение Palmier снова обозначено номером Paper 001, а не точным выпуском.
+        - text: Root правильно закрепляет исключение только за new_channel/videos/001_radio_game, одновременно запрещая определять выпуск по номеру/slug; ytv-palmier-edit формулирует его как «У Paper 001 особое правило».
+        - strong: "Минимальное исправление:"
+        - text: заменить начало этой фразы на точный путь new_channel/videos/001_radio_game и оставить существующую ссылку на его журнал.
+        - button "Открыть предпросмотр файла Вставленный текст.txt":
+          - generic: Вставленный текст
+        - button "Открыть предпросмотр файла Вставленный текст.txt":
+          - generic: Вставленный текст
+        - button "Открыть предпросмотр файла Вставленный текст.txt":
+          - generic: Вставленный текст
+      - paragraph:
+        - strong: "Нарушен единственный владелец packaging:"
+        - text: каталог назначает ytv-video-packaging владельцем пары title/thumbnail, но роль paper_publisher_analyst одновременно заявляет ответственность за «упаковку» и направлена в ytv-youtube-release. Это создаёт второй маршрут к тому же правилу вопреки root-инварианту одного canonical owner.
+        - strong: "Минимальное исправление:"
+        - text: убрать слово/ответственность «упаковка» из paper_publisher_analyst; title/thumbnail оставлять только за ytv-video-packaging, release/playlist/post — за ytv-youtube-release.
+        - button "Открыть предпросмотр файла Вставленный текст.txt":
+          - generic: Вставленный текст
+        - button "Открыть предпросмотр файла Вставленный текст.txt":
+          - generic: Вставленный текст
+        - button "Открыть предпросмотр файла Вставленный текст.txt":
+          - generic: Вставленный текст
+    - heading "Неблокирующие ограничения проверки" [level=2]
+    - list:
+      - text: Discovery/picker skills и custom roles в новой клиентской сессии ещё не проверялся; файловая валидация не доказывает, как именно клиент покажет их runtime.
+      - button "Открыть предпросмотр файла Вставленный текст.txt":
+        - generic: Вставленный текст
+      - text: Четыре записи registry остаются UNVERIFIED, а каталог stories/videos/010_pfeilstorch отсутствует; это честно задокументировано и сейчас не блокирует миграцию.
+      - button "Открыть предпросмотр файла Вставленный текст.txt":
+        - generic: Вставленный текст
+      - listitem: В приложенном пакете полным текстом показаны не все 10 skills и не все TOML/channel AGENTS.md; для них здесь доступен результат локальной валидации и ledger, но не независимая построчная проверка содержимого.
+    - button "Копировать":
+    - button "Оценить ответ":
+    - button "Прочитать вслух":
+    - button "Поделиться":
+    - button "Добавить в источники проекта":
+    - button "Сгенерировать ответ заново":
+    - button "Ещё действия":
+    - button "Источники":
+    - heading "Вы сказали:" [level=4]
+    - generic: "Одна узкая задача: сократи фактический root AGENTS.md из предыдущего пакета до 6500–7800 БАЙТ UTF-8 (не символов). Дай только готовый Markdown в одном code block. Сохрани инварианты, но убери дубли и длинные пояснения: личный Chrome ExtraHigh перед каждым узким запросом, точная видимая маркировка без фиксированной модели, Pro только прямой; ждать/читать/сохранять, не делегировать вместо gate; spawning только по разрешению; noChrome блокирует лишь зависимое творчество. .agent неautoload; noGit фактическое состояние+bootstrap; канал поregistry/README, неslug; полныйstillPaper безслоёв/параллакса. Canonicalowners/10unique ytvs/roles и externalyoutube-upload черезcatalog ссылки. Статусы локальны. Новоеaudio требуетявногоразрешения, прежние конкретныеразрешениясохраняются. Palmier explicitIDs/onewriter/snapshot/изолированнаяверсия кроме ТОЧНО new_channel/videos/001_radio_game, .palmier неmanual, перемещениеimportedmedia с провереннойперелинковкой безновогоразрешения есливходитвзадачу. Uploadprivate потомявнозапрошенныйдоступ; подготовканеразрешаетпубликацию; неизвестнуюmutationнеповторятьбезчтения. TruthfulQA и авторнеindependent. Deliverablesпопринятомупути,1комплектнаязык/формат, старуюлокальнуювыдачутогожеформата/языкаможноудалитьпослепроверкиновойинеиcточник; source/Edit/прочиеязыкиформаты/внешниепубликации/журналынетрогать. Эта миграциябезmediaизменений/Gitinit/Codexsettingspermissionsmodelchanges. Ссылкинаcatalog/docsindex/registry/channelAGENTS/roles. Не добавляй новых требований. Ты консультант здесь, внешний gate уже выполнен, не открывай другойChatGPT."
+    - generic: …
+    - button "Показать ещё":
+      - generic: Показать ещё
+    - button "Скопировать сообщение":
+    - button "Поделиться промптом":
+    - button "Редактировать сообщение":
+    - button "Обработка заняла 1m 50s":
+      - generic: Обработка заняла 1m 50s
+    - button "Анализ завершен"
+    - generic: Анализ завершен
+    - button "Анализ завершен"
+    - generic: Анализ завершен
+    - button "Анализ завершен"
+    - generic: Анализ завершен
+    - button "Анализ завершен"
+    - generic: Анализ завершен
+    - button "Анализ завершен"
+    - generic: Анализ завершен
+    - button "Анализ завершен"
+    - generic: Анализ завершен
+    - button "Анализ завершен"
+    - generic: Анализ завершен
+    - heading "ChatGPT сказал:" [level=4]
+    - generic: Markdown
+    - button "Включить перенос строк":
+    - button "Копировать код":
+    - code:
+      - generic: "# AGENTS.md — ytvideos"
+      - text: Root хранит общие инварианты; процедуры — в skills/документации, состояние выпуска — рядом с ним.
+      - generic: "- [skills](.agent/skill-catalog.md)"
+      - generic: "- [документация/owners](.agent/documentation-index.md)"
+      - generic: "- [registry](.agent/episode-registry.md)"
+      - generic: "- [Paper](new_channel/AGENTS.md)"
+      - generic: "- [Stories/History](stories/AGENTS.md)"
+      - generic: "- [roles](.codex/agents/README.md)"
+      - generic: "## 1. ChatGPT Extra High"
+      - generic: Перед анализом, исследованием, редакционным решением или творчеством координатор лично обращается к ChatGPT.com в Google Chrome в режиме **Extra High / «Очень высокий»**. Перед **каждым** запросом проверить видимую маркировку; точное показанное название модели/режима логировать, но модель здесь не фиксировать.
+      - text: Один запрос — одна узкая задача. Стадии не объединять. Дождаться ответа, прочитать/проверить, сохранить результат и только затем идти дальше.
+      - text: "`Pro` — только по прямому запросу. Skill, роль и субагент не заменяют gate. Spawning — только по прямому разрешению пользователя либо явно применимому разрешению в `AGENTS.md`/skill и runtime."
+      - text: Если Chrome/Extra High недоступен, блокируется только зависимый этап; принятые механические действия можно продолжать.
+      - generic: "## 2. Bootstrap и канал"
+      - text: "Проект фактически не Git repo; не полагаться на Git root. Запуск — предпочтительно из `ytvideos/`; из подкаталога явно прочитать root, затем нужный channel `AGENTS.md`."
+      - text: "`.agent/` не autoload: читать только по явной ссылке."
+      - generic: "Канал/выпуск определять по [registry](.agent/episode-registry.md) и локальному README/журналу, **не по номеру или slug**. Paper: [new_channel/AGENTS.md](new_channel/AGENTS.md). Stories/History: [stories/AGENTS.md](stories/AGENTS.md)."
+      - generic: "Paper guard в любом каталоге: **одна законченная цельная still-картинка на сцену; без BG/MG/FG, отдельных слоёв, движения частей и parallax.**"
+      - generic: "## 3. Owners, skills, роли"
+      - text: "У повторяемого правила один canonical owner; не дублировать workflow между root, channel `AGENTS.md`, skill и ролью."
+      - generic: "Десять уникальных `ytv-*`, их triggers/owners — в [skill catalog](.agent/skill-catalog.md). Источники правил — в [documentation index](.agent/documentation-index.md). [Роли](.codex/agents/README.md) не являются вторым workflow и не разрешают spawning. Не применять все skills ко всем задачам."
+      - text: "Глобальный `youtube-upload` владеет generic upload mechanics; project release вызывает его через catalog без копии checklist. Legacy Paper skills — только thin routers к локальным `ytv-*`."
+      - generic: "## 4. Состояние выпусков"
+      - text: Status, решения, разрешения, ссылки, IDs и принятые артефакты хранить рядом с выпуском.
+      - text: "Порядок: registry → локальный README/журнал → channel `AGENTS.md` → нужные skills."
+      - generic: "## 5. Звук"
+      - generic: Без отдельного прямого разрешения **не создавать и не рендерить новый звук**, включая voice/narration, музыку, SFX, тесты и пробы.
+      - text: Ранее явно данное разрешение для конкретного выпуска и scope сохраняется, пока scope не изменён. Остальные правила звука, mix QA и MP4/SRT — в audio skill.
+      - generic: "## 6. Palmier"
+      - text: "`.palmier` вручную не редактировать. Для MCP/API использовать явные `projectId`/`timelineId`; UI focus не задаёт цель. На одном target timeline — один writer."
+      - text: Перед рискованной правкой делать snapshot. По умолчанию использовать изолированную timeline-версию с сохранением исходника, если локальные правила не требуют иного.
+      - generic: "Исключение: **`new_channel/videos/001_radio_game`** использует один canonical timeline; его локальные правила имеют приоритет."
+      - text: Imported media не перемещать без проверенной перелинковки. Если перемещение входит в порученную задачу, нового разрешения не нужно; после изменения проверить зависимости.
+      - generic: "## 7. YouTube и внешние изменения"
+      - generic: Новый upload по умолчанию — **Private**; затем ставить только явно запрошенную visibility.
+      - generic: Подготовка видео/export/metadata/thumbnail/playlist/release plan **не разрешает публикацию**.
+      - text: "Не повторять неизвестную внешнюю mutation вслепую: сначала проверить фактическое состояние либо зафиксировать неизвестность. Не заявлять о внешнем изменении без проверки результата."
+      - generic: "## 8. Truthful QA"
+      - text: Утверждать только проверенное. Успешная команда, background task, наличие файла или отсутствие exception не доказывают корректность результата.
+      - text: Автор изменения не становится independent reviewer после смены роли/имени. Если независимая проверка требовалась и не выполнена — указать это. Не выдумывать просмотр, прослушивание, export QA, review или внешнее состояние.
+      - generic: "## 9. Deliverables и очистка"
+      - generic: Deliverables сохранять по принятому пути выпуска. После проверки нового результата поддерживать **один актуальный локальный комплект каждого нужного языка и формата**.
+      - text: Предыдущую локальную выдачу того же языка/формата можно удалить после проверки новой, если она не source; новое разрешение для этой очистки не требуется.
+      - text: Не удалять автоматически source assets, project/Edit files, другие языки/форматы, внешние/опубликованные/загруженные материалы, журналы и provenance.
+      - generic: "## 10. Текущая миграция"
+      - generic: В этой миграции **не менять media/production assets, не создавать/инициализировать Git repo, не менять Codex settings, permissions, model configuration или global runtime settings**.
+    - button "Просмотр анализа":
+    - button "Копировать":
+    - button "Оценить ответ":
+    - button "Прочитать вслух":
+    - button "Поделиться":
+    - button "Добавить в источники проекта":
+    - button "Сгенерировать ответ заново":
+    - button "Ещё действия":
+    - heading "Вы сказали:" [level=4]
+    - generic: "Ты консультант в уже открытом ChatGPT Extra High; координатор лично проверил режим. Не открывай другой ChatGPT. Одна узкая задача: предложи минимальную проверку и критерии исправления автоматического discovery и маршрутов 10 новых project skills. Пользователь просит проверить автообнаружение и применение правил каждому каналу, исправить сразу. ФАКТ: на новом пользовательском ходе runtime реально включил все10 ytv-* name/description/path из /Users/diplomat/ytvideos/.agents/skills в доступный skill catalog. Это прямое доказательство metadata discovery в текущей сессии; ещё не полноценные implicit-selection e2e. Проект безGit. CWDroot ytvideos. RootAGENTS=7.8KB с маршрутом registry→локальныйжурнал→channelAGENTS→нужныйskill; PaperAGENTSnew_channel и Stories/HistoryAGENTSstories; толькоchanneltopAGENTS, глубженепроверено. 10SKILL.md содержатrelative links ../../../ кrootdocs; 7channel/generic процедур не всеявно требуют root+registry+channelAGENTS вначале, auto-bodyнеравенauto-loadвсехдоков. openai.yaml нет, implicitвыключатели незадавались. Officialdocs: skills .agents/skills CWD→Gitroot, AGENTS безprojectrootтолькоCWD, symlinkskillfolderssupported; implicit поdescription и можетбытьусечённой. Нельзя инициализироватьGit/менятьglobalconfiguration/медиа/публиковать/создаватьновыйзвук. Не запускатьсубагентовбезразрешения. Допустима read-only техническая проверка nativeCodex app-server skills/list для заданныхCWD, безмодельныхходов. Каналы: PaperDetour(бывшRarovista), StoriesRU/EN (1.10x, VPNтолькоRU), NuvikoHistory(1.05x,другойведущий). 027slugdoomscrolling=Минни/Paper; радиоnew_channel/videos/001_radio_gameодинcanonicaltimeline. Дай критерии достаточности evidence и минимальные документные fixesесли discoveryизchannelCWDнеработает или generic skill пропускаетканальнуюинструкцию. Не придумывайуспешныепроверки. Не полныеновыеskills, толькооднаэтадиагностическаязадача."
+    - generic: …
+    - button "Показать ещё":
+      - generic: Показать ещё
+    - button "Скопировать сообщение":
+    - button "Поделиться промптом":
+    - button "Редактировать сообщение":
+    - heading "ChatGPT сказал:" [level=4]
+    - paragraph:
+      - text: Минимальная проверка должна разделять
+      - strong: discovery
+      - text: ","
+      - strong: bootstrap инструкций
+      - text: и
+      - strong: implicit selection
+      - text: ". Сейчас доказано только первое для CWD=/Users/diplomat/ytvideos: runtime реально увидел все 10 ytv-* по name/description/path. Этого достаточно считать metadata discovery в root рабочим, но недостаточно для channel CWD и implicit routing."
+    - heading "1. Минимальная read-only проверка discovery" [level=2]
+    - paragraph: "Через native Codex app-server skills/list выполнить только три вызова с разным cwd:"
+    - table:
+      - rowgroup:
+        - row "CWD Критерий":
+          - columnheader "CWD"
+          - columnheader "Критерий"
+      - rowgroup:
+        - row "/Users/diplomat/ytvideos присутствуют ровно все 10 ожидаемых ytv-*":
+          - cell "/Users/diplomat/ytvideos"
+          - cell "присутствуют ровно все 10 ожидаемых ytv-*"
+        - row "/Users/diplomat/ytvideos/new_channel проверить, доступны ли те же 10 project skills":
+          - cell "/Users/diplomat/ytvideos/new_channel"
+          - cell "проверить, доступны ли те же 10 project skills"
+        - row "/Users/diplomat/ytvideos/stories проверить, доступны ли те же 10 project skills":
+          - cell "/Users/diplomat/ytvideos/stories"
+          - cell "проверить, доступны ли те же 10 project skills"
+    - button "Скопировать таблицу":
+    - button "Развернуть таблицу":
+    - paragraph: Сравнивать именно canonical name и resolved path. Никаких model turns для этого не нужно.
+    - paragraph:
+      - strong: "Достаточное evidence для discovery:"
+      - text: фактический ответ skills/list для каждого из трёх CWD, сохранённый с CWD и списком name/path. Уже имеющийся runtime-каталог закрывает только первую строку.
+    - paragraph: "Deep episode CWD сейчас проверять не нужно: проектная политика уже задаёт bootstrap через root/channel, а расширять матрицу до десятков каталогов преждевременно."
+    - heading "2. Если skills не обнаруживаются из channel CWD" [level=2]
+    - paragraph: "При отсутствии Git это не считать поломкой самих SKILL.md: ожидаемый риск — discovery начинается от фактического CWD и не обязан находить родительский .agents/skills."
+    - paragraph:
+      - text: Минимальное исправление —
+      - strong: не копировать 10 skills в каждый канал и не создавать одноимённые symlink-дубликаты
+      - text: .
+    - paragraph: "Закрепить единственный operational rule:"
+    - blockquote:
+      - paragraph: Codex для этого проекта запускается с CWD=/Users/diplomat/ytvideos; работа с channel/episode определяется registry и явным чтением channel instructions, а не сменой CWD.
+    - paragraph: Это правило должно быть коротко и однозначно в root/bootstrap документации. Если уже есть эквивалентная формулировка, больше ничего менять не надо.
+    - paragraph: "Symlink .agents/skills внутри new_channel/`stories` нужен только если существует реальная обязательная эксплуатационная причина запускать Codex непосредственно из этих CWD. Иначе он создаёт лишние discovery surfaces без пользы."
+    - heading "3. Проверка маршрута правил канала" [level=2]
+    - paragraph: skills/list этого не доказывает. Skill body не означает автоматическую загрузку root, registry или channel AGENTS.md.
+    - paragraph: "Поэтому сделать статический audit всех 10 skills по одному критерию:"
+    - paragraph:
+      - strong: "Любой skill, способный работать с конкретным выпуском, до содержательных steps должен явно требовать:"
+    - generic: Обычный текст
+    - button "Включить перенос строк":
+    - button "Копировать код":
+    - code:
+      - generic: root/project invariants → episode registry / local episode state → соответствующий channel AGENTS.md → затем procedure skill
+    - paragraph: Не нужно копировать правила каналов внутрь skills — только обязательный bootstrap.
+    - heading "Skills, где bootstrap обязателен" [level=3]
+    - paragraph: "Для episode/channel work это как минимум:"
+    - list:
+      - listitem: ytv-paper-production
+      - listitem: ytv-paper-storyboard
+      - listitem: ytv-paper-images
+      - listitem: ytv-video-packaging
+      - listitem: ytv-palmier-edit
+      - listitem: ytv-audio-delivery
+      - listitem: ytv-youtube-release
+      - listitem: ytv-history-story
+      - listitem: ytv-stories-shorts
+    - paragraph: ytv-chatgpt-extra-high может оставаться без channel bootstrap, когда он лишь реализует gate. Если через него передаётся episode-specific задача, channel context обязан уже предоставить вызывающий workflow.
+    - heading "4. Минимальный fix для generic skills" [level=2]
+    - paragraph: "Если generic skill сейчас начинает непосредственно с procedure и может пропустить канал, добавить в начало один общий по смыслу шаг, без дублирования правил:"
+    - blockquote:
+      - paragraph: Для работы с выпуском сначала определить его через .agent/episode-registry.md, прочитать локальный журнал/README и применимый channel AGENTS.md; не определять канал по slug/номеру. Затем выполнять этот workflow.
+    - paragraph:
+      - text: "Для Paper-specific skills ещё проще: они могут прямо ссылаться на new_channel/AGENTS.md,"
+      - strong: но registry всё равно нужен
+      - text: ", потому что Paper-выпуск может физически находиться вне new_channel — пример с Minnie/027 показывает, зачем это необходимо."
+    - paragraph: Для ytv-history-story и ytv-stories-shorts достаточно ссылки на stories/AGENTS.md после идентификации выпуска.
+    - heading "5. Критерий исправности routing" [level=2]
+    - paragraph: "Считать документный routing исправленным, если одновременно выполняются четыре условия:"
+    - list:
+      - listitem: Все 10 skills обнаруживаются при штатном CWD=root.
+      - listitem: Root однозначно задаёт registry → local state → channel AGENTS → relevant skill.
+      - listitem: Каждый episode-capable skill либо сам содержит этот bootstrap, либо является узкоканальным и явно требует нужный channel AGENTS.md; ни один не предполагает, что linked docs загрузились автоматически.
+      - listitem: Ни skill description, ни procedure не выводят канал из slug/номера; 027_doomscrolling_short должен маршрутизироваться как Paper только через registry/local state.
+    - heading "6. Что считать полноценным implicit-selection e2e" [level=2]
+    - paragraph:
+      - text: Текущий факт появления всех 10 skills в catalog
+      - strong: не доказывает implicit selection
+      - text: .
+    - paragraph:
+      - text: Для последующей e2e достаточно по
+      - strong: одному диагностическому model turn на distinct route
+      - text: ", а не по 10 skills:"
+    - list:
+      - listitem: "Paper episode с неочевидным путём: Minnie/027;"
+      - listitem: Stories RU episode — чтобы проявились Stories + RU-only VPN/1.10× ограничения;
+      - listitem: Nuviko History — чтобы проявился History route и 1.05×/другой ведущий;
+      - listitem: Palmier radio new_channel/videos/001_radio_game — чтобы проявилось точное исключение canonical timeline.
+    - paragraph:
+      - text: Успех — не просто «выбран какой-то skill», а observable trace/результат, показывающий правильный skill
+      - strong: и
+      - text: "правильный channel bootstrap. До такого теста статус следует формулировать как:"
+      - strong: metadata discovery подтверждён; implicit-selection e2e не проверен
+      - text: .
+    - paragraph: "Никаких openai.yaml или implicit-toggle изменений сейчас не требуется: фактический discovery уже работает, а сначала нужно устранить только возможные bootstrap gaps в существующих SKILL.md."
+    - button "Копировать":
+    - button "Оценить ответ":
+    - button "Прочитать вслух":
+    - button "Поделиться":
+    - button "Добавить в источники проекта":
+    - button "Сгенерировать ответ заново":
+    - button "Ещё действия":
+    - heading "Вы сказали:" [level=4]
+    - generic: "Одна узкая задача: утверди минимальную конкретную файловую правку обнаруженного bootstrap/discovery дефекта. Ты консультант в этом ExtraHigh, не открывайдругойчат. Фактический новый nativeCodex0.157 skills/list(forceReload=true) безthread/turn: CWDroot10enabled/errors0; new_channel0; stories0; 31canonicalepisodeCWD0. Userпроситавтоподхватиправилакаждомуканалу, «еслинеработаетисправляйсразу». Поэтому просто «всегдазапускайсroot»оставляетужеизмеренныйсбойвактуальныхточкахвхода. Предлагаю толькоproject-local: (1) .agents/skills symlink кединственномуканоническомуrootкаталогувnew_channel,stories,2videosконтейнерахи31реальномcanonicalepisodeкаталоге, гдеотсутствует; pilotnew_channel→skills/listпроверкаcanonicalresolvedpaths/countno duplicates,затемвостальных; небудеткопийSKILL.md/новыхnames. ТестироватьfreshserverвсеCWDпосле. (2) маленькийAGENTSrouterвкаждомcanonicalepisodeCWDеслиегоещёнет: absolute rootAGENTS, registry/localREADME, exactchannelAGENTS; unknownchannelsUNVERIFIEDневыбиратьстиль. СуществующиеAGENTSнесносить. (3) все10SKILL.mdначинатькороткойссылкойнаодин .agent/CHANNEL_BOOTSTRAP.md, которыйтребует root→registry/localstate→нужныйchannel, неизвестныйблокируетзависимыедействия, project-wideзадачинеимеютepisodeиskipтолькоidentity. Paper-onlyskillsотказываютсяотHistory/Stories, History-onlyиStories-onlyтоже. Никакихglobalconfig/Gitinit/audio/video/модельныхтестов/субагентов. ОтносительныессылкиSKILLдолжнысчитатьсяотканоническогорезолвнутогопути; actualruntimepathпроверимpilot. ОцениТОЛЬКОэтотпланискажиминимальныекорректировкиили«применяй». Не придумывайрезультаты. Не развивайновыеproductionэтапы."
+    - generic: …
+    - button "Показать ещё":
+      - generic: Показать ещё
+    - button "Скопировать сообщение":
+    - button "Поделиться промптом":
+    - button "Редактировать сообщение":
+    - button "Обработка заняла 12s":
+      - generic: Обработка заняла 12s
+    - heading "ChatGPT сказал:" [level=4]
+    - paragraph: "План в целом корректный. Применять после трёх минимальных поправок:"
+    - list:
+      - paragraph:
+        - strong: "Symlink discovery:"
+        - text: сначала pilot именно в new_channel. Предпочтительный вариант — реальный каталог new_channel/.agents/skills/ с symlink-папками ytv-* на канонические /Users/diplomat/ytvideos/.agents/skills/ytv-*, потому что документирована поддержка symlink
+        - strong: skill folders
+        - text: ; symlink всего контейнера .agents/skills считать допустимым только если pilot skills/list(forceReload=true) реально показывает 10 skills, canonical resolved paths и отсутствие дублей. После успешного pilot тем же способом покрыть stories, оба videos-контейнера и 31 canonical episode CWD.
+      - paragraph:
+        - strong: "Episode AGENTS.md:"
+        - text: существующие файлы не сносить, но их тоже надо проверить. Если существующий episode AGENTS.md не выполняет bootstrap root → registry/local state → exact channel AGENTS, минимально добавить этот router в него; иначе measured defect останется именно в каталогах с уже существующим AGENTS.md. Для каталогов без AGENTS.md создать маленький router. UNVERIFIED не назначает канал/стиль и блокирует только channel-dependent действия.
+      - paragraph:
+        - strong: "CHANNEL_BOOTSTRAP.md:"
+        - text: "решение правильное, но ссылка из всех 10 SKILL.md не должна зависеть от того, считает runtime путь symlink-путём или canonical path. Самый надёжный минимальный вариант здесь — явная абсолютная ссылка /Users/diplomat/ytvideos/.agent/CHANNEL_BOOTSTRAP.md. Остальные существующие relative links не переписывать заранее: pilot должен показать фактический resolved skill path; менять их только если именно этот тест обнаружит поломку."
+    - paragraph:
+      - text: "Критерий применения после правки: fresh app-server skills/list(forceReload=true) без model turns должен давать"
+      - strong: 10 enabled / 0 errors / без duplicate names
+      - text: для root, new_channel, stories, обоих videos-контейнеров и всех 31 canonical episode CWD; пути должны вести к тем же 10 каноническим root skills. Это докажет discovery, но не implicit-selection e2e — последнего здесь не заявлять.
+    - button "Копировать":
+    - button "Оценить ответ":
+    - button "Прочитать вслух":
+    - button "Поделиться":
+    - button "Добавить в источники проекта":
+    - button "Сгенерировать ответ заново":
+    - button "Ещё действия":
+    - heading "Вы сказали:" [level=4]
+    - paragraph:
+      - text: "Ты консультант в этом ChatGPT ExtraHigh, не запускай tools/другойчат. ОДНА узкая задача: семантическая проверка выбора skills и канального bootstrap по контрольным запросам. Это НЕ nativeCodex implicit e2e, не называй так. После исправлений native skills/list freshserver уже фактически дал 10 enabled/0errors/0duplicates/тежеcanonicalpaths во41CWD(root,2канала,2videos,36рабочихкаталогов). Container-symlink pilot прошёл, native возвращает rootpath SKILL. Все10SKILLначинаютсяабсолютнойссылкойнаbootstrapниже,38episode/containerAGENTSroutersдобавлены,существующиеroot/channelнеперезаписаны. Определи по каждому запросу primaryskill(s), нужныеинструкцииканала, критическоеограничение. Отдельноукажи РЕАЛЬНЫЕ пропуски/ложныетриггерывописанияхилиbootstrap, толькоеслиесть. Проверяйописаниянакороткомprefix155символовкаквruntime; не предлагайдобавлятьбессмысленныеновыескиллы/настройки."
+      - text: METADATA
+      - text: "[{\"name\":\"ytv-audio-delivery\",\"description\":\"Handle authorized audio work and validate a ytvideos MP4/SRT delivery bundle, including voice speed, full mix, measured export parameters and honest playba\"},{\"name\":\"ytv-chatgpt-extra-high\",\"description\":\"Run the required personal ChatGPT.com Extra High consultation for ytvideos research, analysis, creative decisions, or reviews; preserve one narrow task per\"},{\"name\":\"ytv-history-story\",\"description\":\"Research, outline, write or review a Nuviko History film or supporting Short using the historical pipeline and causal storytelling standard; execute only t\"},{\"name\":\"ytv-palmier-edit\",\"description\":\"Inspect or change Palmier projects and timelines using explicit IDs, scoped ownership, preserved versions and snapshots, and verified background-task compl\"},{\"name\":\"ytv-paper-images\",\"description\":\"Generate, revise, or accept complete Paper Detour paper-diorama scene images from an approved storyboard; verify actual files against the exact channel ref\"},{\"name\":\"ytv-paper-production\",\"description\":\"Start, resume, or hand off a Paper Detour episode; establish accepted inputs, production stages, artifact states, dependencies, and permitted ownership. No\"},{\"name\":\"ytv-paper-storyboard\",\"description\":\"Turn an accepted Paper Detour narration into a full-frame storyboard with shot variety, direct cuts, continuity, and integrated paper word accents. Exclude\"},{\"name\":\"ytv-stories-shorts\",\"description\":\"Produce or repair RU/EN Stories episodes using the prepared footage library, channel-specific adaptation, stable centered captions, 1.10x voice timing, and\"},{\"name\":\"ytv-video-packaging\",\"description\":\"Develop a truthful title and thumbnail pair for a ytvideos episode, preserving its channel style and testing phone-size clarity; prepare packaging files wi\"},{\"name\":\"ytv-youtube-release\",\"description\":\"Apply ytvideos channel-specific YouTube release, playlist, Shorts linkage and post rules; use the existing youtube-upload skill for upload mechanics and ve\"}]"
+      - text: BOOTSTRAP
+      - text: "# Обязательный вход в работу канала"
+      - text: "Прочитать этот документ до процедуры любого `ytv-*` skill. Ссылка на документ сама по себе не означает его загрузку."
+      - text: "1. Прочитать [корневой AGENTS.md](../AGENTS.md): общие ограничения действуют на все каналы."
+      - text: 2. Для существующего выпуска найти **точный рабочий путь** в [реестре](episode-registry.md), перейти к указанному canonical-каталогу и прочитать локальный README/журнал, перечисленные records, текущие версии и ранее полученные разрешения. Номер, тема истории и slug не назначают канал. Перенесённый снимок состояния не является новой проверкой.
+      - text: "3. Прочитать нужные канальные инструкции: **Paper Detour / прежний Rarovista** → [new_channel/AGENTS.md](../new_channel/AGENTS.md); **Stories RU/EN** → раздел Stories в [stories/AGENTS.md](../stories/AGENTS.md); **Nuviko History** → раздел History там же. Не переносить ограничения другого раздела только из-за общего физического каталога."
+      - text: "4. Для нового выпуска или задачи о канале без выпуска брать явно заданный канал из поручения и фактических материалов, затем читать тот же канальный AGENTS. Для общепроектной технической задачи выпуск не выдумывать: достаточно root и нужной предметной документации. `UNVERIFIED` блокирует только действия, требующие знания канала; сначала установить идентичность по данным, а не по имени папки."
+      - text: "5. Применить только workflow текущей задачи. Если канал не соответствует узкому skill, выбрать подходящий маршрут, а не переделывать канал под skill:"
+      - text: "| Skills | Область |"
+      - text: "|---|---|"
+      - text: "| ytv-paper-production / ytv-paper-storyboard / ytv-paper-images | Только Paper Detour |"
+      - text: "| ytv-history-story | Только Nuviko History |"
+      - text: "| ytv-stories-shorts | Только Stories RU/EN |"
+      - text: "| ytv-video-packaging / ytv-palmier-edit / ytv-audio-delivery / ytv-youtube-release | Все три семейства после чтения правил конкретного канала |"
+      - text: "| ytv-chatgpt-extra-high | Общий gate; для задачи выпуска/канала передать его уже проверенный контекст |"
+      - text: "Обязательные частные случаи проверяются через реестр и локальные записи: `027_doomscrolling_short` — Минни / Paper Detour; `new_channel/videos/001_radio_game` — исключение с одним canonical timeline. Stories 1,10× и RU-only VPN не наследуются History/Paper; History 1,05× и его ведущий не наследуются Paper. Детальные правила имеют канальных владельцев выше."
+      - text: "## Discovery без Git"
+      - text: "Канонические десять skills находятся только в `/Users/diplomat/ytvideos/.agents/skills`. В поддерживаемых точках входа (корень, оба канала, оба `videos`, зарегистрированные каталоги выпусков) `.agents/skills` ссылается на этот же каталог. Это ссылки, не копии навыков. Перед вычислением относительных ссылок SKILL разрешить symlink до канонического файла; свежий native `skills/list` проверяет совпадение путей и отсутствие дублей."
+      - text: "Эпизодные AGENTS — маленькие явные указатели на root, реестр и канальные правила. Для нового каталога после добавления записи в реестр выполнить `python3.11 .agent/scripts/install-entrypoints.py`, затем probe discovery. Самостоятельный запуск из более глубокой папки `Source/`, `Edit/` и произвольных новых каталогов этим контрактом не покрыт: использовать корень проекта либо зарегистрированный вход выпуска."
+      - text: Discovery metadata не доказывает безошибочный выбор skill моделью на любом будущем запросе. Для отчёта различать фактически наблюдаемый каталог, разрешённый implicit policy, прочитанный bootstrap и отдельные e2e model traces.
+      - text: КОНТРОЛЬНЫЕ ЗАПРОСЫ
+      - text: "A: Продолжи работу над Минни из stories/videos/027_doomscrolling_short; сначала установи текущий этап."
+      - text: "B: Сделай раскадровку принятой речи Paper Detour."
+      - text: "C: Исправь пустую страницу на готовом кадре Paper Detour по принятой постановке."
+      - text: "D: Придумай заголовок и обложку для Nuviko History о Помпеях."
+      - text: "E: Исполни принятые монтажные правки new_channel/videos/001_radio_game."
+      - text: "F: Проверь готовый микс и SRT русской Stories013, новый звук не нужен."
+      - text: "G: Загрузи Paper027 в закрытый доступ, проверь плейлист."
+      - text: "H: Найди исторический сюжет для англоязычного Nuviko History."
+      - text: "I: Адаптируй личную историю для английского Stories и подготовь его титры."
+      - text: "J: Проверь режим/запиши завершённый ответ ChatGPT для общепроектной задачи."
+      - text: "K: Какая погода завтра в Белграде?"
+      - text: "L: Оцени фактологические оговорки легенды Margorie McCall для Paper Detour, это не NuvikoHistory."
+      - text: "M: Создай фотореалистичную историческую сцену с нашим мультяшным ведущим Nuviko History, материаллежит stories/videos/004_pompeii_short."
+      - text: "N: Новый каталог имеет channelUNVERIFIED, пользователь не указал канал; подбери ему голос и рисовку."
+      - text: "O: У выпуска уже есть прямое разрешение на Lawrence v03; продолжаем тот же scope. Нужно ли спрашивать заново?"
+    - generic: …
+    - button "Показать ещё":
+      - generic: Показать ещё
+    - button "Скопировать сообщение":
+    - button "Поделиться промптом":
+    - button "Редактировать сообщение":
+    - button "Обработка заняла 1m 19s":
+      - generic: Обработка заняла 1m 19s
+    - heading "ChatGPT сказал:" [level=4]
+    - paragraph: Это семантическая матрица выбора, не runtime e2e.
+    - table:
+      - rowgroup:
+        - row "Запрос Primary skill(s) Канальный bootstrap Критическое ограничение":
+          - columnheader "Запрос"
+          - columnheader "Primary skill(s)"
+          - columnheader "Канальный bootstrap"
+          - columnheader "Критическое ограничение"
+      - rowgroup:
+        - row "A Minnie / stories/videos/027_doomscrolling_short, установить этап ytv-paper-production registry → local state → Paper new_channel/AGENTS.md 027_doomscrolling_short = Minnie/Paper; путь stories/ и slug канал не определяют. Сначала только фактический production stage.":
+          - cell "A Minnie / stories/videos/027_doomscrolling_short, установить этап":
+            - strong: A
+            - text: Minnie / stories/videos/027_doomscrolling_short, установить этап
+          - cell "ytv-paper-production"
+          - cell "registry → local state → Paper new_channel/AGENTS.md":
+            - text: registry → local state →
+            - strong: Paper new_channel/AGENTS.md
+          - cell "027_doomscrolling_short = Minnie/Paper; путь stories/ и slug канал не определяют. Сначала только фактический production stage."
+        - row "B Раскадровка принятой речи Paper ytv-paper-storyboard + gate ytv-chatgpt-extra-high Paper Одна законченная full-frame still на сцену; никаких BG/MG/FG/parallax; storyboard — отдельный creative stage.":
+          - cell "B Раскадровка принятой речи Paper":
+            - strong: B
+            - text: Раскадровка принятой речи Paper
+          - cell "ytv-paper-storyboard + gate ytv-chatgpt-extra-high"
+          - cell "Paper"
+          - cell "Одна законченная full-frame still на сцену; никаких BG/MG/FG/parallax; storyboard — отдельный creative stage."
+        - row "C Исправить пустую страницу на готовом Paper-кадре ytv-paper-images + gate ytv-chatgpt-extra-high Paper Не перепридумывать постановку; исправлять по принятому storyboard и проверять фактический цельный PNG.":
+          - cell "C Исправить пустую страницу на готовом Paper-кадре":
+            - strong: C
+            - text: Исправить пустую страницу на готовом Paper-кадре
+          - cell "ytv-paper-images + gate ytv-chatgpt-extra-high"
+          - cell "Paper"
+          - cell "Не перепридумывать постановку; исправлять по принятому storyboard и проверять фактический цельный PNG."
+        - row "D Title + thumbnail для Nuviko History Pompeii ytv-video-packaging + gate ytv-chatgpt-extra-high History section stories/AGENTS.md Не применять Paper/Stories стиль. ytv-history-story не нужен, пока сюжет/факты не переписываются.":
+          - cell "D Title + thumbnail для Nuviko History Pompeii":
+            - strong: D
+            - text: Title + thumbnail для Nuviko History Pompeii
+          - cell "ytv-video-packaging + gate ytv-chatgpt-extra-high"
+          - cell "History section stories/AGENTS.md":
+            - strong: History section
+            - text: stories/AGENTS.md
+          - cell "Не применять Paper/Stories стиль. ytv-history-story не нужен, пока сюжет/факты не переписываются."
+        - 'row "E Выполнить принятые монтажные правки radio 001 ytv-palmier-edit Paper + local radio state Точное исключение new_channel/videos/001_radio_game: один canonical timeline; explicit IDs, one writer, snapshot, без второй рабочей ветки."':
+          - cell "E Выполнить принятые монтажные правки radio 001":
+            - strong: E
+            - text: Выполнить принятые монтажные правки radio 001
+          - cell "ytv-palmier-edit"
+          - cell "Paper + local radio state"
+          - 'cell "Точное исключение new_channel/videos/001_radio_game: один canonical timeline; explicit IDs, one writer, snapshot, без второй рабочей ветки."'
+        - 'row "F Проверить готовый mix + SRT Stories013, без нового звука ytv-audio-delivery Stories section Это mechanical QA: новый звук не создавать. Применять Stories-specific правила, включая 1.10× там, где они относятся к данному файлу."':
+          - cell "F Проверить готовый mix + SRT Stories013, без нового звука":
+            - strong: F
+            - text: Проверить готовый mix + SRT Stories013, без нового звука
+          - cell "ytv-audio-delivery"
+          - cell "Stories section":
+            - strong: Stories section
+          - 'cell "Это mechanical QA: новый звук не создавать. Применять Stories-specific правила, включая 1.10× там, где они относятся к данному файлу."'
+        - row "G Upload Paper027 private + playlist check ytv-youtube-release + внешний global youtube-upload для механики upload Paper через registry/local state Новый upload Private; playlist/result проверять фактически. Не расширять visibility сверх поручения.":
+          - cell "G Upload Paper027 private + playlist check":
+            - strong: G
+            - text: Upload Paper027 private + playlist check
+          - cell "ytv-youtube-release + внешний global youtube-upload для механики upload"
+          - cell "Paper через registry/local state"
+          - cell "Новый upload Private; playlist/result проверять фактически. Не расширять visibility сверх поручения."
+        - row "H Найти исторический сюжет для EN Nuviko History ytv-history-story + gate ytv-chatgpt-extra-high History section Только History pipeline; не наследовать Stories 1.10×/VPN или Paper visual rules.":
+          - cell "H Найти исторический сюжет для EN Nuviko History":
+            - strong: H
+            - text: Найти исторический сюжет для EN Nuviko History
+          - cell "ytv-history-story + gate ytv-chatgpt-extra-high"
+          - cell "History section"
+          - cell "Только History pipeline; не наследовать Stories 1.10×/VPN или Paper visual rules."
+        - row "I Адаптировать личную историю для EN Stories + captions ytv-stories-shorts + gate ytv-chatgpt-extra-high Stories section EN Stories, 1.10×; VPN только RU, поэтому для английской версии его не добавлять автоматически.":
+          - cell "I Адаптировать личную историю для EN Stories + captions":
+            - strong: I
+            - text: Адаптировать личную историю для EN Stories + captions
+          - cell "ytv-stories-shorts + gate ytv-chatgpt-extra-high"
+          - cell "Stories section"
+          - cell "EN Stories, 1.10×; VPN только RU, поэтому для английской версии его не добавлять автоматически.":
+            - text: EN Stories, 1.10×;
+            - strong: VPN только RU
+            - text: ", поэтому для английской версии его не добавлять автоматически."
+        - row "J Проверить режим и записать завершённый ответ ChatGPT для project-wide task ytv-chatgpt-extra-high Только root; episode/channel identity не нужен Видимая маркировка непосредственно перед запросом, одна узкая задача, дождаться/прочитать/сохранить.":
+          - cell "J Проверить режим и записать завершённый ответ ChatGPT для project-wide task":
+            - strong: J
+            - text: Проверить режим и записать завершённый ответ ChatGPT для project-wide task
+          - cell "ytv-chatgpt-extra-high"
+          - cell "Только root; episode/channel identity не нужен"
+          - cell "Видимая маркировка непосредственно перед запросом, одна узкая задача, дождаться/прочитать/сохранить."
+        - 'row "K Погода завтра в Белграде никакой ytv-* skill Не требуется Негативный контроль: слово «анализ» или общий вопрос не должно тянуть ytv-chatgpt-extra-high; его description ограничен ytvideos."':
+          - cell "K Погода завтра в Белграде":
+            - strong: K
+            - text: Погода завтра в Белграде
+          - cell "никакой ytv-* skill":
+            - strong: никакой ytv-* skill
+          - cell "Не требуется"
+          - 'cell "Негативный контроль: слово «анализ» или общий вопрос не должно тянуть ytv-chatgpt-extra-high; его description ограничен ytvideos."'
+        - 'row "L Фактологические оговорки Margorie McCall, Paper, не History ytv-chatgpt-extra-high Paper + local Margorie state Не выбирать ytv-history-story из-за исторической тематики: канал Paper. Это factual/analytical review, не History workflow."':
+          - cell "L Фактологические оговорки Margorie McCall, Paper, не History":
+            - strong: L
+            - text: Фактологические оговорки Margorie McCall, Paper, не History
+          - cell "ytv-chatgpt-extra-high"
+          - cell "Paper + local Margorie state"
+          - 'cell "Не выбирать ytv-history-story из-за исторической тематики: канал Paper. Это factual/analytical review, не History workflow."':
+            - strong: Не выбирать ytv-history-story
+            - text: "из-за исторической тематики: канал Paper. Это factual/analytical review, не History workflow."
+        - 'row "M Photorealistic History scene + cartoon host, файл в stories/... gate ytv-chatgpt-extra-high; среди остальных ytv-* подходящего image-production skill нет History section, не Stories Не выбирать ytv-paper-images: не Paper. Физический каталог stories/ не делает выпуск Stories RU/EN."':
+          - cell "M Photorealistic History scene + cartoon host, файл в stories/...":
+            - strong: M
+            - text: Photorealistic History scene + cartoon host, файл в stories/...
+          - cell "gate ytv-chatgpt-extra-high; среди остальных ytv-* подходящего image-production skill нет"
+          - cell "History section, не Stories":
+            - strong: History section
+            - text: ", не Stories"
+          - 'cell "Не выбирать ytv-paper-images: не Paper. Физический каталог stories/ не делает выпуск Stories RU/EN."':
+            - strong: Не выбирать ytv-paper-images
+            - text: ": не Paper. Физический каталог stories/ не делает выпуск Stories RU/EN."
+        - row "N channel=UNVERIFIED, выбрать voice/style До установления identity — никакой channel skill; ytv-chatgpt-extra-high допустим только для анализа идентичности UNVERIFIED Voice/style — channel-dependent, поэтому действие блокируется до подтверждения канала. Не угадывать по папке/slug.":
+          - cell "N channel=UNVERIFIED, выбрать voice/style":
+            - strong: "N"
+            - text: channel=UNVERIFIED, выбрать voice/style
+          - cell "До установления identity — никакой channel skill; ytv-chatgpt-extra-high допустим только для анализа идентичности":
+            - text: До установления identity —
+            - strong: никакой channel skill
+            - text: ; ytv-chatgpt-extra-high допустим только для анализа идентичности
+          - cell "UNVERIFIED"
+          - cell "Voice/style — channel-dependent, поэтому действие блокируется до подтверждения канала. Не угадывать по папке/slug."
+        - row "O Уже разрешён Lawrence v03, тот же scope ytv-audio-delivery registry → local state → соответствующий channel AGENTS Если локальная запись подтверждает прежнее конкретное разрешение и scope тот же, повторно спрашивать не нужно. Не расширять разрешение на другой звук/scope.":
+          - cell "O Уже разрешён Lawrence v03, тот же scope":
+            - strong: O
+            - text: Уже разрешён Lawrence v03, тот же scope
+          - cell "ytv-audio-delivery"
+          - cell "registry → local state → соответствующий channel AGENTS"
+          - cell "Если локальная запись подтверждает прежнее конкретное разрешение и scope тот же, повторно спрашивать не нужно. Не расширять разрешение на другой звук/scope.":
+            - text: Если локальная запись подтверждает прежнее конкретное разрешение и scope тот же,
+            - strong: повторно спрашивать не нужно
+            - text: . Не расширять разрешение на другой звук/scope.
+    - button "Скопировать таблицу":
+    - button "Развернуть таблицу":
+    - heading "Реальный ложный trigger" [level=2]
+    - paragraph:
+      - text: Есть
+      - strong: один существенный
+      - text: ": короткий runtime-prefix ytv-chatgpt-extra-high содержит:"
+    - blockquote:
+      - paragraph: ...research, analysis, creative decisions, or reviews...
+    - paragraph:
+      - text: Слово
+      - strong: reviews слишком широкое
+      - text: относительно root-правила. Оно способно ошибочно подтянуть Extra High для чисто механической проверки вроде
+      - strong: F
+      - text: (mix/SRT QA) или проверки результата внешней операции, хотя при уже принятых решениях такие шаги разрешено продолжать механически.
+    - paragraph: "Минимальная правка description:"
+    - generic: Обычный текст
+    - button "Включить перенос строк":
+    - button "Копировать код":
+    - code:
+      - generic: Run the required personal ChatGPT.com Extra High consultation for ytvideos research, analysis, editorial or creative decisions; preserve one narrow task per request.
+    - paragraph:
+      - text: Так
+      - strong: L
+      - text: всё равно покрывается через analysis, B/C/D/H/I — через creative/editorial, но mechanical QA больше не выглядит самостоятельным trigger.
+    - heading "Других блокирующих дефектов по этим 15 запросам не видно" [level=2]
+    - paragraph:
+      - text: "Короткие 155-символьные prefixes остальных skills содержат достаточно различающие признаки: Paper production/stages, storyboard, Paper images, title+thumbnail, Palmier, audio delivery, Nuviko History, Stories RU/EN, YouTube release. Bootstrap правильно предотвращает два наиболее опасных ложных выбора:"
+      - strong: Paper skill для History/Stories
+      - text: и
+      - strong: History skill для любой исторической темы вне Nuviko History
+      - text: .
+    - button "Копировать":
+    - button "Оценить ответ":
+    - button "Прочитать вслух":
+    - button "Поделиться":
+    - button "Добавить в источники проекта":
+    - button "Сгенерировать ответ заново":
+    - button "Ещё действия":
+    - generic: ChatGPT может допускать ошибки. Проверяйте важную информацию.
+    - button [active]:
+    - heading "Последний ответ" [level=4]
+    - status
+    - button "Добавить файлы и другое":
+    - textbox "Спросить ChatGPT":
+      - paragraph: Спросить ChatGPT
+    - button "Выбрать модель ChatGPT":
+      - generic: Уровень усилий рассуждения
+      - generic: 5.6 Extra High
+    - button "Диктовать":
+    - button "Начать голосовой разговор":
+- status
+- status
+- status
+- status: Ответ готов
+- status
+- status

@@ -1,0 +1,727 @@
+[
+  {
+    "id": "C01",
+    "lines": [
+      "WHERE ARE THEIR",
+      "CLOTHES?"
+    ],
+    "scene": "V01",
+    "anchor": "primary",
+    "startFrame": 50,
+    "endFrame": 130,
+    "spoken_trigger_end": "Where are their clothes?",
+    "source": "Lawrence v05 character/word alignment; end includes readability hold, final includes tail",
+    "listening": "UNVERIFIED",
+    "motion": "4-frame enter/fade, constant optical scale, 4-frame exit/fade; final remains through last frame",
+    "decision_record": "Storyboard/DECISIONS_v05.md",
+    "geometry": {
+      "anchor": "primary",
+      "center": [
+        0.5,
+        0.12
+      ],
+      "checks": {
+        "alpha_bbox_on_canvas": [
+          654,
+          45,
+          1266,
+          214
+        ],
+        "motion": "PASS in sampled exported entry/hold/exit frames; full playback UNVERIFIED.",
+        "sync": "Measured from v05 alignment; audible sync UNVERIFIED.",
+        "technical": "PASS",
+        "visual": "PASS, author inspected exact scene pair and actual exported cue samples; no face/clue overlap."
+      },
+      "layer_top_left_px": [
+        644,
+        16
+      ],
+      "phone_preview": "previews/V01/C01/primary__phone.png",
+      "preview": "previews/V01/C01/primary.png"
+    },
+    "png": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v05/production/cues/C01/cue.png",
+    "metrics": {
+      "alpha_bbox": [
+        10,
+        29,
+        622,
+        198
+      ],
+      "alpha_height_px": 169,
+      "alpha_width_px": 612,
+      "face_bbox": [
+        16,
+        36,
+        617,
+        191
+      ],
+      "face_height_px": 76,
+      "face_line_boxes": [
+        [
+          16,
+          36,
+          617,
+          105
+        ],
+        [
+          115,
+          115,
+          515,
+          191
+        ]
+      ],
+      "face_line_heights_px": [
+        69,
+        76
+      ],
+      "size_px": [
+        633,
+        216
+      ]
+    },
+    "preflight": "PASS: exact PNG scene pair and phone preview checked; no face/clue overlap; full ±0.02 vertical motion union on-canvas.",
+    "clipId": "4A460BE7",
+    "position_keys": [
+      [
+        0,
+        0.33541666666666664,
+        0.03481481481481481
+      ],
+      [
+        4,
+        0.33541666666666664,
+        0.014814814814814815,
+        "hold"
+      ],
+      [
+        75,
+        0.33541666666666664,
+        0.014814814814814815
+      ],
+      [
+        79,
+        0.33541666666666664,
+        -0.005185185185185185
+      ]
+    ],
+    "opacity_keys": [
+      [
+        0,
+        0
+      ],
+      [
+        4,
+        1,
+        "hold"
+      ],
+      [
+        75,
+        1
+      ],
+      [
+        79,
+        0
+      ]
+    ]
+  },
+  {
+    "id": "C02",
+    "lines": [
+      "ONE SMALL CLUE"
+    ],
+    "scene": "V08",
+    "anchor": "primary",
+    "startFrame": 1034,
+    "endFrame": 1126,
+    "spoken_trigger_end": "Here’s a tiny sandal, woven from esparto grass.",
+    "source": "Lawrence v05 character/word alignment; end includes readability hold, final includes tail",
+    "listening": "UNVERIFIED",
+    "motion": "4-frame enter/fade, constant optical scale, 4-frame exit/fade; final remains through last frame",
+    "decision_record": "Storyboard/DECISIONS_v05.md",
+    "geometry": {
+      "anchor": "primary",
+      "center": [
+        0.5,
+        0.12
+      ],
+      "checks": {
+        "alpha_bbox_on_canvas": [
+          664,
+          41,
+          1259,
+          230
+        ],
+        "motion": "PASS in sampled exported entry/hold/exit frames; full playback UNVERIFIED.",
+        "sync": "Measured from v05 alignment; audible sync UNVERIFIED.",
+        "technical": "PASS",
+        "visual": "PASS, author inspected exact scene pair and actual exported cue samples; no face/clue overlap."
+      },
+      "layer_top_left_px": [
+        657,
+        31
+      ],
+      "phone_preview": "previews/V08/C02/primary__phone.png",
+      "preview": "previews/V08/C02/primary.png"
+    },
+    "png": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v05/production/cues/C02/cue.png",
+    "metrics": {
+      "alpha_bbox": [
+        7,
+        10,
+        602,
+        199
+      ],
+      "alpha_height_px": 189,
+      "alpha_width_px": 595,
+      "face_bbox": [
+        13,
+        61,
+        593,
+        137
+      ],
+      "face_height_px": 76,
+      "face_line_boxes": [
+        [
+          13,
+          61,
+          593,
+          137
+        ]
+      ],
+      "face_line_heights_px": [
+        76
+      ],
+      "size_px": [
+        602,
+        206
+      ]
+    },
+    "preflight": "PASS: exact PNG scene pair and phone preview checked; no face/clue overlap; full ±0.02 vertical motion union on-canvas.",
+    "clipId": "D2D39018",
+    "position_keys": [
+      [
+        0,
+        0.3421875,
+        0.04870370370370371
+      ],
+      [
+        4,
+        0.3421875,
+        0.028703703703703703,
+        "hold"
+      ],
+      [
+        87,
+        0.3421875,
+        0.028703703703703703
+      ],
+      [
+        91,
+        0.3421875,
+        0.008703703703703703
+      ]
+    ],
+    "opacity_keys": [
+      [
+        0,
+        0
+      ],
+      [
+        4,
+        1,
+        "hold"
+      ],
+      [
+        87,
+        1
+      ],
+      [
+        91,
+        0
+      ]
+    ]
+  },
+  {
+    "id": "C03",
+    "lines": [
+      "YOUR PICK?"
+    ],
+    "scene": "V22",
+    "anchor": "alternate",
+    "startFrame": 3103,
+    "endFrame": 3147,
+    "spoken_trigger_end": "Which would you choose?",
+    "source": "Lawrence v05 character/word alignment; end includes readability hold, final includes tail",
+    "listening": "UNVERIFIED",
+    "motion": "4-frame enter/fade, constant optical scale, 4-frame exit/fade; final remains through last frame",
+    "decision_record": "Storyboard/DECISIONS_v05.md",
+    "geometry": {
+      "anchor": "alternate",
+      "center": [
+        0.17,
+        0.18
+      ],
+      "checks": {
+        "alpha_bbox_on_canvas": [
+          90,
+          118,
+          565,
+          272
+        ],
+        "motion": "PASS in sampled exported entry/hold/exit frames; full playback UNVERIFIED.",
+        "sync": "Measured from v05 alignment; audible sync UNVERIFIED.",
+        "technical": "PASS",
+        "visual": "PASS, author inspected exact scene pair and actual exported cue samples; no face/clue overlap."
+      },
+      "layer_top_left_px": [
+        86,
+        114
+      ],
+      "phone_preview": "previews/V22/C03/alternate__phone.png",
+      "preview": "previews/V22/C03/alternate.png"
+    },
+    "png": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v05/production/cues/C03/cue.png",
+    "metrics": {
+      "alpha_bbox": [
+        4,
+        4,
+        479,
+        158
+      ],
+      "alpha_height_px": 154,
+      "alpha_width_px": 475,
+      "face_bbox": [
+        7,
+        43,
+        473,
+        118
+      ],
+      "face_height_px": 75,
+      "face_line_boxes": [
+        [
+          7,
+          43,
+          473,
+          118
+        ]
+      ],
+      "face_line_heights_px": [
+        75
+      ],
+      "size_px": [
+        483,
+        165
+      ]
+    },
+    "preflight": "PASS: exact PNG scene pair and phone preview checked; no face/clue overlap; full ±0.02 vertical motion union on-canvas.",
+    "clipId": "E49D3774",
+    "position_keys": [
+      [
+        0,
+        0.04479166666666667,
+        0.12555555555555556
+      ],
+      [
+        4,
+        0.04479166666666667,
+        0.10555555555555556,
+        "hold"
+      ],
+      [
+        39,
+        0.04479166666666667,
+        0.10555555555555556
+      ],
+      [
+        43,
+        0.04479166666666667,
+        0.08555555555555555
+      ]
+    ],
+    "opacity_keys": [
+      [
+        0,
+        0
+      ],
+      [
+        4,
+        1,
+        "hold"
+      ],
+      [
+        39,
+        1
+      ],
+      [
+        43,
+        0
+      ]
+    ]
+  },
+  {
+    "id": "C04",
+    "lines": [
+      "DRESSED TO",
+      "IMPRESS"
+    ],
+    "scene": "V24",
+    "anchor": "alternate",
+    "startFrame": 3354,
+    "endFrame": 3465,
+    "spoken_trigger_end": "a British court outfit: fine decoration, a waistcoat, a long coat.",
+    "source": "Lawrence v05 character/word alignment; end includes readability hold, final includes tail",
+    "listening": "UNVERIFIED",
+    "motion": "4-frame enter/fade, constant optical scale, 4-frame exit/fade; final remains through last frame",
+    "decision_record": "Storyboard/DECISIONS_v05.md",
+    "geometry": {
+      "anchor": "alternate",
+      "center": [
+        0.17,
+        0.18
+      ],
+      "checks": {
+        "alpha_bbox_on_canvas": [
+          75,
+          113,
+          579,
+          278
+        ],
+        "motion": "PASS in sampled exported entry/hold/exit frames; full playback UNVERIFIED.",
+        "sync": "Measured from v05 alignment; audible sync UNVERIFIED.",
+        "technical": "PASS",
+        "visual": "PASS, author inspected exact scene pair and actual exported cue samples; no face/clue overlap."
+      },
+      "layer_top_left_px": [
+        54,
+        97
+      ],
+      "phone_preview": "previews/V24/C04/alternate__phone.png",
+      "preview": "previews/V24/C04/alternate.png"
+    },
+    "png": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v05/production/cues/C04/cue.png",
+    "metrics": {
+      "alpha_bbox": [
+        21,
+        16,
+        525,
+        181
+      ],
+      "alpha_height_px": 165,
+      "alpha_width_px": 504,
+      "face_bbox": [
+        27,
+        21,
+        517,
+        173
+      ],
+      "face_height_px": 77,
+      "face_line_boxes": [
+        [
+          27,
+          21,
+          517,
+          98
+        ],
+        [
+          30,
+          97,
+          497,
+          173
+        ]
+      ],
+      "face_line_heights_px": [
+        77,
+        76
+      ],
+      "size_px": [
+        546,
+        187
+      ]
+    },
+    "preflight": "PASS: exact PNG scene pair and phone preview checked; no face/clue overlap; full ±0.02 vertical motion union on-canvas.",
+    "clipId": "E7280589",
+    "position_keys": [
+      [
+        0,
+        0.028125,
+        0.10981481481481482
+      ],
+      [
+        4,
+        0.028125,
+        0.08981481481481482,
+        "hold"
+      ],
+      [
+        106,
+        0.028125,
+        0.08981481481481482
+      ],
+      [
+        110,
+        0.028125,
+        0.06981481481481482
+      ]
+    ],
+    "opacity_keys": [
+      [
+        0,
+        0
+      ],
+      [
+        4,
+        1,
+        "hold"
+      ],
+      [
+        106,
+        1
+      ],
+      [
+        110,
+        0
+      ]
+    ]
+  },
+  {
+    "id": "C05",
+    "lines": [
+      "FUTURE",
+      "ARTIFACTS"
+    ],
+    "scene": "V35",
+    "anchor": "primary",
+    "startFrame": 4908,
+    "endFrame": 5073,
+    "spoken_trigger_end": "Picture a museum in the future. Behind the glass: our sneakers, a jacket, someone's favorite T-shirt.",
+    "source": "Lawrence v05 character/word alignment; end includes readability hold, final includes tail",
+    "listening": "UNVERIFIED",
+    "motion": "4-frame enter/fade, constant optical scale, 4-frame exit/fade; final remains through last frame",
+    "decision_record": "Storyboard/DECISIONS_v05.md",
+    "geometry": {
+      "anchor": "primary",
+      "center": [
+        0.5,
+        0.12
+      ],
+      "checks": {
+        "alpha_bbox_on_canvas": [
+          736,
+          50,
+          1185,
+          214
+        ],
+        "motion": "PASS in sampled exported entry/hold/exit frames; full playback UNVERIFIED.",
+        "sync": "Measured from v05 alignment; audible sync UNVERIFIED.",
+        "technical": "PASS",
+        "visual": "PASS, author inspected exact scene pair and actual exported cue samples; no face/clue overlap."
+      },
+      "layer_top_left_px": [
+        699,
+        39
+      ],
+      "phone_preview": "previews/V35/C05/primary__phone.png",
+      "preview": "previews/V35/C05/primary.png"
+    },
+    "png": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v05/production/cues/C05/cue.png",
+    "metrics": {
+      "alpha_bbox": [
+        37,
+        11,
+        486,
+        175
+      ],
+      "alpha_height_px": 164,
+      "alpha_width_px": 449,
+      "face_bbox": [
+        43,
+        15,
+        479,
+        167
+      ],
+      "face_height_px": 75,
+      "face_line_boxes": [
+        [
+          104,
+          15,
+          420,
+          90
+        ],
+        [
+          43,
+          94,
+          479,
+          167
+        ]
+      ],
+      "face_line_heights_px": [
+        75,
+        73
+      ],
+      "size_px": [
+        525,
+        180
+      ]
+    },
+    "preflight": "PASS: exact PNG scene pair and phone preview checked; no face/clue overlap; full ±0.02 vertical motion union on-canvas.",
+    "clipId": "E5FEBAE8",
+    "position_keys": [
+      [
+        0,
+        0.3640625,
+        0.05611111111111111
+      ],
+      [
+        4,
+        0.3640625,
+        0.03611111111111111,
+        "hold"
+      ],
+      [
+        160,
+        0.3640625,
+        0.03611111111111111
+      ],
+      [
+        164,
+        0.3640625,
+        0.016111111111111107
+      ]
+    ],
+    "opacity_keys": [
+      [
+        0,
+        0
+      ],
+      [
+        4,
+        1,
+        "hold"
+      ],
+      [
+        160,
+        1
+      ],
+      [
+        164,
+        0
+      ]
+    ]
+  },
+  {
+    "id": "C06",
+    "lines": [
+      "WHAT WILL",
+      "THEY FIND?"
+    ],
+    "scene": "V39",
+    "anchor": "primary",
+    "startFrame": 5580,
+    "endFrame": 5700,
+    "spoken_trigger_end": "What will they find after us?",
+    "source": "Lawrence v05 character/word alignment; end includes readability hold, final includes tail",
+    "listening": "UNVERIFIED",
+    "motion": "4-frame enter/fade, constant optical scale, 4-frame exit/fade; final remains through last frame",
+    "decision_record": "Storyboard/DECISIONS_v05.md",
+    "geometry": {
+      "anchor": "primary",
+      "center": [
+        0.5,
+        0.12
+      ],
+      "checks": {
+        "alpha_bbox_on_canvas": [
+          685,
+          43,
+          1236,
+          219
+        ],
+        "motion": "PASS in sampled exported entry/hold/exit frames; full playback UNVERIFIED.",
+        "sync": "Measured from v05 alignment; audible sync UNVERIFIED.",
+        "technical": "PASS",
+        "visual": "PASS, author inspected exact scene pair and actual exported cue samples; no face/clue overlap."
+      },
+      "layer_top_left_px": [
+        658,
+        25
+      ],
+      "phone_preview": "previews/V39/C06/primary__phone.png",
+      "preview": "previews/V39/C06/primary.png"
+    },
+    "png": "/Users/diplomat/ytvideos/channels/paper_detour/videos/030_clothing_history/Source/Graphics/v05/production/cues/C06/cue.png",
+    "metrics": {
+      "alpha_bbox": [
+        27,
+        18,
+        578,
+        194
+      ],
+      "alpha_height_px": 176,
+      "alpha_width_px": 551,
+      "face_bbox": [
+        33,
+        24,
+        570,
+        186
+      ],
+      "face_height_px": 76,
+      "face_line_boxes": [
+        [
+          37,
+          24,
+          570,
+          100
+        ],
+        [
+          33,
+          112,
+          566,
+          186
+        ]
+      ],
+      "face_line_heights_px": [
+        76,
+        74
+      ],
+      "size_px": [
+        596,
+        204
+      ]
+    },
+    "preflight": "PASS: exact PNG scene pair and phone preview checked; no face/clue overlap; full ±0.02 vertical motion union on-canvas.",
+    "clipId": "98BAC113",
+    "position_keys": [
+      [
+        0,
+        0.34270833333333334,
+        0.043148148148148144
+      ],
+      [
+        4,
+        0.34270833333333334,
+        0.023148148148148147,
+        "hold"
+      ],
+      [
+        119,
+        0.34270833333333334,
+        0.023148148148148147
+      ]
+    ],
+    "opacity_keys": [
+      [
+        0,
+        0
+      ],
+      [
+        4,
+        1,
+        "hold"
+      ],
+      [
+        119,
+        1
+      ]
+    ]
+  }
+]

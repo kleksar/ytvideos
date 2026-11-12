@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "status": "READY_TO_RENDER",
+  "episode": "molasses-flood",
+  "language": "en",
+  "format": "short",
+  "purpose": "user review",
+  "settings_profile": {
+    "path": "/Users/diplomat/ytvideos/.agents/skills/ytv-video-export/references/delivery.md",
+    "sha256": "494eb3736b9a39861949084e6623b2033bbd2ea9c4cdef31c48f035938dc89a6"
+  },
+  "edit": {
+    "project_id": "molasses-flood",
+    "timeline_id": "/Users/diplomat/ytvideos/channels/nuviko_history/research/molasses-flood/Edit/plan_v02.json",
+    "saved_revision_evidence": "versioned FFmpeg plan v02",
+    "timeline_read_path": "/Users/diplomat/ytvideos/channels/nuviko_history/research/molasses-flood/Edit/plan_v02.json",
+    "timeline_read_sha256": "4d8af5a0c3892c64d41c9b3678146016f14a89a0902ce70a4cb13319e353e6a8",
+    "dependencies": [
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/research/molasses-flood/Work/Audio/mix_en_v02.wav",
+        "sha256": "1991fe8fd0c35cce4e6c1e6657ffa7a75b190cdd8e56ae98b8794c69df3f95a3"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/research/molasses-flood/Work/Audio/word_times_v02.json",
+        "sha256": "5d71cb124e3b11c5e92aef6366ca84d0bdf7aa2ec84e568628732425d3d6e832"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/research/molasses-flood/Edit/subtitle_review_v02.json",
+        "sha256": "bd466866f0e9f9e5d5616c13251ea866d1179e13e074b5db465cd4688a97b137"
+      }
+    ]
+  },
+  "timeline": {
+    "width": 1440,
+    "height": 2560,
+    "aspect_ratio": "9:16",
+    "sample_aspect_ratio": "1:1",
+    "fps": "30/1",
+    "frame_count": 1216,
+    "duration_seconds": 40.53333333333333,
+    "output_color_space": "Rec.709 SDR"
+  },
+  "required_delivery": {
+    "container": "MP4",
+    "video": {
+      "codec_name": "h264",
+      "pix_fmt": "yuv420p",
+      "scan": "progressive",
+      "cadence": "constant 30/1 fps",
+      "color_primaries": "bt709",
+      "color_transfer": "bt709",
+      "color_space": "bt709",
+      "color_range": "tv"
+    },
+    "audio_contract": {
+      "owner_handoff": "/Users/diplomat/ytvideos/channels/nuviko_history/research/molasses-flood/Work/Audio/audio_handoff_v02.md",
+      "accepted_complete_mix": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/research/molasses-flood/Work/Audio/mix_en_v02.wav",
+        "sha256": "1991fe8fd0c35cce4e6c1e6657ffa7a75b190cdd8e56ae98b8794c69df3f95a3"
+      },
+      "source_rate_channels": "44100 Hz stereo",
+      "codec_name": "aac",
+      "profile": "LC",
+      "sample_rate": 44100,
+      "channels": 2,
+      "target_bit_rate": "256k"
+    }
+  },
+  "encoding": {
+    "engine": "FFmpeg",
+    "requested_arguments": {
+      "encoder": "libx264",
+      "video_bitrate": "20M",
+      "audio_bitrate": "256k"
+    },
+    "quality_preferences": {
+      "bitrate": "20M"
+    },
+    "engine_managed_fields": [
+      "H.264 profile",
+      "GOP"
+    ],
+    "capability_evidence": "VideoToolbox failed with -12908 in Work/render_v02; fallback software x264."
+  },
+  "preflight": {
+    "author": "coordinator",
+    "time": "2026-11-08",
+    "authorization_references": [
+      "user approved story and requested Short MP4"
+    ],
+    "fresh_settings_evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/research/molasses-flood/Edit/plan_v02.json",
+    "writer_and_export_state": "new output",
+    "output_path": "/Users/diplomat/ytvideos/channels/nuviko_history/research/molasses-flood/Deliverables/NuvikoHistory_MolassesFlood_Short_en_v02.mp4",
+    "overwrite": false,
+    "unresolved_required_fields": []
+  },
+  "subtitle_contract": "/Users/diplomat/ytvideos/channels/nuviko_history/research/molasses-flood/Work/subtitle_v02_final/subtitle_contract.json",
+  "subtitle_review": "/Users/diplomat/ytvideos/channels/nuviko_history/research/molasses-flood/Edit/subtitle_review_v02.json"
+}

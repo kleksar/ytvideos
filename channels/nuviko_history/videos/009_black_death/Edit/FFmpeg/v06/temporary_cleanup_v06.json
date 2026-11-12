@@ -1,0 +1,27 @@
+{
+  "status": "TEMPORARY_RUN_CLEANED",
+  "run_path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Work/ffmpeg-black-death-v06/run01",
+  "removed_paths": [
+    {
+      "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Work/ffmpeg-black-death-v06/run01/picture.mp4",
+      "logical_bytes": 1631248205
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Work/ffmpeg-black-death-v06/run01/caption_states",
+      "logical_bytes": 75480072
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Work/ffmpeg-black-death-v06/run01/captions.ffconcat",
+      "logical_bytes": 355821
+    }
+  ],
+  "retained_evidence": [
+    "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/FFmpeg/v06/executed_input_manifest.json",
+    "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/FFmpeg/v06/executed_plan.json",
+    "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/FFmpeg/v06/caption_groups.json",
+    "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/FFmpeg/v06/render_command.json"
+  ],
+  "source_stills_audio_word_map_and_v06_manifest_retained": true,
+  "time_utc": "2026-11-03T17:09:14+00:00",
+  "reason": "v06 review MP4 changed to requested 1.10x; preserve compact render evidence, clear owned intermediate clips/picture/caption images before the new render."
+}

@@ -1,0 +1,21 @@
+{
+  "version": 3,
+  "source": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Source/Shorts/05_labour/source_v01.mp4",
+  "source_sha256": "f565a3f13a9a28d5433180d0e1afa4e3638be57b5314aad11d6039725ca0cc8a",
+  "source_audio": "AAC-LC stereo 44.1kHz, 128 kb/s (source probe)",
+  "speed_transform": "atempo=1.10",
+  "speed_transform_count": 1,
+  "scope": "Audio stream only; no global video speed filter. Still-image scene timing was retimed to the faster narration so the Short ends with its CTA.",
+  "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/short_20261103_v03/audio/black_death_labour_short_audio_1_10x.m4a",
+  "output_sha256": "76c8a44081b95f69d135d9b999bbdda3be296347855db45323269d6cc57294a1",
+  "output_probe": {
+    "codec": "AAC-LC",
+    "sample_rate": 44100,
+    "channels": 2,
+    "duration_seconds": 38.405011,
+    "measured_bitrate_bps": 223279,
+    "target_bitrate_bps": 256000
+  },
+  "processing": "No gain normalization or sound-design changes. The source Short has only an AAC compressed audio stream; speed conversion required one AAC re-encode. This is a single lossy generation beyond the source, not restoration.",
+  "sampled_pause_rms": "Several aligned source pauses measured near -90 dBFS median; no continuous music bed was evident in these samples. Full subjective listening was not performed."
+}

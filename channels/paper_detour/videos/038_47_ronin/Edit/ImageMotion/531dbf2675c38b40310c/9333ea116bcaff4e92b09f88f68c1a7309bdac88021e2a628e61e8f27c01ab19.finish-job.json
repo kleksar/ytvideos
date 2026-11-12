@@ -1,0 +1,61 @@
+{
+  "width": 2560,
+  "height": 1440,
+  "frames": 120,
+  "fps": 30,
+  "grain": {
+    "id": "g08",
+    "name": "Short Persistence",
+    "version": 1,
+    "rms_y_codes": 3.0,
+    "sigma_reference_px": 0.77,
+    "reference_short_side": 1440,
+    "update_hz": 30,
+    "rho": 0.35,
+    "mask_y": [
+      20,
+      64,
+      208,
+      235
+    ],
+    "range_y": [
+      16,
+      235
+    ],
+    "chroma": false,
+    "seed": 20261102
+  },
+  "input": "/Users/diplomat/ytvideos/Shared/Image_Motion/Cache/video/cbd77d93b23e783d841ce9a4b25f4e3fcd49eb65707d53cf813525744a92487c.mp4",
+  "output": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_47_ronin/Work/image-motion-531dbf2675c38b40310c/scratch/9333ea116bcaff4e92b09f88f68c1a7309bdac88021e2a628e61e8f27c01ab19.finished.partial.mp4",
+  "camera": {
+    "position": [
+      [
+        0,
+        -0.02375000000000005,
+        -0.02375000000000005,
+        "linear"
+      ],
+      [
+        119,
+        -0.04625000000000001,
+        -0.04625000000000001
+      ]
+    ],
+    "scale": [
+      [
+        0,
+        1.0475,
+        1.0475,
+        "linear"
+      ],
+      [
+        119,
+        1.0925,
+        1.0925
+      ]
+    ]
+  },
+  "seed": 10712298903876721333,
+  "receipt": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_47_ronin/Edit/ImageMotion/531dbf2675c38b40310c/9333ea116bcaff4e92b09f88f68c1a7309bdac88021e2a628e61e8f27c01ab19.finish-receipt.json",
+  "log": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_47_ronin/Edit/ImageMotion/531dbf2675c38b40310c/finish.log"
+}

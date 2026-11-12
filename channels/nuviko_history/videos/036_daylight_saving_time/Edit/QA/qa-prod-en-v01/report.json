@@ -1,0 +1,1961 @@
+{
+  "created_utc": "2026-11-03T15:01:11.861036+00:00",
+  "media": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/036_daylight_saving_time/Work/prod-en-v01/previews/final_review_v01.mp4",
+  "plan": {
+    "frame_count": 2091,
+    "fps": "30/1",
+    "sha256": "a7047b3ecf8e01ccd8fdf661133f84849d60bb7171f6fb8a6111cc2659cd7f9b",
+    "required_review_checks": [
+      "stream_metadata",
+      "full_decode",
+      "frame_sampling",
+      "scene_duration",
+      "semantic_grouping",
+      "word_highlighting",
+      "cue_timing",
+      "audio_signal",
+      "srt"
+    ],
+    "freshness": {
+      "status": "CURRENT",
+      "evidence": "Edit/Export/RENDER_RECEIPT_v01.json binds timeline snapshot 901AB1A9 and exact file hash."
+    },
+    "expected": {
+      "video": {
+        "width": 1440,
+        "height": 2560,
+        "codec_name": "h264",
+        "pix_fmt": "yuv420p",
+        "color_space": "bt709"
+      },
+      "audio": {
+        "required": true,
+        "codec_name": "aac",
+        "channels": 1,
+        "sample_rate": 44100
+      }
+    },
+    "scenes": [
+      {
+        "id": "S01",
+        "start": 0,
+        "end": 233
+      },
+      {
+        "id": "S02",
+        "start": 233,
+        "end": 425
+      },
+      {
+        "id": "S03",
+        "start": 425,
+        "end": 588
+      },
+      {
+        "id": "S04",
+        "start": 588,
+        "end": 718
+      },
+      {
+        "id": "S05",
+        "start": 718,
+        "end": 802
+      },
+      {
+        "id": "S06",
+        "start": 802,
+        "end": 972
+      },
+      {
+        "id": "S07",
+        "start": 972,
+        "end": 1112
+      },
+      {
+        "id": "S08",
+        "start": 1112,
+        "end": 1265
+      },
+      {
+        "id": "S09",
+        "start": 1265,
+        "end": 1460
+      },
+      {
+        "id": "S10",
+        "start": 1460,
+        "end": 1632
+      },
+      {
+        "id": "S11",
+        "start": 1632,
+        "end": 1764
+      },
+      {
+        "id": "S12",
+        "start": 1764,
+        "end": 1892
+      },
+      {
+        "id": "S13",
+        "start": 1892,
+        "end": 1980
+      },
+      {
+        "id": "S14",
+        "start": 1980,
+        "end": 2091
+      }
+    ],
+    "cues": [
+      {
+        "id": "C0001",
+        "start": 0,
+        "end": 106,
+        "entry_end": 1,
+        "exit_start": 105
+      },
+      {
+        "id": "C0002",
+        "start": 106,
+        "end": 161,
+        "entry_end": 107,
+        "exit_start": 160
+      },
+      {
+        "id": "C0003",
+        "start": 161,
+        "end": 233,
+        "entry_end": 162,
+        "exit_start": 232
+      },
+      {
+        "id": "C0004",
+        "start": 233,
+        "end": 296,
+        "entry_end": 234,
+        "exit_start": 295
+      },
+      {
+        "id": "C0005",
+        "start": 296,
+        "end": 401,
+        "entry_end": 297,
+        "exit_start": 400
+      },
+      {
+        "id": "C0006",
+        "start": 401,
+        "end": 425,
+        "entry_end": 402,
+        "exit_start": 424
+      },
+      {
+        "id": "C0007",
+        "start": 425,
+        "end": 516,
+        "entry_end": 426,
+        "exit_start": 515
+      },
+      {
+        "id": "C0008",
+        "start": 516,
+        "end": 588,
+        "entry_end": 517,
+        "exit_start": 587
+      },
+      {
+        "id": "C0009",
+        "start": 588,
+        "end": 718,
+        "entry_end": 589,
+        "exit_start": 717
+      },
+      {
+        "id": "C0010",
+        "start": 718,
+        "end": 802,
+        "entry_end": 719,
+        "exit_start": 801
+      },
+      {
+        "id": "C0011",
+        "start": 802,
+        "end": 874,
+        "entry_end": 803,
+        "exit_start": 873
+      },
+      {
+        "id": "C0012",
+        "start": 874,
+        "end": 910,
+        "entry_end": 875,
+        "exit_start": 909
+      },
+      {
+        "id": "C0013",
+        "start": 910,
+        "end": 972,
+        "entry_end": 911,
+        "exit_start": 971
+      },
+      {
+        "id": "C0014",
+        "start": 972,
+        "end": 1034,
+        "entry_end": 973,
+        "exit_start": 1033
+      },
+      {
+        "id": "C0015",
+        "start": 1034,
+        "end": 1112,
+        "entry_end": 1035,
+        "exit_start": 1111
+      },
+      {
+        "id": "C0016",
+        "start": 1112,
+        "end": 1212,
+        "entry_end": 1113,
+        "exit_start": 1211
+      },
+      {
+        "id": "C0017",
+        "start": 1212,
+        "end": 1265,
+        "entry_end": 1213,
+        "exit_start": 1264
+      },
+      {
+        "id": "C0018",
+        "start": 1265,
+        "end": 1378,
+        "entry_end": 1266,
+        "exit_start": 1377
+      },
+      {
+        "id": "C0019",
+        "start": 1378,
+        "end": 1460,
+        "entry_end": 1379,
+        "exit_start": 1459
+      },
+      {
+        "id": "C0020",
+        "start": 1460,
+        "end": 1558,
+        "entry_end": 1461,
+        "exit_start": 1557
+      },
+      {
+        "id": "C0021",
+        "start": 1558,
+        "end": 1632,
+        "entry_end": 1559,
+        "exit_start": 1631
+      },
+      {
+        "id": "C0022",
+        "start": 1632,
+        "end": 1764,
+        "entry_end": 1633,
+        "exit_start": 1763
+      },
+      {
+        "id": "C0023",
+        "start": 1764,
+        "end": 1892,
+        "entry_end": 1765,
+        "exit_start": 1891
+      },
+      {
+        "id": "C0024",
+        "start": 1892,
+        "end": 1980,
+        "entry_end": 1893,
+        "exit_start": 1979
+      },
+      {
+        "id": "C0025",
+        "start": 1980,
+        "end": 2025,
+        "entry_end": 1981,
+        "exit_start": 2024
+      },
+      {
+        "id": "C0026",
+        "start": 2025,
+        "end": 2091,
+        "entry_end": 2026,
+        "exit_start": 2090
+      }
+    ],
+    "extra_frames": [
+      0,
+      1,
+      4,
+      5,
+      91,
+      92,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      151,
+      152,
+      158,
+      159,
+      160,
+      161,
+      184,
+      185,
+      206,
+      207,
+      223,
+      224,
+      232,
+      233,
+      234,
+      249,
+      250,
+      278,
+      279,
+      292,
+      293,
+      295,
+      296,
+      297,
+      298,
+      383,
+      384,
+      386,
+      387,
+      400,
+      401,
+      412,
+      413,
+      424,
+      425,
+      426,
+      434,
+      435,
+      489,
+      490,
+      506,
+      507,
+      515,
+      516,
+      527,
+      528,
+      556,
+      557,
+      573,
+      574,
+      587,
+      588,
+      589,
+      590,
+      591,
+      688,
+      689,
+      707,
+      708,
+      717,
+      718,
+      719,
+      727,
+      728,
+      773,
+      774,
+      789,
+      790,
+      801,
+      802,
+      803,
+      806,
+      807,
+      844,
+      845,
+      861,
+      862,
+      873,
+      874,
+      885,
+      886,
+      887,
+      888,
+      902,
+      903,
+      909,
+      910,
+      911,
+      912,
+      950,
+      951,
+      959,
+      960,
+      971,
+      972,
+      973,
+      974,
+      975,
+      1005,
+      1006,
+      1022,
+      1023,
+      1033,
+      1034,
+      1041,
+      1042,
+      1089,
+      1090,
+      1099,
+      1100,
+      1111,
+      1112,
+      1113,
+      1123,
+      1124,
+      1187,
+      1188,
+      1199,
+      1200,
+      1211,
+      1212,
+      1219,
+      1220,
+      1238,
+      1239,
+      1252,
+      1253,
+      1264,
+      1265,
+      1266,
+      1269,
+      1270,
+      1367,
+      1368,
+      1375,
+      1376,
+      1377,
+      1378,
+      1389,
+      1390,
+      1435,
+      1436,
+      1447,
+      1448,
+      1459,
+      1460,
+      1461,
+      1462,
+      1543,
+      1544,
+      1545,
+      1546,
+      1557,
+      1558,
+      1564,
+      1565,
+      1600,
+      1601,
+      1619,
+      1620,
+      1631,
+      1632,
+      1633,
+      1641,
+      1642,
+      1717,
+      1718,
+      1749,
+      1750,
+      1763,
+      1764,
+      1765,
+      1773,
+      1774,
+      1862,
+      1863,
+      1881,
+      1882,
+      1891,
+      1892,
+      1893,
+      1903,
+      1904,
+      1936,
+      1937,
+      1965,
+      1966,
+      1979,
+      1980,
+      1981,
+      1987,
+      1988,
+      2013,
+      2014,
+      2015,
+      2016,
+      2024,
+      2025,
+      2026,
+      2073,
+      2074,
+      2083,
+      2084,
+      2090
+    ],
+    "subtitle_map": "Work/prod-en-v01/scratch/captions_plan_v05/segmented_cue_map.json",
+    "srt": "Edit/Captions/subtitles_en_v02.srt",
+    "alignment_source": "Source/Voice/voice_en.alignment.json",
+    "timing_limitations": [
+      "TTS word alignment has not been checked by listening.",
+      "Audio ends at 69.68 s; final subtitle overlay holds through the 69.70 s video end."
+    ]
+  },
+  "policy_failures": [],
+  "failures": [],
+  "reported_freshness": {
+    "status": "CURRENT",
+    "evidence": "Edit/Export/RENDER_RECEIPT_v01.json binds timeline snapshot 901AB1A9 and exact file hash."
+  },
+  "checks": {
+    "stream_metadata": "PASS",
+    "full_decode": "PASS",
+    "frame_extraction": "PASS",
+    "frame_sampling": "UNVERIFIED",
+    "motion_framing": "UNVERIFIED",
+    "cue_timing": "UNVERIFIED",
+    "audio_signal": "UNVERIFIED",
+    "subjective_audio_listening": "UNVERIFIED",
+    "independent_review": "UNVERIFIED"
+  },
+  "inspected_frame_indices": [],
+  "requested_frame_indices": [
+    0,
+    1,
+    4,
+    5,
+    52,
+    91,
+    92,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    116,
+    133,
+    151,
+    152,
+    158,
+    159,
+    160,
+    161,
+    162,
+    184,
+    185,
+    196,
+    206,
+    207,
+    223,
+    224,
+    232,
+    233,
+    234,
+    249,
+    250,
+    264,
+    278,
+    279,
+    292,
+    293,
+    295,
+    296,
+    297,
+    298,
+    328,
+    348,
+    383,
+    384,
+    386,
+    387,
+    400,
+    401,
+    402,
+    412,
+    413,
+    424,
+    425,
+    426,
+    434,
+    435,
+    470,
+    489,
+    490,
+    506,
+    507,
+    515,
+    516,
+    517,
+    527,
+    528,
+    551,
+    556,
+    557,
+    573,
+    574,
+    587,
+    588,
+    589,
+    590,
+    591,
+    652,
+    688,
+    689,
+    707,
+    708,
+    717,
+    718,
+    719,
+    727,
+    728,
+    759,
+    773,
+    774,
+    789,
+    790,
+    801,
+    802,
+    803,
+    806,
+    807,
+    837,
+    844,
+    845,
+    861,
+    862,
+    873,
+    874,
+    875,
+    885,
+    886,
+    887,
+    888,
+    891,
+    902,
+    903,
+    909,
+    910,
+    911,
+    912,
+    940,
+    950,
+    951,
+    959,
+    960,
+    971,
+    972,
+    973,
+    974,
+    975,
+    1002,
+    1005,
+    1006,
+    1022,
+    1023,
+    1033,
+    1034,
+    1035,
+    1041,
+    1042,
+    1072,
+    1089,
+    1090,
+    1099,
+    1100,
+    1111,
+    1112,
+    1113,
+    1123,
+    1124,
+    1161,
+    1187,
+    1188,
+    1199,
+    1200,
+    1211,
+    1212,
+    1213,
+    1219,
+    1220,
+    1238,
+    1239,
+    1252,
+    1253,
+    1264,
+    1265,
+    1266,
+    1269,
+    1270,
+    1321,
+    1362,
+    1367,
+    1368,
+    1375,
+    1376,
+    1377,
+    1378,
+    1379,
+    1389,
+    1390,
+    1418,
+    1435,
+    1436,
+    1447,
+    1448,
+    1459,
+    1460,
+    1461,
+    1462,
+    1508,
+    1543,
+    1544,
+    1545,
+    1546,
+    1557,
+    1558,
+    1559,
+    1564,
+    1565,
+    1594,
+    1600,
+    1601,
+    1619,
+    1620,
+    1631,
+    1632,
+    1633,
+    1641,
+    1642,
+    1697,
+    1717,
+    1718,
+    1749,
+    1750,
+    1763,
+    1764,
+    1765,
+    1773,
+    1774,
+    1827,
+    1862,
+    1863,
+    1881,
+    1882,
+    1891,
+    1892,
+    1893,
+    1903,
+    1904,
+    1935,
+    1936,
+    1937,
+    1965,
+    1966,
+    1979,
+    1980,
+    1981,
+    1987,
+    1988,
+    2002,
+    2013,
+    2014,
+    2015,
+    2016,
+    2024,
+    2025,
+    2026,
+    2035,
+    2057,
+    2073,
+    2074,
+    2083,
+    2084,
+    2090
+  ],
+  "sha256": "a7047b3ecf8e01ccd8fdf661133f84849d60bb7171f6fb8a6111cc2659cd7f9b",
+  "streams": [
+    {
+      "index": 0,
+      "codec_name": "h264",
+      "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+      "profile": "High",
+      "codec_type": "video",
+      "codec_tag_string": "avc1",
+      "codec_tag": "0x31637661",
+      "mime_codec_string": "avc1.640032",
+      "width": 1440,
+      "height": 2560,
+      "coded_width": 1440,
+      "coded_height": 2560,
+      "has_b_frames": 2,
+      "pix_fmt": "yuv420p",
+      "level": 50,
+      "color_range": "tv",
+      "color_space": "bt709",
+      "color_transfer": "bt709",
+      "color_primaries": "bt709",
+      "chroma_location": "left",
+      "field_order": "progressive",
+      "is_avc": "true",
+      "nal_length_size": "4",
+      "id": "0x1",
+      "r_frame_rate": "30/1",
+      "avg_frame_rate": "30/1",
+      "time_base": "1/19200",
+      "start_pts": 0,
+      "start_time": "0.000000",
+      "duration_ts": 1338240,
+      "duration": "69.700000",
+      "bit_rate": "13314486",
+      "bits_per_raw_sample": "8",
+      "nb_frames": "2091",
+      "extradata_size": 35,
+      "disposition": {
+        "default": 1,
+        "dub": 0,
+        "original": 0,
+        "comment": 0,
+        "lyrics": 0,
+        "karaoke": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "visual_impaired": 0,
+        "clean_effects": 0,
+        "attached_pic": 0,
+        "timed_thumbnails": 0,
+        "non_diegetic": 0,
+        "captions": 0,
+        "descriptions": 0,
+        "metadata": 0,
+        "dependent": 0,
+        "still_image": 0,
+        "multilayer": 0
+      },
+      "tags": {
+        "creation_time": "2026-11-03T14:58:04.000000Z",
+        "language": "und",
+        "handler_name": "Core Media Video"
+      }
+    },
+    {
+      "index": 1,
+      "codec_name": "aac",
+      "codec_long_name": "AAC (Advanced Audio Coding)",
+      "profile": "LC",
+      "codec_type": "audio",
+      "codec_tag_string": "mp4a",
+      "codec_tag": "0x6134706d",
+      "mime_codec_string": "mp4a.40.2",
+      "sample_fmt": "fltp",
+      "sample_rate": "44100",
+      "channels": 1,
+      "channel_layout": "mono",
+      "bits_per_sample": 0,
+      "initial_padding": 0,
+      "id": "0x2",
+      "r_frame_rate": "0/0",
+      "avg_frame_rate": "0/0",
+      "time_base": "1/44100",
+      "start_pts": 0,
+      "start_time": "0.000000",
+      "duration_ts": 3072888,
+      "duration": "69.680000",
+      "bit_rate": "177622",
+      "nb_frames": "3002",
+      "extradata_size": 5,
+      "disposition": {
+        "default": 1,
+        "dub": 0,
+        "original": 0,
+        "comment": 0,
+        "lyrics": 0,
+        "karaoke": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "visual_impaired": 0,
+        "clean_effects": 0,
+        "attached_pic": 0,
+        "timed_thumbnails": 0,
+        "non_diegetic": 0,
+        "captions": 0,
+        "descriptions": 0,
+        "metadata": 0,
+        "dependent": 0,
+        "still_image": 0,
+        "multilayer": 0
+      },
+      "tags": {
+        "creation_time": "2026-11-03T14:58:04.000000Z",
+        "language": "und",
+        "handler_name": "SoundHandler"
+      }
+    }
+  ],
+  "decoded_video_frames": 2091,
+  "audio_measurements": {
+    "stream": "0:a:0",
+    "method": "sample levels and silence candidates; not listening",
+    "mean_dbfs": [
+      "-21.2"
+    ],
+    "sample_peak_dbfs": [
+      "-0.9"
+    ],
+    "silence_candidate_threshold_dbfs": -50,
+    "minimum_silence_seconds": 0.25
+  },
+  "audio_analysis_execution": "PASS",
+  "frame_recipe": {
+    "argv": [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-xerror",
+      "-i",
+      "/Users/diplomat/ytvideos/channels/nuviko_history/videos/036_daylight_saving_time/Work/prod-en-v01/previews/final_review_v01.mp4",
+      "-map",
+      "0:v:0",
+      "-vf",
+      "select=((((((((eq(n\\,0)+eq(n\\,1))+(eq(n\\,4)+eq(n\\,5)))+((eq(n\\,52)+eq(n\\,91))+(eq(n\\,92)+eq(n\\,103))))+(((eq(n\\,104)+eq(n\\,105))+(eq(n\\,106)+eq(n\\,107)))+((eq(n\\,108)+eq(n\\,116))+(eq(n\\,133)+eq(n\\,151)))))+((((eq(n\\,152)+eq(n\\,158))+(eq(n\\,159)+eq(n\\,160)))+((eq(n\\,161)+eq(n\\,162))+(eq(n\\,184)+eq(n\\,185))))+(((eq(n\\,196)+eq(n\\,206))+(eq(n\\,207)+eq(n\\,223)))+((eq(n\\,224)+eq(n\\,232))+(eq(n\\,233)+eq(n\\,234))))))+(((((eq(n\\,249)+eq(n\\,250))+(eq(n\\,264)+eq(n\\,278)))+((eq(n\\,279)+eq(n\\,292))+(eq(n\\,293)+eq(n\\,295))))+(((eq(n\\,296)+eq(n\\,297))+(eq(n\\,298)+eq(n\\,328)))+((eq(n\\,348)+eq(n\\,383))+(eq(n\\,384)+eq(n\\,386)))))+((((eq(n\\,387)+eq(n\\,400))+(eq(n\\,401)+eq(n\\,402)))+((eq(n\\,412)+eq(n\\,413))+(eq(n\\,424)+eq(n\\,425))))+(((eq(n\\,426)+eq(n\\,434))+(eq(n\\,435)+eq(n\\,470)))+((eq(n\\,489)+eq(n\\,490))+(eq(n\\,506)+eq(n\\,507)))))))+((((((eq(n\\,515)+eq(n\\,516))+(eq(n\\,517)+eq(n\\,527)))+((eq(n\\,528)+eq(n\\,551))+(eq(n\\,556)+eq(n\\,557))))+(((eq(n\\,573)+eq(n\\,574))+(eq(n\\,587)+eq(n\\,588)))+((eq(n\\,589)+eq(n\\,590))+(eq(n\\,591)+eq(n\\,652)))))+((((eq(n\\,688)+eq(n\\,689))+(eq(n\\,707)+eq(n\\,708)))+((eq(n\\,717)+eq(n\\,718))+(eq(n\\,719)+eq(n\\,727))))+(((eq(n\\,728)+eq(n\\,759))+(eq(n\\,773)+eq(n\\,774)))+((eq(n\\,789)+eq(n\\,790))+(eq(n\\,801)+eq(n\\,802))))))+(((((eq(n\\,803)+eq(n\\,806))+(eq(n\\,807)+eq(n\\,837)))+((eq(n\\,844)+eq(n\\,845))+(eq(n\\,861)+eq(n\\,862))))+(((eq(n\\,873)+eq(n\\,874))+(eq(n\\,875)+eq(n\\,885)))+((eq(n\\,886)+eq(n\\,887))+(eq(n\\,888)+eq(n\\,891)))))+((((eq(n\\,902)+eq(n\\,903))+(eq(n\\,909)+eq(n\\,910)))+((eq(n\\,911)+eq(n\\,912))+(eq(n\\,940)+eq(n\\,950))))+(((eq(n\\,951)+eq(n\\,959))+(eq(n\\,960)+eq(n\\,971)))+((eq(n\\,972)+eq(n\\,973))+(eq(n\\,974)+eq(n\\,975))))))))+(((((((eq(n\\,1002)+eq(n\\,1005))+(eq(n\\,1006)+eq(n\\,1022)))+((eq(n\\,1023)+eq(n\\,1033))+(eq(n\\,1034)+eq(n\\,1035))))+(((eq(n\\,1041)+eq(n\\,1042))+(eq(n\\,1072)+eq(n\\,1089)))+((eq(n\\,1090)+eq(n\\,1099))+(eq(n\\,1100)+eq(n\\,1111)))))+((((eq(n\\,1112)+eq(n\\,1113))+(eq(n\\,1123)+eq(n\\,1124)))+((eq(n\\,1161)+eq(n\\,1187))+(eq(n\\,1188)+eq(n\\,1199))))+(((eq(n\\,1200)+eq(n\\,1211))+(eq(n\\,1212)+eq(n\\,1213)))+((eq(n\\,1219)+eq(n\\,1220))+(eq(n\\,1238)+eq(n\\,1239))))))+(((((eq(n\\,1252)+eq(n\\,1253))+(eq(n\\,1264)+eq(n\\,1265)))+((eq(n\\,1266)+eq(n\\,1269))+(eq(n\\,1270)+eq(n\\,1321))))+(((eq(n\\,1362)+eq(n\\,1367))+(eq(n\\,1368)+eq(n\\,1375)))+((eq(n\\,1376)+eq(n\\,1377))+(eq(n\\,1378)+eq(n\\,1379)))))+((((eq(n\\,1389)+eq(n\\,1390))+(eq(n\\,1418)+eq(n\\,1435)))+((eq(n\\,1436)+eq(n\\,1447))+(eq(n\\,1448)+eq(n\\,1459))))+(((eq(n\\,1460)+eq(n\\,1461))+(eq(n\\,1462)+eq(n\\,1508)))+((eq(n\\,1543)+eq(n\\,1544))+(eq(n\\,1545)+eq(n\\,1546)))))))+((((((eq(n\\,1557)+eq(n\\,1558))+(eq(n\\,1559)+eq(n\\,1564)))+((eq(n\\,1565)+eq(n\\,1594))+(eq(n\\,1600)+eq(n\\,1601))))+(((eq(n\\,1619)+eq(n\\,1620))+(eq(n\\,1631)+eq(n\\,1632)))+((eq(n\\,1633)+eq(n\\,1641))+(eq(n\\,1642)+eq(n\\,1697)))))+((((eq(n\\,1717)+eq(n\\,1718))+(eq(n\\,1749)+eq(n\\,1750)))+((eq(n\\,1763)+eq(n\\,1764))+(eq(n\\,1765)+eq(n\\,1773))))+(((eq(n\\,1774)+eq(n\\,1827))+(eq(n\\,1862)+eq(n\\,1863)))+((eq(n\\,1881)+eq(n\\,1882))+(eq(n\\,1891)+eq(n\\,1892))))))+(((((eq(n\\,1893)+eq(n\\,1903))+(eq(n\\,1904)+eq(n\\,1935)))+((eq(n\\,1936)+eq(n\\,1937))+(eq(n\\,1965)+eq(n\\,1966))))+(((eq(n\\,1979)+eq(n\\,1980))+(eq(n\\,1981)+eq(n\\,1987)))+((eq(n\\,1988)+eq(n\\,2002))+(eq(n\\,2013)+eq(n\\,2014)))))+((((eq(n\\,2015)+eq(n\\,2016))+(eq(n\\,2024)+eq(n\\,2025)))+((eq(n\\,2026)+eq(n\\,2035))+(eq(n\\,2057)+eq(n\\,2073))))+((eq(n\\,2074)+eq(n\\,2083))+(eq(n\\,2084)+eq(n\\,2090))))))))",
+      "-fps_mode",
+      "vfr",
+      "-start_number",
+      "0",
+      "/Users/diplomat/ytvideos/channels/nuviko_history/videos/036_daylight_saving_time/Work/qa-prod-en-v01/scratch/qa/%06d.png"
+    ],
+    "ffmpeg_version": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers",
+    "stream": "0:v:0",
+    "index_basis": "zero-based decoded video frame",
+    "fps": "30/1"
+  },
+  "frame_map": [
+    {
+      "index": 0,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000000.png"
+    },
+    {
+      "index": 1,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000001.png"
+    },
+    {
+      "index": 4,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000002.png"
+    },
+    {
+      "index": 5,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000003.png"
+    },
+    {
+      "index": 52,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000004.png"
+    },
+    {
+      "index": 91,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000005.png"
+    },
+    {
+      "index": 92,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000006.png"
+    },
+    {
+      "index": 103,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000007.png"
+    },
+    {
+      "index": 104,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000008.png"
+    },
+    {
+      "index": 105,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000009.png"
+    },
+    {
+      "index": 106,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000010.png"
+    },
+    {
+      "index": 107,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000011.png"
+    },
+    {
+      "index": 108,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000012.png"
+    },
+    {
+      "index": 116,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000013.png"
+    },
+    {
+      "index": 133,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000014.png"
+    },
+    {
+      "index": 151,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000015.png"
+    },
+    {
+      "index": 152,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000016.png"
+    },
+    {
+      "index": 158,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000017.png"
+    },
+    {
+      "index": 159,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000018.png"
+    },
+    {
+      "index": 160,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000019.png"
+    },
+    {
+      "index": 161,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000020.png"
+    },
+    {
+      "index": 162,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000021.png"
+    },
+    {
+      "index": 184,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000022.png"
+    },
+    {
+      "index": 185,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000023.png"
+    },
+    {
+      "index": 196,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000024.png"
+    },
+    {
+      "index": 206,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000025.png"
+    },
+    {
+      "index": 207,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000026.png"
+    },
+    {
+      "index": 223,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000027.png"
+    },
+    {
+      "index": 224,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000028.png"
+    },
+    {
+      "index": 232,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000029.png"
+    },
+    {
+      "index": 233,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000030.png"
+    },
+    {
+      "index": 234,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000031.png"
+    },
+    {
+      "index": 249,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000032.png"
+    },
+    {
+      "index": 250,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000033.png"
+    },
+    {
+      "index": 264,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000034.png"
+    },
+    {
+      "index": 278,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000035.png"
+    },
+    {
+      "index": 279,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000036.png"
+    },
+    {
+      "index": 292,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000037.png"
+    },
+    {
+      "index": 293,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000038.png"
+    },
+    {
+      "index": 295,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000039.png"
+    },
+    {
+      "index": 296,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000040.png"
+    },
+    {
+      "index": 297,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000041.png"
+    },
+    {
+      "index": 298,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000042.png"
+    },
+    {
+      "index": 328,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000043.png"
+    },
+    {
+      "index": 348,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000044.png"
+    },
+    {
+      "index": 383,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000045.png"
+    },
+    {
+      "index": 384,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000046.png"
+    },
+    {
+      "index": 386,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000047.png"
+    },
+    {
+      "index": 387,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000048.png"
+    },
+    {
+      "index": 400,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000049.png"
+    },
+    {
+      "index": 401,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000050.png"
+    },
+    {
+      "index": 402,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000051.png"
+    },
+    {
+      "index": 412,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000052.png"
+    },
+    {
+      "index": 413,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000053.png"
+    },
+    {
+      "index": 424,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000054.png"
+    },
+    {
+      "index": 425,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000055.png"
+    },
+    {
+      "index": 426,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000056.png"
+    },
+    {
+      "index": 434,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000057.png"
+    },
+    {
+      "index": 435,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000058.png"
+    },
+    {
+      "index": 470,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000059.png"
+    },
+    {
+      "index": 489,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000060.png"
+    },
+    {
+      "index": 490,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000061.png"
+    },
+    {
+      "index": 506,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000062.png"
+    },
+    {
+      "index": 507,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000063.png"
+    },
+    {
+      "index": 515,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000064.png"
+    },
+    {
+      "index": 516,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000065.png"
+    },
+    {
+      "index": 517,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000066.png"
+    },
+    {
+      "index": 527,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000067.png"
+    },
+    {
+      "index": 528,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000068.png"
+    },
+    {
+      "index": 551,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000069.png"
+    },
+    {
+      "index": 556,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000070.png"
+    },
+    {
+      "index": 557,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000071.png"
+    },
+    {
+      "index": 573,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000072.png"
+    },
+    {
+      "index": 574,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000073.png"
+    },
+    {
+      "index": 587,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000074.png"
+    },
+    {
+      "index": 588,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000075.png"
+    },
+    {
+      "index": 589,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000076.png"
+    },
+    {
+      "index": 590,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000077.png"
+    },
+    {
+      "index": 591,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000078.png"
+    },
+    {
+      "index": 652,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000079.png"
+    },
+    {
+      "index": 688,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000080.png"
+    },
+    {
+      "index": 689,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000081.png"
+    },
+    {
+      "index": 707,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000082.png"
+    },
+    {
+      "index": 708,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000083.png"
+    },
+    {
+      "index": 717,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000084.png"
+    },
+    {
+      "index": 718,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000085.png"
+    },
+    {
+      "index": 719,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000086.png"
+    },
+    {
+      "index": 727,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000087.png"
+    },
+    {
+      "index": 728,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000088.png"
+    },
+    {
+      "index": 759,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000089.png"
+    },
+    {
+      "index": 773,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000090.png"
+    },
+    {
+      "index": 774,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000091.png"
+    },
+    {
+      "index": 789,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000092.png"
+    },
+    {
+      "index": 790,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000093.png"
+    },
+    {
+      "index": 801,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000094.png"
+    },
+    {
+      "index": 802,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000095.png"
+    },
+    {
+      "index": 803,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000096.png"
+    },
+    {
+      "index": 806,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000097.png"
+    },
+    {
+      "index": 807,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000098.png"
+    },
+    {
+      "index": 837,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000099.png"
+    },
+    {
+      "index": 844,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000100.png"
+    },
+    {
+      "index": 845,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000101.png"
+    },
+    {
+      "index": 861,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000102.png"
+    },
+    {
+      "index": 862,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000103.png"
+    },
+    {
+      "index": 873,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000104.png"
+    },
+    {
+      "index": 874,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000105.png"
+    },
+    {
+      "index": 875,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000106.png"
+    },
+    {
+      "index": 885,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000107.png"
+    },
+    {
+      "index": 886,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000108.png"
+    },
+    {
+      "index": 887,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000109.png"
+    },
+    {
+      "index": 888,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000110.png"
+    },
+    {
+      "index": 891,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000111.png"
+    },
+    {
+      "index": 902,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000112.png"
+    },
+    {
+      "index": 903,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000113.png"
+    },
+    {
+      "index": 909,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000114.png"
+    },
+    {
+      "index": 910,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000115.png"
+    },
+    {
+      "index": 911,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000116.png"
+    },
+    {
+      "index": 912,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000117.png"
+    },
+    {
+      "index": 940,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000118.png"
+    },
+    {
+      "index": 950,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000119.png"
+    },
+    {
+      "index": 951,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000120.png"
+    },
+    {
+      "index": 959,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000121.png"
+    },
+    {
+      "index": 960,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000122.png"
+    },
+    {
+      "index": 971,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000123.png"
+    },
+    {
+      "index": 972,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000124.png"
+    },
+    {
+      "index": 973,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000125.png"
+    },
+    {
+      "index": 974,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000126.png"
+    },
+    {
+      "index": 975,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000127.png"
+    },
+    {
+      "index": 1002,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000128.png"
+    },
+    {
+      "index": 1005,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000129.png"
+    },
+    {
+      "index": 1006,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000130.png"
+    },
+    {
+      "index": 1022,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000131.png"
+    },
+    {
+      "index": 1023,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000132.png"
+    },
+    {
+      "index": 1033,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000133.png"
+    },
+    {
+      "index": 1034,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000134.png"
+    },
+    {
+      "index": 1035,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000135.png"
+    },
+    {
+      "index": 1041,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000136.png"
+    },
+    {
+      "index": 1042,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000137.png"
+    },
+    {
+      "index": 1072,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000138.png"
+    },
+    {
+      "index": 1089,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000139.png"
+    },
+    {
+      "index": 1090,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000140.png"
+    },
+    {
+      "index": 1099,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000141.png"
+    },
+    {
+      "index": 1100,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000142.png"
+    },
+    {
+      "index": 1111,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000143.png"
+    },
+    {
+      "index": 1112,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000144.png"
+    },
+    {
+      "index": 1113,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000145.png"
+    },
+    {
+      "index": 1123,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000146.png"
+    },
+    {
+      "index": 1124,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000147.png"
+    },
+    {
+      "index": 1161,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000148.png"
+    },
+    {
+      "index": 1187,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000149.png"
+    },
+    {
+      "index": 1188,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000150.png"
+    },
+    {
+      "index": 1199,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000151.png"
+    },
+    {
+      "index": 1200,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000152.png"
+    },
+    {
+      "index": 1211,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000153.png"
+    },
+    {
+      "index": 1212,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000154.png"
+    },
+    {
+      "index": 1213,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000155.png"
+    },
+    {
+      "index": 1219,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000156.png"
+    },
+    {
+      "index": 1220,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000157.png"
+    },
+    {
+      "index": 1238,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000158.png"
+    },
+    {
+      "index": 1239,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000159.png"
+    },
+    {
+      "index": 1252,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000160.png"
+    },
+    {
+      "index": 1253,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000161.png"
+    },
+    {
+      "index": 1264,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000162.png"
+    },
+    {
+      "index": 1265,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000163.png"
+    },
+    {
+      "index": 1266,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000164.png"
+    },
+    {
+      "index": 1269,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000165.png"
+    },
+    {
+      "index": 1270,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000166.png"
+    },
+    {
+      "index": 1321,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000167.png"
+    },
+    {
+      "index": 1362,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000168.png"
+    },
+    {
+      "index": 1367,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000169.png"
+    },
+    {
+      "index": 1368,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000170.png"
+    },
+    {
+      "index": 1375,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000171.png"
+    },
+    {
+      "index": 1376,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000172.png"
+    },
+    {
+      "index": 1377,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000173.png"
+    },
+    {
+      "index": 1378,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000174.png"
+    },
+    {
+      "index": 1379,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000175.png"
+    },
+    {
+      "index": 1389,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000176.png"
+    },
+    {
+      "index": 1390,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000177.png"
+    },
+    {
+      "index": 1418,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000178.png"
+    },
+    {
+      "index": 1435,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000179.png"
+    },
+    {
+      "index": 1436,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000180.png"
+    },
+    {
+      "index": 1447,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000181.png"
+    },
+    {
+      "index": 1448,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000182.png"
+    },
+    {
+      "index": 1459,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000183.png"
+    },
+    {
+      "index": 1460,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000184.png"
+    },
+    {
+      "index": 1461,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000185.png"
+    },
+    {
+      "index": 1462,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000186.png"
+    },
+    {
+      "index": 1508,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000187.png"
+    },
+    {
+      "index": 1543,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000188.png"
+    },
+    {
+      "index": 1544,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000189.png"
+    },
+    {
+      "index": 1545,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000190.png"
+    },
+    {
+      "index": 1546,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000191.png"
+    },
+    {
+      "index": 1557,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000192.png"
+    },
+    {
+      "index": 1558,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000193.png"
+    },
+    {
+      "index": 1559,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000194.png"
+    },
+    {
+      "index": 1564,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000195.png"
+    },
+    {
+      "index": 1565,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000196.png"
+    },
+    {
+      "index": 1594,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000197.png"
+    },
+    {
+      "index": 1600,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000198.png"
+    },
+    {
+      "index": 1601,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000199.png"
+    },
+    {
+      "index": 1619,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000200.png"
+    },
+    {
+      "index": 1620,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000201.png"
+    },
+    {
+      "index": 1631,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000202.png"
+    },
+    {
+      "index": 1632,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000203.png"
+    },
+    {
+      "index": 1633,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000204.png"
+    },
+    {
+      "index": 1641,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000205.png"
+    },
+    {
+      "index": 1642,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000206.png"
+    },
+    {
+      "index": 1697,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000207.png"
+    },
+    {
+      "index": 1717,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000208.png"
+    },
+    {
+      "index": 1718,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000209.png"
+    },
+    {
+      "index": 1749,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000210.png"
+    },
+    {
+      "index": 1750,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000211.png"
+    },
+    {
+      "index": 1763,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000212.png"
+    },
+    {
+      "index": 1764,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000213.png"
+    },
+    {
+      "index": 1765,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000214.png"
+    },
+    {
+      "index": 1773,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000215.png"
+    },
+    {
+      "index": 1774,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000216.png"
+    },
+    {
+      "index": 1827,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000217.png"
+    },
+    {
+      "index": 1862,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000218.png"
+    },
+    {
+      "index": 1863,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000219.png"
+    },
+    {
+      "index": 1881,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000220.png"
+    },
+    {
+      "index": 1882,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000221.png"
+    },
+    {
+      "index": 1891,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000222.png"
+    },
+    {
+      "index": 1892,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000223.png"
+    },
+    {
+      "index": 1893,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000224.png"
+    },
+    {
+      "index": 1903,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000225.png"
+    },
+    {
+      "index": 1904,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000226.png"
+    },
+    {
+      "index": 1935,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000227.png"
+    },
+    {
+      "index": 1936,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000228.png"
+    },
+    {
+      "index": 1937,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000229.png"
+    },
+    {
+      "index": 1965,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000230.png"
+    },
+    {
+      "index": 1966,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000231.png"
+    },
+    {
+      "index": 1979,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000232.png"
+    },
+    {
+      "index": 1980,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000233.png"
+    },
+    {
+      "index": 1981,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000234.png"
+    },
+    {
+      "index": 1987,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000235.png"
+    },
+    {
+      "index": 1988,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000236.png"
+    },
+    {
+      "index": 2002,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000237.png"
+    },
+    {
+      "index": 2013,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000238.png"
+    },
+    {
+      "index": 2014,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000239.png"
+    },
+    {
+      "index": 2015,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000240.png"
+    },
+    {
+      "index": 2016,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000241.png"
+    },
+    {
+      "index": 2024,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000242.png"
+    },
+    {
+      "index": 2025,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000243.png"
+    },
+    {
+      "index": 2026,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000244.png"
+    },
+    {
+      "index": 2035,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000245.png"
+    },
+    {
+      "index": 2057,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000246.png"
+    },
+    {
+      "index": 2073,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000247.png"
+    },
+    {
+      "index": 2074,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000248.png"
+    },
+    {
+      "index": 2083,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000249.png"
+    },
+    {
+      "index": 2084,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000250.png"
+    },
+    {
+      "index": 2090,
+      "path": "../../../Work/qa-prod-en-v01/scratch/qa/000251.png"
+    }
+  ],
+  "frames_directory": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/036_daylight_saving_time/Work/qa-prod-en-v01/scratch/qa",
+  "technical_status": "PASS",
+  "verdict": "UNVERIFIED"
+}

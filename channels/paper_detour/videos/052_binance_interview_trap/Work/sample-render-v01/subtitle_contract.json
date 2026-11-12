@@ -1,0 +1,804 @@
+{
+  "schema": "ytv-delivery-v1",
+  "channel": "paper",
+  "format": "long",
+  "canvas": [
+    2560,
+    1440
+  ],
+  "fps": 30,
+  "frames": 750,
+  "caption_end_frame": 750,
+  "audio": {
+    "audio": {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/052_binance_interview_trap/Work/subtitle-sample-assets/audio_25s.m4a",
+      "sha256": "9ab3f0a5c66f87c2a3f0ffb5ae49d440cbbcea84c9556bc2b8ea712eabbd1e5e"
+    },
+    "applied_speed": 1.1,
+    "speed_policy": {
+      "path": "/Users/diplomat/ytvideos/.agents/skills/ytv-audio-delivery/references/speed.json",
+      "sha256": "32c378c36c1e297cbdc4e3593c965163d33e531b8b8eea026b367bddb51a668a"
+    },
+    "speed_evidence": {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/052_binance_interview_trap/Edit/Audio/speed_evidence_v01.json",
+      "sha256": "f37f4ceb69795ab7c3ee2aadcd5470df81a1e8a22999d647dcf4787367256b56"
+    }
+  },
+  "transcript": {
+    "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/052_binance_interview_trap/Work/subtitle-sample-assets/transcript_25s.txt",
+    "sha256": "ec53a6a61047881421b8f714262f8b9e6e26d646e49ec957b1fe55f5a35b4bc7"
+  },
+  "word_map": {
+    "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/052_binance_interview_trap/Work/subtitle-sample-assets/word_times_25s.json",
+    "sha256": "bcfba89d3a89946588feae903f78da87301bee2de8c3cf568bb2db8197736313"
+  },
+  "profiles": [
+    {
+      "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/profiles/paper.json",
+      "sha256": "e2b89e813ec25985601ef65997ea8b94c19e96aa6d158333edf962b42e02ffc0"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/profiles/long.json",
+      "sha256": "e8f9f5dd0354283634a0cf9dc1816736bac38de158de1d0bdd1b8b4658f51459"
+    },
+    {
+      "path": "/System/Library/Fonts/Supplemental/ChalkboardSE.ttc",
+      "sha256": "256d3dd291f0d2bd3379882e7fb9c8276fba219ea447a1073d2fce17690e0478"
+    }
+  ],
+  "engine": [
+    {
+      "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/montage.py",
+      "sha256": "036993a385e9f1eb500bd566effee1ec036a23f55e2558365e09869fd1d0167b"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/delivery.py",
+      "sha256": "8fcba5854d8832a966d4960dbdae3c8fa362d124d04a67f2b4b0df4347a71c65"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/.agents/skills/ytv-paper-subtitles/scripts/semantic_grouping.py",
+      "sha256": "f18deb4cbb5af9c10cfd51fd60b15ef1c87b5ebaaaa46f073210935821d8fc3e"
+    }
+  ],
+  "picture": [
+    {
+      "scene": {
+        "id": "S01",
+        "image": "../Source/Images/S01_v03.png",
+        "image_sha256": "1bf88b98b14c9d95c3d57001c0276e1af591f31b4c60e872da9359aaade24587",
+        "native_size": "1672x941",
+        "start_frame": 0,
+        "end_frame": 180,
+        "start_seconds": 0,
+        "end_seconds": 6,
+        "duration_seconds": 6,
+        "time_basis": "30 fps cut from provider character alignment; audible sync remains unverified",
+        "narration_coverage": "A Binance engineer interviews for a job at another company. First, he speaks with a recruiter.",
+        "purpose": "Interview trap hook",
+        "visual_action": "Engineer faces a video interview; test assignment and ominous red cable share the desk.",
+        "scene_text": "THE $6.3 BILLION TRAP; IT BEGAN WITH A JOB INTERVIEW",
+        "depiction_status": "Editorial hook; later estimate.",
+        "direction": "left_to_right",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Interview trap hook",
+          "reason": "Very small whole-image move; preserve full paper composition and keep meaningful labels in frame.",
+          "start": {
+            "center": [
+              0.505,
+              0.5
+            ],
+            "scale": 1.025
+          },
+          "end": {
+            "center": [
+              0.495,
+              0.5
+            ],
+            "scale": 1.045
+          }
+        },
+        "status": "SELECTED_CONTACT_SHEET_REVIEWED_FULL_SIZE_PHONE_REVIEW_PENDING"
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/052_binance_interview_trap/Source/Images/S01_v03.png",
+        "sha256": "1bf88b98b14c9d95c3d57001c0276e1af591f31b4c60e872da9359aaade24587"
+      }
+    },
+    {
+      "scene": {
+        "id": "S02",
+        "image": "../Source/Images/S24_v02.png",
+        "image_sha256": "94e3cca9355dc53e5f7ada33280f38d730189f56846149474c4b65e648eb94ef",
+        "native_size": "1672x941",
+        "start_frame": 180,
+        "end_frame": 300,
+        "start_seconds": 6,
+        "end_seconds": 10,
+        "duration_seconds": 4,
+        "time_basis": "30 fps cut from provider character alignment; audible sync remains unverified",
+        "narration_coverage": "Then he speaks with someone claiming to be the company's manager. He gets",
+        "purpose": "Second interview",
+        "visual_action": "Supposed manager on video; checklist and hollow office foreshadow fake employer.",
+        "scene_text": "SECOND INTERVIEW; checklist",
+        "depiction_status": "Dramatization; claimed manager.",
+        "direction": "right_to_left",
+        "zoom": "none",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Second interview",
+          "reason": "Very small whole-image move; preserve full paper composition and keep meaningful labels in frame.",
+          "start": {
+            "center": [
+              0.495,
+              0.5
+            ],
+            "scale": 1.015
+          },
+          "end": {
+            "center": [
+              0.505,
+              0.5
+            ],
+            "scale": 1.015
+          }
+        },
+        "status": "SELECTED_CONTACT_SHEET_REVIEWED_FULL_SIZE_PHONE_REVIEW_PENDING"
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/052_binance_interview_trap/Source/Images/S24_v02.png",
+        "sha256": "94e3cca9355dc53e5f7ada33280f38d730189f56846149474c4b65e648eb94ef"
+      }
+    },
+    {
+      "scene": {
+        "id": "S03",
+        "image": "../Source/Images/S03_v03.png",
+        "image_sha256": "d20a080739bbf2fd6e147db7d6470ec2c03c74f3aed3a3403b4b1745cc44df5b",
+        "native_size": "1672x941",
+        "start_frame": 300,
+        "end_frame": 450,
+        "start_seconds": 10,
+        "end_seconds": 15,
+        "duration_seconds": 5,
+        "time_basis": "30 fps cut from provider character alignment; audible sync remains unverified",
+        "narration_coverage": "a test assignment and downloads it to his work computer. But the company doesn't exist.",
+        "purpose": "Test assignment downloaded",
+        "visual_action": "Hands place marked assignment beside a generic completed download panel; setup checklist contains only supported generic labels.",
+        "scene_text": "TEST ASSIGNMENT; DOWNLOAD; SETUP; WORK COMPUTER",
+        "depiction_status": "Generic dramatization, not screenshot.",
+        "direction": "none",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Test assignment downloaded",
+          "reason": "Very small whole-image move; preserve full paper composition and keep meaningful labels in frame.",
+          "start": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.035
+          },
+          "end": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.015
+          }
+        },
+        "status": "SELECTED_CONTACT_SHEET_REVIEWED_FULL_SIZE_PHONE_REVIEW_PENDING"
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/052_binance_interview_trap/Source/Images/S03_v03.png",
+        "sha256": "d20a080739bbf2fd6e147db7d6470ec2c03c74f3aed3a3403b4b1745cc44df5b"
+      }
+    },
+    {
+      "scene": {
+        "id": "S04",
+        "image": "../Source/Images/S04_v02.png",
+        "image_sha256": "d54d8b3d9f750eea480d9fa7f01b4cd84994ebadec7700716250736a20268ff3",
+        "native_size": "1672x941",
+        "start_frame": 450,
+        "end_frame": 570,
+        "start_seconds": 15,
+        "end_seconds": 19,
+        "duration_seconds": 4,
+        "time_basis": "30 fps cut from provider character alignment; audible sync remains unverified",
+        "narration_coverage": "exist. A few weeks later, his real employer will lose more than six",
+        "purpose": "The company is fake",
+        "visual_action": "Worker approaches skeletal empty office model and mismatch record.",
+        "scene_text": "COMPANY: NO MATCH",
+        "depiction_status": "Metaphor for nonexistent company.",
+        "direction": "left_to_right",
+        "zoom": "none",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "The company is fake",
+          "reason": "Very small whole-image move; preserve full paper composition and keep meaningful labels in frame.",
+          "start": {
+            "center": [
+              0.505,
+              0.5
+            ],
+            "scale": 1.015
+          },
+          "end": {
+            "center": [
+              0.495,
+              0.5
+            ],
+            "scale": 1.015
+          }
+        },
+        "status": "SELECTED_CONTACT_SHEET_REVIEWED_FULL_SIZE_PHONE_REVIEW_PENDING"
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/052_binance_interview_trap/Source/Images/S04_v02.png",
+        "sha256": "d54d8b3d9f750eea480d9fa7f01b4cd84994ebadec7700716250736a20268ff3"
+      }
+    },
+    {
+      "scene": {
+        "id": "S05",
+        "image": "../Source/Images/05_v02.png",
+        "image_sha256": "0ab45c64a88ea749f3deaf3c2fb09b753da1794ca6544392351352af419e2cad",
+        "native_size": "1672x941",
+        "start_frame": 570,
+        "end_frame": 750,
+        "start_seconds": 19,
+        "end_seconds": 25,
+        "duration_seconds": 6,
+        "time_basis": "30 fps cut from provider character alignment; audible sync remains unverified",
+        "narration_coverage": "billion dollars. The trap looks convincing: the invitation comes through a real job platform,",
+        "purpose": "Coming scale of loss",
+        "visual_action": "Tiny interview desk beneath avalanche of paper tokens; value and date anchor stakes.",
+        "scene_text": "OVER $6 BILLION; REPORTED VALUE; OCT 29",
+        "depiction_status": "Editorial scale metaphor; Binance estimate.",
+        "direction": "none",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Coming scale of loss",
+          "reason": "Very small whole-image move; preserve full paper composition and keep meaningful labels in frame.",
+          "start": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.025
+          },
+          "end": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.045
+          }
+        },
+        "status": "SELECTED_CONTACT_SHEET_REVIEWED_FULL_SIZE_PHONE_REVIEW_PENDING"
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/052_binance_interview_trap/Source/Images/05_v02.png",
+        "sha256": "0ab45c64a88ea749f3deaf3c2fb09b753da1794ca6544392351352af419e2cad"
+      }
+    }
+  ],
+  "overlays": [
+    {
+      "layer": {
+        "path": "../../../Shared/Overlays/Paper_Frame/masters/paper-border-16x9-16s-v02-crf18.webm",
+        "role": "paper_frame",
+        "start_frame": 0,
+        "end_frame": 750,
+        "x": 0,
+        "y": 0
+      },
+      "file": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/Shared/Overlays/Paper_Frame/masters/paper-border-16x9-16s-v02-crf18.webm",
+        "sha256": "a5d31ac4f6f8945ab245afa31a60b11a17f665f8a79a80d8d24817fd4c2e4706"
+      }
+    }
+  ],
+  "groups": [
+    [
+      {
+        "text": "A",
+        "start": 0.0,
+        "end": 0.08
+      },
+      {
+        "text": "Binance",
+        "start": 0.16,
+        "end": 0.56
+      },
+      {
+        "text": "engineer",
+        "start": 0.64,
+        "end": 1.12
+      },
+      {
+        "text": "interviews",
+        "start": 1.2,
+        "end": 1.68
+      }
+    ],
+    [
+      {
+        "text": "for",
+        "start": 1.76,
+        "end": 1.84
+      },
+      {
+        "text": "a",
+        "start": 1.88,
+        "end": 1.92
+      },
+      {
+        "text": "job",
+        "start": 2.0,
+        "end": 2.32
+      },
+      {
+        "text": "at",
+        "start": 2.36,
+        "end": 2.4
+      },
+      {
+        "text": "another",
+        "start": 2.48,
+        "end": 2.72
+      },
+      {
+        "text": "company.",
+        "start": 2.8,
+        "end": 3.76
+      }
+    ],
+    [
+      {
+        "text": "First,",
+        "start": 3.92,
+        "end": 4.32
+      },
+      {
+        "text": "he",
+        "start": 4.4,
+        "end": 4.48
+      },
+      {
+        "text": "speaks",
+        "start": 4.56,
+        "end": 4.8
+      }
+    ],
+    [
+      {
+        "text": "with",
+        "start": 4.84,
+        "end": 4.88
+      },
+      {
+        "text": "a",
+        "start": 4.96,
+        "end": 5.0
+      },
+      {
+        "text": "recruiter.",
+        "start": 5.04,
+        "end": 5.8
+      }
+    ],
+    [
+      {
+        "text": "Then",
+        "start": 6.08,
+        "end": 6.32
+      },
+      {
+        "text": "he",
+        "start": 6.56,
+        "end": 6.64
+      },
+      {
+        "text": "speaks",
+        "start": 6.72,
+        "end": 6.96
+      }
+    ],
+    [
+      {
+        "text": "with",
+        "start": 7.04,
+        "end": 7.12
+      },
+      {
+        "text": "someone",
+        "start": 7.28,
+        "end": 7.44
+      },
+      {
+        "text": "claiming",
+        "start": 7.52,
+        "end": 7.84
+      }
+    ],
+    [
+      {
+        "text": "to",
+        "start": 7.92,
+        "end": 8.0
+      },
+      {
+        "text": "be",
+        "start": 8.04,
+        "end": 8.08
+      },
+      {
+        "text": "the",
+        "start": 8.16,
+        "end": 8.24
+      },
+      {
+        "text": "company's",
+        "start": 8.4,
+        "end": 8.64
+      },
+      {
+        "text": "manager.",
+        "start": 8.72,
+        "end": 9.68
+      }
+    ],
+    [
+      {
+        "text": "He",
+        "start": 9.72,
+        "end": 9.76
+      },
+      {
+        "text": "gets",
+        "start": 9.84,
+        "end": 10.0
+      },
+      {
+        "text": "a",
+        "start": 10.04,
+        "end": 10.08
+      },
+      {
+        "text": "test",
+        "start": 10.2,
+        "end": 10.32
+      }
+    ],
+    [
+      {
+        "text": "assignment",
+        "start": 10.4,
+        "end": 10.88
+      },
+      {
+        "text": "and",
+        "start": 11.0,
+        "end": 11.12
+      },
+      {
+        "text": "downloads",
+        "start": 11.32,
+        "end": 11.52
+      }
+    ],
+    [
+      {
+        "text": "it",
+        "start": 11.6,
+        "end": 11.68
+      },
+      {
+        "text": "to",
+        "start": 11.72,
+        "end": 11.76
+      },
+      {
+        "text": "his",
+        "start": 11.84,
+        "end": 11.92
+      },
+      {
+        "text": "work",
+        "start": 12.0,
+        "end": 12.16
+      },
+      {
+        "text": "computer.",
+        "start": 12.36,
+        "end": 13.2
+      }
+    ],
+    [
+      {
+        "text": "But",
+        "start": 13.24,
+        "end": 13.28
+      },
+      {
+        "text": "the",
+        "start": 13.32,
+        "end": 13.36
+      },
+      {
+        "text": "company",
+        "start": 13.44,
+        "end": 13.92
+      },
+      {
+        "text": "doesn't",
+        "start": 14.0,
+        "end": 14.16
+      },
+      {
+        "text": "exist.",
+        "start": 14.24,
+        "end": 15.36
+      }
+    ],
+    [
+      {
+        "text": "A",
+        "start": 15.44,
+        "end": 15.52
+      },
+      {
+        "text": "few",
+        "start": 15.6,
+        "end": 15.68
+      },
+      {
+        "text": "weeks",
+        "start": 15.8,
+        "end": 15.92
+      },
+      {
+        "text": "later,",
+        "start": 16.0,
+        "end": 16.48
+      }
+    ],
+    [
+      {
+        "text": "his",
+        "start": 16.56,
+        "end": 16.72
+      },
+      {
+        "text": "real",
+        "start": 16.8,
+        "end": 16.96
+      },
+      {
+        "text": "employer",
+        "start": 17.04,
+        "end": 17.52
+      },
+      {
+        "text": "will",
+        "start": 17.6,
+        "end": 17.68
+      },
+      {
+        "text": "lose",
+        "start": 17.8,
+        "end": 17.92
+      }
+    ],
+    [
+      {
+        "text": "more",
+        "start": 18.0,
+        "end": 18.08
+      },
+      {
+        "text": "than",
+        "start": 18.16,
+        "end": 18.48
+      },
+      {
+        "text": "six",
+        "start": 18.6,
+        "end": 18.72
+      },
+      {
+        "text": "billion",
+        "start": 19.04,
+        "end": 19.44
+      },
+      {
+        "text": "dollars.",
+        "start": 19.52,
+        "end": 20.64
+      }
+    ],
+    [
+      {
+        "text": "The",
+        "start": 20.72,
+        "end": 20.8
+      },
+      {
+        "text": "trap",
+        "start": 20.96,
+        "end": 21.12
+      },
+      {
+        "text": "looks",
+        "start": 21.2,
+        "end": 21.44
+      },
+      {
+        "text": "convincing:",
+        "start": 21.56,
+        "end": 22.48
+      }
+    ],
+    [
+      {
+        "text": "the",
+        "start": 22.52,
+        "end": 22.56
+      },
+      {
+        "text": "invitation",
+        "start": 22.64,
+        "end": 23.2
+      },
+      {
+        "text": "comes",
+        "start": 23.28,
+        "end": 23.52
+      }
+    ],
+    [
+      {
+        "text": "through",
+        "start": 23.6,
+        "end": 23.68
+      },
+      {
+        "text": "a",
+        "start": 23.76,
+        "end": 23.84
+      },
+      {
+        "text": "real",
+        "start": 23.92,
+        "end": 24.08
+      },
+      {
+        "text": "job",
+        "start": 24.16,
+        "end": 24.4
+      },
+      {
+        "text": "platform,",
+        "start": 24.64,
+        "end": 25.0
+      }
+    ]
+  ],
+  "resolved": {
+    "resolved_font_size_px": 84,
+    "max_visible_width_px": 1344.0,
+    "center_x_px": 1280.0,
+    "baseline": 1288,
+    "algorithm": "sentence-syntax-width-v5",
+    "display_intervals": [
+      {
+        "start_frame": 0,
+        "end_frame": 53
+      },
+      {
+        "start_frame": 53,
+        "end_frame": 118
+      },
+      {
+        "start_frame": 118,
+        "end_frame": 146
+      },
+      {
+        "start_frame": 146,
+        "end_frame": 183
+      },
+      {
+        "start_frame": 183,
+        "end_frame": 212
+      },
+      {
+        "start_frame": 212,
+        "end_frame": 238
+      },
+      {
+        "start_frame": 238,
+        "end_frame": 292
+      },
+      {
+        "start_frame": 292,
+        "end_frame": 312
+      },
+      {
+        "start_frame": 312,
+        "end_frame": 348
+      },
+      {
+        "start_frame": 348,
+        "end_frame": 398
+      },
+      {
+        "start_frame": 398,
+        "end_frame": 464
+      },
+      {
+        "start_frame": 464,
+        "end_frame": 497
+      },
+      {
+        "start_frame": 497,
+        "end_frame": 540
+      },
+      {
+        "start_frame": 540,
+        "end_frame": 622
+      },
+      {
+        "start_frame": 622,
+        "end_frame": 676
+      },
+      {
+        "start_frame": 676,
+        "end_frame": 708
+      },
+      {
+        "start_frame": 708,
+        "end_frame": 750
+      }
+    ],
+    "boundary_warnings": [
+      {
+        "after_group": 0,
+        "left": "A Binance engineer interviews",
+        "right": "for a job at another company.",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 2,
+        "left": "First, he speaks",
+        "right": "with a recruiter.",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 4,
+        "left": "Then he speaks",
+        "right": "with someone claiming",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      }
+    ]
+  }
+}

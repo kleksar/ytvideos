@@ -1,0 +1,40 @@
+{
+  "status": "TECHNICAL_PASS",
+  "subjective_audio_listening": "UNVERIFIED",
+  "full_decode": "PASS",
+  "video_packets_and_timestamps_identical": true,
+  "video_packet_manifest_sha256": "ebc654ea9838c674c3bf3eaf0314b0f74aa3e10d3fe88679610a3489146fa56e",
+  "audio_track_bitrate_bps": "291042",
+  "mp4": "/Users/diplomat/ytvideos/.agent/research/2026-11-10-four-shorts/production/paper_washington/Edit/Previews/music_ab_v01/paper_washington_B_signal_to_noise_no_piano.mp4",
+  "sha256": "1fb4c456385123322c118a2112ee386b27ec0c238bef1ad6bd4f946e5271e497",
+  "music_stem_lufs": -37.0,
+  "mix_lufs": -23.99,
+  "true_peak_dbtp": -6.71,
+  "decoded_mix_correlation_per_channel": [
+    0.9999595192100047,
+    0.9999592552396201
+  ],
+  "mono_fold_down_delta_db": -0.08,
+  "key_windows_music_vs_voice_db": [
+    [
+      8.65,
+      10.65,
+      -13.52
+    ],
+    [
+      13.65,
+      15.0,
+      -8.89
+    ],
+    [
+      22.0,
+      26.95,
+      -9.19
+    ],
+    [
+      27.05,
+      28.66667,
+      -14.1
+    ]
+  ]
+}

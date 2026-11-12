@@ -1,0 +1,34 @@
+{
+  "timestamp_utc": "2026-11-03T08:34:59.675820+00:00",
+  "video_id": "hEX9sxYZ0-4",
+  "channel_id": "UCbyLx6Rf3iWww4bPZJ2oo2A",
+  "operation": "videos.update part=status altered/synthetic self-declaration",
+  "before_status": {
+    "uploadStatus": "processed",
+    "privacyStatus": "private",
+    "license": "youtube",
+    "embeddable": true,
+    "publicStatsViewable": true,
+    "madeForKids": false,
+    "selfDeclaredMadeForKids": false
+  },
+  "requested_status": {
+    "privacyStatus": "private",
+    "license": "youtube",
+    "embeddable": true,
+    "publicStatsViewable": true,
+    "selfDeclaredMadeForKids": false,
+    "containsSyntheticMedia": true
+  },
+  "after_status": {
+    "uploadStatus": "processed",
+    "privacyStatus": "private",
+    "license": "youtube",
+    "embeddable": true,
+    "publicStatsViewable": true,
+    "madeForKids": false,
+    "selfDeclaredMadeForKids": false
+  },
+  "readback_containsSyntheticMedia": null,
+  "readback_privacy": "private"
+}

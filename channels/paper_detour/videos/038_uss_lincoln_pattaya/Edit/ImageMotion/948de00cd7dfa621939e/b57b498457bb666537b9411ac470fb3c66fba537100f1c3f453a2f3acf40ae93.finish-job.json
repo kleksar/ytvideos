@@ -1,0 +1,61 @@
+{
+  "width": 1440,
+  "height": 2560,
+  "frames": 77,
+  "fps": 30,
+  "grain": {
+    "id": "g08",
+    "name": "Short Persistence",
+    "version": 1,
+    "rms_y_codes": 3.0,
+    "sigma_reference_px": 0.77,
+    "reference_short_side": 1440,
+    "update_hz": 30,
+    "rho": 0.35,
+    "mask_y": [
+      20,
+      64,
+      208,
+      235
+    ],
+    "range_y": [
+      16,
+      235
+    ],
+    "chroma": false,
+    "seed": 20261102
+  },
+  "input": "/Users/diplomat/ytvideos/Shared/Image_Motion/Cache/video/a6b1e1c6d9016e76bbf25e7b52f23c994b16e148589319ab55b509cf7743c466.mp4",
+  "output": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Work/image-motion-948de00cd7dfa621939e/scratch/b57b498457bb666537b9411ac470fb3c66fba537100f1c3f453a2f3acf40ae93.finished.partial.mp4",
+  "camera": {
+    "position": [
+      [
+        0,
+        -0.02750000000000008,
+        -0.050000000000000044,
+        "linear"
+      ],
+      [
+        76,
+        -0.07250000000000006,
+        -0.050000000000000044
+      ]
+    ],
+    "scale": [
+      [
+        0,
+        1.1,
+        1.1,
+        "linear"
+      ],
+      [
+        76,
+        1.1,
+        1.1
+      ]
+    ]
+  },
+  "seed": 6255147910502216762,
+  "receipt": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Edit/ImageMotion/948de00cd7dfa621939e/b57b498457bb666537b9411ac470fb3c66fba537100f1c3f453a2f3acf40ae93.finish-receipt.json",
+  "log": "/Users/diplomat/ytvideos/channels/paper_detour/videos/038_uss_lincoln_pattaya/Edit/ImageMotion/948de00cd7dfa621939e/finish.log"
+}

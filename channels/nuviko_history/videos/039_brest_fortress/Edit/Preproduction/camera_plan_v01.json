@@ -1,0 +1,6160 @@
+{
+  "episode": "039_brest_fortress",
+  "version": "v01",
+  "source_map": "Edit/Preproduction/shot_map_v03.csv",
+  "source_manifest": "Source/Images/IMAGE_MANIFEST_v02.json",
+  "fps": 30,
+  "method": "whole-frame horizontal pan and/or subtle zoom; no vertical movement, parallax or layer motion",
+  "adjacency_check": "PASS: each neighboring shot changes every non-none horizontal direction and every non-none zoom direction; cycle boundary checked across all 116 active shots",
+  "crop_safety": "All camera scales remain 1.030–1.055; center path is within conservative crop bounds; subject focus is retained.",
+  "scenes": [
+    {
+      "shot_id": "01.01",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_01_01_v01.png",
+      "image_sha256": "380e2e63df91ae04bf9517b5c1c9a895f73ce431d084fc1aebe899219d9addc3",
+      "start_s": 0.0,
+      "end_s": 6.88,
+      "subject": "On July 8, 1941",
+      "focus": [
+        0.54,
+        0.48
+      ],
+      "direction": "left_to_right",
+      "zoom": "in",
+      "start": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "end": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "reason": "A restrained left-to-right move with a slow approach keeps On July 8, 1941 readable through “On July 8, 1941” and retains its surrounding context.",
+      "camera": {
+        "subject": "On July 8, 1941",
+        "focus": [
+          0.54,
+          0.48
+        ],
+        "direction": "left_to_right",
+        "zoom": "in",
+        "start": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "end": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "reason": "A restrained left-to-right move with a slow approach keeps On July 8, 1941 readable through “On July 8, 1941” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "01.01a",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_17_04a_v01.png",
+      "image_sha256": "7f0bdbe8b76607afbb06a7502d1456a717e6b76c3f017cde555b5415bebed6ed",
+      "start_s": 6.88,
+      "end_s": 10.0,
+      "subject": "the non-legible report sheets",
+      "focus": [
+        0.55,
+        0.5
+      ],
+      "direction": "right_to_left",
+      "zoom": "out",
+      "start": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "end": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "reason": "A restrained right-to-left move with a slow release keeps the non-legible report sheets readable through “signed a report on the fighting for Brest-Litovsk.” and retains its surrounding context.",
+      "camera": {
+        "subject": "the non-legible report sheets",
+        "focus": [
+          0.55,
+          0.5
+        ],
+        "direction": "right_to_left",
+        "zoom": "out",
+        "start": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "reason": "A restrained right-to-left move with a slow release keeps the non-legible report sheets readable through “signed a report on the fighting for Brest-Litovsk.” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "01.02",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_14_01_v02.png",
+      "image_sha256": "467fc8af29b3b05eddd340135797bf59e18b847797bca0154d640ebfeb7bf8fd",
+      "start_s": 10.0,
+      "end_s": 16.16,
+      "subject": "the prisoner group",
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "direction": "left_to_right",
+      "zoom": "none",
+      "start": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.042
+      },
+      "end": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.042
+      },
+      "reason": "A restrained left-to-right move with a steady scale keeps the prisoner group readable through “By then, the main centers” and retains its surrounding context.",
+      "camera": {
+        "subject": "the prisoner group",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "left_to_right",
+        "zoom": "none",
+        "start": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.042
+        },
+        "end": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.042
+        },
+        "reason": "A restrained left-to-right move with a steady scale keeps the prisoner group readable through “By then, the main centers” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "01.03",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_01_03_v01.png",
+      "image_sha256": "a7d14f9944e94c90503d68724be3a9af5474d0633a591ad248b252fb94bee9ff",
+      "start_s": 16.16,
+      "end_s": 21.28,
+      "subject": "the non-legible report sheets",
+      "focus": [
+        0.49,
+        0.6
+      ],
+      "direction": "right_to_left",
+      "zoom": "in",
+      "start": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "end": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "reason": "A restrained right-to-left move with a slow approach keeps the non-legible report sheets readable through “The report listed captured weapons” and retains its surrounding context.",
+      "camera": {
+        "subject": "the non-legible report sheets",
+        "focus": [
+          0.49,
+          0.6
+        ],
+        "direction": "right_to_left",
+        "zoom": "in",
+        "start": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "end": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "reason": "A restrained right-to-left move with a slow approach keeps the non-legible report sheets readable through “The report listed captured weapons” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "01.03a",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_01_01_v01.png",
+      "image_sha256": "380e2e63df91ae04bf9517b5c1c9a895f73ce431d084fc1aebe899219d9addc3",
+      "start_s": 21.28,
+      "end_s": 25.387,
+      "subject": "the non-legible report sheets",
+      "focus": [
+        0.53,
+        0.49
+      ],
+      "direction": "left_to_right",
+      "zoom": "out",
+      "start": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "end": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "reason": "A restrained left-to-right move with a slow release keeps the non-legible report sheets readable through “But among its military conclusions was a striking statement:” and retains its surrounding context.",
+      "camera": {
+        "subject": "the non-legible report sheets",
+        "focus": [
+          0.53,
+          0.49
+        ],
+        "direction": "left_to_right",
+        "zoom": "out",
+        "start": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "reason": "A restrained left-to-right move with a slow release keeps the non-legible report sheets readable through “But among its military conclusions was a striking statement:” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "01.04",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_01_04_v01.png",
+      "image_sha256": "55967687ff82e84c34e59e0db82a41109b375a28b5d719dc7d33931d25f77660",
+      "start_s": 25.387,
+      "end_s": 32.08,
+      "subject": "An overwhelming assault on a fortress",
+      "focus": [
+        0.5,
+        0.48
+      ],
+      "direction": "none",
+      "zoom": "in",
+      "start": {
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "end": {
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "reason": "A restrained held-center move with a slow approach keeps An overwhelming assault on a fortress readable through “An overwhelming assault on a fortress” and retains its surrounding context.",
+      "camera": {
+        "subject": "An overwhelming assault on a fortress",
+        "focus": [
+          0.5,
+          0.48
+        ],
+        "direction": "none",
+        "zoom": "in",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "reason": "A restrained held-center move with a slow approach keeps An overwhelming assault on a fortress readable through “An overwhelming assault on a fortress” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "01.04a",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_04_02_v01.png",
+      "image_sha256": "988ee62bd5513516457bdc65ff7fed2f1d6dc7ade9d578a368411fb4435ccce8",
+      "start_s": 32.08,
+      "end_s": 36.72,
+      "subject": "That was the assessment of the man whose division had stormed the fortress.",
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "direction": "right_to_left",
+      "zoom": "none",
+      "start": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.042
+      },
+      "end": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.042
+      },
+      "reason": "A restrained right-to-left move with a steady scale keeps That was the assessment of the man whose division had stormed the fortress. readable through “That was the assessment of the man whose division had stormed the fortress.” and retains its surrounding context.",
+      "camera": {
+        "subject": "That was the assessment of the man whose division had stormed the fortress.",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "right_to_left",
+        "zoom": "none",
+        "start": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.042
+        },
+        "end": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.042
+        },
+        "reason": "A restrained right-to-left move with a steady scale keeps That was the assessment of the man whose division had stormed the fortress. readable through “That was the assessment of the man whose division had stormed the fortress.” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "01.05",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_01_05_v02.png",
+      "image_sha256": "e72d678604b9f367acb66db7a3ea845bb99916bf1132145a27c0df60c4d02074",
+      "start_s": 36.72,
+      "end_s": 43.28,
+      "subject": "the present-day traveler and document",
+      "focus": [
+        0.52,
+        0.48
+      ],
+      "direction": "none",
+      "zoom": "out",
+      "start": {
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "end": {
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "reason": "A restrained held-center move with a slow release keeps the present-day traveler and document readable through “What happened behind those walls?” and retains its surrounding context.",
+      "camera": {
+        "subject": "the present-day traveler and document",
+        "focus": [
+          0.52,
+          0.48
+        ],
+        "direction": "none",
+        "zoom": "out",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "reason": "A restrained held-center move with a slow release keeps the present-day traveler and document readable through “What happened behind those walls?” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "01.05a",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_14_01_v02.png",
+      "image_sha256": "467fc8af29b3b05eddd340135797bf59e18b847797bca0154d640ebfeb7bf8fd",
+      "start_s": 43.28,
+      "end_s": 49.36,
+      "subject": "And what does the familiar claim that Brest Fortress held out for more than a month actually mean?",
+      "focus": [
+        0.52,
+        0.56
+      ],
+      "direction": "left_to_right",
+      "zoom": "in",
+      "start": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "end": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "reason": "A restrained left-to-right move with a slow approach keeps And what does the familiar claim that Brest Fortress held out for more than a month actually mean? readable through “And what does the familiar claim that Brest Fortress held out for more than a month actually mean?” and retains its surrounding context.",
+      "camera": {
+        "subject": "And what does the familiar claim that Brest Fortress held out for more than a month actually mean?",
+        "focus": [
+          0.52,
+          0.56
+        ],
+        "direction": "left_to_right",
+        "zoom": "in",
+        "start": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "end": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "reason": "A restrained left-to-right move with a slow approach keeps And what does the familiar claim that Brest Fortress held out for more than a month actually mean? readable through “And what does the familiar claim that Brest Fortress held out for more than a month actually mean?” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "01.05b",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_04_03_v01.png",
+      "image_sha256": "2b66de56a88cca280e22ddfc601d5951d797f17cd632d379608486708f5dcfab",
+      "start_s": 49.36,
+      "end_s": 54.32,
+      "subject": "To understand that, we need to return to the morning of June 22.",
+      "focus": [
+        0.52,
+        0.53
+      ],
+      "direction": "right_to_left",
+      "zoom": "out",
+      "start": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "end": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "reason": "A restrained right-to-left move with a slow release keeps To understand that, we need to return to the morning of June 22. readable through “To understand that, we need to return to the morning of June 22.” and retains its surrounding context.",
+      "camera": {
+        "subject": "To understand that, we need to return to the morning of June 22.",
+        "focus": [
+          0.52,
+          0.53
+        ],
+        "direction": "right_to_left",
+        "zoom": "out",
+        "start": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "reason": "A restrained right-to-left move with a slow release keeps To understand that, we need to return to the morning of June 22. readable through “To understand that, we need to return to the morning of June 22.” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "02.01",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_02_01_v01.png",
+      "image_sha256": "70d721513aa519e5a82549d2913646464868d5d5838d34d31e30cbd8f124e229",
+      "start_s": 54.32,
+      "end_s": 61.2,
+      "subject": "the prisoner group",
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "direction": "left_to_right",
+      "zoom": "none",
+      "start": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.042
+      },
+      "end": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.042
+      },
+      "reason": "A restrained left-to-right move with a steady scale keeps the prisoner group readable through “At dawn on June 22, 1941” and retains its surrounding context.",
+      "camera": {
+        "subject": "the prisoner group",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "left_to_right",
+        "zoom": "none",
+        "start": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.042
+        },
+        "end": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.042
+        },
+        "reason": "A restrained left-to-right move with a steady scale keeps the prisoner group readable through “At dawn on June 22, 1941” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "02.02",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_02_02_v01.png",
+      "image_sha256": "8b68b28c83cf76fc7d7f8d81992d1dd3824a40592195d3a7d6c3d0755203daea",
+      "start_s": 61.2,
+      "end_s": 64.32,
+      "subject": "Shells exploded among the barracks",
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "direction": "right_to_left",
+      "zoom": "in",
+      "start": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "end": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "reason": "A restrained right-to-left move with a slow approach keeps Shells exploded among the barracks readable through “Shells exploded among the barracks” and retains its surrounding context.",
+      "camera": {
+        "subject": "Shells exploded among the barracks",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "right_to_left",
+        "zoom": "in",
+        "start": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "end": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "reason": "A restrained right-to-left move with a slow approach keeps Shells exploded among the barracks readable through “Shells exploded among the barracks” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "02.03",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_02_03_v01.png",
+      "image_sha256": "58539b7c4d5b6a4d9b388b474f25cf3b94db0e08a87a35db26fc9b895ba65a97",
+      "start_s": 64.32,
+      "end_s": 70.0,
+      "subject": "People were killed, fires broke out",
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "direction": "left_to_right",
+      "zoom": "out",
+      "start": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "end": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "reason": "A restrained left-to-right move with a slow release keeps People were killed, fires broke out readable through “People were killed, fires broke out” and retains its surrounding context.",
+      "camera": {
+        "subject": "People were killed, fires broke out",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "left_to_right",
+        "zoom": "out",
+        "start": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "reason": "A restrained left-to-right move with a slow release keeps People were killed, fires broke out readable through “People were killed, fires broke out” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "02.04",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_02_04_v02.png",
+      "image_sha256": "ce945c29d592c34f06bfaa1a533e52b0fd5d0b972cf2c9757266ff3affe28395",
+      "start_s": 70.0,
+      "end_s": 77.76,
+      "subject": "The war caught more than just soldiers",
+      "focus": [
+        0.55,
+        0.54
+      ],
+      "direction": "none",
+      "zoom": "in",
+      "start": {
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "end": {
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "reason": "A restrained held-center move with a slow approach keeps The war caught more than just soldiers readable through “The war caught more than just soldiers” and retains its surrounding context.",
+      "camera": {
+        "subject": "The war caught more than just soldiers",
+        "focus": [
+          0.55,
+          0.54
+        ],
+        "direction": "none",
+        "zoom": "in",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "reason": "A restrained held-center move with a slow approach keeps The war caught more than just soldiers readable through “The war caught more than just soldiers” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "03.01",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_03_01_v01.png",
+      "image_sha256": "aa438fd0ef9d402d9c23552c79f7e834ec7b35d982c429b2e3da54fe74bbba56",
+      "start_s": 77.76,
+      "end_s": 81.68,
+      "subject": "Units from different formations",
+      "focus": [
+        0.68,
+        0.73
+      ],
+      "direction": "right_to_left",
+      "zoom": "none",
+      "start": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.042
+      },
+      "end": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.042
+      },
+      "reason": "A restrained right-to-left move with a steady scale keeps Units from different formations readable through “Units from different formations” and retains its surrounding context.",
+      "camera": {
+        "subject": "Units from different formations",
+        "focus": [
+          0.68,
+          0.73
+        ],
+        "direction": "right_to_left",
+        "zoom": "none",
+        "start": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.042
+        },
+        "end": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.042
+        },
+        "reason": "A restrained right-to-left move with a steady scale keeps Units from different formations readable through “Units from different formations” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "03.02",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_03_02_v01.png",
+      "image_sha256": "96af30ab7d8b5858dcb832bd58a64f156984419b654d3c71f77e87b5c4965871",
+      "start_s": 81.68,
+      "end_s": 86.16,
+      "subject": "There was no unified command",
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "direction": "none",
+      "zoom": "out",
+      "start": {
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "end": {
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "reason": "A restrained held-center move with a slow release keeps There was no unified command readable through “There was no unified command” and retains its surrounding context.",
+      "camera": {
+        "subject": "There was no unified command",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "none",
+        "zoom": "out",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "reason": "A restrained held-center move with a slow release keeps There was no unified command readable through “There was no unified command” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "03.03",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_03_03_v01.png",
+      "image_sha256": "bb5c9c23018e0211ca03a1d5c8f23263cba990ca8394744f56e455a0422d1d31",
+      "start_s": 86.16,
+      "end_s": 92.8,
+      "subject": "Some commanders were killed.",
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "direction": "left_to_right",
+      "zoom": "in",
+      "start": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "end": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "reason": "A restrained left-to-right move with a slow approach keeps Some commanders were killed. readable through “Some commanders were killed.” and retains its surrounding context.",
+      "camera": {
+        "subject": "Some commanders were killed.",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "left_to_right",
+        "zoom": "in",
+        "start": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "end": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "reason": "A restrained left-to-right move with a slow approach keeps Some commanders were killed. readable through “Some commanders were killed.” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "03.05",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_03_05_v01.png",
+      "image_sha256": "bfd37dbfef74c1e5ce898e2453bd1a0ecd10768eb6af20ec92103fd6a40ad399",
+      "start_s": 92.8,
+      "end_s": 99.92,
+      "subject": "the individual defender",
+      "focus": [
+        0.51,
+        0.67
+      ],
+      "direction": "right_to_left",
+      "zoom": "out",
+      "start": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "end": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "reason": "A restrained right-to-left move with a slow release keeps the individual defender readable through “Those who remained formed small groups” and retains its surrounding context.",
+      "camera": {
+        "subject": "the individual defender",
+        "focus": [
+          0.51,
+          0.67
+        ],
+        "direction": "right_to_left",
+        "zoom": "out",
+        "start": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "reason": "A restrained right-to-left move with a slow release keeps the individual defender readable through “Those who remained formed small groups” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "04.01",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_04_01_v01.png",
+      "image_sha256": "035736b2275ebb59c756e2884c8112ede902034d7b19be10023a5f5b3c167f8a",
+      "start_s": 99.92,
+      "end_s": 103.04,
+      "subject": "German assault units quickly broke",
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "direction": "left_to_right",
+      "zoom": "none",
+      "start": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.042
+      },
+      "end": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.042
+      },
+      "reason": "A restrained left-to-right move with a steady scale keeps German assault units quickly broke readable through “German assault units quickly broke” and retains its surrounding context.",
+      "camera": {
+        "subject": "German assault units quickly broke",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "left_to_right",
+        "zoom": "none",
+        "start": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.042
+        },
+        "end": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.042
+        },
+        "reason": "A restrained left-to-right move with a steady scale keeps German assault units quickly broke readable through “German assault units quickly broke” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "04.02",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_04_02_v01.png",
+      "image_sha256": "988ee62bd5513516457bdc65ff7fed2f1d6dc7ade9d578a368411fb4435ccce8",
+      "start_s": 103.04,
+      "end_s": 108.16,
+      "subject": "But getting through the gates",
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "direction": "right_to_left",
+      "zoom": "in",
+      "start": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "end": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "reason": "A restrained right-to-left move with a slow approach keeps But getting through the gates readable through “But getting through the gates” and retains its surrounding context.",
+      "camera": {
+        "subject": "But getting through the gates",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "right_to_left",
+        "zoom": "in",
+        "start": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "end": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "reason": "A restrained right-to-left move with a slow approach keeps But getting through the gates readable through “But getting through the gates” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "04.03",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_04_03_v01.png",
+      "image_sha256": "2b66de56a88cca280e22ddfc601d5951d797f17cd632d379608486708f5dcfab",
+      "start_s": 108.16,
+      "end_s": 112.64,
+      "subject": "the prisoner group",
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "direction": "left_to_right",
+      "zoom": "out",
+      "start": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "end": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "reason": "A restrained left-to-right move with a slow release keeps the prisoner group readable through “Brest Fortress consisted of several sections” and retains its surrounding context.",
+      "camera": {
+        "subject": "the prisoner group",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "left_to_right",
+        "zoom": "out",
+        "start": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "reason": "A restrained left-to-right move with a slow release keeps the prisoner group readable through “Brest Fortress consisted of several sections” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "04.03a",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_04_03_v01.png",
+      "image_sha256": "2b66de56a88cca280e22ddfc601d5951d797f17cd632d379608486708f5dcfab",
+      "start_s": 112.64,
+      "end_s": 117.04,
+      "subject": "the river beyond the fortification",
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "direction": "none",
+      "zoom": "in",
+      "start": {
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "end": {
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "reason": "A restrained held-center move with a slow approach keeps the river beyond the fortification readable through “channels, and defensive earthworks.” and retains its surrounding context.",
+      "camera": {
+        "subject": "the river beyond the fortification",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "none",
+        "zoom": "in",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "reason": "A restrained held-center move with a slow approach keeps the river beyond the fortification readable through “channels, and defensive earthworks.” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "04.04",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_04_04_v01.png",
+      "image_sha256": "fb476e2a2cac436b9d9b2a858420aa79822bcd7b346033e43c6ade57e3f913d9",
+      "start_s": 117.04,
+      "end_s": 122.32,
+      "subject": "Barracks, basements, and inner courtyards",
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "direction": "right_to_left",
+      "zoom": "none",
+      "start": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.042
+      },
+      "end": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.042
+      },
+      "reason": "A restrained right-to-left move with a steady scale keeps Barracks, basements, and inner courtyards readable through “Barracks, basements, and inner courtyards” and retains its surrounding context.",
+      "camera": {
+        "subject": "Barracks, basements, and inner courtyards",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "right_to_left",
+        "zoom": "none",
+        "start": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.042
+        },
+        "end": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.042
+        },
+        "reason": "A restrained right-to-left move with a steady scale keeps Barracks, basements, and inner courtyards readable through “Barracks, basements, and inner courtyards” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "04.05",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_04_05_v01.png",
+      "image_sha256": "07e9d4ee833df67f4809b7492fbd7bab65364791c5ac53289ead050a833cea32",
+      "start_s": 122.32,
+      "end_s": 128.4,
+      "subject": "German soldiers could advance",
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "direction": "none",
+      "zoom": "out",
+      "start": {
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "end": {
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "reason": "A restrained held-center move with a slow release keeps German soldiers could advance readable through “German soldiers could advance” and retains its surrounding context.",
+      "camera": {
+        "subject": "German soldiers could advance",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "none",
+        "zoom": "out",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "reason": "A restrained held-center move with a slow release keeps German soldiers could advance readable through “German soldiers could advance” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "05.01",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_05_01_v01.png",
+      "image_sha256": "d384d02c41a71373fb99e0477d7544923ace31376f0a21cbb927c4e143b54f4a",
+      "start_s": 128.4,
+      "end_s": 133.76,
+      "subject": "the distant group of defenders",
+      "focus": [
+        0.35,
+        0.58
+      ],
+      "direction": "left_to_right",
+      "zoom": "in",
+      "start": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "end": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "reason": "A restrained left-to-right move with a slow approach keeps the distant group of defenders readable through “Near the Kholm Gate” and retains its surrounding context.",
+      "camera": {
+        "subject": "the distant group of defenders",
+        "focus": [
+          0.35,
+          0.58
+        ],
+        "direction": "left_to_right",
+        "zoom": "in",
+        "start": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "end": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "reason": "A restrained left-to-right move with a slow approach keeps the distant group of defenders readable through “Near the Kholm Gate” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "05.02",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_05_02_v01.png",
+      "image_sha256": "c8e989e91b30b4e4ff9b7ff1a44526641874f0860f55a10e1822b43cfc6141c3",
+      "start_s": 133.76,
+      "end_s": 137.96,
+      "subject": "the individual defender",
+      "focus": [
+        0.38,
+        0.65
+      ],
+      "direction": "right_to_left",
+      "zoom": "out",
+      "start": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "end": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "reason": "A restrained right-to-left move with a slow release keeps the individual defender readable through “On the morning of June 22” and retains its surrounding context.",
+      "camera": {
+        "subject": "the individual defender",
+        "focus": [
+          0.38,
+          0.65
+        ],
+        "direction": "right_to_left",
+        "zoom": "out",
+        "start": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "reason": "A restrained right-to-left move with a slow release keeps the individual defender readable through “On the morning of June 22” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "05.02a",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_05_02a_v01.png",
+      "image_sha256": "95899f9ce5ac499ae61b06a0771390aae3a20bbc8e44f9c4003942cb9b640229",
+      "start_s": 137.96,
+      "end_s": 142.16,
+      "subject": "toward the Red Army club, which had been occupied by German troops.",
+      "focus": [
+        0.51,
+        0.68
+      ],
+      "direction": "left_to_right",
+      "zoom": "none",
+      "start": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.042
+      },
+      "end": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.042
+      },
+      "reason": "A restrained left-to-right move with a steady scale keeps toward the Red Army club, which had been occupied by German troops. readable through “toward the Red Army club, which had been occupied by German troops.” and retains its surrounding context.",
+      "camera": {
+        "subject": "toward the Red Army club, which had been occupied by German troops.",
+        "focus": [
+          0.51,
+          0.68
+        ],
+        "direction": "left_to_right",
+        "zoom": "none",
+        "start": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.042
+        },
+        "end": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.042
+        },
+        "reason": "A restrained left-to-right move with a steady scale keeps toward the Red Army club, which had been occupied by German troops. readable through “toward the Red Army club, which had been occupied by German troops.” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "05.03",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_05_03_v01.png",
+      "image_sha256": "16b2d9dcdce06d677cab14abe0882d3413e2f4a68de9f786ab0fbbfee606de05",
+      "start_s": 142.16,
+      "end_s": 147.6,
+      "subject": "The battle broke into dozens",
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "direction": "right_to_left",
+      "zoom": "in",
+      "start": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "end": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "reason": "A restrained right-to-left move with a slow approach keeps The battle broke into dozens readable through “The battle broke into dozens” and retains its surrounding context.",
+      "camera": {
+        "subject": "The battle broke into dozens",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "right_to_left",
+        "zoom": "in",
+        "start": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "end": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "reason": "A restrained right-to-left move with a slow approach keeps The battle broke into dozens readable through “The battle broke into dozens” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "05.04",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_05_04_v01.png",
+      "image_sha256": "47505cc5d5cc1d3de9d54e9f1c105602e2db1da1bf91d76247f8b33c14b0c95d",
+      "start_s": 147.6,
+      "end_s": 151.44,
+      "subject": "the abandoned rifles and gear",
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "direction": "left_to_right",
+      "zoom": "out",
+      "start": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "end": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "reason": "A restrained left-to-right move with a slow release keeps the abandoned rifles and gear readable through “The defenders used rifles” and retains its surrounding context.",
+      "camera": {
+        "subject": "the abandoned rifles and gear",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "left_to_right",
+        "zoom": "out",
+        "start": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "reason": "A restrained left-to-right move with a slow release keeps the abandoned rifles and gear readable through “The defenders used rifles” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "05.05",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_05_05_v01.png",
+      "image_sha256": "c1144b868eb9a47a0e6679196dd2b9c9d5185be595021cc9fbd5e8ce367aac44",
+      "start_s": 151.44,
+      "end_s": 156.4,
+      "subject": "When the two sides came face to face",
+      "focus": [
+        0.52,
+        0.55
+      ],
+      "direction": "none",
+      "zoom": "in",
+      "start": {
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "end": {
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "reason": "A restrained held-center move with a slow approach keeps When the two sides came face to face readable through “When the two sides came face to face” and retains its surrounding context.",
+      "camera": {
+        "subject": "When the two sides came face to face",
+        "focus": [
+          0.52,
+          0.55
+        ],
+        "direction": "none",
+        "zoom": "in",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "reason": "A restrained held-center move with a slow approach keeps When the two sides came face to face readable through “When the two sides came face to face” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "06.01",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_06_01_v01.png",
+      "image_sha256": "3dcc959ac8ab39b6571da9dc9a4082d07481742ec46b9288e97e2d4e7d649c59",
+      "start_s": 156.4,
+      "end_s": 161.76,
+      "subject": "Under these conditions, larger pockets",
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "direction": "right_to_left",
+      "zoom": "none",
+      "start": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.042
+      },
+      "end": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.042
+      },
+      "reason": "A restrained right-to-left move with a steady scale keeps Under these conditions, larger pockets readable through “Under these conditions, larger pockets” and retains its surrounding context.",
+      "camera": {
+        "subject": "Under these conditions, larger pockets",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "right_to_left",
+        "zoom": "none",
+        "start": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.042
+        },
+        "end": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.042
+        },
+        "reason": "A restrained right-to-left move with a steady scale keeps Under these conditions, larger pockets readable through “Under these conditions, larger pockets” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "06.02",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_06_02_v01.png",
+      "image_sha256": "d1b201e87faa7804a73d13d43973c8bf8c23b94ef414ced22dad0d58c5c4a355",
+      "start_s": 161.76,
+      "end_s": 165.4,
+      "subject": "the distant group of defenders",
+      "focus": [
+        0.5,
+        0.62
+      ],
+      "direction": "none",
+      "zoom": "out",
+      "start": {
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "end": {
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "reason": "A restrained held-center move with a slow release keeps the distant group of defenders readable through “Inside the Citadel, a combined force” and retains its surrounding context.",
+      "camera": {
+        "subject": "the distant group of defenders",
+        "focus": [
+          0.5,
+          0.62
+        ],
+        "direction": "none",
+        "zoom": "out",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "reason": "A restrained held-center move with a slow release keeps the distant group of defenders readable through “Inside the Citadel, a combined force” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "06.02a",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_06_02a_v01.png",
+      "image_sha256": "a7672a67cb05f9709f7c1f5a547a561f0aecb4c4bc8642f2463676a4004ecf04",
+      "start_s": 165.4,
+      "end_s": 169.84,
+      "subject": "Captain Ivan Zubachev and Regimental Commissar Efim Fomin.",
+      "focus": [
+        0.5,
+        0.62
+      ],
+      "direction": "left_to_right",
+      "zoom": "in",
+      "start": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "end": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "reason": "A restrained left-to-right move with a slow approach keeps Captain Ivan Zubachev and Regimental Commissar Efim Fomin. readable through “Captain Ivan Zubachev and Regimental Commissar Efim Fomin.” and retains its surrounding context.",
+      "camera": {
+        "subject": "Captain Ivan Zubachev and Regimental Commissar Efim Fomin.",
+        "focus": [
+          0.5,
+          0.62
+        ],
+        "direction": "left_to_right",
+        "zoom": "in",
+        "start": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "end": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "reason": "A restrained left-to-right move with a slow approach keeps Captain Ivan Zubachev and Regimental Commissar Efim Fomin. readable through “Captain Ivan Zubachev and Regimental Commissar Efim Fomin.” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "06.03",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_06_03_v02.png",
+      "image_sha256": "ea7b1af906e0ee6f6512f5efef80ae37bd10ecbe464e35f7a5ae0e960c85d3a6",
+      "start_s": 169.84,
+      "end_s": 175.52,
+      "subject": "the prisoner group",
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "direction": "right_to_left",
+      "zoom": "out",
+      "start": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "end": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "reason": "A restrained right-to-left move with a slow release keeps the prisoner group readable through “At the Kobrin Fortification” and retains its surrounding context.",
+      "camera": {
+        "subject": "the prisoner group",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "right_to_left",
+        "zoom": "out",
+        "start": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "reason": "A restrained right-to-left move with a slow release keeps the prisoner group readable through “At the Kobrin Fortification” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "06.04",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_06_04_v02.png",
+      "image_sha256": "046a321c2b9d2e6b96e8d90d2d438a265347017faf6ed338a9fac604fd9d0c1a",
+      "start_s": 175.52,
+      "end_s": 180.24,
+      "subject": "the individual defender",
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "direction": "left_to_right",
+      "zoom": "none",
+      "start": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.042
+      },
+      "end": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.042
+      },
+      "reason": "A restrained left-to-right move with a steady scale keeps the individual defender readable through “His name would later become” and retains its surrounding context.",
+      "camera": {
+        "subject": "the individual defender",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "left_to_right",
+        "zoom": "none",
+        "start": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.042
+        },
+        "end": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.042
+        },
+        "reason": "A restrained left-to-right move with a steady scale keeps the individual defender readable through “His name would later become” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "07.01",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_07_01_v01.png",
+      "image_sha256": "ecb2dc4f6ddb8bb86f34f12b969c452691c6becdb39bba2d3d20714f00c7e02e",
+      "start_s": 180.24,
+      "end_s": 188.16,
+      "subject": "the individual defender",
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "direction": "right_to_left",
+      "zoom": "in",
+      "start": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "end": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "reason": "A restrained right-to-left move with a slow approach keeps the individual defender readable through “But even with commanders and headquarters” and retains its surrounding context.",
+      "camera": {
+        "subject": "the individual defender",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "right_to_left",
+        "zoom": "in",
+        "start": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "end": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "reason": "A restrained right-to-left move with a slow approach keeps the individual defender readable through “But even with commanders and headquarters” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "07.02",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_07_02_v01.png",
+      "image_sha256": "db2e5e3b7c006a12fdf85ea53b33c643b4be138bc0f2b748287a53abd6c25096",
+      "start_s": 188.16,
+      "end_s": 194.72,
+      "subject": "They did not know where Soviet troops were",
+      "focus": [
+        0.32,
+        0.51
+      ],
+      "direction": "left_to_right",
+      "zoom": "out",
+      "start": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "end": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "reason": "A restrained left-to-right move with a slow release keeps They did not know where Soviet troops were readable through “They did not know where Soviet troops were” and retains its surrounding context.",
+      "camera": {
+        "subject": "They did not know where Soviet troops were",
+        "focus": [
+          0.32,
+          0.51
+        ],
+        "direction": "left_to_right",
+        "zoom": "out",
+        "start": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "reason": "A restrained left-to-right move with a slow release keeps They did not know where Soviet troops were readable through “They did not know where Soviet troops were” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "07.03",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_07_03_v02.png",
+      "image_sha256": "985c4f2737e700714475bf43a65d556c7751b9f876a9e1460eff965b440ff59a",
+      "start_s": 194.72,
+      "end_s": 202.64,
+      "subject": "the prisoner group",
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "direction": "none",
+      "zoom": "in",
+      "start": {
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "end": {
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "reason": "A restrained held-center move with a slow approach keeps the prisoner group readable through “The front was moving east.” and retains its surrounding context.",
+      "camera": {
+        "subject": "the prisoner group",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "none",
+        "zoom": "in",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "reason": "A restrained held-center move with a slow approach keeps the prisoner group readable through “The front was moving east.” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "08.01",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_04_03_v01.png",
+      "image_sha256": "2b66de56a88cca280e22ddfc601d5951d797f17cd632d379608486708f5dcfab",
+      "start_s": 202.64,
+      "end_s": 205.92,
+      "subject": "The Bug and Mukhavets rivers",
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "direction": "right_to_left",
+      "zoom": "none",
+      "start": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.042
+      },
+      "end": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.042
+      },
+      "reason": "A restrained right-to-left move with a steady scale keeps The Bug and Mukhavets rivers readable through “The Bug and Mukhavets rivers” and retains its surrounding context.",
+      "camera": {
+        "subject": "The Bug and Mukhavets rivers",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "right_to_left",
+        "zoom": "none",
+        "start": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.042
+        },
+        "end": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.042
+        },
+        "reason": "A restrained right-to-left move with a steady scale keeps The Bug and Mukhavets rivers readable through “The Bug and Mukhavets rivers” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "08.02",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_08_02_v01.png",
+      "image_sha256": "58732175cc8df87dd8d05c38ca63c5ab497ff7fc8e69b6829f5ccc1fb7ece85a",
+      "start_s": 205.92,
+      "end_s": 212.72,
+      "subject": "the river beyond the fortification",
+      "focus": [
+        0.5,
+        0.55
+      ],
+      "direction": "none",
+      "zoom": "out",
+      "start": {
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "end": {
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "reason": "A restrained held-center move with a slow release keeps the river beyond the fortification readable through “On a map, water was close.” and retains its surrounding context.",
+      "camera": {
+        "subject": "the river beyond the fortification",
+        "focus": [
+          0.5,
+          0.55
+        ],
+        "direction": "none",
+        "zoom": "out",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "reason": "A restrained held-center move with a slow release keeps the river beyond the fortification readable through “On a map, water was close.” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "08.03",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_08_03_v01.png",
+      "image_sha256": "b77d6c463b38c7700f22026b1538ac3e6993d8271038bae75f38ac8e1d0f6907",
+      "start_s": 212.72,
+      "end_s": 215.76,
+      "subject": "The approaches to the rivers were under enemy fire.",
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "direction": "left_to_right",
+      "zoom": "in",
+      "start": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "end": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "reason": "A restrained left-to-right move with a slow approach keeps The approaches to the rivers were under enemy fire. readable through “The approaches to the rivers were under enemy fire.” and retains its surrounding context.",
+      "camera": {
+        "subject": "The approaches to the rivers were under enemy fire.",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "left_to_right",
+        "zoom": "in",
+        "start": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "end": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "reason": "A restrained left-to-right move with a slow approach keeps The approaches to the rivers were under enemy fire. readable through “The approaches to the rivers were under enemy fire.” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "08.04",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_08_04_v01.png",
+      "image_sha256": "3ca02794999e27e5393cf9565061e42ce909d864365367fcba699e8ac18a3fea",
+      "start_s": 215.76,
+      "end_s": 222.8,
+      "subject": "the river beyond the fortification",
+      "focus": [
+        0.29,
+        0.63
+      ],
+      "direction": "right_to_left",
+      "zoom": "out",
+      "start": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "end": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "reason": "A restrained right-to-left move with a slow release keeps the river beyond the fortification readable through “Anyone trying to collect water” and retains its surrounding context.",
+      "camera": {
+        "subject": "the river beyond the fortification",
+        "focus": [
+          0.29,
+          0.63
+        ],
+        "direction": "right_to_left",
+        "zoom": "out",
+        "start": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "reason": "A restrained right-to-left move with a slow release keeps the river beyond the fortification readable through “Anyone trying to collect water” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "09.01",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_09_01_v01.png",
+      "image_sha256": "bc6a37f853b13d89d9c0917553c309413a5bbd514932da59a19de43049346217",
+      "start_s": 222.8,
+      "end_s": 228.72,
+      "subject": "the river beyond the fortification",
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "direction": "left_to_right",
+      "zoom": "none",
+      "start": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.042
+      },
+      "end": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.042
+      },
+      "reason": "A restrained left-to-right move with a steady scale keeps the river beyond the fortification readable through “After the water supply system was damaged” and retains its surrounding context.",
+      "camera": {
+        "subject": "the river beyond the fortification",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "left_to_right",
+        "zoom": "none",
+        "start": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.042
+        },
+        "end": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.042
+        },
+        "reason": "A restrained left-to-right move with a steady scale keeps the river beyond the fortification readable through “After the water supply system was damaged” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "09.02",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_09_02_v01.png",
+      "image_sha256": "8ffbdd15dcd6e982bd7986946fe0c455d560ec8b12a66654d1e8126ce1a2b97a",
+      "start_s": 228.72,
+      "end_s": 233.467,
+      "subject": "the individual defender",
+      "focus": [
+        0.34,
+        0.56
+      ],
+      "direction": "right_to_left",
+      "zoom": "in",
+      "start": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "end": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "reason": "A restrained right-to-left move with a slow approach keeps the individual defender readable through “Soldiers at their positions suffered” and retains its surrounding context.",
+      "camera": {
+        "subject": "the individual defender",
+        "focus": [
+          0.34,
+          0.56
+        ],
+        "direction": "right_to_left",
+        "zoom": "in",
+        "start": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "end": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "reason": "A restrained right-to-left move with a slow approach keeps the individual defender readable through “Soldiers at their positions suffered” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "09.03",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_09_03_v01.png",
+      "image_sha256": "15863044f6ade38d02f09ee148fde72b41401379e9f813f7ee7e79b37fbaa9b9",
+      "start_s": 233.467,
+      "end_s": 239.68,
+      "subject": "So did the wounded lying in basements",
+      "focus": [
+        0.56,
+        0.6
+      ],
+      "direction": "left_to_right",
+      "zoom": "out",
+      "start": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "end": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "reason": "A restrained left-to-right move with a slow release keeps So did the wounded lying in basements readable through “So did the wounded lying in basements” and retains its surrounding context.",
+      "camera": {
+        "subject": "So did the wounded lying in basements",
+        "focus": [
+          0.56,
+          0.6
+        ],
+        "direction": "left_to_right",
+        "zoom": "out",
+        "start": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "reason": "A restrained left-to-right move with a slow release keeps So did the wounded lying in basements readable through “So did the wounded lying in basements” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "09.04",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_09_04_v01.png",
+      "image_sha256": "94a6f12f76117dfc71f785ead8e096da21e8e74f0a458abb9d7faea51bce2ad5",
+      "start_s": 239.68,
+      "end_s": 245.467,
+      "subject": "the river beyond the fortification",
+      "focus": [
+        0.5,
+        0.48
+      ],
+      "direction": "none",
+      "zoom": "in",
+      "start": {
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "end": {
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "reason": "A restrained held-center move with a slow approach keeps the river beyond the fortification readable through “People tried to reach the water under cover of darkness.” and retains its surrounding context.",
+      "camera": {
+        "subject": "the river beyond the fortification",
+        "focus": [
+          0.5,
+          0.48
+        ],
+        "direction": "none",
+        "zoom": "in",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "reason": "A restrained held-center move with a slow approach keeps the river beyond the fortification readable through “People tried to reach the water under cover of darkness.” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "09.04a",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_09_04a_v01.png",
+      "image_sha256": "5d9701d62445039b79ad7ab13c21a02794c9130cd3b007554b0ed904f611a1ec",
+      "start_s": 245.467,
+      "end_s": 250.0,
+      "subject": "But even a nighttime trip offered no guarantee of returning alive.",
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "direction": "right_to_left",
+      "zoom": "none",
+      "start": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.042
+      },
+      "end": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.042
+      },
+      "reason": "A restrained right-to-left move with a steady scale keeps But even a nighttime trip offered no guarantee of returning alive. readable through “But even a nighttime trip offered no guarantee of returning alive.” and retains its surrounding context.",
+      "camera": {
+        "subject": "But even a nighttime trip offered no guarantee of returning alive.",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "right_to_left",
+        "zoom": "none",
+        "start": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.042
+        },
+        "end": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.042
+        },
+        "reason": "A restrained right-to-left move with a steady scale keeps But even a nighttime trip offered no guarantee of returning alive. readable through “But even a nighttime trip offered no guarantee of returning alive.” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "09.05",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_09_05_v01.png",
+      "image_sha256": "bec21cccf7bf9e6fbee7751dab6e98b9782cb494bceaca4ebe56623f848ef504",
+      "start_s": 250.0,
+      "end_s": 253.16,
+      "subject": "The wounded faced especially desperate conditions.",
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "direction": "none",
+      "zoom": "out",
+      "start": {
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "end": {
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "reason": "A restrained held-center move with a slow release keeps The wounded faced especially desperate conditions. readable through “The wounded faced especially desperate conditions.” and retains its surrounding context.",
+      "camera": {
+        "subject": "The wounded faced especially desperate conditions.",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "none",
+        "zoom": "out",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "reason": "A restrained held-center move with a slow release keeps The wounded faced especially desperate conditions. readable through “The wounded faced especially desperate conditions.” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "09.05a",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_09_05a_v01.png",
+      "image_sha256": "1a057c7c95acdfc6e4a2bdb0c33bfae3cd2c337623aa27a8f095f1469808cd0a",
+      "start_s": 253.16,
+      "end_s": 260.08,
+      "subject": "the river beyond the fortification",
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "direction": "left_to_right",
+      "zoom": "in",
+      "start": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "end": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "reason": "A restrained left-to-right move with a slow approach keeps the river beyond the fortification readable through “They needed water, bandages, and medical care.” and retains its surrounding context.",
+      "camera": {
+        "subject": "the river beyond the fortification",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "left_to_right",
+        "zoom": "in",
+        "start": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "end": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "reason": "A restrained left-to-right move with a slow approach keeps the river beyond the fortification readable through “They needed water, bandages, and medical care.” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "09.06",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_09_06_v01.png",
+      "image_sha256": "cf0a247667379a041a2b49bd1d3282a3f4552de98bc6f07fdc152cd8c3bbdd1e",
+      "start_s": 260.08,
+      "end_s": 267.32,
+      "subject": "the present-day traveler and document",
+      "focus": [
+        0.35,
+        0.54
+      ],
+      "direction": "right_to_left",
+      "zoom": "out",
+      "start": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "end": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "reason": "A restrained right-to-left move with a slow release keeps the present-day traveler and document readable through “Years later, this part of the defense” and retains its surrounding context.",
+      "camera": {
+        "subject": "the present-day traveler and document",
+        "focus": [
+          0.35,
+          0.54
+        ],
+        "direction": "right_to_left",
+        "zoom": "out",
+        "start": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "reason": "A restrained right-to-left move with a slow release keeps the present-day traveler and document readable through “Years later, this part of the defense” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "09.06a",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_09_06_v01.png",
+      "image_sha256": "cf0a247667379a041a2b49bd1d3282a3f4552de98bc6f07fdc152cd8c3bbdd1e",
+      "start_s": 267.32,
+      "end_s": 271.84,
+      "subject": "the river beyond the fortification",
+      "focus": [
+        0.35,
+        0.54
+      ],
+      "direction": "left_to_right",
+      "zoom": "none",
+      "start": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.042
+      },
+      "end": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.042
+      },
+      "reason": "A restrained left-to-right move with a steady scale keeps the river beyond the fortification readable through “depicts a soldier reaching toward the water, holding a helmet in his hand.” and retains its surrounding context.",
+      "camera": {
+        "subject": "the river beyond the fortification",
+        "focus": [
+          0.35,
+          0.54
+        ],
+        "direction": "left_to_right",
+        "zoom": "none",
+        "start": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.042
+        },
+        "end": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.042
+        },
+        "reason": "A restrained left-to-right move with a steady scale keeps the river beyond the fortification readable through “depicts a soldier reaching toward the water, holding a helmet in his hand.” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "09.07",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_08_02_v01.png",
+      "image_sha256": "58732175cc8df87dd8d05c38ca63c5ab497ff7fc8e69b6829f5ccc1fb7ece85a",
+      "start_s": 271.84,
+      "end_s": 275.76,
+      "subject": "People were suffering from dehydration",
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "direction": "right_to_left",
+      "zoom": "in",
+      "start": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "end": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "reason": "A restrained right-to-left move with a slow approach keeps People were suffering from dehydration readable through “People were suffering from dehydration” and retains its surrounding context.",
+      "camera": {
+        "subject": "People were suffering from dehydration",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "right_to_left",
+        "zoom": "in",
+        "start": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "end": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "reason": "A restrained right-to-left move with a slow approach keeps People were suffering from dehydration readable through “People were suffering from dehydration” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "09.07a",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_08_04_v01.png",
+      "image_sha256": "3ca02794999e27e5393cf9565061e42ce909d864365367fcba699e8ac18a3fea",
+      "start_s": 275.76,
+      "end_s": 282.853,
+      "subject": "It remains one of the most painful details of the defense of Brest Fortress",
+      "focus": [
+        0.3,
+        0.61
+      ],
+      "direction": "left_to_right",
+      "zoom": "out",
+      "start": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "end": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "reason": "A restrained left-to-right move with a slow release keeps It remains one of the most painful details of the defense of Brest Fortress readable through “It remains one of the most painful details of the defense of Brest Fortress” and retains its surrounding context.",
+      "camera": {
+        "subject": "It remains one of the most painful details of the defense of Brest Fortress",
+        "focus": [
+          0.3,
+          0.61
+        ],
+        "direction": "left_to_right",
+        "zoom": "out",
+        "start": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "reason": "A restrained left-to-right move with a slow release keeps It remains one of the most painful details of the defense of Brest Fortress readable through “It remains one of the most painful details of the defense of Brest Fortress” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "10.01",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_10_01_v01.png",
+      "image_sha256": "9b336039ccd2c4e2eb014f5550b3ff61e65c85dc6d7692274a573d561e723b94",
+      "start_s": 282.853,
+      "end_s": 287.8,
+      "subject": "With every passing day",
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "direction": "none",
+      "zoom": "in",
+      "start": {
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "end": {
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "reason": "A restrained held-center move with a slow approach keeps With every passing day readable through “With every passing day” and retains its surrounding context.",
+      "camera": {
+        "subject": "With every passing day",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "none",
+        "zoom": "in",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "reason": "A restrained held-center move with a slow approach keeps With every passing day readable through “With every passing day” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "10.02",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_10_02_v01.png",
+      "image_sha256": "e37d29a5601079a56eb09f170a73d56f81d8bd523610d2bef1afc12fb00bc09a",
+      "start_s": 287.8,
+      "end_s": 292.16,
+      "subject": "Some supplies had been destroyed",
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "direction": "right_to_left",
+      "zoom": "none",
+      "start": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.042
+      },
+      "end": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.042
+      },
+      "reason": "A restrained right-to-left move with a steady scale keeps Some supplies had been destroyed readable through “Some supplies had been destroyed” and retains its surrounding context.",
+      "camera": {
+        "subject": "Some supplies had been destroyed",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "right_to_left",
+        "zoom": "none",
+        "start": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.042
+        },
+        "end": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.042
+        },
+        "reason": "A restrained right-to-left move with a steady scale keeps Some supplies had been destroyed readable through “Some supplies had been destroyed” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "10.03",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_10_03_v01.png",
+      "image_sha256": "2c37d9a80d062c707ab7fdc8d5a635165581a8694c6e9593631e708b7ecdaa07",
+      "start_s": 292.16,
+      "end_s": 296.04,
+      "subject": "The fact that warehouses existed",
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "direction": "none",
+      "zoom": "out",
+      "start": {
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "end": {
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "reason": "A restrained held-center move with a slow release keeps The fact that warehouses existed readable through “The fact that warehouses existed” and retains its surrounding context.",
+      "camera": {
+        "subject": "The fact that warehouses existed",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "none",
+        "zoom": "out",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "reason": "A restrained held-center move with a slow release keeps The fact that warehouses existed readable through “The fact that warehouses existed” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "10.03a",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_10_03_v01.png",
+      "image_sha256": "2c37d9a80d062c707ab7fdc8d5a635165581a8694c6e9593631e708b7ecdaa07",
+      "start_s": 296.04,
+      "end_s": 300.907,
+      "subject": "the defenders could reach them or transport what they needed to their own positions.",
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "direction": "left_to_right",
+      "zoom": "in",
+      "start": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "end": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "reason": "A restrained left-to-right move with a slow approach keeps the defenders could reach them or transport what they needed to their own positions. readable through “the defenders could reach them or transport what they needed to their own positions.” and retains its surrounding context.",
+      "camera": {
+        "subject": "the defenders could reach them or transport what they needed to their own positions.",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "left_to_right",
+        "zoom": "in",
+        "start": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "end": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "reason": "A restrained left-to-right move with a slow approach keeps the defenders could reach them or transport what they needed to their own positions. readable through “the defenders could reach them or transport what they needed to their own positions.” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "10.04",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_10_04_v01.png",
+      "image_sha256": "338c7d9e914ca6079e43ee8eab4ddcd2a39b856dd3d31b1a856f61c2838bac72",
+      "start_s": 300.907,
+      "end_s": 305.36,
+      "subject": "People searched for surviving food supplies",
+      "focus": [
+        0.43,
+        0.63
+      ],
+      "direction": "right_to_left",
+      "zoom": "out",
+      "start": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "end": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "reason": "A restrained right-to-left move with a slow release keeps People searched for surviving food supplies readable through “People searched for surviving food supplies” and retains its surrounding context.",
+      "camera": {
+        "subject": "People searched for surviving food supplies",
+        "focus": [
+          0.43,
+          0.63
+        ],
+        "direction": "right_to_left",
+        "zoom": "out",
+        "start": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "reason": "A restrained right-to-left move with a slow release keeps People searched for surviving food supplies readable through “People searched for surviving food supplies” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "10.05",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_10_05_v01.png",
+      "image_sha256": "ae82804c35c952a2c6c78e1c769e1567e02a23f75cc1c4d84ef6c241599a48c0",
+      "start_s": 305.36,
+      "end_s": 309.28,
+      "subject": "the distant group of defenders",
+      "focus": [
+        0.52,
+        0.63
+      ],
+      "direction": "left_to_right",
+      "zoom": "none",
+      "start": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.042
+      },
+      "end": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.042
+      },
+      "reason": "A restrained left-to-right move with a steady scale keeps the distant group of defenders readable through “There was no reliable supply system” and retains its surrounding context.",
+      "camera": {
+        "subject": "the distant group of defenders",
+        "focus": [
+          0.52,
+          0.63
+        ],
+        "direction": "left_to_right",
+        "zoom": "none",
+        "start": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.042
+        },
+        "end": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.042
+        },
+        "reason": "A restrained left-to-right move with a steady scale keeps the distant group of defenders readable through “There was no reliable supply system” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "10.05a",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_10_05_v01.png",
+      "image_sha256": "ae82804c35c952a2c6c78e1c769e1567e02a23f75cc1c4d84ef6c241599a48c0",
+      "start_s": 309.28,
+      "end_s": 313.52,
+      "subject": "Conditions could be very different even between neighboring buildings.",
+      "focus": [
+        0.52,
+        0.63
+      ],
+      "direction": "right_to_left",
+      "zoom": "in",
+      "start": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "end": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "reason": "A restrained right-to-left move with a slow approach keeps Conditions could be very different even between neighboring buildings. readable through “Conditions could be very different even between neighboring buildings.” and retains its surrounding context.",
+      "camera": {
+        "subject": "Conditions could be very different even between neighboring buildings.",
+        "focus": [
+          0.52,
+          0.63
+        ],
+        "direction": "right_to_left",
+        "zoom": "in",
+        "start": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "end": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "reason": "A restrained right-to-left move with a slow approach keeps Conditions could be very different even between neighboring buildings. readable through “Conditions could be very different even between neighboring buildings.” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "11.01",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_11_01_v01.png",
+      "image_sha256": "d9081ce47616211defa2ed02a5fbe861f662c68e4a9fddcdc34f0efd435bc866",
+      "start_s": 313.52,
+      "end_s": 317.52,
+      "subject": "The Germans used artillery",
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "direction": "left_to_right",
+      "zoom": "out",
+      "start": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "end": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "reason": "A restrained left-to-right move with a slow release keeps The Germans used artillery readable through “The Germans used artillery” and retains its surrounding context.",
+      "camera": {
+        "subject": "The Germans used artillery",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "left_to_right",
+        "zoom": "out",
+        "start": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "reason": "A restrained left-to-right move with a slow release keeps The Germans used artillery readable through “The Germans used artillery” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "11.04",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_11_04_v01.png",
+      "image_sha256": "ad55ae00850ecf879a5fb57086fcaa8a57f6c49f435c9f02db41c3e95410e261",
+      "start_s": 317.52,
+      "end_s": 323.0,
+      "subject": "Fortifications were destroyed",
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "direction": "none",
+      "zoom": "in",
+      "start": {
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "end": {
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "reason": "A restrained held-center move with a slow approach keeps Fortifications were destroyed readable through “Fortifications were destroyed” and retains its surrounding context.",
+      "camera": {
+        "subject": "Fortifications were destroyed",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "none",
+        "zoom": "in",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "reason": "A restrained held-center move with a slow approach keeps Fortifications were destroyed readable through “Fortifications were destroyed” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "12.01",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_12_01_v01.png",
+      "image_sha256": "fae1e3443c20495e53f012e47683b2fa9f19fa7b0b441ee221cd31f9cc91e498",
+      "start_s": 323.0,
+      "end_s": 328.6,
+      "subject": "By June 26",
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "direction": "right_to_left",
+      "zoom": "none",
+      "start": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.042
+      },
+      "end": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.042
+      },
+      "reason": "A restrained right-to-left move with a steady scale keeps By June 26 readable through “By June 26” and retains its surrounding context.",
+      "camera": {
+        "subject": "By June 26",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "right_to_left",
+        "zoom": "none",
+        "start": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.042
+        },
+        "end": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.042
+        },
+        "reason": "A restrained right-to-left move with a steady scale keeps By June 26 readable through “By June 26” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "12.02",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_12_02_v02.png",
+      "image_sha256": "9773d5a714163f14d24e2d91bb5d13813ba4a22244c470094de96fca15b99701",
+      "start_s": 328.6,
+      "end_s": 335.2,
+      "subject": "the distant group of defenders",
+      "focus": [
+        0.5,
+        0.6
+      ],
+      "direction": "none",
+      "zoom": "out",
+      "start": {
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "end": {
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "reason": "A restrained held-center move with a slow release keeps the distant group of defenders readable through “Efim Fomin was captured” and retains its surrounding context.",
+      "camera": {
+        "subject": "the distant group of defenders",
+        "focus": [
+          0.5,
+          0.6
+        ],
+        "direction": "none",
+        "zoom": "out",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "reason": "A restrained held-center move with a slow release keeps the distant group of defenders readable through “Efim Fomin was captured” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "12.04",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_12_02_v02.png",
+      "image_sha256": "9773d5a714163f14d24e2d91bb5d13813ba4a22244c470094de96fca15b99701",
+      "start_s": 335.2,
+      "end_s": 340.2,
+      "subject": "the distant prisoners",
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "direction": "left_to_right",
+      "zoom": "in",
+      "start": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "end": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "reason": "A restrained left-to-right move with a slow approach keeps the distant prisoners readable through “Ivan Zubachev was also taken prisoner.” and retains its surrounding context.",
+      "camera": {
+        "subject": "the distant prisoners",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "left_to_right",
+        "zoom": "in",
+        "start": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "end": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "reason": "A restrained left-to-right move with a slow approach keeps the distant prisoners readable through “Ivan Zubachev was also taken prisoner.” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "13.01",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_06_04_v02.png",
+      "image_sha256": "046a321c2b9d2e6b96e8d90d2d438a265347017faf6ed338a9fac604fd9d0c1a",
+      "start_s": 340.2,
+      "end_s": 344.44,
+      "subject": "At the Kobrin Fortification",
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "direction": "right_to_left",
+      "zoom": "out",
+      "start": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "end": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "reason": "A restrained right-to-left move with a slow release keeps At the Kobrin Fortification readable through “At the Kobrin Fortification” and retains its surrounding context.",
+      "camera": {
+        "subject": "At the Kobrin Fortification",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "right_to_left",
+        "zoom": "out",
+        "start": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "reason": "A restrained right-to-left move with a slow release keeps At the Kobrin Fortification readable through “At the Kobrin Fortification” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "13.02",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_13_02_v01.png",
+      "image_sha256": "ca2bd7abc2f7eddbbae167fcaec5eeed4708a2d1a1aec844f4c56a60fb566878",
+      "start_s": 344.44,
+      "end_s": 348.28,
+      "subject": "the individual defender",
+      "focus": [
+        0.5,
+        0.57
+      ],
+      "direction": "left_to_right",
+      "zoom": "none",
+      "start": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.042
+      },
+      "end": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.042
+      },
+      "reason": "A restrained left-to-right move with a steady scale keeps the individual defender readable through “Its defenders were fighting” and retains its surrounding context.",
+      "camera": {
+        "subject": "the individual defender",
+        "focus": [
+          0.5,
+          0.57
+        ],
+        "direction": "left_to_right",
+        "zoom": "none",
+        "start": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.042
+        },
+        "end": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.042
+        },
+        "reason": "A restrained left-to-right move with a steady scale keeps the individual defender readable through “Its defenders were fighting” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "13.03",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_13_03_v01.png",
+      "image_sha256": "1d55c9e8cb123b237b84c131bff530e175c97412fe2cafe1c3734b3b5a0ed853",
+      "start_s": 348.28,
+      "end_s": 352.64,
+      "subject": "On June 29, after heavy attacks",
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "direction": "right_to_left",
+      "zoom": "in",
+      "start": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "end": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "reason": "A restrained right-to-left move with a slow approach keeps On June 29, after heavy attacks readable through “On June 29, after heavy attacks” and retains its surrounding context.",
+      "camera": {
+        "subject": "On June 29, after heavy attacks",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "right_to_left",
+        "zoom": "in",
+        "start": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "end": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "reason": "A restrained right-to-left move with a slow approach keeps On June 29, after heavy attacks readable through “On June 29, after heavy attacks” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "13.04",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_13_04_v02.png",
+      "image_sha256": "3c1fa193b74fdc0458d52bf80ff0e5e2507f14d8ba7e98fda628393ed072a36d",
+      "start_s": 352.64,
+      "end_s": 358.96,
+      "subject": "the prisoner group",
+      "focus": [
+        0.51,
+        0.6
+      ],
+      "direction": "left_to_right",
+      "zoom": "out",
+      "start": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "end": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "reason": "A restrained left-to-right move with a slow release keeps the prisoner group readable through “the Germans captured the fort.” and retains its surrounding context.",
+      "camera": {
+        "subject": "the prisoner group",
+        "focus": [
+          0.51,
+          0.6
+        ],
+        "direction": "left_to_right",
+        "zoom": "out",
+        "start": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "reason": "A restrained left-to-right move with a slow release keeps the prisoner group readable through “the Germans captured the fort.” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "14.01",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_14_01_v02.png",
+      "image_sha256": "467fc8af29b3b05eddd340135797bf59e18b847797bca0154d640ebfeb7bf8fd",
+      "start_s": 358.96,
+      "end_s": 364.4,
+      "subject": "By the end of June",
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "direction": "none",
+      "zoom": "in",
+      "start": {
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "end": {
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "reason": "A restrained held-center move with a slow approach keeps By the end of June readable through “By the end of June” and retains its surrounding context.",
+      "camera": {
+        "subject": "By the end of June",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "none",
+        "zoom": "in",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "reason": "A restrained held-center move with a slow approach keeps By the end of June readable through “By the end of June” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "14.02",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_11_04_v01.png",
+      "image_sha256": "ad55ae00850ecf879a5fb57086fcaa8a57f6c49f435c9f02db41c3e95410e261",
+      "start_s": 364.4,
+      "end_s": 369.12,
+      "subject": "That distinction matters.",
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "direction": "right_to_left",
+      "zoom": "none",
+      "start": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.042
+      },
+      "end": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.042
+      },
+      "reason": "A restrained right-to-left move with a steady scale keeps That distinction matters. readable through “That distinction matters.” and retains its surrounding context.",
+      "camera": {
+        "subject": "That distinction matters.",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "right_to_left",
+        "zoom": "none",
+        "start": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.042
+        },
+        "end": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.042
+        },
+        "reason": "A restrained right-to-left move with a steady scale keeps That distinction matters. readable through “That distinction matters.” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "14.02a",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_14_01_v02.png",
+      "image_sha256": "467fc8af29b3b05eddd340135797bf59e18b847797bca0154d640ebfeb7bf8fd",
+      "start_s": 369.12,
+      "end_s": 375.44,
+      "subject": "held the entire fortress for more than a month, with a unified headquarters and an unbroken defensive line.",
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "direction": "none",
+      "zoom": "out",
+      "start": {
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "end": {
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "reason": "A restrained held-center move with a slow release keeps held the entire fortress for more than a month, with a unified headquarters and an unbroken defensive line. readable through “held the entire fortress for more than a month, with a unified headquarters and an unbroken defensive line.” and retains its surrounding context.",
+      "camera": {
+        "subject": "held the entire fortress for more than a month, with a unified headquarters and an unbroken defensive line.",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "none",
+        "zoom": "out",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "reason": "A restrained held-center move with a slow release keeps held the entire fortress for more than a month, with a unified headquarters and an unbroken defensive line. readable through “held the entire fortress for more than a month, with a unified headquarters and an unbroken defensive line.” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "14.03",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_14_03_v01.png",
+      "image_sha256": "92a2feff6cb5a120f1a2f5998f2620dec344cea1a8ab2d42472440beff0da612",
+      "start_s": 375.44,
+      "end_s": 380.68,
+      "subject": "In July, resistance continued",
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "direction": "left_to_right",
+      "zoom": "in",
+      "start": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "end": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "reason": "A restrained left-to-right move with a slow approach keeps In July, resistance continued readable through “In July, resistance continued” and retains its surrounding context.",
+      "camera": {
+        "subject": "In July, resistance continued",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "left_to_right",
+        "zoom": "in",
+        "start": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "end": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "reason": "A restrained left-to-right move with a slow approach keeps In July, resistance continued readable through “In July, resistance continued” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "14.04",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_14_04_v01.png",
+      "image_sha256": "b79eace33440bfc11a8609fb946262a4835a67efe7f9210209bc2d23441a0382",
+      "start_s": 380.68,
+      "end_s": 385.08,
+      "subject": "the distant group of defenders",
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "direction": "right_to_left",
+      "zoom": "out",
+      "start": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "end": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "reason": "A restrained right-to-left move with a slow release keeps the distant group of defenders readable through “Their situation was very different.” and retains its surrounding context.",
+      "camera": {
+        "subject": "the distant group of defenders",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "right_to_left",
+        "zoom": "out",
+        "start": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "reason": "A restrained right-to-left move with a slow release keeps the distant group of defenders readable through “Their situation was very different.” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "14.04a",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_14_04_v01.png",
+      "image_sha256": "b79eace33440bfc11a8609fb946262a4835a67efe7f9210209bc2d23441a0382",
+      "start_s": 385.08,
+      "end_s": 390.4,
+      "subject": "the river beyond the fortification",
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "direction": "left_to_right",
+      "zoom": "none",
+      "start": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.042
+      },
+      "end": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.042
+      },
+      "reason": "A restrained left-to-right move with a steady scale keeps the river beyond the fortification readable through “avoid searches, search for water, try to escape, or fight if they were discovered.” and retains its surrounding context.",
+      "camera": {
+        "subject": "the river beyond the fortification",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "left_to_right",
+        "zoom": "none",
+        "start": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.042
+        },
+        "end": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.042
+        },
+        "reason": "A restrained left-to-right move with a steady scale keeps the river beyond the fortification readable through “avoid searches, search for water, try to escape, or fight if they were discovered.” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "14.05",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_14_05_v02.png",
+      "image_sha256": "3c49761d47f78ea5171e707d2e4b539cb42c995b5a27bf0373f3e62ae6c1dab0",
+      "start_s": 390.4,
+      "end_s": 397.52,
+      "subject": "the present-day traveler and document",
+      "focus": [
+        0.82,
+        0.57
+      ],
+      "direction": "right_to_left",
+      "zoom": "in",
+      "start": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "end": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "reason": "A restrained right-to-left move with a slow approach keeps the present-day traveler and document readable through “The single word ‘defense’” and retains its surrounding context.",
+      "camera": {
+        "subject": "the present-day traveler and document",
+        "focus": [
+          0.82,
+          0.57
+        ],
+        "direction": "right_to_left",
+        "zoom": "in",
+        "start": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "end": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "reason": "A restrained right-to-left move with a slow approach keeps the present-day traveler and document readable through “The single word ‘defense’” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "15.01",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_15_01_v01.png",
+      "image_sha256": "e067ff3c6fb51aa7926f87f28bbf73a249d1ba67a0b3e8a5a8895377973035f7",
+      "start_s": 397.52,
+      "end_s": 402.88,
+      "subject": "After the fall of the Eastern Fort",
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "direction": "left_to_right",
+      "zoom": "out",
+      "start": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "end": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "reason": "A restrained left-to-right move with a slow release keeps After the fall of the Eastern Fort readable through “After the fall of the Eastern Fort” and retains its surrounding context.",
+      "camera": {
+        "subject": "After the fall of the Eastern Fort",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "left_to_right",
+        "zoom": "out",
+        "start": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "reason": "A restrained left-to-right move with a slow release keeps After the fall of the Eastern Fort readable through “After the fall of the Eastern Fort” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "15.02",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_15_02_v01.png",
+      "image_sha256": "500782330be0df98fb551f02e681b24b51b06e7936b9c021ad202dcaa2a055f9",
+      "start_s": 402.88,
+      "end_s": 409.4,
+      "subject": "He continued hiding among the fortress structures.",
+      "focus": [
+        0.5,
+        0.57
+      ],
+      "direction": "none",
+      "zoom": "in",
+      "start": {
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "end": {
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "reason": "A restrained held-center move with a slow approach keeps He continued hiding among the fortress structures. readable through “He continued hiding among the fortress structures.” and retains its surrounding context.",
+      "camera": {
+        "subject": "He continued hiding among the fortress structures.",
+        "focus": [
+          0.5,
+          0.57
+        ],
+        "direction": "none",
+        "zoom": "in",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "reason": "A restrained held-center move with a slow approach keeps He continued hiding among the fortress structures. readable through “He continued hiding among the fortress structures.” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "15.03",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_15_03_v01.png",
+      "image_sha256": "615de46a8fbf2abd6ec20fc43cf5a7a6b883683e5c297dc3aa6d2aa19d687e72",
+      "start_s": 409.4,
+      "end_s": 413.08,
+      "subject": "the prisoner group",
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "direction": "right_to_left",
+      "zoom": "none",
+      "start": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.042
+      },
+      "end": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.042
+      },
+      "reason": "A restrained right-to-left move with a steady scale keeps the prisoner group readable through “What we know about his final weeks” and retains its surrounding context.",
+      "camera": {
+        "subject": "the prisoner group",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "right_to_left",
+        "zoom": "none",
+        "start": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.042
+        },
+        "end": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.042
+        },
+        "reason": "A restrained right-to-left move with a steady scale keeps the prisoner group readable through “What we know about his final weeks” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "15.03a",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_15_03_v01.png",
+      "image_sha256": "615de46a8fbf2abd6ec20fc43cf5a7a6b883683e5c297dc3aa6d2aa19d687e72",
+      "start_s": 413.08,
+      "end_s": 417.6,
+      "subject": "That means the details of those days need to be treated with particular caution.",
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "direction": "none",
+      "zoom": "out",
+      "start": {
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "end": {
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "reason": "A restrained held-center move with a slow release keeps That means the details of those days need to be treated with particular caution. readable through “That means the details of those days need to be treated with particular caution.” and retains its surrounding context.",
+      "camera": {
+        "subject": "That means the details of those days need to be treated with particular caution.",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "none",
+        "zoom": "out",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "reason": "A restrained held-center move with a slow release keeps That means the details of those days need to be treated with particular caution. readable through “That means the details of those days need to be treated with particular caution.” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "15.04",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_15_03_v01.png",
+      "image_sha256": "615de46a8fbf2abd6ec20fc43cf5a7a6b883683e5c297dc3aa6d2aa19d687e72",
+      "start_s": 417.6,
+      "end_s": 422.2,
+      "subject": "We cannot reconstruct his every movement",
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "direction": "left_to_right",
+      "zoom": "in",
+      "start": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "end": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "reason": "A restrained left-to-right move with a slow approach keeps We cannot reconstruct his every movement readable through “We cannot reconstruct his every movement” and retains its surrounding context.",
+      "camera": {
+        "subject": "We cannot reconstruct his every movement",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "left_to_right",
+        "zoom": "in",
+        "start": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "end": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "reason": "A restrained left-to-right move with a slow approach keeps We cannot reconstruct his every movement readable through “We cannot reconstruct his every movement” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "16.01",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_15_01_v01.png",
+      "image_sha256": "e067ff3c6fb51aa7926f87f28bbf73a249d1ba67a0b3e8a5a8895377973035f7",
+      "start_s": 422.2,
+      "end_s": 428.08,
+      "subject": "Gavrilov’s biography gives July 23, 1941",
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "direction": "right_to_left",
+      "zoom": "out",
+      "start": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "end": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "reason": "A restrained right-to-left move with a slow release keeps Gavrilov’s biography gives July 23, 1941 readable through “Gavrilov’s biography gives July 23, 1941” and retains its surrounding context.",
+      "camera": {
+        "subject": "Gavrilov’s biography gives July 23, 1941",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "right_to_left",
+        "zoom": "out",
+        "start": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "reason": "A restrained right-to-left move with a slow release keeps Gavrilov’s biography gives July 23, 1941 readable through “Gavrilov’s biography gives July 23, 1941” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "16.02",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_14_01_v02.png",
+      "image_sha256": "467fc8af29b3b05eddd340135797bf59e18b847797bca0154d640ebfeb7bf8fd",
+      "start_s": 428.08,
+      "end_s": 435.52,
+      "subject": "It was the thirty-second day of the war.",
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "direction": "left_to_right",
+      "zoom": "none",
+      "start": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.042
+      },
+      "end": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.042
+      },
+      "reason": "A restrained left-to-right move with a steady scale keeps It was the thirty-second day of the war. readable through “It was the thirty-second day of the war.” and retains its surrounding context.",
+      "camera": {
+        "subject": "It was the thirty-second day of the war.",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "left_to_right",
+        "zoom": "none",
+        "start": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.042
+        },
+        "end": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.042
+        },
+        "reason": "A restrained left-to-right move with a steady scale keeps It was the thirty-second day of the war. readable through “It was the thirty-second day of the war.” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "16.04",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_16_04_v01.png",
+      "image_sha256": "38913b0e1fbe61e82625f2732d8fbb5cd5801aa97ead3051ef601c3a2d0305de",
+      "start_s": 435.52,
+      "end_s": 442.52,
+      "subject": "Gavrilov survived the Nazi prison camps",
+      "focus": [
+        0.5,
+        0.5
+      ],
+      "direction": "right_to_left",
+      "zoom": "in",
+      "start": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "end": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "reason": "A restrained right-to-left move with a slow approach keeps Gavrilov survived the Nazi prison camps readable through “Gavrilov survived the Nazi prison camps” and retains its surrounding context.",
+      "camera": {
+        "subject": "Gavrilov survived the Nazi prison camps",
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "direction": "right_to_left",
+        "zoom": "in",
+        "start": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "end": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "reason": "A restrained right-to-left move with a slow approach keeps Gavrilov survived the Nazi prison camps readable through “Gavrilov survived the Nazi prison camps” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "16.05",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_15_01_v01.png",
+      "image_sha256": "e067ff3c6fb51aa7926f87f28bbf73a249d1ba67a0b3e8a5a8895377973035f7",
+      "start_s": 442.52,
+      "end_s": 448.08,
+      "subject": "His story became one of the clearest examples",
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "direction": "left_to_right",
+      "zoom": "out",
+      "start": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "end": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "reason": "A restrained left-to-right move with a slow release keeps His story became one of the clearest examples readable through “His story became one of the clearest examples” and retains its surrounding context.",
+      "camera": {
+        "subject": "His story became one of the clearest examples",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "left_to_right",
+        "zoom": "out",
+        "start": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "reason": "A restrained left-to-right move with a slow release keeps His story became one of the clearest examples readable through “His story became one of the clearest examples” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "16.05a",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_14_01_v02.png",
+      "image_sha256": "467fc8af29b3b05eddd340135797bf59e18b847797bca0154d640ebfeb7bf8fd",
+      "start_s": 448.08,
+      "end_s": 453.96,
+      "subject": "did not mean that every defender had immediately disappeared from the fortress.",
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "direction": "none",
+      "zoom": "in",
+      "start": {
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "end": {
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "reason": "A restrained held-center move with a slow approach keeps did not mean that every defender had immediately disappeared from the fortress. readable through “did not mean that every defender had immediately disappeared from the fortress.” and retains its surrounding context.",
+      "camera": {
+        "subject": "did not mean that every defender had immediately disappeared from the fortress.",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "none",
+        "zoom": "in",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "reason": "A restrained held-center move with a slow approach keeps did not mean that every defender had immediately disappeared from the fortress. readable through “did not mean that every defender had immediately disappeared from the fortress.” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "16.05b",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_15_03_v01.png",
+      "image_sha256": "615de46a8fbf2abd6ec20fc43cf5a7a6b883683e5c297dc3aa6d2aa19d687e72",
+      "start_s": 453.96,
+      "end_s": 461.04,
+      "subject": "to call him the very last soldier to remain among its ruins.",
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "direction": "right_to_left",
+      "zoom": "none",
+      "start": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.042
+      },
+      "end": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.042
+      },
+      "reason": "A restrained right-to-left move with a steady scale keeps to call him the very last soldier to remain among its ruins. readable through “to call him the very last soldier to remain among its ruins.” and retains its surrounding context.",
+      "camera": {
+        "subject": "to call him the very last soldier to remain among its ruins.",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "right_to_left",
+        "zoom": "none",
+        "start": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.042
+        },
+        "end": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.042
+        },
+        "reason": "A restrained right-to-left move with a steady scale keeps to call him the very last soldier to remain among its ruins. readable through “to call him the very last soldier to remain among its ruins.” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "17.01",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_01_01_v01.png",
+      "image_sha256": "380e2e63df91ae04bf9517b5c1c9a895f73ce431d084fc1aebe899219d9addc3",
+      "start_s": 461.04,
+      "end_s": 464.16,
+      "subject": "the non-legible report sheets",
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "direction": "none",
+      "zoom": "out",
+      "start": {
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "end": {
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "reason": "A restrained held-center move with a slow release keeps the non-legible report sheets readable through “Now, let us return to Schlieper’s report.” and retains its surrounding context.",
+      "camera": {
+        "subject": "the non-legible report sheets",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "none",
+        "zoom": "out",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "reason": "A restrained held-center move with a slow release keeps the non-legible report sheets readable through “Now, let us return to Schlieper’s report.” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "17.02",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_06_01_v01.png",
+      "image_sha256": "3dcc959ac8ab39b6571da9dc9a4082d07481742ec46b9288e97e2d4e7d649c59",
+      "start_s": 464.16,
+      "end_s": 469.24,
+      "subject": "the distant group of defenders",
+      "focus": [
+        0.27,
+        0.72
+      ],
+      "direction": "left_to_right",
+      "zoom": "in",
+      "start": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "end": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "reason": "A restrained left-to-right move with a slow approach keeps the distant group of defenders readable through “In it, the divisional commander acknowledged” and retains its surrounding context.",
+      "camera": {
+        "subject": "the distant group of defenders",
+        "focus": [
+          0.27,
+          0.72
+        ],
+        "direction": "left_to_right",
+        "zoom": "in",
+        "start": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "end": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "reason": "A restrained left-to-right move with a slow approach keeps the distant group of defenders readable through “In it, the divisional commander acknowledged” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "17.02a",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_03_05_v01.png",
+      "image_sha256": "bfd37dbfef74c1e5ce898e2453bd1a0ecd10768eb6af20ec92103fd6a40ad399",
+      "start_s": 469.24,
+      "end_s": 472.72,
+      "subject": "their infantry training, and their willingness to resist.",
+      "focus": [
+        0.5,
+        0.66
+      ],
+      "direction": "right_to_left",
+      "zoom": "out",
+      "start": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "end": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "reason": "A restrained right-to-left move with a slow release keeps their infantry training, and their willingness to resist. readable through “their infantry training, and their willingness to resist.” and retains its surrounding context.",
+      "camera": {
+        "subject": "their infantry training, and their willingness to resist.",
+        "focus": [
+          0.5,
+          0.66
+        ],
+        "direction": "right_to_left",
+        "zoom": "out",
+        "start": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "reason": "A restrained right-to-left move with a slow release keeps their infantry training, and their willingness to resist. readable through “their infantry training, and their willingness to resist.” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "17.03",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_04_02_v01.png",
+      "image_sha256": "988ee62bd5513516457bdc65ff7fed2f1d6dc7ade9d578a368411fb4435ccce8",
+      "start_s": 472.72,
+      "end_s": 478.88,
+      "subject": "the prisoner group",
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "direction": "left_to_right",
+      "zoom": "none",
+      "start": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.042
+      },
+      "end": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.042
+      },
+      "reason": "A restrained left-to-right move with a steady scale keeps the prisoner group readable through “He also examined why the initial methods” and retains its surrounding context.",
+      "camera": {
+        "subject": "the prisoner group",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "left_to_right",
+        "zoom": "none",
+        "start": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.042
+        },
+        "end": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.042
+        },
+        "reason": "A restrained left-to-right move with a steady scale keeps the prisoner group readable through “He also examined why the initial methods” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "17.04",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_01_05_v02.png",
+      "image_sha256": "e72d678604b9f367acb66db7a3ea845bb99916bf1132145a27c0df60c4d02074",
+      "start_s": 478.88,
+      "end_s": 483.6,
+      "subject": "the present-day traveler and document",
+      "focus": [
+        0.52,
+        0.48
+      ],
+      "direction": "right_to_left",
+      "zoom": "in",
+      "start": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "end": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "reason": "A restrained right-to-left move with a slow approach keeps the present-day traveler and document readable through “This was an internal military document” and retains its surrounding context.",
+      "camera": {
+        "subject": "the present-day traveler and document",
+        "focus": [
+          0.52,
+          0.48
+        ],
+        "direction": "right_to_left",
+        "zoom": "in",
+        "start": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "end": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "reason": "A restrained right-to-left move with a slow approach keeps the present-day traveler and document readable through “This was an internal military document” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "17.04a",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_17_04a_v01.png",
+      "image_sha256": "7f0bdbe8b76607afbb06a7502d1456a717e6b76c3f017cde555b5415bebed6ed",
+      "start_s": 483.6,
+      "end_s": 489.44,
+      "subject": "the non-legible report sheets",
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "direction": "left_to_right",
+      "zoom": "out",
+      "start": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "end": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "reason": "A restrained left-to-right move with a slow release keeps the non-legible report sheets readable through “Its author was explaining the actions of his own division and reviewing the outcome of the operation.” and retains its surrounding context.",
+      "camera": {
+        "subject": "the non-legible report sheets",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "left_to_right",
+        "zoom": "out",
+        "start": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "reason": "A restrained left-to-right move with a slow release keeps the non-legible report sheets readable through “Its author was explaining the actions of his own division and reviewing the outcome of the operation.” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "17.04b",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_17_04a_v01.png",
+      "image_sha256": "7f0bdbe8b76607afbb06a7502d1456a717e6b76c3f017cde555b5415bebed6ed",
+      "start_s": 489.44,
+      "end_s": 494.56,
+      "subject": "the non-legible report sheets",
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "direction": "none",
+      "zoom": "in",
+      "start": {
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "end": {
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "reason": "A restrained held-center move with a slow approach keeps the non-legible report sheets readable through “For that reason, each claim in the report needs to be compared with other accounts.” and retains its surrounding context.",
+      "camera": {
+        "subject": "the non-legible report sheets",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "none",
+        "zoom": "in",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "reason": "A restrained held-center move with a slow approach keeps the non-legible report sheets readable through “For that reason, each claim in the report needs to be compared with other accounts.” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "17.04c",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_17_04a_v01.png",
+      "image_sha256": "7f0bdbe8b76607afbb06a7502d1456a717e6b76c3f017cde555b5415bebed6ed",
+      "start_s": 494.56,
+      "end_s": 502.28,
+      "subject": "the non-legible report sheets",
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "direction": "right_to_left",
+      "zoom": "none",
+      "start": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.042
+      },
+      "end": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.042
+      },
+      "reason": "A restrained right-to-left move with a steady scale keeps the non-legible report sheets readable through “Nevertheless, its recognition of the defenders’ determination is unmistakable.” and retains its surrounding context.",
+      "camera": {
+        "subject": "the non-legible report sheets",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "right_to_left",
+        "zoom": "none",
+        "start": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.042
+        },
+        "end": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.042
+        },
+        "reason": "A restrained right-to-left move with a steady scale keeps the non-legible report sheets readable through “Nevertheless, its recognition of the defenders’ determination is unmistakable.” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "17.05a",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_17_04a_v01.png",
+      "image_sha256": "7f0bdbe8b76607afbb06a7502d1456a717e6b76c3f017cde555b5415bebed6ed",
+      "start_s": 502.28,
+      "end_s": 509.32,
+      "subject": "the non-legible report sheets",
+      "focus": [
+        0.52,
+        0.49
+      ],
+      "direction": "none",
+      "zoom": "out",
+      "start": {
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "end": {
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "reason": "A restrained held-center move with a slow release keeps the non-legible report sheets readable through “the division lost 453 men killed or missing, with another 668 wounded.” and retains its surrounding context.",
+      "camera": {
+        "subject": "the non-legible report sheets",
+        "focus": [
+          0.52,
+          0.49
+        ],
+        "direction": "none",
+        "zoom": "out",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "reason": "A restrained held-center move with a slow release keeps the non-legible report sheets readable through “the division lost 453 men killed or missing, with another 668 wounded.” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "17.06",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_17_06_v01.png",
+      "image_sha256": "5d65a71355c7795b3f78fec84f54b5c07998f22fe99c1f073921bb5292df1585",
+      "start_s": 509.32,
+      "end_s": 513.76,
+      "subject": "the non-legible report sheets",
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "direction": "left_to_right",
+      "zoom": "in",
+      "start": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "end": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "reason": "A restrained left-to-right move with a slow approach keeps the non-legible report sheets readable through “These were the figures reported for the fighting” and retains its surrounding context.",
+      "camera": {
+        "subject": "the non-legible report sheets",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "left_to_right",
+        "zoom": "in",
+        "start": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "end": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "reason": "A restrained left-to-right move with a slow approach keeps the non-legible report sheets readable through “These were the figures reported for the fighting” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "17.06a",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_17_06_v01.png",
+      "image_sha256": "5d65a71355c7795b3f78fec84f54b5c07998f22fe99c1f073921bb5292df1585",
+      "start_s": 513.76,
+      "end_s": 520.56,
+      "subject": "the report and separate figures",
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "direction": "right_to_left",
+      "zoom": "out",
+      "start": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "end": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "reason": "A restrained right-to-left move with a slow release keeps the report and separate figures readable through “They were not a verified, name-by-name count of casualties suffered exclusively within the fortress walls.” and retains its surrounding context.",
+      "camera": {
+        "subject": "the report and separate figures",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "right_to_left",
+        "zoom": "out",
+        "start": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "reason": "A restrained right-to-left move with a slow release keeps the report and separate figures readable through “They were not a verified, name-by-name count of casualties suffered exclusively within the fortress walls.” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "18.01",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_12_02_v02.png",
+      "image_sha256": "9773d5a714163f14d24e2d91bb5d13813ba4a22244c470094de96fca15b99701",
+      "start_s": 520.56,
+      "end_s": 526.88,
+      "subject": "the prisoner group",
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "direction": "left_to_right",
+      "zoom": "none",
+      "start": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.042
+      },
+      "end": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.042
+      },
+      "reason": "A restrained left-to-right move with a steady scale keeps the prisoner group readable through “Soviet losses were also enormous.” and retains its surrounding context.",
+      "camera": {
+        "subject": "the prisoner group",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "left_to_right",
+        "zoom": "none",
+        "start": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.042
+        },
+        "end": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.042
+        },
+        "reason": "A restrained left-to-right move with a steady scale keeps the prisoner group readable through “Soviet losses were also enormous.” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "18.03",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_18_03_v01.png",
+      "image_sha256": "2211f0110b5cb8156e6bda73113776832b8d3d06ec95a6f0ee8de8e00ad59e91",
+      "start_s": 526.88,
+      "end_s": 530.12,
+      "subject": "the prisoner group",
+      "focus": [
+        0.45,
+        0.78
+      ],
+      "direction": "right_to_left",
+      "zoom": "in",
+      "start": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "end": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "reason": "A restrained right-to-left move with a slow approach keeps the prisoner group readable through “Some of the defenders managed to escape” and retains its surrounding context.",
+      "camera": {
+        "subject": "the prisoner group",
+        "focus": [
+          0.45,
+          0.78
+        ],
+        "direction": "right_to_left",
+        "zoom": "in",
+        "start": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "end": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "reason": "A restrained right-to-left move with a slow approach keeps the prisoner group readable through “Some of the defenders managed to escape” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "18.04",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_18_04_v01.png",
+      "image_sha256": "82aaeabb9ca9f167d3255a0722dcf47438eed8e16cdbcd01219177f3e1243a39",
+      "start_s": 530.12,
+      "end_s": 535.12,
+      "subject": "Brest Fortress did not stop",
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "direction": "left_to_right",
+      "zoom": "out",
+      "start": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "end": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "reason": "A restrained left-to-right move with a slow release keeps Brest Fortress did not stop readable through “Brest Fortress did not stop” and retains its surrounding context.",
+      "camera": {
+        "subject": "Brest Fortress did not stop",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "left_to_right",
+        "zoom": "out",
+        "start": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "reason": "A restrained left-to-right move with a slow release keeps Brest Fortress did not stop readable through “Brest Fortress did not stop” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "18.05",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_18_05_v01.png",
+      "image_sha256": "3882643d29b8edc824ecdceabd96497c60e38c262e3e88bed32974e5e9fa128a",
+      "start_s": 535.12,
+      "end_s": 540.08,
+      "subject": "the individual defender",
+      "focus": [
+        0.51,
+        0.55
+      ],
+      "direction": "none",
+      "zoom": "in",
+      "start": {
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "end": {
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "reason": "A restrained held-center move with a slow approach keeps the individual defender readable through “For the people who remained inside” and retains its surrounding context.",
+      "camera": {
+        "subject": "the individual defender",
+        "focus": [
+          0.51,
+          0.55
+        ],
+        "direction": "none",
+        "zoom": "in",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "reason": "A restrained held-center move with a slow approach keeps the individual defender readable through “For the people who remained inside” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "18.05a",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_18_05_v01.png",
+      "image_sha256": "3882643d29b8edc824ecdceabd96497c60e38c262e3e88bed32974e5e9fa128a",
+      "start_s": 540.08,
+      "end_s": 544.0,
+      "subject": "while their chances of receiving help grew smaller and smaller.",
+      "focus": [
+        0.51,
+        0.55
+      ],
+      "direction": "right_to_left",
+      "zoom": "none",
+      "start": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.042
+      },
+      "end": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.042
+      },
+      "reason": "A restrained right-to-left move with a steady scale keeps while their chances of receiving help grew smaller and smaller. readable through “while their chances of receiving help grew smaller and smaller.” and retains its surrounding context.",
+      "camera": {
+        "subject": "while their chances of receiving help grew smaller and smaller.",
+        "focus": [
+          0.51,
+          0.55
+        ],
+        "direction": "right_to_left",
+        "zoom": "none",
+        "start": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.042
+        },
+        "end": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.042
+        },
+        "reason": "A restrained right-to-left move with a steady scale keeps while their chances of receiving help grew smaller and smaller. readable through “while their chances of receiving help grew smaller and smaller.” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "18.05b",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_18_05_v01.png",
+      "image_sha256": "3882643d29b8edc824ecdceabd96497c60e38c262e3e88bed32974e5e9fa128a",
+      "start_s": 544.0,
+      "end_s": 548.48,
+      "subject": "And yet, under those circumstances, they continued to resist.",
+      "focus": [
+        0.51,
+        0.55
+      ],
+      "direction": "none",
+      "zoom": "out",
+      "start": {
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "end": {
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "reason": "A restrained held-center move with a slow release keeps And yet, under those circumstances, they continued to resist. readable through “And yet, under those circumstances, they continued to resist.” and retains its surrounding context.",
+      "camera": {
+        "subject": "And yet, under those circumstances, they continued to resist.",
+        "focus": [
+          0.51,
+          0.55
+        ],
+        "direction": "none",
+        "zoom": "out",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "reason": "A restrained held-center move with a slow release keeps And yet, under those circumstances, they continued to resist. readable through “And yet, under those circumstances, they continued to resist.” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "18.05c",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_17_04a_v01.png",
+      "image_sha256": "7f0bdbe8b76607afbb06a7502d1456a717e6b76c3f017cde555b5415bebed6ed",
+      "start_s": 548.48,
+      "end_s": 555.28,
+      "subject": "the non-legible report sheets",
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "direction": "left_to_right",
+      "zoom": "in",
+      "start": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "end": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "reason": "A restrained left-to-right move with a slow approach keeps the non-legible report sheets readable through “Their determination was so evident that even the commander of the division attacking them felt compelled to acknowledge it.” and retains its surrounding context.",
+      "camera": {
+        "subject": "the non-legible report sheets",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "left_to_right",
+        "zoom": "in",
+        "start": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "end": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "reason": "A restrained left-to-right move with a slow approach keeps the non-legible report sheets readable through “Their determination was so evident that even the commander of the division attacking them felt compelled to acknowledge it.” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "19.01",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_19_01_v01.png",
+      "image_sha256": "c2fcac221427f026d36d7bbd7ba9001757482cca4a983c7fc6fda5132d5fecf7",
+      "start_s": 555.28,
+      "end_s": 559.84,
+      "subject": "the blank/inscription wall",
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "direction": "right_to_left",
+      "zoom": "out",
+      "start": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "end": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "reason": "A restrained right-to-left move with a slow release keeps the blank/inscription wall readable through “After the war, an inscription was discovered” and retains its surrounding context.",
+      "camera": {
+        "subject": "the blank/inscription wall",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "right_to_left",
+        "zoom": "out",
+        "start": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "reason": "A restrained right-to-left move with a slow release keeps the blank/inscription wall readable through “After the war, an inscription was discovered” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "19.02",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_19_02_v01.png",
+      "image_sha256": "d2dcbf4ba3db28261858f42196fc355555c582cbcda12619277990ad2f68ac4c",
+      "start_s": 559.84,
+      "end_s": 564.28,
+      "subject": "Its words would become one of the most famous",
+      "focus": [
+        0.5,
+        0.47
+      ],
+      "direction": "left_to_right",
+      "zoom": "none",
+      "start": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.042
+      },
+      "end": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.042
+      },
+      "reason": "A restrained left-to-right move with a steady scale keeps Its words would become one of the most famous readable through “Its words would become one of the most famous” and retains its surrounding context.",
+      "camera": {
+        "subject": "Its words would become one of the most famous",
+        "focus": [
+          0.5,
+          0.47
+        ],
+        "direction": "left_to_right",
+        "zoom": "none",
+        "start": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.042
+        },
+        "end": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.042
+        },
+        "reason": "A restrained left-to-right move with a steady scale keeps Its words would become one of the most famous readable through “Its words would become one of the most famous” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "19.02a",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_19_02_v01.png",
+      "image_sha256": "d2dcbf4ba3db28261858f42196fc355555c582cbcda12619277990ad2f68ac4c",
+      "start_s": 564.28,
+      "end_s": 569.36,
+      "subject": "I am dying, but I will not surrender! Farewell, Motherland.",
+      "focus": [
+        0.5,
+        0.47
+      ],
+      "direction": "right_to_left",
+      "zoom": "in",
+      "start": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "end": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "reason": "A restrained right-to-left move with a slow approach keeps I am dying, but I will not surrender! Farewell, Motherland. readable through “I am dying, but I will not surrender! Farewell, Motherland.” and retains its surrounding context.",
+      "camera": {
+        "subject": "I am dying, but I will not surrender! Farewell, Motherland.",
+        "focus": [
+          0.5,
+          0.47
+        ],
+        "direction": "right_to_left",
+        "zoom": "in",
+        "start": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "end": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "reason": "A restrained right-to-left move with a slow approach keeps I am dying, but I will not surrender! Farewell, Motherland. readable through “I am dying, but I will not surrender! Farewell, Motherland.” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "19.03",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_19_02_v01.png",
+      "image_sha256": "d2dcbf4ba3db28261858f42196fc355555c582cbcda12619277990ad2f68ac4c",
+      "start_s": 569.36,
+      "end_s": 574.56,
+      "subject": "Beside those words was a date.",
+      "focus": [
+        0.5,
+        0.47
+      ],
+      "direction": "left_to_right",
+      "zoom": "out",
+      "start": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "end": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "reason": "A restrained left-to-right move with a slow release keeps Beside those words was a date. readable through “Beside those words was a date.” and retains its surrounding context.",
+      "camera": {
+        "subject": "Beside those words was a date.",
+        "focus": [
+          0.5,
+          0.47
+        ],
+        "direction": "left_to_right",
+        "zoom": "out",
+        "start": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "reason": "A restrained left-to-right move with a slow release keeps Beside those words was a date. readable through “Beside those words was a date.” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "19.04",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_19_01_v01.png",
+      "image_sha256": "c2fcac221427f026d36d7bbd7ba9001757482cca4a983c7fc6fda5132d5fecf7",
+      "start_s": 574.56,
+      "end_s": 578.24,
+      "subject": "the blank/inscription wall",
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "direction": "none",
+      "zoom": "in",
+      "start": {
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "end": {
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "reason": "A restrained held-center move with a slow approach keeps the blank/inscription wall readable through “The inscription was found in a barracks building” and retains its surrounding context.",
+      "camera": {
+        "subject": "the blank/inscription wall",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "none",
+        "zoom": "in",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "reason": "A restrained held-center move with a slow approach keeps the blank/inscription wall readable through “The inscription was found in a barracks building” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "19.04a",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_19_01_v01.png",
+      "image_sha256": "c2fcac221427f026d36d7bbd7ba9001757482cca4a983c7fc6fda5132d5fecf7",
+      "start_s": 578.24,
+      "end_s": 584.0,
+      "subject": "had housed the 132nd Separate Battalion of the NKVD Convoy Troops.",
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "direction": "right_to_left",
+      "zoom": "none",
+      "start": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.042
+      },
+      "end": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.042
+      },
+      "reason": "A restrained right-to-left move with a steady scale keeps had housed the 132nd Separate Battalion of the NKVD Convoy Troops. readable through “had housed the 132nd Separate Battalion of the NKVD Convoy Troops.” and retains its surrounding context.",
+      "camera": {
+        "subject": "had housed the 132nd Separate Battalion of the NKVD Convoy Troops.",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "right_to_left",
+        "zoom": "none",
+        "start": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.042
+        },
+        "end": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.042
+        },
+        "reason": "A restrained right-to-left move with a steady scale keeps had housed the 132nd Separate Battalion of the NKVD Convoy Troops. readable through “had housed the 132nd Separate Battalion of the NKVD Convoy Troops.” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "19.05",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_19_01_v01.png",
+      "image_sha256": "c2fcac221427f026d36d7bbd7ba9001757482cca4a983c7fc6fda5132d5fecf7",
+      "start_s": 584.0,
+      "end_s": 588.72,
+      "subject": "The identity of the person who left those words",
+      "focus": [
+        0.5,
+        0.47
+      ],
+      "direction": "none",
+      "zoom": "out",
+      "start": {
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "end": {
+        "center": [
+          0.5,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "reason": "A restrained held-center move with a slow release keeps The identity of the person who left those words readable through “The identity of the person who left those words” and retains its surrounding context.",
+      "camera": {
+        "subject": "The identity of the person who left those words",
+        "focus": [
+          0.5,
+          0.47
+        ],
+        "direction": "none",
+        "zoom": "out",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "reason": "A restrained held-center move with a slow release keeps The identity of the person who left those words readable through “The identity of the person who left those words” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "19.05a",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_19_01_v01.png",
+      "image_sha256": "c2fcac221427f026d36d7bbd7ba9001757482cca4a983c7fc6fda5132d5fecf7",
+      "start_s": 588.72,
+      "end_s": 594.0,
+      "subject": "We do not know how long he had been there, whether he was wounded, or whether he was alone.",
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "direction": "left_to_right",
+      "zoom": "in",
+      "start": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "end": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "reason": "A restrained left-to-right move with a slow approach keeps We do not know how long he had been there, whether he was wounded, or whether he was alone. readable through “We do not know how long he had been there, whether he was wounded, or whether he was alone.” and retains its surrounding context.",
+      "camera": {
+        "subject": "We do not know how long he had been there, whether he was wounded, or whether he was alone.",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "left_to_right",
+        "zoom": "in",
+        "start": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "end": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "reason": "A restrained left-to-right move with a slow approach keeps We do not know how long he had been there, whether he was wounded, or whether he was alone. readable through “We do not know how long he had been there, whether he was wounded, or whether he was alone.” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "19.05b",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_19_02_v01.png",
+      "image_sha256": "d2dcbf4ba3db28261858f42196fc355555c582cbcda12619277990ad2f68ac4c",
+      "start_s": 594.0,
+      "end_s": 600.56,
+      "subject": "the blank/inscription wall",
+      "focus": [
+        0.5,
+        0.47
+      ],
+      "direction": "right_to_left",
+      "zoom": "out",
+      "start": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "end": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "reason": "A restrained right-to-left move with a slow release keeps the blank/inscription wall readable through “The inscription cannot tell us his life story.” and retains its surrounding context.",
+      "camera": {
+        "subject": "the blank/inscription wall",
+        "focus": [
+          0.5,
+          0.47
+        ],
+        "direction": "right_to_left",
+        "zoom": "out",
+        "start": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "reason": "A restrained right-to-left move with a slow release keeps the blank/inscription wall readable through “The inscription cannot tell us his life story.” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "19.06",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_01_01_v01.png",
+      "image_sha256": "380e2e63df91ae04bf9517b5c1c9a895f73ce431d084fc1aebe899219d9addc3",
+      "start_s": 600.56,
+      "end_s": 603.92,
+      "subject": "the non-legible report sheets",
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "direction": "left_to_right",
+      "zoom": "none",
+      "start": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.042
+      },
+      "end": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.042
+      },
+      "reason": "A restrained left-to-right move with a steady scale keeps the non-legible report sheets readable through “The German general left behind a report” and retains its surrounding context.",
+      "camera": {
+        "subject": "the non-legible report sheets",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "left_to_right",
+        "zoom": "none",
+        "start": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.042
+        },
+        "end": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.042
+        },
+        "reason": "A restrained left-to-right move with a steady scale keeps the non-legible report sheets readable through “The German general left behind a report” and retains its surrounding context."
+      }
+    },
+    {
+      "shot_id": "19.07",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/scene_19_02_v01.png",
+      "image_sha256": "d2dcbf4ba3db28261858f42196fc355555c582cbcda12619277990ad2f68ac4c",
+      "start_s": 603.92,
+      "end_s": 612.32,
+      "subject": "An unknown defender left a few words",
+      "focus": [
+        0.5,
+        0.47
+      ],
+      "direction": "right_to_left",
+      "zoom": "in",
+      "start": {
+        "center": [
+          0.492,
+          0.5
+        ],
+        "scale": 1.03
+      },
+      "end": {
+        "center": [
+          0.508,
+          0.5
+        ],
+        "scale": 1.055
+      },
+      "reason": "A restrained right-to-left move with a slow approach keeps An unknown defender left a few words readable through “An unknown defender left a few words” and retains its surrounding context.",
+      "camera": {
+        "subject": "An unknown defender left a few words",
+        "focus": [
+          0.5,
+          0.47
+        ],
+        "direction": "right_to_left",
+        "zoom": "in",
+        "start": {
+          "center": [
+            0.492,
+            0.5
+          ],
+          "scale": 1.03
+        },
+        "end": {
+          "center": [
+            0.508,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "reason": "A restrained right-to-left move with a slow approach keeps An unknown defender left a few words readable through “An unknown defender left a few words” and retains its surrounding context."
+      }
+    }
+  ]
+}

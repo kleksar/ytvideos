@@ -1,0 +1,764 @@
+{
+  "status": "signal_candidates_not_listening_verified",
+  "media": "/Users/diplomat/Downloads/VarlePhonk - Песенка мамонтёнка (Remix) (hitmos.fm).mp3",
+  "media_sha256": "c9dc2453a8f8caba91ed67376fdff60994ee6dc1a6b8748575331bd63a781148",
+  "fps": 24,
+  "analysis_start_seconds": 42.0,
+  "analysis_duration_seconds": 22.0,
+  "first_after_seconds": 44.0,
+  "stride": 2,
+  "pulse": {
+    "bpm": 130.02,
+    "period_seconds": 0.461451,
+    "phase_seconds": 0.009977,
+    "periodicity": 0.845
+  },
+  "detected_attacks": [
+    {
+      "time_seconds": 42.009977,
+      "frame": 1008,
+      "frame_seconds": 42.0,
+      "frame_offset_ms": -9.98,
+      "strength": 1.941,
+      "band_flux": [
+        0.956,
+        4.009,
+        1.447
+      ]
+    },
+    {
+      "time_seconds": 42.473923,
+      "frame": 1019,
+      "frame_seconds": 42.458333,
+      "frame_offset_ms": -15.59,
+      "strength": 0.86,
+      "band_flux": [
+        0.795,
+        1.778,
+        0.014
+      ]
+    },
+    {
+      "time_seconds": 42.93288,
+      "frame": 1030,
+      "frame_seconds": 42.916667,
+      "frame_offset_ms": -16.21,
+      "strength": 1.967,
+      "band_flux": [
+        0.995,
+        4.592,
+        1.478
+      ]
+    },
+    {
+      "time_seconds": 43.39932,
+      "frame": 1042,
+      "frame_seconds": 43.416667,
+      "frame_offset_ms": 17.35,
+      "strength": 0.925,
+      "band_flux": [
+        1.122,
+        1.492,
+        0.008
+      ]
+    },
+    {
+      "time_seconds": 43.853288,
+      "frame": 1052,
+      "frame_seconds": 43.833333,
+      "frame_offset_ms": -19.95,
+      "strength": 2.545,
+      "band_flux": [
+        2.4,
+        4.98,
+        1.276
+      ]
+    },
+    {
+      "time_seconds": 44.314739,
+      "frame": 1064,
+      "frame_seconds": 44.333333,
+      "frame_offset_ms": 18.59,
+      "strength": 1.813,
+      "band_flux": [
+        2.738,
+        1.972,
+        0.106
+      ]
+    },
+    {
+      "time_seconds": 44.77619,
+      "frame": 1075,
+      "frame_seconds": 44.791667,
+      "frame_offset_ms": 15.48,
+      "strength": 2.481,
+      "band_flux": [
+        2.402,
+        4.824,
+        1.037
+      ]
+    },
+    {
+      "time_seconds": 45.237642,
+      "frame": 1086,
+      "frame_seconds": 45.25,
+      "frame_offset_ms": 12.36,
+      "strength": 1.902,
+      "band_flux": [
+        2.728,
+        2.311,
+        0.101
+      ]
+    },
+    {
+      "time_seconds": 45.699093,
+      "frame": 1097,
+      "frame_seconds": 45.708333,
+      "frame_offset_ms": 9.24,
+      "strength": 2.514,
+      "band_flux": [
+        2.393,
+        4.169,
+        1.176
+      ]
+    },
+    {
+      "time_seconds": 46.160544,
+      "frame": 1108,
+      "frame_seconds": 46.166667,
+      "frame_offset_ms": 6.12,
+      "strength": 1.872,
+      "band_flux": [
+        2.721,
+        2.27,
+        0.046
+      ]
+    },
+    {
+      "time_seconds": 46.621995,
+      "frame": 1119,
+      "frame_seconds": 46.625,
+      "frame_offset_ms": 3.01,
+      "strength": 2.501,
+      "band_flux": [
+        2.386,
+        4.344,
+        1.139
+      ]
+    },
+    {
+      "time_seconds": 47.083447,
+      "frame": 1130,
+      "frame_seconds": 47.083333,
+      "frame_offset_ms": -0.11,
+      "strength": 1.846,
+      "band_flux": [
+        2.705,
+        2.227,
+        0.019
+      ]
+    },
+    {
+      "time_seconds": 47.547392,
+      "frame": 1141,
+      "frame_seconds": 47.541667,
+      "frame_offset_ms": -5.73,
+      "strength": 2.512,
+      "band_flux": [
+        2.256,
+        4.654,
+        1.394
+      ]
+    },
+    {
+      "time_seconds": 48.006349,
+      "frame": 1152,
+      "frame_seconds": 48.0,
+      "frame_offset_ms": -6.35,
+      "strength": 1.786,
+      "band_flux": [
+        2.696,
+        2.024,
+        0.022
+      ]
+    },
+    {
+      "time_seconds": 48.470295,
+      "frame": 1163,
+      "frame_seconds": 48.458333,
+      "frame_offset_ms": -11.96,
+      "strength": 2.52,
+      "band_flux": [
+        2.298,
+        4.277,
+        1.356
+      ]
+    },
+    {
+      "time_seconds": 48.929252,
+      "frame": 1174,
+      "frame_seconds": 48.916667,
+      "frame_offset_ms": -12.59,
+      "strength": 1.805,
+      "band_flux": [
+        2.676,
+        2.08,
+        0.069
+      ]
+    },
+    {
+      "time_seconds": 49.393197,
+      "frame": 1185,
+      "frame_seconds": 49.375,
+      "frame_offset_ms": -18.2,
+      "strength": 2.538,
+      "band_flux": [
+        2.305,
+        4.332,
+        1.409
+      ]
+    },
+    {
+      "time_seconds": 49.854649,
+      "frame": 1197,
+      "frame_seconds": 49.875,
+      "frame_offset_ms": 20.35,
+      "strength": 1.794,
+      "band_flux": [
+        2.651,
+        2.126,
+        0.02
+      ]
+    },
+    {
+      "time_seconds": 50.3161,
+      "frame": 1208,
+      "frame_seconds": 50.333333,
+      "frame_offset_ms": 17.23,
+      "strength": 2.539,
+      "band_flux": [
+        2.323,
+        4.789,
+        1.385
+      ]
+    },
+    {
+      "time_seconds": 50.777551,
+      "frame": 1219,
+      "frame_seconds": 50.791667,
+      "frame_offset_ms": 14.12,
+      "strength": 1.833,
+      "band_flux": [
+        2.672,
+        2.24,
+        0.014
+      ]
+    },
+    {
+      "time_seconds": 51.239002,
+      "frame": 1230,
+      "frame_seconds": 51.25,
+      "frame_offset_ms": 11.0,
+      "strength": 2.542,
+      "band_flux": [
+        2.346,
+        4.729,
+        1.358
+      ]
+    },
+    {
+      "time_seconds": 51.700454,
+      "frame": 1241,
+      "frame_seconds": 51.708333,
+      "frame_offset_ms": 7.88,
+      "strength": 1.757,
+      "band_flux": [
+        2.691,
+        1.926,
+        0.025
+      ]
+    },
+    {
+      "time_seconds": 52.161905,
+      "frame": 1252,
+      "frame_seconds": 52.166667,
+      "frame_offset_ms": 4.76,
+      "strength": 2.54,
+      "band_flux": [
+        2.361,
+        4.501,
+        1.326
+      ]
+    },
+    {
+      "time_seconds": 52.623356,
+      "frame": 1263,
+      "frame_seconds": 52.625,
+      "frame_offset_ms": 1.64,
+      "strength": 1.797,
+      "band_flux": [
+        2.702,
+        2.011,
+        0.065
+      ]
+    },
+    {
+      "time_seconds": 53.084807,
+      "frame": 1274,
+      "frame_seconds": 53.083333,
+      "frame_offset_ms": -1.47,
+      "strength": 2.506,
+      "band_flux": [
+        2.359,
+        3.95,
+        1.252
+      ]
+    },
+    {
+      "time_seconds": 53.546259,
+      "frame": 1285,
+      "frame_seconds": 53.541667,
+      "frame_offset_ms": -4.59,
+      "strength": 1.854,
+      "band_flux": [
+        2.716,
+        2.181,
+        0.076
+      ]
+    },
+    {
+      "time_seconds": 54.00771,
+      "frame": 1296,
+      "frame_seconds": 54.0,
+      "frame_offset_ms": -7.71,
+      "strength": 2.566,
+      "band_flux": [
+        2.376,
+        4.816,
+        1.397
+      ]
+    },
+    {
+      "time_seconds": 54.469161,
+      "frame": 1307,
+      "frame_seconds": 54.458333,
+      "frame_offset_ms": -10.83,
+      "strength": 1.887,
+      "band_flux": [
+        2.724,
+        2.348,
+        0.013
+      ]
+    },
+    {
+      "time_seconds": 54.930612,
+      "frame": 1318,
+      "frame_seconds": 54.916667,
+      "frame_offset_ms": -13.95,
+      "strength": 2.553,
+      "band_flux": [
+        2.387,
+        4.935,
+        1.328
+      ]
+    },
+    {
+      "time_seconds": 55.392063,
+      "frame": 1329,
+      "frame_seconds": 55.375,
+      "frame_offset_ms": -17.06,
+      "strength": 1.824,
+      "band_flux": [
+        2.731,
+        2.104,
+        0.021
+      ]
+    },
+    {
+      "time_seconds": 55.853515,
+      "frame": 1340,
+      "frame_seconds": 55.833333,
+      "frame_offset_ms": -20.18,
+      "strength": 2.548,
+      "band_flux": [
+        2.397,
+        4.714,
+        1.293
+      ]
+    },
+    {
+      "time_seconds": 56.314966,
+      "frame": 1352,
+      "frame_seconds": 56.333333,
+      "frame_offset_ms": 18.37,
+      "strength": 1.833,
+      "band_flux": [
+        2.733,
+        2.117,
+        0.037
+      ]
+    },
+    {
+      "time_seconds": 56.776417,
+      "frame": 1363,
+      "frame_seconds": 56.791667,
+      "frame_offset_ms": 15.25,
+      "strength": 2.535,
+      "band_flux": [
+        2.397,
+        4.204,
+        1.247
+      ]
+    },
+    {
+      "time_seconds": 57.237868,
+      "frame": 1374,
+      "frame_seconds": 57.25,
+      "frame_offset_ms": 12.13,
+      "strength": 1.872,
+      "band_flux": [
+        2.733,
+        2.23,
+        0.067
+      ]
+    },
+    {
+      "time_seconds": 57.69932,
+      "frame": 1385,
+      "frame_seconds": 57.708333,
+      "frame_offset_ms": 9.01,
+      "strength": 2.552,
+      "band_flux": [
+        2.392,
+        4.739,
+        1.318
+      ]
+    },
+    {
+      "time_seconds": 58.160771,
+      "frame": 1396,
+      "frame_seconds": 58.166667,
+      "frame_offset_ms": 5.9,
+      "strength": 1.924,
+      "band_flux": [
+        2.731,
+        2.471,
+        0.01
+      ]
+    },
+    {
+      "time_seconds": 58.622222,
+      "frame": 1407,
+      "frame_seconds": 58.625,
+      "frame_offset_ms": 2.78,
+      "strength": 2.556,
+      "band_flux": [
+        2.399,
+        5.112,
+        1.32
+      ]
+    },
+    {
+      "time_seconds": 59.083673,
+      "frame": 1418,
+      "frame_seconds": 59.083333,
+      "frame_offset_ms": -0.34,
+      "strength": 1.985,
+      "band_flux": [
+        2.699,
+        2.743,
+        0.007
+      ]
+    },
+    {
+      "time_seconds": 59.552608,
+      "frame": 1429,
+      "frame_seconds": 59.541667,
+      "frame_offset_ms": -10.94,
+      "strength": 1.844,
+      "band_flux": [
+        0.927,
+        3.702,
+        1.447
+      ]
+    },
+    {
+      "time_seconds": 60.00907,
+      "frame": 1440,
+      "frame_seconds": 60.0,
+      "frame_offset_ms": -9.07,
+      "strength": 1.179,
+      "band_flux": [
+        1.145,
+        2.348,
+        0.023
+      ]
+    },
+    {
+      "time_seconds": 60.470522,
+      "frame": 1451,
+      "frame_seconds": 60.458333,
+      "frame_offset_ms": -12.19,
+      "strength": 2.084,
+      "band_flux": [
+        1.25,
+        4.922,
+        1.488
+      ]
+    },
+    {
+      "time_seconds": 60.931973,
+      "frame": 1462,
+      "frame_seconds": 60.916667,
+      "frame_offset_ms": -15.31,
+      "strength": 1.346,
+      "band_flux": [
+        1.401,
+        2.535,
+        0.021
+      ]
+    },
+    {
+      "time_seconds": 61.398413,
+      "frame": 1474,
+      "frame_seconds": 61.416667,
+      "frame_offset_ms": 18.25,
+      "strength": 1.878,
+      "band_flux": [
+        0.936,
+        3.803,
+        1.453
+      ]
+    },
+    {
+      "time_seconds": 61.85737,
+      "frame": 1485,
+      "frame_seconds": 61.875,
+      "frame_offset_ms": 17.63,
+      "strength": 0.994,
+      "band_flux": [
+        0.727,
+        2.356,
+        0.027
+      ]
+    },
+    {
+      "time_seconds": 62.321315,
+      "frame": 1496,
+      "frame_seconds": 62.333333,
+      "frame_offset_ms": 12.02,
+      "strength": 1.782,
+      "band_flux": [
+        0.677,
+        3.863,
+        1.464
+      ]
+    },
+    {
+      "time_seconds": 62.782766,
+      "frame": 1507,
+      "frame_seconds": 62.791667,
+      "frame_offset_ms": 8.9,
+      "strength": 1.018,
+      "band_flux": [
+        1.217,
+        1.661,
+        0.017
+      ]
+    },
+    {
+      "time_seconds": 63.239229,
+      "frame": 1518,
+      "frame_seconds": 63.25,
+      "frame_offset_ms": 10.77,
+      "strength": 1.855,
+      "band_flux": [
+        1.047,
+        3.693,
+        1.295
+      ]
+    },
+    {
+      "time_seconds": 63.708163,
+      "frame": 1529,
+      "frame_seconds": 63.708333,
+      "frame_offset_ms": 0.17,
+      "strength": 0.964,
+      "band_flux": [
+        1.423,
+        1.142,
+        0.014
+      ]
+    }
+  ],
+  "selected_transitions": [
+    {
+      "time_seconds": 44.314739,
+      "frame": 1064,
+      "frame_seconds": 44.333333,
+      "frame_offset_ms": 18.59,
+      "strength": 1.813,
+      "band_flux": [
+        2.738,
+        1.972,
+        0.106
+      ]
+    },
+    {
+      "time_seconds": 45.237642,
+      "frame": 1086,
+      "frame_seconds": 45.25,
+      "frame_offset_ms": 12.36,
+      "strength": 1.902,
+      "band_flux": [
+        2.728,
+        2.311,
+        0.101
+      ]
+    },
+    {
+      "time_seconds": 46.160544,
+      "frame": 1108,
+      "frame_seconds": 46.166667,
+      "frame_offset_ms": 6.12,
+      "strength": 1.872,
+      "band_flux": [
+        2.721,
+        2.27,
+        0.046
+      ]
+    },
+    {
+      "time_seconds": 47.083447,
+      "frame": 1130,
+      "frame_seconds": 47.083333,
+      "frame_offset_ms": -0.11,
+      "strength": 1.846,
+      "band_flux": [
+        2.705,
+        2.227,
+        0.019
+      ]
+    },
+    {
+      "time_seconds": 48.006349,
+      "frame": 1152,
+      "frame_seconds": 48.0,
+      "frame_offset_ms": -6.35,
+      "strength": 1.786,
+      "band_flux": [
+        2.696,
+        2.024,
+        0.022
+      ]
+    },
+    {
+      "time_seconds": 48.929252,
+      "frame": 1174,
+      "frame_seconds": 48.916667,
+      "frame_offset_ms": -12.59,
+      "strength": 1.805,
+      "band_flux": [
+        2.676,
+        2.08,
+        0.069
+      ]
+    },
+    {
+      "time_seconds": 49.854649,
+      "frame": 1197,
+      "frame_seconds": 49.875,
+      "frame_offset_ms": 20.35,
+      "strength": 1.794,
+      "band_flux": [
+        2.651,
+        2.126,
+        0.02
+      ]
+    },
+    {
+      "time_seconds": 50.777551,
+      "frame": 1219,
+      "frame_seconds": 50.791667,
+      "frame_offset_ms": 14.12,
+      "strength": 1.833,
+      "band_flux": [
+        2.672,
+        2.24,
+        0.014
+      ]
+    },
+    {
+      "time_seconds": 51.700454,
+      "frame": 1241,
+      "frame_seconds": 51.708333,
+      "frame_offset_ms": 7.88,
+      "strength": 1.757,
+      "band_flux": [
+        2.691,
+        1.926,
+        0.025
+      ]
+    },
+    {
+      "time_seconds": 52.623356,
+      "frame": 1263,
+      "frame_seconds": 52.625,
+      "frame_offset_ms": 1.64,
+      "strength": 1.797,
+      "band_flux": [
+        2.702,
+        2.011,
+        0.065
+      ]
+    },
+    {
+      "time_seconds": 53.546259,
+      "frame": 1285,
+      "frame_seconds": 53.541667,
+      "frame_offset_ms": -4.59,
+      "strength": 1.854,
+      "band_flux": [
+        2.716,
+        2.181,
+        0.076
+      ]
+    },
+    {
+      "time_seconds": 54.469161,
+      "frame": 1307,
+      "frame_seconds": 54.458333,
+      "frame_offset_ms": -10.83,
+      "strength": 1.887,
+      "band_flux": [
+        2.724,
+        2.348,
+        0.013
+      ]
+    },
+    {
+      "time_seconds": 55.392063,
+      "frame": 1329,
+      "frame_seconds": 55.375,
+      "frame_offset_ms": -17.06,
+      "strength": 1.824,
+      "band_flux": [
+        2.731,
+        2.104,
+        0.021
+      ]
+    },
+    {
+      "time_seconds": 56.314966,
+      "frame": 1352,
+      "frame_seconds": 56.333333,
+      "frame_offset_ms": 18.37,
+      "strength": 1.833,
+      "band_flux": [
+        2.733,
+        2.117,
+        0.037
+      ]
+    }
+  ]
+}

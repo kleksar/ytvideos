@@ -1,0 +1,61 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "frames": 180,
+  "fps": 30,
+  "grain": {
+    "id": "g08",
+    "name": "Short Persistence",
+    "version": 1,
+    "rms_y_codes": 3.0,
+    "sigma_reference_px": 0.77,
+    "reference_short_side": 1440,
+    "update_hz": 30,
+    "rho": 0.35,
+    "mask_y": [
+      20,
+      64,
+      208,
+      235
+    ],
+    "range_y": [
+      16,
+      235
+    ],
+    "chroma": false,
+    "seed": 20261102
+  },
+  "input": "/Users/diplomat/ytvideos/Shared/Image_Motion/Cache/video/d4122e8bf3f36fd59a8406676a0519a6fc689d829c806b0d8902051b083c026e.mp4",
+  "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Work/image-motion-e710ec4a0e3d9ff855ed/scratch/bbbcd8e39d665e08186140bc1ff5668af2ecf80a7eaead89b74cfe89b518029e.finished.partial.mp4",
+  "camera": {
+    "position": [
+      [
+        0,
+        -0.04025000000000001,
+        -0.04025000000000001,
+        "linear"
+      ],
+      [
+        179,
+        -0.029750000000000054,
+        -0.029750000000000054
+      ]
+    ],
+    "scale": [
+      [
+        0,
+        1.0805,
+        1.0805,
+        "linear"
+      ],
+      [
+        179,
+        1.0595,
+        1.0595
+      ]
+    ]
+  },
+  "seed": 17698400885418872683,
+  "receipt": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/e710ec4a0e3d9ff855ed/bbbcd8e39d665e08186140bc1ff5668af2ecf80a7eaead89b74cfe89b518029e.finish-receipt.json",
+  "log": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/e710ec4a0e3d9ff855ed/finish.log"
+}

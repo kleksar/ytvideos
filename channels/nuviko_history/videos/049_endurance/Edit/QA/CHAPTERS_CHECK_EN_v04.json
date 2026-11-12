@@ -1,0 +1,123 @@
+{
+  "formal_validation": "passed",
+  "media_review": "not_assessed",
+  "duration_seconds": 559.866667,
+  "chapters": [
+    {
+      "timestamp": "00:00",
+      "seconds": 0,
+      "title": "Twenty-eight men stranded",
+      "duration_seconds": 46
+    },
+    {
+      "timestamp": "00:46",
+      "seconds": 46,
+      "title": "Shackleton's plan and the loss of Endurance",
+      "duration_seconds": 64
+    },
+    {
+      "timestamp": "01:50",
+      "seconds": 110,
+      "title": "From drifting ice to Elephant Island",
+      "duration_seconds": 61
+    },
+    {
+      "timestamp": "02:51",
+      "seconds": 171,
+      "title": "A plan to cross 800 miles in a lifeboat",
+      "duration_seconds": 84
+    },
+    {
+      "timestamp": "04:15",
+      "seconds": 255,
+      "title": "Finding South Georgia",
+      "duration_seconds": 93
+    },
+    {
+      "timestamp": "05:48",
+      "seconds": 348,
+      "title": "Crossing the mountains on foot",
+      "duration_seconds": 81
+    },
+    {
+      "timestamp": "07:09",
+      "seconds": 429,
+      "title": "Three rescue attempts fail",
+      "duration_seconds": 30
+    },
+    {
+      "timestamp": "07:39",
+      "seconds": 459,
+      "title": "Yelcho joins the rescue",
+      "duration_seconds": 38
+    },
+    {
+      "timestamp": "08:17",
+      "seconds": 497,
+      "title": "The rescue and the final count",
+      "duration_seconds": 62.86666700000001
+    }
+  ],
+  "media": {
+    "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Deliverables/Endurance_en_review_v04.mp4",
+    "sha256": "5cb856cda02053b40f0309a95617253a41aae457cf8d607b01eb8fbd724dc059"
+  },
+  "chapter_block": {
+    "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Packaging/Metadata/CHAPTERS_EN_v03.txt",
+    "sha256": "1df176fcf593e31a8d0523014246cabb84363a921424bcff29a622a8cc56d346"
+  },
+  "edit": {
+    "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Edit/ENDURANCE_EN_EDIT_v04.json",
+    "sha256": "daa846480b6939a3846ddfae1e30153773ee97a2b10e54b8ae39136664705eb9"
+  },
+  "status": "machine-checked",
+  "verification_method": "Exact prior chapter times and visual scenes at chapter boundaries preserved. Word timings are identical and the final v04 duration and 30fps frame sequence were measured.",
+  "chapter_requirements": "https://support.google.com/youtube/answer/9884579?hl=en",
+  "boundary_evidence": {
+    "00:00": {
+      "shot": "S001",
+      "cut_seconds": 0.0,
+      "scene_start_words": "On November 21, 1915,"
+    },
+    "00:46": {
+      "shot": "S011",
+      "cut_seconds": 46.733333333333334,
+      "scene_start_words": "In 1914, Ernest Shackleton"
+    },
+    "01:50": {
+      "shot": "S024",
+      "cut_seconds": 110.3,
+      "scene_start_words": "Now the men had"
+    },
+    "02:51": {
+      "shot": "S037",
+      "cut_seconds": 171.13333333333333,
+      "scene_start_words": "Shackleton decided that a"
+    },
+    "04:15": {
+      "shot": "S055",
+      "cut_seconds": 255.4,
+      "scene_start_words": "James Caird was already"
+    },
+    "05:48": {
+      "shot": "S075",
+      "cut_seconds": 348.23333333333335,
+      "scene_start_words": "dangerous. Shackleton decided to"
+    },
+    "07:09": {
+      "shot": "S093",
+      "cut_seconds": 430.43333333333334,
+      "scene_start_words": "rescue attempt, aboard the"
+    },
+    "07:39": {
+      "shot": "S099",
+      "cut_seconds": 459.93333333333334,
+      "scene_start_words": "Shackleton secured a fourth"
+    },
+    "08:17": {
+      "shot": "S108",
+      "cut_seconds": 498.1666666666667,
+      "scene_start_words": "30, Yelcho reached Elephant"
+    }
+  }
+}

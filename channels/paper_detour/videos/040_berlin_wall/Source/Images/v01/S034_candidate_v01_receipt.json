@@ -1,0 +1,33 @@
+{
+  "scene_id": "S034",
+  "version": "candidate_v01",
+  "status": "ACCEPTED_STATIC_SOURCE",
+  "depiction": "generic start of televised press conference, no exact broadcast equipment or real-person likeness claim",
+  "selected_copy": "/Users/diplomat/ytvideos/channels/paper_detour/videos/040_berlin_wall/Source/Images/v01/S034_candidate_v01.png",
+  "source_image": "/Users/diplomat/.codex/generated_images/01a1a186-1011-7450-b9d7-7b0e7f1e2f40/exec-6fd98d49-c3d1-4013-927f-62eeed2aa2d7.png",
+  "sha256": "c5bebfd75342830cc183624d1fa77a2942960cc35dbce535e88b0c64f186e61a",
+  "reference_paths": [
+    "/Users/diplomat/ytvideos/channels/paper_detour/Shared/References/Paper/paper004_user_38.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/040_berlin_wall/Source/Images/v01/S032_candidate_v01.png"
+  ],
+  "reference_hashes": {
+    "/Users/diplomat/ytvideos/channels/paper_detour/Shared/References/Paper/paper004_user_38.png": "238bb11958c8e59224edcd006db060df0bddd0c9e100f795e44eeb537ebdc166",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/040_berlin_wall/Source/Images/v01/S032_candidate_v01.png": "40dac1c1754d4b0e5406dd5d13e65d5813122ae9722aa2c77e768aca391ef2ee"
+  },
+  "missing_catalog_anchor": "Paper Detour033 S01_v01.png unavailable locally and not used.",
+  "requested_generation_target": "3840x2160 landscape 16:9",
+  "actual_source_dimensions": "1672x941",
+  "image_tool_controls": "not exposed; target stated in prompt",
+  "delivery_target": "2560x1440 16:9 at 30 fps; whole-image motion pending",
+  "visual_review": {
+    "reviewer": "Codex author (not an independent reviewer)",
+    "scope": "full-frame inspected against Paper004 and S001/S032 press-room anchors",
+    "result": "ACCEPTED static composition: centered broadcast camera looks toward the generic official, with rows of journalists and the recurring three lights.",
+    "limitations": [
+      "Tool output below requested 4K target.",
+      "Camera and press room are illustrative, not an archival reconstruction.",
+      "Whole-image motion/crop/composite unverified."
+    ]
+  },
+  "prompt_file": "S034_candidate_v01_prompt.txt"
+}

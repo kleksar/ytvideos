@@ -1,0 +1,93 @@
+{
+  "old_video_id": "8PwziOHGxag",
+  "replacement_video_id": "4ZkHRuUEaYE",
+  "channel_id": "UCMVfdfaNxV3ZkI3_J3Eejzw",
+  "before": {
+    "kind": "youtube#video",
+    "etag": "-Zovr-ACTwaTAfpfpLFdpdTZXmU",
+    "id": "8PwziOHGxag",
+    "snippet": {
+      "publishedAt": "2026-11-02T04:16:04Z",
+      "channelId": "UCMVfdfaNxV3ZkI3_J3Eejzw",
+      "title": "Paper Detour — Grain Test 01 | 15 seconds | 4K | Private Review",
+      "description": "Private technical grain review, not a release. 15-second excerpt from the accepted Paper Detour 030 parallax preview: source frames 811–1260 (V07–V09). Draft PD Grain 01: monochrome luma-only grain added after 1080p-to-2160p resizing, 30 fps, peak RMS 1.2 eight-bit luma codes, Gaussian sigma 0.68 UHD pixels, temporal correlation 0.65, protected shadows and highlights. Existing accepted audio reused without remix. Please compare 2160p and 1080p playback. This preset awaits visual approval and is not enabled in the production workflow.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i9.ytimg.com/vi/8PwziOHGxag/default.jpg?sqp=CPSloNcG&rs=AOn4CLD0dYsOzL_B2fu-Sx4GI96RZIPX9g",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i9.ytimg.com/vi/8PwziOHGxag/mqdefault.jpg?sqp=CPSloNcG&rs=AOn4CLCy-zcoZgbKHYguiKXv7aP2Lgx7Zg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i9.ytimg.com/vi/8PwziOHGxag/hqdefault.jpg?sqp=CPSloNcG&rs=AOn4CLCtcL5C3LgZ4tZ6roINvDqx2_SimA",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i9.ytimg.com/vi/8PwziOHGxag/sddefault.jpg?sqp=CPSloNcG&rs=AOn4CLD529baEHBfQZvfNsyKEWbz0fE9gw",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i9.ytimg.com/vi/8PwziOHGxag/maxresdefault.jpg?sqp=CPSloNcG&rs=AOn4CLDAkioSHzC2nI7R94Ae_nE_Op8YFg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Paper Detour",
+      "categoryId": "27",
+      "liveBroadcastContent": "none",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "Paper Detour — Grain Test 01 | 15 seconds | 4K | Private Review",
+        "description": "Private technical grain review, not a release. 15-second excerpt from the accepted Paper Detour 030 parallax preview: source frames 811–1260 (V07–V09). Draft PD Grain 01: monochrome luma-only grain added after 1080p-to-2160p resizing, 30 fps, peak RMS 1.2 eight-bit luma codes, Gaussian sigma 0.68 UHD pixels, temporal correlation 0.65, protected shadows and highlights. Existing accepted audio reused without remix. Please compare 2160p and 1080p playback. This preset awaits visual approval and is not enabled in the production workflow."
+      },
+      "defaultAudioLanguage": "en"
+    },
+    "status": {
+      "uploadStatus": "processed",
+      "privacyStatus": "private",
+      "license": "youtube",
+      "embeddable": true,
+      "publicStatsViewable": true,
+      "madeForKids": false,
+      "selfDeclaredMadeForKids": false
+    },
+    "processingDetails": {
+      "processingStatus": "succeeded",
+      "fileDetailsAvailability": "available",
+      "processingIssuesAvailability": "available",
+      "tagSuggestionsAvailability": "inProgress",
+      "editorSuggestionsAvailability": "inProgress",
+      "thumbnailsAvailability": "available"
+    }
+  },
+  "attempted_utc": "2026-11-02T04:37:08.198582+00:00",
+  "status": "deleted_verified",
+  "delete_http_status": 204,
+  "reconciliation_read": {
+    "items": [
+      {
+        "id": "4ZkHRuUEaYE",
+        "status": {
+          "uploadStatus": "processed",
+          "privacyStatus": "private",
+          "license": "youtube",
+          "embeddable": true,
+          "publicStatsViewable": true,
+          "madeForKids": false,
+          "selfDeclaredMadeForKids": false
+        }
+      }
+    ]
+  },
+  "old_absent_verified": true,
+  "old_deleted_status_verified": false,
+  "replacement_preserved_verified": true,
+  "verified_utc": "2026-11-02T04:39:18.208171+00:00",
+  "consistency_note": "First read immediately after DELETE 204 still returned old resource. No second DELETE was sent. Later read returned only replacement ID; old ID absent."
+}

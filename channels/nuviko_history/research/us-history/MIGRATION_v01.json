@@ -1,0 +1,59 @@
+{
+  "migration": "v01",
+  "date": "2026-11-06",
+  "source_path": "channels/nuviko_history/research/2026-11-06-us-story-v14.md",
+  "source_sha256": "b6d87f3d56cd6e997e6efa1b075302e852fb8948792ced506c9224aa05064b2e",
+  "canonical_document": "channels/nuviko_history/research/us-history/EPISODE.md",
+  "narration_revision": "narration-ru-draft-v14",
+  "paragraph_join_rule": "strip outer blank lines per original heading section; join blocks with two newlines; headings excluded",
+  "narration_sha256": "60aa06a57dea566acbe4439715fe7fd15b583bad7f9af3bfc065fbef11ea493f",
+  "blocks": [
+    {
+      "id": "N001",
+      "original_heading": "Вступление",
+      "text_sha256": "7dc02c85bb97b53fd4b1445674626216fdd5fa60fa0ada5f7385aaa971474f26"
+    },
+    {
+      "id": "N002",
+      "original_heading": "Новая страна",
+      "text_sha256": "eac9c9b0f643b893f07157a6c70eecd8af637df3b31959d54f3399b5862999a3"
+    },
+    {
+      "id": "N003",
+      "original_heading": "Сделка, изменившая карту",
+      "text_sha256": "88ff3894818b2dd57bc370dc7fa7d3e2cf1335aede42dbe2f4ef6c9b29181ea6"
+    },
+    {
+      "id": "N004",
+      "original_heading": "Линия через карту",
+      "text_sha256": "bbe186ead4a2bce56b30c06e7f75af15e318baa7917b19fd9e3786a982d0dfcf"
+    },
+    {
+      "id": "N005",
+      "original_heading": "Люди на пути расширения",
+      "text_sha256": "a0aa09a0a4f2f420e663743ca6c6a748ec1f9b0f7430136055b50a2b09cbc95a"
+    },
+    {
+      "id": "N006",
+      "original_heading": "От Техаса до Тихого океана",
+      "text_sha256": "b1541ee4d0fbf39f1e2f4d9af67e3085b07a2fc1d74ce2ab640d99bf5d9a5fa2"
+    },
+    {
+      "id": "N007",
+      "original_heading": "Компромиссы начинают рушиться",
+      "text_sha256": "f82b3964a3881de83cd1c06d4e7e4f1e5214e0a960b363540f061511337015a1"
+    },
+    {
+      "id": "N008",
+      "original_heading": "Раскол",
+      "text_sha256": "45f25917cf7c778e69862a91ad8aad8771425a860a7aade8884687deb1bb226d"
+    },
+    {
+      "id": "N009",
+      "original_heading": "Карта после войны",
+      "text_sha256": "6e15f6e08bd623d31fd04a54ed7eaa00b9bd1db2e0d827c0d1ff0d9234064d58"
+    }
+  ],
+  "verification": "exact text equality for every original section; no wording changes",
+  "limits": "migration only; no new editorial review, factcheck, production or acceptance"
+}

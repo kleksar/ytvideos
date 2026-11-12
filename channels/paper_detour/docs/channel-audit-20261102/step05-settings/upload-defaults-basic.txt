@@ -1,0 +1,231 @@
+- generic: Все изменения сохранены.
+- banner:
+  - button "Свернуть меню":
+  - link "Панель управления в новой Творческой студии":
+    - /url: /channel/UCMVfdfaNxV3ZkI3_J3Eejzw
+    - img "Панель управления в новой Творческой студии"
+  - button "Пропустить навигацию":
+    - generic: Пропустить навигацию
+  - textbox "Поиск на канале"
+  - button "Справка":
+  - button "Уведомления":
+  - button "Спросить у Студии":
+    - generic: Спросить у Студии
+  - button "Создать":
+    - generic: Создать
+  - generic "Аккаунт":
+    - button "Account"
+- navigation:
+  - img "Paper Detour"
+  - generic: Ваш канал
+  - generic: Paper Detour
+  - menu:
+    - menuitem "Главная":
+      - generic: Главная
+    - menuitem "Контент":
+      - generic: Контент
+    - menuitem "Аналитика":
+      - generic: Аналитика
+    - menuitem "Сообщество":
+      - generic: Сообщество
+    - menuitem "Языки":
+      - generic: Языки
+    - menuitem "Обнаружение контента":
+      - generic: Обнаружение контента
+    - menuitem "Монетизация":
+      - generic: Монетизация
+    - menuitem "Настройка канала":
+      - generic: Настройка канала
+    - menuitem "Фонотека":
+      - generic: Фонотека
+  - list:
+    - button "Настройки":
+      - generic: Настройки
+    - button "Отправить отзыв":
+      - generic: Отправить отзыв
+- main:
+  - heading "Панель управления каналом" [level=1]
+  - button "Добавить видео":
+  - link "Начать трансляцию":
+    - /url: /channel/UCMVfdfaNxV3ZkI3_J3Eejzw/livestreaming
+    - button "Начать трансляцию":
+  - link "Создать запись":
+    - /url: https://www.youtube.com/channel/UCMVfdfaNxV3ZkI3_J3Eejzw/posts?show_create_dialog=1
+    - button "Создать запись":
+  - heading "Эффективность последнего видео" [level=2]
+  - 'img "Значок видео \"Galveston: The City That Raised Its Ground\""'
+  - heading [level=2]: "Galveston: The City That Raised Its Ground"
+  - text: "3"
+  - text: "0"
+  - text: "0"
+  - button "Свернуть":
+  - separator
+  - generic: 3 часа 7 минут после публикации
+  - button "Просмотры 3":
+    - generic: Просмотры
+    - generic: "3"
+  - button "CTR для значков видео 0 %":
+    - generic: CTR для значков видео
+    - generic: 0 %
+  - button "Средняя продолжительность просмотра 0:36":
+    - generic: Средняя продолжительность просмотра
+    - generic: 0:36
+  - button "Анализ результатов этого видео":
+    - generic: Анализ результатов этого видео
+  - link "Посмотреть статистику по видео":
+    - /url: /video/lRkxm3mij5o/analytics/tab-overview/period-default
+    - button "Посмотреть статистику по видео":
+  - link "Перейти к комментариям (0)":
+    - /url: /video/lRkxm3mij5o/comments/inbox
+    - button "Перейти к комментариям (0)":
+  - generic: Опубликованные видео
+  - list:
+    - 'link "She Saved 13 Kids in a Blizzard #BlizzardOf1888 #Shorts"':
+      - /url: /video/L553TNYK6C4/edit
+      - 'img "Значок видео \"She Saved 13 Kids in a Blizzard #BlizzardOf1888 #Shorts\""'
+    - 'heading "She Saved 13 Kids in a Blizzard #BlizzardOf1888 #Shorts" [level=3]'
+    - text: "0"
+    - text: "0"
+    - text: "0"
+    - link "They Shared a Burrow for 250 Million Years":
+      - /url: /video/UkwqGIqvink/edit
+      - img "Значок видео \"They Shared a Burrow for 250 Million Years\""
+    - heading "They Shared a Burrow for 250 Million Years" [level=3]
+    - text: "0"
+    - text: "0"
+    - text: "0"
+    - 'link "Mantis Shrimp Evolution: Spear or Hammer?"':
+      - /url: /video/Bfgcq4rxQT8/edit
+      - 'img "Значок видео \"Mantis Shrimp Evolution: Spear or Hammer?\""'
+    - 'heading "Mantis Shrimp Evolution: Spear or Hammer?" [level=3]'
+    - text: "0"
+    - text: "0"
+    - text: "0"
+    - link "We Found Their Tools. Where Are Their Clothes?":
+      - /url: /video/L7XCSsTc9vY/edit
+      - img "Значок видео \"We Found Their Tools. Where Are Their Clothes?\""
+    - heading "We Found Their Tools. Where Are Their Clothes?" [level=3]
+    - text: "5"
+    - text: "0"
+    - text: "0"
+    - link "Перейти к видео":
+      - /url: /channel/UCMVfdfaNxV3ZkI3_J3Eejzw/content
+      - button "Перейти к видео":
+        - generic: Перейти к видео
+  - generic: Ваша последняя запись на вкладке "Сообщество"
+  - list:
+    - generic: Paper Detour
+    - generic: •
+    - generic: 2 нояб. 2026 г.
+    - paragraph: "A lake drained into a salt mine. A canal reversed direction. And somehow, everyone made it out alive. The Lake Peigneur disaster of 1980 is one of the strangest real engineering accidents in history. What would have surprised you most: the giant whirlpool or the canal flowing backwards?"
+    - generic: "+2"
+    - separator
+    - generic: Отметки "Нравится"
+    - generic: "0"
+    - generic: Комментарии
+    - generic: "0"
+    - link "Открыть вкладку \"Записи\"":
+      - /url: https://www.youtube.com/channel/UCMVfdfaNxV3ZkI3_J3Eejzw/posts
+      - button "Открыть вкладку \"Записи\"":
+        - generic: Открыть вкладку "Записи"
+  - heading "Аналитика по каналу" [level=2]
+  - generic: Подписчики
+  - generic: "8"
+  - generic: + 4 за последние 28 дней
+  - separator
+  - generic: Сводные данные
+  - generic: Последние 28 дней
+  - generic: Просмотры
+  - generic: "944"
+  - generic: —
+  - generic: Время просмотра (часы)
+  - generic: 4,8
+  - generic: —
+  - separator
+  - text: Самый популярный контент
+  - generic: Последние 48 часов · Просмотры
+  - table:
+    - rowgroup:
+      - 'row "They Opened Her Coffin. She Sat Up. #IrishLegends #Shorts 598"':
+        - 'cell "They Opened Her Coffin. She Sat Up. #IrishLegends #Shorts"':
+          - 'link "They Opened Her Coffin. She Sat Up. #IrishLegends #Shorts"':
+            - /url: /video/pdSgHe6ScTI/analytics/tab-overview/period-default
+        - cell "598":
+          - link "598":
+            - /url: /video/pdSgHe6ScTI/analytics/tab-overview/period-default
+      - 'row "When Radio Sent Software as Sound #RetroComputing #Shorts 456"':
+        - 'cell "When Radio Sent Software as Sound #RetroComputing #Shorts"':
+          - 'link "When Radio Sent Software as Sound #RetroComputing #Shorts"':
+            - /url: /video/85dwIXy_lZs/analytics/tab-overview/period-default
+        - cell "456":
+          - link "456":
+            - /url: /video/85dwIXy_lZs/analytics/tab-overview/period-default
+      - 'row "The Taj Mahal Cost Him His Hands #TajMahal #Shorts 136"':
+        - 'cell "The Taj Mahal Cost Him His Hands #TajMahal #Shorts"':
+          - 'link "The Taj Mahal Cost Him His Hands #TajMahal #Shorts"':
+            - /url: /video/fvRm9Vxwagk/analytics/tab-overview/period-default
+        - cell "136":
+          - link "136":
+            - /url: /video/fvRm9Vxwagk/analytics/tab-overview/period-default
+  - link "Посмотреть статистику по каналу":
+    - /url: /channel/UCMVfdfaNxV3ZkI3_J3Eejzw/analytics/tab-overview/period-default
+    - button "Посмотреть статистику по каналу":
+      - generic: Посмотреть статистику по каналу
+  - heading "Новые подписчики" [level=2]
+  - generic: Последние 90 дней
+  - list:
+    - link "Steve Sinanian 11 подписчиков":
+      - /url: https://www.youtube.com/channel/UC4gB9uUTWzDVXC5PVYT2j5w/
+      - generic: Steve Sinanian
+      - generic: 11 подписчиков
+  - button "Показать всех":
+    - generic: Показать всех
+  - link "Условия использования":
+    - /url: https://www.youtube.com/t/terms
+  - link "Политика конфиденциальности":
+    - /url: https://policies.google.com/privacy?hl=ru
+  - link "Правила и безопасность":
+    - /url: https://www.youtube.com/yt/policyandsafety/
+- dialog "Настройки":
+  - dialog "Настройки":
+    - heading "Настройки" [level=1]
+    - menu:
+      - menuitem "Общие":
+        - generic: Общие
+      - menuitem "Канал":
+        - generic: Канал
+      - menuitem "Загрузка видео" [active]:
+        - generic: Загрузка видео
+      - menuitem "Разрешения":
+        - generic: Разрешения
+      - menuitem "Модерация сообщества":
+        - generic: Модерация сообщества
+      - menuitem "Продвижение":
+        - generic: Продвижение
+      - menuitem "Соглашения":
+        - generic: Соглашения
+    - tablist:
+      - tab "Основная информация" [selected]:
+        - generic: Основная информация
+      - tab "Расширенные настройки":
+        - generic: Расширенные настройки
+    - text: Название
+    - generic "Яркие названия помогают привлечь внимание зрителей. Отличная идея – добавить в название ролика ключевые слова, по которым зрители ищут подобный контент. Подробнее":
+    - textbox "Добавьте название, которое отражает содержание вашего ролика"
+    - text: Описание
+    - generic "Если вы хотите, чтобы ролик было проще найти, добавьте в его описание ключевые слова (желательно в начало) и напишите, чему посвящено видео. Подробнее":
+    - textbox "Расскажите, о чем ваше видео"
+    - button "Параметры доступа Ограниченный доступ":
+      - button "Параметры доступа Ограниченный доступ":
+        - generic: Параметры доступа
+        - generic: Ограниченный доступ
+    - generic: Теги
+    - textbox "Теги":
+      - /placeholder: Добавьте тег
+    - generic: Укажите значения через запятую.
+    - button "Закрыть":
+      - generic: Закрыть
+    - button "Сохранить" [disabled]:
+      - generic: Сохранить
+- tooltip "Загрузка видео":
+  - generic: Загрузка видео

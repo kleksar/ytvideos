@@ -1,0 +1,652 @@
+{
+  "canvas": [
+    1440,
+    2560
+  ],
+  "checks": {
+    "motion": "UNVERIFIED",
+    "scope": "assigned pairs at their selected anchors; static geometry only",
+    "sync": "UNVERIFIED",
+    "technical": "PASS",
+    "visual": "UNVERIFIED"
+  },
+  "cues": [
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              0,
+              0,
+              2172,
+              724
+            ]
+          ],
+          "mode": "creamOrange"
+        },
+        "path": "../../Assets/Generated/ffmpeg-v03/GRASS.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/004_last_video/Assets/Generated/accents-renewal-20261103-v03/cues/C01/cue.png",
+        "status": "ImageGen candidate; wording inherited from accepted timeline; visually reviewed",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/C01/face.png",
+      "face_mask_sha256": "4d6b5363b2e833ee14eee668d96a7c6c51f956d7bcf3e23172478b30643faf67",
+      "id": "C01",
+      "lines": [
+        "GRASS"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          60,
+          42,
+          530,
+          200
+        ],
+        "alpha_height_px": 158,
+        "alpha_width_px": 470,
+        "face_bbox": [
+          120,
+          51,
+          505,
+          161
+        ],
+        "face_height_px": 110,
+        "face_line_boxes": [
+          [
+            120,
+            51,
+            505,
+            161
+          ]
+        ],
+        "face_line_heights_px": [
+          110
+        ],
+        "size_px": [
+          629,
+          210
+        ]
+      },
+      "png": "cues/C01/cue.png",
+      "png_sha256": "cbb7c07400f4fa79094f30ae3430782eb4167b588e5cb42a1cb8aa0c737e62cb",
+      "provenance": {
+        "author": "Codex via ImageGen",
+        "record": "production-v03"
+      },
+      "timing": {
+        "note": "trigger from accepted word alignment; cue-sheet frames in Edit/ffmpeg/cue_sheet_v03.json",
+        "status": "ALIGNED_DRAFT"
+      },
+      "uniform_scale": 0.2894736842105263
+    },
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              0,
+              0,
+              2170,
+              725
+            ]
+          ],
+          "mode": "creamOrange"
+        },
+        "path": "../../Assets/Generated/ffmpeg-v03/ARRAKIS.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/004_last_video/Assets/Generated/accents-renewal-20261103-v03/cues/C01/cue.png",
+        "status": "ImageGen candidate; wording inherited from accepted timeline; visually reviewed",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/C02/face.png",
+      "face_mask_sha256": "6cc0805eff0d3ddb30814b428f243c363f81a50be320545fca8e8bfcf8a4b94c",
+      "id": "C02",
+      "lines": [
+        "ARRAKIS"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          43,
+          22,
+          593,
+          198
+        ],
+        "alpha_height_px": 176,
+        "alpha_width_px": 550,
+        "face_bbox": [
+          68,
+          52,
+          572,
+          162
+        ],
+        "face_height_px": 110,
+        "face_line_boxes": [
+          [
+            68,
+            52,
+            572,
+            162
+          ]
+        ],
+        "face_line_heights_px": [
+          110
+        ],
+        "size_px": [
+          644,
+          215
+        ]
+      },
+      "png": "cues/C02/cue.png",
+      "png_sha256": "516fea21e3e674ee2f8261daccbdff808a94ba1d04c76b28b906fdc63d058b04",
+      "provenance": {
+        "author": "Codex via ImageGen",
+        "record": "production-v03"
+      },
+      "timing": {
+        "note": "trigger from accepted word alignment; cue-sheet frames in Edit/ffmpeg/cue_sheet_v03.json",
+        "status": "ALIGNED_DRAFT"
+      },
+      "uniform_scale": 0.29649595687331537
+    },
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              0,
+              0,
+              2172,
+              724
+            ]
+          ],
+          "mode": "creamOrange"
+        },
+        "path": "../../Assets/Generated/ffmpeg-v03/DUNE.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/004_last_video/Assets/Generated/accents-renewal-20261103-v03/cues/C01/cue.png",
+        "status": "ImageGen candidate; wording inherited from accepted timeline; visually reviewed",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/C03/face.png",
+      "face_mask_sha256": "ac27133ca27913f5dd630ee1217711113cdce58b1adc2454b66f734199d8833d",
+      "id": "C03",
+      "lines": [
+        "DUNE"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          6,
+          4,
+          538,
+          183
+        ],
+        "alpha_height_px": 179,
+        "alpha_width_px": 532,
+        "face_bbox": [
+          113,
+          44,
+          452,
+          149
+        ],
+        "face_height_px": 105,
+        "face_line_boxes": [
+          [
+            113,
+            44,
+            452,
+            149
+          ]
+        ],
+        "face_line_heights_px": [
+          105
+        ],
+        "size_px": [
+          565,
+          189
+        ]
+      },
+      "png": "cues/C03/cue.png",
+      "png_sha256": "51162e55aa622c1bace04217f89a5c42c20c0c3fba6d9bcb8cdeadd62a2dd21b",
+      "provenance": {
+        "author": "Codex via ImageGen",
+        "record": "production-v03"
+      },
+      "timing": {
+        "note": "trigger from accepted word alignment; cue-sheet frames in Edit/ffmpeg/cue_sheet_v03.json",
+        "status": "ALIGNED_DRAFT"
+      },
+      "uniform_scale": 0.26004728132387706
+    }
+  ],
+  "helper_sha256": "86fcde095d01b3300ac1497f9f38c5f38494a740f5dcd987af9a8595d42a8150",
+  "helper_version": "1.1.0",
+  "inputs": [
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/004_last_video/Assets/Generated/accents-renewal-20261103-v03/cues/C01/cue.png",
+      "sha256": "36f61da82a27bebbcd909c2dbb55f1b07b6e4ac1a5d4c123b268cbe48bcafe04"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Assets/Generated/ffmpeg-v03/ARRAKIS.png",
+      "sha256": "d12640bc76ef583de963c06ed4ceff5204f14c1d8b3d8d1f2998beadc9dce323"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Assets/Generated/ffmpeg-v03/DUNE.png",
+      "sha256": "7a980c67a19b136bb36491282ec3fce0d0979308861ce336407648007d86be76"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Assets/Generated/ffmpeg-v03/GRASS.png",
+      "sha256": "4a6356fb5d68e9eba5268da590fe7a418ba1f5f3a6ebb10029c6d81adb9febd2"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Edit/ffmpeg/caption_input_v03.json",
+      "sha256": "0cda286099ee6f88ad924f7bdc1ba66e9cfcb21492ae5f0cc638e2af8dfab1f8"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Work/production-v03/preflight_scenes/S01.png",
+      "sha256": "73b4430767bd6959e72d96f3759a7ca8f60733d66f1959387b5c2d9f96f41ea8"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Work/production-v03/preflight_scenes/S02.png",
+      "sha256": "dec4eb67f8ea179a483b7ca07c784d7cee8bf0850604e24f4e51b8d1217a2fbf"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Work/production-v03/preflight_scenes/S03.png",
+      "sha256": "e5f1fdcb8f9272302bb5f2cdab027dbc9897e1153f11bd73139968bbc65cc11c"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Work/production-v03/preflight_scenes/S04.png",
+      "sha256": "34e167970bc4cd8778a037b8ecd12d9a9cd7e7e11bc565bc45463caa577f5213"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Work/production-v03/preflight_scenes/S05.png",
+      "sha256": "8a8c50d4b1c68ba50359a200b551f657eb0f01e38d0d7648fab3b059497c45e2"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Work/production-v03/preflight_scenes/S06.png",
+      "sha256": "74e422ad63034e33f7bc107d298d23631bc2e6f17c8cc1a3dcdc883516733dae"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Work/production-v03/preflight_scenes/S07.png",
+      "sha256": "9d63da81a6b17f6688014144fe257842b81e61e9e0149c33988ab7a7652284c7"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Work/production-v03/preflight_scenes/S08.png",
+      "sha256": "4f5903160d11b8a7bd0881b0be0e100a9c72445d61fd958daebc07be359af69e"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Work/production-v03/preflight_scenes/S09.png",
+      "sha256": "df90a91479f587fc7227d60383af997f2f1eadb4dc73e369f8194b02f79af129"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Work/production-v03/preflight_scenes/S10.png",
+      "sha256": "86b3cdf7b587cff2b1dba4497cb26509b479e36f25d9866c5fee1fa82e5610ee"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Work/production-v03/preflight_scenes/S11.png",
+      "sha256": "0053cc4211a4aae5493983b7875bdbd00a0200b35ed508075b1aea47c0d35594"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Work/production-v03/preflight_scenes/S12.png",
+      "sha256": "73b4430767bd6959e72d96f3759a7ca8f60733d66f1959387b5c2d9f96f41ea8"
+    }
+  ],
+  "manifest_sha256": "0cda286099ee6f88ad924f7bdc1ba66e9cfcb21492ae5f0cc638e2af8dfab1f8",
+  "pairs": [
+    {
+      "anchor": "primary",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.16
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              468,
+              346,
+              938,
+              504
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            408,
+            304
+          ],
+          "phone_preview": "../../../Work/ffmpeg-captions-v03b/previews/S02/C01/primary__phone.png",
+          "preview": "../../../Work/ffmpeg-captions-v03b/previews/S02/C01/primary.png"
+        }
+      ],
+      "cue": "C01",
+      "scene": "S02"
+    },
+    {
+      "anchor": "primary",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.16
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              443,
+              325,
+              993,
+              501
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            400,
+            303
+          ],
+          "phone_preview": "../../../Work/ffmpeg-captions-v03b/previews/S08/C02/primary__phone.png",
+          "preview": "../../../Work/ffmpeg-captions-v03b/previews/S08/C02/primary.png"
+        }
+      ],
+      "cue": "C02",
+      "scene": "S08"
+    },
+    {
+      "anchor": "primary",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.16
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              443,
+              325,
+              993,
+              501
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            400,
+            303
+          ],
+          "phone_preview": "../../../Work/ffmpeg-captions-v03b/previews/S09/C02/primary__phone.png",
+          "preview": "../../../Work/ffmpeg-captions-v03b/previews/S09/C02/primary.png"
+        }
+      ],
+      "cue": "C02",
+      "scene": "S09"
+    },
+    {
+      "anchor": "primary",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.16
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              444,
+              317,
+              976,
+              496
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            438,
+            313
+          ],
+          "phone_preview": "../../../Work/ffmpeg-captions-v03b/previews/S11/C03/primary__phone.png",
+          "preview": "../../../Work/ffmpeg-captions-v03b/previews/S11/C03/primary.png"
+        }
+      ],
+      "cue": "C03",
+      "scene": "S11"
+    },
+    {
+      "anchor": "primary",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.16
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              444,
+              317,
+              976,
+              496
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            438,
+            313
+          ],
+          "phone_preview": "../../../Work/ffmpeg-captions-v03b/previews/S12/C03/primary__phone.png",
+          "preview": "../../../Work/ffmpeg-captions-v03b/previews/S12/C03/primary.png"
+        }
+      ],
+      "cue": "C03",
+      "scene": "S12"
+    }
+  ],
+  "pillow_version": "11.3.0",
+  "shared_face_height_px": 110,
+  "source_manifest": {
+    "anchors": {
+      "primary": {
+        "center": [
+          0.5,
+          0.16
+        ],
+        "max_height_px": 360,
+        "max_width_px": 1300
+      }
+    },
+    "canvas": [
+      1440,
+      2560
+    ],
+    "cues": [
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                0,
+                0,
+                2172,
+                724
+              ]
+            ],
+            "mode": "creamOrange"
+          },
+          "path": "../../Assets/Generated/ffmpeg-v03/GRASS.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/004_last_video/Assets/Generated/accents-renewal-20261103-v03/cues/C01/cue.png",
+          "status": "ImageGen candidate; wording inherited from accepted timeline; visually reviewed",
+          "type": "existingPNG"
+        },
+        "id": "C01",
+        "lines": [
+          "GRASS"
+        ],
+        "provenance": {
+          "author": "Codex via ImageGen",
+          "record": "production-v03"
+        },
+        "timing": {
+          "note": "trigger from accepted word alignment; cue-sheet frames in Edit/ffmpeg/cue_sheet_v03.json",
+          "status": "ALIGNED_DRAFT"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                0,
+                0,
+                2170,
+                725
+              ]
+            ],
+            "mode": "creamOrange"
+          },
+          "path": "../../Assets/Generated/ffmpeg-v03/ARRAKIS.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/004_last_video/Assets/Generated/accents-renewal-20261103-v03/cues/C01/cue.png",
+          "status": "ImageGen candidate; wording inherited from accepted timeline; visually reviewed",
+          "type": "existingPNG"
+        },
+        "id": "C02",
+        "lines": [
+          "ARRAKIS"
+        ],
+        "provenance": {
+          "author": "Codex via ImageGen",
+          "record": "production-v03"
+        },
+        "timing": {
+          "note": "trigger from accepted word alignment; cue-sheet frames in Edit/ffmpeg/cue_sheet_v03.json",
+          "status": "ALIGNED_DRAFT"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                0,
+                0,
+                2172,
+                724
+              ]
+            ],
+            "mode": "creamOrange"
+          },
+          "path": "../../Assets/Generated/ffmpeg-v03/DUNE.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/004_last_video/Assets/Generated/accents-renewal-20261103-v03/cues/C01/cue.png",
+          "status": "ImageGen candidate; wording inherited from accepted timeline; visually reviewed",
+          "type": "existingPNG"
+        },
+        "id": "C03",
+        "lines": [
+          "DUNE"
+        ],
+        "provenance": {
+          "author": "Codex via ImageGen",
+          "record": "production-v03"
+        },
+        "timing": {
+          "note": "trigger from accepted word alignment; cue-sheet frames in Edit/ffmpeg/cue_sheet_v03.json",
+          "status": "ALIGNED_DRAFT"
+        }
+      }
+    ],
+    "face_height_px": 110,
+    "min_face_height_px": 100,
+    "pairs": [
+      {
+        "anchor": "primary",
+        "cue": "C01",
+        "scene": "S02"
+      },
+      {
+        "anchor": "primary",
+        "cue": "C02",
+        "scene": "S08"
+      },
+      {
+        "anchor": "primary",
+        "cue": "C02",
+        "scene": "S09"
+      },
+      {
+        "anchor": "primary",
+        "cue": "C03",
+        "scene": "S11"
+      },
+      {
+        "anchor": "primary",
+        "cue": "C03",
+        "scene": "S12"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "S01",
+        "path": "../../Work/production-v03/preflight_scenes/S01.png"
+      },
+      {
+        "id": "S02",
+        "path": "../../Work/production-v03/preflight_scenes/S02.png"
+      },
+      {
+        "id": "S03",
+        "path": "../../Work/production-v03/preflight_scenes/S03.png"
+      },
+      {
+        "id": "S04",
+        "path": "../../Work/production-v03/preflight_scenes/S04.png"
+      },
+      {
+        "id": "S05",
+        "path": "../../Work/production-v03/preflight_scenes/S05.png"
+      },
+      {
+        "id": "S06",
+        "path": "../../Work/production-v03/preflight_scenes/S06.png"
+      },
+      {
+        "id": "S07",
+        "path": "../../Work/production-v03/preflight_scenes/S07.png"
+      },
+      {
+        "id": "S08",
+        "path": "../../Work/production-v03/preflight_scenes/S08.png"
+      },
+      {
+        "id": "S09",
+        "path": "../../Work/production-v03/preflight_scenes/S09.png"
+      },
+      {
+        "id": "S10",
+        "path": "../../Work/production-v03/preflight_scenes/S10.png"
+      },
+      {
+        "id": "S11",
+        "path": "../../Work/production-v03/preflight_scenes/S11.png"
+      },
+      {
+        "id": "S12",
+        "path": "../../Work/production-v03/preflight_scenes/S12.png"
+      }
+    ],
+    "version": 1
+  },
+  "storage": {
+    "dependencies": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Assets/Generated/ffmpeg-captions-v03b",
+    "previews": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Work/ffmpeg-captions-v03b/previews"
+  },
+  "version": 1
+}

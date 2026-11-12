@@ -1,0 +1,25 @@
+{
+  "status": "completed",
+  "voice_id": "WfExDXCt2GBg6MI5KjQk",
+  "model": "eleven_v4",
+  "stability": 1.0,
+  "similarity_boost": 0.0,
+  "purpose": "user-requested Russian voice sample",
+  "requested_playback_speed": 1.1,
+  "text_file": "script_ru.txt",
+  "started_at": "2026-10-28T23:39:55.039362+00:00",
+  "completed_at": "2026-10-28T23:40:09.794302+00:00",
+  "outputs": {
+    "voice_ru.mp3": "f5e7adfe4577dfa615b2a5689dbdbf852bace94ced8ba60a9fe66bd0dd012d97",
+    "voice_ru.alignment.json": "8eb720cd69c54a7e93821aff8c2f59e55a4629bfb35d77d8eb0f0c6918645299",
+    "voice_ru_110.mp3": "90c28e934ed9af5eaef85083ad6919c6031e334a7db4e21feaf3e72fa45f0ae4",
+    "voice_ru_110_listen.mp3": "1e5aef2a0a7659b28129b33ce1ffb8b2fe53c81e2a2e280826e3aeda23ea7d07"
+  },
+  "verification": "Accelerated file decoded fully without ffmpeg errors; not audibly reviewed.",
+  "listening_copy": {
+    "source": "voice_ru_110.mp3",
+    "loudness_lufs": -18.4,
+    "true_peak_dbtp": -1.8,
+    "description": "EBU loudnorm with peak headroom; fully decoded, not audibly reviewed."
+  }
+}

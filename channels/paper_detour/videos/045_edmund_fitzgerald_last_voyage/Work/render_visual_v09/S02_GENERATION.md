@@ -1,0 +1,7 @@
+# S02 targeted label relocation
+
+Built-in image_gen edited the original scene reference, moving IRON ORE above the subtitle band while preserving the cargo ship cutaway, person, coast and 26,000+ TONS sign. Prompt: “Use case: precise-object-edit. Target: this paper diorama film scene. Preserve the entire ship, iron ore cutaway, person, coast, light, camera, materials and story. Move the freestanding paper sign reading exactly 'IRON ORE' up into the center of the cargo cutaway, clearly above the lowest quarter of the image, without obscuring the other sign. Keep the existing sign reading exactly '26,000+ TONS' legible above the lowest quarter as well. Reconstruct the former IRON ORE sign's position naturally as part of the same platform and water. Reserve bottom fifth for subtitles; do not add subtitles, borders or other text. Exact spelling. Landscape 16:9, high quality, at least 1672x941 pixels.”
+
+Reference: /Users/diplomat/ytvideos/channels/paper_detour/videos/045_edmund_fitzgerald_last_voyage/../../brand/References/meaningful_staging_20261105_v01/P01_cargo_cutaway.png
+Output: /Users/diplomat/ytvideos/channels/paper_detour/videos/045_edmund_fitzgerald_last_voyage/Source/Images/paper_v08/S02.png SHA256 d413cceec83a35a0b79f16299a9d87958207ec12428042bdfd55688a3f74fc9e
+Model and seed unknown. Visual inspection: both signs present and readable, bottom center clear; subject and visual style retained.

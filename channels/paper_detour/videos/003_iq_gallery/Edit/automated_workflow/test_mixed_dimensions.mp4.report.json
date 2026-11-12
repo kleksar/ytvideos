@@ -1,0 +1,272 @@
+{
+  "plan": {
+    "manifest": "/Users/diplomat/ytvideos/channels/paper_detour/videos/003_iq_gallery/Edit/automated_workflow/test_mixed_dimensions.json",
+    "output": "/Users/diplomat/ytvideos/channels/paper_detour/videos/003_iq_gallery/Edit/automated_workflow/test_mixed_dimensions.mp4",
+    "report": "/Users/diplomat/ytvideos/channels/paper_detour/videos/003_iq_gallery/Edit/automated_workflow/test_mixed_dimensions.mp4.report.json",
+    "format": "270x480 30fps",
+    "frames": 120,
+    "audio": "/Users/diplomat/ytvideos/channels/paper_detour/legacy/025_iq_gallery/Deliverables/025_iq_gallery_paper_detour_60s_v2.mp4",
+    "grain": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Shorts/02_decoder/Source/Graphics/director_trial_20261031/film_grain_vertical_8s_prores4444.mov",
+    "audio_duration": 60.0,
+    "transition_frames": 12,
+    "scenes": [
+      {
+        "frames": 60,
+        "source_dimensions": {
+          "background": [
+            940,
+            1672
+          ],
+          "midground": [
+            1024,
+            1536
+          ],
+          "foreground": [
+            1536,
+            1024
+          ]
+        },
+        "glyph_count": 4,
+        "glyph_sources": [
+          {
+            "char": "J",
+            "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/003_iq_gallery/Source/Graphics/names/john_f_kennedy_roomy_v1.png",
+            "dimensions": [
+              2200,
+              715
+            ]
+          },
+          {
+            "char": "I",
+            "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/003_iq_gallery/Source/Graphics/iq_letters_generated.png",
+            "dimensions": [
+              1536,
+              1024
+            ]
+          },
+          {
+            "char": "1",
+            "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/003_iq_gallery/Source/Graphics/digit_1_reference.png",
+            "dimensions": [
+              1300,
+              1210
+            ]
+          },
+          {
+            "char": "9",
+            "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/003_iq_gallery/Source/Graphics/digit_9_generated.png",
+            "dimensions": [
+              1270,
+              1239
+            ]
+          }
+        ],
+        "layers": {
+          "background": "/Users/diplomat/ytvideos/channels/paper_detour/videos/003_iq_gallery/Edit/automated_workflow/test_bg_940x1672.png",
+          "midground": "/Users/diplomat/ytvideos/channels/paper_detour/videos/003_iq_gallery/Edit/automated_workflow/test_mg_1024x1536.png",
+          "foreground": "/Users/diplomat/ytvideos/channels/paper_detour/videos/003_iq_gallery/Edit/automated_workflow/test_fg_1536x1024.png"
+        }
+      },
+      {
+        "frames": 60,
+        "source_dimensions": {
+          "background": [
+            940,
+            1672
+          ],
+          "midground": [
+            1024,
+            1536
+          ],
+          "foreground": [
+            1536,
+            1024
+          ]
+        },
+        "glyph_count": 4,
+        "glyph_sources": [
+          {
+            "char": "J",
+            "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/003_iq_gallery/Source/Graphics/names/john_f_kennedy_roomy_v1.png",
+            "dimensions": [
+              2200,
+              715
+            ]
+          },
+          {
+            "char": "I",
+            "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/003_iq_gallery/Source/Graphics/iq_letters_generated.png",
+            "dimensions": [
+              1536,
+              1024
+            ]
+          },
+          {
+            "char": "1",
+            "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/003_iq_gallery/Source/Graphics/digit_1_reference.png",
+            "dimensions": [
+              1300,
+              1210
+            ]
+          },
+          {
+            "char": "9",
+            "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/003_iq_gallery/Source/Graphics/digit_9_generated.png",
+            "dimensions": [
+              1270,
+              1239
+            ]
+          }
+        ],
+        "layers": {
+          "background": "/Users/diplomat/ytvideos/channels/paper_detour/videos/003_iq_gallery/Edit/automated_workflow/test_bg_940x1672.png",
+          "midground": "/Users/diplomat/ytvideos/channels/paper_detour/videos/003_iq_gallery/Edit/automated_workflow/test_mg_1024x1536.png",
+          "foreground": "/Users/diplomat/ytvideos/channels/paper_detour/videos/003_iq_gallery/Edit/automated_workflow/test_fg_1536x1024.png"
+        }
+      }
+    ]
+  },
+  "actual": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "High",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "mime_codec_string": "avc1.640015",
+        "width": 270,
+        "height": 480,
+        "coded_width": 270,
+        "coded_height": 480,
+        "has_b_frames": 2,
+        "sample_aspect_ratio": "1:1",
+        "display_aspect_ratio": "9:16",
+        "pix_fmt": "yuv420p",
+        "level": 21,
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "30/1",
+        "avg_frame_rate": "30/1",
+        "time_base": "1/15360",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 61440,
+        "duration": "4.000000",
+        "bit_rate": "348468",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "120",
+        "extradata_size": 47,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "encoder": "Lavc62.28.102 libx264"
+        }
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_long_name": "AAC (Advanced Audio Coding)",
+        "profile": "LC",
+        "codec_type": "audio",
+        "codec_tag_string": "mp4a",
+        "codec_tag": "0x6134706d",
+        "mime_codec_string": "mp4a.40.2",
+        "sample_fmt": "fltp",
+        "sample_rate": "44100",
+        "channels": 2,
+        "channel_layout": "stereo",
+        "bits_per_sample": 0,
+        "initial_padding": 0,
+        "id": "0x2",
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/44100",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 177150,
+        "duration": "4.017007",
+        "bit_rate": "241813",
+        "nb_frames": "174",
+        "extradata_size": 5,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "SoundHandler"
+        }
+      }
+    ],
+    "format": {
+      "filename": "/Users/diplomat/ytvideos/channels/paper_detour/videos/003_iq_gallery/Edit/automated_workflow/.iq_gallery_j398bymo/verified.mp4",
+      "nb_streams": 2,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "4.017007",
+      "size": "302067",
+      "bit_rate": "601576",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41",
+        "encoder": "Lavf62.12.102"
+      }
+    }
+  },
+  "validation": {
+    "complete_decode": true,
+    "audio": "source packet hashes match the output prefix; stream copy; no subjective listening",
+    "visual_review": "not performed by renderer",
+    "input_compatibility": "PNG CRC/decode and alpha checked; different source dimensions normalized; spatial composition, contact and hidden areas require independent visual review",
+    "intermediate": "H.264 CRF 14, final H.264 CRF 18"
+  }
+}

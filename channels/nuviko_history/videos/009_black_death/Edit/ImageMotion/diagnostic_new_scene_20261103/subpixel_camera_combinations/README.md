@@ -1,0 +1,5 @@
+# Subpixel camera tests
+
+Four six-second 1920x1080 variants use the same baked parallax 08/08_reverse as ../documented_camera_combinations. FFmpeg applies constant 1.1 scaling, then a linearly varying ±43.2px horizontal translation with perspective filter, cubic interpolation and per-frame evaluation, then a centered static 1920x1080 crop. This preserves 86.4px total authored whole-image travel and avoids the old moving crop's pixel rounding; no extra camera, grain, subtitles or audio. The same parallax may still have independent defects. Retained old tests. No production code/timeline changed.
+
+Verification: On a constant source still using the same camera paths, decoded grayscale 400x200 patch over 180 frames had 93/179 exactly identical consecutive pairs with the previous crop method, and 0/179 with the subpixel method (all differences measured before lossy output encoding). All four MP4 durations 6s; start/end background feature matching verified image-direction signs: +43, -42, +42, -43 pixels at half-size. No independent review or subjective playback comparison; interpolation and compression can still affect perceived smoothness.

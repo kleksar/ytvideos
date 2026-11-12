@@ -1,0 +1,76 @@
+{
+  "status": "PASS",
+  "all_segments_use_same120frame_sequence": true,
+  "checks": [
+    {
+      "preset": 1,
+      "motion_frame_hashes_identical_across_presets": "PASS",
+      "same_noise_field_holds_expected_frames": "PASS",
+      "underlying_video_changes_all_first3frames": "PASS",
+      "field_updates": 120
+    },
+    {
+      "preset": 2,
+      "motion_frame_hashes_identical_across_presets": "PASS",
+      "same_noise_field_holds_expected_frames": "PASS",
+      "underlying_video_changes_all_first3frames": "PASS",
+      "field_updates": 120
+    },
+    {
+      "preset": 3,
+      "motion_frame_hashes_identical_across_presets": "PASS",
+      "same_noise_field_holds_expected_frames": "PASS",
+      "underlying_video_changes_all_first3frames": "PASS",
+      "field_updates": 120
+    },
+    {
+      "preset": 4,
+      "motion_frame_hashes_identical_across_presets": "PASS",
+      "same_noise_field_holds_expected_frames": "PASS",
+      "underlying_video_changes_all_first3frames": "PASS",
+      "field_updates": 120
+    },
+    {
+      "preset": 5,
+      "motion_frame_hashes_identical_across_presets": "PASS",
+      "same_noise_field_holds_expected_frames": "PASS",
+      "underlying_video_changes_all_first3frames": "PASS",
+      "field_updates": 120
+    },
+    {
+      "preset": 6,
+      "motion_frame_hashes_identical_across_presets": "PASS",
+      "same_noise_field_holds_expected_frames": "PASS",
+      "underlying_video_changes_all_first3frames": "PASS",
+      "field_updates": 60
+    },
+    {
+      "preset": 7,
+      "motion_frame_hashes_identical_across_presets": "PASS",
+      "same_noise_field_holds_expected_frames": "PASS",
+      "underlying_video_changes_all_first3frames": "PASS",
+      "field_updates": 40
+    },
+    {
+      "preset": 8,
+      "motion_frame_hashes_identical_across_presets": "PASS",
+      "same_noise_field_holds_expected_frames": "PASS",
+      "underlying_video_changes_all_first3frames": "PASS",
+      "field_updates": 120
+    },
+    {
+      "preset": 9,
+      "motion_frame_hashes_identical_across_presets": "PASS",
+      "same_noise_field_holds_expected_frames": "PASS",
+      "underlying_video_changes_all_first3frames": "PASS",
+      "field_updates": 120
+    },
+    {
+      "preset": 10,
+      "motion_frame_hashes_identical_across_presets": "PASS",
+      "same_noise_field_holds_expected_frames": "PASS",
+      "underlying_video_changes_all_first3frames": "PASS",
+      "field_updates": 120
+    }
+  ]
+}

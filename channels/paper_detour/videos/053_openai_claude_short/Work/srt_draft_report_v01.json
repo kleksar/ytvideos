@@ -1,0 +1,156 @@
+{
+  "structure": "PASS",
+  "text_coverage": "PASS",
+  "timing_mapping": "UNVERIFIED",
+  "playback": "UNVERIFIED",
+  "readability": "N_A",
+  "limits": {},
+  "errors": [],
+  "warnings": [],
+  "cues": [
+    {
+      "cue": 1,
+      "lines": 1,
+      "longest_line": 39,
+      "duration_seconds": 2.261,
+      "characters_per_second": 17.249004865103934
+    },
+    {
+      "cue": 2,
+      "lines": 1,
+      "longest_line": 39,
+      "duration_seconds": 1.741,
+      "characters_per_second": 22.400919012062033
+    },
+    {
+      "cue": 3,
+      "lines": 1,
+      "longest_line": 52,
+      "duration_seconds": 3.202,
+      "characters_per_second": 16.239850093691444
+    },
+    {
+      "cue": 4,
+      "lines": 1,
+      "longest_line": 29,
+      "duration_seconds": 1.561,
+      "characters_per_second": 18.57783472133248
+    },
+    {
+      "cue": 5,
+      "lines": 1,
+      "longest_line": 37,
+      "duration_seconds": 2.081,
+      "characters_per_second": 17.7799135031235
+    },
+    {
+      "cue": 6,
+      "lines": 1,
+      "longest_line": 39,
+      "duration_seconds": 1.981,
+      "characters_per_second": 19.687026754164563
+    },
+    {
+      "cue": 7,
+      "lines": 1,
+      "longest_line": 49,
+      "duration_seconds": 2.942,
+      "characters_per_second": 16.65533650577838
+    },
+    {
+      "cue": 8,
+      "lines": 1,
+      "longest_line": 47,
+      "duration_seconds": 2.201,
+      "characters_per_second": 21.353930031803724
+    },
+    {
+      "cue": 9,
+      "lines": 1,
+      "longest_line": 17,
+      "duration_seconds": 1.06,
+      "characters_per_second": 16.037735849056602
+    },
+    {
+      "cue": 10,
+      "lines": 1,
+      "longest_line": 41,
+      "duration_seconds": 1.801,
+      "characters_per_second": 22.765130483064965
+    },
+    {
+      "cue": 11,
+      "lines": 1,
+      "longest_line": 44,
+      "duration_seconds": 1.661,
+      "characters_per_second": 26.490066225165563
+    },
+    {
+      "cue": 12,
+      "lines": 1,
+      "longest_line": 34,
+      "duration_seconds": 2.762,
+      "characters_per_second": 12.309920347574222
+    },
+    {
+      "cue": 13,
+      "lines": 1,
+      "longest_line": 23,
+      "duration_seconds": 1.761,
+      "characters_per_second": 13.06076093128904
+    },
+    {
+      "cue": 14,
+      "lines": 1,
+      "longest_line": 38,
+      "duration_seconds": 2.261,
+      "characters_per_second": 16.80672268907563
+    },
+    {
+      "cue": 15,
+      "lines": 1,
+      "longest_line": 48,
+      "duration_seconds": 2.161,
+      "characters_per_second": 22.211938917167977
+    },
+    {
+      "cue": 16,
+      "lines": 1,
+      "longest_line": 50,
+      "duration_seconds": 2.961,
+      "characters_per_second": 16.88618709895306
+    },
+    {
+      "cue": 17,
+      "lines": 1,
+      "longest_line": 38,
+      "duration_seconds": 1.921,
+      "characters_per_second": 19.781363872982823
+    },
+    {
+      "cue": 18,
+      "lines": 1,
+      "longest_line": 15,
+      "duration_seconds": 0.76,
+      "characters_per_second": 19.736842105263158
+    }
+  ],
+  "limits_note": "Readability metrics do not verify semantic breaks, player layout or hearing sync.",
+  "timebase": "final",
+  "duration_seconds": "43.640408",
+  "inputs": {
+    "text": {
+      "path": "channels/paper_detour/videos/053_openai_claude_short/Source/Script/narration_en_accepted_v01.txt",
+      "sha256": "4febf022e834ae632d4437a9a68513b6d03878837e9e327a23ea8dda42537ccc"
+    },
+    "build": {
+      "path": "channels/paper_detour/videos/053_openai_claude_short/Edit/Timeline/srt_cues_draft_v01.json",
+      "sha256": "640e39b0619a1ad1e9e9fbb23b78f1bbc54d592d390b34ad960216f98a774303"
+    }
+  },
+  "result": "MACHINE_CHECKED",
+  "output": {
+    "path": "channels/paper_detour/videos/053_openai_claude_short/Work/053_en_draft_v01.srt",
+    "sha256": "728b0b50ec934f9970777feb3b2d923ab73276248716b134de0e6ca831b8f90e"
+  }
+}

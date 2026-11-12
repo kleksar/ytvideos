@@ -1,0 +1,3241 @@
+{
+  "version": "nuviko_black_death_visual_score_v01",
+  "status": "DRAFT_PRODUCTION_MAP_REQUIRES_SCENE_IMAGE_GENERATION_AND_REVIEW",
+  "episode": "009_black_death",
+  "duration_seconds": 707.465578,
+  "fps": 30,
+  "total_frames": 21224,
+  "planned_unique_compositions": 142,
+  "duration_rule_frames_inclusive": [
+    120,
+    180
+  ],
+  "duration_rule": "Every source composition is one 4–6 second plan. Adjacent frame crops or motion changes do not count as new composition.",
+  "subtitles": "Use accepted Nuviko one-line continuous karaoke profile and cue map; subtitle layer is screen-space after scene motion.",
+  "motion": "Whole-image depth parallax before camera animation, then grain; screen text is composited after the image-motion render. Parameters require a clean low-amplitude pilot before full run.",
+  "sections": [
+    {
+      "id": "coins_and_cemetery",
+      "anchor": "At a plague cemetery in London",
+      "visual_intent": "Modern archaeological trench, careful recording of medieval coins and a grave near the Tower; distinguish the present excavation from the fourteenth-century event."
+    },
+    {
+      "id": "burial_and_decisions",
+      "anchor": "The cemetery was established near the Tower of London",
+      "visual_intent": "Medieval London in 1348–49: limited burial space, streets, household decisions, food and work continuing under fear."
+    },
+    {
+      "id": "trade_network",
+      "anchor": "Medieval Europe was not a collection of isolated villages",
+      "visual_intent": "Historically grounded ports, roads, cargo, grain, cloth, metal and ordinary travelers linking towns; avoid a single literal disease path."
+    },
+    {
+      "id": "pandemic_spread",
+      "anchor": "By the end of thirteen forty-seven",
+      "visual_intent": "Mediterranean port traffic and separate regions experiencing outbreaks at different times; no invented precise route."
+    },
+    {
+      "id": "city_supply",
+      "anchor": "Behind every point on the map",
+      "visual_intent": "A city gate and a food delivery problem: a guarded entrance cannot supply grain by itself."
+    },
+    {
+      "id": "symptoms_and_beliefs",
+      "anchor": "For someone who fell ill",
+      "visual_intent": "A household with a feverish person; historical interpretations shown as period beliefs, without diagnosing a specific victim."
+    },
+    {
+      "id": "pathogen_and_transmission",
+      "anchor": "The cause was a bacterium",
+      "visual_intent": "Naturalistic explanatory visuals of fleas, small mammals and close contact, only where narration names each route; avoid a single rat explaining the pandemic."
+    },
+    {
+      "id": "florence_choices",
+      "anchor": "When the sick person was a stranger",
+      "visual_intent": "Fourteenth-century Florence domestic spaces and street life reflecting isolation, moderation, tavern-going and departure as alternatives, not a universal census."
+    },
+    {
+      "id": "care_and_abandonment",
+      "anchor": "Particularly painful are the passages",
+      "visual_intent": "A household threshold, water or bread being carried to a sick person, and the difficulty of leaving; no identifiable reenactment of a documented individual."
+    },
+    {
+      "id": "east_smithfield_order",
+      "anchor": "And when we return to the London burials",
+      "visual_intent": "East Smithfield cemetery: individual graves and trench burials arranged in rows; respectful archaeological reconstruction, no careless dumping."
+    },
+    {
+      "id": "persecution",
+      "anchor": "At the same time, fear could lead",
+      "visual_intent": "Anti-Jewish accusations, exclusion and violence shown without spectacle; identify victims as people and do not depict false accusations as fact."
+    },
+    {
+      "id": "labor_consequences",
+      "anchor": "By the early thirteen fifties",
+      "visual_intent": "Fields and workshops short of workers; bargaining and movement constrained by owners and authorities."
+    },
+    {
+      "id": "labor_law",
+      "anchor": "In England, the response included",
+      "visual_intent": "A 1349 ordinance and 1351 Statute of Labourers represented through a period document and workers at a manor/workshop; no fabricated readable text."
+    },
+    {
+      "id": "dubrovnik_trade",
+      "anchor": "Ways of protecting a city from another outbreak also changed",
+      "visual_intent": "Late-fourteenth-century Ragusa/Dubrovnik as an Adriatic trading port; arriving people and goods separated beyond the city while trade continues."
+    },
+    {
+      "id": "isolation_supplies",
+      "anchor": "The wait itself was a severe ordeal",
+      "visual_intent": "A modest temporary isolation place, supplies carried from outside and controlled visits; do not portray the seventeenth-century Lazareti as already built in 1377."
+    },
+    {
+      "id": "quarantine",
+      "anchor": "Later, a forty-day period became widespread",
+      "visual_intent": "A measured passage of time and guarded threshold; 1377 order is thirty days, later forty-day practice gives the word quarantine."
+    },
+    {
+      "id": "london_genetics",
+      "anchor": "Now let us return to London",
+      "visual_intent": "Modern laboratory examination of ancient remains and a carefully abstract DNA detail tied back to the London burial."
+    },
+    {
+      "id": "chuy_valley",
+      "anchor": "Later, another important trace was found",
+      "visual_intent": "Chüy Valley in present-day Kyrgyzstan: marked medieval gravestones from 1338–39 and a careful excavation, no claim of identifying a first patient."
+    },
+    {
+      "id": "conclusion",
+      "anchor": "To understand how people lived through the disaster",
+      "visual_intent": "Return to London cemetery rows, the woman’s coins and unnamed workers; close on the work that continued, not a speculative portrait of her motive."
+    }
+  ],
+  "shots": [
+    {
+      "shot_id": "S001",
+      "frames": [
+        0,
+        149
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        0.0,
+        4.966667
+      ],
+      "narration_excerpt": "At a plague cemetery in London, archaeologists found one hundred and eighty-one coins.",
+      "section": "coins_and_cemetery",
+      "section_anchor": "At a plague cemetery in London",
+      "visual_intent": "Modern archaeological trench, careful recording of medieval coins and a grave near the Tower; distinguish the present excavation from the fourteenth-century event.",
+      "composition_type": "wide establishing",
+      "traveler_direction": "One upright traveler at right; no other people; no lying or crouching figure; left foreground open.",
+      "image_status": "GENERATED_CANDIDATE_PENDING_REVIEW",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots.",
+      "image": "Assets/Generated/remake_v01/scene001_london_excavation_v02.png"
+    },
+    {
+      "shot_id": "S002",
+      "frames": [
+        149,
+        298
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        4.966667,
+        9.933333
+      ],
+      "narration_excerpt": "coins. They lay in the grave of a woman who died during the epidemic. We do not know why the money",
+      "section": "coins_and_cemetery",
+      "section_anchor": "At a plague cemetery in London",
+      "visual_intent": "Modern archaeological trench, careful recording of medieval coins and a grave near the Tower; distinguish the present excavation from the fourteenth-century event.",
+      "composition_type": "medium action",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S003",
+      "frames": [
+        298,
+        448
+      ],
+      "duration_frames": 150,
+      "duration_seconds": 5.0,
+      "time_seconds": [
+        9.933333,
+        14.933333
+      ],
+      "narration_excerpt": "money remained with her. Perhaps people feared infection if they removed the dead woman's clothing.",
+      "section": "coins_and_cemetery",
+      "section_anchor": "At a plague cemetery in London",
+      "visual_intent": "Modern archaeological trench, careful recording of medieval coins and a grave near the Tower; distinguish the present excavation from the fourteenth-century event.",
+      "composition_type": "over-the-shoulder observation",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S004",
+      "frames": [
+        448,
+        597
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        14.933333,
+        19.9
+      ],
+      "narration_excerpt": "clothing. But the same cemetery holds another important detail. Even in the communal graves, bodies were",
+      "section": "coins_and_cemetery",
+      "section_anchor": "At a plague cemetery in London",
+      "visual_intent": "Modern archaeological trench, careful recording of medieval coins and a grave near the Tower; distinguish the present excavation from the fourteenth-century event.",
+      "composition_type": "close detail",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S005",
+      "frames": [
+        597,
+        747
+      ],
+      "duration_frames": 150,
+      "duration_seconds": 5.0,
+      "time_seconds": [
+        19.9,
+        24.9
+      ],
+      "narration_excerpt": "were carefully laid out in rows. Fear did not bring all essential work to a stop.",
+      "section": "coins_and_cemetery",
+      "section_anchor": "At a plague cemetery in London",
+      "visual_intent": "Modern archaeological trench, careful recording of medieval coins and a grave near the Tower; distinguish the present excavation from the fourteenth-century event.",
+      "composition_type": "high-angle spatial view",
+      "traveler_direction": "include the selected traveler as a restrained illustrated observer, placed where the action leaves natural space; keep him secondary to the historical evidence",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S006",
+      "frames": [
+        747,
+        896
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        24.9,
+        29.866667
+      ],
+      "narration_excerpt": "stop. Someone continued to do it. The cemetery was established near the Tower of London when plague",
+      "section": "coins_and_cemetery",
+      "section_anchor": "At a plague cemetery in London",
+      "visual_intent": "Modern archaeological trench, careful recording of medieval coins and a grave near the Tower; distinguish the present excavation from the fourteenth-century event.",
+      "composition_type": "ground-level perspective",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S007",
+      "frames": [
+        896,
+        1046
+      ],
+      "duration_frames": 150,
+      "duration_seconds": 5.0,
+      "time_seconds": [
+        29.866667,
+        34.866667
+      ],
+      "narration_excerpt": "plague reached the city in late thirteen forty-eight. Ordinary burial grounds were running out of space.",
+      "section": "burial_and_decisions",
+      "section_anchor": "The cemetery was established near the Tower of London",
+      "visual_intent": "Medieval London in 1348–49: limited burial space, streets, household decisions, food and work continuing under fear.",
+      "composition_type": "environmental portrait",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S008",
+      "frames": [
+        1046,
+        1195
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        34.866667,
+        39.833333
+      ],
+      "narration_excerpt": "space. People did not know what caused the disease. They had to decide whether to open the door to a neighbor,",
+      "section": "burial_and_decisions",
+      "section_anchor": "The cemetery was established near the Tower of London",
+      "visual_intent": "Medieval London in 1348–49: limited burial space, streets, household decisions, food and work continuing under fear.",
+      "composition_type": "hands and objects",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S009",
+      "frames": [
+        1195,
+        1345
+      ],
+      "duration_frames": 150,
+      "duration_seconds": 5.0,
+      "time_seconds": [
+        39.833333,
+        44.833333
+      ],
+      "narration_excerpt": "neighbor, care for a sick relative, or go to market. Lives depended on those decisions.",
+      "section": "burial_and_decisions",
+      "section_anchor": "The cemetery was established near the Tower of London",
+      "visual_intent": "Medieval London in 1348–49: limited burial space, streets, household decisions, food and work continuing under fear.",
+      "composition_type": "long-lens street view",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S010",
+      "frames": [
+        1345,
+        1494
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        44.833333,
+        49.8
+      ],
+      "narration_excerpt": "decisions. But people often had no reliable way to tell which choice was right. How do you protect",
+      "section": "burial_and_decisions",
+      "section_anchor": "The cemetery was established near the Tower of London",
+      "visual_intent": "Medieval London in 1348–49: limited burial space, streets, household decisions, food and work continuing under fear.",
+      "composition_type": "deep foreground-to-background composition",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S011",
+      "frames": [
+        1494,
+        1644
+      ],
+      "duration_frames": 150,
+      "duration_seconds": 5.0,
+      "time_seconds": [
+        49.8,
+        54.8
+      ],
+      "narration_excerpt": "protect yourself from a danger you cannot recognize? And how do you preserve a city when everyone is afraid",
+      "section": "burial_and_decisions",
+      "section_anchor": "The cemetery was established near the Tower of London",
+      "visual_intent": "Medieval London in 1348–49: limited burial space, streets, household decisions, food and work continuing under fear.",
+      "composition_type": "wide establishing",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S012",
+      "frames": [
+        1644,
+        1793
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        54.8,
+        59.766667
+      ],
+      "narration_excerpt": "afraid to come close to another person? Medieval Europe was not a collection of isolated villages.",
+      "section": "burial_and_decisions",
+      "section_anchor": "The cemetery was established near the Tower of London",
+      "visual_intent": "Medieval London in 1348–49: limited burial space, streets, household decisions, food and work continuing under fear.",
+      "composition_type": "medium action",
+      "traveler_direction": "include the selected traveler as a restrained illustrated observer, placed where the action leaves natural space; keep him secondary to the historical evidence",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S013",
+      "frames": [
+        1793,
+        1943
+      ],
+      "duration_frames": 150,
+      "duration_seconds": 5.0,
+      "time_seconds": [
+        59.766667,
+        64.766667
+      ],
+      "narration_excerpt": "villages. Cities needed grain, cloth, and metal. Ships sailed between ports,",
+      "section": "trade_network",
+      "section_anchor": "Medieval Europe was not a collection of isolated villages",
+      "visual_intent": "Historically grounded ports, roads, cargo, grain, cloth, metal and ordinary travelers linking towns; avoid a single literal disease path.",
+      "composition_type": "over-the-shoulder observation",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S014",
+      "frames": [
+        1943,
+        2092
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        64.766667,
+        69.733333
+      ],
+      "narration_excerpt": "ports, merchants carried goods across borders, and people traveled for work and returned home. This",
+      "section": "trade_network",
+      "section_anchor": "Medieval Europe was not a collection of isolated villages",
+      "visual_intent": "Historically grounded ports, roads, cargo, grain, cloth, metal and ordinary travelers linking towns; avoid a single literal disease path.",
+      "composition_type": "close detail",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S015",
+      "frames": [
+        2092,
+        2241
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        69.733333,
+        74.7
+      ],
+      "narration_excerpt": "This network made life possible even in places that could not produce everything they needed. It also",
+      "section": "trade_network",
+      "section_anchor": "Medieval Europe was not a collection of isolated villages",
+      "visual_intent": "Historically grounded ports, roads, cargo, grain, cloth, metal and ordinary travelers linking towns; avoid a single literal disease path.",
+      "composition_type": "high-angle spatial view",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S016",
+      "frames": [
+        2241,
+        2391
+      ],
+      "duration_frames": 150,
+      "duration_seconds": 5.0,
+      "time_seconds": [
+        74.7,
+        79.7
+      ],
+      "narration_excerpt": "also created routes for infection. Animals and parasites moved alongside people and cargo.",
+      "section": "trade_network",
+      "section_anchor": "Medieval Europe was not a collection of isolated villages",
+      "visual_intent": "Historically grounded ports, roads, cargo, grain, cloth, metal and ordinary travelers linking towns; avoid a single literal disease path.",
+      "composition_type": "ground-level perspective",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S017",
+      "frames": [
+        2391,
+        2540
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        79.7,
+        84.666667
+      ],
+      "narration_excerpt": "cargo. The disease could cross distances that no single sick person traveled from beginning to",
+      "section": "trade_network",
+      "section_anchor": "Medieval Europe was not a collection of isolated villages",
+      "visual_intent": "Historically grounded ports, roads, cargo, grain, cloth, metal and ordinary travelers linking towns; avoid a single literal disease path.",
+      "composition_type": "environmental portrait",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S018",
+      "frames": [
+        2540,
+        2690
+      ],
+      "duration_frames": 150,
+      "duration_seconds": 5.0,
+      "time_seconds": [
+        84.666667,
+        89.666667
+      ],
+      "narration_excerpt": "to end. By the end of thirteen forty-seven, the epidemic was spreading across the Mediterranean.",
+      "section": "trade_network",
+      "section_anchor": "Medieval Europe was not a collection of isolated villages",
+      "visual_intent": "Historically grounded ports, roads, cargo, grain, cloth, metal and ordinary travelers linking towns; avoid a single literal disease path.",
+      "composition_type": "hands and objects",
+      "traveler_direction": "include the selected traveler as a restrained illustrated observer, placed where the action leaves natural space; keep him secondary to the historical evidence",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S019",
+      "frames": [
+        2690,
+        2839
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        89.666667,
+        94.633333
+      ],
+      "narration_excerpt": "Mediterranean. The following year, it swept through Florence, reached England, and made its way to London.",
+      "section": "pandemic_spread",
+      "section_anchor": "By the end of thirteen forty-seven",
+      "visual_intent": "Mediterranean port traffic and separate regions experiencing outbreaks at different times; no invented precise route.",
+      "composition_type": "long-lens street view",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S020",
+      "frames": [
+        2839,
+        2989
+      ],
+      "duration_frames": 150,
+      "duration_seconds": 5.0,
+      "time_seconds": [
+        94.633333,
+        99.633333
+      ],
+      "narration_excerpt": "London. The disaster also affected other parts of Eurasia and North Africa. Looking at a map, it",
+      "section": "pandemic_spread",
+      "section_anchor": "By the end of thirteen forty-seven",
+      "visual_intent": "Mediterranean port traffic and separate regions experiencing outbreaks at different times; no invented precise route.",
+      "composition_type": "deep foreground-to-background composition",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S021",
+      "frames": [
+        2989,
+        3138
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        99.633333,
+        104.6
+      ],
+      "narration_excerpt": "it is tempting to draw a single line and trace the disease's movement. In reality, there were many",
+      "section": "pandemic_spread",
+      "section_anchor": "By the end of thirteen forty-seven",
+      "visual_intent": "Mediterranean port traffic and separate regions experiencing outbreaks at different times; no invented precise route.",
+      "composition_type": "wide establishing",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S022",
+      "frames": [
+        3138,
+        3288
+      ],
+      "duration_frames": 150,
+      "duration_seconds": 5.0,
+      "time_seconds": [
+        104.6,
+        109.6
+      ],
+      "narration_excerpt": "many routes and separate outbreaks. Neighboring regions could experience them very differently.",
+      "section": "pandemic_spread",
+      "section_anchor": "By the end of thirteen forty-seven",
+      "visual_intent": "Mediterranean port traffic and separate regions experiencing outbreaks at different times; no invented precise route.",
+      "composition_type": "medium action",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S023",
+      "frames": [
+        3288,
+        3437
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        109.6,
+        114.566667
+      ],
+      "narration_excerpt": "differently. News of the disaster could arrive before the disease itself. People in England knew of the approaching",
+      "section": "pandemic_spread",
+      "section_anchor": "By the end of thirteen forty-seven",
+      "visual_intent": "Mediterranean port traffic and separate regions experiencing outbreaks at different times; no invented precise route.",
+      "composition_type": "over-the-shoulder observation",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S024",
+      "frames": [
+        3437,
+        3587
+      ],
+      "duration_frames": 150,
+      "duration_seconds": 5.0,
+      "time_seconds": [
+        114.566667,
+        119.566667
+      ],
+      "narration_excerpt": "approaching danger before the first local outbreaks. But the warning did not answer the central question.",
+      "section": "pandemic_spread",
+      "section_anchor": "By the end of thirteen forty-seven",
+      "visual_intent": "Mediterranean port traffic and separate regions experiencing outbreaks at different times; no invented precise route.",
+      "composition_type": "close detail",
+      "traveler_direction": "include the selected traveler as a restrained illustrated observer, placed where the action leaves natural space; keep him secondary to the historical evidence",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S025",
+      "frames": [
+        3587,
+        3736
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        119.566667,
+        124.533333
+      ],
+      "narration_excerpt": "question. What should they do now? Behind every point on the map was a place that still needed",
+      "section": "pandemic_spread",
+      "section_anchor": "By the end of thirteen forty-seven",
+      "visual_intent": "Mediterranean port traffic and separate regions experiencing outbreaks at different times; no invented precise route.",
+      "composition_type": "high-angle spatial view",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S026",
+      "frames": [
+        3736,
+        3886
+      ],
+      "duration_frames": 150,
+      "duration_seconds": 5.0,
+      "time_seconds": [
+        124.533333,
+        129.533333
+      ],
+      "narration_excerpt": "needed food. An order could close the gates. An order alone could not feed the people inside.",
+      "section": "city_supply",
+      "section_anchor": "Behind every point on the map",
+      "visual_intent": "A city gate and a food delivery problem: a guarded entrance cannot supply grain by itself.",
+      "composition_type": "ground-level perspective",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S027",
+      "frames": [
+        3886,
+        4035
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        129.533333,
+        134.5
+      ],
+      "narration_excerpt": "inside. So, authorities faced a problem with no simple solution. How to limit dangerous",
+      "section": "city_supply",
+      "section_anchor": "Behind every point on the map",
+      "visual_intent": "A city gate and a food delivery problem: a guarded entrance cannot supply grain by itself.",
+      "composition_type": "environmental portrait",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S028",
+      "frames": [
+        4035,
+        4185
+      ],
+      "duration_frames": 150,
+      "duration_seconds": 5.0,
+      "time_seconds": [
+        134.5,
+        139.5
+      ],
+      "narration_excerpt": "dangerous connections without depriving a city of the things it needed to survive? For someone",
+      "section": "city_supply",
+      "section_anchor": "Behind every point on the map",
+      "visual_intent": "A city gate and a food delivery problem: a guarded entrance cannot supply grain by itself.",
+      "composition_type": "hands and objects",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S029",
+      "frames": [
+        4185,
+        4334
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        139.5,
+        144.466667
+      ],
+      "narration_excerpt": "someone who fell ill, that vast geography meant nothing. A fever began followed by",
+      "section": "symptoms_and_beliefs",
+      "section_anchor": "For someone who fell ill",
+      "visual_intent": "A household with a feverish person; historical interpretations shown as period beliefs, without diagnosing a specific victim.",
+      "composition_type": "long-lens street view",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S030",
+      "frames": [
+        4334,
+        4483
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        144.466667,
+        149.433333
+      ],
+      "narration_excerpt": "by severe weakness. In the bubonic form of plague, the lymph nodes became painfully",
+      "section": "symptoms_and_beliefs",
+      "section_anchor": "For someone who fell ill",
+      "visual_intent": "A household with a feverish person; historical interpretations shown as period beliefs, without diagnosing a specific victim.",
+      "composition_type": "deep foreground-to-background composition",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S031",
+      "frames": [
+        4483,
+        4633
+      ],
+      "duration_frames": 150,
+      "duration_seconds": 5.0,
+      "time_seconds": [
+        149.433333,
+        154.433333
+      ],
+      "narration_excerpt": "painfully swollen, often in the groin or under the arms. Sometimes the infection affected the blood",
+      "section": "symptoms_and_beliefs",
+      "section_anchor": "For someone who fell ill",
+      "visual_intent": "A household with a feverish person; historical interpretations shown as period beliefs, without diagnosing a specific victim.",
+      "composition_type": "wide establishing",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S032",
+      "frames": [
+        4633,
+        4782
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        154.433333,
+        159.4
+      ],
+      "narration_excerpt": "blood or lungs. Today, a doctor knows what infection such symptoms may indicate.",
+      "section": "symptoms_and_beliefs",
+      "section_anchor": "For someone who fell ill",
+      "visual_intent": "A household with a feverish person; historical interpretations shown as period beliefs, without diagnosing a specific victim.",
+      "composition_type": "medium action",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S033",
+      "frames": [
+        4782,
+        4932
+      ],
+      "duration_frames": 150,
+      "duration_seconds": 5.0,
+      "time_seconds": [
+        159.4,
+        164.4
+      ],
+      "narration_excerpt": "indicate. In the fourteenth century, people looked for different explanations. An imbalance within the body,",
+      "section": "symptoms_and_beliefs",
+      "section_anchor": "For someone who fell ill",
+      "visual_intent": "A household with a feverish person; historical interpretations shown as period beliefs, without diagnosing a specific victim.",
+      "composition_type": "over-the-shoulder observation",
+      "traveler_direction": "include the selected traveler as a restrained illustrated observer, placed where the action leaves natural space; keep him secondary to the historical evidence",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S034",
+      "frames": [
+        4932,
+        5081
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        164.4,
+        169.366667
+      ],
+      "narration_excerpt": "body, corrupted air, or the influence of heavenly bodies. Religious beliefs linked the",
+      "section": "symptoms_and_beliefs",
+      "section_anchor": "For someone who fell ill",
+      "visual_intent": "A household with a feverish person; historical interpretations shown as period beliefs, without diagnosing a specific victim.",
+      "composition_type": "close detail",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S035",
+      "frames": [
+        5081,
+        5231
+      ],
+      "duration_frames": 150,
+      "duration_seconds": 5.0,
+      "time_seconds": [
+        169.366667,
+        174.366667
+      ],
+      "narration_excerpt": "the disaster to punishment for sin. If someone believes the air is dangerous, fragrant",
+      "section": "symptoms_and_beliefs",
+      "section_anchor": "For someone who fell ill",
+      "visual_intent": "A household with a feverish person; historical interpretations shown as period beliefs, without diagnosing a specific victim.",
+      "composition_type": "high-angle spatial view",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S036",
+      "frames": [
+        5231,
+        5380
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        174.366667,
+        179.333333
+      ],
+      "narration_excerpt": "fragrant herbs and incense seem like reasonable protection. They act according to the knowledge available to them.",
+      "section": "symptoms_and_beliefs",
+      "section_anchor": "For someone who fell ill",
+      "visual_intent": "A household with a feverish person; historical interpretations shown as period beliefs, without diagnosing a specific victim.",
+      "composition_type": "ground-level perspective",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S037",
+      "frames": [
+        5380,
+        5530
+      ],
+      "duration_frames": 150,
+      "duration_seconds": 5.0,
+      "time_seconds": [
+        179.333333,
+        184.333333
+      ],
+      "narration_excerpt": "them. The problem is that this knowledge does not explain what is happening. The cause was",
+      "section": "symptoms_and_beliefs",
+      "section_anchor": "For someone who fell ill",
+      "visual_intent": "A household with a feverish person; historical interpretations shown as period beliefs, without diagnosing a specific victim.",
+      "composition_type": "environmental portrait",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S038",
+      "frames": [
+        5530,
+        5679
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        184.333333,
+        189.3
+      ],
+      "narration_excerpt": "was a bacterium, Yersinia pestis. It persists in natural reservoirs among small",
+      "section": "pathogen_and_transmission",
+      "section_anchor": "The cause was a bacterium",
+      "visual_intent": "Naturalistic explanatory visuals of fleas, small mammals and close contact, only where narration names each route; avoid a single rat explaining the pandemic.",
+      "composition_type": "hands and objects",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S039",
+      "frames": [
+        5679,
+        5829
+      ],
+      "duration_frames": 150,
+      "duration_seconds": 5.0,
+      "time_seconds": [
+        189.3,
+        194.3
+      ],
+      "narration_excerpt": "small mammals and their fleas. A person can become infected through the bite of an infected flea",
+      "section": "pathogen_and_transmission",
+      "section_anchor": "The cause was a bacterium",
+      "visual_intent": "Naturalistic explanatory visuals of fleas, small mammals and close contact, only where narration names each route; avoid a single rat explaining the pandemic.",
+      "composition_type": "long-lens street view",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S040",
+      "frames": [
+        5829,
+        5978
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        194.3,
+        199.266667
+      ],
+      "narration_excerpt": "flea or through contact with infected animal tissue. In the pneumonic form, transmission through respiratory",
+      "section": "pathogen_and_transmission",
+      "section_anchor": "The cause was a bacterium",
+      "visual_intent": "Naturalistic explanatory visuals of fleas, small mammals and close contact, only where narration names each route; avoid a single rat explaining the pandemic.",
+      "composition_type": "deep foreground-to-background composition",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S041",
+      "frames": [
+        5978,
+        6128
+      ],
+      "duration_frames": 150,
+      "duration_seconds": 5.0,
+      "time_seconds": [
+        199.266667,
+        204.266667
+      ],
+      "narration_excerpt": "respiratory droplets is possible during close contact with a sick person. Scientists are still",
+      "section": "pathogen_and_transmission",
+      "section_anchor": "The cause was a bacterium",
+      "visual_intent": "Naturalistic explanatory visuals of fleas, small mammals and close contact, only where narration names each route; avoid a single rat explaining the pandemic.",
+      "composition_type": "wide establishing",
+      "traveler_direction": "include the selected traveler as a restrained illustrated observer, placed where the action leaves natural space; keep him secondary to the historical evidence",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S042",
+      "frames": [
+        6128,
+        6277
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        204.266667,
+        209.233333
+      ],
+      "narration_excerpt": "still investigating which routes predominated in different medieval outbreaks. They also debate the role of",
+      "section": "pathogen_and_transmission",
+      "section_anchor": "The cause was a bacterium",
+      "visual_intent": "Naturalistic explanatory visuals of fleas, small mammals and close contact, only where narration names each route; avoid a single rat explaining the pandemic.",
+      "composition_type": "medium action",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S043",
+      "frames": [
+        6277,
+        6426
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        209.233333,
+        214.2
+      ],
+      "narration_excerpt": "of parasites that live on humans. A single diagram featuring a rat cannot confidently",
+      "section": "pathogen_and_transmission",
+      "section_anchor": "The cause was a bacterium",
+      "visual_intent": "Naturalistic explanatory visuals of fleas, small mammals and close contact, only where narration names each route; avoid a single rat explaining the pandemic.",
+      "composition_type": "over-the-shoulder observation",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S044",
+      "frames": [
+        6426,
+        6576
+      ],
+      "duration_frames": 150,
+      "duration_seconds": 5.0,
+      "time_seconds": [
+        214.2,
+        219.2
+      ],
+      "narration_excerpt": "confidently explain the entire pandemic. But people around someone who was ill saw a simpler sequence.",
+      "section": "pathogen_and_transmission",
+      "section_anchor": "The cause was a bacterium",
+      "visual_intent": "Naturalistic explanatory visuals of fleas, small mammals and close contact, only where narration names each route; avoid a single rat explaining the pandemic.",
+      "composition_type": "close detail",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S045",
+      "frames": [
+        6576,
+        6725
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        219.2,
+        224.166667
+      ],
+      "narration_excerpt": "sequence. One person became sick, and then someone nearby became sick, too. Even",
+      "section": "pathogen_and_transmission",
+      "section_anchor": "The cause was a bacterium",
+      "visual_intent": "Naturalistic explanatory visuals of fleas, small mammals and close contact, only where narration names each route; avoid a single rat explaining the pandemic.",
+      "composition_type": "high-angle spatial view",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S046",
+      "frames": [
+        6725,
+        6875
+      ],
+      "duration_frames": 150,
+      "duration_seconds": 5.0,
+      "time_seconds": [
+        224.166667,
+        229.166667
+      ],
+      "narration_excerpt": "Even without knowledge of bacteria, closeness began to inspire fear. And so, a question",
+      "section": "pathogen_and_transmission",
+      "section_anchor": "The cause was a bacterium",
+      "visual_intent": "Naturalistic explanatory visuals of fleas, small mammals and close contact, only where narration names each route; avoid a single rat explaining the pandemic.",
+      "composition_type": "ground-level perspective",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S047",
+      "frames": [
+        6875,
+        7024
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        229.166667,
+        234.133333
+      ],
+      "narration_excerpt": "question about disease became a question about another person. When the sick person was a stranger,",
+      "section": "pathogen_and_transmission",
+      "section_anchor": "The cause was a bacterium",
+      "visual_intent": "Naturalistic explanatory visuals of fleas, small mammals and close contact, only where narration names each route; avoid a single rat explaining the pandemic.",
+      "composition_type": "environmental portrait",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S048",
+      "frames": [
+        7024,
+        7174
+      ],
+      "duration_frames": 150,
+      "duration_seconds": 5.0,
+      "time_seconds": [
+        234.133333,
+        239.133333
+      ],
+      "narration_excerpt": "stranger, you could step away. But what could you do when the person who fell ill lived with you?",
+      "section": "florence_choices",
+      "section_anchor": "When the sick person was a stranger",
+      "visual_intent": "Fourteenth-century Florence domestic spaces and street life reflecting isolation, moderation, tavern-going and departure as alternatives, not a universal census.",
+      "composition_type": "hands and objects",
+      "traveler_direction": "include the selected traveler as a restrained illustrated observer, placed where the action leaves natural space; keep him secondary to the historical evidence",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S049",
+      "frames": [
+        7174,
+        7323
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        239.133333,
+        244.1
+      ],
+      "narration_excerpt": "you? In Florence, Giovanni Boccaccio described this change. In the introduction to the Decameron,",
+      "section": "florence_choices",
+      "section_anchor": "When the sick person was a stranger",
+      "visual_intent": "Fourteenth-century Florence domestic spaces and street life reflecting isolation, moderation, tavern-going and departure as alternatives, not a universal census.",
+      "composition_type": "long-lens street view",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S050",
+      "frames": [
+        7323,
+        7473
+      ],
+      "duration_frames": 150,
+      "duration_seconds": 5.0,
+      "time_seconds": [
+        244.1,
+        249.1
+      ],
+      "narration_excerpt": "Decameron, he recounts how people tried to survive the epidemic. Authorities removed refuse,",
+      "section": "florence_choices",
+      "section_anchor": "When the sick person was a stranger",
+      "visual_intent": "Fourteenth-century Florence domestic spaces and street life reflecting isolation, moderation, tavern-going and departure as alternatives, not a universal census.",
+      "composition_type": "deep foreground-to-background composition",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S051",
+      "frames": [
+        7473,
+        7622
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        249.1,
+        254.066667
+      ],
+      "narration_excerpt": "refuse, barred sick people from entering the city, and issued advice on staying healthy. Measures were taken,",
+      "section": "florence_choices",
+      "section_anchor": "When the sick person was a stranger",
+      "visual_intent": "Fourteenth-century Florence domestic spaces and street life reflecting isolation, moderation, tavern-going and departure as alternatives, not a universal census.",
+      "composition_type": "wide establishing",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S052",
+      "frames": [
+        7622,
+        7772
+      ],
+      "duration_frames": 150,
+      "duration_seconds": 5.0,
+      "time_seconds": [
+        254.066667,
+        259.066667
+      ],
+      "narration_excerpt": "taken, but the disaster could not be stopped. Some limited their contact with others, shut",
+      "section": "florence_choices",
+      "section_anchor": "When the sick person was a stranger",
+      "visual_intent": "Fourteenth-century Florence domestic spaces and street life reflecting isolation, moderation, tavern-going and departure as alternatives, not a universal census.",
+      "composition_type": "medium action",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S053",
+      "frames": [
+        7772,
+        7921
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        259.066667,
+        264.033333
+      ],
+      "narration_excerpt": "shut themselves away with a small circle of people, and tried to live moderately. Others drank,",
+      "section": "florence_choices",
+      "section_anchor": "When the sick person was a stranger",
+      "visual_intent": "Fourteenth-century Florence domestic spaces and street life reflecting isolation, moderation, tavern-going and departure as alternatives, not a universal census.",
+      "composition_type": "over-the-shoulder observation",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S054",
+      "frames": [
+        7921,
+        8071
+      ],
+      "duration_frames": 150,
+      "duration_seconds": 5.0,
+      "time_seconds": [
+        264.033333,
+        269.033333
+      ],
+      "narration_excerpt": "drank, visited taverns, and sought entertainment. Some left the city. This is a work of literature,",
+      "section": "florence_choices",
+      "section_anchor": "When the sick person was a stranger",
+      "visual_intent": "Fourteenth-century Florence domestic spaces and street life reflecting isolation, moderation, tavern-going and departure as alternatives, not a universal census.",
+      "composition_type": "close detail",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S055",
+      "frames": [
+        8071,
+        8220
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        269.033333,
+        274.0
+      ],
+      "narration_excerpt": "literature, not a census of how every Florentine behaved. But it reveals the fear of people who",
+      "section": "florence_choices",
+      "section_anchor": "When the sick person was a stranger",
+      "visual_intent": "Fourteenth-century Florence domestic spaces and street life reflecting isolation, moderation, tavern-going and departure as alternatives, not a universal census.",
+      "composition_type": "high-angle spatial view",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S056",
+      "frames": [
+        8220,
+        8370
+      ],
+      "duration_frames": 150,
+      "duration_seconds": 5.0,
+      "time_seconds": [
+        274.0,
+        279.0
+      ],
+      "narration_excerpt": "who no longer knew which of their habits were safe. Particularly painful are the passages about relatives",
+      "section": "florence_choices",
+      "section_anchor": "When the sick person was a stranger",
+      "visual_intent": "Fourteenth-century Florence domestic spaces and street life reflecting isolation, moderation, tavern-going and departure as alternatives, not a universal census.",
+      "composition_type": "ground-level perspective",
+      "traveler_direction": "include the selected traveler as a restrained illustrated observer, placed where the action leaves natural space; keep him secondary to the historical evidence",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S057",
+      "frames": [
+        8370,
+        8519
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        279.0,
+        283.966667
+      ],
+      "narration_excerpt": "relatives who left the sick without help. Boccaccio describes the breaking of bonds people usually",
+      "section": "care_and_abandonment",
+      "section_anchor": "Particularly painful are the passages",
+      "visual_intent": "A household threshold, water or bread being carried to a sick person, and the difficulty of leaving; no identifiable reenactment of a documented individual.",
+      "composition_type": "environmental portrait",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S058",
+      "frames": [
+        8519,
+        8668
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        283.966667,
+        288.933333
+      ],
+      "narration_excerpt": "usually rely on in a crisis. A home, where a person should have been cared for, could become a place",
+      "section": "care_and_abandonment",
+      "section_anchor": "Particularly painful are the passages",
+      "visual_intent": "A household threshold, water or bread being carried to a sick person, and the difficulty of leaving; no identifiable reenactment of a documented individual.",
+      "composition_type": "hands and objects",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S059",
+      "frames": [
+        8668,
+        8818
+      ],
+      "duration_frames": 150,
+      "duration_seconds": 5.0,
+      "time_seconds": [
+        288.933333,
+        293.933333
+      ],
+      "narration_excerpt": "place of isolation. Not everyone had the means to leave. Waiting out the disaster in the countryside",
+      "section": "care_and_abandonment",
+      "section_anchor": "Particularly painful are the passages",
+      "visual_intent": "A household threshold, water or bread being carried to a sick person, and the difficulty of leaving; no identifiable reenactment of a documented individual.",
+      "composition_type": "long-lens street view",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S060",
+      "frames": [
+        8818,
+        8967
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        293.933333,
+        298.9
+      ],
+      "narration_excerpt": "countryside required money, shelter, and people to provide for everyday life. In the Decameron itself,",
+      "section": "care_and_abandonment",
+      "section_anchor": "Particularly painful are the passages",
+      "visual_intent": "A household threshold, water or bread being carried to a sick person, and the difficulty of leaving; no identifiable reenactment of a documented individual.",
+      "composition_type": "deep foreground-to-background composition",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S061",
+      "frames": [
+        8967,
+        9117
+      ],
+      "duration_frames": 150,
+      "duration_seconds": 5.0,
+      "time_seconds": [
+        298.9,
+        303.9
+      ],
+      "narration_excerpt": "itself, the group that leaves Florence has those resources. But if everyone leaves, who will bring",
+      "section": "care_and_abandonment",
+      "section_anchor": "Particularly painful are the passages",
+      "visual_intent": "A household threshold, water or bread being carried to a sick person, and the difficulty of leaving; no identifiable reenactment of a documented individual.",
+      "composition_type": "wide establishing",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S062",
+      "frames": [
+        9117,
+        9266
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        303.9,
+        308.866667
+      ],
+      "narration_excerpt": "bring water to the sick? Who will bake bread? Who will take away the dead? This was one of the",
+      "section": "care_and_abandonment",
+      "section_anchor": "Particularly painful are the passages",
+      "visual_intent": "A household threshold, water or bread being carried to a sick person, and the difficulty of leaving; no identifiable reenactment of a documented individual.",
+      "composition_type": "medium action",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S063",
+      "frames": [
+        9266,
+        9416
+      ],
+      "duration_frames": 150,
+      "duration_seconds": 5.0,
+      "time_seconds": [
+        308.866667,
+        313.866667
+      ],
+      "narration_excerpt": "the epidemic's hardest contradictions. Staying away from the sick could reduce the danger to an individual,",
+      "section": "care_and_abandonment",
+      "section_anchor": "Particularly painful are the passages",
+      "visual_intent": "A household threshold, water or bread being carried to a sick person, and the difficulty of leaving; no identifiable reenactment of a documented individual.",
+      "composition_type": "over-the-shoulder observation",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S064",
+      "frames": [
+        9416,
+        9565
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        313.866667,
+        318.833333
+      ],
+      "narration_excerpt": "individual, yet someone still had to care for those who could no longer help themselves. And when we return",
+      "section": "care_and_abandonment",
+      "section_anchor": "Particularly painful are the passages",
+      "visual_intent": "A household threshold, water or bread being carried to a sick person, and the difficulty of leaving; no identifiable reenactment of a documented individual.",
+      "composition_type": "close detail",
+      "traveler_direction": "include the selected traveler as a restrained illustrated observer, placed where the action leaves natural space; keep him secondary to the historical evidence",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S065",
+      "frames": [
+        9565,
+        9715
+      ],
+      "duration_frames": 150,
+      "duration_seconds": 5.0,
+      "time_seconds": [
+        318.833333,
+        323.833333
+      ],
+      "narration_excerpt": "return to the London burials, it becomes clear that a story in which everyone fled would be incomplete.",
+      "section": "east_smithfield_order",
+      "section_anchor": "And when we return to the London burials",
+      "visual_intent": "East Smithfield cemetery: individual graves and trench burials arranged in rows; respectful archaeological reconstruction, no careless dumping.",
+      "composition_type": "high-angle spatial view",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S066",
+      "frames": [
+        9715,
+        9864
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        323.833333,
+        328.8
+      ],
+      "narration_excerpt": "incomplete. At the East Smithfield Cemetery, there were individual graves as well as communal burial trenches.",
+      "section": "east_smithfield_order",
+      "section_anchor": "And when we return to the London burials",
+      "visual_intent": "East Smithfield cemetery: individual graves and trench burials arranged in rows; respectful archaeological reconstruction, no careless dumping.",
+      "composition_type": "ground-level perspective",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S067",
+      "frames": [
+        9864,
+        10014
+      ],
+      "duration_frames": 150,
+      "duration_seconds": 5.0,
+      "time_seconds": [
+        328.8,
+        333.8
+      ],
+      "narration_excerpt": "trenches. It is easy to imagine the latter as chaotic pits, but archaeologists found carefully",
+      "section": "east_smithfield_order",
+      "section_anchor": "And when we return to the London burials",
+      "visual_intent": "East Smithfield cemetery: individual graves and trench burials arranged in rows; respectful archaeological reconstruction, no careless dumping.",
+      "composition_type": "environmental portrait",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S068",
+      "frames": [
+        10014,
+        10163
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        333.8,
+        338.766667
+      ],
+      "narration_excerpt": "carefully arranged bodies. The cemetery itself required organization. Land had to be set aside,",
+      "section": "east_smithfield_order",
+      "section_anchor": "And when we return to the London burials",
+      "visual_intent": "East Smithfield cemetery: individual graves and trench burials arranged in rows; respectful archaeological reconstruction, no careless dumping.",
+      "composition_type": "hands and objects",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S069",
+      "frames": [
+        10163,
+        10313
+      ],
+      "duration_frames": 150,
+      "duration_seconds": 5.0,
+      "time_seconds": [
+        338.766667,
+        343.766667
+      ],
+      "narration_excerpt": "aside, graves dug, the dead brought in, and burials carried out. The living did this",
+      "section": "east_smithfield_order",
+      "section_anchor": "And when we return to the London burials",
+      "visual_intent": "East Smithfield cemetery: individual graves and trench burials arranged in rows; respectful archaeological reconstruction, no careless dumping.",
+      "composition_type": "long-lens street view",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S070",
+      "frames": [
+        10313,
+        10462
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        343.766667,
+        348.733333
+      ],
+      "narration_excerpt": "work in a city where they too could fall ill. Excavations cannot tell us what each of them felt,",
+      "section": "east_smithfield_order",
+      "section_anchor": "And when we return to the London burials",
+      "visual_intent": "East Smithfield cemetery: individual graves and trench burials arranged in rows; respectful archaeological reconstruction, no careless dumping.",
+      "composition_type": "deep foreground-to-background composition",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S071",
+      "frames": [
+        10462,
+        10612
+      ],
+      "duration_frames": 150,
+      "duration_seconds": 5.0,
+      "time_seconds": [
+        348.733333,
+        353.733333
+      ],
+      "narration_excerpt": "felt, but they show the result of their work. Even amid enormous losses, people were not always",
+      "section": "east_smithfield_order",
+      "section_anchor": "And when we return to the London burials",
+      "visual_intent": "East Smithfield cemetery: individual graves and trench burials arranged in rows; respectful archaeological reconstruction, no careless dumping.",
+      "composition_type": "wide establishing",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S072",
+      "frames": [
+        10612,
+        10761
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        353.733333,
+        358.7
+      ],
+      "narration_excerpt": "always buried hastily and without order. At the same time, fear could lead to very different actions.",
+      "section": "east_smithfield_order",
+      "section_anchor": "And when we return to the London burials",
+      "visual_intent": "East Smithfield cemetery: individual graves and trench burials arranged in rows; respectful archaeological reconstruction, no careless dumping.",
+      "composition_type": "medium action",
+      "traveler_direction": "include the selected traveler as a restrained illustrated observer, placed where the action leaves natural space; keep him secondary to the historical evidence",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S073",
+      "frames": [
+        10761,
+        10910
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        358.7,
+        363.666667
+      ],
+      "narration_excerpt": "actions. Across Europe, false accusations spread against Jews that they were poisoning",
+      "section": "persecution",
+      "section_anchor": "At the same time, fear could lead",
+      "visual_intent": "Anti-Jewish accusations, exclusion and violence shown without spectacle; identify victims as people and do not depict false accusations as fact.",
+      "composition_type": "over-the-shoulder observation",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S074",
+      "frames": [
+        10910,
+        11060
+      ],
+      "duration_frames": 150,
+      "duration_seconds": 5.0,
+      "time_seconds": [
+        363.666667,
+        368.666667
+      ],
+      "narration_excerpt": "poisoning wells and causing the disease. Long-standing prejudices found a new justification.",
+      "section": "persecution",
+      "section_anchor": "At the same time, fear could lead",
+      "visual_intent": "Anti-Jewish accusations, exclusion and violence shown without spectacle; identify victims as people and do not depict false accusations as fact.",
+      "composition_type": "close detail",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S075",
+      "frames": [
+        11060,
+        11209
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        368.666667,
+        373.633333
+      ],
+      "narration_excerpt": "justification. Persecution and mass killings followed. These accusations had nothing to do with the",
+      "section": "persecution",
+      "section_anchor": "At the same time, fear could lead",
+      "visual_intent": "Anti-Jewish accusations, exclusion and violence shown without spectacle; identify victims as people and do not depict false accusations as fact.",
+      "composition_type": "high-angle spatial view",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S076",
+      "frames": [
+        11209,
+        11359
+      ],
+      "duration_frames": 150,
+      "duration_seconds": 5.0,
+      "time_seconds": [
+        373.633333,
+        378.633333
+      ],
+      "narration_excerpt": "the true cause of the plague. People became victims of violence that infection did not make inevitable.",
+      "section": "persecution",
+      "section_anchor": "At the same time, fear could lead",
+      "visual_intent": "Anti-Jewish accusations, exclusion and violence shown without spectacle; identify victims as people and do not depict false accusations as fact.",
+      "composition_type": "ground-level perspective",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S077",
+      "frames": [
+        11359,
+        11508
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        378.633333,
+        383.6
+      ],
+      "narration_excerpt": "inevitable. Other people committed it. So, it would be just as wrong to see the entire era only as",
+      "section": "persecution",
+      "section_anchor": "At the same time, fear could lead",
+      "visual_intent": "Anti-Jewish accusations, exclusion and violence shown without spectacle; identify victims as people and do not depict false accusations as fact.",
+      "composition_type": "environmental portrait",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S078",
+      "frames": [
+        11508,
+        11658
+      ],
+      "duration_frames": 150,
+      "duration_seconds": 5.0,
+      "time_seconds": [
+        383.6,
+        388.6
+      ],
+      "narration_excerpt": "as a time of mutual help as it would be to see nothing but cruelty. Evidence of both care",
+      "section": "persecution",
+      "section_anchor": "At the same time, fear could lead",
+      "visual_intent": "Anti-Jewish accusations, exclusion and violence shown without spectacle; identify victims as people and do not depict false accusations as fact.",
+      "composition_type": "hands and objects",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S079",
+      "frames": [
+        11658,
+        11807
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        388.6,
+        393.566667
+      ],
+      "narration_excerpt": "care and brutality has survived. That evidence matters no less than what we know about the disease itself.",
+      "section": "persecution",
+      "section_anchor": "At the same time, fear could lead",
+      "visual_intent": "Anti-Jewish accusations, exclusion and violence shown without spectacle; identify victims as people and do not depict false accusations as fact.",
+      "composition_type": "long-lens street view",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S080",
+      "frames": [
+        11807,
+        11957
+      ],
+      "duration_frames": 150,
+      "duration_seconds": 5.0,
+      "time_seconds": [
+        393.566667,
+        398.566667
+      ],
+      "narration_excerpt": "itself. Plague placed people in terrible circumstances, but their actions did not all",
+      "section": "persecution",
+      "section_anchor": "At the same time, fear could lead",
+      "visual_intent": "Anti-Jewish accusations, exclusion and violence shown without spectacle; identify victims as people and do not depict false accusations as fact.",
+      "composition_type": "deep foreground-to-background composition",
+      "traveler_direction": "include the selected traveler as a restrained illustrated observer, placed where the action leaves natural space; keep him secondary to the historical evidence",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S081",
+      "frames": [
+        11957,
+        12106
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        398.566667,
+        403.533333
+      ],
+      "narration_excerpt": "all amount to the same response. By the early thirteen fifties, the first wave had weakened in many",
+      "section": "persecution",
+      "section_anchor": "At the same time, fear could lead",
+      "visual_intent": "Anti-Jewish accusations, exclusion and violence shown without spectacle; identify victims as people and do not depict false accusations as fact.",
+      "composition_type": "wide establishing",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S082",
+      "frames": [
+        12106,
+        12256
+      ],
+      "duration_frames": 150,
+      "duration_seconds": 5.0,
+      "time_seconds": [
+        403.533333,
+        408.533333
+      ],
+      "narration_excerpt": "many places. Plague would return again and again, but even now survivors",
+      "section": "labor_consequences",
+      "section_anchor": "By the early thirteen fifties",
+      "visual_intent": "Fields and workshops short of workers; bargaining and movement constrained by owners and authorities.",
+      "composition_type": "medium action",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S083",
+      "frames": [
+        12256,
+        12405
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        408.533333,
+        413.5
+      ],
+      "narration_excerpt": "survivors faced consequences that the end of mass deaths could not undo. Historical accounts often",
+      "section": "labor_consequences",
+      "section_anchor": "By the early thirteen fifties",
+      "visual_intent": "Fields and workshops short of workers; bargaining and movement constrained by owners and authorities.",
+      "composition_type": "over-the-shoulder observation",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S084",
+      "frames": [
+        12405,
+        12555
+      ],
+      "duration_frames": 150,
+      "duration_seconds": 5.0,
+      "time_seconds": [
+        413.5,
+        418.5
+      ],
+      "narration_excerpt": "often cite estimates that roughly a third or as much as half of Europe's population died. These",
+      "section": "labor_consequences",
+      "section_anchor": "By the early thirteen fifties",
+      "visual_intent": "Fields and workshops short of workers; bargaining and movement constrained by owners and authorities.",
+      "composition_type": "close detail",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S085",
+      "frames": [
+        12555,
+        12704
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        418.5,
+        423.466667
+      ],
+      "narration_excerpt": "These are not the results of an exact count. Medieval records are incomplete and newer research",
+      "section": "labor_consequences",
+      "section_anchor": "By the early thirteen fifties",
+      "visual_intent": "Fields and workshops short of workers; bargaining and movement constrained by owners and authorities.",
+      "composition_type": "high-angle spatial view",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S086",
+      "frames": [
+        12704,
+        12853
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        423.466667,
+        428.433333
+      ],
+      "narration_excerpt": "research emphasizes how uneven the losses were. A percentage calculated for one city cannot simply",
+      "section": "labor_consequences",
+      "section_anchor": "By the early thirteen fifties",
+      "visual_intent": "Fields and workshops short of workers; bargaining and movement constrained by owners and authorities.",
+      "composition_type": "ground-level perspective",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S087",
+      "frames": [
+        12853,
+        13003
+      ],
+      "duration_frames": 150,
+      "duration_seconds": 5.0,
+      "time_seconds": [
+        428.433333,
+        433.433333
+      ],
+      "narration_excerpt": "simply be applied to an entire continent. On the ground, however, the consequences were tangible.",
+      "section": "labor_consequences",
+      "section_anchor": "By the early thirteen fifties",
+      "visual_intent": "Fields and workshops short of workers; bargaining and movement constrained by owners and authorities.",
+      "composition_type": "environmental portrait",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S088",
+      "frames": [
+        13003,
+        13152
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        433.433333,
+        438.4
+      ],
+      "narration_excerpt": "tangible. Where many people had died, fields remained with too few hands to work them and workshops",
+      "section": "labor_consequences",
+      "section_anchor": "By the early thirteen fifties",
+      "visual_intent": "Fields and workshops short of workers; bargaining and movement constrained by owners and authorities.",
+      "composition_type": "hands and objects",
+      "traveler_direction": "include the selected traveler as a restrained illustrated observer, placed where the action leaves natural space; keep him secondary to the historical evidence",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S089",
+      "frames": [
+        13152,
+        13302
+      ],
+      "duration_frames": 150,
+      "duration_seconds": 5.0,
+      "time_seconds": [
+        438.4,
+        443.4
+      ],
+      "narration_excerpt": "workshops were short of workers. Land alone did not produce a harvest. A workshop without a",
+      "section": "labor_consequences",
+      "section_anchor": "By the early thirteen fifties",
+      "visual_intent": "Fields and workshops short of workers; bargaining and movement constrained by owners and authorities.",
+      "composition_type": "long-lens street view",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S090",
+      "frames": [
+        13302,
+        13451
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        443.4,
+        448.366667
+      ],
+      "narration_excerpt": "a craftsperson could not fill an order. Those who hired labor had to compete for the people who remained.",
+      "section": "labor_consequences",
+      "section_anchor": "By the early thirteen fifties",
+      "visual_intent": "Fields and workshops short of workers; bargaining and movement constrained by owners and authorities.",
+      "composition_type": "deep foreground-to-background composition",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S091",
+      "frames": [
+        13451,
+        13601
+      ],
+      "duration_frames": 150,
+      "duration_seconds": 5.0,
+      "time_seconds": [
+        448.366667,
+        453.366667
+      ],
+      "narration_excerpt": "remained. Some workers gained the opportunity to demand higher wages or choose another employer.",
+      "section": "labor_consequences",
+      "section_anchor": "By the early thirteen fifties",
+      "visual_intent": "Fields and workshops short of workers; bargaining and movement constrained by owners and authorities.",
+      "composition_type": "wide establishing",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S092",
+      "frames": [
+        13601,
+        13750
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        453.366667,
+        458.333333
+      ],
+      "narration_excerpt": "employer. For landowners and workshop owners, this meant higher costs and a weakening of their customary control",
+      "section": "labor_consequences",
+      "section_anchor": "By the early thirteen fifties",
+      "visual_intent": "Fields and workshops short of workers; bargaining and movement constrained by owners and authorities.",
+      "composition_type": "medium action",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S093",
+      "frames": [
+        13750,
+        13900
+      ],
+      "duration_frames": 150,
+      "duration_seconds": 5.0,
+      "time_seconds": [
+        458.333333,
+        463.333333
+      ],
+      "narration_excerpt": "control over other people's labor. In England, the response included an ordinance in thirteen forty-nine",
+      "section": "labor_consequences",
+      "section_anchor": "By the early thirteen fifties",
+      "visual_intent": "Fields and workshops short of workers; bargaining and movement constrained by owners and authorities.",
+      "composition_type": "over-the-shoulder observation",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S094",
+      "frames": [
+        13900,
+        14049
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        463.333333,
+        468.3
+      ],
+      "narration_excerpt": "forty-nine and the Statute of Labourers, passed two years later. They attempted to limit wages,",
+      "section": "labor_law",
+      "section_anchor": "In England, the response included",
+      "visual_intent": "A 1349 ordinance and 1351 Statute of Labourers represented through a period document and workers at a manor/workshop; no fabricated readable text.",
+      "composition_type": "close detail",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S095",
+      "frames": [
+        14049,
+        14199
+      ],
+      "duration_frames": 150,
+      "duration_seconds": 5.0,
+      "time_seconds": [
+        468.3,
+        473.3
+      ],
+      "narration_excerpt": "wages, workers' movement, and their ability to take better terms elsewhere. Able-bodied people were required",
+      "section": "labor_law",
+      "section_anchor": "In England, the response included",
+      "visual_intent": "A 1349 ordinance and 1351 Statute of Labourers represented through a period document and workers at a manor/workshop; no fabricated readable text.",
+      "composition_type": "high-angle spatial view",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S096",
+      "frames": [
+        14199,
+        14348
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        473.3,
+        478.266667
+      ],
+      "narration_excerpt": "required to accept work under the prescribed rules. Surviving did not yet mean freedom to direct one's",
+      "section": "labor_law",
+      "section_anchor": "In England, the response included",
+      "visual_intent": "A 1349 ordinance and 1351 Statute of Labourers represented through a period document and workers at a manor/workshop; no fabricated readable text.",
+      "composition_type": "ground-level perspective",
+      "traveler_direction": "include the selected traveler as a restrained illustrated observer, placed where the action leaves natural space; keep him secondary to the historical evidence",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S097",
+      "frames": [
+        14348,
+        14498
+      ],
+      "duration_frames": 150,
+      "duration_seconds": 5.0,
+      "time_seconds": [
+        478.266667,
+        483.266667
+      ],
+      "narration_excerpt": "one's own life. New opportunities had to be fought for while those in power tried to restore the",
+      "section": "labor_law",
+      "section_anchor": "In England, the response included",
+      "visual_intent": "A 1349 ordinance and 1351 Statute of Labourers represented through a period document and workers at a manor/workshop; no fabricated readable text.",
+      "composition_type": "environmental portrait",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S098",
+      "frames": [
+        14498,
+        14647
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        483.266667,
+        488.233333
+      ],
+      "narration_excerpt": "the old relationships. The plague did not abolish dependence and poverty in a single blow.",
+      "section": "labor_law",
+      "section_anchor": "In England, the response included",
+      "visual_intent": "A 1349 ordinance and 1351 Statute of Labourers represented through a period document and workers at a manor/workshop; no fabricated readable text.",
+      "composition_type": "hands and objects",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S099",
+      "frames": [
+        14647,
+        14797
+      ],
+      "duration_frames": 150,
+      "duration_seconds": 5.0,
+      "time_seconds": [
+        488.233333,
+        493.233333
+      ],
+      "narration_excerpt": "blow. Its consequences differed from place to place, but the enormous losses forced people to confront",
+      "section": "labor_law",
+      "section_anchor": "In England, the response included",
+      "visual_intent": "A 1349 ordinance and 1351 Statute of Labourers represented through a period document and workers at a manor/workshop; no fabricated readable text.",
+      "composition_type": "long-lens street view",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S100",
+      "frames": [
+        14797,
+        14946
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        493.233333,
+        498.2
+      ],
+      "narration_excerpt": "confront a question that had once seemed settled. What is human labor worth, and who has the",
+      "section": "labor_law",
+      "section_anchor": "In England, the response included",
+      "visual_intent": "A 1349 ordinance and 1351 Statute of Labourers represented through a period document and workers at a manor/workshop; no fabricated readable text.",
+      "composition_type": "deep foreground-to-background composition",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S101",
+      "frames": [
+        14946,
+        15095
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        498.2,
+        503.166667
+      ],
+      "narration_excerpt": "the right to set its price? Ways of protecting a city from another outbreak also changed.",
+      "section": "labor_law",
+      "section_anchor": "In England, the response included",
+      "visual_intent": "A 1349 ordinance and 1351 Statute of Labourers represented through a period document and workers at a manor/workshop; no fabricated readable text.",
+      "composition_type": "wide establishing",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S102",
+      "frames": [
+        15095,
+        15245
+      ],
+      "duration_frames": 150,
+      "duration_seconds": 5.0,
+      "time_seconds": [
+        503.166667,
+        508.166667
+      ],
+      "narration_excerpt": "changed. For a trading port, the challenge remained the same. Keep disease out without stopping a way",
+      "section": "dubrovnik_trade",
+      "section_anchor": "Ways of protecting a city from another outbreak also changed",
+      "visual_intent": "Late-fourteenth-century Ragusa/Dubrovnik as an Adriatic trading port; arriving people and goods separated beyond the city while trade continues.",
+      "composition_type": "medium action",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S103",
+      "frames": [
+        15245,
+        15394
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        508.166667,
+        513.133333
+      ],
+      "narration_excerpt": "way of life that depended on arriving people and cargo. In thirteen seventy-seven, the authorities",
+      "section": "dubrovnik_trade",
+      "section_anchor": "Ways of protecting a city from another outbreak also changed",
+      "visual_intent": "Late-fourteenth-century Ragusa/Dubrovnik as an Adriatic trading port; arriving people and goods separated beyond the city while trade continues.",
+      "composition_type": "over-the-shoulder observation",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S104",
+      "frames": [
+        15394,
+        15544
+      ],
+      "duration_frames": 150,
+      "duration_seconds": 5.0,
+      "time_seconds": [
+        513.133333,
+        518.133333
+      ],
+      "narration_excerpt": "authorities of Ragusa, today's Dubrovnik, adopted a special rule. People arriving from",
+      "section": "dubrovnik_trade",
+      "section_anchor": "Ways of protecting a city from another outbreak also changed",
+      "visual_intent": "Late-fourteenth-century Ragusa/Dubrovnik as an Adriatic trading port; arriving people and goods separated beyond the city while trade continues.",
+      "composition_type": "close detail",
+      "traveler_direction": "include the selected traveler as a restrained illustrated observer, placed where the action leaves natural space; keep him secondary to the historical evidence",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S105",
+      "frames": [
+        15544,
+        15693
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        518.133333,
+        523.1
+      ],
+      "narration_excerpt": "from places where the disease was raging were forbidden to enter the city immediately. First,",
+      "section": "dubrovnik_trade",
+      "section_anchor": "Ways of protecting a city from another outbreak also changed",
+      "visual_intent": "Late-fourteenth-century Ragusa/Dubrovnik as an Adriatic trading port; arriving people and goods separated beyond the city while trade continues.",
+      "composition_type": "high-angle spatial view",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S106",
+      "frames": [
+        15693,
+        15843
+      ],
+      "duration_frames": 150,
+      "duration_seconds": 5.0,
+      "time_seconds": [
+        523.1,
+        528.1
+      ],
+      "narration_excerpt": "First, they had to spend thirty days apart in designated places outside it. The rule also applied",
+      "section": "dubrovnik_trade",
+      "section_anchor": "Ways of protecting a city from another outbreak also changed",
+      "visual_intent": "Late-fourteenth-century Ragusa/Dubrovnik as an Adriatic trading port; arriving people and goods separated beyond the city while trade continues.",
+      "composition_type": "ground-level perspective",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S107",
+      "frames": [
+        15843,
+        15992
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        528.1,
+        533.066667
+      ],
+      "narration_excerpt": "applied to local residents returning from infected areas. Even someone with a home in the city could",
+      "section": "dubrovnik_trade",
+      "section_anchor": "Ways of protecting a city from another outbreak also changed",
+      "visual_intent": "Late-fourteenth-century Ragusa/Dubrovnik as an Adriatic trading port; arriving people and goods separated beyond the city while trade continues.",
+      "composition_type": "environmental portrait",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S108",
+      "frames": [
+        15992,
+        16142
+      ],
+      "duration_frames": 150,
+      "duration_seconds": 5.0,
+      "time_seconds": [
+        533.066667,
+        538.066667
+      ],
+      "narration_excerpt": "could be required to wait before going back inside. The wait itself was a severe ordeal.",
+      "section": "dubrovnik_trade",
+      "section_anchor": "Ways of protecting a city from another outbreak also changed",
+      "visual_intent": "Late-fourteenth-century Ragusa/Dubrovnik as an Adriatic trading port; arriving people and goods separated beyond the city while trade continues.",
+      "composition_type": "hands and objects",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S109",
+      "frames": [
+        16142,
+        16291
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        538.066667,
+        543.033333
+      ],
+      "narration_excerpt": "ordeal. Conditions in the first places of isolation were harsh. Food was brought in from outside.",
+      "section": "isolation_supplies",
+      "section_anchor": "The wait itself was a severe ordeal",
+      "visual_intent": "A modest temporary isolation place, supplies carried from outside and controlled visits; do not portray the seventeenth-century Lazareti as already built in 1377.",
+      "composition_type": "long-lens street view",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S110",
+      "frames": [
+        16291,
+        16441
+      ],
+      "duration_frames": 150,
+      "duration_seconds": 5.0,
+      "time_seconds": [
+        543.033333,
+        548.033333
+      ],
+      "narration_excerpt": "outside. The decision to separate arrivals immediately created another obligation, to supply",
+      "section": "isolation_supplies",
+      "section_anchor": "The wait itself was a severe ordeal",
+      "visual_intent": "A modest temporary isolation place, supplies carried from outside and controlled visits; do not portray the seventeenth-century Lazareti as already built in 1377.",
+      "composition_type": "deep foreground-to-background composition",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S111",
+      "frames": [
+        16441,
+        16590
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        548.033333,
+        553.0
+      ],
+      "narration_excerpt": "supply them with what they needed. Visits to people in isolation were restricted, too. The delivery of necessities",
+      "section": "isolation_supplies",
+      "section_anchor": "The wait itself was a severe ordeal",
+      "visual_intent": "A modest temporary isolation place, supplies carried from outside and controlled visits; do not portray the seventeenth-century Lazareti as already built in 1377.",
+      "composition_type": "wide establishing",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S112",
+      "frames": [
+        16590,
+        16740
+      ],
+      "duration_frames": 150,
+      "duration_seconds": 5.0,
+      "time_seconds": [
+        553.0,
+        558.0
+      ],
+      "narration_excerpt": "necessities had to be arranged separately. Otherwise, the people coming to help would themselves",
+      "section": "isolation_supplies",
+      "section_anchor": "The wait itself was a severe ordeal",
+      "visual_intent": "A modest temporary isolation place, supplies carried from outside and controlled visits; do not portray the seventeenth-century Lazareti as already built in 1377.",
+      "composition_type": "medium action",
+      "traveler_direction": "include the selected traveler as a restrained illustrated observer, placed where the action leaves natural space; keep him secondary to the historical evidence",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S113",
+      "frames": [
+        16740,
+        16889
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        558.0,
+        562.966667
+      ],
+      "narration_excerpt": "themselves defeat the purpose of isolation. Later, a forty-day period became widespread. The",
+      "section": "isolation_supplies",
+      "section_anchor": "The wait itself was a severe ordeal",
+      "visual_intent": "A modest temporary isolation place, supplies carried from outside and controlled visits; do not portray the seventeenth-century Lazareti as already built in 1377.",
+      "composition_type": "over-the-shoulder observation",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S114",
+      "frames": [
+        16889,
+        17038
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        562.966667,
+        567.933333
+      ],
+      "narration_excerpt": "The word quarantine comes from the Italian word for forty. Doctors still could not see the pathogen,",
+      "section": "quarantine",
+      "section_anchor": "Later, a forty-day period became widespread",
+      "visual_intent": "A measured passage of time and guarded threshold; 1377 order is thirty days, later forty-day practice gives the word quarantine.",
+      "composition_type": "close detail",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S115",
+      "frames": [
+        17038,
+        17188
+      ],
+      "duration_frames": 150,
+      "duration_seconds": 5.0,
+      "time_seconds": [
+        567.933333,
+        572.933333
+      ],
+      "narration_excerpt": "pathogen, but the authorities were already changing the way people came into contact with one another in an effort",
+      "section": "quarantine",
+      "section_anchor": "Later, a forty-day period became widespread",
+      "visual_intent": "A measured passage of time and guarded threshold; 1377 order is thirty days, later forty-day practice gives the word quarantine.",
+      "composition_type": "high-angle spatial view",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S116",
+      "frames": [
+        17188,
+        17337
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        572.933333,
+        577.9
+      ],
+      "narration_excerpt": "effort to reduce risk. They had found a measure they could carry out even without a complete explanation",
+      "section": "quarantine",
+      "section_anchor": "Later, a forty-day period became widespread",
+      "visual_intent": "A measured passage of time and guarded threshold; 1377 order is thirty days, later forty-day practice gives the word quarantine.",
+      "composition_type": "ground-level perspective",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S117",
+      "frames": [
+        17337,
+        17487
+      ],
+      "duration_frames": 150,
+      "duration_seconds": 5.0,
+      "time_seconds": [
+        577.9,
+        582.9
+      ],
+      "narration_excerpt": "explanation of the disease. It was not a final victory. Plague returned for centuries,",
+      "section": "quarantine",
+      "section_anchor": "Later, a forty-day period became widespread",
+      "visual_intent": "A measured passage of time and guarded threshold; 1377 order is thirty days, later forty-day practice gives the word quarantine.",
+      "composition_type": "environmental portrait",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S118",
+      "frames": [
+        17487,
+        17636
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        582.9,
+        587.866667
+      ],
+      "narration_excerpt": "centuries, nor did quarantine turn a port into an impregnable fortress. But between helpless waiting",
+      "section": "quarantine",
+      "section_anchor": "Later, a forty-day period became widespread",
+      "visual_intent": "A measured passage of time and guarded threshold; 1377 order is thirty days, later forty-day practice gives the word quarantine.",
+      "composition_type": "hands and objects",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S119",
+      "frames": [
+        17636,
+        17786
+      ],
+      "duration_frames": 150,
+      "duration_seconds": 5.0,
+      "time_seconds": [
+        587.866667,
+        592.866667
+      ],
+      "narration_excerpt": "waiting and bringing trade to a complete halt, another course of action had emerged, to separate a person's",
+      "section": "quarantine",
+      "section_anchor": "Later, a forty-day period became widespread",
+      "visual_intent": "A measured passage of time and guarded threshold; 1377 order is thirty days, later forty-day practice gives the word quarantine.",
+      "composition_type": "long-lens street view",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S120",
+      "frames": [
+        17786,
+        17935
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        592.866667,
+        597.833333
+      ],
+      "narration_excerpt": "person's arrival from their meeting with the city by a period of time. Now, let us return to London,",
+      "section": "quarantine",
+      "section_anchor": "Later, a forty-day period became widespread",
+      "visual_intent": "A measured passage of time and guarded threshold; 1377 order is thirty days, later forty-day practice gives the word quarantine.",
+      "composition_type": "deep foreground-to-background composition",
+      "traveler_direction": "include the selected traveler as a restrained illustrated observer, placed where the action leaves natural space; keep him secondary to the historical evidence",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S121",
+      "frames": [
+        17935,
+        18085
+      ],
+      "duration_frames": 150,
+      "duration_seconds": 5.0,
+      "time_seconds": [
+        597.833333,
+        602.833333
+      ],
+      "narration_excerpt": "London, to the cemetery near the tower. The people buried there did not know what had caused their illness,",
+      "section": "london_genetics",
+      "section_anchor": "Now let us return to London",
+      "visual_intent": "Modern laboratory examination of ancient remains and a carefully abstract DNA detail tied back to the London burial.",
+      "composition_type": "wide establishing",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S122",
+      "frames": [
+        18085,
+        18234
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        602.833333,
+        607.8
+      ],
+      "narration_excerpt": "illness, but something survived in their remains that allowed researchers to investigate it centuries later,",
+      "section": "london_genetics",
+      "section_anchor": "Now let us return to London",
+      "visual_intent": "Modern laboratory examination of ancient remains and a carefully abstract DNA detail tied back to the London burial.",
+      "composition_type": "medium action",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S123",
+      "frames": [
+        18234,
+        18384
+      ],
+      "duration_frames": 150,
+      "duration_seconds": 5.0,
+      "time_seconds": [
+        607.8,
+        612.8
+      ],
+      "narration_excerpt": "later, fragments of bacterial DNA. In twenty eleven, researchers published",
+      "section": "london_genetics",
+      "section_anchor": "Now let us return to London",
+      "visual_intent": "Modern laboratory examination of ancient remains and a carefully abstract DNA detail tied back to the London burial.",
+      "composition_type": "over-the-shoulder observation",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S124",
+      "frames": [
+        18384,
+        18533
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        612.8,
+        617.766667
+      ],
+      "narration_excerpt": "published a reconstruction of the genome of the plague bacterium from the remains of victims of the London epidemic.",
+      "section": "london_genetics",
+      "section_anchor": "Now let us return to London",
+      "visual_intent": "Modern laboratory examination of ancient remains and a carefully abstract DNA detail tied back to the London burial.",
+      "composition_type": "close detail",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S125",
+      "frames": [
+        18533,
+        18683
+      ],
+      "duration_frames": 150,
+      "duration_seconds": 5.0,
+      "time_seconds": [
+        617.766667,
+        622.766667
+      ],
+      "narration_excerpt": "epidemic. By then, Yersinia pestis had long been known to science. Now, researchers could connect",
+      "section": "london_genetics",
+      "section_anchor": "Now let us return to London",
+      "visual_intent": "Modern laboratory examination of ancient remains and a carefully abstract DNA detail tied back to the London burial.",
+      "composition_type": "high-angle spatial view",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S126",
+      "frames": [
+        18683,
+        18832
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        622.766667,
+        627.733333
+      ],
+      "narration_excerpt": "connect it to particular people who had died during the Black Death and study an ancient form of the pathogen.",
+      "section": "london_genetics",
+      "section_anchor": "Now let us return to London",
+      "visual_intent": "Modern laboratory examination of ancient remains and a carefully abstract DNA detail tied back to the London burial.",
+      "composition_type": "ground-level perspective",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S127",
+      "frames": [
+        18832,
+        18982
+      ],
+      "duration_frames": 150,
+      "duration_seconds": 5.0,
+      "time_seconds": [
+        627.733333,
+        632.733333
+      ],
+      "narration_excerpt": "pathogen. Later, another important trace was found far from Europe in what is now Kyrgyzstan.",
+      "section": "london_genetics",
+      "section_anchor": "Now let us return to London",
+      "visual_intent": "Modern laboratory examination of ancient remains and a carefully abstract DNA detail tied back to the London burial.",
+      "composition_type": "environmental portrait",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S128",
+      "frames": [
+        18982,
+        19131
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        632.733333,
+        637.7
+      ],
+      "narration_excerpt": "Kyrgyzstan. In the Chüy Valley, gravestones from thirteen thirty-eight and thirteen thirty-nine",
+      "section": "chuy_valley",
+      "section_anchor": "Later, another important trace was found",
+      "visual_intent": "Chüy Valley in present-day Kyrgyzstan: marked medieval gravestones from 1338–39 and a careful excavation, no claim of identifying a first patient.",
+      "composition_type": "hands and objects",
+      "traveler_direction": "include the selected traveler as a restrained illustrated observer, placed where the action leaves natural space; keep him secondary to the historical evidence",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S129",
+      "frames": [
+        19131,
+        19280
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        637.7,
+        642.666667
+      ],
+      "narration_excerpt": "thirty-nine survived with references to pestilence. Scientists studied remains from these burials and",
+      "section": "chuy_valley",
+      "section_anchor": "Later, another important trace was found",
+      "visual_intent": "Chüy Valley in present-day Kyrgyzstan: marked medieval gravestones from 1338–39 and a careful excavation, no claim of identifying a first patient.",
+      "composition_type": "long-lens street view",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S130",
+      "frames": [
+        19280,
+        19430
+      ],
+      "duration_frames": 150,
+      "duration_seconds": 5.0,
+      "time_seconds": [
+        642.666667,
+        647.666667
+      ],
+      "narration_excerpt": "and found the plague bacterium there as well. The findings, published in twenty twenty-two, placed",
+      "section": "chuy_valley",
+      "section_anchor": "Later, another important trace was found",
+      "visual_intent": "Chüy Valley in present-day Kyrgyzstan: marked medieval gravestones from 1338–39 and a careful excavation, no claim of identifying a first patient.",
+      "composition_type": "deep foreground-to-background composition",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S131",
+      "frames": [
+        19430,
+        19579
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        647.666667,
+        652.633333
+      ],
+      "narration_excerpt": "placed the identified strain at the base of a genetic branching associated with the Black Death. In",
+      "section": "chuy_valley",
+      "section_anchor": "Later, another important trace was found",
+      "visual_intent": "Chüy Valley in present-day Kyrgyzstan: marked medieval gravestones from 1338–39 and a careful excavation, no claim of identifying a first patient.",
+      "composition_type": "wide establishing",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S132",
+      "frames": [
+        19579,
+        19729
+      ],
+      "duration_frames": 150,
+      "duration_seconds": 5.0,
+      "time_seconds": [
+        652.633333,
+        657.633333
+      ],
+      "narration_excerpt": "In other words, an important clue to the early history of the pandemic had emerged from about ten",
+      "section": "chuy_valley",
+      "section_anchor": "Later, another important trace was found",
+      "visual_intent": "Chüy Valley in present-day Kyrgyzstan: marked medieval gravestones from 1338–39 and a careful excavation, no claim of identifying a first patient.",
+      "composition_type": "medium action",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S133",
+      "frames": [
+        19729,
+        19878
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        657.633333,
+        662.6
+      ],
+      "narration_excerpt": "ten years before the disaster in Florence and London. This is not a map of every infected person's journey,",
+      "section": "chuy_valley",
+      "section_anchor": "Later, another important trace was found",
+      "visual_intent": "Chüy Valley in present-day Kyrgyzstan: marked medieval gravestones from 1338–39 and a careful excavation, no claim of identifying a first patient.",
+      "composition_type": "over-the-shoulder observation",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S134",
+      "frames": [
+        19878,
+        20028
+      ],
+      "duration_frames": 150,
+      "duration_seconds": 5.0,
+      "time_seconds": [
+        662.6,
+        667.6
+      ],
+      "narration_excerpt": "journey, nor does it establish who the first patient was, but later theories can now be compared",
+      "section": "chuy_valley",
+      "section_anchor": "Later, another important trace was found",
+      "visual_intent": "Chüy Valley in present-day Kyrgyzstan: marked medieval gravestones from 1338–39 and a careful excavation, no claim of identifying a first patient.",
+      "composition_type": "close detail",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S135",
+      "frames": [
+        20028,
+        20177
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        667.6,
+        672.566667
+      ],
+      "narration_excerpt": "compared with physical traces of the disease itself. Genetic analysis can identify the pathogen.",
+      "section": "chuy_valley",
+      "section_anchor": "Later, another important trace was found",
+      "visual_intent": "Chüy Valley in present-day Kyrgyzstan: marked medieval gravestones from 1338–39 and a careful excavation, no claim of identifying a first patient.",
+      "composition_type": "high-angle spatial view",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S136",
+      "frames": [
+        20177,
+        20327
+      ],
+      "duration_frames": 150,
+      "duration_seconds": 5.0,
+      "time_seconds": [
+        672.566667,
+        677.566667
+      ],
+      "narration_excerpt": "pathogen. To understand how people lived through the disaster, we need other evidence, too.",
+      "section": "chuy_valley",
+      "section_anchor": "Later, another important trace was found",
+      "visual_intent": "Chüy Valley in present-day Kyrgyzstan: marked medieval gravestones from 1338–39 and a careful excavation, no claim of identifying a first patient.",
+      "composition_type": "ground-level perspective",
+      "traveler_direction": "include the selected traveler as a restrained illustrated observer, placed where the action leaves natural space; keep him secondary to the historical evidence",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S137",
+      "frames": [
+        20327,
+        20476
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        677.566667,
+        682.533333
+      ],
+      "narration_excerpt": "too. Letters, books, documents, and the burials themselves. The arrangement of the graves",
+      "section": "conclusion",
+      "section_anchor": "To understand how people lived through the disaster",
+      "visual_intent": "Return to London cemetery rows, the woman’s coins and unnamed workers; close on the work that continued, not a speculative portrait of her motive.",
+      "composition_type": "environmental portrait",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S138",
+      "frames": [
+        20476,
+        20626
+      ],
+      "duration_frames": 150,
+      "duration_seconds": 5.0,
+      "time_seconds": [
+        682.533333,
+        687.533333
+      ],
+      "narration_excerpt": "graves preserves part of that story as well. The money remained with the dead woman, and beside her",
+      "section": "conclusion",
+      "section_anchor": "To understand how people lived through the disaster",
+      "visual_intent": "Return to London cemetery rows, the woman’s coins and unnamed workers; close on the work that continued, not a speculative portrait of her motive.",
+      "composition_type": "hands and objects",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S139",
+      "frames": [
+        20626,
+        20775
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        687.533333,
+        692.5
+      ],
+      "narration_excerpt": "her lay other people buried in an order that someone continued to maintain. We do not know the",
+      "section": "conclusion",
+      "section_anchor": "To understand how people lived through the disaster",
+      "visual_intent": "Return to London cemetery rows, the woman’s coins and unnamed workers; close on the work that continued, not a speculative portrait of her motive.",
+      "composition_type": "long-lens street view",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S140",
+      "frames": [
+        20775,
+        20925
+      ],
+      "duration_frames": 150,
+      "duration_seconds": 5.0,
+      "time_seconds": [
+        692.5,
+        697.5
+      ],
+      "narration_excerpt": "the names of those who dug the graves and brought the dead here. We do not know what drove them. Duty,",
+      "section": "conclusion",
+      "section_anchor": "To understand how people lived through the disaster",
+      "visual_intent": "Return to London cemetery rows, the woman’s coins and unnamed workers; close on the work that continued, not a speculative portrait of her motive.",
+      "composition_type": "deep foreground-to-background composition",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S141",
+      "frames": [
+        20925,
+        21074
+      ],
+      "duration_frames": 149,
+      "duration_seconds": 4.966667,
+      "time_seconds": [
+        697.5,
+        702.466667
+      ],
+      "narration_excerpt": "Duty, wages, faith, or care for their loved ones. But the city held together in part",
+      "section": "conclusion",
+      "section_anchor": "To understand how people lived through the disaster",
+      "visual_intent": "Return to London cemetery rows, the woman’s coins and unnamed workers; close on the work that continued, not a speculative portrait of her motive.",
+      "composition_type": "wide establishing",
+      "traveler_direction": "omit the traveler unless the shot needs a quiet observer",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    },
+    {
+      "shot_id": "S142",
+      "frames": [
+        21074,
+        21224
+      ],
+      "duration_frames": 150,
+      "duration_seconds": 5.0,
+      "time_seconds": [
+        702.466667,
+        707.466667
+      ],
+      "narration_excerpt": "part because of their work. They carried it out without yet knowing what was killing their neighbors.",
+      "section": "conclusion",
+      "section_anchor": "To understand how people lived through the disaster",
+      "visual_intent": "Return to London cemetery rows, the woman’s coins and unnamed workers; close on the work that continued, not a speculative portrait of her motive.",
+      "composition_type": "medium action",
+      "traveler_direction": "include the selected traveler as a restrained illustrated observer, placed where the action leaves natural space; keep him secondary to the historical evidence",
+      "image_status": "NOT_GENERATED",
+      "visual_acceptance": "PENDING",
+      "generation_prompt": "Build from this scene-specific intent and exact narration excerpt; photorealistic historical world, restrained illustrated Nuviko traveler only where directed; 16:9, no captions/text/logo; vary composition meaningfully from adjacent shots."
+    }
+  ],
+  "on_screen_text_policy": "Only the continuous one-line spoken-word subtitles are permitted. No upper text, location cards, accent text or other in-video typography."
+}

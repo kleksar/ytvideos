@@ -1,0 +1,42 @@
+{
+  "version": "v06",
+  "status": "partial_user_approval",
+  "revision_scope": "C removes the magnifying glass and makes the translated inscription legible through close foreground perspective on a continuous connected fortress wall; A and B are reused unchanged.",
+  "variants": [
+    {
+      "variant": "A",
+      "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Packaging/Thumbnails/v06/thumbnail_A_v01.png",
+      "sha256": "49f3e910128a5b9878f763a8bbe228000fe7f0b359695dca3176515aadf4ca7d",
+      "width": 1672,
+      "height": 941,
+      "reuse_of": "v01/thumbnail_A_v01.png"
+    },
+    {
+      "variant": "B",
+      "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Packaging/Thumbnails/v06/thumbnail_B_v01.png",
+      "sha256": "186ea901d393c8a7e127f2643aa1923804445c66fb463cc1320b6a838c7ba27a",
+      "width": 1672,
+      "height": 941,
+      "reuse_of": "v01/thumbnail_B_v01.png"
+    },
+    {
+      "variant": "C",
+      "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Packaging/Thumbnails/v06/thumbnail_C_v06.png",
+      "sha256": "cfb6dee5beb2adb9d7840aa2d14abb641746c18be0e3e04c1ad490d27343e356",
+      "width": 1671,
+      "height": 941,
+      "generation_references": [
+        "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Packaging/Thumbnails/v02/thumbnail_C_v02.png",
+        "/Users/diplomat/ytvideos/channels/nuviko_history/brand/References/traveler_turnaround_20261104.png",
+        "/Users/diplomat/ytvideos/channels/nuviko_history/brand/References/traveler_emotions_20261104.png"
+      ],
+      "prompt_record": "The exact generation prompt is in the image-generation call and is summarized in Research/CONSULTATION_THUMBNAIL_C_REVISION_v04.md."
+    }
+  ],
+  "user_decisions": {
+    "C": "ACCEPTED",
+    "A": "PENDING",
+    "B": "PENDING",
+    "decision_evidence": "User message 2026-11-05, following the v06 thumbnail presentation: “пушка. поехали дальше”."
+  }
+}

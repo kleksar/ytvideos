@@ -1,0 +1,28 @@
+- dialog "Настройки":
+  - dialog "Настройки":
+    - heading "Настройки" [level=1]
+    - menu:
+      - menuitem "Общие":
+        - generic: Общие
+      - menuitem "Канал":
+        - generic: Канал
+      - menuitem "Загрузка видео":
+        - generic: Загрузка видео
+      - menuitem "Разрешения":
+        - generic: Разрешения
+      - menuitem "Модерация сообщества":
+        - generic: Модерация сообщества
+      - menuitem "Продвижение":
+        - generic: Продвижение
+      - menuitem "Соглашения" [active]:
+        - generic: Соглашения
+    - text: Пользование сервисом регулируется Условиями использования YouTube.
+    - link "Подробнее…":
+      - /url: https://support.google.com/youtube/answer/9962634?hl=ru
+      - generic: Подробнее…
+    - button "Закрыть":
+      - generic: Закрыть
+    - button "Сохранить" [disabled]:
+      - generic: Сохранить
+- tooltip "Соглашения":
+  - generic: Соглашения

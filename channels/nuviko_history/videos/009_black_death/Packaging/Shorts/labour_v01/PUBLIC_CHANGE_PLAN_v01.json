@@ -1,0 +1,45 @@
+{
+  "state": "applied_verified",
+  "timestamp_utc": "2026-11-03T20:45:53.305807+00:00",
+  "channel_id": "UCbyLx6Rf3iWww4bPZJ2oo2A",
+  "video_id": "5v6exl0iQJE",
+  "title": "Why England Tried to Hold Down Wages After the Plague",
+  "operation": "videos.update",
+  "part": "status",
+  "before": {
+    "etag": "pztTl_EXL3gVNscMZV_rOAlN2d8",
+    "status": {
+      "uploadStatus": "processed",
+      "privacyStatus": "unlisted",
+      "license": "youtube",
+      "embeddable": true,
+      "publicStatsViewable": true,
+      "madeForKids": false,
+      "selfDeclaredMadeForKids": false
+    },
+    "processing": "succeeded"
+  },
+  "intended_status": {
+    "embeddable": true,
+    "license": "youtube",
+    "publicStatsViewable": true,
+    "selfDeclaredMadeForKids": false,
+    "containsSyntheticMedia": true,
+    "privacyStatus": "public"
+  },
+  "dynamic_release_check": {
+    "checked_on": "2026-11-03",
+    "youtube_data_api_uploads_checked": 6,
+    "future_publish_at_entries": 0,
+    "studio_community_posts_tab": {
+      "url": "https://studio.youtube.com/channel/UCbyLx6Rf3iWww4bPZJ2oo2A/content/posts",
+      "visible_rows": 0,
+      "state": "first-post prompt; no scheduled or published posts visible"
+    },
+    "execution": "immediate Public was explicitly requested"
+  },
+  "reason": "explicit user request to open this Short publicly",
+  "approved_mp4_sha256": "b63dbe5c84af821055a6e6c6bb5919485d782693a8be4382d2a2e967b2e741b2",
+  "upload_disclosure": "containsSyntheticMedia=true in verified upload receipt; API readback omits optional field",
+  "completed_receipt": "PUBLIC_CHANGE_RECEIPT_v01.json"
+}

@@ -1,0 +1,759 @@
+{
+  "version": 1,
+  "status": "ready_for_render_pending_independent_visual_review",
+  "project_id": "652FD175",
+  "timeline_id": "221D8873",
+  "project_path": "/Users/diplomat/Documents/Palmier Pro/Paper Detour 007 Joshua Jessica Short Render 20261101.palmier",
+  "before": {
+    "video_track_order": [
+      "Grain",
+      "Foreground",
+      "Middle",
+      "Accents",
+      "Background",
+      "Support"
+    ],
+    "audio_track_order": [
+      "Narration"
+    ]
+  },
+  "asset_sha256": {
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Source/Graphics/Final_v01/55_PERCENT_v01.png": "1dc7896598ca6b385a4a1ef3ba1f304344c597a09b9d45bff4961ecfecdfcc9c",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Source/Audio/book-page-02.wav": "b14e15141984eb84bcbe8841139d3f1d4715eac4e64cf52091acffd8fe440331"
+  },
+  "steps": [
+    {
+      "label": "import 55_PERCENT_v01",
+      "tool": "import_media",
+      "result": {
+        "actionId": "F0B51E13",
+        "mediaRef": "085F758F",
+        "name": "55_PERCENT_v01",
+        "status": "ready",
+        "type": "image"
+      }
+    },
+    {
+      "label": "place 55% paper accent",
+      "tool": "add_clips",
+      "result": {
+        "actionId": "B8B006D9",
+        "clips": [
+          {
+            "frames": [
+              1028,
+              1164
+            ],
+            "id": "DE6DAB40",
+            "mediaRef": "085F758F",
+            "mediaType": "image",
+            "track": 0,
+            "transform": {
+              "height": 0.272
+            },
+            "trimEndFrame": 14
+          }
+        ],
+        "createdTracks": [
+          {
+            "index": 0,
+            "label": "V7",
+            "trackId": "017F50BD",
+            "type": "video"
+          }
+        ],
+        "notes": [
+          "Track indices shifted — re-read get_timeline before the next index-based call."
+        ]
+      }
+    },
+    {
+      "label": "size 55% accent for phone readability",
+      "tool": "set_keyframes",
+      "result": {
+        "actionId": "AA582DCB",
+        "clips": [
+          {
+            "frames": [
+              1028,
+              1164
+            ],
+            "id": "DE6DAB40",
+            "keyframes": {
+              "scale": [
+                [
+                  0,
+                  0.32,
+                  0.087,
+                  "linear"
+                ],
+                [
+                  135,
+                  0.32,
+                  0.087,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "085F758F",
+            "mediaType": "image",
+            "track": 0,
+            "transform": {
+              "height": 0.272
+            },
+            "trimEndFrame": 14
+          }
+        ]
+      }
+    },
+    {
+      "label": "animate 55% accent behind and above laptop edge",
+      "tool": "set_keyframes",
+      "result": {
+        "actionId": "088C664A",
+        "clips": [
+          {
+            "frames": [
+              1028,
+              1164
+            ],
+            "id": "DE6DAB40",
+            "keyframes": {
+              "position": [
+                [
+                  0,
+                  0.42,
+                  0.3,
+                  "linear"
+                ],
+                [
+                  8,
+                  0.42,
+                  0.21,
+                  "linear"
+                ],
+                [
+                  117,
+                  0.42,
+                  0.21,
+                  "linear"
+                ],
+                [
+                  135,
+                  0.42,
+                  0.3,
+                  "linear"
+                ]
+              ],
+              "scale": [
+                [
+                  0,
+                  0.32,
+                  0.087,
+                  "linear"
+                ],
+                [
+                  135,
+                  0.32,
+                  0.087,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "085F758F",
+            "mediaType": "image",
+            "track": 0,
+            "transform": {
+              "height": 0.272
+            },
+            "trimEndFrame": 14
+          }
+        ]
+      }
+    },
+    {
+      "label": "import book-page-02.wav",
+      "tool": "import_media",
+      "result": {
+        "actionId": "E19C4A5C",
+        "mediaRef": "BDB24194",
+        "name": "book-page-02",
+        "status": "ready",
+        "type": "audio"
+      }
+    },
+    {
+      "label": "place one page gesture with 55% entrance",
+      "tool": "add_clips",
+      "result": {
+        "actionId": "8FEBFC85",
+        "clips": [
+          {
+            "frames": [
+              1028,
+              1049
+            ],
+            "id": "41761724",
+            "mediaRef": "BDB24194",
+            "mediaType": "audio",
+            "track": 8
+          }
+        ],
+        "createdTracks": [
+          {
+            "index": 8,
+            "label": "A2",
+            "trackId": "7AF6393B",
+            "type": "audio"
+          }
+        ]
+      }
+    },
+    {
+      "label": "gain and fade paper gesture",
+      "tool": "set_keyframes",
+      "result": {
+        "actionId": "7C1C8ABC",
+        "clips": [
+          {
+            "frames": [
+              1028,
+              1049
+            ],
+            "id": "41761724",
+            "keyframes": {
+              "volumeDb": [
+                [
+                  0,
+                  -24,
+                  "hold"
+                ],
+                [
+                  18,
+                  -24,
+                  "linear"
+                ],
+                [
+                  21,
+                  -60,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "BDB24194",
+            "mediaType": "audio",
+            "track": 8
+          }
+        ]
+      }
+    },
+    {
+      "label": "name paper gesture track SFX",
+      "tool": "manage_tracks",
+      "result": {
+        "actionId": "DAF83D6D",
+        "renamed": [
+          {
+            "changed": true,
+            "name": "SFX",
+            "trackId": "7AF6393B"
+          }
+        ],
+        "tracks": [
+          {
+            "index": 0,
+            "label": "V7",
+            "trackId": "017F50BD",
+            "type": "video"
+          },
+          {
+            "index": 1,
+            "label": "V6",
+            "name": "Grain",
+            "trackId": "F4189BF4",
+            "type": "video"
+          },
+          {
+            "index": 2,
+            "label": "V5",
+            "name": "Foreground",
+            "trackId": "9106833B",
+            "type": "video"
+          },
+          {
+            "index": 3,
+            "label": "V4",
+            "name": "Middle",
+            "trackId": "FB8884A1",
+            "type": "video"
+          },
+          {
+            "index": 4,
+            "label": "V3",
+            "name": "Accents",
+            "trackId": "B9DE18D4",
+            "type": "video"
+          },
+          {
+            "index": 5,
+            "label": "V2",
+            "name": "Background",
+            "trackId": "CD139083",
+            "type": "video"
+          },
+          {
+            "index": 6,
+            "label": "V1",
+            "name": "Support",
+            "trackId": "EF28F826",
+            "type": "video"
+          },
+          {
+            "index": 7,
+            "label": "A1",
+            "name": "Narration",
+            "trackId": "377793EA",
+            "type": "audio"
+          },
+          {
+            "index": 8,
+            "label": "A2",
+            "name": "SFX",
+            "trackId": "7AF6393B",
+            "type": "audio"
+          }
+        ]
+      }
+    },
+    {
+      "label": "name P12 accent track",
+      "tool": "manage_tracks",
+      "result": {
+        "actionId": "AE1D0216",
+        "renamed": [
+          {
+            "changed": true,
+            "name": "Accents P12",
+            "trackId": "017F50BD"
+          }
+        ],
+        "tracks": [
+          {
+            "index": 0,
+            "label": "V7",
+            "name": "Accents P12",
+            "trackId": "017F50BD",
+            "type": "video"
+          },
+          {
+            "index": 1,
+            "label": "V6",
+            "name": "Grain",
+            "trackId": "F4189BF4",
+            "type": "video"
+          },
+          {
+            "index": 2,
+            "label": "V5",
+            "name": "Foreground",
+            "trackId": "9106833B",
+            "type": "video"
+          },
+          {
+            "index": 3,
+            "label": "V4",
+            "name": "Middle",
+            "trackId": "FB8884A1",
+            "type": "video"
+          },
+          {
+            "index": 4,
+            "label": "V3",
+            "name": "Accents",
+            "trackId": "B9DE18D4",
+            "type": "video"
+          },
+          {
+            "index": 5,
+            "label": "V2",
+            "name": "Background",
+            "trackId": "CD139083",
+            "type": "video"
+          },
+          {
+            "index": 6,
+            "label": "V1",
+            "name": "Support",
+            "trackId": "EF28F826",
+            "type": "video"
+          },
+          {
+            "index": 7,
+            "label": "A1",
+            "name": "Narration",
+            "trackId": "377793EA",
+            "type": "audio"
+          },
+          {
+            "index": 8,
+            "label": "A2",
+            "name": "SFX",
+            "trackId": "7AF6393B",
+            "type": "audio"
+          }
+        ]
+      }
+    },
+    {
+      "label": "place P12 accent below foreground and middle",
+      "tool": "manage_tracks",
+      "result": {
+        "actionId": "006B35E4",
+        "reordered": [
+          {
+            "changed": true,
+            "from": 0,
+            "to": 3,
+            "trackId": "017F50BD"
+          }
+        ],
+        "tracks": [
+          {
+            "index": 0,
+            "label": "V7",
+            "name": "Grain",
+            "trackId": "F4189BF4",
+            "type": "video"
+          },
+          {
+            "index": 1,
+            "label": "V6",
+            "name": "Foreground",
+            "trackId": "9106833B",
+            "type": "video"
+          },
+          {
+            "index": 2,
+            "label": "V5",
+            "name": "Middle",
+            "trackId": "FB8884A1",
+            "type": "video"
+          },
+          {
+            "index": 3,
+            "label": "V4",
+            "name": "Accents P12",
+            "trackId": "017F50BD",
+            "type": "video"
+          },
+          {
+            "index": 4,
+            "label": "V3",
+            "name": "Accents",
+            "trackId": "B9DE18D4",
+            "type": "video"
+          },
+          {
+            "index": 5,
+            "label": "V2",
+            "name": "Background",
+            "trackId": "CD139083",
+            "type": "video"
+          },
+          {
+            "index": 6,
+            "label": "V1",
+            "name": "Support",
+            "trackId": "EF28F826",
+            "type": "video"
+          },
+          {
+            "index": 7,
+            "label": "A1",
+            "name": "Narration",
+            "trackId": "377793EA",
+            "type": "audio"
+          },
+          {
+            "index": 8,
+            "label": "A2",
+            "name": "SFX",
+            "trackId": "7AF6393B",
+            "type": "audio"
+          }
+        ]
+      }
+    },
+    {
+      "label": "deepen hidden enter and exit behind laptop edge",
+      "tool": "set_keyframes",
+      "result": {
+        "actionId": "AAEF18C9",
+        "clips": [
+          {
+            "frames": [
+              1028,
+              1164
+            ],
+            "id": "DE6DAB40",
+            "keyframes": {
+              "position": [
+                [
+                  0,
+                  0.42,
+                  0.34,
+                  "linear"
+                ],
+                [
+                  8,
+                  0.42,
+                  0.21,
+                  "linear"
+                ],
+                [
+                  117,
+                  0.42,
+                  0.21,
+                  "linear"
+                ],
+                [
+                  135,
+                  0.42,
+                  0.34,
+                  "linear"
+                ]
+              ],
+              "scale": [
+                [
+                  0,
+                  0.32,
+                  0.087,
+                  "linear"
+                ],
+                [
+                  135,
+                  0.32,
+                  0.087,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "085F758F",
+            "mediaType": "image",
+            "track": 3,
+            "transform": {
+              "height": 0.272
+            },
+            "trimEndFrame": 14
+          }
+        ]
+      }
+    },
+    {
+      "label": "move paper SFX tail fade inside final audio frame",
+      "tool": "set_keyframes",
+      "result": {
+        "actionId": "30976CAB",
+        "clips": [
+          {
+            "frames": [
+              1028,
+              1049
+            ],
+            "id": "41761724",
+            "keyframes": {
+              "volumeDb": [
+                [
+                  0,
+                  -24,
+                  "hold"
+                ],
+                [
+                  17,
+                  -24,
+                  "linear"
+                ],
+                [
+                  20,
+                  -60,
+                  "linear"
+                ]
+              ]
+            },
+            "mediaRef": "BDB24194",
+            "mediaType": "audio",
+            "track": 8
+          }
+        ]
+      }
+    },
+    {
+      "label": "save corrected P12 pre-render snapshot",
+      "tool": "manage_snapshots",
+      "result": {
+        "snapshot": {
+          "author": {
+            "kind": "agent",
+            "name": "yt-stories-inspect"
+          },
+          "createdAt": "2026-11-01T08:45:26Z",
+          "name": "007 P12 55 percent accent pending final render 20261101",
+          "snapshotId": "E7B112CE"
+        }
+      }
+    }
+  ],
+  "planned_accent": {
+    "frames": [
+      1028,
+      1164
+    ],
+    "readable_target_frame": 1036,
+    "scale": [
+      0.32,
+      0.0868
+    ],
+    "position_start": [
+      0.42,
+      0.3
+    ],
+    "position_hold": [
+      0.42,
+      0.21
+    ],
+    "motion": "rise from behind the laptop top edge"
+  },
+  "planned_foley": {
+    "source": [
+      0.0,
+      0.733
+    ],
+    "start_frame": 1028,
+    "volume_db": [
+      [
+        0,
+        -24,
+        "hold"
+      ],
+      [
+        18,
+        -24,
+        "linear"
+      ],
+      [
+        21,
+        -60,
+        "linear"
+      ]
+    ]
+  },
+  "media_refs": {
+    "55_PERCENT": "085F758F",
+    "book-page-02.wav": "BDB24194"
+  },
+  "accent": {
+    "clip_id": "DE6DAB40",
+    "frames": [
+      1028,
+      1164
+    ],
+    "position_keyframes": [
+      [
+        0,
+        0.42,
+        0.34,
+        "linear"
+      ],
+      [
+        8,
+        0.42,
+        0.21,
+        "linear"
+      ],
+      [
+        117,
+        0.42,
+        0.21,
+        "linear"
+      ],
+      [
+        135,
+        0.42,
+        0.34,
+        "linear"
+      ]
+    ],
+    "scale": [
+      0.32,
+      0.0868
+    ],
+    "layer_order": "Accents track below Middle and above Background",
+    "track_id": "017F50BD",
+    "hidden_y_updated": true
+  },
+  "foley": {
+    "clip_id": "41761724",
+    "start_frame": 1028,
+    "source_seconds": [
+      0.0,
+      0.733
+    ],
+    "volume_db": [
+      [
+        0,
+        -24,
+        "hold"
+      ],
+      [
+        17,
+        -24,
+        "linear"
+      ],
+      [
+        20,
+        -60,
+        "linear"
+      ]
+    ],
+    "tail_fade_frame": 20,
+    "track_id": "7AF6393B"
+  },
+  "error": "RuntimeError('Palmier inspect_timeline failed at frame 1028')",
+  "review_frames": [
+    1028,
+    1030,
+    1032,
+    1036,
+    1144,
+    1154,
+    1160,
+    1163
+  ],
+  "after": {
+    "video_track_order": [
+      "Grain",
+      "Foreground",
+      "Middle",
+      "Accents P12",
+      "Accents",
+      "Background",
+      "Support"
+    ],
+    "audio_track_order": [
+      "Narration",
+      "SFX"
+    ],
+    "total_frames": 1344
+  },
+  "snapshot": {
+    "snapshot": {
+      "author": {
+        "kind": "agent",
+        "name": "yt-stories-inspect"
+      },
+      "createdAt": "2026-11-01T08:45:26Z",
+      "name": "007 P12 55 percent accent pending final render 20261101",
+      "snapshotId": "E7B112CE"
+    }
+  }
+}

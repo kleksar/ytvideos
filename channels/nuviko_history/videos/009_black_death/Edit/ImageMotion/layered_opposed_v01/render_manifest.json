@@ -1,0 +1,2257 @@
+{
+  "project": "Nuviko 009 Black Death",
+  "fps": 30,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "motion_order": [
+    "layered parallax",
+    "opposed whole-image camera",
+    "G08"
+  ],
+  "items": [
+    {
+      "scene": 1,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene001_london_excavation_v02.png",
+      "image_sha256": "b8dd5b4d10760b5699160af82667a44bada466c36850b9193dc8e6e12704bf02",
+      "frames": 179,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S001/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S001/background.png",
+      "mask_centroid_normalized": [
+        0.87278,
+        0.43018
+      ],
+      "direction": "parallax-left-camera-right",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 0,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S001_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S001.mp4"
+    },
+    {
+      "scene": 2,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene002_coins_detail.png",
+      "image_sha256": "d82911a9ac8307252b939f5883ada2dbc86d7e3b26ad345cb16a7d61d9ae919b",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S002/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S002/background.png",
+      "mask_centroid_normalized": [
+        0.24322,
+        0.31834
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 0,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S002_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S002.mp4"
+    },
+    {
+      "scene": 3,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene003_coin_mystery.png",
+      "image_sha256": "dbb73d2ee42a0a8022fc0f55af2a91ad4eb5aaa547d2873d1b7b8273f2c98316",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S003/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S003/background.png",
+      "mask_centroid_normalized": [
+        0.44433,
+        0.39617
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 0,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S003_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S003.mp4"
+    },
+    {
+      "scene": 4,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene004_ordered_burials.png",
+      "image_sha256": "8f7e5f5dda6c6219f3d34e81c51db27343e1fabe45b9dd5cd1966fdc17063575",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S004/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S004/background.png",
+      "mask_centroid_normalized": [
+        0.49832,
+        0.46655
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 0,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S004_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S004.mp4"
+    },
+    {
+      "scene": 5,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene005_work_continues.png",
+      "image_sha256": "ea137d37c8467896b0fcd9d9dcb86a3cde6a8da7f81acbb6f6b89974948ca638",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S005/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S005/background.png",
+      "mask_centroid_normalized": [
+        0.42534,
+        0.53486
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S005_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S005.mp4"
+    },
+    {
+      "scene": 6,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene006_london_cemetery.png",
+      "image_sha256": "cd4b30e72b59e43014923faaee90ffb417f6ce4f5e2b93708b034ab5a7524ba1",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S006/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S006/background.png",
+      "mask_centroid_normalized": [
+        0.84719,
+        0.70342
+      ],
+      "direction": "parallax-left-camera-right",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S006_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S006.mp4"
+    },
+    {
+      "scene": 7,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene007_household_choice.png",
+      "image_sha256": "970c9f460d88cf8bfaf5d5b7686d7578dfd7d2574d6426d1da851ec616b59eea",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S007/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S007/background.png",
+      "mask_centroid_normalized": [
+        0.47965,
+        0.54788
+      ],
+      "direction": "parallax-left-camera-right",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S007_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S007.mp4"
+    },
+    {
+      "scene": 8,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene008_market_choice.png",
+      "image_sha256": "5e97ca27bd8596af8fea4e94b674a34427e92f87cc5604f693af08e83b0bed7b",
+      "frames": 179,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S008/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S008/background.png",
+      "mask_centroid_normalized": [
+        0.56699,
+        0.44922
+      ],
+      "direction": "parallax-left-camera-right",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 0,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S008_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S008.mp4"
+    },
+    {
+      "scene": 9,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene009_city_gate_supply.png",
+      "image_sha256": "732b166b3028d0472f7e6f0ba3e1788c05ae760b7498e7062339e75385a86ca4",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S009/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S009/background.png",
+      "mask_centroid_normalized": [
+        0.90807,
+        0.71171
+      ],
+      "direction": "parallax-left-camera-right",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S009_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S009.mp4"
+    },
+    {
+      "scene": 10,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene010_trade_network.png",
+      "image_sha256": "a516b175a359ee69f216c4b441345ea04770052f9c47e6ada21ab2d4bd2c4345",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S010/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S010/background.png",
+      "mask_centroid_normalized": [
+        0.13485,
+        0.82253
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S010_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S010.mp4"
+    },
+    {
+      "scene": 11,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene011_port_goods.png",
+      "image_sha256": "f8d4be55a4422115b5df1507d4aa901ef170af58cfba7b2cca47367e687cec23",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S011/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S011/background.png",
+      "mask_centroid_normalized": [
+        0.70183,
+        0.49108
+      ],
+      "direction": "parallax-left-camera-right",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 14,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S011_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S011.mp4"
+    },
+    {
+      "scene": 12,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene012_return_route.png",
+      "image_sha256": "bc7a72817a75b25b36951d12a8da56b48343952f12c20bea298f76beed26a4b1",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S012/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S012/background.png",
+      "mask_centroid_normalized": [
+        0.72469,
+        0.58131
+      ],
+      "direction": "parallax-left-camera-right",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S012_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S012.mp4"
+    },
+    {
+      "scene": 13,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene013_animals_with_cargo.png",
+      "image_sha256": "17dc7af7ca5fd65909d041d2746d83c15827855066be291a460af73a323360e8",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S013/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S013/background.png",
+      "mask_centroid_normalized": [
+        0.30164,
+        0.67872
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S013_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S013.mp4"
+    },
+    {
+      "scene": 14,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene014_distance_by_sea.png",
+      "image_sha256": "916ed3bd6a63b0a8f5b40628007f5911c179e138d52eb7acaaf7de804d1229c4",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S014/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S014/background.png",
+      "mask_centroid_normalized": [
+        0.52044,
+        0.35487
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 0,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S014_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S014.mp4"
+    },
+    {
+      "scene": 15,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene015_mediterranean_port.png",
+      "image_sha256": "add313d90ec7c7da8c81fce4d3a0d9b280e21780d2e772e300e86dbc3b6bec14",
+      "frames": 179,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S015/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S015/background.png",
+      "mask_centroid_normalized": [
+        0.12789,
+        0.51579
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 42,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S015_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S015.mp4"
+    },
+    {
+      "scene": 16,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene016_florence_river_city.png",
+      "image_sha256": "e992b511e7f8ac4f06a6e3cd89b82d1a49386875e83ac5becca1c4233a274e51",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S016/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S016/background.png",
+      "mask_centroid_normalized": [
+        0.84729,
+        0.78587
+      ],
+      "direction": "parallax-left-camera-right",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S016_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S016.mp4"
+    },
+    {
+      "scene": 17,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene017_north_african_port.png",
+      "image_sha256": "3442a50ba63c6a72181c0a674dd47ca66b2fa4e24224605cb899fc3285083a9e",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S017/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S017/background.png",
+      "mask_centroid_normalized": [
+        0.13945,
+        0.60943
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S017_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S017.mp4"
+    },
+    {
+      "scene": 18,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene018_many_routes_river_town.png",
+      "image_sha256": "6db71ce96d65a511780c77f581debbdba819f6cab8d371b344c7d3a3f6f07321",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S018/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S018/background.png",
+      "mask_centroid_normalized": [
+        0.13345,
+        0.62954
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S018_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S018.mp4"
+    },
+    {
+      "scene": 19,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene019_warning_reaches_england.png",
+      "image_sha256": "cd9109200af67b71bff120d3b754a57dd80d519d183e9d572bf55fb0fd1e72ca",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S019/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S019/background.png",
+      "mask_centroid_normalized": [
+        0.46911,
+        0.61767
+      ],
+      "direction": "parallax-left-camera-right",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S019_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S019.mp4"
+    },
+    {
+      "scene": 20,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene020_town_square_choices.png",
+      "image_sha256": "d0f5e3757636383099013d24a24092dcb4dc4953ab5a98944c9fd5cd4ad4666a",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S020/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S020/background.png",
+      "mask_centroid_normalized": [
+        0.78037,
+        0.60505
+      ],
+      "direction": "parallax-left-camera-right",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S020_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S020.mp4"
+    },
+    {
+      "scene": 21,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene021_city_gate_grain_waiting.png",
+      "image_sha256": "930d7e9b59592f6ebc8ac35e2a1d8af57d2e28f8b31dee6dedfad80b5c87d1ac",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S021/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S021/background.png",
+      "mask_centroid_normalized": [
+        0.62569,
+        0.58774
+      ],
+      "direction": "parallax-left-camera-right",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S021_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S021.mp4"
+    },
+    {
+      "scene": 22,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene022_gate_supply_observation.png",
+      "image_sha256": "efb2c2b0f03bec0138ea00c5cea8947b18dcfe216ba0be6bc86ea9843db291f2",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S022/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S022/background.png",
+      "mask_centroid_normalized": [
+        0.46616,
+        0.66477
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S022_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S022.mp4"
+    },
+    {
+      "scene": 23,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene023_grain_and_city_gate_detail.png",
+      "image_sha256": "51333af5e626ff549b3b10a55f5b52c2d4846a8a3576833b193e47d7c4b34cff",
+      "frames": 179,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S023/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S023/background.png",
+      "mask_centroid_normalized": [
+        0.39228,
+        0.50498
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 30,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S023_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S023.mp4"
+    },
+    {
+      "scene": 24,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene024_household_care.png",
+      "image_sha256": "825fe15f70aaa1fb647c69edbb964387f44c622e2fabe1ab5d55b2e5693de7f1",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S024/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S024/background.png",
+      "mask_centroid_normalized": [
+        0.52073,
+        0.51932
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 46,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S024_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S024.mp4"
+    },
+    {
+      "scene": 25,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene025_fever_and_care.png",
+      "image_sha256": "b85c46d9c0fc7c2776fcb54496a2b7f401870c3680d53552b9478691b3be5d5c",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S025/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S025/background.png",
+      "mask_centroid_normalized": [
+        0.60825,
+        0.54485
+      ],
+      "direction": "parallax-left-camera-right",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S025_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S025.mp4"
+    },
+    {
+      "scene": 26,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene026_painful_swelling.png",
+      "image_sha256": "d131b28865dcc4f21e0ec1c160c74f2dbd6eccb61383fc7cd87f06f3a95b13f6",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S026/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S026/background.png",
+      "mask_centroid_normalized": [
+        0.4778,
+        0.55567
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S026_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S026.mp4"
+    },
+    {
+      "scene": 27,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene027_healer_visits_household.png",
+      "image_sha256": "5aab077631a455926a440403370f855c5bca9d928b683232b0dbb627d3cae236",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S027/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S027/background.png",
+      "mask_centroid_normalized": [
+        0.51596,
+        0.58782
+      ],
+      "direction": "parallax-left-camera-right",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S027_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S027.mp4"
+    },
+    {
+      "scene": 28,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene028_celestial_explanation.png",
+      "image_sha256": "4b22880d2c47e71c440957679499601fb290039a828eaf00bb2a2a9f5d8a9761",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S028/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S028/background.png",
+      "mask_centroid_normalized": [
+        0.42627,
+        0.7108
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S028_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S028.mp4"
+    },
+    {
+      "scene": 29,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene029_prayer_for_protection.png",
+      "image_sha256": "0d46fcff6a565049230b96c2914690b024acb7fb46f847123e317a6c6e67e086",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S029/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S029/background.png",
+      "mask_centroid_normalized": [
+        0.41952,
+        0.65464
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S029_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S029.mp4"
+    },
+    {
+      "scene": 30,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene030_herbs_and_incense.png",
+      "image_sha256": "0e7c412b44f86bfa1a495cbb420f8b015e628937927805662811a17f4b7450c3",
+      "frames": 179,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S030/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S030/background.png",
+      "mask_centroid_normalized": [
+        0.7395,
+        0.60524
+      ],
+      "direction": "parallax-left-camera-right",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S030_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S030.mp4"
+    },
+    {
+      "scene": 31,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene031_bacterium_visualization.png",
+      "image_sha256": "f92fd552aab663969ace5d7036765519e99ff601337fcb7ef16b80d9f30aaf50",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S031/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S031/background.png",
+      "mask_centroid_normalized": [
+        0.51977,
+        0.52326
+      ],
+      "direction": "parallax-left-camera-right",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S031_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S031.mp4"
+    },
+    {
+      "scene": 32,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene032_wild_rodent_granary.png",
+      "image_sha256": "a10918c17d9f02e9c63909fd43db1c8ca4c7e27a751192cc8cb56fbb19b2f138",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S032/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S032/background.png",
+      "mask_centroid_normalized": [
+        0.40368,
+        0.49598
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 20,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S032_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S032.mp4"
+    },
+    {
+      "scene": 33,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene033_animal_tissue_contact.png",
+      "image_sha256": "251202e6a852b34d75f5280b3eb31898b06dc3054080157c650ebc8ffbb029ad",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S033/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S033/background.png",
+      "mask_centroid_normalized": [
+        0.63883,
+        0.59225
+      ],
+      "direction": "parallax-left-camera-right",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S033_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S033.mp4"
+    },
+    {
+      "scene": 34,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene034_close_contact_care.png",
+      "image_sha256": "5c7d0ff532bfb57b3c2ce0da6aed1ca2e1478244e6956034824ee634cdca943e",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S034/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S034/background.png",
+      "mask_centroid_normalized": [
+        0.59405,
+        0.58635
+      ],
+      "direction": "parallax-left-camera-right",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S034_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S034.mp4"
+    },
+    {
+      "scene": 35,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene035_trade_routes_port.png",
+      "image_sha256": "9bff6dda3d1a0019f71cc4592e5066d56b84995c3f6d02a22b7639cd2a782d67",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S035/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S035/background.png",
+      "mask_centroid_normalized": [
+        0.62724,
+        0.8199
+      ],
+      "direction": "parallax-left-camera-right",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S035_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S035.mp4"
+    },
+    {
+      "scene": 36,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene036_multiple_possible_links.png",
+      "image_sha256": "063885e8d1557941cad102c18c31cd12e702bac86603b3db3ce41764138eaada",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S036/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S036/background.png",
+      "mask_centroid_normalized": [
+        0.76761,
+        0.54924
+      ],
+      "direction": "parallax-left-camera-right",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S036_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S036.mp4"
+    },
+    {
+      "scene": 37,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene037_illness_through_window.png",
+      "image_sha256": "a8038d4ed38188c30f17ea1a9e2f667740bcba997bf03641c5a52304fd7bcf4d",
+      "frames": 179,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S037/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S037/background.png",
+      "mask_centroid_normalized": [
+        0.22656,
+        0.62361
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S037_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S037.mp4"
+    },
+    {
+      "scene": 38,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene038_distance_in_street.png",
+      "image_sha256": "3df78ab83e06fd2f1b8924cc9786167c3ec661188a383d4ce21ddb644d591493",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S038/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S038/background.png",
+      "mask_centroid_normalized": [
+        0.18633,
+        0.62207
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S038_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S038.mp4"
+    },
+    {
+      "scene": 39,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene039_stranger_in_florence.png",
+      "image_sha256": "cf5b09be37acf28b96563bba4d1e21809b2fc7bc8cf3ebb543594779f6d70be8",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S039/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S039/background.png",
+      "mask_centroid_normalized": [
+        0.74886,
+        0.57675
+      ],
+      "direction": "parallax-left-camera-right",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S039_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S039.mp4"
+    },
+    {
+      "scene": 40,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene040_family_at_threshold.png",
+      "image_sha256": "41223de6f7d35c43ab9af22ae7f1e31359407693ef5c3f3cfcfe18d4b7a148c4",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S040/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S040/background.png",
+      "mask_centroid_normalized": [
+        0.5437,
+        0.59906
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S040_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S040.mp4"
+    },
+    {
+      "scene": 41,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene041_florence_citizens_gather.png",
+      "image_sha256": "f59d59d5caece785e06ab2d848cb7e2ab4263da31fd9b8d96ede189d42f22202",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S041/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S041/background.png",
+      "mask_centroid_normalized": [
+        0.324,
+        0.76457
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S041_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S041.mp4"
+    },
+    {
+      "scene": 42,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene042_street_cleaning.png",
+      "image_sha256": "9c006ce886e9222a14dcb1ee38fafc39df1e56893d76f51358ec506f12a23ef0",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S042/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S042/background.png",
+      "mask_centroid_normalized": [
+        0.36848,
+        0.64451
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S042_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S042.mp4"
+    },
+    {
+      "scene": 43,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene043_gate_excludes_sick_traveler.png",
+      "image_sha256": "0c25242e404576b0aa3833030cb5549d8c3b0a22eb5e38596a2ccab9c30a1d33",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S043/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S043/background.png",
+      "mask_centroid_normalized": [
+        0.48962,
+        0.71742
+      ],
+      "direction": "parallax-left-camera-right",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S043_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S043.mp4"
+    },
+    {
+      "scene": 44,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene044_household_small_circle.png",
+      "image_sha256": "0e43dc6804308d40a6320d20f0544e37b66611326fb5febcc730cb4a351b7ed9",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S044/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S044/background.png",
+      "mask_centroid_normalized": [
+        0.48852,
+        0.61253
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S044_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S044.mp4"
+    },
+    {
+      "scene": 45,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene045_florence_tavern.png",
+      "image_sha256": "8fffd1aeb334e66d065cb1e785d517099adf12bc535f463165aea257347125f7",
+      "frames": 179,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S045/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S045/background.png",
+      "mask_centroid_normalized": [
+        0.51115,
+        0.65677
+      ],
+      "direction": "parallax-left-camera-right",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S045_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S045.mp4"
+    },
+    {
+      "scene": 46,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene046_different_households.png",
+      "image_sha256": "45c17556796fd787832fbc1b4e342f9bb930759e6c9eb0267eb2728f2feec8be",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S046/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S046/background.png",
+      "mask_centroid_normalized": [
+        0.49958,
+        0.4691
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 0,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S046_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S046.mp4"
+    },
+    {
+      "scene": 47,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene047_uncertain_household_choice.png",
+      "image_sha256": "87107d1aa96e1b6a7f6e85d9d381c5056aa2ec261e915d492c4c84438debaf34",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S047/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S047/background.png",
+      "mask_centroid_normalized": [
+        0.38724,
+        0.62929
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S047_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S047.mp4"
+    },
+    {
+      "scene": 48,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene048_bread_at_threshold.png",
+      "image_sha256": "8eeb93a392d33cbadb433182411eee4ba0b1812bbcd1cfb9198a07e180956420",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S048/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S048/background.png",
+      "mask_centroid_normalized": [
+        0.25569,
+        0.57199
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S048_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S048.mp4"
+    },
+    {
+      "scene": 49,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene049_countryside_shelter_and_supplies.png",
+      "image_sha256": "945b6f8148a875da8062e94cb0d9b635cfc94e064620d038c94b63d4ae5a7c58",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S049/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S049/background.png",
+      "mask_centroid_normalized": [
+        0.44979,
+        0.65053
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S049_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S049.mp4"
+    },
+    {
+      "scene": 50,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene050_wealthy_leave_for_countryside.png",
+      "image_sha256": "ae371997322e7d674823a1c9cbab8d7f3ef744a9df2ec9282d070f1a76aeffa9",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S050/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S050/background.png",
+      "mask_centroid_normalized": [
+        0.34614,
+        0.63532
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S050_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S050.mp4"
+    },
+    {
+      "scene": 51,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene051_water_and_bread_delivery.png",
+      "image_sha256": "5dcffb480859b85c3c1c298028ec5a40f5264ea3a7ab6850d113325514edaca9",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S051/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S051/background.png",
+      "mask_centroid_normalized": [
+        0.35868,
+        0.64718
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S051_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S051.mp4"
+    },
+    {
+      "scene": 52,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene052_care_despite_distance.png",
+      "image_sha256": "b223cfa690bdf66334d38be3a896646808f5e5da2b7192adc3ef31375f1dcb8e",
+      "frames": 179,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S052/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S052/background.png",
+      "mask_centroid_normalized": [
+        0.44124,
+        0.59429
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S052_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S052.mp4"
+    },
+    {
+      "scene": 53,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene053_care_water_at_home.png",
+      "image_sha256": "9c6f8c43f4dbc85420d0e725d8637596b000d737c2e79f30a172ced3494b1b88",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S053/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S053/background.png",
+      "mask_centroid_normalized": [
+        0.47223,
+        0.57109
+      ],
+      "direction": "parallax-left-camera-right",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S053_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S053.mp4"
+    },
+    {
+      "scene": 54,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene054_return_to_east_smithfield.png",
+      "image_sha256": "93c950f44a3accf5ae6615376c66b354473a226a708b194258750b329a54c88e",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S054/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S054/background.png",
+      "mask_centroid_normalized": [
+        0.83176,
+        0.5008
+      ],
+      "direction": "parallax-left-camera-right",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 25,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S054_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S054.mp4"
+    },
+    {
+      "scene": 55,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene055_medieval_orderly_graves.png",
+      "image_sha256": "6208fdf1246b0df8e174b514e2908d4858a09e3bad8b1ff490f6f7192810dcc8",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S055/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S055/background.png",
+      "mask_centroid_normalized": [
+        0.10558,
+        0.37295
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 0,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S055_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S055.mp4"
+    },
+    {
+      "scene": 56,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene056_archaeology_measured_trenches.png",
+      "image_sha256": "93698ee4c95cf821b483ec2e6f675711d1846c16a68ad362725ed9790ccf84ad",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S056/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S056/background.png",
+      "mask_centroid_normalized": [
+        0.24106,
+        0.44311
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 0,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S056_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S056.mp4"
+    },
+    {
+      "scene": 57,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene057_cemetery_land_set_aside.png",
+      "image_sha256": "c0d28ee64e212caf8c2faa0b9e229e838d6d375bc30420f0ea7560036621d910",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S057/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S057/background.png",
+      "mask_centroid_normalized": [
+        0.29559,
+        0.58522
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S057_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S057.mp4"
+    },
+    {
+      "scene": 58,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene058_digging_empty_graves.png",
+      "image_sha256": "06bb2fd35ebd17630d70922aa5c9e5d6e35f4beed441c45b8e1ca06462e66736",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S058/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S058/background.png",
+      "mask_centroid_normalized": [
+        0.47864,
+        0.43987
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 0,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S058_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S058.mp4"
+    },
+    {
+      "scene": 59,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene059_covered_bier_procession.png",
+      "image_sha256": "8390b7e702b0e0c66769987a89c304f7a88848ab3bcb8c688f00e15988b0b8ae",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S059/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S059/background.png",
+      "mask_centroid_normalized": [
+        0.48786,
+        0.60653
+      ],
+      "direction": "parallax-left-camera-right",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S059_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S059.mp4"
+    },
+    {
+      "scene": 60,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene060_orderly_cemetery_rows.png",
+      "image_sha256": "f78f6eb610c39575a73e20e21ccd5f910c8c48e726ad55fc48ed1636714969d8",
+      "frames": 179,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S060/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S060/background.png",
+      "mask_centroid_normalized": [
+        0.9132,
+        0.32786
+      ],
+      "direction": "parallax-left-camera-right",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 0,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S060_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S060.mp4"
+    },
+    {
+      "scene": 61,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene061_false_accusation_at_well.png",
+      "image_sha256": "8504f4760e7838c7eed92fbdee1e3a4cf110d99fb6f6b0559b64d5d60ddf07a0",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S061/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S061/background.png",
+      "mask_centroid_normalized": [
+        0.43967,
+        0.62479
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S061_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S061.mp4"
+    },
+    {
+      "scene": 62,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene062_exclusion_at_city_gate.png",
+      "image_sha256": "8ed515474705eda7016cf4ac8b61f67b56690e9180e8a97eb6ecbe79035b2d55",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S062/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S062/background.png",
+      "mask_centroid_normalized": [
+        0.48661,
+        0.65569
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S062_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S062.mp4"
+    },
+    {
+      "scene": 63,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene063_family_forced_to_leave.png",
+      "image_sha256": "0bfe34ac762edf3a03464b49a118a2d29e0567c9582938704af2187bd767080e",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S063/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S063/background.png",
+      "mask_centroid_normalized": [
+        0.43547,
+        0.65411
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S063_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S063.mp4"
+    },
+    {
+      "scene": 64,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene064_neighbor_offers_help.png",
+      "image_sha256": "efc83f5e442a5f5cc0928011c84f0491b6c4c4eddda0489a1cc819f9ea716f25",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S064/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S064/background.png",
+      "mask_centroid_normalized": [
+        0.498,
+        0.62085
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S064_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S064.mp4"
+    },
+    {
+      "scene": 65,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene065_neighbors_share_food.png",
+      "image_sha256": "e6852cf41b77ba3cb9da3d2af45101232623ab6bd6c8d5f27687a2453d012ae1",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S065/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S065/background.png",
+      "mask_centroid_normalized": [
+        0.54351,
+        0.61394
+      ],
+      "direction": "parallax-left-camera-right",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S065_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S065.mp4"
+    },
+    {
+      "scene": 66,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene066_quiet_community_gathering.png",
+      "image_sha256": "fdaba99cb071d50485784fa5f4d0f5c3b295fc6dd31ad68d5b2467a45139444a",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S066/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S066/background.png",
+      "mask_centroid_normalized": [
+        0.59038,
+        0.62205
+      ],
+      "direction": "parallax-left-camera-right",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S066_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S066.mp4"
+    },
+    {
+      "scene": 67,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene067_care_and_closed_gate.png",
+      "image_sha256": "8bbc0e4df874afd50c1d456dcafc03ff250b7ecd6c0bb23e83401dec11c074b0",
+      "frames": 179,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S067/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S067/background.png",
+      "mask_centroid_normalized": [
+        0.48361,
+        0.6063
+      ],
+      "direction": "parallax-left-camera-right",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S067_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S067.mp4"
+    },
+    {
+      "scene": 68,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene068_market_reopens.png",
+      "image_sha256": "2b672d372a31c56c8b6dd0bbed84a6bde926583f6f89a0589e57695d31533cc8",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S068/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S068/background.png",
+      "mask_centroid_normalized": [
+        0.70341,
+        0.61022
+      ],
+      "direction": "parallax-left-camera-right",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S068_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S068.mp4"
+    },
+    {
+      "scene": 69,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene069_recovery_after_first_wave.png",
+      "image_sha256": "f309fe761ede8e58825d2ecfa4e1146c0a0d6292da7198ddb74ac922ccc00e22",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S069/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S069/background.png",
+      "mask_centroid_normalized": [
+        0.35993,
+        0.69805
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S069_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S069.mp4"
+    },
+    {
+      "scene": 70,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene070_incomplete_record_book.png",
+      "image_sha256": "1b8228ecc221665209b78d8dadb38a9c13b2598933cce4387314a8a85ca51df7",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S070/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S070/background.png",
+      "mask_centroid_normalized": [
+        0.51345,
+        0.56454
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S070_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S070.mp4"
+    },
+    {
+      "scene": 71,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene071_uneven_village_impact.png",
+      "image_sha256": "c8a45c9ce4fc33578454e0b96c440f383b6628ac528bdca62dad65a6c13bb046",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S071/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S071/background.png",
+      "mask_centroid_normalized": [
+        0.33306,
+        0.70086
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S071_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S071.mp4"
+    },
+    {
+      "scene": 72,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene072_city_and_countryside_scale.png",
+      "image_sha256": "d2a9e22bd132842b651ad6a10091cf6b4393278a422657deb18208165d62988c",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S072/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S072/background.png",
+      "mask_centroid_normalized": [
+        0.19421,
+        0.49556
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 19,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S072_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S072.mp4"
+    },
+    {
+      "scene": 73,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene073_few_hands_in_field.png",
+      "image_sha256": "f1ccbc2936834c47f7bb82a0a92f890fb581170a19c9fc9356df2fa2c0ff80fd",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S073/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S073/background.png",
+      "mask_centroid_normalized": [
+        0.17475,
+        0.64969
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S073_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S073.mp4"
+    },
+    {
+      "scene": 74,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene074_empty_weaving_workshop.png",
+      "image_sha256": "dd78088f2bc0f10db47eb6060c31c5d8e5fdcc19f409ea5970e8c12c4c5c3f84",
+      "frames": 179,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S074/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S074/background.png",
+      "mask_centroid_normalized": [
+        0.58859,
+        0.49942
+      ],
+      "direction": "parallax-left-camera-right",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 24,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S074_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S074.mp4"
+    },
+    {
+      "scene": 75,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene075_employer_offers_wage.png",
+      "image_sha256": "cbc72dafefa7d0782d4b8bd164b4d7190baa47e882e7c2f724bbd0660c138126",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S075/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S075/background.png",
+      "mask_centroid_normalized": [
+        0.45216,
+        0.53848
+      ],
+      "direction": "parallax-left-camera-right",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S075_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S075.mp4"
+    },
+    {
+      "scene": 76,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene076_worker_bargains_for_choice.png",
+      "image_sha256": "6796c54887c46d2d0ccd1746d76524d8d611fef4c8138486a8b1edb89a267c85",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S076/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S076/background.png",
+      "mask_centroid_normalized": [
+        0.50253,
+        0.56833
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S076_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S076.mp4"
+    },
+    {
+      "scene": 77,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene077_owner_worker_negotiation.png",
+      "image_sha256": "da6b5747e65df4c7f813656c3d3af6b559c9c576ef9c748de0aefa8148d2991e",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S077/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S077/background.png",
+      "mask_centroid_normalized": [
+        0.57209,
+        0.60182
+      ],
+      "direction": "parallax-left-camera-right",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S077_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S077.mp4"
+    },
+    {
+      "scene": 78,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene078_council_labour_ordinance.png",
+      "image_sha256": "06d8e5139afcce1f0b887a2d1fa868c7820a828cf1962bb8c5f8a0cd91a76ef9",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S078/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S078/background.png",
+      "mask_centroid_normalized": [
+        0.4117,
+        0.5966
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S078_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S078.mp4"
+    },
+    {
+      "scene": 79,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene079_worker_stopped_on_road.png",
+      "image_sha256": "88903b2f9e4f8de403b58f941a0a8049006853f37f79e2c399e4e13f10eb6ba8",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S079/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S079/background.png",
+      "mask_centroid_normalized": [
+        0.51726,
+        0.61859
+      ],
+      "direction": "parallax-left-camera-right",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S079_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S079.mp4"
+    },
+    {
+      "scene": 80,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene080_prescribed_field_work.png",
+      "image_sha256": "10030395dca482f9f6fc3c91906bb62d3e69b2789c3f410d5d11e3848e962f56",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S080/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S080/background.png",
+      "mask_centroid_normalized": [
+        0.5447,
+        0.5623
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S080_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S080.mp4"
+    },
+    {
+      "scene": 81,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene081_workers_negotiate_terms.png",
+      "image_sha256": "0438f4dd93ff45360ac9da4b36fe964348169e1ab4555258400ffbb94ed979e2",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S081/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S081/background.png",
+      "mask_centroid_normalized": [
+        0.53726,
+        0.60684
+      ],
+      "direction": "parallax-left-camera-right",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S081_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S081.mp4"
+    },
+    {
+      "scene": 82,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene082_poverty_persists.png",
+      "image_sha256": "027cf78bc4b54bc1317d4760b9c9ac3f9fbe7f609296987030d5de1db68dcd71",
+      "frames": 179,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S082/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S082/background.png",
+      "mask_centroid_normalized": [
+        0.49905,
+        0.61082
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S082_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S082.mp4"
+    },
+    {
+      "scene": 83,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene083_worker_receives_wages.png",
+      "image_sha256": "9928a319c31b548dbaed5d75a7166327ffaa682e2bf31871ff5f982ea9c61d1b",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S083/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S083/background.png",
+      "mask_centroid_normalized": [
+        0.50291,
+        0.46583
+      ],
+      "direction": "parallax-left-camera-right",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 0,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S083_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S083.mp4"
+    },
+    {
+      "scene": 84,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene084_who_sets_the_price.png",
+      "image_sha256": "61c19a995af3c293fe7d3d515c9a3324c76f6a107df0d14adf148fd94d89fefe",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S084/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S084/background.png",
+      "mask_centroid_normalized": [
+        0.46953,
+        0.47012
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 0,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S084_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S084.mp4"
+    },
+    {
+      "scene": 85,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene085_ragusa_trading_port.png",
+      "image_sha256": "783603938ec28a55f9f1a29b2fae671236801b3d5740b730e435fe1dbcebb85e",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S085/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S085/background.png",
+      "mask_centroid_normalized": [
+        0.41707,
+        0.75456
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S085_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S085.mp4"
+    },
+    {
+      "scene": 86,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene086_ragusa_harbor_gate.png",
+      "image_sha256": "f2ea3065601f977d7b515b99aabfb642aece3307a84fc2e3bb13dd1dbcbbfe09",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S086/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S086/background.png",
+      "mask_centroid_normalized": [
+        0.82039,
+        0.74912
+      ],
+      "direction": "parallax-left-camera-right",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S086_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S086.mp4"
+    },
+    {
+      "scene": 87,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene087_arrivals_wait_outside.png",
+      "image_sha256": "28574ea3a189bcf8eabc32d1917543fcb674fee5764be6c8bb9bb9bebc7536fc",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S087/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S087/background.png",
+      "mask_centroid_normalized": [
+        0.27571,
+        0.72152
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S087_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S087.mp4"
+    },
+    {
+      "scene": 88,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene088_temporary_waiting_shelter.png",
+      "image_sha256": "78f411492239613611bcc2177932253b766fb4d2dc11224effd65966c5385c33",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S088/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S088/background.png",
+      "mask_centroid_normalized": [
+        0.21003,
+        0.32899
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 0,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S088_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S088.mp4"
+    },
+    {
+      "scene": 89,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene089_returning_resident_waits.png",
+      "image_sha256": "1b987792be5fb099f9cd3b46f5f3489413ecf44844ad1486f904ad305a02b031",
+      "frames": 179,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S089/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S089/background.png",
+      "mask_centroid_normalized": [
+        0.32763,
+        0.6983
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S089_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S089.mp4"
+    },
+    {
+      "scene": 90,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene090_long_isolation_wait.png",
+      "image_sha256": "0a48ae2d8199e230dc7f8262b6a847bbb70c408213f64b87f4d4e91fb398a7e4",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S090/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S090/background.png",
+      "mask_centroid_normalized": [
+        0.33267,
+        0.67249
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S090_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S090.mp4"
+    },
+    {
+      "scene": 91,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene091_food_delivered_across_boundary.png",
+      "image_sha256": "945ded16f420300ead736729f58ef8f5439e5f3c3baa1ac619117eb9aca330f9",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S091/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S091/background.png",
+      "mask_centroid_normalized": [
+        0.49834,
+        0.58957
+      ],
+      "direction": "parallax-left-camera-right",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S091_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S091.mp4"
+    },
+    {
+      "scene": 92,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene092_controlled_visit_at_shelter.png",
+      "image_sha256": "242bb06fef95f167a20e02e462572dad07691e33261e457a01cbc4923cc490f4",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S092/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S092/background.png",
+      "mask_centroid_normalized": [
+        0.37016,
+        0.60945
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S092_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S092.mp4"
+    },
+    {
+      "scene": 93,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene093_necessities_outside_shelter.png",
+      "image_sha256": "9b402f1863f7715747b85e79fb6a4a6100a86ce168b784ebbe955bf05cf6c0ab",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S093/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S093/background.png",
+      "mask_centroid_normalized": [
+        0.31242,
+        0.65059
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S093_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S093.mp4"
+    },
+    {
+      "scene": 94,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene094_delivery_across_boundary.png",
+      "image_sha256": "70b44262de7c278063ce92c3e4b867ea2a5acfcf6bbc88d0326088ce22b2a0b8",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S094/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S094/background.png",
+      "mask_centroid_normalized": [
+        0.45537,
+        0.54094
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S094_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S094.mp4"
+    },
+    {
+      "scene": 95,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene095_hourglass_by_harbor.png",
+      "image_sha256": "f00a8a6a9dc5f2b7843144ef0cb204007fc1f2a4449905067e855383e26d9f13",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S095/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S095/background.png",
+      "mask_centroid_normalized": [
+        0.76079,
+        0.5468
+      ],
+      "direction": "parallax-left-camera-right",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S095_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S095.mp4"
+    },
+    {
+      "scene": 96,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene096_port_manages_arrivals.png",
+      "image_sha256": "60b5a17c0df15a1fda55eb9fba8ea9fb587c0f59384307c58faf77ec9294abe5",
+      "frames": 179,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S096/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S096/background.png",
+      "mask_centroid_normalized": [
+        0.42649,
+        0.58552
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S096_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S096.mp4"
+    },
+    {
+      "scene": 97,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene097_later_ship_returns.png",
+      "image_sha256": "458c24e5726e078521e33fcd6ffa55ab09d0ab4c06d767aff68b3d8017404bcb",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S097/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S097/background.png",
+      "mask_centroid_normalized": [
+        0.22983,
+        0.38335
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 0,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S097_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S097.mp4"
+    },
+    {
+      "scene": 98,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene098_fortified_harbor_open_sea.png",
+      "image_sha256": "7b0c41743c762408b6646fe69d1f9fe8c4fce7d4cec2ac9d3b98c8161088b5bb",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S098/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S098/background.png",
+      "mask_centroid_normalized": [
+        0.12691,
+        0.7161
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S098_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S098.mp4"
+    },
+    {
+      "scene": 99,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene099_checkpoint_after_wait.png",
+      "image_sha256": "cf07ff814d54f4160a973f5539544aad9b43b530d8e5b737c5f80c7f3b9ab67b",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S099/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S099/background.png",
+      "mask_centroid_normalized": [
+        0.39448,
+        0.62249
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S099_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S099.mp4"
+    },
+    {
+      "scene": 100,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene100_modern_london_excavation_return.png",
+      "image_sha256": "6305bc86eda2bd06d4f4433bbf7580271dfef41428712d4983800aeaef76bedb",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S100/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S100/background.png",
+      "mask_centroid_normalized": [
+        0.13366,
+        0.60093
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S100_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S100.mp4"
+    },
+    {
+      "scene": 101,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene101_london_lab_tooth_analysis.png",
+      "image_sha256": "b3fd654cc1d743937267167c3f45a4dc0dd7a8d16ced36c19412329eab541bcd",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S101/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S101/background.png",
+      "mask_centroid_normalized": [
+        0.3328,
+        0.50565
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 31,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S101_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S101.mp4"
+    },
+    {
+      "scene": 102,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene102_ancient_tooth_fragment.png",
+      "image_sha256": "97e9663f84a4a2fb6598d54b3f6e30d3c680a8a9c1e0e41b7c59770a4d964f34",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S102/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S102/background.png",
+      "mask_centroid_normalized": [
+        0.14114,
+        0.36122
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 0,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S102_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S102.mp4"
+    },
+    {
+      "scene": 103,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene103_ancient_pathogen_dna.png",
+      "image_sha256": "2ef00c9593f4c339cf79764dd9b9891a130fb31b463a2d95a80ef8868ba72152",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S103/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S103/background.png",
+      "mask_centroid_normalized": [
+        0.61634,
+        0.31956
+      ],
+      "direction": "parallax-left-camera-right",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 0,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S103_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S103.mp4"
+    },
+    {
+      "scene": 104,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene104_coins_at_tower_excavation.png",
+      "image_sha256": "09ce2192ad3013c7ec7fa48c2005135da57e4f9687abf031466cbfbcc24a8cfd",
+      "frames": 179,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S104/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S104/background.png",
+      "mask_centroid_normalized": [
+        0.47066,
+        0.72685
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S104_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S104.mp4"
+    },
+    {
+      "scene": 105,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene105_london_archaeological_sample.png",
+      "image_sha256": "2646ca352d67055287b4a92169259400482f9a04223f42da0523ddfb9ede2fb1",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S105/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S105/background.png",
+      "mask_centroid_normalized": [
+        0.27675,
+        0.68211
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S105_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S105.mp4"
+    },
+    {
+      "scene": 106,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene106_chuy_valley_landscape.png",
+      "image_sha256": "d1b4f07eb2ac8aed9b9f06c4de76c4b3cb46880f0d75d7611e68ff01c0033b2e",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S106/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S106/background.png",
+      "mask_centroid_normalized": [
+        0.58162,
+        0.68397
+      ],
+      "direction": "parallax-left-camera-right",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S106_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S106.mp4"
+    },
+    {
+      "scene": 107,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene107_weathered_valley_gravestones.png",
+      "image_sha256": "b4b4c0566d0df3dc22bd0d83c4bbf04725f13820022547ae0811262f7207e6f7",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S107/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S107/background.png",
+      "mask_centroid_normalized": [
+        0.26796,
+        0.5539
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S107_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S107.mp4"
+    },
+    {
+      "scene": 108,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene108_chuy_valley_excavation.png",
+      "image_sha256": "087c611946bb147bc3858892ef31b413216f52a4bec0c144887eba9f7783d1d2",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S108/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S108/background.png",
+      "mask_centroid_normalized": [
+        0.42368,
+        0.44227
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 0,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S108_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S108.mp4"
+    },
+    {
+      "scene": 109,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene109_genetic_branch_visual.png",
+      "image_sha256": "3da05e814059cdfa9c2d509625ad1a62a7b2c70b45155ee8f8f3e69e239e55e7",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S109/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S109/background.png",
+      "mask_centroid_normalized": [
+        0.40172,
+        0.5721
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S109_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S109.mp4"
+    },
+    {
+      "scene": 110,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene110_early_chuy_burial_landscape.png",
+      "image_sha256": "a8fff514ab70945ee3a07a36fa4abb41fcd0f1322bdc64b3b5024cbe534495b9",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S110/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S110/background.png",
+      "mask_centroid_normalized": [
+        0.48586,
+        0.82893
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S110_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S110.mp4"
+    },
+    {
+      "scene": 111,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene111_many_paths_no_first_patient.png",
+      "image_sha256": "ce35af8f7553e257bdd1761ab425cd6c2b53bad9b0e59cd6788d7a287e015eb3",
+      "frames": 179,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S111/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S111/background.png",
+      "mask_centroid_normalized": [
+        0.08324,
+        0.78855
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S111_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S111.mp4"
+    },
+    {
+      "scene": 112,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene112_compare_physical_traces.png",
+      "image_sha256": "9e86616fff8660d63257136f792ef8e42bc5da2a5629971f726ca3541b6442db",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S112/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S112/background.png",
+      "mask_centroid_normalized": [
+        0.4459,
+        0.50391
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 29,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S112_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S112.mp4"
+    },
+    {
+      "scene": 113,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene113_pathogen_sample_identified.png",
+      "image_sha256": "eba15f18c823aa302b8ca3bef74f23243641cb852682e7aca718b996c6013367",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S113/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S113/background.png",
+      "mask_centroid_normalized": [
+        0.37661,
+        0.51977
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 47,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S113_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S113.mp4"
+    },
+    {
+      "scene": 114,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene114_closed_sources_and_burial_plan.png",
+      "image_sha256": "0a7944d6d5cc443199d6a2e268b946700489f01aa134bfdcdcceea23cdabbc00",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S114/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S114/background.png",
+      "mask_centroid_normalized": [
+        0.42018,
+        0.48732
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 10,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S114_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S114.mp4"
+    },
+    {
+      "scene": 115,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene115_woman_grave_coins.png",
+      "image_sha256": "3f65215a18971aab23a27f73fb21839f4fe4bd351dff5d5fe56d3b18758c5180",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S115/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S115/background.png",
+      "mask_centroid_normalized": [
+        0.84792,
+        0.77682
+      ],
+      "direction": "parallax-left-camera-right",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S115_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S115.mp4"
+    },
+    {
+      "scene": 116,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene116_workers_maintain_cemetery.png",
+      "image_sha256": "311ef360147da9b2a01f529307db3532fcdd0b25af8269e6222d3b6ff9bc0142",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S116/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S116/background.png",
+      "mask_centroid_normalized": [
+        0.44781,
+        0.45394
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 0,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S116_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S116.mp4"
+    },
+    {
+      "scene": 117,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene117_anonymous_workers_finish.png",
+      "image_sha256": "b8e8beed4516da67da19e9bd29cdc2cdc00f51573c4211de50fcb8d569e0d533",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S117/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S117/background.png",
+      "mask_centroid_normalized": [
+        0.48343,
+        0.56917
+      ],
+      "direction": "parallax-left-camera-right",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 49,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S117_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S117.mp4"
+    },
+    {
+      "scene": 118,
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/remake_v01/scene118_dawn_over_east_smithfield.png",
+      "image_sha256": "6d504a2703ec5eef1954f6065a7960d4d4452340c70b156647254f0f45e9c592",
+      "frames": 180,
+      "fps": 30,
+      "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S118/foreground.png",
+      "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/layers/S118/background.png",
+      "mask_centroid_normalized": [
+        0.13446,
+        0.15512
+      ],
+      "direction": "parallax-right-camera-left",
+      "camera_scale": 1.045,
+      "camera_travel_width_fraction": 0.045,
+      "camera_crop_y": 0,
+      "pre_g08": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S118_pre_g08.mp4",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S118.mp4"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "subtitle_contract_sha256": "aedcb0186e9d82a5be7a76b82a5eade28f19a100ab9e91c167f08bdee4e3d3c1",
+  "checks": {
+    "semantic_grouping": {
+      "status": "UNVERIFIED",
+      "reviewer": "Codex",
+      "method": "Sequence diagnostics reviewed; forced/ambiguous syntax warnings remain in the automatic grouping. The five exact user-authorized groups for the long sentence were checked.",
+      "coverage": "381 groups; see caption_groups.json and episode review notes. No full semantic clearance claimed.",
+      "evidence": null
+    },
+    "audible_sync": {
+      "status": "UNVERIFIED",
+      "reviewer": "Codex",
+      "method": "WhisperX forced alignment compared with provider alignment at opening, long sentence and ending; no listening was available.",
+      "coverage": "1,458 exact words; final word estimate is within source duration. Audible word/frame sync remains open.",
+      "evidence": null
+    },
+    "visual_placement": {
+      "status": "UNVERIFIED",
+      "reviewer": "Codex",
+      "method": "Six full-frame still composites of exact scene images and subtitle states viewed. New image changes and the full new border/end-card composites have not been checked; status remains UNVERIFIED.",
+      "coverage": "Opening, long sentence, ending; does not cover all scene motion or transition frames. No collisions in inspected samples.",
+      "evidence": null
+    }
+  }
+}

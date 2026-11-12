@@ -1,0 +1,7 @@
+# Franklin — accepted end-screen handoff
+
+- Accepted MP4: `Deliverables/047_franklin_search_review_v05.mp4`, SHA-256 `edc32753ad91003b5958b6bb9e5e0ba05c558583c9f84746d470c436440d12d5`, plan `Edit/plan_v07.json`, 2560×1440, 30 fps, 17,297 frames (576.5667 s).
+- Final 300 frames `[16997,17297)` (566.5667–576.5667 s) comprise scene 118 `[16997,17147)`, `Source/Images/scene_118_v04.png`, then scene 119 `[17147,17297)`, `Source/Images/scene_119_v04.png`. Silent tail; narration captions stop at frame 16997.
+- Actual first image contains a printed circle, two horizontal rectangular placeholders and labels; second image contains central channel branding and no placeholders. They are part of the user-accepted MP4. This is a legacy two-image exception; the future single-image standard does not automatically revise this film. They are not clickable objects.
+- `background_qa=PARTIAL`: final MP4 frames at 569 s and 574 s visually checked. Motion, full interval, title overlays, actual widget fit and phone playback UNVERIFIED. Printed geometry changes between the two cards; real native layout may not align with the drawn placeholders or may cover branding. Check actual Studio playback before configuring; do not claim alignment in advance.
+- `native_end_screen=NOT_CONFIGURED`: no video ID, no YouTube changes. Subscribe plus two suitable, distinct public long Paper films may be chosen during a separately authorized upload/release after verifying availability and the actual editor. Targets are UNRESOLVED. The current task authorizes packaging only.

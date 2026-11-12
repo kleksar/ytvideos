@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "episode": "051",
+  "channel": "paper",
+  "format": "short",
+  "input": "ready_text",
+  "input_evidence": "User accepted the exact English narration and requested full production in the 2026-11-05 conversation; see the episode source file and .agent/consultations/2026-11-05-darknet-short-experiment.md.",
+  "scope": "Complete Paper Detour Short production through local MP4 and storyboard delivery. No upload/publication.",
+  "stages": [
+    {
+      "id": "script",
+      "skills": [
+        "ytv-shorts-loop"
+      ],
+      "status": "DONE",
+      "artifacts": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/051_hansa_marketplace_operation/Source/Script/narration_en_accepted_v01.md",
+          "version": "v01",
+          "sha256": "6227906ae5ca239e4fe7a10e88943b8cea41975311f46f5d8c6fbb7e8c0b5e73"
+        }
+      ],
+      "checks": [],
+      "dependencies": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/051_hansa_marketplace_operation/Research/SOURCE_NOTES_v01.md",
+          "sha256": "41c7ab7aeb6e301fd9bbd73e79d0f952cde880f64ca72332ec858883b5287a61"
+        }
+      ],
+      "skill_runs": [
+        {
+          "skill": "ytv-shorts-loop",
+          "status": "APPLIED",
+          "evidence": "/Users/diplomat/ytvideos/.agent/consultations/2026-11-05-darknet-short-experiment.md"
+        }
+      ]
+    },
+    {
+      "id": "storyboard",
+      "skills": [
+        "ytv-paper-storyboard"
+      ],
+      "status": "PENDING",
+      "artifacts": [],
+      "checks": [],
+      "dependencies": [],
+      "skill_runs": []
+    },
+    {
+      "id": "audio",
+      "skills": [
+        "ytv-audio-delivery"
+      ],
+      "status": "PENDING",
+      "artifacts": [],
+      "checks": [],
+      "dependencies": [],
+      "skill_runs": []
+    },
+    {
+      "id": "images",
+      "skills": [
+        "ytv-scene-images",
+        "ytv-image-motion"
+      ],
+      "status": "PENDING",
+      "artifacts": [],
+      "checks": [],
+      "dependencies": [],
+      "skill_runs": []
+    },
+    {
+      "id": "subtitles",
+      "skills": [
+        "ytv-paper-subtitles",
+        "ytv-srt"
+      ],
+      "status": "PENDING",
+      "artifacts": [],
+      "checks": [],
+      "dependencies": [],
+      "skill_runs": []
+    },
+    {
+      "id": "render",
+      "skills": [
+        "ytv-video-production",
+        "ytv-video-export",
+        "ytv-video-qa"
+      ],
+      "status": "PENDING",
+      "artifacts": [],
+      "checks": [],
+      "dependencies": [],
+      "skill_runs": []
+    },
+    {
+      "id": "review",
+      "skills": [],
+      "status": "PENDING",
+      "artifacts": [],
+      "checks": [],
+      "dependencies": [],
+      "skill_runs": []
+    },
+    {
+      "id": "packaging",
+      "skills": [
+        "ytv-youtube-video-titles",
+        "ytv-youtube-thumbnails",
+        "ytv-youtube-descriptions",
+        "ytv-youtube-hashtags",
+        "ytv-youtube-playlists"
+      ],
+      "status": "PENDING",
+      "artifacts": [],
+      "checks": [],
+      "dependencies": [],
+      "skill_runs": []
+    },
+    {
+      "id": "unlisted",
+      "skills": [
+        "ytv-youtube-release"
+      ],
+      "status": "PENDING",
+      "artifacts": [],
+      "checks": [],
+      "dependencies": [],
+      "skill_runs": []
+    },
+    {
+      "id": "release",
+      "skills": [
+        "ytv-youtube-release",
+        "ytv-media-lifecycle"
+      ],
+      "status": "PENDING",
+      "artifacts": [],
+      "checks": [],
+      "dependencies": [],
+      "skill_runs": []
+    }
+  ],
+  "decisions": {
+    "story_accepted": {
+      "accepted": true,
+      "target": "narration_en_accepted_v01.md",
+      "evidence": "/Users/diplomat/ytvideos/.agent/consultations/2026-11-05-darknet-short-experiment.md"
+    }
+  },
+  "next_step": "Complete the required Extra High storyboard consultation after the shared ChatGPT composer lock is available; then finish the storyboard from measured audio timing."
+}

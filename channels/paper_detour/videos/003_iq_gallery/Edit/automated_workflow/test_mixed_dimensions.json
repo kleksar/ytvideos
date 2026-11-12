@@ -1,0 +1,124 @@
+{
+  "output": "test_grouped_mixed.mp4",
+  "audio": "/Users/diplomat/ytvideos/channels/paper_detour/videos/003_iq_gallery/Source/Audio/iq_gallery_music_mix_20261101.m4a",
+  "grain": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Shorts/02_decoder/Source/Graphics/director_trial_20261031/film_grain_vertical_8s_prores4444.mov",
+  "transition_frames": 12,
+  "scenes": [
+    {
+      "frames": 60,
+      "background": "/Users/diplomat/ytvideos/channels/paper_detour/videos/003_iq_gallery/Edit/automated_workflow/test_bg_940x1672.png",
+      "midground": "/Users/diplomat/ytvideos/channels/paper_detour/videos/003_iq_gallery/Edit/automated_workflow/test_mg_1024x1536.png",
+      "foreground": "/Users/diplomat/ytvideos/channels/paper_detour/videos/003_iq_gallery/Edit/automated_workflow/test_fg_1536x1024.png",
+      "overscan_x": 24,
+      "overscan_y": 42,
+      "velocity_x": {
+        "background": 6,
+        "midground": -7,
+        "foreground": 10
+      },
+      "entry": {
+        "start": 0.1,
+        "duration": 0.3,
+        "rise": 300
+      },
+      "glyphs": [
+        {
+          "kind": "name",
+          "char": "JOHN F KENNEDY",
+          "file": "/Users/diplomat/ytvideos/channels/paper_detour/videos/003_iq_gallery/Source/Graphics/names/john_f_kennedy_roomy_v1.png",
+          "x": 60,
+          "y": 210,
+          "w": 450,
+          "h": 130
+        },
+        {
+          "kind": "iq",
+          "char": "IQ",
+          "file": "/Users/diplomat/ytvideos/channels/paper_detour/videos/003_iq_gallery/Source/Graphics/iq_letters_generated.png",
+          "x": 56,
+          "y": 410,
+          "w": 200,
+          "h": 140
+        },
+        {
+          "kind": "digit",
+          "char": "1",
+          "file": "/Users/diplomat/ytvideos/channels/paper_detour/videos/003_iq_gallery/Source/Graphics/digit_1_reference.png",
+          "x": 270,
+          "y": 410,
+          "w": 100,
+          "h": 140
+        },
+        {
+          "kind": "digit",
+          "char": "9",
+          "file": "/Users/diplomat/ytvideos/channels/paper_detour/videos/003_iq_gallery/Source/Graphics/digit_9_generated.png",
+          "x": 400,
+          "y": 410,
+          "w": 100,
+          "h": 140
+        }
+      ],
+      "display_name": "JOHN F KENNEDY",
+      "iq_value": 19
+    },
+    {
+      "frames": 60,
+      "background": "/Users/diplomat/ytvideos/channels/paper_detour/videos/003_iq_gallery/Edit/automated_workflow/test_bg_940x1672.png",
+      "midground": "/Users/diplomat/ytvideos/channels/paper_detour/videos/003_iq_gallery/Edit/automated_workflow/test_mg_1024x1536.png",
+      "foreground": "/Users/diplomat/ytvideos/channels/paper_detour/videos/003_iq_gallery/Edit/automated_workflow/test_fg_1536x1024.png",
+      "overscan_x": 24,
+      "overscan_y": 42,
+      "velocity_x": {
+        "background": 6,
+        "midground": -7,
+        "foreground": 10
+      },
+      "entry": {
+        "start": 0.1,
+        "duration": 0.3,
+        "rise": 300
+      },
+      "glyphs": [
+        {
+          "kind": "name",
+          "char": "JOHN F KENNEDY",
+          "file": "/Users/diplomat/ytvideos/channels/paper_detour/videos/003_iq_gallery/Source/Graphics/names/john_f_kennedy_roomy_v1.png",
+          "x": 60,
+          "y": 210,
+          "w": 450,
+          "h": 130
+        },
+        {
+          "kind": "iq",
+          "char": "IQ",
+          "file": "/Users/diplomat/ytvideos/channels/paper_detour/videos/003_iq_gallery/Source/Graphics/iq_letters_generated.png",
+          "x": 56,
+          "y": 410,
+          "w": 200,
+          "h": 140
+        },
+        {
+          "kind": "digit",
+          "char": "1",
+          "file": "/Users/diplomat/ytvideos/channels/paper_detour/videos/003_iq_gallery/Source/Graphics/digit_1_reference.png",
+          "x": 270,
+          "y": 410,
+          "w": 100,
+          "h": 140
+        },
+        {
+          "kind": "digit",
+          "char": "9",
+          "file": "/Users/diplomat/ytvideos/channels/paper_detour/videos/003_iq_gallery/Source/Graphics/digit_9_generated.png",
+          "x": 400,
+          "y": 410,
+          "w": 100,
+          "h": 140
+        }
+      ],
+      "display_name": "JOHN F KENNEDY",
+      "iq_value": 19
+    }
+  ]
+}

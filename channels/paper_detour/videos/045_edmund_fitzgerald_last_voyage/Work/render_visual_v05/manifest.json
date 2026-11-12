@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "run": "render_visual_v05",
+  "owner": "codex-paper-045",
+  "status": "complete",
+  "created_utc": "2026-11-05T01:48:29.751252+00:00",
+  "entries": [
+    {
+      "path": "Work/render_visual_v05/previews/edmund_fitzgerald_full_film_en_visual_v05.mp4",
+      "role": "preview",
+      "identity": {
+        "device": 16777233,
+        "inode": 127900018,
+        "bytes": 571581102,
+        "mtime_ns": 1793845063184084331,
+        "ctime_ns": 1793845063184084331,
+        "nlink": 1,
+        "allocated_bytes": 587206656
+      },
+      "sha256": "6d6154c731fb253ed00aebf13574d9b07197a1ff5c77eef35074411bb2ed9996",
+      "rebuild_from": [],
+      "evidence": [
+        {
+          "path": "Edit/Export/EXPORT_CONTRACT_v03.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 127889479,
+            "bytes": 9624,
+            "mtime_ns": 1793844434956859139,
+            "ctime_ns": 1793844434956859139,
+            "nlink": 1,
+            "allocated_bytes": 12288
+          },
+          "sha256": "0e7b9f1efc8436668aff33dafe8ff3d1c859b33dcae3a03eac3d11963b02ce23"
+        }
+      ],
+      "disposition": "pending"
+    }
+  ],
+  "writer_finished_utc": "2026-11-05T02:18:27.893714+00:00"
+}

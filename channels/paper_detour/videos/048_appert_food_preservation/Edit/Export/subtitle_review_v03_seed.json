@@ -1,0 +1,35 @@
+{
+  "subtitle_contract_sha256": "d3efcdb4be2746bbee7b9e30359c529da334bec5bcfcca627915acf70e9cda48",
+  "checks": {
+    "semantic_grouping": {
+      "status": "PASS",
+      "reviewer": "Codex coordinator",
+      "method": "read exact caption_groups.json from beginning to end; checked all boundary warnings against adjacent phrase sequence; applied keep_together corrections to named phrases.",
+      "coverage": "117 groups, all 450 words in order; 19 warnings reviewed in context.",
+      "evidence": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Work/production_local_v01/preview_inspection_v04/PRE_RENDER_SAMPLE_REVIEW_v02.md",
+        "sha256": "772f8da37c15a0c9fcf98850b8247fbb0f8043d65ebbed9c5e5ff47aa7401ee4"
+      }
+    },
+    "audible_sync": {
+      "status": "UNVERIFIED",
+      "reviewer": "Codex coordinator",
+      "method": "No direct listening was performed.",
+      "coverage": "Full narration and caption synchronization.",
+      "evidence": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Edit/Timebase/timing_review_v01.md",
+        "sha256": "c6635b19a5418f6c286e47aaabbee8606f4eccc1ab21d72de769002320df9e5b"
+      }
+    },
+    "visual_placement": {
+      "status": "PASS",
+      "reviewer": "Codex coordinator",
+      "method": "Rendered and inspected opening sample at phone-size: no Paper Frame; caption placement checked against scene image and S02 marker.",
+      "coverage": "S01–S04; 6 samples at 0.5, 2.8, 5.7, 9, 14 and 20 seconds.",
+      "evidence": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Work/production_local_v01/preview_v03_no_paper_frame/sample_review_v01/contact_sheet.jpg",
+        "sha256": "b90b31532527e7f8ed802066c60b3dc51e1c32f76679a360fb1f2c42b65811a6"
+      }
+    }
+  }
+}

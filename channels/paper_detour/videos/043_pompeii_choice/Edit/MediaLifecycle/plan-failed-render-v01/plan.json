@@ -1,0 +1,273 @@
+{
+  "version": 1,
+  "kind": "plan",
+  "created_utc": "2026-11-03T17:54:42.883678+00:00",
+  "audit": "/Users/diplomat/ytvideos/channels/paper_detour/videos/043_pompeii_choice/Edit/MediaLifecycle/audit-failed-render-v01/audit.json",
+  "audit_sha256": "ad480edfe70722e2fdce68903be9e812a9da79272d82abba1f50c34f37adc0f0",
+  "episode": "/Users/diplomat/ytvideos/channels/paper_detour/videos/043_pompeii_choice",
+  "executable": false,
+  "deletion_implemented": false,
+  "stale_inputs": [],
+  "entries": [
+    {
+      "path": "Work/paper043-prod-v02/scratch/render_v01/scene_00004.mp4",
+      "device": 16777234,
+      "inode": 126588679,
+      "bytes": 48,
+      "mtime_ns": 1793728361809828623,
+      "ctime_ns": 1793728361809828623,
+      "nlink": 1,
+      "allocated_bytes": 4096,
+      "project_references": [],
+      "text_mentions": [
+        "/Users/diplomat/ytvideos/channels/paper_detour/videos/043_pompeii_choice/Edit/Export/RENDER_FAILURE_v01.json",
+        "/Users/diplomat/ytvideos/channels/paper_detour/videos/043_pompeii_choice/Work/paper043-prod-v02/manifest.json"
+      ],
+      "protections": [],
+      "classification": "BLOCKED",
+      "declaration": {
+        "path": "Work/paper043-prod-v02/scratch/render_v01/scene_00004.mp4",
+        "role": "scratch",
+        "status": "superseded",
+        "reason": "Partial temporary scene output from FFmpeg render that failed on disk-full; no final MP4 exists and the scene can be rebuilt from the saved edit and original still.",
+        "evidence": [
+          "Edit/Export/RENDER_FAILURE_v01.json"
+        ],
+        "rebuild_from": [
+          "Edit/plan_v04.json",
+          "Source/Images/paper_v01/S04_v01.png"
+        ]
+      },
+      "blockers": [
+        "TEXT_REFERENCE_REVIEW",
+        "INCOMPLETE_DEPENDENCY_SCAN"
+      ],
+      "sha256": "64d52708f594e8a1a3a4f76deef7275c8ad5184480c9473d8f60a0c9b6f4628b",
+      "required_before_any_future_removal": [
+        "Fresh dependency scan including retained project histories and all known consumers",
+        "Writer/import/render completion verified; absent locks do not prove inactivity",
+        "Resolve text mentions, pins and source/rebuild dependencies",
+        "Applicable retention/authorization and changed-file check at action time"
+      ]
+    },
+    {
+      "path": "Work/paper043-prod-v02/scratch/render_v01/scene_00005.mp4",
+      "device": 16777234,
+      "inode": 126588680,
+      "bytes": 0,
+      "mtime_ns": 1793728361734862796,
+      "ctime_ns": 1793728361747984015,
+      "nlink": 1,
+      "allocated_bytes": 0,
+      "project_references": [],
+      "text_mentions": [
+        "/Users/diplomat/ytvideos/channels/paper_detour/videos/043_pompeii_choice/Edit/Export/RENDER_FAILURE_v01.json",
+        "/Users/diplomat/ytvideos/channels/paper_detour/videos/043_pompeii_choice/Work/paper043-prod-v02/manifest.json"
+      ],
+      "protections": [],
+      "classification": "BLOCKED",
+      "declaration": {
+        "path": "Work/paper043-prod-v02/scratch/render_v01/scene_00005.mp4",
+        "role": "scratch",
+        "status": "superseded",
+        "reason": "Partial temporary scene output from FFmpeg render that failed on disk-full; no final MP4 exists and the scene can be rebuilt from the saved edit and original still.",
+        "evidence": [
+          "Edit/Export/RENDER_FAILURE_v01.json"
+        ],
+        "rebuild_from": [
+          "Edit/plan_v04.json",
+          "Source/Images/paper_v01/S05_v01.png"
+        ]
+      },
+      "blockers": [
+        "TEXT_REFERENCE_REVIEW",
+        "INCOMPLETE_DEPENDENCY_SCAN"
+      ],
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "required_before_any_future_removal": [
+        "Fresh dependency scan including retained project histories and all known consumers",
+        "Writer/import/render completion verified; absent locks do not prove inactivity",
+        "Resolve text mentions, pins and source/rebuild dependencies",
+        "Applicable retention/authorization and changed-file check at action time"
+      ]
+    },
+    {
+      "path": "Work/paper043-prod-v02/scratch/render_v01/scene_00001.mp4",
+      "device": 16777234,
+      "inode": 126588658,
+      "bytes": 14963322,
+      "mtime_ns": 1793728357821076790,
+      "ctime_ns": 1793728357821076790,
+      "nlink": 1,
+      "allocated_bytes": 14966784,
+      "project_references": [],
+      "text_mentions": [
+        "/Users/diplomat/ytvideos/channels/paper_detour/videos/043_pompeii_choice/Edit/Export/RENDER_FAILURE_v01.json",
+        "/Users/diplomat/ytvideos/channels/paper_detour/videos/043_pompeii_choice/Work/paper043-prod-v02/manifest.json"
+      ],
+      "protections": [],
+      "classification": "BLOCKED",
+      "declaration": {
+        "path": "Work/paper043-prod-v02/scratch/render_v01/scene_00001.mp4",
+        "role": "scratch",
+        "status": "superseded",
+        "reason": "Partial temporary scene output from FFmpeg render that failed on disk-full; no final MP4 exists and the scene can be rebuilt from the saved edit and original still.",
+        "evidence": [
+          "Edit/Export/RENDER_FAILURE_v01.json"
+        ],
+        "rebuild_from": [
+          "Edit/plan_v04.json",
+          "Source/Images/paper_v01/S02_v01.png"
+        ]
+      },
+      "blockers": [
+        "TEXT_REFERENCE_REVIEW",
+        "INCOMPLETE_DEPENDENCY_SCAN"
+      ],
+      "sha256": "5ba0d8e6e67aaf1b0af08d4b20e33e45b3fc0bb492e96ff47ea5154e8ea96b6c",
+      "required_before_any_future_removal": [
+        "Fresh dependency scan including retained project histories and all known consumers",
+        "Writer/import/render completion verified; absent locks do not prove inactivity",
+        "Resolve text mentions, pins and source/rebuild dependencies",
+        "Applicable retention/authorization and changed-file check at action time"
+      ]
+    },
+    {
+      "path": "Work/paper043-prod-v02/scratch/render_v01/scene_00000.mp4",
+      "device": 16777234,
+      "inode": 126588657,
+      "bytes": 13575276,
+      "mtime_ns": 1793728357463599610,
+      "ctime_ns": 1793728357463599610,
+      "nlink": 1,
+      "allocated_bytes": 13578240,
+      "project_references": [],
+      "text_mentions": [
+        "/Users/diplomat/ytvideos/channels/paper_detour/videos/043_pompeii_choice/Edit/Export/RENDER_FAILURE_v01.json",
+        "/Users/diplomat/ytvideos/channels/paper_detour/videos/043_pompeii_choice/Work/paper043-prod-v02/manifest.json"
+      ],
+      "protections": [],
+      "classification": "BLOCKED",
+      "declaration": {
+        "path": "Work/paper043-prod-v02/scratch/render_v01/scene_00000.mp4",
+        "role": "scratch",
+        "status": "superseded",
+        "reason": "Partial temporary scene output from FFmpeg render that failed on disk-full; no final MP4 exists and the scene can be rebuilt from the saved edit and original still.",
+        "evidence": [
+          "Edit/Export/RENDER_FAILURE_v01.json"
+        ],
+        "rebuild_from": [
+          "Edit/plan_v04.json",
+          "Source/Images/paper_v01/S01_v01.png"
+        ]
+      },
+      "blockers": [
+        "TEXT_REFERENCE_REVIEW",
+        "INCOMPLETE_DEPENDENCY_SCAN"
+      ],
+      "sha256": "eda2d99e583083d0e15ef4b28b81b851adea260aefeb017161e8b3479bdc0030",
+      "required_before_any_future_removal": [
+        "Fresh dependency scan including retained project histories and all known consumers",
+        "Writer/import/render completion verified; absent locks do not prove inactivity",
+        "Resolve text mentions, pins and source/rebuild dependencies",
+        "Applicable retention/authorization and changed-file check at action time"
+      ]
+    },
+    {
+      "path": "Work/paper043-prod-v02/scratch/render_v01/scene_00002.mp4",
+      "device": 16777234,
+      "inode": 126588666,
+      "bytes": 11010096,
+      "mtime_ns": 1793728360768017055,
+      "ctime_ns": 1793728360768017055,
+      "nlink": 1,
+      "allocated_bytes": 11014144,
+      "project_references": [],
+      "text_mentions": [
+        "/Users/diplomat/ytvideos/channels/paper_detour/videos/043_pompeii_choice/Edit/Export/RENDER_FAILURE_v01.json",
+        "/Users/diplomat/ytvideos/channels/paper_detour/videos/043_pompeii_choice/Work/paper043-prod-v02/manifest.json"
+      ],
+      "protections": [],
+      "classification": "BLOCKED",
+      "declaration": {
+        "path": "Work/paper043-prod-v02/scratch/render_v01/scene_00002.mp4",
+        "role": "scratch",
+        "status": "superseded",
+        "reason": "Partial temporary scene output from FFmpeg render that failed on disk-full; no final MP4 exists and the scene can be rebuilt from the saved edit and original still.",
+        "evidence": [
+          "Edit/Export/RENDER_FAILURE_v01.json"
+        ],
+        "rebuild_from": [
+          "Edit/plan_v04.json",
+          "Source/Images/paper_v01/S03_pumice_v01.png"
+        ]
+      },
+      "blockers": [
+        "TEXT_REFERENCE_REVIEW",
+        "INCOMPLETE_DEPENDENCY_SCAN"
+      ],
+      "sha256": "fb44986508ce389288dec427a17f3b95cdceff59a025a93a2eba80c7e670afe6",
+      "required_before_any_future_removal": [
+        "Fresh dependency scan including retained project histories and all known consumers",
+        "Writer/import/render completion verified; absent locks do not prove inactivity",
+        "Resolve text mentions, pins and source/rebuild dependencies",
+        "Applicable retention/authorization and changed-file check at action time"
+      ]
+    },
+    {
+      "path": "Work/paper043-prod-v02/scratch/render_v01/scene_00003.mp4",
+      "device": 16777234,
+      "inode": 126588667,
+      "bytes": 8912944,
+      "mtime_ns": 1793728360885224059,
+      "ctime_ns": 1793728360885224059,
+      "nlink": 1,
+      "allocated_bytes": 8916992,
+      "project_references": [],
+      "text_mentions": [
+        "/Users/diplomat/ytvideos/channels/paper_detour/videos/043_pompeii_choice/Edit/Export/RENDER_FAILURE_v01.json",
+        "/Users/diplomat/ytvideos/channels/paper_detour/videos/043_pompeii_choice/Work/paper043-prod-v02/manifest.json"
+      ],
+      "protections": [],
+      "classification": "BLOCKED",
+      "declaration": {
+        "path": "Work/paper043-prod-v02/scratch/render_v01/scene_00003.mp4",
+        "role": "scratch",
+        "status": "superseded",
+        "reason": "Partial temporary scene output from FFmpeg render that failed on disk-full; no final MP4 exists and the scene can be rebuilt from the saved edit and original still.",
+        "evidence": [
+          "Edit/Export/RENDER_FAILURE_v01.json"
+        ],
+        "rebuild_from": [
+          "Edit/plan_v04.json",
+          "Source/Images/paper_v01/S03_v01.png"
+        ]
+      },
+      "blockers": [
+        "TEXT_REFERENCE_REVIEW",
+        "INCOMPLETE_DEPENDENCY_SCAN"
+      ],
+      "sha256": "ac4027f02feff91068777ee3675f32d196afb405ec1ed87c4ab6113e27df1c5f",
+      "required_before_any_future_removal": [
+        "Fresh dependency scan including retained project histories and all known consumers",
+        "Writer/import/render completion verified; absent locks do not prove inactivity",
+        "Resolve text mentions, pins and source/rebuild dependencies",
+        "Applicable retention/authorization and changed-file check at action time"
+      ]
+    }
+  ],
+  "review_candidate_logical_bytes": 0,
+  "blocked_logical_bytes": 48461686,
+  "physical_reclaimable_bytes": null,
+  "missing_declared_candidates": [],
+  "limitations": [
+    "No deletion implementation or permission. No writer absence proof.",
+    "All found imports protected, including retained timelines; unlisted/inaccessible projects and external consumers remain unknown.",
+    "Text scan is heuristic and cannot prove absence of dependencies. Source hashes/QA are evidence, not user acceptance.",
+    "APFS CoW and snapshots prevent inferring physical reclaim from logical or allocated sums."
+  ],
+  "errors": [
+    "Text dependency scan skipped large file: /Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-03-published-media-cleanup/all_radio_deletions.jsonl",
+    "Text dependency scan skipped large file: /Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-03-published-media-cleanup/all_published_media_deletions.jsonl"
+  ]
+}

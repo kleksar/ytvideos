@@ -1,0 +1,260 @@
+{
+  "schema": "ytv-delivery-v1",
+  "channel": "paper",
+  "format": "short",
+  "canvas": [
+    1440,
+    2560
+  ],
+  "fps": 30,
+  "frames": 162,
+  "caption_end_frame": 162,
+  "audio": {
+    "audio": {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/051_hansa_marketplace_operation/Source/Voice/voice_en.mp3",
+      "sha256": "84e95cde9f4dc86c6dec491a9e12566470a9c34abc5fb716e01478bdcb4fdf8b"
+    },
+    "applied_speed": 1.1,
+    "speed_policy": {
+      "path": "/Users/diplomat/ytvideos/.agents/skills/ytv-audio-delivery/references/speed.json",
+      "sha256": "32c378c36c1e297cbdc4e3593c965163d33e531b8b8eea026b367bddb51a668a"
+    },
+    "speed_evidence": {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/051_hansa_marketplace_operation/Source/Voice/MIX_MANIFEST_v01.md",
+      "sha256": "26f667f73d76c4eebd5d501b4f787bd9eb47d928c5fb394d970f16171a97cba3"
+    }
+  },
+  "transcript": {
+    "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/051_hansa_marketplace_operation/Work/paper051-hansa-production-v01/subtitle_sample_v01/sample_transcript.txt",
+    "sha256": "162c5d830fbab277596e8d6a0c71a4e9a2a6c3ea4e9d165e9cf7fad8d612d4dd"
+  },
+  "word_map": {
+    "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/051_hansa_marketplace_operation/Work/paper051-hansa-production-v01/subtitle_sample_v01/sample_word_map.json",
+    "sha256": "a806a11a02054da2a25c8f697b76a96f4b08fb2fed3cc6bc73a3ff419bd2455e"
+  },
+  "profiles": [
+    {
+      "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/profiles/paper.json",
+      "sha256": "e2b89e813ec25985601ef65997ea8b94c19e96aa6d158333edf962b42e02ffc0"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/profiles/short.json",
+      "sha256": "ab84ac0aed239ea59e26a4d0e4878decd47f1e5f42db9a3563ca06bbea0adb6b"
+    },
+    {
+      "path": "/System/Library/Fonts/Supplemental/ChalkboardSE.ttc",
+      "sha256": "256d3dd291f0d2bd3379882e7fb9c8276fba219ea447a1073d2fce17690e0478"
+    }
+  ],
+  "engine": [
+    {
+      "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/montage.py",
+      "sha256": "35eb0ea42c4823eb93d18d87468eb55cef9a3f16988a37c533c417b3780a7ad7"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/delivery.py",
+      "sha256": "8fcba5854d8832a966d4960dbdae3c8fa362d124d04a67f2b4b0df4347a71c65"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/.agents/skills/ytv-paper-subtitles/scripts/semantic_grouping.py",
+      "sha256": "f18deb4cbb5af9c10cfd51fd60b15ef1c87b5ebaaaa46f073210935821d8fc3e"
+    }
+  ],
+  "picture": [
+    {
+      "scene": {
+        "image": "../../../Source/Images/paper_v01/scene_001_v01.png",
+        "start_frame": 0,
+        "end_frame": 162,
+        "direction": "none",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.52,
+            0.4
+          ],
+          "subject": "the centered Hansa arch and tiered visitors",
+          "reason": "Keep the eightfold surge and both physical labels in view during the opening push.",
+          "start": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.0
+          },
+          "end": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.045
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/051_hansa_marketplace_operation/Source/Images/paper_v01/scene_001_v01.png",
+        "sha256": "09f1aaa1f5143035ee19edcd9e7b685193bf58e8396782a8421a60b6dd69e742"
+      }
+    }
+  ],
+  "overlays": [
+    {
+      "layer": {
+        "path": "paper_frame_162f_v01.mov",
+        "start_frame": 0,
+        "end_frame": 162,
+        "x": 0,
+        "y": 0
+      },
+      "file": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/051_hansa_marketplace_operation/Work/paper051-hansa-production-v01/subtitle_sample_v01/paper_frame_162f_v01.mov",
+        "sha256": "a599c2392b6d5b6960aff46a33bbbf2899665e230f9b8f0c35c73319b1a8895d"
+      }
+    }
+  ],
+  "groups": [
+    [
+      {
+        "text": "After",
+        "start": 0.14,
+        "end": 0.36,
+        "source": "whisperx_forced_alignment",
+        "score": 0.802
+      },
+      {
+        "text": "a",
+        "start": 0.44,
+        "end": 0.48,
+        "source": "whisperx_forced_alignment",
+        "score": 0.524
+      },
+      {
+        "text": "rival",
+        "start": 0.58,
+        "end": 0.941,
+        "source": "whisperx_forced_alignment",
+        "score": 0.88
+      }
+    ],
+    [
+      {
+        "text": "dark-web",
+        "start": 0.981,
+        "end": 1.461,
+        "source": "whisperx_forced_alignment",
+        "score": 0.892
+      }
+    ],
+    [
+      {
+        "text": "marketplace",
+        "start": 1.501,
+        "end": 2.041,
+        "source": "whisperx_forced_alignment",
+        "score": 0.923
+      }
+    ],
+    [
+      {
+        "text": "shut",
+        "start": 2.101,
+        "end": 2.301,
+        "source": "whisperx_forced_alignment",
+        "score": 0.882
+      },
+      {
+        "text": "down,",
+        "start": 2.341,
+        "end": 2.662,
+        "source": "whisperx_forced_alignment",
+        "score": 0.867
+      }
+    ],
+    [
+      {
+        "text": "daily",
+        "start": 3.122,
+        "end": 3.402,
+        "source": "whisperx_forced_alignment",
+        "score": 0.916
+      },
+      {
+        "text": "visits",
+        "start": 3.442,
+        "end": 3.742,
+        "source": "whisperx_forced_alignment",
+        "score": 0.748
+      }
+    ],
+    [
+      {
+        "text": "to",
+        "start": 3.782,
+        "end": 3.882,
+        "source": "whisperx_forced_alignment",
+        "score": 0.786
+      },
+      {
+        "text": "Hansa",
+        "start": 3.942,
+        "end": 4.383,
+        "source": "whisperx_forced_alignment",
+        "score": 0.87
+      }
+    ],
+    [
+      {
+        "text": "grew",
+        "start": 4.443,
+        "end": 4.663,
+        "source": "whisperx_forced_alignment",
+        "score": 0.804
+      },
+      {
+        "text": "eightfold.",
+        "start": 4.883,
+        "end": 5.383,
+        "source": "whisperx_forced_alignment",
+        "score": 0.86
+      }
+    ]
+  ],
+  "resolved": {
+    "resolved_font_size_px": 104,
+    "max_visible_width_px": 1024.0,
+    "center_x_px": 680.0,
+    "baseline": 1993,
+    "algorithm": "sentence-syntax-width-v5",
+    "display_intervals": [
+      {
+        "start_frame": 0,
+        "end_frame": 30
+      },
+      {
+        "start_frame": 30,
+        "end_frame": 46
+      },
+      {
+        "start_frame": 46,
+        "end_frame": 64
+      },
+      {
+        "start_frame": 64,
+        "end_frame": 94
+      },
+      {
+        "start_frame": 94,
+        "end_frame": 114
+      },
+      {
+        "start_frame": 114,
+        "end_frame": 134
+      },
+      {
+        "start_frame": 134,
+        "end_frame": 162
+      }
+    ],
+    "boundary_warnings": []
+  }
+}

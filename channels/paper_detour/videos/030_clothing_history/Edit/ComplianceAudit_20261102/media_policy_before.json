@@ -1,0 +1,170 @@
+{
+  "version": 1,
+  "scope": "030 pilot; audit and plan only; user explicitly forbids deletion in this task",
+  "palmier_projects": [
+    "/Users/diplomat/Documents/Palmier Pro/Paper Detour 030 Clothing History v04 20261102.palmier"
+  ],
+  "current": [
+    {
+      "path": "Deliverables",
+      "reason": "Сохраняемый комплект/субтитры. В ходе аудита появился MP4 v13; его QA/приёмка этим storage-аудитом не проверялись."
+    },
+    {
+      "path": "Edit/Grain_Test_20261102_v02",
+      "reason": "Актуальный Test02 из CURRENT_CONTEXT; пользовательская оценка и release follow-up не закрыты."
+    }
+  ],
+  "pins": [
+    {
+      "path": "Edit/v07/CRT_RIPPLE_X2_EXPERIMENT_EN_v07.mp4",
+      "reason": "Внутренний hold: сравнительная или native-диагностическая версия; закрывающее решение о ненужности не подтверждено этим аудитом."
+    },
+    {
+      "path": "Edit/v07/Palmier_CRT_ripple_x2_native.mp4",
+      "reason": "Внутренний hold: сравнительная или native-диагностическая версия; закрывающее решение о ненужности не подтверждено этим аудитом."
+    },
+    {
+      "path": "Edit/v08/PAPER_DETOUR_030_GRAIN_X2_EXPERIMENT_EN_v08.mp4",
+      "reason": "Внутренний hold: сравнительная или native-диагностическая версия; закрывающее решение о ненужности не подтверждено этим аудитом."
+    },
+    {
+      "path": "Edit/v08/Palmier_Grain_x2_native.mp4",
+      "reason": "Внутренний hold: сравнительная или native-диагностическая версия; закрывающее решение о ненужности не подтверждено этим аудитом."
+    },
+    {
+      "path": "Edit/v09/PAPER_DETOUR_030_GRAIN_25_BASELINE_EN_v09.mp4",
+      "reason": "Внутренний hold: сравнительная или native-диагностическая версия; закрывающее решение о ненужности не подтверждено этим аудитом."
+    },
+    {
+      "path": "Edit/v09/PAPER_DETOUR_030_GRAIN_25_BASELINE_EN_v09_native.mp4",
+      "reason": "Внутренний hold: сравнительная или native-диагностическая версия; закрывающее решение о ненужности не подтверждено этим аудитом."
+    },
+    {
+      "path": "Edit/v10/PAPER_DETOUR_030_FINE_GRAIN_33_EN_v10.mp4",
+      "reason": "Внутренний hold: сравнительная или native-диагностическая версия; закрывающее решение о ненужности не подтверждено этим аудитом."
+    },
+    {
+      "path": "Edit/v10/PAPER_DETOUR_030_FINE_GRAIN_33_EN_v10_native.mp4",
+      "reason": "Внутренний hold: сравнительная или native-диагностическая версия; закрывающее решение о ненужности не подтверждено этим аудитом."
+    },
+    {
+      "path": "Edit/Previews/PAPER_DETOUR_030_PARALLAX_15_SCENES_NO_GRAIN_PRIVATE_REVIEW_20261102.mp4",
+      "reason": "Active grain Test03 input, exact same accepted 15-second excerpt. Preserve for deterministic rerender.",
+      "evidence": [
+        "Edit/Grain_Test_20261102_v03/preset.json"
+      ]
+    },
+    {
+      "path": "Edit/Grain_Test_20261102_v02",
+      "reason": "Grain Test02 comparison retained during user-requested Test03 review.",
+      "evidence": [
+        "Edit/Grain_Test_20261102_v03/REVIEW.md"
+      ]
+    },
+    {
+      "path": "Edit/Grain_Test_20261102_v03",
+      "reason": "Active user-requested grain Test03 render and private YouTube review.",
+      "evidence": [
+        "Edit/Grain_Test_20261102_v03/preset.json"
+      ]
+    }
+  ],
+  "active_work": [
+    {
+      "path": "Edit",
+      "reason": "Edit/v13/OWNERSHIP.json status=active; scope включает full39scene motion и unused rendered files. Завершение работы и координация не подтверждены.",
+      "evidence": [
+        "Edit/v13/OWNERSHIP.json"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "path": "Edit/v09/QA/native_video.h264",
+      "role": "scratch",
+      "status": "review",
+      "reason": "Извлечённый видеопоток для QA; сравнить с потоком сохранённого MP4 без создания нового большого файла. Пока активна работа, очистку не выполнять.",
+      "evidence": [
+        "Edit/v09/QA/QA_REPORT.json"
+      ],
+      "rebuild_from": [
+        "Edit/v09/PAPER_DETOUR_030_GRAIN_25_BASELINE_EN_v09_native.mp4"
+      ]
+    },
+    {
+      "path": "Edit/v09/QA/final_video.h264",
+      "role": "scratch",
+      "status": "review",
+      "reason": "Извлечённый видеопоток для QA; сравнить с потоком сохранённого MP4 без создания нового большого файла. Пока активна работа, очистку не выполнять.",
+      "evidence": [
+        "Edit/v09/QA/QA_REPORT.json"
+      ],
+      "rebuild_from": [
+        "Edit/v09/PAPER_DETOUR_030_GRAIN_25_BASELINE_EN_v09.mp4"
+      ]
+    },
+    {
+      "path": "Edit/v10/QA/native_video.h264",
+      "role": "scratch",
+      "status": "review",
+      "reason": "Извлечённый видеопоток для QA; сравнить с потоком сохранённого MP4 без создания нового большого файла. Пока активна работа, очистку не выполнять.",
+      "evidence": [
+        "Edit/v10/export_job.json"
+      ],
+      "rebuild_from": [
+        "Edit/v10/PAPER_DETOUR_030_FINE_GRAIN_33_EN_v10_native.mp4"
+      ]
+    },
+    {
+      "path": "Edit/v10/QA/final_video.h264",
+      "role": "scratch",
+      "status": "review",
+      "reason": "Извлечённый видеопоток для QA; сравнить с потоком сохранённого MP4 без создания нового большого файла. Пока активна работа, очистку не выполнять.",
+      "evidence": [
+        "Edit/v10/export_job.json"
+      ],
+      "rebuild_from": [
+        "Edit/v10/PAPER_DETOUR_030_FINE_GRAIN_33_EN_v10.mp4"
+      ]
+    },
+    {
+      "path": "Edit/v09/QA/v09_audio_s16le.pcm",
+      "role": "scratch",
+      "status": "review",
+      "reason": "Сырой PCM для прежней диагностики. Исходные медиа сохранены; точный decode/conform рецепт пока не верифицирован. Это предложение для проверки, не разрешение удаления.",
+      "evidence": [
+        "Edit/v09/QA/NATIVE_EXPORT_DIAGNOSTIC.json",
+        "Edit/v09/QA/QA_REPORT.json"
+      ],
+      "rebuild_from": [
+        "Edit/v09/PAPER_DETOUR_030_GRAIN_25_BASELINE_EN_v09_native.mp4"
+      ]
+    },
+    {
+      "path": "Edit/v09/QA/v08_audio_s16le.pcm",
+      "role": "scratch",
+      "status": "review",
+      "reason": "Сырой PCM для прежней диагностики. Исходные медиа сохранены; точный decode/conform рецепт пока не верифицирован. Это предложение для проверки, не разрешение удаления.",
+      "evidence": [
+        "Edit/v09/QA/NATIVE_EXPORT_DIAGNOSTIC.json",
+        "Edit/v09/QA/QA_REPORT.json"
+      ],
+      "rebuild_from": [
+        "Edit/v08/Palmier_Grain_x2_native.mp4"
+      ]
+    },
+    {
+      "path": "Edit/v09/QA/accepted_audio_s16le.pcm",
+      "role": "scratch",
+      "status": "review",
+      "reason": "Сырой PCM для прежней диагностики. Исходные медиа сохранены; точный decode/conform рецепт пока не верифицирован. Это предложение для проверки, не разрешение удаления.",
+      "evidence": [
+        "Edit/v09/QA/NATIVE_EXPORT_DIAGNOSTIC.json",
+        "Edit/v09/QA/QA_REPORT.json"
+      ],
+      "rebuild_from": [
+        "Source/Audio/v06/accepted_v05_mix.m4a"
+      ]
+    }
+  ]
+}

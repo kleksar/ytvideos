@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "status": "READY_TO_RENDER",
+  "episode": "paper_050_great_stink_london",
+  "language": "en",
+  "format": "long",
+  "purpose": "Text-integrated scene repair; candidate export for exact-file QA",
+  "settings_profile": {
+    "path": "/Users/diplomat/ytvideos/.agents/skills/ytv-video-export/references/delivery.md",
+    "sha256": "494eb3736b9a39861949084e6623b2033bbd2ea9c4cdef31c48f035938dc89a6"
+  },
+  "edit": {
+    "project_id": "paper050",
+    "timeline_id": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Edit/LongForm_v01/plan_render_candidate_v03.json",
+    "saved_revision_evidence": "v03 replaces multiple images, adjusts two cut boundaries and camera framing; voice unchanged",
+    "timeline_read_path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Edit/LongForm_v01/plan_render_candidate_v03.json",
+    "timeline_read_sha256": "bdd5c6acd1fe71bc94ac50bd0126af5e414dc668e94c5312872c3e32c4a62900",
+    "dependencies": [
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Source/Voice/voice_en_v03_end_silence.wav",
+        "sha256": "97e04a40368b7686ed28f16b97abb1d1b818aa97a187ff00cb4a4cb9c4f006db"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Work/paper050-great-stink-v01-20261105/subtitle_prepare_v19/subtitle_contract.json",
+        "sha256": "a58bd8103b1cc1108c051205326e2cf3cb18c853df4dd74d732fd42146e7ec68"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Edit/LongForm_v01/subtitle_review_v03.json",
+        "sha256": "0435b699c52d08e631ceeaaaf9cc1ea377ab8392deb9ce5515d0fa5e9c259d76"
+      }
+    ]
+  },
+  "timeline": {
+    "width": 2560,
+    "height": 1440,
+    "aspect_ratio": "16:9",
+    "sample_aspect_ratio": "1:1",
+    "fps": "30/1",
+    "frame_count": 7584,
+    "duration_seconds": 252.8,
+    "output_color_space": "Rec.709 SDR"
+  },
+  "required_delivery": {
+    "container": "MP4",
+    "video": {
+      "codec_name": "h264",
+      "pix_fmt": "yuv420p",
+      "scan": "progressive",
+      "cadence": "constant 30/1 fps",
+      "color_primaries": "bt709",
+      "color_transfer": "bt709",
+      "color_space": "bt709",
+      "color_range": "tv"
+    },
+    "audio_contract": {
+      "owner_handoff": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Source/Voice/voice_speed_evidence_v03.md",
+      "accepted_complete_mix": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Source/Voice/voice_en_v03_end_silence.wav",
+        "sha256": "97e04a40368b7686ed28f16b97abb1d1b818aa97a187ff00cb4a4cb9c4f006db"
+      },
+      "source_rate_channels": "44100 Hz mono PCM",
+      "codec_name": "aac",
+      "profile": "LC",
+      "sample_rate": 44100,
+      "channels": 1,
+      "target_bit_rate": 192000
+    }
+  },
+  "encoding": {
+    "engine": "shared ffmpeg montage",
+    "version_evidence": "Captured by renderer provenance",
+    "requested_arguments": {
+      "encoder": "h264_videotoolbox",
+      "video_bitrate": 20000000,
+      "output_pix_fmt": "yuv420p",
+      "fps": "30/1",
+      "audio_codec": "aac",
+      "audio_profile": "aac_low",
+      "audio_bitrate": 192000,
+      "audio_sample_rate": 44100,
+      "audio_channels": 1
+    },
+    "quality_preferences": {
+      "video_bitrate": "20M VBR starting point; inspect output texture and gradients",
+      "subjective_audio": "UNVERIFIED; measured integrated -24.4 LUFS and true peak -2.8 dBTP"
+    },
+    "capability_evidence": "automation/ffmpeg_montage/delivery.py check_export_settings",
+    "engine_managed_fields": [
+      "GOP",
+      "profile",
+      "Fast Start"
+    ]
+  },
+  "preflight": {
+    "author": "coordinator",
+    "time": "2026-11-05T20:39:51.717521+00:00",
+    "authorization_references": [
+      "User authorized full production through MP4 review; sample is required by subtitle workflow."
+    ],
+    "fresh_settings_evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Edit/LongForm_v01/plan_render_candidate_v03.json",
+    "writer_and_export_state": "not started; target does not exist",
+    "output_path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Deliverables/review_en_v03.mp4",
+    "overwrite": false,
+    "media_lifecycle_receipt": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Edit/MediaLifecycle/audit_pre_render_v04/audit.json",
+    "unresolved_required_fields": [],
+    "content_review_limitations": [
+      "User verified audio sync only on three samples",
+      "Subtitles composited in 49 old-plan samples; shot 35 replaced, camera 42 and cut boundaries changed; exact encoded sequence and full motion unverified",
+      "Full-film listening and exact-file audiovisual review pending",
+      "Still-image continuity and historical architecture remain schematic"
+    ]
+  },
+  "render_receipt": null,
+  "qa_receipt": null,
+  "settings_check_receipt": null,
+  "render_provenance": null
+}

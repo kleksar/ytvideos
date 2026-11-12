@@ -1,0 +1,5 @@
+# H4 v03 schedule plan — 2026-11-09
+
+Channel UCbyLx6Rf3iWww4bPZJ2oo2A, video -8Ufspka8W4, approved MP4 SHA-256 05c5c62c84f6c7838261b0b527e0ed3a12fa5c503e856693c0d8f9d7d2647e5b. User explicitly approved v03 and ordered scheduled publication. Proposed 2026-11-10 18:17 Europe/Belgrade, 17:17 UTC; vidIQ Chrome extension previously showed channel peak 18:00–20:00 local time, without day-specific evidence.
+
+Fresh API list of channel uploads read 2026-11-09 16:45 UTC: no scheduled videos returned, latest public film was 2026-11-09 17:08 Belgrade; other public Shorts last on November 8. Community posts and external calendars not covered, so slot is not asserted globally free. User did not authorize modifications to other video IDs. Manual English caption serving; processing succeeded. History Shorts playlist PLKSiGuBn-cAE is private; membership confirmed. Approved Shorts cover requires Studio-only selection; Chrome automation returned extension UI blocking message after a new task tab, actual pixels and selection unverified.

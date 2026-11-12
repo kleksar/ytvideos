@@ -1,0 +1,204 @@
+{
+  "status": "REVIEW_REQUIRED",
+  "groups": [
+    [
+      {
+        "text": "than",
+        "start": 0.013333,
+        "end": 0.333333
+      },
+      {
+        "text": "eight",
+        "start": 0.453333,
+        "end": 0.573333
+      },
+      {
+        "text": "hundred",
+        "start": 0.653333,
+        "end": 0.973333
+      },
+      {
+        "text": "miles",
+        "start": 1.133333,
+        "end": 1.533333
+      }
+    ],
+    [
+      {
+        "text": "of",
+        "start": 1.653333,
+        "end": 1.773333
+      },
+      {
+        "text": "open",
+        "start": 1.933333,
+        "end": 2.093333
+      },
+      {
+        "text": "ocean",
+        "start": 2.173333,
+        "end": 2.733333
+      },
+      {
+        "text": "in",
+        "start": 2.773333,
+        "end": 2.813333
+      },
+      {
+        "text": "a",
+        "start": 2.893333,
+        "end": 3.053333
+      },
+      {
+        "text": "boat",
+        "start": 3.293333,
+        "end": 3.533333
+      },
+      {
+        "text": "barely",
+        "start": 3.653333,
+        "end": 4.013333
+      }
+    ],
+    [
+      {
+        "text": "seven",
+        "start": 4.093333,
+        "end": 4.333333
+      },
+      {
+        "text": "metres",
+        "start": 4.413333,
+        "end": 4.813333
+      },
+      {
+        "text": "long",
+        "start": 4.893333,
+        "end": 5.213333
+      }
+    ]
+  ],
+  "profile": {
+    "name": "nuviko",
+    "font": "/System/Library/Fonts/Supplemental/Georgia Bold.ttf",
+    "font_index": 0,
+    "text": "#F3E9D5",
+    "highlight": "#FFD166",
+    "background": "#20252BCC",
+    "outline": "#20252B",
+    "outline_width": 0,
+    "pad_x": 29,
+    "pad_y": 17
+  },
+  "geometry_profile": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/profiles/long.json",
+  "shared_geometry": {
+    "reference_width": 2560,
+    "reference_height": 1440,
+    "font_size_px": 84,
+    "max_visible_width_px": 1344,
+    "center_x_ratio": 0.5,
+    "baseline_y_ratio": 0.8944444444444445,
+    "bottom_y_ratio": 0.925
+  },
+  "shared_short_geometry": null,
+  "channel": "nuviko",
+  "format": "long",
+  "canvas": [
+    2560,
+    1440
+  ],
+  "reference_height": 1440,
+  "scale": 1.0,
+  "resolved_font_size_px": 84,
+  "max_visible_width_px": 1344.0,
+  "center_x_px": 1280.0,
+  "baseline": 1288,
+  "grouping_source": "automatic_draft",
+  "algorithm": "sentence-syntax-width-v5",
+  "boundary_exceptions": [],
+  "boundary_warnings": [
+    {
+      "after_group": 0,
+      "left": "than eight hundred miles",
+      "right": "of open ocean in a boat barely",
+      "reason": "forced_or_ambiguous_syntax_boundary"
+    }
+  ],
+  "caption_end_frame": 173,
+  "display_intervals": [
+    {
+      "start_frame": 0,
+      "end_frame": 50
+    },
+    {
+      "start_frame": 50,
+      "end_frame": 123
+    },
+    {
+      "start_frame": 123,
+      "end_frame": 173
+    }
+  ],
+  "word_events": [
+    {
+      "frame": 0,
+      "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Work/subtitle_geometry_probe_s008_v01/generated/caption_states/00000_neutral.png"
+    },
+    {
+      "frame": 1,
+      "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Work/subtitle_geometry_probe_s008_v01/generated/caption_states/00000_0.png"
+    },
+    {
+      "frame": 14,
+      "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Work/subtitle_geometry_probe_s008_v01/generated/caption_states/00000_1.png"
+    },
+    {
+      "frame": 20,
+      "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Work/subtitle_geometry_probe_s008_v01/generated/caption_states/00000_2.png"
+    },
+    {
+      "frame": 34,
+      "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Work/subtitle_geometry_probe_s008_v01/generated/caption_states/00000_3.png"
+    },
+    {
+      "frame": 50,
+      "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Work/subtitle_geometry_probe_s008_v01/generated/caption_states/00001_0.png"
+    },
+    {
+      "frame": 58,
+      "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Work/subtitle_geometry_probe_s008_v01/generated/caption_states/00001_1.png"
+    },
+    {
+      "frame": 66,
+      "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Work/subtitle_geometry_probe_s008_v01/generated/caption_states/00001_2.png"
+    },
+    {
+      "frame": 84,
+      "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Work/subtitle_geometry_probe_s008_v01/generated/caption_states/00001_3.png"
+    },
+    {
+      "frame": 87,
+      "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Work/subtitle_geometry_probe_s008_v01/generated/caption_states/00001_4.png"
+    },
+    {
+      "frame": 99,
+      "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Work/subtitle_geometry_probe_s008_v01/generated/caption_states/00001_5.png"
+    },
+    {
+      "frame": 110,
+      "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Work/subtitle_geometry_probe_s008_v01/generated/caption_states/00001_6.png"
+    },
+    {
+      "frame": 123,
+      "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Work/subtitle_geometry_probe_s008_v01/generated/caption_states/00002_0.png"
+    },
+    {
+      "frame": 133,
+      "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Work/subtitle_geometry_probe_s008_v01/generated/caption_states/00002_1.png"
+    },
+    {
+      "frame": 147,
+      "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Work/subtitle_geometry_probe_s008_v01/generated/caption_states/00002_2.png"
+    }
+  ]
+}

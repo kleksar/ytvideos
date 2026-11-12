@@ -1,0 +1,583 @@
+{
+  "canvas": [
+    1080,
+    1920
+  ],
+  "checks": {
+    "motion": "UNVERIFIED",
+    "scope": "assigned pairs at their selected anchors; static geometry only",
+    "sync": "UNVERIFIED",
+    "technical": "PASS",
+    "visual": "UNVERIFIED"
+  },
+  "cues": [
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              0,
+              247,
+              2172,
+              470
+            ]
+          ],
+          "mode": "creamOrange"
+        },
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Source/Images/captions_renewal_20261102/almost_eight_years.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Shorts/02_decoder/Source/Images/accent_density_20261031/WEBER_KAI.png",
+        "status": "new imagegen candidate",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/C01/face.png",
+      "face_mask_sha256": "297c12a5975a11df6e9da37e4b8ed2a2f261412d80fd788415a6664d146f0272",
+      "id": "C01",
+      "lines": [
+        "ALMOST EIGHT YEARS"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          15,
+          5,
+          911,
+          301
+        ],
+        "alpha_height_px": 296,
+        "alpha_width_px": 896,
+        "face_bbox": [
+          26,
+          105,
+          900,
+          200
+        ],
+        "face_height_px": 95,
+        "face_line_boxes": [
+          [
+            26,
+            105,
+            900,
+            200
+          ]
+        ],
+        "face_line_heights_px": [
+          95
+        ],
+        "size_px": [
+          926,
+          309
+        ]
+      },
+      "png": "cues/C01/cue.png",
+      "png_sha256": "a85a1e2b71b14ed3af0fa0646fbde911452d4f52b6db40fd947d8f08e7e9977e",
+      "provenance": {
+        "record": "Source/Images/captions_renewal_20261102/GENERATION_LOG.md"
+      },
+      "timing": {
+        "note": "character alignment; subjective listening not performed",
+        "status": "UNVERIFIED"
+      },
+      "uniform_scale": 0.4260089686098655
+    },
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              0,
+              212,
+              2172,
+              537
+            ]
+          ],
+          "mode": "creamOrange"
+        },
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Source/Images/captions_renewal_20261102/old_messages.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Shorts/02_decoder/Source/Images/accent_density_20261031/WEBER_KAI.png",
+        "status": "new imagegen candidate",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/C02/face.png",
+      "face_mask_sha256": "26344dfa2fd868a0204614a6e9173e8d9f01404057928a0a9f928c673d225392",
+      "id": "C02",
+      "lines": [
+        "OLD MESSAGES"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          9,
+          3,
+          629,
+          212
+        ],
+        "alpha_height_px": 209,
+        "alpha_width_px": 620,
+        "face_bbox": [
+          18,
+          62,
+          626,
+          157
+        ],
+        "face_height_px": 95,
+        "face_line_boxes": [
+          [
+            18,
+            62,
+            626,
+            157
+          ]
+        ],
+        "face_line_heights_px": [
+          95
+        ],
+        "size_px": [
+          635,
+          212
+        ]
+      },
+      "png": "cues/C02/cue.png",
+      "png_sha256": "3b07263be1e102b3121f265383b8f246fda73259d13865b67ba1174daf7f3f5c",
+      "provenance": {
+        "record": "Source/Images/captions_renewal_20261102/GENERATION_LOG.md"
+      },
+      "timing": {
+        "note": "character alignment; subjective listening not performed",
+        "status": "UNVERIFIED"
+      },
+      "uniform_scale": 0.2923076923076923
+    },
+    {
+      "backend": {
+        "face": {
+          "line_boxes": [
+            [
+              0,
+              172,
+              2172,
+              566
+            ]
+          ],
+          "mode": "creamOrange"
+        },
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Source/Images/captions_renewal_20261102/not_her_v02.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Shorts/02_decoder/Source/Images/accent_density_20261031/WEBER_KAI.png",
+        "status": "new imagegen candidate",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/C03/face.png",
+      "face_mask_sha256": "26747eb0ee6d9c3cd67338506e4c802e2282c49d5798102091740b83afaf539d",
+      "id": "C03",
+      "lines": [
+        "NOT HER."
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          27,
+          35,
+          504,
+          144
+        ],
+        "alpha_height_px": 109,
+        "alpha_width_px": 477,
+        "face_bbox": [
+          34,
+          41,
+          495,
+          136
+        ],
+        "face_height_px": 95,
+        "face_line_boxes": [
+          [
+            34,
+            41,
+            495,
+            136
+          ]
+        ],
+        "face_line_heights_px": [
+          95
+        ],
+        "size_px": [
+          524,
+          175
+        ]
+      },
+      "png": "cues/C03/cue.png",
+      "png_sha256": "d70effa2ebc3524f87f55611783687424a9765b242b2dd130e0158357833e026",
+      "provenance": {
+        "record": "Source/Images/captions_renewal_20261102/GENERATION_LOG.md"
+      },
+      "timing": {
+        "note": "character alignment; subjective listening not performed",
+        "status": "UNVERIFIED"
+      },
+      "uniform_scale": 0.24111675126903553
+    }
+  ],
+  "helper_sha256": "86fcde095d01b3300ac1497f9f38c5f38494a740f5dcd987af9a8595d42a8150",
+  "helper_version": "1.1.0",
+  "inputs": [
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Shorts/02_decoder/Source/Images/accent_density_20261031/WEBER_KAI.png",
+      "sha256": "fb96b5a46292a2d0ba7c19db667cb76a7e361896da19bf4223fe1f5537fe9a4f"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/renewal_20261102/caption_manifest.json",
+      "sha256": "e05e7cb2e556ec8babba1e5f97e33e572113c56a623ee0558badc8cf478ba9aa"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/renewal_20261102/scene_previews/P02.png",
+      "sha256": "cf706c00f73f00d998d7d875887de44bee002c807411e01eaea23d18b1da4d7e"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/renewal_20261102/scene_previews/P04.png",
+      "sha256": "dee7b3d7431181de8c58c1668ee2d8c80d687b9350417426c994c0af67136562"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/renewal_20261102/scene_previews/P07.png",
+      "sha256": "2040ee7368f31e4f88a8f4cd0a027371b2be6dc35147e5bded65794967664be3"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Source/Images/captions_renewal_20261102/almost_eight_years.png",
+      "sha256": "453499104360ed40c4f6997096a9d912b9631b7c7d49f7c75f16574dd07f2930"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Source/Images/captions_renewal_20261102/not_her_v02.png",
+      "sha256": "70c91a7f2f743f64b26980eeb0ea731b999e37963b2a48b133e20df83b59619f"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Source/Images/captions_renewal_20261102/old_messages.png",
+      "sha256": "f36e70a9d9353e604505846ef8a268ac0b4205eb7619cbd31f434f007c0d0a38"
+    }
+  ],
+  "manifest_sha256": "e05e7cb2e556ec8babba1e5f97e33e572113c56a623ee0558badc8cf478ba9aa",
+  "pairs": [
+    {
+      "anchor": "primary",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.11
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              92,
+              64,
+              988,
+              360
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            77,
+            59
+          ],
+          "phone_preview": "../../../Work/captions-renewal-v3-20261102/previews/P02/C01/primary__phone.png",
+          "preview": "../../../Work/captions-renewal-v3-20261102/previews/P02/C01/primary.png"
+        },
+        {
+          "anchor": "alternate",
+          "center": [
+            0.5,
+            0.77
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              92,
+              1331,
+              988,
+              1627
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            77,
+            1326
+          ],
+          "phone_preview": "../../../Work/captions-renewal-v3-20261102/previews/P02/C01/alternate__phone.png",
+          "preview": "../../../Work/captions-renewal-v3-20261102/previews/P02/C01/alternate.png"
+        }
+      ],
+      "cue": "C01",
+      "scene": "P02"
+    },
+    {
+      "anchor": "primary",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.11
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              227,
+              105,
+              847,
+              314
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            218,
+            102
+          ],
+          "phone_preview": "../../../Work/captions-renewal-v3-20261102/previews/P04/C02/primary__phone.png",
+          "preview": "../../../Work/captions-renewal-v3-20261102/previews/P04/C02/primary.png"
+        },
+        {
+          "anchor": "alternate",
+          "center": [
+            0.5,
+            0.77
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              227,
+              1372,
+              847,
+              1581
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            218,
+            1369
+          ],
+          "phone_preview": "../../../Work/captions-renewal-v3-20261102/previews/P04/C02/alternate__phone.png",
+          "preview": "../../../Work/captions-renewal-v3-20261102/previews/P04/C02/alternate.png"
+        }
+      ],
+      "cue": "C02",
+      "scene": "P04"
+    },
+    {
+      "anchor": "alternate",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.11
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              303,
+              158,
+              780,
+              267
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            276,
+            123
+          ],
+          "phone_preview": "../../../Work/captions-renewal-v3-20261102/previews/P07/C03/primary__phone.png",
+          "preview": "../../../Work/captions-renewal-v3-20261102/previews/P07/C03/primary.png"
+        },
+        {
+          "anchor": "alternate",
+          "center": [
+            0.5,
+            0.77
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              303,
+              1425,
+              780,
+              1534
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            276,
+            1390
+          ],
+          "phone_preview": "../../../Work/captions-renewal-v3-20261102/previews/P07/C03/alternate__phone.png",
+          "preview": "../../../Work/captions-renewal-v3-20261102/previews/P07/C03/alternate.png"
+        }
+      ],
+      "cue": "C03",
+      "scene": "P07"
+    }
+  ],
+  "pillow_version": "11.3.0",
+  "shared_face_height_px": 95,
+  "source_manifest": {
+    "anchors": {
+      "alternate": {
+        "center": [
+          0.5,
+          0.77
+        ],
+        "max_height_px": 300,
+        "max_width_px": 900
+      },
+      "primary": {
+        "center": [
+          0.5,
+          0.11
+        ],
+        "max_height_px": 300,
+        "max_width_px": 900
+      }
+    },
+    "canvas": [
+      1080,
+      1920
+    ],
+    "cues": [
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                0,
+                247,
+                2172,
+                470
+              ]
+            ],
+            "mode": "creamOrange"
+          },
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Source/Images/captions_renewal_20261102/almost_eight_years.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Shorts/02_decoder/Source/Images/accent_density_20261031/WEBER_KAI.png",
+          "status": "new imagegen candidate",
+          "type": "existingPNG"
+        },
+        "id": "C01",
+        "lines": [
+          "ALMOST EIGHT YEARS"
+        ],
+        "provenance": {
+          "record": "Source/Images/captions_renewal_20261102/GENERATION_LOG.md"
+        },
+        "timing": {
+          "note": "character alignment; subjective listening not performed",
+          "status": "UNVERIFIED"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                0,
+                212,
+                2172,
+                537
+              ]
+            ],
+            "mode": "creamOrange"
+          },
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Source/Images/captions_renewal_20261102/old_messages.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Shorts/02_decoder/Source/Images/accent_density_20261031/WEBER_KAI.png",
+          "status": "new imagegen candidate",
+          "type": "existingPNG"
+        },
+        "id": "C02",
+        "lines": [
+          "OLD MESSAGES"
+        ],
+        "provenance": {
+          "record": "Source/Images/captions_renewal_20261102/GENERATION_LOG.md"
+        },
+        "timing": {
+          "note": "character alignment; subjective listening not performed",
+          "status": "UNVERIFIED"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "line_boxes": [
+              [
+                0,
+                172,
+                2172,
+                566
+              ]
+            ],
+            "mode": "creamOrange"
+          },
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Source/Images/captions_renewal_20261102/not_her_v02.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Shorts/02_decoder/Source/Images/accent_density_20261031/WEBER_KAI.png",
+          "status": "new imagegen candidate",
+          "type": "existingPNG"
+        },
+        "id": "C03",
+        "lines": [
+          "NOT HER."
+        ],
+        "provenance": {
+          "record": "Source/Images/captions_renewal_20261102/GENERATION_LOG.md"
+        },
+        "timing": {
+          "note": "character alignment; subjective listening not performed",
+          "status": "UNVERIFIED"
+        }
+      }
+    ],
+    "face_height_px": 100,
+    "min_face_height_px": 65,
+    "pairs": [
+      {
+        "anchor": "primary",
+        "cue": "C01",
+        "scene": "P02"
+      },
+      {
+        "anchor": "primary",
+        "cue": "C02",
+        "scene": "P04"
+      },
+      {
+        "anchor": "alternate",
+        "cue": "C03",
+        "scene": "P07"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "P02",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/renewal_20261102/scene_previews/P02.png"
+      },
+      {
+        "id": "P04",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/renewal_20261102/scene_previews/P04.png"
+      },
+      {
+        "id": "P07",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Edit/renewal_20261102/scene_previews/P07.png"
+      }
+    ],
+    "version": 1
+  },
+  "storage": {
+    "dependencies": "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Assets/Generated/captions-renewal-v3-20261102",
+    "previews": "/Users/diplomat/ytvideos/channels/paper_detour/videos/007_joshua_jessica/Work/captions-renewal-v3-20261102/previews"
+  },
+  "version": 1
+}

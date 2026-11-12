@@ -1,0 +1,35 @@
+{
+  "scene": 18,
+  "timeline_clip_id": "39B8C610",
+  "timeline_media_ref": "2E106469",
+  "timeline_frames": [
+    2674,
+    2824
+  ],
+  "timeline_frame_count": 150,
+  "source": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/002_pompeii/Assets/Generated/Pompeii_Remake_v01/K018_objects_under_ash_candidate_v01.png",
+  "source_sha256": "f8dcdb6db2315ed5f86e18c4aa0446429ae4c2471b7a1104153adc0a67bf7839",
+  "foreground": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/002_pompeii/Assets/Generated/Pompeii_Remake_v01/layered_v01/K018/foreground.png",
+  "background": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/002_pompeii/Assets/Generated/Pompeii_Remake_v01/layered_v01/K018/background.png",
+  "mask": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/002_pompeii/Assets/Generated/Pompeii_Remake_v01/layered_v01/K018/mask.png",
+  "clean_motion": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/002_pompeii/Work/remaster-nuviko-20261103-v01/scratch/clean_motion_v01/K018.mp4",
+  "final_motion": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/002_pompeii/Assets/Generated/Pompeii_Motion_v01/K018.mp4",
+  "final_motion_sha256": "cca9c377980a4fc49c589da26be2734cec66a0ae477cf136ff36f5bf29d2302c",
+  "final_probe": {
+    "width": 1920,
+    "height": 1080,
+    "fps": "30/1",
+    "frames": 150,
+    "duration_seconds": 5.0,
+    "codec": "h264",
+    "pix_fmt": "yuv420p"
+  },
+  "g08_receipt": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/002_pompeii/Assets/Generated/Pompeii_Motion_v01/K018.mp4.g08.json",
+  "order": [
+    "contain-fit layers",
+    "clean layered parallax",
+    "opposed camera",
+    "G08"
+  ],
+  "elapsed_seconds": 31.167
+}

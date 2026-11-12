@@ -1,0 +1,274 @@
+{
+  "schema": "ytv-delivery-v1",
+  "channel": "paper",
+  "format": "long",
+  "canvas": [
+    2560,
+    1440
+  ],
+  "fps": 30,
+  "frames": 240,
+  "caption_end_frame": 240,
+  "audio": {
+    "audio": {
+      "path": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/preview_013_014/voice_padded.wav",
+      "sha256": "d0d338b85ff3f44eda213a13b3a5136fa0f716707f7e947be68096824f174dda"
+    },
+    "applied_speed": 1.1,
+    "speed_policy": {
+      "path": "/Users/diplomat/ytvideos/.agents/skills/ytv-audio-delivery/references/speed.json",
+      "sha256": "32c378c36c1e297cbdc4e3593c965163d33e531b8b8eea026b367bddb51a668a"
+    },
+    "speed_evidence": {
+      "path": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/preview_013_014/speed.md",
+      "sha256": "fe0a4f06ff553076e8a86908b68fe8920fa985c596f24a0f8884266a1d0a76c7"
+    }
+  },
+  "transcript": {
+    "path": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/preview_013_014/transcript.txt",
+    "sha256": "1d0ebc003efe68b890490c08ab58340616472440a3335972f1da2e240eee9b71"
+  },
+  "word_map": {
+    "path": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/preview_013_014/words.json",
+    "sha256": "5993b3552cbac240b5525ce105742928c8c4840ba062ea93fe6fd8e2a26097bb"
+  },
+  "profiles": [
+    {
+      "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/profiles/paper.json",
+      "sha256": "e2b89e813ec25985601ef65997ea8b94c19e96aa6d158333edf962b42e02ffc0"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/profiles/long.json",
+      "sha256": "e8f9f5dd0354283634a0cf9dc1816736bac38de158de1d0bdd1b8b4658f51459"
+    },
+    {
+      "path": "/System/Library/Fonts/Supplemental/ChalkboardSE.ttc",
+      "sha256": "256d3dd291f0d2bd3379882e7fb9c8276fba219ea447a1073d2fce17690e0478"
+    }
+  ],
+  "engine": [
+    {
+      "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/montage.py",
+      "sha256": "24c1486c0e6302b93372a390da21b198d2c4567be79813acc5b5d12ad7c82023"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/delivery.py",
+      "sha256": "218a0bbc2a70ac463d32ac2ca321bc090335f8abcaa386bafb1983bce12a3f6f"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/.agents/skills/ytv-paper-subtitles/scripts/semantic_grouping.py",
+      "sha256": "046d92c9fecbd993cd2f0087357ae8354d6e17a0db801655cb57f1682aac9dcd"
+    }
+  ],
+  "picture": [
+    {
+      "scene": {
+        "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S013_v02.png",
+        "start_frame": 0,
+        "end_frame": 120,
+        "direction": "left_to_right",
+        "zoom": "in"
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S013_v02.png",
+        "sha256": "5a95afccbbd3549dcc3c92aca27ddd522e65cbfefb9e138c9c8940d9e0458f3c"
+      }
+    },
+    {
+      "scene": {
+        "image": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S014_v02.png",
+        "start_frame": 120,
+        "end_frame": 240,
+        "direction": "right_to_left",
+        "zoom": "out"
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/.agent/proposals/paper-039-visual-direction-pilot/images/S014_v02.png",
+        "sha256": "32238a5421d09ec4ecd2294ae2f548e68972d95c11740a5337ec6fd398064866"
+      }
+    }
+  ],
+  "overlays": [
+    {
+      "layer": {
+        "role": "paper_frame",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/Shared/Overlays/Paper_Frame/masters/paper-border-16x9-16s-v03.mov",
+        "start_frame": 0,
+        "end_frame": 240,
+        "x": 0,
+        "y": 0
+      },
+      "file": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/Shared/Overlays/Paper_Frame/masters/paper-border-16x9-16s-v03.mov",
+        "sha256": "5f994a7f2abfc7612793e65afadc0f596c612c97ede2dc3ef72f747adf6f9b38"
+      }
+    }
+  ],
+  "groups": [
+    [
+      {
+        "text": "Then",
+        "start": 0.6153,
+        "end": 0.8353,
+        "source": "whisperx_forced_alignment",
+        "score": 0.777
+      }
+    ],
+    [
+      {
+        "text": "the",
+        "start": 1.0553,
+        "end": 1.1753,
+        "source": "whisperx_forced_alignment",
+        "score": 0.665
+      },
+      {
+        "text": "Great",
+        "start": 1.2353,
+        "end": 1.4753,
+        "source": "whisperx_forced_alignment",
+        "score": 0.834
+      },
+      {
+        "text": "Depression",
+        "start": 1.5153,
+        "end": 2.0153,
+        "source": "whisperx_forced_alignment",
+        "score": 0.726
+      },
+      {
+        "text": "struck.",
+        "start": 2.0353,
+        "end": 2.3153,
+        "source": "whisperx_forced_alignment",
+        "score": 0.895
+      }
+    ],
+    [
+      {
+        "text": "Wheat",
+        "start": 2.8153,
+        "end": 2.9953,
+        "source": "whisperx_forced_alignment",
+        "score": 0.796
+      },
+      {
+        "text": "prices",
+        "start": 3.0553,
+        "end": 3.4353,
+        "source": "whisperx_forced_alignment",
+        "score": 0.717
+      },
+      {
+        "text": "collapsed.",
+        "start": 3.4753,
+        "end": 3.9953,
+        "source": "whisperx_forced_alignment",
+        "score": 0.766
+      }
+    ],
+    [
+      {
+        "text": "Drought",
+        "start": 4.4953,
+        "end": 4.8153,
+        "source": "whisperx_forced_alignment",
+        "score": 0.647
+      },
+      {
+        "text": "made",
+        "start": 4.8753,
+        "end": 5.0153,
+        "source": "whisperx_forced_alignment",
+        "score": 0.878
+      }
+    ],
+    [
+      {
+        "text": "everything",
+        "start": 5.2353,
+        "end": 5.6153,
+        "source": "whisperx_forced_alignment",
+        "score": 0.76
+      },
+      {
+        "text": "worse.",
+        "start": 5.6753,
+        "end": 5.9353,
+        "source": "whisperx_forced_alignment",
+        "score": 0.847
+      }
+    ],
+    [
+      {
+        "text": "For",
+        "start": 6.5353,
+        "end": 6.6353,
+        "source": "whisperx_forced_alignment",
+        "score": 0.841
+      },
+      {
+        "text": "the",
+        "start": 6.6553,
+        "end": 6.7153,
+        "source": "whisperx_forced_alignment",
+        "score": 0.999
+      },
+      {
+        "text": "families",
+        "start": 6.7753,
+        "end": 7.0753,
+        "source": "whisperx_forced_alignment",
+        "score": 0.824
+      },
+      {
+        "text": "who",
+        "start": 7.1153,
+        "end": 7.2353,
+        "source": "whisperx_forced_alignment",
+        "score": 0.884
+      },
+      {
+        "text": "stayed,",
+        "start": 7.2753,
+        "end": 7.5953,
+        "source": "whisperx_forced_alignment",
+        "score": 0.809
+      }
+    ]
+  ],
+  "resolved": {
+    "resolved_font_size_px": 84,
+    "max_visible_width_px": 1344.0,
+    "center_x_px": 1280.0,
+    "baseline": 1288,
+    "algorithm": "sentence-syntax-width-v6",
+    "display_intervals": [
+      {
+        "start_frame": 0,
+        "end_frame": 32
+      },
+      {
+        "start_frame": 32,
+        "end_frame": 85
+      },
+      {
+        "start_frame": 85,
+        "end_frame": 135
+      },
+      {
+        "start_frame": 135,
+        "end_frame": 158
+      },
+      {
+        "start_frame": 158,
+        "end_frame": 197
+      },
+      {
+        "start_frame": 197,
+        "end_frame": 240
+      }
+    ],
+    "boundary_warnings": []
+  }
+}

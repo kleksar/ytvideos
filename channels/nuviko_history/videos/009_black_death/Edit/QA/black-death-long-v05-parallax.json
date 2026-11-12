@@ -1,0 +1,89 @@
+{
+  "release": "009_black_death_en_long_v05",
+  "status": "PASS_FOR_USER_REVIEW",
+  "file": "Deliverables/en/long/black_death_nuviko_en_v05.mp4",
+  "sha256": "1c61a47143fa163391e8b3f71cc66a6b0f9edddda345cf36f20cf1b33a1b407c",
+  "export_job": "8E3988F9-D091-486C-9E3D-589D222C6FB5",
+  "timeline": {
+    "projectId": "C7F9F043",
+    "timelineId": "784EA2E8",
+    "name": "Black Death v11 opposed layered parallax",
+    "frames": 21224,
+    "duration_seconds": 707.466667,
+    "fps": 30,
+    "picture_clips": 118,
+    "contiguous": true,
+    "source_duration_mismatches": 0
+  },
+  "video": {
+    "codec": "h264",
+    "profile": "High",
+    "width": 1920,
+    "height": 1080,
+    "pixel_format": "yuv420p",
+    "avg_frame_rate": "30/1",
+    "frame_count": 21224,
+    "color_primaries": "bt709",
+    "color_transfer": "bt709",
+    "color_space": "bt709"
+  },
+  "audio": {
+    "codec": "aac",
+    "sample_rate_hz": 44100,
+    "channels": 2,
+    "duration_seconds": 707.4,
+    "full_decode": "passed",
+    "volumedetect_mean_db": -27.2,
+    "volumedetect_peak_db": -6.2,
+    "timeline_source": "original v10 timeline media reference retained",
+    "real_time_listening": "not performed"
+  },
+  "captions": {
+    "source": "v10 sentence-first captions",
+    "track_preserved": true,
+    "visual_samples_at_seconds": [
+      0.75,
+      45,
+      120,
+      300,
+      500,
+      706.6
+    ],
+    "burned_into_picture": true,
+    "word_highlighting_visible_in_samples": true,
+    "full_dialogue_sync_listening": "not performed"
+  },
+  "motion": {
+    "order": [
+      "foreground/background composite with parallax",
+      "opposed whole-image camera",
+      "G08",
+      "existing subtitles"
+    ],
+    "camera_scale": 1.045,
+    "camera_travel_width_fraction": 0.045,
+    "output_clips_with_g08_receipt": 118,
+    "per_scene_samples": [
+      "start",
+      "middle",
+      "end"
+    ],
+    "contact_sheets_reviewed": 4
+  },
+  "checks": {
+    "timeline_structure": "passed",
+    "all_clip_durations_match_source": "passed",
+    "ffprobe_stream_contract": "passed",
+    "full_audio_video_decode": "passed",
+    "final_export_visual_samples": "passed",
+    "independent_review": "not performed"
+  },
+  "youtube": {
+    "changed": false,
+    "existing_unlisted_v01_unchanged": true
+  },
+  "notes": [
+    "Author review only. User should review the full MP4 for final editorial acceptance.",
+    "No YouTube upload, metadata, thumbnail, SRT or privacy change was made."
+  ]
+}

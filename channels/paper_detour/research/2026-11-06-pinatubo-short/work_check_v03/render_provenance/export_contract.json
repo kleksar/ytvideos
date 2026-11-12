@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "status": "READY_TO_RENDER",
+  "episode": "pinatubo-short",
+  "language": "en",
+  "format": "short",
+  "purpose": "internal review candidate",
+  "settings_profile": {
+    "path": "/Users/diplomat/ytvideos/.agents/skills/ytv-video-export/references/delivery.md",
+    "sha256": "494eb3736b9a39861949084e6623b2033bbd2ea9c4cdef31c48f035938dc89a6"
+  },
+  "edit": {
+    "project_id": "Pinatubo Paper Short",
+    "timeline_id": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-06-pinatubo-short/montage_v01.json",
+    "saved_revision_evidence": "Versioned manifest and plan",
+    "timeline_read_path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-06-pinatubo-short/work_plan_v01/plan.json",
+    "timeline_read_sha256": "105531ea7aec157066e25b320ec736d53c9d6b00ccb9accda38b345fbe944369",
+    "dependencies": []
+  },
+  "timeline": {
+    "width": 1440,
+    "height": 2560,
+    "aspect_ratio": "9:16",
+    "sample_aspect_ratio": "1:1",
+    "fps": "30/1",
+    "frame_count": 1283,
+    "duration_seconds": 42.766666666666666,
+    "output_color_space": "Rec.709 SDR"
+  },
+  "required_delivery": {
+    "container": "MP4",
+    "video": {
+      "codec_name": "h264",
+      "pix_fmt": "yuv420p",
+      "scan": "progressive",
+      "cadence": "constant 30/1 fps",
+      "color_primaries": "bt709",
+      "color_transfer": "bt709",
+      "color_space": "bt709",
+      "color_range": "tv"
+    },
+    "audio_contract": {
+      "owner_handoff": "Unreviewed mix; subjective listening UNVERIFIED",
+      "accepted_complete_mix": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-06-pinatubo-short/full_mix_v01.m4a",
+        "sha256": "1362bf03a12345f1300cef53eff0cb3865c5a564c085ee6184ef526e5b311051"
+      },
+      "source_rate_channels": {
+        "sample_rate_hz": 44100,
+        "channels": 1,
+        "codec": "AAC"
+      },
+      "codec_name": "aac",
+      "profile": "LC",
+      "sample_rate": 44100,
+      "channels": 1,
+      "target_bit_rate": "STREAM_COPY"
+    }
+  },
+  "encoding": {
+    "engine": "FFmpeg montage.py",
+    "version_evidence": "local ffmpeg",
+    "requested_arguments": {
+      "encoder": "h264_videotoolbox",
+      "video_bitrate": "20M",
+      "output_pix_fmt": "yuv420p",
+      "fps": "30/1",
+      "audio_codec": "copy",
+      "audio_profile": "aac_low",
+      "audio_bitrate": "STREAM_COPY",
+      "audio_sample_rate": 44100,
+      "audio_channels": 1
+    },
+    "quality_preferences": [
+      "Generated source dimensions measured separately; final suitability remains under review."
+    ],
+    "capability_evidence": "ffmpeg encoder check during settings",
+    "engine_managed_fields": [
+      "H264 profile and bitrate are encoder-managed"
+    ]
+  },
+  "preflight": {
+    "author": "Codex",
+    "time": "2026-11-06T22:22:09.970613",
+    "authorization_references": [
+      "User requested MP4 production"
+    ],
+    "fresh_settings_evidence": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-06-pinatubo-short/montage_v01.json",
+    "writer_and_export_state": "new internal output path; no known writer",
+    "output_path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-06-pinatubo-short/preview_v01.mp4",
+    "overwrite": false,
+    "media_lifecycle_receipt": "Internal candidate",
+    "unresolved_required_fields": []
+  },
+  "render_receipt": null,
+  "qa_receipt": null,
+  "settings_check_receipt": null,
+  "render_provenance": null
+}

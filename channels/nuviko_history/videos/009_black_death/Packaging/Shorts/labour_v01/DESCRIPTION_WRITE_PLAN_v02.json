@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "state": "ready_for_scoped_update",
+  "created_utc": "2026-11-03T20:37:42.906507+00:00",
+  "operation": "videos.update part=snippet; description hashtag tail only",
+  "target": {
+    "video_id": "5v6exl0iQJE",
+    "channel_id": "UCbyLx6Rf3iWww4bPZJ2oo2A",
+    "channel_title": "Nuviko History"
+  },
+  "current_etag": "cY4_8nk7WdSGmd8r0i9wQdhVNJY",
+  "before": {
+    "title": "Why England Tried to Hold Down Wages After the Plague",
+    "description": "After the Black Death, labour shortages gave some survivors a chance to seek better wages or another employer. A 1349 ordinance and the 1351 Statute of Labourers sought to control pay and compel work under set conditions. The old order did not simply return, and survival did not mean freedom from poverty or dependence.\n\nWatch the full story on Nuviko History:\nhttps://www.youtube.com/watch?v=oH_daCEzekA\n\n#BlackDeath #MedievalHistory #LabourHistory #StatuteOfLabourers #Shorts",
+    "tags": [
+      "Black Death",
+      "Labour history",
+      "Medieval history",
+      "Statute of Labourers",
+      "labour shortages",
+      "wages in medieval England"
+    ],
+    "categoryId": "27",
+    "defaultLanguage": "en",
+    "defaultAudioLanguage": "en",
+    "privacyStatus": "unlisted",
+    "uploadStatus": "processed"
+  },
+  "proposed_description": "After the Black Death, labour shortages gave some survivors a chance to seek better wages or another employer. A 1349 ordinance and the 1351 Statute of Labourers sought to control pay and compel work under set conditions. The old order did not simply return, and survival did not mean freedom from poverty or dependence.\n\nWatch the full story on Nuviko History:\nhttps://www.youtube.com/watch?v=oH_daCEzekA\n\n#BlackDeath #MedievalHistory #MedievalEngland #LabourHistory #LabourShortage #WageControls #OrdinanceOfLabourers #StatuteOfLabourers #Shorts",
+  "proposed_description_sha256": "799ca7488760e56f37c9fd20877c445f6e3cc19f27e2d36983333873823260bf",
+  "preserve": {
+    "title": "Why England Tried to Hold Down Wages After the Plague",
+    "tags": [
+      "Black Death",
+      "Labour history",
+      "Medieval history",
+      "Statute of Labourers",
+      "labour shortages",
+      "wages in medieval England"
+    ],
+    "categoryId": "27",
+    "defaultLanguage": "en",
+    "defaultAudioLanguage": "en"
+  },
+  "scope": {
+    "hashtags_in_description_only": true,
+    "title_change": false,
+    "separate_tags_change": false,
+    "privacy_change": false
+  },
+  "etag_reconciliation": {
+    "previous_etag": "GlIxqUZWpSmvV1zDMx9GoN7SKos",
+    "fresh_etag": "cY4_8nk7WdSGmd8r0i9wQdhVNJY",
+    "observed_field_difference": "none in snippet/status fields; ETag alone changed",
+    "checked_utc": "2026-11-03T20:38:55.590943+00:00"
+  }
+}

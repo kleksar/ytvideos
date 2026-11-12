@@ -1,0 +1,51 @@
+- dialog "Настройки":
+  - dialog "Настройки":
+    - heading "Настройки" [level=1]
+    - menu:
+      - menuitem "Общие":
+        - generic: Общие
+      - menuitem "Канал":
+        - generic: Канал
+      - menuitem "Загрузка видео":
+        - generic: Загрузка видео
+      - menuitem "Разрешения" [active]:
+        - generic: Разрешения
+      - menuitem "Модерация сообщества":
+        - generic: Модерация сообщества
+      - menuitem "Продвижение":
+        - generic: Продвижение
+      - menuitem "Соглашения":
+        - generic: Соглашения
+    - generic: Разрешения для канала Paper Detour
+    - button "Пригласить":
+      - generic: Пригласить
+    - text: Пользователи, которым вы дали разрешения, могут загружать на канал материалы, оставлять комментарии и совершать другие действия, а также просматривать скрытый контент и публикации с ограниченным доступом.
+    - link "Подробнее…":
+      - /url: https://support.google.com/youtube/answer/9481328?hl=ru#zippy=%2Climitations
+    - row "Имя пользователя Роль Столбец без названия":
+      - columnheader "Имя пользователя":
+        - heading "Имя пользователя" [level=3]:
+          - generic: Имя пользователя
+      - columnheader "Роль":
+        - heading "Роль" [level=3]:
+          - generic: Роль
+      - columnheader "Столбец без названия":
+        - heading "Столбец без названия" [level=3]
+    - row "User avatar Кирилл Попов diplomatgmg@gmail.com Владелец":
+      - img "User avatar"
+      - paragraph: Кирилл Попов
+      - paragraph: diplomatgmg@gmail.com
+      - generic: Владелец
+    - row "User avatar Kirill google@kleksar.me Менеджер":
+      - img "User avatar"
+      - paragraph: Kirill
+      - paragraph: google@kleksar.me
+      - button "Менеджер":
+        - button "Менеджер":
+          - generic: Менеджер
+    - button "Закрыть":
+      - generic: Закрыть
+    - button "Сохранить" [disabled]:
+      - generic: Сохранить
+- tooltip "Разрешения":
+  - generic: Разрешения

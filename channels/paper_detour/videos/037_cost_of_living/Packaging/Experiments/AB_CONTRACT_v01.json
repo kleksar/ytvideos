@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "episode": "Paper Detour 037",
+  "test_type": "title_only",
+  "lifecycle": "draft",
+  "outcome": "pending",
+  "native_eligibility": "ineligible_private_video",
+  "launch_status": "deferred_no_visibility_change_authorized",
+  "video_visibility_scope": "Private",
+  "hypothesis": "The broad wage-and-life question may attract viewers interested in historical living conditions; the explicit wage-day framing may attract viewers seeking a concrete economic comparison.",
+  "primary_metric": "YouTube native experiment watch-time share, if the video later becomes eligible and launch is authorized",
+  "fixed_thumbnail": {
+    "path": "Packaging/Thumbnails/Upload/037_thumb_v01.jpg",
+    "sha256": "b2bd09458500615273fe70cb7c58bfeb3a3066369b8a184f4d5af71627933678",
+    "text": "333 DAYS’ PAY"
+  },
+  "variants": [
+    {"id": "A", "role": "upload_default", "title": "Wages Rose. Did Life Get Easier?"},
+    {"id": "B", "role": "experiment_candidate", "title": "How Many Days’ Pay Covered a Year of Basics?"}
+  ],
+  "controls": [
+    "Keep thumbnail, description, playlist and audience settings unchanged during a title-only test.",
+    "Do not alter video privacy to make the test eligible.",
+    "If privacy later changes under new explicit user authorization, inspect fresh Studio eligibility and active experiment state before launch."
+  ],
+  "limitations": [
+    "The current authorized review upload is Private; YouTube native title/thumbnail tests do not accept private videos.",
+    "No experiment ID, assignment, exposure, result or performance evidence exists.",
+    "This plan is not an active test and makes no claim that either title will perform better."
+  ]
+}

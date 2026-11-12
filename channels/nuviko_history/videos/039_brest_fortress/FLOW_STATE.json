@@ -1,0 +1,465 @@
+{
+  "schema_version": 1,
+  "episode": "039_brest_fortress",
+  "channel": "nuviko",
+  "format": "long",
+  "input": "ready_text",
+  "input_evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Script/story_ru_accepted_v01.md",
+  "scope": "Nuviko History English long film. User-directed scene image revision v04; no external changes. Upload/publication paused.",
+  "stages": [
+    {
+      "id": "script",
+      "skills": [],
+      "status": "DONE",
+      "artifacts": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Script/story_ru_accepted_v01.md",
+          "version": "v01",
+          "sha256": "5dab060e6e7ca00da96459591fcf4a72975d3314eae93e11fac11f9223d7d23c"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Script/narration_en_v01.md",
+          "version": "v01",
+          "sha256": "f002eb470936487d2de8b596f177cefae04c712759f3c40bd15972a05b6ca55c"
+        }
+      ],
+      "checks": [
+        {
+          "name": "Russian source copied byte-identically from supplied attachment",
+          "status": "PASS",
+          "reviewer": "coordinator",
+          "method": "SHA-256 and byte comparison",
+          "coverage": "entire source file",
+          "evidence": "Russian source copied byte-identically from supplied attachment; entire source file"
+        },
+        {
+          "name": "English adaptation read-through and preservation of sequence and required distinctions",
+          "status": "PASS",
+          "reviewer": "coordinator",
+          "method": "read complete Extra High answer against accepted source and explicit constraints",
+          "coverage": "entire adaptation; event order and specified temporal/casualty/identity limits",
+          "evidence": "English adaptation read-through and preservation of sequence and required distinctions; entire adaptation; event order and specified temporal/casualty/identity limits"
+        }
+      ],
+      "dependencies": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Research/CONSULTATION_EN_ADAPTATION_v01.md",
+          "sha256": "d8dcb44551089fe4b27cfe9cdd02cd2a9a7266992f0f29e60e138cba8f5b3fda"
+        }
+      ],
+      "skill_runs": []
+    },
+    {
+      "id": "storyboard",
+      "skills": [
+        "ytv-video-production"
+      ],
+      "status": "DONE",
+      "artifacts": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Storyboard/storyboard_v01.md",
+          "version": "v01",
+          "sha256": "2c0751559094c4a2e360bbed47073d6d36d27abed963238cb249a062990139c1"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Research/CONSULTATION_VISUAL_SCORE_v01.md",
+          "version": "v01",
+          "sha256": "d906c3638d9b474e03152c3e11d8eadd9737ac852bcbee4fd61bf5314875f2d7"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Research/CONSULTATION_STORYBOARD_v01.md",
+          "version": "v01",
+          "sha256": "24cae13d095d055804fc4dff080a0fcbdc6ffcf2380e92a7d0aa41376b9fbfdd"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Storyboard/storyboard_v02.md",
+          "version": "v02",
+          "sha256": "618a07f07e87cd6600d1cb230c3695b70d8525dd683e3df70bce56f530a73e67"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Edit/Preproduction/shot_map_v02.csv",
+          "version": "v02",
+          "sha256": "fda22a5751ed7fc7088ff5e00db447bb4e53ab4412c9a72025fb3f7ebe19fb58"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Research/TIMING_MAP_v02.md",
+          "version": "v02",
+          "sha256": "239b7b7a97a4e7a34324f7859ba43c8cbfeba9eb83729b0594120499e7cc2427"
+        }
+      ],
+      "checks": [
+        {
+          "name": "19-block storyboard coverage and key chronology, geography, casualty-scope and identity limits",
+          "status": "PASS",
+          "reviewer": "coordinator",
+          "method": "read-through of full saved storyboard and 93 unique shot IDs against accepted narration and visual score",
+          "coverage": "all 19 blocks; shot IDs 01.01–19.07; final continuity checklist",
+          "evidence": "19-block storyboard coverage and key chronology, geography, casualty-scope and identity limits; all 19 blocks; shot IDs 01.01–19.07; final continuity checklist"
+        },
+        {
+          "name": "v02 shot timing map continuity and full voice coverage",
+          "status": "PASS",
+          "reviewer": "coordinator",
+          "method": "automated interval boundary and duration checks",
+          "coverage": "116 intervals, positive and contiguous from 0 to measured MP3 endpoint",
+          "evidence": "Research/TIMING_MAP_v02.md; human listening remains UNVERIFIED"
+        }
+      ],
+      "dependencies": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Script/narration_en_v01.md",
+          "sha256": "f002eb470936487d2de8b596f177cefae04c712759f3c40bd15972a05b6ca55c"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Voice/v02/voice_en.mp3",
+          "sha256": "f13a6fbbb4796503aa9cf3a262f33ed098b8cd8d3e1cff38fb44a6c77b9fbbe0"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Voice/v02/voice_en.alignment.json",
+          "sha256": "b704c156653b69272a7bbba07fb7b4266e66276a4c1433e23cf058a5cb03b807"
+        }
+      ],
+      "skill_runs": [
+        {
+          "skill": "ytv-video-production",
+          "status": "APPLIED",
+          "evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Edit/Preproduction/shot_map_v06.csv"
+        }
+      ]
+    },
+    {
+      "id": "audio",
+      "skills": [
+        "ytv-audio-delivery"
+      ],
+      "status": "DONE",
+      "artifacts": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Voice/v02/voice_en.mp3",
+          "version": "v02",
+          "sha256": "f13a6fbbb4796503aa9cf3a262f33ed098b8cd8d3e1cff38fb44a6c77b9fbbe0"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Voice/v02/voice_en.alignment.json",
+          "version": "v02",
+          "sha256": "b704c156653b69272a7bbba07fb7b4266e66276a4c1433e23cf058a5cb03b807"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Voice/v02/voice_en.request.json",
+          "version": "v02",
+          "sha256": "6eb43d4ccb7c540b59faa1efa9182c2d7eb617ebdda93a9d69fd0b47161d634a"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Work/voice-v02/manifest.json",
+          "version": "v02",
+          "sha256": "42c5037bd55aeb770d1793a4fc559f38a807795ba3e1d8c4e800d5bcd3db26a1"
+        }
+      ],
+      "checks": [
+        {
+          "name": "Successful authorized TTS request and audio receipt",
+          "status": "PASS",
+          "reviewer": "coordinator",
+          "method": "inspect success receipt; verify receipt text and audio SHA-256 against accepted narration and MP3",
+          "coverage": "full 9,699-character narration; voice ID 5vsgZsi667xMyGinrNIM; eleven_v4; speed 1.10; MP3 hash matches receipt",
+          "evidence": "Source/Voice/v02/voice_en.request.json status=success; audio_sha256 matches the complete MP3."
+        },
+        {
+          "name": "Character alignment coverage and monotonic timing",
+          "status": "PASS",
+          "reviewer": "coordinator",
+          "method": "join aligned characters, compare with accepted UTF-8 narration, check array lengths and monotonic start/end timestamps",
+          "coverage": "all 9,699 narration characters; both original and normalized arrays",
+          "evidence": "Source/Voice/v02/voice_en.alignment.json matches the full narration and has ordered timestamps; final character end=612.64s."
+        },
+        {
+          "name": "Audio file technical properties",
+          "status": "PASS",
+          "reviewer": "coordinator",
+          "method": "ffprobe codec/sample-rate/channel/duration and FFmpeg silence scan",
+          "coverage": "complete generated MP3 file",
+          "evidence": "612.32s, MP3, 44.1 kHz, mono; no evidence of a truncated file from container probe. Alignment endpoint is 0.32s beyond file duration; dependent cues must be clamped to the audio."
+        }
+      ],
+      "dependencies": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Script/narration_en_v01.md",
+          "sha256": "f002eb470936487d2de8b596f177cefae04c712759f3c40bd15972a05b6ca55c"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/automation/elevenlabs/channel_voices.json",
+          "sha256": "36e8c91959aac09b5a0976c60440cb1d1b92f173c96f013d2c152bafc692a074"
+        }
+      ],
+      "skill_runs": [
+        {
+          "skill": "ytv-audio-delivery",
+          "status": "APPLIED",
+          "evidence": "Generated the accepted English narration at the user's direction using the explicitly authorized second ElevenLabs account; retained the full character alignment and request receipt. Listening through the file has not been performed."
+        }
+      ]
+    },
+    {
+      "id": "images",
+      "skills": [
+        "ytv-scene-images",
+        "ytv-image-motion"
+      ],
+      "status": "DONE",
+      "artifacts": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Source/Images/IMAGE_MANIFEST_v05.json",
+          "sha256": "1a3b89093e03da0b7d0ef37a24ffaed84bbf31626628d34969a6ea3f5c88ac97",
+          "version": "v05"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Edit/Preproduction/shot_map_v06.csv",
+          "sha256": "b1f862dae0446e83b4dee51241bf84d69a27683eb62882ca0b92343aaf7afc0c",
+          "version": "v06"
+        }
+      ],
+      "checks": [
+        {
+          "name": "Scene image repair",
+          "status": "PASS",
+          "reviewer": "production coordinator",
+          "method": "Inspected generated sources and encoded samples against approved narration.",
+          "coverage": "Eleven source substitutions and all former extra graphic intervals.",
+          "evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Edit/QA/brest-v04-qa/REVIEW.md"
+        }
+      ],
+      "dependencies": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/brand/VISUAL_PROFILE.md",
+          "sha256": "ccc45507e570d3005c5124a43197391ec12d5c9159fbb3fd1813ebcda6fb8e55"
+        }
+      ],
+      "skill_runs": [
+        {
+          "skill": "ytv-scene-images",
+          "status": "APPLIED",
+          "evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Edit/QA/brest-v04-qa/REVIEW.md"
+        },
+        {
+          "skill": "ytv-image-motion",
+          "status": "APPLIED",
+          "evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Edit/Production/v04/render_plan_v04.json"
+        }
+      ]
+    },
+    {
+      "id": "subtitles",
+      "skills": [
+        "ytv-paper-subtitles",
+        "ytv-srt"
+      ],
+      "status": "DONE",
+      "artifacts": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Work/scene-fix-v02/scratch/captions-v02/subtitle_contract.json",
+          "sha256": "429b3aa3992de79ff5acf3dc2985f49a99e1842a5d0ed2e12da409d119459025",
+          "version": "v02"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Deliverables/039_brest_fortress_en_v01.srt",
+          "sha256": "088aa4658251a54a97ff8ee7f35a4b9b8f7535b96d24e80c24e5da83c16c335f",
+          "version": "v01"
+        }
+      ],
+      "checks": [
+        {
+          "name": "Subtitle exact text and machine structure",
+          "status": "PASS",
+          "reviewer": "coordinator",
+          "method": "subtitle preparation/validation against accepted narration",
+          "coverage": "419 SRT cues; text coverage and structural checks",
+          "evidence": "Timing mapping and playback remain UNVERIFIED; see Research/SUBTITLE_REVIEW_v02.md."
+        }
+      ],
+      "dependencies": [],
+      "skill_runs": [
+        {
+          "skill": "ytv-paper-subtitles",
+          "status": "APPLIED",
+          "evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Edit/Production/v02/subtitle_review_v02.json"
+        },
+        {
+          "skill": "ytv-srt",
+          "status": "APPLIED",
+          "evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Research/SUBTITLE_REVIEW_v02.md"
+        }
+      ]
+    },
+    {
+      "id": "render",
+      "skills": [
+        "ytv-video-production",
+        "ytv-video-export",
+        "ytv-video-qa"
+      ],
+      "status": "BLOCKED",
+      "artifacts": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Work/render_en_v05/previews/039_brest_fortress_en_review_v05.mp4",
+          "sha256": "a840ffb528b07214a04dce621e6586079f7d73fca11ed09e1643cbe0dd996758",
+          "version": "v05"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Work/render_en_v05/previews/039_brest_fortress_en_review_v05.mp4.delivery.json",
+          "sha256": "b5a939aa975d0a33f00d6a74236af9aa08461e6e0c6394194bbce95a0315272e",
+          "version": "v05"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Edit/QA/brest-v05-qa/REVIEW.md",
+          "sha256": "e8cf5acf48ddc04b6aa2a4e57176a91b3c5b565198ac271ee12d1ebfc9760270",
+          "version": "v05"
+        }
+      ],
+      "checks": [
+        {
+          "name": "Technical decode and streams",
+          "status": "PASS",
+          "reviewer": "production coordinator",
+          "method": "Full FFmpeg decode and metadata check",
+          "coverage": "All 18,370 frames and full audio",
+          "evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Edit/QA/brest-v05-qa/REVIEW.md"
+        },
+        {
+          "name": "Audible sync",
+          "status": "UNVERIFIED",
+          "reviewer": "production coordinator",
+          "method": "Listening unavailable",
+          "coverage": "Audio packet identity and previous ASR only",
+          "evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Edit/QA/brest-v05-qa/REVIEW.md"
+        }
+      ],
+      "dependencies": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Edit/Production/v05/render_plan_v05.json",
+          "sha256": "83b852ec7bdcc69cdb421789b531665adffbe545e793143665d46c04144f7f12"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Edit/Production/v05/EXPORT_CONTRACT_v05.json",
+          "sha256": "0c34c61481f83d38bde78d6a161f4574d31651d959a79bee6081fa05678570a6"
+        }
+      ],
+      "skill_runs": [
+        {
+          "skill": "ytv-video-production",
+          "status": "APPLIED",
+          "evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Edit/Production/v05/render_plan_v05.json"
+        },
+        {
+          "skill": "ytv-video-export",
+          "status": "APPLIED",
+          "evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Edit/Production/v05/EXPORT_CONTRACT_v05.json"
+        },
+        {
+          "skill": "ytv-video-qa",
+          "status": "APPLIED",
+          "evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Edit/QA/brest-v05-qa/REVIEW.md"
+        }
+      ]
+    },
+    {
+      "id": "review",
+      "skills": [],
+      "status": "PENDING",
+      "artifacts": [],
+      "checks": [
+        {
+          "name": "User acceptance of exact v04",
+          "status": "UNVERIFIED",
+          "reviewer": "production coordinator",
+          "method": "Await review of the new MP4.",
+          "coverage": "Exact v05 MP4",
+          "evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Edit/QA/CHANGES_REQUESTED_v03.md"
+        }
+      ],
+      "dependencies": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Work/render_en_v05/previews/039_brest_fortress_en_review_v05.mp4",
+          "sha256": "a840ffb528b07214a04dce621e6586079f7d73fca11ed09e1643cbe0dd996758"
+        }
+      ],
+      "skill_runs": []
+    },
+    {
+      "id": "packaging",
+      "skills": [
+        "ytv-youtube-video-titles",
+        "ytv-youtube-thumbnails",
+        "ytv-youtube-descriptions",
+        "ytv-youtube-hashtags",
+        "ytv-youtube-playlists",
+        "ytv-youtube-ab-testing",
+        "ytv-youtube-chapters"
+      ],
+      "status": "PENDING",
+      "artifacts": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Packaging/Metadata/METADATA_BETA_PACKAGE_v07.md",
+          "sha256": "98d07ed88eeee872d4b5e56d16a7ae418c1b56036d39c5ff83dcfb8bf98f033b",
+          "version": "v07"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Packaging/Metadata/AB_CONCEPT_CARDS_v07.md",
+          "sha256": "ca3c7b6d6e9394424163d86e0d40f236d54e51b91d3446a94d378dbde3dfab9a",
+          "version": "v07"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Packaging/Metadata/THUMBNAIL_QA_v06.md",
+          "sha256": "8f9bec843dc3de6ce8b7132b69a6d3047a7dc863968db4ec8f8b0b50b393616e",
+          "version": "v06"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Packaging/Thumbnails/v06/THUMBNAIL_MANIFEST_v06.json",
+          "sha256": "50819700e1369b1550a77cc58f2ddeb92840311d596604cb10eaa316dcb7a26a",
+          "version": "v06"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Research/CONSULTATION_THUMBNAIL_C_REVISION_v04.md",
+          "sha256": "3c9ec84ff667493d1851a098ec79bc1c8f97060430c548ae9614d77b2fd5e9c9",
+          "version": "v04"
+        }
+      ],
+      "checks": [
+        {
+          "name": "User acceptance of thumbnail C v06",
+          "status": "PASS",
+          "reviewer": "user",
+          "method": "explicit positive response immediately following presentation of C v06",
+          "coverage": "thumbnail C only; full package and A/B decision not approved",
+          "evidence": "User responded “пушка. поехали дальше” to the thumbnail C without a magnifier."
+        }
+      ],
+      "dependencies": [],
+      "skill_runs": []
+    },
+    {
+      "id": "unlisted",
+      "skills": [
+        "ytv-youtube-release"
+      ],
+      "status": "PENDING",
+      "artifacts": [],
+      "checks": [],
+      "dependencies": [],
+      "skill_runs": []
+    },
+    {
+      "id": "release",
+      "skills": [
+        "ytv-youtube-release",
+        "ytv-media-lifecycle"
+      ],
+      "status": "PENDING",
+      "artifacts": [],
+      "checks": [],
+      "dependencies": [],
+      "skill_runs": []
+    }
+  ],
+  "decisions": {},
+  "next_step": "User review of exact v05 MP4; audio listening and sync remain unverified; publication paused."
+}

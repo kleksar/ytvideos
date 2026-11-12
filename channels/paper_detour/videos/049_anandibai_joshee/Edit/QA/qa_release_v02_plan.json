@@ -1,0 +1,197 @@
+{
+  "frame_count": 4784,
+  "fps": "30/1",
+  "sha256": "b06445fc94ba7366d69a0ac297871e5c31b5a93fff53c2a8163151e13e9f2b8a",
+  "required_review_checks": [
+    "stream_metadata",
+    "full_decode",
+    "frame_sampling",
+    "motion_framing",
+    "cue_timing",
+    "audio_signal",
+    "subjective_audio_listening",
+    "srt",
+    "word_highlighting"
+  ],
+  "freshness": {
+    "status": "UNVERIFIED",
+    "evidence": "compare frozen export contract and v02 accepted edit"
+  },
+  "expected": {
+    "video": {
+      "width": 2560,
+      "height": 1440,
+      "codec_name": "h264",
+      "pix_fmt": "yuv420p",
+      "color_space": "bt709"
+    },
+    "audio": {
+      "required": true,
+      "codec_name": "aac",
+      "channels": 1,
+      "sample_rate": 44100
+    }
+  },
+  "scenes": [
+    {
+      "id": "1",
+      "start": 0,
+      "end": 126
+    },
+    {
+      "id": "2",
+      "start": 126,
+      "end": 251
+    },
+    {
+      "id": "3",
+      "start": 251,
+      "end": 373
+    },
+    {
+      "id": "4",
+      "start": 373,
+      "end": 499
+    },
+    {
+      "id": "5",
+      "start": 499,
+      "end": 644
+    },
+    {
+      "id": "6",
+      "start": 644,
+      "end": 809
+    },
+    {
+      "id": "7",
+      "start": 809,
+      "end": 986
+    },
+    {
+      "id": "8",
+      "start": 986,
+      "end": 1124
+    },
+    {
+      "id": "9",
+      "start": 1124,
+      "end": 1291
+    },
+    {
+      "id": "10",
+      "start": 1291,
+      "end": 1444
+    },
+    {
+      "id": "11",
+      "start": 1444,
+      "end": 1593
+    },
+    {
+      "id": "12",
+      "start": 1593,
+      "end": 1769
+    },
+    {
+      "id": "13",
+      "start": 1769,
+      "end": 1896
+    },
+    {
+      "id": "14",
+      "start": 1896,
+      "end": 2052
+    },
+    {
+      "id": "15",
+      "start": 2052,
+      "end": 2177
+    },
+    {
+      "id": "16",
+      "start": 2177,
+      "end": 2331
+    },
+    {
+      "id": "17",
+      "start": 2331,
+      "end": 2509
+    },
+    {
+      "id": "18",
+      "start": 2509,
+      "end": 2650
+    },
+    {
+      "id": "19",
+      "start": 2650,
+      "end": 2786
+    },
+    {
+      "id": "20",
+      "start": 2786,
+      "end": 2913
+    },
+    {
+      "id": "21",
+      "start": 2913,
+      "end": 3044
+    },
+    {
+      "id": "22",
+      "start": 3044,
+      "end": 3201
+    },
+    {
+      "id": "23",
+      "start": 3201,
+      "end": 3368
+    },
+    {
+      "id": "24",
+      "start": 3368,
+      "end": 3517
+    },
+    {
+      "id": "25",
+      "start": 3517,
+      "end": 3693
+    },
+    {
+      "id": "26",
+      "start": 3693,
+      "end": 3823
+    },
+    {
+      "id": "27",
+      "start": 3823,
+      "end": 3986
+    },
+    {
+      "id": "28",
+      "start": 3986,
+      "end": 4149
+    },
+    {
+      "id": "29",
+      "start": 4149,
+      "end": 4322
+    },
+    {
+      "id": "30",
+      "start": 4322,
+      "end": 4484
+    },
+    {
+      "id": "31",
+      "start": 4484,
+      "end": 4634
+    },
+    {
+      "id": "32",
+      "start": 4634,
+      "end": 4784
+    }
+  ]
+}

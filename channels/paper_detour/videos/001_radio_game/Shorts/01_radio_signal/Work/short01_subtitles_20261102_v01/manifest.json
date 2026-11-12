@@ -1,0 +1,140 @@
+{
+  "version": 1,
+  "run": "short01_subtitles_20261102_v01",
+  "owner": "codex-root",
+  "status": "complete",
+  "created_utc": "2026-11-02T22:04:40.400737+00:00",
+  "entries": [
+    {
+      "path": "Assets/Generated/short01-subtitles-20261102-v01/short01_narration_subtitles_overlay_v01.mov",
+      "role": "dependency",
+      "identity": {
+        "device": 16777233,
+        "inode": 125503605,
+        "bytes": 95140744,
+        "mtime_ns": 1793657213677026950,
+        "ctime_ns": 1793657213677026950,
+        "nlink": 1,
+        "allocated_bytes": 95141888
+      },
+      "sha256": "031b7111c6dda16e8c66cb4d754f5de7fe826cfe4c11373493f5b6eda39a3092",
+      "rebuild_from": [],
+      "evidence": [],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_subtitles_20261102_v01/previews/subtitle_composite/shorts_subtitles_review.mp4",
+      "role": "preview",
+      "identity": {
+        "device": 16777233,
+        "inode": 125503159,
+        "bytes": 22102625,
+        "mtime_ns": 1793657119078493622,
+        "ctime_ns": 1793657119078493622,
+        "nlink": 1,
+        "allocated_bytes": 22106112
+      },
+      "sha256": "56e4b159cf7c78dba7aa98512044b5a240f5824f103ad896efe5a067d563c4ed",
+      "rebuild_from": [],
+      "evidence": [],
+      "disposition": "pending"
+    },
+    {
+      "path": "Edit/subtitles_20261102/timing_evidence.json",
+      "role": "evidence",
+      "identity": {
+        "device": 16777233,
+        "inode": 125504684,
+        "bytes": 2262,
+        "mtime_ns": 1793657356951623482,
+        "ctime_ns": 1793657356951623482,
+        "nlink": 1,
+        "allocated_bytes": 4096
+      },
+      "sha256": "ab47aaab9175ffb1cb8be1c09f2b380b1155a2c2993dcab5da8004ca093c4a5b",
+      "rebuild_from": [],
+      "evidence": [],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_subtitles_20261102_v01/previews/short01_subtitles_full_v04_review.mp4",
+      "role": "preview",
+      "identity": {
+        "device": 16777233,
+        "inode": 125504804,
+        "bytes": 39332928,
+        "mtime_ns": 1793657378182270290,
+        "ctime_ns": 1793657378259571757,
+        "nlink": 1,
+        "allocated_bytes": 39333888
+      },
+      "sha256": "a8bb75d8d1532ceea59fbde375ac46413bdc7891edb31172117f465a7ffd49bb",
+      "rebuild_from": [],
+      "evidence": [
+        {
+          "path": "Edit/subtitles_20261102/decision_v01_native_render_rejected.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125527888,
+            "bytes": 533,
+            "mtime_ns": 1793658351240713491,
+            "ctime_ns": 1793658351240713491,
+            "nlink": 1,
+            "allocated_bytes": 4096
+          },
+          "sha256": "2c2b71a38cc478157d764267f045b0180054d8f65be1db94d194b2784ff6ba24"
+        }
+      ],
+      "disposition": "rejected"
+    },
+    {
+      "path": "Work/short01_subtitles_20261102_v01/previews/short01_subtitles_full_v04_review_audiopreserved.mp4",
+      "role": "preview",
+      "identity": {
+        "device": 16777233,
+        "inode": 125505381,
+        "bytes": 40003249,
+        "mtime_ns": 1793657426366778963,
+        "ctime_ns": 1793657426366778963,
+        "nlink": 1,
+        "allocated_bytes": 40005632
+      },
+      "sha256": "6bfcb12d413fe87915580c2d4d4866bab70ab7e1f1e8665c49883621214c504d",
+      "rebuild_from": [],
+      "evidence": [
+        {
+          "path": "Edit/subtitles_20261102/decision_v01_remux_preview_rejected.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125527890,
+            "bytes": 548,
+            "mtime_ns": 1793658351376082416,
+            "ctime_ns": 1793658351376082416,
+            "nlink": 1,
+            "allocated_bytes": 4096
+          },
+          "sha256": "07cd2f2e86ae12c278da2cabfd376efe17dd7709f1e63beae9b61946ca7a53ec"
+        }
+      ],
+      "disposition": "rejected"
+    },
+    {
+      "path": "Edit/subtitles_20261102/decision_v01_superseded.json",
+      "role": "evidence",
+      "identity": {
+        "device": 16777233,
+        "inode": 125527636,
+        "bytes": 1357,
+        "mtime_ns": 1793658323037115252,
+        "ctime_ns": 1793658323037115252,
+        "nlink": 1,
+        "allocated_bytes": 4096
+      },
+      "sha256": "b514b582ec879b2133e4be557974621b2059704d29b16823aae1933c405ca9d0",
+      "rebuild_from": [],
+      "evidence": [],
+      "disposition": "pending"
+    }
+  ],
+  "writer_finished_utc": "2026-11-02T22:25:51.584729+00:00"
+}

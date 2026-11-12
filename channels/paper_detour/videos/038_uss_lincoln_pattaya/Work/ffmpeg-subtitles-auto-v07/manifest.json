@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "run": "ffmpeg-subtitles-auto-v07",
+  "owner": "codex-subtitles",
+  "status": "complete",
+  "created_utc": "2026-11-03T17:22:04.266848+00:00",
+  "entries": [
+    {
+      "path": "Work/ffmpeg-subtitles-auto-v07/previews/Paper038_auto_subtitles_v07.mp4",
+      "role": "preview",
+      "identity": {
+        "device": 16777234,
+        "inode": 126564549,
+        "bytes": 153444506,
+        "mtime_ns": 1793726724347615974,
+        "ctime_ns": 1793726724347615974,
+        "nlink": 1,
+        "allocated_bytes": 153448448
+      },
+      "sha256": "be299cc3204fd8bb0679f7fa56d6a1a42071109c32034fc6d6b23885541244fd",
+      "rebuild_from": [],
+      "evidence": [
+        {
+          "path": "Edit/QA/decision_auto_subtitles_v07.json",
+          "identity": {
+            "device": 16777234,
+            "inode": 126571942,
+            "bytes": 350,
+            "mtime_ns": 1793727019489391714,
+            "ctime_ns": 1793727019489391714,
+            "nlink": 1,
+            "allocated_bytes": 4096
+          },
+          "sha256": "3a0362b0aceb7714bc077be3713e968f2761b893e4e398bf78e287dfdd4817a5"
+        }
+      ],
+      "disposition": "rejected"
+    }
+  ],
+  "writer_finished_utc": "2026-11-03T17:30:33.892061+00:00"
+}

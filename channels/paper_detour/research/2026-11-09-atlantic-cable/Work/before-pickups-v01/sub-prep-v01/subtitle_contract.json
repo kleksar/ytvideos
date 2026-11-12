@@ -1,0 +1,7927 @@
+{
+  "schema": "ytv-delivery-v1",
+  "channel": "paper",
+  "format": "long",
+  "canvas": [
+    2560,
+    1440
+  ],
+  "fps": 30,
+  "frames": 8537,
+  "caption_end_frame": 8237,
+  "audio": {
+    "audio": {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Assets/Audio/full-mix-v01.wav",
+      "sha256": "fb57047c6a43ba4ce483fc2307eb1ccb22c05fc11bc5bb5cedbe1e054779796a"
+    },
+    "applied_speed": 1.1,
+    "speed_policy": {
+      "path": "/Users/diplomat/ytvideos/.agents/skills/ytv-audio-delivery/references/speed.json",
+      "sha256": "32c378c36c1e297cbdc4e3593c965163d33e531b8b8eea026b367bddb51a668a"
+    },
+    "speed_evidence": {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Assets/Audio/HANDOFF.md",
+      "sha256": "cfa810b09d85636ec5de29b9f60e8b1dc09c5fe6c839da7a3074790a35bee6dd"
+    }
+  },
+  "transcript": {
+    "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Script/narration_en_v01.txt",
+    "sha256": "a2c3fb52b28ae6b6f5ffd4cdd7da06052657cf2c057c1f55bed172117548a154"
+  },
+  "word_map": {
+    "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Work/word-times-final-v01.json",
+    "sha256": "7c818e3133a67741e835131771cfcca9bd328c6694d8d7573b23b50a049d0c1c"
+  },
+  "profiles": [
+    {
+      "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/profiles/paper.json",
+      "sha256": "e2b89e813ec25985601ef65997ea8b94c19e96aa6d158333edf962b42e02ffc0"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/profiles/long.json",
+      "sha256": "e8f9f5dd0354283634a0cf9dc1816736bac38de158de1d0bdd1b8b4658f51459"
+    },
+    {
+      "path": "/System/Library/Fonts/Supplemental/ChalkboardSE.ttc",
+      "sha256": "256d3dd291f0d2bd3379882e7fb9c8276fba219ea447a1073d2fce17690e0478"
+    }
+  ],
+  "engine": [
+    {
+      "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/montage.py",
+      "sha256": "62d26c06c972a8d5f9272d4d43068ac4c88909278c75eb56bfa4879fdae3298a"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/delivery.py",
+      "sha256": "d4611644090f7800fd09dbc3637a54a89b13ce6598edf7cf591cf33dc6275c29"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/.agents/skills/ytv-paper-subtitles/scripts/semantic_grouping.py",
+      "sha256": "bffadc1824948632bbd62172093ded979d32dd09b644cc3aaac40164b9481b29"
+    }
+  ],
+  "picture": [
+    {
+      "scene": {
+        "start_frame": 0,
+        "end_frame": 164,
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S001.png",
+        "direction": "none",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.46
+          ],
+          "subject": "LANDSCAPE 16:9, target 3840x2160 native PNG maximum quality",
+          "reason": "Keep central action clear while moving the complete still",
+          "start": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.018
+          },
+          "end": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.048
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S001.png",
+        "sha256": "817baedde6859348e2ef18eb9495d568066594d4f5aed009dadd9690cc374823"
+      }
+    },
+    {
+      "scene": {
+        "start_frame": 164,
+        "end_frame": 301,
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S002.png",
+        "direction": "left_to_right",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.5,
+            0.46
+          ],
+          "subject": "1858, close oblique view inside a Newfoundland telegraph hut, two anonymous attendants leaning in as a hand records the incoming message",
+          "reason": "Keep central action clear while moving the complete still",
+          "start": {
+            "center": [
+              0.508,
+              0.5
+            ],
+            "scale": 1.048
+          },
+          "end": {
+            "center": [
+              0.492,
+              0.5
+            ],
+            "scale": 1.02
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S002.png",
+        "sha256": "59f763b2d34a6b262426fdcd6088fa89ccaa99ccdce6e1df778df4688a899e9d"
+      }
+    },
+    {
+      "scene": {
+        "start_frame": 301,
+        "end_frame": 449,
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S003.png",
+        "direction": "right_to_left",
+        "zoom": "none",
+        "camera": {
+          "focus": [
+            0.5,
+            0.46
+          ],
+          "subject": "Low bow-level profile of an 1850s mail sailing steamship with black hull, two funnels and period rig, slowly crossing a huge night Atlantic made of layered deckled card",
+          "reason": "Keep central action clear while moving the complete still",
+          "start": {
+            "center": [
+              0.492,
+              0.5
+            ],
+            "scale": 1.033
+          },
+          "end": {
+            "center": [
+              0.508,
+              0.5
+            ],
+            "scale": 1.033
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S003.png",
+        "sha256": "b39896dff13b2eb52f0ae2a593ebf9f61914038fb521eee76799625c27ec2191"
+      }
+    },
+    {
+      "scene": {
+        "start_frame": 449,
+        "end_frame": 596,
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S004.png",
+        "direction": "none",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.46
+          ],
+          "subject": "LANDSCAPE 16:9, target 3840x2160 native PNG maximum quality",
+          "reason": "Keep central action clear while moving the complete still",
+          "start": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.018
+          },
+          "end": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.048
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S004.png",
+        "sha256": "7a3b761471dadd2b6859a21c855f71712efeec68dc739f4b1bd16061cbf18cf7"
+      }
+    },
+    {
+      "scene": {
+        "start_frame": 596,
+        "end_frame": 743,
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S005.png",
+        "direction": "right_to_left",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.5,
+            0.46
+          ],
+          "subject": "Close oblique relief map with separated low shore profiles and a thin taut undersea line; printed cardstock place labels IRELAND and NEWFOUNDLAND physically on the two shores, island placements make geographic sense, no other text",
+          "reason": "Keep central action clear while moving the complete still",
+          "start": {
+            "center": [
+              0.492,
+              0.5
+            ],
+            "scale": 1.048
+          },
+          "end": {
+            "center": [
+              0.508,
+              0.5
+            ],
+            "scale": 1.02
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S005.png",
+        "sha256": "bd08f918ef73f731118f249c04c60f93ed8e6e7d270eb80ca7469751e325b5f7"
+      }
+    },
+    {
+      "scene": {
+        "start_frame": 743,
+        "end_frame": 889,
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S006.png",
+        "direction": "left_to_right",
+        "zoom": "none",
+        "camera": {
+          "focus": [
+            0.5,
+            0.46
+          ],
+          "subject": "Very tight profile of 1858 receiving operator's hand holding a stationary brass telegraph needle under a spotlight in an otherwise dim dark navy workshop, old unused ivory writing sheet beneath",
+          "reason": "Keep central action clear while moving the complete still",
+          "start": {
+            "center": [
+              0.508,
+              0.5
+            ],
+            "scale": 1.033
+          },
+          "end": {
+            "center": [
+              0.492,
+              0.5
+            ],
+            "scale": 1.033
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S006.png",
+        "sha256": "e0fa52a1ca1a73bb5611caa6a5a91ab46630de8779cfaa30237eafa51bb3c232"
+      }
+    },
+    {
+      "scene": {
+        "start_frame": 889,
+        "end_frame": 1045,
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S007.png",
+        "direction": "none",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.46
+          ],
+          "subject": "Steep overhead tableau where a heavy black armored cable rests on a long maker's table next to a miniature wave and rolling deck pulley",
+          "reason": "Keep central action clear while moving the complete still",
+          "start": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.018
+          },
+          "end": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.048
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S007.png",
+        "sha256": "7b93fd7e93f1c6ab611c8360ff04d012758e63013d8f0de987e49cad79657f44"
+      }
+    },
+    {
+      "scene": {
+        "start_frame": 1045,
+        "end_frame": 1206,
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S008.png",
+        "direction": "left_to_right",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.5,
+            0.46
+          ],
+          "subject": "Macro track-level view along a pencil-dark telegraph wire into a receiver on a wooden bench",
+          "reason": "Keep central action clear while moving the complete still",
+          "start": {
+            "center": [
+              0.508,
+              0.5
+            ],
+            "scale": 1.048
+          },
+          "end": {
+            "center": [
+              0.492,
+              0.5
+            ],
+            "scale": 1.02
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S008.png",
+        "sha256": "dc4aaf5631371cefd0fa2b70f57a24b93206725c9bade38ac14791c938af0bc5"
+      }
+    },
+    {
+      "scene": {
+        "start_frame": 1206,
+        "end_frame": 1344,
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S009.png",
+        "direction": "right_to_left",
+        "zoom": "none",
+        "camera": {
+          "focus": [
+            0.5,
+            0.46
+          ],
+          "subject": "New York 1850s, 3/4 downshot on an anonymous period businessman's back and hands showing a folded Atlantic route plan to two investors at a round table",
+          "reason": "Keep central action clear while moving the complete still",
+          "start": {
+            "center": [
+              0.492,
+              0.5
+            ],
+            "scale": 1.033
+          },
+          "end": {
+            "center": [
+              0.508,
+              0.5
+            ],
+            "scale": 1.033
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S009.png",
+        "sha256": "5f374521fdc48e903f0698e27dfcbd49ecb7180cda79053be80c9970f96c60c2"
+      }
+    },
+    {
+      "scene": {
+        "start_frame": 1344,
+        "end_frame": 1501,
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S010.png",
+        "direction": "none",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.46
+          ],
+          "subject": "Side-on wide rural 1850s shore with a row of clean narrow telegraph poles following a rail line toward the sea cliff, the last span isolated against the open ocean",
+          "reason": "Keep central action clear while moving the complete still",
+          "start": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.018
+          },
+          "end": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.048
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S010.png",
+        "sha256": "9a03b7b23f72672e987bf1ceb517624eaed83e27376f239d868392eb91410e11"
+      }
+    },
+    {
+      "scene": {
+        "start_frame": 1501,
+        "end_frame": 1649,
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S011.png",
+        "direction": "right_to_left",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.5,
+            0.46
+          ],
+          "subject": "Very low intimate shore composition with a thin land telegraph wire ending at a sturdy iron-and-wood transfer box above the tide line, then thicker protected cable beginning and descending into the rough sea",
+          "reason": "Keep central action clear while moving the complete still",
+          "start": {
+            "center": [
+              0.492,
+              0.5
+            ],
+            "scale": 1.048
+          },
+          "end": {
+            "center": [
+              0.508,
+              0.5
+            ],
+            "scale": 1.02
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S011.png",
+        "sha256": "7b172344fab81b16687e2f6e57b009cf3c801059ff9954823c36e55e2b3b2179"
+      }
+    },
+    {
+      "scene": {
+        "start_frame": 1649,
+        "end_frame": 1800,
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S012.png",
+        "direction": "left_to_right",
+        "zoom": "none",
+        "camera": {
+          "focus": [
+            0.5,
+            0.46
+          ],
+          "subject": "Extreme engineering macro of a real 1858 submarine telegraph cable cut end: seven small reddish copper strands in the center, thick dark warm-brown gutta-percha layer, lighter tarred hemp bedding and helical black iron armor on the outside",
+          "reason": "Keep central action clear while moving the complete still",
+          "start": {
+            "center": [
+              0.508,
+              0.5
+            ],
+            "scale": 1.033
+          },
+          "end": {
+            "center": [
+              0.492,
+              0.5
+            ],
+            "scale": 1.033
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S012.png",
+        "sha256": "6a83c19f4fd8a65aa1715a2be48b3e33546b43a8d3ae50ec93f21a75d799fc12"
+      }
+    },
+    {
+      "scene": {
+        "start_frame": 1800,
+        "end_frame": 1951,
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S013.png",
+        "direction": "none",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.46
+          ],
+          "subject": "1850s dock, from knee height directly beside an immense dark roll of armored cable, a British wooden screw steam warship of the 1850s in perspective at the pier",
+          "reason": "Keep central action clear while moving the complete still",
+          "start": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.018
+          },
+          "end": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.048
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S013.png",
+        "sha256": "82c32bd2905fa38e435a2707bccca8f21ec193013bd52ae316d4e64846a8fd08"
+      }
+    },
+    {
+      "scene": {
+        "start_frame": 1951,
+        "end_frame": 2106,
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S014.png",
+        "direction": "left_to_right",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.5,
+            0.46
+          ],
+          "subject": "Bird's-eye oblique over an 1850s Atlantic naval dock showing exactly two large wooden steamships at separated berths taking split loads of heavy black cable, anonymous British screw liner and American screw frigate silhouettes, not a claim of a precise archival lineup",
+          "reason": "Keep central action clear while moving the complete still",
+          "start": {
+            "center": [
+              0.508,
+              0.5
+            ],
+            "scale": 1.048
+          },
+          "end": {
+            "center": [
+              0.492,
+              0.5
+            ],
+            "scale": 1.02
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S014.png",
+        "sha256": "74ed58f8c810d92d7b2b240d97abfab88f72fea9e219f38639336895f08d4de4"
+      }
+    },
+    {
+      "scene": {
+        "start_frame": 2106,
+        "end_frame": 2263,
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S015.png",
+        "direction": "right_to_left",
+        "zoom": "none",
+        "camera": {
+          "focus": [
+            0.5,
+            0.46
+          ],
+          "subject": "Oblique stern-deck close-up of a taut 1857 cable actually snapped at the entry to a wood and iron paying-out brake; two newly separated tips clearly apart with open cold sea behind",
+          "reason": "Keep central action clear while moving the complete still",
+          "start": {
+            "center": [
+              0.492,
+              0.5
+            ],
+            "scale": 1.033
+          },
+          "end": {
+            "center": [
+              0.508,
+              0.5
+            ],
+            "scale": 1.033
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S015.png",
+        "sha256": "1539fafe154d57fdfd75f680943ddaa3ca17d5aba249009a2ce6c7cd1a75831d"
+      }
+    },
+    {
+      "scene": {
+        "start_frame": 2263,
+        "end_frame": 2404,
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S016.png",
+        "direction": "none",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.46
+          ],
+          "subject": "Top view into the mostly bare wooden hold of an 1850s steamship after the loss: only a small remaining coil of dark cable low in a deep circular tank, surrounded by the curved ribbed card architecture, a lamp to one side",
+          "reason": "Keep central action clear while moving the complete still",
+          "start": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.018
+          },
+          "end": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.048
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S016.png",
+        "sha256": "7063f08fe1d30170cef1b51d16563e18c1008bf1421be85dc33741d6e08953f1"
+      }
+    },
+    {
+      "scene": {
+        "start_frame": 2404,
+        "end_frame": 2551,
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S017.png",
+        "direction": "right_to_left",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.5,
+            0.46
+          ],
+          "subject": "Close waist-level side composition in rolling seas, two period sailors' gloved hands splicing two distinct thick dark cable ends on a solid bench between ships; fine cord and iron armor marks",
+          "reason": "Keep central action clear while moving the complete still",
+          "start": {
+            "center": [
+              0.492,
+              0.5
+            ],
+            "scale": 1.048
+          },
+          "end": {
+            "center": [
+              0.508,
+              0.5
+            ],
+            "scale": 1.02
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S017.png",
+        "sha256": "7e27e8bf2e5c5ff5862428b821fd9d2be74ac61849f0c97b0f136e8381c6a954"
+      }
+    },
+    {
+      "scene": {
+        "start_frame": 2551,
+        "end_frame": 2697,
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S018.png",
+        "direction": "left_to_right",
+        "zoom": "none",
+        "camera": {
+          "focus": [
+            0.5,
+            0.46
+          ],
+          "subject": "An overhead mid-ocean relief view with exactly two 1850s wooden screw steamships stern to stern sailing in opposite directions, each trailing a fine dark cable down into an ocean cross-section",
+          "reason": "Keep central action clear while moving the complete still",
+          "start": {
+            "center": [
+              0.508,
+              0.5
+            ],
+            "scale": 1.033
+          },
+          "end": {
+            "center": [
+              0.492,
+              0.5
+            ],
+            "scale": 1.033
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S018.png",
+        "sha256": "ff0bb22047890d510a5f3a9f2c3a0d329191711369464583704d814e9b2ce965"
+      }
+    },
+    {
+      "scene": {
+        "start_frame": 2697,
+        "end_frame": 2836,
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S019.png",
+        "direction": "none",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.46
+          ],
+          "subject": "Exterior storm image from ship's rail, low view toward a mass of steep night waves and a wooden 1850s steam warship tilting without sinking",
+          "reason": "Keep central action clear while moving the complete still",
+          "start": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.018
+          },
+          "end": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.048
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S019.png",
+        "sha256": "fbb713d738c48bc79477b9a3d08cadabd1d9be6196f7ab84c8d744e0d8ca1727"
+      }
+    },
+    {
+      "scene": {
+        "start_frame": 2836,
+        "end_frame": 2995,
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S020.png",
+        "direction": "left_to_right",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.5,
+            0.46
+          ],
+          "subject": "1858 cabin at night after a second break: soaked rope ends hanging idle in sharp foreground, ship officer in anonymous shadow bends over a nautical route with a compass; a wooden helm silhouette at the window suggests aborting without repeating any prior snapped cable close-up",
+          "reason": "Keep central action clear while moving the complete still",
+          "start": {
+            "center": [
+              0.508,
+              0.5
+            ],
+            "scale": 1.048
+          },
+          "end": {
+            "center": [
+              0.492,
+              0.5
+            ],
+            "scale": 1.02
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S020.png",
+        "sha256": "ca76eef351b6ad93212fef9ba0670d5a49990fe1c016eb4ecfe2ddddbe60c361"
+      }
+    },
+    {
+      "scene": {
+        "start_frame": 2995,
+        "end_frame": 3146,
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S021.png",
+        "direction": "right_to_left",
+        "zoom": "none",
+        "camera": {
+          "focus": [
+            0.5,
+            0.46
+          ],
+          "subject": "Broad early-morning side view at an 1858 Atlantic landing: a crew lifts a single heavy black telegraph line out of shallow waves and carries it up a stone-strewn shore, another man braces it near a little telegraph hut",
+          "reason": "Keep central action clear while moving the complete still",
+          "start": {
+            "center": [
+              0.492,
+              0.5
+            ],
+            "scale": 1.033
+          },
+          "end": {
+            "center": [
+              0.508,
+              0.5
+            ],
+            "scale": 1.033
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S021.png",
+        "sha256": "59994952490220f95d3447fbbd988d0e0fc8d284a5417e9def704436c8a67ddb"
+      }
+    },
+    {
+      "scene": {
+        "start_frame": 3146,
+        "end_frame": 3299,
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S022.png",
+        "direction": "none",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.46
+          ],
+          "subject": "Overhead quiet close-up of hands copying a single slow telegraph dispatch, small brass key and an 1850s desk clock, just two fingers pausing over receiver, pale unused sheet catches the light",
+          "reason": "Keep central action clear while moving the complete still",
+          "start": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.018
+          },
+          "end": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.048
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S022.png",
+        "sha256": "5e700374c76f11275b5817813cf60ef0f3e23890c4a06616c4ba3f1c235258c7"
+      }
+    },
+    {
+      "scene": {
+        "start_frame": 3299,
+        "end_frame": 3445,
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S023.png",
+        "direction": "right_to_left",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.5,
+            0.46
+          ],
+          "subject": "Very tight conceptual engineering view of a cable alongside a row of exactly three small well-separated geometric amber pulses cut out of thick paper, standing tall and regular in the near field",
+          "reason": "Keep central action clear while moving the complete still",
+          "start": {
+            "center": [
+              0.492,
+              0.5
+            ],
+            "scale": 1.048
+          },
+          "end": {
+            "center": [
+              0.508,
+              0.5
+            ],
+            "scale": 1.02
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S023.png",
+        "sha256": "9e25f0358d5fb361c4f496a011e25dfffe0599ddfbe45251c9d437f6bedb1151"
+      }
+    },
+    {
+      "scene": {
+        "start_frame": 3445,
+        "end_frame": 3600,
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S024.png",
+        "direction": "left_to_right",
+        "zoom": "none",
+        "camera": {
+          "focus": [
+            0.5,
+            0.46
+          ],
+          "subject": "Tight contrasting engineering view with three low broad irregular warm amber folded-paper pulse humps reduced in height, separated but spread wide, a single length of dark submarine cable below",
+          "reason": "Keep central action clear while moving the complete still",
+          "start": {
+            "center": [
+              0.508,
+              0.5
+            ],
+            "scale": 1.033
+          },
+          "end": {
+            "center": [
+              0.492,
+              0.5
+            ],
+            "scale": 1.033
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S024.png",
+        "sha256": "c5a4955b19fd9ae65d00598ca937baebaf09cefcbb428e63782cecf4c913f8e7"
+      }
+    },
+    {
+      "scene": {
+        "start_frame": 3600,
+        "end_frame": 3746,
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S025.png",
+        "direction": "none",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.46
+          ],
+          "subject": "45-degree top view of a side-lit physical paper model showing two broadened amber pulses merging into one muddled shape, with two clearer thin input markers beside them for context, all folded card over dark slate",
+          "reason": "Keep central action clear while moving the complete still",
+          "start": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.018
+          },
+          "end": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.048
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S025.png",
+        "sha256": "cebaadcd105881e9eef4998618608b740e41faa4a963f6b02f0d28b6fe77376e"
+      }
+    },
+    {
+      "scene": {
+        "start_frame": 3746,
+        "end_frame": 3888,
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S026.png",
+        "direction": "left_to_right",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.5,
+            0.46
+          ],
+          "subject": "Wide angled table-level view of 1858 electrical workshop: anonymous chief electrician seen from the back reaches across two substantial period induction coils mounted on wood toward a brass contact, telegraph battery jars in soft focus",
+          "reason": "Keep central action clear while moving the complete still",
+          "start": {
+            "center": [
+              0.508,
+              0.5
+            ],
+            "scale": 1.048
+          },
+          "end": {
+            "center": [
+              0.492,
+              0.5
+            ],
+            "scale": 1.02
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S026.png",
+        "sha256": "47cd5f465128aa118872bdfef5d61d34603fafa8a6c3c5e0a0c51ad412ac85a0"
+      }
+    },
+    {
+      "scene": {
+        "start_frame": 3888,
+        "end_frame": 4043,
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S027.png",
+        "direction": "right_to_left",
+        "zoom": "none",
+        "camera": {
+          "focus": [
+            0.5,
+            0.46
+          ],
+          "subject": "Macro undersea cable cutaway showing sea outside a braided iron armor, dark waterproof layers and luminous copper in the center",
+          "reason": "Keep central action clear while moving the complete still",
+          "start": {
+            "center": [
+              0.492,
+              0.5
+            ],
+            "scale": 1.033
+          },
+          "end": {
+            "center": [
+              0.508,
+              0.5
+            ],
+            "scale": 1.033
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S027.png",
+        "sha256": "bfa09cefef880a77fec14de7d6da7b2f1aeae629f1c66255826b04d1aed61941"
+      }
+    },
+    {
+      "scene": {
+        "start_frame": 4043,
+        "end_frame": 4202,
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S028.png",
+        "direction": "none",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.46
+          ],
+          "subject": "Near-overhead receiving instrument and bare paper in a late-1850s hut, gauge needle at rest, an untouched pen and small damp window at edge",
+          "reason": "Keep central action clear while moving the complete still",
+          "start": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.018
+          },
+          "end": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.048
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S028.png",
+        "sha256": "518edc041eebc2b85fe5dd669d1a828ff813ae9d89bbe91ab80f16b3bb0e9c0e"
+      }
+    },
+    {
+      "scene": {
+        "start_frame": 4202,
+        "end_frame": 4342,
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S029.png",
+        "direction": "right_to_left",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.5,
+            0.46
+          ],
+          "subject": "Wide eye-level evening scene at a now dark Atlantic telegraph hut, one forearm lifting a fresh tiny instrument case into a side lamp beam on a clean workbench",
+          "reason": "Keep central action clear while moving the complete still",
+          "start": {
+            "center": [
+              0.492,
+              0.5
+            ],
+            "scale": 1.048
+          },
+          "end": {
+            "center": [
+              0.508,
+              0.5
+            ],
+            "scale": 1.02
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S029.png",
+        "sha256": "d844d87205aa2454871542bf1633393de30b83849423ea0eb5bb061bec9da778"
+      }
+    },
+    {
+      "scene": {
+        "start_frame": 4342,
+        "end_frame": 4503,
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S030.png",
+        "direction": "left_to_right",
+        "zoom": "none",
+        "camera": {
+          "focus": [
+            0.5,
+            0.46
+          ],
+          "subject": "1858 tabletop in an early experimental telegraph workshop, authentic early William Thomson suspended mirror galvanometer reimagined as a paper diorama: small circular enclosed coil and tiny lightweight suspended mirror, lamp shining toward it, compact wooden case",
+          "reason": "Keep central action clear while moving the complete still",
+          "start": {
+            "center": [
+              0.508,
+              0.5
+            ],
+            "scale": 1.033
+          },
+          "end": {
+            "center": [
+              0.492,
+              0.5
+            ],
+            "scale": 1.033
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S030.png",
+        "sha256": "e588faa1bdb470c27d2ed2b7c1356de792a0f0f88b29def7d999827e6eec0fbc"
+      }
+    },
+    {
+      "scene": {
+        "start_frame": 4503,
+        "end_frame": 4643,
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S031.png",
+        "direction": "none",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.46
+          ],
+          "subject": "Extreme macro of one tiny circular cut-paper mirror hanging by a filament within an early galvanometer coil, viewed at a shallow angle from its edge, an optical path picked out by a thin warm amber cardstock strip ending in a cream spot",
+          "reason": "Keep central action clear while moving the complete still",
+          "start": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.018
+          },
+          "end": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.048
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S031.png",
+        "sha256": "48fd6ea3c81f27d488b1ad67a92ce2497ad40170657588be1461f889e1e1ef05"
+      }
+    },
+    {
+      "scene": {
+        "start_frame": 4643,
+        "end_frame": 4791,
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S032.png",
+        "direction": "left_to_right",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.5,
+            0.46
+          ],
+          "subject": "Low table-height along the long scale of an 1858 mirror galvanometer, one distinct warm lamp spot lands on the far ivory reading scale a long way from the tiny mirror, with finely cut unnumbered black ticks",
+          "reason": "Keep central action clear while moving the complete still",
+          "start": {
+            "center": [
+              0.508,
+              0.5
+            ],
+            "scale": 1.048
+          },
+          "end": {
+            "center": [
+              0.492,
+              0.5
+            ],
+            "scale": 1.02
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S032.png",
+        "sha256": "b3c378ae8f851b6f7285034dedb4b9f8c226bf9e4495b2897466ff3a6d091618"
+      }
+    },
+    {
+      "scene": {
+        "start_frame": 4791,
+        "end_frame": 4944,
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S033.png",
+        "direction": "right_to_left",
+        "zoom": "none",
+        "camera": {
+          "focus": [
+            0.5,
+            0.46
+          ],
+          "subject": "Overhead graphic three-dimensional cardstock model with a tiny gold deflection dot on an ivory scale and a thin modest incoming pulse strip still clearly visible, framed by dark indigo",
+          "reason": "Keep central action clear while moving the complete still",
+          "start": {
+            "center": [
+              0.492,
+              0.5
+            ],
+            "scale": 1.033
+          },
+          "end": {
+            "center": [
+              0.508,
+              0.5
+            ],
+            "scale": 1.033
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S033.png",
+        "sha256": "839fd85f2825ea6e13d9a84beefb2d05d137e94a82eb79f0c1a8b544aeacf967"
+      }
+    },
+    {
+      "scene": {
+        "start_frame": 4944,
+        "end_frame": 5097,
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S034.png",
+        "direction": "none",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.46
+          ],
+          "subject": "Dramatic right-side desk view: finished little galvanometer just beyond a massive thick iron-armored cable loop lying in the foreground, lamp picking out the cable's weight, finely twisted outer strands",
+          "reason": "Keep central action clear while moving the complete still",
+          "start": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.018
+          },
+          "end": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.048
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S034.png",
+        "sha256": "de0cb7d0114f02b4b3da6e2e66088c073e4c7e47efd6a1221826005e8f2b31a8"
+      }
+    },
+    {
+      "scene": {
+        "start_frame": 5097,
+        "end_frame": 5248,
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S035.png",
+        "direction": "right_to_left",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.5,
+            0.46
+          ],
+          "subject": "Early 1860s London commercial office in hard morning light, close angled view of an anonymous investor's hand signing a folded paper next to a physically made short length of thick cable, dark wool sleeves, glass ink stand, stacked wall shapes",
+          "reason": "Keep central action clear while moving the complete still",
+          "start": {
+            "center": [
+              0.492,
+              0.5
+            ],
+            "scale": 1.048
+          },
+          "end": {
+            "center": [
+              0.508,
+              0.5
+            ],
+            "scale": 1.02
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S035.png",
+        "sha256": "0b856b6de4703d7bb76f08aedea39129dc04b475d94428d82b7a0f20f2f65d3c"
+      }
+    },
+    {
+      "scene": {
+        "start_frame": 5248,
+        "end_frame": 5399,
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S036.png",
+        "direction": "left_to_right",
+        "zoom": "none",
+        "camera": {
+          "focus": [
+            0.5,
+            0.46
+          ],
+          "subject": "Macro side view of three human hands at a cable-making bench turning one strong new protected 1860s iron-armored cable sample in profile; heavy abrasion-resistant spiraled iron strands over wrapped hemp, distinct dark brown core at cut edge",
+          "reason": "Keep central action clear while moving the complete still",
+          "start": {
+            "center": [
+              0.508,
+              0.5
+            ],
+            "scale": 1.033
+          },
+          "end": {
+            "center": [
+              0.492,
+              0.5
+            ],
+            "scale": 1.033
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S036.png",
+        "sha256": "5dc5a8ab241782752cdb7716b4ee4dcd949af995bad4c08412d4b952f5e8685d"
+      }
+    },
+    {
+      "scene": {
+        "start_frame": 5399,
+        "end_frame": 5553,
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S037.png",
+        "direction": "none",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.46
+          ],
+          "subject": "The 1865 iron steamship Great Eastern as a highly accurate cardstock silhouette at quiet mooring, long black iron hull with horizontal cream trim, six masts, five funnels, large side paddle wheel housing, unusually long and low, small scale workers and harbor boat",
+          "reason": "Keep central action clear while moving the complete still",
+          "start": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.018
+          },
+          "end": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.048
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S037.png",
+        "sha256": "c8851ac1a4ddb762c10344b65146928bafca7d825c7244ca9dc6541555a2405a"
+      }
+    },
+    {
+      "scene": {
+        "start_frame": 5553,
+        "end_frame": 5697,
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S038.png",
+        "direction": "left_to_right",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.5,
+            0.46
+          ],
+          "subject": "Deep inside the Great Eastern's iron hull around 1865, steep top down view looking into an immense circular cable tank full of concentric coils",
+          "reason": "Keep central action clear while moving the complete still",
+          "start": {
+            "center": [
+              0.508,
+              0.5
+            ],
+            "scale": 1.048
+          },
+          "end": {
+            "center": [
+              0.492,
+              0.5
+            ],
+            "scale": 1.02
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S038.png",
+        "sha256": "923d813fb021a3686ff63b50bc433c702996ea58b635f63a37141ff72fc4e9a7"
+      }
+    },
+    {
+      "scene": {
+        "start_frame": 5697,
+        "end_frame": 5843,
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S039.png",
+        "direction": "right_to_left",
+        "zoom": "none",
+        "camera": {
+          "focus": [
+            0.5,
+            0.46
+          ],
+          "subject": "On the 1865 Great Eastern’s stern, cable feeding through paying-out machinery and slipping over the stern sheave, hands monitoring period iron and brass mechanisms from safety, horizontal view along rail to dark sea",
+          "reason": "Keep central action clear while moving the complete still",
+          "start": {
+            "center": [
+              0.492,
+              0.5
+            ],
+            "scale": 1.033
+          },
+          "end": {
+            "center": [
+              0.508,
+              0.5
+            ],
+            "scale": 1.033
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S039.png",
+        "sha256": "c550d3ab2891a39ac3af2f8dfed36a969b4d050806256d97d3528cf58fa14c41"
+      }
+    },
+    {
+      "scene": {
+        "start_frame": 5843,
+        "end_frame": 5999,
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S040.png",
+        "direction": "none",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.46
+          ],
+          "subject": "Close side view of two workmen at a seam in armored cable on the iron deck, cloth sleeve and a simple hand tool holding the outer wire aside to examine a damaged segment",
+          "reason": "Keep central action clear while moving the complete still",
+          "start": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.018
+          },
+          "end": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.048
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S040.png",
+        "sha256": "c9d8d0698cefe4a2317478f7230b465ae31afd12f5494d100330910f33f12147"
+      }
+    },
+    {
+      "scene": {
+        "start_frame": 5999,
+        "end_frame": 6149,
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S041.png",
+        "direction": "right_to_left",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.5,
+            0.46
+          ],
+          "subject": "Wide view from a very distant small boat on a largely empty late afternoon ocean, the 1865 Great Eastern seen in long quarter silhouette, long black hull, six masts, five funnels when not obscured and paddle box",
+          "reason": "Keep central action clear while moving the complete still",
+          "start": {
+            "center": [
+              0.492,
+              0.5
+            ],
+            "scale": 1.048
+          },
+          "end": {
+            "center": [
+              0.508,
+              0.5
+            ],
+            "scale": 1.02
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S041.png",
+        "sha256": "abb24b0b1a9c98fda293d08f92272b5753480603dcc3d2fecc132de86eab7a2e"
+      }
+    },
+    {
+      "scene": {
+        "start_frame": 6149,
+        "end_frame": 6288,
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S042.png",
+        "direction": "left_to_right",
+        "zoom": "none",
+        "camera": {
+          "focus": [
+            0.5,
+            0.46
+          ],
+          "subject": "At the Great Eastern's stern in 1865, overhead the sea rises below a pulley and both snapped armored-cable tips spring apart in separate directions, slack on deck but descending toward water outside",
+          "reason": "Keep central action clear while moving the complete still",
+          "start": {
+            "center": [
+              0.508,
+              0.5
+            ],
+            "scale": 1.033
+          },
+          "end": {
+            "center": [
+              0.492,
+              0.5
+            ],
+            "scale": 1.033
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S042.png",
+        "sha256": "cd92ecae37b8141a5572d12c7d096fc77546b62e8deee38f3648b8760f57fd70"
+      }
+    },
+    {
+      "scene": {
+        "start_frame": 6288,
+        "end_frame": 6445,
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S043.png",
+        "direction": "none",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.46
+          ],
+          "subject": "The 1865 grappling attempt depicted as a single sectional paper diorama of deep Atlantic: sturdy grapnel descending on one taut line from out of frame, open dark paper fingers passing well to one side of the severed old black cable on blue-grey seabed",
+          "reason": "Keep central action clear while moving the complete still",
+          "start": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.018
+          },
+          "end": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.048
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S043.png",
+        "sha256": "dd3247d49da2078a2c3629d0e818fbed88f24ce20865bd693e19d5fd7262b31b"
+      }
+    },
+    {
+      "scene": {
+        "start_frame": 6445,
+        "end_frame": 6580,
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S044.png",
+        "direction": "left_to_right",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.5,
+            0.46
+          ],
+          "subject": "High long view astern across an empty Atlantic wake as Great Eastern heads home after failure, sheer black iron stern crop with distant smoke heading away from camera, abandoned unused cable hook sits in extreme foreground at rail, not on seabed",
+          "reason": "Keep central action clear while moving the complete still",
+          "start": {
+            "center": [
+              0.508,
+              0.5
+            ],
+            "scale": 1.048
+          },
+          "end": {
+            "center": [
+              0.492,
+              0.5
+            ],
+            "scale": 1.02
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S044.png",
+        "sha256": "a302f3d45264d662ced19f1fc38229d167dfe4e083105ee242e74ff133dd23c5"
+      }
+    },
+    {
+      "scene": {
+        "start_frame": 6580,
+        "end_frame": 6737,
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S045.png",
+        "direction": "right_to_left",
+        "zoom": "none",
+        "camera": {
+          "focus": [
+            0.5,
+            0.46
+          ],
+          "subject": "Late July 1866, wide side view from Valentia shore as the 1866 Great Eastern steams out of its harbor with cable aboard, realistic huge black hull with six masts, five funnels, side paddle housing, amber sunrise breaking through Irish clouds",
+          "reason": "Keep central action clear while moving the complete still",
+          "start": {
+            "center": [
+              0.492,
+              0.5
+            ],
+            "scale": 1.033
+          },
+          "end": {
+            "center": [
+              0.508,
+              0.5
+            ],
+            "scale": 1.033
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S045.png",
+        "sha256": "9cbe8c8b8b589896945bab8e5b83cacb919be1b304b6a5af142ecc57cdfcdc17"
+      }
+    },
+    {
+      "scene": {
+        "start_frame": 6737,
+        "end_frame": 6892,
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S046.png",
+        "direction": "none",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.46
+          ],
+          "subject": "Heart's Content, Newfoundland, 1866: ground-level close at the stony shore, sailors in knitted wool guiding a long line of armored cable into a timber hut above the high tide line",
+          "reason": "Keep central action clear while moving the complete still",
+          "start": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.018
+          },
+          "end": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.048
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S046.png",
+        "sha256": "5a09936a70708bd0707dd3bd3ea164dc58801868048592bb4ccab5535d8d0824"
+      }
+    },
+    {
+      "scene": {
+        "start_frame": 6892,
+        "end_frame": 7044,
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S047.png",
+        "direction": "right_to_left",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.5,
+            0.46
+          ],
+          "subject": "1866 Newfoundland telegraph office in midday amber light, one backlit operator gently turning toward a colleague with a received page while the brass table instrument is still lit and working",
+          "reason": "Keep central action clear while moving the complete still",
+          "start": {
+            "center": [
+              0.492,
+              0.5
+            ],
+            "scale": 1.048
+          },
+          "end": {
+            "center": [
+              0.508,
+              0.5
+            ],
+            "scale": 1.02
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S047.png",
+        "sha256": "9603161369cad071510b26232d8d53a88c396b0a7de84285dba70a23f6a22b6b"
+      }
+    },
+    {
+      "scene": {
+        "start_frame": 7044,
+        "end_frame": 7193,
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S048.png",
+        "direction": "left_to_right",
+        "zoom": "none",
+        "camera": {
+          "focus": [
+            0.5,
+            0.46
+          ],
+          "subject": "Very low seabed close view along the old 1865 black cable going over a ridge of sediment into a deep blue dark layered paper distance",
+          "reason": "Keep central action clear while moving the complete still",
+          "start": {
+            "center": [
+              0.508,
+              0.5
+            ],
+            "scale": 1.033
+          },
+          "end": {
+            "center": [
+              0.492,
+              0.5
+            ],
+            "scale": 1.033
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S048.png",
+        "sha256": "9ec7296ff5494b70ed80d6ed2ef382a83c1988bcdc527b66429f41220b6027b1"
+      }
+    },
+    {
+      "scene": {
+        "start_frame": 7193,
+        "end_frame": 7351,
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S049.png",
+        "direction": "none",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.46
+          ],
+          "subject": "On 1866 iron deck, low close-up on a large historically plausible iron cable grapnel with sturdy hooks and wet rope block lying ready beside open rail",
+          "reason": "Keep central action clear while moving the complete still",
+          "start": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.018
+          },
+          "end": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.048
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S049.png",
+        "sha256": "86fd8314dc52f1eaae98bc9623e5ebed8dd585359f4ebffc6486113fa33eca47"
+      }
+    },
+    {
+      "scene": {
+        "start_frame": 7351,
+        "end_frame": 7493,
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S050.png",
+        "direction": "left_to_right",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.5,
+            0.46
+          ],
+          "subject": "Dramatic side low viewpoint toward the iron deck in 1866, a team of anonymous Victorian sailors heaves the wet old cable up into the light with wooden tackle, a rough frayed cable end clearly over the lip of the stern",
+          "reason": "Keep central action clear while moving the complete still",
+          "start": {
+            "center": [
+              0.508,
+              0.5
+            ],
+            "scale": 1.048
+          },
+          "end": {
+            "center": [
+              0.492,
+              0.5
+            ],
+            "scale": 1.02
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S050.png",
+        "sha256": "29c7259294e4bbf44e95725a51643ac586506692928b25b20e13112d4b569405"
+      }
+    },
+    {
+      "scene": {
+        "start_frame": 7493,
+        "end_frame": 7652,
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S051.png",
+        "direction": "right_to_left",
+        "zoom": "none",
+        "camera": {
+          "focus": [
+            0.5,
+            0.46
+          ],
+          "subject": "Inside the Great Eastern electrical room in 1866, anonymous technicians seen through doorway in side silhouette, leaning in over a small mirror galvanometer apparatus and waiting without touching it",
+          "reason": "Keep central action clear while moving the complete still",
+          "start": {
+            "center": [
+              0.492,
+              0.5
+            ],
+            "scale": 1.033
+          },
+          "end": {
+            "center": [
+              0.508,
+              0.5
+            ],
+            "scale": 1.033
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S051.png",
+        "sha256": "3085526cf590d62223bb2bc024953999223328b6a26610932f94aa07068aed90"
+      }
+    },
+    {
+      "scene": {
+        "start_frame": 7652,
+        "end_frame": 7798,
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S052.png",
+        "direction": "none",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.46
+          ],
+          "subject": "Extreme tight optical payoff in 1866 electrical room: a distinct warm bright spot lands off center on a cream scale marked with tiny dark ticks, small brass-edged mirror visible in soft distance, one almost invisible second neutral reference dot printed near center to make the movement readable",
+          "reason": "Keep central action clear while moving the complete still",
+          "start": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.018
+          },
+          "end": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.048
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S052.png",
+        "sha256": "89d3fb2e915e19fd7e40299a54aacaa71d5dd845cb80924e80d7560fc2951c3e"
+      }
+    },
+    {
+      "scene": {
+        "start_frame": 7798,
+        "end_frame": 7942,
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S053.png",
+        "direction": "right_to_left",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.5,
+            0.46
+          ],
+          "subject": "Tight shot of anonymous 1866 workers' fingers finishing a neat permanent splice between two slightly different dark armored cable sections on the Great Eastern deck, waxed cord and iron strands",
+          "reason": "Keep central action clear while moving the complete still",
+          "start": {
+            "center": [
+              0.492,
+              0.5
+            ],
+            "scale": 1.048
+          },
+          "end": {
+            "center": [
+              0.508,
+              0.5
+            ],
+            "scale": 1.02
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S053.png",
+        "sha256": "c354bad85dbcc4557358539be91860de1a0c69f82d6a13f525550c7204e0b5e1"
+      }
+    },
+    {
+      "scene": {
+        "start_frame": 7942,
+        "end_frame": 8105,
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S054.png",
+        "direction": "left_to_right",
+        "zoom": "none",
+        "camera": {
+          "focus": [
+            0.5,
+            0.46
+          ],
+          "subject": "Extreme wide top-oblique diorama of two separate and subtly distinct transatlantic cable strands running in parallel between eastern Newfoundland and Ireland over a dark physical seafloor",
+          "reason": "Keep central action clear while moving the complete still",
+          "start": {
+            "center": [
+              0.508,
+              0.5
+            ],
+            "scale": 1.033
+          },
+          "end": {
+            "center": [
+              0.492,
+              0.5
+            ],
+            "scale": 1.033
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S054.png",
+        "sha256": "604026db105fcb91228a46262c90b765ce389cd47e2fe3d1b072ee31cf8f23e6"
+      }
+    },
+    {
+      "scene": {
+        "start_frame": 8105,
+        "end_frame": 8237,
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S055.png",
+        "direction": "none",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.46
+          ],
+          "subject": "Closing wide view out from a cream timber telegraph office window high on the Atlantic shore in 1866, a small mail ship still crossing far offshore, received paper just set down by a hand in the near light, no visible words",
+          "reason": "Keep central action clear while moving the complete still",
+          "start": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.018
+          },
+          "end": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.048
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S055.png",
+        "sha256": "07aab2f258cc805364da25c4592c46367a08a01931f331e44f1c536dc8dcd8a3"
+      }
+    },
+    {
+      "scene": {
+        "start_frame": 8237,
+        "end_frame": 8537,
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S056.png",
+        "direction": "none",
+        "zoom": "none",
+        "camera": {
+          "focus": [
+            0.5,
+            0.46
+          ],
+          "subject": "Design a quiet ten-second end-screen background with a tiny distant 1860s steam sail vessel in one corner, blue layered card sea, low thin horizon and spare amber sunrise",
+          "reason": "Keep central action clear while moving the complete still",
+          "start": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1
+          },
+          "end": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1
+          }
+        },
+        "role": "end_screen"
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Images/v01/S056.png",
+        "sha256": "ea8d0aab95f2035eee6a17d12b29215a9fb2818358ab8c5a215f4731516930d1"
+      }
+    }
+  ],
+  "overlays": [
+    {
+      "layer": {
+        "role": "paper_frame",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/Shared/Overlays/Paper_Frame/masters/paper-border-16x9-16s-v03.mov",
+        "start_frame": 0,
+        "end_frame": 8537,
+        "x": 0,
+        "y": 0
+      },
+      "file": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/Shared/Overlays/Paper_Frame/masters/paper-border-16x9-16s-v03.mov",
+        "sha256": "5f994a7f2abfc7612793e65afadc0f596c612c97ede2dc3ef72f747adf6f9b38"
+      }
+    }
+  ],
+  "groups": [
+    [
+      {
+        "text": "In",
+        "start": 0.0,
+        "end": 0.145455
+      },
+      {
+        "text": "August",
+        "start": 0.218182,
+        "end": 0.581818
+      },
+      {
+        "text": "1858,",
+        "start": 0.654545,
+        "end": 1.890909
+      }
+    ],
+    [
+      {
+        "text": "Queen",
+        "start": 1.963636,
+        "end": 2.109091
+      },
+      {
+        "text": "Victoria",
+        "start": 2.181818,
+        "end": 2.690909
+      },
+      {
+        "text": "sent",
+        "start": 2.763636,
+        "end": 2.836364
+      },
+      {
+        "text": "a",
+        "start": 2.909091,
+        "end": 2.945455
+      },
+      {
+        "text": "message",
+        "start": 2.981818,
+        "end": 3.345455
+      }
+    ],
+    [
+      {
+        "text": "to",
+        "start": 3.381818,
+        "end": 3.418182
+      },
+      {
+        "text": "the",
+        "start": 3.490909,
+        "end": 3.563636
+      },
+      {
+        "text": "president",
+        "start": 3.672727,
+        "end": 4.0
+      }
+    ],
+    [
+      {
+        "text": "of",
+        "start": 4.036364,
+        "end": 4.072727
+      },
+      {
+        "text": "the",
+        "start": 4.109091,
+        "end": 4.145455
+      },
+      {
+        "text": "United",
+        "start": 4.327273,
+        "end": 4.509091
+      },
+      {
+        "text": "States.",
+        "start": 4.581818,
+        "end": 5.381818
+      }
+    ],
+    [
+      {
+        "text": "It",
+        "start": 5.454545,
+        "end": 5.527273
+      },
+      {
+        "text": "took",
+        "start": 5.6,
+        "end": 5.672727
+      },
+      {
+        "text": "about",
+        "start": 5.854545,
+        "end": 6.036364
+      },
+      {
+        "text": "sixteen",
+        "start": 6.181818,
+        "end": 6.618182
+      },
+      {
+        "text": "hours",
+        "start": 6.8,
+        "end": 6.981818
+      }
+    ],
+    [
+      {
+        "text": "to",
+        "start": 7.054545,
+        "end": 7.127273
+      },
+      {
+        "text": "get",
+        "start": 7.2,
+        "end": 7.272727
+      },
+      {
+        "text": "through.",
+        "start": 7.418182,
+        "end": 8.072727
+      }
+    ],
+    [
+      {
+        "text": "That",
+        "start": 8.145455,
+        "end": 8.436364
+      },
+      {
+        "text": "was",
+        "start": 8.509091,
+        "end": 8.581818
+      },
+      {
+        "text": "worth",
+        "start": 8.654545,
+        "end": 8.872727
+      },
+      {
+        "text": "celebrating.",
+        "start": 8.981818,
+        "end": 9.890909
+      }
+    ],
+    [
+      {
+        "text": "Until",
+        "start": 10.036364,
+        "end": 10.181818
+      },
+      {
+        "text": "then,",
+        "start": 10.290909,
+        "end": 10.690909
+      }
+    ],
+    [
+      {
+        "text": "news",
+        "start": 10.763636,
+        "end": 10.981818
+      },
+      {
+        "text": "had",
+        "start": 11.054545,
+        "end": 11.127273
+      },
+      {
+        "text": "crossed",
+        "start": 11.2,
+        "end": 11.418182
+      },
+      {
+        "text": "the",
+        "start": 11.454545,
+        "end": 11.490909
+      },
+      {
+        "text": "Atlantic",
+        "start": 11.709091,
+        "end": 11.927273
+      }
+    ],
+    [
+      {
+        "text": "at",
+        "start": 12.0,
+        "end": 12.072727
+      },
+      {
+        "text": "the",
+        "start": 12.145455,
+        "end": 12.218182
+      },
+      {
+        "text": "speed",
+        "start": 12.363636,
+        "end": 12.509091
+      },
+      {
+        "text": "of",
+        "start": 12.581818,
+        "end": 12.654545
+      },
+      {
+        "text": "a",
+        "start": 12.727273,
+        "end": 12.8
+      },
+      {
+        "text": "ship.",
+        "start": 12.872727,
+        "end": 13.6
+      }
+    ],
+    [
+      {
+        "text": "This",
+        "start": 13.672727,
+        "end": 13.890909
+      },
+      {
+        "text": "message",
+        "start": 13.963636,
+        "end": 14.254545
+      },
+      {
+        "text": "had",
+        "start": 14.327273,
+        "end": 14.4
+      },
+      {
+        "text": "traveled",
+        "start": 14.472727,
+        "end": 14.763636
+      }
+    ],
+    [
+      {
+        "text": "through",
+        "start": 14.836364,
+        "end": 14.909091
+      },
+      {
+        "text": "a",
+        "start": 14.981818,
+        "end": 15.054545
+      },
+      {
+        "text": "wire",
+        "start": 15.272727,
+        "end": 15.490909
+      }
+    ],
+    [
+      {
+        "text": "lying",
+        "start": 15.636364,
+        "end": 15.781818
+      },
+      {
+        "text": "on",
+        "start": 15.854545,
+        "end": 15.927273
+      },
+      {
+        "text": "the",
+        "start": 16.0,
+        "end": 16.072727
+      },
+      {
+        "text": "ocean",
+        "start": 16.109091,
+        "end": 16.363636
+      },
+      {
+        "text": "floor.",
+        "start": 16.436364,
+        "end": 17.309091
+      }
+    ],
+    [
+      {
+        "text": "Within",
+        "start": 17.454545,
+        "end": 17.6
+      },
+      {
+        "text": "weeks,",
+        "start": 17.890909,
+        "end": 18.218182
+      }
+    ],
+    [
+      {
+        "text": "the",
+        "start": 18.254545,
+        "end": 18.327273
+      },
+      {
+        "text": "wire",
+        "start": 18.472727,
+        "end": 18.618182
+      },
+      {
+        "text": "went",
+        "start": 18.690909,
+        "end": 18.909091
+      },
+      {
+        "text": "silent.",
+        "start": 19.127273,
+        "end": 19.781818
+      }
+    ],
+    [
+      {
+        "text": "It",
+        "start": 19.854545,
+        "end": 19.927273
+      },
+      {
+        "text": "still",
+        "start": 20.0,
+        "end": 20.218182
+      },
+      {
+        "text": "stretched",
+        "start": 20.254545,
+        "end": 20.509091
+      }
+    ],
+    [
+      {
+        "text": "from",
+        "start": 20.581818,
+        "end": 20.727273
+      },
+      {
+        "text": "Ireland",
+        "start": 20.8,
+        "end": 21.163636
+      },
+      {
+        "text": "to",
+        "start": 21.236364,
+        "end": 21.309091
+      },
+      {
+        "text": "Newfoundland.",
+        "start": 21.381818,
+        "end": 22.254545
+      }
+    ],
+    [
+      {
+        "text": "Crews",
+        "start": 22.327273,
+        "end": 22.545455
+      },
+      {
+        "text": "had",
+        "start": 22.654545,
+        "end": 22.763636
+      },
+      {
+        "text": "risked",
+        "start": 22.872727,
+        "end": 23.018182
+      },
+      {
+        "text": "their",
+        "start": 23.054545,
+        "end": 23.2
+      },
+      {
+        "text": "ships",
+        "start": 23.272727,
+        "end": 23.490909
+      }
+    ],
+    [
+      {
+        "text": "getting",
+        "start": 23.563636,
+        "end": 23.709091
+      },
+      {
+        "text": "it",
+        "start": 23.781818,
+        "end": 23.854545
+      },
+      {
+        "text": "there.",
+        "start": 24.181818,
+        "end": 24.581818
+      }
+    ],
+    [
+      {
+        "text": "Now",
+        "start": 24.763636,
+        "end": 24.945455
+      },
+      {
+        "text": "an",
+        "start": 25.018182,
+        "end": 25.163636
+      },
+      {
+        "text": "operator",
+        "start": 25.236364,
+        "end": 25.6
+      },
+      {
+        "text": "could",
+        "start": 25.672727,
+        "end": 25.745455
+      },
+      {
+        "text": "send",
+        "start": 25.818182,
+        "end": 25.963636
+      }
+    ],
+    [
+      {
+        "text": "a",
+        "start": 26.0,
+        "end": 26.036364
+      },
+      {
+        "text": "signal",
+        "start": 26.109091,
+        "end": 26.4
+      },
+      {
+        "text": "into",
+        "start": 26.509091,
+        "end": 26.618182
+      },
+      {
+        "text": "the",
+        "start": 26.654545,
+        "end": 26.690909
+      },
+      {
+        "text": "cable",
+        "start": 26.763636,
+        "end": 27.272727
+      }
+    ],
+    [
+      {
+        "text": "and",
+        "start": 27.381818,
+        "end": 27.490909
+      },
+      {
+        "text": "no",
+        "start": 27.563636,
+        "end": 27.709091
+      },
+      {
+        "text": "one",
+        "start": 27.781818,
+        "end": 27.854545
+      },
+      {
+        "text": "on",
+        "start": 27.927273,
+        "end": 28.0
+      },
+      {
+        "text": "the",
+        "start": 28.036364,
+        "end": 28.072727
+      },
+      {
+        "text": "other",
+        "start": 28.145455,
+        "end": 28.363636
+      }
+    ],
+    [
+      {
+        "text": "shore",
+        "start": 28.472727,
+        "end": 28.581818
+      },
+      {
+        "text": "could",
+        "start": 28.654545,
+        "end": 28.727273
+      },
+      {
+        "text": "read",
+        "start": 28.8,
+        "end": 28.945455
+      },
+      {
+        "text": "it.",
+        "start": 29.236364,
+        "end": 29.575455
+      }
+    ],
+    [
+      {
+        "text": "To",
+        "start": 29.624545,
+        "end": 29.672727
+      },
+      {
+        "text": "make",
+        "start": 29.745455,
+        "end": 29.818182
+      },
+      {
+        "text": "the",
+        "start": 29.854545,
+        "end": 29.890909
+      },
+      {
+        "text": "connection",
+        "start": 30.072727,
+        "end": 30.254545
+      },
+      {
+        "text": "work",
+        "start": 30.327273,
+        "end": 30.472727
+      }
+    ],
+    [
+      {
+        "text": "again,",
+        "start": 30.545455,
+        "end": 31.079091
+      },
+      {
+        "text": "they'd",
+        "start": 31.102727,
+        "end": 31.2
+      },
+      {
+        "text": "have",
+        "start": 31.272727,
+        "end": 31.345455
+      },
+      {
+        "text": "to",
+        "start": 31.418182,
+        "end": 31.490909
+      },
+      {
+        "text": "solve",
+        "start": 31.636364,
+        "end": 31.781818
+      }
+    ],
+    [
+      {
+        "text": "two",
+        "start": 31.854545,
+        "end": 32.145455
+      },
+      {
+        "text": "very",
+        "start": 32.218182,
+        "end": 32.436364
+      },
+      {
+        "text": "different",
+        "start": 32.509091,
+        "end": 32.727273
+      },
+      {
+        "text": "problems.",
+        "start": 33.2,
+        "end": 33.745455
+      }
+    ],
+    [
+      {
+        "text": "One",
+        "start": 33.927273,
+        "end": 34.109091
+      },
+      {
+        "text": "was",
+        "start": 34.181818,
+        "end": 34.254545
+      },
+      {
+        "text": "how",
+        "start": 34.327273,
+        "end": 34.4
+      },
+      {
+        "text": "to",
+        "start": 34.472727,
+        "end": 34.545455
+      },
+      {
+        "text": "lay",
+        "start": 34.618182,
+        "end": 34.690909
+      },
+      {
+        "text": "a",
+        "start": 34.727273,
+        "end": 34.763636
+      },
+      {
+        "text": "cable",
+        "start": 34.836364,
+        "end": 35.127273
+      }
+    ],
+    [
+      {
+        "text": "across",
+        "start": 35.2,
+        "end": 35.490909
+      },
+      {
+        "text": "an",
+        "start": 35.563636,
+        "end": 35.636364
+      },
+      {
+        "text": "ocean.",
+        "start": 35.709091,
+        "end": 36.472727
+      }
+    ],
+    [
+      {
+        "text": "The",
+        "start": 36.509091,
+        "end": 36.654545
+      },
+      {
+        "text": "other",
+        "start": 36.727273,
+        "end": 37.018182
+      },
+      {
+        "text": "was",
+        "start": 37.090909,
+        "end": 37.163636
+      },
+      {
+        "text": "how",
+        "start": 37.236364,
+        "end": 37.309091
+      },
+      {
+        "text": "to",
+        "start": 37.345455,
+        "end": 37.381818
+      },
+      {
+        "text": "make",
+        "start": 37.454545,
+        "end": 37.527273
+      }
+    ],
+    [
+      {
+        "text": "a",
+        "start": 37.672727,
+        "end": 37.709091
+      },
+      {
+        "text": "whisper",
+        "start": 37.745455,
+        "end": 38.036364
+      },
+      {
+        "text": "of",
+        "start": 38.072727,
+        "end": 38.109091
+      },
+      {
+        "text": "electricity",
+        "start": 38.327273,
+        "end": 38.763636
+      }
+    ],
+    [
+      {
+        "text": "come",
+        "start": 38.836364,
+        "end": 38.981818
+      },
+      {
+        "text": "out",
+        "start": 39.018182,
+        "end": 39.054545
+      },
+      {
+        "text": "of",
+        "start": 39.127273,
+        "end": 39.2
+      },
+      {
+        "text": "it",
+        "start": 39.272727,
+        "end": 39.345455
+      },
+      {
+        "text": "as",
+        "start": 39.381818,
+        "end": 39.418182
+      },
+      {
+        "text": "a",
+        "start": 39.563636,
+        "end": 39.879091
+      },
+      {
+        "text": "message.",
+        "start": 40.193636,
+        "end": 40.545455
+      }
+    ],
+    [
+      {
+        "text": "Cyrus",
+        "start": 40.581818,
+        "end": 40.945455
+      },
+      {
+        "text": "Field,",
+        "start": 41.2,
+        "end": 41.479091
+      }
+    ],
+    [
+      {
+        "text": "an",
+        "start": 41.502727,
+        "end": 41.527273
+      },
+      {
+        "text": "American",
+        "start": 41.745455,
+        "end": 41.963636
+      },
+      {
+        "text": "businessman,",
+        "start": 42.109091,
+        "end": 42.739091
+      }
+    ],
+    [
+      {
+        "text": "had",
+        "start": 42.788182,
+        "end": 42.836364
+      },
+      {
+        "text": "spent",
+        "start": 42.909091,
+        "end": 43.2
+      },
+      {
+        "text": "years",
+        "start": 43.272727,
+        "end": 43.563636
+      },
+      {
+        "text": "persuading",
+        "start": 43.672727,
+        "end": 44.0
+      }
+    ],
+    [
+      {
+        "text": "investors",
+        "start": 44.181818,
+        "end": 44.509091
+      },
+      {
+        "text": "and",
+        "start": 44.581818,
+        "end": 44.727273
+      },
+      {
+        "text": "governments",
+        "start": 44.8,
+        "end": 45.236364
+      }
+    ],
+    [
+      {
+        "text": "to",
+        "start": 45.309091,
+        "end": 45.381818
+      },
+      {
+        "text": "back",
+        "start": 45.490909,
+        "end": 45.6
+      },
+      {
+        "text": "the",
+        "start": 45.636364,
+        "end": 45.672727
+      },
+      {
+        "text": "link.",
+        "start": 45.745455,
+        "end": 46.436364
+      }
+    ],
+    [
+      {
+        "text": "The",
+        "start": 46.472727,
+        "end": 46.545455
+      },
+      {
+        "text": "idea",
+        "start": 46.618182,
+        "end": 46.909091
+      },
+      {
+        "text": "was",
+        "start": 46.981818,
+        "end": 47.127273
+      },
+      {
+        "text": "easy",
+        "start": 47.2,
+        "end": 47.345455
+      },
+      {
+        "text": "to",
+        "start": 47.418182,
+        "end": 47.490909
+      },
+      {
+        "text": "picture.",
+        "start": 47.854545,
+        "end": 48.290909
+      }
+    ],
+    [
+      {
+        "text": "Stretch",
+        "start": 48.363636,
+        "end": 48.581818
+      },
+      {
+        "text": "the",
+        "start": 48.654545,
+        "end": 48.727273
+      },
+      {
+        "text": "telegraph",
+        "start": 48.836364,
+        "end": 49.163636
+      }
+    ],
+    [
+      {
+        "text": "wire",
+        "start": 49.309091,
+        "end": 49.454545
+      },
+      {
+        "text": "that",
+        "start": 49.527273,
+        "end": 49.6
+      },
+      {
+        "text": "already",
+        "start": 49.672727,
+        "end": 49.963636
+      },
+      {
+        "text": "carried",
+        "start": 50.036364,
+        "end": 50.254545
+      }
+    ],
+    [
+      {
+        "text": "messages",
+        "start": 50.436364,
+        "end": 50.618182
+      },
+      {
+        "text": "across",
+        "start": 50.690909,
+        "end": 50.981818
+      },
+      {
+        "text": "land",
+        "start": 51.054545,
+        "end": 51.490909
+      }
+    ],
+    [
+      {
+        "text": "all",
+        "start": 51.563636,
+        "end": 51.709091
+      },
+      {
+        "text": "the",
+        "start": 51.745455,
+        "end": 51.781818
+      },
+      {
+        "text": "way",
+        "start": 51.854545,
+        "end": 51.927273
+      },
+      {
+        "text": "across",
+        "start": 52.0,
+        "end": 52.290909
+      },
+      {
+        "text": "the",
+        "start": 52.363636,
+        "end": 52.4
+      },
+      {
+        "text": "Atlantic.",
+        "start": 52.436364,
+        "end": 53.345455
+      }
+    ],
+    [
+      {
+        "text": "In",
+        "start": 53.381818,
+        "end": 53.454545
+      },
+      {
+        "text": "practice,",
+        "start": 53.818182,
+        "end": 54.218182
+      },
+      {
+        "text": "the",
+        "start": 54.254545,
+        "end": 54.327273
+      },
+      {
+        "text": "wire",
+        "start": 54.472727,
+        "end": 54.618182
+      }
+    ],
+    [
+      {
+        "text": "needed",
+        "start": 54.727273,
+        "end": 54.836364
+      },
+      {
+        "text": "a",
+        "start": 54.981818,
+        "end": 55.018182
+      },
+      {
+        "text": "waterproof",
+        "start": 55.054545,
+        "end": 55.563636
+      },
+      {
+        "text": "coat",
+        "start": 55.672727,
+        "end": 55.781818
+      }
+    ],
+    [
+      {
+        "text": "around",
+        "start": 55.854545,
+        "end": 56.0
+      },
+      {
+        "text": "the",
+        "start": 56.072727,
+        "end": 56.145455
+      },
+      {
+        "text": "copper",
+        "start": 56.181818,
+        "end": 56.654545
+      },
+      {
+        "text": "and",
+        "start": 56.690909,
+        "end": 56.727273
+      },
+      {
+        "text": "a",
+        "start": 56.872727,
+        "end": 56.909091
+      },
+      {
+        "text": "jacket",
+        "start": 56.945455,
+        "end": 57.163636
+      }
+    ],
+    [
+      {
+        "text": "of",
+        "start": 57.272727,
+        "end": 57.381818
+      },
+      {
+        "text": "iron",
+        "start": 57.454545,
+        "end": 57.672727
+      },
+      {
+        "text": "to",
+        "start": 57.745455,
+        "end": 57.818182
+      },
+      {
+        "text": "protect",
+        "start": 57.963636,
+        "end": 58.109091
+      },
+      {
+        "text": "it.",
+        "start": 58.181818,
+        "end": 58.727273
+      }
+    ],
+    [
+      {
+        "text": "The",
+        "start": 58.763636,
+        "end": 58.836364
+      },
+      {
+        "text": "finished",
+        "start": 58.909091,
+        "end": 59.127273
+      },
+      {
+        "text": "cable",
+        "start": 59.2,
+        "end": 59.490909
+      },
+      {
+        "text": "was",
+        "start": 59.6,
+        "end": 59.709091
+      },
+      {
+        "text": "too",
+        "start": 59.818182,
+        "end": 59.927273
+      }
+    ],
+    [
+      {
+        "text": "heavy",
+        "start": 60.0,
+        "end": 60.218182
+      },
+      {
+        "text": "for",
+        "start": 60.327273,
+        "end": 60.436364
+      },
+      {
+        "text": "any",
+        "start": 60.509091,
+        "end": 60.727273
+      },
+      {
+        "text": "one",
+        "start": 60.763636,
+        "end": 60.8
+      },
+      {
+        "text": "of",
+        "start": 60.836364,
+        "end": 60.872727
+      },
+      {
+        "text": "the",
+        "start": 60.945455,
+        "end": 61.018182
+      },
+      {
+        "text": "ships",
+        "start": 61.127273,
+        "end": 61.236364
+      }
+    ],
+    [
+      {
+        "text": "available",
+        "start": 61.309091,
+        "end": 61.672727
+      },
+      {
+        "text": "to",
+        "start": 61.709091,
+        "end": 61.745455
+      },
+      {
+        "text": "carry",
+        "start": 61.818182,
+        "end": 62.036364
+      },
+      {
+        "text": "it.",
+        "start": 62.109091,
+        "end": 62.618182
+      }
+    ],
+    [
+      {
+        "text": "So",
+        "start": 62.8,
+        "end": 62.981818
+      },
+      {
+        "text": "a",
+        "start": 63.054545,
+        "end": 63.127273
+      },
+      {
+        "text": "British",
+        "start": 63.272727,
+        "end": 63.418182
+      },
+      {
+        "text": "warship,",
+        "start": 63.527273,
+        "end": 64.036364
+      }
+    ],
+    [
+      {
+        "text": "the",
+        "start": 64.072727,
+        "end": 64.145455
+      },
+      {
+        "text": "Agamemnon,",
+        "start": 64.218182,
+        "end": 64.981818
+      },
+      {
+        "text": "took",
+        "start": 65.018182,
+        "end": 65.163636
+      },
+      {
+        "text": "one",
+        "start": 65.236364,
+        "end": 65.381818
+      },
+      {
+        "text": "half.",
+        "start": 65.709091,
+        "end": 66.072727
+      }
+    ],
+    [
+      {
+        "text": "An",
+        "start": 66.109091,
+        "end": 66.145455
+      },
+      {
+        "text": "American",
+        "start": 66.181818,
+        "end": 66.618182
+      },
+      {
+        "text": "ship,",
+        "start": 66.836364,
+        "end": 67.079091
+      }
+    ],
+    [
+      {
+        "text": "the",
+        "start": 67.102727,
+        "end": 67.127273
+      },
+      {
+        "text": "Niagara,",
+        "start": 67.236364,
+        "end": 67.902727
+      },
+      {
+        "text": "took",
+        "start": 67.951818,
+        "end": 68.0
+      },
+      {
+        "text": "the",
+        "start": 68.036364,
+        "end": 68.072727
+      },
+      {
+        "text": "other.",
+        "start": 68.145455,
+        "end": 68.909091
+      }
+    ],
+    [
+      {
+        "text": "On",
+        "start": 68.945455,
+        "end": 69.018182
+      },
+      {
+        "text": "the",
+        "start": 69.090909,
+        "end": 69.163636
+      },
+      {
+        "text": "first",
+        "start": 69.272727,
+        "end": 69.381818
+      },
+      {
+        "text": "expedition,",
+        "start": 69.454545,
+        "end": 70.157273
+      }
+    ],
+    [
+      {
+        "text": "in",
+        "start": 70.206364,
+        "end": 70.254545
+      },
+      {
+        "text": "1857,",
+        "start": 70.327273,
+        "end": 71.515455
+      },
+      {
+        "text": "the",
+        "start": 71.539091,
+        "end": 71.563636
+      },
+      {
+        "text": "cable",
+        "start": 71.636364,
+        "end": 72.0
+      },
+      {
+        "text": "snapped",
+        "start": 72.072727,
+        "end": 72.436364
+      }
+    ],
+    [
+      {
+        "text": "after",
+        "start": 72.509091,
+        "end": 72.8
+      },
+      {
+        "text": "hundreds",
+        "start": 72.836364,
+        "end": 73.163636
+      },
+      {
+        "text": "of",
+        "start": 73.236364,
+        "end": 73.309091
+      },
+      {
+        "text": "miles",
+        "start": 73.345455,
+        "end": 73.6
+      }
+    ],
+    [
+      {
+        "text": "had",
+        "start": 73.672727,
+        "end": 73.818182
+      },
+      {
+        "text": "already",
+        "start": 73.890909,
+        "end": 74.181818
+      },
+      {
+        "text": "gone",
+        "start": 74.254545,
+        "end": 74.327273
+      },
+      {
+        "text": "over",
+        "start": 74.4,
+        "end": 74.545455
+      },
+      {
+        "text": "the",
+        "start": 74.581818,
+        "end": 74.618182
+      },
+      {
+        "text": "side.",
+        "start": 74.690909,
+        "end": 75.381818
+      }
+    ],
+    [
+      {
+        "text": "There",
+        "start": 75.418182,
+        "end": 75.563636
+      },
+      {
+        "text": "wasn't",
+        "start": 75.636364,
+        "end": 75.854545
+      },
+      {
+        "text": "enough",
+        "start": 75.927273,
+        "end": 76.145455
+      },
+      {
+        "text": "left",
+        "start": 76.218182,
+        "end": 76.436364
+      }
+    ],
+    [
+      {
+        "text": "to",
+        "start": 76.472727,
+        "end": 76.509091
+      },
+      {
+        "text": "start",
+        "start": 76.581818,
+        "end": 76.727273
+      },
+      {
+        "text": "again.",
+        "start": 76.8,
+        "end": 77.563636
+      }
+    ],
+    [
+      {
+        "text": "The",
+        "start": 77.6,
+        "end": 77.672727
+      },
+      {
+        "text": "following",
+        "start": 77.745455,
+        "end": 78.036364
+      },
+      {
+        "text": "year",
+        "start": 78.109091,
+        "end": 78.472727
+      },
+      {
+        "text": "they",
+        "start": 78.545455,
+        "end": 78.618182
+      },
+      {
+        "text": "tried",
+        "start": 78.690909,
+        "end": 78.836364
+      }
+    ],
+    [
+      {
+        "text": "a",
+        "start": 78.981818,
+        "end": 79.054545
+      },
+      {
+        "text": "different",
+        "start": 79.127273,
+        "end": 79.2
+      },
+      {
+        "text": "maneuver.",
+        "start": 79.272727,
+        "end": 80.109091
+      }
+    ],
+    [
+      {
+        "text": "Meet",
+        "start": 80.145455,
+        "end": 80.363636
+      },
+      {
+        "text": "in",
+        "start": 80.4,
+        "end": 80.436364
+      },
+      {
+        "text": "the",
+        "start": 80.509091,
+        "end": 80.654545
+      },
+      {
+        "text": "middle",
+        "start": 80.763636,
+        "end": 80.872727
+      }
+    ],
+    [
+      {
+        "text": "of",
+        "start": 80.909091,
+        "end": 80.945455
+      },
+      {
+        "text": "the",
+        "start": 81.018182,
+        "end": 81.090909
+      },
+      {
+        "text": "ocean.",
+        "start": 81.163636,
+        "end": 81.854545
+      }
+    ],
+    [
+      {
+        "text": "Join",
+        "start": 81.890909,
+        "end": 82.109091
+      },
+      {
+        "text": "the",
+        "start": 82.181818,
+        "end": 82.254545
+      },
+      {
+        "text": "two",
+        "start": 82.327273,
+        "end": 82.4
+      },
+      {
+        "text": "ends.",
+        "start": 82.472727,
+        "end": 83.163636
+      }
+    ],
+    [
+      {
+        "text": "Then",
+        "start": 83.2,
+        "end": 83.636364
+      },
+      {
+        "text": "sail",
+        "start": 83.709091,
+        "end": 83.854545
+      },
+      {
+        "text": "away",
+        "start": 83.927273,
+        "end": 84.145455
+      }
+    ],
+    [
+      {
+        "text": "from",
+        "start": 84.218182,
+        "end": 84.290909
+      },
+      {
+        "text": "each",
+        "start": 84.363636,
+        "end": 84.436364
+      },
+      {
+        "text": "other,",
+        "start": 84.654545,
+        "end": 84.945455
+      },
+      {
+        "text": "with",
+        "start": 85.018182,
+        "end": 85.090909
+      },
+      {
+        "text": "one",
+        "start": 85.163636,
+        "end": 85.236364
+      }
+    ],
+    [
+      {
+        "text": "ship",
+        "start": 85.309091,
+        "end": 85.454545
+      },
+      {
+        "text": "headed",
+        "start": 85.527273,
+        "end": 85.672727
+      },
+      {
+        "text": "for",
+        "start": 85.745455,
+        "end": 85.818182
+      },
+      {
+        "text": "Ireland",
+        "start": 85.890909,
+        "end": 86.4
+      }
+    ],
+    [
+      {
+        "text": "and",
+        "start": 86.472727,
+        "end": 86.545455
+      },
+      {
+        "text": "the",
+        "start": 86.618182,
+        "end": 86.690909
+      },
+      {
+        "text": "other",
+        "start": 86.763636,
+        "end": 86.981818
+      }
+    ],
+    [
+      {
+        "text": "for",
+        "start": 87.054545,
+        "end": 87.127273
+      },
+      {
+        "text": "Newfoundland.",
+        "start": 87.2,
+        "end": 88.036364
+      }
+    ],
+    [
+      {
+        "text": "The",
+        "start": 88.072727,
+        "end": 88.145455
+      },
+      {
+        "text": "cable",
+        "start": 88.181818,
+        "end": 88.436364
+      },
+      {
+        "text": "would",
+        "start": 88.545455,
+        "end": 88.654545
+      },
+      {
+        "text": "sink",
+        "start": 88.727273,
+        "end": 88.872727
+      }
+    ],
+    [
+      {
+        "text": "behind",
+        "start": 88.945455,
+        "end": 89.236364
+      },
+      {
+        "text": "them",
+        "start": 89.309091,
+        "end": 89.527273
+      }
+    ],
+    [
+      {
+        "text": "while",
+        "start": 89.6,
+        "end": 89.672727
+      },
+      {
+        "text": "the",
+        "start": 89.745455,
+        "end": 89.818182
+      },
+      {
+        "text": "operators",
+        "start": 89.890909,
+        "end": 90.254545
+      }
+    ],
+    [
+      {
+        "text": "on",
+        "start": 90.290909,
+        "end": 90.327273
+      },
+      {
+        "text": "the",
+        "start": 90.4,
+        "end": 90.472727
+      },
+      {
+        "text": "ships",
+        "start": 90.654545,
+        "end": 90.836364
+      }
+    ],
+    [
+      {
+        "text": "used",
+        "start": 90.909091,
+        "end": 91.054545
+      },
+      {
+        "text": "it",
+        "start": 91.127273,
+        "end": 91.2
+      },
+      {
+        "text": "to",
+        "start": 91.272727,
+        "end": 91.345455
+      },
+      {
+        "text": "stay",
+        "start": 91.418182,
+        "end": 91.490909
+      },
+      {
+        "text": "in",
+        "start": 91.563636,
+        "end": 91.636364
+      },
+      {
+        "text": "touch.",
+        "start": 91.709091,
+        "end": 92.557273
+      }
+    ],
+    [
+      {
+        "text": "A",
+        "start": 92.606364,
+        "end": 92.654545
+      },
+      {
+        "text": "storm",
+        "start": 92.8,
+        "end": 93.236364
+      },
+      {
+        "text": "battered",
+        "start": 93.272727,
+        "end": 93.527273
+      },
+      {
+        "text": "the",
+        "start": 93.6,
+        "end": 93.672727
+      },
+      {
+        "text": "fleet.",
+        "start": 94.0,
+        "end": 94.4
+      }
+    ],
+    [
+      {
+        "text": "Then",
+        "start": 94.545455,
+        "end": 94.690909
+      },
+      {
+        "text": "another",
+        "start": 94.763636,
+        "end": 95.127273
+      },
+      {
+        "text": "break",
+        "start": 95.272727,
+        "end": 95.418182
+      }
+    ],
+    [
+      {
+        "text": "forced",
+        "start": 95.490909,
+        "end": 95.709091
+      },
+      {
+        "text": "them",
+        "start": 95.781818,
+        "end": 95.854545
+      },
+      {
+        "text": "to",
+        "start": 95.890909,
+        "end": 95.927273
+      },
+      {
+        "text": "turn",
+        "start": 96.0,
+        "end": 96.218182
+      },
+      {
+        "text": "back.",
+        "start": 96.545455,
+        "end": 96.909091
+      }
+    ],
+    [
+      {
+        "text": "On",
+        "start": 96.945455,
+        "end": 97.018182
+      },
+      {
+        "text": "the",
+        "start": 97.054545,
+        "end": 97.090909
+      },
+      {
+        "text": "next",
+        "start": 97.163636,
+        "end": 97.381818
+      }
+    ],
+    [
+      {
+        "text": "voyage",
+        "start": 97.490909,
+        "end": 97.890909
+      },
+      {
+        "text": "the",
+        "start": 97.963636,
+        "end": 98.036364
+      },
+      {
+        "text": "two",
+        "start": 98.145455,
+        "end": 98.254545
+      },
+      {
+        "text": "ships",
+        "start": 98.436364,
+        "end": 98.618182
+      },
+      {
+        "text": "finally",
+        "start": 98.690909,
+        "end": 98.981818
+      }
+    ],
+    [
+      {
+        "text": "reached",
+        "start": 99.054545,
+        "end": 99.345455
+      },
+      {
+        "text": "opposite",
+        "start": 99.418182,
+        "end": 99.781818
+      },
+      {
+        "text": "shores.",
+        "start": 99.818182,
+        "end": 100.545455
+      }
+    ],
+    [
+      {
+        "text": "For",
+        "start": 100.581818,
+        "end": 100.654545
+      },
+      {
+        "text": "the",
+        "start": 100.727273,
+        "end": 100.8
+      },
+      {
+        "text": "first",
+        "start": 100.872727,
+        "end": 101.090909
+      },
+      {
+        "text": "time,",
+        "start": 101.381818,
+        "end": 101.720909
+      }
+    ],
+    [
+      {
+        "text": "a",
+        "start": 101.77,
+        "end": 101.818182
+      },
+      {
+        "text": "telegraph",
+        "start": 101.927273,
+        "end": 102.254545
+      },
+      {
+        "text": "message",
+        "start": 102.327273,
+        "end": 102.618182
+      }
+    ],
+    [
+      {
+        "text": "could",
+        "start": 102.727273,
+        "end": 102.836364
+      },
+      {
+        "text": "cross",
+        "start": 102.909091,
+        "end": 103.127273
+      },
+      {
+        "text": "the",
+        "start": 103.2,
+        "end": 103.272727
+      },
+      {
+        "text": "Atlantic.",
+        "start": 103.745455,
+        "end": 104.266364
+      }
+    ],
+    [
+      {
+        "text": "The",
+        "start": 104.315455,
+        "end": 104.363636
+      },
+      {
+        "text": "operators",
+        "start": 104.436364,
+        "end": 104.8
+      },
+      {
+        "text": "could",
+        "start": 104.872727,
+        "end": 104.945455
+      },
+      {
+        "text": "get",
+        "start": 105.018182,
+        "end": 105.090909
+      }
+    ],
+    [
+      {
+        "text": "a",
+        "start": 105.163636,
+        "end": 105.284545
+      },
+      {
+        "text": "message",
+        "start": 105.406364,
+        "end": 105.527273
+      },
+      {
+        "text": "through,",
+        "start": 105.818182,
+        "end": 106.157273
+      }
+    ],
+    [
+      {
+        "text": "but",
+        "start": 106.206364,
+        "end": 106.254545
+      },
+      {
+        "text": "they",
+        "start": 106.327273,
+        "end": 106.4
+      },
+      {
+        "text": "had",
+        "start": 106.472727,
+        "end": 106.618182
+      },
+      {
+        "text": "to",
+        "start": 106.690909,
+        "end": 106.763636
+      },
+      {
+        "text": "work",
+        "start": 106.909091,
+        "end": 107.054545
+      }
+    ],
+    [
+      {
+        "text": "painfully",
+        "start": 107.236364,
+        "end": 107.709091
+      },
+      {
+        "text": "slowly.",
+        "start": 107.781818,
+        "end": 108.606364
+      }
+    ],
+    [
+      {
+        "text": "A",
+        "start": 108.63,
+        "end": 108.654545
+      },
+      {
+        "text": "telegraph",
+        "start": 108.727273,
+        "end": 109.236364
+      },
+      {
+        "text": "sends",
+        "start": 109.272727,
+        "end": 109.454545
+      },
+      {
+        "text": "a",
+        "start": 109.527273,
+        "end": 109.648182
+      },
+      {
+        "text": "message",
+        "start": 109.77,
+        "end": 109.890909
+      }
+    ],
+    [
+      {
+        "text": "as",
+        "start": 109.963636,
+        "end": 110.036364
+      },
+      {
+        "text": "a",
+        "start": 110.181818,
+        "end": 110.218182
+      },
+      {
+        "text": "series",
+        "start": 110.254545,
+        "end": 110.545455
+      },
+      {
+        "text": "of",
+        "start": 110.581818,
+        "end": 110.618182
+      },
+      {
+        "text": "electrical",
+        "start": 110.690909,
+        "end": 111.127273
+      },
+      {
+        "text": "pulses.",
+        "start": 111.163636,
+        "end": 112.036364
+      }
+    ],
+    [
+      {
+        "text": "If",
+        "start": 112.072727,
+        "end": 112.145455
+      },
+      {
+        "text": "the",
+        "start": 112.218182,
+        "end": 112.290909
+      },
+      {
+        "text": "pulses",
+        "start": 112.327273,
+        "end": 112.654545
+      },
+      {
+        "text": "reach",
+        "start": 112.763636,
+        "end": 112.872727
+      },
+      {
+        "text": "the",
+        "start": 112.945455,
+        "end": 113.018182
+      },
+      {
+        "text": "other",
+        "start": 113.127273,
+        "end": 113.236364
+      }
+    ],
+    [
+      {
+        "text": "end",
+        "start": 113.309091,
+        "end": 113.381818
+      },
+      {
+        "text": "distinctly,",
+        "start": 113.6,
+        "end": 114.23
+      }
+    ],
+    [
+      {
+        "text": "an",
+        "start": 114.279091,
+        "end": 114.327273
+      },
+      {
+        "text": "operator",
+        "start": 114.4,
+        "end": 114.763636
+      },
+      {
+        "text": "can",
+        "start": 114.836364,
+        "end": 114.909091
+      },
+      {
+        "text": "read",
+        "start": 114.981818,
+        "end": 115.054545
+      },
+      {
+        "text": "them.",
+        "start": 115.127273,
+        "end": 115.672727
+      }
+    ],
+    [
+      {
+        "text": "Over",
+        "start": 115.709091,
+        "end": 115.854545
+      },
+      {
+        "text": "the",
+        "start": 115.927273,
+        "end": 116.0
+      },
+      {
+        "text": "length",
+        "start": 116.109091,
+        "end": 116.218182
+      },
+      {
+        "text": "of",
+        "start": 116.290909,
+        "end": 116.363636
+      },
+      {
+        "text": "this",
+        "start": 116.472727,
+        "end": 116.581818
+      },
+      {
+        "text": "cable",
+        "start": 116.618182,
+        "end": 117.090909
+      }
+    ],
+    [
+      {
+        "text": "they",
+        "start": 117.127273,
+        "end": 117.163636
+      },
+      {
+        "text": "arrived",
+        "start": 117.272727,
+        "end": 117.6
+      },
+      {
+        "text": "weak",
+        "start": 117.672727,
+        "end": 117.963636
+      }
+    ],
+    [
+      {
+        "text": "and",
+        "start": 118.036364,
+        "end": 118.181818
+      },
+      {
+        "text": "spread",
+        "start": 118.254545,
+        "end": 118.472727
+      },
+      {
+        "text": "out.",
+        "start": 118.545455,
+        "end": 119.2
+      }
+    ],
+    [
+      {
+        "text": "Send",
+        "start": 119.272727,
+        "end": 119.345455
+      },
+      {
+        "text": "the",
+        "start": 119.418182,
+        "end": 119.490909
+      },
+      {
+        "text": "pulses",
+        "start": 119.527273,
+        "end": 119.927273
+      },
+      {
+        "text": "too",
+        "start": 120.0,
+        "end": 120.072727
+      },
+      {
+        "text": "close",
+        "start": 120.145455,
+        "end": 120.363636
+      }
+    ],
+    [
+      {
+        "text": "together",
+        "start": 120.436364,
+        "end": 120.945455
+      },
+      {
+        "text": "and",
+        "start": 120.981818,
+        "end": 121.018182
+      },
+      {
+        "text": "they",
+        "start": 121.090909,
+        "end": 121.163636
+      },
+      {
+        "text": "start",
+        "start": 121.236364,
+        "end": 121.381818
+      }
+    ],
+    [
+      {
+        "text": "to",
+        "start": 121.454545,
+        "end": 121.527273
+      },
+      {
+        "text": "run",
+        "start": 121.6,
+        "end": 121.672727
+      },
+      {
+        "text": "into",
+        "start": 121.781818,
+        "end": 121.890909
+      },
+      {
+        "text": "each",
+        "start": 121.963636,
+        "end": 122.036364
+      },
+      {
+        "text": "other.",
+        "start": 122.363636,
+        "end": 122.763636
+      }
+    ],
+    [
+      {
+        "text": "Wildman",
+        "start": 122.836364,
+        "end": 123.272727
+      },
+      {
+        "text": "Whitehouse,",
+        "start": 123.381818,
+        "end": 123.951818
+      }
+    ],
+    [
+      {
+        "text": "the",
+        "start": 123.975455,
+        "end": 124.0
+      },
+      {
+        "text": "company's",
+        "start": 124.145455,
+        "end": 124.436364
+      },
+      {
+        "text": "chief",
+        "start": 124.545455,
+        "end": 124.654545
+      },
+      {
+        "text": "electrician,",
+        "start": 124.872727,
+        "end": 125.563636
+      }
+    ],
+    [
+      {
+        "text": "drove",
+        "start": 125.6,
+        "end": 125.818182
+      },
+      {
+        "text": "the",
+        "start": 125.890909,
+        "end": 125.963636
+      },
+      {
+        "text": "cable",
+        "start": 126.0,
+        "end": 126.254545
+      },
+      {
+        "text": "with",
+        "start": 126.327273,
+        "end": 126.472727
+      },
+      {
+        "text": "high",
+        "start": 126.545455,
+        "end": 126.690909
+      }
+    ],
+    [
+      {
+        "text": "voltages",
+        "start": 126.763636,
+        "end": 127.272727
+      },
+      {
+        "text": "to",
+        "start": 127.345455,
+        "end": 127.418182
+      },
+      {
+        "text": "make",
+        "start": 127.490909,
+        "end": 127.563636
+      },
+      {
+        "text": "its",
+        "start": 127.672727,
+        "end": 127.781818
+      },
+      {
+        "text": "weak",
+        "start": 127.890909,
+        "end": 128.0
+      }
+    ],
+    [
+      {
+        "text": "signals",
+        "start": 128.218182,
+        "end": 128.436364
+      },
+      {
+        "text": "easier",
+        "start": 128.509091,
+        "end": 128.8
+      },
+      {
+        "text": "to",
+        "start": 128.872727,
+        "end": 128.945455
+      },
+      {
+        "text": "detect.",
+        "start": 129.163636,
+        "end": 129.527273
+      }
+    ],
+    [
+      {
+        "text": "But",
+        "start": 129.6,
+        "end": 129.818182
+      },
+      {
+        "text": "pushing",
+        "start": 129.890909,
+        "end": 130.109091
+      },
+      {
+        "text": "the",
+        "start": 130.145455,
+        "end": 130.181818
+      },
+      {
+        "text": "cable",
+        "start": 130.254545,
+        "end": 130.472727
+      },
+      {
+        "text": "harder",
+        "start": 130.618182,
+        "end": 130.981818
+      }
+    ],
+    [
+      {
+        "text": "put",
+        "start": 131.090909,
+        "end": 131.2
+      },
+      {
+        "text": "more",
+        "start": 131.272727,
+        "end": 131.418182
+      },
+      {
+        "text": "stress",
+        "start": 131.563636,
+        "end": 131.854545
+      },
+      {
+        "text": "on",
+        "start": 131.927273,
+        "end": 132.0
+      },
+      {
+        "text": "the",
+        "start": 132.109091,
+        "end": 132.218182
+      },
+      {
+        "text": "very",
+        "start": 132.363636,
+        "end": 132.509091
+      }
+    ],
+    [
+      {
+        "text": "thing",
+        "start": 132.581818,
+        "end": 132.727273
+      },
+      {
+        "text": "that",
+        "start": 132.8,
+        "end": 132.945455
+      },
+      {
+        "text": "kept",
+        "start": 133.018182,
+        "end": 133.090909
+      },
+      {
+        "text": "it",
+        "start": 133.163636,
+        "end": 133.236364
+      },
+      {
+        "text": "working",
+        "start": 133.309091,
+        "end": 133.6
+      }
+    ],
+    [
+      {
+        "text": "underwater:",
+        "start": 133.745455,
+        "end": 134.545455
+      },
+      {
+        "text": "the",
+        "start": 134.618182,
+        "end": 134.690909
+      },
+      {
+        "text": "insulation",
+        "start": 134.763636,
+        "end": 135.345455
+      }
+    ],
+    [
+      {
+        "text": "around",
+        "start": 135.490909,
+        "end": 135.636364
+      },
+      {
+        "text": "the",
+        "start": 135.672727,
+        "end": 135.709091
+      },
+      {
+        "text": "copper.",
+        "start": 135.781818,
+        "end": 136.581818
+      }
+    ],
+    [
+      {
+        "text": "The",
+        "start": 136.654545,
+        "end": 136.727273
+      },
+      {
+        "text": "signals",
+        "start": 136.8,
+        "end": 137.163636
+      },
+      {
+        "text": "deteriorated.",
+        "start": 137.236364,
+        "end": 138.4
+      }
+    ],
+    [
+      {
+        "text": "The",
+        "start": 138.472727,
+        "end": 138.545455
+      },
+      {
+        "text": "line",
+        "start": 138.618182,
+        "end": 138.763636
+      },
+      {
+        "text": "that",
+        "start": 138.836364,
+        "end": 138.909091
+      },
+      {
+        "text": "had",
+        "start": 138.981818,
+        "end": 139.054545
+      },
+      {
+        "text": "carried",
+        "start": 139.127273,
+        "end": 139.272727
+      }
+    ],
+    [
+      {
+        "text": "Victoria's",
+        "start": 139.345455,
+        "end": 139.781818
+      },
+      {
+        "text": "telegram",
+        "start": 140.072727,
+        "end": 140.363636
+      },
+      {
+        "text": "stopped",
+        "start": 140.545455,
+        "end": 140.727273
+      }
+    ],
+    [
+      {
+        "text": "working",
+        "start": 140.8,
+        "end": 141.090909
+      },
+      {
+        "text": "within",
+        "start": 141.236364,
+        "end": 141.381818
+      },
+      {
+        "text": "a",
+        "start": 141.454545,
+        "end": 141.527273
+      },
+      {
+        "text": "month.",
+        "start": 141.6,
+        "end": 142.472727
+      }
+    ],
+    [
+      {
+        "text": "There",
+        "start": 142.545455,
+        "end": 142.618182
+      },
+      {
+        "text": "was",
+        "start": 142.690909,
+        "end": 142.763636
+      },
+      {
+        "text": "another",
+        "start": 142.945455,
+        "end": 143.127273
+      },
+      {
+        "text": "way",
+        "start": 143.2,
+        "end": 143.272727
+      }
+    ],
+    [
+      {
+        "text": "to",
+        "start": 143.345455,
+        "end": 143.418182
+      },
+      {
+        "text": "read",
+        "start": 143.490909,
+        "end": 143.563636
+      },
+      {
+        "text": "those",
+        "start": 143.636364,
+        "end": 143.781818
+      },
+      {
+        "text": "signals.",
+        "start": 144.0,
+        "end": 144.654545
+      }
+    ],
+    [
+      {
+        "text": "William",
+        "start": 144.727273,
+        "end": 145.018182
+      },
+      {
+        "text": "Thomson,",
+        "start": 145.090909,
+        "end": 145.672727
+      }
+    ],
+    [
+      {
+        "text": "a",
+        "start": 145.709091,
+        "end": 145.745455
+      },
+      {
+        "text": "Scottish",
+        "start": 145.818182,
+        "end": 146.109091
+      },
+      {
+        "text": "physicist",
+        "start": 146.181818,
+        "end": 146.618182
+      }
+    ],
+    [
+      {
+        "text": "on",
+        "start": 146.654545,
+        "end": 146.690909
+      },
+      {
+        "text": "the",
+        "start": 146.727273,
+        "end": 146.763636
+      },
+      {
+        "text": "project,",
+        "start": 146.836364,
+        "end": 147.490909
+      },
+      {
+        "text": "had",
+        "start": 147.563636,
+        "end": 147.636364
+      },
+      {
+        "text": "built",
+        "start": 147.709091,
+        "end": 147.854545
+      }
+    ],
+    [
+      {
+        "text": "a",
+        "start": 147.890909,
+        "end": 147.927273
+      },
+      {
+        "text": "receiver",
+        "start": 148.145455,
+        "end": 148.363636
+      },
+      {
+        "text": "around",
+        "start": 148.436364,
+        "end": 148.654545
+      },
+      {
+        "text": "a",
+        "start": 148.727273,
+        "end": 148.8
+      },
+      {
+        "text": "tiny",
+        "start": 148.981818,
+        "end": 149.163636
+      },
+      {
+        "text": "mirror.",
+        "start": 149.236364,
+        "end": 150.036364
+      }
+    ],
+    [
+      {
+        "text": "A",
+        "start": 150.109091,
+        "end": 150.181818
+      },
+      {
+        "text": "weak",
+        "start": 150.254545,
+        "end": 150.472727
+      },
+      {
+        "text": "electric",
+        "start": 150.545455,
+        "end": 150.909091
+      }
+    ],
+    [
+      {
+        "text": "current",
+        "start": 151.090909,
+        "end": 151.272727
+      },
+      {
+        "text": "could",
+        "start": 151.345455,
+        "end": 151.418182
+      },
+      {
+        "text": "turn",
+        "start": 151.490909,
+        "end": 151.636364
+      }
+    ],
+    [
+      {
+        "text": "the",
+        "start": 151.709091,
+        "end": 151.781818
+      },
+      {
+        "text": "mirror",
+        "start": 151.890909,
+        "end": 152.0
+      },
+      {
+        "text": "by",
+        "start": 152.072727,
+        "end": 152.145455
+      },
+      {
+        "text": "a",
+        "start": 152.218182,
+        "end": 152.290909
+      },
+      {
+        "text": "fraction.",
+        "start": 152.363636,
+        "end": 153.309091
+      }
+    ],
+    [
+      {
+        "text": "The",
+        "start": 153.381818,
+        "end": 153.454545
+      },
+      {
+        "text": "mirror",
+        "start": 153.527273,
+        "end": 153.745455
+      },
+      {
+        "text": "threw",
+        "start": 153.818182,
+        "end": 153.890909
+      }
+    ],
+    [
+      {
+        "text": "a",
+        "start": 153.963636,
+        "end": 154.036364
+      },
+      {
+        "text": "spot",
+        "start": 154.109091,
+        "end": 154.327273
+      },
+      {
+        "text": "of",
+        "start": 154.4,
+        "end": 154.472727
+      },
+      {
+        "text": "light",
+        "start": 154.581818,
+        "end": 154.690909
+      },
+      {
+        "text": "across",
+        "start": 154.763636,
+        "end": 155.054545
+      },
+      {
+        "text": "a",
+        "start": 155.090909,
+        "end": 155.127273
+      },
+      {
+        "text": "scale,",
+        "start": 155.2,
+        "end": 155.781818
+      }
+    ],
+    [
+      {
+        "text": "making",
+        "start": 155.890909,
+        "end": 156.0
+      },
+      {
+        "text": "the",
+        "start": 156.072727,
+        "end": 156.145455
+      },
+      {
+        "text": "movement",
+        "start": 156.290909,
+        "end": 156.436364
+      },
+      {
+        "text": "large",
+        "start": 156.509091,
+        "end": 156.8
+      }
+    ],
+    [
+      {
+        "text": "enough",
+        "start": 156.836364,
+        "end": 157.018182
+      },
+      {
+        "text": "for",
+        "start": 157.054545,
+        "end": 157.090909
+      },
+      {
+        "text": "the",
+        "start": 157.163636,
+        "end": 157.236364
+      },
+      {
+        "text": "operator",
+        "start": 157.309091,
+        "end": 157.672727
+      },
+      {
+        "text": "to",
+        "start": 157.745455,
+        "end": 157.818182
+      },
+      {
+        "text": "see.",
+        "start": 157.890909,
+        "end": 158.618182
+      }
+    ],
+    [
+      {
+        "text": "With",
+        "start": 158.690909,
+        "end": 158.763636
+      },
+      {
+        "text": "a",
+        "start": 158.8,
+        "end": 158.836364
+      },
+      {
+        "text": "more",
+        "start": 158.945455,
+        "end": 159.054545
+      },
+      {
+        "text": "sensitive",
+        "start": 159.127273,
+        "end": 159.490909
+      },
+      {
+        "text": "receiver,",
+        "start": 159.709091,
+        "end": 160.145455
+      }
+    ],
+    [
+      {
+        "text": "a",
+        "start": 160.218182,
+        "end": 160.290909
+      },
+      {
+        "text": "faint",
+        "start": 160.363636,
+        "end": 160.581818
+      },
+      {
+        "text": "pulse",
+        "start": 160.654545,
+        "end": 160.945455
+      },
+      {
+        "text": "could",
+        "start": 161.018182,
+        "end": 161.090909
+      },
+      {
+        "text": "carry",
+        "start": 161.163636,
+        "end": 161.381818
+      }
+    ],
+    [
+      {
+        "text": "information",
+        "start": 161.672727,
+        "end": 161.963636
+      },
+      {
+        "text": "without",
+        "start": 162.145455,
+        "end": 162.327273
+      },
+      {
+        "text": "the",
+        "start": 162.4,
+        "end": 162.472727
+      },
+      {
+        "text": "sender",
+        "start": 162.618182,
+        "end": 162.763636
+      }
+    ],
+    [
+      {
+        "text": "having",
+        "start": 162.872727,
+        "end": 162.981818
+      },
+      {
+        "text": "to",
+        "start": 163.090909,
+        "end": 163.2
+      },
+      {
+        "text": "force",
+        "start": 163.345455,
+        "end": 163.490909
+      },
+      {
+        "text": "such",
+        "start": 163.563636,
+        "end": 163.636364
+      },
+      {
+        "text": "a",
+        "start": 163.709091,
+        "end": 163.781818
+      },
+      {
+        "text": "strong",
+        "start": 163.854545,
+        "end": 164.145455
+      }
+    ],
+    [
+      {
+        "text": "one",
+        "start": 164.218182,
+        "end": 164.290909
+      },
+      {
+        "text": "into",
+        "start": 164.363636,
+        "end": 164.509091
+      },
+      {
+        "text": "the",
+        "start": 164.581818,
+        "end": 164.654545
+      },
+      {
+        "text": "wire.",
+        "start": 164.8,
+        "end": 165.454545
+      }
+    ],
+    [
+      {
+        "text": "The",
+        "start": 165.527273,
+        "end": 165.672727
+      },
+      {
+        "text": "mirror",
+        "start": 165.818182,
+        "end": 165.963636
+      },
+      {
+        "text": "addressed",
+        "start": 166.145455,
+        "end": 166.363636
+      }
+    ],
+    [
+      {
+        "text": "the",
+        "start": 166.4,
+        "end": 166.472727
+      },
+      {
+        "text": "problem",
+        "start": 166.654545,
+        "end": 166.836364
+      },
+      {
+        "text": "of",
+        "start": 166.909091,
+        "end": 166.981818
+      },
+      {
+        "text": "hearing",
+        "start": 167.054545,
+        "end": 167.272727
+      }
+    ],
+    [
+      {
+        "text": "the",
+        "start": 167.345455,
+        "end": 167.418182
+      },
+      {
+        "text": "signal.",
+        "start": 167.781818,
+        "end": 168.218182
+      }
+    ],
+    [
+      {
+        "text": "The",
+        "start": 168.290909,
+        "end": 168.363636
+      },
+      {
+        "text": "next",
+        "start": 168.472727,
+        "end": 168.581818
+      }
+    ],
+    [
+      {
+        "text": "expedition",
+        "start": 168.654545,
+        "end": 169.236364
+      },
+      {
+        "text": "still",
+        "start": 169.381818,
+        "end": 169.527273
+      },
+      {
+        "text": "needed",
+        "start": 169.636364,
+        "end": 169.745455
+      },
+      {
+        "text": "a",
+        "start": 169.781818,
+        "end": 169.818182
+      },
+      {
+        "text": "cable",
+        "start": 169.890909,
+        "end": 170.181818
+      }
+    ],
+    [
+      {
+        "text": "that",
+        "start": 170.254545,
+        "end": 170.327273
+      },
+      {
+        "text": "could",
+        "start": 170.4,
+        "end": 170.472727
+      },
+      {
+        "text": "survive",
+        "start": 170.545455,
+        "end": 170.836364
+      },
+      {
+        "text": "the",
+        "start": 170.909091,
+        "end": 170.981818
+      },
+      {
+        "text": "sea.",
+        "start": 171.054545,
+        "end": 171.890909
+      }
+    ],
+    [
+      {
+        "text": "Field",
+        "start": 171.927273,
+        "end": 172.145455
+      },
+      {
+        "text": "secured",
+        "start": 172.218182,
+        "end": 172.581818
+      }
+    ],
+    [
+      {
+        "text": "backing",
+        "start": 172.690909,
+        "end": 172.945455
+      },
+      {
+        "text": "for",
+        "start": 172.981818,
+        "end": 173.018182
+      },
+      {
+        "text": "another",
+        "start": 173.090909,
+        "end": 173.381818
+      },
+      {
+        "text": "attempt.",
+        "start": 173.454545,
+        "end": 174.290909
+      }
+    ],
+    [
+      {
+        "text": "This",
+        "start": 174.327273,
+        "end": 174.472727
+      },
+      {
+        "text": "time",
+        "start": 174.545455,
+        "end": 174.909091
+      }
+    ],
+    [
+      {
+        "text": "the",
+        "start": 174.945455,
+        "end": 174.981818
+      },
+      {
+        "text": "cable",
+        "start": 175.054545,
+        "end": 175.272727
+      },
+      {
+        "text": "had",
+        "start": 175.345455,
+        "end": 175.490909
+      },
+      {
+        "text": "better",
+        "start": 175.563636,
+        "end": 175.709091
+      },
+      {
+        "text": "insulation",
+        "start": 175.781818,
+        "end": 176.363636
+      }
+    ],
+    [
+      {
+        "text": "and",
+        "start": 176.436364,
+        "end": 176.509091
+      },
+      {
+        "text": "stronger",
+        "start": 176.581818,
+        "end": 176.945455
+      },
+      {
+        "text": "protection.",
+        "start": 177.018182,
+        "end": 177.915455
+      }
+    ],
+    [
+      {
+        "text": "And",
+        "start": 177.939091,
+        "end": 177.963636
+      },
+      {
+        "text": "by",
+        "start": 178.036364,
+        "end": 178.181818
+      },
+      {
+        "text": "1865",
+        "start": 178.254545,
+        "end": 178.545455
+      },
+      {
+        "text": "there",
+        "start": 178.618182,
+        "end": 179.490909
+      },
+      {
+        "text": "was",
+        "start": 179.563636,
+        "end": 179.781818
+      },
+      {
+        "text": "finally",
+        "start": 179.963636,
+        "end": 180.145455
+      }
+    ],
+    [
+      {
+        "text": "a",
+        "start": 180.218182,
+        "end": 180.290909
+      },
+      {
+        "text": "ship",
+        "start": 180.4,
+        "end": 180.509091
+      },
+      {
+        "text": "that",
+        "start": 180.581818,
+        "end": 180.654545
+      },
+      {
+        "text": "could",
+        "start": 180.727273,
+        "end": 180.8
+      },
+      {
+        "text": "take",
+        "start": 180.909091,
+        "end": 181.018182
+      }
+    ],
+    [
+      {
+        "text": "the",
+        "start": 181.090909,
+        "end": 181.163636
+      },
+      {
+        "text": "whole",
+        "start": 181.236364,
+        "end": 181.454545
+      },
+      {
+        "text": "length.",
+        "start": 181.890909,
+        "end": 182.363636
+      }
+    ],
+    [
+      {
+        "text": "The",
+        "start": 182.4,
+        "end": 182.472727
+      },
+      {
+        "text": "Great",
+        "start": 182.545455,
+        "end": 182.763636
+      },
+      {
+        "text": "Eastern",
+        "start": 182.836364,
+        "end": 183.2
+      }
+    ],
+    [
+      {
+        "text": "had",
+        "start": 183.236364,
+        "end": 183.272727
+      },
+      {
+        "text": "been",
+        "start": 183.345455,
+        "end": 183.490909
+      },
+      {
+        "text": "built",
+        "start": 183.563636,
+        "end": 183.636364
+      }
+    ],
+    [
+      {
+        "text": "to",
+        "start": 183.709091,
+        "end": 183.781818
+      },
+      {
+        "text": "carry",
+        "start": 183.854545,
+        "end": 184.072727
+      },
+      {
+        "text": "passengers.",
+        "start": 184.181818,
+        "end": 185.054545
+      }
+    ],
+    [
+      {
+        "text": "Its",
+        "start": 185.090909,
+        "end": 185.309091
+      },
+      {
+        "text": "cavernous",
+        "start": 185.381818,
+        "end": 185.745455
+      },
+      {
+        "text": "hull",
+        "start": 185.818182,
+        "end": 186.109091
+      },
+      {
+        "text": "now",
+        "start": 186.181818,
+        "end": 186.327273
+      },
+      {
+        "text": "held",
+        "start": 186.4,
+        "end": 186.618182
+      }
+    ],
+    [
+      {
+        "text": "immense",
+        "start": 186.690909,
+        "end": 187.2
+      },
+      {
+        "text": "coils",
+        "start": 187.272727,
+        "end": 187.490909
+      },
+      {
+        "text": "of",
+        "start": 187.563636,
+        "end": 187.636364
+      },
+      {
+        "text": "cable.",
+        "start": 187.672727,
+        "end": 188.460909
+      }
+    ],
+    [
+      {
+        "text": "The",
+        "start": 188.484545,
+        "end": 188.509091
+      },
+      {
+        "text": "crew",
+        "start": 188.581818,
+        "end": 188.727273
+      },
+      {
+        "text": "could",
+        "start": 188.8,
+        "end": 188.945455
+      },
+      {
+        "text": "watch",
+        "start": 189.018182,
+        "end": 189.236364
+      }
+    ],
+    [
+      {
+        "text": "the",
+        "start": 189.309091,
+        "end": 189.381818
+      },
+      {
+        "text": "signal",
+        "start": 189.527273,
+        "end": 189.672727
+      },
+      {
+        "text": "as",
+        "start": 189.745455,
+        "end": 189.818182
+      },
+      {
+        "text": "they",
+        "start": 189.890909,
+        "end": 189.963636
+      },
+      {
+        "text": "paid",
+        "start": 190.036364,
+        "end": 190.109091
+      }
+    ],
+    [
+      {
+        "text": "out",
+        "start": 190.181818,
+        "end": 190.254545
+      },
+      {
+        "text": "the",
+        "start": 190.327273,
+        "end": 190.4
+      },
+      {
+        "text": "line.",
+        "start": 190.763636,
+        "end": 191.163636
+      }
+    ],
+    [
+      {
+        "text": "If",
+        "start": 191.2,
+        "end": 191.272727
+      },
+      {
+        "text": "they",
+        "start": 191.309091,
+        "end": 191.345455
+      },
+      {
+        "text": "detected",
+        "start": 191.418182,
+        "end": 191.709091
+      },
+      {
+        "text": "a",
+        "start": 191.854545,
+        "end": 191.890909
+      },
+      {
+        "text": "fault,",
+        "start": 191.927273,
+        "end": 192.460909
+      }
+    ],
+    [
+      {
+        "text": "they",
+        "start": 192.484545,
+        "end": 192.509091
+      },
+      {
+        "text": "could",
+        "start": 192.618182,
+        "end": 192.727273
+      },
+      {
+        "text": "stop",
+        "start": 192.8,
+        "end": 193.090909
+      },
+      {
+        "text": "and",
+        "start": 193.163636,
+        "end": 193.236364
+      },
+      {
+        "text": "haul",
+        "start": 193.309091,
+        "end": 193.527273
+      },
+      {
+        "text": "part",
+        "start": 193.6,
+        "end": 193.672727
+      }
+    ],
+    [
+      {
+        "text": "of",
+        "start": 193.709091,
+        "end": 193.745455
+      },
+      {
+        "text": "the",
+        "start": 193.781818,
+        "end": 193.818182
+      },
+      {
+        "text": "cable",
+        "start": 193.890909,
+        "end": 194.181818
+      },
+      {
+        "text": "back",
+        "start": 194.254545,
+        "end": 194.4
+      },
+      {
+        "text": "up",
+        "start": 194.472727,
+        "end": 194.545455
+      },
+      {
+        "text": "to",
+        "start": 194.618182,
+        "end": 194.690909
+      },
+      {
+        "text": "fix",
+        "start": 194.763636,
+        "end": 194.909091
+      },
+      {
+        "text": "it.",
+        "start": 194.981818,
+        "end": 195.6
+      }
+    ],
+    [
+      {
+        "text": "That",
+        "start": 195.636364,
+        "end": 195.854545
+      },
+      {
+        "text": "mattered",
+        "start": 195.927273,
+        "end": 196.218182
+      },
+      {
+        "text": "when",
+        "start": 196.290909,
+        "end": 196.363636
+      },
+      {
+        "text": "defects",
+        "start": 196.436364,
+        "end": 196.763636
+      }
+    ],
+    [
+      {
+        "text": "appeared",
+        "start": 196.8,
+        "end": 197.018182
+      },
+      {
+        "text": "along",
+        "start": 197.090909,
+        "end": 197.309091
+      },
+      {
+        "text": "the",
+        "start": 197.345455,
+        "end": 197.381818
+      },
+      {
+        "text": "way.",
+        "start": 197.454545,
+        "end": 198.206364
+      }
+    ],
+    [
+      {
+        "text": "The",
+        "start": 198.23,
+        "end": 198.254545
+      },
+      {
+        "text": "men",
+        "start": 198.327273,
+        "end": 198.545455
+      },
+      {
+        "text": "found",
+        "start": 198.618182,
+        "end": 198.763636
+      }
+    ],
+    [
+      {
+        "text": "the",
+        "start": 198.836364,
+        "end": 198.909091
+      },
+      {
+        "text": "damaged",
+        "start": 198.981818,
+        "end": 199.2
+      },
+      {
+        "text": "sections,",
+        "start": 199.527273,
+        "end": 199.902727
+      }
+    ],
+    [
+      {
+        "text": "repaired",
+        "start": 199.951818,
+        "end": 200.218182
+      },
+      {
+        "text": "them",
+        "start": 200.290909,
+        "end": 200.581818
+      },
+      {
+        "text": "and",
+        "start": 200.654545,
+        "end": 200.727273
+      },
+      {
+        "text": "carried",
+        "start": 200.8,
+        "end": 201.018182
+      },
+      {
+        "text": "on.",
+        "start": 201.090909,
+        "end": 201.781818
+      }
+    ],
+    [
+      {
+        "text": "Then,",
+        "start": 201.818182,
+        "end": 202.302727
+      },
+      {
+        "text": "with",
+        "start": 202.351818,
+        "end": 202.4
+      },
+      {
+        "text": "Newfoundland",
+        "start": 202.472727,
+        "end": 202.909091
+      }
+    ],
+    [
+      {
+        "text": "still",
+        "start": 202.981818,
+        "end": 203.127273
+      },
+      {
+        "text": "about",
+        "start": 203.309091,
+        "end": 203.490909
+      },
+      {
+        "text": "six",
+        "start": 203.6,
+        "end": 203.709091
+      },
+      {
+        "text": "hundred",
+        "start": 203.781818,
+        "end": 203.927273
+      },
+      {
+        "text": "miles",
+        "start": 204.0,
+        "end": 204.218182
+      }
+    ],
+    [
+      {
+        "text": "away,",
+        "start": 204.290909,
+        "end": 204.920909
+      },
+      {
+        "text": "they",
+        "start": 204.97,
+        "end": 205.018182
+      },
+      {
+        "text": "stopped",
+        "start": 205.090909,
+        "end": 205.381818
+      }
+    ],
+    [
+      {
+        "text": "for",
+        "start": 205.418182,
+        "end": 205.454545
+      },
+      {
+        "text": "another",
+        "start": 205.527273,
+        "end": 205.818182
+      },
+      {
+        "text": "repair.",
+        "start": 206.254545,
+        "end": 206.727273
+      }
+    ],
+    [
+      {
+        "text": "As",
+        "start": 206.763636,
+        "end": 206.836364
+      },
+      {
+        "text": "they",
+        "start": 206.909091,
+        "end": 206.981818
+      },
+      {
+        "text": "were",
+        "start": 207.054545,
+        "end": 207.127273
+      },
+      {
+        "text": "bringing",
+        "start": 207.272727,
+        "end": 207.418182
+      }
+    ],
+    [
+      {
+        "text": "cable",
+        "start": 207.454545,
+        "end": 207.709091
+      },
+      {
+        "text": "back",
+        "start": 207.818182,
+        "end": 207.927273
+      },
+      {
+        "text": "up,",
+        "start": 208.0,
+        "end": 208.509091
+      },
+      {
+        "text": "it",
+        "start": 208.581818,
+        "end": 208.654545
+      },
+      {
+        "text": "snapped.",
+        "start": 208.727273,
+        "end": 209.563636
+      }
+    ],
+    [
+      {
+        "text": "The",
+        "start": 209.6,
+        "end": 209.745455
+      },
+      {
+        "text": "free",
+        "start": 209.854545,
+        "end": 209.963636
+      },
+      {
+        "text": "end",
+        "start": 210.036364,
+        "end": 210.254545
+      },
+      {
+        "text": "dropped",
+        "start": 210.363636,
+        "end": 210.618182
+      }
+    ],
+    [
+      {
+        "text": "to",
+        "start": 210.690909,
+        "end": 210.763636
+      },
+      {
+        "text": "the",
+        "start": 210.836364,
+        "end": 210.909091
+      },
+      {
+        "text": "seabed.",
+        "start": 210.945455,
+        "end": 211.745455
+      }
+    ],
+    [
+      {
+        "text": "The",
+        "start": 211.781818,
+        "end": 211.854545
+      },
+      {
+        "text": "crew",
+        "start": 211.927273,
+        "end": 212.145455
+      },
+      {
+        "text": "lowered",
+        "start": 212.218182,
+        "end": 212.509091
+      },
+      {
+        "text": "hooks",
+        "start": 212.618182,
+        "end": 212.727273
+      }
+    ],
+    [
+      {
+        "text": "to",
+        "start": 212.8,
+        "end": 212.872727
+      },
+      {
+        "text": "try",
+        "start": 212.945455,
+        "end": 213.018182
+      },
+      {
+        "text": "to",
+        "start": 213.054545,
+        "end": 213.090909
+      },
+      {
+        "text": "catch",
+        "start": 213.163636,
+        "end": 213.381818
+      },
+      {
+        "text": "it.",
+        "start": 213.636364,
+        "end": 213.927273
+      }
+    ],
+    [
+      {
+        "text": "They",
+        "start": 213.963636,
+        "end": 214.109091
+      },
+      {
+        "text": "couldn't",
+        "start": 214.181818,
+        "end": 214.4
+      },
+      {
+        "text": "get",
+        "start": 214.436364,
+        "end": 214.472727
+      }
+    ],
+    [
+      {
+        "text": "it",
+        "start": 214.545455,
+        "end": 214.618182
+      },
+      {
+        "text": "back",
+        "start": 214.690909,
+        "end": 214.763636
+      },
+      {
+        "text": "aboard,",
+        "start": 214.836364,
+        "end": 215.454545
+      }
+    ],
+    [
+      {
+        "text": "and",
+        "start": 215.490909,
+        "end": 215.563636
+      },
+      {
+        "text": "the",
+        "start": 215.636364,
+        "end": 215.709091
+      },
+      {
+        "text": "Great",
+        "start": 215.818182,
+        "end": 215.927273
+      },
+      {
+        "text": "Eastern",
+        "start": 216.0,
+        "end": 216.363636
+      },
+      {
+        "text": "sailed",
+        "start": 216.436364,
+        "end": 216.727273
+      }
+    ],
+    [
+      {
+        "text": "home",
+        "start": 216.872727,
+        "end": 217.018182
+      },
+      {
+        "text": "without",
+        "start": 217.236364,
+        "end": 217.454545
+      },
+      {
+        "text": "finishing",
+        "start": 217.527273,
+        "end": 217.818182
+      },
+      {
+        "text": "the",
+        "start": 217.854545,
+        "end": 217.890909
+      },
+      {
+        "text": "line.",
+        "start": 217.963636,
+        "end": 218.811818
+      }
+    ],
+    [
+      {
+        "text": "In",
+        "start": 218.860909,
+        "end": 218.909091
+      },
+      {
+        "text": "July",
+        "start": 219.090909,
+        "end": 219.272727
+      },
+      {
+        "text": "1866,",
+        "start": 219.345455,
+        "end": 220.606364
+      }
+    ],
+    [
+      {
+        "text": "the",
+        "start": 220.63,
+        "end": 220.654545
+      },
+      {
+        "text": "Great",
+        "start": 220.727273,
+        "end": 220.945455
+      },
+      {
+        "text": "Eastern",
+        "start": 221.018182,
+        "end": 221.381818
+      }
+    ],
+    [
+      {
+        "text": "set",
+        "start": 221.454545,
+        "end": 221.527273
+      },
+      {
+        "text": "out",
+        "start": 221.6,
+        "end": 221.672727
+      },
+      {
+        "text": "from",
+        "start": 221.781818,
+        "end": 221.890909
+      },
+      {
+        "text": "Ireland",
+        "start": 221.927273,
+        "end": 222.181818
+      }
+    ],
+    [
+      {
+        "text": "again",
+        "start": 222.327273,
+        "end": 222.690909
+      },
+      {
+        "text": "with",
+        "start": 222.763636,
+        "end": 222.836364
+      },
+      {
+        "text": "another",
+        "start": 223.054545,
+        "end": 223.272727
+      },
+      {
+        "text": "improved",
+        "start": 223.345455,
+        "end": 223.636364
+      }
+    ],
+    [
+      {
+        "text": "cable.",
+        "start": 223.709091,
+        "end": 224.545455
+      }
+    ],
+    [
+      {
+        "text": "This",
+        "start": 224.581818,
+        "end": 224.727273
+      },
+      {
+        "text": "time",
+        "start": 224.8,
+        "end": 225.090909
+      },
+      {
+        "text": "it",
+        "start": 225.163636,
+        "end": 225.236364
+      },
+      {
+        "text": "reached",
+        "start": 225.272727,
+        "end": 225.527273
+      }
+    ],
+    [
+      {
+        "text": "Heart's",
+        "start": 225.636364,
+        "end": 225.818182
+      },
+      {
+        "text": "Content,",
+        "start": 226.036364,
+        "end": 226.290909
+      },
+      {
+        "text": "Newfoundland,",
+        "start": 226.327273,
+        "end": 226.933636
+      }
+    ],
+    [
+      {
+        "text": "with",
+        "start": 226.957273,
+        "end": 226.981818
+      },
+      {
+        "text": "the",
+        "start": 227.054545,
+        "end": 227.127273
+      },
+      {
+        "text": "line",
+        "start": 227.2,
+        "end": 227.490909
+      },
+      {
+        "text": "intact.",
+        "start": 227.563636,
+        "end": 228.581818
+      }
+    ],
+    [
+      {
+        "text": "Operators",
+        "start": 228.654545,
+        "end": 229.018182
+      },
+      {
+        "text": "on",
+        "start": 229.090909,
+        "end": 229.236364
+      },
+      {
+        "text": "either",
+        "start": 229.309091,
+        "end": 229.6
+      },
+      {
+        "text": "shore",
+        "start": 229.745455,
+        "end": 229.890909
+      }
+    ],
+    [
+      {
+        "text": "could",
+        "start": 229.963636,
+        "end": 230.036364
+      },
+      {
+        "text": "pass",
+        "start": 230.109091,
+        "end": 230.327273
+      },
+      {
+        "text": "messages",
+        "start": 230.4,
+        "end": 230.836364
+      },
+      {
+        "text": "back",
+        "start": 230.909091,
+        "end": 230.981818
+      }
+    ],
+    [
+      {
+        "text": "and",
+        "start": 231.054545,
+        "end": 231.127273
+      },
+      {
+        "text": "forth",
+        "start": 231.2,
+        "end": 231.490909
+      },
+      {
+        "text": "over",
+        "start": 231.563636,
+        "end": 231.709091
+      },
+      {
+        "text": "a",
+        "start": 231.745455,
+        "end": 231.781818
+      },
+      {
+        "text": "connection",
+        "start": 232.0,
+        "end": 232.218182
+      }
+    ],
+    [
+      {
+        "text": "that",
+        "start": 232.327273,
+        "end": 232.436364
+      },
+      {
+        "text": "stayed",
+        "start": 232.509091,
+        "end": 232.727273
+      },
+      {
+        "text": "in",
+        "start": 232.8,
+        "end": 232.945455
+      },
+      {
+        "text": "service.",
+        "start": 233.381818,
+        "end": 233.890909
+      }
+    ],
+    [
+      {
+        "text": "Then",
+        "start": 233.963636,
+        "end": 234.327273
+      },
+      {
+        "text": "the",
+        "start": 234.4,
+        "end": 234.472727
+      },
+      {
+        "text": "ship",
+        "start": 234.581818,
+        "end": 234.690909
+      },
+      {
+        "text": "went",
+        "start": 234.8,
+        "end": 234.909091
+      },
+      {
+        "text": "back",
+        "start": 234.981818,
+        "end": 235.127273
+      },
+      {
+        "text": "out.",
+        "start": 235.2,
+        "end": 235.879091
+      }
+    ],
+    [
+      {
+        "text": "There",
+        "start": 235.902727,
+        "end": 235.927273
+      },
+      {
+        "text": "was",
+        "start": 236.0,
+        "end": 236.072727
+      },
+      {
+        "text": "still",
+        "start": 236.218182,
+        "end": 236.436364
+      },
+      {
+        "text": "a",
+        "start": 236.509091,
+        "end": 236.581818
+      },
+      {
+        "text": "nearly",
+        "start": 236.654545,
+        "end": 236.945455
+      }
+    ],
+    [
+      {
+        "text": "complete",
+        "start": 237.163636,
+        "end": 237.381818
+      },
+      {
+        "text": "cable",
+        "start": 237.454545,
+        "end": 237.745455
+      },
+      {
+        "text": "lying",
+        "start": 237.818182,
+        "end": 237.963636
+      }
+    ],
+    [
+      {
+        "text": "on",
+        "start": 238.036364,
+        "end": 238.109091
+      },
+      {
+        "text": "the",
+        "start": 238.145455,
+        "end": 238.181818
+      },
+      {
+        "text": "bottom,",
+        "start": 238.254545,
+        "end": 238.860909
+      },
+      {
+        "text": "the",
+        "start": 238.884545,
+        "end": 238.909091
+      },
+      {
+        "text": "one",
+        "start": 238.981818,
+        "end": 239.054545
+      }
+    ],
+    [
+      {
+        "text": "they'd",
+        "start": 239.127273,
+        "end": 239.272727
+      },
+      {
+        "text": "lost",
+        "start": 239.345455,
+        "end": 239.563636
+      },
+      {
+        "text": "the",
+        "start": 239.636364,
+        "end": 239.709091
+      },
+      {
+        "text": "year",
+        "start": 239.781818,
+        "end": 239.854545
+      },
+      {
+        "text": "before.",
+        "start": 240.290909,
+        "end": 240.763636
+      }
+    ],
+    [
+      {
+        "text": "If",
+        "start": 240.8,
+        "end": 240.872727
+      },
+      {
+        "text": "they",
+        "start": 240.909091,
+        "end": 240.945455
+      },
+      {
+        "text": "could",
+        "start": 241.018182,
+        "end": 241.163636
+      },
+      {
+        "text": "lift",
+        "start": 241.236364,
+        "end": 241.381818
+      },
+      {
+        "text": "the",
+        "start": 241.454545,
+        "end": 241.527273
+      },
+      {
+        "text": "end,",
+        "start": 241.6,
+        "end": 242.072727
+      }
+    ],
+    [
+      {
+        "text": "they",
+        "start": 242.109091,
+        "end": 242.181818
+      },
+      {
+        "text": "could",
+        "start": 242.254545,
+        "end": 242.327273
+      },
+      {
+        "text": "join",
+        "start": 242.436364,
+        "end": 242.545455
+      },
+      {
+        "text": "a",
+        "start": 242.690909,
+        "end": 242.763636
+      },
+      {
+        "text": "new",
+        "start": 242.836364,
+        "end": 242.909091
+      },
+      {
+        "text": "length",
+        "start": 243.018182,
+        "end": 243.127273
+      }
+    ],
+    [
+      {
+        "text": "to",
+        "start": 243.2,
+        "end": 243.272727
+      },
+      {
+        "text": "it",
+        "start": 243.345455,
+        "end": 243.490909
+      },
+      {
+        "text": "and",
+        "start": 243.563636,
+        "end": 243.781818
+      },
+      {
+        "text": "finish",
+        "start": 243.927273,
+        "end": 244.072727
+      },
+      {
+        "text": "the",
+        "start": 244.109091,
+        "end": 244.145455
+      },
+      {
+        "text": "job.",
+        "start": 244.218182,
+        "end": 244.993636
+      }
+    ],
+    [
+      {
+        "text": "The",
+        "start": 245.042727,
+        "end": 245.090909
+      },
+      {
+        "text": "crew",
+        "start": 245.236364,
+        "end": 245.381818
+      },
+      {
+        "text": "finally",
+        "start": 245.454545,
+        "end": 245.818182
+      },
+      {
+        "text": "caught",
+        "start": 245.890909,
+        "end": 246.036364
+      }
+    ],
+    [
+      {
+        "text": "it",
+        "start": 246.145455,
+        "end": 246.254545
+      },
+      {
+        "text": "and",
+        "start": 246.363636,
+        "end": 246.472727
+      },
+      {
+        "text": "raised",
+        "start": 246.581818,
+        "end": 246.690909
+      },
+      {
+        "text": "it",
+        "start": 246.763636,
+        "end": 246.836364
+      },
+      {
+        "text": "to",
+        "start": 246.872727,
+        "end": 246.909091
+      },
+      {
+        "text": "the",
+        "start": 246.981818,
+        "end": 247.054545
+      },
+      {
+        "text": "deck.",
+        "start": 247.418182,
+        "end": 247.83
+      }
+    ],
+    [
+      {
+        "text": "The",
+        "start": 247.879091,
+        "end": 247.927273
+      },
+      {
+        "text": "test",
+        "start": 248.072727,
+        "end": 248.218182
+      },
+      {
+        "text": "came",
+        "start": 248.327273,
+        "end": 248.436364
+      }
+    ],
+    [
+      {
+        "text": "in",
+        "start": 248.509091,
+        "end": 248.581818
+      },
+      {
+        "text": "the",
+        "start": 248.618182,
+        "end": 248.654545
+      },
+      {
+        "text": "ship's",
+        "start": 248.727273,
+        "end": 248.945455
+      },
+      {
+        "text": "electrical",
+        "start": 249.018182,
+        "end": 249.454545
+      },
+      {
+        "text": "room.",
+        "start": 249.781818,
+        "end": 250.145455
+      }
+    ],
+    [
+      {
+        "text": "With",
+        "start": 250.181818,
+        "end": 250.254545
+      },
+      {
+        "text": "the",
+        "start": 250.327273,
+        "end": 250.4
+      },
+      {
+        "text": "old",
+        "start": 250.472727,
+        "end": 250.690909
+      },
+      {
+        "text": "line",
+        "start": 250.836364,
+        "end": 250.981818
+      }
+    ],
+    [
+      {
+        "text": "hauled",
+        "start": 251.054545,
+        "end": 251.2
+      },
+      {
+        "text": "up",
+        "start": 251.272727,
+        "end": 251.345455
+      },
+      {
+        "text": "from",
+        "start": 251.418182,
+        "end": 251.490909
+      },
+      {
+        "text": "the",
+        "start": 251.527273,
+        "end": 251.563636
+      },
+      {
+        "text": "seabed,",
+        "start": 251.636364,
+        "end": 252.254545
+      }
+    ],
+    [
+      {
+        "text": "they",
+        "start": 252.290909,
+        "end": 252.436364
+      },
+      {
+        "text": "waited",
+        "start": 252.509091,
+        "end": 252.654545
+      },
+      {
+        "text": "to",
+        "start": 252.727273,
+        "end": 252.8
+      },
+      {
+        "text": "see",
+        "start": 252.872727,
+        "end": 253.018182
+      },
+      {
+        "text": "whether",
+        "start": 253.163636,
+        "end": 253.309091
+      }
+    ],
+    [
+      {
+        "text": "Ireland",
+        "start": 253.381818,
+        "end": 253.672727
+      },
+      {
+        "text": "could",
+        "start": 253.745455,
+        "end": 253.890909
+      },
+      {
+        "text": "still",
+        "start": 253.963636,
+        "end": 254.181818
+      },
+      {
+        "text": "reach",
+        "start": 254.290909,
+        "end": 254.4
+      },
+      {
+        "text": "them.",
+        "start": 254.690909,
+        "end": 255.018182
+      }
+    ],
+    [
+      {
+        "text": "On",
+        "start": 255.054545,
+        "end": 255.2
+      },
+      {
+        "text": "Thomson's",
+        "start": 255.236364,
+        "end": 255.563636
+      },
+      {
+        "text": "instrument,",
+        "start": 255.636364,
+        "end": 256.254545
+      }
+    ],
+    [
+      {
+        "text": "the",
+        "start": 256.290909,
+        "end": 256.436364
+      },
+      {
+        "text": "spot",
+        "start": 256.509091,
+        "end": 256.727273
+      },
+      {
+        "text": "of",
+        "start": 256.8,
+        "end": 256.872727
+      },
+      {
+        "text": "light",
+        "start": 257.018182,
+        "end": 257.163636
+      },
+      {
+        "text": "moved.",
+        "start": 257.236364,
+        "end": 258.0
+      }
+    ],
+    [
+      {
+        "text": "The",
+        "start": 258.036364,
+        "end": 258.109091
+      },
+      {
+        "text": "cable",
+        "start": 258.181818,
+        "end": 258.545455
+      },
+      {
+        "text": "was",
+        "start": 258.618182,
+        "end": 258.763636
+      },
+      {
+        "text": "still",
+        "start": 258.909091,
+        "end": 259.127273
+      },
+      {
+        "text": "alive.",
+        "start": 259.2,
+        "end": 259.854545
+      }
+    ],
+    [
+      {
+        "text": "They",
+        "start": 259.927273,
+        "end": 260.145455
+      },
+      {
+        "text": "joined",
+        "start": 260.254545,
+        "end": 260.363636
+      },
+      {
+        "text": "it",
+        "start": 260.4,
+        "end": 260.436364
+      },
+      {
+        "text": "to",
+        "start": 260.509091,
+        "end": 260.581818
+      },
+      {
+        "text": "fresh",
+        "start": 260.654545,
+        "end": 260.872727
+      }
+    ],
+    [
+      {
+        "text": "cable",
+        "start": 260.945455,
+        "end": 261.309091
+      },
+      {
+        "text": "and",
+        "start": 261.381818,
+        "end": 261.527273
+      },
+      {
+        "text": "brought",
+        "start": 261.6,
+        "end": 261.745455
+      },
+      {
+        "text": "that",
+        "start": 261.818182,
+        "end": 261.963636
+      },
+      {
+        "text": "line",
+        "start": 262.036364,
+        "end": 262.181818
+      }
+    ],
+    [
+      {
+        "text": "ashore",
+        "start": 262.254545,
+        "end": 262.545455
+      },
+      {
+        "text": "too.",
+        "start": 262.690909,
+        "end": 263.272727
+      }
+    ],
+    [
+      {
+        "text": "Eight",
+        "start": 263.381818,
+        "end": 263.490909
+      },
+      {
+        "text": "years",
+        "start": 263.563636,
+        "end": 263.781818
+      },
+      {
+        "text": "earlier,",
+        "start": 263.854545,
+        "end": 264.436364
+      },
+      {
+        "text": "one",
+        "start": 264.509091,
+        "end": 264.654545
+      },
+      {
+        "text": "cable",
+        "start": 264.727273,
+        "end": 264.945455
+      }
+    ],
+    [
+      {
+        "text": "had",
+        "start": 265.018182,
+        "end": 265.090909
+      },
+      {
+        "text": "lasted",
+        "start": 265.163636,
+        "end": 265.527273
+      },
+      {
+        "text": "only",
+        "start": 265.6,
+        "end": 265.818182
+      },
+      {
+        "text": "a",
+        "start": 265.890909,
+        "end": 265.963636
+      },
+      {
+        "text": "few",
+        "start": 266.072727,
+        "end": 266.181818
+      },
+      {
+        "text": "weeks.",
+        "start": 266.363636,
+        "end": 266.981818
+      }
+    ],
+    [
+      {
+        "text": "Now",
+        "start": 267.2,
+        "end": 267.418182
+      },
+      {
+        "text": "the",
+        "start": 267.454545,
+        "end": 267.490909
+      },
+      {
+        "text": "Atlantic",
+        "start": 267.709091,
+        "end": 267.927273
+      },
+      {
+        "text": "had",
+        "start": 268.0,
+        "end": 268.218182
+      },
+      {
+        "text": "two",
+        "start": 268.290909,
+        "end": 268.509091
+      }
+    ],
+    [
+      {
+        "text": "working",
+        "start": 268.581818,
+        "end": 268.872727
+      },
+      {
+        "text": "telegraph",
+        "start": 268.981818,
+        "end": 269.309091
+      },
+      {
+        "text": "lines.",
+        "start": 269.381818,
+        "end": 270.109091
+      }
+    ],
+    [
+      {
+        "text": "A",
+        "start": 270.181818,
+        "end": 270.254545
+      },
+      {
+        "text": "ship",
+        "start": 270.363636,
+        "end": 270.472727
+      },
+      {
+        "text": "still",
+        "start": 270.545455,
+        "end": 270.763636
+      },
+      {
+        "text": "took",
+        "start": 270.836364,
+        "end": 271.054545
+      },
+      {
+        "text": "days",
+        "start": 271.236364,
+        "end": 271.418182
+      }
+    ],
+    [
+      {
+        "text": "to",
+        "start": 271.454545,
+        "end": 271.490909
+      },
+      {
+        "text": "reach",
+        "start": 271.563636,
+        "end": 271.709091
+      },
+      {
+        "text": "the",
+        "start": 271.745455,
+        "end": 271.781818
+      },
+      {
+        "text": "other",
+        "start": 271.854545,
+        "end": 272.0
+      },
+      {
+        "text": "shore.",
+        "start": 272.072727,
+        "end": 272.8
+      }
+    ],
+    [
+      {
+        "text": "Its",
+        "start": 272.909091,
+        "end": 273.018182
+      },
+      {
+        "text": "news",
+        "start": 273.090909,
+        "end": 273.454545
+      }
+    ],
+    [
+      {
+        "text": "could",
+        "start": 273.563636,
+        "end": 273.672727
+      },
+      {
+        "text": "already",
+        "start": 273.745455,
+        "end": 274.109091
+      },
+      {
+        "text": "be",
+        "start": 274.181818,
+        "end": 274.254545
+      },
+      {
+        "text": "there.",
+        "start": 274.363636,
+        "end": 274.472727
+      }
+    ]
+  ],
+  "resolved": {
+    "resolved_font_size_px": 84,
+    "max_visible_width_px": 1344.0,
+    "center_x_px": 1280.0,
+    "baseline": 1288,
+    "algorithm": "sentence-syntax-width-v6",
+    "display_intervals": [
+      {
+        "start_frame": 0,
+        "end_frame": 59
+      },
+      {
+        "start_frame": 59,
+        "end_frame": 102
+      },
+      {
+        "start_frame": 102,
+        "end_frame": 122
+      },
+      {
+        "start_frame": 122,
+        "end_frame": 164
+      },
+      {
+        "start_frame": 164,
+        "end_frame": 212
+      },
+      {
+        "start_frame": 212,
+        "end_frame": 245
+      },
+      {
+        "start_frame": 245,
+        "end_frame": 302
+      },
+      {
+        "start_frame": 302,
+        "end_frame": 323
+      },
+      {
+        "start_frame": 323,
+        "end_frame": 360
+      },
+      {
+        "start_frame": 360,
+        "end_frame": 411
+      },
+      {
+        "start_frame": 411,
+        "end_frame": 446
+      },
+      {
+        "start_frame": 446,
+        "end_frame": 470
+      },
+      {
+        "start_frame": 470,
+        "end_frame": 524
+      },
+      {
+        "start_frame": 524,
+        "end_frame": 548
+      },
+      {
+        "start_frame": 548,
+        "end_frame": 596
+      },
+      {
+        "start_frame": 596,
+        "end_frame": 618
+      },
+      {
+        "start_frame": 618,
+        "end_frame": 670
+      },
+      {
+        "start_frame": 670,
+        "end_frame": 707
+      },
+      {
+        "start_frame": 707,
+        "end_frame": 743
+      },
+      {
+        "start_frame": 743,
+        "end_frame": 780
+      },
+      {
+        "start_frame": 780,
+        "end_frame": 822
+      },
+      {
+        "start_frame": 822,
+        "end_frame": 855
+      },
+      {
+        "start_frame": 855,
+        "end_frame": 889
+      },
+      {
+        "start_frame": 889,
+        "end_frame": 917
+      },
+      {
+        "start_frame": 917,
+        "end_frame": 956
+      },
+      {
+        "start_frame": 956,
+        "end_frame": 1018
+      },
+      {
+        "start_frame": 1018,
+        "end_frame": 1056
+      },
+      {
+        "start_frame": 1056,
+        "end_frame": 1096
+      },
+      {
+        "start_frame": 1096,
+        "end_frame": 1131
+      },
+      {
+        "start_frame": 1131,
+        "end_frame": 1166
+      },
+      {
+        "start_frame": 1166,
+        "end_frame": 1218
+      },
+      {
+        "start_frame": 1218,
+        "end_frame": 1246
+      },
+      {
+        "start_frame": 1246,
+        "end_frame": 1284
+      },
+      {
+        "start_frame": 1284,
+        "end_frame": 1326
+      },
+      {
+        "start_frame": 1326,
+        "end_frame": 1360
+      },
+      {
+        "start_frame": 1360,
+        "end_frame": 1395
+      },
+      {
+        "start_frame": 1395,
+        "end_frame": 1451
+      },
+      {
+        "start_frame": 1451,
+        "end_frame": 1480
+      },
+      {
+        "start_frame": 1480,
+        "end_frame": 1514
+      },
+      {
+        "start_frame": 1514,
+        "end_frame": 1547
+      },
+      {
+        "start_frame": 1547,
+        "end_frame": 1602
+      },
+      {
+        "start_frame": 1602,
+        "end_frame": 1642
+      },
+      {
+        "start_frame": 1642,
+        "end_frame": 1676
+      },
+      {
+        "start_frame": 1676,
+        "end_frame": 1719
+      },
+      {
+        "start_frame": 1719,
+        "end_frame": 1763
+      },
+      {
+        "start_frame": 1763,
+        "end_frame": 1800
+      },
+      {
+        "start_frame": 1800,
+        "end_frame": 1840
+      },
+      {
+        "start_frame": 1840,
+        "end_frame": 1884
+      },
+      {
+        "start_frame": 1884,
+        "end_frame": 1923
+      },
+      {
+        "start_frame": 1923,
+        "end_frame": 1984
+      },
+      {
+        "start_frame": 1984,
+        "end_frame": 2014
+      },
+      {
+        "start_frame": 2014,
+        "end_frame": 2069
+      },
+      {
+        "start_frame": 2069,
+        "end_frame": 2107
+      },
+      {
+        "start_frame": 2107,
+        "end_frame": 2176
+      },
+      {
+        "start_frame": 2176,
+        "end_frame": 2211
+      },
+      {
+        "start_frame": 2211,
+        "end_frame": 2263
+      },
+      {
+        "start_frame": 2263,
+        "end_frame": 2295
+      },
+      {
+        "start_frame": 2295,
+        "end_frame": 2328
+      },
+      {
+        "start_frame": 2328,
+        "end_frame": 2370
+      },
+      {
+        "start_frame": 2370,
+        "end_frame": 2405
+      },
+      {
+        "start_frame": 2405,
+        "end_frame": 2428
+      },
+      {
+        "start_frame": 2428,
+        "end_frame": 2457
+      },
+      {
+        "start_frame": 2457,
+        "end_frame": 2496
+      },
+      {
+        "start_frame": 2496,
+        "end_frame": 2527
+      },
+      {
+        "start_frame": 2527,
+        "end_frame": 2560
+      },
+      {
+        "start_frame": 2560,
+        "end_frame": 2595
+      },
+      {
+        "start_frame": 2595,
+        "end_frame": 2612
+      },
+      {
+        "start_frame": 2612,
+        "end_frame": 2643
+      },
+      {
+        "start_frame": 2643,
+        "end_frame": 2669
+      },
+      {
+        "start_frame": 2669,
+        "end_frame": 2688
+      },
+      {
+        "start_frame": 2688,
+        "end_frame": 2709
+      },
+      {
+        "start_frame": 2709,
+        "end_frame": 2728
+      },
+      {
+        "start_frame": 2728,
+        "end_frame": 2779
+      },
+      {
+        "start_frame": 2779,
+        "end_frame": 2837
+      },
+      {
+        "start_frame": 2837,
+        "end_frame": 2865
+      },
+      {
+        "start_frame": 2865,
+        "end_frame": 2909
+      },
+      {
+        "start_frame": 2909,
+        "end_frame": 2925
+      },
+      {
+        "start_frame": 2925,
+        "end_frame": 2972
+      },
+      {
+        "start_frame": 2972,
+        "end_frame": 3018
+      },
+      {
+        "start_frame": 3018,
+        "end_frame": 3054
+      },
+      {
+        "start_frame": 3054,
+        "end_frame": 3082
+      },
+      {
+        "start_frame": 3082,
+        "end_frame": 3130
+      },
+      {
+        "start_frame": 3130,
+        "end_frame": 3155
+      },
+      {
+        "start_frame": 3155,
+        "end_frame": 3187
+      },
+      {
+        "start_frame": 3187,
+        "end_frame": 3218
+      },
+      {
+        "start_frame": 3218,
+        "end_frame": 3259
+      },
+      {
+        "start_frame": 3259,
+        "end_frame": 3299
+      },
+      {
+        "start_frame": 3299,
+        "end_frame": 3363
+      },
+      {
+        "start_frame": 3363,
+        "end_frame": 3400
+      },
+      {
+        "start_frame": 3400,
+        "end_frame": 3429
+      },
+      {
+        "start_frame": 3429,
+        "end_frame": 3472
+      },
+      {
+        "start_frame": 3472,
+        "end_frame": 3514
+      },
+      {
+        "start_frame": 3514,
+        "end_frame": 3542
+      },
+      {
+        "start_frame": 3542,
+        "end_frame": 3579
+      },
+      {
+        "start_frame": 3579,
+        "end_frame": 3614
+      },
+      {
+        "start_frame": 3614,
+        "end_frame": 3644
+      },
+      {
+        "start_frame": 3644,
+        "end_frame": 3686
+      },
+      {
+        "start_frame": 3686,
+        "end_frame": 3720
+      },
+      {
+        "start_frame": 3720,
+        "end_frame": 3768
+      },
+      {
+        "start_frame": 3768,
+        "end_frame": 3803
+      },
+      {
+        "start_frame": 3803,
+        "end_frame": 3847
+      },
+      {
+        "start_frame": 3847,
+        "end_frame": 3888
+      },
+      {
+        "start_frame": 3888,
+        "end_frame": 3933
+      },
+      {
+        "start_frame": 3933,
+        "end_frame": 3978
+      },
+      {
+        "start_frame": 3978,
+        "end_frame": 4013
+      },
+      {
+        "start_frame": 4013,
+        "end_frame": 4065
+      },
+      {
+        "start_frame": 4065,
+        "end_frame": 4100
+      },
+      {
+        "start_frame": 4100,
+        "end_frame": 4155
+      },
+      {
+        "start_frame": 4155,
+        "end_frame": 4181
+      },
+      {
+        "start_frame": 4181,
+        "end_frame": 4224
+      },
+      {
+        "start_frame": 4224,
+        "end_frame": 4277
+      },
+      {
+        "start_frame": 4277,
+        "end_frame": 4301
+      },
+      {
+        "start_frame": 4301,
+        "end_frame": 4342
+      },
+      {
+        "start_frame": 4342,
+        "end_frame": 4372
+      },
+      {
+        "start_frame": 4372,
+        "end_frame": 4400
+      },
+      {
+        "start_frame": 4400,
+        "end_frame": 4437
+      },
+      {
+        "start_frame": 4437,
+        "end_frame": 4504
+      },
+      {
+        "start_frame": 4504,
+        "end_frame": 4533
+      },
+      {
+        "start_frame": 4533,
+        "end_frame": 4552
+      },
+      {
+        "start_frame": 4552,
+        "end_frame": 4602
+      },
+      {
+        "start_frame": 4602,
+        "end_frame": 4619
+      },
+      {
+        "start_frame": 4619,
+        "end_frame": 4677
+      },
+      {
+        "start_frame": 4677,
+        "end_frame": 4706
+      },
+      {
+        "start_frame": 4706,
+        "end_frame": 4761
+      },
+      {
+        "start_frame": 4761,
+        "end_frame": 4807
+      },
+      {
+        "start_frame": 4807,
+        "end_frame": 4851
+      },
+      {
+        "start_frame": 4851,
+        "end_frame": 4887
+      },
+      {
+        "start_frame": 4887,
+        "end_frame": 4927
+      },
+      {
+        "start_frame": 4927,
+        "end_frame": 4966
+      },
+      {
+        "start_frame": 4966,
+        "end_frame": 4992
+      },
+      {
+        "start_frame": 4992,
+        "end_frame": 5021
+      },
+      {
+        "start_frame": 5021,
+        "end_frame": 5049
+      },
+      {
+        "start_frame": 5049,
+        "end_frame": 5060
+      },
+      {
+        "start_frame": 5060,
+        "end_frame": 5108
+      },
+      {
+        "start_frame": 5108,
+        "end_frame": 5158
+      },
+      {
+        "start_frame": 5158,
+        "end_frame": 5181
+      },
+      {
+        "start_frame": 5181,
+        "end_frame": 5230
+      },
+      {
+        "start_frame": 5230,
+        "end_frame": 5249
+      },
+      {
+        "start_frame": 5249,
+        "end_frame": 5294
+      },
+      {
+        "start_frame": 5294,
+        "end_frame": 5339
+      },
+      {
+        "start_frame": 5339,
+        "end_frame": 5407
+      },
+      {
+        "start_frame": 5407,
+        "end_frame": 5433
+      },
+      {
+        "start_frame": 5433,
+        "end_frame": 5472
+      },
+      {
+        "start_frame": 5472,
+        "end_frame": 5498
+      },
+      {
+        "start_frame": 5498,
+        "end_frame": 5512
+      },
+      {
+        "start_frame": 5512,
+        "end_frame": 5553
+      },
+      {
+        "start_frame": 5553,
+        "end_frame": 5601
+      },
+      {
+        "start_frame": 5601,
+        "end_frame": 5655
+      },
+      {
+        "start_frame": 5655,
+        "end_frame": 5680
+      },
+      {
+        "start_frame": 5680,
+        "end_frame": 5706
+      },
+      {
+        "start_frame": 5706,
+        "end_frame": 5736
+      },
+      {
+        "start_frame": 5736,
+        "end_frame": 5775
+      },
+      {
+        "start_frame": 5775,
+        "end_frame": 5812
+      },
+      {
+        "start_frame": 5812,
+        "end_frame": 5870
+      },
+      {
+        "start_frame": 5870,
+        "end_frame": 5904
+      },
+      {
+        "start_frame": 5904,
+        "end_frame": 5947
+      },
+      {
+        "start_frame": 5947,
+        "end_frame": 5966
+      },
+      {
+        "start_frame": 5966,
+        "end_frame": 5999
+      },
+      {
+        "start_frame": 5999,
+        "end_frame": 6055
+      },
+      {
+        "start_frame": 6055,
+        "end_frame": 6090
+      },
+      {
+        "start_frame": 6090,
+        "end_frame": 6129
+      },
+      {
+        "start_frame": 6129,
+        "end_frame": 6163
+      },
+      {
+        "start_frame": 6163,
+        "end_frame": 6203
+      },
+      {
+        "start_frame": 6203,
+        "end_frame": 6224
+      },
+      {
+        "start_frame": 6224,
+        "end_frame": 6288
+      },
+      {
+        "start_frame": 6288,
+        "end_frame": 6321
+      },
+      {
+        "start_frame": 6321,
+        "end_frame": 6354
+      },
+      {
+        "start_frame": 6354,
+        "end_frame": 6384
+      },
+      {
+        "start_frame": 6384,
+        "end_frame": 6419
+      },
+      {
+        "start_frame": 6419,
+        "end_frame": 6437
+      },
+      {
+        "start_frame": 6437,
+        "end_frame": 6465
+      },
+      {
+        "start_frame": 6465,
+        "end_frame": 6507
+      },
+      {
+        "start_frame": 6507,
+        "end_frame": 6566
+      },
+      {
+        "start_frame": 6566,
+        "end_frame": 6619
+      },
+      {
+        "start_frame": 6619,
+        "end_frame": 6644
+      },
+      {
+        "start_frame": 6644,
+        "end_frame": 6670
+      },
+      {
+        "start_frame": 6670,
+        "end_frame": 6712
+      },
+      {
+        "start_frame": 6712,
+        "end_frame": 6738
+      },
+      {
+        "start_frame": 6738,
+        "end_frame": 6770
+      },
+      {
+        "start_frame": 6770,
+        "end_frame": 6809
+      },
+      {
+        "start_frame": 6809,
+        "end_frame": 6860
+      },
+      {
+        "start_frame": 6860,
+        "end_frame": 6899
+      },
+      {
+        "start_frame": 6899,
+        "end_frame": 6932
+      },
+      {
+        "start_frame": 6932,
+        "end_frame": 6970
+      },
+      {
+        "start_frame": 6970,
+        "end_frame": 7019
+      },
+      {
+        "start_frame": 7019,
+        "end_frame": 7078
+      },
+      {
+        "start_frame": 7078,
+        "end_frame": 7115
+      },
+      {
+        "start_frame": 7115,
+        "end_frame": 7142
+      },
+      {
+        "start_frame": 7142,
+        "end_frame": 7174
+      },
+      {
+        "start_frame": 7174,
+        "end_frame": 7224
+      },
+      {
+        "start_frame": 7224,
+        "end_frame": 7264
+      },
+      {
+        "start_frame": 7264,
+        "end_frame": 7296
+      },
+      {
+        "start_frame": 7296,
+        "end_frame": 7352
+      },
+      {
+        "start_frame": 7352,
+        "end_frame": 7385
+      },
+      {
+        "start_frame": 7385,
+        "end_frame": 7437
+      },
+      {
+        "start_frame": 7437,
+        "end_frame": 7456
+      },
+      {
+        "start_frame": 7456,
+        "end_frame": 7506
+      },
+      {
+        "start_frame": 7506,
+        "end_frame": 7532
+      },
+      {
+        "start_frame": 7532,
+        "end_frame": 7569
+      },
+      {
+        "start_frame": 7569,
+        "end_frame": 7602
+      },
+      {
+        "start_frame": 7602,
+        "end_frame": 7652
+      },
+      {
+        "start_frame": 7652,
+        "end_frame": 7689
+      },
+      {
+        "start_frame": 7689,
+        "end_frame": 7742
+      },
+      {
+        "start_frame": 7742,
+        "end_frame": 7798
+      },
+      {
+        "start_frame": 7798,
+        "end_frame": 7829
+      },
+      {
+        "start_frame": 7829,
+        "end_frame": 7868
+      },
+      {
+        "start_frame": 7868,
+        "end_frame": 7902
+      },
+      {
+        "start_frame": 7902,
+        "end_frame": 7951
+      },
+      {
+        "start_frame": 7951,
+        "end_frame": 8016
+      },
+      {
+        "start_frame": 8016,
+        "end_frame": 8058
+      },
+      {
+        "start_frame": 8058,
+        "end_frame": 8106
+      },
+      {
+        "start_frame": 8106,
+        "end_frame": 8144
+      },
+      {
+        "start_frame": 8144,
+        "end_frame": 8188
+      },
+      {
+        "start_frame": 8188,
+        "end_frame": 8207
+      },
+      {
+        "start_frame": 8207,
+        "end_frame": 8237
+      }
+    ],
+    "boundary_warnings": [
+      {
+        "after_group": 2,
+        "left": "to the president",
+        "right": "of the United States.",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 42,
+        "left": "needed a waterproof coat",
+        "right": "around the copper and a jacket",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 43,
+        "left": "around the copper and a jacket",
+        "right": "of iron to protect it.",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 54,
+        "left": "after hundreds of miles",
+        "right": "had already gone over the side.",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 60,
+        "left": "Meet in the middle",
+        "right": "of the ocean.",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 66,
+        "left": "and the other",
+        "right": "for Newfoundland.",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 80,
+        "left": "a telegraph message",
+        "right": "could cross the Atlantic.",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 86,
+        "left": "A telegraph sends a message",
+        "right": "as a series of electrical pulses.",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 105,
+        "left": "underwater: the insulation",
+        "right": "around the copper.",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 133,
+        "left": "expedition still needed a cable",
+        "right": "that could survive the sea.",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 143,
+        "left": "The Great Eastern",
+        "right": "had been built",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 152,
+        "left": "they could stop and haul part",
+        "right": "of the cable back up to fix it.",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 161,
+        "left": "away, they stopped",
+        "right": "for another repair.",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 181,
+        "left": "Operators on either shore",
+        "right": "could pass messages back",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 183,
+        "left": "and forth over a connection",
+        "right": "that stayed in service.",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 207,
+        "left": "Eight years earlier, one cable",
+        "right": "had lasted only a few weeks.",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      },
+      {
+        "after_group": 213,
+        "left": "Its news",
+        "right": "could already be there.",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      }
+    ]
+  }
+}

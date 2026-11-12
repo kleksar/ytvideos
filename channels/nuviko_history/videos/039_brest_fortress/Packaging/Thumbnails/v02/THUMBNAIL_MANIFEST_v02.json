@@ -1,0 +1,31 @@
+{
+  "version": "v02",
+  "status": "draft_user_review",
+  "revision_scope": "C revised after user feedback that the previous image looked like an apartment entrance; A and B are byte-identical reuses from v01.",
+  "variants": [
+    {
+      "variant": "A",
+      "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Packaging/Thumbnails/v02/thumbnail_A_v01.png",
+      "sha256": "49f3e910128a5b9878f763a8bbe228000fe7f0b359695dca3176515aadf4ca7d",
+      "width": 1672,
+      "height": 941,
+      "reuse_of": "v01/thumbnail_A_v01.png"
+    },
+    {
+      "variant": "B",
+      "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Packaging/Thumbnails/v02/thumbnail_B_v01.png",
+      "sha256": "186ea901d393c8a7e127f2643aa1923804445c66fb463cc1320b6a838c7ba27a",
+      "width": 1672,
+      "height": 941,
+      "reuse_of": "v01/thumbnail_B_v01.png"
+    },
+    {
+      "variant": "C",
+      "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/039_brest_fortress/Packaging/Thumbnails/v02/thumbnail_C_v02.png",
+      "sha256": "f5c56fd1e3fbdf2da17cb834c7922944dd48e02b4bc3cda6a10c0c1ec4d4f860",
+      "width": 1672,
+      "height": 941,
+      "prompt_record": "Image generator prompt and actual references are in the artifact-generation conversation and this episode's consultation record."
+    }
+  ]
+}

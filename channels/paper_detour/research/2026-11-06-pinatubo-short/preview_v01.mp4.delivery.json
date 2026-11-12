@@ -1,0 +1,1813 @@
+{
+  "schema": "ytv-delivery-v2",
+  "channel": "paper",
+  "media": {
+    "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-06-pinatubo-short/preview_v01.mp4",
+    "sha256": "a0636be26453ec9cd8a68b2f5d7c95202ffbc235554b1f2b82fa322614904240"
+  },
+  "inputs": [
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-06-pinatubo-short/montage_v01.json",
+      "sha256": "204138b0f54a0ad83b50ac11b688687c8f893d2397bc9e4998a218e373884f16"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-06-pinatubo-short/full_mix_v01.m4a",
+      "sha256": "1362bf03a12345f1300cef53eff0cb3865c5a564c085ee6184ef526e5b311051"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-06-pinatubo-short/scene_1.png",
+      "sha256": "b50ce55e635d4e0007f6ff8aaede2aa575eccd565b3e5e0044292caab4a9f901"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-06-pinatubo-short/scene_volcano.png",
+      "sha256": "b1d20924c8b70ca2d1932b84ac10921c9470649e1302373b5033650c6a4878dc"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-06-pinatubo-short/scene_2.png",
+      "sha256": "bbffbff5024b254dd35231f14ecc2310ef17e5472770d95ba937fe31413c1621"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-06-pinatubo-short/scene_extra_3.png",
+      "sha256": "132e49731ee0aa6864061a0fd2710be49be7fc0b0081032d5a4fa9dea288ad2e"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-06-pinatubo-short/scene_extra_1.png",
+      "sha256": "6cb78855f05185b359b32c2b67571e5f79729af2f8dbee296b2f418991307d38"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-06-pinatubo-short/scene_extra_2.png",
+      "sha256": "015344327bc5f510f19259363a42ccaf3efaf33538d179aa712d5e10025a473b"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-06-pinatubo-short/scene_5.png",
+      "sha256": "7c8ecd6ec9d25a0ec45235bba15aa17a027e36136f308a60535e071cd924e99c"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-06-pinatubo-short/scene_6.png",
+      "sha256": "2415adc1c2a5dfb1c0ce07b6a1f23502608d608a8f504f4514e1377faef93c59"
+    }
+  ],
+  "subtitles": {
+    "schema": "ytv-delivery-v1",
+    "channel": "paper",
+    "format": "short",
+    "canvas": [
+      1440,
+      2560
+    ],
+    "fps": 30,
+    "frames": 1283,
+    "caption_end_frame": 1283,
+    "audio": {
+      "audio": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-06-pinatubo-short/full_mix_v01.m4a",
+        "sha256": "1362bf03a12345f1300cef53eff0cb3865c5a564c085ee6184ef526e5b311051"
+      },
+      "applied_speed": 1.1,
+      "speed_policy": {
+        "path": "/Users/diplomat/ytvideos/.agents/skills/ytv-audio-delivery/references/speed.json",
+        "sha256": "32c378c36c1e297cbdc4e3593c965163d33e531b8b8eea026b367bddb51a668a"
+      },
+      "speed_evidence": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-06-pinatubo-short/speed_evidence.md",
+        "sha256": "658b646f751bcfc062339399cbfcb36d64c0216ad6f7ce275c97c7f0c4adddf3"
+      }
+    },
+    "transcript": {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-06-pinatubo-short/narration_en_v01.txt",
+      "sha256": "d015950018bb99d56d472e25e237f8e9b8ddd49f56173d82e1e8ab3bd9789a70"
+    },
+    "word_map": {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-06-pinatubo-short/word_times_v01.json",
+      "sha256": "ea84e1883ca2bdb186d3c466c3b309ee3c9ca4d68981fbc80636c2093f85af75"
+    },
+    "profiles": [
+      {
+        "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/profiles/paper.json",
+        "sha256": "e2b89e813ec25985601ef65997ea8b94c19e96aa6d158333edf962b42e02ffc0"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/profiles/short.json",
+        "sha256": "ab84ac0aed239ea59e26a4d0e4878decd47f1e5f42db9a3563ca06bbea0adb6b"
+      },
+      {
+        "path": "/System/Library/Fonts/Supplemental/ChalkboardSE.ttc",
+        "sha256": "256d3dd291f0d2bd3379882e7fb9c8276fba219ea447a1073d2fce17690e0478"
+      }
+    ],
+    "engine": [
+      {
+        "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/montage.py",
+        "sha256": "24c1486c0e6302b93372a390da21b198d2c4567be79813acc5b5d12ad7c82023"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/delivery.py",
+        "sha256": "f1202d5c539a05860b00b4221ee9c34b80c49722eaca1ecd3b96412aa15b9e72"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/.agents/skills/ytv-paper-subtitles/scripts/semantic_grouping.py",
+        "sha256": "046d92c9fecbd993cd2f0087357ae8354d6e17a0db801655cb57f1682aac9dcd"
+      }
+    ],
+    "picture": [
+      {
+        "scene": {
+          "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-06-pinatubo-short/scene_1.png",
+          "start_frame": 0,
+          "end_frame": 160,
+          "direction": "left_to_right",
+          "zoom": "in"
+        },
+        "image": {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-06-pinatubo-short/scene_1.png",
+          "sha256": "b50ce55e635d4e0007f6ff8aaede2aa575eccd565b3e5e0044292caab4a9f901"
+        }
+      },
+      {
+        "scene": {
+          "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-06-pinatubo-short/scene_volcano.png",
+          "start_frame": 160,
+          "end_frame": 320,
+          "direction": "right_to_left",
+          "zoom": "out"
+        },
+        "image": {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-06-pinatubo-short/scene_volcano.png",
+          "sha256": "b1d20924c8b70ca2d1932b84ac10921c9470649e1302373b5033650c6a4878dc"
+        }
+      },
+      {
+        "scene": {
+          "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-06-pinatubo-short/scene_2.png",
+          "start_frame": 320,
+          "end_frame": 480,
+          "direction": "left_to_right",
+          "zoom": "in"
+        },
+        "image": {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-06-pinatubo-short/scene_2.png",
+          "sha256": "bbffbff5024b254dd35231f14ecc2310ef17e5472770d95ba937fe31413c1621"
+        }
+      },
+      {
+        "scene": {
+          "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-06-pinatubo-short/scene_extra_3.png",
+          "start_frame": 480,
+          "end_frame": 640,
+          "direction": "right_to_left",
+          "zoom": "out"
+        },
+        "image": {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-06-pinatubo-short/scene_extra_3.png",
+          "sha256": "132e49731ee0aa6864061a0fd2710be49be7fc0b0081032d5a4fa9dea288ad2e"
+        }
+      },
+      {
+        "scene": {
+          "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-06-pinatubo-short/scene_extra_1.png",
+          "start_frame": 640,
+          "end_frame": 800,
+          "direction": "left_to_right",
+          "zoom": "in"
+        },
+        "image": {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-06-pinatubo-short/scene_extra_1.png",
+          "sha256": "6cb78855f05185b359b32c2b67571e5f79729af2f8dbee296b2f418991307d38"
+        }
+      },
+      {
+        "scene": {
+          "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-06-pinatubo-short/scene_extra_2.png",
+          "start_frame": 800,
+          "end_frame": 960,
+          "direction": "right_to_left",
+          "zoom": "out"
+        },
+        "image": {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-06-pinatubo-short/scene_extra_2.png",
+          "sha256": "015344327bc5f510f19259363a42ccaf3efaf33538d179aa712d5e10025a473b"
+        }
+      },
+      {
+        "scene": {
+          "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-06-pinatubo-short/scene_5.png",
+          "start_frame": 960,
+          "end_frame": 1120,
+          "direction": "left_to_right",
+          "zoom": "in"
+        },
+        "image": {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-06-pinatubo-short/scene_5.png",
+          "sha256": "7c8ecd6ec9d25a0ec45235bba15aa17a027e36136f308a60535e071cd924e99c"
+        }
+      },
+      {
+        "scene": {
+          "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-06-pinatubo-short/scene_6.png",
+          "start_frame": 1120,
+          "end_frame": 1283,
+          "direction": "right_to_left",
+          "zoom": "out"
+        },
+        "image": {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-06-pinatubo-short/scene_6.png",
+          "sha256": "2415adc1c2a5dfb1c0ce07b6a1f23502608d608a8f504f4514e1377faef93c59"
+        }
+      }
+    ],
+    "overlays": [],
+    "groups": [
+      [
+        {
+          "text": "In",
+          "display": "IN",
+          "start_seconds": 0.0,
+          "end_seconds": 0.1455,
+          "start": 0.0,
+          "end": 0.1455
+        },
+        {
+          "text": "1991,",
+          "display": "1991",
+          "start_seconds": 0.2182,
+          "end_seconds": 1.0909,
+          "start": 0.2182,
+          "end": 1.0909
+        }
+      ],
+      [
+        {
+          "text": "roofs",
+          "display": "ROOFS",
+          "start_seconds": 1.5273,
+          "end_seconds": 1.7455,
+          "start": 1.5273,
+          "end": 1.7455
+        },
+        {
+          "text": "began",
+          "display": "BEGAN",
+          "start_seconds": 1.8182,
+          "end_seconds": 2.0364,
+          "start": 1.8182,
+          "end": 2.0364
+        }
+      ],
+      [
+        {
+          "text": "collapsing",
+          "display": "COLLAPSING",
+          "start_seconds": 2.1091,
+          "end_seconds": 2.6909,
+          "start": 2.1091,
+          "end": 2.6909
+        },
+        {
+          "text": "miles",
+          "display": "MILES",
+          "start_seconds": 2.7636,
+          "end_seconds": 3.1273,
+          "start": 2.7636,
+          "end": 3.1273
+        }
+      ],
+      [
+        {
+          "text": "from",
+          "display": "FROM",
+          "start_seconds": 3.2,
+          "end_seconds": 3.2727,
+          "start": 3.2,
+          "end": 3.2727
+        },
+        {
+          "text": "a",
+          "display": "A",
+          "start_seconds": 3.3091,
+          "end_seconds": 3.3455,
+          "start": 3.3091,
+          "end": 3.3455
+        },
+        {
+          "text": "volcano",
+          "display": "VOLCANO",
+          "start_seconds": 3.4545,
+          "end_seconds": 3.8545,
+          "start": 3.4545,
+          "end": 3.8545
+        }
+      ],
+      [
+        {
+          "text": "in",
+          "display": "IN",
+          "start_seconds": 3.8909,
+          "end_seconds": 3.9273,
+          "start": 3.8909,
+          "end": 3.9273
+        },
+        {
+          "text": "the",
+          "display": "THE",
+          "start_seconds": 4.0,
+          "end_seconds": 4.0727,
+          "start": 4.0,
+          "end": 4.0727
+        },
+        {
+          "text": "Philippines.",
+          "display": "PHILIPPINES",
+          "start_seconds": 4.1455,
+          "end_seconds": 4.6545,
+          "start": 4.1455,
+          "end": 4.6545
+        }
+      ],
+      [
+        {
+          "text": "No",
+          "display": "NO",
+          "start_seconds": 5.1636,
+          "end_seconds": 5.3091,
+          "start": 5.1636,
+          "end": 5.3091
+        },
+        {
+          "text": "lava",
+          "display": "LAVA",
+          "start_seconds": 5.3818,
+          "end_seconds": 5.6727,
+          "start": 5.3818,
+          "end": 5.6727
+        }
+      ],
+      [
+        {
+          "text": "had",
+          "display": "HAD",
+          "start_seconds": 5.7455,
+          "end_seconds": 5.8182,
+          "start": 5.7455,
+          "end": 5.8182
+        },
+        {
+          "text": "reached",
+          "display": "REACHED",
+          "start_seconds": 5.8909,
+          "end_seconds": 6.1091,
+          "start": 5.8909,
+          "end": 6.1091
+        },
+        {
+          "text": "them.",
+          "display": "THEM",
+          "start_seconds": 6.2182,
+          "end_seconds": 6.3273,
+          "start": 6.2182,
+          "end": 6.3273
+        }
+      ],
+      [
+        {
+          "text": "So",
+          "display": "SO",
+          "start_seconds": 6.9455,
+          "end_seconds": 7.1273,
+          "start": 6.9455,
+          "end": 7.1273
+        },
+        {
+          "text": "what",
+          "display": "WHAT",
+          "start_seconds": 7.2,
+          "end_seconds": 7.2727,
+          "start": 7.2,
+          "end": 7.2727
+        }
+      ],
+      [
+        {
+          "text": "was",
+          "display": "WAS",
+          "start_seconds": 7.3455,
+          "end_seconds": 7.4909,
+          "start": 7.3455,
+          "end": 7.4909
+        },
+        {
+          "text": "crushing",
+          "display": "CRUSHING",
+          "start_seconds": 7.5636,
+          "end_seconds": 7.8545,
+          "start": 7.5636,
+          "end": 7.8545
+        }
+      ],
+      [
+        {
+          "text": "the",
+          "display": "THE",
+          "start_seconds": 7.9273,
+          "end_seconds": 8.0,
+          "start": 7.9273,
+          "end": 8.0
+        },
+        {
+          "text": "buildings?",
+          "display": "BUILDINGS",
+          "start_seconds": 8.1091,
+          "end_seconds": 8.4364,
+          "start": 8.1091,
+          "end": 8.4364
+        }
+      ],
+      [
+        {
+          "text": "Mount",
+          "display": "MOUNT",
+          "start_seconds": 9.1273,
+          "end_seconds": 9.2364,
+          "start": 9.1273,
+          "end": 9.2364
+        },
+        {
+          "text": "Pinatubo",
+          "display": "PINATUBO",
+          "start_seconds": 9.3091,
+          "end_seconds": 9.8909,
+          "start": 9.3091,
+          "end": 9.8909
+        }
+      ],
+      [
+        {
+          "text": "had",
+          "display": "HAD",
+          "start_seconds": 9.9636,
+          "end_seconds": 10.0364,
+          "start": 9.9636,
+          "end": 10.0364
+        },
+        {
+          "text": "erupted,",
+          "display": "ERUPTED",
+          "start_seconds": 10.1455,
+          "end_seconds": 10.5455,
+          "start": 10.1455,
+          "end": 10.5455
+        }
+      ],
+      [
+        {
+          "text": "throwing",
+          "display": "THROWING",
+          "start_seconds": 10.8364,
+          "end_seconds": 11.0545,
+          "start": 10.8364,
+          "end": 11.0545
+        },
+        {
+          "text": "volcanic",
+          "display": "VOLCANIC",
+          "start_seconds": 11.1636,
+          "end_seconds": 11.5636,
+          "start": 11.1636,
+          "end": 11.5636
+        }
+      ],
+      [
+        {
+          "text": "ash",
+          "display": "ASH",
+          "start_seconds": 11.6364,
+          "end_seconds": 11.8545,
+          "start": 11.6364,
+          "end": 11.8545
+        },
+        {
+          "text": "high",
+          "display": "HIGH",
+          "start_seconds": 12.0,
+          "end_seconds": 12.2909,
+          "start": 12.0,
+          "end": 12.2909
+        }
+      ],
+      [
+        {
+          "text": "into",
+          "display": "INTO",
+          "start_seconds": 12.4,
+          "end_seconds": 12.5091,
+          "start": 12.4,
+          "end": 12.5091
+        },
+        {
+          "text": "the",
+          "display": "THE",
+          "start_seconds": 12.5455,
+          "end_seconds": 12.5818,
+          "start": 12.5455,
+          "end": 12.5818
+        },
+        {
+          "text": "sky.",
+          "display": "SKY",
+          "start_seconds": 12.6545,
+          "end_seconds": 13.0182,
+          "start": 12.6545,
+          "end": 13.0182
+        }
+      ],
+      [
+        {
+          "text": "That",
+          "display": "THAT",
+          "start_seconds": 13.6364,
+          "end_seconds": 13.7455,
+          "start": 13.6364,
+          "end": 13.7455
+        },
+        {
+          "text": "same",
+          "display": "SAME",
+          "start_seconds": 13.8182,
+          "end_seconds": 14.0364,
+          "start": 13.8182,
+          "end": 14.0364
+        },
+        {
+          "text": "day,",
+          "display": "DAY",
+          "start_seconds": 14.1091,
+          "end_seconds": 14.3273,
+          "start": 14.1091,
+          "end": 14.3273
+        }
+      ],
+      [
+        {
+          "text": "a",
+          "display": "A",
+          "start_seconds": 14.6182,
+          "end_seconds": 14.6909,
+          "start": 14.6182,
+          "end": 14.6909
+        },
+        {
+          "text": "typhoon",
+          "display": "TYPHOON",
+          "start_seconds": 14.8364,
+          "end_seconds": 15.2727,
+          "start": 14.8364,
+          "end": 15.2727
+        },
+        {
+          "text": "swept",
+          "display": "SWEPT",
+          "start_seconds": 15.3455,
+          "end_seconds": 15.6364,
+          "start": 15.3455,
+          "end": 15.6364
+        }
+      ],
+      [
+        {
+          "text": "across",
+          "display": "ACROSS",
+          "start_seconds": 15.7091,
+          "end_seconds": 15.9273,
+          "start": 15.7091,
+          "end": 15.9273
+        },
+        {
+          "text": "the",
+          "display": "THE",
+          "start_seconds": 16.0,
+          "end_seconds": 16.0727,
+          "start": 16.0,
+          "end": 16.0727
+        },
+        {
+          "text": "region.",
+          "display": "REGION",
+          "start_seconds": 16.2545,
+          "end_seconds": 16.4364,
+          "start": 16.2545,
+          "end": 16.4364
+        }
+      ],
+      [
+        {
+          "text": "Its",
+          "display": "ITS",
+          "start_seconds": 16.9818,
+          "end_seconds": 17.0909,
+          "start": 16.9818,
+          "end": 17.0909
+        },
+        {
+          "text": "winds",
+          "display": "WINDS",
+          "start_seconds": 17.2118,
+          "end_seconds": 17.4545,
+          "start": 17.2118,
+          "end": 17.4545
+        }
+      ],
+      [
+        {
+          "text": "spread",
+          "display": "SPREAD",
+          "start_seconds": 17.6,
+          "end_seconds": 17.7455,
+          "start": 17.6,
+          "end": 17.7455
+        },
+        {
+          "text": "the",
+          "display": "THE",
+          "start_seconds": 17.8182,
+          "end_seconds": 17.8909,
+          "start": 17.8182,
+          "end": 17.8909
+        },
+        {
+          "text": "ash.",
+          "display": "ASH",
+          "start_seconds": 18.0727,
+          "end_seconds": 18.2545,
+          "start": 18.0727,
+          "end": 18.2545
+        }
+      ],
+      [
+        {
+          "text": "Its",
+          "display": "ITS",
+          "start_seconds": 18.6545,
+          "end_seconds": 18.7636,
+          "start": 18.6545,
+          "end": 18.7636
+        },
+        {
+          "text": "rain",
+          "display": "RAIN",
+          "start_seconds": 18.8364,
+          "end_seconds": 19.2,
+          "start": 18.8364,
+          "end": 19.2
+        }
+      ],
+      [
+        {
+          "text": "soaked",
+          "display": "SOAKED",
+          "start_seconds": 19.2727,
+          "end_seconds": 19.4909,
+          "start": 19.2727,
+          "end": 19.4909
+        },
+        {
+          "text": "it.",
+          "display": "IT",
+          "start_seconds": 19.5636,
+          "end_seconds": 19.6364,
+          "start": 19.5636,
+          "end": 19.6364
+        }
+      ],
+      [
+        {
+          "text": "Volcanic",
+          "display": "VOLCANIC",
+          "start_seconds": 20.2545,
+          "end_seconds": 20.5818,
+          "start": 20.2545,
+          "end": 20.5818
+        },
+        {
+          "text": "ash",
+          "display": "ASH",
+          "start_seconds": 20.7273,
+          "end_seconds": 20.9455,
+          "start": 20.7273,
+          "end": 20.9455
+        }
+      ],
+      [
+        {
+          "text": "is",
+          "display": "IS",
+          "start_seconds": 21.0182,
+          "end_seconds": 21.0909,
+          "start": 21.0182,
+          "end": 21.0909
+        },
+        {
+          "text": "made",
+          "display": "MADE",
+          "start_seconds": 21.1636,
+          "end_seconds": 21.2364,
+          "start": 21.1636,
+          "end": 21.2364
+        }
+      ],
+      [
+        {
+          "text": "of",
+          "display": "OF",
+          "start_seconds": 21.3091,
+          "end_seconds": 21.3818,
+          "start": 21.3091,
+          "end": 21.3818
+        },
+        {
+          "text": "tiny",
+          "display": "TINY",
+          "start_seconds": 21.5636,
+          "end_seconds": 21.7455,
+          "start": 21.5636,
+          "end": 21.7455
+        }
+      ],
+      [
+        {
+          "text": "pieces",
+          "display": "PIECES",
+          "start_seconds": 21.8182,
+          "end_seconds": 22.1091,
+          "start": 21.8182,
+          "end": 22.1091
+        },
+        {
+          "text": "of",
+          "display": "OF",
+          "start_seconds": 22.1818,
+          "end_seconds": 22.2545,
+          "start": 22.1818,
+          "end": 22.2545
+        },
+        {
+          "text": "rock",
+          "display": "ROCK",
+          "start_seconds": 22.4,
+          "end_seconds": 22.5455,
+          "start": 22.4,
+          "end": 22.5455
+        }
+      ],
+      [
+        {
+          "text": "and",
+          "display": "AND",
+          "start_seconds": 22.6182,
+          "end_seconds": 22.6909,
+          "start": 22.6182,
+          "end": 22.6909
+        },
+        {
+          "text": "glass.",
+          "display": "GLASS",
+          "start_seconds": 23.1273,
+          "end_seconds": 23.5636,
+          "start": 23.1273,
+          "end": 23.5636
+        }
+      ],
+      [
+        {
+          "text": "As",
+          "display": "AS",
+          "start_seconds": 23.6609,
+          "end_seconds": 23.7091,
+          "start": 23.6609,
+          "end": 23.7091
+        },
+        {
+          "text": "the",
+          "display": "THE",
+          "start_seconds": 23.7818,
+          "end_seconds": 23.8545,
+          "start": 23.7818,
+          "end": 23.8545
+        },
+        {
+          "text": "wet",
+          "display": "WET",
+          "start_seconds": 23.8909,
+          "end_seconds": 24.0727,
+          "start": 23.8909,
+          "end": 24.0727
+        }
+      ],
+      [
+        {
+          "text": "ash",
+          "display": "ASH",
+          "start_seconds": 24.1455,
+          "end_seconds": 24.3636,
+          "start": 24.1455,
+          "end": 24.3636
+        },
+        {
+          "text": "piled",
+          "display": "PILED",
+          "start_seconds": 24.4364,
+          "end_seconds": 24.6545,
+          "start": 24.4364,
+          "end": 24.6545
+        }
+      ],
+      [
+        {
+          "text": "up",
+          "display": "UP",
+          "start_seconds": 24.7273,
+          "end_seconds": 24.8,
+          "start": 24.7273,
+          "end": 24.8
+        },
+        {
+          "text": "on",
+          "display": "ON",
+          "start_seconds": 24.8727,
+          "end_seconds": 24.9455,
+          "start": 24.8727,
+          "end": 24.9455
+        },
+        {
+          "text": "rooftops,",
+          "display": "ROOFTOPS",
+          "start_seconds": 25.0182,
+          "end_seconds": 25.7455,
+          "start": 25.0182,
+          "end": 25.7455
+        }
+      ],
+      [
+        {
+          "text": "the",
+          "display": "THE",
+          "start_seconds": 25.8427,
+          "end_seconds": 25.8909,
+          "start": 25.8427,
+          "end": 25.8909
+        },
+        {
+          "text": "weight",
+          "display": "WEIGHT",
+          "start_seconds": 26.0,
+          "end_seconds": 26.1091,
+          "start": 26.0,
+          "end": 26.1091
+        }
+      ],
+      [
+        {
+          "text": "grew",
+          "display": "GREW",
+          "start_seconds": 26.1818,
+          "end_seconds": 26.4,
+          "start": 26.1818,
+          "end": 26.4
+        },
+        {
+          "text": "too",
+          "display": "TOO",
+          "start_seconds": 26.5091,
+          "end_seconds": 26.6182,
+          "start": 26.5091,
+          "end": 26.6182
+        },
+        {
+          "text": "much",
+          "display": "MUCH",
+          "start_seconds": 26.6909,
+          "end_seconds": 26.9091,
+          "start": 26.6909,
+          "end": 26.9091
+        }
+      ],
+      [
+        {
+          "text": "for",
+          "display": "FOR",
+          "start_seconds": 26.9818,
+          "end_seconds": 27.0545,
+          "start": 26.9818,
+          "end": 27.0545
+        },
+        {
+          "text": "some",
+          "display": "SOME",
+          "start_seconds": 27.1273,
+          "end_seconds": 27.2,
+          "start": 27.1273,
+          "end": 27.2
+        },
+        {
+          "text": "buildings.",
+          "display": "BUILDINGS",
+          "start_seconds": 27.2727,
+          "end_seconds": 28.0727,
+          "start": 27.2727,
+          "end": 28.0727
+        }
+      ],
+      [
+        {
+          "text": "At",
+          "display": "AT",
+          "start_seconds": 28.2182,
+          "end_seconds": 28.2909,
+          "start": 28.2182,
+          "end": 28.2909
+        },
+        {
+          "text": "Clark",
+          "display": "CLARK",
+          "start_seconds": 28.4364,
+          "end_seconds": 28.5818,
+          "start": 28.4364,
+          "end": 28.5818
+        }
+      ],
+      [
+        {
+          "text": "Air",
+          "display": "AIR",
+          "start_seconds": 28.6545,
+          "end_seconds": 28.7273,
+          "start": 28.6545,
+          "end": 28.7273
+        },
+        {
+          "text": "Base,",
+          "display": "BASE",
+          "start_seconds": 28.8,
+          "end_seconds": 29.0182,
+          "start": 28.8,
+          "end": 29.0182
+        }
+      ],
+      [
+        {
+          "text": "about",
+          "display": "ABOUT",
+          "start_seconds": 29.2364,
+          "end_seconds": 29.4545,
+          "start": 29.2364,
+          "end": 29.4545
+        },
+        {
+          "text": "twelve",
+          "display": "TWELVE",
+          "start_seconds": 29.5273,
+          "end_seconds": 29.7455,
+          "start": 29.5273,
+          "end": 29.7455
+        },
+        {
+          "text": "miles",
+          "display": "MILES",
+          "start_seconds": 29.8182,
+          "end_seconds": 30.0364,
+          "start": 29.8182,
+          "end": 30.0364
+        }
+      ],
+      [
+        {
+          "text": "from",
+          "display": "FROM",
+          "start_seconds": 30.1091,
+          "end_seconds": 30.1818,
+          "start": 30.1091,
+          "end": 30.1818
+        },
+        {
+          "text": "the",
+          "display": "THE",
+          "start_seconds": 30.2182,
+          "end_seconds": 30.2545,
+          "start": 30.2182,
+          "end": 30.2545
+        },
+        {
+          "text": "volcano,",
+          "display": "VOLCANO",
+          "start_seconds": 30.3273,
+          "end_seconds": 30.7636,
+          "start": 30.3273,
+          "end": 30.7636
+        }
+      ],
+      [
+        {
+          "text": "roofs",
+          "display": "ROOFS",
+          "start_seconds": 31.2,
+          "end_seconds": 31.5636,
+          "start": 31.2,
+          "end": 31.5636
+        },
+        {
+          "text": "buckled",
+          "display": "BUCKLED",
+          "start_seconds": 31.6364,
+          "end_seconds": 31.9273,
+          "start": 31.6364,
+          "end": 31.9273
+        }
+      ],
+      [
+        {
+          "text": "under",
+          "display": "UNDER",
+          "start_seconds": 32.0,
+          "end_seconds": 32.1455,
+          "start": 32.0,
+          "end": 32.1455
+        },
+        {
+          "text": "the",
+          "display": "THE",
+          "start_seconds": 32.2182,
+          "end_seconds": 32.2909,
+          "start": 32.2182,
+          "end": 32.2909
+        },
+        {
+          "text": "load.",
+          "display": "LOAD",
+          "start_seconds": 32.4364,
+          "end_seconds": 32.5818,
+          "start": 32.4364,
+          "end": 32.5818
+        }
+      ],
+      [
+        {
+          "text": "In",
+          "display": "IN",
+          "start_seconds": 33.0909,
+          "end_seconds": 33.1636,
+          "start": 33.0909,
+          "end": 33.1636
+        },
+        {
+          "text": "nearby",
+          "display": "NEARBY",
+          "start_seconds": 33.2364,
+          "end_seconds": 33.5273,
+          "start": 33.2364,
+          "end": 33.5273
+        }
+      ],
+      [
+        {
+          "text": "towns,",
+          "display": "TOWNS",
+          "start_seconds": 33.7091,
+          "end_seconds": 34.1091,
+          "start": 33.7091,
+          "end": 34.1091
+        },
+        {
+          "text": "buildings",
+          "display": "BUILDINGS",
+          "start_seconds": 34.1818,
+          "end_seconds": 34.4727,
+          "start": 34.1818,
+          "end": 34.4727
+        }
+      ],
+      [
+        {
+          "text": "were",
+          "display": "WERE",
+          "start_seconds": 34.5455,
+          "end_seconds": 34.6182,
+          "start": 34.5455,
+          "end": 34.6182
+        },
+        {
+          "text": "damaged",
+          "display": "DAMAGED",
+          "start_seconds": 34.6909,
+          "end_seconds": 34.9818,
+          "start": 34.6909,
+          "end": 34.9818
+        },
+        {
+          "text": "too.",
+          "display": "TOO",
+          "start_seconds": 35.3455,
+          "end_seconds": 35.7091,
+          "start": 35.3455,
+          "end": 35.7091
+        }
+      ],
+      [
+        {
+          "text": "The",
+          "display": "THE",
+          "start_seconds": 35.8545,
+          "end_seconds": 35.9273,
+          "start": 35.8545,
+          "end": 35.9273
+        },
+        {
+          "text": "danger",
+          "display": "DANGER",
+          "start_seconds": 36.1091,
+          "end_seconds": 36.2909,
+          "start": 36.1091,
+          "end": 36.2909
+        }
+      ],
+      [
+        {
+          "text": "had",
+          "display": "HAD",
+          "start_seconds": 36.3636,
+          "end_seconds": 36.4364,
+          "start": 36.3636,
+          "end": 36.4364
+        },
+        {
+          "text": "travelled",
+          "display": "TRAVELLED",
+          "start_seconds": 36.5091,
+          "end_seconds": 36.9455,
+          "start": 36.5091,
+          "end": 36.9455
+        }
+      ],
+      [
+        {
+          "text": "through",
+          "display": "THROUGH",
+          "start_seconds": 37.0545,
+          "end_seconds": 37.1636,
+          "start": 37.0545,
+          "end": 37.1636
+        },
+        {
+          "text": "the",
+          "display": "THE",
+          "start_seconds": 37.2364,
+          "end_seconds": 37.3091,
+          "start": 37.2364,
+          "end": 37.3091
+        },
+        {
+          "text": "air,",
+          "display": "AIR",
+          "start_seconds": 37.3818,
+          "end_seconds": 37.8182,
+          "start": 37.3818,
+          "end": 37.8182
+        }
+      ],
+      [
+        {
+          "text": "settled",
+          "display": "SETTLED",
+          "start_seconds": 37.8909,
+          "end_seconds": 38.1818,
+          "start": 37.8909,
+          "end": 38.1818
+        }
+      ],
+      [
+        {
+          "text": "above",
+          "display": "ABOVE",
+          "start_seconds": 38.3273,
+          "end_seconds": 38.4727,
+          "start": 38.3273,
+          "end": 38.4727
+        },
+        {
+          "text": "people's",
+          "display": "PEOPLE'S",
+          "start_seconds": 38.5818,
+          "end_seconds": 38.7636,
+          "start": 38.5818,
+          "end": 38.7636
+        }
+      ],
+      [
+        {
+          "text": "heads,",
+          "display": "HEADS",
+          "start_seconds": 38.8364,
+          "end_seconds": 39.3455,
+          "start": 38.8364,
+          "end": 39.3455
+        }
+      ],
+      [
+        {
+          "text": "and",
+          "display": "AND",
+          "start_seconds": 39.4427,
+          "end_seconds": 39.4909,
+          "start": 39.4427,
+          "end": 39.4909
+        },
+        {
+          "text": "turned",
+          "display": "TURNED",
+          "start_seconds": 39.5636,
+          "end_seconds": 39.7818,
+          "start": 39.5636,
+          "end": 39.7818
+        }
+      ],
+      [
+        {
+          "text": "the",
+          "display": "THE",
+          "start_seconds": 39.8182,
+          "end_seconds": 39.8545,
+          "start": 39.8182,
+          "end": 39.8545
+        },
+        {
+          "text": "rain",
+          "display": "RAIN",
+          "start_seconds": 39.9273,
+          "end_seconds": 40.1455,
+          "start": 39.9273,
+          "end": 40.1455
+        }
+      ],
+      [
+        {
+          "text": "into",
+          "display": "INTO",
+          "start_seconds": 40.2182,
+          "end_seconds": 40.3636,
+          "start": 40.2182,
+          "end": 40.3636
+        },
+        {
+          "text": "an",
+          "display": "AN",
+          "start_seconds": 40.4727,
+          "end_seconds": 40.5818,
+          "start": 40.4727,
+          "end": 40.5818
+        },
+        {
+          "text": "extra",
+          "display": "EXTRA",
+          "start_seconds": 40.6545,
+          "end_seconds": 40.9455,
+          "start": 40.6545,
+          "end": 40.9455
+        }
+      ],
+      [
+        {
+          "text": "weight",
+          "display": "WEIGHT",
+          "start_seconds": 41.0182,
+          "end_seconds": 41.2364,
+          "start": 41.0182,
+          "end": 41.2364
+        },
+        {
+          "text": "their",
+          "display": "THEIR",
+          "start_seconds": 41.3455,
+          "end_seconds": 41.4545,
+          "start": 41.3455,
+          "end": 41.4545
+        },
+        {
+          "text": "roofs",
+          "display": "ROOFS",
+          "start_seconds": 41.4909,
+          "end_seconds": 41.7455,
+          "start": 41.4909,
+          "end": 41.7455
+        }
+      ],
+      [
+        {
+          "text": "could",
+          "display": "COULD",
+          "start_seconds": 41.8545,
+          "end_seconds": 41.9636,
+          "start": 41.8545,
+          "end": 41.9636
+        },
+        {
+          "text": "not",
+          "display": "NOT",
+          "start_seconds": 42.0727,
+          "end_seconds": 42.1818,
+          "start": 42.0727,
+          "end": 42.1818
+        },
+        {
+          "text": "hold.",
+          "display": "HOLD",
+          "start_seconds": 42.2545,
+          "end_seconds": 42.4727,
+          "start": 42.2545,
+          "end": 42.4727
+        }
+      ]
+    ],
+    "resolved": {
+      "resolved_font_size_px": 104,
+      "max_visible_width_px": 1024.0,
+      "center_x_px": 680.0,
+      "baseline": 1993,
+      "algorithm": "sentence-syntax-width-v6",
+      "display_intervals": [
+        {
+          "start_frame": 0,
+          "end_frame": 46
+        },
+        {
+          "start_frame": 46,
+          "end_frame": 64
+        },
+        {
+          "start_frame": 64,
+          "end_frame": 96
+        },
+        {
+          "start_frame": 96,
+          "end_frame": 117
+        },
+        {
+          "start_frame": 117,
+          "end_frame": 155
+        },
+        {
+          "start_frame": 155,
+          "end_frame": 173
+        },
+        {
+          "start_frame": 173,
+          "end_frame": 209
+        },
+        {
+          "start_frame": 209,
+          "end_frame": 221
+        },
+        {
+          "start_frame": 221,
+          "end_frame": 238
+        },
+        {
+          "start_frame": 238,
+          "end_frame": 274
+        },
+        {
+          "start_frame": 274,
+          "end_frame": 299
+        },
+        {
+          "start_frame": 299,
+          "end_frame": 326
+        },
+        {
+          "start_frame": 326,
+          "end_frame": 350
+        },
+        {
+          "start_frame": 350,
+          "end_frame": 372
+        },
+        {
+          "start_frame": 372,
+          "end_frame": 410
+        },
+        {
+          "start_frame": 410,
+          "end_frame": 439
+        },
+        {
+          "start_frame": 439,
+          "end_frame": 472
+        },
+        {
+          "start_frame": 472,
+          "end_frame": 510
+        },
+        {
+          "start_frame": 510,
+          "end_frame": 528
+        },
+        {
+          "start_frame": 528,
+          "end_frame": 560
+        },
+        {
+          "start_frame": 560,
+          "end_frame": 579
+        },
+        {
+          "start_frame": 579,
+          "end_frame": 608
+        },
+        {
+          "start_frame": 608,
+          "end_frame": 631
+        },
+        {
+          "start_frame": 631,
+          "end_frame": 640
+        },
+        {
+          "start_frame": 640,
+          "end_frame": 655
+        },
+        {
+          "start_frame": 655,
+          "end_frame": 679
+        },
+        {
+          "start_frame": 679,
+          "end_frame": 710
+        },
+        {
+          "start_frame": 710,
+          "end_frame": 725
+        },
+        {
+          "start_frame": 725,
+          "end_frame": 742
+        },
+        {
+          "start_frame": 742,
+          "end_frame": 776
+        },
+        {
+          "start_frame": 776,
+          "end_frame": 786
+        },
+        {
+          "start_frame": 786,
+          "end_frame": 810
+        },
+        {
+          "start_frame": 810,
+          "end_frame": 847
+        },
+        {
+          "start_frame": 847,
+          "end_frame": 860
+        },
+        {
+          "start_frame": 860,
+          "end_frame": 878
+        },
+        {
+          "start_frame": 878,
+          "end_frame": 904
+        },
+        {
+          "start_frame": 904,
+          "end_frame": 936
+        },
+        {
+          "start_frame": 936,
+          "end_frame": 960
+        },
+        {
+          "start_frame": 960,
+          "end_frame": 993
+        },
+        {
+          "start_frame": 993,
+          "end_frame": 1012
+        },
+        {
+          "start_frame": 1012,
+          "end_frame": 1037
+        },
+        {
+          "start_frame": 1037,
+          "end_frame": 1076
+        },
+        {
+          "start_frame": 1076,
+          "end_frame": 1091
+        },
+        {
+          "start_frame": 1091,
+          "end_frame": 1112
+        },
+        {
+          "start_frame": 1112,
+          "end_frame": 1137
+        },
+        {
+          "start_frame": 1137,
+          "end_frame": 1150
+        },
+        {
+          "start_frame": 1150,
+          "end_frame": 1166
+        },
+        {
+          "start_frame": 1166,
+          "end_frame": 1184
+        },
+        {
+          "start_frame": 1184,
+          "end_frame": 1195
+        },
+        {
+          "start_frame": 1195,
+          "end_frame": 1207
+        },
+        {
+          "start_frame": 1207,
+          "end_frame": 1231
+        },
+        {
+          "start_frame": 1231,
+          "end_frame": 1256
+        },
+        {
+          "start_frame": 1256,
+          "end_frame": 1283
+        }
+      ],
+      "boundary_warnings": [
+        {
+          "after_group": 5,
+          "left": "No lava",
+          "right": "had reached them.",
+          "reason": "forced_or_ambiguous_syntax_boundary"
+        },
+        {
+          "after_group": 7,
+          "left": "So what",
+          "right": "was crushing",
+          "reason": "forced_or_ambiguous_syntax_boundary"
+        },
+        {
+          "after_group": 10,
+          "left": "Mount Pinatubo",
+          "right": "had erupted,",
+          "reason": "forced_or_ambiguous_syntax_boundary"
+        },
+        {
+          "after_group": 22,
+          "left": "Volcanic ash",
+          "right": "is made",
+          "reason": "forced_or_ambiguous_syntax_boundary"
+        },
+        {
+          "after_group": 23,
+          "left": "is made",
+          "right": "of tiny",
+          "reason": "forced_or_ambiguous_syntax_boundary"
+        },
+        {
+          "after_group": 31,
+          "left": "grew too much",
+          "right": "for some buildings.",
+          "reason": "forced_or_ambiguous_syntax_boundary"
+        },
+        {
+          "after_group": 40,
+          "left": "towns, buildings",
+          "right": "were damaged too.",
+          "reason": "forced_or_ambiguous_syntax_boundary"
+        },
+        {
+          "after_group": 42,
+          "left": "The danger",
+          "right": "had travelled",
+          "reason": "forced_or_ambiguous_syntax_boundary"
+        },
+        {
+          "after_group": 46,
+          "left": "above people's",
+          "right": "heads,",
+          "reason": "forced_or_ambiguous_syntax_boundary"
+        },
+        {
+          "after_group": 51,
+          "left": "weight their roofs",
+          "right": "could not hold.",
+          "reason": "forced_or_ambiguous_syntax_boundary"
+        }
+      ]
+    }
+  },
+  "review": {
+    "subtitle_contract_sha256": "8ac22300cdec9861256515fde77de36725a56fab5b28be05d93094adaa04a0ce",
+    "checks": {
+      "semantic_grouping": {
+        "status": "UNVERIFIED",
+        "reviewer": "",
+        "method": "",
+        "coverage": "",
+        "evidence": null
+      },
+      "visual_placement": {
+        "status": "UNVERIFIED",
+        "reviewer": "",
+        "method": "",
+        "coverage": "",
+        "evidence": null
+      }
+    }
+  },
+  "acceptance": {
+    "accepted": false,
+    "media_sha256": null,
+    "evidence": null
+  },
+  "open_requirements": [],
+  "render": {
+    "schema": "ytv-render-v1",
+    "origin": "render",
+    "export_contract": {
+      "original": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-06-pinatubo-short/export_contract_v01.json",
+        "sha256": "677dc99096b06402be9077ddfb071a019e1328568a7bd378a389d8f48279fd62"
+      },
+      "snapshot": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-06-pinatubo-short/work_render_v02/render_provenance/export_contract.json",
+        "sha256": "677dc99096b06402be9077ddfb071a019e1328568a7bd378a389d8f48279fd62"
+      }
+    },
+    "command": {
+      "original": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-06-pinatubo-short/work_render_v02/render_command.json",
+        "sha256": "54f2b3300ddf69d18e5053376fceced2acf397019d3d6134f732bc4556a3d4af"
+      },
+      "snapshot": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-06-pinatubo-short/work_render_v02/render_provenance/render_command.json",
+        "sha256": "54f2b3300ddf69d18e5053376fceced2acf397019d3d6134f732bc4556a3d4af"
+      }
+    },
+    "engine": [
+      {
+        "original": {
+          "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/montage.py",
+          "sha256": "24c1486c0e6302b93372a390da21b198d2c4567be79813acc5b5d12ad7c82023"
+        },
+        "snapshot": {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-06-pinatubo-short/work_render_v02/render_provenance/engine_0_montage.py",
+          "sha256": "24c1486c0e6302b93372a390da21b198d2c4567be79813acc5b5d12ad7c82023"
+        }
+      },
+      {
+        "original": {
+          "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/delivery.py",
+          "sha256": "f1202d5c539a05860b00b4221ee9c34b80c49722eaca1ecd3b96412aa15b9e72"
+        },
+        "snapshot": {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-06-pinatubo-short/work_render_v02/render_provenance/engine_1_delivery.py",
+          "sha256": "f1202d5c539a05860b00b4221ee9c34b80c49722eaca1ecd3b96412aa15b9e72"
+        }
+      },
+      {
+        "original": {
+          "path": "/Users/diplomat/ytvideos/.agents/skills/ytv-paper-subtitles/scripts/semantic_grouping.py",
+          "sha256": "046d92c9fecbd993cd2f0087357ae8354d6e17a0db801655cb57f1682aac9dcd"
+        },
+        "snapshot": {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-06-pinatubo-short/work_render_v02/render_provenance/engine_2_semantic_grouping.py",
+          "sha256": "046d92c9fecbd993cd2f0087357ae8354d6e17a0db801655cb57f1682aac9dcd"
+        }
+      }
+    ],
+    "prepared": {
+      "channel": "paper",
+      "format": "short",
+      "subtitle_mode": "words",
+      "audio": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-06-pinatubo-short/full_mix_v01.m4a",
+      "canvas": [
+        1440,
+        2560
+      ],
+      "fps": 30,
+      "scenes": [
+        {
+          "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-06-pinatubo-short/scene_1.png",
+          "start_frame": 0,
+          "end_frame": 160,
+          "direction": "left_to_right",
+          "zoom": "in"
+        },
+        {
+          "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-06-pinatubo-short/scene_volcano.png",
+          "start_frame": 160,
+          "end_frame": 320,
+          "direction": "right_to_left",
+          "zoom": "out"
+        },
+        {
+          "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-06-pinatubo-short/scene_2.png",
+          "start_frame": 320,
+          "end_frame": 480,
+          "direction": "left_to_right",
+          "zoom": "in"
+        },
+        {
+          "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-06-pinatubo-short/scene_extra_3.png",
+          "start_frame": 480,
+          "end_frame": 640,
+          "direction": "right_to_left",
+          "zoom": "out"
+        },
+        {
+          "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-06-pinatubo-short/scene_extra_1.png",
+          "start_frame": 640,
+          "end_frame": 800,
+          "direction": "left_to_right",
+          "zoom": "in"
+        },
+        {
+          "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-06-pinatubo-short/scene_extra_2.png",
+          "start_frame": 800,
+          "end_frame": 960,
+          "direction": "right_to_left",
+          "zoom": "out"
+        },
+        {
+          "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-06-pinatubo-short/scene_5.png",
+          "start_frame": 960,
+          "end_frame": 1120,
+          "direction": "left_to_right",
+          "zoom": "in"
+        },
+        {
+          "image": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-06-pinatubo-short/scene_6.png",
+          "start_frame": 1120,
+          "end_frame": 1283,
+          "direction": "right_to_left",
+          "zoom": "out"
+        }
+      ],
+      "frames": 1283,
+      "manifest_path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-06-pinatubo-short/montage_v01.json",
+      "source_transfer": "srgb"
+    },
+    "audio_source": {
+      "codec_name": "aac",
+      "profile": "LC",
+      "sample_rate": "44100",
+      "channels": 1,
+      "duration": "42.772993",
+      "bit_rate": "182893"
+    },
+    "settings": {
+      "scope": "pre-render settings only; no encoded-result or AV QA",
+      "timeline": {
+        "width": 1440,
+        "height": 2560,
+        "frame_count": 1283,
+        "sample_aspect_ratio": "1:1",
+        "aspect_ratio": "9:16",
+        "output_color_space": "Rec.709 SDR"
+      },
+      "video": {
+        "codec_name": "h264",
+        "pix_fmt": "yuv420p",
+        "scan": "progressive",
+        "cadence": "constant 30/1 fps",
+        "color_primaries": "bt709",
+        "color_transfer": "bt709",
+        "color_space": "bt709",
+        "color_range": "tv"
+      },
+      "audio": {
+        "codec_name": "aac",
+        "profile": "LC",
+        "channels": 1,
+        "sample_rate": 44100,
+        "mode": "copy",
+        "target_bit_rate": "STREAM_COPY"
+      },
+      "requested_arguments": {
+        "encoder": "h264_videotoolbox",
+        "video_bitrate": 20000000,
+        "output_pix_fmt": "yuv420p",
+        "fps": "30/1",
+        "audio_codec": "copy",
+        "audio_profile": "aac_low",
+        "audio_bitrate": "STREAM_COPY",
+        "audio_sample_rate": 44100,
+        "audio_channels": 1
+      }
+    },
+    "ffmpeg_version": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+  }
+}

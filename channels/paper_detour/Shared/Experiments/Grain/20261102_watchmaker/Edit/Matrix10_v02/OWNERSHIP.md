@@ -1,0 +1,1 @@
+Owner codex-grain-matrix-v02; isolated local rendering only; no Palmier timeline mutation. Scope: same10grainpresets on exactly same common4s pan-right+aligneddepth,1s cards. Mechanical reuse of accepted gentle-aligned and standard camera_keys; no new creative preset or character animation. Existing comparison and source retained.

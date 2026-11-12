@@ -1,0 +1,890 @@
+{
+  "created_utc": "2026-11-11T21:28:16.956693+00:00",
+  "media": "/Users/diplomat/ytvideos/channels/two_ways_lab/videos/TWL_E001_checkout/Deliverables/TWL_E001_review_v21.mp4",
+  "plan": {
+    "frame_count": 802,
+    "fps": "30/1",
+    "sha256": "d80d4680e0c0d1cc5abdc6f727108957c19ad8b541819816451bcfd8948c9444",
+    "freshness": {
+      "status": "CURRENT",
+      "evidence": "Frozen v21 timeline/export contract and renderer input manifest."
+    },
+    "required_review_checks": [
+      "stream_metadata",
+      "full_decode",
+      "frame_sampling",
+      "motion_framing",
+      "cue_timing",
+      "audio_signal",
+      "srt"
+    ],
+    "expected": {
+      "video": {
+        "width": 1080,
+        "height": 1920,
+        "codec_name": "h264",
+        "pix_fmt": "yuv420p",
+        "color_space": "bt709"
+      },
+      "audio": {
+        "required": true,
+        "codec_name": "aac",
+        "channels": 2,
+        "sample_rate": 24000
+      }
+    },
+    "scenes": [
+      {
+        "id": "hook-0",
+        "start": 0,
+        "end": 110
+      },
+      {
+        "id": "join-110",
+        "start": 110,
+        "end": 210
+      },
+      {
+        "id": "one-210",
+        "start": 210,
+        "end": 260
+      },
+      {
+        "id": "two-260",
+        "start": 260,
+        "end": 369
+      },
+      {
+        "id": "payment-369",
+        "start": 369,
+        "end": 578
+      },
+      {
+        "id": "result-578",
+        "start": 578,
+        "end": 752
+      },
+      {
+        "id": "hook-752",
+        "start": 752,
+        "end": 802
+      }
+    ],
+    "cues": [
+      {
+        "id": "cue-1",
+        "start": 0,
+        "end": 43
+      },
+      {
+        "id": "cue-2",
+        "start": 43,
+        "end": 82
+      },
+      {
+        "id": "cue-3",
+        "start": 82,
+        "end": 113
+      },
+      {
+        "id": "cue-4",
+        "start": 113,
+        "end": 146
+      },
+      {
+        "id": "cue-5",
+        "start": 146,
+        "end": 186
+      },
+      {
+        "id": "cue-6",
+        "start": 186,
+        "end": 211
+      },
+      {
+        "id": "cue-7",
+        "start": 211,
+        "end": 242
+      },
+      {
+        "id": "cue-8",
+        "start": 242,
+        "end": 260
+      },
+      {
+        "id": "cue-9",
+        "start": 260,
+        "end": 301
+      },
+      {
+        "id": "cue-10",
+        "start": 301,
+        "end": 339
+      },
+      {
+        "id": "cue-11",
+        "start": 339,
+        "end": 368
+      },
+      {
+        "id": "cue-12",
+        "start": 368,
+        "end": 411
+      },
+      {
+        "id": "cue-13",
+        "start": 411,
+        "end": 435
+      },
+      {
+        "id": "cue-14",
+        "start": 435,
+        "end": 486
+      },
+      {
+        "id": "cue-15",
+        "start": 486,
+        "end": 532
+      },
+      {
+        "id": "cue-16",
+        "start": 532,
+        "end": 566
+      },
+      {
+        "id": "cue-17",
+        "start": 566,
+        "end": 579
+      },
+      {
+        "id": "cue-18",
+        "start": 579,
+        "end": 610
+      },
+      {
+        "id": "cue-19",
+        "start": 610,
+        "end": 663
+      },
+      {
+        "id": "cue-20",
+        "start": 663,
+        "end": 700
+      },
+      {
+        "id": "cue-21",
+        "start": 700,
+        "end": 754
+      },
+      {
+        "id": "cue-22",
+        "start": 754,
+        "end": 771
+      },
+      {
+        "id": "cue-23",
+        "start": 771,
+        "end": 802
+      }
+    ],
+    "extra_frames": [
+      0,
+      27,
+      54,
+      81,
+      107,
+      108,
+      457,
+      458,
+      484,
+      510,
+      535,
+      560,
+      561,
+      703,
+      704,
+      716,
+      728,
+      740,
+      750,
+      751
+    ]
+  },
+  "policy_failures": [],
+  "failures": [],
+  "reported_freshness": {
+    "status": "CURRENT",
+    "evidence": "Frozen v21 timeline/export contract and renderer input manifest."
+  },
+  "checks": {
+    "stream_metadata": "PASS",
+    "full_decode": "PASS",
+    "frame_extraction": "PASS",
+    "frame_sampling": "UNVERIFIED",
+    "motion_framing": "UNVERIFIED",
+    "cue_timing": "UNVERIFIED",
+    "audio_signal": "UNVERIFIED",
+    "subjective_audio_listening": "UNVERIFIED",
+    "independent_review": "UNVERIFIED"
+  },
+  "inspected_frame_indices": [],
+  "requested_frame_indices": [
+    0,
+    21,
+    27,
+    42,
+    43,
+    54,
+    62,
+    81,
+    82,
+    97,
+    107,
+    108,
+    109,
+    110,
+    112,
+    113,
+    129,
+    145,
+    146,
+    159,
+    165,
+    185,
+    186,
+    198,
+    209,
+    210,
+    211,
+    226,
+    234,
+    241,
+    242,
+    250,
+    259,
+    260,
+    280,
+    300,
+    301,
+    314,
+    319,
+    338,
+    339,
+    353,
+    367,
+    368,
+    369,
+    389,
+    410,
+    411,
+    422,
+    434,
+    435,
+    457,
+    458,
+    460,
+    473,
+    484,
+    485,
+    486,
+    508,
+    510,
+    531,
+    532,
+    535,
+    548,
+    560,
+    561,
+    565,
+    566,
+    572,
+    577,
+    578,
+    579,
+    594,
+    609,
+    610,
+    636,
+    662,
+    663,
+    664,
+    681,
+    699,
+    700,
+    703,
+    704,
+    716,
+    726,
+    728,
+    740,
+    750,
+    751,
+    752,
+    753,
+    754,
+    762,
+    770,
+    771,
+    776,
+    786,
+    801
+  ],
+  "sha256": "d80d4680e0c0d1cc5abdc6f727108957c19ad8b541819816451bcfd8948c9444",
+  "streams": [
+    {
+      "index": 0,
+      "codec_name": "h264",
+      "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+      "profile": "High",
+      "codec_type": "video",
+      "codec_tag_string": "avc1",
+      "codec_tag": "0x31637661",
+      "mime_codec_string": "avc1.640028",
+      "width": 1080,
+      "height": 1920,
+      "coded_width": 1080,
+      "coded_height": 1920,
+      "has_b_frames": 2,
+      "sample_aspect_ratio": "1:1",
+      "display_aspect_ratio": "9:16",
+      "pix_fmt": "yuv420p",
+      "level": 40,
+      "color_range": "tv",
+      "color_space": "bt709",
+      "color_transfer": "bt709",
+      "color_primaries": "bt709",
+      "chroma_location": "left",
+      "field_order": "progressive",
+      "is_avc": "true",
+      "nal_length_size": "4",
+      "id": "0x1",
+      "r_frame_rate": "30/1",
+      "avg_frame_rate": "30/1",
+      "time_base": "1/15360",
+      "start_pts": 0,
+      "start_time": "0.000000",
+      "duration_ts": 410624,
+      "duration": "26.733333",
+      "bit_rate": "8495206",
+      "bits_per_raw_sample": "8",
+      "nb_frames": "802",
+      "extradata_size": 50,
+      "disposition": {
+        "default": 1,
+        "dub": 0,
+        "original": 0,
+        "comment": 0,
+        "lyrics": 0,
+        "karaoke": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "visual_impaired": 0,
+        "clean_effects": 0,
+        "attached_pic": 0,
+        "timed_thumbnails": 0,
+        "non_diegetic": 0,
+        "captions": 0,
+        "descriptions": 0,
+        "metadata": 0,
+        "dependent": 0,
+        "still_image": 0,
+        "multilayer": 0
+      },
+      "tags": {
+        "language": "und",
+        "handler_name": "VideoHandler",
+        "encoder": "Lavc62.28.102 libx264"
+      }
+    },
+    {
+      "index": 1,
+      "codec_name": "aac",
+      "codec_long_name": "AAC (Advanced Audio Coding)",
+      "profile": "LC",
+      "codec_type": "audio",
+      "codec_tag_string": "mp4a",
+      "codec_tag": "0x6134706d",
+      "mime_codec_string": "mp4a.40.2",
+      "sample_fmt": "fltp",
+      "sample_rate": "24000",
+      "channels": 2,
+      "channel_layout": "stereo",
+      "bits_per_sample": 0,
+      "initial_padding": 0,
+      "id": "0x2",
+      "r_frame_rate": "0/0",
+      "avg_frame_rate": "0/0",
+      "time_base": "1/24000",
+      "start_pts": 0,
+      "start_time": "0.000000",
+      "duration_ts": 641592,
+      "duration": "26.733000",
+      "bit_rate": "142906",
+      "nb_frames": "628",
+      "extradata_size": 5,
+      "disposition": {
+        "default": 1,
+        "dub": 0,
+        "original": 0,
+        "comment": 0,
+        "lyrics": 0,
+        "karaoke": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "visual_impaired": 0,
+        "clean_effects": 0,
+        "attached_pic": 0,
+        "timed_thumbnails": 0,
+        "non_diegetic": 0,
+        "captions": 0,
+        "descriptions": 0,
+        "metadata": 0,
+        "dependent": 0,
+        "still_image": 0,
+        "multilayer": 0
+      },
+      "tags": {
+        "language": "und",
+        "handler_name": "SoundHandler"
+      }
+    }
+  ],
+  "decoded_video_frames": 802,
+  "audio_measurements": {
+    "stream": "0:a:0",
+    "method": "sample levels and silence candidates; not listening",
+    "mean_dbfs": [
+      "-22.9"
+    ],
+    "sample_peak_dbfs": [
+      "-3.1"
+    ],
+    "silence_candidate_threshold_dbfs": -50,
+    "minimum_silence_seconds": 0.25
+  },
+  "audio_analysis_execution": "PASS",
+  "frame_recipe": {
+    "argv": [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-xerror",
+      "-i",
+      "/Users/diplomat/ytvideos/channels/two_ways_lab/videos/TWL_E001_checkout/Deliverables/TWL_E001_review_v21.mp4",
+      "-map",
+      "0:v:0",
+      "-vf",
+      "select=(((((((eq(n\\,0)+eq(n\\,21))+(eq(n\\,27)+eq(n\\,42)))+((eq(n\\,43)+eq(n\\,54))+(eq(n\\,62)+eq(n\\,81))))+(((eq(n\\,82)+eq(n\\,97))+(eq(n\\,107)+eq(n\\,108)))+((eq(n\\,109)+eq(n\\,110))+(eq(n\\,112)+eq(n\\,113)))))+((((eq(n\\,129)+eq(n\\,145))+(eq(n\\,146)+eq(n\\,159)))+((eq(n\\,165)+eq(n\\,185))+(eq(n\\,186)+eq(n\\,198))))+(((eq(n\\,209)+eq(n\\,210))+(eq(n\\,211)+eq(n\\,226)))+((eq(n\\,234)+eq(n\\,241))+(eq(n\\,242)+eq(n\\,250))))))+(((((eq(n\\,259)+eq(n\\,260))+(eq(n\\,280)+eq(n\\,300)))+((eq(n\\,301)+eq(n\\,314))+(eq(n\\,319)+eq(n\\,338))))+(((eq(n\\,339)+eq(n\\,353))+(eq(n\\,367)+eq(n\\,368)))+((eq(n\\,369)+eq(n\\,389))+(eq(n\\,410)+eq(n\\,411)))))+((((eq(n\\,422)+eq(n\\,434))+(eq(n\\,435)+eq(n\\,457)))+((eq(n\\,458)+eq(n\\,460))+(eq(n\\,473)+eq(n\\,484))))+(((eq(n\\,485)+eq(n\\,486))+(eq(n\\,508)+eq(n\\,510)))+((eq(n\\,531)+eq(n\\,532))+(eq(n\\,535)+eq(n\\,548)))))))+((((((eq(n\\,560)+eq(n\\,561))+(eq(n\\,565)+eq(n\\,566)))+((eq(n\\,572)+eq(n\\,577))+(eq(n\\,578)+eq(n\\,579))))+(((eq(n\\,594)+eq(n\\,609))+(eq(n\\,610)+eq(n\\,636)))+((eq(n\\,662)+eq(n\\,663))+(eq(n\\,664)+eq(n\\,681)))))+((((eq(n\\,699)+eq(n\\,700))+(eq(n\\,703)+eq(n\\,704)))+((eq(n\\,716)+eq(n\\,726))+(eq(n\\,728)+eq(n\\,740))))+(((eq(n\\,750)+eq(n\\,751))+(eq(n\\,752)+eq(n\\,753)))+((eq(n\\,754)+eq(n\\,762))+(eq(n\\,770)+eq(n\\,771))))))+((eq(n\\,776)+eq(n\\,786))+eq(n\\,801))))",
+      "-fps_mode",
+      "vfr",
+      "-start_number",
+      "0",
+      "/Users/diplomat/ytvideos/channels/two_ways_lab/videos/TWL_E001_checkout/Work/qa-v21/scratch/qa/%06d.png"
+    ],
+    "ffmpeg_version": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers",
+    "stream": "0:v:0",
+    "index_basis": "zero-based decoded video frame",
+    "fps": "30/1"
+  },
+  "frame_map": [
+    {
+      "index": 0,
+      "path": "../../../Work/qa-v21/scratch/qa/000000.png"
+    },
+    {
+      "index": 21,
+      "path": "../../../Work/qa-v21/scratch/qa/000001.png"
+    },
+    {
+      "index": 27,
+      "path": "../../../Work/qa-v21/scratch/qa/000002.png"
+    },
+    {
+      "index": 42,
+      "path": "../../../Work/qa-v21/scratch/qa/000003.png"
+    },
+    {
+      "index": 43,
+      "path": "../../../Work/qa-v21/scratch/qa/000004.png"
+    },
+    {
+      "index": 54,
+      "path": "../../../Work/qa-v21/scratch/qa/000005.png"
+    },
+    {
+      "index": 62,
+      "path": "../../../Work/qa-v21/scratch/qa/000006.png"
+    },
+    {
+      "index": 81,
+      "path": "../../../Work/qa-v21/scratch/qa/000007.png"
+    },
+    {
+      "index": 82,
+      "path": "../../../Work/qa-v21/scratch/qa/000008.png"
+    },
+    {
+      "index": 97,
+      "path": "../../../Work/qa-v21/scratch/qa/000009.png"
+    },
+    {
+      "index": 107,
+      "path": "../../../Work/qa-v21/scratch/qa/000010.png"
+    },
+    {
+      "index": 108,
+      "path": "../../../Work/qa-v21/scratch/qa/000011.png"
+    },
+    {
+      "index": 109,
+      "path": "../../../Work/qa-v21/scratch/qa/000012.png"
+    },
+    {
+      "index": 110,
+      "path": "../../../Work/qa-v21/scratch/qa/000013.png"
+    },
+    {
+      "index": 112,
+      "path": "../../../Work/qa-v21/scratch/qa/000014.png"
+    },
+    {
+      "index": 113,
+      "path": "../../../Work/qa-v21/scratch/qa/000015.png"
+    },
+    {
+      "index": 129,
+      "path": "../../../Work/qa-v21/scratch/qa/000016.png"
+    },
+    {
+      "index": 145,
+      "path": "../../../Work/qa-v21/scratch/qa/000017.png"
+    },
+    {
+      "index": 146,
+      "path": "../../../Work/qa-v21/scratch/qa/000018.png"
+    },
+    {
+      "index": 159,
+      "path": "../../../Work/qa-v21/scratch/qa/000019.png"
+    },
+    {
+      "index": 165,
+      "path": "../../../Work/qa-v21/scratch/qa/000020.png"
+    },
+    {
+      "index": 185,
+      "path": "../../../Work/qa-v21/scratch/qa/000021.png"
+    },
+    {
+      "index": 186,
+      "path": "../../../Work/qa-v21/scratch/qa/000022.png"
+    },
+    {
+      "index": 198,
+      "path": "../../../Work/qa-v21/scratch/qa/000023.png"
+    },
+    {
+      "index": 209,
+      "path": "../../../Work/qa-v21/scratch/qa/000024.png"
+    },
+    {
+      "index": 210,
+      "path": "../../../Work/qa-v21/scratch/qa/000025.png"
+    },
+    {
+      "index": 211,
+      "path": "../../../Work/qa-v21/scratch/qa/000026.png"
+    },
+    {
+      "index": 226,
+      "path": "../../../Work/qa-v21/scratch/qa/000027.png"
+    },
+    {
+      "index": 234,
+      "path": "../../../Work/qa-v21/scratch/qa/000028.png"
+    },
+    {
+      "index": 241,
+      "path": "../../../Work/qa-v21/scratch/qa/000029.png"
+    },
+    {
+      "index": 242,
+      "path": "../../../Work/qa-v21/scratch/qa/000030.png"
+    },
+    {
+      "index": 250,
+      "path": "../../../Work/qa-v21/scratch/qa/000031.png"
+    },
+    {
+      "index": 259,
+      "path": "../../../Work/qa-v21/scratch/qa/000032.png"
+    },
+    {
+      "index": 260,
+      "path": "../../../Work/qa-v21/scratch/qa/000033.png"
+    },
+    {
+      "index": 280,
+      "path": "../../../Work/qa-v21/scratch/qa/000034.png"
+    },
+    {
+      "index": 300,
+      "path": "../../../Work/qa-v21/scratch/qa/000035.png"
+    },
+    {
+      "index": 301,
+      "path": "../../../Work/qa-v21/scratch/qa/000036.png"
+    },
+    {
+      "index": 314,
+      "path": "../../../Work/qa-v21/scratch/qa/000037.png"
+    },
+    {
+      "index": 319,
+      "path": "../../../Work/qa-v21/scratch/qa/000038.png"
+    },
+    {
+      "index": 338,
+      "path": "../../../Work/qa-v21/scratch/qa/000039.png"
+    },
+    {
+      "index": 339,
+      "path": "../../../Work/qa-v21/scratch/qa/000040.png"
+    },
+    {
+      "index": 353,
+      "path": "../../../Work/qa-v21/scratch/qa/000041.png"
+    },
+    {
+      "index": 367,
+      "path": "../../../Work/qa-v21/scratch/qa/000042.png"
+    },
+    {
+      "index": 368,
+      "path": "../../../Work/qa-v21/scratch/qa/000043.png"
+    },
+    {
+      "index": 369,
+      "path": "../../../Work/qa-v21/scratch/qa/000044.png"
+    },
+    {
+      "index": 389,
+      "path": "../../../Work/qa-v21/scratch/qa/000045.png"
+    },
+    {
+      "index": 410,
+      "path": "../../../Work/qa-v21/scratch/qa/000046.png"
+    },
+    {
+      "index": 411,
+      "path": "../../../Work/qa-v21/scratch/qa/000047.png"
+    },
+    {
+      "index": 422,
+      "path": "../../../Work/qa-v21/scratch/qa/000048.png"
+    },
+    {
+      "index": 434,
+      "path": "../../../Work/qa-v21/scratch/qa/000049.png"
+    },
+    {
+      "index": 435,
+      "path": "../../../Work/qa-v21/scratch/qa/000050.png"
+    },
+    {
+      "index": 457,
+      "path": "../../../Work/qa-v21/scratch/qa/000051.png"
+    },
+    {
+      "index": 458,
+      "path": "../../../Work/qa-v21/scratch/qa/000052.png"
+    },
+    {
+      "index": 460,
+      "path": "../../../Work/qa-v21/scratch/qa/000053.png"
+    },
+    {
+      "index": 473,
+      "path": "../../../Work/qa-v21/scratch/qa/000054.png"
+    },
+    {
+      "index": 484,
+      "path": "../../../Work/qa-v21/scratch/qa/000055.png"
+    },
+    {
+      "index": 485,
+      "path": "../../../Work/qa-v21/scratch/qa/000056.png"
+    },
+    {
+      "index": 486,
+      "path": "../../../Work/qa-v21/scratch/qa/000057.png"
+    },
+    {
+      "index": 508,
+      "path": "../../../Work/qa-v21/scratch/qa/000058.png"
+    },
+    {
+      "index": 510,
+      "path": "../../../Work/qa-v21/scratch/qa/000059.png"
+    },
+    {
+      "index": 531,
+      "path": "../../../Work/qa-v21/scratch/qa/000060.png"
+    },
+    {
+      "index": 532,
+      "path": "../../../Work/qa-v21/scratch/qa/000061.png"
+    },
+    {
+      "index": 535,
+      "path": "../../../Work/qa-v21/scratch/qa/000062.png"
+    },
+    {
+      "index": 548,
+      "path": "../../../Work/qa-v21/scratch/qa/000063.png"
+    },
+    {
+      "index": 560,
+      "path": "../../../Work/qa-v21/scratch/qa/000064.png"
+    },
+    {
+      "index": 561,
+      "path": "../../../Work/qa-v21/scratch/qa/000065.png"
+    },
+    {
+      "index": 565,
+      "path": "../../../Work/qa-v21/scratch/qa/000066.png"
+    },
+    {
+      "index": 566,
+      "path": "../../../Work/qa-v21/scratch/qa/000067.png"
+    },
+    {
+      "index": 572,
+      "path": "../../../Work/qa-v21/scratch/qa/000068.png"
+    },
+    {
+      "index": 577,
+      "path": "../../../Work/qa-v21/scratch/qa/000069.png"
+    },
+    {
+      "index": 578,
+      "path": "../../../Work/qa-v21/scratch/qa/000070.png"
+    },
+    {
+      "index": 579,
+      "path": "../../../Work/qa-v21/scratch/qa/000071.png"
+    },
+    {
+      "index": 594,
+      "path": "../../../Work/qa-v21/scratch/qa/000072.png"
+    },
+    {
+      "index": 609,
+      "path": "../../../Work/qa-v21/scratch/qa/000073.png"
+    },
+    {
+      "index": 610,
+      "path": "../../../Work/qa-v21/scratch/qa/000074.png"
+    },
+    {
+      "index": 636,
+      "path": "../../../Work/qa-v21/scratch/qa/000075.png"
+    },
+    {
+      "index": 662,
+      "path": "../../../Work/qa-v21/scratch/qa/000076.png"
+    },
+    {
+      "index": 663,
+      "path": "../../../Work/qa-v21/scratch/qa/000077.png"
+    },
+    {
+      "index": 664,
+      "path": "../../../Work/qa-v21/scratch/qa/000078.png"
+    },
+    {
+      "index": 681,
+      "path": "../../../Work/qa-v21/scratch/qa/000079.png"
+    },
+    {
+      "index": 699,
+      "path": "../../../Work/qa-v21/scratch/qa/000080.png"
+    },
+    {
+      "index": 700,
+      "path": "../../../Work/qa-v21/scratch/qa/000081.png"
+    },
+    {
+      "index": 703,
+      "path": "../../../Work/qa-v21/scratch/qa/000082.png"
+    },
+    {
+      "index": 704,
+      "path": "../../../Work/qa-v21/scratch/qa/000083.png"
+    },
+    {
+      "index": 716,
+      "path": "../../../Work/qa-v21/scratch/qa/000084.png"
+    },
+    {
+      "index": 726,
+      "path": "../../../Work/qa-v21/scratch/qa/000085.png"
+    },
+    {
+      "index": 728,
+      "path": "../../../Work/qa-v21/scratch/qa/000086.png"
+    },
+    {
+      "index": 740,
+      "path": "../../../Work/qa-v21/scratch/qa/000087.png"
+    },
+    {
+      "index": 750,
+      "path": "../../../Work/qa-v21/scratch/qa/000088.png"
+    },
+    {
+      "index": 751,
+      "path": "../../../Work/qa-v21/scratch/qa/000089.png"
+    },
+    {
+      "index": 752,
+      "path": "../../../Work/qa-v21/scratch/qa/000090.png"
+    },
+    {
+      "index": 753,
+      "path": "../../../Work/qa-v21/scratch/qa/000091.png"
+    },
+    {
+      "index": 754,
+      "path": "../../../Work/qa-v21/scratch/qa/000092.png"
+    },
+    {
+      "index": 762,
+      "path": "../../../Work/qa-v21/scratch/qa/000093.png"
+    },
+    {
+      "index": 770,
+      "path": "../../../Work/qa-v21/scratch/qa/000094.png"
+    },
+    {
+      "index": 771,
+      "path": "../../../Work/qa-v21/scratch/qa/000095.png"
+    },
+    {
+      "index": 776,
+      "path": "../../../Work/qa-v21/scratch/qa/000096.png"
+    },
+    {
+      "index": 786,
+      "path": "../../../Work/qa-v21/scratch/qa/000097.png"
+    },
+    {
+      "index": 801,
+      "path": "../../../Work/qa-v21/scratch/qa/000098.png"
+    }
+  ],
+  "frames_directory": "/Users/diplomat/ytvideos/channels/two_ways_lab/videos/TWL_E001_checkout/Work/qa-v21/scratch/qa",
+  "technical_status": "PASS",
+  "verdict": "UNVERIFIED"
+}

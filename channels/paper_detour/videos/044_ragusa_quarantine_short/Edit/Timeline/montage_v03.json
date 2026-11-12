@@ -1,0 +1,69 @@
+{
+  "channel": "paper",
+  "format": "short",
+  "fps": 30,
+  "audio": "../../Source/Voice/source_v01/source_cut.m4a",
+  "subtitles": {
+    "mode": "words",
+    "words": "../../Source/Transcription/forced_alignment_v01.json"
+  },
+  "scenes": [
+    {
+      "image": "../../Source/Images/paper_v01/S01.png",
+      "start_frame": 0,
+      "end_frame": 120,
+      "direction": "none",
+      "zoom": "in"
+    },
+    {
+      "image": "../../Source/Images/paper_v01/S02.png",
+      "start_frame": 120,
+      "end_frame": 290,
+      "direction": "left_to_right",
+      "zoom": "out"
+    },
+    {
+      "image": "../../Source/Images/paper_v01/S03.png",
+      "start_frame": 290,
+      "end_frame": 420,
+      "direction": "none",
+      "zoom": "in"
+    },
+    {
+      "image": "../../Source/Images/paper_v01/S04.png",
+      "start_frame": 420,
+      "end_frame": 540,
+      "direction": "right_to_left",
+      "zoom": "out"
+    },
+    {
+      "image": "../../Source/Images/paper_v01/S05.png",
+      "start_frame": 540,
+      "end_frame": 675,
+      "direction": "none",
+      "zoom": "in"
+    },
+    {
+      "image": "../../Source/Images/paper_v01/S06.png",
+      "start_frame": 675,
+      "end_frame": 810,
+      "direction": "left_to_right",
+      "zoom": "out"
+    },
+    {
+      "image": "../../Source/Images/paper_v01/S07.png",
+      "start_frame": 810,
+      "end_frame": 945,
+      "direction": "right_to_left",
+      "zoom": "in"
+    },
+    {
+      "image": "../../Source/Images/paper_v01/S09.png",
+      "start_frame": 945,
+      "end_frame": 1080,
+      "direction": "none",
+      "zoom": "out"
+    }
+  ],
+  "overlays": []
+}

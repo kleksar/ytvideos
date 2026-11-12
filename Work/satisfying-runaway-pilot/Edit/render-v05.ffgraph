@@ -1,0 +1,10 @@
+[0:v]setpts=PTS-STARTPTS,scale=1080:1920:flags=lanczos,setsar=1,fps=30,format=yuv420p,trim=start_frame=24:end_frame=86,setpts=PTS-STARTPTS[water_glints];
+[3:v]setpts=PTS-STARTPTS,scale=1080:1920:flags=lanczos,setsar=1,fps=30,format=yuv420p,trim=start_frame=39:end_frame=100,setpts=PTS-STARTPTS[aerial_rapids];
+[1:v]setpts=PTS-STARTPTS,crop=1080:1920:760:1640,scale=1080:1920:flags=lanczos,setsar=1,fps=30,format=yuv420p,trim=start_frame=18:end_frame=80,setpts=PTS-STARTPTS[cascade_detail];
+[1:v]setpts=PTS-STARTPTS,scale=1080:1920:flags=lanczos,setsar=1,fps=30,format=yuv420p,trim=start_frame=80:end_frame=145,setpts=PTS-STARTPTS[waterfall_wide];
+[2:v]setpts=PTS-STARTPTS,scale=1080:1920:flags=lanczos,setsar=1,fps=30,format=yuv420p,trim=start_frame=69:end_frame=194,setpts=PTS-STARTPTS[mountain_reflection];
+[4:v]setpts=PTS-STARTPTS,scale=1080:1920:flags=lanczos,setsar=1,fps=30,format=yuv420p,trim=start_frame=123:end_frame=186,setpts=PTS-STARTPTS[turquoise_reveal];
+[water_glints][aerial_rapids][cascade_detail][waterfall_wide][mountain_reflection][turquoise_reveal]concat=n=6:v=1:a=0,settb=1/30,setpts=N[sequence];
+[sequence]lutyuv=y='st(0,clip((val-16)/219,0,1)-0.5);16+219*(0.5+1.5*ld(0)-2*pow(ld(0),3))',split[clear][soft_input];
+[soft_input]gblur=sigma=24:steps=2:enable='between(n,55,69)+between(n,116,130)+between(n,178,192)+between(n,243,257)+between(n,368,382)',lutyuv=y='0.1*val+0.9*235':u='0.1*val+0.9*128':v='0.1*val+0.9*128'[glow];
+[clear][glow]blend=all_expr='st(0,round(T*30));st(1,abs(ld(0)-if(lt(ld(0),92.5),62,if(lt(ld(0),154),123,if(lt(ld(0),217.5),185,if(lt(ld(0),312.5),250,375)))))/7.5);st(2,if(lt(ld(0),92.5),0.62,if(lt(ld(0),154),0.84,if(lt(ld(0),217.5),0.48,if(lt(ld(0),312.5),1.0,0.83)))));A+(B-A)*ld(2)*(1+cos(PI*min(1,ld(1))))/2':enable='between(n,55,69)+between(n,116,130)+between(n,178,192)+between(n,243,257)+between(n,368,382)'[video]

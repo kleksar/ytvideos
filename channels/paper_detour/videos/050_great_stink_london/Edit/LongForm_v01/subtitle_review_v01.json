@@ -1,0 +1,35 @@
+{
+  "subtitle_contract_sha256": "c1d3c6303f1ebe1dd0bfc8769007b02670506f35971d9ad55fc20df8701ceda0",
+  "checks": {
+    "semantic_grouping": {
+      "status": "WARNING",
+      "reviewer": "coordinator",
+      "method": "Read all 164 groups; measured flagged boundaries",
+      "coverage": "Full text, unresolved editorial quality at some forced splits",
+      "evidence": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Edit/LongForm_v01/pre_render_review_v01.md",
+        "sha256": "aba1b87d93de372186c5dc274104efa697ad94fafb8e689582ab7a3283200afc"
+      }
+    },
+    "audible_sync": {
+      "status": "WARNING",
+      "reviewer": "user",
+      "method": "Viewed and listened to 3 technical samples",
+      "coverage": "0–11.2 s, 111.9–122.667 s, 224.033–233.967 s only",
+      "evidence": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Edit/LongForm_v01/pre_render_review_v01.md",
+        "sha256": "aba1b87d93de372186c5dc274104efa697ad94fafb8e689582ab7a3283200afc"
+      }
+    },
+    "visual_placement": {
+      "status": "UNVERIFIED",
+      "reviewer": "coordinator",
+      "method": "51 composited scene midpoints and two sample frames",
+      "coverage": "No motion path or complete scene × cue coverage",
+      "evidence": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Edit/LongForm_v01/pre_render_review_v01.md",
+        "sha256": "aba1b87d93de372186c5dc274104efa697ad94fafb8e689582ab7a3283200afc"
+      }
+    }
+  }
+}

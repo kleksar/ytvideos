@@ -1,0 +1,60 @@
+{
+  "file": "/Users/diplomat/ytvideos/Shared/Image_Motion/Cache/finished/7e958551b9b1243a9fb892302764dcca0f8d4b5bb312063a82ffbc3cc57428f3.mp4",
+  "sha256": "e457d9718c7d8d67d35c57798c5772d6a4282b6ebc91b0152c9421111b55e69a",
+  "decoded_frames": 122,
+  "visible_distinct_hashes": 120,
+  "metadata": "PASS",
+  "full_decode": "PASS",
+  "visual_samples": [
+    0,
+    60,
+    119
+  ],
+  "visual_inspection": "PASS_SAMPLED_AUTHOR",
+  "independent_review": "NOT_PERFORMED",
+  "live_palmier_apply": "NOT_PERFORMED",
+  "grain_preset": "g08",
+  "visual_notes": "Actual decoded full frames 0/60/119 plus native-pixel patch inspected. No blank edges or critical face/hand/watch clipping in these samples; original hair crop retained. Not continuous playback or independent QA.",
+  "portrait": {
+    "file": "/Users/diplomat/ytvideos/channels/paper_detour/Shared/Experiments/Grain/20261102_watchmaker/Work/common-g08-v01/previews/portrait_g08.mp4",
+    "sha256": "4e04ed2f2ac1e5f36482f9f16371bac11b63d837d135b6cde41a89d1a17adc9e",
+    "metadata": "PASS",
+    "full_decode": "PASS",
+    "decoded_frames": 32,
+    "distinct_visible_frames": 30,
+    "sigma_output_px": 0.5775,
+    "content": "Synthetic testsrc2 technical fixture, not an accepted Paper scene"
+  },
+  "decoded_grain_first_frame": {
+    "projection_coefficient": 0.8807469606399536,
+    "correlation": 0.8714171213977535,
+    "note": "Linear numerical match to expected field, not a perceptual preservation percentage"
+  },
+  "unit_tests": {
+    "status": "PASS",
+    "tests": 15,
+    "command": [
+      "uv",
+      "run",
+      "--locked",
+      "--project",
+      "automation/image_motion",
+      "--python",
+      "3.12",
+      "--",
+      "python",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "automation/image_motion/tests",
+      "-v"
+    ],
+    "log": "/Users/diplomat/ytvideos/channels/paper_detour/Shared/Experiments/Grain/20261102_watchmaker/Edit/CommonG08/unit-tests.log"
+  },
+  "skill_validation": "PASS",
+  "documentation_links": "PASS",
+  "one_command": "python3 /Users/diplomat/ytvideos/automation/image_motion/run.py apply --config /absolute/episode/Edit/ImageMotion/motion.json",
+  "default_grain": "g08",
+  "delivery_export_profile_changed": false
+}

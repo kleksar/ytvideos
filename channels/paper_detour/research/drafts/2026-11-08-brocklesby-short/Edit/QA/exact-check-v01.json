@@ -1,0 +1,310 @@
+{
+  "media": "/Users/diplomat/ytvideos/channels/paper_detour/research/drafts/2026-11-08-brocklesby-short/Deliverables/Brocklesby-Paper-Detour-en-v01.mp4",
+  "sha256": "4fcad4dc6c45419e2cf7b62648aa8eba9dd3b343af79ae47a03c543010a01032",
+  "stream_metadata": "PASS",
+  "cadence": "PASS",
+  "fps": "30/1",
+  "decoded_caption_frames": 1080,
+  "caption_expected_events": 102,
+  "caption_match_min": {
+    "cream": 1.0,
+    "gold": 0.9011627906976745
+  },
+  "caption_mismatch_candidates": [],
+  "extra_gold_candidates": [],
+  "caption_method": "Compare decoded, area-downsampled caption interiors to exact scheduled cream and gold renderer states. Thresholds 48 RGB units, 64% minimum matched interiors; targeted visual review of any candidates.",
+  "audio_method": "Sample-aligned first 36 seconds, exact 48k stereo; per-channel 1s correlation source versus AAC decoded; allowed less than one AAC frame of end padding.",
+  "audio_padding_samples": 512,
+  "audio_comparison": [
+    {
+      "second": 0,
+      "corr": [
+        0.9988334123967434,
+        0.9993717310318192
+      ],
+      "error_rms_dbfs": -48.0240708112962
+    },
+    {
+      "second": 1,
+      "corr": [
+        0.999865283954515,
+        0.9998634323201536
+      ],
+      "error_rms_dbfs": -58.422886844575494
+    },
+    {
+      "second": 2,
+      "corr": [
+        0.9999464024112905,
+        0.9999413167080536
+      ],
+      "error_rms_dbfs": -60.20357097361657
+    },
+    {
+      "second": 3,
+      "corr": [
+        0.9999053603860695,
+        0.999896037949054
+      ],
+      "error_rms_dbfs": -58.34335556904732
+    },
+    {
+      "second": 4,
+      "corr": [
+        0.9998822219286673,
+        0.9997695169959815
+      ],
+      "error_rms_dbfs": -59.192581154301784
+    },
+    {
+      "second": 5,
+      "corr": [
+        0.9999672035298497,
+        0.999938732843054
+      ],
+      "error_rms_dbfs": -64.72755296624277
+    },
+    {
+      "second": 6,
+      "corr": [
+        0.9999597421048054,
+        0.999960873326697
+      ],
+      "error_rms_dbfs": -62.18415199372319
+    },
+    {
+      "second": 7,
+      "corr": [
+        0.9999701876903171,
+        0.9999703455417115
+      ],
+      "error_rms_dbfs": -65.26988663755851
+    },
+    {
+      "second": 8,
+      "corr": [
+        0.9998179067774071,
+        0.9998254268203937
+      ],
+      "error_rms_dbfs": -57.1180688027415
+    },
+    {
+      "second": 9,
+      "corr": [
+        0.999987640214522,
+        0.9999872922610221
+      ],
+      "error_rms_dbfs": -70.25346075600353
+    },
+    {
+      "second": 10,
+      "corr": [
+        0.9998679179894089,
+        0.9998833645621773
+      ],
+      "error_rms_dbfs": -56.8967191911275
+    },
+    {
+      "second": 11,
+      "corr": [
+        0.9998906398924265,
+        0.9998922496842961
+      ],
+      "error_rms_dbfs": -59.87689025862778
+    },
+    {
+      "second": 12,
+      "corr": [
+        0.9999267544201552,
+        0.9999392501839777
+      ],
+      "error_rms_dbfs": -61.32789223643386
+    },
+    {
+      "second": 13,
+      "corr": [
+        0.9997361933228307,
+        0.9997290815325341
+      ],
+      "error_rms_dbfs": -55.42810581012609
+    },
+    {
+      "second": 14,
+      "corr": [
+        0.9998545824439415,
+        0.99985031673411
+      ],
+      "error_rms_dbfs": -60.052948566748384
+    },
+    {
+      "second": 15,
+      "corr": [
+        0.9999298583712837,
+        0.9999212305436749
+      ],
+      "error_rms_dbfs": -59.657803127933676
+    },
+    {
+      "second": 16,
+      "corr": [
+        0.9996628234991455,
+        0.999600181895368
+      ],
+      "error_rms_dbfs": -54.58490664759815
+    },
+    {
+      "second": 17,
+      "corr": [
+        0.9997925751371286,
+        0.9998214989680831
+      ],
+      "error_rms_dbfs": -56.54970285350174
+    },
+    {
+      "second": 18,
+      "corr": [
+        0.9971415868216795,
+        0.9997348442475054
+      ],
+      "error_rms_dbfs": -48.50036897310427
+    },
+    {
+      "second": 19,
+      "corr": [
+        0.9999556633014537,
+        0.9999554002597617
+      ],
+      "error_rms_dbfs": -62.3659284864666
+    },
+    {
+      "second": 20,
+      "corr": [
+        0.9998557194932605,
+        0.9998510236046319
+      ],
+      "error_rms_dbfs": -58.63781390706283
+    },
+    {
+      "second": 21,
+      "corr": [
+        0.9998991152654305,
+        0.9999000103467568
+      ],
+      "error_rms_dbfs": -58.23241568714674
+    },
+    {
+      "second": 22,
+      "corr": [
+        0.9999849773729445,
+        0.9999852762604557
+      ],
+      "error_rms_dbfs": -69.93511931846061
+    },
+    {
+      "second": 23,
+      "corr": [
+        0.9999030242603154,
+        0.9999036490565467
+      ],
+      "error_rms_dbfs": -59.51790930614997
+    },
+    {
+      "second": 24,
+      "corr": [
+        0.9996325774141385,
+        0.9996174350552468
+      ],
+      "error_rms_dbfs": -54.17716318694818
+    },
+    {
+      "second": 25,
+      "corr": [
+        0.9998681781280775,
+        0.9998674271233925
+      ],
+      "error_rms_dbfs": -55.83006925319614
+    },
+    {
+      "second": 26,
+      "corr": [
+        0.9999475732073047,
+        0.9998837249779887
+      ],
+      "error_rms_dbfs": -61.88128890483761
+    },
+    {
+      "second": 27,
+      "corr": [
+        0.9999000770323702,
+        0.9999063353126998
+      ],
+      "error_rms_dbfs": -58.3422342019759
+    },
+    {
+      "second": 28,
+      "corr": [
+        0.9996765331536657,
+        0.9996593798934773
+      ],
+      "error_rms_dbfs": -52.44594232842559
+    },
+    {
+      "second": 29,
+      "corr": [
+        0.9995358861145242,
+        0.999340845991405
+      ],
+      "error_rms_dbfs": -56.08755153178717
+    },
+    {
+      "second": 30,
+      "corr": [
+        0.9997693716282015,
+        0.9997586981010214
+      ],
+      "error_rms_dbfs": -54.12702256584442
+    },
+    {
+      "second": 31,
+      "corr": [
+        0.9997790702736894,
+        0.9997735580530036
+      ],
+      "error_rms_dbfs": -54.428122439188485
+    },
+    {
+      "second": 32,
+      "corr": [
+        0.996518820880424,
+        0.9971400915622652
+      ],
+      "error_rms_dbfs": -45.55270045798708
+    },
+    {
+      "second": 33,
+      "corr": [
+        0.9995347967336029,
+        0.9996090875050189
+      ],
+      "error_rms_dbfs": -54.721240090122016
+    },
+    {
+      "second": 34,
+      "corr": [
+        0.9998322688370612,
+        0.9997974908972571
+      ],
+      "error_rms_dbfs": -54.698035152994265
+    },
+    {
+      "second": 35,
+      "corr": [
+        0.999637465656114,
+        0.9996835568202996
+      ],
+      "error_rms_dbfs": -58.84561399011494
+    }
+  ],
+  "signal_peak_dbfs": -1.8506628274917603,
+  "subjective_listening": "UNVERIFIED"
+}

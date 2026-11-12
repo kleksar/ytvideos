@@ -1,0 +1,82 @@
+{
+  "model": "eleven_v4",
+  "voice_id": "zfc8CJQpe8Kqyl0vvCzo",
+  "speed": 1.1,
+  "sample_rate": 24000,
+  "frames": 1307,
+  "raw_silence_cuts_samples": [
+    [
+      49789,
+      56668
+    ],
+    [
+      92303,
+      97653
+    ],
+    [
+      185007,
+      192286
+    ],
+    [
+      239891,
+      250888
+    ],
+    [
+      307143,
+      313262
+    ],
+    [
+      386645,
+      392845
+    ],
+    [
+      472152,
+      480210
+    ],
+    [
+      505521,
+      510457
+    ],
+    [
+      555940,
+      560340
+    ],
+    [
+      606538,
+      610499
+    ],
+    [
+      727226,
+      732620
+    ],
+    [
+      765081,
+      773527
+    ],
+    [
+      838128,
+      843781
+    ],
+    [
+      909353,
+      913891
+    ],
+    [
+      930169,
+      933499
+    ],
+    [
+      948473,
+      955084
+    ],
+    [
+      1061057,
+      1067336
+    ]
+  ],
+  "seam_source_sample": 62160,
+  "peak": 0.672706298828125,
+  "music": "music_source.wav",
+  "tts_alignment": "voice_raw.alignment.json",
+  "note": "Machine silence and provider timing are estimates; naturalness and actual word boundaries not verified by listening"
+}

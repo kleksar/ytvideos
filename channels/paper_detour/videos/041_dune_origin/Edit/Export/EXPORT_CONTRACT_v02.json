@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "status": "RENDERED_PENDING_QA",
+  "episode": "Paper Detour 041 — Dune origin",
+  "language": "English",
+  "format": "Short, vertical 9:16, one static Paper diorama per shot with whole-image motion, direct cuts, separate subtitles and three semantic overlays",
+  "purpose": "Stage 16 review MP4; local preview, not publication or final current deliverable",
+  "settings_profile": {
+    "path": ".agents/skills/ytv-video-export/references/delivery.md",
+    "sha256": "da02b370bc3c8339822292909b45c270460d44f4308922ab4272906c10bc8fc5"
+  },
+  "edit": {
+    "project_id": "2C016BF5",
+    "timeline_id": "817A4AF7",
+    "saved_revision_evidence": "Palmier snapshot C5A19D87 (Exact S01 S12 loop v02), created after S12 was switched to the exact opening still; live timeline read v03 follows.",
+    "timeline_read_path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Edit/Export/timeline_read_v03.json",
+    "timeline_read_sha256": "51a3c326d19339ad9bfd24de1468e18ce439687d4923d689d050b93103d512e9",
+    "dependencies": [
+      {
+        "path": "channels/paper_detour/videos/041_dune_origin/Source/Script/narration_en_v04.md",
+        "sha256": "13ca21c88e05c32bc1165c7439311a9a661f0bc63a4f457116abc629849a58ab",
+        "role": "user-approved locked narration"
+      },
+      {
+        "path": "channels/paper_detour/videos/041_dune_origin/Source/Voice/en_v04_lawrence/voice_en.mp3",
+        "sha256": "93c72e54c92627afa9cf57b32eb194b9962031907f3d088987c49be1d0f17d1d",
+        "role": "ElevenLabs Lawrence TTS original, 44.1 kHz mono"
+      },
+      {
+        "path": "channels/paper_detour/videos/041_dune_origin/Source/Voice/en_v04_lawrence/voice_en.alignment.json",
+        "sha256": "13754e97ec6971fa71ee7a664f5f56d1db54b9a2f5512d244f8c286156d6a151",
+        "role": "TTS character alignment used for cut/cue timing"
+      },
+      {
+        "path": "channels/paper_detour/videos/041_dune_origin/Source/Audio/voiceonly_master_en_v02.wav",
+        "sha256": "fee65602a23d3ae18e5daa2df3bac4407e014106db611bfef967bcb104cc0072",
+        "role": "current voice-only mono mix, 44.1 kHz/24-bit PCM; no music/SFX"
+      },
+      {
+        "path": "channels/paper_detour/videos/041_dune_origin/Source/Subtitles/shorts_en_v01.srt",
+        "sha256": "448e38266d64d8eb6eb5040545b3c61e7b44851a4d0800ce9eb55cc5d9755cce",
+        "role": "55 one-line subtitle cues, max three words"
+      },
+      {
+        "path": "channels/paper_detour/videos/041_dune_origin/Source/Subtitles/caption_groups_en_v01.txt",
+        "sha256": "c2257a796234a37504809ada98075ac93e5a5694862867c9a02fec756648c46f",
+        "role": "Extra High phrase segmentation"
+      },
+      {
+        "path": "channels/paper_detour/videos/041_dune_origin/Source/Images/GENERATION_LOG_v01.md",
+        "sha256": "ac66ccf903abd5deff3944fbe40c797d4c3677b80c23476b4dc60e1a46b85395",
+        "role": "12 accepted generation IDs/model/dimensions and exact S07 replacement"
+      },
+      {
+        "mediaRefs": [
+          "E19BE26D",
+          "5C4B9622",
+          "CCC8B3DE",
+          "12AEA5BC",
+          "2B5F0BBD",
+          "92ACA8AA",
+          "8DF95A11",
+          "99AFF488",
+          "B007CE3F",
+          "4EE59500",
+          "4BF517B7",
+          "2E4B9DD3"
+        ],
+        "role": "12 accepted Palmier scene image assets; actual dimensions 1536x2752"
+      },
+      {
+        "mediaRef": "24A47B9D",
+        "source": "channels/paper_detour/Shared/References/Paper/paper004_user_38.png",
+        "sha256": "238bb11958c8e59224edcd006db060df0bddd0c9e100f795e44eeb537ebdc166",
+        "role": "style/material reference only"
+      },
+      {
+        "mediaRef": "7107A439",
+        "role": "Palmier imported current mono voice-only mix v02"
+      },
+      {
+        "mediaRef": "2B2E11BB",
+        "role": "imported EN SRT source; cues are authored as separate Palmier text clips"
+      },
+      {
+        "path": "channels/paper_detour/videos/041_dune_origin/Storyboard/storyboard_v03.md",
+        "sha256": "4b2a4babce0004d4b191ab093aa94a72118b869e8eed5a880113c7e8da8c7fb4",
+        "role": "voice-aligned visual plan with exact S01/S12 image loop"
+      }
+    ]
+  },
+  "timeline": {
+    "width": 1440,
+    "height": 2560,
+    "aspect_ratio": "9:16",
+    "sample_aspect_ratio": "1:1",
+    "fps": "30/1",
+    "frame_count": 1587,
+    "duration_seconds": 52.9,
+    "output_color_space": "rec709"
+  },
+  "required_delivery": {
+    "container": "MP4",
+    "video": {
+      "codec_name": "h264",
+      "pix_fmt": "yuv420p",
+      "scan": "progressive",
+      "cadence": "constant 30/1 fps",
+      "color_primaries": "bt709",
+      "color_transfer": "bt709",
+      "color_space": "bt709",
+      "color_range": "limited/tv"
+    },
+    "audio_contract": {
+      "owner_handoff": ".agents/skills/ytv-audio-delivery/references/delivery-checks.md#Paper-Detour-YouTube-delivery; SHA-256 036dc58a646e8d6859edab56778a486c85bdf5879856dad31e5324f5f02a279c; ytv-audio-delivery owns the audio contract",
+      "accepted_complete_mix": "Current stage-16 candidate is voice-only master v02; user review is pending. Music and SFX are omitted because available generation balance was insufficient; no other-episode audio substituted.",
+      "source_rate_channels": "Locked TTS mono 44.1 kHz; v02 mono PCM 44.1 kHz/24-bit, 52.88 s; clip 9BF34941 spans project frames [0,1587).",
+      "codec_name": "aac",
+      "profile": "AAC-LC; measured from final remux.",
+      "sample_rate": 44100,
+      "channels": "1 preferred for this voice-only mono program; 2-channel dual-mono is acceptable only if actual engine output is verified, no widening.",
+      "target_bit_rate": "192000 b/s AAC-LC for Paper mono speech delivery"
+    }
+  },
+  "encoding": {
+    "engine": "Palmier native H.264 video export + FFmpeg AAC-LC audio remux from PCM master",
+    "version_evidence": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers; Palmier version is not exposed.",
+    "requested_arguments": {
+      "projectId": "2C016BF5",
+      "timelineId": "817A4AF7",
+      "mode": "video",
+      "codec": "H.264",
+      "resolution": "Match Timeline",
+      "outputPath": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Work/production-v02/previews/041_dune_origin_EN_v02_stage16_review.mp4",
+      "overwrite": false
+    },
+    "quality_preferences": {
+      "resolution": "Native 1440x2560 (2K short edge); HighestQuality Match Timeline preset",
+      "bitrate": "No numeric bitrate/CRF target exposed or claimed."
+    },
+    "capability_evidence": "Live project read confirms 1440x2560, 30fps and rec709. Adapter: .agents/skills/ytv-video-export/references/palmier.md. Palmier native H.264 export is the Paper profile path.",
+    "engine_managed_fields": [
+      "H.264 profile/level, bitrate/CRF, speed preset, GOP/B-frame controls",
+      "AAC encoder internals; target bitrate was explicitly set to 192 kb/s and measured at 192049 b/s."
+    ],
+    "postprocess": {
+      "native_palmier_output": "Work/production-v02/scratch/native_h264_base_v02.mp4",
+      "native_sha256": "aa33c2f17930ae92d891a6f1694bcd989b21b139b02f09b1fb02694457f75eef",
+      "audio_source": "Source/Audio/voiceonly_master_en_v02.wav",
+      "audio_source_sha256": "fee65602a23d3ae18e5daa2df3bac4407e014106db611bfef967bcb104cc0072",
+      "operation": "Copy original H.264 video packets; encode fresh mono AAC-LC 192 kb/s from PCM master at 44.1 kHz with -0.7 dB static gain to guard post-encode true peak. No audio was sourced from the low-bitrate native AAC stream.",
+      "video_packet_hash_before_after": "eff01e1c69d4ee5e72a7457a1dccc22c684d7b2ab2d9c0c11e0608f57989c5f7",
+      "output_sha256": "e27b24ba56d80ef5ac62b5c1b1beca852103a2319b535c5f00835ca7bc9230f0",
+      "output_audio_measurement": {
+        "integrated_lufs": -16.96,
+        "true_peak_dbtp": -1.67,
+        "sample_rate": 44100,
+        "channels": 1,
+        "bit_rate": 192049
+      }
+    }
+  },
+  "preflight": {
+    "author": "Codex",
+    "time": "2026-11-03T14:19:17.199165+00:00",
+    "authorization_references": [
+      "User instruction: final story approved, story checks waived, begin production (2026-11-03).",
+      "channels/paper_detour/videos/041_dune_origin/CURRENT_CONTEXT.md records the full production scope and stage-16 review export."
+    ],
+    "fresh_settings_evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Edit/Export/timeline_read_v03.json SHA-256 51a3c326d19339ad9bfd24de1468e18ce439687d4923d689d050b93103d512e9; live get_timeline confirms 1440x2560, 30fps, rec709, 1587 frames and S12 uses E19BE26D. Snapshot C5A19D87 protects this exact edit.",
+    "writer_and_export_state": "Correction export run production-v02 is active; Palmier has no prior active export after completion of rejected job 38288E82-F879-472B-9DB7-96B5229562E5.",
+    "output_path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Work/production-v02/previews/041_dune_origin_EN_v02_stage16_review.mp4",
+    "overwrite": false,
+    "media_lifecycle_receipt": "Edit/MediaLifecycle/audit-pre-render-v03/audit.json and plan-pre-render-v03/plan.json; BOUNDED_NOT_EXHAUSTIVE coverage; no errors, no stale inputs, no deletion candidates; executable=false as expected for a read-only pre-render plan.",
+    "unresolved_required_fields": []
+  },
+  "render_receipt": {
+    "path": "Edit/Export/RENDER_RECEIPT_v02.json",
+    "sha256": "cf2c094bc443eb1d6bf1d13e1e0f428509f103e312ed457f4f2af8651d9e7e71",
+    "output_file": "/Users/diplomat/ytvideos/channels/paper_detour/videos/041_dune_origin/Work/production-v02/previews/041_dune_origin_EN_v02_stage16_review.mp4",
+    "output_sha256": "e27b24ba56d80ef5ac62b5c1b1beca852103a2319b535c5f00835ca7bc9230f0",
+    "palmier_job": "C400A722-D870-4A77-9786-728297CBB9A2"
+  },
+  "qa_receipt": null
+}

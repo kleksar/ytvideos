@@ -1,0 +1,446 @@
+{
+  "schema": "ytv-delivery-v1",
+  "channel": "nuviko",
+  "format": "long",
+  "canvas": [
+    2560,
+    1440
+  ],
+  "fps": 30,
+  "frames": 450,
+  "caption_end_frame": 450,
+  "audio": {
+    "audio": {
+      "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Work/production-20261105-v01/samples/probe_audio_en_v01.wav",
+      "sha256": "0886d02717523a087d187a5c1b625bba93225a2e7dd6662533307f8457386042"
+    },
+    "applied_speed": 1.1,
+    "speed_policy": {
+      "path": "/Users/diplomat/ytvideos/.agents/skills/ytv-audio-delivery/references/speed.json",
+      "sha256": "32c378c36c1e297cbdc4e3593c965163d33e531b8b8eea026b367bddb51a668a"
+    },
+    "speed_evidence": {
+      "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Voice/voice_mix_v02.json",
+      "sha256": "f30cf45c1aaae2d204866c9c8f6af7da5674ea9335b043e9719893c231a55165"
+    }
+  },
+  "transcript": {
+    "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Work/production-20261105-v01/samples/probe_transcript_en_v01.txt",
+    "sha256": "02eb69c5908ea6dbff400ab960c50dee13afe462d9d50f93c3272bc2696dcac4"
+  },
+  "word_map": {
+    "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Work/production-20261105-v01/samples/probe_word_map_en_v01.json",
+    "sha256": "9ce624fb2efe930a50bc78aac7848c51b7fdb0108b77d45c4eaf85c2d874d753"
+  },
+  "profiles": [
+    {
+      "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/profiles/nuviko.json",
+      "sha256": "e710153ae2bd0587adf233b671924ebbf64d183c3e77d2f5ea0c48b266f467a0"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/profiles/long.json",
+      "sha256": "e8f9f5dd0354283634a0cf9dc1816736bac38de158de1d0bdd1b8b4658f51459"
+    },
+    {
+      "path": "/System/Library/Fonts/Supplemental/Georgia Bold.ttf",
+      "sha256": "1cfa9abd55be746c798c22ef4eba88fce82257934897404be2dae53ed0a4142a"
+    }
+  ],
+  "engine": [
+    {
+      "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/montage.py",
+      "sha256": "35eb0ea42c4823eb93d18d87468eb55cef9a3f16988a37c533c417b3780a7ad7"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/delivery.py",
+      "sha256": "8fcba5854d8832a966d4960dbdae3c8fa362d124d04a67f2b4b0df4347a71c65"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/.agents/skills/ytv-paper-subtitles/scripts/semantic_grouping.py",
+      "sha256": "f18deb4cbb5af9c10cfd51fd60b15ef1c87b5ebaaaa46f073210935821d8fc3e"
+    }
+  ],
+  "picture": [
+    {
+      "scene": {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_001_v02.png",
+        "start_frame": 0,
+        "end_frame": 150,
+        "direction": "left_to_right",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Scene 001 documentary composition",
+          "reason": "Caption geometry probe; keep the narration subject centered in a restrained whole-image move.",
+          "start": {
+            "center": [
+              0.506,
+              0.5
+            ],
+            "scale": 1.025
+          },
+          "end": {
+            "center": [
+              0.494,
+              0.5
+            ],
+            "scale": 1.045
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_001_v02.png",
+        "sha256": "c9db5782ea302e06af7aa5bf29782c6a4e71f1298b56badb15cf7e2025a67c59"
+      }
+    },
+    {
+      "scene": {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_002_v01.png",
+        "start_frame": 150,
+        "end_frame": 300,
+        "direction": "right_to_left",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Scene 002 documentary composition",
+          "reason": "Caption geometry probe; keep the narration subject centered in a restrained whole-image move.",
+          "start": {
+            "center": [
+              0.494,
+              0.5
+            ],
+            "scale": 1.045
+          },
+          "end": {
+            "center": [
+              0.506,
+              0.5
+            ],
+            "scale": 1.025
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_002_v01.png",
+        "sha256": "916bb2d58b3a4b3012171cae4db28344cdcc3fba7269847f0a07d4cc0858a385"
+      }
+    },
+    {
+      "scene": {
+        "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_007_v02.png",
+        "start_frame": 300,
+        "end_frame": 450,
+        "direction": "left_to_right",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Scene 007 documentary composition",
+          "reason": "Caption geometry probe; keep the narration subject centered in a restrained whole-image move.",
+          "start": {
+            "center": [
+              0.506,
+              0.5
+            ],
+            "scale": 1.025
+          },
+          "end": {
+            "center": [
+              0.494,
+              0.5
+            ],
+            "scale": 1.045
+          }
+        }
+      },
+      "image": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_007_v02.png",
+        "sha256": "53becd8d7a9212233bd9b5cc7c703cce55723e79e71e87e765514c60d43f1724"
+      }
+    }
+  ],
+  "overlays": [],
+  "groups": [
+    [
+      {
+        "text": "The",
+        "start": 0.0,
+        "end": 0.16
+      },
+      {
+        "text": "Soviet",
+        "start": 0.24,
+        "end": 0.64
+      }
+    ],
+    [
+      {
+        "text": "Union",
+        "start": 0.8,
+        "end": 1.12
+      },
+      {
+        "text": "was",
+        "start": 1.2,
+        "end": 1.36
+      },
+      {
+        "text": "developing",
+        "start": 1.44,
+        "end": 1.92
+      }
+    ],
+    [
+      {
+        "text": "an",
+        "start": 2.0,
+        "end": 2.08
+      },
+      {
+        "text": "aircraft",
+        "start": 2.16,
+        "end": 2.72
+      },
+      {
+        "text": "for",
+        "start": 2.8,
+        "end": 2.96
+      },
+      {
+        "text": "a",
+        "start": 3.0,
+        "end": 3.04
+      },
+      {
+        "text": "nuclear",
+        "start": 3.2,
+        "end": 3.6
+      }
+    ],
+    [
+      {
+        "text": "war",
+        "start": 3.76,
+        "end": 4.08
+      },
+      {
+        "text": "with",
+        "start": 4.16,
+        "end": 4.24
+      },
+      {
+        "text": "the",
+        "start": 4.28,
+        "end": 4.32
+      },
+      {
+        "text": "United",
+        "start": 4.4,
+        "end": 4.72
+      },
+      {
+        "text": "States.",
+        "start": 4.88,
+        "end": 5.36
+      }
+    ],
+    [
+      {
+        "text": "An",
+        "start": 5.76,
+        "end": 5.84
+      },
+      {
+        "text": "enormous",
+        "start": 6.0,
+        "end": 6.56
+      },
+      {
+        "text": "machine",
+        "start": 6.84,
+        "end": 7.12
+      }
+    ],
+    [
+      {
+        "text": "capable",
+        "start": 7.28,
+        "end": 7.68
+      },
+      {
+        "text": "of",
+        "start": 7.76,
+        "end": 7.84
+      },
+      {
+        "text": "carrying",
+        "start": 7.96,
+        "end": 8.4
+      },
+      {
+        "text": "twelve",
+        "start": 8.52,
+        "end": 8.88
+      }
+    ],
+    [
+      {
+        "text": "cruise",
+        "start": 8.96,
+        "end": 9.28
+      },
+      {
+        "text": "missiles",
+        "start": 9.36,
+        "end": 9.68
+      },
+      {
+        "text": "with",
+        "start": 9.76,
+        "end": 9.92
+      },
+      {
+        "text": "nuclear",
+        "start": 10.0,
+        "end": 10.4
+      }
+    ],
+    [
+      {
+        "text": "warheads",
+        "start": 10.48,
+        "end": 11.04
+      },
+      {
+        "text": "and",
+        "start": 11.2,
+        "end": 11.36
+      },
+      {
+        "text": "reaching",
+        "start": 11.4,
+        "end": 11.68
+      }
+    ],
+    [
+      {
+        "text": "speeds",
+        "start": 11.84,
+        "end": 12.24
+      },
+      {
+        "text": "of",
+        "start": 12.32,
+        "end": 12.4
+      },
+      {
+        "text": "more",
+        "start": 12.48,
+        "end": 12.56
+      },
+      {
+        "text": "than",
+        "start": 12.64,
+        "end": 12.88
+      }
+    ],
+    [
+      {
+        "text": "two",
+        "start": 12.96,
+        "end": 13.12
+      },
+      {
+        "text": "thousand",
+        "start": 13.36,
+        "end": 13.76
+      },
+      {
+        "text": "kilometers",
+        "start": 13.92,
+        "end": 14.4
+      }
+    ],
+    [
+      {
+        "text": "per",
+        "start": 14.48,
+        "end": 14.56
+      },
+      {
+        "text": "hour.",
+        "start": 14.64,
+        "end": 14.96
+      }
+    ]
+  ],
+  "resolved": {
+    "resolved_font_size_px": 84,
+    "max_visible_width_px": 1344.0,
+    "center_x_px": 1280.0,
+    "baseline": 1288,
+    "algorithm": "sentence-syntax-width-v5",
+    "display_intervals": [
+      {
+        "start_frame": 0,
+        "end_frame": 24
+      },
+      {
+        "start_frame": 24,
+        "end_frame": 60
+      },
+      {
+        "start_frame": 60,
+        "end_frame": 113
+      },
+      {
+        "start_frame": 113,
+        "end_frame": 173
+      },
+      {
+        "start_frame": 173,
+        "end_frame": 219
+      },
+      {
+        "start_frame": 219,
+        "end_frame": 269
+      },
+      {
+        "start_frame": 269,
+        "end_frame": 315
+      },
+      {
+        "start_frame": 315,
+        "end_frame": 356
+      },
+      {
+        "start_frame": 356,
+        "end_frame": 389
+      },
+      {
+        "start_frame": 389,
+        "end_frame": 435
+      },
+      {
+        "start_frame": 435,
+        "end_frame": 450
+      }
+    ],
+    "boundary_warnings": [
+      {
+        "after_group": 8,
+        "left": "speeds of more than",
+        "right": "two thousand kilometers",
+        "reason": "forced_or_ambiguous_syntax_boundary"
+      }
+    ]
+  }
+}

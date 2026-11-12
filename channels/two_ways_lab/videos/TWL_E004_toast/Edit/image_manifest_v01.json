@@ -1,0 +1,121 @@
+{
+  "description": "Full generated frames; each edit used its target image and hero reference images. No people or text composited by script. Separate generated lettering; subtitles are the allowed exception.",
+  "hero_references": [
+    {
+      "path": "channels/two_ways_lab/brand/References/hero_model_sheet_v01/user_face_reference.png",
+      "sha256": "378c188776158cae9fc4a709bcdcccb9215f06b809a4e46ed48b91c101cba254"
+    },
+    {
+      "path": "channels/two_ways_lab/brand/References/hero_model_sheet_v01/expressions.png",
+      "sha256": "fd97655857b469e4320fff3d01160f31a5d8a558f22315f6c49464f0c1f5c00a"
+    },
+    {
+      "path": "channels/two_ways_lab/brand/References/hero_model_sheet_v01/turnaround.png",
+      "sha256": "d3a89a7f3031409a78d922a37f495accbbf46978a5f0033ec952d9c94333f515"
+    }
+  ],
+  "anchor": {
+    "path": "channels/two_ways_lab/videos/TWL_E004_toast/Source/Images/v01/empty.png",
+    "sha256": "61c22693c50be5f1bf7e74828c7ad97541ea2515990a9bc9b3bb13750a0adae2"
+  },
+  "scenes": [
+    {
+      "path": "channels/two_ways_lab/videos/TWL_E004_toast/Source/Images/v01/hook.png",
+      "sha256": "2937956046c0314cad48f54f9b3ef612b1046c643e81790689fded492de48591",
+      "edit_target": {
+        "path": "channels/two_ways_lab/videos/TWL_E004_toast/Source/Images/v01/empty.png",
+        "sha256": "61c22693c50be5f1bf7e74828c7ad97541ea2515990a9bc9b3bb13750a0adae2"
+      }
+    },
+    {
+      "path": "channels/two_ways_lab/videos/TWL_E004_toast/Source/Images/v01/pan_two_raw.png",
+      "sha256": "138ba65c3ef75ada1cff4e695ca549e0215b6f1a598e658b8926f5ce90188db3",
+      "edit_target": {
+        "path": "channels/two_ways_lab/videos/TWL_E004_toast/Source/Images/v01/hook.png",
+        "sha256": "2937956046c0314cad48f54f9b3ef612b1046c643e81790689fded492de48591"
+      }
+    },
+    {
+      "path": "channels/two_ways_lab/videos/TWL_E004_toast/Source/Images/v01/pan_two_golden.png",
+      "sha256": "da201a26befb9d32d5a80b70f86624dd2fbab9b57defa10255f9011bb8845f2a",
+      "edit_target": {
+        "path": "channels/two_ways_lab/videos/TWL_E004_toast/Source/Images/v01/hook.png",
+        "sha256": "2937956046c0314cad48f54f9b3ef612b1046c643e81790689fded492de48591"
+      }
+    },
+    {
+      "path": "channels/two_ways_lab/videos/TWL_E004_toast/Source/Images/v01/one_raw.png",
+      "sha256": "9940291ca5f6b61a755c2292448a6778083bf5c6891d9705f7b76692835362c8",
+      "edit_target": {
+        "path": "channels/two_ways_lab/videos/TWL_E004_toast/Source/Images/v01/hook.png",
+        "sha256": "2937956046c0314cad48f54f9b3ef612b1046c643e81790689fded492de48591"
+      }
+    },
+    {
+      "path": "channels/two_ways_lab/videos/TWL_E004_toast/Source/Images/v01/all_done.png",
+      "sha256": "65c206e667954ada709d048bab50a7a784fdc5ec40691727f0337e3c1b1cc7f9",
+      "edit_target": {
+        "path": "channels/two_ways_lab/videos/TWL_E004_toast/Source/Images/v01/hook.png",
+        "sha256": "2937956046c0314cad48f54f9b3ef612b1046c643e81790689fded492de48591"
+      }
+    },
+    {
+      "path": "channels/two_ways_lab/videos/TWL_E004_toast/Source/Images/v01/first_flip.png",
+      "sha256": "290d7039cb5a91cab5830e304ae56d828081f48235d6774779823f87f6c3dd45",
+      "edit_target": {
+        "path": "channels/two_ways_lab/videos/TWL_E004_toast/Source/Images/v01/hook.png",
+        "sha256": "2937956046c0314cad48f54f9b3ef612b1046c643e81790689fded492de48591"
+      }
+    },
+    {
+      "path": "channels/two_ways_lab/videos/TWL_E004_toast/Source/Images/v01/swap.png",
+      "sha256": "0587003e4b7bbc631bb8ae2b8518fd94fcad447c36104bbb000d1576ed019d1b",
+      "edit_target": {
+        "path": "channels/two_ways_lab/videos/TWL_E004_toast/Source/Images/v01/hook.png",
+        "sha256": "2937956046c0314cad48f54f9b3ef612b1046c643e81790689fded492de48591"
+      }
+    },
+    {
+      "path": "channels/two_ways_lab/videos/TWL_E004_toast/Source/Images/v01/final_pan.png",
+      "sha256": "b7ed740d063facdc0330ce958a9ca379ded6afeb32addbbcd2c3b0a7d2a53ad3",
+      "edit_target": {
+        "path": "channels/two_ways_lab/videos/TWL_E004_toast/Source/Images/v01/hook.png",
+        "sha256": "2937956046c0314cad48f54f9b3ef612b1046c643e81790689fded492de48591"
+      }
+    },
+    {
+      "path": "channels/two_ways_lab/videos/TWL_E004_toast/Source/Images/v01/action.png",
+      "sha256": "765235e95437d6a15c645c9c9d4a7e97719d889bc0530a3d0f6929daa4ec8356",
+      "edit_target": {
+        "path": "channels/two_ways_lab/videos/TWL_E004_toast/Source/Images/v01/pan_two_raw.png",
+        "sha256": "138ba65c3ef75ada1cff4e695ca549e0215b6f1a598e658b8926f5ce90188db3"
+      }
+    },
+    {
+      "path": "channels/two_ways_lab/videos/TWL_E004_toast/Source/Images/v01/celebrate.png",
+      "sha256": "f0a3402d071db109bb7d9948714b13e8bf15fe8956a5e63505cc440a50104d0d",
+      "edit_target": {
+        "path": "channels/two_ways_lab/videos/TWL_E004_toast/Source/Images/v01/all_done.png",
+        "sha256": "65c206e667954ada709d048bab50a7a784fdc5ec40691727f0337e3c1b1cc7f9"
+      }
+    }
+  ],
+  "lettering": [
+    {
+      "path": "channels/two_ways_lab/videos/TWL_E004_toast/Source/Lettering/v01/4_original.png",
+      "sha256": "e326c4a57fc3bbbf5a46f1a2edd76242e83478e6547b28e423db9b814dba14d6"
+    },
+    {
+      "path": "channels/two_ways_lab/videos/TWL_E004_toast/Source/Lettering/v01/4.png",
+      "sha256": "6d53bb539f068d7a83cabc4d85a426276a9821053cb19fa6949415fc9566b241"
+    },
+    {
+      "path": "channels/two_ways_lab/videos/TWL_E004_toast/Source/Lettering/v01/3_original.png",
+      "sha256": "6e392b108ee47a81c7e6fa16a0f2be963ac964dccadae2678f79ffbb1375e4f9"
+    },
+    {
+      "path": "channels/two_ways_lab/videos/TWL_E004_toast/Source/Lettering/v01/3.png",
+      "sha256": "05f8225a7fdb756a105ea6a782362c0c7431d145056449ebd31d175fef12f96f"
+    }
+  ]
+}

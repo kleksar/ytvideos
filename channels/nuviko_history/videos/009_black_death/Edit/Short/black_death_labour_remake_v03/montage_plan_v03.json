@@ -1,0 +1,89 @@
+{
+  "channel": "nuviko",
+  "format": "short",
+  "fps": 30,
+  "canvas": [
+    1440,
+    2560
+  ],
+  "audio": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Assets/Generated/short_20261103_v03/audio/black_death_labour_short_audio_1_10x.m4a",
+  "scenes": [
+    {
+      "id": "S01",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Source/Shorts/05_labour/Images/S01_labour_field_v01.png",
+      "start_frame": 0,
+      "end_frame": 128,
+      "direction": "left_to_right",
+      "zoom": "in"
+    },
+    {
+      "id": "S02",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Source/Shorts/05_labour/Images/S02_empty_workshop_v01.png",
+      "start_frame": 128,
+      "end_frame": 256,
+      "direction": "right_to_left",
+      "zoom": "out"
+    },
+    {
+      "id": "S03",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Source/Shorts/05_labour/Images/S03_employer_offer_v01.png",
+      "start_frame": 256,
+      "end_frame": 384,
+      "direction": "none",
+      "zoom": "in"
+    },
+    {
+      "id": "S04",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Source/Shorts/05_labour/Images/S04_worker_choice_v01.png",
+      "start_frame": 384,
+      "end_frame": 512,
+      "direction": "left_to_right",
+      "zoom": "out"
+    },
+    {
+      "id": "S05",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Source/Shorts/05_labour/Images/S05_owner_worker_negotiation_v01.png",
+      "start_frame": 512,
+      "end_frame": 640,
+      "direction": "right_to_left",
+      "zoom": "in"
+    },
+    {
+      "id": "S06",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Source/Shorts/05_labour/Images/S06_labour_council_v01.png",
+      "start_frame": 640,
+      "end_frame": 768,
+      "direction": "left_to_right",
+      "zoom": "none"
+    },
+    {
+      "id": "S07",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Source/Shorts/05_labour/Images/S07_worker_stopped_v01.png",
+      "start_frame": 768,
+      "end_frame": 896,
+      "direction": "right_to_left",
+      "zoom": "out"
+    },
+    {
+      "id": "S08",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Source/Shorts/05_labour/Images/S08_field_work_rules_v01.png",
+      "start_frame": 896,
+      "end_frame": 1024,
+      "direction": "left_to_right",
+      "zoom": "in"
+    },
+    {
+      "id": "S09",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Source/Shorts/05_labour/Images/S09_traveler_cta_v01.png",
+      "start_frame": 1024,
+      "end_frame": 1152,
+      "direction": "none",
+      "zoom": "out"
+    }
+  ],
+  "subtitles": {
+    "mode": "overlay",
+    "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Work/black-death-labour-short-caption-remake-v03/captions_v03.ffconcat",
+    "y": 1904
+  }
+}

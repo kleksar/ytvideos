@@ -1,0 +1,100 @@
+{
+  "version": "v01",
+  "status": "DRAFT_FOR_USER_REVIEW",
+  "duration_seconds": 612.32,
+  "sample_rate_hz": 44100,
+  "channels": 2,
+  "voice_source": "Source/Voice/v02/voice_en.mp3",
+  "voice_sha256": "f13a6fbbb4796503aa9cf3a262f33ed098b8cd8d3e1cff38fb44a6c77b9fbbe0",
+  "voice_source_speed": 1.1,
+  "speed_applied_again": false,
+  "voice_gain_change_db": 0,
+  "alignment_source": "Source/Voice/v02/voice_en.alignment.json",
+  "alignment_is_audibly_verified": false,
+  "music_source": "Locally synthesized original low drone and soft string-like additive tones; no third-party samples.",
+  "music_score": "Research/CONSULTATION_SOUND_v01.md",
+  "music_rms_target_below_active_voice_db": -24,
+  "ducking": {
+    "window_seconds": 0.08,
+    "attack_seconds": 0.16,
+    "release_seconds": 0.65,
+    "gain_range": [
+      0.45,
+      1.0
+    ]
+  },
+  "phase_boundaries_seconds": [
+    0.0,
+    54.32,
+    202.64,
+    282.853,
+    364.4,
+    461.04,
+    520.56,
+    555.28,
+    612.32
+  ],
+  "emphasis_reduction_windows": [
+    [
+      25.387,
+      36.72,
+      0.12
+    ],
+    [
+      227.0,
+      282.853,
+      0.18
+    ],
+    [
+      328.6,
+      364.4,
+      0.2
+    ],
+    [
+      374.0,
+      390.4,
+      0.24
+    ],
+    [
+      416.0,
+      442.52,
+      0.18
+    ],
+    [
+      502.28,
+      520.56,
+      0.16
+    ],
+    [
+      584.0,
+      603.92,
+      0.1
+    ],
+    [
+      603.92,
+      612.32,
+      0.0
+    ]
+  ],
+  "sfx": "None; no event-specific sound effects were created.",
+  "music_bed_sha256": "c92697f1240268a8884a76dd5d092112fb9a0b6a899971b2328841ec7062e843",
+  "mix_sha256": "4c56e59fe5b14a33534083f927bec2b5ff9c8cc79e922ab082ad85ba2a9207cc",
+  "music_bed_path": "Source/Audio/music_bed_en_v01.wav",
+  "mix_path": "Source/Audio/mix_en_v01.wav",
+  "peak_linear": 0.933258056640625,
+  "listening_review": "Not performed. Audible clarity, transitions, handset playback and subtitle-to-speech sync remain UNVERIFIED.",
+  "final_audio_sha256": "4c56e59fe5b14a33534083f927bec2b5ff9c8cc79e922ab082ad85ba2a9207cc",
+  "word_map_path": "Source/Audio/word_map_mix_v01.json",
+  "word_map_sha256": "dc803d2c05315280000a844383b5cc91b40098d3347e83612b83ff75dd7b5a5c",
+  "transcript_path": "Source/Audio/transcript_en_v01.txt",
+  "transcript_sha256": "81044e47acfb0a4d84d3f58e22dbde47a9478bd7810220542ebe63a63ccee5a9",
+  "alignment_conform": "Source word timing is conformed without offset or retime to the additive mix because the accepted VO samples and start are unchanged.",
+  "machine_audio_measurements": {
+    "duration_seconds": 612.32,
+    "sample_rate_hz": 44100,
+    "channels": 2,
+    "integrated_loudness_lufs": -18.8,
+    "true_peak_dbfs": -0.6,
+    "peak_check": "ffmpeg ebur128 and volumedetect; no clipping observed"
+  }
+}

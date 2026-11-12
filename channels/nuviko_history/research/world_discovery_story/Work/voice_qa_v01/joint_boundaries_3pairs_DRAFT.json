@@ -1,0 +1,895 @@
+{
+  "audio_sha256": "710c96010938c89f099f896e888b967c343de32a63f528d1064f0e8ff7793ed4",
+  "input_text_sha256": "0cd40df71fb76fb414adfbd37c9b4a74918a9760c5e4acd21eb53ccd42b70b33",
+  "method": "joint alignment of each adjacent sentence pair in one audio window; automated only",
+  "result": {
+    "segments": [
+      {
+        "start": 34.047,
+        "end": 36.534,
+        "text": "The answer depends on who is asking.",
+        "words": [
+          {
+            "word": "The",
+            "start": 34.047,
+            "end": 34.148,
+            "score": 0.895
+          },
+          {
+            "word": "answer",
+            "start": 34.268,
+            "end": 34.649,
+            "score": 0.626
+          },
+          {
+            "word": "depends",
+            "start": 34.93,
+            "end": 35.411,
+            "score": 0.74
+          },
+          {
+            "word": "on",
+            "start": 35.511,
+            "end": 35.592,
+            "score": 0.671
+          },
+          {
+            "word": "who",
+            "start": 35.692,
+            "end": 35.872,
+            "score": 0.828
+          },
+          {
+            "word": "is",
+            "start": 35.953,
+            "end": 36.033,
+            "score": 0.694
+          },
+          {
+            "word": "asking.",
+            "start": 36.173,
+            "end": 36.534,
+            "score": 0.834
+          }
+        ]
+      },
+      {
+        "start": 36.975,
+        "end": 41.227,
+        "text": "And the same question changes the story of how people discovered the world.",
+        "words": [
+          {
+            "word": "And",
+            "start": 36.975,
+            "end": 37.056,
+            "score": 0.834
+          },
+          {
+            "word": "the",
+            "start": 37.096,
+            "end": 37.196,
+            "score": 0.786
+          },
+          {
+            "word": "same",
+            "start": 37.276,
+            "end": 37.537,
+            "score": 0.738
+          },
+          {
+            "word": "question",
+            "start": 37.637,
+            "end": 38.119,
+            "score": 0.711
+          },
+          {
+            "word": "changes",
+            "start": 38.259,
+            "end": 38.74,
+            "score": 0.691
+          },
+          {
+            "word": "the",
+            "start": 38.801,
+            "end": 38.901,
+            "score": 0.848
+          },
+          {
+            "word": "story",
+            "start": 38.941,
+            "end": 39.322,
+            "score": 0.821
+          },
+          {
+            "word": "of",
+            "start": 39.362,
+            "end": 39.422,
+            "score": 0.837
+          },
+          {
+            "word": "how",
+            "start": 39.523,
+            "end": 39.723,
+            "score": 0.871
+          },
+          {
+            "word": "people",
+            "start": 39.803,
+            "end": 40.124,
+            "score": 0.759
+          },
+          {
+            "word": "discovered",
+            "start": 40.184,
+            "end": 40.726,
+            "score": 0.866
+          },
+          {
+            "word": "the",
+            "start": 40.766,
+            "end": 40.866,
+            "score": 0.834
+          },
+          {
+            "word": "world.",
+            "start": 40.926,
+            "end": 41.227,
+            "score": 0.81
+          }
+        ]
+      },
+      {
+        "start": 112.982,
+        "end": 117.685,
+        "text": "Neanderthals, another kind of human, were already living across parts of Eurasia.",
+        "words": [
+          {
+            "word": "Neanderthals,",
+            "start": 112.982,
+            "end": 113.782,
+            "score": 0.909
+          },
+          {
+            "word": "another",
+            "start": 114.082,
+            "end": 114.362,
+            "score": 0.825
+          },
+          {
+            "word": "kind",
+            "start": 114.422,
+            "end": 114.623,
+            "score": 0.772
+          },
+          {
+            "word": "of",
+            "start": 114.663,
+            "end": 114.723,
+            "score": 0.752
+          },
+          {
+            "word": "human,",
+            "start": 114.763,
+            "end": 115.103,
+            "score": 0.971
+          },
+          {
+            "word": "were",
+            "start": 115.283,
+            "end": 115.423,
+            "score": 0.973
+          },
+          {
+            "word": "already",
+            "start": 115.543,
+            "end": 115.903,
+            "score": 0.789
+          },
+          {
+            "word": "living",
+            "start": 115.983,
+            "end": 116.264,
+            "score": 0.833
+          },
+          {
+            "word": "across",
+            "start": 116.324,
+            "end": 116.684,
+            "score": 0.669
+          },
+          {
+            "word": "parts",
+            "start": 116.744,
+            "end": 117.024,
+            "score": 0.824
+          },
+          {
+            "word": "of",
+            "start": 117.064,
+            "end": 117.124,
+            "score": 0.75
+          },
+          {
+            "word": "Eurasia.",
+            "start": 117.224,
+            "end": 117.685,
+            "score": 0.894
+          }
+        ]
+      },
+      {
+        "start": 118.185,
+        "end": 124.149,
+        "text": "Across the planet, falling seas also exposed land between northeastern Asia and Alaska.",
+        "words": [
+          {
+            "word": "Across",
+            "start": 118.185,
+            "end": 118.605,
+            "score": 0.833
+          },
+          {
+            "word": "the",
+            "start": 118.645,
+            "end": 118.725,
+            "score": 0.997
+          },
+          {
+            "word": "planet,",
+            "start": 118.785,
+            "end": 119.205,
+            "score": 0.861
+          },
+          {
+            "word": "falling",
+            "start": 119.506,
+            "end": 119.926,
+            "score": 0.869
+          },
+          {
+            "word": "seas",
+            "start": 120.026,
+            "end": 120.406,
+            "score": 0.74
+          },
+          {
+            "word": "also",
+            "start": 120.586,
+            "end": 120.887,
+            "score": 0.768
+          },
+          {
+            "word": "exposed",
+            "start": 120.967,
+            "end": 121.427,
+            "score": 0.871
+          },
+          {
+            "word": "land",
+            "start": 121.487,
+            "end": 121.747,
+            "score": 0.868
+          },
+          {
+            "word": "between",
+            "start": 121.827,
+            "end": 122.187,
+            "score": 0.814
+          },
+          {
+            "word": "northeastern",
+            "start": 122.267,
+            "end": 122.868,
+            "score": 0.809
+          },
+          {
+            "word": "Asia",
+            "start": 122.988,
+            "end": 123.308,
+            "score": 0.86
+          },
+          {
+            "word": "and",
+            "start": 123.448,
+            "end": 123.568,
+            "score": 0.613
+          },
+          {
+            "word": "Alaska.",
+            "start": 123.628,
+            "end": 124.149,
+            "score": 0.887
+          }
+        ]
+      },
+      {
+        "start": 183.382,
+        "end": 188.745,
+        "text": "Stories, journeys, and observations gradually built larger pictures of the world.",
+        "words": [
+          {
+            "word": "Stories,",
+            "start": 183.382,
+            "end": 183.962,
+            "score": 0.838
+          },
+          {
+            "word": "journeys,",
+            "start": 184.282,
+            "end": 184.782,
+            "score": 0.816
+          },
+          {
+            "word": "and",
+            "start": 184.903,
+            "end": 185.023,
+            "score": 0.618
+          },
+          {
+            "word": "observations",
+            "start": 185.243,
+            "end": 185.983,
+            "score": 0.775
+          },
+          {
+            "word": "gradually",
+            "start": 186.163,
+            "end": 186.744,
+            "score": 0.812
+          },
+          {
+            "word": "built",
+            "start": 186.804,
+            "end": 187.064,
+            "score": 0.739
+          },
+          {
+            "word": "larger",
+            "start": 187.204,
+            "end": 187.624,
+            "score": 0.809
+          },
+          {
+            "word": "pictures",
+            "start": 187.704,
+            "end": 188.125,
+            "score": 0.82
+          },
+          {
+            "word": "of",
+            "start": 188.165,
+            "end": 188.225,
+            "score": 0.993
+          },
+          {
+            "word": "the",
+            "start": 188.265,
+            "end": 188.365,
+            "score": 0.685
+          },
+          {
+            "word": "world.",
+            "start": 188.425,
+            "end": 188.745,
+            "score": 0.638
+          }
+        ]
+      },
+      {
+        "start": 189.265,
+        "end": 193.949,
+        "text": "One surviving Babylonian map shows how its makers imagined the world around them.",
+        "words": [
+          {
+            "word": "One",
+            "start": 189.265,
+            "end": 189.406,
+            "score": 0.642
+          },
+          {
+            "word": "surviving",
+            "start": 189.486,
+            "end": 190.026,
+            "score": 0.902
+          },
+          {
+            "word": "Babylonian",
+            "start": 190.086,
+            "end": 190.746,
+            "score": 0.822
+          },
+          {
+            "word": "map",
+            "start": 190.806,
+            "end": 191.087,
+            "score": 0.972
+          },
+          {
+            "word": "shows",
+            "start": 191.287,
+            "end": 191.567,
+            "score": 0.885
+          },
+          {
+            "word": "how",
+            "start": 191.607,
+            "end": 191.747,
+            "score": 0.668
+          },
+          {
+            "word": "its",
+            "start": 191.807,
+            "end": 191.907,
+            "score": 0.82
+          },
+          {
+            "word": "makers",
+            "start": 191.987,
+            "end": 192.328,
+            "score": 0.878
+          },
+          {
+            "word": "imagined",
+            "start": 192.468,
+            "end": 192.988,
+            "score": 0.852
+          },
+          {
+            "word": "the",
+            "start": 193.028,
+            "end": 193.128,
+            "score": 0.68
+          },
+          {
+            "word": "world",
+            "start": 193.168,
+            "end": 193.408,
+            "score": 0.565
+          },
+          {
+            "word": "around",
+            "start": 193.488,
+            "end": 193.768,
+            "score": 0.89
+          },
+          {
+            "word": "them.",
+            "start": 193.809,
+            "end": 193.949,
+            "score": 0.997
+          }
+        ]
+      }
+    ],
+    "word_segments": [
+      {
+        "word": "The",
+        "start": 34.047,
+        "end": 34.148,
+        "score": 0.895
+      },
+      {
+        "word": "answer",
+        "start": 34.268,
+        "end": 34.649,
+        "score": 0.626
+      },
+      {
+        "word": "depends",
+        "start": 34.93,
+        "end": 35.411,
+        "score": 0.74
+      },
+      {
+        "word": "on",
+        "start": 35.511,
+        "end": 35.592,
+        "score": 0.671
+      },
+      {
+        "word": "who",
+        "start": 35.692,
+        "end": 35.872,
+        "score": 0.828
+      },
+      {
+        "word": "is",
+        "start": 35.953,
+        "end": 36.033,
+        "score": 0.694
+      },
+      {
+        "word": "asking.",
+        "start": 36.173,
+        "end": 36.534,
+        "score": 0.834
+      },
+      {
+        "word": "And",
+        "start": 36.975,
+        "end": 37.056,
+        "score": 0.834
+      },
+      {
+        "word": "the",
+        "start": 37.096,
+        "end": 37.196,
+        "score": 0.786
+      },
+      {
+        "word": "same",
+        "start": 37.276,
+        "end": 37.537,
+        "score": 0.738
+      },
+      {
+        "word": "question",
+        "start": 37.637,
+        "end": 38.119,
+        "score": 0.711
+      },
+      {
+        "word": "changes",
+        "start": 38.259,
+        "end": 38.74,
+        "score": 0.691
+      },
+      {
+        "word": "the",
+        "start": 38.801,
+        "end": 38.901,
+        "score": 0.848
+      },
+      {
+        "word": "story",
+        "start": 38.941,
+        "end": 39.322,
+        "score": 0.821
+      },
+      {
+        "word": "of",
+        "start": 39.362,
+        "end": 39.422,
+        "score": 0.837
+      },
+      {
+        "word": "how",
+        "start": 39.523,
+        "end": 39.723,
+        "score": 0.871
+      },
+      {
+        "word": "people",
+        "start": 39.803,
+        "end": 40.124,
+        "score": 0.759
+      },
+      {
+        "word": "discovered",
+        "start": 40.184,
+        "end": 40.726,
+        "score": 0.866
+      },
+      {
+        "word": "the",
+        "start": 40.766,
+        "end": 40.866,
+        "score": 0.834
+      },
+      {
+        "word": "world.",
+        "start": 40.926,
+        "end": 41.227,
+        "score": 0.81
+      },
+      {
+        "word": "Neanderthals,",
+        "start": 112.982,
+        "end": 113.782,
+        "score": 0.909
+      },
+      {
+        "word": "another",
+        "start": 114.082,
+        "end": 114.362,
+        "score": 0.825
+      },
+      {
+        "word": "kind",
+        "start": 114.422,
+        "end": 114.623,
+        "score": 0.772
+      },
+      {
+        "word": "of",
+        "start": 114.663,
+        "end": 114.723,
+        "score": 0.752
+      },
+      {
+        "word": "human,",
+        "start": 114.763,
+        "end": 115.103,
+        "score": 0.971
+      },
+      {
+        "word": "were",
+        "start": 115.283,
+        "end": 115.423,
+        "score": 0.973
+      },
+      {
+        "word": "already",
+        "start": 115.543,
+        "end": 115.903,
+        "score": 0.789
+      },
+      {
+        "word": "living",
+        "start": 115.983,
+        "end": 116.264,
+        "score": 0.833
+      },
+      {
+        "word": "across",
+        "start": 116.324,
+        "end": 116.684,
+        "score": 0.669
+      },
+      {
+        "word": "parts",
+        "start": 116.744,
+        "end": 117.024,
+        "score": 0.824
+      },
+      {
+        "word": "of",
+        "start": 117.064,
+        "end": 117.124,
+        "score": 0.75
+      },
+      {
+        "word": "Eurasia.",
+        "start": 117.224,
+        "end": 117.685,
+        "score": 0.894
+      },
+      {
+        "word": "Across",
+        "start": 118.185,
+        "end": 118.605,
+        "score": 0.833
+      },
+      {
+        "word": "the",
+        "start": 118.645,
+        "end": 118.725,
+        "score": 0.997
+      },
+      {
+        "word": "planet,",
+        "start": 118.785,
+        "end": 119.205,
+        "score": 0.861
+      },
+      {
+        "word": "falling",
+        "start": 119.506,
+        "end": 119.926,
+        "score": 0.869
+      },
+      {
+        "word": "seas",
+        "start": 120.026,
+        "end": 120.406,
+        "score": 0.74
+      },
+      {
+        "word": "also",
+        "start": 120.586,
+        "end": 120.887,
+        "score": 0.768
+      },
+      {
+        "word": "exposed",
+        "start": 120.967,
+        "end": 121.427,
+        "score": 0.871
+      },
+      {
+        "word": "land",
+        "start": 121.487,
+        "end": 121.747,
+        "score": 0.868
+      },
+      {
+        "word": "between",
+        "start": 121.827,
+        "end": 122.187,
+        "score": 0.814
+      },
+      {
+        "word": "northeastern",
+        "start": 122.267,
+        "end": 122.868,
+        "score": 0.809
+      },
+      {
+        "word": "Asia",
+        "start": 122.988,
+        "end": 123.308,
+        "score": 0.86
+      },
+      {
+        "word": "and",
+        "start": 123.448,
+        "end": 123.568,
+        "score": 0.613
+      },
+      {
+        "word": "Alaska.",
+        "start": 123.628,
+        "end": 124.149,
+        "score": 0.887
+      },
+      {
+        "word": "Stories,",
+        "start": 183.382,
+        "end": 183.962,
+        "score": 0.838
+      },
+      {
+        "word": "journeys,",
+        "start": 184.282,
+        "end": 184.782,
+        "score": 0.816
+      },
+      {
+        "word": "and",
+        "start": 184.903,
+        "end": 185.023,
+        "score": 0.618
+      },
+      {
+        "word": "observations",
+        "start": 185.243,
+        "end": 185.983,
+        "score": 0.775
+      },
+      {
+        "word": "gradually",
+        "start": 186.163,
+        "end": 186.744,
+        "score": 0.812
+      },
+      {
+        "word": "built",
+        "start": 186.804,
+        "end": 187.064,
+        "score": 0.739
+      },
+      {
+        "word": "larger",
+        "start": 187.204,
+        "end": 187.624,
+        "score": 0.809
+      },
+      {
+        "word": "pictures",
+        "start": 187.704,
+        "end": 188.125,
+        "score": 0.82
+      },
+      {
+        "word": "of",
+        "start": 188.165,
+        "end": 188.225,
+        "score": 0.993
+      },
+      {
+        "word": "the",
+        "start": 188.265,
+        "end": 188.365,
+        "score": 0.685
+      },
+      {
+        "word": "world.",
+        "start": 188.425,
+        "end": 188.745,
+        "score": 0.638
+      },
+      {
+        "word": "One",
+        "start": 189.265,
+        "end": 189.406,
+        "score": 0.642
+      },
+      {
+        "word": "surviving",
+        "start": 189.486,
+        "end": 190.026,
+        "score": 0.902
+      },
+      {
+        "word": "Babylonian",
+        "start": 190.086,
+        "end": 190.746,
+        "score": 0.822
+      },
+      {
+        "word": "map",
+        "start": 190.806,
+        "end": 191.087,
+        "score": 0.972
+      },
+      {
+        "word": "shows",
+        "start": 191.287,
+        "end": 191.567,
+        "score": 0.885
+      },
+      {
+        "word": "how",
+        "start": 191.607,
+        "end": 191.747,
+        "score": 0.668
+      },
+      {
+        "word": "its",
+        "start": 191.807,
+        "end": 191.907,
+        "score": 0.82
+      },
+      {
+        "word": "makers",
+        "start": 191.987,
+        "end": 192.328,
+        "score": 0.878
+      },
+      {
+        "word": "imagined",
+        "start": 192.468,
+        "end": 192.988,
+        "score": 0.852
+      },
+      {
+        "word": "the",
+        "start": 193.028,
+        "end": 193.128,
+        "score": 0.68
+      },
+      {
+        "word": "world",
+        "start": 193.168,
+        "end": 193.408,
+        "score": 0.565
+      },
+      {
+        "word": "around",
+        "start": 193.488,
+        "end": 193.768,
+        "score": 0.89
+      },
+      {
+        "word": "them.",
+        "start": 193.809,
+        "end": 193.949,
+        "score": 0.997
+      }
+    ]
+  },
+  "raw_segment_pairs_1based": [
+    [
+      9,
+      10
+    ],
+    [
+      24,
+      25
+    ],
+    [
+      39,
+      40
+    ]
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "status": "REVIEW_REQUIRED",
+  "method": "two machine estimates only; neither establishes true audio timing",
+  "matched_word_outliers_gt_250ms": [
+    {
+      "word": "pain.",
+      "eleven_start": 14.2909,
+      "whisper_start": 14.0,
+      "difference": -0.291
+    },
+    {
+      "word": "Washington",
+      "eleven_start": 15.2,
+      "whisper_start": 14.88,
+      "difference": -0.32
+    },
+    {
+      "word": "one",
+      "eleven_start": 16.9455,
+      "whisper_start": 16.56,
+      "difference": -0.386
+    },
+    {
+      "word": "again",
+      "eleven_start": 23.2727,
+      "whisper_start": 22.92,
+      "difference": -0.353
+    },
+    {
+      "word": "saw",
+      "eleven_start": 25.2364,
+      "whisper_start": 24.96,
+      "difference": -0.276
+    },
+    {
+      "word": "That",
+      "eleven_start": 27.0545,
+      "whisper_start": 26.22,
+      "difference": -0.835
+    }
+  ],
+  "whisper_text": "In the portrait of America's first president, George Washington, his lips look swollen. That wasn't the painter's doing. When Washington became president, he had just one natural tooth left. He wore dentures, but they pressed against his mouth and caused pain. Washington himself complained that one set pushed his lips outward. He also wore a new set before sitting for the painter. The portrait was copied again and again, and millions saw Washington's discomfort. That is why today..."
+}

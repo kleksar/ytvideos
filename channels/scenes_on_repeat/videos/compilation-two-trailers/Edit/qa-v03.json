@@ -1,0 +1,80 @@
+{
+  "output": "Deliverables/movie-trailers-compilation-v03.mp4",
+  "sha256": "74bcc209e93716b4ed4763dfd39dfecb8700467ca9ffd18b7d2d41d1d9353d96",
+  "duration_seconds": 102,
+  "fps": 24,
+  "frames": 2448,
+  "resolution": "1280x720",
+  "audio_codec": "AAC stereo 48000 Hz",
+  "audio_packet_sha256": "c2a8b2c01e3d60fdac63889c448fd1ea38e842a1724248efcc857092dc15c9db",
+  "audio_matches_v02": true,
+  "full_decode": "pass",
+  "caption_word_count": 82,
+  "caption_group_count": 38,
+  "plan_nonoverlap_and_card_boundaries": "pass",
+  "contact_sheet_frames": [
+    346,
+    353,
+    1158,
+    1550,
+    1727,
+    2400
+  ],
+  "visual_sample": "red current word and poster cards inspected",
+  "semantic_grouping_warnings": [
+    {
+      "after_group": 2,
+      "left": "This ship",
+      "right": "is going",
+      "reason": "forced_or_ambiguous_syntax_boundary"
+    },
+    {
+      "after_group": 5,
+      "left": "What",
+      "right": "are you doing?",
+      "reason": "forced_or_ambiguous_syntax_boundary"
+    },
+    {
+      "after_group": 7,
+      "left": "Find me",
+      "right": "when you wake",
+      "reason": "forced_or_ambiguous_syntax_boundary"
+    },
+    {
+      "after_group": 12,
+      "left": "You don't",
+      "right": "have time",
+      "reason": "forced_or_ambiguous_syntax_boundary"
+    },
+    {
+      "after_group": 19,
+      "left": "You have to",
+      "right": "know how",
+      "reason": "forced_or_ambiguous_syntax_boundary"
+    },
+    {
+      "after_group": 29,
+      "left": "We know",
+      "right": "that you're",
+      "reason": "forced_or_ambiguous_syntax_boundary"
+    },
+    {
+      "after_group": 34,
+      "left": "This is",
+      "right": "my house.",
+      "reason": "forced_or_ambiguous_syntax_boundary"
+    },
+    {
+      "after_group": 36,
+      "left": "I have to",
+      "right": "defend it.",
+      "reason": "forced_or_ambiguous_syntax_boundary"
+    }
+  ],
+  "limitations": [
+    "Source word timestamps have not been individually verified against speech by listening.",
+    "Full continuous visual and audio review and independent review not performed.",
+    "SRT carried over from v02; not newly auditioned against audio."
+  ],
+  "status": "preview; not approved for publication"
+}

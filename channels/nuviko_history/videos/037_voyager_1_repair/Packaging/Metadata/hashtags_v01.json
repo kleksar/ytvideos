@@ -1,0 +1,120 @@
+{
+  "model_label": "Extra High",
+  "consultation_url": "https://chatgpt.com/g/g-p-6ae147d3975481919b5bfda6935777d0-yt-video/c/6aeb532f-0e20-83eb-979c-9dc810402337",
+  "completion": "Complete substantive response personally read in visible Chrome 2026-11-04",
+  "request": "One narrow task: expansive but relevant English hashtag selection across actual film topics, evaluate18exactcandidates, no fixed3target, no trend/demand claim, no story rewrite/fact-check; coordinator to independently search exact main tags afterward.",
+  "description_hashtags": "#Voyager1 #Voyager #VoyagerMission #SpaceExploration #SpaceHistory #InterstellarSpace #Heliosphere #DeepSpace #Spacecraft #SpaceCommunication #Engineering #ComputerMemory #SoftwareEngineering #NuvikoHistory",
+  "coverage": [
+    {
+      "direction": "Specific spacecraft",
+      "tags": [
+        "#Voyager1",
+        "#Voyager"
+      ],
+      "basis": "Central subject throughout"
+    },
+    {
+      "direction": "Mission history",
+      "tags": [
+        "#VoyagerMission",
+        "#SpaceHistory"
+      ],
+      "basis": "1977launch;Jupiter/Saturn;2023–2024repair"
+    },
+    {
+      "direction": "Space exploration",
+      "tags": [
+        "#SpaceExploration",
+        "#Spacecraft"
+      ],
+      "basis": "Continued mission and scientific data"
+    },
+    {
+      "direction": "Interstellar environment",
+      "tags": [
+        "#InterstellarSpace",
+        "#Heliosphere",
+        "#DeepSpace"
+      ],
+      "basis": "Crossing heliosphere;~24billionkm;interstellar study"
+    },
+    {
+      "direction": "Radio delay",
+      "tags": [
+        "#SpaceCommunication"
+      ],
+      "basis": "Signal remained;22.5hours each way"
+    },
+    {
+      "direction": "Engineering mechanism",
+      "tags": [
+        "#Engineering",
+        "#ComputerMemory",
+        "#SoftwareEngineering"
+      ],
+      "basis": "Diagnosis, damage, splitcode, redirectreferences"
+    },
+    {
+      "direction": "Channel",
+      "tags": [
+        "#NuvikoHistory"
+      ],
+      "basis": "Channel identity"
+    }
+  ],
+  "excluded": {
+    "#RemoteRepair": "Ambiguous physical-repair implication; damage remained",
+    "#NASA": "Not named in accepted narration; unnecessary for this self-contained set",
+    "#Science": "Broad repetition without extra subject precision",
+    "#Technology": "Broad repetition without extra subject precision",
+    "#Shorts": "This is a16:9longfilm",
+    "#Aliens": "Absent, misleading",
+    "#SpaceRescue": "Absent rescue/death claim would mislead",
+    "date-only hashtags": "1977/2023/2024/April20 are context, not separate topics"
+  },
+  "consultant_recommendation": "Keep all14 in single block at end of description. Semantic relevance only; no claim popularity, demand or reach.",
+  "research": {
+    "date": "2026-11-04",
+    "web_attempt": "4 exact main-tag searches returned unrelated help.youtube.com pages; direct hashtag pages only footer or throttled. No usage inference from these failures.",
+    "browser_method": "Visible Chrome YouTube search UI; exact hashtag result cards; locale RS with Russian UI and mixed result languages. Counts are rounded displayed corpus size, not market demand.",
+    "observations": [
+      {
+        "tag": "#Voyager1",
+        "url": "https://www.youtube.com/results?search_query=%23Voyager1",
+        "displayed": "29тыс.видео /16тыс.каналов"
+      },
+      {
+        "tag": "#VoyagerMission",
+        "url": "https://www.youtube.com/results?search_query=%23VoyagerMission",
+        "displayed": "3тыс.видео /1.7тыс.каналов"
+      },
+      {
+        "tag": "#SpaceCommunication",
+        "url": "https://www.youtube.com/results?search_query=%23SpaceCommunication",
+        "displayed": "1.2тыс.видео /960каналов"
+      },
+      {
+        "tag": "#ComputerMemory",
+        "url": "https://www.youtube.com/results?search_query=%23ComputerMemory",
+        "displayed": "6.6тыс.видео /3.5тыс.каналов"
+      },
+      {
+        "tag": "#SoftwareEngineering",
+        "url": "https://www.youtube.com/results?search_query=%23SoftwareEngineering",
+        "displayed": "300тыс.видео /65тыс.каналов"
+      },
+      {
+        "tag": "#InterstellarSpace",
+        "url": "https://www.youtube.com/results?search_query=%23InterstellarSpace",
+        "displayed": "9.4тыс.видео /5.5тыс.каналов"
+      }
+    ],
+    "other_exact_tags_usage": "not_checked; semantic relevance recorded. New channel brand tag permitted without established demand.",
+    "demand": "unknown",
+    "trend": "unknown"
+  },
+  "count": 14,
+  "title_hashtags": "not_requested for long-film title",
+  "status": "ready_for_user_review",
+  "external_state": "proposal_only"
+}

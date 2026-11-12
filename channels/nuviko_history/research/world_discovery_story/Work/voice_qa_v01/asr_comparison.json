@@ -1,0 +1,136 @@
+{
+  "engine": "OpenAI Whisper small local CPU",
+  "source": "voice_en.mp3",
+  "tokenizer": "ASCII casefold, words incl hyphens; punctuation ignored",
+  "expected_tokens": 1174,
+  "asr_tokens": 1164,
+  "sequence_match_ratio": 0.9717707442258341,
+  "differences": [
+    {
+      "kind": "replace",
+      "expected": "sixteen forty-two",
+      "asr": "1642",
+      "context": "in sixteen forty-two two dutch ships approached"
+    },
+    {
+      "kind": "replace",
+      "expected": "ninety thousand",
+      "asr": "90 000",
+      "context": "our species are roughly ninety thousand years old that is"
+    },
+    {
+      "kind": "replace",
+      "expected": "fifty thousand",
+      "asr": "50 000",
+      "context": "in australia at least fifty thousand years ago sea levels"
+    },
+    {
+      "kind": "replace",
+      "expected": "forty-five thousand",
+      "asr": "45 000",
+      "context": "sapiens there more than forty-five thousand years ago neanderthals another"
+    },
+    {
+      "kind": "replace",
+      "expected": "twenty-three",
+      "asr": "23",
+      "context": "footprints date to roughly twenty-three to twenty-one thousand years"
+    },
+    {
+      "kind": "replace",
+      "expected": "twenty-one thousand",
+      "asr": "21 000",
+      "context": "to roughly twenty-three to twenty-one thousand years ago the footprints"
+    },
+    {
+      "kind": "replace",
+      "expected": "fourteen thousand five hundred",
+      "asr": "14 500",
+      "context": "in present-day chile around fourteen thousand five hundred years ago over time"
+    },
+    {
+      "kind": "replace",
+      "expected": "ten twenty-one",
+      "asr": "1021",
+      "context": "cut in the year ten twenty-one that date proves a"
+    },
+    {
+      "kind": "replace",
+      "expected": "twelfth-century",
+      "asr": "12th century",
+      "context": "a different sea in twelfth-century sicily the mapmaker al-idrisi"
+    },
+    {
+      "kind": "replace",
+      "expected": "al-idrisi",
+      "asr": "al idrisi",
+      "context": "twelfth-century sicily the mapmaker al-idrisi assembled accounts of lands"
+    },
+    {
+      "kind": "replace",
+      "expected": "thirteenth",
+      "asr": "13th",
+      "context": "dates to the late thirteenth century first arrival may"
+    },
+    {
+      "kind": "replace",
+      "expected": "fifteenth",
+      "asr": "15th",
+      "context": "africa in the early fifteenth century chinese fleets led"
+    },
+    {
+      "kind": "replace",
+      "expected": "fourteen ninety-two",
+      "asr": "1492",
+      "context": "with immense consequences in fourteen ninety-two christopher columbus reached caribbean"
+    },
+    {
+      "kind": "replace",
+      "expected": "taino",
+      "asr": "daino",
+      "context": "reached an empty world taino people already lived on"
+    },
+    {
+      "kind": "replace",
+      "expected": "fifteen oh seven",
+      "asr": "1507",
+      "context": "across the ocean in fifteen oh seven a world map printed"
+    },
+    {
+      "kind": "replace",
+      "expected": "fifteen nineteen",
+      "asr": "1519",
+      "context": "impossible to ignore in fifteen nineteen an expedition led by"
+    },
+    {
+      "kind": "replace",
+      "expected": "fifteen twenty-two",
+      "asr": "1522",
+      "context": "complete its journey in fifteen twenty-two the ship victoria returned"
+    },
+    {
+      "kind": "replace",
+      "expected": "sixteen forty-two",
+      "asr": "1642",
+      "context": "coast tasman approached in sixteen forty-two maori communities had been"
+    },
+    {
+      "kind": "replace",
+      "expected": "seventeen seventies",
+      "asr": "1770s",
+      "context": "contact antarctica in the seventeen seventies james cook sailed around"
+    },
+    {
+      "kind": "replace",
+      "expected": "eighteen twenty",
+      "asr": "1820",
+      "context": "out of sight in eighteen twenty several expeditions sighted parts"
+    },
+    {
+      "kind": "replace",
+      "expected": "sighted",
+      "asr": "sited",
+      "context": "eighteen twenty several expeditions sighted parts of the antarctic"
+    }
+  ]
+}

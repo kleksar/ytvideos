@@ -1,0 +1,7 @@
+# Minnie renewal — export contract 2026-11-02
+
+Palmier project 7CDA44DD, final timeline 58D1967D, snapshot before cues F468BF2E. Output 1080x1920, Rec.709, H.264, 30 fps and 1050 frames. Eight full-frame scenes have baked depth/camera/G08, direct cuts. Two semantic cue PNGs with four-frame smooth entrance/exit: THIRTEEN [67,113), 3/4 MILE [456,520); word triggers taken from recorded-voice alignment, auditory confirmation UNVERIFIED. Actual scene/cue composites checked at phone and full size. No sound effects or new audio.
+
+Dialogue CF78F82E: unchanged original 44.1 kHz mono 128 kb/s MP3, original timeline start/trim/speed/gain; no music, SFX, remix, re-voicing or normalization. Native Palmier audio is engine-managed AAC mono ~63 kbps; final remux uses source MP3 via stream copy, without encoding, retaining source packets, and retains Palmier's previously measured 576/44100 s source delay by container timestamps. Verify packet hash, start delay, source-to-result alignment, audible track and full decode. MP3 mono 44.1 kHz is deliberate exception to AAC stereo 48 kHz channel default to honor explicit unchanged-voice constraint without unapproved rebuilding. Delivery may be less portable than AAC MP4. No new sound generated.
+
+Export native to Work, copy H.264 and original source MP3 to versioned delivery. Validate file and sampled motion/cues; subjective listening and independent review separately UNVERIFIED. YouTube remains untouched.

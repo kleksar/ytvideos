@@ -1,0 +1,139 @@
+{
+  "storyboard": "EPISODE.md two checkout lanes",
+  "reference": "original v04 hook for identity and style; newly generated background and transparent character layers",
+  "background_invariant": "same background.png reused without changes in all six composites",
+  "compositing": "Edit/build_v18_states.py; scales and places generated art, no text",
+  "records": [
+    {
+      "path": "Assets/Generated/v18/hook.png",
+      "sha256": "15f2bfaef2dbdfc32a4aaeaac658c607272b33314cd3632da2030b869a0128d2",
+      "role": "hook",
+      "origin": "ffmpeg static composite of generated assets"
+    },
+    {
+      "path": "Assets/Generated/v18/join.png",
+      "sha256": "fa9b048a0e821e711c385fdaf0762e4cfbcf54d7768c83db46bcad4370c50ee5",
+      "role": "join",
+      "origin": "ffmpeg static composite of generated assets"
+    },
+    {
+      "path": "Assets/Generated/v18/one.png",
+      "sha256": "977c5fe31c8ac78a22663f39b5c08494bcdf1820fc7c4cb0968ec6065de6fdda",
+      "role": "one",
+      "origin": "ffmpeg static composite of generated assets"
+    },
+    {
+      "path": "Assets/Generated/v18/payment.png",
+      "sha256": "ccb4e2290b23694148337917912245343b4c84af6ed5a53c61af72f65df4894e",
+      "role": "payment",
+      "origin": "ffmpeg static composite of generated assets"
+    },
+    {
+      "path": "Assets/Generated/v18/result.png",
+      "sha256": "594c579b6c0e583ed7fae0a0a58b6af954fb5bc1a39830cf30e2d95f44563913",
+      "role": "result",
+      "origin": "ffmpeg static composite of generated assets"
+    },
+    {
+      "path": "Assets/Generated/v18/two.png",
+      "sha256": "4c29525106d0847a7deae0a8acf088673ecb7daea9b865e24179826d2c21b322",
+      "role": "two",
+      "origin": "ffmpeg static composite of generated assets"
+    },
+    {
+      "path": "Source/Images/v18/background.png",
+      "sha256": "8b3d4ab960defa4bcd82a0f8f2b3271134aa6a8e065422dbcc78e8ebbb9c55f5",
+      "role": "background",
+      "origin": "imagegen"
+    },
+    {
+      "path": "Source/Images/v18/glasses.png",
+      "sha256": "e9ad78773c5c04f8040d09fa6bc7eb13188e4b3da1a3f57588b9cd107eff8b89",
+      "role": "glasses",
+      "origin": "imagegen"
+    },
+    {
+      "path": "Source/Images/v18/hero.png",
+      "sha256": "41958b4507f7bc0009a4323d1e741cfe171b1f28a457e9470d0d4a76a5152d57",
+      "role": "hero",
+      "origin": "imagegen"
+    },
+    {
+      "path": "Source/Images/v18/left.png",
+      "sha256": "7fc3d6519e3b2f8db72137b787bf02b0c47eac37097723068112913a26ed632a",
+      "role": "left",
+      "origin": "imagegen"
+    },
+    {
+      "path": "Source/Images/v18/payment.png",
+      "sha256": "fc7bb3bf7fadcb7f16aac5309adb00a66876a572c54c894034c61d46e60da17a",
+      "role": "payment",
+      "origin": "imagegen"
+    },
+    {
+      "path": "Source/Images/v18/redhead.png",
+      "sha256": "c1ab8063cfc686764b9aeb31ca54ebc78561d0ad83f6665e46eabfe84ace7dbc",
+      "role": "redhead",
+      "origin": "imagegen"
+    },
+    {
+      "path": "Source/Images/v18/senior.png",
+      "sha256": "bbd35f779036b9a44b4a4987ba62db6b26fe9cc0931d979f3e8b209af952c3d1",
+      "role": "senior",
+      "origin": "imagegen"
+    },
+    {
+      "path": "Source/Images/v18/suit.png",
+      "sha256": "cf9dc9320ec9f58659d2d5bbf91efb99109f855b8449e36e03c6eb5987c7ecd7",
+      "role": "suit",
+      "origin": "imagegen"
+    },
+    {
+      "path": "Source/Images/v18/woman.png",
+      "sha256": "b70fd1861128165fa21a81c871348a1463b34e8b293903ba2eefdc1ad0f96db5",
+      "role": "woman",
+      "origin": "imagegen"
+    },
+    {
+      "path": "Source/Lettering/v18/hook.png",
+      "sha256": "04fd527f57619528b5e52840f9090802229008e7fdfd0cdc98a7bf8cbe88dc40",
+      "role": "hook",
+      "origin": "imagegen"
+    },
+    {
+      "path": "Source/Lettering/v18/loss.png",
+      "sha256": "c33d72b70fc6bdb58c742382f09b03a9de1cca381690378639934aed07918002",
+      "role": "loss",
+      "origin": "imagegen"
+    },
+    {
+      "path": "Source/Lettering/v18/payment.png",
+      "sha256": "181aefcba625016494a008cb3f2bd1f4885276141a6230383671bb41825cfeb7",
+      "role": "payment",
+      "origin": "imagegen"
+    }
+  ],
+  "lettering_provenance": [
+    {
+      "asset": "Source/Lettering/v18/hook.png",
+      "asset_sha256": "04fd527f57619528b5e52840f9090802229008e7fdfd0cdc98a7bf8cbe88dc40",
+      "generated_original": "Source/Lettering/v18/hook_original.png",
+      "original_sha256": "add8c1139ef84d3927fe4ac949ca55e5d9fd63577280fc8ce99d94ccdf319225",
+      "note": "visually matched original generated 2 OR 5 graphic; cropped/scaled placement asset"
+    },
+    {
+      "asset": "Source/Lettering/v18/payment.png",
+      "asset_sha256": "181aefcba625016494a008cb3f2bd1f4885276141a6230383671bb41825cfeb7",
+      "generated_original": "Source/Lettering/v18/payment_original.png",
+      "original_sha256": "70fbc0bb65cf7b3cc9a2365d4c21e8cc685dd2bb2414c7bf2f41bb4f3e5243a4",
+      "note": "generated source retained; cropped/scaled placement asset"
+    },
+    {
+      "asset": "Source/Lettering/v18/loss.png",
+      "asset_sha256": "c33d72b70fc6bdb58c742382f09b03a9de1cca381690378639934aed07918002",
+      "generated_original": "Source/Lettering/v18/loss_original.png",
+      "original_sha256": "b7e2147e95351a161e9331fc4f6ca04a3da6b16ce1584b01379ae1e0fb544853",
+      "note": "generated source retained; cropped/scaled placement asset"
+    }
+  ]
+}

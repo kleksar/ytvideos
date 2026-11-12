@@ -1,0 +1,7 @@
+# Audio handoff · v02
+Exact production narration: Source/narration-en-v02.txt, SHA-256 373486eed0e99fc24c3345fa3ab22e795d6b93101dc3bd2d82d06f826d6c6fd5. User explicitly authorized ElevenLabs and the configured Keychain key; synthesis succeeded as Paper Detour Lawrence (eleven_v4). Earlier isolated attempt was not executed after automatic approval refusal. Assets/Audio/voice_en.mp3 and voice_en.alignment.json are the retained recording and provider timing.
+
+FFmpeg applied atempo=1.1,aresample=48000 once to the unmodified narration. Result: Work/narration-speed-v01.wav, 35.714437 s, SHA-256 94f6cfc3f6c7de7c8c8dbe672287b334bd62c47dd6975bab2e8441bd71a253e9. Voice start is timeline zero; timing timestamps are divided by 1.1 once, not further conformed by the renderer. Final word end 35.563636 s. 36.000 s total, including the deliberate short tail. No effects or voice edits beyond speed/level.
+
+Full review mix: Assets/Audio/full-mix-v02.wav, PCM24 stereo 48 kHz, SHA-256 d002866e4ca2665b703d6af438b0446523595913336546d3ecc59e52c4ded490. Voice -1 dB (duplicated to stereo), music -17 dB, complete mix +3 dB. Scott Buckley “Signal to Noise” (No Piano Melody), CC BY 4.0, https://www.scottbuckley.com.au/library/signal-to-noise/ ; music source starts at 8.000 s, covers the entire edit with 0.12 s fade in / 0.40 s fade out. Measured -19.0 LUFS integrated, -1.8 dBTP. Word map is bound to this complete mix.
+Subjective listening UNVERIFIED: audio content was omitted by the agent input surface. Structural/timing/waveform checks do not substitute for listening.

@@ -1,0 +1,33 @@
+{
+  "scene_id": "S041",
+  "version": "candidate_v01",
+  "status": "ACCEPTED_STATIC_SOURCE",
+  "depiction": "symbolic application/permission process with a road beyond; no active policy or specific geography asserted",
+  "selected_copy": "/Users/diplomat/ytvideos/channels/paper_detour/videos/040_berlin_wall/Source/Images/v01/S041_candidate_v01.png",
+  "source_image": "/Users/diplomat/.codex/generated_images/01a1a186-1011-7450-b9d7-7b0e7f1e2f40/exec-c0d0da1b-471f-4a4f-82b2-cfda48a2dee1.png",
+  "sha256": "573672e9aeb3638d76896525f050ad99c80901d691a93f2d334d308984f20b9b",
+  "reference_paths": [
+    "/Users/diplomat/ytvideos/channels/paper_detour/Shared/References/Paper/paper004_user_38.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/040_berlin_wall/Source/Images/v01/S040_candidate_v01.png"
+  ],
+  "reference_hashes": {
+    "/Users/diplomat/ytvideos/channels/paper_detour/Shared/References/Paper/paper004_user_38.png": "238bb11958c8e59224edcd006db060df0bddd0c9e100f795e44eeb537ebdc166",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/040_berlin_wall/Source/Images/v01/S040_candidate_v01.png": "627c5dd96e96cfc3970b2c70f65bec204d4c4cc7b3d42accd1c95fd5d3c04c66"
+  },
+  "missing_catalog_anchor": "Paper Detour033 S01_v01.png unavailable locally and not used.",
+  "requested_generation_target": "3840x2160 landscape 16:9",
+  "actual_source_dimensions": "1672x941",
+  "image_tool_controls": "not exposed; target stated in prompt",
+  "delivery_target": "2560x1440 16:9 at 30 fps; whole-image motion pending",
+  "visual_review": {
+    "reviewer": "Codex author (not an independent reviewer)",
+    "scope": "full-frame inspected against Paper004 and S040 crossing motif",
+    "result": "ACCEPTED static composition: resident's hands and plain booklet/forms sit before an open doorway framing a generic road; reads as a bureaucratic path to travel.",
+    "limitations": [
+      "Tool output below requested 4K target.",
+      "Road/hills and paperwork are symbolic set dressing, not a specific place or real approval document.",
+      "Whole-image motion/crop/composite unverified."
+    ]
+  },
+  "prompt_file": "S041_candidate_v01_prompt.txt"
+}

@@ -1,0 +1,7 @@
+# Paper 040: A/B/C — candidate covers
+
+Source PNGs: `Masters/PD040_AB_v01_A.png`, `Masters/PD040_AB_v01_B.png`, `Masters/PD040_AB_v01_C.png`; each generated at 1672×941. Exact titles and descriptions are in `../../AB_CONCEPTS_v01.md`; release status proposal_only. Local 320×180 simulations inspected; all three hooks and main situations are readable. No real phone or YouTube surface reviewed.
+
+Generation: imagegen, 16:9 tactile paper. Reference Paper004 supplied material and light; Paper039 candidate A supplied lettering style, explicitly not an accepted reference. Original approved typography and 030 PNG paths were absent; 030 grammar was read. A prompt: official at press desk holding document, journalist's hand, `EFFECTIVE WHEN?`; first result mistakenly wore uniform; edited to civilian suit. B prompt: guard beside closed striped barrier, crowd, `OPEN THE GATE?`; first result featured Brandenburg Gate; edited to an ordinary checkpoint street. C prompt: resident heading toward the checkpoint behind neighbours, `WOULD YOU GO?`. No logos or invented dates requested.
+
+Actual A/B: paper/document/microphones versus guard at barrier. A/C: press desk versus resident travelling toward checkpoint. B/C: guard beside barrier versus resident approaching checkpoint; differences hold without lettering. All are artwork, not photographs or verified reconstructions of exact locations. Covers await user approval; no upload or A/B experiment performed.

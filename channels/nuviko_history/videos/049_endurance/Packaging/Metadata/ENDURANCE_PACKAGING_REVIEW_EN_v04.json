@@ -1,0 +1,120 @@
+{
+  "film": {
+    "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Deliverables/Endurance_en_review_v04.mp4",
+    "sha256": "5cb856cda02053b40f0309a95617253a41aae457cf8d607b01eb8fbd724dc059"
+  },
+  "film_acceptance": {
+    "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Edit/QA/ENDURANCE_USER_ACCEPTANCE_EN_v04.md",
+    "sha256": "397252437aa34a0e556d68ac9840daac9d7e4755748b1641bb92cb61b0622004"
+  },
+  "manifest_inputs": {
+    "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Packaging/Metadata/ENDURANCE_PACKAGING_EN_v04.json",
+    "sha256": "bdd793e97ed94e1ff99a455041ade6e341a2edaeda1e5ca6a1693ef98dc9bb3c"
+  },
+  "metadata_sizes": {
+    "A": {
+      "title_chars": 48,
+      "description_bytes": 904,
+      "upload_dimensions": [
+        1664,
+        936
+      ]
+    },
+    "B": {
+      "title_chars": 42,
+      "description_bytes": 930,
+      "upload_dimensions": [
+        1664,
+        936
+      ]
+    },
+    "C": {
+      "title_chars": 52,
+      "description_bytes": 917,
+      "upload_dimensions": [
+        1664,
+        936
+      ]
+    }
+  },
+  "chapter_qa": {
+    "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Edit/QA/CHAPTERS_CHECK_EN_v04.json",
+    "sha256": "7d7a8f9fad8c88bf071b5267d85123efc04072234925a25d08922b0eb781bc45"
+  },
+  "chapter_formal_validation": {
+    "formal_validation": "passed",
+    "media_review": "not_assessed",
+    "duration_seconds": 559.866667,
+    "chapters": [
+      {
+        "timestamp": "00:00",
+        "seconds": 0,
+        "title": "Twenty-eight men stranded",
+        "duration_seconds": 46
+      },
+      {
+        "timestamp": "00:46",
+        "seconds": 46,
+        "title": "Shackleton's plan and the loss of Endurance",
+        "duration_seconds": 64
+      },
+      {
+        "timestamp": "01:50",
+        "seconds": 110,
+        "title": "From drifting ice to Elephant Island",
+        "duration_seconds": 61
+      },
+      {
+        "timestamp": "02:51",
+        "seconds": 171,
+        "title": "A plan to cross 800 miles in a lifeboat",
+        "duration_seconds": 84
+      },
+      {
+        "timestamp": "04:15",
+        "seconds": 255,
+        "title": "Finding South Georgia",
+        "duration_seconds": 93
+      },
+      {
+        "timestamp": "05:48",
+        "seconds": 348,
+        "title": "Crossing the mountains on foot",
+        "duration_seconds": 81
+      },
+      {
+        "timestamp": "07:09",
+        "seconds": 429,
+        "title": "Three rescue attempts fail",
+        "duration_seconds": 30
+      },
+      {
+        "timestamp": "07:39",
+        "seconds": 459,
+        "title": "Yelcho joins the rescue",
+        "duration_seconds": 38
+      },
+      {
+        "timestamp": "08:17",
+        "seconds": 497,
+        "title": "The rescue and the final count",
+        "duration_seconds": 62.86666700000001
+      }
+    ]
+  },
+  "thumbnail_check": "Inspected all three exact covers at 360×203. Linked prior review documents native and 180×101 readability. Live display unverified.",
+  "pairwise_distinction": {
+    "A–B": "Survival of the whole party after losing Endurance vs the risk of the six-man ocean crossing. Camp and sinking ship vs lifeboat in the wave.",
+    "A–C": "Escape from the original stranding vs the final attempt to get through the ice. Stranded camp vs powered tug.",
+    "B–C": "Going for help in a lifeboat vs reaching the waiting men with a steam tug. Sea-level action vs aerial pack-ice approach."
+  },
+  "recommended_initial_pair": "A title + A cover",
+  "rationale": "Loss of the ship and the number at stake are paid off immediately in the opening; the cover shows the predicament and the title poses the question of survival.",
+  "official_sources": [
+    "https://support.google.com/youtube/answer/9884579?hl=en",
+    "https://support.google.com/youtube/answer/14328491?hl=en",
+    "https://support.google.com/youtube/answer/12948449?hl=en"
+  ],
+  "status": "READY_FOR_SELECTION",
+  "external_state": "LOCAL_ONLY"
+}

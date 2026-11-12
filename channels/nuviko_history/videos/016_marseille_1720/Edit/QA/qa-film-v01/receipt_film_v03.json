@@ -1,0 +1,85 @@
+{
+  "created_utc": "2026-11-03T08:58:55Z",
+  "reviewer": "Codex self-review; same final media SHA as v01",
+  "file": "channels/nuviko_history/videos/016_marseille_1720/Deliverables/NuvikoHistory_016_Marseille_1720_v01.mp4",
+  "sha256": "f7dae8962b14aa9b57552b7fc1993073d34debf561cf35f88d5684703c135b29",
+  "size_bytes": 714943819,
+  "edit": {
+    "project_id": "3C0B4689",
+    "timeline_id": "6A17B61A",
+    "snapshot": "57005559",
+    "motion_snapshot": "1FDEA0D8",
+    "export_contract": "channels/nuviko_history/videos/016_marseille_1720/Edit/Export/EXPORT_CONTRACT_v01.json"
+  },
+  "checks": {
+    "freshness": {
+      "status": "CURRENT",
+      "evidence": "Final remux receipt and export contract bind this exact MP4 SHA."
+    },
+    "stream_metadata": {
+      "status": "PASS",
+      "evidence": "H.264 High 1920x1080 yuv420p BT.709 CFR30, 16125 frames / 537.500 s; AAC-LC stereo 44.1kHz, 537.472s."
+    },
+    "full_decode": {
+      "status": "PASS",
+      "evidence": "Offline helper decoded all 16125 video frames and full audio with -xerror; no errors."
+    },
+    "scene_duration": {
+      "status": "PASS",
+      "evidence": "Shot map and export are bound to 127 consecutive scenes; min 4.100s, max 6.000s, all within 4\u20136s."
+    },
+    "semantic_grouping": {
+      "status": "PASS",
+      "coverage": "127/127 scene midpoints and 254 scene start/end frames visually reviewed in contact sheets; no material mismatch observed in sampled compositions.",
+      "evidence": "contact_sheets/scenes_mid_01.jpg\u2026scenes_mid_08.jpg; contact_sheets/cuts_01.jpg\u2026cuts_16.jpg"
+    },
+    "word_highlighting": {
+      "status": "PASS",
+      "coverage": "1576 authored word-state intervals; 477 subtitle groups; one-line Nuviko S01 panel, active word gold, no extra over-caption cards. Final MP4 sampled at 127 scene midpoints and all scene endpoints.",
+      "evidence": "Edit/Captions/word_states_manifest_source_v01.json; helper frame map and visual contact sheets. This verifies visual treatment, not audible sync."
+    },
+    "frame_sampling": {
+      "status": "PASS",
+      "coverage": "381 actual final-file scene samples (start/mid/end for all 127 scenes) visually inspected at 480x270 contact-sheet scale; selected 1920x1080 pairs reviewed individually. No obvious cut, text clipping, or frame boundary defect observed in sampled frames.",
+      "evidence": "Edit/QA/qa-film-v01/contact_sheets/"
+    },
+    "motion_framing": {
+      "status": "UNVERIFIED",
+      "evidence": "Camera keyframes structurally cover all scenes with assigned modes {'push-in': 63, 'pull-out': 22, 'pan-right': 22, 'pan-left': 20}; the source order is clean parallax then camera and overlay. Visual start/mid/end samples show no gross crop or depth artifact. Coarse feature tracking has insufficient reliable matches on 24 scenes and conflicting screen-direction indications on 8 matched scenes; per-frame depth/camera trajectory and every intermediate extremum are not established. New full-scene structural audits pass (127/127 depth/cache and camera-path rule); visual direction remains unverified for scenes with low-confidence optical matches, so no overall motion-framing PASS is claimed. Contact sheets for selected motion-direction examples show no gross framing/crop defect; full direction remains UNVERIFIED where end-frame feature matches are low-confidence or contradictory."
+    },
+    "cue_timing": {
+      "status": "UNVERIFIED",
+      "evidence": "Retained audio packet stream is identical to source. Subtitle timing uses WhisperX alignment; model comparison median difference 0.110s, p95 0.245s, with 68 words differing by >0.25s and 15 by >0.5s. No subjective listening/sync pass."
+    },
+    "audio_signal": {
+      "status": "PASS",
+      "evidence": "Final AAC packet hash exactly matches original; AAC-LC 44.1kHz stereo, sample peak \u22126.1dBFS, mean \u221227.2dBFS. Signal meter is not listening."
+    },
+    "subjective_audio_listening": {
+      "status": "UNVERIFIED",
+      "reason": "No available playback/listening modality in the active environment."
+    },
+    "independent_review": {
+      "status": "UNVERIFIED",
+      "reason": "No independent reviewer; this is self-review."
+    },
+    "synthetic_disclosure": {
+      "status": "PASS",
+      "evidence": "Packaging/synthetic_disclosure_receipt_v02.json; Studio shows \u201cYes, AI was used\u201d checked for video hEX9sxYZ0-4, with no pending edits."
+    },
+    "parallax_pipeline_integrity": {
+      "status": "PASS",
+      "coverage": "127/127 scene source image hashes matched; 127/127 finite nonconstant 2D depth maps exist; 127/127 clean parallax cache MP4s verified at 1920x1080, 30/1, expected N+2 frames.",
+      "evidence": "Edit/QA/qa-film-v01/parallax_cache_audit_v01.json; each motion job uses the exact source PNG and computed depth cache before clean MP4 generation; target_final references clean video clips with camera keys applied afterward."
+    },
+    "camera_path_structural": {
+      "status": "PASS",
+      "coverage": "127/127 scene keyframe paths change scale or visible center according to the assigned camera mode; 127/127 parallax signs follow the implementation alignment rule for those camera paths.",
+      "evidence": "Edit/QA/qa-film-v01/camera_path_audit_v01.json; implementation semantics in automation/image_motion/run.py and automation/image_motion/render.py."
+    }
+  },
+  "technical_status": "PASS",
+  "final_verdict": "UNVERIFIED",
+  "upload": "Video uploaded to Nuviko History as Private; processing succeeded; title/description/tags/category/languages read back as requested; custom thumbnail API set accepted and read back. No visibility expansion.",
+  "supersedes": "receipt_film_v02.json; v01 and v02 preserved as earlier QA snapshots"
+}

@@ -1,0 +1,483 @@
+{
+  "schema_version": 1,
+  "episode": "037_voyager_1_repair",
+  "channel": "nuviko",
+  "format": "long",
+  "input": "accepted_story",
+  "input_evidence": "Direct user supplied and accepted story in this conversation; channel clarification Nuviko History on 2026-11-04; exact text at Source/Script/story_ru_accepted_v01.md.",
+  "scope": "Full long-form Nuviko History production from accepted Russian story through user-reviewed MP4 and approved English packaging; proceed autonomously between checkpoints under ytv-video-production. No upload before MP4 and packaging approval; post-approval target access Unlisted, then ask Public now or schedule.",
+  "stages": [
+    {
+      "id": "script",
+      "skills": [
+        "ytv-history-story"
+      ],
+      "status": "DONE",
+      "artifacts": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Script/story_ru_accepted_v01.md",
+          "version": "v01",
+          "sha256": "b24022b60d36d39531962057ce69b694d01f7e68eb56f3dabaf038563cbb79e6"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Script/narration_en_v01.md",
+          "version": "v01",
+          "sha256": "c9d213de801b63f17d35b42c4e9d2bb99ef9f4fdc35b82c99f1809035d8be5a4"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Research/CONSULTATION_EN_ADAPTATION_v01.md",
+          "version": "v01",
+          "sha256": "e846fc88f10b17634be68520baf138fb0bef5008465930d23262fa617609826a"
+        }
+      ],
+      "checks": [
+        {
+          "name": "User accepted story input and English adaptation captured",
+          "status": "PASS",
+          "reviewer": "Coordinator",
+          "method": "Direct conversation record; complete response read in visible Chrome ChatGPT Extra High",
+          "coverage": "Russian accepted narration and complete English response through final paragraph",
+          "evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Research/CONSULTATION_EN_ADAPTATION_v01.md"
+        }
+      ],
+      "dependencies": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Script/story_ru_accepted_v01.md",
+          "sha256": "b24022b60d36d39531962057ce69b694d01f7e68eb56f3dabaf038563cbb79e6"
+        }
+      ],
+      "skill_runs": [
+        {
+          "skill": "ytv-history-story",
+          "status": "APPLIED",
+          "evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Research/CONSULTATION_EN_ADAPTATION_v01.md"
+        }
+      ]
+    },
+    {
+      "id": "storyboard",
+      "skills": [
+        "ytv-history-story"
+      ],
+      "status": "DONE",
+      "artifacts": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Storyboard/storyboard_en_v01.md",
+          "version": "v01",
+          "sha256": "b23e8c6f9267eec569d4d48feedd94a542ab21fb5cad726ad999d5d39b6c87f1"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Storyboard/visual_ideas_v03.json",
+          "version": "v03",
+          "sha256": "1f565481ae884c326652609710e3f7c8c777bf8462e1c350e73ed56bae00652a",
+          "acceptance": "DRAFT_PENDING_USER"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Storyboard/STORYBOARD_REVIEW_v03.md",
+          "version": "v03",
+          "sha256": "03358b04ea947108ae0169cc30254eaf965df9739c57e726af8851d66a0c7ceb",
+          "acceptance": "DRAFT_PENDING_USER"
+        }
+      ],
+      "checks": [
+        {
+          "name": "Complete visual score transferred to a 52-scene storyboard",
+          "status": "PASS",
+          "reviewer": "Coordinator",
+          "method": "Full Extra High answer read in visible Chrome; continuity, staging, transitions, risks and scene sequence transcribed",
+          "coverage": "52 sequential scene compositions; consultation reports exact coverage of all 545 narration words and all 20 paragraphs",
+          "evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Research/CONSULTATION_VISUAL_SCORE_v01.md"
+        },
+        {
+          "name": "Complete v03 text coverage and retained source identity",
+          "status": "PASS",
+          "reviewer": "Coordinator, not independent",
+          "method": "Exact narration token and frame partition checks; complete coordinator reading of scene sequence",
+          "coverage": "44shots,545tokens,6353frames; unchanged accepted Russian and audio hashes verified",
+          "evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Edit/Production/v03/storyboard_text_review_v03.json"
+        }
+      ],
+      "dependencies": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Script/narration_en_v01.md",
+          "sha256": "c9d213de801b63f17d35b42c4e9d2bb99ef9f4fdc35b82c99f1809035d8be5a4"
+        }
+      ],
+      "skill_runs": [
+        {
+          "skill": "ytv-history-story",
+          "status": "APPLIED",
+          "evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Storyboard/storyboard_en_v01.md"
+        }
+      ],
+      "user_feedback_evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Edit/MediaLifecycle/visual_rejection_20261104_v01.json",
+      "current_revision": "v03"
+    },
+    {
+      "id": "audio",
+      "skills": [
+        "ytv-audio-delivery"
+      ],
+      "status": "REVIEW_REQUIRED",
+      "artifacts": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Audio/en_v02/mix_en_v02.wav",
+          "version": "v02",
+          "sha256": "5fda59e4a321fa64bfc2ebff428e901976502dcb43eaf1f56af4f36b80660363"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Audio/en_v02/mix_en_v02.evidence.json",
+          "version": "v02",
+          "sha256": "0540b5a012995b04300059e75fb191c3cb3c23963126779a89546a7668bf770a"
+        }
+      ],
+      "checks": [
+        {
+          "name": "Machine levels and identity speech conform",
+          "status": "PASS",
+          "reviewer": "Coordinator",
+          "method": "FFmpeg ebur128, recorded composition and source hashes",
+          "coverage": "Complete 211.7667s mix",
+          "evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Edit/Production/v02/EXPORT_CONTRACT_v02.json"
+        },
+        {
+          "name": "Human listening",
+          "status": "UNVERIFIED",
+          "reviewer": "",
+          "method": "Not performed",
+          "coverage": "None",
+          "evidence": null
+        }
+      ],
+      "dependencies": [],
+      "skill_runs": []
+    },
+    {
+      "id": "images",
+      "skills": [
+        "ytv-scene-images",
+        "ytv-image-motion"
+      ],
+      "status": "READY_FOR_REVIEW_RENDER",
+      "artifacts": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Edit/Production/v02/assets_manifest_v02.json",
+          "version": "v02",
+          "sha256": "eb0bfc917036f93b3ad704a88ac5f786a1e759ebafe6843850eda1a3185fc9aa"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Edit/Production/v02/montage_en_v02.json",
+          "version": "v02",
+          "sha256": "d76061a18490d192e30c86c87e29b3896cb171e4f291df903e0480ec1444bf78"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Edit/Production/v03/assets_manifest_v03.json",
+          "version": "v03",
+          "sha256": "a8ebe939441f62cd1fb9ccc6388065ee1a8f782e47a256020d5d313f78b8646c"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Edit/Production/v03/contact_v03.jpg",
+          "version": "v03"
+        }
+      ],
+      "checks": [
+        {
+          "name": "Source and caption composition review",
+          "status": "PASS",
+          "reviewer": "Coordinator, not independent",
+          "method": "Full-frame sources; midpoint contact sheets and targeted start/mid/end composites; crop bounds machine validation",
+          "coverage": "44 source images; 44 midpoint overview frames; 132 machine bounds samples",
+          "evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Edit/Production/v02/preflight_frame_coverage.json"
+        },
+        {
+          "name": "Contact-sheet sequence triage",
+          "status": "LIMITED_REVIEW",
+          "reviewer": "Coordinator",
+          "method": "44-frame contact sheet; not individual image QA",
+          "coverage": "All44 thumbnails viewed",
+          "finding": "Presenter appears in shots not assigned to him; needs correction. Individual semantics, anatomy and continuity remain unverified."
+        }
+      ],
+      "dependencies": [],
+      "skill_runs": [],
+      "user_feedback_evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Edit/MediaLifecycle/visual_rejection_20261104_v01.json",
+      "note": "Old images retained as rejected v02 working inputs; no v03 generation requested.",
+      "current_manifest": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Edit/Production/v06/assets_manifest_v06.json"
+    },
+    {
+      "id": "subtitles",
+      "skills": [
+        "ytv-paper-subtitles",
+        "ytv-srt"
+      ],
+      "status": "REVIEW_REQUIRED",
+      "artifacts": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Deliverables/voyager_037_en_v02.srt",
+          "version": "v02",
+          "sha256": "fc8f9de1f5d29a2f9cf9180df595d937c5dc961033f5982c5705e3718c478da4"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Edit/Production/v02/srt_review_v02.json",
+          "version": "v02",
+          "sha256": "e2423bf2e04e3b18350b42c30d2c144cc42ff412041c6ae88bffcc46bbee9baf"
+        }
+      ],
+      "checks": [
+        {
+          "name": "Semantic grouping and visual placement",
+          "status": "PASS",
+          "reviewer": "Coordinator, not independent",
+          "method": "Shared renderer and recorded source/composite review",
+          "coverage": "153 groups;545 tokens",
+          "evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Work/production-20261104-v02/captions_prepare_v04/subtitle_review.json"
+        },
+        {
+          "name": "Audible synchronization",
+          "status": "UNVERIFIED",
+          "reviewer": "",
+          "method": "Forced alignment only; no listening",
+          "coverage": "No audible review",
+          "evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Edit/Production/v02/word_times_mix_v02.json"
+        }
+      ],
+      "dependencies": [],
+      "skill_runs": []
+    },
+    {
+      "id": "render",
+      "skills": [
+        "ytv-video-production",
+        "ytv-video-export",
+        "ytv-video-qa"
+      ],
+      "status": "PUBLIC_AB_ACTIVE_LOCAL_MEDIA_RETIRED",
+      "artifacts": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Deliverables/voyager_037_en_v04_review_v01.mp4",
+          "version": "v04_review_v01",
+          "status": "REJECTED"
+        }
+      ],
+      "checks": [],
+      "dependencies": [],
+      "skill_runs": [],
+      "disposition": "Exact rejected MP4 moved recoverably to Trash; working inputs retained.",
+      "delivery_evidence": "Render completed and MP4 delivered in previous production turn; existence checked 2026-11-05. No final-film QA inferred.",
+      "current_contract": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Edit/Production/v06/EXPORT_CONTRACT_v06.json",
+      "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Deliverables/voyager_037_en_v06_review_v01.mp4",
+      "output_status": "Local MP4 permanently removed during TEXT_ONLY lifecycle; remote YouTube release is current."
+    },
+    {
+      "id": "review",
+      "skills": [],
+      "status": "USER_ACCEPTED",
+      "artifacts": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Deliverables/voyager_037_en_v03_review_v01.mp4",
+          "version": "v03_review_v01"
+        }
+      ],
+      "checks": [],
+      "dependencies": [],
+      "skill_runs": [],
+      "user_feedback_evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Edit/MediaLifecycle/visual_rejection_20261104_v01.json",
+      "user_feedback": "Liked overall; host rendering style needs correction. No blanket release approval."
+    },
+    {
+      "id": "packaging",
+      "skills": [
+        "ytv-youtube-video-titles",
+        "ytv-youtube-thumbnails",
+        "ytv-youtube-descriptions",
+        "ytv-youtube-hashtags",
+        "ytv-youtube-playlists",
+        "ytv-youtube-ab-testing",
+        "ytv-youtube-chapters"
+      ],
+      "status": "USER_ACCEPTED",
+      "artifacts": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Packaging/packaging_manifest_v01.json",
+          "sha256": "b7a3de82afcc651f4338d4049b2aa5c862677e13c4de4103d77fab33d9eead66",
+          "version": "v01"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Packaging/REVIEW_PACKAGE_v01.md",
+          "sha256": "28ac6cd3e36beb797e3c1f6db7494486f9c3d8a4815395897437ea504e834625",
+          "version": "v01"
+        }
+      ],
+      "checks": [
+        {
+          "name": "Distinct3concepts, actualgeneratedcovers and complete descriptions",
+          "status": "PASS",
+          "reviewer": "Coordinator,notindependent",
+          "method": "Pairwise title/actualimage comparison; full master images and180/360pxlocalpreviews; description preserved-blockvalidator",
+          "coverage": "3titles,3PNGs,3descriptions;7chapterintervals;14hashtags",
+          "evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Packaging/Concepts/packaging_review_v01.json"
+        },
+        {
+          "name": "ActualYouTubecardandaccountABavailability",
+          "status": "UNVERIFIED",
+          "reviewer": "",
+          "method": "No newvideo upload; localpreviews only",
+          "coverage": "None",
+          "evidence": null
+        }
+      ],
+      "dependencies": [],
+      "skill_runs": [],
+      "note": "Existing package preserved; not approved, chapters and final-video binding need reassessment after revised edit."
+    },
+    {
+      "id": "unlisted",
+      "skills": [
+        "ytv-youtube-release"
+      ],
+      "status": "STAGING_PRIVATE",
+      "artifacts": [],
+      "checks": [],
+      "dependencies": [],
+      "skill_runs": []
+    },
+    {
+      "id": "release",
+      "skills": [
+        "ytv-youtube-release",
+        "ytv-media-lifecycle"
+      ],
+      "status": "PUBLIC_AB_ACTIVE",
+      "artifacts": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Packaging/v06/YOUTUBE_RELEASE_V06.json",
+          "status": "PUBLIC_AB_ACTIVE"
+        }
+      ],
+      "checks": [
+        {
+          "name": "Public video identity, processing and package",
+          "status": "PASS",
+          "reviewer": "YouTube API read-back and Studio",
+          "method": "Exact ID/hash; Public; processing succeeded; title A/description A/cover A/playlist verified; EN manual caption serving",
+          "coverage": "Exact release -dTi-_jQPgg"
+        },
+        {
+          "name": "Approved native A/B test",
+          "status": "PASS",
+          "reviewer": "YouTube Studio",
+          "method": "Saved page and active report read-back",
+          "coverage": "Title + thumbnail pair variants A/B/C; status “Идет проверка…”; watch-time share; 13d23h estimate"
+        },
+        {
+          "name": "TEXT_ONLY media lifecycle",
+          "status": "PARTIAL_TEXT_ARCHIVE",
+          "reviewer": "Filesystem identity plan and execution receipt",
+          "method": "11,409 exact files hash/stat checked and permanently removed; 37 empty directories removed",
+          "coverage": "3,448,183,540 logical bytes; 45 images + one WAV held for active sibling subtitle consumer; physical APFS reclaim unknown"
+        }
+      ],
+      "dependencies": [],
+      "skill_runs": [],
+      "blocker": null,
+      "lifecycle_receipt": "Edit/MediaLifecycle/TEXT_ONLY_EXECUTION_V06.ndjson",
+      "lifecycle_plan": "Edit/MediaLifecycle/TEXT_ONLY_PLAN_V06.json"
+    }
+  ],
+  "decisions": {
+    "story_accepted": {
+      "accepted": true,
+      "target": "Russian story v01; Nuviko History long-film production",
+      "evidence": "User message 2026-11-04: “Бери в работу. сюжет согласован.” followed by “видео будет для канала nuviko”."
+    },
+    "packaging_after_mp4": {
+      "accepted": true,
+      "target": "Prepare packaging immediately after delivering MP4; no extra command needed",
+      "evidence": "Edit/Production/v02/USER_SCOPE_20261104.json"
+    },
+    "visual_rejection": {
+      "accepted": false,
+      "target": "Whole v02 visual treatment",
+      "evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Edit/MediaLifecycle/visual_rejection_20261104_v01.json",
+      "next_work": "Historical v02 rejection; replaced by v03 production. Current task corrects documentation only."
+    },
+    "visual_principles_accepted": {
+      "accepted": true,
+      "evidence": "User2026-11-05: record the improved approach in skills and redo all semantic storyboard ideas; no generation yet.",
+      "scope": "General/channel staging principles; complete v03 storyboard subsequently approved for generation in this conversation."
+    },
+    "storyboard_v03_generation": {
+      "accepted": true,
+      "evidence": "User: «Да, так уже лучше. Начинай генерировать картинки по этой раскадровке.» followed by «пушкка. жду mp4».",
+      "target": "Complete 44-shot visual_ideas_v03 storyboard; approval of ideas is not actual-image acceptance."
+    },
+    "host_style_feedback": {
+      "accepted": false,
+      "target": "Photorealistic host rendering in delivered v03 review film",
+      "evidence": "User liked the film overall but requires approved cartoon/illustrated host; current request is to fix project rules.",
+      "scope": "Specific style defect; not rejection of the whole film or approval to release it."
+    },
+    "visual_v04_rejection": {
+      "accepted": false,
+      "target": "Entire v04 visual treatment",
+      "evidence": "Edit/Production/v04/VISUAL_REJECTION_AND_REBUILD.md",
+      "next_scope": "All 44 images; documentation first"
+    },
+    "historical_visual_sources": {
+      "accepted": true,
+      "evidence": "Direct user request in conversation: credible real visual anchors, new staging, Paper era-appropriate carriers; correct opening antenna.",
+      "result": "Source/References/dss14/SOURCE_AND_S01_REVIEW.json"
+    },
+    "v06_export": {
+      "evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Edit/Production/v06/EXPORT_CONTRACT_v06.json",
+      "settings_check": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Work/production-20261105-v06/settings_check/settings_check.json",
+      "status": "Render completed successfully. Immediate user handoff; no post-render checks.",
+      "verification_limits": [
+        "Coordinator static source/caption/camera review only",
+        "No human audio listening or independent review",
+        "Immediate handoff after render; no post-render tests"
+      ]
+    },
+    "user_acceptance_v06": {
+      "accepted": true,
+      "media_sha256": "e97e2cddfb5429817a81aa7a17bac18c890dcf4a1a1cd7dcd78771ae33d44483",
+      "evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Packaging/v06/USER_ACCEPTANCE_20261105.md",
+      "scope": "Exact v06 MP4 and all three packaging variants; immediate public access authorized."
+    },
+    "release_preflight_v06": {
+      "status": "PUBLIC_AB_ACTIVE",
+      "evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Packaging/v06/RELEASE_PLAN.json",
+      "api_read": "channel and current playlist inventory verified read-only",
+      "selected_playlist": "PLCtiNAU_98r0 History Documentaries",
+      "srt_machine": "structure/text coverage passed; timing mapping/playback UNVERIFIED",
+      "machine_sync_report": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Work/production-20261105-v06/audio_sync_audit_v01/comparison_report.json",
+      "machine_sync": "545 words / 153 cues; max boundary delta 23 ms; no edits indicated; no auditory PASS claimed",
+      "user_audio_confirmation": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Packaging/v06/USER_AV_CONFIRMATION_20261105.md",
+      "latest_channel_snapshot": "Fresh read-only API preflight 2026-11-05: verified Nuviko History channel ID, no duplicate Voyager upload in 7 owned uploads, no scheduled video in that upload inventory; existing public History Documentaries playlist PLCtiNAU_98r0 selected; current title A and description A staged.",
+      "video_id": "-dTi-_jQPgg",
+      "public_url": "https://youtu.be/-dTi-_jQPgg",
+      "metadata_readback": "Title A and description A visible in Studio; cover A API readback matched; playlist membership and manual SRT serving verified; public processing succeeded.",
+      "ab_test": "Active native title+thumbnail pair test A/B/C verified in Studio; outcome pending.",
+      "cleanup": "PARTIAL_TEXT_ARCHIVE; exact execution and hold recorded in Edit/MediaLifecycle/TEXT_ONLY_PLAN_V06.json and TEXT_ONLY_EXECUTION_V06.ndjson.",
+      "native_ab_test": "Active title+thumbnail pair test A/B/C verified in YouTube Studio; status testing/checking; outcome pending.",
+      "storage_state": "PARTIAL_TEXT_ARCHIVE"
+    }
+  },
+  "next_step": "No further action is pending for this release. The authorized native title+thumbnail test is active on YouTube; outcome is pending and no monitoring was requested. Keep the 45 v03 scene images, v03 montage JSON and EN mix WAV until the sibling subtitle-preparation consumer is retired; then release that exact hold.",
+  "current_scope": "Exact v06 MP4 is Public on YouTube with English manual captions, approved title/description A and cover A, in History Documentaries. Native title+thumbnail A/B variants A/B/C are active and verified in Studio. TEXT_ONLY cleanup removed 11,409 files / 3,448,183,540 logical bytes; 45 v03 images and one WAV remain, along with the text montage plan, because the sibling subtitle bundle still references them.",
+  "current_storyboard": "Source/Storyboard/visual_ideas_v03.json",
+  "current_review_mp4": null,
+  "documentation_correction": "../../../../.agent/consultations/2026-11-05-nuviko-host-style.md",
+  "last_rejected_mp4": "Deliverables/voyager_037_en_v04_review_v01.mp4",
+  "current_edit": "Edit/Production/v06/montage_en_v06.json",
+  "latest_delivered_review": null,
+  "release_blocker": null,
+  "storage_state": "PARTIAL_TEXT_ARCHIVE",
+  "remote_release_url": "https://youtu.be/-dTi-_jQPgg",
+  "retired_local_release_media": {
+    "path": "Deliverables/voyager_037_en_v06_review_v01.mp4",
+    "sha256": "e97e2cddfb5429817a81aa7a17bac18c890dcf4a1a1cd7dcd78771ae33d44483",
+    "status": "permanently_removed_by_TEXT_ONLY_lifecycle",
+    "receipt": "Edit/MediaLifecycle/TEXT_ONLY_EXECUTION_V06.ndjson"
+  }
+}

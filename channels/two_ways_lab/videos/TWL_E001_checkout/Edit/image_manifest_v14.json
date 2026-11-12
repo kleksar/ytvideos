@@ -1,0 +1,79 @@
+{
+  "storyboard": "EPISODE.md visual rebuild v14",
+  "records": [
+    {
+      "path": "Source/Images/v14/environment.png",
+      "sha256": "9a4a14a8540e5a072a30a563c04a044da6e1e791d30489812de0ac9d639bdb85",
+      "description": "New empty environment plate",
+      "generator": "built-in imagegen",
+      "type": "generated illustration",
+      "review": "author visual inspection, not independent; final crop must be checked"
+    },
+    {
+      "path": "Source/Images/v14/left_queue.png",
+      "sha256": "6407db5b0ca88490aa65a62e0104a437f0be3da9d13d55be5f339c3d5f909da6",
+      "description": "Left shoppers only",
+      "generator": "built-in imagegen",
+      "type": "imagegen edit",
+      "review": "author visual inspection, not independent; final crop must be checked"
+    },
+    {
+      "path": "Source/Images/v14/two_queues.png",
+      "sha256": "283dc04d7a8c372149012323a99f1eaf81f3d1592bf750aebf41899241dd712e",
+      "description": "Two carts and five basket shoppers",
+      "generator": "built-in imagegen",
+      "type": "imagegen edit",
+      "review": "author visual inspection, not independent; final crop must be checked"
+    },
+    {
+      "path": "Source/Images/v14/hook.png",
+      "sha256": "b789c2315e1ddc9432c6607dade40f8b8b13aeecdd4814122e74b69b555f17de",
+      "description": "Two queues and protagonist deciding",
+      "generator": "built-in imagegen",
+      "type": "imagegen edit",
+      "review": "author visual inspection, not independent; final crop must be checked"
+    },
+    {
+      "path": "Source/Images/v14/select.png",
+      "sha256": "49f5c17d74463b92cdc4068791c9aacf5fa3f8fa07dd1555d510b5bda688811f",
+      "description": "Protagonist joins basket queue",
+      "generator": "built-in imagegen",
+      "type": "imagegen edit",
+      "review": "author visual inspection, not independent; final crop must be checked"
+    },
+    {
+      "path": "Source/Images/v14/one.png",
+      "sha256": "a274ab55f2afb639e8a92056ac8178d4e963cd11c2673f077c35028a43959dc2",
+      "description": "First shopper leaves",
+      "generator": "built-in imagegen",
+      "type": "imagegen edit",
+      "review": "author visual inspection, not independent; final crop must be checked"
+    },
+    {
+      "path": "Source/Images/v14/two.png",
+      "sha256": "5befe3dbae6c79bd027fc8e07e0045bdbc9e4f508476fce556e4942775af1eef",
+      "description": "First two shoppers leave",
+      "generator": "built-in imagegen",
+      "type": "imagegen edit",
+      "review": "author visual inspection, not independent; final crop must be checked"
+    },
+    {
+      "path": "Source/Images/v14/payment.png",
+      "sha256": "41e249b5ba31b78e8696057b37e780c424ea836a1a6bd0182c755134f8f55190",
+      "description": "One remaining shopper pays",
+      "generator": "built-in imagegen",
+      "type": "imagegen edit",
+      "review": "author visual inspection, not independent; final crop must be checked"
+    },
+    {
+      "path": "Source/Images/v14/result.png",
+      "sha256": "2d134ba200569e2ae2ea9f4b2867f03f050a3c705f9ffff72bb8efda3ee6facf",
+      "description": "Left lane clears, one shopper remains ahead",
+      "generator": "built-in imagegen",
+      "type": "imagegen edit",
+      "review": "author visual inspection, not independent; final crop must be checked"
+    }
+  ],
+  "reference": "v04_hook.png used only for style and protagonist identity",
+  "text": "No scene text assigned; semantic lettering reused from existing generated images, captions separate."
+}

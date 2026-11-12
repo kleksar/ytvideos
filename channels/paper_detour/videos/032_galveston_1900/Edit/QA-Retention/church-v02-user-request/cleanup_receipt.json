@@ -1,0 +1,104 @@
+{
+  "authorization": "User explicitly requested deletion of these old QA frames due to low disk space on 2026-11-02",
+  "scope": "exact registered qa-full-v02 PNGs only",
+  "historical_qa": "UNVERIFIED; no PASS asserted",
+  "sample_reconstruction_matches": [
+    0,
+    8981,
+    17232
+  ],
+  "retained": [
+    {
+      "path": "Edit/QA-Retention/church-v02-user-request/000000000.png",
+      "identity": {
+        "device": 16777233,
+        "inode": 125179686,
+        "bytes": 3771462,
+        "mtime_ns": 1793632409138019576,
+        "ctime_ns": 1793632409138019576,
+        "nlink": 1,
+        "allocated_bytes": 3772416
+      },
+      "sha256": "a4acd513047d55f8f6ddfadadd72953d9c4706bfb6c8e54951116323a24bd495"
+    },
+    {
+      "path": "Edit/QA-Retention/church-v02-user-request/000008981.png",
+      "identity": {
+        "device": 16777233,
+        "inode": 125179687,
+        "bytes": 3769659,
+        "mtime_ns": 1793632409154090055,
+        "ctime_ns": 1793632409154090055,
+        "nlink": 1,
+        "allocated_bytes": 3772416
+      },
+      "sha256": "39d2d046a61898e472cbfa245e52274ea60661377f74a6e9a195e4ffef87e6f8"
+    },
+    {
+      "path": "Edit/QA-Retention/church-v02-user-request/000017232.png",
+      "identity": {
+        "device": 16777233,
+        "inode": 125179688,
+        "bytes": 4186002,
+        "mtime_ns": 1793632409169044067,
+        "ctime_ns": 1793632409169044067,
+        "nlink": 1,
+        "allocated_bytes": 4186112
+      },
+      "sha256": "334838cb952e0dd3fe2edcebc8cb4e1a959186a9945f35275240cb4677806f5e"
+    }
+  ],
+  "source": {
+    "path": "Work/church-demo-v01/previews/032_galveston_en_final_candidate_v02.mp4",
+    "identity": {
+      "device": 16777233,
+      "inode": 125031145,
+      "bytes": 1143771345,
+      "mtime_ns": 1793609170225812225,
+      "ctime_ns": 1793609170225812225,
+      "nlink": 1,
+      "allocated_bytes": 1143775232
+    },
+    "sha256": "71ce82b976d30fa14a174fdc0f798855ae164812581aca22bb8390d7a3408e75"
+  },
+  "report": {
+    "path": "Edit/QA/full-v02/report.json",
+    "identity": {
+      "device": 16777233,
+      "inode": 125033290,
+      "bytes": 200447,
+      "mtime_ns": 1793609475448223075,
+      "ctime_ns": 1793609475448223075,
+      "nlink": 1,
+      "allocated_bytes": 200704
+    },
+    "sha256": "4d28d660fe9ec05255dfd47e8f5faf878655afff3164d2a0fe40ba1865203b5a"
+  },
+  "recipe": {
+    "path": "Edit/QA/full-v02/reconstruction_recipe_20261102.json",
+    "identity": {
+      "device": 16777233,
+      "inode": 125179014,
+      "bytes": 22229,
+      "mtime_ns": 1793632272348341876,
+      "ctime_ns": 1793632272348341876,
+      "nlink": 1,
+      "allocated_bytes": 24576
+    },
+    "sha256": "08b432a9c42de08e4d5b92f6fed5ecf41ca77902e19ffae435d86611c459ab00"
+  },
+  "live_discovery": "DISCOVERY_READ",
+  "inaccessible_discovery_paths": [
+    "/Users/diplomat/Downloads/borisenko-studio/projects/video_1/video_1.palmier",
+    "/Users/diplomat/Downloads/borisenko-studio/Untitled Project.palmier",
+    "/Users/diplomat/Desktop/тест стрим.palmier",
+    "/Users/diplomat/Desktop/сербия.palmier",
+    "/Users/diplomat/ad.palmier",
+    "/Users/diplomat/waterfall.palmier"
+  ],
+  "coverage": "BOUNDED_NOT_EXHAUSTIVE",
+  "requested_count": 1373,
+  "state": "complete",
+  "removed": 1373,
+  "logical_bytes": 5523951351
+}

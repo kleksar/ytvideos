@@ -1,0 +1,36 @@
+{
+  "status": "FAIL",
+  "checks": {
+    "skills_unique": 10,
+    "roles_parsed": 14,
+    "archive_checksums": 25,
+    "cleanup_archive_checksums": 101,
+    "original_lines_accounted": 229,
+    "episode_status_destinations": 19,
+    "episodes_indexed": 38,
+    "channels_unverified": 3,
+    "entrypoints_bootstrapped": 43,
+    "native_discovery_cwds_passed": 43,
+    "current_rules_checked": 97,
+    "local_links_checked": 626,
+    "root_bytes": 12269
+  },
+  "errors": [
+    "Generic youtube-upload changed during migration",
+    "Lost state source: new_channel/videos/028_taj_mahal",
+    "Missing episode record: new_channel/videos/030_clothing_history/Source/Images/v03_paper_diorama/frames_v03",
+    "Missing episode record: new_channel/videos/030_clothing_history/Source/Images/v03_paper_diorama/selected_v03",
+    "Missing current_context record: new_channel/videos/030_clothing_history/Source/Images/v03_paper_diorama/frames_v03",
+    "Missing current_context record: new_channel/videos/030_clothing_history/Source/Images/v03_paper_diorama/selected_v03",
+    "Missing state_sources record: new_channel/videos/030_clothing_history/Source/Images/v03_paper_diorama/frames_v03",
+    "Missing state_sources record: new_channel/videos/030_clothing_history/Source/Images/v03_paper_diorama/selected_v03",
+    "Lost state source: new_channel/videos/030_clothing_history",
+    "Lost state source: new_channel/videos/031_jascon4_okene",
+    "Wrong channel router: new_channel/videos/028_taj_mahal",
+    "Wrong channel router: new_channel/videos/030_clothing_history",
+    "Wrong channel router: new_channel/videos/031_jascon4_okene",
+    "Retired production workflow in active rules: /Users/diplomat/ytvideos/new_channel/AGENTS.md",
+    "Retired production workflow in active rules: /Users/diplomat/ytvideos/new_channel/brand/THUMBNAIL_PLAYBOOK.md",
+    "Root AGENTS exceeds instruction budget"
+  ]
+}

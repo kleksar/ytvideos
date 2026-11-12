@@ -1,0 +1,19 @@
+{
+  "video_id": "hEX9sxYZ0-4",
+  "channel_id": "UCbyLx6Rf3iWww4bPZJ2oo2A",
+  "state": "not_started",
+  "experiment": "title_only; thumbnail fixed across variants",
+  "variants": [
+    "The Ship That Brought Plague to Marseille | 1720",
+    "How the Plague Reached Marseille in 1720",
+    "Marseille 1720: The Ship, the Quarantine, and the Plague"
+  ],
+  "current_privacy": "private",
+  "next_authorized_privacy": "unlisted",
+  "blocked_by": [
+    "required QA dimensions remain UNVERIFIED: audible subtitle sync and full per-scene motion-direction/frame review",
+    "native experiment must be inspected in YouTube Studio; public API has no native A/B endpoint",
+    "Studio altered/synthetic-content disclosure field not verified in API read-back"
+  ],
+  "public": false
+}

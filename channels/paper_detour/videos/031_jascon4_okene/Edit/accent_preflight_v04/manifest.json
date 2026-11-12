@@ -1,0 +1,375 @@
+{
+  "canvas": [
+    1080,
+    1920
+  ],
+  "checks": {
+    "motion": "UNVERIFIED",
+    "scope": "assigned pairs at their selected anchors; static geometry only",
+    "sync": "UNVERIFIED",
+    "technical": "PASS",
+    "visual": "UNVERIFIED"
+  },
+  "cues": [
+    {
+      "backend": {
+        "face": {
+          "mode": "creamOrange"
+        },
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/031_jascon4_okene/Source/Images/accent_v04/N03_DATE.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/031_jascon4_okene/Source/Images/accent_v01/A01_GRAB_HIM.png",
+        "status": "Author inspected source draft",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/N03_DATE/face.png",
+      "face_mask_sha256": "fad348ab3a4ea68914343edd3207ce9d12731b4ccb0d0df7d70fe5bc345fdb00",
+      "id": "N03_DATE",
+      "lines": [
+        "MAY 26, 2013"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          11,
+          2,
+          546,
+          190
+        ],
+        "alpha_height_px": 188,
+        "alpha_width_px": 535,
+        "face_bbox": [
+          18,
+          51,
+          539,
+          141
+        ],
+        "face_height_px": 90,
+        "face_line_boxes": [
+          [
+            18,
+            51,
+            539,
+            141
+          ]
+        ],
+        "face_line_heights_px": [
+          90
+        ],
+        "size_px": [
+          555,
+          190
+        ]
+      },
+      "png": "cues/N03_DATE/cue.png",
+      "png_sha256": "23749e1425ea8edcd225e00c352f96f4ff7155a1d5724f12a5ecaaca002e8db9",
+      "provenance": {
+        "generated_source": "/Users/diplomat/.codex/generated_images/01a197ec-51ae-7d80-a59f-bd749282764a/exec-b859dba4-17a8-4134-b627-53b1d0432b83.png",
+        "method": "built-in image_gen",
+        "user_request": "date/place anchors 2026-11-02"
+      },
+      "timing": {
+        "frames": [
+          536,
+          609
+        ],
+        "status": "alignment-derived; listening UNVERIFIED"
+      },
+      "uniform_scale": 0.25862068965517243
+    },
+    {
+      "backend": {
+        "face": {
+          "mode": "creamOrange"
+        },
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/031_jascon4_okene/Source/Images/accent_v04/N04_LOCATION.png",
+        "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/031_jascon4_okene/Source/Images/accent_v01/A01_GRAB_HIM.png",
+        "status": "Author inspected source draft",
+        "type": "existingPNG"
+      },
+      "face_mask": "cues/N04_LOCATION/face.png",
+      "face_mask_sha256": "0fb2803214b1874df414e30deb51a6ac45330d18ecc96998f930e1cb4092cf17",
+      "id": "N04_LOCATION",
+      "lines": [
+        "OFF NIGERIA"
+      ],
+      "metrics": {
+        "alpha_bbox": [
+          20,
+          10,
+          672,
+          229
+        ],
+        "alpha_height_px": 219,
+        "alpha_width_px": 652,
+        "face_bbox": [
+          28,
+          71,
+          664,
+          161
+        ],
+        "face_height_px": 90,
+        "face_line_boxes": [
+          [
+            28,
+            71,
+            664,
+            161
+          ]
+        ],
+        "face_line_heights_px": [
+          90
+        ],
+        "size_px": [
+          693,
+          237
+        ]
+      },
+      "png": "cues/N04_LOCATION/cue.png",
+      "png_sha256": "83fb099fad539fc629ac83ed0e640527626264368412f8b5e6d1c7433091e0f5",
+      "provenance": {
+        "generated_source": "/Users/diplomat/.codex/generated_images/01a197ec-51ae-7d80-a59f-bd749282764a/exec-4a66164c-b048-4159-b637-4cab79419930.png",
+        "method": "built-in image_gen",
+        "user_request": "date/place anchors 2026-11-02"
+      },
+      "timing": {
+        "frames": [
+          633,
+          687
+        ],
+        "status": "alignment-derived; listening UNVERIFIED"
+      },
+      "uniform_scale": 0.3225806451612903
+    }
+  ],
+  "helper_sha256": "7e95d1b95b7a7b5c3da64e21c7e268d4a7e7b51fc4a5cc963b9a7bbf552945e5",
+  "helper_version": "1.0.1",
+  "inputs": [
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/031_jascon4_okene/Edit/accent_preflight_v04_inputs/S04.png",
+      "sha256": "e3e6cdf20db12e8f582260b2cdbbf399f549e29b77c5340c302080ffbdd07a4a"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/031_jascon4_okene/Edit/accent_preflight_v04_inputs/S05.png",
+      "sha256": "064be41343f94afea37d5de642bb1f854bbb9144923ee010e63e5fd7191de238"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/031_jascon4_okene/Edit/caption_input_v04.json",
+      "sha256": "0810b56a6204219899402ad7b92392fbe37240c157368ec12d2239cfd0ece736"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/031_jascon4_okene/Source/Images/accent_v01/A01_GRAB_HIM.png",
+      "sha256": "665062fce7b0924b0c448a9f63138defa836c9b56402913777447a857db4c415"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/031_jascon4_okene/Source/Images/accent_v04/N03_DATE.png",
+      "sha256": "afdc26c192796633bc357b0814f8436e6667cf6711668abdead32397c976655c"
+    },
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/031_jascon4_okene/Source/Images/accent_v04/N04_LOCATION.png",
+      "sha256": "b1e7e02b3719fb0c8ee3948163b2738dee6b17bff7f850eef79e49ddf2416b2e"
+    }
+  ],
+  "manifest_sha256": "0810b56a6204219899402ad7b92392fbe37240c157368ec12d2239cfd0ece736",
+  "pairs": [
+    {
+      "anchor": "primary",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.18
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              273,
+              252,
+              808,
+              440
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            262,
+            250
+          ],
+          "phone_preview": "previews/S04/N03_DATE/primary__phone.png",
+          "preview": "previews/S04/N03_DATE/primary.png"
+        }
+      ],
+      "cue": "N03_DATE",
+      "scene": "S04"
+    },
+    {
+      "anchor": "primary",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.18
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              273,
+              252,
+              808,
+              440
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            262,
+            250
+          ],
+          "phone_preview": "previews/S05/N03_DATE/primary__phone.png",
+          "preview": "previews/S05/N03_DATE/primary.png"
+        }
+      ],
+      "cue": "N03_DATE",
+      "scene": "S05"
+    },
+    {
+      "anchor": "primary",
+      "comparisons": [
+        {
+          "anchor": "primary",
+          "center": [
+            0.5,
+            0.18
+          ],
+          "checks": {
+            "alpha_bbox_on_canvas": [
+              214,
+              240,
+              866,
+              459
+            ],
+            "motion": "UNVERIFIED",
+            "sync": "UNVERIFIED",
+            "technical": "PASS",
+            "visual": "UNVERIFIED"
+          },
+          "layer_top_left_px": [
+            194,
+            230
+          ],
+          "phone_preview": "previews/S05/N04_LOCATION/primary__phone.png",
+          "preview": "previews/S05/N04_LOCATION/primary.png"
+        }
+      ],
+      "cue": "N04_LOCATION",
+      "scene": "S05"
+    }
+  ],
+  "pillow_version": "11.3.0",
+  "shared_face_height_px": 90,
+  "source_manifest": {
+    "anchors": {
+      "primary": {
+        "center": [
+          0.5,
+          0.18
+        ],
+        "max_height_px": 300,
+        "max_width_px": 820.8
+      }
+    },
+    "canvas": [
+      1080,
+      1920
+    ],
+    "cues": [
+      {
+        "backend": {
+          "face": {
+            "mode": "creamOrange"
+          },
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/031_jascon4_okene/Source/Images/accent_v04/N03_DATE.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/031_jascon4_okene/Source/Images/accent_v01/A01_GRAB_HIM.png",
+          "status": "Author inspected source draft",
+          "type": "existingPNG"
+        },
+        "id": "N03_DATE",
+        "lines": [
+          "MAY 26, 2013"
+        ],
+        "provenance": {
+          "generated_source": "/Users/diplomat/.codex/generated_images/01a197ec-51ae-7d80-a59f-bd749282764a/exec-b859dba4-17a8-4134-b627-53b1d0432b83.png",
+          "method": "built-in image_gen",
+          "user_request": "date/place anchors 2026-11-02"
+        },
+        "timing": {
+          "frames": [
+            536,
+            609
+          ],
+          "status": "alignment-derived; listening UNVERIFIED"
+        }
+      },
+      {
+        "backend": {
+          "face": {
+            "mode": "creamOrange"
+          },
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/031_jascon4_okene/Source/Images/accent_v04/N04_LOCATION.png",
+          "reference": "/Users/diplomat/ytvideos/channels/paper_detour/videos/031_jascon4_okene/Source/Images/accent_v01/A01_GRAB_HIM.png",
+          "status": "Author inspected source draft",
+          "type": "existingPNG"
+        },
+        "id": "N04_LOCATION",
+        "lines": [
+          "OFF NIGERIA"
+        ],
+        "provenance": {
+          "generated_source": "/Users/diplomat/.codex/generated_images/01a197ec-51ae-7d80-a59f-bd749282764a/exec-4a66164c-b048-4159-b637-4cab79419930.png",
+          "method": "built-in image_gen",
+          "user_request": "date/place anchors 2026-11-02"
+        },
+        "timing": {
+          "frames": [
+            633,
+            687
+          ],
+          "status": "alignment-derived; listening UNVERIFIED"
+        }
+      }
+    ],
+    "face_height_px": 90,
+    "min_face_height_px": 88,
+    "pairs": [
+      {
+        "anchor": "primary",
+        "cue": "N03_DATE",
+        "scene": "S04"
+      },
+      {
+        "anchor": "primary",
+        "cue": "N03_DATE",
+        "scene": "S05"
+      },
+      {
+        "anchor": "primary",
+        "cue": "N04_LOCATION",
+        "scene": "S05"
+      }
+    ],
+    "scenes": [
+      {
+        "id": "S04",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/031_jascon4_okene/Edit/accent_preflight_v04_inputs/S04.png"
+      },
+      {
+        "id": "S05",
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/031_jascon4_okene/Edit/accent_preflight_v04_inputs/S05.png"
+      }
+    ],
+    "version": 1
+  },
+  "version": 1
+}

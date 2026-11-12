@@ -1,0 +1,89 @@
+{
+  "status": "applied_verified_public_text_only",
+  "channel": "Nuviko History",
+  "format": "Short",
+  "approved_review_mp4": "Deliverables/en/short/black_death_help_during_plague_nuviko_en_v02.mp4",
+  "approved_review_mp4_sha256": "a897d04494f0141005062774dc6b87c355cacb4179a0bc53d7af16134f7a6090",
+  "native_youtube_ab_test": {
+    "status": "unavailable_for_shorts",
+    "launched": false
+  },
+  "youtube_changes": {
+    "upload_or_metadata_write": true,
+    "cover_uploaded": true,
+    "selected_title_option": "A",
+    "selected_title": "Would You Enter a Sick Relative's Room During the Plague?",
+    "selected_cover_option": "C",
+    "applied_cover": "cover_C_basic_care_upload_v03.jpg",
+    "video_id": "IC5BaMmQiPw",
+    "url": "https://www.youtube.com/shorts/IC5BaMmQiPw",
+    "privacy": "public",
+    "upload_status": "processed",
+    "processing_status": "succeeded",
+    "readback": "Edit/YouTube/help_during_plague_short_release_v01/receipt.json",
+    "public_readback": "Edit/YouTube/help_during_plague_short_release_v01/public_update_receipt_v01.json"
+  },
+  "preview_review": {
+    "source_pixels": [
+      2160,
+      3840
+    ],
+    "generated_widths": [
+      360,
+      180
+    ],
+    "simulated_center_crops": [
+      "4:5",
+      "2:3"
+    ],
+    "visually_reviewed": [
+      "full 9:16 contact at 360 px",
+      "centered 4:5 crop contact at 360 px"
+    ]
+  },
+  "variants": [
+    {
+      "id": "A",
+      "title": "Would You Enter a Sick Relative's Room During the Plague?",
+      "title_characters": 57,
+      "cover_text": "IT'S YOUR FAMILY",
+      "upload_asset": "cover_A_family_threshold_upload_v03.jpg",
+      "dimensions_px": [
+        2160,
+        3840
+      ],
+      "bytes": 1470206,
+      "sha256": "fa712a4108ef5ad145b90a822357853ef94708e181b56230adb5897d682bfa85"
+    },
+    {
+      "id": "B",
+      "title": "During the Plague, Some Left Florence. Others Couldn't.",
+      "title_characters": 55,
+      "cover_text": "WHO STAYED BEHIND?",
+      "upload_asset": "cover_B_city_gate_upload_v03.jpg",
+      "dimensions_px": [
+        2160,
+        3840
+      ],
+      "bytes": 2283888,
+      "sha256": "4dead820bd60bfd0535407e8c1efecc106e8d0dae7348adf3da0261d753ec087"
+    },
+    {
+      "id": "C",
+      "title": "Even Basic Care Meant Risk During the Plague",
+      "title_characters": 44,
+      "cover_text": "WATER. BREAD. CARE.",
+      "upload_asset": "cover_C_basic_care_upload_v03.jpg",
+      "dimensions_px": [
+        2160,
+        3840
+      ],
+      "bytes": 1923666,
+      "sha256": "889ed7193df56c71e384c24d29eeb53eabcee22ff039ca86e5056d0955f9dabf"
+    }
+  ],
+  "official_sources": {
+    "native_ab_test": "https://support.google.com/youtube/answer/16391400?hl=en",
+    "shorts_custom_cover": "https://support.google.com/youtube/answer/72431?hl=en"
+  }
+}

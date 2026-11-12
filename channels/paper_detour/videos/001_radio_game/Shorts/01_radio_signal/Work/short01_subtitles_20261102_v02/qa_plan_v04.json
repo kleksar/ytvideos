@@ -1,0 +1,524 @@
+{
+  "frame_count": 885,
+  "fps": "30/1",
+  "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4",
+  "required_review_checks": [
+    "stream_metadata",
+    "full_decode",
+    "frame_sampling"
+  ],
+  "freshness": {
+    "status": "CURRENT",
+    "evidence": "Palmier job 25B6E53F-FD90-4416-B996-BE63AA4AE2F6, project 58F68144/timeline 7178D5B6 snapshot 984B7540; final candidate hash is bound in this plan."
+  },
+  "expected": {
+    "video": {
+      "width": 1080,
+      "height": 1920,
+      "codec_name": "h264",
+      "pix_fmt": "yuv420p",
+      "color_space": "bt709"
+    },
+    "audio": {
+      "required": true,
+      "codec_name": "aac",
+      "channels": 2,
+      "sample_rate": 48000
+    }
+  },
+  "scene_seconds": [
+    4,
+    6
+  ],
+  "scenes": [
+    {
+      "id": "S01",
+      "start": 0,
+      "end": 150
+    },
+    {
+      "id": "S02",
+      "start": 150,
+      "end": 300
+    },
+    {
+      "id": "S03",
+      "start": 300,
+      "end": 480
+    },
+    {
+      "id": "S04",
+      "start": 480,
+      "end": 615
+    },
+    {
+      "id": "S05",
+      "start": 615,
+      "end": 750
+    },
+    {
+      "id": "S06",
+      "start": 750,
+      "end": 885
+    }
+  ],
+  "cues": [
+    {
+      "id": "W001",
+      "start": 3,
+      "end": 9
+    },
+    {
+      "id": "W002",
+      "start": 9,
+      "end": 24
+    },
+    {
+      "id": "W003",
+      "start": 24,
+      "end": 31
+    },
+    {
+      "id": "W004",
+      "start": 31,
+      "end": 42
+    },
+    {
+      "id": "W005",
+      "start": 42,
+      "end": 50
+    },
+    {
+      "id": "W006",
+      "start": 50,
+      "end": 56
+    },
+    {
+      "id": "W007",
+      "start": 56,
+      "end": 84
+    },
+    {
+      "id": "W008",
+      "start": 84,
+      "end": 87
+    },
+    {
+      "id": "W009",
+      "start": 87,
+      "end": 93
+    },
+    {
+      "id": "W010",
+      "start": 93,
+      "end": 102
+    },
+    {
+      "id": "W011",
+      "start": 102,
+      "end": 104
+    },
+    {
+      "id": "W012",
+      "start": 104,
+      "end": 122
+    },
+    {
+      "id": "W013",
+      "start": 122,
+      "end": 157
+    },
+    {
+      "id": "W014",
+      "start": 157,
+      "end": 161
+    },
+    {
+      "id": "W015",
+      "start": 161,
+      "end": 174
+    },
+    {
+      "id": "W016",
+      "start": 174,
+      "end": 185
+    },
+    {
+      "id": "W017",
+      "start": 185,
+      "end": 212
+    },
+    {
+      "id": "W018",
+      "start": 212,
+      "end": 214
+    },
+    {
+      "id": "W019",
+      "start": 214,
+      "end": 227
+    },
+    {
+      "id": "W020",
+      "start": 227,
+      "end": 236
+    },
+    {
+      "id": "W021",
+      "start": 236,
+      "end": 248
+    },
+    {
+      "id": "W022",
+      "start": 248,
+      "end": 259
+    },
+    {
+      "id": "W023",
+      "start": 259,
+      "end": 292
+    },
+    {
+      "id": "W024",
+      "start": 292,
+      "end": 303
+    },
+    {
+      "id": "W025",
+      "start": 303,
+      "end": 324
+    },
+    {
+      "id": "W026",
+      "start": 324,
+      "end": 330
+    },
+    {
+      "id": "W027",
+      "start": 330,
+      "end": 361
+    },
+    {
+      "id": "W028",
+      "start": 361,
+      "end": 366
+    },
+    {
+      "id": "W029",
+      "start": 366,
+      "end": 369
+    },
+    {
+      "id": "W030",
+      "start": 369,
+      "end": 375
+    },
+    {
+      "id": "W031",
+      "start": 375,
+      "end": 399
+    },
+    {
+      "id": "W032",
+      "start": 399,
+      "end": 402
+    },
+    {
+      "id": "W033",
+      "start": 402,
+      "end": 414
+    },
+    {
+      "id": "W034",
+      "start": 414,
+      "end": 420
+    },
+    {
+      "id": "W035",
+      "start": 420,
+      "end": 434
+    },
+    {
+      "id": "W036",
+      "start": 434,
+      "end": 438
+    },
+    {
+      "id": "W037",
+      "start": 438,
+      "end": 457
+    },
+    {
+      "id": "W038",
+      "start": 457,
+      "end": 462
+    },
+    {
+      "id": "W039",
+      "start": 462,
+      "end": 487
+    },
+    {
+      "id": "W040",
+      "start": 487,
+      "end": 490
+    },
+    {
+      "id": "W041",
+      "start": 490,
+      "end": 507
+    },
+    {
+      "id": "W042",
+      "start": 507,
+      "end": 524
+    },
+    {
+      "id": "W043",
+      "start": 524,
+      "end": 531
+    },
+    {
+      "id": "W044",
+      "start": 531,
+      "end": 538
+    },
+    {
+      "id": "W045",
+      "start": 538,
+      "end": 545
+    },
+    {
+      "id": "W046",
+      "start": 545,
+      "end": 551
+    },
+    {
+      "id": "W047",
+      "start": 551,
+      "end": 559
+    },
+    {
+      "id": "W048",
+      "start": 559,
+      "end": 567
+    },
+    {
+      "id": "W049",
+      "start": 567,
+      "end": 576
+    },
+    {
+      "id": "W050",
+      "start": 576,
+      "end": 589
+    },
+    {
+      "id": "W051",
+      "start": 589,
+      "end": 593
+    },
+    {
+      "id": "W052",
+      "start": 593,
+      "end": 623
+    },
+    {
+      "id": "W053",
+      "start": 623,
+      "end": 634
+    },
+    {
+      "id": "W054",
+      "start": 634,
+      "end": 651
+    },
+    {
+      "id": "W055",
+      "start": 651,
+      "end": 653
+    },
+    {
+      "id": "W056",
+      "start": 653,
+      "end": 669
+    },
+    {
+      "id": "W057",
+      "start": 669,
+      "end": 677
+    },
+    {
+      "id": "W058",
+      "start": 677,
+      "end": 681
+    },
+    {
+      "id": "W059",
+      "start": 681,
+      "end": 696
+    },
+    {
+      "id": "W060",
+      "start": 696,
+      "end": 704
+    },
+    {
+      "id": "W061",
+      "start": 704,
+      "end": 710
+    },
+    {
+      "id": "W062",
+      "start": 710,
+      "end": 728
+    },
+    {
+      "id": "W063",
+      "start": 728,
+      "end": 732
+    },
+    {
+      "id": "W064",
+      "start": 732,
+      "end": 737
+    },
+    {
+      "id": "W065",
+      "start": 737,
+      "end": 764
+    },
+    {
+      "id": "W066",
+      "start": 764,
+      "end": 768
+    },
+    {
+      "id": "W067",
+      "start": 768,
+      "end": 773
+    },
+    {
+      "id": "W068",
+      "start": 773,
+      "end": 777
+    },
+    {
+      "id": "W069",
+      "start": 777,
+      "end": 786
+    },
+    {
+      "id": "W070",
+      "start": 786,
+      "end": 789
+    },
+    {
+      "id": "W071",
+      "start": 789,
+      "end": 792
+    },
+    {
+      "id": "W072",
+      "start": 792,
+      "end": 820
+    },
+    {
+      "id": "W073",
+      "start": 820,
+      "end": 824
+    },
+    {
+      "id": "W074",
+      "start": 824,
+      "end": 832
+    },
+    {
+      "id": "W075",
+      "start": 832,
+      "end": 847
+    },
+    {
+      "id": "W076",
+      "start": 847,
+      "end": 851
+    },
+    {
+      "id": "W077",
+      "start": 851,
+      "end": 854
+    },
+    {
+      "id": "W078",
+      "start": 854,
+      "end": 858
+    },
+    {
+      "id": "W079",
+      "start": 858,
+      "end": 866
+    },
+    {
+      "id": "W080",
+      "start": 866,
+      "end": 885
+    },
+    {
+      "id": "A01",
+      "start": 36,
+      "end": 87,
+      "entry_end": 40,
+      "exit_start": 83
+    },
+    {
+      "id": "A02",
+      "start": 104,
+      "end": 145,
+      "entry_end": 108,
+      "exit_start": 141
+    },
+    {
+      "id": "A03",
+      "start": 300,
+      "end": 347,
+      "entry_end": 304,
+      "exit_start": 343
+    },
+    {
+      "id": "A04",
+      "start": 589,
+      "end": 625,
+      "entry_end": 593,
+      "exit_start": 621
+    },
+    {
+      "id": "A05",
+      "start": 765,
+      "end": 826,
+      "entry_end": 769,
+      "exit_start": 822
+    }
+  ],
+  "extra_frames": [
+    0,
+    149,
+    150,
+    279,
+    280,
+    299,
+    300,
+    389,
+    390,
+    479,
+    480,
+    614,
+    615,
+    629,
+    630,
+    749,
+    750,
+    824,
+    825,
+    884
+  ]
+}

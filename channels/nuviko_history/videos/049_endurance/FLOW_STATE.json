@@ -1,0 +1,442 @@
+{
+  "schema_version": 1,
+  "episode": "049_endurance",
+  "channel": "nuviko",
+  "format": "long",
+  "input": "ready_text",
+  "input_evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/DECISION_STORY_ACCEPTED_v01.md",
+  "scope": "Endurance 049. Принятый фильм en v04, пересобраны три обложки и обновлён локальный пакет.",
+  "stages": [
+    {
+      "id": "script",
+      "skills": [],
+      "status": "DONE",
+      "artifacts": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Source/Script/story_ru_accepted_v01.md",
+          "version": "v01",
+          "sha256": "d3637a1b4ff22f78165c9c2d98b9e88e434ba1938f4f98e6b9aa57c102983628"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Source/Script/narration_en_v01.md",
+          "version": "v01",
+          "sha256": "c7d89effafbe3e9b9fd9a7573d445011089acaca8ee1ecca61987ba18db6e73a"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/DECISION_STORY_ACCEPTED_v01.md",
+          "version": "v01",
+          "sha256": "0535e88340adccd19ab851f5931f3089ef10d88ade3670b16e1587049f7c74e7"
+        }
+      ],
+      "checks": [
+        {
+          "name": "user_story_acceptance",
+          "status": "PASS",
+          "reviewer": "user",
+          "method": "direct instruction in conversation",
+          "coverage": "Accepted Russian story v01; production language and approved content source recorded in episode decision",
+          "evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/DECISION_STORY_ACCEPTED_v01.md"
+        }
+      ],
+      "dependencies": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Source/Script/story_ru_accepted_v01.md",
+          "version": "v01",
+          "sha256": "d3637a1b4ff22f78165c9c2d98b9e88e434ba1938f4f98e6b9aa57c102983628"
+        }
+      ],
+      "skill_runs": []
+    },
+    {
+      "id": "storyboard",
+      "skills": [
+        "ytv-visual-direction"
+      ],
+      "status": "DONE",
+      "artifacts": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/EPISODE.md",
+          "sha256": "86c86a75c8eff4ff957495ceb11bbbe4fbe5afdbc5e43c22acab28aefa743e4a",
+          "version": "v04"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Work/visual_rebuild_v02/SHOT_MAP_v04.json",
+          "sha256": "ddaf7814bb6fe4fe085fc8b68f044abcd4b5d1260dd3812f67f3002351141306",
+          "version": "v04"
+        }
+      ],
+      "checks": [
+        {
+          "name": "s109_gaze_cause_and_neighbor_cues",
+          "status": "PASS",
+          "reviewer": "Endurance coordinator",
+          "method": "Compared S108–S111 timing and reaction continuity",
+          "coverage": "One changed staged action and five color treatments.",
+          "evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/EPISODE.md"
+        }
+      ],
+      "dependencies": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Source/Script/narration_en_v01.md",
+          "sha256": "c7d89effafbe3e9b9fd9a7573d445011089acaca8ee1ecca61987ba18db6e73a"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Work/sound_v04/WORD_MAP_CONFORM_EN_v04.json",
+          "sha256": "9836a57a1d2684c01f0d3679bd91005855288c99fa408a5bb2f2f9242642aa45"
+        }
+      ],
+      "skill_runs": [
+        {
+          "skill": "ytv-visual-direction",
+          "status": "APPLIED",
+          "evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/EPISODE.md"
+        }
+      ]
+    },
+    {
+      "id": "audio",
+      "skills": [
+        "ytv-audio-delivery"
+      ],
+      "status": "DONE",
+      "artifacts": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Work/sound_v04/mix_en_v04.wav",
+          "sha256": "ae5034b1b4ec34f5d72691a1660c381fcc977d1f370c7b1da5961d8fa32025f2",
+          "version": "v04"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Work/sound_v04/AUDIO_HANDOFF_v04.json",
+          "sha256": "5aada232918c4581ffd75b510cb38baa81821e29371ecc45e4945ac8d72cf2b7",
+          "version": "v04"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Edit/QA/AV_SIGNAL_EN_v04.json",
+          "sha256": "5ffdf55777893fd942038df659085d4a79ba5f931a13437b1f98b1f554b00fa9",
+          "version": "v04"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Edit/QA/ENDURANCE_USER_ACCEPTANCE_EN_v04.md",
+          "sha256": "397252437aa34a0e556d68ac9840daac9d7e4755748b1641bb92cb61b0622004",
+          "version": "v04"
+        }
+      ],
+      "checks": [
+        {
+          "name": "exact_mix_and_music_transitions",
+          "status": "PASS",
+          "reviewer": "Endurance coordinator",
+          "method": "Sample-aligned PCM verification, musical stem levels by cue",
+          "coverage": "Full mix and six musical regions.",
+          "evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Edit/QA/AV_SIGNAL_EN_v04.json"
+        },
+        {
+          "name": "user_final_mix_acceptance",
+          "status": "PASS",
+          "reviewer": "user",
+          "method": "Acceptance of exact final MP4 in chat",
+          "coverage": "New musical mix inside the full v04, as accepted. Internal listening separately marked UNVERIFIED.",
+          "evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Edit/QA/ENDURANCE_USER_ACCEPTANCE_EN_v04.md"
+        }
+      ],
+      "dependencies": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Source/Voice/voice_en_v01/voice_en.mp3",
+          "sha256": "b972311d983172c43d6a48b568824c3ef94650b8e6bfe4868997da7258893ce3"
+        }
+      ],
+      "skill_runs": [
+        {
+          "skill": "ytv-audio-delivery",
+          "status": "APPLIED",
+          "evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Work/sound_v04/AUDIO_HANDOFF_v04.json"
+        }
+      ]
+    },
+    {
+      "id": "images",
+      "skills": [
+        "ytv-scene-images",
+        "ytv-image-motion"
+      ],
+      "status": "DONE",
+      "artifacts": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Work/visual_rebuild_v02/SELECTION_v04.json",
+          "sha256": "eafb219e6146667e2fdddfdf6f85e1439e898a56301c1db897b9a7b72168c419",
+          "version": "v04"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Edit/ENDURANCE_EN_EDIT_v04.json",
+          "sha256": "daa846480b6939a3846ddfae1e30153773ee97a2b10e54b8ae39136664705eb9",
+          "version": "v04"
+        }
+      ],
+      "checks": [
+        {
+          "name": "exact_color_and_gaze_replacements",
+          "status": "PASS",
+          "reviewer": "Endurance coordinator",
+          "method": "Compared exact rendered samples and reference poses",
+          "coverage": "Six changed scenes and 348 unchanged samples.",
+          "evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Edit/QA/ENDURANCE_MP4_REVIEW_EN_v04.json"
+        }
+      ],
+      "dependencies": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/EPISODE.md",
+          "sha256": "86c86a75c8eff4ff957495ceb11bbbe4fbe5afdbc5e43c22acab28aefa743e4a"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Work/visual_rebuild_v02/SHOT_MAP_v04.json",
+          "sha256": "ddaf7814bb6fe4fe085fc8b68f044abcd4b5d1260dd3812f67f3002351141306"
+        }
+      ],
+      "skill_runs": [
+        {
+          "skill": "ytv-scene-images",
+          "status": "APPLIED",
+          "evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Edit/QA/ENDURANCE_MP4_REVIEW_EN_v04.json"
+        },
+        {
+          "skill": "ytv-image-motion",
+          "status": "APPLIED",
+          "evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Edit/QA/ENDURANCE_MP4_REVIEW_EN_v04.json"
+        }
+      ]
+    },
+    {
+      "id": "subtitles",
+      "skills": [
+        "ytv-paper-subtitles",
+        "ytv-srt"
+      ],
+      "status": "DONE",
+      "artifacts": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Deliverables/Endurance_en_review_v04.srt",
+          "sha256": "ea5413fa6e5e91f036943b7eb1f4c37dc6557fa9f7a42bbd4131f22385d18c34",
+          "version": "v04"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Edit/QA/SRT_CONFORM_EN_v04.json",
+          "sha256": "987c7b953919d2245b6566126a93afbe4545dff0c9c403faa3d9defa4d39dbb0",
+          "version": "v04"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Edit/QA/CAPTION_FRAME_COMPARISON_EN_v04.json",
+          "sha256": "9661ed995e5425a1e3d20d3cb9f9de5cae0d40a6f6a7e27dd3c9a7a260251398",
+          "version": "v04"
+        }
+      ],
+      "checks": [
+        {
+          "name": "word_map_conform_and_all_highlights",
+          "status": "PASS",
+          "reviewer": "Endurance coordinator",
+          "method": "Compare v03 and v04 word times and all sampled rendered highlights",
+          "coverage": "All 384 groups and 1,391 words.",
+          "evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Edit/QA/CAPTION_FRAME_COMPARISON_EN_v04.json"
+        }
+      ],
+      "dependencies": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Work/sound_v04/WORD_MAP_CONFORM_EN_v04.json",
+          "sha256": "9836a57a1d2684c01f0d3679bd91005855288c99fa408a5bb2f2f9242642aa45"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Edit/ENDURANCE_EN_EDIT_v04.json",
+          "sha256": "daa846480b6939a3846ddfae1e30153773ee97a2b10e54b8ae39136664705eb9"
+        }
+      ],
+      "skill_runs": [
+        {
+          "skill": "ytv-paper-subtitles",
+          "status": "APPLIED",
+          "evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Edit/QA/ENDURANCE_MP4_REVIEW_EN_v04.json"
+        },
+        {
+          "skill": "ytv-srt",
+          "status": "APPLIED",
+          "evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Edit/QA/ENDURANCE_MP4_REVIEW_EN_v04.json"
+        }
+      ]
+    },
+    {
+      "id": "render",
+      "skills": [
+        "ytv-video-production",
+        "ytv-video-export",
+        "ytv-video-qa"
+      ],
+      "status": "DONE",
+      "artifacts": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Deliverables/Endurance_en_review_v04.mp4",
+          "sha256": "5cb856cda02053b40f0309a95617253a41aae457cf8d607b01eb8fbd724dc059",
+          "version": "v04"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Edit/QA/ENDURANCE_MP4_REVIEW_EN_v04.json",
+          "sha256": "e86f2652ffcd183f7061a3704e7719d51c3857f140b7a9ebd80001d9d8c9aebe",
+          "version": "v04"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Edit/ENDURANCE_EXPORT_CONTRACT_v04.json",
+          "sha256": "334f4b56077e8320bfde897bba7d791d2f1900cb20d406ed579303f7a32cc3c1",
+          "version": "v04"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Work/endurance-en-render-v04/scratch/ffmpeg/render_provenance.json",
+          "sha256": "373ad59df7c862ed54b63f4103a4faa5f219a2e0e28c932c40c05bf6055b6aae",
+          "version": "v04"
+        }
+      ],
+      "checks": [
+        {
+          "name": "export_file_technical_visual_readiness",
+          "status": "PASS",
+          "reviewer": "Endurance coordinator",
+          "method": "Full decode, frame and PCM checks",
+          "coverage": "All 16,796 frames, six target scene changes and exact new mix.",
+          "evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Edit/QA/ENDURANCE_MP4_REVIEW_EN_v04.json"
+        }
+      ],
+      "dependencies": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Edit/ENDURANCE_EN_EDIT_v04.json",
+          "sha256": "daa846480b6939a3846ddfae1e30153773ee97a2b10e54b8ae39136664705eb9"
+        }
+      ],
+      "skill_runs": [
+        {
+          "skill": "ytv-video-production",
+          "status": "APPLIED",
+          "evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Edit/QA/ENDURANCE_MP4_REVIEW_EN_v04.json"
+        },
+        {
+          "skill": "ytv-video-export",
+          "status": "APPLIED",
+          "evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Edit/QA/ENDURANCE_MP4_REVIEW_EN_v04.json"
+        },
+        {
+          "skill": "ytv-video-qa",
+          "status": "APPLIED",
+          "evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Edit/QA/ENDURANCE_MP4_REVIEW_EN_v04.json"
+        }
+      ]
+    },
+    {
+      "id": "review",
+      "skills": [],
+      "status": "DONE",
+      "artifacts": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Edit/QA/ENDURANCE_USER_ACCEPTANCE_EN_v04.md",
+          "sha256": "397252437aa34a0e556d68ac9840daac9d7e4755748b1641bb92cb61b0622004",
+          "version": "v04"
+        }
+      ],
+      "checks": [
+        {
+          "name": "user_final_mp4_acceptance",
+          "status": "PASS",
+          "reviewer": "user",
+          "method": "Exact MP4 accepted in chat",
+          "coverage": "Full English v04 including audio and burned-in captions.",
+          "evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Edit/QA/ENDURANCE_USER_ACCEPTANCE_EN_v04.md"
+        }
+      ],
+      "dependencies": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Deliverables/Endurance_en_review_v04.mp4",
+          "sha256": "5cb856cda02053b40f0309a95617253a41aae457cf8d607b01eb8fbd724dc059"
+        }
+      ],
+      "skill_runs": []
+    },
+    {
+      "id": "packaging",
+      "skills": [
+        "ytv-youtube-video-titles",
+        "ytv-youtube-thumbnails",
+        "ytv-youtube-descriptions",
+        "ytv-youtube-hashtags",
+        "ytv-youtube-playlists",
+        "ytv-youtube-ab-testing",
+        "ytv-youtube-chapters"
+      ],
+      "status": "PENDING",
+      "artifacts": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Packaging/Metadata/ENDURANCE_RELEASE_PACKAGE_EN_v05.json",
+          "sha256": "52a2b7ee34f289f000d9347d8c3df742729adc91067dfebd5d5cf7f42cc7a6c4",
+          "version": "v05"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Packaging/Metadata/ENDURANCE_PACKAGING_REVIEW_EN_v05.json",
+          "sha256": "866bedd2b3355158ef5b7f31490124a4856cc04031fba60979e90604d79d0a13",
+          "version": "v05"
+        }
+      ],
+      "checks": [
+        {
+          "name": "three_release_concepts",
+          "status": "PASS",
+          "reviewer": "coordinator",
+          "method": "Exact revised files, first-glance review, phone-size cards and public peer simulation",
+          "coverage": "Three distinct cover-title-description packages, accepted v04 film; no live display or audience result.",
+          "evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Packaging/Metadata/ENDURANCE_PACKAGING_REVIEW_EN_v05.json"
+        }
+      ],
+      "dependencies": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Deliverables/Endurance_en_review_v04.mp4",
+          "sha256": "5cb856cda02053b40f0309a95617253a41aae457cf8d607b01eb8fbd724dc059"
+        }
+      ],
+      "skill_runs": []
+    },
+    {
+      "id": "unlisted",
+      "skills": [
+        "ytv-youtube-release"
+      ],
+      "status": "PENDING",
+      "artifacts": [],
+      "checks": [],
+      "dependencies": [],
+      "skill_runs": []
+    },
+    {
+      "id": "release",
+      "skills": [
+        "ytv-youtube-release",
+        "ytv-media-lifecycle"
+      ],
+      "status": "PENDING",
+      "artifacts": [],
+      "checks": [],
+      "dependencies": [],
+      "skill_runs": []
+    }
+  ],
+  "decisions": {
+    "story_accepted": {
+      "accepted": true,
+      "target": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Source/Script/story_ru_accepted_v01.md#v01#sha256=d3637a1b4ff22f78165c9c2d98b9e88e434ba1938f4f98e6b9aa57c102983628",
+      "evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/DECISION_STORY_ACCEPTED_v01.md"
+    },
+    "mp4_v01_accepted": {
+      "accepted": true,
+      "target": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Deliverables/Endurance_en_review_v01.mp4#v01#sha256=176cd4a18f0f23d01cf39a2ad4fde9cfa57856c9416bb304bebd83f15033bd50",
+      "evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Edit/QA/ENDURANCE_USER_ACCEPTANCE_EN_v01.md"
+    },
+    "mp4_accepted": {
+      "accepted": true,
+      "target": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Deliverables/Endurance_en_review_v04.mp4#v04#sha256=5cb856cda02053b40f0309a95617253a41aae457cf8d607b01eb8fbd724dc059",
+      "evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/049_endurance/Edit/QA/ENDURANCE_USER_ACCEPTANCE_EN_v04.md"
+    }
+  },
+  "next_step": "Показать обложки v02 и пакет v05. Стартовая рекомендация B; выбор пользователя и прямое поручение задают внешний этап."
+}

@@ -1,0 +1,81 @@
+{
+  "status": "stale_requires_integrated_lettering",
+  "episode": "Pompeii Final Hours",
+  "channel": "Nuviko History",
+  "accepted_video_sha256": "60dd6857c37a2a1820ea7655ca3cf3d1998b9fc84ae9b16f42867bdef22084bf",
+  "test_scope": "paired title + thumbnail concepts; description is prepared per concept but only one can be active during a native title/thumbnail experiment",
+  "concepts": [
+    {
+      "id": "A",
+      "concept": "Choice under immediate danger",
+      "question": "If pumice is falling and roofs are weakening, is shelter safer than flight?",
+      "answer": "Residents faced different dangers while stones accumulated; some left while routes remained open, others sheltered, and some were killed in collapses.",
+      "title": "Pompeii’s Choice: Flee the Falling Stones or Shelter?",
+      "thumbnail_situation": "A Pompeian doorway frames two risks at once: a street choked with falling pumice outside and roof beams straining over a dark interior. No bodies or injuries.",
+      "image_difference": "The doorway makes the human decision the subject; the image does not depict the later ash surge or an excavation.",
+      "lettering": "none",
+      "title_characters": 53,
+      "thumbnail_file": "Thumbnails/A_thumbnail.png",
+      "thumbnail_sha256": "ee69a1dda80b0c10e62c7c5dd66875517807fb78da2ab1c072a35f8f5ec62458",
+      "thumbnail_dimensions": [
+        1672,
+        941
+      ],
+      "thumbnail_small_preview": "visually_reviewed_320x180"
+    },
+    {
+      "id": "B",
+      "concept": "What actually destroyed the city",
+      "question": "Was Pompeii buried by lava, or did another volcanic sequence destroy it?",
+      "answer": "The film distinguishes falling pumice, earthquakes, collapsing structures and later pyroclastic flows from the familiar lava-flood image.",
+      "title": "Pompeii Wasn’t Buried by Lava. What Actually Destroyed It?",
+      "thumbnail_situation": "A low, wide view of a dark ash-and-gas surge sweeping toward Roman rooftops beneath Vesuvius. No glowing lava, no doorway choice, no excavation.",
+      "image_difference": "The visible moving ash cloud and volcano explain the physical mechanism; the image does not center a person’s shelter decision or daily life.",
+      "lettering": "none",
+      "title_characters": 58,
+      "thumbnail_file": "Thumbnails/B_thumbnail.png",
+      "thumbnail_sha256": "1e6f6f6a30024b22fa89c2ee6d8e949df468925d34dbfcd5f71003f0e79d3c3e",
+      "thumbnail_dimensions": [
+        1672,
+        941
+      ],
+      "thumbnail_small_preview": "visually_reviewed_320x180"
+    },
+    {
+      "id": "C",
+      "concept": "Ordinary life preserved",
+      "question": "What can Pompeii’s buried streets still reveal about the people who lived there?",
+      "answer": "The film shows bakeries, workshops, homes, objects and excavations, while explaining what the traces and casts cannot establish about every person.",
+      "title": "Pompeii’s Ordinary Lives, Preserved Under Ash",
+      "thumbnail_situation": "A sunlit Roman bakery in daily use, with loaves, oven and painted walls; the restrained drawn Nuviko traveler appears small at the edge, observing the scene. Vesuvius is calm and distant.",
+      "image_difference": "The warm, ordinary bakery scene is about the life preserved, not the eruption’s immediate danger or the later pyroclastic surge.",
+      "lettering": "none",
+      "title_characters": 45,
+      "thumbnail_file": "Thumbnails/C_thumbnail.png",
+      "thumbnail_sha256": "4e9535266573b3a509a8e394b871c43bb78a498e1dbd29add2fa2252b363a931",
+      "thumbnail_dimensions": [
+        1672,
+        941
+      ],
+      "thumbnail_small_preview": "visually_reviewed_320x180"
+    }
+  ],
+  "visual_qc": {
+    "method": "Visual inspection at full size and local 320x180 preview",
+    "platform_rendering_simulated": false,
+    "native_test_started": false,
+    "findings": {
+      "A": "Communicates falling pumice outside versus roofed shelter; roof strain is not unmistakable at phone preview.",
+      "B": "Fails assigned concept: reads as a tall eruption column/cloud, not a ground-hugging pyroclastic flow reaching the city.",
+      "C": "Correct restrained drawn-traveler style and no obvious anatomy defect, but traveler is about 40% of image height versus <=15% specified; dark backpack from channel profile is absent."
+    },
+    "decision": "Revise B and C before user approval; no uploaded card/device surface was available."
+  },
+  "chapter_validation": {
+    "result": "formal_validation_passed",
+    "duration_seconds": 856.366667,
+    "media_review": "not_assessed",
+    "timing_basis": "1.10x-adjusted narration alignment; not independently listened"
+  },
+  "superseded_by_requirement": "Mandatory integrated English lettering and packaging after MP4 approval, user instruction 2026-11-03"
+}

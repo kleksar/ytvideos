@@ -1,0 +1,9 @@
+# H4 Short v03 — targeted recheck and handoff
+
+File: `harrison-review-v03.mp4`; SHA-256 `05c5c62c84f6c7838261b0b527e0ed3a12fa5c503e856693c0d8f9d7d2647e5b`. Replaces scenes S07 and S08 from v02; the old accepted v02 remains a historical approval, not approval of this new version. User requested this replacement and review before publication.
+
+- Renderer: `harrison-edit-v03.json`, export contract v04; render `harrison-render-v06`, settings PASS. Individual replacement image inspection and provenance: `harrison-visual-pilot/replacement-v03/REVIEW.md`. No Jordiferrer photo supplied for either replacement.
+- `Edit/QA/harrison-qa-v03/report.json`: technical PASS for stream metadata, 1420 frames, and full decode; 1440×2560 H.264, 30 fps, 47.333333 s, mono AAC 48 kHz. Helper verdict UNVERIFIED because sampled extraction is not itself a visual review.
+- Coordinator inspected extracted full-file frames 920, 999, 1079, 1080, 1164, 1249 and 1250. S07 ship and S08 case remain visible across sampled starts/middles/ends; no post-1801 flag or glass oil lamp in replacement shots. Sampled subtitles fit and are readable, with yellow highlighted words; no claim of complete cue or continuous-motion coverage. No full playback performed.
+- AAC compressed elementary stream SHA-256 `68b4570ae196ea0a3d0551ead685ed504624a49bdd2e9889ea2f06a6cd46c264` equals v02 stream exactly. Timing, narration, mix and caption map were not changed, but subjective audio listening and fresh complete cue-by-cue sync remain UNVERIFIED. Independent review UNVERIFIED.
+- This is an interim review handoff for the user's viewing, not a full AV QA PASS or authorization to schedule. The old private upload is still v02 and must not be scheduled. If v03 approved, release requires a new upload, rights/description correction and verification.

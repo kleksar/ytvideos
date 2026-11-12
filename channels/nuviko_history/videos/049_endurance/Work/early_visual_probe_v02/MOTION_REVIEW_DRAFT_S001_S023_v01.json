@@ -1,0 +1,696 @@
+{
+  "status": "DRAFT_NOT_FOR_FINAL_RENDER",
+  "note": "Individual full-frame review; initial camera intentions only; motion envelope and caption placement not verified.",
+  "scenes": [
+    {
+      "scene": "S001",
+      "file": "S001_candidate_v01.png",
+      "sha256": "ddc93ab8070d898ea44b72bf663919872029f35cf78799dac93be24cbd06b104",
+      "camera": {
+        "subject": "ship imprisoned amid pressure ice",
+        "focus": [
+          0.52,
+          0.52
+        ],
+        "direction": "none",
+        "zoom": "in",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.015
+        },
+        "reason": "Draw attention to the trapped hull without losing the masts."
+      },
+      "status": "DRAFT_REQUIRES_MOTION_ENVELOPE_CAPTIONS_AND_IMAGE_ACCEPTANCE"
+    },
+    {
+      "scene": "S002",
+      "file": "S002_candidate_v02.png",
+      "sha256": "022d1db298c9a1e5bfeb747194097c6b4535f5d4009687680db735207c9c22a9",
+      "camera": {
+        "subject": "Endurance sinking beneath polar sea",
+        "focus": [
+          0.55,
+          0.52
+        ],
+        "direction": "none",
+        "zoom": "out",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.015
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "reason": "Widen from the failing vessel toward the surrounding empty ice."
+      },
+      "status": "DRAFT_REQUIRES_MOTION_ENVELOPE_CAPTIONS_AND_IMAGE_ACCEPTANCE"
+    },
+    {
+      "scene": "S003",
+      "file": "S003_candidate_v02.png",
+      "sha256": "2fef7d2334a1c7ac9aa8de6d9649002716f6483f2d291ded6bbb8bafe1806d44",
+      "camera": {
+        "subject": "cold, worried crew on ice",
+        "focus": [
+          0.34,
+          0.48
+        ],
+        "direction": "left_to_right",
+        "zoom": "none",
+        "start": {
+          "center": [
+            0.505,
+            0.5
+          ],
+          "scale": 1.025
+        },
+        "end": {
+          "center": [
+            0.495,
+            0.5
+          ],
+          "scale": 1.025
+        },
+        "reason": "Move across the group to relate individual faces to the expedition."
+      },
+      "status": "DRAFT_REQUIRES_MOTION_ENVELOPE_CAPTIONS_AND_IMAGE_ACCEPTANCE"
+    },
+    {
+      "scene": "S004",
+      "file": "S004_candidate_v02.png",
+      "sha256": "47bd2f3025cedd9ca5f4e26d2d12ed19d35f3cb345e58d568bdf21ea7fca01c4",
+      "camera": {
+        "subject": "abandoned supplies and distant crew",
+        "focus": [
+          0.54,
+          0.52
+        ],
+        "direction": "none",
+        "zoom": "in",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.015
+        },
+        "reason": "Hold the separation between supplies and distant men."
+      },
+      "status": "DRAFT_REQUIRES_MOTION_ENVELOPE_CAPTIONS_AND_IMAGE_ACCEPTANCE"
+    },
+    {
+      "scene": "S005",
+      "file": "S005_candidate_v01.png",
+      "sha256": "f453fdf54f587aeb72d8c197185be8d966e4429b8bd0a857de24e7df18b77ed6",
+      "camera": {
+        "subject": "ice camp isolated by water channels",
+        "focus": [
+          0.42,
+          0.5
+        ],
+        "direction": "none",
+        "zoom": "out",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.015
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "reason": "Reveal the fragile scale of the floe and its tents."
+      },
+      "status": "DRAFT_REQUIRES_MOTION_ENVELOPE_CAPTIONS_AND_IMAGE_ACCEPTANCE"
+    },
+    {
+      "scene": "S006",
+      "file": "S006_candidate_v02.png",
+      "sha256": "135ae8cb4c6299c38fb71a9f7c510b78b4a49e8010b177514d4d0028f95f02c1",
+      "camera": {
+        "subject": "three lifeboats and saved provisions",
+        "focus": [
+          0.5,
+          0.52
+        ],
+        "direction": "right_to_left",
+        "zoom": "none",
+        "start": {
+          "center": [
+            0.495,
+            0.5
+          ],
+          "scale": 1.025
+        },
+        "end": {
+          "center": [
+            0.505,
+            0.5
+          ],
+          "scale": 1.025
+        },
+        "reason": "Read across all three hulls while retaining their count."
+      },
+      "status": "DRAFT_REQUIRES_MOTION_ENVELOPE_CAPTIONS_AND_IMAGE_ACCEPTANCE"
+    },
+    {
+      "scene": "S007",
+      "file": "S007_candidate_v02.png",
+      "sha256": "666e96e21a75f2345aea2eefbc70214c802d4c605a43caea0ca7202bddb65c2c",
+      "camera": {
+        "subject": "six men in the small boat",
+        "focus": [
+          0.69,
+          0.68
+        ],
+        "direction": "none",
+        "zoom": "out",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.015
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "reason": "Widen around the small boat to stress the scale of open sea."
+      },
+      "status": "DRAFT_REQUIRES_MOTION_ENVELOPE_CAPTIONS_AND_IMAGE_ACCEPTANCE"
+    },
+    {
+      "scene": "S008",
+      "file": "S008_candidate_v02.png",
+      "sha256": "44aed0477219dc8b58bd443e33b04c2a1dcc3ea5ba20fc8308bfbc68fcb6b5d6",
+      "camera": {
+        "subject": "distance and boat scale diagram",
+        "focus": [
+          0.56,
+          0.45
+        ],
+        "direction": "none",
+        "zoom": "in",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.015
+        },
+        "reason": "Emphasize the distance comparison while protecting both labels."
+      },
+      "status": "DRAFT_REQUIRES_MOTION_ENVELOPE_CAPTIONS_AND_IMAGE_ACCEPTANCE"
+    },
+    {
+      "scene": "S009",
+      "file": "S009_candidate_v01.png",
+      "sha256": "24418de14960e821d6d926b28d0c99b76b89120a725640aa911fc5b255d43019",
+      "camera": {
+        "subject": "waiting men looking across empty water",
+        "focus": [
+          0.22,
+          0.49
+        ],
+        "direction": "left_to_right",
+        "zoom": "none",
+        "start": {
+          "center": [
+            0.505,
+            0.5
+          ],
+          "scale": 1.025
+        },
+        "end": {
+          "center": [
+            0.495,
+            0.5
+          ],
+          "scale": 1.025
+        },
+        "reason": "Move from the stranded men toward the empty horizon."
+      },
+      "status": "DRAFT_REQUIRES_MOTION_ENVELOPE_CAPTIONS_AND_IMAGE_ACCEPTANCE"
+    },
+    {
+      "scene": "S010",
+      "file": "S010_candidate_v01.png",
+      "sha256": "abaa7a2252e06e46656fc7730d422eca64264171b58127e4ce01d1f49b7d0298",
+      "camera": {
+        "subject": "distant ship beyond broken ice",
+        "focus": [
+          0.57,
+          0.38
+        ],
+        "direction": "none",
+        "zoom": "in",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.015
+        },
+        "reason": "Nudge attention toward the tiny silhouette behind the ice."
+      },
+      "status": "DRAFT_REQUIRES_MOTION_ENVELOPE_CAPTIONS_AND_IMAGE_ACCEPTANCE"
+    },
+    {
+      "scene": "S011",
+      "file": "S011_candidate_v01.png",
+      "sha256": "3515081963202107bac1224ac13ed59f5c8272c1cda1ce2a93fd1d18b1f4ff0d",
+      "camera": {
+        "subject": "Shackleton on the expedition ship",
+        "focus": [
+          0.59,
+          0.42
+        ],
+        "direction": "none",
+        "zoom": "out",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.015
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "reason": "Reveal the expedition setting around the portrait."
+      },
+      "status": "DRAFT_REQUIRES_MOTION_ENVELOPE_CAPTIONS_AND_IMAGE_ACCEPTANCE"
+    },
+    {
+      "scene": "S012",
+      "file": "S012_candidate_v01.png",
+      "sha256": "b0317b463c6bf0906cf434035e1c4f0392d7cc6dffc6df0a169267406f6e335e",
+      "camera": {
+        "subject": "planned crossing through South Pole",
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "direction": "right_to_left",
+        "zoom": "none",
+        "start": {
+          "center": [
+            0.495,
+            0.5
+          ],
+          "scale": 1.025
+        },
+        "end": {
+          "center": [
+            0.505,
+            0.5
+          ],
+          "scale": 1.025
+        },
+        "reason": "Trace the two ends of the planned crossing without losing the title."
+      },
+      "status": "DRAFT_REQUIRES_MOTION_ENVELOPE_CAPTIONS_AND_IMAGE_ACCEPTANCE"
+    },
+    {
+      "scene": "S013",
+      "file": "S013_candidate_v01.png",
+      "sha256": "e523db784ee50d9c07690b85db847c0d5e9e0916faadab77253e42845c395840",
+      "camera": {
+        "subject": "Endurance navigating among floes",
+        "focus": [
+          0.52,
+          0.5
+        ],
+        "direction": "none",
+        "zoom": "in",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.015
+        },
+        "reason": "Bring the ship forward as it enters the ice."
+      },
+      "status": "DRAFT_REQUIRES_MOTION_ENVELOPE_CAPTIONS_AND_IMAGE_ACCEPTANCE"
+    },
+    {
+      "scene": "S014",
+      "file": "S014_candidate_v01.png",
+      "sha256": "c9e18643292585bc6c073be2ee92d347f9320a074b226a10ed2ccffe7cc27a7c",
+      "camera": {
+        "subject": "ship encircled by ice",
+        "focus": [
+          0.45,
+          0.48
+        ],
+        "direction": "none",
+        "zoom": "out",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.015
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "reason": "Expose the surrounding pack and scale of entrapment."
+      },
+      "status": "DRAFT_REQUIRES_MOTION_ENVELOPE_CAPTIONS_AND_IMAGE_ACCEPTANCE"
+    },
+    {
+      "scene": "S015",
+      "file": "S015_candidate_v04.png",
+      "sha256": "438fed3b665ef81105b785d798fe2a07b21162f13515acc798e8aac963f975cb",
+      "camera": {
+        "subject": "navigation instruments and plotted estimates",
+        "focus": [
+          0.66,
+          0.61
+        ],
+        "direction": "left_to_right",
+        "zoom": "none",
+        "start": {
+          "center": [
+            0.505,
+            0.5
+          ],
+          "scale": 1.025
+        },
+        "end": {
+          "center": [
+            0.495,
+            0.5
+          ],
+          "scale": 1.025
+        },
+        "reason": "Move from instrument toward the hand and its tentative marks."
+      },
+      "status": "DRAFT_REQUIRES_MOTION_ENVELOPE_CAPTIONS_AND_IMAGE_ACCEPTANCE"
+    },
+    {
+      "scene": "S016",
+      "file": "S016_candidate_v01.png",
+      "sha256": "099d8910a61482da3424f67f19818672495dfe0ed60684a36c4aa39a4824548a",
+      "camera": {
+        "subject": "crew working lines on frozen deck",
+        "focus": [
+          0.46,
+          0.52
+        ],
+        "direction": "none",
+        "zoom": "in",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.015
+        },
+        "reason": "Concentrate on the hands and rigging."
+      },
+      "status": "DRAFT_REQUIRES_MOTION_ENVELOPE_CAPTIONS_AND_IMAGE_ACCEPTANCE"
+    },
+    {
+      "scene": "S017",
+      "file": "S017_candidate_v01.png",
+      "sha256": "364529c75506b56a89cd9da2766734e7fa2b3e8eb754ffd516e73c18cfe86f9e",
+      "camera": {
+        "subject": "ship isolated behind the ice",
+        "focus": [
+          0.38,
+          0.35
+        ],
+        "direction": "none",
+        "zoom": "out",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.015
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "reason": "Widen into the empty ice surrounding the distant hull."
+      },
+      "status": "DRAFT_REQUIRES_MOTION_ENVELOPE_CAPTIONS_AND_IMAGE_ACCEPTANCE"
+    },
+    {
+      "scene": "S018",
+      "file": "S018_candidate_v05.png",
+      "sha256": "a8e44ca486783b78ce239c1ec3b41ec4e3f415321a06a9b77876a2d3c4d2ae32",
+      "camera": {
+        "subject": "illustrated host demonstrates ship trapped in ice",
+        "focus": [
+          0.58,
+          0.6
+        ],
+        "direction": "right_to_left",
+        "zoom": "none",
+        "start": {
+          "center": [
+            0.495,
+            0.5
+          ],
+          "scale": 1.025
+        },
+        "end": {
+          "center": [
+            0.505,
+            0.5
+          ],
+          "scale": 1.025
+        },
+        "reason": "Keep the hand, model ship and ice model visible together."
+      },
+      "status": "DRAFT_REQUIRES_MOTION_ENVELOPE_CAPTIONS_AND_IMAGE_ACCEPTANCE"
+    },
+    {
+      "scene": "S019",
+      "file": "S019_candidate_v01.png",
+      "sha256": "36f1195fbdcea002b1a22db7a87a38bd828f0f932d790c8097ad3e95fc7f2d67",
+      "camera": {
+        "subject": "pressure-split timbers on Endurance",
+        "focus": [
+          0.55,
+          0.53
+        ],
+        "direction": "none",
+        "zoom": "in",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.015
+        },
+        "reason": "Concentrate on the place where the hull splinters."
+      },
+      "status": "DRAFT_REQUIRES_MOTION_ENVELOPE_CAPTIONS_AND_IMAGE_ACCEPTANCE"
+    },
+    {
+      "scene": "S020",
+      "file": "S020_candidate_v02.png",
+      "sha256": "9076db54284cd1e1200bbecba195b572e34333edde2efd2af3b6c4bc9ff4ddab",
+      "camera": {
+        "subject": "floodwater around boots inside ship",
+        "focus": [
+          0.4,
+          0.72
+        ],
+        "direction": "none",
+        "zoom": "out",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.015
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "reason": "Let the water and the opening to the ice read together."
+      },
+      "status": "DRAFT_REQUIRES_MOTION_ENVELOPE_CAPTIONS_AND_IMAGE_ACCEPTANCE"
+    },
+    {
+      "scene": "S021",
+      "file": "S021_candidate_v01.png",
+      "sha256": "25adce6ecccd212c7f4d32c6a8ed4b30c1b63a60859b3d6afede10a74cbd694c",
+      "camera": {
+        "subject": "expedition pulling boats away from ship",
+        "focus": [
+          0.54,
+          0.56
+        ],
+        "direction": "left_to_right",
+        "zoom": "none",
+        "start": {
+          "center": [
+            0.505,
+            0.5
+          ],
+          "scale": 1.025
+        },
+        "end": {
+          "center": [
+            0.495,
+            0.5
+          ],
+          "scale": 1.025
+        },
+        "reason": "Follow the connected rope and boats as the crew hauls them."
+      },
+      "status": "DRAFT_REQUIRES_MOTION_ENVELOPE_CAPTIONS_AND_IMAGE_ACCEPTANCE"
+    },
+    {
+      "scene": "S022",
+      "file": "S022_candidate_v01.png",
+      "sha256": "5a4b3e8eab7f3f635b4e05e0ef541eecc4842207f63fdb71389bd7a52c1faee6",
+      "camera": {
+        "subject": "camp watches sinking masts in distance",
+        "focus": [
+          0.58,
+          0.49
+        ],
+        "direction": "none",
+        "zoom": "in",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.015
+        },
+        "reason": "Bring the final glimpse of the ship closer without losing observers."
+      },
+      "status": "DRAFT_REQUIRES_MOTION_ENVELOPE_CAPTIONS_AND_IMAGE_ACCEPTANCE"
+    },
+    {
+      "scene": "S023",
+      "file": "S023_candidate_v03.png",
+      "sha256": "d907c231e00d7442e71ce17f1cd8a496509ee362d13de57379a2d0a536ccd9d0",
+      "camera": {
+        "subject": "unreached Antarctic destination diagram",
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "direction": "none",
+        "zoom": "out",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.015
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "reason": "Keep the ship marker and unreached continent legible."
+      },
+      "status": "DRAFT_REQUIRES_MOTION_ENVELOPE_CAPTIONS_AND_IMAGE_ACCEPTANCE"
+    }
+  ]
+}

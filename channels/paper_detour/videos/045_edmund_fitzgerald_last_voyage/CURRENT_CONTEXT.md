@@ -1,0 +1,8 @@
+# Paper Detour 045 — Edmund Fitzgerald
+
+- Accepted English long film v10: video `WdnfsBwdFmE`, https://www.youtube.com/watch?v=WdnfsBwdFmE, Paper Detour `UCMVfdfaNxV3ZkI3_J3Eejzw`; accepted SHA-256 `59d029fc15ca93238f6c08a96c174102687b638088ba2673ab20efb11878bed5`. YouTube API confirmed Public, processed and succeeded on 2026-11-06. User acceptance and release evidence: `Packaging/Metadata/Release_v04/RELEASE_RECEIPT_v10.md`; QA limits in `Edit/QA/RELEASE_V10_REVIEW_v01.md`.
+- Native title/thumbnail A/B was reported running in Studio on 2026-11-05; receipt `Packaging/Thumbnails/Exploration_v11/AB_RELEASE_RECEIPT_v11.md`.
+- Storage `PARTIAL_TEXT_ARCHIVE`: 19,429 media files, 19,104,788,577 logical bytes, permanently removed on 2026-11-06 in three targeted batches covering completed QA and superseded render work, including local v10 master. All planned paths checked absent. Exact plans and execution logs: `Edit/MediaLifecycle/cleanup-user-20261106-receipt.json`.
+- Retained hold: `Work/sound-comparison-20261105/`, its source `Work/render_visual_v08/`, source assets, Packaging and other dependencies pending ownership/consumer resolution. Shared brand references remain. The earlier v09 Trash destination has not been freshly verified. See `Packaging/Metadata/Release_v04/CLEANUP_HOLD_v10.md` and the sound experiment README. These holds do not imply the retained media are all actively used.
+
+- 8 ноября по прямому решению пользователя удалены два ненужных пробных MP4 из `Work/render_sample_20261104/`; точный состав и hashes — `Edit/MediaLifecycle/cleanup-explicit-samples-20261108.json`. Остальные holds сохраняются.

@@ -1,0 +1,17 @@
+# Subtitle and accent continuation — 3 November 2026
+
+Working version created in Palmier project `01CB00DB`: timeline `79EB0711`, duplicated from `439A285C`; no clips modified. Current accepted local MP4 remains `Deliverables/007_joshua_jessica_renewal_en_20261102.mp4`, SHA-256 `6e0a470c94de7f76a6903e3fac12ea90e76e9a987d284a200180eefbd255909d`. The published original and private upload have not been modified. Voice remains unchanged.
+
+The existing clip has semantic accents but no narration subtitles. C03 “NOT HER.” is at centerY 0.77, colliding with the planned subtitle area. Existing top-position composite overlaps hair; revise composition and animate accents per current Paper typography and caption workflow before export.
+
+Subtitle timing diagnostic used retained `Source/Voice/lawrence_v3/voice_en.mp3` (SHA-256 `f1e2d784ea42649deaf9ad3ea19890d5b5da30937157319c287112083eae7351`), `voice_en.alignment_clipped.json`, local Whisper base.en word timestamps, and `reconcile_pauses.py`. Evidence in `Work/renewal_subtitles_20261103/`: `voice_en.json`, `provider_words.json`, `timing_check.json`. Result REVIEW_REQUIRED: 121 words, 69 flags (61 alignment differences, 5 ASR spans intersect silence, 3 tokenization mismatches). Flags are diagnostics, not 69 confirmed errors; example discrepancy “had” 0.48 s. Do not claim precise synchronization, blindly apply either map, or publish before review against actual recording and final output. First reconcile words and silence, review exact boundaries, then subtitle and run QA.
+
+Storage preflight: fresh bounded audit under the work run; 2.9 GiB available on the volume as measured. Prior master remains protected; no render or upload performed.
+
+## 3 November continuation — review candidate v02
+
+Palmier isolated timeline `79EB0711`, snapshot `9A924D94`. Three accents now rise in, hold, rise/fade out; `NOT HER.` moved to centerY 0.61, above subtitle line, with scene-specific composition. Original timeline remains. Native export job `42AE73E5-8494-4802-A25C-545532C004B0` completed. Original accepted AAC stream was copied directly from the current delivery, then copied again through the subtitle render: both extracted AAC SHA-256 `82883d8f31e514d02b712ebd9ca11033984fd688e675380acc52061a150ef208`.
+
+Provider/forced-alignment median word-onset difference 0.021 s; four exceed 0.12 s. WhisperX falsely aligned “I” in preceding pause; corrected to 27.70 s using provider, ASR and detected silence. Full independent ASR still reports discrepancies and subjective audio listening has not been performed; do not label timing fully verified. `review_word_map.json`, `forced_words.json`, `voice_en.json`, `forced_check.json` and `group_plan_v02.json` preserve evidence.
+
+Review-only output `Work/renewal_subtitles_20261103/subtitle_review_v02/shorts_subtitles_review.mp4`, SHA-256 `c1a4d96cc7b2ea596f728b3244e83d3b783adf149b0b94022df1505018412d6e`: H.264 yuv420p, 1080x1920, BT.709, 30 fps, 1344 frames, 44.8 s, AAC mono 44.1 kHz. Full decode passed. 50 groups / 121 words, no quotation marks, mechanically continuous first through last frame. Sampled 35 decoded frames and checked contact sheet including all three accents entry/hold/exit; not complete profile review. Final listening, full cue/scene coverage and independent review remain UNVERIFIED. Narration subtitles are burned into this review MP4 and not yet imported as editable clips into Palmier. No upload, deletion, or current-pointer promotion.

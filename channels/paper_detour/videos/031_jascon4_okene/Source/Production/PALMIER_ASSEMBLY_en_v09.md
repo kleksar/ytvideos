@@ -1,0 +1,15 @@
+# v09 Date, Place and Grain — 2026-11-02
+
+Project `8BE390BC`, timeline `29C64CD5`, `031 Rough Cut v09 Date Place Grain`; duplicated v08 `CD9EDD22`, which remains preserved. Source snapshot `2480B9A2`; v09 after snapshot `6838F2FB`. Canvas1080×1920,30fps,2139frames/71.3s. Actual readback: `../../Edit/PALMIER_STATE_en_v09.json`. Mutation/verification receipt: `../../Edit/DATE_PLACE_GRAIN_RECEIPT_v09.json`.
+
+- Added MAY 26, 2013 at[536,609):00:17:26–00:20:09. Initial frame transparent; 4-frame entrance. Date continues7frames across S04→S05 direct cut.
+- Added OFF NIGERIA at[633,687):00:21:03–00:22:27. User suggested00:20:05=f605, but that word boundary is “the tugboat”; geographical clause starts “off”21.12s. Shifted to that actual semantic trigger, announced to user. No unverified city or more specific location added.
+- Previous BEFORE THE DIVE shortened to[449,536), last fade533–535, preventing simultaneous visible date/rewind text.11accent clips total; previous other8cues retained.
+- Reused accepted shared grain master, four grid2×2 regions at25% normal blend, source offsets0/60/120/180frames. Each occupies0.5×0.5canvas, constant from0through2138, no fades, beneath Accents and above Main. Layer names Grain1–Grain4. Source already has3×alpha; no further multiplier.
+- Main and Voice clip content/properties/keyframes compared to v08 ignoring regenerated clip IDs: identical. No new audio, scene-motion changes or export.
+
+Full PNGs and every real scene/cue pair underwent caption preflight; cue sheet `PAPER_CUE_SHEET_en_v04.md`. Actual Palmier captures reviewed at540(date on S04),604(date on S05) and650(location on S05). They confirm correct spelling, cream/orange paper face above grain, consistent optical size, key objects clear. Grain visible across light/dark scene regions; no obvious central quadrant discontinuity in these sampled stills. Diagnostic grid is inspect_media annotation, not timeline content. Checks saved in `../../Edit/accent_preflight_v04/palmier_v09/`.
+
+`inspect_timeline` stalled/timed out on the first requested frame; fallback `capture_frame` plus `inspect_media` successfully returned actual target composites. No blind retry of clip creation/import. Additional coverage samples and limitations recorded in receipt. No independent reviewer, full1×audiovisual playback, internal-cycle seam playback or final ProRes/MP4 QA claimed. Those remain necessary before final delivery; this pass completes the requested editing additions.
+
+Additional actual composite340 reviewed (dark interior/existing ALIVE cue). First frame checked in actual Palmier UI after Cmd+S; image and grain displayed correctly. Background Tasks Idle, Edited marker cleared. Read-only parsing of saved project.json confirms v09 and all4grain/2newcaption IDs persisted. Capture at0failed because Palmier reported Macintosh HD out of space; last-frame capture not attempted. `df` subsequently showed2.8GiB available. No files deleted. Export and remaining capture/playback checks deferred pending sufficient working space.

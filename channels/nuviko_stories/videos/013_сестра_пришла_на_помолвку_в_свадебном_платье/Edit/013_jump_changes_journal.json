@@ -1,0 +1,454 @@
+{
+  "beforeBanner": [
+    {
+      "frames": [
+        0,
+        150
+      ],
+      "id": "73E02469",
+      "mediaRef": "51E07247",
+      "mediaType": "image",
+      "transform": {
+        "centerX": 0.425,
+        "centerY": 0.644,
+        "width": 0.85
+      },
+      "trimEndFrame": 51
+    },
+    {
+      "frames": [
+        3890,
+        4040
+      ],
+      "id": "3B3984C9",
+      "mediaRef": "51E07247",
+      "mediaType": "image",
+      "transform": {
+        "centerX": 0.425,
+        "centerY": 0.644,
+        "width": 0.85
+      },
+      "trimEndFrame": 51
+    }
+  ],
+  "crossing": [
+    {
+      "frames": [
+        4018,
+        4030
+      ],
+      "id": "1B75A2A7",
+      "mediaRef": "",
+      "mediaType": "text",
+      "textContent": "УСТРОИЛИ",
+      "textStyle": {
+        "border": {
+          "color": {
+            "a": 0.824
+          },
+          "enabled": true,
+          "width": 5
+        },
+        "color": {
+          "b": 0.31,
+          "g": 0.835
+        },
+        "fontName": "HelveticaNeue-CondensedBlack",
+        "fontSize": 52,
+        "isBold": true,
+        "tracking": 1.5
+      },
+      "transform": {
+        "x": 0.624,
+        "y": 0.4
+      }
+    },
+    {
+      "frames": [
+        4012,
+        4035
+      ],
+      "id": "07FC6D3B",
+      "mediaRef": "",
+      "mediaType": "text",
+      "textContent": "УСТРОИЛИ",
+      "textStyle": {
+        "border": {
+          "color": {
+            "a": 0.824
+          },
+          "enabled": true,
+          "width": 5
+        },
+        "fontName": "HelveticaNeue-CondensedBlack",
+        "fontSize": 52,
+        "isBold": true,
+        "tracking": 1.5
+      },
+      "transform": {
+        "x": 0.624,
+        "y": 0.4
+      }
+    },
+    {
+      "frames": [
+        4012,
+        4035
+      ],
+      "id": "3391A3B4",
+      "mediaRef": "",
+      "mediaType": "text",
+      "textContent": "ДАЖЕ",
+      "textStyle": {
+        "border": {
+          "color": {
+            "a": 0.824
+          },
+          "enabled": true,
+          "width": 5
+        },
+        "fontName": "HelveticaNeue-CondensedBlack",
+        "fontSize": 52,
+        "isBold": true,
+        "tracking": 1.5
+      },
+      "transform": {
+        "x": 0.293,
+        "y": 0.4
+      }
+    }
+  ],
+  "steps": [
+    {
+      "name": "set_clip_properties",
+      "args": {
+        "clipIds": [
+          "73E02469",
+          "3B3984C9"
+        ],
+        "fadeInFrames": 20,
+        "fadeInInterpolation": "smooth"
+      },
+      "state": "done",
+      "result": {
+        "changed": true,
+        "clips": [
+          {
+            "fadeInFrames": 20,
+            "fadeInInterpolation": "smooth",
+            "frames": [
+              0,
+              150
+            ],
+            "id": "73E02469",
+            "mediaRef": "51E07247",
+            "mediaType": "image",
+            "track": 5,
+            "transform": {
+              "centerX": 0.425,
+              "centerY": 0.644,
+              "width": 0.85
+            },
+            "trimEndFrame": 51
+          },
+          {
+            "fadeInFrames": 20,
+            "fadeInInterpolation": "smooth",
+            "frames": [
+              3890,
+              4040
+            ],
+            "id": "3B3984C9",
+            "mediaRef": "51E07247",
+            "mediaType": "image",
+            "track": 5,
+            "transform": {
+              "centerX": 0.425,
+              "centerY": 0.644,
+              "width": 0.85
+            },
+            "trimEndFrame": 51
+          }
+        ]
+      }
+    },
+    {
+      "name": "split_clips",
+      "args": {
+        "splits": [
+          {
+            "clipId": "1B75A2A7",
+            "atFrame": 4020
+          },
+          {
+            "clipId": "07FC6D3B",
+            "atFrame": 4020
+          },
+          {
+            "clipId": "3391A3B4",
+            "atFrame": 4020
+          }
+        ]
+      },
+      "state": "done",
+      "result": {
+        "clips": [
+          {
+            "frames": [
+              4018,
+              4020
+            ],
+            "id": "1B75A2A7",
+            "mediaRef": "",
+            "mediaType": "text",
+            "textContent": "УСТРОИЛИ",
+            "textStyle": {
+              "border": {
+                "color": {
+                  "a": 0.824
+                },
+                "enabled": true,
+                "width": 5
+              },
+              "color": {
+                "b": 0.31,
+                "g": 0.835
+              },
+              "fontName": "HelveticaNeue-CondensedBlack",
+              "fontSize": 52,
+              "isBold": true,
+              "tracking": 1.5
+            },
+            "track": 1,
+            "transform": {
+              "x": 0.624,
+              "y": 0.4
+            }
+          },
+          {
+            "frames": [
+              4020,
+              4030
+            ],
+            "id": "1B1D1396",
+            "mediaRef": "",
+            "mediaType": "text",
+            "textContent": "УСТРОИЛИ",
+            "textStyle": {
+              "border": {
+                "color": {
+                  "a": 0.824
+                },
+                "enabled": true,
+                "width": 5
+              },
+              "color": {
+                "b": 0.31,
+                "g": 0.835
+              },
+              "fontName": "HelveticaNeue-CondensedBlack",
+              "fontSize": 52,
+              "isBold": true,
+              "tracking": 1.5
+            },
+            "track": 1,
+            "transform": {
+              "x": 0.624,
+              "y": 0.4
+            }
+          },
+          {
+            "frames": [
+              4012,
+              4020
+            ],
+            "id": "07FC6D3B",
+            "mediaRef": "",
+            "mediaType": "text",
+            "textContent": "УСТРОИЛИ",
+            "textStyle": {
+              "border": {
+                "color": {
+                  "a": 0.824
+                },
+                "enabled": true,
+                "width": 5
+              },
+              "fontName": "HelveticaNeue-CondensedBlack",
+              "fontSize": 52,
+              "isBold": true,
+              "tracking": 1.5
+            },
+            "track": 2,
+            "transform": {
+              "x": 0.624,
+              "y": 0.4
+            }
+          },
+          {
+            "frames": [
+              4020,
+              4035
+            ],
+            "id": "3C3ABB43",
+            "mediaRef": "",
+            "mediaType": "text",
+            "textContent": "УСТРОИЛИ",
+            "textStyle": {
+              "border": {
+                "color": {
+                  "a": 0.824
+                },
+                "enabled": true,
+                "width": 5
+              },
+              "fontName": "HelveticaNeue-CondensedBlack",
+              "fontSize": 52,
+              "isBold": true,
+              "tracking": 1.5
+            },
+            "track": 2,
+            "transform": {
+              "x": 0.624,
+              "y": 0.4
+            }
+          },
+          {
+            "frames": [
+              4012,
+              4020
+            ],
+            "id": "3391A3B4",
+            "mediaRef": "",
+            "mediaType": "text",
+            "textContent": "ДАЖЕ",
+            "textStyle": {
+              "border": {
+                "color": {
+                  "a": 0.824
+                },
+                "enabled": true,
+                "width": 5
+              },
+              "fontName": "HelveticaNeue-CondensedBlack",
+              "fontSize": 52,
+              "isBold": true,
+              "tracking": 1.5
+            },
+            "track": 3,
+            "transform": {
+              "x": 0.293,
+              "y": 0.4
+            }
+          },
+          {
+            "frames": [
+              4020,
+              4035
+            ],
+            "id": "CAAD0717",
+            "mediaRef": "",
+            "mediaType": "text",
+            "textContent": "ДАЖЕ",
+            "textStyle": {
+              "border": {
+                "color": {
+                  "a": 0.824
+                },
+                "enabled": true,
+                "width": 5
+              },
+              "fontName": "HelveticaNeue-CondensedBlack",
+              "fontSize": 52,
+              "isBold": true,
+              "tracking": 1.5
+            },
+            "track": 3,
+            "transform": {
+              "x": 0.293,
+              "y": 0.4
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "remove_clips",
+      "args": {
+        "clipIds": [
+          "1B1D1396",
+          "012D672D",
+          "6C56FF4F",
+          "D9EF58CA",
+          "EEEEF204",
+          "BAA785A4",
+          "D9A3DA7E",
+          "95D4ABE0",
+          "1742B3BE",
+          "8738345F",
+          "02BABEC7",
+          "6F853AA1",
+          "960626DC",
+          "3C3ABB43",
+          "4FC5CC9A",
+          "D47044E3",
+          "57CA1A4F",
+          "A3516FC4",
+          "75BB651C",
+          "B850ABEC",
+          "38FFA512",
+          "D301B251",
+          "CAAD0717",
+          "EE905060",
+          "7DFA8E1A",
+          "A231EB22",
+          "52145079",
+          "44FF85F3",
+          "3550B41E",
+          "F3D9BC0D",
+          "7E09B491"
+        ]
+      },
+      "state": "done",
+      "result": {
+        "removedClipIds": [
+          "012D672D",
+          "02BABEC7",
+          "1742B3BE",
+          "1B1D1396",
+          "3550B41E",
+          "38FFA512",
+          "3C3ABB43",
+          "44FF85F3",
+          "4FC5CC9A",
+          "52145079",
+          "57CA1A4F",
+          "6C56FF4F",
+          "6F853AA1",
+          "75BB651C",
+          "7DFA8E1A",
+          "7E09B491",
+          "8738345F",
+          "95D4ABE0",
+          "960626DC",
+          "A231EB22",
+          "A3516FC4",
+          "B850ABEC",
+          "BAA785A4",
+          "CAAD0717",
+          "D301B251",
+          "D47044E3",
+          "D9A3DA7E",
+          "D9EF58CA",
+          "EE905060",
+          "EEEEF204",
+          "F3D9BC0D"
+        ]
+      }
+    }
+  ],
+  "result": {
+    "removed_texts": 31,
+    "split_texts": 3
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "status": "READY_TO_RENDER",
+  "episode": "Paper 043 — Pompeii choice — subtitle correction v05",
+  "language": "English",
+  "format": "Short 9:16",
+  "purpose": "user review MP4 before any YouTube upload",
+  "settings_profile": {
+    "path": "automation/ffmpeg_montage/profiles/paper.json; profiles/short.json; .agents/skills/ytv-video-export/references/delivery.md",
+    "sha256": {
+      "paper_profile": "ec9f2bd6c1581e72f69cfcb70ad98098d33844c489efacc0a5dc773cf3ef0754",
+      "short_profile": "9f4e85930ff7451feb72459b260e1cd91d37eb8cdbcd9a2efd242069143acaeb",
+      "delivery_profile": "32df90a2692a92b1446f0113526c1987f065b380469a57127d84ef6a3668967d"
+    }
+  },
+  "edit": {
+    "project_id": null,
+    "timeline_id": null,
+    "saved_revision_evidence": "Edit/plan_v04.json is the versioned saved FFmpeg timeline; no native-editor project/revision ID applies.",
+    "timeline_read_path": "Edit/plan_v05.json",
+    "timeline_read_sha256": "13133a084e79af0168a44a03e1e8b2d0432bc1c3595c7d46dca9e73854c0d077",
+    "dependencies": [
+      {
+        "path": "Source/Voice/en_v05_lawrence/voice_en.mp3",
+        "sha256": "03a6cbeb58d7bd0d17a32ff4823096696857e55d6dde06a28ec1ad80bddc1dba"
+      },
+      {
+        "path": "Source/Images/paper_v01/S01_v01.png",
+        "sha256": "e7cc52ffed6c6e0b1d3fd5caa56a84b13dbf7cf3b8e079dc47d80896989b72d9"
+      },
+      {
+        "path": "Source/Images/paper_v01/S02_v01.png",
+        "sha256": "d81bec845a58e581177fc6f4cb91789c3dc994bc61c9cc230dd6ec8ea29ededc"
+      },
+      {
+        "path": "Source/Images/paper_v01/S03_pumice_v01.png",
+        "sha256": "8b647816e4e7f2105f98de968c28d68bf8b83515e9ea302d04a7c74b9731ceca"
+      },
+      {
+        "path": "Source/Images/paper_v01/S03_v01.png",
+        "sha256": "b524ee1368a4f5293a5e35217bb82d16ffcabd26b2a0388752877a8ca78bdc7a"
+      },
+      {
+        "path": "Source/Images/paper_v01/S04_v01.png",
+        "sha256": "70a0b728f6e41274937e9e368b2f5fff83a42f938a76b1154dd523ac2dfe3e96"
+      },
+      {
+        "path": "Source/Images/paper_v01/S05_v01.png",
+        "sha256": "98779a5278907b545e801341f3e9591a9a2c9e36ef877e2eaf346d697d7326c7"
+      },
+      {
+        "path": "Source/Images/paper_v01/S06_v01.png",
+        "sha256": "874ea46f1693d10876b931c930515f265f111c92f2c55afe4d598302375e8a39"
+      },
+      {
+        "path": "Source/Images/paper_v01/S07_v01.png",
+        "sha256": "6476b9136e4b36492b4a1f0c7ec2ac73b06140b2acd2896536499f2d96cf43a4"
+      },
+      {
+        "path": "Edit/word_times_v04.json",
+        "sha256": "e81d8c6c1672b1cb4955afeb48637ea2f084549c7e01d930f349fa223471a9de"
+      },
+      {
+        "path": "Edit/subtitle_groups_v05.json",
+        "sha256": "9c82d3f25b6f0a2285005a1a061898a3639719f3d00351b86a8184e343beaed6"
+      },
+      {
+        "path": ".agents/skills/ytv-paper-subtitles/scripts/semantic_grouping.py",
+        "sha256": "7cd44c8203091fb884572b88f4f252cd0c2572271562e7eaa70c6403ef996f2f"
+      },
+      {
+        "path": "automation/ffmpeg_montage/montage.py",
+        "sha256": "58268dde92d0c9c111dc7e837972e9a50959d12d54c3a68eda7e7b1f39cb5989"
+      },
+      {
+        "path": "automation/ffmpeg_montage/profiles/short.json",
+        "sha256": "ab84ac0aed239ea59e26a4d0e4878decd47f1e5f42db9a3563ca06bbea0adb6b"
+      },
+      {
+        "path": "automation/ffmpeg_montage/profiles/paper.json",
+        "sha256": "e2b89e813ec25985601ef65997ea8b94c19e96aa6d158333edf962b42e02ffc0"
+      },
+      {
+        "path": "Source/Voice/en_v05_lawrence/voice_en.mp3",
+        "sha256": "03a6cbeb58d7bd0d17a32ff4823096696857e55d6dde06a28ec1ad80bddc1dba"
+      },
+      {
+        "path": "Source/Voice/en_v05_lawrence/voice_en.alignment.json",
+        "sha256": "41f8e4b9a2758c1490398987256ec9d454826dbe0943068ff359017e1d8088d7"
+      },
+      {
+        "path": "Source/Voice/en_v05_lawrence/whisperx_word_alignment_v01.json",
+        "sha256": "2d6b621c6022a94212e069e5ad6e7b9aa4681513409cb92b3bbc620ace8f1840"
+      },
+      {
+        "path": "Source/Voice/en_v05_lawrence/whisperx_word_alignment_raw_v01.json",
+        "sha256": "b2b12e5b4042b7529c4ecb003c4d0379e37cf1f684c30b5ec1e43ddd8bf3ddfd"
+      },
+      {
+        "path": "Work/paper043-prod-v04/scratch/alignment-reconcile-v01/whisperx_word_times_81_v01.json",
+        "sha256": "4c0db3c60f85c1e8ba5dfdbac71b9e6d30d8507dee45cff6172c5873aaed1e67"
+      },
+      {
+        "path": "Work/paper043-prod-v04/scratch/alignment-reconcile-v01/reconciled_81_v01.json",
+        "sha256": "7e28670dcc6ca3a8e4080007fce16adb466450fb6b0de20074648af88d7fcff9"
+      }
+    ]
+  },
+  "timeline": {
+    "width": 1440,
+    "height": 2560,
+    "aspect_ratio": "9:16",
+    "sample_aspect_ratio": "1:1",
+    "fps": "30/1",
+    "frame_count": 1083,
+    "duration_seconds": 36.1,
+    "output_color_space": "SDR Rec.709"
+  },
+  "required_delivery": {
+    "container": "MP4",
+    "video": {
+      "codec_name": "h264",
+      "pix_fmt": "yuv420p",
+      "scan": "progressive",
+      "cadence": "constant 30 fps",
+      "color_primaries": "bt709",
+      "color_transfer": "bt709",
+      "color_space": "bt709",
+      "color_range": "limited/tv"
+    },
+    "audio_contract": {
+      "owner_handoff": "ytv-audio-delivery Paper delivery checks: mono speech in MP4 uses AAC-LC 192 kbit/s; preserve accepted source rate and channel layout.",
+      "accepted_complete_mix": "Voice-only accepted TTS source for the review export; no music or SFX.",
+      "source_rate_channels": "MP3 mono at 44,100 Hz, measured duration 36.080 s; full source from 0.000 s to output end 36.100 s.",
+      "codec_name": "aac",
+      "profile": "LC",
+      "sample_rate": 44100,
+      "channels": 1,
+      "target_bit_rate": "192 kbit/s"
+    }
+  },
+  "encoding": {
+    "engine": "FFmpeg montage.py",
+    "version_evidence": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers",
+    "requested_arguments": {
+      "encoder": "h264_videotoolbox",
+      "bitrate": "20M",
+      "pixel_format": "yuv420p",
+      "colour_tags": [
+        "bt709",
+        "bt709",
+        "bt709"
+      ],
+      "audio_encoder": "aac",
+      "audio_bitrate": "192k",
+      "output_duration": "36.100000 s",
+      "movflags": [
+        "+faststart"
+      ]
+    },
+    "quality_preferences": [
+      "20 Mbps target for 2K H.264; source images are 941×1672 and therefore upscale to 1440×2560, which adds no detail.",
+      "Accepted handmade diorama renders; no sharpening or effects."
+    ],
+    "capability_evidence": {
+      "ffmpeg_version": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers",
+      "videotoolbox_encoder_available": true,
+      "encoder_help_excerpt": "Encoder h264_videotoolbox [VideoToolbox H.264 Encoder]:\n    General capabilities: dr1 delay \n    Threading capabilities: none\n    Supported hardware devices: videotoolbox \n    Supported pixel formats: videotoolbox_vld nv12 yuv420p\nh264_videotoolbox AVOptions:\n  -profile           <int>        E..V....... Profile (from -99 to INT_MAX) (default -99)\n     baseline        66           E..V....... Baseline Profile\n     constrained_baseline 578          E..V....... Constrained Baseline Profile\n     main            77           E..V....... Main Profile\n     high            100          E..V....... High Profile\n     constrained_high 612          E..V....... Constrained High Profile\n     extended        88           E..V....... Extend Profile\n  -level             <int>        E..V....... Level (from 0 to 52) (default 0)\n     1.3             13           E..V....... Level 1.3, only available with Baseline Profile\n     3.0             30           E..V....... Level 3.0\n     3.1             31           E..V....... Level 3.1\n     3.2             32           E..V....... Level 3.2\n     4.0             40           E..V....... Level 4.0\n     4.1             41           E..V....... Level 4.1\n     4.2             42           E..V....... Level 4.2\n     5.0             50           E..V....... Level 5.0\n     5.1             51           E..V....... Level 5.1\n     5.2             52           E..V....... Level 5.2\n  -coder             <int>        E..V....... Entropy coding (from 0 to 2) (default 0)\n     cavlc           1            E..V....... CAVLC entropy coding\n     vlc             1   "
+    },
+    "engine_managed_fields": [
+      "Actual encoded bitrate, H.264 profile/level, GOP/B-frame settings and measured CFR/color metadata are encoder/output facts; not asserted until a separately requested QA."
+    ]
+  },
+  "preflight": {
+    "author": "Codex",
+    "time": "2026-11-03",
+    "authorization_references": [
+      "User request in this conversation: produce ready MP4 for new YouTube channel.",
+      "Project autonomous production scope authorizes one review MP4. Upload awaits user acceptance of exact MP4 and packaging."
+    ],
+    "fresh_settings_evidence": "Edit/Export/PREFLIGHT_v03.md",
+    "writer_and_export_state": "Owned run paper043-prod-v04 active; output path absent; plan-only/caption preflight passed; lifecycle audit coverage BOUNDED_NOT_EXHAUSTIVE with 0 errors.",
+    "output_path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/043_pompeii_choice/Work/paper043-prod-v04/previews/043_pompeii_choice_EN_review_v03.mp4",
+    "overwrite": false,
+    "media_lifecycle_receipt": "Edit/MediaLifecycle/audit-pre-render-v03/audit.json",
+    "unresolved_required_fields": []
+  },
+  "render_receipt": null,
+  "qa_receipt": null,
+  "version": 3
+}

@@ -1,0 +1,106 @@
+{
+  "episode_id": "TWL_E001",
+  "time_unit": "model_seconds",
+  "item_totals": {
+    "A": 25,
+    "B": 14
+  },
+  "scan_seconds_per_item": 2,
+  "rounds": [
+    {
+      "payment_seconds": 4,
+      "completion_seconds": {
+        "A": {
+          "A1": 32,
+          "A2": 58
+        },
+        "B": {
+          "B1": 8,
+          "B2": 18,
+          "B3": 30,
+          "B4": 38,
+          "B5": 48
+        }
+      },
+      "clear_seconds": {
+        "A": 58,
+        "B": 48
+      },
+      "winner": "B",
+      "margin_seconds": 10
+    },
+    {
+      "payment_seconds": 12,
+      "completion_seconds": {
+        "A": {
+          "A1": 40,
+          "A2": 74
+        },
+        "B": {
+          "B1": 16,
+          "B2": 34,
+          "B3": 54,
+          "B4": 70,
+          "B5": 88
+        }
+      },
+      "clear_seconds": {
+        "A": 74,
+        "B": 88
+      },
+      "winner": "A",
+      "margin_seconds": 14
+    }
+  ],
+  "states": {
+    "K03": {
+      "round": 1,
+      "model_seconds": 18,
+      "remaining": {
+        "A": [
+          "A1",
+          "A2"
+        ],
+        "B": [
+          "B3",
+          "B4",
+          "B5"
+        ]
+      }
+    },
+    "K04": {
+      "round": 1,
+      "model_seconds": 48,
+      "remaining": {
+        "A": [
+          "A2"
+        ],
+        "B": []
+      }
+    },
+    "K05": {
+      "round": 2,
+      "model_seconds": 40,
+      "remaining": {
+        "A": [
+          "A2"
+        ],
+        "B": [
+          "B3",
+          "B4",
+          "B5"
+        ]
+      }
+    },
+    "K06": {
+      "round": 2,
+      "model_seconds": 74,
+      "remaining": {
+        "A": [],
+        "B": [
+          "B5"
+        ]
+      }
+    }
+  }
+}

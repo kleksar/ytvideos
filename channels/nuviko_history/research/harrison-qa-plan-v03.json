@@ -1,0 +1,88 @@
+{
+  "frame_count": 1420,
+  "fps": "30/1",
+  "required_review_checks": [
+    "stream_metadata",
+    "full_decode",
+    "frame_sampling",
+    "motion_framing",
+    "cue_timing",
+    "audio_signal"
+  ],
+  "freshness": {
+    "status": "UNVERIFIED",
+    "evidence": "Compare v03 MP4 delivery receipt with harrison-edit-v03 and two replacement PNG hashes."
+  },
+  "expected": {
+    "video": {
+      "width": 1440,
+      "height": 2560,
+      "codec_name": "h264",
+      "pix_fmt": "yuv420p",
+      "color_space": "bt709"
+    },
+    "audio": {
+      "required": true,
+      "codec_name": "aac",
+      "channels": 1,
+      "sample_rate": 48000
+    }
+  },
+  "scenes": [
+    {
+      "id": "S01",
+      "start": 0,
+      "end": 145
+    },
+    {
+      "id": "S02",
+      "start": 145,
+      "end": 300
+    },
+    {
+      "id": "S03",
+      "start": 300,
+      "end": 450
+    },
+    {
+      "id": "S04",
+      "start": 450,
+      "end": 610
+    },
+    {
+      "id": "S05",
+      "start": 610,
+      "end": 760
+    },
+    {
+      "id": "S06",
+      "start": 760,
+      "end": 920
+    },
+    {
+      "id": "S07",
+      "start": 920,
+      "end": 1080
+    },
+    {
+      "id": "S08",
+      "start": 1080,
+      "end": 1250
+    },
+    {
+      "id": "S09",
+      "start": 1250,
+      "end": 1420
+    }
+  ],
+  "extra_frames": [
+    919,
+    920,
+    999,
+    1079,
+    1080,
+    1164,
+    1249,
+    1250
+  ]
+}

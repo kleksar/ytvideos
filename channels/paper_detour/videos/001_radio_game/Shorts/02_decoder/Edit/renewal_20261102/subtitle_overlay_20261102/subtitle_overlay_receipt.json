@@ -1,0 +1,42 @@
+{
+  "status": "REVIEW_DRAFT",
+  "asset": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Assets/Generated/renewal_20261102/short02_subtitles_automatic_review_20261102.mov",
+  "sha256": "f223c71cef0a7638526c73860c72bf0ea6be959519f5e5013cdd227abfa75e4f",
+  "stream": {
+    "codec": "ProRes 4444",
+    "pixel_format": "yuva444p12le",
+    "width": 1080,
+    "height": 1920,
+    "fps": "30/1",
+    "frames": 1098,
+    "duration_seconds": 36.6,
+    "audio": "none"
+  },
+  "source_frames": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Shorts/02_decoder/Edit/renewal_20261102/subtitle_preview_20261102/frames/%06d.png",
+  "source_frame_count": 1098,
+  "source_frame_size": [
+    850,
+    190
+  ],
+  "composite_position_px": [
+    115,
+    1314
+  ],
+  "transparency_check": {
+    "decoded_frame": "31.6s",
+    "alpha_bbox": [
+      323,
+      1423,
+      759,
+      1504
+    ],
+    "canvas_corner_alpha": 0
+  },
+  "render_command": "ffmpeg -framerate 30 -start_number 0 -i frames/%06d.png -vf format=rgba,pad=1080:1920:115:1314:color=black@0,format=yuva444p10le -c:v prores_ks -profile:v 4 -pix_fmt yuva444p10le -movflags +faststart",
+  "cue_status": "automatic alignment; audible synchronization unverified",
+  "narration": "unchanged; no audio in overlay asset",
+  "known_limitations": [
+    "caption timing was machine-conformed and not listening-verified",
+    "do not export/publish as final until subtitle synchronization is verified"
+  ]
+}

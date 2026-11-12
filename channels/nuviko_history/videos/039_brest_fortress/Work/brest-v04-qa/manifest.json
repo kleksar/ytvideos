@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "run": "brest-v04-qa",
+  "owner": "codex-coordinator",
+  "status": "complete",
+  "created_utc": "2026-11-05T13:39:10.969644+00:00",
+  "entries": [
+    {
+      "path": "Edit/QA/brest-v04-qa/REVIEW.md",
+      "role": "evidence",
+      "identity": {
+        "device": 16777233,
+        "inode": 128251612,
+        "bytes": 4410,
+        "mtime_ns": 1793887398425477549,
+        "ctime_ns": 1793887398425477549,
+        "nlink": 1,
+        "allocated_bytes": 8192
+      },
+      "sha256": "3b0ac631b2ec01d88e7a6356cdb049aa8a8a37ec24ab38dd77d8c3fc52fbb128",
+      "rebuild_from": [],
+      "evidence": [],
+      "disposition": "pending"
+    },
+    {
+      "path": "Edit/QA/brest-v04-qa/technical.json",
+      "role": "evidence",
+      "identity": {
+        "device": 16777233,
+        "inode": 128249936,
+        "bytes": 15810,
+        "mtime_ns": 1793887339903783951,
+        "ctime_ns": 1793887339903783951,
+        "nlink": 1,
+        "allocated_bytes": 16384
+      },
+      "sha256": "00c286e1193e39c752e7d9f3f7673fea945c9f21822ae395602c6d5769b06ed3",
+      "rebuild_from": [],
+      "evidence": [],
+      "disposition": "pending"
+    }
+  ],
+  "writer_finished_utc": "2026-11-05T14:03:40.409364+00:00"
+}

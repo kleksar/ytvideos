@@ -1,0 +1,54 @@
+- generic: Сведения о видео
+- banner:
+  - button "Свернуть меню":
+  - link "Панель управления в новой Творческой студии":
+    - /url: /channel/UCMVfdfaNxV3ZkI3_J3Eejzw
+    - img "Панель управления в новой Творческой студии"
+  - button "Пропустить навигацию":
+    - generic: Пропустить навигацию
+  - textbox "Поиск на канале"
+  - button "Справка":
+  - button "Уведомления":
+  - button "Спросить у Студии":
+    - generic: Спросить у Студии
+  - button "Создать":
+    - generic: Создать
+  - generic "Аккаунт":
+    - button "Account"
+- navigation:
+  - link "Контент на канале":
+    - /url: /channel/UCMVfdfaNxV3ZkI3_J3Eejzw/content
+    - generic: Контент на канале
+  - 'img "Значок видео \"An MSX Game in a Radio Recording? #RetroComputing\""'
+  - generic: 0:37
+  - generic: Ваше видео
+  - generic: "An MSX Game in a Radio Recording? #RetroComputing"
+  - menu:
+    - menuitem "Сведения":
+      - generic: Сведения
+    - menuitem "Аналитика":
+      - generic: Аналитика
+    - menuitem "Редактор":
+      - generic: Редактор
+    - menuitem "Комментарии":
+      - generic: Комментарии
+    - menuitem "Языки":
+      - generic: Языки
+    - menuitem "Заявки":
+      - generic: Заявки
+    - menuitem "Клипы и Shorts":
+      - generic: Клипы и Shorts
+  - list:
+    - button "Настройки":
+      - generic: Настройки
+    - button "Отправить отзыв":
+      - generic: Отправить отзыв
+- main:
+  - heading "Сведения о видео" [level=1]
+
+DESCRIPTION VALUE
+A faint, sped-up recording identified online as an episode of Brazil’s Clip Informática might hold a computer game. Developer Weber Kai described how he decoded the sound and reported a match with the MSX game Avenger. We haven’t independently repeated his procedure or verified a game launch.
+
+Watch the full film: https://www.youtube.com/watch?v=0RaC4t7yn5o
+
+#RetroComputing #ComputerHistory #MSX #Shorts #History #RetroGaming #VideoGameHistory #MSXAvenger #AudioDecoding #RadioRecording

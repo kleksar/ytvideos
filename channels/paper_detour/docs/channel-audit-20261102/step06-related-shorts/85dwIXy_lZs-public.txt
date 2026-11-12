@@ -1,0 +1,180 @@
+- banner:
+  - button "Гид" [pressed]:
+  - link "Главная страница YouTube":
+    - /url: /
+  - generic: RS
+  - button "Пропустить":
+    - generic: Пропустить
+  - search:
+    - combobox "Поиск" [expanded]
+    - button
+    - button "Search":
+  - button "Голосовой поиск":
+  - tooltip "tooltip"
+  - button "Создать":
+    - generic: Создать
+  - button "Меню аккаунта":
+    - img "Фото профиля"
+- navigation:
+  - link "Главная":
+    - /url: /
+    - link "Главная":
+      - generic: Главная
+  - link "Shorts":
+    - link "Shorts":
+      - generic: Shorts
+  - link "Подписки":
+    - /url: /feed/subscriptions
+    - link "Подписки":
+      - generic: Подписки
+  - link "На канале \"Paper Detour\" появился новый контент.":
+    - /url: /@rarovista
+    - link "На канале \"Paper Detour\" появился новый контент.":
+      - generic: Paper Detour
+  - link "На канале \"Главред Борисенко\" появился новый контент.":
+    - /url: /@GlavredBorisenko
+    - link "На канале \"Главред Борисенко\" появился новый контент.":
+      - generic: Главред Борисенко
+  - link "Серега Пират – тема":
+    - /url: /channel/UCTLkOu1J8aNJhEiWFWbMnVQ
+    - link "Серега Пират – тема":
+      - generic: Серега Пират – тема
+  - link "ОМ. – тема":
+    - /url: /channel/UC8M203mGflSSYCQiPevtJ_A
+    - link "ОМ. – тема":
+      - generic: ОМ. – тема
+  - link "На канале \"Нувико\" появился новый контент.":
+    - /url: /@%D0%9D%D1%83%D0%B2%D0%B8%D0%BA%D0%BE
+    - link "На канале \"Нувико\" появился новый контент.":
+      - generic: Нувико
+  - link "На канале \"АНГЛИЙСКИЙ ЯЗЫК ПО ПЛЕЙЛИСТАМ\" появился новый контент.":
+    - /url: /@englishplaylists
+    - link "На канале \"АНГЛИЙСКИЙ ЯЗЫК ПО ПЛЕЙЛИСТАМ\" появился новый контент.":
+      - generic: АНГЛИЙСКИЙ ЯЗЫК ПО ПЛЕЙЛИСТАМ
+  - link "На канале \"апвоут\" появился новый контент.":
+    - /url: /@upvotefamily
+    - link "На канале \"апвоут\" появился новый контент.":
+      - generic: апвоут
+  - button "Развернуть":
+    - link "Развернуть":
+      - link "Развернуть":
+        - generic: Развернуть
+  - link "Вы":
+    - /url: /feed/you
+    - link "Вы":
+      - generic: Вы
+  - link "Канал пользователя \"Paper Detour\"":
+    - /url: /@rarovista
+    - link "Канал пользователя \"Paper Detour\"":
+      - generic: Канал пользователя "Paper Detour"
+  - link "История":
+    - /url: /feed/history
+    - link "История":
+      - generic: История
+  - link "Плейлисты":
+    - /url: /feed/playlists
+    - link "Плейлисты":
+      - generic: Плейлисты
+  - link "Понравившиеся":
+    - /url: /playlist?list=LL
+    - link "Понравившиеся":
+      - generic: Понравившиеся
+  - link "Видео на канале \"Paper Detour\"":
+    - /url: https://studio.youtube.com/channel/UCMVfdfaNxV3ZkI3_J3Eejzw/content
+    - link "Видео на канале \"Paper Detour\"":
+      - generic: Видео на канале "Paper Detour"
+  - link "Скачанные":
+    - /url: /feed/downloads
+    - link "Скачанные":
+      - generic: Скачанные
+  - heading "Навигатор" [level=3]:
+    - generic: Навигатор
+  - link "Музыка":
+    - /url: /channel/UC-9-kyTW8ZkZNDHQJ6FgpwQ
+    - link "Музыка":
+      - generic: Музыка
+  - link "Видеоигры":
+    - /url: /gaming
+    - link "Видеоигры":
+      - generic: Видеоигры
+  - link "Игротека":
+    - /url: /playables
+    - link "Игротека":
+      - generic: Игротека
+  - button "Развернуть":
+    - link "Развернуть":
+      - link "Развернуть":
+        - generic: Развернуть
+  - heading "Другие возможности" [level=3]:
+    - generic: Другие возможности
+  - link "YouTube Music":
+    - /url: https://music.youtube.com/
+    - link "YouTube Music":
+      - generic: YouTube Music
+  - link "YouTube Детям":
+    - /url: https://www.youtubekids.com/?source=youtube_web
+    - link "YouTube Детям":
+      - generic: YouTube Детям
+  - link "YouTube Labs":
+    - /url: /labs
+    - link "YouTube Labs":
+      - generic: YouTube Labs
+  - link "Жалобы":
+    - /url: /reporthistory
+    - link "Жалобы":
+      - generic: Жалобы
+  - link "О сервисе":
+    - /url: https://www.youtube.com/about/
+  - link "Прессе":
+    - /url: https://www.youtube.com/about/press/
+  - link "Авторские права":
+    - /url: https://www.youtube.com/about/copyright/
+  - link "Связаться с нами":
+    - /url: /t/contact_us/
+  - link "Авторам":
+    - /url: https://www.youtube.com/creators/
+  - link "Рекламодателям":
+    - /url: https://www.youtube.com/ads/
+  - link "Разработчикам":
+    - /url: https://developers.google.com/youtube
+  - link "Условия использования":
+    - /url: /t/terms
+  - link "Конфиденциальность":
+    - /url: /t/privacy
+  - link "Правила и безопасность":
+    - /url: https://www.youtube.com/about/policies/
+  - link "Как работает YouTube":
+    - /url: https://www.youtube.com/howyoutubeworks?utm_campaign=ytgen&utm_source=ythp&utm_medium=LeftNav&utm_content=txt&u=https%3A%2F%2Fwww.youtube.com%2Fhowyoutubeworks%3Futm_source%3Dythp%26utm_medium%3DLeftNav%26utm_campaign%3Dytgen
+  - link "Тестирование новых функций":
+    - /url: /new
+  - generic: © 2026 Google LLC
+- main:
+  - generic "Проигрыватель YouTube" [active]:
+    - button "Смотреть":
+  - button "Перейти на канал \"@rarovista\""
+  - link "@rarovista":
+    - /url: /@rarovista/shorts
+  - 'link "When Radio Sent Software as Sound #RetroComputing #Shorts"':
+    - text: When Radio Sent Software as Sound
+    - link "#RetroComputing":
+      - /url: /hashtag/retrocomputing/shorts
+    - link "#Shorts":
+      - /url: /hashtag/shorts/shorts
+  - 'button "ИИ: контент создан с помощью ИИ"':
+    - generic: ИИ
+  - link "A Radio Signal with an Unexpected Listener":
+    - /url: /watch?v=0RaC4t7yn5o
+    - generic: A Radio Signal with an Unexpected Listener
+  - button "поставить отметку \"Нравится\" (это видео понравилось 6 пользователям)" [disabled]:
+  - generic: "6"
+  - button "Посмотреть комментарий":
+  - generic: "1"
+  - button "Поделиться":
+  - generic: Поделиться
+  - button "Ремикс":
+  - generic: Ремикс
+  - button "Посмотреть другие видео с этим треком"
+  - button "Следующее видео":
+  - tooltip "tooltip"
+- text: •
+- generic: Менеджер

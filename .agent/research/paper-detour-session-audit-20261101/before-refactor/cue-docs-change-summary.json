@@ -1,0 +1,73 @@
+{
+  "scope": "mechanical Paper Detour cue documentation consolidation",
+  "links_checked": 47,
+  "link_issues": [],
+  "quick_validate": {
+    "storyboard": "PASS with python3/PyYAML6.0.3",
+    "palmier_edit": "PASS with python3/PyYAML6.0.3",
+    "python3.11": "validator unavailable: no yaml; no dependencies installed"
+  },
+  "sizes": {
+    "new_channel/AGENTS.md": {
+      "before_bytes": 13498,
+      "after_bytes": 11609,
+      "before_words": 963,
+      "after_words": 830,
+      "sha256": "06ddea848e9f58de707008bc4509b2b99a60332bc1c07db268a8b023690ee158"
+    },
+    ".agents/skills/ytv-paper-storyboard/SKILL.md": {
+      "before_bytes": 13755,
+      "after_bytes": 5381,
+      "before_words": 1030,
+      "after_words": 377,
+      "sha256": "b0f45e3470cb75103fa8a33fe6f8fd3232a293da02c40e5f8c1dd31323715327"
+    },
+    ".agents/skills/ytv-palmier-edit/SKILL.md": {
+      "before_bytes": 16733,
+      "after_bytes": 10112,
+      "before_words": 1314,
+      "after_words": 777,
+      "sha256": "5d4542de431d77640901bf722b1e5dc13bbf3bb2ca3e6ae1e4ccadeb2612a61e"
+    },
+    "new_channel/brand/TYPOGRAPHY_STANDARD.md": {
+      "before_bytes": 8714,
+      "after_bytes": 8811,
+      "before_words": 609,
+      "after_words": 634,
+      "sha256": "22e526443178180af8a09ec9b18b3f395e84df74e1f8669d31eb3bf0acf14f62"
+    },
+    "new_channel/docs/PAPER_EDITORIAL_CUE_STANDARD.md": {
+      "before_bytes": 7495,
+      "after_bytes": 3275,
+      "before_words": 1182,
+      "after_words": 451,
+      "sha256": "0cc79aff7f685fec1a8fe228ca4eeedbf83708f9cbef06ed5127c23bb3e7e5ff"
+    },
+    ".agents/skills/ytv-paper-storyboard/references/cue-sheet.md": {
+      "before_bytes": 0,
+      "after_bytes": 9632,
+      "before_words": 0,
+      "after_words": 705,
+      "sha256": "8324190822ab88f381f1d7d3de75c36896758b91282607b4f8604c058c5bcb21"
+    }
+  },
+  "totals": {
+    "before_bytes": 60195,
+    "after_bytes": 48820,
+    "before_words": 5098,
+    "after_words": 3774
+  },
+  "preserved_checks": {
+    "spoken_words_alignment_and_estimates": "cue-sheet sections2/4/5",
+    "all_actual_scene_png_composites_before_import": "cue-sheet section3",
+    "all_full_alpha_bounds_and_motion_paths": "cue-sheet section3 + Typography + Palmier",
+    "primary_and_one_alternate_uniform_visible_size": "Typography + cue-sheet section3",
+    "per_cue_actual_mp4_1x_with_sound_and_silent_clarity": "cue-sheet section5",
+    "independent_review_not_claimed": "cue-sheet section5",
+    "palmier_top_left_and_keyframe_interpolation": "Palmier accent motion",
+    "helper_specialized_mask_track_names_and_count_check": "Typography cream measurement + Palmier helper",
+    "008_local_measurements_and_receipts": "existing episode v06 note unchanged + before-refactor snapshots"
+  },
+  "media_qa_performed": false,
+  "external_mutations": false
+}

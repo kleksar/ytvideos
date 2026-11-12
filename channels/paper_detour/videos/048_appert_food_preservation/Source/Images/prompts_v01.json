@@ -1,0 +1,543 @@
+{
+  "schema": "paper-scene-prompts-v01",
+  "channel": "Paper Detour",
+  "episode": "048",
+  "style_reference": "/Users/diplomat/ytvideos/channels/paper_detour/brand/References/meaningful_staging_20261105_v01/P04_last_radio.png",
+  "source_file": "Storyboard/storyboard_v01.md",
+  "global_prompt": "Maximum available image quality and fine detail. Target landscape 4K UHD 3840×2160, 16:9. Produce one complete opaque full-bleed handmade paper/card diorama; visible fibers, layered cut edges, folds and thickness, physically coherent light and contact shadows, expressive focal hierarchy, no flat vector style. The provided reference is material/construction guidance only; do not copy its ship, radio, storm, colors, layout, figure, text or subject. Show the assigned scene as a physically believable miniature. Historical details must stay within the accepted story. Keep all assigned subject details legible at a small phone-size view. No photographic human, no modern props, no borders or blank margins. Scene-specific direction: ",
+  "scenes": {
+    "S01": {
+      "prompt": "Maximum available image quality; target 4K UHD landscape 3840×2160. One opaque full-bleed paper/card diorama, extreme low macro of a transparent cylindrical food jar with visible cork and wire, visible food, quiet sheltered roadstead and tiny anchored 19th-century sailing ships, no fort or named vessel; material/lighting guidance only from P04 reference; no copying its subject. Keep the jar dominant. No writing in the first pass.",
+      "edit_prompt": "Preserve composition, jar, light, ships and diorama. Add only one small, legible raised paper map label on the open water area to the right of the jar reading exactly “BREST · FRANCE”. No other text or changes.",
+      "transparent_background": false,
+      "output_target": "native output measured 1672x941",
+      "file": "Source/Images/S01_v02.png",
+      "source_generated": "/Users/diplomat/.codex/generated_images/01a1a8b3-3b93-7652-b713-d807d52719ea/exec-b9d97a27-f667-4fc5-9098-907b44da1a1d.png",
+      "edit_generated": "/Users/diplomat/.codex/generated_images/01a1a8b3-3b93-7652-b713-d807d52719ea/exec-87e4a3b3-3ffa-4f1e-85db-e766280f813a.png",
+      "status": "ACCEPTED for scene 01 visual composition; native dimensions below 4K."
+    },
+    "S02": {
+      "prompt": "Maximum available image quality and fine detail. Target landscape 4K UHD 3840×2160, 16:9. Produce one complete opaque full-bleed handmade paper/card diorama; visible fibers, layered cut edges, folds and thickness, physically coherent light and contact shadows, expressive focal hierarchy, no flat vector style. The provided reference is material/construction guidance only; do not copy its ship, radio, storm, colors, layout, figure, text or subject. Show the assigned scene as a physically believable miniature. Historical details must stay within the accepted story. Keep all assigned subject details legible at a small phone-size view. No photographic human, no modern props, no borders or blank margins. Scene-specific direction: High oblique miniature harbor relief: the same closed jar at the near edge, a calm roadstead with tiny anchored vessels behind. Three large tactile month tabs progress along the paper waterline. Render only the exact legible words “THREE MONTHS”. No mapped route, named ship, or extra coastline detail.",
+      "transparent_background": false,
+      "output_target": "3840x2160",
+      "file": "Source/Images/S02_v03.png",
+      "edit_prompt": "Edit this exact Paper Detour scene. Preserve the harbor-at-sunset composition, foreground sealed food jar, ships and existing paper mountains, water, rocks, foliage, lighting and handmade paper/card material. Remove the lower-left THREE MONTHS plaque and all empty colored month tabs from the bottom edge. Place one small, raised, hand-cut paper time marker reading exactly THREE MONTHS in the open upper-right sky, below the top border and away from ships, hills and sun. Keep lettering fully legible. No other text or objects. Same 16:9 camera and complete opaque edge-to-edge diorama. Maximum available quality/resolution; target 3840×2160 if supported. No subtitles, border or baked frame.",
+      "edit_generated": "/Users/diplomat/.codex/generated_images/01a1a8b3-3b93-7652-b713-d807d52719ea/exec-f7e21207-8399-4253-920b-f5dd4cdf6be5.png",
+      "status": "ACCEPTED v03; full-source and reduced inspection. Bottom time plaque removed from subtitle/border collision; exact THREE MONTHS marker remains legible in upper-right sky."
+    },
+    "S03": {
+      "prompt": "Maximum available image quality and fine detail. Target landscape 4K UHD 3840×2160, 16:9. Produce one complete opaque full-bleed handmade paper/card diorama; visible fibers, layered cut edges, folds and thickness, physically coherent light and contact shadows, expressive focal hierarchy, no flat vector style. The provided reference is material/construction guidance only; do not copy its ship, radio, storm, colors, layout, figure, text or subject. Show the assigned scene as a physically believable miniature. Historical details must stay within the accepted story. Keep all assigned subject details legible at a small phone-size view. No photographic human, no modern props, no borders or blank margins. Scene-specific direction: Over-shoulder inspection table, four distinct open samples of broth, meat, beans and green peas beside their closed vessels; a few generic paper inspectors lean in from opposite edges, faces not individually identifiable. One dish catches a focused lamp beam. Reconstructed inspection only, no invented test instruments, quote, or document text.",
+      "transparent_background": false,
+      "output_target": "3840x2160",
+      "file": "Source/Images/S03_v01.png",
+      "status": "ACCEPTED; inspected at full source size."
+    },
+    "S04": {
+      "prompt": "Maximum available image quality and fine detail. Target landscape 4K UHD 3840×2160, 16:9. Produce one complete opaque full-bleed handmade paper/card diorama; visible fibers, layered cut edges, folds and thickness, physically coherent light and contact shadows, expressive focal hierarchy, no flat vector style. The provided reference is material/construction guidance only; do not copy its ship, radio, storm, colors, layout, figure, text or subject. Show the assigned scene as a physically believable miniature. Historical details must stay within the accepted story. Keep all assigned subject details legible at a small phone-size view. No photographic human, no modern props, no borders or blank margins. Scene-specific direction: A beautiful still life of the four inspected foods arranged on a broad slab of cream paper; behind them a small early-1800s kitchen doorway frames observers in shadow. Early nineteenth-century period cue, not a formal laboratory. Exact small paper title “EARLY 1800s” on one raised card; no other writing.",
+      "transparent_background": false,
+      "output_target": "3840x2160",
+      "file": "Source/Images/S04_v01.png",
+      "status": "ACCEPTED; inspected at full source size."
+    },
+    "S05": {
+      "prompt": "Maximum available image quality and fine detail. Target landscape 4K UHD 3840×2160, 16:9. Produce one complete opaque full-bleed handmade paper/card diorama; visible fibers, layered cut edges, folds and thickness, physically coherent light and contact shadows, expressive focal hierarchy, no flat vector style. The provided reference is material/construction guidance only; do not copy its ship, radio, storm, colors, layout, figure, text or subject. Show the assigned scene as a physically believable miniature. Historical details must stay within the accepted story. Keep all assigned subject details legible at a small phone-size view. No photographic human, no modern props, no borders or blank margins. Scene-specific direction: A single preserved sample sits on one end of an oversized worktable; beyond it, a long radial fan of empty workbenches and waiting blank recipe cards reaches into deep perspective. One pair of hands cannot bridge the distance. Visually express the challenge of teaching others to repeat a result, not a literal event; no text.",
+      "transparent_background": false,
+      "output_target": "3840x2160",
+      "file": "Source/Images/S05_v01.png",
+      "status": "ACCEPTED after full-frame inspection."
+    },
+    "S06": {
+      "prompt": "Maximum available image quality and fine detail. Target landscape 4K UHD 3840×2160, 16:9. Produce one complete opaque full-bleed handmade paper/card diorama; visible fibers, layered cut edges, folds and thickness, physically coherent light and contact shadows, expressive focal hierarchy, no flat vector style. The provided reference is material/construction guidance only; do not copy its ship, radio, storm, colors, layout, figure, text or subject. Show the assigned scene as a physically believable miniature. Historical details must stay within the accepted story. Keep all assigned subject details legible at a small phone-size view. No photographic human, no modern props, no borders or blank margins. Scene-specific direction: Tight oblique macro of an open blank working ledger, its tactile paper tabs form a clear sequence then stop at one visibly missing step; one sample jar casts a hard diagonal shadow directly into the gap. Strong quiet negative space has a purpose. No handwriting, no false historical notebook, no text.",
+      "transparent_background": false,
+      "output_target": "3840x2160",
+      "file": "Source/Images/S06_v01.png",
+      "status": "ACCEPTED; inspected at full source size.",
+      "generated_source": "/Users/diplomat/.codex/generated_images/01a1a8b3-3b93-7652-b713-d807d52719ea/exec-5d7c265a-f4c4-43a9-8917-9e58913e3442.png"
+    },
+    "S07": {
+      "prompt": "Maximum available image quality and fine detail. Target landscape 4K UHD 3840×2160, 16:9. Produce one complete opaque full-bleed handmade paper/card diorama; visible fibers, layered cut edges, folds and thickness, physically coherent light and contact shadows, expressive focal hierarchy, no flat vector style. The provided reference is material/construction guidance only; do not copy its ship, radio, storm, colors, layout, figure, text or subject. Show the assigned scene as a physically believable miniature. Historical details must stay within the accepted story. Keep all assigned subject details legible at a small phone-size view. No photographic human, no modern props, no borders or blank margins. Scene-specific direction: Top-down tactile triptych: salt crystals pressing into meat, sugar crystals coating fruit, and thin vegetables drying on a small rack. Three unmistakable paper-material zones separated by deep cut edges. Exact raised labels “SALT”, “SUGAR”, “DRYING”, each on its own small card; no extra text.",
+      "transparent_background": false,
+      "output_target": "3840x2160",
+      "file": "Source/Images/S07_v01.png",
+      "status": "ACCEPTED; inspected at full source size.",
+      "generated_source": "/Users/diplomat/.codex/generated_images/01a1a8b3-3b93-7652-b713-d807d52719ea/exec-faaac1aa-0dd1-4973-a0eb-9e522833c10d.png"
+    },
+    "S08": {
+      "prompt": "Maximum available image quality and fine detail. Target landscape 4K UHD 3840×2160, 16:9. Produce one complete opaque full-bleed handmade paper/card diorama; visible fibers, layered cut edges, folds and thickness, physically coherent light and contact shadows, expressive focal hierarchy, no flat vector style. The provided reference is material/construction guidance only; do not copy its ship, radio, storm, colors, layout, figure, text or subject. Show the assigned scene as a physically believable miniature. Historical details must stay within the accepted story. Keep all assigned subject details legible at a small phone-size view. No photographic human, no modern props, no borders or blank margins. Scene-specific direction: One dramatic close still-life comparison: a fresh paper fruit half beside a dried, darkened half, same outline so the changed qualities read immediately; oversized salt and sugar crystals catch side light at the edge. Do not repeat the three-column triptych, imply an exact recipe, or write text.",
+      "transparent_background": false,
+      "output_target": "3840x2160",
+      "file": "Source/Images/S08_v01.png",
+      "status": "ACCEPTED; inspected at full source size.",
+      "generated_source": "/Users/diplomat/.codex/generated_images/01a1a8b3-3b93-7652-b713-d807d52719ea/exec-6ec44c31-280c-468d-9e02-ad6c1d483812.png"
+    },
+    "S09": {
+      "prompt": "Maximum available image quality and fine detail. Target landscape 4K UHD 3840×2160, 16:9. Produce one complete opaque full-bleed handmade paper/card diorama; visible fibers, layered cut edges, folds and thickness, physically coherent light and contact shadows, expressive focal hierarchy, no flat vector style. The provided reference is material/construction guidance only; do not copy its ship, radio, storm, colors, layout, figure, text or subject. Show the assigned scene as a physically believable miniature. Historical details must stay within the accepted story. Keep all assigned subject details legible at a small phone-size view. No photographic human, no modern props, no borders or blank margins. Scene-specific direction: One broad pastry workbench transitions through a physical seam into a small spirits-distilling work area; a generic period worker’s hands connect both crafts, pastry tools at one side and an unbranded distilling apparatus at the other. Oblique side angle, warm work light. No portrait, no specific vessel material, no labels.",
+      "transparent_background": false,
+      "output_target": "3840x2160",
+      "file": "Source/Images/S09_v01.png",
+      "status": "ACCEPTED; inspected at full source size.",
+      "generated_source": "/Users/diplomat/.codex/generated_images/01a1a8b3-3b93-7652-b713-d807d52719ea/exec-608a245b-3200-4b45-ab79-33099cf69a16.png"
+    },
+    "S10": {
+      "prompt": "Maximum available image quality and fine detail. Target landscape 4K UHD 3840×2160, 16:9. Produce one complete opaque full-bleed handmade paper/card diorama; visible fibers, layered cut edges, folds and thickness, physically coherent light and contact shadows, expressive focal hierarchy, no flat vector style. The provided reference is material/construction guidance only; do not copy its ship, radio, storm, colors, layout, figure, text or subject. Show the assigned scene as a physically believable miniature. Historical details must stay within the accepted story. Keep all assigned subject details legible at a small phone-size view. No photographic human, no modern props, no borders or blank margins. Scene-specific direction: Top-down ingredient atlas around a central paper workspace: separate bowls of meat, broth, milk, vegetables and fruit, each with distinct color, shape and texture, linked by a winding trail of small blank cards toward a single jar. Editorial arrangement, not a historical inventory. No words.",
+      "transparent_background": false,
+      "output_target": "3840x2160",
+      "file": "Source/Images/S10_v01.png",
+      "status": "ACCEPTED; inspected at full source size.",
+      "generated_source": "/Users/diplomat/.codex/generated_images/01a1a8b3-3b93-7652-b713-d807d52719ea/exec-b2261a54-ba06-4fa9-9300-e7227f509301.png"
+    },
+    "S11": {
+      "prompt": "Maximum available image quality and fine detail. Target landscape 4K UHD 3840×2160, 16:9. Produce one complete opaque full-bleed handmade paper/card diorama; visible fibers, layered cut edges, folds and thickness, physically coherent light and contact shadows, expressive focal hierarchy, no flat vector style. The provided reference is material/construction guidance only; do not copy its ship, radio, storm, colors, layout, figure, text or subject. Show the assigned scene as a physically believable miniature. Historical details must stay within the accepted story. Keep all assigned subject details legible at a small phone-size view. No photographic human, no modern props, no borders or blank margins. Scene-specific direction: Shelf-height view through receding rows of sample vessels; one hand reaches to inspect an older jar at the front while the untouched vessels fade into a deep shadowed shelf. Visual contrast between leaving samples and later checking them. Avoid readable historic labels or exact durations.",
+      "transparent_background": false,
+      "output_target": "3840x2160",
+      "file": "Source/Images/S11_v03.png",
+      "status": "ACCEPTED after historic closure correction.",
+      "generated_source": "/Users/diplomat/.codex/generated_images/01a1a8b3-3b93-7652-b713-d807d52719ea/exec-b38c6cc2-ad91-4349-b7b7-1552e4bdc8d7.png",
+      "edit_prompt": "Preserve the full accepted scene; replace any modern clamp/lid with a plain inserted cork secured by a simple thin wire loop twisted around the glass neck; remove hinged parts and levers."
+    },
+    "S12": {
+      "prompt": "Maximum available image quality and fine detail. Target landscape 4K UHD 3840×2160, 16:9. Produce one complete opaque full-bleed handmade paper/card diorama; visible fibers, layered cut edges, folds and thickness, physically coherent light and contact shadows, expressive focal hierarchy, no flat vector style. The provided reference is material/construction guidance only; do not copy its ship, radio, storm, colors, layout, figure, text or subject. Show the assigned scene as a physically believable miniature. Historical details must stay within the accepted story. Keep all assigned subject details legible at a small phone-size view. No photographic human, no modern props, no borders or blank margins. Scene-specific direction: Low sculptural glass study: one narrow-neck glass bottle and one wide-mouthed glass vessel stand at contrasting angles on layered paper blocks, with simple paper cutaway rims showing the different openings. Refractions are subtle; forms stay legible. No text, no extra bottle types.",
+      "transparent_background": false,
+      "output_target": "3840x2160",
+      "file": "Source/Images/S12_v01.png",
+      "status": "ACCEPTED; inspected at full source size.",
+      "generated_source": "/Users/diplomat/.codex/generated_images/01a1a8b3-3b93-7652-b713-d807d52719ea/exec-27b1f0ef-d1cc-4348-90a6-82f517bf9f3d.png"
+    },
+    "S13": {
+      "prompt": "Maximum available image quality and fine detail. Target landscape 4K UHD 3840×2160, 16:9. Produce one complete opaque full-bleed handmade paper/card diorama; visible fibers, layered cut edges, folds and thickness, physically coherent light and contact shadows, expressive focal hierarchy, no flat vector style. The provided reference is material/construction guidance only; do not copy its ship, radio, storm, colors, layout, figure, text or subject. Show the assigned scene as a physically believable miniature. Historical details must stay within the accepted story. Keep all assigned subject details legible at a small phone-size view. No photographic human, no modern props, no borders or blank margins. Scene-specific direction: Close action scene: two crafted paper hands complete one clear sealing action on a wide-mouth glass food vessel, one presses the cork while the other fastens a loop of wire. A water-bath pot waits soft-focused in the background. One instant only, anatomically clear hands, no duplicated hands or text.",
+      "transparent_background": false,
+      "output_target": "3840x2160",
+      "file": "Source/Images/S13_v02.png",
+      "status": "ACCEPTED after historic closure correction.",
+      "generated_source": "/Users/diplomat/.codex/generated_images/01a1a8b3-3b93-7652-b713-d807d52719ea/exec-44e5cfbf-8c33-4b6d-847d-1f0f1169bf62.png",
+      "edit_prompt": "Preserve the full accepted scene; replace any modern clamp/lid with a plain inserted cork secured by a simple thin wire loop twisted around the glass neck; remove hinged parts and levers."
+    },
+    "S14": {
+      "prompt": "Maximum available image quality and fine detail. Target landscape 4K UHD 3840×2160, 16:9. Produce one complete opaque full-bleed handmade paper/card diorama; visible fibers, layered cut edges, folds and thickness, physically coherent light and contact shadows, expressive focal hierarchy, no flat vector style. The provided reference is material/construction guidance only; do not copy its ship, radio, storm, colors, layout, figure, text or subject. Show the assigned scene as a physically believable miniature. Historical details must stay within the accepted story. Keep all assigned subject details legible at a small phone-size view. No photographic human, no modern props, no borders or blank margins. Scene-specific direction: Dramatic overhead of a deep pot with several sealed glass vessels sitting in a visible water bath; bright ring of water frames them, a single gentle plume of steam, sturdy pot edge creates concentric composition. No thermometer, fire detail, invented temperature or duration, no text.",
+      "transparent_background": false,
+      "output_target": "3840x2160",
+      "file": "Source/Images/S14_v01.png",
+      "status": "ACCEPTED; inspected at full source size.",
+      "generated_source": "/Users/diplomat/.codex/generated_images/01a1a8b3-3b93-7652-b713-d807d52719ea/exec-2e5583dd-17bf-434e-bf57-c99a305c33e7.png"
+    },
+    "S15": {
+      "prompt": "One complete handmade paper/card diorama, 16:9 landscape, opaque full bleed, highest image quality. Use reference only for tactile layered-paper construction and physical light, not objects or layout. A restrained close three-quarter still life with exactly three large focal details arranged on separate raised paper pads: (1) two generic unlabelled food preparation cards, (2) one narrow-neck glass bottle, (3) one cork and fine wire seal beside a visibly imperfect glass rim. The items connect with a subtle folded paper line, showing different preparations and heating times and why neck, glass quality and seal matter. Warm light stripe across the glass. No wine, grapes, bread, meat, cheese, measuring scales, numbers, labels or extra props.",
+      "transparent_background": false,
+      "output_target": "3840x2160",
+      "file": "Source/Images/S15_v01.png",
+      "status": "ACCEPTED; inspected at full source size.",
+      "generated_source": "/Users/diplomat/.codex/generated_images/01a1a8b3-3b93-7652-b713-d807d52719ea/exec-9c6e0b2e-6042-47e9-8e12-f16d7688a3e5.png"
+    },
+    "S16": {
+      "prompt": "One complete tactile paper diorama, wide landscape 16:9, full bleed. Material reference only. Close diagonal action: a paper hand lowers one sealed transparent glass food jar with a cork into an open folded cloth bag; inside the bag, a few small safely contained glass shards sit against the thick fabric folds to show what would be caught if a vessel burst while heating. Keep jar intact, shards still, no explosion, no person hurt. No flowers, compass, lighthouse, route map, extra documentary props or text. Dramatic side light picks out cloth texture and glass edges.",
+      "transparent_background": false,
+      "output_target": "3840x2160",
+      "file": "Source/Images/S16_v01.png",
+      "status": "ACCEPTED; inspected at full source size.",
+      "generated_source": "/Users/diplomat/.codex/generated_images/01a1a8b3-3b93-7652-b713-d807d52719ea/exec-0a441e04-af80-4eb6-b488-890ca378c46e.png"
+    },
+    "S17": {
+      "prompt": "Maximum available image quality and fine detail. Target landscape 4K UHD 3840×2160, 16:9. Produce one complete opaque full-bleed handmade paper/card diorama; visible fibers, layered cut edges, folds and thickness, physically coherent light and contact shadows, expressive focal hierarchy, no flat vector style. The provided reference is material/construction guidance only; do not copy its ship, radio, storm, colors, layout, figure, text or subject. Show the assigned scene as a physically believable miniature. Historical details must stay within the accepted story. Keep all assigned subject details legible at a small phone-size view. No photographic human, no modern props, no borders or blank margins. Scene-specific direction: Extreme macro of green peas at two stages: firm young peas above, a softened flattened processed cluster below; a paper hand selects from the too-young side of the boundary. Rich tactile round forms and a clear visual shift. No written words, no invented varieties.",
+      "transparent_background": false,
+      "output_target": "3840x2160",
+      "file": "Source/Images/S17_v01.png",
+      "status": "ACCEPTED; inspected at full source size.",
+      "generated_source": "/Users/diplomat/.codex/generated_images/01a1a8b3-3b93-7652-b713-d807d52719ea/exec-bbe79ab8-f663-4da6-942e-93fdc8c27c0e.png"
+    },
+    "S18": {
+      "prompt": "Maximum available image quality and fine detail. Target landscape 4K UHD 3840×2160, 16:9. Produce one complete opaque full-bleed handmade paper/card diorama; visible fibers, layered cut edges, folds and thickness, physically coherent light and contact shadows, expressive focal hierarchy, no flat vector style. The provided reference is material/construction guidance only; do not copy its ship, radio, storm, colors, layout, figure, text or subject. Show the assigned scene as a physically believable miniature. Historical details must stay within the accepted story. Keep all assigned subject details legible at a small phone-size view. No photographic human, no modern props, no borders or blank margins. Scene-specific direction: A compact but dramatic March 1809 inspection scene: generic committee figures bend over Appert’s food samples at a long table, one hand points and another holds a blank note sheet. Period room kept indistinct. Exact raised date card “MARCH 1809”; no badges, uniforms, official seals or quotations.",
+      "transparent_background": false,
+      "output_target": "3840x2160",
+      "file": "Source/Images/S18_v01.png",
+      "status": "ACCEPTED; inspected at full source size.",
+      "generated_source": "/Users/diplomat/.codex/generated_images/01a1a8b3-3b93-7652-b713-d807d52719ea/exec-a01a34bc-e59a-4495-9144-e9fb5a6549fe.png"
+    },
+    "S19": {
+      "prompt": "Maximum available image quality and fine detail. Target landscape 4K UHD 3840×2160, 16:9. Produce one complete opaque full-bleed handmade paper/card diorama; visible fibers, layered cut edges, folds and thickness, physically coherent light and contact shadows, expressive focal hierarchy, no flat vector style. The provided reference is material/construction guidance only; do not copy its ship, radio, storm, colors, layout, figure, text or subject. Show the assigned scene as a physically believable miniature. Historical details must stay within the accepted story. Keep all assigned subject details legible at a small phone-size view. No photographic human, no modern props, no borders or blank margins. Scene-specific direction: Top-down, balanced still life of the four samples—broth, meat, beans, peas—beside a plain paper assessment card with the exact readable words “FAVORABLE ASSESSMENT”. The samples are the focus; no committee figures, no stamp, no false report facsimile.",
+      "transparent_background": false,
+      "output_target": "3840x2160",
+      "file": "Source/Images/S19_v01.png",
+      "status": "ACCEPTED; inspected at full source size.",
+      "generated_source": "/Users/diplomat/.codex/generated_images/01a1a8b3-3b93-7652-b713-d807d52719ea/exec-6398f1fd-a99c-48c2-9b84-c1ffcc7766b0.png"
+    },
+    "S20": {
+      "prompt": "Maximum available image quality and fine detail. Target landscape 4K UHD 3840×2160, 16:9. Produce one complete opaque full-bleed handmade paper/card diorama; visible fibers, layered cut edges, folds and thickness, physically coherent light and contact shadows, expressive focal hierarchy, no flat vector style. The provided reference is material/construction guidance only; do not copy its ship, radio, storm, colors, layout, figure, text or subject. Show the assigned scene as a physically believable miniature. Historical details must stay within the accepted story. Keep all assigned subject details legible at a small phone-size view. No photographic human, no modern props, no borders or blank margins. Scene-specific direction: A strong horizontal folded-paper timeline with two visually separate lanes: “APPERT REPORTED” shows “8+ MONTHS” and “ONE: 15 MONTHS”; “SOCIETY HELD” shows “ABOUT 2 MONTHS”. Exact spelling, simple large raised paper lettering, no other numbers. Make the gap between claimed preparation age and observed custody unmistakable; not a historical chart.",
+      "transparent_background": false,
+      "output_target": "3840x2160",
+      "file": "Source/Images/S20_v01.png",
+      "status": "ACCEPTED; inspected at full source size.",
+      "generated_source": "/Users/diplomat/.codex/generated_images/01a1a8b3-3b93-7652-b713-d807d52719ea/exec-7a24e8ba-8378-4f08-8d2c-6260c2cef351.png",
+      "edit_prompt": "Preserve APPERT REPORTED, 8+ MONTHS, ONE: 15 MONTHS, SOCIETY HELD, ABOUT 2 MONTHS exactly; remove handwritten sealed letter and replace with blank slips.",
+      "edit_generated": "/Users/diplomat/.codex/generated_images/01a1a8b3-3b93-7652-b713-d807d52719ea/exec-7a24e8ba-8378-4f08-8d2c-6260c2cef351.png"
+    },
+    "S21": {
+      "prompt": "Create a fresh complete full-bleed tactile paper diorama, landscape 16:9. Extreme low macro at the rim of one transparent sealed food jar, cork and wire closure visible, food clearly visible inside. At far upper edge, two generic inspectors’ hands and a short blank custody docket partly visible; focal meaning is present food condition. No table of dishes, no tasting, no open pot, no timeline, no writing.",
+      "transparent_background": false,
+      "output_target": "3840x2160",
+      "file": "Source/Images/S21_v02.png",
+      "status": "ACCEPTED after historic closure correction.",
+      "generated_source": "/Users/diplomat/.codex/generated_images/01a1a8b3-3b93-7652-b713-d807d52719ea/exec-b0afc27f-acfb-42a8-b386-b9f58ae054e5.png",
+      "edit_prompt": "Preserve the full accepted scene; replace any modern clamp/lid with a plain inserted cork secured by a simple thin wire loop twisted around the glass neck; remove hinged parts and levers."
+    },
+    "S22": {
+      "prompt": "Maximum available image quality and fine detail. Target landscape 4K UHD 3840×2160, 16:9. Produce one complete opaque full-bleed handmade paper/card diorama; visible fibers, layered cut edges, folds and thickness, physically coherent light and contact shadows, expressive focal hierarchy, no flat vector style. The provided reference is material/construction guidance only; do not copy its ship, radio, storm, colors, layout, figure, text or subject. Show the assigned scene as a physically believable miniature. Historical details must stay within the accepted story. Keep all assigned subject details legible at a small phone-size view. No photographic human, no modern props, no borders or blank margins. Scene-specific direction: A single generic paper worker’s hand gathers scattered experiment slips into one deliberate ordered stack beside several sample vessels; a large blank book-shaped sheet waits at the far end. Strong diagonal from disorder to sequence, signaling the path toward a publishable method. Editorial metaphor, no handwriting, no meeting, no text.",
+      "transparent_background": false,
+      "output_target": "3840x2160",
+      "file": "Source/Images/S22_v02.png",
+      "status": "ACCEPTED; inspected at full source size.",
+      "generated_source": "/Users/diplomat/.codex/generated_images/01a1a8b3-3b93-7652-b713-d807d52719ea/exec-64106df4-cecf-4eab-a55f-7867d10ea5c5.png",
+      "edit_prompt": "Replaced lab-instrument first pass with one hand arranging slips into an ordered sequence beside blank method book and food jars.",
+      "edit_generated": "/Users/diplomat/.codex/generated_images/01a1a8b3-3b93-7652-b713-d807d52719ea/exec-64106df4-cecf-4eab-a55f-7867d10ea5c5.png"
+    },
+    "S23": {
+      "prompt": "Maximum available image quality and fine detail. Target landscape 4K UHD 3840×2160, 16:9. Produce one complete opaque full-bleed handmade paper/card diorama; visible fibers, layered cut edges, folds and thickness, physically coherent light and contact shadows, expressive focal hierarchy, no flat vector style. The provided reference is material/construction guidance only; do not copy its ship, radio, storm, colors, layout, figure, text or subject. Show the assigned scene as a physically believable miniature. Historical details must stay within the accepted story. Keep all assigned subject details legible at a small phone-size view. No photographic human, no modern props, no borders or blank margins. Scene-specific direction: At an isolated worktable, one hand pushes a neat blank method manuscript forward from a cluster of sample jars into a shaft of light; the author’s intent to propose publication is the visual action. No second person or official meeting, no written wording, no false archival paper.",
+      "transparent_background": false,
+      "output_target": "3840x2160",
+      "file": "Source/Images/S23_v01.png",
+      "status": "ACCEPTED; inspected at full source size.",
+      "generated_source": "/Users/diplomat/.codex/generated_images/01a1a8b3-3b93-7652-b713-d807d52719ea/exec-72d62575-b521-4f0c-bd40-e4390ae4ef29.png"
+    },
+    "S24": {
+      "prompt": "Maximum available image quality and fine detail. Target landscape 4K UHD 3840×2160, 16:9. Produce one complete opaque full-bleed handmade paper/card diorama; visible fibers, layered cut edges, folds and thickness, physically coherent light and contact shadows, expressive focal hierarchy, no flat vector style. The provided reference is material/construction guidance only; do not copy its ship, radio, storm, colors, layout, figure, text or subject. Show the assigned scene as a physically believable miniature. Historical details must stay within the accepted story. Keep all assigned subject details legible at a small phone-size view. No photographic human, no modern props, no borders or blank margins. Scene-specific direction: A thick folded official letter arrives at a simple workbench, crossing into a pool of warm light; a date tab anchors it while jars and tools recede behind. Exact large raised date “30 JANUARY 1810”. Envelope has no forged seal, crest, signature, or legible body text.",
+      "transparent_background": false,
+      "output_target": "3840x2160",
+      "file": "Source/Images/S24_v02.png",
+      "status": "ACCEPTED; inspected at full source size.",
+      "generated_source": "/Users/diplomat/.codex/generated_images/01a1a8b3-3b93-7652-b713-d807d52719ea/exec-07c38c8d-88dc-4273-824c-8806dcc8fb4f.png",
+      "edit_prompt": "Preserve exact date 30 JANUARY 1810; remove red wax seal and ships, keep generic blank letter and no further writing.",
+      "edit_generated": "/Users/diplomat/.codex/generated_images/01a1a8b3-3b93-7652-b713-d807d52719ea/exec-07c38c8d-88dc-4273-824c-8806dcc8fb4f.png"
+    },
+    "S25": {
+      "prompt": "Maximum available image quality and fine detail. Target landscape 4K UHD 3840×2160, 16:9. Produce one complete opaque full-bleed handmade paper/card diorama; visible fibers, layered cut edges, folds and thickness, physically coherent light and contact shadows, expressive focal hierarchy, no flat vector style. The provided reference is material/construction guidance only; do not copy its ship, radio, storm, colors, layout, figure, text or subject. Show the assigned scene as a physically believable miniature. Historical details must stay within the accepted story. Keep all assigned subject details legible at a small phone-size view. No photographic human, no modern props, no borders or blank margins. Scene-specific direction: Bold typographic object composition: an enormous cut-paper amount “12,000 FRANCS” rises above a sealed letter and one small hand reaching toward it; the number is dominant and exactly spelled. No coins, no cash handover, no symbol resembling a modern currency sign.",
+      "transparent_background": false,
+      "output_target": "3840x2160",
+      "file": "Source/Images/S25_v01.png",
+      "status": "ACCEPTED; inspected at full source size.",
+      "generated_source": "/Users/diplomat/.codex/generated_images/01a1a8b3-3b93-7652-b713-d807d52719ea/exec-ebde0e6f-3970-4a7b-b210-d51b1873b42f.png"
+    },
+    "S26": {
+      "prompt": "Maximum available image quality and fine detail. Target landscape 4K UHD 3840×2160, 16:9. Produce one complete opaque full-bleed handmade paper/card diorama; visible fibers, layered cut edges, folds and thickness, physically coherent light and contact shadows, expressive focal hierarchy, no flat vector style. The provided reference is material/construction guidance only; do not copy its ship, radio, storm, colors, layout, figure, text or subject. Show the assigned scene as a physically believable miniature. Historical details must stay within the accepted story. Keep all assigned subject details legible at a small phone-size view. No photographic human, no modern props, no borders or blank margins. Scene-specific direction: A dramatic stepped perspective of blank pamphlet copies receding in orderly rows behind one open blank method manuscript; a large raised card reads exactly “200 COPIES”. The array communicates a publication condition, not a literal count or exact book format.",
+      "transparent_background": false,
+      "output_target": "3840x2160",
+      "file": "Source/Images/S26_v01.png",
+      "status": "ACCEPTED; inspected at full source size.",
+      "generated_source": "/Users/diplomat/.codex/generated_images/01a1a8b3-3b93-7652-b713-d807d52719ea/exec-42e32461-9c40-48b7-b9bb-9e6dbb25caff.png"
+    },
+    "S27": {
+      "prompt": "Maximum available image quality and fine detail. Target landscape 4K UHD 3840×2160, 16:9. Produce one complete opaque full-bleed handmade paper/card diorama; visible fibers, layered cut edges, folds and thickness, physically coherent light and contact shadows, expressive focal hierarchy, no flat vector style. The provided reference is material/construction guidance only; do not copy its ship, radio, storm, colors, layout, figure, text or subject. Show the assigned scene as a physically believable miniature. Historical details must stay within the accepted story. Keep all assigned subject details legible at a small phone-size view. No photographic human, no modern props, no borders or blank margins. Scene-specific direction: Editorial split tableau on one long worktable: manuscript on the review side beneath a raised functional card “BOARD REVIEW”; on the other, a separate blank printer’s bill and Appert’s small stack of coins. Strong diagonal divides review from printing expense. No forged official emblems or detailed invoice.",
+      "transparent_background": false,
+      "output_target": "3840x2160",
+      "file": "Source/Images/S27_v02.png",
+      "status": "ACCEPTED; inspected at full source size.",
+      "generated_source": "/Users/diplomat/.codex/generated_images/01a1a8b3-3b93-7652-b713-d807d52719ea/exec-f3285886-861e-4aa0-a0c9-cf3df6574a9a.png",
+      "edit_prompt": "Preserve the exact BOARD REVIEW label and manuscript/blank invoice/coins; remove committee figures and identifiable city/cathedral, replace with neutral paper wall.",
+      "edit_generated": "/Users/diplomat/.codex/generated_images/01a1a8b3-3b93-7652-b713-d807d52719ea/exec-f3285886-861e-4aa0-a0c9-cf3df6574a9a.png"
+    },
+    "S28": {
+      "prompt": "Maximum available image quality and fine detail. Target landscape 4K UHD 3840×2160, 16:9. Produce one complete opaque full-bleed handmade paper/card diorama; visible fibers, layered cut edges, folds and thickness, physically coherent light and contact shadows, expressive focal hierarchy, no flat vector style. The provided reference is material/construction guidance only; do not copy its ship, radio, storm, colors, layout, figure, text or subject. Show the assigned scene as a physically believable miniature. Historical details must stay within the accepted story. Keep all assigned subject details legible at a small phone-size view. No photographic human, no modern props, no borders or blank margins. Scene-specific direction: A thick open handmade book occupies the foreground, pages staged as a clear three-step sequence: a prepared food bowl, simple tool silhouettes, then ordered blank instruction cards. Each page has one purposeful layer, tactile folds and shadows. Exact raised tabs “PREPARATION”, “TOOLS”, “STEPS”; no recipe text.",
+      "transparent_background": false,
+      "output_target": "3840x2160",
+      "file": "Source/Images/S28_v01.png",
+      "status": "ACCEPTED; inspected at full source size.",
+      "generated_source": "/Users/diplomat/.codex/generated_images/01a1a8b3-3b93-7652-b713-d807d52719ea/exec-08ac9a74-b724-4b63-9b41-6491b546b575.png"
+    },
+    "S29": {
+      "prompt": "Maximum available image quality and fine detail. Target landscape 4K UHD 3840×2160, 16:9. Produce one complete opaque full-bleed handmade paper/card diorama; visible fibers, layered cut edges, folds and thickness, physically coherent light and contact shadows, expressive focal hierarchy, no flat vector style. The provided reference is material/construction guidance only; do not copy its ship, radio, storm, colors, layout, figure, text or subject. Show the assigned scene as a physically believable miniature. Historical details must stay within the accepted story. Keep all assigned subject details legible at a small phone-size view. No photographic human, no modern props, no borders or blank margins. Scene-specific direction: Close oblique arrangement of a glass bottle, corks, wire and a water-bath diagram orbiting a heavy open handbook; one small folded corner with a simple warning mark suggests mistakes can matter. Exact large tabs “VESSELS”, “CORKS”, “HEATING”, “MISTAKES”; no timings or recipe text.",
+      "transparent_background": false,
+      "output_target": "3840x2160",
+      "file": "Source/Images/S29_v01.png",
+      "status": "ACCEPTED; inspected at full source size.",
+      "generated_source": "/Users/diplomat/.codex/generated_images/01a1a8b3-3b93-7652-b713-d807d52719ea/exec-4f7017e6-a6c3-41d6-844b-56082adf0673.png"
+    },
+    "S30": {
+      "prompt": "Maximum available image quality and fine detail. Target landscape 4K UHD 3840×2160, 16:9. Produce one complete opaque full-bleed handmade paper/card diorama; visible fibers, layered cut edges, folds and thickness, physically coherent light and contact shadows, expressive focal hierarchy, no flat vector style. The provided reference is material/construction guidance only; do not copy its ship, radio, storm, colors, layout, figure, text or subject. Show the assigned scene as a physically believable miniature. Historical details must stay within the accepted story. Keep all assigned subject details legible at a small phone-size view. No photographic human, no modern props, no borders or blank margins. Scene-specific direction: Final hero tableau: a thick open 1810 book rises upright at a three-quarter angle, a small sealed glass vessel and a few layered method cards beside its spine; light travels from jar to book, resolving years of individual work into a guide. Exact cut-paper cover title “1810”; do not invent a full historical title.",
+      "transparent_background": false,
+      "output_target": "3840x2160",
+      "file": "Source/Images/S30_v02.png",
+      "status": "ACCEPTED; inspected at full source size.",
+      "generated_source": "/Users/diplomat/.codex/generated_images/01a1a8b3-3b93-7652-b713-d807d52719ea/exec-4ae68dd6-2b88-4aa2-97a2-c6acc74f24eb.png",
+      "edit_prompt": "Preserve exact “1810”; remove wax crest and imaginary landscape from the cover; show a cork/wire food jar with food inside; otherwise preserve composition.",
+      "edit_generated": "/Users/diplomat/.codex/generated_images/01a1a8b3-3b93-7652-b713-d807d52719ea/exec-4ae68dd6-2b88-4aa2-97a2-c6acc74f24eb.png"
+    },
+    "E01": {
+      "prompt": "Maximum available image quality and fine detail. Target landscape 4K UHD 3840×2160, 16:9. Produce one complete opaque full-bleed handmade paper/card diorama; visible fibers, layered cut edges, folds and thickness, physically coherent light and contact shadows, expressive focal hierarchy, no flat vector style. The provided reference is material/construction guidance only; do not copy its ship, radio, storm, colors, layout, figure, text or subject. Show the assigned scene as a physically believable miniature. Historical details must stay within the accepted story. Keep all assigned subject details legible at a small phone-size view. No photographic human, no modern props, no borders or blank margins. Scene-specific direction: Quiet completed end-screen diorama continuing the book-and-glass world: one handmade book and small jar on a folded paper worktable, warm soft sidelight. Preserve left subscribe circle and two stacked 16:9 video recommendation reserves on right as genuinely empty background areas with no UI frames, faces, subtitles, objects or lettering. No call to action text.",
+      "transparent_background": false,
+      "output_target": "3840x2160",
+      "file": "Source/Images/E01_v01.png",
+      "status": "ACCEPTED; inspected at full source size.",
+      "generated_source": "/Users/diplomat/.codex/generated_images/01a1a8b3-3b93-7652-b713-d807d52719ea/exec-172ba168-1b6a-4cbc-a322-0b8857717acd.png"
+    },
+    "E02": {
+      "prompt": "Maximum available image quality and fine detail. Target landscape 4K UHD 3840×2160, 16:9. Produce one complete opaque full-bleed handmade paper/card diorama; visible fibers, layered cut edges, folds and thickness, physically coherent light and contact shadows, expressive focal hierarchy, no flat vector style. The provided reference is material/construction guidance only; do not copy its ship, radio, storm, colors, layout, figure, text or subject. Show the assigned scene as a physically believable miniature. Historical details must stay within the accepted story. Keep all assigned subject details legible at a small phone-size view. No photographic human, no modern props, no borders or blank margins. Scene-specific direction: A related but distinct quiet end-screen diorama: one sealed glass vessel and a closed book on a layered paper table, side view with a new fold and gentle late light. Preserve the same empty subscribe circle at left and two stacked empty 16:9 recommendation areas at right; no UI, no frames, no people, no text.",
+      "transparent_background": false,
+      "output_target": "3840x2160",
+      "file": "Source/Images/E02_v01.png",
+      "status": "ACCEPTED; inspected at full source size.",
+      "generated_source": "/Users/diplomat/.codex/generated_images/01a1a8b3-3b93-7652-b713-d807d52719ea/exec-2faf71c7-f897-4ae9-b450-d29df8c7f30d.png"
+    }
+  },
+  "generation_method": "built-in image_gen; one call per distinct scene",
+  "notes": "The tool may return a smaller native image; measure and review each output before treating it as a usable project source.",
+  "generation_log": [
+    {
+      "file": "/Users/diplomat/.codex/generated_images/01a1a8b3-3b93-7652-b713-d807d52719ea/exec-880f3840-f933-4a41-a4b3-2017e7950f59.png",
+      "status": "REJECTED",
+      "reason": "Container read as wrapped parcel, composition implied an unverified fort and vessel context."
+    },
+    {
+      "file": "Source/Images/S01_v01.png",
+      "status": "REPLACED",
+      "reason": "Object was correct; added verified textual geographic context for international viewers."
+    },
+    {
+      "file": "Source/Images/S01_v02.png",
+      "status": "ACCEPTED",
+      "reason": "Transparent preserving jar, cork/wire seal, anchored harbor scale; label spells BREST · FRANCE exactly."
+    },
+    {
+      "file": "/Users/diplomat/.codex/generated_images/01a1a8b3-3b93-7652-b713-d807d52719ea/exec-9a994836-0bdc-4904-85ff-bf3a41d0d80d.png",
+      "status": "REJECTED",
+      "reason": "Timeline prop replaced jar with a wrapped parcel; no food visible in empty jar."
+    },
+    {
+      "file": "Source/Images/S02_v02.png",
+      "status": "ACCEPTED",
+      "reason": "Clear jar, cork/wire, visible food, roadstead and exact THREE MONTHS label."
+    },
+    {
+      "file": "/Users/diplomat/.codex/generated_images/01a1a8b3-3b93-7652-b713-d807d52719ea/exec-7896bb7f-b18e-4eee-9511-81e2edaa8ed7.png",
+      "status": "REJECTED",
+      "reason": "Required inspection participants absent; extra barrels competed with the inspection story."
+    },
+    {
+      "file": "Source/Images/S03_v01.png",
+      "status": "ACCEPTED",
+      "reason": "Inspectors and only the four accepted sample types are clearly staged."
+    },
+    {
+      "file": "/Users/diplomat/.codex/generated_images/01a1a8b3-3b93-7652-b713-d807d52719ea/exec-23ababa3-a627-4907-bb2c-97968446eb3e.png",
+      "status": "REJECTED",
+      "reason": "The still life introduced several foods outside the described sample set."
+    },
+    {
+      "file": "Source/Images/S04_v01.png",
+      "status": "ACCEPTED",
+      "reason": "Four matching samples, observers and exact EARLY 1800s cue."
+    },
+    {
+      "file": "Source/Images/S05_v01.png",
+      "status": "ACCEPTED",
+      "reason": "Large-scale workbench metaphor reads as the challenge of making one result reproducible."
+    },
+    {
+      "file": "Source/Images/S06_v01.png",
+      "status": "ACCEPTED",
+      "reason": "Blank ledger’s missing step reads as the absent repeatable method."
+    },
+    {
+      "file": "Source/Images/S07_v01.png",
+      "status": "ACCEPTED",
+      "reason": "Salt, sugar and drying are clearly distinguished; each exact label is spelled correctly."
+    },
+    {
+      "file": "Source/Images/S08_v01.png",
+      "status": "ACCEPTED",
+      "reason": "Fresh/dried fruit comparison is a distinct composition from S07."
+    },
+    {
+      "file": "Source/Images/S09_v01.png",
+      "status": "ACCEPTED",
+      "reason": "Pastry and spirits work are legible as two crafts; no unsupported vessel material."
+    },
+    {
+      "file": "Source/Images/S10_v01.png",
+      "status": "ACCEPTED",
+      "reason": "Meat, broth, milk, vegetables and fruit all appear distinctly around the sample jar."
+    },
+    {
+      "file": "/Users/diplomat/.codex/generated_images/01a1a8b3-3b93-7652-b713-d807d52719ea/exec-5e776fdf-98d8-4ad0-98f0-5b22abbf8182.png",
+      "status": "REJECTED",
+      "reason": "Dominant vessel rendered as decorated ceramic, not glass."
+    },
+    {
+      "file": "Source/Images/S11_v02.png",
+      "status": "ACCEPTED",
+      "reason": "Transparent glass jars and food, one jar checked; cork and wire visible."
+    },
+    {
+      "file": "Source/Images/S12_v01.png",
+      "status": "ACCEPTED",
+      "reason": "Clear distinction between narrow-neck bottle and wide-mouth vessel."
+    },
+    {
+      "file": "Source/Images/S13_v01.png",
+      "status": "ACCEPTED",
+      "reason": "One cork-and-wire sealing action with the water bath in the distance."
+    },
+    {
+      "file": "Source/Images/S14_v01.png",
+      "status": "ACCEPTED",
+      "reason": "Water bath is clear from overhead; multiple vessels establish heating stage."
+    },
+    {
+      "file": "/Users/diplomat/.codex/generated_images/01a1a8b3-3b93-7652-b713-d807d52719ea/exec-f8676aaa-f1ed-4ca9-934f-5010afb571e0.png",
+      "status": "REJECTED",
+      "reason": "Scene introduced wine/extra foods and a muddled glass-quality comparison."
+    },
+    {
+      "file": "Source/Images/S15_v01.png",
+      "status": "ACCEPTED",
+      "reason": "Three focused comparison objects: food-preparation cards, bottle neck and cork/wire seal."
+    },
+    {
+      "file": "/Users/diplomat/.codex/generated_images/01a1a8b3-3b93-7652-b713-d807d52719ea/exec-c91e51e3-595a-416e-82ea-9f90eb1bbad8.png",
+      "status": "REJECTED",
+      "reason": "Bag did not contain the vessel; flower jar and unrelated navigation props distracted."
+    },
+    {
+      "file": "Source/Images/S16_v01.png",
+      "status": "ACCEPTED",
+      "reason": "Intact sealed jar sits within a thick open cloth bag with shards contained by fabric folds."
+    },
+    {
+      "file": "Source/Images/S17_v01.png",
+      "status": "ACCEPTED",
+      "reason": "Firm young peas and softened processed peas are immediately distinguishable."
+    },
+    {
+      "file": "Source/Images/S18_v01.png",
+      "status": "ACCEPTED",
+      "reason": "Generic committee observes jars in a reconstructed March 1809 inspection; exact date label."
+    },
+    {
+      "file": "Source/Images/S19_v01.png",
+      "status": "ACCEPTED",
+      "reason": "Four samples and the exact favorable-assessment wording are clear."
+    },
+    {
+      "file": "Source/Images/S20_v01.png",
+      "status": "ACCEPTED",
+      "reason": "Reported food ages and society custody duration use separate labeled tracks; blank slips replace false letter."
+    },
+    {
+      "file": "/Users/diplomat/.codex/generated_images/01a1a8b3-3b93-7652-b713-d807d52719ea/exec-d64fad83-841b-423c-b1b8-d89dbd30f80a.png",
+      "status": "REJECTED",
+      "reason": "Open stew bowl implied sampling/tasting instead of an inspection of sealed vessels."
+    },
+    {
+      "file": "Source/Images/S21_v01.png",
+      "status": "ACCEPTED",
+      "reason": "Macro sealed jar and food condition, with hands and blank custody docket at frame edge."
+    },
+    {
+      "file": "/Users/diplomat/.codex/generated_images/01a1a8b3-3b93-7652-b713-d807d52719ea/exec-7a9177e4-a7c8-4d4e-83ed-c5038395e968.png",
+      "status": "REJECTED",
+      "reason": "Unsubstantiated lab apparatus overwhelmed the method-publication transition."
+    },
+    {
+      "file": "Source/Images/S22_v02.png",
+      "status": "ACCEPTED",
+      "reason": "A hand orders loose method slips into a usable sequence; no invented apparatus."
+    },
+    {
+      "file": "Source/Images/S23_v01.png",
+      "status": "ACCEPTED",
+      "reason": "An author’s hand advances a blank method manuscript; no invented meeting or quotation."
+    },
+    {
+      "file": "Source/Images/S24_v01.png",
+      "status": "SUPERSEDED",
+      "reason": "Contained a generic wax seal and unrelated ships; revised without those details."
+    },
+    {
+      "file": "Source/Images/S24_v02.png",
+      "status": "ACCEPTED",
+      "reason": "The exact date 30 JANUARY 1810 is readable; generic blank letter, no seal or harbor."
+    },
+    {
+      "file": "Source/Images/S25_v01.png",
+      "status": "ACCEPTED",
+      "reason": "The amount 12,000 FRANCS is legible, with no coin transfer implied."
+    },
+    {
+      "file": "Source/Images/S26_v01.png",
+      "status": "ACCEPTED",
+      "reason": "200 COPIES is readable; repeating book array is editorial quantity, not a literal inventory."
+    },
+    {
+      "file": "Source/Images/S27_v01.png",
+      "status": "REJECTED",
+      "reason": "Generated committee/city scene added unsupported participants and a specific location."
+    },
+    {
+      "file": "Source/Images/S27_v02.png",
+      "status": "ACCEPTED",
+      "reason": "Neutral review table, exact BOARD REVIEW, separate blank invoice and coins."
+    },
+    {
+      "file": "Source/Images/S28_v01.png",
+      "status": "ACCEPTED",
+      "reason": "Preparation, tools and steps are legible as a three-part book spread."
+    },
+    {
+      "file": "Source/Images/S29_v01.png",
+      "status": "ACCEPTED",
+      "reason": "Vessels, corks, heating and mistakes labels are exact and tied to visible objects."
+    },
+    {
+      "file": "Source/Images/S30_v01.png",
+      "status": "SUPERSEDED",
+      "reason": "Jar had a fictive red wax seal and the book cover resembled an invented archival cover."
+    },
+    {
+      "file": "Source/Images/S30_v02.png",
+      "status": "ACCEPTED",
+      "reason": "Plain cover has only exact 1810 date; visible food jar uses cork/wire closure."
+    },
+    {
+      "file": "/Users/diplomat/.codex/generated_images/01a1a8b3-3b93-7652-b713-d807d52719ea/exec-b82fe9f5-9f13-45d6-94bd-ab631fd647e2.png",
+      "status": "REJECTED",
+      "reason": "End-screen draft put book inside Subscribe reserve and used blank video-card frames."
+    },
+    {
+      "file": "Source/Images/E01_v01.png",
+      "status": "ACCEPTED",
+      "reason": "Open paper background with central book/jar outside the three native element reserves."
+    },
+    {
+      "file": "/Users/diplomat/.codex/generated_images/01a1a8b3-3b93-7652-b713-d807d52719ea/exec-9c450f6c-a539-4b86-9285-9aa48e80eab2.png",
+      "status": "REJECTED",
+      "reason": "End-screen background was too busy in the reserves and had no book motif."
+    },
+    {
+      "file": "Source/Images/E02_v01.png",
+      "status": "ACCEPTED",
+      "reason": "Distinct paper seascape with book/jar centered outside the reserve areas; no UI frames or objects in reserves."
+    },
+    {
+      "file": "Source/Images/S11_v03.png",
+      "status": "ACCEPTED",
+      "reason": "Cork and wire loop are visibly simple hand-fastened closures; modern lever-clasp appearance removed."
+    },
+    {
+      "file": "Source/Images/S13_v02.png",
+      "status": "ACCEPTED",
+      "reason": "Cork and wire loop are visibly simple hand-fastened closures; modern lever-clasp appearance removed."
+    },
+    {
+      "file": "Source/Images/S21_v02.png",
+      "status": "ACCEPTED",
+      "reason": "Cork and wire loop are visibly simple hand-fastened closures; modern lever-clasp appearance removed."
+    },
+    {
+      "file": "Source/Images/S02_v02.png",
+      "status": "SUPERSEDED",
+      "reason": "Lower-edge THREE MONTHS plaque and month tabs overlapped the on-screen subtitle/border in the actual preview; replaced by S02_v03."
+    },
+    {
+      "file": "Source/Images/S02_v03.png",
+      "status": "ACCEPTED",
+      "reason": "Upper-right THREE MONTHS marker clears the bottom subtitle/border zone while preserving the harbor, boats, jar and paper material."
+    }
+  ]
+}

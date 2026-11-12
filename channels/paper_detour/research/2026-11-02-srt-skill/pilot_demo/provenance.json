@@ -1,0 +1,71 @@
+{
+  "date": "2026-11-02",
+  "episode": "Paper Detour 033",
+  "applicability": "NOT_REQUESTED",
+  "reason": "Existing Short uses the accepted semantic accent layer; this request creates the reusable SRT skill, not a new published subtitle layer. Demo stays in research.",
+  "inputs": {
+    "text": {
+      "path": "new_channel/videos/033_time_stop/Source/Script/NARRATION_EN_v02.txt",
+      "sha256": "af69eb8db211c132960531cf1a299ceda20d341a0483175b887e6c401214caba"
+    },
+    "audio": {
+      "path": "new_channel/videos/033_time_stop/Source/Voice/en_v02_lawrence/voice_en.mp3",
+      "sha256": "261a94b1122e8346887751e95d7b1a6095112b6a9442167d5fc334d304a9c0f0",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "start_time": "0.025057",
+            "duration": "48.000000"
+          }
+        ],
+        "format": {
+          "duration": "48.000000"
+        }
+      }
+    },
+    "alignment": {
+      "path": "new_channel/videos/033_time_stop/Source/Voice/en_v02_lawrence/voice_en.alignment.json",
+      "sha256": "09120bf7c08f9a2380df99c042f72f811f8344c618e10022a927132556882ef4"
+    },
+    "final_video": {
+      "path": "new_channel/videos/033_time_stop/Deliverables/Paper_Detour_033_time_stop_EN_1080x1920_30fps_v01.mp4",
+      "sha256": "6d3ce02af25a3a655961d25c84448f6d697f7ed4a74865a840cf7df179653dd9",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "start_time": "0.000000",
+            "duration": "50.066667"
+          },
+          {
+            "codec_name": "aac",
+            "start_time": "0.000000",
+            "duration": "48.032993"
+          }
+        ],
+        "format": {
+          "duration": "50.066667"
+        }
+      }
+    }
+  },
+  "word_adapter": "stories/automation/captions/word_timings.py",
+  "timed_word_count": 120,
+  "whitespace_word_count": 119,
+  "count_note": "word adapter separates lexical words on em dash, so count differs from whitespace tokens without changing text",
+  "alignment_character_end": 48.08,
+  "last_word_end": 47.76,
+  "cue_end_policy": "Last lexical-word end, no punctuation-time padding; final dot is retained in the text. Not a silent clamp.",
+  "demo_cues": 21,
+  "timebase": "source",
+  "timing_mapping": "UNVERIFIED",
+  "playback": "UNVERIFIED",
+  "final_sync": "NOT_CLAIMED",
+  "audio_or_video_mutations": false,
+  "external_actions": false
+}

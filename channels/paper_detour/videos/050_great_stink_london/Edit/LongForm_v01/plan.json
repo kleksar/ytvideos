@@ -1,0 +1,1616 @@
+{
+  "channel": "paper",
+  "format": "long",
+  "fps": 30,
+  "audio": "../../Source/Voice/voice_en_v02.mp3",
+  "audio_contract": {
+    "final_audio_sha256": "ba7c33b4e9ccb5e1e32283392e64807cc78284f4d718d78f666e04ffb71e44cb",
+    "applied_speed": 1.1,
+    "speed_evidence": "../../Source/Voice/voice_speed_evidence_v02.md"
+  },
+  "scenes": [
+    {
+      "image": "../../Source/Images/scene_01_crossness_opening_v01.png",
+      "start_frame": 0,
+      "end_frame": 146,
+      "direction": "left_to_right",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Scene 01 focal idea",
+        "reason": "Keep the main narrative action readable while the whole paper diorama moves slowly.",
+        "start": {
+          "center": [
+            0.506,
+            0.5
+          ],
+          "scale": 1.035
+        },
+        "end": {
+          "center": [
+            0.494,
+            0.5
+          ],
+          "scale": 1.055
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/scene_02_crossness_beam_engine_v01.png",
+      "start_frame": 146,
+      "end_frame": 294,
+      "direction": "right_to_left",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Scene 02 focal idea",
+        "reason": "Keep the main narrative action readable while the whole paper diorama moves slowly.",
+        "start": {
+          "center": [
+            0.494,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.506,
+            0.5
+          ],
+          "scale": 1.035
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/scene_03_covered_reservoir_v01.png",
+      "start_frame": 294,
+      "end_frame": 442,
+      "direction": "left_to_right",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Scene 03 focal idea",
+        "reason": "Keep the main narrative action readable while the whole paper diorama moves slowly.",
+        "start": {
+          "center": [
+            0.506,
+            0.5
+          ],
+          "scale": 1.035
+        },
+        "end": {
+          "center": [
+            0.494,
+            0.5
+          ],
+          "scale": 1.055
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/scene_04_reservoir_stillness_v01.png",
+      "start_frame": 442,
+      "end_frame": 565,
+      "direction": "right_to_left",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Scene 04 focal idea",
+        "reason": "Keep the main narrative action readable while the whole paper diorama moves slowly.",
+        "start": {
+          "center": [
+            0.494,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.506,
+            0.5
+          ],
+          "scale": 1.035
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/scene_05_ebb_tide_v01.png",
+      "start_frame": 565,
+      "end_frame": 713,
+      "direction": "left_to_right",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Scene 05 focal idea",
+        "reason": "Keep the main narrative action readable while the whole paper diorama moves slowly.",
+        "start": {
+          "center": [
+            0.506,
+            0.5
+          ],
+          "scale": 1.035
+        },
+        "end": {
+          "center": [
+            0.494,
+            0.5
+          ],
+          "scale": 1.055
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/scene_06_outfall_v02.png",
+      "start_frame": 713,
+      "end_frame": 868,
+      "direction": "right_to_left",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Scene 06 focal idea",
+        "reason": "Keep the main narrative action readable while the whole paper diorama moves slowly.",
+        "start": {
+          "center": [
+            0.494,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.506,
+            0.5
+          ],
+          "scale": 1.035
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/scene_07_sewer_branches_v02.png",
+      "start_frame": 868,
+      "end_frame": 1027,
+      "direction": "left_to_right",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Scene 07 focal idea",
+        "reason": "Keep the main narrative action readable while the whole paper diorama moves slowly.",
+        "start": {
+          "center": [
+            0.506,
+            0.5
+          ],
+          "scale": 1.035
+        },
+        "end": {
+          "center": [
+            0.494,
+            0.5
+          ],
+          "scale": 1.055
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/scene_08_old_london_v01.png",
+      "start_frame": 1027,
+      "end_frame": 1161,
+      "direction": "right_to_left",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Scene 08 focal idea",
+        "reason": "Keep the main narrative action readable while the whole paper diorama moves slowly.",
+        "start": {
+          "center": [
+            0.494,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.506,
+            0.5
+          ],
+          "scale": 1.035
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/scene_09_sewage_in_river_v02.png",
+      "start_frame": 1161,
+      "end_frame": 1291,
+      "direction": "left_to_right",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Scene 09 focal idea",
+        "reason": "Keep the main narrative action readable while the whole paper diorama moves slowly.",
+        "start": {
+          "center": [
+            0.506,
+            0.5
+          ],
+          "scale": 1.035
+        },
+        "end": {
+          "center": [
+            0.494,
+            0.5
+          ],
+          "scale": 1.055
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/scene_10_tidal_current_v01.png",
+      "start_frame": 1291,
+      "end_frame": 1445,
+      "direction": "right_to_left",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Scene 10 focal idea",
+        "reason": "Keep the main narrative action readable while the whole paper diorama moves slowly.",
+        "start": {
+          "center": [
+            0.494,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.506,
+            0.5
+          ],
+          "scale": 1.035
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/scene_11_parliament_debate_v01.png",
+      "start_frame": 1445,
+      "end_frame": 1576,
+      "direction": "left_to_right",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Scene 11 focal idea",
+        "reason": "Keep the main narrative action readable while the whole paper diorama moves slowly.",
+        "start": {
+          "center": [
+            0.506,
+            0.5
+          ],
+          "scale": 1.035
+        },
+        "end": {
+          "center": [
+            0.494,
+            0.5
+          ],
+          "scale": 1.055
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/scene_12_beyond_city_v01.png",
+      "start_frame": 1576,
+      "end_frame": 1710,
+      "direction": "right_to_left",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Scene 12 focal idea",
+        "reason": "Keep the main narrative action readable while the whole paper diorama moves slowly.",
+        "start": {
+          "center": [
+            0.494,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.506,
+            0.5
+          ],
+          "scale": 1.035
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/scene_13_where_enter_v01.png",
+      "start_frame": 1710,
+      "end_frame": 1838,
+      "direction": "left_to_right",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Scene 13 focal idea",
+        "reason": "Keep the main narrative action readable while the whole paper diorama moves slowly.",
+        "start": {
+          "center": [
+            0.506,
+            0.5
+          ],
+          "scale": 1.035
+        },
+        "end": {
+          "center": [
+            0.494,
+            0.5
+          ],
+          "scale": 1.055
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/scene_14_summer_1858_v02.png",
+      "start_frame": 1838,
+      "end_frame": 1972,
+      "direction": "right_to_left",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Scene 14 focal idea",
+        "reason": "Keep the main narrative action readable while the whole paper diorama moves slowly.",
+        "start": {
+          "center": [
+            0.494,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.506,
+            0.5
+          ],
+          "scale": 1.035
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/scene_15_riverbank_reaction_v01.png",
+      "start_frame": 1972,
+      "end_frame": 2113,
+      "direction": "left_to_right",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Scene 15 focal idea",
+        "reason": "Keep the main narrative action readable while the whole paper diorama moves slowly.",
+        "start": {
+          "center": [
+            0.506,
+            0.5
+          ],
+          "scale": 1.035
+        },
+        "end": {
+          "center": [
+            0.494,
+            0.5
+          ],
+          "scale": 1.055
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/scene_16_westminster_1858_v01.png",
+      "start_frame": 2113,
+      "end_frame": 2271,
+      "direction": "right_to_left",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Scene 16 focal idea",
+        "reason": "Keep the main narrative action readable while the whole paper diorama moves slowly.",
+        "start": {
+          "center": [
+            0.494,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.506,
+            0.5
+          ],
+          "scale": 1.035
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/scene_17_lawmakers_interrupted_v01.png",
+      "start_frame": 2271,
+      "end_frame": 2431,
+      "direction": "left_to_right",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Scene 17 focal idea",
+        "reason": "Keep the main narrative action readable while the whole paper diorama moves slowly.",
+        "start": {
+          "center": [
+            0.506,
+            0.5
+          ],
+          "scale": 1.035
+        },
+        "end": {
+          "center": [
+            0.494,
+            0.5
+          ],
+          "scale": 1.055
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/scene_18_sewer_plans_v02.png",
+      "start_frame": 2431,
+      "end_frame": 2602,
+      "direction": "right_to_left",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Scene 18 focal idea",
+        "reason": "Keep the main narrative action readable while the whole paper diorama moves slowly.",
+        "start": {
+          "center": [
+            0.494,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.506,
+            0.5
+          ],
+          "scale": 1.035
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/scene_19_interceptor_cutaway_v01.png",
+      "start_frame": 2602,
+      "end_frame": 2747,
+      "direction": "left_to_right",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Scene 19 focal idea",
+        "reason": "Keep the main narrative action readable while the whole paper diorama moves slowly.",
+        "start": {
+          "center": [
+            0.506,
+            0.5
+          ],
+          "scale": 1.035
+        },
+        "end": {
+          "center": [
+            0.494,
+            0.5
+          ],
+          "scale": 1.055
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/scene_20_plan_urgency_v01.png",
+      "start_frame": 2747,
+      "end_frame": 2913,
+      "direction": "right_to_left",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Scene 20 focal idea",
+        "reason": "Keep the main narrative action readable while the whole paper diorama moves slowly.",
+        "start": {
+          "center": [
+            0.494,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.506,
+            0.5
+          ],
+          "scale": 1.035
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/scene_21_unanswered_end_v01.png",
+      "start_frame": 2913,
+      "end_frame": 3061,
+      "direction": "left_to_right",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Scene 21 focal idea",
+        "reason": "Keep the main narrative action readable while the whole paper diorama moves slowly.",
+        "start": {
+          "center": [
+            0.506,
+            0.5
+          ],
+          "scale": 1.035
+        },
+        "end": {
+          "center": [
+            0.494,
+            0.5
+          ],
+          "scale": 1.055
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/scene_22_two_options_v01.png",
+      "start_frame": 3061,
+      "end_frame": 3203,
+      "direction": "right_to_left",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Scene 22 focal idea",
+        "reason": "Keep the main narrative action readable while the whole paper diorama moves slowly.",
+        "start": {
+          "center": [
+            0.494,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.506,
+            0.5
+          ],
+          "scale": 1.035
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/scene_23_barking_creek_option_v01.png",
+      "start_frame": 3203,
+      "end_frame": 3349,
+      "direction": "left_to_right",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Scene 23 focal idea",
+        "reason": "Keep the main narrative action readable while the whole paper diorama moves slowly.",
+        "start": {
+          "center": [
+            0.506,
+            0.5
+          ],
+          "scale": 1.035
+        },
+        "end": {
+          "center": [
+            0.494,
+            0.5
+          ],
+          "scale": 1.055
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/scene_24_sea_reach_option_v01.png",
+      "start_frame": 3349,
+      "end_frame": 3511,
+      "direction": "right_to_left",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Scene 24 focal idea",
+        "reason": "Keep the main narrative action readable while the whole paper diorama moves slowly.",
+        "start": {
+          "center": [
+            0.494,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.506,
+            0.5
+          ],
+          "scale": 1.035
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/scene_25_long_route_cost_v01.png",
+      "start_frame": 3511,
+      "end_frame": 3642,
+      "direction": "left_to_right",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Scene 25 focal idea",
+        "reason": "Keep the main narrative action readable while the whole paper diorama moves slowly.",
+        "start": {
+          "center": [
+            0.506,
+            0.5
+          ],
+          "scale": 1.035
+        },
+        "end": {
+          "center": [
+            0.494,
+            0.5
+          ],
+          "scale": 1.055
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/scene_26_tidal_uncertainty_v02.png",
+      "start_frame": 3642,
+      "end_frame": 3770,
+      "direction": "right_to_left",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Scene 26 focal idea",
+        "reason": "Keep the main narrative action readable while the whole paper diorama moves slowly.",
+        "start": {
+          "center": [
+            0.494,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.506,
+            0.5
+          ],
+          "scale": 1.035
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/scene_27_woolwich_complaint_v01.png",
+      "start_frame": 3770,
+      "end_frame": 3924,
+      "direction": "left_to_right",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Scene 27 focal idea",
+        "reason": "Keep the main narrative action readable while the whole paper diorama moves slowly.",
+        "start": {
+          "center": [
+            0.506,
+            0.5
+          ],
+          "scale": 1.035
+        },
+        "end": {
+          "center": [
+            0.494,
+            0.5
+          ],
+          "scale": 1.055
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/scene_28_woolwich_own_discharge_v01.png",
+      "start_frame": 3924,
+      "end_frame": 4063,
+      "direction": "right_to_left",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Scene 28 focal idea",
+        "reason": "Keep the main narrative action readable while the whole paper diorama moves slowly.",
+        "start": {
+          "center": [
+            0.494,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.506,
+            0.5
+          ],
+          "scale": 1.035
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/scene_29_debate_disputed_v01.png",
+      "start_frame": 4063,
+      "end_frame": 4194,
+      "direction": "left_to_right",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Scene 29 focal idea",
+        "reason": "Keep the main narrative action readable while the whole paper diorama moves slowly.",
+        "start": {
+          "center": [
+            0.506,
+            0.5
+          ],
+          "scale": 1.035
+        },
+        "end": {
+          "center": [
+            0.494,
+            0.5
+          ],
+          "scale": 1.055
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/scene_30_ordered_construction_v01.png",
+      "start_frame": 4194,
+      "end_frame": 4354,
+      "direction": "right_to_left",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Scene 30 focal idea",
+        "reason": "Keep the main narrative action readable while the whole paper diorama moves slowly.",
+        "start": {
+          "center": [
+            0.494,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.506,
+            0.5
+          ],
+          "scale": 1.035
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/scene_31_interception_cutaway_v01.png",
+      "start_frame": 4354,
+      "end_frame": 4510,
+      "direction": "left_to_right",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Scene 31 focal idea",
+        "reason": "Keep the main narrative action readable while the whole paper diorama moves slowly.",
+        "start": {
+          "center": [
+            0.506,
+            0.5
+          ],
+          "scale": 1.035
+        },
+        "end": {
+          "center": [
+            0.494,
+            0.5
+          ],
+          "scale": 1.055
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/scene_32_law_blank_endpoint_v01.png",
+      "start_frame": 4510,
+      "end_frame": 4678,
+      "direction": "right_to_left",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Scene 32 focal idea",
+        "reason": "Keep the main narrative action readable while the whole paper diorama moves slowly.",
+        "start": {
+          "center": [
+            0.494,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.506,
+            0.5
+          ],
+          "scale": 1.035
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/scene_33_board_decision_v01.png",
+      "start_frame": 4678,
+      "end_frame": 4824,
+      "direction": "left_to_right",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Scene 33 focal idea",
+        "reason": "Keep the main narrative action readable while the whole paper diorama moves slowly.",
+        "start": {
+          "center": [
+            0.506,
+            0.5
+          ],
+          "scale": 1.035
+        },
+        "end": {
+          "center": [
+            0.494,
+            0.5
+          ],
+          "scale": 1.055
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/scene_34_two_selected_routes_v01.png",
+      "start_frame": 4824,
+      "end_frame": 4958,
+      "direction": "right_to_left",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Scene 34 focal idea",
+        "reason": "Keep the main narrative action readable while the whole paper diorama moves slowly.",
+        "start": {
+          "center": [
+            0.494,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.506,
+            0.5
+          ],
+          "scale": 1.035
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/scene_35_barking_selected_v01.png",
+      "start_frame": 4958,
+      "end_frame": 5099,
+      "direction": "left_to_right",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Scene 35 focal idea",
+        "reason": "Keep the main narrative action readable while the whole paper diorama moves slowly.",
+        "start": {
+          "center": [
+            0.506,
+            0.5
+          ],
+          "scale": 1.035
+        },
+        "end": {
+          "center": [
+            0.494,
+            0.5
+          ],
+          "scale": 1.055
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/scene_36_crossness_point_selected_v01.png",
+      "start_frame": 5099,
+      "end_frame": 5226,
+      "direction": "right_to_left",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Scene 36 focal idea",
+        "reason": "Keep the main narrative action readable while the whole paper diorama moves slowly.",
+        "start": {
+          "center": [
+            0.494,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.506,
+            0.5
+          ],
+          "scale": 1.035
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/scene_37_sea_reach_rejected_v02.png",
+      "start_frame": 5226,
+      "end_frame": 5366,
+      "direction": "left_to_right",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Scene 37 focal idea",
+        "reason": "Keep the main narrative action readable while the whole paper diorama moves slowly.",
+        "start": {
+          "center": [
+            0.506,
+            0.5
+          ],
+          "scale": 1.035
+        },
+        "end": {
+          "center": [
+            0.494,
+            0.5
+          ],
+          "scale": 1.055
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/scene_38_sewer_construction_v01.png",
+      "start_frame": 5366,
+      "end_frame": 5511,
+      "direction": "right_to_left",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Scene 38 focal idea",
+        "reason": "Keep the main narrative action readable while the whole paper diorama moves slowly.",
+        "start": {
+          "center": [
+            0.494,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.506,
+            0.5
+          ],
+          "scale": 1.035
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/scene_39_crossness_building_v01.png",
+      "start_frame": 5511,
+      "end_frame": 5659,
+      "direction": "left_to_right",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Scene 39 focal idea",
+        "reason": "Keep the main narrative action readable while the whole paper diorama moves slowly.",
+        "start": {
+          "center": [
+            0.506,
+            0.5
+          ],
+          "scale": 1.035
+        },
+        "end": {
+          "center": [
+            0.494,
+            0.5
+          ],
+          "scale": 1.055
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/scene_40_crossness_pumping_process_v02.png",
+      "start_frame": 5659,
+      "end_frame": 5802,
+      "direction": "right_to_left",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Scene 40 focal idea",
+        "reason": "Keep the main narrative action readable while the whole paper diorama moves slowly.",
+        "start": {
+          "center": [
+            0.494,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.506,
+            0.5
+          ],
+          "scale": 1.035
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/scene_41_hold_release_v01.png",
+      "start_frame": 5802,
+      "end_frame": 5958,
+      "direction": "left_to_right",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Scene 41 focal idea",
+        "reason": "Keep the main narrative action readable while the whole paper diorama moves slowly.",
+        "start": {
+          "center": [
+            0.506,
+            0.5
+          ],
+          "scale": 1.035
+        },
+        "end": {
+          "center": [
+            0.494,
+            0.5
+          ],
+          "scale": 1.055
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/scene_42_crossness_operational_v01.png",
+      "start_frame": 5958,
+      "end_frame": 6115,
+      "direction": "right_to_left",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Scene 42 focal idea",
+        "reason": "Keep the main narrative action readable while the whole paper diorama moves slowly.",
+        "start": {
+          "center": [
+            0.494,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.506,
+            0.5
+          ],
+          "scale": 1.035
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/scene_43_northern_network_v01.png",
+      "start_frame": 6115,
+      "end_frame": 6283,
+      "direction": "left_to_right",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Scene 43 focal idea",
+        "reason": "Keep the main narrative action readable while the whole paper diorama moves slowly.",
+        "start": {
+          "center": [
+            0.506,
+            0.5
+          ],
+          "scale": 1.035
+        },
+        "end": {
+          "center": [
+            0.494,
+            0.5
+          ],
+          "scale": 1.055
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/scene_44_abbey_mills_v01.png",
+      "start_frame": 6283,
+      "end_frame": 6435,
+      "direction": "right_to_left",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Scene 44 focal idea",
+        "reason": "Keep the main narrative action readable while the whole paper diorama moves slowly.",
+        "start": {
+          "center": [
+            0.494,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.506,
+            0.5
+          ],
+          "scale": 1.035
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/scene_45_one_system_1875_v01.png",
+      "start_frame": 6435,
+      "end_frame": 6592,
+      "direction": "left_to_right",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Scene 45 focal idea",
+        "reason": "Keep the main narrative action readable while the whole paper diorama moves slowly.",
+        "start": {
+          "center": [
+            0.506,
+            0.5
+          ],
+          "scale": 1.035
+        },
+        "end": {
+          "center": [
+            0.494,
+            0.5
+          ],
+          "scale": 1.055
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/scene_46_barking_outfall_v02.png",
+      "start_frame": 6592,
+      "end_frame": 6740,
+      "direction": "right_to_left",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Scene 46 focal idea",
+        "reason": "Keep the main narrative action readable while the whole paper diorama moves slowly.",
+        "start": {
+          "center": [
+            0.494,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.506,
+            0.5
+          ],
+          "scale": 1.035
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/scene_47_crossness_outlet_v01.png",
+      "start_frame": 6740,
+      "end_frame": 6861,
+      "direction": "left_to_right",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Scene 47 focal idea",
+        "reason": "Keep the main narrative action readable while the whole paper diorama moves slowly.",
+        "start": {
+          "center": [
+            0.506,
+            0.5
+          ],
+          "scale": 1.035
+        },
+        "end": {
+          "center": [
+            0.494,
+            0.5
+          ],
+          "scale": 1.055
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/scene_48_no_treatment_v01.png",
+      "start_frame": 6861,
+      "end_frame": 7009,
+      "direction": "right_to_left",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Scene 48 focal idea",
+        "reason": "Keep the main narrative action readable while the whole paper diorama moves slowly.",
+        "start": {
+          "center": [
+            0.494,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.506,
+            0.5
+          ],
+          "scale": 1.035
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/scene_49_route_changed_not_water_v01.png",
+      "start_frame": 7009,
+      "end_frame": 7138,
+      "direction": "left_to_right",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Scene 49 focal idea",
+        "reason": "Keep the main narrative action readable while the whole paper diorama moves slowly.",
+        "start": {
+          "center": [
+            0.506,
+            0.5
+          ],
+          "scale": 1.035
+        },
+        "end": {
+          "center": [
+            0.494,
+            0.5
+          ],
+          "scale": 1.055
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/scene_50_untreated_outfall_v01.png",
+      "start_frame": 7138,
+      "end_frame": 7284,
+      "direction": "right_to_left",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Scene 50 focal idea",
+        "reason": "Keep the main narrative action readable while the whole paper diorama moves slowly.",
+        "start": {
+          "center": [
+            0.494,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.506,
+            0.5
+          ],
+          "scale": 1.035
+        }
+      }
+    }
+  ],
+  "subtitles": {
+    "mode": "words",
+    "words": "../../Work/paper050-great-stink-v01-20261105/Subtitles/word_times_v01.json",
+    "transcript": "../../Work/paper050-great-stink-v01-20261105/Subtitles/transcript_en_v01.txt",
+    "phrases": [
+      "On April 4, 1865, an unusual",
+      "machine began operating",
+      "on the eastern edge of London.",
+      "At Crossness pumping station,",
+      "steam-powered pumps lifted",
+      "the city's sewage",
+      "into a covered reservoir.",
+      "But it wasn't",
+      "released straight away.",
+      "The sewage was held there",
+      "until the Thames began",
+      "to flow out with the tide.",
+      "Only then was it discharged",
+      "into the river.",
+      "This was the southern end of London's new sewer system.",
+      "Across the river, the northern",
+      "branch led to Barking Creek.",
+      "To understand why London",
+      "built these two routes,",
+      "yet still dumped its waste",
+      "into the Thames, we need",
+      "to go back to the problem",
+      "they were supposed to solve.",
+      "In the middle of the nineteenth",
+      "century, London's sewers",
+      "emptied waste directly",
+      "into the Thames.",
+      "The sewage disappeared",
+      "from sight,",
+      "but it remained in the river",
+      "flowing through the capital.",
+      "And the Thames was a tidal river.",
+      "Its current could change direction.",
+      "During parliamentary debates",
+      "in July 1858, no one could identify a discharge point where they could be certain",
+      "the pollution would never flow back.",
+      "Simply carrying sewage",
+      "beyond the city wasn't enough.",
+      "London also had to decide where that sewage would enter",
+      "the water again.",
+      "That summer, intense",
+      "heat and low water levels made",
+      "the smell from the polluted",
+      "riverbanks unbearable.",
+      "The stench reached",
+      "the Houses of Parliament",
+      "in Westminster, disrupting",
+      "the work of lawmakers.",
+      "Plans for intercepting sewers,",
+      "large pipes designed to collect",
+      "and redirect the city's waste,",
+      "had been discussed before.",
+      "The Great Stink",
+      "made their construction urgent.",
+      "But the smell couldn't",
+      "answer one crucial question:",
+      "where should those new",
+      "sewers end?",
+      "On July 22, Parliament",
+      "debated two options.",
+      "One was to discharge",
+      "the sewage near Barking Creek.",
+      "The other was to carry",
+      "it farther downstream,",
+      "to Sea Reach.",
+      "The longer route meant",
+      "building more infrastructure.",
+      "The shorter route",
+      "left an unresolved",
+      "question about how the sewage would behave in a tidal river.",
+      "During the same debate,",
+      "a representative from Woolwich",
+      "said his district was already suffering",
+      "from London's sewage.",
+      "Others challenged that claim,",
+      "pointing out that Woolwich",
+      "discharged sewage of its own.",
+      "The debate did not establish that London's sewage had caused the reported harm.",
+      "The issue remained disputed.",
+      "On August 2, Parliament",
+      "ordered the Metropolitan",
+      "Board of Works, the authority",
+      "responsible for major",
+      "public works in London, to begin",
+      "the necessary construction.",
+      "The goal was to prevent",
+      "the capital's sewage",
+      "from entering the Thames",
+      "within the metropolitan area,",
+      "as far as reasonably practical.",
+      "But the law did not specify",
+      "a single discharge point.",
+      "That decision was left",
+      "to the board.",
+      "Soon, it settled on two routes.",
+      "The northern sewers would lead",
+      "to Barking Creek.",
+      "The southern sewers would lead",
+      "to Crossness Point.",
+      "Sea Reach, the more distant",
+      "option discussed in Parliament,",
+      "was not chosen for the original system.",
+      "In 1859, construction",
+      "began on the southern sewers",
+      "and Crossness pumping station.",
+      "There, steam-powered",
+      "pumps would lift the sewage",
+      "into a covered reservoir.",
+      "The waste would be held",
+      "until the tide was going out,",
+      "then released into the river.",
+      "Crossness opened in 1865.",
+      "Meanwhile, the northern",
+      "network continued to develop.",
+      "Its Abbey Mills pumping station was completed by 1868.",
+      "And by around 1875,",
+      "the northern and southern",
+      "branches were operating",
+      "together as one system.",
+      "So London finally had its answer.",
+      "Sewage from the north went",
+      "to Barking Creek.",
+      "Sewage from the south went",
+      "to Crossness Point.",
+      "The new sewers",
+      "carried intercepted waste away",
+      "from the centre of London.",
+      "At Crossness, the reservoir",
+      "also made it possible",
+      "to wait for the outgoing tide",
+      "before releasing it.",
+      "But there was one",
+      "major limitation.",
+      "The original system did not clean the sewage",
+      "before discharging it.",
+      "The waste still entered",
+      "the Thames.",
+      "It was simply",
+      "released farther downstream.",
+      "London had changed the route",
+      "its sewage travelled and,",
+      "at Crossness,",
+      "the timing of its release.",
+      "But it had not turned",
+      "sewage into clean water."
+    ]
+  },
+  "enforce_scene_duration": true
+}

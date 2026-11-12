@@ -1,0 +1,60 @@
+{
+  "created_utc": "2026-11-03T09:20:00Z",
+  "channel": "Nuviko History",
+  "channel_id": "UCbyLx6Rf3iWww4bPZJ2oo2A",
+  "video_id": "hEX9sxYZ0-4",
+  "experiment_type": "title_only",
+  "current_title": "The Ship That Brought Plague to Marseille | 1720",
+  "thumbnail": {
+    "file": "THUMBNAIL_candidate_v01.png",
+    "sha256": "01c387247a5a234c74a785bbeff9d02b9ab4288165f5a0b136de3a6e1985d2bc",
+    "content": "Approved traveler anchor, illustrated traveler with realistic 1720 Marseille harbor and merchant ship; no text.",
+    "held_constant": true,
+    "phone_size_preview_review": "visual inspection passed; actual YouTube mobile card rendering remains unverified"
+  },
+  "content_basis": "The finished film follows the Grand Saint-Antoine voyage, its arrival in Marseille, quarantine decisions, the outbreak, and the vessel’s eventual fate.",
+  "variants": [
+    {
+      "label": "A",
+      "title": "The Ship That Brought Plague to Marseille | 1720",
+      "characters": 48,
+      "content_check": "fits the film premise and does not add a claim absent from the finished story",
+      "surface_display": "live feed/mobile truncation not yet verified"
+    },
+    {
+      "label": "B",
+      "title": "How the Plague Reached Marseille in 1720",
+      "characters": 40,
+      "content_check": "fits the film premise and does not add a claim absent from the finished story",
+      "surface_display": "live feed/mobile truncation not yet verified"
+    },
+    {
+      "label": "C",
+      "title": "Marseille 1720: The Ship, the Quarantine, and the Plague",
+      "characters": 56,
+      "content_check": "fits the film premise and does not add a claim absent from the finished story",
+      "surface_display": "live feed/mobile truncation not yet verified"
+    }
+  ],
+  "hypothesis": "Variant B may improve watch time by stating the arrival question directly; A foregrounds the ship; C names the three central elements. The native experiment will evaluate watch time; no result is assumed.",
+  "native_test_plan": {
+    "primary_metric": "YouTube native watch-time share",
+    "variant_order": [
+      "A",
+      "B",
+      "C"
+    ],
+    "hold_constant": [
+      "thumbnail",
+      "description",
+      "tags",
+      "category",
+      "audience",
+      "other metadata"
+    ],
+    "platform_behavior": "YouTube selects its reported winner when there is a clear result; if no clear winner, first submitted variant A is the default. This automatic behavior is part of the requested experiment.",
+    "review_window": "allow the native test to run up to two weeks or until Studio reports completion; do not stop early for transient leads"
+  },
+  "eligibility": "unverified; inspect native Studio control only after authorized Unlisted transition",
+  "readiness": "content reviewed; awaits verified media QA, then live Studio title-display/eligibility checks"
+}

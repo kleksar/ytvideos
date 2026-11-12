@@ -1,0 +1,72 @@
+{
+  "schema": "ytv-export-contract-v1",
+  "status": "READY_TO_RENDER",
+  "episode_id": "TWL_E003",
+  "language": "en",
+  "format": "short",
+  "purpose": "local review",
+  "edit": {
+    "timeline_id": "/Users/diplomat/ytvideos/channels/two_ways_lab/videos/TWL_E003_carrying/Edit/timeline_v03.json",
+    "revision": "v03",
+    "source": {
+      "path": "/Users/diplomat/ytvideos/channels/two_ways_lab/videos/TWL_E003_carrying/Edit/timeline_v03.json",
+      "sha256": "307b6bbcf77cdbeacbf2089f546726ec36d3e805ded4203b0354b84f6ca6ab2b"
+    }
+  },
+  "timeline": {
+    "width": 1080,
+    "height": 1920,
+    "aspect_ratio": "9:16",
+    "sample_aspect_ratio": "1:1",
+    "fps": "30/1",
+    "frame_count": 1307,
+    "duration_seconds": 43.56666666666667,
+    "output_color_space": "Rec.709 SDR"
+  },
+  "required_delivery": {
+    "container": "MP4",
+    "video": {
+      "codec_name": "h264",
+      "pix_fmt": "yuv420p",
+      "scan": "progressive",
+      "cadence": "constant 30/1 fps",
+      "color_primaries": "bt709",
+      "color_transfer": "bt709",
+      "color_space": "bt709",
+      "color_range": "tv"
+    },
+    "audio_contract": {
+      "owner_handoff": {
+        "path": "/Users/diplomat/ytvideos/channels/two_ways_lab/videos/TWL_E003_carrying/Source/Audio/v02/mix-evidence.md",
+        "sha256": "d16e271637ecc45bc41fa18608d7eae638d17e0dd24bb8f8648cb8108648dc84"
+      },
+      "accepted_complete_mix": {
+        "path": "/Users/diplomat/ytvideos/channels/two_ways_lab/videos/TWL_E003_carrying/Source/Audio/v02/mix.wav",
+        "sha256": "d3853a1bdea4d357202e7fa21330abf4db9dace16f24115b2045bebd0a8b7c27"
+      },
+      "source_rate_channels": "24000 Hz stereo PCM",
+      "codec_name": "aac",
+      "profile": "LC",
+      "sample_rate": 24000,
+      "channels": 2,
+      "target_bit_rate": "256k"
+    }
+  },
+  "encoding": {
+    "requested_arguments": {
+      "encoder": "libx264",
+      "video_bitrate": "10M",
+      "output_pix_fmt": "yuv420p",
+      "fps": "30/1",
+      "audio_codec": "aac",
+      "audio_bitrate": "256k"
+    },
+    "container_options": "+faststart"
+  },
+  "preflight": {
+    "unresolved_required_fields": [],
+    "output_path": "/Users/diplomat/ytvideos/channels/two_ways_lab/videos/TWL_E003_carrying/Deliverables/TWL_E003_review_v03.mp4",
+    "writer": "local FFmpeg CLI; newly allocated output",
+    "authorization": "one local review pilot"
+  }
+}

@@ -1,0 +1,638 @@
+{
+  "schema_version": 1,
+  "status": "READY_TO_RENDER",
+  "episode": "Paper Detour 047 \u2014 Franklin search",
+  "language": "English",
+  "format": "Long film 16:9",
+  "purpose": "Review MP4 for the user; no upload or publication.",
+  "settings_profile": {
+    "path": [
+      "/Users/diplomat/ytvideos/automation/ffmpeg_montage/profiles/paper.json",
+      "/Users/diplomat/ytvideos/automation/ffmpeg_montage/profiles/long.json",
+      "/Users/diplomat/ytvideos/.agents/skills/ytv-video-export/references/delivery.md"
+    ],
+    "sha256": {
+      "paper.json": "e2b89e813ec25985601ef65997ea8b94c19e96aa6d158333edf962b42e02ffc0",
+      "long.json": "e8f9f5dd0354283634a0cf9dc1816736bac38de158de1d0bdd1b8b4658f51459",
+      "delivery.md": "494eb3736b9a39861949084e6623b2033bbd2ea9c4cdef31c48f035938dc89a6"
+    }
+  },
+  "edit": {
+    "project_id": null,
+    "timeline_id": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Edit/plan_v03.json",
+    "saved_revision_evidence": "Versioned FFmpeg timeline plan is the saved edit; no native-editor project ID applies.",
+    "timeline_read_path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Edit/plan_v03.json",
+    "timeline_read_sha256": "673b630607695425d714f8d36ee669aa013db2b33b58ff1bef6030ddf6bd7226",
+    "dependencies": [
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Edit/plan_v03.json",
+        "sha256": "673b630607695425d714f8d36ee669aa013db2b33b58ff1bef6030ddf6bd7226"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/NARRATION_EN.md",
+        "sha256": "20363f3e0180169e697e37310a02045c38c7455f76cb8ce7ba04f5f0de12d266"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Work/production-v02/Edit/Captions/word_times.json",
+        "sha256": "30b76781f77c6da49e10008d36580dea44088f5ac820df250f5c88e434e6a578"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Edit/Audio/speed_evidence.md",
+        "sha256": "caa0a915ed432411da1c19bb17ddf6a1aa743ae9450add8b4089895755232cfe"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Work/production-v02/Source/Voice/voice_en_fullmix.wav",
+        "sha256": "36a021c6609f605fc2fe0bf6b25bbf838d6901b29ed70df5b5d14289ba65b53b"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Research/SUBTITLE_PRE_RENDER_REVIEW_v02.json",
+        "sha256": "9c414121443a055f450025b4824d79a88c400fa4a9bc1430c0e4ec6b2326dc74"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Work/production-v02/render-work-v05/subtitle_contract.json",
+        "sha256": "f4deb5be0a3676fe2f2003d273ac3177433c507f9ea3ff6c92e65d785b72d0d5"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_001_v02.png",
+        "sha256": "d5eaa63e21506cf0731e8fef6f31c8567c8525ac4a3dd8fcd68f66cf6a3fc544"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_002_v02.png",
+        "sha256": "7b9b70efbd661fe3d1f31183ec6dcbdedfd8297b3864345426f33c353f4b3502"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_003_v02.png",
+        "sha256": "351db1b8114ed52aa4e4ca0694794370a4eebf16093cc893b15b75fef1bfd9d5"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_004_v02.png",
+        "sha256": "900054ef6eb12d9720877630510876e284addf7675bbed9845350bb8252d2ebc"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_005_v02.png",
+        "sha256": "ac3ef814d8763084719c31db1cdc496ec7eca0070be06c41735a0aaec86d1c30"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_006_v02.png",
+        "sha256": "f504aba65d5941db4d0f175a1709ab96f28605e9d579e4cb6cb099b8bd2ad023"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_007_v02.png",
+        "sha256": "4ae5e78c4b40a8bb7056daedbec77dcd7796b5b495aec96fec3c1b1c1de0957d"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_008_v01.png",
+        "sha256": "78cbbba8f194df06e29e84c8ca065bb88ada3549ed236e9768dd87cf4a34b19e"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_009_v02.png",
+        "sha256": "dbff679eebad28150a19c06f2e1110ebcba5099c87084d9da849b640b9d9c3c6"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_010_v01.png",
+        "sha256": "63ba85a3883e6afaf7dd5634793ae6c8df0d92223acfdc2e7f9828996d06f6c1"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_011_v01.png",
+        "sha256": "6a4dd0bb52d0eaf8a9d4c51250f98d5af6936e3ce094bdd9f29ebd2aa11ec7c5"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_012_v01.png",
+        "sha256": "fb8b2fffd2207f61bbf31924bb348a4028b6319facd887eb5dafc961184baa9a"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_013_v01.png",
+        "sha256": "ee0fed23762018b36345fa50e32fc7d6cb910ba4fbd3b9fa292edf0e123dc1fd"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_014_v01.png",
+        "sha256": "0c7090c099f658bd5819e4f766d77c5988c44e54beea15b698e1e7ccd830c6be"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_015_v01.png",
+        "sha256": "df9497c96ee3239d26d077bdc0672d57ebeec14af11ceb328da014595144f8b0"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_016_v01.png",
+        "sha256": "6dfd9849795fba1eb6eb9f98217366ee144fe8966c0773b5c43986e9cb5468cc"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_017_v01.png",
+        "sha256": "186712372f5271386c289d3bcee3c2a4b6b689dc2fc6de25caddd8b54fe01a64"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_018_v01.png",
+        "sha256": "7d9398b7d6978d1d582c45f0a28fe9009cbc6c7b3b57d185484835be58fdcc24"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_019_v01.png",
+        "sha256": "5f44c27add15867b15a94e8085335d622f505d760d96474ab803aa1d217ece78"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_020_v01.png",
+        "sha256": "2620996d16cd48a78902db262d21490dbff6ab30b84c7a441d2354686e47af26"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_021_v01.png",
+        "sha256": "ab0a5456d18567089145d7931157766647cf9c3d2c4a9e43066990e96b4730af"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_022_v01.png",
+        "sha256": "9a529ab1de615a3898159e31574a9cf6d8453802fc06bdb90bf8f582b49662ea"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_023_v01.png",
+        "sha256": "e574bffec9543747cda21045afa71a7410c3fca353cd1d6203338cab08532926"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_024_v01.png",
+        "sha256": "a786615d40c1270edea75a04e17271f1ee5c5fa29daed4974622b7ed3e228b16"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_025_v01.png",
+        "sha256": "527409cb022e5220cb9d8c876ef02803f79e8d55ff310f5efa6d9e49d784751b"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_026_v01.png",
+        "sha256": "558e119f892da70e4cc2dec61e702c0b281ebb0159c02be90d26b2e4ecea5556"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_027_v01.png",
+        "sha256": "4601b8fc1c640892edf2f26c0ade3a3ec7cba842e60c464ca8531345513be21a"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_028_v01.png",
+        "sha256": "69048cf49911a9d94bbd8e8dc9d5c8ec5bd990c0f5a6c0c15c2e7f8c328c6d1f"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_029_v01.png",
+        "sha256": "d64fc939bcbdf9164e347a5b91996714d0ca7a661b4fe3123a713e2ef70eb0f8"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_030_v01.png",
+        "sha256": "93fc293c61af85c94614082956b6058c39155ddf0efa8e71994c558b58c4c563"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_031_v01.png",
+        "sha256": "18cba167f46f6318de0b076639f115177a88960cb4ecb08ca8582613874e42b7"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_032_v01.png",
+        "sha256": "9bd7e261e3a31ac690df9f6996ab0fb290b48d6654ce802fccdfdee8352ece42"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_033_v01.png",
+        "sha256": "a466422d9f6f3512990ed61b4f1c9cc18721505574ebd40f43cd23cd995dd8ca"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_034_v01.png",
+        "sha256": "8550965446522b35a06f9ba7e2341f298849f77565104bdb0112b34e5185e6dd"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_035_v01.png",
+        "sha256": "9cd2d26bfde603d0cd8b55a868c407e04da50854dabf9771a8c5f1d365b86412"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_036_v01.png",
+        "sha256": "e256290c4aafb51e73f553d417e0e074538f19e0afedf12ee2a5e58925fd5848"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_037_v01.png",
+        "sha256": "11c950aebd31dec72295b93f8f573d1689e34d0e921e7042720a3ba8ea0e5ccd"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_038_v01.png",
+        "sha256": "038ff4c7e38ca556accbf98f5028c0d5b0078d46d0a7a2063aa160627d573e86"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_039_v01.png",
+        "sha256": "f0cb925cbf6f27a6897a0010102ef3e4e0dc90f59ae60ab544518dab8fa9f648"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_040_v01.png",
+        "sha256": "61c4034863dc7e00c2701080cc7510b5fc9385b1c2c03f7b9e4a2e015f73743a"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_041_v01.png",
+        "sha256": "4f2f7424e94817322584e034a15dd93ae77207fdc4c6fff9c1c134d3c9e07e01"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_042_v01.png",
+        "sha256": "059d4b6c25f1539e83d42f796d2bc88a6a848d4e0fb15a8bdb486af80ade5a1a"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_043_v01.png",
+        "sha256": "1b71d4109ddf44e50754bd9dd0a4464ba810f3ea64c9b0594abddc9a49bc118a"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_044_v02.png",
+        "sha256": "2b099d07b683cd953f888a6a0138f5ed2fda9f80359e8374e56be9825c0b190b"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_045_v01.png",
+        "sha256": "de4d5d9edf07803ffbb383cc56356936f13c6d49ec58cf9405b518505d303099"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_046_v01.png",
+        "sha256": "506ea3557a0e8344734b1a128c70c34937b6fb38ed5192c823a838882e5a5e55"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_047_v01.png",
+        "sha256": "5e75508e3985b536d7f9fa4d104de7e2b5b76758250768342af6ac33549ca3d1"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_048_v03.png",
+        "sha256": "09e8f8f8d0b1de2e4012c2bebb5bcb879d064c71264e175e1e41d72babdcd1f5"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_049_v01.png",
+        "sha256": "7291f91f556f1004f9989a6cb0c376dc2249efc53ad2d1a5ed25a21d11034225"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_050_v01.png",
+        "sha256": "cb46c27a817072ba4d232c913225a4f4d789614f6b1c1820fd2d111d1f448b5f"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_051_v02.png",
+        "sha256": "f7cd975fe02f093f3d3683cd4314ad99b4fcdc706a2e1ce49c71efadb1ded627"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_052_v01.png",
+        "sha256": "d3f1b875ae67564d25c0343b7f1447ea7d54598738c2df89fa205c0fa05c2235"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_053_v01.png",
+        "sha256": "15ac93748526b489c0f6e542e4f438b621d11f0edc42724dabd4ba8aa54f3489"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_054_v01.png",
+        "sha256": "b2ce89a064214573cde67edec82ce13f0c63924d14be49f1a146d2678b650e7f"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_055_v01.png",
+        "sha256": "56eec51a56bcceef0378222a22cf3a6fec8af1ee6df091835890f9fbfc02835c"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_056_v01.png",
+        "sha256": "070eb254c3ec34bbe30e13f77b2b75f957528507fbb48748a7c064ffad25c629"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_057_v01.png",
+        "sha256": "5932693c7e89ca1e0b83c60810074ccac9e8614f6ec986da1d8abba63d18e818"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_058_v01.png",
+        "sha256": "2ba1c6457c8f14953cb99c0ad5388373c8fac8605c39177743d8e44a0ae71445"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_059_v01.png",
+        "sha256": "c80db107687727fce0e65a6776ee06b5c0c2f6f70b2427ab27d4dfb54e3419a8"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_060_v01.png",
+        "sha256": "61b3dd2fe9d24ae1a52d602c1da21a710a9e416c03c7afa0bd3f140538b4897a"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_061_v01.png",
+        "sha256": "8115e1c6ade12fc102097c7a81b9bbfc47ea2c8c14793c22767cfe45a7a9f3f1"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_062_v01.png",
+        "sha256": "5130622a17b118910164e898622ad41a1345eb1180e5bfe60b93ff2e63299a99"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_063_v01.png",
+        "sha256": "89c16da43d208cc89894f671b157ad79c820ccef7aa0b1aef31544393bb1e029"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_064_v01.png",
+        "sha256": "fde368419ea676cf1eeb5c297fd723a9da58ac5c22a2fc4a7ce7e03f61f8b0f0"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_065_v01.png",
+        "sha256": "9ae0f7311ae164b21268449271dbcb95a263238f8f7606cfee91ad0010030e96"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_066_v02.png",
+        "sha256": "77c8a92bac1829cf88a1fcc8d86658813f4e8fc331b0e7cbad74c883e2234656"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_067_v01.png",
+        "sha256": "4afd48e3938e919aee024b2825fe71afd147fa1ca72bb87ff29f62a442bff46b"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_068_v01.png",
+        "sha256": "273578e12972c58d79c8ad0982293ae9c39c17c815460ed7368984b69d2a5285"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_069_v02.png",
+        "sha256": "717f4878c63685c3b1717d9a1dfcf44254ba3e145e5cd1aa1684cdbf8e7e8a99"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_070_v02.png",
+        "sha256": "40c0315c56723287202cc3f315cb94253a25177112f5883fea06839fd9f24d8c"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_071_v02.png",
+        "sha256": "2f627463e5f14370c6137cbf55dcbbdcb9fd7472c7102cdc05dc805108d040ab"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_072_v01.png",
+        "sha256": "c61f93ca4f580c8c36bd7f827fc0a972c267d1faf7d85ef3d798570306551920"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_073_v02.png",
+        "sha256": "a3fd2573e6ae61613d57c2df1914dc3836730cf49b082cee926375b787166c4b"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_074_v02.png",
+        "sha256": "eda70f415b88d43b01455b2dd67ccdf4db65f4f12a57d4a9509a4f9f8eeb9a35"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_075_v01.png",
+        "sha256": "21834a6b2040eab8d006344907baa8bff3bd595c6a82ffaa70cb5e06d5a30264"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_076_v02.png",
+        "sha256": "b6643544acb0cc465aeadb338002b99832ef1ce7aa6e186458f1162dd7073d01"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_077_v02.png",
+        "sha256": "6cf493e348d42252c9f00561be50b5b46e6fe45bbf4ce06acf332c58a4c5e4b1"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_078_v01.png",
+        "sha256": "b13b6301d6a805c298c9725cd09d2d0abc03faafb81a8e26d311152fcd3e2d34"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_079_v01.png",
+        "sha256": "11c05351a1c00640586033f99143b99d7b3dda09c640a3650db070011d0c4942"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_080_v01.png",
+        "sha256": "5850c942cbae809df1953b1920b2dee2660a6a8b4cf30840436e320e35aacca3"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_081_v01.png",
+        "sha256": "0c71514504c9fd8b3f702772b6651100a920fa66c70708b82449a83cb53f9dbc"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_082_v01.png",
+        "sha256": "7aad0b7195ccc83e64d8d4ed9140fe21d2d4c6917ae9167aa39b718504e0ac88"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_083_v01.png",
+        "sha256": "c471569b881419de18d13c3e27bfe25e0793a41009cead53f0f13ff0d0a1e987"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_084_v01.png",
+        "sha256": "2d94a074312be4ea78a7e3167534afec9109e1198ea9596fd66db9da7d333001"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_085_v01.png",
+        "sha256": "f9be8268f01b86ae25a8d137a3bc3a3ae0e26b237ee8835af7af35498a4f1630"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_086_v01.png",
+        "sha256": "9956f2e0163b540a4ff5fb2acbaca2fc4851408e9aecb50c3e51d897789e499c"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_087_v01.png",
+        "sha256": "7d06b7662c3dfd8503b358839abaa2c777cf5cceb4fb70589ee335d23f1812f1"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_088_v01.png",
+        "sha256": "09a0db33d8033ead60495c305b05dbb89272eb7a8155bac11ce0efc94c9027dc"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_089_v02.png",
+        "sha256": "48d21cd7eec2844046081a4c4cf19957e8d1d2816f3d3b0d4035129426a90ab8"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_090_v01.png",
+        "sha256": "a30da138193b1699a5ee28977cdb93d08b687d4f2177469d8b3a75c18abc239b"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_091_v02.png",
+        "sha256": "eddba56e5de3a933f7e7da564b0f0ab53807d66e23651405d203c922f696f61b"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_092_v02.png",
+        "sha256": "550fc5f0544919de468662c63207184906846e41ba250bf6312e0e1ab005b452"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_093_v01.png",
+        "sha256": "2ae80f0d12f3c5d0715b6758bb2198d0790356640e3cdf61898886d62a8f715c"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_094_v01.png",
+        "sha256": "96da07a73bc9168fb81d919d4d2ea8b1dc48f7d16516af7b36cc1587188ff2dc"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_095_v02.png",
+        "sha256": "598de1c60639195c96d601d06e0d4a185e1fbce125a5d59f38d2730e648c403a"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_096_v01.png",
+        "sha256": "7e3cdfd6ec87ca8315e0d2324c91dbf82cdca43e6e57a723898f4198f686bf2a"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_097_v03.png",
+        "sha256": "82350cfad9c0db7c77633eccdb449eea22237eb01ce8d3835def8c5c0b7884e4"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_098_v01.png",
+        "sha256": "9dfbfef037cb88b6aebfbbdf40a16262819886cb21e173f6ec04e695fdf3a96f"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_099_v01.png",
+        "sha256": "9eceaca5d71ec0cb28065a108aaba5a80441d1b1f05f02e6a4269606b82b6817"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_100_v01.png",
+        "sha256": "79d576b6a29342a8857fc1ae217d0a9a8b0a2a0a682af3e11eefb1738c5a3188"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_101_v02.png",
+        "sha256": "df973b065a6bdb0a7feb47b79a4a6c951665a42f690b9fe3359825c21280a813"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_102_v01.png",
+        "sha256": "242ff781edb4ad13d666ab1800599de7691be7609f7a94552afad9b5b81d8119"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_103_v01.png",
+        "sha256": "3b19a38d2574a377dcba1d03da68a3b50e43b8539f21722842109d9356794683"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_104_v01.png",
+        "sha256": "3cb73b5e4275971c24fae5e9a934179d98e40cb1e816319259a20c09d8ab702c"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_105_v01.png",
+        "sha256": "3ca369a3081aba02a3f78eb70c96ef7afa2dd83a35b2b34bcbd11290836703be"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_106_v01.png",
+        "sha256": "04ed40e0b768eab9727a40e8495f4ba62e50e764b5d656ec3ef9d9b4fef79310"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_107_v02.png",
+        "sha256": "01b8a8569f72f6c47185ddbaf71e01cbf4df8897c33a14607c3bd70b784c746b"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_108_v02.png",
+        "sha256": "d07f12674a78780e9abc93d10cce3e3bed62b3b6bddeb4c97da2032f975eb05d"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_109_v02.png",
+        "sha256": "898e4c7c43adf85c076ecb9f25a414ea2ef0f0caf7fa0faffe2aa7a6f00d9a32"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_110_v02.png",
+        "sha256": "bce81b5eeda398a7eeb993e421e3693c8d44c41ec74b17ce6d41a73899989b12"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_111_v02.png",
+        "sha256": "4f583b04e1f80b149586bc617880e085b91c059aa8455fbbf940dff7e974492b"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_112_v01.png",
+        "sha256": "62186141ec590250341312312de34b758d13a5ca1faa4464b1735afc5a3a6b14"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_113_v02.png",
+        "sha256": "7b2f59309477816562f4e70e858a2d99ef33f7a1e0907bc3302a233a9ce1f659"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_114_v02.png",
+        "sha256": "791c9da3c3b1557c447b5b074402532e70a17f9c65da46a57acd015be18fc304"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_115_v02.png",
+        "sha256": "fd7bc0f0d7003edcce6ddb49ec1730a795f2eeed847095ff38f26b51c7a70261"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_116_v02.png",
+        "sha256": "eed4fcc5782ca8fee8be4df99873e3c55f47f580a406c56571c5443b3945edbd"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_117_v02.png",
+        "sha256": "612962ca5547abcab20406e537dfc94bacf2e6188d1c6678af43e66e0fec7481"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_118_v01.png",
+        "sha256": "58696f6d8ee0092fb9c61ac5287a296289828d34236e7e206cdc4572d44d862c"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_119_v02.png",
+        "sha256": "dd48a58792e5d92f95faf2fb86ffc2eb2789e89b8ed9a28795e07d946ba7e888"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_005_v03.png",
+        "sha256": "c7a1e58c3a8f0dc46618c146c53a8f7db9858cc380667038472cd6a1a261fe50"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_006_v03.png",
+        "sha256": "cd7ccfb71d27ac3dd78a5adbe435e3b565a221dca678f6d6bcb92f5c642e1bfa"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_010_v02.png",
+        "sha256": "4e257930b4ac5c561bce2adb61869a0fbef85036a1cfa90c98da6e8fc4834e90"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_027_v02.png",
+        "sha256": "baf7cf37e376465eacc5ebfb7170e4596a123694b2a481d2eb4d33bca085400f"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_118_v03.png",
+        "sha256": "01c70b5f3a5040986263545adf2c9bd687820efd1744a335a691ca98553aaeeb"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/scene_119_v03.png",
+        "sha256": "63474dd1dff9c7a0dcb9b8bdbf87a79b2e9d15ade2a1b13765f4c9b19fc0113a"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Source/Images/paper_border_overlay.png",
+        "sha256": "9bd55cc7e12833b161b87afd3f5853e724f0e4ac007461e4170f3baa2ceaaf89"
+      }
+    ]
+  },
+  "timeline": {
+    "width": 2560,
+    "height": 1440,
+    "aspect_ratio": "16:9",
+    "sample_aspect_ratio": "1:1",
+    "fps": "30/1",
+    "frame_count": 17297,
+    "duration_seconds": 576.5666666666667,
+    "output_color_space": "Rec.709 SDR"
+  },
+  "required_delivery": {
+    "container": "MP4",
+    "video": {
+      "codec_name": "h264",
+      "pix_fmt": "yuv420p",
+      "scan": "progressive",
+      "cadence": "constant 30/1 fps",
+      "color_primaries": "bt709",
+      "color_transfer": "bt709",
+      "color_space": "bt709",
+      "color_range": "tv"
+    },
+    "audio_contract": {
+      "owner_handoff": "ytv-audio-delivery Paper delivery checks: mono narration uses AAC-LC at 192 kbit/s; preserve 44.1 kHz and mono.",
+      "accepted_complete_mix": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Work/production-v02/Source/Voice/voice_en_fullmix.wav",
+        "sha256": "36a021c6609f605fc2fe0bf6b25bbf838d6901b29ed70df5b5d14289ba65b53b"
+      },
+      "source_rate_channels": "PCM mono 44,100 Hz, 576.566667 s; voice MP3 followed by 10.006667 s digital silence; source speech itself 566.560 s.",
+      "codec_name": "aac",
+      "profile": "LC",
+      "sample_rate": 44100,
+      "channels": 1,
+      "target_bit_rate": "192 kbit/s"
+    }
+  },
+  "encoding": {
+    "engine": "FFmpeg montage.py",
+    "version_evidence": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers",
+    "requested_arguments": {
+      "encoder": "h264_videotoolbox",
+      "video_bitrate": "20M",
+      "output_pix_fmt": "yuv420p",
+      "fps": "30/1",
+      "audio_codec": "aac",
+      "audio_profile": "aac_low",
+      "audio_bitrate": "192k",
+      "audio_sample_rate": 44100,
+      "audio_channels": 1
+    },
+    "quality_preferences": {
+      "video_bitrate": "20 Mbps VBR starting point for 2K H.264; actual measured bitrate is an output fact.",
+      "crf": null
+    },
+    "capability_evidence": "FFmpeg h264_videotoolbox encoder is selected by the renderer; exact generated argv and settings check will be retained in the render run.",
+    "engine_managed_fields": [
+      "Actual H.264 profile/level, GOP and B-frame behavior; measured bitrate and final stream/container properties are output facts."
+    ]
+  },
+  "preflight": {
+    "author": "Codex",
+    "time": "2026-11-05",
+    "authorization_references": [
+      "User authorized full production through review MP4 and accepted the Franklin story; this export remains for review.",
+      "No upload/publication authorization."
+    ],
+    "fresh_settings_evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Edit/Export/PREFLIGHT_v02.md",
+    "writer_and_export_state": "Owned output destination does not exist and is not overwritten. A read-only lifecycle audit completed with zero coverage errors. The active render target is unique.",
+    "output_path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Deliverables/047_franklin_search_review_v02.mp4",
+    "overwrite": false,
+    "media_lifecycle_receipt": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Edit/MediaLifecycle/audit_pre_render_v01/audit.json",
+    "unresolved_required_fields": []
+  },
+  "render_receipt": null,
+  "qa_receipt": null,
+  "settings_check_receipt": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Work/production-v02/render-work-v11/settings_check.json",
+  "render_provenance": "/Users/diplomat/ytvideos/channels/paper_detour/videos/047_franklin_search/Work/production-v02/render-work-v12/render_provenance.json"
+}

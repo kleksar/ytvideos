@@ -1,0 +1,393 @@
+{
+  "status": "REVIEW_REQUIRED",
+  "groups": [
+    [
+      {
+        "text": "Pastry",
+        "start": 0.08,
+        "end": 0.44
+      },
+      {
+        "text": "chef",
+        "start": 0.48,
+        "end": 0.74
+      },
+      {
+        "text": "Nicolas",
+        "start": 0.84,
+        "end": 1.22
+      },
+      {
+        "text": "Appert",
+        "start": 1.3,
+        "end": 1.68
+      }
+    ],
+    [
+      {
+        "text": "was",
+        "start": 1.84,
+        "end": 1.96
+      },
+      {
+        "text": "looking",
+        "start": 2.02,
+        "end": 2.3
+      },
+      {
+        "text": "for",
+        "start": 2.34,
+        "end": 2.48
+      },
+      {
+        "text": "a",
+        "start": 2.52,
+        "end": 2.54
+      },
+      {
+        "text": "way",
+        "start": 2.58,
+        "end": 2.76
+      }
+    ],
+    [
+      {
+        "text": "to",
+        "start": 2.8,
+        "end": 2.88
+      },
+      {
+        "text": "preserve",
+        "start": 2.94,
+        "end": 3.36
+      },
+      {
+        "text": "food",
+        "start": 3.42,
+        "end": 3.66
+      },
+      {
+        "text": "for",
+        "start": 3.7,
+        "end": 3.82
+      },
+      {
+        "text": "longer.",
+        "start": 3.88,
+        "end": 4.241
+      }
+    ],
+    [
+      {
+        "text": "In",
+        "start": 4.901,
+        "end": 4.981
+      },
+      {
+        "text": "Brest,",
+        "start": 5.041,
+        "end": 5.421
+      }
+    ],
+    [
+      {
+        "text": "food",
+        "start": 5.881,
+        "end": 6.081
+      },
+      {
+        "text": "prepared",
+        "start": 6.121,
+        "end": 6.481
+      },
+      {
+        "text": "by",
+        "start": 6.521,
+        "end": 6.661
+      },
+      {
+        "text": "his",
+        "start": 6.741,
+        "end": 6.901
+      },
+      {
+        "text": "method",
+        "start": 6.981,
+        "end": 7.281
+      }
+    ],
+    [
+      {
+        "text": "remained",
+        "start": 7.421,
+        "end": 7.781
+      },
+      {
+        "text": "in",
+        "start": 7.841,
+        "end": 7.921
+      },
+      {
+        "text": "sealed",
+        "start": 8.041,
+        "end": 8.321
+      },
+      {
+        "text": "vessels",
+        "start": 8.381,
+        "end": 8.741
+      }
+    ],
+    [
+      {
+        "text": "for",
+        "start": 8.821,
+        "end": 8.941
+      },
+      {
+        "text": "three",
+        "start": 9.061,
+        "end": 9.341
+      },
+      {
+        "text": "months",
+        "start": 9.441,
+        "end": 9.721
+      }
+    ],
+    [
+      {
+        "text": "at",
+        "start": 9.821,
+        "end": 9.881
+      },
+      {
+        "text": "the",
+        "start": 9.901,
+        "end": 10.001
+      },
+      {
+        "text": "roadstead,",
+        "start": 10.041,
+        "end": 10.521
+      }
+    ]
+  ],
+  "profile": {
+    "name": "paper",
+    "font": "/System/Library/Fonts/Supplemental/ChalkboardSE.ttc",
+    "font_index": 2,
+    "text": "#F4E8C8",
+    "highlight": "#FFD166",
+    "background": null,
+    "outline": "#18243A",
+    "outline_width": 3,
+    "pad_x": 20,
+    "pad_y": 12
+  },
+  "geometry_profile": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/profiles/long.json",
+  "shared_geometry": {
+    "reference_width": 2560,
+    "reference_height": 1440,
+    "font_size_px": 84,
+    "max_visible_width_px": 1344,
+    "center_x_ratio": 0.5,
+    "baseline_y_ratio": 0.8944444444444445,
+    "bottom_y_ratio": 0.925
+  },
+  "shared_short_geometry": null,
+  "channel": "paper",
+  "format": "long",
+  "canvas": [
+    2560,
+    1440
+  ],
+  "reference_height": 1440,
+  "scale": 1.0,
+  "resolved_font_size_px": 84,
+  "max_visible_width_px": 1344.0,
+  "center_x_px": 1280.0,
+  "baseline": 1288,
+  "grouping_source": "automatic_draft",
+  "algorithm": "sentence-syntax-width-v5",
+  "boundary_exceptions": [],
+  "boundary_warnings": [
+    {
+      "after_group": 0,
+      "left": "Pastry chef Nicolas Appert",
+      "right": "was looking for a way",
+      "reason": "forced_or_ambiguous_syntax_boundary"
+    },
+    {
+      "after_group": 5,
+      "left": "remained in sealed vessels",
+      "right": "for three months",
+      "reason": "forced_or_ambiguous_syntax_boundary"
+    }
+  ],
+  "caption_end_frame": 320,
+  "display_intervals": [
+    {
+      "start_frame": 0,
+      "end_frame": 56
+    },
+    {
+      "start_frame": 56,
+      "end_frame": 84
+    },
+    {
+      "start_frame": 84,
+      "end_frame": 148
+    },
+    {
+      "start_frame": 148,
+      "end_frame": 177
+    },
+    {
+      "start_frame": 177,
+      "end_frame": 223
+    },
+    {
+      "start_frame": 223,
+      "end_frame": 265
+    },
+    {
+      "start_frame": 265,
+      "end_frame": 295
+    },
+    {
+      "start_frame": 295,
+      "end_frame": 320
+    }
+  ],
+  "word_events": [
+    {
+      "frame": 0,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Work/production_local_v01/preview_render_v03/caption_states/00000_neutral.png"
+    },
+    {
+      "frame": 3,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Work/production_local_v01/preview_render_v03/caption_states/00000_0.png"
+    },
+    {
+      "frame": 15,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Work/production_local_v01/preview_render_v03/caption_states/00000_1.png"
+    },
+    {
+      "frame": 26,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Work/production_local_v01/preview_render_v03/caption_states/00000_2.png"
+    },
+    {
+      "frame": 39,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Work/production_local_v01/preview_render_v03/caption_states/00000_3.png"
+    },
+    {
+      "frame": 56,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Work/production_local_v01/preview_render_v03/caption_states/00001_0.png"
+    },
+    {
+      "frame": 61,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Work/production_local_v01/preview_render_v03/caption_states/00001_1.png"
+    },
+    {
+      "frame": 71,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Work/production_local_v01/preview_render_v03/caption_states/00001_2.png"
+    },
+    {
+      "frame": 76,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Work/production_local_v01/preview_render_v03/caption_states/00001_3.png"
+    },
+    {
+      "frame": 78,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Work/production_local_v01/preview_render_v03/caption_states/00001_4.png"
+    },
+    {
+      "frame": 84,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Work/production_local_v01/preview_render_v03/caption_states/00002_0.png"
+    },
+    {
+      "frame": 89,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Work/production_local_v01/preview_render_v03/caption_states/00002_1.png"
+    },
+    {
+      "frame": 103,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Work/production_local_v01/preview_render_v03/caption_states/00002_2.png"
+    },
+    {
+      "frame": 111,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Work/production_local_v01/preview_render_v03/caption_states/00002_3.png"
+    },
+    {
+      "frame": 117,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Work/production_local_v01/preview_render_v03/caption_states/00002_4.png"
+    },
+    {
+      "frame": 148,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Work/production_local_v01/preview_render_v03/caption_states/00003_0.png"
+    },
+    {
+      "frame": 152,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Work/production_local_v01/preview_render_v03/caption_states/00003_1.png"
+    },
+    {
+      "frame": 177,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Work/production_local_v01/preview_render_v03/caption_states/00004_0.png"
+    },
+    {
+      "frame": 184,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Work/production_local_v01/preview_render_v03/caption_states/00004_1.png"
+    },
+    {
+      "frame": 196,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Work/production_local_v01/preview_render_v03/caption_states/00004_2.png"
+    },
+    {
+      "frame": 203,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Work/production_local_v01/preview_render_v03/caption_states/00004_3.png"
+    },
+    {
+      "frame": 210,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Work/production_local_v01/preview_render_v03/caption_states/00004_4.png"
+    },
+    {
+      "frame": 223,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Work/production_local_v01/preview_render_v03/caption_states/00005_0.png"
+    },
+    {
+      "frame": 236,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Work/production_local_v01/preview_render_v03/caption_states/00005_1.png"
+    },
+    {
+      "frame": 242,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Work/production_local_v01/preview_render_v03/caption_states/00005_2.png"
+    },
+    {
+      "frame": 252,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Work/production_local_v01/preview_render_v03/caption_states/00005_3.png"
+    },
+    {
+      "frame": 265,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Work/production_local_v01/preview_render_v03/caption_states/00006_0.png"
+    },
+    {
+      "frame": 272,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Work/production_local_v01/preview_render_v03/caption_states/00006_1.png"
+    },
+    {
+      "frame": 284,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Work/production_local_v01/preview_render_v03/caption_states/00006_2.png"
+    },
+    {
+      "frame": 295,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Work/production_local_v01/preview_render_v03/caption_states/00007_0.png"
+    },
+    {
+      "frame": 298,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Work/production_local_v01/preview_render_v03/caption_states/00007_1.png"
+    },
+    {
+      "frame": 302,
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/048_appert_food_preservation/Work/production_local_v01/preview_render_v03/caption_states/00007_2.png"
+    }
+  ]
+}

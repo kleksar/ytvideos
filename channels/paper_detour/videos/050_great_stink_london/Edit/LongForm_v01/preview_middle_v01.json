@@ -1,0 +1,92 @@
+{
+  "channel": "paper",
+  "format": "long",
+  "fps": 30,
+  "audio": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Work/paper050-great-stink-v01-20261105/preview_middle_inputs_v01/audio.wav",
+  "audio_contract": {
+    "final_audio_sha256": "ea4f9d36aee60c0bbabfe944cdac1bf8d6dc5ba0129c77c68c7fc37ee329bae3",
+    "applied_speed": 1.1,
+    "speed_evidence": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Work/paper050-great-stink-v01-20261105/preview_middle_inputs_v01/speed_evidence.md"
+  },
+  "scenes": [
+    {
+      "image": "../../Source/Images/scene_26_tidal_uncertainty_v02.png",
+      "start_frame": 0,
+      "end_frame": 165,
+      "direction": "right_to_left",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "scene 26 tidal uncertainty v02",
+        "reason": "Slow whole-image movement retains the main paper composition; verify faces, outfalls and subtitle clearance in rendered frames.",
+        "start": {
+          "center": [
+            0.494,
+            0.5
+          ],
+          "scale": 1.055
+        },
+        "end": {
+          "center": [
+            0.506,
+            0.5
+          ],
+          "scale": 1.035
+        }
+      }
+    },
+    {
+      "image": "../../Source/Images/scene_27_woolwich_complaint_v01.png",
+      "start_frame": 165,
+      "end_frame": 323,
+      "direction": "left_to_right",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "scene 27 woolwich complaint v01",
+        "reason": "Slow whole-image movement retains the main paper composition; verify faces, outfalls and subtitle clearance in rendered frames.",
+        "start": {
+          "center": [
+            0.506,
+            0.5
+          ],
+          "scale": 1.035
+        },
+        "end": {
+          "center": [
+            0.494,
+            0.5
+          ],
+          "scale": 1.055
+        }
+      }
+    }
+  ],
+  "subtitles": {
+    "mode": "words",
+    "words": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Work/paper050-great-stink-v01-20261105/preview_middle_inputs_v01/words.json",
+    "transcript": "/Users/diplomat/ytvideos/channels/paper_detour/videos/050_great_stink_london/Work/paper050-great-stink-v01-20261105/preview_middle_inputs_v01/transcript.txt",
+    "phrases": [
+      "The shorter route",
+      "left an unresolved",
+      "question about how the sewage",
+      "would behave in a tidal river.",
+      "During the same debate,",
+      "a representative from Woolwich",
+      "said his district",
+      "was already suffering"
+    ]
+  },
+  "enforce_scene_duration": true,
+  "canvas": [
+    1280,
+    720
+  ],
+  "source_transfer": "srgb"
+}

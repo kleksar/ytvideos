@@ -1,0 +1,114 @@
+{
+  "sample_rate": 44100,
+  "duration_seconds_1x": 84.2,
+  "gap_seconds": 0.22,
+  "alignment_clips_at_decoded_end": [
+    {
+      "segment": 1,
+      "character": ".",
+      "source_end": 8.96,
+      "decoded_end": 8.88
+    },
+    {
+      "segment": 2,
+      "character": ".",
+      "source_end": 11.76,
+      "decoded_end": 11.68
+    },
+    {
+      "segment": 3,
+      "character": ".",
+      "source_end": 11.36,
+      "decoded_end": 11.28
+    },
+    {
+      "segment": 4,
+      "character": ".",
+      "source_end": 14.24,
+      "decoded_end": 14.16
+    },
+    {
+      "segment": 5,
+      "character": "”",
+      "source_end": 9.44,
+      "decoded_end": 9.36
+    },
+    {
+      "segment": 6,
+      "character": ".",
+      "source_end": 10.96,
+      "decoded_end": 10.88
+    },
+    {
+      "segment": 7,
+      "character": "”",
+      "source_end": 16.72,
+      "decoded_end": 16.64
+    }
+  ],
+  "segments": [
+    {
+      "segment": 1,
+      "start_seconds": 0.0,
+      "duration_seconds": 8.88,
+      "end_rms_50ms": 5.118959136738918e-05,
+      "audio": "/Users/diplomat/ytvideos/channels/paper_detour/videos/002_margorie_mccall/Source/Voice/segments_v7_lawrence/01/voice_en.mp3",
+      "alignment": "/Users/diplomat/ytvideos/channels/paper_detour/videos/002_margorie_mccall/Source/Voice/segments_v7_lawrence/01/voice_en.alignment.json",
+      "text": "/Users/diplomat/ytvideos/channels/paper_detour/videos/002_margorie_mccall/Source/Voice/segments_v7_lawrence/01/text.txt"
+    },
+    {
+      "segment": 2,
+      "start_seconds": 9.1,
+      "duration_seconds": 11.68,
+      "end_rms_50ms": 4.9830758544564735e-05,
+      "audio": "/Users/diplomat/ytvideos/channels/paper_detour/videos/002_margorie_mccall/Source/Voice/segments_v7_lawrence/02/voice_en.mp3",
+      "alignment": "/Users/diplomat/ytvideos/channels/paper_detour/videos/002_margorie_mccall/Source/Voice/segments_v7_lawrence/02/voice_en.alignment.json",
+      "text": "/Users/diplomat/ytvideos/channels/paper_detour/videos/002_margorie_mccall/Source/Voice/segments_v7_lawrence/02/text.txt"
+    },
+    {
+      "segment": 3,
+      "start_seconds": 21.0,
+      "duration_seconds": 11.28,
+      "end_rms_50ms": 4.8828990003055955e-05,
+      "audio": "/Users/diplomat/ytvideos/channels/paper_detour/videos/002_margorie_mccall/Source/Voice/segments_v7_lawrence/03/voice_en.mp3",
+      "alignment": "/Users/diplomat/ytvideos/channels/paper_detour/videos/002_margorie_mccall/Source/Voice/segments_v7_lawrence/03/voice_en.alignment.json",
+      "text": "/Users/diplomat/ytvideos/channels/paper_detour/videos/002_margorie_mccall/Source/Voice/segments_v7_lawrence/03/text.txt"
+    },
+    {
+      "segment": 4,
+      "start_seconds": 32.5,
+      "duration_seconds": 14.16,
+      "end_rms_50ms": 4.4379098497106294e-05,
+      "audio": "/Users/diplomat/ytvideos/channels/paper_detour/videos/002_margorie_mccall/Source/Voice/segments_v7_lawrence/04/voice_en.mp3",
+      "alignment": "/Users/diplomat/ytvideos/channels/paper_detour/videos/002_margorie_mccall/Source/Voice/segments_v7_lawrence/04/voice_en.alignment.json",
+      "text": "/Users/diplomat/ytvideos/channels/paper_detour/videos/002_margorie_mccall/Source/Voice/segments_v7_lawrence/04/text.txt"
+    },
+    {
+      "segment": 5,
+      "start_seconds": 46.88,
+      "duration_seconds": 9.36,
+      "end_rms_50ms": 3.504636415314095e-05,
+      "audio": "/Users/diplomat/ytvideos/channels/paper_detour/videos/002_margorie_mccall/Source/Voice/segments_v7_lawrence/05/voice_en.mp3",
+      "alignment": "/Users/diplomat/ytvideos/channels/paper_detour/videos/002_margorie_mccall/Source/Voice/segments_v7_lawrence/05/voice_en.alignment.json",
+      "text": "/Users/diplomat/ytvideos/channels/paper_detour/videos/002_margorie_mccall/Source/Voice/segments_v7_lawrence/05/text.txt"
+    },
+    {
+      "segment": 6,
+      "start_seconds": 56.46,
+      "duration_seconds": 10.88,
+      "end_rms_50ms": 0.0001251186102217865,
+      "audio": "/Users/diplomat/ytvideos/channels/paper_detour/videos/002_margorie_mccall/Source/Voice/segments_v7_lawrence/06/voice_en.mp3",
+      "alignment": "/Users/diplomat/ytvideos/channels/paper_detour/videos/002_margorie_mccall/Source/Voice/segments_v7_lawrence/06/voice_en.alignment.json",
+      "text": "/Users/diplomat/ytvideos/channels/paper_detour/videos/002_margorie_mccall/Source/Voice/segments_v7_lawrence/06/text.txt"
+    },
+    {
+      "segment": 7,
+      "start_seconds": 67.56,
+      "duration_seconds": 16.64,
+      "end_rms_50ms": 5.359991264983611e-05,
+      "audio": "/Users/diplomat/ytvideos/channels/paper_detour/videos/002_margorie_mccall/Source/Voice/segments_v7_lawrence/07/voice_en.mp3",
+      "alignment": "/Users/diplomat/ytvideos/channels/paper_detour/videos/002_margorie_mccall/Source/Voice/segments_v7_lawrence/07/voice_en.alignment.json",
+      "text": "/Users/diplomat/ytvideos/channels/paper_detour/videos/002_margorie_mccall/Source/Voice/segments_v7_lawrence/07/text.txt"
+    }
+  ]
+}

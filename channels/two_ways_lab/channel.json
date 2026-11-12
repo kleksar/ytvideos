@@ -1,0 +1,39 @@
+{
+  "key": "two_ways_lab",
+  "title": "Two Ways Lab",
+  "language": "en",
+  "tagline": "Same problem. Two methods. Let's test.",
+  "about": "Everyday problems. Two ways to solve them. Which one actually works better?\n\nAt Two Ways Lab, we put simple methods head-to-head — packing, sorting, cleaning, queues, travel, and the little decisions we make every day.\n\nSame starting conditions. Clear rules. Visual results.\n\nSometimes there's a winner. Sometimes the answer depends on the situation.\n\nPick your side, watch the experiment, and see what happens.\n\nShort experiments and deeper breakdowns, built from original simulations.",
+  "handle_candidate": "@TwoWaysLab",
+  "handle_verified": false,
+  "youtube_channel_id": null,
+  "youtube_status": "SETUP_DEFERRED",
+  "pilot": "TWL_E001",
+  "visual_tokens": "brand/tokens.json",
+  "schema_version": 1,
+  "id": "two_ways_lab",
+  "name": "Two Ways Lab",
+  "status": "unconfigured",
+  "voice": {
+    "provider": "elevenlabs",
+    "id": "zfc8CJQpe8Kqyl0vvCzo",
+    "speed": 1.0
+  },
+  "visual_profile": "two_ways_lab",
+  "montage": {
+    "format": "short",
+    "canvas": [
+      1080,
+      1920
+    ],
+    "scene_min_frames": 2,
+    "scene_max_frames": null,
+    "allow_static": true,
+    "directions": [
+      "left_to_right",
+      "right_to_left",
+      "none"
+    ],
+    "lettering_motion": true
+  }
+}

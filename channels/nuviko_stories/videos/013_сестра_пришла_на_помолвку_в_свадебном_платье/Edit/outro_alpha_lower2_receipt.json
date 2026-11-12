@@ -1,0 +1,196 @@
+{
+  "timelineId": "6FB7B8EE",
+  "totalFrames": 4201,
+  "before": [
+    {
+      "frames": [
+        4102,
+        4201
+      ],
+      "id": "73E02469",
+      "mediaRef": "93DA6507",
+      "mediaType": "image",
+      "transform": {
+        "centerX": 0.425,
+        "centerY": 0.624,
+        "width": 0.85
+      },
+      "trimEndFrame": 51
+    },
+    {
+      "crop": {
+        "bottom": 0.09,
+        "top": 0.09
+      },
+      "frames": [
+        4102,
+        4201
+      ],
+      "id": "326AC1F6",
+      "mediaRef": "60EFB449",
+      "mediaType": "image",
+      "opacity": 0.67,
+      "transform": {
+        "height": 1.218
+      },
+      "trimEndFrame": 51
+    },
+    {
+      "crop": {
+        "bottom": 0.09,
+        "top": 0.09
+      },
+      "frames": [
+        4102,
+        4201
+      ],
+      "id": "FA163524",
+      "mediaRef": "CF9A49AE",
+      "mediaType": "image",
+      "opacity": 0.67,
+      "transform": {
+        "height": 1.219
+      },
+      "trimEndFrame": 51
+    },
+    {
+      "frames": [
+        3522,
+        4201
+      ],
+      "id": "EA5163FC",
+      "mediaRef": "24A67597",
+      "mediaType": "audio",
+      "speed": 1.1
+    }
+  ],
+  "after": [
+    {
+      "frames": [
+        4102,
+        4201
+      ],
+      "id": "73E02469",
+      "mediaRef": "93DA6507",
+      "mediaType": "image",
+      "transform": {
+        "centerX": 0.425,
+        "centerY": 0.644,
+        "width": 0.85
+      },
+      "trimEndFrame": 51
+    },
+    {
+      "crop": {
+        "bottom": 0.09,
+        "top": 0.09
+      },
+      "frames": [
+        4102,
+        4201
+      ],
+      "id": "326AC1F6",
+      "mediaRef": "60EFB449",
+      "mediaType": "image",
+      "opacity": 0.67,
+      "transform": {
+        "height": 1.218
+      },
+      "trimEndFrame": 51
+    },
+    {
+      "crop": {
+        "bottom": 0.09,
+        "top": 0.09
+      },
+      "frames": [
+        4102,
+        4201
+      ],
+      "id": "FA163524",
+      "mediaRef": "CF9A49AE",
+      "mediaType": "image",
+      "opacity": 0.67,
+      "transform": {
+        "height": 1.219
+      },
+      "trimEndFrame": 51
+    },
+    {
+      "frames": [
+        3522,
+        4201
+      ],
+      "id": "EA5163FC",
+      "mediaRef": "24A67597",
+      "mediaType": "audio",
+      "speed": 1.1
+    }
+  ],
+  "frames": [
+    {
+      "coordinateGrid": "0-1, origin top-left",
+      "fps": 30,
+      "frames": [
+        {
+          "clips": [
+            "73E02469",
+            "D9A3DA7E",
+            "75BB651C",
+            "44FF85F3",
+            "326AC1F6",
+            "FA163524",
+            "79BE4CF8"
+          ],
+          "frame": 4120
+        }
+      ],
+      "height": 512,
+      "totalFrames": 4201,
+      "width": 288
+    },
+    {
+      "coordinateGrid": "0-1, origin top-left",
+      "fps": 30,
+      "frames": [
+        {
+          "clips": [
+            "73E02469",
+            "95D4ABE0",
+            "B850ABEC",
+            "3550B41E",
+            "326AC1F6",
+            "FA163524",
+            "79BE4CF8"
+          ],
+          "frame": 4140
+        }
+      ],
+      "height": 512,
+      "totalFrames": 4201,
+      "width": 288
+    },
+    {
+      "coordinateGrid": "0-1, origin top-left",
+      "fps": 30,
+      "frames": [
+        {
+          "clips": [
+            "73E02469",
+            "960626DC",
+            "D301B251",
+            "7E09B491",
+            "326AC1F6",
+            "FA163524",
+            "79BE4CF8"
+          ],
+          "frame": 4190
+        }
+      ],
+      "height": 512,
+      "totalFrames": 4201,
+      "width": 288
+    }
+  ],
+  "note": "centerY 0.624 → 0.644; прочие настройки сохранены. Финальный рендер не запускался."
+}

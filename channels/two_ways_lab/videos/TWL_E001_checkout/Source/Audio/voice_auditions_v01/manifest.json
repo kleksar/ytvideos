@@ -1,0 +1,47 @@
+{
+  "engine": "Kokoro 0.9.4",
+  "model": "hexgrad/Kokoro-82M",
+  "revision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "speech_speed": 1.1,
+  "text": "Two full shopping carts. Five tiny baskets. Which line would you pick? You pick the baskets. Hardly any groceries. Easy choice. But there’s a catch. Every shopper has to pay.",
+  "sample_rate": 24000,
+  "samples": [
+    {
+      "voice_id": "af_bella",
+      "voice_weights_sha256": "8cb64e02fcc8de0327a8e13817e49c76c945ecf0052ceac97d3081480e8e48d6",
+      "output": "af_bella.wav",
+      "audio_sha256": "65f22b908b39cb621bd0d4907172978384b7bf98e1b18132516526a272015175",
+      "seconds": 11.3,
+      "audition_output": "af_bella_short_pauses.wav",
+      "audition_sha256": "6b2409af2b3bec5e4adf9bceeb972a0fd41b79ad4d8c24d0e456bb5e2cdd49ce"
+    },
+    {
+      "voice_id": "af_nicole",
+      "voice_weights_sha256": "c5561808bcf5250fe8c5f5de32caf2d94f27e57e95befdb098c5c85991d4c5da",
+      "output": "af_nicole.wav",
+      "audio_sha256": "e35f182d266d62d38b936d8d0d92d724220b738afcc585594140ee3045f4fcc5",
+      "seconds": 16.9,
+      "audition_output": "af_nicole_short_pauses.wav",
+      "audition_sha256": "2d99963ce4023dce16f71b7fc186bd2d7b30d1328b828fd024d5a6e2863590dc"
+    },
+    {
+      "voice_id": "am_puck",
+      "voice_weights_sha256": "dd1d8973f4ce4b7d8ae407c77a435f485dabc052081b80ea75c4f30b84f36223",
+      "output": "am_puck.wav",
+      "audio_sha256": "e12f0486ae9e1216c93c2c36f62acc004ffecfde9fef4d554ca081dcf15fdbaa",
+      "seconds": 10.275,
+      "audition_output": "am_puck_short_pauses.wav",
+      "audition_sha256": "29e78b08981862aa80a75aa81aaf3554962298d390a3ffa7322e760424c8cdef"
+    },
+    {
+      "voice_id": "am_michael",
+      "voice_weights_sha256": "9a443b79a4b22489a5b0ab7c651a0bcd1a30bef675c28333f06971abbd47bd37",
+      "output": "am_michael.wav",
+      "audio_sha256": "db20d0ebdb4e755a324849a100a7e36f23cbec9f2a262ad1bb8f4eef17e2232e",
+      "seconds": 11.65,
+      "audition_output": "am_michael_short_pauses.wav",
+      "audition_sha256": "b062e714e80d05e232d9682a45b3985510b8fc64bd875301c0afa173e7c8ff7e"
+    }
+  ],
+  "note": "Rough auditions, identical excerpt, no music. Processed copies use FFmpeg silenceremove threshold -40 dB, remove pauses over 250 ms retaining 120 ms; speech boundaries and subjective quality not independently verified. Not final narration."
+}

@@ -1,0 +1,80 @@
+{
+  "date": "2026-11-02",
+  "channel": "Paper Detour",
+  "video_id": "xYS2XBeR_Jc",
+  "film_version": "v24",
+  "title": "13 Famous People's Reported IQ Scores #IQ #Shorts",
+  "lettering": [
+    "WHICH IQ",
+    "ESTIMATE",
+    "SURPRISES YOU?"
+  ],
+  "artifact_status": "accepted_ready",
+  "user_acceptance": "accepted_by_user_2026-11-02",
+  "external_status": "applied_verified_api_studio_public_desktop",
+  "native_master": "iq_cover_v06_reframed_source.png",
+  "upload_derivative": "iq_cover_v06_2160x3840.jpg",
+  "upscaled": true,
+  "generation": "built-in image_gen, two reference edits",
+  "artifacts": [
+    {
+      "path": "channels/paper_detour/videos/003_iq_gallery/Packaging/Thumbnails/v06/iq_cover_v06_source.png",
+      "pixels": [
+        941,
+        1672
+      ],
+      "bytes": 2974546,
+      "sha256": "4b939fea8edd2957323e45a84dca8aeddabbddea30db612b4be58f14eb4a6f6c",
+      "status": "superseded_crop_failure"
+    },
+    {
+      "path": "channels/paper_detour/videos/003_iq_gallery/Packaging/Thumbnails/v06/iq_cover_v06_reframed_source.png",
+      "pixels": [
+        941,
+        1672
+      ],
+      "bytes": 2786079,
+      "sha256": "ee28f81c60d23a90e5062e8f5447587a958f1b842deac3a96e8d4503fdb43323",
+      "status": "accepted_by_user_2026-11-02"
+    },
+    {
+      "path": "channels/paper_detour/videos/003_iq_gallery/Packaging/Thumbnails/v06/iq_cover_v06_2160x3840.jpg",
+      "pixels": [
+        2160,
+        3840
+      ],
+      "bytes": 3233640,
+      "sha256": "29f1aa9a9f538caee10247577ad449e357b231cb7b8f1b2f9adb0ee17dabd889",
+      "status": "accepted_by_user_2026-11-02"
+    },
+    {
+      "path": "channels/paper_detour/videos/003_iq_gallery/Packaging/Thumbnails/v06/QA/final/mobile_layout_390.jpg",
+      "pixels": [
+        390,
+        844
+      ],
+      "bytes": 90838,
+      "sha256": "2b909247331bc4797d54d56eb7d93170e75611b97b7447072585155f6842413c",
+      "status": "local_preview_evidence"
+    },
+    {
+      "path": "channels/paper_detour/videos/003_iq_gallery/Packaging/Thumbnails/v06/QA/final/browser_context.jpg",
+      "pixels": [
+        2056,
+        1147
+      ],
+      "bytes": 136735,
+      "sha256": "4845713fd9c6b32d72576c4ac37e628c70488b4621a36f1b1703df795014409a",
+      "status": "local_preview_evidence"
+    }
+  ],
+  "qa_manifest": "QA/final/manifest.json",
+  "browser_metrics": "QA/final/browser_metrics.json",
+  "limits": [
+    "No physical-phone check",
+    "No live YouTube rendering of this candidate",
+    "No independent reviewer",
+    "No new full-film playback in this cover-only pass"
+  ],
+  "release_report": "channels/paper_detour/videos/003_iq_gallery/Packaging/Thumbnails/v06/release_20261102/REPORT.md"
+}

@@ -1,0 +1,72 @@
+{
+  "file": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Shorts/03_stereo_text/Deliverables/PAPER_DETOUR_001_SHORT03_STEREO_EN_REWORK_20261102_v01.mp4",
+  "sha256": "afbf839c5133e3511c4f973b8c77ae27cc61806e073ae5bd5296575af43bc73c",
+  "export_contract": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Shorts/03_stereo_text/Edit/rework_20261102/EXPORT_CONTRACT_v02.md",
+  "export_contract_sha256": "d2fd7c5be5ad81fb5def8ddf6ff34c0541567637b3e68fd38a0e0a08151a8d6c",
+  "projectId": "2D2F01B4",
+  "timelineId": "81B14597",
+  "snapshotId": "9A701F80",
+  "export_job": "43B77979-BC31-4857-8AEB-B647353F0393",
+  "export_status": "completed",
+  "original_audio_track_unchanged": true,
+  "native_subtitle_states_match_approved_map": true,
+  "source_sha256": "2a6c71d187c8ecc835f134c5982322d2b774ab0085729567c0f07f1cdc62c871",
+  "user_hearing_acceptance": {
+    "quote": "\u041f\u043e\u0441\u043c\u043e\u0442\u0440\u0435\u043b: \u043f\u043e\u0434\u0441\u0432\u0435\u0442\u043a\u0430 \u0441\u043e\u0432\u043f\u0430\u0434\u0430\u0435\u0442",
+    "scope": "Last complete review with higher animated accents; user listening, not model listening or native-file listening",
+    "reference_file": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Shorts/03_stereo_text/Work/rework_20261102/full_review_accents_v03/short03_accents_REVIEW.mp4",
+    "reference_sha256": "8bdfb1751fd1719db5ee1f070c68398a4935a97eb4a37cb5db246cf7f4969478"
+  },
+  "frame_reconstruction": {
+    "argv": [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-xerror",
+      "-i",
+      "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Shorts/03_stereo_text/Deliverables/PAPER_DETOUR_001_SHORT03_STEREO_EN_REWORK_20261102_v01.mp4",
+      "-map",
+      "0:v:0",
+      "-vf",
+      "select=eq(n\\,0)+eq(n\\,655)+eq(n\\,1226)",
+      "-fps_mode",
+      "vfr",
+      "-start_number",
+      "0",
+      "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Edit/QA/short03-native-v01-20261102/rebuild_check/%06d.png"
+    ],
+    "checks": [
+      {
+        "index": 0,
+        "sha256": "ec88d0d93ebd55219cade9e633336d3aa40f9150d8da5bbe0d08b4125d58688b",
+        "match": true
+      },
+      {
+        "index": 655,
+        "sha256": "21ceeec99cf2a9b9f3975853d9b7eaf3017789e2d85d54d1fefd63c8b8a5f7b9",
+        "match": true
+      },
+      {
+        "index": 1226,
+        "sha256": "a45fb21ebe821c7644459ddd208bd700dfac4f50fec3a53b7fe2c348751d3c4a",
+        "match": true
+      }
+    ]
+  },
+  "colour_contract": {
+    "progressive": true,
+    "primaries": "bt709",
+    "transfer": "bt709",
+    "matrix": "bt709",
+    "range": "tv",
+    "pixel_format": "yuv420p",
+    "fps": "30/1"
+  },
+  "limitations": [
+    "Self-review, not independent review",
+    "No model subjective audio listening",
+    "Frame sampling is not continuous all-frame visual review",
+    "Native AAC signal delay ~13ms relative to decoded MP3, less than one video frame",
+    "Engine-managed AAC ~65kbps mono; no subjective codec quality verdict"
+  ]
+}

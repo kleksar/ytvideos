@@ -1,0 +1,82 @@
+{
+  "command": [
+    "ffmpeg",
+    "-hide_banner",
+    "-nostdin",
+    "-v",
+    "error",
+    "-n",
+    "-i",
+    "/Users/diplomat/ytvideos/channels/nuviko_stories/videos/015_девушка_моего_брата_приревновала_его_ко_мне/Edit/015_en_palmier_render_raw.mp4",
+    "-i",
+    "/Users/diplomat/ytvideos/channels/nuviko_stories/videos/015_девушка_моего_брата_приревновала_его_ко_мне/Source/Voice/en/female_before_corrected_v2/voice_en.mp3",
+    "-i",
+    "/Users/diplomat/ytvideos/channels/nuviko_stories/videos/015_девушка_моего_брата_приревновала_его_ко_мне/Source/Voice/en/male_line/voice_en.mp3",
+    "-i",
+    "/Users/diplomat/ytvideos/channels/nuviko_stories/videos/015_девушка_моего_брата_приревновала_его_ко_мне/Source/Voice/en/female_after/voice_en.mp3",
+    "-filter_complex",
+    "[1:a]asetpts=PTS-STARTPTS,atempo=1.1,aresample=44100,atrim=duration=84.466666667,apad=whole_dur=84.466666667,adelay=0S:all=1[a0];[2:a]asetpts=PTS-STARTPTS,atempo=1.1,aresample=44100,atrim=duration=1.533333333,apad=whole_dur=1.533333333,adelay=3729390S:all=1[a1];[3:a]asetpts=PTS-STARTPTS,atempo=1.1,aresample=44100,atrim=duration=55.200000000,apad=whole_dur=55.200000000,adelay=3801420S:all=1[a2];[a0][a1][a2]amix=inputs=3:duration=longest:normalize=0,atrim=duration=141.400000000,asetpts=PTS-STARTPTS[a]",
+    "-map",
+    "0:v:0",
+    "-map",
+    "[a]",
+    "-c:v",
+    "copy",
+    "-c:a",
+    "aac",
+    "-profile:a",
+    "aac_low",
+    "-b:a",
+    "192k",
+    "-ar",
+    "44100",
+    "-ac",
+    "1",
+    "-movflags",
+    "+faststart",
+    "/Users/diplomat/ytvideos/channels/nuviko_stories/videos/015_девушка_моего_брата_приревновала_его_ко_мне/Deliverables/015_en_shorts_110_audio192.mp4"
+  ],
+  "frames": 4242,
+  "fps": 30,
+  "segments": [
+    {
+      "text": "/Users/diplomat/ytvideos/channels/nuviko_stories/videos/015_девушка_моего_брата_приревновала_его_ко_мне/Source/Voice/en/female_before.txt",
+      "audio": "/Users/diplomat/ytvideos/channels/nuviko_stories/videos/015_девушка_моего_брата_приревновала_его_ко_мне/Source/Voice/en/female_before_corrected_v2/voice_en.mp3",
+      "alignment": "/Users/diplomat/ytvideos/channels/nuviko_stories/videos/015_девушка_моего_брата_приревновала_его_ко_мне/Source/Voice/en/female_before_corrected_v2/voice_en.alignment.json",
+      "mediaRef": "F4A0E64C",
+      "status": "ready",
+      "clipId": "AAF20168",
+      "frames": [
+        0,
+        2534
+      ],
+      "speed": 1.1
+    },
+    {
+      "text": "/Users/diplomat/ytvideos/channels/nuviko_stories/videos/015_девушка_моего_брата_приревновала_его_ко_мне/Source/Voice/en/male_line.txt",
+      "audio": "/Users/diplomat/ytvideos/channels/nuviko_stories/videos/015_девушка_моего_брата_приревновала_его_ко_мне/Source/Voice/en/male_line/voice_en.mp3",
+      "alignment": "/Users/diplomat/ytvideos/channels/nuviko_stories/videos/015_девушка_моего_брата_приревновала_его_ко_мне/Source/Voice/en/male_line/voice_en.alignment.json",
+      "mediaRef": "EB8DBD48",
+      "status": "ready",
+      "clipId": "898B202A",
+      "frames": [
+        2537,
+        2583
+      ],
+      "speed": 1.1
+    },
+    {
+      "text": "/Users/diplomat/ytvideos/channels/nuviko_stories/videos/015_девушка_моего_брата_приревновала_его_ко_мне/Source/Voice/en/female_after.txt",
+      "audio": "/Users/diplomat/ytvideos/channels/nuviko_stories/videos/015_девушка_моего_брата_приревновала_его_ко_мне/Source/Voice/en/female_after/voice_en.mp3",
+      "alignment": "/Users/diplomat/ytvideos/channels/nuviko_stories/videos/015_девушка_моего_брата_приревновала_его_ко_мне/Source/Voice/en/female_after/voice_en.alignment.json",
+      "mediaRef": "4E6F39EA",
+      "status": "ready",
+      "clipId": "A3AFEDCA",
+      "frames": [
+        2586,
+        4242
+      ],
+      "speed": 1.1
+    }
+  ]
+}

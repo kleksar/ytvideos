@@ -1,0 +1,44 @@
+{
+  "status": "APPLIED_STUDIO_VERIFIED_PUBLIC_BANNER_PENDING",
+  "mode": "built-in image_gen",
+  "reference": "../References/traveler_selected_20261102.png",
+  "outputs": [
+    {
+      "file": "avatar_v01.png",
+      "source": "/Users/diplomat/.codex/generated_images/01a19cf7-cd30-78b3-b497-9713d30edd26/exec-71b593d8-a38e-4325-8a55-239eaa053ea4.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2298499,
+      "sha256": "31f1b2e029592a774684430bf7d301f661afee75f814cb3f08cdfe697f271ed1"
+    },
+    {
+      "file": "banner_v03_native.png",
+      "source": "/Users/diplomat/.codex/generated_images/01a19cf7-cd30-78b3-b497-9713d30edd26/exec-0efa9ea9-c4ae-4895-86d8-6493eca87a12.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2765152,
+      "sha256": "49c8105a81c952d9dcbe69cf1d5a0847a2a57cd304d8728f95f1724cb96762ae"
+    },
+    {
+      "file": "banner_v03_2560x1440.jpg",
+      "source": "banner_v03_native.png",
+      "transform": "Technical resample to 2560x1440, JPEG quality90 via sips; not native generation at this resolution.",
+      "width": 2560,
+      "height": 1440,
+      "bytes": 1377501,
+      "sha256": "4010bc609a38ca2526966a82247e619ca3be5f4fdfe3a63048c90026562d6b4e"
+    }
+  ],
+  "external_changes": true,
+  "review": "Author viewed individual generated avatar and banner. No independent review or actual Studio preview yet. Banner lettering/complete head fit the planned central phone area by visual inspection.",
+  "user_approval": "пушка. применяй",
+  "destination_channel_id": "UCbyLx6Rf3iWww4bPZJ2oo2A",
+  "receipt": "APPLIED_20261102.md",
+  "verification": {
+    "studio_saved": true,
+    "fresh_studio_preview_both_images": true,
+    "public_avatar_visible": true,
+    "public_banner_visible": false,
+    "public_banner_state": "Not confirmed; no repeat write based only on public display lag."
+  }
+}

@@ -1,0 +1,5 @@
+# Endurance hashtags research, 2026-11-06
+
+#Shackleton #Endurance #Antarctica #ElephantIsland #SouthGeorgia #MaritimeHistory #SurvivalStory #HistoryDocumentary #ErnestShackleton #ShackletonExpedition #EnduranceExpedition #EnduranceShip #PolarExploration #AntarcticaDocumentary #ExplorationHistory
+
+Prior eight retained. Added exact person, expedition, ship, polar exploration, Antarctic documentary and exploration history labels. vidIQ research results are in HASHTAGS_VIDIQ_RESEARCH_v02.json and refer to search phrases without #. Exact #EnduranceExpedition and #ExplorationHistory use observed in https://www.youtube.com/watch?v=tEbSNh0z6Co. Exact #Shackleton and #Endurance observed in https://www.youtube.com/watch?v=Cdcr4-j1IRo. Other exact hashtag usage and demand unknown. Related to accepted narration. Excluded South Pole as the expedition did not reach it, 2022 wreck-discovery tags, skills/tutorial terms, and generic unrelated high-volume terms. Policy https://support.google.com/youtube/answer/6390658?hl=en.

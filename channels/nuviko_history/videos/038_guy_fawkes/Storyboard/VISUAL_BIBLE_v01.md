@@ -1,0 +1,13 @@
+# Nuviko 038 — visual continuity bible v01
+
+- Base profile: `channels/nuviko_history/brand/VISUAL_PROFILE.md`; realistic early 17th-century English world, restrained drawn Nuviko traveler.
+- Scene format: 16:9 static photorealistic historical reconstructions. No readable in-image text. The shared Nuviko caption layer occupies a centered bottom band; keep faces and story-critical action above that region.
+- Guy Fawkes: visual appearance is not specified by the accepted story. The first generated depiction in `Source/Images/S01_v01.png` is an episode-only fictionalized visual continuity anchor, not a claimed portrait. Use that exact image as face/wardrobe continuity reference when Fawkes recurs; do not copy its pose or background.
+- Robert Catesby: visual appearance is not specified by the accepted story. Use the generated S13 portrait as episode-only fictionalized continuity reference, not a claimed historical likeness. Keep Catesby the group's visual center and Fawkes a member, never its leader.
+- James I and Monteagle: establish fictionalized period appearances in their first shots and reuse exact episode images as continuity references where they recur. No historical likeness claim.
+- Nuviko traveler: profile's exact selected reference file is missing. The episode preserves the applied channel avatar at `../Source/Reference/nuviko_channel_avatar_v01.png` (copy of the avatar identified in the applied channel manifest; SHA-256 `31f1b2e029592a774684430bf7d301f661afee75f814cb3f08cdfe697f271ed1`). Use it only for identity/style; specify a new pose/action per shot. The traveler is a drawn observer at the edge of later public-memory scenes and never participates in the plot.
+- Recurring basement: use S01 as environment/barrel continuity reference for later scenes in the rented room; its exact barrel count and material details are generated reconstruction, not narration claims.
+- Recurring letter: use the Monteagle warning image as the paper/prop continuity anchor; no legible text, sender or signature.
+- Subtitle-safe band: x 0.2375–0.7625, y 0.85–0.935 on normalized 16:9 canvas; keep faces, hands and essential action above y 0.82. This derives from Nuviko long profile geometry and must be checked against actual rendered cue extents.
+- Motion envelope requested for prompts: centered whole-frame zoom 1.00–1.04, alternating in/out; no horizontal pan. This is provisional until each image is reviewed over its actual motion path. Reduce or remove motion where it clips a face/object.
+- Later celebrations and fireworks are set in an unspecified later period, as the narration says “over time”; do not assign a year or imply this is the night of 1605.

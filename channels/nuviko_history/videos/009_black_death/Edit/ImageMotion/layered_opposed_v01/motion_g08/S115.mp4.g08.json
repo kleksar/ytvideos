@@ -1,0 +1,39 @@
+{
+  "input": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_pre_g08/S115_pre_g08.mp4",
+  "output": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/ImageMotion/layered_opposed_v01/motion_g08/S115.mp4",
+  "image_sha256": "3f65215a18971aab23a27f73fb21839f4fe4bd351dff5d5fe56d3b18758c5180",
+  "frames": 180,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "preset": "g08",
+  "grain": {
+    "name": "Short Persistence",
+    "version": 1,
+    "rms_y_codes": 3.0,
+    "sigma_reference_px": 0.77,
+    "reference_short_side": 1440,
+    "update_hz": 30,
+    "rho": 0.35,
+    "mask_y": [
+      20,
+      64,
+      208,
+      235
+    ],
+    "range_y": [
+      16,
+      235
+    ],
+    "chroma": false,
+    "seed": 20261102
+  },
+  "seed": 7973435221923787447,
+  "sigma_output_px": 0.5775,
+  "order": [
+    "source still",
+    "layered parallax",
+    "opposed camera",
+    "G08"
+  ]
+}

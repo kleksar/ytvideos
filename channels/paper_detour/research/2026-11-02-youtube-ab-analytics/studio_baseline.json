@@ -1,0 +1,59 @@
+{
+  "captured_at": "2026-11-02T01:42:27.513913+00:00",
+  "source": "YouTube Studio visible reports",
+  "period": {
+    "start": "2026-10-04",
+    "end": "2026-10-31",
+    "timezone": null,
+    "timezone_status": "not_exposed_in_observed_UI"
+  },
+  "privacy_filter": "not_set",
+  "overview": {
+    "views": 59,
+    "watch_time_hours_displayed": 0.4,
+    "net_subscribers": 1
+  },
+  "realtime": {
+    "views": 709,
+    "window": "last_48_hours",
+    "status": "preliminary"
+  },
+  "shorts": {
+    "views": 50,
+    "engaged_views": 23,
+    "likes_net": 4,
+    "net_subscribers": 1,
+    "stayed_to_watch_percent": 57.9,
+    "swiped_away_percent": 42.1,
+    "shown_in_feed": null,
+    "feed_denominator_status": "not_exposed",
+    "traffic_share_percent": {
+      "shorts_feed": 72,
+      "other_youtube_pages": 16,
+      "direct_or_unknown": 4,
+      "youtube_search": 4,
+      "browse_features": 2,
+      "other": 2
+    }
+  },
+  "video_on_demand": {
+    "views": 9,
+    "thumbnail_impressions": 17,
+    "thumbnail_ctr": null,
+    "thumbnail_ctr_status": "UI_dash_unavailable_not_zero",
+    "average_view_duration_displayed": "1:02",
+    "scope_limit": "channel_total_not_single_public_film"
+  },
+  "radio_in_overview": {
+    "video_id": "0RaC4t7yn5o",
+    "views": 5,
+    "average_view_duration_displayed": "0:50",
+    "average_percentage_viewed": 19.2
+  },
+  "missing": [
+    "reporting_timezone",
+    "first_24h_cohort",
+    "retention_curves",
+    "causal_lift_evidence"
+  ]
+}

@@ -1,0 +1,14 @@
+# Rarovista Shorts — Pro v2 render log
+
+The current render package uses the Pro-v2 scripts and ElevenLabs Roger (`CwhRBWXzGAHq8TQ4Fs17`, `eleven_v4`) source voices at original speed. Scripts, word alignment and production assets remain in `channels/paper_detour/videos/001_radio_game/Shorts/`. No music or effects were added. The images are illustrative stills with slow camera scaling, not frame-by-frame animation; a reconstruction label appears at the beginning. Narration subtitles are separate SRT files and are not burned into the picture.
+
+All three MP4 files are H.264 1080×1920, 30 fps; mono AAC-LC 44.1 kHz, encoder target 192 kbit/s. Original source audio is lossy 128 kbit/s MP3; higher AAC target cannot recover its lost quality. All videos fully decoded with FFmpeg `-xerror`. Beginning, middle and end of the waveforms matched the original voice with measured offset 0 in sampled three-second windows. SRT cues are ordered and within the video durations; timing comes from machine alignment. Selected frames were inspected, not the entire video. No full listening or hearing-based subtitle verification was possible.
+
+- `/Users/diplomat/ytvideos/channels/paper_detour/legacy/020_rarovista_radio_game/Deliverables/01_radio_signal_en_shorts_v2.mp4` — 40.500 s; AAC mean 165714 bit/s, peak −3.4 dBFS; SHA-256 `c92e2fd3f113f5fbc9bed2bb1604d738800db319505f2096599f96316a1e341d`.
+  SRT `/Users/diplomat/ytvideos/channels/paper_detour/legacy/020_rarovista_radio_game/Deliverables/01_radio_signal_en_shorts_v2.en.srt`, 22 cues; SHA-256 `6e57f61cadbfb0882520de07bb152b86b12c755436fd8a9ae7f41270ca865a90`.
+- `/Users/diplomat/ytvideos/channels/paper_detour/legacy/020_rarovista_radio_game/Deliverables/02_decoder_en_shorts_v2.mp4` — 37.366667 s; AAC mean 165203 bit/s, peak −3.2 dBFS; SHA-256 `4030fa05b1e7d5017ec170e96be462dd251e9f96a8294a72fada5a3f1c1b13e5`.
+  SRT `/Users/diplomat/ytvideos/channels/paper_detour/legacy/020_rarovista_radio_game/Deliverables/02_decoder_en_shorts_v2.en.srt`, 20 cues; SHA-256 `1cc12fd28ef4989678986922529f883402f352ac66a0567b5f77fe19568fe059`.
+- `/Users/diplomat/ytvideos/channels/paper_detour/legacy/020_rarovista_radio_game/Deliverables/03_stereo_text_en_shorts_v2.mp4` — 40.900 s; AAC mean 169393 bit/s, peak −3.6 dBFS; SHA-256 `2e7245288dece26065ffcd2260120e134fb95f6d4b45589b26d203bd4f53462f`.
+  SRT `/Users/diplomat/ytvideos/channels/paper_detour/legacy/020_rarovista_radio_game/Deliverables/03_stereo_text_en_shorts_v2.en.srt`, 22 cues; SHA-256 `682bffc197f613c901df488b4157357371e6ff14f73fb180da642646d663bdda`.
+
+After checking v2, the superseded local 01 v1 MP4, SRT and associated verification JSON were removed from `channels/paper_detour/videos/001_radio_game/Shorts/01_radio_signal/Deliverables/`; source files were retained. Individual output verification JSON files are adjacent to the current exports.

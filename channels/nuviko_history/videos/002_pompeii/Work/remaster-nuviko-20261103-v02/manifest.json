@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "run": "remaster-nuviko-20261103-v02",
+  "owner": "codex-root-20261103",
+  "status": "complete",
+  "created_utc": "2026-11-03T17:16:47.176437+00:00",
+  "entries": [
+    {
+      "path": "Work/remaster-nuviko-20261103-v02/previews/NuvikoHistory_002_Pompeii_Final_Hours_review_v02.mp4",
+      "role": "preview",
+      "identity": {
+        "device": 16777234,
+        "inode": 126553473,
+        "bytes": 2266856356,
+        "mtime_ns": 1793726658063963213,
+        "ctime_ns": 1793726658063963213,
+        "nlink": 1,
+        "allocated_bytes": 2266857472
+      },
+      "sha256": "66594f1b8aa1b46595a1ce393e7e433230da743994ad6d68a6bf89f736400d33",
+      "rebuild_from": [],
+      "evidence": [
+        {
+          "path": "Edit/Decisions/review_v02_superseded_by_speed_change_20261103.json",
+          "identity": {
+            "device": 16777234,
+            "inode": 126571182,
+            "bytes": 383,
+            "mtime_ns": 1793726951072699820,
+            "ctime_ns": 1793726951072699820,
+            "nlink": 1,
+            "allocated_bytes": 4096
+          },
+          "sha256": "72348cb066473ef69730b4bbb8ca7ae9ffaa554e4cb7cfba92087df55abd6096"
+        }
+      ],
+      "disposition": "rejected"
+    },
+    {
+      "path": "Edit/FFmpeg/remaster-nuviko-20261103-v01/render_command_direct_v01.json",
+      "role": "evidence",
+      "identity": {
+        "device": 16777234,
+        "inode": 126553444,
+        "bytes": 1288,
+        "mtime_ns": 1793726230759608283,
+        "ctime_ns": 1793726230759608283,
+        "nlink": 1,
+        "allocated_bytes": 4096
+      },
+      "sha256": "8597bff914f5fb58101e92e5d3c3f67e808cb17666df1b73c3e024c89e4cd0e5",
+      "rebuild_from": [],
+      "evidence": [],
+      "disposition": "pending"
+    }
+  ],
+  "writer_finished_utc": "2026-11-03T17:24:40.263516+00:00"
+}

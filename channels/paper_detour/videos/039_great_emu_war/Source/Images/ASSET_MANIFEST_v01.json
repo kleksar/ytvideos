@@ -1,0 +1,133 @@
+{
+  "episode": "paper_039_great_emu_war",
+  "storyboard": "Storyboard/storyboard_v01.md",
+  "status": "DRAFT",
+  "images": [
+    {
+      "scene_id": "S01",
+      "version": "v01",
+      "path": "v01/S01_v01.png",
+      "prompt_path": "prompts/S01_v01.md",
+      "status": "CANDIDATE",
+      "dep_storyboard": "storyboard_v01",
+      "dep_visual_bible": "VISUAL_BIBLE_v01",
+      "reference": {
+        "path": "channels/paper_detour/Shared/References/Paper/paper004_user_38.png",
+        "sha256": "238bb11958c8e59224edcd006db060df0bddd0c9e100f795e44eeb537ebdc166",
+        "role": "paper material, volume, physical lighting"
+      },
+      "requested_dimensions_px": [3840, 2160],
+      "actual_dimensions_px": [1672, 941],
+      "actual_format": "PNG RGB opaque",
+      "sha256": "99b303464a8412ecfac7dd64e29afe5cae200a7102bf72deb74db8052b3a33fe",
+      "motion_applied": false,
+      "review": {
+        "full_frame_seen": true,
+        "magnified_details": "UNVERIFIED",
+        "motion_path": "UNVERIFIED",
+        "import_ready": false
+      }
+    },
+    {
+      "scene_id": "S02",
+      "version": "v01",
+      "path": "v01/S02_v01.png",
+      "prompt_path": "prompts/S02_v01.md",
+      "status": "CANDIDATE",
+      "dep_storyboard": "storyboard_v01",
+      "dep_visual_bible": "VISUAL_BIBLE_v01",
+      "references": [
+        {"path": "channels/paper_detour/Shared/References/Paper/paper004_user_38.png", "role": "material and lighting"},
+        {"path": "v01/S01_v01.png", "sha256": "99b303464a8412ecfac7dd64e29afe5cae200a7102bf72deb74db8052b3a33fe", "role": "soldier, weapon and dam continuity"}
+      ],
+      "requested_dimensions_px": [3840, 2160],
+      "actual_dimensions_px": [1672, 941],
+      "actual_format": "PNG RGB opaque",
+      "sha256": "5d9ac12ada22589020ccb029959129dd02833103703e47f0f7c0378c56e386da",
+      "motion_applied": false,
+      "review": {"full_frame_seen": true, "magnified_details": "UNVERIFIED", "motion_path": "UNVERIFIED", "import_ready": false}
+    },
+    {
+      "scene_id": "S03",
+      "version": "v01",
+      "path": "v01/S03_v01.png",
+      "prompt_path": "prompts/S03_v01.md",
+      "status": "CANDIDATE",
+      "dep_storyboard": "storyboard_v01",
+      "dep_visual_bible": "VISUAL_BIBLE_v01",
+      "references": [
+        {"path": "channels/paper_detour/Shared/References/Paper/paper004_user_38.png", "role": "material and lighting"},
+        {"path": "v01/S01_v01.png", "sha256": "99b303464a8412ecfac7dd64e29afe5cae200a7102bf72deb74db8052b3a33fe", "role": "landscape and dam continuity"},
+        {"path": "v01/S02_v01.png", "sha256": "5d9ac12ada22589020ccb029959129dd02833103703e47f0f7c0378c56e386da", "role": "water and earth-paper continuity"}
+      ],
+      "requested_dimensions_px": [3840, 2160],
+      "actual_dimensions_px": [1672, 941],
+      "actual_format": "PNG RGB opaque",
+      "sha256": "757f8c0c823b42c7c76cb91c34024cad4951f3c8942777e47591f78220157ca4",
+      "motion_applied": false,
+      "review": {"full_frame_seen": true, "magnified_details": "UNVERIFIED", "motion_path": "UNVERIFIED", "import_ready": false}
+    },
+    {
+      "scene_id": "S04",
+      "version": "v01",
+      "path": "v01/S04_v01.png",
+      "prompt_path": "prompts/S04_v01.md",
+      "status": "CANDIDATE",
+      "dep_storyboard": "storyboard_v01",
+      "dep_visual_bible": "VISUAL_BIBLE_v01",
+      "references": [
+        {"path": "channels/paper_detour/Shared/References/Paper/paper004_user_38.png", "role": "material and light"},
+        {"path": "v01/S02_v01.png", "sha256": "5d9ac12ada22589020ccb029959129dd02833103703e47f0f7c0378c56e386da", "role": "soldiers, weapons and dam continuity"},
+        {"path": "v01/S03_v01.png", "sha256": "757f8c0c823b42c7c76cb91c34024cad4951f3c8942777e47591f78220157ca4", "role": "emu, water and landscape continuity"}
+      ],
+      "requested_dimensions_px": [3840, 2160],
+      "actual_dimensions_px": [1672, 941],
+      "actual_format": "PNG RGB opaque",
+      "sha256": "31353a1452938133cf6fd0401032be5a689577c9bbe441cae2dbf93c207a6784",
+      "motion_applied": false,
+      "review": {"full_frame_seen": true, "magnified_details": "UNVERIFIED", "motion_path": "UNVERIFIED", "import_ready": false}
+    },
+    {
+      "scene_id": "S05",
+      "version": "v01",
+      "path": "v01/S05_v01.png",
+      "prompt_path": "prompts/S05_v01.md",
+      "status": "CANDIDATE",
+      "dep_storyboard": "storyboard_v01",
+      "dep_visual_bible": "VISUAL_BIBLE_v01",
+      "references": [
+        {"path": "channels/paper_detour/Shared/References/Paper/paper004_user_38.png", "role": "material and lighting"},
+        {"path": "v01/S02_v01.png", "sha256": "5d9ac12ada22589020ccb029959129dd02833103703e47f0f7c0378c56e386da", "role": "soldiers and Lewis gun"},
+        {"path": "v01/S03_v01.png", "sha256": "757f8c0c823b42c7c76cb91c34024cad4951f3c8942777e47591f78220157ca4", "role": "emu and landscape continuity"},
+        {"path": "v01/S04_v01.png", "sha256": "31353a1452938133cf6fd0401032be5a689577c9bbe441cae2dbf93c207a6784", "role": "dam geography and gathered flock"}
+      ],
+      "requested_dimensions_px": [3840, 2160],
+      "actual_dimensions_px": [1672, 941],
+      "actual_format": "PNG RGB opaque",
+      "sha256": "d0b33eb7a0734da2aa6524599cfd306ce600e4430b65a0b64d0d88d014f173b5",
+      "motion_applied": false,
+      "review": {"full_frame_seen": true, "magnified_details": "UNVERIFIED", "motion_path": "UNVERIFIED", "import_ready": false}
+    },
+    {
+      "scene_id": "S06",
+      "version": "v01",
+      "path": "v01/S06_v01.png",
+      "prompt_path": "prompts/S06_v01.md",
+      "status": "CANDIDATE",
+      "dep_storyboard": "storyboard_v01",
+      "dep_visual_bible": "VISUAL_BIBLE_v01",
+      "references": [
+        {"path": "channels/paper_detour/Shared/References/Paper/paper004_user_38.png", "role": "material and lighting"},
+        {"path": "v01/S02_v01.png", "sha256": "5d9ac12ada22589020ccb029959129dd02833103703e47f0f7c0378c56e386da", "role": "soldiers and Lewis gun"},
+        {"path": "v01/S04_v01.png", "sha256": "31353a1452938133cf6fd0401032be5a689577c9bbe441cae2dbf93c207a6784", "role": "dam and birds"},
+        {"path": "v01/S05_v01.png", "sha256": "d0b33eb7a0734da2aa6524599cfd306ce600e4430b65a0b64d0d88d014f173b5", "role": "immediately preceding shot"}
+      ],
+      "requested_dimensions_px": [3840, 2160],
+      "actual_dimensions_px": [1672, 941],
+      "actual_format": "PNG RGB opaque",
+      "sha256": "875138b3e57cdba8f34bc7c096d3d96b82f5d43ea3bbf0f2ad272f3c057b0b2f",
+      "motion_applied": false,
+      "review": {"full_frame_seen": true, "magnified_details": "UNVERIFIED", "motion_path": "UNVERIFIED", "import_ready": false}
+    }
+  ]
+}

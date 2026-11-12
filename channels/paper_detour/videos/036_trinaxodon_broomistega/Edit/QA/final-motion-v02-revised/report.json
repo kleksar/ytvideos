@@ -1,0 +1,904 @@
+{
+  "created_utc": "2026-11-02T06:54:24.584591+00:00",
+  "media": "/Users/diplomat/ytvideos/channels/paper_detour/videos/036_trinaxodon_broomistega/Deliverables/Thrinaxodon_Broomistega_EN_motion_v01.mp4",
+  "plan": {
+    "frame_count": 1356,
+    "fps": "30/1",
+    "sha256": "bbc78a1030ee74c3abc8b69bec464e2f07e7ed843fcbd2b17f8ee0d8cbe69f2d",
+    "freshness": {
+      "status": "CURRENT",
+      "evidence": "Palmier completed export job; live timeline fingerprint matches frozen timeline"
+    },
+    "expected": {
+      "video": {
+        "width": 1080,
+        "height": 1920,
+        "codec_name": "h264",
+        "pix_fmt": "yuv420p",
+        "color_space": "bt709"
+      },
+      "audio": {
+        "required": true,
+        "codec_name": "aac"
+      }
+    },
+    "scene_seconds": [
+      4,
+      6
+    ],
+    "scenes": [
+      {
+        "id": "S01",
+        "start": 0,
+        "end": 132
+      },
+      {
+        "id": "S02",
+        "start": 132,
+        "end": 267
+      },
+      {
+        "id": "S03",
+        "start": 267,
+        "end": 414
+      },
+      {
+        "id": "S04",
+        "start": 414,
+        "end": 564
+      },
+      {
+        "id": "S05",
+        "start": 564,
+        "end": 690
+      },
+      {
+        "id": "S06",
+        "start": 690,
+        "end": 810
+      },
+      {
+        "id": "S07",
+        "start": 810,
+        "end": 939
+      },
+      {
+        "id": "S08",
+        "start": 939,
+        "end": 1066
+      },
+      {
+        "id": "S09",
+        "start": 1066,
+        "end": 1212
+      },
+      {
+        "id": "S10",
+        "start": 1212,
+        "end": 1356
+      }
+    ],
+    "cues": [
+      {
+        "id": "C01",
+        "start": 8,
+        "end": 63,
+        "entry_end": 12,
+        "exit_start": 58
+      },
+      {
+        "id": "C02",
+        "start": 139,
+        "end": 218,
+        "entry_end": 143,
+        "exit_start": 213
+      },
+      {
+        "id": "C03",
+        "start": 271,
+        "end": 307,
+        "entry_end": 275,
+        "exit_start": 302
+      },
+      {
+        "id": "C04",
+        "start": 437,
+        "end": 485,
+        "entry_end": 441,
+        "exit_start": 480
+      },
+      {
+        "id": "C05",
+        "start": 637,
+        "end": 689,
+        "entry_end": 641,
+        "exit_start": 684
+      },
+      {
+        "id": "C06",
+        "start": 734,
+        "end": 809,
+        "entry_end": 738,
+        "exit_start": 804
+      },
+      {
+        "id": "C07",
+        "start": 818,
+        "end": 893,
+        "entry_end": 822,
+        "exit_start": 888
+      },
+      {
+        "id": "C08",
+        "start": 939,
+        "end": 986,
+        "entry_end": 943,
+        "exit_start": 981
+      },
+      {
+        "id": "C09",
+        "start": 991,
+        "end": 1063,
+        "entry_end": 995,
+        "exit_start": 1058
+      },
+      {
+        "id": "C10",
+        "start": 1306,
+        "end": 1356,
+        "entry_end": 1310,
+        "exit_start": 1351
+      }
+    ],
+    "extra_frames": [
+      32,
+      98,
+      165,
+      232,
+      303,
+      376,
+      451,
+      525,
+      595,
+      657,
+      719,
+      779,
+      842,
+      906,
+      970,
+      1033,
+      1102,
+      1174,
+      1247,
+      1319
+    ]
+  },
+  "policy_failures": [],
+  "failures": [],
+  "reported_freshness": {
+    "status": "CURRENT",
+    "evidence": "Palmier completed export job; live timeline fingerprint matches frozen timeline"
+  },
+  "checks": {
+    "stream_metadata": "PASS",
+    "full_decode": "PASS",
+    "frame_extraction": "PASS",
+    "frame_sampling": "UNVERIFIED",
+    "motion_framing": "UNVERIFIED",
+    "cue_timing": "UNVERIFIED",
+    "audio_signal": "UNVERIFIED",
+    "subjective_audio_listening": "UNVERIFIED",
+    "independent_review": "UNVERIFIED"
+  },
+  "inspected_frame_indices": [],
+  "requested_frame_indices": [
+    0,
+    7,
+    8,
+    12,
+    32,
+    35,
+    58,
+    62,
+    63,
+    65,
+    98,
+    131,
+    132,
+    138,
+    139,
+    143,
+    165,
+    178,
+    199,
+    213,
+    217,
+    218,
+    232,
+    266,
+    267,
+    270,
+    271,
+    275,
+    288,
+    302,
+    303,
+    306,
+    307,
+    340,
+    376,
+    413,
+    414,
+    436,
+    437,
+    441,
+    451,
+    460,
+    480,
+    484,
+    485,
+    488,
+    525,
+    563,
+    564,
+    595,
+    626,
+    636,
+    637,
+    641,
+    657,
+    662,
+    684,
+    688,
+    689,
+    690,
+    719,
+    733,
+    734,
+    738,
+    749,
+    771,
+    779,
+    804,
+    808,
+    809,
+    810,
+    817,
+    818,
+    822,
+    842,
+    855,
+    874,
+    888,
+    892,
+    893,
+    906,
+    938,
+    939,
+    943,
+    962,
+    970,
+    981,
+    985,
+    986,
+    990,
+    991,
+    995,
+    1002,
+    1026,
+    1033,
+    1058,
+    1062,
+    1063,
+    1065,
+    1066,
+    1102,
+    1138,
+    1174,
+    1211,
+    1212,
+    1247,
+    1283,
+    1305,
+    1306,
+    1310,
+    1319,
+    1330,
+    1351,
+    1355
+  ],
+  "sha256": "bbc78a1030ee74c3abc8b69bec464e2f07e7ed843fcbd2b17f8ee0d8cbe69f2d",
+  "streams": [
+    {
+      "index": 0,
+      "codec_name": "aac",
+      "codec_long_name": "AAC (Advanced Audio Coding)",
+      "profile": "LC",
+      "codec_type": "audio",
+      "codec_tag_string": "mp4a",
+      "codec_tag": "0x6134706d",
+      "mime_codec_string": "mp4a.40.2",
+      "sample_fmt": "fltp",
+      "sample_rate": "44100",
+      "channels": 1,
+      "channel_layout": "mono",
+      "bits_per_sample": 0,
+      "initial_padding": 0,
+      "id": "0x1",
+      "r_frame_rate": "0/0",
+      "avg_frame_rate": "0/0",
+      "time_base": "1/44100",
+      "start_pts": 0,
+      "start_time": "0.000000",
+      "duration_ts": 1993320,
+      "duration": "45.200000",
+      "bit_rate": "64044",
+      "nb_frames": "1949",
+      "extradata_size": 2,
+      "disposition": {
+        "default": 1,
+        "dub": 0,
+        "original": 0,
+        "comment": 0,
+        "lyrics": 0,
+        "karaoke": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "visual_impaired": 0,
+        "clean_effects": 0,
+        "attached_pic": 0,
+        "timed_thumbnails": 0,
+        "non_diegetic": 0,
+        "captions": 0,
+        "descriptions": 0,
+        "metadata": 0,
+        "dependent": 0,
+        "still_image": 0,
+        "multilayer": 0
+      },
+      "tags": {
+        "creation_time": "2026-11-02T06:45:40.000000Z",
+        "language": "und",
+        "handler_name": "Core Media Audio"
+      }
+    },
+    {
+      "index": 1,
+      "codec_name": "h264",
+      "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+      "profile": "High",
+      "codec_type": "video",
+      "codec_tag_string": "avc1",
+      "codec_tag": "0x31637661",
+      "mime_codec_string": "avc1.640028",
+      "width": 1080,
+      "height": 1920,
+      "coded_width": 1080,
+      "coded_height": 1920,
+      "has_b_frames": 2,
+      "pix_fmt": "yuv420p",
+      "level": 40,
+      "color_range": "tv",
+      "color_space": "bt709",
+      "color_transfer": "bt709",
+      "color_primaries": "bt709",
+      "chroma_location": "left",
+      "field_order": "progressive",
+      "is_avc": "true",
+      "nal_length_size": "4",
+      "id": "0x2",
+      "r_frame_rate": "30/1",
+      "avg_frame_rate": "30/1",
+      "time_base": "1/600",
+      "start_pts": 0,
+      "start_time": "0.000000",
+      "duration_ts": 27120,
+      "duration": "45.200000",
+      "bit_rate": "10463890",
+      "bits_per_raw_sample": "8",
+      "nb_frames": "1356",
+      "extradata_size": 36,
+      "disposition": {
+        "default": 1,
+        "dub": 0,
+        "original": 0,
+        "comment": 0,
+        "lyrics": 0,
+        "karaoke": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "visual_impaired": 0,
+        "clean_effects": 0,
+        "attached_pic": 0,
+        "timed_thumbnails": 0,
+        "non_diegetic": 0,
+        "captions": 0,
+        "descriptions": 0,
+        "metadata": 0,
+        "dependent": 0,
+        "still_image": 0,
+        "multilayer": 0
+      },
+      "tags": {
+        "creation_time": "2026-11-02T06:45:40.000000Z",
+        "language": "und",
+        "handler_name": "Core Media Video"
+      }
+    }
+  ],
+  "decoded_video_frames": 1356,
+  "audio_measurements": {
+    "stream": "0:a:0",
+    "method": "sample levels and silence candidates; not listening",
+    "mean_dbfs": [
+      "-24.8"
+    ],
+    "sample_peak_dbfs": [
+      "-4.7"
+    ],
+    "silence_candidate_threshold_dbfs": -50,
+    "minimum_silence_seconds": 0.25
+  },
+  "audio_analysis_execution": "PASS",
+  "frame_map": [
+    {
+      "index": 0,
+      "path": "../../../Work/final-motion-v02/previews/qa/000000.png"
+    },
+    {
+      "index": 7,
+      "path": "../../../Work/final-motion-v02/previews/qa/000001.png"
+    },
+    {
+      "index": 8,
+      "path": "../../../Work/final-motion-v02/previews/qa/000002.png"
+    },
+    {
+      "index": 12,
+      "path": "../../../Work/final-motion-v02/previews/qa/000003.png"
+    },
+    {
+      "index": 32,
+      "path": "../../../Work/final-motion-v02/previews/qa/000004.png"
+    },
+    {
+      "index": 35,
+      "path": "../../../Work/final-motion-v02/previews/qa/000005.png"
+    },
+    {
+      "index": 58,
+      "path": "../../../Work/final-motion-v02/previews/qa/000006.png"
+    },
+    {
+      "index": 62,
+      "path": "../../../Work/final-motion-v02/previews/qa/000007.png"
+    },
+    {
+      "index": 63,
+      "path": "../../../Work/final-motion-v02/previews/qa/000008.png"
+    },
+    {
+      "index": 65,
+      "path": "../../../Work/final-motion-v02/previews/qa/000009.png"
+    },
+    {
+      "index": 98,
+      "path": "../../../Work/final-motion-v02/previews/qa/000010.png"
+    },
+    {
+      "index": 131,
+      "path": "../../../Work/final-motion-v02/previews/qa/000011.png"
+    },
+    {
+      "index": 132,
+      "path": "../../../Work/final-motion-v02/previews/qa/000012.png"
+    },
+    {
+      "index": 138,
+      "path": "../../../Work/final-motion-v02/previews/qa/000013.png"
+    },
+    {
+      "index": 139,
+      "path": "../../../Work/final-motion-v02/previews/qa/000014.png"
+    },
+    {
+      "index": 143,
+      "path": "../../../Work/final-motion-v02/previews/qa/000015.png"
+    },
+    {
+      "index": 165,
+      "path": "../../../Work/final-motion-v02/previews/qa/000016.png"
+    },
+    {
+      "index": 178,
+      "path": "../../../Work/final-motion-v02/previews/qa/000017.png"
+    },
+    {
+      "index": 199,
+      "path": "../../../Work/final-motion-v02/previews/qa/000018.png"
+    },
+    {
+      "index": 213,
+      "path": "../../../Work/final-motion-v02/previews/qa/000019.png"
+    },
+    {
+      "index": 217,
+      "path": "../../../Work/final-motion-v02/previews/qa/000020.png"
+    },
+    {
+      "index": 218,
+      "path": "../../../Work/final-motion-v02/previews/qa/000021.png"
+    },
+    {
+      "index": 232,
+      "path": "../../../Work/final-motion-v02/previews/qa/000022.png"
+    },
+    {
+      "index": 266,
+      "path": "../../../Work/final-motion-v02/previews/qa/000023.png"
+    },
+    {
+      "index": 267,
+      "path": "../../../Work/final-motion-v02/previews/qa/000024.png"
+    },
+    {
+      "index": 270,
+      "path": "../../../Work/final-motion-v02/previews/qa/000025.png"
+    },
+    {
+      "index": 271,
+      "path": "../../../Work/final-motion-v02/previews/qa/000026.png"
+    },
+    {
+      "index": 275,
+      "path": "../../../Work/final-motion-v02/previews/qa/000027.png"
+    },
+    {
+      "index": 288,
+      "path": "../../../Work/final-motion-v02/previews/qa/000028.png"
+    },
+    {
+      "index": 302,
+      "path": "../../../Work/final-motion-v02/previews/qa/000029.png"
+    },
+    {
+      "index": 303,
+      "path": "../../../Work/final-motion-v02/previews/qa/000030.png"
+    },
+    {
+      "index": 306,
+      "path": "../../../Work/final-motion-v02/previews/qa/000031.png"
+    },
+    {
+      "index": 307,
+      "path": "../../../Work/final-motion-v02/previews/qa/000032.png"
+    },
+    {
+      "index": 340,
+      "path": "../../../Work/final-motion-v02/previews/qa/000033.png"
+    },
+    {
+      "index": 376,
+      "path": "../../../Work/final-motion-v02/previews/qa/000034.png"
+    },
+    {
+      "index": 413,
+      "path": "../../../Work/final-motion-v02/previews/qa/000035.png"
+    },
+    {
+      "index": 414,
+      "path": "../../../Work/final-motion-v02/previews/qa/000036.png"
+    },
+    {
+      "index": 436,
+      "path": "../../../Work/final-motion-v02/previews/qa/000037.png"
+    },
+    {
+      "index": 437,
+      "path": "../../../Work/final-motion-v02/previews/qa/000038.png"
+    },
+    {
+      "index": 441,
+      "path": "../../../Work/final-motion-v02/previews/qa/000039.png"
+    },
+    {
+      "index": 451,
+      "path": "../../../Work/final-motion-v02/previews/qa/000040.png"
+    },
+    {
+      "index": 460,
+      "path": "../../../Work/final-motion-v02/previews/qa/000041.png"
+    },
+    {
+      "index": 480,
+      "path": "../../../Work/final-motion-v02/previews/qa/000042.png"
+    },
+    {
+      "index": 484,
+      "path": "../../../Work/final-motion-v02/previews/qa/000043.png"
+    },
+    {
+      "index": 485,
+      "path": "../../../Work/final-motion-v02/previews/qa/000044.png"
+    },
+    {
+      "index": 488,
+      "path": "../../../Work/final-motion-v02/previews/qa/000045.png"
+    },
+    {
+      "index": 525,
+      "path": "../../../Work/final-motion-v02/previews/qa/000046.png"
+    },
+    {
+      "index": 563,
+      "path": "../../../Work/final-motion-v02/previews/qa/000047.png"
+    },
+    {
+      "index": 564,
+      "path": "../../../Work/final-motion-v02/previews/qa/000048.png"
+    },
+    {
+      "index": 595,
+      "path": "../../../Work/final-motion-v02/previews/qa/000049.png"
+    },
+    {
+      "index": 626,
+      "path": "../../../Work/final-motion-v02/previews/qa/000050.png"
+    },
+    {
+      "index": 636,
+      "path": "../../../Work/final-motion-v02/previews/qa/000051.png"
+    },
+    {
+      "index": 637,
+      "path": "../../../Work/final-motion-v02/previews/qa/000052.png"
+    },
+    {
+      "index": 641,
+      "path": "../../../Work/final-motion-v02/previews/qa/000053.png"
+    },
+    {
+      "index": 657,
+      "path": "../../../Work/final-motion-v02/previews/qa/000054.png"
+    },
+    {
+      "index": 662,
+      "path": "../../../Work/final-motion-v02/previews/qa/000055.png"
+    },
+    {
+      "index": 684,
+      "path": "../../../Work/final-motion-v02/previews/qa/000056.png"
+    },
+    {
+      "index": 688,
+      "path": "../../../Work/final-motion-v02/previews/qa/000057.png"
+    },
+    {
+      "index": 689,
+      "path": "../../../Work/final-motion-v02/previews/qa/000058.png"
+    },
+    {
+      "index": 690,
+      "path": "../../../Work/final-motion-v02/previews/qa/000059.png"
+    },
+    {
+      "index": 719,
+      "path": "../../../Work/final-motion-v02/previews/qa/000060.png"
+    },
+    {
+      "index": 733,
+      "path": "../../../Work/final-motion-v02/previews/qa/000061.png"
+    },
+    {
+      "index": 734,
+      "path": "../../../Work/final-motion-v02/previews/qa/000062.png"
+    },
+    {
+      "index": 738,
+      "path": "../../../Work/final-motion-v02/previews/qa/000063.png"
+    },
+    {
+      "index": 749,
+      "path": "../../../Work/final-motion-v02/previews/qa/000064.png"
+    },
+    {
+      "index": 771,
+      "path": "../../../Work/final-motion-v02/previews/qa/000065.png"
+    },
+    {
+      "index": 779,
+      "path": "../../../Work/final-motion-v02/previews/qa/000066.png"
+    },
+    {
+      "index": 804,
+      "path": "../../../Work/final-motion-v02/previews/qa/000067.png"
+    },
+    {
+      "index": 808,
+      "path": "../../../Work/final-motion-v02/previews/qa/000068.png"
+    },
+    {
+      "index": 809,
+      "path": "../../../Work/final-motion-v02/previews/qa/000069.png"
+    },
+    {
+      "index": 810,
+      "path": "../../../Work/final-motion-v02/previews/qa/000070.png"
+    },
+    {
+      "index": 817,
+      "path": "../../../Work/final-motion-v02/previews/qa/000071.png"
+    },
+    {
+      "index": 818,
+      "path": "../../../Work/final-motion-v02/previews/qa/000072.png"
+    },
+    {
+      "index": 822,
+      "path": "../../../Work/final-motion-v02/previews/qa/000073.png"
+    },
+    {
+      "index": 842,
+      "path": "../../../Work/final-motion-v02/previews/qa/000074.png"
+    },
+    {
+      "index": 855,
+      "path": "../../../Work/final-motion-v02/previews/qa/000075.png"
+    },
+    {
+      "index": 874,
+      "path": "../../../Work/final-motion-v02/previews/qa/000076.png"
+    },
+    {
+      "index": 888,
+      "path": "../../../Work/final-motion-v02/previews/qa/000077.png"
+    },
+    {
+      "index": 892,
+      "path": "../../../Work/final-motion-v02/previews/qa/000078.png"
+    },
+    {
+      "index": 893,
+      "path": "../../../Work/final-motion-v02/previews/qa/000079.png"
+    },
+    {
+      "index": 906,
+      "path": "../../../Work/final-motion-v02/previews/qa/000080.png"
+    },
+    {
+      "index": 938,
+      "path": "../../../Work/final-motion-v02/previews/qa/000081.png"
+    },
+    {
+      "index": 939,
+      "path": "../../../Work/final-motion-v02/previews/qa/000082.png"
+    },
+    {
+      "index": 943,
+      "path": "../../../Work/final-motion-v02/previews/qa/000083.png"
+    },
+    {
+      "index": 962,
+      "path": "../../../Work/final-motion-v02/previews/qa/000084.png"
+    },
+    {
+      "index": 970,
+      "path": "../../../Work/final-motion-v02/previews/qa/000085.png"
+    },
+    {
+      "index": 981,
+      "path": "../../../Work/final-motion-v02/previews/qa/000086.png"
+    },
+    {
+      "index": 985,
+      "path": "../../../Work/final-motion-v02/previews/qa/000087.png"
+    },
+    {
+      "index": 986,
+      "path": "../../../Work/final-motion-v02/previews/qa/000088.png"
+    },
+    {
+      "index": 990,
+      "path": "../../../Work/final-motion-v02/previews/qa/000089.png"
+    },
+    {
+      "index": 991,
+      "path": "../../../Work/final-motion-v02/previews/qa/000090.png"
+    },
+    {
+      "index": 995,
+      "path": "../../../Work/final-motion-v02/previews/qa/000091.png"
+    },
+    {
+      "index": 1002,
+      "path": "../../../Work/final-motion-v02/previews/qa/000092.png"
+    },
+    {
+      "index": 1026,
+      "path": "../../../Work/final-motion-v02/previews/qa/000093.png"
+    },
+    {
+      "index": 1033,
+      "path": "../../../Work/final-motion-v02/previews/qa/000094.png"
+    },
+    {
+      "index": 1058,
+      "path": "../../../Work/final-motion-v02/previews/qa/000095.png"
+    },
+    {
+      "index": 1062,
+      "path": "../../../Work/final-motion-v02/previews/qa/000096.png"
+    },
+    {
+      "index": 1063,
+      "path": "../../../Work/final-motion-v02/previews/qa/000097.png"
+    },
+    {
+      "index": 1065,
+      "path": "../../../Work/final-motion-v02/previews/qa/000098.png"
+    },
+    {
+      "index": 1066,
+      "path": "../../../Work/final-motion-v02/previews/qa/000099.png"
+    },
+    {
+      "index": 1102,
+      "path": "../../../Work/final-motion-v02/previews/qa/000100.png"
+    },
+    {
+      "index": 1138,
+      "path": "../../../Work/final-motion-v02/previews/qa/000101.png"
+    },
+    {
+      "index": 1174,
+      "path": "../../../Work/final-motion-v02/previews/qa/000102.png"
+    },
+    {
+      "index": 1211,
+      "path": "../../../Work/final-motion-v02/previews/qa/000103.png"
+    },
+    {
+      "index": 1212,
+      "path": "../../../Work/final-motion-v02/previews/qa/000104.png"
+    },
+    {
+      "index": 1247,
+      "path": "../../../Work/final-motion-v02/previews/qa/000105.png"
+    },
+    {
+      "index": 1283,
+      "path": "../../../Work/final-motion-v02/previews/qa/000106.png"
+    },
+    {
+      "index": 1305,
+      "path": "../../../Work/final-motion-v02/previews/qa/000107.png"
+    },
+    {
+      "index": 1306,
+      "path": "../../../Work/final-motion-v02/previews/qa/000108.png"
+    },
+    {
+      "index": 1310,
+      "path": "../../../Work/final-motion-v02/previews/qa/000109.png"
+    },
+    {
+      "index": 1319,
+      "path": "../../../Work/final-motion-v02/previews/qa/000110.png"
+    },
+    {
+      "index": 1330,
+      "path": "../../../Work/final-motion-v02/previews/qa/000111.png"
+    },
+    {
+      "index": 1351,
+      "path": "../../../Work/final-motion-v02/previews/qa/000112.png"
+    },
+    {
+      "index": 1355,
+      "path": "../../../Work/final-motion-v02/previews/qa/000113.png"
+    }
+  ],
+  "frames_directory": "/Users/diplomat/ytvideos/channels/paper_detour/videos/036_trinaxodon_broomistega/Work/final-motion-v02/previews/qa",
+  "technical_status": "PASS",
+  "verdict": "UNVERIFIED"
+}

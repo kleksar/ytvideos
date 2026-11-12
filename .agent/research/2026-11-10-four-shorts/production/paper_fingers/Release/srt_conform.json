@@ -1,0 +1,127 @@
+{
+  "validation": "{\n  \"structure\": \"PASS\",\n  \"text_coverage\": \"PASS\",\n  \"timing_mapping\": \"UNVERIFIED\",\n  \"playback\": \"UNVERIFIED\",\n  \"readability\": \"PASS\",\n  \"limits\": {\n    \"max_lines\": 2.0,\n    \"max_line_chars\": 42.0\n  },\n  \"errors\": [],\n  \"warnings\": [],\n  \"cues\": [\n    {\n      \"cue\": 1,\n      \"lines\": 1,\n      \"longest_line\": 25,\n      \"duration_seconds\": 1.6,\n      \"characters_per_second\": 15.625\n    },\n    {\n      \"cue\": 2,\n      \"lines\": 1,\n      \"longest_line\": 32,\n      \"duration_seconds\": 1.381,\n      \"characters_per_second\": 23.171614771904416\n    },\n    {\n      \"cue\": 3,\n      \"lines\": 1,\n      \"longest_line\": 33,\n      \"duration_seconds\": 2.182,\n      \"characters_per_second\": 15.123739688359304\n    },\n    {\n      \"cue\": 4,\n      \"lines\": 1,\n      \"longest_line\": 31,\n      \"duration_seconds\": 1.818,\n      \"characters_per_second\": 17.05170517051705\n    },\n    {\n      \"cue\": 5,\n      \"lines\": 1,\n      \"longest_line\": 38,\n      \"duration_seconds\": 1.673,\n      \"characters_per_second\": 22.713687985654513\n    },\n    {\n      \"cue\": 6,\n      \"lines\": 1,\n      \"longest_line\": 32,\n      \"duration_seconds\": 1.855,\n      \"characters_per_second\": 17.250673854447438\n    },\n    {\n      \"cue\": 7,\n      \"lines\": 1,\n      \"longest_line\": 36,\n      \"duration_seconds\": 1.782,\n      \"characters_per_second\": 20.2020202020202\n    },\n    {\n      \"cue\": 8,\n      \"lines\": 1,\n      \"longest_line\": 22,\n      \"duration_seconds\": 1.418,\n      \"characters_per_second\": 15.514809590973202\n    },\n    {\n      \"cue\": 9,\n      \"lines\": 1,\n      \"longest_line\": 23,\n      \"duration_seconds\": 2.061,\n      \"characters_per_second\": 11.159631246967491\n    },\n    {\n      \"cue\": 10,\n      \"lines\": 1,\n      \"longest_line\": 38,\n      \"duration_seconds\": 1.552,\n      \"characters_per_second\": 24.484536082474225\n    },\n    {\n      \"cue\": 11,\n      \"lines\": 2,\n      \"longest_line\": 33,\n      \"duration_seconds\": 2.691,\n      \"characters_per_second\": 16.722408026755854\n    },\n    {\n      \"cue\": 12,\n      \"lines\": 1,\n      \"longest_line\": 24,\n      \"duration_seconds\": 1.6,\n      \"characters_per_second\": 15.0\n    },\n    {\n      \"cue\": 13,\n      \"lines\": 1,\n      \"longest_line\": 25,\n      \"duration_seconds\": 1.2,\n      \"characters_per_second\": 20.833333333333336\n    },\n    {\n      \"cue\": 14,\n      \"lines\": 1,\n      \"longest_line\": 34,\n      \"duration_seconds\": 2.266,\n      \"characters_per_second\": 15.00441306266549\n    },\n    {\n      \"cue\": 15,\n      \"lines\": 1,\n      \"longest_line\": 30,\n      \"duration_seconds\": 1.067,\n      \"characters_per_second\": 28.116213683223993\n    },\n    {\n      \"cue\": 16,\n      \"lines\": 1,\n      \"longest_line\": 19,\n      \"duration_seconds\": 1.091,\n      \"characters_per_second\": 17.415215398716775\n    }\n  ],\n  \"limits_note\": \"Readability metrics do not verify semantic breaks, player layout or hearing sync.\",\n  \"timebase\": \"final\",\n  \"duration_seconds\": \"28.733333333333334\",\n  \"inputs\": {\n    \"text\": {\n      \"path\": \"/Users/diplomat/ytvideos/.agent/research/2026-11-10-four-shorts/production/paper_fingers/narration_en_v1.txt\",\n      \"sha256\": \"58da6e271d08e1f144fd19272de4a0c5729a3d060982797e056e2a4942d99b05\"\n    },\n    \"validate\": {\n      \"path\": \"/Users/diplomat/ytvideos/.agent/research/2026-11-10-four-shorts/production/paper_fingers/Deliverables/paper_fingers_A_thinking_music_release.en.srt\",\n      \"sha256\": \"64efa9f18a7a237e66a28355745d51d0c7deb13fa3c1e061cdc8dfc4efa81e30\"\n    }\n  },\n  \"result\": \"MACHINE_CHECKED\"\n}\n",
+  "cue_audit": [
+    {
+      "cue": 1,
+      "first_word": 0,
+      "last_word": 3,
+      "start_ms": 0,
+      "end_ms": 1600
+    },
+    {
+      "cue": 2,
+      "first_word": 4,
+      "last_word": 9,
+      "start_ms": 1673,
+      "end_ms": 3054
+    },
+    {
+      "cue": 3,
+      "first_word": 10,
+      "last_word": 15,
+      "start_ms": 3127,
+      "end_ms": 5309
+    },
+    {
+      "cue": 4,
+      "first_word": 16,
+      "last_word": 21,
+      "start_ms": 5382,
+      "end_ms": 7200
+    },
+    {
+      "cue": 5,
+      "first_word": 22,
+      "last_word": 27,
+      "start_ms": 7491,
+      "end_ms": 9164
+    },
+    {
+      "cue": 6,
+      "first_word": 28,
+      "last_word": 33,
+      "start_ms": 9236,
+      "end_ms": 11091
+    },
+    {
+      "cue": 7,
+      "first_word": 34,
+      "last_word": 39,
+      "start_ms": 11127,
+      "end_ms": 12909
+    },
+    {
+      "cue": 8,
+      "first_word": 40,
+      "last_word": 43,
+      "start_ms": 12946,
+      "end_ms": 14364
+    },
+    {
+      "cue": 9,
+      "first_word": 44,
+      "last_word": 47,
+      "start_ms": 14400,
+      "end_ms": 16461
+    },
+    {
+      "cue": 10,
+      "first_word": 48,
+      "last_word": 53,
+      "start_ms": 16557,
+      "end_ms": 18109
+    },
+    {
+      "cue": 11,
+      "first_word": 54,
+      "last_word": 59,
+      "start_ms": 18182,
+      "end_ms": 20873
+    },
+    {
+      "cue": 12,
+      "first_word": 60,
+      "last_word": 63,
+      "start_ms": 20946,
+      "end_ms": 22546
+    },
+    {
+      "cue": 13,
+      "first_word": 64,
+      "last_word": 69,
+      "start_ms": 22727,
+      "end_ms": 23927
+    },
+    {
+      "cue": 14,
+      "first_word": 70,
+      "last_word": 75,
+      "start_ms": 23964,
+      "end_ms": 26230
+    },
+    {
+      "cue": 15,
+      "first_word": 76,
+      "last_word": 81,
+      "start_ms": 26279,
+      "end_ms": 27346
+    },
+    {
+      "cue": 16,
+      "first_word": 82,
+      "last_word": 84,
+      "start_ms": 27418,
+      "end_ms": 28509
+    }
+  ],
+  "source_word_map": {
+    "path": "/Users/diplomat/ytvideos/.agent/research/2026-11-10-four-shorts/production/paper_fingers/voice/word_times_mix_draft.json",
+    "sha256": "f5d1829def0bd43fc7b36a998dbd6e7520456dc29c101351af45aae51490b036"
+  },
+  "final_word_map": {
+    "path": "/Users/diplomat/ytvideos/.agent/research/2026-11-10-four-shorts/production/paper_fingers/Release/selected_mix_words.json",
+    "sha256": "360edc0d88e6faa27a70a2ef93b8f2b7792fdf075b10c9d37db45fbd7ba28eeb"
+  },
+  "same_narration_timing": true,
+  "audible_playback": "UNVERIFIED"
+}

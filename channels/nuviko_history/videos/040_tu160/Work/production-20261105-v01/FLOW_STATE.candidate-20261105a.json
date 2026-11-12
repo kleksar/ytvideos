@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "episode": "040_tu160",
+  "channel": "nuviko",
+  "format": "long",
+  "input": "accepted_story",
+  "input_evidence": "User accepted the Russian story and explicitly authorized full production including voice/mix, with a review MP4 requested; on 2026-11-05 user explicitly requested no upload/publication.",
+  "scope": "Full long-form Nuviko History production for episode 040_tu160 through review MP4, with requested packaging materials; no YouTube upload or publication.",
+  "stages": [
+    {
+      "id": "script",
+      "skills": [
+        "ytv-history-story"
+      ],
+      "status": "DONE",
+      "artifacts": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Script/story_ru_accepted_v01.md",
+          "version": "v01",
+          "sha256": "1642ec43efb93d72fc8aabc58fe5d18df15dd60d4e8287116806cd6b97098fe5"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Script/narration_en_v01.md",
+          "version": "v01",
+          "sha256": "40add85a537cd03e7062ff28408905703e4488aab3f1161203152b829540210e"
+        }
+      ],
+      "checks": [
+        {
+          "name": "English adaptation preserves the accepted story",
+          "status": "PASS",
+          "reviewer": "Codex",
+          "method": "Read both complete narrations and compare paragraph order, events, figures and ending; no fact-check performed",
+          "coverage": "All 86 content paragraphs; order and content scope compared",
+          "evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Research/CONSULTATION_EN_ADAPTATION_v01.md"
+        }
+      ],
+      "dependencies": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Script/story_ru_accepted_v01.md",
+          "version": "v01",
+          "sha256": "1642ec43efb93d72fc8aabc58fe5d18df15dd60d4e8287116806cd6b97098fe5"
+        }
+      ],
+      "skill_runs": [
+        {
+          "skill": "ytv-history-story",
+          "status": "N_A",
+          "evidence": "Accepted Russian story was not reopened, rewritten or fact-checked under the accepted_story flow; see CURRENT_CONTEXT.md and the user instruction dated 2026-11-05."
+        }
+      ]
+    },
+    {
+      "id": "storyboard",
+      "skills": [
+        "ytv-history-story"
+      ],
+      "status": "DONE",
+      "artifacts": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Storyboard/visual_score_v01.md",
+          "version": "v01",
+          "sha256": "42f50332fb62ddf41a803d996c28664ba86a25f202f22d38dbadaf47eee35353"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Research/CONSULTATION_VISUAL_SCORE_v01.md",
+          "version": "v01",
+          "sha256": "7f216005d113f0e8bde09e410457bde257cf7390b2dad68f2e24830778331faf"
+        }
+      ],
+      "checks": [
+        {
+          "name": "Storyboard coverage and scene order",
+          "status": "PASS",
+          "reviewer": "Codex",
+          "method": "Compared saved plan IDs and narrative boundaries to the visible Extra High answer; programmatically confirmed 119 unique sequential IDs and reviewed completeness through plan 119.",
+          "coverage": "Plans 001–119; consultation reports narration paragraphs 1–86 covered.",
+          "evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Storyboard/visual_score_v01.md"
+        }
+      ],
+      "dependencies": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Script/narration_en_v01.md",
+          "version": "v01",
+          "sha256": "40add85a537cd03e7062ff28408905703e4488aab3f1161203152b829540210e"
+        }
+      ],
+      "skill_runs": [
+        {
+          "skill": "ytv-history-story",
+          "status": "N_A",
+          "evidence": "Accepted story locked by user; visual planning was performed under the production storyboard procedure without reopening the narration."
+        }
+      ]
+    },
+    {
+      "id": "audio",
+      "skills": [
+        "ytv-audio-delivery"
+      ],
+      "status": "PENDING",
+      "artifacts": [],
+      "checks": [],
+      "dependencies": [],
+      "skill_runs": []
+    },
+    {
+      "id": "images",
+      "skills": [
+        "ytv-scene-images",
+        "ytv-image-motion"
+      ],
+      "status": "PENDING",
+      "artifacts": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_001_v02.png",
+          "version": "sample",
+          "sha256": "c9db5782ea302e06af7aa5bf29782c6a4e71f1298b56badb15cf7e2025a67c59"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_003_v01.png",
+          "version": "sample",
+          "sha256": "83c60a980df3492779ec57d3ddc67d931e5171cdcc85d9c95fabfcf0d27e05a8"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_004_v01.png",
+          "version": "sample",
+          "sha256": "d73de9ba474bef95dd8dd74905009023312e365bfc760c7761624b79e7782174"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_006_v02.png",
+          "version": "sample",
+          "sha256": "eabfa52d81df78707630f1dbc40bca83ee1bc00fcc4cef64890edac6c3d5d2bb"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_007_v02.png",
+          "version": "sample",
+          "sha256": "53becd8d7a9212233bd9b5cc7c703cce55723e79e71e87e765514c60d43f1724"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_014_v02.png",
+          "version": "sample",
+          "sha256": "dd6d3289c76781135a9570819483876fbaa1b2ae22ee287f6eb1d451789a562c"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Research/IMAGE_REVIEW_v01.md",
+          "version": "v01",
+          "sha256": "679c357a947653cb22be8326ebf20796e74d3b063e6b0ff5c84a0c5ec9c49221"
+        }
+      ],
+      "checks": [
+        {
+          "name": "Early image sample",
+          "status": "PASS",
+          "reviewer": "Codex",
+          "method": "Viewed six full-size scene images and a contact sheet; accepted sample-only observations are recorded in the review log.",
+          "coverage": "Plans 001,003,004,006,007,014 only; remaining plans not generated/reviewed.",
+          "evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Research/IMAGE_REVIEW_v01.md"
+        },
+        {
+          "name": "Full image coverage and archive sources",
+          "status": "UNVERIFIED",
+          "reviewer": "Codex",
+          "method": "Not complete.",
+          "coverage": "6 of 119 storyboard plans have sample images; eleven required archive plans remain unsourced.",
+          "evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Research/IMAGE_REVIEW_v01.md"
+        }
+      ],
+      "dependencies": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Storyboard/visual_score_v01.md",
+          "version": "v01",
+          "sha256": "42f50332fb62ddf41a803d996c28664ba86a25f202f22d38dbadaf47eee35353"
+        }
+      ],
+      "skill_runs": []
+    },
+    {
+      "id": "subtitles",
+      "skills": [
+        "ytv-paper-subtitles",
+        "ytv-srt"
+      ],
+      "status": "PENDING",
+      "artifacts": [],
+      "checks": [],
+      "dependencies": [],
+      "skill_runs": []
+    },
+    {
+      "id": "render",
+      "skills": [
+        "ytv-video-production",
+        "ytv-video-export",
+        "ytv-video-qa"
+      ],
+      "status": "PENDING",
+      "artifacts": [],
+      "checks": [],
+      "dependencies": [],
+      "skill_runs": []
+    },
+    {
+      "id": "review",
+      "skills": [],
+      "status": "PENDING",
+      "artifacts": [],
+      "checks": [],
+      "dependencies": [],
+      "skill_runs": []
+    },
+    {
+      "id": "packaging",
+      "skills": [
+        "ytv-youtube-video-titles",
+        "ytv-youtube-thumbnails",
+        "ytv-youtube-descriptions",
+        "ytv-youtube-hashtags",
+        "ytv-youtube-playlists",
+        "ytv-youtube-ab-testing",
+        "ytv-youtube-chapters"
+      ],
+      "status": "PENDING",
+      "artifacts": [],
+      "checks": [],
+      "dependencies": [],
+      "skill_runs": []
+    },
+    {
+      "id": "unlisted",
+      "skills": [
+        "ytv-youtube-release"
+      ],
+      "status": "PENDING",
+      "artifacts": [],
+      "checks": [],
+      "dependencies": [],
+      "skill_runs": []
+    },
+    {
+      "id": "release",
+      "skills": [
+        "ytv-youtube-release",
+        "ytv-media-lifecycle"
+      ],
+      "status": "PENDING",
+      "artifacts": [],
+      "checks": [],
+      "dependencies": [],
+      "skill_runs": []
+    }
+  ],
+  "decisions": {
+    "story_accepted": {
+      "accepted": true,
+      "target": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Script/story_ru_accepted_v01.md#sha256=1642ec43efb93d72fc8aabc58fe5d18df15dd60d4e8287116806cd6b97098fe5",
+      "evidence": "User explicitly said the story was agreed and authorized production in the current conversation on 2026-11-05."
+    }
+  },
+  "next_step": "Complete authentic archive sourcing and all storyboard image generation/review. Then finish voice/mix audition and delivery contract, alignment-based motion/captions, montage, frozen export contract, and MP4."
+}

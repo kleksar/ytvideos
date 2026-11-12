@@ -1,0 +1,59 @@
+{
+  "status": "ready_for_user_review",
+  "episode": "Pompeii Final Hours",
+  "channel": "Nuviko History",
+  "accepted_video_sha256": "5212f7f04dcb607a642dd24e9e3895290c05ab1a30fc6b702efd209bf9c672ff",
+  "test_scope": "paired title + thumbnail concepts; description is prepared per concept but only one can be active during a native title/thumbnail experiment",
+  "concepts": [
+    {
+      "id": "A",
+      "concept": "Choice under immediate danger",
+      "title": "Pompeii’s Choice: Flee the Falling Stones or Shelter?",
+      "thumbnail_situation": "A pumice-filled street is framed by a damaged roofed doorway, contrasting danger outside with shelter inside.",
+      "integrated_lettering": "FLEE OR SHELTER?",
+      "thumbnail_file": "Thumbnails/A_thumbnail_v03.png",
+      "thumbnail_sha256": "fa53f96c7ceae92d2b86051266631e8c8e1fbce12a070c90fa89e408d0e32009",
+      "thumbnail_dimensions": [1672, 941],
+      "small_preview": "Previews/A_thumbnail_v03_320.png/qa_full_320x180.jpg",
+      "description_file": "Descriptions/A_description_en.txt"
+    },
+    {
+      "id": "B",
+      "concept": "The destructive mechanism",
+      "title": "Pompeii Wasn’t Buried by Lava. What Actually Destroyed It?",
+      "thumbnail_situation": "A ground-level pyroclastic surge advances along a Roman street; a small distant lava stream appears only on Vesuvius, contrasting with the non-lava flow reaching Pompeii.",
+      "integrated_lettering": "NOT LAVA?",
+      "thumbnail_file": "Thumbnails/B_thumbnail_v04.png",
+      "thumbnail_sha256": "444c90fd29f99598e36173ed7112fb815af6dcaf9cf9ae8db3cf02865b11354a",
+      "thumbnail_dimensions": [1672, 941],
+      "small_preview": "Previews/B_thumbnail_v04_320.png/qa_full_320x180.jpg",
+      "description_file": "Descriptions/B_description_en.txt",
+      "user_requested_public_release": true
+    },
+    {
+      "id": "C",
+      "concept": "Everyday life before the eruption",
+      "title": "Pompeii’s Ordinary Lives, Preserved Under Ash",
+      "thumbnail_situation": "A working bakery and calm street in Pompeii before the eruption; no traveler or eruption is shown.",
+      "integrated_lettering": "LIFE BEFORE ASH",
+      "thumbnail_file": "Thumbnails/C_thumbnail_v03.png",
+      "thumbnail_sha256": "88098b1b327e8aaeb4f6b21db089e29874fa252b1c6dd939def4ab3470ba79a3",
+      "thumbnail_dimensions": [1672, 941],
+      "small_preview": "Previews/C_thumbnail_v03_320.png/qa_full_320x180.jpg",
+      "description_file": "Descriptions/C_description_en.txt"
+    }
+  ],
+  "visual_qc": {
+    "method": "Full-size inspection and 320x180 local preview",
+    "integrated_text_checked": true,
+    "platform_rendering_simulated": false,
+    "native_test_started": false,
+    "decision": "B_selected_for_requested_public_release; upload_pending_preflight"
+  },
+  "chapter_validation": {
+    "result": "formal_validation_passed",
+    "duration_seconds": 856.366667,
+    "media_review": "not_assessed",
+    "timing_basis": "1.10x-adjusted narration alignment; not independently listened"
+  }
+}

@@ -1,0 +1,9 @@
+# Static caption contact review — DRAFT
+
+Method: generated six contact sheets, 21 scene samples per sheet maximum, with one midpoint per scene (122 scenes total). Each image is proportional center-fit at 2560×1440 before compositing one actual state from the shared Nuviko subtitle renderer; sheet thumbnails are 360×203. Source images, SHA-256 and sampled frame/state are listed in `STATIC_CAPTION_REVIEW_DRAFT.json`. This is a reduced static contact check, not individual full-size scene acceptance, video playback, an audio test or a motion envelope check. Caption timing and selected images are unaccepted drafts.
+
+The six sheets were viewed in sequence. In sampled stills the main story labels in S008, S044/S045, S062, S081, S093–S095, S101, S110, S115, S119, S121 and S122 remain visible. S030's lower foreground hands are partially obscured by the subtitle, while the central portioning action remains visible; inspect at full size and over the movement path. S116's map label at lower left lies close to the subtitle region; check all subtitle states and motion against its actual label and hands. S121/S122 place large typography near the lower caption region; this one midpoint does not establish safe clearance for every state or zoom. On the contact sheet S028 v03 carries three hulls on the floe.
+
+No result above establishes accuracy, overall legibility on a real phone, anatomy, voice/word timing, full-picture continuity or readiness for export. Scene and audio QA remain open.
+
+Targeted static 1280×720 composites of the widest encountered subtitle state were inspected for S116, S121 and S122 (`DETAIL_*_WIDEST_DRAFT.jpg`). In these selected states both party labels, the equation and the end message remain unobscured. The caption on S116 covers the lower edge of the map but not its two party labels. These three stills do not verify every subtitle state, camera movement, geographic accuracy, phone display or final acceptance.

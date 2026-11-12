@@ -1,0 +1,23 @@
+{
+  "generation": "1793979105829709000-c83dc1fd",
+  "changes": [
+    "vidiq-panels-audit-20261106-v1",
+    "vidiq-panels-research-20261106-v1"
+  ],
+  "scope": {
+    "channels": [
+      "*"
+    ],
+    "formats": [
+      "*"
+    ],
+    "impact": "future"
+  },
+  "validation": [
+    "3 skill validations passed",
+    "current-process:109 documents passed",
+    "git diff --check passed",
+    "published snapshot bytes match working files"
+  ],
+  "report": "PANELS_REVIEW.md"
+}

@@ -1,0 +1,11 @@
+{
+  "previous_run": "channels/paper_detour/videos/030_clothing_history/Edit/ImageMotion/048e42fd1f8f1f6bc9a6",
+  "previous_stage": "rendering, no Palmier mutations",
+  "reason": "Raw depth samples V02,V03,V06,V09,V10 expose reflected border texture at depth_zoom1.15; use0.90 overscan for the first10scenes, preserving preset amplitude/directions",
+  "terminated_processes": [
+    16211,
+    17795,
+    17796
+  ],
+  "unchanged": "All original images, depth maps, timing, cues, sound and baseline; usable cached videos retained"
+}

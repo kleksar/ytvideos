@@ -1,0 +1,933 @@
+{
+  "schema": "ytv-render-v1",
+  "origin": "render",
+  "export_contract": {
+    "original": {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/052_binance_interview_trap/Edit/Export/EXPORT_CONTRACT_v02.json",
+      "sha256": "0cffebc5e5b2739b0a2ddd92e6adcb0220a49610432dfdcf66867fbbf3742af9"
+    },
+    "snapshot": {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/052_binance_interview_trap/Work/full-render-v02/render_provenance/export_contract.json",
+      "sha256": "0cffebc5e5b2739b0a2ddd92e6adcb0220a49610432dfdcf66867fbbf3742af9"
+    }
+  },
+  "command": {
+    "original": {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/052_binance_interview_trap/Work/full-render-v02/render_command.json",
+      "sha256": "b5954b68f5f4b5091b182781fcc53f690b293f3ff446492a83358b8f41fd8261"
+    },
+    "snapshot": {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/052_binance_interview_trap/Work/full-render-v02/render_provenance/render_command.json",
+      "sha256": "b5954b68f5f4b5091b182781fcc53f690b293f3ff446492a83358b8f41fd8261"
+    }
+  },
+  "engine": [
+    {
+      "original": {
+        "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/montage.py",
+        "sha256": "6d2cc293793a18b999475c3589d7827b0f46e860c0965f4e0b7e2a887139848f"
+      },
+      "snapshot": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/052_binance_interview_trap/Work/full-render-v02/render_provenance/engine_0_montage.py",
+        "sha256": "6d2cc293793a18b999475c3589d7827b0f46e860c0965f4e0b7e2a887139848f"
+      }
+    },
+    {
+      "original": {
+        "path": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/delivery.py",
+        "sha256": "8fcba5854d8832a966d4960dbdae3c8fa362d124d04a67f2b4b0df4347a71c65"
+      },
+      "snapshot": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/052_binance_interview_trap/Work/full-render-v02/render_provenance/engine_1_delivery.py",
+        "sha256": "8fcba5854d8832a966d4960dbdae3c8fa362d124d04a67f2b4b0df4347a71c65"
+      }
+    },
+    {
+      "original": {
+        "path": "/Users/diplomat/ytvideos/.agents/skills/ytv-paper-subtitles/scripts/semantic_grouping.py",
+        "sha256": "f18deb4cbb5af9c10cfd51fd60b15ef1c87b5ebaaaa46f073210935821d8fc3e"
+      },
+      "snapshot": {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/052_binance_interview_trap/Work/full-render-v02/render_provenance/engine_2_semantic_grouping.py",
+        "sha256": "f18deb4cbb5af9c10cfd51fd60b15ef1c87b5ebaaaa46f073210935821d8fc3e"
+      }
+    }
+  ],
+  "prepared": {
+    "channel": "paper",
+    "format": "long",
+    "subtitle_mode": "words",
+    "audio": "/Users/diplomat/ytvideos/channels/paper_detour/videos/052_binance_interview_trap/Edit/Audio/accepted_mix_en_v01.m4a",
+    "canvas": [
+      2560,
+      1440
+    ],
+    "fps": 30,
+    "scenes": [
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/052_binance_interview_trap/Source/Images/S01_v03.png",
+        "start_frame": 0,
+        "end_frame": 180,
+        "direction": "left_to_right",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Interview trap hook",
+          "reason": "Very small whole-image move; preserve full paper composition and keep meaningful labels in frame.",
+          "start": {
+            "center": [
+              0.505,
+              0.5
+            ],
+            "scale": 1.025
+          },
+          "end": {
+            "center": [
+              0.495,
+              0.5
+            ],
+            "scale": 1.045
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/052_binance_interview_trap/Source/Images/S24_v03.png",
+        "start_frame": 180,
+        "end_frame": 300,
+        "direction": "right_to_left",
+        "zoom": "none",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Second interview",
+          "reason": "Very small whole-image move; preserve full paper composition and keep meaningful labels in frame.",
+          "start": {
+            "center": [
+              0.495,
+              0.5
+            ],
+            "scale": 1.015
+          },
+          "end": {
+            "center": [
+              0.505,
+              0.5
+            ],
+            "scale": 1.015
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/052_binance_interview_trap/Source/Images/S03_v03.png",
+        "start_frame": 300,
+        "end_frame": 450,
+        "direction": "none",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Test assignment downloaded",
+          "reason": "Very small whole-image move; preserve full paper composition and keep meaningful labels in frame.",
+          "start": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.035
+          },
+          "end": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.015
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/052_binance_interview_trap/Source/Images/S04_v02.png",
+        "start_frame": 450,
+        "end_frame": 570,
+        "direction": "left_to_right",
+        "zoom": "none",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "The company is fake",
+          "reason": "Very small whole-image move; preserve full paper composition and keep meaningful labels in frame.",
+          "start": {
+            "center": [
+              0.505,
+              0.5
+            ],
+            "scale": 1.015
+          },
+          "end": {
+            "center": [
+              0.495,
+              0.5
+            ],
+            "scale": 1.015
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/052_binance_interview_trap/Source/Images/05_v02.png",
+        "start_frame": 570,
+        "end_frame": 750,
+        "direction": "none",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Coming scale of loss",
+          "reason": "Very small whole-image move; preserve full paper composition and keep meaningful labels in frame.",
+          "start": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.025
+          },
+          "end": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.045
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/052_binance_interview_trap/Source/Images/S06_v02.png",
+        "start_frame": 750,
+        "end_frame": 900,
+        "direction": "right_to_left",
+        "zoom": "none",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Plausible job listing",
+          "reason": "Very small whole-image move; preserve full paper composition and keep meaningful labels in frame.",
+          "start": {
+            "center": [
+              0.495,
+              0.5
+            ],
+            "scale": 1.015
+          },
+          "end": {
+            "center": [
+              0.505,
+              0.5
+            ],
+            "scale": 1.015
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/052_binance_interview_trap/Source/Images/S07_v02.png",
+        "start_frame": 900,
+        "end_frame": 1080,
+        "direction": "left_to_right",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Recruiter identity built online",
+          "reason": "Very small whole-image move; preserve full paper composition and keep meaningful labels in frame.",
+          "start": {
+            "center": [
+              0.505,
+              0.5
+            ],
+            "scale": 1.025
+          },
+          "end": {
+            "center": [
+              0.495,
+              0.5
+            ],
+            "scale": 1.045
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/052_binance_interview_trap/Source/Images/S08_v02.png",
+        "start_frame": 1080,
+        "end_frame": 1260,
+        "direction": "right_to_left",
+        "zoom": "none",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Code runs with the task",
+          "reason": "Very small whole-image move; preserve full paper composition and keep meaningful labels in frame.",
+          "start": {
+            "center": [
+              0.495,
+              0.5
+            ],
+            "scale": 1.015
+          },
+          "end": {
+            "center": [
+              0.505,
+              0.5
+            ],
+            "scale": 1.015
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/052_binance_interview_trap/Source/Images/19_v03.png",
+        "start_frame": 1260,
+        "end_frame": 1410,
+        "direction": "none",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Security misses access",
+          "reason": "Very small whole-image move; preserve full paper composition and keep meaningful labels in frame.",
+          "start": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.035
+          },
+          "end": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.015
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/052_binance_interview_trap/Source/Images/26_v02.png",
+        "start_frame": 1410,
+        "end_frame": 1590,
+        "direction": "left_to_right",
+        "zoom": "none",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Two further engineer machines",
+          "reason": "Very small whole-image move; preserve full paper composition and keep meaningful labels in frame.",
+          "start": {
+            "center": [
+              0.505,
+              0.5
+            ],
+            "scale": 1.015
+          },
+          "end": {
+            "center": [
+              0.495,
+              0.5
+            ],
+            "scale": 1.015
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/052_binance_interview_trap/Source/Images/09_v02.png",
+        "start_frame": 1590,
+        "end_frame": 1740,
+        "direction": "none",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Credentials unlock approval",
+          "reason": "Very small whole-image move; preserve full paper composition and keep meaningful labels in frame.",
+          "start": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.025
+          },
+          "end": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.045
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/052_binance_interview_trap/Source/Images/10_v02.png",
+        "start_frame": 1740,
+        "end_frame": 1920,
+        "direction": "right_to_left",
+        "zoom": "none",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Transfers begin October 29",
+          "reason": "Very small whole-image move; preserve full paper composition and keep meaningful labels in frame.",
+          "start": {
+            "center": [
+              0.495,
+              0.5
+            ],
+            "scale": 1.015
+          },
+          "end": {
+            "center": [
+              0.505,
+              0.5
+            ],
+            "scale": 1.015
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/052_binance_interview_trap/Source/Images/11_v02.png",
+        "start_frame": 1920,
+        "end_frame": 2100,
+        "direction": "left_to_right",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Withdrawals halted",
+          "reason": "Very small whole-image move; preserve full paper composition and keep meaningful labels in frame.",
+          "start": {
+            "center": [
+              0.505,
+              0.5
+            ],
+            "scale": 1.025
+          },
+          "end": {
+            "center": [
+              0.495,
+              0.5
+            ],
+            "scale": 1.045
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/052_binance_interview_trap/Source/Images/17_v03.png",
+        "start_frame": 2100,
+        "end_frame": 2250,
+        "direction": "right_to_left",
+        "zoom": "none",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Separate systems model",
+          "reason": "Very small whole-image move; preserve full paper composition and keep meaningful labels in frame.",
+          "start": {
+            "center": [
+              0.495,
+              0.5
+            ],
+            "scale": 1.015
+          },
+          "end": {
+            "center": [
+              0.505,
+              0.5
+            ],
+            "scale": 1.015
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/052_binance_interview_trap/Source/Images/27_v02.png",
+        "start_frame": 2250,
+        "end_frame": 2430,
+        "direction": "none",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Program route from wallet",
+          "reason": "Very small whole-image move; preserve full paper composition and keep meaningful labels in frame.",
+          "start": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.035
+          },
+          "end": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.015
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/052_binance_interview_trap/Source/Images/17_v03.png",
+        "start_frame": 2430,
+        "end_frame": 2580,
+        "direction": "left_to_right",
+        "zoom": "none",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Stop versus active permission",
+          "reason": "Very small whole-image move; preserve full paper composition and keep meaningful labels in frame.",
+          "start": {
+            "center": [
+              0.505,
+              0.5
+            ],
+            "scale": 1.015
+          },
+          "end": {
+            "center": [
+              0.495,
+              0.5
+            ],
+            "scale": 1.015
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/052_binance_interview_trap/Source/Images/13_v02.png",
+        "start_frame": 2580,
+        "end_frame": 2700,
+        "direction": "none",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Separate revoke action",
+          "reason": "Very small whole-image move; preserve full paper composition and keep meaningful labels in frame.",
+          "start": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.025
+          },
+          "end": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.045
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/052_binance_interview_trap/Source/Images/12_v02.png",
+        "start_frame": 2700,
+        "end_frame": 2820,
+        "direction": "right_to_left",
+        "zoom": "none",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Website cannot cancel chain permission",
+          "reason": "Very small whole-image move; preserve full paper composition and keep meaningful labels in frame.",
+          "start": {
+            "center": [
+              0.495,
+              0.5
+            ],
+            "scale": 1.015
+          },
+          "end": {
+            "center": [
+              0.505,
+              0.5
+            ],
+            "scale": 1.015
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/052_binance_interview_trap/Source/Images/15_v02.png",
+        "start_frame": 2820,
+        "end_frame": 3000,
+        "direction": "left_to_right",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Last sent transaction finalizes",
+          "reason": "Very small whole-image move; preserve full paper composition and keep meaningful labels in frame.",
+          "start": {
+            "center": [
+              0.505,
+              0.5
+            ],
+            "scale": 1.025
+          },
+          "end": {
+            "center": [
+              0.495,
+              0.5
+            ],
+            "scale": 1.045
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/052_binance_interview_trap/Source/Images/28_v02.png",
+        "start_frame": 3000,
+        "end_frame": 3135,
+        "direction": "right_to_left",
+        "zoom": "none",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Permission revoked after midnight",
+          "reason": "Very small whole-image move; preserve full paper composition and keep meaningful labels in frame.",
+          "start": {
+            "center": [
+              0.495,
+              0.5
+            ],
+            "scale": 1.015
+          },
+          "end": {
+            "center": [
+              0.505,
+              0.5
+            ],
+            "scale": 1.015
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/052_binance_interview_trap/Source/Images/20_v02.png",
+        "start_frame": 3135,
+        "end_frame": 3270,
+        "direction": "none",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Estimated total value",
+          "reason": "Very small whole-image move; preserve full paper composition and keep meaningful labels in frame.",
+          "start": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.035
+          },
+          "end": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.015
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/052_binance_interview_trap/Source/Images/21_v03.png",
+        "start_frame": 3270,
+        "end_frame": 3420,
+        "direction": "left_to_right",
+        "zoom": "none",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Frozen does not mean returned",
+          "reason": "Very small whole-image move; preserve full paper composition and keep meaningful labels in frame.",
+          "start": {
+            "center": [
+              0.505,
+              0.5
+            ],
+            "scale": 1.015
+          },
+          "end": {
+            "center": [
+              0.495,
+              0.5
+            ],
+            "scale": 1.015
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/052_binance_interview_trap/Source/Images/22_v02.png",
+        "start_frame": 3420,
+        "end_frame": 3540,
+        "direction": "none",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Promise to cover loss",
+          "reason": "Very small whole-image move; preserve full paper composition and keep meaningful labels in frame.",
+          "start": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.025
+          },
+          "end": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.045
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/052_binance_interview_trap/Source/Images/23_v02.png",
+        "start_frame": 3540,
+        "end_frame": 3660,
+        "direction": "right_to_left",
+        "zoom": "none",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Fake company callback",
+          "reason": "Very small whole-image move; preserve full paper composition and keep meaningful labels in frame.",
+          "start": {
+            "center": [
+              0.495,
+              0.5
+            ],
+            "scale": 1.015
+          },
+          "end": {
+            "center": [
+              0.505,
+              0.5
+            ],
+            "scale": 1.015
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/052_binance_interview_trap/Source/Images/23_v03.png",
+        "start_frame": 3660,
+        "end_frame": 3780,
+        "direction": "left_to_right",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Real employer faces consequences",
+          "reason": "Very small whole-image move; preserve full paper composition and keep meaningful labels in frame.",
+          "start": {
+            "center": [
+              0.505,
+              0.5
+            ],
+            "scale": 1.025
+          },
+          "end": {
+            "center": [
+              0.495,
+              0.5
+            ],
+            "scale": 1.045
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/052_binance_interview_trap/Source/Images/S01_v03.png",
+        "start_frame": 3780,
+        "end_frame": 3930,
+        "direction": "right_to_left",
+        "zoom": "none",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "Close the trap",
+          "reason": "Very small whole-image move; preserve full paper composition and keep meaningful labels in frame.",
+          "start": {
+            "center": [
+              0.495,
+              0.5
+            ],
+            "scale": 1.015
+          },
+          "end": {
+            "center": [
+              0.505,
+              0.5
+            ],
+            "scale": 1.015
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/052_binance_interview_trap/Source/Images/29_v01.png",
+        "start_frame": 3930,
+        "end_frame": 4080,
+        "direction": "none",
+        "zoom": "in",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "end-screen safe layout",
+          "reason": "Static composition keeps native interface zones stable.",
+          "start": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.0
+          },
+          "end": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.001
+          }
+        }
+      },
+      {
+        "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/052_binance_interview_trap/Source/Images/30_v01.png",
+        "start_frame": 4080,
+        "end_frame": 4230,
+        "direction": "none",
+        "zoom": "out",
+        "camera": {
+          "focus": [
+            0.5,
+            0.5
+          ],
+          "subject": "end-screen safe layout",
+          "reason": "Static composition keeps native interface zones stable.",
+          "start": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.001
+          },
+          "end": {
+            "center": [
+              0.5,
+              0.5
+            ],
+            "scale": 1.0
+          }
+        }
+      }
+    ],
+    "frames": 4230,
+    "manifest_path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/052_binance_interview_trap/Edit/plan_v02.json",
+    "source_transfer": "srgb"
+  },
+  "audio_source": {
+    "codec_name": "aac",
+    "profile": "LC",
+    "sample_rate": "44100",
+    "channels": 1,
+    "duration": "140.960000",
+    "bit_rate": "162623"
+  },
+  "settings": {
+    "scope": "pre-render settings only; no encoded-result or AV QA",
+    "timeline": {
+      "width": 2560,
+      "height": 1440,
+      "frame_count": 4230,
+      "sample_aspect_ratio": "1:1",
+      "aspect_ratio": "16:9",
+      "output_color_space": "Rec.709 SDR"
+    },
+    "video": {
+      "codec_name": "h264",
+      "pix_fmt": "yuv420p",
+      "scan": "progressive",
+      "cadence": "constant 30/1 fps",
+      "color_primaries": "bt709",
+      "color_transfer": "bt709",
+      "color_space": "bt709",
+      "color_range": "tv"
+    },
+    "audio": {
+      "codec_name": "aac",
+      "profile": "LC",
+      "channels": 1,
+      "sample_rate": 44100,
+      "mode": "copy",
+      "target_bit_rate": "STREAM_COPY"
+    },
+    "requested_arguments": {
+      "encoder": "libx264",
+      "video_bitrate": 20000000,
+      "output_pix_fmt": "yuv420p",
+      "fps": "30/1",
+      "audio_codec": "copy",
+      "audio_profile": "aac_low",
+      "audio_bitrate": "STREAM_COPY",
+      "audio_sample_rate": 44100,
+      "audio_channels": 1
+    }
+  },
+  "ffmpeg_version": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers"
+}

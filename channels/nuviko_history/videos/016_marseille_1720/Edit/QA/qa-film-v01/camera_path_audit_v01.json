@@ -1,0 +1,1668 @@
+{
+  "scene_count": 127,
+  "mode_counts": {
+    "push-in": 63,
+    "pan-right": 22,
+    "pull-out": 22,
+    "pan-left": 20
+  },
+  "camera_mode_keys_matches": 127,
+  "sign_rule_matches": 127,
+  "source_manifest": "Edit/ImageMotion/sources.json",
+  "source_manifest_sha256": "eeb906ffb4b9017d62d1ca717213dcdabaf3c252627715ccc0d4ae8dfdaa431e",
+  "all_structural_checks_pass": true,
+  "visual_direction_claim": "not assessed by this structural audit",
+  "scenes": [
+    {
+      "scene": "S001",
+      "mode_from_sources": "push-in",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": 0.045,
+      "depth_sign": 1,
+      "expected_sign": 1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S002",
+      "mode_from_sources": "pan-right",
+      "center_delta": [
+        0.045,
+        0.0
+      ],
+      "scale_delta": 0.0,
+      "depth_sign": -1,
+      "expected_sign": -1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S003",
+      "mode_from_sources": "push-in",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": 0.045,
+      "depth_sign": 1,
+      "expected_sign": 1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S004",
+      "mode_from_sources": "push-in",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": 0.045,
+      "depth_sign": -1,
+      "expected_sign": -1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S005",
+      "mode_from_sources": "pull-out",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": -0.045,
+      "depth_sign": 1,
+      "expected_sign": 1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S006",
+      "mode_from_sources": "push-in",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": 0.045,
+      "depth_sign": -1,
+      "expected_sign": -1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S007",
+      "mode_from_sources": "pan-right",
+      "center_delta": [
+        0.045,
+        0.0
+      ],
+      "scale_delta": 0.0,
+      "depth_sign": -1,
+      "expected_sign": -1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S008",
+      "mode_from_sources": "push-in",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": 0.045,
+      "depth_sign": -1,
+      "expected_sign": -1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S009",
+      "mode_from_sources": "pull-out",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": -0.045,
+      "depth_sign": 1,
+      "expected_sign": 1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S010",
+      "mode_from_sources": "pan-left",
+      "center_delta": [
+        -0.045,
+        0.0
+      ],
+      "scale_delta": 0.0,
+      "depth_sign": 1,
+      "expected_sign": 1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S011",
+      "mode_from_sources": "push-in",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": 0.045,
+      "depth_sign": 1,
+      "expected_sign": 1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S012",
+      "mode_from_sources": "pull-out",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": -0.045,
+      "depth_sign": -1,
+      "expected_sign": -1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S013",
+      "mode_from_sources": "pan-right",
+      "center_delta": [
+        0.045,
+        0.0
+      ],
+      "scale_delta": 0.0,
+      "depth_sign": -1,
+      "expected_sign": -1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S014",
+      "mode_from_sources": "push-in",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": 0.045,
+      "depth_sign": -1,
+      "expected_sign": -1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S015",
+      "mode_from_sources": "pan-right",
+      "center_delta": [
+        0.045,
+        0.0
+      ],
+      "scale_delta": 0.0,
+      "depth_sign": -1,
+      "expected_sign": -1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S016",
+      "mode_from_sources": "push-in",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": 0.045,
+      "depth_sign": -1,
+      "expected_sign": -1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S017",
+      "mode_from_sources": "pan-left",
+      "center_delta": [
+        -0.045,
+        0.0
+      ],
+      "scale_delta": 0.0,
+      "depth_sign": 1,
+      "expected_sign": 1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S018",
+      "mode_from_sources": "pan-right",
+      "center_delta": [
+        0.045,
+        0.0
+      ],
+      "scale_delta": 0.0,
+      "depth_sign": -1,
+      "expected_sign": -1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S019",
+      "mode_from_sources": "push-in",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": 0.045,
+      "depth_sign": 1,
+      "expected_sign": 1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S020",
+      "mode_from_sources": "pull-out",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": -0.045,
+      "depth_sign": -1,
+      "expected_sign": -1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S021",
+      "mode_from_sources": "pan-left",
+      "center_delta": [
+        -0.045,
+        0.0
+      ],
+      "scale_delta": 0.0,
+      "depth_sign": 1,
+      "expected_sign": 1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S022",
+      "mode_from_sources": "push-in",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": 0.045,
+      "depth_sign": -1,
+      "expected_sign": -1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S023",
+      "mode_from_sources": "push-in",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": 0.045,
+      "depth_sign": 1,
+      "expected_sign": 1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S024",
+      "mode_from_sources": "push-in",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": 0.045,
+      "depth_sign": -1,
+      "expected_sign": -1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S025",
+      "mode_from_sources": "pan-right",
+      "center_delta": [
+        0.045,
+        0.0
+      ],
+      "scale_delta": 0.0,
+      "depth_sign": -1,
+      "expected_sign": -1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S026",
+      "mode_from_sources": "pull-out",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": -0.045,
+      "depth_sign": -1,
+      "expected_sign": -1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S027",
+      "mode_from_sources": "push-in",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": 0.045,
+      "depth_sign": 1,
+      "expected_sign": 1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S028",
+      "mode_from_sources": "pan-left",
+      "center_delta": [
+        -0.045,
+        0.0
+      ],
+      "scale_delta": 0.0,
+      "depth_sign": 1,
+      "expected_sign": 1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S029",
+      "mode_from_sources": "push-in",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": 0.045,
+      "depth_sign": 1,
+      "expected_sign": 1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S030",
+      "mode_from_sources": "push-in",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": 0.045,
+      "depth_sign": -1,
+      "expected_sign": -1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S031",
+      "mode_from_sources": "pull-out",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": -0.045,
+      "depth_sign": 1,
+      "expected_sign": 1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S032",
+      "mode_from_sources": "push-in",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": 0.045,
+      "depth_sign": -1,
+      "expected_sign": -1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S033",
+      "mode_from_sources": "pan-right",
+      "center_delta": [
+        0.045,
+        0.0
+      ],
+      "scale_delta": 0.0,
+      "depth_sign": -1,
+      "expected_sign": -1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S034",
+      "mode_from_sources": "pull-out",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": -0.045,
+      "depth_sign": -1,
+      "expected_sign": -1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S035",
+      "mode_from_sources": "push-in",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": 0.045,
+      "depth_sign": 1,
+      "expected_sign": 1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S036",
+      "mode_from_sources": "pan-left",
+      "center_delta": [
+        -0.045,
+        0.0
+      ],
+      "scale_delta": 0.0,
+      "depth_sign": 1,
+      "expected_sign": 1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S037",
+      "mode_from_sources": "pan-right",
+      "center_delta": [
+        0.045,
+        0.0
+      ],
+      "scale_delta": 0.0,
+      "depth_sign": -1,
+      "expected_sign": -1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S038",
+      "mode_from_sources": "push-in",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": 0.045,
+      "depth_sign": -1,
+      "expected_sign": -1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S039",
+      "mode_from_sources": "pull-out",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": -0.045,
+      "depth_sign": 1,
+      "expected_sign": 1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S040",
+      "mode_from_sources": "pan-left",
+      "center_delta": [
+        -0.045,
+        0.0
+      ],
+      "scale_delta": 0.0,
+      "depth_sign": 1,
+      "expected_sign": 1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S041",
+      "mode_from_sources": "pan-right",
+      "center_delta": [
+        0.045,
+        0.0
+      ],
+      "scale_delta": 0.0,
+      "depth_sign": -1,
+      "expected_sign": -1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S042",
+      "mode_from_sources": "push-in",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": 0.045,
+      "depth_sign": -1,
+      "expected_sign": -1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S043",
+      "mode_from_sources": "pan-left",
+      "center_delta": [
+        -0.045,
+        0.0
+      ],
+      "scale_delta": 0.0,
+      "depth_sign": 1,
+      "expected_sign": 1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S044",
+      "mode_from_sources": "push-in",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": 0.045,
+      "depth_sign": -1,
+      "expected_sign": -1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S045",
+      "mode_from_sources": "pull-out",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": -0.045,
+      "depth_sign": 1,
+      "expected_sign": 1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S046",
+      "mode_from_sources": "pan-right",
+      "center_delta": [
+        0.045,
+        0.0
+      ],
+      "scale_delta": 0.0,
+      "depth_sign": -1,
+      "expected_sign": -1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S047",
+      "mode_from_sources": "push-in",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": 0.045,
+      "depth_sign": 1,
+      "expected_sign": 1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S048",
+      "mode_from_sources": "push-in",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": 0.045,
+      "depth_sign": -1,
+      "expected_sign": -1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S049",
+      "mode_from_sources": "pan-left",
+      "center_delta": [
+        -0.045,
+        0.0
+      ],
+      "scale_delta": 0.0,
+      "depth_sign": 1,
+      "expected_sign": 1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S050",
+      "mode_from_sources": "pan-right",
+      "center_delta": [
+        0.045,
+        0.0
+      ],
+      "scale_delta": 0.0,
+      "depth_sign": -1,
+      "expected_sign": -1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S051",
+      "mode_from_sources": "push-in",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": 0.045,
+      "depth_sign": 1,
+      "expected_sign": 1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S052",
+      "mode_from_sources": "pan-left",
+      "center_delta": [
+        -0.045,
+        0.0
+      ],
+      "scale_delta": 0.0,
+      "depth_sign": 1,
+      "expected_sign": 1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S053",
+      "mode_from_sources": "push-in",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": 0.045,
+      "depth_sign": 1,
+      "expected_sign": 1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S054",
+      "mode_from_sources": "push-in",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": 0.045,
+      "depth_sign": -1,
+      "expected_sign": -1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S055",
+      "mode_from_sources": "pull-out",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": -0.045,
+      "depth_sign": 1,
+      "expected_sign": 1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S056",
+      "mode_from_sources": "pan-right",
+      "center_delta": [
+        0.045,
+        0.0
+      ],
+      "scale_delta": 0.0,
+      "depth_sign": -1,
+      "expected_sign": -1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S057",
+      "mode_from_sources": "push-in",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": 0.045,
+      "depth_sign": 1,
+      "expected_sign": 1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S058",
+      "mode_from_sources": "push-in",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": 0.045,
+      "depth_sign": -1,
+      "expected_sign": -1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S059",
+      "mode_from_sources": "push-in",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": 0.045,
+      "depth_sign": 1,
+      "expected_sign": 1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S060",
+      "mode_from_sources": "pan-left",
+      "center_delta": [
+        -0.045,
+        0.0
+      ],
+      "scale_delta": 0.0,
+      "depth_sign": 1,
+      "expected_sign": 1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S061",
+      "mode_from_sources": "push-in",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": 0.045,
+      "depth_sign": 1,
+      "expected_sign": 1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S062",
+      "mode_from_sources": "pan-right",
+      "center_delta": [
+        0.045,
+        0.0
+      ],
+      "scale_delta": 0.0,
+      "depth_sign": -1,
+      "expected_sign": -1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S063",
+      "mode_from_sources": "push-in",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": 0.045,
+      "depth_sign": 1,
+      "expected_sign": 1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S064",
+      "mode_from_sources": "push-in",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": 0.045,
+      "depth_sign": -1,
+      "expected_sign": -1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S065",
+      "mode_from_sources": "push-in",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": 0.045,
+      "depth_sign": 1,
+      "expected_sign": 1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S066",
+      "mode_from_sources": "push-in",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": 0.045,
+      "depth_sign": -1,
+      "expected_sign": -1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S067",
+      "mode_from_sources": "push-in",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": 0.045,
+      "depth_sign": 1,
+      "expected_sign": 1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S068",
+      "mode_from_sources": "pull-out",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": -0.045,
+      "depth_sign": -1,
+      "expected_sign": -1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S069",
+      "mode_from_sources": "push-in",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": 0.045,
+      "depth_sign": 1,
+      "expected_sign": 1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S070",
+      "mode_from_sources": "push-in",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": 0.045,
+      "depth_sign": -1,
+      "expected_sign": -1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S071",
+      "mode_from_sources": "pan-left",
+      "center_delta": [
+        -0.045,
+        0.0
+      ],
+      "scale_delta": 0.0,
+      "depth_sign": 1,
+      "expected_sign": 1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S072",
+      "mode_from_sources": "push-in",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": 0.045,
+      "depth_sign": -1,
+      "expected_sign": -1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S073",
+      "mode_from_sources": "push-in",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": 0.045,
+      "depth_sign": 1,
+      "expected_sign": 1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S074",
+      "mode_from_sources": "pan-right",
+      "center_delta": [
+        0.045,
+        0.0
+      ],
+      "scale_delta": 0.0,
+      "depth_sign": -1,
+      "expected_sign": -1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S075",
+      "mode_from_sources": "push-in",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": 0.045,
+      "depth_sign": 1,
+      "expected_sign": 1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S076",
+      "mode_from_sources": "push-in",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": 0.045,
+      "depth_sign": -1,
+      "expected_sign": -1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S077",
+      "mode_from_sources": "pan-left",
+      "center_delta": [
+        -0.045,
+        0.0
+      ],
+      "scale_delta": 0.0,
+      "depth_sign": 1,
+      "expected_sign": 1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S078",
+      "mode_from_sources": "pan-right",
+      "center_delta": [
+        0.045,
+        0.0
+      ],
+      "scale_delta": 0.0,
+      "depth_sign": -1,
+      "expected_sign": -1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S079",
+      "mode_from_sources": "pan-left",
+      "center_delta": [
+        -0.045,
+        0.0
+      ],
+      "scale_delta": 0.0,
+      "depth_sign": 1,
+      "expected_sign": 1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S080",
+      "mode_from_sources": "pull-out",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": -0.045,
+      "depth_sign": -1,
+      "expected_sign": -1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S081",
+      "mode_from_sources": "push-in",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": 0.045,
+      "depth_sign": 1,
+      "expected_sign": 1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S082",
+      "mode_from_sources": "pull-out",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": -0.045,
+      "depth_sign": -1,
+      "expected_sign": -1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S083",
+      "mode_from_sources": "push-in",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": 0.045,
+      "depth_sign": 1,
+      "expected_sign": 1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S084",
+      "mode_from_sources": "pan-right",
+      "center_delta": [
+        0.045,
+        0.0
+      ],
+      "scale_delta": 0.0,
+      "depth_sign": -1,
+      "expected_sign": -1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S085",
+      "mode_from_sources": "pan-left",
+      "center_delta": [
+        -0.045,
+        0.0
+      ],
+      "scale_delta": 0.0,
+      "depth_sign": 1,
+      "expected_sign": 1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S086",
+      "mode_from_sources": "pull-out",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": -0.045,
+      "depth_sign": -1,
+      "expected_sign": -1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S087",
+      "mode_from_sources": "push-in",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": 0.045,
+      "depth_sign": 1,
+      "expected_sign": 1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S088",
+      "mode_from_sources": "pan-right",
+      "center_delta": [
+        0.045,
+        0.0
+      ],
+      "scale_delta": 0.0,
+      "depth_sign": -1,
+      "expected_sign": -1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S089",
+      "mode_from_sources": "pan-left",
+      "center_delta": [
+        -0.045,
+        0.0
+      ],
+      "scale_delta": 0.0,
+      "depth_sign": 1,
+      "expected_sign": 1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S090",
+      "mode_from_sources": "push-in",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": 0.045,
+      "depth_sign": -1,
+      "expected_sign": -1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S091",
+      "mode_from_sources": "pan-right",
+      "center_delta": [
+        0.045,
+        0.0
+      ],
+      "scale_delta": 0.0,
+      "depth_sign": -1,
+      "expected_sign": -1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S092",
+      "mode_from_sources": "pull-out",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": -0.045,
+      "depth_sign": -1,
+      "expected_sign": -1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S093",
+      "mode_from_sources": "push-in",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": 0.045,
+      "depth_sign": 1,
+      "expected_sign": 1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S094",
+      "mode_from_sources": "push-in",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": 0.045,
+      "depth_sign": -1,
+      "expected_sign": -1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S095",
+      "mode_from_sources": "pull-out",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": -0.045,
+      "depth_sign": 1,
+      "expected_sign": 1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S096",
+      "mode_from_sources": "push-in",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": 0.045,
+      "depth_sign": -1,
+      "expected_sign": -1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S097",
+      "mode_from_sources": "push-in",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": 0.045,
+      "depth_sign": 1,
+      "expected_sign": 1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S098",
+      "mode_from_sources": "pan-left",
+      "center_delta": [
+        -0.045,
+        0.0
+      ],
+      "scale_delta": 0.0,
+      "depth_sign": 1,
+      "expected_sign": 1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S099",
+      "mode_from_sources": "push-in",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": 0.045,
+      "depth_sign": 1,
+      "expected_sign": 1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S100",
+      "mode_from_sources": "pull-out",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": -0.045,
+      "depth_sign": -1,
+      "expected_sign": -1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S101",
+      "mode_from_sources": "pull-out",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": -0.045,
+      "depth_sign": 1,
+      "expected_sign": 1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S102",
+      "mode_from_sources": "push-in",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": 0.045,
+      "depth_sign": -1,
+      "expected_sign": -1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S103",
+      "mode_from_sources": "pan-right",
+      "center_delta": [
+        0.045,
+        0.0
+      ],
+      "scale_delta": 0.0,
+      "depth_sign": -1,
+      "expected_sign": -1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S104",
+      "mode_from_sources": "push-in",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": 0.045,
+      "depth_sign": -1,
+      "expected_sign": -1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S105",
+      "mode_from_sources": "push-in",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": 0.045,
+      "depth_sign": 1,
+      "expected_sign": 1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S106",
+      "mode_from_sources": "push-in",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": 0.045,
+      "depth_sign": -1,
+      "expected_sign": -1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S107",
+      "mode_from_sources": "pan-left",
+      "center_delta": [
+        -0.045,
+        0.0
+      ],
+      "scale_delta": 0.0,
+      "depth_sign": 1,
+      "expected_sign": 1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S108",
+      "mode_from_sources": "pan-right",
+      "center_delta": [
+        0.045,
+        0.0
+      ],
+      "scale_delta": 0.0,
+      "depth_sign": -1,
+      "expected_sign": -1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S109",
+      "mode_from_sources": "push-in",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": 0.045,
+      "depth_sign": 1,
+      "expected_sign": 1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S110",
+      "mode_from_sources": "pull-out",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": -0.045,
+      "depth_sign": -1,
+      "expected_sign": -1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S111",
+      "mode_from_sources": "push-in",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": 0.045,
+      "depth_sign": 1,
+      "expected_sign": 1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S112",
+      "mode_from_sources": "pull-out",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": -0.045,
+      "depth_sign": -1,
+      "expected_sign": -1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S113",
+      "mode_from_sources": "push-in",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": 0.045,
+      "depth_sign": 1,
+      "expected_sign": 1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S114",
+      "mode_from_sources": "pan-left",
+      "center_delta": [
+        -0.045,
+        0.0
+      ],
+      "scale_delta": 0.0,
+      "depth_sign": 1,
+      "expected_sign": 1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S115",
+      "mode_from_sources": "push-in",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": 0.045,
+      "depth_sign": 1,
+      "expected_sign": 1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S116",
+      "mode_from_sources": "pan-right",
+      "center_delta": [
+        0.045,
+        0.0
+      ],
+      "scale_delta": 0.0,
+      "depth_sign": -1,
+      "expected_sign": -1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S117",
+      "mode_from_sources": "push-in",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": 0.045,
+      "depth_sign": 1,
+      "expected_sign": 1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S118",
+      "mode_from_sources": "pan-left",
+      "center_delta": [
+        -0.045,
+        0.0
+      ],
+      "scale_delta": 0.0,
+      "depth_sign": 1,
+      "expected_sign": 1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S119",
+      "mode_from_sources": "pan-right",
+      "center_delta": [
+        0.045,
+        0.0
+      ],
+      "scale_delta": 0.0,
+      "depth_sign": -1,
+      "expected_sign": -1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S120",
+      "mode_from_sources": "push-in",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": 0.045,
+      "depth_sign": -1,
+      "expected_sign": -1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S121",
+      "mode_from_sources": "push-in",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": 0.045,
+      "depth_sign": 1,
+      "expected_sign": 1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S122",
+      "mode_from_sources": "pan-left",
+      "center_delta": [
+        -0.045,
+        0.0
+      ],
+      "scale_delta": 0.0,
+      "depth_sign": 1,
+      "expected_sign": 1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S123",
+      "mode_from_sources": "push-in",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": 0.045,
+      "depth_sign": 1,
+      "expected_sign": 1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S124",
+      "mode_from_sources": "pull-out",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": -0.045,
+      "depth_sign": -1,
+      "expected_sign": -1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S125",
+      "mode_from_sources": "push-in",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": 0.045,
+      "depth_sign": 1,
+      "expected_sign": 1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S126",
+      "mode_from_sources": "push-in",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": 0.045,
+      "depth_sign": -1,
+      "expected_sign": -1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    },
+    {
+      "scene": "S127",
+      "mode_from_sources": "pull-out",
+      "center_delta": [
+        0.0,
+        0.0
+      ],
+      "scale_delta": -0.045,
+      "depth_sign": 1,
+      "expected_sign": 1,
+      "camera_mode_keys_match": true,
+      "sign_rule_match": true
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "status": "complete",
+  "source_fingerprint": "dd477d69a18d26600b64363c7e98e2eb96569a2ed0c90b7fc0f5ef4a5f6919c2",
+  "target_timeline_id": "DD4B85B4",
+  "scenes": [
+    {
+      "source": {
+        "frames": [
+          0,
+          46
+        ],
+        "id": "412053EA",
+        "mediaRef": "3BB8AFB1",
+        "mediaType": "image",
+        "trimEndFrame": 116
+      },
+      "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/008_boyfriend_brought_friend/Source/Images/full_frame_redo_v01/S01a_room_pair_v01.png",
+      "image_hash": "9b65c54bb8c4dca7fd969085a91985296c724d4c741bcad7b6e1558a9261a172",
+      "depth_input": null,
+      "depth_hash": null,
+      "keyframes": {},
+      "sign": 1,
+      "depth_zoom": 1.0,
+      "frames": 46,
+      "fps": 30,
+      "width": 1080,
+      "height": 1920,
+      "preset": {
+        "offset": 0.12,
+        "height": 0.2,
+        "steady": 0.0,
+        "sticky": true,
+        "camera_factor": 0.35,
+        "alignment": "same"
+      },
+      "video": "/Users/diplomat/ytvideos/Shared/Image_Motion/Cache/video/1f1f92fdc43e315fcf244d8085a455d643bbe109ad5107a2fc83c10f956e666e.mp4",
+      "mediaRef": "8E860754"
+    },
+    {
+      "source": {
+        "frames": [
+          46,
+          116
+        ],
+        "id": "AF335454",
+        "mediaRef": "EF36CC30",
+        "mediaType": "image",
+        "trimEndFrame": 70
+      },
+      "image": "/Users/diplomat/ytvideos/channels/paper_detour/videos/008_boyfriend_brought_friend/Source/Images/full_frame_redo_v02/S01b_room_trio_side_v02.png",
+      "image_hash": "cbb3bb5dda74eb9f8d55c970cfc087ce4d5632d1f0e0cc83e69fbbfaec443996",
+      "depth_input": null,
+      "depth_hash": null,
+      "keyframes": {},
+      "sign": -1,
+      "depth_zoom": 1.0,
+      "frames": 70,
+      "fps": 30,
+      "width": 1080,
+      "height": 1920,
+      "preset": {
+        "offset": 0.12,
+        "height": 0.2,
+        "steady": 0.0,
+        "sticky": true,
+        "camera_factor": 0.35,
+        "alignment": "same"
+      },
+      "video": "/Users/diplomat/ytvideos/Shared/Image_Motion/Cache/video/9bdae07005864d93835df658248c052a662fb3bfa9d2d0784ecd037330f9baf0.mp4",
+      "mediaRef": "D3E35E66"
+    }
+  ],
+  "result_fingerprint": "90b530956546fb3c8d5a7f14aa996a0e4b53c5732c1c8addc01607864f5f8e5c",
+  "snapshot": {
+    "snapshot": {
+      "author": {
+        "kind": "agent",
+        "name": "yt-stories-inspect"
+      },
+      "createdAt": "2026-11-03T01:06:30Z",
+      "name": "Batch image motion verified",
+      "snapshotId": "84170DF0"
+    }
+  },
+  "qa": {
+    "timeline_structure": "PASS",
+    "full_playback": "UNVERIFIED"
+  }
+}

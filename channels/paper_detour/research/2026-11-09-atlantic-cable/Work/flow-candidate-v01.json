@@ -1,0 +1,298 @@
+{
+  "schema_version": 2,
+  "music_workflow": 1,
+  "episode": "The First Atlantic Cable Worked. Then It Went Silent.",
+  "channel": "paper",
+  "format": "long",
+  "input": "collaborative",
+  "input_evidence": "codex://threads/01a1c0ae-3f13-70b1-a027-9b22d6512cd6 — пользователь, 9 ноября 2026: «продолжай. все разрешаю. жду готовые мп4 на утверждение».",
+  "scope": "Производство утверждаемого локального MP4 EN в наборе четырёх роликов; внешние действия не входят в поручение.",
+  "stages": [
+    {
+      "id": "develop_story",
+      "skills": [
+        "ytv-storycraft"
+      ],
+      "status": "DONE",
+      "artifacts": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/EPISODE.md",
+          "sha256": "37dee8b7492fab9c5f796f849f744add5d68ff85f648ced2a790ff1f090939b8",
+          "version": "EN review-v01"
+        }
+      ],
+      "checks": [],
+      "dependencies": [],
+      "skill_runs": [
+        {
+          "skill": "ytv-storycraft",
+          "status": "APPLIED",
+          "evidence": "Полный сюжет и источники в EPISODE.md — /Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/EPISODE.md"
+        }
+      ]
+    },
+    {
+      "id": "script",
+      "skills": [
+        "ytv-storycraft"
+      ],
+      "status": "DONE",
+      "artifacts": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Script/narration_en_v01.txt",
+          "sha256": "a2c3fb52b28ae6b6f5ffd4cdd7da06052657cf2c057c1f55bed172117548a154",
+          "version": "EN review-v01"
+        }
+      ],
+      "checks": [],
+      "dependencies": [],
+      "skill_runs": [
+        {
+          "skill": "ytv-storycraft",
+          "status": "APPLIED",
+          "evidence": "Точный производственный EN текст, озвучен полностью — /Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Script/narration_en_v01.txt"
+        }
+      ]
+    },
+    {
+      "id": "storyboard",
+      "skills": [
+        "ytv-visual-direction"
+      ],
+      "status": "DONE",
+      "artifacts": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Work/shot-map-v01.json",
+          "sha256": "8564a26e5e37ecfa1369e69d2abc979a3425e24c38534cb6e769979679dfe6c9",
+          "version": "EN review-v01"
+        }
+      ],
+      "checks": [],
+      "dependencies": [],
+      "skill_runs": [
+        {
+          "skill": "ytv-visual-direction",
+          "status": "APPLIED",
+          "evidence": "Реальные интервалы кадров, сцены, prompt/reference и движение — /Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Work/shot-map-v01.json"
+        }
+      ]
+    },
+    {
+      "id": "audio",
+      "skills": [
+        "ytv-audio-delivery"
+      ],
+      "status": "PENDING",
+      "artifacts": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Assets/Audio/full-mix-v01.wav",
+          "sha256": "fb57047c6a43ba4ce483fc2307eb1ccb22c05fc11bc5bb5cedbe1e054779796a",
+          "version": "EN review-v01"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Assets/Audio/HANDOFF.md",
+          "sha256": "cfa810b09d85636ec5de29b9f60e8b1dc09c5fe6c839da7a3074790a35bee6dd",
+          "version": "EN review-v01"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Work/word-times-final-v01.json",
+          "sha256": "7c818e3133a67741e835131771cfcca9bd328c6694d8d7573b23b50a049d0c1c",
+          "version": "EN review-v01"
+        }
+      ],
+      "checks": [
+        {
+          "name": "mix_listening",
+          "status": "UNVERIFIED"
+        }
+      ],
+      "dependencies": [],
+      "skill_runs": [
+        {
+          "skill": "ytv-audio-delivery",
+          "status": "APPLIED",
+          "evidence": "Выход и тайминги готовы, субъективное прослушивание UNVERIFIED — /Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Assets/Audio/full-mix-v01.wav"
+        }
+      ]
+    },
+    {
+      "id": "images",
+      "skills": [
+        "ytv-scene-images",
+        "ytv-image-motion"
+      ],
+      "status": "PENDING",
+      "artifacts": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Work/shot-map-v01.json",
+          "sha256": "8564a26e5e37ecfa1369e69d2abc979a3425e24c38534cb6e769979679dfe6c9",
+          "version": "EN review-v01"
+        }
+      ],
+      "checks": [],
+      "dependencies": [],
+      "skill_runs": [
+        {
+          "skill": "ytv-scene-images",
+          "status": "APPLIED",
+          "evidence": "Выбранные уникальные кадры, положение субтитров и цели движения проверяются по композитам — /Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Work/shot-map-v01.json"
+        },
+        {
+          "skill": "ytv-image-motion",
+          "status": "APPLIED",
+          "evidence": "Выбранные уникальные кадры, положение субтитров и цели движения проверяются по композитам — /Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Work/shot-map-v01.json"
+        }
+      ]
+    },
+    {
+      "id": "subtitles",
+      "skills": [
+        "ytv-paper-subtitles",
+        "ytv-srt"
+      ],
+      "status": "PENDING",
+      "artifacts": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Edit/subtitle-preflight-v01.md",
+          "sha256": "ea89578e3d573755ffefe3ab324680732ddbc98582cfedc928b72bfabbd0aaa8",
+          "version": "EN review-v01"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Edit/subtitle-review-v01.json",
+          "sha256": "a58f429e819571099a82a7de5ef59ef8422fc0c362f0e13f0686f034dbf3712a",
+          "version": "EN review-v01"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Deliverables/Atlantic-Cable-Paper-Detour-en-v01.srt",
+          "sha256": "f0fd5ba8fd86bf6d61186cf05175edf6bef88ab99e6fd4007de7e45534bdafcf",
+          "version": "EN review-v01"
+        }
+      ],
+      "checks": [],
+      "dependencies": [],
+      "skill_runs": [
+        {
+          "skill": "ytv-paper-subtitles",
+          "status": "APPLIED",
+          "evidence": "Полная карта слов, экранные группы, preflight и отдельный SRT — /Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Edit/subtitle-preflight-v01.md"
+        },
+        {
+          "skill": "ytv-srt",
+          "status": "APPLIED",
+          "evidence": "Полная карта слов, экранные группы, preflight и отдельный SRT — /Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Edit/subtitle-preflight-v01.md"
+        }
+      ]
+    },
+    {
+      "id": "render",
+      "skills": [
+        "ytv-video-production",
+        "ytv-video-export",
+        "ytv-video-qa"
+      ],
+      "status": "PENDING",
+      "artifacts": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Deliverables/Atlantic-Cable-Paper-Detour-en-v01.mp4",
+          "sha256": "8b711c361cc8092f7b71b55e869a5fb4a77518f9a5ea69ada82aed473d640ab6",
+          "version": "EN review-v01"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Work/qa-v01/REPORT.md",
+          "sha256": "abeb394f36e55c902eda3633bd1016fcbce99a8b398221a14d524f0073395a49",
+          "version": "EN review-v01"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Deliverables/Atlantic-Cable-Paper-Detour-en-v01.mp4.delivery.json",
+          "sha256": "602fbf1fe933006a5654789c5b5a7053a9e72bae3d9328bfe0336bdf0538a8e0",
+          "version": "EN review-v01"
+        }
+      ],
+      "checks": [
+        {
+          "name": "technical_review",
+          "status": "PASS",
+          "evidence": "/Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Work/qa-v01/REPORT.md",
+          "reviewer": "Codex",
+          "method": "Полное декодирование, потоковые параметры и выборка финальных кадров",
+          "coverage": "Весь файл и каждый план"
+        }
+      ],
+      "dependencies": [],
+      "skill_runs": [
+        {
+          "skill": "ytv-video-production",
+          "status": "APPLIED",
+          "evidence": "Точный экспорт и QA; одобрение пользователем ожидается — /Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Deliverables/Atlantic-Cable-Paper-Detour-en-v01.mp4"
+        },
+        {
+          "skill": "ytv-video-export",
+          "status": "APPLIED",
+          "evidence": "Точный экспорт и QA; одобрение пользователем ожидается — /Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Deliverables/Atlantic-Cable-Paper-Detour-en-v01.mp4"
+        },
+        {
+          "skill": "ytv-video-qa",
+          "status": "APPLIED",
+          "evidence": "Точный экспорт и QA; одобрение пользователем ожидается — /Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Deliverables/Atlantic-Cable-Paper-Detour-en-v01.mp4"
+        }
+      ]
+    },
+    {
+      "id": "review",
+      "skills": [],
+      "status": "PENDING",
+      "artifacts": [],
+      "checks": [],
+      "dependencies": [],
+      "skill_runs": []
+    },
+    {
+      "id": "packaging",
+      "skills": [
+        "ytv-youtube-video-titles",
+        "ytv-youtube-thumbnails",
+        "ytv-youtube-descriptions",
+        "ytv-youtube-hashtags",
+        "ytv-youtube-playlists",
+        "ytv-youtube-ab-testing",
+        "ytv-youtube-chapters"
+      ],
+      "status": "PENDING",
+      "artifacts": [],
+      "checks": [],
+      "dependencies": [],
+      "skill_runs": []
+    },
+    {
+      "id": "unlisted",
+      "skills": [
+        "ytv-youtube-release"
+      ],
+      "status": "PENDING",
+      "artifacts": [],
+      "checks": [],
+      "dependencies": [],
+      "skill_runs": []
+    },
+    {
+      "id": "release",
+      "skills": [
+        "ytv-youtube-release",
+        "ytv-media-lifecycle"
+      ],
+      "status": "PENDING",
+      "artifacts": [],
+      "checks": [],
+      "dependencies": [],
+      "skill_runs": []
+    }
+  ],
+  "decisions": {
+    "story_accepted": {
+      "accepted": true,
+      "target": "EN review-v01, /Users/diplomat/ytvideos/channels/paper_detour/research/2026-11-09-atlantic-cable/Source/Script/narration_en_v01.txt SHA-256 a2c3fb52b28ae6b6f5ffd4cdd7da06052657cf2c057c1f55bed172117548a154",
+      "evidence": "codex://threads/01a1c0ae-3f13-70b1-a027-9b22d6512cd6 — пользователь, 9 ноября 2026: «продолжай. все разрешаю. жду готовые мп4 на утверждение». Разрешено продолжить производство без промежуточного утверждения."
+    }
+  },
+  "next_step": "Получить пользовательское решение по точному MP4; упаковка и загрузка требуют отдельного поручения."
+}

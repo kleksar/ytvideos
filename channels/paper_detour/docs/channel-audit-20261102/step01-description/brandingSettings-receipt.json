@@ -1,0 +1,27 @@
+{
+  "started_at_utc": "2026-11-02T17:40:52.943137+00:00",
+  "part": "brandingSettings",
+  "state": "verified",
+  "channel_id": "UCMVfdfaNxV3ZkI3_J3Eejzw",
+  "http_status": 200,
+  "response": {
+    "kind": "youtube#channel",
+    "etag": "LFJfh-vc5oeXiAz9SWA4CwYAxZs",
+    "id": "UCMVfdfaNxV3ZkI3_J3Eejzw",
+    "brandingSettings": {
+      "channel": {
+        "title": "Paper Detour",
+        "description": "Paper Detour takes you into paper-diorama worlds, where strange true stories, timeless legends and curious what-if questions unfold.\n\nExplore surprising turns in history, science and human experience through English Shorts and longer stories that make you see the familiar differently.",
+        "defaultLanguage": "en",
+        "country": "CY"
+      },
+      "image": {
+        "bannerExternalUrl": "https://yt3.googleusercontent.com/1R_juuo5S6HXe9mQOn-AWlN2kNZ0MQGqcJZCkcxtTknLzHkKhgtSjcSsHNBdGWY_aaxSJ62Rzg"
+      }
+    }
+  },
+  "response_at_utc": "2026-11-02T17:40:54.246433+00:00",
+  "error_type": "AssertionError",
+  "verified_at_utc": "2026-11-02T17:41:15.793076+00:00",
+  "note": "Initial reads were stale; bounded later read confirms requested field. No repeated write."
+}

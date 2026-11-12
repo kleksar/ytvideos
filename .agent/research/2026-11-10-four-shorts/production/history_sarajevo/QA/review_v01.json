@@ -1,0 +1,47 @@
+{
+  "scope": "review export; not user acceptance or upload readiness",
+  "media": "/Users/diplomat/ytvideos/.agent/research/2026-11-10-four-shorts/production/history_sarajevo/Deliverables/history_sarajevo_review_v03.mp4",
+  "media_sha256": "76df9af715485fca0bd46ce7f92ca4b49a9fe08656eddd9d8bba12a1b389138c",
+  "full_decode": "PASS via ffmpeg -f null -; exit 0",
+  "ffprobe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1440,
+        "height": 2560,
+        "pix_fmt": "yuv420p",
+        "color_space": "bt709",
+        "r_frame_rate": "30/1",
+        "avg_frame_rate": "30/1",
+        "nb_frames": "1106"
+      },
+      {
+        "codec_name": "aac",
+        "sample_rate": "48000",
+        "channels": 2,
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "nb_frames": "1730"
+      }
+    ],
+    "format": {
+      "duration": "36.866667"
+    }
+  },
+  "visual_sample": "frames at approximately 2, 6, 10 ... seconds; contact sheet viewed, not complete playback",
+  "contact_sheet": "/Users/diplomat/ytvideos/.agent/research/2026-11-10-four-shorts/production/history_sarajevo/QA/contact-sheet-4sec.jpg",
+  "contact_sheet_sha256": "5ba41734dce14121ddb67ebdf8ac1733dca3cff4b08fdebf18f6847cd34b4fb4",
+  "audio": "PCM correlation to input mix at 12kHz resampled mono 0.99992; ASR text compared; peak measurement in voice/audio_technical_review.json",
+  "listening": "UNVERIFIED",
+  "subtitle_sync": "machine timing; listening UNVERIFIED",
+  "subtitle_grouping": "all cue texts read in sequence; some width-forced short breaks remain, especially Washington; timing is machine-estimated",
+  "historical_accuracy": "targeted references consulted; reconstruction not archival; full verification not asserted",
+  "open_requirements": [
+    "perceptual audio review unavailable",
+    "subtitle timing and grouping subject to full review",
+    "user review of exact MP4"
+  ],
+  "frame_cadence": "PASS: ffprobe all decoded video frame timestamps, maximum drift <= 0.000001s from 30fps"
+}

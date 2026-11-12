@@ -1,0 +1,837 @@
+{
+  "notes": "English source used end-to-end, cuts near 10ms low-energy points, original Russian onset estimates manually mapped from ASR, plus 12.467 second source trim; greedy non-overlap placement. Alignment is approximate; needs full human listening and topical verification. Never claim no clipped word until checked by ear.",
+  "unmappedDroppedAnchors": [],
+  "sampleRate": 16000,
+  "englishDecodedDuration": 419.631,
+  "russianTrim": 12.467,
+  "segments": [
+    {
+      "sourceStart": 0,
+      "sourceEnd": 4.615,
+      "timelineStart": 0.693,
+      "timelineEnd": 5.308,
+      "russianAnchorOriginal": 13.16,
+      "requestedStart": 0.693,
+      "delayFromAnchor": 0.0
+    },
+    {
+      "sourceStart": 4.615,
+      "sourceEnd": 12.06,
+      "timelineStart": 8.453,
+      "timelineEnd": 15.898,
+      "russianAnchorOriginal": 20.92,
+      "requestedStart": 8.453,
+      "delayFromAnchor": 0.0
+    },
+    {
+      "sourceStart": 12.06,
+      "sourceEnd": 14.04,
+      "timelineStart": 17.133,
+      "timelineEnd": 19.113,
+      "russianAnchorOriginal": 29.6,
+      "requestedStart": 17.133,
+      "delayFromAnchor": 0.0
+    },
+    {
+      "sourceStart": 14.04,
+      "sourceEnd": 19.735,
+      "timelineStart": 20.773,
+      "timelineEnd": 26.468,
+      "russianAnchorOriginal": 33.24,
+      "requestedStart": 20.773,
+      "delayFromAnchor": 0.0
+    },
+    {
+      "sourceStart": 19.735,
+      "sourceEnd": 24.46,
+      "timelineStart": 27.153,
+      "timelineEnd": 31.878,
+      "russianAnchorOriginal": 39.62,
+      "requestedStart": 27.153,
+      "delayFromAnchor": 0.0
+    },
+    {
+      "sourceStart": 24.46,
+      "sourceEnd": 27.985,
+      "timelineStart": 39.353,
+      "timelineEnd": 42.878,
+      "russianAnchorOriginal": 51.82,
+      "requestedStart": 39.353,
+      "delayFromAnchor": 0.0
+    },
+    {
+      "sourceStart": 27.985,
+      "sourceEnd": 37.985,
+      "timelineStart": 43.773,
+      "timelineEnd": 53.773,
+      "russianAnchorOriginal": 56.24,
+      "requestedStart": 43.773,
+      "delayFromAnchor": 0.0
+    },
+    {
+      "sourceStart": 37.985,
+      "sourceEnd": 45.465,
+      "timelineStart": 54.913,
+      "timelineEnd": 62.393,
+      "russianAnchorOriginal": 67.38,
+      "requestedStart": 54.913,
+      "delayFromAnchor": 0.0
+    },
+    {
+      "sourceStart": 45.465,
+      "sourceEnd": 54.62,
+      "timelineStart": 62.423,
+      "timelineEnd": 71.578,
+      "russianAnchorOriginal": 73.78,
+      "requestedStart": 61.313,
+      "delayFromAnchor": 1.11
+    },
+    {
+      "sourceStart": 54.62,
+      "sourceEnd": 56.04,
+      "timelineStart": 71.608,
+      "timelineEnd": 73.028,
+      "russianAnchorOriginal": 82.3,
+      "requestedStart": 69.833,
+      "delayFromAnchor": 1.775
+    },
+    {
+      "sourceStart": 56.04,
+      "sourceEnd": 62.16,
+      "timelineStart": 73.058,
+      "timelineEnd": 79.178,
+      "russianAnchorOriginal": 85.24,
+      "requestedStart": 72.773,
+      "delayFromAnchor": 0.285
+    },
+    {
+      "sourceStart": 62.16,
+      "sourceEnd": 63.925,
+      "timelineStart": 80.193,
+      "timelineEnd": 81.958,
+      "russianAnchorOriginal": 92.66,
+      "requestedStart": 80.193,
+      "delayFromAnchor": 0.0
+    },
+    {
+      "sourceStart": 63.925,
+      "sourceEnd": 67.145,
+      "timelineStart": 82.173,
+      "timelineEnd": 85.393,
+      "russianAnchorOriginal": 94.64,
+      "requestedStart": 82.173,
+      "delayFromAnchor": 0.0
+    },
+    {
+      "sourceStart": 67.145,
+      "sourceEnd": 76.2,
+      "timelineStart": 85.993,
+      "timelineEnd": 95.048,
+      "russianAnchorOriginal": 98.46,
+      "requestedStart": 85.993,
+      "delayFromAnchor": 0.0
+    },
+    {
+      "sourceStart": 76.2,
+      "sourceEnd": 80.78,
+      "timelineStart": 96.293,
+      "timelineEnd": 100.873,
+      "russianAnchorOriginal": 108.76,
+      "requestedStart": 96.293,
+      "delayFromAnchor": 0.0
+    },
+    {
+      "sourceStart": 80.78,
+      "sourceEnd": 86.34,
+      "timelineStart": 102.973,
+      "timelineEnd": 108.533,
+      "russianAnchorOriginal": 115.44,
+      "requestedStart": 102.973,
+      "delayFromAnchor": 0.0
+    },
+    {
+      "sourceStart": 86.34,
+      "sourceEnd": 88.51,
+      "timelineStart": 108.563,
+      "timelineEnd": 110.733,
+      "russianAnchorOriginal": 120.08,
+      "requestedStart": 107.613,
+      "delayFromAnchor": 0.95
+    },
+    {
+      "sourceStart": 88.51,
+      "sourceEnd": 91.5,
+      "timelineStart": 110.763,
+      "timelineEnd": 113.753,
+      "russianAnchorOriginal": 122.18,
+      "requestedStart": 109.713,
+      "delayFromAnchor": 1.05
+    },
+    {
+      "sourceStart": 91.5,
+      "sourceEnd": 94.32,
+      "timelineStart": 113.783,
+      "timelineEnd": 116.603,
+      "russianAnchorOriginal": 124.82,
+      "requestedStart": 112.353,
+      "delayFromAnchor": 1.43
+    },
+    {
+      "sourceStart": 94.32,
+      "sourceEnd": 95.955,
+      "timelineStart": 117.453,
+      "timelineEnd": 119.088,
+      "russianAnchorOriginal": 129.92,
+      "requestedStart": 117.453,
+      "delayFromAnchor": 0.0
+    },
+    {
+      "sourceStart": 95.955,
+      "sourceEnd": 99.155,
+      "timelineStart": 119.213,
+      "timelineEnd": 122.413,
+      "russianAnchorOriginal": 131.68,
+      "requestedStart": 119.213,
+      "delayFromAnchor": 0.0
+    },
+    {
+      "sourceStart": 99.155,
+      "sourceEnd": 105.9,
+      "timelineStart": 123.013,
+      "timelineEnd": 129.758,
+      "russianAnchorOriginal": 135.48,
+      "requestedStart": 123.013,
+      "delayFromAnchor": 0.0
+    },
+    {
+      "sourceStart": 105.9,
+      "sourceEnd": 106.92,
+      "timelineStart": 131.573,
+      "timelineEnd": 132.593,
+      "russianAnchorOriginal": 144.04,
+      "requestedStart": 131.573,
+      "delayFromAnchor": 0.0
+    },
+    {
+      "sourceStart": 106.92,
+      "sourceEnd": 110.09,
+      "timelineStart": 132.753,
+      "timelineEnd": 135.923,
+      "russianAnchorOriginal": 145.22,
+      "requestedStart": 132.753,
+      "delayFromAnchor": 0.0
+    },
+    {
+      "sourceStart": 110.09,
+      "sourceEnd": 114.705,
+      "timelineStart": 135.953,
+      "timelineEnd": 140.568,
+      "russianAnchorOriginal": 148.24,
+      "requestedStart": 135.773,
+      "delayFromAnchor": 0.18
+    },
+    {
+      "sourceStart": 114.705,
+      "sourceEnd": 126.04,
+      "timelineStart": 142.833,
+      "timelineEnd": 154.168,
+      "russianAnchorOriginal": 155.3,
+      "requestedStart": 142.833,
+      "delayFromAnchor": 0.0
+    },
+    {
+      "sourceStart": 126.04,
+      "sourceEnd": 128.025,
+      "timelineStart": 155.233,
+      "timelineEnd": 157.218,
+      "russianAnchorOriginal": 167.7,
+      "requestedStart": 155.233,
+      "delayFromAnchor": 0.0
+    },
+    {
+      "sourceStart": 128.025,
+      "sourceEnd": 137.03,
+      "timelineStart": 157.513,
+      "timelineEnd": 166.518,
+      "russianAnchorOriginal": 169.98,
+      "requestedStart": 157.513,
+      "delayFromAnchor": 0.0
+    },
+    {
+      "sourceStart": 137.03,
+      "sourceEnd": 138.45,
+      "timelineStart": 168.533,
+      "timelineEnd": 169.953,
+      "russianAnchorOriginal": 181.0,
+      "requestedStart": 168.533,
+      "delayFromAnchor": 0.0
+    },
+    {
+      "sourceStart": 138.45,
+      "sourceEnd": 140.28,
+      "timelineStart": 170.173,
+      "timelineEnd": 172.003,
+      "russianAnchorOriginal": 182.64,
+      "requestedStart": 170.173,
+      "delayFromAnchor": 0.0
+    },
+    {
+      "sourceStart": 140.28,
+      "sourceEnd": 142.92,
+      "timelineStart": 172.033,
+      "timelineEnd": 174.673,
+      "russianAnchorOriginal": 184.36,
+      "requestedStart": 171.893,
+      "delayFromAnchor": 0.14
+    },
+    {
+      "sourceStart": 142.92,
+      "sourceEnd": 146.94,
+      "timelineStart": 175.513,
+      "timelineEnd": 179.533,
+      "russianAnchorOriginal": 187.98,
+      "requestedStart": 175.513,
+      "delayFromAnchor": 0.0
+    },
+    {
+      "sourceStart": 146.94,
+      "sourceEnd": 154.44,
+      "timelineStart": 179.563,
+      "timelineEnd": 187.063,
+      "russianAnchorOriginal": 190.36,
+      "requestedStart": 177.893,
+      "delayFromAnchor": 1.67
+    },
+    {
+      "sourceStart": 154.44,
+      "sourceEnd": 156.685,
+      "timelineStart": 187.093,
+      "timelineEnd": 189.338,
+      "russianAnchorOriginal": 197.92,
+      "requestedStart": 185.453,
+      "delayFromAnchor": 1.64
+    },
+    {
+      "sourceStart": 156.685,
+      "sourceEnd": 160.2,
+      "timelineStart": 189.368,
+      "timelineEnd": 192.883,
+      "russianAnchorOriginal": 201.02,
+      "requestedStart": 188.553,
+      "delayFromAnchor": 0.815
+    },
+    {
+      "sourceStart": 160.2,
+      "sourceEnd": 161.76,
+      "timelineStart": 192.913,
+      "timelineEnd": 194.473,
+      "russianAnchorOriginal": 203.92,
+      "requestedStart": 191.453,
+      "delayFromAnchor": 1.46
+    },
+    {
+      "sourceStart": 161.76,
+      "sourceEnd": 164.96,
+      "timelineStart": 194.503,
+      "timelineEnd": 197.703,
+      "russianAnchorOriginal": 205.3,
+      "requestedStart": 192.833,
+      "delayFromAnchor": 1.67
+    },
+    {
+      "sourceStart": 164.96,
+      "sourceEnd": 169.44,
+      "timelineStart": 197.733,
+      "timelineEnd": 202.213,
+      "russianAnchorOriginal": 209.5,
+      "requestedStart": 197.033,
+      "delayFromAnchor": 0.7
+    },
+    {
+      "sourceStart": 169.44,
+      "sourceEnd": 181.08,
+      "timelineStart": 203.253,
+      "timelineEnd": 214.893,
+      "russianAnchorOriginal": 215.72,
+      "requestedStart": 203.253,
+      "delayFromAnchor": 0.0
+    },
+    {
+      "sourceStart": 181.08,
+      "sourceEnd": 189.0,
+      "timelineStart": 220.073,
+      "timelineEnd": 227.993,
+      "russianAnchorOriginal": 232.54,
+      "requestedStart": 220.073,
+      "delayFromAnchor": 0.0
+    },
+    {
+      "sourceStart": 189.0,
+      "sourceEnd": 193.37,
+      "timelineStart": 228.073,
+      "timelineEnd": 232.443,
+      "russianAnchorOriginal": 240.54,
+      "requestedStart": 228.073,
+      "delayFromAnchor": 0.0
+    },
+    {
+      "sourceStart": 193.37,
+      "sourceEnd": 203.545,
+      "timelineStart": 234.873,
+      "timelineEnd": 245.048,
+      "russianAnchorOriginal": 247.34,
+      "requestedStart": 234.873,
+      "delayFromAnchor": 0.0
+    },
+    {
+      "sourceStart": 203.545,
+      "sourceEnd": 204.97,
+      "timelineStart": 247.053,
+      "timelineEnd": 248.478,
+      "russianAnchorOriginal": 259.52,
+      "requestedStart": 247.053,
+      "delayFromAnchor": 0.0
+    },
+    {
+      "sourceStart": 204.97,
+      "sourceEnd": 207.78,
+      "timelineStart": 249.413,
+      "timelineEnd": 252.223,
+      "russianAnchorOriginal": 261.88,
+      "requestedStart": 249.413,
+      "delayFromAnchor": 0.0
+    },
+    {
+      "sourceStart": 207.78,
+      "sourceEnd": 209.04,
+      "timelineStart": 252.373,
+      "timelineEnd": 253.633,
+      "russianAnchorOriginal": 264.84,
+      "requestedStart": 252.373,
+      "delayFromAnchor": 0.0
+    },
+    {
+      "sourceStart": 209.04,
+      "sourceEnd": 211.74,
+      "timelineStart": 253.733,
+      "timelineEnd": 256.433,
+      "russianAnchorOriginal": 266.2,
+      "requestedStart": 253.733,
+      "delayFromAnchor": 0.0
+    },
+    {
+      "sourceStart": 211.74,
+      "sourceEnd": 214.54,
+      "timelineStart": 256.463,
+      "timelineEnd": 259.263,
+      "russianAnchorOriginal": 268.58,
+      "requestedStart": 256.113,
+      "delayFromAnchor": 0.35
+    },
+    {
+      "sourceStart": 214.54,
+      "sourceEnd": 216.66,
+      "timelineStart": 259.713,
+      "timelineEnd": 261.833,
+      "russianAnchorOriginal": 272.18,
+      "requestedStart": 259.713,
+      "delayFromAnchor": 0.0
+    },
+    {
+      "sourceStart": 216.66,
+      "sourceEnd": 230.825,
+      "timelineStart": 265.013,
+      "timelineEnd": 279.178,
+      "russianAnchorOriginal": 277.48,
+      "requestedStart": 265.013,
+      "delayFromAnchor": 0.0
+    },
+    {
+      "sourceStart": 230.825,
+      "sourceEnd": 233.955,
+      "timelineStart": 288.353,
+      "timelineEnd": 291.483,
+      "russianAnchorOriginal": 300.82,
+      "requestedStart": 288.353,
+      "delayFromAnchor": 0.0
+    },
+    {
+      "sourceStart": 233.955,
+      "sourceEnd": 235.925,
+      "timelineStart": 292.533,
+      "timelineEnd": 294.503,
+      "russianAnchorOriginal": 305.0,
+      "requestedStart": 292.533,
+      "delayFromAnchor": 0.0
+    },
+    {
+      "sourceStart": 235.925,
+      "sourceEnd": 241.375,
+      "timelineStart": 294.533,
+      "timelineEnd": 299.983,
+      "russianAnchorOriginal": 305.74,
+      "requestedStart": 293.273,
+      "delayFromAnchor": 1.26
+    },
+    {
+      "sourceStart": 241.375,
+      "sourceEnd": 243.12,
+      "timelineStart": 300.013,
+      "timelineEnd": 301.758,
+      "russianAnchorOriginal": 310.54,
+      "requestedStart": 298.073,
+      "delayFromAnchor": 1.94
+    },
+    {
+      "sourceStart": 243.12,
+      "sourceEnd": 248.455,
+      "timelineStart": 301.788,
+      "timelineEnd": 307.123,
+      "russianAnchorOriginal": 312.0,
+      "requestedStart": 299.533,
+      "delayFromAnchor": 2.255
+    },
+    {
+      "sourceStart": 248.455,
+      "sourceEnd": 255.435,
+      "timelineStart": 307.393,
+      "timelineEnd": 314.373,
+      "russianAnchorOriginal": 319.86,
+      "requestedStart": 307.393,
+      "delayFromAnchor": 0.0
+    },
+    {
+      "sourceStart": 255.435,
+      "sourceEnd": 257.155,
+      "timelineStart": 314.403,
+      "timelineEnd": 316.123,
+      "russianAnchorOriginal": 325.76,
+      "requestedStart": 313.293,
+      "delayFromAnchor": 1.11
+    },
+    {
+      "sourceStart": 257.155,
+      "sourceEnd": 262.95,
+      "timelineStart": 316.153,
+      "timelineEnd": 321.948,
+      "russianAnchorOriginal": 326.9,
+      "requestedStart": 314.433,
+      "delayFromAnchor": 1.72
+    },
+    {
+      "sourceStart": 262.95,
+      "sourceEnd": 264.385,
+      "timelineStart": 321.978,
+      "timelineEnd": 323.413,
+      "russianAnchorOriginal": 331.86,
+      "requestedStart": 319.393,
+      "delayFromAnchor": 2.585
+    },
+    {
+      "sourceStart": 264.385,
+      "sourceEnd": 268.86,
+      "timelineStart": 323.443,
+      "timelineEnd": 327.918,
+      "russianAnchorOriginal": 334.02,
+      "requestedStart": 321.553,
+      "delayFromAnchor": 1.89
+    },
+    {
+      "sourceStart": 268.86,
+      "sourceEnd": 270.375,
+      "timelineStart": 328.133,
+      "timelineEnd": 329.648,
+      "russianAnchorOriginal": 340.6,
+      "requestedStart": 328.133,
+      "delayFromAnchor": 0.0
+    },
+    {
+      "sourceStart": 270.375,
+      "sourceEnd": 278.745,
+      "timelineStart": 332.153,
+      "timelineEnd": 340.523,
+      "russianAnchorOriginal": 344.62,
+      "requestedStart": 332.153,
+      "delayFromAnchor": 0.0
+    },
+    {
+      "sourceStart": 278.745,
+      "sourceEnd": 283.32,
+      "timelineStart": 341.333,
+      "timelineEnd": 345.908,
+      "russianAnchorOriginal": 353.8,
+      "requestedStart": 341.333,
+      "delayFromAnchor": 0.0
+    },
+    {
+      "sourceStart": 283.32,
+      "sourceEnd": 289.44,
+      "timelineStart": 347.333,
+      "timelineEnd": 353.453,
+      "russianAnchorOriginal": 359.8,
+      "requestedStart": 347.333,
+      "delayFromAnchor": 0.0
+    },
+    {
+      "sourceStart": 289.44,
+      "sourceEnd": 291.64,
+      "timelineStart": 361.913,
+      "timelineEnd": 364.113,
+      "russianAnchorOriginal": 374.38,
+      "requestedStart": 361.913,
+      "delayFromAnchor": 0.0
+    },
+    {
+      "sourceStart": 291.64,
+      "sourceEnd": 295.38,
+      "timelineStart": 364.143,
+      "timelineEnd": 367.883,
+      "russianAnchorOriginal": 375.4,
+      "requestedStart": 362.933,
+      "delayFromAnchor": 1.21
+    },
+    {
+      "sourceStart": 295.38,
+      "sourceEnd": 301.035,
+      "timelineStart": 369.053,
+      "timelineEnd": 374.708,
+      "russianAnchorOriginal": 381.52,
+      "requestedStart": 369.053,
+      "delayFromAnchor": 0.0
+    },
+    {
+      "sourceStart": 301.035,
+      "sourceEnd": 306.66,
+      "timelineStart": 376.653,
+      "timelineEnd": 382.278,
+      "russianAnchorOriginal": 389.12,
+      "requestedStart": 376.653,
+      "delayFromAnchor": 0.0
+    },
+    {
+      "sourceStart": 306.66,
+      "sourceEnd": 310.2,
+      "timelineStart": 382.773,
+      "timelineEnd": 386.313,
+      "russianAnchorOriginal": 395.24,
+      "requestedStart": 382.773,
+      "delayFromAnchor": 0.0
+    },
+    {
+      "sourceStart": 310.2,
+      "sourceEnd": 314.16,
+      "timelineStart": 386.343,
+      "timelineEnd": 390.303,
+      "russianAnchorOriginal": 397.74,
+      "requestedStart": 385.273,
+      "delayFromAnchor": 1.07
+    },
+    {
+      "sourceStart": 314.16,
+      "sourceEnd": 320.46,
+      "timelineStart": 392.213,
+      "timelineEnd": 398.513,
+      "russianAnchorOriginal": 404.68,
+      "requestedStart": 392.213,
+      "delayFromAnchor": 0.0
+    },
+    {
+      "sourceStart": 320.46,
+      "sourceEnd": 323.28,
+      "timelineStart": 400.913,
+      "timelineEnd": 403.733,
+      "russianAnchorOriginal": 413.38,
+      "requestedStart": 400.913,
+      "delayFromAnchor": 0.0
+    },
+    {
+      "sourceStart": 323.28,
+      "sourceEnd": 325.91,
+      "timelineStart": 406.753,
+      "timelineEnd": 409.383,
+      "russianAnchorOriginal": 419.22,
+      "requestedStart": 406.753,
+      "delayFromAnchor": 0.0
+    },
+    {
+      "sourceStart": 325.91,
+      "sourceEnd": 338.72,
+      "timelineStart": 412.133,
+      "timelineEnd": 424.943,
+      "russianAnchorOriginal": 424.6,
+      "requestedStart": 412.133,
+      "delayFromAnchor": 0.0
+    },
+    {
+      "sourceStart": 338.72,
+      "sourceEnd": 343.56,
+      "timelineStart": 429.813,
+      "timelineEnd": 434.653,
+      "russianAnchorOriginal": 442.28,
+      "requestedStart": 429.813,
+      "delayFromAnchor": 0.0
+    },
+    {
+      "sourceStart": 343.56,
+      "sourceEnd": 346.44,
+      "timelineStart": 436.333,
+      "timelineEnd": 439.213,
+      "russianAnchorOriginal": 448.8,
+      "requestedStart": 436.333,
+      "delayFromAnchor": 0.0
+    },
+    {
+      "sourceStart": 346.44,
+      "sourceEnd": 351.23,
+      "timelineStart": 442.133,
+      "timelineEnd": 446.923,
+      "russianAnchorOriginal": 454.6,
+      "requestedStart": 442.133,
+      "delayFromAnchor": 0.0
+    },
+    {
+      "sourceStart": 351.23,
+      "sourceEnd": 354.415,
+      "timelineStart": 446.953,
+      "timelineEnd": 450.138,
+      "russianAnchorOriginal": 459.4,
+      "requestedStart": 446.933,
+      "delayFromAnchor": 0.02
+    },
+    {
+      "sourceStart": 354.415,
+      "sourceEnd": 367.74,
+      "timelineStart": 450.168,
+      "timelineEnd": 463.493,
+      "russianAnchorOriginal": 462.44,
+      "requestedStart": 449.973,
+      "delayFromAnchor": 0.195
+    },
+    {
+      "sourceStart": 367.74,
+      "sourceEnd": 373.02,
+      "timelineStart": 467.533,
+      "timelineEnd": 472.813,
+      "russianAnchorOriginal": 480,
+      "requestedStart": 467.533,
+      "delayFromAnchor": 0.0
+    },
+    {
+      "sourceStart": 373.02,
+      "sourceEnd": 380.18,
+      "timelineStart": 472.843,
+      "timelineEnd": 480.003,
+      "russianAnchorOriginal": 484,
+      "requestedStart": 471.533,
+      "delayFromAnchor": 1.31
+    },
+    {
+      "sourceStart": 380.18,
+      "sourceEnd": 383.64,
+      "timelineStart": 480.533,
+      "timelineEnd": 483.993,
+      "russianAnchorOriginal": 493.0,
+      "requestedStart": 480.533,
+      "delayFromAnchor": 0.0
+    },
+    {
+      "sourceStart": 383.64,
+      "sourceEnd": 387.28,
+      "timelineStart": 484.953,
+      "timelineEnd": 488.593,
+      "russianAnchorOriginal": 497.42,
+      "requestedStart": 484.953,
+      "delayFromAnchor": 0.0
+    },
+    {
+      "sourceStart": 387.28,
+      "sourceEnd": 389.52,
+      "timelineStart": 492.253,
+      "timelineEnd": 494.493,
+      "russianAnchorOriginal": 504.72,
+      "requestedStart": 492.253,
+      "delayFromAnchor": 0.0
+    },
+    {
+      "sourceStart": 389.52,
+      "sourceEnd": 391.315,
+      "timelineStart": 494.973,
+      "timelineEnd": 496.768,
+      "russianAnchorOriginal": 507.44,
+      "requestedStart": 494.973,
+      "delayFromAnchor": 0.0
+    },
+    {
+      "sourceStart": 391.315,
+      "sourceEnd": 395.995,
+      "timelineStart": 496.798,
+      "timelineEnd": 501.478,
+      "russianAnchorOriginal": 508.5,
+      "requestedStart": 496.033,
+      "delayFromAnchor": 0.765
+    },
+    {
+      "sourceStart": 395.995,
+      "sourceEnd": 398.955,
+      "timelineStart": 502.533,
+      "timelineEnd": 505.493,
+      "russianAnchorOriginal": 515,
+      "requestedStart": 502.533,
+      "delayFromAnchor": 0.0
+    },
+    {
+      "sourceStart": 398.955,
+      "sourceEnd": 401.555,
+      "timelineStart": 506.733,
+      "timelineEnd": 509.333,
+      "russianAnchorOriginal": 519.2,
+      "requestedStart": 506.733,
+      "delayFromAnchor": 0.0
+    },
+    {
+      "sourceStart": 401.555,
+      "sourceEnd": 403.47,
+      "timelineStart": 510.833,
+      "timelineEnd": 512.748,
+      "russianAnchorOriginal": 523.3,
+      "requestedStart": 510.833,
+      "delayFromAnchor": 0.0
+    },
+    {
+      "sourceStart": 403.47,
+      "sourceEnd": 404.975,
+      "timelineStart": 512.778,
+      "timelineEnd": 514.283,
+      "russianAnchorOriginal": 525,
+      "requestedStart": 512.533,
+      "delayFromAnchor": 0.245
+    },
+    {
+      "sourceStart": 404.975,
+      "sourceEnd": 410.94,
+      "timelineStart": 515.733,
+      "timelineEnd": 521.698,
+      "russianAnchorOriginal": 528.2,
+      "requestedStart": 515.733,
+      "delayFromAnchor": 0.0
+    },
+    {
+      "sourceStart": 410.94,
+      "sourceEnd": 412.5,
+      "timelineStart": 524.793,
+      "timelineEnd": 526.353,
+      "russianAnchorOriginal": 537.26,
+      "requestedStart": 524.793,
+      "delayFromAnchor": 0.0
+    },
+    {
+      "sourceStart": 412.5,
+      "sourceEnd": 419.631,
+      "timelineStart": 526.383,
+      "timelineEnd": 533.514,
+      "russianAnchorOriginal": 538.0,
+      "requestedStart": 525.533,
+      "delayFromAnchor": 0.85
+    }
+  ]
+}

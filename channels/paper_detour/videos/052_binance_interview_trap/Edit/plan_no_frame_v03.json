@@ -1,0 +1,1207 @@
+{
+  "channel": "paper",
+  "format": "long",
+  "language": "en",
+  "narration": "../../Source/Script/narration_en_v01.md",
+  "audio": "Audio/accepted_mix_en_v01.m4a",
+  "audio_contract": {
+    "final_audio_sha256": "5b8967058d01970deb170ce1a13ad2c1fd23b30b5e5ec26bea67b4eb0975d8fa",
+    "applied_speed": 1.1,
+    "speed_evidence": "Audio/speed_evidence_v01.json"
+  },
+  "frame_rate": 30,
+  "canvas": [
+    2560,
+    1440
+  ],
+  "frame_count": 4230,
+  "story_end_frame": 3930,
+  "duration_seconds": 141.0,
+  "source_transfer": "srgb",
+  "enforce_scene_duration": true,
+  "scenes": [
+    {
+      "id": "S01",
+      "image": "../Source/Images/S01_v03.png",
+      "image_sha256": "1bf88b98b14c9d95c3d57001c0276e1af591f31b4c60e872da9359aaade24587",
+      "native_size": "1672x941",
+      "start_frame": 0,
+      "end_frame": 180,
+      "start_seconds": 0,
+      "end_seconds": 6,
+      "duration_seconds": 6,
+      "time_basis": "30 fps cut from provider character alignment; audible sync remains unverified",
+      "narration_coverage": "A Binance engineer interviews for a job at another company. First, he speaks with a recruiter.",
+      "purpose": "Interview trap hook",
+      "visual_action": "Engineer faces a video interview; test assignment and ominous red cable share the desk.",
+      "scene_text": "THE $6.3 BILLION TRAP; IT BEGAN WITH A JOB INTERVIEW",
+      "depiction_status": "Editorial hook; later estimate.",
+      "direction": "left_to_right",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Interview trap hook",
+        "reason": "Very small whole-image move; preserve full paper composition and keep meaningful labels in frame.",
+        "start": {
+          "center": [
+            0.505,
+            0.5
+          ],
+          "scale": 1.025
+        },
+        "end": {
+          "center": [
+            0.495,
+            0.5
+          ],
+          "scale": 1.045
+        }
+      },
+      "status": "SELECTED_CONTACT_SHEET_REVIEWED_FULL_SIZE_PHONE_REVIEW_PENDING"
+    },
+    {
+      "id": "S02",
+      "image": "../Source/Images/S24_v03.png",
+      "image_sha256": "89fa15153298d1edee93b0cf1b27a1f03fd15771393ecc081ea1b0276032fc02",
+      "native_size": "1672x941",
+      "start_frame": 180,
+      "end_frame": 300,
+      "start_seconds": 6,
+      "end_seconds": 10,
+      "duration_seconds": 4,
+      "time_basis": "30 fps cut from provider character alignment; audible sync remains unverified",
+      "narration_coverage": "Then he speaks with someone claiming to be the company's manager. He gets",
+      "purpose": "Second interview",
+      "visual_action": "The engineer watches a clearly different male caller claiming to be the company manager; checklist and hollow office model foreshadow the fake employer.",
+      "scene_text": "SECOND INTERVIEW; checklist",
+      "depiction_status": "Dramatization; claimed manager.",
+      "direction": "right_to_left",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Second interview",
+        "reason": "Very small whole-image move; preserve full paper composition and keep meaningful labels in frame.",
+        "start": {
+          "center": [
+            0.495,
+            0.5
+          ],
+          "scale": 1.015
+        },
+        "end": {
+          "center": [
+            0.505,
+            0.5
+          ],
+          "scale": 1.015
+        }
+      },
+      "status": "SELECTED_CONTACT_SHEET_REVIEWED_FULL_SIZE_PHONE_REVIEW_PENDING"
+    },
+    {
+      "id": "S03",
+      "image": "../Source/Images/S03_v03.png",
+      "image_sha256": "d20a080739bbf2fd6e147db7d6470ec2c03c74f3aed3a3403b4b1745cc44df5b",
+      "native_size": "1672x941",
+      "start_frame": 300,
+      "end_frame": 450,
+      "start_seconds": 10,
+      "end_seconds": 15,
+      "duration_seconds": 5,
+      "time_basis": "30 fps cut from provider character alignment; audible sync remains unverified",
+      "narration_coverage": "a test assignment and downloads it to his work computer. But the company doesn't exist.",
+      "purpose": "Test assignment downloaded",
+      "visual_action": "Hands place marked assignment beside a generic completed download panel; setup checklist contains only supported generic labels.",
+      "scene_text": "TEST ASSIGNMENT; DOWNLOAD; SETUP; WORK COMPUTER",
+      "depiction_status": "Generic dramatization, not screenshot.",
+      "direction": "none",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Test assignment downloaded",
+        "reason": "Very small whole-image move; preserve full paper composition and keep meaningful labels in frame.",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.035
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.015
+        }
+      },
+      "status": "SELECTED_CONTACT_SHEET_REVIEWED_FULL_SIZE_PHONE_REVIEW_PENDING"
+    },
+    {
+      "id": "S04",
+      "image": "../Source/Images/S04_v02.png",
+      "image_sha256": "d54d8b3d9f750eea480d9fa7f01b4cd84994ebadec7700716250736a20268ff3",
+      "native_size": "1672x941",
+      "start_frame": 450,
+      "end_frame": 570,
+      "start_seconds": 15,
+      "end_seconds": 19,
+      "duration_seconds": 4,
+      "time_basis": "30 fps cut from provider character alignment; audible sync remains unverified",
+      "narration_coverage": "exist. A few weeks later, his real employer will lose more than six",
+      "purpose": "The company is fake",
+      "visual_action": "Worker approaches skeletal empty office model and mismatch record.",
+      "scene_text": "COMPANY: NO MATCH",
+      "depiction_status": "Metaphor for nonexistent company.",
+      "direction": "left_to_right",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "The company is fake",
+        "reason": "Very small whole-image move; preserve full paper composition and keep meaningful labels in frame.",
+        "start": {
+          "center": [
+            0.505,
+            0.5
+          ],
+          "scale": 1.015
+        },
+        "end": {
+          "center": [
+            0.495,
+            0.5
+          ],
+          "scale": 1.015
+        }
+      },
+      "status": "SELECTED_CONTACT_SHEET_REVIEWED_FULL_SIZE_PHONE_REVIEW_PENDING"
+    },
+    {
+      "id": "S05",
+      "image": "../Source/Images/05_v02.png",
+      "image_sha256": "0ab45c64a88ea749f3deaf3c2fb09b753da1794ca6544392351352af419e2cad",
+      "native_size": "1672x941",
+      "start_frame": 570,
+      "end_frame": 750,
+      "start_seconds": 19,
+      "end_seconds": 25,
+      "duration_seconds": 6,
+      "time_basis": "30 fps cut from provider character alignment; audible sync remains unverified",
+      "narration_coverage": "billion dollars. The trap looks convincing: the invitation comes through a real job platform,",
+      "purpose": "Coming scale of loss",
+      "visual_action": "Tiny interview desk beneath avalanche of paper tokens; value and date anchor stakes.",
+      "scene_text": "OVER $6 BILLION; REPORTED VALUE; OCT 29",
+      "depiction_status": "Editorial scale metaphor; Binance estimate.",
+      "direction": "none",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Coming scale of loss",
+        "reason": "Very small whole-image move; preserve full paper composition and keep meaningful labels in frame.",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.025
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.045
+        }
+      },
+      "status": "SELECTED_CONTACT_SHEET_REVIEWED_FULL_SIZE_PHONE_REVIEW_PENDING"
+    },
+    {
+      "id": "S06",
+      "image": "../Source/Images/S06_v02.png",
+      "image_sha256": "d807891f5a94e4c0881886babab8a422d305251ffbca35bf9a205e0d06ee8095",
+      "native_size": "1672x941",
+      "start_frame": 750,
+      "end_frame": 900,
+      "start_seconds": 25,
+      "end_seconds": 30,
+      "duration_seconds": 5,
+      "time_basis": "30 fps cut from provider character alignment; audible sync remains unverified",
+      "narration_coverage": "platform, the interviews are by video, and the recruiter even shows him her account, with personal",
+      "purpose": "Plausible job listing",
+      "visual_action": "Hand lifts invitation from crowded fictional job board.",
+      "scene_text": "REMOTE SOFTWARE ENGINEER; INTERVIEW INVITATION",
+      "depiction_status": "Generic job board; no platform named.",
+      "direction": "right_to_left",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Plausible job listing",
+        "reason": "Very small whole-image move; preserve full paper composition and keep meaningful labels in frame.",
+        "start": {
+          "center": [
+            0.495,
+            0.5
+          ],
+          "scale": 1.015
+        },
+        "end": {
+          "center": [
+            0.505,
+            0.5
+          ],
+          "scale": 1.015
+        }
+      },
+      "status": "SELECTED_CONTACT_SHEET_REVIEWED_FULL_SIZE_PHONE_REVIEW_PENDING"
+    },
+    {
+      "id": "S07",
+      "image": "../Source/Images/S07_v02.png",
+      "image_sha256": "b11f990928dbfbee5e27adb290e4d77ebfd5972e9d1617fff2caa55488460986",
+      "native_size": "1672x941",
+      "start_frame": 900,
+      "end_frame": 1080,
+      "start_seconds": 30,
+      "end_seconds": 36,
+      "duration_seconds": 6,
+      "time_basis": "30 fps cut from provider character alignment; audible sync remains unverified",
+      "narration_coverage": "photos and videos. It all leads to one thing: running the code. As he sets up the",
+      "purpose": "Recruiter identity built online",
+      "visual_action": "Video call and open profile album show credibility props.",
+      "scene_text": "VIDEO CALL; PROFILE; PHOTOS & VIDEOS",
+      "depiction_status": "Generic invented profile imagery.",
+      "direction": "left_to_right",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Recruiter identity built online",
+        "reason": "Very small whole-image move; preserve full paper composition and keep meaningful labels in frame.",
+        "start": {
+          "center": [
+            0.505,
+            0.5
+          ],
+          "scale": 1.025
+        },
+        "end": {
+          "center": [
+            0.495,
+            0.5
+          ],
+          "scale": 1.045
+        }
+      },
+      "status": "SELECTED_CONTACT_SHEET_REVIEWED_FULL_SIZE_PHONE_REVIEW_PENDING"
+    },
+    {
+      "id": "S08",
+      "image": "../Source/Images/S08_v02.png",
+      "image_sha256": "867f7ec9560347c7c1bd237055925d8f142374cd45d600ab56650b33aa1a9194",
+      "native_size": "1672x941",
+      "start_frame": 1080,
+      "end_frame": 1260,
+      "start_seconds": 36,
+      "end_seconds": 42,
+      "duration_seconds": 6,
+      "time_basis": "30 fps cut from provider character alignment; audible sync remains unverified",
+      "narration_coverage": "assignment, malware runs alongside it. Security systems miss it, giving the attackers access to a",
+      "purpose": "Code runs with the task",
+      "visual_action": "Run switch, assignment folder and warning panel converge on computer.",
+      "scene_text": "RUN; TEST ASSIGNMENT; SET UP / BUILD",
+      "depiction_status": "Conceptual malware execution, no operational detail.",
+      "direction": "right_to_left",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Code runs with the task",
+        "reason": "Very small whole-image move; preserve full paper composition and keep meaningful labels in frame.",
+        "start": {
+          "center": [
+            0.495,
+            0.5
+          ],
+          "scale": 1.015
+        },
+        "end": {
+          "center": [
+            0.505,
+            0.5
+          ],
+          "scale": 1.015
+        }
+      },
+      "status": "SELECTED_CONTACT_SHEET_REVIEWED_FULL_SIZE_PHONE_REVIEW_PENDING"
+    },
+    {
+      "id": "S09",
+      "image": "../Source/Images/19_v03.png",
+      "image_sha256": "a20ca05c91a7d024f40dfd3f84b7c12977a58f7303516cc6dea258f83cba256f",
+      "native_size": "1672x941",
+      "start_frame": 1260,
+      "end_frame": 1410,
+      "start_seconds": 42,
+      "end_seconds": 47,
+      "duration_seconds": 5,
+      "time_basis": "30 fps cut from provider character alignment; audible sync remains unverified",
+      "narration_coverage": "computer inside Binance. According to Binance's preliminary findings, they use",
+      "purpose": "Security misses access",
+      "visual_action": "Interview file passes guarded threshold into internal workstation; separate security/access stages.",
+      "scene_text": "SECURITY; ACCESS; BINANCE",
+      "depiction_status": "Binance-reported chain, no exact bypass claim.",
+      "direction": "none",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Security misses access",
+        "reason": "Very small whole-image move; preserve full paper composition and keep meaningful labels in frame.",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.035
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.015
+        }
+      },
+      "status": "SELECTED_CONTACT_SHEET_REVIEWED_FULL_SIZE_PHONE_REVIEW_PENDING"
+    },
+    {
+      "id": "S10",
+      "image": "../Source/Images/26_v02.png",
+      "image_sha256": "b2d6f273c2dbcba1f13c6e392ba66dcd5b8ee3790b501c3eae6af98ff2b57e09",
+      "native_size": "1672x941",
+      "start_frame": 1410,
+      "end_frame": 1590,
+      "start_seconds": 47,
+      "end_seconds": 53,
+      "duration_seconds": 6,
+      "time_basis": "30 fps cut from provider character alignment; audible sync remains unverified",
+      "narration_coverage": "use that computer to reach two more engineers' machines. Credentials found there give them access to the system that",
+      "purpose": "Two further engineer machines",
+      "visual_action": "Three-machine triangle; first station distinct from two engineer computers; approval system glows.",
+      "scene_text": "ENGINEER 1; ENGINEER 2; WALLET APPROVAL",
+      "depiction_status": "Binance preliminary finding, schematic.",
+      "direction": "left_to_right",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Two further engineer machines",
+        "reason": "Very small whole-image move; preserve full paper composition and keep meaningful labels in frame.",
+        "start": {
+          "center": [
+            0.505,
+            0.5
+          ],
+          "scale": 1.015
+        },
+        "end": {
+          "center": [
+            0.495,
+            0.5
+          ],
+          "scale": 1.015
+        }
+      },
+      "status": "SELECTED_CONTACT_SHEET_REVIEWED_FULL_SIZE_PHONE_REVIEW_PENDING"
+    },
+    {
+      "id": "S11",
+      "image": "../Source/Images/09_v02.png",
+      "image_sha256": "0aeca35c6b6367782f6cacc1d6affa89f466491765d04a105a3fd6aecfd53b5b",
+      "native_size": "1672x941",
+      "start_frame": 1590,
+      "end_frame": 1740,
+      "start_seconds": 53,
+      "end_seconds": 58,
+      "duration_seconds": 5,
+      "time_basis": "30 fps cut from provider character alignment; audible sync remains unverified",
+      "narration_coverage": "approves transfers from Binance wallets, allowing them to authorize transfers to addresses they",
+      "purpose": "Credentials unlock approval",
+      "visual_action": "Credential cards enter wallet-transfer mechanism; gears and approval gate show access.",
+      "scene_text": "CREDENTIALS; WALLET TRANSFERS; APPROVED",
+      "depiction_status": "Conceptual, no passwords/details.",
+      "direction": "none",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Credentials unlock approval",
+        "reason": "Very small whole-image move; preserve full paper composition and keep meaningful labels in frame.",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.025
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.045
+        }
+      },
+      "status": "SELECTED_CONTACT_SHEET_REVIEWED_FULL_SIZE_PHONE_REVIEW_PENDING"
+    },
+    {
+      "id": "S12",
+      "image": "../Source/Images/10_v02.png",
+      "image_sha256": "bf4b4398e1a6e95d6485be533745ce111620870fc14a3e0f398c1aefb1db64cd",
+      "native_size": "1672x941",
+      "start_frame": 1740,
+      "end_frame": 1920,
+      "start_seconds": 58,
+      "end_seconds": 64,
+      "duration_seconds": 6,
+      "time_basis": "30 fps cut from provider character alignment; audible sync remains unverified",
+      "narration_coverage": "control. On October 29, crypto assets start moving to those addresses. Security",
+      "purpose": "Transfers begin October 29",
+      "visual_action": "Calendar and ledger anchor date; destination markers appear on route.",
+      "scene_text": "OCT 29; FIRST TRANSFER; TRANSACTION LEDGER",
+      "depiction_status": "Schematic, not real ledger.",
+      "direction": "right_to_left",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Transfers begin October 29",
+        "reason": "Very small whole-image move; preserve full paper composition and keep meaningful labels in frame.",
+        "start": {
+          "center": [
+            0.495,
+            0.5
+          ],
+          "scale": 1.015
+        },
+        "end": {
+          "center": [
+            0.505,
+            0.5
+          ],
+          "scale": 1.015
+        }
+      },
+      "status": "SELECTED_CONTACT_SHEET_REVIEWED_FULL_SIZE_PHONE_REVIEW_PENDING"
+    },
+    {
+      "id": "S13",
+      "image": "../Source/Images/11_v02.png",
+      "image_sha256": "a0a00d4a44d23339657917ae14c025ff3e3c19dd4b375b9fde3d2a84b02024bf",
+      "native_size": "1672x941",
+      "start_frame": 1920,
+      "end_frame": 2100,
+      "start_seconds": 64,
+      "end_seconds": 70,
+      "duration_seconds": 6,
+      "time_basis": "30 fps cut from provider character alignment; audible sync remains unverified",
+      "narration_coverage": "flags the large transfers. Binance halts ordinary withdrawals and, with its partners, tries to",
+      "purpose": "Withdrawals halted",
+      "visual_action": "Withdrawal gate slammed shut as partner hands clamp a separate token route.",
+      "scene_text": "ORDINARY WITHDRAWALS HALTED; TRYING TO FREEZE",
+      "depiction_status": "Dramatization of Binance report.",
+      "direction": "left_to_right",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Withdrawals halted",
+        "reason": "Very small whole-image move; preserve full paper composition and keep meaningful labels in frame.",
+        "start": {
+          "center": [
+            0.505,
+            0.5
+          ],
+          "scale": 1.025
+        },
+        "end": {
+          "center": [
+            0.495,
+            0.5
+          ],
+          "scale": 1.045
+        }
+      },
+      "status": "SELECTED_CONTACT_SHEET_REVIEWED_FULL_SIZE_PHONE_REVIEW_PENDING"
+    },
+    {
+      "id": "S14",
+      "image": "../Source/Images/17_v03.png",
+      "image_sha256": "b3bf38bab9d2a8b7dd5b2f31ec85a3932c4dc1156244ec83b6ef2ad4966d6525",
+      "native_size": "1672x941",
+      "start_frame": 2100,
+      "end_frame": 2250,
+      "start_seconds": 70,
+      "end_seconds": 75,
+      "duration_seconds": 5,
+      "time_basis": "30 fps cut from provider character alignment; audible sync remains unverified",
+      "narration_coverage": "freeze the stolen assets. But that isn't enough. Through the compromised system,",
+      "purpose": "Separate systems model",
+      "visual_action": "Cutaway shows compromised approval system, separate program and Ethereum permission; no assets move.",
+      "scene_text": "COMPROMISED SYSTEM; PROGRAM; ETHEREUM; PERMISSION",
+      "depiction_status": "Explanatory model, not chronology.",
+      "direction": "right_to_left",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Separate systems model",
+        "reason": "Very small whole-image move; preserve full paper composition and keep meaningful labels in frame.",
+        "start": {
+          "center": [
+            0.495,
+            0.5
+          ],
+          "scale": 1.015
+        },
+        "end": {
+          "center": [
+            0.505,
+            0.5
+          ],
+          "scale": 1.015
+        }
+      },
+      "status": "SELECTED_CONTACT_SHEET_REVIEWED_FULL_SIZE_PHONE_REVIEW_PENDING"
+    },
+    {
+      "id": "S15",
+      "image": "../Source/Images/27_v02.png",
+      "image_sha256": "bd80bbfd15ddec0c1a9eaf53439bc9ff89469a67c0f731f422169f0c11734c1e",
+      "native_size": "1672x941",
+      "start_frame": 2250,
+      "end_frame": 2430,
+      "start_seconds": 75,
+      "end_seconds": 81,
+      "duration_seconds": 6,
+      "time_basis": "30 fps cut from provider character alignment; audible sync remains unverified",
+      "narration_coverage": "system, the attackers manage to give another program permission to move crypto assets directly from a wallet on Ethereum.",
+      "purpose": "Program route from wallet",
+      "visual_action": "Permission token enters standalone program track connecting to one Ethereum wallet; withdrawal gate separate.",
+      "scene_text": "WALLET: ETHEREUM; PROGRAM; PERMISSION; ORDINARY WITHDRAWAL",
+      "depiction_status": "Schematic; one wallet, not all assets.",
+      "direction": "none",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Program route from wallet",
+        "reason": "Very small whole-image move; preserve full paper composition and keep meaningful labels in frame.",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.035
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.015
+        }
+      },
+      "status": "SELECTED_CONTACT_SHEET_REVIEWED_FULL_SIZE_PHONE_REVIEW_PENDING"
+    },
+    {
+      "id": "S16",
+      "image": "../Source/Images/17_v03.png",
+      "image_sha256": "b3bf38bab9d2a8b7dd5b2f31ec85a3932c4dc1156244ec83b6ef2ad4966d6525",
+      "native_size": "1672x941",
+      "start_frame": 2430,
+      "end_frame": 2580,
+      "start_seconds": 81,
+      "end_seconds": 86,
+      "duration_seconds": 5,
+      "time_basis": "30 fps cut from provider character alignment; audible sync remains unverified",
+      "narration_coverage": "Ethereum. That program no longer needs Binance's ordinary withdrawal system. Binance",
+      "purpose": "Stop versus active permission",
+      "visual_action": "Two systems display opposite states: withdrawals stopped, on-chain permission active.",
+      "scene_text": "WITHDRAWALS: STOPPED; PERMISSION: ACTIVE; Ethereum; TOKEN ROUTE",
+      "depiction_status": "Explanatory simultaneous-state diagram.",
+      "direction": "left_to_right",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Stop versus active permission",
+        "reason": "Very small whole-image move; preserve full paper composition and keep meaningful labels in frame.",
+        "start": {
+          "center": [
+            0.505,
+            0.5
+          ],
+          "scale": 1.015
+        },
+        "end": {
+          "center": [
+            0.495,
+            0.5
+          ],
+          "scale": 1.015
+        }
+      },
+      "status": "SELECTED_CONTACT_SHEET_REVIEWED_FULL_SIZE_PHONE_REVIEW_PENDING"
+    },
+    {
+      "id": "S17",
+      "image": "../Source/Images/13_v02.png",
+      "image_sha256": "039cefd091faa0c264c5cc13d14c00c208f44b289de2ba8007abf6c56e4e8a81",
+      "native_size": "1672x941",
+      "start_frame": 2580,
+      "end_frame": 2700,
+      "start_seconds": 86,
+      "end_seconds": 90,
+      "duration_seconds": 4,
+      "time_basis": "30 fps cut from provider character alignment; audible sync remains unverified",
+      "narration_coverage": "Binance has stopped that system, but the permission recorded on Ethereum remains",
+      "purpose": "Separate revoke action",
+      "visual_action": "Hand holds revoke plate above on-chain slot; key remains active until inserted.",
+      "scene_text": "REVOKE PERMISSION; ON-CHAIN OPERATION",
+      "depiction_status": "Model; not yet completed.",
+      "direction": "none",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Separate revoke action",
+        "reason": "Very small whole-image move; preserve full paper composition and keep meaningful labels in frame.",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.025
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.045
+        }
+      },
+      "status": "SELECTED_CONTACT_SHEET_REVIEWED_FULL_SIZE_PHONE_REVIEW_PENDING"
+    },
+    {
+      "id": "S18",
+      "image": "../Source/Images/12_v02.png",
+      "image_sha256": "5c5f1975a93c80be4483d9f060ac1c67ed9f2a38961f19e103f5b3c97411661a",
+      "native_size": "1672x941",
+      "start_frame": 2700,
+      "end_frame": 2820,
+      "start_seconds": 90,
+      "end_seconds": 94,
+      "duration_seconds": 4,
+      "time_basis": "30 fps cut from provider character alignment; audible sync remains unverified",
+      "narration_coverage": "active. Revoking it requires a separate operation on the blockchain itself.",
+      "purpose": "Website cannot cancel chain permission",
+      "visual_action": "Closed Binance gate and separate glowing on-chain route divided by wall.",
+      "scene_text": "BINANCE WITHDRAWALS; CLOSED; ON-CHAIN PERMISSION",
+      "depiction_status": "Explanatory diagram.",
+      "direction": "right_to_left",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Website cannot cancel chain permission",
+        "reason": "Very small whole-image move; preserve full paper composition and keep meaningful labels in frame.",
+        "start": {
+          "center": [
+            0.495,
+            0.5
+          ],
+          "scale": 1.015
+        },
+        "end": {
+          "center": [
+            0.505,
+            0.5
+          ],
+          "scale": 1.015
+        }
+      },
+      "status": "SELECTED_CONTACT_SHEET_REVIEWED_FULL_SIZE_PHONE_REVIEW_PENDING"
+    },
+    {
+      "id": "S19",
+      "image": "../Source/Images/15_v02.png",
+      "image_sha256": "f3efcfd1304ab7d53e7ba030c6fe824ce9b291eaf992d4f9395c5027697cca9c",
+      "native_size": "1672x941",
+      "start_frame": 2820,
+      "end_frame": 3000,
+      "start_seconds": 94,
+      "end_seconds": 100,
+      "duration_seconds": 6,
+      "time_basis": "30 fps cut from provider character alignment; audible sync remains unverified",
+      "narration_coverage": "itself. Turning off withdrawals on Binance's website cannot cancel that permission. From the first transfers",
+      "purpose": "Last sent transaction finalizes",
+      "visual_action": "Timeline runs from first transfer to last already-sent transaction; nearly four-hour span.",
+      "scene_text": "FIRST TRANSFER; ALMOST 4 HOURS; LAST SENT TX FINALIZED",
+      "depiction_status": "Schematic timeline; spoken timing governs.",
+      "direction": "left_to_right",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Last sent transaction finalizes",
+        "reason": "Very small whole-image move; preserve full paper composition and keep meaningful labels in frame.",
+        "start": {
+          "center": [
+            0.505,
+            0.5
+          ],
+          "scale": 1.025
+        },
+        "end": {
+          "center": [
+            0.495,
+            0.5
+          ],
+          "scale": 1.045
+        }
+      },
+      "status": "SELECTED_CONTACT_SHEET_REVIEWED_FULL_SIZE_PHONE_REVIEW_PENDING"
+    },
+    {
+      "id": "S20",
+      "image": "../Source/Images/28_v02.png",
+      "image_sha256": "e17037ef218d06bb6ee8d45e3cc4f35439d906927d5612de0969660b17a374f1",
+      "native_size": "1672x941",
+      "start_frame": 3000,
+      "end_frame": 3135,
+      "start_seconds": 100,
+      "end_seconds": 104.5,
+      "duration_seconds": 4.5,
+      "time_basis": "30 fps cut from provider character alignment; audible sync remains unverified",
+      "narration_coverage": "transfers to the finalization of the last transaction already sent, almost four",
+      "purpose": "Permission revoked after midnight",
+      "visual_action": "Night bridge and clock show later revoke; last sent transaction already complete.",
+      "scene_text": "AFTER MIDNIGHT; LAST SENT TX: COMPLETE; PERMISSION: REVOKED",
+      "depiction_status": "Binance-reported sequence dramatization.",
+      "direction": "right_to_left",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Permission revoked after midnight",
+        "reason": "Very small whole-image move; preserve full paper composition and keep meaningful labels in frame.",
+        "start": {
+          "center": [
+            0.495,
+            0.5
+          ],
+          "scale": 1.015
+        },
+        "end": {
+          "center": [
+            0.505,
+            0.5
+          ],
+          "scale": 1.015
+        }
+      },
+      "status": "SELECTED_CONTACT_SHEET_REVIEWED_FULL_SIZE_PHONE_REVIEW_PENDING"
+    },
+    {
+      "id": "S21",
+      "image": "../Source/Images/20_v02.png",
+      "image_sha256": "77897e8bcfb61a1ecba88c2faa16360d301e5422de9e1818eb8c9b4f84e915bb",
+      "native_size": "1672x941",
+      "start_frame": 3135,
+      "end_frame": 3270,
+      "start_seconds": 104.5,
+      "end_seconds": 109,
+      "duration_seconds": 4.5,
+      "time_basis": "30 fps cut from provider character alignment; audible sync remains unverified",
+      "narration_coverage": "four hours pass. The permission is revoked later, after midnight.",
+      "purpose": "Estimated total value",
+      "visual_action": "Avalanche of paper tokens and estimate sign; no cash or verified final valuation claim.",
+      "scene_text": "ABOUT $6.34 BILLION; OCT 29",
+      "depiction_status": "Reported Binance estimate, metaphor.",
+      "direction": "none",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Estimated total value",
+        "reason": "Very small whole-image move; preserve full paper composition and keep meaningful labels in frame.",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.035
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.015
+        }
+      },
+      "status": "SELECTED_CONTACT_SHEET_REVIEWED_FULL_SIZE_PHONE_REVIEW_PENDING"
+    },
+    {
+      "id": "S22",
+      "image": "../Source/Images/21_v03.png",
+      "image_sha256": "068b2a7dd1a9ae4fe21b8b10d742b05c42ffb9ad1b33c172cb68f23ed15ae48a",
+      "native_size": "1672x941",
+      "start_frame": 3270,
+      "end_frame": 3420,
+      "start_seconds": 109,
+      "end_seconds": 114,
+      "duration_seconds": 5,
+      "time_basis": "30 fps cut from provider character alignment; audible sync remains unverified",
+      "narration_coverage": "The stolen crypto assets are valued at about $6.34 billion.",
+      "purpose": "Frozen does not mean returned",
+      "visual_action": "Frozen portion remains separated from empty origin vault by broken return path.",
+      "scene_text": "ABOUT $2.85B; FROZEN ≠ RETURNED",
+      "depiction_status": "Illustration of frozen/intercepted assets.",
+      "direction": "left_to_right",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Frozen does not mean returned",
+        "reason": "Very small whole-image move; preserve full paper composition and keep meaningful labels in frame.",
+        "start": {
+          "center": [
+            0.505,
+            0.5
+          ],
+          "scale": 1.015
+        },
+        "end": {
+          "center": [
+            0.495,
+            0.5
+          ],
+          "scale": 1.015
+        }
+      },
+      "status": "SELECTED_CONTACT_SHEET_REVIEWED_FULL_SIZE_PHONE_REVIEW_PENDING"
+    },
+    {
+      "id": "S23",
+      "image": "../Source/Images/22_v02.png",
+      "image_sha256": "c1bd52b4c1c2928ebb2938112594e1bf8b00b6f7d8e3018011fbf758461390aa",
+      "native_size": "1672x941",
+      "start_frame": 3420,
+      "end_frame": 3540,
+      "start_seconds": 114,
+      "end_seconds": 118,
+      "duration_seconds": 4,
+      "time_basis": "30 fps cut from provider character alignment; audible sync remains unverified",
+      "narration_coverage": "billion. About $2.85 billion worth of those assets is frozen",
+      "purpose": "Promise to cover loss",
+      "visual_action": "Hands brace vault with own-funds blocks; framed as promise, not completed reimbursement.",
+      "scene_text": "BINANCE SAYS; WILL COVER; OWN FUNDS",
+      "depiction_status": "Company statement, no verified payment claim.",
+      "direction": "none",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Promise to cover loss",
+        "reason": "Very small whole-image move; preserve full paper composition and keep meaningful labels in frame.",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.025
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.045
+        }
+      },
+      "status": "SELECTED_CONTACT_SHEET_REVIEWED_FULL_SIZE_PHONE_REVIEW_PENDING"
+    },
+    {
+      "id": "S24",
+      "image": "../Source/Images/23_v02.png",
+      "image_sha256": "87717e32ab9b5600447ced9ee1e82f6d0689d5142f2094d6ffea2283963579d7",
+      "native_size": "1672x941",
+      "start_frame": 3540,
+      "end_frame": 3660,
+      "start_seconds": 118,
+      "end_seconds": 122,
+      "duration_seconds": 4,
+      "time_basis": "30 fps cut from provider character alignment; audible sync remains unverified",
+      "narration_coverage": "frozen or intercepted — but that does not mean they have been returned.",
+      "purpose": "Fake company callback",
+      "visual_action": "Empty interview setting returns, collapsed and exposed as false front.",
+      "scene_text": "THE COMPANY WAS FAKE",
+      "depiction_status": "Metaphorical callback.",
+      "direction": "right_to_left",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Fake company callback",
+        "reason": "Very small whole-image move; preserve full paper composition and keep meaningful labels in frame.",
+        "start": {
+          "center": [
+            0.495,
+            0.5
+          ],
+          "scale": 1.015
+        },
+        "end": {
+          "center": [
+            0.505,
+            0.5
+          ],
+          "scale": 1.015
+        }
+      },
+      "status": "SELECTED_CONTACT_SHEET_REVIEWED_FULL_SIZE_PHONE_REVIEW_PENDING"
+    },
+    {
+      "id": "S25",
+      "image": "../Source/Images/23_v03.png",
+      "image_sha256": "23521dc3efad9bdd0d129794d7c8d88461aa82a60ad6382fe52264c3e07fad7c",
+      "native_size": "1672x941",
+      "start_frame": 3660,
+      "end_frame": 3780,
+      "start_seconds": 122,
+      "end_seconds": 126,
+      "duration_seconds": 4,
+      "time_basis": "30 fps cut from provider character alignment; audible sync remains unverified",
+      "narration_coverage": "returned. Binance says it will cover the loss with its own funds. The company he",
+      "purpose": "Real employer faces consequences",
+      "visual_action": "Anonymous engineer between hollow facade and braced generic employer vault; no invented specific damage.",
+      "scene_text": "THE REAL EMPLOYER; CONSEQUENCES",
+      "depiction_status": "Editorial metaphor.",
+      "direction": "left_to_right",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Real employer faces consequences",
+        "reason": "Very small whole-image move; preserve full paper composition and keep meaningful labels in frame.",
+        "start": {
+          "center": [
+            0.505,
+            0.5
+          ],
+          "scale": 1.025
+        },
+        "end": {
+          "center": [
+            0.495,
+            0.5
+          ],
+          "scale": 1.045
+        }
+      },
+      "status": "SELECTED_CONTACT_SHEET_REVIEWED_FULL_SIZE_PHONE_REVIEW_PENDING"
+    },
+    {
+      "id": "S26",
+      "image": "../Source/Images/S01_v03.png",
+      "image_sha256": "1bf88b98b14c9d95c3d57001c0276e1af591f31b4c60e872da9359aaade24587",
+      "native_size": "1672x941",
+      "start_frame": 3780,
+      "end_frame": 3930,
+      "start_seconds": 126,
+      "end_seconds": 131,
+      "duration_seconds": 5,
+      "time_basis": "30 fps cut from provider character alignment; audible sync remains unverified",
+      "narration_coverage": "interviewed with never existed. His real employer had to face the consequences.",
+      "purpose": "Close the trap",
+      "visual_action": "Brief return to interview setup reframes opening as route into compromise.",
+      "scene_text": "THE $6.3 BILLION TRAP",
+      "depiction_status": "Return motif.",
+      "direction": "right_to_left",
+      "zoom": "none",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "Close the trap",
+        "reason": "Very small whole-image move; preserve full paper composition and keep meaningful labels in frame.",
+        "start": {
+          "center": [
+            0.495,
+            0.5
+          ],
+          "scale": 1.015
+        },
+        "end": {
+          "center": [
+            0.505,
+            0.5
+          ],
+          "scale": 1.015
+        }
+      },
+      "status": "SELECTED_CONTACT_SHEET_REVIEWED_FULL_SIZE_PHONE_REVIEW_PENDING"
+    },
+    {
+      "id": "S27",
+      "image": "../Source/Images/29_v01.png",
+      "image_sha256": "5745828930d9fd145e2aaf51de1430fde939601839e4a23e2a34835c63cb0b2c",
+      "native_size": "1672x941",
+      "start_frame": 3930,
+      "end_frame": 4080,
+      "start_seconds": 131,
+      "end_seconds": 136,
+      "duration_seconds": 5,
+      "time_basis": "fixed silent end-screen timing",
+      "narration_coverage": "",
+      "purpose": "End screen composition",
+      "visual_action": "Quiet paper background; native YouTube end-screen zones remain open.",
+      "scene_text": "No scene text by design; reserve meaningful negative space for end-screen interface.",
+      "depiction_status": "End-screen background, no event depiction.",
+      "direction": "none",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "end-screen safe layout",
+        "reason": "Static composition keeps native interface zones stable.",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.001
+        }
+      },
+      "status": "ENDSCREEN_CONTACT_SHEET_REVIEWED_FULL_REVIEW_PENDING"
+    },
+    {
+      "id": "S28",
+      "image": "../Source/Images/30_v01.png",
+      "image_sha256": "100c21eef37e8012fa41656d6089b185f33fb5c015dfaa0aefc4abfddaab8888",
+      "native_size": "1672x941",
+      "start_frame": 4080,
+      "end_frame": 4230,
+      "start_seconds": 136,
+      "end_seconds": 141,
+      "duration_seconds": 5,
+      "time_basis": "fixed silent end-screen timing",
+      "narration_coverage": "",
+      "purpose": "End screen composition",
+      "visual_action": "Quiet paper background; native YouTube end-screen zones remain open.",
+      "scene_text": "No scene text by design; reserve meaningful negative space for end-screen interface.",
+      "depiction_status": "End-screen background, no event depiction.",
+      "direction": "none",
+      "zoom": "out",
+      "camera": {
+        "focus": [
+          0.5,
+          0.5
+        ],
+        "subject": "end-screen safe layout",
+        "reason": "Static composition keeps native interface zones stable.",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.001
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.0
+        }
+      },
+      "status": "ENDSCREEN_CONTACT_SHEET_REVIEWED_FULL_REVIEW_PENDING"
+    }
+  ],
+  "overlays": [],
+  "subtitles": {
+    "mode": "words",
+    "words": "Audio/word_times_en_v02.json",
+    "transcript": "Audio/transcript_en.txt",
+    "end_frame": 3930
+  }
+}

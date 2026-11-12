@@ -1,0 +1,197 @@
+{
+  "videos": [
+    {
+      "id": "orQiLIvOL-8",
+      "valid": true,
+      "changed": false,
+      "characters": 582,
+      "utf8_bytes": 586,
+      "protected_blocks": [
+        {
+          "label": "hashtags",
+          "expected": 1,
+          "actual": 1,
+          "sha256": "1830b86c931954a9f5507213cfcd95317c4d17b6c1faa9d24837f77e4be0770c"
+        }
+      ]
+    },
+    {
+      "id": "xYS2XBeR_Jc",
+      "valid": true,
+      "changed": false,
+      "characters": 536,
+      "utf8_bytes": 536,
+      "protected_blocks": [
+        {
+          "label": "hashtags",
+          "expected": 1,
+          "actual": 1,
+          "sha256": "ebd90dda75530bf7400264b0c81b85ff782f41885b7cec5a97fedca58c8ba1e6"
+        }
+      ]
+    },
+    {
+      "id": "sA-PYrDl5H8",
+      "valid": true,
+      "changed": false,
+      "characters": 1107,
+      "utf8_bytes": 1116,
+      "protected_blocks": [
+        {
+          "label": "hashtags",
+          "expected": 1,
+          "actual": 1,
+          "sha256": "97e4f86b2497e9b5b7943c161b36aa12560022680762b124768134f2740ce566"
+        }
+      ]
+    },
+    {
+      "id": "r71aCn4p88A",
+      "valid": true,
+      "changed": true,
+      "characters": 623,
+      "utf8_bytes": 623,
+      "protected_blocks": [
+        {
+          "label": "hashtags",
+          "expected": 1,
+          "actual": 1,
+          "sha256": "2a87f948646996066824a21315e819cb8f1ccdc975a1b2e22cc25247d7c5c2fe"
+        }
+      ]
+    },
+    {
+      "id": "-KW8jgSoEz0",
+      "valid": true,
+      "changed": true,
+      "characters": 599,
+      "utf8_bytes": 601,
+      "protected_blocks": [
+        {
+          "label": "hashtags",
+          "expected": 1,
+          "actual": 1,
+          "sha256": "f4a69867f1572809fa1b2be7a411f0a6df9a093bccb48ee7a59370996c5940ff"
+        }
+      ]
+    },
+    {
+      "id": "WQw7ny9svrk",
+      "valid": true,
+      "changed": true,
+      "characters": 653,
+      "utf8_bytes": 656,
+      "protected_blocks": [
+        {
+          "label": "hashtags",
+          "expected": 1,
+          "actual": 1,
+          "sha256": "71b65b25b740039118d1c9705a064809a5012f6b74d337af443fb46bdfe46e2d"
+        }
+      ]
+    },
+    {
+      "id": "pdSgHe6ScTI",
+      "valid": true,
+      "changed": true,
+      "characters": 723,
+      "utf8_bytes": 727,
+      "protected_blocks": [
+        {
+          "label": "hashtags",
+          "expected": 1,
+          "actual": 1,
+          "sha256": "76b36382054fbd5b136b349774fe226bc197d242e282f7dc594a8dc2c2881159"
+        }
+      ]
+    },
+    {
+      "id": "7DygREwtxfY",
+      "valid": true,
+      "changed": true,
+      "characters": 489,
+      "utf8_bytes": 494,
+      "protected_blocks": [
+        {
+          "label": "link_1",
+          "expected": 1,
+          "actual": 1,
+          "sha256": "b63b33653012d84a36557b4cc75b5f336716c2d6a6f711e90f6f19db1353e9b3"
+        },
+        {
+          "label": "hashtags",
+          "expected": 1,
+          "actual": 1,
+          "sha256": "564b3acbd477e3bae2d71070a6526ee47ac650933c6bf46809e1e2ab0ee4bd03"
+        }
+      ]
+    },
+    {
+      "id": "85dwIXy_lZs",
+      "valid": true,
+      "changed": true,
+      "characters": 578,
+      "utf8_bytes": 579,
+      "protected_blocks": [
+        {
+          "label": "link_1",
+          "expected": 1,
+          "actual": 1,
+          "sha256": "b63b33653012d84a36557b4cc75b5f336716c2d6a6f711e90f6f19db1353e9b3"
+        },
+        {
+          "label": "recreation_disclosure",
+          "expected": 1,
+          "actual": 1,
+          "sha256": "5111f9026c75927c390c42bc397a3c410a828aa1a13c513c06a1d5b41b0581fe"
+        },
+        {
+          "label": "hashtags",
+          "expected": 1,
+          "actual": 1,
+          "sha256": "dc436b82b1c82558b5b68e0165f91a0ef6bf6914ed99177f9adf206bffb2e798"
+        }
+      ]
+    },
+    {
+      "id": "0RaC4t7yn5o",
+      "valid": true,
+      "changed": true,
+      "characters": 1163,
+      "utf8_bytes": 1169,
+      "protected_blocks": [
+        {
+          "label": "chapters",
+          "expected": 1,
+          "actual": 1,
+          "sha256": "628dec7c9d96e1e2853cfd153b5f0606cd483bee62e6808ed2d6cb3fb5113718"
+        },
+        {
+          "label": "hashtags",
+          "expected": 1,
+          "actual": 1,
+          "sha256": "220e7242d1f07c9a54fbc8388670bb043562445e813083d350f89a01738e4cef"
+        }
+      ]
+    }
+  ],
+  "coverage": 10,
+  "hashtag_and_chapter_blocks_exact": true,
+  "same_two_URL_occurrences": true,
+  "external_writes": 0,
+  "limits": "Mechanical assembly checks only; source and display limits are per row.",
+  "end_read_only_snapshot": "2026-11-02T00:50:35.751950+00:00",
+  "scoped_external_snippet_differences": [],
+  "concurrent_new_uploads_outside_scope": [
+    {
+      "id": "fvRm9Vxwagk",
+      "title": "The Architect Who Was Too Good at His Job",
+      "privacy": "private"
+    }
+  ],
+  "existing_ten_descriptions_still_match_baseline": true,
+  "skill_validation": "new portable owner and old adapter: valid",
+  "registration": "48 entrypoints, installer completed",
+  "review_local_links_checked": 60,
+  "CLI_all_ten_validated": true
+}

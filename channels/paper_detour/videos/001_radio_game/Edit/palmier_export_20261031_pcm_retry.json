@@ -1,0 +1,37 @@
+{
+  "state": "completed",
+  "previousJob": "D19C6CB3-C7CA-48F1-8CAC-61C69C8C9747",
+  "project": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Rarovista_001.palmier",
+  "timeline": "BD754260",
+  "frames": 7802,
+  "args": {
+    "mode": "video",
+    "codec": "H.264",
+    "resolution": "Match Timeline",
+    "timelineId": "BD754260",
+    "outputPath": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Deliverables/001_en_long_paper_world_20261031_pcm_retry.mp4",
+    "overwrite": false
+  },
+  "result": {
+    "durationFrames": 7802,
+    "durationSeconds": 260.06666666666666,
+    "format": "H.264",
+    "fps": 30,
+    "jobId": "A31DC19B-780C-42B6-A312-009EA13D1431",
+    "mode": "video",
+    "note": "The export is available in the Export dialog.",
+    "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/001_radio_game/Deliverables/001_en_long_paper_world_20261031_pcm_retry.mp4",
+    "queuePosition": 0,
+    "status": "started",
+    "timeline": "001_en_long_paper_world_continuity_fix"
+  },
+  "verified": {
+    "duration_seconds": 260.081678,
+    "video": "h264 1920x1080 30fps",
+    "audio": "aac stereo 44100 Hz 115829 bps",
+    "size_bytes": 345518839,
+    "sha256": "e98dc584df64bc73cb34d7acb679b0373552339e39170e4aa1734254a9452571",
+    "decode": "ffmpeg -v error -xerror -map 0 -f null - completed exit 0",
+    "audio_ear_check": false
+  }
+}

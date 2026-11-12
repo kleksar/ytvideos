@@ -1,0 +1,73 @@
+{
+  "version": 3,
+  "checked_at_utc": "2026-11-03T09:52:53Z",
+  "change": "Removed public Further reading research links from description only; preserved chapters and hashtags.",
+  "method": "YouTube Data API v3 videos.update with If-Match ETag, followed by videos.list readback.",
+  "api_update_http_status": 200,
+  "channel": {
+    "title": "Nuviko History",
+    "channel_id": "UCbyLx6Rf3iWww4bPZJ2oo2A",
+    "handle": "@Nuviko_History"
+  },
+  "video": {
+    "id": "hEX9sxYZ0-4",
+    "url": "https://www.youtube.com/watch?v=hEX9sxYZ0-4",
+    "title": "The Ship That Brought Plague to Marseille | 1720",
+    "privacy_status": "private",
+    "upload_status": "processed",
+    "processing_status": "succeeded"
+  },
+  "before": {
+    "etag": "ocLoIRMvUBbFKgFQFz41oALXmVI",
+    "snippet": {
+      "title": "The Ship That Brought Plague to Marseille | 1720",
+      "description": "In 1720, the Grand Saint-Antoine reached Marseille after a voyage through the eastern Mediterranean. This film follows the ship’s return, the quarantine decisions at the port, the spread of plague through Marseille, and the ship’s final fate near the island of Jarre.\n\nChapters:\n00:00 The ship approaches Marseille\n00:50 Why quarantine mattered\n01:56 The Grand Saint-Antoine’s voyage\n02:47 The ship reaches Marseille\n04:44 The outbreak spreads\n05:46 Marseille under pressure\n07:08 The ship is isolated near Jarre\n07:48 The captain’s fate\n08:10 The ship is remembered\n\nFurther reading:\nMarseille History Museum — The 1720–1722 plague: https://musee-histoire.marseille.fr/node/2295\nMarseille History Museum — Grand Saint-Antoine and the plague: https://musee-histoire.marseille.fr/index.php/node/2309\nMarseille History Museum — Marseille during the epidemic: https://musee-histoire.marseille.fr/node/2306\nArchives départementales des Bouches-du-Rhône — archival documents: https://www.archives13.fr/n/documents-a-dechiffrer/n%3A292\n\n#BlackDeath #Marseille #History",
+      "tags": [
+        "18th century history",
+        "Black Death",
+        "French history",
+        "Grand Saint-Antoine",
+        "Great Plague of Marseille",
+        "Marseille 1720",
+        "Marseille plague 1720",
+        "history documentary",
+        "plague history"
+      ],
+      "categoryId": "27",
+      "defaultLanguage": "en",
+      "defaultAudioLanguage": "en"
+    },
+    "privacy_status": "private"
+  },
+  "after": {
+    "etag": "7PtOut6hnJl4V0Bf3WVa-3gaPnU",
+    "snippet": {
+      "title": "The Ship That Brought Plague to Marseille | 1720",
+      "description": "In 1720, the Grand Saint-Antoine reached Marseille after a voyage through the eastern Mediterranean. This film follows the ship’s return, the quarantine decisions at the port, the spread of plague through Marseille, and the ship’s final fate near the island of Jarre.\n\nChapters:\n00:00 The ship approaches Marseille\n00:50 Why quarantine mattered\n01:56 The Grand Saint-Antoine’s voyage\n02:47 The ship reaches Marseille\n04:44 The outbreak spreads\n05:46 Marseille under pressure\n07:08 The ship is isolated near Jarre\n07:48 The captain’s fate\n08:10 The ship is remembered\n\n#BlackDeath #Marseille #History",
+      "tags": [
+        "18th century history",
+        "Black Death",
+        "French history",
+        "Grand Saint-Antoine",
+        "Great Plague of Marseille",
+        "Marseille 1720",
+        "Marseille plague 1720",
+        "history documentary",
+        "plague history"
+      ],
+      "categoryId": "27",
+      "defaultLanguage": "en",
+      "defaultAudioLanguage": "en"
+    },
+    "privacy_status": "private"
+  },
+  "verification": {
+    "outcome": "applied_verified",
+    "only_description_changed": true,
+    "description_matches_v02": true,
+    "chapters_preserved": true,
+    "hashtags_preserved": true,
+    "research_links_removed": true,
+    "privacy_unchanged": true
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "version": "nuviko-black-death-release-v08",
+  "status": "UNLISTED_VERIFIED",
+  "channel_id": "UCbyLx6Rf3iWww4bPZJ2oo2A",
+  "channel_handle": "@Nuviko_History",
+  "new_video_id": "oH_daCEzekA",
+  "previous_unlisted_video_id": "aNx0MkK_aEA",
+  "previous_video_action": "leave unchanged",
+  "video_file": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Deliverables/en/long/black_death_nuviko_en_v08.mp4",
+  "video_size_bytes": 1629540307,
+  "video_sha256": "e62c348b12964bf3060b081a1c1b04cdc7e2de61734ff0d834c97a5c85c3cdcc",
+  "edit_contract": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/FFmpeg/v08/EXPORT_CONTRACT_v08.json",
+  "user_approval": "MP4 approved; user instructed upload by link; assistant's recommended package A used and disclosed before action",
+  "package_version": "Packaging/v05",
+  "selected_concept": "A",
+  "metadata_file": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/YouTube/release_metadata_v08.json",
+  "metadata_sha256": "b2b5b986c70f547f42f2add6aac38309ea9196601766fc19365bcda3e4d42157",
+  "thumbnail": {
+    "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Packaging/v05/Thumbnails/cover_A.png",
+    "sha256": "2ddbcadfc6b4394e461213b914ab792af5aa3d2774bc415919f9b1edc321d099",
+    "size_bytes": 3023331,
+    "dimensions": [
+      1672,
+      941
+    ],
+    "text": "PLAGUE BY TRADE",
+    "format": "PNG",
+    "upload_policy": "desktop API limit 50 MB; current official help recommends 16:9, >=640 px wide; asset satisfies dimensions and byte limit"
+  },
+  "captions": {
+    "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Deliverables/en/long/black_death_nuviko_en_v08.srt",
+    "language": "en",
+    "sha256": "92529b0dbf204b4ec08503a05eb5da5e40324a0a146e84ff2e221fa7f7a4737a",
+    "validation": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/FFmpeg/v08/srt_validation_v08_round2.json",
+    "upload_route": "upload_caption_language.py"
+  },
+  "chapters": {
+    "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Packaging/v05/chapters_v05.txt",
+    "validation": "formal validation passed against v08 media; boundaries spot-checked against nearby cues"
+  },
+  "playlist": {
+    "assignment": "unassigned_no_existing_playlist",
+    "readback": "current channel playlist list returned zero playlists",
+    "create": false
+  },
+  "privacy": {
+    "upload_initial": "private",
+    "final_requested": "unlisted",
+    "unlisted_route": "prepare_unlisted.py privacy"
+  },
+  "native_ab": {
+    "status": "not_started",
+    "reason": "User requested upload; no native experiment execution requested; no public API route; prior state records advanced features unavailable; current feature access not freshly tested."
+  },
+  "settings": {
+    "made_for_kids": false,
+    "contains_synthetic_media": true,
+    "default_language": "en",
+    "default_audio_language": "en",
+    "category_id": "27",
+    "tags": [
+      "Black Death",
+      "Black Plague",
+      "Medieval history",
+      "Medieval London",
+      "East Smithfield",
+      "plague history",
+      "Tower of London",
+      "history documentary",
+      "quarantine history"
+    ]
+  },
+  "external_mutations_before_upload": "none for v08",
+  "video_url": "https://www.youtube.com/watch?v=oH_daCEzekA",
+  "upload_state": "/Users/diplomat/.local/share/story-youtube/nuviko-history/private_uploads/009_black_death_long_v08_state.json",
+  "unlisted_receipt": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/YouTube/unlisted_release_v08_receipt.json",
+  "readback_receipt": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/YouTube/release_readback_v08.json",
+  "thumbnail_receipt": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/009_black_death/Edit/YouTube/thumbnail_readback_v08.json",
+  "caption_receipt": "/Users/diplomat/.local/share/story-youtube/caption-receipts/UCbyLx6Rf3iWww4bPZJ2oo2A_oH_daCEzekA_en.json",
+  "caption_id": "AUieDaaa_C7AzFy2GqpQCL6DzvilhTTl45nJcECMcSH5KVmEbWA6RT1T",
+  "final_state": {
+    "privacy": "unlisted",
+    "upload_status": "processed",
+    "processing_status": "succeeded"
+  },
+  "metadata_notes": "Description readback matches after removing final line ending; API tag order differs from submitted order but the exact tag set is present. Synthetic-media disclosure was submitted true; API does not return this field in read-back."
+}

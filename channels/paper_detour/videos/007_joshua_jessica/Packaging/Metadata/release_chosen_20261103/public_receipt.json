@@ -1,0 +1,55 @@
+{
+  "video_id": "Ox_77_Y7gUw",
+  "before": {
+    "uploadStatus": "processed",
+    "privacyStatus": "private",
+    "license": "youtube",
+    "embeddable": true,
+    "publicStatsViewable": true,
+    "madeForKids": false,
+    "selfDeclaredMadeForKids": false
+  },
+  "intended": {
+    "privacyStatus": "public",
+    "license": "youtube",
+    "embeddable": true,
+    "publicStatsViewable": true,
+    "selfDeclaredMadeForKids": false
+  },
+  "outcome": "confirmed",
+  "calendar": "video inventory checked; community posts not checked",
+  "started_utc": "2026-11-03T02:14:20.762147+00:00",
+  "http_status": 200,
+  "after": {
+    "uploadStatus": "processed",
+    "privacyStatus": "private",
+    "license": "youtube",
+    "embeddable": true,
+    "publicStatsViewable": true,
+    "madeForKids": false,
+    "selfDeclaredMadeForKids": false
+  },
+  "reconcile": {
+    "kind": "youtube#video",
+    "etag": "OrUuXeSNz0WdXc6n3j_lWHr9CqQ",
+    "id": "Ox_77_Y7gUw",
+    "status": {
+      "uploadStatus": "processed",
+      "privacyStatus": "public",
+      "license": "youtube",
+      "embeddable": true,
+      "publicStatsViewable": true,
+      "madeForKids": false,
+      "selfDeclaredMadeForKids": false
+    },
+    "processingDetails": {
+      "processingStatus": "succeeded",
+      "fileDetailsAvailability": "available",
+      "processingIssuesAvailability": "available",
+      "tagSuggestionsAvailability": "inProgress",
+      "editorSuggestionsAvailability": "inProgress",
+      "thumbnailsAvailability": "available"
+    }
+  },
+  "reconciled_utc": "2026-11-03T02:14:29.331980+00:00"
+}

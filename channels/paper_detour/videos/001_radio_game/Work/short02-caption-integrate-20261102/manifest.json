@@ -1,0 +1,144 @@
+{
+  "version": 1,
+  "run": "short02-caption-integrate-20261102",
+  "owner": "/root-01a19ab6-e212-7370-8b9b-fce4d2514654",
+  "status": "active",
+  "created_utc": "2026-11-02T15:23:16.437865+00:00",
+  "entries": [
+    {
+      "path": "Assets/Generated/renewal_20261102/scene07_v03_parallax_1080x1920.mp4",
+      "role": "dependency",
+      "identity": {
+        "device": 16777233,
+        "inode": 125188425,
+        "bytes": 37856615,
+        "mtime_ns": 1793634073609075878,
+        "ctime_ns": 1793634130050789585,
+        "nlink": 1,
+        "allocated_bytes": 37859328
+      },
+      "sha256": "cfdae565695923b56cc4c339168ec352f5205e9b332bbcc4ceadd3d66c6f455e",
+      "rebuild_from": [
+        {
+          "path": "Shorts/02_decoder/Source/Images/renewal_20261102/06_reported_comparison_v03_caption-safe_1080x1920_offset100.png",
+          "identity": {
+            "device": 16777233,
+            "inode": 125187158,
+            "bytes": 2207927,
+            "mtime_ns": 1793633792967663960,
+            "ctime_ns": 1793633792967663960,
+            "nlink": 1,
+            "allocated_bytes": 2850816
+          },
+          "sha256": "7898013426674898af82606d3bd5018586df486357a3157aebc342af83751aa0"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Shorts/02_decoder/Edit/renewal_20261102/motion_update_20261102/motion_prepared_v03.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125186652,
+            "bytes": 17485,
+            "mtime_ns": 1793633852797644969,
+            "ctime_ns": 1793633852797644969,
+            "nlink": 1,
+            "allocated_bytes": 20480
+          },
+          "sha256": "332f23616fe6eb086941324567939323df6204b7b20d79f2f8c80b582735a24f"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Assets/Generated/renewal_20261102/short02_subtitles_automatic_review_20261102.mov",
+      "role": "dependency",
+      "identity": {
+        "device": 16777233,
+        "inode": 125188767,
+        "bytes": 107362302,
+        "mtime_ns": 1793634258949869862,
+        "ctime_ns": 1793634258949869862,
+        "nlink": 1,
+        "allocated_bytes": 118231040
+      },
+      "sha256": "f223c71cef0a7638526c73860c72bf0ea6be959519f5e5013cdd227abfa75e4f",
+      "rebuild_from": [
+        {
+          "path": "Shorts/02_decoder/Edit/renewal_20261102/subtitle_preview_20261102/cue_map.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125178478,
+            "bytes": 7785,
+            "mtime_ns": 1793632142207286648,
+            "ctime_ns": 1793632142207286648,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "d37897da19f99136fd2f3fe41e35adec5464984e8427a477073a20e0586f62b7"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Shorts/02_decoder/Edit/renewal_20261102/subtitle_overlay_20261102/subtitle_overlay_receipt.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125188889,
+            "bytes": 1465,
+            "mtime_ns": 1793634352769335901,
+            "ctime_ns": 1793634352769335901,
+            "nlink": 1,
+            "allocated_bytes": 4096
+          },
+          "sha256": "875f9b96d4a3628988336e609112034ede332628c8b6ae115d8defb477b7b837"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Assets/Generated/renewal_20261102/short02_subtitles_asr_timing_review_20261102.mov",
+      "role": "dependency",
+      "identity": {
+        "device": 16777233,
+        "inode": 125191338,
+        "bytes": 110098051,
+        "mtime_ns": 1793634879397046622,
+        "ctime_ns": 1793634879397046622,
+        "nlink": 1,
+        "allocated_bytes": 117444608
+      },
+      "sha256": "6d67a23acb47dd67a3d038d4410797682ab6aea779abff841bdbf189f1e11ca2",
+      "rebuild_from": [
+        {
+          "path": "Shorts/02_decoder/Edit/renewal_20261102/subtitle_asr_retime_20261102/asr_word_timing_map.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125190989,
+            "bytes": 22728,
+            "mtime_ns": 1793634817521408779,
+            "ctime_ns": 1793634817521408779,
+            "nlink": 1,
+            "allocated_bytes": 24576
+          },
+          "sha256": "ede497aec6f3c877233227cf8dc9dd216d6c948af0056d0405ddabf543c7d5fa"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Shorts/02_decoder/Edit/renewal_20261102/subtitle_asr_retime_20261102/subtitle_overlay_receipt.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125191660,
+            "bytes": 1589,
+            "mtime_ns": 1793634924169213447,
+            "ctime_ns": 1793634924169213447,
+            "nlink": 1,
+            "allocated_bytes": 4096
+          },
+          "sha256": "073491ba59e685975fe98aa9d502e57866dbd6ddd6e4dc0bc6f070028e4648a0"
+        }
+      ],
+      "disposition": "pending"
+    }
+  ]
+}

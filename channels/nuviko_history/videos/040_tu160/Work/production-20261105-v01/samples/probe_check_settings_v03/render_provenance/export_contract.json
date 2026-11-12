@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "status": "READY_TO_RENDER",
+  "episode": "040_tu160",
+  "language": "English",
+  "format": "long film",
+  "purpose": "15-second pre-render subtitle/crop probe, not user approval media",
+  "settings_profile": {
+    "path": "/Users/diplomat/ytvideos/.agents/skills/ytv-video-export/references/delivery.md",
+    "sha256": "494eb3736b9a39861949084e6623b2033bbd2ea9c4cdef31c48f035938dc89a6"
+  },
+  "edit": {
+    "project_id": "FFmpeg montage probe plan; no native editor project ID",
+    "timeline_id": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Work/production-20261105-v01/samples/probe_plan_v01.json",
+    "saved_revision_evidence": {
+      "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Work/production-20261105-v01/samples/probe_plan_v01.json",
+      "sha256": "cbc8e393813c399e6095b703793af4c8ad449813a711cc2da18a5e99a02cfa21"
+    },
+    "timeline_read_path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Work/production-20261105-v01/samples/probe_plan_v01.json",
+    "timeline_read_sha256": "cbc8e393813c399e6095b703793af4c8ad449813a711cc2da18a5e99a02cfa21",
+    "dependencies": [
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Work/production-20261105-v01/samples/probe_plan_v01.json",
+        "sha256": "cbc8e393813c399e6095b703793af4c8ad449813a711cc2da18a5e99a02cfa21"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Work/production-20261105-v01/samples/probe_audio_en_v01.wav",
+        "sha256": "0886d02717523a087d187a5c1b625bba93225a2e7dd6662533307f8457386042"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Work/production-20261105-v01/samples/probe_word_map_en_v01.json",
+        "sha256": "9ce624fb2efe930a50bc78aac7848c51b7fdb0108b77d45c4eaf85c2d874d753"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Work/production-20261105-v01/samples/probe_transcript_en_v01.txt",
+        "sha256": "02eb69c5908ea6dbff400ab960c50dee13afe462d9d50f93c3272bc2696dcac4"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_001_v02.png",
+        "sha256": "c9db5782ea302e06af7aa5bf29782c6a4e71f1298b56badb15cf7e2025a67c59"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_002_v01.png",
+        "sha256": "916bb2d58b3a4b3012171cae4db28344cdcc3fba7269847f0a07d4cc0858a385"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Images/scene_007_v02.png",
+        "sha256": "53becd8d7a9212233bd9b5cc7c703cce55723e79e71e87e765514c60d43f1724"
+      }
+    ]
+  },
+  "timeline": {
+    "width": 2560,
+    "height": 1440,
+    "aspect_ratio": "16:9",
+    "sample_aspect_ratio": "1:1",
+    "fps": "30/1",
+    "frame_count": 450,
+    "duration_seconds": 15.0,
+    "output_color_space": "Rec.709 SDR"
+  },
+  "required_delivery": {
+    "container": "MP4",
+    "video": {
+      "codec_name": "h264",
+      "pix_fmt": "yuv420p",
+      "scan": "progressive",
+      "cadence": "constant 30/1 fps",
+      "color_primaries": "bt709",
+      "color_transfer": "bt709",
+      "color_space": "bt709",
+      "color_range": "tv"
+    },
+    "audio_contract": {
+      "owner_handoff": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Source/Audio/mix_en_v01.evidence.json",
+      "accepted_complete_mix": {
+        "path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Work/production-20261105-v01/samples/probe_audio_en_v01.wav",
+        "sha256": "0886d02717523a087d187a5c1b625bba93225a2e7dd6662533307f8457386042"
+      },
+      "source_rate_channels": "44100 Hz, 2 channels; 15-second source-time excerpt from the full review mix",
+      "codec_name": "aac",
+      "profile": "LC",
+      "sample_rate": 44100,
+      "channels": 2,
+      "target_bit_rate": 256000
+    }
+  },
+  "encoding": {
+    "engine": "automation/ffmpeg_montage/montage.py + FFmpeg libx264",
+    "version_evidence": "FFmpeg runtime recorded in frozen render provenance",
+    "requested_arguments": {
+      "encoder": "libx264",
+      "video_bitrate": "20M",
+      "output_pix_fmt": "yuv420p",
+      "fps": "30/1",
+      "audio_codec": "aac",
+      "audio_profile": "aac_low",
+      "audio_bitrate": 256000,
+      "audio_sample_rate": 44100,
+      "audio_channels": 2
+    },
+    "quality_preferences": {
+      "video": "20 Mbps 2K starting point",
+      "audio": "AAC 256 kbps stereo"
+    },
+    "capability_evidence": "/Users/diplomat/ytvideos/automation/ffmpeg_montage/README.md",
+    "engine_managed_fields": [
+      "GOP structure and exact average VBR bitrate remain encoder-managed"
+    ]
+  },
+  "preflight": {
+    "author": "Codex",
+    "time": "2026-11-05 14:06 Europe/Belgrade",
+    "authorization_references": [
+      "User authorized full autonomous production for episode 040_tu160 and requested review MP4.",
+      "This 15-second excerpt is an internal technical probe."
+    ],
+    "fresh_settings_evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Work/production-20261105-v01/samples/probe_plan_v01.json",
+    "writer_and_export_state": "No concurrent renderer/export owns the v01 work path.",
+    "output_path": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/040_tu160/Work/production-20261105-v01/samples/caption_probe_v01.mp4",
+    "overwrite": false,
+    "media_lifecycle_receipt": "Not required for a temporary pre-render probe; cleanup remains within episode-owned Work.",
+    "unresolved_required_fields": []
+  },
+  "render_receipt": null,
+  "qa_receipt": null,
+  "settings_check_receipt": null,
+  "render_provenance": null
+}

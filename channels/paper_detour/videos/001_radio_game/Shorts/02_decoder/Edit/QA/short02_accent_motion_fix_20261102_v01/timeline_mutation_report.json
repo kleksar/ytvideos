@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "snapshotId": "AEBCE842",
+  "projectId": "31F93804",
+  "timelineId": "7537BAE9",
+  "timelineFrames": 1098,
+  "fps": 30,
+  "cuesVerified": 9,
+  "changedTracks": [
+    "V2"
+  ],
+  "changedProperties": [
+    "keyframes.position",
+    "keyframes.opacity",
+    "fadeInFrames",
+    "fadeOutFrames"
+  ],
+  "unchangedCueTimingAndMedia": true,
+  "unchangedStaticTransforms": true,
+  "unchangedNonV2Tracks": true,
+  "verification": "PASS",
+  "actionCount": 19,
+  "position_rounding_max_normalized": 0.0005000000000000004,
+  "created_utc": "2026-11-02T22:51:15.013119+00:00",
+  "before_timeline_sha256": "c836321ed6fd7f8d3b34abf945a9e11a2f10e0a404c522b09e34b8af43fd9211",
+  "after_timeline_sha256": "af8d7fe2a95c1410eb1481a679ab2247ee0d9eb1f8dcecc8877f0e3221e49653",
+  "verification_note": "Palmier omits zero-valued fade properties from get_timeline; absent fields read as cleared (0). Position keyframes are rounded to 0.001 normalized coordinates by Palmier, under 0.6 px on a 1080 px axis."
+}

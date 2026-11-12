@@ -1,0 +1,44 @@
+    - heading "ChatGPT сказал:" [level=4]
+    - paragraph:
+      - text: Обнаружена
+      - strong: одна существенная регрессия
+      - text: .
+    - list:
+      - strong: Конфликт visibility для Nuviko History.
+      - text: "Root требует: новый upload сначала Private, а дальнейшая visibility — только явно запрошенная владельцем."
+      - button "Открыть предпросмотр файла Вставленный текст.txt":
+        - generic: Вставленный текст
+      - text: "Но stories/AGENTS.md вводит автоматический default: при отсутствии указания после проверки переводить History в unlisted. Это расширяет разрешение пользователя и противоречит root."
+      - button "Открыть предпросмотр файла Вставленный текст.txt":
+        - generic: Вставленный текст
+      - strong: "Минимальное исправление:"
+      - text: удалить только фразу про default unlisted; History остаётся Private, пока владелец явно не запросит другую visibility.
+    - paragraph: "Других существенных регрессий в предоставленном активном наборе не видно: старые Paper-эксперименты действительно убраны из обязательного workflow, history/reference отделены от текущего контекста, действующие разрешения/IDs/ownership сохраняются, а актуальные различия Paper / Stories / History не потеряны."
+    - button "Копировать":
+    - button "Оценить ответ":
+    - button "Прочитать вслух":
+    - button "Поделиться":
+    - button "Добавить в источники проекта":
+    - button "Сгенерировать ответ заново":
+    - button "Ещё действия":
+    - button "Источники":
+    - generic: ChatGPT может допускать ошибки. Проверяйте важную информацию.
+    - button "Прокрутить вниз":
+    - heading "Последний ответ" [level=4]
+    - status
+    - button "Добавить файлы и другое":
+    - textbox "Спросить ChatGPT":
+      - paragraph: Спросить ChatGPT
+    - button "Выбрать модель ChatGPT":
+      - generic: Уровень усилий рассуждения
+      - generic: 5.6 Extra High
+    - button "Диктовать":
+    - button "Начать голосовой разговор":
+- status
+- status
+- status
+- status: Ответ готов
+- status
+- status
+- button "⋮⋮"
+- button "⋮⋮"

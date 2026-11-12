@@ -1,0 +1,1807 @@
+{
+  "version": 1,
+  "run": "short02_motion_review_20261102_v01",
+  "owner": "codex_short02_motion_qa",
+  "status": "complete",
+  "created_utc": "2026-11-02T22:38:26.499401+00:00",
+  "entries": [
+    {
+      "path": "Edit/QA/short02_motion_review_20261102_v01/motion_review.json",
+      "role": "evidence",
+      "identity": {
+        "device": 16777233,
+        "inode": 125547615,
+        "bytes": 6082,
+        "mtime_ns": 1793659310354149850,
+        "ctime_ns": 1793659310354149850,
+        "nlink": 1,
+        "allocated_bytes": 8192
+      },
+      "sha256": "0988ae84f27d41121335eb89b5da4da4cc16110ad02e3bc463f84a568bd63131",
+      "rebuild_from": [],
+      "evidence": [],
+      "disposition": "pending"
+    },
+    {
+      "path": "Edit/QA/short02_motion_review_20261102_v01/motion_review.md",
+      "role": "evidence",
+      "identity": {
+        "device": 16777233,
+        "inode": 125547616,
+        "bytes": 2872,
+        "mtime_ns": 1793659310354282724,
+        "ctime_ns": 1793659310354282724,
+        "nlink": 1,
+        "allocated_bytes": 4096
+      },
+      "sha256": "116062ec9ebfc249b827d30eb56963261a263592597492a38034d3136181bc69",
+      "rebuild_from": [],
+      "evidence": [],
+      "disposition": "pending"
+    },
+    {
+      "path": "Edit/QA/short02_motion_review_20261102_v01/sampling.json",
+      "role": "evidence",
+      "identity": {
+        "device": 16777233,
+        "inode": 125547613,
+        "bytes": 4052,
+        "mtime_ns": 1793659156378043487,
+        "ctime_ns": 1793659310352579234,
+        "nlink": 1,
+        "allocated_bytes": 4096
+      },
+      "sha256": "6cc4c40866ad25cca38d4bd322390b45e710eef5c31aa4cebeb9570e167451ba",
+      "rebuild_from": [],
+      "evidence": [],
+      "disposition": "pending"
+    },
+    {
+      "path": "Edit/QA/short02_motion_review_20261102_v01/patch_matching.json",
+      "role": "evidence",
+      "identity": {
+        "device": 16777233,
+        "inode": 125547614,
+        "bytes": 11982,
+        "mtime_ns": 1793659267897363001,
+        "ctime_ns": 1793659310353052356,
+        "nlink": 1,
+        "allocated_bytes": 12288
+      },
+      "sha256": "f68c62eaeeb85c321d4548b043445057c7c0d13c317f93bcbc78bf81ef6bcd19",
+      "rebuild_from": [],
+      "evidence": [],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short02_motion_review_20261102_v01/previews/S01_five_points.jpg",
+      "role": "preview",
+      "identity": {
+        "device": 16777233,
+        "inode": 125545853,
+        "bytes": 148374,
+        "mtime_ns": 1793659154545418586,
+        "ctime_ns": 1793659154545418586,
+        "nlink": 1,
+        "allocated_bytes": 196608
+      },
+      "sha256": "2df5c85f2347e086071207e761e2920176c02edfc498e6e7654e07d556fcb5c6",
+      "rebuild_from": [],
+      "evidence": [],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short02_motion_review_20261102_v01/previews/S02_five_points.jpg",
+      "role": "preview",
+      "identity": {
+        "device": 16777233,
+        "inode": 125545855,
+        "bytes": 179557,
+        "mtime_ns": 1793659154832956944,
+        "ctime_ns": 1793659154832956944,
+        "nlink": 1,
+        "allocated_bytes": 196608
+      },
+      "sha256": "3f2aa85e04a5c3d650a39ddb8eabbd111618c62ba04076e77cea051a73fa84cc",
+      "rebuild_from": [],
+      "evidence": [],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short02_motion_review_20261102_v01/previews/S03_five_points.jpg",
+      "role": "preview",
+      "identity": {
+        "device": 16777233,
+        "inode": 125545857,
+        "bytes": 148126,
+        "mtime_ns": 1793659155106619467,
+        "ctime_ns": 1793659155106619467,
+        "nlink": 1,
+        "allocated_bytes": 196608
+      },
+      "sha256": "8b5a376322d9ba3e51b1d5148eaf83156d9692940ce385e0c64f4770b4673ad9",
+      "rebuild_from": [],
+      "evidence": [],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short02_motion_review_20261102_v01/previews/S04_five_points.jpg",
+      "role": "preview",
+      "identity": {
+        "device": 16777233,
+        "inode": 125545862,
+        "bytes": 181797,
+        "mtime_ns": 1793659155394637574,
+        "ctime_ns": 1793659155394637574,
+        "nlink": 1,
+        "allocated_bytes": 196608
+      },
+      "sha256": "99a727dbf8492dcea504ecb641c656ddd95dfbea07b68973698433631e6b52c7",
+      "rebuild_from": [],
+      "evidence": [],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short02_motion_review_20261102_v01/previews/S05_five_points.jpg",
+      "role": "preview",
+      "identity": {
+        "device": 16777233,
+        "inode": 125545866,
+        "bytes": 140438,
+        "mtime_ns": 1793659155673089695,
+        "ctime_ns": 1793659155673089695,
+        "nlink": 1,
+        "allocated_bytes": 196608
+      },
+      "sha256": "3487ddb0b84fc22e7826438587ffdd89475614d79e3a9c076ee694f351fc91ad",
+      "rebuild_from": [],
+      "evidence": [],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short02_motion_review_20261102_v01/previews/S06_five_points.jpg",
+      "role": "preview",
+      "identity": {
+        "device": 16777233,
+        "inode": 125545867,
+        "bytes": 176166,
+        "mtime_ns": 1793659155999300869,
+        "ctime_ns": 1793659155999300869,
+        "nlink": 1,
+        "allocated_bytes": 196608
+      },
+      "sha256": "340823ed6290e913c709a05f4a0f55476f392b6d69c834159eaa4f3601404def",
+      "rebuild_from": [],
+      "evidence": [],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short02_motion_review_20261102_v01/previews/S07_five_points.jpg",
+      "role": "preview",
+      "identity": {
+        "device": 16777233,
+        "inode": 125545868,
+        "bytes": 155339,
+        "mtime_ns": 1793659156279551813,
+        "ctime_ns": 1793659156279551813,
+        "nlink": 1,
+        "allocated_bytes": 196608
+      },
+      "sha256": "bbbe7ecc7bae8c247a372e93c99600df3933e9c311797dd2554d1c40c42f8634",
+      "rebuild_from": [],
+      "evidence": [],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short02_motion_review_20261102_v01/scratch/frame_0000.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125545951,
+        "bytes": 1368971,
+        "mtime_ns": 1793659151352857919,
+        "ctime_ns": 1793659154254131708,
+        "nlink": 1,
+        "allocated_bytes": 1372160
+      },
+      "sha256": "c1b554a1e747b2b2db10d729ef9f4e1e97d4d7f2a99632d479dc9bc9f3671c0a",
+      "rebuild_from": [
+        {
+          "path": "Work/short02-provider-alignment-review-20261102/previews/PAPER_DETOUR_001_SHORT02_RENEWAL_EN_REVIEW_20261102_v03.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125494105,
+            "bytes": 49188019,
+            "mtime_ns": 1793655853734888862,
+            "ctime_ns": 1793655853781487737,
+            "nlink": 1,
+            "allocated_bytes": 49188864
+          },
+          "sha256": "bd5d071beb1465db056f6c2746da778b74602814675d3f04b2de425ec4685d6f"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short02_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125547615,
+            "bytes": 6082,
+            "mtime_ns": 1793659310354149850,
+            "ctime_ns": 1793659310354149850,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "0988ae84f27d41121335eb89b5da4da4cc16110ad02e3bc463f84a568bd63131"
+        }
+      ],
+      "disposition": "pending",
+      "removed_utc": "2026-11-03T02:22:08.560974+00:00"
+    },
+    {
+      "path": "Work/short02_motion_review_20261102_v01/scratch/frame_0044.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125545952,
+        "bytes": 1743190,
+        "mtime_ns": 1793659151617570908,
+        "ctime_ns": 1793659154254261249,
+        "nlink": 1,
+        "allocated_bytes": 1744896
+      },
+      "sha256": "47ae647c2fc4cb5cee5c7839c6b0235e667f90274105f4f2b54c08b78232445a",
+      "rebuild_from": [
+        {
+          "path": "Work/short02-provider-alignment-review-20261102/previews/PAPER_DETOUR_001_SHORT02_RENEWAL_EN_REVIEW_20261102_v03.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125494105,
+            "bytes": 49188019,
+            "mtime_ns": 1793655853734888862,
+            "ctime_ns": 1793655853781487737,
+            "nlink": 1,
+            "allocated_bytes": 49188864
+          },
+          "sha256": "bd5d071beb1465db056f6c2746da778b74602814675d3f04b2de425ec4685d6f"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short02_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125547615,
+            "bytes": 6082,
+            "mtime_ns": 1793659310354149850,
+            "ctime_ns": 1793659310354149850,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "0988ae84f27d41121335eb89b5da4da4cc16110ad02e3bc463f84a568bd63131"
+        }
+      ],
+      "disposition": "pending",
+      "removed_utc": "2026-11-03T02:22:08.585186+00:00"
+    },
+    {
+      "path": "Work/short02_motion_review_20261102_v01/scratch/frame_0088.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125545953,
+        "bytes": 1869661,
+        "mtime_ns": 1793659151723678370,
+        "ctime_ns": 1793659154254381040,
+        "nlink": 1,
+        "allocated_bytes": 1871872
+      },
+      "sha256": "9fe25b58bfde7f81f857041966e813f6735e0c9044eb012eedfd806a8eacfc3f",
+      "rebuild_from": [
+        {
+          "path": "Work/short02-provider-alignment-review-20261102/previews/PAPER_DETOUR_001_SHORT02_RENEWAL_EN_REVIEW_20261102_v03.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125494105,
+            "bytes": 49188019,
+            "mtime_ns": 1793655853734888862,
+            "ctime_ns": 1793655853781487737,
+            "nlink": 1,
+            "allocated_bytes": 49188864
+          },
+          "sha256": "bd5d071beb1465db056f6c2746da778b74602814675d3f04b2de425ec4685d6f"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short02_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125547615,
+            "bytes": 6082,
+            "mtime_ns": 1793659310354149850,
+            "ctime_ns": 1793659310354149850,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "0988ae84f27d41121335eb89b5da4da4cc16110ad02e3bc463f84a568bd63131"
+        }
+      ],
+      "disposition": "pending",
+      "removed_utc": "2026-11-03T02:22:08.598320+00:00"
+    },
+    {
+      "path": "Work/short02_motion_review_20261102_v01/scratch/frame_0132.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125545954,
+        "bytes": 1941904,
+        "mtime_ns": 1793659151751252999,
+        "ctime_ns": 1793659154254473248,
+        "nlink": 1,
+        "allocated_bytes": 1945600
+      },
+      "sha256": "f45377cd7a2ed55c17cf0edd5b940527ab1286bc96b3257c45ee07bdca04f880",
+      "rebuild_from": [
+        {
+          "path": "Work/short02-provider-alignment-review-20261102/previews/PAPER_DETOUR_001_SHORT02_RENEWAL_EN_REVIEW_20261102_v03.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125494105,
+            "bytes": 49188019,
+            "mtime_ns": 1793655853734888862,
+            "ctime_ns": 1793655853781487737,
+            "nlink": 1,
+            "allocated_bytes": 49188864
+          },
+          "sha256": "bd5d071beb1465db056f6c2746da778b74602814675d3f04b2de425ec4685d6f"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short02_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125547615,
+            "bytes": 6082,
+            "mtime_ns": 1793659310354149850,
+            "ctime_ns": 1793659310354149850,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "0988ae84f27d41121335eb89b5da4da4cc16110ad02e3bc463f84a568bd63131"
+        }
+      ],
+      "disposition": "pending",
+      "removed_utc": "2026-11-03T02:22:08.607018+00:00"
+    },
+    {
+      "path": "Work/short02_motion_review_20261102_v01/scratch/frame_0176.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125545955,
+        "bytes": 1851761,
+        "mtime_ns": 1793659151761942103,
+        "ctime_ns": 1793659154254569330,
+        "nlink": 1,
+        "allocated_bytes": 1855488
+      },
+      "sha256": "c7d38477c5c726c29ff9f01b2691ed96804792c466592fa0740996a24143b23c",
+      "rebuild_from": [
+        {
+          "path": "Work/short02-provider-alignment-review-20261102/previews/PAPER_DETOUR_001_SHORT02_RENEWAL_EN_REVIEW_20261102_v03.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125494105,
+            "bytes": 49188019,
+            "mtime_ns": 1793655853734888862,
+            "ctime_ns": 1793655853781487737,
+            "nlink": 1,
+            "allocated_bytes": 49188864
+          },
+          "sha256": "bd5d071beb1465db056f6c2746da778b74602814675d3f04b2de425ec4685d6f"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short02_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125547615,
+            "bytes": 6082,
+            "mtime_ns": 1793659310354149850,
+            "ctime_ns": 1793659310354149850,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "0988ae84f27d41121335eb89b5da4da4cc16110ad02e3bc463f84a568bd63131"
+        }
+      ],
+      "disposition": "pending",
+      "removed_utc": "2026-11-03T02:22:08.616439+00:00"
+    },
+    {
+      "path": "Work/short02_motion_review_20261102_v01/scratch/frame_0177.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125545956,
+        "bytes": 1853309,
+        "mtime_ns": 1793659151846241026,
+        "ctime_ns": 1793659154254655413,
+        "nlink": 1,
+        "allocated_bytes": 1855488
+      },
+      "sha256": "c2aba69821bcfe56b6a741a93d719eb81115adf02a1887aed09824db05e33f0a",
+      "rebuild_from": [
+        {
+          "path": "Work/short02-provider-alignment-review-20261102/previews/PAPER_DETOUR_001_SHORT02_RENEWAL_EN_REVIEW_20261102_v03.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125494105,
+            "bytes": 49188019,
+            "mtime_ns": 1793655853734888862,
+            "ctime_ns": 1793655853781487737,
+            "nlink": 1,
+            "allocated_bytes": 49188864
+          },
+          "sha256": "bd5d071beb1465db056f6c2746da778b74602814675d3f04b2de425ec4685d6f"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short02_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125547615,
+            "bytes": 6082,
+            "mtime_ns": 1793659310354149850,
+            "ctime_ns": 1793659310354149850,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "0988ae84f27d41121335eb89b5da4da4cc16110ad02e3bc463f84a568bd63131"
+        }
+      ],
+      "disposition": "pending",
+      "removed_utc": "2026-11-03T02:22:08.625941+00:00"
+    },
+    {
+      "path": "Work/short02_motion_review_20261102_v01/scratch/frame_0215.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125545959,
+        "bytes": 2216059,
+        "mtime_ns": 1793659152226389547,
+        "ctime_ns": 1793659154254736038,
+        "nlink": 1,
+        "allocated_bytes": 2220032
+      },
+      "sha256": "d06f03b49a3a5a9b1eeaf324cab931e0de646c9e8dc843e8f16a5b98132fcd5a",
+      "rebuild_from": [
+        {
+          "path": "Work/short02-provider-alignment-review-20261102/previews/PAPER_DETOUR_001_SHORT02_RENEWAL_EN_REVIEW_20261102_v03.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125494105,
+            "bytes": 49188019,
+            "mtime_ns": 1793655853734888862,
+            "ctime_ns": 1793655853781487737,
+            "nlink": 1,
+            "allocated_bytes": 49188864
+          },
+          "sha256": "bd5d071beb1465db056f6c2746da778b74602814675d3f04b2de425ec4685d6f"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short02_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125547615,
+            "bytes": 6082,
+            "mtime_ns": 1793659310354149850,
+            "ctime_ns": 1793659310354149850,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "0988ae84f27d41121335eb89b5da4da4cc16110ad02e3bc463f84a568bd63131"
+        }
+      ],
+      "disposition": "pending",
+      "removed_utc": "2026-11-03T02:22:08.635478+00:00"
+    },
+    {
+      "path": "Work/short02_motion_review_20261102_v01/scratch/frame_0253.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125545960,
+        "bytes": 2390469,
+        "mtime_ns": 1793659152244784397,
+        "ctime_ns": 1793659154254814746,
+        "nlink": 1,
+        "allocated_bytes": 2392064
+      },
+      "sha256": "04a2549a784b78e14ed9d02792b3d04ca619d0489e4ae07e5c09633668a81479",
+      "rebuild_from": [
+        {
+          "path": "Work/short02-provider-alignment-review-20261102/previews/PAPER_DETOUR_001_SHORT02_RENEWAL_EN_REVIEW_20261102_v03.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125494105,
+            "bytes": 49188019,
+            "mtime_ns": 1793655853734888862,
+            "ctime_ns": 1793655853781487737,
+            "nlink": 1,
+            "allocated_bytes": 49188864
+          },
+          "sha256": "bd5d071beb1465db056f6c2746da778b74602814675d3f04b2de425ec4685d6f"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short02_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125547615,
+            "bytes": 6082,
+            "mtime_ns": 1793659310354149850,
+            "ctime_ns": 1793659310354149850,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "0988ae84f27d41121335eb89b5da4da4cc16110ad02e3bc463f84a568bd63131"
+        }
+      ],
+      "disposition": "pending",
+      "removed_utc": "2026-11-03T02:22:08.645746+00:00"
+    },
+    {
+      "path": "Work/short02_motion_review_20261102_v01/scratch/frame_0291.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125545961,
+        "bytes": 2317823,
+        "mtime_ns": 1793659152246120223,
+        "ctime_ns": 1793659154254902204,
+        "nlink": 1,
+        "allocated_bytes": 2318336
+      },
+      "sha256": "405477484963bf05cc7f903dd6e205433acd9974afbb682d5fe6f51afd82e903",
+      "rebuild_from": [
+        {
+          "path": "Work/short02-provider-alignment-review-20261102/previews/PAPER_DETOUR_001_SHORT02_RENEWAL_EN_REVIEW_20261102_v03.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125494105,
+            "bytes": 49188019,
+            "mtime_ns": 1793655853734888862,
+            "ctime_ns": 1793655853781487737,
+            "nlink": 1,
+            "allocated_bytes": 49188864
+          },
+          "sha256": "bd5d071beb1465db056f6c2746da778b74602814675d3f04b2de425ec4685d6f"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short02_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125547615,
+            "bytes": 6082,
+            "mtime_ns": 1793659310354149850,
+            "ctime_ns": 1793659310354149850,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "0988ae84f27d41121335eb89b5da4da4cc16110ad02e3bc463f84a568bd63131"
+        }
+      ],
+      "disposition": "pending",
+      "removed_utc": "2026-11-03T02:22:08.655485+00:00"
+    },
+    {
+      "path": "Work/short02_motion_review_20261102_v01/scratch/frame_0329.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125545962,
+        "bytes": 2205287,
+        "mtime_ns": 1793659152361471463,
+        "ctime_ns": 1793659154255002495,
+        "nlink": 1,
+        "allocated_bytes": 2207744
+      },
+      "sha256": "ed3813d3c1e22349bc0f45bae8086b6643d11e769cedfa122fedfd80b23e2b16",
+      "rebuild_from": [
+        {
+          "path": "Work/short02-provider-alignment-review-20261102/previews/PAPER_DETOUR_001_SHORT02_RENEWAL_EN_REVIEW_20261102_v03.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125494105,
+            "bytes": 49188019,
+            "mtime_ns": 1793655853734888862,
+            "ctime_ns": 1793655853781487737,
+            "nlink": 1,
+            "allocated_bytes": 49188864
+          },
+          "sha256": "bd5d071beb1465db056f6c2746da778b74602814675d3f04b2de425ec4685d6f"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short02_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125547615,
+            "bytes": 6082,
+            "mtime_ns": 1793659310354149850,
+            "ctime_ns": 1793659310354149850,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "0988ae84f27d41121335eb89b5da4da4cc16110ad02e3bc463f84a568bd63131"
+        }
+      ],
+      "disposition": "pending",
+      "removed_utc": "2026-11-03T02:22:08.665866+00:00"
+    },
+    {
+      "path": "Work/short02_motion_review_20261102_v01/scratch/frame_0330.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125545963,
+        "bytes": 1446060,
+        "mtime_ns": 1793659152362066626,
+        "ctime_ns": 1793659154255086661,
+        "nlink": 1,
+        "allocated_bytes": 1449984
+      },
+      "sha256": "acf80a7c68c13562ff43f8fa3ca49cca400878428b3680ece4ab536fd2e62c41",
+      "rebuild_from": [
+        {
+          "path": "Work/short02-provider-alignment-review-20261102/previews/PAPER_DETOUR_001_SHORT02_RENEWAL_EN_REVIEW_20261102_v03.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125494105,
+            "bytes": 49188019,
+            "mtime_ns": 1793655853734888862,
+            "ctime_ns": 1793655853781487737,
+            "nlink": 1,
+            "allocated_bytes": 49188864
+          },
+          "sha256": "bd5d071beb1465db056f6c2746da778b74602814675d3f04b2de425ec4685d6f"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short02_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125547615,
+            "bytes": 6082,
+            "mtime_ns": 1793659310354149850,
+            "ctime_ns": 1793659310354149850,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "0988ae84f27d41121335eb89b5da4da4cc16110ad02e3bc463f84a568bd63131"
+        }
+      ],
+      "disposition": "pending",
+      "removed_utc": "2026-11-03T02:22:08.675541+00:00"
+    },
+    {
+      "path": "Work/short02_motion_review_20261102_v01/scratch/frame_0364.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125545965,
+        "bytes": 1906890,
+        "mtime_ns": 1793659152529200647,
+        "ctime_ns": 1793659154255177410,
+        "nlink": 1,
+        "allocated_bytes": 1908736
+      },
+      "sha256": "d70808925239dd8ecf7768c66b758fdd6b190c71f19957e55b75030ef162dbbb",
+      "rebuild_from": [
+        {
+          "path": "Work/short02-provider-alignment-review-20261102/previews/PAPER_DETOUR_001_SHORT02_RENEWAL_EN_REVIEW_20261102_v03.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125494105,
+            "bytes": 49188019,
+            "mtime_ns": 1793655853734888862,
+            "ctime_ns": 1793655853781487737,
+            "nlink": 1,
+            "allocated_bytes": 49188864
+          },
+          "sha256": "bd5d071beb1465db056f6c2746da778b74602814675d3f04b2de425ec4685d6f"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short02_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125547615,
+            "bytes": 6082,
+            "mtime_ns": 1793659310354149850,
+            "ctime_ns": 1793659310354149850,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "0988ae84f27d41121335eb89b5da4da4cc16110ad02e3bc463f84a568bd63131"
+        }
+      ],
+      "disposition": "pending",
+      "removed_utc": "2026-11-03T02:22:08.684526+00:00"
+    },
+    {
+      "path": "Work/short02_motion_review_20261102_v01/scratch/frame_0399.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125545970,
+        "bytes": 1869358,
+        "mtime_ns": 1793659152599193570,
+        "ctime_ns": 1793659154255261368,
+        "nlink": 1,
+        "allocated_bytes": 1871872
+      },
+      "sha256": "4de698d80f53b4a655e99618e0fab5be059d93a3da01d64961409a0244e1cc0e",
+      "rebuild_from": [
+        {
+          "path": "Work/short02-provider-alignment-review-20261102/previews/PAPER_DETOUR_001_SHORT02_RENEWAL_EN_REVIEW_20261102_v03.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125494105,
+            "bytes": 49188019,
+            "mtime_ns": 1793655853734888862,
+            "ctime_ns": 1793655853781487737,
+            "nlink": 1,
+            "allocated_bytes": 49188864
+          },
+          "sha256": "bd5d071beb1465db056f6c2746da778b74602814675d3f04b2de425ec4685d6f"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short02_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125547615,
+            "bytes": 6082,
+            "mtime_ns": 1793659310354149850,
+            "ctime_ns": 1793659310354149850,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "0988ae84f27d41121335eb89b5da4da4cc16110ad02e3bc463f84a568bd63131"
+        }
+      ],
+      "disposition": "pending",
+      "removed_utc": "2026-11-03T02:22:08.697770+00:00"
+    },
+    {
+      "path": "Work/short02_motion_review_20261102_v01/scratch/frame_0433.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125545971,
+        "bytes": 1925639,
+        "mtime_ns": 1793659152729398724,
+        "ctime_ns": 1793659154255349617,
+        "nlink": 1,
+        "allocated_bytes": 1929216
+      },
+      "sha256": "3b2e9a910f7d794ec1919c19479de3c70f09e36e5cd4ca904632d5caa008960d",
+      "rebuild_from": [
+        {
+          "path": "Work/short02-provider-alignment-review-20261102/previews/PAPER_DETOUR_001_SHORT02_RENEWAL_EN_REVIEW_20261102_v03.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125494105,
+            "bytes": 49188019,
+            "mtime_ns": 1793655853734888862,
+            "ctime_ns": 1793655853781487737,
+            "nlink": 1,
+            "allocated_bytes": 49188864
+          },
+          "sha256": "bd5d071beb1465db056f6c2746da778b74602814675d3f04b2de425ec4685d6f"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short02_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125547615,
+            "bytes": 6082,
+            "mtime_ns": 1793659310354149850,
+            "ctime_ns": 1793659310354149850,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "0988ae84f27d41121335eb89b5da4da4cc16110ad02e3bc463f84a568bd63131"
+        }
+      ],
+      "disposition": "pending",
+      "removed_utc": "2026-11-03T02:22:08.706853+00:00"
+    },
+    {
+      "path": "Work/short02_motion_review_20261102_v01/scratch/frame_0467.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125545972,
+        "bytes": 1866890,
+        "mtime_ns": 1793659152729884763,
+        "ctime_ns": 1793659154255434034,
+        "nlink": 1,
+        "allocated_bytes": 1867776
+      },
+      "sha256": "db53e2cf780bc38b1c5fb03dcbc0468ffeb15c676056a926aa126985396148a5",
+      "rebuild_from": [
+        {
+          "path": "Work/short02-provider-alignment-review-20261102/previews/PAPER_DETOUR_001_SHORT02_RENEWAL_EN_REVIEW_20261102_v03.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125494105,
+            "bytes": 49188019,
+            "mtime_ns": 1793655853734888862,
+            "ctime_ns": 1793655853781487737,
+            "nlink": 1,
+            "allocated_bytes": 49188864
+          },
+          "sha256": "bd5d071beb1465db056f6c2746da778b74602814675d3f04b2de425ec4685d6f"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short02_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125547615,
+            "bytes": 6082,
+            "mtime_ns": 1793659310354149850,
+            "ctime_ns": 1793659310354149850,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "0988ae84f27d41121335eb89b5da4da4cc16110ad02e3bc463f84a568bd63131"
+        }
+      ],
+      "disposition": "pending",
+      "removed_utc": "2026-11-03T02:22:08.715836+00:00"
+    },
+    {
+      "path": "Work/short02_motion_review_20261102_v01/scratch/frame_0468.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125545973,
+        "bytes": 2172383,
+        "mtime_ns": 1793659152927665395,
+        "ctime_ns": 1793659154255514991,
+        "nlink": 1,
+        "allocated_bytes": 2174976
+      },
+      "sha256": "1fd17dd1fd6351f248ba81536b8ea99016c31767e7534e07aea7acc2a335f7a3",
+      "rebuild_from": [
+        {
+          "path": "Work/short02-provider-alignment-review-20261102/previews/PAPER_DETOUR_001_SHORT02_RENEWAL_EN_REVIEW_20261102_v03.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125494105,
+            "bytes": 49188019,
+            "mtime_ns": 1793655853734888862,
+            "ctime_ns": 1793655853781487737,
+            "nlink": 1,
+            "allocated_bytes": 49188864
+          },
+          "sha256": "bd5d071beb1465db056f6c2746da778b74602814675d3f04b2de425ec4685d6f"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short02_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125547615,
+            "bytes": 6082,
+            "mtime_ns": 1793659310354149850,
+            "ctime_ns": 1793659310354149850,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "0988ae84f27d41121335eb89b5da4da4cc16110ad02e3bc463f84a568bd63131"
+        }
+      ],
+      "disposition": "pending",
+      "removed_utc": "2026-11-03T02:22:08.725372+00:00"
+    },
+    {
+      "path": "Work/short02_motion_review_20261102_v01/scratch/frame_0502.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125545976,
+        "bytes": 2342493,
+        "mtime_ns": 1793659153163540846,
+        "ctime_ns": 1793659154255594158,
+        "nlink": 1,
+        "allocated_bytes": 2342912
+      },
+      "sha256": "efe1126e3138144b5891da3a79381f9bae3dbabaf74c132bfd0cafad94c4be08",
+      "rebuild_from": [
+        {
+          "path": "Work/short02-provider-alignment-review-20261102/previews/PAPER_DETOUR_001_SHORT02_RENEWAL_EN_REVIEW_20261102_v03.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125494105,
+            "bytes": 49188019,
+            "mtime_ns": 1793655853734888862,
+            "ctime_ns": 1793655853781487737,
+            "nlink": 1,
+            "allocated_bytes": 49188864
+          },
+          "sha256": "bd5d071beb1465db056f6c2746da778b74602814675d3f04b2de425ec4685d6f"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short02_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125547615,
+            "bytes": 6082,
+            "mtime_ns": 1793659310354149850,
+            "ctime_ns": 1793659310354149850,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "0988ae84f27d41121335eb89b5da4da4cc16110ad02e3bc463f84a568bd63131"
+        }
+      ],
+      "disposition": "pending",
+      "removed_utc": "2026-11-03T02:22:08.736042+00:00"
+    },
+    {
+      "path": "Work/short02_motion_review_20261102_v01/scratch/frame_0537.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125545977,
+        "bytes": 2364414,
+        "mtime_ns": 1793659153279670082,
+        "ctime_ns": 1793659154255665199,
+        "nlink": 1,
+        "allocated_bytes": 2367488
+      },
+      "sha256": "9ed2a50a6dffa00f7b75445007653b713fa3f50f2cea632c0aa1c005490fdd5e",
+      "rebuild_from": [
+        {
+          "path": "Work/short02-provider-alignment-review-20261102/previews/PAPER_DETOUR_001_SHORT02_RENEWAL_EN_REVIEW_20261102_v03.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125494105,
+            "bytes": 49188019,
+            "mtime_ns": 1793655853734888862,
+            "ctime_ns": 1793655853781487737,
+            "nlink": 1,
+            "allocated_bytes": 49188864
+          },
+          "sha256": "bd5d071beb1465db056f6c2746da778b74602814675d3f04b2de425ec4685d6f"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short02_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125547615,
+            "bytes": 6082,
+            "mtime_ns": 1793659310354149850,
+            "ctime_ns": 1793659310354149850,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "0988ae84f27d41121335eb89b5da4da4cc16110ad02e3bc463f84a568bd63131"
+        }
+      ],
+      "disposition": "pending",
+      "removed_utc": "2026-11-03T02:22:08.745386+00:00"
+    },
+    {
+      "path": "Work/short02_motion_review_20261102_v01/scratch/frame_0571.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125545978,
+        "bytes": 2365843,
+        "mtime_ns": 1793659153385079840,
+        "ctime_ns": 1793659154255735990,
+        "nlink": 1,
+        "allocated_bytes": 2367488
+      },
+      "sha256": "13bbc83ffc830cbcee81c753ac6444a59fae742f7b1673c789e81d50029e1734",
+      "rebuild_from": [
+        {
+          "path": "Work/short02-provider-alignment-review-20261102/previews/PAPER_DETOUR_001_SHORT02_RENEWAL_EN_REVIEW_20261102_v03.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125494105,
+            "bytes": 49188019,
+            "mtime_ns": 1793655853734888862,
+            "ctime_ns": 1793655853781487737,
+            "nlink": 1,
+            "allocated_bytes": 49188864
+          },
+          "sha256": "bd5d071beb1465db056f6c2746da778b74602814675d3f04b2de425ec4685d6f"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short02_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125547615,
+            "bytes": 6082,
+            "mtime_ns": 1793659310354149850,
+            "ctime_ns": 1793659310354149850,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "0988ae84f27d41121335eb89b5da4da4cc16110ad02e3bc463f84a568bd63131"
+        }
+      ],
+      "disposition": "pending",
+      "removed_utc": "2026-11-03T02:22:08.756831+00:00"
+    },
+    {
+      "path": "Work/short02_motion_review_20261102_v01/scratch/frame_0605.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125545979,
+        "bytes": 2443108,
+        "mtime_ns": 1793659153385873793,
+        "ctime_ns": 1793659154255815490,
+        "nlink": 1,
+        "allocated_bytes": 2445312
+      },
+      "sha256": "2cc802e206c2898e803b96acdc8479241106acd61a27d71a4400c37423a5704c",
+      "rebuild_from": [
+        {
+          "path": "Work/short02-provider-alignment-review-20261102/previews/PAPER_DETOUR_001_SHORT02_RENEWAL_EN_REVIEW_20261102_v03.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125494105,
+            "bytes": 49188019,
+            "mtime_ns": 1793655853734888862,
+            "ctime_ns": 1793655853781487737,
+            "nlink": 1,
+            "allocated_bytes": 49188864
+          },
+          "sha256": "bd5d071beb1465db056f6c2746da778b74602814675d3f04b2de425ec4685d6f"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short02_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125547615,
+            "bytes": 6082,
+            "mtime_ns": 1793659310354149850,
+            "ctime_ns": 1793659310354149850,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "0988ae84f27d41121335eb89b5da4da4cc16110ad02e3bc463f84a568bd63131"
+        }
+      ],
+      "disposition": "pending",
+      "removed_utc": "2026-11-03T02:22:08.768319+00:00"
+    },
+    {
+      "path": "Work/short02_motion_review_20261102_v01/scratch/frame_0606.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125545980,
+        "bytes": 1931390,
+        "mtime_ns": 1793659153386711372,
+        "ctime_ns": 1793659154255895114,
+        "nlink": 1,
+        "allocated_bytes": 1933312
+      },
+      "sha256": "7b2d9e451d2b97668d3503fd9c662ae98ab9de3dffabbcc8a571c23caf927cc6",
+      "rebuild_from": [
+        {
+          "path": "Work/short02-provider-alignment-review-20261102/previews/PAPER_DETOUR_001_SHORT02_RENEWAL_EN_REVIEW_20261102_v03.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125494105,
+            "bytes": 49188019,
+            "mtime_ns": 1793655853734888862,
+            "ctime_ns": 1793655853781487737,
+            "nlink": 1,
+            "allocated_bytes": 49188864
+          },
+          "sha256": "bd5d071beb1465db056f6c2746da778b74602814675d3f04b2de425ec4685d6f"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short02_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125547615,
+            "bytes": 6082,
+            "mtime_ns": 1793659310354149850,
+            "ctime_ns": 1793659310354149850,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "0988ae84f27d41121335eb89b5da4da4cc16110ad02e3bc463f84a568bd63131"
+        }
+      ],
+      "disposition": "pending",
+      "removed_utc": "2026-11-03T02:22:08.776946+00:00"
+    },
+    {
+      "path": "Work/short02_motion_review_20261102_v01/scratch/frame_0648.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125545981,
+        "bytes": 2021232,
+        "mtime_ns": 1793659153630450153,
+        "ctime_ns": 1793659154255971031,
+        "nlink": 1,
+        "allocated_bytes": 2023424
+      },
+      "sha256": "4105f9e840f7e8ff31289176176d907ea92e6374ef5826f7f6b72f38ebea39af",
+      "rebuild_from": [
+        {
+          "path": "Work/short02-provider-alignment-review-20261102/previews/PAPER_DETOUR_001_SHORT02_RENEWAL_EN_REVIEW_20261102_v03.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125494105,
+            "bytes": 49188019,
+            "mtime_ns": 1793655853734888862,
+            "ctime_ns": 1793655853781487737,
+            "nlink": 1,
+            "allocated_bytes": 49188864
+          },
+          "sha256": "bd5d071beb1465db056f6c2746da778b74602814675d3f04b2de425ec4685d6f"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short02_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125547615,
+            "bytes": 6082,
+            "mtime_ns": 1793659310354149850,
+            "ctime_ns": 1793659310354149850,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "0988ae84f27d41121335eb89b5da4da4cc16110ad02e3bc463f84a568bd63131"
+        }
+      ],
+      "disposition": "pending",
+      "removed_utc": "2026-11-03T02:22:08.787299+00:00"
+    },
+    {
+      "path": "Work/short02_motion_review_20261102_v01/scratch/frame_0690.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125545982,
+        "bytes": 2247376,
+        "mtime_ns": 1793659153630964900,
+        "ctime_ns": 1793659154256047655,
+        "nlink": 1,
+        "allocated_bytes": 2248704
+      },
+      "sha256": "1bb387f23a614f90dd13059e9b9e437a7e93d34d8fee8ac8f8499734f3b56ddb",
+      "rebuild_from": [
+        {
+          "path": "Work/short02-provider-alignment-review-20261102/previews/PAPER_DETOUR_001_SHORT02_RENEWAL_EN_REVIEW_20261102_v03.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125494105,
+            "bytes": 49188019,
+            "mtime_ns": 1793655853734888862,
+            "ctime_ns": 1793655853781487737,
+            "nlink": 1,
+            "allocated_bytes": 49188864
+          },
+          "sha256": "bd5d071beb1465db056f6c2746da778b74602814675d3f04b2de425ec4685d6f"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short02_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125547615,
+            "bytes": 6082,
+            "mtime_ns": 1793659310354149850,
+            "ctime_ns": 1793659310354149850,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "0988ae84f27d41121335eb89b5da4da4cc16110ad02e3bc463f84a568bd63131"
+        }
+      ],
+      "disposition": "pending",
+      "removed_utc": "2026-11-03T02:22:08.796203+00:00"
+    },
+    {
+      "path": "Work/short02_motion_review_20261102_v01/scratch/frame_0732.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125545983,
+        "bytes": 2081046,
+        "mtime_ns": 1793659153631444397,
+        "ctime_ns": 1793659154256121905,
+        "nlink": 1,
+        "allocated_bytes": 2084864
+      },
+      "sha256": "ebf762c8f82dcffa96ac2df05e5c06287ba1a183771be8ee4098aa0f2374c4b1",
+      "rebuild_from": [
+        {
+          "path": "Work/short02-provider-alignment-review-20261102/previews/PAPER_DETOUR_001_SHORT02_RENEWAL_EN_REVIEW_20261102_v03.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125494105,
+            "bytes": 49188019,
+            "mtime_ns": 1793655853734888862,
+            "ctime_ns": 1793655853781487737,
+            "nlink": 1,
+            "allocated_bytes": 49188864
+          },
+          "sha256": "bd5d071beb1465db056f6c2746da778b74602814675d3f04b2de425ec4685d6f"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short02_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125547615,
+            "bytes": 6082,
+            "mtime_ns": 1793659310354149850,
+            "ctime_ns": 1793659310354149850,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "0988ae84f27d41121335eb89b5da4da4cc16110ad02e3bc463f84a568bd63131"
+        }
+      ],
+      "disposition": "pending",
+      "removed_utc": "2026-11-03T02:22:08.806474+00:00"
+    },
+    {
+      "path": "Work/short02_motion_review_20261102_v01/scratch/frame_0773.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125545984,
+        "bytes": 2129200,
+        "mtime_ns": 1793659153753133767,
+        "ctime_ns": 1793659154256197737,
+        "nlink": 1,
+        "allocated_bytes": 2129920
+      },
+      "sha256": "37ae10ad50fc15fae3bfe2ba1fe10be1bbfbb04f962c5062bff2e154292ce336",
+      "rebuild_from": [
+        {
+          "path": "Work/short02-provider-alignment-review-20261102/previews/PAPER_DETOUR_001_SHORT02_RENEWAL_EN_REVIEW_20261102_v03.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125494105,
+            "bytes": 49188019,
+            "mtime_ns": 1793655853734888862,
+            "ctime_ns": 1793655853781487737,
+            "nlink": 1,
+            "allocated_bytes": 49188864
+          },
+          "sha256": "bd5d071beb1465db056f6c2746da778b74602814675d3f04b2de425ec4685d6f"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short02_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125547615,
+            "bytes": 6082,
+            "mtime_ns": 1793659310354149850,
+            "ctime_ns": 1793659310354149850,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "0988ae84f27d41121335eb89b5da4da4cc16110ad02e3bc463f84a568bd63131"
+        }
+      ],
+      "disposition": "pending",
+      "removed_utc": "2026-11-03T02:22:08.816215+00:00"
+    },
+    {
+      "path": "Work/short02_motion_review_20261102_v01/scratch/frame_0774.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125545985,
+        "bytes": 2258743,
+        "mtime_ns": 1793659153815369569,
+        "ctime_ns": 1793659154256285820,
+        "nlink": 1,
+        "allocated_bytes": 2260992
+      },
+      "sha256": "acb3f7dff27371f3faf863bd9948fea92c3b55a47e63405eea08bc293417a3a7",
+      "rebuild_from": [
+        {
+          "path": "Work/short02-provider-alignment-review-20261102/previews/PAPER_DETOUR_001_SHORT02_RENEWAL_EN_REVIEW_20261102_v03.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125494105,
+            "bytes": 49188019,
+            "mtime_ns": 1793655853734888862,
+            "ctime_ns": 1793655853781487737,
+            "nlink": 1,
+            "allocated_bytes": 49188864
+          },
+          "sha256": "bd5d071beb1465db056f6c2746da778b74602814675d3f04b2de425ec4685d6f"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short02_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125547615,
+            "bytes": 6082,
+            "mtime_ns": 1793659310354149850,
+            "ctime_ns": 1793659310354149850,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "0988ae84f27d41121335eb89b5da4da4cc16110ad02e3bc463f84a568bd63131"
+        }
+      ],
+      "disposition": "pending",
+      "removed_utc": "2026-11-03T02:22:08.826857+00:00"
+    },
+    {
+      "path": "Work/short02_motion_review_20261102_v01/scratch/frame_0811.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125545986,
+        "bytes": 2425820,
+        "mtime_ns": 1793659154027456911,
+        "ctime_ns": 1793659154256364653,
+        "nlink": 1,
+        "allocated_bytes": 2428928
+      },
+      "sha256": "aad59bab3aee79787bc4f7e7f5176f16148fc3c76a16cf5fa978858285f177d6",
+      "rebuild_from": [
+        {
+          "path": "Work/short02-provider-alignment-review-20261102/previews/PAPER_DETOUR_001_SHORT02_RENEWAL_EN_REVIEW_20261102_v03.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125494105,
+            "bytes": 49188019,
+            "mtime_ns": 1793655853734888862,
+            "ctime_ns": 1793655853781487737,
+            "nlink": 1,
+            "allocated_bytes": 49188864
+          },
+          "sha256": "bd5d071beb1465db056f6c2746da778b74602814675d3f04b2de425ec4685d6f"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short02_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125547615,
+            "bytes": 6082,
+            "mtime_ns": 1793659310354149850,
+            "ctime_ns": 1793659310354149850,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "0988ae84f27d41121335eb89b5da4da4cc16110ad02e3bc463f84a568bd63131"
+        }
+      ],
+      "disposition": "pending",
+      "removed_utc": "2026-11-03T02:22:08.836523+00:00"
+    },
+    {
+      "path": "Work/short02_motion_review_20261102_v01/scratch/frame_0849.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125545987,
+        "bytes": 2429932,
+        "mtime_ns": 1793659154069390582,
+        "ctime_ns": 1793659154256440944,
+        "nlink": 1,
+        "allocated_bytes": 2433024
+      },
+      "sha256": "93950390cf7ae8b8d0ec724b69b7f7a829569410dbd50b3438f807e499c12c6d",
+      "rebuild_from": [
+        {
+          "path": "Work/short02-provider-alignment-review-20261102/previews/PAPER_DETOUR_001_SHORT02_RENEWAL_EN_REVIEW_20261102_v03.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125494105,
+            "bytes": 49188019,
+            "mtime_ns": 1793655853734888862,
+            "ctime_ns": 1793655853781487737,
+            "nlink": 1,
+            "allocated_bytes": 49188864
+          },
+          "sha256": "bd5d071beb1465db056f6c2746da778b74602814675d3f04b2de425ec4685d6f"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short02_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125547615,
+            "bytes": 6082,
+            "mtime_ns": 1793659310354149850,
+            "ctime_ns": 1793659310354149850,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "0988ae84f27d41121335eb89b5da4da4cc16110ad02e3bc463f84a568bd63131"
+        }
+      ],
+      "disposition": "pending",
+      "removed_utc": "2026-11-03T02:22:08.846836+00:00"
+    },
+    {
+      "path": "Work/short02_motion_review_20261102_v01/scratch/frame_0886.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125545988,
+        "bytes": 2458031,
+        "mtime_ns": 1793659154086832521,
+        "ctime_ns": 1793659154256515319,
+        "nlink": 1,
+        "allocated_bytes": 2461696
+      },
+      "sha256": "6a437adb8bc55a9d293234f86d28a8a07701bf9c13f1a326f4d8ea4f2ca57732",
+      "rebuild_from": [
+        {
+          "path": "Work/short02-provider-alignment-review-20261102/previews/PAPER_DETOUR_001_SHORT02_RENEWAL_EN_REVIEW_20261102_v03.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125494105,
+            "bytes": 49188019,
+            "mtime_ns": 1793655853734888862,
+            "ctime_ns": 1793655853781487737,
+            "nlink": 1,
+            "allocated_bytes": 49188864
+          },
+          "sha256": "bd5d071beb1465db056f6c2746da778b74602814675d3f04b2de425ec4685d6f"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short02_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125547615,
+            "bytes": 6082,
+            "mtime_ns": 1793659310354149850,
+            "ctime_ns": 1793659310354149850,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "0988ae84f27d41121335eb89b5da4da4cc16110ad02e3bc463f84a568bd63131"
+        }
+      ],
+      "disposition": "pending",
+      "removed_utc": "2026-11-03T02:22:08.856770+00:00"
+    },
+    {
+      "path": "Work/short02_motion_review_20261102_v01/scratch/frame_0923.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125545989,
+        "bytes": 2441043,
+        "mtime_ns": 1793659154125476462,
+        "ctime_ns": 1793659154256601819,
+        "nlink": 1,
+        "allocated_bytes": 2441216
+      },
+      "sha256": "1545a5909e07a557929939e4438533b346cbde245379b9a7ec966cb19a01926b",
+      "rebuild_from": [
+        {
+          "path": "Work/short02-provider-alignment-review-20261102/previews/PAPER_DETOUR_001_SHORT02_RENEWAL_EN_REVIEW_20261102_v03.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125494105,
+            "bytes": 49188019,
+            "mtime_ns": 1793655853734888862,
+            "ctime_ns": 1793655853781487737,
+            "nlink": 1,
+            "allocated_bytes": 49188864
+          },
+          "sha256": "bd5d071beb1465db056f6c2746da778b74602814675d3f04b2de425ec4685d6f"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short02_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125547615,
+            "bytes": 6082,
+            "mtime_ns": 1793659310354149850,
+            "ctime_ns": 1793659310354149850,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "0988ae84f27d41121335eb89b5da4da4cc16110ad02e3bc463f84a568bd63131"
+        }
+      ],
+      "disposition": "pending",
+      "removed_utc": "2026-11-03T02:22:08.868210+00:00"
+    },
+    {
+      "path": "Work/short02_motion_review_20261102_v01/scratch/frame_0924.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125545990,
+        "bytes": 2011630,
+        "mtime_ns": 1793659154127239326,
+        "ctime_ns": 1793659154256681901,
+        "nlink": 1,
+        "allocated_bytes": 2015232
+      },
+      "sha256": "051b7e8fc19adbdaa7e29eddcef2e079ad5065bdd8293ff8774033a4246d5bc1",
+      "rebuild_from": [
+        {
+          "path": "Work/short02-provider-alignment-review-20261102/previews/PAPER_DETOUR_001_SHORT02_RENEWAL_EN_REVIEW_20261102_v03.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125494105,
+            "bytes": 49188019,
+            "mtime_ns": 1793655853734888862,
+            "ctime_ns": 1793655853781487737,
+            "nlink": 1,
+            "allocated_bytes": 49188864
+          },
+          "sha256": "bd5d071beb1465db056f6c2746da778b74602814675d3f04b2de425ec4685d6f"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short02_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125547615,
+            "bytes": 6082,
+            "mtime_ns": 1793659310354149850,
+            "ctime_ns": 1793659310354149850,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "0988ae84f27d41121335eb89b5da4da4cc16110ad02e3bc463f84a568bd63131"
+        }
+      ],
+      "disposition": "pending",
+      "removed_utc": "2026-11-03T02:22:08.876753+00:00"
+    },
+    {
+      "path": "Work/short02_motion_review_20261102_v01/scratch/frame_0967.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125545991,
+        "bytes": 2205652,
+        "mtime_ns": 1793659154138350469,
+        "ctime_ns": 1793659154256754859,
+        "nlink": 1,
+        "allocated_bytes": 2207744
+      },
+      "sha256": "81e569820890a970df68115e0d0c12e141a57b3643acad117e6b644c03808118",
+      "rebuild_from": [
+        {
+          "path": "Work/short02-provider-alignment-review-20261102/previews/PAPER_DETOUR_001_SHORT02_RENEWAL_EN_REVIEW_20261102_v03.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125494105,
+            "bytes": 49188019,
+            "mtime_ns": 1793655853734888862,
+            "ctime_ns": 1793655853781487737,
+            "nlink": 1,
+            "allocated_bytes": 49188864
+          },
+          "sha256": "bd5d071beb1465db056f6c2746da778b74602814675d3f04b2de425ec4685d6f"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short02_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125547615,
+            "bytes": 6082,
+            "mtime_ns": 1793659310354149850,
+            "ctime_ns": 1793659310354149850,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "0988ae84f27d41121335eb89b5da4da4cc16110ad02e3bc463f84a568bd63131"
+        }
+      ],
+      "disposition": "pending",
+      "removed_utc": "2026-11-03T02:22:08.886032+00:00"
+    },
+    {
+      "path": "Work/short02_motion_review_20261102_v01/scratch/frame_1011.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125545993,
+        "bytes": 2198697,
+        "mtime_ns": 1793659154159399888,
+        "ctime_ns": 1793659154256877775,
+        "nlink": 1,
+        "allocated_bytes": 2199552
+      },
+      "sha256": "ed485389c7656e3ce2187d224fef8e862cf126d0560f78be068c1040b08702b7",
+      "rebuild_from": [
+        {
+          "path": "Work/short02-provider-alignment-review-20261102/previews/PAPER_DETOUR_001_SHORT02_RENEWAL_EN_REVIEW_20261102_v03.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125494105,
+            "bytes": 49188019,
+            "mtime_ns": 1793655853734888862,
+            "ctime_ns": 1793655853781487737,
+            "nlink": 1,
+            "allocated_bytes": 49188864
+          },
+          "sha256": "bd5d071beb1465db056f6c2746da778b74602814675d3f04b2de425ec4685d6f"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short02_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125547615,
+            "bytes": 6082,
+            "mtime_ns": 1793659310354149850,
+            "ctime_ns": 1793659310354149850,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "0988ae84f27d41121335eb89b5da4da4cc16110ad02e3bc463f84a568bd63131"
+        }
+      ],
+      "disposition": "pending",
+      "removed_utc": "2026-11-03T02:22:08.895637+00:00"
+    },
+    {
+      "path": "Work/short02_motion_review_20261102_v01/scratch/frame_1054.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125545994,
+        "bytes": 2173809,
+        "mtime_ns": 1793659154208136102,
+        "ctime_ns": 1793659154257183898,
+        "nlink": 1,
+        "allocated_bytes": 2174976
+      },
+      "sha256": "8ad3396f88c075d779b228ae707394333b0abc0cd5d7d83e9fe3cc794c86e4a4",
+      "rebuild_from": [
+        {
+          "path": "Work/short02-provider-alignment-review-20261102/previews/PAPER_DETOUR_001_SHORT02_RENEWAL_EN_REVIEW_20261102_v03.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125494105,
+            "bytes": 49188019,
+            "mtime_ns": 1793655853734888862,
+            "ctime_ns": 1793655853781487737,
+            "nlink": 1,
+            "allocated_bytes": 49188864
+          },
+          "sha256": "bd5d071beb1465db056f6c2746da778b74602814675d3f04b2de425ec4685d6f"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short02_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125547615,
+            "bytes": 6082,
+            "mtime_ns": 1793659310354149850,
+            "ctime_ns": 1793659310354149850,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "0988ae84f27d41121335eb89b5da4da4cc16110ad02e3bc463f84a568bd63131"
+        }
+      ],
+      "disposition": "pending",
+      "removed_utc": "2026-11-03T02:22:08.904608+00:00"
+    },
+    {
+      "path": "Work/short02_motion_review_20261102_v01/scratch/frame_1097.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125545995,
+        "bytes": 2301359,
+        "mtime_ns": 1793659154247627621,
+        "ctime_ns": 1793659154257274606,
+        "nlink": 1,
+        "allocated_bytes": 2301952
+      },
+      "sha256": "6e54f33e47ca742f5f89be3147b61d14380f425ad1409d06aa0a138312ca30a7",
+      "rebuild_from": [
+        {
+          "path": "Work/short02-provider-alignment-review-20261102/previews/PAPER_DETOUR_001_SHORT02_RENEWAL_EN_REVIEW_20261102_v03.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125494105,
+            "bytes": 49188019,
+            "mtime_ns": 1793655853734888862,
+            "ctime_ns": 1793655853781487737,
+            "nlink": 1,
+            "allocated_bytes": 49188864
+          },
+          "sha256": "bd5d071beb1465db056f6c2746da778b74602814675d3f04b2de425ec4685d6f"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short02_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125547615,
+            "bytes": 6082,
+            "mtime_ns": 1793659310354149850,
+            "ctime_ns": 1793659310354149850,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "0988ae84f27d41121335eb89b5da4da4cc16110ad02e3bc463f84a568bd63131"
+        }
+      ],
+      "disposition": "pending",
+      "removed_utc": "2026-11-03T02:22:08.913728+00:00"
+    }
+  ],
+  "writer_finished_utc": "2026-11-02T22:42:02.387967+00:00"
+}

@@ -1,0 +1,61 @@
+{
+  "channel": "nuviko",
+  "format": "long",
+  "fps": 30,
+  "canvas": [
+    2560,
+    1440
+  ],
+  "source_transfer": "srgb",
+  "audio": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Work/production-20261104-v02/sample_inputs/mix_sample.wav",
+  "audio_contract": {
+    "final_audio_sha256": "09792c5eaeb540e6157b23950c84e117b1411d12963233f676ccb618a7b24ba1",
+    "applied_speed": 1.1,
+    "speed_evidence": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Work/production-20261104-v02/sample_inputs/speed.md"
+  },
+  "scenes": [
+    {
+      "id": "S01",
+      "image": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Source/Images/v02/host_opening_v01.png",
+      "start_frame": 0,
+      "end_frame": 168,
+      "direction": "none",
+      "zoom": "in",
+      "camera": {
+        "focus": [
+          0.76,
+          0.34
+        ],
+        "subject": "Traveler in separate explanatory space with Earth and a distant Voyager visualization.",
+        "reason": "Traveler opening the question; preserve the left explanatory model.",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.025
+        }
+      }
+    }
+  ],
+  "subtitles": {
+    "mode": "words",
+    "words": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Work/production-20261104-v02/sample_inputs/words.json",
+    "transcript": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Work/production-20261104-v02/sample_inputs/transcript.txt",
+    "phrases": [
+      "How Do You Fix Voyager 1",
+      "From 24 Billion Kilometers",
+      "Away?"
+    ],
+    "keep_together": [
+      "Voyager 1"
+    ]
+  }
+}

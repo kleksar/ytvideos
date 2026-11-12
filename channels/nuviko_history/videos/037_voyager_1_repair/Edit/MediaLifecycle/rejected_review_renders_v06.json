@@ -1,0 +1,27 @@
+{
+  "status": "COMPLETED",
+  "scope": "Only two exact superseded rejected review outputs; source/edit dependencies retained.",
+  "audit": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Edit/MediaLifecycle/pre-render-v06/audit.json",
+  "items": [
+    {
+      "source": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Deliverables/voyager_037_en_v03_review_v01.mp4",
+      "destination": "/Users/diplomat/.Trash/ytvideos-voyager037-rejected-20261105-v06/voyager_037_en_v03_review_v01.mp4",
+      "sha256": "34a36d751bbe2527caea409d6ff8c81aa545aba6da8628c6e1266d3964e35aec",
+      "bytes": 528546831,
+      "decision": "Rejected photorealistic presenter; user requests corrected illustrated character.",
+      "operation": "recoverable rename into user Trash; not permanent deletion",
+      "status": "MOVED_TO_TRASH",
+      "restoration": "Move destination back to exact source path."
+    },
+    {
+      "source": "/Users/diplomat/ytvideos/channels/nuviko_history/videos/037_voyager_1_repair/Deliverables/voyager_037_en_v05_review_v01.mp4",
+      "destination": "/Users/diplomat/.Trash/ytvideos-voyager037-rejected-20261105-v06/voyager_037_en_v05_review_v01.mp4",
+      "sha256": "a15061c71b46f038a2b3d329c1ae2911845f0bddc48f2c05c0c5f5936a4a82d0",
+      "bytes": 526841497,
+      "decision": "Changes requested for antenna and historical visual-reference treatment; actual-file inspection found misassignments and content defects.",
+      "operation": "recoverable rename into user Trash; not permanent deletion",
+      "status": "MOVED_TO_TRASH",
+      "restoration": "Move destination back to exact source path."
+    }
+  ]
+}

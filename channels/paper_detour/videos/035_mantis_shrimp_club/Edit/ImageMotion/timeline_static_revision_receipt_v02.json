@@ -1,0 +1,455 @@
+{
+  "time": "2026-11-02T06:01:11+0100",
+  "projectId": "ACFE2102",
+  "baselineTimelineId": "5DFC7333-E270-4AD2-A0AC-200C67551732",
+  "snapshot": {
+    "snapshot": {
+      "author": {
+        "kind": "agent",
+        "name": "yt-stories-inspect"
+      },
+      "createdAt": "2026-11-02T05:01:11Z",
+      "name": "035 \u2014 before motion-safe image revision v02",
+      "snapshotId": "192DF47A"
+    }
+  },
+  "baselineTracks": {
+    "Accents": 5,
+    "Main": 9,
+    "Voice": 1
+  },
+  "sourceTimelineClone": {
+    "actionId": "1807C966",
+    "name": "Timeline 1 \u2014 motion-safe stills v02",
+    "note": "Duplicated \"Timeline 1\". Its clip and track ids are new \u2014 read it with get_timeline before editing.",
+    "timelineId": "684CA938"
+  },
+  "cloneReadback": {
+    "timelineId": "684CA938",
+    "tracks": {
+      "Accents": 5,
+      "Main": 9,
+      "Voice": 1
+    },
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "cloneSnapshot": {
+    "snapshot": {
+      "author": {
+        "kind": "agent",
+        "name": "yt-stories-inspect"
+      },
+      "createdAt": "2026-11-02T05:01:39Z",
+      "name": "035 \u2014 before swapping motion-safe scenes v02",
+      "snapshotId": "6B4222B2"
+    }
+  },
+  "imageImports": [
+    {
+      "scene": "S01",
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/035_mantis_shrimp_club/Source/Images/paper_v02/S01_v02.png",
+      "clipId": "25F673D4",
+      "mediaRef": "EA34662F",
+      "result": {
+        "actionId": "B2E30914",
+        "mediaRef": "EA34662F",
+        "name": "S01_v02",
+        "status": "ready",
+        "type": "image"
+      }
+    },
+    {
+      "scene": "S02",
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/035_mantis_shrimp_club/Source/Images/paper_v02/S02_v02.png",
+      "clipId": "39C1B856",
+      "mediaRef": "04EA9A7F",
+      "result": {
+        "actionId": "3DBF68E2",
+        "mediaRef": "04EA9A7F",
+        "name": "S02_v02",
+        "status": "ready",
+        "type": "image"
+      }
+    },
+    {
+      "scene": "S03",
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/035_mantis_shrimp_club/Source/Images/paper_v02/S03_v02.png",
+      "clipId": "8C0B294D",
+      "mediaRef": "80AF7905",
+      "result": {
+        "actionId": "7231B9C8",
+        "mediaRef": "80AF7905",
+        "name": "S03_v02",
+        "status": "ready",
+        "type": "image"
+      }
+    },
+    {
+      "scene": "S04",
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/035_mantis_shrimp_club/Source/Images/paper_v02/S04_v03.png",
+      "clipId": "64D859A4",
+      "mediaRef": "FC2D3ECF",
+      "result": {
+        "actionId": "C05AD3F5",
+        "mediaRef": "FC2D3ECF",
+        "name": "S04_v03",
+        "status": "ready",
+        "type": "image"
+      }
+    },
+    {
+      "scene": "S05",
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/035_mantis_shrimp_club/Source/Images/paper_v02/S05_v02.png",
+      "clipId": "9560CCBD",
+      "mediaRef": "99831451",
+      "result": {
+        "actionId": "059C1483",
+        "mediaRef": "99831451",
+        "name": "S05_v02",
+        "status": "ready",
+        "type": "image"
+      }
+    },
+    {
+      "scene": "S06",
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/035_mantis_shrimp_club/Source/Images/paper_v02/S06_v02.png",
+      "clipId": "B06F3BC2",
+      "mediaRef": "171D1E22",
+      "result": {
+        "actionId": "4D29209D",
+        "mediaRef": "171D1E22",
+        "name": "S06_v02",
+        "status": "ready",
+        "type": "image"
+      }
+    },
+    {
+      "scene": "S07",
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/035_mantis_shrimp_club/Source/Images/paper_v02/S07_v02.png",
+      "clipId": "9BD279D1",
+      "mediaRef": "8C660184",
+      "result": {
+        "actionId": "F2D8C6A0",
+        "mediaRef": "8C660184",
+        "name": "S07_v02",
+        "status": "ready",
+        "type": "image"
+      }
+    },
+    {
+      "scene": "S08",
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/035_mantis_shrimp_club/Source/Images/paper_v02/S08_v02.png",
+      "clipId": "89F7CBEA",
+      "mediaRef": "7DC0DF4F",
+      "result": {
+        "actionId": "757D5A14",
+        "mediaRef": "7DC0DF4F",
+        "name": "S08_v02",
+        "status": "ready",
+        "type": "image"
+      }
+    },
+    {
+      "scene": "S09",
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/videos/035_mantis_shrimp_club/Source/Images/paper_v02/S09_v02.png",
+      "clipId": "5BA6B376",
+      "mediaRef": "9BA9CE24",
+      "result": {
+        "actionId": "3A443DF1",
+        "mediaRef": "9BA9CE24",
+        "name": "S09_v02",
+        "status": "ready",
+        "type": "image"
+      }
+    }
+  ],
+  "mediaSwaps": [
+    {
+      "scene": "S01",
+      "clipId": "25F673D4",
+      "mediaRef": "EA34662F",
+      "result": {
+        "actionId": "F2ABAA73",
+        "affectedClipIds": [
+          "25F673D4"
+        ],
+        "changed": true,
+        "clipId": "25F673D4",
+        "clips": [
+          {
+            "frames": [
+              0,
+              122
+            ],
+            "id": "25F673D4",
+            "mediaRef": "EA34662F",
+            "mediaType": "image",
+            "track": 1,
+            "trimEndFrame": 28
+          }
+        ],
+        "mediaRef": "EA34662F",
+        "oldMediaRef": "6251E326"
+      }
+    },
+    {
+      "scene": "S02",
+      "clipId": "39C1B856",
+      "mediaRef": "04EA9A7F",
+      "result": {
+        "actionId": "D50057C8",
+        "affectedClipIds": [
+          "39C1B856"
+        ],
+        "changed": true,
+        "clipId": "39C1B856",
+        "clips": [
+          {
+            "frames": [
+              122,
+              352
+            ],
+            "id": "39C1B856",
+            "mediaRef": "04EA9A7F",
+            "mediaType": "image",
+            "track": 1
+          }
+        ],
+        "mediaRef": "04EA9A7F",
+        "oldMediaRef": "66D27FA7"
+      }
+    },
+    {
+      "scene": "S03",
+      "clipId": "8C0B294D",
+      "mediaRef": "80AF7905",
+      "result": {
+        "actionId": "B9B630D5",
+        "affectedClipIds": [
+          "8C0B294D"
+        ],
+        "changed": true,
+        "clipId": "8C0B294D",
+        "clips": [
+          {
+            "frames": [
+              352,
+              474
+            ],
+            "id": "8C0B294D",
+            "mediaRef": "80AF7905",
+            "mediaType": "image",
+            "track": 1,
+            "trimEndFrame": 28
+          }
+        ],
+        "mediaRef": "80AF7905",
+        "oldMediaRef": "C1D56ED9"
+      }
+    },
+    {
+      "scene": "S04",
+      "clipId": "64D859A4",
+      "mediaRef": "FC2D3ECF",
+      "result": {
+        "actionId": "F204345D",
+        "affectedClipIds": [
+          "64D859A4"
+        ],
+        "changed": true,
+        "clipId": "64D859A4",
+        "clips": [
+          {
+            "frames": [
+              474,
+              612
+            ],
+            "id": "64D859A4",
+            "mediaRef": "FC2D3ECF",
+            "mediaType": "image",
+            "track": 1,
+            "trimEndFrame": 12
+          }
+        ],
+        "mediaRef": "FC2D3ECF",
+        "oldMediaRef": "24965C73"
+      }
+    },
+    {
+      "scene": "S05",
+      "clipId": "9560CCBD",
+      "mediaRef": "99831451",
+      "result": {
+        "actionId": "E07CEB64",
+        "affectedClipIds": [
+          "9560CCBD"
+        ],
+        "changed": true,
+        "clipId": "9560CCBD",
+        "clips": [
+          {
+            "frames": [
+              612,
+              763
+            ],
+            "id": "9560CCBD",
+            "mediaRef": "99831451",
+            "mediaType": "image",
+            "track": 1
+          }
+        ],
+        "mediaRef": "99831451",
+        "oldMediaRef": "474B94FA"
+      }
+    },
+    {
+      "scene": "S06",
+      "clipId": "B06F3BC2",
+      "mediaRef": "171D1E22",
+      "result": {
+        "actionId": "699AA8B4",
+        "affectedClipIds": [
+          "B06F3BC2"
+        ],
+        "changed": true,
+        "clipId": "B06F3BC2",
+        "clips": [
+          {
+            "frames": [
+              763,
+              965
+            ],
+            "id": "B06F3BC2",
+            "mediaRef": "171D1E22",
+            "mediaType": "image",
+            "track": 1
+          }
+        ],
+        "mediaRef": "171D1E22",
+        "oldMediaRef": "E4174FF5"
+      }
+    },
+    {
+      "scene": "S07",
+      "clipId": "9BD279D1",
+      "mediaRef": "8C660184",
+      "result": {
+        "actionId": "33DF6E0E",
+        "affectedClipIds": [
+          "9BD279D1"
+        ],
+        "changed": true,
+        "clipId": "9BD279D1",
+        "clips": [
+          {
+            "frames": [
+              965,
+              1090
+            ],
+            "id": "9BD279D1",
+            "mediaRef": "8C660184",
+            "mediaType": "image",
+            "track": 1,
+            "trimEndFrame": 25
+          }
+        ],
+        "mediaRef": "8C660184",
+        "oldMediaRef": "035268FC"
+      }
+    },
+    {
+      "scene": "S08",
+      "clipId": "89F7CBEA",
+      "mediaRef": "7DC0DF4F",
+      "result": {
+        "actionId": "EA47DC28",
+        "affectedClipIds": [
+          "89F7CBEA"
+        ],
+        "changed": true,
+        "clipId": "89F7CBEA",
+        "clips": [
+          {
+            "frames": [
+              1090,
+              1241
+            ],
+            "id": "89F7CBEA",
+            "mediaRef": "7DC0DF4F",
+            "mediaType": "image",
+            "track": 1
+          }
+        ],
+        "mediaRef": "7DC0DF4F",
+        "oldMediaRef": "C6D4A6B0"
+      }
+    },
+    {
+      "scene": "S09",
+      "clipId": "5BA6B376",
+      "mediaRef": "9BA9CE24",
+      "result": {
+        "actionId": "3A8FEE61",
+        "affectedClipIds": [
+          "5BA6B376"
+        ],
+        "changed": true,
+        "clipId": "5BA6B376",
+        "clips": [
+          {
+            "frames": [
+              1241,
+              1325
+            ],
+            "id": "5BA6B376",
+            "mediaRef": "9BA9CE24",
+            "mediaType": "image",
+            "track": 1,
+            "trimEndFrame": 66
+          }
+        ],
+        "mediaRef": "9BA9CE24",
+        "oldMediaRef": "64B58214"
+      }
+    }
+  ],
+  "readback": {
+    "trackCounts": {
+      "Accents": 5,
+      "Main": 9,
+      "Voice": 1
+    },
+    "mainClipIds": [
+      "25F673D4",
+      "39C1B856",
+      "8C0B294D",
+      "64D859A4",
+      "9560CCBD",
+      "B06F3BC2",
+      "9BD279D1",
+      "89F7CBEA",
+      "5BA6B376"
+    ],
+    "mainMediaRefs": [
+      "EA34662F",
+      "04EA9A7F",
+      "80AF7905",
+      "FC2D3ECF",
+      "99831451",
+      "171D1E22",
+      "8C660184",
+      "7DC0DF4F",
+      "9BA9CE24"
+    ],
+    "settings": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "colorSpace": null
+    }
+  },
+  "manifestUpdated": "/Users/diplomat/ytvideos/channels/paper_detour/videos/035_mantis_shrimp_club/Edit/ImageMotion/sources_v02.json",
+  "motionConfigUpdated": "/Users/diplomat/ytvideos/channels/paper_detour/videos/035_mantis_shrimp_club/Edit/ImageMotion/motion_v02.json"
+}

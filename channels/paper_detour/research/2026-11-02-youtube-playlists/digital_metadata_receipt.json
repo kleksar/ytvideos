@@ -1,0 +1,165 @@
+{
+  "operation": "digital_metadata",
+  "channel_id": "UCMVfdfaNxV3ZkI3_J3Eejzw",
+  "started_at": "2026-11-01T23:53:02.456425+00:00",
+  "state": "saved_verified",
+  "before": {
+    "kind": "youtube#playlist",
+    "etag": "NKlL-bOZ47GJNUERXC1TEbqRY00",
+    "id": "PLCAXo3w7Gths",
+    "snippet": {
+      "publishedAt": "2026-11-01T14:20:52.727741699Z",
+      "channelId": "UCMVfdfaNxV3ZkI3_J3Eejzw",
+      "title": "Digital Life & Attention",
+      "description": "Short films about social media, attention, screen time, and making room for life beyond the feed.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/-KW8jgSoEz0/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/-KW8jgSoEz0/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/-KW8jgSoEz0/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/-KW8jgSoEz0/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/-KW8jgSoEz0/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Paper Detour",
+      "localized": {
+        "title": "Digital Life & Attention",
+        "description": "Short films about social media, attention, screen time, and making room for life beyond the feed."
+      }
+    },
+    "status": {
+      "privacyStatus": "public"
+    },
+    "contentDetails": {
+      "itemCount": 1
+    }
+  },
+  "request": {
+    "method": "PUT",
+    "resource": "playlists",
+    "part": "snippet",
+    "body": {
+      "id": "PLCAXo3w7Gths",
+      "snippet": {
+        "title": "Digital Life & Attention",
+        "description": "Short films about social media, attention, screen time, AI companions, digital relationships, and making room for life beyond the feed.",
+        "defaultLanguage": "en"
+      }
+    }
+  },
+  "http_status": 200,
+  "response": {
+    "kind": "youtube#playlist",
+    "etag": "ScvvnPgvhowYBWghjYWdGg9vSrQ",
+    "id": "PLCAXo3w7Gths",
+    "snippet": {
+      "publishedAt": "2026-11-01T14:20:52Z",
+      "channelId": "UCMVfdfaNxV3ZkI3_J3Eejzw",
+      "title": "Digital Life & Attention",
+      "description": "Short films about social media, attention, screen time, AI companions, digital relationships, and making room for life beyond the feed.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/-KW8jgSoEz0/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/-KW8jgSoEz0/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/-KW8jgSoEz0/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/-KW8jgSoEz0/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/-KW8jgSoEz0/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Paper Detour",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "Digital Life & Attention",
+        "description": "Short films about social media, attention, screen time, AI companions, digital relationships, and making room for life beyond the feed."
+      }
+    }
+  },
+  "after": {
+    "kind": "youtube#playlist",
+    "etag": "GAH8B7IoJ0yL2YnvZlwaw66vKUI",
+    "id": "PLCAXo3w7Gths",
+    "snippet": {
+      "publishedAt": "2026-11-01T14:20:52.727741699Z",
+      "channelId": "UCMVfdfaNxV3ZkI3_J3Eejzw",
+      "title": "Digital Life & Attention",
+      "description": "Short films about social media, attention, screen time, AI companions, digital relationships, and making room for life beyond the feed.",
+      "thumbnails": {
+        "default": {
+          "url": "https://i.ytimg.com/vi/-KW8jgSoEz0/default.jpg",
+          "width": 120,
+          "height": 90
+        },
+        "medium": {
+          "url": "https://i.ytimg.com/vi/-KW8jgSoEz0/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/-KW8jgSoEz0/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/-KW8jgSoEz0/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "maxres": {
+          "url": "https://i.ytimg.com/vi/-KW8jgSoEz0/maxresdefault.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      "channelTitle": "Paper Detour",
+      "defaultLanguage": "en",
+      "localized": {
+        "title": "Digital Life & Attention",
+        "description": "Short films about social media, attention, screen time, AI companions, digital relationships, and making room for life beyond the feed."
+      }
+    },
+    "status": {
+      "privacyStatus": "public"
+    },
+    "contentDetails": {
+      "itemCount": 1
+    }
+  },
+  "read_attempts": 2,
+  "verified_at": "2026-11-01T23:53:05.572541+00:00"
+}

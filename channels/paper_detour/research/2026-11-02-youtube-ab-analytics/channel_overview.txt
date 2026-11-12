@@ -1,0 +1,186 @@
+- generic: Аналитика по каналу
+- banner:
+  - button "Свернуть меню":
+  - link "Панель управления в новой Творческой студии":
+    - /url: /channel/UCMVfdfaNxV3ZkI3_J3Eejzw
+    - img "Панель управления в новой Творческой студии"
+  - button "Пропустить навигацию":
+    - generic: Пропустить навигацию
+  - textbox "Поиск на канале"
+  - button "Справка":
+  - button "Уведомления":
+  - button "Спросить у Студии":
+    - generic: Спросить у Студии
+  - button "Создать":
+    - generic: Создать
+  - generic "Аккаунт":
+    - button "Account"
+- navigation:
+  - img "Paper Detour"
+  - generic: Ваш канал
+  - generic: Paper Detour
+  - menu:
+    - menuitem "Главная":
+      - generic: Главная
+    - menuitem "Контент":
+      - generic: Контент
+    - menuitem "Аналитика":
+      - generic: Аналитика
+    - menuitem "Сообщество":
+      - generic: Сообщество
+    - menuitem "Языки":
+      - generic: Языки
+    - menuitem "Обнаружение контента":
+      - generic: Обнаружение контента
+    - menuitem "Монетизация":
+      - generic: Монетизация
+    - menuitem "Настройка канала":
+      - generic: Настройка канала
+    - menuitem "Фонотека":
+      - generic: Фонотека
+  - list:
+    - button "Настройки":
+      - generic: Настройки
+    - button "Отправить отзыв":
+      - generic: Отправить отзыв
+- main:
+  - heading "Аналитика по каналу" [level=1]
+  - link "Расширенный режим":
+    - /url: /channel/UCMVfdfaNxV3ZkI3_J3Eejzw/analytics/tab-overview/period-default/explore?entity_type=CHANNEL&entity_id=UCMVfdfaNxV3ZkI3_J3Eejzw&time_period=4_weeks&explore_type=TABLE_AND_CHART&metric=EXTERNAL_VIEWS&granularity=DAY&t_metrics=EXTERNAL_VIEWS&t_metrics=EXTERNAL_WATCH_TIME&t_metrics=SUBSCRIBERS_NET_CHANGE&t_metrics=TOTAL_ESTIMATED_EARNINGS&t_metrics=VIDEO_THUMBNAIL_IMPRESSIONS&t_metrics=VIDEO_THUMBNAIL_IMPRESSIONS_VTR&dimension=VIDEO&o_column=EXTERNAL_VIEWS&o_direction=ANALYTICS_ORDER_DIRECTION_DESC
+    - button "Расширенный режим":
+      - generic: Расширенный режим
+  - button "Как зрители находят мой контент?":
+    - generic: Как зрители находят мой контент?
+  - button "Сколько на моем канале новых зрителей?":
+    - generic: Сколько на моем канале новых зрителей?
+  - button "Дать краткую оценку эффективности последнего видео":
+    - generic: Дать краткую оценку эффективности последнего видео
+  - generic "Открыть дополнительное меню, чтобы отклонить предложения":
+    - button "Открыть дополнительное меню, чтобы отклонить предложения":
+  - tablist:
+    - tab "Обзор" [selected]:
+      - generic: Обзор
+    - tab "Контент":
+      - generic: Контент
+    - tab "Аудитория":
+      - generic: Аудитория
+    - tab "Тренды":
+      - generic: Тренды
+  - button "4–31 окт. 2026 г. Последние 28 дней":
+    - button "4–31 окт. 2026 г. Последние 28 дней":
+      - generic: 4–31 окт. 2026 г.
+      - generic: Последние 28 дней
+  - heading "За последние 28 дней ваши видео набрали 59 просмотров" [level=2]
+  - generic: Просмотры
+  - listbox:
+    - option "Просмотры 59 Общее число просмотров для выбранного периода и региона" [selected]:
+      - generic: Просмотры
+      - generic: "59"
+      - generic: Общее число просмотров для выбранного периода и региона
+    - option "Время просмотра (часы) 0,4 Примерное общее время просмотра ваших видео в часах.":
+      - generic: Время просмотра (часы)
+      - generic: 0,4
+      - generic: Примерное общее время просмотра ваших видео в часах.
+    - option "Подписчики +1 Изменение общего числа подписчиков – разница между тем, сколько пользователей добавили подписку, и тем, сколько от нее отказались (в выбранном регионе за указанный период).":
+      - generic: Подписчики
+      - generic: "+1"
+      - generic: Изменение общего числа подписчиков – разница между тем, сколько пользователей добавили подписку, и тем, сколько от нее отказались (в выбранном регионе за указанный период).
+  - generic: Просмотры
+  - link "Подробнее":
+    - /url: /channel/UCMVfdfaNxV3ZkI3_J3Eejzw/analytics/tab-overview/period-default/explore?entity_type=CHANNEL&entity_id=UCMVfdfaNxV3ZkI3_J3Eejzw&time_period=4_weeks&explore_type=TABLE_AND_CHART&metrics_computation_type=DELTA&metric=EXTERNAL_VIEWS&granularity=DAY&t_metrics=EXTERNAL_VIEWS&t_metrics=EXTERNAL_WATCH_TIME&t_metrics=SUBSCRIBERS_NET_CHANGE&t_metrics=VIDEO_THUMBNAIL_IMPRESSIONS&t_metrics=VIDEO_THUMBNAIL_IMPRESSIONS_VTR&v_metrics=EXTERNAL_VIEWS&v_metrics=EXTERNAL_WATCH_TIME&v_metrics=SUBSCRIBERS_NET_CHANGE&v_metrics=VIDEO_THUMBNAIL_IMPRESSIONS&v_metrics=VIDEO_THUMBNAIL_IMPRESSIONS_VTR&dimension=VIDEO&o_column=EXTERNAL_VIEWS&o_direction=ANALYTICS_ORDER_DIRECTION_DESC
+    - generic "Подробнее":
+      - button "Подробнее":
+        - generic: Подробнее
+  - heading "Самый популярный контент за период" [level=2]
+  - generic: Контент
+  - generic: Средняя продолжительность просмотра
+  - generic: Просмотры
+  - generic: "1"
+  - generic: "They Opened Her Coffin. She Sat Up. #IrishLegends #Shorts"
+  - generic: 31 окт. 2026 г.
+  - generic: Новое видео
+  - generic: 0:51
+  - generic: (66,6 %)
+  - generic: "26"
+  - generic: "2"
+  - generic: When Radio Sent Software as Sound
+  - generic: 31 окт. 2026 г.
+  - generic: Новое видео
+  - generic: 0:14
+  - generic: (47,6 %)
+  - generic: "11"
+  - generic: "3"
+  - generic: "An MSX Game in a Radio Recording? #RetroComputing"
+  - generic: 31 окт. 2026 г.
+  - generic: Новое видео
+  - generic: 1:02
+  - generic: (167,9 %)
+  - generic: "11"
+  - generic: "4"
+  - generic: A Radio Signal with an Unexpected Listener
+  - generic: 31 окт. 2026 г.
+  - generic: Новое видео
+  - generic: 0:50
+  - generic: (19,2 %)
+  - generic: "5"
+  - link "Подробнее":
+    - /url: /channel/UCMVfdfaNxV3ZkI3_J3Eejzw/analytics/tab-overview/period-default/explore?entity_type=CHANNEL&entity_id=UCMVfdfaNxV3ZkI3_J3Eejzw&time_period=4_weeks&explore_type=TABLE_AND_CHART&metric=EXTERNAL_VIEWS&granularity=DAY&t_metrics=EXTERNAL_VIEWS&t_metrics=AVERAGE_WATCH_TIME&t_metrics=AVERAGE_WATCH_PERCENTAGE&t_metrics=HYPES&dimension=VIDEO&o_column=EXTERNAL_VIEWS&o_direction=ANALYTICS_ORDER_DIRECTION_DESC
+    - generic "Подробнее":
+      - button "Подробнее":
+        - generic: Подробнее
+  - heading "Текущая статистика" [level=2]
+  - generic: В реальном времени
+  - separator
+  - generic: "4"
+  - generic: Подписчики
+  - link "Подробнее":
+    - /url: /channel/UCMVfdfaNxV3ZkI3_J3Eejzw/analytics/tab-overview/period-default/explore?entity_type=CHANNEL&entity_id=UCMVfdfaNxV3ZkI3_J3Eejzw&time_period=4_weeks&explore_type=SUBSCRIBERS
+    - button "Подробнее":
+      - generic: Подробнее
+  - separator
+  - generic: "709"
+  - generic: Просмотры · Последние 48 часов
+  - generic: "Последние данные, Просмотры: Последние 48 часов, 709."
+  - generic: Самый популярный контент
+  - generic: Просмотры
+  - 'link "They Opened Her Coffin. She Sat Up. #IrishLegends #Shorts They Opened Her Coffin. She Sat Up. #IrishLegends #Shorts"':
+    - /url: /video/pdSgHe6ScTI/analytics/tab-overview/period-default
+    - 'img "They Opened Her Coffin. She Sat Up. #IrishLegends #Shorts"'
+    - generic: "They Opened Her Coffin. She Sat Up. #IrishLegends #Shorts"
+  - generic: "320"
+  - link "When Radio Sent Software as Sound When Radio Sent Software as Sound":
+    - /url: /video/85dwIXy_lZs/analytics/tab-overview/period-default
+    - img "When Radio Sent Software as Sound"
+    - generic: When Radio Sent Software as Sound
+  - generic: "240"
+  - 'link "An MSX Game in a Radio Recording? #RetroComputing An MSX Game in a Radio Recording? #RetroComputing"':
+    - /url: /video/7DygREwtxfY/analytics/tab-overview/period-default
+    - 'img "An MSX Game in a Radio Recording? #RetroComputing"'
+    - generic: "An MSX Game in a Radio Recording? #RetroComputing"
+  - generic: "90"
+  - link "Подробнее":
+    - /url: /channel/UCMVfdfaNxV3ZkI3_J3Eejzw/analytics/tab-overview/period-default/explore?entity_type=CHANNEL&entity_id=UCMVfdfaNxV3ZkI3_J3Eejzw&time_period=4_weeks&explore_type=LATEST_ACTIVITY
+    - generic "Подробнее":
+      - button "Подробнее":
+        - generic: Подробнее
+  - generic: Новый контент
+  - img "Значок видео \"The Taj Mahal Cost Him His Hands\""
+  - heading [level=2]: The Taj Mahal Cost Him His Hands
+  - generic: 32 минуты после публикации
+  - button "Просмотры 13":
+    - generic: Просмотры
+    - generic: "13"
+  - button "Средний процент просмотра —":
+    - generic: Средний процент просмотра
+    - generic: —
+  - button "Отметки \"Нравится\" —":
+    - generic: Отметки "Нравится"
+    - generic: —
+  - generic: Посмотреть другие данные об эффективности видео можно будет через 2 часа 28 минут.
+  - link "Посмотреть аналитику для видео":
+    - /url: /video/fvRm9Vxwagk/analytics/tab-overview/period-default
+    - button "Посмотреть аналитику для видео":
+      - generic: Посмотреть аналитику для видео
+  - button "Предыдущий элемент" [disabled]:
+  - generic: 1 из 10
+  - button "Следующий элемент":

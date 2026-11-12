@@ -1,0 +1,33 @@
+{
+  "scene_id": "S007",
+  "version": "candidate_v01",
+  "status": "ACCEPTED_STATIC_SOURCE",
+  "selected_copy": "/Users/diplomat/ytvideos/channels/paper_detour/videos/040_berlin_wall/Source/Images/v01/S007_candidate_v01.png",
+  "source_image": "/Users/diplomat/.codex/generated_images/01a1a186-1011-7450-b9d7-7b0e7f1e2f40/exec-5d149cb2-122a-42af-b850-15b48883d053.png",
+  "sha256": "af6045aab226a104f1fa30ee7cdac6545ba54219f6fe2198c632c40a98d36232",
+  "reference_paths": [
+    "/Users/diplomat/ytvideos/channels/paper_detour/Shared/References/Paper/paper004_user_38.png",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/040_berlin_wall/Source/Images/v01/S005_candidate_v01.png"
+  ],
+  "reference_hashes": {
+    "/Users/diplomat/ytvideos/channels/paper_detour/Shared/References/Paper/paper004_user_38.png": "238bb11958c8e59224edcd006db060df0bddd0c9e100f795e44eeb537ebdc166",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/040_berlin_wall/Source/Images/v01/S005_candidate_v01.png": "10ba88f5e6e0a1a60a6c88fb5e2b9056688704fe01c4548f6d521b99e11f7f09"
+  },
+  "missing_catalog_anchor": "Paper Detour033 S01_v01.png unavailable locally and not used.",
+  "requested_generation_target": "3840x2160 landscape 16:9",
+  "actual_source_dimensions": "/Users/diplomat/ytvideos/channels/paper_detour/videos/040_berlin_wall/Source/Images/v01/S007_candidate_v01.png\n  pixelWidth: 1672\n  pixelHeight: 941",
+  "image_tool_controls": "not exposed; target stated in prompt",
+  "delivery_target": "2560x1440 16:9 at 30 fps; motion/crop pending",
+  "visual_review": {
+    "reviewer": "Codex author (not an independent reviewer)",
+    "scope": "full-frame source inspected against S005 and available Paper004 reference",
+    "result": "ACCEPTED for static source: near-side people stay in front of the same unbroken wall/closed crossing; angle is distinct; layered paper and physical lighting are readable",
+    "limitations": [
+      "Tool output below requested 4K target.",
+      "Scene spans both the 1989 crowd beat and the narrated pivot back to 1961; separate 1961 text overlay is planned, so do not describe this frame as a literal 1961 depiction.",
+      "Seasonal set dressing and clothing are illustrative, not researched.",
+      "Motion/crop/composite unverified."
+    ]
+  },
+  "prompt_file": "S007_candidate_v01_prompt.txt"
+}

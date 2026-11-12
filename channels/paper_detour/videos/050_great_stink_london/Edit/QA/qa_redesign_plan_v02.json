@@ -1,0 +1,299 @@
+{
+  "frame_count": 7584,
+  "fps": "30/1",
+  "required_review_checks": [
+    "stream_metadata",
+    "full_decode",
+    "frame_sampling",
+    "motion_framing",
+    "cue_timing",
+    "audio_signal",
+    "subjective_audio_listening",
+    "srt",
+    "independent_review"
+  ],
+  "freshness": {
+    "status": "UNVERIFIED",
+    "evidence": "Pending exact rendered output and renderer delivery receipt."
+  },
+  "expected": {
+    "video": {
+      "width": 2560,
+      "height": 1440,
+      "codec_name": "h264",
+      "pix_fmt": "yuv420p",
+      "color_space": "bt709"
+    },
+    "audio": {
+      "required": true,
+      "codec_name": "aac",
+      "channels": 2,
+      "sample_rate": 44100
+    }
+  },
+  "scenes": [
+    {
+      "id": "S01",
+      "start": 0,
+      "end": 178
+    },
+    {
+      "id": "S02",
+      "start": 178,
+      "end": 323
+    },
+    {
+      "id": "S03",
+      "start": 323,
+      "end": 451
+    },
+    {
+      "id": "S04",
+      "start": 451,
+      "end": 583
+    },
+    {
+      "id": "S05",
+      "start": 583,
+      "end": 703
+    },
+    {
+      "id": "S06",
+      "start": 703,
+      "end": 877
+    },
+    {
+      "id": "S07",
+      "start": 877,
+      "end": 1026
+    },
+    {
+      "id": "S08",
+      "start": 1026,
+      "end": 1162
+    },
+    {
+      "id": "S09",
+      "start": 1162,
+      "end": 1311
+    },
+    {
+      "id": "S10",
+      "start": 1311,
+      "end": 1453
+    },
+    {
+      "id": "S11",
+      "start": 1453,
+      "end": 1586
+    },
+    {
+      "id": "S12",
+      "start": 1586,
+      "end": 1711
+    },
+    {
+      "id": "S13",
+      "start": 1711,
+      "end": 1848
+    },
+    {
+      "id": "S14",
+      "start": 1848,
+      "end": 1971
+    },
+    {
+      "id": "S15",
+      "start": 1971,
+      "end": 2112
+    },
+    {
+      "id": "S16",
+      "start": 2112,
+      "end": 2290
+    },
+    {
+      "id": "S17",
+      "start": 2290,
+      "end": 2453
+    },
+    {
+      "id": "S18",
+      "start": 2453,
+      "end": 2607
+    },
+    {
+      "id": "S19",
+      "start": 2607,
+      "end": 2764
+    },
+    {
+      "id": "S20",
+      "start": 2764,
+      "end": 2926
+    },
+    {
+      "id": "S21",
+      "start": 2926,
+      "end": 3056
+    },
+    {
+      "id": "S22",
+      "start": 3056,
+      "end": 3177
+    },
+    {
+      "id": "S23",
+      "start": 3177,
+      "end": 3357
+    },
+    {
+      "id": "S24",
+      "start": 3357,
+      "end": 3522
+    },
+    {
+      "id": "S25",
+      "start": 3522,
+      "end": 3680
+    },
+    {
+      "id": "S26",
+      "start": 3680,
+      "end": 3800
+    },
+    {
+      "id": "S27",
+      "start": 3800,
+      "end": 3924
+    },
+    {
+      "id": "S28",
+      "start": 3924,
+      "end": 4076
+    },
+    {
+      "id": "S29",
+      "start": 4076,
+      "end": 4221
+    },
+    {
+      "id": "S30",
+      "start": 4221,
+      "end": 4368
+    },
+    {
+      "id": "S31",
+      "start": 4368,
+      "end": 4525
+    },
+    {
+      "id": "S32",
+      "start": 4525,
+      "end": 4671
+    },
+    {
+      "id": "S33",
+      "start": 4671,
+      "end": 4803
+    },
+    {
+      "id": "S34",
+      "start": 4803,
+      "end": 4925
+    },
+    {
+      "id": "S35",
+      "start": 4925,
+      "end": 5045
+    },
+    {
+      "id": "S36",
+      "start": 5045,
+      "end": 5198
+    },
+    {
+      "id": "S37",
+      "start": 5198,
+      "end": 5347
+    },
+    {
+      "id": "S38",
+      "start": 5347,
+      "end": 5494
+    },
+    {
+      "id": "S39",
+      "start": 5494,
+      "end": 5646
+    },
+    {
+      "id": "S40",
+      "start": 5646,
+      "end": 5810
+    },
+    {
+      "id": "S41",
+      "start": 5810,
+      "end": 5950
+    },
+    {
+      "id": "S42",
+      "start": 5950,
+      "end": 6126
+    },
+    {
+      "id": "S43",
+      "start": 6126,
+      "end": 6300
+    },
+    {
+      "id": "S44",
+      "start": 6300,
+      "end": 6437
+    },
+    {
+      "id": "S45",
+      "start": 6437,
+      "end": 6575
+    },
+    {
+      "id": "S46",
+      "start": 6575,
+      "end": 6721
+    },
+    {
+      "id": "S47",
+      "start": 6721,
+      "end": 6869
+    },
+    {
+      "id": "S48",
+      "start": 6869,
+      "end": 7019
+    },
+    {
+      "id": "S49",
+      "start": 7019,
+      "end": 7151
+    },
+    {
+      "id": "S50",
+      "start": 7151,
+      "end": 7284
+    },
+    {
+      "id": "S51",
+      "start": 7284,
+      "end": 7584
+    }
+  ],
+  "extra_frames": [
+    4924,
+    4925,
+    5044,
+    5045,
+    6299,
+    6300
+  ]
+}

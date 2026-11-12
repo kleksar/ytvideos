@@ -1,0 +1,100 @@
+{
+  "timelineId": "B791704C",
+  "scope": [
+    0,
+    270
+  ],
+  "method": "Russian acoustic silence starts, bilingual phrase matching, English actual onset RMS; measured on current positions. No new cuts; baseline 0.95. Semantics and Whisper timestamps approximate.",
+  "moves": [
+    {
+      "clipId": "9B6CE3D2",
+      "expectedFrames": [
+        532,
+        777
+      ],
+      "toFrame": 503,
+      "shiftFrames": -29,
+      "enOnsetBefore": 17.82,
+      "ruOnset": 16.85,
+      "enOnsetAfter": 16.853,
+      "context": "He used harsh language / использовал достаточно жёсткие эпитеты",
+      "evidence": "RU Whisper onset; English waveform RMS onset; no strong preceding pause"
+    },
+    {
+      "clipId": "4140141A",
+      "expectedFrames": [
+        852,
+        1001
+      ],
+      "toFrame": 803,
+      "shiftFrames": -49,
+      "enOnsetBefore": 28.55,
+      "ruOnset": 26.91,
+      "enOnsetAfter": 26.917,
+      "context": "And a significant part / И значительная часть",
+      "evidence": "RU silence −35dB 0.43s ending 26.91, then speech; EN waveform RMS onset"
+    },
+    {
+      "clipId": "DADAA38B",
+      "expectedFrames": [
+        1194,
+        1300
+      ],
+      "toFrame": 1169,
+      "shiftFrames": -25,
+      "enOnsetBefore": 40.14,
+      "ruOnset": 39.3,
+      "enOnsetAfter": 39.307,
+      "context": "As a citizen / Мне, как гражданину",
+      "evidence": "RU silence −35dB 0.88s ending 39.30, then Russian «Мне»; EN waveform RMS onset"
+    },
+    {
+      "clipId": "2BDF9977",
+      "expectedFrames": [
+        4291,
+        4642
+      ],
+      "toFrame": 4278,
+      "shiftFrames": -13,
+      "enOnsetBefore": 143.33,
+      "ruOnset": 142.89,
+      "enOnsetAfter": 142.897,
+      "context": "And if we are going to talk about that / Если уж на то пошло",
+      "evidence": "RU silence −35dB 0.63s ending 142.89; semantic match; English onset"
+    },
+    {
+      "clipId": "2A49B8E4",
+      "expectedFrames": [
+        6138,
+        6495
+      ],
+      "toFrame": 6091,
+      "shiftFrames": -47,
+      "enOnsetBefore": 204.81,
+      "ruOnset": 203.25,
+      "enOnsetAfter": 203.243,
+      "context": "I'm not going to reveal all the details / не буду сейчас всех подробностей",
+      "evidence": "RU silence −35dB 2.07s ending 203.25; English onset"
+    },
+    {
+      "clipId": "47852B79",
+      "expectedFrames": [
+        7430,
+        7474
+      ],
+      "toFrame": 7419,
+      "shiftFrames": -11,
+      "enOnsetBefore": 247.89,
+      "ruOnset": 247.51,
+      "enOnsetAfter": 247.523,
+      "context": "Doesn't that happen here? / Разве у нас этого нет?",
+      "evidence": "RU silence −35dB 2.15s ending 247.51; English onset"
+    }
+  ],
+  "overlaps": [],
+  "limitations": [
+    "ASR and silence detection uncertain. Strongly conflicting starts in single continuous English block cannot be moved independently without cutting speech.",
+    "No listening performed.",
+    "Other mismatches were excluded where timing would require overlapping neighbouring clips or worsen an adjacent phrase."
+  ]
+}

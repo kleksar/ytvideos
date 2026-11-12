@@ -1,0 +1,158 @@
+{
+  "input": "/Users/diplomat/ytvideos/Shared/Image_Motion/Cache/video/2fac53211ffd16cbdea56cf1b0bb15f556b0aa21e14c5bb6263fd81d51452816.mp4",
+  "output": "/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Work/image-motion-e8f051242fc02efc01e0/scratch/ee27472a2598f0127a6c5471175caa900c9e979406680c7fdfd3ba47ee015386.finished.partial.mp4",
+  "frames": 130,
+  "visible_frames": 128,
+  "grain": {
+    "id": "g08",
+    "name": "Short Persistence",
+    "version": 1,
+    "rms_y_codes": 3.0,
+    "sigma_reference_px": 0.77,
+    "reference_short_side": 1440,
+    "update_hz": 30,
+    "rho": 0.35,
+    "mask_y": [
+      20,
+      64,
+      208,
+      235
+    ],
+    "range_y": [
+      16,
+      235
+    ],
+    "chroma": false,
+    "seed": 20261102
+  },
+  "sigma_output_px": 0.5775,
+  "seed": 10228577500811792386,
+  "camera": {
+    "position": [
+      [
+        0,
+        -0.060500000000000054,
+        -0.050000000000000044,
+        "linear"
+      ],
+      [
+        127,
+        -0.03950000000000009,
+        -0.050000000000000044
+      ]
+    ],
+    "scale": [
+      [
+        0,
+        1.1,
+        1.1,
+        "linear"
+      ],
+      [
+        127,
+        1.1,
+        1.1
+      ]
+    ]
+  },
+  "metrics": [
+    {
+      "frame": 0,
+      "camera": [
+        -0.060500000000000054,
+        -0.050000000000000044,
+        1.1,
+        1.1
+      ],
+      "applied_rms": 2.3228936195373535,
+      "noise_hash": "59fd3cf9700601e531b0a046d39d64d7995448017267b8c9ffb889d2280967b8"
+    },
+    {
+      "frame": 64,
+      "camera": [
+        -0.04991732283464574,
+        -0.050000000000000044,
+        1.1,
+        1.1
+      ],
+      "applied_rms": 2.329665422439575,
+      "noise_hash": "e65f2ddccc7e8730fd3be8f434eba5ac9689b0961b4bff24fd179981abbc2a38"
+    },
+    {
+      "frame": 127,
+      "camera": [
+        -0.03950000000000009,
+        -0.050000000000000044,
+        1.1,
+        1.1
+      ],
+      "applied_rms": 2.327925443649292,
+      "noise_hash": "541f1679b8cf50ecd8cb7073f47fe0d5f0becacba8a40671947ef00c3e8b6141"
+    }
+  ],
+  "decode": [
+    "ffmpeg",
+    "-v",
+    "error",
+    "-i",
+    "/Users/diplomat/ytvideos/Shared/Image_Motion/Cache/video/2fac53211ffd16cbdea56cf1b0bb15f556b0aa21e14c5bb6263fd81d51452816.mp4",
+    "-an",
+    "-vf",
+    "colorspace=iall=bt601-6-625:iprimaries=bt709:itrc=srgb:irange=tv:all=bt709:range=tv:format=yuv420p,setsar=1",
+    "-frames:v",
+    "128",
+    "-f",
+    "rawvideo",
+    "-pix_fmt",
+    "yuv420p",
+    "pipe:1"
+  ],
+  "encode": [
+    "ffmpeg",
+    "-y",
+    "-v",
+    "error",
+    "-f",
+    "rawvideo",
+    "-pix_fmt",
+    "yuv420p",
+    "-video_size",
+    "1080x1920",
+    "-framerate",
+    "30",
+    "-i",
+    "pipe:0",
+    "-an",
+    "-vf",
+    "setsar=1,setparams=range=limited:color_primaries=bt709:color_trc=bt709:colorspace=bt709",
+    "-c:v",
+    "libx264",
+    "-crf",
+    "16",
+    "-preset",
+    "fast",
+    "-tune",
+    "grain",
+    "-pix_fmt",
+    "yuv420p",
+    "-color_primaries",
+    "bt709",
+    "-color_trc",
+    "bt709",
+    "-colorspace",
+    "bt709",
+    "-color_range",
+    "tv",
+    "-movflags",
+    "+faststart+negative_cts_offsets",
+    "-use_editlist",
+    "0",
+    "/Users/diplomat/ytvideos/channels/paper_detour/videos/009_knorozov_asya/Work/image-motion-e8f051242fc02efc01e0/scratch/ee27472a2598f0127a6c5471175caa900c9e979406680c7fdfd3ba47ee015386.finished.partial.mp4"
+  ],
+  "order": [
+    "parallax",
+    "camera",
+    "grain"
+  ],
+  "colour": "BT709 limited YUV420p; chroma has no added noise"
+}

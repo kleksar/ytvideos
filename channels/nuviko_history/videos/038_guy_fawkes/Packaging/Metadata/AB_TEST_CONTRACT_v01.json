@@ -1,0 +1,39 @@
+{
+  "schema": "ytv-native-title-thumbnail-test-v1",
+  "status": "prepared_not_started",
+  "channel_id": "UCbyLx6Rf3iWww4bPZJ2oo2A",
+  "video_id": null,
+  "media_path": "Deliverables/GUY_FAWKES_EN_review_v02.mp4",
+  "media_acceptance": "pending_user_review_v02",
+  "test_type": "title_thumbnail_pair",
+  "hypothesis": "Three distinct story angles may earn different watch-time share: role reveal (A), warning-to-arrest sequence (B), and the later tradition (C).",
+  "primary_metric": "YouTube Studio native result (watch-time share); do not substitute CTR as the winner metric.",
+  "description_path": "Packaging/Metadata/description_fixed_v01.txt",
+  "description_sha256": "f9119f4be0777d6d20ee67fde25fc73ee69fd87b8ee00a55d8241c9a69ed70ef",
+  "playlist_id": "PLCtiNAU_98r0",
+  "playlist_title": "History Documentaries",
+  "fallback_pair": "A",
+  "variants": [
+    {
+      "key": "A",
+      "title": "Guy Fawkes Is the Face of the Gunpowder Plot — But He Didn't Lead It",
+      "thumbnail": "Packaging/Thumbnails/Upload/thumbnail_A_v01.jpg",
+      "sha256": "5f43fb011c6aac570af43b215b2665acf64a03cb29492614b2bcce8ce9378de8"
+    },
+    {
+      "key": "B",
+      "title": "How an Anonymous Letter Led to Guy Fawkes’ Arrest",
+      "thumbnail": "Packaging/Thumbnails/Upload/thumbnail_B_v01.jpg",
+      "sha256": "4f1d8bbc00f1f8f206fb3033e14e4f8511f90a00bd922c09707c8dcb559872f7"
+    },
+    {
+      "key": "C",
+      "title": "How the Gunpowder Plot Led to Bonfire Night",
+      "thumbnail": "Packaging/Thumbnails/Upload/thumbnail_C_v01.jpg",
+      "sha256": "5c908194819cb9db0e6588274c4920382af3f69636bd5dde9c827ea43a49b62d"
+    }
+  ],
+  "eligibility": "Pending actual Studio check after Public upload; verify feature availability and exact options before starting.",
+  "authorization": "User explicitly requested Public release and beta testing in messages dated 2026-11-04.",
+  "external_state": "No upload or test has started."
+}

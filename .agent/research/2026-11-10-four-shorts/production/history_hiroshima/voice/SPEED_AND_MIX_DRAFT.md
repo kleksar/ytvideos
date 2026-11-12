@@ -1,0 +1,5 @@
+# Черновой микс: history_hiroshima
+
+Источник речи: voice_en.mp3, SHA-256 `c4719112bf2ef75e19a9ea6a6f416c03484a83b8a0eac99e6bbf10e0cf8fb26d`. Один раз применено `ffmpeg atempo=1.1`, результат voice_en_110_draft.wav, SHA-256 `f887e5314c848ec1866501510f990c6e8d2e4efd0c9f7b3759afeeff80dcd2ac`. Музыкальный кандидат: Night Vigil.mp3, SHA-256 `315009fda5154a093570b9f49c1d98202ab5ba4906078713380d130710ada442`, из локальных Downloads; карточка автора и CC BY 4.0 проверены в Chrome. Фрагмент с 20 с, уровень 0.13, выходной фейд 0.25 с. Сведение: `[0:a]apad,atrim=duration=33.96666666666667[v];[1:a]atrim=start=20:duration=33.96666666666667,asetpts=PTS-STARTPTS,volume=0.13,afade=t=out:st=33.71666666666667:d=0.25[m];[v][m]amix=inputs=2:duration=first:normalize=0,alimiter=limit=0.95:latency=1[out]`. Итог mix_110_draft.wav, SHA-256 `ee3fbfcc9783ff2ef7565499b0b7c755f15dfdc4233ebd95dc3928e90f72d53e`.
+
+Это технический черновик, не принятый микс: нужны прослушивание голоса и музыки, проверка баланса, границ речи, версии трека и соответствующей атрибуции. Тайминги слов — автоматическая оценка; возможна погрешность после преобразования темпа.

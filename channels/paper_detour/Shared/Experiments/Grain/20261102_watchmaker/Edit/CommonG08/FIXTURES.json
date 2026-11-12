@@ -1,0 +1,37 @@
+{
+  "portrait_source_command": [
+    "ffmpeg",
+    "-y",
+    "-v",
+    "error",
+    "-f",
+    "lavfi",
+    "-i",
+    "testsrc2=s=1080x1920:r=30",
+    "-frames:v",
+    "30",
+    "-an",
+    "-c:v",
+    "libx264",
+    "-crf",
+    "18",
+    "/Users/diplomat/ytvideos/channels/paper_detour/Shared/Experiments/Grain/20261102_watchmaker/Work/common-g08-v01/scratch/portrait_test_source.mp4"
+  ],
+  "colour_probe_command": [
+    "ffmpeg",
+    "-y",
+    "-v",
+    "error",
+    "-f",
+    "lavfi",
+    "-i",
+    "color=c=gray:s=64x64:r=30",
+    "-frames:v",
+    "2",
+    "-vf",
+    "setsar=1,setparams=range=limited:color_primaries=bt709:color_trc=bt709:colorspace=bt709",
+    "-c:v",
+    "libx264",
+    "/Users/diplomat/ytvideos/channels/paper_detour/Shared/Experiments/Grain/20261102_watchmaker/Work/common-g08-v01/scratch/colour-probe.mp4"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "status": "TECHNICAL_PASS",
+  "subjective_audio_listening": "UNVERIFIED",
+  "full_decode": "PASS",
+  "video_packets_and_timestamps_identical": true,
+  "video_packet_manifest_sha256": "ebc654ea9838c674c3bf3eaf0314b0f74aa3e10d3fe88679610a3489146fa56e",
+  "audio_track_bitrate_bps": "302861",
+  "mp4": "/Users/diplomat/ytvideos/.agent/research/2026-11-10-four-shorts/production/paper_washington/Edit/Previews/music_ab_v01/paper_washington_A_helios.mp4",
+  "sha256": "39485c7536b782ec5508506e73518c1aacfd3c50c430cfe324386813ca64201e",
+  "music_stem_lufs": -37.0,
+  "mix_lufs": -24.15,
+  "true_peak_dbtp": -6.98,
+  "decoded_mix_correlation_per_channel": [
+    0.9999271557587623,
+    0.9999299875528423
+  ],
+  "mono_fold_down_delta_db": -0.1,
+  "key_windows_music_vs_voice_db": [
+    [
+      8.65,
+      10.65,
+      -18.17
+    ],
+    [
+      13.65,
+      15.0,
+      -7.53
+    ],
+    [
+      22.0,
+      26.95,
+      -8.7
+    ],
+    [
+      27.05,
+      28.66667,
+      -10.81
+    ]
+  ]
+}

@@ -1,0 +1,7 @@
+# Prefer-B sequence — one midpoint per scene
+
+Viewed `contact_01.jpg`–`contact_07.jpg`, all 122 selected files in proposed edit order; exact source and image SHA-256, midpoint frames and subtitle-state paths are in `manifest.json`. Observed the shift from trapped ship to abandonment, ice camp to three boats, separation and crossing to return for the survivors. S063–S067 show sea before S068 distant land; S071 landing follows S068–S070; S110 has both quoted phrases above the subtitle strip; S119 crossing map precedes S120 corrected shore/ship diptych, S121 tally and S122 ending. Both planned drawn-host scenes remain separate from historical action. Varied compositions, distance and several map/symbolic inserts distinguish adjacent beats, although multiple sea and shelter views are intentionally similar.
+
+At these sampled midpoints, S030 subtitle is below the food-hand action; S116 subtitle crosses lower map edge but both party labels remain visible; S120's 22 remains left of the caption strip; S121 and S122 main text remains above captions. S103 again shows ice-direction lettering while the sampled caption says Shackleton is aboard; its anticipatory timing needs playback review. Text and fine details cannot be fully judged at this reduction.
+
+A midpoint per scene is not a check of every subtitle state, camera motion, actual MP4 playback, exact speech timing, anatomy or full visual acceptance. No independent reviewer is claimed.

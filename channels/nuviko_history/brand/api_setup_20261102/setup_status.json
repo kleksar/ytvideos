@@ -1,0 +1,40 @@
+{
+  "status": "CONNECTED_VERIFIED",
+  "destination_channel_id": "UCbyLx6Rf3iWww4bPZJ2oo2A",
+  "destination_handle": "@Nuviko_History",
+  "source_channel_id_preserved": "UCqct_dth0WSCwiDZx1WMfgg",
+  "oauth_project_id": "yt-videos-513009",
+  "oauth_app_name": "Nuviko",
+  "credential_target": "/Users/diplomat/.local/share/story-youtube/nuviko-history/token.json",
+  "requested_scopes": [
+    "https://www.googleapis.com/auth/youtube.upload",
+    "https://www.googleapis.com/auth/youtube.readonly",
+    "https://www.googleapis.com/auth/youtube.force-ssl"
+  ],
+  "token_created": true,
+  "channel_registry_changed": true,
+  "upload_performed": false,
+  "publication_authorized": false,
+  "next": "Use verified destination profile nuviko_history for specifically authorized future uploads; uploads start Private. Continue previously authorized scene/type style tests separately.",
+  "owner_account": "glavred.journalist@gmail.com",
+  "limitation": "OAuth app remains External/Testing; seven-day refresh-token expiry may require reauthorization. Upload and processing have not been tested.",
+  "additional_blocker": "Resolved: confirmed owner account added to test users and OAuth completed.",
+  "local_client_audit": {
+    "paper_detour": "yt-videos-513009",
+    "history_source": "yt-videos-513009",
+    "separate_channel_credentials": true
+  },
+  "iam_read": {
+    "account": "google@kleksar.me",
+    "project_id": "yt-videos-513009",
+    "project_title": "YT Videos",
+    "principal": "google@kleksar.me",
+    "displayed_role": "Owner (Legacy)",
+    "verification": "Visible IAM permissions table on 2 November 2026"
+  },
+  "primary_account": "google@kleksar.me",
+  "test_user_added": true,
+  "test_user_verified": "glavred.journalist@gmail.com visible in saved Audience list; total 3 test users; existing two preserved",
+  "registry_profile": "nuviko_history",
+  "offline_refresh": "succeeded"
+}

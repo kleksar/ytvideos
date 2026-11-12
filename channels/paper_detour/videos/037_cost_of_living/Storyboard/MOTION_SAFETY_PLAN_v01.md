@@ -1,0 +1,95 @@
+# Paper Detour 037 — camera and parallax safety plan v01
+
+**Status:** working motion plan and author crop review. Not user-accepted; no images imported and no motion rendered. Applies to storyboard v01, narration v01, 16:9 stills.
+
+## Camera envelope used for the crop audit
+
+Assumed the project `gentle-aligned` whole-image preset with no existing camera keys: `offset=0.165`, `height=0.26`, `steady=0`, `sticky=true`, `camera_factor=0.75`, `alignment=same`. For centered push/pull, tested the widest scale in the preset. For horizontal pans, included both endpoint offsets. The intersection visible throughout this envelope is approximately x=6.8–93.2% and y=4.55–95.45% of the source frame. Contact sheets were prepared from that shared visible window; every listed protected subject was checked there. This is a conservative crop assessment, not a render QA.
+
+S65 has only a reduced camera move proposed: centered push/pull capped at 1.02 scale, no horizontal pan, to preserve margin around the three baskets. If the later motion renderer cannot honor that limit, set camera to hold for that scene.
+
+## Scene-by-scene plan
+
+| Scene | storyboard v01 image | proposed whole-image move | protected composition | motion-safe image candidate | review |
+|---|---|---|---|---|---|
+| S01 | `S01_v01.png` | `push-in` | Warm overhead still-life: rough bread and a small tied fuel bundle on a worn paper kitchen table; hard side light gives both a grounded shadow. | `—` | mapped image fits standard safe-window (author crop check) |
+| S02 | `S02_v01.png` | `pan-right` | Close low angle: a modest soap block beside an unlit candle, with the first amber pool of light entering from frame edge. | `—` | mapped image fits standard safe-window (author crop check) |
+| S03 | `S03_v01.png` | `push-in` | Wide eye-level medieval London room, anonymous family of four seen from behind; three of four large paper basket panels are filled, fourth remains visibly bare. | `—` | mapped image fits standard safe-window (author crop check) |
+| S04 | `S04_v01.png` | `pan-right` | High oblique view: one year's basket at the far end of a long physical trail of plain wage discs; trail visibly continues beyond the frame. | `—` | mapped image fits standard safe-window (author crop check) |
+| S05 | `S05_v01.png` | `push-in` | Close-up of a paper work-year wheel with a marked 250-day arc ending before the basket's full-cost marker; warm light stops at the uncovered segment. | `—` | mapped image fits standard safe-window (author crop check) |
+| S06 | `S06_v02.png` | `pull-out` | Timeless close tabletop: the familiar needs basket sits beside a short trail of plain wage discs with a wide open margin beyond. | `—` | mapped image fits standard safe-window (author crop check) |
+| S07 | `S07_v02.png` | `push-in` | In a neutral paper studio, a physical balance holds more wage discs against the same basket plus a longer row of price tiles. | `—` | mapped image fits standard safe-window (author crop check) |
+| S08 | `S08_v02.png` | `pan-right` | Low wide view down a generic old paper lane with plain wage discs leading toward the basket; no identifiable landmark or exact date. | `—` | mapped image fits standard safe-window (author crop check) |
+| S09 | `S09_v03.png` | `push-in` | Tight view of one anonymous paper hand placing a plain wage disc beside a needs basket, with a simple scaffold frame in the background. | `—` | mapped image fits standard safe-window (author crop check) |
+| S10 | `S10_v03.png` | `pull-out` | Two side-by-side workbenches: a smaller wage stack at a generic labour station, a fuller stack beside a neatly fitted timber joint at the craft station. | `—` | mapped image fits standard safe-window (author crop check) |
+| S11 | `S11_v02.png` | `pull-out` | Overhead table with exactly four plain bowls around the small annual basket; two bowls larger and two smaller, with no people or utensils. | `—` | mapped image fits standard safe-window (author crop check) |
+| S12 | `S12_v01.png` | `pan-right` | Macro still-life of bread, beans, a small meat portion, cheese and eggs arranged as paper cutouts on a divided plate. | `—` | mapped image fits standard safe-window (author crop check) |
+| S13 | `S13_v01.png` | `push-in` | Low close view of folded linen beside a grounded soap block on a rough shelf, tactile fibers catching side light. | `—` | mapped image fits standard safe-window (author crop check) |
+| S14 | `S14_v01.png` | `pan-right` | Candle stub and small lamp-oil vessel beside stacked fuel, each resting against a shallow paper wall niche. | `—` | mapped image fits standard safe-window (author crop check) |
+| S15 | `S15_v01.png` | `pull-out` | Small paper room and roof sit beside the needs basket; a tiny coin rests at the doorway as the limited rent allowance. | `—` | mapped image fits standard safe-window (author crop check) |
+| S16 | `S16_v01.png` | `pan-left` | Top-down: one plain wage disc placed beside a paper measuring strip; the annual basket bill is divided into equal little cost tiles. | `S16_v02.png` | candidate fits camera safe-window; still draft |
+| S17 | `S17_v01.png` | `push-in` | Same composition, shorter tile row reaching the basket; the wage disc is unchanged and the basket is now closer. | `—` | mapped image fits standard safe-window (author crop check) |
+| S18 | `S18_v01.png` | `pan-left` | Paper labels sit beside abstract wage tokens; behind them an empty archival drawer stays shut, with no purported original ledger. | `S18_v02.png` | candidate fits camera safe-window; still draft |
+| S19 | `S19_v02.png` | `pull-out` | Three separate neutral tabletops carry differently sized baskets and wage stacks; a fourth small workbench is empty. | `—` | mapped image fits standard safe-window (author crop check) |
+| S20 | `S20_v03.png` | `push-in` | Overhead physical model: about 70% of the year ring is amber; a separate budget disc has one tiny amber wedge out of twenty, with a small roof marker. | `—` | mapped image fits standard safe-window (author crop check) |
+| S21 | `S21_v01.png` | `push-in` | The four-part basket and one-day wage disc return, centered on a dark workbench; light narrows to the empty quarter. | `S21_v04.png` | candidate fits camera safe-window; still draft |
+| S22 | `S22_v02.png` | `pull-out` | Neutral tabletop tray with four equal compartments: food, folded linen, soap/candle/fuel, then one empty section. | `—` | mapped image fits standard safe-window (author crop check) |
+| S23 | `S23_v02.png` | `push-in` | Overhead close-up of the same four-part tray with exactly three filled compartments and the fourth empty. | `—` | mapped image fits standard safe-window (author crop check) |
+| S24 | `S24_v02.png` | `pan-left` | A long strip of small paper wage tiles leads from the foreground to the empty basket quarter; tiles continue beyond frame. | `S24_v04.png` | candidate fits camera safe-window; still draft |
+| S25 | `S25_v02.png` | `push-in` | A single wage disc is placed beside the same four-part tray; three needs sections are filled and the fourth empty. | `S25_v04.png` | candidate fits camera safe-window; still draft |
+| S26 | `S26_v03.png` | `pull-out` | Quiet medieval street with several unattended work tools and a single open workbench; no bodies, disease marks or sensational imagery. | `—` | mapped image fits standard safe-window (author crop check) |
+| S27 | `S27_v01.png` | `push-in` | Close paper desk: a folded legal document and quill under a pool of warm light; no readable invented text or seal. | `—` | mapped image fits standard safe-window (author crop check) |
+| S28 | `S28_v01.png` | `pan-left` | Two hands across a plain wooden table: worker's hand holds one wage disc back; a paper law lies between them. | `S28_v03.png` | one-hand redesign fits; still draft |
+| S29 | `S29_v01.png` | `pan-right` | A paper ruler presses down on a row of wage discs; the row visibly resists at one edge without depicting physical violence. | `S29_v02.png` | candidate fits camera safe-window; still draft |
+| S30 | `S30_v01.png` | `pull-out` | Split landscape: a ploughman in a field and a shepherd on a low hillside, each in separate layered paper depth. | `—` | mapped image fits standard safe-window (author crop check) |
+| S31 | `S31_v01.png` | `push-in` | Ground-level worksite: timber beam, stacked blocks and two anonymous workers in different tasks; supports and tool contacts visible. | `—` | mapped image fits standard safe-window (author crop check) |
+| S32 | `S32_v01.png` | `push-in` | Top-down legal table: wage discs stop at a paper boundary; a hand rests beside an unmarked oath sheet. | `—` | mapped image fits standard safe-window (author crop check) |
+| S33 | `S33_v01.png` | `pull-out` | Empty wooden stocks occupy foreground; a distant barred doorway is visible, with no person shown inside either punishment. | `—` | mapped image fits standard safe-window (author crop check) |
+| S34 | `S34_v01.png` | `push-in` | The law document sits on one side of a balance; on the other, a plain wage disc and worker's empty hand. | `—` | mapped image fits standard safe-window (author crop check) |
+| S35 | `S35_v01.png` | `pull-out` | Close crop favors the written-law page; workers appear only as small silhouettes in the distant street, outside the page's frame. | `—` | mapped image fits standard safe-window (author crop check) |
+| S36 | `S36_v01.png` | `pull-out` | A building frame waits with empty work positions; one employer-shaped silhouette stands beside an open but unused wage chest; the law lies in foreground. | `—` | mapped image fits standard safe-window (author crop check) |
+| S37 | `S37_v02.png` | `push-in` | A paper threshold lifts: a row of wage discs now clears the four-part basket line; a small London skyline sits behind. | `—` | mapped image fits standard safe-window (author crop check) |
+| S38 | `S38_v01.png` | `pull-out` | Overhead Tudor-period workbench: a compact row of wage tokens leads to the annual basket, with a clear surplus margin beyond it. | `—` | mapped image fits standard safe-window (author crop check) |
+| S39 | `S39_v02.png` | `push-in` | The 176-token cost strip sits inside a longer 250-mark ring; remaining ring space is visible but unlabelled. | `S39_v03.png` | candidate fits camera safe-window; still draft |
+| S40 | `S40_v01.png` | `pull-out` | Two period panels in one physical paper balance: earlier small silver-weight stack and later taller stack; no coin faces. | `—` | mapped image fits standard safe-window (author crop check) |
+| S41 | `S41_v01.png` | `push-in` | Macro of the earlier measured silver amount resting on a simple paper balance pan. | `—` | mapped image fits standard safe-window (author crop check) |
+| S42 | `S42_v01.png` | `push-in` | Matching macro: later measured silver stack rises above the same balance pan; light is brighter but the needs basket remains just out of focus behind it. | `—` | mapped image fits standard safe-window (author crop check) |
+| S43 | `S43_v02.png` | `pull-out` | A tilted scale holds one silver stack above a closed basket; both directions remain visually open, no result shown. | `—` | mapped image fits standard safe-window (author crop check) |
+| S44 | `S44_v02.png` | `pan-right` | The basket tips toward a longer row of wage-day tiles, with empty space ahead to signal the answer is still not the full explanation. | `S44_v07.png` | candidate fits camera safe-window; still draft |
+| S45 | `S45_v01.png` | `pull-out (scale capped at 1.01; no pan)` | Paper workbench shows a longer wage-token path than the earlier 176 scene; basket rests at the path's end. | `S45_v05.png` | candidate fits camera safe-window; still draft |
+| S46 | `S46_v01.png` | `pan-right` | The 176 and 216 strips lie end to end; the additional short segment is highlighted by a separate amber paper strip. | `S46_v03.png` | candidate fits camera safe-window; still draft |
+| S47 | `S47_v02.png` | `pull-out` | Table-level composition: larger silver stack on one side, visibly larger basket-cost tiles on the other. | `—` | mapped image fits standard safe-window (author crop check) |
+| S48 | `S48_v02.png` | `push-in` | Two layered paper columns rise from a shared baseline: pay column grows, price column grows taller; no axis labels or unexplained decimals. | `—` | mapped image fits standard safe-window (author crop check) |
+| S49 | `S49_v02.png` | `push-in` | The taller price column casts a shadow across the wage column and needs basket. | `—` | mapped image fits standard safe-window (author crop check) |
+| S50 | `S50_v02.png` | `pan-right` | Two physical wage discs replace one beside an unchanged basket tile; a shorter wage-day strip reaches it. | `—` | mapped image fits standard safe-window (author crop check) |
+| S51 | `S51_v01.png` | `pull-out` | Two equal-height paper stacks, pay and basket price, grow together; the distance between them does not change. | `—` | mapped image fits standard safe-window (author crop check) |
+| S52 | `S52_v02.png` | `pan-right` | Price tiles lengthen past the wage discs; a single disc now touches less of the basket's divided edge. | `—` | mapped image fits standard safe-window (author crop check) |
+| S53 | `S53_v01.png` | `pan-left` | The earlier and later wage-day rows are aligned; a short visible tail extends beyond the earlier row. | `S53_v02.png` | candidate fits camera safe-window; still draft |
+| S54 | `S54_v01.png` | `push-in` | A 250-day ring encloses the 216-day basket cost with a narrow remaining arc; image stays physical, not a digital infographic. | `—` | mapped image fits standard safe-window (author crop check) |
+| S55 | `S55_v02.png` | `pull-out` | Close two-panel paper comparison: large wage disc grows, but its cutout covers a smaller portion of a larger basic basket. | `—` | mapped image fits standard safe-window (author crop check) |
+| S56 | `S56_v01.png` | `push-in` | Tight macro of the larger silver stack under warm spotlight; the basket stays outside the crop. | `—` | mapped image fits standard safe-window (author crop check) |
+| S57 | `S57_v01.png` | `pull-out` | Matching wider tabletop composition now places the same silver stack beside the needs basket; balanced side light makes their relationship readable. | `—` | mapped image fits standard safe-window (author crop check) |
+| S58 | `S58_v01.png` | `push-in` | Victorian-period workbench in side light: fewer wage-day tiles reach the basket; paper scaffold and brick stack stay soft in the background. | `—` | mapped image fits standard safe-window (author crop check) |
+| S59 | `S59_v01.png` | `pull-out` | The 216 strip shortens to 116 beside the same basket; open paper space appears around the remaining wage ring. | `S59_v03.png` | candidate fits camera safe-window; still draft |
+| S60 | `S60_v02.png` | `pull-out` | First paper household table is filled edge-to-edge by the benchmark basket; a second matching table has a clear perimeter of unused space. | `—` | mapped image fits standard safe-window (author crop check) |
+| S61 | `S61_v02.png` | `push-in` | A hand places unspent wage discs just outside the basket's marked boundary; nothing else is purchased yet. | `—` | mapped image fits standard safe-window (author crop check) |
+| S62 | `S62_v02.png` | `pan-right` | Three small paper alternatives sit in separate depth planes: extra food, a different roof/room, and a generic household need. | `—` | mapped image fits standard safe-window (author crop check) |
+| S63 | `S63_v02.png` | `pull-out` | A paper savings jar and empty chair remain beyond a dashed boundary, untouched by the wage discs. | `—` | mapped image fits standard safe-window (author crop check) |
+| S64 | `S64_v02.png` | `push-in` | Anonymous worker waits beside a closed building-work gate, wage disc still absent; no emotional close-up. | `—` | mapped image fits standard safe-window (author crop check) |
+| S65 | `S65_v01.png` | `pull-out (scale capped at 1.02; no pan)` | The standard four-setting basket sits beside other differently sized household baskets, all clearly paper models. | `S65_v03.png` | fits reduced 1.02-scale envelope; still draft |
+| S66 | `S66_v02.png` | `pan-right` | The wage-day strip is visibly shorter than the 1600s strip, while the same basket stays in place; no celebratory character pose. | `S66_v04.png` | candidate fits camera safe-window; still draft |
+| S67 | `S67_v02.png` | `pull-out` | The basket and wage strip sit sharply lit in the foreground; a broad paper city background remains unresolved and unlabelled. | `—` | mapped image fits standard safe-window (author crop check) |
+| S68 | `S68_v03.png` | `pan-right` | A single paper shelf shows the 1500–1549 basket-cost strip, with the same basket at its end. | `S68_v04.png` | candidate fits camera safe-window; still draft |
+| S69 | `S69_v03.png` | `pan-right` | Matching shelf now shows the longer 1600–1649 strip beside the same basket. | `S69_v04.png` | candidate fits camera safe-window; still draft |
+| S70 | `S70_v03.png` | `pan-left` | Matching shelf shows the shorter 1850–1899 strip beside the same basket. | `S70_v04.png` | candidate fits camera safe-window; still draft |
+| S71 | `S71_v01.png` | `push-in` | Return to the opening tabletop from a lower, warmer angle; bread, soap, fuel and candle now form one connected annual basket. | `S71_v03.png` | candidate fits camera safe-window; still draft |
+| S72 | `S72_v01.png` | `push-in` | One plain silver disc rests beside the basket; close side light gives both the same visual weight. | `—` | mapped image fits standard safe-window (author crop check) |
+| S73 | `S73_v01.png` | `pull-out` | Wide time-layered London workbench: three period wage stacks rise across the foreground while the single needs basket stays centered and unchanged. | `—` | mapped image fits standard safe-window (author crop check) |
+
+## Depth-parallax limits and next gate
+
+- This plan animates the complete still image. It does not animate cut-paper characters or independently move diorama parts.
+- The crop audit covers only 2D camera framing. Depth-map quality, edge fill, overlap separation, and parallax disocclusion have not been rendered or verified. The image-motion skill requires the accepted still set and actual timeline before depth preparation and render.
+- After the user accepts the scene-image set: prepare one depth map per accepted still, inspect foreground/background boundaries and full frame coverage, then render representative and full scenes with the planned camera move plus parallax. Check start, end, and intermediate extrema. Revise a depth map, reduce displacement, or regenerate an image only where render evidence shows a defect.
+- All 19 alternative files in the candidate column are drafts. Keep storyboard v01 file mapping unchanged until the user accepts the image versions. The candidates remain unimported.
+- This is the author’s crop check, not independent review. No phone-size review, depth render, animation, Palmier import, audio, export, or release has been done in this pass.

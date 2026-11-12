@@ -1,0 +1,4574 @@
+{
+  "version": 1,
+  "run": "short01_motion_review_20261102_v01",
+  "owner": "codex-root",
+  "status": "complete",
+  "created_utc": "2026-11-02T22:29:51.628909+00:00",
+  "entries": [
+    {
+      "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+      "role": "evidence",
+      "identity": {
+        "device": 16777233,
+        "inode": 125543970,
+        "bytes": 7191,
+        "mtime_ns": 1793658915022789679,
+        "ctime_ns": 1793658915022789679,
+        "nlink": 1,
+        "allocated_bytes": 8192
+      },
+      "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa",
+      "rebuild_from": [],
+      "evidence": [],
+      "disposition": "pending"
+    },
+    {
+      "path": "Edit/QA/short01_motion_review_20261102_v01/reviewer_receipt_v02_motion.json",
+      "role": "evidence",
+      "identity": {
+        "device": 16777233,
+        "inode": 125544034,
+        "bytes": 6779,
+        "mtime_ns": 1793658915023182473,
+        "ctime_ns": 1793658915023182473,
+        "nlink": 1,
+        "allocated_bytes": 8192
+      },
+      "sha256": "fb669ad3ec3ab91e29a257c036efecc1ede8d37bf319e875bf539ad761520412",
+      "rebuild_from": [],
+      "evidence": [],
+      "disposition": "pending"
+    },
+    {
+      "path": "Edit/QA/short01_motion_review_20261102_v01/motion_sample_plan.json",
+      "role": "evidence",
+      "identity": {
+        "device": 16777233,
+        "inode": 125544206,
+        "bytes": 3652,
+        "mtime_ns": 1793658915022460136,
+        "ctime_ns": 1793658915022460136,
+        "nlink": 1,
+        "allocated_bytes": 4096
+      },
+      "sha256": "1d2939cc5caa1a54573a0e4bda10e662a14259b34b55e8ec08c4f3c07a42f2fb",
+      "rebuild_from": [],
+      "evidence": [],
+      "disposition": "pending"
+    },
+    {
+      "path": "Edit/subtitles_20261102/EXPORT_CONTRACT_v05_motion_review.md",
+      "role": "evidence",
+      "identity": {
+        "device": 16777233,
+        "inode": 125544131,
+        "bytes": 1241,
+        "mtime_ns": 1793658895040320339,
+        "ctime_ns": 1793658895040320339,
+        "nlink": 1,
+        "allocated_bytes": 4096
+      },
+      "sha256": "50c4bd7591791411fe845680273b1afb82d9a5ac07b60d01eabaf90ca8df8c2d",
+      "rebuild_from": [],
+      "evidence": [],
+      "disposition": "pending"
+    },
+    {
+      "path": "Edit/consultations/20261102_short01_motion_qa_plan.md",
+      "role": "evidence",
+      "identity": {
+        "device": 16777233,
+        "inode": 125544035,
+        "bytes": 1405,
+        "mtime_ns": 1793658873828853612,
+        "ctime_ns": 1793658873828853612,
+        "nlink": 1,
+        "allocated_bytes": 4096
+      },
+      "sha256": "65ffc7f878434881c1be27931b70f299396fcaa130ce7ad97edaab3368029874",
+      "rebuild_from": [],
+      "evidence": [],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/previews/motion_scene_01.jpg",
+      "role": "preview",
+      "identity": {
+        "device": 16777233,
+        "inode": 125541376,
+        "bytes": 580508,
+        "mtime_ns": 1793658618202118619,
+        "ctime_ns": 1793658618202118619,
+        "nlink": 1,
+        "allocated_bytes": 581632
+      },
+      "sha256": "0fdffb64db535c68b358ffa54833d0cc165b9a38301711d3ad5e35d54ce96dc7",
+      "rebuild_from": [],
+      "evidence": [],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/previews/motion_scene_02.jpg",
+      "role": "preview",
+      "identity": {
+        "device": 16777233,
+        "inode": 125541385,
+        "bytes": 629868,
+        "mtime_ns": 1793658618819639079,
+        "ctime_ns": 1793658618819639079,
+        "nlink": 1,
+        "allocated_bytes": 630784
+      },
+      "sha256": "797eb3aadd92c7c0443a726e5a1641737cf1a2ecd8db313da5a25fce550c974d",
+      "rebuild_from": [],
+      "evidence": [],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/previews/motion_scene_03.jpg",
+      "role": "preview",
+      "identity": {
+        "device": 16777233,
+        "inode": 125541403,
+        "bytes": 686545,
+        "mtime_ns": 1793658619557149503,
+        "ctime_ns": 1793658619557149503,
+        "nlink": 1,
+        "allocated_bytes": 688128
+      },
+      "sha256": "9770b7f209fe80e7000c00d1c6a8ec0e5644084b60bb79cc1690724cf18ff7b8",
+      "rebuild_from": [],
+      "evidence": [],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/previews/motion_scene_04.jpg",
+      "role": "preview",
+      "identity": {
+        "device": 16777233,
+        "inode": 125541423,
+        "bytes": 535351,
+        "mtime_ns": 1793658620124400473,
+        "ctime_ns": 1793658620124400473,
+        "nlink": 1,
+        "allocated_bytes": 536576
+      },
+      "sha256": "63638a762b09eb06b6a4c036992d2177bcdcfd93964c6a244ae83a38519112b0",
+      "rebuild_from": [],
+      "evidence": [],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/previews/motion_scene_05.jpg",
+      "role": "preview",
+      "identity": {
+        "device": 16777233,
+        "inode": 125541442,
+        "bytes": 514194,
+        "mtime_ns": 1793658620683826108,
+        "ctime_ns": 1793658620683826108,
+        "nlink": 1,
+        "allocated_bytes": 516096
+      },
+      "sha256": "013267d377ef6887a390a56c39de5255dd0d7c173d144466b19c8a3a72550f27",
+      "rebuild_from": [],
+      "evidence": [],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/previews/motion_scene_06.jpg",
+      "role": "preview",
+      "identity": {
+        "device": 16777233,
+        "inode": 125541443,
+        "bytes": 524764,
+        "mtime_ns": 1793658621243346493,
+        "ctime_ns": 1793658621243346493,
+        "nlink": 1,
+        "allocated_bytes": 528384
+      },
+      "sha256": "e3c2726d08fe07e8382d8eeebfdd6810f6d2f5e98bc8859b98e73e1c39e5da81",
+      "rebuild_from": [],
+      "evidence": [],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/previews/exact5/S01_exact5.jpg",
+      "role": "preview",
+      "identity": {
+        "device": 16777233,
+        "inode": 125542848,
+        "bytes": 442275,
+        "mtime_ns": 1793658705851881071,
+        "ctime_ns": 1793658705851881071,
+        "nlink": 1,
+        "allocated_bytes": 442368
+      },
+      "sha256": "9448518d645af6f08d9343c4e3bfbe3deeab8c72b4d3ec57a37f54525f267451",
+      "rebuild_from": [],
+      "evidence": [],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/previews/exact5/S02_exact5.jpg",
+      "role": "preview",
+      "identity": {
+        "device": 16777233,
+        "inode": 125542853,
+        "bytes": 464266,
+        "mtime_ns": 1793658706164237154,
+        "ctime_ns": 1793658706164237154,
+        "nlink": 1,
+        "allocated_bytes": 466944
+      },
+      "sha256": "688aa692ea98b476f28ecebd044e879419e5f2d6575ba86d285ff5042cd4c5ff",
+      "rebuild_from": [],
+      "evidence": [],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/previews/exact5/S03_exact5.jpg",
+      "role": "preview",
+      "identity": {
+        "device": 16777233,
+        "inode": 125542856,
+        "bytes": 444276,
+        "mtime_ns": 1793658706466168513,
+        "ctime_ns": 1793658706466168513,
+        "nlink": 1,
+        "allocated_bytes": 446464
+      },
+      "sha256": "42f7b01ab0e563dbbb7a13212ed86d61f402a2de3aa16495b890dff3c2684912",
+      "rebuild_from": [],
+      "evidence": [],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/previews/exact5/S04_exact5.jpg",
+      "role": "preview",
+      "identity": {
+        "device": 16777233,
+        "inode": 125542857,
+        "bytes": 447429,
+        "mtime_ns": 1793658706760884039,
+        "ctime_ns": 1793658706760884039,
+        "nlink": 1,
+        "allocated_bytes": 450560
+      },
+      "sha256": "651421dabd1ca4c292111e49679222b4ad546a1b5545e95a5427f712f04692a9",
+      "rebuild_from": [],
+      "evidence": [],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/previews/exact5/S05_exact5.jpg",
+      "role": "preview",
+      "identity": {
+        "device": 16777233,
+        "inode": 125542858,
+        "bytes": 427205,
+        "mtime_ns": 1793658707052059379,
+        "ctime_ns": 1793658707052059379,
+        "nlink": 1,
+        "allocated_bytes": 430080
+      },
+      "sha256": "a37d220bf59b8bf169d0fb4c783b21c7d2b33c0edc54fe3e237e5e4c3c2aae7e",
+      "rebuild_from": [],
+      "evidence": [],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/previews/exact5/S06_exact5.jpg",
+      "role": "preview",
+      "identity": {
+        "device": 16777233,
+        "inode": 125542859,
+        "bytes": 440297,
+        "mtime_ns": 1793658707342497506,
+        "ctime_ns": 1793658707342497506,
+        "nlink": 1,
+        "allocated_bytes": 442368
+      },
+      "sha256": "1f2ebbfe1403bb8a720c2cf0b59465fc9bcc19f278fa19cc85ba211747ccd3d4",
+      "rebuild_from": [],
+      "evidence": [],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/exact_frames/exact_001.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125542785,
+        "bytes": 1736895,
+        "mtime_ns": 1793658703214965296,
+        "ctime_ns": 1793658703214965296,
+        "nlink": 1,
+        "allocated_bytes": 1740800
+      },
+      "sha256": "3a286c7a7dcee14ee28a9c69d3eaede45f41922d60e6d5087554a6abca2424b7",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/exact_frames/exact_002.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125542786,
+        "bytes": 2193954,
+        "mtime_ns": 1793658703591059195,
+        "ctime_ns": 1793658703591059195,
+        "nlink": 1,
+        "allocated_bytes": 2195456
+      },
+      "sha256": "5572a6af7809ffea8e403d976b58bfd5fd526f413ec24049cbc69a885b2c3e41",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/exact_frames/exact_003.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125542787,
+        "bytes": 2257282,
+        "mtime_ns": 1793658703597158437,
+        "ctime_ns": 1793658703597158437,
+        "nlink": 1,
+        "allocated_bytes": 2260992
+      },
+      "sha256": "47cf08c546c3047bad908a207adc7d4dcfbbe65ebe96f581bbf78cf878968381",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/exact_frames/exact_004.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125542788,
+        "bytes": 2290998,
+        "mtime_ns": 1793658703603269680,
+        "ctime_ns": 1793658703603269680,
+        "nlink": 1,
+        "allocated_bytes": 2293760
+      },
+      "sha256": "5b04038eaee93e0f9444d5a602d06d9319b2cbace6339b8d524ea51bdd1235c2",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/exact_frames/exact_005.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125542789,
+        "bytes": 2199812,
+        "mtime_ns": 1793658703644906288,
+        "ctime_ns": 1793658703644906288,
+        "nlink": 1,
+        "allocated_bytes": 2203648
+      },
+      "sha256": "6debe192afea25b3f030f6560c84bcd8bb0a7a4690e6f2b1199ee44cca85beea",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/exact_frames/exact_006.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125542790,
+        "bytes": 2071013,
+        "mtime_ns": 1793658703645764751,
+        "ctime_ns": 1793658703645764751,
+        "nlink": 1,
+        "allocated_bytes": 2072576
+      },
+      "sha256": "4fa8cef98fd14061372c3ba5b2b40466c0e550edb203624b82806e24c00d4d02",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/exact_frames/exact_007.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125542791,
+        "bytes": 2267483,
+        "mtime_ns": 1793658703875455121,
+        "ctime_ns": 1793658703875455121,
+        "nlink": 1,
+        "allocated_bytes": 2269184
+      },
+      "sha256": "718b12371d146c170fb4a84da90b887ffc36cac149203f04df462907e2782a79",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/exact_frames/exact_008.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125542792,
+        "bytes": 2263403,
+        "mtime_ns": 1793658703876137750,
+        "ctime_ns": 1793658703876137750,
+        "nlink": 1,
+        "allocated_bytes": 2265088
+      },
+      "sha256": "f75b4c2471f56ff4bf9bbe9a4761c2772d1fb54fd1823936736d54bf5d1ee7e6",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/exact_frames/exact_009.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125542793,
+        "bytes": 2290279,
+        "mtime_ns": 1793658703996916302,
+        "ctime_ns": 1793658703996916302,
+        "nlink": 1,
+        "allocated_bytes": 2293760
+      },
+      "sha256": "818109c919ece2a565cbf97b75e8960f7593731e964b0ac9904961afb90ce1a2",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/exact_frames/exact_010.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125542794,
+        "bytes": 2302252,
+        "mtime_ns": 1793658704053523911,
+        "ctime_ns": 1793658704053523911,
+        "nlink": 1,
+        "allocated_bytes": 2306048
+      },
+      "sha256": "3b18a58af3009c88a787986adcc74a7d6e6fcfc4a25a0b52b032def55958309f",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/exact_frames/exact_011.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125542795,
+        "bytes": 1988071,
+        "mtime_ns": 1793658704084444501,
+        "ctime_ns": 1793658704084444501,
+        "nlink": 1,
+        "allocated_bytes": 1990656
+      },
+      "sha256": "d5f19f1b13b3dc1d44b3bbc5788f1c718e971dc5643e85f33809e3bf60ddc181",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/exact_frames/exact_012.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125542810,
+        "bytes": 2484266,
+        "mtime_ns": 1793658704726398598,
+        "ctime_ns": 1793658704726398598,
+        "nlink": 1,
+        "allocated_bytes": 2486272
+      },
+      "sha256": "48854884bc0b861ed5a79c0472f45fb7ca65a18689443a90ecde5360af80d994",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/exact_frames/exact_013.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125542811,
+        "bytes": 2357425,
+        "mtime_ns": 1793658704727140935,
+        "ctime_ns": 1793658704727140935,
+        "nlink": 1,
+        "allocated_bytes": 2359296
+      },
+      "sha256": "644dde9c7f57cf73066d823ee897cc0300e7d68bf3fbdc25f6c06588df3ddce1",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/exact_frames/exact_014.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125542812,
+        "bytes": 2331600,
+        "mtime_ns": 1793658704746147667,
+        "ctime_ns": 1793658704746147667,
+        "nlink": 1,
+        "allocated_bytes": 2334720
+      },
+      "sha256": "f1d37587b667e8f2d97e3d93bbea4f055d153f221cbced0c13da8c74791578f0",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/exact_frames/exact_015.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125542813,
+        "bytes": 2454239,
+        "mtime_ns": 1793658704747529883,
+        "ctime_ns": 1793658704747529883,
+        "nlink": 1,
+        "allocated_bytes": 2457600
+      },
+      "sha256": "e24eed1e9d8879c8ae0888157e6c8873531d84b34db029811133c46d5b6eafb5",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/exact_frames/exact_016.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125542814,
+        "bytes": 2226515,
+        "mtime_ns": 1793658704748837724,
+        "ctime_ns": 1793658704748837724,
+        "nlink": 1,
+        "allocated_bytes": 2228224
+      },
+      "sha256": "2d49f747ad0ee967606e608593e44a7191345440840c21ff2e48f0f52119a36c",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/exact_frames/exact_017.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125542816,
+        "bytes": 2289654,
+        "mtime_ns": 1793658705072804414,
+        "ctime_ns": 1793658705072804414,
+        "nlink": 1,
+        "allocated_bytes": 2289664
+      },
+      "sha256": "1f8d73c13a1e6ba4532a6a9508c49a1f185845357637dae6a4d6992cfc7cbab8",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/exact_frames/exact_018.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125542817,
+        "bytes": 2282339,
+        "mtime_ns": 1793658705074093129,
+        "ctime_ns": 1793658705074093129,
+        "nlink": 1,
+        "allocated_bytes": 2285568
+      },
+      "sha256": "550b4843fea1e854af4f2416e9f9325533dc6b7f34ac5736d5936ffb94e22d00",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/exact_frames/exact_019.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125542818,
+        "bytes": 2362471,
+        "mtime_ns": 1793658705075422012,
+        "ctime_ns": 1793658705075422012,
+        "nlink": 1,
+        "allocated_bytes": 2363392
+      },
+      "sha256": "97c482976fcda23f69e4e6b3ee471df8760da4aeb66553a6a4f759bb4014cd07",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/exact_frames/exact_020.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125542819,
+        "bytes": 2438619,
+        "mtime_ns": 1793658705125589585,
+        "ctime_ns": 1793658705125589585,
+        "nlink": 1,
+        "allocated_bytes": 2441216
+      },
+      "sha256": "dacd5f0c88a95216c4f6686ce2eb2c94f5bf36f4b684e7a836440f35f28c76ee",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/exact_frames/exact_021.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125542820,
+        "bytes": 1924342,
+        "mtime_ns": 1793658705126715216,
+        "ctime_ns": 1793658705126715216,
+        "nlink": 1,
+        "allocated_bytes": 1925120
+      },
+      "sha256": "9f5cb22f82b69fec2bc88cffafe09e36b777110dacba0ce21cb6b64b8e95d685",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/exact_frames/exact_022.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125542830,
+        "bytes": 2190575,
+        "mtime_ns": 1793658705445294876,
+        "ctime_ns": 1793658705445294876,
+        "nlink": 1,
+        "allocated_bytes": 2191360
+      },
+      "sha256": "b6912531f5b7b8efa2f306eb6e564a441771ec65fb4531156119f0bc7d50f03a",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/exact_frames/exact_023.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125542831,
+        "bytes": 2262244,
+        "mtime_ns": 1793658705446173464,
+        "ctime_ns": 1793658705446173464,
+        "nlink": 1,
+        "allocated_bytes": 2265088
+      },
+      "sha256": "a8d893e15f6cb3619025ab7178dc860a73446e494b553173c897888956c29e45",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/exact_frames/exact_024.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125542832,
+        "bytes": 2423176,
+        "mtime_ns": 1793658705446742176,
+        "ctime_ns": 1793658705446742176,
+        "nlink": 1,
+        "allocated_bytes": 2424832
+      },
+      "sha256": "65503e4446c87eb453e3616f7178e7e0047a2e6a8b4413fa5e50751efd4fec6f",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/exact_frames/exact_025.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125542833,
+        "bytes": 2322293,
+        "mtime_ns": 1793658705447229054,
+        "ctime_ns": 1793658705447229054,
+        "nlink": 1,
+        "allocated_bytes": 2322432
+      },
+      "sha256": "255c2279781dc5ad3722ace547559cb1316a56f8f8abb6afd6ad3b1f539624ec",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/exact_frames/exact_026.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125542834,
+        "bytes": 1948669,
+        "mtime_ns": 1793658705448259184,
+        "ctime_ns": 1793658705448259184,
+        "nlink": 1,
+        "allocated_bytes": 1949696
+      },
+      "sha256": "143e9836bfa094f4ac86dff279bdec01002ac335e56e1e8154e67b0761f469cc",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/exact_frames/exact_027.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125542835,
+        "bytes": 2236815,
+        "mtime_ns": 1793658705473332950,
+        "ctime_ns": 1793658705473332950,
+        "nlink": 1,
+        "allocated_bytes": 2240512
+      },
+      "sha256": "37a7ccb5361dd552f3e7a0fc06fb85aa780a44d07d8cbf343ca670ea8b8cbcfc",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/exact_frames/exact_028.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125542838,
+        "bytes": 2215962,
+        "mtime_ns": 1793658705528931178,
+        "ctime_ns": 1793658705528931178,
+        "nlink": 1,
+        "allocated_bytes": 2220032
+      },
+      "sha256": "5bdf3cd78307418572904b3aeadda4a124e94df6039d36299100d40311f73132",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/exact_frames/exact_029.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125542839,
+        "bytes": 2208610,
+        "mtime_ns": 1793658705531562943,
+        "ctime_ns": 1793658705531562943,
+        "nlink": 1,
+        "allocated_bytes": 2211840
+      },
+      "sha256": "c72b852f97a151efcc0dfb686c3955d8b4d688b1a5d20f113156f0a04744c420",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/exact_frames/exact_030.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125542840,
+        "bytes": 2279603,
+        "mtime_ns": 1793658705532085654,
+        "ctime_ns": 1793658705532085654,
+        "nlink": 1,
+        "allocated_bytes": 2281472
+      },
+      "sha256": "d51022b95c956de835f56414283d5ba260f02b9f3ca030142f7036649facdd4e",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/frames/frame_001.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125540782,
+        "bytes": 1736895,
+        "mtime_ns": 1793658605954612369,
+        "ctime_ns": 1793658605954612369,
+        "nlink": 1,
+        "allocated_bytes": 1740800
+      },
+      "sha256": "3a286c7a7dcee14ee28a9c69d3eaede45f41922d60e6d5087554a6abca2424b7",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/frames/frame_002.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125540784,
+        "bytes": 2195913,
+        "mtime_ns": 1793658606123578316,
+        "ctime_ns": 1793658606123578316,
+        "nlink": 1,
+        "allocated_bytes": 2199552
+      },
+      "sha256": "92d990f4cae8c0b59fd421956ce09b13382717be13c5a86590022382284cce4f",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/frames/frame_003.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125540785,
+        "bytes": 2129717,
+        "mtime_ns": 1793658606124130110,
+        "ctime_ns": 1793658606124130110,
+        "nlink": 1,
+        "allocated_bytes": 2129920
+      },
+      "sha256": "8fbdef4731743b8bc3aed338abf828ce3b2a05c01519ac13260829aaa3fecc13",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/frames/frame_004.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125540790,
+        "bytes": 2301426,
+        "mtime_ns": 1793658606214032656,
+        "ctime_ns": 1793658606214032656,
+        "nlink": 1,
+        "allocated_bytes": 2301952
+      },
+      "sha256": "3b08a8ecbc8fb01f721d0accd65dd274ebf8e25d1cae9547bfb71f2be8f719d8",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/frames/frame_005.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125540791,
+        "bytes": 2235140,
+        "mtime_ns": 1793658606234000476,
+        "ctime_ns": 1793658606234000476,
+        "nlink": 1,
+        "allocated_bytes": 2236416
+      },
+      "sha256": "1bc57d6399bc85e1df6365bcc35bc314127636d2e081b03f87e1da943e831064",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/frames/frame_006.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125540792,
+        "bytes": 2210053,
+        "mtime_ns": 1793658606265506694,
+        "ctime_ns": 1793658606265506694,
+        "nlink": 1,
+        "allocated_bytes": 2211840
+      },
+      "sha256": "055c27a6ba1f7b1c3aa4df3cc4dab90668138f7719e08f7cd14f678b94cd1f2c",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/frames/frame_007.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125540793,
+        "bytes": 2111254,
+        "mtime_ns": 1793658606266119239,
+        "ctime_ns": 1793658606266119239,
+        "nlink": 1,
+        "allocated_bytes": 2113536
+      },
+      "sha256": "0c348dec83da7cfac26d6828e85ab50ccbc94f1cbaad053f0c9baffd6174b327",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/frames/frame_008.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125540794,
+        "bytes": 2233382,
+        "mtime_ns": 1793658606266638117,
+        "ctime_ns": 1793658606266638117,
+        "nlink": 1,
+        "allocated_bytes": 2236416
+      },
+      "sha256": "1aad3c4ce5302b5d1aee5ffdddd71ae88557af185b3d5f1e9ac2f9930e293aca",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/frames/frame_009.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125540795,
+        "bytes": 2411736,
+        "mtime_ns": 1793658606267125661,
+        "ctime_ns": 1793658606267125661,
+        "nlink": 1,
+        "allocated_bytes": 2412544
+      },
+      "sha256": "df2498e732ed1cff1fc6ddad7d181fd40416a7680d404d84f4b5409b215eb7d7",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/frames/frame_010.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125540799,
+        "bytes": 2288154,
+        "mtime_ns": 1793658606364066955,
+        "ctime_ns": 1793658606364066955,
+        "nlink": 1,
+        "allocated_bytes": 2289664
+      },
+      "sha256": "3470b3cb9536ab93cd0d323913268c2aa08313cfd6145c6dbb4aa332bf2cfc72",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/frames/frame_011.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125540835,
+        "bytes": 2199812,
+        "mtime_ns": 1793658606648550799,
+        "ctime_ns": 1793658606648550799,
+        "nlink": 1,
+        "allocated_bytes": 2203648
+      },
+      "sha256": "6debe192afea25b3f030f6560c84bcd8bb0a7a4690e6f2b1199ee44cca85beea",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/frames/frame_012.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125540843,
+        "bytes": 2071013,
+        "mtime_ns": 1793658606820558804,
+        "ctime_ns": 1793658606820558804,
+        "nlink": 1,
+        "allocated_bytes": 2072576
+      },
+      "sha256": "4fa8cef98fd14061372c3ba5b2b40466c0e550edb203624b82806e24c00d4d02",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/frames/frame_013.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125540844,
+        "bytes": 2210714,
+        "mtime_ns": 1793658606944249497,
+        "ctime_ns": 1793658606944249497,
+        "nlink": 1,
+        "allocated_bytes": 2211840
+      },
+      "sha256": "c071359f1fd2174ed7c26d6e01d2aa42cfa15a594a8a3d26d086d2f3bb018c49",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/frames/frame_014.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125540847,
+        "bytes": 2316440,
+        "mtime_ns": 1793658606994328694,
+        "ctime_ns": 1793658606994328694,
+        "nlink": 1,
+        "allocated_bytes": 2318336
+      },
+      "sha256": "b0a028e7c3fdb6b0c630ff825ea83786652fe2be6e565653a5bd5c38033f0743",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/frames/frame_015.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125540851,
+        "bytes": 2273613,
+        "mtime_ns": 1793658607030286354,
+        "ctime_ns": 1793658607030286354,
+        "nlink": 1,
+        "allocated_bytes": 2277376
+      },
+      "sha256": "806f8e1f9fb3d688ba5e2f5c57fa99a45eb2c079a30582ec976354179af5d0c6",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/frames/frame_016.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125540852,
+        "bytes": 2236169,
+        "mtime_ns": 1793658607079287254,
+        "ctime_ns": 1793658607079287254,
+        "nlink": 1,
+        "allocated_bytes": 2236416
+      },
+      "sha256": "bc5d465eb0150bfda55e4015230f615a35329f386e3e1d8f3afe2026eaac0a33",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/frames/frame_017.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125540853,
+        "bytes": 2360136,
+        "mtime_ns": 1793658607079946632,
+        "ctime_ns": 1793658607079946632,
+        "nlink": 1,
+        "allocated_bytes": 2363392
+      },
+      "sha256": "a584621aeedafd3f3b22bbf54ff2d7417359f978d17242caddc9345e5d6e8b31",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/frames/frame_018.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125540854,
+        "bytes": 2303856,
+        "mtime_ns": 1793658607080547427,
+        "ctime_ns": 1793658607080547427,
+        "nlink": 1,
+        "allocated_bytes": 2306048
+      },
+      "sha256": "05a1b459bbdd9574158eb69143a5fcd5ab95033d4831326b0e659893f123676d",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/frames/frame_019.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125540856,
+        "bytes": 2298429,
+        "mtime_ns": 1793658607123148375,
+        "ctime_ns": 1793658607123148375,
+        "nlink": 1,
+        "allocated_bytes": 2301952
+      },
+      "sha256": "df01389b4cafcdeab2a2715b3db002035bf898c8a973488001ed36c07ce28a8f",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/frames/frame_020.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125540858,
+        "bytes": 2237481,
+        "mtime_ns": 1793658607208312185,
+        "ctime_ns": 1793658607208312185,
+        "nlink": 1,
+        "allocated_bytes": 2240512
+      },
+      "sha256": "f1675f622fa7389fdac0b635a8df01c85d14fce10475b177381c9d4d27a1b14c",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/frames/frame_021.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125540859,
+        "bytes": 2309355,
+        "mtime_ns": 1793658607442363455,
+        "ctime_ns": 1793658607442363455,
+        "nlink": 1,
+        "allocated_bytes": 2310144
+      },
+      "sha256": "d98f4ae77ab5cc042f7ce4a053cd52879998c11372c80e562d064259ff31cfff",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/frames/frame_022.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125540860,
+        "bytes": 2302252,
+        "mtime_ns": 1793658607554823918,
+        "ctime_ns": 1793658607554823918,
+        "nlink": 1,
+        "allocated_bytes": 2306048
+      },
+      "sha256": "3b18a58af3009c88a787986adcc74a7d6e6fcfc4a25a0b52b032def55958309f",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/frames/frame_023.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125540861,
+        "bytes": 1988071,
+        "mtime_ns": 1793658607640087563,
+        "ctime_ns": 1793658607640087563,
+        "nlink": 1,
+        "allocated_bytes": 1990656
+      },
+      "sha256": "d5f19f1b13b3dc1d44b3bbc5788f1c718e971dc5643e85f33809e3bf60ddc181",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/frames/frame_024.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125540862,
+        "bytes": 2318726,
+        "mtime_ns": 1793658607825358143,
+        "ctime_ns": 1793658607825358143,
+        "nlink": 1,
+        "allocated_bytes": 2322432
+      },
+      "sha256": "cec21beb15117622a7215a9a58212f500b929c136f17e821502c04efed0ab837",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/frames/frame_025.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125540863,
+        "bytes": 2367341,
+        "mtime_ns": 1793658607825948021,
+        "ctime_ns": 1793658607825948021,
+        "nlink": 1,
+        "allocated_bytes": 2367488
+      },
+      "sha256": "781e0f74e19c507f508b5a0d1a8751ab286985238df9eefe70dc6b0c574d1bc3",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/frames/frame_026.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125540864,
+        "bytes": 2484266,
+        "mtime_ns": 1793658607847468100,
+        "ctime_ns": 1793658607847468100,
+        "nlink": 1,
+        "allocated_bytes": 2486272
+      },
+      "sha256": "48854884bc0b861ed5a79c0472f45fb7ca65a18689443a90ecde5360af80d994",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/frames/frame_027.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125540865,
+        "bytes": 2425172,
+        "mtime_ns": 1793658607848128729,
+        "ctime_ns": 1793658607848128729,
+        "nlink": 1,
+        "allocated_bytes": 2428928
+      },
+      "sha256": "84cd444c867b1167dc52b6c41f145e146b0a6da4c822c0b4676ac39328c180fc",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/frames/frame_028.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125540866,
+        "bytes": 2373966,
+        "mtime_ns": 1793658607874179958,
+        "ctime_ns": 1793658607874179958,
+        "nlink": 1,
+        "allocated_bytes": 2375680
+      },
+      "sha256": "945599511647da1962234938eff9b591311928efc093699321bbe67c7f68a597",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/frames/frame_029.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125540867,
+        "bytes": 2357425,
+        "mtime_ns": 1793658607908993569,
+        "ctime_ns": 1793658607908993569,
+        "nlink": 1,
+        "allocated_bytes": 2359296
+      },
+      "sha256": "644dde9c7f57cf73066d823ee897cc0300e7d68bf3fbdc25f6c06588df3ddce1",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/frames/frame_030.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125540868,
+        "bytes": 2389098,
+        "mtime_ns": 1793658607945805067,
+        "ctime_ns": 1793658607945805067,
+        "nlink": 1,
+        "allocated_bytes": 2392064
+      },
+      "sha256": "10e85d96471fa166d936ad4e98dabed0350fccc7aaae0809592b40cffae09fd5",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/frames/frame_031.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125540869,
+        "bytes": 2458238,
+        "mtime_ns": 1793658608168702191,
+        "ctime_ns": 1793658608168702191,
+        "nlink": 1,
+        "allocated_bytes": 2461696
+      },
+      "sha256": "4c83152f24797a88df7f412b4d3ce69c952030c80a8be77f28d4096a1f0255d7",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/frames/frame_032.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125540871,
+        "bytes": 2371165,
+        "mtime_ns": 1793658608278562349,
+        "ctime_ns": 1793658608278562349,
+        "nlink": 1,
+        "allocated_bytes": 2371584
+      },
+      "sha256": "7fc4a8ca447d4383a1402f2fc1d5e1a7f65e7967f8062e54ffbb00050477ab93",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/frames/frame_033.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125540872,
+        "bytes": 2388980,
+        "mtime_ns": 1793658608332970695,
+        "ctime_ns": 1793658608332970695,
+        "nlink": 1,
+        "allocated_bytes": 2392064
+      },
+      "sha256": "be61af6079a096813293e1e678e63c374a73913828b331948bc2bc800995ffd2",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/frames/frame_034.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125540874,
+        "bytes": 2385739,
+        "mtime_ns": 1793658608445497992,
+        "ctime_ns": 1793658608445497992,
+        "nlink": 1,
+        "allocated_bytes": 2387968
+      },
+      "sha256": "4617a32161c12e626d7efee83b4257f48ac2885a715410e93ad54c626003a39c",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/frames/frame_035.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125540875,
+        "bytes": 2454239,
+        "mtime_ns": 1793658608522828176,
+        "ctime_ns": 1793658608522828176,
+        "nlink": 1,
+        "allocated_bytes": 2457600
+      },
+      "sha256": "e24eed1e9d8879c8ae0888157e6c8873531d84b34db029811133c46d5b6eafb5",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/frames/frame_036.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125540876,
+        "bytes": 2226515,
+        "mtime_ns": 1793658608523333178,
+        "ctime_ns": 1793658608523333178,
+        "nlink": 1,
+        "allocated_bytes": 2228224
+      },
+      "sha256": "2d49f747ad0ee967606e608593e44a7191345440840c21ff2e48f0f52119a36c",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/frames/frame_037.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125540877,
+        "bytes": 2397378,
+        "mtime_ns": 1793658608560268552,
+        "ctime_ns": 1793658608560268552,
+        "nlink": 1,
+        "allocated_bytes": 2400256
+      },
+      "sha256": "c821ff7b0f021de63cc624e20aa2326d1e9acb448fbfe8e8fab89f6a84a57073",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/frames/frame_038.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125540879,
+        "bytes": 2289235,
+        "mtime_ns": 1793658608625315375,
+        "ctime_ns": 1793658608625315375,
+        "nlink": 1,
+        "allocated_bytes": 2289664
+      },
+      "sha256": "388b015d5721f6ddc43019818f67c3b78352bce62f5c5097e8bfc1f258495fe1",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/frames/frame_039.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125540880,
+        "bytes": 2318024,
+        "mtime_ns": 1793658608691378328,
+        "ctime_ns": 1793658608691378328,
+        "nlink": 1,
+        "allocated_bytes": 2318336
+      },
+      "sha256": "7f97fde2caef1aaad61bfc09913dc2a4fc659372f9f88db3da8685996d95a156",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/frames/frame_040.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125540881,
+        "bytes": 2445988,
+        "mtime_ns": 1793658608692017665,
+        "ctime_ns": 1793658608692017665,
+        "nlink": 1,
+        "allocated_bytes": 2449408
+      },
+      "sha256": "4e43f2b02047f4785c25285aa9e518f358b6ea0d9053ffdcd4f0b5e98e269a17",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/frames/frame_041.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125540882,
+        "bytes": 2382415,
+        "mtime_ns": 1793658608874522146,
+        "ctime_ns": 1793658608874522146,
+        "nlink": 1,
+        "allocated_bytes": 2383872
+      },
+      "sha256": "9321608e1a50e0188e52b2f3f07f8b7b1b922eb035a81fc6b396bd921093409b",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/frames/frame_042.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125540883,
+        "bytes": 2331077,
+        "mtime_ns": 1793658608976907053,
+        "ctime_ns": 1793658608976907053,
+        "nlink": 1,
+        "allocated_bytes": 2334720
+      },
+      "sha256": "116075e9aa711205288696feae2e0bd82136f3c6af3c06ecb6663e7af6a80d4d",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/frames/frame_043.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125540884,
+        "bytes": 2291378,
+        "mtime_ns": 1793658609015138226,
+        "ctime_ns": 1793658609015138226,
+        "nlink": 1,
+        "allocated_bytes": 2293760
+      },
+      "sha256": "bad16420b08aad971aa2b6ee2a3f824eccecf0ec6b70d7e2bc08e48c1d0e4e76",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/frames/frame_044.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125540885,
+        "bytes": 2519114,
+        "mtime_ns": 1793658609082920522,
+        "ctime_ns": 1793658609082920522,
+        "nlink": 1,
+        "allocated_bytes": 2523136
+      },
+      "sha256": "f27f147f80b99fe8acce148aa6e07ca633bb12a04afd975a6de41a633137e90b",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/frames/frame_045.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125540887,
+        "bytes": 2438619,
+        "mtime_ns": 1793658609186004558,
+        "ctime_ns": 1793658609186004558,
+        "nlink": 1,
+        "allocated_bytes": 2441216
+      },
+      "sha256": "dacd5f0c88a95216c4f6686ce2eb2c94f5bf36f4b684e7a836440f35f28c76ee",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/frames/frame_046.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125540888,
+        "bytes": 1924342,
+        "mtime_ns": 1793658609187275232,
+        "ctime_ns": 1793658609187275232,
+        "nlink": 1,
+        "allocated_bytes": 1925120
+      },
+      "sha256": "9f5cb22f82b69fec2bc88cffafe09e36b777110dacba0ce21cb6b64b8e95d685",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/frames/frame_047.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125540889,
+        "bytes": 2189061,
+        "mtime_ns": 1793658609188449655,
+        "ctime_ns": 1793658609188449655,
+        "nlink": 1,
+        "allocated_bytes": 2191360
+      },
+      "sha256": "e1e200da6889ec250f391b15b1ff7cb41596858ab334ee1f6aa05cf628f6c583",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/frames/frame_048.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125540890,
+        "bytes": 2182738,
+        "mtime_ns": 1793658609359267946,
+        "ctime_ns": 1793658609359267946,
+        "nlink": 1,
+        "allocated_bytes": 2183168
+      },
+      "sha256": "493929da4e786d5f7f21d0ee43bc3fb4aa51be87a59f62ff363906be07b5e2a1",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/frames/frame_049.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125540892,
+        "bytes": 2209398,
+        "mtime_ns": 1793658609493255488,
+        "ctime_ns": 1793658609493255488,
+        "nlink": 1,
+        "allocated_bytes": 2211840
+      },
+      "sha256": "c63d766c5900b3799aec8c947cc6fed1df855641cc4432ddad00e8b2ea1bfd8f",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/frames/frame_050.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125540893,
+        "bytes": 2184307,
+        "mtime_ns": 1793658609493810283,
+        "ctime_ns": 1793658609493810283,
+        "nlink": 1,
+        "allocated_bytes": 2187264
+      },
+      "sha256": "554b113a362afd417f0f0f2fef1f82a1bc0a46b16d6a9599ed711a0b690b1f5b",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/frames/frame_051.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125540894,
+        "bytes": 2276256,
+        "mtime_ns": 1793658609520625475,
+        "ctime_ns": 1793658609520625475,
+        "nlink": 1,
+        "allocated_bytes": 2277376
+      },
+      "sha256": "b574f3afe0a58a51666f31d23f7a3693f0bbe179d186ee5510ae8c0e66d4eb66",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/frames/frame_052.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125540895,
+        "bytes": 2316909,
+        "mtime_ns": 1793658609651860210,
+        "ctime_ns": 1793658609651860210,
+        "nlink": 1,
+        "allocated_bytes": 2318336
+      },
+      "sha256": "7a939eb8ec8fd7c5d5d85c95fce05561f04fb0362ed0cbef1c4b20393447529f",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/frames/frame_053.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125540896,
+        "bytes": 2252192,
+        "mtime_ns": 1793658609659603795,
+        "ctime_ns": 1793658609659603795,
+        "nlink": 1,
+        "allocated_bytes": 2252800
+      },
+      "sha256": "8733e31f6aaa21f33f1e875fe7ea64c3a7a2ed2ab2a3c2d28e579444b9d76668",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/frames/frame_054.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125540897,
+        "bytes": 2252050,
+        "mtime_ns": 1793658609721006764,
+        "ctime_ns": 1793658609721006764,
+        "nlink": 1,
+        "allocated_bytes": 2252800
+      },
+      "sha256": "bb3f91bb917c8b02073a713afda5bb0a63771baf2a6d6dd6fc36ca5fba5efd03",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/frames/frame_055.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125540898,
+        "bytes": 2322293,
+        "mtime_ns": 1793658609721619851,
+        "ctime_ns": 1793658609721619851,
+        "nlink": 1,
+        "allocated_bytes": 2322432
+      },
+      "sha256": "255c2279781dc5ad3722ace547559cb1316a56f8f8abb6afd6ad3b1f539624ec",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/frames/frame_056.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125540899,
+        "bytes": 1948669,
+        "mtime_ns": 1793658609722129729,
+        "ctime_ns": 1793658609722129729,
+        "nlink": 1,
+        "allocated_bytes": 1949696
+      },
+      "sha256": "143e9836bfa094f4ac86dff279bdec01002ac335e56e1e8154e67b0761f469cc",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/frames/frame_057.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125540900,
+        "bytes": 2085497,
+        "mtime_ns": 1793658609730083190,
+        "ctime_ns": 1793658609730083190,
+        "nlink": 1,
+        "allocated_bytes": 2088960
+      },
+      "sha256": "6a5c71c4d2d135543541d096b67223e3efa79fde1a03980f1bc20f697d31bf4e",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/frames/frame_058.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125540901,
+        "bytes": 2215784,
+        "mtime_ns": 1793658609800509460,
+        "ctime_ns": 1793658609800509460,
+        "nlink": 1,
+        "allocated_bytes": 2215936
+      },
+      "sha256": "a10731566bc855a853972fe232f7049e3646699f9ba66277ff8dcab60bf6feb0",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/frames/frame_059.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125540902,
+        "bytes": 2241136,
+        "mtime_ns": 1793658609967204977,
+        "ctime_ns": 1793658609967204977,
+        "nlink": 1,
+        "allocated_bytes": 2244608
+      },
+      "sha256": "7222d570943592589e044df34403cc285ac25c3ec822b2c7d2263bfba4cdfe55",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/frames/frame_060.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125540903,
+        "bytes": 2176016,
+        "mtime_ns": 1793658609978114455,
+        "ctime_ns": 1793658609978114455,
+        "nlink": 1,
+        "allocated_bytes": 2179072
+      },
+      "sha256": "f8d0dfba72fbddda345204d0ac6317983418f0f218dee2a01ee1b3ff2d20d850",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/frames/frame_061.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125540904,
+        "bytes": 2192156,
+        "mtime_ns": 1793658609990488274,
+        "ctime_ns": 1793658609990488274,
+        "nlink": 1,
+        "allocated_bytes": 2195456
+      },
+      "sha256": "746b980ecbc53cf00a22dafd0028eb2b3a8f5462452941fb9782d3dacc42b104",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/frames/frame_062.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125540905,
+        "bytes": 2249887,
+        "mtime_ns": 1793658610030209497,
+        "ctime_ns": 1793658610030209497,
+        "nlink": 1,
+        "allocated_bytes": 2252800
+      },
+      "sha256": "eb8c1dc5c308acf1e8c904aed06e6f9afcb8694db9e8aec7c325a0d106252dcc",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/frames/frame_063.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125540919,
+        "bytes": 2181404,
+        "mtime_ns": 1793658610084254841,
+        "ctime_ns": 1793658610084254841,
+        "nlink": 1,
+        "allocated_bytes": 2183168
+      },
+      "sha256": "43df4726cf0e8a2b034d3ccafe23097508b5de82deafb1b65827b2ee3f5b001d",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/frames/frame_064.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125540920,
+        "bytes": 2164564,
+        "mtime_ns": 1793658610094379106,
+        "ctime_ns": 1793658610094379106,
+        "nlink": 1,
+        "allocated_bytes": 2166784
+      },
+      "sha256": "118e8adfd8995a7e6cf19741f79749b8ae2a8b48b2eadf6e8060dd570b619ba6",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    },
+    {
+      "path": "Work/short01_motion_review_20261102_v01/scratch/frames/frame_065.png",
+      "role": "scratch",
+      "identity": {
+        "device": 16777233,
+        "inode": 125540925,
+        "bytes": 2279603,
+        "mtime_ns": 1793658610134055537,
+        "ctime_ns": 1793658610134055537,
+        "nlink": 1,
+        "allocated_bytes": 2281472
+      },
+      "sha256": "d51022b95c956de835f56414283d5ba260f02b9f3ca030142f7036649facdd4e",
+      "rebuild_from": [
+        {
+          "path": "Work/short01_subtitles_20261102_v02/previews/short01_subtitles_full_v04_group_v02_review.mp4",
+          "identity": {
+            "device": 16777233,
+            "inode": 125511181,
+            "bytes": 40021789,
+            "mtime_ns": 1793657898136200195,
+            "ctime_ns": 1793657898136200195,
+            "nlink": 1,
+            "allocated_bytes": 40022016
+          },
+          "sha256": "2046934add0e8647d35228d7d9d702e23e4cc9ff05a3fa4504ce85e52f7885a4"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "Edit/QA/short01_motion_review_20261102_v01/motion_review.json",
+          "identity": {
+            "device": 16777233,
+            "inode": 125543970,
+            "bytes": 7191,
+            "mtime_ns": 1793658915022789679,
+            "ctime_ns": 1793658915022789679,
+            "nlink": 1,
+            "allocated_bytes": 8192
+          },
+          "sha256": "fe147727117f6c6d7bdcfbf2eea7c64ad96a511a1be51f3bfb22bda1d74a40aa"
+        }
+      ],
+      "disposition": "pending"
+    }
+  ],
+  "writer_finished_utc": "2026-11-02T22:35:33.878668+00:00"
+}

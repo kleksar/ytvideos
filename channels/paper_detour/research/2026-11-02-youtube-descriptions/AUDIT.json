@@ -1,0 +1,462 @@
+{
+  "channel_id": "UCMVfdfaNxV3ZkI3_J3Eejzw",
+  "baseline": "2026-11-02T00:34:37.049709+00:00",
+  "scope": "10 default English descriptions; seven accepted revisions applied and verified; three kept unchanged",
+  "videos": [
+    {
+      "id": "orQiLIvOL-8",
+      "canonical_path": "new_channel/videos/009_knorozov_asya",
+      "title": "Why Is This Cat on a Monument? #history #shorts",
+      "accepted_material": "Source/Voice/roger_v2_20261101/narration_en.txt",
+      "source_status": "accepted_material_checked",
+      "decision": "keep",
+      "external_status": "unchanged_verified",
+      "assembly_status": "validated",
+      "consultation": "CONSULT_orQiLIvOL-8.md",
+      "reason": "Already explains monument, later chronology of Asya and attributed recollection.",
+      "evidence": [
+        {
+          "path": "new_channel/videos/009_knorozov_asya/Source/Voice/roger_v2_20261101/narration_en.txt",
+          "sha256": "745d17a829c214c05c61c9c8f624d48b3b1d2b64b48869c01e81704da244ef52"
+        }
+      ],
+      "method": "Compared accepted narrative/release material with fresh default English description; no new complete video playback or independent historical verification.",
+      "label": "Кнорозов и Ася",
+      "editorial_status": "keep",
+      "editorial_reviewer": "coordinator; not independent review or user acceptance",
+      "baseline_file": "new_channel/research/2026-11-02-youtube-descriptions/texts/orQiLIvOL-8.before.txt",
+      "proposed_file": "new_channel/videos/009_knorozov_asya/Packaging/Metadata/DESCRIPTION_EN_PREVIEW_20261102_orQiLIvOL-8.txt",
+      "validator_result": "new_channel/research/2026-11-02-youtube-descriptions/texts/orQiLIvOL-8.validation.json",
+      "characters": 582,
+      "utf8_bytes": 586,
+      "live_display_status": "API read-back; not newly inspected in browser",
+      "protected_blocks": [
+        {
+          "label": "hashtags",
+          "expected": 1,
+          "actual": 1,
+          "sha256": "1830b86c931954a9f5507213cfcd95317c4d17b6c1faa9d24837f77e4be0770c"
+        }
+      ],
+      "user_acceptance": "2026-11-02; exact seven revised texts accepted",
+      "current_file": "new_channel/videos/009_knorozov_asya/Packaging/Metadata/DESCRIPTION_EN_CURRENT_orQiLIvOL-8.txt",
+      "verified_at": "2026-11-02T01:01:59.217726+00:00"
+    },
+    {
+      "id": "xYS2XBeR_Jc",
+      "canonical_path": "new_channel/videos/003_iq_gallery",
+      "title": "13 Famous People's Reported IQ Scores #IQ #Shorts",
+      "accepted_material": "Published IQ gallery v24; current release metadata and accepted reported-estimates caveat",
+      "source_status": "accepted_material_checked",
+      "decision": "keep",
+      "external_status": "unchanged_verified",
+      "assembly_status": "validated",
+      "consultation": "CONSULT_xYS2XBeR_Jc.md",
+      "reason": "Clear examples and necessary reported-estimates caveat.",
+      "evidence": [
+        {
+          "path": "new_channel/videos/003_iq_gallery/Packaging/Metadata/iq_gallery_shorts_packaging_v05.json",
+          "sha256": "ca3c721bb9b7f74ce261d75b048fa87f3bd304eece73037e93c4bea26d9bead1"
+        }
+      ],
+      "method": "Compared accepted narrative/release material with fresh default English description; no new complete video playback or independent historical verification.",
+      "label": "IQ-галерея",
+      "editorial_status": "keep",
+      "editorial_reviewer": "coordinator; not independent review or user acceptance",
+      "baseline_file": "new_channel/research/2026-11-02-youtube-descriptions/texts/xYS2XBeR_Jc.before.txt",
+      "proposed_file": "new_channel/videos/003_iq_gallery/Packaging/Metadata/DESCRIPTION_EN_PREVIEW_20261102_xYS2XBeR_Jc.txt",
+      "validator_result": "new_channel/research/2026-11-02-youtube-descriptions/texts/xYS2XBeR_Jc.validation.json",
+      "characters": 536,
+      "utf8_bytes": 536,
+      "live_display_status": "API read-back; not newly inspected in browser",
+      "protected_blocks": [
+        {
+          "label": "hashtags",
+          "expected": 1,
+          "actual": 1,
+          "sha256": "ebd90dda75530bf7400264b0c81b85ff782f41885b7cec5a97fedca58c8ba1e6"
+        }
+      ],
+      "user_acceptance": "2026-11-02; exact seven revised texts accepted",
+      "current_file": "new_channel/videos/003_iq_gallery/Packaging/Metadata/DESCRIPTION_EN_CURRENT_xYS2XBeR_Jc.txt",
+      "verified_at": "2026-11-02T01:01:59.217726+00:00"
+    },
+    {
+      "id": "sA-PYrDl5H8",
+      "canonical_path": "new_channel/videos/008_boyfriend_brought_friend",
+      "title": "A Third Wheel on Every Date #dating #storytime",
+      "accepted_material": "Script/narration_en.txt; published v06",
+      "source_status": "accepted_material_checked",
+      "decision": "keep",
+      "external_status": "unchanged_verified",
+      "assembly_status": "validated",
+      "consultation": "CONSULT_sA-PYrDl5H8.md",
+      "reason": "Full recurring conflict, inconsistent accounts, unknown motive and final reversal already covered.",
+      "evidence": [
+        {
+          "path": "new_channel/videos/008_boyfriend_brought_friend/Script/narration_en.txt",
+          "sha256": "d45d464044c6d03658fa66f0413d88d71df6443b23fca0420b9848e10c6c472e"
+        }
+      ],
+      "method": "Compared accepted narrative/release material with fresh default English description; no new complete video playback or independent historical verification.",
+      "label": "Matt — третий на каждом свидании",
+      "editorial_status": "keep",
+      "editorial_reviewer": "coordinator; not independent review or user acceptance",
+      "baseline_file": "new_channel/research/2026-11-02-youtube-descriptions/texts/sA-PYrDl5H8.before.txt",
+      "proposed_file": "new_channel/videos/008_boyfriend_brought_friend/Packaging/Metadata/DESCRIPTION_EN_PREVIEW_20261102_sA-PYrDl5H8.txt",
+      "validator_result": "new_channel/research/2026-11-02-youtube-descriptions/texts/sA-PYrDl5H8.validation.json",
+      "characters": 1107,
+      "utf8_bytes": 1116,
+      "live_display_status": "API read-back; not newly inspected in browser",
+      "protected_blocks": [
+        {
+          "label": "hashtags",
+          "expected": 1,
+          "actual": 1,
+          "sha256": "97e4f86b2497e9b5b7943c161b36aa12560022680762b124768134f2740ce566"
+        }
+      ],
+      "user_acceptance": "2026-11-02; exact seven revised texts accepted",
+      "current_file": "new_channel/videos/008_boyfriend_brought_friend/Packaging/Metadata/DESCRIPTION_EN_CURRENT_sA-PYrDl5H8.txt",
+      "verified_at": "2026-11-02T01:01:59.217726+00:00"
+    },
+    {
+      "id": "r71aCn4p88A",
+      "canonical_path": "new_channel/videos/027_doomscrolling_short",
+      "title": "She Saved 13 Kids in a Blizzard #BlizzardOf1888 #Shorts",
+      "accepted_material": "Source/Script/script_en_minnie_candidate_v03.txt",
+      "source_status": "accepted_material_checked",
+      "decision": "revise",
+      "external_status": "applied_verified",
+      "assembly_status": "validated",
+      "consultation": "CONSULT_r71aCn4p88A.md",
+      "reason": "Add confiscated classroom twine, the meaningful detail behind FROM ONE BOY, without inventing the pupil’s identity.",
+      "evidence": [
+        {
+          "path": "new_channel/videos/027_doomscrolling_short/Source/Script/script_en_minnie_candidate_v03.txt",
+          "sha256": "67af996fe5785c02793b62905de0bd4974f1c9c4f7d0471be9945cf8ccd4ced9"
+        }
+      ],
+      "method": "Compared accepted narrative/release material with fresh default English description; no new complete video playback or independent historical verification.",
+      "label": "Минни Фримен",
+      "editorial_status": "revise",
+      "editorial_reviewer": "coordinator; not independent review or user acceptance",
+      "baseline_file": "new_channel/research/2026-11-02-youtube-descriptions/texts/r71aCn4p88A.before.txt",
+      "proposed_file": "new_channel/videos/027_doomscrolling_short/Packaging/Metadata/DESCRIPTION_EN_PREVIEW_20261102_r71aCn4p88A.txt",
+      "validator_result": "new_channel/research/2026-11-02-youtube-descriptions/texts/r71aCn4p88A.validation.json",
+      "characters": 623,
+      "utf8_bytes": 623,
+      "live_display_status": "Studio exact text and public watch collapsed/expanded checked",
+      "protected_blocks": [
+        {
+          "label": "hashtags",
+          "expected": 1,
+          "actual": 1,
+          "sha256": "2a87f948646996066824a21315e819cb8f1ccdc975a1b2e22cc25247d7c5c2fe"
+        }
+      ],
+      "user_acceptance": "2026-11-02; exact seven revised texts accepted",
+      "current_file": "new_channel/videos/027_doomscrolling_short/Packaging/Metadata/DESCRIPTION_EN_CURRENT_r71aCn4p88A.txt",
+      "verified_at": "2026-11-02T01:01:59.217726+00:00",
+      "receipt": "new_channel/research/2026-11-02-youtube-descriptions/rollout_20261102/r71aCn4p88A.receipt.json"
+    },
+    {
+      "id": "-KW8jgSoEz0",
+      "canonical_path": "new_channel/videos/004_last_video",
+      "title": "One More Video. Half an Hour Gone. #EndlessScrolling #Shorts",
+      "accepted_material": "Script/narration_en.txt; published scrolling Short",
+      "source_status": "accepted_material_checked",
+      "decision": "revise",
+      "external_status": "applied_verified",
+      "assembly_status": "validated",
+      "consultation": "CONSULT_-KW8jgSoEz0.md",
+      "reason": "Restore the last-video promise, half-hour loss and repeating loop; include the actual alternatives of loved ones, learning and rest.",
+      "evidence": [
+        {
+          "path": "new_channel/videos/004_last_video/Script/narration_en.txt",
+          "sha256": "7afb36b7cbc7bccff55e8728eccf5877a96e3c5d4d6ac299721ba5a9ccd2ee63"
+        }
+      ],
+      "method": "Compared accepted narrative/release material with fresh default English description; no new complete video playback or independent historical verification.",
+      "label": "Последнее видео / скроллинг",
+      "editorial_status": "revise",
+      "editorial_reviewer": "coordinator; not independent review or user acceptance",
+      "baseline_file": "new_channel/research/2026-11-02-youtube-descriptions/texts/-KW8jgSoEz0.before.txt",
+      "proposed_file": "new_channel/videos/004_last_video/Packaging/Metadata/DESCRIPTION_EN_PREVIEW_20261102_-KW8jgSoEz0.txt",
+      "validator_result": "new_channel/research/2026-11-02-youtube-descriptions/texts/-KW8jgSoEz0.validation.json",
+      "characters": 599,
+      "utf8_bytes": 601,
+      "live_display_status": "Studio exact text and public watch collapsed/expanded checked",
+      "protected_blocks": [
+        {
+          "label": "hashtags",
+          "expected": 1,
+          "actual": 1,
+          "sha256": "f4a69867f1572809fa1b2be7a411f0a6df9a093bccb48ee7a59370996c5940ff"
+        }
+      ],
+      "user_acceptance": "2026-11-02; exact seven revised texts accepted",
+      "current_file": "new_channel/videos/004_last_video/Packaging/Metadata/DESCRIPTION_EN_CURRENT_-KW8jgSoEz0.txt",
+      "verified_at": "2026-11-02T01:01:59.217726+00:00",
+      "receipt": "new_channel/research/2026-11-02-youtube-descriptions/rollout_20261102/-KW8jgSoEz0.receipt.json"
+    },
+    {
+      "id": "WQw7ny9svrk",
+      "canonical_path": "new_channel/videos/007_joshua_jessica",
+      "title": "He Put Her Messages in an AI Chatbot #DigitalAfterlife #Grief",
+      "accepted_material": "Script/narration_en.txt; current published 45-second Short",
+      "source_status": "accepted_material_checked",
+      "decision": "revise",
+      "external_status": "applied_verified",
+      "assembly_status": "validated",
+      "consultation": "CONSULT_WQw7ny9svrk.md",
+      "reason": "Use messages put into an AI chatbot and make the second-loss fear explicit; preserve the version-specific limited-credit caveat.",
+      "evidence": [
+        {
+          "path": "new_channel/videos/007_joshua_jessica/Script/narration_en.txt",
+          "sha256": "8292363c452143e1095a671bf21b045db0ba7025aff530d2088fa6c8a4637b53"
+        }
+      ],
+      "method": "Compared accepted narrative/release material with fresh default English description; no new complete video playback or independent historical verification.",
+      "label": "Joshua и Jessica",
+      "editorial_status": "revise",
+      "editorial_reviewer": "coordinator; not independent review or user acceptance",
+      "baseline_file": "new_channel/research/2026-11-02-youtube-descriptions/texts/WQw7ny9svrk.before.txt",
+      "proposed_file": "new_channel/videos/007_joshua_jessica/Packaging/Metadata/DESCRIPTION_EN_PREVIEW_20261102_WQw7ny9svrk.txt",
+      "validator_result": "new_channel/research/2026-11-02-youtube-descriptions/texts/WQw7ny9svrk.validation.json",
+      "characters": 653,
+      "utf8_bytes": 656,
+      "live_display_status": "Studio exact text and public watch collapsed/expanded checked",
+      "protected_blocks": [
+        {
+          "label": "hashtags",
+          "expected": 1,
+          "actual": 1,
+          "sha256": "71b65b25b740039118d1c9705a064809a5012f6b74d337af443fb46bdfe46e2d"
+        }
+      ],
+      "user_acceptance": "2026-11-02; exact seven revised texts accepted",
+      "current_file": "new_channel/videos/007_joshua_jessica/Packaging/Metadata/DESCRIPTION_EN_CURRENT_WQw7ny9svrk.txt",
+      "verified_at": "2026-11-02T01:01:59.217726+00:00",
+      "receipt": "new_channel/research/2026-11-02-youtube-descriptions/rollout_20261102/WQw7ny9svrk.receipt.json"
+    },
+    {
+      "id": "pdSgHe6ScTI",
+      "canonical_path": "new_channel/videos/002_margorie_mccall",
+      "title": "They Opened Her Coffin. She Sat Up. #IrishLegends #Shorts",
+      "accepted_material": "Source/Voice/script_en.txt; accepted folklore narration",
+      "source_status": "accepted_material_checked",
+      "decision": "revise",
+      "external_status": "applied_verified",
+      "assembly_status": "validated",
+      "consultation": "CONSULT_pdSgHe6ScTI.md",
+      "evidence": [
+        {
+          "path": "new_channel/videos/002_margorie_mccall/Source/Voice/script_en.txt",
+          "sha256": "2ca079868eebf2e06dc9d8ebe07032a9e1348ecdfc6f1d715f1bf4c2b33cd64c"
+        }
+      ],
+      "method": "Compared accepted narrative/release material with fresh default English description; no new complete video playback or independent historical verification.",
+      "reason": "Expand the teaser into a substantive folklore description with the coffin and homecoming events; do not assert a medically verified resurrection or invented fever-to-swelling causality.",
+      "label": "Margorie McCall",
+      "editorial_status": "revise",
+      "editorial_reviewer": "coordinator; not independent review or user acceptance",
+      "baseline_file": "new_channel/research/2026-11-02-youtube-descriptions/texts/pdSgHe6ScTI.before.txt",
+      "proposed_file": "new_channel/videos/002_margorie_mccall/Packaging/Metadata/DESCRIPTION_EN_PREVIEW_20261102_pdSgHe6ScTI.txt",
+      "validator_result": "new_channel/research/2026-11-02-youtube-descriptions/texts/pdSgHe6ScTI.validation.json",
+      "characters": 723,
+      "utf8_bytes": 727,
+      "live_display_status": "Studio exact text and public watch collapsed/expanded checked",
+      "protected_blocks": [
+        {
+          "label": "hashtags",
+          "expected": 1,
+          "actual": 1,
+          "sha256": "76b36382054fbd5b136b349774fe226bc197d242e282f7dc594a8dc2c2881159"
+        }
+      ],
+      "user_acceptance": "2026-11-02; exact seven revised texts accepted",
+      "current_file": "new_channel/videos/002_margorie_mccall/Packaging/Metadata/DESCRIPTION_EN_CURRENT_pdSgHe6ScTI.txt",
+      "verified_at": "2026-11-02T01:01:59.217726+00:00",
+      "receipt": "new_channel/research/2026-11-02-youtube-descriptions/rollout_20261102/pdSgHe6ScTI.receipt.json"
+    },
+    {
+      "id": "7DygREwtxfY",
+      "canonical_path": "new_channel/videos/001_radio_game",
+      "title": "An MSX Game in a Radio Recording? #RetroComputing",
+      "accepted_material": "Shorts/02_decoder: current release metadata, prior title decision, supporting narration_pro_v2.txt (not assumed to be the exact final 37-second narration)",
+      "source_status": "partial",
+      "decision": "revise",
+      "external_status": "applied_verified",
+      "assembly_status": "validated",
+      "consultation": "CONSULT_7DygREwtxfY.md",
+      "evidence": [
+        {
+          "path": "new_channel/videos/001_radio_game/Shorts/02_decoder/narration_pro_v2.txt",
+          "sha256": "f289c0d9d4b4a76c39fd7c7216e1be2e2d8668d7eabba6dae4d75bbd27f47987"
+        }
+      ],
+      "method": "Compared accepted narrative/release material with fresh default English description; no new complete video playback or independent historical verification.",
+      "source_limit": "Supporting narration and accepted release metadata checked; exact final uploaded narration version not newly established by playback.",
+      "reason": "Name Clip Informática and the reported MSX game Avenger while retaining online identification and the absence of independently repeated decoding or verified game launch.",
+      "label": "Декодирование радиозаписи",
+      "editorial_status": "revise",
+      "editorial_reviewer": "coordinator; not independent review or user acceptance",
+      "baseline_file": "new_channel/research/2026-11-02-youtube-descriptions/texts/7DygREwtxfY.before.txt",
+      "proposed_file": "new_channel/videos/001_radio_game/Shorts/02_decoder/Packaging/Metadata/DESCRIPTION_EN_PREVIEW_20261102_7DygREwtxfY.txt",
+      "validator_result": "new_channel/research/2026-11-02-youtube-descriptions/texts/7DygREwtxfY.validation.json",
+      "characters": 489,
+      "utf8_bytes": 494,
+      "live_display_status": "Studio exact text and public watch collapsed/expanded checked",
+      "protected_blocks": [
+        {
+          "label": "link_1",
+          "expected": 1,
+          "actual": 1,
+          "sha256": "b63b33653012d84a36557b4cc75b5f336716c2d6a6f711e90f6f19db1353e9b3"
+        },
+        {
+          "label": "hashtags",
+          "expected": 1,
+          "actual": 1,
+          "sha256": "564b3acbd477e3bae2d71070a6526ee47ac650933c6bf46809e1e2ab0ee4bd03"
+        }
+      ],
+      "user_acceptance": "2026-11-02; exact seven revised texts accepted",
+      "current_file": "new_channel/videos/001_radio_game/Shorts/02_decoder/Packaging/Metadata/DESCRIPTION_EN_CURRENT_7DygREwtxfY.txt",
+      "verified_at": "2026-11-02T01:01:59.217726+00:00",
+      "receipt": "new_channel/research/2026-11-02-youtube-descriptions/rollout_20261102/7DygREwtxfY.receipt.json"
+    },
+    {
+      "id": "85dwIXy_lZs",
+      "canonical_path": "new_channel/videos/001_radio_game",
+      "title": "When Radio Sent Software as Sound",
+      "accepted_material": "Shorts/01_radio_signal: current release metadata and supporting narration_pro_v2.txt (not assumed to be the exact final 30-second narration)",
+      "source_status": "partial",
+      "decision": "revise",
+      "external_status": "applied_verified",
+      "assembly_status": "validated",
+      "consultation": "CONSULT_85dwIXy_lZs.md",
+      "evidence": [
+        {
+          "path": "new_channel/videos/001_radio_game/Shorts/01_radio_signal/Source/Voice/strategy_v1/narration_en.txt",
+          "sha256": "b7b439cf9993fbd046e7ecc99e0761c5dae6f5035db72bdd013d6f75df19f4e3"
+        }
+      ],
+      "method": "Compared accepted narrative/release material with fresh default English description; no new complete video playback or independent historical verification.",
+      "source_limit": "Supporting narration and accepted release metadata checked; exact final uploaded narration version not newly established by playback.",
+      "reason": "Clarify the conditional radio–cassette–computer chain and replace an unverified positional CTA with a neutral full-film link; preserve the exact recreation disclaimer.",
+      "label": "Передача программ по радио — Short",
+      "editorial_status": "revise",
+      "editorial_reviewer": "coordinator; not independent review or user acceptance",
+      "baseline_file": "new_channel/research/2026-11-02-youtube-descriptions/texts/85dwIXy_lZs.before.txt",
+      "proposed_file": "new_channel/videos/001_radio_game/Shorts/01_radio_signal/Packaging/Metadata/DESCRIPTION_EN_PREVIEW_20261102_85dwIXy_lZs.txt",
+      "validator_result": "new_channel/research/2026-11-02-youtube-descriptions/texts/85dwIXy_lZs.validation.json",
+      "characters": 578,
+      "utf8_bytes": 579,
+      "live_display_status": "Studio exact text and public watch collapsed/expanded checked",
+      "protected_blocks": [
+        {
+          "label": "link_1",
+          "expected": 1,
+          "actual": 1,
+          "sha256": "b63b33653012d84a36557b4cc75b5f336716c2d6a6f711e90f6f19db1353e9b3"
+        },
+        {
+          "label": "recreation_disclosure",
+          "expected": 1,
+          "actual": 1,
+          "sha256": "5111f9026c75927c390c42bc397a3c410a828aa1a13c513c06a1d5b41b0581fe"
+        },
+        {
+          "label": "hashtags",
+          "expected": 1,
+          "actual": 1,
+          "sha256": "dc436b82b1c82558b5b68e0165f91a0ef6bf6914ed99177f9adf206bffb2e798"
+        }
+      ],
+      "user_acceptance": "2026-11-02; exact seven revised texts accepted",
+      "current_file": "new_channel/videos/001_radio_game/Shorts/01_radio_signal/Packaging/Metadata/DESCRIPTION_EN_CURRENT_85dwIXy_lZs.txt",
+      "verified_at": "2026-11-02T01:01:59.217726+00:00",
+      "receipt": "new_channel/research/2026-11-02-youtube-descriptions/rollout_20261102/85dwIXy_lZs.receipt.json"
+    },
+    {
+      "id": "0RaC4t7yn5o",
+      "canonical_path": "new_channel/videos/001_radio_game",
+      "title": "A Radio Signal with an Unexpected Listener",
+      "accepted_material": "Published 001_en_long_paper_world_20261031_audio256.mp4; accepted release/chapters evidence",
+      "source_status": "accepted_material_checked",
+      "decision": "revise",
+      "external_status": "applied_verified",
+      "assembly_status": "validated",
+      "consultation": "CONSULT_0RaC4t7yn5o.md",
+      "evidence": [
+        {
+          "path": "new_channel/videos/001_radio_game/Packaging/Metadata/chapters_20261102/asr/001_en_long_paper_world_20261031_audio256.json",
+          "sha256": "57ca399c46dd314427e573b7d9a588d3f992370547e95a0191d45c5e74c79154"
+        },
+        {
+          "path": "new_channel/videos/001_radio_game/Packaging/Metadata/chapters_20261102/MEDIA_EVIDENCE.json",
+          "sha256": "1c299309c44a6c677c631868ee522802e4f9eb9118657febb05447bbd0d5737c"
+        }
+      ],
+      "method": "Read full existing ASR of the identified final MP4 and prior media-identity/chapters evidence; names checked against accepted metadata. No new human playback.",
+      "reason": "Lead with the film’s unusual technical mechanism, then distinguish the dated archive copy, separate online recording and Kai’s attributed report with explicit limits of our verification.",
+      "label": "Радио-фильм",
+      "editorial_status": "revise",
+      "editorial_reviewer": "coordinator; not independent review or user acceptance",
+      "baseline_file": "new_channel/research/2026-11-02-youtube-descriptions/texts/0RaC4t7yn5o.before.txt",
+      "proposed_file": "new_channel/videos/001_radio_game/Packaging/Metadata/DESCRIPTION_EN_PREVIEW_20261102_0RaC4t7yn5o.txt",
+      "validator_result": "new_channel/research/2026-11-02-youtube-descriptions/texts/0RaC4t7yn5o.validation.json",
+      "characters": 1163,
+      "utf8_bytes": 1169,
+      "live_display_status": "Studio exact text and public watch collapsed/expanded checked",
+      "protected_blocks": [
+        {
+          "label": "chapters",
+          "expected": 1,
+          "actual": 1,
+          "sha256": "628dec7c9d96e1e2853cfd153b5f0606cd483bee62e6808ed2d6cb3fb5113718"
+        },
+        {
+          "label": "hashtags",
+          "expected": 1,
+          "actual": 1,
+          "sha256": "220e7242d1f07c9a54fbc8388670bb043562445e813083d350f89a01738e4cef"
+        }
+      ],
+      "user_acceptance": "2026-11-02; exact seven revised texts accepted",
+      "current_file": "new_channel/videos/001_radio_game/Packaging/Metadata/DESCRIPTION_EN_CURRENT_0RaC4t7yn5o.txt",
+      "verified_at": "2026-11-02T01:01:59.217726+00:00",
+      "receipt": "new_channel/research/2026-11-02-youtube-descriptions/rollout_20261102/0RaC4t7yn5o.receipt.json"
+    }
+  ],
+  "excluded": [
+    {
+      "id": "QqMudxBNZgo",
+      "reason": "Unlisted zero-duration technical stream"
+    }
+  ],
+  "counts": {
+    "keep": 3,
+    "revise": 7
+  },
+  "review_scope": "Narrative/source and assembly review; not new full-film AV QA, independent fact-check, multilingual rewrite or live-display proof.",
+  "public_link_checks": [
+    {
+      "url": "https://www.youtube.com/watch?v=0RaC4t7yn5o",
+      "target_channel_id": "UCMVfdfaNxV3ZkI3_J3Eejzw",
+      "privacy_status": "public",
+      "method": "Current owner-authorized API read; not proof of a clickable Shorts link or Related Video UI."
+    }
+  ],
+  "additional_exclusions_at_end": [
+    {
+      "id": "fvRm9Vxwagk",
+      "title": "The Architect Who Was Too Good at His Job",
+      "privacy": "private"
+    }
+  ],
+  "snapshot_scope_note": "Ten public editorial videos from the opening inventory. A new private film appeared during this task and was not added to this scoped audit.",
+  "rollout": "rollout_20261102/REPORT.md"
+}

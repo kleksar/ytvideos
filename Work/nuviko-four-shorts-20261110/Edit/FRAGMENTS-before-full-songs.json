@@ -1,0 +1,1632 @@
+{
+  "exports": [
+    {
+      "file": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Deliverables/Its-Like-Im-Not-Even-Here-review-v08.mp4",
+      "sha256": "41767b6493d8bce86c1e9ff614daebd6559f8a0540a27d026bc3ff7b4bf7870f",
+      "edit_contract": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Edit/mthu-review-v08-contract.json",
+      "fps": 30,
+      "frames": 477,
+      "transition_centres": [
+        22,
+        54,
+        85,
+        115,
+        146,
+        177,
+        207,
+        268,
+        298,
+        329,
+        359,
+        390,
+        451
+      ],
+      "audio": {
+        "source_file": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/mthu-rilds.mp3",
+        "source_sha256": "c87d3a677ec6e05d0995d0926a7cb3dabe84297522529641861deefa5ff1b674",
+        "source_in_seconds": 22.63,
+        "source_out_exclusive_seconds": 38.53,
+        "timeline_frames": [
+          0,
+          477
+        ],
+        "embedded_packets_sha256": "7539cc46c53f3af203fcea35565eabfc9b02006bc8af7e0a19c47663016fa196"
+      },
+      "video": [
+        {
+          "slot": 1,
+          "subject": "butterfly",
+          "scale": "medium",
+          "source_file": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/Footage/stock-20261111/pexels-36683560.mp4",
+          "source_page": "https://www.pexels.com/video/butterfly-on-vibrant-flowers-in-garden-36683560/",
+          "source_id": "pexels:36683560",
+          "source_sha256": "73220663382bc63deab32cfb0c45e01d655725c0a17f9adad2fc7110958db635",
+          "source_in_seconds": 1.1,
+          "source_out_exclusive_seconds": 1.9,
+          "visible_timeline_frames": [
+            0,
+            24
+          ],
+          "hold_frames": [
+            0,
+            22
+          ]
+        },
+        {
+          "slot": 2,
+          "subject": "wing on stem",
+          "scale": "close",
+          "source_file": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/Footage/stock-20261111/pexels-8031854.mp4",
+          "source_page": "https://www.pexels.com/video/close-up-of-a-butterfly-8031854/",
+          "source_id": "pexels:8031854",
+          "source_sha256": "eb27549be0a3c3e79e0fe4c80de92b7de36d7b1949a5998d0ff945480774750c",
+          "source_in_seconds": 0.75,
+          "source_out_exclusive_seconds": 1.916667,
+          "visible_timeline_frames": [
+            21,
+            56
+          ],
+          "hold_frames": [
+            22,
+            54
+          ]
+        },
+        {
+          "slot": 3,
+          "subject": "forest river",
+          "scale": "medium",
+          "source_file": "/Users/diplomat/ytvideos/Work/nuviko-videos-short-batch-20261110/new-footage/5061380.mp4",
+          "source_page": null,
+          "source_id": null,
+          "source_sha256": "67361bc3e549ad2c881a5f8fecdfeff7cc9c4712ee237a337fa410b9dc907f2c",
+          "source_in_seconds": 2,
+          "source_out_exclusive_seconds": 3.133333,
+          "visible_timeline_frames": [
+            53,
+            87
+          ],
+          "hold_frames": [
+            54,
+            85
+          ]
+        },
+        {
+          "slot": 4,
+          "subject": "damselfly",
+          "scale": "close",
+          "source_file": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/Footage/stock-20261111/pexels-1792746.mp4",
+          "source_page": "https://www.pexels.com/video/close-view-of-a-dragonfly-on-a-leaf-1792746/",
+          "source_id": "pexels:1792746",
+          "source_sha256": "38e9dc35ea8932c39535f08afbf2289f60d3b9c8f23ff2e2dc5c53f3eee34194",
+          "source_in_seconds": 0.75,
+          "source_out_exclusive_seconds": 1.85,
+          "visible_timeline_frames": [
+            84,
+            117
+          ],
+          "hold_frames": [
+            85,
+            115
+          ]
+        },
+        {
+          "slot": 5,
+          "subject": "turtle reef",
+          "scale": "wide",
+          "source_file": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/Footage/stock-20261111/pexels-38680136.mp4",
+          "source_page": "https://www.pexels.com/video/underwater-scene-with-sea-turtle-and-coral-reef-38680136/",
+          "source_id": "pexels:38680136",
+          "source_sha256": "b968dc8145227bcadb4c3000abc0f5996c52b3e2ae077312b932ef9d8aa7cf08",
+          "source_in_seconds": 0.75,
+          "source_out_exclusive_seconds": 1.883333,
+          "visible_timeline_frames": [
+            114,
+            148
+          ],
+          "hold_frames": [
+            115,
+            146
+          ]
+        },
+        {
+          "slot": 6,
+          "subject": "snail",
+          "scale": "close",
+          "source_file": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/Footage/stock-20261111/pexels-8225196.mp4",
+          "source_page": "https://www.pexels.com/video/a-snail-slowly-gliding-on-a-leaf-8225196/",
+          "source_id": "pexels:8225196",
+          "source_sha256": "20bc73af9d2dbfe7cf5760f0a8adef8fa1c61454c7efc33cf04f8ea55ba1d4f9",
+          "source_in_seconds": 0.75,
+          "source_out_exclusive_seconds": 1.883333,
+          "visible_timeline_frames": [
+            145,
+            179
+          ],
+          "hold_frames": [
+            146,
+            177
+          ]
+        },
+        {
+          "slot": 7,
+          "subject": "squirrel in tree",
+          "scale": "medium",
+          "source_file": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/Footage/stock-20261111/pexels-31150724.mp4",
+          "source_page": "https://www.pexels.com/video/squirrel-climbing-on-tree-in-green-forest-31150724/",
+          "source_id": "pexels:31150724",
+          "source_sha256": "aaa8f919bc1c389efedf74e37c3dcd80d51b37906bc50ad351f17331e1c7e14c",
+          "source_in_seconds": 0.75,
+          "source_out_exclusive_seconds": 1.85,
+          "visible_timeline_frames": [
+            176,
+            209
+          ],
+          "hold_frames": [
+            177,
+            207
+          ]
+        },
+        {
+          "slot": 8,
+          "subject": "flower",
+          "scale": "close",
+          "source_file": "/Users/diplomat/ytvideos/Work/satisfying-runaway-pilot/Source/33353416.mp4",
+          "source_page": null,
+          "source_id": null,
+          "source_sha256": "9dd414483821b55e91be72bac74dcf76ff9fed37673d0b6b55121889f3c7ab96",
+          "source_in_seconds": 2,
+          "source_out_exclusive_seconds": 4.133333,
+          "visible_timeline_frames": [
+            206,
+            270
+          ],
+          "hold_frames": [
+            207,
+            268
+          ]
+        },
+        {
+          "slot": 9,
+          "subject": "squirrel foraging",
+          "scale": "medium",
+          "source_file": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/Footage/stock-20261111/pexels-37065730.mp4",
+          "source_page": "https://www.pexels.com/video/squirrel-on-log-in-forest-feeding-scene-37065730/",
+          "source_id": "pexels:37065730",
+          "source_sha256": "1dfb54bb173e921672a9dceff8c1d19796d4882d3db994ecc357df2a117e4e38",
+          "source_in_seconds": 0.75,
+          "source_out_exclusive_seconds": 1.85,
+          "visible_timeline_frames": [
+            267,
+            300
+          ],
+          "hold_frames": [
+            268,
+            298
+          ]
+        },
+        {
+          "slot": 10,
+          "subject": "ladybird",
+          "scale": "close",
+          "source_file": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/Footage/stock-20261111/pexels-4800092.mp4",
+          "source_page": "https://www.pexels.com/video/close-up-view-of-ladybug-on-green-plant-4800092/",
+          "source_id": "pexels:4800092",
+          "source_sha256": "8af353775cc595968b622dcf87c5671a5c3743c74dc3988f6164d60f302c5076",
+          "source_in_seconds": 0.75,
+          "source_out_exclusive_seconds": 1.883333,
+          "visible_timeline_frames": [
+            297,
+            331
+          ],
+          "hold_frames": [
+            298,
+            329
+          ]
+        },
+        {
+          "slot": 11,
+          "subject": "deer",
+          "scale": "medium",
+          "source_file": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/Footage/okanagan-mule-deer.webm",
+          "source_page": null,
+          "source_id": null,
+          "source_sha256": "a70705eed5b6d197652d93444c6d7169ec8ac9d6054e4356d3d63b07b08094e5",
+          "source_in_seconds": 8,
+          "source_out_exclusive_seconds": 9.1,
+          "visible_timeline_frames": [
+            328,
+            361
+          ],
+          "hold_frames": [
+            329,
+            359
+          ]
+        },
+        {
+          "slot": 12,
+          "subject": "forest stream",
+          "scale": "close",
+          "source_file": "/Users/diplomat/ytvideos/Work/nuviko-videos-short-batch-20261110/pexels-37362542.mp4",
+          "source_page": null,
+          "source_id": "pexels:37362542",
+          "source_sha256": "91487aeec9c288c3330c61a2ab0715898ce2523fa2dbafa86878e14f52b6cdea",
+          "source_in_seconds": 2.5,
+          "source_out_exclusive_seconds": 3.633333,
+          "visible_timeline_frames": [
+            358,
+            392
+          ],
+          "hold_frames": [
+            359,
+            390
+          ]
+        },
+        {
+          "slot": 13,
+          "subject": "bee",
+          "scale": "close",
+          "source_file": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/Footage/usda-bumblebee.webm",
+          "source_page": null,
+          "source_id": null,
+          "source_sha256": "7ca254c60cd5e4f3442cb0fb5cc4c126e14c5a41996bdac7656293a15825b092",
+          "source_in_seconds": 11.7,
+          "source_out_exclusive_seconds": 13.833333,
+          "visible_timeline_frames": [
+            389,
+            453
+          ],
+          "hold_frames": [
+            390,
+            451
+          ]
+        },
+        {
+          "slot": 14,
+          "subject": "jellyfish",
+          "scale": "medium",
+          "source_file": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/Footage/stock-20261111/pexels-33909106.mp4",
+          "source_page": "https://www.pexels.com/video/jellyfish-gliding-over-coral-reef-underwater-33909106/",
+          "source_id": "pexels:33909106",
+          "source_sha256": "d4c8be6ca4a6a658260d265b7b8d48d5139da6a778f6f43dd8a167ab8062e05f",
+          "source_in_seconds": 0.75,
+          "source_out_exclusive_seconds": 1.65,
+          "visible_timeline_frames": [
+            450,
+            477
+          ],
+          "hold_frames": [
+            451,
+            477
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Deliverables/Super-Funk-review-v07.mp4",
+      "sha256": "03489d6cac13f02cd1d266b454ea9259211cf142d9fc36d97a06a1d7710663b3",
+      "edit_contract": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Edit/super-funk-review-v07-contract.json",
+      "fps": 30,
+      "frames": 420,
+      "transition_centres": [
+        31,
+        45,
+        86,
+        114,
+        128,
+        156,
+        183,
+        211,
+        239,
+        266,
+        294,
+        322,
+        363,
+        377,
+        391,
+        404
+      ],
+      "audio": {
+        "source_file": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/super-funk-muzso.m4a",
+        "source_sha256": "e303c7a6504cb76d539c4766e0b4783c544d3aacd02f2503c1d3a8466f7f25fd",
+        "source_in_seconds": 2.7,
+        "source_out_exclusive_seconds": 16.7,
+        "timeline_frames": [
+          0,
+          420
+        ],
+        "embedded_packets_sha256": "a15e8e5422361998de2e69c2597667bb7b23300fed8daf238fbb688744c22bb0"
+      },
+      "video": [
+        {
+          "slot": 1,
+          "subject": "flame",
+          "scale": "close",
+          "source_file": "/Users/diplomat/ytvideos/Work/satisfying-runaway-pilot/Source/11142097.mp4",
+          "source_page": null,
+          "source_id": null,
+          "source_sha256": "046e456cbfd6edda975dbae4fe272a619e1fdc65ac751f92bb52cc5604c65980",
+          "source_in_seconds": 2,
+          "source_out_exclusive_seconds": 3.1,
+          "visible_timeline_frames": [
+            0,
+            33
+          ],
+          "hold_frames": [
+            0,
+            31
+          ]
+        },
+        {
+          "slot": 2,
+          "subject": "river flight",
+          "scale": "wide",
+          "source_file": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/Footage/stock-20261111/pexels-18450934.mp4",
+          "source_page": "https://www.pexels.com/video/fpv-drone-waterfall-18450934/",
+          "source_id": "pexels:18450934",
+          "source_sha256": "dd36d457c08071c7eed7447cce5b4aac9e3f59038b4901683393e3673e396dd5",
+          "source_in_seconds": 0.75,
+          "source_out_exclusive_seconds": 1.316667,
+          "visible_timeline_frames": [
+            30,
+            47
+          ],
+          "hold_frames": [
+            31,
+            45
+          ]
+        },
+        {
+          "slot": 3,
+          "subject": "blue diffusion",
+          "scale": "close",
+          "source_file": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/Footage/stock-20261111/pexels-31619152.mp4",
+          "source_page": "https://www.pexels.com/video/vibrant-ink-in-water-creates-abstract-patterns-31619152/",
+          "source_id": "pexels:31619152",
+          "source_sha256": "5505e98fe4ce11b65fdb6b080df38dcf61e5359d0760765df20ecd33f74f64ef",
+          "source_in_seconds": 0.75,
+          "source_out_exclusive_seconds": 2.216667,
+          "visible_timeline_frames": [
+            44,
+            88
+          ],
+          "hold_frames": [
+            45,
+            86
+          ]
+        },
+        {
+          "slot": 4,
+          "subject": "skateboard",
+          "scale": "medium",
+          "source_file": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/Footage/stock-20261111/pexels-28985119.mp4",
+          "source_page": "https://www.pexels.com/video/dynamic-nighttime-skateboarding-video-28985119/",
+          "source_id": "pexels:28985119",
+          "source_sha256": "4d85a79385af8be1c2f2cc80ee083eb004f786ea3122326b5b17644fdc2254d0",
+          "source_in_seconds": 0.75,
+          "source_out_exclusive_seconds": 1.783333,
+          "visible_timeline_frames": [
+            85,
+            116
+          ],
+          "hold_frames": [
+            86,
+            114
+          ]
+        },
+        {
+          "slot": 5,
+          "subject": "waterfall",
+          "scale": "wide",
+          "source_file": "/Users/diplomat/ytvideos/Work/nuviko-videos-short-batch-20261110/new-footage/13830672.mp4",
+          "source_page": null,
+          "source_id": null,
+          "source_sha256": "3549723532167a06a9e19b4af9d4812a99a9793d824b94a5b97686e97741e160",
+          "source_in_seconds": 2.5,
+          "source_out_exclusive_seconds": 3.066667,
+          "visible_timeline_frames": [
+            113,
+            130
+          ],
+          "hold_frames": [
+            114,
+            128
+          ]
+        },
+        {
+          "slot": 6,
+          "subject": "falling water",
+          "scale": "close",
+          "source_file": "/Users/diplomat/ytvideos/Work/nuviko-videos-short-batch-20261110/new-footage/7366444.mp4",
+          "source_page": null,
+          "source_id": null,
+          "source_sha256": "87fa3aa9c1bd8332a4e52b1e757f76f7edd468f3411d9e7a814449366326ef56",
+          "source_in_seconds": 1,
+          "source_out_exclusive_seconds": 2.033333,
+          "visible_timeline_frames": [
+            127,
+            158
+          ],
+          "hold_frames": [
+            128,
+            156
+          ]
+        },
+        {
+          "slot": 7,
+          "subject": "gull",
+          "scale": "medium",
+          "source_file": "/Users/diplomat/ytvideos/Work/satisfying-runaway-pilot/Source/13037145.mp4",
+          "source_page": null,
+          "source_id": null,
+          "source_sha256": "55258d88a711ea1af574668c1d0f29d6624114f17b5502a5506bd08500184fdd",
+          "source_in_seconds": 2.5,
+          "source_out_exclusive_seconds": 3.5,
+          "visible_timeline_frames": [
+            155,
+            185
+          ],
+          "hold_frames": [
+            156,
+            183
+          ]
+        },
+        {
+          "slot": 8,
+          "subject": "green and red ink",
+          "scale": "medium",
+          "source_file": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/Footage/stock-20261111/pexels-7145060.mp4",
+          "source_page": "https://www.pexels.com/video/red-and-green-ink-7145060/",
+          "source_id": "pexels:7145060",
+          "source_sha256": "1ef7824de4b8070a6e5aa4a15e24b58b5edf557d95d0567a95c9f66109cc5b33",
+          "source_in_seconds": 0.75,
+          "source_out_exclusive_seconds": 1.783333,
+          "visible_timeline_frames": [
+            182,
+            213
+          ],
+          "hold_frames": [
+            183,
+            211
+          ]
+        },
+        {
+          "slot": 9,
+          "subject": "paint diffusion",
+          "scale": "close",
+          "source_file": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/Footage/stock-20261111/pexels-7565621.mp4",
+          "source_page": "https://www.pexels.com/video/red-and-pink-paint-dropping-on-the-water-7565621/",
+          "source_id": "pexels:7565621",
+          "source_sha256": "29784db790be8eef9eb73f06df6fbe534ec54183a8134e13668d53babc69cf6d",
+          "source_in_seconds": 0.75,
+          "source_out_exclusive_seconds": 1.783333,
+          "visible_timeline_frames": [
+            210,
+            241
+          ],
+          "hold_frames": [
+            211,
+            239
+          ]
+        },
+        {
+          "slot": 10,
+          "subject": "shore foam",
+          "scale": "medium",
+          "source_file": "/Users/diplomat/ytvideos/Work/nuviko-videos-short-batch-20261110/new-footage/5619693.mp4",
+          "source_page": null,
+          "source_id": null,
+          "source_sha256": "315e6445fe126e840b0e06f9bd31975c73e840ddf6e55a3d3497673bfdef773c",
+          "source_in_seconds": 1,
+          "source_out_exclusive_seconds": 2.0,
+          "visible_timeline_frames": [
+            238,
+            268
+          ],
+          "hold_frames": [
+            239,
+            266
+          ]
+        },
+        {
+          "slot": 11,
+          "subject": "red clouds underwater",
+          "scale": "close",
+          "source_file": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/Footage/stock-20261111/pexels-9669145.mp4",
+          "source_page": "https://www.pexels.com/video/close-up-shot-of-red-ink-diffusion-in-water-9669145/",
+          "source_id": "pexels:9669145",
+          "source_sha256": "fd39b6f164d69cd9b0e14b977c9976f91b33702fd69acde1166101f3801869d1",
+          "source_in_seconds": 0.75,
+          "source_out_exclusive_seconds": 1.783333,
+          "visible_timeline_frames": [
+            265,
+            296
+          ],
+          "hold_frames": [
+            266,
+            294
+          ]
+        },
+        {
+          "slot": 12,
+          "subject": "red canyon",
+          "scale": "medium",
+          "source_file": "/Users/diplomat/ytvideos/Work/nuviko-videos-short-batch-20261110/new-footage/36029898.mp4",
+          "source_page": null,
+          "source_id": null,
+          "source_sha256": "1fdd67c9a9f9754c1de25d1e6a45d93034eac67c52b69d66bae0c47e3955d318",
+          "source_in_seconds": 2.5,
+          "source_out_exclusive_seconds": 3.533333,
+          "visible_timeline_frames": [
+            293,
+            324
+          ],
+          "hold_frames": [
+            294,
+            322
+          ]
+        },
+        {
+          "slot": 13,
+          "subject": "wave texture",
+          "scale": "close",
+          "source_file": "/Users/diplomat/ytvideos/Work/satisfying-runaway-pilot/Source/10001446.mp4",
+          "source_page": null,
+          "source_id": null,
+          "source_sha256": "9f7d978080ff26be49f16391bc3509a9c397b3a8e1f28f7f84541cccccf4de76",
+          "source_in_seconds": 2,
+          "source_out_exclusive_seconds": 3.466667,
+          "visible_timeline_frames": [
+            321,
+            365
+          ],
+          "hold_frames": [
+            322,
+            363
+          ]
+        },
+        {
+          "slot": 14,
+          "subject": "flare",
+          "scale": "close",
+          "source_file": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/Footage/stock-20261111/pexels-34387937.mp4",
+          "source_page": "https://www.pexels.com/video/vibrant-close-up-of-burning-sparkler-at-night-34387937/",
+          "source_id": "pexels:34387937",
+          "source_sha256": "d4a5fdd037384d2133abe14633695c04b377fffe09a972a47b112f00acef70b4",
+          "source_in_seconds": 0.75,
+          "source_out_exclusive_seconds": 1.316667,
+          "visible_timeline_frames": [
+            362,
+            379
+          ],
+          "hold_frames": [
+            363,
+            377
+          ]
+        },
+        {
+          "slot": 15,
+          "subject": "spark shower",
+          "scale": "medium",
+          "source_file": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/Footage/stock-20261111/pexels-4194080.mp4",
+          "source_page": "https://www.pexels.com/video/a-slow-motion-shot-of-a-fountain-fireworks-4194080/",
+          "source_id": "pexels:4194080",
+          "source_sha256": "248bfc5b8c6dba1861988752e667c6571edac16a268df72e07ce9c54881e7d5f",
+          "source_in_seconds": 0.75,
+          "source_out_exclusive_seconds": 1.316667,
+          "visible_timeline_frames": [
+            376,
+            393
+          ],
+          "hold_frames": [
+            377,
+            391
+          ]
+        },
+        {
+          "slot": 16,
+          "subject": "spark tracing",
+          "scale": "close",
+          "source_file": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/Footage/stock-20261111/pexels-6378175.mp4",
+          "source_page": "https://www.pexels.com/video/stop-motion-video-of-a-sparkler-6378175/",
+          "source_id": "pexels:6378175",
+          "source_sha256": "ba14f6b740c641084d15ac77d2334aa898ff602bdd69bed5937b7437bee84397",
+          "source_in_seconds": 1.1,
+          "source_out_exclusive_seconds": 1.633333,
+          "visible_timeline_frames": [
+            390,
+            406
+          ],
+          "hold_frames": [
+            391,
+            404
+          ]
+        },
+        {
+          "slot": 17,
+          "subject": "fireworks reflection",
+          "scale": "wide",
+          "source_file": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/Footage/stock-20261111/pexels-19829354.mp4",
+          "source_page": "https://www.pexels.com/video/fireworks-over-the-water-at-night-19829354/",
+          "source_id": "pexels:19829354",
+          "source_sha256": "68a12c404223b7513fe1f2ff5571d743c362f62016679985c6ed3887caa8ddf0",
+          "source_in_seconds": 1.1,
+          "source_out_exclusive_seconds": 1.666667,
+          "visible_timeline_frames": [
+            403,
+            420
+          ],
+          "hold_frames": [
+            404,
+            420
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Deliverables/Bloodstream-review-v07.mp4",
+      "sha256": "84b69c848bb8ee080e5e39a5edc8a636bc38bf4882fa88820bf32220b2cd2b62",
+      "edit_contract": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Edit/bloodstream-review-v07-contract.json",
+      "fps": 30,
+      "frames": 431,
+      "transition_centres": [
+        30,
+        62,
+        96,
+        143,
+        179,
+        223,
+        252,
+        296,
+        322,
+        366,
+        394
+      ],
+      "audio": {
+        "source_file": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/bloodstream-rilds.aac",
+        "source_sha256": "b67fe6e02c94f6bd0c30e71aa2e687f0eb671ca6119f824cc991acbc986515f2",
+        "source_in_seconds": 25.56,
+        "source_out_exclusive_seconds": 39.926667,
+        "timeline_frames": [
+          0,
+          431
+        ],
+        "embedded_packets_sha256": "484e15377a33edb4f69f2fd29237a7c0434f5606438f9dd279dbb40bd700edb1"
+      },
+      "video": [
+        {
+          "slot": 1,
+          "subject": "turquoise lake",
+          "scale": "wide",
+          "source_file": "/Users/diplomat/ytvideos/Work/satisfying-runaway-pilot/Source/35867202.mp4",
+          "source_page": null,
+          "source_id": null,
+          "source_sha256": "8bda0fda3324a651985732356890781576cc490167b4143910c3b25d0fd695e2",
+          "source_in_seconds": 2.5,
+          "source_out_exclusive_seconds": 3.566667,
+          "visible_timeline_frames": [
+            0,
+            32
+          ],
+          "hold_frames": [
+            0,
+            30
+          ]
+        },
+        {
+          "slot": 2,
+          "subject": "cascade aerial",
+          "scale": "close",
+          "source_file": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/Footage/stock-20261111/pexels-36310592.mp4",
+          "source_page": "https://www.pexels.com/video/aerial-view-of-cascading-mountain-waterfall-36310592/",
+          "source_id": "pexels:36310592",
+          "source_sha256": "8c2f32475985367788b08a4f9517610afb4d7fa5c71c343c17fe2cc32b6c1d54",
+          "source_in_seconds": 0.75,
+          "source_out_exclusive_seconds": 1.916667,
+          "visible_timeline_frames": [
+            29,
+            64
+          ],
+          "hold_frames": [
+            30,
+            62
+          ]
+        },
+        {
+          "slot": 3,
+          "subject": "alpine ravine",
+          "scale": "wide",
+          "source_file": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/Footage/stock-20261111/pexels-32646884.mp4",
+          "source_page": "https://www.pexels.com/video/scenic-mountain-waterfall-in-forested-area-32646884/",
+          "source_id": "pexels:32646884",
+          "source_sha256": "448fa91bd354fb633c037c4a6a37cab150aeebd998089f7c2db13d79401d67a5",
+          "source_in_seconds": 0.75,
+          "source_out_exclusive_seconds": 1.983333,
+          "visible_timeline_frames": [
+            61,
+            98
+          ],
+          "hold_frames": [
+            62,
+            96
+          ]
+        },
+        {
+          "slot": 4,
+          "subject": "stone escarpment",
+          "scale": "medium",
+          "source_file": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/Footage/stock-20261111/pexels-4208318.mp4",
+          "source_page": "https://www.pexels.com/video/drone-footage-of-a-waterfall-cascading-down-the-mountain-cliff-4208318/",
+          "source_id": "pexels:4208318",
+          "source_sha256": "852bdcfcdd0eda8aa5c43d2e4f37bdd80da4326c007675fb651ffb495765ab3c",
+          "source_in_seconds": 0.75,
+          "source_out_exclusive_seconds": 2.416667,
+          "visible_timeline_frames": [
+            95,
+            145
+          ],
+          "hold_frames": [
+            96,
+            143
+          ]
+        },
+        {
+          "slot": 5,
+          "subject": "coast",
+          "scale": "wide",
+          "source_file": "/Users/diplomat/ytvideos/Work/nuviko-videos-short-batch-20261110/new-footage/32120722.mp4",
+          "source_page": null,
+          "source_id": null,
+          "source_sha256": "4a6e7089eb983c8916f4058199a05f670b020b6f318ed2b029af22e0a373cea3",
+          "source_in_seconds": 2.5,
+          "source_out_exclusive_seconds": 3.8,
+          "visible_timeline_frames": [
+            142,
+            181
+          ],
+          "hold_frames": [
+            143,
+            179
+          ]
+        },
+        {
+          "slot": 6,
+          "subject": "cliff rock",
+          "scale": "medium",
+          "source_file": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/Footage/stock-20261111/pexels-8357584.mp4",
+          "source_page": "https://www.pexels.com/video/aerial-view-of-a-mountain-landscape-by-the-sea-8357584/",
+          "source_id": "pexels:8357584",
+          "source_sha256": "99bb3caeb37c3df785e2b15ab2f17a1ed47e4091348dfcd942822a620a1e4d03",
+          "source_in_seconds": 0.75,
+          "source_out_exclusive_seconds": 2.316667,
+          "visible_timeline_frames": [
+            178,
+            225
+          ],
+          "hold_frames": [
+            179,
+            223
+          ]
+        },
+        {
+          "slot": 7,
+          "subject": "green valley",
+          "scale": "wide",
+          "source_file": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/Footage/stock-20261111/pexels-11924928.mp4",
+          "source_page": "https://www.pexels.com/video/drone-footage-of-waterfall-on-green-mountain-11924928/",
+          "source_id": "pexels:11924928",
+          "source_sha256": "252bb2687f1b409fcb30b4f2b3318db11b91522c85324e3a875259a392d638d4",
+          "source_in_seconds": 0.75,
+          "source_out_exclusive_seconds": 1.816667,
+          "visible_timeline_frames": [
+            222,
+            254
+          ],
+          "hold_frames": [
+            223,
+            252
+          ]
+        },
+        {
+          "slot": 8,
+          "subject": "waterfall",
+          "scale": "medium",
+          "source_file": "/Users/diplomat/ytvideos/Work/nuviko-videos-short-batch-20261110/pexels-35188969.mp4",
+          "source_page": null,
+          "source_id": "pexels:35188969",
+          "source_sha256": "a6b27649c621adce0f964b06c1e4a564a239c79058542699c863eecb87cc69f2",
+          "source_in_seconds": 2.5,
+          "source_out_exclusive_seconds": 4.066667,
+          "visible_timeline_frames": [
+            251,
+            298
+          ],
+          "hold_frames": [
+            252,
+            296
+          ]
+        },
+        {
+          "slot": 9,
+          "subject": "cloud forest",
+          "scale": "wide",
+          "source_file": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/Footage/stock-20261111/pexels-29204046.mp4",
+          "source_page": "https://www.pexels.com/video/aerial-view-of-green-mountain-landscape-with-waterfalls-29204046/",
+          "source_id": "pexels:29204046",
+          "source_sha256": "59b91875c53a4b4f6806326d991dc957388ea8ccf21895a67a5539b073c70347",
+          "source_in_seconds": 0.75,
+          "source_out_exclusive_seconds": 1.716667,
+          "visible_timeline_frames": [
+            295,
+            324
+          ],
+          "hold_frames": [
+            296,
+            322
+          ]
+        },
+        {
+          "slot": 10,
+          "subject": "water ripples",
+          "scale": "close",
+          "source_file": "/Users/diplomat/ytvideos/Work/satisfying-runaway-pilot/Source/33771384.mp4",
+          "source_page": null,
+          "source_id": null,
+          "source_sha256": "78963a8625f5760d02f64ab3bd67a4a0dbbf81692826069942c6ba7ceccaf9be",
+          "source_in_seconds": 2.5,
+          "source_out_exclusive_seconds": 4.066667,
+          "visible_timeline_frames": [
+            321,
+            368
+          ],
+          "hold_frames": [
+            322,
+            366
+          ]
+        },
+        {
+          "slot": 11,
+          "subject": "waterfall",
+          "scale": "wide",
+          "source_file": "/Users/diplomat/ytvideos/Work/nuviko-videos-short-batch-20261110/new-footage/33871227.mp4",
+          "source_page": null,
+          "source_id": null,
+          "source_sha256": "90d28082d8e9ce965569944787f0da775d57ebbbe66e891791d83ad74246d600",
+          "source_in_seconds": 2,
+          "source_out_exclusive_seconds": 3.033333,
+          "visible_timeline_frames": [
+            365,
+            396
+          ],
+          "hold_frames": [
+            366,
+            394
+          ]
+        },
+        {
+          "slot": 12,
+          "subject": "rock waterfall",
+          "scale": "medium",
+          "source_file": "/Users/diplomat/ytvideos/Work/satisfying-runaway-pilot/Source/8859850.mp4",
+          "source_page": null,
+          "source_id": null,
+          "source_sha256": "6327ec78a0d454525b9396bef481e40c41e79bfe006f89698b32bf83e77f7c67",
+          "source_in_seconds": 2.5,
+          "source_out_exclusive_seconds": 3.766667,
+          "visible_timeline_frames": [
+            393,
+            431
+          ],
+          "hold_frames": [
+            394,
+            431
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Deliverables/Bow-Bow-Bow-review-v09.mp4",
+      "sha256": "3bd86934df9b509499cb34def5321b113e495529ed1748da9329392e53b11efb",
+      "edit_contract": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Edit/bow-bow-bow-review-v09-contract.json",
+      "fps": 30,
+      "frames": 373,
+      "transition_centres": [
+        21,
+        35,
+        49,
+        77,
+        91,
+        118,
+        146,
+        160,
+        189,
+        201,
+        229,
+        257,
+        271,
+        298,
+        312,
+        340,
+        354
+      ],
+      "audio": {
+        "source_file": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/bow-bow-bow-muzso.m4a",
+        "source_sha256": "55aa39d32235aeb83116855b7080cac39b42904d050f19bf04001db37254b604",
+        "source_in_seconds": 9.5,
+        "source_out_exclusive_seconds": 21.933333,
+        "timeline_frames": [
+          0,
+          373
+        ],
+        "embedded_packets_sha256": "41bd76bf06afd12364003c70a2a343912dc0524b112132899355d219244ca25f"
+      },
+      "video": [
+        {
+          "slot": 1,
+          "subject": "dance floor",
+          "scale": "medium",
+          "source_file": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/Footage/stock-20261111/pexels-7722388.mp4",
+          "source_page": "https://www.pexels.com/video/7722388/",
+          "source_id": "pexels:7722388",
+          "source_sha256": "c6a6a452b79556f9e66608ce05f992e61b9483a90328db19d8976351d8cf1125",
+          "source_in_seconds": 0.75,
+          "source_out_exclusive_seconds": 1.516667,
+          "visible_timeline_frames": [
+            0,
+            23
+          ],
+          "hold_frames": [
+            0,
+            21
+          ]
+        },
+        {
+          "slot": 2,
+          "subject": "night skyline",
+          "scale": "wide",
+          "source_file": "/Users/diplomat/ytvideos/Work/nuviko-videos-short-batch-20261110/new-footage/35970539.mp4",
+          "source_page": null,
+          "source_id": null,
+          "source_sha256": "32d720c16cf9d604cc98f5764cc93f0779b25a6ad66194bd882954dc0c041f38",
+          "source_in_seconds": 2.5,
+          "source_out_exclusive_seconds": 3.066667,
+          "visible_timeline_frames": [
+            20,
+            37
+          ],
+          "hold_frames": [
+            21,
+            35
+          ]
+        },
+        {
+          "slot": 3,
+          "subject": "night traffic",
+          "scale": "medium",
+          "source_file": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/Footage/stock-20261111/pexels-30432352.mp4",
+          "source_page": "https://www.pexels.com/video/vibrant-city-street-at-night-with-modern-lighting-30432352/",
+          "source_id": "pexels:30432352",
+          "source_sha256": "5630f0bc803f61c143800ea462fa366958eb735e415d5728d9d5e75ea0a40b72",
+          "source_in_seconds": 0.75,
+          "source_out_exclusive_seconds": 1.316667,
+          "visible_timeline_frames": [
+            34,
+            51
+          ],
+          "hold_frames": [
+            35,
+            49
+          ]
+        },
+        {
+          "slot": 4,
+          "subject": "old city at night",
+          "scale": "wide",
+          "source_file": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/Footage/stock-20261111/pexels-27937641.mp4",
+          "source_page": "https://www.pexels.com/video/a-city-street-at-night-with-people-walking-and-cars-27937641/",
+          "source_id": "pexels:27937641",
+          "source_sha256": "7d0cf29173d338e39a88dff3f7574e70106a297db1450f2d5b172ba5dcc44cfe",
+          "source_in_seconds": 0.75,
+          "source_out_exclusive_seconds": 1.783333,
+          "visible_timeline_frames": [
+            48,
+            79
+          ],
+          "hold_frames": [
+            49,
+            77
+          ]
+        },
+        {
+          "slot": 5,
+          "subject": "dance floor",
+          "scale": "medium",
+          "source_file": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/Footage/stock-20261111/pexels-7271358.mp4",
+          "source_page": "https://www.pexels.com/video/7271358/",
+          "source_id": "pexels:7271358",
+          "source_sha256": "cbe751a95db086d810f7d6e76736c9e3cf824adc088301dcaf5cc76df15404e7",
+          "source_in_seconds": 0.75,
+          "source_out_exclusive_seconds": 1.316667,
+          "visible_timeline_frames": [
+            76,
+            93
+          ],
+          "hold_frames": [
+            77,
+            91
+          ]
+        },
+        {
+          "slot": 6,
+          "subject": "pedestrians",
+          "scale": "wide",
+          "source_file": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/Footage/stock-20261111/pexels-34290117.mp4",
+          "source_page": "https://www.pexels.com/video/busy-night-city-street-with-traffic-and-pedestrians-34290117/",
+          "source_id": "pexels:34290117",
+          "source_sha256": "dfc38d8a8407203e8a71db6dd8283b2402f38e0a5f38c3914c30890b4d00ea35",
+          "source_in_seconds": 0.75,
+          "source_out_exclusive_seconds": 1.75,
+          "visible_timeline_frames": [
+            90,
+            120
+          ],
+          "hold_frames": [
+            91,
+            118
+          ]
+        },
+        {
+          "slot": 7,
+          "subject": "windows",
+          "scale": "medium",
+          "source_file": "/Users/diplomat/ytvideos/Work/nuviko-videos-short-batch-20261110/new-footage/34707370.mp4",
+          "source_page": null,
+          "source_id": null,
+          "source_sha256": "84cd008504d2431eabda7854bc69c0b24b34aeaefb307258aa20087e5d2d3071",
+          "source_in_seconds": 1,
+          "source_out_exclusive_seconds": 2.033333,
+          "visible_timeline_frames": [
+            117,
+            148
+          ],
+          "hold_frames": [
+            118,
+            146
+          ]
+        },
+        {
+          "slot": 8,
+          "subject": "crosswalk",
+          "scale": "wide",
+          "source_file": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/Footage/stock-20261111/pexels-9956024.mp4",
+          "source_page": "https://www.pexels.com/video/pedestrians-crossing-street-at-night-9956024/",
+          "source_id": "pexels:9956024",
+          "source_sha256": "dde0101d196c2f2a3fa83be60d4176aeb76531301befa98e698a43b41a59cd9b",
+          "source_in_seconds": 0.75,
+          "source_out_exclusive_seconds": 1.316667,
+          "visible_timeline_frames": [
+            145,
+            162
+          ],
+          "hold_frames": [
+            146,
+            160
+          ]
+        },
+        {
+          "slot": 9,
+          "subject": "DJ deck",
+          "scale": "close",
+          "source_file": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/Footage/stock-20261111/pexels-7269160.mp4",
+          "source_page": "https://www.pexels.com/video/7269160/",
+          "source_id": "pexels:7269160",
+          "source_sha256": "a11b4141fbf07e3840f9c4abd5cf912dc2005e41948f7c4f3185262cd8aee952",
+          "source_in_seconds": 0.75,
+          "source_out_exclusive_seconds": 1.816667,
+          "visible_timeline_frames": [
+            159,
+            191
+          ],
+          "hold_frames": [
+            160,
+            189
+          ]
+        },
+        {
+          "slot": 10,
+          "subject": "street lights",
+          "scale": "medium",
+          "source_file": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/Footage/stock-20261111/pexels-32779195.mp4",
+          "source_page": "https://www.pexels.com/video/dynamic-nighttime-city-crosswalk-scene-32779195/",
+          "source_id": "pexels:32779195",
+          "source_sha256": "acbd5b817c1123ce72a0b556132daa406474b8bd7db6914dc8ce659bbbe40522",
+          "source_in_seconds": 0.75,
+          "source_out_exclusive_seconds": 1.25,
+          "visible_timeline_frames": [
+            188,
+            203
+          ],
+          "hold_frames": [
+            189,
+            201
+          ]
+        },
+        {
+          "slot": 11,
+          "subject": "architecture",
+          "scale": "wide",
+          "source_file": "/Users/diplomat/ytvideos/Work/nuviko-videos-short-batch-20261110/new-footage/10411103.mp4",
+          "source_page": null,
+          "source_id": null,
+          "source_sha256": "d5e0192c12a3821ad64aa1760cf8e7a0bc0194fc22a568c971cce996071b001d",
+          "source_in_seconds": 1,
+          "source_out_exclusive_seconds": 2.033333,
+          "visible_timeline_frames": [
+            200,
+            231
+          ],
+          "hold_frames": [
+            201,
+            229
+          ]
+        },
+        {
+          "slot": 12,
+          "subject": "dance floor",
+          "scale": "medium",
+          "source_file": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/Footage/stock-20261111/pexels-9003388.mp4",
+          "source_page": "https://www.pexels.com/video/9003388/",
+          "source_id": "pexels:9003388",
+          "source_sha256": "66ee17732277ad3f691e2757d6810a2ac0138c9cc25a56dac57be676abde4b87",
+          "source_in_seconds": 0.75,
+          "source_out_exclusive_seconds": 1.783333,
+          "visible_timeline_frames": [
+            228,
+            259
+          ],
+          "hold_frames": [
+            229,
+            257
+          ]
+        },
+        {
+          "slot": 13,
+          "subject": "stage lights",
+          "scale": "close",
+          "source_file": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/Footage/stock-20261111/pexels-12893900.mp4",
+          "source_page": "https://www.pexels.com/video/12893900/",
+          "source_id": "pexels:12893900",
+          "source_sha256": "fd41181fee7682dc73b1116ef045a92b2333305e6fef17b3ed01d3b63c8126a0",
+          "source_in_seconds": 0.75,
+          "source_out_exclusive_seconds": 1.316667,
+          "visible_timeline_frames": [
+            256,
+            273
+          ],
+          "hold_frames": [
+            257,
+            271
+          ]
+        },
+        {
+          "slot": 14,
+          "subject": "dance floor",
+          "scale": "wide",
+          "source_file": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/Footage/stock-20261111/pexels-35234123.mp4",
+          "source_page": "https://www.pexels.com/video/35234123/",
+          "source_id": "pexels:35234123",
+          "source_sha256": "d4d9418593eeb609e4ea0d87c7e280f25c4992faf4f31adb58ee2970170848e4",
+          "source_in_seconds": 0.75,
+          "source_out_exclusive_seconds": 1.75,
+          "visible_timeline_frames": [
+            270,
+            300
+          ],
+          "hold_frames": [
+            271,
+            298
+          ]
+        },
+        {
+          "slot": 15,
+          "subject": "night towers",
+          "scale": "medium",
+          "source_file": "/Users/diplomat/ytvideos/Work/nuviko-videos-short-batch-20261110/new-footage/35091927.mp4",
+          "source_page": null,
+          "source_id": null,
+          "source_sha256": "048f98ea0b010179d6bcf98f64ee183079654732ee99bf9cc1a34e3a0b881ef3",
+          "source_in_seconds": 2.5,
+          "source_out_exclusive_seconds": 3.066667,
+          "visible_timeline_frames": [
+            297,
+            314
+          ],
+          "hold_frames": [
+            298,
+            312
+          ]
+        },
+        {
+          "slot": 16,
+          "subject": "dance floor",
+          "scale": "close",
+          "source_file": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/Footage/stock-20261111/pexels-37301839.mp4",
+          "source_page": "https://www.pexels.com/video/37301839/",
+          "source_id": "pexels:37301839",
+          "source_sha256": "35ad911fffba2d3bb95f88868a52a6db07bc2d87cb5c21d33e683e99e4518a5d",
+          "source_in_seconds": 0.75,
+          "source_out_exclusive_seconds": 1.783333,
+          "visible_timeline_frames": [
+            311,
+            342
+          ],
+          "hold_frames": [
+            312,
+            340
+          ]
+        },
+        {
+          "slot": 17,
+          "subject": "dusk",
+          "scale": "wide",
+          "source_file": "/Users/diplomat/ytvideos/Work/nuviko-videos-short-batch-20261110/new-footage/6216792.mp4",
+          "source_page": null,
+          "source_id": null,
+          "source_sha256": "99985b778eb918343abee5ce1adb5a3b43610d8020f4d1fedbc657f35071b892",
+          "source_in_seconds": 1,
+          "source_out_exclusive_seconds": 1.566667,
+          "visible_timeline_frames": [
+            339,
+            356
+          ],
+          "hold_frames": [
+            340,
+            354
+          ]
+        },
+        {
+          "slot": 18,
+          "subject": "dance floor",
+          "scale": "close",
+          "source_file": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/Footage/stock-20261111/pexels-31569926.mp4",
+          "source_page": "https://www.pexels.com/video/31569926/",
+          "source_id": "pexels:31569926",
+          "source_sha256": "71f17852c1574486cee99c896dfd46efe47bcc1a3487872cb23fe39748d0a850",
+          "source_in_seconds": 0.75,
+          "source_out_exclusive_seconds": 1.416667,
+          "visible_timeline_frames": [
+            353,
+            373
+          ],
+          "hold_frames": [
+            354,
+            373
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Deliverables/Paparazzi-review-v08.mp4",
+      "sha256": "2edbb95909211c031b9afb566f7d7a0f09d64c084505abaa3cca093d3face3a0",
+      "edit_contract": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Edit/paparazzi-review-v08-contract.json",
+      "fps": 30,
+      "frames": 525,
+      "transition_centres": [
+        41,
+        81,
+        113,
+        159,
+        190,
+        222,
+        253,
+        301,
+        331,
+        378,
+        409,
+        441,
+        472,
+        503
+      ],
+      "audio": {
+        "source_file": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/paparazzi-rilds.aac",
+        "source_sha256": "e90c2fb3c9d7e8fed5975d0478d96e063ef137e7aac942d3d497f511217d1664",
+        "source_in_seconds": 40.53,
+        "source_out_exclusive_seconds": 58.03,
+        "timeline_frames": [
+          0,
+          525
+        ],
+        "embedded_packets_sha256": "2f7c5213857c07d0a3039055eac37845b510734b7dc624d37a7b5235a2245a76"
+      },
+      "video": [
+        {
+          "slot": 1,
+          "subject": "mountain lake",
+          "scale": "wide",
+          "source_file": "/Users/diplomat/ytvideos/Work/satisfying-runaway-pilot/Source/32509235.mp4",
+          "source_page": null,
+          "source_id": null,
+          "source_sha256": "143f790da160381b7c0e856203d63acefcc893af38b9c80bfa22be94e0a5558f",
+          "source_in_seconds": 3,
+          "source_out_exclusive_seconds": 4.433333,
+          "visible_timeline_frames": [
+            0,
+            43
+          ],
+          "hold_frames": [
+            0,
+            41
+          ]
+        },
+        {
+          "slot": 2,
+          "subject": "mountain path",
+          "scale": "medium",
+          "source_file": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/Footage/stock-20261111/pexels-29674793.mp4",
+          "source_page": "https://www.pexels.com/video/drone-aerial-view-of-mountain-hiking-trail-29674793/",
+          "source_id": "pexels:29674793",
+          "source_sha256": "52a9c9305ec5c7178396c8efaf1934b0350157bab8c4d09e500d71482151c920",
+          "source_in_seconds": 0.75,
+          "source_out_exclusive_seconds": 2.183333,
+          "visible_timeline_frames": [
+            40,
+            83
+          ],
+          "hold_frames": [
+            41,
+            81
+          ]
+        },
+        {
+          "slot": 3,
+          "subject": "golden fog",
+          "scale": "wide",
+          "source_file": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/Footage/stock-20261111/pexels-4288052.mp4",
+          "source_page": "https://www.pexels.com/video/drone-shot-of-the-mountain-peak-during-sunset-4288052/",
+          "source_id": "pexels:4288052",
+          "source_sha256": "7eb348f5a6793de93c752e21b52470ff5f58e9ff12e393a4e1585a92476e5d4c",
+          "source_in_seconds": 0.75,
+          "source_out_exclusive_seconds": 1.916667,
+          "visible_timeline_frames": [
+            80,
+            115
+          ],
+          "hold_frames": [
+            81,
+            113
+          ]
+        },
+        {
+          "slot": 4,
+          "subject": "mountain mist",
+          "scale": "medium",
+          "source_file": "/Users/diplomat/ytvideos/Work/nuviko-videos-short-batch-20261110/pexels-30320376.mp4",
+          "source_page": null,
+          "source_id": "pexels:30320376",
+          "source_sha256": "45de49e4025277c6b8786693e9c18fe12622b94b0c01925fc966bb6752933890",
+          "source_in_seconds": 2.5,
+          "source_out_exclusive_seconds": 4.133333,
+          "visible_timeline_frames": [
+            112,
+            161
+          ],
+          "hold_frames": [
+            113,
+            159
+          ]
+        },
+        {
+          "slot": 5,
+          "subject": "coastal mountains",
+          "scale": "wide",
+          "source_file": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/Footage/stock-20261111/pexels-8366004.mp4",
+          "source_page": "https://www.pexels.com/video/drone-footage-of-a-coastal-mountain-8366004/",
+          "source_id": "pexels:8366004",
+          "source_sha256": "3c7649e423646c32a1d0b55ff2953122ffae775184859847953971dfdfb157fb",
+          "source_in_seconds": 0.75,
+          "source_out_exclusive_seconds": 1.883333,
+          "visible_timeline_frames": [
+            158,
+            192
+          ],
+          "hold_frames": [
+            159,
+            190
+          ]
+        },
+        {
+          "slot": 6,
+          "subject": "red ridge",
+          "scale": "medium",
+          "source_file": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/Footage/stock-20261111/pexels-7964548.mp4",
+          "source_page": "https://www.pexels.com/video/drone-footage-of-a-scenic-landscape-at-sunset-7964548/",
+          "source_id": "pexels:7964548",
+          "source_sha256": "9104281d1805dcb7b00b8b6243ed945a91cddb7f3aa751a7148f686797c594de",
+          "source_in_seconds": 0.75,
+          "source_out_exclusive_seconds": 1.916667,
+          "visible_timeline_frames": [
+            189,
+            224
+          ],
+          "hold_frames": [
+            190,
+            222
+          ]
+        },
+        {
+          "slot": 7,
+          "subject": "stone ridge",
+          "scale": "wide",
+          "source_file": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/Footage/stock-20261111/pexels-32106032.mp4",
+          "source_page": "https://www.pexels.com/video/stunning-aerial-view-of-rugged-mountain-range-32106032/",
+          "source_id": "pexels:32106032",
+          "source_sha256": "a841a846a6af8098e48381d4754a7f08c5b7593337978ea8772d8fd62e223a25",
+          "source_in_seconds": 0.75,
+          "source_out_exclusive_seconds": 1.883333,
+          "visible_timeline_frames": [
+            221,
+            255
+          ],
+          "hold_frames": [
+            222,
+            253
+          ]
+        },
+        {
+          "slot": 8,
+          "subject": "castle",
+          "scale": "medium",
+          "source_file": "/Users/diplomat/ytvideos/Work/nuviko-videos-short-batch-20261110/new-footage/15367486.mp4",
+          "source_page": null,
+          "source_id": null,
+          "source_sha256": "f9da01f516005bc6d783cf7850074af167b1b6e73200c9abc946ea15ace957af",
+          "source_in_seconds": 2.5,
+          "source_out_exclusive_seconds": 4.2,
+          "visible_timeline_frames": [
+            252,
+            303
+          ],
+          "hold_frames": [
+            253,
+            301
+          ]
+        },
+        {
+          "slot": 9,
+          "subject": "lake mist",
+          "scale": "wide",
+          "source_file": "/Users/diplomat/ytvideos/Work/nuviko-four-shorts-20261110/Source/Footage/nps-mowich-rainstorm.webm",
+          "source_page": null,
+          "source_id": null,
+          "source_sha256": "0abe59be910110a37ca37557505ce27633763ec830d3d26a6cce9a5bde332611",
+          "source_in_seconds": 7,
+          "source_out_exclusive_seconds": 8.1,
+          "visible_timeline_frames": [
+            300,
+            333
+          ],
+          "hold_frames": [
+            301,
+            331
+          ]
+        },
+        {
+          "slot": 10,
+          "subject": "valley village",
+          "scale": "medium",
+          "source_file": "/Users/diplomat/ytvideos/Work/nuviko-videos-short-batch-20261110/new-footage/35065432.mp4",
+          "source_page": null,
+          "source_id": null,
+          "source_sha256": "07c15c2d60aba5fa252070bdaf6c208f96254fd62b31bc3d62d18e057eb44cec",
+          "source_in_seconds": 2.5,
+          "source_out_exclusive_seconds": 4.166667,
+          "visible_timeline_frames": [
+            330,
+            380
+          ],
+          "hold_frames": [
+            331,
+            378
+          ]
+        },
+        {
+          "slot": 11,
+          "subject": "dune",
+          "scale": "wide",
+          "source_file": "/Users/diplomat/ytvideos/Work/nuviko-videos-short-batch-20261110/new-footage/26346980.mp4",
+          "source_page": null,
+          "source_id": null,
+          "source_sha256": "706fc4c776ed6b47ec336fd662d8c38d5141335c8073e68affc30f517a5aa233",
+          "source_in_seconds": 2.5,
+          "source_out_exclusive_seconds": 3.633333,
+          "visible_timeline_frames": [
+            377,
+            411
+          ],
+          "hold_frames": [
+            378,
+            409
+          ]
+        },
+        {
+          "slot": 12,
+          "subject": "dune footprints",
+          "scale": "medium",
+          "source_file": "/Users/diplomat/ytvideos/Work/satisfying-runaway-pilot/Source/34535413.mp4",
+          "source_page": null,
+          "source_id": null,
+          "source_sha256": "3c39b8be327207fd30c5f2561c9cb27ae5a68005895aeaf8074746275b24462f",
+          "source_in_seconds": 1,
+          "source_out_exclusive_seconds": 2.166667,
+          "visible_timeline_frames": [
+            408,
+            443
+          ],
+          "hold_frames": [
+            409,
+            441
+          ]
+        },
+        {
+          "slot": 13,
+          "subject": "castle",
+          "scale": "wide",
+          "source_file": "/Users/diplomat/ytvideos/Work/nuviko-videos-short-batch-20261110/new-footage/20568097.mp4",
+          "source_page": null,
+          "source_id": null,
+          "source_sha256": "3861cf4a0bfc79c6e3738ab27342dd497a73df471cab6d9a804d94f7ff7a8c7f",
+          "source_in_seconds": 2.5,
+          "source_out_exclusive_seconds": 3.633333,
+          "visible_timeline_frames": [
+            440,
+            474
+          ],
+          "hold_frames": [
+            441,
+            472
+          ]
+        },
+        {
+          "slot": 14,
+          "subject": "haze",
+          "scale": "wide",
+          "source_file": "/Users/diplomat/ytvideos/Work/nuviko-videos-short-batch-20261110/new-footage/29393034.mp4",
+          "source_page": null,
+          "source_id": null,
+          "source_sha256": "6b999523ce65c29973f8e90d9d15833ff6785871e45d025c04d627ab00c2d0d2",
+          "source_in_seconds": 2.5,
+          "source_out_exclusive_seconds": 3.633333,
+          "visible_timeline_frames": [
+            471,
+            505
+          ],
+          "hold_frames": [
+            472,
+            503
+          ]
+        },
+        {
+          "slot": 15,
+          "subject": "peaks",
+          "scale": "wide",
+          "source_file": "/Users/diplomat/ytvideos/Work/nuviko-videos-short-batch-20261110/new-footage/28891505.mp4",
+          "source_page": null,
+          "source_id": null,
+          "source_sha256": "838eb0024d0b837baeacdf2e21e6bcd23fe2416574f83f315d1805fffdfbbbe0",
+          "source_in_seconds": 2.5,
+          "source_out_exclusive_seconds": 3.266667,
+          "visible_timeline_frames": [
+            502,
+            525
+          ],
+          "hold_frames": [
+            503,
+            525
+          ]
+        }
+      ]
+    }
+  ],
+  "comparison_journals": [],
+  "repeated_video_sources": [],
+  "overlapping_audio": []
+}
