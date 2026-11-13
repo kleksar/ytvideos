@@ -1,3 +1,7 @@
+## Editorial A/B revision — new source candidates, no implied approval
+
+EN and RU active scripts changed from prior HEAD `f4a2ea364a27bad35ff6ec34e70537935622f9d5`. Original A scripts preserved in `experiment/baseline.script.en.txt` and `experiment/baseline.script.ru.txt`. The currently proposed B script must be reviewed by a new independent reader against its exact hash; prior author/self/independent checks cannot be reused. The storyboard has 14 synchronized narrative spans, and its previous estimated 76s timing is invalidated pending actual TTS. This PR is NOT registered `ytv start` and has no trusted script/MP4 approval or production permission. [Experimental rationale](experiment/README.md).
+
 ## Актуальный workflow — удалённый main
 
 Сверено с `main` `96c8fa1573c02e8e7987e272a569bf34f037691e`. Nuviko History **active** по current `channel.json`; старые строки ниже о `frozen` — история первоначального черновика, не актуальная блокировка канала. При этом этот PR — **не `ytv start` run**, и существующий `storyboard.json` только художественная схема до утверждения текста, не completed stage. Нельзя считать self-review независимой оценкой или script gate `awaiting_script_approval`.

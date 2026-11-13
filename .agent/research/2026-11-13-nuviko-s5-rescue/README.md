@@ -1,3 +1,5 @@
+**EXPERIMENT B (2026-11-13):** new natural spoken EN/RU versions in `script.*.txt`; original A variants in [experiment](experiment/README.md). EN/RU storyboard updated. This is a draft test, not an independently approved story or an official runtime run. Actual voice/AV seam UNVERIFIED.
+
 **Сверка с main 96c8fa1573c0:** `nuviko_history` теперь `active` по channel.json. Исторический `frozen` ниже не актуален. Этот сюжетный Draft PR — не официальный runtime `ytv start` и не approved script; независимо проверить EN/RU и выйти на реальный `awaiting_script_approval` до производства. [Handoff](handoff.md).
 
 # Nuviko History story draft — USS S-5 / White Shirt Rescue (1920)

@@ -53,3 +53,23 @@ English, concatenated exactly at the repeat:
 6. If the concept is rejected, return to selection; don't hide lack of appeal behind a reviewer checklist or fabricate CTR.
 
 **Decision:** Prepared for owner review in Draft PR only, not an approved script or production run. Nuviko History remains frozen in main unless explicitly changed.
+
+## 2026-11-13 — Reverse-engineering the sound of generated prose (experiment B)
+
+**Source:** [Russian Wikipedia essay on common generative-text patterns](https://ru.wikipedia.org/wiki/Википедия:Признаки_сгенерированности_текста). This is an essay about encyclopedic writing, not a validated AI detector or a list of forbidden English words. Experiment concerns voice naturalness and narrative specificity, not hiding the use of AI.
+
+**Baseline A:** original complete English and Russian scripts preserved at `experiment/baseline.script.en.txt` and `experiment/baseline.script.ru.txt`; original PR head `f4a2ea364a27bad35ff6ec34e70537935622f9d5`. Before 240 EN words; revised B 248 EN words (word split approximation, not TTS seconds).
+
+**Change of writing, not facts:** replaced narrator judgments (`made a desperate choice`, `situation getting worse`) with concrete actions (gas, pumping aft tanks, drilling steel, flag waving). Cut explanatory doublets. Kept a few short breath-length sentences where the action changes, rather than a mechanical list of three fragments. The quotable historic `To hell, by compass!` is reported by USNI and retained as an attributed, not reconstructed-audio exchange.
+
+**B risk:** less explicit threat language may reduce tension. A reader should check whether the physical gas and blocked exit carry it without a narrator announcing danger. S005 replaces the static modern museum model with period crew operating a real valve (reconstructed visually); Nuviko 2D host isn't mandatory in every shot.
+
+**EN exact B seam:** Earlier, the captain of that passing ship had turned back because he saw something above the water: A white T-shirt fluttered above the Atlantic. Directly below it, thirty-eight sailors were trapped in a sunken submarine.
+
+**RU exact B seam:** А раньше капитан проходившего судна повернул назад, заметив над водой кое-что странное: Над Атлантикой развевалась белая футболка. А прямо под ней, в затонувшей подлодке, были заперты тридцать восемь моряков.
+
+**Checks performed (author):** exact EN/RU lines mapped 1:1 to 14 preliminary scene briefs, all main factual beats held and payoff before loop. **Independent cold-reader A/B preference, reading two complete cycles, bilingual editorial verdict, actual speech cadence and AV join:** UNVERIFIED. Do not relabel this script `awaiting_script_approval` or reuse a review receipt from the A version.
+
+### Blind comparison protocol (NOT RUN)
+
+To a genuinely independent reviewer give A and B in randomized order without the Wikipedia critique or author preferred answer. Ask for the exact point at which they'd swipe away, any forced words, what actions they remember, factual errors, and whether the loop runs naturally twice. Then reveal claim ledger and compare. Owner can accept A, B, a hybrid, or reject both; do not declare B superior based on style-rule counting.
