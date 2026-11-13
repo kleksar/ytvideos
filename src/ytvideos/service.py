@@ -156,6 +156,40 @@ class Production:
         self.artifacts.resolve(result)
         return result
 
+    def _execution_origin(self, run, task, execution, *, error):
+        """Adopt a preserved local execution without reviving its expired lease.
+
+        The current claim still owns completion. An earlier execution may supply
+        bytes only when its exact guarded dispatch has the same current inputs;
+        paid/provider and unrecorded host executions retain their recovery path.
+        """
+        claim = task.get("claim") or {}
+        if (not isinstance(execution, dict) or not claim.get("token")
+                or any(execution.get(key) != value for key, value in {
+                    "run_id": run["id"], "task_id": task["id"], "input_hash": claim.get("input_hash")}.items())):
+            raise WorkflowError(error)
+        token = execution.get("claim_token")
+        if token == claim["token"]:
+            return {"claim_token": token, "worker": claim.get("worker")}
+        fields = {"run_id", "task_id", "claim_token", "input_hash", "kind", "paid",
+                  "inputs", "script_sha256", "argv", "outputs"}
+        if (not isinstance(token, str) or not token or self.store is None
+                or execution.get("kind") not in {"mix", "montage", "music_render"}
+                or execution.get("paid") is not False):
+            raise WorkflowError(error + "; recovery requires a recorded deterministic local dispatch")
+        request = {key: execution.get(key) for key in fields}
+        events = self.store.events(run["id"])
+        if not any(event["kind"] == "media.dispatch" and event["payload"] == request
+                   for event in events):
+            raise WorkflowError(error + "; preserved execution differs from its recorded guarded dispatch")
+        original = next((event["payload"].get("claim") for event in events
+                         if event["kind"] == "task.claimed" and event["id"] == token
+                         and event["payload"].get("task_id") == task["id"]), None)
+        if (not original or original.get("token") != token or original.get("input_hash") != claim["input_hash"]
+                or not isinstance(original.get("worker"), str) or not original["worker"].strip()):
+            raise WorkflowError(error + "; preserved execution needs its original claimed producer")
+        return {"claim_token": token, "worker": original["worker"]}
+
     def requirements(self, run):
         """Resolve only pinned policy and the variant in this run's completed storyboard."""
         from .media_script import accepted_script, bind_requirements
@@ -231,7 +265,8 @@ class Production:
             raise WorkflowError("music render must use the exact accepted audio execution evidence")
         mix = document(plan["music"]["mix_evidence"])
         execution = document(mix["execution"])
-        if execution.get("claim_token") != accepted["completed_token"] or execution.get("run_id") != run["id"]:
+        origin = accepted.get("media_validation", {}).get("execution_claim_token", accepted["completed_token"])
+        if execution.get("claim_token") != origin or execution.get("run_id") != run["id"]:
             raise WorkflowError("music render source mix belongs to another accepted task")
         music_rights = plan["music"].get("rights_evidence")
         checked(music_rights)
@@ -394,7 +429,8 @@ class Production:
                 run["capabilities"][cap].get("billing") != "included"
                 for cap in task["capabilities"] if cap in provider_capabilities):
             raise WorkflowError("reserve the observed provider cost, or verify an included-billing capability")
-        if budget["spent"] + budget["reserved"] + budget["unknown_reserved"] + estimated_units > budget["max_paid_units"]:
+        if (estimated_units and budget["spent"] + budget["reserved"] + budget["unknown_reserved"]
+                + estimated_units > budget["max_paid_units"]):
             raise WorkflowError("paid budget exhausted; independent tasks can continue")
         if task["stage"] in {"upload", "configure_release", "schedule", "verify_publication"}:
             self._publication_guard(run, task["stage"])
@@ -581,12 +617,13 @@ class Production:
             review = json.loads(self.artifacts.resolve(artifact).read_text())
             duration = review.get("probe", {}).get("duration_seconds", 0)
             render_task = run["tasks"]["render"]
-            producer = (render_task.get("claim") or {}).get("worker")
+            producers = {(render_task.get("claim") or {}).get("worker"),
+                         render_task.get("media_validation", {}).get("execution_worker")}
             if render_task.get("receipt") in run["artifacts"]:
-                producer = json.loads(self.artifacts.resolve(run["artifacts"][render_task["receipt"]]).read_text()).get("worker")
+                producers.add(json.loads(self.artifacts.resolve(run["artifacts"][render_task["receipt"]]).read_text()).get("worker"))
             for check in by_name.values():
                 record = validate_review_observation(check, media_sha256=media["sha256"], duration=duration)
-                if producer and producer in {claim["worker"], check["observed"]["reviewer"]}:
+                if (producers - {None}) & {claim["worker"], check["observed"]["reviewer"]}:
                     raise WorkflowError("final review requires a reviewer distinct from the render producer")
                 self._evidence_file(record, "review_evidence")
         return evidence_artifacts
@@ -639,11 +676,9 @@ class Production:
             return record
 
         execution = document(proof.get("execution"), "render_execution")
-        claim = task.get("claim", {})
-        identities = {"run_id": run["id"], "task_id": task["id"], "claim_token": claim.get("token"),
-                      "input_hash": claim.get("input_hash")}
-        if (not isinstance(execution, dict) or any(execution.get(k) != v for k, v in identities.items())
-                or execution.get("state") != "completed" or execution.get("returncode") != 0
+        execution_origin = self._execution_origin(run, task, execution,
+                                                  error="delivery needs the exact successful claimed render execution")
+        if (execution.get("state") != "completed" or execution.get("returncode") != 0
                 or execution.get("kind") not in {"montage", "host_render", "music_render"}
                 or not isinstance(execution.get("argv"), list) or not execution["argv"]
                 or any(not isinstance(arg, str) for arg in execution["argv"])
@@ -751,7 +786,7 @@ class Production:
             for record in module.validate_receipt(renderer_receipt["path"], plan, requirements,
                                                    matching[0]["path"], project=self.project):
                 saved(record, "canonical_music_input")
-        return evidence_artifacts
+        return evidence_artifacts, execution_origin
 
     def _validate_output(self, run, task, artifact, *, receipt=None):
         path = self.artifacts.resolve(artifact)
@@ -800,6 +835,7 @@ class Production:
             from . import media_checks
             checked_artifact_ids = []
             evidence_artifacts = []
+            execution_origin = None
             require_audio = True  # Every current recipe has a required accepted audio task.
             requirements = self.requirements(run) if stage in {"render", "review"} else None
             if requirements is not None:
@@ -819,11 +855,8 @@ class Production:
                              "source_in_seconds": first["start_seconds"]}
                     _, records = validate_mix(record, audio_sha256=artifact["sha256"], track=track, project=self.project)
                     execution = document(mix["execution"])
-                    claim = task.get("claim") or {}
-                    if any(execution.get(key) != expected for key, expected in {
-                            "run_id": run["id"], "task_id": task["id"], "claim_token": claim.get("token"),
-                            "input_hash": claim.get("input_hash")}.items()):
-                        raise WorkflowError("music audio needs the current claimed native mix execution")
+                    execution_origin = self._execution_origin(
+                        run, task, execution, error="music audio needs the current claimed native mix execution")
                     evidence_artifacts.extend(self._evidence_file(item, "music_mix_input") for item in [record, *records])
             elif stage == "scene_image" and (run["profile"]["recipe"] == "illustrated"
                                             or task.get("payload", {}).get("purpose") == "thumbnail"):
@@ -886,7 +919,8 @@ class Production:
             elif stage == "render":
                 measured = media_checks.validate_video(path, require_audio=require_audio)
                 validate_delivery_summary(measured, requirements)
-                evidence_artifacts = self._validate_render_delivery(run, task, artifact, receipt, measured, requirements)
+                evidence_artifacts, execution_origin = self._validate_render_delivery(
+                    run, task, artifact, receipt, measured, requirements)
             else:
                 rendered = self._artifact(run, "render")
                 measured = media_checks.validate_review(path, render_path=self.artifacts.resolve(rendered),
@@ -895,6 +929,43 @@ class Production:
                 review = json.loads(path.read_text())
                 if review.get("requirements_sha256") != requirements["sha256"]:
                     raise WorkflowError("review must bind the pinned production requirements")
+                if requirements["visual"].get("source_interval_review", False):
+                    from .production_contract import validate_fragment_review
+                    render_task = run["tasks"]["render"]
+                    manifests = [item for item in render_task.get("media_validation", {}).get("evidence_artifacts", [])
+                                 if item["kind"] == "render_manifest"]
+                    if len(manifests) != 1:
+                        raise WorkflowError("fragment review requires the exact accepted render manifest")
+                    plan = json.loads(self.artifacts.resolve(manifests[0]).read_text())
+                    observed = next((check["observed"] for check in (receipt or {}).get("checks", [])
+                                     if check["name"] == "visual_review"), None)
+                    if observed is None:
+                        raise WorkflowError("fragment review requires the actual visual review evidence")
+                    document = self._evidence_file(observed["evidence"], "review_evidence")
+                    sources, original_paths = [], {}
+                    dependencies = [key for key in render_task["dependencies"] if key.startswith("image:")]
+                    for dependency, clip in zip(dependencies, self.render_sources(run, render_task)):
+                        source = run["tasks"][dependency]["payload"]["source_clip"]
+                        original = run["artifacts"][source["source_artifact_id"]]
+                        if original["id"] not in original_paths:
+                            original_paths[original["id"]] = self.artifacts.resolve(original)
+                        original_path = original_paths[original["id"]]
+                        checked_artifact_ids.extend([original["id"], clip["id"]])
+                        sources.append({"id": dependency.removeprefix("image:"), "clip_sha256": clip["sha256"],
+                                        "source_sha256": original["sha256"],
+                                        "start_seconds": source["start_seconds"], "end_seconds": source["end_seconds"],
+                                        "source_anchors_seconds": media_checks.source_frame_anchors(
+                                            original_path, source["start_seconds"], source["end_seconds"])})
+                    records = validate_fragment_review(json.loads(self.artifacts.resolve(document).read_text()),
+                        plan=plan, requirements=requirements, media_sha256=rendered["sha256"],
+                        reviewer=observed["reviewer"], sources=sources)
+                    checked_artifact_ids = list(dict.fromkeys(checked_artifact_ids))
+                    records = {(record["path"], record["sha256"]): record for record in records}
+                    source_evidence = {}
+                    for record in records.values():
+                        saved = self._evidence_file(record, "fragment_review_source")
+                        source_evidence[saved["id"]] = saved
+                    evidence_artifacts.extend(source_evidence.values())
                 for check in (receipt or {}).get("checks", []):
                     record = validate_review_observation(check, media_sha256=rendered["sha256"],
                                                          duration=measured["duration_seconds"])
@@ -902,6 +973,9 @@ class Production:
             task["media_validation"] = {"artifact_sha256": artifact["sha256"], "observed": measured,
                                         "checked_artifact_ids": checked_artifact_ids,
                                         "evidence_artifacts": evidence_artifacts}
+            if execution_origin is not None:
+                task["media_validation"].update(execution_claim_token=execution_origin["claim_token"],
+                                                execution_worker=execution_origin["worker"])
             if requirements is not None:
                 task["media_validation"]["requirements_sha256"] = requirements["sha256"]
         elif stage == "upload":
@@ -1251,7 +1325,9 @@ class Production:
             raise WorkflowError("provider payload differs from the pinned task or bound release specification")
         payload = expected
         associated = self._task_operations(tx, run, task, claim)
-        if any(op["kind"] == action or op["status"] in {"dispatched", "unknown"} for op in associated):
+        retry_configuration = task["stage"] == "configure_release"
+        if any((op["kind"] == action and not (retry_configuration and op["status"] == "not_performed"))
+               or op["status"] in {"dispatched", "unknown"} for op in associated):
             raise Conflict("associated operation already exists or is unresolved; reconcile before dispatch")
         input_digest = digest({"input_hash": claim["input_hash"], "payload": expected})
         if action == "upload":
@@ -1260,8 +1336,14 @@ class Production:
         else:
             key = f"{run_id}:{task_id}:{action}:{input_digest}"
         prior = tx.operation(key)
-        if prior and (action != "upload" or prior["status"] != "not_performed"):
+        if prior and (prior["status"] != "not_performed" or not (action == "upload" or retry_configuration)):
             raise Conflict(f"operation already {prior['status']}; reconcile {key}, do not resubmit")
+        if prior and retry_configuration:
+            # Distinct configuration actions share one claim. Only a proven
+            # retry spends another attempt from that task's existing budget.
+            if task["attempt"] >= run["budget"]["max_task_attempts"]:
+                raise WorkflowError("retry budget exhausted")
+            task["attempt"] += 1
         operation = {"key": key, "run_id": run_id, "task_id": task_id, "kind": action,
                      "input_hash": input_digest, "task_input_hash": claim["input_hash"], "status": "dispatched",
                      "claim_token": token, "payload": payload, "payload_sha256": digest(payload),
@@ -1282,13 +1364,13 @@ class Production:
                         now=datetime.now(timezone.utc))
             operation["grant"] = proof
         if prior:
-            # A proven non-upload permits a new attempt; all other outcomes retain
-            # global business uniqueness. CAS also fences different run locks.
+            # A proven non-operation permits a new attempt. Confirmed actions
+            # remain immutable; CAS and attempt IDs fence late observations.
             cursor = tx.execute("UPDATE operations SET run_id=?,kind=?,input_hash=?,status=?,doc=? "
                                 "WHERE key=? AND status='not_performed' AND doc=?",
                                 (run_id, action, input_digest, "dispatched", canonical(operation), key, canonical(prior)))
             if cursor.rowcount != 1:
-                raise Conflict("upload reservation changed concurrently; reconcile its current attempt")
+                raise Conflict("operation reservation changed concurrently; reconcile its current attempt")
         else:
             tx.create_operation(operation)
         tx.event(f"dispatch:{operation['attempt_id']}", run_id, "operation.dispatched", operation)
@@ -1339,11 +1421,11 @@ class Production:
         return self.store.mutate(run_id, change)
 
     def reconcile_task(self, run_id, task_id, *, worker, outcome, evidence):
-        """Recover a proven existing result or a proven non-dispatch; never generate here."""
+        """Recover observed operations; continue only terminal partial configuration."""
         require_text(worker, "reconciliation worker")
         require_text(evidence, "reconciliation evidence")
-        if outcome not in {"completed", "not_performed"}:
-            raise WorkflowError("reconciliation outcome must be completed or not_performed")
+        if outcome not in {"completed", "not_performed", "continue"}:
+            raise WorkflowError("reconciliation outcome must be completed, not_performed or continue")
         def change(tx, run):
             self._runtime(run)
             task = self._task(run, task_id)
@@ -1351,9 +1433,12 @@ class Production:
                 raise Conflict("task must first be classified unknown by resume/fail")
             old_claim = task["claim"]
             operations = self._task_operations(tx, run, task, old_claim)
-            required = "confirmed" if outcome == "completed" else "not_performed"
-            if not operations or any(op["status"] != required for op in operations):
-                raise Conflict(f"all associated provider operations must be reconciled as {required}")
+            if outcome == "continue" and task["stage"] != "configure_release":
+                raise WorkflowError("continue reconciliation applies only to partial configure_release work")
+            required = {"confirmed", "not_performed"} if outcome == "continue" else {
+                "confirmed" if outcome == "completed" else "not_performed"}
+            if not operations or any(op["status"] not in required for op in operations):
+                raise Conflict("all associated provider operations must be reconciled as " + " or ".join(sorted(required)))
             if old_claim["input_hash"] != input_hash(run, task):
                 raise Conflict("reconciled result belongs to obsolete inputs")
             if outcome == "not_performed":
@@ -1364,7 +1449,7 @@ class Production:
                 result = {"status": "pending"}
             else:
                 claim = {**old_claim, "token": str(uuid.uuid4()), "worker": worker,
-                         "expires_at": self.clock() + 900, "reconciled_existing_result": True}
+                         "expires_at": self.clock() + 900, "reconciled_existing_result": outcome == "completed"}
                 task.update(status="running", claim=claim, blocker=None)
                 result = claim
             tx.event(str(uuid.uuid4()), run_id, "task.reconciled", {"task_id": task_id, "outcome": outcome, "evidence": evidence})

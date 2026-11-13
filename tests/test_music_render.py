@@ -37,7 +37,7 @@ def ffmpeg(*args):
 
 class MusicFixture:
     """A visibly named fixture profile; production never accepts the fixture font/canvas."""
-    def __init__(self, directory, *, vocal=False):
+    def __init__(self, directory, *, vocal=False, fade_out_seconds=None):
         self.directory, self.project = directory, directory / "project"
         self.vocal = vocal
         for source in (ROOT / "src/ytvideos").glob("*.py"):
@@ -72,6 +72,9 @@ class MusicFixture:
         self.source_plan = write(directory / "source-audio.json", {"schema": "ytv-source-audio-v1", "segments": [
             {"id": "s0", **file_record(self.source_track), "start_seconds": .1, "end_seconds": .5, "gain": 1},
             {"id": "s1", **file_record(self.source_track), "start_seconds": .5, "end_seconds": .9, "gain": 1}]})
+        if fade_out_seconds is not None:
+            value = json.loads(self.source_plan.read_text())
+            write(self.source_plan, {**value, "fade_out_seconds": fade_out_seconds})
         self.audio = directory / "mix.wav"
         receipt_path = directory / "mix-execution.json"
         self.mix_execution = LocalMediaAdapter(self.project, guard=lambda request: None, clock=lambda: 1000).execute(
@@ -393,6 +396,52 @@ class MusicVocalTests(unittest.TestCase):
         plan["subtitles"]["unrecognized_beat_option"] = []
         with self.assertRaisesRegex(WorkflowError, "unsupported settings"):
             f.validate(plan)
+
+
+@unittest.skipUnless(shutil.which("ffmpeg") and shutil.which("ffprobe") and FONT.exists(), "requires local FFmpeg and fixture font")
+class MusicEndingTests(unittest.TestCase):
+    def test_explicit_fade_retains_continuous_recording_and_native_render_provenance(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            f = MusicFixture(Path(temporary), fade_out_seconds=.2)
+            prepared = f.validate(f.plan)
+            self.assertEqual(prepared["fade_out_seconds"], .2)
+            output = f.directory / "faded.mp4"
+            receipt = f.renderer.render(f.manifest, output, f.directory / "faded-work", f.requirements, project=f.project)
+            f.renderer.validate_receipt(str(output) + ".delivery.json", f.plan, f.requirements, output, project=f.project)
+            ending = json.loads(Path(receipt["fragment_contract"]["path"]).read_text())["ending"]
+            self.assertEqual(ending, {"source_end_seconds": .9, "fade_out_seconds": .2})
+            self.assertAlmostEqual(float(probe_media(output)["audio"][0]["duration"]), .8, places=3)
+            from ytvideos.music_contract import validate_mix
+            for field, value in (("gain", .8), ("start_seconds", .51)):
+                source_plan = json.loads(f.source_plan.read_text())
+                source_plan["segments"][1][field] = value
+                plan_path = write(f.directory / (field + "-invalid-plan.json"), source_plan)
+                proof = json.loads(f.mix_proof.read_text())
+                execution = copy.deepcopy(f.mix_execution)
+                execution["argv"][2] = str(plan_path)
+                proof.update(source_plan=file_record(plan_path), argv=execution["argv"],
+                             execution=file_record(write(f.directory / (field + "-execution.json"), execution)))
+                record = file_record(write(f.directory / (field + "-mix.json"), proof))
+                with self.subTest(field=field), self.assertRaisesRegex(WorkflowError, "continuous accepted excerpt"):
+                    validate_mix(record, audio_sha256=file_digest(f.audio), track=f.plan["music"]["tracks"][0], project=f.project)
+
+    def test_mismatched_native_mix_duration_is_rejected_before_picture_encoding(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            f = MusicFixture(Path(temporary))
+            short = f.directory / "short.wav"
+            ffmpeg("-i", f.audio, "-t", "0.4", short)
+            execution = copy.deepcopy(f.mix_execution)
+            execution["argv"][-1] = str(short)
+            execution["outputs"] = [str(short)]
+            execution["output_artifacts"] = [file_record(short)]
+            proof = json.loads(f.mix_proof.read_text())
+            proof.update(audio_sha256=file_digest(short), argv=execution["argv"],
+                         execution=file_record(write(f.directory / "short-execution.json", execution)))
+            plan = copy.deepcopy(f.plan)
+            plan["audio"] = str(short)
+            plan["music"]["mix_evidence"] = file_record(write(f.directory / "short-mix.json", proof))
+            with self.assertRaisesRegex(WorkflowError, "complete source excerpt"):
+                f.validate(plan)
 
 
 if __name__ == "__main__":

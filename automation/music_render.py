@@ -130,6 +130,8 @@ def fragment_contract(plan, prepared):
     return {"fps": 30, "frames": prepared["frames"], "transition_centres": prepared["cuts"],
             "source": prepared["track"]["path"], "source_sha256": prepared["track"]["sha256"],
             "offset": prepared["track"]["source_in_seconds"],
+            "ending": {"source_end_seconds": prepared["track"]["source_in_seconds"] + prepared["duration_seconds"],
+                       "fade_out_seconds": prepared["fade_out_seconds"]},
             "clips": [{"path": scene["source"]["path"], "sha256": scene["source"]["sha256"],
                        "source_in": scene["source"]["start_seconds"], "source_page": scene["source"].get("source_page"),
                        "subject": chosen["subject"], "scale": chosen["scale"]}

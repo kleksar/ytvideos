@@ -248,5 +248,50 @@ class LicensedSilentLifecycle(unittest.TestCase):
         self.assertEqual(result["execution"]["state"], "completed")
 
 
+@unittest.skipUnless(shutil.which("ffmpeg") and shutil.which("ffprobe"), "requires local FFmpeg")
+class CharacterEditLifecycle(LicensedSilentLifecycle):
+    """The ordinary host-render lifecycle also consumes exact fragment observations."""
+    def write(self, value, name):
+        if isinstance(value, dict) and value.get("production_variant") == "scene":
+            value = {**value, "production_variant": "character_edit"}
+            if name == "render.json":
+                scene = value["scenes"][0]
+                scene.update(id="shot", clip_sha256=file_digest(scene["clip"]),
+                    source={**self.record(Path(scene["clip"])), "start_seconds": 0, "end_seconds": .5},
+                    visible_start_frame=0, visible_end_frame=12,
+                    crop={"interpolation": "constant", "keyframes": [
+                        {"frame": 0, "box": [0, 0, 90, 160]}, {"frame": 11, "box": [0, 0, 90, 160]}]})
+        return super().write(value, name)
+
+    def receipt(self, task_id, claim, path, *, media=None, duration=None):
+        receipt_path = super().receipt(task_id, claim, path, media=media, duration=duration)
+        if task_id == "review":
+            receipt = json.loads(receipt_path.read_text())
+            visual = next(item for item in receipt["checks"] if item["name"] == "visual_review")
+            scene = json.loads((self.directory / "render.json").read_text())["scenes"][0]
+            row = {"id": scene["id"], "source": scene["source"], "clip_sha256": scene["clip_sha256"], "crop": scene["crop"],
+                "timeline": {key: scene[key] for key in ("start_frame", "end_frame", "visible_start_frame", "visible_end_frame")},
+                "source_coverage": [{"start_seconds": 0, "end_seconds": .5}],
+                "source_anchors_seconds": [0, .25, 11 / 24], "final_anchors_frames": [0, 5, 11],
+                "checked_transition_frames": [0, 11], "method": "Synthetic complete-motion review fixture only",
+                "checks": {name: {"status": "PASS", "notes": "Synthetic recorded observation, not a real perception claim"}
+                           for name in ("source_motion", "crop", "internal_cuts", "final_motion", "transitions")}}
+            if getattr(self, "unverified_fragment", False):
+                row["checks"]["internal_cuts"]["status"] = "UNVERIFIED"
+            evidence = self.write({"schema": "ytv-source-fragment-review-v1", "artifact_sha256": file_digest(media),
+                "reviewer": visual["observed"]["reviewer"], "fragments": [row]}, "fragment-review.json")
+            visual["observed"]["evidence"] = self.record(evidence)
+            receipt_path.write_text(json.dumps(receipt))
+        return receipt_path
+
+    def test_unverified_fragment_prevents_mp4_gate_even_with_generic_pass_wrapper(self):
+        self.unverified_fragment = True
+        with self.assertRaisesRegex(WorkflowError, "FAIL or UNVERIFIED"):
+            self.test_signed_source_audio_to_mp4_has_no_tts_or_fake_srt()
+        run = self.service.store.get(self.run_id)
+        self.assertNotEqual(run["tasks"]["review"]["status"], "complete")
+        self.assertFalse(run["approvals"].get("mp4"))
+
+
 if __name__ == "__main__":
     unittest.main()
