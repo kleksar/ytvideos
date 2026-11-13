@@ -1,0 +1,151 @@
+{
+  "id": "1e1eef89-54ae-4bfa-9dcd-84b0cb74a6c1",
+  "status": "working",
+  "channel": "nuviko_history",
+  "format": "short",
+  "intent": "Нужен интересный сюжет для исторического Short Nuviko History. Сам выбери неочевидную реальную историю, которую хочется досмотреть, и подготовь полный сценарий. Готовый продукт будет на английском, мне нужен и русский текст для чтения",
+  "revision": 1,
+  "pins": {
+    "code": "9c9f7c0ef261f7f9a60715107fd72cb429790b5e225fc2c6b6ebe9ef88ec9df9",
+    "profile": "9f9f657f88de1f5aea68216aa5da7765c31d0fbd67298f8484f0c4a0506bbf83",
+    "references": "a170771b6c7810f7759a62879648a9b91d706feafa4cfdc3917b93fdce7ad5be",
+    "skills": "e5ac3d48455ef3cee1d8ca4829bd72da02e98f88de9c6b29fc49a741afad53dc",
+    "workflow": "1"
+  },
+  "budget": {
+    "max_editorial_passes": 2,
+    "max_paid_units": 0,
+    "max_task_attempts": 3,
+    "reserved": 0,
+    "spent": 0,
+    "unknown_reserved": 0
+  },
+  "approvals": {},
+  "source_script_id": null,
+  "tasks": {
+    "audio": {
+      "stage": "audio",
+      "status": "pending",
+      "attempt": 0,
+      "blocker": null,
+      "outputs": [],
+      "receipt": null,
+      "receipt_evidence_ids": null
+    },
+    "configure_release": {
+      "stage": "configure_release",
+      "status": "pending",
+      "attempt": 0,
+      "blocker": null,
+      "outputs": [],
+      "receipt": null,
+      "receipt_evidence_ids": null
+    },
+    "packaging": {
+      "stage": "packaging",
+      "status": "pending",
+      "attempt": 0,
+      "blocker": null,
+      "outputs": [],
+      "receipt": null,
+      "receipt_evidence_ids": null
+    },
+    "render": {
+      "stage": "render",
+      "status": "pending",
+      "attempt": 0,
+      "blocker": null,
+      "outputs": [],
+      "receipt": null,
+      "receipt_evidence_ids": null
+    },
+    "research": {
+      "stage": "research",
+      "status": "complete",
+      "attempt": 1,
+      "blocker": null,
+      "outputs": [
+        "research:sha256:1215aa8eee8cfde9f55a9c479810f5b3039257ecf6feb3362cb6f3bcb27a5eb8"
+      ],
+      "receipt": "receipt:sha256:d5971ed1e5a5a45faf2cd67cd74cd797dcf5cf992f7054bb667629d5b83d51ce",
+      "receipt_evidence_ids": null
+    },
+    "review": {
+      "stage": "review",
+      "status": "pending",
+      "attempt": 0,
+      "blocker": null,
+      "outputs": [],
+      "receipt": null,
+      "receipt_evidence_ids": null
+    },
+    "schedule": {
+      "stage": "schedule",
+      "status": "pending",
+      "attempt": 0,
+      "blocker": null,
+      "outputs": [],
+      "receipt": null,
+      "receipt_evidence_ids": null
+    },
+    "script": {
+      "stage": "script",
+      "status": "blocked",
+      "attempt": 1,
+      "blocker": "Exact English and Russian narration are saved. Research evidence and author factual check are complete; mandatory independent_review and first_listener checks remain unverified because this host exposes no independent review tool. Do not mark the script ready or fabricate a reviewer.",
+      "outputs": [],
+      "receipt": null,
+      "receipt_evidence_ids": null
+    },
+    "storyboard": {
+      "stage": "storyboard",
+      "status": "pending",
+      "attempt": 0,
+      "blocker": null,
+      "outputs": [],
+      "receipt": null,
+      "receipt_evidence_ids": null
+    },
+    "subtitles": {
+      "stage": "subtitles",
+      "status": "pending",
+      "attempt": 0,
+      "blocker": null,
+      "outputs": [],
+      "receipt": null,
+      "receipt_evidence_ids": null
+    },
+    "upload": {
+      "stage": "upload",
+      "status": "pending",
+      "attempt": 0,
+      "blocker": null,
+      "outputs": [],
+      "receipt": null,
+      "receipt_evidence_ids": null
+    },
+    "verify_publication": {
+      "stage": "verify_publication",
+      "status": "pending",
+      "attempt": 0,
+      "blocker": null,
+      "outputs": [],
+      "receipt": null,
+      "receipt_evidence_ids": null
+    }
+  },
+  "artifacts": [
+    {
+      "id": "receipt:sha256:d5971ed1e5a5a45faf2cd67cd74cd797dcf5cf992f7054bb667629d5b83d51ce",
+      "kind": "receipt",
+      "sha256": "d5971ed1e5a5a45faf2cd67cd74cd797dcf5cf992f7054bb667629d5b83d51ce",
+      "file": "accepted-artifacts/d5971ed1e5a5a45faf2cd67cd74cd797dcf5cf992f7054bb667629d5b83d51ce"
+    },
+    {
+      "id": "research:sha256:1215aa8eee8cfde9f55a9c479810f5b3039257ecf6feb3362cb6f3bcb27a5eb8",
+      "kind": "research",
+      "sha256": "1215aa8eee8cfde9f55a9c479810f5b3039257ecf6feb3362cb6f3bcb27a5eb8",
+      "file": "accepted-artifacts/1215aa8eee8cfde9f55a9c479810f5b3039257ecf6feb3362cb6f3bcb27a5eb8"
+    }
+  ]
+}

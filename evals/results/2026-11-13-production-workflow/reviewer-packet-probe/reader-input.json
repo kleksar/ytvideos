@@ -1,0 +1,236 @@
+{
+  "schema": "ytv-script-review-input-v1",
+  "script_sha256": "112d03cab0b4293ebad9db4cb1650955cda2cc54f35bbca51e1af1235e32c1d5",
+  "script_text": "Did one telegraph message save a train from the Halifax Explosion—or do we remember the story wrong?\n\nAt 9:05 on December 6, 1917, the explosives-laden ship Mont-Blanc blew up in Halifax Harbour. Minutes earlier, railway dispatcher Vincent Coleman had sent a warning from a station just 750 feet away.\n\nThe ship had collided with another vessel, caught fire, and drifted toward Pier 6. A sailor warned the railway office. Coleman knew a passenger train was due from Saint John. His message told the rail line to hold the train.\n\nThen the blast hit. Coleman was killed. His station was crushed.\n\nDid the train stop in time? The record disagrees. One account says it had passed the last station where it could be halted. A contemporary newspaper says a dispatcher held it at Rockingham. The train survived several miles from the blast, with broken windows and minor injuries.\n\nBut the warning mattered beyond that train. The Maritime Museum says it reached railway stations from Halifax to Truro. An hour later, a fuller call for help followed. Together, they set the railway system in motion: six relief trains arrived that day with firefighters, doctors, nurses, and supplies.\n\nSo did Coleman save the train? We may never know. The warning’s reach is not in doubt.\n",
+  "instructions": "Work as an independent first reader, without an author's verdict or explanation. For a typed edit-plan, assess the intended image/sound sequence and audience understanding; do not invent a narrator, spoken words or a narrator loop. Read the opening on its own, then the full script. State what you understood, what would keep or lose your attention, and concrete unresolved findings with exact quotes. When narrative_loop is supplied, read its literal two_cycles as continuous narration. Explain how the ending's actual meaning or grammar continues into the opening; test whether it instead sounds like a fresh introduction or only repeats a subject. Read the opening cold and identify the payoff already delivered before replay. Write your own complete review JSON bound to this input hash, following output_contract exactly: it is the response JSON Schema, not a response to copy. Return one object, without Markdown fences or a JSON-encoded string. Use revise or unverified when an applicable check fails or was not done; describe the failure or unperformed check in its observation instead of claiming it passed. Do not add top-level summary, understood, attention or limitations; put understanding/attention under first_listener, and specific problems or limitations under findings. The host must supply this input file's absolute path/hash and your actual invocation tool/session ID in the assignment (or a follow-up after session creation). Set reviewer and source.session_id to that actual independent identity; source.tool to the actual invocation tool; input to this exact saved packet's path/hash. You may compute the input hash from its bytes; it is not script_sha256. Do not invent missing identities or hashes: request the missing host metadata. Omit source.response_id unless actually observed. Do not let the author fill missing observations or reinterpret a non-passing answer.",
+  "narrative_loop": {
+    "opening": "Did one telegraph message save a train from the Halifax Explosion—or do we remember the story wrong?",
+    "ending": "So did Coleman save the train? We may never know. The warning’s reach is not in doubt.",
+    "joined_excerpt": "So did Coleman save the train? We may never know. The warning’s reach is not in doubt.\nDid one telegraph message save a train from the Halifax Explosion—or do we remember the story wrong?",
+    "two_cycles": "Did one telegraph message save a train from the Halifax Explosion—or do we remember the story wrong?\n\nAt 9:05 on December 6, 1917, the explosives-laden ship Mont-Blanc blew up in Halifax Harbour. Minutes earlier, railway dispatcher Vincent Coleman had sent a warning from a station just 750 feet away.\n\nThe ship had collided with another vessel, caught fire, and drifted toward Pier 6. A sailor warned the railway office. Coleman knew a passenger train was due from Saint John. His message told the rail line to hold the train.\n\nThen the blast hit. Coleman was killed. His station was crushed.\n\nDid the train stop in time? The record disagrees. One account says it had passed the last station where it could be halted. A contemporary newspaper says a dispatcher held it at Rockingham. The train survived several miles from the blast, with broken windows and minor injuries.\n\nBut the warning mattered beyond that train. The Maritime Museum says it reached railway stations from Halifax to Truro. An hour later, a fuller call for help followed. Together, they set the railway system in motion: six relief trains arrived that day with firefighters, doctors, nurses, and supplies.\n\nSo did Coleman save the train? We may never know. The warning’s reach is not in doubt.\n\n\nDid one telegraph message save a train from the Halifax Explosion—or do we remember the story wrong?\n\nAt 9:05 on December 6, 1917, the explosives-laden ship Mont-Blanc blew up in Halifax Harbour. Minutes earlier, railway dispatcher Vincent Coleman had sent a warning from a station just 750 feet away.\n\nThe ship had collided with another vessel, caught fire, and drifted toward Pier 6. A sailor warned the railway office. Coleman knew a passenger train was due from Saint John. His message told the rail line to hold the train.\n\nThen the blast hit. Coleman was killed. His station was crushed.\n\nDid the train stop in time? The record disagrees. One account says it had passed the last station where it could be halted. A contemporary newspaper says a dispatcher held it at Rockingham. The train survived several miles from the blast, with broken windows and minor injuries.\n\nBut the warning mattered beyond that train. The Maritime Museum says it reached railway stations from Halifax to Truro. An hour later, a fuller call for help followed. Together, they set the railway system in motion: six relief trains arrived that day with firefighters, doctors, nurses, and supplies.\n\nSo did Coleman save the train? We may never know. The warning’s reach is not in doubt.\n"
+  },
+  "output_contract": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "type": "object",
+    "required": [
+      "schema",
+      "script_sha256",
+      "reviewer",
+      "source",
+      "input",
+      "decision",
+      "first_listener",
+      "findings",
+      "narrative_loop"
+    ],
+    "additionalProperties": false,
+    "properties": {
+      "schema": {
+        "type": "string",
+        "const": "ytv-script-review-v1"
+      },
+      "script_sha256": {
+        "type": "string",
+        "const": "112d03cab0b4293ebad9db4cb1650955cda2cc54f35bbca51e1af1235e32c1d5"
+      },
+      "reviewer": {
+        "type": "string",
+        "minLength": 1,
+        "description": "Actual independent reviewer session ID supplied by the host; identical to source.session_id."
+      },
+      "source": {
+        "type": "object",
+        "required": [
+          "tool",
+          "session_id"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "tool": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Actual host tool that invoked this independent review."
+          },
+          "session_id": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Actual independent session ID; identical to reviewer."
+          },
+          "response_id": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Optional: include only a response ID actually returned by the host."
+          }
+        }
+      },
+      "input": {
+        "type": "object",
+        "required": [
+          "path",
+          "sha256"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Absolute path of this exact saved reading packet, supplied by the host."
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$",
+            "description": "SHA-256 of this input file's bytes; use its descriptor or compute it, never guess."
+          }
+        }
+      },
+      "decision": {
+        "type": "string",
+        "enum": [
+          "pass",
+          "revise",
+          "unverified"
+        ],
+        "description": "Your actual decision; an unperformed check is unverified, a failed check needs revision."
+      },
+      "first_listener": {
+        "type": "object",
+        "required": [
+          "understood",
+          "attention",
+          "quotes"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "understood": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Your understanding from the first reading."
+          },
+          "attention": {
+            "type": "string",
+            "minLength": 1,
+            "description": "What would keep/lose attention and why."
+          },
+          "quotes": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 1,
+              "description": "A nonempty verbatim excerpt from script_text; preserve its exact bytes."
+            }
+          }
+        }
+      },
+      "findings": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": [
+            "severity",
+            "quote",
+            "finding"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "severity": {
+              "type": "string",
+              "enum": [
+                "blocking",
+                "non_blocking"
+              ]
+            },
+            "quote": {
+              "type": "string",
+              "minLength": 1,
+              "description": "A nonempty verbatim excerpt from script_text; preserve its exact bytes."
+            },
+            "finding": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Your concrete finding or limitation."
+            }
+          }
+        }
+      },
+      "narrative_loop": {
+        "type": "object",
+        "required": [
+          "opening",
+          "ending",
+          "joined_excerpt",
+          "decision",
+          "observations"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "opening": {
+            "type": "string",
+            "const": "Did one telegraph message save a train from the Halifax Explosion—or do we remember the story wrong?"
+          },
+          "ending": {
+            "type": "string",
+            "const": "So did Coleman save the train? We may never know. The warning’s reach is not in doubt."
+          },
+          "joined_excerpt": {
+            "type": "string",
+            "const": "So did Coleman save the train? We may never know. The warning’s reach is not in doubt.\nDid one telegraph message save a train from the Halifax Explosion—or do we remember the story wrong?"
+          },
+          "decision": {
+            "type": "string",
+            "enum": [
+              "pass",
+              "revise",
+              "unverified"
+            ],
+            "description": "Your actual decision; an unperformed check is unverified, a failed check needs revision."
+          },
+          "observations": {
+            "type": "object",
+            "required": [
+              "cold_open",
+              "continuation",
+              "payoff_before_repeat",
+              "payoff_quote",
+              "restart_test",
+              "two_cycle_read"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "cold_open": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Assess whether the opening is understandable without prior playback."
+              },
+              "continuation": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Explain the actual semantic/grammatical connection, or why the seam fails."
+              },
+              "payoff_before_repeat": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Explain what is resolved before replay, or what remains unresolved."
+              },
+              "payoff_quote": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Quote the actual delivered payoff, or the exact passage showing the missing payoff. Must occur verbatim in script_text."
+              },
+              "restart_test": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Explain whether the replay is continuation, a fresh introduction, or only a repeated topic."
+              },
+              "two_cycle_read": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Your observation from reading the supplied two full cycles; state explicitly if not performed."
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

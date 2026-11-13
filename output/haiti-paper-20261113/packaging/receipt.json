@@ -1,0 +1,57 @@
+{
+  "run_id": "00f9cc38-2023-46c5-b40d-6b0b7f8e5c35",
+  "task_id": "packaging",
+  "input_hash": "ee1059716c7524d9a3c95423e3dc33ed94b5cad7aaae02e4064f7ee6e652daea",
+  "worker": "haiti-packaging",
+  "output_sha256": "65d906f32e14fdd3f958a4d359a188a91e0c7c7ef65a9666778f35176ae3e6fa",
+  "checks": [
+    {
+      "name": "metadata",
+      "status": "pass",
+      "method": "Validated strict ReleaseSpec and compared exact selected title/description/brief; measured character and UTF-8 limits.",
+      "observed": {
+        "title_characters": 49,
+        "description_utf8_bytes": 479,
+        "tag_budget_characters": 130,
+        "metadata_identity_matches": true,
+        "brief_qa_title_matches": true,
+        "files": {
+          "release-spec.json": "65d906f32e14fdd3f958a4d359a188a91e0c7c7ef65a9666778f35176ae3e6fa",
+          "thumbnail-main.json": "3d33ad21f7dba06e1b17116c0d59468a1c85e4afad27efbbb412fdd608031dac",
+          "packaging-notes.json": "bef3518c9de513e3ec9b4d288bbef8fe840bb442d63c0e8ab8a1338added7d6c",
+          "concept-main.json": "41951e92960e1ceab709ceb8857a61a81441ee820688aa50a1ce33c8951e06b6"
+        }
+      }
+    },
+    {
+      "name": "promise_matches_script",
+      "status": "pass",
+      "method": "Compared metadata promise with approved narration and saved source uncertainties.",
+      "observed": {
+        "script_sha256": "bf753636682dc9884440cd7e98753ee391236e99998f43258824bf5d7c0cb7f5",
+        "hook": "Request for address, not claim that coordinates caused strike.",
+        "payoff": "Bukele publishes video four days after reply and says promise kept.",
+        "uncertainty": "Description explicitly retains lack of confirmed operational coordinate use and pictured-building identity.",
+        "final_mp4_comparison": "UNVERIFIED until render."
+      }
+    },
+    {
+      "name": "thumbnail_plan",
+      "status": "pass",
+      "method": "Prepared strict standalone AI brief for one Shorts concept and inspected exact metadata pairing.",
+      "observed": {
+        "brief_file": "/Users/diplomat/ytvideos/output/haiti-paper-20261113/packaging/thumbnail-main.json",
+        "concept_file": "/Users/diplomat/ytvideos/output/haiti-paper-20261113/packaging/concept-main.json",
+        "text": "4 DAYS LATER",
+        "key_objects": [
+          "reply phone",
+          "separate later video card"
+        ],
+        "intro_link": "First quote and address request",
+        "format_id": "paper_reply_then_video",
+        "constraints": "No causal arrow, fake archival screenshot, same-house before/after, or casualty assertion.",
+        "actual_image_qa": "UNVERIFIED, pending image generation and small/crop/full-card checks."
+      }
+    }
+  ]
+}

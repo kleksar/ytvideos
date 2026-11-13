@@ -2,6 +2,7 @@
 """Render a frame-addressed Paper/Nuviko montage with FFmpeg and word captions."""
 from __future__ import annotations
 import argparse, concurrent.futures, importlib.util, json, math, subprocess, sys
+from fractions import Fraction
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 
@@ -17,12 +18,30 @@ ZOOMS = {'in', 'out', 'none'}
 def path_from(base, value):
     p=Path(value).expanduser(); return (p if p.is_absolute() else base/p).resolve()
 
+def production_preflight(plan, base):
+    """Use the application's pinned-policy contract for every production CLI export."""
+    if str(ROOT / 'src') not in sys.path:
+        sys.path.insert(0, str(ROOT / 'src'))
+    from ytvideos.errors import WorkflowError
+    from ytvideos.media_checks import validate_font_face
+    from ytvideos.production_contract import production_requirements, validate_render_manifest
+    profile, _ = delivery.channel_config.channel_profile(plan.get('channel'))
+    try:
+        requirements = production_requirements(profile, plan.get('format'), variant=plan.get('production_variant'))
+        validate_render_manifest(plan, requirements)
+        if requirements['captions']['mode'] == 'word_highlight':
+            style = delivery.load_style(plan, base)
+            validate_font_face(style['font'], style['font_index'], requirements['captions']['font'])
+    except WorkflowError as exc:
+        raise ValueError(str(exc)) from exc
+    return requirements
+
 def validate(plan, base):
     channel_profile, _ = delivery.channel_config.channel_profile(plan.get('channel'))
     visual = delivery.channel_config.visual_profile(plan['channel'])
     delivery.profile_paths(plan['channel'], plan.get('format'))
     if plan.get('format') not in {'long','short'}: raise ValueError('format must be long or short')
-    if plan.get('fps',30)!=30: raise ValueError('only 30 fps is supported')
+    if Fraction(str(plan.get('fps',30)))!=30: raise ValueError('only 30 fps is supported')
     policy=channel_profile.get('montage', {})
     canvas=plan.get('canvas', policy.get('canvas', [2560,1440] if plan['format']=='long' else [1440,2560]))
     if policy.get('format') and plan['format'] != policy['format']: raise ValueError('format does not match channel montage policy')
@@ -162,9 +181,9 @@ def caption_sequence(plan,base,work,canvas,total):
     center_x=width*geometry['center_x_ratio']
     if center_x-visible_width/2 < 0 or center_x+visible_width/2 > width:raise ValueError('Subtitle safe area is outside the canvas')
     font=ImageFont.truetype(profile['font'],fs,index=profile['font_index']);safe=visible_width-2*(pad_x+stroke)
-    if sub.get('phrases'): groups=grouping.plan_phrases(words,sub['phrases'],font,safe,keep_together=sub.get('keep_together',()),combine_sentences=plan['format']=='long',boundary_exceptions=sub.get('boundary_exceptions',()))
+    max_words=3 if visual=='paper' and plan['format']=='short' else None
+    if sub.get('phrases'): groups=grouping.plan_phrases(words,sub['phrases'],font,safe,keep_together=sub.get('keep_together',()),combine_sentences=plan['format']=='long',boundary_exceptions=sub.get('boundary_exceptions',()),max_words=max_words)
     else:
-        max_words=3 if visual=='paper' and plan['format']=='short' else None
         try:groups=grouping.group_words(words,font,safe,keep_together=sub.get('keep_together',()),max_words=max_words,combine_sentences=plan['format']=='long')
         except ValueError:
             if plan['format']!='short' or max_words is not None:raise
@@ -257,13 +276,15 @@ def final_command(plan,base,prepared,work,out,subtitle,encoder,video_bitrate,aud
         color='format=rgb24,scale=in_range=pc:out_range=tv:out_color_matrix=bt709,format=yuv444p,colorspace=ispace=bt709:itrc=srgb:iprimaries=bt709:irange=tv:all=bt709:range=tv:format=yuv420p,'
     elif plan.get('source_transfer') is not None:
         raise ValueError('source_transfer must be srgb when supplied')
-    filters.append(f'[{source}]{color}setsar=1,format=yuv420p[vout]')
+    filters.append(f'[{source}]{color}setsar=1,format=yuv420p,setparams=color_primaries=bt709:color_trc=bt709:colorspace=bt709:range=limited[vout]')
     cmd+=['-filter_complex',';'.join(filters),'-map','[vout]','-map',f'{audioindex}:a:0','-c:v',encoder,'-b:v',video_bitrate,'-pix_fmt','yuv420p','-color_primaries','bt709','-color_trc','bt709','-colorspace','bt709','-color_range','tv','-c:a',('copy' if audio_codec=='aac' else 'aac'),*([] if audio_codec=='aac' else ['-b:a',audio_bitrate]),'-t',f'{frames/30:.12f}','-movflags','+faststart',str(out)]
     return cmd
 
 def main():
-    ap=argparse.ArgumentParser(description=__doc__);ap.add_argument('manifest',type=Path);ap.add_argument('--output',type=Path,required=True);ap.add_argument('--work-dir',type=Path,required=True);ap.add_argument('--jobs',type=int,default=2);ap.add_argument('--encoder',default='h264_videotoolbox');ap.add_argument('--bitrate',default='20M');ap.add_argument('--plan-only',action='store_true');ap.add_argument('--prepare-subtitles',action='store_true',help='Prepare the same subtitle states and contract as the full renderer, without encoding video');ap.add_argument('--export-contract',type=Path,help='READY_TO_RENDER passport required for encoding');ap.add_argument('--check-settings',action='store_true',help='Validate passport against actual command without encoding');ap.add_argument('--scene-cache',type=Path,help='Bounded reusable cache of exact rendered scene inputs');ap.add_argument('--scene-cache-max-bytes',type=int,default=2*1024**3);args=ap.parse_args()
+    ap=argparse.ArgumentParser(description=__doc__);ap.add_argument('manifest',type=Path);ap.add_argument('--output',type=Path,required=True);ap.add_argument('--work-dir',type=Path,required=True);ap.add_argument('--jobs',type=int,default=2);ap.add_argument('--encoder',default='h264_videotoolbox');ap.add_argument('--bitrate',default='20M');ap.add_argument('--plan-only',action='store_true');ap.add_argument('--prepare-subtitles',action='store_true',help='Prepare the same subtitle states and contract as the full renderer, without encoding video');ap.add_argument('--export-contract',type=Path,help='READY_TO_RENDER passport required for encoding');ap.add_argument('--check-settings',action='store_true',help='Validate passport against actual command without encoding');ap.add_argument('--technical-probe',action='store_true',help='Explicit non-deliverable probe; production completion rejects this mode');ap.add_argument('--scene-cache',type=Path,help='Bounded reusable cache of exact rendered scene inputs');ap.add_argument('--scene-cache-max-bytes',type=int,default=2*1024**3);args=ap.parse_args()
     manifest=args.manifest.resolve(); base=manifest.parent;plan=json.loads(manifest.read_text()); prepared=validate(plan,base)
+    if not args.technical_probe:
+        production_preflight(plan, base)
     if sum((args.plan_only,args.prepare_subtitles,args.check_settings))>1:raise ValueError('Choose one preparation mode')
     if args.jobs<1:raise ValueError('jobs must be positive')
     out=args.output.resolve();work=args.work_dir.resolve()
@@ -319,7 +340,8 @@ def main():
         # Detect writers changing accepted inputs or the running engine during render.
         for record in inputs + contract['profiles'] + engine:
             delivery.check_record(record)
-        delivery.write_receipt(out,plan['channel'],contract,inputs,review,provenance)
+        delivery.write_receipt(out,plan['channel'],contract,inputs,review,provenance,
+                               purpose='technical_probe' if args.technical_probe else 'production')
     print(f'RENDERED {out}',flush=True)
 
 if __name__=='__main__':

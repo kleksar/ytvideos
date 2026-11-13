@@ -1,0 +1,28 @@
+{
+  "at": "2026-11-13T04:42:37.795351+00:00",
+  "command": [
+    "uv",
+    "run",
+    "--offline",
+    "--no-sync",
+    "python",
+    "-m",
+    "ytvideos.script_review",
+    "--script",
+    "/workspace/scratch/0cd37d41d442/production-eval/reviewer-packet-probe/script.en.txt",
+    "--seam",
+    "/workspace/scratch/0cd37d41d442/production-eval/reviewer-packet-probe/seam.json",
+    "--check-response",
+    "/workspace/scratch/0cd37d41d442/production-eval/reviewer-packet-probe/response.json",
+    "--author",
+    "/root/luna_history_guarded_eval"
+  ],
+  "cwd": "/workspace/scratch/0cd37d41d442/ytvideos",
+  "exit_code": 0,
+  "stdout": "{\"structurally_valid\": true, \"decision\": \"revise\", \"pass_consistent\": false, \"review_performed\": false, \"script_accepted\": false, \"evidence\": {\"path\": \"/workspace/scratch/0cd37d41d442/production-eval/reviewer-packet-probe/response.json\", \"sha256\": \"37b7c0b8236da6a5a69cc921836d0ecdc9af680eb738b30564822a9abbcb074e\"}}\n",
+  "stderr": "",
+  "implementation_sha256": {
+    "src/ytvideos/script_review.py": "f93f98e352c03dee952455104daeba2ddb397591bdb1a57e397683117a570e03",
+    "src/ytvideos/narrative_loop.py": "bdf75565b56ca0403f35b981305d36a4139cd7032a9398fe0bb58d080c7f6103"
+  }
+}

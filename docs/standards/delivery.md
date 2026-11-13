@@ -27,6 +27,10 @@
 
 Передать тот же contract renderer и QA. Сохранить реальные command, stdout/stderr summary, код/version, fonts/profiles, frozen plan и dependencies. Профиль и документация текущей ветки не доказывают, какой код создал исторический файл.
 
+Runtime разрешает production по закреплённому `production_requirements`; unresolved policy блокирует claim/dispatch до затрат. Точные поля единого manifest и обязательная связка `delivery_evidence → manifest/execution → MP4` описаны в [task contract](../operations/task-contract.md#render-manifest-и-delivery-evidence). Сохранять принятый порядок и количество сцен, exact soundtrack/SRT, источники музыки и фактическое сведение. Для illustrated word captions использовать canonical renderer с его word map/font/export receipts. Произвольный renderer или hash-bound JSON не заменяет требуемую подготовку субтитров.
+
+Технический `--technical-probe` относится только к инструментальным fixtures. Его файл не принимается как production MP4; reduced canvas и подставной шрифт не являются способом закончить выпуск.
+
 ## После рендера
 
 Проверить точный получившийся MP4, а не только return code:
@@ -37,7 +41,7 @@
 - Прослушивание фактической речи и полного микса, sync слов/изображений, громкость, пики, стыки, оба канала и применимый mono fold-down.
 - Соответствие narration, scenes, titles/chapters и принятым художественным требованиям.
 
-У каждой проверки метод, coverage, reviewer, inspected artifact hash, evidence, PASS/FAIL/UNVERIFIED/N_A. Контактный лист не подтверждает каждый промежуточный кадр; `ffprobe` не подтверждает прослушивание. Непокрытое остаётся UNVERIFIED. Независимость проверяющего не создаётся переименованием роли автора.
+У каждой проверки метод, coverage, reviewer, inspected artifact hash, evidence, PASS/FAIL/UNVERIFIED/N_A. Обязательные task checks брать из текущего `context.required_checks`, точная форма receipt — в [task contract](../operations/task-contract.md#проверки-media-и-review). Visual/listening/subtitles и применимые music/motion/captions проверки покрывают весь файл; final reviewer отличается от producer. Контактный лист не подтверждает каждый промежуточный кадр; `ffprobe` не подтверждает прослушивание. Непокрытое остаётся UNVERIFIED и не проходит успешный completion. Независимость проверяющего не создаётся переименованием роли автора.
 
 Дефект исправлять в минимальной области и повторять только затронутые checks плюс необходимую итоговую проверку. Для video-only исправления сохранять принятый звук, когда возможно; для audio-only — принятый video stream. Перекодирование lossy-файла не восстанавливает качество.
 

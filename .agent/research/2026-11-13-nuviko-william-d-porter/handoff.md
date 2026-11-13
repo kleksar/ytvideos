@@ -1,3 +1,14 @@
+## Актуальный workflow — сверено с remote main
+
+Обновлено по `main` `96c8fa1573c02e8e7987e272a569bf34f037691e`. Этот старый текстовый пакет **не является `ytv start` run**, а `storyboard.json` — предварительное художественное задание, не завершённый runtime stage. Редакторская самооценка не является независимым review или `awaiting_script_approval`.
+
+**Текущий статус Nuviko History: `active`** в `channels/nuviko_history/channel.json`. Старые упоминания `frozen` ниже отражают состояние во время создания первоначального черновика; сейчас они не действуют. Они никогда не подтверждали ни approval пользователя, ни разрешения на upload.
+
+При выборе этого сюжета локально создать новый сохранённый run: `uv run ytv start --channel nuviko_history --format short --intent 'Проверить неутверждённый сценарий PR #17'`. Прочитать `plan_summary`/`read_next` и настоящий pinned task context, выполнить research/script по [workflow](https://github.com/kleksar/ytvideos/blob/main/docs/workflow.md) и [task contract](https://github.com/kleksar/ytvideos/blob/main/docs/operations/task-contract.md). Фактически получить независимую сессию reviewer (`sessions.independent`), точный `ytv-script-review-v1` и полный двухкратный проход Short с подтверждёнными bytes/hashes/receipts. До этого script gate `awaiting_script_approval` НЕ достигнут; после него требуется подлинное согласие владельца. Не регистрировать авторскую оценку как независимую и не генерировать фальшивый user event.
+
+English master и полный русский перевод остаются кандидатами; все изображения/тайминги и loop AV пока UNVERIFIED. Не переписывать pinned версии чужих выпусков; media, TTS, publish не запускались и не разрешены этим PR.
+
+---
 # Handoff — text-only candidate, not production
 
 - **Channel ID:** `nuviko_history` — **status=frozen in main** (read 2026-11-13); this PR's mandate allows only research and scenario drafts; it does not unfreeze a channel or create an episode. #12 proposes reactivation but remains OPEN at branch creation and has not changed this main's frozen ChannelSpec. #16 (audience-first selection) IS merged into this base.

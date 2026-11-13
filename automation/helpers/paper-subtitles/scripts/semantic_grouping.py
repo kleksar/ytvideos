@@ -13,7 +13,7 @@ import re
 from typing import Iterable, Sequence
 
 
-VERSION = "sentence-syntax-width-v6"
+VERSION = "sentence-syntax-width-v7"
 INFINITY = float("inf")
 
 ARTICLES_DETERMINERS = set("a an the this that these those some any each every either neither no another all both such".split())
@@ -84,6 +84,13 @@ def _crosses_keep_together(words: Sequence[dict], cut: int, pairs: set[tuple[str
     return (left, right) in pairs
 
 
+def _require_keep_together(words: Sequence[dict], cut: int,
+                           pairs: set[tuple[str, str]]) -> None:
+    if _crosses_keep_together(words, cut, pairs):
+        protected = _phrase(words[cut - 1:cut + 1])
+        raise ValueError("group plan splits keep_together words: " + protected)
+
+
 def _complete_lexical_do(group: Sequence[dict]) -> bool:
     """Recognize fronted-question complements such as `what could you do`.
 
@@ -109,7 +116,8 @@ def _complete_adverbial_inside(group: Sequence[dict]) -> bool:
 
 def _forced_demonstrative_relative_split(words: Sequence[dict], cut: int,
                                          group: Sequence[dict], font,
-                                         max_text_width: float) -> bool:
+                                         max_text_width: float,
+                                         max_words: int | None = None) -> bool:
     """Allow `those / who...` only when its complete relative clause cannot fit."""
     if (not group or bare(group[-1]["text"]) != "those" or cut >= len(words)
             or bare(words[cut]["text"]) not in RELATIVES):
@@ -120,12 +128,13 @@ def _forced_demonstrative_relative_split(words: Sequence[dict], cut: int,
         if is_sentence_end(words[end - 1]["text"]):
             break
     continuation = list(group) + list(words[cut:end])
-    return float(font.getlength(_phrase(continuation))) > max_text_width
+    return not _fits(continuation, font, max_text_width, max_words)
 
 
 def _forced_relative_marker_split(words: Sequence[dict], cut: int,
                                   previous: Sequence[dict], group: Sequence[dict],
-                                  font, max_text_width: float) -> bool:
+                                  font, max_text_width: float,
+                                  max_words: int | None = None) -> bool:
     """Allow a lone relative `that` only when the complete clause cannot fit.
 
     This narrowly supports reviewed Short cue plans such as
@@ -145,7 +154,7 @@ def _forced_relative_marker_split(words: Sequence[dict], cut: int,
         if is_sentence_end(words[end - 1]["text"]):
             break
     forced_clause = list(previous) + list(group) + list(words[cut:end])
-    return float(font.getlength(_phrase(forced_clause))) > max_text_width
+    return not _fits(forced_clause, font, max_text_width, max_words)
 
 
 def boundary_cost(words: Sequence[dict], cut: int, pairs: set[tuple[str, str]]) -> float:
@@ -232,6 +241,20 @@ def _phrase(words: Sequence[dict]) -> str:
     return " ".join(str(w["text"]) for w in words)
 
 
+def _validate_limits(max_text_width: float, max_words: int | None) -> None:
+    if not math.isfinite(max_text_width) or max_text_width <= 0:
+        raise ValueError("max_text_width must be finite and positive")
+    if max_words is not None and (not isinstance(max_words, int) or isinstance(max_words, bool) or max_words < 1):
+        raise ValueError("max_words must be a positive integer")
+
+
+def _fits(words: Sequence[dict], font, max_text_width: float,
+          max_words: int | None) -> bool:
+    """Both routes measure the same font and enforce the same word limit."""
+    return ((max_words is None or len(words) <= max_words)
+            and float(font.getlength(_phrase(words))) <= max_text_width)
+
+
 def boundary_warnings(groups: Sequence[Sequence[dict]]) -> list[dict]:
     """Expose forced/ambiguous breaks for full-sequence editorial review.
 
@@ -300,7 +323,11 @@ def _partition_sentence(words: Sequence[dict], font, max_text_width: float,
             if best[start] is None or candidate[0] < best[start][0]:
                 best[start] = candidate
     if best[0] is None:
-        raise ValueError("sentence has no syntax-safe one-line partition within the measured width; review the exact sentence or add a documented keep-together exception")
+        raise ValueError(
+            f"sentence has no valid one-line partition with max_text_width={max_text_width:g}px, "
+            f"max_words={max_words}: {_phrase(words)}; preserve exact words, font and keep_together "
+            "and review the conflicting constraints before rendering"
+        )
     result: list[list[dict]] = []
     start = 0
     for end in best[0][1]:
@@ -313,12 +340,9 @@ def group_words(words: Sequence[dict], font, max_text_width: float,
                 keep_together: Iterable[Sequence[str] | str] = (), max_words: int | None = None,
                 combine_sentences: bool = False) -> list[list[dict]]:
     """Group exact timed words sentence-first, protecting syntax and width."""
+    _validate_limits(max_text_width, max_words)
     if not words:
         return []
-    if max_text_width <= 0:
-        raise ValueError("max_text_width must be positive")
-    if max_words is not None and (not isinstance(max_words, int) or isinstance(max_words, bool) or max_words < 1):
-        raise ValueError("max_words must be a positive integer")
     pairs = _pairs(keep_together)
     groups: list[list[dict]] = []
     ranges = sentence_ranges(words)
@@ -330,8 +354,7 @@ def group_words(words: Sequence[dict], font, max_text_width: float,
             combined = words[start:next_end]
             if (is_sentence_end(words[end - 1]["text"])
                     and is_sentence_end(words[next_end - 1]["text"])
-                    and (max_words is None or len(combined) <= max_words)
-                    and float(font.getlength(_phrase(combined))) <= max_text_width):
+                    and _fits(combined, font, max_text_width, max_words)):
                 groups.append(list(combined))
                 index += 2
                 continue
@@ -342,17 +365,40 @@ def group_words(words: Sequence[dict], font, max_text_width: float,
                 raise
             groups.extend(_partition_sentence(words[start:end], font, max_text_width, pairs, max_words, allow_weak_boundary=True))
         index += 1
+    cursor = 0
+    for group in groups[:-1]:
+        cursor += len(group)
+        _require_keep_together(words, cursor, pairs)
     return groups
 
 
 def plan_phrases(words: Sequence[dict], phrases: Sequence[str], font,
                  max_text_width: float, keep_together: Iterable[Sequence[str] | str] = (),
                  combine_sentences: bool = False,
-                 boundary_exceptions: Sequence[dict] = ()) -> list[list[dict]]:
-    """Resolve a reviewed exact phrase plan against the timed word sequence."""
+                 boundary_exceptions: Sequence[dict] = (),
+                 max_words: int | None = None) -> list[list[dict]]:
+    """Resolve exact phrases using the automatic route's width/word constraints.
+
+    Returning a plan is not semantic acceptance. Forced boundaries from the
+    canonical automatic proposal remain visible through ``boundary_warnings``
+    and require the same complete-sequence review as automatic grouping.
+    """
+    _validate_limits(max_text_width, max_words)
     if not phrases or not all(isinstance(x, str) and x.strip() for x in phrases):
         raise ValueError("group plan must be a non-empty list of phrases")
     pairs = _pairs(keep_together)
+    automatic_boundaries: set[tuple[str, str]] = set()
+    if max_words is not None:
+        try:
+            automatic = group_words(words, font, max_text_width, pairs, max_words,
+                                    combine_sentences)
+        except ValueError:
+            # An explicit measured plan may resolve an automatic heuristic's
+            # failure. It must still pass every hard constraint below.
+            pass
+        else:
+            automatic_boundaries = {(_phrase(left), _phrase(right))
+                                    for left, right in zip(automatic, automatic[1:])}
     exceptions: dict[tuple[str, str], str] = {}
     user_approved: set[tuple[str, str]] = set()
     for item in boundary_exceptions:
@@ -375,6 +421,7 @@ def plan_phrases(words: Sequence[dict], phrases: Sequence[str], font,
             user_approved.add(key)
     groups: list[list[dict]] = []
     cursor = 0
+    previous_exception = False
     for phrase_index, phrase in enumerate(phrases):
         group: list[dict] = []
         while cursor < len(words) and len(_phrase(group)) < len(phrase):
@@ -382,9 +429,12 @@ def plan_phrases(words: Sequence[dict], phrases: Sequence[str], font,
             cursor += 1
         if _phrase(group) != phrase:
             raise ValueError("group plan changes, skips, or reorders transcript words: " + phrase)
+        if max_words is not None and len(group) > max_words:
+            raise ValueError(f"group plan exceeds max_words={max_words}: {phrase}")
         if float(font.getlength(phrase)) > max_text_width:
             raise ValueError("group plan exceeds measured one-line width: " + phrase)
         group_start = cursor - len(group)
+        _require_keep_together(words, group_start, pairs)
         internal_ends = sum(is_sentence_end_at(words, index) for index in range(group_start, cursor - 1))
         starts_sentence = group_start == 0 or is_sentence_end_at(words, group_start - 1)
         if internal_ends and not (combine_sentences and internal_ends == 1 and starts_sentence
@@ -394,6 +444,7 @@ def plan_phrases(words: Sequence[dict], phrases: Sequence[str], font,
                        and bare(group[-2]["text"]) == "not")
         exception_key = (phrase, phrases[phrase_index + 1]) if phrase_index + 1 < len(phrases) else None
         exception = exceptions.pop(exception_key, None) if exception_key else None
+        automatic_boundary = exception_key in automatic_boundaries
         left_words = [bare(word["text"]) for word in group]
         right_words = ([bare(word["text"]) for word in words[cursor:cursor + len(phrases[phrase_index + 1].split())]]
                        if phrase_index + 1 < len(phrases) else [])
@@ -424,21 +475,23 @@ def plan_phrases(words: Sequence[dict], phrases: Sequence[str], font,
                 and float(font.getlength(phrase + " " + phrases[phrase_index + 1])) > max_text_width
                 and float(font.getlength(phrases[phrase_index + 1])) <= max_text_width)
             or exception_key in user_approved
+            or automatic_boundary
         )
         if exception and not allowed_exception:
             raise ValueError("subtitle boundary exception is not one of the supported forced splits: " + exception_key[0] + " / " + exception_key[1])
         cut = cursor - len(group)
         forced_relative = bool(groups) and _forced_relative_marker_split(
-            words, cursor, groups[-1], group, font, max_text_width)
+            words, cursor, groups[-1], group, font, max_text_width, max_words)
         if ((bare(group[-1]["text"]) in WEAK_END
              and not _complete_lexical_do(group)
              and not _complete_adverbial_inside(group)
-             and not _forced_demonstrative_relative_split(words, cursor, group, font, max_text_width))
+             and not _forced_demonstrative_relative_split(words, cursor, group, font,
+                                                         max_text_width, max_words))
                 and not is_sentence_end(group[-1]["text"])
                 and not CLAUSE_PUNCT_RE.search(group[-1]["text"])
                 and not forced_relative
                 and not correlative):
-            if not allowed_exception:
+            if not allowed_exception and not automatic_boundary:
                 raise ValueError("group plan leaves a syntactic hook at the line end: " + phrase)
         if groups:
             previous = groups[-1]
@@ -447,9 +500,10 @@ def plan_phrases(words: Sequence[dict], phrases: Sequence[str], font,
             else:
                 cost = boundary_cost(words, cut, pairs)
                 combined = _phrase(previous + group)
-                if cost >= 80 and float(font.getlength(combined)) <= max_text_width and not allowed_exception:
+                if cost >= 80 and _fits(previous + group, font, max_text_width, max_words) and not previous_exception:
                     raise ValueError("group plan separates a relative clause that fits with its antecedent: " + combined)
         groups.append(group)
+        previous_exception = allowed_exception
     if cursor != len(words):
         raise ValueError("group plan omits transcript words")
     if exceptions:

@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "id": "nuviko_videos",
+  "name": "Nuviko Videos",
+  "status": "active",
+  "language": "ru",
+  "recipe": "music_first",
+  "youtube_channel_id": "UC4nNJWr_PDL3QCZ76KGHF1g",
+  "identity_evidence": "AGENTS.md",
+  "context_references": [
+    {
+      "path": "channels/nuviko_videos/AGENTS.md"
+    },
+    {
+      "path": "channels/nuviko_videos/docs/SATISFYING_SHORTS.md"
+    }
+  ],
+  "production": {
+    "audio": {
+      "required": true,
+      "codec": "aac",
+      "music": "required"
+    },
+    "visual": {
+      "motion": "whole_frame",
+      "transitions": "recipe_defined",
+      "decorative_frame": "forbidden"
+    },
+    "captions": {
+      "mode": "when_speech",
+      "srt": "when_speech",
+      "font": {
+        "family": "Bradley Hand",
+        "style": "Bold"
+      }
+    },
+    "end_screen_seconds": 0,
+    "music_edit": {
+      "zoom": [
+        0.95,
+        1.05
+      ],
+      "color": {
+        "contrast": 1.25,
+        "saturation": 1.5
+      },
+      "transition": {
+        "duration_frames": 3,
+        "peak_incoming": 0.7,
+        "components": [
+          "fade",
+          "gaussian_blur",
+          "brightness"
+        ]
+      },
+      "lyrics": {
+        "font_size_px": 147,
+        "max_words": 1,
+        "tilt_every": 6,
+        "vocal_beat": true,
+        "invert_masks": true,
+        "mask_sigma_px": 1.65,
+        "hold_gap_lt_ms": 500,
+        "beat_pulse_scale": 0.06
+      }
+    },
+    "formats": {
+      "short": {
+        "video": {
+          "canvas": [
+            1080,
+            1920
+          ],
+          "fps": "30/1",
+          "codec": "h264",
+          "pix_fmt": "yuv420p",
+          "sample_aspect_ratio": "1:1",
+          "color_primaries": "bt709",
+          "color_transfer": "bt709",
+          "color_space": "bt709",
+          "color_range": "tv"
+        },
+        "narrative_loop": "not_applicable",
+        "variants": {
+          "vocal": {
+            "speech_mode": "source",
+            "captions": {
+              "mode": "lyrics",
+              "srt": "required"
+            }
+          },
+          "instrumental": {
+            "speech_mode": "none",
+            "captions": {
+              "mode": "none",
+              "srt": "none"
+            }
+          }
+        }
+      }
+    }
+  },
+  "caption_font_source": {
+    "path": "/System/Library/Fonts/Supplemental/Bradley Hand Bold.ttf",
+    "evidence": "Work/nuviko-four-shorts-20261110/Work/full-song-v01/bloodstream/caption-command.json",
+    "verification": "Inspect the actual font face/hash on the render host."
+  },
+  "delivery_evidence": "channels/nuviko_videos/videos/001_misery/RELEASE.json",
+  "budget": {
+    "max_paid_units": 0,
+    "max_task_attempts": 3,
+    "max_editorial_passes": 2
+  },
+  "release_policy": {
+    "end_screen": true,
+    "ab_test": true,
+    "shorts_related": true,
+    "min_schedule_lead_seconds": 300
+  }
+}

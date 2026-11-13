@@ -136,12 +136,8 @@ def select_shots(shots, lengths, first, last, motif=None):
     return [shots[j] for j in beam[0][1]]
 
 
-def main():
-    parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('plan', type=Path, help='JSON with media, fps, frames, profile, pulse, shots, first and last')
-    parser.add_argument('--output', type=Path, required=True)
-    args = parser.parse_args()
-    plan = json.loads(args.plan.read_text())
+def plan_timeline(plan):
+    """Use the same planner from the CLI and the bound music compositor."""
     fps = plan['fps']
     times, strength = accent_signal(plan['media'])
     accents = candidate_accents(times, strength, fps, plan.get('pulse'))
@@ -151,10 +147,19 @@ def main():
     lengths = [(right - left + (1 if i else 0) + (2 if right < plan['frames'] else 0)) / fps
                for i, (left, right) in enumerate(zip(boundaries, boundaries[1:]))]
     clips = select_shots(plan['shots'], lengths, plan['first'], plan['last'], plan.get('motif'))
+    return {'accents': selected, 'clips': clips, 'holds_seconds': [
+        round((right-left)/fps, 4) for left, right in zip(boundaries, boundaries[1:])
+    ]}
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('plan', type=Path, help='JSON with media, fps, frames, profile, pulse, shots, first and last')
+    parser.add_argument('--output', type=Path, required=True)
+    args = parser.parse_args()
+    result = plan_timeline(json.loads(args.plan.read_text()))
     with args.output.open('x') as output:
-        json.dump({'accents': selected, 'clips': clips, 'holds_seconds': [
-            round((right-left)/fps, 4) for left, right in zip(boundaries, boundaries[1:])
-        ]}, output, indent=2)
+        json.dump(result, output, indent=2)
         output.write('\n')
 
 

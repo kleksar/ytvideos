@@ -7,7 +7,7 @@ Updated 2026-11-03.
 - **Channel / format:** Nuviko History, independent Short; accepted Russian story v01, English production narration adaptation v01.
 - **Working topic:** daylight saving time in wartime and the American repeal/return.
 - **Provisional central question:** Why did the United States repeal daylight saving time in 1919 despite Wilson's veto, then return to it?
-- **User authorization:** The user authorized production and public release of this specific episode. Other Nuviko work remains frozen.
+- **User authorization:** The user authorized production and public release of this specific episode.
 - **Current stage:** sources audited; dramatic architecture consulted in visible ChatGPT Extra High; Russian story v01 is accepted by the user; acceptance and SHA-256 are recorded in `Source/Scripts/ACCEPTANCE_RU_v01_20261103.md`. English production-language adaptation v01 is at `Source/Scripts/narration_en_v01.md`; it preserves the accepted meaning. The user accepted review MP4 v04 and selected title A and the attached cover for upload; episode-owned local media and retired project were removed after public release.
 
 ## Story limits

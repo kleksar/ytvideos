@@ -84,7 +84,7 @@ class StorySelectionContractTests(unittest.TestCase):
         text = read(OWNER)
         for phrase in ("Для каждого Short обязательна естественная смысловая петля.",
                        "Уже утверждённые тексты и MP4 автоматически не переписывать.",
-                       "не новые поля CLI/API", "Не обещать 120–150%"):
+                       "Не обещать 120–150%"):
             self.assertIn(phrase, text)
         skill = read(".agents/skills/ytv-write-script/SKILL.md")
         self.assertIsNotNone(re.search(r'^description: "Research and write .*"$', skill, re.M))

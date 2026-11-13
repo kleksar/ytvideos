@@ -180,6 +180,28 @@ class TestMontage(unittest.TestCase):
   for direction in m.DIRECTIONS:
    for zoom in m.ZOOMS:
     s=m.motion_filter(320,180,120,direction,zoom);self.assertIn('perspective=',s);self.assertIn('crop=320:180',s)
+ def test_slow_pan_preserves_subpixel_progress_on_every_encoded_frame(self):
+  # A seven-pixel pan over four seconds is below one pixel per frame. Integer
+  # crop/zoompan rounding produces long holds followed by a full-pixel jump.
+  with tempfile.TemporaryDirectory() as td:
+   p=Path(td);source=p/'source.png';out=p/'motion.mp4'
+   image=Image.new('RGB',(320,180),'black');ImageDraw.Draw(image).rectangle((115,65,205,115),fill='white');image.save(source)
+   subprocess.run(['ffmpeg','-v','error','-loop','1','-framerate','30','-i',str(source),
+                   '-vf',m.motion_filter(320,180,120,'left_to_right','none'),'-frames:v','120',
+                   '-c:v','libx264','-crf','0','-pix_fmt','yuv420p',str(out)],check=True,capture_output=True)
+   raw=subprocess.check_output(['ffmpeg','-v','error','-i',str(out),'-f','rawvideo','-pix_fmt','gray','-'])
+   self.assertEqual(len(raw),120*320*180)
+   centers=[]
+   for index in range(120):
+    frame=raw[index*320*180:(index+1)*320*180]
+    columns=[sum(frame[x::320]) for x in range(320)]
+    centers.append(sum(x*weight for x,weight in enumerate(columns))/sum(columns))
+   steps=[after-before for before,after in zip(centers,centers[1:])]
+   mean_step=(centers[-1]-centers[0])/119
+   self.assertGreater(mean_step,0)
+   self.assertLess(mean_step,.1)
+   self.assertGreater(min(steps),0,'A held/backward frame interrupts the slow pan')
+   self.assertLess(max(steps),2*mean_step,'A quantized jump is much larger than subpixel progress')
  def test_visible_motion_directions_and_zoom(self):
   with tempfile.TemporaryDirectory() as td:
    p=Path(td);image=Image.new('RGB',(320,180),'black');ImageDraw.Draw(image).rectangle((70,35,250,145),fill='red');image.save(p/'source.png')
@@ -228,7 +250,7 @@ class TestMontage(unittest.TestCase):
     bind_plan(plan,p);(p/'plan.json').write_text(json.dumps(plan));out=p/'result.mp4';work=p/'work'
     audio={'codec_name':'aac','profile':'LC','channels':1,'sample_rate':'44100'}
     contract=p/'export.json';contract.write_text(json.dumps(passport(m,p/'plan.json',m.validate(plan,p),audio,out)))
-    subprocess.run(['python3',str(P),str(p/'plan.json'),'--output',str(out),'--work-dir',str(work),'--encoder','libx264','--bitrate','800k','--export-contract',str(contract)],check=True,capture_output=True,text=True)
+    subprocess.run(['python3',str(P),str(p/'plan.json'),'--technical-probe','--output',str(out),'--work-dir',str(work),'--encoder','libx264','--bitrate','800k','--export-contract',str(contract)],check=True,capture_output=True,text=True)
     data=json.loads(subprocess.check_output(['ffprobe','-v','error','-show_entries','stream=codec_type,width,height,nb_frames','-of','json',str(out)]));video=next(x for x in data['streams'] if x['codec_type']=='video');self.assertEqual((video['width'],video['height'],video['nb_frames']),(canvas[0],canvas[1],'240'));self.assertTrue(any(x['codec_type']=='audio' for x in data['streams']))
     self.assertEqual(json.loads((work/'caption_groups.json').read_text())['profile']['name'],channel)
     receipt=json.loads(Path(str(out)+'.delivery.json').read_text())
@@ -249,7 +271,7 @@ class TestMontage(unittest.TestCase):
    manifest=p/'plan.json';manifest.write_text(json.dumps(plan));out=p/'result.mp4'
    audio={'codec_name':'pcm_s16le','channels':2,'sample_rate':'44100'}
    contract=p/'export.json';contract.write_text(json.dumps(passport(m,manifest,m.validate(plan,p),audio,out)))
-   argv=[sys.executable,str(P),str(manifest),'--output',str(out),'--export-contract',str(contract),'--encoder','libx264','--bitrate','800k']
+   argv=[sys.executable,str(P),str(manifest),'--technical-probe','--output',str(out),'--export-contract',str(contract),'--encoder','libx264','--bitrate','800k']
    subprocess.run(argv+['--work-dir',str(p/'check'),'--check-settings'],check=True,capture_output=True,text=True)
    self.assertFalse(out.exists());self.assertFalse(list((p/'check').glob('scene_*.mp4')))
    bad=argv.copy();bad[bad.index('--bitrate')+1]='20M'
