@@ -8,7 +8,7 @@
 - **Speech:** AUTHORIAL_PASS with concern. Physical verbs (read, bought, mailed, returned, ruled, appealed), flexible phrase lengths, no hollow victory moral or contrived 3-beat filler. “Fighting it out in court” is informal shorthand, not a filing-order claim; first listener must test.
 - **EN→RU:** AUTHORIAL_CHECK, INDEPENDENT_UNVERIFIED. Same seven million **Pepsi points** then **Frontier miles**, fifteen original physical points, 10 cents, March 1996, $700,008.50, 2000 appeal and Feb 2026. No claim about actual owned jet or assured lifetime tickets. Full bilingual spans are exact in storyboard.
 - **Pacing/length:** 209 EN words, preliminary 14 scenes at ~4–6 s visual composition only. Spoken duration and scene alignment NOT MEASURED.
-- **Loop:** AUTHORIAL_TEXT_PASS / fresh independent UNVERIFIED / real MP4 AV seam UNVERIFIED. Author read full EN twice in sequence and separately full RU twice. Full 2026 miles payoff finishes BEFORE the final narrated return to the 1995 commercial, which the first frame literally depicts. No hidden answer across repeat.
+- **Loop:** AUTHORIAL_TEXT_PASS / fresh independent UNVERIFIED / real MP4 AV seam UNVERIFIED. Visual planning corrected: S014 explicitly reuses S001 source bytes and matches its opening crop; actual image/motion/subtitles/music seam cannot be asserted before an MP4. Author read full EN twice in sequence and separately full RU twice. Full 2026 miles payoff finishes BEFORE the final narrated return to the 1995 commercial, which the first frame literally depicts. No hidden answer across repeat.
 
 **Literal final two → first two EN narration paragraphs:**
 
