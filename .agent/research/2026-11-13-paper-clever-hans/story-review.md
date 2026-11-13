@@ -6,11 +6,11 @@
 
 | Dimension | Outcome | Evidence and genuine risk |
 |---|---|---|
-| **Interest to START** | **AUTHORIAL PASS / independent UNVERIFIED** | One clear accessible question, `What's three plus five?`, instantly answered by a horse's taps. Surprise is concrete on phone, but horse arithmetic is a known tale; some viewers will already guess cue-reading. Comparable video published 2026-11-10 shows the concept is not original worldwide. |
+| **Interest to START** | **AUTHORIAL PASS / independent UNVERIFIED** | One clear accessible question, `What's three plus five?`, linked to a horse's apparent ability to respond with hoof taps (the precise sum is illustrative, not a recorded question). Surprise is concrete on phone, but horse arithmetic is a known tale; some viewers will already guess cue-reading. Comparable video published 2026-11-10 shows the concept is not original worldwide. |
 | **Interest to CONTINUE** | **AUTHORIAL PASS / independent UNVERIFIED** | Owner leaving apparently rules out a simple owner-only secret. Unknown-answer condition changes who owns the information. Blinders test the *visual channel*, not a second redundant excuse. Head motion gives physical cause; Pfungst becoming the horse is an extra human-led verification, not an appendix of biographical facts. Risk: S004–S006 controls must be distinguishable in visuals and narration. |
 | **Payoff / viewer satisfaction** | **AUTHORIAL PASS / independent UNVERIFIED** | Mechanism demonstrated, then second unexpected demonstration with a human in horse's role. The viewer learns how inadvertent body signals mislead; no false claim Hans was intentionally cheating or calculating. Risk: `read people` must not be mistaken for paranormal abilities. |
 | **Clarity, facts, structure** | **AUTHORIAL PASS for source-grounded central mechanism** | All central events supported in original Pfungst 1907/1911 work: 1904 commission; with/without answer; visible/blocked; minuscule head movement; 25-person human replication. `3+5` is a transparent illustrative example, not verified as Hans's historical exact question. No numerical retention predictions. |
-| **Natural Short loop** | **AUTHORIAL PASS text, actual AV UNVERIFIED** | End: `It was inside the head of whoever asked...` → first question `What's three plus five?`. The story's mechanistic answer was delivered *before* this; the restart syntactically supplies what the person asked and repeats a familiar scene now with changed meaning. |
+| **Natural Short loop** | **AUTHORIAL PASS text, actual AV UNVERIFIED** | End: `It was in the mind of the person asking a simple question:` → first question `What's three plus five?`. The story's mechanistic answer was delivered *before* this; the restart syntactically supplies what the person asked and repeats a familiar scene now with changed meaning. |
 | **Translation consistency** | **AUTHORIAL PASS semantic parallel, independent UNVERIFIED** | Thirteen EN paragraphs map one-to-one to RU. No reversed causal ordering or invented motives; explanation and payoff and loop preserved. Verify by programmatic exact scene matching after writing storyboard and bilingual first listener if available. |
 
 ## Required first-listener protocol — NOT_RUN
@@ -42,8 +42,8 @@ Do not make a second author role-play as 'independent'.
 
 Earlier ellipsis at `whoever asked...` could sound like a fresh opening rather than a continuous question. This revision retains the documented cue-reading payoff and directly sets up the cold-open example.
 
-EN last→first: **The answer wasn't inside the horse's head. It was in the mind of the person asking a simple question: What's three plus five? In 1904 Berlin, a horse answered with eight sharp hoof taps.**
+EN last→first: **The answer wasn't inside the horse's head. It was in the mind of the person asking a simple question: What's three plus five? In 1904 Berlin, a horse seemed able to answer questions like that by tapping his hoof.**
 
-RU последний→первый: **Ответ был не в голове лошади. Он был в голове человека, который задавал простой вопрос: Сколько будет три плюс пять? В Берлине 1904 года лошадь ответила восемью чёткими ударами копыта.**
+RU последний→первый: **Ответ был не в голове лошади. Он был в голове человека, который задавал простой вопрос: Сколько будет три плюс пять? В Берлине 1904 года лошадь будто умела отвечать на такие вопросы ударами копыта.**
 
 Authorial text-only link: PASS for grammatical continuity and distinct full payoff before replay. Independent twice-through review, speaking intonation, caption/music/visual seam in final MP4: **UNVERIFIED**. The scene list remains a provisional concept rather than a runtime-completed `storyboard`.
