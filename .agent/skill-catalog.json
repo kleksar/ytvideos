@@ -75,13 +75,14 @@
     {
       "name": "ytv-operate",
       "path": ".agents/skills/ytv-operate/SKILL.md",
-      "description": "Inspect or recover saved ytvideos runs, leases, blockers, uncertain operations, worker capabilities, storage and budgets, including evidence-backed thumbnail experiment readback. Use for status, restart, cancellation and cleanup.",
+      "description": "Inspect or recover saved ytvideos runs, leases, blockers, uncertain operations, worker capabilities, storage and budgets. Use for status, restart, cancellation, cleanup, thumbnail experiment readback or published Shorts retention analysis.",
       "stages": [],
       "intents": [
         "status",
         "recovery",
         "cancel",
-        "cleanup"
+        "cleanup",
+        "retention_analysis"
       ]
     },
     {

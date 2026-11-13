@@ -1,6 +1,6 @@
 ---
 name: ytv-operate
-description: "Inspect or recover saved ytvideos runs, leases, blockers, uncertain operations, worker capabilities, storage and budgets, including evidence-backed thumbnail experiment readback. Use for status, restart, cancellation and cleanup."
+description: "Inspect or recover saved ytvideos runs, leases, blockers, uncertain operations, worker capabilities, storage and budgets. Use for status, restart, cancellation, cleanup, thumbnail experiment readback or published Shorts retention analysis."
 ---
 
 # Состояние, восстановление и обслуживание
@@ -9,7 +9,9 @@ description: "Inspect or recover saved ytvideos runs, leases, blockers, uncertai
 
 CLI и точные outputs/receipts: [task contract](../../../docs/operations/task-contract.md).
 
-Прочитать `status` и `next` нужного run, его version pins, leases, blockers и pending/UNKNOWN external operations. Для миграции читать [migration](../../../docs/migration.md); для хранения — [storage](../../../docs/standards/storage.md); для capabilities — [runtime](../../../docs/operations/runtime.md).
+Для запроса о результатах опубликованного Short прочитать и выполнить [разбор удержания](references/shorts-retention.md): реальные данные → конкретный участок → гипотеза → следующий опыт. Этот read-only разбор не требует нового run; при отсутствии данных выполнить доступную часть и назвать точный пробел. Передать сохранённое наблюдение следующему research явно по ID/path.
+
+Для управления существующим run прочитать `status` и `next`, его version pins, leases, blockers и pending/UNKNOWN external operations. Для миграции читать [migration](../../../docs/migration.md); для хранения — [storage](../../../docs/standards/storage.md); для capabilities — [runtime](../../../docs/operations/runtime.md).
 
 1. Resume восстанавливает состояние из store и artifacts. Если явное согласие уже есть в текущей беседе, но gate ещё закрыт, зарегистрировать его штатным `approve` по task contract: тот же показанный artifact/revision, реальное сообщение и стабильная ссылка на него. Не просить повторного согласия, не создавать новый run и не генерировать проверенный output заново.
 2. Проверить, что worker использует закреплённый code/profile/skills. Несовпадение — blocker конкретного run, а не разрешение тихо заменить его правила.

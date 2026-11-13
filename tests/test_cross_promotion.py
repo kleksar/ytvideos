@@ -7,6 +7,7 @@ from ytvideos.release import ReleaseSpec
 
 CHANNEL = "UC" + "x" * 22
 SHORT = "SHORT000001"
+RELATED_SHORT = "SHORT000002"
 LONG = "LONG0000001"
 SECOND = "LONG0000002"
 PLAYLIST = "PL01234567890"
@@ -37,6 +38,7 @@ def inventory():
             {"id": SHORT, "channel_id": CHANNEL, "privacy": "public", "format": "short"},
             {"id": LONG, "channel_id": CHANNEL, "privacy": "public", "format": "long"},
             {"id": SECOND, "channel_id": CHANNEL, "privacy": "unlisted", "format": "long"},
+            {"id": RELATED_SHORT, "channel_id": CHANNEL, "privacy": "public", "format": "short"},
         ],
         "playlists": [{"id": PLAYLIST, "channel_id": CHANNEL, "privacy": "public",
                        "members_complete": True, "video_ids": [LONG]}],
@@ -49,12 +51,75 @@ class CrossPromotionTests(unittest.TestCase):
         result = build_plan(release, video_id=SHORT, inventory=inventory())
         self.assertEqual(result["blockers"], [])
         self.assertEqual(result["actions"][0]["status"], "ready_for_host")
-        self.assertEqual(result["actions"][0]["payload"]["long_id"], LONG)
-        for patch in ({"channel_id": "UC" + "y" * 22}, {"privacy": "private"},
-                      {"format": "short"}):
+        self.assertEqual(result["schema"], "ytv-cross-promotion-plan-v1")
+        self.assertEqual(result["actions"][0]["kind"], "shorts_to_long")
+        self.assertEqual(result["actions"][0]["payload"], {"short_id": SHORT, "long_id": LONG})
+        for patch in ({"channel_id": "UC" + "y" * 22}, {"privacy": "private"}):
             snapshot = inventory()
             snapshot["videos"][1].update(patch)
             self.assertEqual(build_plan(release, video_id=SHORT, inventory=snapshot)["actions"][0]["status"], "blocked")
+
+    def test_related_short_accepts_public_or_unlisted(self):
+        release = spec(related_video_id=RELATED_SHORT)
+        for privacy in ("public", "unlisted"):
+            with self.subTest(privacy=privacy):
+                snapshot = inventory()
+                snapshot["videos"][3]["privacy"] = privacy
+                result = build_plan(release, video_id=SHORT, inventory=snapshot)
+                self.assertEqual(result["schema"], "ytv-cross-promotion-plan-v1")
+                self.assertEqual(result["blockers"], [])
+                action = result["actions"][0]
+                self.assertEqual(action["status"], "ready_for_host")
+                self.assertEqual(action["kind"], "shorts_to_short")
+                self.assertEqual(action["payload"], {"short_id": SHORT, "target_short_id": RELATED_SHORT})
+                self.assertEqual(action["provider"], "studio")
+                self.assertIn("verified result", action["requires"])
+                self.assertEqual(result["execution"], "read_only_plan; no YouTube mutation or Studio result")
+
+    def test_related_short_rejects_other_channel_private_or_missing_target(self):
+        release = spec(related_video_id=RELATED_SHORT)
+        for patch, expected in (
+            ({"channel_id": "UC" + "y" * 22}, "target video belongs to another channel"),
+            ({"privacy": "private"}, "target video is neither Public nor Unlisted"),
+        ):
+            with self.subTest(patch=patch):
+                snapshot = inventory()
+                snapshot["videos"][3].update(patch)
+                result = build_plan(release, video_id=SHORT, inventory=snapshot)
+                self.assertEqual(result["actions"][0]["status"], "blocked")
+                self.assertIn(expected, result["blockers"])
+        snapshot = inventory()
+        snapshot["videos"].pop(3)
+        result = build_plan(release, video_id=SHORT, inventory=snapshot)
+        self.assertIn("target video is missing from the observed inventory", result["blockers"])
+
+    def test_related_video_requires_observed_short_or_long_format(self):
+        release = spec(related_video_id=RELATED_SHORT)
+        for format in (None, "", "unknown", "live", [], {}):
+            with self.subTest(format=format):
+                snapshot = inventory()
+                if format is None:
+                    del snapshot["videos"][3]["format"]
+                else:
+                    snapshot["videos"][3]["format"] = format
+                result = build_plan(release, video_id=SHORT, inventory=snapshot)
+                self.assertEqual(result["actions"][0]["status"], "blocked")
+                self.assertNotEqual(result["actions"][0]["kind"], "shorts_to_short")
+                self.assertIn("target must be verified as a Short or long-form video", result["blockers"])
+
+    def test_related_short_requires_verified_public_source(self):
+        release = spec(related_video_id=RELATED_SHORT)
+        for patch in ({"privacy": "private"}, {"format": "long"},
+                      {"channel_id": "UC" + "y" * 22}):
+            with self.subTest(patch=patch):
+                snapshot = inventory()
+                snapshot["videos"][0].update(patch)
+                result = build_plan(release, video_id=SHORT, inventory=snapshot)
+                self.assertEqual(result["actions"][0]["status"], "blocked")
+        snapshot = inventory()
+        snapshot["videos"].pop(0)
+        result = build_plan(release, video_id=SHORT, inventory=snapshot)
+        self.assertIn("published video is missing from the observed inventory", result["blockers"])
 
     def test_cannot_link_video_to_itself(self):
         result = build_plan(spec(related_video_id=SHORT), video_id=SHORT, inventory=inventory())

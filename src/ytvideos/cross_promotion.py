@@ -59,7 +59,7 @@ def build_plan(spec: ReleaseSpec, *, video_id: str, inventory: dict) -> dict:
     videos = _inventory_map(inventory.get("videos"), label="video", key="id")
     playlists = _inventory_map(inventory.get("playlists"), label="playlist", key="id")
 
-    def video_problem(target_id: str, *, long_only: bool = False) -> str | None:
+    def video_problem(target_id: str, *, related: bool = False) -> str | None:
         if target_id == video_id:
             return "target cannot be the same video"
         target = videos.get(target_id)
@@ -69,8 +69,8 @@ def build_plan(spec: ReleaseSpec, *, video_id: str, inventory: dict) -> dict:
             return "target video belongs to another channel"
         if target.get("privacy") not in {"public", "unlisted"}:
             return "target video is neither Public nor Unlisted"
-        if long_only and target.get("format") != "long":
-            return "target must be verified as a long-form video"
+        if related and target.get("format") not in ("short", "long"):
+            return "target must be verified as a Short or long-form video"
         return None
 
     def playlist_problem(playlist_id: str) -> str | None:
@@ -107,8 +107,12 @@ def build_plan(spec: ReleaseSpec, *, video_id: str, inventory: dict) -> dict:
 
     if spec.format == "short" and "related_video_id" in data:
         target_id = data["related_video_id"]
-        add("shorts_to_long", "studio", {"short_id": video_id, "long_id": target_id},
-            source_problem or video_problem(target_id, long_only=True))
+        problem = source_problem or video_problem(target_id, related=True)
+        if videos.get(target_id, {}).get("format") == "short":
+            add("shorts_to_short", "studio", {"short_id": video_id, "target_short_id": target_id}, problem)
+        else:
+            # Preserve the v1 long action, including blocked unverified targets.
+            add("shorts_to_long", "studio", {"short_id": video_id, "long_id": target_id}, problem)
     if spec.format == "long" and "end_screen" in data:
         errors = []
         for element in data["end_screen"]["elements"]:
