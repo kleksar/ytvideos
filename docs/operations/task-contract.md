@@ -160,6 +160,21 @@ uv run python -m ytvideos next --run RUN_ID
 
 `approve --event EVENT_FILE` принимает подлинный подписанный envelope [trusted host](../architecture.md#доверенная-граница-approval). Агент не генерирует private signing key или событие пользователя. После настоящего решения host фиксирует event; `next` возвращает следующие задачи.
 
+### Ручной импорт уже согласованного сценария
+
+Если автоматическая доставка из Codex недоступна, уполномоченный оператор может записать уже данное согласие в отдельном терминале. Он сверяет оригинал сообщения и показанный перед ним сценарий в Codex с активным `script` gate, полными байтами сценария и его SHA-256. Тип `userMessage` из истории сам по себе не удостоверяет автора. Запись `historical_codex_chat_observation` служит указателем для сверки: `thread_id`, `approval_message_id`, `approval_turn_started_at`, `approval_message`, `run_id`, `artifact_id`, `artifact_sha256`. Оператор проверяет каждый указатель по исходному чату и состоянию выпуска.
+
+Один раз на доверенной стороне запустить `python scripts/operator_script_approval.py init-key --key OPERATOR_KEY` в окружении с установленным ytvideos. Команда запрашивает пароль в терминале, сохраняет закрытый ключ в зашифрованном файле и выводит публичный ключ Ed25519. Закрытый ключ и пароль принадлежат оператору и хранятся вне Git и окружения workers. Если у production host уже настроен доверенный ключ, использовать его по правилам этого host. Передать worker только публичный ключ через `YTV_APPROVAL_PUBLIC_KEY`.
+
+```bash
+python scripts/operator_script_approval.py sign --key OPERATOR_KEY \
+  --observation OBSERVATION_JSON --script EXACT_SCRIPT --actor OPERATOR_ID --output EVENT_FILE
+ytv --project-root PINNED_PROJECT_ROOT approve --event EVENT_FILE
+ytv --project-root PINNED_PROJECT_ROOT next --run RUN_ID
+```
+
+`sign` проверяет байты сценария и показывает целевой выпуск, хеш и текст сообщения. `RECORD` означает перенос уже принятого решения после ручной сверки. Файл выдаётся для `script` и `produce_video`; повторный импорт того же сообщения использует тот же event ID. Для активного выпуска использовать его прежние DB, workspace и закреплённый checkout. Ручной импорт сценария не подключает автоматическую доставку из Codex.
+
 `resume --run RUN_ID` восстанавливает сохранённую работу. `revise --run RUN_ID --task TASK_ID --reason TEXT` обновляет затронутую область/зависимости. `cancel --run RUN_ID --reason TEXT` запрещает новые действия; in-flight outcomes остаются для reconcile.
 
 Истёкший external claim без recorded operation безопасно возвращается в pending с освобождением reservation. При recorded dispatch флаг `fail --known-not-sent` не заменяет provider reconciliation. `reconcile-task --run RUN_ID --task TASK_ID --worker WORKER_ID --outcome completed --evidence REF` принимает существующий результат после сверки всех операций попытки; для доказанного отсутствия внешнего эффекта указать outcome `not_performed`. Claim для existing completed result позволяет принять сохранённый результат, но не отправить новый запрос.
