@@ -16,7 +16,7 @@
 **EN end→start:**
 ```text
 But most of the cargo was already gone. Thirty years of tides had carried it out to sea.
-They had solved the mystery, not the pollution. On the next cleanup, Garfield was still there.
+They had solved the mystery, not the pollution. At the next cleanup, the same strange sight greeted them:
 An orange Garfield telephone washed up on a beach in France.
 Then another. And another. It kept happening for more than thirty years.
 ```
@@ -24,7 +24,7 @@ Then another. And another. It kept happening for more than thirty years.
 **RU end→start:**
 ```text
 Но большая часть груза уже исчезла. За тридцать лет приливы унесли её в море.
-Они раскрыли тайну, но не избавились от загрязнения. На следующей уборке Гарфилд снова был на пляже.
+Они раскрыли тайну, но не избавились от загрязнения. На следующей уборке их ждала та же странная картина:
 На французский пляж вынесло оранжевый телефон в виде Гарфилда.
 Потом ещё один. И ещё. Так продолжалось больше тридцати лет.
 ```
@@ -41,3 +41,13 @@ Then another. And another. It kept happening for more than thirty years.
 
 ## Проверка после первого чтения
 В отсутствие внешнего независимого reviewer нет отдельного first-listener verdict. Источники и сильнейшая альтернатива перечислены в `research.md`; их не использовали как подсказку фиктивному reviewer. Художественное принятие владельцем: UNVERIFIED.
+
+## 2026-11-13 — exact Shorts seam / source-frame correction
+
+Previous ending only returned to the phone thematically. A cold replay could feel like the narrator starting over. Now the last sentence explicitly introduces the familiar discovery shown in the first line:
+
+**EN:** They had solved the mystery, not the pollution. At the next cleanup, the same strange sight greeted them: An orange Garfield telephone washed up on a beach in France.
+
+**RU:** Они раскрыли тайну, но не избавились от загрязнения. На следующей уборке их ждала та же странная картина: На французский пляж вынесло оранжевый телефон в виде Гарфилда.
+
+S014 is now **planned to reuse** the exact approved S001 paper artwork and matching whole-frame final/start crop; no redundant independent final image. Full repeated listen, independent reviewer, TTS/music/subtitle/AV seam remain **UNVERIFIED**. The factual resolution that the plastic pollution continued is unchanged. This remains an unregistered editorial candidate, not an approved production stage.

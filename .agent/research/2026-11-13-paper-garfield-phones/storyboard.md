@@ -145,18 +145,18 @@
 **Темп:** одна новая композиция ≈4–6 секунд, уточнить только после одобренного TTS.
 
 ## S014
-**Narration EN:** They had solved the mystery, not the pollution. On the next cleanup, Garfield was still there.
+**Narration EN:** They had solved the mystery, not the pollution. At the next cleanup, the same strange sight greeted them:
 
-**Narration_ru RU:** Они раскрыли тайну, но не избавились от загрязнения. На следующей уборке Гарфилд снова был на пляже.
+**Narration_ru RU:** Они раскрыли тайну, но не избавились от загрязнения. На следующей уборке их ждала та же странная картина:
 
 **Функция кадра:** Отдача и новый смысл первого кадра: причину нашли, последствия продолжаются.
 
-**AI-image prompt (independent, 9:16):** Vertical 9:16 one full-bleed layered handmade-paper Brittany beach scene, close ground-level orange Garfield telephone fragment in incoming tidal wash while a distant realistic paper cleanup volunteer collects other debris, coastline geometry and orange appearance echo opening shot without copying it, understated melancholy not horror, coherent physical light, fibrous card dunes, believable wave foam and shadows, no caption, border or montage.
+**Image plan / reuse, 9:16:** Do not generate a second image. Reuse the exact accepted original S001 full-frame handmade paper beach diorama, with the intact orange Garfield telephone emerging from the foam, and align S014's final whole-frame camera crop/pose to S001's initial frame. This is a narrative callback, NOT an independent new media asset. Real AV playback and crop have not been verified.
 
-**Темп:** одна новая композиция ≈4–6 секунд, уточнить только после одобренного TTS.
+**Темп:** повторный показ исходного изображения S001 с цельным движением кадра; продолжительность определить только после настоящей TTS и проверки петли.
 
 ## Continuity / ограничения
 - Оранжевый Garfield — старый **проводной стационарный** телефон, не мобильный; размеры/дизайн и география Бретани сохраняются. Изображения воссоздают события художественно, не предъявляются как архивная фотография.
 - S004: бумажный самолётик Paper Detour в корзине — брендовое камео, не исторический предмет/событие. Перед production получить и сверить оригинальный PNG reference `channels/paper_detour/brand/References/paper_plane_20261112/scene_sample.png` SHA-256 `36dedf45786bcdfa54fd28c00179b1ea9335ec769d94066beaa0b94c797e933d`; actual pixels в текущем host **UNVERIFIED**.
-- S014 образ волны и находки на берегу связывает будущую склейку с S001; AV seam **UNVERIFIED** до работы с реальным звуком и точными композициями. Не генерировать отдельное финальное изображение как дублирование первого без прочтения сценария.
+- S014 намеренно повторяет **тот же самый утверждённый исходный кадр S001** без новой генерации; последний crop/pose должен совпасть с первым, а EN/RU narration образуют точный смысловой переход. AV seam **UNVERIFIED** до фактического MP4.
 - Материальность Paper: полные края кадра, физическая толщина вырезок, бумажные волокна, контактные тени. Нет фотографических людей, плоского vector, отдельной рамки или вшитых сабов. Обязательный scene image/thumbnail reference media в этом host не открыты; до выпуска получить фактические файлы из хранилища.
