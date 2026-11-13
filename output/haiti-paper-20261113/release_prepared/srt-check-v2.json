@@ -1,0 +1,173 @@
+{
+  "structure": "PASS",
+  "text_coverage": "PASS",
+  "timing_mapping": "UNVERIFIED",
+  "playback": "UNVERIFIED",
+  "readability": "N_A",
+  "limits": {},
+  "errors": [],
+  "warnings": [],
+  "cues": [
+    {
+      "cue": 1,
+      "lines": 1,
+      "longest_line": 49,
+      "duration_seconds": 2.618,
+      "characters_per_second": 18.716577540106954
+    },
+    {
+      "cue": 2,
+      "lines": 1,
+      "longest_line": 38,
+      "duration_seconds": 1.883,
+      "characters_per_second": 20.1805629314923
+    },
+    {
+      "cue": 3,
+      "lines": 1,
+      "longest_line": 11,
+      "duration_seconds": 0.873,
+      "characters_per_second": 12.600229095074456
+    },
+    {
+      "cue": 4,
+      "lines": 1,
+      "longest_line": 42,
+      "duration_seconds": 1.831,
+      "characters_per_second": 22.938285090114693
+    },
+    {
+      "cue": 5,
+      "lines": 1,
+      "longest_line": 33,
+      "duration_seconds": 1.407,
+      "characters_per_second": 23.454157782515992
+    },
+    {
+      "cue": 6,
+      "lines": 1,
+      "longest_line": 15,
+      "duration_seconds": 0.674,
+      "characters_per_second": 22.255192878338278
+    },
+    {
+      "cue": 7,
+      "lines": 1,
+      "longest_line": 38,
+      "duration_seconds": 1.604,
+      "characters_per_second": 23.69077306733167
+    },
+    {
+      "cue": 8,
+      "lines": 1,
+      "longest_line": 50,
+      "duration_seconds": 2.747,
+      "characters_per_second": 18.201674554058975
+    },
+    {
+      "cue": 9,
+      "lines": 1,
+      "longest_line": 15,
+      "duration_seconds": 0.816,
+      "characters_per_second": 18.38235294117647
+    },
+    {
+      "cue": 10,
+      "lines": 1,
+      "longest_line": 54,
+      "duration_seconds": 2.794,
+      "characters_per_second": 19.327129563350034
+    },
+    {
+      "cue": 11,
+      "lines": 1,
+      "longest_line": 49,
+      "duration_seconds": 3.3,
+      "characters_per_second": 14.84848484848485
+    },
+    {
+      "cue": 12,
+      "lines": 1,
+      "longest_line": 42,
+      "duration_seconds": 2.6,
+      "characters_per_second": 16.153846153846153
+    },
+    {
+      "cue": 13,
+      "lines": 1,
+      "longest_line": 6,
+      "duration_seconds": 0.673,
+      "characters_per_second": 8.915304606240714
+    },
+    {
+      "cue": 14,
+      "lines": 1,
+      "longest_line": 38,
+      "duration_seconds": 2.162,
+      "characters_per_second": 17.576318223866792
+    },
+    {
+      "cue": 15,
+      "lines": 1,
+      "longest_line": 32,
+      "duration_seconds": 2.274,
+      "characters_per_second": 14.07211961301671
+    },
+    {
+      "cue": 16,
+      "lines": 1,
+      "longest_line": 43,
+      "duration_seconds": 1.891,
+      "characters_per_second": 22.739291380222106
+    },
+    {
+      "cue": 17,
+      "lines": 1,
+      "longest_line": 39,
+      "duration_seconds": 1.987,
+      "characters_per_second": 19.627579265223954
+    },
+    {
+      "cue": 18,
+      "lines": 1,
+      "longest_line": 26,
+      "duration_seconds": 1.144,
+      "characters_per_second": 22.72727272727273
+    },
+    {
+      "cue": 19,
+      "lines": 1,
+      "longest_line": 22,
+      "duration_seconds": 1.587,
+      "characters_per_second": 13.862633900441084
+    },
+    {
+      "cue": 20,
+      "lines": 1,
+      "longest_line": 51,
+      "duration_seconds": 1.94,
+      "characters_per_second": 26.288659793814432
+    },
+    {
+      "cue": 21,
+      "lines": 1,
+      "longest_line": 48,
+      "duration_seconds": 2.298,
+      "characters_per_second": 20.887728459530027
+    }
+  ],
+  "limits_note": "Readability metrics do not verify semantic breaks, player layout or hearing sync.",
+  "timebase": "final",
+  "duration_seconds": "43.433333",
+  "inputs": {
+    "text": {
+      "path": ".ytvideos/artifacts/sha256/bf/bf753636682dc9884440cd7e98753ee391236e99998f43258824bf5d7c0cb7f5",
+      "sha256": "bf753636682dc9884440cd7e98753ee391236e99998f43258824bf5d7c0cb7f5"
+    },
+    "validate": {
+      "path": "output/haiti-paper-20261113/release_prepared/captions.en.srt",
+      "sha256": "dffe9cf82159ee7e52c5b3718bf7f1abaf3bc637202d080b9c573f4e335346a5"
+    }
+  },
+  "result": "MACHINE_CHECKED"
+}

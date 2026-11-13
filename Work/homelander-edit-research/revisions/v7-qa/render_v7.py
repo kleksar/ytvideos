@@ -1,0 +1,6 @@
+import subprocess,json
+from pathlib import Path
+r=Path('/Users/diplomat/ytvideos/Work/homelander-edit-research/revisions');p=json.loads((r/'v6-qa/B-plan-v6.json').read_text());old=r/'homelander_B_v6_variety.mp4';src=Path.home()/'Downloads/RESULT_Пацаны 04.mp4';out=r/'homelander_B_v7_music_end.mp4';music=p['music'];start=p['song_beat']-.5
+filters=f"[0:v]trim=duration=18.958,setpts=PTS-STARTPTS,fps=24,setsar=1,format=yuv420p[v0];[1:v]trim=duration=1.5,setpts=PTS-STARTPTS,fps=24,crop=ih*9/16:ih:x='min(max(iw*0.39-ow/2,0),iw-ow)':y=0,scale=1080:1920,setsar=1,format=yuv420p[v1];[v0][v1]xfade=transition=fade:duration=0.12:offset=18.8,trim=duration=20.208333[v];[0:a]atrim=0:5.5,asetpts=PTS-STARTPTS[old];[2:a]atrim=start={start}:duration=14.708333,asetpts=PTS-STARTPTS,afade=t=in:st=0:d=0.5,adelay=5500|5500[new];[old][new]amix=inputs=2:duration=longest:normalize=0,atrim=duration=20.208333,afade=t=out:st=19.45:d=0.758333[a]"
+cmd=['ffmpeg','-v','error','-filter_complex_threads','2','-i',str(old),'-ss','2169.2','-i',str(src),'-i',music,'-filter_complex',filters,'-map','[v]','-map','[a]','-c:v','libx264','-preset','veryfast','-crf','18','-r','24','-c:a','aac','-b:a','192k','-ar','48000','-ac','2','-colorspace','bt709','-color_primaries','bt709','-color_trc','bt709','-movflags','+faststart','-y',str(out)]
+subprocess.run(cmd,check=True);print(out)
