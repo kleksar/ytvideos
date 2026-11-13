@@ -1,0 +1,36 @@
+{
+  "hash_algorithm": "SHA-256",
+  "hashes_obtained_from": "bytes read directly from each listed file during this task",
+  "files": [
+    {
+      "path": "/workspace/scratch/98a321085278/mr-source/work/AGENTS.md",
+      "sha256": "b2febe0aa32b8ebeebf0a9d4dcc994a452c04e629e294014c1d64ffd542cceba",
+      "role": "project_instructions"
+    },
+    {
+      "path": "/workspace/scratch/98a321085278/mr-source/probe/input.json",
+      "sha256": "7613121596508e8ce5c8dbd9b8a6607b8b563fe6b99c0f2f7510ade27d6b1047",
+      "role": "provided_synthetic_data"
+    },
+    {
+      "path": "/workspace/scratch/98a321085278/mr-source/work/channels/paper_detour/channel.json",
+      "sha256": "07ce0082e68f4bd40a113c3a8964f66a369b67e71809787fbfade016e5dad138",
+      "role": "channel_identity_and_format_context"
+    },
+    {
+      "path": "/workspace/scratch/98a321085278/mr-source/work/channels/paper_detour/PROFILE.md",
+      "sha256": "c8c99131c8c74432fbcd191a863e906c19599e26de8717de5b32029a70d9ae45",
+      "role": "channel_editorial_and_visual_profile"
+    },
+    {
+      "path": "/workspace/scratch/98a321085278/mr-source/work/channels/paper_detour/docs/SHORTS_RELEASE_STRATEGY.md",
+      "sha256": "348d1dc6683d23d0944810b083c89a23325113c7387353e762c17e864475d377",
+      "role": "shorts_editorial_policy"
+    },
+    {
+      "path": "/workspace/scratch/98a321085278/mr-source/work/docs/workflow.md",
+      "sha256": "092939967e6dca20baef13fcf6bf5430a385d541933b8ef5de23c02a70926be5",
+      "role": "workflow_scope_context"
+    }
+  ]
+}

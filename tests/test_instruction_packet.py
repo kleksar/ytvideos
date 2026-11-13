@@ -72,6 +72,40 @@ class InstructionPacketTests(unittest.TestCase):
         self.assertIn('docs/operations/thumbnail-contract.md', packet['references'])
         self.assertNotIn('docs/operations/thumbnail-experiments.md', packet['references'])
 
+    def test_retention_gets_complete_read_only_instructions_without_a_production_stage(self):
+        packet = self.packet(stage='retention', format='short')
+        self.assertEqual(packet['skill']['name'], 'ytv-operate')
+        required = (TASK_EXECUTION_REFERENCE, 'docs/standards/editorial.md',
+                    '.agents/skills/ytv-operate/references/shorts-retention.md',
+                    'channels/manual_channel/PROFILE.md')
+        for path in required:
+            self.assertIn(path, packet['read_next'])
+            document = next(item for item in packet['reference_documents'] if item['path'] == path)
+            self.assertEqual(document['text'], (self.root / path).read_text())
+            self.assertEqual(document['sha256'], file_digest(self.root / path))
+        snapshot = snapshot_references(self.root, {'id': 'manual_channel'}, 'short')
+        self.assertNotIn('retention', STAGE_REFERENCES)
+        self.assertNotIn('retention', snapshot['routes'])
+        self.assertNotIn(required[2], snapshot['documents'])
+
+    def test_retention_rejects_long_format(self):
+        with self.assertRaisesRegex(WorkflowError, 'retention.*short'):
+            self.packet(stage='retention', format='long')
+
+    def test_retention_requires_its_reference_and_one_operate_skill(self):
+        path = self.root / '.agents/skills/ytv-operate/references/shorts-retention.md'
+        original = path.read_text()
+        path.unlink()
+        with self.assertRaisesRegex(WorkflowError, 'missing.*shorts-retention'):
+            self.packet(stage='retention', format='short')
+        path.write_text(original)
+        catalog_path = self.root / '.agent/skill-catalog.json'
+        catalog = json.loads(catalog_path.read_text())
+        catalog['skills'].append(next(item for item in catalog['skills'] if item['name'] == 'ytv-operate'))
+        catalog_path.write_text(json.dumps(catalog))
+        with self.assertRaisesRegex(WorkflowError, 'exactly one skill'):
+            self.packet(stage='retention', format='short')
+
     def test_missing_blank_or_escaping_rules_never_return_an_incomplete_packet(self):
         path = self.root / 'docs/standards/thumbnails.md'
         original = path.read_text()
@@ -119,13 +153,15 @@ class InstructionPacketTests(unittest.TestCase):
                 self.packet()
 
     def test_cli_does_not_open_a_store_or_create_workspace(self):
-        output, errors = io.StringIO(), io.StringIO()
-        with patch('ytvideos.cli.Store', side_effect=AssertionError('Must not open a store')), \
-                redirect_stdout(output), redirect_stderr(errors):
-            code = main(['--project-root', str(self.root), '--db', str(self.root / 'state.sqlite'),
-                         '--workspace', str(self.root / 'workspace'), 'instructions',
-                         '--channel', 'manual_channel', '--format', 'long', '--stage', 'packaging'])
-        self.assertEqual(code, 0, errors.getvalue())
-        self.assertEqual(json.loads(output.getvalue())['scope'], 'instructions_only')
-        self.assertFalse((self.root / 'workspace').exists())
-        self.assertFalse((self.root / 'state.sqlite').exists())
+        for stage, format in (('packaging', 'long'), ('retention', 'short')):
+            output, errors = io.StringIO(), io.StringIO()
+            with self.subTest(stage=stage), \
+                    patch('ytvideos.cli.Store', side_effect=AssertionError('Must not open a store')), \
+                    redirect_stdout(output), redirect_stderr(errors):
+                code = main(['--project-root', str(self.root), '--db', str(self.root / 'state.sqlite'),
+                             '--workspace', str(self.root / 'workspace'), 'instructions',
+                             '--channel', 'manual_channel', '--format', format, '--stage', stage])
+                self.assertEqual(code, 0, errors.getvalue())
+                self.assertEqual(json.loads(output.getvalue())['scope'], 'instructions_only')
+                self.assertFalse((self.root / 'workspace').exists())
+                self.assertFalse((self.root / 'state.sqlite').exists())

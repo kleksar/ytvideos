@@ -1,0 +1,81 @@
+{
+  "executions": [
+    {
+      "argv": [
+        "python",
+        "-m",
+        "ytvideos",
+        "instructions",
+        "--channel",
+        "UCxxxxxxxxxxxxxxxxxxxxxx",
+        "--stage",
+        "retention",
+        "--format",
+        "short"
+      ],
+      "cwd": "/workspace/scratch/98a321085278/mr-source/work",
+      "exit_code": 2,
+      "stdout": "{\"error\": \"WorkflowError\", \"message\": \"channel must name an existing channel directory\"}\n",
+      "stderr": "",
+      "command_environment": "PYTHONPATH=/workspace/scratch/98a321085278/mr-source/work/src"
+    },
+    {
+      "argv": [
+        "python",
+        "-m",
+        "ytvideos",
+        "instructions",
+        "--channel",
+        "paper_detour",
+        "--stage",
+        "retention",
+        "--format",
+        "short"
+      ],
+      "cwd": "/workspace/scratch/98a321085278/mr-source/work",
+      "exit_code": 0,
+      "stdout_path": "/workspace/scratch/98a321085278/mr-source/probe-candidate/instructions-output.json",
+      "stderr": "",
+      "command_environment": "PYTHONPATH=/workspace/scratch/98a321085278/mr-source/work/src"
+    },
+    {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "ytvideos",
+        "instructions",
+        "--channel",
+        "paper_detour",
+        "--stage",
+        "retention",
+        "--format",
+        "short"
+      ],
+      "cwd": "/workspace/scratch/98a321085278/mr-source/work",
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python: No module named ytvideos\n",
+      "command_environment": "inherited environment without PYTHONPATH"
+    },
+    {
+      "argv": [
+        "python",
+        "-m",
+        "ytvideos",
+        "instructions",
+        "--channel",
+        "paper_detour",
+        "--stage",
+        "retention",
+        "--format",
+        "short"
+      ],
+      "cwd": "/workspace/scratch/98a321085278/mr-source/work",
+      "exit_code": 0,
+      "stdout_path": "/tmp/packet.json",
+      "stderr": "",
+      "command_environment": "PYTHONPATH=/workspace/scratch/98a321085278/mr-source/work/src"
+    }
+  ],
+  "stdout_note": "Successful instructions stdout is preserved verbatim in instructions-output.json; it is the full 59,798-character response from the successful captured subprocess execution."
+}

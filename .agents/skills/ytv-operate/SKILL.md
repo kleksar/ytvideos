@@ -9,7 +9,7 @@ description: "Inspect or recover saved ytvideos runs, leases, blockers, uncertai
 
 CLI и точные outputs/receipts: [task contract](../../../docs/operations/task-contract.md).
 
-Для запроса о результатах опубликованного Short прочитать и выполнить [разбор удержания](references/shorts-retention.md): реальные данные → конкретный участок → гипотеза → следующий опыт. Этот read-only разбор не требует нового run; при отсутствии данных выполнить доступную часть и назвать точный пробел. Передать сохранённое наблюдение следующему research явно по ID/path.
+Для запроса о результатах опубликованного Short получить `ytv instructions --channel CHANNEL_ID --stage retention --format short` и прочитать полный skill и все `reference_documents`. Выполнить [разбор удержания](references/shorts-retention.md): реальные данные → конкретный участок → гипотеза → следующий опыт. Этот read-only разбор не требует нового run; при отсутствии данных выполнить доступную часть и назвать точный пробел. Передать сохранённое наблюдение следующему research явно по ID/path.
 
 Для управления существующим run прочитать `status` и `next`, его version pins, leases, blockers и pending/UNKNOWN external operations. Для миграции читать [migration](../../../docs/migration.md); для хранения — [storage](../../../docs/standards/storage.md); для capabilities — [runtime](../../../docs/operations/runtime.md).
 
