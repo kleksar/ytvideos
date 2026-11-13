@@ -1,6 +1,8 @@
-# Главред Борисенко — профиль редакционной упаковки
+# Главред Борисенко — профиль канала
 
 Канал: [@GlavredBorisenko](https://www.youtube.com/@GlavredBorisenko), YouTube channel ID `UCjOlDLVEHU4uLhDtonq-y5w`. Перед внешними изменениями сверять канал и текущие права доступа. Это профиль для ручной работы с существующими роликами, а не подключённый ChannelSpec или разрешение на автоматическую публикацию. Общие правила и проверки — [release](../../docs/standards/release.md), [thumbnails](../../docs/standards/thumbnails.md).
+
+Монтаж из длинных выпусков и стримов — [Shorts из исходных видео](SHORTS.md).
 
 ## Обложки
 
