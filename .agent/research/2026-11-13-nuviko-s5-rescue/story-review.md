@@ -1,3 +1,5 @@
+**REVISION B IS CURRENT; ORIGINAL EVALUATION BELOW APPLIES TO BASELINE A ONLY.** For exact current EN/RU text and new loop use `script.*.txt` and the experiment B section at the end. Any A verdict, timing or old text seam MUST NOT be attached to B as independent evidence. This is an unregistered editorial candidate.
+
 # Story review — USS S-5 (Nuviko History Short)
 
 **Status:** Owner script approval NOT_RECEIVED. **Authorial plot/fact check:** PASS with caveats. **Independent first-listener:** UNVERIFIED, not run. **Independent EN/RU review:** UNVERIFIED. **Audience demand/retention:** UNVERIFIED. **Images, TTS, MP4:** NOT_STARTED.
@@ -27,7 +29,7 @@ Why was a white shirt waving above the sea, and could that signal save 38 sailor
 - PASS: 14 EN paragraphs and 14 RU paragraphs correspond to matching scene narration; short text-only semantic loop ends after payoff.
 - CAUTION: Navy sources differ on depth (180 vs 194ft). Script intentionally says almost sixty metres rather than claiming exact measurement.
 - CAUTION: White T-shirt, two missed ships and phrase detail from U.S. Naval Institute retrospective; original article read, contemporary archival transcript not independently checked. Quote should not be treated as authentic audio.
-- CAUTION: The planned 14 shots total approximately 76 seconds but EN narration has 241 words. Actual voice duration may require re-cutting/more distinct compositions or cutting text. Do not speed narration arbitrarily and do not expand a weak idea for scene count.
+- HISTORICAL BASELINE A CAUTION: The original 14 scene grid was estimated at 76 seconds; that is not measured voice. Revised B uses a different word count and requires actual TTS timing and scene re-cutting, not automatic 76-second inheritance.
 - UNVERIFIED: Whether a cold first listener wants to keep watching, how easy the timeline is to follow, and whether the final salvage twist improves or weakens the ending.
 - UNVERIFIED: Original traveler PNG bytes, source image licensing, visual geometry, actual voice, English SRT and the MP4 seam.
 

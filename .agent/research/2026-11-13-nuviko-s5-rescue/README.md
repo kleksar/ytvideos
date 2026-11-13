@@ -14,7 +14,7 @@
 
 - [research.md](research.md) — ten separate candidate stories, three detailed finalists, primary source matrix, audience-interest rationale and uncertainty.
 - [script.ru.txt](script.ru.txt) — exact full Russian editorial reading copy.
-- [script.en.txt](script.en.txt) — English narration master proposal (241 words; NOT TTS-measured).
+- [script.en.txt](script.en.txt) — English narration master proposal (current experiment B: approximately 248 EN words; NOT TTS-measured; original A kept in experiment/).
 - [story-review.md](story-review.md) — attention/causality/accuracy checks, honest UNVERIFIED independent listener.
 - [storyboard.json](storyboard.json) — 14 preliminary 9:16 photographic scenes, EN/RU per scene, one external 2D Nuviko guide at S005, S014 visual loop reusing S001; 76-second grid only.
 - [packaging-brief.md](packaging-brief.md) — three alternative truthful title and thumbnail promises.
