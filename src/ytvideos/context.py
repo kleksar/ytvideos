@@ -11,6 +11,7 @@ from .util import digest
 
 
 TASK_EXECUTION_REFERENCE = ".agents/skills/ytv-start/references/task-execution.md"
+VIDEO_CLIPS_REFERENCE = ".agents/skills/ytv-produce-video/references/video-clips.md"
 
 
 STAGE_REFERENCES = {
@@ -18,16 +19,16 @@ STAGE_REFERENCES = {
                  ".agents/skills/ytv-write-script/references/hook-patterns.md"],
     "script": ["docs/standards/editorial.md", "docs/standards/narration.md", "docs/standards/thumbnails.md",
                ".agents/skills/ytv-write-script/references/hook-patterns.md"],
-    "storyboard": ["docs/standards/visual.md",
+    "storyboard": ["docs/standards/visual.md", ".agents/skills/ytv-produce-video/references/video-clips.md",
                    ".agents/skills/ytv-produce-video/references/production-examples.md"],
-    "scene_image": ["docs/standards/visual.md",
+    "scene_image": ["docs/standards/visual.md", ".agents/skills/ytv-produce-video/references/video-clips.md",
                     ".agents/skills/ytv-produce-video/references/production-examples.md"],
     "audio": ["docs/standards/audio.md",
               ".agents/skills/ytv-produce-video/references/production-examples.md"],
     "subtitles": ["docs/standards/audio.md", "docs/standards/delivery.md"],
-    "render": ["docs/standards/delivery.md", "docs/standards/visual.md", "docs/standards/audio.md",
+    "render": ["docs/standards/delivery.md", "docs/standards/visual.md", "docs/standards/audio.md", ".agents/skills/ytv-produce-video/references/video-clips.md",
                ".agents/skills/ytv-produce-video/references/production-examples.md"],
-    "review": ["docs/standards/delivery.md", "docs/standards/visual.md", "docs/standards/audio.md",
+    "review": ["docs/standards/delivery.md", "docs/standards/visual.md", "docs/standards/audio.md", ".agents/skills/ytv-produce-video/references/video-clips.md",
                "docs/standards/editorial.md", "docs/standards/narration.md", "docs/standards/thumbnails.md"],
     "packaging": ["docs/standards/release.md", "docs/standards/thumbnails.md", "docs/standards/visual.md",
                   "docs/operations/thumbnail-contract.md"],
@@ -79,6 +80,7 @@ def task_references(task, *, profile=None, format=None, project_root=None):
     paths = [TASK_EXECUTION_REFERENCE, *STAGE_REFERENCES.get(stage, [])]
     purpose = task.get("payload", {}).get("purpose", "scene") if stage == "scene_image" else None
     if stage == "scene_image" and purpose == "thumbnail":
+        paths.remove(VIDEO_CLIPS_REFERENCE)
         paths.extend(["docs/standards/thumbnails.md", "docs/operations/thumbnail-contract.md"])
     # The production skill requires the accepted Shorts loop at these stages.
     if format == "short" and stage in {"storyboard", "audio", "render"}:
@@ -150,6 +152,40 @@ def validate_documents(paths, documents):
     if set(paths) != set(by_path):
         raise WorkflowError("task reference manifest is incomplete")
     return [by_path[reference_path(path)] for path in paths]
+
+
+def validate_reference_routes(snapshot, profile, format):
+    """Require the routes implemented by this code without replacing saved texts.
+
+    A matching snapshot hash proves identity, not compatibility after a migration.
+    Required paths come from this checkout's selector and the pinned profile, never
+    from current file contents. Extra historical references remain valid.
+    """
+    if (not isinstance(snapshot, dict) or not isinstance(snapshot.get("routes"), dict)
+            or not isinstance(snapshot.get("documents"), dict)):
+        raise WorkflowError("invalid pinned task reference routes")
+    tasks = [{"stage": stage} for stage in STAGE_REFERENCES]
+    tasks.append({"stage": "scene_image", "payload": {"purpose": "thumbnail"}})
+    for task in tasks:
+        route = _route(task)
+        paths = snapshot["routes"].get(route)
+        if not isinstance(paths, list) or any(not isinstance(path, str) for path in paths):
+            raise WorkflowError(f"invalid pinned task reference route: {route}")
+        required = task_references(task, profile=profile, format=format)
+        # The selector automatically includes an existing channel PROFILE even
+        # without an explicit profile declaration. Preserve that saved binding
+        # without reading a newer checkout's profile or inventing one for a
+        # generic profile that never had such a document.
+        channel_profile = f"channels/{profile['id']}/PROFILE.md"
+        if channel_profile in snapshot["documents"]:
+            required.append(channel_profile)
+        missing = sorted(set(required) - set(paths))
+        if missing:
+            raise WorkflowError(f"pinned task reference route {route} is incompatible with this code; "
+                                f"explicit migration must supply: {', '.join(missing)}")
+        if any(path not in snapshot["documents"] for path in paths):
+            raise WorkflowError(f"pinned task reference route {route} has missing documents")
+        validate_documents(paths, [snapshot["documents"][path] for path in paths])
 
 
 def reference_context(run, task, project_root):

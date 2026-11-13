@@ -38,11 +38,15 @@ class FragmentReviewTests(unittest.TestCase):
             anchors = [points[0], min(points, key=lambda value: (abs(value - (source["start_seconds"] + source["end_seconds"]) / 2), value)), points[-1]]
             self.sources.append({"id": scene["id"], "clip_sha256": scene["clip_sha256"], "source_sha256": source["sha256"],
                                  "start_seconds": source["start_seconds"], "end_seconds": source["end_seconds"],
+                                 "source_probe": {"duration_seconds": 2., "video": [{}]},
                                  "source_anchors_seconds": anchors})
             rows.append({"id": scene["id"], "source": copy.deepcopy(source), "clip_sha256": scene["clip_sha256"],
                 "timeline": {key: scene[key] for key in ("start_frame", "end_frame", "visible_start_frame", "visible_end_frame")},
                 "crop": copy.deepcopy(scene["crop"]), "method": "Synthetic complete-motion coverage fixture; no human perception asserted.",
+                "source_inspection": {"mode": "video_playback", "tool": "synthetic fixture", "playback_speed": 1},
+                "final_inspection": {"mode": "av_playback", "tool": "synthetic fixture", "playback_speed": 1},
                 "source_coverage": [{"start_seconds": source["start_seconds"], "end_seconds": source["end_seconds"]}],
+                "final_coverage": [{"start_seconds": first / 24, "end_seconds": stop / 24}],
                 "source_anchors_seconds": anchors,
                 "final_anchors_frames": [first, (first + stop - 1) // 2, stop - 1],
                 "checked_transition_frames": sorted({first, scene["start_frame"], scene["end_frame"] - 1, stop - 1}),
@@ -53,7 +57,8 @@ class FragmentReviewTests(unittest.TestCase):
 
     def validate(self, document=None, plan=None, sources=None):
         return validate_fragment_review(document or self.review, plan=plan or self.plan, requirements=self.requirements,
-            media_sha256="a" * 64, reviewer="independent-fixture", sources=sources or self.sources)
+            media_sha256="a" * 64, reviewer="independent-fixture", sources=sources or self.sources,
+            media_probe={"duration_seconds": 1., "video": [{}]})
 
     def test_full_source_intervals_crops_and_transition_overlaps_are_bound(self):
         validate_render_manifest(self.plan, self.requirements)
@@ -76,6 +81,8 @@ class FragmentReviewTests(unittest.TestCase):
     def test_three_stills_partial_interval_and_omitted_transition_do_not_cover_motion(self):
         for field, value in (("source_coverage", []),
                              ("source_coverage", [{"start_seconds": 1., "end_seconds": 1.2}]),
+                             ("final_coverage", []),
+                             ("final_coverage", [{"start_seconds": 0, "end_seconds": .5}]),
                              ("source_anchors_seconds", [1., 1.1, 1.2]),
                              ("checked_transition_frames", [0, 11]),
                              ("final_anchors_frames", [0, 5, 11])):
@@ -83,6 +90,31 @@ class FragmentReviewTests(unittest.TestCase):
             review["fragments"][0][field] = value
             with self.subTest(field=field, value=value), self.assertRaises(WorkflowError):
                 self.validate(review)
+
+    def test_frame_sheets_or_slow_playback_cannot_pass_source_or_final_motion(self):
+        for field in ("source_inspection", "final_inspection"):
+            for inspection in (None, {"mode": "frame_inspection", "tool": "all-frame contact sheet"},
+                               {"mode": "media_probe", "tool": "ffprobe"},
+                               {"mode": "audio_listening", "tool": "fixture", "playback_speed": 1},
+                               {"mode": "video_playback", "tool": "fixture", "playback_speed": .25},
+                               {"mode": "av_playback", "tool": "fixture", "playback_speed": float("nan")},
+                               {"mode": "video_playback", "tool": "fixture"}):
+                review = copy.deepcopy(self.review)
+                review["fragments"][0][field] = inspection
+                with self.subTest(field=field, inspection=inspection), self.assertRaises(WorkflowError):
+                    self.validate(review)
+
+    def test_fragment_intervals_are_bound_to_measured_media(self):
+        for probe in (None, {"duration_seconds": float("inf"), "video": [{}]},
+                      {"duration_seconds": .2, "video": [{}]}, {"duration_seconds": 2., "video": []}):
+            sources = copy.deepcopy(self.sources)
+            sources[0]["source_probe"] = probe
+            with self.subTest(probe=probe), self.assertRaises(WorkflowError):
+                self.validate(sources=sources)
+        with self.assertRaisesRegex(WorkflowError, "measured rendered media"):
+            validate_fragment_review(self.review, plan=self.plan, requirements=self.requirements,
+                media_sha256="a" * 64, reviewer="independent-fixture", sources=self.sources,
+                media_probe={"duration_seconds": .1, "video": [{}]})
 
     def test_changed_crop_source_interval_hash_order_or_render_requires_fresh_review(self):
         for mutate in (lambda value: value["scenes"][0]["crop"]["keyframes"][-1].update(box=[3, 0, 1083, 1920]),
@@ -200,6 +232,7 @@ class FragmentStorageTests(unittest.TestCase):
             plan["scenes"].append(scene)
             observed = copy.deepcopy(row)
             observed.update(id=identity, crop=scene["crop"], final_anchors_frames=[start, (start + stop - 1) // 2, stop - 1],
+                            final_coverage=[{"start_seconds": start / 24, "end_seconds": stop / 24}],
                             checked_transition_frames=[start, stop - 1], timeline={key: scene[key] for key in row["timeline"]})
             document["fragments"].append(observed)
             task_id = "image:" + identity

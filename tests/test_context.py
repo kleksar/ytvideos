@@ -13,6 +13,22 @@ from ytvideos.util import digest
 
 
 class ConfiguredRecipeTests(unittest.TestCase):
+    def test_clip_procedure_is_pinned_across_channels_without_thumbnail_leakage(self):
+        root = Path(__file__).resolve().parents[1]
+        path = ".agents/skills/ytv-produce-video/references/video-clips.md"
+        profiles = [{"id": "generic_unconfigured"}]
+        for channel_file in sorted((root / "channels").glob("*/channel.json")):
+            profiles.append(json.loads(channel_file.read_text()))
+        for profile in profiles:
+            for form in ("short", "long"):
+                snapshot = snapshot_references(root, profile, form)
+                with self.subTest(channel=profile["id"], format=form):
+                    for stage in ("storyboard", "scene_image", "render", "review"):
+                        self.assertIn(path, snapshot["routes"][stage])
+                    for stage in ("thumbnail", "audio", "research", "packaging"):
+                        self.assertNotIn(path, snapshot["routes"][stage])
+                    self.assertEqual(snapshot["documents"][path]["text"], (root / path).read_text())
+
     def test_history_packets_include_the_visual_identity_and_caption_rules(self):
         root = Path(__file__).resolve().parents[1]
         profile = json.loads((root / "channels/nuviko_history/channel.json").read_text())

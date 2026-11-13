@@ -125,6 +125,7 @@ class LicensedSilentLifecycle(unittest.TestCase):
                 evidence = self.write("Synthetic software evidence only; no human listening or live creative QA is claimed.",
                                       task_id + "-" + name + "-observation.txt")
                 observed = {"artifact_sha256": file_digest(media), "reviewer": "test-independent-media-reviewer",
+                            "inspection": {"mode": "av_playback", "tool": "synthetic fixture, no human perception asserted", "playback_speed": 1.0},
                             "notes": "The generated synthetic tone fixture tests complete interval evidence, not real perception.",
                             "coverage": [{"start_seconds": 0, "end_seconds": duration}], "evidence": self.record(evidence)}
             checks.append({"name": name, "status": "pass", "method": "explicit synthetic regression fixture", "observed": observed})
@@ -272,6 +273,9 @@ class CharacterEditLifecycle(LicensedSilentLifecycle):
             row = {"id": scene["id"], "source": scene["source"], "clip_sha256": scene["clip_sha256"], "crop": scene["crop"],
                 "timeline": {key: scene[key] for key in ("start_frame", "end_frame", "visible_start_frame", "visible_end_frame")},
                 "source_coverage": [{"start_seconds": 0, "end_seconds": .5}],
+                "final_coverage": [{"start_seconds": 0, "end_seconds": .5}],
+                "source_inspection": {"mode": "video_playback", "tool": "synthetic fixture", "playback_speed": 1},
+                "final_inspection": {"mode": "av_playback", "tool": "synthetic fixture", "playback_speed": 1},
                 "source_anchors_seconds": [0, .25, 11 / 24], "final_anchors_frames": [0, 5, 11],
                 "checked_transition_frames": [0, 11], "method": "Synthetic complete-motion review fixture only",
                 "checks": {name: {"status": "PASS", "notes": "Synthetic recorded observation, not a real perception claim"}

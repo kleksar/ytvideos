@@ -9,7 +9,10 @@ description: "Produce an approved ytvideos script through AI-generated images an
 
 CLI и точные outputs/receipts: [task contract](../../../docs/operations/task-contract.md).
 
+Видеоклипы всех каналов готовить и проверять по [общей процедуре](references/video-clips.md), начиная до затрат.
+
 Генерация клипов применяется к Shorts. Если в контексте есть [рецепт Flow](../../../channels/paper_detour/docs/FLOW_PRODUCTION.md#выбор-движения), выбрать планы Ingredients по записи и карте слов. Для каждой точной партии до отправки получить [отдельное одобрение внешнего видео](../../../docs/workflow.md#отдельное-одобрение-внешнего-видео) по параметрам из рецепта.
+
 Выполнять только выданный task: `storyboard`, `scene_image`, `audio`, `subtitles` или `render`. Для обычного runtime task прочитать `task_guide`, `production_requirements`, выбранные `reference_documents` и точные inputs/supporting_inputs; проверить actual script approval и lease. Изолированному native worker читать `TASK.json`, `SKILL.md`, `scene`, `channel`, `format`, `required_checks`, файлы `requirements` по `reference_manifest` и артефакты `local_inputs`; coordinator-only поля и workflow CLI ему не нужны. Для узкой правки без run получить `instructions` для текущего stage (обложка — `thumbnail`), прочитать все выданные правила и открыть предоставленные артефакты по общей процедуре. Каталог ссылок не заменяет требования.
 
 | Task | Нужные требования | Выход |

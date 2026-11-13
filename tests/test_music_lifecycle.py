@@ -51,6 +51,7 @@ class MusicLifecycleTests(unittest.TestCase):
                 evidence = write(self.state.directory / (task_id + "-" + check["name"] + "-observation.txt"),
                                  "Synthetic evidence for contract/state tests only. No live or human perceptual QA is claimed.")
                 check["observed"] = {"artifact_sha256": file_digest(media), "reviewer": reviewer,
+                                     "inspection": {"mode": "av_playback", "tool": "synthetic fixture, no human perception asserted", "playback_speed": 1.0},
                                      "notes": "The synthetic tone/pattern fixture covers the software contract only.",
                                      "coverage": [{"start_seconds": 0, "end_seconds": probe_media(media)["duration_seconds"]}],
                                      "evidence": file_record(evidence)}

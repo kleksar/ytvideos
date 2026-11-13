@@ -256,7 +256,7 @@ uv run python -m ytvideos attach-artifact --run RUN_ID --file thumbnail-observat
 В существующем `visual_review.observed.evidence` сохранить JSON `ytv-source-fragment-review-v1` с `artifact_sha256` точного финального MP4, тем же `reviewer` и ordered `fragments` — по одной записи на каждый принятый фрагмент. Каждая запись содержит:
 
 - `id`, `clip_sha256`, `source`, `crop` точно из manifest; `timeline` с его `start_frame`, `end_frame`, `visible_start_frame`, `visible_end_frame`.
-- `method` фактического полного просмотра исходного движения, движения в MP4 и проверки стыков; `source_coverage: [{start_seconds,end_seconds}]` покрывает весь использованный исходный интервал, а не только три отдельные картинки.
+- `method` фактического полного просмотра исходного движения, движения в MP4 и проверки стыков; `source_coverage: [{start_seconds,end_seconds}]` покрывает весь использованный исходный интервал, а не только три отдельные картинки. `final_coverage` той же формы покрывает весь видимый интервал фрагмента в секундах финального MP4, включая перекрытия переходов. `source_inspection` и `final_inspection` содержат ровно `mode` (`video_playback` либо `av_playback`), фактический непустой `tool` и `playback_speed: 1`; описание листов кадров в `method` не заменяет воспроизведение.
 - `source_anchors_seconds: [first,middle,last]` — реальные PTS первого использованного кадра, кадра ближайшего к середине source interval и последнего до exclusive end, относительно начала контейнера. Получить их можно через `ytvideos.media_checks.source_frame_anchors(source_path,start_seconds,end_seconds)`: helper читает только ограниченный исходный интервал, учитывает исходный start time, фильтрует кадры до входа после seek и поддерживает VFR. FPS финального ролика не заменяет PTS исходника; при входе между кадрами первый anchor может быть позже source in. `final_anchors_frames` — `[visible_start_frame, floor((visible_start_frame + visible_end_frame - 1)/2), visible_end_frame - 1]`.
 - `checked_transition_frames` — уникальный возрастающий список из `visible_start_frame`, `start_frame`, `end_frame-1`, `visible_end_frame-1`: оба конца и полная видимость переходов. Эти опоры сопровождают просмотр переходов в движении.
 - `checks` с пятью объектами `source_motion`, `crop`, `internal_cuts`, `final_motion`, `transitions`; каждый содержит `status: PASS | FAIL | UNVERIFIED` и конкретные непустые `notes`.
@@ -323,12 +323,19 @@ uv run python -c 'import json,sys; from ytvideos.media_checks import probe_media
   "artifact_sha256": "EXACT_RENDERED_MP4_SHA256",
   "reviewer": "ACTUAL_INDEPENDENT_REVIEWER",
   "notes": "Конкретные наблюдения выполненной проверки",
+  "inspection": {"mode": "av_playback", "tool": "ACTUAL_PLAYER_AND_SESSION_REFERENCE", "playback_speed": 1},
   "coverage": [{"start_seconds": 0, "end_seconds": 43.2}],
   "evidence": {"path": "/absolute/path/to/review-evidence.json", "sha256": "ACTUAL_SHA256"}
 }
 ```
 
 Длительность 43.2 здесь иллюстрирует форму: подставить измеренные intervals этого файла. Coverage `visual_review`, `listening`, `subtitles`, `music`, `motion`, `captions` должен покрывать весь MP4; прочие checks указывают фактически проверенные интервалы. Reviewer и worker final review отличаются от render producer. Evidence bytes проверяются и сохраняются. Если обязательная проверка не выполнена, сохранить findings как `UNVERIFIED` вне успешного completion; не ставить `pass` для обхода gate. Пропуск применимого check нельзя объяснить отсутствием capability: это конкретный blocker его завершения. Отсутствие речи, рамки или optional music проверяется как фактическое соответствие policy, без утверждения о прослушивании несуществующей дорожки.
+
+`observed.inspection` обязателен и описывает реально выполненный метод. Playback-режимы `video_playback`, `audio_listening`, `av_playback` содержат ровно `mode`, непустой `tool` и положительную конечную `playback_speed`; приёмка `motion` требует скорости 1×, замедленный разбор дополняет её. `motion`, `subtitles`, `captions` требуют видео или AV; `listening`, `music`, `no_speech` — аудио или AV. `av_loop` требует совместного `av_playback` на скорости 1×; раздельные картинки и звук не подтверждают аудиовизуальный стык. `media_probe` и `document_inspection` содержат только `mode`/`tool` и не закрывают перцептивные проверки.
+
+`frame_inspection` содержит ровно `mode`, `tool`, `sampling` (`all_frames` или `sampled_frames`), числовой `source_fps`, целый `frame_count`, `inspected_frames` (возрастающие уникальные индексы от 0), `display_size` (фактические ширина/высота отображения кадра). FPS и число кадров сверяются с actual probe точного файла. Coverage описывает просмотренные кадры, а не полный промежуток между редкими выборками. Для `visual_review` нужны все кадры; даже полный лист кадров не закрывает движение, звук и синхронизацию. Свободный `method` поясняет проверку, но не заменяет эти поля. Валидатор проверяет соответствие объявленных данных: он не доказывает, что человек или агент действительно смотрел/слушал.
+
+Новый контракт применяется с соответствующей версией кода и инструкций. Для существующего pinned run требуется штатная [миграция](../migration.md); историческим receipts нельзя дописывать несуществующий просмотр ради прохождения нового check.
 
 ## Receipt
 
