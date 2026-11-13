@@ -9,7 +9,7 @@ CLI и точные outputs/receipts: [task contract](../../../docs/operations/t
 
 Прочитать `status` и `next` нужного run, его version pins, leases, blockers и pending/UNKNOWN external operations. Для миграции читать [migration](../../../docs/migration.md); для хранения — [storage](../../../docs/standards/storage.md); для capabilities — [runtime](../../../docs/operations/runtime.md).
 
-1. Resume восстанавливает состояние из store и artifacts. Не спрашивать заново уже зафиксированное одобрение и не генерировать сохранённый проверенный output ради нового чата.
+1. Resume восстанавливает состояние из store и artifacts. Если явное согласие уже есть в текущей беседе, но gate ещё закрыт, зарегистрировать его штатным `approve` по task contract: тот же показанный artifact/revision, реальное сообщение и стабильная ссылка на него. Не просить повторного согласия, не создавать новый run и не генерировать проверенный output заново.
 2. Проверить, что worker использует закреплённый code/profile/skills. Несовпадение — blocker конкретного run, а не разрешение тихо заменить его правила.
 3. Истёкшую lease возвращать по контракту приложения. Stale worker не может перезаписать текущую revision. UNKNOWN требует reconciliation существующей операции; отсутствие локального ответа не означает, что provider ничего не сделал.
 4. Для очереди контролировать caps, review backlog, fairness, rate-limit cooldown и бюджет. Не открывать дополнительные чаты, если координатор не успевает принимать результаты. Состояние пула сохранять вне сессии.

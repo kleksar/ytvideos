@@ -12,7 +12,7 @@
 - `audio.listen`: доступное реальное прослушивание narration и финального микса. Анализ сигнала/word map не подтверждает эту capability.
 - Workspace/artifact storage, права чтения/записи и доступность нужных immutable inputs.
 - YouTube channel OAuth, API quota и обязательные Studio functions; календарная политика/timezone.
-- Trusted approval host: реальное пользовательское событие, Ed25519 verifier key и обработка replay/target/scope.
+- Approval: по умолчанию локальный координатор записывает явное решение владельца через `approve`, без ключей/hooks. `doctor` показывает `approval.local_session`; при настроенном публичном ключе — signed verifier и состояние внешнего bridge.
 
 Missing release capability не блокирует research/script. Missing image capability не отменяет уже созданный звук. Не превращать отсутствие одного backend в глобальную остановку.
 
@@ -21,6 +21,9 @@ Missing release capability не блокирует research/script. Missing imag
 Перед `pool initialize` сохранить observation `sessions.independent` через `capabilities`: `available: true`, фактический `runtime_key` и целочисленный `max_sessions`. Эти два значения должны точно совпадать с initialize payload; `evidence` указывает источник измерения. Все runs одного runtime используют один key и общий лимит. Новый key не создаёт дополнительную физическую capacity. Billing изображений проверяется отдельно; доступность sessions не означает бесплатную генерацию.
 
 ## Продолжение незавершённого run в локальном Codex
+
+Hooks необязательны и отвечают только за продолжение сессии. Они не регистрируют согласие; отсутствие hook trust не блокирует `approve` или ручное продолжение через `next`.
+
 
 [Project hooks](../../.codex/hooks.json) проверяют попытку завершить конкретную production-сессию. `start` и успешный `resume` связывают run, project, workspace и store с фактическим `CODEX_THREAD_ID`; ответ содержит `session_guard`. Для другого host можно явно передать его настоящий `--session-id` в `start`/`resume` и в `claim` для учёта leases. `status`, `plan`, обычный `create` и `claim` сами binding не создают. Ни один hook не выбирает последний или первый run из общей БД.
 
