@@ -290,8 +290,8 @@ class SessionGuardTests(unittest.TestCase):
         result = subprocess.run(["sh", "-c", command], cwd=strange / "nested", capture_output=True, text=True,
                                 env={**os.environ, "PATH": str(tools) + os.pathsep + os.environ["PATH"]}, check=True)
         arguments = json.loads(result.stdout)
-        self.assertEqual(arguments[arguments.index("--project") + 1], str(strange))
-        self.assertEqual(arguments[-1], str(strange / ".codex" / "hooks" / "entrypoint.py"))
+        self.assertEqual(arguments[arguments.index("--project") + 1], str(strange.resolve()))
+        self.assertEqual(arguments[-1], str(strange.resolve() / ".codex" / "hooks" / "entrypoint.py"))
 
 
 @unittest.skipUnless(os.environ.get("YTV_TEST_POSTGRES_URL"), "requires PostgreSQL integration database")
