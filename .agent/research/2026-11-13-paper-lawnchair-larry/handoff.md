@@ -1,3 +1,7 @@
+## Experimental rewrite A/B — no inherited approval
+
+Root EN/RU scripts now B; untouched A copies: `experiment/baseline.script.en.txt` and `baseline.script.ru.txt`; original HEAD `87cd28b76a4623a50ec7550f5e329bfae3c91caf`. Storyboard descriptions of launch/rope mechanics updated, plus narration in both languages. The original ~70s scene grid is not valid audio for B. Run genuine independent cold reader and exact-voice checks after selecting B; do not reuse a previous script receipt or assume the Wikipedia essay can detect authorship. No media production authorized. [Full experiment](experiment/README.md).
+
 ## Актуализация под текущие production gates
 
 Сверено с remote `main` `96c8fa1573c02e8e7987e272a569bf34f037691e`. Этот текстовый сюжетный пакет создан как preproduction и сам **не является `ytv start` run**. Его `storyboard.json` — предварительная постановка, а не отдельный completed stage; авторское чтение и семантический ring не означают `awaiting_script_approval`.

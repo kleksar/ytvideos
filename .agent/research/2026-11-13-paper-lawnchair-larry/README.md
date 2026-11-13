@@ -1,3 +1,5 @@
+**EXPERIMENT B (2026-11-13):** active narrative draft now revised in both EN/RU; untouched original A at [experiment](experiment/README.md). 14 preliminary scenes and spoken loop synchronized; actual TTS and independent reviewer UNVERIFIED. Not an official `ytv start` script gate.
+
 **Актуализация 96c8fa1573c0:** этот текстовый Draft не `ytv start` run и не production-approved сценарий. До производства нужны независимый `sessions.independent` reader, корректный `awaiting_script_approval` и решение владельца. Визуальная раскадровка расчётная, не законченный stage. [Handoff](handoff.md).
 
 # Paper Detour — Lawnchair Larry (1982) proposed Short

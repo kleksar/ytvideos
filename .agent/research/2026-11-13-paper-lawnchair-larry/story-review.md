@@ -42,3 +42,23 @@ But he gave the lawn chair to a neighborhood kid. Years later, that kid donated 
 Give a new reader S001–S002 only and ask if they'd stay and what answer they expect. Then give the complete exact English narration without beat map or preferred verdict; ask specific swipe sentence, change in expectation and actual payoff. Then require the full narration read twice continuously, with explicit report on the final-to-first seam. After that provide `research.md` source ledger and the Pepsi jet strongest alternative; let reviewer reject the topic. Bilingual reviewer gets both full language masters and factual mapping. Genuine reviewer result must be recorded independently against exact version/hash, not authored from this document.
 
 **Gate:** UNAPPROVED. A Draft PR, code checks or merge do not authorize TTS/video production. Owner and full current workflow approvals remain necessary.
+
+## Natural speech A/B experiment, 2026-11-13
+
+**Baseline A:** unchanged full EN/RU saved under `experiment/`; baseline exact head SHA `87cd28b76a4623a50ec7550f5e329bfae3c91caf` before the rewrite. **B proposed root scripts:** both updated with exact 14-scene narrative alignment, not independently approved.
+
+**Old predictable cadence:** `No engine. No wings. Just...` and abstract narration about exceeding expectations. **New:** one tether cut, second snapped and lift follows immediately. That precise technical action has historical support in Smithsonian Air & Space 2010. We deliberately prefer observable causes to the narrator announcing excitement.
+
+**New specific human detail:** Larry's attributed quip about not merely sitting around from Smithsonian Air & Space 2019; it is retrospective journalistic sourcing, *not* a studio transcript. Russian version adapts the pun, not misrepresents it as a second documented Russian quote.
+
+**EN B final two → first two:** When asked why he'd done it, Larry said, “A man can't just sit around.” He gave the chair to a neighborhood kid, who later donated it to the Smithsonian. But before it reached a museum, airline pilots had looked out and seen this: Sixteen thousand feet above California, a man was drifting in a lawn chair. Forty-two helium balloons held him up. There wasn't a motor anywhere.
+
+**RU B финал → начало:** Когда его спросили, зачем он это сделал, Ларри ответил: «Человек же не может просто сидеть без дела». А кресло подарил соседскому мальчику. Позже тот передал его в Смитсоновский музей. Но до того, как кресло попало в музей, пилоты увидели в небе вот что: На высоте почти пяти километров над Калифорнией летел человек в садовом кресле. Его держали сорок два гелиевых шара. Никакого двигателя.
+
+**Still UNVERIFIED:** independent interest and phonetic review with full double read, bilingual independent parity, actual voice speed, true scene duration, source visual availability, audio/caption/visual MP4 seam, real audience preference. The author's writing comparison is a hypothesis, not evidence that less AI-looking prose gets more views.
+
+### Potential rejection reasons for B
+
+- Added tether mechanism could be hard to follow unless visual S003/S004 makes two ropes to a car plainly visible.
+- The historical quip might distract from the landing payoff, and the museum coda still may be too long for viewers. Independent reader can prefer A or a hybrid.
+- If actual voice duration changes, re-split shot list rather than making a static 14-scene plan a timing requirement. Never fabricate an audio or reviewer receipt.
