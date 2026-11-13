@@ -1,3 +1,12 @@
+## Актуализация под текущие production gates
+
+Сверено с remote `main` `96c8fa1573c02e8e7987e272a569bf34f037691e`. Этот текстовый сюжетный пакет создан как preproduction и сам **не является `ytv start` run**. Его `storyboard.json` — предварительная постановка, а не отдельный completed stage; авторское чтение и семантический ring не означают `awaiting_script_approval`.
+
+После выбора этой истории запустить в локальной среде `uv run ytv start --channel paper_detour --format short --intent 'Проверить неутверждённый сюжет PR #25'`, прочитать `plan_summary`, `read_next` и pinned task documents. В task `research` сохранить verified claims, а в `script` выполнить действительный independent reader (`sessions.independent` / доступный host), проверить полный EN дважды и получить оригинальный `ytv-script-review-v1` с exact script hash. Недоступность reviewer — UNVERIFIED и закрытый script gate; пользовательский script approval нужен до медиа. [Workflow](https://github.com/kleksar/ytvideos/blob/main/docs/workflow.md) · [contract](https://github.com/kleksar/ytvideos/blob/main/docs/operations/task-contract.md).
+
+RU — редакторская копия английского voice master, не отдельный TTS. Source reference файлы/rights, реальные картинки и длительность, AV-петля и результаты YouTube не проверялись. Не допускать подделки reviewer/approval/receipt и не переносить автоматически pins старых выпусков.
+
+---
 # Handoff — text-only new Paper Detour Short
 
 **Remote main SHA checked twice before write:** `96c8fa1573c02e8e7987e272a569bf34f037691e`, tree `a2d08903183e88f5c8b9870cd01ea39bc56f98cb`.

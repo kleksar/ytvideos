@@ -1,3 +1,5 @@
+**Актуализация 96c8fa1573c0:** этот текстовый Draft не `ytv start` run и не production-approved сценарий. До производства нужны независимый `sessions.independent` reader, корректный `awaiting_script_approval` и решение владельца. Визуальная раскадровка расчётная, не законченный stage. [Handoff](handoff.md).
+
 # Paper Detour — Lawnchair Larry (1982) proposed Short
 
 **Russian complete script:** [script.ru.txt](script.ru.txt) · **English narration master:** [script.en.txt](script.en.txt)
