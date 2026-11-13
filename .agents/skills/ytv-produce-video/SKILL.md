@@ -7,7 +7,7 @@ description: "Produce an approved ytvideos script through AI-generated images an
 
 CLI и точные outputs/receipts: [task contract](../../../docs/operations/task-contract.md).
 
-Выполнять только выданный task: `storyboard`, `scene_image`, `audio`, `subtitles` или `render`. Проверить actual script approval, inputs и lease. Читать стандарт, нужный этому task, а не весь производственный архив.
+Выполнять только выданный task: `storyboard`, `scene_image`, `audio`, `subtitles` или `render`. Проверить actual script approval, inputs и lease. Прочитать выбранные `reference_documents`: общий стандарт, профиль и относящийся к формату канальный рецепт. В native worker те же тексты находятся в локальных файлах из `TASK.json.requirements`, с путями и hashes в `reference_manifest`; читать эти файлы. Каталог ссылок не заменяет требования.
 
 | Task | Нужные требования | Выход |
 |---|---|---|
@@ -22,7 +22,7 @@ CLI и точные outputs/receipts: [task contract](../../../docs/operations/t
 1. Проверить доступные tools и нужные assets. Все создаваемые изображения/обложки делать через AI по [visual](../../../docs/standards/visual.md); дефекты исправлять prompt/AI-edit/регенерацией. Использовать профиль, не менять голос/шрифт/стиль ради доступного default. Для licensed clips зарегистрировать source/rights через `attach-artifact` и связать pinned `source_clip` по task contract. Недостающий provider блокирует только свои задачи.
 2. Claim задачу, выполнить её штатным adapter/tool и сохранить фактический outcome. TTS генерирует raw 1,0×; конечную канальную скорость применить один раз по audio standard. Не помечать результат PASS без нужного просмотра/прослушивания или измерения.
 3. Независимые изображения и `thumbnail:*` отдавать общему пулу свежих сессий с наблюдёнными `runtime_key/max_sessions`. Packaging выполняется параллельно по `ytv-release-video`; после его завершения создавать thumbnail tasks. Они не блокируют render или передачу MP4 на review. Для обложки читать [thumbnail standard](../../../docs/standards/thumbnails.md) и переданный brief; не переносить правила рекламной карточки на обычные сцены. Licensed clips готовить доступным host tool; `execute-media` не реализует extraction. Принимать результаты по одному и сразу занимать освободившийся slot; число workers определяет [адаптивная очередь](../../../docs/architecture/adaptive-workers.md).
-4. В каждой новой сценовой сессии передать самодостаточный packet: точная сцена, стиль, references и output schema. Повторное использование slot не означает наследование контекста предыдущей картинки. Не превышать фактические caps/бюджет.
+4. В каждой новой сценовой сессии передать самодостаточный packet: точная сцена, стиль, тексты требований (inline `reference_documents` или материализованные native host файлы) и output schema. Повторное использование slot не означает наследование контекста предыдущей картинки. Не превышать фактические caps/бюджет.
 5. UNKNOWN после отправки сохранить и reconcile; не повторять запрос из другого чата. Operation observation привязать к exact `attempt_id/task_input_hash`. Stale result не применять к новой revision.
 6. Завершить task через контракт: core проверяет реальные media bytes; authored receipt не заменяет decode. Взять `next` и продолжать до MP4, затем передать review exact hash и actual probe. Упаковку готовить параллельно; дополнительное согласование промежуточных картинок/музыки/монтажа не требуется.
 

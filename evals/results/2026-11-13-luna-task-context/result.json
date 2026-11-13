@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-13",
+  "timezone": "Europe/Belgrade",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "high",
+  "fresh_initial_contexts": true,
+  "fork_turns": "none",
+  "fixture_only": true,
+  "purpose": "Observe whether selected pinned channel recipes lead to the correct render plan without inventing unavailable media or performing state/provider mutations.",
+  "harness": "Production.create and context(render) generated genuine isolated local fixture runs. No completed tasks, accepted scripts, fake approval envelopes or media were seeded. Agents were instructed to plan only, not execute render or change state. Coordinator subsequently inspected exact saved plans and document hashes.",
+  "case_prompts": {
+    "character": "Используй @ytv-produce-video из <repo>/.agents/skills/ytv-produce-video/SKILL.md. Мне нужен план монтажа короткого персонажного эдита Scenes on Repeat с удерживающим вступлением. Контекст текущей задачи сохранён в <case>/render-context.json. Сейчас составь только конкретный план и список недостающих фактических входов: без рендера, изменений состояния, запуска провайдеров, Git commit/push или внешних действий. Работай с данным packet и инструкциями репозитория. Сохрани ответ в <case>/render-plan.md и сообщи, какими источниками в packet пользовался.",
+    "meme": "Используй @ytv-produce-video. Для Scenes on Repeat нужен план монтажа Meme Time Machine — пять реальных мемов одного года. Контекст задачи: <case>/context.json. Сейчас нужен только конкретный план монтажа и список отсутствующих фактических входов. Не рендерь, не меняй run/state, не вызывай providers и внешние сервисы, не делай Git/push."
+  },
+  "cases": [
+    {
+      "id": "character",
+      "result": "pass_for_recipe_routing_and_plan_scope",
+      "source": "character-input-manifest.json",
+      "output": "character-plan.md",
+      "trace": "character-trace-summary.json",
+      "observed": [
+        "Fullscreen 9:16 with no title/CTA/movie card in the holding introduction; channel 24 FPS export retained.",
+        "Audible first-frame anticipation, main music introduced before payoff, strong accent matched to the character transition; actual listening remains required.",
+        "No invented film, clips, exact timeline, music source, approved script or completed render. Missing dependencies and exact-MP4 QA remain explicit."
+      ],
+      "interventions": [
+        "Coordinator requested the trace summary after the completed plan; no plan correction or continuation prompt was supplied."
+      ],
+      "limitations": [
+        "Input preceded the follow-up Meme/long reference declarations and native TASK representation clarification. Relevant initial source files match published checkpoint 87193168.",
+        "No native sandbox, actual rendering, listening, providers, script execution or publication was exercised."
+      ]
+    },
+    {
+      "id": "meme",
+      "result": "pass_for_recipe_routing_and_plan_scope",
+      "source": "meme-input-manifest.json",
+      "output": "meme-plan.md",
+      "trace": "meme-trace-summary.json",
+      "observed": [
+        "Selected Meme 48 FPS/rating layout despite receiving both Meme and ordinary scene-edit recipes.",
+        "Retained five unique rating rows, reveal on the first clip frame, original audio only once, and two 100 ms transition overlaps.",
+        "Did not invent a year, five source memes, rights or input artifacts; read-only fixture state confirms missing approvals/dependencies.",
+        "No render, external operation or state write was reported in the action summary."
+      ],
+      "interventions": [],
+      "limitations": [
+        "This is a structural plan, not an accepted creative edit. The proposed pilot ordering and title treatment need the actual accepted plan before execution.",
+        "The agent also opened current source standards outside the selected packet. This is not evidence of minimal reading or token savings.",
+        "No native sandbox, render, media quality or release execution was tested."
+      ]
+    }
+  ],
+  "evidence_scope": {
+    "plans": "Exact agent output files preserved; coordinator inspected substance against pinned recipe text.",
+    "trace": "Agent-produced command summaries retained with normalized paths. Raw execution transcript is not included; self-report alone is not treated as media or provider evidence.",
+    "input_hashes": "Verified SHA256 of each actual packet document; skill hashes computed from delivered text. Initial character source files and code pin also match the retrieved CI source archive.",
+    "runtime": "Deterministic context/manifest/legacy/identity behavior is covered separately by test_context, test_image_host, test_pool_service and test_workflow."
+  },
+  "not_claimed": [
+    "End-to-end autonomous video production",
+    "Ready MP4 or artistic/listening QA",
+    "Live provider/account or YouTube operation",
+    "Measured time, token or cost improvement",
+    "Statistical model reliability"
+  ],
+  "artifact_sha256": {
+    "character-input-manifest.json": "4513719c2180ee11f5194684abbcaae334edab9fc3252f0bb051b60c3f8dcd78",
+    "character-plan.md": "8de7b32a2d0a9d7451546e60eb67e9485fbc9e3fd34ad4066a1653b81627d6c2",
+    "character-trace-summary.json": "858728c010f73faa88ad46a139e6beaac5f8e04862fef97577ba9a668f5acd6e",
+    "meme-input-manifest.json": "1bd55751b125154cb8d8f587b3350278f346dd993c5220dce2430168c5acabf4",
+    "meme-plan.md": "d2d70ae451e9d58c08c988b61450ef88fb2cfc4a0386fcc3c54ee57f45827a21",
+    "meme-trace-summary.json": "9e2d4187d7811811f88668e6a80c1a57106b686f62227a31d54be1eb420e1cb9"
+  }
+}

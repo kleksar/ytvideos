@@ -41,6 +41,8 @@ jobs:
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: false
+      - name: Validate current documentation before dependency setup
+        run: python scripts/check_repository.py
       - name: Install the locked Python environment
         uses: astral-sh/setup-uv@68559e99cc807c1eb7e9238fd43a15bba460eec2 # v10.3.3
         with:
@@ -51,9 +53,7 @@ jobs:
         id: environment
         run: uv sync --locked --extra dev --extra media --extra postgres --extra youtube
       - name: Lint the workflow and adapter code
-        run: uv run --no-sync ruff check src/ytvideos tests
-      - name: Validate skill routing and current documentation
-        run: uv run --no-sync python scripts/check_repository.py
+        run: uv run --no-sync ruff check src/ytvideos tests scripts
       - name: Exercise native runtime before media package installation
         run: |
           set -o pipefail
@@ -89,16 +89,25 @@ jobs:
         run: |
           python - <<'PY'
           from pathlib import Path
+          import json
           import subprocess
 
           head = subprocess.check_output(["git", "rev-parse", "HEAD"], text=True).strip()
           Path("reviewed-commit.txt").write_text(head + "\n")
           tracked = subprocess.check_output(["git", "ls-tree", "-r", "--name-only", head], text=True).splitlines()
-          roots = ("src/", "tests/", "automation/", "scripts/", ".agent/", ".agents/", "docs/", ".github/")
+          Path("reviewed-paths.json").write_text(json.dumps(tracked) + "\n")
+          roots = ("src/", "tests/", "automation/", "scripts/", ".agents/", ".codex/", "docs/", ".github/")
+          entries = {"AGENTS.md", "README.md", "ONBOARDING.md", "COLLABORATION.md", "pyproject.toml", "uv.lock",
+                     ".agent/README.md", ".agent/documentation-index.md",
+                     ".agent/skill-catalog.json", ".agent/skill-catalog.md", "channels/README.md"}
+          for path in tracked:
+              if path.startswith("channels/") and Path(path).name == "channel.json":
+                  profile = json.loads(subprocess.check_output(["git", "show", f"{head}:{path}"], text=True))
+                  entries.update(ref["path"] for ref in profile.get("context_references", []))
           suffixes = {".py", ".md", ".json", ".toml", ".lock", ".txt", ".yml", ".yaml"}
           paths = [p for p in tracked if Path(p).suffix in suffixes and (
-              p.startswith(roots) or p in {"AGENTS.md", "pyproject.toml", "uv.lock"}
-              or (p.startswith("channels/") and Path(p).name in {"channel.json", "PROFILE.md"}))]
+              p.startswith(roots) or p in entries
+              or (p.startswith("channels/") and Path(p).name in {"channel.json", "PROFILE.md", "AGENTS.md", "README.md"}))]
           subprocess.run(["git", "archive", "--format=tar.gz", "--output=reviewed-source.tar.gz", head, "--", *paths], check=True)
           PY
       - name: Save test evidence and reviewed source
@@ -112,6 +121,7 @@ jobs:
             core-tests.log
             automation-tests.log
             reviewed-commit.txt
+            reviewed-paths.json
             reviewed-source.tar.gz
           retention-days: 7
           if-no-files-found: error

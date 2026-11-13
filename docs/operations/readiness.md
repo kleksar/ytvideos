@@ -38,7 +38,7 @@
 
 ## Воспроизводимость software-проверок
 
-CI выполняет suite `tests/` с реальным PostgreSQL и существующие automation suites. Артефакт `contracts-<run_id>-<attempt>` содержит оба лога, `reviewed-commit.txt` и `reviewed-source.tar.gz`: отфильтрованный снимок **tracked** кода/текстовых конфигураций, без runtime media и credentials. Это не полный архив брендов или backup производства.
+CI выполняет suite `tests/` с реальным PostgreSQL и существующие automation suites. Артефакт `contracts-<run_id>-<attempt>` содержит test logs, `reviewed-commit.txt`, `reviewed-paths.json` и `reviewed-source.tar.gz`: отфильтрованный снимок **tracked** кода/текстовых конфигураций, без runtime media и credentials. В snapshot входят current entrypoints и явно объявленные `context_references`; исторические `.agent` журналы не обязательны для воспроизведения. Для проверки ссылок неполного source snapshot использовать `python scripts/check_repository.py --known-paths /path/to/reviewed-paths.json`. Это не полный архив брендов или backup производства.
 
 Test-first checkpoint `f25c8143e61d6db56abe5b86dd904dcb0bf22d03` воспроизвёл race request/event deduplication на PostgreSQL, устаревшую release binding после правки обложки, неполный/недостоверный preflight и разделяемые mutable списки графа. Фикс должен пройти те же регрессии и полный CI на новом HEAD. Итоговые результаты привязывать к commit/run в MR; не переносить старый PASS на новую версию.
 

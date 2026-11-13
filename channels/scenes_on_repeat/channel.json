@@ -6,9 +6,95 @@
   "language": "en",
   "recipe": "licensed_clips",
   "youtube_channel_id": "UCqct_dth0WSCwiDZx1WMfgg",
-  "voice": {"provider": "elevenlabs", "id": "ktkP7Nsj67dw2zcplQYt", "speed": 1.15},
+  "voice": {
+    "provider": "elevenlabs",
+    "id": "ktkP7Nsj67dw2zcplQYt",
+    "speed": 1.15
+  },
   "visual_profile": "cinema",
-  "release_policy": {"end_screen": true, "ab_test": true, "shorts_related": true, "min_schedule_lead_seconds": 300},
-  "calendar": {"timezone": "Europe/Belgrade", "mode": "resolve_from_verified_channel_calendar"},
-  "budget": {"max_paid_units": 0, "max_task_attempts": 3, "max_editorial_passes": 2}
+  "release_policy": {
+    "end_screen": true,
+    "ab_test": true,
+    "shorts_related": true,
+    "min_schedule_lead_seconds": 300
+  },
+  "calendar": {
+    "timezone": "Europe/Belgrade",
+    "mode": "resolve_from_verified_channel_calendar"
+  },
+  "budget": {
+    "max_paid_units": 0,
+    "max_task_attempts": 3,
+    "max_editorial_passes": 2
+  },
+  "context_references": [
+    {
+      "path": "channels/scenes_on_repeat/PROFILE.md"
+    },
+    {
+      "path": "channels/scenes_on_repeat/docs/EDIT_NOTES.md",
+      "stages": [
+        "storyboard",
+        "audio",
+        "subtitles",
+        "render",
+        "review"
+      ],
+      "formats": [
+        "short",
+        "long"
+      ]
+    },
+    {
+      "path": "channels/scenes_on_repeat/docs/MEME_SHORTS.md",
+      "stages": [
+        "research",
+        "script",
+        "storyboard",
+        "audio",
+        "subtitles",
+        "render",
+        "review",
+        "packaging"
+      ],
+      "formats": [
+        "short"
+      ]
+    },
+    {
+      "path": "channels/scenes_on_repeat/docs/LONG_CAPTIONS.md",
+      "stages": [
+        "storyboard",
+        "subtitles",
+        "render",
+        "review"
+      ],
+      "formats": [
+        "long"
+      ]
+    },
+    {
+      "path": "channels/scenes_on_repeat/docs/LONG_COMPILATIONS.md",
+      "stages": [
+        "research",
+        "script",
+        "storyboard",
+        "audio",
+        "subtitles",
+        "render",
+        "review",
+        "packaging"
+      ],
+      "formats": [
+        "long"
+      ]
+    },
+    {
+      "path": "channels/scenes_on_repeat/PLAYLISTS.md",
+      "stages": [
+        "packaging",
+        "configure_release"
+      ]
+    }
+  ]
 }

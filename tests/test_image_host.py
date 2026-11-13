@@ -11,7 +11,7 @@ import test_pool_service as fixtures
 from ytvideos.errors import Conflict, WorkflowError
 from ytvideos.runtime.app_server import AppServer, ImageNotSent, RpcError, RpcUnavailable
 from ytvideos.runtime.image_host import ImageHost
-from ytvideos.util import file_digest
+from ytvideos.util import canonical, digest, file_digest
 
 
 class NativeFixture:
@@ -76,7 +76,7 @@ class ImageHostTests(unittest.TestCase):
                        "work_root": str(self.root / "native-work"),
                        "channels": ["test_channel", "second", "third"], "estimated_units": 0}
         standards = self.production.project / "docs" / "standards"
-        standards.mkdir(parents=True)
+        standards.mkdir(parents=True, exist_ok=True)
         (standards / "visual.md").write_text("Synthetic visual standard, not a real channel style.")
         for channel in self.config["channels"]:
             directory = self.production.project / "channels" / channel
@@ -111,6 +111,128 @@ class ImageHostTests(unittest.TestCase):
         self.assertEqual(job["state"], "running")
         self.assertEqual(self.store.get(run_id)["tasks"]["image:s0"]["status"], "running")
         self.assertEqual(len(self.server.started), 1)
+
+    def test_thumbnail_worker_receives_readable_thumbnail_standard_inside_its_sandbox(self):
+        profile_path = self.production.project / "channels/test_channel/channel.json"
+        profile = json.loads(profile_path.read_text())
+        profile["recipe"] = "licensed_clips"
+        profile_path.write_text(json.dumps(profile))
+        run_id, _ = self.make_run(count=1, shared_review_capacity=4)
+        brief = self.root / "packaging.json"
+        brief.write_text(json.dumps({"title": "Accepted synthetic packaging fixture"}))
+        artifact = self.production.artifacts.put(brief, "release_spec")
+        def prepared(tx, run):
+            run["artifacts"][artifact["id"]] = artifact
+            run["tasks"]["packaging"].update(status="complete", outputs=[artifact["id"]])
+        self.store.mutate(run_id, prepared)
+        self.production.add_thumbnail_task(run_id, {
+            "id": "cover", "prompt": "Synthetic cover", "visual_intent": "A specific promise",
+            "reference_na_reason": "Synthetic fixture has no external visual references."})
+        self.pools.operate(run_id, "enqueue")
+        self.pools.operate(run_id, "tick")
+        result = self.host.tick()
+        self.assertEqual(len(result["dispatches"]), 1, result)
+        job = self.host._jobs()[0]
+        directory = Path(job["directory"])
+        packet = json.loads((directory / "TASK.json").read_text())
+        path = "requirements/docs/standards/thumbnails.md"
+        self.assertIn(path, packet["requirements"])
+        self.assertEqual((directory / path).read_text(), "Synthetic requirement: docs/standards/thumbnails.md\n")
+        self.assertEqual(job["inputs"][path], file_digest(directory / path))
+        self.assertEqual(set(packet["requirements"]), {"requirements/" + path for path in packet["references"]})
+        self.assertNotIn("reference_documents", packet)
+        self.assertEqual({item["local_path"] for item in packet["reference_manifest"]}, set(packet["requirements"]))
+        for item in packet["reference_manifest"]:
+            self.assertEqual(item["local_path"], "requirements/" + item["path"])
+            self.assertEqual(item["sha256"], file_digest(directory / item["local_path"]))
+        original = self.store.get(run_id)["pool"]["backend"]["requests"][job["id"]]["packet"]["context"]
+        self.assertIn("reference_documents", original)
+
+    def test_regular_scene_worker_does_not_receive_thumbnail_playbook(self):
+        _, job = self.first_dispatch(count=1)
+        packet = json.loads((Path(job["directory"]) / "TASK.json").read_text())
+        self.assertNotIn("requirements/docs/standards/thumbnails.md", packet["requirements"])
+        for path in packet["requirements"]:
+            self.assertTrue((Path(job["directory"]) / path).is_file())
+
+    def test_requirement_manifest_cannot_omit_or_escape_declared_documents(self):
+        run_id = self.run_fixture(count=1)
+        run = self.store.get(run_id)
+        request = next(value for value in run["pool"]["backend"]["requests"].values()
+                       if value["status"] == "queued")
+        for malformed in ("missing", "escape", "changed"):
+            with self.subTest(malformed=malformed):
+                candidate = copy.deepcopy(request)
+                context = candidate["packet"]["context"]
+                if malformed == "missing":
+                    context["reference_documents"].pop()
+                elif malformed == "escape":
+                    context["reference_documents"][0]["path"] = "../escaped.md"
+                    context["references"][0] = "../escaped.md"
+                else:
+                    context["reference_documents"][0]["text"] = "Altered contents"
+                candidate["packet"]["input_hash"] = digest(context)
+                with self.assertRaises(WorkflowError):
+                    self.host._materialize(run, candidate)
+        self.assertEqual(self.server.started, [])
+
+    def test_rehashed_outbox_documents_or_skill_cannot_replace_the_queued_job(self):
+        for altered in ("omitted", "document", "skill"):
+            with self.subTest(altered=altered):
+                run_id = self.run_fixture(count=1)
+                def corrupt(tx, run):
+                    request = next(item for item in run["pool"]["backend"]["requests"].values()
+                                   if item["status"] == "queued")
+                    context = request["packet"]["context"]
+                    if altered == "omitted":
+                        context.update(references=[], reference_documents=[])
+                    elif altered == "document":
+                        document = context["reference_documents"][0]
+                        document["text"] = "Altered requirement with a matching checksum"
+                        import hashlib
+                        document["sha256"] = hashlib.sha256(document["text"].encode()).hexdigest()
+                    else:
+                        context["skill"]["text"] = "Substituted worker skill"
+                    request["packet"]["input_hash"] = digest(context)
+                self.store.mutate(run_id, corrupt)
+                result = self.host.tick()
+                self.assertEqual(result["dispatches"], [])
+                self.assertTrue(any("queued job" in blocker["reason"] for blocker in result["blockers"]))
+        self.assertEqual(self.server.started, [])
+
+    def test_matching_outbox_and_queue_still_must_use_the_run_document_snapshot(self):
+        run_id = self.run_fixture(count=1)
+        def corrupt(tx, run):
+            request = next(item for item in run["pool"]["backend"]["requests"].values()
+                           if item["status"] == "queued")
+            context = request["packet"]["context"]
+            context.update(references=[], reference_documents=[])
+            request["packet"]["input_hash"] = digest(context)
+            record = next(item for item in run["pool"]["scheduler"]["records"]
+                          if item["job"]["job_id"] == request["packet"]["job_id"])
+            record["job"].update(context_json=canonical(context), input_hash=digest(context))
+        self.store.mutate(run_id, corrupt)
+        result = self.host.tick()
+        self.assertEqual(result["dispatches"], [])
+        self.assertIn("pinned task context", result["blockers"][0]["reason"])
+        self.assertEqual(self.server.started, [])
+
+    def test_missing_channel_profile_blocks_native_generation(self):
+        (self.production.project / "channels/test_channel/PROFILE.md").unlink()
+        self.run_fixture(count=1)
+        result = self.host.tick()
+        self.assertEqual(result["dispatches"], [])
+        self.assertIn("PROFILE.md", result["blockers"][0]["reason"])
+        self.assertEqual(self.server.started, [])
+
+    def test_parent_symlink_cannot_move_requirements_outside_the_worker(self):
+        _, job = self.first_dispatch(count=1)
+        directory = Path(job["directory"])
+        relocated = self.root / "outside-worker-requirements"
+        (directory / "requirements").rename(relocated)
+        (directory / "requirements").symlink_to(relocated, target_is_directory=True)
+        with self.assertRaisesRegex(WorkflowError, "pinned input"):
+            self.host._verify_inputs(job)
 
     def test_completion_returns_bytes_but_does_not_invent_qa(self):
         run_id, job = self.first_dispatch(count=1)

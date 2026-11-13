@@ -6,9 +6,101 @@
   "language": "en",
   "recipe": "illustrated",
   "youtube_channel_id": "UCMVfdfaNxV3ZkI3_J3Eejzw",
-  "voice": {"provider": "elevenlabs", "id": "ktkP7Nsj67dw2zcplQYt", "speed": 1.1},
+  "voice": {
+    "provider": "elevenlabs",
+    "id": "ktkP7Nsj67dw2zcplQYt",
+    "speed": 1.1
+  },
   "visual_profile": "paper",
-  "release_policy": {"end_screen": true, "ab_test": true, "shorts_related": true, "min_schedule_lead_seconds": 300},
-  "calendar": {"timezone": "Europe/Belgrade", "mode": "resolve_from_verified_channel_calendar"},
-  "budget": {"max_paid_units": 0, "max_task_attempts": 3, "max_editorial_passes": 2}
+  "release_policy": {
+    "end_screen": true,
+    "ab_test": true,
+    "shorts_related": true,
+    "min_schedule_lead_seconds": 300
+  },
+  "calendar": {
+    "timezone": "Europe/Belgrade",
+    "mode": "resolve_from_verified_channel_calendar"
+  },
+  "budget": {
+    "max_paid_units": 0,
+    "max_task_attempts": 3,
+    "max_editorial_passes": 2
+  },
+  "context_references": [
+    {
+      "path": "channels/paper_detour/PROFILE.md"
+    },
+    {
+      "path": "channels/paper_detour/brand/PAPER_PLANE.md",
+      "stages": [
+        "script",
+        "storyboard",
+        "review",
+        "packaging",
+        "configure_release"
+      ]
+    },
+    {
+      "path": "channels/paper_detour/brand/PAPER_PLANE.md",
+      "stages": [
+        "scene_image"
+      ],
+      "purposes": [
+        "scene"
+      ]
+    },
+    {
+      "path": "channels/paper_detour/brand/SCENE_IMAGE_REFERENCES.md",
+      "stages": [
+        "storyboard"
+      ]
+    },
+    {
+      "path": "channels/paper_detour/brand/SCENE_IMAGE_REFERENCES.md",
+      "stages": [
+        "scene_image"
+      ],
+      "purposes": [
+        "scene"
+      ]
+    },
+    {
+      "path": "channels/paper_detour/brand/TYPOGRAPHY_STANDARD.md",
+      "stages": [
+        "storyboard",
+        "scene_image",
+        "packaging",
+        "review"
+      ]
+    },
+    {
+      "path": "channels/paper_detour/brand/THUMBNAIL_PLAYBOOK.md",
+      "stages": [
+        "packaging"
+      ]
+    },
+    {
+      "path": "channels/paper_detour/brand/THUMBNAIL_PLAYBOOK.md",
+      "stages": [
+        "scene_image"
+      ],
+      "purposes": [
+        "thumbnail"
+      ]
+    },
+    {
+      "path": "channels/paper_detour/docs/MUSIC_CATALOG.md",
+      "stages": [
+        "audio"
+      ]
+    },
+    {
+      "path": "channels/paper_detour/docs/SHORTS_RELEASE_STRATEGY.md",
+      "stages": [
+        "configure_release",
+        "schedule"
+      ]
+    }
+  ]
 }

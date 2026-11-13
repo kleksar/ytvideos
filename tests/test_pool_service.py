@@ -11,6 +11,7 @@ from urllib.parse import parse_qsl, quote, urlencode, urlsplit, urlunsplit
 import uuid
 
 from ytvideos.errors import Conflict, WorkflowError
+from ytvideos.context import STAGE_REFERENCES
 from ytvideos.pool_service import PoolService
 from ytvideos.service import Production
 from ytvideos.store import Store
@@ -44,6 +45,10 @@ class PoolServiceTests(unittest.TestCase):
             path.write_text(f"# {name}\nFixture skill.\n")
             entries.append({"name": name, "path": str(path.relative_to(project))})
         (project / ".agent" / "skill-catalog.json").write_text(json.dumps({"skills": entries}))
+        for path in {path for paths in STAGE_REFERENCES.values() for path in paths}:
+            document = project / path
+            document.parent.mkdir(parents=True, exist_ok=True)
+            document.write_text(f"Synthetic requirement: {path}\n")
         profile_dir = project / "channels" / "test_channel"
         profile_dir.mkdir(parents=True)
         (profile_dir / "channel.json").write_text(json.dumps({
@@ -152,6 +157,18 @@ class PoolServiceTests(unittest.TestCase):
         with self.assertRaises(Conflict):
             self.claim(run_id, request, estimated_units=3)
         self.assertEqual(self.store.get(run_id)["budget"]["reserved"], 3)
+
+    def test_bridge_claim_rejects_a_rehashed_outbox_packet(self):
+        from ytvideos.util import digest
+        run_id, request = self.make_run(count=1)
+        def corrupt(tx, run):
+            packet = run["pool"]["backend"]["requests"][request["operation_id"]]["packet"]
+            packet["context"]["skill"]["text"] = "Changed after enqueue"
+            packet["input_hash"] = digest(packet["context"])
+        self.store.mutate(run_id, corrupt)
+        with self.assertRaisesRegex(WorkflowError, "queued job"):
+            self.claim(run_id, request)
+        self.assertEqual(self.store.get(run_id)["tasks"]["image:s0"]["status"], "pending")
 
     def test_accept_requires_production_checks_for_same_image(self):
         run_id, request = self.make_run()
