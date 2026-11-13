@@ -4,6 +4,7 @@
 |---|---|
 | Вход, scope, два approvals, общий lifecycle | [workflow](../docs/workflow.md) |
 | Тема, факты, драматургия всех каналов, переработка исходника, первый слушатель | [editorial](../docs/standards/editorial.md) |
+| Естественная дикторская речь, устная редактура и EN/RU-подача | [narration](../docs/standards/narration.md) |
 | Постановка, actual references, кадры, цельное движение | [visual](../docs/standards/visual.md) |
 | Речь/voice/speed, mix, музыка, word map/SRT/caption semantics | [audio](../docs/standards/audio.md) |
 | Рендер/геометрия/время/codec/QA exact MP4 | [delivery](../docs/standards/delivery.md) |

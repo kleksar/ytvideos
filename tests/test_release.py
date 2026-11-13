@@ -134,6 +134,37 @@ class ReleaseTests(unittest.TestCase):
         self.assertTrue(ab['applicable'])
         self.assertIn('Unverified saved value: ab_test', validate_receipts(spec, POLICY, (), video_id=VIDEO, phase='after_publish'))
 
+    def test_community_post_is_optional_after_public_and_bound_to_exact_video(self):
+        data = payload()
+        data['community_post'] = {'text': 'Why this story matters to the viewer.'}
+        spec = ReleaseSpec.from_dict(data)
+        post = next(x for x in requirement_matrix(spec, POLICY) if x.key == 'community_post')
+        self.assertTrue(post.applicable)
+        self.assertEqual(post.phase, 'after_publish')
+        self.assertNotIn('Missing community_post', prepare_release_plan(spec, POLICY, now=NOW)['blockers'])
+        self.assertIn('Unverified saved value: community_post',
+                      validate_receipts(spec, POLICY, (), video_id=VIDEO, phase='after_publish'))
+        self.assertNotIn('Unverified saved value: community_post',
+                         validate_receipts(spec, POLICY, (
+                             receipt(spec, post, observed_value={'text': data['community_post']['text'],
+                                                                 'linked_video_id': VIDEO}),
+                         ), video_id=VIDEO, phase='after_publish'))
+        self.assertIn('Unverified saved value: community_post',
+                      validate_receipts(spec, POLICY, (
+                          receipt(spec, post, observed_value={'text': data['community_post']['text'],
+                                                              'linked_video_id': 'OTHER000001'}),
+                      ), video_id=VIDEO, phase='after_publish'))
+        for invalid in ({'text': ''}, {'text': 'x' * 501}, {'text': 'ok', 'video_id': VIDEO}):
+            bad = payload()
+            bad['community_post'] = invalid
+            with self.assertRaises(ReleaseError):
+                ReleaseSpec.from_dict(bad)
+        bad = payload()
+        bad['metadata']['made_for_kids'] = True
+        bad['community_post'] = {'text': 'not allowed'}
+        with self.assertRaises(ReleaseError):
+            ReleaseSpec.from_dict(bad)
+
     def test_shorts_have_thumbnail_and_related_but_no_ab_or_end_screen(self):
         data = payload()
         data['format'] = 'short'

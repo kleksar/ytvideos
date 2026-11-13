@@ -10,14 +10,14 @@ from .util import digest
 
 STAGE_REFERENCES = {
     "research": ["docs/standards/editorial.md", "docs/standards/thumbnails.md"],
-    "script": ["docs/standards/editorial.md", "docs/standards/thumbnails.md"],
+    "script": ["docs/standards/editorial.md", "docs/standards/narration.md", "docs/standards/thumbnails.md"],
     "storyboard": ["docs/standards/visual.md"],
     "scene_image": ["docs/standards/visual.md"],
     "audio": ["docs/standards/audio.md"],
     "subtitles": ["docs/standards/audio.md", "docs/standards/delivery.md"],
     "render": ["docs/standards/delivery.md", "docs/standards/visual.md", "docs/standards/audio.md"],
     "review": ["docs/standards/delivery.md", "docs/standards/visual.md", "docs/standards/audio.md",
-               "docs/standards/editorial.md", "docs/standards/thumbnails.md"],
+               "docs/standards/editorial.md", "docs/standards/narration.md", "docs/standards/thumbnails.md"],
     "packaging": ["docs/standards/release.md", "docs/standards/thumbnails.md"],
     "upload": ["docs/standards/release.md", "docs/standards/thumbnails.md"],
     "configure_release": ["docs/standards/release.md", "docs/standards/thumbnails.md",
@@ -43,7 +43,7 @@ def _entries(profile):
     choices = {"stages": set(STAGE_REFERENCES), "formats": {"short", "long"},
                "purposes": {"scene", "thumbnail"}}
     for entry in entries:
-        if not isinstance(entry, dict) or set(entry) - {"path", *choices} or "path" not in entry:
+        if (not isinstance(entry, dict) or set(entry) - {"path", *choices} or "path" not in entry):
             raise WorkflowError("invalid context reference entry")
         reference_path(entry["path"])
         for name, allowed in choices.items():

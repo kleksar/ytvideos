@@ -36,6 +36,10 @@ def parser():
     create.add_argument("--source-script", type=Path,
                         help="Preserve supplied full narration or licensed edit-script bytes; does not invent approval")
     create.add_argument("--session-id", help="Explicit host correlation ID; default CODEX_THREAD_ID (not approval)")
+    cross = sub.add_parser("cross-promotion-plan", help="Read-only plan for Shorts links, posts, end screens and playlists")
+    cross.add_argument("--release-spec", type=Path, required=True)
+    cross.add_argument("--inventory", type=Path, required=True)
+    cross.add_argument("--video-id", required=True)
     sub.add_parser("list", help="Show all runs without loading their creative histories")
     for name in ("status", "next", "plan", "resume", "export", "events", "deferred-actions"):
         command = sub.add_parser(name)
@@ -65,8 +69,15 @@ def parser():
     complete.add_argument("--output", required=True, type=Path)
     complete.add_argument("--receipt", required=True, type=Path)
     complete.add_argument("--actual-units", type=int, help="Measured cost; omission retains the reservation as unknown")
-    approval = sub.add_parser("approve", help="Ingest a signed event from the trusted user-event bridge")
-    approval.add_argument("--event", required=True, type=Path)
+    approval = sub.add_parser("approve", help="Record an explicit local user decision (or a signed host event)")
+    approval_mode = approval.add_mutually_exclusive_group(required=True)
+    approval_mode.add_argument("--event", type=Path, help="Optional signed host envelope; never a local fallback")
+    approval_mode.add_argument("--run", help="Run containing the exact version shown to the user")
+    approval.add_argument("--kind", choices=("script", "mp4"))
+    approval.add_argument("--revision", type=int, help="Revision shown to the user, not a newly fetched replacement")
+    approval.add_argument("--sha256", help="SHA-256 of the script/MP4 shown to the user")
+    approval.add_argument("--source", help="Stable reference to this actual user decision; reuse on retry")
+    approval.add_argument("--message", help="Actual explicit owner reply, not a model decision or retrieved quote")
     caps = sub.add_parser("capabilities")
     caps.add_argument("--run", required=True)
     caps.add_argument("--file", required=True, type=Path, help="JSON mapping of actually observed capability -> boolean")
@@ -198,7 +209,16 @@ def dispatch(service, args):
             service.deferred_actions(args.run)
         return result
     if command == "approve":
-        return service.approve(read_json(args.event))
+        fields = (args.kind, args.revision, args.sha256, args.source, args.message)
+        if args.event:
+            if any(value is not None for value in fields):
+                raise WorkflowError("--event cannot be combined with local approval fields")
+            return service.approve(read_json(args.event))
+        if any(value is None for value in fields):
+            raise WorkflowError("local approval requires --kind, --revision, --sha256, --source and --message")
+        approval = service.approve_local(args.run, args.kind, revision=args.revision, sha256=args.sha256,
+                                         source=args.source, message=args.message)
+        return {"approval": approval, "next": service.next(args.run)}
     if command == "capabilities":
         return service.capabilities(args.run, read_json(args.file), evidence=args.evidence)
     if command == "doctor":
@@ -262,6 +282,11 @@ def main(argv=None):
         if args.command == "profiles":
             result = inspect_profiles(args.profiles or args.project_root / "channels",
                                       channel=args.channel, format=args.format, project=args.project_root)
+        elif args.command == "cross-promotion-plan":
+            from .cross_promotion import build_plan
+            from .release import ReleaseSpec
+            result = build_plan(ReleaseSpec.from_dict(read_json(args.release_spec)),
+                                video_id=args.video_id, inventory=read_json(args.inventory))
         else:
             service = Production(Store(args.db), args.workspace, args.project_root,
                                  approval_public_key=os.environ.get("YTV_APPROVAL_PUBLIC_KEY"))

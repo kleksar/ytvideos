@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Add one private owned video to an owned playlist; check before and after."""
+"""Add one owned video to an owned playlist; check exact privacy before and after."""
 import argparse
 import json
 import sys
@@ -26,19 +26,21 @@ def read_items(session, resource, params):
         params['pageToken'] = page['nextPageToken']
 
 
-def run(session, channel_id, playlist_id, video_id):
+def run(session, channel_id, playlist_id, video_id, *, expected_privacy='private'):
+    if expected_privacy not in ('private', 'public', 'unlisted'):
+        raise RuntimeError('Недопустимое ожидаемое состояние доступа')
     channels = read_items(session, 'channels', {'part': 'id', 'mine': 'true'})
     if len(channels) != 1 or channels[0].get('id') != channel_id:
         raise RuntimeError('Авторизован не тот канал; изменений не сделано')
     videos = read_items(session, 'videos', {'part': 'snippet,status', 'id': video_id})
     if len(videos) != 1 or videos[0]['snippet']['channelId'] != channel_id:
         raise RuntimeError('Ролик не найден в указанном канале; изменений не сделано')
-    if videos[0].get('status', {}).get('privacyStatus') != 'private':
-        raise RuntimeError('Ролик не имеет ограниченного доступа; изменений не сделано')
-    playlists = read_items(session, 'playlists', {'part': 'id,snippet', 'mine': 'true'})
+    if videos[0].get('status', {}).get('privacyStatus') != expected_privacy:
+        raise RuntimeError('Ролик имеет неожиданный уровень доступа; изменений не сделано')
+    playlists = read_items(session, 'playlists', {'part': 'id,snippet,status', 'mine': 'true'})
     matching = [p for p in playlists if p.get('id') == playlist_id]
-    if len(matching) != 1:
-        raise RuntimeError('Плейлист не найден в указанном канале; изменений не сделано')
+    if len(matching) != 1 or matching[0].get('snippet', {}).get('channelId') != channel_id:
+        raise RuntimeError('Плейлист не принадлежит указанному каналу; изменений не сделано')
     params = {'part': 'snippet,contentDetails', 'playlistId': playlist_id}
     def matching_items():
         return [x for x in read_items(session, 'playlistItems', params)
@@ -66,8 +68,9 @@ def run(session, channel_id, playlist_id, video_id):
                 time.sleep(2)
     if len(items) != 1:
         raise RuntimeError('Не удалось однозначно подтвердить добавление; проверьте плейлист перед повтором')
-    return {'video_id': video_id, 'channel_id': channel_id, 'privacy': 'private',
+    return {'video_id': video_id, 'channel_id': channel_id, 'privacy': expected_privacy,
             'playlist_id': playlist_id, 'playlist_title': matching[0]['snippet']['title'],
+            'playlist_privacy': matching[0].get('status', {}).get('privacyStatus'),
             'playlist_item_id': items[0]['id']}
 
 
@@ -77,13 +80,16 @@ def main():
     p.add_argument('--channel-id', required=True)
     p.add_argument('--playlist-id', required=True)
     p.add_argument('--video-id', required=True)
+    p.add_argument('--expected-privacy', choices=('private', 'public', 'unlisted'), default='private',
+                   help='Exact visibility; private default preserves guarded pre-release behavior')
     a = p.parse_args()
     try:
         from google.auth.transport.requests import AuthorizedSession
         from google.oauth2.credentials import Credentials
         credentials = Credentials.from_authorized_user_file(a.token, [SCOPE])
         with AuthorizedSession(credentials) as session:
-            print(json.dumps(run(session, a.channel_id, a.playlist_id, a.video_id), ensure_ascii=False))
+            print(json.dumps(run(session, a.channel_id, a.playlist_id, a.video_id,
+                                 expected_privacy=a.expected_privacy), ensure_ascii=False))
         return 0
     except Exception as exc:
         # Do not expose token data or HTTP request contents in error output.

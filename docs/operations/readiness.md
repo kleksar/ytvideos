@@ -29,7 +29,7 @@ uv run ytv profiles --channel paper_detour --format short
 | Присланный полный сценарий | `start --source-script` сохраняет точные bytes/hash narration или поддержанного typed edit plan; research проверяет данный замысел, script получает исходник | Source не равен проверенному script или approval. Trusted host связывает подлинное исходное поручение с exact script/hash. |
 | Требования каждого этапа | `claim.context`, `task_guide`, выбранные `reference_documents`, direct/supporting inputs | Доставка skill в packet не доказывает его качественное применение. Нужны проверка конкретного результата и поведенческие evals. |
 | Приёмка точного результата | Обязательные checks, leases, artifact hashes, probe/decode и production contract | Технические измерения не подтверждают факты, смысл картинки, произношение или реальное прослушивание. |
-| Две контрольные точки | Точный script и MP4, проверка подписанного user-event envelope | Публичный ключ verifier сам по себе не подключает trusted ingress. Upload/публикация отдельно требуют прямого поручения. |
+| Две контрольные точки | Локальный `approve` связывает явное решение владельца с exact script/MP4, revision/hash; проверяет готовность и replay | Ключ/hooks/bridge не нужны для локальной сессии. Подлинность ответа доверена координатору. Signed-only ingress необязателен. Upload/публикация требуют прямого поручения. |
 | Независимые задачи | Task graph, image pool, native image host и параллельная упаковка | Нужны actual provider sessions, доставка bytes и работающий host. Протокол App Server не подключает произвольный ChatGPT UI. |
 | Повторы и восстановление | Durable operations, request/event dedup, code/profile/skills pins, dependency invalidation | `UNKNOWN` сверяется с provider evidence; exactly-once внешнего API не заявляется. Старые runs не мигрируют автоматически. |
 | Выпуск после поручения | ReleaseSpec, remote evidence, календарные ограничения и deferred actions | Нужны actual OAuth/Studio adapters, проверенный календарь и исполнитель pending Public/A/B tasks. Запись задачи не означает фоновое наблюдение. |
@@ -38,7 +38,7 @@ uv run ytv profiles --channel paper_detour --format short
 
 ## Зависимости автономного host
 
-Host должен связать trusted user-event ingress, providers и [native image executor](native-image-host.md), остальные stage adapters/координатор, общее хранилище с backup/restore, календарь и выполнение deferred Public/A/B actions. Для production нужна проверка восстановления после закрытия основной сессии; foreground tool loop сам по себе не доказывает постоянную работу.
+Host должен обеспечить запись реальных пользовательских решений (локальный `approve` либо явно выбранный signed-only ingress), providers и [native image executor](native-image-host.md), остальные stage adapters/координатор, общее хранилище с backup/restore, календарь и выполнение deferred Public/A/B actions. Для production нужна проверка восстановления после закрытия основной сессии; foreground tool loop сам по себе не доказывает постоянную работу.
 
 Runtime session cap и round-robin turn разделяются между runs. Явно настроенный `shared_review_capacity` добавляет общий admission/backlog limit по [контракту очереди](../architecture/adaptive-workers.md#общий-review-backpressure); по умолчанию он не включён. Бюджет и adaptive service-time состояние остаются per-run. Review limit не является общим денежным бюджетом или API quota: host ограничивает общий admission и суммарные расходы отдельно.
 

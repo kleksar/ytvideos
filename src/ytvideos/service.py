@@ -309,6 +309,17 @@ class Production:
             gates.append({"kind": "script", "artifact": self._artifact(run, "script")})
         if run["tasks"]["review"]["status"] == "complete" and not valid_approval(run, "mp4"):
             gates.append({"kind": "mp4", "artifact": self._artifact(run, "render")})
+        for gate in gates:
+            gate["revision"] = run["revision"]
+            if self.approvals.public_key:
+                gate["approval_command"] = ["approve", "--event", "EVENT_FILE"]
+                gate["instruction"] = "Use the configured signed host ingress for the actual user decision."
+            else:
+                gate["approval_command"] = ["approve", "--run", run["id"], "--kind", gate["kind"],
+                                            "--revision", str(run["revision"]), "--sha256", gate["artifact"]["sha256"]]
+                gate["instruction"] = ("Only after the owner's explicit decision on this exact version, append "
+                                       "--source with its stable message reference and --message with its actual text. "
+                                       "The local coordinator records it and continues next; no key or hooks are required.")
         blockers = [{"task": t["id"], "status": t["status"], "reason": t["blocker"]}
                     for t in run["tasks"].values() if t["status"] in {"blocked", "unknown"}]
         return {"run_id": run["id"], "version": run["version"], "status": derive_status(run),
@@ -998,24 +1009,60 @@ class Production:
         run["tasks"]["render"]["dependencies"] = ["storyboard", "audio", "subtitles"] + image_ids
 
     def approve(self, envelope):
+        """Optional signed ingress; invalid envelopes never fall back to local trust."""
         event = self.approvals.verify(envelope)
+        return self.store.mutate(event["run_id"], lambda tx, run: self._approve_event(tx, run, event))
+
+    def approve_local(self, run_id, kind, *, revision, sha256, source, message):
+        """Record an explicit owner decision relayed by the local coordinator.
+
+        This is an audit record, not proof of human identity. A host that supplies
+        a verifier key deliberately retains the signed-only boundary.
+        """
+        if self.approvals.public_key:
+            raise WorkflowError("this host uses signed approvals; use approve --event, not local confirmation")
+        if kind not in {"script", "mp4"}:
+            raise WorkflowError("only script and mp4 are human approval gates")
+        if type(revision) is not int or revision < 1:
+            raise WorkflowError("approval requires the positive revision shown to the user")
+        if not isinstance(sha256, str) or not re.fullmatch(r"[0-9a-f]{64}", sha256):
+            raise WorkflowError("approval requires the exact SHA-256 shown to the user")
+        require_text(source, "source reference to the actual user decision")
+        require_text(message, "actual user approval message")
+        # The same source cannot later be rebound to another run, revision or
+        # artifact. Neither a timestamp nor a new event ID is invented on retry.
+        event_id = "local-approval:" + digest(source)
+
         def change(tx, run):
-            self._runtime(run)
-            task_id = "script" if event["kind"] == "script" else "render"
-            artifact = self._artifact(run, task_id)
-            if run["tasks"][task_id]["status"] != "complete":
-                raise WorkflowError("artifact is not ready for approval")
-            if event["kind"] == "mp4" and run["tasks"]["review"]["status"] != "complete":
-                raise WorkflowError("MP4 must pass production QA before approval")
-            if event["artifact_id"] != artifact["id"] or event["sha256"] != artifact["sha256"]:
-                raise Conflict("approval targets an older or different artifact")
-            if tx.event(event["event_id"], run["id"], "user.approved", event):
-                run["approvals"][event["kind"]] = {**event, "revision": run["revision"]}
-            elif not valid_approval(run, event["kind"]):
-                raise Conflict("approval event was already consumed for an earlier revision; obtain the new user decision")
-            run["status"] = derive_status(run)
-            return run["approvals"][event["kind"]]
-        return self.store.mutate(event["run_id"], change)
+            outputs = run["tasks"]["script" if kind == "script" else "render"]["outputs"]
+            prior = tx.execute("SELECT payload FROM events WHERE id=?", (event_id,)).fetchone()
+            created_at = json.loads(prior[0])["created_at"] if prior else utc_now()
+            event = {"event_id": event_id, "actor": "local-owner", "source": source,
+                     "run_id": run_id, "kind": kind, "artifact_id": outputs[0] if outputs else None, "sha256": sha256,
+                     "revision": revision, "created_at": created_at, "message": message,
+                     "scope": "produce_video" if kind == "script" else "accept_video",
+                     "authority": "local_session"}
+            return self._approve_event(tx, run, event)
+        return self.store.mutate(run_id, change)
+
+    def _approve_event(self, tx, run, event):
+        self._runtime(run)
+        if event.get("revision", run["revision"]) != run["revision"]:
+            raise Conflict("approval targets an earlier or different revision")
+        task_id = "script" if event["kind"] == "script" else "render"
+        artifact = self._artifact(run, task_id)
+        if run["tasks"][task_id]["status"] != "complete":
+            raise WorkflowError("artifact is not ready for approval")
+        if event["kind"] == "mp4" and run["tasks"]["review"]["status"] != "complete":
+            raise WorkflowError("MP4 must pass production QA before approval")
+        if event["artifact_id"] != artifact["id"] or event["sha256"] != artifact["sha256"]:
+            raise Conflict("approval targets an older or different artifact")
+        if tx.event(event["event_id"], run["id"], "user.approved", event):
+            run["approvals"][event["kind"]] = {**event, "revision": run["revision"]}
+        elif not valid_approval(run, event["kind"]):
+            raise Conflict("approval event was already consumed for an earlier revision; obtain the new user decision")
+        run["status"] = derive_status(run)
+        return run["approvals"][event["kind"]]
 
     @staticmethod
     def _task_operations(tx, run, task, claim):
@@ -1571,10 +1618,13 @@ class Production:
                         "execution": "requires a connected durable host dispatcher"}]
             for requirement in requirement_matrix(spec, ReleasePolicy.from_dict(run["profile"]["release_policy"])):
                 if requirement.phase == "after_publish" and requirement.applicable:
+                    expected = requirement.expected
+                    if requirement.key == "community_post" and expected is not None:
+                        expected = {**expected, "linked_video_id": run["publication"]["video_id"]}
                     actions.append({"id": requirement.key, "status": "pending", "depends_on": "verify_public",
-                                    "expected": requirement.expected, "video_id": run["publication"]["video_id"],
+                                    "expected": expected, "video_id": run["publication"]["video_id"],
                                     "release_sha256": spec.sha256, "not_before": spec.to_dict()["publish_at"],
-                                    "execution": "requires a supported host adapter; no A/B action has been performed"})
+                                    "execution": "requires a supported host adapter; no external action has been performed"})
             run["deferred_actions"] = actions
             tx.event(f"deferred:{run['id']}", run["id"], "release.deferred_actions", {"actions": actions})
         return run["deferred_actions"]

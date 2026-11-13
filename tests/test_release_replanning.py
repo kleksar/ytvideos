@@ -43,6 +43,25 @@ class ReleaseReplanningTests(unittest.TestCase):
         self.assertEqual(after["publication"], before["publication"])
         self.assertEqual(after["tasks"], before["tasks"])
 
+    def test_community_post_is_deferred_once_until_public_verification(self):
+        f = self.fixture
+        doc = self.spec.to_dict()
+        doc['community_post'] = {'text': 'One new reason to watch the episode.'}
+        post_spec = ReleaseSpec.from_dict(doc)
+        f.service.prepare_release(f.run_id, f.write(post_spec.to_dict()))
+        self.upload()
+        f.finish('configure_release', f.readbacks(post_spec, 'pre_schedule'))
+        f.finish('schedule', f.readbacks(post_spec, 'scheduled'), action='schedule')
+        f.finish('verify_publication', f.readbacks(post_spec, 'scheduled'))
+        actions = f.service.deferred_actions(f.run_id)
+        self.assertEqual(actions, f.service.deferred_actions(f.run_id))
+        post = next(item for item in actions if item['id'] == 'community_post')
+        self.assertEqual(post['status'], 'pending')
+        self.assertEqual(post['depends_on'], 'verify_public')
+        self.assertEqual(post['video_id'], test_lifecycle.VIDEO_ID)
+        self.assertEqual(post['expected']['linked_video_id'], test_lifecycle.VIDEO_ID)
+        self.assertEqual(post['release_sha256'], post_spec.sha256)
+
     def test_expired_slot_can_replan_without_upload_or_approval_again(self):
         self.upload()
         f = self.fixture
