@@ -11,6 +11,7 @@
 | Сценарный workflow | [Первый сценарный прогон](results/2026-11-10-luna-story/result.json), [проверки входа, независимого review и симуляция Stop](results/2026-11-13-production-workflow/result.json) | Фактические state/artifacts и неудачные сценарии; симуляция не подтверждает активацию hooks в host |
 | Упаковка и A/B | [Наблюдения](results/2026-11-12-luna-thumbnails/result.json), [практика](results/2026-11-12-luna-thumbnail-practice/result.json), [полный набор вариантов](results/2026-11-12-luna-thumbnail-western-flow/result.json) | Synthetic A/B и briefs не доказывают качество картинки или рост CTR |
 | Контекст канального монтажа | [Scenes variants](results/2026-11-13-luna-task-context/result.json) | Проверены планы; live-render и прослушивание отдельно |
+| Примеры для skills | [Ограниченное сравнение baseline/candidate](results/2026-11-13-skill-examples/README.md) | Шесть учебных текстовых задач; полнота чтения references и полный сценарный acceptance не подтверждены |
 
 Каждый result сохраняет версию источников, выполненные проверки, неудачные попытки и вмешательства координатора. Даты в путях идентифицируют неизменяемые доказательства; действующие процедуры принадлежат `docs/standards`, skills и runtime. Эти evals не входят в обычный production reading path.
 
