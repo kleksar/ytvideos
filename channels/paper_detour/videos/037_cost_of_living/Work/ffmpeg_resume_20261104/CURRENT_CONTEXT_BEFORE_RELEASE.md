@@ -13,7 +13,7 @@
 
 ## Перенос в Paper
 
-- Тему и текстовую основу переносим в отдельный Paper-выпуск; Nuviko History остаётся заморожен.
+- Тему и текстовую основу переносим в отдельный Paper-выпуск; Nuviko History сейчас активен, перенос этой темы не меняет статус канала.
 - Источник для переноса, прочитанный только как read-only: [Nuviko 035 / английский сценарий v06](../../../stories/videos/035_when_wages_rose/Source/Scripts/film_en_v06.md), [его current context](../../../stories/videos/035_when_wages_rose/CURRENT_CONTEXT.md) и [внутренний список утверждений и источников](../../../stories/videos/035_when_wages_rose/Source/Research/claims_and_sources.md). Исходные файлы не менялись.
 - Текущая английская narration: [Paper transfer v01](Source/Script/narration_en_v01.md), перенесённый без изменений spoken text из ранее принятой версии v06. Это сохраняет пользовательские правки о 333 wage-days и объяснении модельного 250-дневного рабочего года; русский review-текст для этого выпуска не создавался.
 - Внутренняя опора для цифр и ограничений: [facts and source check v01](Source/Research/FACTS_AND_SOURCE_CHECK_v01.md). Имена и публикации остаются только в этом ledger, не в narration или экранных акцентах.

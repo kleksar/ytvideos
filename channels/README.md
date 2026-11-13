@@ -6,7 +6,7 @@
 |---|---|---|
 | [Paper Detour](paper_detour/AGENTS.md) | Английские истории в бумажном мире | По умолчанию для нового запроса без канала |
 | [Scenes on Repeat](scenes_on_repeat/AGENTS.md) | Английские киноразборы/сценовые форматы | Отдельный verified channel и licensed-clips recipe |
-| [Nuviko History](nuviko_history/AGENTS.md) | Исторические рассказы с рисованным ведущим | Заморожен до прямого указания пользователя |
+| [Nuviko History](nuviko_history/AGENTS.md) | Исторические рассказы с рисованным ведущим | Активен |
 | [Nuviko Videos](nuviko_videos/AGENTS.md) | Русскоязычный канал с отдельной идентичностью | Существующая локальная работа, не импортирована в новый workflow |
 | [Two Ways Lab](two_ways_lab/AGENTS.md) | Англоязычные иллюстрированные эксперименты | Локальный пилот; YouTube ID не подтверждён |
 | [Главред Борисенко](glavred_borisenko/PROFILE.md) | Русскоязычный политический и новостной канал | Ручная редакционная работа; автоматический workflow не подключён |
