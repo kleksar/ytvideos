@@ -1,0 +1,198 @@
+{
+  "schema_version": 1,
+  "packet": "TEXT_ONLY_UNAPPROVED",
+  "channel_id": "paper_detour",
+  "format": "short",
+  "locale": "en",
+  "translation_locale": "ru",
+  "source_main_sha": "96c8fa1573c02e8e7987e272a569bf34f037691e",
+  "script_en": "script.en.txt",
+  "script_ru": "script.ru.txt",
+  "stage": "PROVISIONAL_PREAPPROVAL_NOT_OFFICIAL_STORYBOARD",
+  "tts_real_seconds": null,
+  "voice_generated": false,
+  "images_generated": false,
+  "script_english_words": 207,
+  "provisional_scene_total_seconds": 63.8,
+  "notes": "No fake final timecodes. Reconcile with Lawrence actual voice 1.10x once, preserve direct cuts and 4–6 sec visual compositions, split/retime only after approval. All prompts are for future AI image generation, not evidence of generated scenes. S012 only reuses S001 final approved still; 11 distinct new full-frame stills. Verify accepted paper P02 and plane reference bytes at local production. No frame overlay.",
+  "loop": {
+    "end_context_2_en": [
+      "By evening, the workers were burying the remains anyway. Later, burying beached dead whales became the standard approach.",
+      "All because their attempt to clear the sand created the strangest weather report imaginable:"
+    ],
+    "start_context_2_en": [
+      "In 1970, chunks of whale rained from the sky on an Oregon beach.",
+      "A dead, forty-five-foot sperm whale had washed ashore near Florence. It weighed about eight tons, and the smell was getting worse."
+    ],
+    "end_context_2_ru": [
+      "К вечеру рабочие всё равно закапывали останки. Позже захоронение мёртвых китов стало обычным способом уборки.",
+      "Всё потому, что попытка очистить пляж обернулась самым странным прогнозом погоды:"
+    ],
+    "start_context_2_ru": [
+      "В 1970 году на пляже в Орегоне с неба посыпались куски кита.",
+      "Рядом с городом Флоренс на берег выбросило мёртвого кашалота длиной почти четырнадцать метров. Он весил около восьми тонн, и запах становился всё хуже."
+    ],
+    "author_text_check": "PASS",
+    "independent_text_check": "UNVERIFIED",
+    "actual_av_check": "UNVERIFIED",
+    "source_image_match": "S012 must end at identical opening visual pose to S001"
+  },
+  "scenes": [
+    {
+      "scene_id": "S001",
+      "narration_en": "In 1970, chunks of whale rained from the sky on an Oregon beach.",
+      "narration_ru": "В 1970 году на пляже в Орегоне с неба посыпались куски кита.",
+      "meaning": "Panic rain cold open",
+      "duration_seconds_provisional": 5,
+      "art_prompt": "ONE single self-contained full-frame portrait 9:16 entirely layered handmade paper/card diorama, visibly thick cut edges and fibers, physical directional light, real-contact shadows, era-accurate paper figures with coherent limbs and foot-ground contact, detailed handmade 1970 Oregon coast; rich but readable cinematic focus, no isolated moving layers, parallax, digital infographic, text overlays, decorative outer frame, photo people, photo composites, CGI glossy skin, false archival watermark, empty subtitle area. Full bleed Oregon coastal dune, sky filled with irregular large paper-sculpted pieces of dead whale blubber falling far above 1970 spectators and an old sedan, sea on horizon, one coherent physical handmade paper diorama, lateral low angle toward falling material; no live whales, human injuries or photographs.",
+      "camera_whole_frame_only": "slow whole-frame zoom in",
+      "source_image_reuse": null,
+      "paper_plane_placement": null,
+      "factual_limits": "All falling tissue from a whale already dead; no actual rain/weather event.",
+      "media_status": "NOT_GENERATED"
+    },
+    {
+      "scene_id": "S002",
+      "narration_en": "A dead, forty-five-foot sperm whale had washed ashore near Florence. It weighed about eight tons, and the smell was getting worse.",
+      "narration_ru": "Рядом с городом Флоренс на берег выбросило мёртвого кашалота длиной почти четырнадцать метров. Он весил около восьми тонн, и запах становился всё хуже.",
+      "meaning": "Carcass scale",
+      "duration_seconds_provisional": 5.6,
+      "art_prompt": "ONE single self-contained full-frame portrait 9:16 entirely layered handmade paper/card diorama, visibly thick cut edges and fibers, physical directional light, real-contact shadows, era-accurate paper figures with coherent limbs and foot-ground contact, detailed handmade 1970 Oregon coast; rich but readable cinematic focus, no isolated moving layers, parallax, digital infographic, text overlays, decorative outer frame, photo people, photo composites, CGI glossy skin, false archival watermark, empty subtitle area. Medium-wide oblique paper diorama of a 45-foot deceased sperm whale stranded on windy sandy Oregon beach in 1970, small paper-dressed highway workers far behind, grey ocean waves, readable size and tactile folds, carcass stationary and intact, no blood.",
+      "camera_whole_frame_only": "whole-frame slight pan left",
+      "source_image_reuse": null,
+      "paper_plane_placement": null,
+      "factual_limits": "Contemporary 1970 Oregon reconstruction; not documentary evidence.",
+      "media_status": "NOT_GENERATED"
+    },
+    {
+      "scene_id": "S003",
+      "narration_en": "The highway department had to clear the beach. They ruled out burial because the waves might uncover the carcass again.",
+      "narration_ru": "Дорожному управлению нужно было очистить пляж. Закапывать тушу не хотели: волны могли снова обнажить её.",
+      "meaning": "Why burial wasn't chosen",
+      "duration_seconds_provisional": 5.3,
+      "art_prompt": "ONE single self-contained full-frame portrait 9:16 entirely layered handmade paper/card diorama, visibly thick cut edges and fibers, physical directional light, real-contact shadows, era-accurate paper figures with coherent limbs and foot-ground contact, detailed handmade 1970 Oregon coast; rich but readable cinematic focus, no isolated moving layers, parallax, digital infographic, text overlays, decorative outer frame, photo people, photo composites, CGI glossy skin, false archival watermark, empty subtitle area. Paper diorama of Oregon state highway officials in 1970 standing near driftline surveying the huge dead sperm whale and the tide line, one official points toward waves and exposed sand, natural muted seaside lighting, simple physical gesture rather than CGI diagrams.",
+      "camera_whole_frame_only": "slow whole-frame zoom out",
+      "source_image_reuse": null,
+      "paper_plane_placement": null,
+      "factual_limits": "Contemporary 1970 Oregon reconstruction; not documentary evidence.",
+      "media_status": "NOT_GENERATED"
+    },
+    {
+      "scene_id": "S004",
+      "narration_en": "So the crew treated the whale like a giant boulder: they decided to blow it apart.",
+      "narration_ru": "Поэтому рабочие решили обращаться с китом как с огромным валуном — взорвать его.",
+      "meaning": "Giant boulder analogy",
+      "duration_seconds_provisional": 5.2,
+      "art_prompt": "ONE single self-contained full-frame portrait 9:16 entirely layered handmade paper/card diorama, visibly thick cut edges and fibers, physical directional light, real-contact shadows, era-accurate paper figures with coherent limbs and foot-ground contact, detailed handmade 1970 Oregon coast; rich but readable cinematic focus, no isolated moving layers, parallax, digital infographic, text overlays, decorative outer frame, photo people, photo composites, CGI glossy skin, false archival watermark, empty subtitle area. Low-angle richly textured paper paper-cut highway engineer 1970 holding a folded survey clipboard with enormous whale body beyond and a natural beach boulder in the middle distance, a visual analogy without fake on-screen arrows or a new document claiming identical weights.",
+      "camera_whole_frame_only": "whole-frame slight pan right",
+      "source_image_reuse": null,
+      "paper_plane_placement": null,
+      "factual_limits": "Contemporary 1970 Oregon reconstruction; not documentary evidence.",
+      "media_status": "NOT_GENERATED"
+    },
+    {
+      "scene_id": "S005",
+      "narration_en": "They used half a ton of dynamite, hoping tiny pieces would fly toward the sea and be eaten by scavengers.",
+      "narration_ru": "Они заложили полтонны динамита, надеясь, что мелкие кусочки улетят к морю и их съедят падальщики.",
+      "meaning": "Unusual disposal plan",
+      "duration_seconds_provisional": 5.5,
+      "art_prompt": "ONE single self-contained full-frame portrait 9:16 entirely layered handmade paper/card diorama, visibly thick cut edges and fibers, physical directional light, real-contact shadows, era-accurate paper figures with coherent limbs and foot-ground contact, detailed handmade 1970 Oregon coast; rich but readable cinematic focus, no isolated moving layers, parallax, digital infographic, text overlays, decorative outer frame, photo people, photo composites, CGI glossy skin, false archival watermark, empty subtitle area. Detailed paper 1970 Oregon beach before blasting: a modest stack of period wooden dynamite supply crates placed near the carcass and distant highway crew conferring, whale lies motionless and whole, distant ocean, no step-by-step explosive placement or sparks, no fantasy Navy uniforms.",
+      "camera_whole_frame_only": "slow whole-frame zoom in",
+      "source_image_reuse": null,
+      "paper_plane_placement": null,
+      "factual_limits": "Contemporary 1970 Oregon reconstruction; not documentary evidence.",
+      "media_status": "NOT_GENERATED"
+    },
+    {
+      "scene_id": "S006",
+      "narration_en": "About seventy-five spectators and reporters watched from a quarter of a mile away. That seemed far enough.",
+      "narration_ru": "Примерно семьдесят пять зрителей и репортёров наблюдали с расстояния около четырёхсот метров. Казалось, этого достаточно.",
+      "meaning": "Spectator viewpoint plus Easter egg",
+      "duration_seconds_provisional": 5.2,
+      "art_prompt": "ONE single self-contained full-frame portrait 9:16 entirely layered handmade paper/card diorama, visibly thick cut edges and fibers, physical directional light, real-contact shadows, era-accurate paper figures with coherent limbs and foot-ground contact, detailed handmade 1970 Oregon coast; rich but readable cinematic focus, no isolated moving layers, parallax, digital infographic, text overlays, decorative outer frame, photo people, photo composites, CGI glossy skin, false archival watermark, empty subtitle area. Long lens view in one tactile paper world: sand dune spectators of mixed ages in late-1960s outerwear watching a barely visible dead whale a great distance down beach, 1970s reporter with physical notebook at camera right, small pale folded paper airplane tucked into notebook's outer pocket as a nonhistorical Easter egg, visible but secondary, no safety hazard exaggerated.",
+      "camera_whole_frame_only": "whole-frame pan left",
+      "source_image_reuse": null,
+      "paper_plane_placement": "A small pale folded paper airplane visible in an observer notebook pocket, nonhistorical channel character. Do not narrate it.",
+      "factual_limits": "Contemporary 1970 Oregon reconstruction; not documentary evidence.",
+      "media_status": "NOT_GENERATED"
+    },
+    {
+      "scene_id": "S007",
+      "narration_en": "Then came the blast. A towering cloud shot up, but the whale didn't disappear into harmless little pieces.",
+      "narration_ru": "Раздался взрыв. В небо взметнулся огромный столб, но кит не превратился в безобидную мелочь.",
+      "meaning": "Blast surprise",
+      "duration_seconds_provisional": 5.5,
+      "art_prompt": "ONE single self-contained full-frame portrait 9:16 entirely layered handmade paper/card diorama, visibly thick cut edges and fibers, physical directional light, real-contact shadows, era-accurate paper figures with coherent limbs and foot-ground contact, detailed handmade 1970 Oregon coast; rich but readable cinematic focus, no isolated moving layers, parallax, digital infographic, text overlays, decorative outer frame, photo people, photo composites, CGI glossy skin, false archival watermark, empty subtitle area. One full-bleed paper dune panorama of the historical 1970 dead-whale demolition in its first instant, enormous narrow explosion plume of sand and scattered paper blubber rising into sky behind distant low dune, spectators small at horizon; no injured people, no mushroom cloud, no modern military explosions.",
+      "camera_whole_frame_only": "whole-frame slight zoom out",
+      "source_image_reuse": null,
+      "paper_plane_placement": null,
+      "factual_limits": "Historical explosion is stylized but does not assert actual plume dimensions; original footage exists; don't use without rights.",
+      "media_status": "NOT_GENERATED"
+    },
+    {
+      "scene_id": "S008",
+      "narration_en": "Huge chunks fell back toward the crowd. People ran for cover as whale blubber splattered the sand.",
+      "narration_ru": "Громадные куски полетели обратно к толпе. Люди бросились в укрытие, пока китовый жир шлёпался на песок.",
+      "meaning": "Debris comes back",
+      "duration_seconds_provisional": 5.4,
+      "art_prompt": "ONE single self-contained full-frame portrait 9:16 entirely layered handmade paper/card diorama, visibly thick cut edges and fibers, physical directional light, real-contact shadows, era-accurate paper figures with coherent limbs and foot-ground contact, detailed handmade 1970 Oregon coast; rich but readable cinematic focus, no isolated moving layers, parallax, digital infographic, text overlays, decorative outer frame, photo people, photo composites, CGI glossy skin, false archival watermark, empty subtitle area. Paper spectators on a sandy dune suddenly ducking and running toward dune slope, high above them chunky paper material representing blubber falling against grey sky and beach; physically coherent contact feet/ground, exaggerated perspective but no cartoon fantasy monster, no people struck.",
+      "camera_whole_frame_only": "whole-frame pan right",
+      "source_image_reuse": null,
+      "paper_plane_placement": null,
+      "factual_limits": "Contemporary 1970 Oregon reconstruction; not documentary evidence.",
+      "media_status": "NOT_GENERATED"
+    },
+    {
+      "scene_id": "S009",
+      "narration_en": "One chunk smashed the roof of a parked car. Thankfully, nobody was reported hurt.",
+      "narration_ru": "Один кусок раздавил крышу припаркованной машины. К счастью, сообщений о пострадавших не было.",
+      "meaning": "Crushed parked car",
+      "duration_seconds_provisional": 5.1,
+      "art_prompt": "ONE single self-contained full-frame portrait 9:16 entirely layered handmade paper/card diorama, visibly thick cut edges and fibers, physical directional light, real-contact shadows, era-accurate paper figures with coherent limbs and foot-ground contact, detailed handmade 1970 Oregon coast; rich but readable cinematic focus, no isolated moving layers, parallax, digital infographic, text overlays, decorative outer frame, photo people, photo composites, CGI glossy skin, false archival watermark, empty subtitle area. Low near-road angle 1970 vintage sedan on coastal roadside with roof caved in beneath one fallen large chunk of grey paper blubber, no occupants, the road and sand dune visible with consistent scale and natural light, no flames, no invented blood or broken human figures.",
+      "camera_whole_frame_only": "gentle whole-frame zoom in",
+      "source_image_reuse": null,
+      "paper_plane_placement": null,
+      "factual_limits": "Only a parked car reportedly damaged; no people injured.",
+      "media_status": "NOT_GENERATED"
+    },
+    {
+      "scene_id": "S010",
+      "narration_en": "Even worse for the cleanup crew, enormous pieces of the whale were still on the beach. The seagulls weren't helping.",
+      "narration_ru": "Хуже всего для уборщиков было то, что огромные части туши так и остались на пляже. Чайки тоже не помогли.",
+      "meaning": "Failed cleanup",
+      "duration_seconds_provisional": 5.5,
+      "art_prompt": "ONE single self-contained full-frame portrait 9:16 entirely layered handmade paper/card diorama, visibly thick cut edges and fibers, physical directional light, real-contact shadows, era-accurate paper figures with coherent limbs and foot-ground contact, detailed handmade 1970 Oregon coast; rich but readable cinematic focus, no isolated moving layers, parallax, digital infographic, text overlays, decorative outer frame, photo people, photo composites, CGI glossy skin, false archival watermark, empty subtitle area. Wide melancholic but mildly comic paper beach aftermath: enormous intact whale carcass section and scattered giant remnants still across sand, empty sky where seagulls were expected, state officials standing tired at safe distance, craft layering on the pieces and sea, no birds conveniently eating it all.",
+      "camera_whole_frame_only": "gentle whole-frame zoom out",
+      "source_image_reuse": null,
+      "paper_plane_placement": null,
+      "factual_limits": "Contemporary 1970 Oregon reconstruction; not documentary evidence.",
+      "media_status": "NOT_GENERATED"
+    },
+    {
+      "scene_id": "S011",
+      "narration_en": "By evening, the workers were burying the remains anyway. Later, burying beached dead whales became the standard approach.",
+      "narration_ru": "К вечеру рабочие всё равно закапывали останки. Позже захоронение мёртвых китов стало обычным способом уборки.",
+      "meaning": "Burial policy payoff",
+      "duration_seconds_provisional": 5.4,
+      "art_prompt": "ONE single self-contained full-frame portrait 9:16 entirely layered handmade paper/card diorama, visibly thick cut edges and fibers, physical directional light, real-contact shadows, era-accurate paper figures with coherent limbs and foot-ground contact, detailed handmade 1970 Oregon coast; rich but readable cinematic focus, no isolated moving layers, parallax, digital infographic, text overlays, decorative outer frame, photo people, photo composites, CGI glossy skin, false archival watermark, empty subtitle area. Rich miniature paper seaside scene in 1970 late afternoon: ordinary period bulldozer pushing sand over remaining deceased whale pieces in a trench, no gore and no whale alive; broad original beach panorama, subdued sunset and compact crew, single image and no secondary overlay or text.",
+      "camera_whole_frame_only": "whole-frame slow pan left",
+      "source_image_reuse": null,
+      "paper_plane_placement": null,
+      "factual_limits": "Historical subsequent burial, not a new explosion.",
+      "media_status": "NOT_GENERATED"
+    },
+    {
+      "scene_id": "S012",
+      "narration_en": "All because their attempt to clear the sand created the strangest weather report imaginable:",
+      "narration_ru": "Всё потому, что попытка очистить пляж обернулась самым странным прогнозом погоды:",
+      "meaning": "Loop reset image",
+      "duration_seconds_provisional": 5.1,
+      "art_prompt": "Reuse exactly the accepted S001 actual source image, with identical visible subjects and materials, adjusting whole-frame crop only for the loop.",
+      "camera_whole_frame_only": "whole-frame zoom that ends at S001 initial crop",
+      "source_image_reuse": "S001",
+      "paper_plane_placement": null,
+      "factual_limits": "Contemporary 1970 Oregon reconstruction; not documentary evidence.",
+      "media_status": "NOT_GENERATED"
+    }
+  ]
+}
