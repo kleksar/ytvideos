@@ -11,7 +11,7 @@
 - TTS: нужный voice ID, аккаунт, формат и квота; renderer/FFmpeg/ffprobe, разрешённые encoder/font/profile.
 - Workspace/artifact storage, права чтения/записи и доступность нужных immutable inputs.
 - YouTube channel OAuth, API quota и обязательные Studio functions; календарная политика/timezone.
-- Trusted approval host: реальное пользовательское событие, Ed25519 verifier key и обработка replay/target/scope.
+- Согласование через чат: сохранённое пользовательское сообщение и проверка revision/target/scope/replay. Для отдельно выбранного подписанного host-маршрута проверить его Ed25519 verifier key.
 
 Missing release capability не блокирует research/script. Missing image capability не отменяет уже созданный звук. Не превращать отсутствие одного backend в глобальную остановку.
 

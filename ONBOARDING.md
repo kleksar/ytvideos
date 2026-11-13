@@ -18,7 +18,7 @@
 
 ## Новый канал
 
-Добавить проверенный ChannelSpec/PROFILE и необходимые `context_references` по [контракту контекста](docs/operations/task-contract.md#требования-в-контексте). Выбрать поддерживаемый recipe и проверить общий lifecycle без ветвления по имени канала. Проверить identity, voice/font/brand references, права, storage, providers, календарь и trusted approval bridge. Не создавать placeholders как работающие production каналы.
+Добавить проверенный ChannelSpec/PROFILE и необходимые `context_references` по [контракту контекста](docs/operations/task-contract.md#требования-в-контексте). Выбрать поддерживаемый recipe и проверить общий lifecycle без ветвления по имени канала. Проверить identity, voice/font/brand references, права, storage, providers, календарь и запись согласований через чат по контракту approval. Не создавать placeholders как работающие production каналы.
 
 ## Старый выпуск
 

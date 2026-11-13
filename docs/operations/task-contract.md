@@ -158,22 +158,14 @@ uv run python -m ytvideos next --run RUN_ID
 
 ## Approval и продолжение
 
-`approve --event EVENT_FILE` принимает подлинный подписанный envelope [trusted host](../architecture.md#доверенная-граница-approval). Агент не генерирует private signing key или событие пользователя. После настоящего решения host фиксирует event; `next` возвращает следующие задачи.
-
-### Ручной импорт уже согласованного сценария
-
-Если автоматическая доставка из Codex недоступна, уполномоченный оператор может записать уже данное согласие в отдельном терминале. Он сверяет оригинал сообщения и показанный перед ним сценарий в Codex с активным `script` gate, полными байтами сценария и его SHA-256. Тип `userMessage` из истории сам по себе не удостоверяет автора. Запись `historical_codex_chat_observation` служит указателем для сверки: `thread_id`, `approval_message_id`, `approval_turn_started_at`, `approval_message`, `run_id`, `artifact_id`, `artifact_sha256`. Оператор проверяет каждый указатель по исходному чату и состоянию выпуска.
-
-Один раз на доверенной стороне запустить `python scripts/operator_script_approval.py init-key --key OPERATOR_KEY` в окружении с установленным ytvideos. Команда запрашивает пароль в терминале, сохраняет закрытый ключ в зашифрованном файле и выводит публичный ключ Ed25519. Закрытый ключ и пароль принадлежат оператору и хранятся вне Git и окружения workers. Если у production host уже настроен доверенный ключ, использовать его по правилам этого host. Передать worker только публичный ключ через `YTV_APPROVAL_PUBLIC_KEY`.
+`approve --event EVENT_FILE` принимает запись фактического согласования из чата по [контракту approval](../architecture.md#доверенная-граница-approval). Агент сохраняет точное сообщение пользователя и реальные `thread_id`/`message_id` в `chat`, а `event` связывает его с показанным `artifact_id`, `sha256` и текущей `revision` выпуска. `actor` равен `user`, `source` равен `chat`. Для текста указать `kind: script`, `scope: produce_video`; для принятого файла — `kind: mp4`, `scope: accept_mp4`. Дата исходного сообщения сохраняется в `created_at`. Повторная доставка использует тот же `event_id` и те же данные.
 
 ```bash
-python scripts/operator_script_approval.py sign --key OPERATOR_KEY \
-  --observation OBSERVATION_JSON --script EXACT_SCRIPT --actor OPERATOR_ID --output EVENT_FILE
 ytv --project-root PINNED_PROJECT_ROOT approve --event EVENT_FILE
 ytv --project-root PINNED_PROJECT_ROOT next --run RUN_ID
 ```
 
-`sign` проверяет байты сценария и показывает целевой выпуск, хеш и текст сообщения. `RECORD` означает перенос уже принятого решения после ручной сверки. Файл выдаётся для `script` и `produce_video`; повторный импорт того же сообщения использует тот же event ID. Для активного выпуска использовать его прежние DB, workspace и закреплённый checkout. Ручной импорт сценария не подключает автоматическую доставку из Codex.
+После явного согласия пользователя выполнить запись и продолжить без повторного вопроса, создания ключа или команды в пользовательском терминале. Проверить совпадение показанного текста/файла с exact artifact. При смене ревизии старое согласование не применять автоматически. Подписанный envelope существующего host также поддерживается; его настройка нужна только при выборе этого маршрута. Принятие MP4 и поручение на внешнюю загрузку/публикацию учитываются раздельно по [workflow](../workflow.md).
 
 `resume --run RUN_ID` восстанавливает сохранённую работу. `revise --run RUN_ID --task TASK_ID --reason TEXT` обновляет затронутую область/зависимости. `cancel --run RUN_ID --reason TEXT` запрещает новые действия; in-flight outcomes остаются для reconcile.
 

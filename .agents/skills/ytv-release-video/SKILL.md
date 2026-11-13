@@ -5,7 +5,7 @@ description: "Develop thumbnail hooks, AI composition drafts and full-card QA af
 
 # Упаковать и выполнить порученный выпуск
 
-Прочитать task context, профиль и [release](../../../docs/standards/release.md). `packaging` начинается после script approval. Для `upload`, `configure_release`, `schedule` требуется прямое поручение на выпуск и одобрение точного MP4 в соответствующем scope. Credentials/signing key остаются в trusted host.
+Прочитать task context, профиль и [release](../../../docs/standards/release.md). `packaging` начинается после script approval. Для `upload`, `configure_release`, `schedule` требуется прямое поручение на выпуск и одобрение точного MP4 в соответствующем scope. Credentials остаются в настроенном host. Ключ подписи требуется только отдельно подключённому подписанному маршруту согласования.
 
 ## Packaging
 

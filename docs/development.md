@@ -29,7 +29,7 @@ uv run python -m ytvideos --help
 uv run python -m unittest discover -s tests -p 'test_*.py'
 ```
 
-[Task contract](operations/task-contract.md) содержит копируемые команды и точную форму outputs/receipts. Справка CLI — источник точного синтаксиса. `create`, `status`, `next`, `context`, `complete`, `approve`, `resume`, `cancel`, `doctor` и `import-legacy` обслуживают сохранённое состояние. `approve --event FILE` принимает только envelope trusted host; не создавать production approvals вручную из слов модели.
+[Task contract](operations/task-contract.md) содержит копируемые команды и точную форму outputs/receipts. Справка CLI — источник точного синтаксиса. `create`, `status`, `next`, `context`, `complete`, `approve`, `resume`, `cancel`, `doctor` и `import-legacy` обслуживают сохранённое состояние. `approve --event FILE` принимает сохранённое решение пользователя из чата с exact artifact/revision и исходным сообщением; также поддерживается подписанный envelope существующего host. Использовать реальное решение по [контракту](operations/task-contract.md#approval-и-продолжение).
 
 SQLite использовать для изолированных tests/local runs. Для production PostgreSQL integration проверить транзакции/конкуренцию и actual driver; skipped database tests не считать PASS реального Postgres. Missing native fonts/provider credentials не подменять фиктивным live output.
 
@@ -68,7 +68,7 @@ Checker проверяет current entrypoints, PROFILE.md и явные context
 
 ## Secrets и артефакты
 
-Ключи/OAuth tokens/private approval key и media не входят в Git. Public verifier key передаётся конфигурацией host. Не печатать credentials при doctor/errors. Большие cache/output складывать в runtime workspace, не source checkout. Реальный файл, подвергнутый QA, связывать с хешем и provenance.
+Ключи/OAuth tokens/private approval key и media не входят в Git. Для отдельно подключённого подписанного маршрута public verifier key передаётся конфигурацией host. Не печатать credentials при doctor/errors. Большие cache/output складывать в runtime workspace, не source checkout. Реальный файл, подвергнутый QA, связывать с хешем и provenance.
 
 ## Проверка полноты исходного запроса
 

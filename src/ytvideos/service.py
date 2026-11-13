@@ -479,6 +479,8 @@ class Production:
         event = self.approvals.verify(envelope)
         def change(tx, run):
             self._runtime(run)
+            if event.get("source") == "chat" and event["revision"] != run["revision"]:
+                raise Conflict("chat approval targets an older run revision")
             task_id = "script" if event["kind"] == "script" else "render"
             artifact = self._artifact(run, task_id)
             if run["tasks"][task_id]["status"] != "complete":
@@ -598,6 +600,8 @@ class Production:
     def _publication_guard(self, run, stage):
         if not valid_approval(run, "script") or not valid_approval(run, "mp4"):
             raise WorkflowError("publication requires exact script and MP4 approvals")
+        if run["approvals"]["mp4"].get("scope") != "schedule_publication":
+            raise WorkflowError("publication requires an explicit user release instruction")
         self._artifact(run, "render")
         self._artifact(run, "packaging")
         spec = self._release_spec(run)

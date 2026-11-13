@@ -7,9 +7,11 @@ def inspect(production, run_id=None):
     checks = [dict(capability="state.store", available=True, evidence=production.store.health()),
               dict(capability="artifact.local_storage", available=os.access(production.artifacts.root, os.W_OK),
                    evidence=str(production.artifacts.root)),
+              dict(capability="approval.chat", available=True,
+                   evidence="explicit chat decisions can be recorded with original message and exact artifact"),
               dict(capability="approval.verifier", available=bool(production.approvals.public_key),
-                   evidence="Ed25519 public verifier configured" if production.approvals.public_key else
-                   "no public verifier; writing the script can proceed, approvals require trusted bridge setup")]
+                   evidence="optional signed host verifier configured" if production.approvals.public_key else
+                   "optional signed host verifier is not configured; chat approvals are available")]
     for binary in ("ffmpeg", "ffprobe"):
         path = shutil.which(binary)
         checks.append(dict(capability=f"local.{binary}", available=bool(path), evidence=path or "binary not found"))
@@ -29,7 +31,7 @@ def inspect(production, run_id=None):
             checks.append(dict(capability=name, available=False, evidence="runtime has not observed this capability"))
     if not any(check["capability"] == "approval.bridge" for check in checks):
         checks.append(dict(capability="approval.bridge", available=False,
-                           evidence="live trusted user-event delivery has not been observed; a public key alone is insufficient"))
+                           evidence="automatic chat event delivery has not been observed; record the existing user decision through approve"))
     return {"checks": checks, "policy": "Missing downstream capability does not block independent upstream work.",
             "limits": ["Local files are not a verified shared backup.",
                        "The CLI does not create ChatGPT sessions by itself; a supported host dispatcher is required.",

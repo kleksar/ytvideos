@@ -57,7 +57,7 @@ Playlist выбирать по фактическому содержанию и 
 
 API использовать для поддерживаемых операций; обязательные функции Studio выполнять через доступный разрешённый UI adapter. Проверять capabilities до дорогого производства. Не выдумывать endpoint для конечных заставок/A/B/related video и не обходить ограничения другим клиентом.
 
-Перед вызовом адаптер проверяет trusted approval event, scope, artifact hash, channel, политику, lease/revision и operation key. Credentials остаются за границей модели. User event поступает через доверенный host bridge; свободная строка `accepted=true` не является разрешением. Не логировать tokens, resumable session credentials или подписывающие ключи.
+Перед вызовом адаптер проверяет записанное согласование, разрешённый scope, artifact hash, channel, политику, lease/revision и operation key. Решение пользователя из чата сохраняется по [контракту](../operations/task-contract.md#approval-и-продолжение). Прямое поручение на внешнее действие учитывается отдельно от приёмки MP4. Credentials остаются за границей модели. Не логировать tokens, resumable session credentials или ключи отдельно подключённого подписанного host.
 
 Получить canonical request через `operation-payload`; `begin-operation` принимает только совпадающий payload. Outcome receipt для `observe-operation` обязан содержать точные `operation_key`, `attempt_id`, `task_input_hash`, `status` и структурированный `provider_evidence`. Completion upload дополнительно сверяет channel/video/media/private с confirmed provider observation. Полная схема и команды — [task contract](../operations/task-contract.md#media-изображения-release).
 

@@ -54,7 +54,7 @@ def parser():
     complete.add_argument("--output", required=True, type=Path)
     complete.add_argument("--receipt", required=True, type=Path)
     complete.add_argument("--actual-units", type=int, help="Measured cost; omission retains the reservation as unknown")
-    approval = sub.add_parser("approve", help="Ingest a signed event from the trusted user-event bridge")
+    approval = sub.add_parser("approve", help="Record an explicit chat decision or an optional signed host event")
     approval.add_argument("--event", required=True, type=Path)
     caps = sub.add_parser("capabilities")
     caps.add_argument("--run", required=True)

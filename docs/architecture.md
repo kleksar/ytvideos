@@ -30,28 +30,35 @@ Session slot не является сценой: один slot выполняе�
 
 ## Доверенная граница approval
 
-Approval bridge получает реальное событие пользователя и создаёт подписанный envelope:
+Пользователь согласует показанный сценарий или MP4 сообщением в чате. Агент сохраняет точный текст этого сообщения, реальные IDs чата/сообщения, текущую revision и hash показанного артефакта. Команда `approve --event` проверяет структуру, целевой артефакт, revision, scope и повторную доставку. Для этого маршрута ключи, цифровая подпись и ручной импорт пользователем не требуются.
 
 ```json
 {
   "event": {
-    "event_id": "host-user-event-id",
-    "actor": "verified-user",
-    "source": "trusted-host",
+    "event_id": "chat:thread-id:message-id",
+    "actor": "user",
+    "source": "chat",
     "run_id": "run-id",
     "kind": "script",
     "artifact_id": "artifact-id",
     "sha256": "exact-artifact-sha256",
     "created_at": "RFC3339",
-    "scope": "produce_video"
+    "scope": "produce_video",
+    "revision": 1
   },
-  "signature": "base64-ed25519-signature"
+  "chat": {
+    "thread_id": "thread-id",
+    "message_id": "message-id",
+    "text": "Да, подтверждаю английскую версию. Делай ролик."
+  }
 }
 ```
 
-Verifier использует публичный Ed25519 key `YTV_APPROVAL_PUBLIC_KEY`. Private signing key принадлежит trusted UI/operator host и не доступен модели, subprocess task или Git. Свободный JSON от модели, пользовательская цитата в research и `accepted=true` не становятся одобрением. Event ID дедуплицируется, target/hash/scope проверяются. Формальные поля не доказывают происхождение без действительной подписи.
+Агент переносит фактическое решение из разговора. Самоотчёт, цитата из исследуемой страницы или выдуманный message ID не дают согласования. Проверка схемы не удостоверяет автора криптографически; маршрут использует полномочия текущего разговора и сохраняет запись решения. Уточнение нужно только при реальной неоднозначности одобренной версии или области поручения.
 
-Репозиторий предоставляет boundary и verifier; конкретное подключение ChatGPT UI к доверенным user events требует host integration. До её проверки `doctor` показывает blocker. Разработка сценария при этом доступна. Локальные test signers не являются production authority.
+Для `script` применяется scope `produce_video`, для принятия `mp4` — `accept_mp4`. Прямое поручение на upload или публикацию сохраняется отдельно. Одобрение MP4 подтверждает приёмку точного файла.
+
+Подписанный envelope существующего trusted host остаётся совместимым маршрутом. Он использует `YTV_APPROVAL_PUBLIC_KEY`; закрытый ключ принадлежит host. Отсутствие этого подключения не блокирует согласование через чат.
 
 ## Side effects, повторы и отмена
 
