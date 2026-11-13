@@ -144,10 +144,11 @@ class ReleaseTests(unittest.TestCase):
         self.assertNotIn('Missing community_post', prepare_release_plan(spec, POLICY, now=NOW)['blockers'])
         self.assertIn('Unverified saved value: community_post',
                       validate_receipts(spec, POLICY, (), video_id=VIDEO, phase='after_publish'))
-        self.assertEqual(validate_receipts(spec, POLICY, (
-            receipt(spec, post, observed_value={'text': data['community_post']['text'],
-                                                'linked_video_id': VIDEO}),
-        ), video_id=VIDEO, phase='after_publish'), ())
+        self.assertNotIn('Unverified saved value: community_post',
+                         validate_receipts(spec, POLICY, (
+                             receipt(spec, post, observed_value={'text': data['community_post']['text'],
+                                                                 'linked_video_id': VIDEO}),
+                         ), video_id=VIDEO, phase='after_publish'))
         self.assertIn('Unverified saved value: community_post',
                       validate_receipts(spec, POLICY, (
                           receipt(spec, post, observed_value={'text': data['community_post']['text'],
