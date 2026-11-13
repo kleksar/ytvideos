@@ -283,6 +283,8 @@ Manifest имеет `schema: ytv.montage_trial.v1`, `purpose: montage_trial`, `p
 
 Sidecar `MP4.montage_trial.json` связывает exact manifest/input/document/code hashes, actual argv, исходные свойства, использованные интервалы и фактический output probe/hash. Он содержит `production_acceptance:false`, `review:UNVERIFIED`. Существующие output/receipt не перезаписываются. Регистрация `attach-artifact --kind montage_trial` добавляет preview к тому же run; она не создаёт render output, QA или approval.
 
+Для звуковой пробы `python automation/montage_trial_sound.py --manifest sound.json --output NEW.mp4` добавляет дорожки без перекодирования видео. Схема `ytv.montage_trial_sound.v1`: `picture` и `picture_receipt` содержат `path` и `sha256`; `required_roles` и `layers` задаются явно. Слой: `role` (narration/music/clip/ambience/foley), `path`, `sha256`, `at`, `source_in`, `duration`, `gain_db`, `fade_in`, `fade_out`. Время в секундах; для clip указать `scene`, совпадающую с источником и интервалом картинки. Обязательный clip должен покрыть все видео в пробе; обязательная music — весь монтаж. Сохраняются технический receipt, манифест и результаты прослушивания или честный UNVERIFIED. Проба с временным голосом не закрывает production audio/render.
+
 ### Музыкальный рендер
 
 `music_first` исполняется по принятому typed edit-script. Audio task требует `audio.mix` и `audio.listen`; `vocal` также использует `subtitle.align`, а `instrumental` завершает subtitles через `no_speech`. Читать точные checks и output kind из task context и `task_guide.music_edit`. Регистрация исходников и `rights_evidence` сохраняет bytes; право использования подтверждается отдельной проверкой.
