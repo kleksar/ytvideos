@@ -1,15 +1,9 @@
-**Актуализация 96c8fa1573c0:** Nuviko History `active` в текущем `main` (старые frozen-пометки исторические). Этот текстовый PR не официальный `ytv start` run и не одобренный сценарий; для производства требуются независимое прочтение и настоящий `awaiting_script_approval`. Подробнее: [handoff](handoff.md).
+# Nuviko History — Castle Itter, spoken revision
 
-# Castle Itter (1945) — historical Short draft for Nuviko History
+**[Полный русский сценарий](script.ru.txt)** · **[English narration](script.en.txt)**
 
-**[Читать полный русский сценарий](script.ru.txt)** · **[English narration master](script.en.txt)**
+Немецкий офицер просит американцев помочь защитить французских заключённых от СС. До замка добирается лишь небольшая группа с одним танком. Дальше — бой, потеря танка, попытка привести подкрепление и освобождение заключённых.
 
-Немецкий офицер просит американских танкистов вместе защитить французских заключённых от СС. Единственный танк при замке выводят из строя, но помощь приходит — а немецкий офицер погибает до развязки.
+Current draft: fourteen EN/RU blocks and [provisional scene briefs](storyboard.json). [Research](research.md) retains source history; [review](story-review.md) records what changed, exact loop and unperformed checks. Baseline package: `1c19548c0edf5898f65244ab0de08f078f84e0ec`.
 
-- `research.md`: 10 тем, 3 конкурирующих коротких заявки, источник/доказательство/неопределённость и аудитория.
-- `story-review.md`: художественные риски, факты, прямой текстовый EN/RU стык, UNVERIFIED independent review.
-- `storyboard.json`: 15 предварительных сцен, целиком записанные narration EN/RU и самодостаточные AI image prompts.
-- `packaging-brief.md`: три разные пары title / image promise.
-- `handoff.md`: для локального агента после отдельного одобрения владельца.
-
-**No production run, approved audio, source PNG, SRT, MP4 or release exists.**
+**EDITORIAL_CANDIDATE_UNREGISTERED.** Channel status must be read from current ChannelSpec. This script is not independently accepted or production-approved; old scene counts, timing and reviews are stale. No images, audio, MP4, merge or publication. [Local handoff](handoff.md).
