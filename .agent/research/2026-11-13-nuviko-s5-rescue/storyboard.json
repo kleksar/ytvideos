@@ -190,25 +190,25 @@
     },
     {
       "id": "S014",
-      "narration": "This time, nobody was inside. The rescue had begun when a passing captain noticed something white above the water.",
-      "narration_ru": "На этот раз внутри никого не было. Спасение началось с того, что капитан проходившего судна заметил что-то белое над водой.",
+      "narration": "This time, nobody was inside. During the first sinking, a passing captain had turned back after seeing something strange:",
+      "narration_ru": "На этот раз внутри никого не было. А во время первого затопления капитан проходящего судна развернулся, увидев необычную картину:",
       "target_seconds_provisional": 5.5,
-      "visual_intent": "Natural loop: reveal the one bright object spotted by rescuers",
+      "visual_intent": "Return directly from the failed second tow to the specific sight that made the passing ship turn back during the first sinking; S001 displays it after the spoken colon.",
       "ai_image_prompt": "9:16 portrait, one complete full-frame independent photorealistic image, plausible historical reconstruction of USS S-5 September 1920 where applicable, natural muted cinematic lighting and realistic materials, historically correct 1920 clothing and machinery; archive references for hull appearance, never falsely labeled archival photography. No baked-in subtitle strip, caption graphics, watermarks, floating SVG arrows, layered parallax output or fake identifiable portraits. Reuse the approved source image for S001, NOT a new generation: solitary white shirt on copper pipe at the protruding rear of submarine S-5 in Atlantic, viewed from passing merchant vessel, no crew outside; frame the same white patch as earlier but return the camera pose to S001 start for seamless cycle.",
       "whole_frame_camera_suggestion": "use actual S001 approved source artwork, ending camera pose exactly matches its opening camera pose",
-      "historical_boundary": "This is a deliberate narrative flashback to the white flag, not a second historical rescue or claim the submarine resurfaced after final sinking.",
+      "historical_boundary": "The second sinking happened with nobody aboard. The passing captain did turn back during the first sinking when he spotted the white shirt. This is a narrated flashback, not a second rescue.",
       "reuse_source_image": "S001",
       "actual_source_image": null,
       "status": "NOT_GENERATED"
     }
   ],
   "seam": {
-    "narrator_last": "This time, nobody was inside. The rescue had begun when a passing captain noticed something white above the water.",
+    "narrator_last": "This time, nobody was inside. During the first sinking, a passing captain had turned back after seeing something strange:",
     "narrator_first": "A white T-shirt was waving above the Atlantic waves. Just beneath it, thirty-eight sailors were trapped inside a submarine.",
-    "russian_last": "На этот раз внутри никого не было. Спасение началось с того, что капитан проходившего судна заметил что-то белое над водой.",
+    "russian_last": "На этот раз внутри никого не было. А во время первого затопления капитан проходящего судна развернулся, увидев необычную картину:",
     "russian_first": "Над атлантическими волнами развевалась белая футболка. А прямо под ней в подлодке были заперты тридцать восемь моряков.",
-    "significance": "Ending points to the indistinct white object on the sea; first shot reveals the white T-shirt. Main story and survivor payoff are complete before replay.",
-    "text_check": "AUTHORIAL_PASS",
+    "significance": "The concluding colon asks the next image/sentence to show exactly what the captain saw. The cold opening independently works as a strong complete sentence; the 38-man payoff is already delivered. Visual S014 must return to source image S001, while actual audio, captions and MP4 join remain UNVERIFIED.",
+    "text_check": "AUTHORIAL_PASS_DIRECT_RING_EN_RU",
     "actual_tts_and_mp4_check": "UNVERIFIED"
   }
 }

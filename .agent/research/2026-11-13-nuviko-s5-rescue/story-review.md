@@ -18,7 +18,7 @@ Why was a white shirt waving above the sea, and could that signal save 38 sailor
 | Human moment | S011 reported 'To hell, by compass!' answer | Character and a truthful historical exchange |
 | Payoff | S012 second ship widens hole, 38 escape | Central rescue promise fulfilled before loop |
 | Final sting | S013 towline snaps, empty submarine sinks again | Unexpected loss of vessel but everyone safe |
-| Loop | S014 'something white above the water' to S001 T-shirt | Returns naturally to the observed rescue signal |
+| Loop | S014 passing captain sees something strange: → S001 white T-shirt above waves | The end directly introduces what the beginning shows and says |
 
 ## Authorial checks and boundaries
 
@@ -30,6 +30,18 @@ Why was a white shirt waving above the sea, and could that signal save 38 sailor
 - CAUTION: The planned 14 shots total approximately 76 seconds but EN narration has 241 words. Actual voice duration may require re-cutting/more distinct compositions or cutting text. Do not speed narration arbitrarily and do not expand a weak idea for scene count.
 - UNVERIFIED: Whether a cold first listener wants to keep watching, how easy the timeline is to follow, and whether the final salvage twist improves or weakens the ending.
 - UNVERIFIED: Original traveler PNG bytes, source image licensing, visual geometry, actual voice, English SRT and the MP4 seam.
+
+## Exact text ring — ending → beginning
+
+English, concatenated exactly at the repeat:
+
+> This time, nobody was inside. During the first sinking, a passing captain had turned back after seeing something strange: A white T-shirt was waving above the Atlantic waves. Just beneath it, thirty-eight sailors were trapped inside a submarine.
+
+Русский, дословная склейка:
+
+> На этот раз внутри никого не было. А во время первого затопления капитан проходящего судна развернулся, увидев необычную картину: Над атлантическими волнами развевалась белая футболка. А прямо под ней в подлодке были заперты тридцать восемь моряков.
+
+**Authorial text check: PASS** for a real sentence-to-sentence link, rather than the prior loose thematic callback. The final colon invites the specific scene, which is supplied by the opening; the opening can also stand on its own during a cold view. The final sinking has already resolved without fatalities. **Audio cadence, visual position/crop, subtitles and playback seam remain UNVERIFIED** until actual production. Do not call the full AV loop PASS.
 
 ## Independent cold-read test (NOT_RUN)
 
