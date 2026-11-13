@@ -255,11 +255,45 @@ def _fragment_contracts(plan, requirements):
     return contracts
 
 
-def validate_fragment_review(document, *, plan, requirements, media_sha256, reviewer, sources):
+def _finite_review_number(value):
+    try:
+        return type(value) in (int, float) and math.isfinite(value)
+    except OverflowError:
+        return False
+
+
+def _fragment_coverage(coverage, *, first, stop, label):
+    if not isinstance(coverage, list) or not coverage:
+        raise WorkflowError("fragment review requires full " + label + " motion coverage, not three stills")
+    intervals = []
+    for interval in coverage:
+        if not isinstance(interval, dict):
+            raise WorkflowError("fragment " + label + " coverage must contain actual intervals")
+        start, end = interval.get("start_seconds"), interval.get("end_seconds")
+        if (any(not _finite_review_number(value) for value in (start, end))
+                or not first <= start < end <= stop):
+            raise WorkflowError("fragment " + label + " coverage falls outside the accepted interval")
+        intervals.append((start - first, end - first))
+    if not _intervals_cover(intervals, stop - first):
+        raise WorkflowError("fragment " + label + " motion coverage omits part of the used interval")
+    return intervals
+
+
+def _fragment_probe_duration(probe):
+    if not isinstance(probe, dict) or not isinstance(probe.get("video"), list) or len(probe["video"]) != 1:
+        raise WorkflowError("fragment review requires measured source and final video probes")
+    duration = probe.get("duration_seconds")
+    if not _finite_review_number(duration) or duration <= 0:
+        raise WorkflowError("fragment review requires a finite positive measured duration")
+    return duration
+
+
+def validate_fragment_review(document, *, plan, requirements, media_sha256, reviewer, sources, media_probe=None):
     """Check complete manual observations, never infer motion/crop quality from a detector."""
     if not requirements["visual"].get("source_interval_review", False):
         return []
     validate_render_manifest(plan, requirements)
+    final_duration = _fragment_probe_duration(media_probe)
     if (not isinstance(document, dict) or document.get("schema") != "ytv-source-fragment-review-v1"
             or document.get("artifact_sha256") != media_sha256 or document.get("reviewer") != reviewer):
         raise WorkflowError("fragment review must bind the exact MP4 and independent reviewer")
@@ -285,20 +319,21 @@ def validate_fragment_review(document, *, plan, requirements, media_sha256, revi
             if not isinstance(observation, dict) or observation.get("status") != "PASS":
                 raise WorkflowError("fragment " + name + " remains FAIL or UNVERIFIED")
             require_text(observation.get("notes"), "fragment " + name + " observations")
-        coverage = row.get("source_coverage")
-        if not isinstance(coverage, list) or not coverage:
-            raise WorkflowError("fragment review requires full source motion coverage, not three stills")
-        intervals = []
-        for interval in coverage:
-            if not isinstance(interval, dict):
-                raise WorkflowError("fragment source coverage must contain actual intervals")
-            start, end = interval.get("start_seconds"), interval.get("end_seconds")
-            if (any(type(value) not in (int, float) or not math.isfinite(value) for value in (start, end))
-                    or not source["start_seconds"] <= start < end <= source["end_seconds"]):
-                raise WorkflowError("fragment source coverage falls outside the accepted interval")
-            intervals.append((start - source["start_seconds"], end - source["start_seconds"]))
-        if not _intervals_cover(intervals, source["end_seconds"] - source["start_seconds"]):
-            raise WorkflowError("fragment source motion coverage omits part of the used interval")
+        source_probe = accepted.get("source_probe")
+        if source["end_seconds"] > _fragment_probe_duration(source_probe) + .05:
+            raise WorkflowError("fragment source interval exceeds the measured original media")
+        intervals = _fragment_coverage(row.get("source_coverage"), first=source["start_seconds"],
+                                       stop=source["end_seconds"], label="source")
+        _review_inspection({"inspection": row.get("source_inspection")}, "motion",
+                           source["end_seconds"] - source["start_seconds"], intervals, source_probe)
+        fps = Fraction(requirements["video"]["fps"])
+        final_first = float(Fraction(timeline["visible_start_frame"]) / fps)
+        final_stop = float(Fraction(timeline["visible_end_frame"]) / fps)
+        if final_stop > final_duration + .05:
+            raise WorkflowError("fragment final interval exceeds the measured rendered media")
+        final_intervals = _fragment_coverage(row.get("final_coverage"), first=final_first, stop=final_stop, label="final")
+        _review_inspection({"inspection": row.get("final_inspection")}, "motion",
+                           final_stop - final_first, final_intervals, media_probe)
         anchors = row.get("source_anchors_seconds")
         expected_anchors = accepted.get("source_anchors_seconds")
         if (not isinstance(anchors, list) or len(anchors) != 3
@@ -343,6 +378,8 @@ def validate_render_manifest(plan, requirements):
                 or type(scene.get("end_frame")) is not int or scene["start_frame"] != cursor
                 or scene["end_frame"] <= cursor):
             raise WorkflowError("production scenes must cover one continuous frame timeline")
+        if "motion_clip" in scene or ("image" in scene and "clip" in scene):
+            raise WorkflowError("mixed image/video scenes require a supported bound renderer; unsupported motion inputs must not be ignored")
         cursor = scene["end_frame"]
         if requirements["visual"]["motion"] == "whole_frame" and scene.get("role") != "end_screen":
             direction, zoom = scene.get("direction"), scene.get("zoom")
@@ -428,9 +465,90 @@ def validate_render_manifest(plan, requirements):
             "has_speech": has_speech, "requires_srt": needs_srt}
 
 
-def validate_review_observation(check, *, media_sha256, duration):
+def _review_inspection(observed, name, duration, intervals, media_probe):
+    """Validate declared observation mode, not the truth of a reviewer's perception."""
+    inspection = observed.get("inspection")
+    if not isinstance(inspection, dict):
+        raise WorkflowError("review requires a typed inspection method")
+    mode = inspection.get("mode")
+    modes = {"frame_inspection", "video_playback", "audio_listening", "av_playback",
+             "media_probe", "document_inspection"}
+    if not isinstance(mode, str) or mode not in modes:
+        raise WorkflowError("unsupported review inspection mode")
+    require_text(inspection.get("tool"), "actual inspection tool or surface")
+    allowed = ({"av_playback"} if name == "av_loop" else
+               {"audio_listening", "av_playback"} if name in {"listening", "music", "no_speech"} else
+               {"video_playback", "av_playback"} if name in {"motion", "subtitles", "captions"} else
+               {"frame_inspection", "video_playback", "av_playback"} if name == "visual_review" else modes)
+    if mode not in allowed:
+        raise WorkflowError("inspection mode cannot establish " + str(name))
+    if mode in {"video_playback", "audio_listening", "av_playback"}:
+        if set(inspection) != {"mode", "tool", "playback_speed"}:
+            raise WorkflowError("playback inspection requires its actual speed, not frame sampling")
+        speed = inspection["playback_speed"]
+        if not _finite_review_number(speed) or speed <= 0:
+            raise WorkflowError("playback speed must be a finite positive number")
+        if name in {"motion", "av_loop"} and speed != 1:
+            raise WorkflowError(str(name) + " acceptance requires normal-speed playback; slow motion is supplementary")
+        return
+    if mode != "frame_inspection":
+        if set(inspection) != {"mode", "tool"}:
+            raise WorkflowError("non-playback inspection must not claim playback or frame coverage")
+        return
+    if set(inspection) != {"mode", "tool", "sampling", "source_fps", "frame_count", "inspected_frames", "display_size"}:
+        raise WorkflowError("frame inspection requires exact sampling and displayed dimensions")
+    fps, count = inspection["source_fps"], inspection["frame_count"]
+    frames, size = inspection["inspected_frames"], inspection["display_size"]
+    if (not _finite_review_number(fps) or fps <= 0
+            or type(count) is not int or not _finite_review_number(count) or count <= 0
+            or abs(count / fps - duration) > .05):
+        raise WorkflowError("frame inspection metadata differs from the exact media duration")
+    try:
+        video = media_probe["video"]
+        if len(video) != 1:
+            raise ValueError
+        actual_count = int(video[0]["nb_frames"])
+        actual_fps = float(Fraction(video[0]["avg_frame_rate"]))
+        if actual_count != count or not math.isclose(actual_fps, fps, rel_tol=1e-9):
+            raise ValueError
+    except (TypeError, KeyError, ValueError, ZeroDivisionError, OverflowError):
+        raise WorkflowError("frame inspection must match measured video frame count and FPS") from None
+    if (not isinstance(frames, list) or not frames or any(type(x) is not int or not 0 <= x < count for x in frames)
+            or frames != sorted(set(frames))):
+        raise WorkflowError("inspected frames must be sorted unique in-range frame indices")
+    if (not isinstance(size, list) or len(size) != 2 or any(type(x) is not int or x <= 0 for x in size)):
+        raise WorkflowError("frame inspection needs the actual displayed width and height")
+    sampling = inspection["sampling"]
+    if not isinstance(sampling, str) or sampling not in {"all_frames", "sampled_frames"} or (sampling == "all_frames") != (len(frames) == count):
+        raise WorkflowError("frame sampling claim differs from inspected frame indices")
+    # Coverage describes inspected frames, never the span between sparse samples.
+    expected_ranges = []
+    for frame in frames:
+        if expected_ranges and expected_ranges[-1][1] == frame:
+            expected_ranges[-1][1] += 1
+        else:
+            expected_ranges.append([frame, frame + 1])
+    covered_ranges = []
+    for start, end in sorted(intervals):
+        first = max(0, math.floor(start * fps + 1e-7))
+        last = min(count, math.ceil(end * fps - 1e-7))
+        if covered_ranges and first <= covered_ranges[-1][1]:
+            covered_ranges[-1][1] = max(last, covered_ranges[-1][1])
+        else:
+            covered_ranges.append([first, last])
+    if covered_ranges != expected_ranges:
+        raise WorkflowError("frame coverage differs from actual inspected samples")
+    if name == "visual_review" and sampling != "all_frames":
+        raise WorkflowError("sampled frames do not establish complete visual review")
+
+
+def validate_review_observation(check, *, media_sha256, duration, media_probe=None):
     """Require inspectable coverage; this cannot authenticate a listener's perception."""
+    if not _finite_review_number(duration) or duration <= 0:
+        raise WorkflowError("review requires a finite positive media duration")
     observed = check.get("observed", {})
+    if not isinstance(observed, dict):
+        raise WorkflowError("review observation must be an object")
     if observed.get("artifact_sha256") != media_sha256:
         raise WorkflowError("review evidence must identify the exact rendered media hash")
     require_text(observed.get("reviewer"), "review evidence reviewer")
@@ -443,10 +561,11 @@ def validate_review_observation(check, *, media_sha256, duration):
         if not isinstance(item, dict):
             raise WorkflowError("review coverage must contain time intervals")
         start, end = item.get("start_seconds"), item.get("end_seconds")
-        if (type(start) not in (int, float) or type(end) not in (int, float)
-                or not math.isfinite(start) or not math.isfinite(end) or not 0 <= start < end <= duration + .05):
+        if (not _finite_review_number(start) or not _finite_review_number(end)
+                or not 0 <= start < end <= duration + .05):
             raise WorkflowError("review coverage falls outside the exact media")
         intervals.append((start, end))
+    _review_inspection(observed, check.get("name"), duration, intervals, media_probe)
     if check.get("name") in {"listening", "visual_review", "subtitles", "music", "motion", "captions", "no_speech"}:
         if not _intervals_cover(intervals, duration - .05):
             raise WorkflowError("review coverage does not cover the complete " + check["name"])

@@ -129,6 +129,7 @@ class SyntheticLifecycleTests(unittest.TestCase):
                                        "media_sha256": media["sha256"],
                                        "note": "Schema/state test, no claim of creative or perceptual QA."})
                 check["observed"] = {"artifact_sha256": media["sha256"], "reviewer": "synthetic-fixture-reviewer",
+                    "inspection": {"mode": "av_playback", "tool": "synthetic fixture, no human perception asserted", "playback_speed": 1.0},
                     "notes": "Synthetic state transition with an explicit test-only policy and evidence.",
                     "coverage": [{"start_seconds": 0, "end_seconds": 30}],
                     "evidence": {"path": str(evidence), "sha256": file_digest(evidence)}}

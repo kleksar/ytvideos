@@ -11,7 +11,7 @@ from pathlib import Path
 from .approvals import ApprovalVerifier
 from .artifacts import ArtifactStore
 from .capabilities import capability_check, observation_state
-from .context import reference_context, snapshot_references
+from .context import reference_context, snapshot_references, validate_reference_routes
 from .errors import Conflict, WorkflowError
 from .profiles import load_profile
 from .production_contract import (DELIVERY_SCHEMA, production_requirements, require_configured,
@@ -135,6 +135,7 @@ class Production:
         if snapshot is not None or "references" in run["pins"]:
             if snapshot is None or digest(snapshot) != run["pins"].get("references"):
                 raise WorkflowError("run reference snapshot differs from its pin")
+            validate_reference_routes(snapshot, run["profile"], run["format"])
 
     def _task(self, run, task_id):
         if task_id not in run["tasks"]:
@@ -624,24 +625,27 @@ class Production:
         elif task["stage"] in {"audio", "subtitles"} and requirements.get("speech", {}).get("mode") == "none":
             from .media_checks import probe_media
             media = artifact if task["stage"] == "audio" else self._artifact(run, "audio")
-            duration = probe_media(self.artifacts.resolve(media))["duration_seconds"]
-            record = validate_review_observation(by_name["no_speech"], media_sha256=media["sha256"], duration=duration)
+            probe = probe_media(self.artifacts.resolve(media))
+            duration = probe["duration_seconds"]
+            record = validate_review_observation(by_name["no_speech"], media_sha256=media["sha256"], duration=duration,
+                                                 media_probe=probe)
             evidence_artifacts.append(self._evidence_file(record, "no_speech_evidence"))
         elif task["stage"] == "scene_image" and task.get("payload", {}).get("purpose") == "thumbnail":
             from .image_review import validate_observation
             validate_observation(by_name["thumbnail_review"]["observed"], artifact_sha256=artifact["sha256"],
                                  worker=claim["worker"], brief=task["payload"], artifacts=run["artifacts"])
         elif task["stage"] == "review":
+            from .media_checks import probe_media
             media = self._artifact(run, "render")
-            review = json.loads(self.artifacts.resolve(artifact).read_text())
-            duration = review.get("probe", {}).get("duration_seconds", 0)
+            probe = probe_media(self.artifacts.resolve(media))
+            duration = probe["duration_seconds"]
             render_task = run["tasks"]["render"]
             producers = {(render_task.get("claim") or {}).get("worker"),
                          render_task.get("media_validation", {}).get("execution_worker")}
             if render_task.get("receipt") in run["artifacts"]:
                 producers.add(json.loads(self.artifacts.resolve(run["artifacts"][render_task["receipt"]]).read_text()).get("worker"))
             for check in by_name.values():
-                record = validate_review_observation(check, media_sha256=media["sha256"], duration=duration)
+                record = validate_review_observation(check, media_sha256=media["sha256"], duration=duration, media_probe=probe)
                 if (producers - {None}) & {claim["worker"], check["observed"]["reviewer"]}:
                     raise WorkflowError("final review requires a reviewer distinct from the render producer")
                 self._evidence_file(record, "review_evidence")
@@ -929,13 +933,14 @@ class Production:
             elif stage == "subtitles":
                 audio = self.artifacts.resolve(self._artifact(run, "audio"))
                 speech = self.requirements(run).get("speech", {})
-                duration = media_checks.probe_media(audio)["duration_seconds"]
+                probe = media_checks.probe_media(audio)
+                duration = probe["duration_seconds"]
                 if speech.get("mode") == "none":
                     from .media_script import validate_no_speech_artifact
                     measured = validate_no_speech_artifact(json.loads(path.read_text()),
                         script_sha256=speech["script_sha256"], audio_sha256=self._artifact(run, "audio")["sha256"])
                     for check in (receipt or {}).get("checks", []):
-                        record = validate_review_observation(check, media_sha256=measured["audio_sha256"], duration=duration)
+                        record = validate_review_observation(check, media_sha256=measured["audio_sha256"], duration=duration, media_probe=probe)
                         evidence_artifacts.append(self._evidence_file(record, "no_speech_evidence"))
                 else:
                     measured = media_checks.validate_srt(path, duration=duration, project_root=self.project)
@@ -965,23 +970,25 @@ class Production:
                     if observed is None:
                         raise WorkflowError("fragment review requires the actual visual review evidence")
                     document = self._evidence_file(observed["evidence"], "review_evidence")
-                    sources, original_paths = [], {}
+                    sources, original_paths, original_probes = [], {}, {}
                     dependencies = [key for key in render_task["dependencies"] if key.startswith("image:")]
                     for dependency, clip in zip(dependencies, self.render_sources(run, render_task)):
                         source = run["tasks"][dependency]["payload"]["source_clip"]
                         original = run["artifacts"][source["source_artifact_id"]]
                         if original["id"] not in original_paths:
                             original_paths[original["id"]] = self.artifacts.resolve(original)
+                            original_probes[original["id"]] = media_checks.probe_media(original_paths[original["id"]])
                         original_path = original_paths[original["id"]]
                         checked_artifact_ids.extend([original["id"], clip["id"]])
                         sources.append({"id": dependency.removeprefix("image:"), "clip_sha256": clip["sha256"],
                                         "source_sha256": original["sha256"],
+                                        "source_probe": original_probes[original["id"]],
                                         "start_seconds": source["start_seconds"], "end_seconds": source["end_seconds"],
                                         "source_anchors_seconds": media_checks.source_frame_anchors(
                                             original_path, source["start_seconds"], source["end_seconds"])})
                     records = validate_fragment_review(json.loads(self.artifacts.resolve(document).read_text()),
                         plan=plan, requirements=requirements, media_sha256=rendered["sha256"],
-                        reviewer=observed["reviewer"], sources=sources)
+                        reviewer=observed["reviewer"], sources=sources, media_probe=measured)
                     checked_artifact_ids = list(dict.fromkeys(checked_artifact_ids))
                     records = {(record["path"], record["sha256"]): record for record in records}
                     source_evidence = {}
@@ -991,7 +998,7 @@ class Production:
                     evidence_artifacts.extend(source_evidence.values())
                 for check in (receipt or {}).get("checks", []):
                     record = validate_review_observation(check, media_sha256=rendered["sha256"],
-                                                         duration=measured["duration_seconds"])
+                                                         duration=measured["duration_seconds"], media_probe=measured)
                     evidence_artifacts.append(self._evidence_file(record, "review_evidence"))
             task["media_validation"] = {"artifact_sha256": artifact["sha256"], "observed": measured,
                                         "checked_artifact_ids": checked_artifact_ids,

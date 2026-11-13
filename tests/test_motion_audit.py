@@ -1,6 +1,6 @@
 import copy
 import unittest
-from ytvideos.motion_audit import audit_motion_batch
+from ytvideos.motion_audit import BATCH_DIGEST_SCHEMA, audit_motion_batch, batch_manifest
 from ytvideos.util import digest
 
 
@@ -14,17 +14,23 @@ class MotionAuditTests(unittest.TestCase):
         run = {'id': 'generic-run', 'revision': 3,
                'approvals': {'script': {'revision': 3, 'sha256': sha, 'artifact_id': 'script'}},
                'tasks': {'script': {'status': 'complete', 'outputs': ['script']}},
-               'artifacts': {'image': {'sha256': source}, 'receipt': {'sha256': 'd' * 64}},
+               'artifacts': {'script': {'sha256': sha}, 'image': {'sha256': source},
+                             'clip': {'sha256': 'f' * 64}, 'receipt': {'sha256': 'd' * 64}},
                'motion_batch': {**contract, 'settings': settings, 'max_credits': 9, 'per_request': 9,
                                 'spent': 9, 'reserved': 0,
                                 'approval': {**contract, 'max_credits': 9, 'source': 'owner-event', 'message': 'approved'},
                                 'scenes': {'arbitrary_scene': {'status': 'generated', 'image_sha256': source,
-                                           'image_artifact_id': 'image', 'prompt': 'exact prompt', 'operation_key': 'op'}}}}
+                                           'image_artifact_id': 'image', 'clip_artifact_id': 'clip',
+                                           'prompt': 'exact prompt', 'operation_key': 'op'}}}}
         op = {'key': 'op', 'run_id': run['id'], 'status': 'confirmed', 'attempt_id': 'attempt',
               'task_input_hash': 'e' * 64, 'receipt': 'receipt',
               'payload': {**contract, 'scene': 'arbitrary_scene', 'image_sha256': source, 'prompt': 'exact prompt'}}
         observation = {'operation_key': 'op', 'attempt_id': 'attempt', 'task_input_hash': 'e' * 64,
-                       'status': 'confirmed', 'actual_units': 9}
+                       'status': 'confirmed', 'actual_units': 9, 'output_sha256': 'f' * 64}
+        batch = run['motion_batch']
+        batch['batch_digest_schema'] = BATCH_DIGEST_SCHEMA
+        batch_hash = digest(batch_manifest(batch))
+        batch['batch_sha256'] = batch['approval']['batch_sha256'] = op['payload']['batch_sha256'] = batch_hash
         return run, [op], observation
 
     def codes(self, result):
@@ -51,6 +57,56 @@ class MotionAuditTests(unittest.TestCase):
         run, ops, observation = self.fixture(); observation['attempt_id'] = 'other'; del observation['actual_units']
         codes = self.codes(audit_motion_batch(run, ops, resolve_document=lambda _: observation))
         self.assertTrue({'observation_unbound', 'actual_cost_unverified'} <= codes)
+
+    def test_actual_cost_is_compared_with_ledger_and_approved_limit(self):
+        run, ops, observation = self.fixture(); observation['actual_units'] = 900
+        codes = self.codes(audit_motion_batch(run, ops, resolve_document=lambda _: observation))
+        self.assertTrue({'measured_cost_exceeds_limit', 'actual_cost_ledger_mismatch'} <= codes)
+
+    def test_lower_recorded_cost_cannot_match_a_larger_spent_ledger(self):
+        run, ops, observation = self.fixture(); observation['actual_units'] = 2
+        codes = self.codes(audit_motion_batch(run, ops, resolve_document=lambda _: observation))
+        self.assertIn('actual_cost_ledger_mismatch', codes)
+        self.assertNotIn('measured_cost_exceeds_limit', codes)
+
+    def test_changed_prompt_and_operation_cannot_reuse_old_approved_digest(self):
+        run, ops, observation = self.fixture()
+        run['motion_batch']['scenes']['arbitrary_scene']['prompt'] = ops[0]['payload']['prompt'] = 'changed prompt'
+        codes = self.codes(audit_motion_batch(run, ops, resolve_document=lambda _: observation))
+        self.assertIn('batch_digest_mismatch', codes)
+
+    def test_unknown_legacy_manifest_encoding_remains_unverified(self):
+        run, ops, observation = self.fixture(); del run['motion_batch']['batch_digest_schema']
+        codes = self.codes(audit_motion_batch(run, ops, resolve_document=lambda _: observation))
+        self.assertIn('batch_digest_unverified', codes)
+
+    def test_failed_operation_cannot_support_generated_scene(self):
+        run, ops, observation = self.fixture(); ops[0]['status'] = observation['status'] = 'failed'
+        codes = self.codes(audit_motion_batch(run, ops, resolve_document=lambda _: observation))
+        self.assertIn('scene_operation_outcome_mismatch', codes)
+
+    def test_approved_script_hash_must_match_actual_artifact_record(self):
+        run, ops, observation = self.fixture(); run['artifacts']['script']['sha256'] = '0' * 64
+        codes = self.codes(audit_motion_batch(run, ops, resolve_document=lambda _: observation))
+        self.assertIn('script_approval_stale', codes)
+
+    def test_unmapped_unknown_operation_of_same_batch_is_not_ignored(self):
+        run, ops, observation = self.fixture()
+        orphan = copy.deepcopy(ops[0]); orphan.update(key='unmapped-op', status='unknown'); ops.append(orphan)
+        before = copy.deepcopy((run, ops))
+        codes = self.codes(audit_motion_batch(run, ops, resolve_document=lambda _: observation))
+        self.assertTrue({'operation_outside_scene_inventory', 'operation_unresolved'} <= codes)
+        self.assertEqual((run, ops), before)
+
+    def test_generated_result_hash_must_match_exact_operation_observation(self):
+        run, ops, observation = self.fixture(); run['artifacts']['clip']['sha256'] = '0' * 64
+        codes = self.codes(audit_motion_batch(run, ops, resolve_document=lambda _: observation))
+        self.assertIn('output_binding_mismatch', codes)
+
+    def test_missing_generated_result_or_hash_is_unverified(self):
+        run, ops, observation = self.fixture(); del run['artifacts']['clip']; del observation['output_sha256']
+        codes = self.codes(audit_motion_batch(run, ops, resolve_document=lambda _: observation))
+        self.assertTrue({'output_artifact_missing', 'output_binding_missing'} <= codes)
 
     def test_unknown_is_reported_without_state_repair(self):
         run, ops, _ = self.fixture(); ops[0]['status'] = 'unknown'

@@ -52,6 +52,17 @@ class ProductionContractTests(unittest.TestCase):
             with self.subTest(field=field), self.assertRaises(WorkflowError):
                 validate_render_manifest({**self.manifest(), field: value}, requirements)
 
+    def test_unsupported_paid_motion_input_cannot_be_silently_rendered_as_still(self):
+        for channel in ("paper_detour", "nuviko_history"):
+            profile = json.loads((ROOT / "channels" / channel / "channel.json").read_text())
+            for field, value in (("motion_clip", "/synthetic/paid-flow.mp4"), ("motion_clip", None),
+                                 ("clip", "/synthetic/paid-flow.mp4")):
+                plan = self.manifest()
+                plan["channel"] = channel
+                plan["scenes"][0][field] = value
+                with self.subTest(channel=channel, field=field, value=value), self.assertRaisesRegex(WorkflowError, "unsupported motion inputs"):
+                    validate_render_manifest(plan, production_requirements(profile, "short"))
+
     def test_static_scene_missing_word_captions_or_music_coverage_fail(self):
         requirements = production_requirements(self.profile, "short")
         for defect in ("static", "vertical", "captions", "music", "gap"):
@@ -113,6 +124,7 @@ class ProductionContractTests(unittest.TestCase):
 
     def test_review_requires_exact_hash_complete_coverage_and_evidence(self):
         check = {"name": "listening", "observed": {"artifact_sha256": "1" * 64, "reviewer": "independent reviewer",
+            "inspection": {"mode": "av_playback", "tool": "synthetic fixture, no human perception asserted", "playback_speed": 1.0},
             "notes": "Synthetic schema example only; no real listening asserted.",
             "coverage": [{"start_seconds": 0, "end_seconds": 2}, {"start_seconds": 2, "end_seconds": 4}],
             "evidence": {"path": "review.txt", "sha256": "2" * 64}}}
@@ -123,6 +135,98 @@ class ProductionContractTests(unittest.TestCase):
             changed["observed"][field] = value
             with self.subTest(field=field), self.assertRaises(WorkflowError):
                 validate_review_observation(changed, media_sha256="1" * 64, duration=4)
+
+    def review_observation(self, name="visual_review"):
+        return {"name": name, "observed": {"artifact_sha256": "1" * 64, "reviewer": "fixture reviewer",
+            "notes": "Synthetic contract fixture; no real perception asserted.",
+            "inspection": {"mode": "frame_inspection", "tool": "fixture contact sheet", "sampling": "all_frames",
+                           "source_fps": 2, "frame_count": 8, "inspected_frames": list(range(8)), "display_size": [144, 256]},
+            "coverage": [{"start_seconds": 0, "end_seconds": 4}],
+            "evidence": {"path": "fixture.json", "sha256": "2" * 64}}}
+
+    def inspect_review(self, check, duration=4):
+        return validate_review_observation(check, media_sha256="1" * 64, duration=duration,
+                                           media_probe={"video": [{"nb_frames": "8", "avg_frame_rate": "2/1"}]})
+
+    def test_all_frames_establish_visual_coverage_but_not_playback_or_listening(self):
+        check = self.review_observation()
+        self.assertEqual(self.inspect_review(check), check["observed"]["evidence"])
+        for name in ("motion", "subtitles", "captions", "listening", "music", "no_speech", "av_loop"):
+            with self.subTest(name=name), self.assertRaisesRegex(WorkflowError, "cannot establish"):
+                self.inspect_review({**check, "name": name})
+
+    def test_sparse_frames_cannot_claim_continuous_or_complete_visual_coverage(self):
+        check = self.review_observation("frame_detail")
+        check["observed"]["inspection"].update(sampling="sampled_frames", inspected_frames=[0, 7])
+        with self.assertRaisesRegex(WorkflowError, "actual inspected samples"):
+            self.inspect_review(check)
+        check["observed"]["coverage"] = [{"start_seconds": 0, "end_seconds": .5}, {"start_seconds": 3.5, "end_seconds": 4}]
+        self.inspect_review(check)
+        with self.assertRaisesRegex(WorkflowError, "complete visual review"):
+            self.inspect_review({**check, "name": "visual_review"})
+
+    def test_playback_modes_match_the_perceptual_check(self):
+        for name, mode in [("visual_review", "video_playback"), ("motion", "video_playback"),
+                           ("listening", "audio_listening"), ("no_speech", "audio_listening"), ("music", "av_playback"),
+                           ("av_loop", "av_playback")]:
+            check = self.review_observation(name)
+            check["observed"]["inspection"] = {"mode": mode, "tool": "synthetic player fixture", "playback_speed": 1.0}
+            self.inspect_review(check)
+        for name, mode in [("motion", "audio_listening"), ("listening", "video_playback"),
+                           ("visual_review", "media_probe"), ("captions", "document_inspection"),
+                           ("av_loop", "video_playback"), ("av_loop", "audio_listening")]:
+            check = self.review_observation(name)
+            check["observed"]["inspection"] = {"mode": mode, "tool": "synthetic fixture", "playback_speed": 1.0}
+            with self.subTest(name=name, mode=mode), self.assertRaises(WorkflowError):
+                self.inspect_review(check)
+
+    def test_inspection_missing_spoofed_or_nonfinite_metadata_is_rejected(self):
+        cases = [("mode", "contact_sheet_playback"), ("mode", []), ("tool", ""),
+                 ("sampling", "all_frames_with_gaps"), ("sampling", {}),
+                 ("source_fps", float("nan")), ("source_fps", float("inf")), ("source_fps", True),
+                 ("source_fps", 10 ** 1000), ("frame_count", 10 ** 1000),
+                 ("frame_count", 7), ("frame_count", True), ("inspected_frames", [0, 0]),
+                 ("inspected_frames", [True]), ("inspected_frames", [-1, 8]), ("inspected_frames", [7, 0]),
+                 ("display_size", [0, 256]), ("display_size", [144, float("inf")])]
+        for field, value in cases:
+            check = self.review_observation()
+            check["observed"]["inspection"][field] = value
+            with self.subTest(field=field, value=value), self.assertRaises(WorkflowError):
+                self.inspect_review(check)
+        check = self.review_observation()
+        del check["observed"]["inspection"]
+        with self.assertRaisesRegex(WorkflowError, "typed inspection"):
+            self.inspect_review(check)
+        for duration in [0, -1, True, float("nan"), float("inf")]:
+            with self.subTest(duration=duration), self.assertRaises(WorkflowError):
+                self.inspect_review(self.review_observation(), duration=duration)
+
+    def test_all_frames_cannot_be_forged_by_lowering_fps_and_count(self):
+        check = self.review_observation()
+        check["observed"]["inspection"].update(source_fps=.25, frame_count=1, inspected_frames=[0])
+        with self.assertRaisesRegex(WorkflowError, "measured video frame"):
+            self.inspect_review(check)
+        with self.assertRaisesRegex(WorkflowError, "measured video frame"):
+            validate_review_observation(self.review_observation(), media_sha256="1" * 64, duration=4)
+
+    def test_slow_motion_cannot_replace_normal_speed_motion_review(self):
+        for name, mode in (("motion", "video_playback"), ("av_loop", "av_playback")):
+            check = self.review_observation(name)
+            check["observed"]["inspection"] = {"mode": mode, "tool": "synthetic fixture", "playback_speed": .25}
+            with self.subTest(name=name), self.assertRaisesRegex(WorkflowError, "normal-speed"):
+                self.inspect_review(check)
+
+    def test_playback_requires_finite_speed_and_rejects_disguised_sampling(self):
+        for speed in [None, True, 0, -1, float("nan"), float("inf"), 10 ** 1000]:
+            check = self.review_observation("motion")
+            check["observed"]["inspection"] = {"mode": "video_playback", "tool": "synthetic player", "playback_speed": speed}
+            with self.subTest(speed=speed), self.assertRaises(WorkflowError):
+                self.inspect_review(check)
+        check = self.review_observation("motion")
+        check["observed"]["inspection"]["mode"] = "video_playback"
+        check["observed"]["inspection"]["playback_speed"] = 1
+        with self.assertRaisesRegex(WorkflowError, "not frame sampling"):
+            self.inspect_review(check)
 
     def test_renamed_font_is_checked_by_actual_face(self):
         source = Path("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf")
@@ -372,6 +476,7 @@ class ProductionDeliveryTests(unittest.TestCase):
             "input_hash": claim["input_hash"], "output_sha256": qa["sha256"],
             "checks": [{"name": name, "status": "pass", "method": "synthetic schema test",
                         "observed": {"artifact_sha256": artifact["sha256"], "reviewer": "fixture-reviewer",
+                            "inspection": {"mode": "av_playback", "tool": "synthetic fixture, no human perception asserted", "playback_speed": 1.0},
                             "notes": "Synthetic QA contract example, not audiovisual verification.",
                             "coverage": [{"start_seconds": 0, "end_seconds": .2}], "evidence": self.record(evidence)}}
                        for name in self.service.requirements(run)["review_checks"]]}

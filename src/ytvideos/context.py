@@ -154,6 +154,40 @@ def validate_documents(paths, documents):
     return [by_path[reference_path(path)] for path in paths]
 
 
+def validate_reference_routes(snapshot, profile, format):
+    """Require the routes implemented by this code without replacing saved texts.
+
+    A matching snapshot hash proves identity, not compatibility after a migration.
+    Required paths come from this checkout's selector and the pinned profile, never
+    from current file contents. Extra historical references remain valid.
+    """
+    if (not isinstance(snapshot, dict) or not isinstance(snapshot.get("routes"), dict)
+            or not isinstance(snapshot.get("documents"), dict)):
+        raise WorkflowError("invalid pinned task reference routes")
+    tasks = [{"stage": stage} for stage in STAGE_REFERENCES]
+    tasks.append({"stage": "scene_image", "payload": {"purpose": "thumbnail"}})
+    for task in tasks:
+        route = _route(task)
+        paths = snapshot["routes"].get(route)
+        if not isinstance(paths, list) or any(not isinstance(path, str) for path in paths):
+            raise WorkflowError(f"invalid pinned task reference route: {route}")
+        required = task_references(task, profile=profile, format=format)
+        # The selector automatically includes an existing channel PROFILE even
+        # without an explicit profile declaration. Preserve that saved binding
+        # without reading a newer checkout's profile or inventing one for a
+        # generic profile that never had such a document.
+        channel_profile = f"channels/{profile['id']}/PROFILE.md"
+        if channel_profile in snapshot["documents"]:
+            required.append(channel_profile)
+        missing = sorted(set(required) - set(paths))
+        if missing:
+            raise WorkflowError(f"pinned task reference route {route} is incompatible with this code; "
+                                f"explicit migration must supply: {', '.join(missing)}")
+        if any(path not in snapshot["documents"] for path in paths):
+            raise WorkflowError(f"pinned task reference route {route} has missing documents")
+        validate_documents(paths, [snapshot["documents"][path] for path in paths])
+
+
 def reference_context(run, task, project_root):
     snapshot = run.get("reference_snapshot")
     if snapshot is None:
