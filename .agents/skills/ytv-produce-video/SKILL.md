@@ -7,6 +7,8 @@ description: "Produce an approved ytvideos script through AI-generated images an
 
 CLI и точные outputs/receipts: [task contract](../../../docs/operations/task-contract.md).
 
+Если task context содержит канальный рецепт Google Flow, применить его порядок для постановки: черновая раскадровка по тексту, затем проверенная запись диктора и пословная карта, затем точное ТЗ планов A → B. Без этих входов не выдавать черновые времена за монтажные и не запускать генерацию клипов по ним. Границы текущего runtime и ручной маршрут описаны в выбранном рецепте.
+
 Выполнять только выданный task: `storyboard`, `scene_image`, `audio`, `subtitles` или `render`. Прочитать `task_guide` и `production_requirements`, проверить actual script approval, inputs/supporting_inputs и lease. Открыть нужные принятые артефакты и выбранные `reference_documents`: общий стандарт, профиль и относящийся к формату канальный рецепт. В native worker те же тексты находятся в локальных файлах из `TASK.json.requirements`, с путями и hashes в `reference_manifest`; читать эти файлы. Каталог ссылок не заменяет требования.
 
 | Task | Нужные требования | Выход |
