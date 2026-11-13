@@ -41,3 +41,13 @@
 - The early disclosure of the amount could reduce curiosity. If so, test an opening that begins with an unsafe empty barrel rather than promising a crime that is already summarized; do not change title solely to hide a known fact.
 - The penalty figures ($1m profit vs >$9m fine) are a secondary twist; a first listener may recommend cutting it to shorten the film.
 - Writer did not observe actual audience watch-time or get access to the production voice; record limitations instead of claiming audience validation.
+
+## 2026-11-13 — exact spoken loop correction
+
+Previous closing (`And it was exposed by just one empty barrel.`) merely repeated the initial clue. New wording introduces the actual near-fall in the first sentence and is consistent with contemporary reporting; no new event was invented.
+
+EN joined last→first: **The whole eighteen-million-dollar heist unraveled because of one small accident: An accountant nearly fell off the top of a stack of maple syrup barrels.**
+
+RU стык конец→начало: **Вся эта кража на восемнадцать миллионов раскрылась из-за одной случайности: Бухгалтер едва не сорвался с верхнего ряда бочек с кленовым сиропом.**
+
+Authorial text-only semantic/grammatical continuity check: PASS, but **independent full twice-through reviewer, actual TTS prosody, picture/caption/music/MP4 seam UNVERIFIED**. The storyboard remains unapproved preproduction planning, not runtime's completed storyboard task.
