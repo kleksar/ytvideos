@@ -3,7 +3,7 @@
 | Правило | Единственный owner |
 |---|---|
 | Вход, scope, два approvals, общий lifecycle | [workflow](../docs/workflow.md) |
-| Тема, факты, ценность, первый слушатель, внутренние sources | [editorial](../docs/standards/editorial.md) |
+| Тема, факты, драматургия всех каналов, переработка исходника, первый слушатель | [editorial](../docs/standards/editorial.md) |
 | Постановка, actual references, кадры, цельное движение | [visual](../docs/standards/visual.md) |
 | Речь/voice/speed, mix, музыка, word map/SRT/caption semantics | [audio](../docs/standards/audio.md) |
 | Рендер/геометрия/время/codec/QA exact MP4 | [delivery](../docs/standards/delivery.md) |
