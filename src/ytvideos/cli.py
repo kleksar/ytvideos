@@ -55,6 +55,19 @@ def parser():
     context.add_argument("--run", required=True)
     context.add_argument("--task", required=True)
     context.add_argument("--output", type=Path, help="Optionally write the packet for an independent session")
+    migration = sub.add_parser("migrate-runtime", help="Plan or apply an exact local runtime-rules migration")
+    migration_actions = migration.add_subparsers(dest="migration_action", required=True)
+    for action in ("plan", "apply"):
+        command = migration_actions.add_parser(action)
+        command.add_argument("--run", required=True)
+        command.add_argument("--source-root", type=Path, required=True,
+                             help="Original checkout matching this run's saved code pin; never executed")
+        if action == "plan":
+            command.add_argument("--expected-version", type=int, required=True)
+        else:
+            command.add_argument("--plan", type=Path, required=True, help="Exact JSON returned by migrate-runtime plan")
+            command.add_argument("--source", required=True, help="Stable reference to the actual owner decision")
+            command.add_argument("--message", required=True, help="Actual owner message authorizing this migration")
     claim = sub.add_parser("claim")
     claim.add_argument("--run", required=True)
     claim.add_argument("--task", required=True)
@@ -164,6 +177,11 @@ def parser():
 
 def dispatch(service, args):
     command = args.command
+    if command == "migrate-runtime":
+        if args.migration_action == "plan":
+            return service.plan_runtime_migration(args.run, args.source_root, expected_version=args.expected_version)
+        return service.apply_runtime_migration(args.run, args.source_root, read_json(args.plan),
+                                               source=args.source, message=args.message)
     if command in {"start", "create"}:
         run = service.create(args.channel, args.intent, format=args.format, request_id=args.request_id,
                              profiles=args.profiles, budget_units=args.budget_units, source_script=args.source_script)
