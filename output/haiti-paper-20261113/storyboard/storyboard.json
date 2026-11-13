@@ -1,0 +1,674 @@
+{
+  "run_id": "00f9cc38-2023-46c5-b40d-6b0b7f8e5c35",
+  "channel": "paper_detour",
+  "revision": 5,
+  "script_sha256": "bf753636682dc9884440cd7e98753ee391236e99998f43258824bf5d7c0cb7f5",
+  "scenes": [
+    {
+      "id": "S01",
+      "revision": 1,
+      "purpose": "scene",
+      "narration_anchor": "“Give us the exact address—and we’ll destroy it.”",
+      "visual_intent": "The president’s reply is the opening promise; it returns at the loop seam.",
+      "prompt": "Create one finished opaque portrait 9:16 handmade paper and cardboard diorama, photographed with physical light and rich contact shadows. Layered cut edges, folded construction, visible paper thickness and fibres, tiny well-made props. Full-frame full-bleed composition with natural content to all edges. Warm amber key light and restrained deep blue shadows. Use the attached P02 reference for material and physical craft only. Maintain a clear dominant action. Every person and object is crafted paper. No photoreal human skin, no smooth CGI, no flat vector, no outer border, no empty subtitle strip, no burned-in subtitles or watermark. Request highest available native quality, ideally 2160x3840; report actual size. This is an editorial illustration of reported events, never an authentic screenshot, photograph, video frame or exact reconstruction. Keep essential subject within x 0.20–0.80, y 0.18–0.68 for small horizontal pans and separate subtitles below; fill the remainder naturally. No gore, identifiable victims, casualty counts or civilians-cleared claim. No labels or lettering except the scene-specific text requested. Extreme close-up, three-quarter view of a thick handmade midnight-blue paper smartphone standing on an amber desk. A small illustrated cream house-photo tile occupies the upper screen. Beneath it an oversized cream reply bubble holds a single red location pin icon. No letters or numbers. Folded reply edges cast strong shadows. Focus on the visually threatening red pin beneath a seemingly ordinary house. House is an invented simple cream cubic house, not a real location.",
+      "composition": "Extreme close-up, three-quarter view of a thick handmade midnight-blue paper smartphone standing on an amber desk. A small illustrated cream house-photo tile occupies the upper screen. Beneath it an oversized cream reply bubble holds a single red location pin icon. No letters or numbers. Folded reply edges cast strong shadows. Focus on the visually threatening red pin beneath a seemingly ordinary house. House is an invented simple cream cubic house, not a real location.",
+      "camera": {
+        "focus": "Dominant subject described in composition",
+        "motion": "push_in",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.04
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.08
+        },
+        "reason": "Small whole-image zoom alternates between neighbours and preserves composition. Final first-image reprise holds the first-frame crop for a continuous restart.",
+        "status": "planned crop awaiting actual image inspection"
+      },
+      "reference_assets": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/brand/References/meaningful_staging_20261105_v01/P02_navigation_relief.png",
+          "sha256": "ae35401e863161d2e166342bc94a9e9d5b0704157d5891cda7a4653dcc348d88",
+          "role": "Tactile layered paper, physical shadows and scale, not geography or story content",
+          "inspected": true,
+          "source": "Project-generated imagegen reference; recorded acceptance/provenance in brand manifest and PAPER_PLANE.md"
+        }
+      ],
+      "source_rights": {
+        "type": "original_ai_illustration",
+        "reference_provenance": "Project-owned generated style references; use material qualities, not exact geography or story",
+        "external_media": "none",
+        "authenticity": "illustration, no claim of original footage"
+      },
+      "format": {
+        "aspect_ratio": "9:16",
+        "target_source_pixels": [
+          2160,
+          3840
+        ],
+        "report_actual_size": true
+      },
+      "timing": {
+        "status": "planned_from_actual_audio_duration; word alignment not yet listened/reviewed",
+        "target_shot_seconds": [
+          4,
+          6
+        ],
+        "narration_anchor_is_not_a_measured_time_range": true
+      },
+      "output_schema": {
+        "file": "absolute path to original PNG",
+        "sha256": "actual file hash",
+        "width": "actual pixels",
+        "height": "actual pixels",
+        "provider_evidence": "actual response or handle, no invented ID",
+        "review": "exact image inspection before acceptance"
+      }
+    },
+    {
+      "id": "S02",
+      "revision": 1,
+      "purpose": "scene",
+      "narration_anchor": "That reply appeared under a photo of a house on X. It came from the president of El Salvador.",
+      "visual_intent": "Reveal the official identity behind a public social-media reply.",
+      "prompt": "Create one finished opaque portrait 9:16 handmade paper and cardboard diorama, photographed with physical light and rich contact shadows. Layered cut edges, folded construction, visible paper thickness and fibres, tiny well-made props. Full-frame full-bleed composition with natural content to all edges. Warm amber key light and restrained deep blue shadows. Use the attached P02 reference for material and physical craft only. Maintain a clear dominant action. Every person and object is crafted paper. No photoreal human skin, no smooth CGI, no flat vector, no outer border, no empty subtitle strip, no burned-in subtitles or watermark. Request highest available native quality, ideally 2160x3840; report actual size. This is an editorial illustration of reported events, never an authentic screenshot, photograph, video frame or exact reconstruction. Keep essential subject within x 0.20–0.80, y 0.18–0.68 for small horizontal pans and separate subtitles below; fill the remainder naturally. No gore, identifiable victims, casualty counts or civilians-cleared claim. No labels or lettering except the scene-specific text requested. Medium wide angle inside a handmade executive office: a paper desk, a tall blue-white-blue vertical flag in the background and an upright paper name plaque reading only EL SALVADOR. At the desk centre a screen-like paper panel displays a small house tile above a reply bubble, with no other lettering. The empty office is a symbolic representation of the presidency, not a claimed actual room. No invented likeness or face of Bukele. The reply panel is the visual focus, office objects establish scale.",
+      "composition": "Medium wide angle inside a handmade executive office: a paper desk, a tall blue-white-blue vertical flag in the background and an upright paper name plaque reading only EL SALVADOR. At the desk centre a screen-like paper panel displays a small house tile above a reply bubble, with no other lettering. The empty office is a symbolic representation of the presidency, not a claimed actual room. No invented likeness or face of Bukele. The reply panel is the visual focus, office objects establish scale.",
+      "camera": {
+        "focus": "Dominant subject described in composition",
+        "motion": "pull_out",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.08
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.04
+        },
+        "reason": "Small whole-image zoom alternates between neighbours and preserves composition. Final first-image reprise holds the first-frame crop for a continuous restart.",
+        "status": "planned crop awaiting actual image inspection"
+      },
+      "reference_assets": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/brand/References/meaningful_staging_20261105_v01/P02_navigation_relief.png",
+          "sha256": "ae35401e863161d2e166342bc94a9e9d5b0704157d5891cda7a4653dcc348d88",
+          "role": "Tactile layered paper, physical shadows and scale, not geography or story content",
+          "inspected": true,
+          "source": "Project-generated imagegen reference; recorded acceptance/provenance in brand manifest and PAPER_PLANE.md"
+        }
+      ],
+      "source_rights": {
+        "type": "original_ai_illustration",
+        "reference_provenance": "Project-owned generated style references; use material qualities, not exact geography or story",
+        "external_media": "none",
+        "authenticity": "illustration, no claim of original footage"
+      },
+      "format": {
+        "aspect_ratio": "9:16",
+        "target_source_pixels": [
+          2160,
+          3840
+        ],
+        "report_actual_size": true
+      },
+      "timing": {
+        "status": "planned_from_actual_audio_duration; word alignment not yet listened/reviewed",
+        "target_shot_seconds": [
+          4,
+          6
+        ],
+        "narration_anchor_is_not_a_measured_time_range": true
+      },
+      "output_schema": {
+        "file": "absolute path to original PNG",
+        "sha256": "actual file hash",
+        "width": "actual pixels",
+        "height": "actual pixels",
+        "provider_evidence": "actual response or handle, no invented ID",
+        "review": "exact image inspection before acceptance"
+      }
+    },
+    {
+      "id": "S03",
+      "revision": 1,
+      "purpose": "scene",
+      "narration_anchor": "A woman had posted a picture of a house in Haiti. She said a criminal gang had built it. She asked Nayib Bukele",
+      "visual_intent": "The user posts a house and alleges gang ownership; a generic paper person preserves privacy.",
+      "prompt": "Create one finished opaque portrait 9:16 handmade paper and cardboard diorama, photographed with physical light and rich contact shadows. Layered cut edges, folded construction, visible paper thickness and fibres, tiny well-made props. Full-frame full-bleed composition with natural content to all edges. Warm amber key light and restrained deep blue shadows. Use the attached P02 reference for material and physical craft only. Maintain a clear dominant action. Every person and object is crafted paper. No photoreal human skin, no smooth CGI, no flat vector, no outer border, no empty subtitle strip, no burned-in subtitles or watermark. Request highest available native quality, ideally 2160x3840; report actual size. This is an editorial illustration of reported events, never an authentic screenshot, photograph, video frame or exact reconstruction. Keep essential subject within x 0.20–0.80, y 0.18–0.68 for small horizontal pans and separate subtitles below; fill the remainder naturally. No gore, identifiable victims, casualty counts or civilians-cleared claim. No labels or lettering except the scene-specific text requested. Over-the-shoulder view of a generic handmade paper woman in a muted coral shirt holding a phone. Only back of head and a carefully folded hand visible. Phone screen shows an illustrated house tile and a small physical paper tag reading HAITI attached beside the phone. In the background a modest sunlit tropical paper streetscape, clearly generic. Do not resemble a specific private individual. No gang insignia.",
+      "composition": "Over-the-shoulder view of a generic handmade paper woman in a muted coral shirt holding a phone. Only back of head and a carefully folded hand visible. Phone screen shows an illustrated house tile and a small physical paper tag reading HAITI attached beside the phone. In the background a modest sunlit tropical paper streetscape, clearly generic. Do not resemble a specific private individual. No gang insignia.",
+      "camera": {
+        "focus": "Dominant subject described in composition",
+        "motion": "push_in",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.04
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.08
+        },
+        "reason": "Small whole-image zoom alternates between neighbours and preserves composition. Final first-image reprise holds the first-frame crop for a continuous restart.",
+        "status": "planned crop awaiting actual image inspection"
+      },
+      "reference_assets": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/brand/References/meaningful_staging_20261105_v01/P02_navigation_relief.png",
+          "sha256": "ae35401e863161d2e166342bc94a9e9d5b0704157d5891cda7a4653dcc348d88",
+          "role": "Tactile layered paper, physical shadows and scale, not geography or story content",
+          "inspected": true,
+          "source": "Project-generated imagegen reference; recorded acceptance/provenance in brand manifest and PAPER_PLANE.md"
+        }
+      ],
+      "source_rights": {
+        "type": "original_ai_illustration",
+        "reference_provenance": "Project-owned generated style references; use material qualities, not exact geography or story",
+        "external_media": "none",
+        "authenticity": "illustration, no claim of original footage"
+      },
+      "format": {
+        "aspect_ratio": "9:16",
+        "target_source_pixels": [
+          2160,
+          3840
+        ],
+        "report_actual_size": true
+      },
+      "timing": {
+        "status": "planned_from_actual_audio_duration; word alignment not yet listened/reviewed",
+        "target_shot_seconds": [
+          4,
+          6
+        ],
+        "narration_anchor_is_not_a_measured_time_range": true
+      },
+      "output_schema": {
+        "file": "absolute path to original PNG",
+        "sha256": "actual file hash",
+        "width": "actual pixels",
+        "height": "actual pixels",
+        "provider_evidence": "actual response or handle, no invented ID",
+        "review": "exact image inspection before acceptance"
+      }
+    },
+    {
+      "id": "S04",
+      "revision": 1,
+      "purpose": "scene",
+      "narration_anchor": "to destroy the building—and got that reply. Other users began posting",
+      "visual_intent": "Transition from the request and reply to multiple incoming comments.",
+      "prompt": "Create one finished opaque portrait 9:16 handmade paper and cardboard diorama, photographed with physical light and rich contact shadows. Layered cut edges, folded construction, visible paper thickness and fibres, tiny well-made props. Full-frame full-bleed composition with natural content to all edges. Warm amber key light and restrained deep blue shadows. Use the attached P02 reference for material and physical craft only. Maintain a clear dominant action. Every person and object is crafted paper. No photoreal human skin, no smooth CGI, no flat vector, no outer border, no empty subtitle strip, no burned-in subtitles or watermark. Request highest available native quality, ideally 2160x3840; report actual size. This is an editorial illustration of reported events, never an authentic screenshot, photograph, video frame or exact reconstruction. Keep essential subject within x 0.20–0.80, y 0.18–0.68 for small horizontal pans and separate subtitles below; fill the remainder naturally. No gore, identifiable victims, casualty counts or civilians-cleared claim. No labels or lettering except the scene-specific text requested. Close low oblique angle across a cascade of separate cream comment cards projecting out from a thick navy paper phone. Each card has a different small coloured profile circle and a red map-pin icon; no numeric coordinates or readable text. Three discrete cards visibly establish multiple commenters. Entire construction rests on an ochre desk, with paper clips and curled paper edges providing depth. Never draw any line connecting these pins to an attack.",
+      "composition": "Close low oblique angle across a cascade of separate cream comment cards projecting out from a thick navy paper phone. Each card has a different small coloured profile circle and a red map-pin icon; no numeric coordinates or readable text. Three discrete cards visibly establish multiple commenters. Entire construction rests on an ochre desk, with paper clips and curled paper edges providing depth. Never draw any line connecting these pins to an attack.",
+      "camera": {
+        "focus": "Dominant subject described in composition",
+        "motion": "pull_out",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.08
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.04
+        },
+        "reason": "Small whole-image zoom alternates between neighbours and preserves composition. Final first-image reprise holds the first-frame crop for a continuous restart.",
+        "status": "planned crop awaiting actual image inspection"
+      },
+      "reference_assets": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/brand/References/meaningful_staging_20261105_v01/P02_navigation_relief.png",
+          "sha256": "ae35401e863161d2e166342bc94a9e9d5b0704157d5891cda7a4653dcc348d88",
+          "role": "Tactile layered paper, physical shadows and scale, not geography or story content",
+          "inspected": true,
+          "source": "Project-generated imagegen reference; recorded acceptance/provenance in brand manifest and PAPER_PLANE.md"
+        }
+      ],
+      "source_rights": {
+        "type": "original_ai_illustration",
+        "reference_provenance": "Project-owned generated style references; use material qualities, not exact geography or story",
+        "external_media": "none",
+        "authenticity": "illustration, no claim of original footage"
+      },
+      "format": {
+        "aspect_ratio": "9:16",
+        "target_source_pixels": [
+          2160,
+          3840
+        ],
+        "report_actual_size": true
+      },
+      "timing": {
+        "status": "planned_from_actual_audio_duration; word alignment not yet listened/reviewed",
+        "target_shot_seconds": [
+          4,
+          6
+        ],
+        "narration_anchor_is_not_a_measured_time_range": true
+      },
+      "output_schema": {
+        "file": "absolute path to original PNG",
+        "sha256": "actual file hash",
+        "width": "actual pixels",
+        "height": "actual pixels",
+        "provider_evidence": "actual response or handle, no invented ID",
+        "review": "exact image inspection before acceptance"
+      }
+    },
+    {
+      "id": "S05",
+      "revision": 1,
+      "purpose": "scene",
+      "narration_anchor": "coordinates in the comments. By then, Salvadoran troops were already in Haiti.",
+      "visual_intent": "Troops were already present; the shot enters ahead of that line and shows no operational link from coordinates.",
+      "prompt": "Create one finished opaque portrait 9:16 handmade paper and cardboard diorama, photographed with physical light and rich contact shadows. Layered cut edges, folded construction, visible paper thickness and fibres, tiny well-made props. Full-frame full-bleed composition with natural content to all edges. Warm amber key light and restrained deep blue shadows. Use the attached P02 reference for material and physical craft only. Maintain a clear dominant action. Every person and object is crafted paper. No photoreal human skin, no smooth CGI, no flat vector, no outer border, no empty subtitle strip, no burned-in subtitles or watermark. Request highest available native quality, ideally 2160x3840; report actual size. This is an editorial illustration of reported events, never an authentic screenshot, photograph, video frame or exact reconstruction. Keep essential subject within x 0.20–0.80, y 0.18–0.68 for small horizontal pans and separate subtitles below; fill the remainder naturally. No gore, identifiable victims, casualty counts or civilians-cleared claim. No labels or lettering except the scene-specific text requested. Wide eye-level paper diorama of three generic uniformed figures beside a boxy olive utility vehicle in a tropical open courtyard, seen from far enough away that no faces or unit details are asserted. Small blue-white-blue patch without insignia; paper palm foliage and a cream wall establish an illustrative Haiti setting. Quiet daytime readiness, no combat action or targeting screens. No coordinate papers, route arrows or connection from phone to troops.",
+      "composition": "Wide eye-level paper diorama of three generic uniformed figures beside a boxy olive utility vehicle in a tropical open courtyard, seen from far enough away that no faces or unit details are asserted. Small blue-white-blue patch without insignia; paper palm foliage and a cream wall establish an illustrative Haiti setting. Quiet daytime readiness, no combat action or targeting screens. No coordinate papers, route arrows or connection from phone to troops.",
+      "camera": {
+        "focus": "Dominant subject described in composition",
+        "motion": "push_in",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.04
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.08
+        },
+        "reason": "Small whole-image zoom alternates between neighbours and preserves composition. Final first-image reprise holds the first-frame crop for a continuous restart.",
+        "status": "planned crop awaiting actual image inspection"
+      },
+      "reference_assets": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/brand/References/meaningful_staging_20261105_v01/P02_navigation_relief.png",
+          "sha256": "ae35401e863161d2e166342bc94a9e9d5b0704157d5891cda7a4653dcc348d88",
+          "role": "Tactile layered paper, physical shadows and scale, not geography or story content",
+          "inspected": true,
+          "source": "Project-generated imagegen reference; recorded acceptance/provenance in brand manifest and PAPER_PLANE.md"
+        }
+      ],
+      "source_rights": {
+        "type": "original_ai_illustration",
+        "reference_provenance": "Project-owned generated style references; use material qualities, not exact geography or story",
+        "external_media": "none",
+        "authenticity": "illustration, no claim of original footage"
+      },
+      "format": {
+        "aspect_ratio": "9:16",
+        "target_source_pixels": [
+          2160,
+          3840
+        ],
+        "report_actual_size": true
+      },
+      "timing": {
+        "status": "planned_from_actual_audio_duration; word alignment not yet listened/reviewed",
+        "target_shot_seconds": [
+          4,
+          6
+        ],
+        "narration_anchor_is_not_a_measured_time_range": true
+      },
+      "output_schema": {
+        "file": "absolute path to original PNG",
+        "sha256": "actual file hash",
+        "width": "actual pixels",
+        "height": "actual pixels",
+        "provider_evidence": "actual response or handle, no invented ID",
+        "review": "exact image inspection before acceptance"
+      }
+    },
+    {
+      "id": "S06",
+      "revision": 1,
+      "purpose": "scene",
+      "narration_anchor": "Four days after his reply, Bukele posted a video. Helicopters fire rockets at",
+      "visual_intent": "The reveal is a later video publication, with a four-day interval from the reply.",
+      "prompt": "Create one finished opaque portrait 9:16 handmade paper and cardboard diorama, photographed with physical light and rich contact shadows. Layered cut edges, folded construction, visible paper thickness and fibres, tiny well-made props. Full-frame full-bleed composition with natural content to all edges. Warm amber key light and restrained deep blue shadows. Use the attached P02 reference for material and physical craft only. Maintain a clear dominant action. Every person and object is crafted paper. No photoreal human skin, no smooth CGI, no flat vector, no outer border, no empty subtitle strip, no burned-in subtitles or watermark. Request highest available native quality, ideally 2160x3840; report actual size. This is an editorial illustration of reported events, never an authentic screenshot, photograph, video frame or exact reconstruction. Keep essential subject within x 0.20–0.80, y 0.18–0.68 for small horizontal pans and separate subtitles below; fill the remainder naturally. No gore, identifiable victims, casualty counts or civilians-cleared claim. No labels or lettering except the scene-specific text requested. Macro side view of a physical paper desk calendar and a thick tablet propped upright behind it. Four separate turned calendar leaves stack at left; one large clean card in the foreground reads 4 DAYS LATER. Tablet screen contains a small handmade paper helicopter silhouette above a blue-grey miniature paper landscape, with a triangular play symbol in one corner. Focus the eye from the time card to the play symbol. No actual dates or fake original post.",
+      "composition": "Macro side view of a physical paper desk calendar and a thick tablet propped upright behind it. Four separate turned calendar leaves stack at left; one large clean card in the foreground reads 4 DAYS LATER. Tablet screen contains a small handmade paper helicopter silhouette above a blue-grey miniature paper landscape, with a triangular play symbol in one corner. Focus the eye from the time card to the play symbol. No actual dates or fake original post.",
+      "camera": {
+        "focus": "Dominant subject described in composition",
+        "motion": "pull_out",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.08
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.04
+        },
+        "reason": "Small whole-image zoom alternates between neighbours and preserves composition. Final first-image reprise holds the first-frame crop for a continuous restart.",
+        "status": "planned crop awaiting actual image inspection"
+      },
+      "reference_assets": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/brand/References/meaningful_staging_20261105_v01/P02_navigation_relief.png",
+          "sha256": "ae35401e863161d2e166342bc94a9e9d5b0704157d5891cda7a4653dcc348d88",
+          "role": "Tactile layered paper, physical shadows and scale, not geography or story content",
+          "inspected": true,
+          "source": "Project-generated imagegen reference; recorded acceptance/provenance in brand manifest and PAPER_PLANE.md"
+        }
+      ],
+      "source_rights": {
+        "type": "original_ai_illustration",
+        "reference_provenance": "Project-owned generated style references; use material qualities, not exact geography or story",
+        "external_media": "none",
+        "authenticity": "illustration, no claim of original footage"
+      },
+      "format": {
+        "aspect_ratio": "9:16",
+        "target_source_pixels": [
+          2160,
+          3840
+        ],
+        "report_actual_size": true
+      },
+      "timing": {
+        "status": "planned_from_actual_audio_duration; word alignment not yet listened/reviewed",
+        "target_shot_seconds": [
+          4,
+          6
+        ],
+        "narration_anchor_is_not_a_measured_time_range": true
+      },
+      "output_schema": {
+        "file": "absolute path to original PNG",
+        "sha256": "actual file hash",
+        "width": "actual pixels",
+        "height": "actual pixels",
+        "provider_evidence": "actual response or handle, no invented ID",
+        "review": "exact image inspection before acceptance"
+      }
+    },
+    {
+      "id": "S07",
+      "revision": 1,
+      "purpose": "scene",
+      "narration_anchor": "buildings. Smoke rises above the buildings. Bukele said the gang leader’s house and the",
+      "visual_intent": "Illustrate smoke and the reported strike while narration attributes its identification to Bukele. Generic distant structures establish no identity with the user photo.",
+      "prompt": "Create one finished opaque portrait 9:16 handmade paper and cardboard diorama, photographed with physical light and rich contact shadows. Layered cut edges, folded construction, visible paper thickness and fibres, tiny well-made props. Full-frame full-bleed composition with natural content to all edges. Warm amber key light and restrained deep blue shadows. Use the attached P02 reference for material and physical craft only. Maintain a clear dominant action. Every person and object is crafted paper. No photoreal human skin, no smooth CGI, no flat vector, no outer border, no empty subtitle strip, no burned-in subtitles or watermark. Request highest available native quality, ideally 2160x3840; report actual size. This is an editorial illustration of reported events, never an authentic screenshot, photograph, video frame or exact reconstruction. Keep essential subject within x 0.20–0.80, y 0.18–0.68 for small horizontal pans and separate subtitles below; fill the remainder naturally. No gore, identifiable victims, casualty counts or civilians-cleared claim. No labels or lettering except the scene-specific text requested. Dramatic wide elevated view of a handmade paper helicopter silhouette crossing the upper third of a smoky paper landscape. Two tiny paper streaks descend toward distant generic low rectangular structures. Layered grey paper smoke rises from those structures. Show this as a clearly tangible paper theatrical model with visible cut edges and contact shadows, no photographic video realism. The distant structures differ from the cream illustrated house in the social-media scenes. No people or casualties.",
+      "composition": "Dramatic wide elevated view of a handmade paper helicopter silhouette crossing the upper third of a smoky paper landscape. Two tiny paper streaks descend toward distant generic low rectangular structures. Layered grey paper smoke rises from those structures. Show this as a clearly tangible paper theatrical model with visible cut edges and contact shadows, no photographic video realism. The distant structures differ from the cream illustrated house in the social-media scenes. No people or casualties.",
+      "camera": {
+        "focus": "Dominant subject described in composition",
+        "motion": "push_in",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.04
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.08
+        },
+        "reason": "Small whole-image zoom alternates between neighbours and preserves composition. Final first-image reprise holds the first-frame crop for a continuous restart.",
+        "status": "planned crop awaiting actual image inspection"
+      },
+      "reference_assets": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/brand/References/meaningful_staging_20261105_v01/P02_navigation_relief.png",
+          "sha256": "ae35401e863161d2e166342bc94a9e9d5b0704157d5891cda7a4653dcc348d88",
+          "role": "Tactile layered paper, physical shadows and scale, not geography or story content",
+          "inspected": true,
+          "source": "Project-generated imagegen reference; recorded acceptance/provenance in brand manifest and PAPER_PLANE.md"
+        }
+      ],
+      "source_rights": {
+        "type": "original_ai_illustration",
+        "reference_provenance": "Project-owned generated style references; use material qualities, not exact geography or story",
+        "external_media": "none",
+        "authenticity": "illustration, no claim of original footage"
+      },
+      "format": {
+        "aspect_ratio": "9:16",
+        "target_source_pixels": [
+          2160,
+          3840
+        ],
+        "report_actual_size": true
+      },
+      "timing": {
+        "status": "planned_from_actual_audio_duration; word alignment not yet listened/reviewed",
+        "target_shot_seconds": [
+          4,
+          6
+        ],
+        "narration_anchor_is_not_a_measured_time_range": true
+      },
+      "output_schema": {
+        "file": "absolute path to original PNG",
+        "sha256": "actual file hash",
+        "width": "actual pixels",
+        "height": "actual pixels",
+        "provider_evidence": "actual response or handle, no invented ID",
+        "review": "exact image inspection before acceptance"
+      }
+    },
+    {
+      "id": "S08",
+      "revision": 1,
+      "purpose": "scene",
+      "narration_anchor": "gang’s headquarters had been destroyed. Under the video, he wrote: “We kept our promise.”",
+      "visual_intent": "The declaration resolves the opening promise.",
+      "prompt": "Create one finished opaque portrait 9:16 handmade paper and cardboard diorama, photographed with physical light and rich contact shadows. Layered cut edges, folded construction, visible paper thickness and fibres, tiny well-made props. Full-frame full-bleed composition with natural content to all edges. Warm amber key light and restrained deep blue shadows. Use the attached P02 reference for material and physical craft only. Maintain a clear dominant action. Every person and object is crafted paper. No photoreal human skin, no smooth CGI, no flat vector, no outer border, no empty subtitle strip, no burned-in subtitles or watermark. Request highest available native quality, ideally 2160x3840; report actual size. This is an editorial illustration of reported events, never an authentic screenshot, photograph, video frame or exact reconstruction. Keep essential subject within x 0.20–0.80, y 0.18–0.68 for small horizontal pans and separate subtitles below; fill the remainder naturally. No gore, identifiable victims, casualty counts or civilians-cleared claim. No labels or lettering except the scene-specific text requested. Close three-quarter view of a handmade paper video-post card on a deep-blue physical stand. At top a paper illustration of helicopter smoke, below a broad cream comment card reading only PROMISE KEPT in large clear handmade paper sans-serif lettering. Small folded paper corners and tiny desk objects establish a physical medium. The readable phrase is an editorial summary of the spoken quote, not a replica of a screenshot. A light ivory folded paper airplane rests at x 0.72 y 0.42 on the physical tabletop, readily identifiable at phone size, outside the subtitles. Match the attached paper-plane reference for folded shape only; keep it naturally integrated as a brand easter egg.",
+      "composition": "Close three-quarter view of a handmade paper video-post card on a deep-blue physical stand. At top a paper illustration of helicopter smoke, below a broad cream comment card reading only PROMISE KEPT in large clear handmade paper sans-serif lettering. Small folded paper corners and tiny desk objects establish a physical medium. The readable phrase is an editorial summary of the spoken quote, not a replica of a screenshot. A small light ivory folded paper airplane rests at x 0.72 y 0.42.",
+      "camera": {
+        "focus": "Dominant subject described in composition",
+        "motion": "pull_out",
+        "start": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.08
+        },
+        "end": {
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.04
+        },
+        "reason": "Small whole-image zoom alternates between neighbours and preserves composition. Final first-image reprise holds the first-frame crop for a continuous restart.",
+        "status": "planned crop awaiting actual image inspection"
+      },
+      "reference_assets": [
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/brand/References/meaningful_staging_20261105_v01/P02_navigation_relief.png",
+          "sha256": "ae35401e863161d2e166342bc94a9e9d5b0704157d5891cda7a4653dcc348d88",
+          "role": "Tactile layered paper, physical shadows and scale, not geography or story content",
+          "inspected": true,
+          "source": "Project-generated imagegen reference; recorded acceptance/provenance in brand manifest and PAPER_PLANE.md"
+        },
+        {
+          "path": "/Users/diplomat/ytvideos/channels/paper_detour/brand/References/paper_plane_20261112/scene_sample.png",
+          "sha256": "36dedf45786bcdfa54fd28c00179b1ea9335ec769d94066beaa0b94c797e933d",
+          "role": "Shape of light folded paper plane; use only for S11",
+          "inspected": true,
+          "source": "Project-generated imagegen reference; recorded acceptance/provenance in brand manifest and PAPER_PLANE.md"
+        }
+      ],
+      "source_rights": {
+        "type": "original_ai_illustration",
+        "reference_provenance": "Project-owned generated style references; use material qualities, not exact geography or story",
+        "external_media": "none",
+        "authenticity": "illustration, no claim of original footage"
+      },
+      "format": {
+        "aspect_ratio": "9:16",
+        "target_source_pixels": [
+          2160,
+          3840
+        ],
+        "report_actual_size": true
+      },
+      "timing": {
+        "status": "planned_from_actual_audio_duration; word alignment not yet listened/reviewed",
+        "target_shot_seconds": [
+          4,
+          6
+        ],
+        "narration_anchor_is_not_a_measured_time_range": true
+      },
+      "output_schema": {
+        "file": "absolute path to original PNG",
+        "sha256": "actual file hash",
+        "width": "actual pixels",
+        "height": "actual pixels",
+        "provider_evidence": "actual response or handle, no invented ID",
+        "review": "exact image inspection before acceptance"
+      }
+    }
+  ],
+  "shot_schedule": {
+    "status": "frame plan based on measured final-speed audio duration; validate actual spoken boundaries and crops before render",
+    "fps": 30,
+    "audio_path": "/Users/diplomat/ytvideos/output/haiti-paper-20261113/audio/narration_110.wav",
+    "audio_sha256": "22f6666cc2b4e0b2155b4460ce0cf829325d9d3d5f65a7d9b30f60f313d86c12",
+    "audio_duration_seconds": 43.419637,
+    "frame_count": 1303,
+    "minimal_tail_pad_seconds": 0.013696333333328425,
+    "shots": [
+      {
+        "scene_id": "S01",
+        "start_frame": 0,
+        "end_frame": 144,
+        "seconds": 4.8,
+        "camera_override": null
+      },
+      {
+        "scene_id": "S02",
+        "start_frame": 144,
+        "end_frame": 279,
+        "seconds": 4.5,
+        "camera_override": null
+      },
+      {
+        "scene_id": "S03",
+        "start_frame": 279,
+        "end_frame": 426,
+        "seconds": 4.9,
+        "camera_override": null
+      },
+      {
+        "scene_id": "S04",
+        "start_frame": 426,
+        "end_frame": 576,
+        "seconds": 5.0,
+        "camera_override": null
+      },
+      {
+        "scene_id": "S05",
+        "start_frame": 576,
+        "end_frame": 726,
+        "seconds": 5.0,
+        "camera_override": null
+      },
+      {
+        "scene_id": "S06",
+        "start_frame": 726,
+        "end_frame": 870,
+        "seconds": 4.8,
+        "camera_override": null
+      },
+      {
+        "scene_id": "S07",
+        "start_frame": 870,
+        "end_frame": 1014,
+        "seconds": 4.8,
+        "camera_override": null
+      },
+      {
+        "scene_id": "S08",
+        "start_frame": 1014,
+        "end_frame": 1164,
+        "seconds": 5.0,
+        "camera_override": null
+      },
+      {
+        "scene_id": "S01",
+        "start_frame": 1164,
+        "end_frame": 1303,
+        "seconds": 4.633333333333334,
+        "camera_override": {
+          "motion": "hold",
+          "center": [
+            0.5,
+            0.5
+          ],
+          "scale": 1.04
+        }
+      }
+    ],
+    "final_reprise": "Exact S01 bytes during final clause. Hold at first-frame crop; on repeat S01 starts push-in from that same crop. No ninth image generation."
+  },
+  "loop_plan": {
+    "spoken_end": "That’s how the president said he’d followed through on what he’d written under someone else’s photo:",
+    "spoken_start": "“Give us the exact address—and we’ll destroy it.”",
+    "visual": "S01 reused from frame1164 to1303 at centre [.5,.5], scale1.04. First shot begins at the same crop then pushes in. Verify actual image crop and speech junction.",
+    "sound": "Continuous licensed music bed throughout; no final cadence. Keep speech junction natural after the colon; verify after mix.",
+    "subtitles": "Preserve final meaningful phrase and start quote; hold last group to end and start neutral opening group at frame zero per Paper contract.",
+    "verification": "Textual linkage checked; final audio/visual loop UNVERIFIED until exact MP4 exists."
+  },
+  "reference_review": {
+    "reviewer": "/root/chat_approval_docs",
+    "assets": [
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/brand/References/meaningful_staging_20261105_v01/P02_navigation_relief.png",
+        "sha256": "ae35401e863161d2e166342bc94a9e9d5b0704157d5891cda7a4653dcc348d88",
+        "role": "Tactile layered paper, physical shadows and scale, not geography or story content",
+        "inspected": true,
+        "source": "Project-generated imagegen reference; recorded acceptance/provenance in brand manifest and PAPER_PLANE.md"
+      },
+      {
+        "path": "/Users/diplomat/ytvideos/channels/paper_detour/brand/References/paper_plane_20261112/scene_sample.png",
+        "sha256": "36dedf45786bcdfa54fd28c00179b1ea9335ec769d94066beaa0b94c797e933d",
+        "role": "Shape of light folded paper plane; use only for S11",
+        "inspected": true,
+        "source": "Project-generated imagegen reference; recorded acceptance/provenance in brand manifest and PAPER_PLANE.md"
+      }
+    ],
+    "observed": "P02 has layered water/land relief, fibre edges, warm physical lamp and contact shadows. Plane sample is light ivory folded airplane at lower right; reuse only its shape, place higher in S11 for subtitle/crop safety. Plane is assigned to final unique scene S08 at x0.72/y0.42."
+  },
+  "limits": [
+    "Measured final-speed narration is 43.419637s. Planned 1303 frames at30fps cover it with14ms tail pad; provider word alignment and listening remain unverified.",
+    "No reference photo of Bukele or original strike video used; all depicted objects and people are illustrative generic compositions.",
+    "The use of online coordinates by forces and identity of photographed/struck house remain unproven; no visual connection asserts either."
+  ]
+}

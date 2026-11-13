@@ -1,0 +1,151 @@
+{
+  "id": "129a3589-839e-45d1-bdcc-aa9cad19d413",
+  "status": "working",
+  "channel": "nuviko_history",
+  "format": "short",
+  "intent": "Нужен интересный сюжет для исторического Short Nuviko History. Сам выбери неочевидную реальную историю, которую хочется досмотреть, и подготовь полный сценарий. Готовый продукт будет на английском, мне нужен и русский текст для чтения.",
+  "revision": 1,
+  "pins": {
+    "code": "c6a971159abddaa89b8eadf7d76ff0bde8fe6862c94d4b96ba052b7e76ac8357",
+    "profile": "9f9f657f88de1f5aea68216aa5da7765c31d0fbd67298f8484f0c4a0506bbf83",
+    "references": "274e027085cb8a8a124978abbfd48fbd933440998d63a49adba8cbc0adfbaf87",
+    "skills": "b000ea2eae33eab688c9057facd49a0f9147ebeedd4c273f11b26a181d817389",
+    "workflow": "1"
+  },
+  "budget": {
+    "max_editorial_passes": 2,
+    "max_paid_units": 0,
+    "max_task_attempts": 3,
+    "reserved": 0,
+    "spent": 0,
+    "unknown_reserved": 0
+  },
+  "approvals": {},
+  "source_script_id": null,
+  "tasks": {
+    "audio": {
+      "stage": "audio",
+      "status": "pending",
+      "attempt": 0,
+      "blocker": null,
+      "outputs": [],
+      "receipt": null,
+      "receipt_evidence_ids": null
+    },
+    "configure_release": {
+      "stage": "configure_release",
+      "status": "pending",
+      "attempt": 0,
+      "blocker": null,
+      "outputs": [],
+      "receipt": null,
+      "receipt_evidence_ids": null
+    },
+    "packaging": {
+      "stage": "packaging",
+      "status": "pending",
+      "attempt": 0,
+      "blocker": null,
+      "outputs": [],
+      "receipt": null,
+      "receipt_evidence_ids": null
+    },
+    "render": {
+      "stage": "render",
+      "status": "pending",
+      "attempt": 0,
+      "blocker": null,
+      "outputs": [],
+      "receipt": null,
+      "receipt_evidence_ids": null
+    },
+    "research": {
+      "stage": "research",
+      "status": "complete",
+      "attempt": 1,
+      "blocker": null,
+      "outputs": [
+        "research:sha256:ffc81ed2e7def1d01b9fabfb5884022a053848ee4fd282229e7dfbe261a40d2c"
+      ],
+      "receipt": "receipt:sha256:eb6e1c8222a65e7b3e1fa44cfdf77ee2797597f49d3bb1d6e15b03c03180b920",
+      "receipt_evidence_ids": null
+    },
+    "review": {
+      "stage": "review",
+      "status": "pending",
+      "attempt": 0,
+      "blocker": null,
+      "outputs": [],
+      "receipt": null,
+      "receipt_evidence_ids": null
+    },
+    "schedule": {
+      "stage": "schedule",
+      "status": "pending",
+      "attempt": 0,
+      "blocker": null,
+      "outputs": [],
+      "receipt": null,
+      "receipt_evidence_ids": null
+    },
+    "script": {
+      "stage": "script",
+      "status": "blocked",
+      "attempt": 1,
+      "blocker": "Independent review of exact script v2 returned revise with blocking findings on causal attribution of the six relief trains and the end-to-opening narrative loop. The second editorial pass has been used; pinned channel budget allows at most two editorial passes. Cannot truthfully complete required first_listener, independent_review, and narrative_loop checks as pass or move to awaiting_script_approval. Research is complete. Preserve v2 script and review evidence; a new edit would require renewed authorized review budget/decision.",
+      "outputs": [],
+      "receipt": null,
+      "receipt_evidence_ids": null
+    },
+    "storyboard": {
+      "stage": "storyboard",
+      "status": "pending",
+      "attempt": 0,
+      "blocker": null,
+      "outputs": [],
+      "receipt": null,
+      "receipt_evidence_ids": null
+    },
+    "subtitles": {
+      "stage": "subtitles",
+      "status": "pending",
+      "attempt": 0,
+      "blocker": null,
+      "outputs": [],
+      "receipt": null,
+      "receipt_evidence_ids": null
+    },
+    "upload": {
+      "stage": "upload",
+      "status": "pending",
+      "attempt": 0,
+      "blocker": null,
+      "outputs": [],
+      "receipt": null,
+      "receipt_evidence_ids": null
+    },
+    "verify_publication": {
+      "stage": "verify_publication",
+      "status": "pending",
+      "attempt": 0,
+      "blocker": null,
+      "outputs": [],
+      "receipt": null,
+      "receipt_evidence_ids": null
+    }
+  },
+  "artifacts": [
+    {
+      "id": "receipt:sha256:eb6e1c8222a65e7b3e1fa44cfdf77ee2797597f49d3bb1d6e15b03c03180b920",
+      "kind": "receipt",
+      "sha256": "eb6e1c8222a65e7b3e1fa44cfdf77ee2797597f49d3bb1d6e15b03c03180b920",
+      "file": "accepted-artifacts/eb6e1c8222a65e7b3e1fa44cfdf77ee2797597f49d3bb1d6e15b03c03180b920"
+    },
+    {
+      "id": "research:sha256:ffc81ed2e7def1d01b9fabfb5884022a053848ee4fd282229e7dfbe261a40d2c",
+      "kind": "research",
+      "sha256": "ffc81ed2e7def1d01b9fabfb5884022a053848ee4fd282229e7dfbe261a40d2c",
+      "file": "accepted-artifacts/ffc81ed2e7def1d01b9fabfb5884022a053848ee4fd282229e7dfbe261a40d2c"
+    }
+  ]
+}

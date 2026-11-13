@@ -100,7 +100,8 @@ class RequirementsRecheck(unittest.TestCase):
         data.pop("end_screen")
         fixture.complete("packaging", data)
         task = self.service.add_thumbnail_task(self.run_id, {
-            "id": "cover", "prompt": "Synthetic cover brief", "visual_intent": "Test release invalidation"})
+            "id": "cover", "prompt": "Synthetic cover brief", "visual_intent": "Test release invalidation",
+            "title": data["metadata"]["title"], "reference_na_reason": "Synthetic release invalidation has no artistic references."})
 
         # Isolate dependency invalidation from media decoding/approval validation,
         # which the full synthetic lifecycle suite exercises with actual media.
@@ -123,7 +124,8 @@ class RequirementsRecheck(unittest.TestCase):
         data.update(run_id=self.run_id, channel_id=fixture.run["profile"]["youtube_channel_id"], format="short")
         data.pop("end_screen")
         fixture.complete("packaging", data)
-        brief = {"id": "cover", "prompt": "Synthetic cover brief", "visual_intent": "A specific story promise"}
+        brief = {"id": "cover", "prompt": "Synthetic cover brief", "visual_intent": "A specific story promise",
+                 "title": data["metadata"]["title"], "reference_na_reason": "Synthetic release binding has no artistic references."}
 
         def bound(tx, run):
             run["publication"]["release_spec"] = "fixture-bound-release"

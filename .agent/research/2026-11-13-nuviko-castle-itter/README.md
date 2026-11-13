@@ -1,3 +1,5 @@
+**Актуализация 96c8fa1573c0:** Nuviko History `active` в текущем `main` (старые frozen-пометки исторические). Этот текстовый PR не официальный `ytv start` run и не одобренный сценарий; для производства требуются независимое прочтение и настоящий `awaiting_script_approval`. Подробнее: [handoff](handoff.md).
+
 # Castle Itter (1945) — historical Short draft for Nuviko History
 
 **[Читать полный русский сценарий](script.ru.txt)** · **[English narration master](script.en.txt)**

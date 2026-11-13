@@ -9,13 +9,34 @@
 - Исполнитель GPT-6 Luna и доступные tools, независимые sessions/subagents и реальные concurrency caps.
 - Image generation: submit/wait/poll/reconcile, job handles, ограничения контекста и reset/reuse.
 - TTS: нужный voice ID, аккаунт, формат и квота; renderer/FFmpeg/ffprobe, разрешённые encoder/font/profile.
+- `audio.listen`: доступное реальное прослушивание narration и финального микса. Анализ сигнала/word map не подтверждает эту capability.
 - Workspace/artifact storage, права чтения/записи и доступность нужных immutable inputs.
 - YouTube channel OAuth, API quota и обязательные Studio functions; календарная политика/timezone.
 - Trusted approval host: реальное пользовательское событие, Ed25519 verifier key и обработка replay/target/scope.
 
 Missing release capability не блокирует research/script. Missing image capability не отменяет уже созданный звук. Не превращать отсутствие одного backend в глобальную остановку.
 
+Для provider/tool observation различать три состояния: `unobserved` (`available: null`) — в run ещё нет проверенного наблюдения; `available` (`true`) — доступность подтверждена; `unavailable` (`false`) — зафиксирована реальная недоступность. `doctor` не обнаруживает все host tools автоматически. При `unobserved` исполнитель проверяет каталог текущей сессии и доступный deferred discovery, читает task `context`, сохраняет результат через `capabilities` с evidence и снова вызывает `next`. Поле `next_action` указывает этот шаг; отсутствующую запись нельзя предъявлять пользователю как отсутствующий инструмент.
+
 Перед `pool initialize` сохранить observation `sessions.independent` через `capabilities`: `available: true`, фактический `runtime_key` и целочисленный `max_sessions`. Эти два значения должны точно совпадать с initialize payload; `evidence` указывает источник измерения. Все runs одного runtime используют один key и общий лимит. Новый key не создаёт дополнительную физическую capacity. Billing изображений проверяется отдельно; доступность sessions не означает бесплатную генерацию.
+
+## Продолжение незавершённого run в локальном Codex
+
+[Project hooks](../../.codex/hooks.json) проверяют попытку завершить конкретную production-сессию. `start` и успешный `resume` связывают run, project, workspace и store с фактическим `CODEX_THREAD_ID`; ответ содержит `session_guard`. Для другого host можно явно передать его настоящий `--session-id` в `start`/`resume` и в `claim` для учёта leases. `status`, `plan`, обычный `create` и `claim` сами binding не создают. Ни один hook не выбирает последний или первый run из общей БД.
+
+Если модель вообще не вызвала `start` и не привязала run, guard разрешает остановку: он не может отличить новую production-задачу от maintenance и не придумывает поручение. Для детерминированного входа интегрирующий host должен сам вызвать `start` с фактическим поручением и каналом, связать session ID и передать первый pinned packet **до model generation**. Файл hooks этого не выполняет; отдельный полный host runner здесь не реализован.
+
+**Активация требует действий владельца локального host после проверки изменений.** Установить locked environment по [development](../development.md#локальный-вход), открыть Codex в доверенном checkout, затем в `/hooks` просмотреть и доверить точные четыре определения: `UserPromptSubmit`, `Stop`, `SubagentStop`, `Interrupt`. Новое или изменённое определение требует новой проверки. Репозиторий не меняет host trust/security и не активирует hooks автоматически. Это интеграция локального Codex; наличие файлов не подтверждает работу hooks в ChatGPT Cloud или другом collaboration host. Источник поведения и trust: [официальный hooks contract](https://learn.chatgpt.com/docs/hooks.md).
+
+`Stop` читает текущее сохранённое состояние и проверяет code/context pins. Для готовой задачи или ещё не проверенных capabilities он возвращает `decision: block` с run ID, точной командой `context`, следующим действием и требуемой границей завершения. Это continuation текущей работы, а не новое разрешение. Script/MP4 gate, отмена, подтверждённые blockers, UNKNOWN, чужие leases и исчерпанный применимый бюджет разрешают остановку; независимая доступная задача остаётся поводом продолжить. После проверенного MP4 hook не инициирует release/upload.
+
+Счётчик допускает максимум **три** продолжения одной пользовательской задачи. Он записывается атомарно в локальном ignored workspace проекта и не сбрасывается от нового run version, повторного `start`/`resume` или автоматического continuation turn. `UserPromptSubmit` сохраняет цепочку только для точного `reason`, ранее выданного guard; новый пользовательский запрос снимает прежнюю binding. Для продолжения выпуска в новом запросе нужен `resume`. `SubagentStop` использует `agent_id`, не ID родителя: independent reviewer не возобновляет работу координатора. `Interrupt` снимает binding и не перезапускает исполнение.
+
+SQLite читается в `mode=ro`; PostgreSQL — ограниченным по времени read-only соединением без `Store.initialize`, schema changes или provider calls. Для PostgreSQL настроить `YTV_DATABASE_URL`: binding сохраняет только имя переменной и digest, не DSN/credentials. Отсутствие или изменение reference, недоступная БД/workspace и несовпадающие pins дают явное `inspection unavailable`, без подмены состояния. Команда hook использует Git root и `uv --offline --no-sync`, в том числе из подкаталога; зависимости должны быть уже установлены. Истечение host timeout также не доказывает готовность работы.
+
+Hook сохраняет ownership фактически выданных CLI claims уже привязанной сессии. Активный свой lease следует завершить или проверить по существующему provider handle; просроченный — восстановить штатно, сохраняя UNKNOWN. Hook сам не вызывает `claim`, `resume`, providers или approvals. Environment IDs служат correlation, не authentication: это прямо оговорено в [exec-server metadata contract](https://github.com/openai/codex/blob/main/codex-rs/exec-server/README.md#command-metadata). Guard не удостоверяет качество результата и не защищает от намеренного изменения локальных файлов. Его проверки и receipt gates дополняют фактического независимого reviewer.
+
+Проверка через вызов `session_guard.decide` с записанными host events является **симуляцией host integration**. Live-проверкой считается наблюдённый запуск доверенных hooks в целевом Codex с сохранённым trace; unit tests и вручную переданный continuation этого не подтверждают.
 
 ## Параллельные изображения
 

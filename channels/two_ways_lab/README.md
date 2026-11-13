@@ -3,7 +3,8 @@
 **Same problem. Two methods. Let's test.** English Shorts about everyday decisions, tested side by side with original illustrated simulations.
 
 - [Channel rules](AGENTS.md) · [visual profile](brand/VISUAL_PROFILE.md) · [local channel metadata](channel.json) · [brand kit](brand/README.md)
-- [TWL_E001: Which Checkout Line Wins?](videos/TWL_E001_checkout/CURRENT_CONTEXT.md) · [Episode, model and edit](videos/TWL_E001_checkout/EPISODE.md)
 - [Topic backlog](docs/BACKLOG.md)
 
-YouTube setup is deferred. `@TwoWaysLab` is a candidate. The local channel key is `two_ways_lab`; it is not an authenticated YouTube identity.
+Known channel identity: `@TheTwoWaysLab`, YouTube ID `UCcZWXzkL_K1mD5dr8MZBYrQ`; local key `two_ways_lab`. Verify account access and each video's live state before external actions. The production profile supports illustrated Shorts at 1080×1920/30 fps; the long format is unresolved. Actual tools, fonts and reference images remain runtime dependencies.
+
+For an existing episode, use its exact working bundle and verified state. Episode drafts and receipts are task inputs, not general channel instructions.

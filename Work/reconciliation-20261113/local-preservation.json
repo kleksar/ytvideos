@@ -1,0 +1,1438 @@
+{
+  "recorded_at_utc": "2026-11-13T05:07:35.234943+00:00",
+  "source_head": "43b7cb9afab77760374b7654816233383a401593",
+  "integration_base": "76b4f5bf8374af66925afedaa0fe512e60d19b92",
+  "scope": "Preserved local production records, not new execution or live re-verification. PASS claims remain the original authors assertions. Active runs and pinned versions are not migrated.",
+  "copied": [
+    {
+      "path": "Work/homelander-edit-research/release-v7/STATUS.md",
+      "sha256": "460d879732843136c7a2320258c8de6cac1b30e10195818c01cc130e29967372",
+      "bytes": 5013,
+      "source_mtime_ns": 1794528177385367537,
+      "copied_sha256": "460d879732843136c7a2320258c8de6cac1b30e10195818c01cc130e29967372"
+    },
+    {
+      "path": "Work/homelander-edit-research/release-v7/artifact-ingest.json",
+      "sha256": "15ab99354098d18a123dffa271fa4cdca1dfd1618e46a6361f49a803e212b11d",
+      "bytes": 629,
+      "source_mtime_ns": 1794527510790082515,
+      "copied_sha256": "15ab99354098d18a123dffa271fa4cdca1dfd1618e46a6361f49a803e212b11d"
+    },
+    {
+      "path": "Work/homelander-edit-research/release-v7/card.json",
+      "sha256": "591bd3b31e45b0e1c99d88b01c0b78db4077bcd5771b3999b99faae49625a98e",
+      "bytes": 98,
+      "source_mtime_ns": 1794526921645977200,
+      "copied_sha256": "591bd3b31e45b0e1c99d88b01c0b78db4077bcd5771b3999b99faae49625a98e"
+    },
+    {
+      "path": "Work/homelander-edit-research/release-v7/cover-qa/manifest.json",
+      "sha256": "9b91779dd60c1bc5feaa1c8fd18763b52ef568381c421ca9555827b9d8862095",
+      "bytes": 1673,
+      "source_mtime_ns": 1794526921918548213,
+      "copied_sha256": "9b91779dd60c1bc5feaa1c8fd18763b52ef568381c421ca9555827b9d8862095"
+    },
+    {
+      "path": "Work/homelander-edit-research/release-v7/packaging-draft.json",
+      "sha256": "401d8dea1b85ca55e7fad6e0089df9f334ae25d3a033b6b2de5aca559295a67e",
+      "bytes": 1497,
+      "source_mtime_ns": 1794526890788426024,
+      "copied_sha256": "401d8dea1b85ca55e7fad6e0089df9f334ae25d3a033b6b2de5aca559295a67e"
+    },
+    {
+      "path": "Work/homelander-edit-research/release-v7/schedule-swap-20261113.json",
+      "sha256": "36ecf91f183932e77f795b2c0ecfc91b36089e7a9e8ac79e5c91744fd278b282",
+      "bytes": 1228,
+      "source_mtime_ns": 1794528163131661577,
+      "copied_sha256": "36ecf91f183932e77f795b2c0ecfc91b36089e7a9e8ac79e5c91744fd278b282"
+    },
+    {
+      "path": "Work/homelander-edit-research/release-v7/youtube-metadata.json",
+      "sha256": "3b84c0b3a592bab06e30672b9284249488e3d233836bf8ac87e841d1222b340d",
+      "bytes": 505,
+      "source_mtime_ns": 1794527657209484851,
+      "copied_sha256": "3b84c0b3a592bab06e30672b9284249488e3d233836bf8ac87e841d1222b340d"
+    },
+    {
+      "path": "Work/homelander-edit-research/release-v7/youtube-release-receipt.json",
+      "sha256": "c3128ad52bbd8b2528a9cefedd83c411e309b4ffc1de6fcf8437ae338aac61d3",
+      "bytes": 1165,
+      "source_mtime_ns": 1794527874694173404,
+      "copied_sha256": "c3128ad52bbd8b2528a9cefedd83c411e309b4ffc1de6fcf8437ae338aac61d3"
+    },
+    {
+      "path": "Work/homelander-edit-research/revisions/source-cut-audit-20261113.md",
+      "sha256": "1488de8c6c6954ea9191afac113ce498f9b518d10b7a19d509026ee7bcb2a4b8",
+      "bytes": 3328,
+      "source_mtime_ns": 1794524533107894800,
+      "copied_sha256": "1488de8c6c6954ea9191afac113ce498f9b518d10b7a19d509026ee7bcb2a4b8"
+    },
+    {
+      "path": "Work/homelander-edit-research/revisions/v4-qa/A-plan-v4.json",
+      "sha256": "3bf358337763158fb235c3337fc3d9523a8503926761302f96e1d1cf8d76b713",
+      "bytes": 3995,
+      "source_mtime_ns": 1794525274434139626,
+      "copied_sha256": "3bf358337763158fb235c3337fc3d9523a8503926761302f96e1d1cf8d76b713"
+    },
+    {
+      "path": "Work/homelander-edit-research/revisions/v4-qa/A00.json",
+      "sha256": "7d9beb885693dc57c6111db646234625cbf14ccfb7b5622f79b9b0b4e8b31196",
+      "bytes": 188,
+      "source_mtime_ns": 1794524607156036155,
+      "copied_sha256": "7d9beb885693dc57c6111db646234625cbf14ccfb7b5622f79b9b0b4e8b31196"
+    },
+    {
+      "path": "Work/homelander-edit-research/revisions/v4-qa/A01.json",
+      "sha256": "8b23a3af4ab66e617d5f49681c9e24c292dc5e01cbcebfe57fe7ef2b7346d93b",
+      "bytes": 190,
+      "source_mtime_ns": 1794524607395337173,
+      "copied_sha256": "8b23a3af4ab66e617d5f49681c9e24c292dc5e01cbcebfe57fe7ef2b7346d93b"
+    },
+    {
+      "path": "Work/homelander-edit-research/revisions/v4-qa/A02.json",
+      "sha256": "81935a1003a82715f93c284cf0386ffc27105cfe0f28944c55db55eaabe88f0f",
+      "bytes": 198,
+      "source_mtime_ns": 1794524607539581477,
+      "copied_sha256": "81935a1003a82715f93c284cf0386ffc27105cfe0f28944c55db55eaabe88f0f"
+    },
+    {
+      "path": "Work/homelander-edit-research/revisions/v4-qa/A03.json",
+      "sha256": "732859801e4f71355d429cc5c405d472287cf51687a3ca0c46ae45169c6b7a17",
+      "bytes": 192,
+      "source_mtime_ns": 1794524607694442268,
+      "copied_sha256": "732859801e4f71355d429cc5c405d472287cf51687a3ca0c46ae45169c6b7a17"
+    },
+    {
+      "path": "Work/homelander-edit-research/revisions/v4-qa/A04.json",
+      "sha256": "60a2b7cc7839316a5a2a3da6f3f707709a35abfc09ee18941a0476bbbf3e264a",
+      "bytes": 193,
+      "source_mtime_ns": 1794524607900130696,
+      "copied_sha256": "60a2b7cc7839316a5a2a3da6f3f707709a35abfc09ee18941a0476bbbf3e264a"
+    },
+    {
+      "path": "Work/homelander-edit-research/revisions/v4-qa/A05.json",
+      "sha256": "c32909453c910ec938e4923f623ae2cf833ce81f27d86ccc73d090544f823528",
+      "bytes": 195,
+      "source_mtime_ns": 1794524608057307160,
+      "copied_sha256": "c32909453c910ec938e4923f623ae2cf833ce81f27d86ccc73d090544f823528"
+    },
+    {
+      "path": "Work/homelander-edit-research/revisions/v4-qa/A06.json",
+      "sha256": "a0f9dcfd13559b44c79be34dc7ee1601c924857c90f8af97822642db0e616e22",
+      "bytes": 190,
+      "source_mtime_ns": 1794524608226953075,
+      "copied_sha256": "a0f9dcfd13559b44c79be34dc7ee1601c924857c90f8af97822642db0e616e22"
+    },
+    {
+      "path": "Work/homelander-edit-research/revisions/v4-qa/A07.json",
+      "sha256": "b13ba0c5aa3180e3c4f0d1b50c8df49e3d14e26f5c0aaac5bc3de7b6348720c6",
+      "bytes": 189,
+      "source_mtime_ns": 1794524608417266420,
+      "copied_sha256": "b13ba0c5aa3180e3c4f0d1b50c8df49e3d14e26f5c0aaac5bc3de7b6348720c6"
+    },
+    {
+      "path": "Work/homelander-edit-research/revisions/v4-qa/A08.json",
+      "sha256": "c8f3dc65a3991efcab3ab0a61857c3ad2eba414504bb5ecbedcdecc69db0828b",
+      "bytes": 197,
+      "source_mtime_ns": 1794524608587108001,
+      "copied_sha256": "c8f3dc65a3991efcab3ab0a61857c3ad2eba414504bb5ecbedcdecc69db0828b"
+    },
+    {
+      "path": "Work/homelander-edit-research/revisions/v4-qa/A09.json",
+      "sha256": "9129628e288c8100d6026effbaa44b68f1f18dc87c81b29490088c758348a437",
+      "bytes": 189,
+      "source_mtime_ns": 1794524608724493120,
+      "copied_sha256": "9129628e288c8100d6026effbaa44b68f1f18dc87c81b29490088c758348a437"
+    },
+    {
+      "path": "Work/homelander-edit-research/revisions/v4-qa/A10.json",
+      "sha256": "4f15e3428a15c6837bce28fdc759d97896bef156ffa34b8526354cdb80064db5",
+      "bytes": 195,
+      "source_mtime_ns": 1794524608861019737,
+      "copied_sha256": "4f15e3428a15c6837bce28fdc759d97896bef156ffa34b8526354cdb80064db5"
+    },
+    {
+      "path": "Work/homelander-edit-research/revisions/v4-qa/A11.json",
+      "sha256": "6cf81aa0f4bf80f2fbd6af1f4cbdb4655e7114d368379247e420ca78cc1bc433",
+      "bytes": 194,
+      "source_mtime_ns": 1794524609036618293,
+      "copied_sha256": "6cf81aa0f4bf80f2fbd6af1f4cbdb4655e7114d368379247e420ca78cc1bc433"
+    },
+    {
+      "path": "Work/homelander-edit-research/revisions/v4-qa/A12.json",
+      "sha256": "c07f6c2ce56d0deb2fa4744a37c6f11df8584466c9aa84f43109cdf06f926d24",
+      "bytes": 193,
+      "source_mtime_ns": 1794524609272535677,
+      "copied_sha256": "c07f6c2ce56d0deb2fa4744a37c6f11df8584466c9aa84f43109cdf06f926d24"
+    },
+    {
+      "path": "Work/homelander-edit-research/revisions/v4-qa/A13.json",
+      "sha256": "f4c87b9a32c3c30b5a230d94f8d539d689d5007391bfd28db52f1b93854a76c4",
+      "bytes": 191,
+      "source_mtime_ns": 1794524609508283268,
+      "copied_sha256": "f4c87b9a32c3c30b5a230d94f8d539d689d5007391bfd28db52f1b93854a76c4"
+    },
+    {
+      "path": "Work/homelander-edit-research/revisions/v4-qa/AUDIO-FIX-v5.md",
+      "sha256": "08de639be3d3ae43aafa07774c6590ad627f174433ab8434c11b5605809bc8ba",
+      "bytes": 1331,
+      "source_mtime_ns": 1794525594341791734,
+      "copied_sha256": "08de639be3d3ae43aafa07774c6590ad627f174433ab8434c11b5605809bc8ba"
+    },
+    {
+      "path": "Work/homelander-edit-research/revisions/v4-qa/B-plan-v4.json",
+      "sha256": "37903a2b374526ecac75d6d58477b29f38c0fec76a6cf1a0a40d1f3890222ba4",
+      "bytes": 4434,
+      "source_mtime_ns": 1794525350088198132,
+      "copied_sha256": "37903a2b374526ecac75d6d58477b29f38c0fec76a6cf1a0a40d1f3890222ba4"
+    },
+    {
+      "path": "Work/homelander-edit-research/revisions/v4-qa/B00.json",
+      "sha256": "68650b5eed67d732ed6250bfa7b19a361088bcf47b79842fc3522cfe8445d556",
+      "bytes": 214,
+      "source_mtime_ns": 1794524610083365647,
+      "copied_sha256": "68650b5eed67d732ed6250bfa7b19a361088bcf47b79842fc3522cfe8445d556"
+    },
+    {
+      "path": "Work/homelander-edit-research/revisions/v4-qa/B01.json",
+      "sha256": "45c1931ab6e31896985e6e1d4ec32446f90104728515b1877d2907ff4870d776",
+      "bytes": 213,
+      "source_mtime_ns": 1794524610626319522,
+      "copied_sha256": "45c1931ab6e31896985e6e1d4ec32446f90104728515b1877d2907ff4870d776"
+    },
+    {
+      "path": "Work/homelander-edit-research/revisions/v4-qa/B02.json",
+      "sha256": "6455b6f5acf87bef283bd25123e8b19bc8ffe69ecd3df8f8a74945fa601e2652",
+      "bytes": 212,
+      "source_mtime_ns": 1794524611223767628,
+      "copied_sha256": "6455b6f5acf87bef283bd25123e8b19bc8ffe69ecd3df8f8a74945fa601e2652"
+    },
+    {
+      "path": "Work/homelander-edit-research/revisions/v4-qa/B03.json",
+      "sha256": "b4290280f299712050fdd034782bbaeacb3ca284b24bf872f918c2ba5f62082e",
+      "bytes": 213,
+      "source_mtime_ns": 1794524611843172668,
+      "copied_sha256": "b4290280f299712050fdd034782bbaeacb3ca284b24bf872f918c2ba5f62082e"
+    },
+    {
+      "path": "Work/homelander-edit-research/revisions/v4-qa/B04.json",
+      "sha256": "7d8b85f4db36a70cb9b62f1387dcd698dc46bce3ad89008fca1c292995df0c6d",
+      "bytes": 215,
+      "source_mtime_ns": 1794524612374578638,
+      "copied_sha256": "7d8b85f4db36a70cb9b62f1387dcd698dc46bce3ad89008fca1c292995df0c6d"
+    },
+    {
+      "path": "Work/homelander-edit-research/revisions/v4-qa/B05.json",
+      "sha256": "86c0f7d91466e3fca5764b2d2bcab3bf1d7355252d468b17b7ead75bdb70fa0a",
+      "bytes": 214,
+      "source_mtime_ns": 1794524612844245982,
+      "copied_sha256": "86c0f7d91466e3fca5764b2d2bcab3bf1d7355252d468b17b7ead75bdb70fa0a"
+    },
+    {
+      "path": "Work/homelander-edit-research/revisions/v4-qa/B06.json",
+      "sha256": "d332d9cbefe942cfdcbfba375cd785b8f878b14cad934271642256ec6fbdc46d",
+      "bytes": 213,
+      "source_mtime_ns": 1794524613453991079,
+      "copied_sha256": "d332d9cbefe942cfdcbfba375cd785b8f878b14cad934271642256ec6fbdc46d"
+    },
+    {
+      "path": "Work/homelander-edit-research/revisions/v4-qa/B07.json",
+      "sha256": "a591ef17331be73fa3d970593d25ecb2fa65d34094373e7351f8ad6e6822fb53",
+      "bytes": 212,
+      "source_mtime_ns": 1794524613951454250,
+      "copied_sha256": "a591ef17331be73fa3d970593d25ecb2fa65d34094373e7351f8ad6e6822fb53"
+    },
+    {
+      "path": "Work/homelander-edit-research/revisions/v4-qa/B08.json",
+      "sha256": "8890f2c5834515d4dc53f20aca525bdea60985bf77c9261b28abb159046d6739",
+      "bytes": 215,
+      "source_mtime_ns": 1794524614469133225,
+      "copied_sha256": "8890f2c5834515d4dc53f20aca525bdea60985bf77c9261b28abb159046d6739"
+    },
+    {
+      "path": "Work/homelander-edit-research/revisions/v4-qa/B09.json",
+      "sha256": "7aaa76b7c1ef545cce5ea779b32df70805b251982d4e112e6758d41365a2aef7",
+      "bytes": 212,
+      "source_mtime_ns": 1794524615055693092,
+      "copied_sha256": "7aaa76b7c1ef545cce5ea779b32df70805b251982d4e112e6758d41365a2aef7"
+    },
+    {
+      "path": "Work/homelander-edit-research/revisions/v4-qa/B10.json",
+      "sha256": "ace1ed5c1c1442ad91edbe1d457931ed22c0fe1c682ce4d31842670a62806d98",
+      "bytes": 201,
+      "source_mtime_ns": 1794524615252625622,
+      "copied_sha256": "ace1ed5c1c1442ad91edbe1d457931ed22c0fe1c682ce4d31842670a62806d98"
+    },
+    {
+      "path": "Work/homelander-edit-research/revisions/v4-qa/B11.json",
+      "sha256": "957b4ed52561384351035d5cf177de1f699abddcec1a6791801a585602dae01c",
+      "bytes": 202,
+      "source_mtime_ns": 1794524615491882306,
+      "copied_sha256": "957b4ed52561384351035d5cf177de1f699abddcec1a6791801a585602dae01c"
+    },
+    {
+      "path": "Work/homelander-edit-research/revisions/v4-qa/B12.json",
+      "sha256": "d7f099dc1e4552c5bfd5611ee124dd8bf8d8ed9e8c37e1ba7d78ac3e71519986",
+      "bytes": 201,
+      "source_mtime_ns": 1794524615701162326,
+      "copied_sha256": "d7f099dc1e4552c5bfd5611ee124dd8bf8d8ed9e8c37e1ba7d78ac3e71519986"
+    },
+    {
+      "path": "Work/homelander-edit-research/revisions/v4-qa/B13.json",
+      "sha256": "0f8c108523b39b7edbda5a5dfa4af0f1ae457976a8e94a7c05880065623b5a30",
+      "bytes": 198,
+      "source_mtime_ns": 1794524615901259156,
+      "copied_sha256": "0f8c108523b39b7edbda5a5dfa4af0f1ae457976a8e94a7c05880065623b5a30"
+    },
+    {
+      "path": "Work/homelander-edit-research/revisions/v4-qa/REVIEW.md",
+      "sha256": "5cba63e54aeb3131452c2d3f1ae003f0451f55a8663bb7fd7ac1498879dd1ab3",
+      "bytes": 1437,
+      "source_mtime_ns": 1794525392742121062,
+      "copied_sha256": "5cba63e54aeb3131452c2d3f1ae003f0451f55a8663bb7fd7ac1498879dd1ab3"
+    },
+    {
+      "path": "Work/homelander-edit-research/revisions/v4-qa/detections.json",
+      "sha256": "6ee6701bf2ef8f42016aacc0c9a615cad0a5aff2b988b4149dd101fd3be5aa89",
+      "bytes": 17167,
+      "source_mtime_ns": 1794524900838826693,
+      "copied_sha256": "6ee6701bf2ef8f42016aacc0c9a615cad0a5aff2b988b4149dd101fd3be5aa89"
+    },
+    {
+      "path": "Work/homelander-edit-research/revisions/v4-qa/render_v4.py",
+      "sha256": "8a00c661ed101a4052fc4247528465f48dba88e7d7aa7b05e3bfed4469bde55f",
+      "bytes": 1997,
+      "source_mtime_ns": 1794525217815106593,
+      "copied_sha256": "8a00c661ed101a4052fc4247528465f48dba88e7d7aa7b05e3bfed4469bde55f"
+    },
+    {
+      "path": "Work/homelander-edit-research/revisions/v6-qa/B-plan-v6.json",
+      "sha256": "139310d219dc5ba110b79b985f0d544f2778c153b91bb50b4a737c86efe3219e",
+      "bytes": 4266,
+      "source_mtime_ns": 1794526099954137541,
+      "copied_sha256": "139310d219dc5ba110b79b985f0d544f2778c153b91bb50b4a737c86efe3219e"
+    },
+    {
+      "path": "Work/homelander-edit-research/revisions/v6-qa/REVIEW.md",
+      "sha256": "4e85aeeb8f5e14792a491adb5aae4a72dde48a594cf3909aa97758c21988832d",
+      "bytes": 1661,
+      "source_mtime_ns": 1794526133577943090,
+      "copied_sha256": "4e85aeeb8f5e14792a491adb5aae4a72dde48a594cf3909aa97758c21988832d"
+    },
+    {
+      "path": "Work/homelander-edit-research/revisions/v6-qa/render_v6.py",
+      "sha256": "585edc3d0964f1d23bbc241a955e2764e54d216292e007444cb4e0690f5b1b2a",
+      "bytes": 2015,
+      "source_mtime_ns": 1794525955508421759,
+      "copied_sha256": "585edc3d0964f1d23bbc241a955e2764e54d216292e007444cb4e0690f5b1b2a"
+    },
+    {
+      "path": "Work/homelander-edit-research/revisions/v7-qa/REVIEW.md",
+      "sha256": "ef5b0042cbefcd36eca9fad5b846cc453d3d0f8b5bbc6a7a3a0198625de90d5d",
+      "bytes": 1894,
+      "source_mtime_ns": 1794526423760464259,
+      "copied_sha256": "ef5b0042cbefcd36eca9fad5b846cc453d3d0f8b5bbc6a7a3a0198625de90d5d"
+    },
+    {
+      "path": "Work/homelander-edit-research/revisions/v7-qa/render_v7.py",
+      "sha256": "277e29e339897e6eaa0968c9edd0e9d905009649f4367dba1ab6b85e6f4da568",
+      "bytes": 1361,
+      "source_mtime_ns": 1794526379273334681,
+      "copied_sha256": "277e29e339897e6eaa0968c9edd0e9d905009649f4367dba1ab6b85e6f4da568"
+    },
+    {
+      "path": "channels/scenes_on_repeat/videos/harry-potter-philosophers-stone-2001/CURRENT_CONTEXT.md",
+      "sha256": "a6f9b2236e2a0972b7e8bb4992d19c0a3bebd4cd67a846a292ebe044e714eb76",
+      "bytes": 3788,
+      "source_mtime_ns": 1794528177386006081,
+      "copied_sha256": "a6f9b2236e2a0972b7e8bb4992d19c0a3bebd4cd67a846a292ebe044e714eb76"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/backup-link-cleanup-20261112.md",
+      "sha256": "f9d94d7517e5dd0ddc471e5eefbd0f02b5946830c05cb185d596e846dc76c3b8",
+      "bytes": 6230,
+      "source_mtime_ns": 1794534471848713892,
+      "copied_sha256": "f9d94d7517e5dd0ddc471e5eefbd0f02b5946830c05cb185d596e846dc76c3b8"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/channel-profile-2026-11-13.md",
+      "sha256": "c4dc7d9a81dd8a95bd6948d9a11ae992011235ab354c11f0c1232787fe22658a",
+      "bytes": 3066,
+      "source_mtime_ns": 1794538724487923576,
+      "copied_sha256": "c4dc7d9a81dd8a95bd6948d9a11ae992011235ab354c11f0c1232787fe22658a"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/next-audit-20261113/applied-20261113.md",
+      "sha256": "684a40473e14a544f37be8172390fcf4e799e1303710b23907f2e1e81fb3377b",
+      "bytes": 4044,
+      "source_mtime_ns": 1794536411751572696,
+      "copied_sha256": "684a40473e14a544f37be8172390fcf4e799e1303710b23907f2e1e81fb3377b"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/next-audit-20261113/chapters-before-after.json",
+      "sha256": "9afc32e47fc5c7cb86ed17110b4231327f80916ce38aca94908bb254195a99da",
+      "bytes": 16068,
+      "source_mtime_ns": 1794536980345715447,
+      "copied_sha256": "9afc32e47fc5c7cb86ed17110b4231327f80916ce38aca94908bb254195a99da"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/next-audit-20261113/proposals.md",
+      "sha256": "24fb4d5bd2febd92cd69d831b54c8cb37e345de7e0cf8a1e8dfea378b1142e69",
+      "bytes": 29362,
+      "source_mtime_ns": 1794531542894460598,
+      "copied_sha256": "24fb4d5bd2febd92cd69d831b54c8cb37e345de7e0cf8a1e8dfea378b1142e69"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/next-audit-20261113/real-frame-thumbnails/sources.md",
+      "sha256": "69e9558c13c16e7f42259b0f1a67bfda2857b0ec979b44761bcf5b85805bd09a",
+      "bytes": 1726,
+      "source_mtime_ns": 1794533942874348801,
+      "copied_sha256": "69e9558c13c16e7f42259b0f1a67bfda2857b0ec979b44761bcf5b85805bd09a"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/next-audit-20261113/thumbnail-package.md",
+      "sha256": "ea90042f177a26b4da07065aa2a0ce8d9bb1858415d142200060509206700f2d",
+      "bytes": 5208,
+      "source_mtime_ns": 1794531536292952161,
+      "copied_sha256": "ea90042f177a26b4da07065aa2a0ce8d9bb1858415d142200060509206700f2d"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/next-audit-20261113/transcripts/youtube-5DNQGjGLnMU-ff20418c-974c-4346-afc4-4efa17044403.txt",
+      "sha256": "7a45435e73e4694cb01b1754becaa806474a2915606e16751bd778c9bc68db59",
+      "bytes": 109051,
+      "source_mtime_ns": 1794530370158564648,
+      "copied_sha256": "7a45435e73e4694cb01b1754becaa806474a2915606e16751bd778c9bc68db59"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/next-audit-20261113/transcripts/youtube-9agXl4BLtCY-4fdb2921-56a3-4547-a89b-0a5b9b03011e.txt",
+      "sha256": "698544b906bbb5a53ec15731bc3ed176cb6cac5803ed630f680672c49c761b27",
+      "bytes": 4913,
+      "source_mtime_ns": 1794530370157854062,
+      "copied_sha256": "698544b906bbb5a53ec15731bc3ed176cb6cac5803ed630f680672c49c761b27"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/next-audit-20261113/transcripts/youtube-E7yEpWgEJ5k-ce9f63db-aad8-409c-b9e7-909fd4c49d8a.txt",
+      "sha256": "9c6dee314ccbee6410a51a02789a77ca391362527120c17a681af254d9b07afb",
+      "bytes": 16830,
+      "source_mtime_ns": 1794530370160189236,
+      "copied_sha256": "9c6dee314ccbee6410a51a02789a77ca391362527120c17a681af254d9b07afb"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/next-audit-20261113/transcripts/youtube-H54IhZuQiao-aa3d31b1-cf4f-457e-8c18-0fd57d8c28c8.txt",
+      "sha256": "682c476e3cfbfba836402076a4b90c7be11c9b875ca3a3126c019e6363f7fcba",
+      "bytes": 3390,
+      "source_mtime_ns": 1794530370159227983,
+      "copied_sha256": "682c476e3cfbfba836402076a4b90c7be11c9b875ca3a3126c019e6363f7fcba"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/next-audit-20261113/transcripts/youtube-TY2S55B3dFE-377d0e0b-a220-4c17-a96d-5f3f1078713d.txt",
+      "sha256": "2283a5312e910a671428d56c997cabf86c06bdd23aa33b6fa9a4a41bf17a62cc",
+      "bytes": 112410,
+      "source_mtime_ns": 1794530370158894649,
+      "copied_sha256": "2283a5312e910a671428d56c997cabf86c06bdd23aa33b6fa9a4a41bf17a62cc"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/next-audit-20261113/transcripts/youtube-nDK1xtNrzdg-e8981299-8dac-489a-893d-205ee6dfc159.txt",
+      "sha256": "affdd53d965c740695cf01714831abf741e8181674761d894c9ba8d7c4a89235",
+      "bytes": 6774,
+      "source_mtime_ns": 1794530370160480737,
+      "copied_sha256": "affdd53d965c740695cf01714831abf741e8181674761d894c9ba8d7c4a89235"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/next-audit-20261113/transcripts/youtube-ooT5LCLz-eI-85d10c1b-9eb5-4949-a6c1-28f98d62241d.txt",
+      "sha256": "cffb33e094e10bc37295e73dbfa1820e16364f04405fb87027c84a8557e243cd",
+      "bytes": 2931,
+      "source_mtime_ns": 1794530370159604443,
+      "copied_sha256": "cffb33e094e10bc37295e73dbfa1820e16364f04405fb87027c84a8557e243cd"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/next-audit-20261113/transcripts/youtube-r6lc2oCda-M-0a0f4125-b776-4c1d-9812-a5950b911cba.txt",
+      "sha256": "6ea5ee2b3622505b28b35d744910e21d43583356d371e7cff08d1146684ab0ed",
+      "bytes": 4326,
+      "source_mtime_ns": 1794530370159906361,
+      "copied_sha256": "6ea5ee2b3622505b28b35d744910e21d43583356d371e7cff08d1146684ab0ed"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/next-audit-20261113/transcripts/youtube-zzoS4CQTvoI-eaa3db9c-59b9-48ed-b841-7057d9447681.txt",
+      "sha256": "22da93b399e573afc667c8590abd6614a2b29afa0bbfd1775d9d8111ec0198a6",
+      "bytes": 4105,
+      "source_mtime_ns": 1794530370158236189,
+      "copied_sha256": "22da93b399e573afc667c8590abd6614a2b29afa0bbfd1775d9d8111ec0198a6"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/next-priority-2026-11-13.md",
+      "sha256": "315d2ecedff014215bfbbff0841f081dfdab153de06eeee127f91751f665bd26",
+      "bytes": 6555,
+      "source_mtime_ns": 1794530156476831812,
+      "copied_sha256": "315d2ecedff014215bfbbff0841f081dfdab153de06eeee127f91751f665bd26"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/subtitles/6ajKBXvam-c/6ajKBXvam-c-en.srt",
+      "sha256": "315880bb6b29cfd8b70aa1c1d34a70e29158c44472688d7332d109862c296511",
+      "bytes": 105051,
+      "source_mtime_ns": 1794529434772332590,
+      "copied_sha256": "315880bb6b29cfd8b70aa1c1d34a70e29158c44472688d7332d109862c296511"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/subtitles/6ajKBXvam-c/6ajKBXvam-c-ru.srt",
+      "sha256": "793f10c220166680367abca54323af272c390062b7009df8e435826a66ec4a8f",
+      "bytes": 142131,
+      "source_mtime_ns": 1794529474036201746,
+      "copied_sha256": "793f10c220166680367abca54323af272c390062b7009df8e435826a66ec4a8f"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/subtitles/6ajKBXvam-c/english-opening-edited.tsv",
+      "sha256": "df8542e6a2ecb23f2d1dbf59bd43c70c192dd0639df333726b63f7cba1a4e4d8",
+      "bytes": 5971,
+      "source_mtime_ns": 1794529636641578450,
+      "copied_sha256": "df8542e6a2ecb23f2d1dbf59bd43c70c192dd0639df333726b63f7cba1a4e4d8"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/subtitles/6ajKBXvam-c/missing-intro-en.tsv",
+      "sha256": "4e6e666560ea2eb54d6b547f6f012343e5fe8816f11e8ed8214f394c7d0cab26",
+      "bytes": 301,
+      "source_mtime_ns": 1794526918636952442,
+      "copied_sha256": "4e6e666560ea2eb54d6b547f6f012343e5fe8816f11e8ed8214f394c7d0cab26"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/subtitles/6ajKBXvam-c/missing-intro.tsv",
+      "sha256": "9986b4e93f688bdb1db9257062c641ef3bbd89ee3438ed0c50d1f3c39f2b07ef",
+      "bytes": 500,
+      "source_mtime_ns": 1794526918631349384,
+      "copied_sha256": "9986b4e93f688bdb1db9257062c641ef3bbd89ee3438ed0c50d1f3c39f2b07ef"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/subtitles/CWPQbz3DkXY/CWPQbz3DkXY-en.srt",
+      "sha256": "c966ce7ed2ec565b7ec1ac99c8a992d6b6fae41f2b03d56b926588ed4cb4b88c",
+      "bytes": 12452,
+      "source_mtime_ns": 1794526454983981849,
+      "copied_sha256": "c966ce7ed2ec565b7ec1ac99c8a992d6b6fae41f2b03d56b926588ed4cb4b88c"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/subtitles/CWPQbz3DkXY/CWPQbz3DkXY-ru.srt",
+      "sha256": "e54935837aedcc15c790aecaa7c60184e33904d30b4cebcb80e701e06c7b4c94",
+      "bytes": 20960,
+      "source_mtime_ns": 1794527124303288660,
+      "copied_sha256": "e54935837aedcc15c790aecaa7c60184e33904d30b4cebcb80e701e06c7b4c94"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/subtitles/JXTPG2lwg_o/JXTPG2lwg_o-en.srt",
+      "sha256": "d719a4e0b0c7ce176a6ce149bb84e1f285ab7c38fd97adf451bb4ad97f04a689",
+      "bytes": 8225,
+      "source_mtime_ns": 1794525584441925053,
+      "copied_sha256": "d719a4e0b0c7ce176a6ce149bb84e1f285ab7c38fd97adf451bb4ad97f04a689"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/subtitles/JXTPG2lwg_o/JXTPG2lwg_o-ru.srt",
+      "sha256": "f956580515bcd44e5819e8332410cfe56e50d920b63220ed5443c57ea81a7eee",
+      "bytes": 13823,
+      "source_mtime_ns": 1794525584437866917,
+      "copied_sha256": "f956580515bcd44e5819e8332410cfe56e50d920b63220ed5443c57ea81a7eee"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/subtitles/kLvqWE568pc/kLvqWE568pc-en.srt",
+      "sha256": "6a8cd6c66ca5c13b5aa19be67a233b2217f92b01bd9f0f4eaba56b6da10e42cd",
+      "bytes": 8584,
+      "source_mtime_ns": 1794526127736574721,
+      "copied_sha256": "6a8cd6c66ca5c13b5aa19be67a233b2217f92b01bd9f0f4eaba56b6da10e42cd"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/subtitles/kLvqWE568pc/kLvqWE568pc-ru.srt",
+      "sha256": "b0e56d2cad6304f57f2dc6a87c6d9cd518f79440aa17f751ae8a74678369dd53",
+      "bytes": 19416,
+      "source_mtime_ns": 1794526326976046215,
+      "copied_sha256": "b0e56d2cad6304f57f2dc6a87c6d9cd518f79440aa17f751ae8a74678369dd53"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/subtitles/queue-20261112/STATUS.md",
+      "sha256": "627c95fa95ef4e214c3a4c5bce2f69f6cbb8549d0f97694c096a7486719ffb4d",
+      "bytes": 11158,
+      "source_mtime_ns": 1794529636676888517,
+      "copied_sha256": "3a43142ac8d492f2b3a2a35bd7b27f933c2a606414b6a311bb7a27df06a17d55",
+      "normalization": "Removed one trailing space from Markdown table row"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/subtitles/wCITgsCwljc/wCITgsCwljc-en.srt",
+      "sha256": "d4efde96c3c6689a6bb3bd0f81bd310337e283cebe1f2e92715359ef5319b21f",
+      "bytes": 8079,
+      "source_mtime_ns": 1794526492869851605,
+      "copied_sha256": "d4efde96c3c6689a6bb3bd0f81bd310337e283cebe1f2e92715359ef5319b21f"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/subtitles/wCITgsCwljc/wCITgsCwljc-ru.srt",
+      "sha256": "20fb499d975278f5fb3a33a80420855f08ff8e68d15dc945570e5c0410f3727a",
+      "bytes": 16372,
+      "source_mtime_ns": 1794528008185904459,
+      "copied_sha256": "20fb499d975278f5fb3a33a80420855f08ff8e68d15dc945570e5c0410f3727a"
+    },
+    {
+      "path": "output/haiti-paper-20261113/PRODUCTION_NOTES.md",
+      "sha256": "60f528ac05a1bb302c82099cd3fcd57dd398185c66a9fe04755f8ff0f87b8faa",
+      "bytes": 5128,
+      "source_mtime_ns": 1794533138949928266,
+      "copied_sha256": "60f528ac05a1bb302c82099cd3fcd57dd398185c66a9fe04755f8ff0f87b8faa"
+    },
+    {
+      "path": "output/haiti-paper-20261113/STATUS.md",
+      "sha256": "858e2364c6be70f060935ff5c8152058088ce90d8c0cb523203fe80046a0f7a2",
+      "bytes": 2196,
+      "source_mtime_ns": 1794535080028417671,
+      "copied_sha256": "858e2364c6be70f060935ff5c8152058088ce90d8c0cb523203fe80046a0f7a2"
+    },
+    {
+      "path": "output/haiti-paper-20261113/audio/REVIEW_REQUIRED.md",
+      "sha256": "b20ef96ef41e914a88b53fca09a842255dd1cc619e3f4730a5a788a2e2a1252a",
+      "bytes": 1495,
+      "source_mtime_ns": 1794535351340314356,
+      "copied_sha256": "b20ef96ef41e914a88b53fca09a842255dd1cc619e3f4730a5a788a2e2a1252a"
+    },
+    {
+      "path": "output/haiti-paper-20261113/audio/captions_exact.srt",
+      "sha256": "064a3485fd31aacff5dcdb73ff1812a526d16036f3f010e92074e003316e91d8",
+      "bytes": 1492,
+      "source_mtime_ns": 1794535233481275289,
+      "copied_sha256": "064a3485fd31aacff5dcdb73ff1812a526d16036f3f010e92074e003316e91d8"
+    },
+    {
+      "path": "output/haiti-paper-20261113/audio/captions_tight_candidate.srt",
+      "sha256": "6de8d34f9723979e187eae98f55cdc3ea8beeab5f6d3631ebefc6e33c778dff1",
+      "bytes": 1492,
+      "source_mtime_ns": 1794535311175438258,
+      "copied_sha256": "6de8d34f9723979e187eae98f55cdc3ea8beeab5f6d3631ebefc6e33c778dff1"
+    },
+    {
+      "path": "output/haiti-paper-20261113/audio/cues_candidate.json",
+      "sha256": "2e57523ea11a26fa81191a9bcbed8414100da11a234ba2644e2bfef91d02d85e",
+      "bytes": 2691,
+      "source_mtime_ns": 1794535218738235763,
+      "copied_sha256": "2e57523ea11a26fa81191a9bcbed8414100da11a234ba2644e2bfef91d02d85e"
+    },
+    {
+      "path": "output/haiti-paper-20261113/audio/cues_exact.json",
+      "sha256": "32c68166a9702f36bfe813d6aeae6ba6e2eff5e13a85719ea00462e6d6a3d005",
+      "bytes": 2703,
+      "source_mtime_ns": 1794535233441307491,
+      "copied_sha256": "32c68166a9702f36bfe813d6aeae6ba6e2eff5e13a85719ea00462e6d6a3d005"
+    },
+    {
+      "path": "output/haiti-paper-20261113/audio/cues_tight_candidate.json",
+      "sha256": "ee9d325ec61da8d361e2b37619013ee7abf8031250dfc26546c9d77f7db246f5",
+      "bytes": 2706,
+      "source_mtime_ns": 1794535311105401394,
+      "copied_sha256": "ee9d325ec61da8d361e2b37619013ee7abf8031250dfc26546c9d77f7db246f5"
+    },
+    {
+      "path": "output/haiti-paper-20261113/audio/mix_candidate.json",
+      "sha256": "37095cd764dfce7bd7f9b3563e135bb431afc901cdbbeac25d925d5ae8f7292f",
+      "bytes": 16158,
+      "source_mtime_ns": 1794535282128342276,
+      "copied_sha256": "37095cd764dfce7bd7f9b3563e135bb431afc901cdbbeac25d925d5ae8f7292f"
+    },
+    {
+      "path": "output/haiti-paper-20261113/audio/mix_tight_candidate.json",
+      "sha256": "d6e5d92307a8d15357c31831490a19c69430e756ad888ec566130c780da846e4",
+      "bytes": 17057,
+      "source_mtime_ns": 1794535365035139740,
+      "copied_sha256": "d6e5d92307a8d15357c31831490a19c69430e756ad888ec566130c780da846e4"
+    },
+    {
+      "path": "output/haiti-paper-20261113/audio/pause_conform_candidate.json",
+      "sha256": "7fac3a69ca198b7dddf70193b78aa1a70f6df2e15e41b752dabfb89c2e5f8f3c",
+      "bytes": 1190,
+      "source_mtime_ns": 1794535296619137486,
+      "copied_sha256": "7fac3a69ca198b7dddf70193b78aa1a70f6df2e15e41b752dabfb89c2e5f8f3c"
+    },
+    {
+      "path": "output/haiti-paper-20261113/audio/srt_candidate_report.json",
+      "sha256": "ee3acb0957633cec105d8409ca69b6b94ff5fefce4f0fbbc169c8997e4ef1d9b",
+      "bytes": 4061,
+      "source_mtime_ns": 1794535223801268367,
+      "copied_sha256": "ee3acb0957633cec105d8409ca69b6b94ff5fefce4f0fbbc169c8997e4ef1d9b"
+    },
+    {
+      "path": "output/haiti-paper-20261113/audio/srt_exact_report.json",
+      "sha256": "66d6855f594597ddcd7301bfe6fe09c0fc5590420ee93d2570444b27c76b7b32",
+      "bytes": 4238,
+      "source_mtime_ns": 1794535233481608581,
+      "copied_sha256": "66d6855f594597ddcd7301bfe6fe09c0fc5590420ee93d2570444b27c76b7b32"
+    },
+    {
+      "path": "output/haiti-paper-20261113/audio/srt_tight_report.json",
+      "sha256": "72f05ff84ae08a9cd242246b945c90e3c3d42fa519dd125c7d62e7af4afec583",
+      "bytes": 4273,
+      "source_mtime_ns": 1794535311175750175,
+      "copied_sha256": "72f05ff84ae08a9cd242246b945c90e3c3d42fa519dd125c7d62e7af4afec583"
+    },
+    {
+      "path": "output/haiti-paper-20261113/audio/words_candidate.json",
+      "sha256": "7f11a23d14149a84e7e5cd6a6a2a2c65e8f175bb8e5ed994e2fc299ae47a3b9f",
+      "bytes": 17119,
+      "source_mtime_ns": 1794535218737886179,
+      "copied_sha256": "7f11a23d14149a84e7e5cd6a6a2a2c65e8f175bb8e5ed994e2fc299ae47a3b9f"
+    },
+    {
+      "path": "output/haiti-paper-20261113/audio/words_tight_candidate.json",
+      "sha256": "71c86557987526a997a16fd824cbfa1bad57b7ba6a563ed9451d71cb6a594ed2",
+      "bytes": 17191,
+      "source_mtime_ns": 1794535311104988310,
+      "copied_sha256": "71c86557987526a997a16fd824cbfa1bad57b7ba6a563ed9451d71cb6a594ed2"
+    },
+    {
+      "path": "output/haiti-paper-20261113/draft/segments.txt",
+      "sha256": "c604e3ac27f2725cad2b3b5e6dd6224dcfd021fafcb142a52319e3ca12239b93",
+      "bytes": 729,
+      "source_mtime_ns": 1794536081911749213,
+      "copied_sha256": "c604e3ac27f2725cad2b3b5e6dd6224dcfd021fafcb142a52319e3ca12239b93"
+    },
+    {
+      "path": "output/haiti-paper-20261113/packaging/concept-main.json",
+      "sha256": "41951e92960e1ceab709ceb8857a61a81441ee820688aa50a1ce33c8951e06b6",
+      "bytes": 1202,
+      "source_mtime_ns": 1794535032381200839,
+      "copied_sha256": "41951e92960e1ceab709ceb8857a61a81441ee820688aa50a1ce33c8951e06b6"
+    },
+    {
+      "path": "output/haiti-paper-20261113/packaging/metadata-check.json",
+      "sha256": "64592677edb627adc2c11e341456ef2e9a3a9748ea41c1a6924f6054dc6881ed",
+      "bytes": 559,
+      "source_mtime_ns": 1794535032400635257,
+      "copied_sha256": "64592677edb627adc2c11e341456ef2e9a3a9748ea41c1a6924f6054dc6881ed"
+    },
+    {
+      "path": "output/haiti-paper-20261113/packaging/packaging-notes.json",
+      "sha256": "bef3518c9de513e3ec9b4d288bbef8fe840bb442d63c0e8ab8a1338added7d6c",
+      "bytes": 1897,
+      "source_mtime_ns": 1794535032381300881,
+      "copied_sha256": "bef3518c9de513e3ec9b4d288bbef8fe840bb442d63c0e8ab8a1338added7d6c"
+    },
+    {
+      "path": "output/haiti-paper-20261113/packaging/receipt.json",
+      "sha256": "9eb43f215b8ccf545a52ba8e120fe24322b5bc13f5fe1413cf51d6440ce12756",
+      "bytes": 2694,
+      "source_mtime_ns": 1794535032401094133,
+      "copied_sha256": "9eb43f215b8ccf545a52ba8e120fe24322b5bc13f5fe1413cf51d6440ce12756"
+    },
+    {
+      "path": "output/haiti-paper-20261113/packaging/release-spec.json",
+      "sha256": "65d906f32e14fdd3f958a4d359a188a91e0c7c7ef65a9666778f35176ae3e6fa",
+      "bytes": 1192,
+      "source_mtime_ns": 1794535032380934838,
+      "copied_sha256": "65d906f32e14fdd3f958a4d359a188a91e0c7c7ef65a9666778f35176ae3e6fa"
+    },
+    {
+      "path": "output/haiti-paper-20261113/packaging/thumbnail-main.json",
+      "sha256": "3d33ad21f7dba06e1b17116c0d59468a1c85e4afad27efbbb412fdd608031dac",
+      "bytes": 2427,
+      "source_mtime_ns": 1794535032381070047,
+      "copied_sha256": "3d33ad21f7dba06e1b17116c0d59468a1c85e4afad27efbbb412fdd608031dac"
+    },
+    {
+      "path": "output/haiti-paper-20261113/release_prepared/audio-receipt-user.json",
+      "sha256": "054d6e22954a9e0fdb34389b830f3e84ce97a4e81891e76a1f6e7a52a75e8fbd",
+      "bytes": 1600,
+      "source_mtime_ns": 1794539741812625726,
+      "copied_sha256": "054d6e22954a9e0fdb34389b830f3e84ce97a4e81891e76a1f6e7a52a75e8fbd"
+    },
+    {
+      "path": "output/haiti-paper-20261113/release_prepared/captions.en.srt",
+      "sha256": "dffe9cf82159ee7e52c5b3718bf7f1abaf3bc637202d080b9c573f4e335346a5",
+      "bytes": 1492,
+      "source_mtime_ns": 1794537519072293208,
+      "copied_sha256": "dffe9cf82159ee7e52c5b3718bf7f1abaf3bc637202d080b9c573f4e335346a5"
+    },
+    {
+      "path": "output/haiti-paper-20261113/release_prepared/card-preview/manifest.json",
+      "sha256": "0b63b68218745fb896e695f66c8ea4e32739c0785aa67f6a200179c3cfa13b88",
+      "bytes": 2251,
+      "source_mtime_ns": 1794537576761037165,
+      "copied_sha256": "0b63b68218745fb896e695f66c8ea4e32739c0785aa67f6a200179c3cfa13b88"
+    },
+    {
+      "path": "output/haiti-paper-20261113/release_prepared/card.json",
+      "sha256": "ce14c1bb216fd8025eeb84cb07f5a18a3ced2300406d21e834fa40592a2eba6d",
+      "bytes": 118,
+      "source_mtime_ns": 1794537576516098042,
+      "copied_sha256": "ce14c1bb216fd8025eeb84cb07f5a18a3ced2300406d21e834fa40592a2eba6d"
+    },
+    {
+      "path": "output/haiti-paper-20261113/release_prepared/channel-calendar.json",
+      "sha256": "0216fe73ae9e7c0e243beb4ab59d11669f617f5c456becf32420427b7647df02",
+      "bytes": 8639,
+      "source_mtime_ns": 1794539540333353479,
+      "copied_sha256": "0216fe73ae9e7c0e243beb4ab59d11669f617f5c456becf32420427b7647df02"
+    },
+    {
+      "path": "output/haiti-paper-20261113/release_prepared/concept-final.json",
+      "sha256": "4bdba0dfa0e719b1880fd3ab7914daaf9f9d1336ea87f5f59d4a3c04fc1ce664",
+      "bytes": 1455,
+      "source_mtime_ns": 1794539669636909021,
+      "copied_sha256": "4bdba0dfa0e719b1880fd3ab7914daaf9f9d1336ea87f5f59d4a3c04fc1ce664"
+    },
+    {
+      "path": "output/haiti-paper-20261113/release_prepared/description.txt",
+      "sha256": "f3a8ebc03112bb3a5f6fc749ee4e0ced0b1959f7aaa1bafbc1ad4bf20c402f34",
+      "bytes": 745,
+      "source_mtime_ns": 1794537460922875731,
+      "copied_sha256": "f3a8ebc03112bb3a5f6fc749ee4e0ced0b1959f7aaa1bafbc1ad4bf20c402f34"
+    },
+    {
+      "path": "output/haiti-paper-20261113/release_prepared/final-card-preview/manifest.json",
+      "sha256": "adb16fb4f32b5e5ce0df90ee3496f9ae75fe6cc99016bc659ccb77e889f26704",
+      "bytes": 2305,
+      "source_mtime_ns": 1794539292886876324,
+      "copied_sha256": "adb16fb4f32b5e5ce0df90ee3496f9ae75fe6cc99016bc659ccb77e889f26704"
+    },
+    {
+      "path": "output/haiti-paper-20261113/release_prepared/manifest.json",
+      "sha256": "761e1b8cd904af59749855e3f9e2b9797a5422714e5b46eff8024715b4fed6ca",
+      "bytes": 1597,
+      "source_mtime_ns": 1794539324991635235,
+      "copied_sha256": "761e1b8cd904af59749855e3f9e2b9797a5422714e5b46eff8024715b4fed6ca"
+    },
+    {
+      "path": "output/haiti-paper-20261113/release_prepared/packaging-receipt-final.json",
+      "sha256": "eeacba15f9d1319eb8769ab460faef9bb878f6c1bda6394150f823921adda822",
+      "bytes": 1825,
+      "source_mtime_ns": 1794539669639582485,
+      "copied_sha256": "eeacba15f9d1319eb8769ab460faef9bb878f6c1bda6394150f823921adda822"
+    },
+    {
+      "path": "output/haiti-paper-20261113/release_prepared/release-spec-bound.json",
+      "sha256": "ae82fe07cd615559f747cb50a67b6c6e4a88814d16e46daf72046b91f7c1b3d5",
+      "bytes": 1637,
+      "source_mtime_ns": 1794539717061269733,
+      "copied_sha256": "ae82fe07cd615559f747cb50a67b6c6e4a88814d16e46daf72046b91f7c1b3d5"
+    },
+    {
+      "path": "output/haiti-paper-20261113/release_prepared/release-spec-scheduled.json",
+      "sha256": "84c27de27463cd8da30816498ef6bc624841f0747a5645a8bb4d027b4858a136",
+      "bytes": 1954,
+      "source_mtime_ns": 1794540225902979305,
+      "copied_sha256": "84c27de27463cd8da30816498ef6bc624841f0747a5645a8bb4d027b4858a136"
+    },
+    {
+      "path": "output/haiti-paper-20261113/release_prepared/release-spec.json",
+      "sha256": "59232acfc67160a46a4f8c03b111154864053f7f5b7a007e579e5d68c9bdc89a",
+      "bytes": 1461,
+      "source_mtime_ns": 1794537460922712356,
+      "copied_sha256": "59232acfc67160a46a4f8c03b111154864053f7f5b7a007e579e5d68c9bdc89a"
+    },
+    {
+      "path": "output/haiti-paper-20261113/release_prepared/render-receipt-recovery.json",
+      "sha256": "b2fe507b46d74c7e42ce84b5172a3210cebb61fa2feeec9ca6b52f9af3aedbd8",
+      "bytes": 1402,
+      "source_mtime_ns": 1794539815406777545,
+      "copied_sha256": "b2fe507b46d74c7e42ce84b5172a3210cebb61fa2feeec9ca6b52f9af3aedbd8"
+    },
+    {
+      "path": "output/haiti-paper-20261113/release_prepared/render-receipt-v6.json",
+      "sha256": "19af5f9f847a91faefeb28cfa02cfc80cdff617ec8d80e2aaa5d46bb70d011d8",
+      "bytes": 1627,
+      "source_mtime_ns": 1794540091091103476,
+      "copied_sha256": "19af5f9f847a91faefeb28cfa02cfc80cdff617ec8d80e2aaa5d46bb70d011d8"
+    },
+    {
+      "path": "output/haiti-paper-20261113/release_prepared/review-receipt-v6.json",
+      "sha256": "5193bbadeafb50fced3e0ab43f943f85189b0873f854f4f393b27ab9277e94bc",
+      "bytes": 2078,
+      "source_mtime_ns": 1794540147103851760,
+      "copied_sha256": "5193bbadeafb50fced3e0ab43f943f85189b0873f854f4f393b27ab9277e94bc"
+    },
+    {
+      "path": "output/haiti-paper-20261113/release_prepared/review-v6.json",
+      "sha256": "b44ad31b0677dcf8adb91b9901858faf87f68f134f91cbc2cf511a25ce55c363",
+      "bytes": 1104,
+      "source_mtime_ns": 1794540147103606802,
+      "copied_sha256": "b44ad31b0677dcf8adb91b9901858faf87f68f134f91cbc2cf511a25ce55c363"
+    },
+    {
+      "path": "output/haiti-paper-20261113/release_prepared/srt-check-v2.json",
+      "sha256": "1c22f827892db20306109234dbdcf60d5a19f49589b6d9b091dce20a324d0332",
+      "bytes": 4090,
+      "source_mtime_ns": 1794537519131545120,
+      "copied_sha256": "1c22f827892db20306109234dbdcf60d5a19f49589b6d9b091dce20a324d0332"
+    },
+    {
+      "path": "output/haiti-paper-20261113/release_prepared/srt-check.json",
+      "sha256": "4e33c66e454adcd1607542204dbe62a03e610d43b02140cb56b1c2ce8ae16d93",
+      "bytes": 10261,
+      "source_mtime_ns": 1794537499091022680,
+      "copied_sha256": "4e33c66e454adcd1607542204dbe62a03e610d43b02140cb56b1c2ce8ae16d93"
+    },
+    {
+      "path": "output/haiti-paper-20261113/release_prepared/subtitles-receipt-user.json",
+      "sha256": "8e089f6b6758d897badbd52c4f9dacf9b0cf7eea91da37dbc23d871b25110918",
+      "bytes": 1041,
+      "source_mtime_ns": 1794539783442858460,
+      "copied_sha256": "8e089f6b6758d897badbd52c4f9dacf9b0cf7eea91da37dbc23d871b25110918"
+    },
+    {
+      "path": "output/haiti-paper-20261113/release_prepared/thumbnail-brief-final.json",
+      "sha256": "bdf3d8893ad42498fed51cfb323deeda9e32c4e58d9bf7b9b57154cf71960f26",
+      "bytes": 508,
+      "source_mtime_ns": 1794539669637092397,
+      "copied_sha256": "bdf3d8893ad42498fed51cfb323deeda9e32c4e58d9bf7b9b57154cf71960f26"
+    },
+    {
+      "path": "output/haiti-paper-20261113/release_prepared/thumbnail-concept-approved.json",
+      "sha256": "9c649bffa694b2b1bb49e1bc525ffa5405952964b589e3b3c52a6d843c988740",
+      "bytes": 452,
+      "source_mtime_ns": 1794539324991830986,
+      "copied_sha256": "9c649bffa694b2b1bb49e1bc525ffa5405952964b589e3b3c52a6d843c988740"
+    },
+    {
+      "path": "output/haiti-paper-20261113/release_prepared/thumbnail-receipt-approved.json",
+      "sha256": "48a3799e88b707391016f0b4756fea96bb231cd4fb34e14c4f3cf9b2d629d9f6",
+      "bytes": 1174,
+      "source_mtime_ns": 1794539696638516998,
+      "copied_sha256": "48a3799e88b707391016f0b4756fea96bb231cd4fb34e14c4f3cf9b2d629d9f6"
+    },
+    {
+      "path": "output/haiti-paper-20261113/release_prepared/thumbnail-receipt.json",
+      "sha256": "3a22fc3289b42acc13234456521746003295979849c33e6dd81e2bdf72e08c72",
+      "bytes": 1325,
+      "source_mtime_ns": 1794537561757700546,
+      "copied_sha256": "3a22fc3289b42acc13234456521746003295979849c33e6dd81e2bdf72e08c72"
+    },
+    {
+      "path": "output/haiti-paper-20261113/release_prepared/title.txt",
+      "sha256": "2e73a55495bc0170cbb183d0f2e0705281f067c73524c77bd2b0f6346d55bd0d",
+      "bytes": 50,
+      "source_mtime_ns": 1794537460922992898,
+      "copied_sha256": "2e73a55495bc0170cbb183d0f2e0705281f067c73524c77bd2b0f6346d55bd0d"
+    },
+    {
+      "path": "output/haiti-paper-20261113/release_prepared/youtube-schedule-readback.json",
+      "sha256": "030e41cc3a4be8e17612e832066167aec4e90fe0afaf213da1973e067972610c",
+      "bytes": 338,
+      "source_mtime_ns": 1794541865438046391,
+      "copied_sha256": "030e41cc3a4be8e17612e832066167aec4e90fe0afaf213da1973e067972610c"
+    },
+    {
+      "path": "output/haiti-paper-20261113/release_prepared/youtube-upload-confirmed.json",
+      "sha256": "9e4296036de2463688c71f79c1079c57e301f26ac080e16c32481f37a7a74076",
+      "bytes": 185,
+      "source_mtime_ns": 1794540483731132596,
+      "copied_sha256": "9e4296036de2463688c71f79c1079c57e301f26ac080e16c32481f37a7a74076"
+    },
+    {
+      "path": "output/haiti-paper-20261113/release_prepared/youtube-upload-response.json",
+      "sha256": "fea8469b8e75a2cf4f48e269b89ce0bc8c56ad17859483bc6cc253a68a12a3e2",
+      "bytes": 195,
+      "source_mtime_ns": 1794540369691280601,
+      "copied_sha256": "fea8469b8e75a2cf4f48e269b89ce0bc8c56ad17859483bc6cc253a68a12a3e2"
+    },
+    {
+      "path": "output/haiti-paper-20261113/repair/segments.txt",
+      "sha256": "772ffd6dc4e39108c92e80fc2133c4b0a05518d1e771270edaf437f13a45ca7f",
+      "bytes": 675,
+      "source_mtime_ns": 1794536367353811756,
+      "copied_sha256": "772ffd6dc4e39108c92e80fc2133c4b0a05518d1e771270edaf437f13a45ca7f"
+    },
+    {
+      "path": "output/haiti-paper-20261113/smooth/segments.txt",
+      "sha256": "04f29d2888aff92fcdb647a0d38cf99d06adf3817bff55b8f741d8671a472f8d",
+      "bytes": 675,
+      "source_mtime_ns": 1794536742699504489,
+      "copied_sha256": "04f29d2888aff92fcdb647a0d38cf99d06adf3817bff55b8f741d8671a472f8d"
+    },
+    {
+      "path": "output/haiti-paper-20261113/storyboard/S01.json",
+      "sha256": "cc74937ef24d8d389fcf1161c0f7bcf9466d730198e575994796d02ab49e18cb",
+      "bytes": 4344,
+      "source_mtime_ns": 1794534825529024028,
+      "copied_sha256": "cc74937ef24d8d389fcf1161c0f7bcf9466d730198e575994796d02ab49e18cb"
+    },
+    {
+      "path": "output/haiti-paper-20261113/storyboard/S02.json",
+      "sha256": "d66fadda8a84c3d2f2e40066c051fa9aa7b8af96ec772ab81bfedb0d74394e7a",
+      "bytes": 4425,
+      "source_mtime_ns": 1794534825529221071,
+      "copied_sha256": "d66fadda8a84c3d2f2e40066c051fa9aa7b8af96ec772ab81bfedb0d74394e7a"
+    },
+    {
+      "path": "output/haiti-paper-20261113/storyboard/S03.json",
+      "sha256": "3e167c81f92e1ffb31061eb412099c9b268b2874684de9dc7382b7f31584b24e",
+      "bytes": 4290,
+      "source_mtime_ns": 1794534825529408531,
+      "copied_sha256": "3e167c81f92e1ffb31061eb412099c9b268b2874684de9dc7382b7f31584b24e"
+    },
+    {
+      "path": "output/haiti-paper-20261113/storyboard/S04.json",
+      "sha256": "82234b577efa1cd9e20f7600e2c4898cdcfa09220a98eb7869aeec59ed5d6023",
+      "bytes": 4315,
+      "source_mtime_ns": 1794534825529545033,
+      "copied_sha256": "82234b577efa1cd9e20f7600e2c4898cdcfa09220a98eb7869aeec59ed5d6023"
+    },
+    {
+      "path": "output/haiti-paper-20261113/storyboard/S05.json",
+      "sha256": "79403216685cd45f3235e7480e07a02cc7b7af2a59859b6ecbb228ebe708cc54",
+      "bytes": 4366,
+      "source_mtime_ns": 1794534825529683784,
+      "copied_sha256": "79403216685cd45f3235e7480e07a02cc7b7af2a59859b6ecbb228ebe708cc54"
+    },
+    {
+      "path": "output/haiti-paper-20261113/storyboard/S06.json",
+      "sha256": "ac2a1a33a4463c87595bf0519b550c72ef5b965543d5f01fb18bd01365ce19f3",
+      "bytes": 4334,
+      "source_mtime_ns": 1794534825529824035,
+      "copied_sha256": "ac2a1a33a4463c87595bf0519b550c72ef5b965543d5f01fb18bd01365ce19f3"
+    },
+    {
+      "path": "output/haiti-paper-20261113/storyboard/S07.json",
+      "sha256": "b421c2492be15aa39d2574ec2fe6cc5f92b74e6a274df619976ce8338b8a4fec",
+      "bytes": 4527,
+      "source_mtime_ns": 1794534825529951620,
+      "copied_sha256": "b421c2492be15aa39d2574ec2fe6cc5f92b74e6a274df619976ce8338b8a4fec"
+    },
+    {
+      "path": "output/haiti-paper-20261113/storyboard/S08.json",
+      "sha256": "3ab9f31290199a9afb6dc2d64fd3e89a21092a758ae72814e353c5fd560097f4",
+      "bytes": 5014,
+      "source_mtime_ns": 1794534825530080746,
+      "copied_sha256": "3ab9f31290199a9afb6dc2d64fd3e89a21092a758ae72814e353c5fd560097f4"
+    },
+    {
+      "path": "output/haiti-paper-20261113/storyboard/receipt.json",
+      "sha256": "f3a7f40aa94cd6042578b0000cbf4406173fcee163f4f4883dca1c2d5f798222",
+      "bytes": 3263,
+      "source_mtime_ns": 1794534825536435224,
+      "copied_sha256": "f3a7f40aa94cd6042578b0000cbf4406173fcee163f4f4883dca1c2d5f798222"
+    },
+    {
+      "path": "output/haiti-paper-20261113/storyboard/storyboard.json",
+      "sha256": "d1a27eec966adfe2d9e4cb70c0533c6d63f4d541f05cae2af68d48c8089b1fb6",
+      "bytes": 42841,
+      "source_mtime_ns": 1794534825535793093,
+      "copied_sha256": "d1a27eec966adfe2d9e4cb70c0533c6d63f4d541f05cae2af68d48c8089b1fb6"
+    },
+    {
+      "path": "output/haiti-paper-20261113/subtitle_repair/review.json",
+      "sha256": "a694f4efa9c6f8677b088896670feb0e35f8985b409569e942a0c6c340364e23",
+      "bytes": 3403,
+      "source_mtime_ns": 1794536955622462657,
+      "copied_sha256": "a694f4efa9c6f8677b088896670feb0e35f8985b409569e942a0c6c340364e23"
+    },
+    {
+      "path": "output/haiti-paper-20261113/subtitle_repair/timing_comparison.json",
+      "sha256": "01e99c6303e0cef08ee83fe8467fe9267aea30546ac2d85486235bf0afd599e5",
+      "bytes": 20223,
+      "source_mtime_ns": 1794537293863734652,
+      "copied_sha256": "01e99c6303e0cef08ee83fe8467fe9267aea30546ac2d85486235bf0afd599e5"
+    },
+    {
+      "path": "output/haiti-paper-20261113/subtitle_repair/words_consensus.json",
+      "sha256": "f2783485f8daa23c2c5398a55cc8fa4be69acf92a70d93a1e6650704ed8dd0e3",
+      "bytes": 24236,
+      "source_mtime_ns": 1794537293863386235,
+      "copied_sha256": "f2783485f8daa23c2c5398a55cc8fa4be69acf92a70d93a1e6650704ed8dd0e3"
+    },
+    {
+      "path": "output/haiti-paper-20261113/subtitle_repair/words_split.json",
+      "sha256": "414ee1740c26641c0c33aa94960f5660b0aac87aca5d5718b09044cabba45b4e",
+      "bytes": 17391,
+      "source_mtime_ns": 1794537202620316581,
+      "copied_sha256": "414ee1740c26641c0c33aa94960f5660b0aac87aca5d5718b09044cabba45b4e"
+    },
+    {
+      "path": "output/haiti-paper-20261113/subtitle_repair_v2/review.json",
+      "sha256": "868a8226892774cc7795c321d1c92e549859d90214eb5ec525c33100f1a5340d",
+      "bytes": 3591,
+      "source_mtime_ns": 1794537209693278373,
+      "copied_sha256": "868a8226892774cc7795c321d1c92e549859d90214eb5ec525c33100f1a5340d"
+    },
+    {
+      "path": "output/haiti-paper-20261113/subtitle_repair_v3/review.json",
+      "sha256": "868a8226892774cc7795c321d1c92e549859d90214eb5ec525c33100f1a5340d",
+      "bytes": 3591,
+      "source_mtime_ns": 1794537301122365822,
+      "copied_sha256": "868a8226892774cc7795c321d1c92e549859d90214eb5ec525c33100f1a5340d"
+    },
+    {
+      "path": "output/paper-detour-reupload-20261113/DELETION-RECEIPT-20261113.md",
+      "sha256": "79f0c83cd05ab566e77da228bbfddbf90bd7495fab0238f7013b87132d5abcf3",
+      "bytes": 1409,
+      "source_mtime_ns": 1794543626672196580,
+      "copied_sha256": "79f0c83cd05ab566e77da228bbfddbf90bd7495fab0238f7013b87132d5abcf3"
+    },
+    {
+      "path": "output/paper-detour-reupload-20261113/QA-20261113.md",
+      "sha256": "4c9500f9d65531c742c36149e282658a29d944d7eb356fdc7f13d93a4b64b0d5",
+      "bytes": 4483,
+      "source_mtime_ns": 1794534524368297988,
+      "copied_sha256": "4c9500f9d65531c742c36149e282658a29d944d7eb356fdc7f13d93a4b64b0d5"
+    },
+    {
+      "path": "output/paper-detour-reupload-20261113/README.md",
+      "sha256": "f2a32246b05f6c45e0e26eb4f7efb833c2ff2ef53cbd267d6b40632a285ac4e9",
+      "bytes": 3214,
+      "source_mtime_ns": 1794534212218338026,
+      "copied_sha256": "f2a32246b05f6c45e0e26eb4f7efb833c2ff2ef53cbd267d6b40632a285ac4e9"
+    },
+    {
+      "path": "output/paper-detour-reupload-20261113/REUPLOAD-STATUS-20261113.md",
+      "sha256": "95484d6a92ea70ff3241820f4125a287eebadfc30512e154b70ce3222c7359e2",
+      "bytes": 2473,
+      "source_mtime_ns": 1794534884728787190,
+      "copied_sha256": "95484d6a92ea70ff3241820f4125a287eebadfc30512e154b70ce3222c7359e2"
+    },
+    {
+      "path": "output/paper-detour-reupload-20261113/blizzard-metadata-current.json",
+      "sha256": "c4ac47fa5ea8b459896e20e3eb6f169b57ffd274d083f4274ac75927bddd4ea6",
+      "bytes": 960,
+      "source_mtime_ns": 1794534488415014979,
+      "copied_sha256": "c4ac47fa5ea8b459896e20e3eb6f169b57ffd274d083f4274ac75927bddd4ea6"
+    },
+    {
+      "path": "output/paper-detour-reupload-20261113/blizzard-metadata.json",
+      "sha256": "92a2a3a6c150bc7f8c83db45de2fee43114526928f6bf1f585919cf86c9cb0e1",
+      "bytes": 1126,
+      "source_mtime_ns": 1794534195759725171,
+      "copied_sha256": "92a2a3a6c150bc7f8c83db45de2fee43114526928f6bf1f585919cf86c9cb0e1"
+    },
+    {
+      "path": "output/paper-detour-reupload-20261113/blizzard-reconstructed.srt",
+      "sha256": "187e71608c45c6ea22e417c045fc94d9a38027cfbb183c3c92a52b4e9ff5a64d",
+      "bytes": 863,
+      "source_mtime_ns": 1794534471896404078,
+      "copied_sha256": "187e71608c45c6ea22e417c045fc94d9a38027cfbb183c3c92a52b4e9ff5a64d"
+    },
+    {
+      "path": "output/paper-detour-reupload-20261113/blizzard-youtube-asr.srt",
+      "sha256": "363fed35347af0d8b1195146297f122acbf93a56c1a21f03ebd06821e884747d",
+      "bytes": 839,
+      "source_mtime_ns": 1794534333165907768,
+      "copied_sha256": "363fed35347af0d8b1195146297f122acbf93a56c1a21f03ebd06821e884747d"
+    },
+    {
+      "path": "output/paper-detour-reupload-20261113/blizzard.delivery.json",
+      "sha256": "2586b1edbfdfa52511d37fe9c6f3e90528ad0afb38a3f755e7c0e8cef4a51785",
+      "bytes": 1688,
+      "source_mtime_ns": 1794534764170393402,
+      "copied_sha256": "2586b1edbfdfa52511d37fe9c6f3e90528ad0afb38a3f755e7c0e8cef4a51785"
+    },
+    {
+      "path": "output/paper-detour-reupload-20261113/calendar-readback.json",
+      "sha256": "9202353d2d24738660e004a7cf2d505cc79e98288a15bd15c9c6318e12fb45fa",
+      "bytes": 151929,
+      "source_mtime_ns": 1794534362679536685,
+      "copied_sha256": "9202353d2d24738660e004a7cf2d505cc79e98288a15bd15c9c6318e12fb45fa"
+    },
+    {
+      "path": "output/paper-detour-reupload-20261113/captions-Bfgcq4rxQT8.json",
+      "sha256": "2340be97a835534c71cd9eb8a5208b9c5f01a393ea7a7860df1be3b35cc437a1",
+      "bytes": 650,
+      "source_mtime_ns": 1794534316803645744,
+      "copied_sha256": "2340be97a835534c71cd9eb8a5208b9c5f01a393ea7a7860df1be3b35cc437a1"
+    },
+    {
+      "path": "output/paper-detour-reupload-20261113/captions-L553TNYK6C4.json",
+      "sha256": "4fe5b953f82e59ddffda94152e44418e586846f91ab033cfd72642e87fa7d987",
+      "bytes": 650,
+      "source_mtime_ns": 1794534317610126514,
+      "copied_sha256": "4fe5b953f82e59ddffda94152e44418e586846f91ab033cfd72642e87fa7d987"
+    },
+    {
+      "path": "output/paper-detour-reupload-20261113/captions-LcLKUCjjZ3Q.json",
+      "sha256": "4e161cef25c9c40e826af4fa34d5f87b686be277b7892f4406a7eb3e6e49323d",
+      "bytes": 1216,
+      "source_mtime_ns": 1794534317212042661,
+      "copied_sha256": "4e161cef25c9c40e826af4fa34d5f87b686be277b7892f4406a7eb3e6e49323d"
+    },
+    {
+      "path": "output/paper-detour-reupload-20261113/channels-before.json",
+      "sha256": "64070ca710cd18677ddb07f71e9c313c269de642248a1d3ce3d2476d90465763",
+      "bytes": 1859,
+      "source_mtime_ns": 1794534316468185692,
+      "copied_sha256": "64070ca710cd18677ddb07f71e9c313c269de642248a1d3ce3d2476d90465763"
+    },
+    {
+      "path": "output/paper-detour-reupload-20261113/darknet-english.srt",
+      "sha256": "03c387a28e220aaf3fdf74e077f081c3fb7a47fdd50f0f11803b88e447515d68",
+      "bytes": 807,
+      "source_mtime_ns": 1794534418862192005,
+      "copied_sha256": "03c387a28e220aaf3fdf74e077f081c3fb7a47fdd50f0f11803b88e447515d68"
+    },
+    {
+      "path": "output/paper-detour-reupload-20261113/darknet-metadata-current.json",
+      "sha256": "a827ee2f22e5751b902393fb9446ad24f4acbf12af5497dc62d83e4d0de62d80",
+      "bytes": 1127,
+      "source_mtime_ns": 1794534488414897812,
+      "copied_sha256": "a827ee2f22e5751b902393fb9446ad24f4acbf12af5497dc62d83e4d0de62d80"
+    },
+    {
+      "path": "output/paper-detour-reupload-20261113/darknet-metadata.json",
+      "sha256": "071ae2d92503af6f54ff750cd6acddf209fd11c5d3b3bea8a1a7521b7ecc57ed",
+      "bytes": 1293,
+      "source_mtime_ns": 1794534195759554879,
+      "copied_sha256": "071ae2d92503af6f54ff750cd6acddf209fd11c5d3b3bea8a1a7521b7ecc57ed"
+    },
+    {
+      "path": "output/paper-detour-reupload-20261113/darknet-reconstructed-unverified.srt",
+      "sha256": "03c387a28e220aaf3fdf74e077f081c3fb7a47fdd50f0f11803b88e447515d68",
+      "bytes": 807,
+      "source_mtime_ns": 1794534195760126047,
+      "copied_sha256": "03c387a28e220aaf3fdf74e077f081c3fb7a47fdd50f0f11803b88e447515d68"
+    },
+    {
+      "path": "output/paper-detour-reupload-20261113/darknet-youtube-asr.srt",
+      "sha256": "4a04c0ff44f916c467d8c2d74d1144ae3eb92f1fce08d3bfe0f95b401b896288",
+      "bytes": 960,
+      "source_mtime_ns": 1794534332314907903,
+      "copied_sha256": "4a04c0ff44f916c467d8c2d74d1144ae3eb92f1fce08d3bfe0f95b401b896288"
+    },
+    {
+      "path": "output/paper-detour-reupload-20261113/darknet.delivery.json",
+      "sha256": "70b5675e3a9b20e49a0255849105e9f847a6dc10cabf77e1b1263d47f3130279",
+      "bytes": 1679,
+      "source_mtime_ns": 1794534764170086068,
+      "copied_sha256": "70b5675e3a9b20e49a0255849105e9f847a6dc10cabf77e1b1263d47f3130279"
+    },
+    {
+      "path": "output/paper-detour-reupload-20261113/mantis-shrimp-metadata-current.json",
+      "sha256": "ce3bba6d8ad920ed04a840cbd404daf72372808905aafbcd5a338cc8bc460373",
+      "bytes": 847,
+      "source_mtime_ns": 1794534488414710103,
+      "copied_sha256": "ce3bba6d8ad920ed04a840cbd404daf72372808905aafbcd5a338cc8bc460373"
+    },
+    {
+      "path": "output/paper-detour-reupload-20261113/mantis-shrimp-metadata.json",
+      "sha256": "65d399ea3691edd1df09a9157e42f0975dcf9a4a68a767f78a10dadf99b7f181",
+      "bytes": 1013,
+      "source_mtime_ns": 1794534195759846921,
+      "copied_sha256": "65d399ea3691edd1df09a9157e42f0975dcf9a4a68a767f78a10dadf99b7f181"
+    },
+    {
+      "path": "output/paper-detour-reupload-20261113/mantis-shrimp-reconstructed.srt",
+      "sha256": "e2c54efa6808bac9aee66118b498707288b5ba2a42971995492ba26c268ee6f5",
+      "bytes": 1083,
+      "source_mtime_ns": 1794534471897107580,
+      "copied_sha256": "e2c54efa6808bac9aee66118b498707288b5ba2a42971995492ba26c268ee6f5"
+    },
+    {
+      "path": "output/paper-detour-reupload-20261113/mantis-shrimp-youtube-asr.srt",
+      "sha256": "29e843dc4054a7d7c124c1f447c0dc49f1b23601a2f6d245387d614cb3aefb37",
+      "bytes": 1282,
+      "source_mtime_ns": 1794534331586351133,
+      "copied_sha256": "29e843dc4054a7d7c124c1f447c0dc49f1b23601a2f6d245387d614cb3aefb37"
+    },
+    {
+      "path": "output/paper-detour-reupload-20261113/mantis-shrimp.delivery.json",
+      "sha256": "71d10f6461d9626d301ad012949ce963f0630ecfcd7ff529829990871adb623e",
+      "bytes": 1698,
+      "source_mtime_ns": 1794534764170247568,
+      "copied_sha256": "71d10f6461d9626d301ad012949ce963f0630ecfcd7ff529829990871adb623e"
+    },
+    {
+      "path": "output/paper-detour-reupload-20261113/videos-before.json",
+      "sha256": "a0712a064357e95f15ecdcbf95ddb634a2f88f1d025d57fce2751ed57592b1c3",
+      "bytes": 12407,
+      "source_mtime_ns": 1794534316569006575,
+      "copied_sha256": "a0712a064357e95f15ecdcbf95ddb634a2f88f1d025d57fce2751ed57592b1c3"
+    }
+  ],
+  "excluded": [
+    {
+      "path": "Work/homelander-edit-research/release-v7/cover-qa/qa_cards.html",
+      "reason": "Generated intermediate, raw ASR or browser capture; retained locally"
+    },
+    {
+      "path": "docs/operations/vidiq-credits.md",
+      "reason": "Already integrated via PR #12; current canonical version retained"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/homepage-20261113/fresh/JXTPG2lwg_o-before-studio.txt",
+      "reason": "Generated intermediate, raw ASR or browser capture; retained locally"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/homepage-20261113/fresh/ahbiGKJcrfo-before.txt",
+      "reason": "Generated intermediate, raw ASR or browser capture; retained locally"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/homepage-20261113/fresh/dl4vPGXmGIM-before.txt",
+      "reason": "Generated intermediate, raw ASR or browser capture; retained locally"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/homepage-20261113/fresh/ibBhxXKU56I-before.txt",
+      "reason": "Generated intermediate, raw ASR or browser capture; retained locally"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/homepage-20261113/fresh/vI7_cVQ50q0-before.txt",
+      "reason": "Generated intermediate, raw ASR or browser capture; retained locally"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/subtitles/6ajKBXvam-c/en/Власти нечего сказать об успехах СВО.srt",
+      "reason": "Generated intermediate, raw ASR or browser capture; retained locally"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/subtitles/6ajKBXvam-c/ru/long-ru-corrected-raw.srt",
+      "reason": "Generated intermediate, raw ASR or browser capture; retained locally"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/subtitles/6ajKBXvam-c/ru/Власти нечего сказать об успехах СВО.json",
+      "reason": "Generated intermediate, raw ASR or browser capture; retained locally"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/subtitles/6ajKBXvam-c/ru/Власти нечего сказать об успехах СВО.srt",
+      "reason": "Generated intermediate, raw ASR or browser capture; retained locally"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/subtitles/6ajKBXvam-c/ru/Власти нечего сказать об успехах СВО.tsv",
+      "reason": "Generated intermediate, raw ASR or browser capture; retained locally"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/subtitles/6ajKBXvam-c/ru/Власти нечего сказать об успехах СВО.txt",
+      "reason": "Generated intermediate, raw ASR or browser capture; retained locally"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/subtitles/6ajKBXvam-c/ru/Власти нечего сказать об успехах СВО.vtt",
+      "reason": "Generated intermediate, raw ASR or browser capture; retained locally"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/subtitles/6ajKBXvam-c/samples/end.txt",
+      "reason": "Generated intermediate, raw ASR or browser capture; retained locally"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/subtitles/6ajKBXvam-c/samples/start.srt",
+      "reason": "Generated intermediate, raw ASR or browser capture; retained locally"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/subtitles/CWPQbz3DkXY/en/Разгромное выступление академика Нигматулина на МЭФ.srt",
+      "reason": "Generated intermediate, raw ASR or browser capture; retained locally"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/subtitles/CWPQbz3DkXY/ru/Разгромное выступление академика Нигматулина на МЭФ.json",
+      "reason": "Generated intermediate, raw ASR or browser capture; retained locally"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/subtitles/CWPQbz3DkXY/ru/Разгромное выступление академика Нигматулина на МЭФ.srt",
+      "reason": "Generated intermediate, raw ASR or browser capture; retained locally"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/subtitles/CWPQbz3DkXY/ru/Разгромное выступление академика Нигматулина на МЭФ.tsv",
+      "reason": "Generated intermediate, raw ASR or browser capture; retained locally"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/subtitles/CWPQbz3DkXY/ru/Разгромное выступление академика Нигматулина на МЭФ.txt",
+      "reason": "Generated intermediate, raw ASR or browser capture; retained locally"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/subtitles/CWPQbz3DkXY/ru/Разгромное выступление академика Нигматулина на МЭФ.vtt",
+      "reason": "Generated intermediate, raw ASR or browser capture; retained locally"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/subtitles/JXTPG2lwg_o/en/Один из вариантов трансфера власти.srt",
+      "reason": "Generated intermediate, raw ASR or browser capture; retained locally"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/subtitles/JXTPG2lwg_o/ru/Один из вариантов трансфера власти.json",
+      "reason": "Generated intermediate, raw ASR or browser capture; retained locally"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/subtitles/JXTPG2lwg_o/ru/Один из вариантов трансфера власти.srt",
+      "reason": "Generated intermediate, raw ASR or browser capture; retained locally"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/subtitles/JXTPG2lwg_o/ru/Один из вариантов трансфера власти.tsv",
+      "reason": "Generated intermediate, raw ASR or browser capture; retained locally"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/subtitles/JXTPG2lwg_o/ru/Один из вариантов трансфера власти.txt",
+      "reason": "Generated intermediate, raw ASR or browser capture; retained locally"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/subtitles/JXTPG2lwg_o/ru/Один из вариантов трансфера власти.vtt",
+      "reason": "Generated intermediate, raw ASR or browser capture; retained locally"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/subtitles/kLvqWE568pc/en/Мы не давали согласия погибать - обращение к властям РФ.srt",
+      "reason": "Generated intermediate, raw ASR or browser capture; retained locally"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/subtitles/kLvqWE568pc/ru/Мы не давали согласия погибать - обращение к властям РФ.json",
+      "reason": "Generated intermediate, raw ASR or browser capture; retained locally"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/subtitles/kLvqWE568pc/ru/Мы не давали согласия погибать - обращение к властям РФ.srt",
+      "reason": "Generated intermediate, raw ASR or browser capture; retained locally"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/subtitles/kLvqWE568pc/ru/Мы не давали согласия погибать - обращение к властям РФ.tsv",
+      "reason": "Generated intermediate, raw ASR or browser capture; retained locally"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/subtitles/kLvqWE568pc/ru/Мы не давали согласия погибать - обращение к властям РФ.txt",
+      "reason": "Generated intermediate, raw ASR or browser capture; retained locally"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/subtitles/kLvqWE568pc/ru/Мы не давали согласия погибать - обращение к властям РФ.vtt",
+      "reason": "Generated intermediate, raw ASR or browser capture; retained locally"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/subtitles/wCITgsCwljc/en/Академик Нигматуллин о демографической катастрофе в России.srt",
+      "reason": "Generated intermediate, raw ASR or browser capture; retained locally"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/subtitles/wCITgsCwljc/ru/Академик Нигматуллин о демографической катастрофе в России.json",
+      "reason": "Generated intermediate, raw ASR or browser capture; retained locally"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/subtitles/wCITgsCwljc/ru/Академик Нигматуллин о демографической катастрофе в России.srt",
+      "reason": "Generated intermediate, raw ASR or browser capture; retained locally"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/subtitles/wCITgsCwljc/ru/Академик Нигматуллин о демографической катастрофе в России.tsv",
+      "reason": "Generated intermediate, raw ASR or browser capture; retained locally"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/subtitles/wCITgsCwljc/ru/Академик Нигматуллин о демографической катастрофе в России.txt",
+      "reason": "Generated intermediate, raw ASR or browser capture; retained locally"
+    },
+    {
+      "path": "output/glavred-borisenko-audit-20261112/subtitles/wCITgsCwljc/ru/Академик Нигматуллин о демографической катастрофе в России.vtt",
+      "reason": "Generated intermediate, raw ASR or browser capture; retained locally"
+    },
+    {
+      "path": "output/haiti-paper-20261113/release_prepared/card-preview/qa_cards.html",
+      "reason": "Generated intermediate, raw ASR or browser capture; retained locally"
+    },
+    {
+      "path": "output/haiti-paper-20261113/release_prepared/final-card-preview/qa_cards.html",
+      "reason": "Generated intermediate, raw ASR or browser capture; retained locally"
+    },
+    {
+      "path": "output/haiti-paper-20261113/repair/subs.ffconcat",
+      "reason": "Generated intermediate, raw ASR or browser capture; retained locally"
+    },
+    {
+      "path": "output/haiti-paper-20261113/subtitle_repair/captions.ffconcat",
+      "reason": "Generated intermediate, raw ASR or browser capture; retained locally"
+    },
+    {
+      "path": "output/haiti-paper-20261113/subtitle_repair/medium_asr/narration_110.json",
+      "reason": "Generated intermediate, raw ASR or browser capture; retained locally"
+    },
+    {
+      "path": "output/haiti-paper-20261113/subtitle_repair_v2/captions.ffconcat",
+      "reason": "Generated intermediate, raw ASR or browser capture; retained locally"
+    },
+    {
+      "path": "output/haiti-paper-20261113/subtitle_repair_v3/captions.ffconcat",
+      "reason": "Generated intermediate, raw ASR or browser capture; retained locally"
+    },
+    {
+      "path": "output/paper-detour-reupload-20261113/whisper-check/blizzard.json",
+      "reason": "Generated intermediate, raw ASR or browser capture; retained locally"
+    },
+    {
+      "path": "output/paper-detour-reupload-20261113/whisper-check/darknet.json",
+      "reason": "Generated intermediate, raw ASR or browser capture; retained locally"
+    },
+    {
+      "path": "output/paper-detour-reupload-20261113/whisper-check/mantis-shrimp.json",
+      "reason": "Generated intermediate, raw ASR or browser capture; retained locally"
+    }
+  ],
+  "deferred": "Uncommitted rights-policy changes conflict with current main and remain in local backup pending source decision review. Ignored media and production materials remain untouched on the original computer. This is not a full media backup.",
+  "known_duplicate": "darknet-english.srt and darknet-reconstructed-unverified.srt contain identical bytes; both names preserved because existing references may use either. This does not upgrade the UNVERIFIED status."
+}

@@ -54,7 +54,10 @@ def probe_media(path):
             width, height = stream.get("width"), stream.get("height")
             if type(width) is not int or type(height) is not int or min(width, height) < 1:
                 raise WorkflowError("video has invalid dimensions")
-            video.append({"codec": codec, "tag": stream.get("codec_tag_string"), "width": width, "height": height})
+            video.append({"codec": codec, "tag": stream.get("codec_tag_string"), "width": width, "height": height,
+                          **{key: stream.get(key) for key in (
+                              "pix_fmt", "sample_aspect_ratio", "avg_frame_rate", "r_frame_rate", "nb_frames",
+                              "duration", "color_primaries", "color_transfer", "color_space", "color_range")}})
         elif stream.get("codec_type") == "audio":
             channels = stream.get("channels")
             if type(channels) is not int or channels < 1:
@@ -125,6 +128,20 @@ def validate_image(path):
     if file_digest(path) != before:
         raise WorkflowError("image changed during validation")
     return result
+
+
+def validate_font_face(path, index, expected):
+    """Read the selected face; a renamed file or different TTC index is not the brand font."""
+    try:
+        from PIL import ImageFont
+        if type(index) is not int or index < 0:
+            raise ValueError("invalid font index")
+        family, style = ImageFont.truetype(str(path), 16, index=index).getname()
+    except (ImportError, OSError, ValueError) as exc:
+        raise WorkflowError("the required caption font face cannot be inspected") from exc
+    if {"family": family, "style": style} != expected:
+        raise WorkflowError("caption font family/style differs from the pinned brand face")
+    return {"family": family, "style": style, "index": index, "sha256": file_digest(path)}
 
 
 def validate_srt(path, *, duration, project_root):
