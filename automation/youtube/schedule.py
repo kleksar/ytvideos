@@ -88,6 +88,15 @@ def verify_staged_media(upload_receipt, channel, srt, language):
         if receipt is None or receipt['media']['sha256'] != identity['sha256']:
             raise ValueError('Delivery receipt does not match the uploaded MP4')
         srt_review = receipt['srt_review']
+        if receipt.get('schema') == delivery.REUPLOAD_SCHEMA:
+            if (srt_review['media_sha256'] != identity['sha256']
+                    or srt_review['language'] != language
+                    or srt_review['srt'] != delivery.file_record(srt)
+                    or srt_review.get('structure') != 'PASS'
+                    or srt_review.get('origin') not in ('source_track', 'reconstructed')):
+                raise ValueError('Reupload SRT identity or provenance is unverified')
+            delivery.check_record(srt_review['evidence'])
+            return
         if (srt_review['media_sha256'] != identity['sha256']
                 or srt_review['language'] != language
                 or srt_review['srt'] != delivery.file_record(srt)

@@ -262,7 +262,7 @@ def upload(session, video, meta, expected_channel, state_path, sleep=time.sleep,
     fingerprint = {'video': str(video), 'sha256': hash_file(video), 'size': size,
                    'channel_id': expected_channel, 'body': body}
     staging_receipt = None
-    if private_staging and checked is not None:
+    if checked is not None and (private_staging or checked.get('schema') == delivery.REUPLOAD_SCHEMA):
         staging_receipt = str(Path(delivery_receipt or (str(video) + '.delivery.json')).resolve())
     state_path = Path(state_path)
     if state_path.resolve() == video:
@@ -281,6 +281,10 @@ def upload(session, video, meta, expected_channel, state_path, sleep=time.sleep,
         if state and state.get('staging_delivery_receipt') != staging_receipt:
             raise UploadError('Private staging mode or delivery receipt differs from saved state.')
         check_channel(session, expected_channel)
+        if checked and checked.get('schema') == delivery.REUPLOAD_SCHEMA:
+            source = video_status(session, expected_channel, checked['source']['video_id'])
+            if source['privacy'] != 'public' or source['processing_status'] != 'succeeded':
+                raise UploadError('Reupload source is not a processed public video on this channel.')
         if state and state.get('phase') == 'complete':
             return state['video_id']
         if state and state.get('phase') == 'initiating':

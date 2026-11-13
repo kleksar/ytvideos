@@ -20,6 +20,7 @@ channel_config = importlib.util.module_from_spec(_config_spec)
 _config_spec.loader.exec_module(channel_config)
 SCHEMA = 'ytv-delivery-v1'
 RECEIPT_SCHEMA = 'ytv-delivery-v2'
+REUPLOAD_SCHEMA = 'ytv-owned-reupload-v1'
 REVIEW_CHECKS = ('semantic_grouping', 'visual_placement')
 
 
@@ -230,6 +231,8 @@ def validate_release(video, channel_id, receipt_path=None, *, private_staging=Fa
     if not path.is_file():
         raise ValueError('Missing delivery receipt for configured illustrated-channel upload')
     receipt = json.loads(path.read_text())
+    if receipt.get('schema') == REUPLOAD_SCHEMA:
+        return validate_owned_reupload(receipt, video, channel_id)
     if receipt.get('schema') == 'ytv-audio-replacement-v1':
         return validate_audio_replacement(receipt, video, channel_id, channel, private_staging)
     if receipt.get('schema') == SCHEMA:
@@ -301,6 +304,29 @@ def validate_release(video, channel_id, receipt_path=None, *, private_staging=Fa
     if acceptance.get('accepted') is not True or acceptance.get('media_sha256') != receipt['media']['sha256']:
         raise ValueError('User acceptance must bind this exact MP4')
     check_record(acceptance['evidence'])
+    return receipt
+
+
+def validate_owned_reupload(receipt, video, channel_id):
+    """Validate a recovered published copy without inventing a production render."""
+    import re
+    if receipt.get('channel_id') != channel_id or receipt.get('media') != file_record(video):
+        raise ValueError('Reupload receipt does not match the video/channel')
+    source = receipt.get('source', {})
+    if not re.fullmatch(r'[A-Za-z0-9_-]{11}', source.get('video_id', '')):
+        raise ValueError('Reupload source video ID is invalid')
+    check_record(source['api_snapshot'])
+    check_record(source['download_evidence'])
+    snapshot = json.loads(Path(source['api_snapshot']['path']).read_text())
+    items = [v for v in snapshot.get('items', []) if v.get('id') == source['video_id']]
+    if (len(items) != 1 or items[0].get('snippet', {}).get('channelId') != channel_id
+            or items[0].get('status', {}).get('privacyStatus') != 'public'):
+        raise ValueError('Snapshot does not establish a public source on the expected channel')
+    technical = receipt.get('technical_review', {})
+    if (technical.get('full_decode') != 'PASS'
+            or technical.get('media_sha256') != receipt['media']['sha256']):
+        raise ValueError('Reupload requires full decode of the exact file')
+    check_record(technical['evidence'])
     return receipt
 
 def validate_audio_replacement(receipt, video, channel_id, channel, private_staging):
