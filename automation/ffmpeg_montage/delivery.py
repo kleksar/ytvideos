@@ -370,11 +370,13 @@ def _verify_owned_reupload_media(video):
                             '-of', 'json', str(path)]))
     if ('mp4' not in (probe.get('format', {}).get('format_name') or '').split(',')
             or not any(stream.get('codec_type') == 'video'
+                       for stream in probe.get('streams', []))
+            or not any(stream.get('codec_type') == 'audio'
                        for stream in probe.get('streams', []))):
-        raise ValueError('Recovered file must be a real MP4 with a video stream')
+        raise ValueError('Recovered file must be an MP4 with video and audio streams')
     run(['ffmpeg', '-nostdin', '-v', 'error', '-xerror', '-err_detect', 'explode',
          '-threads', '2', '-protocol_whitelist', 'file,pipe', '-format_whitelist',
-         'mov', '-i', str(path), '-map', '0:v:0', '-map', '0:a?', '-f', 'null', '-'])
+         'mov', '-i', str(path), '-map', '0:v:0', '-map', '0:a:0', '-f', 'null', '-'])
     if sha256(path) != before:
         raise ValueError('Recovered MP4 changed during full decode')
 

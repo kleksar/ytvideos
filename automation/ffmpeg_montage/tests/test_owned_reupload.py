@@ -53,6 +53,18 @@ class OwnedReuploadTest(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'probe or full decode failed'):
             delivery.validate_release(self.video, CHANNEL, self.receipt)
 
+    def test_valid_mp4_without_audio_is_rejected(self):
+        silent = self.p / 'silent.mp4'
+        subprocess.run(['ffmpeg', '-nostdin', '-v', 'error', '-i',
+                        str(self.video), '-an', '-c:v', 'copy', str(silent)],
+                       check=True, capture_output=True)
+        self.video.write_bytes(silent.read_bytes())
+        self.data['media'] = delivery.file_record(self.video)
+        self.data['technical_review']['media_sha256'] = delivery.sha256(self.video)
+        self.save()
+        with self.assertRaisesRegex(ValueError, 'video and audio'):
+            delivery.validate_release(self.video, CHANNEL, self.receipt)
+
     def test_source_must_be_owned_public_and_snapshot_unchanged(self):
         self.snapshot.write_text(json.dumps({'items': [{'id': 'Bfgcq4rxQT8', 'snippet': {'channelId': 'UC0000000000000000000000'}, 'status': {'privacyStatus': 'public'}}]}))
         with self.assertRaisesRegex(ValueError, 'Stale'): delivery.validate_release(self.video, CHANNEL, self.receipt)
