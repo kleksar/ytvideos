@@ -64,7 +64,10 @@ def audit_motion_batch(run, operations, *, resolve_document=None):
     settings_hash = digest(settings) if isinstance(settings, dict) and settings else None
     # A saved digest is a binding, not evidence by itself. Check it against the
     # exact settings object before declaring the recorded batch consistent.
-    if settings_hash is not None and batch.get("settings_sha256") != settings_hash:
+    if settings_hash is not None and "settings_sha256" not in batch:
+        add("settings_digest_missing", "motion_batch.settings_sha256",
+            "Legacy batch has no explicit saved settings digest binding")
+    elif settings_hash is not None and batch.get("settings_sha256") != settings_hash:
         add("settings_digest_mismatch", "motion_batch.settings_sha256",
             "Saved settings digest differs from actual request settings", "error")
     contract = {"batch_sha256": batch.get("batch_sha256"), "settings_sha256": settings_hash,
