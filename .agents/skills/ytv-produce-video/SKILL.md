@@ -19,6 +19,8 @@ CLI и точные outputs/receipts: [task contract](../../../docs/operations/t
 | subtitles | [audio](../../../docs/standards/audio.md) + канальная типографика | Применимые word map/группы/SRT или проверенное решение `no_speech` |
 | render | [delivery](../../../docs/standards/delivery.md) | MP4/hash, frozen inputs, commands и технический receipt |
 
+Для storyboard/scene_image/audio/render прочитать применимый раздел [производственных примеров](references/production-examples.md): выбор камеры для закреплённого static whole-frame recipe, звуковой акцент или адресная AI-правка. Примеры не меняют профиль, входы и разрешённый способ исполнения; Flow A → B использует собственный канальный рецепт.
+
 Для `subtitles` и `render`, включая ручную правку исходного видео, выполнить применимый этап из [стандарта экранных субтитров](../../../docs/standards/audio.md#экранные-субтитры). В `subtitles` сохранить карту слов, измеренные группы и SRT. В `render` применить карту и сохранить результат проверки на точном MP4.
 
 При нарезке исходной речи, включая ручную правку, до рендера сохранить дословную монтажную расшифровку с исходными таймкодами по [редакционному стандарту](../../../docs/standards/editorial.md#монтаж-исходной-речи).
