@@ -172,14 +172,15 @@ def audit_motion_batch(run, operations, *, resolve_document=None):
             output_hash = observation.get("output_sha256") if isinstance(observation, dict) else None
             if not isinstance(output_hash, str) or not output_hash:
                 add("output_binding_missing", path,
-                    "Observation does not declare the exact generated clip hash")
+                    "Structured output_sha256 binding is absent; reconcile any legacy output fields separately")
             elif clip.get("sha256") and clip["sha256"] != output_hash:
                 add("output_binding_mismatch", path,
                     "Saved clip differs from the exact operation output observation", "error")
         if op.get("status") in {"confirmed", "failed", "not_performed"}:
             actual = observation.get("actual_units") if isinstance(observation, dict) else None
             if type(actual) is not int or actual < 0:
-                add("actual_cost_unverified", path, "Estimated request cost is not measured provider billing")
+                add("actual_cost_unverified", path,
+                    "No verified actual_units cost; reconcile any legacy billing fields separately")
                 measured_complete = False
             elif observation_bound and not reused:
                 measured_total += actual
