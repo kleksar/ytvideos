@@ -267,6 +267,22 @@ Probe учитывает задержку B-frames в исходных кадр�
 
 `--technical-probe` предназначен для изолированных инструментальных fixtures. Его output нельзя завершить или выпустить как production MP4.
 
+### Локальная монтажная проба
+
+`automation/montage_trial.py` собирает существующие изображения и видеоклипы в отдельный немой preview. Это локальная операция без provider calls. Процедура принадлежит [video-clips](../../.agents/skills/ytv-produce-video/references/video-clips.md#локальная-монтажная-проба); production contracts и gates сохраняются.
+
+```bash
+uv run python automation/montage_trial.py --manifest trial.json --output /absolute/path/to/new-trial.mp4
+```
+
+Manifest имеет `schema: ytv.montage_trial.v1`, `purpose: montage_trial`, `provenance: {run_id, script:{path,sha256}, storyboard:{path,sha256}}`, явные `canvas:[width,height]`, целый `fps`, `audio_policy: mute`, непустой `timing_basis` и `scenes`. Относительные пути разрешаются от manifest. Canvas/FPS выбираются из закреплённых требований выпуска; сам standalone helper не удостоверяет run identity. Hashes script/storyboard и источников проверяются по реальным bytes.
+
+Каждая сцена содержит уникальный `id`, `type: image | video`, `source`, `source_sha256` и непрерывные полуоткрытые `start_frame`/`end_frame`. Для `image` обязательны `direction` и `zoom`, необязательный `camera` использует canonical image-motion контракт: `start/end: {center:[x,y],scale}`, `focus:[x,y]`, `subject`, `reason`. Разрешённый канальным планом hold задаётся явно через `none` и одинаковые camera endpoints. Для `video` обязательны `source_in_seconds`, `used_duration_frames`, равное длине timeline window, и явные `direction: none`, `zoom: none`; camera и дополнительное движение для видео отвергаются. Недостаточный видеоинтервал не дополняется повтором последнего кадра. Неизвестные поля, audio/overlays и изменение скорости этим helper не поддерживаются.
+
+Код использует реальные преобразования SDR цвета, proportional cover crop, square pixels, заданный FPS и H.264/yuv420p с Fast Start. Цветовые свойства видео должны быть известны и поддержаны; RGB PNG интерпретируется как sRGB full-range, это записывается как предположение. Неизвестный цвет видео не получает выдуманные input tags. Параметры кодирования и наблюдаемые свойства сохраняются; metadata не доказывают зрительную оценку цвета.
+
+Sidecar `MP4.montage_trial.json` связывает exact manifest/input/document/code hashes, actual argv, исходные свойства, использованные интервалы и фактический output probe/hash. Он содержит `production_acceptance:false`, `review:UNVERIFIED`. Существующие output/receipt не перезаписываются. Регистрация `attach-artifact --kind montage_trial` добавляет preview к тому же run; она не создаёт render output, QA или approval.
+
 ### Музыкальный рендер
 
 `music_first` исполняется по принятому typed edit-script. Audio task требует `audio.mix` и `audio.listen`; `vocal` также использует `subtitle.align`, а `instrumental` завершает subtitles через `no_speech`. Читать точные checks и output kind из task context и `task_guide.music_edit`. Регистрация исходников и `rights_evidence` сохраняет bytes; право использования подтверждается отдельной проверкой.
