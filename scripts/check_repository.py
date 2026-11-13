@@ -41,6 +41,8 @@ REDIRECTS = {
     "channels/nuviko_videos/videos/AGENTS.md": "channels/nuviko_videos/AGENTS.md",
     "channels/scenes_on_repeat/videos/AGENTS.md": "channels/scenes_on_repeat/AGENTS.md",
     "channels/two_ways_lab/videos/AGENTS.md": "channels/two_ways_lab/AGENTS.md",
+    "channels/scenes_on_repeat/videos/meme-time-machine-01/AGENTS.md":
+        "channels/scenes_on_repeat/videos/meme-time-machine-01/CURRENT_CONTEXT.md",
 }
 LINK = re.compile(
     r"!?\[[^\]\n]*\]\(\s*(?:<([^<>\n]*)>|((?:\\.|[^\\()\s]|\([^()\n]*\))*))"
