@@ -52,6 +52,15 @@ class InstructionPacketTests(unittest.TestCase):
         self.assertNotIn('run_id', packet)
         self.assertFalse((self.root / 'channels/manual_channel/channel.json').exists())
 
+    def test_narrow_clip_review_receives_shared_procedure_without_creating_run(self):
+        path = '.agents/skills/ytv-produce-video/references/video-clips.md'
+        packet = self.packet(stage='review', format='short')
+        self.assertIn(path, packet['references'])
+        self.assertNotIn('run_id', packet)
+        (self.root / path).unlink()
+        with self.assertRaisesRegex(WorkflowError, 'missing.*video-clips'):
+            self.packet(stage='review', format='short')
+
     def test_registered_channel_uses_the_same_selector_as_a_new_run(self):
         profile_path = self.root / 'channels/manual_channel/channel.json'
         profile = {'schema_version': 1, 'id': 'manual_channel', 'status': 'frozen',

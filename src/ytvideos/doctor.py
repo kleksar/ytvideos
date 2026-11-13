@@ -1,6 +1,7 @@
 """Read-only local capability checks, not inferred provider access."""
 import os
 import shutil
+import json
 
 from .capabilities import capability_check
 
@@ -20,6 +21,29 @@ def inspect(production, run_id=None, *, run_snapshot=None):
         run = run_snapshot if run_snapshot is not None else production.store.get(run_id)
         if run["id"] != run_id:
             raise ValueError("doctor snapshot belongs to another run")
+        if run.get("motion_batch") is not None:
+            from .motion_audit import audit_motion_batch
+            from .errors import WorkflowError
+            def read_observation(artifact):
+                try:
+                    return json.loads(production.artifacts.resolve(artifact).read_text())
+                except WorkflowError as exc:
+                    raise ValueError(str(exc)) from exc
+            try:
+                with production.store.transaction() as tx:
+                    operations = [json.loads(row[0]) for row in tx.execute(
+                        "SELECT doc FROM operations WHERE run_id=?", (run_id,)).fetchall()]
+                audit = audit_motion_batch(run, operations, resolve_document=read_observation)
+            except (ValueError, TypeError, KeyError, AttributeError):
+                # Diagnosis must remain available for malformed legacy data.
+                # Preserve the original state; do not manufacture repaired bindings.
+                audit = {"schema": "ytv-motion-audit-v1", "run_id": run_id,
+                         "status": "evidence_incomplete", "dispatch_authorized": False,
+                         "findings": [{"code": "saved_batch_structure_invalid", "path": "motion_batch",
+                                       "severity": "error", "detail": "Saved batch/operation structure cannot be audited"}]}
+            checks.append(dict(capability="video.saved_batch_evidence", available=False,
+                               evidence=audit, state="unverified",
+                               next_action="Reconcile recorded bindings before a new paid operation; this audit is never dispatch authority or a decision to reject existing media."))
         for name, observation in sorted(run["capabilities"].items()):
             if name not in {"approval.verifier", "approval.local_session"} and (signed or name != "approval.bridge"):
                 checks.append(capability_check(name, observation))
