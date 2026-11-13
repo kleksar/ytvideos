@@ -55,7 +55,7 @@ def load_words(data, offset, fps, frames, *, keep_source_times=False):
         if not math.isfinite(start) or not math.isfinite(end) or start < previous_start or end <= start:
             raise ValueError(f'Invalid word timing for {text!r}: {start}–{end}')
         previous_start = start
-        letters = ''.join(char for char in unicodedata.normalize('NFC', text) if char.isalpha())
+        letters = ''.join(char for char in unicodedata.normalize('NFC', text) if char.isalnum())
         start_frame = max(0, math.ceil((start - offset) * fps - 1e-9))
         end_frame = min(frames, math.ceil((end - offset) * fps - 1e-9))
         if letters and start_frame < end_frame:

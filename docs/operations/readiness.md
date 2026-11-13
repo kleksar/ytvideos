@@ -1,47 +1,59 @@
-# Готовность к запуску: контракт не равен живой ферме
+# Готовность производства
 
-Эта матрица связывает исходный запрос с реализацией, проверками и оставшимися границами. Зелёный CI подтверждает software contracts на проверенном commit; он не подтверждает доступ к аккаунтам, качество генерации, постоянную работу host или выпуск десяти каналов.
+Машинный профиль определяет допустимый продукт и проверки. Статус `active` разрешает создание run; он не подтверждает доступность providers, аккаунтов, шрифтов, музыки или принятых изображений. Зелёный CI проверяет программный контракт на точном commit, а готовность выпустить настоящий ролик подтверждается выполнением в целевом окружении.
 
-## Исходные требования
+## Пять каналов
 
-| Требование | Реализация / свидетельство | Граница приёмки |
+```bash
+uv run ytv profiles
+uv run ytv profiles --channel paper_detour --format short
+```
+
+Это read-only проверка конфигурации без run, DB или workspace. Ответ показывает status, требования/варианты формата и конкретные blockers; `live_readiness=unverified` не означает проверенное подключение tools. Для сохранённого выпуска использовать его `plan`, затем `doctor` фактического окружения по [task contract](task-contract.md).
+
+| Канал | Поддерживаемый путь | Что проверить или определить до исполнения |
 |---|---|---|
-| Новый запрос → самостоятельный полный сценарий | `Production.create/next/context`, `test_workflow.py`; сохранённая одна Luna-проба в `evals/results/2026-11-10-luna-story/` | Требуются live model/web tools. Одна проба не измеряет надёжность всех каналов. |
-| Только согласования текста и точного MP4 | Workflow gates, Ed25519 verifier; `test_lifecycle.py`, `test_control_plane_edges.py` | Trusted user-event ingress ещё нужно подключить. Ключ verifier сам по себе не является bridge. |
-| Автономное производство и параллельная упаковка | Task graph, media executor, image pool; workflow/media/lifecycle tests | Нужны actual providers, файлы стиля/шрифтов/музыки и подтверждённые права. |
-| Независимые image sessions и непрерывное пополнение | `workers/pool.py`, `workers/bridge.py`, `pool_service.py`; `test_workers.py`, `test_pool_service.py` на SQLite/PostgreSQL | Для Codex App Server есть исполняемый native image host и contract tests. Доступность native image tool, получение bytes и восстановление на целевом Mac ещё требуют live-проверки; произвольный ChatGPT UI этим не подключается. |
-| Нельзя забыть необходимый skill | Pinned catalog/skills в task context, `scripts/check_repository.py` | Наличие skill в packet не доказывает его качественное применение; нужны свежие поведенческие evals. |
-| Общая логика для десяти каналов | Channel profiles, generic workflow, synthetic ten-channel fairness test | В Git активны Paper Detour, Scenes on Repeat и Nuviko History. Stories остаётся ручным архивом; новые каналы сейчас не подключаются. |
-| Ранние блокеры без остановки независимой работы | `doctor` учитывает будущую image/clip capability до storyboard; `test_requirements_recheck.py` | Неизвестная capability не считается доступной. Runtime preflight голоса/fonts/quota/storage/Studio остаётся обязательным. |
-| Повторы и рестарты не создают новые расходы | Durable operations, leases, exact hashes, event/request dedup; PostgreSQL regressions | UNKNOWN нельзя безопасно разрешить без реального provider evidence. Exactly-once внешнего API не заявляется. |
-| Изменение одной сцены/обложки не уничтожает всё | Dependency invalidation, scene cache; workflow/cache/thumbnail tests | Изменённая обложка снимает release binding, но сохраняет принятый MP4 и approvals. |
-| Полное оформление и schedule после MP4 approval | ReleaseSpec, requirement matrix, remote evidence, synthetic lifecycle | Поддерживаемые OAuth/Studio adapters, настоящий календарь, assets и readbacks должны быть подключены на host. |
-| Задержка upload не требует третьего согласования | `prepare_release` допускает только новый слот после подтверждённого upload и до dispatch schedule; `test_release_replanning.py` | Слот выбирает проверенный host по политике канала. Уже отправленное/UNKNOWN расписание сначала reconcile. |
-| Не потерять действующие выпуски | Code/profile/skills pins и [migration](../migration.md) | Старые runs не мигрируют автоматически; inventory/backup/restore проверяются на целевой машине. |
-| Скорость и эффективность | Независимые задачи, bounded attempts/cache, adaptive pool | Проценты ускорения не измерены. Нужен baseline active time/tokens/cost/rework на реальных выпусках. |
+| [Paper Detour](../../channels/paper_detour/AGENTS.md) | Активный `illustrated`: Short и long | Точные style refs, Chalkboard SE Bold, голос, права/музыку и providers. Full-bleed оформление без внешней Paper Frame принадлежит профилю. |
+| [Nuviko History](../../channels/nuviko_history/AGENTS.md) | Активный `illustrated`: Short и long | Точные эталоны ведущего/мира, Georgia Bold, голос, музыку и фактические источники истории. Параметры существующего run сохраняются по его pins. |
+| [Scenes on Repeat](../../channels/scenes_on_repeat/AGENTS.md) | Активный `licensed_clips`: Short; `scene`, `character_edit`, `meme_time_machine` | Выбрать подходящий вариант 24/48 fps, проверить реальные source clips/права и средства монтажа. Long не имеет определённого delivery recipe. |
+| [Two Ways Lab](../../channels/two_ways_lab/AGENTS.md) | Активный `illustrated`: Short 1080×1920/30 fps | Проверить Trebuchet MS Bold, голос и точные character reference PNG из brand storage по hashes реестра. Long не определён. Статические планы допустимы; music/zoom не превращать в обязательную политику Paper. |
+| [Nuviko Videos](../../channels/nuviko_videos/AGENTS.md) | Активный `music_first`: Short 1080×1920/30 fps; `vocal`, `instrumental`; typed edit plan → `mix` → `music_render` | Проверить точную запись/отрывок, source clips и права, карту музыкальных акцентов; для вокала — Bradley Hand Bold, все слова и их тайминги. Инструментальный вариант использует проверенный `no_speech` без SRT. Нужен полный просмотр/прослушивание точного MP4; long не определён. |
 
-## Что ещё нужно до production-фермы
+Музыкальный compositor проверяет закреплённые параметры, происхождение звука/футажей и применимые титры; доступ к реальным исходникам, лицензиям и нужному шрифту подтверждается отдельно. Stories RU/EN и Главред Борисенко ведутся вручную вне этой пятёрки. Identity канала и сохранённое наблюдение Studio не заменяют проверку текущего доступа или статуса ролика.
 
-**Обязательный интеграционный этап, не выполненные в этом MR подключения:** trusted user-event bridge; actual native-session/image dispatcher; live media/release adapters и capability observations; общий storage с backup/restore; работоспособный постоянный host executor; привязка к календарю с безопасным резервированием слотов; выполнение deferred Public/A/B actions.
+## Что обеспечивает runtime
 
-Отдельно проверить общий ресурсный контур. Runtime session cap и round-robin turn разделяются между runs. Явно настроенный `shared_review_capacity` добавляет общий admission/backlog limit (см. [контракт](../architecture/adaptive-workers.md#общий-review-backpressure)); по умолчанию он не включён. Бюджет и adaptive service-time состояние остаются per-run. Не считать review limit глобальным денежным бюджетом/API quota. До такой интеграции host обязан ограничивать admission и суммарные затраты самостоятельно; нельзя просто открыть десять координаторов с независимыми лимитами.
+| Возможность | Программный контракт | Практическая граница |
+|---|---|---|
+| Вход и план до генерации | `start` сохраняет run, выдаёт plan summary, диагностику и reading packet; read-only `plan` показывает закреплённые требования, stages/checks/skills и blockers | Применяется также к новому запросу только на сценарий. Агент читает пакет и сообщает план; команда не является approval и не запускает providers. |
+| Присланный полный сценарий | `start --source-script` сохраняет точные bytes/hash narration или поддержанного typed edit plan; research проверяет данный замысел, script получает исходник | Source не равен проверенному script или approval. Trusted host связывает подлинное исходное поручение с exact script/hash. |
+| Требования каждого этапа | `claim.context`, `task_guide`, выбранные `reference_documents`, direct/supporting inputs | Доставка skill в packet не доказывает его качественное применение. Нужны проверка конкретного результата и поведенческие evals. |
+| Приёмка точного результата | Обязательные checks, leases, artifact hashes, probe/decode и production contract | Технические измерения не подтверждают факты, смысл картинки, произношение или реальное прослушивание. |
+| Две контрольные точки | Точный script и MP4, проверка подписанного user-event envelope | Публичный ключ verifier сам по себе не подключает trusted ingress. Upload/публикация отдельно требуют прямого поручения. |
+| Независимые задачи | Task graph, image pool, native image host и параллельная упаковка | Нужны actual provider sessions, доставка bytes и работающий host. Протокол App Server не подключает произвольный ChatGPT UI. |
+| Повторы и восстановление | Durable operations, request/event dedup, code/profile/skills pins, dependency invalidation | `UNKNOWN` сверяется с provider evidence; exactly-once внешнего API не заявляется. Старые runs не мигрируют автоматически. |
+| Выпуск после поручения | ReleaseSpec, remote evidence, календарные ограничения и deferred actions | Нужны actual OAuth/Studio adapters, проверенный календарь и исполнитель pending Public/A/B tasks. Запись задачи не означает фоновое наблюдение. |
 
-Внедрение должно доказать два разных свойства: проверяемые технические артефакты и редакционное качество реального выпуска. Fake provider receipts и декодируемая тестовая аудиодорожка не доказывают прослушивание, качество narration, визуальную последовательность или оригинальность материала.
+`audio.listen` означает доступный способ реально прослушать звук с evidence. FFmpeg, decode и график сигнала не предоставляют этот способ. Незарегистрированную capability сначала проверить и записать; фактически отсутствующая capability блокирует зависимые этапы, сохраняя доступную независимую работу.
 
-## Последовательность фактической приёмки
+## Зависимости автономного host
 
-1. Подключить один проверенный канал в изолированном workspace без изменения действующих выпусков. `doctor` показывает реальные наблюдения и отсутствующие capabilities; никакого автоматического переключения production.
-2. Проверить малый набор независимых native generations: exact task packet, сохранённые файлы/handles, доставка результата, refill, потерянный ответ и restart без повторной отправки. Платный эксперимент требует явного разрешённого бюджета.
-3. Пройти один реальный выпуск через script approval → MP4 approval → complete scheduled release. Не подменять пользовательское решение test signer; не публиковать автоматически в рамках аудита кода.
-4. Повторить на другом production recipe, затем проверить одновременные runs: общий расход/квоты, суммарный backlog, fairness, неопределённые операции и конфликт слота календаря.
-5. Проверить восстановление store+artifact backup и работу после закрытия/рестарта основной сессии. Подтвердить pending → executed/read-back для Public/A/B, а не только наличие записей.
+Host должен связать trusted user-event ingress, providers и [native image executor](native-image-host.md), остальные stage adapters/координатор, общее хранилище с backup/restore, календарь и выполнение deferred Public/A/B actions. Для production нужна проверка восстановления после закрытия основной сессии; foreground tool loop сам по себе не доказывает постоянную работу.
 
-## Воспроизводимость software-проверок
+Runtime session cap и round-robin turn разделяются между runs. Явно настроенный `shared_review_capacity` добавляет общий admission/backlog limit по [контракту очереди](../architecture/adaptive-workers.md#общий-review-backpressure); по умолчанию он не включён. Бюджет и adaptive service-time состояние остаются per-run. Review limit не является общим денежным бюджетом или API quota: host ограничивает общий admission и суммарные расходы отдельно.
 
-CI выполняет suite `tests/` с реальным PostgreSQL и существующие automation suites. Артефакт `contracts-<run_id>-<attempt>` содержит test logs, `reviewed-commit.txt`, `reviewed-paths.json` и `reviewed-source.tar.gz`: отфильтрованный снимок **tracked** кода/текстовых конфигураций, без runtime media и credentials. В snapshot входят current entrypoints и явно объявленные `context_references`; исторические `.agent` журналы не обязательны для воспроизведения. Для проверки ссылок неполного source snapshot использовать `python scripts/check_repository.py --known-paths /path/to/reviewed-paths.json`. Это не полный архив брендов или backup производства.
+## Фактическая проверка готовности
 
-Test-first checkpoint `f25c8143e61d6db56abe5b86dd904dcb0bf22d03` воспроизвёл race request/event deduplication на PostgreSQL, устаревшую release binding после правки обложки, неполный/недостоверный preflight и разделяемые mutable списки графа. Фикс должен пройти те же регрессии и полный CI на новом HEAD. Итоговые результаты привязывать к commit/run в MR; не переносить старый PASS на новую версию.
+1. Проверить один разрешённый канал и формат в изолированном workspace. `profiles`, `plan` и `doctor` должны различать конфигурацию, сохранённые наблюдения и реальные capabilities.
+2. Проверить точный task packet, выбранные документы, actual files и приёмку результата на реальных tools. Платные генерации выполнять только в разрешённом бюджете; качество оценивать по результату, а не по receipt провайдера.
+3. Пройти реальный путь от темы или присланного текста до MP4 с просмотром/прослушиванием. Подлинное решение пользователя не заменять test signer. Внешний выпуск проверять только при прямом поручении пользователя.
+4. Проверить потерянный ответ, restart и сохранённый результат без повторной платной отправки. При нескольких runs проверить общий расход/квоты, backlog, fairness и конфликты календаря.
+5. Проверить восстановление store+artifacts из backup. Для порученных последующих действий подтвердить переход pending → исполнено и read-back, а не только наличие записей.
 
-## Native image executor: добавленный software-этап
+Структурные проверки, свежий поведенческий прогон целевой модели и реальный выпуск отвечают на разные вопросы. Mock providers и fixture subprocess проверяют протокол; они не доказывают редакционное качество или доступность live tools. Скорость, затраты и долю переделок измерять на сопоставимых реальных задачах, без переноса результата одной пробы на все каналы.
 
-[Image host](native-image-host.md) реализует реальные protocol requests и соединяет их с PoolService; tests используют отдельный fixture subprocess для wire protocol и синтетические native observations для DB integration. Они не выполняют запросы к модели. Paper, Scenes on Repeat и Nuviko History активны; Stories остаётся ручным архивом. Известные оставшиеся этапы: live-приёмка host, trusted approval ingress, остальные stage adapters/координатор, календарь, общие денежные/API-лимиты, backup/restore и Public/A/B follow-ups. Только наличие image host не закрывает эти пункты.
+## Воспроизводимость проверок
+
+CI выполняет `tests/` с PostgreSQL и существующие automation suites. Артефакт `contracts-<run_id>-<attempt>` содержит test logs, `reviewed-commit.txt`, `reviewed-paths.json` и `reviewed-source.tar.gz`: отфильтрованный снимок tracked кода и текстовых конфигураций, без runtime media и credentials. Current entrypoints и объявленные `context_references` входят в snapshot; исторические журналы не являются обязательным контекстом production.
+
+Для неполного source snapshot использовать `python scripts/check_repository.py --known-paths /path/to/reviewed-paths.json`. Inventory должен происходить из проверенного Git tree; в него нельзя дописывать отсутствующие PNG ради прохождения проверки. Ссылки на artwork восстанавливаются по реальным файлам и hashes. Source snapshot не является полным brand archive или backup производства. Результат проверки всегда привязывать к commit/run, не переносить прежний PASS на изменённую версию.

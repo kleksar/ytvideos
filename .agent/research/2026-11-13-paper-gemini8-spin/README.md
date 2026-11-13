@@ -1,3 +1,5 @@
+**Сверено с `main` 96c8fa1573c0:** материалы — старый текстовый Draft, не `ytv start` run. Нужны независимый reviewer и реальный `awaiting_script_approval` перед производством. Планы сцен и длительность — гипотезы. [Handoff](handoff.md).
+
 # Paper Detour Short — Neil Armstrong's First Spaceflight Nearly Killed Him
 
 **[Полный сценарий на русском](script.ru.txt)** · **[English narration master](script.en.txt)**

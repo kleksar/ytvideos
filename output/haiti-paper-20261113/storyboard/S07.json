@@ -1,0 +1,68 @@
+{
+  "id": "S07",
+  "revision": 1,
+  "purpose": "scene",
+  "narration_anchor": "buildings. Smoke rises above the buildings. Bukele said the gang leader’s house and the",
+  "visual_intent": "Illustrate smoke and the reported strike while narration attributes its identification to Bukele. Generic distant structures establish no identity with the user photo.",
+  "prompt": "Create one finished opaque portrait 9:16 handmade paper and cardboard diorama, photographed with physical light and rich contact shadows. Layered cut edges, folded construction, visible paper thickness and fibres, tiny well-made props. Full-frame full-bleed composition with natural content to all edges. Warm amber key light and restrained deep blue shadows. Use the attached P02 reference for material and physical craft only. Maintain a clear dominant action. Every person and object is crafted paper. No photoreal human skin, no smooth CGI, no flat vector, no outer border, no empty subtitle strip, no burned-in subtitles or watermark. Request highest available native quality, ideally 2160x3840; report actual size. This is an editorial illustration of reported events, never an authentic screenshot, photograph, video frame or exact reconstruction. Keep essential subject within x 0.20–0.80, y 0.18–0.68 for small horizontal pans and separate subtitles below; fill the remainder naturally. No gore, identifiable victims, casualty counts or civilians-cleared claim. No labels or lettering except the scene-specific text requested. Dramatic wide elevated view of a handmade paper helicopter silhouette crossing the upper third of a smoky paper landscape. Two tiny paper streaks descend toward distant generic low rectangular structures. Layered grey paper smoke rises from those structures. Show this as a clearly tangible paper theatrical model with visible cut edges and contact shadows, no photographic video realism. The distant structures differ from the cream illustrated house in the social-media scenes. No people or casualties.",
+  "composition": "Dramatic wide elevated view of a handmade paper helicopter silhouette crossing the upper third of a smoky paper landscape. Two tiny paper streaks descend toward distant generic low rectangular structures. Layered grey paper smoke rises from those structures. Show this as a clearly tangible paper theatrical model with visible cut edges and contact shadows, no photographic video realism. The distant structures differ from the cream illustrated house in the social-media scenes. No people or casualties.",
+  "camera": {
+    "focus": "Dominant subject described in composition",
+    "motion": "push_in",
+    "start": {
+      "center": [
+        0.5,
+        0.5
+      ],
+      "scale": 1.04
+    },
+    "end": {
+      "center": [
+        0.5,
+        0.5
+      ],
+      "scale": 1.08
+    },
+    "reason": "Small whole-image zoom alternates between neighbours and preserves composition. Final first-image reprise holds the first-frame crop for a continuous restart.",
+    "status": "planned crop awaiting actual image inspection"
+  },
+  "reference_assets": [
+    {
+      "path": "/Users/diplomat/ytvideos/channels/paper_detour/brand/References/meaningful_staging_20261105_v01/P02_navigation_relief.png",
+      "sha256": "ae35401e863161d2e166342bc94a9e9d5b0704157d5891cda7a4653dcc348d88",
+      "role": "Tactile layered paper, physical shadows and scale, not geography or story content",
+      "inspected": true,
+      "source": "Project-generated imagegen reference; recorded acceptance/provenance in brand manifest and PAPER_PLANE.md"
+    }
+  ],
+  "source_rights": {
+    "type": "original_ai_illustration",
+    "reference_provenance": "Project-owned generated style references; use material qualities, not exact geography or story",
+    "external_media": "none",
+    "authenticity": "illustration, no claim of original footage"
+  },
+  "format": {
+    "aspect_ratio": "9:16",
+    "target_source_pixels": [
+      2160,
+      3840
+    ],
+    "report_actual_size": true
+  },
+  "timing": {
+    "status": "planned_from_actual_audio_duration; word alignment not yet listened/reviewed",
+    "target_shot_seconds": [
+      4,
+      6
+    ],
+    "narration_anchor_is_not_a_measured_time_range": true
+  },
+  "output_schema": {
+    "file": "absolute path to original PNG",
+    "sha256": "actual file hash",
+    "width": "actual pixels",
+    "height": "actual pixels",
+    "provider_evidence": "actual response or handle, no invented ID",
+    "review": "exact image inspection before acceptance"
+  }
+}

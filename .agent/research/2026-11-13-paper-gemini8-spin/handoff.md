@@ -1,3 +1,12 @@
+## Актуализация под runtime workflow
+
+Сверка с `main` `96c8fa1573c02e8e7987e272a569bf34f037691e`. Этот текстовый сюжетный PR был подготовлен до требований фактической регистрации `ytv start` и **не является готовым официальным run**. Авторская проверка кольца и `storyboard.json` не заменяют независимого `ytv-script-review-v1`, завершённой задачи `script` и `awaiting_script_approval`. При создании этого PR реальные TTS, аудио, кадры и MP4 не существовали.
+
+При выборе этого сюжета начать `uv run ytv start --channel paper_detour --format short --intent 'Проверить неутверждённый сюжет PR #23'`; получить `plan_summary`, `read_next` и pinned requirements, проверить исходные источники, провести новый независимый first-listener посредством действительного host `sessions.independent`. Для narrative Short reviewer должен прочитать полный EN текст дважды и проверить буквальный seam; хранить его оригинальный структурированный ответ/hash как evidence, не авторский пересказ. Достигнуть настоящего `awaiting_script_approval` и получить подлинное решение владельца. Точные source PNG, voice timing, imagegen и звук — только после разрешения. [Workflow](https://github.com/kleksar/ytvideos/blob/main/docs/workflow.md) · [task contract](https://github.com/kleksar/ytvideos/blob/main/docs/operations/task-contract.md).
+
+EN остаётся предлагаемым оригиналом для будущего TTS/SRT, RU — только редакторским переводом. Любая правка exact narration требует обновить RU и storyboard. Бумажные эталоны, кадры, рубеж звуковой/визуальной петли и actual image rights остаются UNVERIFIED. Не переносить approvals и pinned snapshots старых работ.
+
+---
 # Handoff to local Paper Detour producer — Gemini VIII
 
 **This is a text-only preproduction proposal.** It is not an official active episode, source-approved script, or permission to start video production.

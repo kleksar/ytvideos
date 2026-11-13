@@ -127,6 +127,7 @@ class ImageHostTests(unittest.TestCase):
         self.store.mutate(run_id, prepared)
         self.production.add_thumbnail_task(run_id, {
             "id": "cover", "prompt": "Synthetic cover", "visual_intent": "A specific promise",
+            "title": "Accepted synthetic packaging fixture",
             "reference_na_reason": "Synthetic fixture has no external visual references."})
         self.pools.operate(run_id, "enqueue")
         self.pools.operate(run_id, "tick")
