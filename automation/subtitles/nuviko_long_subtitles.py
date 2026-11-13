@@ -14,7 +14,7 @@ from PIL import Image, ImageDraw, ImageFont
 
 FONT = Path("/System/Library/Fonts/Supplemental/Georgia Bold.ttf")
 ROOT = Path(__file__).resolve().parents[2]
-SEGMENTER_PATH = ROOT / ".agents/skills/ytv-paper-subtitles/scripts/semantic_grouping.py"
+SEGMENTER_PATH = ROOT / "automation/helpers/paper-subtitles/scripts/semantic_grouping.py"
 _segmenter_spec = importlib.util.spec_from_file_location("ytv_semantic_grouping", SEGMENTER_PATH)
 if _segmenter_spec is None or _segmenter_spec.loader is None:
     raise RuntimeError(f"Cannot load shared subtitle segmenter: {SEGMENTER_PATH}")
