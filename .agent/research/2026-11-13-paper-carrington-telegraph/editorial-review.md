@@ -28,6 +28,14 @@ Why did two telegraph operators have to disconnect their batteries to send messa
 - **UNVERIFIED:** Independent first listener must receive only the opening first, then narration alone, then closing/opening seam, before seeing this review.
 - **UNVERIFIED:** Narration duration, continuity and readability after imagegen, audio and final MP4.
 
+## Русская редакторская версия
+
+- [`script.ru.txt`](script.ru.txt) — полный смысловой перевод английского narration для владельца проекта.
+- `storyboard.json` содержит парные `narration` (EN) и `narration_ru` (RU) на каждую из 14 сцен; соответствие абзацев проверено программно.
+- **PASS (авторская сверка):** сохранены 1859 год, Бостон и Портленд, оба отключённых источника питания, улучшение приёма именно во время бури, более двух часов, объяснение наведённого тока и возвращение батарей.
+- **UNVERIFIED:** независимая двуязычная редактура русского текста и самостоятельная оценка его драматургии. Русский текст не задаёт timing, TTS, SRT и не заменяет английский voice master.
+- Если исходный EN-текст меняется, синхронно обновить RU-копию и `narration_ru` по затронутым сценам. Несовпадение смысла — блокер содержательной приёмки, а не повод менять английский сюжет без обсуждения.
+
 ## Handoff reviewer tasks
 1. Identify the exact point at which expectation changes and the main question is answered, without being shown this beat map.
 2. Check whether the first quote reads clearly to a new viewer and whether the ending sounds like a real complete thought without automatic repeat.
