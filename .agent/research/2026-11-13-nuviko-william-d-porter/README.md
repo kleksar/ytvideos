@@ -1,15 +1,9 @@
-**Актуализация под main 96c8fa1573c0:** текущее состояние Nuviko History — `active`. Этот PR содержит старый текстовый кандидат, **не официальный `ytv start` run и не approved script**. Independent reviewer и `awaiting_script_approval` остаются необходимыми до производства. Ранние пометки `frozen` исторические.
+# Nuviko History — USS William D. Porter, spoken revision
 
-# Nuviko History — The Escort That Fired at Roosevelt (Draft Short)
+**[Русский сценарий](script.ru.txt)** · **[English narration](script.en.txt)**
 
-**Логлайн:** В 1943 году эсминец ВМС США по ошибке выпустил настоящую торпеду в сторону линкора, на котором находился президент Рузвельт. Пока корабли соблюдали радиомолчание, первые световые сигналы были ошибочными. `USS Iowa` успела отвернуть, и торпеда взорвалась позади неё.
+Эсминец, сопровождавший президента Рузвельта, выпустил боевую торпеду в сторону его линкора. Пока экипаж пытался исправить ошибку, радиомолчание и неверные световые сигналы задержали предупреждение.
 
-- [Полный сценарий — русский текст](script.ru.txt)
-- [Full English narration — voice master](script.en.txt)
-- [11 reviewed candidates, 3 finalist pitches and sources](research.md)
-- [Story interest / factual review](story-review.md)
-- [Provisional 12-shot storyboard](storyboard.json)
-- [Titles and thumbnail promise](packaging-brief.md)
-- [Local operator handoff](handoff.md)
+Current draft has twelve matched EN/RU narration blocks, a synchronized [provisional storyboard](storyboard.json), existing [source research](research.md) and a new [review](story-review.md). Exact previous package and longer original art briefs are preserved at commit `2599f4cc15c1d4f352a23e0d3d590ebfac52a6f1`.
 
-**Important:** this is a text-only Draft PR. Nuviko History remains frozen in main; no owner script acceptance, independent first-listener verdict, media generation or production authority.
+**EDITORIAL_CANDIDATE_UNREGISTERED.** No actual independent review, accepted script, generated media or official runtime run is claimed. Old 60s timing and prior exact-script checks are invalidated. Read [handoff](handoff.md) before any production. This revision does not add a modern host to the final shot; it reuses S001.
