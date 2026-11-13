@@ -37,3 +37,13 @@ Do not make a second author role-play as 'independent'.
 ## Decision before storyboard
 
 **AUTHORIAL PASS for a compact, engaging puzzle with distinct real tests; independent appeal and owner acceptance UNVERIFIED.** Proceed only to a *provisional textual* preproduction pack in a dedicated Draft PR, not to accepted production state. If the owner rejects this theme, reject the entire draft rather than celebrating correctness or the existence of a loop.
+
+## 2026-11-13 — exact dialog-style Shorts seam correction
+
+Earlier ellipsis at `whoever asked...` could sound like a fresh opening rather than a continuous question. This revision retains the documented cue-reading payoff and directly sets up the cold-open example.
+
+EN last→first: **The answer wasn't inside the horse's head. It was in the mind of the person asking a simple question: What's three plus five? In 1904 Berlin, a horse answered with eight sharp hoof taps.**
+
+RU последний→первый: **Ответ был не в голове лошади. Он был в голове человека, который задавал простой вопрос: Сколько будет три плюс пять? В Берлине 1904 года лошадь ответила восемью чёткими ударами копыта.**
+
+Authorial text-only link: PASS for grammatical continuity and distinct full payoff before replay. Independent twice-through review, speaking intonation, caption/music/visual seam in final MP4: **UNVERIFIED**. The scene list remains a provisional concept rather than a runtime-completed `storyboard`.
