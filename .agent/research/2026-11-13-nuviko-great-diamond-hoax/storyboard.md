@@ -2,9 +2,9 @@
 
 **Status:** `EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официальному ytv script gate`. Reconstruct visual meaning, not authenticated contemporaneous scenes. No image generation, verified reference PNG inspection, voice, subtitles, render, approval or measured timings.
 
-**Channel:** Nuviko History illustrated recipe, 9:16. For this candidate all provisional frames use a photorealistic historical world **without the drawn traveler**, avoiding unverified character appearance/reference bytes. If later using the traveler, local producer must open/hash BOTH accepted PNGs from `channels/nuviko_history/brand/References/` and follow `brand/VISUAL_PROFILE.md`. Do not confuse with Nuviko Videos. S001/S016 share a leather pouch and rough gem shape. No fake archival source image status. Historically specific geography/clothing/period light; no invented character quotes.
+**Channel:** Nuviko History illustrated recipe, 9:16. For this candidate all provisional frames use a photorealistic historical world **without the drawn traveler**, avoiding unverified character appearance/reference bytes. If later using the traveler, local producer must open/hash BOTH accepted PNGs from `channels/nuviko_history/brand/References/` and follow `brand/VISUAL_PROFILE.md`. Do not confuse with Nuviko Videos. S016 must reuse the exact accepted S001 source-image bytes (same SHA-256), not just a similar pouch or rough gem shape. No fake archival source image status. Historically specific geography/clothing/period light; no invented character quotes.
 
-**Frame planning:** 16 provisional separate AI still compositions; **4–6 s each is a layout reference, never TTS timing**. Final duration and shot count must be adapted to approved English narration/word alignment (do not stretch to fit the grid). Whole-frame pan/zoom, direct cuts, no masks/parallax/overlay infographics. Captions and SRT only at later authorized production stages.
+**Frame planning:** 16 provisional compositions, **15 unique still-image sources plus S016's deliberate exact reuse of S001**; **4–6 s each is a layout reference, never TTS timing**. Final duration and shot count must be adapted to approved English narration/word alignment (do not stretch to fit the grid). Whole-frame pan/zoom, direct cuts, no masks/parallax/overlay infographics. Captions and SRT only at later authorized production stages.
 
 ### S001 — leather bag and real rough gemstones
 
@@ -192,11 +192,11 @@
 
 **Narration RU (exact):** А самое первое «доказательство» им даже не пришлось подделывать.
 
-**Frame purpose:** back to the credible first evidence; stage the action as a plausible period reconstruction, not a verified contemporary photograph.
+**Frame purpose:** return to the exact first evidence and original S001 image, without implying another historical visit.
 
-**Self-contained AI prompt:** Photoreal close still of an old plain dark-brown leather pouch spilling a few authentic rough uncut diamonds onto a nineteenth-century San Francisco merchant's wooden desk, with warm muted oil-lamp and window light; same pouch and gemstone look as S001, 9:16 full frame, no overlaid words.
+**Source image reuse — NOT GENERATED:** Reuse the exact accepted S001 source image bytes (same SHA-256) of the two prospectors, open leather pouch and rough diamonds in the San Francisco office; DO NOT generate a separate pouch close-up or a new camera viewpoint. The final frame returns to the already-established real-gem evidence, not a second historical visit.
 
-**Continuity / edit:** Provisional single 4–6-second composition, whole-frame pan/zoom only, direct cut. Exact duration, crop, and subtitle timing require approved English voice; no actual render or timing exists. Match pouch/lighting/props to S001 before any loop AV acceptance.
+**Continuity / edit:** Provisional 4–6-second reuse of S001, not a new unique composition. Match S016's final whole-frame crop, scale and position to S001's first frame; cut directly without transition. Verify the actual accepted source-image SHA-256, then check voice, subtitles, music and picture together on the rendered MP4. Exact duration, media bytes and AV seam remain UNVERIFIED.
 
 
 **Dependency warning:** The S001–S016 EN/RU spans above were constructed from `editorial-en-v1` / `editorial-ru-v1`. Any script edit invalidates this full mapping and requires re-segmentation and re-review, not a change to timings alone. Actual source visual reference bytes not inspected.
