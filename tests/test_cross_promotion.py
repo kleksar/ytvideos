@@ -1,5 +1,4 @@
 """Cross-promotion never treats suggestions or stale provider data as a write."""
-from copy import deepcopy
 from datetime import datetime, timedelta, timezone
 import unittest
 
