@@ -71,7 +71,7 @@ def run(session, channel_id, playlist_id, video_id, *, expected_privacy='private
     return {'video_id': video_id, 'channel_id': channel_id, 'privacy': expected_privacy,
             'playlist_id': playlist_id, 'playlist_title': matching[0]['snippet']['title'],
             'playlist_privacy': matching[0].get('status', {}).get('privacyStatus'),
-            'playlist_item_id': items[0]['id']
+            'playlist_item_id': items[0]['id']}
 
 
 def main():
