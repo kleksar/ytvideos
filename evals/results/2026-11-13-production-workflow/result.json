@@ -1,0 +1,88 @@
+{
+  "date": "2026-11-13",
+  "model": "gpt-6-luna",
+  "fork_turns": "none",
+  "fixture_only": true,
+  "scope": "Cold editorial entry, source preservation, independent script review and an explicit Stop lifecycle simulation; no live media or publication.",
+  "cases": [
+    {
+      "case": "luna-provided",
+      "result": "fail_false_capability_blocker",
+      "source_manifest_sha256": "8650616fec9fa0f20e7820b609783e7c32e52378e7968ea1066767dfc3f29cf8",
+      "run_states": [
+        {
+          "id": "5e2a9027-25d9-4320-b966-478aa1dc1ef5",
+          "status": "working"
+        }
+      ]
+    },
+    {
+      "case": "luna-history-entry",
+      "result": "fail_bypassed_runtime",
+      "source_manifest_sha256": "d10705e7e70430bb525aaf67975ffbaedfd1b032f6371f05549201e51a8c0a5e",
+      "run_states": []
+    },
+    {
+      "case": "luna-history-start",
+      "result": "fail_false_reviewer_absence",
+      "source_manifest_sha256": "7744dcd2f715daaab7925b594d4d2707b838af8809fb83dfecb1d8bfe542b073",
+      "run_states": [
+        {
+          "id": "1e1eef89-54ae-4bfa-9dcd-84b0cb74a6c1",
+          "status": "working"
+        }
+      ]
+    },
+    {
+      "case": "luna-history-verbatim",
+      "result": "fail_abandoned_unfinished_run",
+      "source_manifest_sha256": "49c4a52f5137771474bcb6c10fc9c1f6d1781b5eb22ab28eddf51c42a24e00b4",
+      "run_states": [
+        {
+          "id": "ccd630bd-71fa-43c1-b4eb-9f5128e368f3",
+          "status": "working"
+        }
+      ]
+    },
+    {
+      "case": "luna-history-review",
+      "result": "fail_editorial_false_accept",
+      "source_manifest_sha256": "a13d1acad78abf95a9dbf3b2d810c787eda4418343372856278d35ca514e7211",
+      "run_states": [
+        {
+          "id": "8a83ec7f-a951-4552-87d1-66576a9141d4",
+          "status": "awaiting_script_approval"
+        }
+      ]
+    },
+    {
+      "case": "luna-history-guarded",
+      "result": "fail_editorial_completion_guard_observed",
+      "source_manifest_sha256": "1b4cc39abced2dd7c70fd8c5952a750be3042f82ae4bc5d87352a5b91992869f",
+      "run_states": [
+        {
+          "id": "129a3589-839e-45d1-bdcc-aa9cad19d413",
+          "status": "working"
+        }
+      ]
+    }
+  ],
+  "not_claimed": [
+    "Five live videos or production providers were tested",
+    "All future outputs are correct",
+    "Tokens, costs or reliability rates improved",
+    "Reaching script approval proves a good narrative loop",
+    "A complete creative task succeeded",
+    "The simulated Stop events prove live host hook trust or routing",
+    "The final repository commit was the source of every attempt"
+  ],
+  "targeted_probes": [
+    {
+      "case": "reviewer-packet-probe",
+      "result": "pass_response_contract_with_negative_editorial_verdict",
+      "response_sha256": "37b7c0b8236da6a5a69cc921836d0ecdc9af680eb738b30564822a9abbcb074e",
+      "decision": "revise",
+      "script_accepted": false
+    }
+  ]
+}

@@ -128,7 +128,9 @@ def main():
             digest.update(chunk)
     result = {'source': str(args.mix.resolve()), 'sha256': digest.hexdigest(), 'fps': args.fps,
               'source_start_seconds': args.start, 'duration_seconds': len(samples) / RATE,
+              'frames': round(len(samples) * args.fps / RATE),
               'status': 'signal_candidates', **cut_candidates(samples, args.fps)}
+    result['candidates'] = [candidate for candidate in result['candidates'] if 0 <= candidate['frame'] < result['frames']]
     if args.cut_map:
         cut_map = json.loads(args.cut_map.read_text(encoding='utf-8'))
         cuts = cut_map.get('cut_frames')

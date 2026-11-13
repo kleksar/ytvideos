@@ -1,3 +1,12 @@
+## Актуальный workflow — remote main
+
+Сверено с `main` `96c8fa1573c02e8e7987e272a569bf34f037691e`. Этот старый текстовый сюжетный PR не является сохранённым `ytv start` run. Существующий `storyboard.json` — предварительная задумка, не выполненный stage; авторская оценка и текстовое кольцо сами по себе не дают `awaiting_script_approval`.
+
+При отборе этого кандидата локально начать с `uv run ytv start --channel paper_detour --format short --intent 'Проверить неутверждённый сюжет PR #21'`, читать `plan_summary`/`read_next` и task context. Зарегистрировать фактические research/script outputs, провести независимый просмотр точного EN целиком дважды (с отдельной проверкой кольца), получить оригинальный `ytv-script-review-v1` с session evidence и script SHA-256, пройти `awaiting_script_approval`; подлинное решение владельца требуется до TTS/изображений/MP4. См. [workflow](https://github.com/kleksar/ytvideos/blob/main/docs/workflow.md) и [contract](https://github.com/kleksar/ytvideos/blob/main/docs/operations/task-contract.md).
+
+RU текст остаётся редакторским переводом, не source для английской озвучки. Никаких fake approvals, reviewer sessions, actual TTS durations или AV-loop PASS; ранние camera/scene briefs служат только отбору и планированию.
+
+---
 # Local agent handoff — Paper Detour / Clever Hans (1904)
 
 **Status:** one new candidate story packet in a Draft PR, not an approved script or a registered `ytvideos` production run. **Main base observed 2026-11-13:** `50bb35ecd4ad2e832be5451fd2fa909794f047ed`. Update this after creating PR if fresh main differs. All media/TTS/release operations forbidden in this assignment.

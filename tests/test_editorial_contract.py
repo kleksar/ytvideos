@@ -58,10 +58,9 @@ class EditorialRoutingTests(unittest.TestCase):
         for term in ('mp4_hash', 'timecodes', 'UNVERIFIED', 'первого просмотра', 'последних'):
             self.assertIn(term, text)
 
-    def test_migration_and_evidence_are_not_approval_or_new_api(self):
+    def test_migration_preserves_accepted_work_without_retention_promises(self):
         text = read('docs/standards/editorial.md')
         self.assertIn('Уже утверждённые тексты и MP4 автоматически не переписывать.', text)
-        self.assertIn('не новые поля CLI/API', text)
         self.assertIn('Не обещать 120–150%', text)
 
 

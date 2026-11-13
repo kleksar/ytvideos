@@ -13,4 +13,4 @@
 
 ## Current production source
 - Source/edit assets for v06 were retired after publication; only the documented active v03 sibling dependencies remain. The film is recoverable from YouTube, but the previous local MP4 and generated images were permanently removed.
-- Nuviko History remains frozen by default. This episode is the user-authorized exception.
+- Nuviko History is active. This record documents the approvals and lifecycle for this specific episode.

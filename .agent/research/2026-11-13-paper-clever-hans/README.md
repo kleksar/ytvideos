@@ -1,3 +1,5 @@
+**Совместимость с main 96c8fa1573c0:** старый текстовый Draft PR, не `ytv start` run. До производства необходимо выполнить независимый `sessions.independent` review, подтверждённый `awaiting_script_approval`, получить owner approval; предварительная раскадровка не готовый stage. [Handoff](handoff.md).
+
 # Paper Detour — Clever Hans: The Horse Who Read the Questioner
 
 **[Читать весь русский сценарий](script.ru.txt)** · **[Full original English narration](script.en.txt)**

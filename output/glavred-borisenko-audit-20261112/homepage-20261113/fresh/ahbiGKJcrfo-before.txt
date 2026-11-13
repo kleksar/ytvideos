@@ -1,0 +1,313 @@
+Browser tab: 418769345, Title: "Сведения о видео - YouTube Studio", URL: "https://studio.youtube.com/video/ahbiGKJcrfo/edit".
+0 AXWebArea Сведения о видео - YouTube Studio, URL: studio.youtube.com/video/ahbiGKJcrfo/edit
+	1 container html-body
+		2 container
+			3 text Сведения о видео
+			4 container main-container
+				5 container
+					6 button Развернуть меню
+					7 link Description: Панель управления в новой Творческой студии, Value: studio.youtube.com/channel/UCjOlDLVEHU4uLhDtonq-y5w, ID: home-button
+					8 button Пропустить навигацию
+						9 text Пропустить навигацию
+					10 container
+						11 pop up button (collapsed) ID: radix-:rs:, Secondary Actions: Expand
+							12 image
+						13 pop up button (collapsed) Description: Your feed, ID: radix-:ru:, Secondary Actions: Expand
+							14 image
+					15 button Поиск
+					16 button (collapsed) Description: Use vidIQ in ChatGPT and Claude, Help: Today’s suggestion from vidIQ, Secondary Actions: Expand
+					17 button Справка
+					18 button Уведомления
+					19 button Спросить у Студии
+						20 text Спросить у Студии
+					21 button Создать
+						22 text Создать
+					23 pop up button Главред Борисенко Менеджер
+						24 text Главред Борисенко
+						25 text Менеджер
+				26 container
+					27 container left-nav
+						28 link Description: Контент на канале, Value: studio.youtube.com/channel/UCjOlDLVEHU4uLhDtonq-y5w/videos, ID: back-button
+						29 container
+							30 image Description: Значок видео "Я очень сильно ошибся", ID: img-with-fallback
+							31 text 2:43
+							32 container entity-label-container
+								33 text Видео
+								34 text Я очень сильно ошибся
+						35 menu main-menu
+							483 text • 
+							37 Сведения, ID: menu-item-0
+								38 container menu-paper-icon-item-0
+									39 text Сведения
+							484 text • 
+							41 Инсайты, ID: menu-item-1
+								42 container menu-paper-icon-item-1
+									43 text Инсайты
+							485 text • 
+							45 Редактор, ID: menu-item-2
+								46 container menu-paper-icon-item-2
+									47 text Редактор
+							486 text • 
+							49 Комментарии, ID: menu-item-3
+								50 container menu-paper-icon-item-3
+									51 text Комментарии
+							487 text • 
+							53 Языки, ID: menu-item-4
+								54 container menu-paper-icon-item-4
+									55 text Языки
+							488 text • 
+							57 Монетизация, ID: menu-item-5
+								58 container menu-paper-icon-item-5
+									59 text Монетизация
+							489 text • 
+							61 Заявки, ID: menu-item-6
+								62 container menu-paper-icon-item-6
+									63 text Заявки
+							490 text • 
+							65 Клипы и Shorts, ID: menu-item-7
+								66 container menu-paper-icon-item-7
+									67 text Клипы и Shorts
+							491 text • 
+							69 link Description: vidIQ badge Daily Ideas, Value: studio.youtube.com/video/ahbiGKJcrfo/edit#
+							492 text • 
+							71 link Description: vidIQ badge Keyword Inspector, Value: studio.youtube.com/video/ahbiGKJcrfo/edit#
+							493 text • 
+							73 link Description: vidIQ badge Competitors, Value: studio.youtube.com/video/ahbiGKJcrfo/edit#
+							494 text • 
+							75 link Description: vidIQ badge Most Viewed, Value: studio.youtube.com/video/ahbiGKJcrfo/edit#
+							495 text • 
+							77 link Description: vidIQ badge Channel Audit, Value: studio.youtube.com/video/ahbiGKJcrfo/edit#
+							496 text • 
+							79 link Description: vidIQ badge Achievements, Value: studio.youtube.com/video/ahbiGKJcrfo/edit#
+							497 text • 
+							81 link Description: vidIQ badge Thumbnail Preview, Value: studio.youtube.com/video/ahbiGKJcrfo/edit#
+						82 content list
+							83 button Настройки, ID: settings-item
+								84 text Настройки
+							85 button Отправить отзыв, ID: send-feedback-item
+								86 text Отправить отзыв
+					87 container main
+						88 container edit
+							89 container
+								90 heading Сведения о видео, Value: 1
+									91 text Сведения о видео
+								92 button (disabled) Отменить изменения
+									93 text Отменить изменения
+								94 button (disabled) Сохранить
+									95 text Сохранить
+								96 container video-overflow-menu
+									97 button Description: Действия, ID: overflow-menu-button
+									98 container Description: Video sync state dialog, ID: dialog
+							99 container video-metadata-editor
+								100 container
+									101 container basics
+										102 container title-textarea
+											103 container container
+												104 container outer
+													105 container label
+														106 text Название (обязательное поле)
+														107 container ID: help-icon, Description: Яркие названия помогают привлечь внимание зрителей. Отличная идея – добавить в название ролика ключевые слова, по которым зрители ищут подобный контент. Подробнее 
+													108 container container-content
+														109 text entry area (settable) Value: Я очень сильно ошибся, ID: textbox, Description: Укажите название. Если вы хотите упомянуть другого автора, введите символ "@", а затем название канала.
+															110 text Я очень сильно ошибся
+											111 text 79
+										112 container
+											113 image
+											114 text Suggestions
+											115 button Loading...
+												116 image Loading...
+										117 container description-textarea
+											118 container container
+												119 container outer
+													120 container label
+														121 text Описание
+														122 container ID: help-icon, Description: Если вы хотите, чтобы ролик было проще найти, добавьте в его описание ключевые слова (желательно в начало) и напишите, чему посвящено видео. Подробнее 
+													123 container container-content
+														124 text entry area (settable) Value: А.В, Караулов - признан иноагентом по решению Минюста РФ, ID: textbox, Description: Расскажите, о чем ваше видео. Если вы хотите упомянуть другого автора, введите символ "@", а затем название канала.
+															125 text А.В, Караулов - признан иноагентом по решению Минюста РФ
+											126 text 50
+										127 container
+											128 image
+											129 text Suggestions
+											130 button (disabled) Add All
+											131 button (disabled) Settings
+												132 image
+											133 button Loading...
+												134 image Loading...
+										136 container
+											137 text Значок
+											138 text Выберите значок, который будет привлекать внимание зрителей. 
+											139 link Description: Подробнее…, Value: support.google.com/youtube/answer/72431?hl=ru
+											140 container custom-still-editor-wrapper
+												141 button Description: Загрузить файл, ID: select-button
+													142 text Загрузить файл
+											143 button Автоматически созданный значок 2 Выбрать из видео, ID: select-button
+												144 image Description: Автоматически созданный значок 2, ID: img-with-fallback
+												145 text Выбрать из видео
+											146 button Посмотреть идеи
+												147 text Посмотреть идеи
+											148 image
+											149 text Suggestions
+											150 button
+												151 image
+											152 button Quick Generate 22 Create stunning thumbnails with 1 click 22
+												153 container
+													154 image
+													155 text Quick Generate
+													156 image
+													157 text 22
+													158 text Create stunning thumbnails with 1 click
+													159 image
+													160 text 22
+											161 button New Concept Full creative control over your design
+												162 container
+													163 image
+													164 text New Concept Full creative control over your design
+											165 button Start from Frame Pick any frame from your video
+												166 container
+													167 image
+													168 text Start from Frame Pick any frame from your video
+											169 button
+											170 button
+											171 button
+											172 container
+												173 image
+												174 text Unlock more thumbnail suggestions
+												175 container
+													176 text Resets in 23d  10 h  51 m 36 s
+												177 button Upgrade Now
+										178 text Плейлисты
+										179 container
+											180 text Добавьте видео хотя бы в один плейлист, чтобы зрителям было удобнее ориентироваться на вашем канале. 
+											181 link Description: Подробнее…, Value: support.google.com/youtube/answer/57792
+										182 container Добавить в плейлист
+											183 button Выбрать плейлисты
+												184 button Шортс
+													185 text Шортс
+										186 container audience
+											187 text Аудитория
+											188 container
+												189 text Это видео отмечено как не предназначенное для детей 
+												190 text (установлено вами)
+											191 container
+												192 text Указывать эту информацию требуется в целях соблюдения закона США "О защите личных сведений детей в интернете" (COPPA) и/или других законодательных актов. Требование распространяется на всех авторов независимо от страны проживания. 
+												193 link Description: Как определить, предназначен ли контент для детей?, Value: support.google.com/youtube/answer/9528076?hl=ru
+											194 container
+												195 link Description: Подробнее о целевой аудитории видео…, Value: support.google.com/youtube/answer/9527654?hl=ru
+											196 radio button Value: 0, Да, это видео для детей . В контенте для детей недоступны некоторые функции, например уведомления и персонализированная реклама. Если видео предназначено для детей, лучше, чтобы автор сам указал целевую аудиторию. Тогда оно с большей вероятностью будет рекомендовано зрителям, которые смотрят подобный контент. Подробнее…
+												197 container radioLabel
+													198 text Да, это видео для детей .
+													199 container
+														200 text В контенте для детей недоступны некоторые функции, например уведомления и персонализированная реклама. Если видео предназначено для детей, лучше, чтобы автор сам указал целевую аудиторию. Тогда оно с большей вероятностью будет рекомендовано зрителям, которые смотрят подобный контент. 
+														201 link Description: Подробнее…, Value: support.google.com/youtube/answer/9527654?hl=ru
+											202 radio button Нет, это видео не для детей, Value: 1
+												203 text Нет, это видео не для детей
+											204 button Возрастные ограничения
+												205 heading Возрастные ограничения, Value: 3, ID: age-restriction-label
+													206 text Возрастные ограничения
+									207 container Description: Скрыть дополнительные настройки, ID: toggle-button
+										208 button Скрыть дополнительные настройки
+											209 text Свернуть
+									210 container paid-promotion
+										211 text Прямая реклама
+										212 container
+											213 text Если в видео есть прямая реклама, продакт-плейсмент или спонсорский контент, вы должны сообщить нам об этом. В таком случае мы добавим специальное примечание для зрителей.
+											214 link Description: Подробнее…, Value: support.google.com/youtube/answer/17596007?hl=ru
+										215 radio button Да, в видео есть прямая реклама, Value: 0
+											216 text Да, в видео есть прямая реклама
+										217 radio button Нет, в видео нет прямой рекламы, Value: 0
+											218 text Нет, в видео нет прямой рекламы
+									219 container brand-links-section
+										220 text Сотрудничество с брендами
+										221 container
+											222 text Откройте брендам-партнерам доступ к видео и его статистике и разрешите им продвигать ролик. 
+											223 link Description: Подробнее…, Value: support.google.com/google-ads/answer/3063482?hl=ru
+										224 button Поделиться кодом доступа
+											225 text Поделиться кодом доступа
+										226 button Поиск бренда
+											227 text Поиск бренда
+									228 container altered-content
+										229 text Использование ИИ
+										230 text Использовался ли ИИ для создания или редактирования вашего контента каким-либо из следующих способов?
+										231 content list
+											232 container
+												233 AXListMarker • 
+												234 text Реальный человек говорит или делает что-то, чего он на самом деле не говорил и не делал.
+											235 container
+												236 AXListMarker • 
+												237 text Содержит измененные изображения реального места или события.
+											238 container
+												239 AXListMarker • 
+												240 text Реалистично изображает событие, которого на самом деле не было.
+											241 container
+												242 AXListMarker • 
+												243 text Содержит сгенерированную ИИ музыку, которая служит основным фокусом внимания в этом видео.
+										244 radio button Description: Да, ИИ использовался, Value: 0
+											245 text Да
+										246 radio button Description: Нет, ИИ не использовался, Value: 0
+											247 text Нет
+										248 container
+											249 text Согласно правилам YouTube, вы должны сообщать нам об использовании ИИ (в том числе если в видео есть реалистичные звуки или изображения, созданные или измененные с помощью ИИ). 
+											250 link Description: Посмотреть примеры, Value: support.google.com/youtube/answer/14328491?hl=ru#examples_as
+										251 container
+											252 text Если вы выберете "Да", то ваш контент будет отмечен специальным ярлыком. 
+											253 link Description: Подробнее…, Value: support.google.com/youtube/answer/14328491?hl=ru#after_disclose_ai
+									254 container collaboration-container
+										255 text Коллаборация
+										256 container
+											257 text Расширяйте аудиторию, создавая видео вместе с другими авторами. Такие ролики предлагаются зрителям всех соавторов. 
+											258 link Description: Подробнее о коллаборациях, Value: support.google.com/youtube?p=collaborators&hl=ru
+										259 button Пригласить соавтора
+											260 text Пригласить соавтора
+									261 text Автоматическая разбивка на эпизоды Эпизоды помогают зрителям быстрее находить в видео нужную информацию. Автоматическую разбивку можно скорректировать вручную, изменив временные метки в описании видео. 
+									262 link Description: Подробнее об автоматической разбивке на эпизоды…, Value: support.google.com/youtube/answer/9884579?hl=ru
+									263 container root-container
+										264 checkbox Description: Разрешить автоматическую разбивку на эпизоды, Value: 1, ID: checkbox
+										265 text Разрешить автоматическую разбивку на эпизоды
+									266 text Упомянутые или показанные места Помогите зрителям найти места, о которых идет речь в видео, например рестораны или магазины. Мы не раскроем ваше местоположение или другие конфиденциальные данные. 
+									267 link Description: Подробнее об автоматически отмеченных местах…, Value: support.google.com/youtube/answer/57404?hl=ru
+									268 container root-container
+										269 checkbox Description: Добавлять информацию о показанных и упомянутых местах, Value: 1, ID: checkbox
+										270 text Добавлять информацию о показанных и упомянутых местах
+									271 text Автоматическое объяснение понятий 
+									272 text Эксперимент
+									273 text Зрителям не придется отвлекаться от просмотра видео на поиск информации. Сведения об основных понятиях, которые вы упоминаете в видео, могут быть автоматически добавлены в описание.
+									274 container root-container
+										275 checkbox Description: Показывать объяснение основных понятий, Value: 1, ID: checkbox
+										276 text Показывать объяснение основных понятий
+									277 text Теги
+									278 container tags-description
+										279 text Рекомендуем добавлять теги, если при поиске видео зрители зачастую допускают ошибки. В остальных случаях делать это необязательно. 
+										280 link Description: Подробнее о тегах…, Value: support.google.com/youtube/answer/146402?hl=ru
+									281 container tags-container
+										282 text field (settable) Description: Теги, ID: text-input
+										283 container description
+											284 text В качестве разделителя используйте запятую.
+											285 text 0/500
+										286 image
+										287 text Suggestions
+										288 button (disabled) Add All
+										289 button
+											290 image
+										291 button Loading...
+											292 image Loading...
+										293 container
+											294 text 72 shorts
+											295 button
+												296 image
+									297 container language-subtitles-cc
+										298 text Язык и причина отсутствия субтитров
+										299 text Выберите язык, который звучит в ролике. Если в вашем ролике не требуются субтитры, укажите причину.
+										300 button Язык видео Основной язык видео. Если вы измените язык, аудиодорожки с дубляжом могут быть созданы заново. Русский
+											301 button Язык видео Основной язык видео. Если вы измените язык, аудиодорожки с дубляжом могут быть созданы заново. Русский
+												302 text Язык видео
+												303 container Description: Основной язык видео. Если вы измените язык, аудиодорожки с дубляжом могут быть созданы заново., ID: help-icon
+												304 text Русский
+										305 button Причина отсутствия субтитров В соответствии с требованием Федеральной комиссии США по связи для контента, который транслировался в эфире телеканалов США после 29 сентября 2012 года, могут требоваться субтитры. Если в вашем ролике не требуются субтитры, укажите причину. Подробнее Вариант не выбран
+											306 button Причина отсутствия субтитров В соответствии с требованием Федеральной комиссии США по связи для контента, который транслировался в эфире телеканалов США после 29 сентября 2012 года, могут требоваться субтитры. Если в вашем ролике не требуются субтитры, укажите причину. Подробнее Вариант не выбран
+												307 text Причина отсутствия субтитров
+												308 container ID: help-icon, Description: В соответствии с требованием Федеральной комиссии США по связи для контента, который транслировался в эфире телеканалов США после 29 сентября 2012 года, могут требоваться субтитры. Если в вашем ролике не требуются субтитры, укажите причину. Подробнее 
+												309 text Вариант не выбран
+										310 button Язык названия и описания Выбрать
+											311 button Язык названия и описания Выбрать
+												312 text Язык названия и 

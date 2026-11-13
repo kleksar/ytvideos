@@ -5,7 +5,7 @@ description: "Review the exact ytvideos MP4, cold opening, payoff and Shorts loo
 
 # Проверить и представить MP4
 
-Прочитать context `review`, выбранные документы, профиль/рецепт и уже выполненные checks. Проверять exact MP4/hash с его входами; критерии — [delivery](../../../docs/standards/delivery.md) и [editorial](../../../docs/standards/editorial.md).
+Прочитать context `review`: `task_guide`, `production_requirements`, выбранные документы, профиль/рецепт и уже выполненные checks. Открыть точный MP4 из `inputs` и принятые script/audio/storyboard из `supporting_inputs`. Проверять hash и фактическое содержание; критерии — [delivery](../../../docs/standards/delivery.md) и [editorial](../../../docs/standards/editorial.md).
 
 1. Проверить decode/streams/каденцию/геометрию/цвет/аудио, каждую сцену, склейки, движение, титры и применимый end screen.
 2. Для любого формата проверить, что монтаж сохранил развитие, кульминацию и развязку принятого текста по [editorial](../../../docs/standards/editorial.md#драматургия-для-всех-каналов); не исправлять сюжет самовольно. Для Short проверить холодное начало, отдачу до повтора и воспроизвести последние → первые секунды по [delivery](../../../docs/standards/delivery.md#петля-shorts-проверка-точного-mp4). Зафиксировать timecodes/hash, смысл, речь, музыку и subtitle seam. Раздельно отметить измерения, просмотр кадров, прослушивание и player playback: contact sheet/word map не доказывают AV sync всего ролика.
