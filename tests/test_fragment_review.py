@@ -108,6 +108,34 @@ class FragmentReviewTests(unittest.TestCase):
 
 @unittest.skipUnless(shutil.which("ffmpeg") and shutil.which("ffprobe"), "requires local FFmpeg")
 class SourceFrameAnchorTests(unittest.TestCase):
+    def test_reordered_one_and_two_fps_sources_match_full_decode(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            for fps in (1, 2):
+                source = Path(temporary) / f"reordered-{fps}.mp4"
+                subprocess.run(["ffmpeg", "-nostdin", "-v", "error", "-f", "lavfi", "-i",
+                    f"testsrc2=s=90x160:r={fps}:d=10", "-c:v", "libx264", "-bf", "3", str(source)],
+                    check=True, capture_output=True, timeout=30)
+                frames = json.loads(subprocess.check_output(["ffprobe", "-v", "error", "-select_streams", "v:0",
+                    "-show_frames", "-show_entries", "frame=best_effort_timestamp_time", "-of", "json", str(source)],
+                    text=True, timeout=30))["frames"]
+                for start, end in ((0, 1), (1, 2), (5, 6)):
+                    points = [float(frame["best_effort_timestamp_time"]) for frame in frames
+                              if start <= float(frame["best_effort_timestamp_time"]) < end]
+                    expected = [points[0], min(points, key=lambda time: (abs(time - (start + end) / 2), time)), points[-1]]
+                    with self.subTest(fps=fps, start=start):
+                        self.assertEqual(source_frame_anchors(source, start, end), expected)
+
+    def test_missing_video_duration_cannot_use_a_longer_audio_tail_as_video_extent(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            source = Path(temporary) / "short-video-long-audio.mkv"
+            subprocess.run(["ffmpeg", "-nostdin", "-v", "error", "-f", "lavfi", "-i",
+                "color=s=90x160:r=30:d=0.5", "-f", "lavfi", "-i", "sine=sample_rate=48000:duration=2",
+                "-c:v", "libx264", "-c:a", "pcm_s16le", str(source)],
+                check=True, capture_output=True, timeout=30)
+            with self.assertRaisesRegex(WorkflowError, "actual video stream"):
+                source_frame_anchors(source, 0, 1.5)
+            self.assertEqual(source_frame_anchors(source, 0, .5), [0, .233, .467])
+
     def test_actual_source_pts_cover_low_fps_vfr_non_frame_aligned_in_and_offset(self):
         with tempfile.TemporaryDirectory() as temporary:
             directory = Path(temporary)

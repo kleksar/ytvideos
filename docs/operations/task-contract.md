@@ -270,6 +270,8 @@ Core проверяет actual derivative bytes/geometry, карточку с ex
 - `checked_transition_frames` — уникальный возрастающий список из `visible_start_frame`, `start_frame`, `end_frame-1`, `visible_end_frame-1`: оба конца и полная видимость переходов. Эти опоры сопровождают просмотр переходов в движении.
 - `checks` с пятью объектами `source_motion`, `crop`, `internal_cuts`, `final_motion`, `transitions`; каждый содержит `status: PASS | FAIL | UNVERIFIED` и конкретные непустые `notes`.
 
+Probe учитывает задержку B-frames в исходных кадрах, включая низкий FPS. При отсутствии `stream.duration` конец контейнера не подтверждает конец видеопотока: покрытие границы проверяется по PTS и длительности декодированных видеокадров, чтобы длинный аудиохвост не расширял исходный видеоинтервал.
+
 `complete review` требует все пять `PASS` у каждого фрагмента, совпадение source hash/interval с принятым storyboard, clip hash, crop, полной видимости и MP4 hash. Пропущенный фрагмент, неполное source coverage, `FAIL`, `UNVERIFIED` или данные предыдущего crop/монтажа отвергаются даже при общем `visual_review.status: pass`. Исходники из отчёта сохраняются и сверяются по hash. Автоматический detector, контакт-лист или decode сами не создают эти наблюдения; критерии реального просмотра остаются в [EDIT_NOTES](../../channels/scenes_on_repeat/docs/EDIT_NOTES.md#проверка-каждого-фрагмента-персонажного-эдита).
 
 `--technical-probe` предназначен для изолированных инструментальных fixtures. Его output нельзя завершить или выпустить как production MP4.

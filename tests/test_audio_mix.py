@@ -77,7 +77,7 @@ class SourceAudioTests(unittest.TestCase):
         original_run = subprocess.run
         def no_source_duration(command, **kwargs):
             result = original_run(command, **kwargs)
-            if command[0] == "ffprobe" and command[-1] == str(self.source):
+            if command[0] == "ffprobe" and Path(command[-1]).resolve() == self.source.resolve():
                 value = json.loads(result.stdout)
                 value["streams"][0].pop("duration", None)
                 result.stdout = json.dumps(value)
