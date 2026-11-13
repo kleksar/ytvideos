@@ -9,6 +9,12 @@ import sys
 from urllib.parse import unquote, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
+# This offline gate runs before dependency installation. The shared documentation
+# checks and stage routing use only the standard library.
+sys.path.insert(0, str(ROOT / "src"))
+from ytvideos.context import STAGE_REFERENCES  # noqa: E402
+from ytvideos.documentation import current_reference_error, prose_lines  # noqa: E402
+
 CATALOG = Path(".agent/skill-catalog.json")
 CATALOG_VIEW = Path(".agent/skill-catalog.md")
 ENTRIES = ("AGENTS.md", "README.md", "COLLABORATION.md", "ONBOARDING.md",
@@ -19,22 +25,6 @@ LINK = re.compile(
 )
 DEFINITION = re.compile(r"^\s{0,3}\[([^\]]+)\]:\s*(?:<([^>]+)>|(\S+))")
 REFERENCE = re.compile(r"!?\[([^\]\n]+)\]\[([^\]\n]*)\]")
-
-
-def prose_lines(text):
-    """Retain source line numbers while excluding fenced Markdown examples."""
-    fence = None
-    for number, line in enumerate(text.splitlines(), 1):
-        marker = re.match(r"^\s{0,3}(`{3,}|~{3,})(.*)$", line)
-        if marker:
-            run, rest = marker.groups()
-            if fence is None:
-                fence = run
-            elif run[0] == fence[0] and len(run) >= len(fence) and not rest.strip():
-                fence = None
-            yield number, ""
-        else:
-            yield number, line if fence is None else ""
 
 
 def markdown_links(text):
@@ -82,13 +72,18 @@ def markdown_anchors(text):
     return anchors
 
 
-def current_documents(root, errors=None):
+def current_documents(root, errors=None, *, runtime_documents=None):
     errors = [] if errors is None else errors
+    runtime_documents = set() if runtime_documents is None else runtime_documents
     docs = {root / name for name in ENTRIES} | {root / CATALOG_VIEW}
+    runtime_documents.update(root / name for name in ENTRIES)
+    runtime_documents.update(root / name for names in STAGE_REFERENCES.values() for name in names)
+    runtime_documents.update((root / ".agents/skills").glob("*/SKILL.md"))
     for folder in ("docs", ".agents/skills"):
         docs.update((root / folder).rglob("*.md"))
     for name in ("AGENTS.md", "PROFILE.md", "profile.md", "README.md"):
         docs.update((root / "channels").glob(f"*/{name}"))
+        runtime_documents.update((root / "channels").glob(f"*/{name}"))
     if (root / "channels/README.md").exists():
         docs.add(root / "channels/README.md")
     docs.update((root / ".codex/agents").glob("*.md"))
@@ -105,6 +100,7 @@ def current_documents(root, errors=None):
                 if not path.resolve().is_relative_to(root):
                     raise ValueError("context reference leaves repository")
                 docs.add(path)
+                runtime_documents.add(path)
         except (OSError, ValueError, KeyError, TypeError, AttributeError) as exc:
             errors.append(f"{profile.relative_to(root)}: cannot check context references: {exc}")
     # Episode ledgers, archived references and untracked .agent notes are not rules.
@@ -144,7 +140,8 @@ def frontmatter_value(content, field):
 def check(root=ROOT, known_paths=()):
     root = Path(root).resolve()
     errors, known, anchors = [], set(known_paths), {}
-    docs = current_documents(root, errors)
+    runtime_documents = set()
+    docs = current_documents(root, errors, runtime_documents=runtime_documents)
     try:
         if not (root / CATALOG).resolve().is_relative_to(root):
             raise ValueError("catalog leaves repository")
@@ -189,7 +186,13 @@ def check(root=ROOT, known_paths=()):
         if not path.resolve().is_relative_to(root) or not path.is_file():
             errors.append(f"missing or nonlocal entry {relative}")
             continue
-        for number, target in markdown_links(path.read_text(encoding="utf-8")):
+        content = path.read_text(encoding="utf-8")
+        if path in runtime_documents:
+            error = (current_reference_error(relative.as_posix(), content)
+                     or current_reference_error(path.resolve().relative_to(root).as_posix(), content))
+            if error:
+                errors.append(error)
+        for number, target in markdown_links(content):
             try:
                 parsed = urlsplit(html.unescape(target))
             except ValueError:
