@@ -9,7 +9,7 @@ description: "Produce an approved ytvideos script through AI-generated images an
 
 CLI и точные outputs/receipts: [task contract](../../../docs/operations/task-contract.md).
 
-При подготовке, получении или использовании видеоклипов выполнить общую [процедуру клипов](references/video-clips.md) до затрат и при приёмке; она действует во всех каналах.
+Видеоклипы всех каналов готовить и проверять по [общей процедуре](references/video-clips.md), начиная до затрат.
 
 Генерация клипов применяется к Shorts. Если в контексте есть [рецепт Flow](../../../channels/paper_detour/docs/FLOW_PRODUCTION.md#выбор-движения), выбрать планы Ingredients по записи и карте слов. Для каждой точной партии до отправки получить [отдельное одобрение внешнего видео](../../../docs/workflow.md#отдельное-одобрение-внешнего-видео) по параметрам из рецепта.
 
