@@ -47,6 +47,20 @@ class MotionAuditTests(unittest.TestCase):
         codes = self.codes(audit_motion_batch(run, ops))
         self.assertTrue({'script_approval_stale', 'batch_binding_mismatch', 'approval_binding_mismatch'} <= codes)
 
+    def test_saved_settings_digest_must_match_exact_settings(self):
+        run, ops, observation = self.fixture()
+        run["motion_batch"]["settings_sha256"] = "0" * 64
+        result = audit_motion_batch(run, ops, resolve_document=lambda _: observation)
+        self.assertIn("settings_digest_mismatch", self.codes(result))
+        self.assertEqual(result["status"], "evidence_incomplete")
+        self.assertFalse(result["dispatch_authorized"])
+
+        run, ops, observation = self.fixture()
+        run["motion_batch"]["settings"]["seconds"] = 8
+        result = audit_motion_batch(run, ops, resolve_document=lambda _: observation)
+        self.assertIn("settings_digest_mismatch", self.codes(result))
+        self.assertEqual(result["status"], "evidence_incomplete")
+
     def test_unbound_legacy_approval_and_payload_not_inferred_from_text(self):
         run, ops, _ = self.fixture(); run['motion_batch']['approval'] = {'source': 'chat', 'message': 'all approved 9 credits'}
         del ops[0]['payload']; del run['motion_batch']['revision']

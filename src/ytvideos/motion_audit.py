@@ -62,6 +62,11 @@ def audit_motion_batch(run, operations, *, resolve_document=None):
             add("batch_binding_mismatch", "motion_batch." + key, "Batch belongs to different accepted inputs", "error")
     settings = batch.get("settings")
     settings_hash = digest(settings) if isinstance(settings, dict) and settings else None
+    # A saved digest is a binding, not evidence by itself. Check it against the
+    # exact settings object before declaring the recorded batch consistent.
+    if settings_hash is not None and batch.get("settings_sha256") != settings_hash:
+        add("settings_digest_mismatch", "motion_batch.settings_sha256",
+            "Saved settings digest differs from actual request settings", "error")
     contract = {"batch_sha256": batch.get("batch_sha256"), "settings_sha256": settings_hash,
                 "provider": batch.get("provider"), "model": batch.get("model"), **expected}
     decision = batch.get("approval", {})
