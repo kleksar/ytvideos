@@ -1,0 +1,84 @@
+# Research: Castle Itter 1945 (Nuviko History)
+
+## Verified remote and scope
+
+Remote main `44786bd929473cc06a724aefb4ad122f358c0aeb` and tree `ebceaa244700491efa75dea0524943b64b8f6242` were retrieved before branch work. Checked open/closed PRs and open issue search. Current `channels/nuviko_history/channel.json` says `active` (PR #12 merged), despite stale frozen description in PROFILE; this automation is nevertheless TEXT_ONLY: no run/production/merge or upload.
+Existing distinct draft stories: #17 U.S. escort accidental torpedo; #20 S-5 submarine rescued with white T-shirt; #19 maple-syrup heist; #21 Clever Hans. Rejected/closed #13 telegraph omitted. No Castle Itter PR among inspected items. Full archived media topics not independently exhaustively inspected.
+Read current AGENTS, workflow, editorial/visual/thumbnails/development standards, relevant ytv-start/ytv-write-script/ytv-maintain skills, documentation index, skill catalog, channel AGENTS/PROFILE/ChannelSpec and visual brand profile. Do not update shared docs in this story branch.
+
+## Broad search — ten different specific historical subjects
+| Candidate | Decision after first-pass public search |
+|---|---|
+| **Castle Itter (1945)**, German major and Americans protect French detainees from SS | **FINALIST / WINNER**: unexpected alliance followed by threatened captives, constrained convoy, losing a tank, relief and sacrifice |
+| **Operation Paul Bunyan (1976)**, US–North Korea crisis over tree cutting | FINALIST: two officers killed, airpower deployed for guarded tree removal; risk of misleading 'almost WWIII' framing |
+| **Gimli Glider (1983)**, Air Canada 143 emergency glide | FINALIST: fuel error, double engine loss, disused airfield turned racetrack, survivors; already heavily covered |
+| Lake Nyos (1986), deadly invisible CO2 cloud | Compelling science but high civilian tragedy, limited individual actions and overly easy reveal |
+| Entebbe rescue (1976) | Dramatic but complex hostage politics/raid details risky in short without deep nuance |
+| Pisces III (1973), deep sea rescue | Another sea rescue would overlap with pending #20 |
+| Pendleton rescue (1952), 32 saved by Coast Guard boat | Also maritime survival/rescue overlap with #20 |
+| Ghost Army deception (WWII) | Broad topic; needs single verifiable micro-story and distinct outcome |
+| Operation Mincemeat (1943) | Striking ruse but needs causal caveats, familiar film adaptations |
+| Operation Gunnerside (1943), Norwegian heavy-water sabotage | Strong action but common 'it stopped an atomic bomb' causal claim overreaches |
+
+Only the **three finalists** were source-checked for opening + key development + outcome; the others were screened, not certified as fully researched. No fabricated number of research calls or paywalled analytics.
+
+## Three verified competing pitches (before full script)
+### 1 — Castle Itter (selected)
+Audience: English history/WWII Shorts viewers attracted by choices and reversals, not familiar names. First line: **“In May 1945, a German officer asked American tankers to fight alongside him.”** Stop: enemy soldiers ask to be allies. Continue: French prisoners endangered → small rescue column constrained by bridges → SS attack → Sherman disabled → French prisoners arm themselves → messenger seeks help → Gangl killed. Payoff: US forces arrive and prisoners walk free; Gangl does not. Objection: famous WWII retellings exist, and #17 is also US-centered military history. This is a choice/rescue story, not a naval weapons mishap. One-sentence arc: *A German officer recruited American tankers to defend French prisoners from SS troops and died before they were freed.*
+### 2 — Operation Paul Bunyan (runner-up)
+Audience: Cold War geopolitics and military history. Opening: **“Two U.S. officers were killed over a routine tree-trimming job. Three days later, bombers guarded the tree.”** Stop: absurd scale and real death. Continue: DMZ violence → political decisions → full protective deployment → tree removed without additional shooting. Payoff: mission complete, crisis did not turn into open battle there. Objection: terms like 'nearly started WWIII' imply unknowable likelihood; many existing presentations are several minutes long.
+### 3 — Gimli Glider
+Audience: Aviation and problem-solving. Opening: **“A Boeing 767 lost its engines, and its emergency runway had become a racetrack.”** Stop: immediate paradox and jeopardy. Continue: failed fuel measurement → mistaken conversion → engines stop → powered-off approach → landing. Payoff: everyone on board survived, procedural and equipment breakdown documented. Objection: existing Mayday episode and similar Shorts; technical sequence must avoid oversimplified blame or saying nobody was hurt.
+
+**Comparative choice:** Castle Itter's central paradox does not disclose the outcome; its 4+ consequential turns each change the danger. Paul Bunyan has a sharper absurdity but once armed tree removal is revealed its short may struggle to provide another meaningful reversal. Gimli is tense and mechanically rich but less distinct from widely watched aviation coverage. Castle Itter still requires clarity on differing uniforms and careful exact casualty phrasing.
+
+## Audience evidence versus hypothesis
+- Public video found: The Operations Room, *When WW3 Nearly Started over Cutting Down a Tree*, published **2025-02-22** with ~443,225 views and ~1.44M followers as retrieved on 2026-11-13: https://www.youtube.com/watch?v=uYLfnI7VH_M . Long animated history, not equivalent to own Shorts baseline.
+- Public video found: Mayday: Air Disaster, *Gimli Glider*, published **2022-05-05** with ~1.4M views (48:55) and ~1.11M subscribers reported in retrieved result: https://www.youtube.com/watch?v=8y8JBAr8dZ4 . These are not public CTR or retention and give no standalone performance forecast.
+- Castle Itter video reference exists: https://www.dutyandvalor.com/videos/battle-of-castle-itter-the-strangest-battle-of-wwii/ . No comparable public view baseline verified for same language/Short duration; audience demand of selected angle = **UNVERIFIED hypothesis**.
+
+## Claim / evidence / uncertainty matrix
+### 1. U.S. tank battalion May 1945 after-action record
+URL: https://www.12tharmoreddivisionmuseum.com/_files/ugd/c0865a_7bb533e7786a4a41b0e9bb2109f2ca06.pdf
+Evidence: US-German defenders, threatened French political prisoners, one Sherman at gate, SS fire and American relief. Primary report's May section pp. 10-11.
+Uncertainty: PDF text was fetched; browser screenshot returned HTTP 400 file too large. Report says Gangl and TWO guards killed, unlike popular sole-death accounts: avoid total casualty counts.
+
+### 2. Stephen Harding, The Battle for Castle Itter
+URL: https://historynet.com/the-battle-for-castle-itter/
+Evidence: Independent historical narrative details Wehrmacht German major, American tankers, threatened hostages and battle, tennis champion's relief effort.
+Uncertainty: Secondary reconstruction; numbers/times can diverge from US unit record. No quotes or invented actor thoughts.
+
+### 3. HistoryNet recap by Harold Hutchison
+URL: https://historynet.com/this-week-in-history-the-battle-of-castle-itter/
+Evidence: Confirms mixed alliance, tank disabled, German major killed protecting prisoner, U.S. relief.
+Uncertainty: Secondary text; simplified casualty statement not accepted as sole source.
+
+### 4. Wright Museum historical overview
+URL: https://wrightmuseum.org/castle-itter/
+Evidence: Mixed garrison, battle and captive survival; provides museum-level triangulation.
+Uncertainty: Modern secondary summary, not first-hand battle diary.
+
+### 5. Wargaming historical article
+URL: https://wargaming.com/en/news/battle_castle_itter/
+Evidence: Jean Borotra's mission and secondary account of complex relief.
+Uncertainty: Escape detail not confirmed in unit AAR excerpt, do not invent route or direct quote.
+
+### 6. National Security Archive, SAC history 1975-76
+URL: https://nsarchive.gwu.edu/document/20805-27
+Evidence: Operation Paul Bunyan: officers killed during DMZ tree trimming; armed tree removal days later.
+Uncertainty: No evidence to quantify probability of global war.
+
+### 7. Canada 1985 Board of Inquiry on Air Canada 143 (FAA mirror)
+URL: https://www.faa.gov/sites/faa.gov/files/2023-10/Final%20Report%20of%20the%20Board%20of%20Inquiry.pdf
+Evidence: Gimli Glider fuel-exhaustion investigation official primary report.
+Uncertainty: PDF primary result identified, no screenshot verified this run; corroborated by independent reporting.
+
+## Explicit exclusions and risk boundaries
+- Unit after-action account states German major **and two guards** died; secondary articles sometimes call Gangl the only defender death. Narration mentions Gangl's death, **never a total**.
+- Officer-request hook is narrative paraphrase, not purported quotation; he went to US forces for help defending captives.
+- French tennis champion's route/words and participants' thoughts not recorded in the retrieved primary excerpt. No exact route, dialogue or close portrait.
+- No claims of Germany as a whole joining US, a guaranteed prisoner massacre, exact troop headcount, a famous 'last battle' uniqueness superlative, or invented military orders.
+- Visual reconstructions must be AI generated at production, not mislabeled as original archival frames.
+
+## Story/thumbnail fit
+Primary hook and first confirmation S001-S003: German officer requests U.S. help over a threatened French civilian-prisoner castle. Full payoff S013-S014: captives freed, Gangl dead. Short must loop **S015 → S001**. No generated images, verified media, voice, or true video analytics here.
