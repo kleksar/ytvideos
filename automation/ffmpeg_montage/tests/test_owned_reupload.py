@@ -4,6 +4,7 @@ from pathlib import Path
 import tempfile
 import unittest
 import sys
+import subprocess
 
 ROOT = Path(__file__).resolve().parents[3]
 spec = importlib.util.spec_from_file_location('delivery_reupload_test', ROOT / 'automation/ffmpeg_montage/delivery.py')
@@ -17,7 +18,13 @@ class OwnedReuploadTest(unittest.TestCase):
     def setUp(self):
         self.tmp = tempfile.TemporaryDirectory()
         self.p = Path(self.tmp.name)
-        self.video = self.p / 'copy.mp4'; self.video.write_bytes(b'video copy')
+        self.video = self.p / 'copy.mp4'
+        subprocess.run(['ffmpeg', '-nostdin', '-v', 'error', '-f', 'lavfi', '-i',
+                        'color=c=black:s=64x64:r=10', '-f', 'lavfi', '-i',
+                        'anullsrc=r=48000:cl=stereo', '-t', '0.3', '-c:v',
+                        'mpeg4', '-c:a', 'aac', '-shortest', str(self.video)],
+                       check=True, capture_output=True)
+        self.valid_video = self.video.read_bytes()
         self.snapshot = self.p / 'snapshot.json'
         self.snapshot.write_text(json.dumps({'items': [{'id': 'Bfgcq4rxQT8', 'snippet': {'channelId': CHANNEL}, 'status': {'privacyStatus': 'public'}}]}))
         self.evidence = self.p / 'evidence.txt'; self.evidence.write_text('synthetic test evidence')
@@ -34,10 +41,18 @@ class OwnedReuploadTest(unittest.TestCase):
     def test_stale_copy_wrong_channel_or_failed_decode_rejected(self):
         self.video.write_bytes(b'changed')
         with self.assertRaisesRegex(ValueError, 'does not match'): delivery.validate_release(self.video, CHANNEL, self.receipt)
-        self.video.write_bytes(b'video copy')
+        self.video.write_bytes(self.valid_video)
         with self.assertRaisesRegex(ValueError, 'does not match'): delivery.validate_release(self.video, 'UC0000000000000000000000', self.receipt)
         self.data['technical_review']['full_decode'] = 'FAIL'; self.save()
         with self.assertRaisesRegex(ValueError, 'full decode'): delivery.validate_release(self.video, CHANNEL, self.receipt)
+    def test_forged_full_decode_pass_cannot_accept_non_mp4_bytes(self):
+        self.video.write_bytes(b'not an actual mp4')
+        self.data['media'] = delivery.file_record(self.video)
+        self.data['technical_review']['media_sha256'] = delivery.sha256(self.video)
+        self.save()
+        with self.assertRaisesRegex(ValueError, 'probe or full decode failed'):
+            delivery.validate_release(self.video, CHANNEL, self.receipt)
+
     def test_source_must_be_owned_public_and_snapshot_unchanged(self):
         self.snapshot.write_text(json.dumps({'items': [{'id': 'Bfgcq4rxQT8', 'snippet': {'channelId': 'UC0000000000000000000000'}, 'status': {'privacyStatus': 'public'}}]}))
         with self.assertRaisesRegex(ValueError, 'Stale'): delivery.validate_release(self.video, CHANNEL, self.receipt)

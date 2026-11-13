@@ -11,6 +11,7 @@ import importlib.util
 import json
 import math
 import os
+import subprocess
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
@@ -345,7 +346,38 @@ def validate_owned_reupload(receipt, video, channel_id):
             or technical.get('media_sha256') != receipt['media']['sha256']):
         raise ValueError('Reupload requires full decode of the exact file')
     check_record(technical['evidence'])
+    _verify_owned_reupload_media(video)
     return receipt
+
+
+def _verify_owned_reupload_media(video):
+    """Independently probe and decode the recovered MP4, not a caller's PASS claim."""
+    path = Path(video).resolve(strict=True)
+    before = sha256(path)
+
+    def run(argv):
+        try:
+            result = subprocess.run(argv, stdin=subprocess.DEVNULL, capture_output=True,
+                                    text=True, check=False, timeout=600)
+        except (OSError, subprocess.TimeoutExpired) as exc:
+            raise ValueError('Recovered MP4 decode could not complete') from exc
+        if result.returncode:
+            raise ValueError('Recovered MP4 probe or full decode failed')
+        return result.stdout
+
+    probe = json.loads(run(['ffprobe', '-v', 'error', '-protocol_whitelist', 'file,pipe',
+                            '-format_whitelist', 'mov', '-show_format', '-show_streams',
+                            '-of', 'json', str(path)]))
+    if ('mp4' not in (probe.get('format', {}).get('format_name') or '').split(',')
+            or not any(stream.get('codec_type') == 'video'
+                       for stream in probe.get('streams', []))):
+        raise ValueError('Recovered file must be a real MP4 with a video stream')
+    run(['ffmpeg', '-nostdin', '-v', 'error', '-xerror', '-err_detect', 'explode',
+         '-threads', '2', '-protocol_whitelist', 'file,pipe', '-format_whitelist',
+         'mov', '-i', str(path), '-map', '0:v:0', '-map', '0:a?', '-f', 'null', '-'])
+    if sha256(path) != before:
+        raise ValueError('Recovered MP4 changed during full decode')
+
 
 def validate_audio_replacement(receipt, video, channel_id, channel, private_staging):
     """Validate an audio-only replacement against a previously rendered picture."""
