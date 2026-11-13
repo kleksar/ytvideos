@@ -1,3 +1,12 @@
+## Актуальный workflow — удалённый main
+
+Сверено с `main` `96c8fa1573c02e8e7987e272a569bf34f037691e`. Nuviko History **active** по current `channel.json`; старые строки ниже о `frozen` — история первоначального черновика, не актуальная блокировка канала. При этом этот PR — **не `ytv start` run**, и существующий `storyboard.json` только художественная схема до утверждения текста, не completed stage. Нельзя считать self-review независимой оценкой или script gate `awaiting_script_approval`.
+
+При выборе сюжета локально: `uv run ytv start --channel nuviko_history --format short --intent 'Проверить неутверждённый сюжет PR #20'`. Сначала получить `plan_summary` и `read_next`, прочитать `task_guide` и pinned requirements. Для script нужен реальный `sessions.independent` reviewer, оригинальный `ytv-script-review-v1` с hash точной EN версии и полным двукратным чтением; без него оставить UNVERIFIED/Draft. Достигнуть настоящего `awaiting_script_approval` и получить подлинное пользовательское согласие до любого производства. [Workflow](https://github.com/kleksar/ytvideos/blob/main/docs/workflow.md).
+
+RU остаётся смысловой редакторской копией, не русской TTS дорожкой; подготовленные кадры, 4–6 c и петля S014→S001 пока расчётные. Actual PNG references, звук, MP4 и AV стык НЕ проверены. Не придумывать run/media/approval/rights receipts, не переносить чужие pins.
+
+---
 # Local production handoff — Nuviko History / USS S-5
 
 **This is an unapproved textual story proposal.** It is NOT a registered production run or a user approval and does not change the frozen channel's production permissions.

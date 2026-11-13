@@ -4,12 +4,12 @@
 
 ## Принятые якоря
 
-Пользователь принял 04.11.2026 два постоянных эталона:
+Два постоянных эталона внешности:
 
 - [traveler_turnaround_20261104.png](References/traveler_turnaround_20261104.png), SHA-256 `f093ba6c1c3e97cb3ffca2e0329af93a47d7aabdfc7b77f9768b7263bfa6f0c7`.
 - [traveler_emotions_20261104.png](References/traveler_emotions_20261104.png), версия v03, SHA-256 `d0e47f0560a1894f4d52d69d7826e0f1461f78733c2b80e41899459b3da2dc78`.
 
-Происхождение/решение — [acceptance record](References/CHARACTER_REFERENCE_ACCEPTANCE_20261104.json). Исходные screenshots/full prompts/исследовательские версии не входят в переносимый пакет. Общие PNG сохраняются при cleanup эпизода. Каждый новый кадр проверяется отдельно.
+Идентичность и происхождение файлов — [asset manifest](References/CHARACTER_REFERENCE_ACCEPTANCE_20261104.json). Открыть оба actual PNG и сверить hashes. Общие references сохраняются при cleanup эпизода; каждый сценовый результат проверяется отдельно.
 
 ## Ведущий и мир
 

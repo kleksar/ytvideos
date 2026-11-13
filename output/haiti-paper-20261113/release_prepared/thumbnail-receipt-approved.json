@@ -1,0 +1,38 @@
+{
+  "run_id": "00f9cc38-2023-46c5-b40d-6b0b7f8e5c35",
+  "task_id": "thumbnail:main",
+  "input_hash": "0c18814d843ebf66a3d86d5c2e71d840b08d434371a058572e879634fbeb2248",
+  "worker": "codex-accepted-thumbnail",
+  "output_sha256": "d8ca426e844154db93e07de7278eea12feb784a0215ae0f56edb371910df73b0",
+  "checks": [
+    {
+      "name": "image_decoded",
+      "status": "pass",
+      "method": "Opened original image and checked actual dimensions",
+      "observed": {
+        "width": 941,
+        "height": 1672,
+        "format": "PNG"
+      }
+    },
+    {
+      "name": "scene_match",
+      "status": "pass",
+      "method": "Compared image to corrected exact brief and user acceptance",
+      "observed": {
+        "words": "WE’LL DESTROY IT",
+        "visual": "president gestures toward house and promise",
+        "approval": "пушка. го дальше"
+      }
+    },
+    {
+      "name": "visual_review",
+      "status": "pass",
+      "method": "Viewed full image and central 2:3 at 240x360 and 180x270",
+      "observed": {
+        "result": "face, house and quote readable",
+        "limit": "Local mock, not actual mobile or YouTube display."
+      }
+    }
+  ]
+}

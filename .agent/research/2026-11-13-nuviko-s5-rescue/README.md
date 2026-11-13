@@ -1,3 +1,5 @@
+**Сверка с main 96c8fa1573c0:** `nuviko_history` теперь `active` по channel.json. Исторический `frozen` ниже не актуален. Этот сюжетный Draft PR — не официальный runtime `ytv start` и не approved script; независимо проверить EN/RU и выйти на реальный `awaiting_script_approval` до производства. [Handoff](handoff.md).
+
 # Nuviko History story draft — USS S-5 / White Shirt Rescue (1920)
 
 **[Читать полный сценарий по-русски](script.ru.txt)** · **[Full English narration for future voice](script.en.txt)**

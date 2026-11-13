@@ -1,0 +1,177 @@
+{
+  "structure": "PASS",
+  "text_coverage": "PASS",
+  "timing_mapping": "UNVERIFIED",
+  "playback": "UNVERIFIED",
+  "readability": "N_A",
+  "limits": {},
+  "errors": [],
+  "warnings": [],
+  "cues": [
+    {
+      "cue": 1,
+      "lines": 1,
+      "longest_line": 49,
+      "duration_seconds": 2.5455,
+      "characters_per_second": 19.249656256138284
+    },
+    {
+      "cue": 2,
+      "lines": 1,
+      "longest_line": 38,
+      "duration_seconds": 1.77,
+      "characters_per_second": 21.468926553672315
+    },
+    {
+      "cue": 3,
+      "lines": 1,
+      "longest_line": 11,
+      "duration_seconds": 0.8727,
+      "characters_per_second": 12.60456055918414
+    },
+    {
+      "cue": 4,
+      "lines": 1,
+      "longest_line": 42,
+      "duration_seconds": 1.8182,
+      "characters_per_second": 23.099769002309976
+    },
+    {
+      "cue": 5,
+      "lines": 1,
+      "longest_line": 33,
+      "duration_seconds": 1.3818,
+      "characters_per_second": 23.881893182805037
+    },
+    {
+      "cue": 6,
+      "lines": 1,
+      "longest_line": 15,
+      "duration_seconds": 0.5818,
+      "characters_per_second": 25.78205568924029
+    },
+    {
+      "cue": 7,
+      "lines": 1,
+      "longest_line": 38,
+      "duration_seconds": 1.6,
+      "characters_per_second": 23.75
+    },
+    {
+      "cue": 8,
+      "lines": 1,
+      "longest_line": 50,
+      "duration_seconds": 2.5672,
+      "characters_per_second": 19.47647242131505
+    },
+    {
+      "cue": 9,
+      "lines": 1,
+      "longest_line": 15,
+      "duration_seconds": 0.6909,
+      "characters_per_second": 21.710811984368217
+    },
+    {
+      "cue": 10,
+      "lines": 1,
+      "longest_line": 54,
+      "duration_seconds": 2.3964,
+      "characters_per_second": 22.53380070105158
+    },
+    {
+      "cue": 11,
+      "lines": 1,
+      "longest_line": 49,
+      "duration_seconds": 2.8058,
+      "characters_per_second": 17.46382493406515
+    },
+    {
+      "cue": 12,
+      "lines": 1,
+      "longest_line": 42,
+      "duration_seconds": 2.3631,
+      "characters_per_second": 17.773263932969403
+    },
+    {
+      "cue": 13,
+      "lines": 1,
+      "longest_line": 6,
+      "duration_seconds": 0.1275,
+      "characters_per_second": 47.05882352941176
+    },
+    {
+      "cue": 14,
+      "lines": 1,
+      "longest_line": 38,
+      "duration_seconds": 2.1331,
+      "characters_per_second": 17.814448455299797
+    },
+    {
+      "cue": 15,
+      "lines": 1,
+      "longest_line": 32,
+      "duration_seconds": 1.4392,
+      "characters_per_second": 22.234574763757642
+    },
+    {
+      "cue": 16,
+      "lines": 1,
+      "longest_line": 43,
+      "duration_seconds": 1.8909,
+      "characters_per_second": 22.740493944682427
+    },
+    {
+      "cue": 17,
+      "lines": 1,
+      "longest_line": 39,
+      "duration_seconds": 1.5691,
+      "characters_per_second": 24.855012427506214
+    },
+    {
+      "cue": 18,
+      "lines": 1,
+      "longest_line": 26,
+      "duration_seconds": 1.0181,
+      "characters_per_second": 25.537766427659367
+    },
+    {
+      "cue": 19,
+      "lines": 1,
+      "longest_line": 22,
+      "duration_seconds": 1.1212,
+      "characters_per_second": 19.62183374955405
+    },
+    {
+      "cue": 20,
+      "lines": 1,
+      "longest_line": 51,
+      "duration_seconds": 1.8181,
+      "characters_per_second": 28.051262306803807
+    },
+    {
+      "cue": 21,
+      "lines": 1,
+      "longest_line": 48,
+      "duration_seconds": 2.1818,
+      "characters_per_second": 22.000183334861124
+    }
+  ],
+  "limits_note": "Readability metrics do not verify semantic breaks, player layout or hearing sync.",
+  "timebase": "final",
+  "duration_seconds": "38.928594",
+  "inputs": {
+    "text": {
+      "path": ".ytvideos/artifacts/sha256/bf/bf753636682dc9884440cd7e98753ee391236e99998f43258824bf5d7c0cb7f5",
+      "sha256": "bf753636682dc9884440cd7e98753ee391236e99998f43258824bf5d7c0cb7f5"
+    },
+    "build": {
+      "path": "output/haiti-paper-20261113/audio/cues_tight_candidate.json",
+      "sha256": "ee9d325ec61da8d361e2b37619013ee7abf8031250dfc26546c9d77f7db246f5"
+    }
+  },
+  "result": "MACHINE_CHECKED",
+  "output": {
+    "path": "output/haiti-paper-20261113/audio/captions_tight_candidate.srt",
+    "sha256": "6de8d34f9723979e187eae98f55cdc3ea8beeab5f6d3631ebefc6e33c778dff1"
+  }
+}

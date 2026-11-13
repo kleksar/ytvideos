@@ -10,6 +10,17 @@ from pathlib import Path
 from PIL import Image, ImageOps
 
 
+SCHEMA = 'ytv-thumbnail-previews-v1'
+
+
+def preview_bytes(image, pixels, box):
+    """Canonical inspection derivative, shared with the acceptance validator."""
+    output = io.BytesIO()
+    image.resize(tuple(pixels), Image.Resampling.LANCZOS, box=tuple(box)).save(
+        output, format='JPEG', quality=95, subsampling=0)
+    return output.getvalue()
+
+
 def ratio(value):
     try:
         a, b = map(int, value.split(':'))
@@ -160,7 +171,7 @@ def main():
     a.out.mkdir(parents=True, exist_ok=True)
     if a.card_json:
         (a.out / 'qa_cards.html').write_text(build_card_html(cards, a.theme, a.grayscale), encoding='utf-8')
-    report = {'source': str(source), 'sha256': hashlib.sha256(source.read_bytes()).hexdigest(),
+    report = {'schema': SCHEMA, 'source': str(source), 'sha256': hashlib.sha256(source.read_bytes()).hexdigest(),
               'source_pixels': list(im.size), 'previews': [],
               'limits': 'Local simulation only. Region containment uses supplied bounds, not OCR or face detection. Visual readability, actual device and YouTube display require separate observation.'}
     for label, box in variants:
@@ -175,12 +186,15 @@ def main():
             height = round(width*ch/cw)
             dest = a.out / f'qa_{label}_{width}x{height}.jpg'
             # Crop and resample for inspection; never stretch a source into another ratio.
-            im.resize((width,height),Image.Resampling.LANCZOS,box=box).save(dest,quality=95,subsampling=0)
-            report['previews'].append({'path':str(dest), 'pixels':[width,height],
+            content = preview_bytes(im, (width, height), box)
+            dest.write_bytes(content)
+            report['previews'].append({'path':str(dest.resolve()), 'sha256':hashlib.sha256(content).hexdigest(),
+                                       'pixels':[width,height],
                                        'crop_box_source_px':list(box), 'regions':checks})
     if a.card_json:
         report['card_mock'] = {
             'path': str((a.out / 'qa_cards.html').resolve()), 'theme': a.theme, 'grayscale': a.grayscale,
+            'sha256': hashlib.sha256((a.out / 'qa_cards.html').read_bytes()).hexdigest(),
             'json_path': str(a.card_json.resolve()), 'json_sha256': hashlib.sha256(a.card_json.read_bytes()).hexdigest(),
             'assets': [{'path': str(c['src']), 'sha256': c['sha256'], 'title': c['title'],
                         'channel': c['channel'], 'duration': c['duration']} for c in cards]}

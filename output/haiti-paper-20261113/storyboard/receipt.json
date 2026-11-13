@@ -1,0 +1,63 @@
+{
+  "run_id": "00f9cc38-2023-46c5-b40d-6b0b7f8e5c35",
+  "task_id": "storyboard",
+  "input_hash": "5004eee8c7f7ca847074b3162266a184877cdc8baa968fa99b0ff90ce19c0a10",
+  "worker": "haiti-storyboard",
+  "output_sha256": "d1a27eec966adfe2d9e4cb70c0533c6d63f4d541f05cae2af68d48c8089b1fb6",
+  "checks": [
+    {
+      "name": "coverage",
+      "status": "pass",
+      "method": "Mapped every sentence in the accepted exact script to scene anchors and planned the end-to-start reprise.",
+      "observed": {
+        "script_sha256": "bf753636682dc9884440cd7e98753ee391236e99998f43258824bf5d7c0cb7f5",
+        "scenes": 8,
+        "measured_timing": true,
+        "constraint": "Actual audio duration measured by parent. Full9-shot frame coverage and4–6s cadence verified arithmetically; word sync/crop/perceptual seam must be checked on exact media.",
+        "frame_count": 1303,
+        "audio_duration_seconds": 43.419637,
+        "planned_shot_duration_range": [
+          4.5,
+          5.0
+        ]
+      }
+    },
+    {
+      "name": "rights",
+      "status": "pass",
+      "method": "Read project reference provenance and selected original AI illustration route with no external photographs or footage.",
+      "observed": {
+        "references": [
+          {
+            "path": "/Users/diplomat/ytvideos/channels/paper_detour/brand/References/meaningful_staging_20261105_v01/P02_navigation_relief.png",
+            "sha256": "ae35401e863161d2e166342bc94a9e9d5b0704157d5891cda7a4653dcc348d88",
+            "role": "Tactile layered paper, physical shadows and scale, not geography or story content",
+            "inspected": true,
+            "source": "Project-generated imagegen reference; recorded acceptance/provenance in brand manifest and PAPER_PLANE.md"
+          },
+          {
+            "path": "/Users/diplomat/ytvideos/channels/paper_detour/brand/References/paper_plane_20261112/scene_sample.png",
+            "sha256": "36dedf45786bcdfa54fd28c00179b1ea9335ec769d94066beaa0b94c797e933d",
+            "role": "Shape of light folded paper plane; use only for S11",
+            "inspected": true,
+            "source": "Project-generated imagegen reference; recorded acceptance/provenance in brand manifest and PAPER_PLANE.md"
+          }
+        ],
+        "external_media_used": false,
+        "constraint": "Generated image hashes/provider evidence and visual acceptance will be recorded by image tasks."
+      }
+    },
+    {
+      "name": "visual_continuity",
+      "status": "pass",
+      "method": "Read all scene packets in sequence and inspected actual P02 and plane reference images.",
+      "observed": {
+        "style": "Consistent tactile paper/card with warm amber key and deep-blue shadows. Different viewpoints, objects and scales; only planned S01 reprise reuses an image.",
+        "motion": "Neighbouring unique images alternate whole-frame push-in/pull-out. Final exact S01 reprise holds at opening crop. No vertical pan/parallax.",
+        "uncertainty": "No literal pins-to-target link and no identical depicted photographed/struck building.",
+        "plane": "S08 x0.72/y0.42; actual generated visibility pending.",
+        "scope": "Storyboard design check only, generated scenes and actual loop pending."
+      }
+    }
+  ]
+}

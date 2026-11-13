@@ -1,0 +1,41 @@
+{
+  "schema": "ytv-owned-reupload-v1",
+  "channel_id": "UCMVfdfaNxV3ZkI3_J3Eejzw",
+  "media": {
+    "path": "/Users/diplomat/ytvideos/output/paper-detour-reupload-20261113/blizzard.mp4",
+    "sha256": "c8ceb044350a0fd69d530a14ba3728277ed85cee278724e2b597914ce7fe7e5e"
+  },
+  "source": {
+    "video_id": "L553TNYK6C4",
+    "api_snapshot": {
+      "path": "/Users/diplomat/ytvideos/output/paper-detour-reupload-20261113/videos-before.json",
+      "sha256": "a0712a064357e95f15ecdcbf95ddb634a2f88f1d025d57fce2751ed57592b1c3"
+    },
+    "download_evidence": {
+      "path": "/Users/diplomat/ytvideos/output/paper-detour-reupload-20261113/README.md",
+      "sha256": "f2a32246b05f6c45e0e26eb4f7efb833c2ff2ef53cbd267d6b40632a285ac4e9"
+    }
+  },
+  "technical_review": {
+    "full_decode": "PASS",
+    "media_sha256": "c8ceb044350a0fd69d530a14ba3728277ed85cee278724e2b597914ce7fe7e5e",
+    "evidence": {
+      "path": "/Users/diplomat/ytvideos/output/paper-detour-reupload-20261113/QA-20261113.md",
+      "sha256": "4c9500f9d65531c742c36149e282658a29d944d7eb356fdc7f13d93a4b64b0d5"
+    }
+  },
+  "srt_review": {
+    "media_sha256": "c8ceb044350a0fd69d530a14ba3728277ed85cee278724e2b597914ce7fe7e5e",
+    "language": "en",
+    "srt": {
+      "path": "/Users/diplomat/ytvideos/output/paper-detour-reupload-20261113/blizzard-reconstructed.srt",
+      "sha256": "187e71608c45c6ea22e417c045fc94d9a38027cfbb183c3c92a52b4e9ff5a64d"
+    },
+    "structure": "PASS",
+    "origin": "reconstructed",
+    "evidence": {
+      "path": "/Users/diplomat/ytvideos/output/paper-detour-reupload-20261113/QA-20261113.md",
+      "sha256": "4c9500f9d65531c742c36149e282658a29d944d7eb356fdc7f13d93a4b64b0d5"
+    }
+  }
+}
