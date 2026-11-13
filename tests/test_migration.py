@@ -209,6 +209,109 @@ class RuntimeMigrationTests(unittest.TestCase):
             self.plan()
         self.assertEqual(self.state(), before)
 
+    def _prepare_continuation(self):
+        first_plan = self.plan()
+        first = self.apply(first_plan)
+        second_source = self.fixture.root / "continuation-source-checkout"
+        shutil.copytree(self.service.project, second_source)
+        (self.service.project / "src/ytvideos/pin.py").write_text("# verified local runtime repair\n")
+        plan = self.service.plan_runtime_migration(self.run_id, second_source,
+                                                   expected_version=self.store.get(self.run_id)["version"])
+        return first_plan, first, second_source, plan
+
+    def test_explicit_continuation_preserves_state_and_retries_without_writes(self):
+        first_plan, first, source_root, plan = self._prepare_continuation()
+        before = self.state()
+        path = self.fixture.root / "continuation-plan.json"
+        path.write_text(canonical(plan))
+        args = parser().parse_args(["migrate-runtime", "apply", "--run", self.run_id,
+            "--source-root", str(source_root), "--plan", str(path), "--source", "fixture-owner-message",
+            "--message", "Migrate this exact episode locally.",
+            "--continue-receipt", first["receipt_artifact"]["sha256"]])
+        result = dispatch(self.service, args)
+        after = self.state()
+        self.assertFalse(result["duplicate"])
+        self.assertEqual(result["receipt"]["continued_from_receipt_sha256"], first["receipt_artifact"]["sha256"])
+        self.assertEqual(after[0]["runtime_migrations"][-1]["continued_from_receipt_sha256"],
+                         first["receipt_artifact"]["sha256"])
+        self.assertEqual(result["receipt"]["decision"], first["receipt"]["decision"])
+        self.assertEqual(after[0]["version"], before[0]["version"] + 1)
+        for key in ("id", "revision", "profile", "tasks", "approvals", "budget", "motion_batch"):
+            self.assertEqual(after[0][key], before[0][key])
+        self.assertEqual(after[2], before[2])
+        self.assertEqual({key: after[0]["artifacts"][key] for key in before[0]["artifacts"]}, before[0]["artifacts"])
+        retry = dispatch(self.service, args)
+        self.assertTrue(retry["duplicate"])
+        self.assertEqual(retry["receipt"], result["receipt"])
+        self.assertEqual(self.state(), after)
+        for receipt_hash in (None, "0" * 64, result["receipt_artifact"]["sha256"]):
+            with self.subTest(receipt_hash=receipt_hash):
+                with self.assertRaisesRegex(Conflict, "retry differs"):
+                    self.service.apply_runtime_migration(self.run_id, source_root, plan,
+                        source="fixture-owner-message", message="Migrate this exact episode locally.",
+                        continue_receipt=receipt_hash)
+                self.assertEqual(self.state(), after)
+        with self.assertRaisesRegex(Conflict, "historical migration"):
+            self.apply(first_plan)
+        self.assertEqual(self.state(), after)
+
+    def test_continuation_rejects_unknown_receipt_or_changed_owner_decision(self):
+        _, first, source_root, plan = self._prepare_continuation()
+        before = self.state()
+        defaults = {"source": "fixture-owner-message", "message": "Migrate this exact episode locally.",
+                    "continue_receipt": first["receipt_artifact"]["sha256"]}
+        for overrides, error in (({"continue_receipt": "0" * 64}, "latest migration"),
+                                 ({"message": "Different authorization"}, "exact owner decision"),
+                                 ({"source": "different-owner-source"}, "exact owner decision")):
+            with self.subTest(overrides=overrides):
+                with self.assertRaisesRegex(Conflict, error):
+                    self.service.apply_runtime_migration(self.run_id, source_root, plan, **(defaults | overrides))
+                self.assertEqual(self.state(), before)
+
+    def test_continuation_rejects_nonlatest_receipt(self):
+        _, first, source_root, plan = self._prepare_continuation()
+        self.service.apply_runtime_migration(self.run_id, source_root, plan,
+            source="fixture-owner-message", message="Migrate this exact episode locally.",
+            continue_receipt=first["receipt_artifact"]["sha256"])
+        third_source = self.fixture.root / "third-source-checkout"
+        shutil.copytree(self.service.project, third_source)
+        (self.service.project / "src/ytvideos/pin.py").write_text("# third verified runtime\n")
+        plan = self.service.plan_runtime_migration(self.run_id, third_source,
+                                                   expected_version=self.store.get(self.run_id)["version"])
+        before = self.state()
+        with self.assertRaisesRegex(Conflict, "latest migration"):
+            self.service.apply_runtime_migration(self.run_id, third_source, plan,
+                source="fixture-owner-message", message="Migrate this exact episode locally.",
+                continue_receipt=first["receipt_artifact"]["sha256"])
+        self.assertEqual(self.state(), before)
+
+    def test_continuation_rejects_changed_revision_and_missing_history(self):
+        plan = self.plan()
+        before = self.state()
+        with self.assertRaisesRegex(Conflict, "latest recorded"):
+            self.apply(plan, continue_receipt="0" * 64)
+        self.assertEqual(self.state(), before)
+        _, first, source_root, plan = self._prepare_continuation()
+        self.store.mutate(self.run_id, lambda tx, run: run.update(revision=run["revision"] + 1))
+        before = self.state()
+        with self.assertRaisesRegex(Conflict, "pins or revision"):
+            self.service.apply_runtime_migration(self.run_id, source_root, plan,
+                source="fixture-owner-message", message="Migrate this exact episode locally.",
+                continue_receipt=first["receipt_artifact"]["sha256"])
+        self.assertEqual(self.state(), before)
+
+    def test_continuation_rejects_intervening_run_transition(self):
+        _, first, source_root, _ = self._prepare_continuation()
+        self.store.mutate(self.run_id, lambda tx, run: run.update(intent="an intervening task"))
+        plan = self.service.plan_runtime_migration(self.run_id, source_root,
+                                                   expected_version=self.store.get(self.run_id)["version"])
+        before = self.state()
+        with self.assertRaisesRegex(Conflict, "state version"):
+            self.service.apply_runtime_migration(self.run_id, source_root, plan,
+                source="fixture-owner-message", message="Migrate this exact episode locally.",
+                continue_receipt=first["receipt_artifact"]["sha256"])
+        self.assertEqual(self.state(), before)
+
     def test_uncertain_motion_batch_and_unsettled_reservations_block_migration(self):
         for batch in ({"scenes": {"shot": {"status": "unknown"}}, "reserved": 0},
                       {"scenes": {"shot": {"status": "dispatched"}}, "reserved": 0},

@@ -179,28 +179,51 @@ def _put_json(service, value, kind):
     return artifact
 
 
-def apply_runtime_migration(service, run_id, source_root, plan, *, source, message):
+def apply_runtime_migration(service, run_id, source_root, plan, *, source, message, continue_receipt=None):
     """Compare the exact proposal under lock, archive old state, then save once."""
     source = require_text(source, "actual owner decision source")
     message = require_text(message, "actual owner decision message")
+    if continue_receipt is not None and (not isinstance(continue_receipt, str)
+            or len(continue_receipt) != 64 or any(c not in "0123456789abcdef" for c in continue_receipt)):
+        raise WorkflowError("continue receipt must be an exact lowercase SHA-256")
     if (not isinstance(plan, dict) or plan.get("schema") != PLAN_SCHEMA or plan.get("run_id") != run_id
             or plan.get("plan_sha256") != digest({key: value for key, value in plan.items() if key != "plan_sha256"})):
         raise WorkflowError("invalid or modified runtime migration plan")
     decision = {"authority": "local_session", "source": source, "message": message}
     with service.store.transaction() as tx:
         run = tx.get_run(run_id)
-        for prior in run.get("runtime_migrations", []):
+        history = run.get("runtime_migrations", [])
+        for prior in history:
             if prior["plan_sha256"] == plan["plan_sha256"]:
                 receipt = json.loads(service.artifacts.resolve(run["artifacts"][prior["receipt_artifact_id"]]).read_text())
                 service.artifacts.resolve(receipt["snapshot_artifact"])
-                if receipt["decision"] != decision or receipt["source"]["root"] != str(Path(source_root).resolve()):
+                if (receipt["decision"] != decision or receipt["source"]["root"] != str(Path(source_root).resolve())
+                        or receipt.get("continued_from_receipt_sha256") != continue_receipt):
                     raise Conflict("migration retry differs from the original decision or source checkout")
                 if run["pins"] != receipt["target"]["pins"]:
                     raise Conflict("historical migration was applied, but the current runtime has since changed")
                 return {"run_id": run_id, "version": run["version"], "duplicate": True,
                         "receipt": receipt, "receipt_artifact": run["artifacts"][prior["receipt_artifact_id"]]}
-            if prior["decision_source"] == source:
-                raise Conflict("owner decision source was already used for another migration plan")
+        if continue_receipt is not None:
+            if not history:
+                raise Conflict("continuation requires the latest recorded migration receipt")
+            previous_artifact = run["artifacts"][history[-1]["receipt_artifact_id"]]
+            if previous_artifact["sha256"] != continue_receipt:
+                raise Conflict("continuation must name the latest migration receipt")
+            previous = json.loads(service.artifacts.resolve(previous_artifact).read_text())
+            previous_snapshot = json.loads(service.artifacts.resolve(previous["snapshot_artifact"]).read_text())
+            if previous["decision"] != decision:
+                raise Conflict("continuation must preserve the exact owner decision")
+            if (previous["run_id"] != run_id or run["version"] != previous["to_version"]
+                    or run["revision"] != previous_snapshot["run"]["revision"]
+                    or run["pins"] != previous["target"]["pins"]
+                    or plan["source"]["pins"] != previous["target"]["pins"]):
+                raise Conflict("continuation state version, source pins or revision differ from the latest migration")
+            if any(plan["preserved"][key] != previous["preserved"][key]
+                   for key in ("profile_sha256", "script_artifact_id", "script_sha256", "channel_documents")):
+                raise Conflict("continuation must preserve the same accepted script and channel")
+        elif any(prior["decision_source"] == source for prior in history):
+            raise Conflict("owner decision source was already used for another migration plan")
         rebuilt, skills, references, operations, slots = _build(
             service, tx, run, source_root, plan["source"]["version"])
         if canonical(rebuilt) != canonical(plan):
@@ -219,6 +242,8 @@ def apply_runtime_migration(service, run_id, source_root, plan, *, source, messa
                    "snapshot_artifact": snapshot, "preserved": plan["preserved"],
                    "decision": decision, "created_at": utc_now(), "external_dispatch": False,
                    "approval_and_qa_evidence_created": False}
+        if continue_receipt is not None:
+            receipt["continued_from_receipt_sha256"] = continue_receipt
         receipt_artifact = _put_json(service, receipt, "runtime_migration")
         if _build(service, tx, run, source_root, plan["source"]["version"])[0] != rebuilt:
             raise Conflict("migration inputs changed during receipt archival; source state was retained")
@@ -226,9 +251,12 @@ def apply_runtime_migration(service, run_id, source_root, plan, *, source, messa
         run["skills"], run["reference_snapshot"] = skills, references
         for artifact in (snapshot, receipt_artifact):
             run["artifacts"][artifact["id"]] = artifact
-        run.setdefault("runtime_migrations", []).append({"plan_sha256": plan["plan_sha256"],
+        entry = {"plan_sha256": plan["plan_sha256"],
             "receipt_artifact_id": receipt_artifact["id"], "snapshot_artifact_id": snapshot["id"],
-            "decision_source": source, "created_at": receipt["created_at"]})
+            "decision_source": source, "created_at": receipt["created_at"]}
+        if continue_receipt is not None:
+            entry["continued_from_receipt_sha256"] = continue_receipt
+        run.setdefault("runtime_migrations", []).append(entry)
         service._context_pins(run)
         tx.event("runtime-migration:" + run_id + ":" + plan["plan_sha256"], run_id,
                  "run.runtime_migrated", receipt)

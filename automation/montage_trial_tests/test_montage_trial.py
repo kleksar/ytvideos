@@ -194,6 +194,25 @@ class MontageTrialTests(unittest.TestCase):
         with self.assertRaisesRegex(trial.TrialError, "unsupported keys"):
             trial.validate(manifest, self.root / "manifest.json")
 
+    def test_odd_sized_rgb_images_render_without_padding_or_color_shift(self):
+        for size in ((95, 96), (96, 95), (95, 97)):
+            with self.subTest(size=size):
+                Image.new("RGB", size, (0, 255, 255)).save(self.image)
+                manifest = self._manifest()
+                manifest["scenes"] = [manifest["scenes"][0]]
+                manifest["scenes"][0].update(zoom="none", camera=self._camera(1.0, 1.0))
+                output = self.root / f"odd-{size[0]}-{size[1]}.mp4"
+                receipt = trial.render(self._write_manifest(manifest), output)
+                self.assertEqual(receipt["timeline"]["frames"], 8)
+                decoded = subprocess.run([
+                    "ffmpeg", "-v", "error", "-i", str(output), "-frames:v", "1",
+                    "-f", "rawvideo", "-pix_fmt", "rgb24", "pipe:1",
+                ], check=True, capture_output=True).stdout
+                for x, y in ((0, 0), (63, 0), (0, 63), (63, 63), (32, 32)):
+                    offset = (y * 64 + x) * 3
+                    observed = tuple(decoded[offset:offset + 3])
+                    self.assertLessEqual(max(abs(a - b) for a, b in zip(observed, (0, 255, 255))), 8)
+
     def test_unknown_image_parameter_is_rejected(self):
         manifest = self._manifest()
         manifest["scenes"][0]["motion_filter"] = "user supplied expression"

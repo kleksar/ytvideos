@@ -68,6 +68,7 @@ def parser():
             command.add_argument("--plan", type=Path, required=True, help="Exact JSON returned by migrate-runtime plan")
             command.add_argument("--source", required=True, help="Stable reference to the actual owner decision")
             command.add_argument("--message", required=True, help="Actual owner message authorizing this migration")
+            command.add_argument("--continue-receipt", help="Latest migration receipt SHA-256 for an authorized local repair")
     claim = sub.add_parser("claim")
     claim.add_argument("--run", required=True)
     claim.add_argument("--task", required=True)
@@ -181,7 +182,8 @@ def dispatch(service, args):
         if args.migration_action == "plan":
             return service.plan_runtime_migration(args.run, args.source_root, expected_version=args.expected_version)
         return service.apply_runtime_migration(args.run, args.source_root, read_json(args.plan),
-                                               source=args.source, message=args.message)
+                                               source=args.source, message=args.message,
+                                               continue_receipt=args.continue_receipt)
     if command in {"start", "create"}:
         run = service.create(args.channel, args.intent, format=args.format, request_id=args.request_id,
                              profiles=args.profiles, budget_units=args.budget_units, source_script=args.source_script)

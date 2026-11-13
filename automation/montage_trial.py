@@ -233,7 +233,11 @@ def _filter_for_scene(scene: dict[str, Any], canvas: list[int], fps: int) -> str
         if not motion.endswith(",format=yuv420p"):
             raise TrialError("canonical image motion filter shape changed; cannot apply verified color conversion")
         motion = motion.removesuffix(",format=yuv420p")
-        color = ("format=gbrp,scale=out_color_matrix=bt709:out_range=tv,format=yuv444p,"
+        # colorspace requires even dimensions even for yuv444p. Fit the same
+        # cover canvas in RGB first; do not pad or discard an arbitrary edge.
+        color = (f"format=gbrp,scale={width}:{height}:force_original_aspect_ratio=increase:flags=lanczos,"
+                 f"crop={width}:{height},format=gbrp,"
+                 "scale=out_color_matrix=bt709:out_range=tv,format=yuv444p,"
                  "colorspace=all=bt709:space=bt709:range=tv:iall=bt709:iprimaries=bt709:"
                  "itrc=iec61966-2-1:ispace=bt709:irange=tv")
         return f"{color},{motion},fps={fps},trim=end_frame={frames},setpts=PTS-STARTPTS,format=yuv420p"
@@ -465,7 +469,9 @@ def main() -> int:
     args = parser.parse_args()
     try:
         receipt = render(args.manifest, args.output)
-    except (TrialError, OSError, subprocess.CalledProcessError) as exc:
+    except subprocess.CalledProcessError as exc:
+        parser.exit(2, f"montage_trial: subprocess exited {exc.returncode}\n{exc.stderr or ''}\n")
+    except (TrialError, OSError) as exc:
         parser.exit(2, f"montage_trial: {exc}\n")
     print(json.dumps({"output": receipt["output"], "receipt": str(Path(str(args.output.resolve()) + ".montage_trial.json")),
                       "review": receipt["review"], "production_acceptance": receipt["production_acceptance"]},
