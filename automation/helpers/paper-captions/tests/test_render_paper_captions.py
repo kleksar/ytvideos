@@ -3,6 +3,7 @@ import copy
 import hashlib
 import importlib.util
 import json
+import os
 from pathlib import Path
 import subprocess
 import sys
@@ -201,7 +202,8 @@ class CaptionRendererTests(unittest.TestCase):
         self.run_manifest(spec)
 
     def test_font_texture_is_explicit_and_does_not_promote_status(self):
-        font_path = Path("/System/Library/Fonts/Supplemental/Arial.ttf")
+        # Explicit synthetic test font; this does not alter production font selection.
+        font_path = Path(os.environ.get("YTV_TEST_FONT", "/System/Library/Fonts/Supplemental/Arial.ttf"))
         if not font_path.is_file():
             self.skipTest("Explicit local fixture font unavailable")
         Image.new("RGB", (7, 9), (238, 200, 155)).save(self.root / "texture.png")

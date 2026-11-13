@@ -3,6 +3,7 @@
 import hashlib
 from pathlib import Path, PurePosixPath
 
+from .documentation import current_reference_error
 from .errors import WorkflowError
 from .util import digest
 
@@ -14,8 +15,9 @@ STAGE_REFERENCES = {
     "scene_image": ["docs/standards/visual.md"],
     "audio": ["docs/standards/audio.md"],
     "subtitles": ["docs/standards/audio.md", "docs/standards/delivery.md"],
-    "render": ["docs/standards/delivery.md"],
-    "review": ["docs/standards/delivery.md", "docs/standards/editorial.md", "docs/standards/thumbnails.md"],
+    "render": ["docs/standards/delivery.md", "docs/standards/visual.md", "docs/standards/audio.md"],
+    "review": ["docs/standards/delivery.md", "docs/standards/visual.md", "docs/standards/audio.md",
+               "docs/standards/editorial.md", "docs/standards/thumbnails.md"],
     "packaging": ["docs/standards/release.md", "docs/standards/thumbnails.md"],
     "upload": ["docs/standards/release.md", "docs/standards/thumbnails.md"],
     "configure_release": ["docs/standards/release.md", "docs/standards/thumbnails.md",
@@ -74,7 +76,7 @@ def task_references(task, *, profile=None, format=None, project_root=None):
     return list(dict.fromkeys(paths))
 
 
-def _read_document(root, path):
+def _read_document(root, path, *, current=False):
     path = reference_path(path)
     root = Path(root).resolve()
     source = (root / path).resolve()
@@ -84,6 +86,11 @@ def _read_document(root, path):
         text = source.read_bytes().decode("utf-8")
     except (OSError, UnicodeError) as exc:
         raise WorkflowError(f"cannot read task reference: {path}") from exc
+    if current:
+        error = (current_reference_error(path, text)
+                 or current_reference_error(source.relative_to(root).as_posix(), text))
+        if error:
+            raise WorkflowError(error)
     return {"path": path, "sha256": hashlib.sha256(text.encode()).hexdigest(), "text": text}
 
 
@@ -98,7 +105,7 @@ def snapshot_references(root, profile, format):
     routes = {_route(task): task_references(task, profile=profile, format=format, project_root=root)
               for task in tasks}
     paths = dict.fromkeys(path for values in routes.values() for path in values)
-    return {"routes": routes, "documents": {path: _read_document(root, path) for path in paths}}
+    return {"routes": routes, "documents": {path: _read_document(root, path, current=True) for path in paths}}
 
 
 def validate_documents(paths, documents):

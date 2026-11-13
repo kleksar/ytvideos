@@ -55,7 +55,8 @@ class ControlPlaneEdges(unittest.TestCase):
         data.pop("end_screen")
         fixture.complete("packaging", data)
         task = self.service.add_thumbnail_task(self.run_id, {"id": "main", "prompt": "An exact fixture thumbnail brief",
-                                                            "visual_intent": "The selected story promise"})
+                                                            "visual_intent": "The selected story promise", "title": data["metadata"]["title"],
+                                                            "reference_na_reason": "Synthetic lifecycle fixture has no artistic references."})
         self.assertEqual(task["dependencies"], ["packaging"])
         run = fixture.store.get(self.run_id)
         self.assertIn("thumbnail:main", run["tasks"]["upload"]["dependencies"])
@@ -65,7 +66,8 @@ class ControlPlaneEdges(unittest.TestCase):
         self.assertIn("brief_sha256", canonical)
         before = input_hash(run, task)
         self.service.add_thumbnail_task(self.run_id, {"id": "main", "prompt": "A revised fixture brief",
-                                                    "visual_intent": "The same exact story promise"})
+                                                    "visual_intent": "The same exact story promise", "title": data["metadata"]["title"],
+                                                    "reference_na_reason": "Synthetic lifecycle fixture has no artistic references."})
         current = fixture.store.get(self.run_id)
         self.assertNotEqual(before, input_hash(current, current["tasks"]["thumbnail:main"]))
 

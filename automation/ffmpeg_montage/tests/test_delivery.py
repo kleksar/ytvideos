@@ -73,6 +73,14 @@ class DeliveryTests(unittest.TestCase):
         self.mark_reviewed()
         m.delivery.validate_release(self.video,CHANNEL)
 
+    def test_technical_probe_cannot_be_released_even_with_review_flags(self):
+        self.mark_reviewed()
+        data=json.loads(self.receipt.read_text())
+        data['purpose']='technical_probe'
+        self.receipt.write_text(json.dumps(data))
+        with self.assertRaisesRegex(ValueError,'Technical probes'):
+            m.delivery.validate_release(self.video,CHANNEL)
+
     def test_frozen_speed_policy_path_requires_matching_content(self):
         self.mark_reviewed()
         original = m.delivery.audio_binding
@@ -196,7 +204,7 @@ class DeliveryTests(unittest.TestCase):
         expected=json.loads(self.passport.read_text())
         expected['required_delivery']['audio_contract']['target_bit_rate']='320k'
         self.passport.write_text(json.dumps(expected))
-        argv=['montage.py',str(self.manifest),'--output',str(self.p/'unrendered.mp4'),
+        argv=['montage.py',str(self.manifest),'--technical-probe','--output',str(self.p/'unrendered.mp4'),
               '--work-dir',str(self.p/'rejected-run'),'--export-contract',str(self.passport),
               '--encoder','libx264','--bitrate','800k']
         # Keep the exact requested output consistent so audio mismatch is reached.
@@ -264,7 +272,7 @@ class DeliveryTests(unittest.TestCase):
         # No valid media/PNG is needed: prepare validates identities, tokens and
         # actual font pixels. It must not start FFmpeg or infer audible review.
         output=self.p/'not-rendered.mp4';work=self.p/'prepared'
-        subprocess.run([sys.executable,str(m.HERE/'montage.py'),str(self.manifest),'--output',str(output),
+        subprocess.run([sys.executable,str(m.HERE/'montage.py'),str(self.manifest),'--technical-probe','--output',str(output),
                         '--work-dir',str(work),'--prepare-subtitles'],check=True,capture_output=True)
         self.assertFalse(output.exists())
         self.assertEqual(json.loads((work/'subtitle_contract.json').read_text()),self.contract)
