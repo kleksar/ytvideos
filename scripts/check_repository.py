@@ -9,32 +9,40 @@ import sys
 from urllib.parse import unquote, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
+# This offline gate runs before dependency installation. The shared documentation
+# checks and stage routing use only the standard library.
+sys.path.insert(0, str(ROOT / "src"))
+from ytvideos.context import STAGE_REFERENCES  # noqa: E402
+from ytvideos.documentation import current_reference_error, prose_lines  # noqa: E402
+
 CATALOG = Path(".agent/skill-catalog.json")
 CATALOG_VIEW = Path(".agent/skill-catalog.md")
 ENTRIES = ("AGENTS.md", "README.md", "COLLABORATION.md", "ONBOARDING.md",
            ".agent/README.md", ".agent/documentation-index.md")
+# Compatibility entrances contain navigation only. Their destinations are
+# checked here so an old entry cannot quietly grow a competing procedure again.
+REDIRECTS = {
+    ".agent/README.md": ".agent/documentation-index.md",
+    ".agent/ASSET_LIBRARY.md": "channels/BRAND_ASSETS.md",
+    ".agent/CHANNEL_BOOTSTRAP.md": "docs/workflow.md",
+    ".agent/CHANNEL_LAYOUT.md": "docs/architecture.md",
+    ".agent/RULES_SYNC.md": "docs/development.md",
+    ".agent/SHORTS_STORY_STANDARD.md": "docs/standards/editorial.md#shorts-и-завершение",
+    ".agent/VISUAL_STAGING.md": "docs/standards/visual.md",
+    ".agent/YOUTUBE_RELEASE_GRID.md": "docs/standards/release.md",
+    "COLLABORATION.md": "docs/development.md#git-и-совместная-работа",
+    "channels/paper_detour/RAROVISTA_INDEX.md": "channels/paper_detour/AGENTS.md",
+    "channels/paper_detour/RAROVISTA_PRODUCTION_GUIDE.md": "docs/workflow.md",
+    "channels/paper_detour/RAROVISTA_EDITING_STANDARD.md": "docs/standards/delivery.md",
+    "channels/paper_detour/docs/PAPER_DETOUR_CREW_WORKFLOW.md": "docs/operations/runtime.md",
+    "channels/nuviko_history/README.md": "channels/nuviko_history/AGENTS.md",
+}
 LINK = re.compile(
     r"!?\[[^\]\n]*\]\(\s*(?:<([^<>\n]*)>|((?:\\.|[^\\()\s]|\([^()\n]*\))*))"
     r"(?:\s+(?:\"[^\"]*\"|'[^']*'|\([^)]*\)))?\s*\)"
 )
 DEFINITION = re.compile(r"^\s{0,3}\[([^\]]+)\]:\s*(?:<([^>]+)>|(\S+))")
 REFERENCE = re.compile(r"!?\[([^\]\n]+)\]\[([^\]\n]*)\]")
-
-
-def prose_lines(text):
-    """Retain source line numbers while excluding fenced Markdown examples."""
-    fence = None
-    for number, line in enumerate(text.splitlines(), 1):
-        marker = re.match(r"^\s{0,3}(`{3,}|~{3,})(.*)$", line)
-        if marker:
-            run, rest = marker.groups()
-            if fence is None:
-                fence = run
-            elif run[0] == fence[0] and len(run) >= len(fence) and not rest.strip():
-                fence = None
-            yield number, ""
-        else:
-            yield number, line if fence is None else ""
 
 
 def markdown_links(text):
@@ -82,13 +90,24 @@ def markdown_anchors(text):
     return anchors
 
 
-def current_documents(root, errors=None):
+def current_documents(root, errors=None, *, runtime_documents=None):
     errors = [] if errors is None else errors
+    runtime_documents = set() if runtime_documents is None else runtime_documents
     docs = {root / name for name in ENTRIES} | {root / CATALOG_VIEW}
+    redirects = {root / name for name in REDIRECTS if (root / name).exists()}
+    docs.update(redirects)
+    runtime_documents.update(redirects)
+    runtime_documents.update(root / name for name in ENTRIES)
+    runtime_documents.update(root / name for names in STAGE_REFERENCES.values() for name in names)
+    runtime_documents.update((root / ".agents/skills").glob("*/SKILL.md"))
     for folder in ("docs", ".agents/skills"):
         docs.update((root / folder).rglob("*.md"))
-    for name in ("AGENTS.md", "PROFILE.md", "profile.md", "README.md"):
-        docs.update((root / "channels").glob(f"*/{name}"))
+    # Enumerate stored names once: literal case variants can alias one file
+    # on macOS, while PROFILE.md and profile.md may be distinct on Linux.
+    for path in (root / "channels").glob("*/*.md"):
+        if path.name in {"AGENTS.md", "PROFILE.md", "profile.md", "README.md"}:
+            docs.add(path)
+            runtime_documents.add(path)
     if (root / "channels/README.md").exists():
         docs.add(root / "channels/README.md")
     docs.update((root / ".codex/agents").glob("*.md"))
@@ -105,10 +124,38 @@ def current_documents(root, errors=None):
                 if not path.resolve().is_relative_to(root):
                     raise ValueError("context reference leaves repository")
                 docs.add(path)
+                runtime_documents.add(path)
         except (OSError, ValueError, KeyError, TypeError, AttributeError) as exc:
             errors.append(f"{profile.relative_to(root)}: cannot check context references: {exc}")
     # Episode ledgers, archived references and untracked .agent notes are not rules.
     return sorted(docs)
+
+
+def redirect_error(root, path, text):
+    owner = REDIRECTS.get(path.relative_to(root).as_posix())
+    if owner is None:
+        return None
+    lines = [line.strip() for line in text.splitlines() if line.strip()]
+    valid = (len(lines) == 2 and re.fullmatch(r"# [^#\n]{1,100}", lines[0])
+             and not re.sub(r"[\s·.]", "", LINK.sub("", lines[1])))
+    links = list(markdown_links(lines[1])) if valid else []
+    destinations = []
+    for _, target in links:
+        try:
+            parsed = urlsplit(html.unescape(target))
+        except ValueError:
+            break
+        if parsed.scheme or parsed.netloc or parsed.query:
+            break
+        destination = (path.parent / unquote(parsed.path)).resolve()
+        if not destination.is_relative_to(root):
+            break
+        destinations.append(destination.relative_to(root).as_posix()
+                            + ("#" + unquote(parsed.fragment) if parsed.fragment else ""))
+    if len(links) != 2 or destinations != ["AGENTS.md", owner]:
+        return (f"{path.relative_to(root)}: compatibility entry must contain only a heading "
+                f"and links to AGENTS.md and {owner}; edit the canonical owner for current rules")
+    return None
 
 
 def render_catalog(catalog):
@@ -144,7 +191,8 @@ def frontmatter_value(content, field):
 def check(root=ROOT, known_paths=()):
     root = Path(root).resolve()
     errors, known, anchors = [], set(known_paths), {}
-    docs = current_documents(root, errors)
+    runtime_documents = set()
+    docs = current_documents(root, errors, runtime_documents=runtime_documents)
     try:
         if not (root / CATALOG).resolve().is_relative_to(root):
             raise ValueError("catalog leaves repository")
@@ -189,7 +237,15 @@ def check(root=ROOT, known_paths=()):
         if not path.resolve().is_relative_to(root) or not path.is_file():
             errors.append(f"missing or nonlocal entry {relative}")
             continue
-        for number, target in markdown_links(path.read_text(encoding="utf-8")):
+        content = path.read_text(encoding="utf-8")
+        if error := redirect_error(root, path, content):
+            errors.append(error)
+        if path in runtime_documents:
+            error = (current_reference_error(relative.as_posix(), content)
+                     or current_reference_error(path.resolve().relative_to(root).as_posix(), content))
+            if error:
+                errors.append(error)
+        for number, target in markdown_links(content):
             try:
                 parsed = urlsplit(html.unescape(target))
             except ValueError:

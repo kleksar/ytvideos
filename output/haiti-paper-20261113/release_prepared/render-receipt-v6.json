@@ -1,0 +1,43 @@
+{
+  "run_id": "00f9cc38-2023-46c5-b40d-6b0b7f8e5c35",
+  "task_id": "render",
+  "input_hash": "c0a20c1f07ad7d3768ab99ffd1d062d8ca6fb1d5853e85b6f3efbd83bd2cb496",
+  "worker": "codex-render-metadata",
+  "output_sha256": "d644da2104534bb84f469a0fcf3fa1024b0363438aa2b17d026a126d64e3456e",
+  "checks": [
+    {
+      "name": "duration",
+      "status": "pass",
+      "method": "ffprobe and actual frame count",
+      "observed": {
+        "frames": 1303,
+        "fps": 30,
+        "seconds": 43.433333
+      }
+    },
+    {
+      "name": "provenance",
+      "status": "pass",
+      "method": "H.264 stream-copy VUI and container metadata update on the approved v5; all decoded frames and audio packet hashes match",
+      "observed": {
+        "audio_sha256": "fd0153c1177f1e8e166a2acdfef0267065adcefe73b13c1287ac7c23ecbffcc9",
+        "picture_sha256": "ec3c288215d5f1f9907d64d6bc4b9efbbf605c514ee4658c4aaf67957772f422",
+        "subtitle_ffconcat_sha256": "02b720f9bf5bf09d8ba8c6e1026056263d9daa5579823c4f5399354e1a15e974",
+        "frame_overlay": "paper-border-9x16-16s-v03.mov",
+        "note": "Screen subtitles use same word estimates, not the external SRT layout. User specifically requested frame.",
+        "change": "BT.709 identifiers assigned; no color conversion and no encoding of pixels or audio"
+      }
+    },
+    {
+      "name": "streams",
+      "status": "pass",
+      "method": "ffprobe and full FFmpeg decode",
+      "observed": {
+        "video": "H.264 1440x2560 30fps",
+        "audio": "AAC",
+        "decode": "no errors",
+        "color": "bt709 primaries, transfer, matrix, tv range"
+      }
+    }
+  ]
+}

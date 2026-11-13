@@ -198,12 +198,12 @@ def render_inputs(manifest, plan, base):
     return [file_record(path) for path in dict.fromkeys(paths)]
 
 
-def write_receipt(output, channel, contract, inputs, review=None, render=None):
+def write_receipt(output, channel, contract, inputs, review=None, render=None, *, purpose='production'):
     """Record identity after encoding, without performing or claiming AV QA."""
     if review is not None and review.get('subtitle_contract_sha256') != fingerprint(contract):
         raise ValueError('Pre-render subtitle review is stale')
     validate_render_binding(render, contract, inputs[0]['path'], output)
-    value = {'schema': RECEIPT_SCHEMA, 'channel': channel, 'media': file_record(output),
+    value = {'schema': RECEIPT_SCHEMA, 'channel': channel, 'purpose': purpose, 'media': file_record(output),
              'inputs': inputs, 'subtitles': contract, 'review': review or review_template(contract),
              'acceptance': {'accepted': False, 'media_sha256': None, 'evidence': None},
              'open_requirements': [], 'render': render}
@@ -222,8 +222,8 @@ def same_channel(recorded, expected):
     return isinstance(recorded, str) and channel_config.LEGACY_ALIASES.get(recorded, recorded) == expected
 
 
-def validate_release(video, channel_id, receipt_path=None, *, private_staging=False):
-    """Validate the exact media before upload or before leaving private staging."""
+def validate_render_receipt(video, channel_id, receipt_path=None):
+    """Validate canonical render/caption provenance without granting review or release."""
     channel = protected_channel(channel_id)
     if channel is None and receipt_path is None:
         return
@@ -231,10 +231,10 @@ def validate_release(video, channel_id, receipt_path=None, *, private_staging=Fa
     if not path.is_file():
         raise ValueError('Missing delivery receipt for configured illustrated-channel upload')
     receipt = json.loads(path.read_text())
-    if receipt.get('schema') == REUPLOAD_SCHEMA:
-        return validate_owned_reupload(receipt, video, channel_id)
+    if receipt.get('purpose', 'production') != 'production':
+        raise ValueError('Technical probes cannot be delivered or released as production media')
     if receipt.get('schema') == 'ytv-audio-replacement-v1':
-        return validate_audio_replacement(receipt, video, channel_id, channel, private_staging)
+        raise ValueError('An audio replacement needs its separate exact-file audit')
     if receipt.get('schema') == SCHEMA:
         raise ValueError('Historical receipt needs a saved-command audit and frozen export contract; do not automatically rerender')
     if (receipt.get('schema') != RECEIPT_SCHEMA or not same_channel(receipt.get('channel'), channel)
@@ -280,6 +280,24 @@ def validate_release(video, channel_id, receipt_path=None, *, private_staging=Fa
         raise ValueError('Subtitle review is stale')
     if any(review['checks'][key].get('status') == 'FAIL' for key in REVIEW_CHECKS):
         raise ValueError('Confirmed subtitle defect remains open')
+    return receipt
+
+
+def validate_release(video, channel_id, receipt_path=None, *, private_staging=False):
+    """Validate the exact media before upload or before leaving private staging."""
+    channel = protected_channel(channel_id)
+    if channel is None and receipt_path is None:
+        return
+    path = Path(receipt_path) if receipt_path else Path(str(Path(video).resolve()) + '.delivery.json')
+    if not path.is_file():
+        raise ValueError('Missing delivery receipt for configured illustrated-channel upload')
+    receipt = json.loads(path.read_text())
+    if receipt.get('schema') == REUPLOAD_SCHEMA:
+        return validate_owned_reupload(receipt, video, channel_id)
+    if receipt.get('schema') == 'ytv-audio-replacement-v1':
+        return validate_audio_replacement(receipt, video, channel_id, channel, private_staging)
+    receipt = validate_render_receipt(video, channel_id, path)
+    review = receipt['review']
     if private_staging:
         technical = receipt.get('technical_review', {})
         if (technical.get('status') != 'PASS' or technical.get('full_decode') != 'PASS'

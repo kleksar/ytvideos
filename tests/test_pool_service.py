@@ -55,6 +55,19 @@ class PoolServiceTests(unittest.TestCase):
             "schema_version": 1, "id": "test_channel", "name": "Test channel", "status": "active",
             "language": "en", "recipe": "illustrated", "youtube_channel_id": "TEST_ONLY_CHANNEL", "visual_profile": "test",
             "release_policy": {}, "budget": {"max_paid_units": 20, "max_task_attempts": 3, "max_editorial_passes": 2},
+            "production": {
+                "video": {"codec": "h264", "pix_fmt": "yuv420p", "sample_aspect_ratio": "1:1",
+                          "color_primaries": "bt709", "color_transfer": "bt709",
+                          "color_space": "bt709", "color_range": "tv"},
+                "audio": {"required": True, "codec": "aac", "music": "none"},
+                "visual": {"motion": "none", "transitions": "direct_cuts", "decorative_frame": "forbidden"},
+                "captions": {"mode": "none", "srt": "none"},
+                "formats": {
+                    "short": {"video": {"canvas": [90, 160], "fps": "30/1"}, "end_screen_seconds": 0,
+                              "narrative_loop": "not_applicable"},
+                    "long": {"video": {"canvas": [160, 90], "fps": "30/1"}, "end_screen_seconds": 0},
+                },
+            },
         }))
         self.db = str(self.root / "state.db")
         if self.postgres:
@@ -384,7 +397,8 @@ class PoolServiceTests(unittest.TestCase):
             run["tasks"]["packaging"].update(status="complete", outputs=[artifact["id"]])
         self.store.mutate(run_id, prepared_packaging)
         task = self.production.add_thumbnail_task(run_id, {
-            "id": "cover", "prompt": "Synthetic cover image", "visual_intent": "fixture test"})
+            "id": "cover", "prompt": "Synthetic cover image", "visual_intent": "fixture test",
+            "title": "Synthetic thumbnail brief", "reference_na_reason": "Synthetic pool routing has no artistic references."})
         jobs = self.pools.operate(run_id, "enqueue")["jobs"]
         self.assertEqual(len(jobs), 1)
         pending = self.pools.operate(run_id, "tick")["pending"]

@@ -1,0 +1,171 @@
+{
+  "case": "luna-history-guarded",
+  "model": "gpt-6-luna",
+  "fresh_context": true,
+  "source_manifest_sha256": "1b4cc39abced2dd7c70fd8c5952a750be3042f82ae4bc5d87352a5b91992869f",
+  "source_file_count": 604,
+  "command_count": 43,
+  "first_command_at": "2026-11-13T04:20:25.426171+00:00",
+  "last_command_at": "2026-11-13T04:31:57.858144+00:00",
+  "result": "fail_editorial_completion_guard_observed",
+  "observed": [
+    "Created a run and read task context, then stopped with an unregistered bilingual draft and no independent review.",
+    "The real Stop-hook process, invoked by an explicitly simulated host, blocked that premature stop and returned continuation 1/3. Coordinator forwarded only its exact reason.",
+    "After that continuation, the writer recorded capabilities, completed research and invoked two actual independent reviewer sessions for successive script versions.",
+    "Both reviews returned revise. The second identified an unsupported relief-train causal claim and an ending that re-asks the opening question rather than continuing the narration.",
+    "The writer recorded a script blocker after the pinned two-pass editorial budget was exhausted. Research is complete; script is blocked; no script artifact or production approval was accepted.",
+    "The final simulated Stop invocation allowed stopping at the recorded blocker. This is an observed guard path, not successful creative completion.",
+    "Reviewer responses did not conform to the required result schema. A later in-run v2 correction changed loop fields and severity values but still omitted first_listener; neither response was accepted by complete."
+  ],
+  "interventions": [
+    "Host lifecycle was explicitly simulated. Coordinator invoked the actual hook process for UserPromptSubmit/Stop and sent the first Stop reason verbatim as a continuation, without a storyline, seam or verdict hint.",
+    "The writer requested a schema correction from its second reviewer during the attempt. The original captured JSON and the later correction are preserved separately; correction is not treated as an original valid response."
+  ],
+  "store_events": 7,
+  "external_operations": 0,
+  "run_states": [
+    {
+      "id": "129a3589-839e-45d1-bdcc-aa9cad19d413",
+      "status": "working"
+    }
+  ],
+  "capture_limits": [
+    "commands.jsonl contains actual shell commands/stdout/stderr/exit codes captured by the harness, not a model-written trace summary.",
+    "Direct web and collaboration calls and progress messages are not captured by the shell wrapper. Source notes and coordinator observations are separate evidence, not a complete raw transcript.",
+    "Absolute scratch paths and ephemeral local lease IDs are retained as observed; they grant no access to a production account.",
+    "accepted-artifacts contains exact bytes registered in the store. working-artifacts may contain later edits; these are deliberately not substituted for accepted bytes.",
+    "The hook process was real, but host events and continuation dispatch were simulated by the coordinator. Live Codex hook trust was not activated.",
+    "Two actual child reviewer sessions were observed by the coordinator; raw spawn arguments and direct collaboration messages are not captured by commands.jsonl.",
+    "Review snapshots are exact stdout from captured cat commands; parsed metadata and this report are coordinator analysis. No output was repaired for this evidence set."
+  ],
+  "review_response_snapshots": [
+    {
+      "file": "captured-review-responses/review-v1.json",
+      "sha256": "92a556be3e9b7975f207298661b985cfbb7cc5eceef050dbcb9581f044a049b4",
+      "bytes": 5353,
+      "command_index_zero_based": 25,
+      "captured_at": "2026-11-13T04:27:39.294644+00:00",
+      "decision": "revise",
+      "top_level_fields": [
+        "schema",
+        "reviewer",
+        "source",
+        "input",
+        "script_sha256",
+        "decision",
+        "opening",
+        "ending",
+        "joined_excerpt",
+        "review",
+        "narrative_loop"
+      ]
+    },
+    {
+      "file": "captured-review-responses/review-v2-before-correction.json",
+      "sha256": "0c2de2af42b498fcdb7c352ae90ba42b21ad81fbf9d856ebaee8bb58b4281fe6",
+      "bytes": 4348,
+      "command_index_zero_based": 36,
+      "captured_at": "2026-11-13T04:30:33.025091+00:00",
+      "decision": "revise",
+      "top_level_fields": [
+        "schema",
+        "script_sha256",
+        "input",
+        "reviewer",
+        "source",
+        "decision",
+        "understood",
+        "attention",
+        "narrative_loop",
+        "findings",
+        "limitations"
+      ]
+    },
+    {
+      "file": "captured-review-responses/review-v2-after-correction.json",
+      "sha256": "12eba4d30984a347e50fc0c7579cb8dc94ad29db4962071c39f0ec65aa86aa4e",
+      "bytes": 5017,
+      "command_index_zero_based": 39,
+      "captured_at": "2026-11-13T04:31:18.305368+00:00",
+      "decision": "revise",
+      "top_level_fields": [
+        "schema",
+        "script_sha256",
+        "input",
+        "reviewer",
+        "source",
+        "decision",
+        "understood",
+        "attention",
+        "narrative_loop",
+        "findings",
+        "limitations"
+      ]
+    }
+  ],
+  "exact_reviewed_scripts": [
+    {
+      "file": "captured-review-inputs/script-v1.txt",
+      "sha256": "ee5e28fb20cd7cddaf75fd853a0c2085a52881588e793e9476bbdbf8a4069175",
+      "source": "working-artifacts/129a3589-839e-45d1-bdcc-aa9cad19d413-reader-input.json",
+      "extraction": "Exact UTF-8 script_text field, verified against its recorded digest."
+    },
+    {
+      "file": "captured-review-inputs/script-v2.txt",
+      "sha256": "112d03cab0b4293ebad9db4cb1650955cda2cc54f35bbca51e1af1235e32c1d5",
+      "source": "working-artifacts/129a3589-839e-45d1-bdcc-aa9cad19d413-reader-input-v2.json",
+      "extraction": "Exact UTF-8 script_text field, verified against its recorded digest."
+    }
+  ],
+  "schema_correction": {
+    "command_index_zero_based": 38,
+    "at": "2026-11-13T04:31:11.855198+00:00",
+    "scope": "Changed narrative_loop to decision/observations and finding severities to blocking, preserving a revise verdict.",
+    "remaining_failure": "Both v2 snapshots use top-level understood/attention/limitations and lack required first_listener. The source tool label is generic rather than an actual collaboration tool name.",
+    "attribution_limit": "The shell wrapper does not record caller agent identity. Writer/reviewer coordination was observed separately, not reconstructed as a raw collaboration transcript."
+  },
+  "host_simulation": {
+    "mode": "explicit_simulation_not_live_Codex_hooks",
+    "events": 4,
+    "event_sequence": [
+      {
+        "at": "2026-11-13T04:20:04.042335+00:00",
+        "kind": "UserPromptSubmit",
+        "exit_code": 0,
+        "output": {
+          "systemMessage": "ytvideos session guard: prompt scope recorded; only start/resume binds production"
+        }
+      },
+      {
+        "at": "2026-11-13T04:22:51.330205+00:00",
+        "kind": "Stop",
+        "exit_code": 0,
+        "output": {
+          "decision": "block",
+          "reason": "ytvideos run 129a3589-839e-45d1-bdcc-aa9cad19d413 is unfinished (version 0). Required completion: completed research/script with independent review and awaiting_script_approval, or a confirmed blocker. Next action: research: inspect_runtime_tools. Read the pinned task/skill/requirements: uv run --no-sync --project /workspace/scratch/0cd37d41d442/production-eval/luna-history-guarded ytv --project-root /workspace/scratch/0cd37d41d442/production-eval/luna-history-guarded --workspace /workspace/scratch/0cd37d41d442/production-eval/luna-history-guarded/.ytvideos --db /workspace/scratch/0cd37d41d442/production-eval/luna-history-guarded/.ytvideos/state.sqlite3 context --run 129a3589-839e-45d1-bdcc-aa9cad19d413 --task research. Inspect unobserved host tools and record actual evidence, then claim/complete the task. Missing observations are not confirmed blockers. Continue within existing permissions/budget; no approval or publication is granted. Continuation 1/3."
+        }
+      },
+      {
+        "at": "2026-11-13T04:23:04.443265+00:00",
+        "kind": "UserPromptSubmit",
+        "exit_code": 0,
+        "output": {
+          "systemMessage": "ytvideos session guard: prompt scope recorded; only start/resume binds production"
+        }
+      },
+      {
+        "at": "2026-11-13T04:32:38.060289+00:00",
+        "kind": "Stop",
+        "exit_code": 0,
+        "output": {
+          "systemMessage": "ytvideos session guard: run 129a3589-839e-45d1-bdcc-aa9cad19d413: no ready work within observed capabilities/budget; respect blockers, UNKNOWN and foreign leases"
+        }
+      }
+    ],
+    "continuations": 1,
+    "maximum_continuations": 3,
+    "last_assistant_message_source": "Saved output artifact content, not a verbatim final chat message; the guard does not use this field.",
+    "session_correlation_limit": "Writer and child shell commands share the synthetic CODEX_THREAD_ID supplied by the recorder. This case does not establish live host subagent-ID routing or trust activation."
+  },
+  "source_files_verified_unchanged": true
+}

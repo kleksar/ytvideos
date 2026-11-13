@@ -5,7 +5,7 @@
 1. Прочитать root и canonical owner изменения. Проверить ветку, upstream и состояние дерева по порядку ниже; учесть чужие изменения. Исправление ошибки начать с воспроизведения и причины.
 2. Основная ветка проекта — `main`. По умолчанию работать с актуальным `main`; если для задачи нужна отдельная ветка, ответвить её от актуального `main` и сразу открыть PR в `main` по порядку ниже. Использовать небольшие тематические commits; этапы реализации могут идти отдельными заданиями/сессиями.
 3. Детерминированные проверки и переходы реализовать кодом. Параметры канала держать в ChannelSpec; не добавлять hardcoded перечень имён в workflow.
-4. Синхронно переписать действующую документацию и ссылки, удалив отменённый путь. Архивные факты и evidence не переписывать как правила.
+4. Синхронно переписать действующую документацию и ссылки в актуальном состоянии, удалив отменённый путь. Историю изменения хранит Git. Task-specific очереди/разрешения и архивные evidence сохранять отдельно от production context.
 5. Запустить адресные tests и обязательный общий gate. Прочитать diff. В MR описать проблему, изменение поведения, реальные проверки и оставшиеся runtime/migration ограничения.
 6. Синхронизировать рабочую ветку с upstream по порядку ниже. Для каждой отдельной ветки поддерживать PR в `main` до слияния; merge выполнять после проверки и с учётом полномочий. Не менять production infrastructure/каналы ради подтверждения unit tests.
 
@@ -29,7 +29,7 @@ uv run python -m ytvideos --help
 uv run python -m unittest discover -s tests -p 'test_*.py'
 ```
 
-[Task contract](operations/task-contract.md) содержит копируемые команды и точную форму outputs/receipts. Справка CLI — источник точного синтаксиса. `create`, `status`, `next`, `context`, `complete`, `approve`, `resume`, `cancel`, `doctor` и `import-legacy` обслуживают сохранённое состояние. `approve --event FILE` принимает только envelope trusted host; не создавать production approvals вручную из слов модели.
+[Task contract](operations/task-contract.md) содержит копируемые команды и точную форму outputs/receipts. Справка CLI — источник точного синтаксиса. Агентский вход `start` объединяет создание run, план, диагностику и подготовку reading packet; низкоуровневый `create` сохраняет программную совместимость. `status`, `plan`, `next`, `context`, `complete`, `approve`, `resume`, `cancel`, `doctor` и `import-legacy` обслуживают сохранённое состояние. `approve --event FILE` принимает только envelope trusted host; не создавать production approvals вручную из слов модели.
 
 SQLite использовать для изолированных tests/local runs. Для production PostgreSQL integration проверить транзакции/конкуренцию и actual driver; skipped database tests не считать PASS реального Postgres. Missing native fonts/provider credentials не подменять фиктивным live output.
 
@@ -54,6 +54,8 @@ CI остаётся общим gate с реальным PostgreSQL и всеми
 Измерять active time отдельно от user waiting, tokens/tools/cost, retries, долю reuse/resume, реальные interventions и ошибки wrong-skill/wrong-channel/stale-input. Цели ускорения устанавливать после baseline; число сессий и размер prompt сами не доказывают выигрыш.
 
 ## Skills и документация
+
+Skill и навык — один procedural слой. `AGENTS.md` маршрутизирует запрос, skill объясняет текущую задачу, общий standard владеет повторяемым требованием, профиль хранит отличия канала, code/schema проверяет переходы и артефакты. Тексты содержат действующие правила; причины пересмотра и отменённые варианты доступны в Git и исследовательских evidence.
 
 `.agent/skill-catalog.json` содержит canonical names/paths/stages/intents; description должен точно совпадать с frontmatter skill. Markdown-каталог генерируется, вручную его не редактировать:
 
