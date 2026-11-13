@@ -64,14 +64,17 @@ def reading_packet(production, packet):
                            "complete with evidence, then request next. Do not replace this run with an ad-hoc draft."}
 
 
-def start_packet(production, run_id):
+def start_packet(production, run_id, *, session_id=None):
+    from .session_guard import bind_session
+    binding = bind_session(production, run_id, session_id)
     # Capture all run-dependent views together. The current claim will still
     # revalidate inputs if another worker changes this state after the read.
     with production.store.transaction() as tx:
         run = tx.get_run(run_id)
         plan = production._plan(run)
         packets = [production._context_packet(tx, run, task["id"]) for task in plan["next"]["tasks"]]
-    return {"run_id": run_id, "run_version": run["version"], "first_response": plan["first_response"],
+    return {"run_id": run_id, "run_version": run["version"], "session_guard": binding,
+            "first_response": plan["first_response"],
             "plan_summary": {"channel": plan["channel"], "format": plan["format"],
                              "intent": plan["intent"], "source_script": plan["source_script"],
                              "target": plan["target"], "accepted": plan["accepted"],

@@ -117,7 +117,9 @@ class SyntheticLifecycleTests(unittest.TestCase):
                   for name in sorted(names)]
         for check in checks:
             if check["name"] == "independent_review":
-                check["observed"]["reviewer"] = "separate-fixture-reviewer"
+                from test_workflow import script_review_observation
+                check["observed"] = script_review_observation(output, self.directory / (str(uuid.uuid4()) + "-review.json"),
+                                                               reviewer="separate-fixture-reviewer")
             if stage == "review":
                 media = self.service._artifact(run, "render")
                 evidence = self.write({"synthetic_test_only": True, "check": check["name"],

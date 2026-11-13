@@ -10,8 +10,7 @@ from .errors import WorkflowError
 from .util import require_text
 
 
-SCHEMA = "ytv-narrative-loop-v1"
-OBSERVATIONS = {"continuation", "cold_open", "payoff_quote", "payoff_before_repeat", "two_cycle_read"}
+OBSERVATIONS = {"continuation", "cold_open", "payoff_quote", "payoff_before_repeat", "two_cycle_read", "restart_test"}
 PLACEHOLDERS = {"pass", "ok", "yes", "true", "verified", "unverified", "n/a", "none", "placeholder",
                 "loop", "готово", "проверено", "да", "нормально", "ок"}
 
@@ -23,21 +22,11 @@ def _note(value, name):
     return value
 
 
-def validate_observation(observed, *, script_text, script_sha256, worker):
-    """Validate exact bounded excerpts; complete utterances remain reviewer evidence."""
-    if not isinstance(observed, dict) or observed.get("artifact_sha256") != script_sha256:
-        raise WorkflowError("narrative_loop must bind the exact script SHA-256")
-    reviewer = require_text(observed.get("reviewer"), "narrative_loop independent reviewer")
-    if reviewer.strip() == worker.strip():
-        raise WorkflowError("narrative_loop needs a reviewer distinct from the script author")
+def validate_seam(opening, ending, joined_excerpt, *, script_text):
+    """Verify literal edge context without guessing utterance or sentence boundaries."""
     text = script_text.strip()
-    opening = require_text(observed.get("opening"), "narrative_loop opening excerpt")
-    ending = require_text(observed.get("ending"), "narrative_loop ending excerpt")
-    # These are evidence-context bounds, not a quota for the story's sentences.
-    # Read the edge utterances in context; a matching pronoun/punctuation token
-    # cannot stand in for a reviewed beginning or ending.
-    if any(len(excerpt.split()) < 4 for excerpt in (opening, ending)):
-        raise WorkflowError("narrative_loop excerpts need at least four words of edge-utterance context")
+    opening = require_text(opening, "narrative_loop opening excerpt")
+    ending = require_text(ending, "narrative_loop ending excerpt")
     if not text.startswith(opening) or not text.endswith(ending):
         raise WorkflowError("narrative_loop excerpts must be the exact script prefix and suffix")
     if len(opening) + len(ending) > len(text):
@@ -45,8 +34,18 @@ def validate_observation(observed, *, script_text, script_sha256, worker):
     if ((opening[-1].isalnum() and text[len(opening)].isalnum())
             or (ending[0].isalnum() and text[-len(ending)-1].isalnum())):
         raise WorkflowError("narrative_loop excerpts cannot cut through a word")
-    if observed.get("joined_excerpt") != ending + "\n" + opening:
+    if joined_excerpt != ending + "\n" + opening:
         raise WorkflowError("narrative_loop must show the literal ending followed by the opening")
+
+
+def validate_observation(observed, *, script_text, script_sha256, worker):
+    """The full reading packet supplies context; excerpts identify its exact seam."""
+    if not isinstance(observed, dict) or observed.get("artifact_sha256") != script_sha256:
+        raise WorkflowError("narrative_loop must bind the exact script SHA-256")
+    reviewer = require_text(observed.get("reviewer"), "narrative_loop independent reviewer")
+    if reviewer.strip() == worker.strip():
+        raise WorkflowError("narrative_loop needs a reviewer distinct from the script author")
+    validate_seam(observed.get("opening"), observed.get("ending"), observed.get("joined_excerpt"), script_text=script_text)
     record = observed.get("evidence")
     if (not isinstance(record, dict) or set(record) != {"path", "sha256"}
             or not isinstance(record.get("path"), str) or not record["path"].strip()
@@ -56,22 +55,21 @@ def validate_observation(observed, *, script_text, script_sha256, worker):
 
 
 def validate_evidence(document, observed, *, script_text):
-    """Require specific reviewer observations; JSON itself cannot prove good writing."""
-    expected = {"schema": SCHEMA, "script_sha256": observed["artifact_sha256"],
-                **{name: observed[name] for name in ("reviewer", "opening", "ending", "joined_excerpt")}}
+    """Use the narrative section of the same verbatim independent review result."""
+    from .script_review import SCHEMA
+    expected = {"schema": SCHEMA, "script_sha256": observed["artifact_sha256"], "reviewer": observed["reviewer"]}
     if not isinstance(document, dict) or any(document.get(key) != value for key, value in expected.items()):
         raise WorkflowError("narrative_loop evidence does not bind the exact reviewed script and seam")
-    if document.get("relationship") != "continuous_narration":
-        raise WorkflowError("narrative_loop review must establish continuous narration; a thematic callback or unverified seam is insufficient")
-    _note(document.get("method"), "narrative_loop review method")
-    coverage = document.get("coverage")
-    if (not isinstance(coverage, dict) or coverage.get("complete_edge_utterances") is not True
-            or any(type(coverage.get(name)) is not int or coverage[name] < 2
-                   for name in ("opening_utterances", "ending_utterances", "full_script_cycles"))):
-        raise WorkflowError("narrative_loop review must cover complete edge utterances and two full-script cycles")
-    observations = document.get("observations")
+    loop = document.get("narrative_loop")
+    if not isinstance(loop, dict) or set(loop) != {"opening", "ending", "joined_excerpt", "decision", "observations"}:
+        raise WorkflowError("narrative_loop requires the independent reviewer's complete narrative section")
+    if any(loop.get(name) != observed[name] for name in ("opening", "ending", "joined_excerpt")):
+        raise WorkflowError("narrative_loop evidence does not bind the exact reviewed script and seam")
+    if document.get("decision") != "pass" or loop.get("decision") != "pass":
+        raise WorkflowError("narrative_loop review is not passed; a thematic callback or unverified seam needs revision")
+    observations = loop.get("observations")
     if not isinstance(observations, dict) or set(observations) != OBSERVATIONS:
-        raise WorkflowError("narrative_loop needs separate continuity, cold opening, payoff and two-cycle observations")
+        raise WorkflowError("narrative_loop needs continuation, cold opening, payoff, two-cycle and restart-test observations")
     for name in OBSERVATIONS:
         _note(observations[name], "narrative_loop observation " + name)
     if observations["payoff_quote"] not in script_text:

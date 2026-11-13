@@ -8,6 +8,7 @@ import unittest
 
 import test_repository_check as repository_fixtures
 from ytvideos.context import STAGE_REFERENCES, reference_context, snapshot_references
+from ytvideos.documentation import DATA_ONLY_PATHS
 from ytvideos.errors import WorkflowError
 from ytvideos.util import digest
 
@@ -48,6 +49,15 @@ class CurrentTaskDocumentsTest(unittest.TestCase):
                 self.write("channels/example/PROFILE.md", "# Profile\n\n" + heading + "\nOld decisions.\n")
                 with self.assertRaisesRegex(WorkflowError, "change history"):
                     self.snapshot()
+
+    def test_retained_inventories_and_episode_drafts_cannot_be_rules(self):
+        for name in DATA_ONLY_PATHS:
+            with self.subTest(path=name):
+                path = self.write(name, "# Retained record\nExact recorded state.\n")
+                original = path.read_bytes()
+                with self.assertRaisesRegex(WorkflowError, "historical"):
+                    self.snapshot(name)
+                self.assertEqual(path.read_bytes(), original)
 
     def test_explicit_historical_frontmatter_is_not_a_current_recipe(self):
         name = "channels/example/docs/recipe.md"

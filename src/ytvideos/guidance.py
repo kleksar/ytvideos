@@ -29,6 +29,15 @@ def task_guide(run, task, references=(), requirements=None):
         goal = ("Проверить факты и источники присланного текста, сохранив выбранный сюжет."
                 if stage == "research" else
                 "Проверить точный присланный текст; изменение narration требует отдельного принятия версии.")
+    music_first = run["profile"]["recipe"] == "music_first"
+    if music_first:
+        goal = {"research": "Проверить запись, музыкальный отрывок, права и выразительные футажи; выбрать монтажный замысел.",
+                "script": "Подготовить и независимо проверить typed edit plan с точным текстом песни для vocal либо без текста для instrumental.",
+                "storyboard": "Связать принятый edit plan с акцентами точной музыки, исходными футажами и плавным движением каждого плана.",
+                "audio": "Собрать и прослушать точный музыкальный отрывок штатным audio.mix; сохранить исходную запись и время начала.",
+                "subtitles": "Для vocal связать все слышимые слова с точной музыкой; для instrumental сохранить проверенный no_speech marker.",
+                "render": "Собрать MP4 штатным music_render: плавное движение, три компонента каждого перехода, цвет и применимые lyric masks.",
+                }.get(stage, goal)
     speech_mode = (requirements or {}).get("speech", {}).get("mode")
     if stage == "audio" and speech_mode in {"source", "none"}:
         goal = "Собрать и прослушать точный исходный звук/музыку принятого edit-script; TTS не применяется."
@@ -63,21 +72,37 @@ def task_guide(run, task, references=(), requirements=None):
                            "Do not invent 40 words of narration for an original-sound or silent clip. "
                            "Ordinary full narration remains supported when narration is actually intended.",
         }
+    if music_first:
+        guidance["music_edit"] = {
+            "adapter": "music_render", "audio_adapter": "mix", "speech_modes": ["source", "none"],
+            "variant_selection": "Accept vocal/source or instrumental/none in ytv-edit-script-v1 before production. "
+                                 "Vocal requires exact sung text and subtitle.align; instrumental uses no_speech. "
+                                 "Preserve a supplied edit plan exactly until an explicit revision is accepted.",
+            "inputs": "Original recording with excerpt offset; ordered licensed footage with source/rights/interval; "
+                      "canonical music_montage input/output; native source-mix evidence. Vocal also needs every lyric "
+                      "word timed to accepted audio and the actual pinned font face. No narration or TTS fallback.",
+            "review": "Watch and listen to the exact export, including every cut and lyric boundary. "
+                      "A renderer receipt and fragment journal prove bindings, not perceptual quality or rights.",
+        }
     if stage == "script" and requirements is not None:
         from .capabilities import DISCOVERY
         guidance["independent_review"] = {
             "capability": "sessions.independent", "discovery": DISCOVERY["sessions.independent"],
-            "evidence": "Use the actual separate reviewer/session result and exact script hash. "
-                        "An invented reviewer identity or author role-play does not complete this task.",
+            "evidence": "Prepare exact reading input with python -m ytvideos.script_review. Give it to a fresh "
+                        "independent reader without an author verdict. Ask that reader to save their own "
+                        "ytv-script-review-v1 JSON result with the actual tool/session identity and first-listener "
+                        "findings. Preserve the result verbatim and bind its path/hash in the receipt. "
+                        "An invented reviewer identity, author paraphrase or role-play does not complete this task.",
         }
         applicability = requirements.get("narrative_loop", "unresolved")
         guidance["narrative_loop"] = {
             "applicability": applicability,
-            "action": ("Read the last two and first two utterances in that order, then the opening alone and "
-                       "two full cycles. Preserve exact prefix/suffix excerpts and ending + newline + opening; "
-                       "an independent reviewer must explain continuous narration, cold-opening clarity and "
-                       "the payoff already delivered before replay. Save hash-bound ytv-narrative-loop-v1 evidence. "
-                       "A thematic callback or a JSON verdict is not proof of a continuous narrative seam."
+            "action": ("Include exact edge excerpts and literal two_cycles in the canonical script-review input. "
+                       "The independent reader must assess the ending-to-opening continuation, cold opening, "
+                       "payoff before replay and both full cycles, explicitly testing whether replay sounds "
+                       "like a fresh introduction or only a thematic callback. independent_review and "
+                       "narrative_loop must reference the SAME reader-produced ytv-script-review-v1 result. "
+                       "Author reading, utterance counts and a continuous_narration label are not that review."
                        if applicability == "required" else
                        "Do not invent narration to create a loop; use the recipe's applicable audiovisual check."
                        if applicability == "not_applicable" else

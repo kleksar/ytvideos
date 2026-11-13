@@ -1,0 +1,36 @@
+{
+  "run_id": "1e1eef89-54ae-4bfa-9dcd-84b0cb74a6c1",
+  "task_id": "research",
+  "input_hash": "e7dd28390a02f8da7b2393bd1196092ccf7a3d1aff86625afa3d71ecf06627e5",
+  "output_sha256": "1215aa8eee8cfde9f55a9c479810f5b3039257ecf6feb3362cb6f3bcb27a5eb8",
+  "worker": "luna-history-start",
+  "checks": [
+    {
+      "name": "sources",
+      "status": "pass",
+      "method": "Web search and direct opening of IOC, Olympedia, USOPM, Smithsonian and Massachusetts Secretary of State pages; saved URLs and inspected locations.",
+      "observed": {
+        "evidence_path": ".ytvideos/artifacts/research/sources_observed.md",
+        "fact_support": "IOC and Olympedia corroborate Carvajal details; USOPM corroborates Lorz/Hicks summary. No primary 1904 document retrieved."
+      }
+    },
+    {
+      "name": "topic_overlap",
+      "status": "pass",
+      "method": "Read pinned topic history and inspected available Nuviko History episode directory.",
+      "observed": {
+        "topic_history": "empty",
+        "episode_directory": "channels/nuviko_history/videos absent in this checkout",
+        "result": "no overlap in available records; complete historical coverage unverified"
+      }
+    },
+    {
+      "name": "viewer_value",
+      "status": "pass",
+      "method": "Compared three concrete candidate angles for hook, escalating events, payoff and strongest objection.",
+      "observed": {
+        "selected": "Carvajal story selected for setbacks-to-fourth-place character arc; shortlist and comparison in output."
+      }
+    }
+  ]
+}

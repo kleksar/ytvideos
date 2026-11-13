@@ -118,7 +118,9 @@ class LicensedSilentLifecycle(unittest.TestCase):
         for name in sorted(names):
             observed = {"synthetic_fixture": True}
             if name == "independent_review":
-                observed = {"reviewer": "test-independent-script-reviewer", "artifact_sha256": file_digest(path)}
+                from test_workflow import script_review_observation
+                observed = script_review_observation(path, self.directory / "edit-script-review.json",
+                                                     reviewer="test-independent-script-reviewer")
             if name == "no_speech" or task_id == "review":
                 evidence = self.write("Synthetic software evidence only; no human listening or live creative QA is claimed.",
                                       task_id + "-" + name + "-observation.txt")

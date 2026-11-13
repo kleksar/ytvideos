@@ -29,7 +29,7 @@ def load_profile(root, channel):
         raise WorkflowError(f"channel {channel} is {profile['status']}; an explicit profile change is required")
     for field in ("recipe", "youtube_channel_id"):
         require_text(profile.get(field), field)
-    if profile.get("recipe") not in {"illustrated", "licensed_clips"}:
+    if profile.get("recipe") not in {"illustrated", "licensed_clips", "music_first"}:
         raise WorkflowError("unknown production recipe")
     if not isinstance(profile.get("release_policy"), dict):
         raise WorkflowError("channel release_policy is required")

@@ -34,6 +34,7 @@ uv run ytv start --channel CHANNEL_ID --format short --intent 'точный за
 ## Канал, версии и сохранность
 
 - Явный канал или существующий run имеют приоритет; default новой работы без канала — Paper Detour. Текущий статус брать из `channels/<id>/channel.json`; каталог [каналов](channels/README.md) объясняет неподключённые и архивные identities.
+- Перед vidIQ сверять баланс и стоимость по [правилам кредитов](docs/operations/vidiq-credits.md): бюджет общий для всех сессий.
 - Закреплённые версии существующего выпуска не заменять текущим профилем. Переносить по [migration](docs/migration.md); чужие файлы и активные outputs сохранять.
 - Credentials и медиа не коммитить. Сохранять IDs, права, решения, hashes и receipts; очистка — по [storage](docs/standards/storage.md).
 

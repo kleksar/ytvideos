@@ -30,24 +30,38 @@ SCRIPT = (OPENING + " The empty lane looked inviting, but the bridge deck was mi
           + PAYOFF + " " + ENDING)
 
 
-def loop_observation(script_path, evidence_path):
-    """Explicit synthetic review for this single state-machine story, never real QA."""
-    observed = {"artifact_sha256": file_digest(script_path), "opening": OPENING, "ending": ENDING,
-                "joined_excerpt": ENDING + "\n" + OPENING, "reviewer": "separate-test-reviewer"}
-    document = {"schema": "ytv-narrative-loop-v1", "script_sha256": observed["artifact_sha256"],
-                **{key: observed[key] for key in ("opening", "ending", "joined_excerpt", "reviewer")},
-                "relationship": "continuous_narration", "method": "Synthetic schema/state fixture, not a production review.",
-                "coverage": {"opening_utterances": 2, "ending_utterances": 2, "full_script_cycles": 2,
-                             "complete_edge_utterances": True},
-                "observations": {
+def script_review_observation(script_path, evidence_path, *, loop=False, reviewer="separate-test-reviewer"):
+    """Synthetic software evidence only; no real independent/model review is claimed."""
+    from ytvideos.script_review import build_review_input
+    text = script_path.read_bytes().decode("utf-8")
+    observed = {"artifact_sha256": file_digest(script_path), "reviewer": reviewer}
+    packet_path = evidence_path.with_name(evidence_path.name + ".input.json")
+    packet = build_review_input(text, observed["artifact_sha256"],
+                               **({"opening": OPENING, "ending": ENDING} if loop else {}))
+    packet_path.write_text(json.dumps(packet))
+    document = {"schema": "ytv-script-review-v1", "script_sha256": observed["artifact_sha256"],
+                "reviewer": reviewer, "source": {"tool": "synthetic-fixture-only", "session_id": reviewer},
+                "input": {"path": str(packet_path), "sha256": file_digest(packet_path)}, "decision": "pass",
+                "first_listener": {"understood": "Synthetic fixture: the text supplies the exact test input.",
+                                   "attention": "Synthetic fixture tests artifact binding, never real audience interest.",
+                                   "quotes": [text.strip()]}, "findings": [], "narrative_loop": None}
+    if loop:
+        document["narrative_loop"] = {"opening": OPENING, "ending": ENDING,
+            "joined_excerpt": ENDING + "\n" + OPENING, "decision": "pass", "observations": {
                     "continuation": "Fixture: 'I finally understood why' continues into the empty-bridge observation.",
                     "cold_open": "Fixture: an empty bridge and a route choice introduce the situation without prior playback.",
                     "payoff_quote": PAYOFF,
                     "payoff_before_repeat": "Fixture: the traveller has crossed safely before the repeated observation explains the empty road.",
-                    "two_cycle_read": "Fixture: the repeated bridge observation does not invent a second journey or withhold the crossing outcome."}}
+                    "two_cycle_read": "Fixture: the exact doubled input tests the preserved replay material, not actual reading.",
+                    "restart_test": "Fixture: the why clause continues into its explanation; this does not claim semantic classification."}}
     evidence_path.write_text(json.dumps(document))
     observed["evidence"] = {"path": str(evidence_path), "sha256": file_digest(evidence_path)}
     return observed
+
+
+def loop_observation(script_path, evidence_path):
+    observed = script_review_observation(script_path, evidence_path, loop=True)
+    return {**observed, "opening": OPENING, "ending": ENDING, "joined_excerpt": ENDING + "\n" + OPENING}
 
 
 class WorkflowContract(unittest.TestCase):
@@ -106,11 +120,15 @@ class WorkflowContract(unittest.TestCase):
         checks = [{"name": name, "status": "pass", "method": "unit-test fixture",
                    "observed": {"fixture": True}} for name in sorted(required_checks(task["stage"], self.service.requirements(run)))
                   if name != remove]
+        review = None
+        if task["stage"] == "script":
+            review = script_review_observation(path, self.directory / (str(uuid.uuid4()) + "-review.json"),
+                                               loop="narrative_loop" in required_checks(task["stage"], self.service.requirements(run)))
         for check in checks:
             if check["name"] == "independent_review":
-                check["observed"] = {"reviewer": "separate-test-reviewer", "artifact_sha256": file_digest(path)}
+                check["observed"] = review
             if check["name"] == "narrative_loop":
-                check["observed"] = loop_observation(path, self.directory / (str(uuid.uuid4()) + "-loop.json"))
+                check["observed"] = {**review, "opening": OPENING, "ending": ENDING, "joined_excerpt": ENDING + "\n" + OPENING}
         return self.output({"run_id": self.run_id, "task_id": task_id, "worker": claim["worker"],
                             "input_hash": claim["input_hash"], "output_sha256": file_digest(path), "checks": checks})
 

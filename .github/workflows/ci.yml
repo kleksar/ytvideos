@@ -100,6 +100,13 @@ jobs:
           entries = {"AGENTS.md", "README.md", "ONBOARDING.md", "COLLABORATION.md", "pyproject.toml", "uv.lock",
                      ".agent/README.md", ".agent/documentation-index.md",
                      ".agent/skill-catalog.json", ".agent/skill-catalog.md", "channels/README.md"}
+          # Include compatibility entrances that the documentation gate checks.
+          # Their navigation is part of the reviewed source, not an episode log.
+          import importlib.util
+          specification = importlib.util.spec_from_file_location("repository_check", "scripts/check_repository.py")
+          repository_check = importlib.util.module_from_spec(specification)
+          specification.loader.exec_module(repository_check)
+          entries.update(repository_check.REDIRECTS)
           for path in tracked:
               if path.startswith("channels/") and Path(path).name == "channel.json":
                   profile = json.loads(subprocess.check_output(["git", "show", f"{head}:{path}"], text=True))

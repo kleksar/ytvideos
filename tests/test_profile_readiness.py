@@ -7,7 +7,6 @@ import tempfile
 import unittest
 
 from ytvideos.cli import main
-from ytvideos.errors import WorkflowError
 from ytvideos.profiles import inspect_profiles, load_profile
 
 
@@ -15,18 +14,17 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class ProfileReadinessTests(unittest.TestCase):
-    def test_all_five_identities_are_visible_without_activating_missing_recipes(self):
+    def test_all_five_short_recipes_are_visible_without_claiming_live_readiness(self):
         result = inspect_profiles(ROOT / "channels", format="short", project=ROOT)
         rows = {row["channel"]: row for row in result["channels"]}
         self.assertEqual(set(rows), {"paper_detour", "nuviko_history", "nuviko_videos",
                                      "scenes_on_repeat", "two_ways_lab"})
         self.assertTrue(rows["paper_detour"]["configuration_ready"])
         self.assertTrue(rows["two_ways_lab"]["configuration_ready"])
-        self.assertFalse(rows["nuviko_videos"]["configuration_ready"])
-        self.assertTrue(any("Music-first" in text for text in rows["nuviko_videos"]["blockers"]))
+        self.assertTrue(rows["nuviko_videos"]["configuration_ready"])
+        self.assertEqual(set(rows["nuviko_videos"]["formats"]["short"]["variants"]), {"vocal", "instrumental"})
         self.assertEqual(result["live_readiness"], "unverified")
-        with self.assertRaisesRegex(WorkflowError, "unconfigured"):
-            load_profile(ROOT / "channels", "nuviko_videos")
+        self.assertEqual(load_profile(ROOT / "channels", "nuviko_videos")["recipe"], "music_first")
 
     def test_short_variants_are_resolved_separately_and_incomplete_long_is_visible(self):
         result = inspect_profiles(ROOT / "channels", channel="scenes_on_repeat", project=ROOT)

@@ -1,5 +1,6 @@
 import importlib.util
 import json
+import os
 from pathlib import Path
 import tempfile
 import unittest
@@ -18,6 +19,10 @@ class RepositoryCheckTest(unittest.TestCase):
             (self.root / folder).mkdir(parents=True, exist_ok=True)
         for name in checker.ENTRIES:
             self.write(name, '# Entry\n')
+        self.write('docs/development.md', '# Git и совместная работа\n')
+        for name in checker.ENTRIES:
+            if name in checker.REDIRECTS:
+                self.write_redirect(name)
         self.catalog = {'schema_version': 1, 'skills': []}
         self.save_catalog()
 
@@ -30,6 +35,13 @@ class RepositoryCheckTest(unittest.TestCase):
     def save_catalog(self):
         self.write('.agent/skill-catalog.json', json.dumps(self.catalog))
         self.write('.agent/skill-catalog.md', checker.render_catalog(self.catalog))
+
+    def write_redirect(self, name):
+        owner, _, fragment = checker.REDIRECTS[name].partition('#')
+        parent = (self.root / name).parent
+        root_link = os.path.relpath(self.root / 'AGENTS.md', parent)
+        owner_link = os.path.relpath(self.root / owner, parent) + ('#' + fragment if fragment else '')
+        return self.write(name, f'# Entry\n\n[Start]({root_link}) · [Owner]({owner_link}).\n')
 
     def add_skill(self, name='ytv-test'):
         entry = {'name': name, 'path': f'.agents/skills/{name}/SKILL.md',
@@ -46,7 +58,7 @@ class RepositoryCheckTest(unittest.TestCase):
         self.add_skill()
         errors, documents, skills = checker.check(self.root)
         self.assertEqual(errors, [])
-        self.assertEqual(documents, 8)
+        self.assertEqual(documents, 9)
         self.assertEqual(skills, 1)
 
     def test_historical_agent_notes_are_not_inputs_but_current_channel_links_are_checked(self):
@@ -63,11 +75,32 @@ class RepositoryCheckTest(unittest.TestCase):
                      'channels/example/PROFILE.md',
                      'channels/example/profile.md', 'channels/example/README.md', 'channels/README.md'):
             with self.subTest(name=name):
+                original = (self.root / name).read_text() if (self.root / name).exists() else '# Entry\n'
                 path = self.write(name, '[missing](missing.md)\n')
                 errors = self.errors()
-                self.assertEqual(len(errors), 1)
-                self.assertIn(name, errors[0])
-                path.write_text('# Entry\n', encoding='utf-8')
+                self.assertTrue(any(name in error and 'missing link' in error for error in errors))
+                path.write_text(original, encoding='utf-8')
+
+    def test_all_legacy_entrances_are_checked_as_navigation_only(self):
+        for name, target in checker.REDIRECTS.items():
+            with self.subTest(name=name):
+                owner, _, fragment = target.partition('#')
+                if not (self.root / owner).exists():
+                    self.write(owner, '# ' + (fragment or 'Owner') + '\n')
+                elif fragment and fragment not in checker.markdown_anchors((self.root / owner).read_text()):
+                    with (self.root / owner).open('a') as stream:
+                        stream.write('\n# ' + fragment + '\n')
+                path = self.write_redirect(name)
+                self.assertEqual(self.errors(), [])
+                original = path.read_text()
+                path.write_text(original + '\nShort may omit the narrative loop.\n')
+                self.assertTrue(any('compatibility entry' in error for error in self.errors()))
+                path.write_text(original)
+
+    def test_redirect_cannot_point_at_a_competing_existing_owner(self):
+        path = self.root / '.agent/README.md'
+        path.write_text('# Entry\n\n[Start](../AGENTS.md) · [Old rules](../README.md).\n')
+        self.assertTrue(any('compatibility entry' in error for error in self.errors()))
 
     def test_missing_same_page_and_cross_page_anchors_fail(self):
         self.write('README.md', '# Entry\n[here](#absent) [there](AGENTS.md#absent)\n')

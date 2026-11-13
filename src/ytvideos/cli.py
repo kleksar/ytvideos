@@ -35,10 +35,13 @@ def parser():
     create.add_argument("--budget-units", type=int)
     create.add_argument("--source-script", type=Path,
                         help="Preserve supplied full narration or licensed edit-script bytes; does not invent approval")
+    create.add_argument("--session-id", help="Explicit host correlation ID; default CODEX_THREAD_ID (not approval)")
     sub.add_parser("list", help="Show all runs without loading their creative histories")
     for name in ("status", "next", "plan", "resume", "export", "events", "deferred-actions"):
         command = sub.add_parser(name)
         command.add_argument("--run", required=True)
+        if name == "resume":
+            command.add_argument("--session-id", help="Explicit host correlation ID; default CODEX_THREAD_ID")
     context = sub.add_parser("context")
     context.add_argument("--run", required=True)
     context.add_argument("--task", required=True)
@@ -47,6 +50,7 @@ def parser():
     claim.add_argument("--run", required=True)
     claim.add_argument("--task", required=True)
     claim.add_argument("--worker", required=True)
+    claim.add_argument("--session-id", help="Existing host binding for lease tracking; default CODEX_THREAD_ID")
     claim.add_argument("--lease-seconds", type=int, default=900)
     claim.add_argument("--estimated-units", type=int, default=0)
     heartbeat = sub.add_parser("heartbeat")
@@ -149,7 +153,7 @@ def dispatch(service, args):
                              profiles=args.profiles, budget_units=args.budget_units, source_script=args.source_script)
         if command == "start":
             from .entry import start_packet
-            return start_packet(service, run["id"])
+            return start_packet(service, run["id"], session_id=args.session_id)
         return {"run_id": run["id"], "pins": run["pins"], "next": service.next(run["id"]),
                 "plan": service.plan(run["id"])}
     if command == "list":
@@ -157,7 +161,11 @@ def dispatch(service, args):
                 for r in service.store.list()]
     if command in {"next", "status"}:
         return service.next(args.run)
-    if command in {"plan", "resume", "export"}:
+    if command == "resume":
+        from .session_guard import bind_session
+        result = service.resume(args.run)
+        return {**result, "session_guard": bind_session(service, args.run, args.session_id)}
+    if command in {"plan", "export"}:
         return getattr(service, command)(args.run)
     if command == "events":
         return service.store.events(args.run)
@@ -170,8 +178,16 @@ def dispatch(service, args):
             args.output.write_text(json.dumps(packet, ensure_ascii=False, indent=2) + "\n")
         return packet
     if command == "claim":
-        return service.claim(args.run, args.task, args.worker, lease_seconds=args.lease_seconds,
-                             estimated_units=args.estimated_units, with_context=True)
+        from .session_guard import record_claim
+        result = service.claim(args.run, args.task, args.worker, lease_seconds=args.lease_seconds,
+                               estimated_units=args.estimated_units, with_context=True)
+        try:
+            record_claim(service, args.run, args.task, result, args.session_id)
+        except Exception as exc:
+            # The workflow claim already committed. Preserve its token/context
+            # even if optional host bookkeeping is unavailable.
+            result["session_guard"] = {"tracking": "unavailable", "error": type(exc).__name__}
+        return result
     if command == "heartbeat":
         return service.heartbeat(args.run, args.task, args.token, lease_seconds=args.lease_seconds)
     if command == "complete":

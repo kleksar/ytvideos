@@ -28,8 +28,8 @@ def read_script(path, profile, format):
     except ValueError:
         value = None
     if isinstance(value, dict):
-        if profile.get("recipe") != "licensed_clips" or value.get("schema") != EDIT_SCHEMA:
-            raise WorkflowError("typed edit scripts apply only to the registered licensed-clips recipe")
+        if profile.get("recipe") not in {"licensed_clips", "music_first"} or value.get("schema") != EDIT_SCHEMA:
+            raise WorkflowError("typed edit scripts apply only to registered licensed-clips or music-first recipes")
         if set(value) != {"schema", "production_variant", "intent", "speech", "segments"}:
             raise WorkflowError("edit script requires schema, production_variant, intent, speech and segments")
         require_text(value["intent"], "complete editorial intent")
@@ -43,6 +43,10 @@ def read_script(path, profile, format):
         if (not isinstance(speech["mode"], str) or speech["mode"] not in {"none", "source", "narration"}
                 or not isinstance(speech["text"], str)):
             raise WorkflowError("edit script speech mode must be none, source or narration")
+        if profile.get("recipe") == "music_first" and (
+                speech["mode"] not in {"none", "source"}
+                or variants[variant].get("speech_mode") != speech["mode"]):
+            raise WorkflowError("music-first edits must select the matching vocal/source or instrumental/none variant")
         if speech["mode"] == "none":
             if speech["text"] != "":
                 raise WorkflowError("a no-speech edit must contain no invented narration or dialogue")
@@ -70,6 +74,8 @@ def read_script(path, profile, format):
             raise WorkflowError("ordered edit segments must preserve every spoken word")
         return {"kind": "edit_script", "mode": speech["mode"], "text": speech["text"],
                 "production_variant": variant, "segment_ids": ids}
+    if profile.get("recipe") == "music_first":
+        raise WorkflowError("music-first requires a typed accepted edit plan and exact lyrics when vocal, never narration")
     if len(text.split()) < 40:
         raise WorkflowError("deliver a complete narration, not a topic or outline")
     return {"kind": "narration", "mode": "narration", "text": text,

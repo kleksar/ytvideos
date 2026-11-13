@@ -49,7 +49,9 @@ def required_checks(stage, requirements=None, *, purpose=None):
         checks.add("narrative_loop")
     if stage == "scene_image" and purpose == "thumbnail":
         checks.add("thumbnail_review")
-    speech_mode = (requirements or {}).get("speech", {}).get("mode")
+    speech_mode = (requirements or {}).get("speech", {}).get("mode", (requirements or {}).get("speech_mode"))
+    if stage == "audio" and "music_edit" in (requirements or {}) and speech_mode is None:
+        checks = {"source_identity", "listening", "excerpt_mode"}
     if stage == "audio" and speech_mode in {"source", "none"}:
         checks = {"source_identity", "listening", "exact_text" if speech_mode == "source" else "no_speech"}
     if stage == "subtitles" and speech_mode == "none":
@@ -68,6 +70,10 @@ def output_kind(stage, requirements=None):
 
 def configure_speech_tasks(run, mode):
     """Keep the pending graph aligned with the accepted content, including revisions."""
+    if mode is None and run["profile"]["recipe"] == "music_first":
+        run["tasks"]["audio"]["capabilities"] = ["audio.mix", "audio.listen"]
+        run["tasks"]["subtitles"]["capabilities"] = ["audio.listen"]
+        return
     run["tasks"]["audio"]["capabilities"] = [
         "audio.mix" if mode in {"source", "none"} else "audio.produce", "audio.listen"]
     run["tasks"]["subtitles"]["capabilities"] = ["audio.listen" if mode == "none" else "subtitle.align"]
@@ -79,9 +85,14 @@ def task_references(task):
     return select(task)
 
 
-def new_tasks():
-    return {stage: make_task(stage, stage, deps, gates, capabilities, skill)
-            for stage, (deps, gates, capabilities, skill) in STAGES.items()}
+def new_tasks(recipe=None):
+    tasks = {stage: make_task(stage, stage, deps, gates, capabilities, skill)
+             for stage, (deps, gates, capabilities, skill) in STAGES.items()}
+    if recipe == "music_first":
+        tasks["audio"]["capabilities"] = ["audio.mix", "audio.listen"]
+        # Vocal alignment becomes required only after that variant is accepted.
+        tasks["subtitles"]["capabilities"] = ["audio.listen"]
+    return tasks
 
 
 def make_task(task_id, stage, dependencies, gates, capabilities, skill):

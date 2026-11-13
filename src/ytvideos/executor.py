@@ -27,8 +27,8 @@ class MediaExecutor:
         task = production._task(run, task_id)
         claim = production._current_claim(run, task, token)
         kind = request["kind"]
-        requirements = production.requirements(run) if kind == "montage" else None
-        allowed = {"audio": {"tts", "mix"}, "subtitles": {"srt"}, "render": {"montage"}, "review": {"inspect"}}
+        requirements = production.requirements(run) if kind in {"montage", "music_render"} else None
+        allowed = {"audio": {"tts", "mix"}, "subtitles": {"srt"}, "render": {"montage", "music_render"}, "review": {"inspect"}}
         if kind not in allowed.get(task["stage"], set()):
             raise WorkflowError("media command does not belong to the claimed task")
         if not valid_approval(run, "script"):
@@ -97,6 +97,35 @@ class MediaExecutor:
                         raise WorkflowError("register source audio artifacts before mixing")
                     inputs.append({"path": str(segment["path"]), "sha256": segment["sha256"]})
                 args = [str(manifest), "--output", str(destination)]
+            if kind == "music_render":
+                from .music_contract import file_record, validate_plan
+                if run["profile"]["recipe"] != "music_first":
+                    raise WorkflowError("music_render belongs to the registered music-first recipe")
+                if len(args) != 3 or args[1] != "--output" or len(outputs) != 1:
+                    raise WorkflowError("music_render requires MANIFEST --output OWNED_MP4; settings come from the pinned profile")
+                manifest, destination = Path(args[0]).resolve(), Path(args[2]).resolve()
+                if str(manifest) not in {item["path"] for item in inputs} or destination not in outputs:
+                    raise WorkflowError("music manifest and output must be bound to this attempt")
+                plan = json.loads(manifest.read_text())
+                if file_digest(plan["audio"]) != production._artifact(run, "audio")["sha256"]:
+                    raise Conflict("music render differs from the accepted exact audio")
+                if [file_digest(scene["clip"]) for scene in plan["scenes"]] != [
+                        item["sha256"] for item in production.render_sources(run, task)]:
+                    raise Conflict("music render must preserve accepted scene order and multiplicity")
+                prepared = validate_plan(plan, requirements, base=manifest.parent, project=production.project, script=script_content)
+                if prepared["requires_srt"] and file_digest(plan["srt"]) != production._artifact(run, "subtitles")["sha256"]:
+                    raise Conflict("music render SRT differs from the accepted subtitles")
+                inputs.extend(prepared["inputs"])
+                inputs.extend(production.music_inputs(run, task, plan))
+                requirement_path = attempt / ("music-requirements-" + requirements["sha256"] + ".json")
+                if not requirement_path.exists():
+                    with requirement_path.open("x") as stream:
+                        stream.write(canonical(requirements) + "\n")
+                if json.loads(requirement_path.read_text()) != requirements:
+                    raise Conflict("owned music requirements changed before execution")
+                inputs.append(file_record(requirement_path))
+                args = [str(manifest), "--output", str(destination), "--work-dir", str(attempt / "music-work"),
+                        "--requirements", str(requirement_path)]
             if kind == "montage":
                 if run["profile"]["recipe"] != "illustrated":
                     raise WorkflowError("the montage adapter renders illustrated scenes; licensed clips need a bound host_render execution")
@@ -178,7 +207,7 @@ class MediaExecutor:
                 production._current_claim(current, current_task, token)
                 if not valid_approval(current, "script"):
                     raise Conflict("script approval changed before execution")
-                if observed_request["kind"] == "montage" and digest(load_profile(production.project / "channels", current["channel"])) != current["pins"]["profile"]:
+                if observed_request["kind"] in {"montage", "music_render"} and digest(load_profile(production.project / "channels", current["channel"])) != current["pins"]["profile"]:
                     raise Conflict("montage helper channel profile changed; use the pinned checkout")
                 if observed_request["kind"] == "tts":
                     payload = production._operation_payload(current, current_task, "tts")
@@ -194,7 +223,18 @@ class MediaExecutor:
                                  input_hash=claim["input_hash"], inputs=inputs, outputs=outputs,
                                  receipt_path=receipt, timeout=request.get("timeout", 900))
         delivery_evidence = None
-        if kind == "montage" and result["state"] == "completed" and not any(
+        mix_evidence = None
+        if kind == "mix" and result["state"] == "completed":
+            from .music_contract import MIX_SCHEMA, file_record
+            summary = {"schema": MIX_SCHEMA, "audio_sha256": file_digest(outputs[0]),
+                       "track_sha256": sorted({segment["sha256"] for segment in segments}),
+                       "returncode": result["returncode"], "argv": result["argv"],
+                       "execution": file_record(receipt), "source_plan": file_record(manifest)}
+            summary_path = attempt / ("mix-evidence-" + digest(summary)[:16] + ".json")
+            with summary_path.open("x") as stream:
+                stream.write(canonical(summary) + "\n")
+            mix_evidence = file_record(summary_path)
+        if kind in {"montage", "music_render"} and result["state"] == "completed" and not any(
                 mode in args for mode in ("--plan-only", "--prepare-subtitles", "--check-settings")):
             output_path = Path(args[args.index("--output") + 1]).resolve()
             canonical_receipt = Path(str(output_path) + ".delivery.json")
@@ -222,6 +262,7 @@ class MediaExecutor:
             production.observe_operation(run_id, operation["key"], status, observed_path,
                                          event_id=f"media:{operation['attempt_id']}")
         return {"execution": result, "receipt": str(receipt), "delivery_evidence": delivery_evidence,
+                "mix_evidence": mix_evidence,
                 "audio_processing": {"raw_tts_speed": 1.0, "target_master_speed": run["profile"].get("voice", {}).get("speed"),
                                      "final_speed_processing_performed": False} if kind == "tts" else None,
                 "next": "Complete mixing/content QA and required checks; subprocess success is not stage completion."}

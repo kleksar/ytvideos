@@ -82,7 +82,7 @@ class Production:
         budget.update({"reserved": 0, "spent": 0, "unknown_reserved": 0})
         run = {"schema_version": 1, "id": str(uuid.uuid4()), "request_id": request_id, "version": 0,
                "revision": 1, "created_at": utc_now(), "channel": channel, "profile": profile,
-               "intent": intent, "format": format, "status": "working", "tasks": new_tasks(),
+               "intent": intent, "format": format, "status": "working", "tasks": new_tasks(profile["recipe"]),
                "artifacts": {}, "approvals": {}, "capabilities": capabilities or {}, "budget": budget,
                "skills": skills, "reference_snapshot": references,
                "pins": {"workflow": WORKFLOW_VERSION, "code": code_identity(self.project),
@@ -190,7 +190,7 @@ class Production:
             if not dependency.startswith("image:"):
                 continue
             artifact = self._artifact(run, dependency)
-            if run["profile"]["recipe"] == "licensed_clips":
+            if run["profile"]["recipe"] in {"licensed_clips", "music_first"}:
                 path = self.artifacts.resolve(artifact)
                 with path.open("rb") as stream:
                     is_manifest = stream.read(1) == b"{"
@@ -202,6 +202,45 @@ class Production:
                     self.artifacts.resolve(artifact)
             result.append(artifact)
         return result
+
+    def music_inputs(self, run, task, plan):
+        """Bind original footage/rights and the accepted native mix before rendering."""
+        from .music_contract import checked, document, file_record
+        if file_digest(plan["script"]) != self._artifact(run, "script")["sha256"]:
+            raise WorkflowError("music render must preserve the exact accepted edit script")
+        records = [file_record(plan["script"])]
+        dependencies = [key for key in task["dependencies"] if key.startswith("image:")]
+        if len(dependencies) != len(plan["scenes"]):
+            raise WorkflowError("music render differs from the accepted shot count")
+        for dependency, scene in zip(dependencies, plan["scenes"]):
+            pinned = run["tasks"][dependency]["payload"]["source_clip"]
+            source = scene["source"]
+            original = run["artifacts"][pinned["source_artifact_id"]]
+            rights = run["artifacts"][pinned["rights_artifact_id"]]
+            if (scene["id"] != dependency.removeprefix("image:")
+                    or source["sha256"] != original["sha256"]
+                    or source["start_seconds"] != pinned["start_seconds"]
+                    or source["end_seconds"] != pinned["end_seconds"]
+                    or source.get("rights_evidence", {}).get("sha256") != rights["sha256"]):
+                raise WorkflowError("music footage/rights/interval differs from the accepted storyboard")
+            records += [{key: source[key] for key in ("path", "sha256")}, source["rights_evidence"]]
+        accepted = run["tasks"]["audio"]
+        receipt = json.loads(self.artifacts.resolve(run["artifacts"][accepted["receipt"]]).read_text())
+        identity = next(check["observed"] for check in receipt["checks"] if check["name"] == "source_identity")
+        if plan["music"]["mix_evidence"] != identity.get("mix_evidence"):
+            raise WorkflowError("music render must use the exact accepted audio execution evidence")
+        mix = document(plan["music"]["mix_evidence"])
+        execution = document(mix["execution"])
+        if execution.get("claim_token") != accepted["completed_token"] or execution.get("run_id") != run["id"]:
+            raise WorkflowError("music render source mix belongs to another accepted task")
+        music_rights = plan["music"].get("rights_evidence")
+        checked(music_rights)
+        if music_rights["sha256"] not in {item["sha256"] for item in run["artifacts"].values()}:
+            raise WorkflowError("register the exact music rights evidence before rendering")
+        records.append(music_rights)
+        for record in records:
+            checked(record)
+        return records
 
     def next(self, run_id):
         run = self.store.get(run_id)
@@ -510,24 +549,23 @@ class Production:
         if missing:
             raise WorkflowError("missing checks: " + ", ".join(sorted(missing)))
         if task["stage"] == "script":
-            review = by_name["independent_review"]["observed"]
-            if review.get("reviewer") in {None, "", claim["worker"]} or review.get("artifact_sha256") != artifact["sha256"]:
-                raise WorkflowError("script review needs a distinct reviewer bound to the exact script")
             if requirements["narrative_loop"] == "unresolved":
                 raise WorkflowError("resolve narrative_loop applicability before script completion")
+            from .script_review import validate_review
+            script_text = self.artifacts.resolve(artifact).read_bytes().decode("utf-8")
+            review = validate_review(by_name["independent_review"]["observed"], script_text=script_text,
+                                     script_sha256=artifact["sha256"], worker=claim["worker"],
+                                     narrative_loop_required="narrative_loop" in required)
+            evidence_artifacts.extend((self._evidence_file(review["input"], "script_review_input"),
+                                       self._evidence_file(review["evidence"], "script_review")))
             if "narrative_loop" in required:
                 from .narrative_loop import validate_evidence, validate_observation
-                script_text = self.artifacts.resolve(artifact).read_bytes().decode("utf-8")
                 observed = by_name["narrative_loop"]["observed"]
                 record = validate_observation(observed, script_text=script_text,
                                               script_sha256=artifact["sha256"], worker=claim["worker"])
-                loop_evidence = self._evidence_file(record, "narrative_loop_review")
-                try:
-                    document = json.loads(self.artifacts.resolve(loop_evidence).read_text())
-                except (ValueError, UnicodeError) as exc:
-                    raise WorkflowError("narrative_loop evidence must contain its structured independent reading") from exc
-                validate_evidence(document, observed, script_text=script_text)
-                evidence_artifacts.append(loop_evidence)
+                if record != review["evidence"]:
+                    raise WorkflowError("narrative_loop must use the same independent review result, not an author-written supplement")
+                validate_evidence(review["document"], observed, script_text=script_text)
         elif task["stage"] in {"audio", "subtitles"} and requirements.get("speech", {}).get("mode") == "none":
             from .media_checks import probe_media
             media = artifact if task["stage"] == "audio" else self._artifact(run, "audio")
@@ -606,7 +644,7 @@ class Production:
                       "input_hash": claim.get("input_hash")}
         if (not isinstance(execution, dict) or any(execution.get(k) != v for k, v in identities.items())
                 or execution.get("state") != "completed" or execution.get("returncode") != 0
-                or execution.get("kind") not in {"montage", "host_render"}
+                or execution.get("kind") not in {"montage", "host_render", "music_render"}
                 or not isinstance(execution.get("argv"), list) or not execution["argv"]
                 or any(not isinstance(arg, str) for arg in execution["argv"])
                 or "--technical-probe" in execution["argv"]):
@@ -620,7 +658,7 @@ class Production:
         expected_inputs.append(bound(plan["audio"], audio["sha256"], "render_audio"))
         expected_images = [item["sha256"] for item in self.render_sources(run, task)]
         actual_images = []
-        source_key = "clip" if run["profile"]["recipe"] == "licensed_clips" else "image"
+        source_key = "image" if run["profile"]["recipe"] == "illustrated" else "clip"
         for scene in plan["scenes"]:
             require_text(scene.get(source_key), "render scene " + source_key)
             path = source(scene[source_key])
@@ -695,6 +733,22 @@ class Production:
             for record in [render["export_contract"]["snapshot"], render["command"]["snapshot"],
                            *(item["snapshot"] for item in render["engine"])]:
                 saved(record, "canonical_render_input")
+        if run["profile"].get("recipe") == "music_first":
+            renderer = self.project / "automation/music_render.py"
+            if (execution["kind"] != "music_render" or execution.get("script_sha256") != file_digest(renderer)
+                    or len(execution["argv"]) < 3 or Path(execution["argv"][1]).resolve() != renderer.resolve()):
+                raise WorkflowError("music-first delivery requires the actual canonical music_render execution")
+            for record in self.music_inputs(run, task, plan):
+                saved(record, "music_source_evidence")
+                if (record["path"], record["sha256"]) not in input_pairs:
+                    raise WorkflowError("music render execution omitted accepted original source evidence")
+            from .music_contract import helper
+            module = helper(self.project, "automation/music_render.py", "ytv_music_delivery")
+            renderer_receipt = proof.get("renderer_receipt")
+            saved(renderer_receipt, "canonical_music_receipt")
+            for record in module.validate_receipt(renderer_receipt["path"], plan, requirements,
+                                                   matching[0]["path"], project=self.project):
+                saved(record, "canonical_music_input")
         return evidence_artifacts
 
     def _validate_output(self, run, task, artifact, *, receipt=None):
@@ -751,6 +805,24 @@ class Production:
                 require_audio = requirements["audio"]["required"]
             if stage == "audio":
                 measured = media_checks.validate_audio(path)
+                if run["profile"]["recipe"] == "music_first":
+                    from .music_contract import document, validate_mix
+                    identity = next((check["observed"] for check in (receipt or {}).get("checks", [])
+                                     if check.get("name") == "source_identity"), {})
+                    record = identity.get("mix_evidence")
+                    mix = document(record)
+                    source_plan = document(mix["source_plan"])
+                    first = source_plan["segments"][0]
+                    track = {"path": first["path"], "sha256": first["sha256"],
+                             "source_in_seconds": first["start_seconds"]}
+                    _, records = validate_mix(record, audio_sha256=artifact["sha256"], track=track, project=self.project)
+                    execution = document(mix["execution"])
+                    claim = task.get("claim") or {}
+                    if any(execution.get(key) != expected for key, expected in {
+                            "run_id": run["id"], "task_id": task["id"], "claim_token": claim.get("token"),
+                            "input_hash": claim.get("input_hash")}.items()):
+                        raise WorkflowError("music audio needs the current claimed native mix execution")
+                    evidence_artifacts.extend(self._evidence_file(item, "music_mix_input") for item in [record, *records])
             elif stage == "scene_image" and (run["profile"]["recipe"] == "illustrated"
                                             or task.get("payload", {}).get("purpose") == "thumbnail"):
                 measured = media_checks.validate_image(path)
@@ -1323,7 +1395,7 @@ class Production:
             if "script" in affected:
                 run["revision"] += 1
                 run["approvals"].clear()
-                configure_speech_tasks(run, "narration")
+                configure_speech_tasks(run, None if run["profile"]["recipe"] == "music_first" else "narration")
             elif "render" in affected:
                 run["approvals"].pop("mp4", None)
             if {"render", "packaging"} & affected or any(

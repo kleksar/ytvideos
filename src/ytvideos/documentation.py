@@ -14,6 +14,18 @@ HISTORICAL_DIRECTORIES = {
     "receipts", "logs", "evals",
 }
 HISTORICAL_FILES = {"history.md", "changelog.md", "change_log.md", "migration-ledger.md"}
+# These retained inventories and episode decisions are data, not instructions for
+# a new run. Do not infer this from dates: dated, accepted brand references remain
+# valid inputs.
+DATA_ONLY_PATHS = {
+    ".agent/episode-registry.md",
+    ".agent/asset_cleanup_20261102.md",
+    ".agent/stories_storage_review_2026-11-02.md",
+    ".agent/youtube_studio_setup_20261105.md",
+    ".agent/validation-report-20261101.md",
+    "channels/paper_detour/rarovista_timeline_coordination.md",
+    "channels/paper_detour/rarovista_visual_direction_draft.md",
+}
 HISTORY_HEADING = re.compile(
     r"^(?:история\s+изменений|журнал\s+изменений|changelog|change\s+history|"
     r"revision\s+history|version\s+history)(?:\b|$)", re.I
@@ -41,6 +53,7 @@ def current_reference_error(path, text=None):
     parts = tuple(part.casefold() for part in PurePosixPath(path).parts)
     historical = (any(part in HISTORICAL_DIRECTORIES for part in parts[:-1])
                   or (parts and parts[-1] in HISTORICAL_FILES)
+                  or "/".join(parts) in DATA_ONLY_PATHS
                   or parts[:2] in {(".agent", "research"), (".agents", "research")}
                   or (parts and parts[0] in {"output", "work"})
                   or (len(parts) > 3 and parts[0] == "channels"

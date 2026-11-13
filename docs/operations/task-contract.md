@@ -31,7 +31,7 @@ uv run python -m ytvideos plan --run RUN_ID
 uv run python -m ytvideos doctor --run RUN_ID
 ```
 
-Для полного присланного narration сохранить исходный UTF-8 файл и передать его при создании run. Для `licensed_clips` также допустим exact JSON edit-script из раздела [outputs](#outputs):
+Для полного присланного narration сохранить исходный UTF-8 файл и передать его при создании run. Для `licensed_clips` и `music_first` допустим exact JSON edit-script из раздела [outputs](#outputs):
 
 ```bash
 uv run ytv start --channel paper_detour --format short --intent 'Сделай видео по присланному сценарию' --source-script /absolute/path/to/script.en.txt
@@ -123,7 +123,7 @@ Image pool передаёт тот же manifest. Native host проверяет
 
 Пример показывает форму, не источник: заменить URL/claim/location фактически прочитанными материалами. Дополнительно сохранить uncertainty, overlap/отвергнутые варианты, аудиторию и заметку о визуальном обещании и его раскрытии в сценарии. Для `illustrated` `script` output — UTF-8 файл полного narration без процедурных инструкций. Минимальная длина машинной проверки не является критерием качества: должен быть закончен сценарий, который пользователь просил.
 
-Для `licensed_clips` можно сохранить plain narration либо strict edit-script JSON, который описывает законченный монтаж без выдуманного дикторского текста:
+Для `licensed_clips` можно сохранить plain narration либо strict edit-script JSON; `music_first` использует только этот JSON. Он описывает законченный монтаж без выдуманного дикторского текста:
 
 ```json
 {
@@ -135,7 +135,9 @@ Image pool передаёт тот же manifest. Native host проверяет
 }
 ```
 
-Вариант должен быть зарегистрирован в профиле; segments имеют уникальные IDs и монтажный порядок. `speech.mode` — `narration` для авторской речи, `source` для реально звучащих source-реплик либо `none` при их отсутствии. Объединение `segments[].spoken_text` сохраняет все слова `speech.text` по порядку; при `none` обе формы текста пусты. Approval связывает exact JSON целиком; TTS при `narration` читает только `speech.text`. Storyboard, audio, render и packaging сохраняют выбранный вариант и speech mode, не выводят их заново из caller flag. Отсутствие речи не отменяет реальный soundtrack, права и прослушивание. Схема доступна только `licensed_clips`; она не включает неподключённый `music_first`.
+Вариант должен быть зарегистрирован в профиле; segments имеют уникальные IDs и монтажный порядок. `speech.mode` — `narration` для авторской речи, `source` для реально звучащих source-реплик либо `none` при их отсутствии. Объединение `segments[].spoken_text` сохраняет все слова `speech.text` по порядку; при `none` обе формы текста пусты. Approval связывает exact JSON целиком; TTS при `narration` читает только `speech.text`. Storyboard, audio, render и packaging сохраняют выбранный вариант и speech mode, не выводят их заново из caller flag. Отсутствие речи не отменяет реальный soundtrack, права и прослушивание.
+
+Для `music_first` выбрать `production_variant: vocal` и `speech.mode: source` с точными словами песни либо `production_variant: instrumental` и `speech.mode: none` с пустым текстом. Поля JSON — ровно `schema`, `production_variant`, `intent`, `speech`, `segments`. Plain narration и `speech.mode: narration` отвергаются. Входной план сохраняет принятые слова и ordered segments; музыкальный маршрут и final AV review описаны в [музыкальном рендере](#музыкальный-рендер). Проверка дикторской `narrative_loop` к этому рецепту неприменима.
 
 После принятия `none` task `subtitles` имеет `output_kind: no_speech`, capability `audio.listen` и результат **ровно** `{"schema":"ytv-no-speech-v1","script_sha256":"EXACT_EDIT_SCRIPT_SHA256","audio_sha256":"EXACT_ACCEPTED_MIX_SHA256","has_speech":false}`. SRT и слова не придумываются. Обязательный check `no_speech` у audio/subtitles связывает `artifact_sha256` принятого audio, реального reviewer, notes, coverage всего микса и evidence `{path,sha256}` по форме review ниже. В final review этот check относится к exact MP4. Для `source` остаются настоящие alignment/SRT и `exact_text`.
 
@@ -154,7 +156,7 @@ uv run python -m ytvideos attach-artifact --run RUN_ID --file license.pdf --kind
 
 `--expected-sha256` необязателен; при его наличии bytes должны совпасть. Сохранить возвращённые opaque artifact IDs. Регистрация файла не подтверждает права на его использование.
 
-Для `licensed_clips` сцена содержит `source_clip` с полями `source_artifact_id`, `rights_artifact_id`, `start_seconds`, `end_seconds`, `authority`. Оба artifacts должны быть зарегистрированы, authority — конкретный источник полномочий. Выход scene task — реальный video extract либо JSON `{"clip_artifact_id":"EXISTING_ARTIFACT_ID","source_clip":{...}}` с тем же pinned source. Проверка связывает bytes, source duration и extraction bounds; editorial rights review остаётся обязательным.
+Для `licensed_clips` и `music_first` сцена содержит `source_clip` с полями `source_artifact_id`, `rights_artifact_id`, `start_seconds`, `end_seconds`, `authority`. Оба artifacts должны быть зарегистрированы, authority — конкретный источник полномочий. Выход scene task — реальный video extract либо JSON `{"clip_artifact_id":"EXISTING_ARTIFACT_ID","source_clip":{...}}` с тем же pinned source. Проверка связывает bytes, source duration и extraction bounds; editorial rights review остаётся обязательным. Для музыкальных переходов исходный интервал включает полную видимость плана по правилу ниже.
 
 После script approval и завершения packaging создать brief обложки со стабильным `id`, точным выбранным `title`, полными `prompt` и `visual_intent`, а также `references` — списком зарегистрированных artifact IDs либо объектов `{"artifact_id":"ACTUAL_ID"}`. Если художественных refs действительно нет, сохранить пустой список и конкретный `reference_na_reason`; не выдумывать asset ради формы. Title нужен для пары «название + изображение» и не равен автоматически надписи на artwork. Пример формы:
 
@@ -219,10 +221,10 @@ Core проверяет actual derivative bytes/geometry, карточку с ex
 | `purpose`, `channel`, `format`, `production_variant` | `production`, ID канала, формат и выбранный вариант; без вариантов поле omit/null |
 | `canvas`, `fps`, `audio` | Закреплённые размеры/FPS и путь к точному принятому audio output |
 | `scenes` | Принятые сценовые файлы по порядку и с тем же количеством; непрерывные `start_frame` / exclusive `end_frame` от нуля |
-| `scenes[].image` / `scenes[].clip` | Actual image для illustrated или clip для licensed_clips; JSON receipt клипа не является самим видео |
+| `scenes[].image` / `scenes[].clip` | Actual image для illustrated или clip для licensed_clips/music_first; JSON receipt клипа не является самим видео |
 | `scenes[].direction`, `zoom` | При `whole_frame` разрешённые horizontal direction/zoom; у каждой обычной сцены есть движение; renderer задаёт его плавную траекторию |
 | `transitions`, `overlays` | Канальный режим; каждый overlay имеет `role`, `path`, `sha256`, frame interval. Decorative frame берётся только из exact approved asset, когда policy его допускает |
-| `has_speech`, `subtitles`, `srt` | Boolean совпадает с принятым speech mode; для word captions `subtitles.mode: words`; путь к принятому manual SRT, когда требуется. Для `none`: `has_speech: false`, `subtitles.mode: none`, без SRT. Отсутствие речи не отменяет обязательный audio stream |
+| `has_speech`, `subtitles`, `srt` | Boolean совпадает с принятым speech mode; для word captions `subtitles.mode: words`, для музыкального вокала — `lyrics`; путь к принятому manual SRT, когда требуется. Для `none`: `has_speech: false`, `subtitles.mode: none`, без SRT. Отсутствие речи не отменяет обязательный audio stream |
 | `scenes[].role: end_screen` | Только последний интервал и точная канальная длительность, когда end screen требуется |
 | `music` | Явное решение по схеме ниже |
 
@@ -241,11 +243,46 @@ Core проверяет actual derivative bytes/geometry, карточку с ex
 }
 ```
 
-`execution` фиксирует фактический запуск: `run_id`, `task_id`, `claim_token`, `input_hash` текущего claim, `kind` (`montage` или `host_render`), `state: completed`, `returncode: 0`, actual `argv`, `outputs`, `output_artifacts: [{path,sha256}]` и `inputs: [{path,sha256}]`. Inputs включают manifest, exact принятые audio/scenes/SRT, overlays, music tracks и mix evidence; перечислять только реально использованные bytes. Пути execution — абсолютные, относительные media paths manifest разрешаются от каталога manifest. Core сверяет ordered scene hashes, число кадров, duration, policy и MP4 bytes; сохраняет связанные evidence в store.
+`execution` фиксирует фактический запуск: `run_id`, `task_id`, `claim_token`, `input_hash` текущего claim, `kind` (`montage`, `music_render` или `host_render`), `state: completed`, `returncode: 0`, actual `argv`, `outputs`, `output_artifacts: [{path,sha256}]` и `inputs: [{path,sha256}]`. Inputs включают manifest, exact принятые audio/scenes/SRT, overlays, music tracks и mix evidence; перечислять только реально использованные bytes. Пути execution — абсолютные, относительные media paths manifest разрешаются от каталога manifest. Core сверяет ordered scene hashes, число кадров, duration, policy и MP4 bytes; сохраняет связанные evidence в store.
 
-Для illustrated `word_highlight` обязателен canonical montage и `renderer_receipt`, проверяемый `automation/ffmpeg_montage/delivery.py`: он связывает word map, exact script/audio, actual font face/index/hash, профили, export contract и замороженный код renderer. Переименованный файл другого шрифта или ручные группы по три слова не заменяют эту подготовку. `execute-media` сохраняет execution/evidence, но его успех не заменяет `complete` и независимый final review. Для другого поддержанного host render поле `renderer_receipt` опускается; остальные привязки сохраняются. Still-image montage не монтирует licensed clips.
+Для illustrated `word_highlight` обязателен canonical montage и `renderer_receipt`, проверяемый `automation/ffmpeg_montage/delivery.py`: он связывает word map, exact script/audio, actual font face/index/hash, профили, export contract и замороженный код renderer. Переименованный файл другого шрифта или ручные группы по три слова не заменяют эту подготовку. Для `music_first` обязателен отдельный canonical `music_render` и его sidecar по разделу ниже. `execute-media` сохраняет execution/evidence, но его успех не заменяет `complete` и независимый final review. Для другого поддержанного host render поле `renderer_receipt` опускается; остальные привязки сохраняются. Still-image montage не монтирует source clips.
 
 `--technical-probe` предназначен для изолированных инструментальных fixtures. Его output нельзя завершить или выпустить как production MP4.
+
+### Музыкальный рендер
+
+`music_first` исполняется по принятому typed edit-script. Audio task требует `audio.mix` и `audio.listen`; `vocal` также использует `subtitle.align`, а `instrumental` завершает subtitles через `no_speech`. Читать точные checks и output kind из task context и `task_guide.music_edit`. Регистрация исходников и `rights_evidence` сохраняет bytes; право использования подтверждается отдельной проверкой.
+
+Подготовить source audio через `execute-media` с `kind: mix` и [общим manifest](#media-изображения-release) `ytv-source-audio-v1`. Для музыки segments имеют IDs и порядок принятого плана, идут непрерывно из одной зарегистрированной записи с `gain: 1`. Native executor возвращает `mix_evidence: {path,sha256}`: JSON `ytv-source-mix-evidence-v1` связывает `audio_sha256`, список `track_sha256`, actual `argv`, `returncode: 0`, `execution` и `source_plan` records. В `audio` receipt включить этот record в `checks.source_identity.observed.mix_evidence`; прослушивание и применимый `no_speech` сохраняются отдельными checks.
+
+Для render передать такой request, заменив пути реальными абсолютными путями текущего claim:
+
+```json
+{
+  "kind": "music_render",
+  "args": ["/absolute/music-manifest.json", "--output", "/absolute/workspace/runs/RUN_ID/attempts/TOKEN/final.mp4"],
+  "prepared_inputs": ["/absolute/music-manifest.json"],
+  "outputs": ["/absolute/workspace/runs/RUN_ID/attempts/TOKEN/final.mp4"]
+}
+```
+
+Runtime сам добавляет `--work-dir` и `--requirements` из pinned profile и принятого script; caller не переопределяет их. Manifest имеет `schema: ytv-music-render-v1`, общие `purpose/channel/format/production_variant/canvas/fps/has_speech`, пути к принятым `script` и `audio`, а также поля ниже. Каждый record `{path,sha256}` использует существующий canonical absolute path и фактический hash.
+
+| Поле | Требование музыкального renderer |
+|---|---|
+| `scenes` | Не менее двух планов, каждый не короче четырёх кадров. IDs/порядок и clips совпадают с принятым storyboard и script segments; timeline непрерывен. |
+| `scenes[].direction/zoom/scale/easing` | `direction: none`, `zoom: in` либо `out`, `scale` из pinned `music_edit.zoom` в выбранном направлении, `easing: smoothstep`. |
+| `scenes[].source` | Оригинальные `path`, `sha256`, `start_seconds`, `end_seconds`, `rights_evidence` record и необязательный `source_page`. Один original footage SHA используется только одним планом. Исходный интервал включает видимость перехода: входящий план с `cut−1`, исходящий до exclusive `cut+2`; начало/конец ограничены timeline. Эти диапазоны и права совпадают с accepted `source_clip`. |
+| `planner` | `input` и `output` records canonical `music_montage.py`. Вход использует exact accepted audio, 30 fps и полную длительность; renderer пересчитывает output, порядок/акценты/исходные интервалы и отвергает ручную замену результата. `approved_accents`, если нужны, содержат `reason` и bound `evidence`. |
+| `color`, `transition` | Color равен pinned `music_edit.color`; transition сохраняет все pinned поля `music_edit.transition` и выбранные для этого монтажа `0 < blur_sigma_px <= 100`, `0 < brightness <= 1`. Каждый стык включает все три компонента. Цвет преобразуется в BT.709 limited YUV при рендере. |
+| `music` | `status: present`, один `tracks` element с оригинальными `path/sha256`, `source_in_seconds`, `start_frame: 0`, `end_frame` полного timeline; возвращённый `mix_evidence` и зарегистрированный `rights_evidence` record. Отрывок непрерывен, паузы или подменённый mix не допускаются. |
+| `subtitles` для `vocal` | `mode: lyrics`, `words` record, `font: {path,sha256,index}`, `settings` точно из pinned `music_edit.lyrics`; верхнеуровневый `srt` указывает на принятый SRT. Фактическая family/style шрифта соответствует профилю; переименованный substitute не проходит проверку. |
+| `subtitles.beats` | Необязательный `{path,sha256}` record карты дополнительных акцентов из `music_beats.py` на exact accepted mix. JSON карты содержит `sha256` аудио, `fps: 30`, `frames` полного timeline, `source_start_seconds: 0`, точную `duration_seconds`, `candidates: [{frame,...}]` с уникальными возрастающими целыми кадрами от `0` до exclusive `frames`. Native renderer передаёт файл через `--beats`, связывает его bytes с execution/CAS и проверяет union beats + cuts с приоритетом cut при vocal snapping. Без карты сохраняется cuts-only маршрут; неизвестные поля `subtitles` отвергаются. |
+| `subtitles` для `instrumental` | `{"mode":"none"}`, `has_speech: false`, без SRT; принятое отсутствие речи уже связано с exact audio. |
+
+Vocal `words` JSON содержит `audio_sha256`, `transcript_sha256` точного `speech.text` в UTF-8 и `words: [{text,start_seconds,end_seconds}]`. Слова сохраняются полностью и по порядку; нормализация NFC удаляет пунктуацию, сохраняя буквы и цифры. Начала возрастают, каждый интервал лежит внутри финального музыкального отрывка. Канонический lyric compositor использует принятые settings и воспроизводимый `motion-seed: 17`.
+
+Renderer создаёт `final.mp4.delivery.json` со schema `ytv-music-render-receipt-v1`: exact command, engine/input hashes, lyric mask/plan/cuts при вокале, `technical_review`, `fragment_contract`, `fragment_index` и `fragments`. Журнал связывает оригинальные футажи, исходную музыкальную запись с отступом, финальный MP4 и hash встроенных audio packets. `execute-media` возвращает общий `delivery_evidence`, ссылающийся на manifest, execution и этот sidecar. `complete` повторно проверяет связи, команду, timeline, шрифт и слова и сохраняет records в CAS. Sidecar оставляет `review_status: UNVERIFIED`: технический контракт и журнал не подтверждают качество монтажа, права или прослушивание. До gate точного MP4 нужен полный независимый review, включая применимый аудиовизуальный loop.
 
 ## Проверки media и review
 
@@ -297,39 +334,61 @@ uv run python -c 'import json,sys; from ytvideos.media_checks import probe_media
 
 Это структурный образец. Нельзя скопировать PASS или слова `actual observation` вместо выполненной проверки. Заполнить **все** имена из `context.required_checks`, каждое один раз, с непустым структурированным observed и реальным method. Отсутствующий/неуспешный обязательный check блокирует complete; сохранять черновик и конкретный blocker, не превращать UNVERIFIED в pass.
 
-Для `script` обязательны factual_support, first_listener, viewer_value и independent_review. В `independent_review.observed` записать реального отличного от автора `reviewer` и `artifact_sha256` точного текста, плюс findings/coverage/evidence. Если независимый reviewer недоступен, текст можно сохранить, но ready script gate не подтверждён. При изменении текста обновить binding и затронутый review.
+Для `script` обязательны factual_support, first_listener, viewer_value и independent_review. В `independent_review.observed` записать реального отличного от автора `reviewer`, `artifact_sha256` точного текста и `evidence: {path,sha256}` **одного фактического ответа reviewer**. Core читает JSON-объект ответа, сверяет исходный материал и сохраняет оба файла в CAS. JSON-строка с сериализованным объектом, произвольный текст, авторский пересказ и одно имя reviewer не являются review result. Если независимый reviewer недоступен, текст можно сохранить, но ready script gate не подтверждён.
 
 Для narrative Short с `production_requirements.narrative_loop: required` добавляется обязательный `narrative_loop`. Long и рецепты с `not_applicable` не получают narrator check; аудиовизуальная петля Short всё равно проверяется на exact MP4. Отсутствующая policy Short — unresolved, не автоматическое исключение.
 
-`narrative_loop.observed` содержит `artifact_sha256`, `reviewer`, `opening`, `ending`, `joined_excerpt` и `evidence: {path,sha256}`. Opening/ending — точные неперекрывающиеся prefix/suffix полного текста после обрезки только краевых пробелов, каждый не короче четырёх слов и с полными крайними репликами; они не делят слово и не покрывают весь сценарий вместо его краёв. `joined_excerpt` строго равен `ending + "\n" + opening`. Использовать контекст первых/последних двух реплик, а не удобные вырванные слова. Evidence — отдельный JSON:
+Подготовить exact reading input через канонический helper. `seam.json` содержит только `opening` и `ending`: точные неперекрывающиеся prefix/suffix сценария после обрезки краевых пробелов, с контекстом крайних реплик. Не делить слово. Для narrative Short:
+
+```bash
+uv run python -m ytvideos.script_review --script script.en.txt --seam seam.json --output reader-input.json
+```
+
+Для Long или non-narrative edit-plan опустить `--seam`. Helper создаёт input `ytv-script-review-input-v1` с точным исходным текстом/hash; при петле добавляет точный стык и `two_cycles = script_text + "\n\n" + script_text`. Возвращает path/hash и `review_performed: false`: подготовка материала не выполняет review. Уже существующий output не перезаписывается. Не заменять два полных цикла одним стыком или авторским утверждением «прочитал два раза».
+
+Передать input свежей независимой сессии без авторского диагноза/вердикта; попросить читать по процедуре [editorial](../standards/editorial.md#ограниченный-review) и **самостоятельно записать итоговый JSON**. Сохранить ответ reviewer без переформулирования, дописывания пропущенных проверок или смены решения. `source.tool` и `source.session_id` берутся из реального вызова; `session_id` совпадает с `reviewer`. Опциональный `response_id` добавлять только когда runtime действительно его вернул. IDs/hash обеспечивают проверяемую ссылку на trace, но не являются криптографическим подтверждением происхождения или доказательством чтения.
+
+Один response object `ytv-script-review-v1` служит evidence для `independent_review` и, когда требуется, для `narrative_loop`:
 
 ```json
 {
-  "schema": "ytv-narrative-loop-v1",
+  "schema": "ytv-script-review-v1",
   "script_sha256": "EXACT_SCRIPT_SHA256",
-  "opening": "Точные первые реплики текста",
-  "ending": "Точные последние реплики текста",
-  "joined_excerpt": "Точные последние реплики текста\nТочные первые реплики текста",
   "reviewer": "ACTUAL_INDEPENDENT_REVIEWER",
-  "relationship": "continuous_narration",
-  "method": "Фактически выполненное чтение полного текста и стыка",
-  "coverage": {
-    "opening_utterances": 2,
-    "ending_utterances": 2,
-    "full_script_cycles": 2,
-    "complete_edge_utterances": true
+  "source": {
+    "tool": "ACTUAL_HOST_TOOL",
+    "session_id": "ACTUAL_INDEPENDENT_REVIEWER"
   },
-  "observations": {
-    "continuation": "Как крайние реплики естественно продолжают друг друга",
-    "cold_open": "Почему начало понятно отдельно",
-    "payoff_quote": "Точная цитата отдачи из этого сценария",
-    "payoff_before_repeat": "Что уже разрешено до повторного начала",
-    "two_cycle_read": "Что наблюдал reviewer при двух последовательных прочтениях"
+  "input": {"path": "/absolute/path/reader-input.json", "sha256": "EXACT_READER_INPUT_SHA256"},
+  "decision": "unverified",
+  "first_listener": {
+    "understood": "Что reviewer понял при первом чтении",
+    "attention": "Стал бы продолжать; где и почему остановился бы",
+    "quotes": ["Точная подтверждающая цитата из сценария"]
+  },
+  "findings": [],
+  "narrative_loop": {
+    "opening": "Точный начальный фрагмент",
+    "ending": "Точный конечный фрагмент",
+    "joined_excerpt": "Точный конечный фрагмент\nТочный начальный фрагмент",
+    "decision": "unverified",
+    "observations": {
+      "continuation": "Конкретная смысловая или грамматическая связь крайних фраз",
+      "cold_open": "Почему начало понятно отдельно",
+      "payoff_quote": "Точная цитата отдачи из этого сценария",
+      "payoff_before_repeat": "Что уже разрешено до повтора",
+      "two_cycle_read": "Собственное наблюдение reviewer при чтении двух полных циклов",
+      "restart_test": "Почему это продолжение, либо где слышится новый старт или только повтор темы"
+    }
   }
 }
 ```
 
-Это форма для фактического review, не готовый PASS. Поля exact text/hash/reviewer совпадают с observed; reviewer отличается от script author. Тематическое возвращение к исходному предмету само по себе не считается `continuous_narration`. Код проверяет binding и coverage, но не распознаёт смысл, интонацию или художественное качество. При дефекте уже принятого `source_script` сохранить точный исходник и незавершённую проверку; предложить исправленную пару/версию отдельно по [workflow](../workflow.md#готовый-текст-и-набросок). Не переписывать присланный текст незаметно и не готовить подробный storyboard/сюжетный PR до проверки текста.
+Это форма для фактического ответа, не готовый PASS. Reviewer выбирает `pass`, `revise` или `unverified`; каждый finding содержит `severity: blocking|non_blocking`, точную `quote` и `finding`. Незавершённый `blocking` конфликтует с общим PASS. Для неприменимой narrator-петли поле `narrative_loop` равно `null`; придумывать речевое кольцо edit-plan не требуется.
+
+`narrative_loop.observed` сохраняет `artifact_sha256`, `reviewer`, `opening`, `ending`, `joined_excerpt` и **тот же evidence record**, что `independent_review.observed`. `joined_excerpt` строго равен `ending + "\n" + opening`. Core проверяет точные bytes/hash, literal материал двух циклов, совпадение reviewer/стыка, обязательные наблюдения и непротиворечивые решения. Счётчики реплик и классификация `continuous_narration` не заменяют фактический ответ reader. Код не распознаёт смысл, интонацию, честность наблюдений или художественное качество. При изменении текста сформировать новый input и получить ответ на точную новую версию.
+
+При дефекте уже принятого `source_script` сохранить точный исходник и незавершённую проверку; предложить исправленную пару/версию отдельно по [workflow](../workflow.md#готовый-текст-и-набросок). Не переписывать присланный текст незаметно и не готовить подробный storyboard/сюжетный PR до проверки текста. Ответ reviewer только о фактах/атрибуции не разрешает автору приписать ему успешную проверку петли.
 
 SHA-256 считать по actual bytes после окончательного сохранения, например `python3 -c 'import hashlib,pathlib; print(hashlib.sha256(pathlib.Path("output.json").read_bytes()).hexdigest())'`.
 

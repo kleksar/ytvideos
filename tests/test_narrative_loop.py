@@ -45,8 +45,8 @@ class NarrativeLoopContractTests(unittest.TestCase):
         with self.assertRaisesRegex(WorkflowError, "exact script SHA"):
             self.validate()
 
-    def test_single_word_or_overlapping_whole_script_is_not_edge_context(self):
-        for opening, ending in (("Nobody", "why"), (fixtures.SCRIPT, fixtures.ENDING)):
+    def test_empty_cut_word_or_overlapping_whole_script_is_not_exact_edge_context(self):
+        for opening, ending in (("", fixtures.ENDING), ("Nobo", "why"), (fixtures.SCRIPT, fixtures.ENDING)):
             observed = {**self.observed, "opening": opening, "ending": ending,
                         "joined_excerpt": ending + "\n" + opening}
             with self.subTest(opening=opening[:20]), self.assertRaises(WorkflowError):
@@ -57,30 +57,32 @@ class NarrativeLoopContractTests(unittest.TestCase):
             with self.subTest(field=field), self.assertRaises(WorkflowError):
                 self.validate({**self.observed, field: value})
 
-    def test_classified_thematic_callback_is_not_accepted_as_continuous_narration(self):
-        # This checks the supplied review classification. It does not infer the
-        # meaning of arbitrary prose from an enum or detect a dishonest reviewer.
-        for relationship in ("thematic_callback", "broken", "unverified", "UNVERIFIED"):
-            with self.subTest(relationship=relationship), self.assertRaisesRegex(WorkflowError, "thematic callback"):
-                self.validate(document={**self.document, "relationship": relationship})
+    def test_reader_request_for_revision_cannot_be_relabelled_as_pass(self):
+        for decision in ("revise", "unverified"):
+            changed = copy.deepcopy(self.document)
+            changed["narrative_loop"]["decision"] = decision
+            with self.subTest(decision=decision), self.assertRaisesRegex(WorkflowError, "not passed"):
+                self.validate(document=changed)
 
-    def test_two_cycles_complete_utterances_and_specific_observations_are_required(self):
+    def test_counts_cannot_substitute_for_specific_reader_observations(self):
         cases = []
-        for field, value in (("full_script_cycles", 1), ("opening_utterances", 1), ("complete_edge_utterances", False)):
+        changed = copy.deepcopy(self.document)
+        changed["narrative_loop"].pop("observations")
+        changed["narrative_loop"]["coverage"] = {"full_script_cycles": 2, "ending_utterances": 2}
+        cases.append(changed)
+        for field, value in (("cold_open", "PASS"), ("continuation", ""), ("payoff_quote", "This did not occur."), ("restart_test", "PASS")):
             changed = copy.deepcopy(self.document)
-            changed["coverage"][field] = value
-            cases.append(changed)
-        for field, value in (("cold_open", "PASS"), ("continuation", ""), ("payoff_quote", "This did not occur.")):
-            changed = copy.deepcopy(self.document)
-            changed["observations"][field] = value
+            changed["narrative_loop"]["observations"][field] = value
             cases.append(changed)
         for changed in cases:
             with self.subTest(document=changed), self.assertRaises(WorkflowError):
                 self.validate(document=changed)
 
     def test_evidence_cannot_describe_a_different_seam_under_a_valid_record_hash(self):
+        changed = copy.deepcopy(self.document)
+        changed["narrative_loop"]["opening"] = "Different complete opening excerpt."
         with self.assertRaisesRegex(WorkflowError, "exact reviewed script and seam"):
-            self.validate(document={**self.document, "opening": "Different complete opening excerpt."})
+            self.validate(document=changed)
 
     def test_long_and_nonnarrated_recipes_do_not_inherit_a_narrator_loop(self):
         for channel in ("paper_detour", "nuviko_history", "two_ways_lab"):
@@ -132,19 +134,22 @@ class NarrativeLoopWorkflowTests(unittest.TestCase):
         with self.assertRaisesRegex(WorkflowError, "stale"):
             self.service.complete(self.fixture.run_id, "script", claim["token"], script, receipt_path, actual_units=0)
         document = json.loads(evidence.read_text())
-        document["relationship"] = "thematic_callback"
+        document["narrative_loop"]["decision"] = "revise"
         evidence.write_text(json.dumps(document))
         observed["evidence"]["sha256"] = file_digest(evidence)
+        independent = next(check["observed"] for check in receipt["checks"] if check["name"] == "independent_review")
+        independent["evidence"] = observed["evidence"].copy()
         receipt_path.write_text(json.dumps(receipt))
-        with self.assertRaisesRegex(WorkflowError, "thematic callback"):
+        with self.assertRaisesRegex(WorkflowError, "not passed"):
             self.service.complete(self.fixture.run_id, "script", claim["token"], script, receipt_path, actual_units=0)
 
     def test_completed_loop_evidence_is_preserved_in_the_artifact_store(self):
         self.fixture.script_ready()
         run = self.fixture.store.get(self.fixture.run_id)
         identities = run["tasks"]["script"]["receipt_evidence_ids"]
-        self.assertEqual(len(identities), 1)
-        document = json.loads(self.service.artifacts.resolve(run["artifacts"][identities[0]]).read_text())
+        documents = [json.loads(self.service.artifacts.resolve(run["artifacts"][key]).read_text()) for key in identities]
+        self.assertEqual({item["schema"] for item in documents}, {"ytv-script-review-v1", "ytv-script-review-input-v1"})
+        document = next(item for item in documents if item["schema"] == "ytv-script-review-v1")
         script = self.service._artifact(run, "script")
         self.assertEqual(document["script_sha256"], script["sha256"])
         self.assertEqual(self.service.next(run["id"])["status"], "awaiting_script_approval")

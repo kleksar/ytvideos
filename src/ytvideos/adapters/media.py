@@ -24,6 +24,7 @@ TOOLS = {
     'tts': 'automation/elevenlabs/tts.py',
     'mix': 'automation/audio_mix.py',
     'montage': 'automation/ffmpeg_montage/montage.py',
+    'music_render': 'automation/music_render.py',
     'inspect': 'automation/helpers/video-qa/scripts/inspect_video.py',
     'srt': 'automation/helpers/srt/scripts/srt_tool.py',
 }

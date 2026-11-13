@@ -59,6 +59,13 @@ def production_requirements(profile, format, *, variant=None):
               "visual": values.get("visual", {}), "captions": values.get("captions", {}),
               "narrative_loop": "not_applicable" if format == "long" else values.get("narrative_loop", "unresolved"),
               "end_screen_seconds": values.get("end_screen_seconds")}
+    if profile.get("recipe") == "music_first":
+        result["music_edit"] = values.get("music_edit", {})
+        result["speech_mode"] = values.get("speech_mode")
+        from .music_contract import policy_blockers
+        unresolved.extend(policy_blockers(result["music_edit"]))
+        if result["speech_mode"] not in {"source", "none"}:
+            unresolved.append("speech_mode")
     if not isinstance(result["narrative_loop"], str) or result["narrative_loop"] not in {"required", "not_applicable"}:
         unresolved.append("narrative_loop")
         result["narrative_loop"] = "unresolved"
@@ -92,12 +99,12 @@ def production_requirements(profile, format, *, variant=None):
                ("visual", "motion"): {"whole_frame", "source_motion", "authored", "none"},
                ("visual", "transitions"): {"direct_cuts", "recipe_defined"},
                ("visual", "decorative_frame"): {"required", "optional", "forbidden"},
-               ("captions", "mode"): {"word_highlight", "when_speech", "none"},
+               ("captions", "mode"): {"word_highlight", "when_speech", "lyrics", "none"},
                ("captions", "srt"): {"required", "when_speech", "none"}}
     for (group, name), allowed in choices.items():
         if result[group].get(name) not in allowed:
             unresolved.append(group + "." + name)
-    if result["captions"].get("mode") == "word_highlight":
+    if result["captions"].get("mode") in {"word_highlight", "lyrics"}:
         face = result["captions"].get("font", {})
         for key in ("family", "style"):
             if not isinstance(face, dict) or not isinstance(face.get(key), str) or not face[key].strip():
@@ -222,6 +229,8 @@ def validate_render_manifest(plan, requirements):
     needs_captions = captions["mode"] == "word_highlight" or (captions["mode"] == "when_speech" and has_speech)
     if needs_captions and plan.get("subtitles", {}).get("mode") != "words":
         raise WorkflowError("production requires burned-in word captions")
+    if captions["mode"] == "lyrics" and plan.get("subtitles", {}).get("mode") != "lyrics":
+        raise WorkflowError("production requires the canonical burned-in lyric captions")
     needs_srt = captions["srt"] == "required" or (captions["srt"] == "when_speech" and has_speech)
     if needs_srt and not plan.get("srt"):
         raise WorkflowError("production manifest must bind the manual SRT")
