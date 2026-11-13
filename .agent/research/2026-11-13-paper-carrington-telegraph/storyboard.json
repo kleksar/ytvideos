@@ -1,0 +1,170 @@
+{
+  "kind": "preapproval_storyboard_draft",
+  "schema_version": 1,
+  "channel_id": "paper_detour",
+  "format": "short",
+  "language": "en",
+  "status": "UNAPPROVED_PREPRODUCTION",
+  "all_times_provisional": true,
+  "tts_observed": false,
+  "layout": "portrait_9_16",
+  "estimated_total_seconds": 72.9,
+  "story_source": "script.en.txt",
+  "image_policy": {
+    "source": "AI imagegen after script approval only",
+    "visual_style": "Full-frame opaque handmade paper/card diorama with material depth, single image per scene, whole-frame camera only.",
+    "common_prompt_prefix": "Portrait 9:16, one fully composed opaque full-frame handmade layered paper/card diorama set in 1859, tactile cut edges and folds, subtle material fibers, convincing paper thickness, intricate physically grounded props and contact shadows, expressive cinematic but plausible period lighting; real people represented as detailed layered paper figures; one complete image, not separable FG/MG/BG/parallax elements. No modern electronics, modern lamps, neon sci-fi graphics, photographic humans, fake archival-photograph treatment, speech bubbles, random lettering, watermarks, or subtitle text. ",
+    "reference_assets_not_verified": [
+      "channels/paper_detour/brand/SCENE_IMAGE_REFERENCES.md",
+      "channels/paper_detour/brand/PAPER_PLANE.md"
+    ]
+  },
+  "timing_rule": "Use narration spans as intended beats. DO NOT map frame times or call the storyboard completed until exact speech and TTS timings are available.",
+  "scenes": [
+    {
+      "id": "S001",
+      "narration": "“Please cut off your battery.” In 1859, Boston sent that request by telegraph.",
+      "target_seconds_provisional": 4.9,
+      "visual_intent": "The paradox is conveyed as a direct operator instruction, not as a generic cosmic shot.",
+      "ai_image_prompt": "Portrait 9:16, one fully composed opaque full-frame handmade layered paper/card diorama set in 1859, tactile cut edges and folds, subtle material fibers, convincing paper thickness, intricate physically grounded props and contact shadows, expressive cinematic but plausible period lighting; real people represented as detailed layered paper figures; one complete image, not separable FG/MG/BG/parallax elements. No modern electronics, modern lamps, neon sci-fi graphics, photographic humans, fake archival-photograph treatment, speech bubbles, random lettering, watermarks, or subtitle text. Intimate macro diorama of an 1859 American telegraph operator's hand poised above a brass Morse key, battery lead visibly routed across the richly detailed wooden desk, dark wool sleeve and a single paper dispatch slip; desk key dominates and another station remains only an out-of-focus paper-world doorway.",
+      "whole_frame_camera_suggestion": "slow_zoom_in",
+      "fact_visual_boundary": "historical reconstruction; original wording from contemporary published account (brief excerpt)",
+      "status": "NOT_GENERATED"
+    },
+    {
+      "id": "S002",
+      "narration": "At the other end of the wire was another operator in Portland, Maine.",
+      "target_seconds_provisional": 5,
+      "visual_intent": "Make the two-station physical separation legible.",
+      "ai_image_prompt": "Portrait 9:16, one fully composed opaque full-frame handmade layered paper/card diorama set in 1859, tactile cut edges and folds, subtle material fibers, convincing paper thickness, intricate physically grounded props and contact shadows, expressive cinematic but plausible period lighting; real people represented as detailed layered paper figures; one complete image, not separable FG/MG/BG/parallax elements. No modern electronics, modern lamps, neon sci-fi graphics, photographic humans, fake archival-photograph treatment, speech bubbles, random lettering, watermarks, or subtitle text. Detailed physical miniature of a mid-19th-century New England telegraph network: two distinct modest brick-and-timber telegraph offices set on successive folded-paper hills, a long taut black wire running between their telegraph poles; foreground office includes a single paper operator at a small desk; no labels or modern infrastructure.",
+      "whole_frame_camera_suggestion": "slow_pan_left",
+      "fact_visual_boundary": "stylized geographic connection; not a surveyed route or exact architecture",
+      "status": "NOT_GENERATED"
+    },
+    {
+      "id": "S003",
+      "narration": "The line was failing. Signals weakened, then surged until the machines couldn't work.",
+      "target_seconds_provisional": 5.2,
+      "visual_intent": "Interference produces the crisis; no invented fire in the Boston office.",
+      "ai_image_prompt": "Portrait 9:16, one fully composed opaque full-frame handmade layered paper/card diorama set in 1859, tactile cut edges and folds, subtle material fibers, convincing paper thickness, intricate physically grounded props and contact shadows, expressive cinematic but plausible period lighting; real people represented as detailed layered paper figures; one complete image, not separable FG/MG/BG/parallax elements. No modern electronics, modern lamps, neon sci-fi graphics, photographic humans, fake archival-photograph treatment, speech bubbles, random lettering, watermarks, or subtitle text. Inside a richly layered Boston telegraph office in the morning, close to a brass electromagnet relay, operator leans over a wooden desk listening intently; a pendulum-like paper telegraph armature is caught in a tense tilted position; sunlight from a tall sash window, crowded period telegraph instruments, no flames or invented physical injuries.",
+      "whole_frame_camera_suggestion": "slow_zoom_in",
+      "fact_visual_boundary": "reconstruction of documented intermittent and excessive currents",
+      "status": "NOT_GENERATED"
+    },
+    {
+      "id": "S004",
+      "narration": "Normally, the batteries powered messages. During the storm, they made the interference worse.",
+      "target_seconds_provisional": 5.3,
+      "visual_intent": "Show the normal electrical source as the obstacle.",
+      "ai_image_prompt": "Portrait 9:16, one fully composed opaque full-frame handmade layered paper/card diorama set in 1859, tactile cut edges and folds, subtle material fibers, convincing paper thickness, intricate physically grounded props and contact shadows, expressive cinematic but plausible period lighting; real people represented as detailed layered paper figures; one complete image, not separable FG/MG/BG/parallax elements. No modern electronics, modern lamps, neon sci-fi graphics, photographic humans, fake archival-photograph treatment, speech bubbles, random lettering, watermarks, or subtitle text. A carefully crafted cutaway of a wooden 1850s telegraph desk with historically plausible rows of glass or ceramic wet-cell battery jars and copper leads connected to a brass relay, layered paper technician comparing two components; focus on the converging wires and battery bank, warm morning light, paper shadows.",
+      "whole_frame_camera_suggestion": "slow_zoom_out",
+      "fact_visual_boundary": "electrical behavior simplified in narration; visual is illustrative",
+      "status": "NOT_GENERATED"
+    },
+    {
+      "id": "S005",
+      "narration": "Boston suggested an experiment: let the line run with both batteries disconnected.",
+      "target_seconds_provisional": 4.8,
+      "visual_intent": "Decision that changes the outcome.",
+      "ai_image_prompt": "Portrait 9:16, one fully composed opaque full-frame handmade layered paper/card diorama set in 1859, tactile cut edges and folds, subtle material fibers, convincing paper thickness, intricate physically grounded props and contact shadows, expressive cinematic but plausible period lighting; real people represented as detailed layered paper figures; one complete image, not separable FG/MG/BG/parallax elements. No modern electronics, modern lamps, neon sci-fi graphics, photographic humans, fake archival-photograph treatment, speech bubbles, random lettering, watermarks, or subtitle text. Tense paper diorama close-up of a Victorian telegraph operator using one hand to open a simple period-appropriate battery switch, visible gap in the conducting circuit and nearby disconnected lead, other hand rests beside brass telegraph key; natural human proportions, no sparks.",
+      "whole_frame_camera_suggestion": "slow_zoom_in",
+      "fact_visual_boundary": "reconstructed gesture; the documented experiment disconnected batteries from the line",
+      "status": "NOT_GENERATED"
+    },
+    {
+      "id": "S006",
+      "narration": "Portland agreed. Boston had already switched its battery off. Then a reply arrived.",
+      "target_seconds_provisional": 5.3,
+      "visual_intent": "The surprising first response after disconnection.",
+      "ai_image_prompt": "Portrait 9:16, one fully composed opaque full-frame handmade layered paper/card diorama set in 1859, tactile cut edges and folds, subtle material fibers, convincing paper thickness, intricate physically grounded props and contact shadows, expressive cinematic but plausible period lighting; real people represented as detailed layered paper figures; one complete image, not separable FG/MG/BG/parallax elements. No modern electronics, modern lamps, neon sci-fi graphics, photographic humans, fake archival-photograph treatment, speech bubbles, random lettering, watermarks, or subtitle text. Portland telegraph room, receiver's hand hovering above a brass receiving instrument as a message is detected, separate disconnected battery lead clearly resting away from the binding post, paper dispatch paper on desk; detailed paper-carved face showing focused attention, period-correct timber and cloth.",
+      "whole_frame_camera_suggestion": "slow_pan_right",
+      "fact_visual_boundary": "documented exchange; the precise facial expression is artistic",
+      "status": "NOT_GENERATED"
+    },
+    {
+      "id": "S007",
+      "narration": "Portland said the message came through better than when the batteries were connected.",
+      "target_seconds_provisional": 5.2,
+      "visual_intent": "Pay off the paradox without misrepresenting comparison to ordinary fair-weather operation.",
+      "ai_image_prompt": "Portrait 9:16, one fully composed opaque full-frame handmade layered paper/card diorama set in 1859, tactile cut edges and folds, subtle material fibers, convincing paper thickness, intricate physically grounded props and contact shadows, expressive cinematic but plausible period lighting; real people represented as detailed layered paper figures; one complete image, not separable FG/MG/BG/parallax elements. No modern electronics, modern lamps, neon sci-fi graphics, photographic humans, fake archival-photograph treatment, speech bubbles, random lettering, watermarks, or subtitle text. Portrait paper diorama of the Portland operator carefully writing a received dispatch with quill beside a crisp brass telegraph sounder, a disconnected battery cord in the foreground; focused tabletop composition and warm realistic window light, no impossible animated printed message.",
+      "whole_frame_camera_suggestion": "slow_zoom_in",
+      "fact_visual_boundary": "reported quality compared to battery-powered operation during the storm only",
+      "status": "NOT_GENERATED"
+    },
+    {
+      "id": "S008",
+      "narration": "And real telegrams kept crossing between the two stations, with no batteries on the line.",
+      "target_seconds_provisional": 5.7,
+      "visual_intent": "Demonstrate ordinary business communication continued.",
+      "ai_image_prompt": "Portrait 9:16, one fully composed opaque full-frame handmade layered paper/card diorama set in 1859, tactile cut edges and folds, subtle material fibers, convincing paper thickness, intricate physically grounded props and contact shadows, expressive cinematic but plausible period lighting; real people represented as detailed layered paper figures; one complete image, not separable FG/MG/BG/parallax elements. No modern electronics, modern lamps, neon sci-fi graphics, photographic humans, fake archival-photograph treatment, speech bubbles, random lettering, watermarks, or subtitle text. Wide vertical paper diorama of two stacked, distinct New England telegraph offices connected by a physically continuous wire; small dispatch slips and working instruments on each desk convey traffic without floating icons; include one small pale folded paper airplane resting visibly but discreetly on a stack of dispatch forms at the lower left, as Paper Detour channel easter egg, not a historical object.",
+      "whole_frame_camera_suggestion": "slow_pan_left",
+      "fact_visual_boundary": "historical connection is factual; paper plane is explicitly non-historical brand element",
+      "status": "NOT_GENERATED"
+    },
+    {
+      "id": "S009",
+      "narration": "Not for a moment. For more than two hours.",
+      "target_seconds_provisional": 4.2,
+      "visual_intent": "Duration is the escalation, not an additional invented incident.",
+      "ai_image_prompt": "Portrait 9:16, one fully composed opaque full-frame handmade layered paper/card diorama set in 1859, tactile cut edges and folds, subtle material fibers, convincing paper thickness, intricate physically grounded props and contact shadows, expressive cinematic but plausible period lighting; real people represented as detailed layered paper figures; one complete image, not separable FG/MG/BG/parallax elements. No modern electronics, modern lamps, neon sci-fi graphics, photographic humans, fake archival-photograph treatment, speech bubbles, random lettering, watermarks, or subtitle text. Victorian wooden wall clock and neatly growing stack of paper dispatches dominate the desk in a single detailed Boston telegraph room; battery lead remains visibly disconnected at right edge; no exact clock reading or invented transcript displayed.",
+      "whole_frame_camera_suggestion": "slow_zoom_in",
+      "fact_visual_boundary": "duration supported by contemporary report; clock is an illustrative time symbol",
+      "status": "NOT_GENERATED"
+    },
+    {
+      "id": "S010",
+      "narration": "The power wasn't inside either station. It came from electricity induced in the wires.",
+      "target_seconds_provisional": 5.5,
+      "visual_intent": "Begin the causal explanation without depicting literal power flowing from outer space into machines.",
+      "ai_image_prompt": "Portrait 9:16, one fully composed opaque full-frame handmade layered paper/card diorama set in 1859, tactile cut edges and folds, subtle material fibers, convincing paper thickness, intricate physically grounded props and contact shadows, expressive cinematic but plausible period lighting; real people represented as detailed layered paper figures; one complete image, not separable FG/MG/BG/parallax elements. No modern electronics, modern lamps, neon sci-fi graphics, photographic humans, fake archival-photograph treatment, speech bubbles, random lettering, watermarks, or subtitle text. Three-dimensional cut-paper explanatory landscape: long copper telegraph wire runs along richly detailed poles over a rolling paper Earth landscape; delicate concentric bands around the wire symbolize induced current, anchored to the physical wire, not a bolt of lightning; no labels or technological anachronisms.",
+      "whole_frame_camera_suggestion": "slow_zoom_out",
+      "fact_visual_boundary": "conceptual diagram of geomagnetically induced current, not a historical photograph",
+      "status": "NOT_GENERATED"
+    },
+    {
+      "id": "S011",
+      "narration": "The day before, astronomer Richard Carrington had seen a sudden flash on the Sun.",
+      "target_seconds_provisional": 5.2,
+      "visual_intent": "A distinct revealing clue, clearly a day earlier.",
+      "ai_image_prompt": "Portrait 9:16, one fully composed opaque full-frame handmade layered paper/card diorama set in 1859, tactile cut edges and folds, subtle material fibers, convincing paper thickness, intricate physically grounded props and contact shadows, expressive cinematic but plausible period lighting; real people represented as detailed layered paper figures; one complete image, not separable FG/MG/BG/parallax elements. No modern electronics, modern lamps, neon sci-fi graphics, photographic humans, fake archival-photograph treatment, speech bubbles, random lettering, watermarks, or subtitle text. 1859 English amateur astronomy observatory recreated from folded paper: Victorian astronomer beside brass telescope projecting the solar disk onto a paper screen, with a tiny luminous white patch on a dark sunspot group; do not show direct eye-to-Sun viewing or photographic telescope display, natural daylight.",
+      "whole_frame_camera_suggestion": "slow_zoom_in",
+      "fact_visual_boundary": "historical observation; projected viewing setup is a period-appropriate reconstruction",
+      "status": "NOT_GENERATED"
+    },
+    {
+      "id": "S012",
+      "narration": "The solar storm that followed disturbed Earth's magnetic field, driving current through long wires.",
+      "target_seconds_provisional": 5.7,
+      "visual_intent": "Deliver the scientific mechanism.",
+      "ai_image_prompt": "Portrait 9:16, one fully composed opaque full-frame handmade layered paper/card diorama set in 1859, tactile cut edges and folds, subtle material fibers, convincing paper thickness, intricate physically grounded props and contact shadows, expressive cinematic but plausible period lighting; real people represented as detailed layered paper figures; one complete image, not separable FG/MG/BG/parallax elements. No modern electronics, modern lamps, neon sci-fi graphics, photographic humans, fake archival-photograph treatment, speech bubbles, random lettering, watermarks, or subtitle text. Scientific paper diorama as a deliberately schematic physical model, bright layered paper Sun in upper left, Earth on lower right wrapped in thin arcing paper magnetosphere ribbons, small separate telegraph wire with induced current ribbon at Earth's surface; clear causal spatial hierarchy, no literal lightning bolt directly connecting Sun to a telegraph office.",
+      "whole_frame_camera_suggestion": "slow_pan_right",
+      "fact_visual_boundary": "schematic reconstruction, modern causal explanation per NASA",
+      "status": "NOT_GENERATED"
+    },
+    {
+      "id": "S013",
+      "narration": "Elsewhere, that current had disabled telegraphs. Here, it briefly became their power source.",
+      "target_seconds_provisional": 5.1,
+      "visual_intent": "Contrast disruption elsewhere with rare operation of this line.",
+      "ai_image_prompt": "Portrait 9:16, one fully composed opaque full-frame handmade layered paper/card diorama set in 1859, tactile cut edges and folds, subtle material fibers, convincing paper thickness, intricate physically grounded props and contact shadows, expressive cinematic but plausible period lighting; real people represented as detailed layered paper figures; one complete image, not separable FG/MG/BG/parallax elements. No modern electronics, modern lamps, neon sci-fi graphics, photographic humans, fake archival-photograph treatment, speech bubbles, random lettering, watermarks, or subtitle text. Paper stage-set cutaway with an unpowered, silent telegraph instrument in the upper shadowed workshop and a separate Boston-Portland working key illuminated in the foreground, both constructed as tactile Victorian paper miniatures with disconnected battery and naturally connected wire, composition communicates contrast without false location labels.",
+      "whole_frame_camera_suggestion": "slow_zoom_out",
+      "fact_visual_boundary": "visual metaphor for independently attested effects, not two specific simultaneous documented rooms",
+      "status": "NOT_GENERATED"
+    },
+    {
+      "id": "S014",
+      "narration": "When the storm faded, the batteries went back on. Their remarkable experiment began with one request.",
+      "target_seconds_provisional": 5.8,
+      "visual_intent": "Closure, return to ordinary operation and a natural bridge back to the opening quote.",
+      "ai_image_prompt": "Portrait 9:16, one fully composed opaque full-frame handmade layered paper/card diorama set in 1859, tactile cut edges and folds, subtle material fibers, convincing paper thickness, intricate physically grounded props and contact shadows, expressive cinematic but plausible period lighting; real people represented as detailed layered paper figures; one complete image, not separable FG/MG/BG/parallax elements. No modern electronics, modern lamps, neon sci-fi graphics, photographic humans, fake archival-photograph treatment, speech bubbles, random lettering, watermarks, or subtitle text. Return to richly detailed Boston 1859 telegraph desk from a fresh close angle, technician's fingers restoring a disconnected battery switch to working position, brass key and modest stack of telegram slips nearby; visual center matches the telegraph key seen at the beginning, tangible materials and period daylight; avoid literal paper text.",
+      "whole_frame_camera_suggestion": "slow_zoom_in",
+      "fact_visual_boundary": "reconnection documented; image staged to bridge S014 end pose to S001 start pose",
+      "status": "NOT_GENERATED"
+    }
+  ],
+  "seam": {
+    "last_complete_sentence": "Their remarkable experiment began with one request.",
+    "opening_quote": "Please cut off your battery.",
+    "status": "TEXT_ONLY_SELF_CHECK; AUDIO_AND_VIDEO_UNVERIFIED"
+  }
+}
