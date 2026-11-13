@@ -36,6 +36,10 @@ def parser():
     create.add_argument("--source-script", type=Path,
                         help="Preserve supplied full narration or licensed edit-script bytes; does not invent approval")
     create.add_argument("--session-id", help="Explicit host correlation ID; default CODEX_THREAD_ID (not approval)")
+    cross = sub.add_parser("cross-promotion-plan", help="Read-only plan for Shorts links, posts, end screens and playlists")
+    cross.add_argument("--release-spec", type=Path, required=True)
+    cross.add_argument("--inventory", type=Path, required=True)
+    cross.add_argument("--video-id", required=True)
     sub.add_parser("list", help="Show all runs without loading their creative histories")
     for name in ("status", "next", "plan", "resume", "export", "events", "deferred-actions"):
         command = sub.add_parser(name)
@@ -262,6 +266,11 @@ def main(argv=None):
         if args.command == "profiles":
             result = inspect_profiles(args.profiles or args.project_root / "channels",
                                       channel=args.channel, format=args.format, project=args.project_root)
+        elif args.command == "cross-promotion-plan":
+            from .cross_promotion import build_plan
+            from .release import ReleaseSpec
+            result = build_plan(ReleaseSpec.from_dict(read_json(args.release_spec)),
+                                video_id=args.video_id, inventory=read_json(args.inventory))
         else:
             service = Production(Store(args.db), args.workspace, args.project_root,
                                  approval_public_key=os.environ.get("YTV_APPROVAL_PUBLIC_KEY"))

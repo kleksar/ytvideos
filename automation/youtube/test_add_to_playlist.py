@@ -35,7 +35,8 @@ class Session:
             items = [{'id': VIDEO, 'snippet': {'channelId': self.video_channel},
                       'status': {'privacyStatus': self.privacy}}]
         elif resource == 'playlists':
-            items = [{'id': PLAYLIST, 'snippet': {'title': 'Stories'}}]
+            items = [{'id': PLAYLIST, 'snippet': {'title': 'Stories', 'channelId': self.channel},
+                      'status': {'privacyStatus': 'public'}}]
         elif resource == 'playlistItems':
             items = self.reads.pop(0) if len(self.reads) > 1 else self.reads[0]
         else:
@@ -58,6 +59,22 @@ class TestPlaylist(unittest.TestCase):
                 with self.assertRaises(RuntimeError):
                     run(session, CHANNEL, PLAYLIST, VIDEO)
                 self.assertEqual(session.posts, [])
+
+    def test_public_playlist_membership_with_explicit_privacy(self):
+        session = Session(privacy='public', reads=[[ITEM]])
+        result = run(session, CHANNEL, PLAYLIST, VIDEO, expected_privacy='public')
+        self.assertEqual(result['privacy'], 'public')
+        self.assertEqual(result['playlist_privacy'], 'public')
+        self.assertEqual(session.posts, [])
+        with self.assertRaises(RuntimeError):
+            run(Session(privacy='private'), CHANNEL, PLAYLIST, VIDEO, expected_privacy='public')
+
+    def test_published_video_is_inserted_once_and_read_back(self):
+        session = Session(privacy='public', reads=[[], [ITEM]])
+        result = run(session, CHANNEL, PLAYLIST, VIDEO, expected_privacy='public')
+        self.assertEqual(len(session.posts), 1)
+        self.assertEqual(result['playlist_item_id'], ITEM['id'])
+        self.assertEqual(result['privacy'], 'public')
 
     def test_existing_item_is_not_posted(self):
         session = Session(reads=[[ITEM]])

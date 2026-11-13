@@ -1571,10 +1571,13 @@ class Production:
                         "execution": "requires a connected durable host dispatcher"}]
             for requirement in requirement_matrix(spec, ReleasePolicy.from_dict(run["profile"]["release_policy"])):
                 if requirement.phase == "after_publish" and requirement.applicable:
+                    expected = requirement.expected
+                    if requirement.key == "community_post" and expected is not None:
+                        expected = {**expected, "linked_video_id": run["publication"]["video_id"]}
                     actions.append({"id": requirement.key, "status": "pending", "depends_on": "verify_public",
-                                    "expected": requirement.expected, "video_id": run["publication"]["video_id"],
+                                    "expected": expected, "video_id": run["publication"]["video_id"],
                                     "release_sha256": spec.sha256, "not_before": spec.to_dict()["publish_at"],
-                                    "execution": "requires a supported host adapter; no A/B action has been performed"})
+                                    "execution": "requires a supported host adapter; no external action has been performed"})
             run["deferred_actions"] = actions
             tx.event(f"deferred:{run['id']}", run["id"], "release.deferred_actions", {"actions": actions})
         return run["deferred_actions"]

@@ -76,7 +76,7 @@ class ReleaseSpec:
         required = {"run_id", "revision", "channel_id", "format", "has_speech", "metadata"}
         optional = {"media_sha256", "duration_seconds", "publish_at", "thumbnail_sha256", "caption",
                     "playlist_id", "playlist_na_reason", "related_video_id", "related_na_reason",
-                    "end_screen", "ab_variants"}
+                    "end_screen", "ab_variants", "community_post"}
         _object(value, required, optional)
         # Own the JSON snapshot; subsequent caller mutations cannot alter the spec.
         value = json.loads(_canonical(value))
@@ -153,6 +153,13 @@ class ReleaseSpec:
                 _text(item["target_id"], "end-screen target", pattern)
             if value["format"] == "short" or meta["made_for_kids"]:
                 raise ReleaseError("End screens are not applicable to this video")
+        if "community_post" in value:
+            post = _object(value["community_post"], {"text"})
+            _text(post["text"], "community_post.text")
+            if len(post["text"]) > 500:
+                raise ReleaseError("Community post exceeds the editorial limit (500 characters)")
+            if meta["made_for_kids"]:
+                raise ReleaseError("Community posts are not applicable to made-for-kids video")
         if "ab_variants" in value:
             variants = value["ab_variants"]
             if type(variants) is not list or not 2 <= len(variants) <= 3:
@@ -230,6 +237,9 @@ def requirement_matrix(spec: ReleaseSpec, policy: ReleasePolicy) -> tuple[Requir
     ab = policy.ab_test and spec.format == "long" and not meta["made_for_kids"] and not meta["age_restricted"]
     items.append(Requirement("ab_test", ab, "after_publish", "studio", data.get("ab_variants"),
                              None if ab else "Disabled by policy or video ineligible"))
+    post = "community_post" in data
+    items.append(Requirement("community_post", post, "after_publish", "studio",
+                             data.get("community_post"), None if post else "No independent post was selected"))
     return tuple(items)
 
 
@@ -311,9 +321,12 @@ def validate_receipts(spec: ReleaseSpec, policy: ReleasePolicy, receipts: tuple[
                 errors.append(f"Missing N/A reason: {requirement.key}")
             continue
         receipt = found.get(requirement.key)
+        expected = requirement.expected
+        if requirement.key == "community_post" and expected is not None:
+            expected = {**expected, "linked_video_id": video_id}
         if (receipt is None or receipt.channel_id != spec.channel_id or receipt.video_id != video_id
-                or receipt.release_sha256 != spec.sha256 or requirement.expected is None
-                or receipt.value_json != _canonical(requirement.expected)
+                or receipt.release_sha256 != spec.sha256 or expected is None
+                or receipt.value_json != _canonical(expected)
                 or (requirement.provider == "studio" and receipt.method != "studio_readback")):
             errors.append(f"Unverified saved value: {requirement.key}")
     return tuple(errors)
