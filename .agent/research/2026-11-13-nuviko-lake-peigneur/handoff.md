@@ -1,3 +1,12 @@
+## Актуальный workflow — сверено с remote main
+
+Основа требований `main` `96c8fa1573c02e8e7987e272a569bf34f037691e`. Текущий канал Nuviko History **active**, а данный PR — не зарегистрированный `ytv start` run. Собственная `storyboard.json` — предварительный текстовый план сцен, не официальный completed `storyboard`. Ссылки на self-review и будущие voice timings не подтверждают `awaiting_script_approval` или независимый first-listener.
+
+Когда владелец выбирает этот кандидат: `uv run ytv start --channel nuviko_history --format short --intent 'Проверить неутверждённый сюжет PR #24'`, прочитать `plan_summary`, `read_next`/task_guide/pinned docs и запустить актуальные research/script tasks. `script` требует фактическую независимую сессию reviewer, оригинальный `ytv-script-review-v1` для точно сохранённого EN, двойное прочтение Shorts и настоящие CAS/receipt hashes. При отсутствии reviewer — UNVERIFIED, не подменять PASS. До полного gate и подлинного owner approval нельзя начинать imagegen/TTS/MP4. [Workflow](https://github.com/kleksar/ytvideos/blob/main/docs/workflow.md).
+
+Прошлые даты и SHA ветки ниже — historical provenance. Принятый сюжет по-прежнему должен избегать выдуманной точной причины прорыва шахты; RU смысловая редакторская копия, не TTS master; геометрия буровой/шахты, реальные refs и AV seam не проверены. Не мигрировать pins чужих выпусков молча.
+
+---
 # Handoff — Nuviko History / Lake Peigneur, 1980
 
 **Status:** TEXT-ONLY, DRAFT, owner has not approved this exact English narrative. PR is an editorial candidate, **not** a registered official episode, media stage, upload or production authorization. No imagegen, voice, subtitles, render, merges or publication in this run.

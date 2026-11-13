@@ -1,3 +1,5 @@
+**Сверено с main 96c8fa1573c0:** Nuviko History активен. PR остаётся текстовым кандидатом, а не официальным `ytv start` run или одобренным `awaiting_script_approval`; независимая проверка и approval обязательны перед медиа. Подробнее: [handoff](handoff.md).
+
 # Lake Peigneur — The Lake That Drained Into a Mine (Nuviko History)
 
 **Logline:** In 1980 an oil rig vanished into a Louisiana lake barely ten feet deep. Workers in the salt mine below escaped the flood; the lake swallowed vessels, reversed a canal, then returned deeper and saltier. The exact triggering failure was never established.
