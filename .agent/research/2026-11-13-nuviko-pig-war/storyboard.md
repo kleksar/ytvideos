@@ -115,8 +115,8 @@ Status: EDITORIAL_CANDIDATE_UNREGISTERED; NOT official storyboard stage, no voic
 - Composition target: ~4–6 s before voice. Visual continuity: Keep 1859-1872 historic props; no modern infrastructure.
 
 ## S017
-- narration EN: And it all began before a single soldier or warship was there.
-- narration_ru RU: А началось всё ещё до того, как здесь появились солдаты и военные корабли.
+- narration EN: And it all began with one shot:
+- narration_ru RU: А началось всё с одного выстрела:
 - Narrative change: return toward first shot
-- AI-image prompt (hypothetical, NOT executed): Full-frame vertical 9:16 cinematic historical photographic reconstruction, 1440x2560 design frame, historically plausible 1859-1872 Pacific Northwest coast and period props, naturally subdued color, physical light, photographic people and environments, single cohesive composition, no collage, no comic shading, no subtitles, no typography, no graphic arrows, no decorative frame. Visual return to the same original potato patch composition as S001 before armed intervention: disturbed potato rows, a curious live pig approaching from edge of frame and a farmer far behind; match opening horizon, camera height, sunlight for prospective loop.
-- Composition target: ~4–6 s before voice. Visual continuity: Match S001 field and camera position for loop, keep same era and light.
+- AI-image prompt (hypothetical, NOT executed): Full-frame vertical 9:16 cinematic historical photographic reconstruction, 1440x2560 design frame, historically plausible 1859-1872 Pacific Northwest coast and period props, naturally subdued color, physical light, photographic people and environments, single cohesive composition, no collage, no comic shading, no subtitles, no typography, no graphic arrows, no decorative frame. For final S017, REUSE the exact approved full-frame image of S001 (farmer, pig, potato patch), not a second similar generated composition; align last whole-frame crop/pose exactly with S001 opening for playback loop.
+- Composition target: ~4–6 s before voice. Visual continuity: Use S001 original source bytes and identical end/start camera crop; actual audio/video seam NOT VERIFIED.
