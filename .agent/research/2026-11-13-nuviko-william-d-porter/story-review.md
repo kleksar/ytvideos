@@ -15,7 +15,7 @@
 - **PASS (автор):** в первом предложении понятны оружие, опасность и пострадавший объект. Сигнальный фонарь и primer требуют ровно минимального понимания; не нужно знать модель торпеды.
 - **PASS (автор):** причинная последовательность: `S004 rehearsal → S005 live shot → S006 radio silence → S007 wrong lamp warning → S008 radio → S009 evasive turn → S010 miss → S011 primer`. Это не перечень смежных курьёзов.
 - **Ограничение:** «primer» — технический термин. В RU использован «капсюль-воспламенитель»; если первый слушатель не понимает, объяснить предмет простыми словами, не добавляя неподтверждённую модель механизма.
-- **Short loop — TEXT_ONLY PASS (автор):** `And all of it began with a practice launch. A U.S. destroyer fired a live torpedo at the battleship carrying President Roosevelt.`. Финальный смысл завершён до начала следующего воспроизведения. Переход в реальном MP4/звуке — **UNVERIFIED**.
+- **Short loop — TEXT_ONLY PASS (автор):** `The entire mistake began with a practice launch that went wrong: A U.S. destroyer fired a live torpedo at the battleship carrying President Roosevelt.`. Финальный смысл завершён до начала следующего воспроизведения. Переход в реальном MP4/звуке — **UNVERIFIED**.
 - **S001 hook:** не называть пуск сознательным «покушением». Сам корабль в кадре должен быть боевым эскортом того же флота.
 
 ## Источники и расхождения
@@ -32,3 +32,13 @@
 - **UNVERIFIED:** тесты на человеческой аудитории, CTR, watch time, 9:16 финальный кадр и voice timings.
 
 **Решение:** Только Draft PR для владельца на просмотр. Владелец может отклонить и вернуться к кандидатам без TTS/production.
+
+## 2026-11-13 — correction to narrative loop (revision)
+
+Before: ending `And all of it began with a practice launch.` was a thematic return, not a directly continuous spoken loop. The author has repaired only the last spoken line in both languages, preserving historical events and payoff.
+
+EN last→first: **The entire mistake began with a practice launch that went wrong: A U.S. destroyer fired a live torpedo at the battleship carrying President Roosevelt.**
+
+RU конец→начало: **Всё началось с учебного пуска, который пошёл совсем не по плану: Американский эсминец выпустил боевую торпеду в сторону линкора, на котором находился президент Рузвельт.**
+
+Authorial text-only loop check: PASS for direct grammatical continuation and meaningful already-resolved story; independent fresh-reader review, repeated reading twice, audio/subtitles/final MP4 join remain UNVERIFIED. The provisional storyboard is NOT a completed runtime stage.
