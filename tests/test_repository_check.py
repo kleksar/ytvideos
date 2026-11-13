@@ -73,7 +73,7 @@ class RepositoryCheckTest(unittest.TestCase):
     def test_current_entrypoints_include_onboarding_profiles_and_channel_portals(self):
         for name in ('ONBOARDING.md', '.agent/README.md', '.agent/documentation-index.md',
                      'channels/example/PROFILE.md',
-                     'channels/example/profile.md', 'channels/example/README.md', 'channels/README.md'):
+                     'channels/lowercase/profile.md', 'channels/example/README.md', 'channels/README.md'):
             with self.subTest(name=name):
                 original = (self.root / name).read_text() if (self.root / name).exists() else '# Entry\n'
                 path = self.write(name, '[missing](missing.md)\n')
@@ -101,6 +101,18 @@ class RepositoryCheckTest(unittest.TestCase):
         path = self.root / '.agent/README.md'
         path.write_text('# Entry\n\n[Start](../AGENTS.md) · [Old rules](../README.md).\n')
         self.assertTrue(any('compatibility entry' in error for error in self.errors()))
+
+    def test_profile_case_variants_follow_actual_filesystem_identity(self):
+        upper = self.write('channels/example/PROFILE.md', '[missing](upper-missing.md)\n')
+        lower = upper.with_name('profile.md')
+        case_insensitive = lower.exists() and upper.samefile(lower)
+        if not case_insensitive:
+            self.write('channels/example/profile.md', '[missing](lower-missing.md)\n')
+        errors = self.errors()
+        self.assertEqual(len(errors), 1 if case_insensitive else 2)
+        self.assertTrue(any('PROFILE.md' in error and 'upper-missing.md' in error for error in errors))
+        if not case_insensitive:
+            self.assertTrue(any('profile.md' in error and 'lower-missing.md' in error for error in errors))
 
     def test_missing_same_page_and_cross_page_anchors_fail(self):
         self.write('README.md', '# Entry\n[here](#absent) [there](AGENTS.md#absent)\n')

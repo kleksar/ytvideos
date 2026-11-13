@@ -102,9 +102,12 @@ def current_documents(root, errors=None, *, runtime_documents=None):
     runtime_documents.update((root / ".agents/skills").glob("*/SKILL.md"))
     for folder in ("docs", ".agents/skills"):
         docs.update((root / folder).rglob("*.md"))
-    for name in ("AGENTS.md", "PROFILE.md", "profile.md", "README.md"):
-        docs.update((root / "channels").glob(f"*/{name}"))
-        runtime_documents.update((root / "channels").glob(f"*/{name}"))
+    # Enumerate stored names once: literal case variants can alias one file
+    # on macOS, while PROFILE.md and profile.md may be distinct on Linux.
+    for path in (root / "channels").glob("*/*.md"):
+        if path.name in {"AGENTS.md", "PROFILE.md", "profile.md", "README.md"}:
+            docs.add(path)
+            runtime_documents.add(path)
     if (root / "channels/README.md").exists():
         docs.add(root / "channels/README.md")
     docs.update((root / ".codex/agents").glob("*.md"))
