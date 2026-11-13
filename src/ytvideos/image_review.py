@@ -14,9 +14,54 @@ from .errors import WorkflowError
 from .util import file_digest, require_text
 
 
+PLAN_SCHEMA = "ytv-thumbnail-plan-v1"
+RESULT_SCHEMA = "ytv-thumbnail-review-result-v1"
 SCHEMA = "ytv-thumbnail-review-v1"
 OBSERVATIONS = {"focal_point", "story_relation", "title_pair", "phone_size", "crop"}
 PREVIEW_HELPER = "automation/helpers/youtube-thumbnails/scripts/thumbnail_previews.py"
+
+
+def validate_plan(observed, *, spec, script_sha256):
+    """Validate the existing thumbnail_plan check, not a second production flow.
+
+    Counts, exact metadata and literal duplicates are machine-checkable; relevance,
+    truthfulness and genuinely different ideas still require editorial review.
+    """
+    if not isinstance(observed, dict) or observed.get("schema") != PLAN_SCHEMA:
+        raise WorkflowError("thumbnail_plan requires the structured concept plan, not a generic PASS")
+    if observed.get("script_sha256") != script_sha256:
+        raise WorkflowError("thumbnail plan must bind the exact accepted script")
+    concepts = observed.get("concepts")
+    minimum = 3 if spec.format == "long" else 1
+    if not isinstance(concepts, list) or len(concepts) < minimum:
+        raise WorkflowError(f"thumbnail plan requires at least {minimum} complete concepts")
+    by_id, promises = {}, set()
+    fields = ("title", "description", "prompt", "visual_intent", "promise",
+              "first_confirmation", "payoff", "false_reading")
+    for concept in concepts:
+        if (not isinstance(concept, dict) or not isinstance(concept.get("id"), str)
+                or not re.fullmatch(r"[a-zA-Z0-9_-]{1,64}", concept["id"]) or concept["id"] in by_id):
+            raise WorkflowError("thumbnail concepts require distinct stable IDs")
+        for field in fields:
+            require_text(concept.get(field), "thumbnail concept " + field)
+        for field in ("overlay_text", "intro_connection"):
+            if not isinstance(concept.get(field), str):
+                raise WorkflowError("thumbnail concept requires explicit " + field)
+        promise = " ".join(concept["promise"].casefold().split())
+        if promise in promises:
+            raise WorkflowError("thumbnail concepts must not repeat the same promise")
+        promises.add(promise)
+        by_id[concept["id"]] = concept
+    if spec.format == "long" and not any(item["intro_connection"].strip() for item in concepts):
+        raise WorkflowError("long thumbnail plan requires a concrete connection to the intro")
+    selected_id = observed.get("selected_id")
+    if not isinstance(selected_id, str) or selected_id not in by_id:
+        raise WorkflowError("thumbnail selected_id must identify a saved concept")
+    selected = by_id[selected_id]
+    metadata = spec.to_dict()["metadata"]
+    if any(selected[field] != metadata[field] for field in ("title", "description")):
+        raise WorkflowError("selected thumbnail title/description must match the exact ReleaseSpec metadata")
+    return by_id
 
 
 def thumbnail_references(brief, artifacts):
@@ -56,6 +101,10 @@ def validate_observation(observed, *, artifact_sha256, worker, brief, artifacts)
     if reviewer.strip() == worker.strip():
         raise WorkflowError("thumbnail review requires a reviewer distinct from the image generator")
     selected = thumbnail_references(brief, artifacts)
+    concept = brief.get("concept")
+    if concept is not None and (observed.get("concept_id") != concept["id"]
+                                or observed.get("artwork_text") != concept["overlay_text"]):
+        raise WorkflowError("thumbnail review must match the planned concept and actual overlay text")
     if observed.get("title") != brief["title"]:
         raise WorkflowError("thumbnail review title differs from the exact brief title")
     notes = observed.get("observations")
@@ -186,5 +235,21 @@ def validate_files(observed, *, image_path, format, channel_name, project_root):
     if (card.get("theme") not in {"light", "dark", "both"} or type(card.get("grayscale")) is not bool
             or page.read_text(encoding="utf-8") != helper.build_card_html(cards, card["theme"], card["grayscale"])):
         raise WorkflowError("thumbnail card mock differs from the canonical title/image rendering")
-    checked(observed["evidence"])
+    evidence_path = checked(observed["evidence"])
+    try:
+        result = json.loads(evidence_path.read_text(encoding="utf-8"))
+    except (ValueError, UnicodeError) as exc:
+        raise WorkflowError("thumbnail evidence must be the independent review result JSON, not an arbitrary file") from exc
+    if (not isinstance(result, dict) or result.get("schema") != RESULT_SCHEMA
+            or result.get("decision") != "pass"):
+        raise WorkflowError("thumbnail evidence requires a passing independent review result")
+    source = result.get("source")
+    if not isinstance(source, dict):
+        raise WorkflowError("thumbnail review result needs its actual source")
+    for key in ("tool", "session_id"):
+        require_text(source.get(key), "thumbnail reviewer source " + key)
+    for key in ("artifact_sha256", "title", "reviewer", "preview_manifest", "phone_preview",
+                "crop_preview", "observations", "references", "reference_na_reason", "concept_id", "artwork_text"):
+        if result.get(key) != observed.get(key):
+            raise WorkflowError("thumbnail receipt differs from the saved reviewer result: " + key)
     return records

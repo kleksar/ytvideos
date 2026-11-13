@@ -1,6 +1,8 @@
 """Select and pin the documents needed by one task, including channel recipes."""
 
 import hashlib
+import json
+import re
 from pathlib import Path, PurePosixPath
 
 from .documentation import current_reference_error
@@ -21,7 +23,8 @@ STAGE_REFERENCES = {
     "render": ["docs/standards/delivery.md", "docs/standards/visual.md", "docs/standards/audio.md"],
     "review": ["docs/standards/delivery.md", "docs/standards/visual.md", "docs/standards/audio.md",
                "docs/standards/editorial.md", "docs/standards/narration.md", "docs/standards/thumbnails.md"],
-    "packaging": ["docs/standards/release.md", "docs/standards/thumbnails.md"],
+    "packaging": ["docs/standards/release.md", "docs/standards/thumbnails.md", "docs/standards/visual.md",
+                  "docs/operations/thumbnail-contract.md"],
     "upload": ["docs/standards/release.md", "docs/standards/thumbnails.md"],
     "configure_release": ["docs/standards/release.md", "docs/standards/thumbnails.md",
                           "docs/operations/thumbnail-experiments.md"],
@@ -62,7 +65,7 @@ def task_references(task, *, profile=None, format=None, project_root=None):
     paths = [TASK_EXECUTION_REFERENCE, *STAGE_REFERENCES.get(stage, [])]
     purpose = task.get("payload", {}).get("purpose", "scene") if stage == "scene_image" else None
     if stage == "scene_image" and purpose == "thumbnail":
-        paths.append("docs/standards/thumbnails.md")
+        paths.extend(["docs/standards/thumbnails.md", "docs/operations/thumbnail-contract.md"])
     # The production skill requires the accepted Shorts loop at these stages.
     if format == "short" and stage in {"storyboard", "audio", "render"}:
         paths.append("docs/standards/editorial.md")
@@ -151,3 +154,50 @@ def reference_context(run, task, project_root):
         source = "pinned"
     return {"references": list(paths), "reference_documents": validate_documents(paths, documents),
             "reference_source": source}
+
+
+def instruction_packet(root, *, channel, stage, format):
+    """Read the same rule selection for a narrow edit, without a run or database.
+
+    Manual channels need their real PROFILE, not a manufactured ChannelSpec.
+    This proves instruction availability, never asset availability or model reading.
+    """
+    from .profiles import read_profile
+
+    root = Path(root).resolve()
+    if not isinstance(channel, str) or not re.fullmatch(r"[a-z][a-z0-9_]{1,63}", channel):
+        raise WorkflowError("channel must name an existing channel directory")
+    if stage not in {*STAGE_REFERENCES, "thumbnail"} or format not in {"short", "long"}:
+        raise WorkflowError("select an existing stage and short/long format")
+    profile_path = f"channels/{channel}/PROFILE.md"
+    _read_document(root, profile_path, current=True)  # Never silently substitute a different channel.
+    config_path = root / "channels" / channel / "channel.json"
+    if not config_path.resolve().is_relative_to(root):
+        raise WorkflowError("channel configuration must stay inside the repository")
+    configured = config_path.exists() or config_path.is_symlink()
+    profile = read_profile(root / "channels", channel) if configured else {"id": channel}
+    task = ({"stage": "scene_image", "payload": {"purpose": "thumbnail"}}
+            if stage == "thumbnail" else {"stage": stage})
+    catalog = json.loads(_read_document(root, ".agent/skill-catalog.json", current=True)["text"])
+    if (not isinstance(catalog, dict) or not isinstance(catalog.get("skills"), list)
+            or any(not isinstance(entry, dict) or not isinstance(entry.get("stages"), list)
+                   or not isinstance(entry.get("name"), str) or not entry["name"].strip()
+                   or not isinstance(entry.get("path"), str) for entry in catalog["skills"])):
+        raise WorkflowError("invalid skill catalog; cannot select complete instructions")
+    entries = [entry for entry in catalog["skills"] if task["stage"] in entry["stages"]]
+    if len(entries) != 1:
+        raise WorkflowError("task stage must have exactly one skill in the current catalog")
+    entry = entries[0]
+    skill = _read_document(root, entry["path"], current=True)
+    paths = task_references(task, profile=profile, format=format, project_root=root)
+    documents = [_read_document(root, path, current=True) for path in paths]
+    return {"scope": "instructions_only", "channel": channel, "stage": stage, "format": format,
+            "channel_status": profile.get("status", "manual"),
+            "channel_configuration": profile if configured else None,
+            "skill": {"name": entry["name"], **skill},
+            "references": paths, "reference_documents": documents,
+            "read_next": [entry["path"], *paths],
+            "boundary": "Read the full skill and every selected document, then open the actual task inputs. "
+                        "This packet is not a run, approval, input preflight or completed review. "
+                        "Missing required inputs or instructions block the affected action. "
+                        "For an existing run use its pinned context, not current checkout instructions."}

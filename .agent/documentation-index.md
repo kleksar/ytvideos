@@ -10,6 +10,7 @@
 | Речь/voice/speed, mix, музыка, word map/SRT/caption semantics | [audio](../docs/standards/audio.md) |
 | Рендер/геометрия/время/codec/QA exact MP4 | [delivery](../docs/standards/delivery.md) |
 | Приёмы обложек, AI-черновики, карточка/начало/payoff и QA | [thumbnails](../docs/standards/thumbnails.md) |
+| Структура thumbnail_plan, brief и exact reviewer result | [thumbnail contract](../docs/operations/thumbnail-contract.md) |
 | План/наблюдение A/B, интерпретация метрик, следующий тест | [thumbnail experiments](../docs/operations/thumbnail-experiments.md) |
 | Metadata, полный YouTube release, календарь, provider A/B и read-back | [release](../docs/standards/release.md) |
 | Artifacts/cache/retention/cleanup/TEXT_ONLY | [storage](../docs/standards/storage.md) |

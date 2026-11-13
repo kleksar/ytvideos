@@ -90,6 +90,14 @@ def task_guide(run, task, references=(), requirements=None):
             "review": "Watch and listen to the exact export, including every cut and lyric boundary. "
                       "A renderer receipt and fragment journal prove bindings, not perceptual quality or rights.",
         }
+    if stage == "packaging":
+        guidance["thumbnail_plan"] = {
+            "schema": "ytv-thumbnail-plan-v1", "minimum_concepts": 3 if run["format"] == "long" else 1,
+            "instruction": "Save complete concepts and selected_id in the thumbnail_plan check, bound to the "
+                           "exact accepted script. Match selected title/description to ReleaseSpec. Read the "
+                           "task contract for fields; generic PASS and literal duplicate promises are rejected. "
+                           "The structural check does not prove truthfulness or editorial quality.",
+        }
     if stage == "script" and requirements is not None:
         from .capabilities import DISCOVERY
         guidance["independent_review"] = {

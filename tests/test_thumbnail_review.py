@@ -11,7 +11,7 @@ from PIL import Image, ImageDraw
 
 import test_pool_service as fixtures
 from ytvideos.errors import Conflict, WorkflowError
-from ytvideos.image_review import PREVIEW_HELPER, SCHEMA, validate_observation
+from ytvideos.image_review import PREVIEW_HELPER, RESULT_SCHEMA, SCHEMA, validate_observation
 from ytvideos.util import file_digest
 from ytvideos.workflow import REQUIRED_CHECKS, required_checks
 
@@ -64,6 +64,9 @@ class ThumbnailReviewTests(unittest.TestCase):
         self.reference = self.fixture.store.get(self.run_id)["artifacts"][self.reference["id"]]
         self.brief = {"id": "main", "title": "Synthetic test title", "prompt": "Synthetic composition for an isolated test",
                       "visual_intent": "Test a large clear center", "references": [self.reference["id"]]}
+        from thumbnail_fixtures import seed_packaging
+        seed_packaging(self.production, self.run_id, self.root,
+                       title=self.brief["title"], ids=["main", "no-reference"])
         self.task = self.production.add_thumbnail_task(self.run_id, self.brief)
         self.fixture.pools.operate(self.run_id, "initialize", {
             "runtime_key": "fixture-runtime", "max_sessions": 1, "review_capacity": 2,
@@ -83,6 +86,7 @@ class ThumbnailReviewTests(unittest.TestCase):
         manifest = json.loads((self.preview_dir / "manifest.json").read_text())
         self.observed = {
             "schema": SCHEMA, "artifact_sha256": file_digest(self.image), "reviewer": "independent-test-reviewer",
+            "concept_id": "main", "artwork_text": "FIXTURE",
             "title": self.brief["title"], "preview_manifest": self.record(self.preview_dir / "manifest.json"),
             "phone_preview": self.record(Path(manifest["previews"][0]["path"])),
             "crop_preview": self.record(Path(manifest["previews"][1]["path"])),
@@ -97,6 +101,16 @@ class ThumbnailReviewTests(unittest.TestCase):
                             "comparison": "Synthetic artwork has a yellow center; reference fixture is a green plane."}],
             "evidence": self.record(note),
         }
+        self.write_review_result()
+
+    def write_review_result(self, **changes):
+        result = {key: value for key, value in self.observed.items() if key != "evidence"}
+        result.update(schema=RESULT_SCHEMA, decision="pass",
+                      source={"tool": "synthetic-fixture", "session_id": "independent-test-reviewer"})
+        result.update(changes)
+        path = Path(self.observed["evidence"]["path"])
+        path.write_text(json.dumps(result))
+        self.observed["evidence"] = self.record(path)
 
     @staticmethod
     def record(path):
@@ -149,9 +163,27 @@ class ThumbnailReviewTests(unittest.TestCase):
         })
         self.assertEqual(result["status"], "accepted")
 
+    def test_unrelated_or_unreadable_file_is_not_independent_review_evidence(self):
+        path = Path(self.observed["evidence"]["path"])
+        for content in ("No review was performed.", "{broken", "{}", "[]"):
+            path.write_text(content)
+            self.observed["evidence"] = self.record(path)
+            with self.subTest(content=content), self.assertRaisesRegex(WorkflowError, "review result"):
+                self.complete()
+        self.assertNotEqual(self.fixture.store.get(self.run_id)["tasks"][self.task["id"]]["status"], "complete")
+
+    def test_failed_review_or_receipt_rewriting_cannot_be_promoted_to_pass(self):
+        for changes in ({"decision": "fail"}, {"decision": "unverified"},
+                        {"reviewer": "some-other-reviewer"}, {"observations": {}},
+                        {"artifact_sha256": "0" * 64}, {"source": {}}):
+            self.write_review_result(**changes)
+            with self.subTest(changes=changes), self.assertRaises(WorkflowError):
+                self.complete()
+
     def test_wrong_image_title_self_review_or_omitted_reference_is_rejected(self):
         for field, value in [("artifact_sha256", "0" * 64), ("title", "Another title"),
-                             ("reviewer", self.claim["worker"]), ("references", [])]:
+                             ("reviewer", self.claim["worker"]), ("references", []),
+                             ("artwork_text", ""), ("concept_id", "another")]:
             with self.subTest(field=field), self.assertRaises(WorkflowError):
                 self.complete({**self.observed, field: value})
         bad = copy.deepcopy(self.observed)

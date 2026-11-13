@@ -850,6 +850,10 @@ class Production:
             script = accepted_script(run, self.artifacts)
             if script and spec.has_speech != (script["mode"] != "none"):
                 raise WorkflowError("release has_speech must match the accepted script")
+            from .image_review import validate_plan
+            plan = next((check["observed"] for check in (receipt or {}).get("checks", [])
+                         if check.get("name") == "thumbnail_plan"), None)
+            validate_plan(plan, spec=spec, script_sha256=self._artifact(run, "script")["sha256"])
         elif stage in {"audio", "scene_image", "subtitles", "render", "review"}:
             from . import media_checks
             checked_artifact_ids = []
@@ -1596,8 +1600,23 @@ class Production:
             from .image_review import thumbnail_references
             for reference in thumbnail_references(brief, run["artifacts"]):
                 self.artifacts.resolve(reference)
+            packaging = run["tasks"]["packaging"]
+            receipt_artifact = run["artifacts"].get(packaging.get("receipt"))
+            if receipt_artifact is None:
+                raise Conflict("packaging has no concept plan receipt; complete its review before generation")
+            receipt = json.loads(self.artifacts.resolve(receipt_artifact).read_text())
+            plan = next((check["observed"] for check in receipt["checks"] if check["name"] == "thumbnail_plan"), None)
+            from .image_review import validate_plan
+            from .release import ReleaseSpec
+            spec = ReleaseSpec.from_dict(json.loads(self.artifacts.resolve(self._artifact(run, "packaging")).read_text()))
+            concepts = validate_plan(plan, spec=spec, script_sha256=self._artifact(run, "script")["sha256"])
+            concept = concepts.get(brief["id"])
+            if concept is None or brief["title"] != concept["title"]:
+                raise WorkflowError("thumbnail ID/title must match its saved packaging concept")
+            if "concept" in brief and brief["concept"] != concept:
+                raise WorkflowError("thumbnail brief cannot replace its saved packaging concept")
             task_id = "thumbnail:" + brief["id"]
-            payload = {**brief, "purpose": "thumbnail"}
+            payload = {**brief, "concept": concept, "purpose": "thumbnail"}
             if task_id in run["tasks"]:
                 if run["tasks"][task_id].get("payload") != payload:
                     if run["tasks"][task_id]["status"] != "pending":

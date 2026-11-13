@@ -119,13 +119,9 @@ class ImageHostTests(unittest.TestCase):
         profile["recipe"] = "licensed_clips"
         profile_path.write_text(json.dumps(profile))
         run_id, _ = self.make_run(count=1, shared_review_capacity=4)
-        brief = self.root / "packaging.json"
-        brief.write_text(json.dumps({"title": "Accepted synthetic packaging fixture"}))
-        artifact = self.production.artifacts.put(brief, "release_spec")
-        def prepared(tx, run):
-            run["artifacts"][artifact["id"]] = artifact
-            run["tasks"]["packaging"].update(status="complete", outputs=[artifact["id"]])
-        self.store.mutate(run_id, prepared)
+        from thumbnail_fixtures import seed_packaging
+        seed_packaging(self.production, run_id, self.root,
+                       title="Accepted synthetic packaging fixture", ids=["cover"])
         self.production.add_thumbnail_task(run_id, {
             "id": "cover", "prompt": "Synthetic cover", "visual_intent": "A specific promise",
             "title": "Accepted synthetic packaging fixture",

@@ -49,3 +49,7 @@ Paper: полноценные paper/card диорамы, самостоятел�
 ## Критерий активации
 
 Контрактные tests и свежая Luna navigation/script проба проверяют новый route. Полный live production требует доступных tools, проверенных credentials/rights/fonts и control episode. Postgres/shared-storage/worker recovery проверяются отдельно. В MR явно перечислять проверенное и оставшееся; не подменять фактическую приёмку архитектурной схемой.
+
+## Полнота инструкций и thumbnail evidence
+
+Для новых/переработанных packaging применяется структурированный `thumbnail_plan`; generic PASS старого receipt не превращается в концепты автоматически. При переносе незавершённого выпуска подготовить недостающие концепты и reviewer JSON по текущему task contract, сохранив прежние source/approved media. Не переписывать старый pinned snapshot и не изобретать задним числом независимое review. Неизменённый run продолжает использовать исходный checkout по общему порядку выше. `instructions` предназначен для узкой работы без run и не является обходом migration.
