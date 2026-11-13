@@ -1,6 +1,6 @@
 # Проверка сценария: интерес отдельно от фактов
 
-**Состояние:** Draft before owner script acceptance, Nuviko History frozen. English narration: **139 words**; 12 paired Russian paragraphs. No images/TTS/MP4.
+**Состояние:** Draft before owner script acceptance. Nuviko History is active in current channel.json; the original candidate was prepared while the channel was frozen. English narration: **139 words**; 12 paired Russian paragraphs. No images/TTS/MP4.
 
 ## Интерес — авторский тест до раскадровки
 
