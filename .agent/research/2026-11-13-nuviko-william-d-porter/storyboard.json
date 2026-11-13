@@ -1,0 +1,147 @@
+{
+  "schema": "story-draft-v1",
+  "owner": "nuviko_history",
+  "status": "TEXT_ONLY_PREAPPROVAL",
+  "format": "Short vertical 9:16",
+  "english_source": "script.en.txt",
+  "russian_editorial_reference": "script.ru.txt",
+  "order": "EN is the authoritative narration for future TTS/subtitles. Russian is a full editorial mirror; no Russian voice planned.",
+  "timing_basis": "PROVISIONAL 4-6s image planning only; no synthesized voice, no measured alignments. Re-segment after approved TTS without forcing timing.",
+  "preview_count": 12,
+  "estimated_scene_seconds_total": 60,
+  "external_presenter_policy": "Nuviko is a two-dimensional hand-drawn traveler in a photorealistic world, not a historical witness. Scene S012 must use exact accepted PNG reference files with verified actual bytes before any AI generation.",
+  "scenes": [
+    {
+      "id": "S001",
+      "narration": "A U.S. destroyer fired a live torpedo at the battleship carrying President Roosevelt.",
+      "narration_ru": "Американский эсминец выпустил боевую торпеду в сторону линкора, на котором находился президент Рузвельт.",
+      "scene_intent": "Visible torpedo track and two vessels; neither vessel sunk",
+      "shot": "wide action",
+      "estimated_duration_s": 4.5,
+      "ai_image_prompt": "Portrait 9:16, full-bleed 2K cinematic photorealistic historical reconstruction, November 1943 US Navy in the North Atlantic, natural muted colors, realistic photographic environment, physically plausible lighting and shadows, distinct composition with clear subject in mobile crop. high three-quarter overhead at daylight over rough but not stormy Atlantic; Iowa-class battleship in near distance and smaller Fletcher-class escort with a single torpedo wake moving toward battleship; cinematic physical threat, not an impact. This is a modern illustrative reenactment, not authentic archival evidence; no fake photo stamps, overlays, animated logos, decorative borders, visible subtitles or modern controls. For a 2D traveler only if explicitly specified, keep every other person and object photorealistic; verify the actual accepted reference PNGs and perspective before generation.",
+      "camera_suggestion": "Subtle whole-frame push-in only",
+      "evidence_status": "PLANNING_NOT_GENERATED"
+    },
+    {
+      "id": "S002",
+      "narration": "It was supposed to be protecting him.",
+      "narration_ru": "Хотя этот эсминец должен был его охранять.",
+      "scene_intent": "Relation: protective escort, not enemy",
+      "shot": "medium reversal",
+      "estimated_duration_s": 4.5,
+      "ai_image_prompt": "Portrait 9:16, full-bleed 2K cinematic photorealistic historical reconstruction, November 1943 US Navy in the North Atlantic, natural muted colors, realistic photographic environment, physically plausible lighting and shadows, distinct composition with clear subject in mobile crop. low sea-level angle from escort toward imposing Iowa broadside, US naval ensigns consistent with 1943, proportional Fletcher-class destroyer in foreground; allied formation. This is a modern illustrative reenactment, not authentic archival evidence; no fake photo stamps, overlays, animated logos, decorative borders, visible subtitles or modern controls. For a 2D traveler only if explicitly specified, keep every other person and object photorealistic; verify the actual accepted reference PNGs and perspective before generation.",
+      "camera_suggestion": "Static frame or subtle whole-frame pan after visual QA; no parallax or layer masks",
+      "evidence_status": "PLANNING_NOT_GENERATED"
+    },
+    {
+      "id": "S003",
+      "narration": "In November 1943, Roosevelt was crossing the Atlantic aboard USS Iowa.",
+      "narration_ru": "В ноябре 1943 года Рузвельт пересекал Атлантику на борту USS Iowa.",
+      "scene_intent": "Setting and vessel without staged presidential dialogue",
+      "shot": "establishing",
+      "estimated_duration_s": 5,
+      "ai_image_prompt": "Portrait 9:16, full-bleed 2K cinematic photorealistic historical reconstruction, November 1943 US Navy in the North Atlantic, natural muted colors, realistic photographic environment, physically plausible lighting and shadows, distinct composition with clear subject in mobile crop. wide deck view of USS Iowa circa November 1943 showing wartime battleship superstructure and open North Atlantic, a discreet distant presidential party as small nonidentifiable period figures, no invented reactions. This is a modern illustrative reenactment, not authentic archival evidence; no fake photo stamps, overlays, animated logos, decorative borders, visible subtitles or modern controls. For a 2D traveler only if explicitly specified, keep every other person and object photorealistic; verify the actual accepted reference PNGs and perspective before generation.",
+      "camera_suggestion": "Static frame or subtle whole-frame pan after visual QA; no parallax or layer masks",
+      "evidence_status": "PLANNING_NOT_GENERATED"
+    },
+    {
+      "id": "S004",
+      "narration": "His escort, USS William D. Porter, was rehearsing a torpedo attack.",
+      "narration_ru": "Эсминец сопровождения USS William D. Porter отрабатывал учебную торпедную атаку.",
+      "scene_intent": "A torpedo drill, not combat",
+      "shot": "medium mechanics",
+      "estimated_duration_s": 5,
+      "ai_image_prompt": "Portrait 9:16, full-bleed 2K cinematic photorealistic historical reconstruction, November 1943 US Navy in the North Atlantic, natural muted colors, realistic photographic environment, physically plausible lighting and shadows, distinct composition with clear subject in mobile crop. 1943 Fletcher-class destroyer torpedo battery in daylight training state, sailors in accurate-era navy clothing rehearsing operation, period torpedo tubes in side view; coherent on-deck geometry. This is a modern illustrative reenactment, not authentic archival evidence; no fake photo stamps, overlays, animated logos, decorative borders, visible subtitles or modern controls. For a 2D traveler only if explicitly specified, keep every other person and object photorealistic; verify the actual accepted reference PNGs and perspective before generation.",
+      "camera_suggestion": "Subtle whole-frame push-in only",
+      "evidence_status": "PLANNING_NOT_GENERATED"
+    },
+    {
+      "id": "S005",
+      "narration": "The launch should have been simulated. Instead, a real torpedo shot out.",
+      "narration_ru": "Пуск должен был быть условным. Вместо этого из аппарата действительно вылетела торпеда.",
+      "scene_intent": "Simulated launch becomes real",
+      "shot": "close action",
+      "estimated_duration_s": 5,
+      "ai_image_prompt": "Portrait 9:16, full-bleed 2K cinematic photorealistic historical reconstruction, November 1943 US Navy in the North Atlantic, natural muted colors, realistic photographic environment, physically plausible lighting and shadows, distinct composition with clear subject in mobile crop. torpedo exiting WWII-era destroyer torpedo tube low above water, period steel tube with realistic scale, white spray and accelerating wake; one clean action frozen in moment. This is a modern illustrative reenactment, not authentic archival evidence; no fake photo stamps, overlays, animated logos, decorative borders, visible subtitles or modern controls. For a 2D traveler only if explicitly specified, keep every other person and object photorealistic; verify the actual accepted reference PNGs and perspective before generation.",
+      "camera_suggestion": "Static frame or subtle whole-frame pan after visual QA; no parallax or layer masks",
+      "evidence_status": "PLANNING_NOT_GENERATED"
+    },
+    {
+      "id": "S006",
+      "narration": "Now they had to warn Iowa. But the ships were under radio silence.",
+      "narration_ru": "Теперь нужно было предупредить Iowa. Но корабли соблюдали радиомолчание.",
+      "scene_intent": "Radio silence creates delay",
+      "shot": "intimate obstacle",
+      "estimated_duration_s": 5,
+      "ai_image_prompt": "Portrait 9:16, full-bleed 2K cinematic photorealistic historical reconstruction, November 1943 US Navy in the North Atlantic, natural muted colors, realistic photographic environment, physically plausible lighting and shadows, distinct composition with clear subject in mobile crop. period ship radio compartment, authentic 1943 radio equipment and operator hand hovering above handset, disciplined restrained light, no electronic HUD, avoid written invented codes. This is a modern illustrative reenactment, not authentic archival evidence; no fake photo stamps, overlays, animated logos, decorative borders, visible subtitles or modern controls. For a 2D traveler only if explicitly specified, keep every other person and object photorealistic; verify the actual accepted reference PNGs and perspective before generation.",
+      "camera_suggestion": "Static frame or subtle whole-frame pan after visual QA; no parallax or layer masks",
+      "evidence_status": "PLANNING_NOT_GENERATED"
+    },
+    {
+      "id": "S007",
+      "narration": "Porter tried flashing a warning by signal lamp. The first messages were wrong.",
+      "narration_ru": "Porter попытался передать предупреждение сигнальным фонарём. Первые сообщения оказались ошибочными.",
+      "scene_intent": "Light signal fails to communicate correct warning",
+      "shot": "medium signal",
+      "estimated_duration_s": 5,
+      "ai_image_prompt": "Portrait 9:16, full-bleed 2K cinematic photorealistic historical reconstruction, November 1943 US Navy in the North Atlantic, natural muted colors, realistic photographic environment, physically plausible lighting and shadows, distinct composition with clear subject in mobile crop. ship bridge sailor operating bright 1943 Aldis-type signal lamp toward distant Iowa; focused beams over sea, physically plausible separation; do not render readable or fake Morse text. This is a modern illustrative reenactment, not authentic archival evidence; no fake photo stamps, overlays, animated logos, decorative borders, visible subtitles or modern controls. For a 2D traveler only if explicitly specified, keep every other person and object photorealistic; verify the actual accepted reference PNGs and perspective before generation.",
+      "camera_suggestion": "Subtle whole-frame push-in only",
+      "evidence_status": "PLANNING_NOT_GENERATED"
+    },
+    {
+      "id": "S008",
+      "narration": "As the torpedo approached, Porter's captain broke silence and radioed Iowa.",
+      "narration_ru": "Когда торпеда приближалась, командир Porter нарушил радиомолчание и вызвал Iowa по радио.",
+      "scene_intent": "Radio silence is broken",
+      "shot": "tight turn",
+      "estimated_duration_s": 5,
+      "ai_image_prompt": "Portrait 9:16, full-bleed 2K cinematic photorealistic historical reconstruction, November 1943 US Navy in the North Atlantic, natural muted colors, realistic photographic environment, physically plausible lighting and shadows, distinct composition with clear subject in mobile crop. on Porter's 1943 bridge, officer giving urgent order and naval radioman operating vintage handset, natural daylight and sea visible behind, no subtitles baked into image. This is a modern illustrative reenactment, not authentic archival evidence; no fake photo stamps, overlays, animated logos, decorative borders, visible subtitles or modern controls. For a 2D traveler only if explicitly specified, keep every other person and object photorealistic; verify the actual accepted reference PNGs and perspective before generation.",
+      "camera_suggestion": "Static frame or subtle whole-frame pan after visual QA; no parallax or layer masks",
+      "evidence_status": "PLANNING_NOT_GENERATED"
+    },
+    {
+      "id": "S009",
+      "narration": "Iowa turned sharply. The torpedo exploded behind the battleship.",
+      "narration_ru": "Iowa резко отвернула. Торпеда взорвалась позади линкора.",
+      "scene_intent": "Iowa evades",
+      "shot": "long action",
+      "estimated_duration_s": 4.5,
+      "ai_image_prompt": "Portrait 9:16, full-bleed 2K cinematic photorealistic historical reconstruction, November 1943 US Navy in the North Atlantic, natural muted colors, realistic photographic environment, physically plausible lighting and shadows, distinct composition with clear subject in mobile crop. high aerial 3/4 view Iowa-class battleship turning sharply across water leaving curved wake, torpedo trace still behind; avoid committing to port versus starboard by using relative perspective only. This is a modern illustrative reenactment, not authentic archival evidence; no fake photo stamps, overlays, animated logos, decorative borders, visible subtitles or modern controls. For a 2D traveler only if explicitly specified, keep every other person and object photorealistic; verify the actual accepted reference PNGs and perspective before generation.",
+      "camera_suggestion": "Static frame or subtle whole-frame pan after visual QA; no parallax or layer masks",
+      "evidence_status": "PLANNING_NOT_GENERATED"
+    },
+    {
+      "id": "S010",
+      "narration": "How did a drill turn real? A firing primer had been left in the tube.",
+      "narration_ru": "Как учения превратились в реальную опасность? В пусковом аппарате забыли извлечь капсюль-воспламенитель.",
+      "scene_intent": "Explosion misses battleship",
+      "shot": "wide climax",
+      "estimated_duration_s": 5.5,
+      "ai_image_prompt": "Portrait 9:16, full-bleed 2K cinematic photorealistic historical reconstruction, November 1943 US Navy in the North Atlantic, natural muted colors, realistic photographic environment, physically plausible lighting and shadows, distinct composition with clear subject in mobile crop. rear three-quarter from aft of USS Iowa, a single distant torpedo explosion in its wake on open water, battleship hull unharmed, daylit sea and credible spray scale, no additional explosion. This is a modern illustrative reenactment, not authentic archival evidence; no fake photo stamps, overlays, animated logos, decorative borders, visible subtitles or modern controls. For a 2D traveler only if explicitly specified, keep every other person and object photorealistic; verify the actual accepted reference PNGs and perspective before generation.",
+      "camera_suggestion": "Subtle whole-frame push-in only",
+      "evidence_status": "PLANNING_NOT_GENERATED"
+    },
+    {
+      "id": "S011",
+      "narration": "The president was safe. The weapon had come from the ship assigned to defend him.",
+      "narration_ru": "Президент остался невредим. Торпеда прилетела с корабля, которому поручили его защищать.",
+      "scene_intent": "One omitted safety step caused live launch",
+      "shot": "macro explanation",
+      "estimated_duration_s": 5.5,
+      "ai_image_prompt": "Portrait 9:16, full-bleed 2K cinematic photorealistic historical reconstruction, November 1943 US Navy in the North Atlantic, natural muted colors, realistic photographic environment, physically plausible lighting and shadows, distinct composition with clear subject in mobile crop. documentary object still life on a 1943 naval maintenance workbench: authentic steel torpedo-tube hardware and small firing primer separated from safe training components, museum-like reconstruction, avoid exact procedural rendering or technical labels. This is a modern illustrative reenactment, not authentic archival evidence; no fake photo stamps, overlays, animated logos, decorative borders, visible subtitles or modern controls. For a 2D traveler only if explicitly specified, keep every other person and object photorealistic; verify the actual accepted reference PNGs and perspective before generation.",
+      "camera_suggestion": "Static frame or subtle whole-frame pan after visual QA; no parallax or layer masks",
+      "evidence_status": "PLANNING_NOT_GENERATED"
+    },
+    {
+      "id": "S012",
+      "narration": "And all of it began with a practice launch.",
+      "narration_ru": "И всё это началось с учебного пуска.",
+      "scene_intent": "Presenter explains from outside historic incident, person safely off vessel",
+      "shot": "medium resolution",
+      "estimated_duration_s": 5.5,
+      "ai_image_prompt": "Portrait 9:16, full-bleed 2K cinematic photorealistic historical reconstruction, November 1943 US Navy in the North Atlantic, natural muted colors, realistic photographic environment, physically plausible lighting and shadows, distinct composition with clear subject in mobile crop. 1943 naval-history museum room within a photorealistic world, an independent 2D-drawn male traveler narrator standing beside a factual framed photo of USS Iowa and a historical map; traveler 40–45, chestnut wavy hair gray at temples, short graying beard, ochre hooded jacket, olive cargo pants, brown boots and dark backpack; preserve exact appearance from traveler_turnaround_20261104.png and traveler_emotions_20261104.png, requiring both actual source PNGs when generated, do not turn traveler into historic crew. This is a modern illustrative reenactment, not authentic archival evidence; no fake photo stamps, overlays, animated logos, decorative borders, visible subtitles or modern controls. For a 2D traveler only if explicitly specified, keep every other person and object photorealistic; verify the actual accepted reference PNGs and perspective before generation.",
+      "camera_suggestion": "Static frame or subtle whole-frame pan after visual QA; no parallax or layer masks",
+      "evidence_status": "PLANNING_NOT_GENERATED"
+    }
+  ]
+}
