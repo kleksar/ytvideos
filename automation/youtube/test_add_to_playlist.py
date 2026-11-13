@@ -69,6 +69,13 @@ class TestPlaylist(unittest.TestCase):
         with self.assertRaises(RuntimeError):
             run(Session(privacy='private'), CHANNEL, PLAYLIST, VIDEO, expected_privacy='public')
 
+    def test_published_video_is_inserted_once_and_read_back(self):
+        session = Session(privacy='public', reads=[[], [ITEM]])
+        result = run(session, CHANNEL, PLAYLIST, VIDEO, expected_privacy='public')
+        self.assertEqual(len(session.posts), 1)
+        self.assertEqual(result['playlist_item_id'], ITEM['id'])
+        self.assertEqual(result['privacy'], 'public')
+
     def test_existing_item_is_not_posted(self):
         session = Session(reads=[[ITEM]])
         result = run(session, CHANNEL, PLAYLIST, VIDEO)
