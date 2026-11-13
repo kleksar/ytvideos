@@ -1,3 +1,12 @@
+## Актуальный workflow — сверено с main
+
+Сверено с remote `main` `96c8fa1573c02e8e7987e272a569bf34f037691e`. Канал `nuviko_history` active, но этот PR остаётся **текстовым editorial preproduction, не сохранённым `ytv start` run**. `storyboard.json` содержит план, не официальный task output; ни авторская проверка, ни ссылка на source не доказывают независимый reviewer и `awaiting_script_approval`.
+
+При принятии этого кандидата в локальном runtime: `uv run ytv start --channel nuviko_history --format short --intent 'Проверить неутверждённый сюжет PR #26'`. Выполнить `plan_summary`/`read_next` и pinned task guide; реально завершить research/script с источниками и оригинальным независимым `ytv-script-review-v1` для полного EN, включая двойной проход и проверку петли. `sessions.independent` обнаруживать в настоящем host; если не доступно — оставить UNVERIFIED, не выдавать PASS. После официального `awaiting_script_approval` требуется собственное решение владельца. [Workflow](https://github.com/kleksar/ytvideos/blob/main/docs/workflow.md).
+
+Различать Того и Балто, не присваивать одному экипажу подвиги всех участников эстафеты. Русская версия для редактора, не для TTS. Рендер, реальное время озвучки, image refs, visual/AV loop, права на изображения и YouTube ещё не подтверждены. Не переопределять pinned historical decisions и не подделывать approvals.
+
+---
 # Preproduction handoff — Nuviko History / Togo (2026-11-13)
 
 **Status:** DRAFT REVIEW ONLY; no user script acceptance, no independent first listener, no asset creation, no production run, no uploads, no merges.

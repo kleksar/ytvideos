@@ -1,3 +1,5 @@
+**Актуализация 96c8fa1573c0:** материал — старый текстовый Draft, а не `ytv start` run. Нужен независимый EN reviewer, настоящий `awaiting_script_approval` и решение владельца до TTS/изображений. Статус `nuviko_history` в main — `active`. [Handoff](handoff.md).
+
 # Togo — The Other Lead Dog of the 1925 Serum Run
 
 **Nuviko History · English illustrated Short 9:16 · story proposal only · 13 November 2026**
