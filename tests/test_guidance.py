@@ -1,8 +1,11 @@
 """A fresh session gets the plan, current requirements and exact accepted inputs."""
 
 import json
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
+import threading
 import unittest
+from unittest.mock import patch
 
 import test_pool_service as fixtures
 from ytvideos.cli import dispatch, parser
@@ -63,6 +66,43 @@ class GuidanceTests(unittest.TestCase):
             dispatch(self.production, args)
         self.assertEqual(skill.read_text(), "Untrusted replacement")
 
+    def test_concurrent_reading_packet_publication_accepts_only_the_same_bytes(self):
+        from ytvideos.entry import reading_packet
+        run = self.production.create("test_channel", "Find a story")
+        packet = self.production.context(run["id"], "research")
+        barrier = threading.Barrier(2)
+        rename = Path.rename
+
+        def publish(path, destination):
+            if path.name.startswith(".entry-"):
+                barrier.wait(timeout=5)
+            return rename(path, destination)
+
+        with patch.object(Path, "rename", publish), ThreadPoolExecutor(max_workers=2) as workers:
+            futures = [workers.submit(reading_packet, self.production, packet) for _ in range(2)]
+            results = [future.result(timeout=10) for future in futures]
+        self.assertEqual(results[0], results[1])
+        self.assertEqual(json.loads(Path(results[0]["task_file"]).read_text())["input_hash"], packet["input_hash"])
+
+    def test_start_keeps_one_snapshot_when_state_changes_before_packet_publication(self):
+        from ytvideos.entry import reading_packet, start_packet
+        run = self.production.create("test_channel", "Find a story")
+
+        def publish(production, packet):
+            production.revise(run["id"], "research", "concurrent editorial revision")
+            production.capabilities(run["id"], {"web.search": True}, evidence="concurrent host observation")
+            return reading_packet(production, packet)
+
+        with patch("ytvideos.entry.reading_packet", side_effect=publish):
+            result = start_packet(self.production, run["id"])
+        packet = json.loads(Path(result["read_next"][0]["task_file"]).read_text())
+        self.assertEqual(result["run_version"], result["next"]["version"])
+        self.assertEqual(packet["revision"], 1)
+        self.assertEqual(packet["task"]["generation"], 1)
+        search = next(item for item in result["doctor"]["checks"] if item["capability"] == "web.search")
+        self.assertEqual(search["state"], "unobserved")
+        self.assertEqual(self.fixture.store.get(run["id"])["revision"], 2)
+
     def test_plan_exposes_missing_listening_before_media_work_and_is_read_only(self):
         run = self.production.create("test_channel", "new story")
         before = self.fixture.store.get(run["id"])
@@ -91,6 +131,16 @@ class GuidanceTests(unittest.TestCase):
         self.assertEqual(task["next_action"]["kind"], "resolve_unavailable_capability")
         self.production.capabilities(run["id"], {"web.search": True}, evidence="actual test host exposes search")
         self.assertTrue(self.production.next(run["id"])["tasks"][0]["dispatchable"])
+
+    def test_script_exposes_actual_independent_session_discovery_before_claim(self):
+        run = self.production.create("test_channel", "find an interesting story")
+        packet = self.production.context(run["id"], "script")
+        self.assertIn("sessions.independent", packet["task"]["capabilities"])
+        self.assertIn("collaboration.spawn_agent", packet["task_guide"]["independent_review"]["discovery"])
+        check = next(item for item in inspect(self.production, run["id"])["checks"]
+                     if item["capability"] == "sessions.independent")
+        self.assertEqual(check["state"], "unobserved")
+        self.assertIn("directly exposed", check["discovery"])
 
     def test_cli_claim_carries_the_actual_pinned_task_context(self):
         run = self.production.create("test_channel", "research a story")

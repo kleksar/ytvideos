@@ -86,6 +86,7 @@ class LicensedSilentLifecycle(unittest.TestCase):
         path.write_text(json.dumps(profile))
         capabilities = {"web.search": {"available": True, "evidence": "synthetic test"},
                         "model.text": {"available": True, "evidence": "synthetic test"},
+                        "sessions.independent": {"available": True, "evidence": "synthetic independent review fixture"},
                         "audio.mix": {"available": True, "evidence": "observed local ffmpeg"},
                         "audio.listen": {"available": True, "evidence": "synthetic perception-contract fixture"},
                         "media.licensed_clip": {"available": True, "evidence": "generated source fixture", "billing": "included"},

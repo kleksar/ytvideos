@@ -64,6 +64,12 @@ def task_guide(run, task, references=(), requirements=None):
                            "Ordinary full narration remains supported when narration is actually intended.",
         }
     if stage == "script" and requirements is not None:
+        from .capabilities import DISCOVERY
+        guidance["independent_review"] = {
+            "capability": "sessions.independent", "discovery": DISCOVERY["sessions.independent"],
+            "evidence": "Use the actual separate reviewer/session result and exact script hash. "
+                        "An invented reviewer identity or author role-play does not complete this task.",
+        }
         applicability = requirements.get("narrative_loop", "unresolved")
         guidance["narrative_loop"] = {
             "applicability": applicability,

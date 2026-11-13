@@ -6,7 +6,7 @@ from .util import digest
 WORKFLOW_VERSION = "1"
 STAGES = {
     "research": ([], [], ["web.search"], "ytv-write-script"),
-    "script": (["research"], [], ["model.text"], "ytv-write-script"),
+    "script": (["research"], [], ["model.text", "sessions.independent"], "ytv-write-script"),
     "storyboard": (["script"], ["script"], ["model.text"], "ytv-produce-video"),
     "audio": (["script"], ["script"], ["audio.produce", "audio.listen"], "ytv-produce-video"),
     "packaging": (["script"], ["script"], ["model.text"], "ytv-release-video"),

@@ -245,8 +245,10 @@ class Production:
         return observation_state(run["capabilities"].get(name)) == "available"
 
     def plan(self, run_id):
+        return self._plan(self.store.get(run_id))
+
+    def _plan(self, run):
         from .guidance import run_plan
-        run = self.store.get(run_id)
         self._context_pins(run)
         if run.get("source_script_id"):
             self.artifacts.resolve(run["artifacts"][run["source_script_id"]])
@@ -255,8 +257,8 @@ class Production:
                         capable=self._capable)
 
     def context(self, run_id, task_id):
-        run = self.store.get(run_id)
         with self.store.transaction() as tx:
+            run = tx.get_run(run_id, lock=False)
             return self._context_packet(tx, run, task_id)
 
     def _context_packet(self, tx, run, task_id):

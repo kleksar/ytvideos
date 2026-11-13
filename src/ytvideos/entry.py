@@ -3,6 +3,7 @@
 This prepares the existing workflow. It does not claim tasks, call providers,
 grant approvals or create an alternative sequence of production stages.
 """
+import errno
 import json
 from pathlib import Path
 import shutil
@@ -44,10 +45,11 @@ def reading_packet(production, packet):
                 target.write_bytes(data)
             try:
                 staging.rename(directory)
-            except FileExistsError:
+            except OSError as exc:
                 # Another delivery of the same request may have published this
                 # complete packet. Accept only exactly the same saved bytes.
-                pass
+                if exc.errno not in {errno.EEXIST, errno.ENOTEMPTY}:
+                    raise
         finally:
             if staging.exists():
                 shutil.rmtree(staging)
@@ -63,8 +65,13 @@ def reading_packet(production, packet):
 
 
 def start_packet(production, run_id):
-    plan = production.plan(run_id)
-    return {"run_id": run_id, "first_response": plan["first_response"],
+    # Capture all run-dependent views together. The current claim will still
+    # revalidate inputs if another worker changes this state after the read.
+    with production.store.transaction() as tx:
+        run = tx.get_run(run_id)
+        plan = production._plan(run)
+        packets = [production._context_packet(tx, run, task["id"]) for task in plan["next"]["tasks"]]
+    return {"run_id": run_id, "run_version": run["version"], "first_response": plan["first_response"],
             "plan_summary": {"channel": plan["channel"], "format": plan["format"],
                              "intent": plan["intent"], "source_script": plan["source_script"],
                              "target": plan["target"], "accepted": plan["accepted"],
@@ -72,9 +79,8 @@ def start_packet(production, run_id):
                              "steps": [{key: item[key] for key in ("id", "status", "goal", "skill")}
                                        for item in plan["steps"]], "runtime": plan["runtime"]},
             "next": plan["next"],
-            "read_next": [reading_packet(production, production.context(run_id, task["id"]))
-                          for task in plan["next"]["tasks"]],
-            "doctor": inspect(production, run_id),
+            "read_next": [reading_packet(production, packet) for packet in packets],
+            "doctor": inspect(production, run_id, run_snapshot=run),
             "completion_boundary": "A new story is ready for the user only after research and script completion "
                                    "with the required independent evidence and the script approval gate. "
                                    "An unfinished draft is not a completed episode. A video requires completed review."}

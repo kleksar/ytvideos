@@ -14,6 +14,8 @@ uv run ytv start --channel CHANNEL_ID --format short --intent 'точный за
 
 Подставить явный канал или default `paper_detour`; для long изменить формат. `start` создаёт один обычный run тем же runtime, возвращает `plan_summary`, `doctor`, `next` и `read_next`. Каждый элемент `read_next` содержит `task_id`, `input_hash`, `task_file`/его SHA-256, `skill_file`, `requirement_files`, `task_guide` и инструкцию чтения. Открыть именно эти сохранённые файлы, сообщить краткий план и продолжить по `next_action`. Пакет материализован из pinned context без claim; команда не вызывает providers и не создаёт approval. Полученный run ID использовать во всех следующих действиях; для существующего run выполнять `status` → `resume`/`next` → `plan`, без повторного `start`.
 
+`run_version` в ответе идентифицирует единый snapshot, из которого получены план, task contexts и сохранённые capability observations. Файлы reading packet записываются после чтения состояния. При повторе того же packet, в том числе конкурентном, runtime принимает уже существующий каталог только при точном совпадении bytes; изменённый пакет не перезаписывается. Если другой worker успел изменить run, последующий claim заново проверяет актуальные входы.
+
 Конфигурацию каналов можно проверить отдельно без создания run, store или workspace:
 
 ```bash
@@ -50,6 +52,12 @@ uv run python -m ytvideos claim --run RUN_ID --task research --worker WORKER_ID
 ```
 
 `context` разрешён до claim, в том числе при `dispatchable: false`; его чтение не тратит attempt или reservation. CLI `claim` атомарно возвращает `token`, `worker`, `input_hash`, `expires_at`, `estimated_units`, `claimed_at` и `context` текущей задачи. Сохранить JSON-ответ и брать точные token/input_hash из него программно, не перепечатывать идентификаторы вручную; использовать stable реальную идентичность исполнителя. Прочитать возвращённый пакет до исполнения. При `stale or missing task lease` сначала сверить task/status и точное значение с текущим claim: опечатка не означает истёкшую lease. Долгую задачу продлевать `heartbeat --run RUN_ID --task TASK_ID --token TOKEN`; lease не даёт право изменить scope.
+
+### Доступ к независимому reviewer
+
+Task `script` требует capability `sessions.independent`; порядок её обнаружения также выдаётся в `task_guide.independent_review` и `capability_checks.discovery`. Проверить **прямые инструменты текущего host и deferred registry**. Доступный `collaboration.spawn_agent` или `spawn_agent` позволяет создать свежую независимую сессию: он не обязан называться `reviewer` или присутствовать в `ALL_TOOLS`. Отсутствие такого имени в одном registry не подтверждает недоступность review.
+
+Создать reviewer с новым контекстом, передать точный artifact без авторского вердикта и сохранить фактически полученный результат/session evidence с script hash. Не выдумывать reviewer ID и не заменять отдельную проверку авторской сменой роли. Если все session slots временно заняты, дождаться завершения активной работы либо освободить принадлежащий этой задаче завершённый slot поддерживаемым способом и повторить попытку; это ограничение расписания, а не отсутствие capability. `unavailable` записывать только по фактической ошибке поддерживаемого host или проверенной полной инвентаризации доступных инструментов. До этого продолжать обнаружение и доступную работу в пределах бюджета.
 
 ## План выпуска
 

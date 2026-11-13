@@ -5,7 +5,7 @@ import shutil
 from .capabilities import capability_check
 
 
-def inspect(production, run_id=None):
+def inspect(production, run_id=None, *, run_snapshot=None):
     checks = [dict(capability="state.store", available=True, evidence=production.store.health()),
               dict(capability="artifact.local_storage", available=os.access(production.artifacts.root, os.W_OK),
                    evidence=str(production.artifacts.root)),
@@ -16,7 +16,9 @@ def inspect(production, run_id=None):
         path = shutil.which(binary)
         checks.append(dict(capability=f"local.{binary}", available=bool(path), evidence=path or "binary not found"))
     if run_id:
-        run = production.store.get(run_id)
+        run = run_snapshot if run_snapshot is not None else production.store.get(run_id)
+        if run["id"] != run_id:
+            raise ValueError("doctor snapshot belongs to another run")
         for name, observation in sorted(run["capabilities"].items()):
             if name != "approval.verifier":
                 checks.append(capability_check(name, observation))
