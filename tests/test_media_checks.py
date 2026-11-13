@@ -156,9 +156,14 @@ class MediaChecksTests(unittest.TestCase):
     def test_licensed_channel_thumbnail_is_still_an_image(self):
         service = Production(Store(self.directory / "thumbnail.db"), self.directory / "thumb-artifacts", ROOT)
         image = service.artifacts.put(self.image, "thumbnail")
-        run = {"profile": {"recipe": "licensed_clips"}, "tasks": {"packaging": {"status": "pending"}}}
-        task = {"stage": "scene_image", "payload": {"purpose": "thumbnail"}}
-        service._validate_output(run, task, image)
+        run = {"profile": {"recipe": "licensed_clips", "name": "Synthetic channel"}, "format": "short",
+               "tasks": {"packaging": {"status": "pending"}}, "artifacts": {}}
+        task = {"stage": "scene_image", "payload": {"purpose": "thumbnail", "title": "Synthetic title",
+                                                     "reference_na_reason": "This test isolates image/clip routing."}}
+        # Full evidence validation has its own real-preview integration suite.
+        with patch("ytvideos.image_review.validate_files", return_value=[]):
+            service._validate_output(run, task, image,
+                                     receipt={"checks": [{"name": "thumbnail_review", "observed": {}}]})
         self.assertEqual(task["media_validation"]["observed"]["mime"], "image/png")
 
 

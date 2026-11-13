@@ -18,14 +18,36 @@ from ytvideos.errors import Conflict, WorkflowError
 from ytvideos.service import Production
 from ytvideos.store import Store
 from ytvideos.util import canonical, file_digest
-from ytvideos.workflow import REQUIRED_CHECKS, STAGES, input_hash
+from ytvideos.workflow import STAGES, input_hash, required_checks
 
 
 ROOT = Path(__file__).resolve().parents[1]
-SCRIPT = ("A complete fixture narration explains an action, its cause and its consequence. "
-          "The listener learns why a choice mattered and what changed afterwards. "
-          "The next scene follows directly from that consequence and resolves the question raised at the start. "
-          "This synthetic text is only a software fixture, never a researched production script.")
+OPENING = "Nobody was waiting at the bridge. I thought I had found the fastest road home."
+ENDING = "The empty shortcut had saved no time at all. I finally understood why"
+PAYOFF = "The longer road took me safely across the river."
+SCRIPT = (OPENING + " The empty lane looked inviting, but the bridge deck was missing. "
+          "The map had marked that crossing as closed. I went back to the junction and followed the longer route. "
+          + PAYOFF + " " + ENDING)
+
+
+def loop_observation(script_path, evidence_path):
+    """Explicit synthetic review for this single state-machine story, never real QA."""
+    observed = {"artifact_sha256": file_digest(script_path), "opening": OPENING, "ending": ENDING,
+                "joined_excerpt": ENDING + "\n" + OPENING, "reviewer": "separate-test-reviewer"}
+    document = {"schema": "ytv-narrative-loop-v1", "script_sha256": observed["artifact_sha256"],
+                **{key: observed[key] for key in ("opening", "ending", "joined_excerpt", "reviewer")},
+                "relationship": "continuous_narration", "method": "Synthetic schema/state fixture, not a production review.",
+                "coverage": {"opening_utterances": 2, "ending_utterances": 2, "full_script_cycles": 2,
+                             "complete_edge_utterances": True},
+                "observations": {
+                    "continuation": "Fixture: 'I finally understood why' continues into the empty-bridge observation.",
+                    "cold_open": "Fixture: an empty bridge and a route choice introduce the situation without prior playback.",
+                    "payoff_quote": PAYOFF,
+                    "payoff_before_repeat": "Fixture: the traveller has crossed safely before the repeated observation explains the empty road.",
+                    "two_cycle_read": "Fixture: the repeated bridge observation does not invent a second journey or withhold the crossing outcome."}}
+    evidence_path.write_text(json.dumps(document))
+    observed["evidence"] = {"path": str(evidence_path), "sha256": file_digest(evidence_path)}
+    return observed
 
 
 class WorkflowContract(unittest.TestCase):
@@ -79,12 +101,16 @@ class WorkflowContract(unittest.TestCase):
         return path
 
     def receipt(self, task_id, claim, path, *, remove=None):
+        run = self.store.get(self.run_id)
+        task = run["tasks"][task_id]
         checks = [{"name": name, "status": "pass", "method": "unit-test fixture",
-                   "observed": {"fixture": True}} for name in sorted(REQUIRED_CHECKS[self.store.get(self.run_id)["tasks"][task_id]["stage"]])
+                   "observed": {"fixture": True}} for name in sorted(required_checks(task["stage"], self.service.requirements(run)))
                   if name != remove]
         for check in checks:
             if check["name"] == "independent_review":
                 check["observed"] = {"reviewer": "separate-test-reviewer", "artifact_sha256": file_digest(path)}
+            if check["name"] == "narrative_loop":
+                check["observed"] = loop_observation(path, self.directory / (str(uuid.uuid4()) + "-loop.json"))
         return self.output({"run_id": self.run_id, "task_id": task_id, "worker": claim["worker"],
                             "input_hash": claim["input_hash"], "output_sha256": file_digest(path), "checks": checks})
 
@@ -194,17 +220,13 @@ class WorkflowContract(unittest.TestCase):
             self.service.create("frozen_fixture", "not an unfreeze", profiles=profile_dir.parent)
 
     def test_active_channel_roster_uses_the_common_workflow(self):
-        for channel in ("paper_detour", "scenes_on_repeat"):
+        for channel in ("paper_detour", "scenes_on_repeat", "nuviko_history", "two_ways_lab"):
             with self.subTest(channel=channel):
                 run = self.service.create(channel, "channel activation fixture")
                 self.assertEqual(run["profile"]["status"], "active")
                 self.assertEqual(set(run["tasks"]), set(self.run["tasks"]))
                 self.assertEqual([t["id"] for t in self.service.next(run["id"])["tasks"]], ["research"])
                 self.assertEqual(run["approvals"], {})
-
-    def test_nuviko_history_is_frozen_by_current_user_decision(self):
-        with self.assertRaisesRegex(WorkflowError, "frozen"):
-            self.service.create("nuviko_history", "must stay frozen")
 
     def test_manual_stories_is_not_admitted_to_automatic_production(self):
         with self.assertRaisesRegex(WorkflowError, "channel profile is missing"):

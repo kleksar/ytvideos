@@ -59,9 +59,21 @@ class SyntheticLifecycleTests(unittest.TestCase):
         capabilities = {cap: {"available": True, "billing": "included", "evidence": "explicit fake provider fixture"}
                         for _, _, caps, _ in STAGES.values() for cap in caps}
         capabilities["image.generate"] = {"available": True, "billing": "included", "evidence": "synthetic PNG fixture"}
-        self.run = self.service.create("paper_detour", "Full lifecycle software fixture", format="long",
-                                       capabilities=capabilities, budget_units=10)
+        # Test a small-media policy, never pretend that a 160px fixture is a Paper delivery.
+        profile = json.loads((ROOT / "channels/paper_detour/channel.json").read_text())
+        profile.update(id="synthetic_lifecycle", name="Synthetic lifecycle fixture")
+        profile["production"]["formats"]["long"] = {
+            "video": {"canvas": [160, 90], "fps": "5/1"}, "end_screen_seconds": 0}
+        profile["production"]["audio"]["music"] = "none"
+        profile["production"]["visual"]["motion"] = "none"
+        profile["production"]["captions"] = {"mode": "none", "srt": "required"}
+        profile_dir = self.directory / "profiles" / profile["id"]
+        profile_dir.mkdir(parents=True)
+        (profile_dir / "channel.json").write_text(json.dumps(profile))
+        self.run = self.service.create(profile["id"], "Full lifecycle software fixture", format="long",
+                                       profiles=profile_dir.parent, capabilities=capabilities, budget_units=10)
         self.run_id = self.run["id"]
+        self.delivery_proofs = {}
         self.audio = self.directory / "synthetic-silence.wav"
         with wave.open(str(self.audio), "wb") as output:
             output.setparams((1, 2, 8000, 0, "NONE", "not compressed"))
@@ -95,15 +107,31 @@ class SyntheticLifecycleTests(unittest.TestCase):
         return path
 
     def qa_receipt(self, task_id, claim, output):
-        stage = self.store.get(self.run_id)["tasks"][task_id]["stage"]
+        run = self.store.get(self.run_id)
+        stage = run["tasks"][task_id]["stage"]
+        names = set(REQUIRED_CHECKS[stage])
+        if stage == "review":
+            names.update(self.service.requirements(run)["review_checks"])
         checks = [{"name": name, "status": "pass", "method": "synthetic fixture checker",
                    "observed": {"fixture_only": True, "artifact_sha256": file_digest(output)}}
-                  for name in sorted(REQUIRED_CHECKS[stage])]
+                  for name in sorted(names)]
         for check in checks:
             if check["name"] == "independent_review":
                 check["observed"]["reviewer"] = "separate-fixture-reviewer"
-        return self.write({"run_id": self.run_id, "task_id": task_id, "worker": claim["worker"],
-                           "input_hash": claim["input_hash"], "output_sha256": file_digest(output), "checks": checks})
+            if stage == "review":
+                media = self.service._artifact(run, "render")
+                evidence = self.write({"synthetic_test_only": True, "check": check["name"],
+                                       "media_sha256": media["sha256"],
+                                       "note": "Schema/state test, no claim of creative or perceptual QA."})
+                check["observed"] = {"artifact_sha256": media["sha256"], "reviewer": "synthetic-fixture-reviewer",
+                    "notes": "Synthetic state transition with an explicit test-only policy and evidence.",
+                    "coverage": [{"start_seconds": 0, "end_seconds": 30}],
+                    "evidence": {"path": str(evidence), "sha256": file_digest(evidence)}}
+        receipt = {"run_id": self.run_id, "task_id": task_id, "worker": claim["worker"],
+                   "input_hash": claim["input_hash"], "output_sha256": file_digest(output), "checks": checks}
+        if stage == "render":
+            receipt["delivery_evidence"] = self.delivery_proofs[file_digest(output)]
+        return self.write(receipt)
 
     def observe(self, operation, values, *, method="adapter_execution"):
         evidence = self.write({"operation_key": operation["key"], "attempt_id": operation["attempt_id"],
@@ -141,13 +169,33 @@ class SyntheticLifecycleTests(unittest.TestCase):
 
     def render(self, color, filename):
         path = self.directory / filename
-        subprocess.run(["ffmpeg", "-v", "error", "-nostdin", "-f", "lavfi", "-i",
-                        f"color=c={color}:s=160x90:r=5:d=30", "-i", str(self.audio),
-                        "-c:v", "libx264", "-preset", "ultrafast", "-pix_fmt", "yuv420p",
-                        "-c:a", "aac", "-shortest", "-movflags", "+faststart", str(path)],
-                       check=True, capture_output=True, timeout=30)
-        self.finish("render", path)
-        self.finish("review", {"fixture_only": True, "reviewed_sha256": file_digest(path), "probe": probe_media(path)})
+        claim = self.service.claim(self.run_id, "render", "fixture-worker-render")
+        command = ["ffmpeg", "-v", "error", "-nostdin", "-f", "lavfi", "-i",
+                   f"color=c={color}:s=160x90:r=5:d=30", "-i", str(self.audio),
+                   "-c:v", "libx264", "-preset", "ultrafast", "-pix_fmt", "yuv420p", "-vf",
+                   "setsar=1,setparams=color_primaries=bt709:color_trc=bt709:colorspace=bt709:range=limited",
+                   "-colorspace", "bt709", "-color_primaries", "bt709", "-color_trc", "bt709", "-color_range", "tv",
+                   "-c:a", "aac", "-shortest", "-movflags", "+faststart", str(path)]
+        subprocess.run(command, check=True, capture_output=True, timeout=30)
+        manifest = self.write({"channel": self.run["channel"], "format": "long", "canvas": [160, 90], "fps": "5/1",
+            "audio": str(self.audio), "srt": str(self.caption), "subtitles": {"mode": "none"},
+            "scenes": [{"id": "route", "image": str(self.image), "start_frame": 0, "end_frame": 150}]})
+
+        def record(source):
+            return {"path": str(source), "sha256": file_digest(source)}
+
+        execution = self.write({"run_id": self.run_id, "task_id": "render", "claim_token": claim["token"],
+            "input_hash": claim["input_hash"], "kind": "host_render", "state": "completed", "returncode": 0,
+            "argv": command, "outputs": [str(path)], "output_artifacts": [record(path)],
+            "inputs": [record(item) for item in (manifest, self.audio, self.image, self.caption)]})
+        requirements = self.service.requirements(self.store.get(self.run_id))
+        proof = self.write({"schema": "ytv-production-delivery-v1", "media_sha256": file_digest(path),
+                           "requirements_sha256": requirements["sha256"], "manifest": record(manifest),
+                           "execution": record(execution)})
+        self.delivery_proofs[file_digest(path)] = record(proof)
+        self.finish("render", path, claim=claim)
+        self.finish("review", {"fixture_only": True, "reviewed_sha256": file_digest(path),
+                               "requirements_sha256": requirements["sha256"], "probe": probe_media(path)})
         return path
 
     def produce_to_mp4_review(self):

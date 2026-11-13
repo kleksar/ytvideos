@@ -96,5 +96,66 @@
         "configure_release"
       ]
     }
-  ]
+  ],
+  "production": {
+    "video": {
+      "codec": "h264",
+      "pix_fmt": "yuv420p",
+      "sample_aspect_ratio": "1:1",
+      "color_primaries": "bt709",
+      "color_transfer": "bt709",
+      "color_space": "bt709",
+      "color_range": "tv"
+    },
+    "audio": {
+      "required": true,
+      "music": "optional",
+      "codec": "aac"
+    },
+    "visual": {
+      "motion": "source_motion",
+      "transitions": "recipe_defined",
+      "decorative_frame": "forbidden"
+    },
+    "captions": {
+      "mode": "when_speech",
+      "srt": "when_speech"
+    },
+    "formats": {
+      "short": {
+        "video": {
+          "canvas": [
+            1080,
+            1920
+          ]
+        },
+        "end_screen_seconds": 0,
+        "variants": {
+          "scene": {
+            "video": {
+              "fps": "24/1"
+            }
+          },
+          "character_edit": {
+            "video": {
+              "fps": "24/1"
+            }
+          },
+          "meme_time_machine": {
+            "video": {
+              "fps": "48/1"
+            }
+          }
+        },
+        "narrative_loop": "not_applicable"
+      },
+      "long": {
+        "video": {
+          "canvas": null,
+          "fps": null
+        },
+        "end_screen_seconds": null
+      }
+    }
+  }
 }

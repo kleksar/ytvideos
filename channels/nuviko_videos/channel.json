@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "id": "nuviko_videos",
+  "name": "Nuviko Videos",
+  "status": "unconfigured",
+  "language": "ru",
+  "recipe": "music_first",
+  "youtube_channel_id": "UC4nNJWr_PDL3QCZ76KGHF1g",
+  "identity_evidence": "AGENTS.md",
+  "readiness_blockers": [
+    "Music-first task graph must accept music and footage without a fabricated narration or TTS request.",
+    "A clip compositor must bind the beat timeline, 95–105% motion and the required fade/blur/brightness transition to its actual render.",
+    "Vocal lyrics need the canonical music_lyrics word/mask contract; instrumental excerpts require an explicit not-applicable caption route.",
+    "The music-first delivery contract must map the accepted 1080×1920@30 Short and Bradley Hand Bold vocal-caption recipe, inspect the actual host font face, and bind measured output/fragment evidence."
+  ],
+  "context_references": [
+    {
+      "path": "channels/nuviko_videos/AGENTS.md"
+    },
+    {
+      "path": "channels/nuviko_videos/docs/SATISFYING_SHORTS.md"
+    }
+  ],
+  "production": {
+    "formats": {
+      "short": {
+        "video": {
+          "canvas": [
+            1080,
+            1920
+          ],
+          "fps": "30/1"
+        },
+        "narrative_loop": "not_applicable"
+      }
+    },
+    "captions": {
+      "mode": "lyrics_when_vocal",
+      "font": {
+        "family": "Bradley Hand",
+        "style": "Bold"
+      }
+    }
+  },
+  "caption_font_source": {
+    "path": "/System/Library/Fonts/Supplemental/Bradley Hand Bold.ttf",
+    "evidence": "Work/nuviko-four-shorts-20261110/Work/full-song-v01/bloodstream/caption-command.json",
+    "verification": "Inspect the actual font face/hash on the render host."
+  },
+  "delivery_evidence": "channels/nuviko_videos/videos/001_misery/RELEASE.json"
+}

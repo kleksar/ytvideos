@@ -20,6 +20,8 @@
 | Канальные документы в task, pinned snapshot, manifest worker | [task contract](../docs/operations/task-contract.md#требования-в-контексте), `src/ytvideos/context.py` и ChannelSpec |
 | Выбор skill по task | [manifest](skill-catalog.json) и [каталог](skill-catalog.md) |
 
-Code/schema — источник машинной валидации. Документ не превращает неподдержанную capability в действующий tool. Фактические архивы и receipts сохраняют историю, но не являются вторыми инструкциями для новых runs.
+Skill и навык обозначают одно: короткую процедуру конкретного этапа. `AGENTS.md` выбирает вход; standard задаёт общие требования; профиль задаёт продуктовые различия; code/schema проверяет переходы и результаты. `plan` и `task_guide` — представления сохранённого runtime state, не отдельные владельцы правил.
+
+Документ не превращает неподдержанную capability в действующий tool. Действующие инструкции описывают актуальное поведение. Архивные receipts/консультации и решения отдельного выпуска остаются evidence вне обычного production reading path; actual reference assets с provenance сохраняют своё художественное назначение.
 
 Основания для thumbnail standard: [научные и платформенные источники](../docs/research/thumbnail-evidence.md), [опыт практика с таймкодами](../docs/research/thumbnail-practitioner-notes.md). Разборы практики помогают выбрать рабочий приём до накопления собственных результатов.

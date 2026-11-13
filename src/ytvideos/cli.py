@@ -7,6 +7,7 @@ from pathlib import Path
 
 from .doctor import inspect
 from .errors import WorkflowError
+from .profiles import inspect_profiles
 from .service import Production
 from .store import Store
 
@@ -22,14 +23,20 @@ def parser():
     cli.add_argument("--project-root", type=Path, default=Path(__file__).resolve().parents[2])
     cli.add_argument("--profiles", type=Path)
     sub = cli.add_subparsers(dest="command", required=True)
-    create = sub.add_parser("create", help="Create a NEW episode; no bundle or slug needed")
+    profiles = sub.add_parser("profiles", help="Inspect all channel/format requirements before creating a run")
+    profiles.add_argument("--channel")
+    profiles.add_argument("--format", choices=("short", "long"))
+    create = sub.add_parser("start", aliases=["create"],
+                            help="Start a new story/video with its saved plan and first pinned reading packet")
     create.add_argument("--channel", default="paper_detour")
     create.add_argument("--intent", required=True)
     create.add_argument("--format", choices=("short", "long"), default="short")
     create.add_argument("--request-id", help="Stable ID for a retried incoming user request")
     create.add_argument("--budget-units", type=int)
+    create.add_argument("--source-script", type=Path,
+                        help="Preserve supplied full narration or licensed edit-script bytes; does not invent approval")
     sub.add_parser("list", help="Show all runs without loading their creative histories")
-    for name in ("status", "next", "resume", "export", "events", "deferred-actions"):
+    for name in ("status", "next", "plan", "resume", "export", "events", "deferred-actions"):
         command = sub.add_parser(name)
         command.add_argument("--run", required=True)
     context = sub.add_parser("context")
@@ -137,16 +144,20 @@ def parser():
 
 def dispatch(service, args):
     command = args.command
-    if command == "create":
+    if command in {"start", "create"}:
         run = service.create(args.channel, args.intent, format=args.format, request_id=args.request_id,
-                             profiles=args.profiles, budget_units=args.budget_units)
-        return {"run_id": run["id"], "pins": run["pins"], "next": service.next(run["id"])}
+                             profiles=args.profiles, budget_units=args.budget_units, source_script=args.source_script)
+        if command == "start":
+            from .entry import start_packet
+            return start_packet(service, run["id"])
+        return {"run_id": run["id"], "pins": run["pins"], "next": service.next(run["id"]),
+                "plan": service.plan(run["id"])}
     if command == "list":
         return [{"run_id": r["id"], "channel": r["channel"], "status": r["status"], "intent": r["intent"]}
                 for r in service.store.list()]
     if command in {"next", "status"}:
         return service.next(args.run)
-    if command in {"resume", "export"}:
+    if command in {"plan", "resume", "export"}:
         return getattr(service, command)(args.run)
     if command == "events":
         return service.store.events(args.run)
@@ -160,7 +171,7 @@ def dispatch(service, args):
         return packet
     if command == "claim":
         return service.claim(args.run, args.task, args.worker, lease_seconds=args.lease_seconds,
-                             estimated_units=args.estimated_units)
+                             estimated_units=args.estimated_units, with_context=True)
     if command == "heartbeat":
         return service.heartbeat(args.run, args.task, args.token, lease_seconds=args.lease_seconds)
     if command == "complete":
@@ -232,9 +243,13 @@ def dispatch(service, args):
 def main(argv=None):
     args = parser().parse_args(argv)
     try:
-        service = Production(Store(args.db), args.workspace, args.project_root,
-                             approval_public_key=os.environ.get("YTV_APPROVAL_PUBLIC_KEY"))
-        result = dispatch(service, args)
+        if args.command == "profiles":
+            result = inspect_profiles(args.profiles or args.project_root / "channels",
+                                      channel=args.channel, format=args.format, project=args.project_root)
+        else:
+            service = Production(Store(args.db), args.workspace, args.project_root,
+                                 approval_public_key=os.environ.get("YTV_APPROVAL_PUBLIC_KEY"))
+            result = dispatch(service, args)
         print(json.dumps(result, ensure_ascii=False, indent=2))
         return 0
     except (WorkflowError, ValueError, OSError, KeyError, TypeError) as exc:

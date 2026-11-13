@@ -9,11 +9,14 @@
 - Исполнитель GPT-6 Luna и доступные tools, независимые sessions/subagents и реальные concurrency caps.
 - Image generation: submit/wait/poll/reconcile, job handles, ограничения контекста и reset/reuse.
 - TTS: нужный voice ID, аккаунт, формат и квота; renderer/FFmpeg/ffprobe, разрешённые encoder/font/profile.
+- `audio.listen`: доступное реальное прослушивание narration и финального микса. Анализ сигнала/word map не подтверждает эту capability.
 - Workspace/artifact storage, права чтения/записи и доступность нужных immutable inputs.
 - YouTube channel OAuth, API quota и обязательные Studio functions; календарная политика/timezone.
 - Trusted approval host: реальное пользовательское событие, Ed25519 verifier key и обработка replay/target/scope.
 
 Missing release capability не блокирует research/script. Missing image capability не отменяет уже созданный звук. Не превращать отсутствие одного backend в глобальную остановку.
+
+Для provider/tool observation различать три состояния: `unobserved` (`available: null`) — в run ещё нет проверенного наблюдения; `available` (`true`) — доступность подтверждена; `unavailable` (`false`) — зафиксирована реальная недоступность. `doctor` не обнаруживает все host tools автоматически. При `unobserved` исполнитель проверяет каталог текущей сессии и доступный deferred discovery, читает task `context`, сохраняет результат через `capabilities` с evidence и снова вызывает `next`. Поле `next_action` указывает этот шаг; отсутствующую запись нельзя предъявлять пользователю как отсутствующий инструмент.
 
 Перед `pool initialize` сохранить observation `sessions.independent` через `capabilities`: `available: true`, фактический `runtime_key` и целочисленный `max_sessions`. Эти два значения должны точно совпадать с initialize payload; `evidence` указывает источник измерения. Все runs одного runtime используют один key и общий лимит. Новый key не создаёт дополнительную физическую capacity. Billing изображений проверяется отдельно; доступность sessions не означает бесплатную генерацию.
 

@@ -32,8 +32,11 @@ class ThumbnailPreviewCardTests(unittest.TestCase):
         result = self.run_cli('--out', out, '--widths', '100', '--crops', '2:3')
         self.assertEqual(result.returncode, 0, result.stderr)
         manifest = json.loads((out / 'manifest.json').read_text())
+        self.assertEqual(manifest['schema'], 'ytv-thumbnail-previews-v1')
         self.assertEqual(len(manifest['previews']), 2)
         self.assertTrue((out / 'qa_full_100x56.jpg').is_file())
+        for preview in manifest['previews']:
+            self.assertEqual(preview['sha256'], hashlib.sha256(Path(preview['path']).read_bytes()).hexdigest())
 
     def test_exact_escaped_fields_relative_neighbor_and_provenance(self):
         spec = self.root / 'card.json'
@@ -58,6 +61,7 @@ class ThumbnailPreviewCardTests(unittest.TestCase):
         self.assertEqual(page.count('<body>'), 1)
         manifest = json.loads((out / 'manifest.json').read_text())
         self.assertEqual(manifest['card_mock']['json_sha256'], hashlib.sha256(spec.read_bytes()).hexdigest())
+        self.assertEqual(manifest['card_mock']['sha256'], hashlib.sha256((out / 'qa_cards.html').read_bytes()).hexdigest())
         self.assertEqual(len(manifest['card_mock']['assets']), 2)
 
     def test_invalid_duration_fails_without_changing_source(self):

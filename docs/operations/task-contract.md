@@ -2,19 +2,46 @@
 
 Все команды возвращают JSON. Синтаксис текущей версии — `uv run python -m ytvideos --help`. Один workspace/store используют все связанные сессии. Ниже placeholders заменяются фактическими значениями из ответа CLI, не выдумываются.
 
-Разделы: [запуск](#новый-сценарный-run), [контекст](#требования-в-контексте), [outputs](#outputs), [источники и обложки](#источники-и-обложки), [media checks](#проверки-media-и-review), [receipt](#receipt), [approval/recovery](#approval-и-продолжение), [adapters и release](#media-изображения-release).
+Разделы: [запуск](#новый-сценарный-run), [план](#план-выпуска), [контекст](#требования-в-контексте), [outputs](#outputs), [источники и обложки](#источники-и-обложки), [render evidence](#render-manifest-и-delivery-evidence), [media checks](#проверки-media-и-review), [receipt](#receipt), [approval/recovery](#approval-и-продолжение), [adapters и release](#media-изображения-release).
 
 ## Новый сценарный run
 
+Для любого нового сюжета, сценария или ролика вызвать `start` до веб-исследования и написания текста. Это также вход для запроса только на полный сценарий:
+
 ```bash
-uv run python -m ytvideos create --channel paper_detour --format short --intent 'Нужен сюжет для канала Paper Detour'
+uv run ytv start --channel CHANNEL_ID --format short --intent 'точный запрос пользователя'
+```
+
+Подставить явный канал или default `paper_detour`; для long изменить формат. `start` создаёт один обычный run тем же runtime, возвращает `plan_summary`, `doctor`, `next` и `read_next`. Каждый элемент `read_next` содержит `task_id`, `input_hash`, `task_file`/его SHA-256, `skill_file`, `requirement_files`, `task_guide` и инструкцию чтения. Открыть именно эти сохранённые файлы, сообщить краткий план и продолжить по `next_action`. Пакет материализован из pinned context без claim; команда не вызывает providers и не создаёт approval. Полученный run ID использовать во всех следующих действиях; для существующего run выполнять `status` → `resume`/`next` → `plan`, без повторного `start`.
+
+Конфигурацию каналов можно проверить отдельно без создания run, store или workspace:
+
+```bash
+uv run ytv profiles
+uv run ytv profiles --channel paper_detour --format short
+```
+
+Ответ показывает status, требования/варианты формата и blockers. `live_readiness=unverified` означает, что команда не проверяет подключение providers, аккаунтов или наличие media.
+
+```bash
 uv run python -m ytvideos status --run RUN_ID
+uv run python -m ytvideos plan --run RUN_ID
 uv run python -m ytvideos doctor --run RUN_ID
 ```
 
+Для полного присланного narration сохранить исходный UTF-8 файл и передать его при создании run. Для `licensed_clips` также допустим exact JSON edit-script из раздела [outputs](#outputs):
+
+```bash
+uv run ytv start --channel paper_detour --format short --intent 'Сделай видео по присланному сценарию' --source-script /absolute/path/to/script.en.txt
+```
+
+`--source-script` сохраняет точные bytes в artifact store и hash в `pins.source_script`; `plan` и task `context` возвращают descriptor `source_script`. Исходный файл после этого не является рабочей зависимостью. При повторной доставке с тем же `request_id` нельзя убрать или заменить этот source. Для темы, синопсиса или черновика использовать обычный `--intent`: они требуют разработки полного текста по [workflow](../workflow.md#готовый-текст-и-набросок).
+
+Research проверяет факты именно присланной истории; script проходит обязательные проверки и регистрирует exact narration без повторного выбора темы. Сохранение source не создаёт approval. Trusted host должен связать подлинное исходное поручение с зарегистрированным script/hash; содержательно изменённый текст требует принятия новой версии.
+
 До claim сохранить реально наблюдённые capabilities. Например `{"web.search":true,"model.text":true}` допустимо только когда эти tools доступны текущему worker. Запись `capabilities --run RUN_ID --file capabilities.json --evidence 'actual observation reference'` сама не предоставляет tool. Для metered audio/image требуется положительная reservation, либо подтверждённый `billing:included`; max paid budget по умолчанию не разрешает платные запросы.
 
-Новый run не наследует каталог tools сессии автоматически. Если `next`/claim показывает `missing capabilities`, сверить реальную доступность: незаписанное наблюдение исправляется командой `capabilities`, а фактически отсутствующий инструмент остаётся blocker. Ссылка на реально полученный search result или наблюдение доступного text runtime — evidence, которое worker вправе сохранить без отдельного user approval. Не копировать пример evidence как факт и не заявлять доступ к чужому аккаунту по наличию имени connector. После записи повторить `next` и claim, продолжая исходную задачу.
+Новый run не наследует каталог tools сессии автоматически. `capability_checks` в `next` и provider checks в `doctor` различают `unobserved` / `available: null`, подтверждённые `available: true` и `unavailable: false`. При `unobserved` выполнить `next_action: inspect_runtime_tools`: проверить фактически доступные tools, включая deferred discovery текущего host, прочитать task context, записать наблюдение и повторить `next`. Это не blocker среды. При подтверждённой недоступности исправлять её по evidence и продолжать независимые задачи. Ссылка на реально полученный search result или наблюдение доступного text runtime — evidence, которое worker вправе сохранить без отдельного user approval. Не копировать пример evidence как факт и не заявлять доступ к чужому аккаунту по наличию имени connector.
 
 ```bash
 uv run python -m ytvideos next --run RUN_ID
@@ -22,11 +49,33 @@ uv run python -m ytvideos context --run RUN_ID --task research --output context.
 uv run python -m ytvideos claim --run RUN_ID --task research --worker WORKER_ID
 ```
 
-Claim возвращает `token`, `worker`, `input_hash`, `expires_at`, `estimated_units`, `claimed_at`. Сохранить JSON-ответ и брать точные token/input_hash из него программно, не перепечатывать идентификаторы вручную; использовать stable реальную идентичность исполнителя. При `stale or missing task lease` сначала сверить task/status и точное значение с текущим claim: опечатка не означает истёкшую lease. Долгую задачу продлевать `heartbeat --run RUN_ID --task TASK_ID --token TOKEN`; lease не даёт право изменить scope.
+`context` разрешён до claim, в том числе при `dispatchable: false`; его чтение не тратит attempt или reservation. CLI `claim` атомарно возвращает `token`, `worker`, `input_hash`, `expires_at`, `estimated_units`, `claimed_at` и `context` текущей задачи. Сохранить JSON-ответ и брать точные token/input_hash из него программно, не перепечатывать идентификаторы вручную; использовать stable реальную идентичность исполнителя. Прочитать возвращённый пакет до исполнения. При `stale or missing task lease` сначала сверить task/status и точное значение с текущим claim: опечатка не означает истёкшую lease. Долгую задачу продлевать `heartbeat --run RUN_ID --task TASK_ID --token TOKEN`; lease не даёт право изменить scope.
+
+## План выпуска
+
+`start` — агентский вход с компактным `plan_summary`, диагностикой и materialized reading packet. Низкоуровневый `create` сохраняется для программной совместимости и возвращает `run_id`, `pins`, `next`, `plan`, без автоматической подготовки reading packet. Оба используют один граф и один контракт. Для сохранённого выпуска `plan --run RUN_ID` строит read-only представление из состояния run; не вызывает providers, не запускает генерацию и не сохраняет ещё один plan artifact.
+
+| Поле | Назначение |
+|---|---|
+| `channel`, `format`, `intent`, `revision`, `pins` | Точный продукт и закреплённые версии |
+| `source_script` | Descriptor точного присланного narration, если он передан при `create` |
+| `production_requirements` | Канальные требования к выбранному формату/рецепту из pinned profile |
+| `accepted`, `steps`, `release_steps` | Принятые gates, статусы этапов, цели, skill, зависимости, выходы и checks |
+| `next` | Готовые задачи, `context_command`, `capability_checks`, конкретный `next_action`, gates и blockers |
+| `capability_gaps` | Отсутствующие положительные наблюдения и затронутые задачи |
+| `runtime.code_matches_pin`, `commands` | Совместимость checkout и следующие команды в том же workspace/store |
+
+План сообщает сохранённые наблюдения, а `doctor` проверяет фактическое окружение. `audio.listen` для audio/review означает доступный способ реального прослушивания с evidence; FFmpeg-анализ не предоставляет слух. До генерации кратко изложить план человеку по [workflow](../workflow.md#первый-ответ), затем продолжить разрешённую работу без нового approval.
 
 ## Требования в контексте
 
-`context.references` — выбранные repo-relative пути; `reference_documents` — соответствующие `{path,sha256,text}`. Прочитать их содержимое вместе с выданным skill. Общие стандарты выбирает `src/ytvideos/context.py`, канальные документы — `ChannelSpec.context_references`. Фильтры `stages`, `formats`, `purposes` объединяются через AND; отсутствие фильтра означает все значения. `purposes` применим к `scene_image` (`scene` или `thumbnail`), на остальных этапах purpose отсутствует.
+`context.references` — выбранные repo-relative пути; `reference_documents` — соответствующие `{path,sha256,text}`. `task_guide` даёт цель, порядок работы, skill, зависимости/gates, output kind, обязательные checks и следующие задачи. `production_requirements` содержит закреплённый машинный контракт канала. Прочитать эти поля и содержание документов вместе с выданным skill.
+
+`inputs` содержит прямые outputs зависимостей, `supporting_inputs` — descriptors принятых транзитивных outputs: например script/audio/storyboard для review, script для subtitles и research для packaging. Открыть нужные реальные артефакты из `artifact_root`; descriptor не заменяет текст или медиа. Прикреплённые отдельно supporting notes не становятся входами автоматически.
+
+`source_script` передаёт сохранённый исходный narration, если run создан с ним. Отличать его от проверенного `script` output и состояния approval; это три разных сущности.
+
+Общие стандарты выбирает `src/ytvideos/context.py`, канальные документы — `ChannelSpec.context_references`. Фильтры `stages`, `formats`, `purposes` объединяются через AND; отсутствие фильтра означает все значения. `purposes` применим к `scene_image` (`scene` или `thumbnail`), на остальных этапах purpose отсутствует.
 
 Пример записи в ChannelSpec:
 
@@ -64,9 +113,25 @@ Image pool передаёт тот же manifest. Native host проверяет
 }
 ```
 
-Пример показывает форму, не источник: заменить URL/claim/location фактически прочитанными материалами. Дополнительно сохранить uncertainty, overlap/отвергнутые варианты, аудиторию и заметку о визуальном обещании и его раскрытии в сценарии. `script` output — UTF-8 файл полного narration без процедурных инструкций. Минимальная длина машинной проверки не является критерием качества: должен быть закончен сценарий, который пользователь просил.
+Пример показывает форму, не источник: заменить URL/claim/location фактически прочитанными материалами. Дополнительно сохранить uncertainty, overlap/отвергнутые варианты, аудиторию и заметку о визуальном обещании и его раскрытии в сценарии. Для `illustrated` `script` output — UTF-8 файл полного narration без процедурных инструкций. Минимальная длина машинной проверки не является критерием качества: должен быть закончен сценарий, который пользователь просил.
 
-`storyboard` output — JSON `{"scenes":[{"id":"S001","prompt":"Самодостаточное задание","visual_intent":"Смысл кадра"}]}` с необходимыми реальными timing/references/continuity. Scene IDs уникальны; приложение создаёт `image:<scene-id>` tasks. Остальные типы — actual media/SRT/QA/release-spec/remote receipts по task context. Файл с удобным расширением не доказывает реальный медиаформат.
+Для `licensed_clips` можно сохранить plain narration либо strict edit-script JSON, который описывает законченный монтаж без выдуманного дикторского текста:
+
+```json
+{
+  "schema": "ytv-edit-script-v1",
+  "production_variant": "scene",
+  "intent": "Полный редакционный замысел и наблюдаемый исход",
+  "speech": {"mode": "none", "text": ""},
+  "segments": [{"id": "S001", "description": "Полное действие выбранного фрагмента и его функция", "spoken_text": ""}]
+}
+```
+
+Вариант должен быть зарегистрирован в профиле; segments имеют уникальные IDs и монтажный порядок. `speech.mode` — `narration` для авторской речи, `source` для реально звучащих source-реплик либо `none` при их отсутствии. Объединение `segments[].spoken_text` сохраняет все слова `speech.text` по порядку; при `none` обе формы текста пусты. Approval связывает exact JSON целиком; TTS при `narration` читает только `speech.text`. Storyboard, audio, render и packaging сохраняют выбранный вариант и speech mode, не выводят их заново из caller flag. Отсутствие речи не отменяет реальный soundtrack, права и прослушивание. Схема доступна только `licensed_clips`; она не включает неподключённый `music_first`.
+
+После принятия `none` task `subtitles` имеет `output_kind: no_speech`, capability `audio.listen` и результат **ровно** `{"schema":"ytv-no-speech-v1","script_sha256":"EXACT_EDIT_SCRIPT_SHA256","audio_sha256":"EXACT_ACCEPTED_MIX_SHA256","has_speech":false}`. SRT и слова не придумываются. Обязательный check `no_speech` у audio/subtitles связывает `artifact_sha256` принятого audio, реального reviewer, notes, coverage всего микса и evidence `{path,sha256}` по форме review ниже. В final review этот check относится к exact MP4. Для `source` остаются настоящие alignment/SRT и `exact_text`.
+
+`storyboard` output — JSON `{"scenes":[{"id":"S001","prompt":"Самодостаточное задание","visual_intent":"Смысл кадра"}]}` с необходимыми реальными timing/references/continuity. Если `production_requirements.available_variants` непуст, добавить верхнеуровневый `production_variant` из этого списка: он выбирает канальный рецепт и закрепляется в render manifest. Scene IDs уникальны; приложение создаёт `image:<scene-id>` tasks. Остальные типы — actual media/SRT/QA/release-spec/remote receipts по task context. Файл с удобным расширением не доказывает реальный медиаформат.
 
 `packaging` output — strict `ReleaseSpec` по `src/ytvideos/release.py`, без полей brief/plan/notes. `run_id`, `channel_id`, `revision` и `format` должны совпасть с текущим run; несоответствие отклоняется до создания зависимых обложек. На раннем этапе неизвестные optional `media_sha256`, `thumbnail_sha256` и `ab_variants` опустить, а не заполнять `null` или примерными значениями. `thumbnail_plan` — обязательное имя в `receipt.checks`, рядом с `promise_matches_script` и `metadata`; в observed привести реальную проверку концептов и ссылку на сохранённые briefs. После получения файлов финальный spec связывается через `prepare-release`, без повторного завершения packaging.
 
@@ -83,7 +148,19 @@ uv run python -m ytvideos attach-artifact --run RUN_ID --file license.pdf --kind
 
 Для `licensed_clips` сцена содержит `source_clip` с полями `source_artifact_id`, `rights_artifact_id`, `start_seconds`, `end_seconds`, `authority`. Оба artifacts должны быть зарегистрированы, authority — конкретный источник полномочий. Выход scene task — реальный video extract либо JSON `{"clip_artifact_id":"EXISTING_ARTIFACT_ID","source_clip":{...}}` с тем же pinned source. Проверка связывает bytes, source duration и extraction bounds; editorial rights review остаётся обязательным.
 
-После script approval и завершения packaging создать brief обложки `{"id":"main","prompt":"...","visual_intent":"..."}` и вызвать:
+После script approval и завершения packaging создать brief обложки со стабильным `id`, точным выбранным `title`, полными `prompt` и `visual_intent`, а также `references` — списком зарегистрированных artifact IDs либо объектов `{"artifact_id":"ACTUAL_ID"}`. Если художественных refs действительно нет, сохранить пустой список и конкретный `reference_na_reason`; не выдумывать asset ради формы. Title нужен для пары «название + изображение» и не равен автоматически надписи на artwork. Пример формы:
+
+```json
+{
+  "id": "main",
+  "title": "Точное название из выбранного концепта",
+  "prompt": "Полное задание на изображение по канальному профилю",
+  "visual_intent": "Конкретный объект и смысловая связь",
+  "references": ["ACTUAL_REGISTERED_REFERENCE_ID"]
+}
+```
+
+После заполнения фактических значений вызвать:
 
 ```bash
 uv run python -m ytvideos add-thumbnail-task --run RUN_ID --brief thumbnail-brief.json
@@ -99,15 +176,68 @@ uv run python -m ytvideos attach-artifact --run RUN_ID --file thumbnail-plan.jso
 uv run python -m ytvideos attach-artifact --run RUN_ID --file thumbnail-observation.json --kind thumbnail_experiment_observation --source OBSERVATION_REFERENCE
 ```
 
-Последняя команда применима после фактического наблюдения; пустой план не является результатом. Сохранить возвращённые IDs и hashes, новые наблюдения добавлять отдельными файлами. `attach-artifact` сохраняет bytes/provenance, но не валидирует семантику этих JSON и не включает файл автоматически в `context.inputs`. Передать нужный artifact ID/path исполнителю явно, прочитать его из хранилища; ранняя research note также не является транзитивным input packaging. Не менять завершённый research ради добавления поздних результатов A/B.
+Последняя команда применима после фактического наблюдения; пустой план не является результатом. Сохранить возвращённые IDs и hashes, новые наблюдения добавлять отдельными файлами. `attach-artifact` сохраняет bytes/provenance, но не валидирует семантику этих JSON и не включает файл автоматически в `context.inputs` или `supporting_inputs`. Отдельную research note передать по artifact ID/path явно; запись внутри принятого research output доступна packaging через `supporting_inputs`. Не менять завершённый research ради добавления поздних результатов A/B.
 
-Локальные диагностические previews создаёт существующий helper, например для long master:
+Для приёмки thumbnail создать `card.json` с точными `title` из brief и `channel` из `plan.channel.name`, затем canonical previews. Для Short:
 
 ```bash
-uv run python automation/helpers/youtube-thumbnails/scripts/thumbnail_previews.py thumbnail.png --out thumbnail-qa --widths 320 --crops
+uv run python automation/helpers/youtube-thumbnails/scripts/thumbnail_previews.py thumbnail.png --out thumbnail-qa --widths 320 --crops 2:3 --card-json card.json --theme both
 ```
 
-Он сохраняет уменьшение и manifest исходного файла; не рисует duration overlay, не проверяет надпись автоматически и не моделирует CTR. Наложение элементов интерфейса и actual surface проверять отдельно. Для канальных размеров/crops использовать профиль.
+Для Long передать `--crops` без значения: helper сохранит полный preview без дополнительных кропов. В обоих случаях обязательны просмотр artwork, уменьшения и карточки. Helper не подтверждает читаемость, не проверяет надпись автоматически и не моделирует CTR; actual YouTube surface проверяется отдельно.
+
+Thumbnail task требует check `thumbnail_review` с `method` фактической проверки и `observed` следующей формы:
+
+| Поле `observed` | Содержимое |
+|---|---|
+| `schema` | `ytv-thumbnail-review-v1` |
+| `artifact_sha256`, `title`, `reviewer` | Exact artwork hash, exact brief title и реальный независимый reviewer, отличный от generator worker |
+| `preview_manifest` | `{path, sha256}` canonical `thumbnail-qa/manifest.json` |
+| `phone_preview`, `crop_preview` | `{path, sha256}` файлов из manifest: полный preview и central 2:3 для Short, для Long оба могут указывать на полный preview; ширина каждого 180–360 px |
+| `observations` | Ровно пять непустых наблюдений: `focal_point`, `story_relation`, `title_pair`, `phone_size`, `crop` |
+| `references` | По каждому выбранному ref `{artifact_id, sha256, comparison}`; при пустом списке повторить exact `reference_na_reason` из brief |
+| `evidence` | `{path, sha256}` сохранённого отчёта независимого просмотра |
+
+Core проверяет actual derivative bytes/geometry, карточку с exact title/channel, hashes и полноту сравнений; сохраняет evidence в artifact store. Само создание preview, фраза о бумажной фактуре или обычный `visual_review` не заменяют этот check. Структура evidence не доказывает восприятие автора отчёта или привлекательность картинки: содержательный просмотр выполняется по [thumbnail standard](../standards/thumbnails.md#qa-файла-и-пары).
+
+## Render manifest и delivery evidence
+
+Перед claim production-task проверить `production_requirements.configured` и `unresolved`. Значения получаются из pinned `channel.json`, формата и выбранного `production_variant`; произвольные defaults и неподходящий рецепт не заполняют пробелы. Для render/review обязательны точные canvas/FPS/video/audio codecs, SAR/цвет, motion/transitions/frame policy, captions/font, музыка и применимый end screen. Неполная policy блокирует production до reservation/provider dispatch, оставляя research/script доступными.
+
+Сохранить единый production manifest. Поля, нужные `complete`, не заменяют дополнительные параметры канонического renderer:
+
+| Поле | Контракт |
+|---|---|
+| `purpose`, `channel`, `format`, `production_variant` | `production`, ID канала, формат и выбранный вариант; без вариантов поле omit/null |
+| `canvas`, `fps`, `audio` | Закреплённые размеры/FPS и путь к точному принятому audio output |
+| `scenes` | Принятые сценовые файлы по порядку и с тем же количеством; непрерывные `start_frame` / exclusive `end_frame` от нуля |
+| `scenes[].image` / `scenes[].clip` | Actual image для illustrated или clip для licensed_clips; JSON receipt клипа не является самим видео |
+| `scenes[].direction`, `zoom` | При `whole_frame` разрешённые horizontal direction/zoom; у каждой обычной сцены есть движение; renderer задаёт его плавную траекторию |
+| `transitions`, `overlays` | Канальный режим; каждый overlay имеет `role`, `path`, `sha256`, frame interval. Decorative frame берётся только из exact approved asset, когда policy его допускает |
+| `has_speech`, `subtitles`, `srt` | Boolean совпадает с принятым speech mode; для word captions `subtitles.mode: words`; путь к принятому manual SRT, когда требуется. Для `none`: `has_speech: false`, `subtitles.mode: none`, без SRT. Отсутствие речи не отменяет обязательный audio stream |
+| `scenes[].role: end_screen` | Только последний интервал и точная канальная длительность, когда end screen требуется |
+| `music` | Явное решение по схеме ниже |
+
+Если музыка присутствует, `music.status: present`, `tracks` содержит реальные `{path,sha256,start_frame,end_frame}`, `mix_evidence` — `{path,sha256}` отчёта фактического сведения. Он содержит `audio_sha256` принятого микса, `track_sha256` всех использованных tracks, actual `argv` и `returncode: 0`. При обязательной музыке tracks и намеренные паузы `silences: [{start_frame,end_frame,reason}]` покрывают весь timeline. Для optional music без подложки записать `status: not_used` и содержательный `reason`.
+
+В верхний уровень render receipt добавить `delivery_evidence: {path,sha256}` отдельного JSON:
+
+```json
+{
+  "schema": "ytv-production-delivery-v1",
+  "media_sha256": "EXACT_MP4_SHA256",
+  "requirements_sha256": "SHA256_FROM_PRODUCTION_REQUIREMENTS",
+  "manifest": {"path": "/absolute/path/to/manifest.json", "sha256": "ACTUAL_SHA256"},
+  "execution": {"path": "/absolute/path/to/execution.json", "sha256": "ACTUAL_SHA256"},
+  "renderer_receipt": {"path": "/absolute/path/to/render-receipt.json", "sha256": "ACTUAL_SHA256"}
+}
+```
+
+`execution` фиксирует фактический запуск: `run_id`, `task_id`, `claim_token`, `input_hash` текущего claim, `kind` (`montage` или `host_render`), `state: completed`, `returncode: 0`, actual `argv`, `outputs`, `output_artifacts: [{path,sha256}]` и `inputs: [{path,sha256}]`. Inputs включают manifest, exact принятые audio/scenes/SRT, overlays, music tracks и mix evidence; перечислять только реально использованные bytes. Пути execution — абсолютные, относительные media paths manifest разрешаются от каталога manifest. Core сверяет ordered scene hashes, число кадров, duration, policy и MP4 bytes; сохраняет связанные evidence в store.
+
+Для illustrated `word_highlight` обязателен canonical montage и `renderer_receipt`, проверяемый `automation/ffmpeg_montage/delivery.py`: он связывает word map, exact script/audio, actual font face/index/hash, профили, export contract и замороженный код renderer. Переименованный файл другого шрифта или ручные группы по три слова не заменяют эту подготовку. `execute-media` сохраняет execution/evidence, но его успех не заменяет `complete` и независимый final review. Для другого поддержанного host render поле `renderer_receipt` опускается; остальные привязки сохраняются. Still-image montage не монтирует licensed clips.
+
+`--technical-probe` предназначен для изолированных инструментальных fixtures. Его output нельзя завершить или выпустить как production MP4.
 
 ## Проверки media и review
 
@@ -119,7 +249,21 @@ Review output — QA JSON с обязательными `reviewed_sha256` и `pr
 uv run python -c 'import json,sys; from ytvideos.media_checks import probe_media; print(json.dumps(probe_media(sys.argv[1])))' /absolute/path/to/final.mp4
 ```
 
-Вставить полученный объект в `probe`, сохранить findings и отдельный receipt со всеми review checks. Выдуманная duration или summary другого файла отвергается.
+Вставить полученный объект в `probe`, сохранить findings и отдельный receipt со всеми текущими `context.required_checks`. Выдуманная duration или summary другого файла отвергается. Помимо базовых проверок канальная policy добавляет motion/music/captions/frame/end-screen/Shorts AV loop там, где они применимы.
+
+Каждый review check требует `status: pass`, actual `method` и `observed` с полями:
+
+```json
+{
+  "artifact_sha256": "EXACT_RENDERED_MP4_SHA256",
+  "reviewer": "ACTUAL_INDEPENDENT_REVIEWER",
+  "notes": "Конкретные наблюдения выполненной проверки",
+  "coverage": [{"start_seconds": 0, "end_seconds": 43.2}],
+  "evidence": {"path": "/absolute/path/to/review-evidence.json", "sha256": "ACTUAL_SHA256"}
+}
+```
+
+Длительность 43.2 здесь иллюстрирует форму: подставить измеренные intervals этого файла. Coverage `visual_review`, `listening`, `subtitles`, `music`, `motion`, `captions` должен покрывать весь MP4; прочие checks указывают фактически проверенные интервалы. Reviewer и worker final review отличаются от render producer. Evidence bytes проверяются и сохраняются. Если обязательная проверка не выполнена, сохранить findings как `UNVERIFIED` вне успешного completion; не ставить `pass` для обхода gate. Пропуск применимого check нельзя объяснить отсутствием capability: это конкретный blocker его завершения. Отсутствие речи, рамки или optional music проверяется как фактическое соответствие policy, без утверждения о прослушивании несуществующей дорожки.
 
 ## Receipt
 
@@ -147,6 +291,38 @@ uv run python -c 'import json,sys; from ytvideos.media_checks import probe_media
 
 Для `script` обязательны factual_support, first_listener, viewer_value и independent_review. В `independent_review.observed` записать реального отличного от автора `reviewer` и `artifact_sha256` точного текста, плюс findings/coverage/evidence. Если независимый reviewer недоступен, текст можно сохранить, но ready script gate не подтверждён. При изменении текста обновить binding и затронутый review.
 
+Для narrative Short с `production_requirements.narrative_loop: required` добавляется обязательный `narrative_loop`. Long и рецепты с `not_applicable` не получают narrator check; аудиовизуальная петля Short всё равно проверяется на exact MP4. Отсутствующая policy Short — unresolved, не автоматическое исключение.
+
+`narrative_loop.observed` содержит `artifact_sha256`, `reviewer`, `opening`, `ending`, `joined_excerpt` и `evidence: {path,sha256}`. Opening/ending — точные неперекрывающиеся prefix/suffix полного текста после обрезки только краевых пробелов, каждый не короче четырёх слов и с полными крайними репликами; они не делят слово и не покрывают весь сценарий вместо его краёв. `joined_excerpt` строго равен `ending + "\n" + opening`. Использовать контекст первых/последних двух реплик, а не удобные вырванные слова. Evidence — отдельный JSON:
+
+```json
+{
+  "schema": "ytv-narrative-loop-v1",
+  "script_sha256": "EXACT_SCRIPT_SHA256",
+  "opening": "Точные первые реплики текста",
+  "ending": "Точные последние реплики текста",
+  "joined_excerpt": "Точные последние реплики текста\nТочные первые реплики текста",
+  "reviewer": "ACTUAL_INDEPENDENT_REVIEWER",
+  "relationship": "continuous_narration",
+  "method": "Фактически выполненное чтение полного текста и стыка",
+  "coverage": {
+    "opening_utterances": 2,
+    "ending_utterances": 2,
+    "full_script_cycles": 2,
+    "complete_edge_utterances": true
+  },
+  "observations": {
+    "continuation": "Как крайние реплики естественно продолжают друг друга",
+    "cold_open": "Почему начало понятно отдельно",
+    "payoff_quote": "Точная цитата отдачи из этого сценария",
+    "payoff_before_repeat": "Что уже разрешено до повторного начала",
+    "two_cycle_read": "Что наблюдал reviewer при двух последовательных прочтениях"
+  }
+}
+```
+
+Это форма для фактического review, не готовый PASS. Поля exact text/hash/reviewer совпадают с observed; reviewer отличается от script author. Тематическое возвращение к исходному предмету само по себе не считается `continuous_narration`. Код проверяет binding и coverage, но не распознаёт смысл, интонацию или художественное качество. При дефекте уже принятого `source_script` сохранить точный исходник и незавершённую проверку; предложить исправленную пару/версию отдельно по [workflow](../workflow.md#готовый-текст-и-набросок). Не переписывать присланный текст незаметно и не готовить подробный storyboard/сюжетный PR до проверки текста.
+
 SHA-256 считать по actual bytes после окончательного сохранения, например `python3 -c 'import hashlib,pathlib; print(hashlib.sha256(pathlib.Path("output.json").read_bytes()).hexdigest())'`.
 
 ```bash
@@ -168,7 +344,9 @@ uv run python -m ytvideos next --run RUN_ID
 
 ## Media, изображения, release
 
-`execute-media --run RUN_ID --task TASK_ID --token TOKEN --request request.json` вызывает guarded adapter. Для TTS request `{"kind":"tts"}`: exact text и pinned voice выводятся из run; provider получает raw `generation_speed: 1.0`. Канальная конечная скорость применяется один раз при подготовке audio output — см. [audio](../standards/audio.md). Для srt/montage/inspect нужны argv, output paths внутри owned attempt и prepared_inputs по контракту `MediaExecutor`. Subprocess receipt не заменяет content QA или task complete.
+`execute-media --run RUN_ID --task TASK_ID --token TOKEN --request request.json` вызывает guarded adapter. Для TTS request `{"kind":"tts"}`: exact narration text и pinned voice выводятся из run; provider получает raw `generation_speed: 1.0`. Канальная конечная скорость применяется один раз при подготовке audio output — см. [audio](../standards/audio.md). При typed edit-script `source`/`none` TTS отвергается; audio task требует `audio.mix` и `audio.listen`, checks определяются его context. Для srt/montage/inspect нужны argv, output paths внутри owned attempt и prepared_inputs по контракту `MediaExecutor`. Subprocess receipt не заменяет content QA или task complete.
+
+Для `source`/`none` request `mix` содержит `args: [ABSOLUTE_MANIFEST, "--output", OWNED_ATTEMPT_WAV]`, `outputs: [OWNED_ATTEMPT_WAV]`, `prepared_inputs: [ABSOLUTE_MANIFEST]`. Manifest имеет ровно `schema: ytv-source-audio-v1` и `segments: [{id,path,sha256,start_seconds,end_seconds,gain}]`. IDs/порядок совпадают с принятым edit-script, source bytes предварительно зарегистрированы через `attach-artifact`, интервалы находятся внутри фактической audio duration, gain в диапазоне 0–4. Adapter реально извлекает/соединяет звук FFmpeg в WAV без изменения скорости, сохраняя inputs/execution. Это подготовка source audio, не генерация речи и не подтверждение listening. Путь WAV должен находиться в `workspace/runs/RUN_ID/attempts/TOKEN/`; existing output сохраняется для reconcile, не перезаписывается.
 
 Image queue использует `pool initialize|enqueue|tick|pending|claim|submitted|result|accept|reconcile|recover|status|cancel --run RUN_ID --payload FILE`. Сначала фактическая `sessions.independent` capability с `available`, `runtime_key`, `max_sessions`; initialize обязан использовать точно тот же runtime key/cap и evidence. Native submit — только после committed `pool claim` grant. `pool-candidates --runtime KEY` возвращает порядок ready dispatch. Exact payloads/семантика — [adaptive workers](../architecture/adaptive-workers.md).
 
