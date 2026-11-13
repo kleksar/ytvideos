@@ -259,6 +259,27 @@ class ProductionDeliveryTests(unittest.TestCase):
         self.assertEqual(task["media_validation"]["observed"]["video"][0]["nb_frames"], "6")
         self.assertGreater(len(task["media_validation"]["evidence_artifacts"]), 5)
 
+    def test_delivery_accepts_equivalent_symlink_input_paths(self):
+        run, task, media, proof, _, execution, _ = self.delivery_fixture()
+        alias = self.directory / "source-alias"
+        alias.symlink_to(self.directory, target_is_directory=True)
+        dispatch = json.loads(execution.read_text())
+        for item in dispatch["inputs"]:
+            item["path"] = str(alias / Path(item["path"]).name)
+        execution.write_text(json.dumps(dispatch))
+        bound = json.loads(proof.read_text())
+        bound["execution"] = self.record(execution)
+        proof.write_text(json.dumps(bound))
+        self.service._validate_output(run, task, self.service.artifacts.put(media, "mp4"),
+                                      receipt={"delivery_evidence": self.record(proof)})
+        dispatch["inputs"][0]["sha256"] = "0" * 64
+        execution.write_text(json.dumps(dispatch))
+        bound["execution"] = self.record(execution)
+        proof.write_text(json.dumps(bound))
+        with self.assertRaisesRegex(WorkflowError, "required bound input"):
+            self.service._validate_output(run, task, self.service.artifacts.put(media, "mp4"),
+                                          receipt={"delivery_evidence": self.record(proof)})
+
     def test_final_scene_order_cannot_be_swapped_even_with_fresh_manifest_hash(self):
         run, task, media, proof, manifest, execution, _ = self.delivery_fixture()
         plan = json.loads(manifest.read_text())

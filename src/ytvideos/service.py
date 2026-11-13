@@ -683,8 +683,10 @@ class Production:
                     or sorted(mix.get("track_sha256", [])) != sorted(track["sha256"] for track in tracks)):
                 raise WorkflowError("music mix evidence must bind the accepted audio and actual source tracks")
             expected_inputs.append(music["mix_evidence"])
-        input_pairs = {(item.get("path"), item.get("sha256")) for item in execution.get("inputs", [])
-                       if isinstance(item, dict)}
+        # Compare both sides in the same path namespace (e.g. macOS /var vs
+        # /private/var); equivalent aliases still require the exact input hash.
+        input_pairs = {(str(source(item["path"])), item.get("sha256")) for item in execution.get("inputs", [])
+                       if isinstance(item, dict) and isinstance(item.get("path"), str) and item["path"]}
         if any((str(source(item["path"])), item["sha256"]) not in input_pairs for item in expected_inputs):
             raise WorkflowError("render execution omitted a required bound input")
         video = measured["video"][0]
