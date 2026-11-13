@@ -12,6 +12,34 @@ from ytvideos.store import Store
 
 
 class ConfiguredRecipeTests(unittest.TestCase):
+    def test_history_packets_include_the_visual_identity_and_caption_rules(self):
+        root = Path(__file__).resolve().parents[1]
+        profile = json.loads((root / "channels/nuviko_history/channel.json").read_text())
+        identity = "channels/nuviko_history/brand/VISUAL_PROFILE.md"
+        visual_tasks = {"storyboard", "scene_image", "thumbnail", "subtitles", "render", "review", "packaging"}
+        for format in ("short", "long"):
+            snapshot = snapshot_references(root, profile, format)
+            for task, paths in snapshot["routes"].items():
+                with self.subTest(format=format, task=task):
+                    self.assertIn("channels/nuviko_history/PROFILE.md", paths)
+                    if task in visual_tasks:
+                        self.assertIn(identity, paths)
+                    else:
+                        self.assertNotIn(identity, paths)
+
+    def test_history_audio_uses_the_shared_music_preferences(self):
+        root = Path(__file__).resolve().parents[1]
+        profile = json.loads((root / "channels/nuviko_history/channel.json").read_text())
+        catalog = "channels/paper_detour/docs/MUSIC_CATALOG.md"
+        for format in ("short", "long"):
+            snapshot = snapshot_references(root, profile, format)
+            for task, paths in snapshot["routes"].items():
+                with self.subTest(format=format, task=task):
+                    if task == "audio":
+                        self.assertIn(catalog, paths)
+                    else:
+                        self.assertNotIn(catalog, paths)
+
     def test_scenes_packets_include_each_supported_recipe_and_its_required_captions(self):
         root = Path(__file__).resolve().parents[1]
         profile = json.loads((root / "channels/scenes_on_repeat/channel.json").read_text())
@@ -29,6 +57,20 @@ class ConfiguredRecipeTests(unittest.TestCase):
                     self.assertIn(prefix + name, long["routes"][stage])
                     self.assertTrue(long["documents"][prefix + name]["text"])
                 self.assertNotIn(prefix + "MEME_SHORTS.md", long["routes"][stage])
+
+    def test_scenes_short_source_selection_gets_edit_rules_before_assembly(self):
+        root = Path(__file__).resolve().parents[1]
+        profile = json.loads((root / "channels/scenes_on_repeat/channel.json").read_text())
+        recipe = "channels/scenes_on_repeat/docs/EDIT_NOTES.md"
+        short = snapshot_references(root, profile, "short")
+        for stage in ("research", "script", "scene_image"):
+            with self.subTest(format="short", stage=stage):
+                self.assertIn(recipe, short["routes"][stage])
+        self.assertNotIn(recipe, short["routes"]["thumbnail"])
+        long = snapshot_references(root, profile, "long")
+        for stage in ("research", "script", "scene_image", "thumbnail"):
+            with self.subTest(format="long", stage=stage):
+                self.assertNotIn(recipe, long["routes"][stage])
 
 
 class TaskContextTests(unittest.TestCase):

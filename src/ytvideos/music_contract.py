@@ -102,6 +102,11 @@ def validate_mix(record, *, audio_sha256, track, project, scenes=None, fps=30):
     if source_plan.get("schema") != "ytv-source-audio-v1" or not isinstance(source_plan.get("segments"), list):
         raise WorkflowError("music mix requires its exact canonical source plan")
     segments = source_plan["segments"]
+    mixer = helper(project, "automation/audio_mix.py", "ytv_music_mix_plan")
+    try:
+        mixer.validate_plan(source_plan, Path(mix["source_plan"]["path"]).parent)
+    except (ValueError, TypeError, OSError) as exc:
+        raise WorkflowError("music source mix plan is invalid: " + str(exc)) from exc
     if not segments or (scenes is not None and [item.get("id") for item in segments] != [item["id"] for item in scenes]):
         raise WorkflowError("music source segments differ from the accepted edit order")
     cursor = track["source_in_seconds"]
@@ -114,6 +119,14 @@ def validate_mix(record, *, audio_sha256, track, project, scenes=None, fps=30):
             if abs(segment.get("end_seconds", -100) - expected) > 1e-6:
                 raise WorkflowError("music segment bounds differ from the exact edit timeline")
         cursor = segment["end_seconds"]
+    output = file_record(argv[4])
+    if output["sha256"] != audio_sha256:
+        raise WorkflowError("music mix output changed after its canonical execution")
+    measured = probe_media(output["path"])
+    expected_duration = cursor - track["source_in_seconds"]
+    if (measured["video"] or len(measured["audio"]) != 1
+            or abs(measured["duration_seconds"] - expected_duration) > max(.001, len(segments) / 48000)):
+        raise WorkflowError("music mix does not cover its complete source excerpt")
     inputs = execution.get("inputs", [])
     if mix["source_plan"] not in inputs or {"path": track["path"], "sha256": track["sha256"]} not in inputs:
         raise WorkflowError("music execution omitted its actual source or source plan")
@@ -202,6 +215,9 @@ def _validate_plan(plan, requirements, *, project, script):
     checked(original_track)
     mix, mix_inputs = validate_mix(plan["music"]["mix_evidence"], audio_sha256=file_digest(plan["audio"]),
                                    track=track, scenes=scenes, project=project)
+    if abs(probe_media(plan["audio"])["duration_seconds"] - timeline["duration_seconds"]) > .001:
+        raise WorkflowError("accepted music audio does not cover the complete edit timeline")
+    fade_out_seconds = document(mix["source_plan"]).get("fade_out_seconds", 0)
     checked(plan["music"].get("rights_evidence"))
     inputs.extend([original_track, plan["music"]["rights_evidence"], plan["music"]["mix_evidence"], *mix_inputs])
     planner_inputs = plan.get("planner", {})
@@ -286,7 +302,7 @@ def _validate_plan(plan, requirements, *, project, script):
     if timeline["requires_srt"]:
         inputs.append(file_record(plan["srt"]))
     return {**timeline, "cuts": cuts, "beat_frames": beat_frames, "visible_intervals": intervals, "inputs": inputs,
-            "planned": planned, "lyrics": lyrics, "track": track, "mix": mix}
+            "planned": planned, "lyrics": lyrics, "track": track, "mix": mix, "fade_out_seconds": fade_out_seconds}
 
 
 def validate_lyric_plan(value, plan, prepared, project):

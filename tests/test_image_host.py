@@ -218,12 +218,43 @@ class ImageHostTests(unittest.TestCase):
         self.assertIn("pinned task context", result["blockers"][0]["reason"])
         self.assertEqual(self.server.started, [])
 
-    def test_missing_channel_profile_blocks_native_generation(self):
+    def test_missing_channel_documents_block_native_generation(self):
         (self.production.project / "channels/test_channel/PROFILE.md").unlink()
         self.run_fixture(count=1)
         result = self.host.tick()
         self.assertEqual(result["dispatches"], [])
-        self.assertIn("PROFILE.md", result["blockers"][0]["reason"])
+        self.assertIn("channel document", result["blockers"][0]["reason"])
+        self.assertEqual(self.server.started, [])
+
+    def test_declared_channel_agents_are_materialized_from_the_pinned_snapshot(self):
+        channel = self.production.project / "channels/test_channel"
+        (channel / "PROFILE.md").unlink()
+        path = "channels/test_channel/AGENTS.md"
+        text = "Synthetic channel requirements declared in ChannelSpec.\n"
+        (channel / "AGENTS.md").write_text(text)
+        profile = json.loads((channel / "channel.json").read_text())
+        profile["context_references"] = [{"path": path}]
+        (channel / "channel.json").write_text(json.dumps(profile))
+        self.run_fixture(count=1)
+        # The current checkout must not replace the run's accepted requirements.
+        (channel / "AGENTS.md").unlink()
+        result = self.host.tick()
+        self.assertEqual(len(result["dispatches"]), 1, result)
+        job = self.host._jobs()[0]
+        document = Path(job["directory"]) / "requirements" / path
+        self.assertEqual(document.read_text(), text)
+        self.assertEqual(job["inputs"]["requirements/" + path], file_digest(document))
+
+    def test_foreign_channel_document_does_not_replace_own_requirements(self):
+        channel = self.production.project / "channels/test_channel"
+        (channel / "PROFILE.md").unlink()
+        profile = json.loads((channel / "channel.json").read_text())
+        profile["context_references"] = [{"path": "channels/second/PROFILE.md"}]
+        (channel / "channel.json").write_text(json.dumps(profile))
+        self.run_fixture(count=1)
+        result = self.host.tick()
+        self.assertEqual(result["dispatches"], [])
+        self.assertIn("missing pinned production requirement", result["blockers"][0]["reason"])
         self.assertEqual(self.server.started, [])
 
     def test_parent_symlink_cannot_move_requirements_outside_the_worker(self):

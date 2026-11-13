@@ -46,6 +46,28 @@
       ]
     },
     {
+      "path": "channels/scenes_on_repeat/docs/EDIT_NOTES.md",
+      "stages": [
+        "research",
+        "script"
+      ],
+      "formats": [
+        "short"
+      ]
+    },
+    {
+      "path": "channels/scenes_on_repeat/docs/EDIT_NOTES.md",
+      "stages": [
+        "scene_image"
+      ],
+      "formats": [
+        "short"
+      ],
+      "purposes": [
+        "scene"
+      ]
+    },
+    {
       "path": "channels/scenes_on_repeat/docs/MEME_SHORTS.md",
       "stages": [
         "research",
@@ -123,6 +145,10 @@
     },
     "formats": {
       "short": {
+        "audio": {
+          "channels": 2,
+          "sample_rate": 48000
+        },
         "video": {
           "canvas": [
             1080,
@@ -137,6 +163,9 @@
             }
           },
           "character_edit": {
+            "visual": {
+              "source_interval_review": true
+            },
             "video": {
               "fps": "24/1"
             }

@@ -9,7 +9,8 @@ import unittest
 
 from ytvideos.errors import WorkflowError
 from ytvideos.media_checks import probe_media, validate_font_face
-from ytvideos.production_contract import production_requirements, validate_render_manifest, validate_review_observation
+from ytvideos.production_contract import (production_requirements, validate_delivery_summary,
+                                         validate_render_manifest, validate_review_observation)
 from ytvideos.service import Production
 from ytvideos.store import Store
 from ytvideos.util import file_digest
@@ -171,6 +172,19 @@ class ProductionContractTests(unittest.TestCase):
             with self.assertRaisesRegex(WorkflowError, "requirements unresolved"):
                 service._production_ready(run, {"stage": "audio"})
 
+    def test_optional_audio_policy_is_validated_without_forcing_other_channels(self):
+        for name in ("channels", "sample_rate"):
+            for value in (True, 0, -1, "48000", None):
+                profile = copy.deepcopy(self.profile)
+                profile["production"]["audio"][name] = value
+                with self.subTest(name=name, value=value):
+                    self.assertIn("audio." + name, production_requirements(profile, "short")["unresolved"])
+        scenes = json.loads((ROOT / "channels/scenes_on_repeat/channel.json").read_text())
+        for variant in ("scene", "character_edit", "meme_time_machine"):
+            audio = production_requirements(scenes, "short", variant=variant)["audio"]
+            self.assertEqual((audio["channels"], audio["sample_rate"]), (2, 48000))
+        self.assertNotIn("channels", production_requirements(self.profile, "short")["audio"])
+
 
 @unittest.skipUnless(shutil.which("ffmpeg") and shutil.which("ffprobe"), "requires FFmpeg")
 class ProductionDeliveryTests(unittest.TestCase):
@@ -200,6 +214,26 @@ class ProductionDeliveryTests(unittest.TestCase):
         return {"id": "synthetic-production-regression", "format": "short", "profile": self.profile,
                 "channel": self.profile["id"], "tasks": {"packaging": {"status": "pending"}},
                 "artifacts": {}}
+
+    def test_actual_audio_must_cover_video_and_meet_explicit_channel_rate_policy(self):
+        profile = copy.deepcopy(self.profile)
+        profile["production"]["formats"]["short"]["video"]["canvas"] = [90, 160]
+        for duration in (.2, .8):
+            path = self.directory / f"audio-{duration}.mp4"
+            subprocess.run(["ffmpeg", "-nostdin", "-v", "error", "-f", "lavfi", "-i",
+                "color=orange:s=90x160:r=30:d=0.5", "-f", "lavfi", "-i", f"sine=sample_rate=44100:duration={duration}",
+                "-c:v", "libx264", "-pix_fmt", "yuv420p", "-vf",
+                "setsar=1,setparams=color_primaries=bt709:color_trc=bt709:colorspace=bt709:range=limited",
+                "-c:a", "aac", str(path)], check=True, capture_output=True, timeout=30)
+            measured = probe_media(path)
+            with self.subTest(audio_duration=duration), self.assertRaisesRegex(WorkflowError, "complete video timeline"):
+                validate_delivery_summary(measured, production_requirements(profile, "short"))
+        profile["production"]["audio"].update(channels=2, sample_rate=48000)
+        with self.assertRaisesRegex(WorkflowError, "channels"):
+            validate_delivery_summary(measured, production_requirements(profile, "short"))
+        profile["production"]["audio"]["channels"] = 1
+        with self.assertRaisesRegex(WorkflowError, "sample_rate"):
+            validate_delivery_summary(measured, production_requirements(profile, "short"))
 
     def delivery_fixture(self):
         """A small explicit software policy with real media, never a Paper release."""

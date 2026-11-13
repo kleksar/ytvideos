@@ -6,6 +6,8 @@ prove that a reviewer actually watched a file. Those observations stay explicit.
 import copy
 from fractions import Fraction
 import math
+from pathlib import Path
+import re
 
 from .errors import WorkflowError
 from .util import digest, require_text
@@ -95,6 +97,11 @@ def production_requirements(profile, format, *, variant=None):
         unresolved.append("audio.required")
     if not isinstance(result["audio"].get("codec"), str) or not result["audio"]["codec"].strip():
         unresolved.append("audio.codec")
+    for name in ("channels", "sample_rate"):
+        if name in result["audio"] and (type(result["audio"][name]) is not int or result["audio"][name] <= 0):
+            unresolved.append("audio." + name)
+    if type(result["visual"].get("source_interval_review", False)) is not bool:
+        unresolved.append("visual.source_interval_review")
     choices = {("audio", "music"): {"required", "optional", "none"},
                ("visual", "motion"): {"whole_frame", "source_motion", "authored", "none"},
                ("visual", "transitions"): {"direct_cuts", "recipe_defined"},
@@ -162,6 +169,22 @@ def validate_delivery_summary(summary, requirements):
     if len(summary.get("audio", [])) > 1 or any(stream.get("codec") != requirements["audio"]["codec"]
                                                for stream in summary.get("audio", [])):
         raise WorkflowError("production delivery needs one final mix in the required audio codec")
+    for stream in summary.get("audio", []):
+        for name in ("channels", "sample_rate"):
+            if name in requirements["audio"] and stream.get(name) != requirements["audio"][name]:
+                raise WorkflowError("production audio differs from required " + name)
+        if requirements["audio"]["required"]:
+            try:
+                start, duration = float(stream.get("start_time") or 0), float(stream["duration"])
+                video_duration = float(actual["duration"])
+                container_duration = float(summary["duration_seconds"])
+                tolerance = max(1 / float(Fraction(expected["fps"])), 1024 / stream["sample_rate"]) + .001
+                if (not all(math.isfinite(value) for value in (start, duration, video_duration, container_duration))
+                        or duration <= 0 or abs(start) > tolerance or abs(start + duration - video_duration) > tolerance
+                        or abs(container_duration - video_duration) > tolerance):
+                    raise ValueError
+            except (TypeError, ValueError, KeyError, ZeroDivisionError):
+                raise WorkflowError("production audio and container must match the complete video timeline") from None
     return summary
 
 
@@ -179,6 +202,118 @@ def _frame_interval(value, total, label):
     if type(start) is not int or type(end) is not int or not 0 <= start < end <= total:
         raise WorkflowError(label + " needs an exact in-timeline frame interval")
     return start, end
+
+
+def _fragment_contracts(plan, requirements):
+    """Describe the exact source/crop/visible range a manual fragment review must inspect."""
+    total = plan["scenes"][-1]["end_frame"]
+    contracts, seen = [], set()
+    for scene in plan["scenes"]:
+        identity = require_text(scene.get("id"), "reviewed fragment id")
+        if identity in seen:
+            raise WorkflowError("reviewed fragment IDs must be unique")
+        seen.add(identity)
+        source = scene.get("source")
+        if not isinstance(source, dict) or set(source) != {"path", "sha256", "start_seconds", "end_seconds"}:
+            raise WorkflowError("reviewed fragment needs its exact original source and full interval")
+        if not Path(require_text(source.get("path"), "fragment original source path")).is_absolute():
+            raise WorkflowError("fragment original source path must be absolute")
+        for value in (source.get("sha256"), scene.get("clip_sha256")):
+            if not isinstance(value, str) or not re.fullmatch(r"[0-9a-f]{64}", value):
+                raise WorkflowError("reviewed fragment needs exact original and prepared clip hashes")
+        start, end = source["start_seconds"], source["end_seconds"]
+        if (any(type(value) not in (int, float) or not math.isfinite(value) for value in (start, end))
+                or not 0 <= start < end):
+            raise WorkflowError("reviewed fragment source interval is invalid")
+        first, stop = scene.get("visible_start_frame"), scene.get("visible_end_frame")
+        if (type(first) is not int or type(stop) is not int
+                or not 0 <= first <= scene["start_frame"] < scene["end_frame"] <= stop <= total):
+            raise WorkflowError("fragment visible interval must include both transition overlaps")
+        crop = scene.get("crop")
+        if not isinstance(crop, dict) or set(crop) != {"interpolation", "keyframes"}:
+            raise WorkflowError("reviewed fragment needs the exact crop trajectory")
+        require_text(crop["interpolation"], "crop interpolation")
+        keyframes = crop["keyframes"]
+        if not isinstance(keyframes, list) or not keyframes:
+            raise WorkflowError("crop trajectory requires bounded keyframes")
+        previous = first - 1
+        for keyframe in keyframes:
+            if not isinstance(keyframe, dict) or set(keyframe) != {"frame", "box"}:
+                raise WorkflowError("crop keyframe requires exact frame and source-pixel box")
+            frame, box = keyframe["frame"], keyframe["box"]
+            if (type(frame) is not int or not previous < frame < stop or frame < first
+                    or not isinstance(box, list) or len(box) != 4
+                    or any(type(value) not in (int, float) or not math.isfinite(value) for value in box)
+                    or not 0 <= box[0] < box[2] or not 0 <= box[1] < box[3]):
+                raise WorkflowError("crop keyframes must be ordered in the full visible interval")
+            previous = frame
+        if keyframes[0]["frame"] != first or keyframes[-1]["frame"] != stop - 1:
+            raise WorkflowError("crop trajectory must include the first and last visible frame")
+        contracts.append({"id": identity, "source": source, "clip_sha256": scene["clip_sha256"],
+            "timeline": {key: scene[key] for key in ("start_frame", "end_frame", "visible_start_frame", "visible_end_frame")},
+            "crop": crop})
+    return contracts
+
+
+def validate_fragment_review(document, *, plan, requirements, media_sha256, reviewer, sources):
+    """Check complete manual observations, never infer motion/crop quality from a detector."""
+    if not requirements["visual"].get("source_interval_review", False):
+        return []
+    validate_render_manifest(plan, requirements)
+    if (not isinstance(document, dict) or document.get("schema") != "ytv-source-fragment-review-v1"
+            or document.get("artifact_sha256") != media_sha256 or document.get("reviewer") != reviewer):
+        raise WorkflowError("fragment review must bind the exact MP4 and independent reviewer")
+    contracts = _fragment_contracts(plan, requirements)
+    rows = document.get("fragments")
+    if not isinstance(rows, list) or len(rows) != len(contracts) or len(sources) != len(contracts):
+        raise WorkflowError("fragment review must cover every accepted source interval")
+    checks = {"source_motion", "crop", "internal_cuts", "final_motion", "transitions"}
+    records = []
+    for row, contract, accepted in zip(rows, contracts, sources):
+        if not isinstance(row, dict) or any(row.get(key) != value for key, value in contract.items()):
+            raise WorkflowError("fragment review differs from the exact source/timeline/crop contract")
+        source, timeline = contract["source"], contract["timeline"]
+        if any(accepted.get(key) != value for key, value in {
+                "id": contract["id"], "clip_sha256": contract["clip_sha256"], "source_sha256": source["sha256"],
+                "start_seconds": source["start_seconds"], "end_seconds": source["end_seconds"]}.items()):
+            raise WorkflowError("fragment review source differs from the accepted storyboard and clip")
+        require_text(row.get("method"), "full source and final motion review method")
+        observed = row.get("checks")
+        if not isinstance(observed, dict) or set(observed) != checks:
+            raise WorkflowError("fragment review needs source motion, crop, internal cuts, final motion and transitions")
+        for name, observation in observed.items():
+            if not isinstance(observation, dict) or observation.get("status") != "PASS":
+                raise WorkflowError("fragment " + name + " remains FAIL or UNVERIFIED")
+            require_text(observation.get("notes"), "fragment " + name + " observations")
+        coverage = row.get("source_coverage")
+        if not isinstance(coverage, list) or not coverage:
+            raise WorkflowError("fragment review requires full source motion coverage, not three stills")
+        intervals = []
+        for interval in coverage:
+            if not isinstance(interval, dict):
+                raise WorkflowError("fragment source coverage must contain actual intervals")
+            start, end = interval.get("start_seconds"), interval.get("end_seconds")
+            if (any(type(value) not in (int, float) or not math.isfinite(value) for value in (start, end))
+                    or not source["start_seconds"] <= start < end <= source["end_seconds"]):
+                raise WorkflowError("fragment source coverage falls outside the accepted interval")
+            intervals.append((start - source["start_seconds"], end - source["start_seconds"]))
+        if not _intervals_cover(intervals, source["end_seconds"] - source["start_seconds"]):
+            raise WorkflowError("fragment source motion coverage omits part of the used interval")
+        anchors = row.get("source_anchors_seconds")
+        expected_anchors = accepted.get("source_anchors_seconds")
+        if (not isinstance(anchors, list) or len(anchors) != 3
+                or any(type(value) not in (int, float) or not math.isfinite(value) for value in anchors)
+                or not isinstance(expected_anchors, list) or len(expected_anchors) != 3
+                or any(abs(value - expected) > 1e-6 for value, expected in zip(anchors, expected_anchors))):
+            raise WorkflowError("fragment review needs first, middle and last used source-frame anchors")
+        first, last = timeline["visible_start_frame"], timeline["visible_end_frame"] - 1
+        if row.get("final_anchors_frames") != [first, (first + last) // 2, last]:
+            raise WorkflowError("fragment review needs exact first, middle and last final-frame anchors")
+        expected_seams = sorted({first, timeline["start_frame"], timeline["end_frame"] - 1, last})
+        if row.get("checked_transition_frames") != expected_seams:
+            raise WorkflowError("fragment review must identify both ends and overlaps of its transitions")
+        records.append({key: source[key] for key in ("path", "sha256")})
+    return records
 
 
 def validate_render_manifest(plan, requirements):
@@ -287,6 +422,8 @@ def validate_render_manifest(plan, requirements):
     elif requirements["audio"]["music"] == "optional":
         if music.get("status") != "not_used" or not isinstance(music.get("reason"), str) or not music["reason"].strip():
             raise WorkflowError("optional music requires an explicit decision and reason")
+    if requirements["visual"].get("source_interval_review", False):
+        _fragment_contracts(plan, requirements)
     return {"frames": cursor, "duration_seconds": float(Fraction(cursor) / Fraction(expected["fps"])),
             "has_speech": has_speech, "requires_srt": needs_srt}
 

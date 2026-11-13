@@ -27,6 +27,28 @@
     "max_task_attempts": 3,
     "max_editorial_passes": 2
   },
+  "context_references": [
+    {
+      "path": "channels/nuviko_history/PROFILE.md"
+    },
+    {
+      "path": "channels/nuviko_history/brand/VISUAL_PROFILE.md",
+      "stages": [
+        "storyboard",
+        "scene_image",
+        "subtitles",
+        "render",
+        "review",
+        "packaging"
+      ]
+    },
+    {
+      "path": "channels/paper_detour/docs/MUSIC_CATALOG.md",
+      "stages": [
+        "audio"
+      ]
+    }
+  ],
   "production": {
     "video": {
       "codec": "h264",

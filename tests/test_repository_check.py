@@ -102,6 +102,27 @@ class RepositoryCheckTest(unittest.TestCase):
         path.write_text('# Entry\n\n[Start](../AGENTS.md) · [Old rules](../README.md).\n')
         self.assertTrue(any('compatibility entry' in error for error in self.errors()))
 
+    def test_shared_video_routers_are_checked_without_traversing_episode_evidence(self):
+        for channel in ('paper_detour', 'nuviko_history', 'nuviko_videos', 'scenes_on_repeat', 'two_ways_lab'):
+            with self.subTest(channel=channel):
+                name = f'channels/{channel}/videos/AGENTS.md'
+                self.write(f'channels/{channel}/AGENTS.md', '# Channel\n')
+                path = self.write(name, '# Old router\n\n[Root](/Users/old/project/AGENTS.md).\n')
+                self.assertTrue(any(name in error and 'compatibility entry' in error for error in self.errors()))
+                path.write_text('# Video work\n\n[Root](../../../AGENTS.md) · [Channel](../AGENTS.md).\n')
+                self.write(f'channels/{channel}/videos/old/AGENTS.md', '[Historical](missing.md)\n')
+                self.assertEqual(self.errors(), [])
+
+    def test_navigation_router_does_not_allow_episode_documents_as_runtime_requirements(self):
+        self.write('channels/paper_detour/AGENTS.md', '# Channel\n')
+        self.write('channels/paper_detour/videos/AGENTS.md',
+                   '# Video work\n\n[Root](../../../AGENTS.md) · [Channel](../AGENTS.md).\n')
+        self.write('channels/paper_detour/channel.json', json.dumps({'context_references': [
+            {'path': 'channels/paper_detour/videos/AGENTS.md'},
+        ]}))
+        self.assertTrue(any('historical evidence cannot be a current task requirement' in error
+                            for error in self.errors()))
+
     def test_profile_case_variants_follow_actual_filesystem_identity(self):
         upper = self.write('channels/example/PROFILE.md', '[missing](upper-missing.md)\n')
         lower = upper.with_name('profile.md')

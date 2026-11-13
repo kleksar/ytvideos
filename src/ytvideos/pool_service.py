@@ -124,7 +124,8 @@ class PoolService:
             if not state or state["runtime_key"] != runtime_key or value["status"] in {"cancelled", "scheduled"}:
                 continue
             budget = value["budget"]
-            if budget["spent"] + budget["reserved"] + budget["unknown_reserved"] + estimated_units > budget["max_paid_units"]:
+            if (estimated_units and budget["spent"] + budget["reserved"] + budget["unknown_reserved"]
+                    + estimated_units > budget["max_paid_units"]):
                 continue
             requests = {r["packet"]["job_id"]: r for r in state["backend"]["requests"].values()
                         if r["status"] == "queued"}

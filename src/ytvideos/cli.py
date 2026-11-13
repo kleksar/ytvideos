@@ -130,7 +130,7 @@ def parser():
     reconcile.add_argument("--run", required=True)
     reconcile.add_argument("--task", required=True)
     reconcile.add_argument("--worker", required=True)
-    reconcile.add_argument("--outcome", choices=("completed", "not_performed"), required=True)
+    reconcile.add_argument("--outcome", choices=("completed", "not_performed", "continue"), required=True)
     reconcile.add_argument("--evidence", required=True)
     import_ = sub.add_parser("import-legacy", help="Import identified source evidence; never infer approvals from prose")
     import_.add_argument("--bundle", required=True, type=Path)

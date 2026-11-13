@@ -2,6 +2,7 @@
 import importlib.util
 import json
 import math
+from fractions import Fraction
 from pathlib import Path
 import subprocess
 
@@ -63,7 +64,7 @@ def probe_media(path):
             if type(channels) is not int or channels < 1:
                 raise WorkflowError("audio has invalid channels")
             audio.append({"codec": codec, "sample_rate": int(_positive(stream.get("sample_rate"), "sample rate")),
-                          "channels": channels})
+                          "channels": channels, "duration": stream.get("duration"), "start_time": stream.get("start_time")})
     return {"duration_seconds": round(_positive(duration, "duration"), 6),
             "format_name": container.get("format_name"), "major_brand": container.get("tags", {}).get("major_brand"),
             "video": video, "audio": audio}
@@ -142,6 +143,67 @@ def validate_font_face(path, index, expected):
     if {"family": family, "style": style} != expected:
         raise WorkflowError("caption font family/style differs from the pinned brand face")
     return {"family": family, "style": style, "index": index, "sha256": file_digest(path)}
+
+
+def source_frame_anchors(path, start, end):
+    """Read first/middle/last real PTS in one used source interval, including VFR."""
+    path = str(Path(path).resolve())
+    options = ["ffprobe", "-v", "error", "-protocol_whitelist", "file,pipe", "-select_streams", "v:0"]
+    metadata = json.loads(_run([*options, "-show_entries",
+        "stream=time_base,start_time,duration,avg_frame_rate,has_b_frames:format=start_time,duration",
+        "-of", "json", path], timeout=30))
+    try:
+        origin = Fraction(str(metadata.get("format", {}).get("start_time", "0")))
+        stream = metadata["streams"][0]
+        time_base = Fraction(stream["time_base"])
+        video_end = (Fraction(str(stream.get("start_time", origin))) + Fraction(str(stream["duration"])) - origin
+                     if stream.get("duration") not in (None, "N/A") else None)
+        container_end = (Fraction(str(metadata["format"]["duration"]))
+                         if metadata.get("format", {}).get("duration") not in (None, "N/A") else None)
+        first, stop = Fraction(str(start)), Fraction(str(end))
+        if first < 0 or stop <= first or time_base <= 0:
+            raise ValueError
+    except (KeyError, IndexError, TypeError, ValueError, ZeroDivisionError) as exc:
+        raise WorkflowError("source frame timestamps need an exact video time base and interval") from exc
+    # Seek can land on an earlier keyframe. Reordering spans frames, not a
+    # fixed second: at 1-2 fps even an ordinary
+    # B-frame queue can exceed one second. Use the observed rate and decoder
+    # delay for bounded lookahead, retaining the actual-PTS witness below.
+    lookahead = Fraction(1)
+    try:
+        rate = Fraction(stream.get("avg_frame_rate", "0/1"))
+        delay = int(stream.get("has_b_frames", 0))
+        if rate > 0 and delay >= 0:
+            lookahead = max(lookahead, Fraction(delay + 2) / rate)
+    except (TypeError, ValueError, ZeroDivisionError):
+        pass
+    read_stop = stop + lookahead
+    frames = json.loads(_run([*options, "-read_intervals", f"{float(origin + first):.9f}%{float(origin + read_stop):.9f}",
+        "-show_frames", "-show_entries", "frame=best_effort_timestamp,duration,pkt_duration", "-of", "json", path], timeout=30))
+    try:
+        times = sorted({Fraction(frame["best_effort_timestamp"]) * time_base - origin for frame in frames["frames"]})
+        extents = [(Fraction(frame["best_effort_timestamp"])
+                    + Fraction(frame.get("duration") or frame.get("pkt_duration") or 0)) * time_base - origin
+                   for frame in frames["frames"]]
+    except (KeyError, TypeError, ValueError, ZeroDivisionError) as exc:
+        raise WorkflowError("source frames do not provide inspectable actual timestamps") from exc
+    tolerance = Fraction(1, 1_000_000)  # ffprobe's format.start_time is rounded to microseconds.
+    if video_end is not None and stop > video_end + tolerance:
+        raise WorkflowError("used source interval exceeds the actual video stream")
+    known_end = video_end if video_end is not None else container_end
+    reached_end = known_end is not None and read_stop >= known_end
+    if reached_end and video_end is None:
+        # A longer audio stream can define container EOF. Only decoded video
+        # frame extents can establish video coverage when stream.duration is absent.
+        if not extents or max(extents) < stop - tolerance:
+            raise WorkflowError("used source interval exceeds the actual video stream")
+    if not (any(extent >= stop - tolerance for extent in extents) or reached_end):
+        raise WorkflowError("bounded source probe could not confirm the final used frame; inspect the source timestamps")
+    times = [time for time in times if first - tolerance <= time < stop - tolerance]
+    if not times:
+        raise WorkflowError("used source interval contains no observed video frames")
+    midpoint = min(times, key=lambda time: (abs(time - (first + stop) / 2), time))
+    return [round(float(time), 6) for time in (times[0], midpoint, times[-1])]
 
 
 def validate_srt(path, *, duration, project_root):

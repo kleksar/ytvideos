@@ -594,6 +594,13 @@ class PoolServiceTests(unittest.TestCase):
         with self.store.transaction() as tx:
             self.assertEqual(tx.execute("SELECT COUNT(*) FROM runtime_slots").fetchone()[0], 0)
 
+    def test_actual_overage_keeps_included_work_in_dispatch_candidates(self):
+        run_id, request = self.make_run(count=1, billing="included")
+        self.store.mutate(run_id, lambda tx, run: run["budget"].update(spent=run["budget"]["max_paid_units"] + 1))
+        candidates = self.pools.candidates("fixture-runtime")["candidates"]
+        self.assertEqual([item["run_id"] for item in candidates], [run_id])
+        self.assertEqual(self.claim(run_id, request)["task_claim"]["estimated_units"], 0)
+
     def test_review_credit_applies_until_verified_task_acceptance(self):
         run_id, request = self.make_run(capacity=1, review_capacity=1)
         granted = self.claim(run_id, request)
