@@ -2,7 +2,9 @@
 
 Все команды возвращают JSON. Синтаксис текущей версии — `uv run python -m ytvideos --help`. Один workspace/store используют все связанные сессии. Ниже placeholders заменяются фактическими значениями из ответа CLI, не выдумываются.
 
-Разделы: [запуск](#новый-сценарный-run), [план](#план-выпуска), [контекст](#требования-в-контексте), [outputs](#outputs), [источники и обложки](#источники-и-обложки), [render evidence](#render-manifest-и-delivery-evidence), [media checks](#проверки-media-и-review), [receipt](#receipt), [approval/recovery](#approval-и-продолжение), [adapters и release](#media-изображения-release).
+Порядок чтения, выполнения и сообщения blocker принадлежит [общей процедуре skill](../../.agents/skills/ytv-start/references/task-execution.md); этот документ задаёт синтаксис, схемы и семантику runtime. Наличие CLI/tool не разрешает производственный способ, отсутствующий в инструкциях.
+
+Разделы: [запуск](#новый-сценарный-run), [план](#план-выпуска), [контекст](#требования-в-контексте), [блокировка](#блокировка-и-разблокировка), [outputs](#outputs), [источники и обложки](#источники-и-обложки), [render evidence](#render-manifest-и-delivery-evidence), [media checks](#проверки-media-и-review), [receipt](#receipt), [approval/recovery](#approval-и-продолжение), [adapters и release](#media-изображения-release).
 
 ## Новый сценарный run
 
@@ -79,13 +81,13 @@ Task `script` требует capability `sessions.independent`; порядок �
 
 ## Требования в контексте
 
-`context.references` — выбранные repo-relative пути; `reference_documents` — соответствующие `{path,sha256,text}`. `task_guide` даёт цель, порядок работы, skill, зависимости/gates, output kind, обязательные checks и следующие задачи. `production_requirements` содержит закреплённый машинный контракт канала. Прочитать эти поля и содержание документов вместе с выданным skill.
+`context.references` — выбранные repo-relative пути; `reference_documents` — соответствующие `{path,sha256,text}`. `task_guide` даёт цель, порядок работы, skill, зависимости/gates, output kind, обязательные checks и следующие задачи. `production_requirements` содержит закреплённый машинный контракт канала. Применение пакета — [preflight skill](../../.agents/skills/ytv-start/references/task-execution.md#до-действия), а не отдельный алгоритм в этом документе.
 
-`inputs` содержит прямые outputs зависимостей, `supporting_inputs` — descriptors принятых транзитивных outputs: например script/audio/storyboard для review, script для subtitles и research для packaging. Открыть нужные реальные артефакты из `artifact_root`; descriptor не заменяет текст или медиа. Прикреплённые отдельно supporting notes не становятся входами автоматически.
+`inputs` содержит прямые outputs зависимостей, `supporting_inputs` — descriptors принятых транзитивных outputs: например script/audio/storyboard для review, script для subtitles и research для packaging. `artifact_root` указывает хранилище actual артефактов; descriptor не содержит сам текст или медиа. Прикреплённые отдельно supporting notes не становятся входами автоматически.
 
 `source_script` передаёт сохранённый исходный narration, если run создан с ним. Отличать его от проверенного `script` output и состояния approval; это три разных сущности.
 
-Общие стандарты выбирает `src/ytvideos/context.py`, канальные документы — `ChannelSpec.context_references`. Фильтры `stages`, `formats`, `purposes` объединяются через AND; отсутствие фильтра означает все значения. `purposes` применим к `scene_image` (`scene` или `thumbnail`), на остальных этапах purpose отсутствует.
+Общие стандарты выбирает `src/ytvideos/context.py`, канальные документы — `ChannelSpec.context_references`. Общий `task-execution.md` входит в каждый маршрут нового snapshot, включая scene/thumbnail worker, с теми же text/hash проверками; runtime не может доказать само чтение текста или полноту его смысла. Фильтры `stages`, `formats`, `purposes` объединяются через AND; отсутствие фильтра означает все значения. `purposes` применим к `scene_image` (`scene` или `thumbnail`), на остальных этапах purpose отсутствует.
 
 Пример записи в ChannelSpec:
 
@@ -105,6 +107,25 @@ Task `script` требует capability `sessions.independent`; порядок �
 
 Image pool передаёт тот же manifest. Native host проверяет пути, полноту и hashes, затем создаёт документы в `requirements/<repo path>` внутри рабочего каталога. В локальном `TASK.json` вместо повторных полных текстов `reference_documents` находятся `requirements` (список файлов) и `reference_manifest` (`path`, `sha256`, `local_path`); исходный packet сохраняется без изменений. Sandbox не расширяется. Обычная сцена не получает thumbnail-only playbook, а обложка получает стандарт обложек. Для Shorts storyboard/audio/render также получают editorial loop standard.
 
+
+## Блокировка и разблокировка
+
+Точный отчёт о пробеле инструкции и условия продолжения задаёт [skill](../../.agents/skills/ytv-start/references/task-execution.md#блокер-и-продолжение). `fail` доступен координатору с действующим claim; он сохраняет reason в task и событии:
+
+```bash
+uv run ytv fail --run RUN_ID --task TASK_ID --token CURRENT_CLAIM_TOKEN --reason 'Фактический blocker с путями правил и evidence'
+```
+
+Без recorded external dispatch task становится `blocked`, claim снимается, reservation освобождается. При возможном внешнем dispatch task становится `unknown`; существующая операция требует reconciliation. Необязательный `--known-not-sent` допустим только при подтверждённом отсутствии отправки и отвергается при противоречащей записи dispatch. Он не служит обходом UNKNOWN.
+
+До claim нет token для `fail`: сообщение blocker не означает, что task уже записан как `blocked`. Изолированный worker возвращает blocker host в своей разрешённой форме результата; право пользоваться workflow CLI из этого контракта не возникает.
+
+```bash
+uv run ytv unblock --run RUN_ID --task TASK_ID --reason 'Проверенное устранение причины и ссылка на resolution evidence'
+uv run ytv next --run RUN_ID
+```
+
+`unblock` принимает только `blocked` task и непустое resolution evidence; возвращает его в `pending`, сохраняя событие. Команда не проверяет смысл исправления, не подтверждает QA и не заменяет [migration](../migration.md) при смене pinned правил. UNKNOWN разблокируется предусмотренной reconciliation, а не `unblock`. `resume` восстанавливает leases и не устраняет отсутствующую инструкцию.
 
 ## Outputs
 

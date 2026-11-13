@@ -7,7 +7,7 @@ from pathlib import Path
 import unittest
 
 import test_repository_check as repository_fixtures
-from ytvideos.context import STAGE_REFERENCES, reference_context, snapshot_references
+from ytvideos.context import STAGE_REFERENCES, TASK_EXECUTION_REFERENCE, reference_context, snapshot_references
 from ytvideos.documentation import DATA_ONLY_PATHS
 from ytvideos.errors import WorkflowError
 from ytvideos.util import digest
@@ -18,7 +18,7 @@ class CurrentTaskDocumentsTest(unittest.TestCase):
         temporary = tempfile.TemporaryDirectory()
         self.addCleanup(temporary.cleanup)
         self.root = Path(temporary.name)
-        for name in {name for names in STAGE_REFERENCES.values() for name in names}:
+        for name in {TASK_EXECUTION_REFERENCE, *(name for names in STAGE_REFERENCES.values() for name in names)}:
             self.write(name, "# Current standard\nUse the accepted input.\n")
         self.profile = {"id": "example", "context_references": []}
 
@@ -129,6 +129,10 @@ class CurrentDocumentationCheckerTest(unittest.TestCase):
 
     def test_checker_checks_automatic_stage_documents_without_extra_profile_entries(self):
         self.fixture.write("docs/standards/audio.md", "# Audio\n## История изменений\nOld mixes.\n")
+        self.assertTrue(any("change history" in error for error in self.fixture.errors()))
+
+    def test_checker_rejects_history_in_the_mandatory_execution_procedure(self):
+        self.fixture.write(TASK_EXECUTION_REFERENCE, "# Execution\n## Changelog\nOld procedure.\n")
         self.assertTrue(any("change history" in error for error in self.fixture.errors()))
 
 

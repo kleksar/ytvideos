@@ -9,6 +9,7 @@ from unittest.mock import patch
 
 import test_pool_service as fixtures
 from ytvideos.cli import dispatch, parser
+from ytvideos.context import TASK_EXECUTION_REFERENCE
 from ytvideos.doctor import inspect
 from ytvideos.errors import Conflict, WorkflowError
 from ytvideos.workflow import REQUIRED_CHECKS
@@ -44,6 +45,7 @@ class GuidanceTests(unittest.TestCase):
         reading = result["read_next"][0]
         packet = json.loads(Path(reading["task_file"]).read_text())
         self.assertEqual(packet["task_id"], "research")
+        self.assertIn(TASK_EXECUTION_REFERENCE, packet["references"])
         self.assertEqual(Path(reading["skill_file"]).read_text(), run["skills"]["ytv-write-script"]["text"])
         for item, path in zip(packet["reference_manifest"], reading["requirement_files"]):
             self.assertEqual(Path(path).read_text(), run["reference_snapshot"]["documents"][item["path"]]["text"])
