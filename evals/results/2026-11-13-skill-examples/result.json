@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "status": "COMPLETED_WITH_LIMITATIONS",
+  "scope": "Two fresh text-only sessions, six supplied synthetic tasks per session; not production acceptance",
+  "baseline_commit": "9b2f92c36b6c889f6628958a2b8192583e759ecf",
+  "candidate_commit": "42ce71eefce19a8951576110ac5118cc0f2c4be7",
+  "runtime": {
+    "kind": "collaboration subagents",
+    "model_requested": "gpt-6-luna",
+    "reasoning_effort_requested": "medium",
+    "fork_turns": "none",
+    "attempts_per_arm": 1,
+    "max_seconds_requested": 180,
+    "max_tool_reads_requested": 10,
+    "measured_active_time": null,
+    "tool_calls": null,
+    "tokens": null,
+    "cost": null,
+    "trace": "NOT_EXPORTED; reported read paths are model self-report"
+  },
+  "inputs": {
+    "path": "inputs.json",
+    "sha256": "8807554dbbab434a5a7d3c344578727fe1d115d7ca9b5a69d35ffb331cc24418",
+    "count": 6,
+    "same_bytes_in_both_arms": true,
+    "expected_observations_supplied": false
+  },
+  "responses": {
+    "baseline": {
+      "path": "baseline-response.txt",
+      "sha256": "7b34c267df07da1aff432e2291db1977b46dae664d00fecbb0db62eb9f5d0c30",
+      "bytes": 6719,
+      "unchanged_author_file": true,
+      "valid_json": false,
+      "parse_error": "Expecting ',' delimiter: line 1 column 3097 (char 3096)"
+    },
+    "candidate": {
+      "path": "candidate-response.txt",
+      "sha256": "8bb2ce5d27929b3b7a7368706f0bbb02e3e3620bb088798d94e60a5040c7e7f1",
+      "bytes": 7115,
+      "unchanged_author_file": true,
+      "valid_json": true,
+      "answers": 6
+    }
+  },
+  "comparison": {
+    "file": "comparison.md",
+    "initial_file": "comparison-initial.md",
+    "reviewer": "/root/blind_skill_comparison",
+    "labels": {
+      "A": "candidate",
+      "B": "baseline"
+    },
+    "orders": 1,
+    "shared_requirements_added_before_final_assessment": true,
+    "known_limitations": [
+      "Single author session per arm and one reviewer/order; no statistical estimate.",
+      "Reviewer initially received task inputs without common project standards; initial review is retained."
+    ],
+    "common_source_commit": "9b2f92c36b6c889f6628958a2b8192583e759ecf",
+    "common_documents": [
+      {
+        "path": ".agents/skills/ytv-start/references/task-execution.md",
+        "sha256": "de61f20e384ded895508388e5d8de2d227f7e09b2f75cc6d88b5cfcf8a9de256"
+      },
+      {
+        "path": "channels/paper_detour/PROFILE.md",
+        "sha256": "c8c99131c8c74432fbcd191a863e906c19599e26de8717de5b32029a70d9ae45"
+      },
+      {
+        "path": "docs/standards/visual.md",
+        "sha256": "937a959b7ec6513e752608fd7b861fe7b43cf52cc163873781ab382360583506"
+      },
+      {
+        "path": "docs/standards/audio.md",
+        "sha256": "1bd2df8b3c71569a545f0bffc98c445757a72d54661d5420e538b0d118daff2a"
+      }
+    ],
+    "decisions": {
+      "task_01": "baseline",
+      "task_02": "baseline",
+      "task_03": "tie",
+      "task_04": "tie",
+      "task_05": "tie",
+      "task_06": "candidate"
+    },
+    "file_format_preference": "candidate; baseline raw file has invalid JSON",
+    "conclusion": "Mixed qualitative results. No overall quality improvement established; no attribution of model mistakes to the new references.",
+    "sha256": "35f4a11ef179457a24ce3ca61d941630a54d34433b0f1813c975b49191686e57",
+    "initial_sha256": "69f3bd0165f177ff2ba6b6351a6d068003610aebf552e587e02bd30ff04af428",
+    "initial_original_sha256": "9698d90e368351542873b83e40f1a81da19fd0271c15488696c8c65fa1b3cbfe",
+    "initial_trailing_newlines_removed": 1,
+    "initial_normalization": "Trailing blank lines removed in the Markdown copy for git whitespace checks; reviewer wording unchanged. Original bytes equal file bytes plus the recorded number of newline bytes."
+  },
+  "contract_checks": {
+    "documentation": {
+      "status": "PASS",
+      "documents": 88,
+      "skills": 7,
+      "known_paths": "Verified remote tracked paths from main CI source artifact"
+    },
+    "focused_suites": {
+      "status": "PASS",
+      "passed": 113,
+      "skipped": 47,
+      "skip_reason": "YTV_TEST_POSTGRES_URL not configured locally",
+      "modules": [
+        "test_context",
+        "test_image_host",
+        "test_story_selection_contract",
+        "test_repository_check",
+        "test_natural_voice",
+        "test_editorial_contract"
+      ]
+    },
+    "routing_regression": {
+      "before": "Two targeted tests failed because references were absent from context/native packet",
+      "after": "Both pass; saved text remains pinned after checkout edits"
+    },
+    "ci": {
+      "status": "PASS",
+      "run_id": 43470434977,
+      "url": "https://github.com/kleksar/ytvideos/actions/runs/43470434977",
+      "candidate_head": "42ce71eefce19a8951576110ac5118cc0f2c4be7",
+      "scope": [
+        "documentation",
+        "locked environment",
+        "ruff",
+        "native runtime",
+        "SQLite",
+        "real PostgreSQL",
+        "all existing automation suites"
+      ]
+    }
+  },
+  "independent_code_review": {
+    "reviewer": "/root/mr_independent_review",
+    "initial_finding": "P2: storyboard required downstream image/MP4 and audio required MP4 before render",
+    "fix_commit": "42ce71eefce19a8951576110ac5118cc0f2c4be7",
+    "recheck": "P2 resolved; no related blocking findings. Recheck limited to corrected text and workflow dependencies."
+  },
+  "failed_runtime_attempt": {
+    "runtime": "standalone Codex CLI",
+    "status": "FAILED_BEFORE_MODEL_EXECUTION",
+    "exit_code": 1,
+    "elapsed_seconds": 10.098,
+    "error": "failed to initialize in-process app-server client: Read-only file system (os error 30)",
+    "counted_as_model_run": false
+  },
+  "acceptance": {
+    "full_two_channel_script_run": "NOT_RUN",
+    "complete_reading_compliance": "UNVERIFIED",
+    "hook_reference_consumption": "UNVERIFIED",
+    "live_image_audio_video_qa": "NOT_RUN",
+    "audience_metrics": "NOT_MEASURED",
+    "draft": "retained"
+  },
+  "production_effects": {
+    "runs_created": 0,
+    "media_generated": 0,
+    "publications": 0,
+    "existing_runs_migrated": 0
+  }
+}

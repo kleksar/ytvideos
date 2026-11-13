@@ -94,6 +94,35 @@ class TaskContextTests(unittest.TestCase):
         target.write_text(text)
         return target
 
+    def test_skill_examples_are_scoped_and_keep_their_saved_text(self):
+        examples = {
+            ".agents/skills/ytv-write-script/references/hook-patterns.md": {"research", "script"},
+            ".agents/skills/ytv-produce-video/references/production-examples.md": {
+                "storyboard", "scene_image", "thumbnail", "audio", "render"},
+        }
+        for path in examples:
+            self.document(path, f"Accepted examples: {path}\n")
+        run = self.production.create("test_channel", "use the task's examples")
+        before = {}
+        for route in run["reference_snapshot"]["routes"]:
+            task = ({"stage": "scene_image", "payload": {"purpose": "thumbnail"}}
+                    if route == "thumbnail" else {"stage": route})
+            context = self.production._reference_context(run, task)
+            before[route] = (task, context)
+            documents = {item["path"]: item["text"] for item in context["reference_documents"]}
+            for path, stages in examples.items():
+                with self.subTest(route=route, path=path):
+                    if route in stages:
+                        self.assertEqual(documents[path], f"Accepted examples: {path}\n")
+                    else:
+                        self.assertNotIn(path, documents)
+        for path in examples:
+            self.document(path, "Changed examples for future runs.\n")
+        for task, context in before.values():
+            self.assertEqual(context, self.production._reference_context(run, task))
+        new_run = self.production.create("test_channel", "use the revised examples")
+        self.assertNotEqual(run["pins"]["references"], new_run["pins"]["references"])
+
     def test_every_task_route_receives_the_pinned_execution_procedure(self):
         self.document(TASK_EXECUTION_REFERENCE, "Read the exact instructions before acting.\n")
         for format in ("short", "long"):

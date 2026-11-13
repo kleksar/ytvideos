@@ -163,6 +163,25 @@ class ImageHostTests(unittest.TestCase):
         for path in packet["requirements"]:
             self.assertTrue((Path(job["directory"]) / path).is_file())
 
+    def test_scene_worker_receives_saved_production_examples_after_checkout_changes(self):
+        path = ".agents/skills/ytv-produce-video/references/production-examples.md"
+        source = self.production.project / path
+        source.parent.mkdir(parents=True, exist_ok=True)
+        source.write_text("Accepted image-edit examples.\n")
+        self.run_fixture(count=1)
+        source.write_text("Different examples, not accepted for this run.\n")
+        result = self.host.tick()
+        self.assertEqual(len(result["dispatches"]), 1, result)
+        job = self.host._jobs()[0]
+        directory = Path(job["directory"])
+        packet = json.loads((directory / "TASK.json").read_text())
+        local_path = "requirements/" + path
+        self.assertIn(local_path, packet["requirements"])
+        self.assertEqual((directory / local_path).read_text(), "Accepted image-edit examples.\n")
+        self.assertEqual(job["inputs"][local_path], file_digest(directory / local_path))
+        self.assertNotIn("requirements/.agents/skills/ytv-write-script/references/hook-patterns.md",
+                         packet["requirements"])
+
     def test_requirement_manifest_cannot_omit_or_escape_declared_documents(self):
         run_id = self.run_fixture(count=1)
         run = self.store.get(run_id)
