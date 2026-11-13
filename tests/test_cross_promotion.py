@@ -106,6 +106,27 @@ class CrossPromotionTests(unittest.TestCase):
             with self.subTest(patch=patch), self.assertRaises(PromotionError):
                 build_plan(release, video_id=SHORT, inventory=snapshot)
 
+    def test_read_only_cli_does_not_open_database(self):
+        from contextlib import redirect_stdout
+        from io import StringIO
+        import json
+        from pathlib import Path
+        import tempfile
+        from ytvideos.cli import main
+
+        with tempfile.TemporaryDirectory() as root:
+            root = Path(root)
+            (root / 'release.json').write_text(json.dumps(spec(related_video_id=LONG).to_dict()))
+            (root / 'inventory.json').write_text(json.dumps(inventory()))
+            stdout = StringIO()
+            with redirect_stdout(stdout):
+                code = main(['--db', str(root / 'missing' / 'state.sqlite3'),
+                             'cross-promotion-plan', '--release-spec', str(root / 'release.json'),
+                             '--inventory', str(root / 'inventory.json'), '--video-id', SHORT])
+            self.assertEqual(code, 0)
+            self.assertFalse((root / 'missing').exists())
+            self.assertEqual(json.loads(stdout.getvalue())['actions'][0]['status'], 'ready_for_host')
+
     def test_empty_optional_actions_do_not_invent_targets(self):
         result = build_plan(spec(), video_id=SHORT, inventory=inventory())
         self.assertEqual(result["actions"], [])
