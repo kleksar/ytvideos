@@ -1,3 +1,12 @@
+## Актуальный workflow — remote main
+
+Сверено с `main` `96c8fa1573c02e8e7987e272a569bf34f037691e`. Этот старый текстовый сюжетный PR — **не зарегистрированный `ytv start` run**, а `storyboard.json` — только предложение визуальных сцен до approval. Авторский PASS и приведённые источники не подтверждают `sessions.independent`, `ytv-script-review-v1` или готовый `awaiting_script_approval`.
+
+При выборе сюжета начать локально с `uv run ytv start --channel paper_detour --format short --intent 'Проверить неутверждённый сюжет PR #19'`, прочитать `plan_summary`, `read_next`, `task_guide` и pinned requirements. Завершать research/script только с настоящим независимым reviewer, полным двойным чтением Short и правдивыми checks/receipts. После реального script gate — отдельное одобрение точной версии пользователем, лишь затем TTS/imagegen, MP4 и отдельное разрешение на публикацию. [Workflow](https://github.com/kleksar/ytvideos/blob/main/docs/workflow.md) · [Task contract](https://github.com/kleksar/ytvideos/blob/main/docs/operations/task-contract.md).
+
+Сценарии EN и RU остаются кандидатами, предварительные кадры/тайминги не измерены, AV-петля и качество не проходили независимую приёмку. Не придумывать run ID, reviewer ID, source hash, audio/probe, approvals и не менять старые pinned выпуски.
+
+---
 # Production handoff — no owner approval recorded
 
 - **Channel:** Paper Detour, English Short 9:16; `main` channel config was active when story was researched.

@@ -1,0 +1,37 @@
+{
+  "case": "luna-history-review",
+  "model": "gpt-6-luna",
+  "fresh_context": true,
+  "source_manifest_sha256": "a13d1acad78abf95a9dbf3b2d810c787eda4418343372856278d35ca514e7211",
+  "source_file_count": 597,
+  "command_count": 38,
+  "first_command_at": "2026-11-13T03:36:32.692165+00:00",
+  "last_command_at": "2026-11-13T03:48:57.509378+00:00",
+  "result": "fail_editorial_false_accept",
+  "observed": [
+    "Used start, completed research and invoked a real independent reviewer session.",
+    "The store reached awaiting_script_approval, with research/script complete and no approvals.",
+    "Coordinator inspection rejected the end-to-start seam: the last sentence recalls the wave, then a new dated introduction starts. This is a thematic return rather than continuous narration.",
+    "Loop evidence asserted two ending utterances while quoting one, and described two full readings by the author rather than the independent reader.",
+    "The purported separate script-review JSON decoded to a string. The then-current general independent_review check did not validate that file.",
+    "Final reviewer response observed by the coordinator concerned factual attribution, not an independently recorded exact final two-cycle read."
+  ],
+  "interventions": [
+    "The first reviewer spawn hit the shared four-thread limit because a coordinator-owned read-only review occupied the last slot. Coordinator stopped that review and reported that a slot was now free. This was infrastructure assistance, not an unassisted run.",
+    "No correct storyline, seam or expected verdict was sent to the writer during the attempt."
+  ],
+  "store_events": 7,
+  "external_operations": 0,
+  "run_states": [
+    {
+      "id": "8a83ec7f-a951-4552-87d1-66576a9141d4",
+      "status": "awaiting_script_approval"
+    }
+  ],
+  "capture_limits": [
+    "commands.jsonl contains actual shell commands/stdout/stderr/exit codes captured by the harness, not a model-written trace summary.",
+    "Direct web and collaboration calls and progress messages are not captured by the shell wrapper. Source notes and coordinator observations are separate evidence, not a complete raw transcript.",
+    "Absolute scratch paths and ephemeral local lease IDs are retained as observed; they grant no access to a production account.",
+    "accepted-artifacts contains exact bytes registered in the store. working-artifacts may contain later edits; these are deliberately not substituted for accepted bytes."
+  ]
+}

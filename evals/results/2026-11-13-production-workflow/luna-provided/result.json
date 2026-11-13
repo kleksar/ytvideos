@@ -1,0 +1,31 @@
+{
+  "case": "luna-provided",
+  "model": "gpt-6-luna",
+  "fresh_context": true,
+  "source_manifest_sha256": "8650616fec9fa0f20e7820b609783e7c32e52378e7968ea1066767dfc3f29cf8",
+  "source_file_count": 607,
+  "command_count": 8,
+  "first_command_at": "2026-11-13T02:57:51.162918+00:00",
+  "last_command_at": "2026-11-13T02:58:35.403883+00:00",
+  "result": "fail_false_capability_blocker",
+  "observed": [
+    "Created an isolated run and preserved the exact supplied source script.",
+    "Stopped at an unobserved web.search capability without attempting available tool discovery.",
+    "No completed research/script, media, approval or publication."
+  ],
+  "interventions": [],
+  "store_events": 1,
+  "external_operations": 0,
+  "run_states": [
+    {
+      "id": "5e2a9027-25d9-4320-b966-478aa1dc1ef5",
+      "status": "working"
+    }
+  ],
+  "capture_limits": [
+    "commands.jsonl contains actual shell commands/stdout/stderr/exit codes captured by the harness, not a model-written trace summary.",
+    "Direct web and collaboration calls and progress messages are not captured by the shell wrapper. Source notes and coordinator observations are separate evidence, not a complete raw transcript.",
+    "Absolute scratch paths and ephemeral local lease IDs are retained as observed; they grant no access to a production account.",
+    "accepted-artifacts contains exact bytes registered in the store. working-artifacts may contain later edits; these are deliberately not substituted for accepted bytes."
+  ]
+}

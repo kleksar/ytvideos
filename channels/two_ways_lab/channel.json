@@ -4,16 +4,15 @@
   "language": "en",
   "tagline": "Same problem. Two methods. Let's test.",
   "about": "Everyday problems. Two ways to solve them. Which one actually works better?\n\nAt Two Ways Lab, we put simple methods head-to-head — packing, sorting, cleaning, queues, travel, and the little decisions we make every day.\n\nSame starting conditions. Clear rules. Visual results.\n\nSometimes there's a winner. Sometimes the answer depends on the situation.\n\nPick your side, watch the experiment, and see what happens.\n\nShort experiments and deeper breakdowns, built from original simulations.",
-  "handle_candidate": "@TwoWaysLab",
-  "handle_verified": false,
-  "youtube_channel_id": null,
-  "youtube_status": "SETUP_DEFERRED",
+  "handle_verified": true,
+  "youtube_channel_id": "UCcZWXzkL_K1mD5dr8MZBYrQ",
+  "youtube_status": "IDENTITY_VERIFIED",
   "pilot": "TWL_E001",
   "visual_tokens": "brand/tokens.json",
   "schema_version": 1,
   "id": "two_ways_lab",
   "name": "Two Ways Lab",
-  "status": "unconfigured",
+  "status": "active",
   "voice": {
     "provider": "elevenlabs",
     "id": "zfc8CJQpe8Kqyl0vvCzo",
@@ -35,5 +34,93 @@
       "none"
     ],
     "lettering_motion": true
+  },
+  "handle": "@TheTwoWaysLab",
+  "identity_evidence": "docs/PUBLICATION_QUEUE.md",
+  "recipe": "illustrated",
+  "release_policy": {
+    "end_screen": true,
+    "ab_test": true,
+    "shorts_related": true,
+    "min_schedule_lead_seconds": 300
+  },
+  "calendar": {
+    "mode": "resolve_from_verified_channel_calendar"
+  },
+  "budget": {
+    "max_paid_units": 0,
+    "max_task_attempts": 3,
+    "max_editorial_passes": 2
+  },
+  "context_references": [
+    {
+      "path": "channels/two_ways_lab/AGENTS.md"
+    },
+    {
+      "path": "channels/two_ways_lab/brand/VISUAL_PROFILE.md",
+      "stages": [
+        "storyboard",
+        "scene_image",
+        "render",
+        "review"
+      ]
+    },
+    {
+      "path": "channels/two_ways_lab/docs/SCENE_PLANNING.md",
+      "stages": [
+        "storyboard",
+        "scene_image",
+        "review"
+      ]
+    }
+  ],
+  "production": {
+    "video": {
+      "codec": "h264",
+      "pix_fmt": "yuv420p",
+      "sample_aspect_ratio": "1:1",
+      "color_primaries": "bt709",
+      "color_transfer": "bt709",
+      "color_space": "bt709",
+      "color_range": "tv"
+    },
+    "audio": {
+      "required": true,
+      "music": "optional",
+      "codec": "aac"
+    },
+    "visual": {
+      "motion": "authored",
+      "transitions": "direct_cuts",
+      "decorative_frame": "forbidden"
+    },
+    "captions": {
+      "mode": "word_highlight",
+      "srt": "required",
+      "font": {
+        "family": "Trebuchet MS",
+        "style": "Bold"
+      }
+    },
+    "formats": {
+      "short": {
+        "video": {
+          "canvas": [
+            1080,
+            1920
+          ],
+          "fps": "30/1"
+        },
+        "end_screen_seconds": 0,
+        "narrative_loop": "required"
+      },
+      "long": {
+        "video": {
+          "canvas": null,
+          "fps": null
+        },
+        "end_screen_seconds": null
+      }
+    }
   }
 }

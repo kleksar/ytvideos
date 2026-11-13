@@ -1,0 +1,24 @@
+{
+  "case": "luna-history-entry",
+  "model": "gpt-6-luna",
+  "fresh_context": true,
+  "source_manifest_sha256": "d10705e7e70430bb525aaf67975ffbaedfd1b032f6371f05549201e51a8c0a5e",
+  "source_file_count": 595,
+  "command_count": 6,
+  "first_command_at": "2026-11-13T03:15:44.101706+00:00",
+  "last_command_at": "2026-11-13T03:17:08.154882+00:00",
+  "result": "fail_bypassed_runtime",
+  "observed": [
+    "Read the repository entry and channel instructions, but wrote an ad hoc story without creating a run.",
+    "Independent review remained UNVERIFIED; repeated opening sentences were described as a loop."
+  ],
+  "interventions": [],
+  "run_states": [],
+  "store_observation": "No local state database exists; the command capture contains no run creation.",
+  "capture_limits": [
+    "commands.jsonl contains actual shell commands/stdout/stderr/exit codes captured by the harness, not a model-written trace summary.",
+    "Direct web and collaboration calls and progress messages are not captured by the shell wrapper. Source notes and coordinator observations are separate evidence, not a complete raw transcript.",
+    "Absolute scratch paths and ephemeral local lease IDs are retained as observed; they grant no access to a production account.",
+    "accepted-artifacts contains exact bytes registered in the store. working-artifacts may contain later edits; these are deliberately not substituted for accepted bytes."
+  ]
+}

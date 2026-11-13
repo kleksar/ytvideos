@@ -1,3 +1,5 @@
+**Сверка с `main` 96c8fa1573c0:** сюжетный Draft PR — текстовый preproduction, не `ytv start` run и не принятый сценарий. Для перехода к производству нужны независимый reviewer, истинный `awaiting_script_approval` и отдельное решение пользователя; детали в [handoff.md](handoff.md).
+
 # Paper Detour story draft — The $18 Million Maple Syrup Heist
 
 **[Полный русский сценарий](script.ru.txt)** · **[English narration master](script.en.txt)**

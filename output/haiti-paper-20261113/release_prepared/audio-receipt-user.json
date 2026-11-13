@@ -1,0 +1,45 @@
+{
+  "run_id": "00f9cc38-2023-46c5-b40d-6b0b7f8e5c35",
+  "task_id": "audio",
+  "input_hash": "f15349c2dc42a6a510bdc76fde8d9352a6ca667cb5abaea6fbe6f3589687148d",
+  "worker": "codex-audio-recovery",
+  "output_sha256": "fd0153c1177f1e8e166a2acdfef0267065adcefe73b13c1287ac7c23ecbffcc9",
+  "checks": [
+    {
+      "name": "exact_text",
+      "status": "pass",
+      "method": "Whisper transcript normalized matches approved narration; user confirmed last exact MP4 matches.",
+      "observed": {
+        "coverage": "130/130 tokens",
+        "limitation": "Machine transcript, not model hearing."
+      }
+    },
+    {
+      "name": "listening",
+      "status": "pass",
+      "method": "User acceptance of the exact MP4 immediately after requested voice/subtitle synchronization check.",
+      "observed": {
+        "user_message": "Отлично, теперь ещё раз изучай доку навыки, готовь все заливки, всё совпадает, видео отличное.",
+        "scope": "User assessment; agent could not listen."
+      }
+    },
+    {
+      "name": "speed_once",
+      "status": "pass",
+      "method": "Confirmed recorded raw voice and the command used to apply atempo=1.1 once.",
+      "observed": {
+        "raw_speed": 1.0,
+        "final_speed": 1.1
+      }
+    },
+    {
+      "name": "voice_identity",
+      "status": "pass",
+      "method": "Inspected TTS execution receipt and provider request.",
+      "observed": {
+        "voice_id": "ktkP7Nsj67dw2zcplQYt",
+        "receipt": "/private/tmp/ytv-haiti-audio-execution.json"
+      }
+    }
+  ]
+}

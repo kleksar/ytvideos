@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "nuviko_history",
   "name": "Nuviko History",
-  "status": "frozen",
+  "status": "active",
   "language": "en",
   "recipe": "illustrated",
   "youtube_channel_id": "UCbyLx6Rf3iWww4bPZJ2oo2A",
@@ -26,5 +26,57 @@
     "max_paid_units": 0,
     "max_task_attempts": 3,
     "max_editorial_passes": 2
+  },
+  "production": {
+    "video": {
+      "codec": "h264",
+      "pix_fmt": "yuv420p",
+      "sample_aspect_ratio": "1:1",
+      "color_primaries": "bt709",
+      "color_transfer": "bt709",
+      "color_space": "bt709",
+      "color_range": "tv"
+    },
+    "audio": {
+      "required": true,
+      "music": "required",
+      "codec": "aac"
+    },
+    "visual": {
+      "motion": "whole_frame",
+      "transitions": "direct_cuts",
+      "decorative_frame": "forbidden"
+    },
+    "captions": {
+      "mode": "word_highlight",
+      "srt": "required",
+      "font": {
+        "family": "Georgia",
+        "style": "Bold"
+      }
+    },
+    "formats": {
+      "short": {
+        "video": {
+          "canvas": [
+            1440,
+            2560
+          ],
+          "fps": "30/1"
+        },
+        "end_screen_seconds": 0,
+        "narrative_loop": "required"
+      },
+      "long": {
+        "video": {
+          "canvas": [
+            2560,
+            1440
+          ],
+          "fps": "30/1"
+        },
+        "end_screen_seconds": 10
+      }
+    }
   }
 }

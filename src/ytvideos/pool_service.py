@@ -8,7 +8,7 @@ import json
 from .errors import Conflict, WorkflowError
 from .util import require_text, utc_now
 from .workers import AdaptivePool, BackendResult, PoolConfig, SceneJob, ToolBridgeBackend
-from .workflow import REQUIRED_CHECKS, input_hash, ready
+from .workflow import input_hash, ready, required_checks
 
 
 class PoolService:
@@ -201,6 +201,7 @@ class PoolService:
         return backend, pool
 
     def _enqueue(self, run, pool, payload):
+        from .image_review import thumbnail_references
         task_ids = payload.get("task_ids")
         if task_ids is None:
             task_ids = [t["id"] for t in run["tasks"].values() if self._uses_image_generator(run, t) and ready(run, t)]
@@ -219,11 +220,17 @@ class PoolService:
                 continue
             if not ready(run, task):
                 raise Conflict("image task is not ready; resolve its dependencies and script approval")
+            purpose = task.get("payload", {}).get("purpose")
+            visual_references = (thumbnail_references(task["payload"], run["artifacts"])
+                                 if purpose == "thumbnail" else [])
+            for reference in visual_references:
+                self.production.artifacts.resolve(reference)
             context = {"task_id": task_id, "task_input_hash": current_hash, "pins": run["pins"],
                        "skill": run["skills"][task["skill"]], "channel": run["profile"],
                        **self.production._reference_context(run, task),
                        "format": run["format"], "scene": task.get("payload", {}),
-                       "required_checks": sorted(REQUIRED_CHECKS["scene_image"]),
+                       "required_checks": sorted(required_checks("scene_image", purpose=purpose)),
+                       "visual_references": visual_references,
                        "inputs": [run["artifacts"][a] for dep in task["dependencies"]
                                   for a in run["tasks"][dep]["outputs"]],
                        "instructions": "Use a fresh independent session with only this packet. Return the exact "
@@ -286,6 +293,7 @@ class PoolService:
 
     def validate_packet(self, run, request):
         """Bind outbox bytes to the queued job and the run's pinned requirements."""
+        from .image_review import thumbnail_references
         packet = request["packet"]
         records = run["pool"]["scheduler"]["records"]
         job = next((record["job"] for record in records if record["job"]["job_id"] == packet["job_id"]), None)
@@ -294,9 +302,13 @@ class PoolService:
         binding = run["pool"]["bindings"][packet["job_id"]]
         task = self.production._task(run, binding["task_id"])
         context = packet["context"]
+        purpose = task.get("payload", {}).get("purpose")
         expected = {"task_id": task["id"], "task_input_hash": input_hash(run, task),
                     "pins": run["pins"], "skill": run["skills"][task["skill"]],
                     "channel": run["profile"], "format": run["format"], "scene": task.get("payload", {}),
+                    "required_checks": sorted(required_checks(task["stage"], purpose=purpose)),
+                    "visual_references": (thumbnail_references(task["payload"], run["artifacts"])
+                                          if purpose == "thumbnail" else []),
                     "inputs": [run["artifacts"][key] for dep in task["dependencies"]
                                for key in run["tasks"][dep]["outputs"]]}
         requirements = self.production._reference_context(run, task)
