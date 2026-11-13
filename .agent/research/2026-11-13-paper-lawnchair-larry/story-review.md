@@ -1,6 +1,8 @@
+**CURRENT SCRIPT IS EXPERIMENT B.** Historical baseline A analysis follows for comparison only; its style/loop verdict must NOT be reused to approve B. Refer to the later `Natural speech A/B experiment` section and exact current `script.*.txt` for the current text and seam. Independent review remains UNVERIFIED.
+
 # Story review — Paper Detour Short / Lawnchair Larry
 
-**Scope:** text-only independent-unapproved proposal. 14 exact English narration paragraphs (203 counted English words) and 14 meaning-matched Russian reading paragraphs.
+**Scope:** text-only independent-unapproved proposal. 14 current experiment B English narration paragraphs (about 212 EN words) and 14 matched Russian reading paragraphs; original A (203 words) archived separately.
 
 ## Stage 1 — authorial assessment BEFORE storyboard
 
@@ -8,7 +10,7 @@
 - **Clarity: AUTHORIAL PASS.** First frame is understandable alone; Larry/where/when introduced next; the tools are shown before being needed. Water ballast is named before later release. No invented pilot quotation.
 - **Factual basis: PASS with specific restraints.** Smithsonian institution holds original chair, and its reporting covers the core sequence; independent South Bay archival report and WIRED corroborate. Exact intended altitude contested and deliberately absent; no actual near-collision or injury, no known current public exhibition in 2026. Original FAA transcript UNVERIFIED.
 - **Development/payoff: AUTHORIAL PASS.** Genuine sequential choices and constraints: ascent exceeds plan, pilots sight it, pellet gun works, dropped gun removes control, jettison water changes descent, lines stop flight, survival/fine and kid-to-museum gift. Remove museum coda only if first listener finds it dilutes rescue. No manufactured tragedy or revenge arc.
-- **Length: UNVERIFIED.** The 203 English words are an exact text count, not a voice duration. The 14 × ~5s scene plan is not an observed recording and may require re-segmentation when Lawrence narration exists.
+- **Length: UNVERIFIED.** Baseline A was about 203 EN words; current B about 212. The old 14 × ~5s grid is not measured speech and must be re-segmented using actual Lawrence narration if B is approved.
 
 ## Literal final TWO → first TWO narration paragraphs (EN, one uninterrupted speech stream)
 
