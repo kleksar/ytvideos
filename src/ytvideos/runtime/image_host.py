@@ -83,8 +83,12 @@ class ImageHost:
             task = self.production._task(run, context["task_id"])
             context.update(self.production._reference_context(run, task))
         documents = validate_documents(context["references"], context["reference_documents"])
-        if f"channels/{run['channel']}/PROFILE.md" not in context["references"]:
-            raise WorkflowError("missing pinned production requirement: channel PROFILE.md")
+        # ChannelSpec owns document selection; some channels use AGENTS.md and
+        # recipes instead of PROFILE.md. Require their pinned channel context,
+        # without introducing a second filename-based selector in the worker.
+        channel_prefix = f"channels/{run['channel']}/"
+        if not any(path.startswith(channel_prefix) for path in context["references"]):
+            raise WorkflowError("missing pinned production requirement: channel document")
         directory = self.root / digest({"run": run["id"], "operation": request["operation_id"]})
         if directory.exists():
             raise Conflict("worker directory already exists; inspect it instead of reusing another context")
