@@ -1,4 +1,6 @@
-# Preliminary storyboard — Nuviko History Great Locomotive Chase r1
+# Preliminary storyboard — Nuviko History Great Locomotive Chase r2 (visual alignment)
+
+**Visual consistency correction:** S005–S014 shot intentions and image prompts were previously one beat late relative to the exact voice blocks. This revision aligns the existing descriptions without altering any narration; the final shot returns to S001. No images or timing were generated.
 
 **EDITORIAL ONLY:** not an official ytv storyboard stage, no generated source images, no audio/timings. All 14 EN/RU narration spans below are exact, in order, from full masters. Rough composition guideline: **4–6 seconds per image**, not measured voice timings. Some long lines may require later restructuring after true voice, not silent stretch. Photorealistic historical reconstruction, with no unverified claim of original 1862 footage. Nuviko's separate 2D traveler is deliberately **not used** here; actual two accepted PNG references were not opened/revalidated, thus no fake host likeness. Natural muted color; one full-frame independent composition per scene, whole-frame movement only, direct cuts. No Paper styling, diagrams, fake documentary timecodes or baked subtitles. Preserve exact EN/RU meaning and bridge geometry. Detailed prompts are preliminary, created only after full speech author check.
 
@@ -58,25 +60,11 @@
 
 **Planning:** 4–6 seconds typical image composition; not voice measured or approved.
 
-## S005 — First engine pursuit
+## S005 — Rolling obstacles
 
 **narration EN (exact):** Ahead of him, the raiders damaged track and dropped empty freight cars behind them to slow the chase.
 
 **narration_ru RU (exact):** Впереди угонщики разбирали рельсы и сбрасывали на пути пустые товарные вагоны, чтобы задержать погоню.
-
-**Purpose:** First engine pursuit; must add a new action or reveal rather than restate previous image.
-
-**Independent AI-image prompt (not executed):** Photorealistic April 1862 Western and Atlantic Railroad engine yard in Georgia, Civil War railroad workers boarding a small wood-fired 4-4-0 locomotive preparing pursuit, period iron rails wooden sleepers, telegraph poles and low depot structure, medium-low cinematic perspective vertical 9:16, no text.
-
-**Continuity / fact QA:** Pursuer Fuller distinct from raiders; this is a different engine than General. 
-
-**Planning:** 4–6 seconds typical image composition; not voice measured or approved.
-
-## S006 — Rolling obstacles
-
-**narration EN (exact):** At a river, they tried setting a wooden bridge on fire. The wood was soaked from rain and wouldn't burn.
-
-**narration_ru RU (exact):** У реки они попытались поджечь деревянный мост. Но дерево промокло под дождём и не загорелось.
 
 **Purpose:** Rolling obstacles; must add a new action or reveal rather than restate previous image.
 
@@ -86,25 +74,25 @@
 
 **Planning:** 4–6 seconds typical image composition; not voice measured or approved.
 
-## S007 — Wet bridge
+## S006 — Wet bridge
 
-**narration EN (exact):** Fuller kept closing in. The raiders could barely stop for the wood and water their engine needed.
+**narration EN (exact):** At a river, they tried setting a wooden bridge on fire. The wood was soaked from rain and wouldn't burn.
 
-**narration_ru RU (exact):** Фуллер всё приближался. Угонщики едва успевали останавливаться, чтобы пополнить запасы дров и воды.
+**narration_ru RU (exact):** У реки они попытались поджечь деревянный мост. Но дерево промокло под дождём и не загорелось.
 
 **Purpose:** Wet bridge; must add a new action or reveal rather than restate previous image.
 
-**Independent AI-image prompt (not executed):** Photorealistic Georgia 1862 timber railway trestle crossing a river, damp wooden boxcar with small sputtering fire and wisps of smoke near bridge approach under drizzle, timber visibly wet, muddy soldiers working beside it, vertical 9:16 full-frame historical reconstruction, subdued light, no large flames, no destruction.
+**Independent AI-image prompt (not executed):** Photorealistic Georgia 1862 timber railway trestle crossing a river, damp wooden boxcar with small sputtering fire and wisps of smoke near bridge approach under drizzle, timber visibly wet, civilian-clothed raiders working beside it, vertical 9:16 full-frame historical reconstruction, subdued light, no large flames, no destruction.
 
 **Continuity / fact QA:** Failure to ignite must be visually clear; do not show burned bridge. 
 
 **Planning:** 4–6 seconds typical image composition; not voice measured or approved.
 
-## S008 — Insufficient supplies
+## S007 — Insufficient supplies
 
-**narration EN (exact):** Then Fuller took over another locomotive, the Texas. It was facing the wrong way, so he chased them backward, with its tender out in front.
+**narration EN (exact):** Fuller kept closing in. The raiders could barely stop for the wood and water their engine needed.
 
-**narration_ru RU (exact):** Тогда Фуллер пересел на другой паровоз — «Техас». Он стоял в противоположную сторону, и преследовать пришлось задним ходом, тендером вперёд.
+**narration_ru RU (exact):** Фуллер всё приближался. Угонщики едва успевали останавливаться, чтобы пополнить запасы дров и воды.
 
 **Purpose:** Insufficient supplies; must add a new action or reveal rather than restate previous image.
 
@@ -114,11 +102,11 @@
 
 **Planning:** 4–6 seconds typical image composition; not voice measured or approved.
 
-## S009 — Texas reverse chase
+## S008 — Texas reverse chase
 
-**narration EN (exact):** The pursuit went on for seven hours, over nearly ninety miles of track.
+**narration EN (exact):** Then Fuller took over another locomotive, the Texas. It was facing the wrong way, so he chased them backward, with its tender out in front.
 
-**narration_ru RU (exact):** Погоня продолжалась семь часов. Поезда прошли почти девяносто миль.
+**narration_ru RU (exact):** Тогда Фуллер пересел на другой паровоз — «Техас». Он стоял в противоположную сторону, и преследовать пришлось задним ходом, тендером вперёд.
 
 **Purpose:** Texas reverse chase; must add a new action or reveal rather than restate previous image.
 
@@ -128,11 +116,11 @@
 
 **Planning:** 4–6 seconds typical image composition; not voice measured or approved.
 
-## S010 — Long pursuit
+## S009 — Long pursuit
 
-**narration EN (exact):** Near Ringgold, the General ran out of steam. The raiders jumped off and scattered.
+**narration EN (exact):** The pursuit went on for seven hours, over nearly ninety miles of track.
 
-**narration_ru RU (exact):** Около Рингголда у «Генерала» закончился пар. Угонщики спрыгнули и разбежались.
+**narration_ru RU (exact):** Погоня продолжалась семь часов. Поезда прошли почти девяносто миль.
 
 **Purpose:** Long pursuit; must add a new action or reveal rather than restate previous image.
 
@@ -142,11 +130,11 @@
 
 **Planning:** 4–6 seconds typical image composition; not voice measured or approved.
 
-## S011 — General stops steaming
+## S010 — General stops steaming
 
-**narration EN (exact):** They were all caught. Eight were later executed as spies.
+**narration EN (exact):** Near Ringgold, the General ran out of steam. The raiders jumped off and scattered.
 
-**narration_ru RU (exact):** Всех поймали. Восьмерых позже казнили как шпионов.
+**narration_ru RU (exact):** Около Рингголда у «Генерала» закончился пар. Угонщики спрыгнули и разбежались.
 
 **Purpose:** General stops steaming; must add a new action or reveal rather than restate previous image.
 
@@ -156,11 +144,11 @@
 
 **Planning:** 4–6 seconds typical image composition; not voice measured or approved.
 
-## S012 — Captured men and executions context
+## S011 — Captured men and executions context
 
-**narration EN (exact):** The railroad was quickly repaired. The raid had failed to cause lasting damage.
+**narration EN (exact):** They were all caught. Eight were later executed as spies.
 
-**narration_ru RU (exact):** Железную дорогу быстро восстановили. Надолго вывести её из строя налёт не смог.
+**narration_ru RU (exact):** Всех поймали. Восьмерых позже казнили как шпионов.
 
 **Purpose:** Captured men and executions context; must add a new action or reveal rather than restate previous image.
 
@@ -170,11 +158,11 @@
 
 **Planning:** 4–6 seconds typical image composition; not voice measured or approved.
 
-## S013 — Repaired track and surviving engine
+## S012 — Repaired track and surviving engine
 
-**narration EN (exact):** The General, though, survived the war. You can still see it in a museum in Kennesaw, Georgia.
+**narration EN (exact):** The railroad was quickly repaired. The raid had failed to cause lasting damage.
 
-**narration_ru RU (exact):** Зато сам «Генерал» пережил войну. Сейчас его можно увидеть в музее в городе Кеннесо, штат Джорджия.
+**narration_ru RU (exact):** Железную дорогу быстро восстановили. Надолго вывести её из строя налёт не смог.
 
 **Purpose:** Repaired track and surviving engine; must add a new action or reveal rather than restate previous image.
 
@@ -184,17 +172,31 @@
 
 **Planning:** 4–6 seconds typical image composition; not voice measured or approved.
 
-## S014 — Real museum engine near original station
+## S013 — Real museum engine near original station
 
-**narration EN (exact):** It's only a few hundred yards from the railway stop where the crew had gone to eat breakfast.
+**narration EN (exact):** The General, though, survived the war. You can still see it in a museum in Kennesaw, Georgia.
 
-**narration_ru RU (exact):** От музея до той железнодорожной остановки, где экипаж отправился завтракать, всего несколько сотен метров.
+**narration_ru RU (exact):** Зато сам «Генерал» пережил войну. Сейчас его можно увидеть в музее в городе Кеннесо, штат Джорджия.
 
 **Purpose:** Real museum engine near original station; must add a new action or reveal rather than restate previous image.
 
 **Independent AI-image prompt (not executed):** Photorealistic contemporary Southern Museum in Kennesaw Georgia, authentic restored nineteenth-century 4-4-0 steam locomotive General on indoor museum display in clean exhibit lighting, no invented readable placards or visitors' identities, one cinematic vertical 9:16 composition, in background only a restrained historical platform association, no collages, no caption text.
 
 **Continuity / fact QA:** No claim actual photo or exact building geometry without image reference; visual route museum → station → S001 requires actual edit review. End frame should spatially return to hotel/platform in S001 without implying an actual camera journey already verified; AV seam UNVERIFIED.
+
+**Planning:** 4–6 seconds typical image composition; not voice measured or approved.
+
+## S014 — Return to the breakfast railway stop
+
+**narration EN (exact):** It's only a few hundred yards from the railway stop where the crew had gone to eat breakfast.
+
+**narration_ru RU (exact):** От музея до той железнодорожной остановки, где экипаж отправился завтракать, всего несколько сотен метров.
+
+**Purpose:** Return from the modern museum fact to the 1862 breakfast stop and the moving General in S001. This is a planned visual loop, not a verified map or AV seam.
+
+**Independent AI-image prompt (not executed):** Photorealistic 1862 Georgia trackside breakfast stop reconstruction, wooden wayside hotel entrance and railway platform with a matching track axis, daylight and the same recognizable doorway as S001; prepare the final shot to visually meet S001 without claiming precise modern survey coordinates. Use the exact approved S001 reference/frame if later available; do not fabricate archival labels, a geographic scale map, or film footage. Vertical 9:16, one full-frame coherent historical view, natural muted color.
+
+**Continuity / fact QA:** The script's few-hundred-yard location claim is supported separately in research; this is an illustrative return to the period stop, not a measured camera path from the museum. Match the platform, weather, door, track axis and final crop to S001 at actual MP4 QA; textual seam only, AV remains UNVERIFIED.
 
 **Planning:** 4–6 seconds typical image composition; not voice measured or approved.
 

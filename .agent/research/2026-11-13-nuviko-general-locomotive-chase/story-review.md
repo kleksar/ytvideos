@@ -51,4 +51,7 @@ Pass the first two lines and then the **entire exact EN master twice consecutive
 
 ## Revisions
 
+**2026-11-13 visual QA correction (storyboard r2):** On r1, S005–S014 visual briefs lagged the corresponding EN/RU narration by one scene (rail obstacles, wet bridge, fuel, reverse pursuit, rail repair, museum). Re-aligned the shot headings, prompts, intents and continuity without changing a single narration word. S014 now returns to the breakfast station for the planned visual seam. All 14 full EN and RU spans remain exact. This is deterministic author-side storyboard QA only: independent script review, actual image accuracy, timings and MP4 seam remain UNVERIFIED. Baseline commit `c51888b78a690eec244bfd64369194bc2a1fd242`.
+
+
 `nuviko-general-locomotive-chase-r1` is the only authored candidate. No accepted or measured voice timing, no previous r0 to preserve. Later revisions must retain original bytes and invalidate any obsolete scene spans/reviews.
