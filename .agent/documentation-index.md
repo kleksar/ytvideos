@@ -2,7 +2,8 @@
 
 | Правило | Единственный owner |
 |---|---|
-| Вход, scope, два approvals, общий lifecycle | [workflow](../docs/workflow.md) |
+| Scope, два approvals, общий lifecycle | [workflow](../docs/workflow.md) |
+| Обязательное чтение, preflight, выполнение, blocker и продолжение каждого task | [task-execution skill reference](../.agents/skills/ytv-start/references/task-execution.md) |
 | Тема, факты, драматургия всех каналов, переработка исходника, первый слушатель | [editorial](../docs/standards/editorial.md) |
 | Естественная дикторская речь, устная редактура и EN/RU-подача | [narration](../docs/standards/narration.md) |
 | Постановка, actual references, кадры, цельное движение | [visual](../docs/standards/visual.md) |
@@ -22,7 +23,9 @@
 | Канальные документы в task, pinned snapshot, manifest worker | [task contract](../docs/operations/task-contract.md#требования-в-контексте), `src/ytvideos/context.py` и ChannelSpec |
 | Выбор skill по task | [manifest](skill-catalog.json) и [каталог](skill-catalog.md) |
 
-Skill и навык обозначают одно: короткую процедуру конкретного этапа. `AGENTS.md` выбирает вход; standard задаёт общие требования; профиль задаёт продуктовые различия; code/schema проверяет переходы и результаты. `plan` и `task_guide` — представления сохранённого runtime state, не отдельные владельцы правил.
+Skill и навык обозначают одно: исполняемую процедуру конкретного этапа с обязательными references. `AGENTS.md` выбирает вход и закрепляет общий запрет самовольных методов; skill определяет, что прочитать и как выполнить действие. Docs владеют lifecycle/полномочиями, требованиями к результату, схемами/синтаксисом и обоснованиями; профиль — параметрами и разрешёнными вариантами канала; code/schema — проверками и переходами. `plan` и `task_guide` представляют эти правила и сохранённое состояние, не создают новые полномочия.
+
+Пошаговую инструкцию «прочитать → проверить → выполнить → сохранить → продолжить» держать в skill/reference, а при переносе удалять её вторую действующую копию из docs. Порог качества, формат поля и ограничение результата оставлять у standard/schema owner и ссылаться на него. Общий task-execution reference обязателен для всех skills и включён в pinned task packet; длинные канальные требования не копировать в каждый skill. Без описанного метода/параметра нельзя выводить правило из примера или соседнего канала.
 
 Документ не превращает неподдержанную capability в действующий tool. Действующие инструкции описывают актуальное поведение. Архивные receipts/консультации и решения отдельного выпуска остаются evidence вне обычного production reading path; actual reference assets с provenance сохраняют своё художественное назначение.
 

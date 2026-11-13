@@ -5,10 +5,11 @@ from pathlib import Path
 import unittest
 
 import test_pool_service as fixtures
-from ytvideos.context import snapshot_references
+from ytvideos.context import TASK_EXECUTION_REFERENCE, snapshot_references, validate_documents
 from ytvideos.errors import Conflict, WorkflowError
 from ytvideos.service import Production
 from ytvideos.store import Store
+from ytvideos.util import digest
 
 
 class ConfiguredRecipeTests(unittest.TestCase):
@@ -92,6 +93,64 @@ class TaskContextTests(unittest.TestCase):
         target.parent.mkdir(parents=True, exist_ok=True)
         target.write_text(text)
         return target
+
+    def test_every_task_route_receives_the_pinned_execution_procedure(self):
+        self.document(TASK_EXECUTION_REFERENCE, "Read the exact instructions before acting.\n")
+        for format in ("short", "long"):
+            run = self.production.create("test_channel", "documented execution", format=format)
+            for route, paths in run["reference_snapshot"]["routes"].items():
+                with self.subTest(format=format, route=route):
+                    self.assertIn(TASK_EXECUTION_REFERENCE, paths)
+                    task = ({"stage": "scene_image", "payload": {"purpose": "thumbnail"}}
+                            if route == "thumbnail" else {"stage": route})
+                    documents = self.production._reference_context(run, task)["reference_documents"]
+                    self.assertEqual(next(item["text"] for item in documents
+                                          if item["path"] == TASK_EXECUTION_REFERENCE),
+                                     "Read the exact instructions before acting.\n")
+
+    def test_missing_or_blank_execution_procedure_cannot_create_a_run(self):
+        path = self.document(TASK_EXECUTION_REFERENCE)
+        path.unlink()
+        with self.assertRaisesRegex(WorkflowError, "missing.*task-execution"):
+            self.production.create("test_channel", "missing execution instructions")
+        self.document(TASK_EXECUTION_REFERENCE, " \n\t")
+        with self.assertRaisesRegex(WorkflowError, "empty.*task-execution"):
+            self.production.create("test_channel", "empty execution instructions")
+        self.assertEqual(self.fixture.store.list(), [])
+
+    def test_execution_procedure_stays_pinned_after_checkout_edit_or_removal(self):
+        path = self.document(TASK_EXECUTION_REFERENCE, "Accepted execution procedure.\n")
+        run = self.production.create("test_channel", "keep execution instructions")
+        before = self.production.context(run["id"], "research")
+        path.write_text("Changed execution procedure.\n")
+        self.assertEqual(before, self.production.context(run["id"], "research"))
+        new_run = self.production.create("test_channel", "new execution instructions")
+        self.assertNotEqual(run["pins"]["references"], new_run["pins"]["references"])
+        path.unlink()
+        self.assertEqual(before, self.production.context(run["id"], "research"))
+
+    def test_blank_pinned_instruction_is_rejected_even_with_its_matching_hash(self):
+        import hashlib
+        text = " \n\t"
+        document = {"path": TASK_EXECUTION_REFERENCE, "text": text,
+                    "sha256": hashlib.sha256(text.encode()).hexdigest()}
+        with self.assertRaisesRegex(WorkflowError, "empty.*task-execution"):
+            validate_documents([TASK_EXECUTION_REFERENCE], [document])
+
+    def test_blank_required_skill_cannot_create_a_run(self):
+        (self.root / "skills/ytv-produce-video/SKILL.md").write_text(" \n\t")
+        with self.assertRaisesRegex(WorkflowError, "required skill ytv-produce-video.*non-empty"):
+            self.production.create("test_channel", "missing skill procedure")
+        self.assertEqual(self.fixture.store.list(), [])
+
+    def test_blank_saved_skill_cannot_be_used_even_with_its_matching_pin(self):
+        run = self.production.create("test_channel", "saved skill procedure")
+        def blank(tx, state):
+            state["skills"]["ytv-write-script"]["text"] = " \n\t"
+            state["pins"]["skills"] = digest(state["skills"])
+        self.fixture.store.mutate(run["id"], blank)
+        with self.assertRaisesRegex(WorkflowError, "required skill ytv-write-script.*non-empty"):
+            self.production.context(run["id"], "research")
 
     def test_context_delivers_the_recipe_for_the_requested_stage_and_format(self):
         short = "channels/test_channel/docs/short.md"

@@ -8,6 +8,9 @@ from .errors import WorkflowError
 from .util import digest
 
 
+TASK_EXECUTION_REFERENCE = ".agents/skills/ytv-start/references/task-execution.md"
+
+
 STAGE_REFERENCES = {
     "research": ["docs/standards/editorial.md", "docs/standards/thumbnails.md"],
     "script": ["docs/standards/editorial.md", "docs/standards/narration.md", "docs/standards/thumbnails.md"],
@@ -54,9 +57,9 @@ def _entries(profile):
 
 
 def task_references(task, *, profile=None, format=None, project_root=None):
-    """Select standards and explicitly declared channel documents for this task."""
+    """Select the execution procedure, standards and declared channel documents."""
     stage = task["stage"]
-    paths = list(STAGE_REFERENCES.get(stage, []))
+    paths = [TASK_EXECUTION_REFERENCE, *STAGE_REFERENCES.get(stage, [])]
     purpose = task.get("payload", {}).get("purpose", "scene") if stage == "scene_image" else None
     if stage == "scene_image" and purpose == "thumbnail":
         paths.append("docs/standards/thumbnails.md")
@@ -86,6 +89,8 @@ def _read_document(root, path, *, current=False):
         text = source.read_bytes().decode("utf-8")
     except (OSError, UnicodeError) as exc:
         raise WorkflowError(f"cannot read task reference: {path}") from exc
+    if not text.strip():
+        raise WorkflowError(f"empty task reference: {path}")
     if current:
         error = (current_reference_error(path, text)
                  or current_reference_error(source.relative_to(root).as_posix(), text))
@@ -120,6 +125,8 @@ def validate_documents(paths, documents):
         path = reference_path(item["path"])
         if path in by_path or not isinstance(item["text"], str):
             raise WorkflowError("duplicate or invalid task reference document")
+        if not item["text"].strip():
+            raise WorkflowError(f"empty task reference: {path}")
         if hashlib.sha256(item["text"].encode()).hexdigest() != item["sha256"]:
             raise WorkflowError(f"task reference hash mismatch: {path}")
         by_path[path] = item

@@ -5,7 +5,9 @@ description: "Develop thumbnail hooks, AI composition drafts and full-card QA af
 
 # Упаковать и выполнить порученный выпуск
 
-Прочитать task context, профиль и [release](../../../docs/standards/release.md). `packaging` начинается после script approval. Для `upload`, `configure_release`, `schedule` требуется прямое поручение на выпуск и одобрение точного MP4 в соответствующем scope. Credentials/signing key остаются в trusted host.
+До действий выполнить [обязательную процедуру](../ytv-start/references/task-execution.md): прочитать pinned skill/требования/точные входы и проверить описанный способ. Пробел или неразрешённый конфликт — blocker затронутого этапа; не подставлять свои defaults и не менять правила ради продолжения.
+
+Прочитать профиль и [release](../../../docs/standards/release.md); для run также task context. Узкая правка без run использует предоставленные артефакты и применимые правила, сохраняя scope; команды и gates production ниже относятся к run. `packaging` начинается после script approval. Для `upload`, `configure_release`, `schedule` требуется прямое поручение на выпуск и одобрение точного MP4 в соответствующем scope. Credentials/signing key остаются в trusted host.
 
 ## Packaging
 

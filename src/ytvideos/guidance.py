@@ -55,13 +55,19 @@ def task_guide(run, task, references=(), requirements=None):
                                                   purpose=task.get("payload", {}).get("purpose"))),
         "next_tasks": [item["id"] for item in run["tasks"].values() if task["id"] in item["dependencies"]],
         "execution_order": [
-            "Read this task's pinned skill, requirements and exact input artifacts.",
-            "Use the current claim and available tools to produce the required artifact.",
+            "Read this task's pinned skill, all selected reference_documents, requirements and exact input artifacts.",
+            "Apply the pinned task-execution procedure: identify the documented method, parameters or their "
+            "derivation, inputs, output and checks before acting. Missing or conflicting instructions are a blocker.",
+            "Use the current claim and only the documented tools and choices to produce the required artifact. "
+            "Tool availability is not permission to invent a method, default or fallback.",
             "Measure and inspect the actual output; save evidence for each required check.",
             "Complete with exact artifact and receipt, then request next from the same runtime.",
         ],
-        "on_blocker": "Save the real failure or unverified check; continue independent ready tasks. "
-                      "Reconcile an unknown provider outcome before retrying.",
+        "on_blocker": "Stop the affected task before dispatch or completion when an instruction, method, "
+                      "parameter or input is missing or conflicts. Report the exact gap and sources checked. "
+                      "With a current claim record fail; before claim report the blocker without taking a lease. "
+                      "Do not change rules to bypass it. Continue only independent documented ready tasks. "
+                      "Reconcile an unknown provider outcome before retrying; resume only after verified resolution.",
         "completion_command": ["complete", "--run", run["id"], "--task", task["id"]],
     }
     if run["profile"]["recipe"] == "licensed_clips" and stage == "script":

@@ -5,9 +5,11 @@ description: "Research and write a clear causal ytvideos script, adapt thumbnail
 
 # Найти историю и написать полный текст
 
+До действий выполнить [обязательную процедуру](../ytv-start/references/task-execution.md): прочитать pinned skill/требования/точные входы и проверить описанный способ. Пробел или неразрешённый конфликт — blocker затронутого этапа; не подставлять свои defaults и не менять правила ради продолжения.
+
 CLI и точные outputs/receipts: [task contract](../../../docs/operations/task-contract.md).
 
-Прочитать task context, профиль канала, [editorial](../../../docs/standards/editorial.md) и [живую речь](../../../docs/standards/narration.md). Если запрос узкий, сохранить его scope. Работать с закреплённой ревизией и доступным бюджетом.
+Прочитать профиль канала, [editorial](../../../docs/standards/editorial.md) и [живую речь](../../../docs/standards/narration.md); для run также task context с закреплённой ревизией и бюджетом. Для узкой правки без run использовать предоставленные артефакты и применимые правила, сохраняя scope; runtime-команды и gates ниже относятся к run.
 
 Сначала различить вход: поиск темы, заданный сюжет/набросок или точный готовый production script — по [workflow](../../../docs/workflow.md#готовый-текст-и-набросок). На task `research` выполнять подходящий scope проверки и отбора. На task `script` использовать принятый research из `inputs`, не запускать новый выбор темы без конкретного выявленного дефекта. Готовый присланный текст проверять без самовольной переработки; его пользовательское принятие регистрирует host, не авторский receipt.
 

@@ -12,7 +12,7 @@ ROOT = Path(__file__).resolve().parents[1]
 # This offline gate runs before dependency installation. The shared documentation
 # checks and stage routing use only the standard library.
 sys.path.insert(0, str(ROOT / "src"))
-from ytvideos.context import STAGE_REFERENCES  # noqa: E402
+from ytvideos.context import STAGE_REFERENCES, TASK_EXECUTION_REFERENCE  # noqa: E402
 from ytvideos.documentation import current_reference_error, prose_lines  # noqa: E402
 
 CATALOG = Path(".agent/skill-catalog.json")
@@ -107,6 +107,7 @@ def current_documents(root, errors=None, *, runtime_documents=None):
     # task requirements. An explicit context reference still gets checked below.
     runtime_documents.update(root / name for name in ENTRIES)
     runtime_documents.update(root / name for names in STAGE_REFERENCES.values() for name in names)
+    runtime_documents.add(root / TASK_EXECUTION_REFERENCE)
     runtime_documents.update((root / ".agents/skills").glob("*/SKILL.md"))
     for folder in ("docs", ".agents/skills"):
         docs.update((root / folder).rglob("*.md"))

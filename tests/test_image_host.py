@@ -8,6 +8,7 @@ import unittest
 from unittest.mock import patch
 
 import test_pool_service as fixtures
+from ytvideos.context import TASK_EXECUTION_REFERENCE
 from ytvideos.errors import Conflict, WorkflowError
 from ytvideos.runtime.app_server import AppServer, ImageNotSent, RpcError, RpcUnavailable
 from ytvideos.runtime.image_host import ImageHost
@@ -138,6 +139,7 @@ class ImageHostTests(unittest.TestCase):
         packet = json.loads((directory / "TASK.json").read_text())
         path = "requirements/docs/standards/thumbnails.md"
         self.assertIn(path, packet["requirements"])
+        self.assertIn("requirements/" + TASK_EXECUTION_REFERENCE, packet["requirements"])
         self.assertEqual((directory / path).read_text(), "Synthetic requirement: docs/standards/thumbnails.md\n")
         self.assertEqual(job["inputs"][path], file_digest(directory / path))
         self.assertEqual(set(packet["requirements"]), {"requirements/" + path for path in packet["references"]})
@@ -152,6 +154,11 @@ class ImageHostTests(unittest.TestCase):
     def test_regular_scene_worker_does_not_receive_thumbnail_playbook(self):
         _, job = self.first_dispatch(count=1)
         packet = json.loads((Path(job["directory"]) / "TASK.json").read_text())
+        procedure = "requirements/" + TASK_EXECUTION_REFERENCE
+        self.assertIn(procedure, packet["requirements"])
+        self.assertEqual((Path(job["directory"]) / procedure).read_text(),
+                         f"Synthetic requirement: {TASK_EXECUTION_REFERENCE}\n")
+        self.assertEqual(job["inputs"][procedure], file_digest(Path(job["directory"]) / procedure))
         self.assertNotIn("requirements/docs/standards/thumbnails.md", packet["requirements"])
         for path in packet["requirements"]:
             self.assertTrue((Path(job["directory"]) / path).is_file())
@@ -213,6 +220,25 @@ class ImageHostTests(unittest.TestCase):
                           if item["job"]["job_id"] == request["packet"]["job_id"])
             record["job"].update(context_json=canonical(context), input_hash=digest(context))
         self.store.mutate(run_id, corrupt)
+        result = self.host.tick()
+        self.assertEqual(result["dispatches"], [])
+        self.assertIn("pinned task context", result["blockers"][0]["reason"])
+        self.assertEqual(self.server.started, [])
+
+    def test_omitting_only_execution_instructions_blocks_native_dispatch(self):
+        run_id = self.run_fixture(count=1)
+        def omit(tx, run):
+            request = next(item for item in run["pool"]["backend"]["requests"].values()
+                           if item["status"] == "queued")
+            context = request["packet"]["context"]
+            context["references"].remove(TASK_EXECUTION_REFERENCE)
+            context["reference_documents"] = [item for item in context["reference_documents"]
+                                               if item["path"] != TASK_EXECUTION_REFERENCE]
+            request["packet"]["input_hash"] = digest(context)
+            record = next(item for item in run["pool"]["scheduler"]["records"]
+                          if item["job"]["job_id"] == request["packet"]["job_id"])
+            record["job"].update(context_json=canonical(context), input_hash=digest(context))
+        self.store.mutate(run_id, omit)
         result = self.host.tick()
         self.assertEqual(result["dispatches"], [])
         self.assertIn("pinned task context", result["blockers"][0]["reason"])

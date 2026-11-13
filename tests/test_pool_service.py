@@ -11,7 +11,7 @@ from urllib.parse import parse_qsl, quote, urlencode, urlsplit, urlunsplit
 import uuid
 
 from ytvideos.errors import Conflict, WorkflowError
-from ytvideos.context import STAGE_REFERENCES
+from ytvideos.context import STAGE_REFERENCES, TASK_EXECUTION_REFERENCE
 from ytvideos.pool_service import PoolService
 from ytvideos.service import Production
 from ytvideos.store import Store
@@ -45,7 +45,7 @@ class PoolServiceTests(unittest.TestCase):
             path.write_text(f"# {name}\nFixture skill.\n")
             entries.append({"name": name, "path": str(path.relative_to(project))})
         (project / ".agent" / "skill-catalog.json").write_text(json.dumps({"skills": entries}))
-        for path in {path for paths in STAGE_REFERENCES.values() for path in paths}:
+        for path in {TASK_EXECUTION_REFERENCE, *(path for paths in STAGE_REFERENCES.values() for path in paths)}:
             document = project / path
             document.parent.mkdir(parents=True, exist_ok=True)
             document.write_text(f"Synthetic requirement: {path}\n")
