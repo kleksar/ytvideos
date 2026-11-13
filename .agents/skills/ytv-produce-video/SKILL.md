@@ -9,7 +9,7 @@ description: "Produce an approved ytvideos script through AI-generated images an
 
 CLI и точные outputs/receipts: [task contract](../../../docs/operations/task-contract.md).
 
-Выполнять только выданный task: `storyboard`, `scene_image`, `audio`, `subtitles` или `render`. Для обычного runtime task прочитать `task_guide`, `production_requirements`, выбранные `reference_documents` и точные inputs/supporting_inputs; проверить actual script approval и lease. Изолированному native worker читать `TASK.json`, `SKILL.md`, `scene`, `channel`, `format`, `required_checks`, файлы `requirements` по `reference_manifest` и артефакты `local_inputs`; coordinator-only поля и workflow CLI ему не нужны. Для узкой правки без run использовать применимые правила и предоставленные артефакты по общей процедуре. Каталог ссылок не заменяет требования.
+Выполнять только выданный task: `storyboard`, `scene_image`, `audio`, `subtitles` или `render`. Для обычного runtime task прочитать `task_guide`, `production_requirements`, выбранные `reference_documents` и точные inputs/supporting_inputs; проверить actual script approval и lease. Изолированному native worker читать `TASK.json`, `SKILL.md`, `scene`, `channel`, `format`, `required_checks`, файлы `requirements` по `reference_manifest` и артефакты `local_inputs`; coordinator-only поля и workflow CLI ему не нужны. Для узкой правки без run получить `instructions` для текущего stage (обложка — `thumbnail`), прочитать все выданные правила и открыть предоставленные артефакты по общей процедуре. Каталог ссылок не заменяет требования.
 
 | Task | Нужные требования | Выход |
 |---|---|---|

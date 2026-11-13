@@ -79,6 +79,16 @@ Task `script` требует capability `sessions.independent`; порядок �
 
 План сообщает сохранённые наблюдения, а `doctor` проверяет фактическое окружение. `audio.listen` для audio/review означает доступный способ реального прослушивания с evidence; FFmpeg-анализ не предоставляет слух. До генерации кратко изложить план человеку по [workflow](../workflow.md#первый-ответ), затем продолжить разрешённую работу без нового approval.
 
+## Инструкции для узкой задачи
+
+```bash
+uv run ytv instructions --channel CHANNEL_ID --stage packaging --format long
+```
+
+Без `run`, БД, providers и нового согласования. Для разработки/пересмотра обложки — `packaging`; для исполнения выбранного brief — `thumbnail`; остальные значения stage совпадают с task context. Команда требует настоящий `channels/<id>/PROFILE.md`, возвращает полный skill и `reference_documents` с SHA-256, `read_next`, channel/status, фактический `channel_configuration` (JSON-профиль либо `null` для ручного канала) и scope `instructions_only`. Для зарегистрированного канала применяется тот же selector/`context_references`, что для нового run; ручной канал не получает выдуманный ChannelSpec или автоматическое разрешение выпуска. Missing/blank/unreadable обязательный документ/skill, неизвестный канал или неоднозначный skill дают ошибку, не частичный успешный packet.
+
+`instructions_only` доказывает наличие выбранных текстов, не чтение/понимание моделью, не полноту реальных media и не QA. Все выданные файлы прочитать целиком, затем выполнить [сверку входов](../../.agents/skills/ytv-start/references/task-execution.md#проверить-полноту-до-исполнения). Для уже существующего run использовать только его pinned `context`; новый helper не мигрирует правила.
+
 ## Требования в контексте
 
 `context.references` — выбранные repo-relative пути; `reference_documents` — соответствующие `{path,sha256,text}`. `task_guide` даёт цель, порядок работы, skill, зависимости/gates, output kind, обязательные checks и следующие задачи. `production_requirements` содержит закреплённый машинный контракт канала. Применение пакета — [preflight skill](../../.agents/skills/ytv-start/references/task-execution.md#до-действия), а не отдельный алгоритм в этом документе.
@@ -166,7 +176,7 @@ uv run ytv next --run RUN_ID
 
 `storyboard` output — JSON `{"scenes":[{"id":"S001","prompt":"Самодостаточное задание","visual_intent":"Смысл кадра"}]}` с необходимыми реальными timing/references/continuity. Если `production_requirements.available_variants` непуст, добавить верхнеуровневый `production_variant` из этого списка: он выбирает канальный рецепт и закрепляется в render manifest. Scene IDs уникальны; приложение создаёт `image:<scene-id>` tasks. Остальные типы — actual media/SRT/QA/release-spec/remote receipts по task context. Файл с удобным расширением не доказывает реальный медиаформат.
 
-`packaging` output — strict `ReleaseSpec` по `src/ytvideos/release.py`, без полей brief/plan/notes. `run_id`, `channel_id`, `revision` и `format` должны совпасть с текущим run; несоответствие отклоняется до создания зависимых обложек. На раннем этапе неизвестные optional `media_sha256`, `thumbnail_sha256` и `ab_variants` опустить, а не заполнять `null` или примерными значениями. `thumbnail_plan` — обязательное имя в `receipt.checks`, рядом с `promise_matches_script` и `metadata`; в observed привести реальную проверку концептов и ссылку на сохранённые briefs. После получения файлов финальный spec связывается через `prepare-release`, без повторного завершения packaging.
+`packaging` output — strict `ReleaseSpec` по `src/ytvideos/release.py`, без полей brief/plan/notes. `run_id`, `channel_id`, `revision` и `format` должны совпасть с текущим run; несоответствие отклоняется до создания зависимых обложек. На раннем этапе неизвестные optional `media_sha256`, `thumbnail_sha256` и `ab_variants` опустить, а не заполнять `null` или примерными значениями. Структура обязательного `thumbnail_plan`, проверки концептов и exact metadata — [контракт обложки](thumbnail-contract.md#план-концептов). После получения файлов финальный spec связывается через `prepare-release`, без повторного завершения packaging.
 
 ## Источники и обложки
 
@@ -181,25 +191,7 @@ uv run python -m ytvideos attach-artifact --run RUN_ID --file license.pdf --kind
 
 Для `licensed_clips` и `music_first` сцена содержит `source_clip` с полями `source_artifact_id`, `rights_artifact_id`, `start_seconds`, `end_seconds`, `authority`. Оба artifacts должны быть зарегистрированы, authority — конкретный источник полномочий. Выход scene task — реальный video extract либо JSON `{"clip_artifact_id":"EXISTING_ARTIFACT_ID","source_clip":{...}}` с тем же pinned source. Проверка связывает bytes, source duration и extraction bounds; editorial rights review остаётся обязательным. Для музыкальных переходов исходный интервал включает полную видимость плана по правилу ниже.
 
-После script approval и завершения packaging создать brief обложки со стабильным `id`, точным выбранным `title`, полными `prompt` и `visual_intent`, а также `references` — списком зарегистрированных artifact IDs либо объектов `{"artifact_id":"ACTUAL_ID"}`. Если художественных refs действительно нет, сохранить пустой список и конкретный `reference_na_reason`; не выдумывать asset ради формы. Title нужен для пары «название + изображение» и не равен автоматически надписи на artwork. Пример формы:
-
-```json
-{
-  "id": "main",
-  "title": "Точное название из выбранного концепта",
-  "prompt": "Полное задание на изображение по канальному профилю",
-  "visual_intent": "Конкретный объект и смысловая связь",
-  "references": ["ACTUAL_REGISTERED_REFERENCE_ID"]
-}
-```
-
-После заполнения фактических значений вызвать:
-
-```bash
-uv run python -m ytvideos add-thumbnail-task --run RUN_ID --brief thumbnail-brief.json
-```
-
-Приложение создаёт `thumbnail:main` со stage `scene_image` и `purpose: thumbnail`. Этот task идёт в общий image pool, зависит от packaging и не ждёт storyboard/render. Созданные обложки становятся зависимостями upload; точный принятый hash затем входит в release spec. Добавлять их до начала upload.
+Создание thumbnail tasks, exact brief/concept binding и независимый review определены в [контракте обложки](thumbnail-contract.md), который входит в packaging и thumbnail packets.
 
 Briefs, план сравнения и последующие наблюдения сохранять отдельными supporting artifacts. Например, после заполнения реальных файлов по [thumbnail experiments](thumbnail-experiments.md#план-сравнения-и-ручная-фиксация):
 
@@ -210,28 +202,6 @@ uv run python -m ytvideos attach-artifact --run RUN_ID --file thumbnail-observat
 ```
 
 Последняя команда применима после фактического наблюдения; пустой план не является результатом. Сохранить возвращённые IDs и hashes, новые наблюдения добавлять отдельными файлами. `attach-artifact` сохраняет bytes/provenance, но не валидирует семантику этих JSON и не включает файл автоматически в `context.inputs` или `supporting_inputs`. Отдельную research note передать по artifact ID/path явно; запись внутри принятого research output доступна packaging через `supporting_inputs`. Не менять завершённый research ради добавления поздних результатов A/B.
-
-Для приёмки thumbnail создать `card.json` с точными `title` из brief и `channel` из `plan.channel.name`, затем canonical previews. Для Short:
-
-```bash
-uv run python automation/helpers/youtube-thumbnails/scripts/thumbnail_previews.py thumbnail.png --out thumbnail-qa --widths 320 --crops 2:3 --card-json card.json --theme both
-```
-
-Для Long передать `--crops` без значения: helper сохранит полный preview без дополнительных кропов. В обоих случаях обязательны просмотр artwork, уменьшения и карточки. Helper не подтверждает читаемость, не проверяет надпись автоматически и не моделирует CTR; actual YouTube surface проверяется отдельно.
-
-Thumbnail task требует check `thumbnail_review` с `method` фактической проверки и `observed` следующей формы:
-
-| Поле `observed` | Содержимое |
-|---|---|
-| `schema` | `ytv-thumbnail-review-v1` |
-| `artifact_sha256`, `title`, `reviewer` | Exact artwork hash, exact brief title и реальный независимый reviewer, отличный от generator worker |
-| `preview_manifest` | `{path, sha256}` canonical `thumbnail-qa/manifest.json` |
-| `phone_preview`, `crop_preview` | `{path, sha256}` файлов из manifest: полный preview и central 2:3 для Short, для Long оба могут указывать на полный preview; ширина каждого 180–360 px |
-| `observations` | Ровно пять непустых наблюдений: `focal_point`, `story_relation`, `title_pair`, `phone_size`, `crop` |
-| `references` | По каждому выбранному ref `{artifact_id, sha256, comparison}`; при пустом списке повторить exact `reference_na_reason` из brief |
-| `evidence` | `{path, sha256}` сохранённого отчёта независимого просмотра |
-
-Core проверяет actual derivative bytes/geometry, карточку с exact title/channel, hashes и полноту сравнений; сохраняет evidence в artifact store. Само создание preview, фраза о бумажной фактуре или обычный `visual_review` не заменяют этот check. Структура evidence не доказывает восприятие автора отчёта или привлекательность картинки: содержательный просмотр выполняется по [thumbnail standard](../standards/thumbnails.md#qa-файла-и-пары).
 
 ## Render manifest и delivery evidence
 

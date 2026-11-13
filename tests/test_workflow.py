@@ -125,6 +125,9 @@ class WorkflowContract(unittest.TestCase):
             review = script_review_observation(path, self.directory / (str(uuid.uuid4()) + "-review.json"),
                                                loop="narrative_loop" in required_checks(task["stage"], self.service.requirements(run)))
         for check in checks:
+            if check["name"] == "thumbnail_plan":
+                from thumbnail_fixtures import plan_fixture
+                check["observed"] = plan_fixture(json.loads(path.read_text()), self.service._artifact(run, "script")["sha256"])
             if check["name"] == "independent_review":
                 check["observed"] = review
             if check["name"] == "narrative_loop":

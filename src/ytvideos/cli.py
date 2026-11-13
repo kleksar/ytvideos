@@ -23,6 +23,11 @@ def parser():
     cli.add_argument("--project-root", type=Path, default=Path(__file__).resolve().parents[2])
     cli.add_argument("--profiles", type=Path)
     sub = cli.add_subparsers(dest="command", required=True)
+    instructions = sub.add_parser("instructions", help="Read complete instructions for a narrow edit; no run or state")
+    instructions.add_argument("--channel", required=True)
+    from .context import STAGE_REFERENCES
+    instructions.add_argument("--stage", required=True, choices=(*STAGE_REFERENCES, "thumbnail"))
+    instructions.add_argument("--format", required=True, choices=("short", "long"))
     profiles = sub.add_parser("profiles", help="Inspect all channel/format requirements before creating a run")
     profiles.add_argument("--channel")
     profiles.add_argument("--format", choices=("short", "long"))
@@ -279,7 +284,10 @@ def dispatch(service, args):
 def main(argv=None):
     args = parser().parse_args(argv)
     try:
-        if args.command == "profiles":
+        if args.command == "instructions":
+            from .context import instruction_packet
+            result = instruction_packet(args.project_root, channel=args.channel, stage=args.stage, format=args.format)
+        elif args.command == "profiles":
             result = inspect_profiles(args.profiles or args.project_root / "channels",
                                       channel=args.channel, format=args.format, project=args.project_root)
         elif args.command == "cross-promotion-plan":

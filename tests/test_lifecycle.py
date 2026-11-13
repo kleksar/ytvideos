@@ -116,6 +116,9 @@ class SyntheticLifecycleTests(unittest.TestCase):
                    "observed": {"fixture_only": True, "artifact_sha256": file_digest(output)}}
                   for name in sorted(names)]
         for check in checks:
+            if check["name"] == "thumbnail_plan":
+                from thumbnail_fixtures import plan_fixture
+                check["observed"] = plan_fixture(json.loads(output.read_text()), self.service._artifact(run, "script")["sha256"])
             if check["name"] == "independent_review":
                 from test_workflow import script_review_observation
                 check["observed"] = script_review_observation(output, self.directory / (str(uuid.uuid4()) + "-review.json"),

@@ -53,7 +53,7 @@ class PoolServiceTests(unittest.TestCase):
         profile_dir.mkdir(parents=True)
         (profile_dir / "channel.json").write_text(json.dumps({
             "schema_version": 1, "id": "test_channel", "name": "Test channel", "status": "active",
-            "language": "en", "recipe": "illustrated", "youtube_channel_id": "TEST_ONLY_CHANNEL", "visual_profile": "test",
+            "language": "en", "recipe": "illustrated", "youtube_channel_id": "UC" + "t" * 22, "visual_profile": "test",
             "release_policy": {}, "budget": {"max_paid_units": 20, "max_task_attempts": 3, "max_editorial_passes": 2},
             "production": {
                 "video": {"codec": "h264", "pix_fmt": "yuv420p", "sample_aspect_ratio": "1:1",
@@ -389,13 +389,8 @@ class PoolServiceTests(unittest.TestCase):
 
         # A previously accepted packaging brief is a fixture input, like the
         # accepted script/storyboard above. Thumbnail planning/dispatch are real.
-        brief = self.root / "packaging-fixture.json"
-        brief.write_text(json.dumps({"title": "Synthetic thumbnail brief"}))
-        artifact = self.production.artifacts.put(brief, "release_spec")
-        def prepared_packaging(tx, run):
-            run["artifacts"][artifact["id"]] = artifact
-            run["tasks"]["packaging"].update(status="complete", outputs=[artifact["id"]])
-        self.store.mutate(run_id, prepared_packaging)
+        from thumbnail_fixtures import seed_packaging
+        seed_packaging(self.production, run_id, self.root, title="Synthetic thumbnail brief", ids=["cover"])
         task = self.production.add_thumbnail_task(run_id, {
             "id": "cover", "prompt": "Synthetic cover image", "visual_intent": "fixture test",
             "title": "Synthetic thumbnail brief", "reference_na_reason": "Synthetic pool routing has no artistic references."})

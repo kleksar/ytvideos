@@ -36,7 +36,8 @@ SQLite использовать для изолированных tests/local ru
 |---|---|
 | Docs, ссылки, skill/catalog | `python scripts/check_repository.py` |
 | Checker/navigation | `uv run --no-sync python -m unittest discover -s tests -p 'test_repository_check.py'` |
-| Task documents, profiles, recipes | `uv run --no-sync python -m unittest discover -s tests -p 'test_context.py'` |
+| Task documents, profiles, recipes | `uv run --no-sync python -m unittest discover -s tests -p 'test_context.py'` и `test_instruction_packet.py` для узкого входа |
+| Концепты/QA обложки | `test_thumbnail_plan.py`, `test_thumbnail_review.py`, затем native host/pool regressions |
 | State, approvals, releases | Соответствующий `tests/test_*.py`, затем общий core suite из setup |
 | Media/YouTube helper | `unittest discover -s automation/<нужная suite> -p 'test_*.py'` в locked environment |
 

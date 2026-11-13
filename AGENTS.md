@@ -17,7 +17,7 @@ uv run ytv start --channel CHANNEL_ID --format short --intent 'точный за
 | Новый сюжет/видео, продолжение, готовый сценарий для производства | [ytv-start](.agents/skills/ytv-start/SKILL.md) |
 | Статус, восстановление, отмена, очистка | [ytv-operate](.agents/skills/ytv-operate/SKILL.md) |
 | Код, документация, skills, профиль канала | [ytv-maintain](.agents/skills/ytv-maintain/SKILL.md) |
-| Узкая редактура текста или упаковки | Соответствующий skill из [каталога](.agent/skill-catalog.md), сохраняя область запроса |
+| Узкая редактура текста или упаковки | `ytv instructions --channel CHANNEL_ID --stage STAGE --format short\|long`, затем выданный skill и все документы; без создания run |
 
 План сообщает канал/формат, принятые входы, этапы, требования и реальные блокеры без дополнительного согласования. Bundle для новой работы не нужен.
 
