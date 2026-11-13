@@ -206,7 +206,7 @@ class SyntheticLifecycleTests(unittest.TestCase):
             "sources": [{"url": "https://example.com/synthetic-fixture", "fixture_only": True}]})
         self.finish("script", SCRIPT)
         self.assertEqual(self.service.next(self.run_id)["status"], "awaiting_script_approval")
-        self.service.approve(self.approval("script"))
+        self.approve_gate("script")
         claims = {task: self.service.claim(self.run_id, task, "fixture-worker-" + task)
                   for task in ("storyboard", "audio", "packaging")}
         self.finish("packaging", self.plan, claim=claims["packaging"])
@@ -256,10 +256,30 @@ class SyntheticLifecycleTests(unittest.TestCase):
                 "observed_value": requirement.expected})
         return {"receipts": receipts, "evidence_files": files}
 
+    def approve_gate(self, kind):
+        if self.public_key is not None:
+            return self.service.approve(self.approval(kind))
+        run = self.store.get(self.run_id)
+        task = "script" if kind == "script" else "render"
+        artifact = run["artifacts"][run["tasks"][task]["outputs"][0]]
+        return self.service.approve_local(self.run_id, kind, revision=run["revision"], sha256=artifact["sha256"],
+            source=f"fixture://local-owner/{kind}", message="Explicit fixture approval")
+
     def test_full_signed_lifecycle_reaches_verified_private_future_schedule(self):
+        self.exercise_full_lifecycle()
+
+    def test_full_local_lifecycle_without_key_or_bridge_preserves_release_contracts(self):
+        self.public_key = None
+        self.service = self.restarted_service()
+        self.exercise_full_lifecycle()
+        proofs = self.store.get(self.run_id)["approvals"]
+        self.assertEqual({proof["authority"] for proof in proofs.values()}, {"local_session"})
+        self.assertEqual(proofs["mp4"]["scope"], "accept_video")
+
+    def exercise_full_lifecycle(self):
         video = self.produce_to_mp4_review()
         spec, _ = self.bound_spec(video)  # Preparation is permitted before MP4 approval.
-        self.service.approve(self.approval("mp4"))
+        self.approve_gate("mp4")
         uploaded = {"channel_id": spec.channel_id, "video_id": VIDEO_ID, "privacy": "private",
                     "media_sha256": file_digest(video), "processing_status": "succeeded"}
         self.finish("upload", uploaded, action="upload", values=uploaded)

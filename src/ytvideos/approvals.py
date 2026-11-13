@@ -1,8 +1,7 @@
-"""Verification boundary for events supplied by the trusted chat/operator bridge.
+"""Optional signed ingress for hosts that isolate user decisions from workers.
 
-Signing is deliberately NOT a model tool or CLI command. The signing key belongs
-to the host receiving real user messages, not to the worker's environment. A
-model-authored receipt, an event ID by itself, or a JSON accepted=true is no proof.
+The default single-owner path is Production.approve_local. Signing remains a host
+capability, never a model tool; a failed signed request cannot become local input.
 """
 
 import base64
