@@ -1,20 +1,9 @@
-**Сверка с `main` 96c8fa1573c0:** сюжетный Draft PR — текстовый preproduction, не `ytv start` run и не принятый сценарий. Для перехода к производству нужны независимый reviewer, истинный `awaiting_script_approval` и отдельное решение пользователя; детали в [handoff.md](handoff.md).
+# Paper Detour — maple syrup heist, spoken revision
 
-# Paper Detour story draft — The $18 Million Maple Syrup Heist
+**[Читать русский сценарий](script.ru.txt)** · **[English narration](script.en.txt)**
 
-**[Полный русский сценарий](script.ru.txt)** · **[English narration master](script.en.txt)**
+Бочка сдвинулась под рукой бухгалтера. За ней нашлись другие пустые бочки, а затем — заполненные водой вместо сиропа. Так обнаружили многомесячную кражу запасов производителей Квебека. Последствия дошли до Верховного суда.
 
-**История:** В ходе инвентаризации в Квебеке бухгалтер чуть не падает со штабеля бочек. Пустые и заполненные водой бочки раскрывают многомесячную кражу запасов кленового сиропа стоимостью более $18 млн. Грузовики, посредники, расследование, аресты и судебный штраф приводят историю к финалу; всё начинается с одной бочки.
+Current proposal follows the owner's natural-speech preference from #20/#25. It has **11 EN/RU blocks** with synchronized provisional [storyboard](storyboard.json), [review](story-review.md), [packaging](packaging-brief.md) and [handoff](handoff.md). Existing [research](research.md) preserves facts and uncertainty. Original full package is pinned at commit `78c54c7788afba8bea85a3f885d7a2525b943d8c`.
 
-**Status:** Draft / owner approval pending / independent first-reader unverified / no production media.
-
-## Contents
-- `research.md` — genuine review of ten distinct stories, three finalists, source matrix and demand limitations.
-- `script.ru.txt` — complete Russian editorial reading copy (not audio master).
-- `script.en.txt` — complete English narration for future Paper TTS.
-- `story-review.md` — reviewer protocol and self-check, audience interest UNVERIFIED.
-- `storyboard.json` — 12 provisional paper visual prompts with EN/RU narration; 64.9s provisional grid only.
-- `packaging-brief.md` — titles, thumbnail promises and early payoff.
-- `handoff.md` — exact downstream steps, unknowns and approval boundary.
-
-No AI images, TTS, subtitles, MP4, upload or publication created. This PR changes only text story assets.
+**EDITORIAL_CANDIDATE_UNREGISTERED.** New text has not passed independent review or owner acceptance. Timing is unmeasured; all previous duration/word-count estimates and reviews are stale for this revision. No media, production run, merge or upload.

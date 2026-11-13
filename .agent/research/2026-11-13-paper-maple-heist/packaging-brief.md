@@ -1,22 +1,11 @@
-# Packaging hypotheses — not final metadata
+# Packaging proposals — current maple syrup narration
 
-**Primary Short title:** They Stole $18M in Maple Syrup. One Barrel Gave Them Away. #Shorts
-**Primary thumbnail text:** THE EMPTY BARREL
-**Composition:** original full-frame AI layered-paper industrial warehouse, a single steel drum tilts under a small auditor's grasp in a tower of six-high stacks. Clear legible human/physical stakes, tactile paper depth, subject centrally safe for Short crop. No fake archival photograph.
-**Expected tone:** surprising true crime with an almost comic commodity, but grounded and respectful.
-**First confirmation:** S001 unstable barrel + S002 theft amount; **full payoff:** water substitution S006, evidence of resale S007–S008, investigations S009–S011.
-**Misreadings to exclude:** accountant did not die or actually fall, no $18m cash hidden in a barrel, court fine is not a confirmed amount already repaid.
+Not approved metadata or generated artwork. English Short for Paper Detour.
 
-**Alternative title:** A $18 Million Maple Syrup Heist — Exposed by One Barrel #Shorts
-**Alternative thumbnail text:** WATER INSIDE?!
-**Alternative composition:** a warehouse inspector unscrews a syrup drum and discovers clear water, tactile folded paper industrial cutaway. Weaker open question because the midpoint is visible early; potential comparison only.
+**Primary:** `The $18 Million Maple Syrup Heist` / paper thumbnail lettering `THE EMPTY BARREL`. Show an auditor gripping a shifted drum atop warehouse stacks, in one full-frame tactile paper diorama. First proof: S001–S002; water reveal S006; legal consequence S010. No actual fall, cash cache or federal-government ownership implied.
 
-**Third title idea:** The Warehouse That Lost 9,571 Barrels of Maple Syrup #Shorts
-**Third thumbnail text:** $18M MISSING
-**Third composition:** a huge paper warehouse inventory grid with one tilted barrel in foreground; likely too much visual clutter, keep as lower-priority hypothesis.
+**Alternative:** `The Syrup Was Gone. The Barrels Were Still Full.` / `WATER INSIDE`. One opened industrial drum holding clear water, contrasted with a small amber syrup sample. Truthful but reveals the midpoint early; verify actual viewer promise and phone crop.
 
-**Suggested description (not release):** A routine inventory check in Quebec uncovered a maple syrup theft worth more than $18 million. One unexpectedly light barrel started the investigation.
-**Suggested hashtags:** #Shorts #PaperDetour #MapleSyrup #TrueCrime
-**Paper-plane engagement idea (comment only after authorized upload):** Did you spot our little paper plane in the warehouse? Which barrel clue would have tipped you off?
+**Alternative:** `What Gave Away a $18 Million Heist?` / `ONE BARREL`. The same ordinary object at a different dramatic angle, not a near-duplicate final thumbnail file. The full answer is delivered before the question-form loop.
 
-No imagery generated, Shorts native A/B not claimed. Final typography and thumbnail master require actual AI source generation, 320px/phone QA, and current Paper profile rules.
+All imagery must follow current Paper style and AI-source rules, including actual reference verification. The current plan has eleven scenes; S011 repeats S001 rather than needing a new image. S008 paper-plane cameo is a nonhistorical channel motif; prepare, but do not post, the customary viewer discovery question. Do not claim native Shorts A/B or predicted CTR.
