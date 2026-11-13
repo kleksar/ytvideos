@@ -1,0 +1,285 @@
+{
+  "schema_version": 1,
+  "kind": "PRE_APPROVAL_TEXT_ONLY_STORYBOARD",
+  "channel_id": "nuviko_history",
+  "format": "short",
+  "channel_status_at_selection": "active",
+  "narration_language": "en",
+  "translation_language": "ru",
+  "script_en": "script.en.txt",
+  "script_ru": "script.ru.txt",
+  "script_revision_en_blob_sha": "61de1647328dfa1d192dc2d67aea78049a401dc6",
+  "script_revision_ru_blob_sha": "0210419bce3bf6629dd4b5dbdf8e6e4141c3abfb",
+  "author_review": "story-review.md",
+  "independent_first_listener": "UNVERIFIED",
+  "independent_bilingual_review": "UNVERIFIED",
+  "owner_approval": "NOT_RECEIVED",
+  "video_production": "NOT_AUTHORIZED",
+  "scene_estimation_note": "These 15 per-image 4–6s scene targets total 84s, a rough design grid only; actual ElevenLabs narration length at effective speed 1.10x has not been measured. Recut scene count and screen timing after approved real audio; no assumption each paragraph corresponds to exactly one final still.",
+  "layout": "One continuous full-frame photorealistic historical reconstruction per scene; direct cuts, whole-frame scale/pan only; no parallax, no masks, no decorative frames, no extra narrative text. 2D host omitted.",
+  "reference_status": "Nuviko two approved traveler PNGs are indexed but actual image bytes/hash were not inspected because the traveler is intentionally absent from these provisional images. Future production must check precise visual references as requested by channel profile.",
+  "loop_plan": {
+    "textual_end_to_start": "AUTHORIAL_PASS",
+    "independent_listener": "UNVERIFIED",
+    "audio_visual_seam": "UNVERIFIED",
+    "last_two_en": [
+      "Balto's team travelled about eighty kilometres. Togo had led the relay's longest and most dangerous section.",
+      "The dog at the finish became the famous one. But the hardest journey began with another dog:"
+    ],
+    "first_two_en": [
+      "An experienced sled dog crossed dangerous sea ice to help deliver medicine to sick children.",
+      "His name was Togo. In 1925, diphtheria threatened the remote Alaskan town of Nome."
+    ],
+    "last_two_ru": [
+      "Упряжка Балто прошла примерно восемьдесят километров. А Того возглавлял упряжку на самом длинном и опасном участке эстафеты.",
+      "Пёс, пришедший к финишу, стал знаменитым. Но самый трудный путь начался с другого пса:"
+    ],
+    "first_two_ru": [
+      "Опытный ездовой пёс пересекал опасный морской лёд, чтобы помочь доставить лекарство больным детям.",
+      "Его звали Того. В 1925 году дифтерия угрожала отдалённому аляскинскому городу Ном."
+    ],
+    "continuity": "S015 sea ice wide composition should direct-cut to S001 closer angle of the same outbound trip, aligning dog orientation, coast/ice direction and natural daylight; does not imply another crossing after the serum delivered."
+  },
+  "scenes": [
+    {
+      "id": "S001",
+      "narration": "An experienced sled dog crossed dangerous sea ice to help deliver medicine to sick children.",
+      "narration_ru": "Опытный ездовой пёс пересекал опасный морской лёд, чтобы помочь доставить лекарство больным детям.",
+      "visual_intent": "First-second image: Togo leads across broken sea ice; human/animal stakes before exposition",
+      "ai_image_prompt": "English vertical documentary Short for Nuviko History, 9:16 1440x2560 target. One full-frame coherent hyperphotorealistic still as if a present-day crew recreated an authentic 1925 historical scene on location; natural muted cold color, real photographed-looking clothing, instruments, dogs, buildings, environment and natural perspective, strong coherent lighting, anatomically sound dogs and harnesses and physical contact shadows; historically plausible 1925 Alaska or the New York Central Park 1925 unveiling where specified. No graphic interface, split-screen, vector arrows, diagrams, digital text overlays, baked subtitles, extraneous typography, AI text gibberish, modern technology, contemporary clothing, decorative external border, moving disconnected layers, parallax, invented catastrophic injuries. 2D illustrated Nuviko traveler is OMITTED because not factually an actor; when someday used elsewhere, approved two PNG references and exact profile must be obtained. Scene must stand alone visually without relying on previous images. Extra-wide low front three-quarter shot: a lean compact dark brown/black/cream Siberian husky lead dog with ice-blue eyes in leather harness, towing an authentic 1925 wood-and-canvas freight sled with a bundled musher and a team behind; enormous sharp-edged drifting plates of frozen seawater under weak Arctic daylight, dark ink-blue open water fissures in foreground, no active medicine package yet; 1920s Alaskan sea ice, filmic low perspective; dog feet physically planted on ice, proper harness-to-sled connection.",
+      "continuity": {
+        "togo_coat": "dark brown / cream / black, pale blue eyes, compact working husky",
+        "time_period": "1925",
+        "factual_note": "Togo outward trip has NO serum on sled; handoff only S008, return S009"
+      },
+      "provisional_scene_seconds": 5.6,
+      "whole_frame_camera_suggestion": "gentle pan of entire still frame",
+      "asset_status": "NOT_GENERATED",
+      "final_timing_status": "UNVERIFIED"
+    },
+    {
+      "id": "S002",
+      "narration": "His name was Togo. In 1925, diphtheria threatened the remote Alaskan town of Nome.",
+      "narration_ru": "Его звали Того. В 1925 году дифтерия угрожала отдалённому аляскинскому городу Ном.",
+      "visual_intent": "Identify Togo and medical urgency in Nome",
+      "ai_image_prompt": "English vertical documentary Short for Nuviko History, 9:16 1440x2560 target. One full-frame coherent hyperphotorealistic still as if a present-day crew recreated an authentic 1925 historical scene on location; natural muted cold color, real photographed-looking clothing, instruments, dogs, buildings, environment and natural perspective, strong coherent lighting, anatomically sound dogs and harnesses and physical contact shadows; historically plausible 1925 Alaska or the New York Central Park 1925 unveiling where specified. No graphic interface, split-screen, vector arrows, diagrams, digital text overlays, baked subtitles, extraneous typography, AI text gibberish, modern technology, contemporary clothing, decorative external border, moving disconnected layers, parallax, invented catastrophic injuries. 2D illustrated Nuviko traveler is OMITTED because not factually an actor; when someday used elsewhere, approved two PNG references and exact profile must be obtained. Scene must stand alone visually without relying on previous images. A close human-scale 1925 frontier town Nome Alaska winter street: timber houses, low hospital, few residents in wool coats and fur-lined hats, a period doctor carrying an empty brown glass medicine vial in a wood-and-paper record case outside a hospital door, small sick children's silhouettes seen through frost-glazed window without sensationalizing illness; Togo waiting with musher in foreground, dog body silhouette consistent with S001; overcast daylight, early 20th-century equipment only.",
+      "continuity": {
+        "togo_coat": "dark brown / cream / black, pale blue eyes, compact working husky",
+        "time_period": "1925",
+        "factual_note": ""
+      },
+      "provisional_scene_seconds": 5.4,
+      "whole_frame_camera_suggestion": "single whole-frame zoom in",
+      "asset_status": "NOT_GENERATED",
+      "final_timing_status": "UNVERIFIED"
+    },
+    {
+      "id": "S003",
+      "narration": "Ships couldn't reach its frozen port, and planes were too risky. The town urgently needed antitoxin.",
+      "narration_ru": "Суда не могли войти в замёрзший порт, а лететь самолётом было слишком рискованно. Городу срочно требовалась противодифтерийная сыворотка.",
+      "visual_intent": "Normal transport blocked; build urgency through environment",
+      "ai_image_prompt": "English vertical documentary Short for Nuviko History, 9:16 1440x2560 target. One full-frame coherent hyperphotorealistic still as if a present-day crew recreated an authentic 1925 historical scene on location; natural muted cold color, real photographed-looking clothing, instruments, dogs, buildings, environment and natural perspective, strong coherent lighting, anatomically sound dogs and harnesses and physical contact shadows; historically plausible 1925 Alaska or the New York Central Park 1925 unveiling where specified. No graphic interface, split-screen, vector arrows, diagrams, digital text overlays, baked subtitles, extraneous typography, AI text gibberish, modern technology, contemporary clothing, decorative external border, moving disconnected layers, parallax, invented catastrophic injuries. 2D illustrated Nuviko traveler is OMITTED because not factually an actor; when someday used elsewhere, approved two PNG references and exact profile must be obtained. Scene must stand alone visually without relying on previous images. An expansive frozen Nome harbour, dark water completely sealed by rough ice below weathered wooden jetties, unpowered early-20th-century cargo boat moored in frozen waters with snow-laden tackle, onshore warehouse and a dark winter horizon in cold blue twilight; no aircraft actually shown as grounded at Nome because their historical location is not verified. The mood is still and inaccessible.",
+      "continuity": {
+        "togo_coat": "dark brown / cream / black, pale blue eyes, compact working husky",
+        "time_period": "1925",
+        "factual_note": ""
+      },
+      "provisional_scene_seconds": 5.4,
+      "whole_frame_camera_suggestion": "single whole-frame zoom out",
+      "asset_status": "NOT_GENERATED",
+      "final_timing_status": "UNVERIFIED"
+    },
+    {
+      "id": "S004",
+      "narration": "Twenty dog-sled teams would relay the medicine from a railway hundreds of miles away.",
+      "narration_ru": "Двадцать собачьих упряжек должны были передавать лекарство друг другу от железной дороги за сотни километров.",
+      "visual_intent": "Establish relay chain, tangible actual cargo",
+      "ai_image_prompt": "English vertical documentary Short for Nuviko History, 9:16 1440x2560 target. One full-frame coherent hyperphotorealistic still as if a present-day crew recreated an authentic 1925 historical scene on location; natural muted cold color, real photographed-looking clothing, instruments, dogs, buildings, environment and natural perspective, strong coherent lighting, anatomically sound dogs and harnesses and physical contact shadows; historically plausible 1925 Alaska or the New York Central Park 1925 unveiling where specified. No graphic interface, split-screen, vector arrows, diagrams, digital text overlays, baked subtitles, extraneous typography, AI text gibberish, modern technology, contemporary clothing, decorative external border, moving disconnected layers, parallax, invented catastrophic injuries. 2D illustrated Nuviko traveler is OMITTED because not factually an actor; when someday used elsewhere, approved two PNG references and exact profile must be obtained. Scene must stand alone visually without relying on previous images. Inside the realistic 1925 Nenana, Alaska wooden railway-side baggage shed with a soot-black steam locomotive under a snowy wooden awning, small sealed antitoxin parcel being carefully handed from a railway worker to the first bundled dog-sled musher; freight sled with harnessed huskies waits outside by rail; high clarity of medicine handoff (no glowing fake vial, no unverified labels), cold light from open door.",
+      "continuity": {
+        "togo_coat": "dark brown / cream / black, pale blue eyes, compact working husky",
+        "time_period": "1925",
+        "factual_note": ""
+      },
+      "provisional_scene_seconds": 5.7,
+      "whole_frame_camera_suggestion": "gentle pan of entire still frame",
+      "asset_status": "NOT_GENERATED",
+      "final_timing_status": "UNVERIFIED"
+    },
+    {
+      "id": "S005",
+      "narration": "But Togo and his driver, Leonhard Seppala, left Nome, racing toward the incoming relay.",
+      "narration_ru": "Но Того и его каюр Леонард Сеппала отправились из Нома навстречу эстафете.",
+      "visual_intent": "The lead musher leaves Nome heading toward medicine, not carrying it",
+      "ai_image_prompt": "English vertical documentary Short for Nuviko History, 9:16 1440x2560 target. One full-frame coherent hyperphotorealistic still as if a present-day crew recreated an authentic 1925 historical scene on location; natural muted cold color, real photographed-looking clothing, instruments, dogs, buildings, environment and natural perspective, strong coherent lighting, anatomically sound dogs and harnesses and physical contact shadows; historically plausible 1925 Alaska or the New York Central Park 1925 unveiling where specified. No graphic interface, split-screen, vector arrows, diagrams, digital text overlays, baked subtitles, extraneous typography, AI text gibberish, modern technology, contemporary clothing, decorative external border, moving disconnected layers, parallax, invented catastrophic injuries. 2D illustrated Nuviko traveler is OMITTED because not factually an actor; when someday used elsewhere, approved two PNG references and exact profile must be obtained. Scene must stand alone visually without relying on previous images. Cinematic wide profile: historically plausible Norwegian-Alaskan musher Leonhard Seppala in 1925 heavy wool and fur layers steering an empty-of-medicine wooden sled harnessed behind a compact dark-brown husky with cream markings, departing a recognizable line of Nome weathered houses into flat winter horizon; other huskies pull in synchronized anatomically sensible positions, side-on tracking-photo look, long low sun and visible white breath.",
+      "continuity": {
+        "togo_coat": "dark brown / cream / black, pale blue eyes, compact working husky",
+        "time_period": "1925",
+        "factual_note": "Togo outward trip has NO serum on sled; handoff only S008, return S009"
+      },
+      "provisional_scene_seconds": 5.6,
+      "whole_frame_camera_suggestion": "single whole-frame zoom in",
+      "asset_status": "NOT_GENERATED",
+      "final_timing_status": "UNVERIFIED"
+    },
+    {
+      "id": "S006",
+      "narration": "They cut across the ice of Norton Sound, hoping to intercept the medicine.",
+      "narration_ru": "Они срезали путь по льду залива Нортон, надеясь перехватить лекарство.",
+      "visual_intent": "First dangerous shortcut across Norton Sound, route visually specific",
+      "ai_image_prompt": "English vertical documentary Short for Nuviko History, 9:16 1440x2560 target. One full-frame coherent hyperphotorealistic still as if a present-day crew recreated an authentic 1925 historical scene on location; natural muted cold color, real photographed-looking clothing, instruments, dogs, buildings, environment and natural perspective, strong coherent lighting, anatomically sound dogs and harnesses and physical contact shadows; historically plausible 1925 Alaska or the New York Central Park 1925 unveiling where specified. No graphic interface, split-screen, vector arrows, diagrams, digital text overlays, baked subtitles, extraneous typography, AI text gibberish, modern technology, contemporary clothing, decorative external border, moving disconnected layers, parallax, invented catastrophic injuries. 2D illustrated Nuviko traveler is OMITTED because not factually an actor; when someday used elsewhere, approved two PNG references and exact profile must be obtained. Scene must stand alone visually without relying on previous images. Extremely high coastal vantage: tiny linked husky team with dark-coated lead dog skirting unstable but still solid plates of Norton Sound sea ice, a steep shore ridge on left and broken dark water far right, dramatic huge natural scale and blowing powdery snow; foreground detailed frozen wave ridges, no visible serum cargo yet. A single meaningful diagonal leads from safe shore to uncertain sea crossing.",
+      "continuity": {
+        "togo_coat": "dark brown / cream / black, pale blue eyes, compact working husky",
+        "time_period": "1925",
+        "factual_note": "Togo outward trip has NO serum on sled; handoff only S008, return S009"
+      },
+      "provisional_scene_seconds": 5.5,
+      "whole_frame_camera_suggestion": "single whole-frame zoom out",
+      "asset_status": "NOT_GENERATED",
+      "final_timing_status": "UNVERIFIED"
+    },
+    {
+      "id": "S007",
+      "narration": "Without Seppala knowing, the plan changed. Extra teams had joined the route.",
+      "narration_ru": "Сеппала не знал, что план изменился. К эстафете присоединились дополнительные упряжки.",
+      "visual_intent": "Unannounced change to plan; communicate logistics without fake chart overlays",
+      "ai_image_prompt": "English vertical documentary Short for Nuviko History, 9:16 1440x2560 target. One full-frame coherent hyperphotorealistic still as if a present-day crew recreated an authentic 1925 historical scene on location; natural muted cold color, real photographed-looking clothing, instruments, dogs, buildings, environment and natural perspective, strong coherent lighting, anatomically sound dogs and harnesses and physical contact shadows; historically plausible 1925 Alaska or the New York Central Park 1925 unveiling where specified. No graphic interface, split-screen, vector arrows, diagrams, digital text overlays, baked subtitles, extraneous typography, AI text gibberish, modern technology, contemporary clothing, decorative external border, moving disconnected layers, parallax, invented catastrophic injuries. 2D illustrated Nuviko traveler is OMITTED because not factually an actor; when someday used elsewhere, approved two PNG references and exact profile must be obtained. Scene must stand alone visually without relying on previous images. Historical 1925 relay stopping station in Shaktoolik: two additional bundled mushers fastening harnesses onto new dog teams outside a simple snow-drifted timber roadhouse, one person inside doorway holds a folded period paper travel plan with handwritten dots and no readable invented exact map or quotation; palpable contrast with the already underway first route; no Seppala or Togo present in this scene.",
+      "continuity": {
+        "togo_coat": "dark brown / cream / black, pale blue eyes, compact working husky",
+        "time_period": "1925",
+        "factual_note": "Togo outward trip has NO serum on sled; handoff only S008, return S009"
+      },
+      "provisional_scene_seconds": 5.5,
+      "whole_frame_camera_suggestion": "gentle pan of entire still frame",
+      "asset_status": "NOT_GENERATED",
+      "final_timing_status": "UNVERIFIED"
+    },
+    {
+      "id": "S008",
+      "narration": "He nearly passed the team carrying the antitoxin. At the last moment, the drivers met.",
+      "narration_ru": "Он чуть не прошёл мимо команды с сывороткой. В последний момент каюры встретились.",
+      "visual_intent": "Near miss and critical transfer by Henry Ivanoff",
+      "ai_image_prompt": "English vertical documentary Short for Nuviko History, 9:16 1440x2560 target. One full-frame coherent hyperphotorealistic still as if a present-day crew recreated an authentic 1925 historical scene on location; natural muted cold color, real photographed-looking clothing, instruments, dogs, buildings, environment and natural perspective, strong coherent lighting, anatomically sound dogs and harnesses and physical contact shadows; historically plausible 1925 Alaska or the New York Central Park 1925 unveiling where specified. No graphic interface, split-screen, vector arrows, diagrams, digital text overlays, baked subtitles, extraneous typography, AI text gibberish, modern technology, contemporary clothing, decorative external border, moving disconnected layers, parallax, invented catastrophic injuries. 2D illustrated Nuviko traveler is OMITTED because not factually an actor; when someday used elsewhere, approved two PNG references and exact profile must be obtained. Scene must stand alone visually without relying on previous images. Ground-level cinematic telephoto look along a narrow snowy Alaska trail by Shaktoolik in a whiteout: Seppala's dark-and-cream lead husky Togo approaches from one direction as another period dog sled team approaches in opposite direction, both historically plausible mushers raise arms and wave on seeing one another; a small wrapped parcel is visible only on the second driver's sled. The two crews barely within sight in low visibility, distinct team directions and actual physical sled traces, no textual speech bubbles.",
+      "continuity": {
+        "togo_coat": "dark brown / cream / black, pale blue eyes, compact working husky",
+        "time_period": "1925",
+        "factual_note": ""
+      },
+      "provisional_scene_seconds": 6,
+      "whole_frame_camera_suggestion": "single whole-frame zoom in",
+      "asset_status": "NOT_GENERATED",
+      "final_timing_status": "UNVERIFIED"
+    },
+    {
+      "id": "S009",
+      "narration": "Seppala took the medicine, turned back, and crossed the same dangerous ice.",
+      "narration_ru": "Сеппала забрал лекарство, повернул обратно и снова пересёк опасный лёд.",
+      "visual_intent": "Now carrying antitoxin, Seppala turns back over the same dangerous ice",
+      "ai_image_prompt": "English vertical documentary Short for Nuviko History, 9:16 1440x2560 target. One full-frame coherent hyperphotorealistic still as if a present-day crew recreated an authentic 1925 historical scene on location; natural muted cold color, real photographed-looking clothing, instruments, dogs, buildings, environment and natural perspective, strong coherent lighting, anatomically sound dogs and harnesses and physical contact shadows; historically plausible 1925 Alaska or the New York Central Park 1925 unveiling where specified. No graphic interface, split-screen, vector arrows, diagrams, digital text overlays, baked subtitles, extraneous typography, AI text gibberish, modern technology, contemporary clothing, decorative external border, moving disconnected layers, parallax, invented catastrophic injuries. 2D illustrated Nuviko traveler is OMITTED because not factually an actor; when someday used elsewhere, approved two PNG references and exact profile must be obtained. Scene must stand alone visually without relying on previous images. Close rear three-quarter 1925 seaward return shot, Seppala kneeling to secure wrapped antitoxin parcel inside the timber sled's cargo bag before turning team onto sea ice; same dark-and-cream compact lead dog Togo looks toward a razor-thin safe crossing ahead; contrasting warmer parcel detail against bleak gray Arctic water, human hands properly grip straps, no invented single bottled serum exposed to freezing weather.",
+      "continuity": {
+        "togo_coat": "dark brown / cream / black, pale blue eyes, compact working husky",
+        "time_period": "1925",
+        "factual_note": ""
+      },
+      "provisional_scene_seconds": 5.8,
+      "whole_frame_camera_suggestion": "single whole-frame zoom out",
+      "asset_status": "NOT_GENERATED",
+      "final_timing_status": "UNVERIFIED"
+    },
+    {
+      "id": "S010",
+      "narration": "An old dog by racing standards, Togo covered more than four hundred kilometres with Seppala on this mission.",
+      "narration_ru": "По меркам гонок Того был уже немолод. В этой поездке он преодолел вместе с Сеппалой больше четырёхсот километров.",
+      "visual_intent": "Togo's exceptional distance shown through grueling effort, not numeric infographic",
+      "ai_image_prompt": "English vertical documentary Short for Nuviko History, 9:16 1440x2560 target. One full-frame coherent hyperphotorealistic still as if a present-day crew recreated an authentic 1925 historical scene on location; natural muted cold color, real photographed-looking clothing, instruments, dogs, buildings, environment and natural perspective, strong coherent lighting, anatomically sound dogs and harnesses and physical contact shadows; historically plausible 1925 Alaska or the New York Central Park 1925 unveiling where specified. No graphic interface, split-screen, vector arrows, diagrams, digital text overlays, baked subtitles, extraneous typography, AI text gibberish, modern technology, contemporary clothing, decorative external border, moving disconnected layers, parallax, invented catastrophic injuries. 2D illustrated Nuviko traveler is OMITTED because not factually an actor; when someday used elsewhere, approved two PNG references and exact profile must be obtained. Scene must stand alone visually without relying on previous images. Intimate physically credible 1925 ice-road stop near simple canvas winter shelter: veteran husky Togo, identifiable dark brown / cream coat and ice-blue eyes, stands firmly harnessed and windblown, visibly alert rather than wounded or collapsing; snow gathers along ropes and fur, Seppala bends to check harness buckle with gloved fingers, long continuous sled tracks and distant coastal ridge recede into bleak background; close-up dog's calm determined expression.",
+      "continuity": {
+        "togo_coat": "dark brown / cream / black, pale blue eyes, compact working husky",
+        "time_period": "1925",
+        "factual_note": ""
+      },
+      "provisional_scene_seconds": 5.4,
+      "whole_frame_camera_suggestion": "gentle pan of entire still frame",
+      "asset_status": "NOT_GENERATED",
+      "final_timing_status": "UNVERIFIED"
+    },
+    {
+      "id": "S011",
+      "narration": "Finally, they handed off the medicine. Other teams carried it through the Alaskan winter.",
+      "narration_ru": "Наконец они передали лекарство дальше. Другие упряжки повезли его сквозь аляскинскую зиму.",
+      "visual_intent": "Actual next handoff and relay support",
+      "ai_image_prompt": "English vertical documentary Short for Nuviko History, 9:16 1440x2560 target. One full-frame coherent hyperphotorealistic still as if a present-day crew recreated an authentic 1925 historical scene on location; natural muted cold color, real photographed-looking clothing, instruments, dogs, buildings, environment and natural perspective, strong coherent lighting, anatomically sound dogs and harnesses and physical contact shadows; historically plausible 1925 Alaska or the New York Central Park 1925 unveiling where specified. No graphic interface, split-screen, vector arrows, diagrams, digital text overlays, baked subtitles, extraneous typography, AI text gibberish, modern technology, contemporary clothing, decorative external border, moving disconnected layers, parallax, invented catastrophic injuries. 2D illustrated Nuviko traveler is OMITTED because not factually an actor; when someday used elsewhere, approved two PNG references and exact profile must be obtained. Scene must stand alone visually without relying on previous images. Historically plausible Golovin 1925 roadhouse exterior at night: Seppala's exhausted-yet-standing dog team at left, a second musher beside a freshly harnessed team at right, gloved hands exchanging one tied antitoxin parcel in lamplight between wooden sled bags; small wooden cabins and fur-lined coats, accurate contact/rope connections, no imaginary modern emergency ambulance.",
+      "continuity": {
+        "togo_coat": "dark brown / cream / black, pale blue eyes, compact working husky",
+        "time_period": "1925",
+        "factual_note": ""
+      },
+      "provisional_scene_seconds": 5.6,
+      "whole_frame_camera_suggestion": "single whole-frame zoom in",
+      "asset_status": "NOT_GENERATED",
+      "final_timing_status": "UNVERIFIED"
+    },
+    {
+      "id": "S012",
+      "narration": "Less than six days after leaving the railway, the antitoxin reached Nome.",
+      "narration_ru": "Менее чем через шесть дней после отправления от железной дороги сыворотка добралась до Нома.",
+      "visual_intent": "Medicine arrives, promised survival payoff delivered",
+      "ai_image_prompt": "English vertical documentary Short for Nuviko History, 9:16 1440x2560 target. One full-frame coherent hyperphotorealistic still as if a present-day crew recreated an authentic 1925 historical scene on location; natural muted cold color, real photographed-looking clothing, instruments, dogs, buildings, environment and natural perspective, strong coherent lighting, anatomically sound dogs and harnesses and physical contact shadows; historically plausible 1925 Alaska or the New York Central Park 1925 unveiling where specified. No graphic interface, split-screen, vector arrows, diagrams, digital text overlays, baked subtitles, extraneous typography, AI text gibberish, modern technology, contemporary clothing, decorative external border, moving disconnected layers, parallax, invented catastrophic injuries. 2D illustrated Nuviko traveler is OMITTED because not factually an actor; when someday used elsewhere, approved two PNG references and exact profile must be obtained. Scene must stand alone visually without relying on previous images. Close warmly lit 1925 Nome frontier hospital interior with a period doctor in white cotton apron receiving a small sealed parcel of antitoxin from a bundled courier, modest shelves and enamel containers, well-dressed mother in doorway looking toward a child resting in a covered bed in background (avoid direct risky medical injection as specific undocumented event); exact historical person/gesture is illustrative, not archival, use believable clinic equipment.",
+      "continuity": {
+        "togo_coat": "dark brown / cream / black, pale blue eyes, compact working husky",
+        "time_period": "1925",
+        "factual_note": ""
+      },
+      "provisional_scene_seconds": 5.6,
+      "whole_frame_camera_suggestion": "single whole-frame zoom out",
+      "asset_status": "NOT_GENERATED",
+      "final_timing_status": "UNVERIFIED"
+    },
+    {
+      "id": "S013",
+      "narration": "The final team arrived with Balto among its dogs. He deserved credit, and New York gave him a statue.",
+      "narration_ru": "В последней упряжке был Балто. Он тоже заслуживал признания, и в Нью-Йорке ему поставили памятник.",
+      "visual_intent": "Balto's team and recognition with nuanced uncertainty",
+      "ai_image_prompt": "English vertical documentary Short for Nuviko History, 9:16 1440x2560 target. One full-frame coherent hyperphotorealistic still as if a present-day crew recreated an authentic 1925 historical scene on location; natural muted cold color, real photographed-looking clothing, instruments, dogs, buildings, environment and natural perspective, strong coherent lighting, anatomically sound dogs and harnesses and physical contact shadows; historically plausible 1925 Alaska or the New York Central Park 1925 unveiling where specified. No graphic interface, split-screen, vector arrows, diagrams, digital text overlays, baked subtitles, extraneous typography, AI text gibberish, modern technology, contemporary clothing, decorative external border, moving disconnected layers, parallax, invented catastrophic injuries. 2D illustrated Nuviko traveler is OMITTED because not factually an actor; when someday used elsewhere, approved two PNG references and exact profile must be obtained. Scene must stand alone visually without relying on previous images. 1925 New York City Central Park winter statue unveiling-style cinematic scene, real-shaped bronze Balto monument on a stone plinth (photographic-architecture rendering of actual landmark where possible) with respectfully dressed coat-wearing crowd and historical musher Gunnar Kaasen standing near a black husky Balto; not implying dog did not contribute, no staged fabricated historical photograph, period street and bare trees; the actual statue has the dog's head tilted alert, bronze texture in cold light.",
+      "continuity": {
+        "togo_coat": "dark brown / cream / black, pale blue eyes, compact working husky",
+        "time_period": "1925",
+        "factual_note": "Balto was on final team; don't imply proven exact lead position at arrival"
+      },
+      "provisional_scene_seconds": 5.7,
+      "whole_frame_camera_suggestion": "gentle pan of entire still frame",
+      "asset_status": "NOT_GENERATED",
+      "final_timing_status": "UNVERIFIED"
+    },
+    {
+      "id": "S014",
+      "narration": "Balto's team travelled about eighty kilometres. Togo had led the relay's longest and most dangerous section.",
+      "narration_ru": "Упряжка Балто прошла примерно восемьдесят километров. А Того возглавлял упряжку на самом длинном и опасном участке эстафеты.",
+      "visual_intent": "Compare two relay contributions without fabricating speed precision",
+      "ai_image_prompt": "English vertical documentary Short for Nuviko History, 9:16 1440x2560 target. One full-frame coherent hyperphotorealistic still as if a present-day crew recreated an authentic 1925 historical scene on location; natural muted cold color, real photographed-looking clothing, instruments, dogs, buildings, environment and natural perspective, strong coherent lighting, anatomically sound dogs and harnesses and physical contact shadows; historically plausible 1925 Alaska or the New York Central Park 1925 unveiling where specified. No graphic interface, split-screen, vector arrows, diagrams, digital text overlays, baked subtitles, extraneous typography, AI text gibberish, modern technology, contemporary clothing, decorative external border, moving disconnected layers, parallax, invented catastrophic injuries. 2D illustrated Nuviko traveler is OMITTED because not factually an actor; when someday used elsewhere, approved two PNG references and exact profile must be obtained. Scene must stand alone visually without relying on previous images. A single photorealistic period Alaskan musher shelter scene with a 1925 wooden table and a genuinely physical worn hand-inked rough route sketch of the Nome region (not a precise modern map or animated infographics) partly covered in snow, one gloved hand next to a short handdrawn route marked with simple practical dots, and the other hand near a much longer coastal route; actual dog harness and Togo visible outside open doorway, viewer can perceive unequal lengths without fake printed exact miles, natural lamp lighting and physical cast shadows.",
+      "continuity": {
+        "togo_coat": "dark brown / cream / black, pale blue eyes, compact working husky",
+        "time_period": "1925",
+        "factual_note": ""
+      },
+      "provisional_scene_seconds": 5.7,
+      "whole_frame_camera_suggestion": "single whole-frame zoom in",
+      "asset_status": "NOT_GENERATED",
+      "final_timing_status": "UNVERIFIED"
+    },
+    {
+      "id": "S015",
+      "narration": "The dog at the finish became the famous one. But the hardest journey began with another dog:",
+      "narration_ru": "Пёс, пришедший к финишу, стал знаменитым. Но самый трудный путь начался с другого пса:",
+      "visual_intent": "Completed story transitions directly into the first ice shot",
+      "ai_image_prompt": "English vertical documentary Short for Nuviko History, 9:16 1440x2560 target. One full-frame coherent hyperphotorealistic still as if a present-day crew recreated an authentic 1925 historical scene on location; natural muted cold color, real photographed-looking clothing, instruments, dogs, buildings, environment and natural perspective, strong coherent lighting, anatomically sound dogs and harnesses and physical contact shadows; historically plausible 1925 Alaska or the New York Central Park 1925 unveiling where specified. No graphic interface, split-screen, vector arrows, diagrams, digital text overlays, baked subtitles, extraneous typography, AI text gibberish, modern technology, contemporary clothing, decorative external border, moving disconnected layers, parallax, invented catastrophic injuries. 2D illustrated Nuviko traveler is OMITTED because not factually an actor; when someday used elsewhere, approved two PNG references and exact profile must be obtained. Scene must stand alone visually without relying on previous images. Final wide outdoor 1925 Norton Sound sea-ice tableau of the same dark-brown-and-cream husky Togo leading the team from Seppala's authentic wooden sled, cold blue morning light, angular breakwater line and sea-ice fissures matching the *geography and motion direction* of S001; frame at its end should make S001 feel like the next closer look at that same dangerous crossing, not a new incident; this is a fresh standalone still, not required to duplicate first image.",
+      "continuity": {
+        "togo_coat": "dark brown / cream / black, pale blue eyes, compact working husky",
+        "time_period": "1925",
+        "factual_note": "Scene depicts temporal return, not a second relay event"
+      },
+      "provisional_scene_seconds": 5.5,
+      "whole_frame_camera_suggestion": "single whole-frame zoom out",
+      "asset_status": "NOT_GENERATED",
+      "final_timing_status": "UNVERIFIED"
+    }
+  ]
+}
