@@ -1,0 +1,18 @@
+EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официальному ytv script gate
+
+# Handoff — Paper Detour editorial hypothesis, NOT registered run
+- Канал: `paper_detour` (проверено по `channels/paper_detour/channel.json`, status `active`), format `short`, language narration English, русский только полный перевод для владельца.
+- Папка источника: `.agent/research/2026-11-13-paper-garfield-phones/`. Entry: `.agent/research/2026-11-13-paper-garfield-phones/README.md`; полный EN `.agent/research/2026-11-13-paper-garfield-phones/script.en.txt`; полный RU `.agent/research/2026-11-13-paper-garfield-phones/script.ru.txt`; `research.md`, `story-review.md`, `storyboard.md`, `packaging-brief.md`. Текущий текст EN и RU — v1, только editorial hypothesis.
+- Установленный remote main на момент кандидата: `96c8fa1573c02e8e7987e272a569bf34f037691e`; HEAD целевой ветки / PR — смотреть удалённый GitHub после получения, не подменять SHA base.
+- Нет настоящих `run_id`, `task_id`, `input_hash`, `research/script task receipts`, `ytv-script-review-v1` или independent reviewer. Не генерировать произвольные ID. Нет `awaiting_script_approval`. В этом host нет checkout с `pyproject.toml` для `uv run ytv start`; `sessions.independent` не представлен среди доступных tools.
+- Исследовательская provenance: документы через GitHub remote main, внешние report/court sources с URL и датами в `research.md`. Дата редакционной версии: 2026-11-13. Получить actual media reference bytes/хеши отдельно.
+
+## Точный переносимый вход локальному агенту (не выполнить без explicit owner production approval)
+1. В свежем клоне `main` изучить текущие `AGENTS.md`, `docs/workflow.md`, task contract, workflow и актуальный канал; забрать текстовую папку из Draft PR как **редакционную гипотезу**, не как готовый run или accepted source script.
+2. Создать **новый** официальный run командой: `uv run ytv start --channel paper_detour --format short --intent 'Проверить и зарегистрировать редакционную гипотезу о телефонах Garfield на побережье Бретани; текстовый источник .agent/research/2026-11-13-paper-garfield-phones; без production до одобрения владельца'`. Прочитать реальный `plan_summary`, `read_next`, `task_guide`, pinned `reference_documents`; не придумывать `read_next` по этому Markdown.
+3. В точные research/script tasks перенести проверенные источники и полный EN narration, сверить против актуальных требований; сохранить настоящие receipts, hashes, входы и исходные пути через CLI. Само наличие EN не означает owner approval.
+4. В fresh host independent session вызвать оригинальный `ytv-script-review-v1` с **хешем exact EN** и буквальным двойным полным прочтением Short + end→start, получить подлинный review и reviewer receipt. Сначала передать начало/полный текст/стык без beat map; источники и сильнейшую альтернативу — лишь после первого чтения. Если review `FAIL`, вернуться к отбору или исправить точечно.
+5. Только после действительного завершения script task и независимого review подвести run к `awaiting_script_approval` и получить **новое явное решение владельца для точной версии**; PR/merge/автоматизация не разрешают production. До этого TTS/image/render/upload запрещены. После разрешения проверять media refs, первичный physical paper style, actual audio timing, whole-frame loop и subtitles по штатному workflow.
+6. `python scripts/check_repository.py` и адресный `tests/test_context.py` плюс CI запустить в реальном checkout; в этой connector-only среде не выполнялись.
+
+Никакие общие docs/skills или `channel.json` не изменены. Не делайте самостоятельную публикацию, merge или approve от имени владельца.
