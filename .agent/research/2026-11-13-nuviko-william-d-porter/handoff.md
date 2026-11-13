@@ -1,6 +1,6 @@
 # Handoff — text-only candidate, not production
 
-- **Channel ID:** `nuviko_history` — **status=frozen in main** (read 2026-11-13); this PR's mandate allows only research and scenario drafts; it does not unfreeze a channel or create an episode. #12 may propose reactivation but is still open and has not changed main.
+- **Channel ID:** `nuviko_history` — **status=frozen in main** (read 2026-11-13); this PR's mandate allows only research and scenario drafts; it does not unfreeze a channel or create an episode. #12 proposes reactivation but remains OPEN at branch creation and has not changed this main's frozen ChannelSpec. #16 (audience-first selection) IS merged into this base.
 - **Base SHA:** 50bb35ecd4ad2e832be5451fd2fa909794f047ed (at branch creation time). **Story packet revision:** independent Git commit on the draft branch; PR does not equal script approval.
 - **Voice source:** `script.en.txt` only (full unannotated English narration). **Owner's Russian copy:** `script.ru.txt` mirrors all 12 paragraphs; no Russian TTS. After any substantive English change, update each paired RU paragraph and storyboard narration.
 - **Research:** `research.md` (11 real candidates, 3 finalists, audience/hook/development/payoff/objection, source limitations and duplicates); `story-review.md` (author PASS vs independent UNVERIFIED), `packaging-brief.md` (3 concepts), `storyboard.json` (pre-approval planning only).
