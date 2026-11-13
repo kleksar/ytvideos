@@ -23,10 +23,10 @@ def parser():
     cli.add_argument("--project-root", type=Path, default=Path(__file__).resolve().parents[2])
     cli.add_argument("--profiles", type=Path)
     sub = cli.add_subparsers(dest="command", required=True)
-    instructions = sub.add_parser("instructions", help="Read complete instructions for a narrow edit; no run or state")
+    instructions = sub.add_parser("instructions", help="Read complete instructions for a narrow task; no run or state")
     instructions.add_argument("--channel", required=True)
-    from .context import STAGE_REFERENCES
-    instructions.add_argument("--stage", required=True, choices=(*STAGE_REFERENCES, "thumbnail"))
+    from .context import INSTRUCTION_OPERATIONS, STAGE_REFERENCES
+    instructions.add_argument("--stage", required=True, choices=(*STAGE_REFERENCES, "thumbnail", *INSTRUCTION_OPERATIONS))
     instructions.add_argument("--format", required=True, choices=("short", "long"))
     profiles = sub.add_parser("profiles", help="Inspect all channel/format requirements before creating a run")
     profiles.add_argument("--channel")

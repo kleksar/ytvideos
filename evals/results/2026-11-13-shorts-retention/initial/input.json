@@ -1,0 +1,135 @@
+{
+  "notice": "Синтетический учебный пакет. Все IDs и показатели вымышлены; это не результаты настоящего канала. Профиль Paper Detour используется только как контекст подачи. Live Studio/API недоступны в этой задаче.",
+  "channel_profile": "paper_detour",
+  "channel_id": "UCxxxxxxxxxxxxxxxxxxxxxx",
+  "episodes": [
+    {
+      "video_id": "SHORT000001",
+      "format": "short",
+      "published_at": "2026-11-08T12:00:00+01:00",
+      "duration_seconds": 60,
+      "source": "provided synthetic Studio export",
+      "observed_at": "2026-11-11T13:00:00+01:00",
+      "window": {
+        "start": "2026-11-08T12:00:00+01:00",
+        "end": "2026-11-11T12:00:00+01:00"
+      },
+      "traffic_source": "Shorts feed",
+      "metrics": {
+        "views": 62000,
+        "engaged_views": 14000,
+        "stayed_to_watch_percent": 28,
+        "shown_in_feed": 50000,
+        "average_view_duration_seconds": 48,
+        "average_percentage_viewed_percent": 80
+      },
+      "retention_points": {
+        "position_unit": "elapsedVideoTimeRatio",
+        "value_unit": "percent",
+        "points": [
+          [
+            0,
+            100
+          ],
+          [
+            0.05,
+            97
+          ],
+          [
+            0.2,
+            91
+          ],
+          [
+            0.3,
+            89
+          ],
+          [
+            0.4,
+            65
+          ],
+          [
+            0.73,
+            62
+          ],
+          [
+            0.93,
+            60
+          ],
+          [
+            1,
+            59
+          ]
+        ]
+      },
+      "published_version_mapping": {
+        "source": "provided synthetic timing sheet for this exact video ID; no playable MP4 supplied",
+        "segments": [
+          {
+            "start": 0,
+            "end": 3,
+            "narration": "Письмо лежало за дверью, которую никто не мог открыть.",
+            "visual": "Запертая дверь и конверт за стеклом."
+          },
+          {
+            "start": 3,
+            "end": 12,
+            "narration": "Курьер нашёл ключ, но он не поворачивался.",
+            "visual": "Ключ упирается в замок."
+          },
+          {
+            "start": 12,
+            "end": 18,
+            "narration": "Тогда он заметил тонкую щель под дверью.",
+            "visual": "Щель и край конверта."
+          },
+          {
+            "start": 18,
+            "end": 24,
+            "narration": "Дверь была заперта. Поэтому попасть внутрь не получалось.",
+            "visual": "Та же дверь; новых действий нет."
+          },
+          {
+            "start": 24,
+            "end": 44,
+            "narration": "Он протянул через щель сложенную проволоку и подцепил конверт.",
+            "visual": "Проволока захватывает конверт."
+          },
+          {
+            "start": 44,
+            "end": 56,
+            "narration": "На обороте оказался рисунок соседнего дома. Он понял, куда доставить письмо.",
+            "visual": "Конверт и рисунок дома."
+          },
+          {
+            "start": 56,
+            "end": 60,
+            "narration": "А началось всё с того, что",
+            "visual": "Возврат к запертой двери."
+          }
+        ]
+      },
+      "comments": [
+        {
+          "id": "synthetic-comment-1",
+          "text": "Why repeat that the door was locked?"
+        }
+      ]
+    },
+    {
+      "video_id": "SHORT000002",
+      "format": "short",
+      "published_at": "2026-11-12T20:00:00+01:00",
+      "duration_seconds": 34,
+      "source": "provided synthetic public counter screenshot",
+      "observed_at": "2026-11-13T08:00:00+01:00",
+      "metrics": {
+        "views": 80000
+      },
+      "retention_points": null,
+      "published_version_mapping": null,
+      "comments": null
+    }
+  ],
+  "other_comparison_data": null,
+  "production_run": null
+}

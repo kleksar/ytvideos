@@ -39,6 +39,14 @@ STAGE_REFERENCES = {
 }
 
 
+# Read-only instruction routes are not production stages or run snapshot routes.
+INSTRUCTION_OPERATIONS = {
+    "retention": {"skill": "ytv-operate", "format": "short",
+                  "references": ["docs/standards/editorial.md",
+                                 ".agents/skills/ytv-operate/references/shorts-retention.md"]},
+}
+
+
 def reference_path(value):
     """Accept only unambiguous repository-relative paths, also inside workers."""
     if (not isinstance(value, str) or not value or "\\" in value or ":" in value or "\0" in value
@@ -163,7 +171,7 @@ def reference_context(run, task, project_root):
 
 
 def instruction_packet(root, *, channel, stage, format):
-    """Read the same rule selection for a narrow edit, without a run or database.
+    """Read complete rules for a narrow task, without a run or database.
 
     Manual channels need their real PROFILE, not a manufactured ChannelSpec.
     This proves instruction availability, never asset availability or model reading.
@@ -173,8 +181,11 @@ def instruction_packet(root, *, channel, stage, format):
     root = Path(root).resolve()
     if not isinstance(channel, str) or not re.fullmatch(r"[a-z][a-z0-9_]{1,63}", channel):
         raise WorkflowError("channel must name an existing channel directory")
-    if stage not in {*STAGE_REFERENCES, "thumbnail"} or format not in {"short", "long"}:
+    if stage not in {*STAGE_REFERENCES, *INSTRUCTION_OPERATIONS, "thumbnail"} or format not in {"short", "long"}:
         raise WorkflowError("select an existing stage and short/long format")
+    operation = INSTRUCTION_OPERATIONS.get(stage)
+    if operation and format != operation["format"]:
+        raise WorkflowError(f"{stage} instructions require {operation['format']} format")
     profile_path = f"channels/{channel}/PROFILE.md"
     _read_document(root, profile_path, current=True)  # Never silently substitute a different channel.
     config_path = root / "channels" / channel / "channel.json"
@@ -190,12 +201,15 @@ def instruction_packet(root, *, channel, stage, format):
                    or not isinstance(entry.get("name"), str) or not entry["name"].strip()
                    or not isinstance(entry.get("path"), str) for entry in catalog["skills"])):
         raise WorkflowError("invalid skill catalog; cannot select complete instructions")
-    entries = [entry for entry in catalog["skills"] if task["stage"] in entry["stages"]]
+    entries = [entry for entry in catalog["skills"]
+               if (entry["name"] == operation["skill"] if operation else task["stage"] in entry["stages"])]
     if len(entries) != 1:
         raise WorkflowError("task stage must have exactly one skill in the current catalog")
     entry = entries[0]
     skill = _read_document(root, entry["path"], current=True)
     paths = task_references(task, profile=profile, format=format, project_root=root)
+    if operation:
+        paths = list(dict.fromkeys([*paths, *operation["references"]]))
     documents = [_read_document(root, path, current=True) for path in paths]
     return {"scope": "instructions_only", "channel": channel, "stage": stage, "format": format,
             "channel_status": profile.get("status", "manual"),
