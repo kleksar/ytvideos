@@ -9,7 +9,9 @@ import unittest
 
 import test_workflow as fixtures
 from ytvideos.errors import WorkflowError
-from ytvideos.script_review import build_review_input, validate_review
+from ytvideos.script_review import (DECISIONS, FINDING_FIELDS, FIRST_LISTENER_FIELDS, RECORD_FIELDS,
+                                    REVIEW_FIELDS, SOURCE_FIELDS, SOURCE_OPTIONAL,
+                                    build_review_input, validate_response, validate_review)
 from ytvideos.util import file_digest
 
 
@@ -28,6 +30,10 @@ class ScriptReviewTests(unittest.TestCase):
         return validate_review(self.observed, script_text=self.script.read_bytes().decode("utf-8"),
                                script_sha256=file_digest(self.script), worker="fixture-author", narrative_loop_required=loop)
 
+    def check_response(self, *, loop=True):
+        return validate_response(self.observed, script_text=self.script.read_bytes().decode("utf-8"),
+                                 script_sha256=file_digest(self.script), worker="fixture-author", narrative_loop_required=loop)
+
     def save_response(self, document):
         self.response.write_text(json.dumps(document))
         self.observed["evidence"]["sha256"] = file_digest(self.response)
@@ -39,6 +45,73 @@ class ScriptReviewTests(unittest.TestCase):
         text = self.script.read_text()
         self.assertEqual(packet["narrative_loop"]["two_cycles"], text + "\n\n" + text)
         self.assertEqual(result["document"]["source"]["session_id"], self.observed["reviewer"])
+
+    def test_input_contains_the_complete_response_contract_without_fabricated_metadata_or_pass(self):
+        from ytvideos.narrative_loop import LOOP_FIELDS, OBSERVATIONS
+        packet = build_review_input(self.script.read_text(), file_digest(self.script),
+                                    opening=fixtures.OPENING, ending=fixtures.ENDING)
+        contract = packet["output_contract"]
+        self.assertEqual(set(contract["required"]), set(REVIEW_FIELDS))
+        self.assertEqual(set(contract["properties"]), set(REVIEW_FIELDS))
+        self.assertFalse(contract["additionalProperties"])
+        fields = contract["properties"]
+        self.assertEqual(fields["schema"]["const"], "ytv-script-review-v1")
+        self.assertEqual(fields["script_sha256"]["const"], file_digest(self.script))
+        self.assertEqual(fields["decision"]["enum"], list(DECISIONS))
+        for key, required in (("source", SOURCE_FIELDS), ("input", RECORD_FIELDS), ("first_listener", FIRST_LISTENER_FIELDS)):
+            self.assertEqual(set(fields[key]["required"]), set(required))
+            self.assertFalse(fields[key]["additionalProperties"])
+        self.assertEqual(set(fields["source"]["properties"]), set(SOURCE_FIELDS + SOURCE_OPTIONAL))
+        self.assertEqual(set(fields["findings"]["items"]["required"]), set(FINDING_FIELDS))
+        loop = fields["narrative_loop"]
+        self.assertEqual(set(loop["required"]), set(LOOP_FIELDS))
+        self.assertEqual(set(loop["properties"]["observations"]["required"]), OBSERVATIONS)
+        self.assertEqual(loop["properties"]["joined_excerpt"]["const"], fixtures.ENDING + "\n" + fixtures.OPENING)
+        self.assertNotIn('"default"', json.dumps(contract))
+        for metadata in (fields["reviewer"], fields["source"]["properties"]["session_id"], fields["input"]["properties"]["sha256"]):
+            self.assertNotIn("const", metadata)
+        self.assertIn("actual invocation tool/session ID", packet["instructions"])
+        self.assertIn("not script_sha256", packet["instructions"])
+
+    def test_valid_negative_decisions_are_checkable_evidence_but_cannot_complete(self):
+        for decision in ("revise", "unverified"):
+            with self.subTest(decision=decision):
+                document = copy.deepcopy(self.document)
+                document["decision"] = decision
+                document["narrative_loop"]["decision"] = decision
+                document["findings"] = [{"severity": "blocking", "quote": fixtures.ENDING,
+                                         "finding": "Synthetic reader identifies an unresolved seam concern."}]
+                self.save_response(document)
+                before = self.response.read_bytes()
+                self.assertEqual(self.check_response()["document"]["decision"], decision)
+                with self.assertRaisesRegex(WorkflowError, "not passed"):
+                    self.validate()
+                self.assertEqual(self.response.read_bytes(), before)
+
+    def test_noncanonical_negative_shape_is_not_silently_repaired(self):
+        # The observed fresh readers returned negative content using guessed v2
+        # top-level understanding/attention/limitations. Preserve it, reject shape.
+        for schema in ("ytv-script-review-v1", "ytv-script-review-v2"):
+            with self.subTest(schema=schema):
+                document = copy.deepcopy(self.document)
+                document.update(schema=schema, decision="revise")
+                first = document.pop("first_listener")
+                document.update(understood=first["understood"], attention=first["attention"], limitations=[])
+                self.save_response(document)
+                before = self.response.read_bytes()
+                with self.assertRaisesRegex(WorkflowError, "current schema"):
+                    self.check_response()
+                self.assertEqual(self.response.read_bytes(), before)
+
+    def test_rehashed_alternative_output_contract_is_not_the_supplied_canonical_input(self):
+        path = Path(self.document["input"]["path"])
+        packet = json.loads(path.read_text())
+        packet["output_contract"]["properties"]["schema"]["const"] = "ytv-script-review-v2"
+        path.write_text(json.dumps(packet))
+        self.document["input"]["sha256"] = file_digest(path)
+        self.save_response(self.document)
+        with self.assertRaisesRegex(WorkflowError, "exact script and literal"):
+            self.check_response()
 
     def test_serialized_json_string_is_not_a_review_object(self):
         # Reproduces the observed cold-run serialization failure exactly: the
@@ -108,7 +181,9 @@ class ScriptReviewTests(unittest.TestCase):
         self.observed = fixtures.script_review_observation(self.script, self.response)
         result = self.validate(loop=False)
         self.assertIsNone(result["document"]["narrative_loop"])
-        self.assertIsNone(json.loads(Path(result["input"]["path"]).read_text())["narrative_loop"])
+        packet = json.loads(Path(result["input"]["path"]).read_text())
+        self.assertIsNone(packet["narrative_loop"])
+        self.assertEqual(packet["output_contract"]["properties"]["narrative_loop"]["type"], "null")
 
     def test_exact_short_edge_phrases_do_not_require_an_arbitrary_word_quota(self):
         text = "Why? The complete text supplies the middle and its payoff. Because."
@@ -127,6 +202,47 @@ class ScriptReviewTests(unittest.TestCase):
         self.assertIs(result["review_performed"], False)
         self.assertEqual(result["sha256"], file_digest(output))
         self.assertEqual(json.loads(output.read_text())["script_text"], self.script.read_text())
+
+    def test_cli_checks_valid_negative_response_without_review_approval_or_rewriting(self):
+        self.document["decision"] = "revise"
+        self.document["narrative_loop"]["decision"] = "revise"
+        self.save_response(self.document)
+        seam = self.directory / "seam.json"
+        seam.write_text(json.dumps({"opening": fixtures.OPENING, "ending": fixtures.ENDING}))
+        before = file_digest(self.response)
+        process = subprocess.run([sys.executable, "-m", "ytvideos.script_review", "--script", str(self.script),
+                                  "--seam", str(seam), "--check-response", str(self.response), "--author", "fixture-author"],
+                                 check=True, capture_output=True, text=True)
+        result = json.loads(process.stdout)
+        self.assertTrue(result["structurally_valid"])
+        self.assertEqual(result["decision"], "revise")
+        self.assertFalse(result["pass_consistent"])
+        self.assertFalse(result["review_performed"])
+        self.assertFalse(result["script_accepted"])
+        self.assertEqual(file_digest(self.response), before)
+
+    def test_cli_rejects_a_different_valid_requested_seam_without_changing_evidence(self):
+        seam = self.directory / "different-seam.json"
+        evidence_input = Path(self.document["input"]["path"])
+        originals = {path: path.read_bytes() for path in (self.script, self.response, evidence_input)}
+        alternatives = (
+            {"opening": "Nobody was waiting at the bridge.", "ending": fixtures.ENDING},
+            {"opening": fixtures.OPENING, "ending": "I finally understood why"},
+        )
+        for alternative in alternatives:
+            with self.subTest(seam=alternative):
+                # Both are valid literal edge excerpts; only their identity
+                # differs from the packet actually given to this reviewer.
+                build_review_input(self.script.read_text(), file_digest(self.script), **alternative)
+                seam.write_text(json.dumps(alternative))
+                process = subprocess.run([sys.executable, "-m", "ytvideos.script_review", "--script", str(self.script),
+                                          "--seam", str(seam), "--check-response", str(self.response), "--author", "fixture-author"],
+                                         capture_output=True, text=True)
+                self.assertNotEqual(process.returncode, 0)
+                self.assertIn("differs from the requested script/seam", process.stderr)
+                self.assertNotIn('"structurally_valid": true', process.stdout)
+                for path, data in originals.items():
+                    self.assertEqual(path.read_bytes(), data)
 
 
 if __name__ == "__main__":

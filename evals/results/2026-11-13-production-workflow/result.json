@@ -3,7 +3,7 @@
   "model": "gpt-6-luna",
   "fork_turns": "none",
   "fixture_only": true,
-  "scope": "Cold editorial entry, source preservation and independent script review; no live media or publication.",
+  "scope": "Cold editorial entry, source preservation, independent script review and an explicit Stop lifecycle simulation; no live media or publication.",
   "cases": [
     {
       "case": "luna-provided",
@@ -54,12 +54,35 @@
           "status": "awaiting_script_approval"
         }
       ]
+    },
+    {
+      "case": "luna-history-guarded",
+      "result": "fail_editorial_completion_guard_observed",
+      "source_manifest_sha256": "1b4cc39abced2dd7c70fd8c5952a750be3042f82ae4bc5d87352a5b91992869f",
+      "run_states": [
+        {
+          "id": "129a3589-839e-45d1-bdcc-aa9cad19d413",
+          "status": "working"
+        }
+      ]
     }
   ],
   "not_claimed": [
     "Five live videos or production providers were tested",
     "All future outputs are correct",
     "Tokens, costs or reliability rates improved",
-    "Reaching script approval proves a good narrative loop"
+    "Reaching script approval proves a good narrative loop",
+    "A complete creative task succeeded",
+    "The simulated Stop events prove live host hook trust or routing",
+    "The final repository commit was the source of every attempt"
+  ],
+  "targeted_probes": [
+    {
+      "case": "reviewer-packet-probe",
+      "result": "pass_response_contract_with_negative_editorial_verdict",
+      "response_sha256": "37b7c0b8236da6a5a69cc921836d0ecdc9af680eb738b30564822a9abbcb074e",
+      "decision": "revise",
+      "script_accepted": false
+    }
   ]
 }

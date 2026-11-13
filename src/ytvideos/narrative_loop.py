@@ -11,6 +11,8 @@ from .util import require_text
 
 
 OBSERVATIONS = {"continuation", "cold_open", "payoff_quote", "payoff_before_repeat", "two_cycle_read", "restart_test"}
+SEAM_FIELDS = ("opening", "ending", "joined_excerpt")
+LOOP_FIELDS = (*SEAM_FIELDS, "decision", "observations")
 PLACEHOLDERS = {"pass", "ok", "yes", "true", "verified", "unverified", "n/a", "none", "placeholder",
                 "loop", "готово", "проверено", "да", "нормально", "ок"}
 
@@ -54,18 +56,20 @@ def validate_observation(observed, *, script_text, script_sha256, worker):
     return record
 
 
-def validate_evidence(document, observed, *, script_text):
+def validate_evidence(document, observed, *, script_text, require_pass=True):
     """Use the narrative section of the same verbatim independent review result."""
-    from .script_review import SCHEMA
+    from .script_review import DECISIONS, SCHEMA
     expected = {"schema": SCHEMA, "script_sha256": observed["artifact_sha256"], "reviewer": observed["reviewer"]}
     if not isinstance(document, dict) or any(document.get(key) != value for key, value in expected.items()):
         raise WorkflowError("narrative_loop evidence does not bind the exact reviewed script and seam")
     loop = document.get("narrative_loop")
-    if not isinstance(loop, dict) or set(loop) != {"opening", "ending", "joined_excerpt", "decision", "observations"}:
+    if not isinstance(loop, dict) or set(loop) != set(LOOP_FIELDS):
         raise WorkflowError("narrative_loop requires the independent reviewer's complete narrative section")
-    if any(loop.get(name) != observed[name] for name in ("opening", "ending", "joined_excerpt")):
+    if any(loop.get(name) != observed[name] for name in SEAM_FIELDS):
         raise WorkflowError("narrative_loop evidence does not bind the exact reviewed script and seam")
-    if document.get("decision") != "pass" or loop.get("decision") != "pass":
+    if document.get("decision") not in DECISIONS or loop.get("decision") not in DECISIONS:
+        raise WorkflowError("narrative_loop decisions must be pass, revise or unverified")
+    if require_pass and (document.get("decision") != "pass" or loop.get("decision") != "pass"):
         raise WorkflowError("narrative_loop review is not passed; a thematic callback or unverified seam needs revision")
     observations = loop.get("observations")
     if not isinstance(observations, dict) or set(observations) != OBSERVATIONS:

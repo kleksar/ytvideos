@@ -8,7 +8,7 @@
 |---|---|---|
 | Отбор истории | [Контрольные случаи](story_selection/README.md) | Проверка интереса и источников отдельно от наличия receipt |
 | Драматургия Shorts | [Модели и reviewer-пробы](shorts_editorial/README.md), [чтение сценария](results/2026-11-13-story-dramaturgy/result.json) | Понятность, причинность, отдача и стык оцениваются отдельно |
-| Сценарный workflow | [Первый сценарный прогон](results/2026-11-10-luna-story/result.json), [проверки входа и независимого review](results/2026-11-13-production-workflow/result.json) | Фактические state/artifacts, не обещание готового видео |
+| Сценарный workflow | [Первый сценарный прогон](results/2026-11-10-luna-story/result.json), [проверки входа, независимого review и симуляция Stop](results/2026-11-13-production-workflow/result.json) | Фактические state/artifacts и неудачные сценарии; симуляция не подтверждает активацию hooks в host |
 | Упаковка и A/B | [Наблюдения](results/2026-11-12-luna-thumbnails/result.json), [практика](results/2026-11-12-luna-thumbnail-practice/result.json), [полный набор вариантов](results/2026-11-12-luna-thumbnail-western-flow/result.json) | Synthetic A/B и briefs не доказывают качество картинки или рост CTR |
 | Контекст канального монтажа | [Scenes variants](results/2026-11-13-luna-task-context/result.json) | Проверены планы; live-render и прослушивание отдельно |
 
