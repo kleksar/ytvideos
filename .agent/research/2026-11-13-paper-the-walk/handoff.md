@@ -1,0 +1,42 @@
+# Handoff — The Walk / Philippe Petit
+
+EDITORIAL_CANDIDATE_UNREGISTERED. The user requested comparative research, a complete new Short and a merge request. This package supplies the editorial material only; it is not a production completion receipt, user script approval or a permission to merge/publish.
+
+## Scope and versions
+
+- Channel: paper_detour; English illustrated narrative Short. The current channel profile is active; narrative_loop is required.
+- Base inspected for this change: main commit `9218c2c12fad948a90960b6a22cc79ec67261ec0`.
+- Only four new files under this research directory. No changes to skills, standards, runtime, channel defaults or Apollo 13 PR #46.
+- Search for `Petit` in default-branch code and all PR states, plus `The Walk` in all PR states, returned no matching records. This is a scoped duplicate check, not verification of private/unpublished YouTube uploads.
+- `script.en.txt`: 151 whitespace-delimited words; SHA-256 `4c02a3299e688b3deb2cd676a7b513a017792a0e54b241430e72a9c301aec376`; Git blob `3a7f9bf1b54225a83d356fef2eff1076b9e907d8`.
+- `script.ru.txt`: 128 whitespace-delimited words; SHA-256 `8eeef225a93be26cd6d183eaa853d85135b42ebb0d2273697516bee573278ae1`; Git blob `d6d144fad5bf599ffd760cad2b188e1410ef94bf`.
+- English is the proposed TTS/SRT master. Russian has the same event, sequence, uncertainty and ending; it is not a separate stronger story.
+
+## Actual runtime observation
+
+Executed in an isolated working directory on 2026-11-13:
+
+```bash
+uv run ytv start --channel paper_detour --format short --intent 'Выбрать новую кино-вдохновлённую историю после сравнения нескольких фильмов, сцен и публичных Shorts; подготовить полный сценарий RU/EN и отдельный MR'
+```
+
+Exit status: 2.
+
+```text
+error: Failed to spawn: `ytv`
+  Caused by: No such file or directory (os error 2)
+```
+
+No accessible project checkout or installed ytv CLI was present. The connected GitHub tools permit repository reads/writes, not execution of the production store. Therefore no run, claim, pinned task packet, independent-review session, reviewer receipt, approval or provider job was created. Do not invent them or treat this Markdown as equivalent to `awaiting_script_approval`.
+
+Read requirements: AGENTS.md; ytv-start and its task-execution reference; ytv-write-script and hook-patterns; docs/standards/editorial.md and narration.md; docs/development.md; Paper PROFILE/channel.json/PAPER_PLANE; docs/operations/vidiq-credits.md. No standards were weakened to bypass the runtime blocker.
+
+## Continue from an authorized runtime
+
+Use the canonical current `ytv start` for a new candidate review, read the returned pinned packet, and attach these files as research/script inputs. Do not pass an unapproved candidate as if it were an already-approved exact production script. Find any subsequently registered run before starting another.
+
+Complete actual research/script tasks and obtain a fresh independent reader using the current task contract. The reader needs the exact complete EN text twice including its literal seam, the equivalent RU text, then the source ledger and strongest competing proposal; no author verdict should be supplied in place of their own assessment. Specifically test whether the final retrospective question sounds natural rather than a second introduction. Preserve the reviewer's own response and hashes. If the text changes, invalidate old review evidence. Show the resulting exact version for genuine user approval.
+
+Current checks: author factual comparison performed; text lengths/hashes computed; independent review NOT_PERFORMED; runtime completion NOT_STARTED; duration UNMEASURED; footage watching NOT_PERFORMED; live YouTube counters/Shorts classification UNVERIFIED; production assets/voice/audio/MP4 NOT_STARTED. Repository test suite and repository checker were not executable without a checkout. Do not claim CI or end-to-end production success from this content-only change.
+
+The future paper-plane cameo belongs in the park, not in a tower/aircraft composition. Actual approved reference bytes are required later. No detailed storyboard, generated images, TTS, music, MP4, upload, schedule or merge is authorized by this package.
