@@ -1,5 +1,7 @@
 # Story review — Paper Detour / Clever Hans (1904)
 
+**2026-11-13 revision note (authorial only):** The new exact EN/RU opening explicitly treats `3+5` as an illustrative question, not a recorded 1904 exchange. All 13 EN/RU scene spans were rechecked against the revised files; the former 65-second provisional total was invalidated. The older self-assessment below describes the same underlying story but is **not** a fresh independent or owner acceptance of this new text. New exact-hash independent first-listener, bilingual review, actual TTS timing and AV loop are still `UNVERIFIED`.
+
 **Scope:** story-text authorial review completed on 2026-11-13 **before** any detailed scene planning. **Owner acceptance:** NOT_RECEIVED. **Independent first-listener:** UNVERIFIED, not available/executed. **Independent bilingual reviewer:** UNVERIFIED, not executed. **Real audience demand / retention:** UNVERIFIED.
 
 ## Four independent questions — no 'structure = interest' shortcut
