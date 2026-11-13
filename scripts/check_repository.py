@@ -36,6 +36,11 @@ REDIRECTS = {
     "channels/paper_detour/RAROVISTA_EDITING_STANDARD.md": "docs/standards/delivery.md",
     "channels/paper_detour/docs/PAPER_DETOUR_CREW_WORKFLOW.md": "docs/operations/runtime.md",
     "channels/nuviko_history/README.md": "channels/nuviko_history/AGENTS.md",
+    "channels/paper_detour/videos/AGENTS.md": "channels/paper_detour/AGENTS.md",
+    "channels/nuviko_history/videos/AGENTS.md": "channels/nuviko_history/AGENTS.md",
+    "channels/nuviko_videos/videos/AGENTS.md": "channels/nuviko_videos/AGENTS.md",
+    "channels/scenes_on_repeat/videos/AGENTS.md": "channels/scenes_on_repeat/AGENTS.md",
+    "channels/two_ways_lab/videos/AGENTS.md": "channels/two_ways_lab/AGENTS.md",
 }
 LINK = re.compile(
     r"!?\[[^\]\n]*\]\(\s*(?:<([^<>\n]*)>|((?:\\.|[^\\()\s]|\([^()\n]*\))*))"
@@ -96,7 +101,8 @@ def current_documents(root, errors=None, *, runtime_documents=None):
     docs = {root / name for name in ENTRIES} | {root / CATALOG_VIEW}
     redirects = {root / name for name in REDIRECTS if (root / name).exists()}
     docs.update(redirects)
-    runtime_documents.update(redirects)
+    # Navigation-only redirects are checked by redirect_error, not supplied as
+    # task requirements. An explicit context reference still gets checked below.
     runtime_documents.update(root / name for name in ENTRIES)
     runtime_documents.update(root / name for names in STAGE_REFERENCES.values() for name in names)
     runtime_documents.update((root / ".agents/skills").glob("*/SKILL.md"))
