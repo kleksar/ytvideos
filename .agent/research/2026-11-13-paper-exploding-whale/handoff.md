@@ -1,3 +1,12 @@
+## Актуальный workflow — не запускать производство из Git Draft
+
+Сверено с remote `main` `96c8fa1573c02e8e7987e272a569bf34f037691e`. Этот редакторский текстовый кандидат **не является фактическим `ytv start` run** и ещё не прошёл самостоятельный `awaiting_script_approval`. Предварительная `storyboard.json` — иллюстративный план, не официально завершённый stage. Авторская фактологическая проверка и текстовая петля не заменяют `sessions.independent`.
+
+При выборе истории: `uv run ytv start --channel paper_detour --format short --intent 'Проверить неутверждённый сюжет PR #27'`. Прочитать план и pinned task packet, проверить источники, выполнить реальные research/script tasks и свежий независимый `ytv-script-review-v1` с hash точного EN и двукратным чтением Short. Без этих receipts оставлять `UNVERIFIED` и не объявлять `awaiting_script_approval`. Затем подлинное согласие владельца, после которого разрешается начать production. [Workflow](https://github.com/kleksar/ytvideos/blob/main/docs/workflow.md).
+
+Русская версия для редактора; изображения, права на архивные материалы, TTS и AV seam не проверялись. Скрытый paper plane остаётся будущей сценовой задачей. Нельзя подменять факты 1970 года самодельным фотоархивом, подделывать approvals или переносить old pins.
+
+---
 # Handoff — Paper Detour exploding whale (TEXT ONLY)
 
 - **Owner/channel:** Paper Detour (channel_id `paper_detour`, `active` on read), English narrated 9:16 illustrated Short. Not Nuviko Videos or Nuviko History.
