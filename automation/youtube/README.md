@@ -21,6 +21,8 @@ Google Cloud/API configuration, quota и возможность публикац
 | Исторические узкие privacy/public действия | `prepare_unlisted.py`, `publish_public.py`; только свой явно разрешённый scope |
 | Нативные end screen/related video/A/B | Capability-driven Studio adapter, если public API нужное действие не предоставляет |
 | Analytics | Отдельные scopes/API или Studio read-only; counters не заменяют retention report |
+| Плейлисты после публикации | `add_to_playlist.py --expected-privacy public`, точный ownership/membership и read-back |
+| Shorts Related, End Screens, Community Posts | Проверяемое действие через поддерживаемый Studio adapter; публичный Data API не предоставляет соответствующий mutation path |
 
 Точный синтаксис текущей команды получить через `--help`. Не выдавать отсутствие метода в этом helper за отсутствие функции платформы; и не придумывать endpoint, которого нет в поддержанном интерфейсе.
 
@@ -44,7 +46,7 @@ Metadata update выполняет read → merge нужных полей изм
 
 Перед `set` перечитать календарь/слоты, privacy и applicability конкретного video ID. Передать future RFC3339/timezone; дата в прошлом запрещена, поскольку не означает безопасную отложенную публикацию. Использовать исходный upload receipt/caption evidence, не произвольную новую сводку.
 
-После mutation перечитать сохранённые значения. Локальный `plan` helper не назначает даты в YouTube и не является универсальным календарём каналов. Фактический Public и A/B — последующие задачи; в private/scheduled нативный A/B не запускается. Pending task без доступного executor не является действующим фоновым мониторингом.
+После mutation перечитать сохранённые значения. Для post-publication links, posts, end screens и плейлистов сначала проверить `cross-promotion-plan` и [контракт](../../docs/operations/cross-promotion.md). Локальный `plan` helper не назначает даты в YouTube и не является универсальным календарём каналов. Фактический Public и A/B — последующие задачи; в private/scheduled нативный A/B не запускается. Pending task без доступного executor не является действующим фоновым мониторингом.
 
 ## Проверка
 
