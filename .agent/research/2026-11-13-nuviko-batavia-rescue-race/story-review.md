@@ -22,7 +22,7 @@ EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официал
 EN:
 > The mutineers were arrested, and the surviving castaways were brought aboard.
 >
-> The men Cornelisz had abandoned were the ones who exposed his plot.
+> The men Cornelisz had abandoned were the ones who exposed his plot. But first, they had to beat the mutineers to the rescue:
 >
 > In 1629, two boats raced for the same rescue ship.
 >
@@ -31,7 +31,7 @@ EN:
 RU:
 > Мятежников арестовали, а выживших подняли на борт.
 >
-> Именно люди, которых Корнелис бросил на острове, раскрыли его заговор.
+> Именно люди, которых Корнелис бросил на острове, раскрыли его заговор. Но для этого им нужно было опередить мятежников:
 >
 > В 1629 году две лодки наперегонки гребли к одному спасательному кораблю.
 >
@@ -58,3 +58,13 @@ Author draft v01 only; no unrecorded extra loop iterations claimed. Further chan
 ### Tool-capability gap
 
 This environment exposed a GitHub connector for remote source/PR mutations and a general web tool, but no editable checkout or persistent ytv runtime store to call `uv run ytv start --channel nuviko_history --format short --intent ...` and read its saved `plan_summary`, `read_next`, `task_guide` and `reference_documents`. No distinct independent reviewing host/session. **No fabricated run ID / task receipt / independent model verdict / script hash / official stage.** Current bundle remains `EDITORIAL_CANDIDATE_UNREGISTERED`.
+
+## Correction after current-main narrative-loop audit
+
+Earlier version had a thematic callback to the men who revealed the plot, but a new opening after that line sounded like a restarted story. The revised final line leads directly into the real race already shown; no new historical event was invented.
+
+**EN exact end → start:** The men Cornelisz had abandoned were the ones who exposed his plot. But first, they had to beat the mutineers to the rescue: In 1629, two boats raced for the same rescue ship.
+
+**RU точный конец → начало:** Именно люди, которых Корнелис бросил на острове, раскрыли его заговор. Но для этого им нужно было опередить мятежников: В 1629 году две лодки наперегонки гребли к одному спасательному кораблю.
+
+**Authorial text seam:** PASS (clear direct causal/grammatical bridge). **Independent full twice-through first-listener, bilingual reviewer and actual AV seam:** UNVERIFIED. This editorial candidate is still not a registered `ytv start` run, not `awaiting_script_approval`, and not approved for production.

@@ -120,8 +120,8 @@ EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официал
 
 ## S015
 
-- **narration EN:** The men Cornelisz had abandoned were the ones who exposed his plot.
-- **narration_ru RU:** Именно люди, которых Корнелис бросил на острове, раскрыли его заговор.
+- **narration EN:** The men Cornelisz had abandoned were the ones who exposed his plot. But first, they had to beat the mutineers to the rescue:
+- **narration_ru RU:** Именно люди, которых Корнелис бросил на острове, раскрыли его заговор. Но для этого им нужно было опередить мятежников:
 - **Функция кадра:** Final ironical reveal / loop bridge.
 - **Self-contained AI image prompt (EN):** Vertical 9:16 full-frame single source composition; ultra-photorealistic muted natural color, historical 1629 maritime reconstruction; physically plausible lighting, scale, weather and period clothing; cohesive Houtman Abrolhos low limestone/coral island continuity, no tropical palms. Entire image moves as one at edit, direct cuts. No subtitles, labels, logos, timecodes, arrows, split screens, infographic or visible generated text. wide photorealistic 1629 sea image emphasizing small unarmed soldiers on island gesturing from their rowing boat toward the same rescue ship, two rival boats in composition; optional external narrator: drawn middle-aged chestnut-haired man with graying temples and short gray beard, ochre jacket and dark backpack stands as clearly separate present-day observer on foreground beach, never portrayed as an event participant
 - **Движение:** только whole-frame slow pan/zoom по необходимости; без локального параллакса и без переходных эффектов.
