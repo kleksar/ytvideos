@@ -1,0 +1,287 @@
+{
+  "style": "Nuviko History. Photorealistic historical reconstruction with subdued natural color, tangible material texture and believable scale. Vertical 9:16 full-bleed composition, keep key action inside center crop and above subtitle region without blank strips. No decorative frames, arrows, captions, film-actor likeness, modern touchscreen or fake archive damage. Generate requested maximum native quality. Historical people and objects are photographic. Only the recurring museum host is 2D line art matched to both approved traveler references.",
+  "reference_sheets": [
+    {
+      "id": "REF-HOST",
+      "consumers": [
+        "S001",
+        "S014"
+      ],
+      "prompt": "Use both approved traveler PNGs. Identity sheet for museum explanation. Front, three-quarter body and side profile; right palm open beside exhibit at waist height, relaxed left hand, both eyes open. Preserve jacket, backpack, hair, beard and 2D line shading. Neutral curious expression. Only required poses, no action inside historical spacecraft."
+    },
+    {
+      "id": "REF-FILTER",
+      "consumers": [
+        "S001",
+        "S002",
+        "S007",
+        "S008",
+        "S009",
+        "S011",
+        "S012",
+        "S013",
+        "S014"
+      ],
+      "prompt": "Photographic object reference sheet using NASA AS13-62-9004 and S70-35395. Same square Apollo CM lithium hydroxide cartridge in front, side and three-quarter views. Distinguish plain cartridge, cardboard/plastic bag/tape sleeve, and final sealed white cloth-wrapped hose assembly. Preserve metal mesh face, proportions and tube connection. State labels outside image may be added only for QA contact sheet."
+    },
+    {
+      "id": "REF-LM",
+      "consumers": [
+        "S004",
+        "S005",
+        "S006",
+        "S011",
+        "S012",
+        "S013"
+      ],
+      "prompt": "Photoreal LM Aquarius cabin reference sheet from NASA photographs. Fix cramped ivory equipment panels, fabric bags, white wrapped hoses, mesh storage and handholds. Show toward docking hatch, opposite corner, and equipment close-up. Three white-clothed crew members without helmets, filmed from backs and partial side views. Do not use movie actors. Exact panel labels require a separate verified close-up."
+    },
+    {
+      "id": "REF-MCC",
+      "consumers": [
+        "S009",
+        "S010"
+      ],
+      "prompt": "Two separate photoreal environment reference compositions based on supplied NASA photos. A ground CO2 adapter test rig and the 1970 Mission Control room with gray-green console rows, blue CRTs, paper, headset operators. Keep the lab and control room distinct, consistent fluorescent practical lighting."
+    },
+    {
+      "id": "REF-CM",
+      "consumers": [
+        "S003",
+        "S007",
+        "S008"
+      ],
+      "prompt": "Photoreal Apollo command module interior reference sheet. Obtain and open dedicated NASA cockpit/storage photos before generation. Preserve real CM geometry, seats, instrument panels and storage. No modern ISS walls or large standing room."
+    }
+  ],
+  "scene_prompts": [
+    {
+      "id": "S001",
+      "prompt": "Nuviko History. Photorealistic historical reconstruction with subdued natural color, tangible material texture and believable scale. Vertical 9:16 full-bleed composition, keep key action inside center crop and above subtitle region without blank strips. No decorative frames, arrows, captions, film-actor likeness, modern touchscreen or fake archive damage. Generate requested maximum native quality. Historical people and objects are photographic. Only the recurring museum host is 2D line art matched to both approved traveler references. Scene S001. Современный музейный стенд. Рисованный ведущий в три четверти раскрывает правую ладонь рядом с квадратным серебристым картриджем. Start state Правая ладонь уже открыта, предмет на стенде. Keep Та же спокойная поза, глаза открыты.",
+      "reference_paths": [
+        "references/nasa-as13-62-9004.jpg",
+        "../../channels/nuviko_history/brand/References/traveler_turnaround_20261104.png",
+        "../../channels/nuviko_history/brand/References/traveler_emotions_20261104.png"
+      ]
+    },
+    {
+      "id": "S002",
+      "prompt": "Nuviko History. Photorealistic historical reconstruction with subdued natural color, tangible material texture and believable scale. Vertical 9:16 full-bleed composition, keep key action inside center crop and above subtitle region without blank strips. No decorative frames, arrows, captions, film-actor likeness, modern touchscreen or fake archive damage. Generate requested maximum native quality. Historical people and objects are photographic. Only the recurring museum host is 2D line art matched to both approved traveler references. Scene S002. Предметный вид под углом на музейные модели квадратного картриджа и круглого посадочного места, расстояние между ними видимо. Ведущий вне кадра. Start state Оба экспоната раздельно. Keep Оба экспоната раздельно.",
+      "reference_paths": [
+        "references/nasa-as13-62-9004.jpg"
+      ]
+    },
+    {
+      "id": "S003",
+      "prompt": "Nuviko History. Photorealistic historical reconstruction with subdued natural color, tangible material texture and believable scale. Vertical 9:16 full-bleed composition, keep key action inside center crop and above subtitle region without blank strips. No decorative frames, arrows, captions, film-actor likeness, modern touchscreen or fake archive damage. Generate requested maximum native quality. Historical people and objects are photographic. Only the recurring museum host is 2D line art matched to both approved traveler references. Scene S003. Взгляд через плечо астронавта на тесную панель командного модуля. Рука опирается на край консоли. Без огня внутри кабины, без киношного взрыва. Start state Астронавт у приборной панели. Keep Он остаётся у панели, камера неподвижна.",
+      "reference_paths": [
+        "references/nasa-as13-62-9004.jpg"
+      ]
+    },
+    {
+      "id": "S004",
+      "prompt": "Nuviko History. Photorealistic historical reconstruction with subdued natural color, tangible material texture and believable scale. Vertical 9:16 full-bleed composition, keep key action inside center crop and above subtitle region without blank strips. No decorative frames, arrows, captions, film-actor likeness, modern touchscreen or fake archive damage. Generate requested maximum native quality. Historical people and objects are photographic. Only the recurring museum host is 2D line art matched to both approved traveler references. Scene S004. Ракурс из глубины лунного модуля к переходному люку. Три человека в белой полётной одежде без шлемов распределены по тесному объёму. Видны спины и профиль. Start state Трое уже внутри. Keep Один держится за поручень, все трое остаются видимы.",
+      "reference_paths": [
+        "references/nasa-as13-62-9004.jpg"
+      ]
+    },
+    {
+      "id": "S005",
+      "prompt": "Nuviko History. Photorealistic historical reconstruction with subdued natural color, tangible material texture and believable scale. Vertical 9:16 full-bleed composition, keep key action inside center crop and above subtitle region without blank strips. No decorative frames, arrows, captions, film-actor likeness, modern touchscreen or fake archive damage. Generate requested maximum native quality. Historical people and objects are photographic. Only the recurring museum host is 2D line art matched to both approved traveler references. Scene S005. Низкая камера сбоку кабины, два рабочих места у передних окон и третий человек позади. Система кабины сохраняет расположение ориентиров из S004. Start state Трое в кабине. Keep Те же трое, без добавления четвёртого человека.",
+      "reference_paths": [
+        "references/nasa-as13-62-9004.jpg"
+      ]
+    },
+    {
+      "id": "S006",
+      "prompt": "Nuviko History. Photorealistic historical reconstruction with subdued natural color, tangible material texture and believable scale. Vertical 9:16 full-bleed composition, keep key action inside center crop and above subtitle region without blank strips. No decorative frames, arrows, captions, film-actor likeness, modern touchscreen or fake archive damage. Generate requested maximum native quality. Historical people and objects are photographic. Only the recurring museum host is 2D line art matched to both approved traveler references. Scene S006. Крупный взгляд астронавта на светящийся индикатор штатной панели. Лицо частично видно в профиль, главная деталь — лампа и окружающая реальная панель. Start state Индикатор включён. Keep Индикатор сохраняется, без выдуманного обратного отсчёта.",
+      "reference_paths": [
+        "references/nasa-as13-62-9004.jpg"
+      ]
+    },
+    {
+      "id": "S007",
+      "prompt": "Nuviko History. Photorealistic historical reconstruction with subdued natural color, tangible material texture and believable scale. Vertical 9:16 full-bleed composition, keep key action inside center crop and above subtitle region without blank strips. No decorative frames, arrows, captions, film-actor likeness, modern touchscreen or fake archive damage. Generate requested maximum native quality. Historical people and objects are photographic. Only the recurring museum host is 2D line art matched to both approved traveler references. Scene S007. Внутри командного модуля квадратный картридж удерживается двумя руками над открытым отсеком. Боковой ракурс показывает толщину и решётку. Start state Картридж целый, без мешка и ленты. Keep Тот же картридж целый.",
+      "reference_paths": [
+        "references/nasa-as13-62-9004.jpg"
+      ]
+    },
+    {
+      "id": "S008",
+      "prompt": "Nuviko History. Photorealistic historical reconstruction with subdued natural color, tangible material texture and believable scale. Vertical 9:16 full-bleed composition, keep key action inside center crop and above subtitle region without blank strips. No decorative frames, arrows, captions, film-actor likeness, modern touchscreen or fake archive damage. Generate requested maximum native quality. Historical people and objects are photographic. Only the recurring museum host is 2D line art matched to both approved traveler references. Scene S008. Макро на открытые решётки квадратного фильтра, пальцы держат его по краям и не закрывают отверстия. Никаких видимых цветных газов или стрелок. Start state Решётки открыты. Keep Решётки остаются открытыми.",
+      "reference_paths": [
+        "references/nasa-as13-62-9004.jpg"
+      ]
+    },
+    {
+      "id": "S009",
+      "prompt": "Nuviko History. Photorealistic historical reconstruction with subdued natural color, tangible material texture and believable scale. Vertical 9:16 full-bleed composition, keep key action inside center crop and above subtitle region without blank strips. No decorative frames, arrows, captions, film-actor likeness, modern touchscreen or fake archive damage. Generate requested maximum native quality. Historical people and objects are photographic. Only the recurring museum host is 2D line art matched to both approved traveler references. Scene S009. Фотореалистичная лабораторная установка по NASA S70-35395. Картридж, мешок, серая лента и белые шланги уже соединены на тестовом стенде. Инженер виден со спины. Start state Наземный макет собран. Keep Наземный макет остаётся собранным.",
+      "reference_paths": [
+        "references/nasa-s70-35395.jpg"
+      ]
+    },
+    {
+      "id": "S010",
+      "prompt": "Nuviko History. Photorealistic historical reconstruction with subdued natural color, tangible material texture and believable scale. Vertical 9:16 full-bleed composition, keep key action inside center crop and above subtitle region without blank strips. No decorative frames, arrows, captions, film-actor likeness, modern touchscreen or fake archive damage. Generate requested maximum native quality. Historical people and objects are photographic. Only the recurring museum host is 2D line art matched to both approved traveler references. Scene S010. Диспетчер со спины и в профиль за серо-зелёной консолью 1970 года с гарнитурой. Бумажная инструкция перед ним, свет CRT и ламп, фон по NASA S70-35136. Start state Гарнитура надета, рука у инструкции. Keep Рука у той же инструкции, спокойная сосредоточенная поза.",
+      "reference_paths": [
+        "references/nasa-s70-35136.jpg"
+      ]
+    },
+    {
+      "id": "S011",
+      "prompt": "Nuviko History. Photorealistic historical reconstruction with subdued natural color, tangible material texture and believable scale. Vertical 9:16 full-bleed composition, keep key action inside center crop and above subtitle region without blank strips. No decorative frames, arrows, captions, film-actor likeness, modern touchscreen or fake archive damage. Generate requested maximum native quality. Historical people and objects are photographic. Only the recurring museum host is 2D line art matched to both approved traveler references. Scene S011. Крупная предметная композиция внутри лунного модуля. Руки экипажа придерживают картонную карточку, пластиковый пакет и полоску серой ленты рядом с тем же квадратным фильтром. Start state Пакет и лента ещё не закрыли соединение. Keep Картон подложен к картриджу, шланг рядом.",
+      "reference_paths": [
+        "references/nasa-as13-62-9004.jpg"
+      ]
+    },
+    {
+      "id": "S012",
+      "prompt": "Nuviko History. Photorealistic historical reconstruction with subdued natural color, tangible material texture and believable scale. Vertical 9:16 full-bleed composition, keep key action inside center crop and above subtitle region without blank strips. No decorative frames, arrows, captions, film-actor likeness, modern touchscreen or fake archive damage. Generate requested maximum native quality. Historical people and objects are photographic. Only the recurring museum host is 2D line art matched to both approved traveler references. Scene S012. Крупный боковой вид рук, завершающих герметичное соединение мешка со шлангом лентой. За лентой читается квадратный фильтр, белая тканевая оплётка шланга соответствует NASA. Start state Последняя полоса ленты прижата к стыку. Keep Стык закрыт, пальцы не проходят сквозь шланг.",
+      "reference_paths": [
+        "references/nasa-as13-62-9004.jpg"
+      ]
+    },
+    {
+      "id": "S013",
+      "prompt": "Nuviko History. Photorealistic historical reconstruction with subdued natural color, tangible material texture and believable scale. Vertical 9:16 full-bleed composition, keep key action inside center crop and above subtitle region without blank strips. No decorative frames, arrows, captions, film-actor likeness, modern touchscreen or fake archive damage. Generate requested maximum native quality. Historical people and objects are photographic. Only the recurring museum host is 2D line art matched to both approved traveler references. Scene S013. Более широкий вид установленного адаптера и белого шланга, который непрерывно уходит к штатной системе LM. Край корпуса приборной панели в фоне. Фильтр и шланг сохраняют размер и расположение из S012. Start state Адаптер подключён, открытая фильтрующая сторона видима. Keep То же устойчивое подключение, свободный воздух визуально невидим.",
+      "reference_paths": [
+        "references/nasa-as13-62-9004.jpg"
+      ]
+    },
+    {
+      "id": "S014",
+      "prompt": "Nuviko History. Photorealistic historical reconstruction with subdued natural color, tangible material texture and believable scale. Vertical 9:16 full-bleed composition, keep key action inside center crop and above subtitle region without blank strips. No decorative frames, arrows, captions, film-actor likeness, modern touchscreen or fake archive damage. Generate requested maximum native quality. Historical people and objects are photographic. Only the recurring museum host is 2D line art matched to both approved traveler references. Scene S014. Возврат к точному музейному кадру S001. Ведущий смотрит на две формы, глаза открыты, ладонь спокойно раскрыта. Последний кадр равен первому по положению объектов. Start state Повтор S001. Keep Повтор S001 с ясным выражением лица.",
+      "reference_paths": [
+        "references/nasa-as13-62-9004.jpg",
+        "../../channels/nuviko_history/brand/References/traveler_turnaround_20261104.png",
+        "../../channels/nuviko_history/brand/References/traveler_emotions_20261104.png"
+      ]
+    }
+  ],
+  "view_map": [
+    {
+      "entity": "host",
+      "view": "three-quarter right, upright, open right palm, eyes open",
+      "scenes": [
+        "S001",
+        "S014"
+      ],
+      "purpose": "same settled museum pose at both ends"
+    },
+    {
+      "entity": "filter",
+      "view": "front mesh facing camera",
+      "scenes": [
+        "S001",
+        "S008",
+        "S014"
+      ],
+      "purpose": "shape and air intake"
+    },
+    {
+      "entity": "filter",
+      "view": "three-quarter top, modest downward camera angle",
+      "scenes": [
+        "S002",
+        "S007",
+        "S011"
+      ],
+      "purpose": "thickness and grasp surfaces"
+    },
+    {
+      "entity": "flight_adapter",
+      "view": "side with hose joint fully visible",
+      "scenes": [
+        "S012"
+      ],
+      "purpose": "show tape sealing bag to hose"
+    },
+    {
+      "entity": "flight_adapter",
+      "view": "three-quarter wider view along continuous hose",
+      "scenes": [
+        "S013"
+      ],
+      "purpose": "show connection to cabin system"
+    },
+    {
+      "entity": "ground_adapter",
+      "view": "front with ground test fixture",
+      "scenes": [
+        "S009"
+      ],
+      "purpose": "distinguish ground rig from flight assembly"
+    },
+    {
+      "entity": "crew",
+      "view": "back and partial side, hands on handholds",
+      "scenes": [
+        "S003",
+        "S004",
+        "S005"
+      ],
+      "purpose": "space and count without invented facial close-up"
+    },
+    {
+      "entity": "crew",
+      "view": "partial profile looking toward panel, head inclined",
+      "scenes": [
+        "S006"
+      ],
+      "purpose": "look toward warning"
+    },
+    {
+      "entity": "crew_hands",
+      "view": "two hands gripping filter edges",
+      "scenes": [
+        "S007",
+        "S008"
+      ],
+      "purpose": "leave mesh visible"
+    },
+    {
+      "entity": "crew_hands",
+      "view": "wrists bent while pressing tape to bag/hose joint",
+      "scenes": [
+        "S011",
+        "S012"
+      ],
+      "purpose": "precise assembly action"
+    },
+    {
+      "entity": "controller",
+      "view": "rear three-quarter at console, head inclined to paper",
+      "scenes": [
+        "S010"
+      ],
+      "purpose": "radio instruction"
+    },
+    {
+      "entity": "LM_cabin",
+      "view": "toward docking hatch from equipment corner",
+      "scenes": [
+        "S004"
+      ],
+      "purpose": "all three crew and shared landmarks"
+    },
+    {
+      "entity": "LM_cabin",
+      "view": "side toward front workstations",
+      "scenes": [
+        "S005"
+      ],
+      "purpose": "two work positions and third person"
+    },
+    {
+      "entity": "LM_equipment",
+      "view": "close and medium at same equipment side",
+      "scenes": [
+        "S006",
+        "S011",
+        "S012",
+        "S013"
+      ],
+      "purpose": "panel and hose continuity"
+    }
+  ]
+}

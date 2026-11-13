@@ -1,0 +1,105 @@
+{
+  "tool": "image_gen.imagegen",
+  "date": "2026-11-13",
+  "worker": "/root/nuviko_docs",
+  "status": "DRAFT",
+  "generations": [
+    {
+      "id": "engineer-poses",
+      "prompt": "Photorealistic costume and pose reference sheet for a peaceful 1970 space-research workplace. Three full-body views of the same adult male office engineer, age about forty, short brown hair, white short-sleeved shirt, narrow dark tie, gray trousers. Left view standing from behind with arms relaxed; center rear three-quarter seated holding a paper manual and wearing a lightweight period telephone headset; right side seated reading a manual. Natural subdued colors, neutral light-gray studio background, even soft light, normal human proportions and hands. No text or logo. All three are views of one person. No space capsule or lab equipment in this reference sheet.",
+      "output": "sheets/engineer-poses.png",
+      "provider_source": "exec-405c765e-1537-4157-871e-b973d4b207c0.png",
+      "references": [],
+      "sha256": "8f452196b2c7f9365b6a1e8cfb4735af6cc3370899ce69eb5e41a62a4c098297",
+      "actual_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "assembly-hands-v01",
+      "prompt": "Photographic reference sheet for an Apollo 13 museum reconstruction workshop, four panels of careful manual assembly, peaceful practical task. Only natural bare adult hands and wrists in ivory white knitted sleeves, no faces. Reference one provides the exact dark-gray square canister geometry with copper mesh and central round connector. Reference two provides white knitted sleeve texture. Top-left two hands grip the canister side edges leaving front mesh clear. Top-right one hand holds a thin tan folded card beside the same canister while other supports a clear plastic bag, white fabric-covered hose resting nearby. Bottom-left hands wrap clear bag around the canister outlet side and hold a white fabric-covered hose at the bag opening. Bottom-right two hands gently press a strip of silver-gray tape around the bag-to-hose connection. This sequence depicts assembly states of one object; canister remains dark gray and square, mesh architecture unchanged. Each pair has two hands only, correct fingers and calm natural wrist positions, modest neutral background, soft photographic light, subdued natural color. No text, no diagrams, no collage shadows, no decorative frame. Close-up views sized to show the wrist and contact geometry in every panel.",
+      "output": "sheets/assembly-hands-v01.png",
+      "provider_source": "exec-4620ac15-ccb7-48ca-ab6b-d2c4fe896988.png",
+      "references": [
+        "sheets/filter-plain.png",
+        "sheets/crew-poses.png"
+      ],
+      "status": "PARTIAL_REFERENCE_ONLY",
+      "limitations": "Top row for hand poses and sleeves only. Bottom row depicts bag attached to central connector, rejected as technical assembly reference.",
+      "sha256": "3f369b7b18d884c2c00ebc06c64945242ab6c927539b10ff656a68c65b5e2b4d",
+      "actual_dimensions": [
+        1312,
+        1199
+      ]
+    },
+    {
+      "id": "S009",
+      "prompt": "Historical scene reconstruction, vertical 9:16 full-bleed photograph, Apollo 13 Houston ground test laboratory in 1970. Reproduce the assembled air-filter test rig in reference 1: silver square cartridge with mesh face, gray tape bands, transparent bag and white cloth-wrapped hoses, supported securely on a small padded metal test fixture amid practical pipes and test hardware. Show the rig prominently in the center foreground, all connections visible, no duplicate loose hoses. Reference 2 supplies only the back-view identity and white short-sleeve shirt of an anonymous engineer standing at the left edge, looking at the rig, body partly cropped, no face needed. This is a laboratory test station, not a Mission Control console room. No CRT console rows, no spacecraft window, no host, no schematic arrows, no text captions. Natural restrained photographic color and believable 1970 fluorescent lighting, gentle depth of field, no cinematic orange teal treatment. Preserve material identity of the real rig; historical reconstruction rather than a claimed archive photo. Full image with no border or collage.",
+      "output": "scenes/S009.png",
+      "status": "DRAFT",
+      "sha256": "f6269971e06ff16afa5b5b666c1f9da083a28c9d46d19229e799a86f3d88b578",
+      "actual_dimensions": [
+        941,
+        1672
+      ],
+      "provider_source": "exec-3056e0f1-da2a-40a3-918f-79378d7ff8a1.png"
+    },
+    {
+      "id": "S010",
+      "prompt": "Photorealistic historical reconstruction of Apollo 13 Mission Control, Houston, 1970. Vertical 9:16 full-bleed single scene. Rear three-quarter view of the SAME anonymous white-shirted brown-haired man with narrow dark tie and lightweight telephone headset from reference 1, seated at a gray-green period console, one hand resting beside an open paper procedure on the desk, head gently inclined toward the paper. Compose person waist-up right of center and paper manual visible center-left. Reference 2 establishes real console rows, small blue CRTs, amber button lights and projection room scale. Reference 3 supplies consistent subdued material palette ONLY bottom row Mission Control views. Accurate 1970 office clothing and practical fluorescent lighting. Quiet concentration, no theatrical gestures, no lab apparatus on consoles, no filter or tape supplies on desk, no modern monitor, no cartoon host, no captions, no visible readable invented technical claims. Distinguish foreground controller clearly from softly out-of-focus distant seated staff. Keep key manual and hands away from bottom subtitle region. Natural photographic texture, no sepia, no vignette, no border.",
+      "output": "scenes/S010.png",
+      "status": "DRAFT",
+      "sha256": "3ecc53ee6cd553aad09629773a3a17cc5434d5de685f86a0f0e1f26692a672c1",
+      "actual_dimensions": [
+        941,
+        1672
+      ],
+      "provider_source": "exec-620dbd67-3802-4e69-bee4-ea4874f5d9d4.png"
+    },
+    {
+      "id": "S011",
+      "prompt": "Generate one vertical 9:16 photorealistic Apollo 13 reconstruction scene, no collage. Camera close and slightly above a pair of adult astronaut hands wearing white knit sleeve cuffs inside the cramped ivory Apollo lunar module. Show the hands preparing the materials for the improvised air adapter. Exact canister geometry from image 1: dark-gray square box, copper mesh square windows, central connector and cord. Canister is intact with NO tape or bag already on it. One hand holds a thin folded tan cardboard card; other hand holds a length of silver-gray duct tape, with a clear plastic bag and a single white fabric-wrapped hose directly beside the canister. Hands posed calmly with correct fingers. Reference 2 provides bare hands/sleeve texture and object scale ONLY the top row, never the incorrect central-port bag connection in its bottom row. Reference 3 supplies real cabin materials, white cloth-wrapped hoses and cramped scale. All preparation items visible and distinct, no duplicated hands, tools or hoses. Dim diffuse natural practical cabin light, restrained warm-gray photographic palette matching Nuviko historical scenes. No text, arrows, host, decorative frame, futuristic devices, fire or smoke. Full-bleed portrait image. The viewer immediately understands parts are still separate before assembly.",
+      "output": "scenes/S011.png",
+      "status": "DRAFT",
+      "sha256": "49857a3c68824fac292634149c34d1bc225f3093186713e4ae408c23edc82ae7",
+      "actual_dimensions": [
+        941,
+        1672
+      ],
+      "provider_source": "exec-599e46f6-6723-44bf-b447-1903d0de6a2c.png"
+    },
+    {
+      "id": "S012",
+      "prompt": "Create one vertical 9:16 full-bleed close-up photographic reconstruction for Apollo 13, scene S012. Use reference 1 as the EXACT preceding scene for dark-gray square canister identity, proportions, copper mesh windows, white knit sleeves, cabin cloth background, subdued palette. Move camera to the SIDE of this canister while two natural bare hands press gray duct tape around a clear plastic bag neck and a white cloth-wrapped air hose. IMPORTANT AIR PATH: the clear bag is spread across an entire square OUTLET FACE of the canister, held away from the face by an arched cardboard card inside it, with the bag edges taped around that whole face's perimeter. Its corner gathers around the hose and is being sealed. The bag must NOT be attached only to the central round connector visible on the opposite face. The opposite INLET mesh face remains open to cabin air, visibly accessible at left edge. Make the canister dark-gray square body recognizable, the cardboard arch visible through the bag, and all connections physically coherent. Hose runs toward lower right and leaves frame. Both hands only, clear fingers pressing tape, no additional hands, no extra hose, no floating tape. This is the same peaceful manual construction with spacecraft background softly out of focus. No text, arrows, host, labels, smoke, bright colored air or borders. Photoreal natural color. Reference 2 gives real NASA material and cramped-space visual cues only.",
+      "output": "scenes/S012.png",
+      "status": "DRAFT",
+      "sha256": "ecc7a155c00f1b5dc3966732ac61718659b834faec18203b7355d31db035170c",
+      "actual_dimensions": [
+        941,
+        1672
+      ],
+      "provider_source": "exec-b53a16c9-2e05-4315-ba3f-4028357027f8.png"
+    },
+    {
+      "id": "S013",
+      "prompt": "Create a new, wider vertical 9:16 single photographic scene, Apollo 13 lunar module makeshift carbon-dioxide filter installed in cabin. Reference 1 is the immediate prior assembly scene and locks dark-gray square canister size, copper mesh face, transparent bag with cardboard arch, silver-gray duct tape and single white fabric-covered hose. Show completed assembly at three-quarter angle, copper mesh intake face at left open to cabin air, transparent bag collecting air on the other face, one continuous cloth-covered hose curving right into a real metal connection on cabin life-support equipment. Show actual mesh/airflow openings behind the bag so there is a physically open path through the cartridge; do not seal bag to a solid metal wall. No hands, no crew faces, the apparatus secured on existing cabin support. Reference 2 is original NASA cabin texture and cramped equipment. No large room, no modern screens, no test-lab rolling stool, no duplicate loose hose, no vapor, no arrows, no text overlays, no host or collage. Restrained neutral photographic color, ivory cloth and metal cabin, soft practical light matching reference 1. Important objects fill center and upper portions of frame; full-bleed portrait. This shows a stable connected state after assembly.",
+      "output": "scenes/S013.png",
+      "status": "DRAFT",
+      "sha256": "d9330dea3fbc2bf252535d6b41c75cd9e8146204fea316b80912aba7f2561934",
+      "actual_dimensions": [
+        941,
+        1672
+      ],
+      "provider_source": "exec-6eaf8b23-3a8f-4472-b179-736cf0ecc543.png"
+    }
+  ],
+  "failed_attempt": {
+    "prompt": "Create a photorealistic historical production reference sheet, six distinct panels, for an Apollo 13 reconstruction in natural subdued color. Based on reference 1 only for 1970 flight-controller clothing and headset, reference 2 only for astronaut white knit flight sleeves and bare hands. Top row: same anonymous male Houston engineer age 40, short brown hair, white short sleeve dress shirt, dark narrow tie, gray trousers, back standing slightly inclined, rear three-quarter seated wearing period lightweight headset, side seated reading a paper procedure. Bottom row: close-ups of the same astronaut bare hands with white knit sleeve cuffs, two hands holding a square canister by the sides, one hand holding a thin tan cardboard flight-plan card while another holds gray duct tape, two hands pressing tape around a bag-to-white-cloth-hose joint. No helmets, gloves, extra arms, hero, actor likeness, cartoon styling, modern technology, captions. All views are tangible photographic lighting and human anatomy. Clear space between views, warm gray studio backdrop for people and hands. This is a reference sheet rather than a scene.",
+    "error": "Output moderation classified violence (no image returned).",
+    "request_id": "b93001c0-6573-499c-930a-03b99e794093",
+    "retry": "Simplified to a peaceful office clothing/pose sheet without equipment, succeeded."
+  },
+  "repair_evidence": "S012_REPAIR.json",
+  "final_repair_evidence": "S012_S013_FINAL_REPAIR.json"
+}

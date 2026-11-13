@@ -1,0 +1,608 @@
+{
+  "run_id": "69e7fc50-12ef-4d76-b356-fa53415990b0",
+  "channel": "nuviko_history",
+  "format": "short",
+  "script_sha256": "d720fc90d9b726c2f064c4f18da13feccfbb1fb0b0e2c5e9b41a7b340d099f02",
+  "scope": "preproduction_images_storyboard_only",
+  "scenes": [
+    {
+      "id": "S001",
+      "title": "Форма фильтра",
+      "narration": "Apollo 13's spare air filters were square.",
+      "script_char_start": 0,
+      "script_char_end": 42,
+      "visual_intent": "Показать квадратную форму и лицо канала.",
+      "description": "Современный музейный стенд. Рисованный ведущий в три четверти раскрывает правую ладонь рядом с квадратным серебристым картриджем.",
+      "shot_size": "medium",
+      "location": "museum",
+      "entity_state": "host+square",
+      "camera": {
+        "intent": "zoom_in",
+        "focus": "Показать квадратную форму и лицо канала.",
+        "coordinates_status": "defer_until_exact_image"
+      },
+      "start_state": "Правая ладонь уже открыта, предмет на стенде.",
+      "end_state": "Та же спокойная поза, глаза открыты.",
+      "reference_paths": [
+        "references/nasa-as13-62-9004.jpg",
+        "../../channels/nuviko_history/brand/References/traveler_turnaround_20261104.png",
+        "../../channels/nuviko_history/brand/References/traveler_emotions_20261104.png"
+      ],
+      "prompt": "Nuviko History. Photorealistic historical reconstruction with subdued natural color, tangible material texture and believable scale. Vertical 9:16 full-bleed composition, keep key action inside center crop and above subtitle region without blank strips. No decorative frames, arrows, captions, film-actor likeness, modern touchscreen or fake archive damage. Generate requested maximum native quality. Historical people and objects are photographic. Only the recurring museum host is 2D line art matched to both approved traveler references. Scene S001. Современный музейный стенд. Рисованный ведущий в три четверти раскрывает правую ладонь рядом с квадратным серебристым картриджем. Start state Правая ладонь уже открыта, предмет на стенде. Keep Та же спокойная поза, глаза открыты.",
+      "animation_status": "planning_only_no_dispatch",
+      "timing_status": "requires_measured_narration",
+      "duration_seconds": null,
+      "required_views": [
+        "three_quarter",
+        "side"
+      ],
+      "status": "TEXT_PREPRODUCTION",
+      "animation_brief": {
+        "actor": "host+square",
+        "action": "Правая ладонь уже открыта, предмет на стенде. Та же спокойная поза, глаза открыты.",
+        "camera": "Keep stated angle. No orbit or unrequested reverse view. Focus: Показать квадратную форму и лицо канала.",
+        "inventory_lock": "Use only objects visibly present in the accepted still. No new hoses, tools, crew members, labels or connectors. Describe occluded items before any reveal.",
+        "sound": "Subtle ventilation in spacecraft, room tone in Houston, quiet exhibit room in museum. No dialogue. Action sounds require approved visible action.",
+        "music": "One continuous understated score at edit stage. No separate generated music per clip. Final rights and mix pending.",
+        "duration_seconds": null,
+        "mode": "Ingredients",
+        "status": "DRAFT_REQUIRES_ACCEPTED_STILL_AND_AUDIO"
+      }
+    },
+    {
+      "id": "S002",
+      "title": "Круглое гнездо",
+      "narration": "The filter openings in the lunar lander were round.",
+      "script_char_start": 43,
+      "script_char_end": 94,
+      "visual_intent": "Сравнить две несовместимые формы без попытки вставить квадрат в отверстие.",
+      "description": "Предметный вид под углом на музейные модели квадратного картриджа и круглого посадочного места, расстояние между ними видимо. Ведущий вне кадра.",
+      "shot_size": "close",
+      "location": "museum",
+      "entity_state": "square+round",
+      "camera": {
+        "intent": "zoom_out",
+        "focus": "Сравнить две несовместимые формы без попытки вставить квадрат в отверстие.",
+        "coordinates_status": "defer_until_exact_image"
+      },
+      "start_state": "Оба экспоната раздельно.",
+      "end_state": "Оба экспоната раздельно.",
+      "reference_paths": [
+        "references/nasa-as13-62-9004.jpg"
+      ],
+      "prompt": "Nuviko History. Photorealistic historical reconstruction with subdued natural color, tangible material texture and believable scale. Vertical 9:16 full-bleed composition, keep key action inside center crop and above subtitle region without blank strips. No decorative frames, arrows, captions, film-actor likeness, modern touchscreen or fake archive damage. Generate requested maximum native quality. Historical people and objects are photographic. Only the recurring museum host is 2D line art matched to both approved traveler references. Scene S002. Предметный вид под углом на музейные модели квадратного картриджа и круглого посадочного места, расстояние между ними видимо. Ведущий вне кадра. Start state Оба экспоната раздельно. Keep Оба экспоната раздельно.",
+      "animation_status": "planning_only_no_dispatch",
+      "timing_status": "requires_measured_narration",
+      "duration_seconds": null,
+      "required_views": [
+        "three_quarter",
+        "side"
+      ],
+      "status": "TEXT_PREPRODUCTION",
+      "animation_brief": {
+        "actor": "square+round",
+        "action": "Оба экспоната раздельно. Оба экспоната раздельно.",
+        "camera": "Keep stated angle. No orbit or unrequested reverse view. Focus: Сравнить две несовместимые формы без попытки вставить квадрат в отверстие.",
+        "inventory_lock": "Use only objects visibly present in the accepted still. No new hoses, tools, crew members, labels or connectors. Describe occluded items before any reveal.",
+        "sound": "Subtle ventilation in spacecraft, room tone in Houston, quiet exhibit room in museum. No dialogue. Action sounds require approved visible action.",
+        "music": "One continuous understated score at edit stage. No separate generated music per clip. Final rights and mix pending.",
+        "duration_seconds": null,
+        "mode": "Ingredients",
+        "status": "DRAFT_REQUIRES_ACCEPTED_STILL_AND_AUDIO"
+      }
+    },
+    {
+      "id": "S003",
+      "title": "Авария",
+      "narration": "An oxygen tank had exploded on the way to the Moon,",
+      "script_char_start": 96,
+      "script_char_end": 147,
+      "visual_intent": "Дать человеческий масштаб аварии.",
+      "description": "Взгляд через плечо астронавта на тесную панель командного модуля. Рука опирается на край консоли. Без огня внутри кабины, без киношного взрыва.",
+      "shot_size": "medium",
+      "location": "CM",
+      "entity_state": "crew",
+      "camera": {
+        "intent": "static",
+        "focus": "Дать человеческий масштаб аварии.",
+        "coordinates_status": "defer_until_exact_image"
+      },
+      "start_state": "Астронавт у приборной панели.",
+      "end_state": "Он остаётся у панели, камера неподвижна.",
+      "reference_paths": [
+        "references/nasa-as13-62-9004.jpg"
+      ],
+      "prompt": "Nuviko History. Photorealistic historical reconstruction with subdued natural color, tangible material texture and believable scale. Vertical 9:16 full-bleed composition, keep key action inside center crop and above subtitle region without blank strips. No decorative frames, arrows, captions, film-actor likeness, modern touchscreen or fake archive damage. Generate requested maximum native quality. Historical people and objects are photographic. Only the recurring museum host is 2D line art matched to both approved traveler references. Scene S003. Взгляд через плечо астронавта на тесную панель командного модуля. Рука опирается на край консоли. Без огня внутри кабины, без киношного взрыва. Start state Астронавт у приборной панели. Keep Он остаётся у панели, камера неподвижна.",
+      "animation_status": "planning_only_no_dispatch",
+      "timing_status": "requires_measured_narration",
+      "duration_seconds": null,
+      "required_views": [
+        "scene_camera_view"
+      ],
+      "status": "TEXT_PREPRODUCTION",
+      "animation_brief": {
+        "actor": "crew",
+        "action": "Астронавт у приборной панели. Он остаётся у панели, камера неподвижна.",
+        "camera": "Keep stated angle. No orbit or unrequested reverse view. Focus: Дать человеческий масштаб аварии.",
+        "inventory_lock": "Use only objects visibly present in the accepted still. No new hoses, tools, crew members, labels or connectors. Describe occluded items before any reveal.",
+        "sound": "Subtle ventilation in spacecraft, room tone in Houston, quiet exhibit room in museum. No dialogue. Action sounds require approved visible action.",
+        "music": "One continuous understated score at edit stage. No separate generated music per clip. Final rights and mix pending.",
+        "duration_seconds": null,
+        "mode": "Ingredients",
+        "status": "DRAFT_REQUIRES_ACCEPTED_STILL_AND_AUDIO"
+      }
+    },
+    {
+      "id": "S004",
+      "title": "Убежище",
+      "narration": "so all three astronauts took shelter in the lander.",
+      "script_char_start": 148,
+      "script_char_end": 199,
+      "visual_intent": "Показать три человека в маленьком объёме.",
+      "description": "Ракурс из глубины лунного модуля к переходному люку. Три человека в белой полётной одежде без шлемов распределены по тесному объёму. Видны спины и профиль.",
+      "shot_size": "wide",
+      "location": "LM",
+      "entity_state": "crew",
+      "camera": {
+        "intent": "zoom_in",
+        "focus": "Показать три человека в маленьком объёме.",
+        "coordinates_status": "defer_until_exact_image"
+      },
+      "start_state": "Трое уже внутри.",
+      "end_state": "Один держится за поручень, все трое остаются видимы.",
+      "reference_paths": [
+        "references/nasa-as13-62-9004.jpg"
+      ],
+      "prompt": "Nuviko History. Photorealistic historical reconstruction with subdued natural color, tangible material texture and believable scale. Vertical 9:16 full-bleed composition, keep key action inside center crop and above subtitle region without blank strips. No decorative frames, arrows, captions, film-actor likeness, modern touchscreen or fake archive damage. Generate requested maximum native quality. Historical people and objects are photographic. Only the recurring museum host is 2D line art matched to both approved traveler references. Scene S004. Ракурс из глубины лунного модуля к переходному люку. Три человека в белой полётной одежде без шлемов распределены по тесному объёму. Видны спины и профиль. Start state Трое уже внутри. Keep Один держится за поручень, все трое остаются видимы.",
+      "animation_status": "planning_only_no_dispatch",
+      "timing_status": "requires_measured_narration",
+      "duration_seconds": null,
+      "required_views": [
+        "scene_camera_view"
+      ],
+      "status": "TEXT_PREPRODUCTION",
+      "animation_brief": {
+        "actor": "crew",
+        "action": "Трое уже внутри. Один держится за поручень, все трое остаются видимы.",
+        "camera": "Keep stated angle. No orbit or unrequested reverse view. Focus: Показать три человека в маленьком объёме.",
+        "inventory_lock": "Use only objects visibly present in the accepted still. No new hoses, tools, crew members, labels or connectors. Describe occluded items before any reveal.",
+        "sound": "Subtle ventilation in spacecraft, room tone in Houston, quiet exhibit room in museum. No dialogue. Action sounds require approved visible action.",
+        "music": "One continuous understated score at edit stage. No separate generated music per clip. Final rights and mix pending.",
+        "duration_seconds": null,
+        "mode": "Ingredients",
+        "status": "DRAFT_REQUIRES_ACCEPTED_STILL_AND_AUDIO"
+      }
+    },
+    {
+      "id": "S005",
+      "title": "Рассчитано на двоих",
+      "narration": "Its life support was designed for two people.",
+      "script_char_start": 200,
+      "script_char_end": 245,
+      "visual_intent": "Показать ограниченность пространства через рабочие места.",
+      "description": "Низкая камера сбоку кабины, два рабочих места у передних окон и третий человек позади. Система кабины сохраняет расположение ориентиров из S004.",
+      "shot_size": "wide",
+      "location": "LM",
+      "entity_state": "crew",
+      "camera": {
+        "intent": "zoom_out",
+        "focus": "Показать ограниченность пространства через рабочие места.",
+        "coordinates_status": "defer_until_exact_image"
+      },
+      "start_state": "Трое в кабине.",
+      "end_state": "Те же трое, без добавления четвёртого человека.",
+      "reference_paths": [
+        "references/nasa-as13-62-9004.jpg"
+      ],
+      "prompt": "Nuviko History. Photorealistic historical reconstruction with subdued natural color, tangible material texture and believable scale. Vertical 9:16 full-bleed composition, keep key action inside center crop and above subtitle region without blank strips. No decorative frames, arrows, captions, film-actor likeness, modern touchscreen or fake archive damage. Generate requested maximum native quality. Historical people and objects are photographic. Only the recurring museum host is 2D line art matched to both approved traveler references. Scene S005. Низкая камера сбоку кабины, два рабочих места у передних окон и третий человек позади. Система кабины сохраняет расположение ориентиров из S004. Start state Трое в кабине. Keep Те же трое, без добавления четвёртого человека.",
+      "animation_status": "planning_only_no_dispatch",
+      "timing_status": "requires_measured_narration",
+      "duration_seconds": null,
+      "required_views": [
+        "scene_camera_view"
+      ],
+      "status": "TEXT_PREPRODUCTION",
+      "animation_brief": {
+        "actor": "crew",
+        "action": "Трое в кабине. Те же трое, без добавления четвёртого человека.",
+        "camera": "Keep stated angle. No orbit or unrequested reverse view. Focus: Показать ограниченность пространства через рабочие места.",
+        "inventory_lock": "Use only objects visibly present in the accepted still. No new hoses, tools, crew members, labels or connectors. Describe occluded items before any reveal.",
+        "sound": "Subtle ventilation in spacecraft, room tone in Houston, quiet exhibit room in museum. No dialogue. Action sounds require approved visible action.",
+        "music": "One continuous understated score at edit stage. No separate generated music per clip. Final rights and mix pending.",
+        "duration_seconds": null,
+        "mode": "Ingredients",
+        "status": "DRAFT_REQUIRES_ACCEPTED_STILL_AND_AUDIO"
+      }
+    },
+    {
+      "id": "S006",
+      "title": "Предупреждение",
+      "narration": "Now three were breathing in there, and a warning light came on. Carbon dioxide had reached a dangerous level.",
+      "script_char_start": 246,
+      "script_char_end": 355,
+      "visual_intent": "Связать опасность с предупреждением.",
+      "description": "Крупный взгляд астронавта на светящийся индикатор штатной панели. Лицо частично видно в профиль, главная деталь — лампа и окружающая реальная панель.",
+      "shot_size": "close",
+      "location": "LM",
+      "entity_state": "crew+panel",
+      "camera": {
+        "intent": "zoom_in",
+        "focus": "Связать опасность с предупреждением.",
+        "coordinates_status": "defer_until_exact_image"
+      },
+      "start_state": "Индикатор включён.",
+      "end_state": "Индикатор сохраняется, без выдуманного обратного отсчёта.",
+      "reference_paths": [
+        "references/nasa-as13-62-9004.jpg"
+      ],
+      "prompt": "Nuviko History. Photorealistic historical reconstruction with subdued natural color, tangible material texture and believable scale. Vertical 9:16 full-bleed composition, keep key action inside center crop and above subtitle region without blank strips. No decorative frames, arrows, captions, film-actor likeness, modern touchscreen or fake archive damage. Generate requested maximum native quality. Historical people and objects are photographic. Only the recurring museum host is 2D line art matched to both approved traveler references. Scene S006. Крупный взгляд астронавта на светящийся индикатор штатной панели. Лицо частично видно в профиль, главная деталь — лампа и окружающая реальная панель. Start state Индикатор включён. Keep Индикатор сохраняется, без выдуманного обратного отсчёта.",
+      "animation_status": "planning_only_no_dispatch",
+      "timing_status": "requires_measured_narration",
+      "duration_seconds": null,
+      "required_views": [
+        "scene_camera_view"
+      ],
+      "status": "TEXT_PREPRODUCTION",
+      "animation_brief": {
+        "actor": "crew+panel",
+        "action": "Индикатор включён. Индикатор сохраняется, без выдуманного обратного отсчёта.",
+        "camera": "Keep stated angle. No orbit or unrequested reverse view. Focus: Связать опасность с предупреждением.",
+        "inventory_lock": "Use only objects visibly present in the accepted still. No new hoses, tools, crew members, labels or connectors. Describe occluded items before any reveal.",
+        "sound": "Subtle ventilation in spacecraft, room tone in Houston, quiet exhibit room in museum. No dialogue. Action sounds require approved visible action.",
+        "music": "One continuous understated score at edit stage. No separate generated music per clip. Final rights and mix pending.",
+        "duration_seconds": null,
+        "mode": "Ingredients",
+        "status": "DRAFT_REQUIRES_ACCEPTED_STILL_AND_AUDIO"
+      }
+    },
+    {
+      "id": "S007",
+      "title": "Запас",
+      "narration": "The crew had spare filters back in the command module.",
+      "script_char_start": 357,
+      "script_char_end": 411,
+      "visual_intent": "Запасной фильтр физически существует.",
+      "description": "Внутри командного модуля квадратный картридж удерживается двумя руками над открытым отсеком. Боковой ракурс показывает толщину и решётку.",
+      "shot_size": "close",
+      "location": "CM",
+      "entity_state": "square",
+      "camera": {
+        "intent": "zoom_out",
+        "focus": "Запасной фильтр физически существует.",
+        "coordinates_status": "defer_until_exact_image"
+      },
+      "start_state": "Картридж целый, без мешка и ленты.",
+      "end_state": "Тот же картридж целый.",
+      "reference_paths": [
+        "references/nasa-as13-62-9004.jpg"
+      ],
+      "prompt": "Nuviko History. Photorealistic historical reconstruction with subdued natural color, tangible material texture and believable scale. Vertical 9:16 full-bleed composition, keep key action inside center crop and above subtitle region without blank strips. No decorative frames, arrows, captions, film-actor likeness, modern touchscreen or fake archive damage. Generate requested maximum native quality. Historical people and objects are photographic. Only the recurring museum host is 2D line art matched to both approved traveler references. Scene S007. Внутри командного модуля квадратный картридж удерживается двумя руками над открытым отсеком. Боковой ракурс показывает толщину и решётку. Start state Картридж целый, без мешка и ленты. Keep Тот же картридж целый.",
+      "animation_status": "planning_only_no_dispatch",
+      "timing_status": "requires_measured_narration",
+      "duration_seconds": null,
+      "required_views": [
+        "three_quarter",
+        "side"
+      ],
+      "status": "TEXT_PREPRODUCTION",
+      "animation_brief": {
+        "actor": "square",
+        "action": "Картридж целый, без мешка и ленты. Тот же картридж целый.",
+        "camera": "Keep stated angle. No orbit or unrequested reverse view. Focus: Запасной фильтр физически существует.",
+        "inventory_lock": "Use only objects visibly present in the accepted still. No new hoses, tools, crew members, labels or connectors. Describe occluded items before any reveal.",
+        "sound": "Subtle ventilation in spacecraft, room tone in Houston, quiet exhibit room in museum. No dialogue. Action sounds require approved visible action.",
+        "music": "One continuous understated score at edit stage. No separate generated music per clip. Final rights and mix pending.",
+        "duration_seconds": null,
+        "mode": "Ingredients",
+        "status": "DRAFT_REQUIRES_ACCEPTED_STILL_AND_AUDIO"
+      }
+    },
+    {
+      "id": "S008",
+      "title": "Воздух через фильтр",
+      "narration": "They needed to pull cabin air through one of those filters.",
+      "script_char_start": 412,
+      "script_char_end": 471,
+      "visual_intent": "Показать рабочую поверхность, через которую должен идти воздух.",
+      "description": "Макро на открытые решётки квадратного фильтра, пальцы держат его по краям и не закрывают отверстия. Никаких видимых цветных газов или стрелок.",
+      "shot_size": "macro",
+      "location": "CM",
+      "entity_state": "square",
+      "camera": {
+        "intent": "zoom_in",
+        "focus": "Показать рабочую поверхность, через которую должен идти воздух.",
+        "coordinates_status": "defer_until_exact_image"
+      },
+      "start_state": "Решётки открыты.",
+      "end_state": "Решётки остаются открытыми.",
+      "reference_paths": [
+        "references/nasa-as13-62-9004.jpg"
+      ],
+      "prompt": "Nuviko History. Photorealistic historical reconstruction with subdued natural color, tangible material texture and believable scale. Vertical 9:16 full-bleed composition, keep key action inside center crop and above subtitle region without blank strips. No decorative frames, arrows, captions, film-actor likeness, modern touchscreen or fake archive damage. Generate requested maximum native quality. Historical people and objects are photographic. Only the recurring museum host is 2D line art matched to both approved traveler references. Scene S008. Макро на открытые решётки квадратного фильтра, пальцы держат его по краям и не закрывают отверстия. Никаких видимых цветных газов или стрелок. Start state Решётки открыты. Keep Решётки остаются открытыми.",
+      "animation_status": "planning_only_no_dispatch",
+      "timing_status": "requires_measured_narration",
+      "duration_seconds": null,
+      "required_views": [
+        "three_quarter",
+        "side"
+      ],
+      "status": "TEXT_PREPRODUCTION",
+      "animation_brief": {
+        "actor": "square",
+        "action": "Решётки открыты. Решётки остаются открытыми.",
+        "camera": "Keep stated angle. No orbit or unrequested reverse view. Focus: Показать рабочую поверхность, через которую должен идти воздух.",
+        "inventory_lock": "Use only objects visibly present in the accepted still. No new hoses, tools, crew members, labels or connectors. Describe occluded items before any reveal.",
+        "sound": "Subtle ventilation in spacecraft, room tone in Houston, quiet exhibit room in museum. No dialogue. Action sounds require approved visible action.",
+        "music": "One continuous understated score at edit stage. No separate generated music per clip. Final rights and mix pending.",
+        "duration_seconds": null,
+        "mode": "Ingredients",
+        "status": "DRAFT_REQUIRES_ACCEPTED_STILL_AND_AUDIO"
+      }
+    },
+    {
+      "id": "S009",
+      "title": "Наземная проверка",
+      "narration": "Engineers in Houston built and tested an adapter using supplies the crew had on board.",
+      "script_char_start": 473,
+      "script_char_end": 559,
+      "visual_intent": "Наземная копия проверена прежде сборки на борту.",
+      "description": "Фотореалистичная лабораторная установка по NASA S70-35395. Картридж, мешок, серая лента и белые шланги уже соединены на тестовом стенде. Инженер виден со спины.",
+      "shot_size": "medium",
+      "location": "test_rig",
+      "entity_state": "ground_adapter",
+      "camera": {
+        "intent": "zoom_out",
+        "focus": "Наземная копия проверена прежде сборки на борту.",
+        "coordinates_status": "defer_until_exact_image"
+      },
+      "start_state": "Наземный макет собран.",
+      "end_state": "Наземный макет остаётся собранным.",
+      "reference_paths": [
+        "references/nasa-s70-35395.jpg"
+      ],
+      "prompt": "Nuviko History. Photorealistic historical reconstruction with subdued natural color, tangible material texture and believable scale. Vertical 9:16 full-bleed composition, keep key action inside center crop and above subtitle region without blank strips. No decorative frames, arrows, captions, film-actor likeness, modern touchscreen or fake archive damage. Generate requested maximum native quality. Historical people and objects are photographic. Only the recurring museum host is 2D line art matched to both approved traveler references. Scene S009. Фотореалистичная лабораторная установка по NASA S70-35395. Картридж, мешок, серая лента и белые шланги уже соединены на тестовом стенде. Инженер виден со спины. Start state Наземный макет собран. Keep Наземный макет остаётся собранным.",
+      "animation_status": "planning_only_no_dispatch",
+      "timing_status": "requires_measured_narration",
+      "duration_seconds": null,
+      "required_views": [
+        "three_quarter",
+        "side"
+      ],
+      "status": "TEXT_PREPRODUCTION",
+      "animation_brief": {
+        "actor": "ground_adapter",
+        "action": "Наземный макет собран. Наземный макет остаётся собранным.",
+        "camera": "Keep stated angle. No orbit or unrequested reverse view. Focus: Наземная копия проверена прежде сборки на борту.",
+        "inventory_lock": "Use only objects visibly present in the accepted still. No new hoses, tools, crew members, labels or connectors. Describe occluded items before any reveal.",
+        "sound": "Subtle ventilation in spacecraft, room tone in Houston, quiet exhibit room in museum. No dialogue. Action sounds require approved visible action.",
+        "music": "One continuous understated score at edit stage. No separate generated music per clip. Final rights and mix pending.",
+        "duration_seconds": null,
+        "mode": "Ingredients",
+        "status": "DRAFT_REQUIRES_ACCEPTED_STILL_AND_AUDIO"
+      }
+    },
+    {
+      "id": "S010",
+      "title": "По радио",
+      "narration": "Mission Control talked the astronauts through the build over the radio.",
+      "script_char_start": 560,
+      "script_char_end": 631,
+      "visual_intent": "Показать передачу инструкции голосом.",
+      "description": "Диспетчер со спины и в профиль за серо-зелёной консолью 1970 года с гарнитурой. Бумажная инструкция перед ним, свет CRT и ламп, фон по NASA S70-35136.",
+      "shot_size": "medium",
+      "location": "MCC",
+      "entity_state": "controller",
+      "camera": {
+        "intent": "zoom_in",
+        "focus": "Показать передачу инструкции голосом.",
+        "coordinates_status": "defer_until_exact_image"
+      },
+      "start_state": "Гарнитура надета, рука у инструкции.",
+      "end_state": "Рука у той же инструкции, спокойная сосредоточенная поза.",
+      "reference_paths": [
+        "references/nasa-s70-35136.jpg"
+      ],
+      "prompt": "Nuviko History. Photorealistic historical reconstruction with subdued natural color, tangible material texture and believable scale. Vertical 9:16 full-bleed composition, keep key action inside center crop and above subtitle region without blank strips. No decorative frames, arrows, captions, film-actor likeness, modern touchscreen or fake archive damage. Generate requested maximum native quality. Historical people and objects are photographic. Only the recurring museum host is 2D line art matched to both approved traveler references. Scene S010. Диспетчер со спины и в профиль за серо-зелёной консолью 1970 года с гарнитурой. Бумажная инструкция перед ним, свет CRT и ламп, фон по NASA S70-35136. Start state Гарнитура надета, рука у инструкции. Keep Рука у той же инструкции, спокойная сосредоточенная поза.",
+      "animation_status": "planning_only_no_dispatch",
+      "timing_status": "requires_measured_narration",
+      "duration_seconds": null,
+      "required_views": [
+        "scene_camera_view"
+      ],
+      "status": "TEXT_PREPRODUCTION",
+      "animation_brief": {
+        "actor": "controller",
+        "action": "Гарнитура надета, рука у инструкции. Рука у той же инструкции, спокойная сосредоточенная поза.",
+        "camera": "Keep stated angle. No orbit or unrequested reverse view. Focus: Показать передачу инструкции голосом.",
+        "inventory_lock": "Use only objects visibly present in the accepted still. No new hoses, tools, crew members, labels or connectors. Describe occluded items before any reveal.",
+        "sound": "Subtle ventilation in spacecraft, room tone in Houston, quiet exhibit room in museum. No dialogue. Action sounds require approved visible action.",
+        "music": "One continuous understated score at edit stage. No separate generated music per clip. Final rights and mix pending.",
+        "duration_seconds": null,
+        "mode": "Ingredients",
+        "status": "DRAFT_REQUIRES_ACCEPTED_STILL_AND_AUDIO"
+      }
+    },
+    {
+      "id": "S011",
+      "title": "Материалы",
+      "narration": "With cardboard, a plastic bag and duct tape,",
+      "script_char_start": 632,
+      "script_char_end": 676,
+      "visual_intent": "Все материалы доступны и удерживаются в невесомости.",
+      "description": "Крупная предметная композиция внутри лунного модуля. Руки экипажа придерживают картонную карточку, пластиковый пакет и полоску серой ленты рядом с тем же квадратным фильтром.",
+      "shot_size": "close",
+      "location": "LM",
+      "entity_state": "assembly_materials",
+      "camera": {
+        "intent": "zoom_out",
+        "focus": "Все материалы доступны и удерживаются в невесомости.",
+        "coordinates_status": "defer_until_exact_image"
+      },
+      "start_state": "Пакет и лента ещё не закрыли соединение.",
+      "end_state": "Картон подложен к картриджу, шланг рядом.",
+      "reference_paths": [
+        "references/nasa-as13-62-9004.jpg"
+      ],
+      "prompt": "Nuviko History. Photorealistic historical reconstruction with subdued natural color, tangible material texture and believable scale. Vertical 9:16 full-bleed composition, keep key action inside center crop and above subtitle region without blank strips. No decorative frames, arrows, captions, film-actor likeness, modern touchscreen or fake archive damage. Generate requested maximum native quality. Historical people and objects are photographic. Only the recurring museum host is 2D line art matched to both approved traveler references. Scene S011. Крупная предметная композиция внутри лунного модуля. Руки экипажа придерживают картонную карточку, пластиковый пакет и полоску серой ленты рядом с тем же квадратным фильтром. Start state Пакет и лента ещё не закрыли соединение. Keep Картон подложен к картриджу, шланг рядом.",
+      "animation_status": "planning_only_no_dispatch",
+      "timing_status": "requires_measured_narration",
+      "duration_seconds": null,
+      "required_views": [
+        "scene_camera_view"
+      ],
+      "status": "TEXT_PREPRODUCTION",
+      "animation_brief": {
+        "actor": "assembly_materials",
+        "action": "Пакет и лента ещё не закрыли соединение. Картон подложен к картриджу, шланг рядом.",
+        "camera": "Keep stated angle. No orbit or unrequested reverse view. Focus: Все материалы доступны и удерживаются в невесомости.",
+        "inventory_lock": "Use only objects visibly present in the accepted still. No new hoses, tools, crew members, labels or connectors. Describe occluded items before any reveal.",
+        "sound": "Subtle ventilation in spacecraft, room tone in Houston, quiet exhibit room in museum. No dialogue. Action sounds require approved visible action.",
+        "music": "One continuous understated score at edit stage. No separate generated music per clip. Final rights and mix pending.",
+        "duration_seconds": null,
+        "mode": "Ingredients",
+        "status": "DRAFT_REQUIRES_ACCEPTED_STILL_AND_AUDIO"
+      }
+    },
+    {
+      "id": "S012",
+      "title": "Соединение",
+      "narration": "the crew sealed a hose to the square filter.",
+      "script_char_start": 677,
+      "script_char_end": 721,
+      "visual_intent": "Кульминация — герметичный путь воздуха.",
+      "description": "Крупный боковой вид рук, завершающих герметичное соединение мешка со шлангом лентой. За лентой читается квадратный фильтр, белая тканевая оплётка шланга соответствует NASA.",
+      "shot_size": "close",
+      "location": "LM",
+      "entity_state": "flight_adapter",
+      "camera": {
+        "intent": "zoom_in",
+        "focus": "Кульминация — герметичный путь воздуха.",
+        "coordinates_status": "defer_until_exact_image"
+      },
+      "start_state": "Последняя полоса ленты прижата к стыку.",
+      "end_state": "Стык закрыт, пальцы не проходят сквозь шланг.",
+      "reference_paths": [
+        "references/nasa-as13-62-9004.jpg"
+      ],
+      "prompt": "Nuviko History. Photorealistic historical reconstruction with subdued natural color, tangible material texture and believable scale. Vertical 9:16 full-bleed composition, keep key action inside center crop and above subtitle region without blank strips. No decorative frames, arrows, captions, film-actor likeness, modern touchscreen or fake archive damage. Generate requested maximum native quality. Historical people and objects are photographic. Only the recurring museum host is 2D line art matched to both approved traveler references. Scene S012. Крупный боковой вид рук, завершающих герметичное соединение мешка со шлангом лентой. За лентой читается квадратный фильтр, белая тканевая оплётка шланга соответствует NASA. Start state Последняя полоса ленты прижата к стыку. Keep Стык закрыт, пальцы не проходят сквозь шланг.",
+      "animation_status": "planning_only_no_dispatch",
+      "timing_status": "requires_measured_narration",
+      "duration_seconds": null,
+      "required_views": [
+        "three_quarter",
+        "side"
+      ],
+      "status": "TEXT_PREPRODUCTION",
+      "animation_brief": {
+        "actor": "flight_adapter",
+        "action": "Последняя полоса ленты прижата к стыку. Стык закрыт, пальцы не проходят сквозь шланг.",
+        "camera": "Keep stated angle. No orbit or unrequested reverse view. Focus: Кульминация — герметичный путь воздуха.",
+        "inventory_lock": "Use only objects visibly present in the accepted still. No new hoses, tools, crew members, labels or connectors. Describe occluded items before any reveal.",
+        "sound": "Subtle ventilation in spacecraft, room tone in Houston, quiet exhibit room in museum. No dialogue. Action sounds require approved visible action.",
+        "music": "One continuous understated score at edit stage. No separate generated music per clip. Final rights and mix pending.",
+        "duration_seconds": null,
+        "mode": "Ingredients",
+        "status": "DRAFT_REQUIRES_ACCEPTED_STILL_AND_AUDIO"
+      }
+    },
+    {
+      "id": "S013",
+      "title": "Система заработала",
+      "narration": "The lander's ventilation fan pulled cabin air through the filter and into the hose.\n\nWithin minutes, the carbon dioxide level began to fall.",
+      "script_char_start": 722,
+      "script_char_end": 862,
+      "visual_intent": "Показать реальное подключение; снижение CO₂ сообщает narration.",
+      "description": "Более широкий вид установленного адаптера и белого шланга, который непрерывно уходит к штатной системе LM. Край корпуса приборной панели в фоне. Фильтр и шланг сохраняют размер и расположение из S012.",
+      "shot_size": "medium",
+      "location": "LM",
+      "entity_state": "flight_adapter",
+      "camera": {
+        "intent": "zoom_out",
+        "focus": "Показать реальное подключение; снижение CO₂ сообщает narration.",
+        "coordinates_status": "defer_until_exact_image"
+      },
+      "start_state": "Адаптер подключён, открытая фильтрующая сторона видима.",
+      "end_state": "То же устойчивое подключение, свободный воздух визуально невидим.",
+      "reference_paths": [
+        "references/nasa-as13-62-9004.jpg"
+      ],
+      "prompt": "Nuviko History. Photorealistic historical reconstruction with subdued natural color, tangible material texture and believable scale. Vertical 9:16 full-bleed composition, keep key action inside center crop and above subtitle region without blank strips. No decorative frames, arrows, captions, film-actor likeness, modern touchscreen or fake archive damage. Generate requested maximum native quality. Historical people and objects are photographic. Only the recurring museum host is 2D line art matched to both approved traveler references. Scene S013. Более широкий вид установленного адаптера и белого шланга, который непрерывно уходит к штатной системе LM. Край корпуса приборной панели в фоне. Фильтр и шланг сохраняют размер и расположение из S012. Start state Адаптер подключён, открытая фильтрующая сторона видима. Keep То же устойчивое подключение, свободный воздух визуально невидим.",
+      "animation_status": "planning_only_no_dispatch",
+      "timing_status": "requires_measured_narration",
+      "duration_seconds": null,
+      "required_views": [
+        "three_quarter",
+        "side"
+      ],
+      "status": "TEXT_PREPRODUCTION",
+      "animation_brief": {
+        "actor": "flight_adapter",
+        "action": "Адаптер подключён, открытая фильтрующая сторона видима. То же устойчивое подключение, свободный воздух визуально невидим.",
+        "camera": "Keep stated angle. No orbit or unrequested reverse view. Focus: Показать реальное подключение; снижение CO₂ сообщает narration.",
+        "inventory_lock": "Use only objects visibly present in the accepted still. No new hoses, tools, crew members, labels or connectors. Describe occluded items before any reveal.",
+        "sound": "Subtle ventilation in spacecraft, room tone in Houston, quiet exhibit room in museum. No dialogue. Action sounds require approved visible action.",
+        "music": "One continuous understated score at edit stage. No separate generated music per clip. Final rights and mix pending.",
+        "duration_seconds": null,
+        "mode": "Ingredients",
+        "status": "DRAFT_REQUIRES_ACCEPTED_STILL_AND_AUDIO"
+      }
+    },
+    {
+      "id": "S014",
+      "title": "Возврат к вопросу",
+      "narration": "Why did a working filter need that detour?",
+      "script_char_start": 863,
+      "script_char_end": 905,
+      "visual_intent": "Вопрос переходит в первую фразу о квадратной форме.",
+      "description": "Возврат к точному музейному кадру S001. Ведущий смотрит на две формы, глаза открыты, ладонь спокойно раскрыта. Последний кадр равен первому по положению объектов.",
+      "shot_size": "medium",
+      "location": "museum",
+      "entity_state": "host+square",
+      "camera": {
+        "intent": "static",
+        "focus": "Вопрос переходит в первую фразу о квадратной форме.",
+        "coordinates_status": "defer_until_exact_image"
+      },
+      "start_state": "Повтор S001.",
+      "end_state": "Повтор S001 с ясным выражением лица.",
+      "reference_paths": [
+        "references/nasa-as13-62-9004.jpg",
+        "../../channels/nuviko_history/brand/References/traveler_turnaround_20261104.png",
+        "../../channels/nuviko_history/brand/References/traveler_emotions_20261104.png"
+      ],
+      "prompt": "Nuviko History. Photorealistic historical reconstruction with subdued natural color, tangible material texture and believable scale. Vertical 9:16 full-bleed composition, keep key action inside center crop and above subtitle region without blank strips. No decorative frames, arrows, captions, film-actor likeness, modern touchscreen or fake archive damage. Generate requested maximum native quality. Historical people and objects are photographic. Only the recurring museum host is 2D line art matched to both approved traveler references. Scene S014. Возврат к точному музейному кадру S001. Ведущий смотрит на две формы, глаза открыты, ладонь спокойно раскрыта. Последний кадр равен первому по положению объектов. Start state Повтор S001. Keep Повтор S001 с ясным выражением лица.",
+      "animation_status": "planning_only_no_dispatch",
+      "timing_status": "requires_measured_narration",
+      "duration_seconds": null,
+      "required_views": [
+        "three_quarter",
+        "side"
+      ],
+      "status": "TEXT_PREPRODUCTION",
+      "animation_brief": {
+        "actor": "host+square",
+        "action": "Повтор S001. Повтор S001 с ясным выражением лица.",
+        "camera": "Keep stated angle. No orbit or unrequested reverse view. Focus: Вопрос переходит в первую фразу о квадратной форме.",
+        "inventory_lock": "Use only objects visibly present in the accepted still. No new hoses, tools, crew members, labels or connectors. Describe occluded items before any reveal.",
+        "sound": "Subtle ventilation in spacecraft, room tone in Houston, quiet exhibit room in museum. No dialogue. Action sounds require approved visible action.",
+        "music": "One continuous understated score at edit stage. No separate generated music per clip. Final rights and mix pending.",
+        "duration_seconds": null,
+        "mode": "Ingredients",
+        "status": "DRAFT_REQUIRES_ACCEPTED_STILL_AND_AUDIO"
+      }
+    }
+  ],
+  "scope_limits": "Animation action states are planning proposals. No provider/model/clip durations are assigned. Exact 4–6 s composition spans await measured narration; S006 and S013 may need subdivision after timing.",
+  "loop": {
+    "last": "S014",
+    "first": "S001",
+    "method": "reuse exact museum frame; settled open eyes and clear hand pose"
+  },
+  "historical_limits": [
+    "S003/S004/S005/S006/S007 require dedicated CM/LM geometry reference sheets before final image acceptance.",
+    "S002 round mounting model is an educational museum prop; engineering geometry is not asserted by its silhouette.",
+    "Narration supplies CO2 decrease. Do not invent a digital gauge or coloured visible CO2."
+  ],
+  "image_to_video_mode": "Ingredients; one source image per scene",
+  "timing_policy": "Audio is outside current scope. Word spans are exact, seconds are unmeasured. Clip count and durations require final audio and alignment."
+}

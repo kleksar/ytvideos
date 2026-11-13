@@ -1,0 +1,12 @@
+{
+  "id": "S012-repair-01",
+  "prompt": "Edit image 1 only at one specific defect: inside the transparent bag, the visible canister face looks like solid metal and would block air. Replace that face behind the bag with real copper-brown permeable mesh in dark metal square windows matching exactly the visible outlet mesh geometry of the SAME canister in reference image 2. Reference image 2 is the following completed scene and is the continuity target. Keep all other pixels/composition of image 1 as close as possible: both human hands, correct fingers, their exact positions pressing tape, white knitted sleeves, dark gray square canister exterior and open front intake face at left, arched cardboard support, clear plastic bag outline, silver duct tape perimeter and hose-neck seal, hose, camera angle, cabin background, warm natural photographic light. Reference image 3 is authentic NASA hardware material guidance. Do not add or remove objects. The one changed region is the permeable outlet face visible behind bag. Preserve 9:16 full-bleed framing. No arrows, text, labels, watermarks or diagram. This must look like the same canister during assembly just before image 2.",
+  "output": "scenes/S012.png",
+  "source": "exec-5d827a80-de9b-42fe-9ac3-a818bbb03494.png",
+  "references": [
+    "scenes/S012-v01-rejected.png",
+    "scenes/S013.png",
+    "references/nasa-as13-62-9004.jpg"
+  ],
+  "observation": "Visible outlet mesh replaces solid metal behind bag; hands, cardboard arch, tape perimeter and hose retained. Earlier output retained as rejected."
+}

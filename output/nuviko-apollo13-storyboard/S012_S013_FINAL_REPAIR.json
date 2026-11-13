@@ -1,0 +1,20 @@
+{
+  "tool": "image_gen.imagegen",
+  "status": "DRAFT_RECONSTRUCTION",
+  "S012": {
+    "prompt": "Correct the assembly geometry in image 1, preserving its hands, white knit sleeves, natural photograph lighting, ivory cabin, close-up vertical 9:16 framing. Use the exact canister from image 2. Its front face has a copper mesh grid and central round fitting. Its adjacent right side is SOLID dark-gray ribbed metal. The transparent bag and cardboard arch must cover the FRONT MESH FACE including the central fitting, with silver tape sealing the perimeter of this entire square mesh face. The white fabric-covered hose connects to the gathered corner of that front-face bag. The two hands press tape at this hose-neck joint in front of the canister. The adjacent right side remains SOLID and dark-gray and must have NO new mesh. The opposite parallel intake face is entirely out of view. This is one coherent box and one bag on one front mesh face. Do not attach hose to central fitting alone. No new objects, no extra hose, no labels, no arrows. Keep copper grid and central fitting visible THROUGH bag where cardboard arch does not obscure. The camera looks at front and solid right side like image 2 top-right. Recompose only as required for this physically correct geometry.",
+    "provider_source": "exec-b53a16c9-2e05-4315-ba3f-4028357027f8.png",
+    "output": "scenes/S012.png"
+  },
+  "S013": {
+    "prompt": "Create corrected scene S013, one vertical 9:16 photorealistic Apollo 13 cabin image. Use image 1 as the EXACT canister assembly identity and camera-facing geometry: front copper grid with central fitting under whole-face clear bag, arched tan cardboard inside bag, gray tape around front face perimeter, SOLID dark-gray ribbed right side. The opposite parallel inlet face remains out of view. Now remove hands from scene, widen slightly and show this same completed assembly secured on existing cabin supports, with its ONE white fabric-covered hose curving from the gathered bag corner to a visible metal connection of cabin equipment at the right. Do NOT rotate the canister to expose an invented extra mesh face. Do NOT add mesh to its solid right side. Reference 2 gives NASA ivory cabin, equipment and cloth materials. Keep close cramped historical space and natural muted palette, believable perspective and scale. The bag and cardboard still cover front face, the hose is continuous and joined at both ends, no disconnected spare hose, no arrows, no readable overlays, no host, no people, no floating items. Full-bleed portrait. Depict a completed stage immediately after image 1, with the same materials and geometry.",
+    "provider_source": "exec-6eaf8b23-3a8f-4472-b179-736cf0ecc543.png",
+    "output": "scenes/S013.png"
+  },
+  "observed": "Bag now covers original front mesh face including central fitting; adjacent ribbed side remains solid. Same box identity visible through bag in both frames. One cloth-covered hose joins bag corner to equipment. Opposite parallel intake face is out of view. Exact flight rig, equipment port and mounting remain a historical reconstruction requiring technical reference confirmation before animation.",
+  "rejected": [
+    "scenes/S012-v01-rejected.png",
+    "scenes/S012-v02-rejected.png",
+    "scenes/S013-v01-rejected.png"
+  ]
+}

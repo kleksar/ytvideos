@@ -1,0 +1,423 @@
+{
+  "schema": "nuviko-preproduction-detail-v1",
+  "script_sha256": "d720fc90d9b726c2f064c4f18da13feccfbb1fb0b0e2c5e9b41a7b340d099f02",
+  "mode": "Ingredients",
+  "status": "DRAFT_BOUND_TO_WORDS_IMAGE_BINDINGS_PENDING",
+  "scenes": [
+    {
+      "id": "S001",
+      "narration": "Apollo 13's spare air filters were square.",
+      "script_char_start": 0,
+      "script_char_end": 42,
+      "layout": "Музей, ведущий слева от тумбы, фильтр слева на тумбе, кольцо справа с видимым зазором.",
+      "visible_inventory": "Один ведущий, одна тумба, один голый картридж, одно отдельное демонстрационное кольцо.",
+      "pose_and_gaze": "Корпус ведущего 3/4 вправо, голова направлена вправо чуть выше экспонатов. Левая раскрытая ладонь показана справа на изображении, правая рука опущена. Одна стопа видна полностью, вторая частично скрыта тумбой.",
+      "camera": "На уровне груди ведущего, средний фронтальный 3/4. Лицо и квадратная решётка одновременно читаемы.",
+      "required_sheet_views": [
+        "HOST presenting 3/4",
+        "MUSEUM front",
+        "FILTER bare front"
+      ],
+      "animation_action": "Небольшой поворот взгляда вниз к экспонатам и возвращение в исходное положение. Ладонь остаётся рядом с предметом, без касания и смены жеста.",
+      "motion_rationale": "Неподвижная камера; движение взгляда делает объяснение живым, не меняет геометрию предметов.",
+      "sound": "Тихий музейный room tone.",
+      "continuity": "Кадр S001 является единственным исходником для S014. Оба экспоната присутствуют сразу. Кольцо лежит на тумбе. На корпусе фильтра есть небольшая зелёно-белая этикетка и центральный круглый узел, сохраняемые между музейными кадрами.",
+      "reference_binding": {
+        "status": "PENDING_EXACT_ACCEPTED_FILES_AND_CELL_HASHES",
+        "role_names": [
+          "HOST presenting 3/4",
+          "MUSEUM front",
+          "FILTER bare front"
+        ]
+      },
+      "duration_seconds": null,
+      "image_prompt": "Scene S001. Vertical 9:16, photorealistic reconstruction in muted natural color. Only the museum host is illustrated 2D with both approved character references.\nМузей, ведущий слева от тумбы, фильтр слева на тумбе, кольцо справа с видимым зазором.\nОдин ведущий, одна тумба, один голый картридж, одно отдельное демонстрационное кольцо.\nКорпус ведущего 3/4 вправо, голова направлена вправо чуть выше экспонатов. Левая раскрытая ладонь показана справа на изображении, правая рука опущена. Одна стопа видна полностью, вторая частично скрыта тумбой.\nНа уровне груди ведущего, средний фронтальный 3/4. Лицо и квадратная решётка одновременно читаемы.\nКадр S001 является единственным исходником для S014. Оба экспоната присутствуют сразу. Кольцо лежит на тумбе. На корпусе фильтра есть небольшая зелёно-белая этикетка и центральный круглый узел, сохраняемые между музейными кадрами.\nKeep detailed surfaces and historical geometry from the supplied accepted reference views. No captions, arrows, decorative border, false archive effect or empty subtitle band.",
+      "animation_prompt_draft": "Ingredients, one accepted still for this scene. Duration and word timing pending measured final narration.\nОдин ведущий, одна тумба, один голый картридж, одно отдельное демонстрационное кольцо.\nКорпус ведущего 3/4 вправо, голова направлена вправо чуть выше экспонатов. Левая раскрытая ладонь показана справа на изображении, правая рука опущена. Одна стопа видна полностью, вторая частично скрыта тумбой.\nНебольшой поворот взгляда вниз к экспонатам и возвращение в исходное положение. Ладонь остаётся рядом с предметом, без касания и смены жеста.\nНеподвижная камера; движение взгляда делает объяснение живым, не меняет геометрию предметов.\nКадр S001 является единственным исходником для S014. Оба экспоната присутствуют сразу. Кольцо лежит на тумбе. На корпусе фильтра есть небольшая зелёно-белая этикетка и центральный круглый узел, сохраняемые между музейными кадрами.\nТихий музейный room tone.\nPreserve object count, face identity, costume, materials, lighting and all visible connections throughout. No generated narration or clip music. A continuous music bed is planned at edit stage. Exact final prompt must be reconciled with actual visible pixels.",
+      "actual_still": {
+        "path": "scenes/S001.png",
+        "sha256": "9823f9ab2eba8a567049b52953d452dce87706ec809bc42d42d097d5f894eff3",
+        "inspection": "Viewed exact pixels by /root/runtime_resume. Actual hand orientation and horizontal ring reflected in detail spec. Historical fidelity of cartridge not independently accepted here."
+      }
+    },
+    {
+      "id": "S002",
+      "narration": "The filter openings in the lunar lander were round.",
+      "script_char_start": 43,
+      "script_char_end": 94,
+      "layout": "Тот же музейный стенд, кадр уже и выше. Фильтр слева, кольцо справа, видимый воздух между ними.",
+      "visible_inventory": "Одна тумба, один голый картридж, одно кольцо. Ведущий и руки вне кадра.",
+      "pose_and_gaze": "Персонажей нет. Картридж ориентирован решёткой к камере, кольцо лежит горизонтально на тумбе.",
+      "camera": "Предметный крупный 3/4 сверху слева; обе формы целиком, край тумбы задаёт масштаб.",
+      "required_sheet_views": [
+        "MUSEUM overhead 3/4",
+        "FILTER bare 3/4"
+      ],
+      "animation_action": "Предметы неподвижны. Очень небольшой push-in сохраняет обе формы и зазор.",
+      "motion_rationale": "Выделить несовместимые формы без попытки вставить или деформировать фильтр.",
+      "sound": "Тихий музейный room tone.",
+      "continuity": "Не менять направление лево/право относительно S001. Кольцо — музейная модель, не точный технический узел.",
+      "reference_binding": {
+        "status": "PENDING_EXACT_ACCEPTED_FILES_AND_CELL_HASHES",
+        "role_names": [
+          "MUSEUM overhead 3/4",
+          "FILTER bare 3/4"
+        ]
+      },
+      "duration_seconds": null,
+      "image_prompt": "Scene S002. Vertical 9:16, photorealistic reconstruction in muted natural color. Only the museum host is illustrated 2D with both approved character references.\nТот же музейный стенд, кадр уже и выше. Фильтр слева, кольцо справа, видимый воздух между ними.\nОдна тумба, один голый картридж, одно кольцо. Ведущий и руки вне кадра.\nПерсонажей нет. Картридж ориентирован решёткой к камере, кольцо лежит горизонтально на тумбе.\nПредметный крупный 3/4 сверху слева; обе формы целиком, край тумбы задаёт масштаб.\nНе менять направление лево/право относительно S001. Кольцо — музейная модель, не точный технический узел.\nKeep detailed surfaces and historical geometry from the supplied accepted reference views. No captions, arrows, decorative border, false archive effect or empty subtitle band.",
+      "animation_prompt_draft": "Ingredients, one accepted still for this scene. Duration and word timing pending measured final narration.\nОдна тумба, один голый картридж, одно кольцо. Ведущий и руки вне кадра.\nПерсонажей нет. Картридж ориентирован решёткой к камере, кольцо лежит горизонтально на тумбе.\nПредметы неподвижны. Очень небольшой push-in сохраняет обе формы и зазор.\nВыделить несовместимые формы без попытки вставить или деформировать фильтр.\nНе менять направление лево/право относительно S001. Кольцо — музейная модель, не точный технический узел.\nТихий музейный room tone.\nPreserve object count, face identity, costume, materials, lighting and all visible connections throughout. No generated narration or clip music. A continuous music bed is planned at edit stage. Exact final prompt must be reconciled with actual visible pixels.",
+      "actual_still": {
+        "path": "scenes/S002.png",
+        "sha256": "426745e07f9463d4ac5080fc47dbc1b9ce23a237fc4b89693b20cbe5438a9193",
+        "inspection": "Viewed exact pixels by /root/runtime_resume. Actual hand orientation and horizontal ring reflected in detail spec. Historical fidelity of cartridge not independently accepted here."
+      }
+    },
+    {
+      "id": "S003",
+      "narration": "An oxygen tank had exploded on the way to the Moon,",
+      "script_char_start": 96,
+      "script_char_end": 147,
+      "layout": "Командный модуль, реальная панель перед одним астронавтом.",
+      "visible_inventory": "Один видимый астронавт, проверенная приборная панель, край консоли. В кадре нет фильтра, пламени или шланга адаптера.",
+      "pose_and_gaze": "Камера за правым плечом. Голова к панели, одна рука упирается в край консоли, другая вне кадра.",
+      "camera": "Средний через плечо; панель впереди, плечо на ближнем правом краю.",
+      "required_sheet_views": [
+        "CM cockpit rear 3/4",
+        "CREW appropriate back/partial profile"
+      ],
+      "animation_action": "Небольшой поворот головы вдоль панели, опорная рука остаётся на консоли.",
+      "motion_rationale": "Статичная камера удерживает ориентиры и передаёт сосредоточенную реакцию на аварию.",
+      "sound": "Негромкий cabin tone; без взрыва или выдуманного сигнализатора.",
+      "continuity": "Точное расположение приборов берётся из проверенного CM reference. Внешний взрыв передаётся narration.",
+      "reference_binding": {
+        "status": "PENDING_EXACT_ACCEPTED_FILES_AND_CELL_HASHES",
+        "role_names": [
+          "CM cockpit rear 3/4",
+          "CREW appropriate back/partial profile"
+        ]
+      },
+      "duration_seconds": null,
+      "image_prompt": "Scene S003. Vertical 9:16, photorealistic reconstruction in muted natural color. Only the museum host is illustrated 2D with both approved character references.\nКомандный модуль, реальная панель перед одним астронавтом.\nОдин видимый астронавт, проверенная приборная панель, край консоли. В кадре нет фильтра, пламени или шланга адаптера.\nКамера за правым плечом. Голова к панели, одна рука упирается в край консоли, другая вне кадра.\nСредний через плечо; панель впереди, плечо на ближнем правом краю.\nТочное расположение приборов берётся из проверенного CM reference. Внешний взрыв передаётся narration.\nKeep detailed surfaces and historical geometry from the supplied accepted reference views. No captions, arrows, decorative border, false archive effect or empty subtitle band.",
+      "animation_prompt_draft": "Ingredients, one accepted still for this scene. Duration and word timing pending measured final narration.\nОдин видимый астронавт, проверенная приборная панель, край консоли. В кадре нет фильтра, пламени или шланга адаптера.\nКамера за правым плечом. Голова к панели, одна рука упирается в край консоли, другая вне кадра.\nНебольшой поворот головы вдоль панели, опорная рука остаётся на консоли.\nСтатичная камера удерживает ориентиры и передаёт сосредоточенную реакцию на аварию.\nТочное расположение приборов берётся из проверенного CM reference. Внешний взрыв передаётся narration.\nНегромкий cabin tone; без взрыва или выдуманного сигнализатора.\nPreserve object count, face identity, costume, materials, lighting and all visible connections throughout. No generated narration or clip music. A continuous music bed is planned at edit stage. Exact final prompt must be reconciled with actual visible pixels."
+    },
+    {
+      "id": "S004",
+      "narration": "so all three astronauts took shelter in the lander.",
+      "script_char_start": 148,
+      "script_char_end": 199,
+      "layout": "Лунный модуль, обзор из глубины к переходному люку.",
+      "visible_inventory": "Ровно три астронавта, люк, постоянные панели и поручни. Адаптер отсутствует.",
+      "pose_and_gaze": "Первый в ближнем левом профиле, второй у люка со спины, третий в глубине справа. Одна видимая рука удерживает поручень.",
+      "camera": "Общий широкий вертикальный вид без превращения тесной кабины в большой зал.",
+      "required_sheet_views": [
+        "LM hatch view",
+        "CREW three distinct back/profile poses"
+      ],
+      "animation_action": "Минимальная естественная коррекция поз в невесомости. Все три человека сохраняются в кадре; удерживающая рука остаётся на поручне.",
+      "motion_rationale": "Статичная камера даёт понять тесноту и число людей.",
+      "sound": "Тихая вентиляция.",
+      "continuity": "Появление дополнительного человека запрещено. Одежда и лица закреплены отдельным crew sheet.",
+      "reference_binding": {
+        "status": "PENDING_EXACT_ACCEPTED_FILES_AND_CELL_HASHES",
+        "role_names": [
+          "LM hatch view",
+          "CREW three distinct back/profile poses"
+        ]
+      },
+      "duration_seconds": null,
+      "image_prompt": "Scene S004. Vertical 9:16, photorealistic reconstruction in muted natural color. Only the museum host is illustrated 2D with both approved character references.\nЛунный модуль, обзор из глубины к переходному люку.\nРовно три астронавта, люк, постоянные панели и поручни. Адаптер отсутствует.\nПервый в ближнем левом профиле, второй у люка со спины, третий в глубине справа. Одна видимая рука удерживает поручень.\nОбщий широкий вертикальный вид без превращения тесной кабины в большой зал.\nПоявление дополнительного человека запрещено. Одежда и лица закреплены отдельным crew sheet.\nKeep detailed surfaces and historical geometry from the supplied accepted reference views. No captions, arrows, decorative border, false archive effect or empty subtitle band.",
+      "animation_prompt_draft": "Ingredients, one accepted still for this scene. Duration and word timing pending measured final narration.\nРовно три астронавта, люк, постоянные панели и поручни. Адаптер отсутствует.\nПервый в ближнем левом профиле, второй у люка со спины, третий в глубине справа. Одна видимая рука удерживает поручень.\nМинимальная естественная коррекция поз в невесомости. Все три человека сохраняются в кадре; удерживающая рука остаётся на поручне.\nСтатичная камера даёт понять тесноту и число людей.\nПоявление дополнительного человека запрещено. Одежда и лица закреплены отдельным crew sheet.\nТихая вентиляция.\nPreserve object count, face identity, costume, materials, lighting and all visible connections throughout. No generated narration or clip music. A continuous music bed is planned at edit stage. Exact final prompt must be reconciled with actual visible pixels."
+    },
+    {
+      "id": "S005",
+      "narration": "Its life support was designed for two people.",
+      "script_char_start": 200,
+      "script_char_end": 245,
+      "layout": "Та же LM кабина, взгляд сбоку к двум передним рабочим позициям.",
+      "visible_inventory": "Три члена экипажа, два передних рабочих места, третий человек позади; постоянные панели/поручни.",
+      "pose_and_gaze": "Двое обращены к передним панелям, третий виден позади плеч. Открытые головы, одинаковая закреплённая полётная одежда.",
+      "camera": "Общий низкий боковой ракурс, отличающийся от S004.",
+      "required_sheet_views": [
+        "LM forward-side view",
+        "CREW forward/back/side"
+      ],
+      "animation_action": "Короткие естественные движения глаз и кистей на существующих опорах. Никакого появления кресел или пересадки.",
+      "motion_rationale": "Камера неподвижна, кадр показывает соотношение двух рабочих позиций и трёх людей.",
+      "sound": "Негромкая вентиляция.",
+      "continuity": "Рабочие позиции не превращать в автомобильные сиденья. Схема кабины должна совпадать с LM листом.",
+      "reference_binding": {
+        "status": "PENDING_EXACT_ACCEPTED_FILES_AND_CELL_HASHES",
+        "role_names": [
+          "LM forward-side view",
+          "CREW forward/back/side"
+        ]
+      },
+      "duration_seconds": null,
+      "image_prompt": "Scene S005. Vertical 9:16, photorealistic reconstruction in muted natural color. Only the museum host is illustrated 2D with both approved character references.\nТа же LM кабина, взгляд сбоку к двум передним рабочим позициям.\nТри члена экипажа, два передних рабочих места, третий человек позади; постоянные панели/поручни.\nДвое обращены к передним панелям, третий виден позади плеч. Открытые головы, одинаковая закреплённая полётная одежда.\nОбщий низкий боковой ракурс, отличающийся от S004.\nРабочие позиции не превращать в автомобильные сиденья. Схема кабины должна совпадать с LM листом.\nKeep detailed surfaces and historical geometry from the supplied accepted reference views. No captions, arrows, decorative border, false archive effect or empty subtitle band.",
+      "animation_prompt_draft": "Ingredients, one accepted still for this scene. Duration and word timing pending measured final narration.\nТри члена экипажа, два передних рабочих места, третий человек позади; постоянные панели/поручни.\nДвое обращены к передним панелям, третий виден позади плеч. Открытые головы, одинаковая закреплённая полётная одежда.\nКороткие естественные движения глаз и кистей на существующих опорах. Никакого появления кресел или пересадки.\nКамера неподвижна, кадр показывает соотношение двух рабочих позиций и трёх людей.\nРабочие позиции не превращать в автомобильные сиденья. Схема кабины должна совпадать с LM листом.\nНегромкая вентиляция.\nPreserve object count, face identity, costume, materials, lighting and all visible connections throughout. No generated narration or clip music. A continuous music bed is planned at edit stage. Exact final prompt must be reconciled with actual visible pixels."
+    },
+    {
+      "id": "S006",
+      "narration": "Now three were breathing in there, and a warning light came on. Carbon dioxide had reached a dangerous level.",
+      "script_char_start": 246,
+      "script_char_end": 355,
+      "layout": "LM, проверенная панель предупреждения и профиль одного астронавта.",
+      "visible_inventory": "Один частично видимый человек, один достоверный индикатор и окружающие элементы панели.",
+      "pose_and_gaze": "Профиль на краю кадра, взгляд на индикатор. Руки вне кадра.",
+      "camera": "Крупный ракурс, лампа в фокусе, профиль служит масштабом.",
+      "required_sheet_views": [
+        "LM verified warning-panel close-up",
+        "CREW side gaze"
+      ],
+      "animation_action": "Индикатор уже горит в опорном кадре и остаётся включён. Взгляд человека фиксируется на нём.",
+      "motion_rationale": "Статичная камера исключает новые неподтверждённые приборы.",
+      "sound": "Существующий cabin tone. Звуковой сигнал только при подтверждённой необходимости и отдельной привязке.",
+      "continuity": "Маркировку и прибор не выдумывать. До получения референса эта деталь UNVERIFIED.",
+      "reference_binding": {
+        "status": "PENDING_EXACT_ACCEPTED_FILES_AND_CELL_HASHES",
+        "role_names": [
+          "LM verified warning-panel close-up",
+          "CREW side gaze"
+        ]
+      },
+      "duration_seconds": null,
+      "image_prompt": "Scene S006. Vertical 9:16, photorealistic reconstruction in muted natural color. Only the museum host is illustrated 2D with both approved character references.\nLM, проверенная панель предупреждения и профиль одного астронавта.\nОдин частично видимый человек, один достоверный индикатор и окружающие элементы панели.\nПрофиль на краю кадра, взгляд на индикатор. Руки вне кадра.\nКрупный ракурс, лампа в фокусе, профиль служит масштабом.\nМаркировку и прибор не выдумывать. До получения референса эта деталь UNVERIFIED.\nKeep detailed surfaces and historical geometry from the supplied accepted reference views. No captions, arrows, decorative border, false archive effect or empty subtitle band.",
+      "animation_prompt_draft": "Ingredients, one accepted still for this scene. Duration and word timing pending measured final narration.\nОдин частично видимый человек, один достоверный индикатор и окружающие элементы панели.\nПрофиль на краю кадра, взгляд на индикатор. Руки вне кадра.\nИндикатор уже горит в опорном кадре и остаётся включён. Взгляд человека фиксируется на нём.\nСтатичная камера исключает новые неподтверждённые приборы.\nМаркировку и прибор не выдумывать. До получения референса эта деталь UNVERIFIED.\nСуществующий cabin tone. Звуковой сигнал только при подтверждённой необходимости и отдельной привязке.\nPreserve object count, face identity, costume, materials, lighting and all visible connections throughout. No generated narration or clip music. A continuous music bed is planned at edit stage. Exact final prompt must be reconciled with actual visible pixels."
+    },
+    {
+      "id": "S007",
+      "narration": "The crew had spare filters back in the command module.",
+      "script_char_start": 357,
+      "script_char_end": 411,
+      "layout": "CM, открытый отсек хранения и квадратный фильтр в руках.",
+      "visible_inventory": "Один голый картридж, две руки одного астронавта, один открытый отсек. Пакета, ленты и шланга нет.",
+      "pose_and_gaze": "Обе кисти держат противоположные боковые края; пальцы не закрывают решётку.",
+      "camera": "Крупный боковой 3/4, видны глубина картриджа и открытая решётка.",
+      "required_sheet_views": [
+        "CM storage close-up",
+        "FILTER bare side/3/4",
+        "CREW hands grip"
+      ],
+      "animation_action": "Руки удерживают фильтр устойчиво над отсеком, допускается небольшой естественный наклон без извлечения новых предметов.",
+      "motion_rationale": "Неподвижная камера позволяет рассмотреть конструкцию.",
+      "sound": "Тихий cabin tone, без стука в невесомости.",
+      "continuity": "Фильтр без монтажной ленты. Лицо владельца рук можно оставить вне кадра.",
+      "reference_binding": {
+        "status": "PENDING_EXACT_ACCEPTED_FILES_AND_CELL_HASHES",
+        "role_names": [
+          "CM storage close-up",
+          "FILTER bare side/3/4",
+          "CREW hands grip"
+        ]
+      },
+      "duration_seconds": null,
+      "image_prompt": "Scene S007. Vertical 9:16, photorealistic reconstruction in muted natural color. Only the museum host is illustrated 2D with both approved character references.\nCM, открытый отсек хранения и квадратный фильтр в руках.\nОдин голый картридж, две руки одного астронавта, один открытый отсек. Пакета, ленты и шланга нет.\nОбе кисти держат противоположные боковые края; пальцы не закрывают решётку.\nКрупный боковой 3/4, видны глубина картриджа и открытая решётка.\nФильтр без монтажной ленты. Лицо владельца рук можно оставить вне кадра.\nKeep detailed surfaces and historical geometry from the supplied accepted reference views. No captions, arrows, decorative border, false archive effect or empty subtitle band.",
+      "animation_prompt_draft": "Ingredients, one accepted still for this scene. Duration and word timing pending measured final narration.\nОдин голый картридж, две руки одного астронавта, один открытый отсек. Пакета, ленты и шланга нет.\nОбе кисти держат противоположные боковые края; пальцы не закрывают решётку.\nРуки удерживают фильтр устойчиво над отсеком, допускается небольшой естественный наклон без извлечения новых предметов.\nНеподвижная камера позволяет рассмотреть конструкцию.\nФильтр без монтажной ленты. Лицо владельца рук можно оставить вне кадра.\nТихий cabin tone, без стука в невесомости.\nPreserve object count, face identity, costume, materials, lighting and all visible connections throughout. No generated narration or clip music. A continuous music bed is planned at edit stage. Exact final prompt must be reconciled with actual visible pixels."
+    },
+    {
+      "id": "S008",
+      "narration": "They needed to pull cabin air through one of those filters.",
+      "script_char_start": 412,
+      "script_char_end": 471,
+      "layout": "Предметный крупный план того же голого фильтра в CM.",
+      "visible_inventory": "Один голый картридж, пальцы на двух боковых краях. Никаких стрелок, дымки или видимого газа.",
+      "pose_and_gaze": "Кисти сохраняют хват S007. Решётка обращена к камере.",
+      "camera": "Макро почти фронтально с небольшой видимой толщиной верхнего края.",
+      "required_sheet_views": [
+        "FILTER bare front/macro",
+        "CREW same hand grip"
+      ],
+      "animation_action": "Почти неподвижный предмет с микродвижением рук. Решётки остаются открыты.",
+      "motion_rationale": "Фиксированная камера сохраняет отверстия и материальность; движение воздуха не иллюстрировать частицами.",
+      "sound": "Единый cabin tone.",
+      "continuity": "Сохранить число пальцев и рисунок решётки. Это тот же картридж до сборки.",
+      "reference_binding": {
+        "status": "PENDING_EXACT_ACCEPTED_FILES_AND_CELL_HASHES",
+        "role_names": [
+          "FILTER bare front/macro",
+          "CREW same hand grip"
+        ]
+      },
+      "duration_seconds": null,
+      "image_prompt": "Scene S008. Vertical 9:16, photorealistic reconstruction in muted natural color. Only the museum host is illustrated 2D with both approved character references.\nПредметный крупный план того же голого фильтра в CM.\nОдин голый картридж, пальцы на двух боковых краях. Никаких стрелок, дымки или видимого газа.\nКисти сохраняют хват S007. Решётка обращена к камере.\nМакро почти фронтально с небольшой видимой толщиной верхнего края.\nСохранить число пальцев и рисунок решётки. Это тот же картридж до сборки.\nKeep detailed surfaces and historical geometry from the supplied accepted reference views. No captions, arrows, decorative border, false archive effect or empty subtitle band.",
+      "animation_prompt_draft": "Ingredients, one accepted still for this scene. Duration and word timing pending measured final narration.\nОдин голый картридж, пальцы на двух боковых краях. Никаких стрелок, дымки или видимого газа.\nКисти сохраняют хват S007. Решётка обращена к камере.\nПочти неподвижный предмет с микродвижением рук. Решётки остаются открыты.\nФиксированная камера сохраняет отверстия и материальность; движение воздуха не иллюстрировать частицами.\nСохранить число пальцев и рисунок решётки. Это тот же картридж до сборки.\nЕдиный cabin tone.\nPreserve object count, face identity, costume, materials, lighting and all visible connections throughout. No generated narration or clip music. A continuous music bed is planned at edit stage. Exact final prompt must be reconciled with actual visible pixels."
+    },
+    {
+      "id": "S009",
+      "narration": "Engineers in Houston built and tested an adapter using supplies the crew had on board.",
+      "script_char_start": 473,
+      "script_char_end": 559,
+      "layout": "Наземный лабораторный испытательный стенд, отдельный от Mission Control.",
+      "visible_inventory": "Один собранный тестовый адаптер, его закреплённый шланг, стенд; один инженер со спины. Постоянные приборы только по референсу.",
+      "pose_and_gaze": "Инженер наклонён к стенду, обе руки у его края, не перекрывают соединение.",
+      "camera": "Средний 3/4 с высоты плеча, весь тестовый путь помещается в кадр.",
+      "required_sheet_views": [
+        "LAB NASA S70-35395 view",
+        "FILTER ground assembled",
+        "ENGINEER back lean"
+      ],
+      "animation_action": "Инженер осматривает готовое соединение, небольшое движение головы. Макет и соединения остаются неподвижны.",
+      "motion_rationale": "Статичная камера показывает испытание отдельной наземной копии.",
+      "sound": "Тихий лабораторный room tone и вентиляция установки.",
+      "continuity": "Не подменять лабораторию пультом диспетчера; наземный макет не является бортовым предметом.",
+      "reference_binding": {
+        "status": "PENDING_EXACT_ACCEPTED_FILES_AND_CELL_HASHES",
+        "role_names": [
+          "LAB NASA S70-35395 view",
+          "FILTER ground assembled",
+          "ENGINEER back lean"
+        ]
+      },
+      "duration_seconds": null,
+      "image_prompt": "Scene S009. Vertical 9:16, photorealistic reconstruction in muted natural color. Only the museum host is illustrated 2D with both approved character references.\nНаземный лабораторный испытательный стенд, отдельный от Mission Control.\nОдин собранный тестовый адаптер, его закреплённый шланг, стенд; один инженер со спины. Постоянные приборы только по референсу.\nИнженер наклонён к стенду, обе руки у его края, не перекрывают соединение.\nСредний 3/4 с высоты плеча, весь тестовый путь помещается в кадр.\nНе подменять лабораторию пультом диспетчера; наземный макет не является бортовым предметом.\nKeep detailed surfaces and historical geometry from the supplied accepted reference views. No captions, arrows, decorative border, false archive effect or empty subtitle band.",
+      "animation_prompt_draft": "Ingredients, one accepted still for this scene. Duration and word timing pending measured final narration.\nОдин собранный тестовый адаптер, его закреплённый шланг, стенд; один инженер со спины. Постоянные приборы только по референсу.\nИнженер наклонён к стенду, обе руки у его края, не перекрывают соединение.\nИнженер осматривает готовое соединение, небольшое движение головы. Макет и соединения остаются неподвижны.\nСтатичная камера показывает испытание отдельной наземной копии.\nНе подменять лабораторию пультом диспетчера; наземный макет не является бортовым предметом.\nТихий лабораторный room tone и вентиляция установки.\nPreserve object count, face identity, costume, materials, lighting and all visible connections throughout. No generated narration or clip music. A continuous music bed is planned at edit stage. Exact final prompt must be reconciled with actual visible pixels."
+    },
+    {
+      "id": "S010",
+      "narration": "Mission Control talked the astronauts through the build over the radio.",
+      "script_char_start": 560,
+      "script_char_end": 631,
+      "layout": "Mission Control 1970 года, оператор у серо-зелёного пульта.",
+      "visible_inventory": "Один оператор, одна гарнитура, один бумажный лист инструкции, фиксированный пульт и CRT.",
+      "pose_and_gaze": "Спина и частичный профиль, взгляд вниз на лист. Одна рука у строки инструкции, вторая лежит у края пульта.",
+      "camera": "Средний сбоку через плечо, без обращения человека в камеру.",
+      "required_sheet_views": [
+        "MCC console side",
+        "ENGINEER seated headset"
+      ],
+      "animation_action": "Палец спокойно перемещается вдоль одной строки, голова остаётся к листу. Губы в кадре не акцентируются.",
+      "motion_rationale": "Фиксированная камера связывает радио и бумажную процедуру.",
+      "sound": "Room tone диспетчерской, без разборчивых выдуманных переговоров.",
+      "continuity": "На пульт не добавлять материалы лабораторного теста. Текст листа не обязан читаться.",
+      "reference_binding": {
+        "status": "PENDING_EXACT_ACCEPTED_FILES_AND_CELL_HASHES",
+        "role_names": [
+          "MCC console side",
+          "ENGINEER seated headset"
+        ]
+      },
+      "duration_seconds": null,
+      "image_prompt": "Scene S010. Vertical 9:16, photorealistic reconstruction in muted natural color. Only the museum host is illustrated 2D with both approved character references.\nMission Control 1970 года, оператор у серо-зелёного пульта.\nОдин оператор, одна гарнитура, один бумажный лист инструкции, фиксированный пульт и CRT.\nСпина и частичный профиль, взгляд вниз на лист. Одна рука у строки инструкции, вторая лежит у края пульта.\nСредний сбоку через плечо, без обращения человека в камеру.\nНа пульт не добавлять материалы лабораторного теста. Текст листа не обязан читаться.\nKeep detailed surfaces and historical geometry from the supplied accepted reference views. No captions, arrows, decorative border, false archive effect or empty subtitle band.",
+      "animation_prompt_draft": "Ingredients, one accepted still for this scene. Duration and word timing pending measured final narration.\nОдин оператор, одна гарнитура, один бумажный лист инструкции, фиксированный пульт и CRT.\nСпина и частичный профиль, взгляд вниз на лист. Одна рука у строки инструкции, вторая лежит у края пульта.\nПалец спокойно перемещается вдоль одной строки, голова остаётся к листу. Губы в кадре не акцентируются.\nФиксированная камера связывает радио и бумажную процедуру.\nНа пульт не добавлять материалы лабораторного теста. Текст листа не обязан читаться.\nRoom tone диспетчерской, без разборчивых выдуманных переговоров.\nPreserve object count, face identity, costume, materials, lighting and all visible connections throughout. No generated narration or clip music. A continuous music bed is planned at edit stage. Exact final prompt must be reconciled with actual visible pixels."
+    },
+    {
+      "id": "S011",
+      "narration": "With cardboard, a plastic bag and duct tape,",
+      "script_char_start": 632,
+      "script_char_end": 676,
+      "layout": "LM, материалы сборки закреплены рядом с фильтром в тесном рабочем объёме.",
+      "visible_inventory": "Один голый фильтр, одна картонная карточка, один прозрачный пакет, одна подготовленная полоска серой ленты, один белый оплетённый шланг; две руки одного сборщика.",
+      "pose_and_gaze": "Одна кисть придерживает картон у выходной стороны фильтра, вторая удерживает край пакета. Шланг рядом в пределах кадра.",
+      "camera": "Крупный сверху 3/4 на материалы, с небольшим узнаваемым фрагментом LM в фоне.",
+      "required_sheet_views": [
+        "FILTER intermediate assembly",
+        "CREW assembly hands",
+        "LM equipment close"
+      ],
+      "animation_action": "Карточка подводится к выходной стороне, пакет удерживается над ней. Движение короткое; все исходные материалы видимы с первого кадра.",
+      "motion_rationale": "Статичная камера позволяет проследить происхождение каждой детали.",
+      "sound": "Лёгкий шорох пластика и ткани при видимом действии, без отдельных драматических ударов.",
+      "continuity": "Не добавлять второй шланг, ножницы, новый рулон или исчезающую карточку. Точные крепления сверить с проп-листом.",
+      "reference_binding": {
+        "status": "PENDING_EXACT_ACCEPTED_FILES_AND_CELL_HASHES",
+        "role_names": [
+          "FILTER intermediate assembly",
+          "CREW assembly hands",
+          "LM equipment close"
+        ]
+      },
+      "duration_seconds": null,
+      "image_prompt": "Scene S011. Vertical 9:16, photorealistic reconstruction in muted natural color. Only the museum host is illustrated 2D with both approved character references.\nLM, материалы сборки закреплены рядом с фильтром в тесном рабочем объёме.\nОдин голый фильтр, одна картонная карточка, один прозрачный пакет, одна подготовленная полоска серой ленты, один белый оплетённый шланг; две руки одного сборщика.\nОдна кисть придерживает картон у выходной стороны фильтра, вторая удерживает край пакета. Шланг рядом в пределах кадра.\nКрупный сверху 3/4 на материалы, с небольшим узнаваемым фрагментом LM в фоне.\nНе добавлять второй шланг, ножницы, новый рулон или исчезающую карточку. Точные крепления сверить с проп-листом.\nKeep detailed surfaces and historical geometry from the supplied accepted reference views. No captions, arrows, decorative border, false archive effect or empty subtitle band.",
+      "animation_prompt_draft": "Ingredients, one accepted still for this scene. Duration and word timing pending measured final narration.\nОдин голый фильтр, одна картонная карточка, один прозрачный пакет, одна подготовленная полоска серой ленты, один белый оплетённый шланг; две руки одного сборщика.\nОдна кисть придерживает картон у выходной стороны фильтра, вторая удерживает край пакета. Шланг рядом в пределах кадра.\nКарточка подводится к выходной стороне, пакет удерживается над ней. Движение короткое; все исходные материалы видимы с первого кадра.\nСтатичная камера позволяет проследить происхождение каждой детали.\nНе добавлять второй шланг, ножницы, новый рулон или исчезающую карточку. Точные крепления сверить с проп-листом.\nЛёгкий шорох пластика и ткани при видимом действии, без отдельных драматических ударов.\nPreserve object count, face identity, costume, materials, lighting and all visible connections throughout. No generated narration or clip music. A continuous music bed is planned at edit stage. Exact final prompt must be reconciled with actual visible pixels."
+    },
+    {
+      "id": "S012",
+      "narration": "the crew sealed a hose to the square filter.",
+      "script_char_start": 677,
+      "script_char_end": 721,
+      "layout": "Тот же LM узел, боковой крупный вид почти завершённого соединения.",
+      "visible_inventory": "Тот же фильтр, картон под пакетом, пакет, одна белая оплетённая трубка, лента на стыке; две руки того же человека.",
+      "pose_and_gaze": "Одна рука поддерживает шланг снаружи, вторая прижимает уже уложенный конец ленты. Кисти не закрывают весь стык.",
+      "camera": "Крупный боковой, выход пакета и вход шланга читаются как одно соединение.",
+      "required_sheet_views": [
+        "FILTER assembled side",
+        "CREW tape-press hands",
+        "LM equipment same anchor"
+      ],
+      "animation_action": "Пальцы прижимают последний свободный край ленты к стыку. Лента не наматывается из ниоткуда, шланг не меняет точку подключения.",
+      "motion_rationale": "Фиксированная камера делает герметизацию видимой без скачков конструкции.",
+      "sound": "Тихое трение ленты, без длинного звука разматывания отсутствующего рулона.",
+      "continuity": "Входная решётка фильтра остаётся открытой. Состояние S011 переходит в закрытый пакет/стык.",
+      "reference_binding": {
+        "status": "PENDING_EXACT_ACCEPTED_FILES_AND_CELL_HASHES",
+        "role_names": [
+          "FILTER assembled side",
+          "CREW tape-press hands",
+          "LM equipment same anchor"
+        ]
+      },
+      "duration_seconds": null,
+      "image_prompt": "Scene S012. Vertical 9:16, photorealistic reconstruction in muted natural color. Only the museum host is illustrated 2D with both approved character references.\nТот же LM узел, боковой крупный вид почти завершённого соединения.\nТот же фильтр, картон под пакетом, пакет, одна белая оплетённая трубка, лента на стыке; две руки того же человека.\nОдна рука поддерживает шланг снаружи, вторая прижимает уже уложенный конец ленты. Кисти не закрывают весь стык.\nКрупный боковой, выход пакета и вход шланга читаются как одно соединение.\nВходная решётка фильтра остаётся открытой. Состояние S011 переходит в закрытый пакет/стык.\nKeep detailed surfaces and historical geometry from the supplied accepted reference views. No captions, arrows, decorative border, false archive effect or empty subtitle band.",
+      "animation_prompt_draft": "Ingredients, one accepted still for this scene. Duration and word timing pending measured final narration.\nТот же фильтр, картон под пакетом, пакет, одна белая оплетённая трубка, лента на стыке; две руки того же человека.\nОдна рука поддерживает шланг снаружи, вторая прижимает уже уложенный конец ленты. Кисти не закрывают весь стык.\nПальцы прижимают последний свободный край ленты к стыку. Лента не наматывается из ниоткуда, шланг не меняет точку подключения.\nФиксированная камера делает герметизацию видимой без скачков конструкции.\nВходная решётка фильтра остаётся открытой. Состояние S011 переходит в закрытый пакет/стык.\nТихое трение ленты, без длинного звука разматывания отсутствующего рулона.\nPreserve object count, face identity, costume, materials, lighting and all visible connections throughout. No generated narration or clip music. A continuous music bed is planned at edit stage. Exact final prompt must be reconciled with actual visible pixels."
+    },
+    {
+      "id": "S013",
+      "narration": "The lander's ventilation fan pulled cabin air through the filter and into the hose.\n\nWithin minutes, the carbon dioxide level began to fall.",
+      "script_char_start": 722,
+      "script_char_end": 862,
+      "layout": "LM, собранный адаптер в рабочем положении, путь шланга до штатного соединения видим.",
+      "visible_inventory": "Один бортовой адаптер, один непрерывный белый шланг, один фиксированный штатный разъём, постоянная кабина. Руки вышли из поля кадра после склейки.",
+      "pose_and_gaze": "Персонажи вне основного кадра. Узел устойчиво закреплён в невесомости.",
+      "camera": "Средний 3/4 шире S012; одновременно видны открытая входная поверхность и маршрут к кабине.",
+      "required_sheet_views": [
+        "FILTER final assembly 3/4",
+        "LM equipment route view"
+      ],
+      "animation_action": "Система сохраняет геометрию. Допускается едва заметное колебание мягкого участка шланга без изменения креплений.",
+      "motion_rationale": "Камера неподвижна или очень малое отдаление после проверки реального кадра; цель — показать целый путь.",
+      "sound": "Ровная негромкая вентиляция.",
+      "continuity": "Никакого дымового CO₂, чисел или нового дисплея. Падение CO₂ сообщает точная реплика.",
+      "reference_binding": {
+        "status": "PENDING_EXACT_ACCEPTED_FILES_AND_CELL_HASHES",
+        "role_names": [
+          "FILTER final assembly 3/4",
+          "LM equipment route view"
+        ]
+      },
+      "duration_seconds": null,
+      "image_prompt": "Scene S013. Vertical 9:16, photorealistic reconstruction in muted natural color. Only the museum host is illustrated 2D with both approved character references.\nLM, собранный адаптер в рабочем положении, путь шланга до штатного соединения видим.\nОдин бортовой адаптер, один непрерывный белый шланг, один фиксированный штатный разъём, постоянная кабина. Руки вышли из поля кадра после склейки.\nПерсонажи вне основного кадра. Узел устойчиво закреплён в невесомости.\nСредний 3/4 шире S012; одновременно видны открытая входная поверхность и маршрут к кабине.\nНикакого дымового CO₂, чисел или нового дисплея. Падение CO₂ сообщает точная реплика.\nKeep detailed surfaces and historical geometry from the supplied accepted reference views. No captions, arrows, decorative border, false archive effect or empty subtitle band.",
+      "animation_prompt_draft": "Ingredients, one accepted still for this scene. Duration and word timing pending measured final narration.\nОдин бортовой адаптер, один непрерывный белый шланг, один фиксированный штатный разъём, постоянная кабина. Руки вышли из поля кадра после склейки.\nПерсонажи вне основного кадра. Узел устойчиво закреплён в невесомости.\nСистема сохраняет геометрию. Допускается едва заметное колебание мягкого участка шланга без изменения креплений.\nКамера неподвижна или очень малое отдаление после проверки реального кадра; цель — показать целый путь.\nНикакого дымового CO₂, чисел или нового дисплея. Падение CO₂ сообщает точная реплика.\nРовная негромкая вентиляция.\nPreserve object count, face identity, costume, materials, lighting and all visible connections throughout. No generated narration or clip music. A continuous music bed is planned at edit stage. Exact final prompt must be reconciled with actual visible pixels."
+    },
+    {
+      "id": "S014",
+      "narration": "Why did a working filter need that detour?",
+      "script_char_start": 863,
+      "script_char_end": 905,
+      "layout": "Точный повтор музейной композиции S001.",
+      "visible_inventory": "Тот же ведущий, тумба, голый квадратный фильтр и отдельное кольцо на тех же местах.",
+      "pose_and_gaze": "Используется поза из принятого S001, а не альтернативная поза листа. Глаза открыты, лицо спокойное.",
+      "camera": "Точная камера S001, одинаковые масштаб и расположение объектов.",
+      "required_sheet_views": [
+        "Exact accepted S001 PNG and its hash"
+      ],
+      "animation_action": "Завершить небольшое движение взгляда в положении, совпадающем с началом S001. Жест и предметы остаются на местах.",
+      "motion_rationale": "Фиксированная камера облегчает будущую проверку шва по готовому видео.",
+      "sound": "Тот же музейный room tone, непрерывная музыкальная дорожка готовится позже.",
+      "continuity": "Новый still S014 не генерировать. Использовать exact S001; AV seam ещё не проверен.",
+      "reference_binding": {
+        "status": "PENDING_EXACT_ACCEPTED_FILES_AND_CELL_HASHES",
+        "role_names": [
+          "Exact accepted S001 PNG and its hash"
+        ]
+      },
+      "duration_seconds": null,
+      "image_prompt": "Scene S014. Vertical 9:16, photorealistic reconstruction in muted natural color. Only the museum host is illustrated 2D with both approved character references.\nТочный повтор музейной композиции S001.\nТот же ведущий, тумба, голый квадратный фильтр и отдельное кольцо на тех же местах.\nИспользуется поза из принятого S001, а не альтернативная поза листа. Глаза открыты, лицо спокойное.\nТочная камера S001, одинаковые масштаб и расположение объектов.\nНовый still S014 не генерировать. Использовать exact S001; AV seam ещё не проверен.\nKeep detailed surfaces and historical geometry from the supplied accepted reference views. No captions, arrows, decorative border, false archive effect or empty subtitle band.",
+      "animation_prompt_draft": "Ingredients, one accepted still for this scene. Duration and word timing pending measured final narration.\nТот же ведущий, тумба, голый квадратный фильтр и отдельное кольцо на тех же местах.\nИспользуется поза из принятого S001, а не альтернативная поза листа. Глаза открыты, лицо спокойное.\nЗавершить небольшое движение взгляда в положении, совпадающем с началом S001. Жест и предметы остаются на местах.\nФиксированная камера облегчает будущую проверку шва по готовому видео.\nНовый still S014 не генерировать. Использовать exact S001; AV seam ещё не проверен.\nТот же музейный room tone, непрерывная музыкальная дорожка готовится позже.\nPreserve object count, face identity, costume, materials, lighting and all visible connections throughout. No generated narration or clip music. A continuous music bed is planned at edit stage. Exact final prompt must be reconciled with actual visible pixels.",
+      "actual_still": {
+        "path": "scenes/S001.png",
+        "sha256": "9823f9ab2eba8a567049b52953d452dce87706ec809bc42d42d097d5f894eff3",
+        "inspection": "Viewed exact pixels by /root/runtime_resume. Actual hand orientation and horizontal ring reflected in detail spec. Historical fidelity of cartridge not independently accepted here."
+      }
+    }
+  ]
+}
