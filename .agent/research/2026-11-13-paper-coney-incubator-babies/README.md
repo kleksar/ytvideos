@@ -5,3 +5,6 @@ Only an editorial hypothesis; full preproduction research/script packet intended
 Russian full narration: [script.ru.txt](script.ru.txt). English full narration: [script.en.txt](script.en.txt).
 Research: [research.md](research.md); [self-review](story-review.md); [preliminary storyboard](storyboard.json); [packaging concept](packaging-brief.md); [transfer instructions](handoff.md).
 Logline: Coney Island visitors paid to see incubator babies; years later, one of those babies returned grown and showed another father what had become possible.
+
+## Editorial revision v3
+Baseline `5bbac05ae66284b2d31d8eaaff15732724fe2592`. Corrected S014→S001 to direct grammatical continuation rather than a colon/topic reset; moved location to S002, updated EN/RU/visual spans. Candidate still unapproved; independent two-play narration and real AV seam **UNVERIFIED**.

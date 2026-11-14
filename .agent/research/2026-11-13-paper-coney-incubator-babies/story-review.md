@@ -1,3 +1,6 @@
+# Current revision v3 (baseline `5bbac05ae66284b2d31d8eaaff15732724fe2592`)
+Prior revision-2 `PASS` headings below are archived *authorial* impressions only, not evaluations of the updated scripts. Independent review, exact `ytv-script-review-v1`, user approval, TTS and MP4 remain **UNVERIFIED**.
+
 # Story review (editorial self-check, NOT independent acceptance)
 Date 2026-11-13. Scripts: exact script.en.txt/script.ru.txt in this packet; revision 2 (textual loop edit only; original HEAD 0fac1c0c6884fa030fca3931b171c5e6c72a5e78). No original ytv-script-review-v1, no host session.
 
@@ -32,3 +35,9 @@ Exact scene-aligned paragraphs correspond 1:1: admissions, nurses, historical ca
 
 ## Revision-2 change evidence
 Baseline Git HEAD `0fac1c0c6884fa030fca3931b171c5e6c72a5e78` retained in Git history. Replaced only S014 EN/RU and visual continuity to address the previously noted thematic-only loop. Full EN and RU text were inspected as two consecutive cycles by the editor, not a fresh independent reviewer; exact `ytv-script-review-v1` remains UNVERIFIED. Previous timing/storyboard evaluations tied to revision 1 are invalid; scene durations remain provisional and no MP4 was checked.
+
+## Revision v3 — authorial text inspection, NOT independent PASS
+- Prior end “in a place that looked nothing like a hospital:” merely named the hook context; colon/theme overlap did not establish continuous speech.
+- New EN seam: “Once, Lucille had been behind that glass. Now she stood beside another father, back at the amusement park where” → “Visitors paid to see premature babies in glass incubators.”; continuous audio sentence reads “…at the amusement park where visitors paid to see premature babies in glass incubators.”
+- New RU seam: “Когда-то Люсиль сама лежала за этим стеклом. Теперь она стояла рядом с другим отцом — снова в парке аттракционов, где” → “Посетители платили, чтобы посмотреть на недоношенных младенцев в стеклянных инкубаторах.”; continuous sentence reads “…в парке аттракционов, где посетители платили, чтобы посмотреть на недоношенных младенцев в стеклянных инкубаторах.”
+- Cold start S001 remains comprehensible alone; S002 names Coney Island. The encounter with the second father is fully told in S012–S014 before repeating. 14 matching EN/RU lines and 14 storyboard spans preserved. Exact independent review and two complete listened passes, TTS timings, and AV seam **UNVERIFIED**; discard old script/hash evidence.
