@@ -1,6 +1,9 @@
 # Story review — Operation Flagship (1985) / Paper Detour
 EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официальному ytv script gate
 
+## Focused seam revision — 2026-11-14
+Baseline PR HEAD: `2472e4e31420ce2dca0680ba20022a86d44881a4`. The old last paragraph ended with a description of costumed greeters, followed by a fresh location introduction on replay; it did not grammatically continue the opening. Both complete scripts were reread in their new order twice. Only final EN/RU paragraph and S015 are revised, including its visual intent. All earlier authorial observations apply only where the underlying narration remains unchanged. No independent reviewer, TTS or MP4 test has been run; previous time guesses and review conclusions do not establish acceptance on the revised text.
+
 ## Initial full narration judgment — author only, before detailed prompts
 - **Reason to begin: AUTHORIAL PASS, independent UNVERIFIED.** The chicken has a hidden pistol at a friendly football party. This is a documented contemporary detail, not an invented threat.
 - **Reason to continue: AUTHORIAL PASS, independent UNVERIFIED.** Visitors are revealed as wanted invitees; the free sports company gives away its true identity in the initials; employees route batches upstairs; the emcee's innocent word is a tactical cue. Each changes what the audience knows, rather than renaming the same trick.
@@ -17,7 +20,7 @@ The full 15 English narration paragraphs and the same 15 Russian paragraphs were
 ## Literal last TWO → first TWO (EN)
 One man in handcuffs even asked if they were still going to the game after he got out.
 
-The arrests happened upstairs, one group at a time. Downstairs, the next visitors were still being greeted by costumed staff.
+The arrests continued upstairs, one group at a time. Downstairs, the next guests were still arriving, unaware that...
 
 At a football party in Washington, a giant chicken was hiding a pistol beneath one wing.
 
@@ -26,13 +29,13 @@ Inside the costume was a deputy U.S. marshal. The people handing out coffee were
 ## Дословный конец, последние ДВА → начало, первые ДВА (RU)
 Один из арестованных даже спросил, поедут ли они на матч после того, как их отпустят.
 
-Аресты шли наверху, группу за группой. А внизу следующих гостей по-прежнему встречали люди в костюмах.
+Наверху аресты продолжались, группу за группой. А внизу приходили новые гости, не подозревая, что...
 
 На футбольной вечеринке в Вашингтоне гигантский цыплёнок прятал под крылом пистолет.
 
 В костюме был федеральный маршал. Люди, которые раздавали кофе, тоже работали под прикрытием.
 
-**Semantic EN/RU text loop — AUTHORIAL PASS, INDEPENDENT UNVERIFIED.** Full arrest outcome is not postponed to the replay. The last sentence moves the viewer downstairs to the next batch; the first identifies exactly what one of these costume greeters concealed. The first sentence is a complete cold open. This is a visual/perspective reset, not a hanging colon or repetition of arrest fact. Risk: a reviewer may still find the loop unusually deliberate, or the actual spoken/music cut awkward. **Real video/audio/subtitle seam: UNVERIFIED.**
+**Semantic EN/RU text loop — AUTHORIAL PASS, INDEPENDENT UNVERIFIED.** Full arrest outcome is not postponed to the replay. The last sentence returns to new arrivals; its unfinished `unaware that` / `не подозревая, что` clause now continues grammatically into the existing complete cold open. Arrests and the reported count remain resolved before the replay. This is an author-only textual reread, not an independent loop acceptance. Risk: a reviewer may still find the loop unusually deliberate, or the actual spoken/music cut awkward. **Real video/audio/subtitle seam: UNVERIFIED.**
 
 ## Independent reader / actual ytv gate — NOT_RUN
 No runnable local repo checkout to execute ytv start. Thus there is no plan_summary, read_next, task guide, pinned reference reading receipts, run ID, task token, stage completion or actual awaiting_script_approval. No fresh distinct independent session/reviewer exposed in the current host or deferred tool inventory. Author role-switching, repo checker and CI do NOT replace the original exact EN-hash-bound ytv-script-review-v1.
