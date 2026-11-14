@@ -1,0 +1,176 @@
+{
+  "kind": "editorial-preview-storyboard-not-production",
+  "status": "EDITORIAL_CANDIDATE_UNREGISTERED",
+  "channel": "nuviko_history",
+  "format": "short",
+  "language": "en",
+  "scene_count": 16,
+  "visual_policy": "Photoreal historical world; no Nuviko 2D traveler in preliminary scenes because the two approved character reference PNG bytes could not be checked; actual final references must be opened if later used.",
+  "narration_master": "script.en.txt",
+  "bilingual_reference": "script.ru.txt",
+  "scene_span_policy": "Every exact source paragraph in order, all text covered; provisional 4–6s composition estimate, not measured speech or frame timing.",
+  "loop_join_en": "Back under the canopy, with her eyesight so poor, the clue that led her to people had been a sound.\nSeventeen-year-old Juliane Koepcke heard running water after falling from an airplane into the Amazon.",
+  "loop_join_ru": "Тогда, под густой кроной, когда она почти ничего не видела, дорогу к людям ей подсказал звук.\nСемнадцатилетняя Юлиана Кёпке услышала журчание воды после того, как выпала из самолёта над амазонским лесом.",
+  "scenes": [
+    {
+      "id": "S001",
+      "en_span": "Seventeen-year-old Juliane Koepcke heard running water after falling from an airplane into the Amazon.",
+      "ru_span": "Семнадцатилетняя Юлиана Кёпке услышала журчание воды после того, как выпала из самолёта над амазонским лесом.",
+      "meaning": "Stream heard after fall",
+      "continuity": "Match same audible stream with S016; first-frame hook.",
+      "prompt_en": "Full-frame photorealistic historical reconstruction, Nuviko History realistic-world look, vertical 9:16, physical light, believable human anatomy and scale, historically credible 1970s visual language; no drawing style for historical subjects, no typography, watermarks, overlays, split screens, paper diorama or pretend archival stamp; only a whole-frame pan/zoom could be applied in future. Image content: Seventeen-year-old blonde survivor in a colorful sleeveless 1970s summer dress and single shoe, crouched by a tiny flowing stream under dense humid Amazon canopy in 1971; soft natural light and a plausible muddy forest floor.",
+      "estimated_composition_seconds": 5,
+      "timing_status": "UNMEASURED planning only"
+    },
+    {
+      "id": "S002",
+      "en_span": "On Christmas Eve, 1971, her plane broke apart during a storm over Peru. Her mother was aboard.",
+      "ru_span": "В канун Рождества 1971 года её самолёт развалился во время грозы над Перу. Мать летела вместе с ней.",
+      "meaning": "Aircraft in storm",
+      "continuity": "Mother is present only before the crash; no invented words/dialogue.",
+      "prompt_en": "Full-frame photorealistic historical reconstruction, Nuviko History realistic-world look, vertical 9:16, physical light, believable human anatomy and scale, historically credible 1970s visual language; no drawing style for historical subjects, no typography, watermarks, overlays, split screens, paper diorama or pretend archival stamp; only a whole-frame pan/zoom could be applied in future. Image content: Inside a 1971 Peruvian commercial turboprop cabin, a teenage blonde passenger in a colorful sleeveless dress beside her adult mother, thunderstorm visible outside windows, period-accurate seats and luggage.",
+      "estimated_composition_seconds": 5.5,
+      "timing_status": "UNMEASURED planning only"
+    },
+    {
+      "id": "S003",
+      "en_span": "Juliane fell about three thousand metres with a row of seats. She woke alone under the trees with a broken collarbone.",
+      "ru_span": "Юлиана пролетела около трёх тысяч метров вместе с рядом кресел. Она очнулась одна под деревьями, со сломанной ключицей.",
+      "meaning": "Row of seats on ground",
+      "continuity": "Seat row confirmed by survivor; do not visually assert proved aerodynamic explanation.",
+      "prompt_en": "Full-frame photorealistic historical reconstruction, Nuviko History realistic-world look, vertical 9:16, physical light, believable human anatomy and scale, historically credible 1970s visual language; no drawing style for historical subjects, no typography, watermarks, overlays, split screens, paper diorama or pretend archival stamp; only a whole-frame pan/zoom could be applied in future. Image content: In a rainforest clearing below thick Amazon canopy, a damaged row of three airplane seats and scattered fragments, teenage blonde girl in patterned 1970s dress regaining consciousness nearby; no graphic injury.",
+      "estimated_composition_seconds": 5.5,
+      "timing_status": "UNMEASURED planning only"
+    },
+    {
+      "id": "S004",
+      "en_span": "Her glasses were gone, and one eye was nearly swollen shut. Her mother was missing.",
+      "ru_span": "Очки пропали, один глаз почти заплыл. Матери рядом не было.",
+      "meaning": "Impaired sight",
+      "continuity": "No mother in scene; do not invent glasses replacement or full recovery.",
+      "prompt_en": "Full-frame photorealistic historical reconstruction, Nuviko History realistic-world look, vertical 9:16, physical light, believable human anatomy and scale, historically credible 1970s visual language; no drawing style for historical subjects, no typography, watermarks, overlays, split screens, paper diorama or pretend archival stamp; only a whole-frame pan/zoom could be applied in future. Image content: Same teenage blonde girl, patterned summer dress, missing spectacles, subtly swollen eye, alone amid almost indistinguishable wet Amazon trees and roots.",
+      "estimated_composition_seconds": 4.5,
+      "timing_status": "UNMEASURED planning only"
+    },
+    {
+      "id": "S005",
+      "en_span": "Her parents studied the rainforest. Her father had taught her that running water could lead to people.",
+      "ru_span": "Её родители изучали тропический лес. Отец учил: проточная вода рано или поздно может вывести к людям.",
+      "meaning": "Parental ecology lesson",
+      "continuity": "Clearly earlier period; reconstruction without invented visible dialogue.",
+      "prompt_en": "Full-frame photorealistic historical reconstruction, Nuviko History realistic-world look, vertical 9:16, physical light, believable human anatomy and scale, historically credible 1970s visual language; no drawing style for historical subjects, no typography, watermarks, overlays, split screens, paper diorama or pretend archival stamp; only a whole-frame pan/zoom could be applied in future. Image content: Pre-1971 Peruvian Amazon scientific field hut, naturalist parents and their younger blonde daughter observing a river environment with plausible field notebooks, period equipment, authentic jungle trees and daylight.",
+      "estimated_composition_seconds": 5.5,
+      "timing_status": "UNMEASURED planning only"
+    },
+    {
+      "id": "S006",
+      "en_span": "She found a tiny stream coming out of the ground and followed it.",
+      "ru_span": "Юлиана нашла крохотный ручей, выбивавшийся из земли, и пошла вдоль него.",
+      "meaning": "Finds the source",
+      "continuity": "Same waterway identity as S001.",
+      "prompt_en": "Full-frame photorealistic historical reconstruction, Nuviko History realistic-world look, vertical 9:16, physical light, believable human anatomy and scale, historically credible 1970s visual language; no drawing style for historical subjects, no typography, watermarks, overlays, split screens, paper diorama or pretend archival stamp; only a whole-frame pan/zoom could be applied in future. Image content: Close forest-floor view of a tiny brook emerging from dark soil under Amazon roots, teenage blonde girl in patterned summer dress and one shoe following it downhill.",
+      "estimated_composition_seconds": 4.5,
+      "timing_status": "UNMEASURED planning only"
+    },
+    {
+      "id": "S007",
+      "en_span": "Search planes flew overhead, but the dense canopy hid her.",
+      "ru_span": "Над лесом летали поисковые самолёты, но густая крона скрывала её.",
+      "meaning": "Search planes hidden",
+      "continuity": "Do not imply plane crew saw her.",
+      "prompt_en": "Full-frame photorealistic historical reconstruction, Nuviko History realistic-world look, vertical 9:16, physical light, believable human anatomy and scale, historically credible 1970s visual language; no drawing style for historical subjects, no typography, watermarks, overlays, split screens, paper diorama or pretend archival stamp; only a whole-frame pan/zoom could be applied in future. Image content: One distant search aircraft through a narrow break high above a dense Amazon canopy, lone blonde teenage survivor in patterned dress unseen beneath enormous trees.",
+      "estimated_composition_seconds": 4.5,
+      "timing_status": "UNMEASURED planning only"
+    },
+    {
+      "id": "S008",
+      "en_span": "She had just one shoe, so she tested the ground with that foot first.",
+      "ru_span": "Из обуви осталась одна туфля, поэтому сначала она проверяла землю обутой ногой.",
+      "meaning": "Test the ground",
+      "continuity": "Exactly one shoe after crash, credible anatomy.",
+      "prompt_en": "Full-frame photorealistic historical reconstruction, Nuviko History realistic-world look, vertical 9:16, physical light, believable human anatomy and scale, historically credible 1970s visual language; no drawing style for historical subjects, no typography, watermarks, overlays, split screens, paper diorama or pretend archival stamp; only a whole-frame pan/zoom could be applied in future. Image content: Close medium shot on tropical mud and tree roots as a blonde teenage girl in a patterned dress carefully plants her only shod foot before placing her bare foot.",
+      "estimated_composition_seconds": 5,
+      "timing_status": "UNMEASURED planning only"
+    },
+    {
+      "id": "S009",
+      "en_span": "She found a bag of sweets from the wreck and left unfamiliar plants alone.",
+      "ru_span": "Среди обломков нашёлся пакет конфет. Незнакомые растения Юлиана не трогала.",
+      "meaning": "Candy vs unfamiliar plants",
+      "continuity": "Small candy amount; no edible plant consumption implied.",
+      "prompt_en": "Full-frame photorealistic historical reconstruction, Nuviko History realistic-world look, vertical 9:16, physical light, believable human anatomy and scale, historically credible 1970s visual language; no drawing style for historical subjects, no typography, watermarks, overlays, split screens, paper diorama or pretend archival stamp; only a whole-frame pan/zoom could be applied in future. Image content: Rainforest wreck fragment beside packet of small hard sweets and the teenage girl wearing patterned summer dress, unfamiliar tropical fruit nearby left untouched.",
+      "estimated_composition_seconds": 5,
+      "timing_status": "UNMEASURED planning only"
+    },
+    {
+      "id": "S010",
+      "en_span": "The stream grew into a river. Weakened, she sometimes let the current carry her.",
+      "ru_span": "Ручей постепенно превратился в реку. Когда сил стало меньше, она иногда позволяла течению нести себя.",
+      "meaning": "The growing river",
+      "continuity": "No raft, rescue boat, or fabricated animal attack.",
+      "prompt_en": "Full-frame photorealistic historical reconstruction, Nuviko History realistic-world look, vertical 9:16, physical light, believable human anatomy and scale, historically credible 1970s visual language; no drawing style for historical subjects, no typography, watermarks, overlays, split screens, paper diorama or pretend archival stamp; only a whole-frame pan/zoom could be applied in future. Image content: Amazon tributary opening into a wider forest river, teenage blonde survivor in sleeveless patterned dress staying near bank, carried slightly by moving water, realistic water physics.",
+      "estimated_composition_seconds": 5,
+      "timing_status": "UNMEASURED planning only"
+    },
+    {
+      "id": "S011",
+      "en_span": "The sweets ran out. She kept moving through the rain.",
+      "ru_span": "Конфеты кончились. Юлиана продолжала идти под дождём.",
+      "meaning": "Food runs out",
+      "continuity": "No new food or unsupported injuries.",
+      "prompt_en": "Full-frame photorealistic historical reconstruction, Nuviko History realistic-world look, vertical 9:16, physical light, believable human anatomy and scale, historically credible 1970s visual language; no drawing style for historical subjects, no typography, watermarks, overlays, split screens, paper diorama or pretend archival stamp; only a whole-frame pan/zoom could be applied in future. Image content: Rainy Amazon riverbank, exhausted but walking seventeen-year-old blonde survivor in patterned dress with one shoe, empty candy wrapper and streaming wet vegetation.",
+      "estimated_composition_seconds": 4.5,
+      "timing_status": "UNMEASURED planning only"
+    },
+    {
+      "id": "S012",
+      "en_span": "Eventually she spotted a boat beside a shelter. No one was there.",
+      "ru_span": "Наконец она заметила лодку возле укрытия. Людей там не оказалось.",
+      "meaning": "Boat without people",
+      "continuity": "Unoccupied first; no rescue helicopter.",
+      "prompt_en": "Full-frame photorealistic historical reconstruction, Nuviko History realistic-world look, vertical 9:16, physical light, believable human anatomy and scale, historically credible 1970s visual language; no drawing style for historical subjects, no typography, watermarks, overlays, split screens, paper diorama or pretend archival stamp; only a whole-frame pan/zoom could be applied in future. Image content: Small moored workboat at an unoccupied modest palm-thatched forest shelter beside Amazon river; young blonde survivor in colorful dress stands at the riverbank.",
+      "estimated_composition_seconds": 5,
+      "timing_status": "UNMEASURED planning only"
+    },
+    {
+      "id": "S013",
+      "en_span": "When local men appeared, she told them she'd been on the missing flight. They took her to safety.",
+      "ru_span": "Когда появились местные мужчины, она рассказала, что летела на пропавшем самолёте. Они отвезли её к людям.",
+      "meaning": "Local men arrive",
+      "continuity": "No invented uniformed rescuers or direct quotes.",
+      "prompt_en": "Full-frame photorealistic historical reconstruction, Nuviko History realistic-world look, vertical 9:16, physical light, believable human anatomy and scale, historically credible 1970s visual language; no drawing style for historical subjects, no typography, watermarks, overlays, split screens, paper diorama or pretend archival stamp; only a whole-frame pan/zoom could be applied in future. Image content: A few modestly dressed local Peruvian workers near a river shelter and small boat speak with the blonde teenage survivor in a patterned 1970s dress; restrained gestures.",
+      "estimated_composition_seconds": 5.5,
+      "timing_status": "UNMEASURED planning only"
+    },
+    {
+      "id": "S014",
+      "en_span": "Eleven days after the crash, Juliane was safe. Of the ninety-two people aboard, she was the only survivor. Her mother had died.",
+      "ru_span": "Через одиннадцать дней после катастрофы Юлиана оказалась в безопасности. Из девяноста двух человек на борту выжила только она. Её мать погибла.",
+      "meaning": "Boat to safety",
+      "continuity": "Outcome safe; the mother and other passengers do not appear.",
+      "prompt_en": "Full-frame photorealistic historical reconstruction, Nuviko History realistic-world look, vertical 9:16, physical light, believable human anatomy and scale, historically credible 1970s visual language; no drawing style for historical subjects, no typography, watermarks, overlays, split screens, paper diorama or pretend archival stamp; only a whole-frame pan/zoom could be applied in future. Image content: Local adult river workers carrying a tired teenage blonde survivor in a small boat downstream towards human habitation in early 1972, Amazon, restrained mood.",
+      "estimated_composition_seconds": 5.5,
+      "timing_status": "UNMEASURED planning only"
+    },
+    {
+      "id": "S015",
+      "en_span": "She later became a biologist and helped protect part of that same rainforest.",
+      "ru_span": "Позже она стала биологом и помогла сохранить часть того самого леса.",
+      "meaning": "Later biologist",
+      "continuity": "Explicit time jump, representative reconstruction, no fabricated specific year.",
+      "prompt_en": "Full-frame photorealistic historical reconstruction, Nuviko History realistic-world look, vertical 9:16, physical light, believable human anatomy and scale, historically credible 1970s visual language; no drawing style for historical subjects, no typography, watermarks, overlays, split screens, paper diorama or pretend archival stamp; only a whole-frame pan/zoom could be applied in future. Image content: Later-life adult woman biologist in a modest tropical rainforest ecology research outpost, field notebooks and real plant habitat, protecting the area; no claims of exact facial portrait or ceremony.",
+      "estimated_composition_seconds": 5,
+      "timing_status": "UNMEASURED planning only"
+    },
+    {
+      "id": "S016",
+      "en_span": "Back under the canopy, with her eyesight so poor, the clue that led her to people had been a sound.",
+      "ru_span": "Тогда, под густой кроной, когда она почти ничего не видела, дорогу к людям ей подсказал звук.",
+      "meaning": "Audible clue loop",
+      "continuity": "Return to same visual concept as S001: loop closes from sound to hearing.",
+      "prompt_en": "Full-frame photorealistic historical reconstruction, Nuviko History realistic-world look, vertical 9:16, physical light, believable human anatomy and scale, historically credible 1970s visual language; no drawing style for historical subjects, no typography, watermarks, overlays, split screens, paper diorama or pretend archival stamp; only a whole-frame pan/zoom could be applied in future. Image content: Small stream emerging through damp dark soil amid Amazon tree roots; teenage blonde survivor in patterned 1970s sleeveless summer dress, one shoe, crouches listening carefully near water.",
+      "estimated_composition_seconds": 5,
+      "timing_status": "UNMEASURED planning only"
+    }
+  ]
+}
