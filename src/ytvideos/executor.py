@@ -16,6 +16,24 @@ from .util import canonical, digest, file_digest
 from .workflow import valid_approval
 
 
+def validate_helper_profile(production, current, pinned_hash):
+    """Permit a changed on-disk profile only with its exact migration receipt."""
+    if digest(current["profile"]) != current["pins"]["profile"] or current["pins"]["profile"] != pinned_hash:
+        raise Conflict("saved profile changed before media dispatch")
+    if digest(load_profile(production.project / "channels", current["channel"])) == pinned_hash:
+        return
+    from .migration import _target_context
+    _, _, compatibility = _target_context(production, current)
+    history = current.get("runtime_migrations", [])
+    if not history or compatibility is None:
+        raise Conflict("montage helper channel profile changed; use the pinned checkout")
+    artifact = current["artifacts"][history[-1]["receipt_artifact_id"]]
+    migrated = json.loads(production.artifacts.resolve(artifact).read_text())
+    if (migrated.get("target", {}).get("pins") != current["pins"] or
+            migrated.get("target", {}).get("profile_compatibility") != compatibility):
+        raise Conflict("profile difference lacks matching migration receipt")
+
+
 class MediaExecutor:
     def __init__(self, production, *, runner=None):
         self.production = production
@@ -195,6 +213,21 @@ class MediaExecutor:
                         raise Conflict("music mix execution evidence changed")
                     additional.append(mix_path)
                 inputs.extend({"path": str(path), "sha256": file_digest(path)} for path in additional)
+        if kind in {"montage", "music_render"}:
+            if any(arg in {"--pinned-profile", "--pinned-profile-sha256"} or
+                   arg.startswith("--pinned-profile=") or arg.startswith("--pinned-profile-sha256=") for arg in args):
+                raise WorkflowError("pinned profile is derived from the saved run, not caller arguments")
+            pinned_hash = run["pins"]["profile"]
+            if digest(run["profile"]) != pinned_hash:
+                raise Conflict("saved channel profile differs from its pin")
+            pinned_path = attempt / ("pinned-profile-" + pinned_hash + ".json")
+            if not pinned_path.exists():
+                with pinned_path.open("x", encoding="utf-8") as stream:
+                    stream.write(canonical(run["profile"]))
+            if file_digest(pinned_path) != pinned_hash:
+                raise Conflict("owned pinned profile bytes changed")
+            inputs.append({"path": str(pinned_path), "sha256": pinned_hash})
+            args += ["--pinned-profile", str(pinned_path), "--pinned-profile-sha256", pinned_hash]
         receipt = attempt / f"{kind}-{digest(args)[:16]}.json"
         operation = None
 
@@ -207,8 +240,8 @@ class MediaExecutor:
                 production._current_claim(current, current_task, token)
                 if not valid_approval(current, "script"):
                     raise Conflict("script approval changed before execution")
-                if observed_request["kind"] in {"montage", "music_render"} and digest(load_profile(production.project / "channels", current["channel"])) != current["pins"]["profile"]:
-                    raise Conflict("montage helper channel profile changed; use the pinned checkout")
+                if observed_request["kind"] in {"montage", "music_render"}:
+                    validate_helper_profile(production, current, pinned_hash)
                 if observed_request["kind"] == "tts":
                     payload = production._operation_payload(current, current_task, "tts")
                     operation = production._begin_operation_tx(tx, current, task_id, token, "tts", payload)

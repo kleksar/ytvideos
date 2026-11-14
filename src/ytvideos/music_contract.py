@@ -18,6 +18,7 @@ RECEIPT_SCHEMA = "ytv-music-render-receipt-v1"
 MIX_SCHEMA = "ytv-source-mix-evidence-v1"
 ENGINE = ("automation/music_render.py", "automation/music_montage.py", "automation/music_beats.py",
           "automation/music_fragments.py", "automation/captions/music_lyrics.py",
+          "automation/helpers/channel_config.py",
           "src/ytvideos/music_contract.py")
 
 

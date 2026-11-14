@@ -4,6 +4,7 @@ import subprocess
 import sys
 import tempfile
 import unittest
+import hashlib
 from unittest.mock import patch
 from export_fixture import passport
 from pathlib import Path
@@ -72,6 +73,69 @@ class DeliveryTests(unittest.TestCase):
     def test_complete_evidence_and_exact_media_pass_local_gate(self):
         self.mark_reviewed()
         m.delivery.validate_release(self.video,CHANNEL)
+
+    def test_pinned_profile_receipt_revalidates_and_preserves_other_channels(self):
+        # Rebuild this exact synthetic receipt as if rendered with a migrated
+        # legacy profile that predates the optional 2-second guard.
+        profile = json.loads((ROOT/'channels/paper_detour/channel.json').read_text())
+        profile['production']['video'].pop('minimum_shot_seconds')
+        raw = json.dumps(profile,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()
+        pinned = self.p/'pinned-profile.json'; pinned.write_bytes(raw)
+        pin = hashlib.sha256(raw).hexdigest()
+        self.addCleanup(setattr, m.delivery.channel_config, 'PINNED', None)
+        m.delivery.channel_config.configure_pinned_profile(pinned,pin)
+        work=self.p/'pinned-work'; work.mkdir()
+        m.caption_sequence(self.plan,self.p,work,[720,1280],120)
+        contract=json.loads((work/'subtitle_contract.json').read_text())
+        command=m.final_command(self.plan,self.p,self.prepared,work,self.video,None,'libx264','800k',self.audio)
+        command_path=work/'command.json';command_path.write_text(json.dumps(command))
+        frozen=m.delivery.freeze_render(work,self.passport,command_path,contract['engine'],self.prepared,self.audio,self.manifest,self.video)
+        self.receipt.unlink()  # Replace only the synthetic fixture receipt.
+        m.delivery.write_receipt(self.video,'paper',contract,m.delivery.render_inputs(self.manifest,self.plan,self.p),render=frozen)
+        self.assertEqual(m.delivery.protected_channel(CHANNEL),'paper_detour')
+        other=json.loads((ROOT/'channels/nuviko_history/channel.json').read_text())['youtube_channel_id']
+        self.assertEqual(m.delivery.protected_channel(other),'nuviko_history')
+        m.delivery.channel_config.PINNED=None
+        self.assertEqual(m.delivery.validate_render_receipt(self.video,CHANNEL,self.receipt)['media']['sha256'],m.delivery.sha256(self.video))
+        # Exercise both release callers without contacting YouTube: readiness is
+        # synthetic and the fake session raises before any network operation.
+        self.mark_reviewed()
+        evidence=self.p/'review-evidence.txt'; srt=self.p/'manual.srt'; srt.write_text('synthetic SRT identity')
+        data=json.loads(self.receipt.read_text())
+        data['srt_review']={'media_sha256':m.delivery.sha256(self.video),'language':'en',
+            'srt':m.delivery.file_record(srt),'structure':'PASS','text_coverage':'PASS',
+            'timing_mapping':'PASS','evidence':m.delivery.file_record(evidence)}
+        self.receipt.write_text(json.dumps(data))
+        with self.assertRaisesRegex(u.UploadError, 'Cannot verify authorized channel'):
+            u.upload(NoNetwork(),self.video,META,CHANNEL,self.p/'upload-state.json')
+        schedule_spec=importlib.util.spec_from_file_location('schedule_test',ROOT/'automation/youtube/schedule.py')
+        schedule=importlib.util.module_from_spec(schedule_spec);schedule_spec.loader.exec_module(schedule)
+        schedule.verify_staged_media({'staging_delivery_receipt':str(self.receipt),
+            'fingerprint':{'video':str(self.video),'sha256':m.delivery.sha256(self.video)}},CHANNEL,srt,'en')
+        m.delivery.channel_config.configure_pinned_profile(pinned,pin)
+        self.assertEqual(m.delivery.validate_render_receipt(self.video,CHANNEL,self.receipt)['media']['sha256'],m.delivery.sha256(self.video))
+        pinned.write_text('{"tampered":true}')
+        with self.assertRaisesRegex(ValueError,'Stale delivery input|bytes changed'):
+            m.delivery.validate_render_receipt(self.video,CHANNEL,self.receipt)
+
+    def test_speed_policy_compatibility_is_limited_to_one_exact_change(self):
+        current=json.loads((ROOT/'channels/paper_detour/channel.json').read_text())
+        old=json.loads(json.dumps(current));old['production']['video'].pop('minimum_shot_seconds')
+        old_path=self.p/'old.json';new_path=self.p/'new.json'
+        def records():
+            old_path.write_text(json.dumps(old));new_path.write_text(json.dumps(current))
+            return m.delivery.file_record(old_path),m.delivery.file_record(new_path)
+        self.assertTrue(m.delivery.compatible_speed_policy(*records()))
+        old['voice']['speed'] += .1
+        self.assertFalse(m.delivery.compatible_speed_policy(*records()))
+        old['voice']['speed'] -= .1
+        current['production']['video']['minimum_shot_seconds']=3
+        self.assertFalse(m.delivery.compatible_speed_policy(*records()))
+        current['production']['video']['minimum_shot_seconds']=True
+        self.assertFalse(m.delivery.compatible_speed_policy(*records()))
+        old_record,new_record=records();old_path.write_text('{}')
+        with self.assertRaisesRegex(ValueError,'Stale delivery input'):
+            m.delivery.compatible_speed_policy(old_record,new_record)
 
     def test_technical_probe_cannot_be_released_even_with_review_flags(self):
         self.mark_reviewed()

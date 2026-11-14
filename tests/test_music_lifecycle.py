@@ -4,6 +4,7 @@ import json
 from pathlib import Path
 import shutil
 import unittest
+from unittest.mock import patch
 
 import test_workflow
 from test_music_render import FONT, MusicFixture, ROOT, write
@@ -24,13 +25,16 @@ class MusicLifecycleTests(unittest.TestCase):
         self.addCleanup(self.state.tearDown)
         self.fixture = MusicFixture(self.state.directory / "music")
         f = self.fixture
+        # Legacy fixture has the optional container but not the later guard.
+        f.profile["production"].setdefault("video", {})
+        write(f.profile_path, f.profile)
         for relative in (".agent", ".agents", "docs"):
             shutil.copytree(ROOT / relative, f.project / relative)
         shutil.copyfile(ROOT / "AGENTS.md", f.project / "AGENTS.md")
         shutil.copyfile(ROOT / "channels/nuviko_videos/AGENTS.md", f.project / "channels/nuviko_videos/AGENTS.md")
         shutil.copytree(ROOT / "channels/nuviko_videos/docs", f.project / "channels/nuviko_videos/docs")
         self.service = self.state.service
-        self.service.project = f.project
+        self.service.project = f.project.resolve()
         capabilities = {name: {"available": True, "evidence": "explicit synthetic software test", "billing": "included"}
                         for name in ("web.search", "model.text", "sessions.independent", "audio.mix", "audio.listen",
                                      "media.licensed_clip", "video.render", "video.inspect", "model.vision")}
@@ -66,7 +70,10 @@ class MusicLifecycleTests(unittest.TestCase):
     def test_expired_native_mix_and_render_reuse_exact_outputs_under_current_leases(self):
         self.produce_to_review(recover=True)
 
-    def produce_to_review(self, *, recover=False):
+    def test_migrated_pinned_profile_reaches_actual_music_render_and_receipt(self):
+        self.produce_to_review(migrate_compat=True)
+
+    def produce_to_review(self, *, recover=False, migrate_compat=False):
         f = self.fixture
         plan = self.service.plan(self.run_id)
         audio_step = next(step for step in plan["steps"] if step["id"] == "audio")
@@ -153,12 +160,38 @@ class MusicLifecycleTests(unittest.TestCase):
             "output": file_record(write(f.directory / "accepted-planner-output.json",
                                           helper(f.project, "automation/music_montage.py", "accepted_music_planner").plan_timeline(planner)))}
         manifest = write(f.directory / "accepted-render.json", render_plan)
+        if migrate_compat:
+            before = self.service.store.get(self.run_id)
+            source = f.directory / "source-pinned-runtime"
+            shutil.copytree(f.project, source)
+            disk_profile = json.loads(f.profile_path.read_text())
+            disk_profile["production"]["video"]["minimum_shot_seconds"] = 2
+            write(f.profile_path, disk_profile)
+            (f.project / "src/ytvideos/runtime-migration-fixture.py").write_text("# new target runtime\n")
+            self.state.pin.stop()
+            code_pin = patch("ytvideos.service.code_identity", side_effect=lambda path:
+                             "test-code-v1" if Path(path).resolve() == source.resolve() else "test-code-v2")
+            code_pin.start()
+            self.addCleanup(code_pin.stop)
+            proposal = self.service.plan_runtime_migration(self.run_id, source, expected_version=before["version"])
+            self.assertEqual(proposal["target"]["profile_compatibility"]["target"], 2)
+            self.service.apply_runtime_migration(self.run_id, source, proposal,
+                source="synthetic-explicit-migration", message="Migrate this synthetic run.")
+            after = self.service.store.get(self.run_id)
+            self.assertEqual(after["profile"], before["profile"])
+            self.assertEqual(after["pins"]["profile"], before["pins"]["profile"])
         render_claim = self.service.claim(self.run_id, "render", "synthetic-render-producer")
         output = self.service.workspace / "runs" / self.run_id / "attempts" / render_claim["token"] / "final.mp4"
         result = MediaExecutor(self.service).execute(self.run_id, "render", render_claim["token"], {
             "kind": "music_render", "args": [str(manifest), "--output", str(output)],
             "outputs": [str(output)], "prepared_inputs": [str(manifest)]})
         self.assertEqual(result["execution"]["state"], "completed", result["execution"])
+        if migrate_compat:
+            argv = result["execution"]["argv"]
+            profile_path = Path(argv[argv.index("--pinned-profile") + 1])
+            self.assertEqual(json.loads(profile_path.read_text()), before["profile"])
+            self.assertIn(file_record(profile_path), result["execution"]["inputs"])
+            self.assertEqual(argv[argv.index("--pinned-profile-sha256") + 1], before["pins"]["profile"])
         original_render_claim = render_claim
         if recover:
             self.state.clock += 901
@@ -167,6 +200,12 @@ class MusicLifecycleTests(unittest.TestCase):
             self.assertEqual(render_claim["input_hash"], original_render_claim["input_hash"])
             with self.assertRaisesRegex(Conflict, "stale or missing"):
                 self.finish("render", output, claim=original_render_claim, delivery=result["delivery_evidence"])
+        if migrate_compat:
+            original_bytes = profile_path.read_bytes()
+            profile_path.write_text('{"tampered":true}')
+            with self.assertRaisesRegex(WorkflowError, "stale|changed|different bytes"):
+                self.finish("render", output, claim=render_claim, delivery=result["delivery_evidence"])
+            profile_path.write_bytes(original_bytes)
         self.finish("render", output, claim=render_claim, delivery=result["delivery_evidence"])
         accepted_render = self.service.store.get(self.run_id)["tasks"]["render"]
         self.assertEqual(accepted_render["media_validation"]["execution_claim_token"], original_render_claim["token"])

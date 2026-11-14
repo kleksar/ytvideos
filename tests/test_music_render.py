@@ -38,6 +38,7 @@ def ffmpeg(*args):
 class MusicFixture:
     """A visibly named fixture profile; production never accepts the fixture font/canvas."""
     def __init__(self, directory, *, vocal=False, fade_out_seconds=None):
+        directory = Path(directory).resolve()
         self.directory, self.project = directory, directory / "project"
         self.vocal = vocal
         for source in (ROOT / "src/ytvideos").glob("*.py"):

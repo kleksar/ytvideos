@@ -143,8 +143,12 @@ def scene_render(i,s,work,canvas,encoder,bitrate):
     run(cmd)
     return p
 
-def draw_caption_state(words, active, *, size, center_x, baseline, font, profile, pad_x, stroke):
-    line_width = font.getlength(' '.join(words))
+def draw_caption_state(words, active, *, size, center_x, baseline, font, profile, pad_x, stroke, join_previous=None):
+    joins = join_previous if join_previous is not None else [False] * len(words)
+    if len(joins) != len(words) or any(type(value) is not bool for value in joins):
+        raise ValueError('join_previous must provide one boolean per caption word')
+    text = ''.join(('' if i == 0 or joins[i] else ' ') + word for i, word in enumerate(words))
+    line_width = font.getlength(text)
     image = Image.new('RGBA', size)
     draw = ImageDraw.Draw(image)
     if profile['background']:
@@ -153,10 +157,12 @@ def draw_caption_state(words, active, *, size, center_x, baseline, font, profile
         draw.rectangle((left, 0, left + box_width - 1, size[1] - 1), fill=profile['background'])
     pen = center_x - line_width / 2
     for index, word in enumerate(words):
+        if index and not joins[index]:
+            pen += font.getlength(' ')
         draw.text((round(pen), baseline), word, font=font, anchor='ls',
                   fill=profile['highlight'] if index == active else profile['text'],
                   stroke_width=stroke, stroke_fill=profile['outline'] if stroke else None)
-        pen += font.getlength(word) + font.getlength(' ')
+        pen += font.getlength(word)
     return image
 
 
@@ -205,7 +211,8 @@ def caption_sequence(plan,base,work,canvas,total):
             name=directory/f'{gi:05d}_{active if active is not None else "neutral"}.png'
             if name.exists():return name
             im=draw_caption_state([w['text'] for w in g], active, size=(width,band_h), center_x=center_x,
-                                  baseline=pad_y+stroke+ascent, font=font, profile=profile, pad_x=pad_x, stroke=stroke)
+                                  baseline=pad_y+stroke+ascent, font=font, profile=profile, pad_x=pad_x, stroke=stroke,
+                                  join_previous=[w.get('join_previous', False) for w in g])
             bounds=im.getbbox(); left=center_x-visible_width/2; right=center_x+visible_width/2
             if bounds and (bounds[0] < math.ceil(left) or bounds[2] > math.floor(right)):
                 raise ValueError('Subtitle pixels exceed the shared maximum visible width')
@@ -281,7 +288,9 @@ def final_command(plan,base,prepared,work,out,subtitle,encoder,video_bitrate,aud
     return cmd
 
 def main():
-    ap=argparse.ArgumentParser(description=__doc__);ap.add_argument('manifest',type=Path);ap.add_argument('--output',type=Path,required=True);ap.add_argument('--work-dir',type=Path,required=True);ap.add_argument('--jobs',type=int,default=2);ap.add_argument('--encoder',default='h264_videotoolbox');ap.add_argument('--bitrate',default='20M');ap.add_argument('--plan-only',action='store_true');ap.add_argument('--prepare-subtitles',action='store_true',help='Prepare the same subtitle states and contract as the full renderer, without encoding video');ap.add_argument('--export-contract',type=Path,help='READY_TO_RENDER passport required for encoding');ap.add_argument('--check-settings',action='store_true',help='Validate passport against actual command without encoding');ap.add_argument('--technical-probe',action='store_true',help='Explicit non-deliverable probe; production completion rejects this mode');ap.add_argument('--scene-cache',type=Path,help='Bounded reusable cache of exact rendered scene inputs');ap.add_argument('--scene-cache-max-bytes',type=int,default=2*1024**3);args=ap.parse_args()
+    ap=argparse.ArgumentParser(description=__doc__);ap.add_argument('manifest',type=Path);ap.add_argument('--output',type=Path,required=True);ap.add_argument('--work-dir',type=Path,required=True);ap.add_argument('--jobs',type=int,default=2);ap.add_argument('--encoder',default='h264_videotoolbox');ap.add_argument('--bitrate',default='20M');ap.add_argument('--plan-only',action='store_true');ap.add_argument('--prepare-subtitles',action='store_true',help='Prepare the same subtitle states and contract as the full renderer, without encoding video');ap.add_argument('--export-contract',type=Path,help='READY_TO_RENDER passport required for encoding');ap.add_argument('--check-settings',action='store_true',help='Validate passport against actual command without encoding');ap.add_argument('--technical-probe',action='store_true',help='Explicit non-deliverable probe; production completion rejects this mode');ap.add_argument('--scene-cache',type=Path,help='Bounded reusable cache of exact rendered scene inputs');ap.add_argument('--scene-cache-max-bytes',type=int,default=2*1024**3);ap.add_argument('--pinned-profile',type=Path);ap.add_argument('--pinned-profile-sha256');args=ap.parse_args()
+    if (args.pinned_profile is None) != (args.pinned_profile_sha256 is None): raise ValueError('Pinned profile path and hash must be supplied together')
+    if args.pinned_profile is not None: delivery.channel_config.configure_pinned_profile(args.pinned_profile,args.pinned_profile_sha256)
     manifest=args.manifest.resolve(); base=manifest.parent;plan=json.loads(manifest.read_text()); prepared=validate(plan,base)
     if not args.technical_probe:
         production_preflight(plan, base)

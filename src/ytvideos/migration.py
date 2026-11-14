@@ -87,8 +87,30 @@ def _source_context(run):
 
 
 def _target_context(service, run):
-    if load_profile(service.project / "channels", run["channel"]) != run["profile"]:
-        raise Conflict("runtime-only migration must preserve the exact channel profile")
+    target_profile = load_profile(service.project / "channels", run["channel"])
+    profile_compatibility = None
+    if target_profile != run["profile"]:
+        # PR #75 added this optional guard after some episodes had already
+        # pinned their profile. The migrated episode keeps its old profile;
+        # this exception must never silently adopt the new value.
+        pinned_video = run["profile"].get("production", {}).get("video", {})
+        target_video = target_profile.get("production", {}).get("video", {})
+        candidate = copy.deepcopy(target_profile)
+        candidate_video = candidate.get("production", {}).get("video", {})
+        if ("minimum_shot_seconds" not in pinned_video
+                and type(target_video.get("minimum_shot_seconds")) is int
+                and target_video["minimum_shot_seconds"] == 2):
+            candidate_video.pop("minimum_shot_seconds")
+            if candidate == run["profile"]:
+                profile_compatibility = {
+                    "mode": "preserve_pinned_missing_optional_minimum_shot_seconds",
+                    "path": "production.video.minimum_shot_seconds",
+                    "pinned": "absent", "target": 2,
+                    "effective_profile": "unchanged_pinned_profile",
+                    "source": "PR #75 (636386783a13b7b11d2173c233b68654f43d9848)",
+                }
+        if profile_compatibility is None:
+            raise Conflict("runtime-only migration must preserve the exact channel profile")
     catalog = json.loads((service.project / ".agent/skill-catalog.json").read_text(encoding="utf-8"))
     skills = {}
     for entry in catalog["skills"]:
@@ -105,7 +127,7 @@ def _target_context(service, run):
     for path, document in run["reference_snapshot"]["documents"].items():
         if path.startswith("channels/") and references["documents"].get(path) != document:
             raise Conflict(f"runtime-only migration must preserve pinned channel document: {path}")
-    return skills, references
+    return skills, references, profile_compatibility
 
 
 def _build(service, tx, run, source_root, expected_version):
@@ -132,7 +154,7 @@ def _build(service, tx, run, source_root, expected_version):
     supplied = run["artifacts"].get(run.get("source_script_id"))
     if (supplied["sha256"] if supplied else None) != run["pins"].get("source_script"):
         raise Conflict("source script differs from its saved pin")
-    skills, references = _target_context(service, run)
+    skills, references, profile_compatibility = _target_context(service, run)
     target_pins = {**run["pins"], "code": code_identity(service.project),
                    "skills": digest(skills), "references": digest(references)}
     if target_pins == run["pins"]:
@@ -159,6 +181,8 @@ def _build(service, tx, run, source_root, expected_version):
                                                      if old_documents[path] != new_documents[path])},
             "scope": "runtime_rules_only", "external_dispatch": False,
             "approval_and_qa_evidence_created": False}
+    if profile_compatibility is not None:
+        plan["target"]["profile_compatibility"] = profile_compatibility
     plan["plan_sha256"] = digest(plan)
     return plan, skills, references, operations, slots
 
