@@ -18,6 +18,10 @@
 
 `migrate-runtime` переносит code/skills/reference pins существующего run без изменения его ID, revision, профиля, принятых artifacts, approvals, задач, операций и бюджетов. Маршрут предназначен для совместимых версий текущей workflow schema; он не преобразует художественный профиль или итоговые media contracts. Порядок исполнения принадлежит [ytv-operate](../.agents/skills/ytv-operate/references/runtime-migration.md).
 
+При сравнении ChannelSpec допускается только явно проверяемый случай: старый закреплённый профиль не содержит `production.video.minimum_shot_seconds`, а актуальный профиль отличается исключительно добавлением этого поля со значением `2` (PR #75). Сам профиль и его pin выпуска сохраняются без изменений; новое значение не применяется задним числом. Исключение и оба значения фиксируются в `target.profile_compatibility` плана и receipt. Все другие отличия, в том числе изменения уже закреплённого значения, по-прежнему блокируют перенос. Это не меняет применимые к выпуску требования закреплённых документов, включая ограничение длительности кадров.
+
+В этой совместимости `montage` и `music_render` получают из состояния run канонические bytes закреплённого профиля отдельным bound input с его hash. Guard сверяет реальный migration receipt; helper и проверка сохранённого music receipt читают тот же профиль. Если вход изменён, receipt отсутствует или прочие поля профиля отличаются, запуск либо приёмка отклоняются. Старые render receipts без отдельного profile input допустимы только при точном совпадении актуального ChannelSpec с profile pin.
+
 ```bash
 uv run ytv --db STATE_DB --workspace WORKSPACE --project-root TARGET_ROOT migrate-runtime plan \
   --run RUN_ID --source-root SOURCE_ROOT --expected-version VERSION > migration-plan.json

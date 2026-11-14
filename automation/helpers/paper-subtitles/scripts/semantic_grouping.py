@@ -80,6 +80,11 @@ def sentence_ranges(words: Sequence[dict]) -> list[tuple[int, int]]:
 def _crosses_keep_together(words: Sequence[dict], cut: int, pairs: set[tuple[str, str]]) -> bool:
     if cut <= 0 or cut >= len(words):
         return False
+    # A no-space transcript join is one typographic unit even though each
+    # spoken word has an independent highlight event. Splitting it would add
+    # a cue boundary/space and change the exact caption text.
+    if words[cut].get("join_previous", False):
+        return True
     left, right = bare(words[cut - 1]["text"]), bare(words[cut]["text"])
     return (left, right) in pairs
 
@@ -238,7 +243,8 @@ def _pairs(values: Iterable[Sequence[str] | str]) -> set[tuple[str, str]]:
 
 
 def _phrase(words: Sequence[dict]) -> str:
-    return " ".join(str(w["text"]) for w in words)
+    return "".join(("" if i == 0 or w.get("join_previous", False) else " ")
+                   + str(w["text"]) for i, w in enumerate(words))
 
 
 def _validate_limits(max_text_width: float, max_words: int | None) -> None:

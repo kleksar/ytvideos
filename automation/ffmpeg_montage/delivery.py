@@ -113,6 +113,33 @@ def audio_binding(plan, base):
             'speed_evidence': evidence}
 
 
+def compatible_speed_policy(recorded, current):
+    """Accept only the documented legacy omission, never arbitrary policy drift."""
+    if recorded['sha256'] == current['sha256']:
+        return True
+    check_record(recorded)
+    try:
+        check_record(current)
+    except OSError:
+        return False
+    old = json.loads(Path(recorded['path']).read_text(encoding='utf-8'))
+    new = json.loads(Path(current['path']).read_text(encoding='utf-8'))
+    if not isinstance(old, dict) or not isinstance(new, dict):
+        return False
+    old_video = old.get('production', {}).get('video', {})
+    new_video = new.get('production', {}).get('video', {})
+    if not isinstance(old_video, dict) or not isinstance(new_video, dict):
+        return False
+    if ('minimum_shot_seconds' in old_video or type(new_video.get('minimum_shot_seconds')) is not int
+            or new_video['minimum_shot_seconds'] != 2):
+        return False
+    # Compare the entire parsed policy, allowing exactly the documented optional
+    # addition. Neither the historic receipt nor the current channel is changed.
+    new_video.pop('minimum_shot_seconds')
+    return json.dumps(old, sort_keys=True, separators=(',', ':'), allow_nan=False) == json.dumps(
+        new, sort_keys=True, separators=(',', ':'), allow_nan=False)
+
+
 def validate_words(plan, base, total, fps=30):
     binding = audio_binding(plan, base)
     sub = plan['subtitles']
@@ -134,7 +161,25 @@ def validate_words(plan, base, total, fps=30):
     display = str.maketrans('', '', '\"“”„‟«»')
     tokens = [token.translate(display) for token in transcript.split()]
     tokens = [token for token in tokens if token]
-    if [word.get('text') for word in words] != tokens:
+    # An em/en dash can connect distinct spoken words without a space, as in
+    # "waves—but". The optional join_previous marker preserves that exact
+    # typography while allowing separate highlight times. Legacy maps stay valid.
+    import re
+    actual = [word.get('text') for word in words]
+    markers = [word.get('join_previous', False) for word in words]
+    if any(type(value) is not bool for value in markers):
+        raise ValueError('join_previous must be a boolean')
+    cursor = 0
+    for token in tokens:
+        parts = re.split(r'(?<=[—–])(?=\w)', token)
+        if cursor < len(actual) and actual[cursor] == token and not markers[cursor]:
+            cursor += 1
+        elif (len(parts) > 1 and actual[cursor:cursor + len(parts)] == parts
+              and markers[cursor:cursor + len(parts)] == [False] + [True] * (len(parts) - 1)):
+            cursor += len(parts)
+        else:
+            raise ValueError('Word map changes, omits or reorders the retained transcript')
+    if cursor != len(words):
         raise ValueError('Word map changes, omits or reorders the retained transcript')
     previous_end = -1.0
     previous_frame = -1
@@ -210,8 +255,10 @@ def write_receipt(output, channel, contract, inputs, review=None, render=None, *
 
 
 def protected_channel(channel_id):
-    for slug in channel_config.configured_channels():
-        profile, _ = channel_config.channel_profile(slug)
+    for slug in channel_config.configured_channels(root=channel_config.ROOT):
+        # Enumerate every registered channel from the checkout; a scoped
+        # pinned profile belongs to one render and must not shadow other IDs.
+        profile, _ = channel_config.channel_profile(slug, root=channel_config.ROOT)
         if profile.get('youtube_channel_id') == channel_id and profile.get('recipe') == 'illustrated':
             return slug
     return None
@@ -269,7 +316,7 @@ def validate_render_receipt(video, channel_id, receipt_path=None):
     recorded_policy = recorded_binding.pop('speed_policy')
     current_policy = current_binding.pop('speed_policy')
     if (recorded_binding != current_binding
-            or recorded_policy['sha256'] != current_policy['sha256']
+            or not compatible_speed_policy(recorded_policy, current_policy)
             or file_record(resolve(manifest.parent, plan['audio'])) != contract['audio']['audio']):
         raise ValueError('Final audio binding differs from rendered subtitles')
     if [w for group in contract['groups'] for w in group] != words:

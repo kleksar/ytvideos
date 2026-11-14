@@ -20,6 +20,7 @@ from ytvideos.music_contract import (ENGINE, RECEIPT_SCHEMA, checked, document, 
 from ytvideos.production_contract import production_requirements, validate_delivery_summary
 from ytvideos.profiles import load_profile
 from ytvideos.util import file_digest
+from helpers import channel_config
 
 
 def write(path, value):
@@ -140,12 +141,19 @@ def fragment_contract(plan, prepared):
                        for scene, (first, stop) in zip(plan["scenes"], prepared["visible_intervals"])]}
 
 
-def render(manifest, output, work, requirements, *, project=ROOT):
+def render(manifest, output, work, requirements, *, project=ROOT, pinned_profile_path=None, pinned_profile_sha256=None):
     manifest, output, work, project = (Path(value).resolve() for value in (manifest, output, work, project))
     if output.exists() or work.exists():
         raise WorkflowError("music output/work already exists; preserve and reconcile it before retrying")
     plan = json.loads(manifest.read_text())
-    profile = load_profile(project / "channels", plan["channel"])
+    if (pinned_profile_path is None) != (pinned_profile_sha256 is None):
+        raise WorkflowError("pinned profile requires both path and hash")
+    if pinned_profile_path is None:
+        profile = load_profile(project / "channels", plan["channel"])
+        profile_path = project / "channels" / profile["id"] / "channel.json"
+    else:
+        channel_config.configure_pinned_profile(pinned_profile_path, pinned_profile_sha256)
+        profile, profile_path = channel_config.channel_profile(plan["channel"])
     if profile["recipe"] != "music_first":
         raise WorkflowError("the music compositor needs a registered music-first profile")
     script = read_script(Path(plan["script"]), profile, plan["format"])
@@ -154,7 +162,7 @@ def render(manifest, output, work, requirements, *, project=ROOT):
     if requirements != expected:
         raise WorkflowError("music renderer requirements differ from the pinned profile and accepted edit")
     prepared = validate_plan(plan, requirements, base=manifest.parent, project=project, script=script)
-    inputs = [file_record(manifest), file_record(project / "channels" / profile["id"] / "channel.json"), *prepared["inputs"]]
+    inputs = [file_record(manifest), file_record(profile_path), *prepared["inputs"]]
     engine = [file_record(project / relative) for relative in ENGINE]
     work.mkdir(parents=True)
     output.parent.mkdir(parents=True, exist_ok=True)
@@ -190,11 +198,13 @@ def render(manifest, output, work, requirements, *, project=ROOT):
                "fragment_contract": file_record(work / "export-contract.json"),
                "fragment_index": file_record(work / "review-index.json"), "fragments": file_record(work / "fragments.json"),
                "review_status": "UNVERIFIED"}
+    if pinned_profile_path is not None:
+        receipt["pinned_profile"] = file_record(profile_path)
     write(str(output) + ".delivery.json", receipt)
     return receipt
 
 
-def validate_receipt(receipt_path, plan, requirements, output, *, project=ROOT):
+def validate_receipt(receipt_path, plan, requirements, output, *, project=ROOT, pinned_profile=None):
     """Recheck native command/input provenance; this never grants perceptual QA."""
     receipt = json.loads(Path(receipt_path).read_text())
     if (receipt.get("schema") != RECEIPT_SCHEMA or receipt.get("purpose") != "production"
@@ -207,14 +217,24 @@ def validate_receipt(receipt_path, plan, requirements, output, *, project=ROOT):
         raise WorkflowError("music render used another canonical implementation")
     if document(receipt["manifest"]) != plan:
         raise WorkflowError("music render receipt identifies another manifest")
-    profile = load_profile(Path(project) / "channels", plan["channel"])
+    profile_record = receipt.get("pinned_profile")
+    if profile_record is not None:
+        profile_path = checked(profile_record)
+        profile = json.loads(profile_path.read_text())
+        if pinned_profile is None or profile != pinned_profile or profile.get("id") != plan["channel"]:
+            raise WorkflowError("music receipt pinned profile differs from the accepted run")
+    else:
+        profile = load_profile(Path(project) / "channels", plan["channel"])
+        profile_path = Path(project) / "channels" / profile["id"] / "channel.json"
+        if pinned_profile is not None and profile != pinned_profile:
+            raise WorkflowError("legacy music receipt profile differs from the accepted run")
     script = read_script(Path(plan["script"]), profile, plan["format"])
     script["artifact_sha256"] = file_digest(plan["script"])
     expected = bind_requirements(production_requirements(profile, plan["format"], variant=script["production_variant"]), script)
     if requirements != expected:
         raise WorkflowError("music receipt requirements differ from the pinned profile and edit")
     prepared = validate_plan(plan, requirements, base=Path(receipt["manifest"]["path"]).parent, project=project, script=script)
-    expected_inputs = [receipt["manifest"], file_record(Path(project) / "channels" / profile["id"] / "channel.json"), *prepared["inputs"]]
+    expected_inputs = [receipt["manifest"], file_record(profile_path), *prepared["inputs"]]
     if receipt["inputs"] != expected_inputs:
         raise WorkflowError("music receipt omitted a required exact input")
     work = Path(receipt["command"]["path"]).parent
@@ -252,8 +272,11 @@ def main():
     parser.add_argument("--output", required=True, type=Path)
     parser.add_argument("--work-dir", required=True, type=Path)
     parser.add_argument("--requirements", required=True, type=Path)
+    parser.add_argument("--pinned-profile", type=Path)
+    parser.add_argument("--pinned-profile-sha256")
     args = parser.parse_args()
-    receipt = render(args.manifest, args.output, args.work_dir, json.loads(args.requirements.read_text()))
+    receipt = render(args.manifest, args.output, args.work_dir, json.loads(args.requirements.read_text()),
+                     pinned_profile_path=args.pinned_profile, pinned_profile_sha256=args.pinned_profile_sha256)
     print(json.dumps({"output": receipt["media"], "receipt": str(args.output.resolve()) + ".delivery.json",
                       "review_status": "UNVERIFIED"}))
 

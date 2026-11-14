@@ -751,6 +751,26 @@ class Production:
                        if isinstance(item, dict) and isinstance(item.get("path"), str) and item["path"]}
         if any((str(source(item["path"])), item["sha256"]) not in input_pairs for item in expected_inputs):
             raise WorkflowError("render execution omitted a required bound input")
+        profile_record = None
+        if execution["kind"] in {"montage", "music_render"}:
+            argv = execution["argv"]
+            if "--pinned-profile" in argv or "--pinned-profile-sha256" in argv:
+                if argv.count("--pinned-profile") != 1 or argv.count("--pinned-profile-sha256") != 1:
+                    raise WorkflowError("render needs one exact pinned profile path and hash")
+                try:
+                    profile_path = source(argv[argv.index("--pinned-profile") + 1])
+                    profile_sha = argv[argv.index("--pinned-profile-sha256") + 1]
+                except IndexError:
+                    raise WorkflowError("render pinned profile arguments are incomplete") from None
+                if profile_sha != run["pins"]["profile"] or (str(profile_path), profile_sha) not in input_pairs:
+                    raise WorkflowError("render omitted the exact saved profile input")
+                profile_record = {"path": str(profile_path), "sha256": profile_sha}
+                if document(profile_record, "pinned_profile") != run["profile"]:
+                    raise WorkflowError("render pinned profile differs from the saved run")
+            else:
+                from .profiles import load_profile
+                if digest(load_profile(self.project / "channels", run["channel"])) != run["pins"]["profile"]:
+                    raise WorkflowError("legacy render profile differs from the saved run")
         video = measured["video"][0]
         try:
             if int(video.get("nb_frames", "")) != timeline["frames"]:
@@ -774,6 +794,8 @@ class Production:
             delivery = importlib.util.module_from_spec(specification)
             specification.loader.exec_module(delivery)
             try:
+                if profile_record is not None:
+                    delivery.channel_config.configure_pinned_profile(profile_record["path"], profile_record["sha256"])
                 canonical_receipt = delivery.validate_render_receipt(
                     matching[0]["path"], run["profile"]["youtube_channel_id"], renderer_receipt["path"])
             except (ValueError, KeyError, OSError, TypeError) as exc:
@@ -811,7 +833,8 @@ class Production:
             renderer_receipt = proof.get("renderer_receipt")
             saved(renderer_receipt, "canonical_music_receipt")
             for record in module.validate_receipt(renderer_receipt["path"], plan, requirements,
-                                                   matching[0]["path"], project=self.project):
+                                                   matching[0]["path"], project=self.project,
+                                                   pinned_profile=run["profile"]):
                 saved(record, "canonical_music_input")
         return evidence_artifacts, execution_origin
 

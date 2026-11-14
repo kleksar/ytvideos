@@ -395,6 +395,67 @@ class RuntimeMigrationTests(unittest.TestCase):
             self.plan()
         self.assertEqual(self.state(), before)
 
+    def test_added_optional_shot_minimum_is_recorded_without_adopting_profile(self):
+        profile_path = self.service.project / "channels/test_channel/channel.json"
+        profile = json.loads(profile_path.read_text())
+        self.assertNotIn("minimum_shot_seconds", profile["production"]["video"])
+        profile["production"]["video"]["minimum_shot_seconds"] = 2
+        profile_path.write_text(json.dumps(profile))
+        before = self.state()
+        from ytvideos.executor import validate_helper_profile
+        with self.assertRaisesRegex(Conflict, "pinned checkout"):
+            validate_helper_profile(self.service, before[0], before[0]["pins"]["profile"])
+        plan = self.plan()
+        self.assertEqual(self.state(), before)  # Planning is read-only.
+        compatibility = plan["target"]["profile_compatibility"]
+        self.assertEqual(compatibility["pinned"], "absent")
+        self.assertEqual(compatibility["target"], 2)
+        self.assertEqual(compatibility["effective_profile"], "unchanged_pinned_profile")
+        result = self.apply(plan)
+        after = self.state()
+        self.assertEqual(after[0]["profile"], before[0]["profile"])
+        self.assertEqual(after[0]["pins"]["profile"], before[0]["pins"]["profile"])
+        self.assertEqual(after[0]["tasks"], before[0]["tasks"])
+        self.assertEqual(after[0]["approvals"], before[0]["approvals"])
+        self.assertEqual(after[2], before[2])
+        self.assertEqual(result["receipt"]["target"]["profile_compatibility"], compatibility)
+        validate_helper_profile(self.service, after[0], after[0]["pins"]["profile"])
+        changed = copy.deepcopy(after[0])
+        changed["pins"]["profile"] = "0" * 64
+        with self.assertRaisesRegex(Conflict, "saved profile changed"):
+            validate_helper_profile(self.service, changed, before[0]["pins"]["profile"])
+        self.assertTrue(self.apply(plan)["duplicate"])
+        self.assertEqual(self.state(), after)
+
+    def test_optional_shot_minimum_exception_rejects_other_profile_differences(self):
+        profile_path = self.service.project / "channels/test_channel/channel.json"
+        original = json.loads(profile_path.read_text())
+        for bad_value, change_name in ((True, False), (3, False), (2, True)):
+            with self.subTest(value=bad_value, change_name=change_name):
+                profile = copy.deepcopy(original)
+                profile["production"]["video"]["minimum_shot_seconds"] = bad_value
+                if change_name:
+                    profile["name"] = "Changed identity"
+                profile_path.write_text(json.dumps(profile))
+                before = self.state()
+                with self.assertRaisesRegex(Conflict, "exact channel profile"):
+                    self.plan()
+                self.assertEqual(self.state(), before)
+
+    def test_optional_shot_minimum_is_not_ignored_when_already_pinned(self):
+        profile_path = self.service.project / "channels/test_channel/channel.json"
+        profile = json.loads(profile_path.read_text())
+        profile["production"]["video"]["minimum_shot_seconds"] = 2
+        profile_path.write_text(json.dumps(profile))
+        def pin_old_minimum(tx, run):
+            run["profile"]["production"]["video"]["minimum_shot_seconds"] = 1
+            run["pins"]["profile"] = digest(run["profile"])
+        self.store.mutate(self.run_id, pin_old_minimum)
+        before = self.state()
+        with self.assertRaisesRegex(Conflict, "exact channel profile"):
+            self.plan()
+        self.assertEqual(self.state(), before)
+
     def test_missing_artifact_or_stale_script_approval_cannot_migrate(self):
         run = self.store.get(self.run_id)
         artifact = run["artifacts"][run["approvals"]["script"]["artifact_id"]]
