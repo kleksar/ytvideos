@@ -116,6 +116,13 @@ class SyntheticLifecycleTests(unittest.TestCase):
                    "observed": {"fixture_only": True, "artifact_sha256": file_digest(output)}}
                   for name in sorted(names)]
         for check in checks:
+            if stage == "audio" and check["name"] == "listening":
+                evidence = self.write({"schema": "ytv-audio-listening-v1", "artifact_sha256": file_digest(output), "reviewer": "synthetic-fixture-listener", "decision": "pass", "listened_complete": True, "source": "synthetic-test", "message": "Synthetic positive full-listening fixture; accepted."})
+                check["observed"] = {"artifact_sha256": file_digest(output), "reviewer": "synthetic-fixture-listener",
+                    "inspection": {"mode": "audio_listening", "tool": "synthetic fixture", "playback_speed": 1.0},
+                    "notes": "Synthetic state transition, no actual perception claimed.",
+                    "coverage": [{"start_seconds": 0, "end_seconds": probe_media(output)["duration_seconds"]}],
+                    "evidence": {"path": str(evidence), "sha256": file_digest(evidence)}}
             if check["name"] == "thumbnail_plan":
                 from thumbnail_fixtures import plan_fixture
                 check["observed"] = plan_fixture(json.loads(output.read_text()), self.service._artifact(run, "script")["sha256"])

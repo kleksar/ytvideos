@@ -125,6 +125,14 @@ class WorkflowContract(unittest.TestCase):
             review = script_review_observation(path, self.directory / (str(uuid.uuid4()) + "-review.json"),
                                                loop="narrative_loop" in required_checks(task["stage"], self.service.requirements(run)))
         for check in checks:
+            if task["stage"] == "audio" and check["name"] == "listening":
+                from ytvideos.media_checks import probe_media
+                proof = self.output({"schema": "ytv-audio-listening-v1", "artifact_sha256": file_digest(path), "reviewer": "fixture-listener", "decision": "pass", "listened_complete": True, "source": "synthetic-test", "message": "Synthetic positive full-listening fixture; accepted."})
+                check["observed"] = {"artifact_sha256": file_digest(path), "reviewer": "fixture-listener",
+                    "notes": "Synthetic listening contract fixture.",
+                    "inspection": {"mode": "audio_listening", "tool": "synthetic fixture", "playback_speed": 1.0},
+                    "coverage": [{"start_seconds": 0, "end_seconds": probe_media(path)["duration_seconds"]}],
+                    "evidence": {"path": str(proof), "sha256": file_digest(proof)}}
             if check["name"] == "thumbnail_plan":
                 from thumbnail_fixtures import plan_fixture
                 check["observed"] = plan_fixture(json.loads(path.read_text()), self.service._artifact(run, "script")["sha256"])

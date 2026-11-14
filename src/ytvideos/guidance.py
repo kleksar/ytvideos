@@ -58,6 +58,11 @@ def task_guide(run, task, references=(), requirements=None):
         "execution_reference": TASK_EXECUTION_REFERENCE,
         "completion_command": ["complete", "--run", run["id"], "--task", task["id"]],
     }
+    if stage == "audio" and "audio.produce" in task["capabilities"]:
+        guidance["listening_review"] = {
+            "dispatch": "Raw narration may be synthesized before an audio listener is available; budget and provider guards remain mandatory.",
+            "completion": "Before completing audio, a real listener must hear the complete exact final mix. Record their actual feedback, exact output hash, full coverage, playback method and hash-bound ytv-audio-listening-v1 evidence. A promise to listen is not a listening result.",
+        }
     if run["profile"]["recipe"] == "licensed_clips" and stage == "script":
         guidance["edit_script"] = {
             "schema": "ytv-edit-script-v1", "speech_modes": ["none", "source", "narration"],

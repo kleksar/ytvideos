@@ -298,7 +298,7 @@ class Production:
         tasks = []
         for task in run["tasks"].values():
             if ready(run, task):
-                missing = [name for name in task["capabilities"] if not self._capable(run, name)]
+                missing = self._missing_dispatch_capabilities(run, task)
                 production_blocker = None
                 try:
                     self._production_ready(run, task)
@@ -339,6 +339,14 @@ class Production:
                     for t in run["tasks"].values() if t["status"] in {"blocked", "unknown"}]
         return {"run_id": run["id"], "version": run["version"], "status": derive_status(run),
                 "tasks": tasks, "approval_requests": gates, "blockers": blockers}
+
+    def _missing_dispatch_capabilities(self, run, task):
+        # Narration can be generated for a human reviewer before a listening
+        # capability exists. Audio acceptance still requires exact listening
+        # evidence, and source/musical tasks retain their original gates.
+        deferred = task["stage"] == "audio" and "audio.produce" in task["capabilities"]
+        return [name for name in task["capabilities"]
+                if not (deferred and name == "audio.listen") and not self._capable(run, name)]
 
     @staticmethod
     def _capable(run, name):
@@ -442,7 +450,7 @@ class Production:
         if not ready(run, task):
             raise Conflict("task is not ready; inspect next/status")
         self._production_ready(run, task)
-        missing = [name for name in task["capabilities"] if not self._capable(run, name)]
+        missing = self._missing_dispatch_capabilities(run, task)
         if missing:
             raise WorkflowError("missing capabilities: " + ", ".join(missing))
         if task["attempt"] >= run["budget"]["max_task_attempts"]:
@@ -626,6 +634,29 @@ class Production:
                 if record != review["evidence"]:
                     raise WorkflowError("narrative_loop must use the same independent review result, not an author-written supplement")
                 validate_evidence(review["document"], observed, script_text=script_text)
+        elif task["stage"] == "audio" and "audio.produce" in task["capabilities"]:
+            # TTS dispatch is not an audio review. Require evidence tied to the
+            # exact delivered mix and complete listening coverage, including
+            # when the actual listener is the user rather than the worker.
+            from .media_checks import probe_media
+            probe = probe_media(self.artifacts.resolve(artifact))
+            record = validate_review_observation(by_name["listening"], media_sha256=artifact["sha256"],
+                                                 duration=probe["duration_seconds"], media_probe=probe)
+            evidence = self._evidence_file(record, "audio_listening_evidence")
+            try:
+                listening = json.loads(self.artifacts.resolve(evidence).read_text(encoding="utf-8"))
+            except (UnicodeError, ValueError):
+                raise WorkflowError("audio listening evidence must be a JSON observation") from None
+            observation = by_name["listening"]["observed"]
+            if (not isinstance(listening, dict) or listening.get("schema") != "ytv-audio-listening-v1"
+                    or listening.get("artifact_sha256") != artifact["sha256"]
+                    or listening.get("reviewer") != observation["reviewer"]
+                    or listening.get("decision") != "pass"
+                    or listening.get("listened_complete") is not True):
+                raise WorkflowError("audio listening evidence must identify the exact mix, reviewer and actual pass")
+            require_text(listening.get("source"), "actual listening observation source")
+            require_text(listening.get("message"), "actual listening observation")
+            evidence_artifacts.append(evidence)
         elif task["stage"] in {"audio", "subtitles"} and requirements.get("speech", {}).get("mode") == "none":
             from .media_checks import probe_media
             media = artifact if task["stage"] == "audio" else self._artifact(run, "audio")
