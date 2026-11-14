@@ -18,6 +18,36 @@
 
 Сохранить выбранную первую реплику, подтверждающий её факт и обещанную отдачу в существующей research/script note. Полный текст и конец → начало проверять по действующему editorial review; совпадение с формой не является `PASS`.
 
+## Long: от хука к понятному обещанию
+
+Формы выше помогают выбрать первую реплику, но для Long этого недостаточно: в начале зрителю должно быть ясно, **что конкретно он узнает** и как это связано с названием и обложкой. Вопросы полезны, когда раскрывают реальную причинность; один сильный вопрос лучше перечня не связанных друг с другом. Полный критерий и границы для Long — в [editorial](../../../../docs/standards/editorial.md#обещание-в-начале-long).
+
+Редакторский пример на существующей истории [Batavia, 1629 — PR #29](https://github.com/kleksar/ytvideos/pull/29), **не** правка её исходного сценария или новое одобрение:
+
+**Было (EN, первые строки текущего кандидата):**
+
+> Two rowing boats were racing toward a Dutch ship that had come to rescue them.
+>
+> One boat carried men trying to warn its captain. The other carried men planning to seize it.
+>
+> From the ship, both groups would have looked like survivors desperate to get aboard.
+>
+> The difference was what they had done on the islands behind them.
+>
+> To understand the race, we have to go back three months, to a reef off Australia.
+
+**Стало (EN, предложенная редакция вступления):**
+
+> Two boats were racing toward a ship sent to rescue the survivors of the *Batavia*.
+>
+> The men in one boat wanted to warn its captain. The men in the other planned to seize his ship.
+>
+> Why were more than a hundred people murdered after surviving a shipwreck? How did twenty-two soldiers, abandoned on another island without weapons, hold out against armed mutineers? And why did it matter so much which boat reached the rescuers first?
+>
+> To understand what happened, we need to go back to the beginning of *Batavia's* voyage.
+
+Сохранён конфликт двух лодок; добавлены подтверждённые данным историческим research ставки и конкретные вопросы, ответы на которые содержатся в развитии истории. Число вопросов **не** переносить как шаблон на другие Long; в спокойном объяснении вопрос может быть один или выражен без вопросительного знака. До production эти строки требуют обычного фактического и независимого review точной новой версии; PR #29 и его EN/RU script, storyboard, hashes не менялись этим примером.
+
 ## Происхождение
 
 Формат «приём + форма + пример + условие отказа» предложен после чтения [YouTube Agent Skill](https://github.com/Jakeschincariol/youtube-agent-skill/blob/a2feb2104981a375ffd4f87ee04f4f5344ac43c6/skills/yt-script/hooks.json). Здесь используются собственные формулировки и условные примеры; числовые оценки, сроки и утверждения об аудитории из upstream не перенесены. Версии, лицензии и границы адаптации — [в записке об источниках](../../../../docs/research/production-skill-sources.md).
