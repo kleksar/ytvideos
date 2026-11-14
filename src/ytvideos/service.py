@@ -121,6 +121,15 @@ class Production:
         if run["status"] == "cancelled":
             raise Conflict("run is cancelled; reconcile already dispatched external operations separately")
 
+    def plan_runtime_migration(self, run_id, source_root, *, expected_version):
+        from .migration import plan_runtime_migration
+        return plan_runtime_migration(self, run_id, source_root, expected_version=expected_version)
+
+    def apply_runtime_migration(self, run_id, source_root, plan, *, source, message, continue_receipt=None):
+        from .migration import apply_runtime_migration
+        return apply_runtime_migration(self, run_id, source_root, plan, source=source, message=message,
+                                       continue_receipt=continue_receipt)
+
     @staticmethod
     def _context_pins(run):
         for name, value in (("profile", run["profile"]), ("skills", run["skills"])):

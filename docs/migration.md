@@ -14,6 +14,22 @@
 
 Ручной архив Stories RU/EN, активный Nuviko History и Nuviko Videos остаются разными identities; статус текущего профиля не меняет pins существующего run. Brand acceptance receipts, права и исторические публикационные данные сохраняются. Никаких live публикаций ради проверки MR.
 
+## Миграция runtime сохранённого run
+
+`migrate-runtime` переносит code/skills/reference pins существующего run без изменения его ID, revision, профиля, принятых artifacts, approvals, задач, операций и бюджетов. Маршрут предназначен для совместимых версий текущей workflow schema; он не преобразует художественный профиль или итоговые media contracts. Порядок исполнения принадлежит [ytv-operate](../.agents/skills/ytv-operate/references/runtime-migration.md).
+
+```bash
+uv run ytv --db STATE_DB --workspace WORKSPACE --project-root TARGET_ROOT migrate-runtime plan \
+  --run RUN_ID --source-root SOURCE_ROOT --expected-version VERSION > migration-plan.json
+uv run ytv --db STATE_DB --workspace WORKSPACE --project-root TARGET_ROOT migrate-runtime apply \
+  --run RUN_ID --source-root SOURCE_ROOT --plan migration-plan.json \
+  --source 'REAL_OWNER_MESSAGE_REFERENCE' --message 'Exact owner instruction'
+```
+
+Plan связывает исходное состояние и operations, source/target code и тексты инструкций с hashes. Apply повторяет проверки под блокировкой run, отказывает при изменении входов или незавершённых внешних действиях и сохраняет исходный snapshot, receipt и событие. Артефакты добавляются в CAS; старые записи не переписываются. Повтор exact apply возвращает прежний результат без второй миграции. Этот локальный учёт решения доверяет координатору и не удостоверяет личность владельца криптографически.
+
+Если то же поручение владельца включает дальнейший локальный ремонт, `apply --continue-receipt SHA256` явно связывает новый план с последним migration receipt. Проверяются точный исходный `source`/`message`, совпадение текущих и исходных pins с предыдущими target pins, неизменные revision, принятый сценарий и канал. Текущая версия run должна равняться `to_version` предыдущего receipt: после промежуточного изменения run это узкое продолжение недоступно. Старый, неизвестный receipt или новое решение отклоняются. Без флага повтор источника решения для другого плана по-прежнему запрещён. Новый receipt и history entry сохраняют `continued_from_receipt_sha256`; повтор его apply требует того же значения. Цепочка не расширяет scope исходного поручения, не разрешает расходы и не заменяет план/проверки новой версии.
+
 ## Локальное согласие для уже сохранённого run
 
 Новый `approve` использует прежние store/approvals/events, без смены схемы и без повторного создания выпуска. Согласие из исходной беседы можно зарегистрировать для того же показанного артефакта; не просить его заново. При этом code/profile/skills pins не переписываются автоматически.
