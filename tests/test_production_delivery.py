@@ -53,7 +53,7 @@ class ProductionContractTests(unittest.TestCase):
         plan["scenes"][0]["end_frame"] = 60
         self.assertEqual(validate_render_manifest(plan, requirements)["duration_seconds"], 4)
         plan["scenes"][0]["end_frame"] = plan["scenes"][1]["start_frame"] = 61
-        with self.assertRaisesRegex(WorkflowError, "shot 2 must last at least two seconds"):
+        with self.assertRaisesRegex(WorkflowError, "shot 2 must last at least 2 seconds"):
             validate_render_manifest(plan, requirements)
 
     def test_channel_format_fps_canvas_and_probe_cannot_override_pinned_policy(self):
