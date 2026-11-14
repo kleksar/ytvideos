@@ -5,7 +5,8 @@ EDITORIAL_CANDIDATE_UNREGISTERED — no canonical ytv task receipt.
 - Exact PR branch: `work/story-drafts/nuviko-batavia-rescue-race-20261113`; package: `.agent/research/2026-11-13-nuviko-batavia-rescue-race/`. Existing PR #29 edited in place; no new redundant story PR.
 - Owner request 2026-11-14: refactor existing draft to **complete Long 3–10 minutes**, not to render/upload. Existing Short's editorial script, 9:16 composition plan, 15-shot storyboard and mandatory loop superseded.
 - Verified Nuviko History channel spec at main at time of research: `active`; English, ElevenLabs voice `5vsgZsi667xMyGinrNIM`, speed 1.10×, format long 2560×1440 30fps, 10-second end screen, background music and word-synced subtitles required by live instructions. All exact values MUST be reread from the pinned runtime on the next step.
-- Exact current editorial draft: `script.en.txt` 1204 English whitespace-delimited words and `script.ru.txt` corresponding 83 paragraphs. These are **not** canonical production input hashes. No voice duration/MP4 asserted.
+- Exact current editorial draft: `script.en.txt` 1195 English whitespace-delimited words and `script.ru.txt` corresponding 83 paragraphs. These are **not** canonical production input hashes. No voice duration/MP4 asserted.
+- Owner-approved *structure*, not script approval: first two narrative blocks ask concrete questions, S003–S004 are the unresolved hook, S005 bridges to 1628. Retain the questions and check their answers against the final exact script; no TTS/retention metric was measured.
 - Claim/evidence ledger and unusual publication-count disagreements: `research.md`, official NMA/WA Museum/ANMM/Australian Government sources.
 - Visual storyboard is a **coverage map** (83 beat descriptions); do not dispatch image-generation tasks from it without actual approved prompt/reference pack and storyboard gate.
 
