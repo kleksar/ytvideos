@@ -38,9 +38,9 @@ EDITORIAL_CANDIDATE_UNREGISTERED: text-only composition plan; **not** a measured
 **Continuity / historical restraint:** 1954 Washington; one consistent physical layered handmade paper/card diorama style; stable era clothing, car shapes and police insignia; one coherent image, direct cuts, no split masks/parallax or external frame.
 
 ## S004 — preliminary composition 4–6 s (not measured)
-**EN exact span:** At a nearby naval air station, Marines searched for five hours. They found damaged glass, but nobody causing it.
+**EN exact span:** At a nearby naval air station, Marines searched for five hours. They found the same marks, but no vandal.
 
-**RU exact span:** На соседней военно-морской авиабазе морпехи пять часов искали виновных. Выбоины нашли, а того, кто их оставил, — нет.
+**RU exact span:** На соседней военно-морской авиабазе морпехи пять часов искали виновных. Такие же отметины были и там, но нарушителей не нашли.
 
 **Change of understanding:** Новая площадка с такими же следами, но без нарушителя
 
