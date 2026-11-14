@@ -91,7 +91,7 @@ uv run ytv instructions --channel CHANNEL_ID --stage packaging --format long
 
 ## Требования в контексте
 
-`context.references` — выбранные repo-relative пути; `reference_documents` — соответствующие `{path,sha256,text}`. `task_guide` даёт цель, порядок работы, skill, зависимости/gates, output kind, обязательные checks и следующие задачи. `production_requirements` содержит закреплённый машинный контракт канала. Применение пакета — [preflight skill](../../.agents/skills/ytv-start/references/task-execution.md#до-действия), а не отдельный алгоритм в этом документе.
+`context.references` — выбранные repo-relative пути; `reference_documents` — соответствующие `{path,sha256,text}`. `task_guide` даёт цель, skill, зависимости/gates, output kind, обязательные checks и следующие задачи. Его `execution_reference` указывает на закреплённую общую процедуру среди `reference_documents`; её шаги и правила blocker не копируются в каждую task card. `production_requirements` содержит закреплённый машинный контракт канала. Применение пакета — [preflight skill](../../.agents/skills/ytv-start/references/task-execution.md#до-действия).
 
 `inputs` содержит прямые outputs зависимостей, `supporting_inputs` — descriptors принятых транзитивных outputs: например script/audio/storyboard для review, script для subtitles и research для packaging. `artifact_root` указывает хранилище actual артефактов; descriptor не содержит сам текст или медиа. Прикреплённые отдельно supporting notes не становятся входами автоматически.
 
@@ -115,7 +115,9 @@ uv run ytv instructions --channel CHANNEL_ID --stage packaging --format long
 
 Старый run без snapshot использует проверенный исходный code pin и `reference_source=legacy_checkout`; это не утверждение о сохранённом историческом тексте. Не переписывать его pin ради запуска в новой версии.
 
-Image pool передаёт тот же manifest. Native host проверяет пути, полноту и hashes, затем создаёт документы в `requirements/<repo path>` внутри рабочего каталога. В локальном `TASK.json` вместо повторных полных текстов `reference_documents` находятся `requirements` (список файлов) и `reference_manifest` (`path`, `sha256`, `local_path`); исходный packet сохраняется без изменений. Sandbox не расширяется. Обычная сцена не получает thumbnail-only playbook, а обложка получает стандарт обложек. Для Shorts storyboard/audio/render также получают editorial loop standard.
+`start.read_next` и native image worker получают материализованный packet с `materialization_version: 2`. В его `TASK.json` skill представлен descriptor с исходным `path`, `sha256` и `local_path: requirements/<repo path>`; сам текст хранится только по этому локальному пути. `reference_manifest` также содержит `path`, `sha256`, `local_path`, без повторных `reference_documents`. `start.read_next` возвращает `task_file`, `skill_file` и все `requirement_files`; native packet дополнительно содержит список `requirements`. Canonical `context`/успешный `claim` сохраняют полные pinned тексты и hashes. Прежний native packet с корневым `SKILL.md` остаётся читаемым; существующие entry packets не перезаписываются новой формой.
+
+Image pool передаёт тот же manifest. Native host проверяет пути, полноту и hashes до создания файлов; sandbox не расширяется. Обычная сцена не получает thumbnail-only playbook, а обложка получает стандарт обложек. Для Shorts storyboard/audio/render также получают editorial loop standard.
 
 
 ## Блокировка и разблокировка

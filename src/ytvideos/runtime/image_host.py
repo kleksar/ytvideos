@@ -17,6 +17,7 @@ import time
 
 from ..context import validate_documents
 from ..errors import Conflict, WorkflowError
+from ..packets import instruction_files
 from ..pool_service import PoolService
 from ..service import Production
 from ..store import Store
@@ -82,7 +83,7 @@ class ImageHost:
             # verified pinned checkout, and label that boundary in TASK.json.
             task = self.production._task(run, context["task_id"])
             context.update(self.production._reference_context(run, task))
-        documents = validate_documents(context["references"], context["reference_documents"])
+        validate_documents(context["references"], context["reference_documents"])
         # ChannelSpec owns document selection; some channels use AGENTS.md and
         # recipes instead of PROFILE.md. Require their pinned channel context,
         # without introducing a second filename-based selector in the worker.
@@ -120,24 +121,12 @@ class ImageHost:
                 files[name] = artifact["sha256"]
                 context["local_inputs"].append({"artifact_id": artifact["id"], "path": name,
                                                 "sha256": artifact["sha256"]})
-            context["requirements"] = []
-            context["reference_manifest"] = []
-            for document in documents:
-                name = "requirements/" + document["path"]
+            _, instruction_data = instruction_files(context)
+            for name, data in instruction_data.items():
                 destination = staging / name
                 destination.parent.mkdir(parents=True, exist_ok=True)
-                destination.write_bytes(document["text"].encode("utf-8"))
-                files[name] = document["sha256"]
-                context["requirements"].append(name)
-                context["reference_manifest"].append({"path": document["path"], "sha256": document["sha256"],
-                                                      "local_path": name})
-            # The immutable packet keeps the texts; the worker reads each local
-            # requirement once instead of receiving a second copy in TASK.json.
-            del context["reference_documents"]
-            (staging / "TASK.json").write_text(canonical(context) + "\n")
-            (staging / "SKILL.md").write_text(context["skill"]["text"])
-            for name in ("TASK.json", "SKILL.md"):
-                files[name] = file_digest(staging / name)
+                destination.write_bytes(data)
+                files[name] = file_digest(destination)
             staging.rename(directory)
             return directory, files
         finally:
