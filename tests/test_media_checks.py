@@ -112,6 +112,45 @@ class MediaChecksTests(unittest.TestCase):
         with self.assertRaises(WorkflowError):
             service._validate_output({"tasks": {"packaging": {"status": "pending"}}}, {"stage": "render"}, artifact)
 
+    def test_narration_can_start_without_listener_but_requires_bound_listening_to_complete(self):
+        fixture = workflow_fixture.WorkflowContract()
+        fixture.setUp()
+        self.addCleanup(fixture.doCleanups)
+        self.addCleanup(fixture.tearDown)
+        fixture.production_ready()
+        fixture.service.capabilities(fixture.run_id, {"audio.listen": False}, evidence="synthetic no-listener fixture")
+        ready = next(t for t in fixture.service.next(fixture.run_id)["tasks"] if t["id"] == "audio")
+        self.assertTrue(ready["dispatchable"])
+        claim = fixture.service.claim(fixture.run_id, "audio", "audio-worker")
+        receipt = fixture.receipt("audio", claim, self.audio)
+        data = json.loads(receipt.read_text())
+        check = next(c for c in data["checks"] if c["name"] == "listening")
+        observed = check["observed"]
+        check["observed"] = {"fixture_only": True}
+        receipt.write_text(json.dumps(data))
+        with self.assertRaises(WorkflowError):
+            fixture.service.complete(fixture.run_id, "audio", claim["token"], self.audio, receipt, actual_units=0)
+        self.assertEqual(fixture.store.get(fixture.run_id)["tasks"]["audio"]["status"], "running")
+        check["observed"] = {**observed, "artifact_sha256": "0" * 64}
+        receipt.write_text(json.dumps(data))
+        with self.assertRaises(WorkflowError):
+            fixture.service.complete(fixture.run_id, "audio", claim["token"], self.audio, receipt, actual_units=0)
+        check["observed"] = observed
+        evidence_path = Path(observed["evidence"]["path"])
+        original_evidence = evidence_path.read_text()
+        bad_evidence = json.loads(original_evidence)
+        bad_evidence["artifact_sha256"] = "0" * 64
+        evidence_path.write_text(json.dumps(bad_evidence))
+        observed["evidence"]["sha256"] = file_digest(evidence_path)
+        receipt.write_text(json.dumps(data))
+        with self.assertRaises(WorkflowError):
+            fixture.service.complete(fixture.run_id, "audio", claim["token"], self.audio, receipt, actual_units=0)
+        evidence_path.write_text(original_evidence)
+        observed["evidence"]["sha256"] = file_digest(evidence_path)
+        receipt.write_text(json.dumps(data))
+        fixture.service.complete(fixture.run_id, "audio", claim["token"], self.audio, receipt, actual_units=0)
+        self.assertEqual(fixture.store.get(fixture.run_id)["tasks"]["audio"]["status"], "complete")
+
     def test_decoder_does_not_hold_a_database_write_transaction(self):
         fixture = workflow_fixture.WorkflowContract()
         fixture.setUp()
