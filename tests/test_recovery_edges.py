@@ -4,7 +4,9 @@ import unittest
 import uuid
 
 import test_operation_integrity as operation_fixtures
+from storyboard_fixtures import board_fixture
 from test_release import payload
+from test_workflow import SCRIPT
 from ytvideos.cli import dispatch, parser
 from ytvideos.errors import Conflict, WorkflowError
 from ytvideos.release import ReleasePolicy, requirement_matrix
@@ -149,8 +151,7 @@ class RecoveryEdges(unittest.TestCase):
     def test_actual_overage_preserves_free_work_and_still_blocks_new_metered_cost(self):
         self.state.production_ready()
         claim = self.service.claim(self.run_id, "storyboard", "synthetic-editor", estimated_units=2)
-        output = self.state.output({"scenes": [{"id": "one", "prompt": "Synthetic scene",
-                                               "visual_intent": "Exercise accounting independently of provider execution"}]})
+        output = self.state.output(board_fixture(self.service, self.service.store.get(self.run_id), "one", SCRIPT))
         self.service.complete(self.run_id, "storyboard", claim["token"], output,
                               self.state.receipt("storyboard", claim, output), actual_units=11)
         claim = self.service.claim(self.run_id, "packaging", "synthetic-free-editor", estimated_units=0)

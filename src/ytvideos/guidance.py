@@ -98,6 +98,16 @@ def task_guide(run, task, references=(), requirements=None):
                            "task contract for fields; generic PASS and literal duplicate promises are rejected. "
                            "The structural check does not prove truthfulness or editorial quality.",
         }
+    if stage == "storyboard" and run["profile"]["recipe"] == "illustrated":
+        from .capabilities import DISCOVERY
+        from .storyboard_contract import SCHEMA
+        guidance["storyboard"] = {
+            "schema": SCHEMA,
+            "review_discovery": DISCOVERY["sessions.independent"],
+            "instruction": "Produce an ordered board covering every word of the accepted script. Obtain a fresh "
+                           "reader's scene-by-scene continuity observations for these exact storyboard and script "
+                           "hashes before completing the task. Use the production skill and task contract.",
+        }
     if stage == "script" and requirements is not None:
         from .capabilities import DISCOVERY
         guidance["independent_review"] = {

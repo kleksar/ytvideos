@@ -631,6 +631,18 @@ class Production:
                 if record != review["evidence"]:
                     raise WorkflowError("narrative_loop must use the same independent review result, not an author-written supplement")
                 validate_evidence(review["document"], observed, script_text=script_text)
+        elif task["stage"] == "storyboard" and run["profile"]["recipe"] == "illustrated":
+            from .media_script import accepted_script
+            from .storyboard_contract import validate_storyboard
+            continuity = by_name["visual_continuity"]["observed"]
+            record = self._evidence_file(continuity.get("evidence"), "storyboard_continuity_review")
+            try:
+                review = json.loads(self.artifacts.resolve(record).read_text())
+            except (ValueError, UnicodeError) as exc:
+                raise WorkflowError("storyboard continuity review must be readable JSON") from exc
+            validate_storyboard(json.loads(self.artifacts.resolve(artifact).read_text()), accepted_script(run, self.artifacts),
+                                review, worker=claim["worker"], board_sha256=artifact["sha256"])
+            evidence_artifacts.append(record)
         elif task["stage"] in {"audio", "subtitles"} and requirements.get("speech", {}).get("mode") == "none":
             from .media_checks import probe_media
             media = artifact if task["stage"] == "audio" else self._artifact(run, "audio")
@@ -639,10 +651,15 @@ class Production:
             record = validate_review_observation(by_name["no_speech"], media_sha256=media["sha256"], duration=duration,
                                                  media_probe=probe)
             evidence_artifacts.append(self._evidence_file(record, "no_speech_evidence"))
-        elif task["stage"] == "scene_image" and task.get("payload", {}).get("purpose") == "thumbnail":
-            from .image_review import validate_observation
-            validate_observation(by_name["thumbnail_review"]["observed"], artifact_sha256=artifact["sha256"],
-                                 worker=claim["worker"], brief=task["payload"], artifacts=run["artifacts"])
+        elif task["stage"] == "scene_image":
+            scene = task.get("payload", {})
+            if scene.get("purpose") == "thumbnail":
+                from .image_review import validate_observation
+                validate_observation(by_name["thumbnail_review"]["observed"], artifact_sha256=artifact["sha256"],
+                                     worker=claim["worker"], brief=scene, artifacts=run["artifacts"])
+            elif run["profile"]["recipe"] == "illustrated" and "visible_action" in scene:
+                from .storyboard_contract import validate_scene_match
+                validate_scene_match(by_name["scene_match"]["observed"], scene=scene, image_sha256=artifact["sha256"])
         elif task["stage"] == "review":
             from .media_checks import probe_media
             media = self._artifact(run, "render")
@@ -835,17 +852,23 @@ class Production:
             read_script(path, run["profile"], run["format"])
         elif stage == "storyboard":
             data = json.loads(path.read_text())
+            if not isinstance(data, dict):
+                raise WorkflowError("storyboard must be a JSON object")
             require_configured(production_requirements(run["profile"], run["format"],
                                                        variant=data.get("production_variant")))
             scenes = data.get("scenes")
             if not isinstance(scenes, list) or not scenes:
                 raise WorkflowError("storyboard requires scenes")
             ids = [s.get("id") for s in scenes if isinstance(s, dict)]
-            if len(ids) != len(scenes) or len(set(ids)) != len(ids):
+            if len(ids) != len(scenes) or any(
+                    not isinstance(scene_id, str) or not re.fullmatch(r"[a-zA-Z0-9_-]{1,80}", scene_id)
+                    for scene_id in ids):
+                raise WorkflowError("invalid scene id")
+            if len(set(ids)) != len(ids):
                 raise WorkflowError("scene IDs must be unique")
             for scene in scenes:
-                if not re.fullmatch(r"[a-zA-Z0-9_-]{1,80}", scene.get("id", "")):
-                    raise WorkflowError("invalid scene id")
+                if "purpose" in scene:
+                    raise WorkflowError("storyboard scenes cannot override the task purpose")
                 require_text(scene.get("prompt"), "scene prompt")
                 require_text(scene.get("visual_intent"), "scene visual intent")
             from .media_script import accepted_script
