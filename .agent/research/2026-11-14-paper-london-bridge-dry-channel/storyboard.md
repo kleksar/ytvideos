@@ -216,14 +216,14 @@
 
 ## S016
 
-**Exact EN span:** But just before the crews started digging, anyone passing by would have seen this:
+**Exact EN span:** Before they dug the channel, though, there was a very different sight beneath those arches.
 
-**Точный RU span:** А незадолго до того, как рабочие начали копать, прохожий увидел бы вот что:
+**Точный RU span:** Но до того, как они прорыли канал, под арками моста была совсем другая картина.
 
 **Narrative/shot meaning:** Slow visual reset to earlier aerial dry-site construction, fully built granite bridge on compact dirt mounds with no trench yet.
 
-**Self-contained AI image prompt:** Self-contained portrait 9:16 cinematic miniature artwork, physically handcrafted opaque multilayer paper and card diorama filling every frame edge; visible paper fibers, cut-edge thickness, real miniature scale, realistic human anatomy rendered in sculptural paper, directional studio-like practical light and contact shadows, fine material detail. No photoreal humans, no vector flats, no decorative border, no subtitle strip, no onscreen title, no watermarks; reconstruct, do not present as authentic archival photograph. Slow visual reset to earlier aerial dry-site construction, fully built granite bridge on compact dirt mounds with no trench yet. Composition must make this action readable in one glance while preserving the 1831 London Bridge's five low arches (when the bridge appears); physically plausible geography and period silhouettes. Keep the central bottom region visually coherent for later separate word-highlight subtitles, without empty preallocated space. Visual leads directly to S001 wide desert dry bridge; speculative viewer perspective, not invented witnessed account.
+**Self-contained AI image prompt:** Self-contained portrait 9:16 cinematic miniature artwork, physically handcrafted opaque multilayer paper and card diorama filling every frame edge; visible paper fibers, cut-edge thickness, real miniature scale, realistic human anatomy rendered in sculptural paper, directional studio-like practical light and contact shadows, fine material detail. No photoreal humans, no vector flats, no decorative border, no subtitle strip, no onscreen title, no watermarks; reconstruct, do not present as authentic archival photograph. Slow visual reset to earlier aerial dry-site construction, fully built granite bridge on compact dirt mounds with no trench yet. Composition must make this action readable in one glance while preserving the 1831 London Bridge's five low arches (when the bridge appears); physically plausible geography and period silhouettes. Keep the central bottom region visually coherent for later separate word-highlight subtitles, without empty preallocated space. Visual leads directly to S001 wide desert dry bridge; reconstructed view, not an eyewitness account.
 
-**Continuity / scene QA:** Visual leads directly to S001 wide desert dry bridge; speculative viewer perspective, not invented witnessed account. Confirm that no image appears to depict a proven historical photograph; scenes with architectural details will need actual accepted asset references at production time.
+**Continuity / scene QA:** Visual leads directly to S001 wide desert dry bridge; reconstructed view, not an eyewitness account. Confirm that no image appears to depict a proven historical photograph; scenes with architectural details will need actual accepted asset references at production time.
 
 **Approximate composition target:** 4–6 s, no frame or word timestamps. **Transition:** direct cut to S001 with matched wide dry desert arch framing; motion choice later after actual voice.
