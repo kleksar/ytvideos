@@ -12,10 +12,10 @@ The owner chose the subject directly. This is not a fresh topic-search contest, 
 ## Claims and boundaries
 | Narration blocks | Claim | Evidence / limit |
 |---|---|---|
-| 1–2, 7–11 | Ottoman ships hauled up and down Galata/Pera ridge on wooden supports | Kaldellis ch.6; Bury; historical accounts. Not giant open-ocean ships: depict smaller galleys. Track precise route and number are disputed; omit distance, named slope and precise count. |
-| 3–4 | Siege under Mehmed II; chain at Golden Horn mouth | Bury; Kaldellis. Do not show chain spanning the whole Bosporus. |
-| 5 | Four Christian supply vessels break blockade 20 April | Kaldellis ch.6. Distinguish blockade at sea from entrance boom. |
-| 6, 10 | Preparation predates 20 April encounter | Historical narrative and Kaldellis discussion. **Do not** frame as spontaneous invention in response to relief-vessel arrival. |
+| 6–11 | Ottoman ships hauled up and down Galata/Pera ridge on wooden supports | Kaldellis ch.6; Bury; historical accounts. Not giant open-ocean ships: depict smaller galleys. Track precise route and number are disputed; omit distance, named slope and precise count. |
+| 2–3 | Siege under Mehmed II; chain at Golden Horn mouth | Bury; Kaldellis. Do not show chain spanning the whole Bosporus. |
+| 4 | Four Christian supply vessels break blockade 20 April | Kaldellis ch.6. Distinguish blockade at sea from entrance boom. |
+| 5, 10 | Preparation predates 20 April encounter | Historical narrative and Kaldellis discussion. **Do not** frame as spontaneous invention in response to relief-vessel arrival. |
 | 11–13 | Overland transfer on 22 April adds threat from inside Golden Horn | Bury; Kaldellis. “Instant surprise” and “undetected road” unsupported; not claimed. |
 | 14–15 | Defender's burning raid fails 28 April | Bury; eyewitness chronology. Avoid asserting exact casualties or unverified betrayal details. |
 | 16–17 | 29 May city falls after further weeks, multiple fronts; portage not sole cause | Bury; Kaldellis siege overview. Causal restraint explicit in narration. |
@@ -26,8 +26,9 @@ International viewer can grasp an iron boom, an uphill ship and a new exposed wa
 ## Status
 Source links reviewed for the above factual bounds. Archival image licenses, exact costume references, independent historical specialist review, external producer checks, real audiences, TTS durations and visual QA **UNVERIFIED**. None of this research authorizes false archive footage or publishing.
 
-## Hook revision after merged PR #90 / owner feedback
-- PR #90 formally changes **Long** only; Short must still deliver the event immediately and preserve the natural spoken loop. The user separately requested better use of questions in **these two story drafts**, so S002 now asks one tightly focused, answerable question: “Why drag a fleet across dry land when a harbour lies right beside it?”
-- **Hook proof:** S001 shows the warship visibly on wooden rollers up the hill; S002 asks **why**; S003–S004 establish the siege and chained harbour; S006–S010 explain the prepared land route; S011–S012 answer with warships inside Golden Horn beyond the chain; S014–S016 show the failed counterattack and full historical limits.
-- **Do not delay payoff** just to create question marks. The 1453 chain did not span the Bosporus; road predated April 20; ship transfer not sole cause of May 29 fall. No extra chronology or unsupported command dialogue introduced.
-- **Loop unchanged:** S017 → S001 is still “...a fleet travelling... / Up a hill outside Constantinople...”; next S002 is now an explicit, motivated question after a surprising visible action. AV seam and independent first listener UNVERIFIED; original script hash cannot be carried over.
+## Question-first revision, owner request (2026-11-14)
+- **Scope:** rearrange the already-sourced Ottoman short, not change its factual premise or import the Long's multi-question introduction. Prior S001 exposed the ships-on-land mechanism before asking why; owner selected a question-first opening.
+- **Exact new S001:** “How did an Ottoman fleet get inside a sealed harbour when a massive iron chain blocked its only entrance?” / “Как османский флот оказался внутри закрытой гавани, если единственный вход в неё перекрывала огромная железная цепь?”. This promises the mechanism, not the false claim that the barrier was destroyed.
+- **Opening proof:** proposed S001 visual establishes an unbroken chain with Ottoman ships inside (editorial visual hypothesis, not verified/generated image). S002–S005 supply setting, barrier and the already-prepared response; S006 explicitly reveals “Not by sea. By land.” S007–S011 develop the physical road, date and entry; S012–S016 deliver defenders' increased burden, failed raid, and the 29 May end with causality limited.
+- **Final:** S017 returns to the central question; the previous rollers→“Up a hill” loop was invalidated. A text-based seam is proposed, but two full spoken passes, actual audiovisual loop, independent first-listener and bilingual review are **UNVERIFIED**.
+- Chronology is unchanged: preparation began before the 20 April supply-ship breakthrough; transfer 22 April; failed raid 28 April; fall 29 May. Exact vessel count/route and claimed instantaneous improvisation remain excluded.

@@ -7,6 +7,7 @@
 5. When `awaiting_script_approval` is really reached, show the complete EN + RU scripts for user's decision. Do not claim approval based on PR creation. Subsequent generation, audio, timing, storyboard approval, image refs and publish require normal lifecycle/authority.
 6. Required production source refs and timing evidence are missing. No image/TTS/video was produced in this PR. Scope includes only these editorial files.
 
-## Revised bilingual hook input
-- Consume the latest PR-head EN and RU master; prior exact hashes and script reviews are no longer valid. S002 is now a question. It is not a Long-form introduction and must not be expanded into multiple previews of the same payoff.
-- A new independent cold reader must evaluate S001–S004 and the full two-plays spoken Short loop. Do not call text-only review an audio or official gate.
+## Current question-first revision
+- Consume the newest PR-head EN and RU exact files. S001 is the question; **do not** render the old hillside/rollers opening at S001. The first visual shows the intact harbour chain and ships inside, without revealing the land route.
+- S006 is the first explicit overland reveal; S017 feeds back to S001, a text-only loop awaiting **fresh** independent review and two-play audio/visual testing. Prior narrator hashes, storyboard positions, and any review of old S001 are invalid.
+- The project runtime command 'uv run ytv instructions --channel nuviko_history --stage script --format short', then existing-run discovery, is required for authoritative pinned instructions and gated script approval. This GitHub editorial change does not register a run, prove CI, or authorize media generation.
