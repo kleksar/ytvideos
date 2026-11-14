@@ -1,0 +1,144 @@
+{
+  "schema": "editorial-storyboard-v1",
+  "status": "PRELIMINARY_UNMEASURED",
+  "channel": "paper_detour",
+  "format": "short",
+  "script_master": "script.en.txt",
+  "translation": "script.ru.txt",
+  "orientation": "9:16",
+  "style": "single full-frame physically layered paper diorama per cut; no fake archival image; no external frame; whole-frame motion only; direct cuts; established continuity of Barry, Town Hall facade, improvised torch",
+  "duration_notice": "Each composition is an editorial estimate of 4–6 seconds; not measured narration windows or approved edit timings. Revised text invalidates spans and timings.",
+  "paper_plane": {
+    "shot_id": "S009",
+    "status": "PLANNED_ONLY",
+    "note": "Small ivory paper plane above crowd by a streetlight; not mentioned in narration. Accepted reference file bytes/hash must be checked locally before generation; current PR does not establish reference availability."
+  },
+  "scenes": [
+    {
+      "id": "S001",
+      "en_span": "The real Olympic torchbearer reached Sydney Town Hall. The mayor had already welcomed a flame.",
+      "ru_span": "Настоящий участник олимпийской эстафеты добежал до мэрии Сиднея. А мэр уже успел встретить огонь.",
+      "semantic_intent": "Cold-open observable contradiction: official runner and already-completed civic welcome",
+      "duration_guidance_seconds": "4–6 approximate, NOT measured",
+      "continuity": "Town Hall facade target for final seam",
+      "prompt": "1956 Sydney Town Hall entrance at dusk. Two focal paper figures: confused genuine athlete carrying a proper metal Olympic torch in the near foreground; civic officials at the steps who have evidently already held a torch reception. Frame the visible discrepancy without adding imagined speech. One full-frame hand-built layered-paper diorama, stacked card, cut fibers, real cast shadows, cinematic macro photography, adult historical editorial illustration, 9:16, no outer frame, no lower caption strip."
+    },
+    {
+      "id": "S002",
+      "en_span": "It was 1956, and the relay was carrying the Olympic flame across Australia toward the Melbourne Games.",
+      "ru_span": "Это был 1956 год. Олимпийский огонь несли через Австралию к Играм в Мельбурне.",
+      "semantic_intent": "Establish Olympic relay geography without extra invented travel dates",
+      "duration_guidance_seconds": "4–6 approximate, NOT measured",
+      "continuity": "Period Sydney 1956, tangible paper material and lighting continuity",
+      "prompt": "Illustrated 1956 Australian relay route as a physical folded-paper map with a simple line toward Melbourne, a small torch icon and a moving paper route marker at Sydney; all labels only where essential and checked, not an invented contemporary map. Full-bleed layered cardboard diorama with tangible edges, restrained mid-century colours, physical light, 9:16, no external border."
+    },
+    {
+      "id": "S003",
+      "en_span": "Mayor Pat Hills was waiting in Sydney for runner Harry Dillon to bring the torch to Town Hall.",
+      "ru_span": "Мэр Пэт Хиллс ждал у городской ратуши бегуна Гарри Диллона с настоящим факелом.",
+      "semantic_intent": "Set expected handover: mayor, named official runner, municipal location",
+      "duration_guidance_seconds": "4–6 approximate, NOT measured",
+      "continuity": "Period Sydney 1956, tangible paper material and lighting continuity",
+      "prompt": "1956 Sydney Town Hall steps, mayor Pat Hills as a distinguishable adult civic figure waiting beside ceremonial microphone, official runner Harry Dillon represented by a small distant silhouette on an approaching road. Historically inspired paper clothes, no claim facial likeness. Full-frame handcrafted layered-paper set with spatial depth and shadows, 9:16, no outer frame."
+    },
+    {
+      "id": "S004",
+      "en_span": "Some university students had a different idea. They painted a chair leg silver and nailed a pudding tin to it.",
+      "ru_span": "Но у студентов университета был другой план. Они покрасили ножку стула серебряной краской и прибили сверху банку из-под пудинга.",
+      "semantic_intent": "Show improvised fake torch construction and why it could be carried",
+      "duration_guidance_seconds": "4–6 approximate, NOT measured",
+      "continuity": "Period Sydney 1956, tangible paper material and lighting continuity",
+      "prompt": "Close-up of university students' hands assembling a counterfeit 1956 torch: narrow wooden chair leg painted silver, an empty plum pudding tin nailed at the top. The objects must be unambiguously distinguishable, with glue and paint-free clean layout, no dangerous working instructions, no text. Single full-bleed layered-paper editorial diorama, physical shadows, 9:16."
+    },
+    {
+      "id": "S005",
+      "en_span": "They stuffed the tin with kerosene-soaked underwear and lit it. Their homemade Olympic torch was ready.",
+      "ru_span": "В банку положили нижнее бельё, пропитанное керосином, и подожгли. Самодельный олимпийский факел был готов.",
+      "semantic_intent": "Reveal the ridiculous actual fuel and the resulting burning object",
+      "duration_guidance_seconds": "4–6 approximate, NOT measured",
+      "continuity": "Period Sydney 1956, tangible paper material and lighting continuity",
+      "prompt": "Close-up on a clearly counterfeit improvised torch, kerosene-soaked underwear inside an old pudding tin represented with safe stylized paper flame, on painted chair leg. No photo authenticity or modern product branding. Single full-frame handmade layered-paper diorama, subtle physical backlight, 9:16."
+    },
+    {
+      "id": "S006",
+      "en_span": "Their first runner wore sports clothes, but swung his arms so wildly that the burning underwear flew out.",
+      "ru_span": "Первый бегун надел спортивную форму, но так размахивал руками, что горящее бельё вылетело наружу.",
+      "semantic_intent": "First attempt goes wrong: underwear falls and runner abandons torch",
+      "duration_guidance_seconds": "4–6 approximate, NOT measured",
+      "continuity": "Period Sydney 1956, tangible paper material and lighting continuity",
+      "prompt": "A student in white sports shorts and top runs with an obviously homemade improvised torch; a folded-paper flame and cloth shape have just flown off the top. Mid-century Sydney street, dynamic still composition, no motion blur implying actual footage, one single full-frame 9:16 layered-paper diorama with tangible fiber and contact shadows."
+    },
+    {
+      "id": "S007",
+      "en_span": "He dropped the torch and ran off. Barry Larkin, who hadn't planned to run, picked it up instead.",
+      "ru_span": "Он бросил факел и сбежал. Барри Ларкин, который вообще не собирался бежать, поднял его.",
+      "semantic_intent": "Responsibility passes unexpectedly to unprepared Barry",
+      "duration_guidance_seconds": "4–6 approximate, NOT measured",
+      "continuity": "Consistent Barry tie/trousers and chair-leg/pudding-tin torch",
+      "prompt": "Runner in sports clothes retreats as Barry Larkin in 1950s trousers and tie stoops to pick up the improvised chair-leg torch. Distinct hand positions, grounded perspective, no added dialogue. A physical layered-paper full-bleed 9:16 diorama with consistent street geometry and one light source."
+    },
+    {
+      "id": "S008",
+      "en_span": "Barry wore trousers and a necktie. Once the crowd closed around him, people took him for the official athlete.",
+      "ru_span": "Барри был в брюках и галстуке. Но толпа сомкнулась вокруг него, и люди приняли его за настоящего спортсмена.",
+      "semantic_intent": "Crowd misidentification increases the prank's credibility",
+      "duration_guidance_seconds": "4–6 approximate, NOT measured",
+      "continuity": "Consistent Barry tie/trousers and chair-leg/pudding-tin torch",
+      "prompt": "Barry in greyish trousers and visible tie carries the fake torch in a packed Sydney street. Nearby spectators form a corridor and mistake him for the official runner; natural reactions without invented facial quotations. Full-frame tactile layered card, 9:16 vertical, no border or caption strip, same Barry silhouette and torch proportions as previous."
+    },
+    {
+      "id": "S009",
+      "en_span": "Even the police joined in, clearing a path and escorting him straight to the Town Hall.",
+      "ru_span": "Даже полиция подключилась: расчищала дорогу и сопровождала его прямо к мэрии.",
+      "semantic_intent": "Official police escort turns spontaneous run into apparent authenticity",
+      "duration_guidance_seconds": "4–6 approximate, NOT measured",
+      "continuity": "Consistent Barry tie/trousers and chair-leg/pudding-tin torch",
+      "prompt": "1956 uniformed police officers clear a narrow human corridor as Barry in necktie runs toward the distant Sydney Town Hall; show the very implausible but documented police escort. Hide a small clearly folded ivory paper aeroplane near an upper-left streetlight, outside the historical action and away from subtitles. Full-frame layered paper fibres, shadowed cardboard buildings, 9:16. Reference shape bytes require later verification."
+    },
+    {
+      "id": "S010",
+      "en_span": "The mayor hurried outside, took the fake torch, and started his prepared speech without noticing what it was.",
+      "ru_span": "Мэр поспешил навстречу, взял фальшивый факел и начал заготовленную речь, не заметив подмены.",
+      "semantic_intent": "Mayor accepts counterfeit and begins speech before checking it",
+      "duration_guidance_seconds": "4–6 approximate, NOT measured",
+      "continuity": "Consistent Barry tie/trousers and chair-leg/pudding-tin torch",
+      "prompt": "Mayor Pat Hills receives improvised torch at Town Hall steps and speaks at a microphone while the student still wears trousers and tie; physical clue: visible tin and chair leg, not an authentic torch. No fabricated written speech. Adult full-bleed paper diorama, tactile layers, 9:16."
+    },
+    {
+      "id": "S011",
+      "en_span": "While he spoke, Barry walked away, disappeared into the crowd, and took a tram back to college.",
+      "ru_span": "Пока он говорил, Барри спокойно ушёл, растворился в толпе и сел в трамвай до колледжа.",
+      "semantic_intent": "Barry leaves the scene while the mayor's attention is occupied",
+      "duration_guidance_seconds": "4–6 approximate, NOT measured",
+      "continuity": "Consistent Barry tie/trousers and chair-leg/pudding-tin torch",
+      "prompt": "Barry moves down civic steps toward a street tram while the mayor continues speaking in the background, different depth planes within a single complete diorama. Same Barry silhouette, same 1956 Australian street geometry and tram era details cautiously reconstructed. 9:16 full-bleed layered paper, direct-cut ready, no border."
+    },
+    {
+      "id": "S012",
+      "en_span": "An organiser told the mayor that the torch was a fake.",
+      "ru_span": "Организатор сказал мэру, что факел ненастоящий.",
+      "semantic_intent": "Organiser interrupts misunderstanding with the actual fact",
+      "duration_guidance_seconds": "4–6 approximate, NOT measured",
+      "continuity": "Period Sydney 1956, tangible paper material and lighting continuity",
+      "prompt": "An event organiser discreetly informs Pat Hills beside a microphone; mayor looks at the plainly improvised chair-leg torch and pudding tin. Stage exact observable positions as illustrative reconstruction, no invented quote. Full-bleed physical layered-paper 1956 civic scene, 9:16."
+    },
+    {
+      "id": "S013",
+      "en_span": "Hills had to tell the waiting crowd they'd been fooled. Barry had already escaped.",
+      "ru_span": "Хиллсу пришлось объявить собравшимся, что их разыграли. Барри уже скрылся.",
+      "semantic_intent": "Mayor publicly acknowledges the hoax while culprit is already gone",
+      "duration_guidance_seconds": "4–6 approximate, NOT measured",
+      "continuity": "Period Sydney 1956, tangible paper material and lighting continuity",
+      "prompt": "Mayor Pat Hills addresses assembled Sydney crowd from the Town Hall steps, visibly holding the now-exposed homemade torch while Barry is no longer there. No text bubble or made-up sign. Handmade editorial layered paper, tactile fibers, soft directional light, full-bleed 9:16."
+    },
+    {
+      "id": "S014",
+      "en_span": "About ten minutes later, the genuine runner, Harry Dillon, approached the same Town Hall steps.",
+      "ru_span": "Примерно через десять минут настоящий бегун, Гарри Диллон, подошёл к тем же ступеням мэрии.",
+      "semantic_intent": "Real runner approaches same location, causally continuing into opening",
+      "duration_guidance_seconds": "4–6 approximate, NOT measured",
+      "continuity": "Town Hall facade and athlete approach must match S001",
+      "prompt": "Genuine 1956 Olympic runner Harry Dillon with authentic official relay torch approaches same Sydney Town Hall steps, from the road, after the impostor has left; Town Hall facade and light match S001 for genuine arrival seam. One physical full-bleed layered-paper 9:16 scene, tactile shadows, no additional paper-plane duplicate."
+    }
+  ]
+}

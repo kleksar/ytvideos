@@ -1,0 +1,55 @@
+# Topic research — 1956 Sydney fake Olympic torch
+
+Research date: 2026-11-14. Channel: Paper Detour, English narrative Short. Editorial only; official runtime and independent review are not registered.
+
+## Scope, queue and audience
+Current remote main at prewrite check: `636386783a13b7b11d2173c233b68654f43d9848`. All 80 PRs (including closed) and 0 standalone Issues were inventoried from GitHub APIs; 46 PRs open before this branch. Latest narrative Draft #79 targets Nuviko History, so this selection rotates to Paper Detour. Current ChannelSpec: `channels/paper_detour/channel.json`, `status=active`, `recipe=illustrated`, `language=en`, `short.narrative_loop=required`, paid budget 0. Musical Nuviko Videos is unrelated.
+
+Audience hypothesis: international English-speaking older teens/adults who like true strange history with readable object-led comedy. No inferred nationality, demographic share or platform analytics. The first view needs no knowledge of the Olympics beyond the meaning of a torch relay.
+
+Queue comparison: #71 Moon Hoax and #73 windshield-pitting misinformation involve audiences believing something false, and #63 Flagship involves a staged operation, but this is a real spontaneous public spoof during a formal ceremony with police inadvertently helping and an unplanned replacement runner. #76 Dagen H has national logistics, #67 Balloonfest an environmental aftermath, #74 coelacanth a scientific discovery. Previous Paper themes include the Olympics marathon (#47) and Larry's balloons (#25); do not reuse their plots or openings. #13 telegraph rejected as boring; excluded as a positive model. Archive includes Great Emu War and other already produced themes. No exact 1956 torch topic located by repository code search or PR search as of prewrite check. The `Who Cares History` 2026 video is a real external overlap, not evidence that this angle will perform.
+
+## Wide scan: actually considered 10 distinct histories (limited budget, 2026-11-14)
+| Story | What was verified or searched | Screen decision |
+|---|---|---|
+| 1956 Sydney fake Olympic torch | Larkin's direct interview and ABC interview programme description; detailed independent narrative; real runner's arrival | finalist |
+| 1932 Sydney Harbour Bridge sword-ribbon intrusion | National Museum of Australia, NFSA footage and legal aftermath; two distinct cuts of the ribbon | finalist |
+| 1926–36 Toronto Great Stork Derby | Museum of Toronto confirms will and four mothers' nine-child tie | finalist, ethical/tonal issue |
+| 1962 Tanganyika laughing outbreak | 1963 medical article summary and later overview | not comedic; mass psychogenic distress requires careful framing |
+| 1814 London Beer Flood | historical overview establishes casualties and damaged neighbourhood | deaths make playful Paper pitch unsuitable without deeper primary work |
+| 1979 Disco Demolition Night | History.com describes crowd, field invasion and forfeited second game | sports-event mob risk and a prior alternative in #69 |
+| 1952 Great Smog of London | UK Met Office gives broad mortality estimates and legislative response | very serious, technical, beyond this comic slot |
+| 1895 Montparnasse station derailment | Musée d'Orsay's photograph description and contemporary press excerpt | exceptional image but heavy on a single visual and one death |
+| 1912 Shizo Kanakuri's 54-year finish | Washington Post descendant/scholar reporting and runner retrospective | strong surprise but another Olympic story with contested retelling details |
+| 1910 Paris Seine flood | queried on the web; no sufficiently specific document read in this pass | rejected without pretending a source was inspected |
+
+Boundary: no vidIQ or private channel analytics used; no direct YouTube video playback. Search sampled archival reports, museum descriptions, public video listing and journalism; not exhaustive market research. No CTR/retention calculation.
+
+## Three competing pitches
+### A. Winner — false Olympic flame
+Audience: English curiosity/history Short viewers. Exact opening: “The real Olympic torchbearer reached Sydney Town Hall. The mayor had already welcomed a flame.” Stop reason: clear contradiction at a formal ceremony. After hook: household-object forgery -> first runner drops flaming contents -> unprepared Barry takes over -> unsuspecting crowd and police escort -> mayor receives torch/speech -> prank exposed -> genuine runner arrives. Payoff: fake delivered, official welcome already given, prankster escapes, real flame arrives afterwards. Strongest objection: 1956 event has been covered, including a September 2026 Short; risk the premise alone is enough and the middle becomes repetition. Counter: the **runner switch and accidental police escort** are two documented causal turns, not one rewritten reveal. If no independent reader wants the middle, reject rather than intensify invented risk.
+
+### B. Strongest alternative — De Groot slashes the bridge ribbon
+Audience: history and unusual ceremonies. Exact opening: “The Sydney Harbour Bridge opening needed two ribbon cuts.” Stops because a very public ceremonial reset seems absurd. After hook: 1932 political rift -> horseman in military dress interrupts -> ribbon retied -> official opening -> court and £5 penalty, counter-suit. Payoff: sabotage does not prevent opening, but legal aftermath changes who is credited in some accounts. Objection: contested legal formulation and political context require precision; one central action then explanatory tail. The 1932 NFSA newsreel omits De Groot's action, so don't promise film evidence of the cut from that particular reel. Sources: https://www.nma.gov.au/defining-moments/resources/sydney-harbour-bridge-opens (updated 2025-10-10); https://www.nfsa.gov.au/collection/item/francis-de-groots-sword (archive feature); https://www.nfsa.gov.au/stories/articles/cinesounds-sydney-harbour-bridge-scoop. Winner has a stronger middle with an unexpected runner handoff and police escort.
+
+### C. Third — Toronto Great Stork Derby
+Audience: unusual legal/human history. Exact opening: “A Toronto lawyer's will offered his fortune to the woman who had the most babies.” Stop reason: an improbable inheritance clause. After hook: decade-long contest -> court -> four mothers share award. Payoff: four women with nine children each win. Objection: reproductive vulnerability and poverty could become a tasteless gimmick; ethical presentation needs far more personal context than a short comic cut. Source: https://museumoftoronto.com/digital-content/tydk_birthplace-of-pregnancy-racing/ (accessed 2026-11-14). Not selected.
+
+Selection is editorial, not a numerical virality score. No observed performance advantage or claim of future views.
+
+## Claim-level source and uncertainty ledger
+1. **C01** 1956 relay went through Sydney en route to Melbourne, with a genuine handover expected. Source: City of Melbourne collection, https://citycollection.melbourne.vic.gov.au/melbourne-olympic-games-torch/ (published around 2021, accessed 2026-11-14); direct institutional description of route/torch. Mayors/runner detail from C02/C04.
+2. **C02** Barry Larkin and students built a chair leg + silver paint + plum-pudding tin + underwear soaked in fuel, intended initial runner dressed for sport, flaming cloth fell out and Barry took torch. Source: Barry Larkin **first-person recollection** interviewed by The Independent, https://www.independent.co.uk/sport/olympics/the-lost-olympians-50500.html (2004; accessed 2026-11-14). His recollection of fuel is explicitly qualified (`what I guess must have been kerosene`); narration says kerosene based on widely repeated accounts, but certainty below contemporaneous physical documentation. No verbatim dramatic dialogue added.
+3. **C03** Barry wore tie/trousers; real police escort; mayor accepted and gave speech; Barry returned on a tram; college response. Evidence: first-person interview in C02; 2018 archival historian account with local time and civic details, https://harryblutstein.com/2018/01/10/barry-larkin-relived-torch-hoax/ (2018-01-10); some scene specifics remain recollections rather than a verified frame.
+4. **C04** Mayor Pat Hills welcomed fake, was told, real runner Harry Dillon arrived around ten minutes afterward. Sources: https://www.irishtimes.com/sport/flame-prank-1.280789 (2000-06-10); https://harryblutstein.com/2018/01/10/barry-larkin-relived-torch-hoax/ (2018-01-10, historian), https://www.abc.net.au/listen/programs/storystream/flaming-underpants-protest/13887314 (2023-08-20, ABC interview programme **page read, audio not independently listened to**). The ten minutes are approximate, not timed by this run.
+5. **C05** The mayor told the waiting crowd it was a hoax: historian's report in C04; exact reported wording is not used as a quote. Whether he did so immediately in every retelling is not independently timed.
+6. **C06** 1936 Berlin origin of modern torch relay: City of Melbourne collection C01; do NOT state prank's motive as single established objective. Larkin later said reverence/origin motivated them; reported retrospective opinion, omitted from short as unnecessary political diversion.
+7. **C07** Competing 2026-09-23 public Short `A Student Fooled Sydney With a Flaming-Underwear Olympic Torch`: https://whocareshistory.com/videos/Dn6qaBrZ_gM (page read 2026-11-14); actual video playback, public views and native analytics UNVERIFIED. Indicates topic duplication in market, not CTR or outperformance.
+
+Reconstruction limit: scenery, perspective, facial reactions, exact position of helpers/torch and paper-scale objects in image prompts are editorial reconstructions. The script asserts no unobserved interior thoughts or dangers, exact historical quotes, imaginary crowds' spoken words, or precise timing other than reported ~10 minutes. No external video/photograph is claimed as owned production source; paper-plane shape bytes not fetched. Historical reporting and your inference must remain separate.
+
+## Packaging reasoning
+Promise: an Olympic official accepted a handmade counterfeit torch before the athlete arrived. The hook names the consequence. First proof: fake torch construction in S004–S005; next proof: unplanned runner/real police escort S006–S010; complete payoff: fooled mayor and later actual runner S011–S014. Avoid visual/prose implication that the official Olympic flame itself was replaced or that the mayor deliberately helped.
+
+## Text revision / speech edit
+First outline aimed at a single gag; rejected as too short. Final text deliberately adds three independent developments: original runner loses flame, Barry becomes replacement, police unexpectedly legitimize him, and real runner still arrives. Removed invented panic/internal thought and unverified direct dialogue. Final clean EN/RU scripts follow; detailed visual prompts only after this pass. Two-edit budget honored; no hidden variants claimed as approved.
