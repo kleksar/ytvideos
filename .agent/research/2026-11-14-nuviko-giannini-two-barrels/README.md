@@ -9,7 +9,7 @@ After San Francisco's 1906 earthquake, banker Amadeo Giannini salvaged Bank of I
 
 - [research.md](research.md) — ten actual topic screens, three distinct finalists, claim/source/uncertainty ledger, demand limits and queue check
 - [story-review.md](story-review.md) — separate truth/interest/speech/loop checks, two author read-throughs and independent reviewer blocker
-- [storyboard.json](storyboard.json) — S001–S014 exact paired EN/RU text, semantic jobs, continuity and standalone historical AI-image prompts, estimates only
+- [storyboard.json](storyboard.json) — S001–S020 exact paired EN/RU text, semantic jobs, continuity and standalone historical AI-image prompts, estimates only
 - [packaging-brief.md](packaging-brief.md) — three honest title/image promises and early proof
 - [handoff.md](handoff.md) — local run transfer, missing capabilities, approvals and prohibited actions
 
