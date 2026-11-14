@@ -69,6 +69,17 @@ def parser():
             command.add_argument("--source", required=True, help="Stable reference to the actual owner decision")
             command.add_argument("--message", required=True, help="Actual owner message authorizing this migration")
             command.add_argument("--continue-receipt", help="Latest migration receipt SHA-256 for an authorized local repair")
+    recovery = sub.add_parser("recover-unavailable-runtime", help="Recover a quiescent early run with unavailable source code")
+    recovery_actions = recovery.add_subparsers(dest="recovery_action", required=True)
+    for action in ("plan", "apply"):
+        command = recovery_actions.add_parser(action)
+        command.add_argument("--run", required=True)
+        if action == "plan":
+            command.add_argument("--expected-version", type=int, required=True)
+        else:
+            command.add_argument("--plan", type=Path, required=True)
+            command.add_argument("--source", required=True)
+            command.add_argument("--message", required=True)
     claim = sub.add_parser("claim")
     claim.add_argument("--run", required=True)
     claim.add_argument("--task", required=True)
@@ -178,6 +189,11 @@ def parser():
 
 def dispatch(service, args):
     command = args.command
+    if command == "recover-unavailable-runtime":
+        from .recover_unavailable_runtime import apply_recovery, plan_recovery
+        if args.recovery_action == "plan":
+            return plan_recovery(service, args.run, expected_version=args.expected_version)
+        return apply_recovery(service, args.run, read_json(args.plan), source=args.source, message=args.message)
     if command == "migrate-runtime":
         if args.migration_action == "plan":
             return service.plan_runtime_migration(args.run, args.source_root, expected_version=args.expected_version)
