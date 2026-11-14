@@ -1,0 +1,58 @@
+# Research — A.P. Giannini after the San Francisco fire (1906)
+
+Access date for public historical sources: 2026-11-14. Channel: nuviko_history, English illustrated narrative Short, status active per verified current main ChannelSpec. Only public historical topics searched; no private repo strings sent in external searches. Search scope: nine alternative episodes + Giannini, with a focus on real changes in the story after a visually concrete opening. This is a bounded editorial screening, not exhaustive YouTube analytics.
+
+## Ten distinct events actually considered
+
+| Event | What was checked and how far | Decision for this run |
+|---|---|---|
+| Giannini / San Francisco quake, 1906 | Read US OCC retrospective, US National Archives account and Fradkin historical monograph passages on wagons, temporary bank, lumber | FINALIST / selected |
+| Tunnel 57 under Berlin Wall, 1964 | Read Berlin Wall map account of tunnel construction, 57 escapes, discovery and fatal shooting | FINALIST / rejected relative to winner: grim, existing Cold War backlog |
+| Judgment of Paris wine tasting, 1976 | Read Smithsonian museum search-result article and press-report text for two first-place wines; full museum exhibition URL timed out | FINALIST / rejected relative to winner: elegant but reveal comes too soon for a 70s narrative |
+| Lady Be Good, 1943 plane lost in desert | Searched USAF National Museum fact-sheet listing; direct museum page returned HTTP 403 | Rejected: incomplete direct-source check and duplicates existing aviation-survival tone |
+| Andrée Arctic balloon expedition, 1897 | Searched historic Swedish sources; found accounts of 1897 departure and later discovery in 1930, no full primary diary read in this run | Rejected: reconstruction/attribution effort and crowded aerial-survival queue |
+| Boston molasses flood, 1919 | Read Boston Archives municipal 2019 account, updated 2025; tank, 21 deaths and cleanup | Rejected: tragedy and disaster-heavy queue, mechanisms need nuance |
+| Philadelphia influenza parade, 1918 | Searched Smithsonian secondary historical article; no contemporaneous health record opened | Rejected: causal attribution of infection to a single parade is too easy to overclaim |
+| London Great Smog, 1952 | Searched modern explanatory sources only; no primary archival report read | Rejected: scientific mechanism broadly known, comparison not strong enough today |
+| Lake Nyos, Cameroon, 1986 | Searched NASA and USGS summaries; primary field papers not read | Rejected: interesting explanation but serious loss of life and reconstruction risk |
+| Florence flood and the Mud Angels, 1966 | Searched museum/heritage accounts of volunteer book rescues; no independent contemporary witness read | Rejected: good human story, resembles other rescue and restoration candidates |
+
+These are **ten different events**, not ten headlines about Giannini. Only rows explicitly marked 'read' are claimed as opened source pages; partial search snippets and timed-out/403 pages are not treated as reading. No paid tools, no private YouTube Studio access; performance and retention of comparable videos remain UNVERIFIED.
+
+## Three finalist story offers before writing
+
+### 1. Giannini — winner
+Audience: English-speaking casual-history viewers who understand banks, earthquakes and improvised survival without specialist history. Exact hook: “A banker in San Francisco took deposits over a plank balanced on two barrels. His building was gone.” Why they may stop: visually absurd desk plus a real disaster. What changes next: he salvages valuables, returns to the ruins, some rival vaults remain shut, lends through a makeshift wharf counter, funds timber shipments and eventually grows a branch network. Payoff: the Bank of Italy renamed Bank of America in 1930; more than 500 branches by 1949. Strongest objection: superficially it sounds like corporate mythology, and the office-on-two-barrels image alone could use up the curiosity; answer requires independently supported actions (wagons, lending, lumber), no made-up dialogue or dollar amount.
+
+### 2. Tunnel 57 — strongest rival
+Audience: Cold War/escape historical suspense viewers. Exact possible hook: “Fifty-seven people crawled beneath the Berlin Wall through a tunnel that ended in an outdoor toilet.” Stop reason: extreme physical route and escape count. After hook: students dug from abandoned bakery, tunnel descended about 12 metres, exit in East Berlin, crossings over two nights, guard discovered it. Payoff: all 57 crossed but operation ended with an East German guard dead. Strongest objection: attribution and wording of a guard's death require more authoritative sources, and this queue already has Cold War/armed incidents (#64, #66). No falsely specific responsibility asserted.
+
+### 3. The Judgment of Paris — quiet mechanism alternative
+Audience: fans of tasting, social expectations and surprising experiment results, even without wine expertise. Exact possible hook: “Nine French experts judged wines blind. The two first-place bottles came from California.” Stop reason: unexpected result in a familiar French-vs-US frame. After hook: organizers' 1976 blind comparison of red and white categories; the identities were hidden from judges; separate winners in both categories. Payoff: Smithsonian preserves the winning 1973 bottles from Chateau Montelena and Stag’s Leap Wine Cellars. Strongest objection: central answer is given immediately and expanding to a narrative Short may require empty setup; could be better as a short explanatory piece than this production slot.
+
+**Selection comparison:** Tunnel 57 is the strongest pure suspense rival but has a lethal event and overlaps existing historical espionage/armed queue. Giannini has verified sequential agency and a brighter, practical mechanism; after the opening the bank must first save assets, then overcome inaccessible premises and credit scarcity, then provide concrete building materials, and finally grows independently into a known bank name. The bank-growth coda is a consequence over decades, **not** presented as solely caused by the earthquake. Quality hypothesis only, not a viral-score.
+
+## Claim / evidence / uncertainty ledger (read 2026-11-14 unless marked search-only)
+
+| Claim used or considered | Exact public URL and source type | What the source supplies | Limits |
+|---|---|---|---|
+| 18 April 1906 quake and three-day fire | https://www.archives.gov/legislative/features/sf — US National Archives institutional archival summary, undated page | Date, impact, fires burned for three days | Not direct eyewitness video; do not stage specific undocumented injuries |
+| Bank of Italy, overlooked working people and immigrants | https://www.occ.treas.gov/about/who-we-are/history/history-of-the-occ/1866-1913/1866-1913-bank-of-america.html — US OCC historical retrospective | Bank founder, clientele, public service difference | Institutional retrospective, not personal testimony of every customer |
+| Salvaged cash, produce wagons, orange crates, San Mateo home, ruined office | https://dokumen.pub/great-earthquake-and-firestorms-of-1906-how-san-francisco-nearly-destroyed-itself-9780520927667-9780520248205.html — Philip L. Fradkin, 2006 historical academic synthesis, passages near pages 97–98 | $80,000 cash, two produce wagons and crates of oranges, journey home, ruins on return | Published reconstruction based on later testimony and biographies; no specific cash amount stated in narration |
+| Waterfront plank on two barrels and bank started again | Fradkin same book, passages near page 98; independently https://www.occ.treas.gov/about/who-we-are/history/history-of-the-occ/1866-1913/1866-1913-bank-of-america.html | Wharf and two-barrel counter in book; wharf makeshift loans on handshake in OCC | Not verified exact photograph or position. There were **two** temporary offices; script never says this was the only one |
+| Some larger-bank vaults inaccessible | Fradkin same book near pp. 97–98 | Other banks needed to recover vault contents, and some operated limited business | Not 'all banks closed' and no unsupported precise reopening date |
+| Handshake loans to rebuilding residents and deposits | OCC retrospective and Fradkin pp. 97–98 | Loan mechanism, underserved clientele and new deposit effort | Not proof every loan repaid; no fabricated firsthand quote |
+| Lending to ship captains buying lumber in Oregon and Washington | Fradkin same book near pp. 244–245 | Giannini contacted captains and financed cargo of lumber | Book's contemporary cited speech not repeated as an authentic quote; exact economic effects not quantified |
+| Name change and 500+ branches by 1949 | OCC retrospective, same URL, dated event Nov 1 1930 and retrospective 1949 | Confirmed names, bank scale | Not framed as 'he alone rebuilt San Francisco' |
+| Exact rescued sum DISPUTED | Fradkin 2006 readable book says **$80,000 cash**; TIME 1998 article search result https://time.com/archive/6598182/americas-banker-a-p-giannini/ says **$2 million gold/coins/securities** (full TIME page was unreliable/unreadable here) | Inconsistent definitions and amounts | OMIT money amount from EN/RU, thumbnail and storyboard; do not resolve by guess |
+| Tunnel 57 finalist | https://berlinwallmap.info/es/tunnel-57 — Berlin Wall historical map, opened | 3–4 Oct 1964, 57 escapees, 12m depth, fatal guard shooting | Secondary site; legal responsibility/account of shooting not investigated further |
+| Paris wine tasting finalist | https://americanhistory.si.edu/press/releases/smithsonian-commemorates-40th-anniversary-judgment-paris — Smithsonian museum release, 2016-02-09; https://americanhistory.si.edu/explore/exhibitions/food/online/wine-table/judgment-paris (search result only; direct opening timed out) | May 24 1976, nine French judges, separate red and white winners, bottles held by museum | Museums's exhibition page not fully loaded; no beyond-source claims of changed global market |
+| Boston flooding screened | https://content.boston.gov/news/100-years-ago-today-molasses-crashes-through-bostons-north-end — Boston Archives, updated 2025-10-30 | Jan 15 1919 event, 2.3m gallons and 21 victims | Read fully, not selected |
+
+## Demand, channel fit, and originality constraints
+
+Questions the audience might actually ask: How do you run a bank if the building is destroyed? How did he have access to cash when other vaults were shut? Did the simple improvised counter become a famous institution? These are editorial predictions, NOT observed audience comments. A public DW History short dated 2024-10-04 on Tunnel 57 was located (https://www.youtube.com/watch?v=Wlx-NZLw0Iw); one public view count does not establish format-normalized demand, CTR, retention or virality. Search for Giannini and wine story comparables did not produce an adequately verified same-age/same-format baseline. External title/thumbnail performance: UNVERIFIED. Own channel audience analytics: UNVERIFIED.
+
+Queue checked remotely (open and closed PRs/issues through #81 and existing Nuviko episodes): Giannini is not one of the listed plots. Intentional contrast: no submarine/aviation rescue (#20, #34, #70), espionage (#64), wartime action (#62, #66), survival alone (#70), or scientific rediscovery (#74). Queue size is **not** a reason to close PRs. Rejected #13 telegraph explicitly excluded as an exemplar, despite no blanket veto on technical plots.
+
+Historical photos/source bytes and rights: NO assets fetched or represented as verified. Photo-like storyboard prompts are proposed reconstructions. No private subscriber or public-CTR analyses were run.
