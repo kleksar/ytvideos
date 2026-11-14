@@ -145,6 +145,33 @@ class MediaChecksTests(unittest.TestCase):
         receipt.write_text(json.dumps(data))
         with self.assertRaises(WorkflowError):
             fixture.service.complete(fixture.run_id, "audio", claim["token"], self.audio, receipt, actual_units=0)
+        positive_evidence = json.loads(original_evidence)
+        rejected = [
+            {"listened_complete": False},
+            {"listened_complete": None},
+            {"decision": "fail"},
+            {"message": "Synthetic fixture; no human listening claimed."},
+            {"message": "Synthetic listening evidence; no human action claimed."},
+            {"message": "I did not listen to this file."},
+            {"message": "I will listen to the mix later."},
+            {"message": "Maybe, I am not sure."},
+            {"message": "I cannot listen to the mix."},
+            {"message": "Нет, я не прослушал этот файл."},
+            {"message": "Я послушаю позже."},
+            {"message": "Не уверен, что готово."},
+            {"message": "Отклоняю эту запись."},
+            {"message": "Не нравится, нужно переделать."},
+            {"message": "I listened, but it is not acceptable."},
+            {"source": ""},
+        ]
+        for change in rejected:
+            with self.subTest(change=change):
+                evidence_path.write_text(json.dumps({**positive_evidence, **change}))
+                observed["evidence"]["sha256"] = file_digest(evidence_path)
+                receipt.write_text(json.dumps(data))
+                with self.assertRaises(WorkflowError):
+                    fixture.service.complete(fixture.run_id, "audio", claim["token"], self.audio, receipt, actual_units=0)
+                self.assertEqual(fixture.store.get(fixture.run_id)["tasks"]["audio"]["status"], "running")
         evidence_path.write_text(original_evidence)
         observed["evidence"]["sha256"] = file_digest(evidence_path)
         receipt.write_text(json.dumps(data))

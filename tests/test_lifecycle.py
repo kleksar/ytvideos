@@ -117,7 +117,7 @@ class SyntheticLifecycleTests(unittest.TestCase):
                   for name in sorted(names)]
         for check in checks:
             if stage == "audio" and check["name"] == "listening":
-                evidence = self.write({"schema": "ytv-audio-listening-v1", "artifact_sha256": file_digest(output), "reviewer": "synthetic-fixture-listener", "decision": "pass", "source": "synthetic-test", "message": "Synthetic fixture; no human listening claimed."})
+                evidence = self.write({"schema": "ytv-audio-listening-v1", "artifact_sha256": file_digest(output), "reviewer": "synthetic-fixture-listener", "decision": "pass", "listened_complete": True, "source": "synthetic-test", "message": "Synthetic positive full-listening fixture; accepted."})
                 check["observed"] = {"artifact_sha256": file_digest(output), "reviewer": "synthetic-fixture-listener",
                     "inspection": {"mode": "audio_listening", "tool": "synthetic fixture", "playback_speed": 1.0},
                     "notes": "Synthetic state transition, no actual perception claimed.",

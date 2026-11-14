@@ -23,6 +23,18 @@ from .workflow import (EXTERNAL_STAGES, WORKFLOW_VERSION,
                        required_checks, valid_approval)
 
 
+# Reject clear contradictions between a pass and the quoted listener response.
+# This is a conservative check, not authentication or a natural-language proof.
+_LISTENING_CONTRADICTION = re.compile(
+    r"\b(?:no\s+(?:human\s+)?(?:audio\s+)?listen(?:ing)?|no\s+human\s+action\s+claimed|"
+    r"(?:not|never|haven.t|didn.t)\s+(?:yet\s+)?(?:listen(?:ed)?|hear|heard|review(?:ed)?)|"
+    r"(?:will|going\s+to)\s+(?:listen|hear|review)|"
+    r"not\s+(?:approved|accepted|sure|acceptable|good)|unverified|reject(?:ed)?|disagree|maybe|"
+    r"(?:cannot|can.t|couldn.t)\s+(?:listen|hear|review)|"
+    r"не\s+(?:прослушал[аи]?|послушал[аи]?|слушал[аи]?|слышал[аи]?|проверил[аи]?|одобряю|принимаю)|"
+    r"(?:послушаю|прослушаю|проверю|отклоняю|непроверено|не\s+(?:уверен[а]?|нравится|подходит|согласен|согласна)|плохо))\b", re.IGNORECASE)
+
+
 def code_identity(root):
     root = Path(root)
     paths = list((root / "src" / "ytvideos").rglob("*.py"))
@@ -656,10 +668,13 @@ class Production:
             if (not isinstance(listening, dict) or listening.get("schema") != "ytv-audio-listening-v1"
                     or listening.get("artifact_sha256") != artifact["sha256"]
                     or listening.get("reviewer") != observation["reviewer"]
-                    or listening.get("decision") != "pass"):
+                    or listening.get("decision") != "pass"
+                    or listening.get("listened_complete") is not True):
                 raise WorkflowError("audio listening evidence must identify the exact mix, reviewer and actual pass")
             require_text(listening.get("source"), "actual listening observation source")
             require_text(listening.get("message"), "actual listening observation")
+            if _LISTENING_CONTRADICTION.search(listening["message"]):
+                raise WorkflowError("audio listening message contradicts completed positive review")
             evidence_artifacts.append(evidence)
         elif task["stage"] in {"audio", "subtitles"} and requirements.get("speech", {}).get("mode") == "none":
             from .media_checks import probe_media

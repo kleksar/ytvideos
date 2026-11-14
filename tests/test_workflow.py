@@ -127,7 +127,7 @@ class WorkflowContract(unittest.TestCase):
         for check in checks:
             if task["stage"] == "audio" and check["name"] == "listening":
                 from ytvideos.media_checks import probe_media
-                proof = self.output({"schema": "ytv-audio-listening-v1", "artifact_sha256": file_digest(path), "reviewer": "fixture-listener", "decision": "pass", "source": "synthetic-test", "message": "Synthetic listening evidence; no human action claimed."})
+                proof = self.output({"schema": "ytv-audio-listening-v1", "artifact_sha256": file_digest(path), "reviewer": "fixture-listener", "decision": "pass", "listened_complete": True, "source": "synthetic-test", "message": "Synthetic positive full-listening fixture; accepted."})
                 check["observed"] = {"artifact_sha256": file_digest(path), "reviewer": "fixture-listener",
                     "notes": "Synthetic listening contract fixture.",
                     "inspection": {"mode": "audio_listening", "tool": "synthetic fixture", "playback_speed": 1.0},
