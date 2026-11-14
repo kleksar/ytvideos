@@ -93,6 +93,9 @@ def production_requirements(profile, format, *, variant=None):
                  "color_transfer", "color_space", "color_range"):
         if not isinstance(video.get(name), str) or not video[name].strip():
             unresolved.append("video." + name)
+    minimum_shot_seconds = video.get("minimum_shot_seconds", 0)
+    if type(minimum_shot_seconds) is not int or minimum_shot_seconds < 0:
+        unresolved.append("video.minimum_shot_seconds")
     if type(result["audio"].get("required")) is not bool:
         unresolved.append("audio.required")
     if not isinstance(result["audio"].get("codec"), str) or not result["audio"]["codec"].strip():
@@ -373,11 +376,15 @@ def validate_render_manifest(plan, requirements):
     if not isinstance(scenes, list) or not scenes:
         raise WorkflowError("production render manifest requires scene intervals")
     cursor = 0
-    for scene in scenes:
+    minimum_shot_seconds = expected.get("minimum_shot_seconds", 0)
+    minimum_shot_frames = minimum_shot_seconds * Fraction(expected["fps"])
+    for index, scene in enumerate(scenes, start=1):
         if (not isinstance(scene, dict) or type(scene.get("start_frame")) is not int
                 or type(scene.get("end_frame")) is not int or scene["start_frame"] != cursor
                 or scene["end_frame"] <= cursor):
             raise WorkflowError("production scenes must cover one continuous frame timeline")
+        if scene["end_frame"] - scene["start_frame"] < minimum_shot_frames:
+            raise WorkflowError(f"production shot {index} must last at least {minimum_shot_seconds} seconds")
         if "motion_clip" in scene or ("image" in scene and "clip" in scene):
             raise WorkflowError("mixed image/video scenes require a supported bound renderer; unsupported motion inputs must not be ignored")
         cursor = scene["end_frame"]

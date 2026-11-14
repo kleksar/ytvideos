@@ -45,6 +45,17 @@ class ProductionContractTests(unittest.TestCase):
                                        "reason": "Deliberate complete silence for the final visual beat."}]
         self.assertEqual(validate_render_manifest(plan, requirements)["duration_seconds"], 4)
 
+    def test_two_second_shot_boundary(self):
+        requirements = production_requirements(self.profile, "short")
+        plan = self.manifest()
+        plan["scenes"].append({"image": "second.png", "start_frame": 60, "end_frame": 120,
+                               "direction": "right_to_left", "zoom": "out"})
+        plan["scenes"][0]["end_frame"] = 60
+        self.assertEqual(validate_render_manifest(plan, requirements)["duration_seconds"], 4)
+        plan["scenes"][0]["end_frame"] = plan["scenes"][1]["start_frame"] = 61
+        with self.assertRaisesRegex(WorkflowError, "shot 2 must last at least 2 seconds"):
+            validate_render_manifest(plan, requirements)
+
     def test_channel_format_fps_canvas_and_probe_cannot_override_pinned_policy(self):
         requirements = production_requirements(self.profile, "short")
         for field, value in [("channel", "another_channel"), ("format", "long"), ("fps", 24),
@@ -299,13 +310,13 @@ class ProductionDeliveryTests(unittest.TestCase):
         self.service = Production(Store(self.directory / "state.db"), self.directory / "work", ROOT)
         self.profile = json.loads((ROOT / "channels/paper_detour/channel.json").read_text())
 
-    def media(self, *, sound=True, canvas="1080x1920"):
+    def media(self, *, sound=True, canvas="1080x1920", duration=0.2):
         path = self.directory / ("sound.mp4" if sound else "silent.mp4")
         command = ["ffmpeg", "-nostdin", "-v", "error", "-f", "lavfi", "-i",
-                   f"color=c=orange:s={canvas}:r=30:d=0.2"]
+                   f"color=c=orange:s={canvas}:r=30:d={duration}"]
         if sound:
             command += ["-f", "lavfi", "-i", "anullsrc=r=48000:cl=stereo"]
-        command += ["-t", "0.2", "-c:v", "libx264", "-preset", "ultrafast", "-pix_fmt", "yuv420p",
+        command += ["-t", str(duration), "-c:v", "libx264", "-preset", "ultrafast", "-pix_fmt", "yuv420p",
                     "-colorspace", "bt709", "-color_primaries", "bt709", "-color_trc", "bt709",
                     "-color_range", "tv", "-vf",
                     "setsar=1,setparams=color_primaries=bt709:color_trc=bt709:colorspace=bt709:range=limited"]
@@ -342,7 +353,7 @@ class ProductionDeliveryTests(unittest.TestCase):
     def delivery_fixture(self):
         """A small explicit software policy with real media, never a Paper release."""
         from PIL import Image
-        media = self.media(canvas="90x160")
+        media = self.media(canvas="90x160", duration=4)
         profile = copy.deepcopy(self.profile)
         profile["production"]["formats"]["short"]["video"]["canvas"] = [90, 160]
         profile["production"]["visual"]["motion"] = "none"
@@ -370,9 +381,9 @@ class ProductionDeliveryTests(unittest.TestCase):
             "argv": ["synthetic-mix-fixture"], "track_sha256": [file_digest(audio)]}))
         plan = {"channel": run["channel"], "format": "short", "canvas": [90, 160], "fps": 30,
             "audio": str(audio), "subtitles": {"mode": "none"},
-            "scenes": [{"image": str(source), "start_frame": i * 3, "end_frame": (i + 1) * 3}
+            "scenes": [{"image": str(source), "start_frame": i * 60, "end_frame": (i + 1) * 60}
                        for i, source in enumerate(sources[1:])],
-            "music": {"status": "present", "tracks": [{**self.record(audio), "start_frame": 0, "end_frame": 6}],
+            "music": {"status": "present", "tracks": [{**self.record(audio), "start_frame": 0, "end_frame": 120}],
                       "mix_evidence": self.record(mix)}}
         manifest.write_text(json.dumps(plan))
         execution = self.directory / "execution.json"
@@ -394,7 +405,7 @@ class ProductionDeliveryTests(unittest.TestCase):
         run, task, media, proof, _, _, _ = self.delivery_fixture()
         artifact = self.service.artifacts.put(media, "mp4")
         self.service._validate_output(run, task, artifact, receipt={"delivery_evidence": self.record(proof)})
-        self.assertEqual(task["media_validation"]["observed"]["video"][0]["nb_frames"], "6")
+        self.assertEqual(task["media_validation"]["observed"]["video"][0]["nb_frames"], "120")
         self.assertGreater(len(task["media_validation"]["evidence_artifacts"]), 5)
 
     def test_delivery_accepts_equivalent_symlink_input_paths(self):

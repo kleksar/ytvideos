@@ -51,6 +51,7 @@
   ],
   "production": {
     "video": {
+      "minimum_shot_seconds": 2,
       "codec": "h264",
       "pix_fmt": "yuv420p",
       "sample_aspect_ratio": "1:1",
