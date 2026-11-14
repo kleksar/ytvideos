@@ -373,11 +373,14 @@ def validate_render_manifest(plan, requirements):
     if not isinstance(scenes, list) or not scenes:
         raise WorkflowError("production render manifest requires scene intervals")
     cursor = 0
-    for scene in scenes:
+    minimum_shot_frames = 2 * Fraction(expected["fps"])
+    for index, scene in enumerate(scenes, start=1):
         if (not isinstance(scene, dict) or type(scene.get("start_frame")) is not int
                 or type(scene.get("end_frame")) is not int or scene["start_frame"] != cursor
                 or scene["end_frame"] <= cursor):
             raise WorkflowError("production scenes must cover one continuous frame timeline")
+        if scene["end_frame"] - scene["start_frame"] < minimum_shot_frames:
+            raise WorkflowError(f"production shot {index} must last at least two seconds")
         if "motion_clip" in scene or ("image" in scene and "clip" in scene):
             raise WorkflowError("mixed image/video scenes require a supported bound renderer; unsupported motion inputs must not be ignored")
         cursor = scene["end_frame"]
