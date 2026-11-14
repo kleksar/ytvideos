@@ -32,8 +32,8 @@ RU текст остаётся редакторским переводом, не
 
 ## Must happen before any production / release
 
-1. Obtain the owner's express **approval of exact English narration revision** after reading the full EN/RU story, and fresh independent first-listener / bilingual review if available. A merged PR is not approval.
-2. Use `ytvideos create --channel paper_detour --format short` only once explicitly asked to start production and within active channel permissions; derive real IDs/context/pins and approval event, never invent IDs.
+1. If this editorial Draft is selected, first use `uv run ytv start --channel paper_detour --format short --intent 'Проверить неутверждённый сюжет PR #21'`; register research/script artifacts through actual runtime tasks and read the pinned instructions. Do not treat the Git Draft as `ytv start` or a completed stage.
+2. Obtain independent first-listener and bilingual reviews of the exact EN/RU revision with authentic session evidence; let the run reach `awaiting_script_approval`, then request explicit owner approval bound to that revision/hash and register it through the trusted host. An editorial selection, PR merge, or older review is not approval.
 3. Verify actual image reference bytes and rights, approved model/provider, native output dimensions, paper/card style, camera. Unique AI imagery only when authorized. S013 uses S001 source, never a newly hallucinated photo copy. One complete full-frame layer per shot, no parallax; whole-frame pan/zoom + direct cuts only.
 4. Measure real Lawrence voice at exactly one 1.10x speed adjustment and solve actual scene timings—do not treat 13×5s as measurement. Validate audio, music, exact subtitle word sync and reused visual frame to opening for the loop. Review all complete composites; don't equate file existence with acceptance.
 5. Authorize and review exact MP4 separately. Upload, scheduling and publishing require direct owner instruction; comments require separate permitted posting action.
