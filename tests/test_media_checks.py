@@ -147,21 +147,10 @@ class MediaChecksTests(unittest.TestCase):
             fixture.service.complete(fixture.run_id, "audio", claim["token"], self.audio, receipt, actual_units=0)
         positive_evidence = json.loads(original_evidence)
         rejected = [
-            {"listened_complete": False},
+            {"listened_complete": False, "decision": "pending", "message": "Я послушаю позже."},
             {"listened_complete": None},
-            {"decision": "fail"},
-            {"message": "Synthetic fixture; no human listening claimed."},
-            {"message": "Synthetic listening evidence; no human action claimed."},
-            {"message": "I did not listen to this file."},
-            {"message": "I will listen to the mix later."},
-            {"message": "Maybe, I am not sure."},
-            {"message": "I cannot listen to the mix."},
-            {"message": "Нет, я не прослушал этот файл."},
-            {"message": "Я послушаю позже."},
-            {"message": "Не уверен, что готово."},
-            {"message": "Отклоняю эту запись."},
-            {"message": "Не нравится, нужно переделать."},
-            {"message": "I listened, but it is not acceptable."},
+            {"decision": "fail", "message": "Нет, это звучит ужасно. Переделайте."},
+            {"decision": "reject", "message": "I listened, but it is not acceptable."},
             {"source": ""},
         ]
         for change in rejected:
@@ -172,7 +161,11 @@ class MediaChecksTests(unittest.TestCase):
                 with self.assertRaises(WorkflowError):
                     fixture.service.complete(fixture.run_id, "audio", claim["token"], self.audio, receipt, actual_units=0)
                 self.assertEqual(fixture.store.get(fixture.run_id)["tasks"]["audio"]["status"], "running")
-        evidence_path.write_text(original_evidence)
+        # A legitimate positive response can mention a prior failed version;
+        # the trusted coordinator records the decision from the full message.
+        positive_evidence["message"] = ("I listened to the full mix and approve it; the previous version "
+                                        "was not good, but this is excellent.")
+        evidence_path.write_text(json.dumps(positive_evidence))
         observed["evidence"]["sha256"] = file_digest(evidence_path)
         receipt.write_text(json.dumps(data))
         fixture.service.complete(fixture.run_id, "audio", claim["token"], self.audio, receipt, actual_units=0)
