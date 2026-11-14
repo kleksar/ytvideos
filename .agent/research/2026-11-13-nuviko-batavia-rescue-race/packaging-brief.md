@@ -1,15 +1,24 @@
-# Packaging brief — Batavia rescue race
+# Packaging — Batavia: Nuviko History Long, English, 16:9
 
-EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официальному ytv script gate
+EDITORIAL_CANDIDATE_UNREGISTERED. These are hypotheses, not produced thumbnails, A/B test results, CTR or release metadata. No historical source image has been licensed or pinned for publication.
 
-**Channel:** Nuviko History; English 9:16 Short. All concepts are exploratory and only valid for this precise v01 story. No artwork or upload authorized. The early confirmation and payoff are narration-relative, not fabricated exact seconds.
+## Candidate A — people vs threat (recommended for broad audience)
+- **Title:** They Survived a Shipwreck. Then the Killings Began.
+- **Thumbnail:** panoramic photoreal 1629 coral island; survivors behind a makeshift coral wall; distant armed figures advancing with a Dutch rescue vessel barely visible on the horizon. One unmistakable hierarchy: human danger after shipwreck. No invented uniforms or graphic bodies.
+- **Text test:** `NO WAY OUT` or no text; no Nuviko-wide mandatory label.
+- **First proof:** S001–S005 rescue race, then wreck and power seizure. Full payoff: soldiers hold out and win warning race. Risk: generic massacre title must still accurately match first minute, avoid horror sensationalism.
 
-| Idea | English title | Thumbnail concept/promise | Expected first confirmation | Full payoff / misuse risk |
-|---|---|---|---|---|
-| A (recommended) | **Two Boats. One Rescue Ship. A Deadly Secret.** | Close, distinct two small rowing boats racing toward a historical rescue ship; a faceless suggestion of danger via weapons, no fake explosion; 2–4 word label: “WHO GETS THERE?” | Opening lines identify same rescue ship and rival group planning seizure | Hayes reaches first and warns them; don't imply mutineers actually boarded |
-| B | **The Shipwreck Survivors Who Fought Their Rescuers’ Enemies** | Unarmed soldiers at low coral barricade, tiny rescue sail behind attackers; label “LEFT TO DIE” | Early footage shows soldiers expelled without weapons | They unexpectedly find water and defend, then rescue warning; avoid suggesting rescuers are villains |
-| C | **The Mutiny That Almost Took a Second Ship (1629)** | Two separated open boats and remote ship entering frame; contrast bright horizon vs dark island; label “SECOND SHIP?” | First two lines reveal competing intentions | Rescue ship warned; “almost took” is a conditional/historical plan, not proven that actual boarding nearly occurred; title carries stronger causality risk than A |
+## Candidate B — mystery/decision
+- **Title:** Two Boats Raced to One Rescue Ship. Only One Told the Truth.
+- **Thumbnail:** distant Dutch ship and two small boats converging from opposite sides of an island chain, sharply separated silhouettes. If accurate likenesses/costume references unavailable, show backs/boats rather than invented face-specific portraits.
+- **Text test:** `WHO GETS THERE FIRST?` vs no text; question is editorial, not a historical quotation.
+- **First proof:** S001–S005. Payoff: S068 / warning first, arrests after. Risk: spatial detail must remain legible at 320×180.
 
-**Chosen visual promise:** A creates a simple spatial question before names/dates are heard; S001 immediately shows the two boats and ship. **Payoff:** S013–S015 warn the ship, arrests, reversal in identity of people who thwarted the plot. The expected tone is tense historical human survival, **not** comic spectacle, invented rescue-ship gunfight or modern game graphics. Only text concept; thumbnail compositing, exact safe crop (central 2:3 for Short), actual card QA and source image generation remain unperformed / UNVERIFIED.
+## Candidate C — recognizable historical topic/search
+- **Title:** The Batavia Disaster: Shipwreck, Mutiny and the Race to Survive (1629)
+- **Thumbnail:** real-size Dutch VOC sailing ship wrecked on coral reef, survivors in nearby small boats; subtle distant camp and smoke, large readable focal subject; no false storm explosion.
+- **First proof:** S006–S021; might be slower to confirm than B, but clear history intent.
+- **Payoff:** mass survival story, prison/justice aftermath, archaeological significance.
 
-**Variation and existing queue:** unlike Nuviko #17 torpedo, #22 Itter, #24 mine and #26 serum run, this isn't a single industrial near miss or a military rescue; it hinges on a moral reversal and a race to be the first credible witness. No evidence that it will attain better CTR than these stories.
+## Delivery/QA constraints
+Nuviko History Long: 2560×1440 30 FPS H264; natural muted photoreal reconstructions with accepted 2D traveler only when helpful and actual approved references pinned; no paper style, no fake archival image. Review real AI generated thumbnails at full size and 320×180 with duration overlay; title/image pair must be truthful. Three Long A/B title/thumbnail candidates can only be finalised after real source/reconstruction QA. After completed narrative add a new 10-second native YouTube end-screen background, not in-image interactive fake tiles. Upload/schedule/publication require distinct explicit approval.

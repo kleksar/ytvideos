@@ -1,70 +1,26 @@
-# Story review — Batavia rescue race — v01
+# Editorial review — Batavia 1629 LONG revision
 
-EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официальному ytv script gate
+EDITORIAL_CANDIDATE_UNREGISTERED — authorial assessment only; **NOT** official `ytv-script-review-v1`, script approval or production receipt.
 
-**Official script gate: NOT ENTERED.** Own qualitative self-check is not independent acceptance. No `ytv-script-review-v1` produced, no `sessions.independent` or fresh separate reviewer tool available, no full Short twice read by a third party, no verified script hash receipt. This cannot be `awaiting_script_approval`.
+## Exact current candidate
+- EN: `script.en.txt`, 1204 whitespace-delimited English words, 83 aligned paragraphs.
+- RU: `script.ru.txt`, 83 aligned reading-translation paragraphs. No RU audio intended.
+- Planned 16:9 illustrated Long and separate 10-second end screen; no Short loop.
+- Narration time: **UNVERIFIED** until voice renders at the actual pinned 1.10× setting. 3–10 minute target is an editorial length goal, not measured output.
 
-## Author's interest assessment — editorial hypothesis, NOT independent PASS
+## Author-only qualitative objections (not acceptance)
+- **Cold viewer:** starts with a visible two-boat conflict and withheld cause. Both groups' purpose is described as a documented plan, not guaranteed victory. Risk: some viewers may perceive the answer to "who wins" as obvious because it is framed as a heroic rescue.
+- **Middle:** planned mutiny → shipwreck → departure → council takeover → disarmed soldiers survive → massacre → warning → fort → attacks → captured ringleader → NEW armed attack. Each section changes the stakes and agency; test against a true cold reader, particularly if the mid-story historical ship detail feels slow.
+- **Final:** independent second climax (first boat to inform commander) then trial/legacy. No forced extra rescue, invented quote or fake death; historic consequences do not undermine full payoff.
+- **Sensitivity:** survivors' murders and coercion matter to the history, but no graphic violence, speculation about victim intentions or excited narration about deaths.
+- **Clarity:** narrator names five historic figures, with repeated functional roles and separation. Danger of name overload during S010–S012 and S056–S061. Independent reviewer should be free to replace names with roles where safe.
+- **Fact-check:** claims/evidence/limits in `research.md`. Number of embarkees/initial fatalities and rescue voyage duration deliberately not falsely specified.
 
-- **Why start:** two groups race for one rescue vessel; one is there to seize it. The viewer wants to know who gets there and why.
-- **Why continue:** reef → commanding merchant seizes weapons → murders → removal of soldiers → their surprise survival → improvised fort → ringleader captured → **new** armed attack → sail sighted → two boats. This is a sequence of changes, not extra trivia after the hook.
-- **Payoff:** Hayes’s boat reaches rescuers first; commander receives warning; mutineers arrested, castaways taken aboard. The men abandoned as expendable expose the plot.
-- **Most likely loss of interest (author prediction):** lines 4–6 introduce shipwreck, commander, merchant and killings before reaching the soldiers. Could reduce names further if genuine cold reader flags it; not a reason to invent drama.
-- **Strongest creative objection:** grim murders may dominate the moral tone; Nuviko #22 already uses outnumbered defenders. Counterweight: story's decisive action is persuasion/race rather than siege alone. Audience response UNVERIFIED.
-- **Author check of clarity:** roles and geography explained through action, two named men maximum in narration; names could still be hard to hear.
-- **Author check of facts:** source rows in research; exact “would have seized rescue ship” counterfactual excluded. Original journal quote not placed into narration; Cornelisz motive never read as an established internal thought.
-- **Structure:** PASS as a narrow **author-only** test of event sequencing, not a literary/editorial gate or independent judgement.
-- **Independent reader interest/clarity/factuality/structure:** UNVERIFIED.
-- **Bilingual independent reviewer:** UNVERIFIED.
+## Manual content checks (not independent verdicts)
+- 83/83 English paragraphs paired with one Russian semantic counterpart and one provisional 16:9 visual intention; these are editorial and machine-counted coverage checks, not proof of natural spoken rhythm, translation correctness or prompt quality.
+- The original Short-only end-to-start loop was removed. The final English and Russian sentences conclude Hayes's rescue and are followed by silent 10-second end-screen composition, not a repetition of S001.
+- Every scene requires reference verification and revised timing after exact audio; the planned 4–6 seconds are not a promise.
+- No independent reviewer session, no complete first-listener read or A/B test, and no real speech/audio/image/MP4 QA conducted.
 
-## Exact Shorts textual loop test — last two then first two
-
-EN:
-> The mutineers were arrested, and the surviving castaways were brought aboard.
->
-> The men Cornelisz had abandoned were the ones who exposed his plot. But first, they had to beat the mutineers to the rescue:
->
-> In 1629, two boats raced for the same rescue ship.
->
-> One carried men who meant to seize it.
-
-RU:
-> Мятежников арестовали, а выживших подняли на борт.
->
-> Именно люди, которых Корнелис бросил на острове, раскрыли его заговор. Но для этого им нужно было опередить мятежников:
->
-> В 1629 году две лодки наперегонки гребли к одному спасательному кораблю.
->
-> В одной сидели люди, которые собирались его захватить.
-
-**Author-only textual seam: PASS.** Both endings complete the payoff; the next opening independently defines time, place/action and central danger. Re-watching reinterprets the race in light of the plot that was exposed. No sentence grammatically depends on the next. Difference from a purely mechanical recap: the last sentence identifies the irony of the abandoned group, while the opening resets the choice before the rescue ship. **Independent exact-text loop: UNVERIFIED. Independent two-pass listen: UNVERIFIED. Actual AV seam after voice/image assembly: UNVERIFIED** and not authorized in this task.
-
-## EN/RU equivalence table
-
-| Check | Author inspection | Independent |
-|---|---|---|
-| 1629, 3 months earlier, Batavia, Australia, rescue ship | same facts in both, PASS | UNVERIFIED |
-| Cornelisz, 22 unarmed soldiers, found water/food | same actions/number, PASS | UNVERIFIED |
-| Survivors' warning, coral defense, Hayes capture | equivalent, PASS | UNVERIFIED |
-| New musket attack, appearing sail, competing boats | equivalent, PASS | UNVERIFIED |
-| Hayes first, warned commander, mutineers arrested, castaways aboard | equivalent, PASS | UNVERIFIED |
-| Final irony and full payoff | equivalent, PASS | UNVERIFIED |
-| Final two → first two exact continuity | quoted above, author-only PASS | UNVERIFIED |
-
-### Bounded editorial revisions
-
-Author draft v01 only; no unrecorded extra loop iterations claimed. Further change should be made after actual independent reader objections. If reviewer judges “clear but no reason to watch”, return to story selection, NOT structure-based acceptance.
-
-### Tool-capability gap
-
-This environment exposed a GitHub connector for remote source/PR mutations and a general web tool, but no editable checkout or persistent ytv runtime store to call `uv run ytv start --channel nuviko_history --format short --intent ...` and read its saved `plan_summary`, `read_next`, `task_guide` and `reference_documents`. No distinct independent reviewing host/session. **No fabricated run ID / task receipt / independent model verdict / script hash / official stage.** Current bundle remains `EDITORIAL_CANDIDATE_UNREGISTERED`.
-
-## Correction after current-main narrative-loop audit
-
-Earlier version had a thematic callback to the men who revealed the plot, but a new opening after that line sounded like a restarted story. The revised final line leads directly into the real race already shown; no new historical event was invented.
-
-**EN exact end → start:** The men Cornelisz had abandoned were the ones who exposed his plot. But first, they had to beat the mutineers to the rescue: In 1629, two boats raced for the same rescue ship.
-
-**RU точный конец → начало:** Именно люди, которых Корнелис бросил на острове, раскрыли его заговор. Но для этого им нужно было опередить мятежников: В 1629 году две лодки наперегонки гребли к одному спасательному кораблю.
-
-**Authorial text seam:** PASS (clear direct causal/grammatical bridge). **Independent full twice-through first-listener, bilingual reviewer and actual AV seam:** UNVERIFIED. This editorial candidate is still not a registered `ytv start` run, not `awaiting_script_approval`, and not approved for production.
+## Required real gate
+In a working checkout, begin the authorised Long run, consume `read_next` and pinned skill/requirements; independent reviewer reads the **complete exact Long** for comprehension, pacing and historical honesty, identifies actual earliest swipe-away point and revisions, independently checks bilingual meaning as required. A Long does **not** inherit the original Short's mandatory two-play narrative loop. Owner approves the exact script revision/hash before any new media production.

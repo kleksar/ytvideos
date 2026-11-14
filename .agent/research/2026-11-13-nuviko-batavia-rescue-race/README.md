@@ -1,19 +1,19 @@
-EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официальному ytv script gate
+EDITORIAL_CANDIDATE_UNREGISTERED — not official ytv script gate.
 
-# The Batavia rescue race — Nuviko History / editorial candidate v01
+# Batavia 1629 — complete Nuviko History Long editorial candidate
 
-Это **отдельная редакционная гипотеза**. Она не зарегистрирована в штатном ytv runtime и не является production script, утверждённым независимым reviewer или пользователем.
+This modifies **existing PR #29** from its old Short pitch to a **full landscape Long**. It is not an approved production run, not video, and not an automatically accepted script.
 
-**Логлайн:** у берегов Австралии мятежники пытались захватить корабль, пришедший спасать жертв кораблекрушения. Но 22 солдата, которых их предводитель бросил без оружия на соседнем острове, сумели отбить атаки, а затем первыми доплыли до спасателей и предупредили их о заговоре.
+- Channel: `nuviko_history`; English narration; RU reading translation.
+- Format: **Long 16:9, 2560×1440 @30 fps**; planned target around 6–8 minutes including a separate **10-second end-screen**. Actual duration requires TTS measurement.
+- Full EN manuscript: [script.en.txt](script.en.txt) — 1204 words across 83 aligned narrative paragraphs.
+- Full RU: [script.ru.txt](script.ru.txt) — 83 meaning-matched paragraphs for owner review.
+- Grounding and material uncertainties: [research.md](research.md).
+- Author's honest review limitations: [story-review.md](story-review.md).
+- Complete *preliminary* shot coverage: [storyboard.md](storyboard.md) — 83 story beats + 10s ES001, **not** accepted imagegen prompts or timecodes.
+- Long-specific titles, thumbnail theories and deliverable rules: [packaging-brief.md](packaging-brief.md).
+- Native ytv workflow transfer and blockers: [handoff.md](handoff.md).
 
-- Канал: `nuviko_history`; формат: English Short 9:16; статус в remote main: `active`. Production scope НЕ выдан.
-- Полный текст для чтения владельца: [script.ru.txt](script.ru.txt); оригинал narration EN: [script.en.txt](script.en.txt).
-- [research.md](research.md) — девять фактически рассмотренных направлений, три финалиста, мотивы выбора, источники, сигналы спроса и неопределённость.
-- [story-review.md](story-review.md) — отдельные самопроверки истории и точный EN/RU loop; независимый review UNVERIFIED.
-- [storyboard.md](storyboard.md) — предварительные композиции/промпты до официального script approval.
-- [packaging-brief.md](packaging-brief.md) — 3 названия и обещание обложки.
-- [handoff.md](handoff.md) — ограничения, base SHA, перенос в локальный ytv runtime.
+This branch replaces obsolete Short text, storyboards, loop and release assumptions **without changing shared docs, skills, channel profile, main, or unrelated PRs**.
 
-**Отсутствующая capability:** на текущем host нет исходного checkout `ytvideos` и возможности запустить `uv run ytv start` с сохранённым store/read_next; отдельная свежая host session / `sessions.independent` недоступна. Отсутствуют actual run ID, research/script task receipts, exact `ytv-script-review-v1` (полное чтение Short дважды), независимая двуязычная проверка и approval. Нельзя создавать несуществующее `awaiting_script_approval`.
-
-**Точный переносимый путь:** `.agent/research/2026-11-13-nuviko-batavia-rescue-race/`. Локальный агент должен заново начать по `handoff.md` и текущему runtime; ни этот Draft PR, ни его возможный merge **не разрешают** TTS, изображения, монтаж, upload или публикацию.
+**Release gates:** no `ytv start` / exact task packet / independent `ytv-script-review-v1` / owner approval / TTS / AI art / final edit / release. No missing requirement is invented to mark this as ready.
