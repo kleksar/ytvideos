@@ -42,7 +42,8 @@ The online journal passages are editions/reproductions hosted by a museum, not a
 - This is a dark historical crime story. Keep killing, sexual violence, torture and capital punishment non-graphic; do not erase that violence occurred or turn it into a spectacle.
 
 ## Segment design and retention hypotheses
-- S001–S005: cold race and stakes, not immediate answer.
+- S001–S002: answerable Viewer Promise questions, distinct from hook; massacre and the two-boat race are both answered by the story.
+- S003–S005: two-boat cold open followed by a bridge to the start of the voyage; no early winner reveal.
 - S006–S015: valuable ship, latent plot, navigation peril.
 - S016–S028: reef, island, water crisis, commander departs; obvious reason crew is absent.
 - S029–S041: Cornelisz seizes council and disarms 22; unexpectedly they find water.
