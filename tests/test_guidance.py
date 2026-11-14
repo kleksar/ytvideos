@@ -12,6 +12,7 @@ from ytvideos.cli import dispatch, parser
 from ytvideos.context import TASK_EXECUTION_REFERENCE
 from ytvideos.doctor import inspect
 from ytvideos.errors import Conflict, WorkflowError
+from ytvideos.util import file_digest
 from ytvideos.workflow import REQUIRED_CHECKS
 
 
@@ -47,6 +48,10 @@ class GuidanceTests(unittest.TestCase):
         self.assertEqual(packet["task_id"], "research")
         self.assertIn(TASK_EXECUTION_REFERENCE, packet["references"])
         self.assertEqual(Path(reading["skill_file"]).read_text(), run["skills"]["ytv-write-script"]["text"])
+        self.assertNotIn("text", packet["skill"])
+        self.assertEqual(packet["skill"]["sha256"], file_digest(reading["skill_file"]))
+        self.assertEqual(Path(reading["task_file"]).parent / packet["skill"]["local_path"],
+                         Path(reading["skill_file"]))
         for item, path in zip(packet["reference_manifest"], reading["requirement_files"]):
             self.assertEqual(Path(path).read_text(), run["reference_snapshot"]["documents"][item["path"]]["text"])
         self.assertFalse(run["approvals"])
