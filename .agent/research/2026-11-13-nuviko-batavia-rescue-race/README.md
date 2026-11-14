@@ -6,7 +6,8 @@ This modifies **existing PR #29** from its old Short pitch to a **full landscape
 
 - Channel: `nuviko_history`; English narration; RU reading translation.
 - Format: **Long 16:9, 2560×1440 @30 fps**; planned target around 6–8 minutes including a separate **10-second end-screen**. Actual duration requires TTS measurement.
-- Full EN manuscript: [script.en.txt](script.en.txt) — 1204 words across 83 aligned narrative paragraphs.
+- Opening before the existing hook: S001–S002 `Viewer Promise` (two answerable questions); S003–S004 hook (two-boat conflict); S005 bridge; the rest of the story and complete ending remain intact.
+- Full EN manuscript: [script.en.txt](script.en.txt) — 1195 words across 83 aligned narrative paragraphs.
 - Full RU: [script.ru.txt](script.ru.txt) — 83 meaning-matched paragraphs for owner review.
 - Grounding and material uncertainties: [research.md](research.md).
 - Author's honest review limitations: [story-review.md](story-review.md).
