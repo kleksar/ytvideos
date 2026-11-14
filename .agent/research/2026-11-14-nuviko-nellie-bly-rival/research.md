@@ -51,7 +51,7 @@
 
 | Claim ID | Exact claim represented in EN/RU | Evidence/source (read 2026-11-14) | Status / uncertainty |
 |---|---|---|---|
-| K1 | On her visit to the Hong Kong shipping office Bly heard that Bisland had left three days earlier | [P1] chapter XII + [H1] Day40 + [S1] excerpt | PASS evidence; the report describes earlier departure from that *port*, not a measured three-day lead in the entire circumnavigation |
+| K1 | On her visit to the Hong Kong shipping office Bly heard that Bisland had left three days earlier | [H1] Day40 + [S1] direct extract quoting her 1890 account; [P1] chapter XII confirms the Hong Kong passage but its published PBS extract does **not** include the clerk exchange | PASS on H1/S1 evidence; departure was from that *port*, not a measured three-day lead in the entire circumnavigation |
 | K2 | Bly's initial contest was with Verne's fictional 80-day benchmark, unaware of Bisland | [P1] intro + [H1] Day1/Day40 + [S1] | PASS evidence; Bly spoke of her goal as **75 days** in a separate quote, not a promise of 80 exactly; narration only says beat book's 80 |
 | K3 | Nov12 notice for Nov14 start, one small satchel | [H1] Day1 paragraphs 63–74 | PASS evidence; first-person book excerpt supplied by PBS does not cover packing details |
 | K4 | Atlantic by ship, Europe by rail, met Verne, missing train meant week delay | [P1] chapters II–V, Verne visit; [H1] Day9, [S1] | PASS evidence; private thought/quotes not invented |
