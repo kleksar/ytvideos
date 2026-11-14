@@ -22,6 +22,7 @@ import zlib
 from cryptography.hazmat.primitives.asymmetric.ed25519 import Ed25519PrivateKey
 from cryptography.hazmat.primitives.serialization import Encoding, PublicFormat
 
+from storyboard_fixtures import board_fixture, review_fixture
 from ytvideos.errors import Conflict, WorkflowError
 from ytvideos.media_checks import probe_media
 from ytvideos.release import ReleasePolicy, ReleaseSpec, requirement_matrix
@@ -116,6 +117,11 @@ class SyntheticLifecycleTests(unittest.TestCase):
                    "observed": {"fixture_only": True, "artifact_sha256": file_digest(output)}}
                   for name in sorted(names)]
         for check in checks:
+            if stage == "storyboard" and check["name"] == "visual_continuity":
+                check["observed"] = review_fixture(output)
+            if stage == "scene_image" and check["name"] == "scene_match" and task_id.startswith("image:"):
+                check["observed"] = {"scene_id": run["tasks"][task_id]["payload"]["id"],
+                                     "image_sha256": file_digest(output), "visible_action": "Synthetic image fixture."}
             if check["name"] == "thumbnail_plan":
                 from thumbnail_fixtures import plan_fixture
                 check["observed"] = plan_fixture(json.loads(output.read_text()), self.service._artifact(run, "script")["sha256"])
@@ -219,8 +225,8 @@ class SyntheticLifecycleTests(unittest.TestCase):
         self.assertEqual(parallel["tasks"]["audio"]["status"], "running")
         self.assertEqual(parallel["tasks"]["storyboard"]["status"], "running")
         self.assertEqual(parallel["tasks"]["render"]["status"], "pending")
-        self.finish("storyboard", {"scenes": [{"id": "route", "prompt": "A synthetic map scene",
-                                                "visual_intent": "Illustrate a route choice"}]}, claim=claims["storyboard"])
+        self.finish("storyboard", board_fixture(self.service, self.store.get(self.run_id), "route", SCRIPT),
+                    claim=claims["storyboard"])
         self.finish("audio", self.audio, claim=claims["audio"], action="tts")
         self.finish("image:route", self.image, action="image")
         self.finish("subtitles", self.caption)

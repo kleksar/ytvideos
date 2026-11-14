@@ -174,7 +174,24 @@ uv run ytv next --run RUN_ID
 
 После принятия `none` task `subtitles` имеет `output_kind: no_speech`, capability `audio.listen` и результат **ровно** `{"schema":"ytv-no-speech-v1","script_sha256":"EXACT_EDIT_SCRIPT_SHA256","audio_sha256":"EXACT_ACCEPTED_MIX_SHA256","has_speech":false}`. SRT и слова не придумываются. Обязательный check `no_speech` у audio/subtitles связывает `artifact_sha256` принятого audio, реального reviewer, notes, coverage всего микса и evidence `{path,sha256}` по форме review ниже. В final review этот check относится к exact MP4. Для `source` остаются настоящие alignment/SRT и `exact_text`.
 
-`storyboard` output — JSON `{"scenes":[{"id":"S001","prompt":"Самодостаточное задание","visual_intent":"Смысл кадра"}]}` с необходимыми реальными timing/references/continuity. Если `production_requirements.available_variants` непуст, добавить верхнеуровневый `production_variant` из этого списка: он выбирает канальный рецепт и закрепляется в render manifest. Scene IDs уникальны; приложение создаёт `image:<scene-id>` tasks. Остальные типы — actual media/SRT/QA/release-spec/remote receipts по task context. Файл с удобным расширением не доказывает реальный медиаформат.
+`storyboard` output — JSON с упорядоченным массивом `scenes`. У каждой сцены уникальный `id`, `prompt` и `visual_intent`. Поле `purpose` назначает runtime. Если `production_requirements.available_variants` непуст, верхнеуровневый `production_variant` выбирает канальный рецепт и закрепляется в render manifest. Для typed edit-script сохраняются исходные segment IDs и порядок. После принятия раскадровки приложение создаёт `image:<scene-id>` tasks. Остальные типы — actual media/SRT/QA/release-spec/remote receipts по task context. Файл с удобным расширением не доказывает реальный медиаформат.
+
+### Раскадровка иллюстрированного выпуска
+
+Рецепт `illustrated` требует `schema: ytv-illustrated-storyboard-v1` и `script_sha256` принятого текста. Порядок элементов `scenes` задаёт монтаж. Кроме общих полей каждая сцена содержит:
+
+| Поле | Содержание |
+|---|---|
+| `narration` | Дословный отрезок принятого текста. Объединённые отрезки должны сохранить все слова, пунктуацию и порядок с нормализацией пробельных символов. При пустом отрезке требуется `silence_reason`. |
+| `visible_action`, `framing` | Что зритель видит и по какому признаку понимает действие. Крупность, ракурс и ориентиры, которые делают его читаемым. |
+| `state_before`, `state_after` | Состояния важных объектов, людей и реквизита на переходе. |
+| `event_order` | Положительный целый номер события в хронологии истории. Несколько планов могут показывать одно событие. Если номер меньше предыдущего, требуется `order_note` с объяснением возврата. |
+
+Сценовые references, канальные требования к композиции и наблюдаемым деталям определяет [visual](../standards/visual.md#раскадровка). До выравнивания фактической речи опорой служат реплики. Измеренные монтажные интервалы сохраняются для рендера.
+
+В receipt storyboard запись check с именем `visual_continuity` содержит `observed.evidence: {path, sha256}` на JSON независимой проверки. JSON содержит `storyboard_sha256`, `script_sha256`, фактические `reviewer` (ID свежей сессии) и `tool`, `sequence_observation` и `scenes: [{id, observation}]` со всеми scene IDs в монтажном порядке. `decision` принимает `pass` после проверки всех планов и склеек, `revise` при дефекте или `unverified` при невыполненной проверке. Завершение требует `pass`. Сохранять ответ независимой сессии дословно. Проверка структуры связывает артефакты и coverage, а смысл наблюдений оценивает читатель.
+
+У созданного по этой схеме кадра `scene_match.observed` содержит `scene_id`, `image_sha256` и непустое `visible_action` с наблюдением по фактическому файлу. Если ключевое действие не читается, исправить сцену до PASS.
 
 `packaging` output — strict `ReleaseSpec` по `src/ytvideos/release.py`, без полей brief/plan/notes. `run_id`, `channel_id`, `revision` и `format` должны совпасть с текущим run; несоответствие отклоняется до создания зависимых обложек. На раннем этапе неизвестные optional `media_sha256`, `thumbnail_sha256` и `ab_variants` опустить, а не заполнять `null` или примерными значениями. Структура обязательного `thumbnail_plan`, проверки концептов и exact metadata — [контракт обложки](thumbnail-contract.md#план-концептов). После получения файлов финальный spec связывается через `prepare-release`, без повторного завершения packaging.
 

@@ -128,6 +128,9 @@ class WorkflowContract(unittest.TestCase):
             if check["name"] == "thumbnail_plan":
                 from thumbnail_fixtures import plan_fixture
                 check["observed"] = plan_fixture(json.loads(path.read_text()), self.service._artifact(run, "script")["sha256"])
+            if check["name"] == "visual_continuity" and run["profile"]["recipe"] == "illustrated":
+                from storyboard_fixtures import review_fixture
+                check["observed"] = review_fixture(path)
             if check["name"] == "independent_review":
                 check["observed"] = review
             if check["name"] == "narrative_loop":
@@ -305,6 +308,49 @@ class WorkflowContract(unittest.TestCase):
         self.service.claim(self.run_id, "packaging", "package-worker")
         self.service.claim(self.run_id, "storyboard", "board-worker")
         self.assertEqual(self.store.get(self.run_id)["tasks"]["render"]["status"], "pending")
+
+    def test_illustrated_storyboard_rejects_drafts_and_stale_reviews_before_scene_tasks(self):
+        from storyboard_fixtures import board_fixture, review_fixture
+        self.production_ready()
+        run = self.store.get(self.run_id)
+        claim = self.service.claim(self.run_id, "storyboard", "board-author")
+        board = board_fixture(self.service, run, "opening", SCRIPT)
+        first, rest = SCRIPT.split(" ", 1)
+        board["scenes"][0].update(narration=first, event_order=2)
+        board["scenes"].append({**board["scenes"][0], "id": "backstory", "narration": rest, "event_order": 1})
+        for value, error in [
+            ({"scenes": [{"id": "snapshot", "prompt": "Single draft", "visual_intent": "Hook only"}]},
+             "exact accepted script"),
+            (board, "order_note"),
+        ]:
+            path = self.output(value)
+            with self.assertRaisesRegex(WorkflowError, error):
+                self.service.complete(self.run_id, "storyboard", claim["token"], path,
+                                      self.receipt("storyboard", claim, path))
+            self.assertNotIn("image:opening", self.store.get(self.run_id)["tasks"])
+
+        board["scenes"][1]["order_note"] = "Return from the opening flash-forward to its cause."
+        omitted = self.output({**board, "scenes": board["scenes"][:1]})
+        with self.assertRaisesRegex(WorkflowError, "every accepted word"):
+            self.service.complete(self.run_id, "storyboard", claim["token"], omitted,
+                                  self.receipt("storyboard", claim, omitted))
+
+        path = self.output(board)
+        receipt_path = self.receipt("storyboard", claim, path)
+        receipt = json.loads(receipt_path.read_text())
+        check = next(item for item in receipt["checks"] if item["name"] == "visual_continuity")
+        check["observed"] = review_fixture(path, reviewer=claim["worker"])
+        with self.assertRaisesRegex(WorkflowError, "differ from the storyboard author"):
+            self.service.complete(self.run_id, "storyboard", claim["token"], path, self.output(receipt))
+        check["observed"] = review_fixture(omitted)
+        with self.assertRaisesRegex(WorkflowError, "exact storyboard and script"):
+            self.service.complete(self.run_id, "storyboard", claim["token"], path, self.output(receipt))
+
+        self.service.complete(self.run_id, "storyboard", claim["token"], path,
+                              self.receipt("storyboard", claim, path))
+        tasks = self.store.get(self.run_id)["tasks"]
+        self.assertEqual(tasks["render"]["dependencies"][-2:], ["image:opening", "image:backstory"])
+        self.assertEqual(tasks["image:backstory"]["payload"]["narration"], rest)
 
     def test_packaging_rejects_another_format_before_asset_generation(self):
         from test_release import payload

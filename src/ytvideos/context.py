@@ -12,6 +12,7 @@ from .util import digest
 
 TASK_EXECUTION_REFERENCE = ".agents/skills/ytv-start/references/task-execution.md"
 VIDEO_CLIPS_REFERENCE = ".agents/skills/ytv-produce-video/references/video-clips.md"
+STORYBOARD_REFERENCE = ".agents/skills/ytv-produce-video/references/storyboard.md"
 
 
 STAGE_REFERENCES = {
@@ -19,14 +20,17 @@ STAGE_REFERENCES = {
                  ".agents/skills/ytv-write-script/references/hook-patterns.md"],
     "script": ["docs/standards/editorial.md", "docs/standards/narration.md", "docs/standards/thumbnails.md",
                ".agents/skills/ytv-write-script/references/hook-patterns.md"],
-    "storyboard": ["docs/standards/visual.md", ".agents/skills/ytv-produce-video/references/video-clips.md",
+    "storyboard": [".agents/skills/ytv-produce-video/references/storyboard.md", "docs/standards/visual.md",
+                   ".agents/skills/ytv-produce-video/references/video-clips.md",
                    ".agents/skills/ytv-produce-video/references/production-examples.md"],
-    "scene_image": ["docs/standards/visual.md", ".agents/skills/ytv-produce-video/references/video-clips.md",
+    "scene_image": [".agents/skills/ytv-produce-video/references/storyboard.md", "docs/standards/visual.md",
+                    ".agents/skills/ytv-produce-video/references/video-clips.md",
                     ".agents/skills/ytv-produce-video/references/production-examples.md"],
     "audio": ["docs/standards/audio.md",
               ".agents/skills/ytv-produce-video/references/production-examples.md"],
     "subtitles": ["docs/standards/audio.md", "docs/standards/delivery.md"],
-    "render": ["docs/standards/delivery.md", "docs/standards/visual.md", "docs/standards/audio.md", ".agents/skills/ytv-produce-video/references/video-clips.md",
+    "render": [".agents/skills/ytv-produce-video/references/storyboard.md", "docs/standards/delivery.md",
+               "docs/standards/visual.md", "docs/standards/audio.md", ".agents/skills/ytv-produce-video/references/video-clips.md",
                ".agents/skills/ytv-produce-video/references/production-examples.md"],
     "review": ["docs/standards/delivery.md", "docs/standards/visual.md", "docs/standards/audio.md", ".agents/skills/ytv-produce-video/references/video-clips.md",
                "docs/standards/editorial.md", "docs/standards/narration.md", "docs/standards/thumbnails.md"],
@@ -81,6 +85,7 @@ def task_references(task, *, profile=None, format=None, project_root=None):
     purpose = task.get("payload", {}).get("purpose", "scene") if stage == "scene_image" else None
     if stage == "scene_image" and purpose == "thumbnail":
         paths.remove(VIDEO_CLIPS_REFERENCE)
+        paths.remove(STORYBOARD_REFERENCE)
         paths.extend(["docs/standards/thumbnails.md", "docs/operations/thumbnail-contract.md"])
     # The production skill requires the accepted Shorts loop at these stages.
     if format == "short" and stage in {"storyboard", "audio", "render"}:

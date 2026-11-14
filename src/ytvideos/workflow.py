@@ -88,6 +88,8 @@ def task_references(task):
 def new_tasks(recipe=None):
     tasks = {stage: make_task(stage, stage, deps, gates, capabilities, skill)
              for stage, (deps, gates, capabilities, skill) in STAGES.items()}
+    if recipe == "illustrated":
+        tasks["storyboard"]["capabilities"].append("sessions.independent")
     if recipe == "music_first":
         tasks["audio"]["capabilities"] = ["audio.mix", "audio.listen"]
         # Vocal alignment becomes required only after that variant is accepted.
