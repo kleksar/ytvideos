@@ -2,42 +2,51 @@
 
 EDITORIAL_CANDIDATE_UNREGISTERED — not an official ytv storyboard; no source image, reference pin, TTS or MP4 generated.
 
-- Exact EN/RU narration: 83 aligned paragraphs, planned one shot per paragraph, 1204 English words.
+- Exact EN/RU narration: 83 aligned paragraphs, planned one shot per paragraph, 1195 English words.
 - Plan: 16:9, 2560×1440, 30 FPS, whole-frame pan/zoom only, direct cuts, approximate shot 4–6s. Align exact shot boundaries to actual TTS; these are NOT measured timestamps.
 - Visual look: natural muted photographic historical reconstruction of 1629 Dutch ship/Abrolhos islands, never paper-figure mode; no invented archive or source footage; no decorative frame; source and character references MUST be acquired/pinned and checked before media.
 - Character continuity: Pelsaert (senior commander), Jacobsz (skipper), Cornelisz (undermerchant), Hayes (soldier), Loos (late mutineer leader). Freeze character sheets, period clothes, ship geometry, island locations, weapons, and boat count before generation. Do not invent historical likeness.
 - The old Short's 9:16 instructions, 15-shot list, and required loop are superseded. The story EN/RU is complete BEFORE the end card; a thematic 10-second end-screen composition is separate.
 - Non-graphic scenes for murders, torture, execution; the documentary should never imply AI reconstructions are authentic period images.
 
+## Opening structure: S001–S002 Viewer Promise (two questions) → S003–S004 Hook (race and opposing goals) → S005 bridge → S006 onwards Story
+
+**Timing is approximate until TTS:** aim to spend ~8 seconds on the questions, then immediately present the two-boat conflict. Do not reveal who reached Sardam first in the opening. `Viewer Promise` is required for this Long draft, not retroactive Shorts behavior.
+
 ## Full sequential scene coverage
 ### S001 — narrative block 1/83
-- **EN (exact):** Two rowing boats were racing toward a Dutch ship that had come to rescue them.
-- **RU (exact):** Две гребные лодки спешили к голландскому кораблю, который пришёл за выжившими.
-- **Visual intent:** Дальний общий план: два ялика с разных направлений сходятся к большому паруснику. Single photoreal historical 16:9 composition, period-correct objects; no text or subtitle burned into image.
+- **Phase:** Viewer Promise
+- **EN (exact):** How did a shipwreck become a massacre?
+- **RU (exact):** Как кораблекрушение превратилось в массовое убийство?
+- **Visual intent:** Широкий вид пустынного кораллового острова и брошенных вещей: обещание раскрыть причину трагедии без изображений насилия. Single photoreal historical 16:9 composition, period-correct objects; no text or subtitle burned into image.
 - **Motion / QA:** whole-frame move if useful, direct cut; state/scale/geography/identity and actual source-image evidence to be confirmed after approval.
 
 ### S002 — narrative block 2/83
-- **EN (exact):** One boat carried men trying to warn its captain. The other carried men planning to seize it.
-- **RU (exact):** В одной лодке люди хотели предупредить капитана. В другой — захватить его корабль.
-- **Visual intent:** Чередование двух яликов на воде; в каждом различимые группы без карикатурных злодеев. Single photoreal historical 16:9 composition, period-correct objects; no text or subtitle burned into image.
+- **Phase:** Viewer Promise
+- **EN (exact):** And why did two small boats decide who survived?
+- **RU (exact):** И почему судьбу выживших решила гонка двух маленьких лодок?
+- **Visual intent:** Панорамная композиция: две крошечные гребные лодки и далёкий парусник; визуальный вопрос — кто доберётся первым. Single photoreal historical 16:9 composition, period-correct objects; no text or subtitle burned into image.
 - **Motion / QA:** whole-frame move if useful, direct cut; state/scale/geography/identity and actual source-image evidence to be confirmed after approval.
 
 ### S003 — narrative block 3/83
-- **EN (exact):** From the ship, both groups would have looked like survivors desperate to get aboard.
-- **RU (exact):** С палубы обе группы выглядели бы как потерпевшие кораблекрушение, мечтающие подняться на борт.
-- **Visual intent:** Взгляд с борта спасательного судна на приближающиеся лодки. Single photoreal historical 16:9 composition, period-correct objects; no text or subtitle burned into image.
+- **Phase:** Hook
+- **EN (exact):** September, sixteen twenty-nine. Two boats raced toward the same Dutch rescue ship.
+- **RU (exact):** Сентябрь 1629 года. Две лодки наперегонки гребут к одному голландскому спасательному кораблю.
+- **Visual intent:** Сентябрьский общий план спасательного судна Sardam и двух приближающихся яликов; действие начинается без развязки. Single photoreal historical 16:9 composition, period-correct objects; no text or subtitle burned into image.
 - **Motion / QA:** whole-frame move if useful, direct cut; state/scale/geography/identity and actual source-image evidence to be confirmed after approval.
 
 ### S004 — narrative block 4/83
-- **EN (exact):** The difference was what they had done on the islands behind them.
-- **RU (exact):** Разница была в том, что они успели сделать на оставшихся позади островах.
-- **Visual intent:** Ракурс через плечо гребца на низкие коралловые острова на горизонте. Single photoreal historical 16:9 composition, period-correct objects; no text or subtitle burned into image.
+- **Phase:** Hook
+- **EN (exact):** One carried soldiers trying to warn its commander. The other carried mutineers hoping to seize the ship. From the deck, both looked like castaways.
+- **RU (exact):** В одной — солдаты, пытающиеся предупредить командира. В другой — мятежники, задумавшие захватить судно. С палубы обе группы кажутся потерпевшими кораблекрушение.
+- **Visual intent:** Попеременно показать две команды в лодках; люди внешне одинаково измождены, без карикатурного различия между сторонами. Single photoreal historical 16:9 composition, period-correct objects; no text or subtitle burned into image.
 - **Motion / QA:** whole-frame move if useful, direct cut; state/scale/geography/identity and actual source-image evidence to be confirmed after approval.
 
 ### S005 — narrative block 5/83
-- **EN (exact):** To understand the race, we have to go back three months, to a reef off Australia.
-- **RU (exact):** Чтобы понять эту гонку, нужно вернуться на три месяца назад — к рифу у Австралии.
-- **Visual intent:** Широкий вид рифа Хаутман-Абролхос до кораблекрушения. Single photoreal historical 16:9 composition, period-correct objects; no text or subtitle burned into image.
+- **Phase:** Story transition
+- **EN (exact):** The answer begins months earlier, before anyone had set foot on those islands.
+- **RU (exact):** Ответ начинается несколькими месяцами раньше, когда никто ещё не оказался на этих островах.
+- **Visual intent:** Физическая историческая карта с маршрутом от Нидерландов к Ост-Индии; переход к началу рейса, без скачка в ложный июнь. Single photoreal historical 16:9 composition, period-correct objects; no text or subtitle burned into image.
 - **Motion / QA:** whole-frame move if useful, direct cut; state/scale/geography/identity and actual source-image evidence to be confirmed after approval.
 
 ### S006 — narrative block 6/83
