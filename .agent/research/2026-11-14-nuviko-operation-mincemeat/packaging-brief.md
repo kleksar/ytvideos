@@ -7,7 +7,7 @@ These are **hypotheses**, not achieved CTR, native tests, approved AI images or 
 - Title: **How a Dead Man Fooled German Intelligence in WWII**
 - Image concept: offshore wartime body silhouette inside life jacket, chained leather briefcase in focus above waterline; 1943 Spanish coast in distance. Nothing graphic, no corpse close-up. One clear question: why was a dead man carrying secret plans?
 - Optional short physical text: `THE DEAD SPY`. Image must not claim literal living espionage.
-- First confirmation: S001–S006; full payoff: S065–S077 and S086–S088.
+- First confirmation: S001–S006; full payoff: S059–S073 and S077–S080.
 - Risk: could be confused with spy horror. Date/war context must be recognizable.
 
 ## Pair B — stolen paper
@@ -15,7 +15,7 @@ These are **hypotheses**, not achieved CTR, native tests, approved AI images or 
 - Title: **The Secret Letter Britain Wanted the Nazis to Steal**
 - Image concept: leather briefcase opened by Spanish official, partly withdrawn apparently secret signed letter and German intelligence hands indicated only through context. No fake real scanned classified document; all letters are AI reconstructions with fictional illegible text.
 - Optional text: `A PERFECT LIE`.
-- First confirmation: S001, S033–S040; full payoff S065–S073 and final mechanism.
+- First confirmation: S001, S033–S040; full payoff S059–S067 and S078–S080.
 - Risk: paperwork can look visually static; clear single readable secret-vs-stolen relationship is required.
 
 ## Pair C — wrong coast
@@ -23,7 +23,7 @@ These are **hypotheses**, not achieved CTR, native tests, approved AI images or 
 - Title: **Why Germany Prepared for the Wrong Invasion in 1943**
 - Image concept: hand arranging dated 1943 Mediterranean military planning map, false focus on Greece, real landings towards Sicily; two clear movement areas, not false archival intelligence. No invented actual German HQ chart.
 - Optional text: `WRONG TARGET`.
-- First confirmation: S007–S014; full payoff S069–S080.
+- First confirmation: S007–S014; full payoff S062–S073.
 - Risk: spoiler/map complexity. Subject may be too small on phones; test crop.
 
 **Suggested primary:** A for concrete human paradox; it must be visually non-graphic and not promise a live secret-agent chase. Record source images and usage rights before actual AI thumbnail generation. No long A/B test can be announced prior to approved production, packaging and release.

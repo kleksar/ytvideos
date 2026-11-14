@@ -11,8 +11,8 @@
 ## Weaknesses for true first-time reader
 - S015–S021 origin discussion may lose a viewer after initial mystery; ask reviewer which exact block drags.
 - S022–S032 identity/pocket details are historically meaningful; if they feel like a list, merge examples in an approved revision, preserving causal function.
-- S063–S068 Spanish bureaucracy should build tension, not repeat that the documents were held. Ask reviewer whether the wait earns the pay-off.
-- S082–S088 postwar and historical-identity caveat could dilute triumph; retain only if ethical/historical completeness contributes to ending.
+- S055–S058 Spanish bureaucracy should build tension, not repeat that the documents were held. Ask reviewer whether the wait earns the pay-off.
+- S074–S080 postwar and historical-identity caveat could dilute triumph; retain only if ethical/historical completeness contributes to ending.
 
 ## Evidence and presentation
 - EN 1432 words, RU 1220 words; 80/80 EN/RU blocks linked by position in source files and coverage map. This alignment is an authorial self-check, not independent approval.

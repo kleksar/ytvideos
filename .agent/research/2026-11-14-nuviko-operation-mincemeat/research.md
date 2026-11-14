@@ -19,14 +19,14 @@ Central question: **How do you convince enemy spies to steal a document your sid
 |---|---|---|
 | S001–S014 | 1943 Allied Sicily plan; hope to misdirect to Greece/Sardinia | National WWII Museum, Plymouth, Husky. Do not confuse Sicily with a German occupation zone nor assert precise savings. |
 | S015–S021 | Ian Fleming-associated Trout Memo idea, Cholmondeley + Montagu, imagined plane crash | National WWII Museum, Plymouth. Fleming's **personal authorship** is a scholarly likelihood, not proven firsthand authorship: narration says “associated with”. |
-| S022–S026, S083 | Glyndwr Michael and disputed alternate John Melville | Plymouth, National WWII Museum, Churchill society review. “Most historical accounts identify” is a qualified attribution; script does not claim conclusive DNA. Do not say the man voluntarily consented. |
+| S022–S026, S076 | Glyndwr Michael and disputed alternate John Melville | Plymouth, National WWII Museum, Churchill society review. “Most historical accounts identify” is a qualified attribution; script does not claim conclusive DNA. Do not say the man voluntarily consented. |
 | S027–S032 | Captain/Acting Major cover, fictive fiancée Pam and human pocket litter | National WWII Museum. Photo/letters are manufactured evidence; depict as staged items not authentic relationship. |
 | S033–S040 | Nye-to-Alexander letter says Greece/Crete and uses Sicily as deception; Mountbatten to Cunningham hints Sardinia | National WWII Museum. No unverified verbatim quotation; claims supported by described contents. |
-| S041–S054 | Spain, Huelva, dry-ice container, HMS Seraph, 30 April 1943 body release | National WWII Museum, Plymouth. Shipping route/weather/time simplified; **no guarantee** body delivered. |
-| S055–S068 | fishermen, autopsy, burial, Spanish holding letters, German copies, return, physical inspection | National WWII Museum and Huelva tourism. Exact day Spanish funeral and documents returned varies; narration avoids choosing one disputed administrative date. |
-| S069–S073 | decrypts/command shifts; intelligence impact | National WWII Museum. Mincemeat part of broader Barclay deception; *do not* claim every German troop shift solely caused by briefcase. |
-| S074–S081 | 10 July Husky, fought landings, victory in August | National WWII Museum Husky. Large German/Italian opposition existed, weather mattered, campaign not magically effortless. |
-| S082–S088 | Montagu's book and later reveal, disputed identification, ending mechanism | National WWII Museum, Huelva. No quantitative “saved X thousand soldiers” or unsupported direct personal hero narrative. |
+| S041–S051 | Spain, Huelva, dry-ice container, HMS Seraph, 30 April 1943 body release | National WWII Museum, Plymouth. Shipping route/weather/time simplified; **no guarantee** body delivered. |
+| S052–S061 | fishermen, autopsy, burial, Spanish holding letters, German copies, return, physical inspection | National WWII Museum and Huelva tourism. Exact day Spanish funeral and documents returned varies; narration avoids choosing one disputed administrative date. |
+| S062–S067 | decrypts/command shifts; intelligence impact | National WWII Museum. Mincemeat part of broader Barclay deception; *do not* claim every German troop shift solely caused by briefcase. |
+| S068–S073 | 10 July Husky, fought landings, victory in August | National WWII Museum Husky. Large German/Italian opposition existed, weather mattered, campaign not magically effortless. |
+| S074–S080 | Montagu's book and later reveal, disputed identification, ending mechanism | National WWII Museum, Huelva. No quantitative “saved X thousand soldiers” or unsupported direct personal hero narrative. |
 
 ## Creative, ethical and rights limits
 - The actual body and its later identification must be treated respectfully; **no graphic corpse shots**, no claim of informed consent, no gruesome fictional autopsy scene.
