@@ -1,8 +1,8 @@
 # Authorial story review — Paper ANOM Long — 2026-11-14
 
-**EDITORIAL_CANDIDATE_UNREGISTERED:** not official `ytv` gate. EN exact SHA-256 `fc6186455c47d7aff433bc7dcf5dc42b55272f7fd176a213756e55ae28209021`; RU is full non-voice translation; 51 exact bilingual spans, clean English 820 whitespace-separated words, real TTS runtime UNVERIFIED. Method: authorial text/source check, not independent review.
+**EDITORIAL_CANDIDATE_UNREGISTERED:** not official `ytv` gate. EN exact SHA-256 `524035d2a5c9c47a8805e661bd94845e5c8579b3923b82a46cb68ec38c714fb6`; RU is full non-voice translation; 51 exact bilingual spans, clean English 834 whitespace-separated words, real TTS runtime UNVERIFIED. Method: authorial text/source check, not independent review.
 
-## Eight 1–10 editorial criteria (subjective, NOT virality or measured retention)
+## Prior authorial scorecard — STALE after factual correction, not current approval
 
 | Criterion | Score | Concrete support and strongest weakness | Confidence |
 |---|---:|---|---|
@@ -15,7 +15,7 @@
 | 7 Natural EN/RU voice | **8** | Specific verbs in S013, S022, S026, S033, S038; short/long sentences varied. Weakness: S035–S043 numerical passages may be dry when spoken. | low |
 | 8 Quality of demand evidence | **7** | Three English Longs plus conference and fresh September 2026 video, mixed result with Cipher below usual median. Weakness: no matched ages, first-party analytics or direct watch/comments. | low |
 
-Class: **STRONG_CANDIDATE, AUTHORIAL ONLY / EXPERIMENTAL FOR OUR AUDIENCE**. Core value/development/payoff >=8. No blended viral score. Independent reviewer could reject entirely.
+Previous author class (baseline only): **STRONG_CANDIDATE, AUTHORIAL ONLY / EXPERIMENTAL FOR OUR AUDIENCE**. Fresh assessment required. Core value/development/payoff >=8. No blended viral score. Independent reviewer could reject entirely.
 
 ## Separate hard checks and method
 
@@ -29,4 +29,8 @@ Class: **STRONG_CANDIDATE, AUTHORIAL ONLY / EXPERIMENTAL FOR OUR AUDIENCE**. Cor
 
 ## Reviewer handoff, NOT its result
 
-Fresh reviewer must see ONLY S001–S003 initially and state what the film promises, then the entire exact clean EN master twice without scores or beat chart; name the exact place of lost attention and unnatural line. Only after first reading provide `research.md` source ledger and Auschwitz-escape competitor. Save actual original `ytv-script-review-v1` response unchanged, keyed to `fc6186455c47d7aff433bc7dcf5dc42b55272f7fd176a213756e55ae28209021`. Revised script would require a new hash and new independent response, maximum two meaningful iterations. Author changing role is not independence.
+Fresh reviewer must see ONLY S001–S003 initially and state what the film promises, then the entire exact clean EN master twice without scores or beat chart; name the exact place of lost attention and unnatural line. Only after first reading provide `research.md` source ledger and Auschwitz-escape competitor. Save actual original `ytv-script-review-v1` response unchanged, keyed to `524035d2a5c9c47a8805e661bd94845e5c8579b3923b82a46cb68ec38c714fb6`. Revised script would require a new hash and new independent response, maximum two meaningful iterations. Author changing role is not independence.
+
+## Revised source version
+
+Baseline `fabf7d4c3e01c0ad047e10249ed0c7e1830267df` and old EN SHA-256 `fc6186455c47d7aff433bc7dcf5dc42b55272f7fd176a213756e55ae28209021` are superseded. S042–S043 now distinguish ~800 reported June 2021 from ~1,200 reported February 2025 according to DOJ; new EN SHA-256 `524035d2a5c9c47a8805e661bd94845e5c8579b3923b82a46cb68ec38c714fb6`. Prior author assessment and timing assumptions are stale. Genuine independent first-listener, bilingual review, actual TTS and script approval remain UNVERIFIED.

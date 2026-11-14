@@ -1,6 +1,6 @@
 # Packaging ideas — ANOM Paper Detour Long (unapproved)
 
-Source EN SHA256 `fc6186455c47d7aff433bc7dcf5dc42b55272f7fd176a213756e55ae28209021`. Three different honest promises; thumbnail art must eventually be AI-generated physical paper/card with bold paper lettering per Paper brand. No image created or QA passed; these aren't live YouTube A/B results.
+Source EN SHA256 `524035d2a5c9c47a8805e661bd94845e5c8579b3923b82a46cb68ec38c714fb6`. Three different honest promises; thumbnail art must eventually be AI-generated physical paper/card with bold paper lettering per Paper brand. No image created or QA passed; these aren't live YouTube A/B results.
 
 ## A — recommendation trap (preferred)
 **Title:** The Phones Criminals Sold for the FBI

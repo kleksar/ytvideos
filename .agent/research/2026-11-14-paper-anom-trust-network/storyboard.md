@@ -1,6 +1,6 @@
 # Preliminary storyboard — ANOM / Paper Detour Long
 
-**Text only. NOT actual production timing or asset verification.** EN SHA256 `fc6186455c47d7aff433bc7dcf5dc42b55272f7fd176a213756e55ae28209021`; 51 exact EN/RU narrative spans S001–S051 cover both complete masters in order. Natural voice should be read as joined paragraphs, **without automatic pauses at each S**. Suggested physical compositions target 4–6 seconds, subject to additional splits after real TTS. No approved images, original media reference bytes or real voice available.
+**Text only. NOT actual production timing or asset verification.** EN SHA256 `524035d2a5c9c47a8805e661bd94845e5c8579b3923b82a46cb68ec38c714fb6`; 51 exact EN/RU narrative spans S001–S051 cover both complete masters in order. Natural voice should be read as joined paragraphs, **without automatic pauses at each S**. Suggested physical compositions target 4–6 seconds, subject to additional splits after real TTS. No approved images, original media reference bytes or real voice available.
 
 | Scene | Exact English | Exact Russian | Story image |
 |---|---|---|---|
@@ -45,8 +45,8 @@
 | S039 | The next day, American prosecutors announced what had been happening. Police operations were unfolding across countries. | На следующий день американские прокуроры рассказали, что происходило. В разных странах шли полицейские операции. | Paper press podium and separate continental miniature maps with marked police stations |
 | S040 | Thousands of officers took part, and searches were coordinated far beyond a single city. | Участвовали тысячи сотрудников полиции. Обыски проходили далеко за пределами одного города. | Several full-depth paper cities linked on map and small paper police vehicles |
 | S041 | Officials reported seized drugs, weapons and money, as well as arrests following the investigation. | Власти сообщили об изъятых наркотиках, оружии и деньгах, а также о задержаниях по итогам расследования. | Evidence table with paper representations of bundled banknotes, sealed packages and weapons, no gore |
-| S042 | The widely repeated number is eight hundred arrests. That was the reported total for the investigation as a whole. | Часто называют восемьсот арестов. Это было объявленное число за всю операцию, а не только за финальный рейд. | Physical DOJ-style paper news release displaying '800 ARRESTS — TOTAL' |
-| S043 | It was neither eight hundred guilty verdicts nor eight hundred arrests on one morning. | Это не восемьсот обвинительных приговоров и не восемьсот задержаний за одно утро. | Paper calendar with multiple dates next to separate arrest folders and blank judicial decisions |
+| S042 | At the June 2021 announcement, authorities reported about eight hundred arrests across the investigation. That was the cumulative count then, not eight hundred guilty verdicts or arrests on a single morning. | На момент объявления результатов в июне 2021 года власти сообщили примерно о восьмистах арестах за всё расследование. Это был накопленный итог на тот момент, а не восемьсот обвинительных приговоров или задержаний за одно утро. | Constructed paper news notice dated June 2021 stating 'ABOUT 800 ARRESTS (REPORTED THEN)', not an authentic DOJ scan |
+| S043 | By February 2025, the U.S. Justice Department put the investigation's arrest total at approximately twelve hundred. | К февралю 2025 года Минюст США оценивал общее число арестов по этому расследованию примерно в тысячу двести. | Two dated paper reports, June 2021 and February 2025, showing updated cumulative arrest figures without suggesting guilty verdicts |
 | S044 | For people who had trusted ANOM, the public announcement revealed who had been running it. | Для тех, кто доверял ANOM, объявление раскрыло, кто всё это время управлял платформой. | Paper room with phone on table, a new public announcement and revealed investigator folder |
 | S045 | The arrests did not end all the cases. Courts would argue over the messages for years. | Арестами история не закончилась. Суды ещё много лет спорили о переписках. | Courtroom table slowly filling with paper files dated 2021–2025 |
 | S046 | Defendants in Australia challenged whether material gathered through ANOM could be used against them. | Подсудимые в Австралии оспаривали возможность использовать материалы ANOM против них. | Australian courthouse paper diorama with legal paper folders 'ANOM' and 'EVIDENCE' |
@@ -61,7 +61,7 @@
 ```json
 {
   "schema": "preliminary-editorial-scenes-only",
-  "script_sha256": "fc6186455c47d7aff433bc7dcf5dc42b55272f7fd176a213756e55ae28209021",
+  "script_sha256": "524035d2a5c9c47a8805e661bd94845e5c8579b3923b82a46cb68ec38c714fb6",
   "scenes": [
     {
       "id": "S001",
@@ -475,20 +475,20 @@
     },
     {
       "id": "S042",
-      "narration": "The widely repeated number is eight hundred arrests. That was the reported total for the investigation as a whole.",
-      "narration_ru": "Часто называют восемьсот арестов. Это было объявленное число за всю операцию, а не только за финальный рейд.",
-      "visual_intent": "Physical DOJ-style paper news release displaying '800 ARRESTS — TOTAL'",
-      "prompt": "One entire seamless full-frame handmade layered paper-card diorama, historical documentary illustration in landscape 16:9, physical studio lighting and contact shadows, cut cardboard thickness and fibers, detailed paper figures and plausible scaled objects, no digital overlays, no fake footage/photo, no external border, no parallax separated planes. Subject: Physical DOJ-style paper news release displaying '800 ARRESTS — TOTAL'. Single clear visual action, natural depth; anonymous figures are visibly reconstructions, recurring matte black ANOM phone should have the same silhouette; only grounded essential prop labels.",
+      "narration": "At the June 2021 announcement, authorities reported about eight hundred arrests across the investigation. That was the cumulative count then, not eight hundred guilty verdicts or arrests on a single morning.",
+      "narration_ru": "На момент объявления результатов в июне 2021 года власти сообщили примерно о восьмистах арестах за всё расследование. Это был накопленный итог на тот момент, а не восемьсот обвинительных приговоров или задержаний за одно утро.",
+      "visual_intent": "Constructed paper news notice dated June 2021 stating 'ABOUT 800 ARRESTS (REPORTED THEN)', not an authentic DOJ scan",
+      "prompt": "One entire seamless full-frame handmade layered paper-card diorama, historical documentary illustration in landscape 16:9, physical studio lighting and contact shadows, cut cardboard thickness and fibers, detailed paper figures and plausible scaled objects, no digital overlays, no fake footage/photo, no external border, no parallax separated planes. Subject: Constructed paper news notice dated June 2021 stating 'ABOUT 800 ARRESTS (REPORTED THEN)', not an authentic DOJ scan. Single clear visual action, natural depth; anonymous figures are visibly reconstructions, recurring matte black ANOM phone should have the same silhouette; only grounded essential prop labels.",
       "continuity": "Same anonymous paper figures and generic matte-black modified phone, realistic 2018–2025 settings and physical paper texture. Full-frame pan/zoom only if later supported by accepted production recipe.",
       "composition_estimate": "4–6 seconds as an editorial orientation; NOT measured TTS timing",
       "note": ""
     },
     {
       "id": "S043",
-      "narration": "It was neither eight hundred guilty verdicts nor eight hundred arrests on one morning.",
-      "narration_ru": "Это не восемьсот обвинительных приговоров и не восемьсот задержаний за одно утро.",
-      "visual_intent": "Paper calendar with multiple dates next to separate arrest folders and blank judicial decisions",
-      "prompt": "One entire seamless full-frame handmade layered paper-card diorama, historical documentary illustration in landscape 16:9, physical studio lighting and contact shadows, cut cardboard thickness and fibers, detailed paper figures and plausible scaled objects, no digital overlays, no fake footage/photo, no external border, no parallax separated planes. Subject: Paper calendar with multiple dates next to separate arrest folders and blank judicial decisions. Single clear visual action, natural depth; anonymous figures are visibly reconstructions, recurring matte black ANOM phone should have the same silhouette; only grounded essential prop labels.",
+      "narration": "By February 2025, the U.S. Justice Department put the investigation's arrest total at approximately twelve hundred.",
+      "narration_ru": "К февралю 2025 года Минюст США оценивал общее число арестов по этому расследованию примерно в тысячу двести.",
+      "visual_intent": "Two dated paper reports, June 2021 and February 2025, showing updated cumulative arrest figures without suggesting guilty verdicts",
+      "prompt": "One entire seamless full-frame handmade layered paper-card diorama, historical documentary illustration in landscape 16:9, physical studio lighting and contact shadows, cut cardboard thickness and fibers, detailed paper figures and plausible scaled objects, no digital overlays, no fake footage/photo, no external border, no parallax separated planes. Subject: Two dated paper reports, June 2021 and February 2025, showing updated cumulative arrest figures without suggesting guilty verdicts. Single clear visual action, natural depth; anonymous figures are visibly reconstructions, recurring matte black ANOM phone should have the same silhouette; only grounded essential prop labels.",
       "continuity": "Same anonymous paper figures and generic matte-black modified phone, realistic 2018–2025 settings and physical paper texture. Full-frame pan/zoom only if later supported by accepted production recipe.",
       "composition_estimate": "4–6 seconds as an editorial orientation; NOT measured TTS timing",
       "note": ""
