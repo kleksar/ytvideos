@@ -9,8 +9,8 @@ English Short 9:16; visuals are **editorial intents** only. Each S id exactly ma
 - QA: source-bound geography, correct 1453 equipment, no fabricated inscriptions, source reference bytes needed at production.
 
 ### S002
-- EN: The fleet was crossing dry land. Not the sea.
-- RU: Флот пересекал сушу. Не море.
+- EN: Why drag a fleet across dry land when a harbour lies right beside it?
+- RU: Зачем тащить целый флот по суше, когда рядом есть гавань?
 - Visual: Wide landscape geography contrast: hull above dry ground, Bosporus water lower below; visually evident that hull is not afloat
 - QA: source-bound geography, correct 1453 equipment, no fabricated inscriptions, source reference bytes needed at production.
 
@@ -103,3 +103,7 @@ English Short 9:16; visuals are **editorial intents** only. Each S id exactly ma
 - RU: Сами корабли не решили исход осады. Но цепь не могла остановить флот, который шёл...
 - Visual: Chain at harbour mouth and smaller vessels up on Galata hill as conceptual transition back to opening, without contradictory time label
 - QA: source-bound geography, correct 1453 equipment, no fabricated inscriptions, source reference bytes needed at production.
+
+## Updated S002 hook presentation
+- Keep the same ground-level fleet/hill spatial contradiction in the second composition; spoken question uses the clear harbour nearby as geographic contrast, no mandatory on-screen question lettering.
+- Verify the opening actually shows dry land and harbour as distinct surfaces. All visual interpretations are hypotheses until a pinned storyboard and actual image review. Scene count remains 17; timing and real loop listening UNVERIFIED.

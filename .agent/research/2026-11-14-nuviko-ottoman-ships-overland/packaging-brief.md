@@ -14,3 +14,7 @@
 
 ## Audience check
 This is a qualitative proposal, not achieved CTR, a formal thumbnail approval, or an actual YouTube experiment. AI image generation, brand reference QA and asset crop checks wait for local approved run.
+
+## Updated question/promise check
+- Primary title's first evidence remains the moving land-based ship in S001. S002 now asks why any fleet would cross ground with the harbour nearby, and S003–S012 supplies the precise chain/route answer. Do not show a severed chain or an unsupported exact fleet count.
+- This is one question in a Short, not a Long-style question catalogue. No measured title/thumbnail performance or actual image QA.

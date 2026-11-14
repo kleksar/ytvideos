@@ -6,3 +6,7 @@
 4. Independent fresh reviewer must assess exact EN hash, RU translation, first-listener interest and the two-full-plays narration loop; revise with real receipts if needed. Authorial `story-review.md` is not independent evidence.
 5. When `awaiting_script_approval` is really reached, show the complete EN + RU scripts for user's decision. Do not claim approval based on PR creation. Subsequent generation, audio, timing, storyboard approval, image refs and publish require normal lifecycle/authority.
 6. Required production source refs and timing evidence are missing. No image/TTS/video was produced in this PR. Scope includes only these editorial files.
+
+## Revised bilingual hook input
+- Consume the latest PR-head EN and RU master; prior exact hashes and script reviews are no longer valid. S002 is now a question. It is not a Long-form introduction and must not be expanded into multiple previews of the same payoff.
+- A new independent cold reader must evaluate S001–S004 and the full two-plays spoken Short loop. Do not call text-only review an audio or official gate.
