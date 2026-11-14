@@ -9,3 +9,7 @@ This PR is eight plain-text editorial candidate files. GitHub connector can revi
 5. Move to `awaiting_script_approval` only after real `ytv` checks and show owner complete EN/RU scripts. Prior owner's request for **two PRs** is not approval of script, TTS, production or publication.
 6. After approval plan storyboard scene coverage with actual accepted TTS word/scene timing, real image references, governed credits, native 16:9 2K/30fps profile, soundtrack, subtitles, and separate 10-second end-screen composition.
 7. Production/deployment/publish and merge prohibited until authorized. No changes made to other PRs, docs, skills or channel profile.
+
+## Revised narration handoff
+- This PR now uses Long-form opening instructions merged in docs PR #90. Treat `script.en.txt` and `script.ru.txt` in the **current PR head** as fresh candidate versions; never use old commit `67c6558222f56ca2306de0c26b68515df6f3a97a` scripts as accepted evidence.
+- Reviewer receives exact S001–S007 alone first and reports expected promise unaided; then full S001–S080, EN/RU equivalence and factual/retention risks. Scene coverage IDs remain positional and do not certify timing.

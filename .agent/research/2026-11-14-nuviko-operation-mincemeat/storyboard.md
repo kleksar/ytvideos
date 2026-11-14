@@ -6,7 +6,7 @@ A coverage sequence may need several 4–6-second compositions; the final number
 
 ## S001–S006 — The stolen letter and the dead courier
 
-- **Function and visual ideas:** Found body on Atlantic Spanish coast, period officer ID and briefcase. Non-graphic. Establish an answerable question immediately.
+- **Function and visual ideas:** Pre-dawn sea off Spain: British officers lower a non-graphic covered body and attached briefcase. Three linked viewer questions are spoken over this physical image; then show the Spanish fisherman's shoreline discovery and the fictional officer's identification. Do not simulate text of secret orders or insert on-screen question-card clutter. Establish the promise in S001–S002 and first factual step by S003.
 - **Source:** exact narration paragraphs 1–6, in both EN and RU scripts. Do not invent new actions or freeze these as production prompts.
 
 ## S007–S014 — Why Sicily was obvious
@@ -84,3 +84,11 @@ S074–S080: 7 matched paragraphs
 ## End-screen background
 
 After the finished story, plan a **separate 10-second** 16:9 background with reserved space for actual native Subscribe and videos. Do not draw fake clickable controls into the image. The 10 seconds are a channel contract, not evidence of an actual encoded end screen.
+
+## Revised question-to-visual contract (after merged PR #90)
+- `S001–S002`: start with a tangible covert act and the three related investigative questions. This is one continuous visual promise, not three static cards or invented footage.
+- `S021`: show distinct ethical/identity problem, then the source-qualified candidate body and constructed identity; do not show an unverified real portrait as conclusive.
+- `S033`: attach briefcase and move directly to the letters' false destinations via grounded map geography; no false claim that Sicily was never defended.
+- `S041` and `S058`: German access and Spanish transfer uncertainty; pay the access question at `S059–S060`.
+- `S061`: switch from document-handling proof to decoded strategic reaction; continue into Sicily real invasion and the full payoff.
+- Do **not** assign timings or on-screen question captions based on this brief; final scene count and narration timing require actual approved audio. Existing 12 coverage sequences and 80/80 map remain, as beat identities did not shift.

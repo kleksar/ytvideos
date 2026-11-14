@@ -27,3 +27,8 @@ These are **hypotheses**, not achieved CTR, native tests, approved AI images or 
 - Risk: spoiler/map complexity. Subject may be too small on phones; test crop.
 
 **Suggested primary:** A for concrete human paradox; it must be visually non-graphic and not promise a live secret-agent chase. Record source images and usage rights before actual AI thumbnail generation. No long A/B test can be announced prior to approved production, packaging and release.
+
+## Opening promise alignment after PR #90
+- The **primary Pair A** now immediately proves a body/briefcase combination in S001, before the S002 questions about the false plan, German strategic choices and how belief was detected.
+- Pair B's forged-secret promise is resolved by S034–S040 (what letters said), S059–S067 (German access and response) and S079–S080 (stolen-secret mechanism); its opening preview **must still** use the courier, not claim a genuine German spy personally wrote to Britain.
+- Pair C is the indirect strategic hook; if chosen, test whether the opening's Sicily question is clear before any detailed Mediterranean map. No CTR or A/B result exists.
