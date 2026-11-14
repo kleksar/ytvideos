@@ -1,0 +1,143 @@
+{
+  "status": "PRELIMINARY / EDITORIAL_CANDIDATE_UNREGISTERED; not production-ready; not timed from voice",
+  "channel": "paper_detour",
+  "format": "short",
+  "orientation": "9:16",
+  "scene_count": 14,
+  "basis": "Exact paragraph-level EN and RU spans in script.en.txt and script.ru.txt. Preliminary target approximately 4-6 seconds per composition, NOT measured timings, NOT frame windows; actual audio/word alignment must redetermine scene count and duration after approval.",
+  "reference_status": "Actual Paper visual-reference image bytes not opened or verified in this environment; descriptions only. Required image provenance/rights and character sheets remain future work.",
+  "common_continuity": "Vincenzo Peruggia across scenes S002-S011 wears early-1910s worker clothes, dark hair, small mustache; the stolen object is a small wood-panel painting, distinct from its frame and glass case; same period trunk, not a canvas; each shot is one complete physical paper diorama; direct cuts only. Historical locations and costumes require visual-source verification before generation.",
+  "scenes": [
+    {
+      "id": "S001",
+      "en_span": "Four empty iron hooks at the Louvre. Visitors lined up to stare at them. The Mona Lisa was gone.",
+      "ru_span": "Четыре пустых железных крючка в Лувре. Посетители выстраивались в очередь, чтобы на них посмотреть. «Мона Лиза» исчезла.",
+      "narrative_function": "Холодный вход: видимое отсутствие, затем узнаваемая украденная картина",
+      "planned_composition_seconds": "approximately 4-6, editorial estimate only, no audio timing",
+      "image_prompt": "Create ONE entire opaque full-bleed 9:16 handcrafted physical paper-and-card diorama, 1911-1914 period-appropriate materials, detailed thick cut paper edges, fibrous surfaces, dimensional hand-shaped faces and clothing, many miniature depth layers, believable physical light and contact shadows. Single complete image, no transparent separately animated layers, no modern digital/vector or photoreal full-size humans, no outer border, no infographic panels, no generic stock motif. A frontal wide view inside the 1911 Louvre Salon Carré, one bare rectangular wall area with exactly four small iron wall hooks, visitors in Edwardian coats and hats gathering at a respectful distance, tiny paper figures in depth, museum wall dominating the frame. Use a physically layered deep handmade scene filling the frame and avoid fabricated documents, captions, dialogue or event-specific gestures not evidenced in narration.",
+      "continuity": "S001 and S014 connected by same wall geometry, hooks and gallery; final frame should approach S001 without resetting narration. Do not infer an actual verified photo or actual reference bytes from this text."
+    },
+    {
+      "id": "S002",
+      "en_span": "August 1911. Vincenzo Peruggia walked in while the museum was closed to visitors.",
+      "ru_span": "Август 1911-го. Винченцо Перуджа вошёл в музей в день, когда тот был закрыт для посетителей.",
+      "narrative_function": "Ввести человека, дату и возможность попасть внутрь",
+      "planned_composition_seconds": "approximately 4-6, editorial estimate only, no audio timing",
+      "image_prompt": "Create ONE entire opaque full-bleed 9:16 handcrafted physical paper-and-card diorama, 1911-1914 period-appropriate materials, detailed thick cut paper edges, fibrous surfaces, dimensional hand-shaped faces and clothing, many miniature depth layers, believable physical light and contact shadows. Single complete image, no transparent separately animated layers, no modern digital/vector or photoreal full-size humans, no outer border, no infographic panels, no generic stock motif. Low-angle view of the Louvre service entrance on a quiet August morning in 1911, an adult Italian man with dark hair and a simple mustache approaching, period Paris stone façade and sparse museum staff, closed public entrance sign only if period-correct. Use a physically layered deep handmade scene filling the frame and avoid fabricated documents, captions, dialogue or event-specific gestures not evidenced in narration.",
+      "continuity": "Do not infer an actual verified photo or actual reference bytes from this text."
+    },
+    {
+      "id": "S003",
+      "en_span": "He'd worked making glass cases for the Louvre. A white worker's smock helped him blend in.",
+      "ru_span": "Раньше он делал для Лувра стеклянные витрины. Белый рабочий халат помог ему сойти за сотрудника.",
+      "narrative_function": "Показать конкретный механизм доступа без выдуманного разговора",
+      "planned_composition_seconds": "approximately 4-6, editorial estimate only, no audio timing",
+      "image_prompt": "Create ONE entire opaque full-bleed 9:16 handcrafted physical paper-and-card diorama, 1911-1914 period-appropriate materials, detailed thick cut paper edges, fibrous surfaces, dimensional hand-shaped faces and clothing, many miniature depth layers, believable physical light and contact shadows. Single complete image, no transparent separately animated layers, no modern digital/vector or photoreal full-size humans, no outer border, no infographic panels, no generic stock motif. Medium museum corridor view of Peruggia in a plain white work smock among two other period museum workers, a display case with wooden edge and glass panels in foreground, identity conveyed through clothing not speculative action or dialogue. Use a physically layered deep handmade scene filling the frame and avoid fabricated documents, captions, dialogue or event-specific gestures not evidenced in narration.",
+      "continuity": "Do not infer an actual verified photo or actual reference bytes from this text."
+    },
+    {
+      "id": "S004",
+      "en_span": "He took down the portrait, removed its frame and glass case, and walked out carrying the wooden panel.",
+      "ru_span": "Он снял портрет со стены, убрал раму и стеклянный футляр и вынес деревянную панель с картиной.",
+      "narrative_function": "Собственно кража и материальный способ вынести предмет",
+      "planned_composition_seconds": "approximately 4-6, editorial estimate only, no audio timing",
+      "image_prompt": "Create ONE entire opaque full-bleed 9:16 handcrafted physical paper-and-card diorama, 1911-1914 period-appropriate materials, detailed thick cut paper edges, fibrous surfaces, dimensional hand-shaped faces and clothing, many miniature depth layers, believable physical light and contact shadows. Single complete image, no transparent separately animated layers, no modern digital/vector or photoreal full-size humans, no outer border, no infographic panels, no generic stock motif. Over-the-shoulder close view in an empty early-20th-century Louvre gallery; gloved-free hands carefully detach the small wood-panel portrait from its protective display frame; frame and detached glass case shown as distinct objects on a nearby ledge; no invented tools. Use a physically layered deep handmade scene filling the frame and avoid fabricated documents, captions, dialogue or event-specific gestures not evidenced in narration.",
+      "continuity": "Do not infer an actual verified photo or actual reference bytes from this text."
+    },
+    {
+      "id": "S005",
+      "en_span": "Nobody noticed until the next day. At first, staff thought it had been taken for photography.",
+      "ru_span": "Пропажу заметили лишь на следующий день. Сначала сотрудники решили, что картину забрали для съёмки.",
+      "narrative_function": "Отсроченное обнаружение и правдоподобная ошибка",
+      "planned_composition_seconds": "approximately 4-6, editorial estimate only, no audio timing",
+      "image_prompt": "Create ONE entire opaque full-bleed 9:16 handcrafted physical paper-and-card diorama, 1911-1914 period-appropriate materials, detailed thick cut paper edges, fibrous surfaces, dimensional hand-shaped faces and clothing, many miniature depth layers, believable physical light and contact shadows. Single complete image, no transparent separately animated layers, no modern digital/vector or photoreal full-size humans, no outer border, no infographic panels, no generic stock motif. A 1911 museum attendant examining a bare rectangle on a gallery wall where the picture hung, nearby empty photographic tripod and canvas carrying rack shown only as explanatory speculative props (not documentary evidence), daylight and quiet gallery. Use a physically layered deep handmade scene filling the frame and avoid fabricated documents, captions, dialogue or event-specific gestures not evidenced in narration.",
+      "continuity": "Do not infer an actual verified photo or actual reference bytes from this text."
+    },
+    {
+      "id": "S006",
+      "en_span": "Then its empty frame turned up on a staircase. The police questioned current and former workers.",
+      "ru_span": "Потом на лестнице нашли её пустую раму. Полиция начала опрашивать нынешних и бывших работников музея.",
+      "narrative_function": "Первый след запускает расследование",
+      "planned_composition_seconds": "approximately 4-6, editorial estimate only, no audio timing",
+      "image_prompt": "Create ONE entire opaque full-bleed 9:16 handcrafted physical paper-and-card diorama, 1911-1914 period-appropriate materials, detailed thick cut paper edges, fibrous surfaces, dimensional hand-shaped faces and clothing, many miniature depth layers, believable physical light and contact shadows. Single complete image, no transparent separately animated layers, no modern digital/vector or photoreal full-size humans, no outer border, no infographic panels, no generic stock motif. Top-down diagonal composition on a narrow old Louvre service stairwell, a detached decorative wooden frame and glass display cover resting near a landing, two period police officers looking down at the evidence; no fingerprint image or invented note. Use a physically layered deep handmade scene filling the frame and avoid fabricated documents, captions, dialogue or event-specific gestures not evidenced in narration.",
+      "continuity": "Do not infer an actual verified photo or actual reference bytes from this text."
+    },
+    {
+      "id": "S007",
+      "en_span": "They questioned Peruggia too, in his Paris room. The painting was hidden there in a trunk.",
+      "ru_span": "До Перуджи тоже дошли — прямо до его комнаты в Париже. Картина лежала там, спрятанная в сундуке.",
+      "narrative_function": "Сильный новый поворот: полиция рядом с украденным предметом",
+      "planned_composition_seconds": "approximately 4-6, editorial estimate only, no audio timing",
+      "image_prompt": "Create ONE entire opaque full-bleed 9:16 handcrafted physical paper-and-card diorama, 1911-1914 period-appropriate materials, detailed thick cut paper edges, fibrous surfaces, dimensional hand-shaped faces and clothing, many miniature depth layers, believable physical light and contact shadows. Single complete image, no transparent separately animated layers, no modern digital/vector or photoreal full-size humans, no outer border, no infographic panels, no generic stock motif. Cutaway-diagram-like single physical paper diorama of a modest 1911 Paris rented room: a seated detective interviewing Peruggia at a table in front plane, a closed period wooden travel trunk against the wall in back plane, an understated paper cutaway of the trunk reveals the small wooden portrait panel as an editorial reconstruction, not evidence of what officers could see. Use a physically layered deep handmade scene filling the frame and avoid fabricated documents, captions, dialogue or event-specific gestures not evidenced in narration.",
+      "continuity": "Do not infer an actual verified photo or actual reference bytes from this text."
+    },
+    {
+      "id": "S008",
+      "en_span": "He said he'd only read about the theft in the newspapers. They accepted that and left.",
+      "ru_span": "Он сказал, что узнал о краже только из газет. Полицейские поверили и ушли.",
+      "narrative_function": "Почему задержание не произошло при первом контакте",
+      "planned_composition_seconds": "approximately 4-6, editorial estimate only, no audio timing",
+      "image_prompt": "Create ONE entire opaque full-bleed 9:16 handcrafted physical paper-and-card diorama, 1911-1914 period-appropriate materials, detailed thick cut paper edges, fibrous surfaces, dimensional hand-shaped faces and clothing, many miniature depth layers, believable physical light and contact shadows. Single complete image, no transparent separately animated layers, no modern digital/vector or photoreal full-size humans, no outer border, no infographic panels, no generic stock motif. View from inside the small Paris room toward the door: a detective in a period overcoat exiting into the hallway, Peruggia standing by the table with a folded newspaper; a tiny folded white paper airplane partially visible beside a shelf leg, purely fictional recurring channel mascot, no interaction with real people. Use a physically layered deep handmade scene filling the frame and avoid fabricated documents, captions, dialogue or event-specific gestures not evidenced in narration.",
+      "continuity": "Include the paper plane as a small fictional channel mascot outside narration; its shape/reference must be verified on actual asset at production, not claimed now. Do not infer an actual verified photo or actual reference bytes from this text."
+    },
+    {
+      "id": "S009",
+      "en_span": "For over two years, the portrait stayed hidden. The police had no idea where it was.",
+      "ru_span": "Больше двух лет портрет оставался спрятанным. Полиция не понимала, где его искать.",
+      "narrative_function": "Промежуток без ложной реконструкции новых событий",
+      "planned_composition_seconds": "approximately 4-6, editorial estimate only, no audio timing",
+      "image_prompt": "Create ONE entire opaque full-bleed 9:16 handcrafted physical paper-and-card diorama, 1911-1914 period-appropriate materials, detailed thick cut paper edges, fibrous surfaces, dimensional hand-shaped faces and clothing, many miniature depth layers, believable physical light and contact shadows. Single complete image, no transparent separately animated layers, no modern digital/vector or photoreal full-size humans, no outer border, no infographic panels, no generic stock motif. A close still-life of the shut wooden trunk with dust in a 1911-1913 Paris rented room, foreground period calendar pages turned to suggest elapsed time without depicting unsupported search operations, practical afternoon light. Use a physically layered deep handmade scene filling the frame and avoid fabricated documents, captions, dialogue or event-specific gestures not evidenced in narration.",
+      "continuity": "Do not infer an actual verified photo or actual reference bytes from this text."
+    },
+    {
+      "id": "S010",
+      "en_span": "In late 1913, Peruggia brought it to Florence and contacted an art dealer.",
+      "ru_span": "В конце 1913 года Перуджа привёз картину во Флоренцию и связался с торговцем искусством.",
+      "narrative_function": "Смена города и добровольное действие, ведущее к развязке",
+      "planned_composition_seconds": "approximately 4-6, editorial estimate only, no audio timing",
+      "image_prompt": "Create ONE entire opaque full-bleed 9:16 handcrafted physical paper-and-card diorama, 1911-1914 period-appropriate materials, detailed thick cut paper edges, fibrous surfaces, dimensional hand-shaped faces and clothing, many miniature depth layers, believable physical light and contact shadows. Single complete image, no transparent separately animated layers, no modern digital/vector or photoreal full-size humans, no outer border, no infographic panels, no generic stock motif. Florence in 1913 as a warm layered paper miniature: train station platform in midground, Peruggia carrying his modest travel trunk, far-background dome of Santa Maria del Fiore as city orientation; do not imply a proven exact walking route. Use a physically layered deep handmade scene filling the frame and avoid fabricated documents, captions, dialogue or event-specific gestures not evidenced in narration.",
+      "continuity": "Do not infer an actual verified photo or actual reference bytes from this text."
+    },
+    {
+      "id": "S011",
+      "en_span": "He claimed he wanted it back in Italy. But Leonardo himself had brought it to France centuries before.",
+      "ru_span": "Он утверждал, что хочет вернуть её Италии. Хотя сам Леонардо привёз эту картину во Францию за несколько веков до того.",
+      "narrative_function": "Атрибутированное объяснение мотивов и историческая поправка",
+      "planned_composition_seconds": "approximately 4-6, editorial estimate only, no audio timing",
+      "image_prompt": "Create ONE entire opaque full-bleed 9:16 handcrafted physical paper-and-card diorama, 1911-1914 period-appropriate materials, detailed thick cut paper edges, fibrous surfaces, dimensional hand-shaped faces and clothing, many miniature depth layers, believable physical light and contact shadows. Single complete image, no transparent separately animated layers, no modern digital/vector or photoreal full-size humans, no outer border, no infographic panels, no generic stock motif. One tabletop still-life as paper diorama: the original portrait panel angled safely against an Italian art dealer's desk beside a generic period map linking Florence and France; an older historical Leonardo da Vinci profile as a small separate miniature medallion showing earlier context, visually distinct from 1913 scene, no fabricated dialogue. Use a physically layered deep handmade scene filling the frame and avoid fabricated documents, captions, dialogue or event-specific gestures not evidenced in narration.",
+      "continuity": "Do not infer an actual verified photo or actual reference bytes from this text."
+    },
+    {
+      "id": "S012",
+      "en_span": "The dealer asked the Uffizi's director to inspect the painting. He recognised the original.",
+      "ru_span": "Торговец попросил директора галереи Уффици осмотреть картину. Тот подтвердил: перед ним оригинал.",
+      "narrative_function": "Проверка подлинности вместо случайного разоблачения",
+      "planned_composition_seconds": "approximately 4-6, editorial estimate only, no audio timing",
+      "image_prompt": "Create ONE entire opaque full-bleed 9:16 handcrafted physical paper-and-card diorama, 1911-1914 period-appropriate materials, detailed thick cut paper edges, fibrous surfaces, dimensional hand-shaped faces and clothing, many miniature depth layers, believable physical light and contact shadows. Single complete image, no transparent separately animated layers, no modern digital/vector or photoreal full-size humans, no outer border, no infographic panels, no generic stock motif. Intimate tabletop inspection inside a period Florentine art dealer office; an art dealer and an older museum director studying a small wooden painted panel supported on a low padded stand; faces are stylised papercraft without exact likeness claims, hands and panel spatially correct. Use a physically layered deep handmade scene filling the frame and avoid fabricated documents, captions, dialogue or event-specific gestures not evidenced in narration.",
+      "continuity": "Do not infer an actual verified photo or actual reference bytes from this text."
+    },
+    {
+      "id": "S013",
+      "en_span": "They alerted the police, who arrested Peruggia. The Mona Lisa was back in the Louvre by January 1914.",
+      "ru_span": "Они сообщили в полицию, и Перуджу арестовали. К январю 1914-го «Мона Лиза» вернулась в Лувр.",
+      "narrative_function": "Полная развязка: арест и возвращение картины",
+      "planned_composition_seconds": "approximately 4-6, editorial estimate only, no audio timing",
+      "image_prompt": "Create ONE entire opaque full-bleed 9:16 handcrafted physical paper-and-card diorama, 1911-1914 period-appropriate materials, detailed thick cut paper edges, fibrous surfaces, dimensional hand-shaped faces and clothing, many miniature depth layers, believable physical light and contact shadows. Single complete image, no transparent separately animated layers, no modern digital/vector or photoreal full-size humans, no outer border, no infographic panels, no generic stock motif. 1914 Louvre gallery, small protected Mona Lisa panel restored to a museum wall, curators and a couple of visitors nearby, physically correct wood panel, restrained celebratory light, no invented arrest action conflated with return; arrest conveyed only in narration. Use a physically layered deep handmade scene filling the frame and avoid fabricated documents, captions, dialogue or event-specific gestures not evidenced in narration.",
+      "continuity": "Do not infer an actual verified photo or actual reference bytes from this text."
+    },
+    {
+      "id": "S014",
+      "en_span": "The theft made the painting far more famous. While it was missing, crowds had come just to see...",
+      "ru_span": "После кражи картина стала намного известнее. А пока её искали, посетители приходили посмотреть на...",
+      "narrative_function": "После полного ответа связать популярность и новый проход через пустой зал",
+      "planned_composition_seconds": "approximately 4-6, editorial estimate only, no audio timing",
+      "image_prompt": "Create ONE entire opaque full-bleed 9:16 handcrafted physical paper-and-card diorama, 1911-1914 period-appropriate materials, detailed thick cut paper edges, fibrous surfaces, dimensional hand-shaped faces and clothing, many miniature depth layers, believable physical light and contact shadows. Single complete image, no transparent separately animated layers, no modern digital/vector or photoreal full-size humans, no outer border, no infographic panels, no generic stock motif. A perspective from behind a growing queue of 1911 Louvre visitors in period clothing looking toward a distant bare rectangle of wall; four small hooks just visible, composition aimed to cut directly to the close clear hooks of S001 after the final word; no narration text baked in. Use a physically layered deep handmade scene filling the frame and avoid fabricated documents, captions, dialogue or event-specific gestures not evidenced in narration.",
+      "continuity": "S001 and S014 connected by same wall geometry, hooks and gallery; final frame should approach S001 without resetting narration. Do not infer an actual verified photo or actual reference bytes from this text."
+    }
+  ],
+  "script_segments_validation": {
+    "en_paragraphs": 14,
+    "ru_paragraphs": 14,
+    "all_exact_en_ru_spans": true
+  }
+}
