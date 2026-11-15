@@ -1,3 +1,9 @@
+# OBSOLETE LEGACY STORYBOARD — DO NOT DISPATCH OR GENERATE
+
+**BLOCKER:** the 25 literal EN/RU spans below belong to a previous script revision and **DO NOT MATCH** current 29-block `script.en.txt`/`script.ru.txt`. Retained solely as review history. No valid current storyboard exists; after script approval generate new coverage from accepted exact TTS timings under current pinned runtime. The historical per-shot windows below are not reliable timing estimates.
+
+---
+
 # Preliminary storyboard — Pepsi Number Fever 349
 
 EDITORIAL ONLY. Not an accepted production storyboard; no images or source-reference bytes, TTS or MP4. Exactly 25 ordered EN/RU spans matching clean narration masters. Static full-frame layered-paper compositional briefs only; not authorizing image generation.
