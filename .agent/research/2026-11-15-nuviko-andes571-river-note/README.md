@@ -6,7 +6,7 @@ Nuviko History — English illustrated Long 16:9; main baseline `5d3222c8888c775
 - [ЧИТАТЬ ПОЛНЫЙ РУССКИЙ СЦЕНАРИЙ](script.ru.txt) · [Complete English narration master](script.en.txt)
 - [Preselection, dated sources, YouTube evidence and counterexamples](research.md)
 - [8 author scores / exact SHA / hard checks](story-review.md)
-- [Exact EN/RU preliminary storyboard](storyboard.md)
+- [Exact 46-scene EN/RU preliminary storyboard](storyboard.md)
 - [Packaging hypotheses](packaging-brief.md)
 - [Transfer, missing runtime/reviewer, no approvals](handoff.md)
 

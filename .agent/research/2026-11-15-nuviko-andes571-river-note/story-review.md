@@ -22,7 +22,7 @@
 - **Отсутствие буквального дубля и прямого отказа: PASS (GitHub PR/Issue list + main tree 2026-11-15)**; тематическая близость к #97 явно признана. Нельзя трактовать соперника в прошлой выдаче как запрет.
 - **Канал: PASS** — `channels/nuviko_history/channel.json`: active, en, illustrated, long 16:9. Не музыкальный nuviko_videos.
 - **EN/RU эквивалентность: PASS авторской сверкой 27 пар** (действия, числа, причины и конец), независимый переводчик UNVERIFIED.
-- **Exact spans: PASS author / generated from canonical master**; те же 27 параграфов в storyboard. Оценки 4–6s/композиция — не TTS duration и не фактическая длительность.
+- **Exact spans: PASS author / generated from canonical master**; все 27 мастер-абзацев реконструируются из 46 последовательных EN/RU spans. Оценки 4–6s/композиция — не TTS duration и не фактическая длительность.
 - **Short loop: N_A** — Long, отдельный AV seam без MP4 UNVERIFIED.
 - **Права:** Draft-research-only PASS; **нет** одобрения на media, TTS, imagegen, render, upload, merge, publication или статус канала.
 - **Реальный first listener / sessions.independent:** **UNVERIFIED / not performed**, не создано `ytv-script-review-v1`. Изменение EN требует reviewer на новый hash.

@@ -1,7 +1,7 @@
 EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официальному ytv script gate.
 
 # Handoff — Flight 571 / river message — Nuviko History
-Base remote main SHA `5d3222c8888c775d2195c8b2949949f2d992e98d` (checked 2026-11-15); branch `work/story-drafts/nuviko-andes571-river-note-20261115`; English Long 16:9. Text files only. Exact clean EN `script.en.txt` SHA-256 `d41c5b39ecef0ad2d6cb5163d9a16d0870e74c4b78e0429a765c713d3c9ab0a0` (LF terminal); RU `script.ru.txt` SHA-256 `63eda5b97b19fa83b096ef4e63a35ec41d308a5edca7cbe44eb8dff6bc2d673d`. 27 aligned EN/RU storyboard paragraphs. Research/outstanding audience evidence and independent uncertainty in `research.md` and `story-review.md`.
+Base remote main SHA `5d3222c8888c775d2195c8b2949949f2d992e98d` (checked 2026-11-15); branch `work/story-drafts/nuviko-andes571-river-note-20261115`; English Long 16:9. Text files only. Exact clean EN `script.en.txt` SHA-256 `d41c5b39ecef0ad2d6cb5163d9a16d0870e74c4b78e0429a765c713d3c9ab0a0` (LF terminal); RU `script.ru.txt` SHA-256 `63eda5b97b19fa83b096ef4e63a35ec41d308a5edca7cbe44eb8dff6bc2d673d`. 27 aligned EN/RU script paragraphs divided into 46 exact preliminary storyboard compositions. Research/outstanding audience evidence and independent uncertainty in `research.md` and `story-review.md`.
 
 **Missing actual capabilities in this host:** GitHub API works, but this environment has no checked-out `ytvideos` directory to run local `uv run ytv start`. Therefore no persistent run/plan_summary/read_next/task_guide/pinned reference_documents, no coordinator session or genuine `sessions.independent` reviewer, no authentic `ytv-script-review-v1`. No media/image generation, no reference image bytes, no invented IDs/leases/receipts/approvals.
 
