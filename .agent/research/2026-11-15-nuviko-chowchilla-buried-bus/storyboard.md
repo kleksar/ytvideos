@@ -1,6 +1,6 @@
 # Preliminary storyboard — Nuviko History, historical EN Long 16:9
 
-**Editorial only; NO media generated.** This storyboard was derived after complete EN/RU narration and the final author's audience-first assessment. `72069562793e38ba64564ce26c4abdade9d92ee3` exact EN blob and `1276eef0dc0dd2bbf17a5a1a7ab64bc7213dcb46` exact RU blob, 37 full paragraphs. The 62 sequential S001… compositions below reconstruct them **byte-for-byte** when adjacent sentences of the same numbered paragraph are joined by one space, paragraphs by blank lines, and a final newline. Each target composition aims for **about 4–6 seconds** based on ordinary speech density, **not measured timing**; after real TTS, split/consolidate scenes according to real word alignment. Longer-than-6-second phrases cannot be forced to fit a still frame. Motion whole-frame only; direct cuts. No source media hashes, reference PNG bytes, fake source images, real SRT timings or accepted visual QA.
+**Editorial only; NO media generated.** This storyboard was derived from complete EN/RU narration, with a later targeted factual-geography correction; earlier author's scores are stale for this revision. `c728422d1c389d6fc58e044042409c57aced1865` exact EN blob and `853d16d09874bedaa71a7f281b08012347aea4fd` exact RU blob, 37 full paragraphs. The 62 sequential S001… compositions below reconstruct them **byte-for-byte** when adjacent sentences of the same numbered paragraph are joined by one space, paragraphs by blank lines, and a final newline. Each target composition aims for **about 4–6 seconds** based on ordinary speech density, **not measured timing**; after real TTS, split/consolidate scenes according to real word alignment. Longer-than-6-second phrases cannot be forced to fit a still frame. Motion whole-frame only; direct cuts. No source media hashes, reference PNG bytes, fake source images, real SRT timings or accepted visual QA.
 
 Nuviko's illustrated traveler may appear only after actual accepted reference PNGs are available and verified in the production host. It is **not** required in every scene, and none is inserted in these initial survivor reconstructions. Historical persons are reconstructed anonymously without imitating actual minors or implying genuine footage. Period California environment/props require actual reference checks at later gate, not present now.
 
@@ -54,9 +54,9 @@ Nuviko's illustrated traveler may appear only after actual accepted reference PN
 
 ### S005 · source paragraph 3
 
-**EN exact:** By the next morning, those missing passengers would be locked inside a truck buried under a quarry more than a hundred miles away.
+**EN exact:** By the next morning, those missing passengers would be locked inside a moving van buried in a pit at a rock quarry more than a hundred miles away.
 
-**RU exact:** К следующему утру пропавших уже заперли в другом фургоне, закопанном в карьере более чем в ста милях от города.
+**RU exact:** К следующему утру пропавших уже заперли в грузовом фургоне, закопанном в яме на территории карьера более чем в ста милях от города.
 
 **Why this image matters:** Set up empty bus, hidden captives and the escape mechanism promised to the viewer.
 

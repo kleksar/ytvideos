@@ -2,7 +2,8 @@
 
 - **Author:** this writing agent, self-review only.
 - **Observed:** 2026-11-15. **Class: STRONG_CANDIDATE — author editorial recommendation ONLY**, not an independently approved script or likelihood of success.
-- **Exact narration version:** EN Git blob SHA `72069562793e38ba64564ce26c4abdade9d92ee3`; full RU Git blob SHA `1276eef0dc0dd2bbf17a5a1a7ab64bc7213dcb46`. First full draft blobs EN `93f98b9ce63a9ad1442d0b1ba962ff00fb42f80c` and RU `cea4776dda1c92a5ca18b6216285503464f2718e` are retained as exact `revisions/initial.*` in this same package.
+- **Previous evaluated narration version (historical; the scores below do not transfer to the revision):** EN Git blob SHA `72069562793e38ba64564ce26c4abdade9d92ee3`; full RU Git blob SHA `1276eef0dc0dd2bbf17a5a1a7ab64bc7213dcb46`. First full draft blobs EN `93f98b9ce63a9ad1442d0b1ba962ff00fb42f80c` and RU `cea4776dda1c92a5ca18b6216285503464f2718e` are retained as exact `revisions/initial.*` in this same package.
+- **Current revised narration (targeted factual-geography correction only):** EN Git blob SHA `c728422d1c389d6fc58e044042409c57aced1865`; RU Git blob SHA `853d16d09874bedaa71a7f281b08012347aea4fd`. Changed paragraph 3: the moving van was buried in a pit **at** the quarry, not underneath it. S005 synchronized; 62 scene spans reconstruct 37 paragraphs in both languages. **Prior author scores, hard PASS labels, and reviews are STALE for this revision.** New independent review, TTS, MP4 and measured timing remain UNVERIFIED.
 - **Method:** concept scoring **before** first narration (in research); two text-based author readings of the final complete EN and RU, paragraph-by-paragraph factual parity and scene-span reconstruction; final revision corrected premature chronology in opening and removed a repeated conclusion. No audio/voice timing, no claimed human-listener session, no measured video.
 - **Independent reviewer:** **UNVERIFIED / absent**, no genuine `sessions.independent`, no original `ytv-script-review-v1`, no separate independent translation review. Self-reading is not independent.
 
@@ -19,7 +20,9 @@
 
 **Calibration:** 8/8/8 in the three mandatory author criteria is a bounded editorial judgment relative to Thai cave and Pendleton, **not a scientific pass threshold**. No 10 awarded; 5 for limited novelty and 6/low for incomplete audience evidence must not be hidden by averaging. No inflated 9s for polished docs, quantity of scenes or visual simplicity. No 0 assigned to missing measurements. Scores refer only to **EN SHA `72069562793e38ba64564ce26c4abdade9d92ee3`** and paired RU SHA.
 
-## Hard checks (separate, not added to any average)
+## Hard checks (historical previous exact hash; not re-approved for revised text)
+
+The table records the **previous** script. For current hashes, only source-supported geographic correction and deterministic full-storyboard coverage were author-checked; a new independent listener must read the new full texts without the author ratings.
 
 | Check | Outcome and precise scope |
 |---|---|
@@ -37,3 +40,7 @@
 The original first narration is preserved byte-for-byte in `revisions/initial.script.en.txt` (Git blob 93f98b9ce63a9ad1442d0b1ba962ff00fb42f80c) and `revisions/initial.script.ru.txt` (Git blob cea4776dda1c92a5ca18b6216285503464f2718e). **One substantive author revision**: segment 3 clarified "By the next morning" to avoid falsely suggesting that the missing passengers were already underground when police found the bus; cut two redundant final paragraphs so the final payoff includes real survivor cost rather than another summary of the escape and telephone. Storyboard and review were rebuilt against new exact blobs; earlier scene counts/timings are INVALID. No second edit round or independent fabricated reviewer. If future local host edits any word, re-review exact new EN hash and recalculate spans.
 
 Classification STRONG_CANDIDATE does **not** mean awaiting_script_approval, an approved run or permission to make a video.
+
+## Follow-up editorial correction — current revised hashes
+
+At S005 / paragraph 3, “under a quarry” implied the wrong location. The cited municipal/A&E accounts locate the moving van **in a pit at a rock quarry**. Exact EN blob `c728422d1c389d6fc58e044042409c57aced1865`; RU blob `853d16d09874bedaa71a7f281b08012347aea4fd`. No other narration paragraphs altered. Old scoring and hard-check approvals were not transferred. Author-only 62/62 scene spans and 37/37 paragraphs checked for each language; independent reviewer, real TTS timing and AV QA **UNVERIFIED**.
