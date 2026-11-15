@@ -10,7 +10,7 @@ EDITORIAL_CANDIDATE_UNREGISTERED. This is NOT an independent review, audience me
 | Payoff | **9/10**: physical cause and the role of Maria's trip; definite deaths/cleanup, not a fake rescue happy ending | A tragic historical resolution, no tidy moral victory |
 | Novelty versus current PR queue | **9/10**: no Goiânia same-topic PR, different from #110 Lake Nyos (CO2 plume) and #98 Demon Core (lab experiment) | Globally known catastrophe; existing YouTube documentaries |
 | Distinct paper visuals | **9/10**: abandoned clinic, wheelbarrow, metal capsule, blue glimmer, fragments, table, bus, detector, stadium and demolition | Blue glow must be restrained; static dioramas, not green magic smoke |
-| Natural spoken EN/RU | **8/10**: conversational actions, 43 aligned paragraphs and few technical terms | Independent native listener and bilingual reviewer unavailable |
+| Natural spoken EN/RU | **8/10**: conversational actions, 42 aligned paragraphs and few technical terms | Independent native listener and bilingual reviewer unavailable |
 | Comparable confirmed demand | **UNVERIFIED**: video examples show people do watch topic in multiple languages | No same-author/same-age baseline, CTR, VPH, retention or watch-through |
 
 **Authorial conclusion: STRONG_CANDIDATE, medium confidence in narrative; no claim of 9–10 measured virality.**
@@ -24,7 +24,7 @@ EDITORIAL_CANDIDATE_UNREGISTERED. This is NOT an independent review, audience me
 - Check that the fatal child incident is told factually, not used as spectacle.
 
 ### Authorial checks only
-- Cross-checked opening → ending on exact draft, 43 EN/RU corresponding narrative beats.
+- Cross-checked opening → ending on exact draft, 42 EN/RU corresponding narrative beats.
 - Central claim grounded in IAEA/Fiocruz.
 - No on-screen radiation/fake known addresses prescribed.
 - No false live viewer metrics, no production status.
