@@ -1,3 +1,9 @@
+# OBSOLETE — LEGACY 38-BLOCK STORYBOARD / DO NOT DISPATCH
+
+**This file is retained as historical editorial work only.** Exact EN/RU narration has been materially changed to **34 aligned blocks / 901 EN words**. The S001–S038 verbatim text and 4–6s windows below refer to obsolete scripts and must **not** be used to generate images, timing, subtitles, TTS or MP4. After the exact new script passes genuine blind review and official approval, rebuild the storyboard from accepted narration and measured TTS under pinned channel requirements.
+
+---
+
 # Предварительный Long storyboard — paper/card 16:9
 
 **Статус:** EDITORIAL PRELIMINARY — не принято script gate. Исходный EN narration и RU перевод связаны сценами ниже **буквально**, не являются `measured` speech timings. Для каждой композиции рабочая гипотеза **4–6 секунд**, на TTS/word map пересчитать и при необходимости делить длинные реплики на новые композиции. Ни один фактический image/reference asset не получен; все prompts НЕ отправлялись. Общая камерная грамматика: непрозрачная единая full-frame paper diorama, видимые слоистые кромки и волокна, контактные тени; whole-frame horizontal pan/zoom only, прямые cuts. Стиль и предметы эпохи требуют actual visual refs перед production.
