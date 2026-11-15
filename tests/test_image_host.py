@@ -107,11 +107,41 @@ class ImageHostTests(unittest.TestCase):
     def test_dispatch_has_fresh_session_exact_skill_and_owned_inputs(self):
         run_id, job = self.first_dispatch(count=1)
         packet = json.loads((Path(job["directory"]) / "TASK.json").read_text())
-        self.assertIn("Fixture skill", (Path(job["directory"]) / "SKILL.md").read_text())
+        skill_file = Path(job["directory"]) / packet["skill"]["local_path"]
+        self.assertIn("Fixture skill", skill_file.read_text())
+        self.assertNotIn("text", packet["skill"])
+        self.assertEqual(packet["skill"]["sha256"], file_digest(skill_file))
+        self.assertEqual(job["inputs"][packet["skill"]["local_path"]], file_digest(skill_file))
+        original = self.store.get(run_id)["pool"]["backend"]["requests"][job["id"]]["packet"]["context"]
+        self.assertEqual(original["skill"]["text"], skill_file.read_text())
         self.assertTrue(packet["local_inputs"])
         self.assertEqual(job["state"], "running")
         self.assertEqual(self.store.get(run_id)["tasks"]["image:s0"]["status"], "running")
         self.assertEqual(len(self.server.started), 1)
+
+    def test_restart_reads_a_saved_legacy_layout_without_rewriting_or_redispatch(self):
+        from ytvideos.packets import instruction_files
+
+        def legacy_files(context):
+            payload, files = instruction_files(context)
+            local_path = payload["skill"]["local_path"]
+            payload["skill"] = copy.deepcopy(context["skill"])
+            del payload["materialization_version"]
+            files["SKILL.md"] = files.pop(local_path)
+            files["TASK.json"] = (canonical(payload) + "\n").encode()
+            return payload, files
+
+        with patch("ytvideos.runtime.image_host.instruction_files", side_effect=legacy_files):
+            _, job = self.first_dispatch(count=1)
+        directory = Path(job["directory"])
+        saved = {name: (directory / name).read_bytes() for name in ("TASK.json", "SKILL.md")}
+        self.server.finish(job["thread_id"])
+        restarted = ImageHost(self.production, self.server, self.config)
+        result = restarted.tick()
+        self.assertEqual(result["dispatches"], [])
+        self.assertEqual(len(self.server.started), 1)
+        self.assertEqual(restarted._jobs()[0]["state"], "delivered")
+        self.assertEqual(saved, {name: (directory / name).read_bytes() for name in saved})
 
     def test_thumbnail_worker_receives_readable_thumbnail_standard_inside_its_sandbox(self):
         profile_path = self.production.project / "channels/test_channel/channel.json"
@@ -392,7 +422,9 @@ class ImageHostTests(unittest.TestCase):
     def test_changed_pinned_input_rejects_completion(self):
         _, job = self.first_dispatch(count=1)
         self.server.finish(job["thread_id"])
-        (Path(job["directory"]) / "SKILL.md").write_text("changed")
+        directory = Path(job["directory"])
+        packet = json.loads((directory / "TASK.json").read_text())
+        (directory / packet["skill"]["local_path"]).write_text("changed")
         with self.assertRaisesRegex(WorkflowError, "modified a pinned input"):
             self.host.poll(job)
 
@@ -611,7 +643,8 @@ class ImageHostTests(unittest.TestCase):
                 directory.append(Path(params["cwd"]))
                 return {"thread": {"id": "tampered-preflight"}, "model": "test-luna"}
             if method == "mcpServerStatus/list":
-                (directory[0] / "SKILL.md").write_text("changed after materialization")
+                packet = json.loads((directory[0] / "TASK.json").read_text())
+                (directory[0] / packet["skill"]["local_path"]).write_text("changed after materialization")
                 return {"data": []}
             if method == "turn/start":
                 return {"turn": {"id": "must-not-start"}}

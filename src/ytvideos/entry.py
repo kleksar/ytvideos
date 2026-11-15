@@ -4,30 +4,20 @@ This prepares the existing workflow. It does not claim tasks, call providers,
 grant approvals or create an alternative sequence of production stages.
 """
 import errno
-import json
 from pathlib import Path
 import shutil
 import tempfile
 
-from .context import validate_documents
 from .doctor import inspect
 from .errors import Conflict, WorkflowError
-from .util import canonical, digest, file_digest
+from .packets import MATERIALIZATION_VERSION, instruction_files
+from .util import digest, file_digest
 
 
 def reading_packet(production, packet):
-    documents = validate_documents(packet["references"], packet["reference_documents"])
-    payload = json.loads(canonical(packet))
-    files = {"SKILL.md": payload["skill"]["text"].encode("utf-8")}
-    payload["reference_manifest"] = []
-    for document in documents:
-        name = "requirements/" + document["path"]
-        files[name] = document["text"].encode("utf-8")
-        payload["reference_manifest"].append({"path": document["path"], "sha256": document["sha256"],
-                                               "local_path": name})
-    del payload["reference_documents"]
-    files["TASK.json"] = (json.dumps(payload, ensure_ascii=False, indent=2) + "\n").encode("utf-8")
-    directory = production.workspace / "runs" / packet["run_id"] / "entry" / digest(packet)
+    payload, files = instruction_files(packet)
+    identity = digest({"materialization_version": MATERIALIZATION_VERSION, "packet": packet})
+    directory = production.workspace / "runs" / packet["run_id"] / "entry" / identity
     if not directory.resolve().is_relative_to(production.workspace):
         raise WorkflowError("entry packet must stay inside its workspace")
     directory.parent.mkdir(parents=True, exist_ok=True)
@@ -56,7 +46,7 @@ def reading_packet(production, packet):
     verify_saved()
     return {"task_id": packet["task_id"], "input_hash": packet["input_hash"],
             "task_file": str(directory / "TASK.json"), "task_file_sha256": file_digest(directory / "TASK.json"),
-            "skill_file": str(directory / "SKILL.md"),
+            "skill_file": str(directory / payload["skill"]["local_path"]),
             "requirement_files": [str(directory / item["local_path"]) for item in payload["reference_manifest"]],
             "task_guide": packet["task_guide"],
             "instruction": "Read task_file, skill_file and every requirement_file before executing this task. "

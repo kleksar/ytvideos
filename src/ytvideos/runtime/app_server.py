@@ -15,6 +15,7 @@ import threading
 import time
 
 from ..errors import WorkflowError
+from ..packets import materialized_skill_file
 
 
 class RpcError(WorkflowError):
@@ -228,7 +229,8 @@ class AppServer:
     def image_prompt(operation_id):
         return (
             "$ytv-produce-video Dispatch identity: " + operation_id + ". "
-            "Read TASK.json, SKILL.md, every pinned requirement including the task-execution procedure, "
+            "Read TASK.json, the skill at skill.local_path (SKILL.md for a legacy packet), "
+            "every pinned requirement including the task-execution procedure, "
             "and the exact inputs before generation. Use only documented methods and parameters. "
             "Your only task is to generate exactly one scene/thumbnail with the native image tool. "
             "Save the image in this working directory. Do not use paid API fallbacks, shell image "
@@ -244,6 +246,7 @@ class AppServer:
                 "threadId": thread_id, "limit": 100, "detail": "toolsAndAuthOnly"})
             if servers:
                 raise WorkflowError("image worker has inherited MCP servers; use an isolated host profile without connectors")
+            skill_file = materialized_skill_file(directory)
             # Preflight may wait on IO. Recheck task authority and pinned inputs
             # immediately afterwards, before the mutating native request.
             if before_send is not None:
@@ -256,7 +259,7 @@ class AppServer:
             "threadId": thread_id, "model": self.model, "approvalPolicy": "never",
             "input": [
                 {"type": "text", "text": prompt},
-                {"type": "skill", "name": "ytv-produce-video", "path": str(directory / "SKILL.md")}
+                {"type": "skill", "name": "ytv-produce-video", "path": str(skill_file)}
             ],
             "sandboxPolicy": {"type": "workspaceWrite", "writableRoots": [str(directory)],
                 "readOnlyAccess": {"type": "restricted", "includePlatformDefaults": True,

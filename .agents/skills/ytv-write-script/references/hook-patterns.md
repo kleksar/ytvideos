@@ -18,6 +18,24 @@
 
 Сохранить выбранную первую реплику, подтверждающий её факт и обещанную отдачу в существующей research/script note. Полный текст и конец → начало проверять по действующему editorial review; совпадение с формой не является `PASS`.
 
+## Long: вступительные вопросы перед основным hook
+
+Для документального Long с narration **начать с конкретных вопросов**, затем перейти к подтверждённым событиям и основному драматургическому hook. Вопросы формируют ожидания, погружение даёт новые факты, hook повышает ставки. Проверить точную связь всех вопросов с ответами и названием/обложкой по [editorial](../../../../docs/standards/editorial.md#обещание-в-начале-long). Для Shorts и Long без дикторской документальной речи не навязывать этот порядок.
+
+Редакторский пример для истории [Batavia, 1629, PR #29](https://github.com/kleksar/ytvideos/pull/29). Это **не** правка или approval существующего сценария.
+
+**Было:** в исходной редакции две лодки сразу даны как hook, а смысловые вопросы поставлены позже.
+
+**Стало (пример принципа, требует fact-check перед использованием):**
+
+> Why were more than a hundred survivors murdered after the *Batavia* was wrecked? How did twenty-two isolated soldiers resist the mutineers? And why did it matter which of two boats reached the rescue ship first?
+>
+> Two boats were racing toward the rescuers. One carried men who wanted to warn the captain. The other carried men who wanted to seize his ship.
+>
+> Their race began with a shipwreck three months earlier. What happened on the islands explains why both boats were desperate to reach the same vessel.
+
+Не переносить число вопросов и длину примера механически в другие сюжеты. Редактор оценивает раннюю фактическую информацию и дальнейшую отдачу, а не количество вопросительных знаков.
+
 ## Происхождение
 
 Формат «приём + форма + пример + условие отказа» предложен после чтения [YouTube Agent Skill](https://github.com/Jakeschincariol/youtube-agent-skill/blob/a2feb2104981a375ffd4f87ee04f4f5344ac43c6/skills/yt-script/hooks.json). Здесь используются собственные формулировки и условные примеры; числовые оценки, сроки и утверждения об аудитории из upstream не перенесены. Версии, лицензии и границы адаптации — [в записке об источниках](../../../../docs/research/production-skill-sources.md).

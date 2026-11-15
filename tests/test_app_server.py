@@ -8,7 +8,8 @@ import unittest
 from unittest.mock import patch
 
 from ytvideos.errors import WorkflowError
-from ytvideos.runtime.app_server import AppServer, RpcError, RpcUnavailable, StdioRpc
+from ytvideos.packets import instruction_files
+from ytvideos.runtime.app_server import AppServer, ImageNotSent, RpcError, RpcUnavailable, StdioRpc
 
 
 class FakeRpc:
@@ -29,6 +30,24 @@ class FakeRpc:
 
 
 class ProtocolTests(unittest.TestCase):
+    def worker_directory(self, *, legacy=False):
+        temporary = tempfile.TemporaryDirectory()
+        self.addCleanup(temporary.cleanup)
+        directory = Path(temporary.name)
+        packet = {"skill": {"path": ".agents/skills/ytv-produce-video/SKILL.md",
+                            "text": "# Synthetic image skill\n"},
+                  "references": [], "reference_documents": []}
+        if legacy:
+            files = {"TASK.json": json.dumps(packet).encode(),
+                     "SKILL.md": packet["skill"]["text"].encode()}
+        else:
+            _, files = instruction_files(packet)
+        for name, data in files.items():
+            target = directory / name
+            target.parent.mkdir(parents=True, exist_ok=True)
+            target.write_bytes(data)
+        return directory
+
     def test_probe_pages_models_and_never_substitutes(self):
         rpc = FakeRpc([{"userAgent": "fixture"}, {"account": {"type": "chatgpt"}}, {"data": [{"model": "other"}], "nextCursor": "next"},
                        {"data": [{"model": "test-luna"}], "nextCursor": None}])
@@ -43,15 +62,19 @@ class ProtocolTests(unittest.TestCase):
     def test_new_thread_and_explicit_skill_use_restricted_workdir(self):
         rpc = FakeRpc([{"thread": {"id": "thread-1"}, "model": "test-luna"}, {"data": []}, {"turn": {"id": "turn-1"}}])
         server = AppServer(rpc, "test-luna")
-        self.assertEqual(server.start_thread(Path("/tmp/owned-worker")), "thread-1")
+        directory = self.worker_directory()
+        self.assertEqual(server.start_thread(directory), "thread-1")
         prompt = server.image_prompt("task-marker")
-        self.assertEqual(server.start_image("thread-1", "/tmp/owned-worker", prompt), "turn-1")
+        self.assertEqual(server.start_image("thread-1", directory, prompt), "turn-1")
         self.assertFalse(rpc.calls[0][1]["ephemeral"])
         params = rpc.calls[-1][1]
         self.assertEqual(params["approvalPolicy"], "never")
         self.assertFalse(params["sandboxPolicy"]["networkAccess"])
-        self.assertEqual(params["sandboxPolicy"]["writableRoots"], ["/tmp/owned-worker"])
+        self.assertEqual(params["sandboxPolicy"]["writableRoots"], [str(directory)])
         self.assertEqual(params["input"][1]["type"], "skill")
+        self.assertEqual(params["input"][1]["path"],
+                         str(directory / "requirements/.agents/skills/ytv-produce-video/SKILL.md"))
+        self.assertIn("skill.local_path", prompt)
         self.assertIn("task-marker", params["input"][0]["text"])
         self.assertNotIn("thread/fork", [name for name, _ in rpc.calls])
 
@@ -59,7 +82,34 @@ class ProtocolTests(unittest.TestCase):
         with self.assertRaises(RpcUnavailable):
             AppServer(FakeRpc([{"thread": {"id": "x"}, "model": "other"}]), "wanted").start_thread("/tmp")
         with self.assertRaises(RpcUnavailable):
-            AppServer(FakeRpc([{"data": []}, {}]), "wanted").start_image("x", "/tmp", "test")
+            AppServer(FakeRpc([{"data": []}, {}]), "wanted").start_image("x", self.worker_directory(), "test")
+
+    def test_legacy_saved_packet_keeps_its_root_skill_attachment(self):
+        directory = self.worker_directory(legacy=True)
+        before = (directory / "TASK.json").read_bytes()
+        rpc = FakeRpc([{"data": []}, {"turn": {"id": "legacy-turn"}}])
+        self.assertEqual(AppServer(rpc, "fixture").start_image("thread", directory, "fixture"), "legacy-turn")
+        self.assertEqual(rpc.calls[-1][1]["input"][1]["path"], str(directory / "SKILL.md"))
+        self.assertEqual((directory / "TASK.json").read_bytes(), before)
+
+    def test_changed_skill_or_escaping_descriptor_stops_before_native_generation(self):
+        for mutation in ("changed", "escape", "unsupported"):
+            with self.subTest(mutation=mutation):
+                directory = self.worker_directory()
+                task_file = directory / "TASK.json"
+                task = json.loads(task_file.read_text())
+                if mutation == "changed":
+                    (directory / task["skill"]["local_path"]).write_text("altered skill")
+                elif mutation == "escape":
+                    task["skill"]["local_path"] = "../outside/SKILL.md"
+                    task_file.write_text(json.dumps(task))
+                else:
+                    task["materialization_version"] = 99
+                    task_file.write_text(json.dumps(task))
+                rpc = FakeRpc([{"data": []}])
+                with self.assertRaises(ImageNotSent):
+                    AppServer(rpc, "fixture").start_image("thread", directory, "fixture")
+                self.assertEqual([method for method, _ in rpc.calls], ["mcpServerStatus/list"])
 
     def test_history_reads_every_page_without_resuming(self):
         rpc = FakeRpc([{"data": [{"id": "t1"}], "nextCursor": "next"}, {"data": [{"id": "t2"}]}])
