@@ -1,5 +1,4 @@
 """Fixture integrity and rule routing only, never a semantic or audience score."""
-import ast
 import hashlib
 import json
 from pathlib import Path
@@ -71,14 +70,14 @@ class StorySelectionContractTests(unittest.TestCase):
         self.assertLess(len(skill.encode("utf-8")), 12000)
 
     def test_existing_shared_context_routes_include_owner(self):
-        tree = ast.parse(read("src/ytvideos/context.py"))
-        node = next(node for node in tree.body if isinstance(node, ast.Assign)
-                    and any(isinstance(t, ast.Name) and t.id == "STAGE_REFERENCES"
-                            for t in node.targets))
-        routes = ast.literal_eval(node.value)
+        from ytvideos.context import task_references
+
+        # Check the actual task routing, not a literal AST representation:
+        # STAGE_REFERENCES may reuse named path constants.
         for stage in ("research", "script", "review"):
-            with self.subTest(stage=stage):
-                self.assertIn(OWNER, routes[stage])
+            for format_name in ("short", "long"):
+                with self.subTest(stage=stage, format=format_name):
+                    self.assertIn(OWNER, task_references({"stage": stage}, format=format_name))
 
     def test_existing_script_constraints_remain(self):
         text = read(OWNER)
