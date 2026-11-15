@@ -1,23 +1,11 @@
-# Goiânia — three honest packaging hypotheses (not measured CTR)
+# Paper Detour Goiânia — revised packaging, untested hypotheses
 
-Target: Paper Detour EN Long 16:9. One physical paper-diorama image per shot, visible fibres, practical directional light and whole-frame pan/zoom only. Avoid film-like parallax, green radiation waves and simulated archival photos. Artwork and titles are concepts, NOT generated/approved assets.
+English documentary Long 16:9; no measured CTR, thumbnails or format QA. Follow Paper Detour paper-diorama and large-short-text rules at production.
 
-## A (recommended): a beautiful object with a terrible cost
-- Title: **The Beautiful Blue Powder That Made a City Sick**
-- Thumbnail: dark 1987 scrapyard; tiny metal capsule glowing softly blue on an ordinary wooden table; frightened adult silhouettes only as small background cues. Text option: **BLUE POWDER**. No luminous people, no radiation beam.
-- Visible verification: EN blocks 2–3; full payoff: physical contamination pathway, bag and screening in blocks 21–42.
-- Risk: 'City sick' could falsely imply an entire city fell ill. Safer alternative title below if promise read too literally.
+**A — Recommended / concrete:** `The Blue Powder That Set Off a Radiation Emergency`. Paper close view of 1987 scrapyard garage and blue-glowing sealed source assembly, practical blue tint only around observed material, no visible radiation beams. Short large text: `IT GLOWED BLUE`. Opening proof: narration #2–4; human hook: #5–6; outcome: #35–53. Risk: illustration must not depict unverified brightness or a non-existent glowing person.
 
-## B (factually tighter): the warning inside a bag
-- Title: **She Carried a Radioactive Capsule onto a Bus. Then the City Learned Why People Were Sick.**
-- Thumbnail: ordinary plastic bag with metal capsule silhouette next to a 1987 bus stop, dark street; small blue glimmer from the object's opening. Text option: **INSIDE THE BAG**.
-- Visible verification: EN blocks 22–26; final payoff blocks 40–42.
-- Risk: makes Maria Gabriela the sole protagonist, leaving first two minutes focused on clinic/scrapyard. The video must not imply other passengers were injured.
+**B — investigation turn:** `The Radiation Meter Wasn't Broken`. A paper close-up of two handheld meters with needles beyond range, distant health office. Short large text: `BOTH PEGGED`. Proof: #35–38, delayed after early hook. Risk: a technical title may undersell human drama; no verified historical meter photograph is being claimed.
 
-## C (specific broad promise)
-- Title: **Why 112,000 People Were Checked for Radiation in Brazil**
-- Thumbnail: paper stadium turnstile queue, lone image of the actual metal capsule on the left, high visual separation. Text option: **112,000 CHECKED**.
-- Visible verification: block 1 opening and blocks 30–33.
-- Risk: too documentary and less curious than A or B.
+**C — scale:** `Why 112,800 People Went to a Stadium for Radiation Checks`. Paper illustration of a stadium intake and foreground small medical-source capsule. Short large text `112,800 CHECKED`. Proof: #1 and #42–46. Risk: too explanatory; do not suggest 112,800 were sick.
 
-**Chosen direction after copy check:** A with a wording correction to avoid implying everyone became ill: **The Blue Powder That Triggered a Citywide Radiation Emergency**. Only 249 measured contamination cases, not an entire city's illness. Suggested thumbnail text: **IT GLOWED BLUE**. No false archival documents. Source reference licensing must be checked before using images. Include separate 10-second end screen per applicable Long channel requirements after approved production.
+All concepts must honour the exact promise, source-backed facts, first factual confirmation and eventual payoff. No finished images/AB data. For later authorized production add channel's separate 10-second Long end-screen composition.
