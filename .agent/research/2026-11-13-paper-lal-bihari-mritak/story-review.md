@@ -9,19 +9,23 @@ Review method: original-author text-only checks **before** provisional storyboar
 - **EN/RU semantic match — AUTHORIAL PASS, INDEPENDENT UNVERIFIED.** Same 1976 and 1994/18-year interval, land ownership, allegation attribution, failed steps, 1980 association, award in 2003, and final unresolved class of other victims. RU not a second voice track.
 - **Length and storyboard — UNVERIFIED for measured runtime.** 258 English whitespace-delimited words; no voice, no frame timings. Scene 4–6 seconds guidance only; final speech may require more unique scenes or cuts, without speeding up just to fit.
 - **Audience analytics — UNVERIFIED.** No proprietary stayed-to-watch / retention / CTR, no baseline.
-- **Text loop — AUTHORIAL PASS on meaning, independent UNVERIFIED.** The organization helps living people betrayed by office paperwork; on restart, the specific bank encounter supplies a concrete instance. Complete restoration, continued work and award all come before the loop. No withheld answer. Actual visual/audio/music/caption seam **UNVERIFIED until MP4**.
+- **Text loop — new author-only text check, independent UNVERIFIED.** The final clause ends in `when`; S001 names the first bank visit and completes its grammar. The case led to the later association, without suggesting the association existed in 1976. Restoration, further work and award are resolved before the seam. Actual visual/audio/music/caption seam **UNVERIFIED until MP4**.
 - **Independent first listener — UNVERIFIED.** Fresh session not available; did not imitate one and no reviewer packet/receipt claimed.
 
 ## Full-text twice-reading procedure, self-check only
 EN: concatenated the **entire** `script.en.txt` to itself, with no paragraphs omitted. Checked each transition in both passes, no added reveal after final award. No AI audio listened to.
-RU: same full double-pass for `script.ru.txt`. Same ending payoff and thematic return.
+RU: same full double-pass for `script.ru.txt`. Same resolved payoff and grammatical return. This is an author-only read, not a fresh independent listener.
 **Literal last TWO → first TWO EN paragraphs (unbroken):**
-In 2003, the campaign earned him an Ig Nobel Peace Prize. The association kept helping people who walked into an office alive, only to find a different story in the records. Lal Bihari went to a bank in India for a loan. A clerk told him he was dead. Bihari was standing right there. But the land register said his inherited plot now belonged to relatives.
+In 2003, the campaign earned him an Ig Nobel Peace Prize. The association went on helping others listed as dead on paper. The fight that led to it began when Lal Bihari went to a bank in India for a loan. A clerk told him he was dead. Bihari was standing right there. But the land register said his inherited plot now belonged to relatives.
 
 **Literal last TWO → first TWO RU paragraphs (unbroken):**
-В 2003 году за эту борьбу он получил Шнобелевскую премию мира. Ассоциация продолжила помогать людям, которые приходили в учреждения живыми, а в документах обнаруживали совсем другое. Лал Бихари пришёл в банк в Индии за кредитом. Служащий сообщил, что он умер. Бихари стоял прямо перед ним. Но в земельном реестре его наследственный участок уже значился за родственниками.
+В 2003 году за эту борьбу он получил Шнобелевскую премию мира. Ассоциация продолжила помогать людям, которых по документам считали умершими. Борьба, из которой она выросла, началась, когда Лал Бихари пришёл в банк в Индии за кредитом. Служащий сообщил, что он умер. Бихари стоял прямо перед ним. Но в земельном реестре его наследственный участок уже значился за родственниками.
 
-**Authorial seam conclusion:** PASS as a thematic generic→specific cut from affected association members to Bihari's bank encounter, not a cliffhanger or punctuation trick. Caveat: the chronology restarts; a fresh reader could see it as a reset. That would supersede author's PASS. To validate, obtain actual independent exact-EN-hash `ytv-script-review-v1` fresh double-reading; bilingual reviewer independently checks exact RU/EN; verify AV loop on eventual approved MP4.
+**Authorial seam conclusion (revised script):** the new `when` → `Lal Bihari went...` cut is one continuous grammatical sentence in both languages, not just a thematic restart. It is still UNVERIFIED by an independent first listener, and a deliberate pause or scene cut could break it in audio. Re-read the whole exact current EN/RU scripts twice before recording a genuine `ytv-script-review-v1`; then check the actual AV seam on the approved MP4. This does not constitute a production PASS.
 
 ## Changes and next action
 One initial connected full script; one speech edit to remove empty recaps and invented motives before storyboard. No external reviewer edits and no claimed acceptance. Do not reuse this authorial check after any narration edit: preserve original exact master and re-run all scene spans and independent evidence against the new version. **Do not produce media from this PR.**
+
+## Bounded revision of the loop
+- Baseline PR HEAD `f2c690fe9f3d582cd87dd0f8bad164625fb190fc`; pre-edit EN blob `eb8f99b0ea9275a60b6460d3eb1d23edc905ade3`, RU blob `c0e6970e0e8822e3344da0123d4667be045b4286`. Changed only the final EN/RU paragraph, its S017 visual intention and this review/handoff evidence.
+- All earlier narration and its factual qualifiers are retained. The former author-only thematic-loop PASS **does not transfer** to the new exact script; independent first-listener and bilingual review, real `ytv` receipts, ownership approval, voice duration and MP4 AV seam remain UNVERIFIED.
