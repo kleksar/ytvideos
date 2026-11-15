@@ -45,3 +45,13 @@ Observed from publicly indexed YouTube results on **2026-11-15**. These were sea
 ## Narrative promise and limits
 
 Viewer promise: why announcing a true winning number could leave many people legally unable to redeem the printed matching number; how the dispute escalated beyond the technical cause. First proof at S001-S003: exact three-digit result and question about differing outcomes. Mechanism at S013; court payoff at S025. **Not claimed:** intentional fraud by Pepsi, proven software root cause, automatic entitlement to prize, every participant a rioter, invented historical conversations, precise counts of deaths beyond documented evidence, or reliable current viewer demand.
+
+## Post-critique narrative rebuild, 2026-11-15
+
+**Current EN/RU versions:** 781 English words / 29 corresponding blocks; original 423 words / 25 blocks in previous PR head `7393e9eb76858d94e0455da4783f4a854817085e`. Earlier cold-open quote above is a description of **baseline research**, not current narration. Revised exact questions start with number≠claim, prevalence of 349, court outcome. The prior 25-scene storyboard is INVALID for the new narration. No new audience measurements were made.
+
+**New fact-check sources and reason for change:** Philippine Supreme Court G.R. 167866 (2006) and G.R. 150394 (2007), Roanoke Times 1993 Victoria Angelo reportage and US State Department 1993 violence chronology: exact URLs and claim limits in [story-review.md](story-review.md). In particular the phrase `million-peso winning number` was overconfident: 349 was publicly announced as winning number, while million-peso print appeared on some disputed caps; actual prize validation depended on authorised security code. We do not assert a proven software root cause or mass legal liability. The 2007 decision documents 486,170 people taking goodwill payments; other claims led to association/litigation. Some early court outcomes are not equivalent to blanket winning claims.
+
+**Story map:** question promise (1) -> first human signal (2–5) -> approved mechanics and cap-code contradiction (6–15) -> response and compensation/organisation (16–19) -> violent bystander harm (20–22) -> judicial resolution (23–26) -> honest payoff (27–29). Distinct events, not 29 production shots.
+
+**Independent review blocker:** No permitted external reviewer or pinned runtime in this host. New exact script hash requires new cold read and EN/RU comparison; old ratings/gates/timing are not inherited.
