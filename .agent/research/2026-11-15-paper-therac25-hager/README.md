@@ -1,12 +1,12 @@
 EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официальному ytv script gate.
-# Paper Detour — Therac-25, Fritz Hager
+# Paper Detour — Therac-25 / Fritz Hager
 
-English Long 16:9. A medical physicist reproduced a supposedly impossible radiation overdose with the treatment room empty, then helped other hospitals demonstrate the same fault. The cause was more serious than a mistyped key: the display and machine could disagree.
+Revised EN Long 16:9 after owner's Goânia critique and merged questions-first Long standard: two harmed Tyler patients, an impossible-to-reproduce warning, Hager's fast-mode correction test and calls to other clinics. Intro questions precede immersion and meter hook; revised ending is a concrete proof protocol.
 
-**[ПОЛНЫЙ РУССКИЙ СЦЕНАРИЙ](script.ru.txt) · [FULL EN narration](script.en.txt)**.
+**[ПОЛНЫЙ РУССКИЙ СЦЕНАРИЙ](script.ru.txt)** · **[Full English narration](script.en.txt)**.
 
-Main base: `5d3222c8888c775d2195c8b2949949f2d992e98d`. Exact Git blobs: EN `831f20d43865bc99c3e036d8b5e65212acc63739`, RU `9dd3a582212719ac93200b70873f9ba0da464d1c`. Story only, no official `ytv start` registration, independent review or production approval.
+Baseline `2df06057b330b8eea4e3ea85cba67329b6d03da3`; new EN git blob `55ae8790d9193cc7a89133c87ee0fbaabacea3da`, RU `35a3f0671b01a8b4d8afb42ed1382cc101f08610`. 26 EN/RU paragraphs and 26 provisional storyboard scenes, unmeasured timing. Former 45-scene script and review STALE.
 
-[Real selection, YouTube observations and limits](research.md) · [Eight author-only editorial criteria and hard checks](story-review.md) · [Preliminary storyboard](storyboard.json) · [Honest packaging brief](packaging-brief.md) · [Exact local handoff](handoff.md).
+[Evidence, comparative research and exact revision trail](research.md) · [Author-only editorial assessment](story-review.md) · [Provisional storyboard](storyboard.json) · [Packaging ideas](packaging-brief.md) · [Handoff](handoff.md).
 
-**NOT** production-ready; no media, TTS, image generation, render, upload, publication, merge or channel/skill changes.
+No ytv run, independent reviewer, script approval, TTS, MP4 or publication. Draft only, not production-ready.

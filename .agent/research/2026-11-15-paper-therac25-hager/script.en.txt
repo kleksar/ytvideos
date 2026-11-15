@@ -1,89 +1,51 @@
-In a Texas cancer center, a radiation machine fired. The detector immediately went off the scale.
+How could a cancer-treatment machine injure a patient while its screen said it was ready? Why was the same machine used again after the first warning? And how could anyone prove what was wrong?
 
-There was no patient in the room. A physicist was trying to reproduce an accident.
+In 1986, a clinic in Tyler, Texas, used a machine called Therac-25 to aim radiation at tumors.
 
-Two people had already received devastating doses from a machine its maker called safe.
+One night, physicist Fritz Hager tested it with nobody on the treatment table. His radiation meter went straight off the scale.
 
-After hours of failed attempts, the clue appeared: how fast the operator typed.
+He was trying to explain two injuries. The first had happened on March 21, when a man came for treatment of a tumor on his back.
 
-The machine was called Therac-25. Doctors used it to aim radiation at tumors.
+The man later described a sensation like hot coffee being poured onto his skin. The treatment had gone badly wrong.
 
-It could deliver electrons directly, or produce X-rays using a different arrangement inside.
+The machine stopped with a message: “Malfunction 54.” It did not tell the operator that a massive overdose might already have occurred.
 
-That distinction mattered. A high-energy beam required the right hardware in its path.
+Engineers examined the machine but could not make it repeat the accident. The manufacturer disputed that it could deliver the dose the clinic suspected.
 
-The operator chose the treatment on a computer terminal and checked what the screen displayed.
+The machine returned to service. On April 11, another patient was injured during treatment for skin cancer on his face.
 
-In March 1986, a man in Tyler was treated for a tumor on his back.
+That second patient died on May 1. The first man also died later. Now the clinic had two tragedies and still no reproducible explanation.
 
-During treatment, he described a sensation like hot coffee being poured on his skin.
+Hager and the technician stayed after hours to investigate. They entered the treatment settings over and over, but the machine kept behaving normally.
 
-The machine displayed an obscure message: Malfunction 54. It did not explain the danger.
+The clue was in an ordinary correction on the operator's screen. Therac-25 offered two treatment modes: electrons and X-rays.
 
-The patient had received far more radiation than intended. The consequences were devastating.
+The X-ray mode required a different internal arrangement, including a metal target in the beam's path. The computer was supposed to coordinate that hardware.
 
-Engineers from the manufacturer inspected the device but could not reproduce an overdose.
+The operator had entered X-rays, moved back through the form, and quickly changed the choice to electrons. On screen, the correction appeared complete.
 
-Their answer was that the machine could not produce the exposure the clinic feared.
+But the internal control had not fully caught up. What the display showed and what the machine was preparing to do were no longer the same.
 
-With no cause demonstrated, the equipment went back into service.
+The speed mattered. Slow down, and the error could disappear. Make the correction quickly enough, and a dangerous state could slip through.
 
-On April 11, another Tyler patient was injured during treatment for skin cancer.
+A powerful beam could then fire without the protective arrangement needed for that treatment. The screen alone could not reveal it.
 
-He would die on May 1. The first patient also later died of his injuries.
+That was the sequence Hager finally reproduced in the empty room. The measuring instrument could not display the enormous output.
 
-Now medical physicist Fritz Hager and a technician investigated the controls themselves.
+A specialist from another cancer center checked it with different measuring equipment. One reproduced pulse lasted about a tenth of a second.
 
-They tried repeating the treatment setup after hours, but the error kept disappearing.
+Now the clinic had more than a suspicion: a repeatable test that others could perform before treating anyone.
 
-The operator could change a treatment entry without starting the entire setup again.
+Hager telephoned other clinics that used Therac-25 and explained the sequence. Physicists at several sites tried it for themselves.
 
-One quick correction changed the selection on screen from X-rays to electrons.
+They reproduced the failure. In one Georgia clinic, it helped explain an earlier patient injury that had never made sense.
 
-But inside, the machine had not finished changing what the beam would strike.
+Why could the device reach that state at all? Earlier machines had physical safety interlocks. Therac-25 relied much more heavily on software.
 
-The display said one thing, and the hardware was still in another state.
+And the fast-entry fault was not the whole story. Investigators documented six massive overdoses from 1985 to early 1987, involving more than one kind of defect.
 
-A very powerful beam could then fire without the arrangement needed for safe delivery.
+After further accidents, authorities required stronger safeguards. The response involved software changes and physical protections, not just one keyboard fix.
 
-The sequence was so timing-sensitive that slower typing could fail to reproduce it.
+The Tyler clinic stopped using its Therac-25. That did not undo what happened to either patient.
 
-They ran the test again, with measuring equipment in place of a patient.
-
-The instrument shot off its scale. It was recording a dose far beyond treatment levels.
-
-A specialist from another cancer center helped confirm the result with different equipment.
-
-One reconstructed exposure lasted roughly a tenth of a second. The dose was enormous.
-
-Now the hospital had evidence the maker's earlier assurance could not explain away.
-
-But one hospital knowing the trick would not protect patients elsewhere.
-
-Hager began telephoning other clinics that used the same machine.
-
-Physicists in several places followed the sequence and reported the same failure.
-
-At one clinic, the result finally explained a patient injury they had already seen.
-
-This was not simply an operator pressing the wrong button. A displayed correction could leave the hardware unsafe.
-
-Older machines had physical safety devices that could interrupt an unsafe setup.
-
-Therac-25 relied much more heavily on software to detect and prevent dangerous conditions.
-
-Investigators later documented six massive overdoses from 1985 to early 1987.
-
-Not all six came from the same bug. Other flaws could reach dangerous states too.
-
-That is why fixing a single key or one timing error was not enough.
-
-After further incidents, authorities pushed to stop routine use until stronger safeguards were installed.
-
-Physical protections and software changes became part of the corrective work.
-
-The people already injured could not be made whole by those repairs.
-
-But Hager's repeatable test turned a disputed warning into proof others could check.
-
-And it showed why a reassuring screen meant nothing if the machine beneath it disagreed.
+But Hager had given other physicists a specific test: which settings to change, how quickly to change them, and what the instrument would show with the room empty.
