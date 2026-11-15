@@ -1,0 +1,12 @@
+EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официальному ytv script gate.
+
+# Local handoff — Paper Detour / Pepsi 349
+
+- Channel: `paper_detour`, English, current main ChannelSpec `active` at base **5d3222c8888c775d2195c8b2949949f2d992e98d**.
+- Format: illustrated **Long 16:9**, not Short and not Nuviko Videos; 30 aligned proposed narration beats, ~3–4 minute editorial estimate only (TTS duration UNVERIFIED).
+- English future master: `.agent/research/2026-11-15-paper-pepsi349-two-codes/script.en.txt`, Git blob **1ec0d672082b2191de6c9d9575b74a395f9905be**; Russian reading translation: `.agent/research/2026-11-15-paper-pepsi349-two-codes/script.ru.txt`, Git blob **baa937c82373b88d6b9701e24ad5fcb9af42c8b1**.
+- Other artifacts: `research.md`, `story-review.md`, `storyboard.md`, `packaging-brief.md`, `README.md` in same folder. No actual media reference bytes or generated assets.
+- Runtime observation in this host: attempted `uv run ytv start --channel paper_detour --format short ...` before research; failed `Failed to spawn: ytv (No such file or directory)`. This was a probe, **not a production run**. The host also has no executable checked-out private repository/runtime store to run `ytv start --format long`. No independent `sessions.independent`/permitted reviewer host observed, therefore no original `ytv-script-review-v1`, no `awaiting_script_approval` and no user approval recorded.
+- On authorized local host: open current repo and `AGENTS.md`; verify current main/ChannelSpec; use `uv run ytv start --channel paper_detour --format long --intent 'Review editorial candidate Pepsi Number Fever 349 and prepare script for owner approval'`; read the returned `plan_summary`, `read_next`, `task_guide` and all exact pinned requirements. Import these *unapproved* research and full EN/RU narration inputs through the documented task contract (do not invent receipt fields). Obtain a **fresh independent cold-reader and bilingual review** bound to exact English hash and original schema, then present both scripts in the official script gate. Follow only real subsequent user approvals.
+- If the official runtime reports a task blocker, record its actual reason and stop that task; do not fabricate leases, tools, assets, review or schedule.
+- User has **not** authorized merge, TTS, image generation, video generation, render, upload, release, channel mutation, or shared skill edits. The storyboard's 4–6-second windows and planned 10-second thematic end-screen are provisional, not measured or rendered.
