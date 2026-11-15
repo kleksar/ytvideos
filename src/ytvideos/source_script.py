@@ -17,7 +17,7 @@ from .util import digest, require_text, utc_now
 from .workflow import configure_speech_tasks
 
 
-def accept_source(production, run_id, *, revision, sha256, source, message, origin):
+def accept_source(production, run_id, *, revision, sha256, source, message, origin, preproduction=None):
     """Bind a real production instruction to immutable source bytes, atomically.
 
     A topic or a file alone is not permission. The local coordinator must supply
@@ -34,6 +34,7 @@ def accept_source(production, run_id, *, revision, sha256, source, message, orig
     require_text(message, "actual user production instruction")
     require_text(origin, "immutable source location, such as PR commit and script path")
     event_id = "local-approval:" + digest(source)
+    prepared = production.artifacts.put(preproduction, "source_preproduction") if preproduction is not None else None
 
     def change(tx, run):
         production._runtime(run)
@@ -46,6 +47,10 @@ def accept_source(production, run_id, *, revision, sha256, source, message, orig
             raise Conflict("source approval must match the pinned source script, not a rewritten draft")
         path = production.artifacts.resolve(original)
         parsed = read_script(path, run["profile"], run["format"])
+        if prepared:
+            from .preproduction import read_package, validate_package
+            validate_package(read_package(production.artifacts.resolve(prepared)),
+                             script=path.read_bytes().decode("utf-8"), profile=run["profile"], format=run["format"])
         artifact = production.artifacts.put(path, "script")
         prior = tx.execute("SELECT payload FROM events WHERE id=?", (event_id,)).fetchone()
         event = {"event_id": event_id, "actor": "local-owner", "source": source,
@@ -53,7 +58,14 @@ def accept_source(production, run_id, *, revision, sha256, source, message, orig
                  "revision": revision, "created_at": json.loads(prior[0])["created_at"] if prior else utc_now(),
                  "message": message, "scope": "produce_video", "authority": "local_session",
                  "source_input": {"artifact_id": original["id"], "origin": origin}}
+        if prepared:
+            event["source_input"]["preproduction_sha256"] = prepared["sha256"]
         if prior:
+            if run.get("source_preproduction_id"):
+                saved_plan = run["artifacts"][run["source_preproduction_id"]]
+                production.artifacts.resolve(saved_plan)
+                if not prepared or saved_plan["sha256"] != prepared["sha256"]:
+                    raise Conflict("source acceptance already binds a different preproduction package")
             if json.loads(prior[0]) != event:
                 raise Conflict("user decision was already bound to different content")
             return production._approve_event(tx, run, event)
@@ -80,6 +92,10 @@ def accept_source(production, run_id, *, revision, sha256, source, message, orig
             research.update(status="skipped", blocker=None)
             research["skip_reason"] = "owner selected a complete source; no new topic research requested"
             script["dependencies"] = []
+        if prepared:
+            run["artifacts"][prepared["id"]] = prepared
+            run["source_preproduction_id"] = prepared["id"]
+            run["pins"]["source_preproduction"] = prepared["sha256"]
         run["artifacts"][artifact["id"]] = artifact
         script.update(status="complete", outputs=[artifact["id"]], claim=None, blocker=None,
                       receipt=None, completed_at=utc_now())
@@ -107,6 +123,8 @@ def main(argv=None):
     parser.add_argument("--source", required=True)
     parser.add_argument("--message", required=True)
     parser.add_argument("--origin", required=True)
+    parser.add_argument("--preproduction", type=Path,
+                        help="Optional exact textual handoff for this source; copied and pinned, never auto-completed")
     args = parser.parse_args(argv)
     from .service import Production
     from .store import Store
@@ -114,7 +132,7 @@ def main(argv=None):
         production = Production(Store(args.db), args.workspace, args.project_root,
                                 approval_public_key=os.environ.get("YTV_APPROVAL_PUBLIC_KEY"))
         approval = accept_source(production, args.run, revision=args.revision, sha256=args.sha256,
-                                 source=args.source, message=args.message, origin=args.origin)
+                                 source=args.source, message=args.message, origin=args.origin, preproduction=args.preproduction)
         print(json.dumps({"approval": approval, "next": production.next(args.run),
                           "review_performed": False, "providers_called": False}, ensure_ascii=False))
     except (WorkflowError, OSError, ValueError) as exc:

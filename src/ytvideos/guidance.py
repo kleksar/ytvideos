@@ -66,6 +66,9 @@ def task_guide(run, task, references=(), requirements=None):
         "execution_reference": TASK_EXECUTION_REFERENCE,
         "completion_command": None if imported_step else ["complete", "--run", run["id"], "--task", task["id"]],
     }
+    from .preproduction import STAGES as PREPRODUCTION_STAGES, guidance as prepared_guidance
+    if stage in PREPRODUCTION_STAGES and run.get("source_preproduction_id"):
+        guidance["preproduction"] = prepared_guidance(run)
     if imported_step:
         guidance["source_import"] = source_import
     if run["profile"]["recipe"] == "licensed_clips" and stage == "script":
@@ -177,6 +180,7 @@ def run_plan(run, next_state, requirements, *, code_matches_pin, capable):
         "format": run["format"], "revision": run["revision"], "pins": run["pins"],
         "production_requirements": requirements,
         "source_script": run["artifacts"].get(run.get("source_script_id")),
+        "source_preproduction": run["artifacts"].get(run.get("source_preproduction_id")),
         "target": {"artifact": "mp4", "ready_after": "review", "plan_is_approval": False,
                    "publication_requires": "explicit user instruction"},
         "accepted": {"script": valid_approval(run, "script"), "mp4": valid_approval(run, "mp4")},

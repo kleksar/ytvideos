@@ -19,6 +19,7 @@
 | State/leases/revisions/approval authority | [architecture](../docs/architecture.md) |
 | Session backend, capabilities и actual executor | [runtime](../docs/operations/runtime.md) |
 | Общий межсессионный бюджет vidIQ | [vidIQ credits](../docs/operations/vidiq-credits.md) |
+| Текстовый production-пакет сюжетного MR, identity/coverage и source import | [preproduction contract](../docs/operations/preproduction-contract.md) |
 | Адаптивная image queue | [adaptive workers](../docs/architecture/adaptive-workers.md) |
 | Переход старых работ и policy mapping | [migration](../docs/migration.md) |
 | Ветка/MR/tests/evals | [development](../docs/development.md) |

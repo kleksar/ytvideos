@@ -12,26 +12,28 @@ from .util import digest
 
 TASK_EXECUTION_REFERENCE = ".agents/skills/ytv-start/references/task-execution.md"
 VIDEO_CLIPS_REFERENCE = ".agents/skills/ytv-produce-video/references/video-clips.md"
+PREPRODUCTION_REFERENCE = "docs/operations/preproduction-contract.md"
+PREPRODUCTION_PROCEDURE = ".agents/skills/ytv-produce-video/references/preproduction.md"
 
 
 STAGE_REFERENCES = {
     "research": ["docs/standards/editorial.md", "docs/standards/thumbnails.md",
                  ".agents/skills/ytv-write-script/references/hook-patterns.md"],
     "script": ["docs/standards/editorial.md", "docs/standards/narration.md", "docs/standards/thumbnails.md",
-               ".agents/skills/ytv-write-script/references/hook-patterns.md"],
+               ".agents/skills/ytv-write-script/references/hook-patterns.md", PREPRODUCTION_REFERENCE, PREPRODUCTION_PROCEDURE],
     "storyboard": ["docs/standards/visual.md", ".agents/skills/ytv-produce-video/references/video-clips.md",
-                   ".agents/skills/ytv-produce-video/references/production-examples.md"],
+                   ".agents/skills/ytv-produce-video/references/production-examples.md", PREPRODUCTION_REFERENCE, PREPRODUCTION_PROCEDURE],
     "scene_image": ["docs/standards/visual.md", ".agents/skills/ytv-produce-video/references/video-clips.md",
                     ".agents/skills/ytv-produce-video/references/production-examples.md"],
     "audio": ["docs/standards/audio.md",
-              ".agents/skills/ytv-produce-video/references/production-examples.md"],
+              ".agents/skills/ytv-produce-video/references/production-examples.md", PREPRODUCTION_REFERENCE, PREPRODUCTION_PROCEDURE],
     "subtitles": ["docs/standards/audio.md", "docs/standards/delivery.md"],
     "render": ["docs/standards/delivery.md", "docs/standards/visual.md", "docs/standards/audio.md", ".agents/skills/ytv-produce-video/references/video-clips.md",
-               ".agents/skills/ytv-produce-video/references/production-examples.md"],
+               ".agents/skills/ytv-produce-video/references/production-examples.md", PREPRODUCTION_REFERENCE, PREPRODUCTION_PROCEDURE],
     "review": ["docs/standards/delivery.md", "docs/standards/visual.md", "docs/standards/audio.md", ".agents/skills/ytv-produce-video/references/video-clips.md",
                "docs/standards/editorial.md", "docs/standards/narration.md", "docs/standards/thumbnails.md"],
     "packaging": ["docs/standards/release.md", "docs/standards/thumbnails.md", "docs/standards/visual.md",
-                  "docs/operations/thumbnail-contract.md"],
+                  "docs/operations/thumbnail-contract.md", PREPRODUCTION_REFERENCE, PREPRODUCTION_PROCEDURE],
     "upload": ["docs/standards/release.md", "docs/standards/thumbnails.md"],
     "configure_release": ["docs/standards/release.md", "docs/standards/thumbnails.md",
                           "docs/operations/thumbnail-experiments.md"],
