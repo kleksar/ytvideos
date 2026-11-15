@@ -47,4 +47,4 @@ Important: raw views across creators, languages, upload ages, audience countries
 
 ## Coverage status
 
-Proposed EN/RU draft aligned by paragraph (43 beats; not locked shots). Approximate EN word count: 833. Estimated runtime from narration speed is NOT measured. No TTS, audio, real images, SRT, video, scene timing or independent first-listener exists. Block 1 is the long-form question promise; block 2 establishes the physical hook. Do not proceed to detailed storyboard or production before official script review/approval.
+Proposed EN/RU draft aligned by paragraph (42 beats; not locked shots). Approximate EN word count: 833. Estimated runtime from narration speed is NOT measured. No TTS, audio, real images, SRT, video, scene timing or independent first-listener exists. Block 1 is the long-form question promise; block 2 establishes the physical hook. Do not proceed to detailed storyboard or production before official script review/approval.
