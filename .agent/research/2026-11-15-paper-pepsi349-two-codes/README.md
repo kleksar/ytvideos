@@ -1,13 +1,11 @@
-EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официальному ytv script gate.
+EDITORIAL_CANDIDATE_UNREGISTERED — only a proposed Paper Detour English Long 16:9.
 
-# Paper Detour — Pepsi Number Fever / 349
+# Pepsi 349 — Two meanings of a winning number
 
-In 1992 Pepsi announced 349 as its million-peso winning number. Many ordinary caps also showed 349, but did not have the correct security code. The contradictory understanding of the promotion led to years of claims, protests, fatal violence and court decisions. The narrative explains both the consumer's expectation and the actual terms without depicting the company's disputed software explanation as proven.
+A Filipino family sees 349 announced on TV. The same digits appear on hundreds of thousands of soda caps; many also show a high prize amount, but most lack the approved security code. The story follows one named claimant, Pepsi's official response, claims organised in court, violence against bystanders and a specific Supreme Court ruling without claiming that every cap with 349 earned a million pesos.
 
-**Full RU:** [script.ru.txt](script.ru.txt) · **Full EN narration:** [script.en.txt](script.en.txt)
+**[Full revised EN — 781 words](script.en.txt)** · **[Полный русский сценарий — 29 соответствующих блоков](script.ru.txt)**
 
-[Audience research and factual uncertainty](research.md) · [Authorial eight-criterion review](story-review.md) · [Verbatim provisional storyboard](storyboard.md) · [Packaging directions](packaging-brief.md) · [Exact local handoff](handoff.md).
+[Research and original public-video comparisons](research.md) · [revision, story map, fact-check, scores, blocker](story-review.md) · [title/thumbnail concepts](packaging-brief.md) · [exact local workflow handoff](handoff.md).
 
-**Editorial class:** STRONG_CANDIDATE, medium author confidence, **eighth demand score UNVERIFIED**. Registered run, independent reviewer, media, CI and owner approval are not implied by these text files. No production, merge or publication permission.
-
-**Editorial revision:** narration now closes on the documented 2006 court outcome (25 proposed scenes); repeated recap and moral were removed. Original baseline 9345bfb30341c78cfb4a53696ad15712d7ac3f32; new independent review and timing remain UNVERIFIED.
+**Old 25-scene storyboard is obsolete** after a substantive text rewrite, retained only as a historical draft. Independent reviewer, official script gate, narration duration, production, merge and publication all NOT DONE.
