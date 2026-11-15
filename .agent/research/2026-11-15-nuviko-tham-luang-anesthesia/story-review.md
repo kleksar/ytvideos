@@ -1,4 +1,28 @@
-# story-review — audience-first-v1
+# story-review — revised author-only editorial check
+
+EDITORIAL_CANDIDATE_UNREGISTERED. No independent review, approval or runtime receipt.
+
+Revision baseline `55302e62a953c72534334b4ad0902aef2fd568e3`; EN `b721ca6cd1cd3db9aa415b04e0ebe8b9c02d4952`, RU `01bb090125fc190a58f7abd325c0a0172a43f726`. Old author scores/reviews tied to EN `26749edac4f4b4735e8026f81d3312264dda35b2` are **STALE**. These assessments are editorial judgements, not measured demand.
+
+| Criterion | Author assessment | Evidence / limitation |
+|---|---|---|
+| Interest | 8/10 | Thirteen children and adults must escape submerged passages; the known ending reduces novelty |
+| Opening | 8/10 | Two answerable questions precede the factual beginning; sedation is revealed only after the fatal supply mission, rather than in line two |
+| Development | 8/10 | Discovery changes the objective; unsafe route, dropping oxygen, fatal supply mission, and clinical rescue procedure each change what can happen next |
+| Payoff | 8/10 | The 4+4+5 outcome and use of anaesthesia answer both opening questions; no duplicate final narration |
+| Freshness | 5/10 | Widely documented 2018 event, neo same-author comparison in research is not an outlier |
+| Factual grounding | 8/10 | NEJM clinical letter and contemporaneous Guardian timeline support key decisions and outcome; exact reconstructed camera placements are not documented |
+| Spoken naturalness | 7/10 | Concrete actions and distinct questions, but clinical explanations still need an independent first-listener and actual voice test |
+| Observed demand | UNVERIFIED | No own-channel CTR/retention or age-matched verified comparison on this revised version |
+
+**Question-to-answer audit:** Why not wait? Flooding and declining oxygen (paragraph 11); how transport inexperienced children? anaesthesia + breathing masks, trained divers and staged extraction (paragraphs 14–28). Main hook after first consequential events: the anaesthesia plan (paragraph 14). Human stakes remain families awaiting news, Saman Kunan's death and the named doctor's clinical decision. No inner thoughts or fabricated quotation added. Scene coverage 44/44 EN+RU literal reconstruction; estimated timing only.
+
+**Independent reviewer: UNVERIFIED.** Review exact EN narration without these author scores; reviewer may reject either revision or both. Production, TTS, MP4 and viewer reaction not tested.
+
+---
+
+## Archived author review of baseline (STALE, not an approval)
+
 
 EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официальному ytv script gate.
 

@@ -1,5 +1,15 @@
 # Research — Tham Luang: unconscious through the flooded cave
 
+## Содержательная правка 2026-11-15 — baseline `55302e62a953c72534334b4ad0902aef2fd568e3`
+
+- **Было:** один вступительный вопрос, немедленное раскрытие анестезии до событий; после смерти Самана вопрос повторял уже поставленную проблему; после успешного спасения финальный абзац вновь пересказывал наркоз.
+- **Стало:** два различных начальных вопроса до погружения; анастезия впервые появляется в основном сюжетном повороте после обнаружения людей, оценки маршрута, падения кислорода и гибели спасателя; дублирующие абзацы убраны. Полный ответ о способе спасения и результате 4+4+5 дан до финала.
+- **Точная исходная редакция:** EN blob `26749edac4f4b4735e8026f81d3312264dda35b2`, RU blob `bedc69ff9d3089ddd9422dd1d6ea7d7a40312d6c`. **Новая:** EN blob `b721ca6cd1cd3db9aa415b04e0ebe8b9c02d4952`, RU blob `01bb090125fc190a58f7abd325c0a0172a43f726`. Переход 30→28 смысловых абзацев, 48→44 сцен. Git Draft не является run или approval.
+- **Story map:** вопросы «как вывести?» и «почему не ждать?» → затопление и обнаружение живыми → непроходимый для новичка маршрут, дождь и нехватка кислорода → смерть Самана на подвозе баллонов → решение об анестезии, доктор Харрис, полнолицевые маски и поддержание дыхания → четыре спасённых, пауза на пополнение запасов, ещё четыре, последние пятеро → все тринадцать живы.
+- **Sources:** [NEJM, 2019-04-03](https://www.nejm.org/doi/full/10.1056/NEJMc1900831) (анестезия, кислородные маски, четыре первых пациента); [Guardian, 2018-07-06](https://www.theguardian.com/world/live/2018/jul/06/thailand-cave-rescue-looming-rain-clouds-could-force-quick-rescue-decision-live) (возрастающий риск ожидания, смерть водолаза); [Guardian 2018 timeline](https://www.theguardian.com/world/ng-interactive/2018/jul/03/thailand-cave-rescue-where-were-the-boys-found-and-how-can-they-be-rescued) (найдены, этапы спасения).
+- **Unverified:** independent first-listener / bilingual review, actual TTS and timing, MP4/AV, viewer CTR or retention, exact on-screen reconstruction. Previous author scores, timing and review of source blobs are STALE; no script approval or official runtime registered.
+
+
 EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официальному ytv script gate.
 
 Observation date: 2026-11-15 (UTC dates used for public YouTube metadata). Base remote main: `5d3222c8888c775d2195c8b2949949f2d992e98d`.

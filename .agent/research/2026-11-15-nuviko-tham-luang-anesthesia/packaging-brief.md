@@ -10,7 +10,7 @@ Channel: **Nuviko History**, English Long **16:9**, historical survival. No medi
 2. **The Thai Cave Rescue's Most Dangerous Decision** — retains curiosity, but broader and risks overpromise that a single decision made the rescue possible. Use only if thumbnail and intro identify the mask/underwater extraction.
 3. **How Divers Carried 13 People Through a Flooded Cave** — accurate instructional mechanism; less surprising to viewers who know the historical headline.
 
-Recommendation for editorial comparison only: #1, not a publication-ready promise. Script explicitly discloses anaesthesia in the second sentence, so this is neither fake suspense nor an answer withheld until the end.
+Recommendation for editorial comparison only: #1, not a publication-ready promise. Revised narration begins with two factual questions and discloses anaesthesia at the main turning point after the danger and fatal supply mission; the answer is then explained through the masks, medication and extraction outcome.
 
 ## Thumbnail promise and first proof
 
@@ -20,7 +20,7 @@ Recommendation for editorial comparison only: #1, not a publication-ready promis
 
 **Concept C:** medical preparation area with a sealed full-face mask on a bench and the flooded cave mouth in the background; no staged direct medical procedure implying a verified photograph.
 
-The first proof appears at the narration's second paragraph: “rescuers eventually chose ... carry the children underwater while they were unconscious.” The *mechanism* is substantiated by full-face masks/oxygen and re-dosing after the Saman Kunan/oxygen risk section. Full payoff: on 10 July all 13 are back alive after 4 + 4 + 5 rescues. Do not claim everyone survived *because anaesthesia alone*; multiple teams, supplies, masks, pumps and medical support also mattered.
+The first proof comes from the actual cave entry and flooding; the main anaesthesia reveal follows the fatal supply mission, after the opening question and evidence of why waiting was risky. The *mechanism* is substantiated by full-face masks/oxygen and re-dosing after the Saman Kunan/oxygen risk section. Full payoff: on 10 July all 13 are back alive after 4 + 4 + 5 rescues. Do not claim everyone survived *because anaesthesia alone*; multiple teams, supplies, masks, pumps and medical support also mattered.
 
 Potential misleading readings: “Put to sleep” could be interpreted as leaving children asleep without airway protection; show sealed mask and clarify anaesthetic. Do not show a screaming child losing the mask, which would invent an incident. Low-lit underwater depiction should show real layout and breathing gear rather than empty darkness. No graphic death image of Saman Kunan. Visual and title contrast with heavy pre-existing documentaries may be weak; public views are not measured CTR or retention.
 

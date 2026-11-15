@@ -2,15 +2,15 @@
 
 EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официальному ytv script gate.
 
-Based on **exact EN Git blob** `26749edac4f4b4735e8026f81d3312264dda35b2` and exact RU Git blob `bedc69ff9d3089ddd9422dd1d6ea7d7a40312d6c`, not a recorded voice. **48 ordered composition candidates**, each nominal **~4–6 seconds** as a planning target only; actual duration/word alignment **UNVERIFIED** until approved audio. EN/RU strings in each span are literal substrings of the corresponding masters. The first/second sentence of each paragraph uses adjacent scene numbers; no text is added to narration. Long format 16:9.
+Based on **exact EN Git blob** `b721ca6cd1cd3db9aa415b04e0ebe8b9c02d4952` and exact RU Git blob `01bb090125fc190a58f7abd325c0a0172a43f726`, not a recorded voice. **44 ordered composition candidates**, each nominal **~4–6 seconds** as a planning target only; actual duration/word alignment **UNVERIFIED** until approved audio. EN/RU strings in each span are literal substrings of the corresponding masters. The first/second sentence of each paragraph uses adjacent scene numbers; no text is added to narration. Long format 16:9.
 
 Visual grammar: 2018 northern Thailand, warm-grey limestone cave, murky brown floodwater, dark teal wetsuits, yellow guide lines, positive-pressure full-face masks, practical portable lamps and safety cylinders. Whole-frame gentle camera pan/zoom only with direct cuts; 2K 2560×1440 30fps planned, not rendered. Honest reconstructions, **not documentary archives**. The established cartoon traveler is an external presenter and is optional; these scenes omit him rather than invent unverified reference PNGs. If later inserted, use actual approved two reference files `channels/nuviko_history/brand/References/traveler_turnaround_20261104.png` and `traveler_emotions_20261104.png` from authorized production host. Avoid artificial dashboard overlays, fake quotations, pseudo-archival labels, medical gore, fictional reactions, and in-image titles. On-screen subtitles, native end screen and recorded timings are later separately approved production tasks.
 
 ### S001 — paragraph 1, sentence 1
 
-**EN exact span:** How do you bring thirteen people out of a flooded cave when the children have never learned to dive?
+**EN exact span:** How could rescuers bring twelve boys and their coach through a flooded cave when none of the children had ever learned to cave-dive?
 
-**RU exact span:** Как вывести тринадцать человек из затопленной пещеры, если дети никогда не учились нырять с аквалангом?
+**RU exact span:** Как спасателям вывести двенадцать мальчиков и их тренера из затопленной пещеры, если никто из детей не умел нырять в таких условиях?
 
 **Visual meaning:** Underwater horizontal section of a flooded Thai limestone cave; distant diver faces the tiny dark passage, no people depicted as victims. This composition should clarify the narration's physical situation, not introduce a new historical fact.
 
@@ -20,15 +20,15 @@ Visual grammar: 2018 northern Thailand, warm-grey limestone cave, murky brown fl
 
 ### S002 — paragraph 2, sentence 1
 
-**EN exact span:** In Thailand, rescuers eventually chose a plan that sounded even more dangerous: carry the children underwater while they were unconscious.
+**EN exact span:** And why could they not simply wait for the water to recede?
 
-**RU exact span:** В Таиланде спасатели в конце концов выбрали ещё более рискованный на первый взгляд план: провести детей под водой без сознания.
+**RU exact span:** И почему нельзя было просто дождаться, пока вода спадёт?
 
-**Visual meaning:** Underwater side profile of rescue diver supporting small sealed positive-pressure full-face breathing mask on patient, carefully maintaining level posture. This composition should clarify the narration's physical situation, not introduce a new historical fact.
+**Visual meaning:** Flooded limestone tunnel with an exposed dry ledge disappearing beneath rising muddy water, a simple water-level marker and no person pictured. This composition should clarify the narration's physical situation, not introduce a new historical fact.
 
-**Standalone AI-image prompt (NOT submitted):** Wide cinematic 16:9 documentary-grade photorealistic illustration, historical Thailand 2018 at Tham Luang limestone cave. Underwater side profile of rescue diver supporting small sealed positive-pressure full-face breathing mask on patient, carefully maintaining level posture. Natural subdued colour, accurate cave texture, physically plausible masks/air cylinders, coherent flashlight lighting and realistic muddy water, no text, no border, no diagram arrows, no logos, no visible animation, no fake archival watermark. Hold one meaningful physical composition suitable for gentle whole-frame camera motion. Any anonymous people are illustrative reconstructions, not identifiable portraits.
+**Standalone AI-image prompt (NOT submitted):** Wide cinematic 16:9 documentary-grade photorealistic illustration, historical Thailand 2018 at Tham Luang limestone cave. Flooded limestone tunnel with an exposed dry ledge disappearing beneath rising muddy water, a simple water-level marker and no person pictured. Natural subdued colour, accurate cave texture, physically plausible masks/air cylinders, coherent flashlight lighting and realistic muddy water, no text, no border, no diagram arrows, no logos, no visible animation, no fake archival watermark. Hold one meaningful physical composition suitable for gentle whole-frame camera motion. Any anonymous people are illustrative reconstructions, not identifiable portraits.
 
-**Continuity:** Maintain established rainy 2018 northern Thailand cave world, mud/water clarity, air cylinder shape, mask seal and guide line colour; no time jump or survivor identity claim beyond narration. Timing estimated only.
+**Continuity:** Introduce water-level uncertainty visually; no prediction or invented dialogue about the monsoon. Timing estimated only.
 
 ### S003 — paragraph 3, sentence 1
 
@@ -248,30 +248,6 @@ Visual grammar: 2018 northern Thailand, warm-grey limestone cave, murky brown fl
 
 ### S021 — paragraph 14, sentence 1
 
-**EN exact span:** An experienced diver had died on the route.
-
-**RU exact span:** На этом пути погиб опытный дайвер.
-
-**Visual meaning:** Diver helmet resting next to difficult flooded passage; silent respectful memorial to fallen rescuer, no death portrayed. This composition should clarify the narration's physical situation, not introduce a new historical fact.
-
-**Standalone AI-image prompt (NOT submitted):** Wide cinematic 16:9 documentary-grade photorealistic illustration, historical Thailand 2018 at Tham Luang limestone cave. Diver helmet resting next to difficult flooded passage; silent respectful memorial to fallen rescuer, no death portrayed. Natural subdued colour, accurate cave texture, physically plausible masks/air cylinders, coherent flashlight lighting and realistic muddy water, no text, no border, no diagram arrows, no logos, no visible animation, no fake archival watermark. Hold one meaningful physical composition suitable for gentle whole-frame camera motion. Any anonymous people are illustrative reconstructions, not identifiable portraits.
-
-**Continuity:** Maintain established rainy 2018 northern Thailand cave world, mud/water clarity, air cylinder shape, mask seal and guide line colour; no time jump or survivor identity claim beyond narration. Timing estimated only.
-
-### S022 — paragraph 14, sentence 2
-
-**EN exact span:** How could the team take children through it?
-
-**RU exact span:** Как провести по нему детей?
-
-**Visual meaning:** Rock and water squeeze with child-sized mask and tether next to adult scuba cylinder, posing the practical transport dilemma. This composition should clarify the narration's physical situation, not introduce a new historical fact.
-
-**Standalone AI-image prompt (NOT submitted):** Wide cinematic 16:9 documentary-grade photorealistic illustration, historical Thailand 2018 at Tham Luang limestone cave. Rock and water squeeze with child-sized mask and tether next to adult scuba cylinder, posing the practical transport dilemma. Natural subdued colour, accurate cave texture, physically plausible masks/air cylinders, coherent flashlight lighting and realistic muddy water, no text, no border, no diagram arrows, no logos, no visible animation, no fake archival watermark. Hold one meaningful physical composition suitable for gentle whole-frame camera motion. Any anonymous people are illustrative reconstructions, not identifiable portraits.
-
-**Continuity:** Maintain established rainy 2018 northern Thailand cave world, mud/water clarity, air cylinder shape, mask seal and guide line colour; no time jump or survivor identity claim beyond narration. Timing estimated only.
-
-### S023 — paragraph 15, sentence 1
-
 **EN exact span:** The cave divers proposed a startling answer: sedate the children so they would not panic in the flooded passages.
 
 **RU exact span:** Спелеодайверы предложили неожиданный выход: дать детям анестезию, чтобы те не запаниковали в затопленных проходах.
@@ -282,7 +258,7 @@ Visual grammar: 2018 northern Thailand, warm-grey limestone cave, murky brown fl
 
 **Continuity:** Maintain established rainy 2018 northern Thailand cave world, mud/water clarity, air cylinder shape, mask seal and guide line colour; no time jump or survivor identity claim beyond narration. Timing estimated only.
 
-### S024 — paragraph 16, sentence 1
+### S022 — paragraph 15, sentence 1
 
 **EN exact span:** They turned to Richard Harris, an Australian anaesthetist who was also an experienced cave diver.
 
@@ -294,7 +270,7 @@ Visual grammar: 2018 northern Thailand, warm-grey limestone cave, murky brown fl
 
 **Continuity:** Maintain established rainy 2018 northern Thailand cave world, mud/water clarity, air cylinder shape, mask seal and guide line colour; no time jump or survivor identity claim beyond narration. Timing estimated only.
 
-### S025 — paragraph 17, sentence 1
+### S023 — paragraph 16, sentence 1
 
 **EN exact span:** Harris was reluctant.
 
@@ -306,7 +282,7 @@ Visual grammar: 2018 northern Thailand, warm-grey limestone cave, murky brown fl
 
 **Continuity:** Maintain established rainy 2018 northern Thailand cave world, mud/water clarity, air cylinder shape, mask seal and guide line colour; no time jump or survivor identity claim beyond narration. Timing estimated only.
 
-### S026 — paragraph 17, sentence 2
+### S024 — paragraph 16, sentence 2
 
 **EN exact span:** An unconscious child cannot fix a leaking mask or tell a rescuer when something is wrong.
 
@@ -318,7 +294,7 @@ Visual grammar: 2018 northern Thailand, warm-grey limestone cave, murky brown fl
 
 **Continuity:** Maintain established rainy 2018 northern Thailand cave world, mud/water clarity, air cylinder shape, mask seal and guide line colour; no time jump or survivor identity claim beyond narration. Timing estimated only.
 
-### S027 — paragraph 18, sentence 1
+### S025 — paragraph 17, sentence 1
 
 **EN exact span:** But leaving the group inside as the monsoon continued was dangerous too.
 
@@ -330,7 +306,7 @@ Visual grammar: 2018 northern Thailand, warm-grey limestone cave, murky brown fl
 
 **Continuity:** Maintain established rainy 2018 northern Thailand cave world, mud/water clarity, air cylinder shape, mask seal and guide line colour; no time jump or survivor identity claim beyond narration. Timing estimated only.
 
-### S028 — paragraph 18, sentence 2
+### S026 — paragraph 17, sentence 2
 
 **EN exact span:** The team prepared full-face breathing masks.
 
@@ -342,7 +318,7 @@ Visual grammar: 2018 northern Thailand, warm-grey limestone cave, murky brown fl
 
 **Continuity:** Maintain established rainy 2018 northern Thailand cave world, mud/water clarity, air cylinder shape, mask seal and guide line colour; no time jump or survivor identity claim beyond narration. Timing estimated only.
 
-### S029 — paragraph 19, sentence 1
+### S027 — paragraph 18, sentence 1
 
 **EN exact span:** Harris would anaesthetize the children before they set off.
 
@@ -354,7 +330,7 @@ Visual grammar: 2018 northern Thailand, warm-grey limestone cave, murky brown fl
 
 **Continuity:** Maintain established rainy 2018 northern Thailand cave world, mud/water clarity, air cylinder shape, mask seal and guide line colour; no time jump or survivor identity claim beyond narration. Timing estimated only.
 
-### S030 — paragraph 19, sentence 2
+### S028 — paragraph 18, sentence 2
 
 **EN exact span:** Divers were trained to give extra doses if needed along the way.
 
@@ -366,7 +342,7 @@ Visual grammar: 2018 northern Thailand, warm-grey limestone cave, murky brown fl
 
 **Continuity:** Maintain established rainy 2018 northern Thailand cave world, mud/water clarity, air cylinder shape, mask seal and guide line colour; no time jump or survivor identity claim beyond narration. Timing estimated only.
 
-### S031 — paragraph 20, sentence 1
+### S029 — paragraph 19, sentence 1
 
 **EN exact span:** Each child would have to keep breathing while a diver guided him around bends, rocks and submerged squeezes.
 
@@ -378,7 +354,7 @@ Visual grammar: 2018 northern Thailand, warm-grey limestone cave, murky brown fl
 
 **Continuity:** Maintain established rainy 2018 northern Thailand cave world, mud/water clarity, air cylinder shape, mask seal and guide line colour; no time jump or survivor identity claim beyond narration. Timing estimated only.
 
-### S032 — paragraph 21, sentence 1
+### S030 — paragraph 20, sentence 1
 
 **EN exact span:** At some points the water gave way to muddy, partly dry chambers where other rescue workers could take over.
 
@@ -390,7 +366,7 @@ Visual grammar: 2018 northern Thailand, warm-grey limestone cave, murky brown fl
 
 **Continuity:** Maintain established rainy 2018 northern Thailand cave world, mud/water clarity, air cylinder shape, mask seal and guide line colour; no time jump or survivor identity claim beyond narration. Timing estimated only.
 
-### S033 — paragraph 22, sentence 1
+### S031 — paragraph 21, sentence 1
 
 **EN exact span:** On July eighth, the rescuers began with four boys.
 
@@ -402,7 +378,7 @@ Visual grammar: 2018 northern Thailand, warm-grey limestone cave, murky brown fl
 
 **Continuity:** Maintain established rainy 2018 northern Thailand cave world, mud/water clarity, air cylinder shape, mask seal and guide line colour; no time jump or survivor identity claim beyond narration. Timing estimated only.
 
-### S034 — paragraph 22, sentence 2
+### S032 — paragraph 21, sentence 2
 
 **EN exact span:** Their journey out would test the entire plan.
 
@@ -414,7 +390,7 @@ Visual grammar: 2018 northern Thailand, warm-grey limestone cave, murky brown fl
 
 **Continuity:** Maintain established rainy 2018 northern Thailand cave world, mud/water clarity, air cylinder shape, mask seal and guide line colour; no time jump or survivor identity claim beyond narration. Timing estimated only.
 
-### S035 — paragraph 23, sentence 1
+### S033 — paragraph 22, sentence 1
 
 **EN exact span:** The first child disappeared into the dark water with his diver.
 
@@ -426,7 +402,7 @@ Visual grammar: 2018 northern Thailand, warm-grey limestone cave, murky brown fl
 
 **Continuity:** Maintain established rainy 2018 northern Thailand cave world, mud/water clarity, air cylinder shape, mask seal and guide line colour; no time jump or survivor identity claim beyond narration. Timing estimated only.
 
-### S036 — paragraph 23, sentence 2
+### S034 — paragraph 22, sentence 2
 
 **EN exact span:** Others followed at intervals along the same route.
 
@@ -438,7 +414,7 @@ Visual grammar: 2018 northern Thailand, warm-grey limestone cave, murky brown fl
 
 **Continuity:** Maintain established rainy 2018 northern Thailand cave world, mud/water clarity, air cylinder shape, mask seal and guide line colour; no time jump or survivor identity claim beyond narration. Timing estimated only.
 
-### S037 — paragraph 24, sentence 1
+### S035 — paragraph 23, sentence 1
 
 **EN exact span:** Beyond the flooded sections, teams carried the boys toward waiting medics and ambulances.
 
@@ -450,7 +426,7 @@ Visual grammar: 2018 northern Thailand, warm-grey limestone cave, murky brown fl
 
 **Continuity:** Maintain established rainy 2018 northern Thailand cave world, mud/water clarity, air cylinder shape, mask seal and guide line colour; no time jump or survivor identity claim beyond narration. Timing estimated only.
 
-### S038 — paragraph 25, sentence 1
+### S036 — paragraph 24, sentence 1
 
 **EN exact span:** Then the first boy emerged alive.
 
@@ -462,7 +438,7 @@ Visual grammar: 2018 northern Thailand, warm-grey limestone cave, murky brown fl
 
 **Continuity:** Maintain established rainy 2018 northern Thailand cave world, mud/water clarity, air cylinder shape, mask seal and guide line colour; no time jump or survivor identity claim beyond narration. Timing estimated only.
 
-### S039 — paragraph 25, sentence 2
+### S037 — paragraph 24, sentence 2
 
 **EN exact span:** By that evening, all four had been brought out.
 
@@ -474,7 +450,7 @@ Visual grammar: 2018 northern Thailand, warm-grey limestone cave, murky brown fl
 
 **Continuity:** Maintain established rainy 2018 northern Thailand cave world, mud/water clarity, air cylinder shape, mask seal and guide line colour; no time jump or survivor identity claim beyond narration. Timing estimated only.
 
-### S040 — paragraph 26, sentence 1
+### S038 — paragraph 25, sentence 1
 
 **EN exact span:** The team still couldn't rush back in.
 
@@ -486,7 +462,7 @@ Visual grammar: 2018 northern Thailand, warm-grey limestone cave, murky brown fl
 
 **Continuity:** Maintain established rainy 2018 northern Thailand cave world, mud/water clarity, air cylinder shape, mask seal and guide line colour; no time jump or survivor identity claim beyond narration. Timing estimated only.
 
-### S041 — paragraph 26, sentence 2
+### S039 — paragraph 25, sentence 2
 
 **EN exact span:** They needed to rest and replace air cylinders before starting again.
 
@@ -498,7 +474,7 @@ Visual grammar: 2018 northern Thailand, warm-grey limestone cave, murky brown fl
 
 **Continuity:** Maintain established rainy 2018 northern Thailand cave world, mud/water clarity, air cylinder shape, mask seal and guide line colour; no time jump or survivor identity claim beyond narration. Timing estimated only.
 
-### S042 — paragraph 27, sentence 1
+### S040 — paragraph 26, sentence 1
 
 **EN exact span:** On July ninth, four more boys came out safely.
 
@@ -510,7 +486,7 @@ Visual grammar: 2018 northern Thailand, warm-grey limestone cave, murky brown fl
 
 **Continuity:** Maintain established rainy 2018 northern Thailand cave world, mud/water clarity, air cylinder shape, mask seal and guide line colour; no time jump or survivor identity claim beyond narration. Timing estimated only.
 
-### S043 — paragraph 27, sentence 2
+### S041 — paragraph 26, sentence 2
 
 **EN exact span:** Five people were still waiting inside.
 
@@ -522,7 +498,7 @@ Visual grammar: 2018 northern Thailand, warm-grey limestone cave, murky brown fl
 
 **Continuity:** Maintain established rainy 2018 northern Thailand cave world, mud/water clarity, air cylinder shape, mask seal and guide line colour; no time jump or survivor identity claim beyond narration. Timing estimated only.
 
-### S044 — paragraph 28, sentence 1
+### S042 — paragraph 27, sentence 1
 
 **EN exact span:** On July tenth, the final four boys and their coach were brought through the passages.
 
@@ -534,7 +510,7 @@ Visual grammar: 2018 northern Thailand, warm-grey limestone cave, murky brown fl
 
 **Continuity:** Maintain established rainy 2018 northern Thailand cave world, mud/water clarity, air cylinder shape, mask seal and guide line colour; no time jump or survivor identity claim beyond narration. Timing estimated only.
 
-### S045 — paragraph 29, sentence 1
+### S043 — paragraph 28, sentence 1
 
 **EN exact span:** All thirteen survived.
 
@@ -546,7 +522,7 @@ Visual grammar: 2018 northern Thailand, warm-grey limestone cave, murky brown fl
 
 **Continuity:** Maintain established rainy 2018 northern Thailand cave world, mud/water clarity, air cylinder shape, mask seal and guide line colour; no time jump or survivor identity claim beyond narration. Timing estimated only.
 
-### S046 — paragraph 29, sentence 2
+### S044 — paragraph 28, sentence 2
 
 **EN exact span:** The operation had brought them out over three days, after eighteen days trapped underground.
 
@@ -558,30 +534,3 @@ Visual grammar: 2018 northern Thailand, warm-grey limestone cave, murky brown fl
 
 **Continuity:** Maintain established rainy 2018 northern Thailand cave world, mud/water clarity, air cylinder shape, mask seal and guide line colour; no time jump or survivor identity claim beyond narration. Timing estimated only.
 
-### S047 — paragraph 30, sentence 1
-
-**EN exact span:** The children had walked into the cave awake.
-
-**RU exact span:** Дети вошли в пещеру своими ногами и в сознании.
-
-**Visual meaning:** Original June entry as quiet wide opening cave view, silhouettes walking freely into darkness. This composition should clarify the narration's physical situation, not introduce a new historical fact.
-
-**Standalone AI-image prompt (NOT submitted):** Wide cinematic 16:9 documentary-grade photorealistic illustration, historical Thailand 2018 at Tham Luang limestone cave. Original June entry as quiet wide opening cave view, silhouettes walking freely into darkness. Natural subdued colour, accurate cave texture, physically plausible masks/air cylinders, coherent flashlight lighting and realistic muddy water, no text, no border, no diagram arrows, no logos, no visible animation, no fake archival watermark. Hold one meaningful physical composition suitable for gentle whole-frame camera motion. Any anonymous people are illustrative reconstructions, not identifiable portraits.
-
-**Continuity:** Maintain established rainy 2018 northern Thailand cave world, mud/water clarity, air cylinder shape, mask seal and guide line colour; no time jump or survivor identity claim beyond narration. Timing estimated only.
-
-### S048 — paragraph 30, sentence 2
-
-**EN exact span:** They were brought back through its flooded tunnels under anaesthesia.
-
-**RU exact span:** Назад через затопленные тоннели их несли под анестезией.
-
-**Visual meaning:** Final slow-comparison image: child in carefully sealed full-face mask with diver moving through flooded limestone constriction, physical contrast with dry walk-in image. This composition should clarify the narration's physical situation, not introduce a new historical fact.
-
-**Standalone AI-image prompt (NOT submitted):** Wide cinematic 16:9 documentary-grade photorealistic illustration, historical Thailand 2018 at Tham Luang limestone cave. Final slow-comparison image: child in carefully sealed full-face mask with diver moving through flooded limestone constriction, physical contrast with dry walk-in image. Natural subdued colour, accurate cave texture, physically plausible masks/air cylinders, coherent flashlight lighting and realistic muddy water, no text, no border, no diagram arrows, no logos, no visible animation, no fake archival watermark. Hold one meaningful physical composition suitable for gentle whole-frame camera motion. Any anonymous people are illustrative reconstructions, not identifiable portraits.
-
-**Continuity:** Maintain established rainy 2018 northern Thailand cave world, mud/water clarity, air cylinder shape, mask seal and guide line colour; no time jump or survivor identity claim beyond narration. Timing estimated only.
-
-## Literal coverage and limits
-
-All 30 EN and RU master paragraphs were split **only at sentence whitespace**, yielding **48 matched scene spans** on each side. Ordered concatenation of scene spans with a single space inside each paragraph and blank lines between paragraphs reconstructs **exact UTF-8 master text apart from terminal newline**. No script paraphrases in storyboard. Raw scene prompts are preliminary editorial concepts; an authorised future storyboarding task must inspect real pinned channel profile/reference bytes and audio alignment before use. No media assets produced, no voice/music/subtitle/AV seam verified.
