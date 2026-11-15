@@ -1,0 +1,71 @@
+Why did I get a parking space closer to the shop but reach the door later? If the first empty bay is right there, should I take it? Or should I risk driving past it? And what if I have to carry two heavy bags back to the car?
+
+I used to think that this was a simple choice between driving a little more and walking a little less. But that hides a problem. I don't know which spaces will still be available up ahead. A shorter walk is useful only if it costs me less time than the extra search.
+
+So I built a small model instead of pretending I conducted a real parking experiment. I drew one straight approach lane, a return lane running alongside it, and a shop entrance at the far end. The approach from the gate to the door is two hundred metres. There are spaces at known distances from the door, and some are occupied.
+
+I will drive the same car from the same gate in both versions. The occupancy will stay frozen while I test A against B. No spaces magically open for one driver and vanish for the other. My stopwatch begins at the gate and stops when I reach the shop door.
+
+Method A is the cautious one: I park in the first empty space I encounter on the way in. Method B is the ambitious one: I pass every space, reach the entrance, enter the return lane, then park in the first empty space I encounter on the way back. Because I approach from the entrance side on that return journey, B gets the closest available bay in this one-dimensional model.
+
+I set a constant car speed of five metres per second, roughly eighteen kilometres per hour, and a walking speed of one point two five metres per second. These are chosen numbers, not measured averages. I count travel time, not the effort of steering into the space. I ignore traffic, other moving cars, and queues. The return lane is legal and always open in this invented car park. If those conditions are unrealistic for a particular garage, the result cannot be copied into that garage.
+
+Here is my first layout. At a hundred and fifty metres from the shop door, the first free space appears. Another is a hundred and twenty metres from the door. Every space nearer the entrance is full.
+
+I choose A. I travel fifty metres from the gate to the first vacancy. At my model speed, that's ten seconds. I stop, then walk the remaining hundred and fifty metres. The walk takes one hundred and twenty seconds. I'm at the door in one hundred and thirty seconds: two minutes ten.
+
+Now I rewind the same model. I can still see the first vacancy. I pass it, hoping that B will buy me a shorter walk. I also pass the space at a hundred and twenty. I reach the door, loop into the return lane, and drive back until I encounter that nearer vacancy.
+
+My car has now travelled two hundred metres to the entrance and another hundred and twenty back. Three hundred and twenty metres of driving take sixty-four seconds. I park and walk the last hundred and twenty metres, which takes ninety-six seconds. My total is one hundred and sixty seconds: two minutes forty.
+
+I'm thirty metres closer to the shop. Somehow I'm thirty seconds later at the door.
+
+There is no trick with the stopwatch. A involved fifty metres of driving. B involved three hundred and twenty. By choosing B, I drove two hundred and seventy extra metres. At five metres per second, that cost fifty-four seconds. I saved thirty metres of walking. At one point two five metres per second, that saves twenty-four seconds. The difference is thirty seconds against B.
+
+That is the first surprise: distance from the parked car to the door is not the same as time from the entry gate to the door. The moment I count the full route, the appealing nearer bay loses.
+
+But I do not want to turn one convenient arrangement into a universal rule. Maybe my first example simply has two spaces that are too close together.
+
+I reset the lot and keep the first free bay at a hundred and fifty metres. The only thing I change is the position of the second free bay. I move it from a hundred and twenty metres to forty metres from the door. Nothing else about the model changes.
+
+A still stops after fifty metres of driving and makes the same long walk. It still takes two minutes ten. B drives all the way to the door, then forty metres back. That's two hundred and forty metres by car, or forty-eight seconds. The final forty metres on foot take thirty-two seconds. Total: eighty seconds.
+
+Now B wins by fifty seconds. The extra driving was worthwhile because it replaced a much longer walk. The headline could have been either 'the first space wins' or 'the closer space wins', depending on which vacancies I drew. Neither headline would be an honest general answer.
+
+I want to know where the result changes, not merely watch the two extremes.
+
+With the first vacancy fixed at a hundred and fifty metres, A always takes one hundred and thirty seconds. For B, in this exact model, the trip to the entrance always takes forty seconds. On the return, every metre between the entrance and my chosen space costs me one fifth of a second in the car and four fifths of a second on foot. Together that's one second per metre. So B's time is forty seconds plus the distance of its chosen bay from the door, measured in metres.
+
+If B finds a free bay at one hundred and twenty metres, I already know its time: one hundred and sixty seconds. If the bay is at ninety metres, it's forty plus ninety, or one hundred and thirty. Exactly the same as A. If that second bay is at forty metres, B reaches the door in eighty seconds.
+
+Ninety metres is the turning point for this one layout and those two speeds. A nearer bay at a hundred metres is still too far out for my longer drive to pay. A bay at sixty gives B a clear advantage. I did not discover a magic ninety-metre threshold for every driver. Move the first vacancy and that boundary moves. Change the speeds or the roads and the calculation changes again.
+
+And there is a deeper problem: I don't normally get to see the whole parking lot before making the choice. If I take the first free space, I guarantee a spot immediately. If I keep driving, I am gambling that a much better space exists. My model tells me what each decision costs for a known layout. It doesn't tell me which layout I am about to encounter.
+
+That distinction matters. When people say a parking strategy is 'best', they might mean the shortest walk, the shortest drive, the smallest average time across many unknown lots, or the highest chance of finding the closest vacant bay. Those aren't interchangeable objectives. My two methods are not a proof about the best strategy under random arrivals; I have not supplied a probability model for that question.
+
+For a second experiment, I change my destination time into a whole shopping visit. I still begin at the gate. But now I stop the clock only when I have reached the door, finished an identical visit, and returned to the parked car. The visit itself takes the same amount of time under A and B, so I can leave it out of the difference. I walk toward the shop at one point two five metres per second and return with bags at one metre per second. Again, the speeds are assumptions, not measurements of a person carrying groceries.
+
+Go back to the original layout, with free bays at a hundred and fifty and a hundred and twenty metres.
+
+For A, driving is ten seconds. Walking to the door takes a hundred and twenty. Walking back from the door to my car, loaded, takes a hundred and fifty. The whole travel part of my visit is two hundred and eighty seconds: four minutes forty.
+
+For B, driving is sixty-four seconds. Walking inward is ninety-six. The loaded return walk covers a hundred and twenty metres in a hundred and twenty seconds. That's also two hundred and eighty seconds. What was a thirty-second loss at the door has become a tie for the round trip.
+
+I didn't switch which parking spaces were open. I didn't secretly make B's car faster. I changed one thing: what the clock includes. The extra thirty metres I have to walk back under A is more expensive when I'm carrying bags.
+
+Now I move the nearer vacancy back to forty metres. A still needs four minutes forty to reach the shop and return to its car. B takes forty-eight seconds driving, thirty-two walking toward the shop, and forty walking back. One hundred and twenty seconds in all: two minutes. That is a hundred and sixty seconds saved in this constructed visit.
+
+Here's another way the answer can flip. Suppose the return lane is crawling. I lower only the driving speed in the model from five metres per second to two. I leave the first vacancy at a hundred and fifty metres and the other at forty. I am still counting only the walk to the shop.
+
+A drives fifty metres in twenty-five seconds and walks for one hundred and twenty. It reaches the door in one hundred and forty-five seconds. B drives two hundred and forty metres at the slower speed, which now costs one hundred and twenty seconds, and still walks for thirty-two. Its total is one hundred and fifty-two seconds. Even with a parking space a hundred and ten metres closer, B loses by seven seconds when driving is slow enough.
+
+This is not a claim about a real traffic jam. I deliberately changed the model to show that the result depends on my assumptions, not on the colour I assigned to A or B.
+
+And if the parking lot does not have that return lane? Then method B as defined here may not be possible at all. If spots fill and empty during the search, my fixed map is no longer a faithful representation. If I need accessible parking, have small children with me, or want to minimise walking regardless of time, I must pick a different objective. A neat timing equation must not override safety, accessibility or parking rules.
+
+So what have I actually learned? In one layout, moving my car thirty metres closer cost me thirty seconds. In another, moving it a hundred and ten metres closer saved fifty. Including the return walk changed one loss into a tie. Slow driving changed another win into a loss. Every result came from the same clearly stated arithmetic, with one condition deliberately changed between tests.
+
+My practical takeaway is smaller than a universal parking rule, but more useful. Before I chase a space by the door, I should think about the entire route: the extra driving, the walking there, the walking back, and what I do not know about availability.
+
+Next time I see the first free bay, I'll still have to choose. At least I will know which question I'm really answering.
