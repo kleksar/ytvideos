@@ -176,21 +176,21 @@ Continuity: These samples are explicitly NOT Tokio Express cargo. Proposed camer
 
 ## S015 — Reframe and return
 
-Exact EN: But some of the evidence is small enough to fit in a child's hand:
+Exact EN: One of the rarest pieces ended up in a child's hand when
 
-Exact RU: Но некоторые свидетельства этой истории настолько малы, что помещаются у ребёнка на ладони:
+Exact RU: А одна из самых редких деталей оказалась в руках ребёнка, когда
 
 Scene point: a different action, visual causal step, or explanatory model. No redundant recap.
 
-Standalone AI-image prompt (unexecuted): Vertical 9:16, ONE complete opaque full-bleed handmade layered paper/card miniature diorama, sculpted folds and accurate cut-paper fibres, thick edges, three-dimensional paper objects, natural shadows from physically coherent light, carefully shaped hands and historically plausible material scale; coherent depth assembled within a single frame, not separate digital parallax layers or masks; no photoreal human, no flat vector art, no decorative edge frame, no blank bottom subtitle bar, no speech captions burned into artwork, original historical illustration not claimed archival photography. Macro physical-paper shoreline composition featuring an empty child-sized hand near damp sand, space for the octopus next beat; evidence-of-plastic visual metaphor Render only this one composition.
+Standalone AI-image prompt (unexecuted): Vertical 9:16, ONE complete opaque full-bleed handmade layered paper/card miniature diorama, sculpted folds and accurate cut-paper fibres, thick edges, three-dimensional paper objects, natural shadows from physically coherent light, carefully shaped hands and historically plausible material scale; coherent depth assembled within a single frame, not separate digital parallax layers or masks; no photoreal human, no flat vector art, no decorative edge frame, no blank bottom subtitle bar, no speech captions burned into artwork, original historical illustration not claimed archival photography. Macro physical-paper shoreline composition featuring an empty child-sized hand near damp sand, space for the octopus next beat; the empty hand foreshadows the next cold-open find, without claiming a verified shot match Render only this one composition.
 
 Continuity: Do not pretend it is the same shot as opening; seam unverified. Proposed camera: static return. 4–6 seconds planning grid only; real timing from future recording. Immediate prior/next scene must be checked for changes in scale, material, object counts and geography.
 
 ## Literal textual seam
 
-EN: But some of the evidence is small enough to fit in a child's hand: A thirteen-year-old boy picked up a black LEGO octopus on a beach in Cornwall.
+EN: One of the rarest pieces ended up in a child's hand when A thirteen-year-old boy picked up a black LEGO octopus on a beach in Cornwall.
 
-RU: Но некоторые свидетельства этой истории настолько малы, что помещаются у ребёнка на ладони: На пляже в Корнуолле тринадцатилетний мальчик нашёл чёрного осьминога LEGO.
+RU: А одна из самых редких деталей оказалась в руках ребёнка, когда На пляже в Корнуолле тринадцатилетний мальчик нашёл чёрного осьминога LEGO.
 
-Only author semantic test: the initial octopus is a collectible during first pass, then becomes surviving plastic evidence after the factual payoff. Text is readable twice in sequence, but audio/music/subtitle/camera seam remains UNVERIFIED until MP4. A colon alone is not a test.
+Author-only text check on updated script: the last clause now grammatically introduces the cold-open action, while the find is recontextualized by the preceding environmental payoff. A punctuation-only thematic echo was not sufficient. Independent full-twice listening and audio/music/subtitle/camera seam remain UNVERIFIED until reviewed MP4.
 

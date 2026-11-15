@@ -1,5 +1,7 @@
 EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официальному ytv script gate.
 # Local registration and remaining work
+
+**Revision checkpoint (2026-11-15):** original PR HEAD `1d8ff368e055beb239235fc399869425cd71b25f`, EN SHA-256 `5f4adcb6f0a1941b6c9cd757db959ecc6bfc30d8bcc7339ac0e4a162ef4b6d3`; revised EN SHA-256 `4908eac4d81103c123152774779d26ace97c55ba2d274ed0f7701c98ab2a35ea`. S015 was rewritten in both languages and synchronized with storyboard. Any baseline loop self-review/time estimate is superseded; require fresh independent `ytv-script-review-v1` for the revised EN master and RU parity. Neither version is approved.
 Paper Detour (active) / English narrative Short 9:16, based on verified remote main cd749ac2559170bdbd761cb447683e1e88260556 (tree d167f3587e19071baad0412c2e408c2fd8be26b2). Editorial branch: work/story-drafts/paper-lego-octopus-20261114. Existing queue compared, including Paper #30 Garfield phones and #67 Cleveland Balloonfest. Older PR #13 telegraph rejected. No changes to general docs, skills, recipes or channel status.
 
 Source evidence: research.md with web URLs, observed dates, claim/evidence/uncertainty and distinct ten-topic funnel; reviewed public sources on 2026-11-14. Full exact English future TTS/SRT master = script.en.txt; full natural RU reading translation = script.ru.txt. Storyboard exact EN/RU spans are preliminary only. Script rewrite requires storing previous exact bytes, synchronizing spans and packaging, invalidating timing/reviews, and fresh review against changed EN hash.
