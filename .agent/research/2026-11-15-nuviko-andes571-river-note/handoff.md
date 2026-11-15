@@ -13,3 +13,10 @@ Base remote main SHA `5d3222c8888c775d2195c8b2949949f2d992e98d` (checked 2026-11
 5. If and only if official research/script gate reaches `awaiting_script_approval`, show **complete** EN and RU and await genuine owner approval. This request **does not permit** any production or publication afterward.
 
 Not production-ready; no independent approval. A 4–6s composition is approximate, no measured voice/subtitle timings. Historical image reference assets and traveller PNGs must be opened/verified before the respective production tasks. No merge, TTS, imagegen, render, upload, publication, channel status change.
+
+
+## Three-duration update (direct owner instruction, proposed #124, not main)
+
+Baseline head `1c3e9b786764851a29bbcc764dd59b2ab3e6e7e2`; legacy original EN/RU and original 46-scene storyboard remain exactly unchanged, with their historical SHA-256 above. Six complete new texts at `variants/{02m,05m,10m}/script.{en,ru}.txt` and precise SHA-256/story maps in [story-review.md](story-review.md). **Author recommends 05m Long 16:9**; recommendation is neither owner approval nor production instruction. All six need a real independent first-listener on exact text; keep this author's scores hidden from that reviewer until after first response. Storyboard and visual prompts must be rebuilt *only for the version selected and approved*, with spans tied to exact selected hash. No media or TTS executed, timing UNVERIFIED.
+
+**Official transfer:** authenticated local `ytv` runtime with canonical pinned context, registered source, attached `script_variant` and `story_review` artifacts, independent reviewer receipt for exact chosen hash, and actual script gate are required. Do not import the existing original as owner-approved merely from draft; do not silently move pins or schedule. No run ID / independent review / approval was available here. After a real selection, update README, packaging, storyboard and handoff dependent on the exact master. Current Git PR remains `EDITORIAL_CANDIDATE_UNREGISTERED`.

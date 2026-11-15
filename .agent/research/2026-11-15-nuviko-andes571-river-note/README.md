@@ -1,13 +1,15 @@
-EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официальному ytv script gate.
+EDITORIAL_CANDIDATE_UNREGISTERED: neither official ytv script gate nor production permission.
 
-# Flight 571 — the river note that led to fourteen survivors
-Nuviko History — English illustrated Long 16:9; main baseline `5d3222c8888c775d2195c8b2949949f2d992e98d`. **STRONG_CANDIDATE is an author's recommendation, not acceptance**.
+# Flight 571 — a note across the river / Nuviko History
 
-- [ЧИТАТЬ ПОЛНЫЙ РУССКИЙ СЦЕНАРИЙ](script.ru.txt) · [Complete English narration master](script.en.txt)
-- [Preselection, dated sources, YouTube evidence and counterexamples](research.md)
-- [8 author scores / exact SHA / hard checks](story-review.md)
-- [Exact 46-scene EN/RU preliminary storyboard](storyboard.md)
-- [Packaging hypotheses](packaging-brief.md)
-- [Transfer, missing runtime/reviewer, no approvals](handoff.md)
+English documentary Long 16:9, factual source ledger [research](research.md). **One story, three complete narration variants, all still unapproved.** Owner request applied using Draft [#124](https://github.com/kleksar/ytvideos/pull/124) proposed revision `7d6bdf7702a2a241a33a21677fce29f26ada9b72`; not merged into main.
 
-Public interest comparison lacks valid same-author baseline; **UNVERIFIED**, not a successful video prediction. No media or merge permissions.
+| Editorial target | Full EN narration | Полный русский сценарий | State |
+|---|---|---|---|
+| 2 min | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | Complete candidate, independent review UNVERIFIED |
+| **5 min** | **[EN](variants/05m/script.en.txt)** | **[RU](variants/05m/script.ru.txt)** | **Recommended editorial candidate**, not approved |
+| 10 min | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | Complete candidate; long cold-read risk |
+
+Read [variant-specific review, hashes, comparative rationale](story-review.md). **5 min recommended**: explains why Catalán's message alone was insufficient without guiding helicopters back to the wreck; adds substantial causal actions over 2m, without as much pre-expedition detail as 10m. [Fact/evidence additions](research.md), [production limitations](handoff.md), [packaging hypotheses](packaging-brief.md).
+
+**Preserved unchanged legacy:** [original EN master](script.en.txt) / [original RU](script.ru.txt) / [46-scene provisional storyboard](storyboard.md). Those scene spans and estimates belong only to the original text, **not** to the six new files. No visual assets, run, approval, review receipt or publication created.

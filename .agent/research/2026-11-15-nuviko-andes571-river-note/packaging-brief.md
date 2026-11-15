@@ -17,3 +17,8 @@ All are hypotheses to test in proper packaging; none claims measured CTR. #1 mos
 **First proof:** S001—S002 show a separated herdsman, two people asking about fourteen, and official abandonment of search. **Full payoff:** S020—S024 actual note crosses river and triggers human relay/evacuation; S025—S027 close consequences and return to physical message. No result held back behind an artificial second video.
 
 No actual thumbnails, A/B, CTR, metadata publication or asset hashes. Exact accepted script and MP4 later control final packaging.
+
+
+## Duration variants (editorial hypotheses; no packaging outputs)
+
+This brief originally refers to the **legacy 27-paragraph text and 46-scene storyboard only**. The 2m/5m/10m completed texts are in `variants/` and [story-review.md](story-review.md); recommend 05m after exact-source first-listener check. For that version, the central thumbnail promise is **two walkers across a river / 14 left at the aircraft**, the proof is the written note and the payoff is Catalán informing authorities, followed by Parrado guiding helicopters. Adapt shot beats/title and packaging only after the owner selects a single exact script; do not copy legacy frame references/timings to all variants. Metrics, thumbnail tests, image rights and AV remain UNVERIFIED.
