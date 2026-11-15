@@ -1,25 +1,20 @@
-# Story review — audience-first-v1
+# Story review — revised exact-script candidate, 2026-11-15
 
-Author: ChatGPT; self-review ONLY, not independent approval. Editorial class STRONG_CANDIDATE (experiment: comparative YouTube demand UNVERIFIED). Full exact EN Git blob 8bfae7f990d8acebc6a013ac8619512881a83be6, RU Git blob 35d74ff24ed4cd91749ab2ebac55b13fffbe0f1c. Observation 2026-11-15. No measured voice length.
+Only author/editorial audit; **not** an independent review, approval or ytv receipt. Old author ratings for exact baseline `974a427b6703c604737976a8dca90337694fc981` / 35 scenes are STALE after new narration. A separate first-listener must see exact scripts without this document. Documentary Long opening uses the owner's questions-before-hook instruction pending PR #117; do not present a Draft document as merged main.
 
-After complete EN and RU texts: one oral edit pass removed recap and clarified First Night was an event organizer rather than a verified city-budget payer. Further modifications invalidate these ratings and storyboard. Max two author edits; only one used.
+## Scores (judgment, not measured performance)
 
-**1. Audience interest — 8/10, confidence medium.** Reason: Transport shut for a lit-up cartoon board speaks to viewers of safety versus marketing; payoff also revisits official forgiveness. Main flaw: Recognition of specific cartoon limited.
+- Audience interest: **8/10 (editorial only)** — a commuter's unexplained sign leads to transport closure, then an unlikely return; weakness is old familiar news and niche cartoon identity.
+- Opening and promise: **8/10 (editorial only)** — three different questions precede entry into the actual incident and all three get answers; weakness: the third question hints at the outcome.
+- Causal development: **7/10 (editorial only)** — physical threat assessment → advertiser silence → arrests/settlement → later commission; weakness: post-arrest procedural consequences remain exposition-heavy.
+- Human line: **7/10 (editorial only)** — same named installer films police work, is arrested and later receives a commission; his feelings and reason for being chosen are unknown, so are not invented.
+- Payoff: **8/10 (editorial only)** — First Night choice and sourced mayoral quote close the opening's third question; event outcome and exact filmed light show remain UNVERIFIED.
+- Factual support: **8/10 (editorial source-check only)** — exact police/company sequence grounded in three linked local reports; independent fact-check and agency source docs absent.
+- Spoken EN/RU: **7/10 (editorial only)** — no repeated moral or identical short-fragment formula; risks are crowded opening questions and some institutions; requires a real listener.
+- Actual demand / CTR / retention: **UNVERIFIED** — public stories and retrospective articles are not retention evidence.
 
-**2. Honest opening — 8/10, confidence medium.** Reason: First line says police stopped transport for a sign, then immediate documented location and device. Main flaw: Already familiar viewers know marketing answer.
+## Text audit
 
-**3. Development — 8/10, confidence medium.** Reason: Sign reveal followed by unrelated threat context, agency silence, arrests, restitution, executive departure, later commission. Main flaw: Institutional middle could slow pacing.
+Opening questions S001 → on-site discovery S002–S005 → bomb squad reveal S006–S008 → escalation/context S009–S012 → identified company and delay S013–S016 → accountability S017–S021 → same artist's later commission S022–S025 → mayor quote S026–S028. All 28 EN and 28 RU scene spans are expected to match scripts by exact join; this is a programmatic reconstruction, not independent semantic review.
 
-**4. Payoff — 9/10, confidence high.** Reason: Same light artist invited for First Night and mayor's actual words finish the promised consequences. Main flaw: Known to local viewers who recall story.
-
-**5. Angle distinctiveness — 7/10, confidence medium.** Reason: Six-year return is more than a one-line sign reveal and unlike #106 Tylenol or #112 Therac-25. Main flaw: The event was already filmed/reported in 2007 and 2021.
-
-**6. Visual storytelling — 8/10, confidence medium.** Reason: Paper LED board, police perimeter, odd hairstyle press, bright official light show convey evolving relationship. Main flaw: Copyrighted sign likeness needs separate rights review.
-
-**7. Spoken EN/RU — 8/10, confidence medium.** Reason: Concrete visible acts and a calm finish; all 35 narrative spans aligned across EN and RU, no invented dialogue. Main flaw: Dense institutional span after arrest; no independent ear test.
-
-**8. Verified audience demand — UNVERIFIED/10, confidence low.** Reason: Independent authors surfaced plus one 2026 public cultural reference and 2026 Reddit thread. Main flaw: No same-author baseline, own Studio, transcript, view dynamics.
-
-Hard checks independent of numbers: key historical facts PASS author source cross-check, fully independent fact-check UNVERIFIED; duplicate/rejected-angle check PASS for visible PR/Issue titles, content-level exhaustive search UNVERIFIED; channel PASS (paper_detour active, en illustrated Long); EN/RU equivalence PASS author aligned 35 spans, independent translation UNVERIFIED; permissions for actual sign artwork/third-party files UNVERIFIED; narrative loop N/A (Long); independent reviewer UNVERIFIED; official ytv gate NOT PASSED because CLI unavailable.
-
-An author changing roles is not an independent reviewer. No ytv-script-review-v1 or approval invented. Script gate remains unfulfilled. Criteria 1=8, 3=8, 4=9 meet editorial STRONG_CANDIDATE working filter; these ratings do not imply prediction or production authorization.
+No Shorts loop required: format Long. Documented mayor quote preserved, no invented motive/speech. Current script hash approval, independent listener, TTS/MP4 and actual viewer response remain UNVERIFIED. The PR stays Draft, editorial-candidate-only, with no registered runtime.

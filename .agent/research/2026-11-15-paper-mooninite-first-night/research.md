@@ -1,5 +1,7 @@
 # Audience-first research, observed 2026-11-15
 
+> BASELINE NOTE: the original opening and scene counts in the original research comparison below refer to PR #114 at 974a427b6703c604737976a8dca90337694fc981. A substantive owner-directed rewrite supersedes that opening; see the dated section at the end.
+
 Paper Detour, active English illustrated Long. The documented story is the Boston 2007 Mooninite Panic and the six-year-later First Night Boston hiring of the same artist. Current audience demand is EXPERIMENTAL / UNVERIFIED, not a proven trend.
 
 ## Viewer need before facts
@@ -47,3 +49,29 @@ Turner 4:50pm acceptance, arrests, 1970s hair press, community service, joint $2
 2013 First Night light-show commission and mayor quote: Boston.com 2017 retrospective and Boston Magazine 2013-11-20 https://www.bostonmagazine.com/news/2013/11/20/boston-herald-made-menino-forgiving/. Do NOT claim municipality paid directly: reports differ on private event funding. Script describes commission/invitation, not verified actual audience reaction or event footage. Mayor phrase quoted exactly in English; Russian is a meaning translation.
 
 Pictures and exact mascot artwork are third-party works. No images, logos, footage, asset references or fonts acquired, no license assumed. Proposed paper scenes are editorial illustrations, not archival evidence.
+
+
+## Owner-directed documentary Long rewrite, 2026-11-15
+
+Baseline PR HEAD: `974a427b6703c604737976a8dca90337694fc981`. Previous 35-scene script opened with the result, offered no intro questions, included separate redundant claims of a harmless ad and several recap phrases. New version: 28 provisional semantic scenes, 527 EN words / 439 RU whitespace tokens. These are text quantities, NOT measured runtime.
+
+### Before → after (precise)
+
+- BEFORE first line: "Boston police stopped trains and blocked a highway because of a small glowing sign." AFTER first segment: "Why did one small glowing sign close part of a Boston highway? Who knew it was an advertisement while police searched for explosives? And how did one of the men who installed it end up creating a light show for a Boston celebration six years later?"
+- BEFORE separate delayed claims: "It wasn't a bomb." and "It contained no explosives." AFTER the bomb squad destroys the sign, Its lights formed a square-headed cartoon alien raising a rude finger. There had never been any explosives inside. The reveal and consequence form one causal answer, not two repeated conclusions.
+- BEFORE unqualified stand-alone restatement: "The man whose unapproved glowing signs had brought out a bomb squad was now invited to light up a Boston square." AFTER the registered event decision is first narrated as an action ("They wanted a large electronic light show. They chose Berdovsky to create it."), then contrasted once with his earlier arrest ("The artist who had been arrested over unauthorized illuminated boards now had an official invitation to light up the same city.").
+- BEFORE the settled case followed by scattered 2013 exposition. AFTER a clean sequence: explanation delayed → arrests → service / restitution / resignation → six-year change of context → commissioned work → mayoral response.
+
+### Story map / answers
+
+1. Why closure? Commuter sees battery/wiring beneath I-93 → officers cannot identify installer → bomb squad destroys board → revealed cartoon advertisement, no explosives. EN S002–S008; police and 2017 retrospective https://www.boston.com/news/local-news/2017/01/31/looking-back-at-the-boston-mooninite-panic-10-years-later/.
+2. Who knew? Campaign installed weeks earlier in multiple cities → agency Interference and contracted artists know → Berdovsky films the response → agency asks for silence → Turner accepts responsibility later → arrest, community service and $2m settlement. EN S009–S021; https://www.boston.com/news/local-news/2017/01/31/looking-back-at-the-boston-mooninite-panic-10-years-later/ and https://www.bostonmagazine.com/news/2017/01/31/boston-mooninite-panic-2007/.
+3. Why official return? Six years later artist still makes projection works → First Night organizers choose him for the New Year's celebration → the mayor, once publicly critical, says "We're a forgiving city." EN S022–S028; https://www.boston.com/news/local-news/2017/01/31/looking-back-at-the-boston-mooninite-panic-10-years-later/ and contemporaneous 2013 reporting https://www.bostonmagazine.com/news/2013/11/20/boston-herald-made-menino-forgiving/. Do not infer that city funds, the mayor personally selected him, or public forgiveness was unanimous.
+
+### Causality / human line / factual limits
+
+Installer is identified by his documented actions (hangs board, films response, arrested, later commissioned), not invented internal thoughts. The police response includes real unrelated suspicious reports and post-9/11 context instead of implying officers knew the signs were harmless. Film/campaign reference is documented, but exact corporate communications beyond a request to keep quiet are not reconstructed. Company settlement is collective response funding, not an individual damages verdict. The 2013 appointment is a First Night organizers' choice; direct municipal funding is disputed and omitted. Mayor's English four-word quote is attributed and supported, the RU line is a meaning translation. All above sourced via listed links; any other intent or motive remains UNVERIFIED.
+
+### What remains UNVERIFIED
+
+No fresh independent first-listener review, no TTS/audio duration, no MP4, no actual AV retention or seamlessness, no audience CTR/retention, no permission for original Mooninite design, no verified actual scene images, no official ytv run/approval. Public comparison is not a prediction. The previous author's eight-score estimates apply to the earlier exact text and are STALE.
