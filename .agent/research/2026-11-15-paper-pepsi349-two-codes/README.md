@@ -9,3 +9,5 @@ In 1992 Pepsi announced 349 as its million-peso winning number. Many ordinary ca
 [Audience research and factual uncertainty](research.md) · [Authorial eight-criterion review](story-review.md) · [Verbatim provisional storyboard](storyboard.md) · [Packaging directions](packaging-brief.md) · [Exact local handoff](handoff.md).
 
 **Editorial class:** STRONG_CANDIDATE, medium author confidence, **eighth demand score UNVERIFIED**. Registered run, independent reviewer, media, CI and owner approval are not implied by these text files. No production, merge or publication permission.
+
+**Editorial revision:** narration now closes on the documented 2006 court outcome (25 proposed scenes); repeated recap and moral were removed. Original baseline 9345bfb30341c78cfb4a53696ad15712d7ac3f32; new independent review and timing remain UNVERIFIED.

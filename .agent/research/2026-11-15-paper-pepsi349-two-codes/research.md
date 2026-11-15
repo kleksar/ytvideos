@@ -1,6 +1,6 @@
 # Research — 349 / Pepsi Number Fever (15 November 2026)
 
-EDITORIAL_CANDIDATE_UNREGISTERED. No registered ytv run, no provider operations or independent reviewer. **Audience:** broad English-speaking Paper Detour viewers who know Pepsi and have encountered contests whose public promises conflict with fine print. Format: illustrated 16:9 Long, estimated 3–4 minutes of prose, NOT measured duration.
+EDITORIAL_CANDIDATE_UNREGISTERED. No registered ytv run, no provider operations or independent reviewer. **Audience:** broad English-speaking Paper Detour viewers who know Pepsi and have encountered contests whose public promises conflict with fine print. Format: illustrated 16:9 Long, old 3–4-minute prose estimate STALE after script revision; duration NOT measured.
 
 ## Selection before script
 
@@ -44,4 +44,4 @@ Observed from publicly indexed YouTube results on **2026-11-15**. These were sea
 
 ## Narrative promise and limits
 
-Viewer promise: why announcing a true winning number could leave many people legally unable to redeem the printed matching number; how the dispute escalated beyond the technical cause. First proof at S001-S003: exact three-digit result and question about differing outcomes. Mechanism at S013; court payoff at S025–S030. **Not claimed:** intentional fraud by Pepsi, proven software root cause, automatic entitlement to prize, every participant a rioter, invented historical conversations, precise counts of deaths beyond documented evidence, or reliable current viewer demand.
+Viewer promise: why announcing a true winning number could leave many people legally unable to redeem the printed matching number; how the dispute escalated beyond the technical cause. First proof at S001-S003: exact three-digit result and question about differing outcomes. Mechanism at S013; court payoff at S025. **Not claimed:** intentional fraud by Pepsi, proven software root cause, automatic entitlement to prize, every participant a rioter, invented historical conversations, precise counts of deaths beyond documented evidence, or reliable current viewer demand.

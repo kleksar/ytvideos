@@ -1,6 +1,6 @@
 # Preliminary storyboard — Pepsi Number Fever 349
 
-EDITORIAL ONLY. Not an accepted production storyboard; no images or source-reference bytes, TTS or MP4. Exactly 30 ordered EN/RU spans matching clean narration masters. Static full-frame layered-paper compositional briefs only; not authorizing image generation.
+EDITORIAL ONLY. Not an accepted production storyboard; no images or source-reference bytes, TTS or MP4. Exactly 25 ordered EN/RU spans matching clean narration masters. Static full-frame layered-paper compositional briefs only; not authorizing image generation.
 
 ### S001 — broadcast number
 
@@ -338,85 +338,15 @@ EDITORIAL ONLY. Not an accepted production storyboard; no images or source-refer
 
 **Provisional editorial shot window:** 4–6 seconds as an image-design target only; actual duration and all voice/subtitle timings UNVERIFIED until final accepted audio and media QA.
 
-### S025 — ruling
+### S025 — court ruling and cap code
 
-**EN narration (verbatim):** In cases decided by the Philippine Supreme Court in 2006, the wrong security code defeated claims for the advertised jackpot.
+**EN narration (verbatim):** In cases decided by the Philippine Supreme Court in 2006, the caps bore the announced number but the wrong security codes. Claims for the million-peso prize failed.
 
-**RU narration (verbatim):** В делах, рассмотренных Верховным судом Филиппин в 2006 году, неправильные защитные коды лишили истцов права на объявленный миллион.
+**RU narration (verbatim):** В делах, рассмотренных Верховным судом Филиппин в 2006 году, на крышках стоял объявленный номер, но защитные коды были неправильными. Требования выплатить по ним миллион песо отклонили.
 
-**Visual intent:** ruling. One stable full-frame 16:9 handcrafted paper/card diorama, not an archival photograph. 
+**Visual intent:** court ruling and cap code. One stable full-frame 16:9 handcrafted paper/card diorama, not an archival photograph. 
 
-**Standalone preliminary AI-image prompt:** Create one complete physical 16:9 handmade layered paper/card diorama of this 1992 Philippine Pepsi Number Fever episode. Scene-specific subject: 2006 Philippine Supreme Court exterior as a respectful handmade paper architectural reconstruction, judgment page. Fully opaque sculpted paper figures, realistic anatomy, folded card surfaces, layered cut edges, visible paper fibres, contact shadows, coherent directional lighting, period-appropriate surroundings, clear subject/action and readable spatial relationships. Alternate shots and scale between adjacent scenes; use this scene's described composition rather than a repeated template. No pasted photographic person or fake historical documentation. No decorative frame, lower blank caption strip, parallax layers or external title cards. Any event reconstruction is illustrative; do not invent exact faces, conversations, injuries or screenshots.
-
-**Continuity:** Caps are numbered 349 where indicated; security codes are distinct from the public number; clothing/buildings appropriate to 1992 Philippines. Treat disputed mechanism as allegation, not established fact.
-
-**Provisional editorial shot window:** 4–6 seconds as an image-design target only; actual duration and all voice/subtitle timings UNVERIFIED until final accepted audio and media QA.
-
-### S026 — limited legal resolution
-
-**EN narration (verbatim):** That settled the legal claims in those decisions. It did not make the confusion or the violence disappear.
-
-**RU narration (verbatim):** Так разрешились требования именно в этих решениях. Но ни путаница, ни насилие от этого не исчезли.
-
-**Visual intent:** limited legal resolution. One stable full-frame 16:9 handcrafted paper/card diorama, not an archival photograph. 
-
-**Standalone preliminary AI-image prompt:** Create one complete physical 16:9 handmade layered paper/card diorama of this 1992 Philippine Pepsi Number Fever episode. Scene-specific subject: Empty courtroom with a closed case file and protest placards visible beyond window, distinct legal/social outcomes. Fully opaque sculpted paper figures, realistic anatomy, folded card surfaces, layered cut edges, visible paper fibres, contact shadows, coherent directional lighting, period-appropriate surroundings, clear subject/action and readable spatial relationships. Alternate shots and scale between adjacent scenes; use this scene's described composition rather than a repeated template. No pasted photographic person or fake historical documentation. No decorative frame, lower blank caption strip, parallax layers or external title cards. Any event reconstruction is illustrative; do not invent exact faces, conversations, injuries or screenshots.
-
-**Continuity:** Caps are numbered 349 where indicated; security codes are distinct from the public number; clothing/buildings appropriate to 1992 Philippines. Treat disputed mechanism as allegation, not established fact.
-
-**Provisional editorial shot window:** 4–6 seconds as an image-design target only; actual duration and all voice/subtitle timings UNVERIFIED until final accepted audio and media QA.
-
-### S027 — three truths
-
-**EN narration (verbatim):** The television number had been real. The bottle caps had been real. But the promise people thought they heard was not what courts enforced.
-
-**RU narration (verbatim):** Номер в телеэфире был настоящим. Крышки тоже были настоящими. Но суды признали не то обещание, которое услышали многие люди.
-
-**Visual intent:** three truths. One stable full-frame 16:9 handcrafted paper/card diorama, not an archival photograph. 
-
-**Standalone preliminary AI-image prompt:** Create one complete physical 16:9 handmade layered paper/card diorama of this 1992 Philippine Pepsi Number Fever episode. Scene-specific subject: Television, physical cap, and court decision arranged as three separate objects in one coherent tabletop diorama. Fully opaque sculpted paper figures, realistic anatomy, folded card surfaces, layered cut edges, visible paper fibres, contact shadows, coherent directional lighting, period-appropriate surroundings, clear subject/action and readable spatial relationships. Alternate shots and scale between adjacent scenes; use this scene's described composition rather than a repeated template. No pasted photographic person or fake historical documentation. No decorative frame, lower blank caption strip, parallax layers or external title cards. Any event reconstruction is illustrative; do not invent exact faces, conversations, injuries or screenshots.
-
-**Continuity:** Caps are numbered 349 where indicated; security codes are distinct from the public number; clothing/buildings appropriate to 1992 Philippines. Treat disputed mechanism as allegation, not established fact.
-
-**Provisional editorial shot window:** 4–6 seconds as an image-design target only; actual duration and all voice/subtitle timings UNVERIFIED until final accepted audio and media QA.
-
-### S028 — explanatory payoff
-
-**EN narration (verbatim):** Under the rules, winning required both the number and a matching code. On television, viewers heard the number.
-
-**RU narration (verbatim):** По правилам для выигрыша требовались и номер, и правильный код. По телевизору зрители услышали номер.
-
-**Visual intent:** explanatory payoff. One stable full-frame 16:9 handcrafted paper/card diorama, not an archival photograph. 
-
-**Standalone preliminary AI-image prompt:** Create one complete physical 16:9 handmade layered paper/card diorama of this 1992 Philippine Pepsi Number Fever episode. Scene-specific subject: Two parts of a paper ticket number/code beside television showing one big number. Fully opaque sculpted paper figures, realistic anatomy, folded card surfaces, layered cut edges, visible paper fibres, contact shadows, coherent directional lighting, period-appropriate surroundings, clear subject/action and readable spatial relationships. Alternate shots and scale between adjacent scenes; use this scene's described composition rather than a repeated template. No pasted photographic person or fake historical documentation. No decorative frame, lower blank caption strip, parallax layers or external title cards. Any event reconstruction is illustrative; do not invent exact faces, conversations, injuries or screenshots.
-
-**Continuity:** Caps are numbered 349 where indicated; security codes are distinct from the public number; clothing/buildings appropriate to 1992 Philippines. Treat disputed mechanism as allegation, not established fact.
-
-**Provisional editorial shot window:** 4–6 seconds as an image-design target only; actual duration and all voice/subtitle timings UNVERIFIED until final accepted audio and media QA.
-
-### S029 — consequences chain
-
-**EN narration (verbatim):** That gap between a public announcement and the contest's fine detail carried the dispute into streets and courtrooms.
-
-**RU narration (verbatim):** Разрыв между публичным объявлением и подробным условием акции привёл спор на улицы и в залы суда.
-
-**Visual intent:** consequences chain. One stable full-frame 16:9 handcrafted paper/card diorama, not an archival photograph. 
-
-**Standalone preliminary AI-image prompt:** Create one complete physical 16:9 handmade layered paper/card diorama of this 1992 Philippine Pepsi Number Fever episode. Scene-specific subject: Split spatial perspective linked physically by long paper strip from TV announcement to streets and courthouse. Fully opaque sculpted paper figures, realistic anatomy, folded card surfaces, layered cut edges, visible paper fibres, contact shadows, coherent directional lighting, period-appropriate surroundings, clear subject/action and readable spatial relationships. Alternate shots and scale between adjacent scenes; use this scene's described composition rather than a repeated template. No pasted photographic person or fake historical documentation. No decorative frame, lower blank caption strip, parallax layers or external title cards. Any event reconstruction is illustrative; do not invent exact faces, conversations, injuries or screenshots.
-
-**Continuity:** Caps are numbered 349 where indicated; security codes are distinct from the public number; clothing/buildings appropriate to 1992 Philippines. Treat disputed mechanism as allegation, not established fact.
-
-**Provisional editorial shot window:** 4–6 seconds as an image-design target only; actual duration and all voice/subtitle timings UNVERIFIED until final accepted audio and media QA.
-
-### S030 — ending
-
-**EN narration (verbatim):** The smallest thing in the story was a code beneath a cap. Its consequences were anything but small.
-
-**RU narration (verbatim):** Самой маленькой деталью истории был код под крышкой. Но его последствия маленькими не были.
-
-**Visual intent:** ending. One stable full-frame 16:9 handcrafted paper/card diorama, not an archival photograph. 
-
-**Standalone preliminary AI-image prompt:** Create one complete physical 16:9 handmade layered paper/card diorama of this 1992 Philippine Pepsi Number Fever episode. Scene-specific subject: Close tactile macro of a tiny cap security code next to massive stack of protest signs in background, final thematic image. Fully opaque sculpted paper figures, realistic anatomy, folded card surfaces, layered cut edges, visible paper fibres, contact shadows, coherent directional lighting, period-appropriate surroundings, clear subject/action and readable spatial relationships. Alternate shots and scale between adjacent scenes; use this scene's described composition rather than a repeated template. No pasted photographic person or fake historical documentation. No decorative frame, lower blank caption strip, parallax layers or external title cards. Any event reconstruction is illustrative; do not invent exact faces, conversations, injuries or screenshots.
+**Standalone preliminary AI-image prompt:** Create one complete physical 16:9 handmade layered paper/card diorama of this 1992 Philippine Pepsi Number Fever episode. Scene-specific subject: A 2006 Philippine Supreme Court judgment page in the foreground beside a physical numbered cap marked 349 and a separate, non-matching illustrative security-code strip; the court architecture is a restrained paper background, without a fabricated authentic code. Fully opaque sculpted paper figures, realistic anatomy, folded card surfaces, layered cut edges, visible paper fibres, contact shadows, coherent directional lighting, period-appropriate surroundings, clear subject/action and readable spatial relationships. Alternate shots and scale between adjacent scenes; use this scene's described composition rather than a repeated template. No pasted photographic person or fake historical documentation. No decorative frame, lower blank caption strip, parallax layers or external title cards. Any event reconstruction is illustrative; do not invent exact faces, conversations, injuries or screenshots.
 
 **Continuity:** Caps are numbered 349 where indicated; security codes are distinct from the public number; clothing/buildings appropriate to 1992 Philippines. Treat disputed mechanism as allegation, not established fact.
 
