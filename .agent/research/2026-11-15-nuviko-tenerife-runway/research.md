@@ -71,9 +71,7 @@ Central primary source: Spanish accident report as reproduced in ICAO Circular 1
 
 **Target viewer:** English-speaking non-specialist who can immediately grasp two passenger jets on a single runway. **Visual anchor:** two 747 silhouettes separated by fog on one runway, tower with no usable line of sight. Historical images for source checking are not permission to reproduce them.
 
-**Working title:** `The Deadliest Plane Crash Happened Before Takeoff` (editorial only; technically the KLM attempted to become airborne and impact was during takeoff, so title can falsely imply neither plane ever began takeoff; **must replace** at packaging with a precise title such as `Two 747s, One Runway: How Tenerife Happened`).
-
-**Recommended truthful title:** **Two 747s, One Runway: How Tenerife Happened**. Thumbnail editorial concept: two huge jets facing the same runway in fog; concise optional text `NO CLEARANCE`. Avoid invented near-collision eyewitness imagery presented as photographs.
+**Recommended working title:** **Two 747s, One Runway: How Tenerife Happened**. Do not describe the collision as happening *before* takeoff: KLM was already rolling for takeoff and attempted to lift off just before impact. Thumbnail editorial concept: two huge jets facing the same runway in fog; concise optional text `NO CLEARANCE`. Avoid invented near-collision eyewitness imagery presented as photographs.
 
 **Exact opening lines in EN script:** “Two Boeing 747s were on the same runway. One was still trying to find its exit. The other had begun its takeoff roll. Neither crew could see the other through the fog.” Follow with a single concrete viewer question: how an ATC route clearance became mistaken for permission to take off and why warnings were missed. The first promise is confirmed immediately: two aircraft, same runway, conflicting actions. **First substantive step:** bombing diversion and the blocked taxiway forced an unusual layout, not generic biographies.
 
