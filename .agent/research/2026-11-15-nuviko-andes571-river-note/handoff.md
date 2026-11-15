@@ -1,0 +1,15 @@
+EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официальному ytv script gate.
+
+# Handoff — Flight 571 / river message — Nuviko History
+Base remote main SHA `5d3222c8888c775d2195c8b2949949f2d992e98d` (checked 2026-11-15); branch `work/story-drafts/nuviko-andes571-river-note-20261115`; English Long 16:9. Text files only. Exact clean EN `script.en.txt` SHA-256 `d41c5b39ecef0ad2d6cb5163d9a16d0870e74c4b78e0429a765c713d3c9ab0a0` (LF terminal); RU `script.ru.txt` SHA-256 `63eda5b97b19fa83b096ef4e63a35ec41d308a5edca7cbe44eb8dff6bc2d673d`. 27 aligned EN/RU storyboard paragraphs. Research/outstanding audience evidence and independent uncertainty in `research.md` and `story-review.md`.
+
+**Missing actual capabilities in this host:** GitHub API works, but this environment has no checked-out `ytvideos` directory to run local `uv run ytv start`. Therefore no persistent run/plan_summary/read_next/task_guide/pinned reference_documents, no coordinator session or genuine `sessions.independent` reviewer, no authentic `ytv-script-review-v1`. No media/image generation, no reference image bytes, no invented IDs/leases/receipts/approvals.
+
+**Local transfer (not yet executed):**
+1. In authenticated local repository checkout fetch remote main, review this Draft PR diff and preserve all existing work. Checkout the exact PR head without overwriting other branches. Compare current remote main and story/PR topics before transferring.
+2. Verify byte content: `sha256sum .agent/research/2026-11-15-nuviko-andes571-river-note/script.en.txt` must be `d41c5b39ecef0ad2d6cb5163d9a16d0870e74c4b78e0429a765c713d3c9ab0a0`, RU also `63eda5b97b19fa83b096ef4e63a35ec41d308a5edca7cbe44eb8dff6bc2d673d`. Keep clean EN master exactly; script is **not approved**.
+3. Start an official unapproved script run with `uv run ytv start --channel nuviko_history --format long --intent 'Редакторская проверка Flight 571: river note and 14 survivors; без производства медиа'` — **do not pass** `--source-script` as an owner-approved production script. Read actual `plan_summary`, `read_next`, `task_guide`, each pinned `reference_documents` and current stage skill and input.
+4. Put research and exact text into the task's supported artifact/receipt workflow, not a fictional run. Ask genuine `sessions.independent` or approved host reviewer to do cold start + two full consecutive reads **without** author grades, beat map or judgment, then give sources/alternative only after first read; retain verbatim `ytv-script-review-v1` for exact EN hash. Rework only with new hash, synced RU and all storyboard spans.
+5. If and only if official research/script gate reaches `awaiting_script_approval`, show **complete** EN and RU and await genuine owner approval. This request **does not permit** any production or publication afterward.
+
+Not production-ready; no independent approval. A 4–6s composition is approximate, no measured voice/subtitle timings. Historical image reference assets and traveller PNGs must be opened/verified before the respective production tasks. No merge, TTS, imagegen, render, upload, publication, channel status change.
