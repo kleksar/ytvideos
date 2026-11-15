@@ -1,0 +1,6 @@
+# Paper Detour Long — proposed packaging only; no generated artwork
+All 3 concepts are honest editorial hypotheses with paper thumbnail typography, not proven CTR.
+1. **The Country That Existed Only on Paper** — PD-THRESHOLD-01. Physical paper city map marked ST JOSEPH held in front of a real coast with no constructed city. Thumbnail text **WHERE'S THE CITY?** First proof S001–S004; final S037–S039. Risk: "country" can erase **real Miskito region/land grant**, which script must immediately clarify.
+2. **They Bought a New Home. There Was No Town.** — PD-ABSENCE-01. Ocean-arriving ship and small family holding land deed, promised empty landing site, short paper lettering **NO TOWN**. Proof S001–S002/S019; payoff S024–S039. Risk: no infrastructure at claimed settlement must not be depicted as "Indigenous coast without any inhabitants".
+3. **The Map Had a City. The Coast Did Not.** — PD-TRANSFORM-01. Physical paper hands unfold city prospectus against coast relief, lettering **PAPER CAPITAL**. Intro proof S003, payoff S039. Risk: promise should not trivialize deaths and legal consequences.
+Native assets and reference bytes UNVERIFIED. Exact master thumbnail, small QA at 320x180 with duration overlay, titles/description and A/B must be checked only if an episode is truly approved later. No imagegen/TTS/media or publication authorised for this editorial queue.
