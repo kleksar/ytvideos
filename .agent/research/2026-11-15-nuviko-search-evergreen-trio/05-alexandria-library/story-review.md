@@ -14,3 +14,7 @@ Agent's editorial assessment 2026-11-15. Exact EN Git blob SHA-1 `ab9bf2ae8462e0
 | 8 Verified demand | UNVERIFIED | Two popular and one low-result different-author public videos, matched baseline n=0 | No query volume or search traffic observed | low |
 
 Hard gates: verified key history PASS with explicitly retained disputes (not every detail independently confirmed), user refusal/duplicate PASS within fetched scope, channel/format PASS, author EN/RU equivalence PASS, media/rights N_A (no asset included), narrative loop N_A for long, independent reviewer/official runtime UNVERIFIED, estimated timing **NOT measured**. One written variant; no back-filled reviewer score.
+
+## Exact script-length verification (text only)
+
+On 2026-11-15 the zero-credit vidIQ word-count utility read the **exact committed** `script.en.txt`: **851 spoken EN words**, SHA-256 `70866ea0da27f841828e0ab6d4ef3375f14ad6ef6f89c441e892ea8203f5c146`, estimate **309.5 s** at assumed 165 spoken words/minute; verification verdict `deliver` for the requested approximate length. Pace 165 is a modeling assumption (150 base × channel voice configured 1.1), **not** timed ElevenLabs TTS. It does not establish a measured runtime, audio pacing or final scene timing. The calculated hash is a content identity, not an independent reviewer receipt.

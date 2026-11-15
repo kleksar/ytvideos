@@ -14,3 +14,7 @@
 | 8 Verified demand | UNVERIFIED | Two independent indexed YouTube titles, no same-author matched baseline (n=0) | Search volume/long-tail competition unavailable | low |
 
 Hard checks: historical core PASS (British inquiry), duplicate/owner rejection PASS on checked 122 PR titles and main tree only (remaining private external queue UNVERIFIED), channel/format PASS (`nuviko_history` active 16:9 long), EN/RU equivalence author PASS, source-media rights N_A (text only), Shorts loop N_A (long), actual runtime and independent reception UNVERIFIED. Two revisions max; one draft only so far. Actual voice duration and AV checks UNVERIFIED.
+
+## Exact script-length verification (text only)
+
+On 2026-11-15 the zero-credit vidIQ word-count utility read the **exact committed** `script.en.txt`: **330 spoken EN words**, SHA-256 `df8ef14d0da970aaa898b84451561fa67756f09406ea1b2ef91952d57eda2aef`, estimate **120.0 s** at assumed 165 spoken words/minute; verification verdict `deliver` for the requested approximate length. Pace 165 is a modeling assumption (150 base × channel voice configured 1.1), **not** timed ElevenLabs TTS. It does not establish a measured runtime, audio pacing or final scene timing. The calculated hash is a content identity, not an independent reviewer receipt.

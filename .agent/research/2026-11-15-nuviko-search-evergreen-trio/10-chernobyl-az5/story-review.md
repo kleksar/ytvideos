@@ -14,3 +14,7 @@
 | 8 Verified audience/search demand | UNVERIFIED | Independent older/high-view explainer, 2026 smaller response; no per-author matched baseline n=0 | Search volume, retention and own audience unavailable | low |
 
 Separate hard checks: core fact verification PASS based on read sources and disclosed disputes, duplicate/explicit owner rejection PASS within latest fetched PR names/tree (private output gaps UNVERIFIED), active channel / long format PASS, EN/RU author equivalence PASS, media rights N_A text-only; Shorts loop N_A Long, TTS runtime / full scene timing UNVERIFIED, independent reviewer UNVERIFIED. No self-authorized official acceptance. One author version only.
+
+## Exact script-length verification (text only)
+
+On 2026-11-15 the zero-credit vidIQ word-count utility read the **exact committed** `script.en.txt`: **1600 spoken EN words**, SHA-256 `c5442951dbf49a70e7fe5ec9cae0e029c2e0bf6c37d7cb94deec16d874902631`, estimate **581.8 s** at assumed 165 spoken words/minute; verification verdict `deliver` for the requested approximate length. Pace 165 is a modeling assumption (150 base × channel voice configured 1.1), **not** timed ElevenLabs TTS. It does not establish a measured runtime, audio pacing or final scene timing. The calculated hash is a content identity, not an independent reviewer receipt.
