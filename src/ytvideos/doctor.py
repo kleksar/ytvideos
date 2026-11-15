@@ -48,7 +48,9 @@ def inspect(production, run_id=None, *, run_snapshot=None):
             if name not in {"approval.verifier", "approval.local_session"} and (signed or name != "approval.bridge"):
                 checks.append(capability_check(name, observation))
         known = {entry["capability"] for entry in checks}
-        required = {name for task in run["tasks"].values() for name in task["capabilities"]}
+        required = {name for task in run["tasks"].values()
+                    if task["status"] not in {"complete", "cancelled", "skipped"}
+                    for name in task["capabilities"]}
         # Scene tasks do not exist until storyboard completion. Report the
         # recipe's generation/extraction requirement before paying for audio.
         required.add("image.generate" if run["profile"]["recipe"] == "illustrated" else "media.licensed_clip")

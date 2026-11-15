@@ -44,6 +44,14 @@ def task_guide(run, task, references=(), requirements=None):
         goal = "Собрать и прослушать точный исходный звук/музыку принятого edit-script; TTS не применяется."
     if stage == "subtitles" and speech_mode == "none":
         goal = "Прослушать принятое аудио и сохранить hash-bound no_speech JSON; SRT и слова не придумывать."
+    source_import = run["tasks"]["script"].get("source_import")
+    imported_step = bool(source_import) and (
+        (stage == "research" and task["status"] == "skipped")
+        or (stage == "script" and task["status"] == "complete" and task.get("receipt") is None))
+    if imported_step:
+        goal = ("Выбор новой темы не запрошен: использован полный источник, выбранный владельцем."
+                if stage == "research" else
+                "Точный источник импортирован и принят владельцем; повторное редакторское review не выполнялось.")
     guidance = {
         "goal": goal,
         "skill": {"name": task["skill"], "path": run["skills"][task["skill"]]["path"]},
@@ -51,13 +59,15 @@ def task_guide(run, task, references=(), requirements=None):
         "dependencies": list(task["dependencies"]),
         "approval_gates": list(task["gates"]),
         "output_kind": output_kind(stage, requirements),
-        "capabilities": list(task["capabilities"]),
-        "required_checks": sorted(required_checks(stage, requirements,
+        "capabilities": [] if imported_step else list(task["capabilities"]),
+        "required_checks": [] if imported_step else sorted(required_checks(stage, requirements,
                                                   purpose=task.get("payload", {}).get("purpose"))),
         "next_tasks": [item["id"] for item in run["tasks"].values() if task["id"] in item["dependencies"]],
         "execution_reference": TASK_EXECUTION_REFERENCE,
-        "completion_command": ["complete", "--run", run["id"], "--task", task["id"]],
+        "completion_command": None if imported_step else ["complete", "--run", run["id"], "--task", task["id"]],
     }
+    if imported_step:
+        guidance["source_import"] = source_import
     if run["profile"]["recipe"] == "licensed_clips" and stage == "script":
         guidance["edit_script"] = {
             "schema": "ytv-edit-script-v1", "speech_modes": ["none", "source", "narration"],
@@ -86,7 +96,7 @@ def task_guide(run, task, references=(), requirements=None):
                            "task contract for fields; generic PASS and literal duplicate promises are rejected. "
                            "The structural check does not prove truthfulness or editorial quality.",
         }
-    if stage == "script" and requirements is not None:
+    if stage == "script" and requirements is not None and not imported_step:
         from .capabilities import DISCOVERY
         guidance["independent_review"] = {
             "capability": "sessions.independent", "discovery": DISCOVERY["sessions.independent"],
@@ -151,7 +161,7 @@ def run_plan(run, next_state, requirements, *, code_matches_pin, capable):
                 **task_guide(run, task, routes.get(route, []), requirements)}
         item["blocker"] = task.get("blocker")
         (release_steps if task["stage"] in RELEASE_STAGES else steps).append(item)
-        if task["stage"] not in RELEASE_STAGES and task["status"] not in {"complete", "cancelled"}:
+        if task["stage"] not in RELEASE_STAGES and task["status"] not in {"complete", "cancelled", "skipped"}:
             for name in task["capabilities"]:
                 if not capable(run, name):
                     gaps.setdefault(name, []).append(task["id"])
