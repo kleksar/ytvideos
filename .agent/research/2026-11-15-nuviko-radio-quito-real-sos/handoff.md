@@ -1,0 +1,11 @@
+EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официальному ytv script gate
+
+# Handoff: только отдельная редакционная очередь
+
+- Канал `nuviko_history`, **Long 2560×1440 illustrated**, English narration, full RU translation. Проверять actual ChannelSpec при переносе.
+- Verified remote main base `5d3222c8888c775d2195c8b2949949f2d992e98d`; PR only topical folder, no changes to code/docs/skills/other PRs.
+- Exact scripts: `script.en.txt` Git blob SHA-1 `be9e6e456cdc34f7845bec3c3bc712e58b1b8444`; `script.ru.txt` Git blob SHA-1 `befafcfd6960759793776143f7a5c3b3d1f929c1`; scripts are **not** accepted as production master and no user approval to specific text exists.
+- **Observed blocker:** current host has GitHub connector but no mounted/authenticated ytvideos working tree enabling actual `uv run ytv start` and materialized `plan_summary`, `read_next`, `task_guide`, pinned refs/receipt. No host `sessions.independent` or `spawn_agent` capability was found in exposed/deferred tool inventory. `awaiting_script_approval`, review session ID, lease, doctor result and user approval were **not** made up.
+- **Exact local transfer:** In the user's authorized local checkout, fetch this branch/PR; run `uv run ytv start --channel nuviko_history --format long --intent '1949 Radio Quito: adapt verified editorial research to an original English historical narration'`; read the actual `plan_summary`, `read_next`, `task_file`, `skill_file`, `requirement_files`, `task_guide`, pinned `reference_documents`; then hand the **candidate EN** `script.en.txt` to the supported research/script workflow as input, preserving its origin and hash. Obtain independent first-listener `ytv-script-review-v1` on exact new EN hash (not this author's review). Show full EN and RU to owner for the exact script approval before any media. If text changes, invalidate prior scores/storyboard/packaging and regenerate.
+- Brand hero PNG and original 1949 documents/recordings not provided as bytes. Do not claim visual reference validation or permission to use archive media. Historical sources and uncertainties are in research.
+- **Not authorized:** merge, TTS, imagegen, render, upload, publish, channel status/skills changes or paid provider credit use.
