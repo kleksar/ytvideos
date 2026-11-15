@@ -1,55 +1,56 @@
-# Story review — Tenerife 1977, English historical Long
+# Tenerife 1977 — editorial review of revised Nuviko History Long
 
-**EDITORIAL_CANDIDATE_UNREGISTERED / AUTHOR ONLY — not independent review, not official script gate, not production-ready.**
-Review performed 2026-11-15 by the writer of this exact text. There was no fresh independent reviewer, no TTS listening, no video/Studio retention, no owner approval.
+**EDITORIAL_CANDIDATE_UNREGISTERED — NOT production-ready.** This note records a user-provided critique of the **earlier** narration and an author-only correction check of **new** exact scripts. **No official independent reviewer of the new scripts has run**, no formal `ytv-script-review-v1` receipt exists, and the script approval gate has not been reached.
 
-Exact Git blob inputs:
-- EN `script.en.txt`: `3c1bf3118f4dffe829f3d238d90317b5b7a38db4` — 44 ordered paragraphs, approximately 1,147 English words.
-- RU `script.ru.txt`: `7648fa053dab6b54e18523f3879178768aaea920` — 44 aligned Russian paragraphs, owner reading translation.
-- Research fact ledger: sibling `research.md`. The research note is a source audit, not a substitute for independent review. Final speech duration is **UNMEASURED**; 6–8 min is only an editorial estimate.
+## Revision and provenance
 
-## Author's 1–10 editorial diagnostics
+| Artifact | Original exact Git blob | Revised exact Git blob |
+|---|---|---|
+| EN narration | `3c1bf3118f4dffe829f3d238d90317b5b7a38db4` | `f22bb6a8a4389e520c64216e0db6c5ada7142ecf` |
+| RU owner reading version | `7648fa053dab6b54e18523f3879178768aaea920` | `221e56d9782d0081a9d0d9b3d016782535a3c26a` |
 
-| Dimension | Author score | Concrete reason in exact text | Strongest risk | Confidence |
-|---|---:|---|---|---|
-| Viewer relevance | **9** | Two familiar passenger jets collide on a runway, without a mechanical failure; clear public safety/human decision question | Tragedy may deter viewers who prefer lighter history | Medium |
-| Cold opening and promise | **9** | Starts with two 747s, one runway, fog, conflicting actions, then promises the route-clearance mistake and unheard warnings | Reveals broad cause early, leaving the middle to deliver procedural details | Medium |
-| Causal development | **9** | Bomb diversion → blocked taxiway → Pan Am taxiing runway → fog/missed exit → KLM ATC route vs takeoff clearance → overlapping radios → flight engineer challenge → crash | A 44-paragraph chronology could lose non-aviation viewers between diversion and the misleading clearance | Medium |
-| Payoff and ending | **9** | Explains exact clearance distinction, why radio warnings were missed, KLM unauthorized takeoff, and safety changes; 61 survive, 583 die | Safety-lesson ending can sound instructional if narration stays flat | Medium |
-| Novelty / original angle | **6** | Focuses on the two clearance types and overlapping transmissions rather than mere accident chronology | Major documentaries already exist; this is not an undiscovered disaster | High |
-| Visual explainability | **9** | Two jets along a runway, third taxiway, obscured tower view, signal overlap and timeline can be visualized in 2D+photoreal-world style | Static single compositions may fail to communicate motion; reconstructions must not masquerade as historical photos | Medium |
-| EN/RU natural spoken text | **8** | Simple first-person-independent verbs, clear actors and repeated safety distinction; aligned translation | No actual listening; several expository paragraphs may read more like narrated documentary than lived sequence | Low–medium |
-| Evidence of external audience interest | **6** | Mentour Pilot Tenerife documentary ~11.7M lifetime views; second public example much lower; multiple broadcasters covered story | No same-author controlled cohort, no channel retention/comments, no short-run outlier proof; topic transfer untested | Low |
+Revised: **37 aligned paragraphs; ~1,363 English words**. No TTS or actual listening was run. History of original bytes is preserved in this PR's Git commits; do not silently overwrite already approved production run artifacts.
 
-These are **subjective writer assessments**, **not** actual retention/CTR/YouTube success probabilities, not measured competing-video quality, and not an independent audience test. No weighted viral score. Provisional **STRONG_CANDIDATE** for Nuviko History's next English Long, contingent on formal runtime and independent review. Objective historical deaths matter for factual stakes, not as a formula for expected views.
+The user-supplied external editorial critique assigned **topic 9.5/10, old script 6.5/10**, with low marks for conformity to opening structure (3/10), main hook (4/10), human involvement (4/10), payoff (5/10). These are editorial opinions, not measured audience results. The pasted critique itself ended with an incomplete final line; no missing text was inferred. Its concrete observations were cross-checked with the [FAA](https://www.faa.gov/lessons_learned/transport_airplane/accidents/PH-BUF) and [PBS transcript](https://www.pbs.org/wgbh/nova/planecrash/minutes.html).
 
-## Limited first-listener self-diagnostic (not independent)
+## Corrected structural/factual deficits
 
-Opening read in isolation: “Two Boeing 747s were on the same runway ... Neither crew could see the other through the fog. ... So why did its pilots believe they could [take off]?” Expected viewer answer: route clearance is **not** takeoff clearance; overlapping radio calls hide the warning that Pan Am still occupies runway. The very next content step — a bomb at a different airport — supplies the initial cause of the crowding and ensures the promised answer is not postponed into generic history.
+| Old defect identified by reviewer | Revised exact narrative behavior | Remaining uncertainty |
+|---|---|---|
+| Opened with dramatic runway scene **before** the questions | First paragraph asks three specific viewer questions; no full accident scene is shown first; immersion covers bombing, diversion, congestion, taxiing and fog; main hook is Meurs pointing out missing clearance | Audience understanding and listening **UNVERIFIED** |
+| Primary hook was an abstract early catastrophe instead of a human intervention | First officer's recorded warning enters after ~173 English spoken words of question+immersion; other pilots' actions follow causally | Spoken duration and real edit timing **UNVERIFIED** |
+| Pan Am failed to take C3 “because it didn't turn”, with no mechanism | The third exit's sharp turn, easier fourth exit, repeated radio confirmation and uncertainty in the crew's reasoning are described; **not** claimed physically impossible | Single proven reason for missing C3 is **not** available |
+| “O.K.” risked sounding like the cause of rolling | Brake release and engine acceleration are explicitly **before** tower “O.K.”; separate ATC route clearance is explained before the fatal decision | None for reported sequence, but narration perception untested |
+| “Two warnings disappeared” was too coarse | Simultaneous Pan Am/tower calls become interference; **later, audible** Pan Am clearance-status exchange leads flight engineer Schreuder to question the captain | Whether listeners distinguish the warnings **UNVERIFIED** |
+| No human roles | Captain van Zanten, first officer Meurs, engineer Schreuder and Pan Am captain Grubbs introduced with an action, not biographies. No invented thoughts or dialogue. | Hypothesis about seniority is *attributed as investigative possibility* |
+| Flat final seconds | Approx. 13 seconds from captain's assurance to crash, approx. 9.5 from Pan Am seeing KLM; the crew's actual evasive actions are described without a fake real-time countdown | Edit pacing **UNVERIFIED** |
+| Ending repeated only the two-clearance distinction | Consequences, official findings and team/phraseology changes compressed; final meaning tied to **all warnings that failed to stop action** | Still may sound didactic in unreviewed TTS |
 
-Most likely loss-of-attention point: mid-narration departure procedure (“first officer readback”, ATC routing instructions) because viewers without aviation vocabulary may mistake route clearance for permission even after the explanation. Countermeasure in exact narration: “That message told them where to fly. It did not tell them to take off.” **Not checked by new listener**. Another weakness is overexposure of this famous case: a good factual explanation is not proof our version outperforms existing documentaries.
+This is a **review of a revised text**, not a claim that a second actor independently evaluated that exact text. The first-reviewer opinion is independent of the earlier draft's author, **but it predates the new revision**.
 
-Final payoff: explicitly answers the first question and ties vague clearances, blocked warnings, and seniority to standardized speech and crew coordination. This is a Long; `narrative_loop` **N_A**.
+## Narrow author-only diagnostics for the updated bytes
 
-## Checklist / truth of each verification claim
+| Criterion | Writer's provisional reading | Concrete reason | Remaining risk |
+|---|---|---|---|
+| Start and audience promise | **8/10** | Three questions on two planes, unauthorized takeoff and ignored warning; first content gives location and cause of diversion | 173 pre-hook EN words is approximate word count, not measured 60-second performance |
+| Immersion → main hook | **8/10** | Meurs' actual recorded warning, rather than premature collision teaser; Pan Am exit creates a necessary question after the hook | The transition to Pan Am briefly returns to simultaneous action; needs independent first-listener QA |
+| Causal developments | **9/10** | C3 vs C4 → clearance distinction → brakes before “O.K.” → radio overlap → later engineer warning → last seconds | Mid-script procedural terminology may still need shortening for non-pilots |
+| Human stakes | **8/10** | Four real participants connected to observable decisions and statements, no unrecorded mental states | Emotional experience still depends on voice/performance |
+| Payoff | **8/10** | 583 deaths and 61 survivors followed by attributed Spanish/Dutch findings and short summary of safety changes; last line about words failing to change action | Concluding lesson may still be too abstract; reviewer may recommend ending earlier |
+| Historical checks | **8/10 provisional** | FAA/PBS recorder timeline, incident count and report conclusions used; case-specific source map in `research.md` | A new independent claim audit is **UNVERIFIED** |
+| Natural EN/RU speech | **7/10 provisional** | Paired semantic order across 37 paragraphs; specific verbs/actions in both versions | No human listening, no independent bilingual comparison |
+| Comparative YouTube demand | **UNVERIFIED** | Prior public competing video has significant lifetime views | No controlled age/creator baseline, owner retention or live vidIQ credits |
 
-| Gate | Actual status and evidence |
-|---|---|
-| Primary historical/final incident claims | **AUTHOR-VERIFIED SOURCE AUDIT** in `research.md` against ICAO/Spanish report and PBS annotated transcript. No independent fact checker. |
-| Other topic/PR overlap | **SEARCH-LIMITED PASS** across current open PR title inventory and exact-term GitHub searches; may miss unpublished runs. |
-| Exact English/Russian full text | **PASS, checked remote Git blobs** `3c1bf3...` and `7648fa...`: same 44 paragraph order and historical claims; not an independent translation validation. |
-| Viewer response, audience metrics, script actual listening | **UNVERIFIED**; cited 11.7M views is an external lifetime listing, not Nuviko forecast or current velocity. |
-| vidIQ | **OBSERVED 0 credits on 2026-11-15**; no paid searches or purchases. |
-| Local `uv run ytv start`, `read_next`, pinned run context and official task receipts | **NOT RUN / UNREGISTERED**: connected GitHub can edit Draft PR, but official local production runtime/store is not available in this host. |
-| Fresh independent `ytv-script-review-v1` | **UNVERIFIED / NOT RUN**; author cannot self-approve. |
-| `awaiting_script_approval` official state | **NOT REACHED**; user approval is not inferred from requesting a PR. |
-| Audio, images, storyboard, final MP4, upload/publish | **NOT RUN**; not in the authorized PR scope. |
-| Long format loop | **N_A**; Long final answer is complete on first listen. |
+These are **not** measured retention, predicted views, CTR, or a certification. New text could score lower after blind review; author scores must not override that outcome.
 
-## Recommended next step
+## Exact acceptance checks / blockers
 
-On a host with this repository's runtime and store, find/resume any existing Tenerife run; otherwise invoke:
-```bash
-uv run ytv start --channel nuviko_history --format long --intent 'найди лучший сюжет для nuviko history. ytvideos. PR.'
-```
-Read pinned `read_next` packet, carry the exact scripts and research as inputs by the documented task contract, run actual fresh independent review, and only then show this exact revision/hash at the official script approval gate. Don't manufacture receipts or self-authorize video generation.
+- **PASS / source inspection only:** factual chronology and third-exit ambiguity compared with FAA and PBS; fact-to-source links in `research.md`. No 3rd-party fact audit.
+- **PASS / script structure inspection only:** first questions precede verified events; the main hook uses the co-pilot's missing clearance line; later statements preserve that “O.K.” was **after** brake release.
+- **PASS / manually paired written versions:** EN and RU have 37 aligned paragraphs, same roles, causal steps and ending; not independent translation QA.
+- **UNVERIFIED:** fresh independent review of the **revised** Git blobs, cold-listener promise and attention, exact voice performance and length, scene geometry, TTS, SRT and MP4.
+- **NOT RUN:** formal `uv run ytv start`, pinned task packet/receipts and `awaiting_script_approval` state, because this GitHub-connector host cannot access the production runtime/store. If the production coordinator has an existing Tenerife run, **resume** rather than restart it.
+- **NOT AUTHORIZED:** production generation, release, merge or fabricated approvals.
+- Long narrative loop: **N_A**.
+
+The existing `ytv-write-script` skill and `docs/standards/editorial.md` were inconsistent with the owner's required questions-before-hook order. Those instructions and `hook-patterns.md` are revised **in this same PR** without changing schemas, adding a gate, or reprocessing other pinned runs.
