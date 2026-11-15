@@ -18,35 +18,23 @@
 
 Сохранить выбранную первую реплику, подтверждающий её факт и обещанную отдачу в существующей research/script note. Полный текст и конец → начало проверять по действующему editorial review; совпадение с формой не является `PASS`.
 
-## Long: от хука к понятному обещанию
+## Long: вступительные вопросы перед основным hook
 
-Формы выше помогают выбрать первую реплику, но для Long этого недостаточно: в начале зрителю должно быть ясно, **что конкретно он узнает** и как это связано с названием и обложкой. Вопросы полезны, когда раскрывают реальную причинность; один сильный вопрос лучше перечня не связанных друг с другом. Полный критерий и границы для Long — в [editorial](../../../../docs/standards/editorial.md#обещание-в-начале-long).
+Для документального Long с narration **начать с конкретных вопросов**, затем перейти к подтверждённым событиям и основному драматургическому hook. Вопросы формируют ожидания, погружение даёт новые факты, hook повышает ставки. Проверить точную связь всех вопросов с ответами и названием/обложкой по [editorial](../../../../docs/standards/editorial.md#обещание-в-начале-long). Для Shorts и Long без дикторской документальной речи не навязывать этот порядок.
 
-Редакторский пример на существующей истории [Batavia, 1629 — PR #29](https://github.com/kleksar/ytvideos/pull/29), **не** правка её исходного сценария или новое одобрение:
+Редакторский пример для истории [Batavia, 1629, PR #29](https://github.com/kleksar/ytvideos/pull/29). Это **не** правка или approval существующего сценария.
 
-**Было (EN, первые строки текущего кандидата):**
+**Было:** в исходной редакции две лодки сразу даны как hook, а смысловые вопросы поставлены позже.
 
-> Two rowing boats were racing toward a Dutch ship that had come to rescue them.
->
-> One boat carried men trying to warn its captain. The other carried men planning to seize it.
->
-> From the ship, both groups would have looked like survivors desperate to get aboard.
->
-> The difference was what they had done on the islands behind them.
->
-> To understand the race, we have to go back three months, to a reef off Australia.
+**Стало (пример принципа, требует fact-check перед использованием):**
 
-**Стало (EN, предложенная редакция вступления):**
+> Why were more than a hundred survivors murdered after the *Batavia* was wrecked? How did twenty-two isolated soldiers resist the mutineers? And why did it matter which of two boats reached the rescue ship first?
+>
+> Two boats were racing toward the rescuers. One carried men who wanted to warn the captain. The other carried men who wanted to seize his ship.
+>
+> Their race began with a shipwreck three months earlier. What happened on the islands explains why both boats were desperate to reach the same vessel.
 
-> Two boats were racing toward a ship sent to rescue the survivors of the *Batavia*.
->
-> The men in one boat wanted to warn its captain. The men in the other planned to seize his ship.
->
-> Why were more than a hundred people murdered after surviving a shipwreck? How did twenty-two soldiers, abandoned on another island without weapons, hold out against armed mutineers? And why did it matter so much which boat reached the rescuers first?
->
-> To understand what happened, we need to go back to the beginning of *Batavia's* voyage.
-
-Сохранён конфликт двух лодок; добавлены подтверждённые данным историческим research ставки и конкретные вопросы, ответы на которые содержатся в развитии истории. Число вопросов **не** переносить как шаблон на другие Long; в спокойном объяснении вопрос может быть один или выражен без вопросительного знака. До production эти строки требуют обычного фактического и независимого review точной новой версии; PR #29 и его EN/RU script, storyboard, hashes не менялись этим примером.
+Не переносить число вопросов и длину примера механически в другие сюжеты. Редактор оценивает раннюю фактическую информацию и дальнейшую отдачу, а не количество вопросительных знаков.
 
 ## Происхождение
 
