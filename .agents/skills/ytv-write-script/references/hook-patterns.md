@@ -20,7 +20,7 @@
 
 ## Long: от хука к понятному обещанию
 
-Формы выше помогают выбрать первую реплику, но для Long этого недостаточно: в начале зрителю должно быть ясно, **что конкретно он узнает** и как это связано с названием и обложкой. Вопросы полезны, когда раскрывают реальную причинность; один сильный вопрос лучше перечня не связанных друг с другом. Полный критерий и границы для Long — в [editorial](../../../../docs/standards/editorial.md#обещание-в-начале-long).
+Формы выше подходят к самостоятельному основному hook, но для повествовательного Long они **не** задают первую реплику: сначала прозвучат **содержательные вопросы**, затем конкретное **погружение**, и только после него — **основной hook**. Процедура: проверить, что вопросы обещают ответы из полного текста; что погружение сообщает новые факты, а не тянет время; что hook меняет ожидание зрителя действием/фактом, а не пересказывает начало; и что после него история не начинается заново. Не назначать постоянный таймкод. Критерий и исключения — в [editorial](../../../../docs/standards/editorial.md#обещание-в-начале-long).
 
 Редакторский пример на существующей истории [Batavia, 1629 — PR #29](https://github.com/kleksar/ytvideos/pull/29), **не** правка её исходного сценария или новое одобрение:
 
@@ -36,17 +36,15 @@
 >
 > To understand the race, we have to go back three months, to a reef off Australia.
 
-**Стало (EN, предложенная редакция вступления):**
+**Стало (EN, демонстрация порядка, не утверждённый сценарий):**
 
-> Two boats were racing toward a ship sent to rescue the survivors of the *Batavia*.
+> Why were more than a hundred people murdered after surviving the wreck of the *Batavia*? How could twenty-two soldiers, left on another island without weapons, hold out against the mutineers? And why would the order in which two boats reached a rescue ship matter?
 >
-> The men in one boat wanted to warn its captain. The men in the other planned to seize his ship.
+> Three months earlier, the *Batavia* struck a reef off Australia. The survivors were scattered across nearby islands.
 >
-> Why were more than a hundred people murdered after surviving a shipwreck? How did twenty-two soldiers, abandoned on another island without weapons, hold out against armed mutineers? And why did it matter so much which boat reached the rescuers first?
->
-> To understand what happened, we need to go back to the beginning of *Batavia's* voyage.
+> When a rescue ship finally appeared, two boats raced toward it. One carried men hoping to warn its captain. In the other were men planning to seize the ship.
 
-Сохранён конфликт двух лодок; добавлены подтверждённые данным историческим research ставки и конкретные вопросы, ответы на которые содержатся в развитии истории. Число вопросов **не** переносить как шаблон на другие Long; в спокойном объяснении вопрос может быть один или выражен без вопросительного знака. До production эти строки требуют обычного фактического и независимого review точной новой версии; PR #29 и его EN/RU script, storyboard, hashes не менялись этим примером.
+Первые вопросы обещают три конкретных ответа; короткое погружение объясняет место и ситуацию; главный hook — две лодки с противоположными целями — появляется **после** них. Продолжение должно развить конфликт, а не снова рассказывать о рифе. Этот пример не устанавливает число вопросов или секунды для всех Long. До производства требуется обычный фактический и независимый review новой версии; PR #29 и его исходные EN/RU scripts, storyboard и hashes здесь не меняются.
 
 ## Происхождение
 
