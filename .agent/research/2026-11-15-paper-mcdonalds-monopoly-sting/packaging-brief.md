@@ -1,19 +1,11 @@
-# Paper Detour Long — три гипотезы title/thumbnail
+# McDonald's Monopoly — новые упаковочные гипотезы
 
-Не разработанные изображения; **не approved ReleaseSpec**, без фактических AI файлов и QA. Все три варианта — английский рынок, 16:9, обязательная крупная надпись в бумажной диораме.
+Все концепции для Paper Detour EN Long 16:9. Ни одна не генерировалась, не тестировалась и не утверждалась; не выдавать за измеренный CTR.
 
-## A. The McDonald's Million-Dollar Game Was Rigged From Inside
-- На обложке гигантская объёмная бумажная фишка Monopoly на столе, сквозь прорезь в упаковке видна рука охранника и выбранный им конверт; бумажная надпись: **HE CHOSE WINNERS**.
-- Обещание: шансы изменял человек изнутри подрядчика, а не «все сотрудники McDonald's мошенники».
-- Первое подтверждение: слова о редкой фишке и Jacobson, примерно S005–S008, **без придуманного таймкода**; payoff S030–S038. Ложное чтение: официальный McDonald's сам устраивал схему — исправляет отдельная маркировка contractor в сценах.
+**A — preferred: `The Man Who Chose McDonald's Monopoly Winners`.** Full-frame paper/card diorama: rare physical prize sticker being moved from a sealed contractor envelope into a second paper hand, standard McDonald's cup distant. Large short paper text: `HE CHOSE`. Promise validated by narration blocks 9–17, payoff 31–34. Do not suggest McDonald's corporate employees orchestrated fraud.
 
-## B. Why Was the FBI Filming a McDonald's Winner?
-- Большой миллионный чек и бумажная телевизионная камера, рядом едва заметный агентский документ; paper надпись **FAKE CAMERA CREW**.
-- Первое подтверждение: S001–S003. В конце S038 возвращается тот же реквизит. Обещание: как часть расследования притворилась рекламной съёмкой, не «ФБР придумало конкурсы».
+**B — filming mystery: `Why the FBI Filmed a McDonald's Millionaire`.** Paper-check and stage camera in a modest living room, crew silhouettes, no invented archival faces or exact decor; short text `FBI CAMERAS`. The first three questions promise this, blocks 2–5 visually verify, operation resolved at 23–28. Danger: main reveal is early, must lead to causal mechanism.
 
-## C. The Monopoly Tickets Nobody Could Ever Find
-- Пустое гнездо в объёмном бумажном игровом поле; вокруг посетители с обычными билетами; бумажная надпись **MISSING JACKPOTS**.
-- Первое подтверждение: S006–S008, почему часть фишек отсутствовала; полный payoff — хищение, выявление и суд.
-- Ложное чтение: будто **все** билеты отсутствовали — показать другие обычные выигрыши.
+**C — fairness: `The McDonald's Prizes You Never Had a Chance to Win`.** Physical paper game-piece strip/empty space on fast-food cup, guarded rare envelopes beyond a counter, short text `NO CHANCE?`. Blocks 11–17 and final 33–34. Don't imply all promotion prizes were stolen; only diverted valuable pieces.
 
-Оценки CTR/retention/title A/B — UNVERIFIED; никаких картинок, статистики вариантов, YouTube changes или media generation нет.
+No shot numbers from previous 38-scene storyboard are current. 10-second native Long end-screen after separate owner approval, per Paper profile.
