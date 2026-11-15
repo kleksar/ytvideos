@@ -24,3 +24,13 @@ EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официал
 **Hard check record:** content paired EN/RU line-by-line by author, 47 exact sentence spans; script factual ledger in `research.md`, scoring and uncertainty in `story-review.md`. Independent acceptance, authoritative run, actual graphics, voice/music/AV seam, source usage rights and user approval = **UNVERIFIED/NOT PERFORMED**.
 
 **Scope exclusions honored:** no edits to `main`, shared docs/skills, unrelated PRs/issues or channel status; no merge, media, TTS, imagegen, render, YouTube upload or publication. Store this as an editorial suggestion only.
+
+---
+
+## Редакционные варианты — обновление 15 ноября 2026
+
+В исходном PR подготовлены шесть полных новых файлов по [README](README.md); SHA-256 и сравнение содержатся в [story-review](story-review.md). Автор рекомендует 05m, но **не выбирает master от имени владельца**. Исходные 535-word EN / RU и все 47 storyboard spans сохранены без изменения и относятся только к baseline HEAD 1c5ff96f44d7aade625e97096f36f11491d87520.
+
+Для разрешённого локального ytv runtime: проверить source approval/production/pins прежде чем что-либо менять; выбрать один exact EN master только после реального независимого чтения и разрешения владельца; остальные версии приложить через documented attach-artifact script_variant, review через story_review, сохранить фактические IDs. Старые spans/packaging не переносить на новый hash. Нет необходимости в трёх runs, а git Draft не становится awaiting_script_approval.
+
+Остаются UNVERIFIED: настоящий sessions.independent reviewer, локальный authorized ytv workspace, его pinned context, actual TTS/timings, media/rights/MP4, зрительские показатели и explicit production approvals. Эти ограничения не отменяют редакционные тексты. Proposed [#124](https://github.com/kleksar/ytvideos/pull/124) 7d6bdf7702a2a241a33a21677fce29f26ada9b72 ещё не main при подготовке.

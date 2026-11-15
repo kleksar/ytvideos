@@ -38,3 +38,7 @@ Status: editorial only, no thumbnail image, no native A/B test, metadata publica
 ## Proposed editorial decision
 
 A establishes human significance and the surprising technological second half without hiding either; B has a stronger pure-science hook but largely matches 2026 Kurzgesagt/PBS; C is compelling to science-inclined viewers but hides the human stakes until text. Titles are propositions for future independent review, NOT accepted packaging, expected CTR or native YouTube results. The actual script has not been independently accepted. Full metadata description, 320×180 thumbnail legibility, A/B config and production image rights remain UNVERIFIED. All frame/thumbnail prompts are text only.
+
+## 2/5/10: scope прежней упаковки (2026-11-15)
+
+Выше — исключительно три концепта для **неизменённого** EN baseline Git blob d6408fcf124077ae9d770712bc3f75fda461597c, не для новой рекомендованной 05m. При выборе иной exact версии в runtime требуются новое подтверждение обещания первой репликой, release metadata и привязанные к её hash визуальные кадры. Одобрения и готовой thumbnail нет.

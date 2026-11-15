@@ -1,19 +1,21 @@
-EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официальному ytv script gate.
+EDITORIAL_CANDIDATE_UNREGISTERED — не официальный ytv script gate.
 
-# Paper Detour — Lake Nyos / uncontrolled gas, controlled release
+# Paper Detour — Lake Nyos: три самостоятельных сценария одной истории
 
-**English Long 16:9; text-only editorial suggestion, NOT a registered/approved episode.**
+Логлайн: в 1986 году газ из озера Ниос убил более 1700 человек; учёные выяснили, как он накапливался, а инженеры научились выводить его через трубы, которые помогают поднимать воду за счёт самого газа.
 
-**[Полный русский сценарий](script.ru.txt)** · **[Full English future narration](script.en.txt)**
+| Цель | Полный английский | Полный русский | Состояние |
+|---|---|---|---|
+| 2 минуты, 269 EN слов | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | Полный Long; author-reviewed |
+| 5 минут, 676 EN слов | [EN](variants/05m/script.en.txt) | [RU](variants/05m/script.ru.txt) | Полный Long; **рекомендован автором** |
+| 10 минут, 1328 EN слов | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | Полный Long; более высокая нагрузка фактами |
 
-A lake in Cameroon suffocated more than 1,700 people in 1986, but there was no new volcanic eruption. Dissolved CO2 and pressure explain the deadly release; the same bubbling effect later powered degassing pipes, with monitoring still required.
+**Выбор автора: пять минут.** Две минуты дают полный ответ, но мало показывают сомнения исследователей и ограниченность первой трубы. Пять минут добавляют реальные препятствия — вновь поступающий газ, проверку слоёв и недостаточную пропускную способность одной трубы. Десять минут дают подлинные дополнительные измерения, историю исследований и сравнение с Моноуном, но в середине рискуют превратиться в отчёт о научных публикациях. Это предположение, не измеренное удержание.
 
-- [research.md](research.md) — genuine 9-event broad screen, 3 finalist pitches, YouTube examples including counter-signal, six-video SciShow baseline, source/claim/uncertainty table.
-- [script.en.txt](script.en.txt) — exact clean future English TTS/SRT master, 535 words, no invented timing.
-- [script.ru.txt](script.ru.txt) — full natural Russian translation of identical facts and outcome, not Russian voice.
-- [story-review.md](story-review.md) — eight author-only criteria, caveats, exact English Git blob, independent and hard checks separately.
-- [storyboard.md](storyboard.md) — 47 preliminary exact EN/RU sentence spans and standalone full-frame layered paper diorama prompts; `S033` carries the fictional paper airplane *outside narration*. **No images created.**
-- [packaging-brief.md](packaging-brief.md) — three truthful proposed titles and thumbnail promises.
-- [handoff.md](handoff.md) — exact missing runtime/reviewer capability and authorized local import path.
+Оценка длительности только по EN words и гипотезе 140–160 слов/мин с паузами: приблизительно 1.8–2.3 / 4.4–5.4 / 8.5–10.2 минуты. Не измеренная TTS Lawrence при 1.10×. Все три версии — Long 16:9, Paper ChannelSpec это поддерживает; Short loop неприменим.
 
-**Do not produce from these files.** Exact local `uv run ytv start` + pinned tasks, independent `ytv-script-review-v1` and genuine owner approval have not happened; all future media rights/voice/render/AV checks unverified.
+**Старый baseline сохранён** как отдельная историческая пара [EN](script.en.txt) / [RU](script.ru.txt) (Git blob EN d6408fcf124077ae9d770712bc3f75fda461597c, RU ef86c2321491c34db3bdbd7898157feb0b8a0534; baseline commit 1c5ff96f44d7aade625e97096f36f11491d87520). Старые 47 сцен [storyboard](storyboard.md), [packaging](packaging-brief.md) и прежний author review относятся **только к этому неизменённому baseline**, не к трём новым версиям. Новые scene spans, visual intent, packaging и реальные тайминги НЕ ВЫПОЛНЕНЫ; необходимо создавать заново после выбора exact master.
+
+[research.md](research.md) — общие факты и новые источники; [story-review.md](story-review.md) — SHA-256 каждой пары, 8 отдельных критериев, карты историй, сравнение и blockers; [handoff.md](handoff.md) — разрешённый перенос в runtime.
+
+Progress: 3 версии подготовлены → author fact/pair review → 05m рекомендована → independent review UNVERIFIED. Ни один вариант не approved, не связан с run и не запущен в производство. Предложенные правила [PR #124](https://github.com/kleksar/ytvideos/pull/124) exact 7d6bdf7702a2a241a33a21677fce29f26ada9b72 на момент применения Draft, не main.

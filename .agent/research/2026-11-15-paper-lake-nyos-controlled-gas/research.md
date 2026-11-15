@@ -78,3 +78,22 @@ Sorted median `(153476+247104)/2=200290`. Inclusion rule: all other listed SciSh
 **Strongest objection:** This is a crowded theme with PBS Terra, SciShow, Kurzgesagt and Nadia Omara all publishing during 2026, including same broad arc. Why choose Paper's version? A tight 3–4 minute causality-first story, visualizing the invisible chain and controlled fountain as a *physical model* rather than piling up facts. This is a meaningful format/method difference, **not** evidence that viewers will choose it. If an independent first listener says it merely duplicates the existing video, reject it at the gate; do not rebrand as a success.
 
 The maximum-two-editorial-revisions rule applies after independent critique. This draft has not been reviewed independently.
+
+---
+
+## Факты для расширенных версий 2/5/10 — дополнение 2026-11-15
+
+Поручение владельца + предложенная редакция #124 7d6bdf7702a2a241a33a21677fce29f26ada9b72 (Draft, не canonical main). Источник 1986 и аудитория уже исследованы выше; не выдавать общие public views за доказанное удержание.
+
+| Факт для новых вариантов | Проверенный источник и место | Ограничение |
+|---|---|---|
+| Геохимические признаки глубинного происхождения CO2; сам выброс не означает новое извержение | Kusakabe & Ohsumi, 1987, abstract https://www.jstage.jst.go.jp/article/chikyukagaku/21/2/21_KJ00007318640/_article/-char/en | Гипотеза о точном начальном триггере остаётся гипотезой |
+| После катастрофы перемешивание воды было неполным, впоследствии газ и слои снова изменялись | Evans et al., USGS 1994, abstract https://www.usgs.gov/publications/six-years-change-lake-nyos-cameroon-yield-clues-past-and-cautions-future | Реконструкция 1994 года не устанавливает свидетельский сценарий запуска |
+| Моноун 1984, Nyos degassing 2001, Monoun degassing 2003; исследователи не обнаружили нарушения структуры от контролируемой дегазации, рекомендовали дополнительные трубы | Kling et al. 2005, PNAS, abstract и full text https://www.usgs.gov/publications/degassing-lakes-nyos-and-monoun-defusing-certain-disaster ; https://pmc.ncbi.nlm.nih.gov/articles/PMC1242283/ | Прогнозы не считать актуальным состоянием 2026 |
+| По мере падения давления/газонасыщенности у входа трубы дегазация замедляется; одной трубы недостаточно | Kusakabe et al. 2008, abstract https://www.usgs.gov/publications/evolution-co2-lakes-monoun-and-nyos-cameroon-and-during-controlled-degassing | Нельзя сказать, что скорость останется постоянной |
+| Дополнительные трубы в конце 2011 и начале 2012, существенное снижение риска | Lake Nyos vulnerability appraisal 2018, degassing section https://doi.org/10.3390/geosciences8090312 | Снижение риска не равно гарантированной безопасности |
+| Газлифт сам поддерживает фонтан после начального запуска | Kling et al. 2005, full text https://pmc.ncbi.nlm.nih.gov/articles/PMC1242283/ | Не утверждать, что работа по монтажу вовсе не требует энергии |
+
+Было → стало: исходный 535-word EN рассказ остался историческим baseline; новая 02m версия сосредоточена на трагедии, пузырьковой обратной связи и трубе; 05m добавляет конкретные действия и сомнения инженеров; 10m — геохимическое доказательство, наблюдения 1994, сравнение с Моноуном и ограничения модели/системы 2005–2008. Все три композиционно завершены, а не нарезаны механически.
+
+UNVERIFIED: реальные аудио/видео, личные цитаты жителей, актуальные ноябрьские 2026 измерения озера, свои CTR/retention и независимый first-listener. Сохранена неопределённость первого запуска 1986.
