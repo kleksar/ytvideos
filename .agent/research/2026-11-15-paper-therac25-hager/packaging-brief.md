@@ -1,0 +1,9 @@
+# Packaging brief — text only, not an actual thumbnail
+
+Paper Detour English Long 16:9. Three honest pairs; choose and actually test only after proper script approval. All images would be handmade full-frame paper/card dioramas with physical contact shadows and large short cut-paper caption. No invented treatment-room photos, fake patient portraits, graphic injuries or false archival claims.
+
+1. **The Radiation Machine That Lied to Its Own Screen** — first paper object is an 1986 terminal reading “ELECTRON”, beside a machine cutaway still showing its unsafe configuration. Big paper text **WRONG MODE**. First proof: actual reconstructed timing-sensitive mismatch; payoff: independent verification and multiple safeguards. This is the provisional primary concept if visible at 320×180.
+2. **They Said This Machine Couldn't Overdose Patients** — an empty treatment couch, an off-scale detector, and the machine physically facing it. Paper text **IMPOSSIBLE?**. The opening immediately shows the empty-room test, not a fictional patient's treatment.
+3. **The Three-Hour Test That Exposed Therac-25** — physicist and technician at a beige terminal, clock face and detector, no recognizable unlicensed portrait; paper caption **3 HOURS**. Proof: three hours trying to reproduce, then the subtle timing condition.
+
+The promises share a complete payoff: error reproduced, other clinics found it and multiple protective fixes were needed. Do not assert high CTR from public views. Compare the actual AI image beside exact title, crop and viewers' first proof later. The prescribed Paper paper-plane cameo is separate from narration, provisionally in storyboard S032 on a high office shelf; the accepted reference PNG/sha must actually be read in a future authorized production session, and there is no image in this PR.
