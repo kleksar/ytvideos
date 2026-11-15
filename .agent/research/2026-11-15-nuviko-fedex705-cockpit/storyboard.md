@@ -106,7 +106,7 @@ Every S ID maps **one exact EN paragraph and one exact RU paragraph**, no invent
 
 **Visible point:** Crucial 135° bank interrupts attacker, not completed full roll
 
-**Provisional image brief:** Exterior cargo DC-10 in extreme non-inverted bank approximating 135°, realistic aerodynamics and prop geometry, daylight over rural Tennessee, reconstructed event not photo.
+**Provisional image brief:** Exterior FedEx cargo DC-10 banked roughly 135° from wings-level according to the captain's account (past 90°, not a completed roll), with accurate three-engine jet geometry and natural daylight over Tennessee; historical reconstruction, not archival footage.
 
 **Continuity:** Use the same 1994 FedEx DC-10 N306FE and characters consistently, no invented text overlays. Camera intent TBD after actual reference and TTS timing.
 
