@@ -9,3 +9,10 @@ EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официал
 - Confirm production environment's actual accepted Nuviko traveler reference PNG bytes/hashes before adding his 2D character. Preliminary prompts have no generated images/media or invented reference bytes. Add real timed SRT, audio/video seam tests only after authorized production.
 - External evidence: `research.md` includes YouTube public snapshots and comparable baselines with counter-signal, factual source dates, alternate candidates; `story-review.md` contains distinct author scores and hard checks. vidIQ balance 0 on 2026-11-15 and reset 2026-12-06; no paid requests. Own CTR, retention, search terms and independent impressions UNVERIFIED.
 - Actions NOT authorized or performed: merge, production imagery, TTS, imagegen, rendering, upload, YouTube publication/schedule, channel status mutation. Draft PR and its CI do not grant these.
+
+
+## 2026-11-16 three-version handoff
+
+Baseline PR #109 branch HEAD 42aeb916989c8782ea41335aa202f5c5a3e9f99c; six separate EN/RU full scripts, exact SHA-256 and Git blobs in [story-review.md](story-review.md#2026-11-16-three-length-addendum). Owner proposed #124 revision 7d6bdf7702a2a241a33a21677fce29f26ada9b72 is NOT main (main b1be73fbcd2a87dafe34ad65c479d337a26ebd80).
+
+Original EN blob c728422d1c389d6fc58e044042409c57aced1865, RU 853d16d09874bedaa71a7f281b08012347aea4fd and original 62 scenes UNCHANGED. No new variants have spans/visual prompts or real voice timing. 05m is editorial recommendation, not approved master. New independent first-listener and user choice must precede new exact-hash storyboard and canonical runtime attachment. In authorized local runtime, attach six script_variant files and one story_review, preserve returned IDs and pinned context; no three new runs and no automatic approvals. No TTS, MP4, upload or release permitted. Next incomplete high-priority Long: #106 Tylenol, subject to fresh PR head and production check.

@@ -1,11 +1,19 @@
-EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официальному ytv script gate.
+EDITORIAL_CANDIDATE_UNREGISTERED: no ytv run, user approval, independent reviewer, TTS or media production.
 
-# Nuviko History — 1976 Chowchilla: trapped underground before ransom
+# Chowchilla 1976 — twenty-seven people escaped a buried moving van
 
-**Full English narration:** [script.en.txt](script.en.txt) · **Full Russian meaning-matched translation:** [script.ru.txt](script.ru.txt).
+One documented case, **three complete EN narrations and meaning-matched RU translations**. Original [EN](script.en.txt), [RU](script.ru.txt) and [62-scene storyboard](storyboard.md) preserved exactly.
 
-In California, 26 children and school-bus driver Ed Ray were abducted and transported in vans. The kidnappers buried the captives in a separate moving van. The prisoners freed themselves by moving a cover, breaking wood and digging out; all survived before the kidnappers could connect their intended ransom demand. Decades later the survivors were still affected.
+| Target | Full EN | Full RU | EN words | Editorial status |
+|---|---|---|---:|---|
+| 02m | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | 249 | Complete author draft |
+| 05m | [EN](variants/05m/script.en.txt) | [RU](variants/05m/script.ru.txt) | 626 | Recommended (not approved) |
+| 10m | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | 1445 | Complete author draft |
 
-This is a **draft editorial recommendation only**. See [source/audience research](research.md), [author scoring and exact script hash](story-review.md), [provisional 62 scene storyboard](storyboard.md), [packaging](packaging-brief.md), and [handoff](handoff.md). Earlier exact initial scripts retained in `revisions/`, not valid as production script.
+**Recommend 05m.** It gives the 11-hour concealed transfer, sagging roof, separate metal/wood obstacles, missed ransom call, investigation and survivors' consequences without the 10m legal/parole slowdown. The 02m offers a complete faster answer but sacrifices human and investigative detail. This is not a production or approval decision.
 
-No registered `ytv` run, independent reviewer, user script approval, image generation or media produced. Own metrics, many video baselines and true voice timings UNVERIFIED. Do not bypass official script gate by declaring this a ready run.
+[Detailed author comparison and hashes](story-review.md#2026-11-16-three-length-addendum) · [Sources](research.md#2026-11-16-variant-evidence) · [Handoff](handoff.md) · [Packaging](packaging-brief.md).
+
+Baseline branch head: 42aeb916989c8782ea41335aa202f5c5a3e9f99c. Original unchanged master blobs EN c728422d1c389d6fc58e044042409c57aced1865; RU 853d16d09874bedaa71a7f281b08012347aea4fd. Original storyboard is valid ONLY for that old master; the six alternatives have no storyboard/spans/approved timings.
+
+Progress: one original script → three six-text variants prepared → author-checked → 05m recommended. Independent reader, ytv registration, approval, actual voice duration, MP4, AV QA and measured audience interest remain UNVERIFIED.

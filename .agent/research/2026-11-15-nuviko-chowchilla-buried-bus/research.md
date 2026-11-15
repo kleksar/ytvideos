@@ -53,3 +53,18 @@ Material uncertainty to preserve: leadership of hatch effort contested; moving v
 Actual private remote main + complete PR/issue pages (108 PR/Issue entries, plus main tree) checked 2026-11-15 before script and again before write. No exact Chowchilla PR found; nearest #107 Andes (survival of group in snowy wreck and note), #97 Shackleton (ocean rescue), #20 S-5 (submarine rescue), #105 Sampoong (many threatened and delayed discovery). Distinct confinement/crime/self-exit/failed-call chain. This does not mean every crime story is novel: high-quality competing queued episodes may be stronger overall, especially Andes. #13 rejected telegraph and #88 London Bridge premise were excluded and not rewritten or closed. PR #35 had already merged on 2026-11-13; it was not represented as an unmerged change. Differences in long format, audience and execution matter; no confident numerical comparison of future views is possible.
 
 **Decision after text review:** Chowchilla meets the *author-only* 8/8/8 quality filter with meaningful reservations, especially novelty and public comparison. Audience evidence is partial; no independent review or official script gate. Production is not authorized.
+
+
+## 2026-11-16 variant evidence
+
+Additional exact-source ledger for 2/5/10-minute complete EN/RU treatments of the SAME event. Public source pages checked 2026-11-16; older page publication dates not confused with access.
+
+| Additional event/fact | Verification source | Limit |
+|---|---|---|
+| Ed Ray age 55, 26 schoolchildren ages 5–14, July 15 hijack, eleven-hour van transfer, sixteen-hour confinement, all 27 survive | Chowchilla municipal compilation https://www.cityofchowchilla.org/300/1976-Bus-Kidnapping | Retrospective newspaper synthesis, approximate durations |
+| Separate buried moving van at quarry, $5m ransom note, initial arrests, 1977 pleas and 2012/2015/2022 parole, Ed Ray Park/memorial | Same city source, “Arrests Made” and “Remembering” sections | Not the school bus buried; release is not exoneration |
+| Mattress platform, two batteries on hatch, separate wooden box and Michael Marshall contribution | A&E published July 2026 https://www.aetv.com/articles/chowchilla-school-bus-kidnapping-1976 | No claim of unique uncontested leader |
+| Jodi Heffington's later interview about van transfer, Santa Rita facility, Disneyland, trauma and hearings | CBS 48 Hours published 2023-03-17 https://www.cbsnews.com/news/chowchilla-bus-kidnapping-survivor-never-before-seen-interview/ | Named testimony, not every child's inner thoughts |
+| Quarry workers' discovery; busy police telephone lines | Pleasanton Weekly published 2006-08-18 https://www.pleasantonweekly.com/cover-story/2006/08/18/chowchilla-kidnapping-30-years-later/ | Failed-call count, exact words and original telephone records UNVERIFIED |
+
+Source claim sequence: hidden bus → blind transport → prepared different buried moving van → roof sag and obstructed exit → mattress platform → hatch/wood/earth → self-escape → planned demand not delivered before escape (busy-line explanation from later reports) → quarry ownership evidence → trial outcome → survivor consequences. Never invent direct quotes, motives, medical diagnosis shared by all minors, exact call log or victim faces. The 10m variant adds CBS-documented personal and judicial aftermath rather than filler. Previously observed public YouTube comparisons remain historical; no new view count or audience measurements were taken. Independent reviewer / own retention / actual timing remain UNVERIFIED.
