@@ -8,6 +8,7 @@ import unittest
 from unittest.mock import patch
 
 import test_workflow
+from ytvideos.doctor import inspect
 from ytvideos.errors import Conflict, WorkflowError
 from ytvideos.service import Production
 from ytvideos.source_script import accept_source, main
@@ -80,6 +81,32 @@ class SourceScriptTests(unittest.TestCase):
             self.assertEqual(tx.execute("SELECT COUNT(*) FROM operations WHERE run_id=?", (self.run_id,)).fetchone()[0], 0)
         self.service.claim(self.run_id, "storyboard", "storyboard-fixture")
 
+    def test_imported_plan_and_doctor_do_not_request_editorial_tools(self):
+        self.accept()
+        plan = self.service.plan(self.run_id)
+        steps = {step["id"]: step for step in plan["steps"]}
+        for name in ("research", "script"):
+            self.assertEqual(steps[name]["required_checks"], [])
+            self.assertIsNone(steps[name]["completion_command"])
+        self.assertNotIn("independent_review", steps["script"])
+        self.assertFalse(steps["script"]["source_import"]["review_performed"])
+        gaps = {gap["capability"] for gap in plan["capability_gaps"]}
+        self.assertNotIn("web.search", gaps)
+        self.assertNotIn("sessions.independent", gaps)
+        capabilities = {check["capability"] for check in inspect(self.service, self.run_id)["checks"]}
+        self.assertNotIn("web.search", capabilities)
+        self.assertNotIn("sessions.independent", capabilities)
+        self.assertIn("audio.produce", capabilities)
+        self.assertIn("image.generate", capabilities)
+
+    def test_short_source_import_preserves_production_loop_policy(self):
+        short = self.new_run(format="short")
+        accept_source(self.service, short["id"], **self.decision())
+        self.assertEqual(self.service.requirements(self.fixture.store.get(short["id"]))["narrative_loop"], "required")
+        self.assertEqual({t["id"] for t in self.service.next(short["id"])["tasks"]},
+                         {"storyboard", "audio", "packaging"})
+        self.assertFalse(valid_approval(self.fixture.store.get(short["id"]), "mp4"))
+
     def test_retry_restart_and_concurrent_delivery_keep_one_original_decision(self):
         def deliver(_):
             return accept_source(self.restarted(), self.run_id, **self.decision())
@@ -132,6 +159,14 @@ class SourceScriptTests(unittest.TestCase):
         self.service.cancel(self.run_id, "fixture cancel")
         with self.assertRaisesRegex(Conflict, "cancelled"):
             self.accept()
+
+    def test_resolved_editorial_blocker_continues_same_source_run(self):
+        self.fixture.store.mutate(self.run_id, lambda tx, run: run["tasks"]["script"].update(
+            status="blocked", blocker="fixture: repeated editorial review was not requested"))
+        self.service.unblock(self.run_id, "script", "fixture: original owner instruction and exact source verified")
+        self.accept()
+        self.assertEqual(self.fixture.store.get(self.run_id)["id"], self.run_id)
+        self.assertEqual(self.service.next(self.run_id)["blockers"], [])
 
     def test_revised_script_cannot_reuse_old_acceptance(self):
         self.accept()
