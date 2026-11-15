@@ -1,8 +1,9 @@
-EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официальному ytv script gate
+EDITORIAL_CANDIDATE_UNREGISTERED — Git Draft, not ytv script approval or production-ready.
 
-# Quito 1949 — Real Help After a Fake Martian Invasion
+# Radio Quito 1949 — The Real SOS After a Fake Invasion
 
-Nuviko History, active ChannelSpec; English 16:9 Long. **Text-only editorial candidate**, no official run.
+Nuviko History · English documentary Long 16:9 · questions-first revised narration.
 
-- [Полный RU сценарий](script.ru.txt) · [Complete English narration](script.en.txt) · [Историческое research](research.md) · [Авторская оценка](story-review.md) · [Предварительная раскадровка](storyboard.md) · [Packaging ideas](packaging-brief.md) · [Local handoff](handoff.md).
-- Main base commit: `5d3222c8888c775d2195c8b2949949f2d992e98d`. Independent gate not completed, viewer demand UNVERIFIED, no production/user script approval.
+- [Full English script](script.en.txt) · [Полный русский сценарий](script.ru.txt) · [Исследование и было→стало](research.md) · [Авторская оценка](story-review.md) · [Смысловые сцены](storyboard.md) · [Packaging brief](packaging-brief.md) · [Handoff](handoff.md).
+- Baseline HEAD `601f7f4d58d38c2df541de9805cab22ce628110e`; EN blob `44123534822b0a048e426d93864b39005b244f9f`; RU blob `b26b3cc11bf5c7f77e68ba58e4c0c19f32f9acc9`. New editor version, independent first-listener review UNVERIFIED, old score and approvals do not carry.
+- No created runtime, published media, approved script, narration audio or visual assets.

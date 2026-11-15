@@ -1,460 +1,268 @@
-# Предварительная раскадровка — 1949 Quito
+# Quito 1949 — предварительная карта сцен к revised EN/RU
 
-**Только текст; actual MP4/audio/timecodes отсутствуют.** Каждая композиция условно 4–6 секунд, не measured. 38 сцен, одна на точную двуязычную реплику; в production разбить или удержать по реальной речи. Исторический Nuviko: реалистичные исторические локации, люди и объекты; рисованный ведущий только после просмотра и проверки его actual reference PNG. Никаких подлинных архивных кадров, не выдавать реконструкцию за хронику. Одежда/строения/студия соответствуют Кито 1949, 1951 и современность отмечены отдельно.
+Editorial Git Draft only; baseline `601f7f4d58d38c2df541de9805cab22ce628110e`. Exact EN blob `44123534822b0a048e426d93864b39005b244f9f`, RU blob `b26b3cc11bf5c7f77e68ba58e4c0c19f32f9acc9`. 22 semantic beats, not TTS-measured shots. Use Nuviko illustrated 16:9, 2560×1440, no decorative border, full-frame realistic reconstructed environment, whole-frame camera motion, direct cuts. Each visual is an illustration rather than authentic 1949 footage. One sentence block may later require multiple compositions when actual voice timings are measured; scene count never forces narrative. No subtitles embedded in image. Hero requires real approved PNG references; otherwise omit.
 
 ## S001
 
-**Exact EN span:** In 1949, a radio station in Ecuador was asking for help while its building burned.
+**Exact EN span:** How did a fictional invasion on the radio end with a real fire? Why were firefighters kept away from the building? And when the announcer asked for help, did listeners believe him?
 
-**Exact RU span:** В 1949 году радиостанция в Эквадоре просила о помощи, пока горело здание, из которого она вещала.
+**Exact RU span:** Как вымышленное вторжение по радио закончилось настоящим пожаром? Почему пожарным не давали подойти к зданию? И поверили ли слушатели диктору, когда тот попросил о помощи?
 
-**Смысл кадра / основной объект:** The 1949 newspaper and radio building burning at night; period Quito streets.
+**Visual intent:** Three material questions: the 1949 radio, a burning press building, firefighters stopped by a crowd. Reconstructions only, not archive.
 
-**Self-contained image prompt (for later authorized scene_image only):** 16:9 full-frame Nuviko History illustrated documentary reconstruction, no border, no game UI and no subtitles embedded into image. The 1949 newspaper and radio building burning at night; period Quito streets. Historically plausible Quito/Ecuador urban and indoor environment, natural muted colors, 1940s objects and clothing, physically plausible perspective, meaningful subject large enough to read on a phone-size screen. Scene is fictionalized visualization of established documented events, not archival evidence. Keep protagonist drawn 2D only if exact approved hero model reference PNG is actually present and attached; otherwise no host. No copyrighted TV frames, real radio recording or fake readable archival quotes.
+**Illustration treatment:** Full-frame historical illustrated documentary scene in Quito, Ecuador, 1949; physically coherent perspective, muted period color and light, recognisable subject, human-scale motion by whole-frame pan/zoom only. Depicted evidence is reconstruction, not authentic photograph or broadcast. No invented readable quotes. Keep repeat locations, people and props continuous.
 
-**Continuity and timing:** Match preceding environment and unchanged 1949 press building, period microphones, crowd geography and physical fire progression; camera cut allowed without objects shifting inexplicably. **4–6 seconds = composition estimate only**, real voice duration/AV seam UNVERIFIED.
+**Timing:** UNVERIFIED until exact TTS, montage; 4–6 s is a visual-profile composition guideline, not a guaranteed narration duration.
 
 ## S002
 
-**Exact EN span:** One listener later recalled that some people mistook the pleas for another scene in a radio drama.
+**Exact EN span:** On February twelfth, 1949, Radio Quito was broadcasting from the same building as El Comercio, one of Ecuador's best-known newspapers.
 
-**Exact RU span:** Позже один слушатель вспоминал, что некоторые приняли эти просьбы за очередную сцену радиоспектакля.
+**Exact RU span:** Двенадцатого февраля 1949 года Радио Кито вещало из того же здания, где находилась редакция одной из самых известных газет Эквадора — El Comercio.
 
-**Смысл кадра / основной объект:** A worried listener beside a 1940s radio, evening domestic interior.
+**Visual intent:** Establish a period Quito street and a single shared newspaper and radio building; signage only if historically plausible.
 
-**Self-contained image prompt (for later authorized scene_image only):** 16:9 full-frame Nuviko History illustrated documentary reconstruction, no border, no game UI and no subtitles embedded into image. A worried listener beside a 1940s radio, evening domestic interior. Historically plausible Quito/Ecuador urban and indoor environment, natural muted colors, 1940s objects and clothing, physically plausible perspective, meaningful subject large enough to read on a phone-size screen. Scene is fictionalized visualization of established documented events, not archival evidence. Keep protagonist drawn 2D only if exact approved hero model reference PNG is actually present and attached; otherwise no host. No copyrighted TV frames, real radio recording or fake readable archival quotes.
+**Illustration treatment:** Full-frame historical illustrated documentary scene in Quito, Ecuador, 1949; physically coherent perspective, muted period color and light, recognisable subject, human-scale motion by whole-frame pan/zoom only. Depicted evidence is reconstruction, not authentic photograph or broadcast. No invented readable quotes. Keep repeat locations, people and props continuous.
 
-**Continuity and timing:** Match preceding environment and unchanged 1949 press building, period microphones, crowd geography and physical fire progression; camera cut allowed without objects shifting inexplicably. **4–6 seconds = composition estimate only**, real voice duration/AV seam UNVERIFIED.
+**Timing:** UNVERIFIED until exact TTS, montage; 4–6 s is a visual-profile composition guideline, not a guaranteed narration duration.
 
 ## S003
 
-**Exact EN span:** How did a real emergency become difficult to believe on the city's own trusted frequency?
+**Exact EN span:** Listeners had tuned in for the singing duo Benítez and Valencia. Their music was interrupted by an urgent bulletin about an attack near the city.
 
-**Exact RU span:** Как получилось, что настоящей беде перестали верить в эфире одной из самых авторитетных радиостанций города?
+**Exact RU span:** Слушатели ждали выступления певческого дуэта Бенитеса и Валенсии. Музыку прервало срочное сообщение о нападении неподалёку от города.
 
-**Смысл кадра / основной объект:** A large old radio dial and view through window to distant smoke.
+**Visual intent:** Inside 1949 broadcast studio: period singer microphones, soundboard, bulletin taking over the music.
 
-**Self-contained image prompt (for later authorized scene_image only):** 16:9 full-frame Nuviko History illustrated documentary reconstruction, no border, no game UI and no subtitles embedded into image. A large old radio dial and view through window to distant smoke. Historically plausible Quito/Ecuador urban and indoor environment, natural muted colors, 1940s objects and clothing, physically plausible perspective, meaningful subject large enough to read on a phone-size screen. Scene is fictionalized visualization of established documented events, not archival evidence. Keep protagonist drawn 2D only if exact approved hero model reference PNG is actually present and attached; otherwise no host. No copyrighted TV frames, real radio recording or fake readable archival quotes.
+**Illustration treatment:** Full-frame historical illustrated documentary scene in Quito, Ecuador, 1949; physically coherent perspective, muted period color and light, recognisable subject, human-scale motion by whole-frame pan/zoom only. Depicted evidence is reconstruction, not authentic photograph or broadcast. No invented readable quotes. Keep repeat locations, people and props continuous.
 
-**Continuity and timing:** Match preceding environment and unchanged 1949 press building, period microphones, crowd geography and physical fire progression; camera cut allowed without objects shifting inexplicably. **4–6 seconds = composition estimate only**, real voice duration/AV seam UNVERIFIED.
+**Timing:** UNVERIFIED until exact TTS, montage; 4–6 s is a visual-profile composition guideline, not a guaranteed narration duration.
 
 ## S004
 
-**Exact EN span:** Quito is Ecuador's capital, high in the Andes. In 1949, radio was a central part of city life.
+**Exact EN span:** There was no attack. The station was performing its own version of H. G. Wells's The War of the Worlds, with Martians supposedly advancing toward Quito.
 
-**Exact RU span:** Кито — столица Эквадора высоко в Андах. В 1949 году радио занимало важное место в жизни города.
+**Exact RU span:** Никакого нападения не было. Станция разыгрывала собственную версию «Войны миров» Герберта Уэллса: по сценарию марсиане наступали на Кито.
 
-**Смысл кадра / основной объект:** Wide photorealistic reconstruction of 1949 Ecuadorian Andes streets.
+**Visual intent:** Fiction clearly separated from reality: a theater script on a studio desk and an imagined saucer graphic, never archival footage.
 
-**Self-contained image prompt (for later authorized scene_image only):** 16:9 full-frame Nuviko History illustrated documentary reconstruction, no border, no game UI and no subtitles embedded into image. Wide photorealistic reconstruction of 1949 Ecuadorian Andes streets. Historically plausible Quito/Ecuador urban and indoor environment, natural muted colors, 1940s objects and clothing, physically plausible perspective, meaningful subject large enough to read on a phone-size screen. Scene is fictionalized visualization of established documented events, not archival evidence. Keep protagonist drawn 2D only if exact approved hero model reference PNG is actually present and attached; otherwise no host. No copyrighted TV frames, real radio recording or fake readable archival quotes.
+**Illustration treatment:** Full-frame historical illustrated documentary scene in Quito, Ecuador, 1949; physically coherent perspective, muted period color and light, recognisable subject, human-scale motion by whole-frame pan/zoom only. Depicted evidence is reconstruction, not authentic photograph or broadcast. No invented readable quotes. Keep repeat locations, people and props continuous.
 
-**Continuity and timing:** Match preceding environment and unchanged 1949 press building, period microphones, crowd geography and physical fire progression; camera cut allowed without objects shifting inexplicably. **4–6 seconds = composition estimate only**, real voice duration/AV seam UNVERIFIED.
+**Timing:** UNVERIFIED until exact TTS, montage; 4–6 s is a visual-profile composition guideline, not a guaranteed narration duration.
 
 ## S005
 
-**Exact EN span:** Radio Quito shared a building with El Comercio, an influential newspaper. People knew both names.
+**Exact EN span:** The actors impersonated reporters and officials. A contemporary newspaper report even described an actor playing the interior minister. The place names were familiar to local listeners.
 
-**Exact RU span:** Радио Кито делило здание с влиятельной газетой El Comercio. Оба названия были хорошо известны жителям.
+**Exact RU span:** Артисты изображали репортёров и чиновников. Газетный репортаж тех дней рассказывал даже об актёре, говорившем от имени министра внутренних дел. Названия мест были знакомы слушателям.
 
-**Смысл кадра / основной объект:** Reconstructed 1949 newspaper printing press below vintage radio studio.
+**Visual intent:** Studio microphones, performers and a readable schematic map; no fabricated verbatim government announcement.
 
-**Self-contained image prompt (for later authorized scene_image only):** 16:9 full-frame Nuviko History illustrated documentary reconstruction, no border, no game UI and no subtitles embedded into image. Reconstructed 1949 newspaper printing press below vintage radio studio. Historically plausible Quito/Ecuador urban and indoor environment, natural muted colors, 1940s objects and clothing, physically plausible perspective, meaningful subject large enough to read on a phone-size screen. Scene is fictionalized visualization of established documented events, not archival evidence. Keep protagonist drawn 2D only if exact approved hero model reference PNG is actually present and attached; otherwise no host. No copyrighted TV frames, real radio recording or fake readable archival quotes.
+**Illustration treatment:** Full-frame historical illustrated documentary scene in Quito, Ecuador, 1949; physically coherent perspective, muted period color and light, recognisable subject, human-scale motion by whole-frame pan/zoom only. Depicted evidence is reconstruction, not authentic photograph or broadcast. No invented readable quotes. Keep repeat locations, people and props continuous.
 
-**Continuity and timing:** Match preceding environment and unchanged 1949 press building, period microphones, crowd geography and physical fire progression; camera cut allowed without objects shifting inexplicably. **4–6 seconds = composition estimate only**, real voice duration/AV seam UNVERIFIED.
+**Timing:** UNVERIFIED until exact TTS, montage; 4–6 s is a visual-profile composition guideline, not a guaranteed narration duration.
 
 ## S006
 
-**Exact EN span:** On the evening of February twelfth, listeners expected music from Benítez and Valencia, a popular singing duo.
+**Exact EN span:** The broadcast sounded enough like news that people took to the streets. The same contemporary report said police units went toward Cotocollao, where the fictitious invaders were supposed to have landed.
 
-**Exact RU span:** Вечером 12 февраля слушатели ждали выступления популярного дуэта Бенитеса и Валенсии.
+**Exact RU span:** Передача звучала настолько похоже на новости, что люди вышли на улицы. По сообщению газеты того времени, полицейские подразделения отправились к Котокольяо — месту вымышленной высадки.
 
-**Смысл кадра / основной объект:** Two musicians performing at vintage standing microphone in period radio studio.
+**Visual intent:** Split between alarmed Quito streets and police vehicles heading toward Cotocollao on a simplified geographic map.
 
-**Self-contained image prompt (for later authorized scene_image only):** 16:9 full-frame Nuviko History illustrated documentary reconstruction, no border, no game UI and no subtitles embedded into image. Two musicians performing at vintage standing microphone in period radio studio. Historically plausible Quito/Ecuador urban and indoor environment, natural muted colors, 1940s objects and clothing, physically plausible perspective, meaningful subject large enough to read on a phone-size screen. Scene is fictionalized visualization of established documented events, not archival evidence. Keep protagonist drawn 2D only if exact approved hero model reference PNG is actually present and attached; otherwise no host. No copyrighted TV frames, real radio recording or fake readable archival quotes.
+**Illustration treatment:** Full-frame historical illustrated documentary scene in Quito, Ecuador, 1949; physically coherent perspective, muted period color and light, recognisable subject, human-scale motion by whole-frame pan/zoom only. Depicted evidence is reconstruction, not authentic photograph or broadcast. No invented readable quotes. Keep repeat locations, people and props continuous.
 
-**Continuity and timing:** Match preceding environment and unchanged 1949 press building, period microphones, crowd geography and physical fire progression; camera cut allowed without objects shifting inexplicably. **4–6 seconds = composition estimate only**, real voice duration/AV seam UNVERIFIED.
+**Timing:** UNVERIFIED until exact TTS, montage; 4–6 s is a visual-profile composition guideline, not a guaranteed narration duration.
 
 ## S007
 
-**Exact EN span:** Instead, the performance was interrupted by an urgent bulletin about an attack near Quito.
+**Exact EN span:** Radio Quito eventually announced that the invasion was only a play. For people who believed the warnings, that explanation brought anger rather than relief.
 
-**Exact RU span:** Но музыка прервалась экстренным сообщением о нападении неподалёку от Кито.
+**Exact RU span:** В конце концов Радио Кито объявило, что никакого вторжения нет: в эфире был спектакль. Но для поверивших сообщениям объяснение обернулось не облегчением, а злостью.
 
-**Смысл кадра / основной объект:** A radio engineer cutting music at a large studio mixing desk.
+**Visual intent:** An announcer in studio explains fiction; outside, a gathering crowd changes direction toward the station.
 
-**Self-contained image prompt (for later authorized scene_image only):** 16:9 full-frame Nuviko History illustrated documentary reconstruction, no border, no game UI and no subtitles embedded into image. A radio engineer cutting music at a large studio mixing desk. Historically plausible Quito/Ecuador urban and indoor environment, natural muted colors, 1940s objects and clothing, physically plausible perspective, meaningful subject large enough to read on a phone-size screen. Scene is fictionalized visualization of established documented events, not archival evidence. Keep protagonist drawn 2D only if exact approved hero model reference PNG is actually present and attached; otherwise no host. No copyrighted TV frames, real radio recording or fake readable archival quotes.
+**Illustration treatment:** Full-frame historical illustrated documentary scene in Quito, Ecuador, 1949; physically coherent perspective, muted period color and light, recognisable subject, human-scale motion by whole-frame pan/zoom only. Depicted evidence is reconstruction, not authentic photograph or broadcast. No invented readable quotes. Keep repeat locations, people and props continuous.
 
-**Continuity and timing:** Match preceding environment and unchanged 1949 press building, period microphones, crowd geography and physical fire progression; camera cut allowed without objects shifting inexplicably. **4–6 seconds = composition estimate only**, real voice duration/AV seam UNVERIFIED.
+**Timing:** UNVERIFIED until exact TTS, montage; 4–6 s is a visual-profile composition guideline, not a guaranteed narration duration.
 
 ## S008
 
-**Exact EN span:** Nothing had attacked the city. The station was performing a version of H. G. Wells's The War of the Worlds.
+**Exact EN span:** José Laso, who was listening at home, later recalled seeing furious crowds moving toward the station. Other witnesses remembered people carrying kerosene torches.
 
-**Exact RU span:** На самом деле никакого нападения не было. В эфире шла версия «Войны миров» Герберта Уэллса.
+**Exact RU span:** Хосе Ласо, слушавший радио дома, позднее вспоминал, как разъярённая толпа двигалась к станции. Другие очевидцы рассказывали о людях с керосиновыми факелами.
 
-**Смысл кадра / основной объект:** Studio sound-effects artist using miniature fictional spacecraft stage prop.
+**Visual intent:** View from an apartment window over an increasingly crowded 1949 Quito street; torches visible in distance.
 
-**Self-contained image prompt (for later authorized scene_image only):** 16:9 full-frame Nuviko History illustrated documentary reconstruction, no border, no game UI and no subtitles embedded into image. Studio sound-effects artist using miniature fictional spacecraft stage prop. Historically plausible Quito/Ecuador urban and indoor environment, natural muted colors, 1940s objects and clothing, physically plausible perspective, meaningful subject large enough to read on a phone-size screen. Scene is fictionalized visualization of established documented events, not archival evidence. Keep protagonist drawn 2D only if exact approved hero model reference PNG is actually present and attached; otherwise no host. No copyrighted TV frames, real radio recording or fake readable archival quotes.
+**Illustration treatment:** Full-frame historical illustrated documentary scene in Quito, Ecuador, 1949; physically coherent perspective, muted period color and light, recognisable subject, human-scale motion by whole-frame pan/zoom only. Depicted evidence is reconstruction, not authentic photograph or broadcast. No invented readable quotes. Keep repeat locations, people and props continuous.
 
-**Continuity and timing:** Match preceding environment and unchanged 1949 press building, period microphones, crowd geography and physical fire progression; camera cut allowed without objects shifting inexplicably. **4–6 seconds = composition estimate only**, real voice duration/AV seam UNVERIFIED.
+**Timing:** UNVERIFIED until exact TTS, montage; 4–6 s is a visual-profile composition guideline, not a guaranteed narration duration.
 
 ## S009
 
-**Exact EN span:** The characters spoke about Martians arriving in familiar Ecuadorian places, then advancing toward the capital.
+**Exact EN span:** The crowd surrounded the newspaper building. Stones hit the windows. Then people set fires inside, while radio and newspaper employees were still working upstairs.
 
-**Exact RU span:** Персонажи рассказывали, будто марсиане появились в знакомых эквадорских местах и движутся к столице.
+**Exact RU span:** Толпа окружила газетное здание. В окна полетели камни. Затем внутри устроили поджоги, хотя наверху по-прежнему находились сотрудники радио и газеты.
 
-**Смысл кадра / основной объект:** Period map of Quito, Cotocollao and Latacunga with clearly fictional saucer marker.
+**Visual intent:** Exterior with smashed windows and a growing fire below occupied newsroom; plausible building geography.
 
-**Self-contained image prompt (for later authorized scene_image only):** 16:9 full-frame Nuviko History illustrated documentary reconstruction, no border, no game UI and no subtitles embedded into image. Period map of Quito, Cotocollao and Latacunga with clearly fictional saucer marker. Historically plausible Quito/Ecuador urban and indoor environment, natural muted colors, 1940s objects and clothing, physically plausible perspective, meaningful subject large enough to read on a phone-size screen. Scene is fictionalized visualization of established documented events, not archival evidence. Keep protagonist drawn 2D only if exact approved hero model reference PNG is actually present and attached; otherwise no host. No copyrighted TV frames, real radio recording or fake readable archival quotes.
+**Illustration treatment:** Full-frame historical illustrated documentary scene in Quito, Ecuador, 1949; physically coherent perspective, muted period color and light, recognisable subject, human-scale motion by whole-frame pan/zoom only. Depicted evidence is reconstruction, not authentic photograph or broadcast. No invented readable quotes. Keep repeat locations, people and props continuous.
 
-**Continuity and timing:** Match preceding environment and unchanged 1949 press building, period microphones, crowd geography and physical fire progression; camera cut allowed without objects shifting inexplicably. **4–6 seconds = composition estimate only**, real voice duration/AV seam UNVERIFIED.
+**Timing:** UNVERIFIED until exact TTS, montage; 4–6 s is a visual-profile composition guideline, not a guaranteed narration duration.
 
 ## S010
 
-**Exact EN span:** Actors sounded like reporters and government officials. The program borrowed the form of a real news emergency.
+**Exact EN span:** Guillermo Villalba had been invited from another station to take part in the drama. Now he saw smoke rising toward the floor where Radio Quito operated.
 
-**Exact RU span:** Актёры говорили голосами репортёров и чиновников. Спектакль был построен как настоящее экстренное сообщение.
+**Exact RU span:** Гильермо Вильяльбу пригласили с другой радиостанции участвовать в спектакле. Теперь он видел, как дым поднимается к этажу, где работало Радио Кито.
 
-**Смысл кадра / основной объект:** Three actor microphones and a stack of performance scripts in reconstruction studio.
+**Visual intent:** Single identified participant inside radio floor looking toward smoke from lower floor; avoid invented dialogue.
 
-**Self-contained image prompt (for later authorized scene_image only):** 16:9 full-frame Nuviko History illustrated documentary reconstruction, no border, no game UI and no subtitles embedded into image. Three actor microphones and a stack of performance scripts in reconstruction studio. Historically plausible Quito/Ecuador urban and indoor environment, natural muted colors, 1940s objects and clothing, physically plausible perspective, meaningful subject large enough to read on a phone-size screen. Scene is fictionalized visualization of established documented events, not archival evidence. Keep protagonist drawn 2D only if exact approved hero model reference PNG is actually present and attached; otherwise no host. No copyrighted TV frames, real radio recording or fake readable archival quotes.
+**Illustration treatment:** Full-frame historical illustrated documentary scene in Quito, Ecuador, 1949; physically coherent perspective, muted period color and light, recognisable subject, human-scale motion by whole-frame pan/zoom only. Depicted evidence is reconstruction, not authentic photograph or broadcast. No invented readable quotes. Keep repeat locations, people and props continuous.
 
-**Continuity and timing:** Match preceding environment and unchanged 1949 press building, period microphones, crowd geography and physical fire progression; camera cut allowed without objects shifting inexplicably. **4–6 seconds = composition estimate only**, real voice duration/AV seam UNVERIFIED.
+**Timing:** UNVERIFIED until exact TTS, montage; 4–6 s is a visual-profile composition guideline, not a guaranteed narration duration.
 
 ## S011
 
-**Exact EN span:** And the supposed invasion was happening right around the towns and streets listeners recognized.
+**Exact EN span:** A Radio Quito announcer returned to the microphone, asking police, firefighters and anybody listening to rescue the people trapped inside.
 
-**Exact RU span:** И вымышленное вторжение будто разворачивалось прямо рядом с местами, которые слушатели знали.
+**Exact RU span:** Диктор Радио Кито снова подошёл к микрофону. Он просил полицию, пожарных и всех слушателей спасти людей, оказавшихся внутри.
 
-**Смысл кадра / основной объект:** Quiet period Quito street and imagined invasion shown only as radio shadow artwork.
+**Visual intent:** Announcer at period microphone, smoke approaching studio, colleagues seeking exits; no invented text on screen.
 
-**Self-contained image prompt (for later authorized scene_image only):** 16:9 full-frame Nuviko History illustrated documentary reconstruction, no border, no game UI and no subtitles embedded into image. Quiet period Quito street and imagined invasion shown only as radio shadow artwork. Historically plausible Quito/Ecuador urban and indoor environment, natural muted colors, 1940s objects and clothing, physically plausible perspective, meaningful subject large enough to read on a phone-size screen. Scene is fictionalized visualization of established documented events, not archival evidence. Keep protagonist drawn 2D only if exact approved hero model reference PNG is actually present and attached; otherwise no host. No copyrighted TV frames, real radio recording or fake readable archival quotes.
+**Illustration treatment:** Full-frame historical illustrated documentary scene in Quito, Ecuador, 1949; physically coherent perspective, muted period color and light, recognisable subject, human-scale motion by whole-frame pan/zoom only. Depicted evidence is reconstruction, not authentic photograph or broadcast. No invented readable quotes. Keep repeat locations, people and props continuous.
 
-**Continuity and timing:** Match preceding environment and unchanged 1949 press building, period microphones, crowd geography and physical fire progression; camera cut allowed without objects shifting inexplicably. **4–6 seconds = composition estimate only**, real voice duration/AV seam UNVERIFIED.
+**Timing:** UNVERIFIED until exact TTS, montage; 4–6 s is a visual-profile composition guideline, not a guaranteed narration duration.
 
 ## S012
 
-**Exact EN span:** For those who did not know it was fiction, the station gave them reasons to believe every new report.
+**Exact EN span:** Years later, Laso remembered that some people treated those pleas as part of the performance. We do not know how many shared that confusion, and it cannot by itself explain the deaths.
 
-**Exact RU span:** Тем, кто не знал, что это вымысел, привычная радиостанция давала всё новые основания доверять сообщениям.
+**Exact RU span:** Спустя много лет Ласо вспоминал, что некоторые приняли эти просьбы за продолжение спектакля. Сколько людей так подумали, неизвестно. Одним этим нельзя объяснить гибель людей.
 
-**Смысл кадра / основной объект:** 1940s family gathered close to tabletop radio in a domestic interior.
+**Visual intent:** Radio in an ordinary home juxtaposed with real smoke outside; visual distinction between firsthand recollection and measured fact.
 
-**Self-contained image prompt (for later authorized scene_image only):** 16:9 full-frame Nuviko History illustrated documentary reconstruction, no border, no game UI and no subtitles embedded into image. 1940s family gathered close to tabletop radio in a domestic interior. Historically plausible Quito/Ecuador urban and indoor environment, natural muted colors, 1940s objects and clothing, physically plausible perspective, meaningful subject large enough to read on a phone-size screen. Scene is fictionalized visualization of established documented events, not archival evidence. Keep protagonist drawn 2D only if exact approved hero model reference PNG is actually present and attached; otherwise no host. No copyrighted TV frames, real radio recording or fake readable archival quotes.
+**Illustration treatment:** Full-frame historical illustrated documentary scene in Quito, Ecuador, 1949; physically coherent perspective, muted period color and light, recognisable subject, human-scale motion by whole-frame pan/zoom only. Depicted evidence is reconstruction, not authentic photograph or broadcast. No invented readable quotes. Keep repeat locations, people and props continuous.
 
-**Continuity and timing:** Match preceding environment and unchanged 1949 press building, period microphones, crowd geography and physical fire progression; camera cut allowed without objects shifting inexplicably. **4–6 seconds = composition estimate only**, real voice duration/AV seam UNVERIFIED.
+**Timing:** UNVERIFIED until exact TTS, montage; 4–6 s is a visual-profile composition guideline, not a guaranteed narration duration.
 
 ## S013
 
-**Exact EN span:** Witnesses later described frightened residents going into the streets. Some looked for information or safety.
+**Exact EN span:** Firefighters did arrive. But accounts gathered afterward say people in the crowd threatened them if they tried to spray water. The crews withdrew.
 
-**Exact RU span:** Позднее очевидцы рассказывали, как напуганные жители выходили на улицы. Одни искали новости, другие — безопасное место.
+**Exact RU span:** Пожарные всё-таки приехали. Но, по собранным позднее свидетельствам, люди из толпы угрожали им, если они начнут тушить огонь. Расчётам пришлось отступить.
 
-**Смысл кадра / основной объект:** Anxious residents in Quito nighttime street under warm lamps, period clothing.
+**Visual intent:** Fire crew held at distance from building by threatening crowd; do not fake a direct archival quotation.
 
-**Self-contained image prompt (for later authorized scene_image only):** 16:9 full-frame Nuviko History illustrated documentary reconstruction, no border, no game UI and no subtitles embedded into image. Anxious residents in Quito nighttime street under warm lamps, period clothing. Historically plausible Quito/Ecuador urban and indoor environment, natural muted colors, 1940s objects and clothing, physically plausible perspective, meaningful subject large enough to read on a phone-size screen. Scene is fictionalized visualization of established documented events, not archival evidence. Keep protagonist drawn 2D only if exact approved hero model reference PNG is actually present and attached; otherwise no host. No copyrighted TV frames, real radio recording or fake readable archival quotes.
+**Illustration treatment:** Full-frame historical illustrated documentary scene in Quito, Ecuador, 1949; physically coherent perspective, muted period color and light, recognisable subject, human-scale motion by whole-frame pan/zoom only. Depicted evidence is reconstruction, not authentic photograph or broadcast. No invented readable quotes. Keep repeat locations, people and props continuous.
 
-**Continuity and timing:** Match preceding environment and unchanged 1949 press building, period microphones, crowd geography and physical fire progression; camera cut allowed without objects shifting inexplicably. **4–6 seconds = composition estimate only**, real voice duration/AV seam UNVERIFIED.
+**Timing:** UNVERIFIED until exact TTS, montage; 4–6 s is a visual-profile composition guideline, not a guaranteed narration duration.
 
 ## S014
 
-**Exact EN span:** Contemporary news reports also said some police had gone toward the place where the fictional attackers were supposedly landing.
+**Exact EN span:** Inside, workers tried to escape. Protesters eventually said employees could leave through one doorway, but the flames had already made reaching that exit dangerous.
 
-**Exact RU span:** Газеты того времени сообщали и о полицейских, отправившихся туда, где по сценарию якобы высадились пришельцы.
+**Exact RU span:** Внутри сотрудники пытались выбраться. Позднее участники толпы разрешили им выйти через одну дверь, но из-за огня добраться до выхода уже было опасно.
 
-**Смысл кадра / основной объект:** 1940s police car driving toward outskirts of Quito at night; no alien vehicles.
+**Visual intent:** Interior evacuation toward a single smoke-obscured doorway, with clear blocked route and no implausible movement.
 
-**Self-contained image prompt (for later authorized scene_image only):** 16:9 full-frame Nuviko History illustrated documentary reconstruction, no border, no game UI and no subtitles embedded into image. 1940s police car driving toward outskirts of Quito at night; no alien vehicles. Historically plausible Quito/Ecuador urban and indoor environment, natural muted colors, 1940s objects and clothing, physically plausible perspective, meaningful subject large enough to read on a phone-size screen. Scene is fictionalized visualization of established documented events, not archival evidence. Keep protagonist drawn 2D only if exact approved hero model reference PNG is actually present and attached; otherwise no host. No copyrighted TV frames, real radio recording or fake readable archival quotes.
+**Illustration treatment:** Full-frame historical illustrated documentary scene in Quito, Ecuador, 1949; physically coherent perspective, muted period color and light, recognisable subject, human-scale motion by whole-frame pan/zoom only. Depicted evidence is reconstruction, not authentic photograph or broadcast. No invented readable quotes. Keep repeat locations, people and props continuous.
 
-**Continuity and timing:** Match preceding environment and unchanged 1949 press building, period microphones, crowd geography and physical fire progression; camera cut allowed without objects shifting inexplicably. **4–6 seconds = composition estimate only**, real voice duration/AV seam UNVERIFIED.
+**Timing:** UNVERIFIED until exact TTS, montage; 4–6 s is a visual-profile composition guideline, not a guaranteed narration duration.
 
 ## S015
 
-**Exact EN span:** When the station finally explained that the invasion was imaginary, the panic should have ended.
+**Exact EN span:** Villalba escaped by leaping onto a hot metal roof beside the building. He badly burned his hands and body; someone later took him to a hospital while he was unconscious.
 
-**Exact RU span:** Когда станция наконец объяснила, что вторжение выдумано, паника, казалось, должна была закончиться.
+**Exact RU span:** Вильяльба спасся, прыгнув на раскалённую металлическую кровлю соседнего здания. Он сильно обжёг руки и тело. Позднее его доставили в больницу без сознания.
 
-**Смысл кадра / основной объект:** Radio announcer ending the dramatization, close-up on empty manuscript pages.
+**Visual intent:** Reconstruction of risky leap onto neighboring convent roof; metal surface and short but physically possible gap.
 
-**Self-contained image prompt (for later authorized scene_image only):** 16:9 full-frame Nuviko History illustrated documentary reconstruction, no border, no game UI and no subtitles embedded into image. Radio announcer ending the dramatization, close-up on empty manuscript pages. Historically plausible Quito/Ecuador urban and indoor environment, natural muted colors, 1940s objects and clothing, physically plausible perspective, meaningful subject large enough to read on a phone-size screen. Scene is fictionalized visualization of established documented events, not archival evidence. Keep protagonist drawn 2D only if exact approved hero model reference PNG is actually present and attached; otherwise no host. No copyrighted TV frames, real radio recording or fake readable archival quotes.
+**Illustration treatment:** Full-frame historical illustrated documentary scene in Quito, Ecuador, 1949; physically coherent perspective, muted period color and light, recognisable subject, human-scale motion by whole-frame pan/zoom only. Depicted evidence is reconstruction, not authentic photograph or broadcast. No invented readable quotes. Keep repeat locations, people and props continuous.
 
-**Continuity and timing:** Match preceding environment and unchanged 1949 press building, period microphones, crowd geography and physical fire progression; camera cut allowed without objects shifting inexplicably. **4–6 seconds = composition estimate only**, real voice duration/AV seam UNVERIFIED.
+**Timing:** UNVERIFIED until exact TTS, montage; 4–6 s is a visual-profile composition guideline, not a guaranteed narration duration.
 
 ## S016
 
-**Exact EN span:** Instead, the announcement changed fear into anger. People who felt deceived headed for Radio Quito.
+**Exact EN span:** Another announcer, Luis Beltrán, survived a fall from the burning building, according to his daughter's later account. Not everyone inside had a way out.
 
-**Exact RU span:** Но это объяснение сменило страх на ярость. Почувствовавшие себя обманутыми люди пошли к Радио Кито.
+**Exact RU span:** Другой диктор, Луис Бельтран, по позднему рассказу его дочери, выжил после падения из горящего здания. Но выбраться смогли не все.
 
-**Смысл кадра / основной объект:** Growing angry crowd in 1949 street moving toward printing building.
+**Visual intent:** Ground-level view of rescued announcer after fall, no dramatic invented moment or medical detail.
 
-**Self-contained image prompt (for later authorized scene_image only):** 16:9 full-frame Nuviko History illustrated documentary reconstruction, no border, no game UI and no subtitles embedded into image. Growing angry crowd in 1949 street moving toward printing building. Historically plausible Quito/Ecuador urban and indoor environment, natural muted colors, 1940s objects and clothing, physically plausible perspective, meaningful subject large enough to read on a phone-size screen. Scene is fictionalized visualization of established documented events, not archival evidence. Keep protagonist drawn 2D only if exact approved hero model reference PNG is actually present and attached; otherwise no host. No copyrighted TV frames, real radio recording or fake readable archival quotes.
+**Illustration treatment:** Full-frame historical illustrated documentary scene in Quito, Ecuador, 1949; physically coherent perspective, muted period color and light, recognisable subject, human-scale motion by whole-frame pan/zoom only. Depicted evidence is reconstruction, not authentic photograph or broadcast. No invented readable quotes. Keep repeat locations, people and props continuous.
 
-**Continuity and timing:** Match preceding environment and unchanged 1949 press building, period microphones, crowd geography and physical fire progression; camera cut allowed without objects shifting inexplicably. **4–6 seconds = composition estimate only**, real voice duration/AV seam UNVERIFIED.
+**Timing:** UNVERIFIED until exact TTS, montage; 4–6 s is a visual-profile composition guideline, not a guaranteed narration duration.
 
 ## S017
 
-**Exact EN span:** The station wasn't in a separate little booth. It was inside the newspaper building, with workers still there.
+**Exact EN span:** By late evening, police and soldiers had cleared the crowd. Firefighters could finally approach the building, but much of its interior was already burning.
 
-**Exact RU span:** Станция находилась не в отдельной студийной будке, а в здании газеты, где по-прежнему работали люди.
+**Exact RU span:** Поздно вечером полиция и военные разогнали толпу. Пожарные наконец смогли подойти к зданию, но внутри к тому времени уже бушевал огонь.
 
-**Смысл кадра / основной объект:** Cross-sectional view of period newspaper employees and radio workers on different floors.
+**Visual intent:** Police and soldiers clearing access; fire hoses reaching building; late-evening 1949 street.
 
-**Self-contained image prompt (for later authorized scene_image only):** 16:9 full-frame Nuviko History illustrated documentary reconstruction, no border, no game UI and no subtitles embedded into image. Cross-sectional view of period newspaper employees and radio workers on different floors. Historically plausible Quito/Ecuador urban and indoor environment, natural muted colors, 1940s objects and clothing, physically plausible perspective, meaningful subject large enough to read on a phone-size screen. Scene is fictionalized visualization of established documented events, not archival evidence. Keep protagonist drawn 2D only if exact approved hero model reference PNG is actually present and attached; otherwise no host. No copyrighted TV frames, real radio recording or fake readable archival quotes.
+**Illustration treatment:** Full-frame historical illustrated documentary scene in Quito, Ecuador, 1949; physically coherent perspective, muted period color and light, recognisable subject, human-scale motion by whole-frame pan/zoom only. Depicted evidence is reconstruction, not authentic photograph or broadcast. No invented readable quotes. Keep repeat locations, people and props continuous.
 
-**Continuity and timing:** Match preceding environment and unchanged 1949 press building, period microphones, crowd geography and physical fire progression; camera cut allowed without objects shifting inexplicably. **4–6 seconds = composition estimate only**, real voice duration/AV seam UNVERIFIED.
+**Timing:** UNVERIFIED until exact TTS, montage; 4–6 s is a visual-profile composition guideline, not a guaranteed narration duration.
 
 ## S018
 
-**Exact EN span:** Stones struck the windows. People arrived with torches. Soon there was fire inside the building.
+**Exact EN span:** A newspaper report published days later counted at least six dead and fifteen injured. Later accounts reported eight deaths; other totals circulated. The final figure is not firmly settled.
 
-**Exact RU span:** В окна полетели камни. Люди принесли факелы. Вскоре внутри здания начался пожар.
+**Exact RU span:** В газетном сообщении, опубликованном через несколько дней, говорилось минимум о шести погибших и пятнадцати раненых. Позднее называли восемь смертей; встречались и другие цифры. Окончательный итог остаётся спорным.
 
-**Смысл кадра / основной объект:** Wide exterior showing broken windows and early flames in a newspaper building.
+**Visual intent:** Aftermath with damaged newsroom and period printed casualty report; numbers presented as different sourced reports, not a single definitive tally.
 
-**Self-contained image prompt (for later authorized scene_image only):** 16:9 full-frame Nuviko History illustrated documentary reconstruction, no border, no game UI and no subtitles embedded into image. Wide exterior showing broken windows and early flames in a newspaper building. Historically plausible Quito/Ecuador urban and indoor environment, natural muted colors, 1940s objects and clothing, physically plausible perspective, meaningful subject large enough to read on a phone-size screen. Scene is fictionalized visualization of established documented events, not archival evidence. Keep protagonist drawn 2D only if exact approved hero model reference PNG is actually present and attached; otherwise no host. No copyrighted TV frames, real radio recording or fake readable archival quotes.
+**Illustration treatment:** Full-frame historical illustrated documentary scene in Quito, Ecuador, 1949; physically coherent perspective, muted period color and light, recognisable subject, human-scale motion by whole-frame pan/zoom only. Depicted evidence is reconstruction, not authentic photograph or broadcast. No invented readable quotes. Keep repeat locations, people and props continuous.
 
-**Continuity and timing:** Match preceding environment and unchanged 1949 press building, period microphones, crowd geography and physical fire progression; camera cut allowed without objects shifting inexplicably. **4–6 seconds = composition estimate only**, real voice duration/AV seam UNVERIFIED.
+**Timing:** UNVERIFIED until exact TTS, montage; 4–6 s is a visual-profile composition guideline, not a guaranteed narration duration.
 
 ## S019
 
-**Exact EN span:** Staff upstairs could see smoke climbing from below. Their exits were becoming dangerous.
+**Exact EN span:** The blaze also destroyed the station's recording of the drama and its adapted studio script. What listeners heard in 1949 cannot simply be replayed from an original tape.
 
-**Exact RU span:** Сотрудники наверху видели поднимавшийся снизу дым. Выбираться становилось опасно.
+**Exact RU span:** В пожаре погибли также запись радиоспектакля и его студийный сценарий. Поэтому сегодня нельзя просто включить оригинальную передачу, которую слушали в 1949 году.
 
-**Смысл кадра / основной объект:** Smoke rising in 1940s interior stairwell, office workers retreating.
+**Visual intent:** Fire-damaged record and script remnants in newsroom; no supposed intact archival tape.
 
-**Self-contained image prompt (for later authorized scene_image only):** 16:9 full-frame Nuviko History illustrated documentary reconstruction, no border, no game UI and no subtitles embedded into image. Smoke rising in 1940s interior stairwell, office workers retreating. Historically plausible Quito/Ecuador urban and indoor environment, natural muted colors, 1940s objects and clothing, physically plausible perspective, meaningful subject large enough to read on a phone-size screen. Scene is fictionalized visualization of established documented events, not archival evidence. Keep protagonist drawn 2D only if exact approved hero model reference PNG is actually present and attached; otherwise no host. No copyrighted TV frames, real radio recording or fake readable archival quotes.
+**Illustration treatment:** Full-frame historical illustrated documentary scene in Quito, Ecuador, 1949; physically coherent perspective, muted period color and light, recognisable subject, human-scale motion by whole-frame pan/zoom only. Depicted evidence is reconstruction, not authentic photograph or broadcast. No invented readable quotes. Keep repeat locations, people and props continuous.
 
-**Continuity and timing:** Match preceding environment and unchanged 1949 press building, period microphones, crowd geography and physical fire progression; camera cut allowed without objects shifting inexplicably. **4–6 seconds = composition estimate only**, real voice duration/AV seam UNVERIFIED.
+**Timing:** UNVERIFIED until exact TTS, montage; 4–6 s is a visual-profile composition guideline, not a guaranteed narration duration.
 
 ## S020
 
-**Exact EN span:** The radio that had just reported an imaginary disaster now had a real one unfolding around its microphones.
+**Exact EN span:** The invasion broadcasts used in later retellings are reconstructions. The real fire, the blocked firefighters and the cries for help are documented by contemporary reporting and later testimony.
 
-**Exact RU span:** Радиостанция, только что сообщавшая о вымышленной катастрофе, теперь переживала настоящую прямо возле микрофонов.
+**Exact RU span:** Звуки вторжения, которые используют в новых рассказах об этой истории, — реконструкции. А настоящий пожар, препятствия пожарным и просьбы о помощи известны из газет тех дней и поздних свидетельств.
 
-**Смысл кадра / основной объект:** Vintage microphone in smoky radio booth, firelight beyond open door.
+**Visual intent:** Side-by-side physically distinct recreation studio and contemporary newspaper page; make non-archival audio status plain.
 
-**Self-contained image prompt (for later authorized scene_image only):** 16:9 full-frame Nuviko History illustrated documentary reconstruction, no border, no game UI and no subtitles embedded into image. Vintage microphone in smoky radio booth, firelight beyond open door. Historically plausible Quito/Ecuador urban and indoor environment, natural muted colors, 1940s objects and clothing, physically plausible perspective, meaningful subject large enough to read on a phone-size screen. Scene is fictionalized visualization of established documented events, not archival evidence. Keep protagonist drawn 2D only if exact approved hero model reference PNG is actually present and attached; otherwise no host. No copyrighted TV frames, real radio recording or fake readable archival quotes.
+**Illustration treatment:** Full-frame historical illustrated documentary scene in Quito, Ecuador, 1949; physically coherent perspective, muted period color and light, recognisable subject, human-scale motion by whole-frame pan/zoom only. Depicted evidence is reconstruction, not authentic photograph or broadcast. No invented readable quotes. Keep repeat locations, people and props continuous.
 
-**Continuity and timing:** Match preceding environment and unchanged 1949 press building, period microphones, crowd geography and physical fire progression; camera cut allowed without objects shifting inexplicably. **4–6 seconds = composition estimate only**, real voice duration/AV seam UNVERIFIED.
+**Timing:** UNVERIFIED until exact TTS, montage; 4–6 s is a visual-profile composition guideline, not a guaranteed narration duration.
 
 ## S021
 
-**Exact EN span:** One of the announcers went back on air to ask police, firefighters and anyone listening for help.
+**Exact EN span:** The station's artistic director, Leonardo Páez, was investigated after the disaster and later acquitted. Radio Quito began broadcasting again in 1951.
 
-**Exact RU span:** Один из дикторов вернулся в эфир и попросил полицию, пожарных и всех слушателей прийти на помощь.
+**Exact RU span:** Художественного руководителя станции Леонардо Паэса после катастрофы привлекли к расследованию, а затем оправдали. Радио Кито вернулось в эфир в 1951 году.
 
-**Смысл кадра / основной объект:** Anonymous historic announcer calling for help into antique studio microphone.
+**Visual intent:** Period courthouse papers then quiet, restored Quito radio studio; avoid invented court verdict text.
 
-**Self-contained image prompt (for later authorized scene_image only):** 16:9 full-frame Nuviko History illustrated documentary reconstruction, no border, no game UI and no subtitles embedded into image. Anonymous historic announcer calling for help into antique studio microphone. Historically plausible Quito/Ecuador urban and indoor environment, natural muted colors, 1940s objects and clothing, physically plausible perspective, meaningful subject large enough to read on a phone-size screen. Scene is fictionalized visualization of established documented events, not archival evidence. Keep protagonist drawn 2D only if exact approved hero model reference PNG is actually present and attached; otherwise no host. No copyrighted TV frames, real radio recording or fake readable archival quotes.
+**Illustration treatment:** Full-frame historical illustrated documentary scene in Quito, Ecuador, 1949; physically coherent perspective, muted period color and light, recognisable subject, human-scale motion by whole-frame pan/zoom only. Depicted evidence is reconstruction, not authentic photograph or broadcast. No invented readable quotes. Keep repeat locations, people and props continuous.
 
-**Continuity and timing:** Match preceding environment and unchanged 1949 press building, period microphones, crowd geography and physical fire progression; camera cut allowed without objects shifting inexplicably. **4–6 seconds = composition estimate only**, real voice duration/AV seam UNVERIFIED.
+**Timing:** UNVERIFIED until exact TTS, montage; 4–6 s is a visual-profile composition guideline, not a guaranteed narration duration.
 
 ## S022
 
-**Exact EN span:** Years afterward, José Laso recalled hearing that plea and believing some listeners thought it was still part of the performance.
+**Exact EN span:** But among those who died were two musicians who had been in the building that night: violinist Perfecto Alvarado and pianist Raúl Molestina. The performance that began as entertainment cost them their lives in the real fire.
 
-**Exact RU span:** Много лет спустя Хосе Ласо вспоминал эту просьбу и считал, что некоторые слушатели приняли её за продолжение спектакля.
+**Exact RU span:** Но среди погибших были два музыканта, находившиеся в здании в тот вечер: скрипач Перфекто Альварадо и пианист Рауль Молестина. Они пришли на радиопередачу, а погибли в настоящем пожаре.
 
-**Смысл кадра / основной объект:** Historical reconstruction of young listener and older witness silhouette, not archival footage.
+**Visual intent:** Close on unattended 1940s violin and piano in the gutted studio; no invented on-screen portrait or funeral.
 
-**Self-contained image prompt (for later authorized scene_image only):** 16:9 full-frame Nuviko History illustrated documentary reconstruction, no border, no game UI and no subtitles embedded into image. Historical reconstruction of young listener and older witness silhouette, not archival footage. Historically plausible Quito/Ecuador urban and indoor environment, natural muted colors, 1940s objects and clothing, physically plausible perspective, meaningful subject large enough to read on a phone-size screen. Scene is fictionalized visualization of established documented events, not archival evidence. Keep protagonist drawn 2D only if exact approved hero model reference PNG is actually present and attached; otherwise no host. No copyrighted TV frames, real radio recording or fake readable archival quotes.
+**Illustration treatment:** Full-frame historical illustrated documentary scene in Quito, Ecuador, 1949; physically coherent perspective, muted period color and light, recognisable subject, human-scale motion by whole-frame pan/zoom only. Depicted evidence is reconstruction, not authentic photograph or broadcast. No invented readable quotes. Keep repeat locations, people and props continuous.
 
-**Continuity and timing:** Match preceding environment and unchanged 1949 press building, period microphones, crowd geography and physical fire progression; camera cut allowed without objects shifting inexplicably. **4–6 seconds = composition estimate only**, real voice duration/AV seam UNVERIFIED.
-
-## S023
-
-**Exact EN span:** His memory does not tell us how many people shared the confusion. But the calls for help were real.
-
-**Exact RU span:** Его воспоминание не позволяет установить, сколько людей разделяли это заблуждение. Но просьбы о помощи были настоящими.
-
-**Смысл кадра / основной объект:** Two separate Quito households reacting differently to same vintage radio broadcast.
-
-**Self-contained image prompt (for later authorized scene_image only):** 16:9 full-frame Nuviko History illustrated documentary reconstruction, no border, no game UI and no subtitles embedded into image. Two separate Quito households reacting differently to same vintage radio broadcast. Historically plausible Quito/Ecuador urban and indoor environment, natural muted colors, 1940s objects and clothing, physically plausible perspective, meaningful subject large enough to read on a phone-size screen. Scene is fictionalized visualization of established documented events, not archival evidence. Keep protagonist drawn 2D only if exact approved hero model reference PNG is actually present and attached; otherwise no host. No copyrighted TV frames, real radio recording or fake readable archival quotes.
-
-**Continuity and timing:** Match preceding environment and unchanged 1949 press building, period microphones, crowd geography and physical fire progression; camera cut allowed without objects shifting inexplicably. **4–6 seconds = composition estimate only**, real voice duration/AV seam UNVERIFIED.
-
-## S024
-
-**Exact EN span:** Firefighters did reach the building. Witness accounts say people in the crowd kept them from fighting the blaze.
-
-**Exact RU span:** Пожарные добрались до здания. По воспоминаниям очевидцев, люди из толпы мешали им тушить огонь.
-
-**Смысл кадра / основной объект:** Period fire truck stopped by a hostile crowd while smoke rises above 1940s street.
-
-**Self-contained image prompt (for later authorized scene_image only):** 16:9 full-frame Nuviko History illustrated documentary reconstruction, no border, no game UI and no subtitles embedded into image. Period fire truck stopped by a hostile crowd while smoke rises above 1940s street. Historically plausible Quito/Ecuador urban and indoor environment, natural muted colors, 1940s objects and clothing, physically plausible perspective, meaningful subject large enough to read on a phone-size screen. Scene is fictionalized visualization of established documented events, not archival evidence. Keep protagonist drawn 2D only if exact approved hero model reference PNG is actually present and attached; otherwise no host. No copyrighted TV frames, real radio recording or fake readable archival quotes.
-
-**Continuity and timing:** Match preceding environment and unchanged 1949 press building, period microphones, crowd geography and physical fire progression; camera cut allowed without objects shifting inexplicably. **4–6 seconds = composition estimate only**, real voice duration/AV seam UNVERIFIED.
-
-## S025
-
-**Exact EN span:** Inside, the fire kept spreading while radio and newspaper employees tried to find a way out.
-
-**Exact RU span:** Внутри пожар распространялся, пока работники радио и газеты пытались выбраться наружу.
-
-**Смысл кадра / основной объект:** Cutaway of smoky upper floors and workers looking for the rooftop escape.
-
-**Self-contained image prompt (for later authorized scene_image only):** 16:9 full-frame Nuviko History illustrated documentary reconstruction, no border, no game UI and no subtitles embedded into image. Cutaway of smoky upper floors and workers looking for the rooftop escape. Historically plausible Quito/Ecuador urban and indoor environment, natural muted colors, 1940s objects and clothing, physically plausible perspective, meaningful subject large enough to read on a phone-size screen. Scene is fictionalized visualization of established documented events, not archival evidence. Keep protagonist drawn 2D only if exact approved hero model reference PNG is actually present and attached; otherwise no host. No copyrighted TV frames, real radio recording or fake readable archival quotes.
-
-**Continuity and timing:** Match preceding environment and unchanged 1949 press building, period microphones, crowd geography and physical fire progression; camera cut allowed without objects shifting inexplicably. **4–6 seconds = composition estimate only**, real voice duration/AV seam UNVERIFIED.
-
-## S026
-
-**Exact EN span:** One radio worker, Guillermo Villalba, escaped over a neighboring roof and suffered severe burns.
-
-**Exact RU span:** Один из работников радио, Гильермо Вильяльба, выбрался по соседней крыше и получил тяжёлые ожоги.
-
-**Смысл кадра / основной объект:** Wide distant silhouetted figure crossing narrow rooftop gap above burning building.
-
-**Self-contained image prompt (for later authorized scene_image only):** 16:9 full-frame Nuviko History illustrated documentary reconstruction, no border, no game UI and no subtitles embedded into image. Wide distant silhouetted figure crossing narrow rooftop gap above burning building. Historically plausible Quito/Ecuador urban and indoor environment, natural muted colors, 1940s objects and clothing, physically plausible perspective, meaningful subject large enough to read on a phone-size screen. Scene is fictionalized visualization of established documented events, not archival evidence. Keep protagonist drawn 2D only if exact approved hero model reference PNG is actually present and attached; otherwise no host. No copyrighted TV frames, real radio recording or fake readable archival quotes.
-
-**Continuity and timing:** Match preceding environment and unchanged 1949 press building, period microphones, crowd geography and physical fire progression; camera cut allowed without objects shifting inexplicably. **4–6 seconds = composition estimate only**, real voice duration/AV seam UNVERIFIED.
-
-## S027
-
-**Exact EN span:** Another announcer, Luis Beltrán, survived a fall from the burning building, according to his daughter's later account.
-
-**Exact RU span:** Другой диктор, Луис Бельтран, по позднему рассказу его дочери, выжил после падения из горящего здания.
-
-**Смысл кадра / основной объект:** Non-graphic period courtyard beneath high balcony and smoky windows.
-
-**Self-contained image prompt (for later authorized scene_image only):** 16:9 full-frame Nuviko History illustrated documentary reconstruction, no border, no game UI and no subtitles embedded into image. Non-graphic period courtyard beneath high balcony and smoky windows. Historically plausible Quito/Ecuador urban and indoor environment, natural muted colors, 1940s objects and clothing, physically plausible perspective, meaningful subject large enough to read on a phone-size screen. Scene is fictionalized visualization of established documented events, not archival evidence. Keep protagonist drawn 2D only if exact approved hero model reference PNG is actually present and attached; otherwise no host. No copyrighted TV frames, real radio recording or fake readable archival quotes.
-
-**Continuity and timing:** Match preceding environment and unchanged 1949 press building, period microphones, crowd geography and physical fire progression; camera cut allowed without objects shifting inexplicably. **4–6 seconds = composition estimate only**, real voice duration/AV seam UNVERIFIED.
-
-## S028
-
-**Exact EN span:** Eventually police and soldiers cleared access for the fire crews. The rescuers could finally work.
-
-**Exact RU span:** В конце концов полиция и военные расчистили путь пожарным. Теперь они смогли приступить к тушению.
-
-**Смысл кадра / основной объект:** Period soldiers and firefighters making clear corridor in smoky downtown Quito.
-
-**Self-contained image prompt (for later authorized scene_image only):** 16:9 full-frame Nuviko History illustrated documentary reconstruction, no border, no game UI and no subtitles embedded into image. Period soldiers and firefighters making clear corridor in smoky downtown Quito. Historically plausible Quito/Ecuador urban and indoor environment, natural muted colors, 1940s objects and clothing, physically plausible perspective, meaningful subject large enough to read on a phone-size screen. Scene is fictionalized visualization of established documented events, not archival evidence. Keep protagonist drawn 2D only if exact approved hero model reference PNG is actually present and attached; otherwise no host. No copyrighted TV frames, real radio recording or fake readable archival quotes.
-
-**Continuity and timing:** Match preceding environment and unchanged 1949 press building, period microphones, crowd geography and physical fire progression; camera cut allowed without objects shifting inexplicably. **4–6 seconds = composition estimate only**, real voice duration/AV seam UNVERIFIED.
-
-## S029
-
-**Exact EN span:** The fire gutted both the station and the newspaper's offices. Some people inside never escaped.
-
-**Exact RU span:** Огонь уничтожил внутренние помещения радиостанции и газетной редакции. Не всем находившимся внутри удалось спастись.
-
-**Смысл кадра / основной объект:** Burned facade and gutted upper newspaper rooms at dawn, somber distant view.
-
-**Self-contained image prompt (for later authorized scene_image only):** 16:9 full-frame Nuviko History illustrated documentary reconstruction, no border, no game UI and no subtitles embedded into image. Burned facade and gutted upper newspaper rooms at dawn, somber distant view. Historically plausible Quito/Ecuador urban and indoor environment, natural muted colors, 1940s objects and clothing, physically plausible perspective, meaningful subject large enough to read on a phone-size screen. Scene is fictionalized visualization of established documented events, not archival evidence. Keep protagonist drawn 2D only if exact approved hero model reference PNG is actually present and attached; otherwise no host. No copyrighted TV frames, real radio recording or fake readable archival quotes.
-
-**Continuity and timing:** Match preceding environment and unchanged 1949 press building, period microphones, crowd geography and physical fire progression; camera cut allowed without objects shifting inexplicably. **4–6 seconds = composition estimate only**, real voice duration/AV seam UNVERIFIED.
-
-## S030
-
-**Exact EN span:** A news report from February 1949 counted at least six dead and fifteen injured.
-
-**Exact RU span:** В газетном сообщении февраля 1949 года говорилось минимум о шести погибших и пятнадцати пострадавших.
-
-**Смысл кадра / основной объект:** Vintage newspaper layout with no invented legible headline, charred printing press behind.
-
-**Self-contained image prompt (for later authorized scene_image only):** 16:9 full-frame Nuviko History illustrated documentary reconstruction, no border, no game UI and no subtitles embedded into image. Vintage newspaper layout with no invented legible headline, charred printing press behind. Historically plausible Quito/Ecuador urban and indoor environment, natural muted colors, 1940s objects and clothing, physically plausible perspective, meaningful subject large enough to read on a phone-size screen. Scene is fictionalized visualization of established documented events, not archival evidence. Keep protagonist drawn 2D only if exact approved hero model reference PNG is actually present and attached; otherwise no host. No copyrighted TV frames, real radio recording or fake readable archival quotes.
-
-**Continuity and timing:** Match preceding environment and unchanged 1949 press building, period microphones, crowd geography and physical fire progression; camera cut allowed without objects shifting inexplicably. **4–6 seconds = composition estimate only**, real voice duration/AV seam UNVERIFIED.
-
-## S031
-
-**Exact EN span:** Later reporting counted eight deaths in the fire; other figures also circulated. The exact overall toll is contested.
-
-**Exact RU span:** В более позднем исследовании говорилось о восьми погибших при пожаре. Встречались и другие цифры; точный общий итог спорен.
-
-**Смысл кадра / основной объект:** Sober memorial composition of candles without implied statistical tally or graphic death images.
-
-**Self-contained image prompt (for later authorized scene_image only):** 16:9 full-frame Nuviko History illustrated documentary reconstruction, no border, no game UI and no subtitles embedded into image. Sober memorial composition of candles without implied statistical tally or graphic death images. Historically plausible Quito/Ecuador urban and indoor environment, natural muted colors, 1940s objects and clothing, physically plausible perspective, meaningful subject large enough to read on a phone-size screen. Scene is fictionalized visualization of established documented events, not archival evidence. Keep protagonist drawn 2D only if exact approved hero model reference PNG is actually present and attached; otherwise no host. No copyrighted TV frames, real radio recording or fake readable archival quotes.
-
-**Continuity and timing:** Match preceding environment and unchanged 1949 press building, period microphones, crowd geography and physical fire progression; camera cut allowed without objects shifting inexplicably. **4–6 seconds = composition estimate only**, real voice duration/AV seam UNVERIFIED.
-
-## S032
-
-**Exact EN span:** Two of the dead were musicians: violinist Perfecto Alvarado and pianist Raúl Molestina.
-
-**Exact RU span:** Среди погибших были музыканты: скрипач Перфекто Альварадо и пианист Рауль Молестина.
-
-**Смысл кадра / основной объект:** Empty violin case and damaged piano in a smoky, abandoned 1940s performance room.
-
-**Self-contained image prompt (for later authorized scene_image only):** 16:9 full-frame Nuviko History illustrated documentary reconstruction, no border, no game UI and no subtitles embedded into image. Empty violin case and damaged piano in a smoky, abandoned 1940s performance room. Historically plausible Quito/Ecuador urban and indoor environment, natural muted colors, 1940s objects and clothing, physically plausible perspective, meaningful subject large enough to read on a phone-size screen. Scene is fictionalized visualization of established documented events, not archival evidence. Keep protagonist drawn 2D only if exact approved hero model reference PNG is actually present and attached; otherwise no host. No copyrighted TV frames, real radio recording or fake readable archival quotes.
-
-**Continuity and timing:** Match preceding environment and unchanged 1949 press building, period microphones, crowd geography and physical fire progression; camera cut allowed without objects shifting inexplicably. **4–6 seconds = composition estimate only**, real voice duration/AV seam UNVERIFIED.
-
-## S033
-
-**Exact EN span:** The original recording and the studio script were lost in the blaze, according to later historical reporting.
-
-**Exact RU span:** По данным более позднего исторического расследования, в огне погибли оригинальная запись и студийный сценарий передачи.
-
-**Смысл кадра / основной объект:** Reconstructed burnt studio recording disc and charred loose paper on period desk.
-
-**Self-contained image prompt (for later authorized scene_image only):** 16:9 full-frame Nuviko History illustrated documentary reconstruction, no border, no game UI and no subtitles embedded into image. Reconstructed burnt studio recording disc and charred loose paper on period desk. Historically plausible Quito/Ecuador urban and indoor environment, natural muted colors, 1940s objects and clothing, physically plausible perspective, meaningful subject large enough to read on a phone-size screen. Scene is fictionalized visualization of established documented events, not archival evidence. Keep protagonist drawn 2D only if exact approved hero model reference PNG is actually present and attached; otherwise no host. No copyrighted TV frames, real radio recording or fake readable archival quotes.
-
-**Continuity and timing:** Match preceding environment and unchanged 1949 press building, period microphones, crowd geography and physical fire progression; camera cut allowed without objects shifting inexplicably. **4–6 seconds = composition estimate only**, real voice duration/AV seam UNVERIFIED.
-
-## S034
-
-**Exact EN span:** So recordings used to illustrate the story today are reconstructions, not what Quito's listeners actually heard that night.
-
-**Exact RU span:** Поэтому записи, которыми сегодня иллюстрируют эту историю, — реконструкции, а не подлинный эфир, услышанный жителями Кито.
-
-**Смысл кадра / основной объект:** Clear time jump: modern sound studio reenacting old broadcast beside silhouette of lost 1949 recordings.
-
-**Self-contained image prompt (for later authorized scene_image only):** 16:9 full-frame Nuviko History illustrated documentary reconstruction, no border, no game UI and no subtitles embedded into image. Clear time jump: modern sound studio reenacting old broadcast beside silhouette of lost 1949 recordings. Historically plausible Quito/Ecuador urban and indoor environment, natural muted colors, 1940s objects and clothing, physically plausible perspective, meaningful subject large enough to read on a phone-size screen. Scene is fictionalized visualization of established documented events, not archival evidence. Keep protagonist drawn 2D only if exact approved hero model reference PNG is actually present and attached; otherwise no host. No copyrighted TV frames, real radio recording or fake readable archival quotes.
-
-**Continuity and timing:** Match preceding environment and unchanged 1949 press building, period microphones, crowd geography and physical fire progression; camera cut allowed without objects shifting inexplicably. **4–6 seconds = composition estimate only**, real voice duration/AV seam UNVERIFIED.
-
-## S035
-
-**Exact EN span:** The radio's artistic director, Leonardo Páez, was investigated after the disaster and later acquitted in court.
-
-**Exact RU span:** После катастрофы художественного руководителя станции Леонардо Паэса привлекли к расследованию, а затем оправдали в суде.
-
-**Смысл кадра / основной объект:** Anonymous defendant leaving 1940s Quito courthouse with a lawyer in historical reconstruction.
-
-**Self-contained image prompt (for later authorized scene_image only):** 16:9 full-frame Nuviko History illustrated documentary reconstruction, no border, no game UI and no subtitles embedded into image. Anonymous defendant leaving 1940s Quito courthouse with a lawyer in historical reconstruction. Historically plausible Quito/Ecuador urban and indoor environment, natural muted colors, 1940s objects and clothing, physically plausible perspective, meaningful subject large enough to read on a phone-size screen. Scene is fictionalized visualization of established documented events, not archival evidence. Keep protagonist drawn 2D only if exact approved hero model reference PNG is actually present and attached; otherwise no host. No copyrighted TV frames, real radio recording or fake readable archival quotes.
-
-**Continuity and timing:** Match preceding environment and unchanged 1949 press building, period microphones, crowd geography and physical fire progression; camera cut allowed without objects shifting inexplicably. **4–6 seconds = composition estimate only**, real voice duration/AV seam UNVERIFIED.
-
-## S036
-
-**Exact EN span:** Radio Quito returned to broadcasting in 1951. None of that changed what happened to the people in the building.
-
-**Exact RU span:** В 1951 году Радио Кито возобновило вещание. Но это не изменило судьбу людей, оказавшихся в горящем здании.
-
-**Смысл кадра / основной объект:** 1951 rebuilt radio booth illuminated against faded image of burned facade, reconstructed.
-
-**Self-contained image prompt (for later authorized scene_image only):** 16:9 full-frame Nuviko History illustrated documentary reconstruction, no border, no game UI and no subtitles embedded into image. 1951 rebuilt radio booth illuminated against faded image of burned facade, reconstructed. Historically plausible Quito/Ecuador urban and indoor environment, natural muted colors, 1940s objects and clothing, physically plausible perspective, meaningful subject large enough to read on a phone-size screen. Scene is fictionalized visualization of established documented events, not archival evidence. Keep protagonist drawn 2D only if exact approved hero model reference PNG is actually present and attached; otherwise no host. No copyrighted TV frames, real radio recording or fake readable archival quotes.
-
-**Continuity and timing:** Match preceding environment and unchanged 1949 press building, period microphones, crowd geography and physical fire progression; camera cut allowed without objects shifting inexplicably. **4–6 seconds = composition estimate only**, real voice duration/AV seam UNVERIFIED.
-
-## S037
-
-**Exact EN span:** The first false alarm made people afraid of an invasion. The real alarm came after they learned the invasion was fake.
-
-**Exact RU span:** Первая ложная тревога заставила людей бояться вторжения. Настоящая прозвучала уже после того, как обман раскрылся.
-
-**Смысл кадра / основной объект:** One historic microphone between miniature theatrical flying saucer and real burning newspaper building.
-
-**Self-contained image prompt (for later authorized scene_image only):** 16:9 full-frame Nuviko History illustrated documentary reconstruction, no border, no game UI and no subtitles embedded into image. One historic microphone between miniature theatrical flying saucer and real burning newspaper building. Historically plausible Quito/Ecuador urban and indoor environment, natural muted colors, 1940s objects and clothing, physically plausible perspective, meaningful subject large enough to read on a phone-size screen. Scene is fictionalized visualization of established documented events, not archival evidence. Keep protagonist drawn 2D only if exact approved hero model reference PNG is actually present and attached; otherwise no host. No copyrighted TV frames, real radio recording or fake readable archival quotes.
-
-**Continuity and timing:** Match preceding environment and unchanged 1949 press building, period microphones, crowd geography and physical fire progression; camera cut allowed without objects shifting inexplicably. **4–6 seconds = composition estimate only**, real voice duration/AV seam UNVERIFIED.
-
-## S038
-
-**Exact EN span:** And when a voice from Radio Quito asked for rescue, some people no longer knew which kind of emergency they were hearing.
-
-**Exact RU span:** И когда голос Радио Кито просил о спасении, некоторые уже не понимали, какую тревогу они слышат — выдуманную или настоящую.
-
-**Смысл кадра / основной объект:** Final restrained close view of old microphone and smoky skyline beyond, historical reconstruction.
-
-**Self-contained image prompt (for later authorized scene_image only):** 16:9 full-frame Nuviko History illustrated documentary reconstruction, no border, no game UI and no subtitles embedded into image. Final restrained close view of old microphone and smoky skyline beyond, historical reconstruction. Historically plausible Quito/Ecuador urban and indoor environment, natural muted colors, 1940s objects and clothing, physically plausible perspective, meaningful subject large enough to read on a phone-size screen. Scene is fictionalized visualization of established documented events, not archival evidence. Keep protagonist drawn 2D only if exact approved hero model reference PNG is actually present and attached; otherwise no host. No copyrighted TV frames, real radio recording or fake readable archival quotes.
-
-**Continuity and timing:** Match preceding environment and unchanged 1949 press building, period microphones, crowd geography and physical fire progression; camera cut allowed without objects shifting inexplicably. **4–6 seconds = composition estimate only**, real voice duration/AV seam UNVERIFIED.
+**Timing:** UNVERIFIED until exact TTS, montage; 4–6 s is a visual-profile composition guideline, not a guaranteed narration duration.
 
