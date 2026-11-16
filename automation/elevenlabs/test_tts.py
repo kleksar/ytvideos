@@ -346,6 +346,25 @@ class FixedAccountTests(unittest.TestCase):
                 self.assertEqual(tts.main(base + ['--ru-text', str(script)]), 1)
             network.assert_not_called()
 
+    def test_provider_handles_survive_invalid_response_body(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            script = root / 'script.txt'
+            script.write_text('Hello', encoding='utf-8')
+            response = Response(b'not-json')
+            response.headers['request-id'] = 'fixture-request-id'
+            response.headers['character-cost'] = '3'
+            args = ['--channel', 'paper_detour', '--en-text', str(script), '--output-dir', str(root / 'out'),
+                    '--model', self.model, '--account-slot', '2', '--account-sha256', tts.account_id('two'),
+                    '--max-credits', '6000', '--generate']
+            with patch('tts.get_api_key', return_value='two'), patch('tts.fixed_account_preflight', return_value=3), \
+                 patch('tts.urllib.request.urlopen', return_value=response), \
+                 contextlib.redirect_stdout(io.StringIO()), contextlib.redirect_stderr(io.StringIO()):
+                self.assertEqual(tts.main(args), 1)
+            receipt = json.loads((root / 'out/voice_en.request.json').read_text())
+            self.assertEqual(receipt['status'], 'request_started')
+            self.assertEqual(receipt['provider_headers'], {'request-id': 'fixture-request-id', 'character-cost': '3'})
+
 
 if __name__ == "__main__":
     unittest.main()

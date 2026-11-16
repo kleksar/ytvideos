@@ -126,7 +126,7 @@ def prepare(args):
 
 
 def synthesize(text, destination, *, api_key, voice_id, model=MODEL_ID,
-               stability=1.0, similarity=0.0, speed=None):
+               stability=1.0, similarity=0.0, speed=None, response_observer=None):
     """One request, no automatic retries. Never overwrites an existing asset."""
     query = urllib.parse.urlencode({"output_format": OUTPUT_FORMAT})
     url = f"https://api.elevenlabs.io/v1/text-to-speech/{voice_id}/with-timestamps?{query}"
@@ -142,6 +142,10 @@ def synthesize(text, destination, *, api_key, voice_id, model=MODEL_ID,
             content_type = response.headers.get_content_type()
             if content_type != "application/json":
                 raise TTSError(f"неожиданный тип ответа API: {content_type}")
+            provider_headers = {name: value for name in ("request-id", "character-cost", "x-trace-id")
+                                if (value := response.headers.get(name)) is not None}
+            if response_observer:
+                response_observer(provider_headers)
             response_data = response.read()
     except urllib.error.HTTPError as exc:
         # Do not print the response: it may contain user text or other sensitive data.
@@ -171,6 +175,7 @@ def synthesize(text, destination, *, api_key, voice_id, model=MODEL_ID,
     save_new(destination.with_suffix(".alignment.json"), (json.dumps(alignment, ensure_ascii=False, indent=2) + "\n").encode("utf-8"))
     if alignment["alignment"] is None:
         print(f"Внимание: API не вернул alignment для {destination}; потребуется отдельная синхронизация.", file=sys.stderr)
+    return provider_headers
 
 
 def save_new(destination, data):
@@ -436,10 +441,28 @@ def main(argv=None):
                       "speed": args.speed, "text_sha256": hashlib.sha256(content.encode("utf-8")).hexdigest(),
                       "status": "request_started"}
             save_new(receipt, (json.dumps(record, ensure_ascii=False, indent=2) + "\n").encode())
-            synthesize(content, destination, api_key=key, voice_id=args.voice_id, model=args.model,
-                       stability=args.stability, similarity=args.similarity, speed=args.speed)
-            record.update(status="success", audio_sha256=hashlib.sha256(destination.read_bytes()).hexdigest())
-            receipt.write_text(json.dumps(record, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+            def update_receipt():
+                temporary = None
+                try:
+                    with tempfile.NamedTemporaryFile(mode="w", dir=receipt.parent, prefix=".receipt-",
+                                                     encoding="utf-8", delete=False) as stream:
+                        temporary = stream.name
+                        stream.write(json.dumps(record, ensure_ascii=False, indent=2) + "\n")
+                        stream.flush()
+                        os.fsync(stream.fileno())
+                    os.replace(temporary, receipt)
+                finally:
+                    if temporary and os.path.exists(temporary):
+                        os.unlink(temporary)
+            def observe_headers(headers):
+                record["provider_headers"] = headers
+                update_receipt()
+            provider_headers = synthesize(content, destination, api_key=key, voice_id=args.voice_id, model=args.model,
+                                          stability=args.stability, similarity=args.similarity, speed=args.speed,
+                                          response_observer=observe_headers)
+            record.update(status="success", audio_sha256=hashlib.sha256(destination.read_bytes()).hexdigest(),
+                          provider_headers=provider_headers)
+            update_receipt()
             print(f"Готово: {language} → {destination}")
             return 0
         keys = configured_keys()
