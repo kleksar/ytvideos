@@ -1,0 +1,55 @@
+# Editorial story review — idle or restart (exact script versions)
+
+2026-11-16. **Author-only review**; never substitute these scores for independent listener observations or measured audience demand. Model conditions, primary-source caveats and candidate comparison: [research.md](research.md). ENG is future production voice; RU a full editorial reading translation. Both were read as separate complete texts by the author; no TTS or external reviewer.
+
+## Exact immutable text inventory
+| Variant | EN path / SHA-256 | EN words | RU path / SHA-256 | RU words | Planned format / speaking estimate |
+|---|---|---:|---|---:|---|
+| 02m | [EN](variants/02m/script.en.txt) — b65347ecff9d86fa2998bfb04ee72f1eee486f2bb99a253d15c05ab561d094cf | 281 | [RU](variants/02m/script.ru.txt) — 82825ed0ec824802ff482e12ea43a6bc2ddf1501c8bbc031cbcd3749623cda5d | 255 | English illustrated Short 9:16 proposed; 281/140wpm ≈2m; 35–50s normal channel duration exceeded; technical format compatibility **UNVERIFIED** |
+| 05m | [EN](variants/05m/script.en.txt) — 346c6cdafc85f37201a7b8d441ce1b18708b57a3bf66b0e1d03f0d2f24b45620 | 705 | [RU](variants/05m/script.ru.txt) — b81afd805e63993dea2a1f7e62e085d7e6cd9ccc0cc42f585f0570fac3657b26 | 565 | English Long editorial proposal 16:9 conceptual ONLY; 705/141wpm ≈5m, pauses unmeasured; **no Long recipe/canvas/fps in main ChannelSpec — production blocker** |
+| 10m | [EN](variants/10m/script.en.txt) — b45c5ff6384ca488a580c5335f6cc383641b8eb2f3e6595fd85b0e51500e95b7 | 1502 | [RU](variants/10m/script.ru.txt) — b65921cfed854e28757ca6e8e0040d449946e07a5ac3d12df27f2e24d60c0de9 | 1253 | English Long editorial proposal 16:9 conceptual ONLY; 1502/150wpm ≈10m; **Long production blocker** |
+
+Word counts split on whitespace. These are estimates before actual voice/silences; no measured runtime. Full EN/RU versions tell the same model event, outcomes and limitations, not truncated master excerpts. The long text deliberately contains more independently explained aspects, but those additions may not earn viewer time.
+
+## Eight editorial criteria scored on each exact text
+Keys: I = interest/importance; H = opening; D = causal development/keep-watching; P = payoff; F = fresh angle; V = visual expression; N = natural clear narration; A = observed audience interest. Each number is a subjective author 1–10, not a prediction, retention metric or CTR. A remains **UNVERIFIED**, never a fictional 8.
+
+| Exact text | I | H | D | P | F | V | N | A | Author classification |
+|---|---:|---:|---:|---:|---:|---:|---:|---|---|
+| 02m EN | 8 | 8 | 8 | 8 | 7 | 8 | 8 | UNVERIFIED | STRONG_CANDIDATE; loop still requires independent verification |
+| 02m RU | 8 | 8 | 8 | 8 | 7 | 8 | 8 | UNVERIFIED | STRONG_CANDIDATE, editorial translation |
+| 05m EN | 8 | 8 | 9 | 9 | 7 | 8 | 8 | UNVERIFIED | **STRONG_CANDIDATE — recommended editorial duration** |
+| 05m RU | 8 | 8 | 9 | 9 | 7 | 8 | 8 | UNVERIFIED | STRONG_CANDIDATE, editorial translation |
+| 10m EN | 8 | 8 | 7 | 8 | 7 | 8 | 7 | UNVERIFIED | REWORK; causal tempo / repetition weak |
+| 10m RU | 8 | 8 | 7 | 8 | 7 | 8 | 7 | UNVERIFIED | REWORK, slower spoken density |
+
+### Per-version grounded observations, voice and limits
+- **02m EN.** Interest 8: paying money while not moving is universal to pickup drivers. Hook 8: "My car is parked, but the engine is still burning fuel." Development 8: 90sec → 28 vs 3mL → 100 stops → distinction from traffic; each step changes scale or interpretation. Payoff 8: "B wins this model" plus dollar and safety boundary rather than a fake grand saving. Freshness 7: direct car-idle videos already exist. Visuals 8: two ignition choices and measuring cups read side by side, with numeric displays requiring real generated graphic provenance. Speech 8: straightforward first-person conditional model. Weakest: end→first link is a return to the observation, not yet independently validated as a natural seamless Short loop; no watched AV seam. Confidence: medium author-only.
+- **02m RU.** Interest 8 as the same everyday problem; hook 8: "Машина стоит на месте, но двигатель всё равно сжигает бензин." Development 8: "двадцати восьми" to "трём" to "двух с половиной литров" is intelligible without EN. Payoff 8: driving safety caveat remains. Freshness 7 same saturation. Visuals 8 same A/B model geometry. Speech 8: everyday "не состояние" while maintaining 0.3gal/h assumptions. Weakest: independent RU cold-read and loop not available. Confidence medium author-only.
+- **05m EN.** Interest 8: meaningful daily decision despite small money. Hook 8: starts with car engine at pickup and clear A/B. Development 9: 90 seconds → $2.33 across a hundred stops → at five seconds the winner reverses → restart/battery/comfort → emissions are a different metric → traffic is excluded. These are causally distinct surprises. Payoff 9: explicit chosen winner, opposite short-wait result, and clear practical boundary, not an invented field test. Freshness 7: competitor overlap remains. Visuals 8: model timings and safe parked/moving queue contrast. Speech 8: first-person and voiced numeric comparisons, though slightly dense at 705 words. Main flaw: ~5min editorial Long cannot be produced under current channel Long profile; money may underdeliver emotional stakes to some viewers. Confidence medium author-only.
+- **05m RU.** Interest 8, hook 8: "Когда я стою на парковке..." sets recognizability. Development 9: the explicit "пять секунд" reversal is retained after scale comparison. Payoff 9: "для нашей девяностосекундной парковки выигрывает Б" plus safety and limitations. Freshness 7, visuals 8 for same genuine two-way model. Speech 8: consistent first-person "я" and full, not abridged, caveats. Weakness: many spoken quantities; rhythm not audio-tested. Confidence medium author-only.
+- **10m EN.** Interest 8, hook 8: three opening questions anchor cost, ignition and traffic. Development **7**, BELOW STRONG threshold: expands sensitivity, idle-rate range, starter wear, emissions, comfort and an unperformed experimental protocol; some points slow momentum after the first reveal. Payoff 8: explicitly names winner B for the 90sec parked model, A for the shorter assumed stop and no general traffic recommendation. Freshness 7 and visuals 8: several model conditions permit distinct geometry but risk repetitive charts. Speech 7: some paragraphs sound like a cautionary lecture. Confidence medium author-only, REWORK; no claim that ten minutes is better just because longer.
+- **10m RU.** Interest 8, opening 8: three real questions not a generic preface. Development **7**, slower through the emissions/comfort caveat than the EN 5m. Payoff 8: same exact conditional outcome preserved. Freshness 7; visual score 8; speech 7: verbose explanatory phrases risk drop-off. Weakness: needs a new substantive chapter rather than deleted caveats or filler if 10m is desired. Confidence medium author-only, REWORK.
+
+**Audience criterion (all six): UNVERIFIED.** Existing YouTube videos from another author demonstrate historical attention to the subject, not live demand for this text. No first-party CTR/retention, current 30–90 day comparisons, comparable same-author baseline or validated YouTube comments.
+
+## Causal maps and where duration adds value
+- 02m: recognize parked fuel spend → ask A/B → equal 90sec inputs → A 28mL / B 3mL → practical 25mL winner → 100 stops/$2.33 deflates false scale → traffic exception → last line returns to ignored idle sound. Predicted weakness: detail-to-payoff happens quickly then safety coda; independent cold-read and double-cycle seam mandatory.
+- 05m: question about engine waiting → declare one model → first A/B numeric reveal → the tiny amount matters across repeated stops → **5-second reversal** → distinguish safety/automatic start-stop → emissions and comfort qualify interpretation → actionable conditional payoff. Predicted weakness: five-minute runtime may be long for tiny savings, especially after the dollar figure, but added threshold reversal meaningfully sustains it.
+- 10m: up-front three questions (Long) → first idle mechanics → model/restart calculation → repeated-stop reveal → timing reversal → rate sensitivity → starting costs → particulate chemistry → comfort → moving-traffic exception → fair real-test protocol → final conditional choice. Predicted weakness: middle turns into a detailed tutorial with diminishing payoffs; recommended status REWORK.
+
+**Why 05m rather than 02m or 10m:** 02m finishes the comparison but cannot substantively explain how a shorter stop reverses the answer. At 05m the added reversal and traffic/emissions distinctions change the action a viewer might take. At 10m mostly adds qualifications rather than meaningful new choice and loses concentration. Best *editorial* version may be currently **unproducible**: user script choice and a supported Long ChannelSpec/recipe remain separate blockers. No format was turned on by this recommendation.
+
+## Separate factual/format/translation/review gates
+| Check | 02m EN/RU | 05m EN/RU | 10m EN/RU | Basis |
+|---|---|---|---|---|
+| Source/model math | PASS (author arithmetic) | PASS (author arithmetic) | PASS (author arithmetic) | 0.3 gal/h, 90/10 seconds, US gallon, $3.50 assumption; formulas in research. Not real measurement |
+| Material causal caveats | PASS author-only | PASS author-only | PASS author-only | Off only **safely parked**, not moving traffic; no fictional vehicle trials |
+| EN/RU equivalence | PASS author comparison, independent UNVERIFIED | PASS author comparison, independent UNVERIFIED | PASS author comparison, independent UNVERIFIED | Six complete semantic scripts, dates and quantities aligned |
+| Format | UNVERIFIED; 2m Short exceeds 35–50s channel norm | **FAIL production**: no Long recipe | **FAIL production**: no Long recipe | Current main two_ways_lab/channel.json Long has null canvas/fps |
+| Short narrative text loop | UNVERIFIED independent; author proposes last "notice something I used to ignore" → first "My car is parked..." | N_A (Long) | N_A (Long) | One themed natural narration handoff, not verified double reading by independent listener |
+| Actual audio/visual loop | UNVERIFIED | N_A | N_A | No MP4 or audio. No invented AV evidence |
+| Visual/reference rights | UNVERIFIED | UNVERIFIED | UNVERIFIED | No actual image assets or generated title graphics used |
+| Independent review / ytv-script-review-v1 | UNVERIFIED | UNVERIFIED | UNVERIFIED | No independent session, actual receipt, run, or owner approval |
+
+No fictitious reviewer or copied receipt. This is **first author version**, with zero falsely counted independent revision cycles; review of any changed hash must be performed anew. Before chosen-master storyboard/media, obtain real independent textual review, decide correct production format and register in local runtime.
