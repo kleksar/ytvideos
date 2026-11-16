@@ -1,3 +1,19 @@
+EDITORIAL_CANDIDATE_UNREGISTERED. This is a Git-only editorial review and DOES NOT represent a registered run or approval.
+
+## 2026-11-16 meaningful revision — PR #99
+
+- Baseline `2c3f479ded348828fac3d51c7b1c59f8fe0e76a7`; original EN/RU blobs `8dab171aad21914e37171459619815fbacc88934` / `e30442b52d29d681b157f512a8993c7f7361493e`, preserved.
+- Three independently complete EN/RU variants: [02m](variants/02m/script.ru.txt), [05m](variants/05m/script.ru.txt), [10m](variants/10m/script.ru.txt); exact SHA-256 each language and separate judgments in [story-review](story-review.md); common sources in [research](research.md).
+- Recommended for owner review: **05m Long**, no automatic production. 02m is the unchanged baseline with the old storyboard tied to the same exact hash. 05m/10m need new storyboards; old spans are invalid for them. Do not copy source script into a pinned run without explicit review/migration.
+- Existing PR showed no owner approval comments or inline threads at baseline. GitHub inspection cannot prove no local active run/agent; coordinator must check shared store and concurrent sessions before any production or script-gate action.
+- Proposed policy from Draft #124 exact `7d6bdf7702a2a241a33a21677fce29f26ada9b72`, not canonical main. Main `ddafebf5aec10ff4158b4ea8aabac4dd1d576b67`; no unrelated rules or profiles modified.
+- Independent review `UNVERIFIED`, actual duration `UNVERIFIED`, Short AV seam `UNVERIFIED`, owner approval `NOT_GRANTED`, YouTube metrics `UNVERIFIED`. No TTS/MP4/Flow/image generation/upload.
+- Next queue candidate after #99: #98 Demon Core, only after actual HEAD/owner-production check. Continue reviewing all open technical PRs separately for their own code contracts.
+
+---
+
+## Original handoff context, retained
+
 EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официальному ytv script gate.
 
 # Handoff — Nuviko History / FedEx Flight 705

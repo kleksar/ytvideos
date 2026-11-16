@@ -1,3 +1,64 @@
+# Story review — FedEx Flight 705: 2 / 5 / 10
+
+**Editor:** assistant (authorial assessment, 2026-11-16). **Owner decision:** not given. **Independent reviewer:** UNVERIFIED (no independent session/ytv-script-review-v1). **Canonical main:** `ddafebf5aec10ff4158b4ea8aabac4dd1d576b67`. **Owner-proposed policy:** Draft #124 `7d6bdf7702a2a241a33a21677fce29f26ada9b72` (NOT main). **Baseline PR #99:** `2c3f479ded348828fac3d51c7b1c59f8fe0e76a7`. All variants are Git-only `EDITORIAL_CANDIDATE_UNREGISTERED`.
+
+## Exact artifacts / format compatibility
+
+| Target | EN full text + SHA-256 | RU full text + SHA-256 | EN words / format | Storyboard / status |
+|---|---|---|---|---|
+| 02m | [script.en.txt](variants/02m/script.en.txt) — `5b315c384645211ae4d73b13b211b1a1875ca2f8ae877bffa30ce78435f3eddb` | [script.ru.txt](variants/02m/script.ru.txt) — `bfe6cfcba80b2ca7beb73d4ea9ed181f7b8fa3aa938dae4ac25aa1edea76b59c` | 286, Short 9:16 | EXACT copy of original; [16-scene storyboard](storyboard.md) corresponds to this text only |
+| **05m** | [script.en.txt](variants/05m/script.en.txt) — `a4f7e4c65439c9cc0f6a2bbe57d428cdfa4fee3a37732aa8ca56e306d9f77512` | [script.ru.txt](variants/05m/script.ru.txt) — `b282185e01b59c6ad44a1ff8a6acaa8fad03acb05059a0cb3b9d96ac0ab9f287` | 685, Long 16:9 | New storyboard required after exact selection |
+| 10m | [script.en.txt](variants/10m/script.en.txt) — `06524a58f4195e3beb362f5d7fcf2b57fd27aad4a3b92770ab682967b18592e3` | [script.ru.txt](variants/10m/script.ru.txt) — `6b6afcc1fda137ea6e2e802c5639835b572e96268357228da40be406c9586af9` | 1445, Long 16:9 | New storyboard required after exact selection |
+
+Durations ESTIMATED from 135–150 EN words/min plus pauses/transitions, not measured TTS; channel speed remains 1.10× per pinned profile, no adjustment authorized. Both Short and Long exist in Nuviko ChannelSpec. 05m/10m are **not Shorts**, require no narrative loop. No media ran.
+
+## Eight explicit editorial criteria, scored per exact English text
+
+These are subjective editorial assessments; no retention forecast. The public indexed comparables recorded in research have both a ~1.5x and a below-baseline example, and do not establish our CTR/retention. “Evidence of demand” is therefore low-confidence and format-specific demand remains UNVERIFIED.
+
+| Criterion | 02m score / evidence / deficit / confidence | 05m score / evidence / deficit / confidence | 10m score / evidence / deficit / confidence |
+|---|---|---|---|
+| **1. Interest / importance** | **8**: near-inversion by a wounded pilot while crew fights; little aftermath. Medium | **8**: adds the task of landing while the struggle continues, with career cost; aircraft topic crowded. Medium | **8**: shows the entire attack-to-appeal story; legal close may draw fewer general viewers. Medium |
+| **2. Opening** | **8**: “almost upside down… on purpose” immediately comprehensible; after repeat can feel like a fresh start. Medium | **8**: asks who banked and who landed, then establishes normal freight route before hammer attack; questions may be long for hurried viewers. Medium | **8**: questions distinguish crew, bank and landing; initial cockpit/duty background may delay the central danger. Medium |
+| **3. Development / reason to stay** | **8**: hammer → speargun → impaired Tucker → bank → still fighting → landing; many beats crowded. Medium | **9**: “It was an opening, not a victory” forces the second problem of landing; courtroom details are shorter but slower. Medium | **8**: replacement roster, insurance evidence, explicit injury constraints, attack, bank, runway, trial; legal shift after landing can lose attention. Medium |
+| **4. Payoff** | **8**: safe landing, crew survival, career loss and upheld sentence all delivered; may feel abrupt. Medium | **9**: landing resolves flight danger, then the crew's lifelong cost and accurate appeal close the questions; no footage to validate impact. Medium | **9**: fully answers what happened during flight and what the documents/court did afterward; second ending competes with landing. Medium |
+| **5. Freshness of angle** | **6**: distinctive bank/crew dilemma, but multiple 2025 documentary retellings and Nuviko aviation overlap. High | **7**: focuses on shift of duty from injured copilot to wounded captain, not only barrel-roll spectacle; same known event. Medium | **7**: documentary tension between rescue and documentary evidence, but could resemble many court-case reports. Medium |
+| **6. Visual expressive potential** | **8**: one precise 135° reconstruction, cockpit roles and landing; existing 16 shots need genuine refs and actual validation. Medium | **9**: clear visual state progression of cockpit controls, crew separation, runway change; reconstructed exact geography remains uncertain. Medium | **8**: adds scheduling/papers/search warrant, which risk static document shots and misunderstood archival authenticity. Medium |
+| **7. Oral narration / clarity** | **8**: short concrete beats, but final colon may sound like a reset; full RU is aligned. Medium | **8**: naturally alternating action and explanation, terms explained; middle introduces several crew names. Medium | **8**: complete causal links and no invented quotes, but legal paragraphs after conclusion grow denser. Medium |
+| **8. Evidence of actual viewer interest** | **5**: public Long examples offer mixed signals; no matched Short or channel observation. Low | **5**: Long examples partly relevant, but no matched length/cohort or Studio data; 5m reception unverified. Low | **5**: same mixed public examples, no matched 10m cohort; long retention unverified. Low |
+
+**Per-version weakness and attention-loss hypothesis (not observation):** 02m: transition from safe landing to court in two lines is abrupt; final colon may be an artificial loop. 05m: initial employee/meeting context could lose impatient viewers before hammer attack; after landing evidence list slows. 10m: detailed financial arrangements in early immersion and especially the apartment-warrant/appeal sequence after the runway risk turning action into a legal appendix. Confidence: medium editorial, no independent reader.
+
+## Three story maps and hard checks
+
+**02m (preserved original).** Opening exact “A wounded pilot banked a FedEx cargo jet until it was almost upside down. He did it on purpose.” → company jumpseat → hammer and grave injuries → speargun → Tucker's extreme bank → renewed fighting → Sanders's heavy landing → crew's career loss and appeal → final exact “The moment that bought the crew a chance came when Tucker could still work the controls with one hand:”. Payoff is before repeat. **Short loop:** author checked full EN/RU twice, but colon alone is NOT loop evidence; semantic continuation and actual AV seam UNVERIFIED for independent reviewer. No assertion of independent PASS.
+
+**05m (new).** Intro three concrete questions (bank / attacker / landing) → freight route/colleague and scheduled hearing → **main hook** hammer attack after established normal setting → wounded crew's divided tasks → Tucker's documented 135° bank → attackers still fighting → wounded Sanders must land heavy aircraft, longer runway → safe landing and lasting career cost → narrower judicial outcome. Facts based on single research table; RU holds same meaning. Long loop: N_A.
+
+**10m (new).** Intro three questions → alternate roster and ordinary route, suspicious preflight context, hearing/insurance (documented but motive deliberately unstated) → **main hook** hammer assault → specific injuries → spear gun → Navy instructor's difficult 135° bank → non-final reprieve → role swap → heavy approach/runway decision → landing → long-term professional consequences and Tucker's limited private flying → evidence chain/roommate/warrant → 1997 appeal partly vacates overlapping count but affirms life. Adds actual events to 05m; RU same claims and limitations. Long loop: N_A.
+
+| Hard check | 02m | 05m | 10m |
+|---|---|---|---|
+| Full EN and full meaning-matched RU | AUTHOR CHECK; preserves baseline 16 paragraph pairs | AUTHOR CHECK, complete | AUTHOR CHECK, complete |
+| Factual claims/evidentiary uncertainty | AUTHOR CHECK; original court + Sanders | AUTHOR CHECK; court + Sanders + Tucker profile | AUTHOR CHECK; court sections I/II, Sanders, AVweb; limits documented in research |
+| Narrative pay-off + source-bounded causality | Authorially present | Authorially present | Authorially present, but legal close is a risk |
+| Required questions → immersion → main hook (documentary Long) | N_A (Short) | AUTHOR CHECK | AUTHOR CHECK |
+| Short cold-open and two complete EN/RU cycles | AUTHOR READ ONLY, independent UNVERIFIED | N_A | N_A |
+| Independent blind first-listener (exact hashes) | **UNVERIFIED** | **UNVERIFIED** | **UNVERIFIED** |
+| Actual TTS duration and AV seam | **UNVERIFIED** | **UNVERIFIED** | **UNVERIFIED** |
+| ChannelSpec format capability | Short supported; no format change | Long supported; no format change | Long supported; no format change |
+| Owner approval / official ytv runtime | NOT_GRANTED / UNREGISTERED | NOT_GRANTED / UNREGISTERED | NOT_GRANTED / UNREGISTERED |
+
+**Comparison of added value:** 02 → 05 adds separation of two problems (stop the attacker, then land), explicit injured crew handover, clearer runway choice, and legal nuance; it is not merely a slowed Short. 05 → 10 adds the replacement crew, pre-flight courtroom evidence, more individual injury consequences, insurance/warrant chain, and exact appellate treatment. Those additions are sourced, but **after “The DC-10 reached Memphis and landed safely”** the main survival promise has already been delivered. That is the exact place added narrative time begins to risk diluting interest. **Recommend 05m** as best balance; 02m may be selected if independent double-reading verifies loop and Short is preferred; do not prescribe three productions. No fabricated 9–10 demand score.
+
+**Baseline and protected evidence:** original script.en.txt Git blob `8dab171aad21914e37171459619815fbacc88934`, RU `e30442b52d29d681b157f512a8993c7f7361493e`, unchanged 16-scene storyboard, original review preserved below. No original review, TTS, timing or scene receipt is transferred to new Long hashes. Prior review is authorial only.
+
+**Next gate:** independent reviewer receives each exact English and Russian narration **without this verdict**, first only introduction, then full texts; for 02m literal two complete cycles and joined ending→opening. Source links supplied after first reading. Obtain genuine reviewer response under existing schema, do not synthesize; separate selected exact text requires owner script gate and new storyboard bound to that hash. Git-only file does not start an official run; authorized coordinator with shared workspace must use `status/resume` for any existing run or `ytv start` and pinned context, then attach supporting variant files and request genuine review. Exact unavailable capability here: connected GitHub has no access to the project's running ytv store, production session registry, or independent reviewer session.
+
+---
+
+## Preserved pre-variant authorial review (historical, not independent)
+
 # Authorial story review — FedEx Flight 705
 
 **Author:** assistant/editor, 2026-11-15. **Status:** STRONG_CANDIDATE — *editorial recommendation only*, not user acceptance, official `ytv` script gate, independent review or measured YouTube performance.

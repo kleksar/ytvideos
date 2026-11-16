@@ -1,3 +1,27 @@
+EDITORIAL_CANDIDATE_UNREGISTERED · no production gate or owner approval.
+
+# FedEx Flight 705 — three revisions of the SAME story
+
+**Logline:** All three pilots are attacked; a wounded copilot banks a FedEx DC-10 past vertical to interrupt the fight, but a still-injured crew must also land the plane.
+
+| Estimated duration | Format / readiness | Full production EN | Full editorial RU | Editorial decision |
+|---|---|---|---|---|
+| 2 minutes (286 EN words) | 9:16 Short, narrative-loop proof pending | [Read full EN](variants/02m/script.en.txt) | [Читать полный RU](variants/02m/script.ru.txt) | Strong original; short loop requires independent review |
+| **5 minutes (685 EN words)** | 16:9 Long supported by Nuviko ChannelSpec | **[Read full EN](variants/05m/script.en.txt)** | **[Читать полный RU](variants/05m/script.ru.txt)** | **Recommended editorial candidate** |
+| 10 minutes (1,445 EN words) | 16:9 Long supported by ChannelSpec | [Read full EN](variants/10m/script.en.txt) | [Читать полный RU](variants/10m/script.ru.txt) | Complete but investigation becomes a second, less cinematic story |
+
+Estimated before TTS; guide ~135–150 English words/min plus transitions and pauses, channel voice speed pinned by production, not altered here. Measured durations, runtime pins, reviewer, AV seam and demand all UNVERIFIED.
+
+**What changed:** preserved [original master EN](script.en.txt), [RU](script.ru.txt), and [16-scene Short storyboard](storyboard.md); copied the exact master to 02m, wrote independent complete 05m and 10m EN/RU scripts, updated [one research](research.md), [separate eight-criterion reviews and hashes](story-review.md), [packaging constraints](packaging-brief.md), and [handoff](handoff.md). The 16-scene storyboard is tied ONLY to the unchanged original/02m EN sha256 `5b315c384645211ae4d73b13b211b1a1875ca2f8ae877bffa30ce78435f3eddb`. It is not a storyboard for either Long. New text requires fresh scene segmentation after selection, never automatic reuse of old spans/approval.
+
+**Baseline:** PR #99 HEAD `2c3f479ded348828fac3d51c7b1c59f8fe0e76a7`, script EN Git blob `8dab171aad21914e37171459619815fbacc88934`, RU Git blob `e30442b52d29d681b157f512a8993c7f7361493e`. No owner acceptance or active production was found in the inspected PR discussion (no issue comments or open review threads), but local production state is unavailable. Current writer/editorial policy is only proposed in Draft PR #124 at `7d6bdf7702a2a241a33a21677fce29f26ada9b72`, not in main. Following it as owner's explicit instruction; not migrating existing pins.
+
+**Status:** unprocessed → three full EN/RU pairs prepared → author checks with fact ledger → **05m recommended**, independent review **UNVERIFIED**, owner choice **NOT_GRANTED**. Another agent's local sessions and run store cannot be inspected through GitHub; pre-production reconciliation needed before any official script gate.
+
+---
+
+## Preserved original README (historical editorial evidence)
+
 EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официальному ytv script gate.
 
 # Nuviko History — FedEx 705 (1994)

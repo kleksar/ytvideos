@@ -80,3 +80,29 @@ All below were read 2026-11-15 as webpage body, not video reproductions. Key sup
 ## Promise / packaging evidence
 
 Opening image: **DC-10 in extreme bank, conceptual photorealistic historical reconstruction**, not a fake news still of exact flight. First line acknowledges the pilot did it intentionally; do not hide the answer. The viewer stays to learn why a crew member attacked and how wounded pilots kept the cargo jet airborne. Full payoff at safe Memphis landing, survivors, career loss and court outcome, all before textual return to the first image. No invented catastrophe or claim that the aircraft actually flew fully inverted.
+
+
+---
+
+## Variant expansion fact ledger — 2026-11-16
+
+This section supplements, does not replace, the single shared historical research. Checked original sources again on 2026-11-16; all video/CTR comparables above remain the explicitly dated 2026-11-15 snapshots. Public demand for OUR versions, current 90-day velocity, Studio CTR and retention remain **UNVERIFIED**.
+
+| Added claim/angle | Exact grounding | Boundary for script |
+|---|---|---|
+| Calloway entered cockpit before flight, in flight gear, adjusted controls | U.S. v. Calloway, 116 F.3d 1129 (6th Cir. 1997), section I, paragraphs beginning “One of the FedEx flights” https://caselaw.findlaw.com/court/us-6th-circuit/1058021.html | Court recites trial evidence; do not allege proven intention when touching controls |
+| Day-after hearing, changed insurance beneficiaries, transfer to former wife | Same appellate opinion, section I beginning “Mr. Calloway worked...” | Hearing is not a completed dismissal; insurance changes are evidence, not proof of a precise private motive |
+| Original crew replaced for duty limit (one minute over) | 2002 AVweb Jim Tucker profile https://avweb.com/features/jim-tucker/ and 2011 Captain Sanders account https://stateaviationjournal.com/index.php/news/life-changer-horrific-story-fedex-flight-705 | Retrospective accounts, not independent dispatch logs; alternate crew fate strictly unknown |
+| Tucker was a Navy flight/combat maneuvering instructor | 2002 Tucker profile, first section after title, and Sanders 2011 account | Explains training but not a verified thought process |
+| Three men injured; exact injuries of Tucker/Peterson/Sanders | Appellate opinion section I, para “The crew of Flight 705 sustained...” | Avoid graphic reenactments and speculation about bodily movement |
+| Approx. 135-degree bank and continued struggle; request longer runway | Sanders's 2011 speech as reproduced in State Aviation Journal, paragraphs on bank, struggle and runway | Eyewitness retrospective, not inspected flight data; different accounts say 135/140; no full 360° roll, no exact struggle duration; do not state “two life sentences” from later unsourced summaries |
+| Four hammers, spear gun, spear; apartment notes and search warrant | U.S. v. Calloway, section I and sections II A/B, inventory and warrant discussion | Court evidence, not a licence to construct dialogue, motive or exact sequence |
+| 1997 appeal affirmed attempted aircraft piracy + life; vacated lesser crew-interference count | U.S. v. Calloway, opening disposition and conclusion, June 20 1997 | Precisely distinguish affirmed life sentence from vacated overlapping conviction |
+| Injury ended commercial career; Tucker later flew light private airplanes | 2011 Sanders account plus 2002 AVweb Jim Tucker profile | No contradiction: private recreation is NOT return to commercial line flying |
+
+**Story cause maps with evidence, not fabricated interior states:**
+- **02m, unchanged Short:** trusted employee on jumpseat [court] → concealed weapons [court] → attack and crew injuries [court] → speargun [court] → bank [Sanders] → temporary disruption, renewed struggle [Sanders] → heavy approach, longer runway and safe landing [Sanders] → enduring injury/court verdict [court/Sanders]. Main dramatic question: how can a wounded pilot make the attacker lose balance without losing the aircraft?
+- **05m Long:** why deliberate near-inversion? / who lands? → ordinary freight trip and apparent company colleague [court] → next-day hearing plus weapons [court] → attack and impaired crew [court] → secondary weapon and split duty [court/Sanders] → Tucker uses bank [Sanders] → attacker still fights, captain switches roles [Sanders] → heavy aircraft/longer runway [Sanders] → landing [court] → lifelong consequences + legal outcome [court/Sanders]. Turning point: after the bank, **the fight is not over**; reaching the runway is the new task.
+- **10m Long:** who attacks / how bank / who lands? → replacement crew [Tucker/Sanders retrospective, qualified] → trusted jumpseat and preflight instruments [court] → hearing and financial arrangements [court, no motive as fact] → sudden hammer attack [court] → tangible injuries [court] → speargun and resistance [court] → extreme bank with uncertainty [Sanders] → continued conflict, cockpit duty handover [Sanders] → heavy runway decision [Sanders] → emergency landing [court] → permanent career losses and Tucker private flying [AVweb] → documented inventory and apartment evidence [court] → appeal court **partly vacates a lesser count while affirming the life term** [court]. Value of extension: evidence chain and bounded human aftermath. Weak point: after landing, legal proceedings cannot match the physical tension.
+
+**Selected promise:** a near-inverted cargo jet is the **means** of interrupting a violent attack, not a pilot stunt or a completed barrel roll; all versions answer what happened next at landing. Long openings ask clear questions BEFORE documentary immersion and the primary attack hook, without scripted question after every beat. The 02m Short's colon/link is literal but cannot be independently verified as an effective spoken loop without a fresh blind reviewer, and AV seam needs an MP4. All new visual ideas are reconstruction, not archival records.

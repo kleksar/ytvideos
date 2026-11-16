@@ -24,3 +24,14 @@ Unapproved concepts, no images actually created, all require an honest first sho
 - False reading: full inverted flight or cabin packed with passengers; must not imply either.
 
 Use channel-specific Nuviko visual profile and actual reference assets/permission if later produced. All three are distinct viewer promises, not superficial color alternatives. Existing YouTube metadata/thumbnail A/B actions are OUT OF SCOPE.
+
+
+---
+
+## 2026-11-16 duration-specific packaging boundary
+
+Existing P1/P2/P3 above are **Short candidate** hypotheses tied to the unchanged source and [02m English text](variants/02m/script.en.txt) hash `5b315c384645211ae4d73b13b211b1a1875ca2f8ae877bffa30ce78435f3eddb`; do not treat their S001/S009 references as established shots for new scripts.
+
+- **05m proposed Long promise:** “How did three wounded men survive a cockpit attack AND land the cargo aircraft?” Opening questions first, hammer assault as main hook; aftermath is brief. New 16:9 compositions and verified visual references are needed after selection.
+- **10m proposed Long promise:** “How was the flight saved, and what did the post-landing evidence show?” The court/insurance story is a distinct documentary extension, not verified as a superior viewer experience.
+- No thumbnail was generated or selected, no CTR/retention measured, no production metadata or media actions authorized. Select ONE exact text and then prepare its own storyboard and shot schedule; existing 16-scene grid is not a common template.
