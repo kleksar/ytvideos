@@ -58,7 +58,7 @@ uv run ytv --db STATE_DB --workspace WORKSPACE --project-root TARGET_ROOT migrat
 
 ## Сохранённые обязательные требования
 
-Paper: полноценные paper/card диорамы, самостоятельные композиции без внешней декоративной рамки, typography, motion, 1.10× голос и музыкальное покрытие. Nuviko History: активный illustrated рецепт, точный 2D ведущий/фотореалистичный мир, 1.10×, собственные references. Scenes on Repeat: права, оригинальные английские реплики, 1.15× только диктор, канальные montage recipes. Общие: текст/MP4 approvals на точные artifacts, первый слушатель, viewer value, внутренние sources, manual SRT, нативные YouTube элементы, права и receipts.
+Paper: полноценные paper/card диорамы, самостоятельные композиции без внешней декоративной рамки, typography, motion, 1.10× голос и музыкальное покрытие. Nuviko History: активный illustrated рецепт, точный 2D ведущий/фотореалистичный мир, 1.10×, собственные references. Scenes on Repeat: права, оригинальные английские реплики, скорость только диктора по закреплённому профилю, канальные montage recipes. Общие: текст/MP4 approvals на точные artifacts, первый слушатель, viewer value, внутренние sources, manual SRT, нативные YouTube элементы, права и receipts.
 
 Отменены как обычные gates: выбор темы после запроса полного сюжета; отдельное разрешение на каждое изображение/звук в принятом scope; обязательный выбор упаковки; Unlisted review; повторный вопрос о времени при действующей календарной политике. Исключения по изменённому scope, настоящему blocker или неопределённому approval target остаются предметными.
 

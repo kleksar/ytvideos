@@ -13,6 +13,12 @@ from ytvideos.util import digest
 
 
 class ConfiguredRecipeTests(unittest.TestCase):
+    def test_scenes_profile_selects_bryan_and_final_narration_speed(self):
+        from ytvideos.profiles import load_profile
+        root = Path(__file__).resolve().parents[1]
+        profile = load_profile(root / "channels", "scenes_on_repeat")
+        self.assertEqual(profile["voice"], {"provider": "elevenlabs", "id": "K60rGfHNsqGiO3nscQV3", "speed": 1.1})
+
     def test_clip_procedure_is_pinned_across_channels_without_thumbnail_leakage(self):
         root = Path(__file__).resolve().parents[1]
         path = ".agents/skills/ytv-produce-video/references/video-clips.md"
