@@ -9,8 +9,8 @@ EDITORIAL_CANDIDATE_UNREGISTERED — Git-only editorial story. Real `uv run ytv 
 | Редакция | Полные EN / RU | EN / RU words | EN SHA-256 / RU SHA-256 | Статус |
 |---|---|---:|---|---|
 | 02m | [EN](variants/02m/script.en.txt) · [RU](variants/02m/script.ru.txt) | 322 / 288 | `6e95a4dfa8c6cbc49a72ef0d1d0b3931b1813370db164fb19da8a05e22d01e96` / `071ad7cf2a87c976c1023ad69ba9f9406d068533e4102dd600a28a2b165bc743` | STRONG_CANDIDATE, recommended |
-| 05m | [EN](variants/05m/script.en.txt) · [RU](variants/05m/script.ru.txt) | 875 / 700 | `01a5c26b30c4f4e09c6e3c0f68e7c758c991c0f0eb57fd28588c26c70b908568` / `61c326616bb4d38d81ba79aebb77614b590fe0ac1a2057438070b96fef50101e` | STRONG_CANDIDATE, editorial Long / production BLOCKED |
-| 10m | [EN](variants/10m/script.en.txt) · [RU](variants/10m/script.ru.txt) | 1972 / 1572 | `c115cd2cf84ec9be1c6023ccd9ac7a5fd727d37e828ede23881f6d7d2585690c` / `58710c0db4d5fc621f476c81f6638d1f8a324ccd2e95336f3ba73242051cf63d` | REWORK, complete editorial Long / production BLOCKED |
+| 05m | [EN](variants/05m/script.en.txt) · [RU](variants/05m/script.ru.txt) | 877 / 701 | `fbf773b0e876b0d5459b1ea4f986e00e5c239eff477053a390bff512447d99b7` / `9b34a79345e1651c3dd1988c885e75c7ba7b88d3bba4048bbef83baac178d09a` | STRONG_CANDIDATE, editorial Long / production BLOCKED |
+| 10m | [EN](variants/10m/script.en.txt) · [RU](variants/10m/script.ru.txt) | 1969 / 1568 | `91ced491b1fe7b09e8da636a79fe3fac28a78b637fbef77b594f42524e0c3980` / `ce9125001d1256f86395d828b9d8aa57e1d8fda8e90bb9079cfc84732f7a2128` | REWORK, complete editorial Long / production BLOCKED |
 
 **Рекомендована 02m**, поскольку парадокс и причина выигрыша полностью раскрываются, пока зритель ещё ждёт ответа. 05m даёт содержательный контрпример (дополнительная цена возвращения) и full editorial Long. 10m закончена, но смысловой выигрыш за дополнительное время слабее цены внимания; REWORK. Точные 2/5/10 — **целевые длительности, не измеренные**. EN word count 320/875/1984; ориентир 155–185 wpm + паузы, фактическая TTS длительность UNVERIFIED; 10m может превысить цель и требует авторской переработки, не ускорения голоса.
 
