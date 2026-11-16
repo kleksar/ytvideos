@@ -11,7 +11,7 @@ import test_workflow as fixtures
 from ytvideos.errors import WorkflowError
 from ytvideos.script_review import (DECISIONS, FINDING_FIELDS, FIRST_LISTENER_FIELDS, RECORD_FIELDS,
                                     REVIEW_FIELDS, SOURCE_FIELDS, SOURCE_OPTIONAL,
-                                    build_review_input, validate_response, validate_review)
+                                    LEGACY_READING_INSTRUCTIONS, build_review_input, validate_response, validate_review)
 from ytvideos.util import file_digest
 
 
@@ -72,6 +72,26 @@ class ScriptReviewTests(unittest.TestCase):
             self.assertNotIn("const", metadata)
         self.assertIn("actual invocation tool/session ID", packet["instructions"])
         self.assertIn("not script_sha256", packet["instructions"])
+
+    def test_editorial_policy_and_legacy_exact_packet(self):
+        path = Path(self.document["input"]["path"])
+        packet = json.loads(path.read_text())
+        for phrase in ("Minor imprecision", "matters of taste", "invented facts or quotes",
+                       "unperformed required checks remain unverified"):
+            self.assertIn(phrase, packet["instructions"])
+        packet["instructions"] = LEGACY_READING_INSTRUCTIONS
+        path.write_text(json.dumps(packet))
+        self.document["input"]["sha256"] = file_digest(path)
+        self.document["findings"] = [{"severity": "non_blocking", "quote": fixtures.ENDING,
+                                      "finding": "A minor optional clarification."}]
+        self.save_response(self.document)
+        self.assertEqual(self.validate()["document"]["decision"], "pass")
+        packet["instructions"] += " Tampered."
+        path.write_text(json.dumps(packet))
+        self.document["input"]["sha256"] = file_digest(path)
+        self.save_response(self.document)
+        with self.assertRaisesRegex(WorkflowError, "exact script and literal"):
+            self.check_response()
 
     def test_valid_negative_decisions_are_checkable_evidence_but_cannot_complete(self):
         for decision in ("revise", "unverified"):
