@@ -7,7 +7,7 @@ Five-year-old May travelled to her grandparents on a mail train with 53 cents in
 | Версия | Полный EN | Полный RU | Words EN | Формат | Статус |
 |---|---|---|---:|---|---|
 | 02m | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | 269 | short | сохранён исходник, loop не подтверждён |
-| 05m | [EN](variants/05m/script.en.txt) | [RU](variants/05m/script.ru.txt) | 556 | long | рекомендуемый редакционный кандидат |
+| 05m | [EN](variants/05m/script.en.txt) | [RU](variants/05m/script.ru.txt) | 678 | long | рекомендуемый редакционный кандидат |
 | 10m | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | 1354 | long | законченный, но менее динамичный |
 
 **Editor recommendation: 05m Long**, subject to independent reader and exact owner approval. It follows the escorted railway journey through policy change, later violations and a dated photo correction. The 02m original has a thematic, non-seamless Short ending; 10m adds documented cases but the chronology can lose momentum. `short` and `long` are both supported by current paper_detour ChannelSpec; 5/10m are not Shorts. Duration labels are estimates, not measured TTS.

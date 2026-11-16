@@ -9,8 +9,8 @@
 | Length | Full EN | SHA-256 EN | Full RU | SHA-256 RU | EN words | Format | Delivery estimate |
 |---|---|---|---|---|---:|---|---|
 | 02m | [EN](variants/02m/script.en.txt) | `667adcde5b952a0b6ecb5426d5e091ccbd3f7e0ea75390bc6441fedd42904aff` | [RU](variants/02m/script.ru.txt) | `a3a48ad27dd3d783a2d69d99ec06aa951389d31f85d2d0afbf8597a22ee502c0` | 269 | short | ~1.7 min at 160 wpm before pauses (unmeasured) |
-| 05m | [EN](variants/05m/script.en.txt) | `f8118e694f8445453d293b4cce117bb18e16fbd65400d73c1c70a16cc744824e` | [RU](variants/05m/script.ru.txt) | `9efe0d55a0cdde9bebae121f6d2f379822aefcafd87c166050642c4f575c97bc` | 556 | long | ~3.5 min at 160 wpm before pauses (unmeasured) |
-| 10m | [EN](variants/10m/script.en.txt) | `5c2f670833671c25ef033e86e42663d8552d745360b860caf5ffead4134c0ae7` | [RU](variants/10m/script.ru.txt) | `e34aa4f6e2dd18bb33b76ac2a0dfd96ce2b199aba7bb3b98826a281efd8b4102` | 1354 | long | ~8.5 min at 160 wpm before pauses (unmeasured) |
+| 05m | [EN](variants/05m/script.en.txt) | `d3f3fa7e9e5edb23badabd60d171014fea49df43aa0a5a30dedcf70066ea0baa` | [RU](variants/05m/script.ru.txt) | `9eb431b821788aec4f81c3b5699d9e2bca14beb297aee64b879770aebb2e2d62` | 678 | long | ~4.2 min at 160 wpm before pauses (unmeasured) |
+| 10m | [EN](variants/10m/script.en.txt) | `f97ec3cae5716518d709d1453501a413d0b5c099239b514882f886b6f98b6a2b` | [RU](variants/10m/script.ru.txt) | `b7400effb0975313bebf76046d1dce97e99e8b339fb41856c862bd21faaf78c1` | 1354 | long | ~8.5 min at 160 wpm before pauses (unmeasured) |
 
 The 2/5/10 labels are editorial targets, NOT measured speech or guaranteed duration. Natural variation, 1.10x voice speed, title and pause timing can change the video duration. ChannelSpec supports `short` and `long`; two minutes stays only a proposed Short, others Long. No changes to formats or runtime pins.
 
@@ -58,7 +58,7 @@ The 2/5/10 labels are editorial targets, NOT measured speech or guaranteed durat
 
 | Comparison | What is genuinely added | Where interest gets weaker |
 |---|---|---|
-| 02m → 05m | May's reason for travelling, clarification of insurance, explicit 1914 query, post-ban Maryland, Maud's investigated case, dated staged photo | 05m's extra 1913 setup delays May's stamp moment; the Ohio anecdote must remain concise |
+| 02m → 05m | May's reason for travelling, clarification of insurance, explicit 1914 query, post-ban Maryland, Maud's investigated case, dated staged photo | 05m's extended 1913 context delays May's stamp moment; watch the density of dates and prices |
 | 05m → 10m | 1913 Pennsylvania delivery, distances and roles distinguished, Oklahoma proposal **not** mistaken for a journey, Missouri Helen, evidence caveats for Edna and Maud | After Maryland the 1915 itinerary (Edna → Helen → Maud) becomes repetitious; verification talk may displace character action |
 
 **Recommend 05m Long** on editorial grounds, not on presumed viewer data: two meaningful changes after the initial shock, clean policy contradiction, enough proof that bagged-child photographs mislead. Short's loop is inadequate. 10m is full and sourced but not as gripping after the regulatory turning point. Recommendation is **not owner approval** and **not three productions**. No independent acceptance exists; reviewer may prefer the original or reject all versions.
