@@ -2,6 +2,23 @@ EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официал
 
 # Tunnel 57 (1964) — Nuviko History Long
 
+## Содержательная переработка 2026-11-16 — три версии одной истории
+
+| Цель | Полный EN | Полный RU | EN words | Редакторский статус |
+|---|---|---|---:|---|
+| 02m | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | 247 | Подготовлена, без independent review |
+| 05m | [EN](variants/05m/script.en.txt) | [RU](variants/05m/script.ru.txt) | 712 | **РЕКОМЕНДОВАНА**, не approved |
+| 10m | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | 1540 | Подготовлена, без independent review |
+
+**Рекомендация: 05m.** В 02m есть понятный побег и архивная развязка, но почти нет времени на ловушку агентов. 05m показывает Кристу, обман агентов, закрытие тоннеля и различие между ранением и смертельными пулями, не сваливая после развязки справочные детали. 10m добавляет важные новые сцены — прошлый побег Йоахима, свидетельство беглеца, школьную жизнь Эгона, письмо матери, расследования 1965 и 1992 годов. Однако риск потери интереса возрастает в блоке пропаганды/следствия после завершения побега. Это авторская рекомендация, не измеренное удержание.
+
+**Baseline до переработки:** PR #101 HEAD `42764d9b21373d3f2741272a689975c67406a6e4`; исходные `script.en.txt` (Git blob `537ab0539c1e6048fa28486d32f1f8c8f8e588ef`) и `script.ru.txt` (`50471b35bf32a42df2469d1bc931c0414c32bb24`) **не изменены**. Их исходные 42 storyboard spans не распространяются на variants. Предлагаемый редакционный стандарт: [PR #124](https://github.com/kleksar/ytvideos/pull/124) revision `7d6bdf7702a2a241a33a21677fce29f26ada9b72` (Draft, **не main**). Авторские редакционные кандидаты: `EDITORIAL_CANDIDATE_UNREGISTERED`, все старые approval/timing для новых вариантов недействительны.
+
+**Ограничения:** точная длительность, независимый first-listener/bilingual review, runtime/pins, выбранный master владельцем, вариантный storyboard, TTS, MP4, спрос и retention — **UNVERIFIED**. Nuviko History поддерживает Long 16:9; каждая версия предложена как Long, петля Shorts не требуется. Ни одна версия не передана в production.
+
+---
+
+
 **Логлайн:** 57 человек вышли из Восточного Берлина по тайному тоннелю, выкопанному студентами. Один из строителей наконец помог своей девушке, ранее арестованной после провального побега. В ходе обнаружения тоннеля погиб пограничник Эгон Шульц; власти ГДР возложили вину на беглецов, хотя смертельные выстрелы сделал его сослуживец. Долгие годы это скрывали.
 
 **Читать:** [полный русский текст](script.ru.txt) · [English narration master](script.en.txt). English for prospective voice, RU for editorial reading only. Format `nuviko_history`, Long 16:9, full historical narrative, not Shorts and not a music channel.

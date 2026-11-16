@@ -37,3 +37,8 @@ EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официал
 ## Editorial selection and scope
 
 Предварительно выбирается A, потому что он понятен без знания имён и соответствует первому кадру; B — более необычный угол, но опаснее подменой подлинной причинности, C — эмоциональный, но сравнительно менее универсальный для новой международной аудитории. Это **не A/B winner**. Полные title/thumbnail/description (строгие ReleaseSpec/thumbnail_plan) оформляются только после настоящего утверждения script в production runtime. Никаких actual generated images/assets, проверенного phone preview или YouTube read-back.
+
+
+## Variant safety 2026-11-16
+
+Все концепты выше созданы для original EN blob `537ab0539c1e6048fa28486d32f1f8c8f8e588ef` и его 42 сцен. Новые `variants/02m`, `variants/05m`, `variants/10m` имеют иные точные тексты/hash. **Нельзя наследовать старые сцены, главы, first-proof S### или timestamps**: после выбора единственного exact master переразметить визуальные соответствия и проверить реальное thumbnail promise → opening → payoff; эта работа НЕ выполнена. Рекомендуется 05m только на уровне editorial, без owner approval, без изображения/MP4/CTR. Все три Long допустимы по ChannelSpec, однако production не разрешено данным PR.
