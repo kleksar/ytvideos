@@ -101,6 +101,16 @@ class MediaExecutorTests(unittest.TestCase):
             MediaExecutor(self.service, runner=runner).execute(self.run_id, "audio", self.claim["token"], request)
         runner.assert_not_called()
 
+    def test_default_tts_cannot_retry_prior_single_attempt_after_revision(self):
+        with self.fixture.store.transaction() as tx:
+            tx.create_operation({"key": "fixture-prior-single-tts", "run_id": self.run_id, "task_id": "audio",
+                                 "kind": "tts", "input_hash": "prior", "task_input_hash": "old-revision",
+                                 "status": "not_performed", "payload": {"tts_selection": {"model": "fixture"}}})
+        runner = Mock()
+        with self.assertRaisesRegex(Conflict, "single-attempt TTS"):
+            MediaExecutor(self.service, runner=runner).execute(self.run_id, "audio", self.claim["token"], {"kind": "tts"})
+        runner.assert_not_called()
+
 
 if __name__ == "__main__":
     unittest.main()
