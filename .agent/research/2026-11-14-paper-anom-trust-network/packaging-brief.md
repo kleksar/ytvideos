@@ -18,3 +18,7 @@ One folded paper message bifurcates in a physical mini-stage; one destination is
 Two closed paper phone kiosks, customers head to the remaining ANOM booth. First proof S004–S009; middle payoff S025–S028; final proof S038–S044. False reading that all competitor shutdowns were engineered solely to boost ANOM is disallowed; show only DOJ-attributed rise in demand.
 
 All pairs require full thumbnail brief/actual references, zoomed small-card preview and future exact-script approval. No YouTube release or claim of improved CTR. Paper end-screen on Long would be a separate thematic 10-second stage and actual native end-screen elements, not pseudo-buttons embedded into an image.
+
+
+## Variant applicability — 2026-11-16
+These three concepts retain the old original EN SHA-256 `524035d2a5c9c47a8805e661bd94845e5c8579b3923b82a46cb68ec38c714fb6`, copied without changes to `variants/05m/script.en.txt`. Their storyboard references S001–S051 apply only to original / 05m; **not** to 02m or 10m. Before selecting another duration, restate its exact opening/first proof/final answer, update preview and visual beat plan, and obtain independent editorial + owner approval. No A/B result or production asset exists.

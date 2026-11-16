@@ -47,3 +47,18 @@ The opening buyer/seller imagery represents documented distribution *in aggregat
 ## S042–S043 factual correction
 
 At baseline PR HEAD `fabf7d4c3e01c0ad047e10249ed0c7e1830267df`, the narration presented 800 as though it were the final total. DOJ reported approximately 800 during the June 2021 announcement and approximately 1,200 in its February 7, 2025 update. The correction keeps separate reported dates rather than asserting a 2026 count. Source: https://www.justice.gov/usao-sdca/pr/all-extradited-distributors-anom-hardened-encrypted-devices-plead-guilty-racketeering
+
+
+## 2026-11-16 extension verification for 02m / 10m
+
+Scope: same original ANOM research; neither competing creator videos nor source baseline silently promoted to new verification. These *additional* claims apply to expanded 10m, not retrospectively to the preserved 05m original.
+
+| Added text claim | Opened evidence, date and exact boundary |
+|---|---|
+| 2025 DOJ reports >300 syndicates, >12,000 devices across 100 countries, >27 million collected messages | US DOJ Southern District of California, *All Extradited Distributors…*, dated 2025-02-07, paragraphs 2–3: https://www.justice.gov/usao-sdca/pr/all-extradited-distributors-anom-hardened-encrypted-devices-plead-guilty-racketeering . Investigators' reported totals; not unique convictions. |
+| Takedown June 7 2021, >10,000 officers, >500 takedown arrests, >700 locations; ~1,200 arrests over investigation by Feb 2025 | Same DOJ page, paragraphs 4 and 7. Distinguishes 2021 *takedown-period* subset from 2025 cumulative count; June 2021 ~800 is previously documented contemporaneous announcement. |
+| 17 distributors charged in San Diego; eight extradited by Feb 2025 and all eight then pleaded guilty to racketeering conspiracy | Same DOJ report, first two paragraphs and defendant sections. This does **not** imply all 17 were convicted, all extradited, or all users committed crimes. |
+| Australia 2024 law confirmed status of information under specified warrants; 2025 High Court constitutional challenge rejected, original interception merits not decided there | High Court of Australia, *CD v Commonwealth* [2025] HCA 37, issued 2025-10-08 https://www.hcourt.gov.au/cases-and-judgments/judgments/judgments-1998-current/cd-v-commonwealth-australia ; ABC explainer 2025-10-08 https://www.abc.net.au/news/2025-10-08/high-court-endorses-afp-anom-app-in-bikie-legal-challenge/105865330 . Do not state blanket universal legality of all future surveillance. |
+| Extra general mechanism: ordinary-looking service under police control, blind message copies, referrals and market demand | Already sourced FBI/DOJ 2021 and ABC Ayik reporting above; expanded variants do not invent identity of original seller, private dialogue or exact device UI. |
+
+**Research check:** The DOJ 2025 and High Court/ABC 2025 pages were opened again 2026-11-16 for the specific new 10m statements. No latest 2026 totals independently measured; analytics/CTR/retention and source-matched viewing remain UNVERIFIED. A source describing allegations remains attributed when the narration uses it.

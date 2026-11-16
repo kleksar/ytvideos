@@ -1,3 +1,21 @@
+EDITORIAL_CANDIDATE_UNREGISTERED — CURRENT THREE-VERSION REVISION (2026-11-16; old master preserved)
+
+## One story in 2, 5 and 10 minute editorial versions
+
+Each file below is a complete standalone narration of the *same* ANOM / Trojan Shield story. Time labels are editorial targets, not recorded TTS. All are 16:9 illustrated Long candidates, not three ready productions.
+
+| Target | Full English | Full Russian | EN words | Authorial decision |
+|---|---|---|---:|---|
+| 2m | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | 302 | Complete concise chain | 
+| **5m** | **[EN](variants/05m/script.en.txt)** | **[RU](variants/05m/script.ru.txt)** | **834** | **Recommended; preserved source** |
+| 10m | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | 1366 | More evidence/legal nuance; weaker final-third pacing |
+
+The original `script.en.txt` / `script.ru.txt` are unchanged and duplicated verbatim as `variants/05m/`; their original 51-scene `storyboard.md` covers **only** that exact script, not new 2m/10m. The original 05m script gives audience a concrete trust paradox before posing questions, rather than the strict questions-first opening used by new variants; independent listener may prefer either.
+
+Newly checked fact evidence is in [research](research.md), all six exact SHA-256 hashes and eight-criterion individual assessments in [story-review](story-review.md). The 05m is an *authorial recommendation*, not an approval. Reviewer, run, staging and actual audio durations remain unverified. Old README provenance follows below.
+
+---
+
 EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официальному ytv script gate.
 
 # ANOM: the phone criminals recommended for the FBI
