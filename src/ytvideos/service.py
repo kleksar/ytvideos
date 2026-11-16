@@ -1031,6 +1031,44 @@ class Production:
             image_ids.append(task_id)
         run["tasks"]["render"]["dependencies"] = ["storyboard", "audio", "subtitles"] + image_ids
 
+    def amend_budget(self, run_id, *, max_units, expected_version, source, message):
+        """Atomically record one local owner budget decision without spending it."""
+        if self.approvals.public_key:
+            raise WorkflowError("signed-only host has no signed budget amendment ingress")
+        if type(max_units) is not int or max_units < 0:
+            raise WorkflowError("budget must be a nonnegative integer")
+        if type(expected_version) is not int or expected_version < 0:
+            raise WorkflowError("budget amendment requires a nonnegative expected version")
+        require_text(source, "source reference to the actual user decision")
+        require_text(message, "actual user budget decision")
+        event_id = "budget-amendment:" + digest(source)
+        with self.store.transaction() as tx:
+            run = tx.get_run(run_id)
+            self._runtime(run)
+            request = {"run_id": run_id, "max_units": max_units, "expected_version": expected_version,
+                       "source": source, "message": message}
+            prior = tx.execute("SELECT run_id,kind,payload FROM events WHERE id=?", (event_id,)).fetchone()
+            if prior:
+                payload = json.loads(prior[2])
+                if prior[0] != run_id or prior[1] != "budget.amended" or payload.get("request") != request:
+                    raise Conflict("budget decision source was already used with different content")
+                return payload
+            if run["version"] != expected_version:
+                raise Conflict("stale state version; reload status")
+            budget = run["budget"]
+            committed = sum(budget[key] for key in ("spent", "reserved", "unknown_reserved"))
+            if max_units < committed:
+                raise Conflict("budget cannot be below spent and reserved units")
+            if max_units == budget["max_paid_units"]:
+                raise WorkflowError("budget is unchanged")
+            result = {"request": request, "previous_max_units": budget["max_paid_units"],
+                      "committed_units": committed, "version": run["version"] + 1,
+                      "authority": "local_session"}
+            tx.event(event_id, run_id, "budget.amended", result)
+            budget["max_paid_units"] = max_units
+            tx.save(run)
+            return result
+
     def approve(self, envelope):
         """Optional signed ingress; invalid envelopes never fall back to local trust."""
         event = self.approvals.verify(envelope)
