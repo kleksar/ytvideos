@@ -14,8 +14,9 @@ class GenericChannelTests(unittest.TestCase):
         with contextlib.redirect_stderr(io.StringIO()), self.assertRaises(SystemExit):
             tts.arguments(['--channel', 'paper_detour', '--output-dir', '/tmp/example', '--gen'])
 
-    def test_existing_third_channel_can_share_a_voice(self):
-        self.assertEqual(tts.channel_voice('scenes_on_repeat'), tts.channel_voice('paper_detour'))
+    def test_scenes_and_paper_use_their_selected_voices(self):
+        self.assertEqual(tts.channel_voice('scenes_on_repeat'), 'K60rGfHNsqGiO3nscQV3')
+        self.assertEqual(tts.channel_voice('paper_detour'), 'ktkP7Nsj67dw2zcplQYt')
         parsed = tts.arguments(['--channel', 'scenes_on_repeat', '--output-dir', '/tmp/example'])
         self.assertEqual(parsed.channel, 'scenes_on_repeat')
 
@@ -30,6 +31,7 @@ class GenericChannelTests(unittest.TestCase):
             with patch.object(tts.channel_config, 'ROOT', root):
                 self.assertEqual(len(tts.channel_config.configured_channels()), 10)
                 self.assertEqual(tts.channel_voice('channel_9'), 'sharedvoice')
+                self.assertEqual(tts.channel_voice('channel_0'), tts.channel_voice('channel_9'))
                 self.assertEqual(tts.arguments(['--channel', 'channel_9', '--output-dir', str(root/'out')]).channel, 'channel_9')
 
     def test_unconfigured_or_invalid_voice_stops_before_network(self):
