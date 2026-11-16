@@ -16,7 +16,7 @@ Eleven **distinct events** were considered, including overlaps checked against r
 | 1976 Teton Dam collapse | Visible engineering stakes but less distinctive than the standing-wall paradox on available evidence |
 | 1975 Banqiao floods | Major disaster; large casualty uncertainty and complicated records need a separate deeper verification |
 | 1980 Mount St Helens eruption | Familiar material; strong scientific forecasting story, but no distinct unrepeated angle researched here |
-| 1963 underground Great Escape / Lake Peigneur, 1980 | Existing production overlap: Lake Peigneur already has a draft PR #24; not available as a new story |
+| 1980 Lake Peigneur drilling-and-lake disaster | Existing production overlap: Lake Peigneur already has a draft PR #24; not available as a new story |
 | 1983 Gimli Glider | Existing Nuviko story PR #86, protected from duplication |
 | 1976 Chowchilla school bus kidnapping | Existing Nuviko PR #109, protected from duplication |
 
