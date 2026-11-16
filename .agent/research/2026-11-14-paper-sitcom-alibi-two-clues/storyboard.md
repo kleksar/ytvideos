@@ -1,3 +1,5 @@
+> **Original-only storyboard** — the S001–S016 exact spans below refer solely to the unchanged initial EN master (Git blob `bde5068e54b2c30694763e1ad7624a83edd533f0`) and RU master (`a1d5b434cb7c98b24e3ba7bb8065431da688ae4f`), byte-identical to `variants/02m/`. They do not apply to the new 05m or 10m versions. This storyboard is preliminary, not accepted production.
+
 # Preliminary storyboard — editorial only
 
 All S001–S016 spans reproduce **exact** full EN/RU master paragraphs below, in the same order without missing or duplicated narration. Each is one candidate composition, generally aim for 4–6 s when actual voice timing is available; these are **not measured timings**. Fewer/more cuts may be necessary after genuine audio. Every prompt is independently usable; continuity subject to later reference sheets. No media generated.
