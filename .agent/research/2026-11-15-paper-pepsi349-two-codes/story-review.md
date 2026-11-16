@@ -8,9 +8,9 @@
 |---|---|---|---:|---|---|---|
 | 02m | [RU](variants/02m/script.ru.txt) | [EN](variants/02m/script.en.txt) | 270 | `9172023aeaaceaecc2c0544fba9ced705adc025a05d2197abb0dc964e8d1f1e7` | `461657b75549b7eb50d21e2466a54335d36d33c1fab260600062550c87d89a97` | Complete editorial draft; review UNVERIFIED |
 | 05m | [RU](variants/05m/script.ru.txt) | [EN](variants/05m/script.en.txt) | 781 | `cc8459a28a341ae5e8112194583b7f306c8f6a283d1e12ddb3c0e43f6a544b90` | `cea3c6c3827eed80475337450c8edb541f64f6bea577814e916556781a507ef3` | Recommended; unchanged strong master copy |
-| 10m | [RU](variants/10m/script.ru.txt) | [EN](variants/10m/script.en.txt) | 1230 | `59c20ab8bb9ccf7c7762e92a87efe8a31fa879e7fc197ebf80387b7de7f6ecce` | `c3391fbaef68910eadd7022f9f887ef69c93f23db6ba359847042c578166d599` | Complete editorial draft; review UNVERIFIED |
+| 10m | [RU](variants/10m/script.ru.txt) | [EN](variants/10m/script.en.txt) | 1617 | `b04e3fa200216ac508728caed29912caf2667739593933ca34cbcc0e33b1e7c0` | `a02a5ae11d68bb4078cb636203a9b1e35104e9bc853d038151b58c75b0a3e967` | Complete editorial draft; review UNVERIFIED |
 
-Target timing is **estimated, not measured**; illustrative EN speech range 125–165 words/minute, excluding music, pauses and 10-second Long end screen. For 02m: 270 words, approx 1.6–2.2 min; 05m: 781 words, approx 4.7–6.2 min; 10m: 1230 words, approx 7.5–9.8 min. Actual speed/pauses/video duration UNVERIFIED. All variants editorial Long 16:9; Paper Detour ChannelSpec supports Long. No version is released or approved.
+Target timing is **estimated, not measured**; illustrative EN speech range 125–165 words/minute, excluding music, pauses and 10-second Long end screen. For 02m: 270 words, approx 1.6–2.2 min; 05m: 781 words, approx 4.7–6.2 min; 10m: 1617 words, approx 9.0–12.0 min. Actual speed/pauses/video duration UNVERIFIED. All variants editorial Long 16:9; Paper Detour ChannelSpec supports Long. No version is released or approved.
 
 ## Было → стало
 
@@ -36,7 +36,7 @@ Target timing is **estimated, not measured**; illustrative EN speech range 125�
 | Question/promise | 8/10: payout/legal answers delivered, quick transition | 9/10: three distinct questions with replies | 8/10: courtroom reversal question complex on cold entry |
 | Early verified hook | 8/10: company refuses within 90 words | 8/10: Victoria and code precede longer backstory | 8/10: Victoria and refusal early, history comes next |
 | Causal development | 7/10: bypasses court history | 8/10: announced digits→code→offers→claims | 9/10: two independent appellate reversals plus locked-list mechanics |
-| Human line | 7/10: families and uninvolved victims but Victoria omitted | 8/10: named Victoria and documented bystanders | 8/10: named claimant Victoria, Pagdanganan and bystanders; cautious attribution |
+| Human line | 7/10: families and uninvolved victims but Victoria omitted | 8/10: named Victoria and documented bystanders | 8/10: named claimant Victoria, Pagdanganan and bystanders; Victoria's contemporary household account now externally corroborated; cautious attribution |
 | Spoken EN/RU | 8/10: short concrete verbs, serious tone | 8/10: preserves existing natural 29 blocks, repetition risk | 7/10: proper names and two legal tracks may overload speech |
 | Payoff/closure | 8/10: code condition and distinct court outcome in same passage | 8/10: documented 2006 decision; late recap | 8/10: 2006/2007 decisions and human consequences, could end sooner |
 | Audience demand evidence | **UNVERIFIED**: no matched own data | **UNVERIFIED**: indexed videos cannot predict CTR/retention | **UNVERIFIED**: length demand unknown |
@@ -62,3 +62,7 @@ Confidence in historical mechanics and court timeline: **high** for facts expres
 ## Runtime / editorial gate
 
 This is **Git-only editorial work**. No run ID, available independent session, first-listener reply, TTS, 2-cycle AV check, generated scenes, image, MP4 or owner approvals. All are **UNVERIFIED**. Before official use: local coordinator checks existing runs → uses real pinned context and supported Long → registers chosen exact text without rewriting accepted source → independent blind EN/RU review with new script SHA → owner chooses exact master → rebuilds storyboard from chosen text and actual TTS. Unmodified original scripts stay master candidates; none automatically approved. Previous receipts and existing scheduled videos cannot be borrowed.
+
+## 10m exact-version revision 2026-11-16
+
+Extended the original 1,230-word 10m candidate to 1617 EN / 1367 RU words with distinct documented context: the contemporaneous Angelo family account, authorised 349 prize tiers, contemporaneous scale of civil/criminal complaints **attributed to Pepsi**, and the different legal reasoning of the appeals court versus the binding Supreme Court precedent. These are additional factual developments, not a longer retelling of the same code explanation. Exact changed 10m hashes are in the table above. No TTS measurement or reviewer receipt; 10m time still provisional.

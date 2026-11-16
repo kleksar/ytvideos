@@ -8,7 +8,7 @@ EDITORIAL_CANDIDATE_UNREGISTERED — no registered `ytv` production run or appro
 |---|---|---|---:|---|
 | 02m brief Long | [RU](variants/02m/script.ru.txt) | [EN](variants/02m/script.en.txt) | 270 | Viable compact answer; little legal detail |
 | **05m Long** | **[RU](variants/05m/script.ru.txt)** | **[EN](variants/05m/script.en.txt)** | **781** | **Recommended; exact strong master copied** |
-| 10m Long | [RU](variants/10m/script.ru.txt) | [EN](variants/10m/script.en.txt) | 1230 | Source-backed two-case legal structure; lower confidence in pace |
+| 10m Long | [RU](variants/10m/script.ru.txt) | [EN](variants/10m/script.en.txt) | 1617 | Source-backed two-case legal structure; lower confidence in pace |
 
 [One research ledger](research.md) · [three story maps, eight editorial criteria each, exact SHA-256 and was→became](story-review.md) · [packaging proposals](packaging-brief.md) · [handoff](handoff.md).
 
