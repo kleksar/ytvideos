@@ -1,13 +1,10 @@
-# Handoff to pinned local ytv runtime
+# Handoff — Ottoman fleet, PR #87, three-language-paired versions
 
-1. On an authorized local checkout/store, inspect existing runs first; do not duplicate a matching Ottoman-short run. Use current root `AGENTS.md`, `.agents/skills/ytv-start/SKILL.md` and required task-execution procedure **from real pinned packet**, not these summaries.
-2. If none exists, `uv run ytv start --channel nuviko_history --format short --intent 'Ottoman ships transported overland into Golden Horn 1453; owner requested Short; editorial draft exists in .agent/research/2026-11-14-nuviko-ottoman-ships-overland'`.
-3. Feed verified research and full EN narration into **actual** research/script tasks as directed by `next_action`. Follow `read_next`, pinned skills/documents and exact outputs. Treat editorial draft as input, not proof of gate.
-4. Independent fresh reviewer must assess exact EN hash, RU translation, first-listener interest and the two-full-plays narration loop; revise with real receipts if needed. Authorial `story-review.md` is not independent evidence.
-5. When `awaiting_script_approval` is really reached, show the complete EN + RU scripts for user's decision. Do not claim approval based on PR creation. Subsequent generation, audio, timing, storyboard approval, image refs and publish require normal lifecycle/authority.
-6. Required production source refs and timing evidence are missing. No image/TTS/video was produced in this PR. Scope includes only these editorial files.
+Status: **EDITORIAL_CANDIDATE_UNREGISTERED**; scripts only. The exact 02m/05m/10m EN and RU bytes and SHA-256 are in [story-review](story-review.md). Original master and storyboard are unchanged except for a scope notice on storyboard; they belong to baseline head `02e9a7e410d104ce21f1db419579f1dd6cd9fce9`, not the new variants.
 
-## Current question-first revision
-- Consume the newest PR-head EN and RU exact files. S001 is the question; **do not** render the old hillside/rollers opening at S001. The first visual shows the intact harbour chain and ships inside, without revealing the land route.
-- S006 is the first explicit overland reveal; S017 feeds back to S001, a text-only loop awaiting **fresh** independent review and two-play audio/visual testing. Prior narrator hashes, storyboard positions, and any review of old S001 are invalid.
-- The project runtime command 'uv run ytv instructions --channel nuviko_history --stage script --format short', then existing-run discovery, is required for authoritative pinned instructions and gated script approval. This GitHub editorial change does not register a run, prove CI, or authorize media generation.
+1. Read current `AGENTS.md` and pinned `ytv-write-script`, editorial/narration plus `channels/nuviko_history/channel.json`/PROFILE. In the authorized local store, inspect matching existing runs **before** any new `start`; existing runs keep their original pins without migration.
+2. Present complete versions and choose **one** exact approved master with owner. Editorial recommendation: 05m Long 16:9. Do not silently switch an existing Short run to Long or create three runs.
+3. Fresh independent reviewer reads exact script with **no** authorial scores or briefing. For 02m require full EN/RU twice and a literal seam; no reviewer receipt exists. Reviewer saves own authentic `ytv-script-review-v1`, not a coordinator-written simulated PASS.
+4. Follow actual `ytv instructions` / existing `status` → `resume`/`next` → `plan`, read canonical `context` and pinned task files, use real `attach-artifact --kind script_variant` / `story_review` IDs and source where workflow requires; PR files cannot themselves reach `awaiting_script_approval`.
+5. Old `storyboard.md` 17 spans quote only original 247-word EN and matching RU SHA-256 `0c87a0d75d5956881ae7db68f6dbd522e691b86d24beffe136de5664fdd6a12b` and `4f1ed1529e07339561af3d55405d476c24bd6528bd4980db434a4db45c297acd`; new variants require new edition-specific storyboard/visual intent/timings after text selection. For 02m do not show land route before the first question and reveal.
+6. Audio/TTS, actual timing, images, Flow, MP4, native thumbnail, upload, schedule and YouTube publication are **UNVERIFIED / NOT EXECUTED**. No permission to perform them in this PR.

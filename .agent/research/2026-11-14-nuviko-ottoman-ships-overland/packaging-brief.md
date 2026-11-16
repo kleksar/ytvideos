@@ -1,16 +1,7 @@
-# Packaging ideas — Short, unapproved
+# Packaging hypotheses — no observed CTR, unapproved
 
-## Primary: question without answer
-- Title: **How Did Ottoman Ships Get Past Constantinople's Chain? #Shorts**
-- Opening visual S001: the chain physically intact across the Golden Horn entrance, with smaller Ottoman vessels already inside. Show the paradox without depicting the hill, rollers, or a severed chain in the first image.
-- Optional caption: `HOW DID THEY GET IN?` only if legible in real 9:16; no compulsory inscription.
-- Truthful promise: *How can warships enter a harbour whose sea entrance is chained shut?*
-- First proof: S001–S003 establishes ships behind the intact barrier and which harbour it protects. Explicit route reveal: S006; physical mechanism: S007–S011; consequence and limited historical payoff: S012–S017.
+- **Recommended 05m Long:** “How Did Ottoman Ships Get BEHIND Constantinople's Chain?” Start with harbour mouth and intact chain, then reveal the ridge only after the opening questions/geography. Deliver both *how* and *why the defenders cared*. Thumbnail historical composition is a proposal, not a rendered or QA-verified artifact.
+- **02m Short alternative:** “The Fleet That Went AROUND a Harbour Chain (1453) #Shorts”. Owner's opening question first. First visual must not disclose rollers, as stated in the original 17-scene planning, but new 02m script **does not inherit** that storyboard's exact scene spans. Loop remains **UNVERIFIED** after final→initial textual revision.
+- **10m Long alternative:** “The 1453 Naval Trick That Changed the Siege — But Didn't End It”. Cover April 20 relief passage, prepared work, April 22 launch, April 28 failed raid, contested harbour and final land assault. Avoid unconfirmed exact ship number, quick-build legend, severed chain or falsely decisive tactical claim.
 
-## Alternate: reveal in packaging
-- Title: **The Ottoman Ships That Climbed a Hill in 1453 #Shorts**
-- Composition: smaller galley on wooden rollers above the Bosporus/Golden Horn landscape; correct geometry and legible land-water distinction.
-- Risk: this alternative gives away the S006 solution before the question; it is not the recommended first-choice for the question-led version.
-
-## Audience check
-These are qualitative, untested packaging hypotheses, not measured CTR or an approved native thumbnail. The new first frame must match the opening question; avoid an unverified exact ship count, severed chain, or fictional defender reactions. AI images, 9:16/crop QA and native YouTube presentation await the authorized local run.
+Every variant needs separately matched script/hash, accurate timing and approved scene references if chosen. Original storyboard is only for original Short. No title/thumbnail claim based on measured audience demand.

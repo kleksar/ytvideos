@@ -1,3 +1,5 @@
+> **ONLY ORIGINAL MASTER**. All 17 S blocks and EN/RU quotes below refer solely to unchanged original `script.en.txt`/`script.ru.txt` from PR #87 baseline `02e9a7e410d104ce21f1db419579f1dd6cd9fce9` (SHA-256 EN `0c87a0d75d5956881ae7db68f6dbd522e691b86d24beffe136de5664fdd6a12b`, RU `4f1ed1529e07339561af3d55405d476c24bd6528bd4980db434a4db45c297acd`). This board is **INVALID for variants/02m, variants/05m and variants/10m**, including new 02m loop wording. New text requires separate hash-specific storyboard/spans and authoritative TTS timing after approval. No independent loop or AV evidence exists.
+
 # Storyboard coverage — provisional, NOT image prompts or timed shots
 
 English Short 9:16; visuals are **editorial intents** only. Each S id matches its exact narration paragraph. Actual narration timing and scene spans follow accepted TTS after independent script review; none are measured here. Nuviko historical photoreal environment with 2D host only when verified brand references are present. One composition per beat, whole-frame pan/zoom, direct cuts. All images would be AI-created in an authorized run, not portrayed as archival imagery.
