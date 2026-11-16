@@ -205,3 +205,7 @@
 **Continuity/check:** Keep 1889–1890 period props and geography, same one satchel in all Nellie shots, different Bisland S006, scene S014 as an editorial return to S001 only. Actual portrait, ship, train, city references and rights remain unverified. No actual prompt dispatch, image, frame, measured time or file hash.
 
 **Composition:** approximately 4–6 seconds target, not observed; actual cuts and >=2-second shot check pending voice timing and authorized production.
+
+
+## Source binding after editorial revision — 2026-11-17
+**S001–S014 are valid ONLY as provisional compositions for unchanged `script.en.txt` git blob `940f641245a2bdad0e71fcbd2f6be5c8f7fdcc98`, `script.ru.txt` git blob `f63555da668004a6369def0ebf6bc1a0b19b3a86`, copied to `variants/02m/`.** The distinct `variants/05m/` and `variants/10m/` scripts do not inherit these spans, 14-scene count, prompt list, assumed durations, review or approval. Their own storyboard must follow exact selected text/hash only after the owner's choice. No media or voice was generated.

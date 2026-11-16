@@ -70,3 +70,23 @@
 **Payoff:** K9/K10 are given in full *before* the final loop.
 **Cause chain:** surprise clerk → origin of original journey → rival dispatch → waiting for ship → ocean weather → blocked rails → charter detour → verified finish.
 **Editorial trim:** no dates for every layover, no character-biography tail, no fabricated dialogue, no claim success because of “one desperate decision.” Full English/Russian texts reviewed as standalone narration before scene prompts. Their estimated timing is not measured and may require shot divisions after real audio.
+
+## Revision evidence for 05m/10m — 2026-11-17
+
+Original K1–K11 ledger preserved. Extended versions rely on those claims, with the following **additional independently opened source passages**, not invented dialogue:
+
+| ID | New assertion / interpretation in complete scripts | Direct evidence, qualification |
+|---|---|---|
+| K12 | Bly proposed the Verne challenge, editor initially objected to a lone woman, idea held ~year | Heinz History Center https://www.heinzhistorycenter.org/learn/women-forging-the-way/nellie-bly-around-the-world/ , "Meet Nellie Bly" and "Day 1"; Smithsonian https://www.smithsonianmag.com/smart-news/nellie-blys-record-breaking-trip-around-world-was-to-her-surprise-race-180957910/ . Reported speech is not copied as fictional conversation |
+| K13 | Bly set personal 75-day target, newspaper informed her of near-immediate Nov 14 start; small handbag | Heinz Day 1; Smithsonian original goal. **75 is personal target, 80 fictional book benchmark** |
+| K14 | Cosmopolitan owner Walker chose opposing route and recruited initially reluctant literary editor Bisland on departure day | Heinz Day 3, Public Domain Review https://publicdomainreview.org/essay/elizabeth-bislands-race-around-the-world (published 2013-10-16). Do not invent a hostile personal relationship |
+| K15 | Bly suffered seasickness, had brief meeting with Verne, and connections via Suez and Indian Ocean | PBS primary excerpt https://www.pbs.org/wgbh/americanexperience/features/world-excerpts-around-world-72-days/ , chapters II–IV; Heinz Day 6/9/14, Smithsonian |
+| K16 | Bly reached Hong Kong early but ship onward wait remained; the three days are **Bisland's departure from that port**, not evidence of global position | Heinz Day 40, Smithsonian excerpt from Bly. Interpret "lead" as apparent only |
+| K17 | Japan press attention; Oceanic older/slower than Augusta Victoria; storm crossing | Heinz Day 53/58/70. Do not assert Bly knew rival's live progress at sea |
+| K18 | Late-arrival port health-document scare, false smallpox rumor, no actual quarantine; winter mountain rail blockade and special southbound one-car train | Heinz Day 70: warning **not** a real quarantine, special train **not** magical bypass of rail rules |
+| K19 | Rail workers coordinated stops; bridge under repair, fans; ordinary train from Chicago, family reception in Philadelphia, Jersey City finish at 3:51 Jan 25 | Heinz Day 70/73. Exact arrival time based on reported timetable, not voice measurement |
+| K20 | Bisland had urgent European train/ferry transfers and severe Atlantic crossing, arrived days later around 76 days; she initially resisted publicity | Public Domain Review essay (Bisland narrative) and Smithsonian; **do not claim the women personally met**, or that she deliberately threw the race |
+
+**Event → new fact → consequence → next question:** proposal/Verne → actual public timetable, editor's objection → can she depart? → 2-day start → competitor independently recruited → when will Bly learn? → Hong Kong clerk and delayed steamer → apparent lead not reliable → can she finish across Pacific? → storms/false quarantine → US snow closes direct route → can newspaper find another functioning line? → southern one-car special train → Jan 25 finish → what happened to the other traveler? → Bisland later finishes within 80 days.
+
+**Source uncertainty:** secondary sources disagree in emphasis and some dates of Hong Kong arrival; scripts do not claim a minute-precise Hong Kong timestamp. The supposed three-day difference is a local port departure report, not a global timed head start. None of the expanded script claims that a particular missed European ship was sabotaged, nor claims a fictional 80-day trip was a verified historical record. Reader demand/YouTube performance UNVERIFIED. Public pages checked 2026-11-17. No external PR content or secrets submitted to external search.
