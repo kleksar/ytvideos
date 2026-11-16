@@ -101,6 +101,36 @@ class RuntimeMigrationTests(unittest.TestCase):
         self.assertEqual(result["receipt"]["source"]["root"], str(self.source.resolve()))
         self.assertEqual(result["receipt"]["target"]["root"], str(self.service.project.resolve()))
 
+    def test_pending_unapproved_script_migrates_without_creating_evidence(self):
+        def pending(tx, run):
+            run["approvals"].pop("script")
+            run["tasks"]["script"].update(status="pending", outputs=[])
+        self.store.mutate(self.run_id, pending)
+        before, _, operations = self.state()
+        plan = self.plan()
+        self.assertIsNone(plan["preserved"]["script_artifact_id"])
+        self.assertIsNone(plan["preserved"]["script_sha256"])
+        result = self.apply(plan)
+        after, _, after_operations = self.state()
+        for key in ("revision", "tasks", "approvals", "budget", "profile"):
+            self.assertEqual(after[key], before[key])
+        self.assertEqual({key: after["artifacts"][key] for key in before["artifacts"]}, before["artifacts"])
+        self.assertEqual(after_operations, operations)
+        self.assertFalse(result["receipt"]["approval_and_qa_evidence_created"])
+        self.assertEqual(json.loads(self.service.artifacts.resolve(result["receipt"]["snapshot_artifact"]).read_text())["run"], before)
+
+    def test_unapproved_nonpending_or_output_script_cannot_migrate(self):
+        for status, outputs in (("complete", []), ("pending", ["unaccepted-output"])):
+            with self.subTest(status=status, outputs=outputs):
+                def change(tx, run):
+                    run["approvals"].pop("script", None)
+                    run["tasks"]["script"].update(status=status, outputs=outputs)
+                self.store.mutate(self.run_id, change)
+                before = self.state()
+                with self.assertRaisesRegex(WorkflowError, "pending script without outputs"):
+                    self.plan()
+                self.assertEqual(self.state(), before)
+
     def test_identical_retry_is_read_only_and_decision_replay_is_rejected(self):
         plan = self.plan()
         result = self.apply(plan)
