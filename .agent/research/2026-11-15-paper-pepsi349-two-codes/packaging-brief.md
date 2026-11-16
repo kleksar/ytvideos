@@ -1,6 +1,6 @@
 # Pepsi 349 — 2026-11-15 revised packaging hypotheses
 
-English Paper Detour Long 16:9. No actual images, A/B test or observed CTR; align with *current* 29-paragraph script, not legacy storyboard.
+English Paper Detour Long 16:9. No actual images, A/B test or observed CTR; align with the **recommended 05m** exact 29-paragraph variant, not legacy storyboard or the 02m/10m alternatives. All variants are unapproved.
 
 **A / recommended:** `The Pepsi Number That Almost Everyone Thought Had Won` — handmade paper close-up of cap `349`, TV with `349`, smaller code beneath. Text: `349?`. First proof paragraphs 2–5; full payoff 23–29. Must not imply every 349 cap was valid.
 

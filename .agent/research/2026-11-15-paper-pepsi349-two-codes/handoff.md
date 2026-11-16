@@ -1,10 +1,11 @@
-EDITORIAL_CANDIDATE_UNREGISTERED — not a registered ytv run.
+EDITORIAL_CANDIDATE_UNREGISTERED — not an official run, script gate or owner approval.
 
-# Local handoff — Pepsi 349, narrative revision
+# Pepsi 349 — local selection and runtime handoff
 
-- Channel: `paper_detour`, English Long 16:9. **Current 781 EN words / 29 EN+RU paired paragraphs**; previous 25-block / 423-word script and old author reviews are stale.
-- Current exact narration: [script.en.txt](script.en.txt); owner reading: [script.ru.txt](script.ru.txt). Full re-evaluation, change reasons, legal evidence and story map in [story-review.md](story-review.md); public video research in [research.md](research.md).
-- **Do not use the old `storyboard.md`**: it contains 25 legacy narration segments no longer mapping to the current scripts, and would cause false scene/voice alignment. Rebuild only after independent text approval and real TTS.
-- First documentary Long questions are mandatory before immersion and main hook (the direct owner instruction, captured in editorial docs Draft #117 pending merge). This revision complies at text level; timestamp placement UNVERIFIED.
-- Actual local runtime and independent `sessions.independent` are not available here. In authorized checkout, check for a previous run before `uv run ytv start --channel paper_detour --format long --intent 'Review Pepsi Number Fever 349 English+Russian revised editorial candidate'`; read true pinned requirements and obtain a *new* independent blind EN/RU review with exact current hash. Do not fabricate review or `awaiting_script_approval`.
-- Never merge, generate TTS/images/MP4, upload, publish or modify channel/skills based on this Draft; no user approval on exact script yet.
+Original PR baseline commit `683b0f7a5bbae99ea6fdb0f21481e91adc44d9cf`, preserved original root masters `script.en.txt` and `script.ru.txt`. Three fully written bilingual editorial alternatives live under [02m](variants/02m/script.en.txt), [05m](variants/05m/script.en.txt), [10m](variants/10m/script.en.txt); complete owner-facing translations at matching `script.ru.txt`. Hashes, distinct story maps, source boundaries and eight-criterion evaluations are in [story-review.md](story-review.md). **Editorial preference 05m is not user approval.**
+
+- Story/timing: source 05m retains 29 EN/RU blocks; 02m and 10m use their own paragraphs. Historical 25-shot `storyboard.md` is invalid for all. Do not inherit spans, timings, footage, packaging timecodes, reviews or approval. Rebuild only from the exact chosen script after real review/approval.
+- Channel: `paper_detour`, EN narration with full semantic RU companion; all proposed variants **Long 16:9**, including the 02m brief edition, because no tested Shorts loop is claimed. The current `channel.json` supports Long and demands a 10-second themed end-screen after approval. Word-count estimates are not measured audio durations. Keep actual pinned production requirements and rates.
+- Independent first-listener: **UNVERIFIED**. Actual independent host `sessions.independent` and live local `ytv` runtime were not available in this run. Reviewer must see exact EN/RU without author scoring, report concrete rough lines and first drop-off, then receive sources and earlier version. No synthetic receipt or run ID.
+- Migration: coordinator reads existing run/status before starting anything; do not replace an existing run's pins with this PR checkout. For newly authorised use, take one exact selected script as `--source-script` through documented workflow, register true source and correct hashes, perform real independent review and request exact owner approval. This Git Draft is not `awaiting_script_approval`.
+- Do not merge, move Draft, generate external/AI media or TTS, or alter scheduled videos, publication or channel policy.
