@@ -12,7 +12,7 @@ EDITORIAL_CANDIDATE_UNREGISTERED — Git-only editorial candidate, NOT a registe
 
 **Editorial recommendation: 5m.** The 2m Short resolves the central mystery and loops back to the first alert. The 5m version earns its extra time through three independent causal failures: contradictory exercise, live/test interface, and the missing retraction path. The 10m version is a *complete* separate narration, not a cut plan; it offers more context and a clearer limits-of-evidence discussion, but takes longer to arrive at some already established outcomes. Choose 2m if maximum narrative density matters more than systemic explanation.
 
-**Estimated timing, not measured:** effective English narration assumed 145–170 words/minute plus ~5–15 seconds of pauses. 2m ≈ 1:52–2:10, 5m ≈ 4:16–5:10, 10m ≈ 9:00–10:42. The configured Lawrence 1.10× speed was not sampled, and a separate 10-second long end screen is not counted as spoken narration. No timing claim constitutes a validated Short/Long output.
+**Estimated timing, not measured:** effective English narration assumed 145–170 words/minute plus ~5–15 seconds of pauses. 2m ≈ 1:52–2:20, 5m ≈ 4:16–5:10, 10m ≈ 9:00–10:42. The configured Lawrence 1.10× speed was not sampled, and a separate 10-second long end screen is not counted as spoken narration. No timing claim constitutes a validated Short/Long output.
 
 - [Research, source ledger, competing topics and YouTube signals](research.md)
 - [Exact versions, SHA-256, eight per-version assessments, risks and comparison](story-review.md)
