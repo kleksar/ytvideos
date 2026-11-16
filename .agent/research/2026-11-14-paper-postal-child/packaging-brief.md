@@ -11,3 +11,8 @@ Paper Detour, English narrative Short. These are title concepts, not approved Yo
 **Proposed thumbnail illustration (future AI image, not generated):** one dominant child in period coat, believable large postage stamps on sleeve, railway mail car behind; nearby mail worker makes safety/mechanism visible. In-story short paper typography concept: `MAILED?`. Avoid bags, cardboard boxes, faces presented as precise photographs of actual people or fake period documents.
 
 **Early proof / payoff:** S001 enters train, S002 stamps, S005 weight-rule explanation. Distinct full payoffs: S007 delivered to grandparents, S011 federal ban, S012–S014 ban didn't immediately end practice, S015 photos staged. S016 transitions from real accompanied railway delivery to first train scene. New AI art, image QA, exact crop, studio rendering, measured audio, retention and metadata all **UNVERIFIED**. Titles cannot guarantee views.
+
+
+## Variant-specific note 2026-11-16
+
+All existing S001–S016 and portrait thumbnail suggestions apply to the **unchanged original 02m Short only**. Recommended **05m Long** uses the same truth condition (stamped coat, accompanied travel, staged mailbag photograph) but requires a new 16:9 visual plan and Long-compatible first-frame question promise; it does not inherit old scene spans. Proposed Long title concept: *The Child Sent as Mail — Even After It Was Banned*. Its question promise: who delivered May, and what happened after a rule prohibited human mail? No image or production approval. 10m variant is more case-heavy and needs its own distinct plan if chosen.

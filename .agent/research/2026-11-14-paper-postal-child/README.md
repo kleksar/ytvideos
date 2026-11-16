@@ -1,12 +1,19 @@
-EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официальному ytv script gate.
+EDITORIAL_CANDIDATE_UNREGISTERED — this Git-only package is not the official ytv script gate.
 
-# Paper Detour — the girl mailed by train, 1914
+# Paper Detour — May Pierstorff, child transported as mail (1913–1915)
 
-May Pierstorff was five and travelled from her Idaho town to her grandparents with 53 cents' worth of stamps on her coat. She was accompanied by a relative employed in railway mail service, not placed in a mailbag. The story follows earlier child deliveries, an official prohibition and the cases that still followed it.
+Five-year-old May travelled to her grandparents on a mail train with 53 cents in stamps on her coat, accompanied by a railway postal relative. Other documented child deliveries before and after a 1914 prohibition expose how a new rule could fail to stop local practice. Famous mailbag photographs were staged.
 
-**Full EN TTS/SRT master (candidate):** [script.en.txt](script.en.txt)  
-**Полный русский перевод:** [script.ru.txt](script.ru.txt)
+| Версия | Полный EN | Полный RU | Words EN | Формат | Статус |
+|---|---|---|---:|---|---|
+| 02m | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | 269 | short | сохранён исходник, loop не подтверждён |
+| 05m | [EN](variants/05m/script.en.txt) | [RU](variants/05m/script.ru.txt) | 556 | long | рекомендуемый редакционный кандидат |
+| 10m | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | 1354 | long | законченный, но менее динамичный |
 
-[Research and 10-event selection](research.md) · [Interest/facts/speech/loop author review](story-review.md) · [Verbatim bilingual S001–S016 preliminary storyboard](storyboard.json) · [Truthful packaging brief](packaging-brief.md) · [Runtime and independent-review handoff](handoff.md)
+**Editor recommendation: 05m Long**, subject to independent reader and exact owner approval. It follows the escorted railway journey through policy change, later violations and a dated photo correction. The 02m original has a thematic, non-seamless Short ending; 10m adds documented cases but the chronology can lose momentum. `short` and `long` are both supported by current paper_detour ChannelSpec; 5/10m are not Shorts. Duration labels are estimates, not measured TTS.
 
-Only editorial text. No registered production run, independent acceptance, images, true timings, real reference media, audio or MP4; script gate UNVERIFIED.
+**Baseline and preservation:** original [EN](script.en.txt), [RU](script.ru.txt) and [16-scene storyboard](storyboard.json) are unchanged. Storyboard applies **only** to the original/identical 02m scripts, not 05m and 10m. The story-review has exact SHA-256 and per-version evaluations. No changes to run pins, production profiles, infrastructure or channel status.
+
+[One common research ledger](research.md) · [Story maps, eight criteria and limits](story-review.md) · [Packaging](packaging-brief.md) · [Handoff](handoff.md)
+
+Independent first-listener receipt, actual audio/AV loop, timing, script acceptance, production and audience evidence: **UNVERIFIED**.
