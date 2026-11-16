@@ -19,6 +19,22 @@ class ConfiguredRecipeTests(unittest.TestCase):
         profile = load_profile(root / "channels", "scenes_on_repeat")
         self.assertEqual(profile["voice"], {"provider": "elevenlabs", "id": "K60rGfHNsqGiO3nscQV3", "speed": 1.1})
 
+    def test_future_you_but_weird_export_rule_is_pinned_without_changing_legacy_recipes(self):
+        from ytvideos.profiles import load_profile
+        root = Path(__file__).resolve().parents[1]
+        profile = load_profile(root / "channels", "scenes_on_repeat")
+        snapshot = snapshot_references(root, profile, "long")
+        path = "channels/scenes_on_repeat/PROFILE.md"
+        self.assertIn(path, snapshot["routes"]["render"])
+        self.assertIn(path, snapshot["routes"]["review"])
+        text = snapshot["documents"][path]["text"]
+        self.assertIn("**1080p, 30 fps**", text)
+        self.assertIn("1920×1080", text)
+        formats = profile["production"]["formats"]
+        self.assertEqual(formats["long"]["video"], {"canvas": None, "fps": None})
+        self.assertEqual(formats["short"]["variants"]["scene"]["video"]["fps"], "24/1")
+        self.assertEqual(formats["short"]["variants"]["meme_time_machine"]["video"]["fps"], "48/1")
+
     def test_clip_procedure_is_pinned_across_channels_without_thumbnail_leakage(self):
         root = Path(__file__).resolve().parents[1]
         path = ".agents/skills/ytv-produce-video/references/video-clips.md"
