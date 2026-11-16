@@ -9,3 +9,7 @@ EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официал
 **C:** *They Reached Land. But Nobody Knew They Were Alive.* Thumbnail: camp on Elephant Island in two upturned boats and empty ocean. First proof S010–S012; payoff S031–S033. False reading: 'nobody' permanently knew their existence; means outside expedition no knowledge of camp until six reached help.
 
 These are three editorial concepts, not approved titles or AI images. Full 3-concept packaging metadata, independent thumbnail review, rights/reference bytes, real phone-size/crop previews and final release decisions remain NOT RUN.
+
+## Revision applicability (2026-11-16)
+
+Above first-confirmation and S001–S033 scene numbers refer only to the unchanged **original** `script.en.txt` / original 33-scene storyboard. They are NOT timings or coverage of 02m/05m/10m variants. Once an exact variant is chosen and approved, re-align package promise to its literal questions and final payoff; do not claim approved title/thumbnail or image references. General concepts A/B/C remain unapproved editorial hypotheses.

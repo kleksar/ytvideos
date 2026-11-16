@@ -60,3 +60,20 @@ Two explicit cautions: RGS historical interactive contains the count **24** in t
 ## Audience promise / first confirmation / payoff
 
 Opening S001–S003 gives the actual 22/6 predicament. Visual: two upturned boats and six sailing out into the vast empty sea (reconstruction, never archival photo). First evidence of promised history arrives immediately. Finale S032–S033 explicitly gives true Yelcho rescue and scoped all-28 survival. Long textual loop N_A; 10-second separate end-screen not generated.
+
+## Variant revision evidence — 2026-11-16 (PR #97)
+
+**Baseline:** PR HEAD `5eb543f3fd06d82da6be10fece2c28b7e32de0e1`, original EN blob `d77e1696f09f0d7d168265376e88c16a0b46643f` and RU blob `4debce19854b805efef5efc134bd8e653632ae5e`; both preserved. New variants: [02m](variants/02m/script.en.txt), [05m](variants/05m/script.en.txt), [10m](variants/10m/script.en.txt). All new versions address the same *Endurance* survival and Elephant Island rescue; no different episode substituted.
+
+**New longer-version facts reviewed against complete institutional accounts:**
+
+| Explicit detail added in 10m | Exact institutional evidence and boundary |
+|---|---|
+| Two complementary expedition parties, Ross Sea food depots, three losses there | [James Caird Society, The Endurance Expedition](https://jamescairdsociety.com/the-endurance-expedition/), paragraphs on two ships and Ross Sea Party, plus concluding three losses. Endurance's 28 all survived; never generalise to entire expedition. |
+| James Caird left 24 April; six named crew; 16 days, four solar observations; South Georgia sighted 8 May, landed 10 May | [James Caird Society, The Endurance Expedition](https://jamescairdsociety.com/the-endurance-expedition/), sections *The role of James Caird*, *The Crossing of South Georgia*; approximate 800 miles, not a precise GPS track. |
+| South Georgia: several days of recovery, Shackleton/Worsley/Crean crossed 30 miles in 36 hours to Stromness, other three collected | [James Caird Society, The Crossing of South Georgia](https://jamescairdsociety.com/the-endurance-expedition/), explicit five-day recovery, crossing party, dates and route. This is not evidence for invented dialogue or exact undocumented gestures. |
+| Three failed separate vessel approaches: Southern Sky stopped ~70 miles from Elephant Island, June Instituto de Pesca No. 1, July Emma | [South Georgia Heritage Trust, Elephant Island Rescue](https://sght.org/timeline/elephant-island-rescue/), paragraphs beginning with Southern Sky, Stanley request, June voyage and July Emma. These are distinct real rescue attempts, not filler repetitions. |
+| Fourth tug Yelcho, no radio/double hull, Luis Pardo, sailed 25 Aug, found party in fog on 30 Aug; frozen flag → Macklin raised jumper | [South Georgia Heritage Trust, Elephant Island Rescue](https://sght.org/timeline/elephant-island-rescue/), concluding paragraphs. Frozen flag is reported in historical reconstruction, not authenticated frame footage. |
+| Abandoned ship Oct 1915, sank Nov 21; launched boats Apr 9, Elephant Island Apr 15 | [Royal Geographical Society, Endurance22](https://interactives.rgs.org/endurance-22/), dated 1915–16 timeline. Its contradictory “24 on Elephant Island” near a South Georgia entry is rejected by 6+22 and independent source. |
+
+**Claim boundaries:** The 02m and 05m versions restrict themselves to previously established facts. The 10m expands chiefly rescue procedures and the small boat's navigation; it contains no verified private thoughts, invented spoken lines or quotes. The descriptions of uncertainty use conditional wording and observable restrictions. The illustrative scenes are NOT archival frames. No script includes bibliography in spoken narration. YouTube public indexed view counts above remain historical third-party snapshots, not demand/revenue/retention measurements; **new live demand evidence UNVERIFIED**. A full 10m is editorially possible without unrelated biography or a new fictional incident, but may still lose audience attention after the main payoff.
