@@ -1,3 +1,5 @@
+> **Binding 2026-11-16:** эта предварительная 14-сценовая раскадровка относится ТОЛЬКО к неизменённым исходным `script.en.txt` SHA-256 `f9bc0cdbb5f2a74314fd6d7aaf3cebf6f12e20218a34295a1c6915d1dc1732b8` и `script.ru.txt` SHA-256 `e62c60567d332c3f2a2b6af0d15138933daa00769025e818e1fbad26cb625a5a`, одновременно `variants/02m/*`. Для 05m и 10m раскадровок здесь нет. Сегменты S001–S014, visual intent и диапазон 4–6s не являются проверкой текстов/таймингов других версий; при выборе Long потребуется новая сцена-за-сценой привязка к exact hash. AV seam оригинала UNVERIFIED.
+
 # Provisional S001–S014 storyboard
 
 14 paragraph pairs exactly map to EN/RU master, unmeasured planning: 4–6 seconds per composition, **NOT** actual TTS times. Nuviko photorealistic period scenes, no presenter needed or portrayed; actual approved 2D presenter reference bytes not present. Ship must remain the same side-wheel 1860 transport Planter; no fake archive claims. Camera whole-frame only; direct cuts; S014 plans viewpoint linkage to S001, not measured AV loop.
