@@ -123,12 +123,16 @@ def _build(service, tx, run, source_root, expected_version):
     _quiescent(run, operations, slots)
     for artifact in run["artifacts"].values():
         service.artifacts.resolve(artifact)
-    if not valid_approval(run, "script"):
-        raise WorkflowError("runtime migration requires the existing exact accepted script")
-    approval = run["approvals"]["script"]
-    script = run["artifacts"].get(approval["artifact_id"])
-    if not script or approval.get("sha256") != script["sha256"]:
-        raise Conflict("accepted script approval does not match its exact artifact")
+    approval = run["approvals"].get("script")
+    script = None
+    if approval is not None:
+        if not valid_approval(run, "script"):
+            raise WorkflowError("runtime migration requires the existing exact accepted script")
+        script = run["artifacts"].get(approval["artifact_id"])
+        if not script or approval.get("sha256") != script["sha256"]:
+            raise Conflict("accepted script approval does not match its exact artifact")
+    elif run["tasks"]["script"].get("status") != "pending" or run["tasks"]["script"].get("outputs"):
+        raise WorkflowError("unapproved runtime migration requires a pending script without outputs")
     supplied = run["artifacts"].get(run.get("source_script_id"))
     if (supplied["sha256"] if supplied else None) != run["pins"].get("source_script"):
         raise Conflict("source script differs from its saved pin")
@@ -147,7 +151,8 @@ def _build(service, tx, run, source_root, expected_version):
             "target": {"root": str(service.project), "pins": target_pins,
                        "reference_routes": references["routes"]},
             "preserved": {"profile_sha256": run["pins"]["profile"],
-                          "script_artifact_id": script["id"], "script_sha256": script["sha256"],
+                          "script_artifact_id": script["id"] if script else None,
+                          "script_sha256": script["sha256"] if script else None,
                           "artifact_count": len(run["artifacts"]), "operation_count": len(operations),
                           "channel_documents": {path: doc["sha256"] for path, doc in old_documents.items()
                                                 if path.startswith("channels/")}},

@@ -228,7 +228,7 @@ def main():
     parser.add_argument("--author", help="Actual script author worker ID; required for --check-response")
     args = parser.parse_args()
     seam = json.loads(args.seam.read_text(encoding="utf-8")) if args.seam else {}
-    if not isinstance(seam, dict) or set(seam) not in ({}, {"opening", "ending"}):
+    if not isinstance(seam, dict) or (args.seam is not None and set(seam) != {"opening", "ending"}):
         raise WorkflowError("seam input must contain only exact opening and ending")
     text, sha256 = args.script.read_bytes().decode("utf-8"), file_digest(args.script)
     document = build_review_input(text, sha256, **seam)
