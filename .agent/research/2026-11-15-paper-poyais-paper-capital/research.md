@@ -32,3 +32,51 @@ Public numbers below come from dated indexed snippets, NOT exact today's live Yo
 6. Source limitations: no archive original letters, legal trial transcript, claimant's direct emotional testimony, image rights or full scan license obtained. Neither thumbnail nor scene prompt may invent historical quote/face. Media reference catalog paths not bytes.
 
 Promise→early proof: S001–S004 empty shore vs bought maps; first answer follows without unrelated biography. Full payoff S031–S039 court acquittal and real coast/missing capital. Why time worth spending rather than just odd fact: real money and migration, deaths, survivor paradox, legal failure. Author narrative pass then voice edit completed in one full draft; independent listener still UNVERIFIED. Hard limitations and exact hashes in story-review and handoff.
+
+
+---
+
+## Дополнительная документальная проверка трёх длительностей — 2026-11-16
+
+Baseline `1e4fe7d9435c8693d53d88e49e6570ed15a77797`. Expanded versions keep the same chosen story, not three unrelated topics. New specifics:
+- **1820 grant vs independent state:** Damian Clavel (Cambridge) documents a concession by George Frederic Augustus, contested claims and later repudiation; no narration claim that coast was uninhabited or land entirely fictional. https://www.cambridge.org/core/journals/enterprise-and-society/article/whats-in-a-fraud-the-many-worlds-of-gregor-macgregor-18171824/18C69E0C9D7E0878A96E17E2B0B9E12F
+- **Financial market and £200,000 1822 offering:** 1822 Poyais securities sold amid emerging Latin-American government debt markets; face value is an OFFERING, not documented personal profit or all proceeds received. Clavel above plus actual 1823 bond artifact https://crouchrarebooks.com/browse/poyais-bond-certificate/ ; financial specifics used only for 10m.
+- **Ships:** Honduras Packet left London Sep 1822 and reached coast Nov; Kennersley Castle reached in early 1823; later Skene redirected to Belize on finding abandoned site. Distinguish first TWO ships' roughly 250 settlers and >=180 dead from later ship passengers. Ship history and contemporary registrations: https://en.wikipedia.org/wiki/Honduras_Packet_%281800_ship%29 and https://en.wikipedia.org/wiki/Skene_%281816_ship%29 ; for peer-reviewed context, Clavel above. Ship-by-ship departure counts are reported inconsistently; avoid exact passenger counts for single voyages in narration.
+- **Early May evacuation, public reports, cancellation and bond losses:** Clavel documents evacuation by ship from British Honduras, 1823 press reports, Miskito ruler's published grant revocation and falls in securities prices. 10m separates these actions; does not imply the court settled Indigenous sovereignty.
+- **Human losses and outcome:** British historical overview gives estimates roughly 250 emigrants, >=180 dead, 1825 arrest/1826 acquittal, later pension. https://www.history.co.uk/articles/gregor-macgregors-poyais-scam-how-a-scottish-soldier-faked-an-entire-country
+- **Survivor defence and court:** public statements attributed to some survivors, motives unknown; French acquittal is not a ruling that every claim was true. Prior source ledger includes https://en.wikipedia.org/wiki/Gregor_MacGregor#Poyais_scheme_in_France ; original trial transcript not inspected. Historical dispute over MacGregor's private intentions stays UNVERIFIED, never psychologize.
+
+### Expansion/omission audit and changed expectations
+| Version | Newly emphasized supported causality | Removed/limited for pacing | Exact weakness |
+|---|---|---|---|
+| 02m | Land concession vs absent city; deaths even AFTER rescue; resumed investment offers | Currency/bond market and later ship only mentioned briefly or omitted | Rapid leap from illness to French trial |
+| 05m | Separate colonial concession from sovereignty; third vessel turns away from abandoned camp | Keeps original documentation arc, avoids long bond accounting | Printed-documents middle risks list |
+| 10m | Latin-American loan demand → £200k offering → investment vs migration; two arrivals; rescue; third vessel; press, revoked grant and falling securities → France and no conviction | Does NOT claim unsupported price of each certificate, precise total money made, feelings, dialogue or survivors' motivations | Too much market and grant detail before principal voyage |
+
+All three share one research note; separate English narration does not introduce an invented character or unverified quote. Sources are research-only, not read aloud. Actual manuscript/letters, trial proceedings, family testimony, archival reproduction rights, third-party YouTube comment sampling, exact TTS duration and videos remain UNVERIFIED. Historic maps found online may be reconstructed or rights-restricted; do not use them as verified originals without provenance.
+
+### 02m: одна цена ошибки
+1. Вступительные вопросы: куда исчез город; почему продавец продолжил → подтверждено отсутствием столицы и итогом суда.
+2. Макгрегор показывает документы, используя **реальное** пожалование мискито → покупатели верят.
+3. Паспорта истории: карты/облигации/валюта → люди отправляются через океан.
+4. На берегу нет заявленной инфраструктуры → болезни/голод/эвакуация → >=180 смертей.
+5. Выжившие/французский процесс → оправдание и новые предложения; концовка противопоставляет реальную землю несбывшемуся государству.
+
+### 05m: усиление исходной человеческой линии
+1. Три вопроса ДО погружения: город, способ убеждения, позднейшие продажи.
+2. Биография и титул + **подлинное пожалование** → почему покупатели могли принять всё за правду.
+3. Документы, guide, валюта, облигации → реальные семьи на двух кораблях.
+4. Основной hook: пассажиры ищут обещанный город и никого не находят → лагерь.
+5. Болезни, вывоз в Белиз и смерти даже после спасения; третий корабль уходит от пустого лагеря.
+6. Публичная защита Макгрегора некоторыми выжившими → арест/оправдание → новые продажи и пенсия; возвращение к реальной земле и ненастоящей инфраструктуре.
+
+### 10m: три причинно связанные линии
+1. Вопросы: как продают государство; почему суда продолжают идти; почему нет приговора.
+2. Финансовый рынок новых государств → аудитория для займа; военная репутация Макгрегора.
+3. Реальная концессия мискито НЕ равна суверенному государству → печатные guide, карты, ценные бумаги с обещанием дохода.
+4. Два типа покупателей: финансовые инвесторы и семьи, собравшиеся переехать → два параллельных риска.
+5. Первый корабль/поиск города → лагерь; второй прибывает → условия ухудшаются.
+6. Эвакуация в Белиз → продолжающиеся смерти; третий корабль видит брошенный лагерь и уходит в Белиз.
+7. Газеты/отмена концессии/падение стоимости ценных бумаг → публичное разоблачение.
+8. Некоторые выжившие защищают Макгрегора → процесс во Франции и оправдание, возобновление рекламы.
+9. Последствия для семей, различие реальной территории и обещанного действующего государства → полный payoff без приписывания мотивов.
