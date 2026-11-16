@@ -17,7 +17,7 @@ CLI и точные outputs/receipts: [task contract](../../../docs/operations/t
 
 | Task | Нужные требования | Выход |
 |---|---|---|
-| storyboard | [visual](../../../docs/standards/visual.md) + художественный профиль | Сценовые IDs, постановка, камера, [листы и привязка видов](../../../docs/standards/visual.md#листы-персонажей-предметов-и-локаций) |
+| storyboard | [visual](../../../docs/standards/visual.md) + художественный профиль | Порядок сцен, карта речи, действия, состояния, [листы и привязка видов](../../../docs/standards/visual.md#листы-персонажей-предметов-и-локаций) |
 | scene_image | [visual](../../../docs/standards/visual.md) + exact packet; при `purpose: thumbnail` также [thumbnails](../../../docs/standards/thumbnails.md) и его [QA](../../../docs/standards/thumbnails.md#qa-файла-и-пары) до показа готовой обложки | Реальный image или licensed clip, hashes, provider evidence и review |
 | audio | [audio](../../../docs/standards/audio.md) | Точный полный mix, речь, скорость, права, timing/provenance и проверки |
 | subtitles | [audio](../../../docs/standards/audio.md) + канальная типографика | Применимые word map/группы/SRT или проверенное решение `no_speech` |
@@ -33,6 +33,8 @@ CLI и точные outputs/receipts: [task contract](../../../docs/operations/t
 
 Для Short в storyboard/audio/render прочитать [editorial](../../../docs/standards/editorial.md) и применимый loop plan принятого сценария. Связать последний и первый планы, музыку, применимую речь и субтитры; проверить начало по фактическому звуку. Не добавлять заставку/прощание, скрывать отдачу или менять принятый текст ради стыка. Ошибка смысловой петли возвращает текст на script gate; техническая склейка исправляется без нового обычного gate. Финальная проверка — [delivery](../../../docs/standards/delivery.md).
 
+Для иллюстрированной раскадровки и сцен выполнить [процедуру](references/storyboard.md).
+
 1. Проверить доступные tools и нужные assets. Все создаваемые изображения/обложки делать через AI по [visual](../../../docs/standards/visual.md); дефекты исправлять prompt/AI-edit/регенерацией. Использовать профиль, не менять голос/шрифт/стиль ради доступного default. Для source clips зарегистрировать source/rights через `attach-artifact` и связать pinned `source_clip` по task contract. Недостающий provider блокирует только свои задачи.
 2. Claim задачу, выполнить её штатным adapter/tool и сохранить фактический outcome. Когда рецепт требует narration, TTS генерирует raw 1,0×; конечную канальную скорость применить один раз по audio standard. Не помечать результат PASS без нужного просмотра/прослушивания или измерения.
 3. Независимые изображения и `thumbnail:*` отдавать общему пулу свежих сессий с наблюдёнными `runtime_key/max_sessions`. Packaging выполняется параллельно по `ytv-release-video`; после его завершения создавать thumbnail tasks. Они не блокируют render или передачу MP4 на review. Для обложки читать [thumbnail standard](../../../docs/standards/thumbnails.md) и переданный brief; не переносить правила рекламной карточки на обычные сцены. Licensed clips готовить host tool только по описанному для рецепта способу; `execute-media` не реализует extraction. Если способ extraction не определён, вернуть blocker, не составлять новый pipeline. Принимать результаты по одному и сразу занимать освободившийся slot; число workers определяет [адаптивная очередь](../../../docs/architecture/adaptive-workers.md).
@@ -40,7 +42,7 @@ CLI и точные outputs/receipts: [task contract](../../../docs/operations/t
 5. UNKNOWN после отправки сохранить и reconcile; не повторять запрос из другого чата. Operation observation привязать к exact `attempt_id/task_input_hash`. Stale result не применять к новой revision.
 6. Завершить task через контракт: core проверяет реальные media bytes; authored receipt не заменяет decode. Для render сохранить обязательный [delivery evidence](../../../docs/operations/task-contract.md#render-manifest-и-delivery-evidence), связывающий принятые входы, manifest, фактическую команду текущего claim и exact MP4. Взять `next` и продолжать до MP4, затем передать review exact hash и actual probe. Упаковку готовить параллельно; дополнительное согласование промежуточных картинок/музыки/монтажа не требуется.
 
-Для локального исправления сохранить остальные принятые artifacts/cache. Изменение смысла текста вернуть к script gate; технический ремонт выполнять автономно только предусмотренным способом. Генераторы и existing helpers не получают право обходить guards, обязательные для новой run.
+При локальном исправлении сохранить принятые artifacts/cache. Изменение смысла вернуть к script gate. Для технического ремонта использовать штатный способ. Генераторы и existing helpers не получают право обходить guards, обязательные для новой run.
 
 ## Подготовленный пакет
 
