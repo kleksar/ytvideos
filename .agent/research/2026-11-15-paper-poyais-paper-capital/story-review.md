@@ -27,13 +27,13 @@ Read original endorsed B speech examples exactly: PR #20 `78b375bf0004fdeb45722e
 |---|---|---|---:|---|---|
 | 2m Long | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | 243 | 97–117 сек. + паузы | Самостоятельная краткая версия, акцент на человеческих потерях |
 | **5m Long** | [EN](variants/05m/script.en.txt) | [RU](variants/05m/script.ru.txt) | **671** | 268–322 сек. + паузы | **Рекомендована к first-listener review** |
-| 10m Long | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | 1371 | 548–658 сек. + паузы | Более глубокая финансово-колониальная версия, риск перегруза |
+| 10m Long | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | 1360 | 548–658 сек. + паузы | Более глубокая финансово-колониальная версия, риск перегруза |
 
 | Вариант | EN SHA-256 exact UTF-8 | RU SHA-256 exact UTF-8 | Git blob EN / RU |
 |---|---|---|---|
 | 02m | `ed60c7b84f1960b5e5f36b149136570342339b9b85fee141986b5a3c80e8497d` | `de0997b89cdaf65976ae1f71e4bde3bd171530d60db92f994a8ba394d4a2c9eb` | `fc17053aa93989b4837d903b39872baa1af928e7` / `cdbdc0418df7304de6ba3079f17e5bc8f8ee56e4` |
 | 05m | `d7b03bc852b235dd5aed12eb3a78a3b16e117648b1fe7502cd270de3bf7b82e7` | `b9ea4434dcce1c34adcc21825991ea91295e632cd6f01640251739b73106e6e4` | `aedde251e7367a2f9563529e005d5268770f3db8` / `3debcf45d0292bc7ccda129f86af590f0baea0d5` |
-| 10m | `7bcb5bd4a7761b5965ab6f9735533482a52093ae98dc24a2bf031dbe88ef4daf` | `98daf361266c0f4e0a93fd076a4f88f059ac0d9bc8a8f17b0c18d18e74ebb186` | `d3fd5dd9b3783752b1fe2ad0e1d668b0c24fe076` / `5a7a84b9e30b2c97fb40ecd44283ab64ff659041` |
+| 10m | `070b9d622f4f8f42854323631abec4dc31ff6c3acf96b892468e6994d1f43046` | `37276be679fb570cba2eacfb7f0e23dbaff1c68550f5dba02dac747fcec33a59` | `eb5f65c0436ad9ca008f20a5fd9f858cce3a79ad` / `e9fc690bc78b3b5e5baa96784a6fbaf5cbdd7145` |
 
 **Recommendation: 05m, editor-only, not approval.** In contrast with 02m it retains preparations, survivor contradiction and legal consequences; in contrast with 10m it reaches ships sooner and spends less time on markets and legal nuance. Approximately 671 EN words. Model 125–150 wpm excludes intro pauses/music/end screen; no measured TTS. 02m can still win if listening finds 05m midsection slow.
 
@@ -95,7 +95,7 @@ Read original endorsed B speech examples exactly: PR #20 `78b375bf0004fdeb45722e
 | Критерий | Оценка | Основание в точном тексте | Ограничение/уверенность |
 |---|---:|---|---|
 | 1 Значимость | 9/10 | Переезд семей и >=180 погибших, затем оправдание продавца | Исход подтверждён, редакционное значение low |
-| 2 Начало | 8/10 | Первые вопросы: «Как государство может существовать в юридических документах, но не существовать там, где должны жить его граждане? Почему корабли с переселе…» | Само наличие вопросов не доказывает интерес; low |
+| 2 Начало | 8/10 | Первые вопросы: «Как документы смогли убедить семьи отплыть к городу, которого не существовало? Почему позднее ещё один корабль пришёл к уже покинутому лагер…» | Само наличие вопросов не доказывает интерес; low |
 | 3 Развитие | 8/10 | Дополнительные подтверждённые повороты: выпуск займа, разные покупатели, движение газет и облигаций, третий корабль | Риск потери интереса в объяснении рынка и тонкостях концессии до прибытия кораблей; длинное послесловие после эвакуации. |
 | 4 Payoff | 8/10 | Итог объединяет судьбы переселенцев, обвал финансовых обещаний и отсутствие приговора | Реакция реального зрителя UNVERIFIED |
 | 5 Новизна угла | 7/10 | Земля по реальному пожалованию противопоставлена отсутствующей столице | Похожие обманы есть в очереди, low |
@@ -107,7 +107,7 @@ Read original endorsed B speech examples exactly: PR #20 `78b375bf0004fdeb45722e
 
 
 ### Hard checks / validation boundaries
-- Three distinct **complete** EN/RU narrative pairs; EN word counts 243 / 671 / 1371, no stubs or shortened outlines. RU full translations, bilingual editorial cross-check **author only**; independent bilingual check UNVERIFIED.
+- Three distinct **complete** EN/RU narrative pairs; EN word counts 243 / 671 / 1360, no stubs or shortened outlines. RU full translations, bilingual editorial cross-check **author only**; independent bilingual check UNVERIFIED.
 - Factual basis: 1820 Miskito land concession, no actual functioning advertised state, paper maps/bonds, voyage chronology, >=180 deaths among roughly 250 on first 2 ships, third vessel diverted, rescues and subsequent trial. Expanded 10m claims and conflicting interpretations mapped in research. No invented quotes, emotions, witness thoughts.
 - Format: **all three editorial Long**; `paper_detour` ChannelSpec permits Long illustrated at 2560x1440; 2m intentionally Long, so Short-loop N_A. No AV seam claim.
 - Opening questions precede biographical/documentary immersion for **each** variant; payoff in each: promised capital absent; real territory exists; human losses; MacGregor acquitted and continued the project.
@@ -115,3 +115,5 @@ Read original endorsed B speech examples exactly: PR #20 `78b375bf0004fdeb45722e
 - Original approved/production source: **none established for #104** from PR body, comments or review threads; fresh registered run, first-listener response, `ytv-script-review-v1`, actual TTS/MP4, viewer retention, copyright checks all UNVERIFIED. Git candidates remain `EDITORIAL_CANDIDATE_UNREGISTERED`.
 - No script approval, independent review receipt, run ID or production authority inferred. Same-area candidates #100/#102 are different scams, not automatic duplicates. No deletion.
 - Editorial progress: **не переработан → шесть текстов подготовлены → авторская факт/структура проверка → 05m рекомендована к независимому чтению**. Independent check/production not completed.
+
+**Точная корректировка 10m opening (2026-11-16):** на исходном редакционном коммите 75c7b7b5a0bee43e27974ecc8e90622a0d9df822 вопрос «how could he escape conviction» обещал неподтверждённый механизм судебного оправдания. Он заменён на проверяемый вопрос о результате суда и продолжении продаж; вопрос о судах уточнён до фактически подтверждённого прибытия к брошенному лагерю. EN/RU скорректированы синхронно, source hashes и reviewer evidence не перенесены. Это авторская корректировка hard promise/payoff, не independent review.
