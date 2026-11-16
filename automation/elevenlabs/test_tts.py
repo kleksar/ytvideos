@@ -281,9 +281,10 @@ class FixedAccountTests(unittest.TestCase):
         self.voice = {'voice_id': self.voice_id, 'fine_tuning': {'state': {self.model: 'fine_tuned'}},
                       'sharing': {'rate': 1.0, 'financial_rewards_enabled': False}}
         self.models = [{'model_id': self.model, 'can_do_text_to_speech': True,
+                        'requires_alpha_access': False,
                         'maximum_text_length_per_request': 40000,
                         'model_rates': {'character_cost_multiplier': 0.5, 'cost_discount_multiplier': 1.0}}]
-        self.subscription = {'status': 'active', 'max_credit_limit_extension': 0,
+        self.subscription = {'status': 'active', 'tier': 'creator', 'max_credit_limit_extension': 0,
                              'character_limit': 10000, 'character_count': 1000}
 
     def responses(self, voice=None, models=None, subscription=None):
@@ -294,7 +295,7 @@ class FixedAccountTests(unittest.TestCase):
         with patch('tts.urllib.request.urlopen', side_effect=self.responses()) as request:
             self.assertEqual(tts.fixed_account_preflight('key', self.voice_id, self.model, 5644, 6000), 2822)
             self.assertEqual([c.args[0].get_method() for c in request.call_args_list], ['GET'] * 3)
-        for changed in ({'character_limit': 1001}, {'max_credit_limit_extension': 1}, {'status': 'free'}):
+        for changed in ({'character_limit': 1001}, {'max_credit_limit_extension': 1}, {'tier': 'free'}):
             subscription = {**self.subscription, **changed}
             with self.subTest(changed=changed), patch('tts.urllib.request.urlopen',
                                                      side_effect=self.responses(subscription=subscription)):

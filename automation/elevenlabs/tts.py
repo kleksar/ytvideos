@@ -328,9 +328,12 @@ def fixed_account_preflight(key, voice_id, model, text_length, max_credits):
         available = subscription["character_limit"] - subscription["character_count"]
         if (voice["voice_id"] != voice_id or voice["fine_tuning"]["state"][model] != "fine_tuned"
                 or selected["can_do_text_to_speech"] is not True
+                or selected["requires_alpha_access"] is not False
                 or text_length > selected["maximum_text_length_per_request"]
                 or voice["sharing"].get("financial_rewards_enabled") is not False
-                or subscription["status"] != "active" or subscription["max_credit_limit_extension"] != 0
+                or subscription["status"] != "active" or subscription["tier"] not in
+                {"starter", "creator", "pro", "scale", "business", "enterprise"}
+                or subscription["max_credit_limit_extension"] != 0
                 or estimate <= 0 or estimate > max_credits or available < estimate):
             raise TTSError("голос, тариф или лимит не подтверждены для одной генерации")
     except (StopIteration, KeyError, TypeError, AttributeError, InvalidOperation, ValueError, OverflowError):
