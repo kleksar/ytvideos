@@ -1446,6 +1446,11 @@ class Production:
         if type(payload) is not dict or canonical(payload) != canonical(expected):
             raise WorkflowError("provider payload differs from the pinned task or bound release specification")
         payload = expected
+        if tts_selection is not None:
+            previous = tx.execute("SELECT doc FROM operations WHERE run_id=?", (run_id,)).fetchall()
+            if any((op := json.loads(row[0])).get("task_id") == task_id and op.get("kind") == "tts"
+                   for row in previous):
+                raise Conflict("single-attempt TTS already has a provider operation; reconcile, never retry")
         associated = self._task_operations(tx, run, task, claim)
         retry_configuration = task["stage"] == "configure_release"
         if any((op["kind"] == action and not (retry_configuration and op["status"] == "not_performed"))

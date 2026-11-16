@@ -89,6 +89,18 @@ class MediaExecutorTests(unittest.TestCase):
         runner.assert_not_called()
         self.assertFalse(any(event["kind"] == "media.dispatch" for event in self.fixture.store.events(self.run_id)))
 
+    def test_single_attempt_rejects_prior_operation_even_from_another_input(self):
+        with self.fixture.store.transaction() as tx:
+            tx.create_operation({"key": "fixture-prior-tts", "run_id": self.run_id, "task_id": "audio",
+                                 "kind": "tts", "input_hash": "prior", "task_input_hash": "old-revision",
+                                 "status": "not_performed"})
+        runner = Mock()
+        request = {"kind": "tts", "model": "eleven_flash_v2_5", "account_slot": 2,
+                   "account_sha256": "a" * 64}
+        with self.assertRaisesRegex(Conflict, "single-attempt TTS"):
+            MediaExecutor(self.service, runner=runner).execute(self.run_id, "audio", self.claim["token"], request)
+        runner.assert_not_called()
+
 
 if __name__ == "__main__":
     unittest.main()
