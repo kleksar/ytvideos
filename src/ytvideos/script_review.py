@@ -25,7 +25,7 @@ RECORD_FIELDS = ("path", "sha256")
 FIRST_LISTENER_FIELDS = ("understood", "attention", "quotes")
 FINDING_FIELDS = ("severity", "quote", "finding")
 SEVERITIES = ("blocking", "non_blocking")
-READING_INSTRUCTIONS = (
+LEGACY_READING_INSTRUCTIONS = (
     "Work as an independent first reader, without an author's verdict or explanation. "
     "For a typed edit-plan, assess the intended image/sound sequence and audience understanding; "
     "do not invent a narrator, spoken words or a narrator loop. "
@@ -53,6 +53,16 @@ READING_INSTRUCTIONS = (
     "You may compute the input hash from its bytes; it is not script_sha256. Do not invent missing "
     "identities or hashes: request the missing host metadata. Omit source.response_id unless actually "
     "observed. Do not let the author fill missing observations or reinterpret a non-passing answer."
+)
+
+# Preserve previously issued exact packets while new readers receive the current policy.
+READING_INSTRUCTIONS = LEGACY_READING_INSTRUCTIONS + (
+    " Review as entertainment: preserve the story's force, pace and clarity. "
+    "Block material distortions, invented facts or quotes, and real risks; identify the "
+    "specific harm and a concise correction within the authorized scope. Minor imprecision, "
+    "unproven perfection and matters of taste alone are non-blocking. Do not demand "
+    "academic caveats or expanded narration. Do not invent evidence, a pass, or guarantees "
+    "of retention or profit; unperformed required checks remain unverified."
 )
 
 
@@ -186,7 +196,8 @@ def validate_response(observed, *, script_text, script_sha256, worker, narrative
     reading = _read_object(document["input"], "independent review input")
     expected = build_review_input(script_text, script_sha256,
                                   opening=loop["opening"] if loop else None, ending=loop["ending"] if loop else None)
-    if reading != expected:
+    legacy_expected = {**expected, "instructions": LEGACY_READING_INSTRUCTIONS}
+    if reading != expected and reading != legacy_expected:
         raise WorkflowError("independent review input must contain the exact script and literal two-cycle reading when required")
     return {"document": document, "evidence": evidence, "input": document["input"]}
 
@@ -228,7 +239,9 @@ def main():
         observed = {"artifact_sha256": sha256, "reviewer": response.get("reviewer"), "evidence": evidence}
         result = validate_response(observed, script_text=text, script_sha256=sha256,
                                    worker=args.author, narrative_loop_required=bool(seam))
-        if _read_object(result["input"], "independent review input") != document:
+        supplied = _read_object(result["input"], "independent review input")
+        legacy_document = {**document, "instructions": LEGACY_READING_INSTRUCTIONS}
+        if supplied != document and supplied != legacy_document:
             raise WorkflowError("independent review input differs from the requested script/seam")
         consistent = True
         try:
