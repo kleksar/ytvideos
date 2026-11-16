@@ -1,6 +1,6 @@
 # Packaging brief — recommended 05m, editorial only
 
-**EN exact SHA-256:** `add21aa3dddf7f1b82039c90bfb40140cb174d80ee290e6a3bbf2f4401a3e1e3`. **RU exact SHA-256:** `751b9cc71d7f378d6f97f4350f206f40c0adf8f63b9c395afaba95ad601896e4`. Status: **STRONG_CANDIDATE / UNREGISTERED / owner not yet selected**.
+**EN exact SHA-256:** `b2c2ba741d0c076c4a3b134cbe3671391e5eca99fa95df932f0a78cfe8c2b1c1`. **RU exact SHA-256:** `2a9cf7285e4e89028d2e2153f7a878bc071afe7c96a39245e823b478a868f8c1`. Status: **STRONG_CANDIDATE / UNREGISTERED / owner not yet selected**.
 
 **Audience promise:** The surprising syrup wave is only the beginning. The real question is how it could race down a street, become a rescue trap, and why a tank that leaked for years stayed in service.
 

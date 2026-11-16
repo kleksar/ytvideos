@@ -2,15 +2,15 @@
 
 **Reviewer identity:** author of this Git-only editorial draft, 2026-11-16, **not an independent reviewer**. Method: read all six actual narration files as text, compare events to B1–B5 [research](research.md), inspect EN/RU meaning, identify payoff and likely attention drop, check literal Short seam manually. **Confidence** of editorial narrative scores: medium; of audience measurements: UNVERIFIED. No TTS, listener playback, CTR, retention, MP4 or approved production.
 
-## Exact manuscript bindings (text read back from first remote commit `3d096863c1d2ec2ccbfbc3dbd1b2aeadcb85fcd7`)
+## Exact manuscript bindings (text read back after manuscript revision `15ed94d68406b11c04f88cf7b20f4e54f35e916f`)
 
 | Variant / file links | EN SHA-256 | RU SHA-256 | EN/RU words | Estimated spoken narration / format |
 |---|---|---|---:|---|
 | [02m EN](variants/02m/script.en.txt) / [RU](variants/02m/script.ru.txt) | `83dcc55098219d1440268f51b34d1a8e4235e087ae9fa3614cb29193ffd93dd7` | `c4b41cc55246674f55c730677f80095dce5af50459739f90d6b6b3864524cee9` | 287 / 233 | 1:46–2:11, Short 9:16 |
-| [05m EN](variants/05m/script.en.txt) / [RU](variants/05m/script.ru.txt) | `add21aa3dddf7f1b82039c90bfb40140cb174d80ee290e6a3bbf2f4401a3e1e3` | `751b9cc71d7f378d6f97f4350f206f40c0adf8f63b9c395afaba95ad601896e4` | 677 / 542 | ~4:04–4:52, Long 16:9 |
+| [05m EN](variants/05m/script.en.txt) / [RU](variants/05m/script.ru.txt) | `b2c2ba741d0c076c4a3b134cbe3671391e5eca99fa95df932f0a78cfe8c2b1c1` | `2a9cf7285e4e89028d2e2153f7a878bc071afe7c96a39245e823b478a868f8c1` | 731 / 591 | ~4:23–5:15, Long 16:9 |
 | [10m EN](variants/10m/script.en.txt) / [RU](variants/10m/script.ru.txt) | `d1180315f7198d7232d5c39d7fcf6ea6ed75681a86c916f36ff489aa51c00e9d` | `788dcc500ef195f264fa30e975d044b8b9d874e78f993ca347857ec28374cb13` | 1571 / 1251 | ~9:19–11:02, Long 16:9 |
 
-Estimated ranges assume 145–170 English words/minute **plus** 5–12s for pauses in 02m and modest pauses in Long; Lawrence actual 1.10× speed is channel setting, not adjusted or measured. 05m may need pauses to fill nominal 5m, **do not pad narration**. A real voice file and exact end screen are required to measure. Short 02m **may exceed 180s?** No; actual 2m still requires validated YouTube Short eligibility and voice timing. Long has 10s separately after conclusion, not included in narration estimate.
+Estimated ranges assume 145–170 English words/minute **plus** 5–12s for pauses in 02m and modest pauses in Long; Lawrence actual 1.10× speed is channel setting, not adjusted or measured. 05m may need pauses to fill nominal 5m, **do not pad narration**. A real voice file and exact end screen are required to measure. Short 02m requires validated YouTube Short eligibility and voice timing. Long has 10s separately after conclusion, not included in narration estimate.
 
 ## Story maps, exact editions
 
@@ -24,7 +24,7 @@ Estimated ranges assume 145–170 English words/minute **plus** 5–12s for paus
 
 | Criterion | Author score / precise support |
 |---|---|
-| Interest / significance | **8** — 21 deaths after an apparently slow liquid reaches a populated street; not merely novelty |
+| Interest / significance | **8** — 21 deaths including named children and a firefighter after an apparently slow liquid reaches a populated street |
 | Opening | **9** — “faster than people could run” is immediately graspable without historical term |
 | Development / continued watch | **8** — after impact, temperature slows rescue, then earlier leaks change responsibility; compressed end half |
 | Payoff | **8** — 1925 finding of negligence connects to painted leaks and life lost, before loop |
@@ -69,11 +69,11 @@ Estimated ranges assume 145–170 English words/minute **plus** 5–12s for paus
 
 | Transition | Exact added value | Cost and honest verdict |
 |---|---|---|
-| 02m → **05m** | Full origin of tank and warnings, extra obstacle when wave becomes sticky, cleanup, contested sabotage explanation, multi-year legal resolution. All contribute to the same viewer question. | Slightly slower start and explanation density; **worth additional time** if independent listener agrees |
+| 02m → **05m** | Full origin of tank and warnings, named victims, extra obstacle when wave becomes sticky, cleanup, contested sabotage explanation, multi-year legal resolution. All contribute to the same viewer question. | Slightly slower start and explanation density; **worth additional time** if independent listener agrees |
 | 05m → 10m | Industrial alcohol supply chain; careful wave reconstruction; named children, local immigrant neighborhood, competing hypotheses and limited effect on future regulation | Some repetition of why leaks mattered and reduced action after negligence finding. **Not sufficient upgrade without review and more primary records** |
 
-**Recommendation: 05m** for exact EN hash `add21aa3dddf7f1b82039c90bfb40140cb174d80ee290e6a3bbf2f4401a3e1e3`, RU hash `751b9cc71d7f378d6f97f4350f206f40c0adf8f63b9c395afaba95ad601896e4`. 02m remains a valid shorter editorial option. Recommendation is not owner approval; if cold reviewer prefers 02m, preserve that evidence and compare, do not silently switch.
+**Recommendation: 05m** for exact EN hash `b2c2ba741d0c076c4a3b134cbe3671391e5eca99fa95df932f0a78cfe8c2b1c1`, RU hash `2a9cf7285e4e89028d2e2153f7a878bc071afe7c96a39245e823b478a868f8c1`. 02m remains a valid shorter editorial option. Recommendation is not owner approval; if cold reviewer prefers 02m, preserve that evidence and compare, do not silently switch.
 
 **Separate checks:** six complete text files **PASS** (remote read back); factual anchors B1/B2/B3/B4/B5 **PASS as bounded documentary summary**, with ambiguity about train fate intentionally avoided and science labeled reconstruction; English/Russian meaning **PASS author-only**, independent translation **UNVERIFIED**; ChannelSpec Paper **PASS for declared short/long formats**; Short loop **PASS author-text / UNVERIFIED independent/AV**, Long loop **N_A**; rights/actual style references **UNVERIFIED**; first-listener **UNVERIFIED**; audience demand **UNVERIFIED**; `ytv start`, `task_guide`, `reference_documents`, `ytv-script-review-v1`, owner script gate and approval **NOT_RUN**.
 
-**Authorship/revision:** initial completed text per variant, author revisited the six textual scripts and the claims against cited sources; no independent review, no TTS recording, no claimed audience tests. No two completed independent revision cycles. If a script is modified, SHA-256, bilingual comparison, loop/review and brief bindings must be recalculated.
+**Authorship/revision:** completed versions were reviewed by the author against B1–B5; one substantive 05m author revision restored documented children Maria DiStasio/Pasquale Iantosca and firefighter George Layhe (source B1) to give the middle human consequence rather than only numbers; new EN/RU hashes above replace the prior 05m pair. No independent review, no TTS recording, no claimed audience tests. No two completed independent revision cycles. If a script is modified, SHA-256, bilingual comparison, loop/review and brief bindings must be recalculated.
