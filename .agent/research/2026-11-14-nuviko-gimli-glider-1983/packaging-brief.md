@@ -1,3 +1,15 @@
+# Version-specific promise / available existing packaging
+
+| Variant | First promise | Payoff / actual status |
+|---|---|---|
+| 02m Short (unchanged original) | Boeing without thrust approaching drag strip | All 69 rescued and stopping before campsite; existing provisional S001–S018 and 3 title alternatives below scoped **only** to this original Short |
+| 05m Long (recommended) | Why two checks matched but were wrong; how a glide could reach partly repurposed runway | Units error, left/right engines, abandoned Winnipeg, sideslip/nose gear → all survive; requires independent selected-version thumbnail/storyboard |
+| 10m Long | Why did the safety/dispatch chain fail before takeoff? | Maintenance/operational chain and 69 survivors; longer technical aftermath; editorial REWORK; packaging for 02m cannot be copied blindly |
+
+No photo/TTS/audio/media proof, real audience signals UNVERIFIED. #137 is same underlying story: no implicit second episode.
+
+## Original Short packaging
+
 # Packaging brief — three honest alternatives
 
 **EN titles:** (1) **A Passenger Jet Landed on a Drag-Racing Airfield**; (2) **Both Engines Stopped. Then the Nose Gear Collapsed.**; (3) **The Airliner That Glided Toward a Drag Strip**.

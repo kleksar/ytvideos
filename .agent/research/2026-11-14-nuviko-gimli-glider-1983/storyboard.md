@@ -1,3 +1,7 @@
+# SCOPED TO ORIGINAL 02m SHORT ONLY — exact script pins
+
+This retained draft maps paragraphs of **original #86** `script.en.txt` and `script.ru.txt` at baseline `4932f666cd3d850b71e5756083f949ea170333b1`, **byte-identical** to `variants/02m/script.en.txt` (SHA-256 `ed000119a7e67d456cd26f133f78e7405fb3dbd7fa22d39ff0b56f2859db2ed2`) and `variants/02m/script.ru.txt` (SHA-256 `e03e197170f1af5667489263b23bb1fe624dfc59edbbaa9197c60f62ad3a7106`). It is NOT a storyboard for imported 05m/10m from #137; spans, 18-shot count, prompt wording and estimated 4–6s timings cannot be carried to those texts. Narrative loop AV seam UNVERIFIED. Keep this evidence unchanged below; no new production dispatch.
+
 # Provisional storyboard — Nuviko History Gimli Glider (text only)
 
 18 новых композиций S001–S018, цель ~4–6 секунд на одну композицию **только оценка, не тайминг и не measured TTS**. Each exact English/Russian span below is the corresponding entire paragraph of the clean future master; full coverage and ordering checked. New scenes require actual pinned references, historical aircraft/crew visual proof and native approval before image generation. Full-frame photorealistic environment; Nuviko's separate 2D traveller is **not depicted** in these action scenes and must not be fabricated without opening real approved PNG references. No archival-photo claims; no false photo proof. Keep plane identity, collapsed gear only S013 onward, families beyond racing strip. Whole-frame pan/zoom only, direct cuts (not generated now).

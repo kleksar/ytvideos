@@ -1,3 +1,11 @@
+# Three-version rework of existing #86 — editorial handoff
+
+Baseline `4932f666cd3d850b71e5756083f949ea170333b1`; new original Short copies in `variants/02m/` with identical Git blob IDs and SHA-256; existing `script.en.txt`/`script.ru.txt` and storyboard not replaced. Added 05m/10m **exact** sibling #137 `38425d26a3d3c44a45323b593cee9127b6568ef0` blobs, with independent provenance but no independent reviewer receipt. Read [README](README.md), [story-review](story-review.md), shared [research](research.md) before choosing one master. There are **two PRs for the same one story**; no automatic dual run/approval/merge, and #137 remains untouched.
+
+If the owner explicitly accepts a specific full script for production, import that exact repo/PR/commit/path/bytes using actual `ytv start --source-script` and documented coordinator source import; keep existing runtime pins; do not run 3 productions. If new editorial candidate rather than accepted source: actual independent reviewer, exact `ytv-script-review-v1`, script approval gate, then storyboard for the chosen hash. 02m uses Short/loop; 05m/10m use Long. No media/TTS/YouTube dispatch in this editorial PR.
+
+## Original #86 handoff / context
+
 EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официальному ytv script gate.
 
 # Handoff — Gimli Glider
