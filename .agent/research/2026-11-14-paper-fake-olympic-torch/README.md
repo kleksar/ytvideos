@@ -1,16 +1,21 @@
-EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официальному ytv script gate.
+EDITORIAL_CANDIDATE_UNREGISTERED — редакционная очередь, не официальный ytv script gate.
 
-# Paper Detour — Sydney's fake Olympic flame, 1956
+# Paper Detour — 1956 Sydney fake Olympic torch
 
-In 1956, a student in a tie reached Sydney Town Hall carrying an improvised Olympic torch; police escorted him, and Mayor Pat Hills began his official welcome before discovering the trick. The actual runner arrived around ten minutes later.
+A student in a tie delivered a torch made of a chair leg and burning underwear; real police escorted him to the mayor, who welcomed the fake flame before the true runner reached Sydney Town Hall.
 
-**Complete EN TTS/SRT candidate**: [script.en.txt](script.en.txt)  
-**Полный русский перевод**: [script.ru.txt](script.ru.txt)
+| Target | Full English narration | Полная русская версия | Format / status |
+|---|---|---|---|
+| 2 min | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | Short; preserved original, seam independent UNVERIFIED |
+| **5 min** | **[EN](variants/05m/script.en.txt)** | **[RU](variants/05m/script.ru.txt)** | **Long; recommended editorial candidate** |
+| 10 min | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | Long; complete but less dynamic after resolution |
 
-- [research and alternatives](research.md)
-- [fact/interest/speech/loop checks and independent blocker](story-review.md)
-- [preliminary paired EN/RU S001–S014 storyboard with standalone prompts](storyboard.json)
-- [honest title/thumbnail brief](packaging-brief.md)
-- [exact handoff and prohibited actions](handoff.md)
+The **5-minute Long** adds the genuine causal mechanism: failure of the first fake runner, Barry's unplanned substitution, and real police lending legitimacy before the mayor's welcome. At 10 minutes the verified 2000 epilogue follows the main payoff and weakens momentum. The short has an intact original and a potential repeated-arrival seam; no AV PASS without MP4. Estimated targets, not measured durations.
 
-No run/lease, independent review, measured timings, generated images, actual paper-plane reference bytes, real audio, video or YouTube action claimed.
+- [Full shared research, claim ledger, conflicts and demand limits](research.md)
+- [Version-specific maps, eight scores, exact SHA-256, hard checks and decision](story-review.md)
+- [Original English](script.en.txt) · [Original Russian](script.ru.txt): exact byte-matched source for 02m.
+- [Preliminary original Short storyboard, S001–S014](storyboard.json): **only** original and byte-identical 02m text; **not** 05m/10m.
+- [Handoff / blockers](handoff.md) · [Packaging brief](packaging-brief.md).
+
+**Status:** three complete EN/RU variants prepared, author text checked, 05m recommended. Independent first-listener, true TTS duration, approved master, Long storyboard and official run are pending. Git-only; no reviewer output, production assets, provider calls, approvals or uploads.

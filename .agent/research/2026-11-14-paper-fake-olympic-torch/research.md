@@ -53,3 +53,33 @@ Promise: an Olympic official accepted a handmade counterfeit torch before the at
 
 ## Text revision / speech edit
 First outline aimed at a single gag; rejected as too short. Final text deliberately adds three independent developments: original runner loses flame, Barry becomes replacement, police unexpectedly legitimize him, and real runner still arrives. Removed invented panic/internal thought and unverified direct dialogue. Final clean EN/RU scripts follow; detailed visual prompts only after this pass. Two-edit budget honored; no hidden variants claimed as approved.
+## 2026-11-16 queue revision — expanded 2 / 5 / 10-minute texts
+
+This is **the same** 1956 Sydney hoax, not three topics. Baseline PR #81 commit `1669f03d68c5a3e342203116893f456ca1b80a4e`; original EN blob `58a8b726d89142e9b136d54f1d21ec52ad8ba1a4`, RU blob `0ce453fd2f0e9971247a9ec578fa313add4f75d0`. Original 14-scene storyboard applies **only** to original unchanged 02m text. All three versions are editorial candidates, not runtime-registered.
+
+### Sources reread for additional claims (public, not private analytics)
+
+- E01: Barry Larkin interviewed in [The Independent, 2004-08-08](https://www.independent.co.uk/sport/olympics/the-lost-olympians-50500.html), first-person retrospective. Specifically covers objection to pomp/1936 origin, faux outrider in reserve air-force uniform, initial crowd/police laughter, flame-bearing underwear coming out of tin, Peter Gralton's recovery and Barry's improvised substitution, genuine police escort, mayor, college rector, exam failure and no punishment. Larkin **guesses** the fuel was kerosene; expanded scripts use “fuel” / «горючее» and attribute the guess when included.
+- E02: [The Irish Times, 2000-06-10](https://www.irishtimes.com/sport/flame-prank-1.280789), contemporary retrospective of about 30,000 spectators, Pat Hills' welcome and genuine torch still approximately 10 minutes away; cannot treat 30,000 or 10 minutes as measured by this PR.
+- E03: [Harry Blutstein, 2018-01-10](https://harryblutstein.com/2018/01/10/barry-larkin-relived-torch-hoax/), secondary historical narrative: scheduled Harry Dillon handover at Town Hall; early mayoral departure before formal dress complete; Marsden naming, paint still wet; crowd and real arrival. **Conflict:** this telling says a planned runner “got cold feet,” while E01, E04 and the unchanged original describe dropped burning contents first. Expanded scripts explicitly follow Larkin's direct first-person recollection and mention variation in retrospective accounts rather than combine incompatible causes.
+- E04: [The Irish Times, 2026-07-11](https://www.irishtimes.com/opinion/an-irish-diary/2026/07/11/flaming-underwear-a-chair-leg-and-a-plum-pudding-can-the-great-olympic-torch-hoax/), dated historical recap: 1936 motivation, air-force outfit, first runner's lost burning underwear, Gralton, early escort, paint on mayor's hand, afterlife of imitation torch (Lawler's recollection), 2000 relay precautions and subsequent attempts. **E04 is a recent secondary account, not an independent 1956 eyewitness observation**.
+- E05: [City of Melbourne collection](https://citycollection.melbourne.vic.gov.au/melbourne-olympic-games-torch/), institutional confirmation of Melbourne 1956 and modern relay background; not an independent verification of Barry's dialogue.
+- E06: [ABC Radio story description, 2023-08-20](https://www.abc.net.au/listen/programs/storystream/flaming-underpants-protest/13887314). Programme page present in original research; **audio not heard**, no verbatim quote inferred.
+
+### Additive claims and boundaries by version
+
+| Claim | Versions | Evidence and treatment |
+|---|---|---|
+| Students objected to Olympic relay pomp; Berlin 1936 origin cited by Larkin | 05m, 10m | E01, E04, E05. Attribute to Larkin, not every student; Olympic ceremony itself is not portrayed as a Nazi ceremony |
+| White-clad designated runner; another student in reserve air-force uniform as faux outrider | 05m, 10m | E01/E04. False escort distinguished from **real** police who subsequently cleared the way |
+| Original runner laughed at, dropped flaming contents; Peter helped Barry take over | 05m, 10m | E01/E04; contrary “cold feet” account E03 marked above. No invented dialogue in narration |
+| Mayor interrupted preparation, accepted paint-wet counterfeit and started prepared speech | 05m, 10m | E03/E04; source-constrained recollection rather than verified film frame |
+| Real Harry Dillon needed a path through unsettled crowd after hoax | 05m, 10m | E03 and further secondary reporting. Avoid precise crowd fraction as independent fact |
+| University rector congratulated Larkin; exam ovation/failure and no penalty | 05m, 10m | E01, first person; no invented grade or criminal case |
+| Fake torch later discarded, claimed by John Lawler | 10m | E04, his later recollection; use “according to a later account”, not documented disposal |
+| 2000 Sydney relay guarded against copycats; separate interference attempts | 10m | E04. No claim original prank caused every protection measure or predicted 2000 security policy |
+| Mayor's acceptance was enabled by preceding police/crowd legitimation | 05m, 10m | **Interpretive causal reading** of observed sequence, not testimony of mayor's beliefs; keep as narrative analysis rather than documented internal motive |
+
+**Audience-demand check:** comparable public coverage exists (E04, legacy search C07), but no verified native YouTube views, CTR, own-channel retention, vidIQ result or paid provider. Demand/relative ranking = `UNVERIFIED`. No new quotes, exact words spoken by officials, private motive or invented danger in new narration. Midpoint/exam/2000 retrospective provide source-supported extension but weaken the tension after the actual runner's arrival; see `story-review.md`.
+
+**Duration:** English counts 232 / 602 / 1,327 words. At an illustrative **140–160 spoken English words/minute before pauses**, this implies ~1:27–1:39 / 3:46–4:18 / 8:18–9:29 of pure speech, respectively; not measured TTS. The 5/10 long versions additionally require real pauses and the channel's prescribed 10-second end screen; no exact runtime asserted. Production voice speed remains fixed by ChannelSpec. Russian is editorial translation only.
