@@ -37,6 +37,8 @@ class MediaExecutorTests(unittest.TestCase):
         self.assertEqual(command[command.index("--speed") + 1], "1.0")
         self.assertEqual(Path(command[command.index("--en-text") + 1]).read_text(), test_workflow.SCRIPT)
         self.assertEqual(result["execution"]["state"], "completed")
+        self.assertEqual(result["audio_processing"]["raw_tts_speed"], 1.0)
+        self.assertEqual(result["audio_processing"]["target_master_speed"], run["profile"]["voice"]["speed"])
         self.assertEqual(run["tasks"]["audio"]["status"], "running")
         self.assertEqual(run["tasks"]["audio"]["outputs"], [])
         self.assertFalse(result["audio_processing"]["final_speed_processing_performed"])
