@@ -20,7 +20,7 @@ Hashes are SHA-256 of UTF-8 text with final newline (self-tested SHA-256 `abc` v
 4. **Payoff 9/10**, medium: “same fourteen minutes of actual bathroom work” resolves mechanism and answers which rule wins; note the result assumes zero return overhead.
 5. **Angle freshness 8/10**, low: familiar time-management technique reframed as utilization paradox, not a claim of unique original discovery.
 6. **Visuals 9/10**, medium: two beds/dressing spaces, shared bathroom door and two clocks make alternate trajectories explicit; no frames generated or QA performed.
-7. **Oral clarity 8/10**, medium: natural I-voice and ordinary actions; 320 EN words and several numeric steps may still be dense at 2m; not listened to.
+7. **Oral clarity 8/10**, medium: natural I-voice and ordinary actions; 322 EN words and several numeric steps may still be dense at 2m; not listened to.
 8. **Audience demand UNVERIFIED**, low: older indexed morning-routine videos + genuine audience questions, not comparable own-video baselines.
 
 **Map**: time pressure → A/B choice → fixed tasks → full occupancy but lateness → deliberate empty room → early shared finish → parallel-dressing explanation. **Weakest point:** verbal numbers cluster in middle; the illustration must reinforce them without substituting for the text. **Loop author check:** ending “If Sam asks what I changed ... I can finally give a precise answer:” → opening “I left our only bathroom empty for seven minutes.” Direct question/answer in a natural new cycle, payoff before repeat. It's more than a matching object or colon, but an independent two-cycle reading and AV seam are UNVERIFIED.
