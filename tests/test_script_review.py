@@ -223,6 +223,42 @@ class ScriptReviewTests(unittest.TestCase):
         self.assertEqual(result["sha256"], file_digest(output))
         self.assertEqual(json.loads(output.read_text())["script_text"], self.script.read_text())
 
+    def test_cli_long_without_seam_prepares_and_checks_response(self):
+        self.observed = fixtures.script_review_observation(self.script, self.response)
+        document = json.loads(self.response.read_text())
+        document["decision"] = "revise"
+        self.save_response(document)
+        output = self.directory / "long-input.json"
+        base = [sys.executable, "-m", "ytvideos.script_review", "--script", str(self.script)]
+        prepared = subprocess.run(base + ["--output", str(output)], check=True, capture_output=True, text=True)
+        packet = json.loads(output.read_text())
+        self.assertEqual(packet["script_text"], self.script.read_text())
+        self.assertEqual(packet["script_sha256"], file_digest(self.script))
+        self.assertIsNone(packet["narrative_loop"])
+        self.assertEqual(packet["output_contract"]["properties"]["narrative_loop"]["type"], "null")
+        self.assertFalse(json.loads(prepared.stdout)["review_performed"])
+        before = self.response.read_bytes()
+        checked = subprocess.run(base + ["--check-response", str(self.response), "--author", "fixture-author"],
+                                 check=True, capture_output=True, text=True)
+        result = json.loads(checked.stdout)
+        self.assertEqual(result["decision"], "revise")
+        self.assertFalse(result["pass_consistent"])
+        self.assertFalse(result["script_accepted"])
+        self.assertEqual(self.response.read_bytes(), before)
+
+    def test_cli_rejects_invalid_explicit_short_seams(self):
+        seam = self.directory / "seam.json"
+        output = self.directory / "invalid-input.json"
+        for value in ({}, {"opening": fixtures.OPENING},
+                      {"opening": fixtures.OPENING, "ending": fixtures.ENDING, "extra": "x"},
+                      {"opening": "not the opening", "ending": fixtures.ENDING}):
+            with self.subTest(seam=value):
+                seam.write_text(json.dumps(value))
+                process = subprocess.run([sys.executable, "-m", "ytvideos.script_review", "--script", str(self.script),
+                                          "--seam", str(seam), "--output", str(output)], capture_output=True, text=True)
+                self.assertNotEqual(process.returncode, 0)
+                self.assertFalse(output.exists())
+
     def test_cli_checks_valid_negative_response_without_review_approval_or_rewriting(self):
         self.document["decision"] = "revise"
         self.document["narrative_loop"]["decision"] = "revise"
