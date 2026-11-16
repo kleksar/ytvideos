@@ -72,3 +72,17 @@
 6. **Possible Idaho lead 2026, дело не закрыто:** Associated Press https://apnews.com/article/3c314f287670e4b3200d061ac3ad7884 ; Chicago police проверяют связь, не подтверждают виновного. Не показываем лицо возможного подозреваемого.
 
 **Сигналы спроса:** частичные, WTTW не breakout, вес 6/10 low. **История:** сильная по конкретной полезной отдаче и развитию (авторская редакционная оценка). Никакой paid purchase, скрытых источников, production references или asset bytes.
+
+## Дополнительный fact-check для трёх редакций — 2026-11-16
+
+Восемь первоначальных источников и отсев историй сохранены. Новые подробности проверены адресно:
+
+- Хелен Дженсен, магазинный чек, шесть отсутствующих капсул и **её позднее воспоминание** о скепсисе: [CBS Chicago, интервью](https://www.cbsnews.com/chicago/news/1982-tylenol-poisoning-murders-janus-family/), [CBS архив](https://www.cbsnews.com/chicago/painkiller/). Не выдавать мнимые мысли или диалоги следователей за прямые цитаты.
+- Семь смертей, FBI расследование, Джеймс Льюис (extortion, не убийства) и федеральный закон 1983: [FBI Chicago](https://www.fbi.gov/history/field-office-histories/chicago).
+- Отзыв ~31 млн флаконов (НЕ количество отравленных): [PBS NewsHour](https://www.pbs.org/newshour/health/tylenol-murders-1982), [Washington Post, Nov 1982](https://www.washingtonpost.com/archive/politics/1982/11/12/tylenol-is-reintroduced-in-triple-sealed-package/1831aa9c-be08-4c93-a4de-b54e8c0428ed/).
+- FDA 5 Nov 1982: видимый индикатор + конкретная маркировка; **поправка 1989** о двух барьерах распространяется на определённые двухкомпонентные желатиновые капсулы, а не на всё лекарство: [FDA CPG](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cpg-sec-450500-tamper-resistant-packaging-requirements-certain-over-counter-human-drug-products), [FDA history](https://www.fda.gov/about-fda/histories-product-regulation/promoting-safe-effective-drugs-100-years).
+- Три исторических барьера glued carton / neck band / foil: [Washington Post 11 Nov 1982](https://www.washingtonpost.com/archive/politics/1982/11/12/tylenol-is-reintroduced-in-triple-sealed-package/1831aa9c-be08-4c93-a4de-b54e8c0428ed/), [UPI contemporary](https://www.upi.com/Archives/1982/11/11/Maker-of-Tylenol-reveal-new-packaging/5407405838800/).
+- Отличие защиты от детей от следов вмешательства и ограничения: [FDA consumer guide](https://www.fda.gov/drugs/understanding-over-counter-medicines/over-counter-medicines-whats-right-you).
+- Возможная связь с Айдахо в **сентябре 2026**: [Associated Press](https://apnews.com/article/3c314f287670e4b3200d061ac3ad7884). Chicago police не заявляли, что новый человек виновен; его присутствие в Чикаго в момент преступления не установлено, найденный цианид описывался как иное соединение.
+
+**Claim boundaries:** место подмены не установлено, не инсценировать конкретного отравителя в магазине как доказанное событие. Воспоминания медсестры не заменяют уголовного verdict. Упаковка не гарантирует безопасность. Раскадровку строить только после выбранной версии, без заимствования старых spans. Внешние метрики и independent listener UNVERIFIED.
