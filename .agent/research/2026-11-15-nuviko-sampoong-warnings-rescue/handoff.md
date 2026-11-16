@@ -8,3 +8,16 @@ EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официал
 - Capability observation: local host has no verified checkout of `ytvideos` in working paths, so `uv run ytv start`, actual `plan_summary`, `read_next`, `task_guide` and pinned reference_documents were not executed; no independent reviewer session tool exposed. vidIQ balance was 0 credits, thus no paid YouTube/own analytics retrieval.
 - For a later owner-approved local migration, in an authorized clean `ytvideos` checkout invoke `uv run ytv start --channel nuviko_history --format long --intent 'Проверить редакционный сценарий Sampoong из Draft PR'`. Read actual `plan_summary` and `read_next`, the `task_guide`, pinned `reference_documents`; feed research, exact EN and verified RU through the real artifact/task contract (not an invented run ID). Obtain real independent `ytv-script-review-v1` on exact EN hash with two full cold passes, then show full English text for genuine owner approval. Check actual reference PNGs/rights if later production separately authorized. No media permitted under this task.
 - Changing any script bytes invalidates the card for old Git blob and the corresponding 37 exact storyboard spans; retain previous Git revision, recalculate and re-review. 4–6 sec scenes are purely conceptual, not timing measurements.
+
+
+## 2026-11-16 editorial alternatives (no migration performed)
+
+| Редакция | Полный EN | Полный RU | Статус |
+|---|---|---|---|
+| 02m Long | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | закончена, author-reviewed; не одобрена |
+| **05m Long** | **[EN](variants/05m/script.en.txt)** | **[RU](variants/05m/script.ru.txt)** | **рекомендована**, не одобрена |
+| 10m Long | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | закончена, author-reviewed; не одобрена |
+
+Baseline PR head `49a203f727e82402433abe149c66ea9a1e7dd03b`, original 37-scene storyboard retained verbatim for original master only. New variant SHA-256s and fact ledger are in [story-review](story-review.md) and [research](research.md). Proposed duration contract #124 `7d6bdf7702a2a241a33a21677fce29f26ada9b72` not in canonical main at this audit.
+
+Selected **editorial recommendation**: 05m. Run registration, independent reviewer and user exact master selection: UNVERIFIED/NOT PERFORMED. A later authorized host must read canonical pinned AGENTS/workflow/ChannelSpec, register source+variants through actual contracts, obtain fresh independent first-listener evidence, and request owner approval of a single exact master. A committed PR is not the runtime, and 2/5/10 texts are not permission to produce 3 videos. Prior pins/outputs remain intact. A fresh storyboard must match the chosen exact script and language spans, not the old 37-scene source; actual shot time requires TTS, both outside this scope.
