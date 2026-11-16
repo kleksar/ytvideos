@@ -16,3 +16,9 @@ GitHub connector works but runtime host has no authorized ytvideos checkout (`/m
 
 ## Verification
 EN/RU story has 34 paragraph pairs and provisional S IDs; full independence/MP4/TTS/image and actual runtime unknown. CI status must be read back on exact final PR HEAD. Paper-plane reference pixels are not available here; no pretend brand asset creation.
+
+## 2026-11-16 editorial backfill (main SHA 3bd47ae64c6eee627e2822f5986e64d386c855ce)
+
+**Three full EN + RU editorial candidates** now in `variants/{02m,05m,10m}/script.{en,ru}.txt` (see [README](README.md), [story-review](story-review.md) exact SHA-256). Proposed **05m**; no owner approval. Original `script.en.txt`/`script.ru.txt` and 34-scene `storyboard.md` stay pinned to baseline, not silently reassigned. Do not assume those 34 spans cover any variant; storyboard follows the chosen script only.
+
+New sources for 10m claims appended to the single `research.md`. Some rules tightened after Daghlian; 10m makes that fact explicit rather than claiming no response until Slotin. Real independent reader is still unavailable in Git-only connector; this author-only review is **UNVERIFIED** for independent gate. Runtime remained unregistered; no ytv CLI/claim/receipt or provider calls. The original older SHA reference remains historical evidence, not a live runtime pin. Next steps: establish authorized local coordinator, inspect canonical run context/pins first, present exact variants blind to reviewer, select one approved master and create a new tied storyboard only then. Never auto-produce all three.
