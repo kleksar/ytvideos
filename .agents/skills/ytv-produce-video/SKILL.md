@@ -41,3 +41,7 @@ CLI и точные outputs/receipts: [task contract](../../../docs/operations/t
 6. Завершить task через контракт: core проверяет реальные media bytes; authored receipt не заменяет decode. Для render сохранить обязательный [delivery evidence](../../../docs/operations/task-contract.md#render-manifest-и-delivery-evidence), связывающий принятые входы, manifest, фактическую команду текущего claim и exact MP4. Взять `next` и продолжать до MP4, затем передать review exact hash и actual probe. Упаковку готовить параллельно; дополнительное согласование промежуточных картинок/музыки/монтажа не требуется.
 
 Для локального исправления сохранить остальные принятые artifacts/cache. Изменение смысла текста вернуть к script gate; технический ремонт выполнять автономно только предусмотренным способом. Генераторы и existing helpers не получают право обходить guards, обязательные для новой run.
+
+## Подготовленный пакет
+
+Для сюжетного MR или готового source-пакета выполнить [подготовку и импорт](references/preproduction.md): решения и prompts до медиа, фактические references/тайминги и QA локально. Пакет не даёт approval.
