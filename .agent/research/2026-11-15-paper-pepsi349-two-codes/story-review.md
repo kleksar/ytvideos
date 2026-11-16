@@ -10,7 +10,7 @@
 | 05m | [RU](variants/05m/script.ru.txt) | [EN](variants/05m/script.en.txt) | 781 | `cc8459a28a341ae5e8112194583b7f306c8f6a283d1e12ddb3c0e43f6a544b90` | `cea3c6c3827eed80475337450c8edb541f64f6bea577814e916556781a507ef3` | Recommended; unchanged strong master copy |
 | 10m | [RU](variants/10m/script.ru.txt) | [EN](variants/10m/script.en.txt) | 1617 | `b04e3fa200216ac508728caed29912caf2667739593933ca34cbcc0e33b1e7c0` | `a02a5ae11d68bb4078cb636203a9b1e35104e9bc853d038151b58c75b0a3e967` | Complete editorial draft; review UNVERIFIED |
 
-Target timing is **estimated, not measured**; illustrative EN speech range 125–165 words/minute, excluding music, pauses and 10-second Long end screen. For 02m: 270 words, approx 1.6–2.2 min; 05m: 781 words, approx 4.7–6.2 min; 10m: 1617 words, approx 9.0–12.0 min. Actual speed/pauses/video duration UNVERIFIED. All variants editorial Long 16:9; Paper Detour ChannelSpec supports Long. No version is released or approved.
+Target timing is **estimated, not measured**; illustrative EN speech range 125–165 words/minute, excluding music, pauses and 10-second Long end screen. For 02m: 270 words, approx 1.6–2.2 min; 05m: 781 words, approx 4.7–6.2 min; 10m: 1617 words, approx 9.8–12.9 min. Actual speed/pauses/video duration UNVERIFIED. All variants editorial Long 16:9; Paper Detour ChannelSpec supports Long. No version is released or approved.
 
 ## Было → стало
 
