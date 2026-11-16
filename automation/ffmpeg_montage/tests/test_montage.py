@@ -1,5 +1,6 @@
 import importlib.util, io, json, subprocess, sys, tempfile, unittest
 from pathlib import Path
+from unittest.mock import patch
 from PIL import Image, ImageDraw
 from export_fixture import passport
 from font_fixture import configure, font as fixture_font
@@ -28,8 +29,13 @@ def render_captions(plan,p,work,canvas,frames):
     if plan['subtitles'].get('words'):bind_plan(plan,p)
     return m.caption_sequence(plan,p,work,canvas,frames)
 
+# Historical pinned policy, not the current Oddly Drawn production configuration.
+LEGACY_TWL_PATH=Path(__file__).parent/'fixtures'/'two_ways_lab_legacy.json'
+LEGACY_TWL=json.loads(LEGACY_TWL_PATH.read_text())
+
 class TestMontage(unittest.TestCase):
- def test_optional_minimum_scene_frames_prevents_unintended_flash(self):
+ @patch.object(m.delivery.channel_config, 'channel_profile', return_value=(LEGACY_TWL, LEGACY_TWL_PATH))
+ def test_optional_minimum_scene_frames_prevents_unintended_flash(self, _profile):
   with tempfile.TemporaryDirectory() as td:
    p=Path(td);(p/'audio.wav').write_bytes(b'audio');Image.new('RGB',(20,20)).save(p/'image.png')
    def scene(start,end):
@@ -41,7 +47,8 @@ class TestMontage(unittest.TestCase):
    self.assertEqual(m.validate(plan,p)['frames'],150)
    plan['minimum_scene_frames']=True
    with self.assertRaisesRegex(ValueError,'must be an integer'):m.validate(plan,p)
- def test_channel_policy_still_rejects_single_frame_when_duration_enforcement_is_disabled(self):
+ @patch.object(m.delivery.channel_config, 'channel_profile', return_value=(LEGACY_TWL, LEGACY_TWL_PATH))
+ def test_channel_policy_still_rejects_single_frame_when_duration_enforcement_is_disabled(self, _profile):
   with tempfile.TemporaryDirectory() as td:
    p=Path(td);(p/'audio.wav').write_bytes(b'audio');Image.new('RGB',(20,20)).save(p/'image.png')
    plan={'channel':'two_ways_lab','format':'short','audio':'audio.wav','enforce_scene_duration':False,

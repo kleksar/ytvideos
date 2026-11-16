@@ -14,6 +14,16 @@
 
 Ручной архив Stories RU/EN, активный Nuviko History и Nuviko Videos остаются разными identities; статус текущего профиля не меняет pins существующего run. Brand acceptance receipts, права и исторические публикационные данные сохраняются. Никаких live публикаций ради проверки MR.
 
+## Two Ways Lab → Oddly Drawn
+
+Новые runs под сохранённым ключом `two_ways_lab` читают [профиль Oddly Drawn](../channels/oddly_drawn/PROFILE.md) через ChannelSpec `context_references`. YouTube ID `UCcZWXzkL_K1mD5dr8MZBYrQ` сохранён; [публичное наблюдение](../channels/oddly_drawn/docs/IDENTITY.md) подтверждает новое название. Второй ChannelSpec и CLI alias `oddly_drawn` не создаются. Старый handle остаётся в историческом evidence; актуальный handle не выдумывается.
+
+Для новых tasks отменены обязательные A/B-сюжеты, первое лицо участника и прежний герой. Технические presets Two Ways Lab не считаются одобренными параметрами whiteboard. Research/script могут идти в общем graph; [production blockers](../channels/oddly_drawn/docs/PRODUCTION.md) остаются явными. `active` не означает media/live readiness.
+
+Videos, research, backlog, brand refs и публикационная очередь Two Ways Lab сохраняются на прежних путях. Это исторические материалы, а не чтение по умолчанию нового task. Старые runs сохраняют profile/reference/code pins, approvals, outputs и provider handles; продолжать их в прежнем checkout либо восстановленном проверенном snapshot. Этот PR не изменяет их state и не мигрирует текущие выпуски.
+
+`migrate-runtime` сохраняет художественный профиль и потому не выполняет этот rebrand для existing run. Перенос конкретного выпуска требует отдельного поручения и проверенного сопоставления по общему порядку выше; до появления подходящего контракта не переписывать профиль или pins вручную и не создавать дубликат для обхода. Внешний канал, permissions, опубликованные ролики и календарь этим изменением не меняются.
+
 ## Миграция runtime сохранённого run
 
 `migrate-runtime` переносит code/skills/reference pins существующего run без изменения его ID, revision, профиля, принятых artifacts, approvals, задач, операций и бюджетов. Маршрут предназначен для совместимых версий текущей workflow schema; он не преобразует художественный профиль или итоговые media contracts. Порядок исполнения принадлежит [ytv-operate](../.agents/skills/ytv-operate/references/runtime-migration.md).
