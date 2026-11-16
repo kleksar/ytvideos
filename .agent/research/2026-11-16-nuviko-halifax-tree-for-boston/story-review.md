@@ -5,9 +5,9 @@ EDITORIAL_CANDIDATE_UNREGISTERED. Evaluator: **author model, 2026-11-16**. Indep
 ## Exact scripts, count and timing
 | Variant | EN text | RU semantic review text | Planned format | Estimate/compatibility |
 |---|---|---|---|---|
-| 02m | 241 words; sha256 `f42684ea99c5c3c226967c0863a680729e905a2c3d317d9135603611d1084e2c` | 217 words; sha256 `a18a94ad41c3de1503366bc6c124450f4d80a02bcead60cd01d63f91666d6c08` | short, 9:16 | narration EN at assumed 125–150 WPM + brief pauses; estimate only, actual voice/AV timing UNVERIFIED. 3-minute Short envelope requires real TTS validation |
+| 02m | 241 words; sha256 `9ab75902dd2dcf4b300a1733fb108ca1acf8f12548c62a16ed752f5fd08bf33b` | 217 words; sha256 `f7a5377f55578c29186abca09e1b914cadeb0b87a172b14bd5077e9d1b100d54` | short, 9:16 | narration EN at assumed 125–150 WPM + brief pauses; estimate only, actual voice/AV timing UNVERIFIED. 3-minute Short envelope requires real TTS validation |
 | 05m | 654 words; sha256 `50c6106435d537e50c80d17d48fe169a777b381c2899c7b5b0f271a0fadec04f` | 517 words; sha256 `149de664d830faf63a94ee946a9a0c2c911dd8602491409dbf3039bd84a975b7` | long, 16:9 | assume 125–150 EN WPM + natural pauses, plus 10s end screen only in production; estimate only, actual TTS UNVERIFIED |
-| 10m | 1304 words; sha256 `545b8cd5e3aaf8e19d2c2f86865d3c21f0cceabae79250060b55a8e2fa62989f` | 1068 words; sha256 `597b1b4950cb09380e266641ff60cd0455e536521ff340da6ffd1ec24fbc27b4` | long, 16:9 | same assumption; estimated, no attempt to change approved 1.10x voice speed; measured timing UNVERIFIED |
+| 10m | 1304 words; sha256 `545b8cd5e3aaf8e19d2c2f86865d3c21f0cceabae79250060b55a8e2fa62989f` | 1068 words; sha256 `e6cc7ebdbb54e21c63f7d249bead0ef28f47a90bce5960b8166b3ce43488929d` | long, 16:9 | same assumption; estimated, no attempt to change approved 1.10x voice speed; measured timing UNVERIFIED |
 
 RU is a full editorial counterpart, not TTS master. No runtime script gate/approval exists.
 
@@ -24,7 +24,7 @@ Scores are **author-only, moderate confidence** unless stated otherwise; format:
 7. Oral clarity/naturalness **8/10** — "The medical train has long stopped running. The tree hasn't"; weakness: statistics in one breath need voice pacing.
 8. Verified demand **UNVERIFIED** — WBUR 2,345 versus Fascinating Horror 2.67m shows genre/channel mismatch, not topic-specific success.
 
-Author bilingual/loop check: opening `One Christmas tree travels from Canada to Boston every winter.`; ending `The thank-you makes that journey again every winter, when` creates an EN syntactic continuation `when one Christmas tree travels...` and RU `когда каждую зиму одна ...` as an anticipated reprise; full answer has appeared before the seam. **Weakness:** repeated "every winter" across the stitch and breath intonation; author text seam plausible, independent twice-read and AV seam **UNVERIFIED**. Visual stitch idea is tree arrival after final train-travel line; no reference images/materials have been generated.
+Author bilingual/loop check: opening `One Christmas tree travels from Canada to Boston every winter.`; ending `And Boston still remembers why` leads directly into opening `One Christmas tree travels ...`: `why one Christmas tree travels ...` forms a dependent clause and resolves the same remembered act. RU `И Бостон до сих пор помнит, почему` leads into `Каждую зиму одна рождественская ёлка ...`. Full explanation is given before either seam. **Weakness:** the revised spoken intonation still needs independent full twice-reading and AV validation; both remain **UNVERIFIED**. Visual stitch concept remains return from relief-train journey to the real annual tree, without assuming any existing generated assets.
 
 ### 05m — STRONG_CANDIDATE (recommended; author)
 1. Interest/significance **9/10** — questions about cross-border gift and 1917 event allow history and current audience relevance; weakness: US viewers may not know Halifax.
@@ -61,4 +61,4 @@ Author bilingual/loop check: opening `One Christmas tree travels from Canada to 
 | 05m | PASS author claim-to-source | PASS author line/meaning mapping | PASS: illustrated Long supported; measured duration UNVERIFIED | UNVERIFIED for actual assets | N_A Long | UNVERIFIED |
 | 10m | PASS author claim-to-source | PASS author line/meaning mapping | PASS: illustrated Long supported; measured duration UNVERIFIED | UNVERIFIED for actual assets | N_A Long | UNVERIFIED |
 
-No fake first-listener report. No storyboards/prompts yet: recommended exact 05m has not passed independent reading, and available channel reference PNG bytes have not been opened/hashed in a production workspace. Revision 0 only; two substantive editing passes remain available for an authorized reviewer. Significant source disputes recorded in research.md (Coleman train, casualty counts).
+No fake first-listener report. No storyboards/prompts yet: recommended exact 05m has not passed independent reading, and available channel reference PNG bytes have not been opened/hashed in a production workspace. Revision 1: author corrected the 02m EN/RU natural seam and the 10m RU date of Boston train departure; only one substantive author edit pass remains under current limit. No independent review was produced; all affected hashes updated and prior author checks re-applied. Significant source disputes recorded in research.md (Coleman train, casualty counts).
