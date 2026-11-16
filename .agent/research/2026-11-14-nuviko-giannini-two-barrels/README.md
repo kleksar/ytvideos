@@ -1,16 +1,17 @@
-EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официальному ytv script gate.
+EDITORIAL_CANDIDATE_UNREGISTERED — no official ytv script gate.
 
-# The Bank Reopened on Two Barrels — Nuviko History / 1906
+# Giannini / 1906 San Francisco — banking after the fire
 
-After San Francisco's 1906 earthquake, banker Amadeo Giannini salvaged Bank of Italy cash and records, reopened on a wharf with a plank balanced across two barrels, and offered rebuilding loans, including money for ships to fetch lumber. Bank of Italy later became Bank of America.
+After the fire destroyed his office, Amadeo Giannini had rescued usable assets, reopened Bank of Italy from improvised premises, and financed rebuilding loans and the transport of lumber. The institution's later expansion and Bank of America name were not caused by the earthquake alone.
 
-**Complete English narration master (editorial proposal only):** [script.en.txt](script.en.txt)
-**ПОЛНЫЙ РУССКИЙ СЦЕНАРИЙ:** [script.ru.txt](script.ru.txt)
+## Three complete versions of the SAME story
 
-- [research.md](research.md) — ten actual topic screens, three distinct finalists, claim/source/uncertainty ledger, demand limits and queue check
-- [story-review.md](story-review.md) — separate truth/interest/speech/loop checks, two author read-throughs and independent reviewer blocker
-- [storyboard.json](storyboard.json) — S001–S020 exact paired EN/RU text, semantic jobs, continuity and standalone historical AI-image prompts, estimates only
-- [packaging-brief.md](packaging-brief.md) — three honest title/image promises and early proof
-- [handoff.md](handoff.md) — local run transfer, missing capabilities, approvals and prohibited actions
+| Target | Complete Russian | Complete English | Editorial status |
+|---|---|---|---|
+| 2 min — Short | [RU](variants/02m/script.ru.txt) | [EN](variants/02m/script.en.txt) | Original strong narration preserved byte-for-byte; forced natural loop FAIL |
+| **5 min — Long** | **[RU](variants/05m/script.ru.txt)** | **[EN](variants/05m/script.en.txt)** | **Recommended, not approved** |
+| 10 min — Long | [RU](variants/10m/script.ru.txt) | [EN](variants/10m/script.en.txt) | Complete alternative; later exposition can weaken pace |
 
-No official run, independent review, audio, generated image, MP4, paid provider, upload, release, or channel-state change was performed.
+All text hashes, counts, eight criteria per version and precise weaknesses: [story-review.md](story-review.md). Verified common evidence and added-source limits: [research.md](research.md). Production transfer and missing capabilities: [handoff.md](handoff.md). Conceptual thumbnail promises: [packaging-brief.md](packaging-brief.md).
+
+Original root [script.en.txt](script.en.txt) and [script.ru.txt](script.ru.txt) are unchanged. The existing 20-scene [storyboard.json](storyboard.json) applies ONLY to that unchanged root Short / byte-identical 02m; it does not describe either Long. New 16:9 storyboard, timestamps, AV work and owner acceptance are not present. No media, TTS, imagegen, upload or publication authorized.
