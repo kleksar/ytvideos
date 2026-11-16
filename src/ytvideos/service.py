@@ -1376,7 +1376,7 @@ class Production:
         self._runtime(run)
         return self._operation_payload(run, self._task(run, task_id), action)
 
-    def _operation_payload(self, run, task, action):
+    def _operation_payload(self, run, task, action, *, tts_selection=None):
         """Derive provider inputs from pinned artifacts, never from a caller's argv."""
         allowed = {"audio": {"tts"}, "scene_image": {"image"}, "upload": {"upload"},
                    "configure_release": {"metadata", "thumbnail", "captions", "playlist", "end_screen", "related_video"},
@@ -1395,6 +1395,18 @@ class Production:
                 raise WorkflowError("accepted source/no-speech edits must not dispatch TTS")
             result = {"channel": run["channel"], "script_sha256": self._artifact(run, "script")["sha256"],
                       "voice": run["profile"]["voice"], "generation_speed": 1.0}
+            if tts_selection is not None:
+                if (type(tts_selection) is not dict
+                        or set(tts_selection) != {"model", "account_slot", "account_sha256"}
+                        or tts_selection["model"] != "eleven_flash_v2_5"
+                        or type(tts_selection["account_slot"]) is not int or tts_selection["account_slot"] < 1
+                        or not isinstance(tts_selection["account_sha256"], str)
+                        or not re.fullmatch(r"[0-9a-f]{64}", tts_selection["account_sha256"])):
+                    raise WorkflowError("invalid explicit TTS model or fixed account selection")
+                claim = task.get("claim") or {}
+                if type(claim.get("estimated_units")) is not int or claim["estimated_units"] <= 0:
+                    raise WorkflowError("explicit TTS selection requires a positive credit reservation")
+                result["tts_selection"] = {**tts_selection, "max_credits": claim["estimated_units"]}
         elif action == "image":
             source_task = "packaging" if task.get("payload", {}).get("purpose") == "thumbnail" else "storyboard"
             result = {"brief_sha256": self._artifact(run, source_task)["sha256"], "scene": task["payload"],
@@ -1421,14 +1433,16 @@ class Production:
                 result[field] = data[field]
         return json.loads(canonical(result))
 
-    def _begin_operation_tx(self, tx, run, task_id, token, action, payload):
+    def _begin_operation_tx(self, tx, run, task_id, token, action, payload, *, tts_selection=None):
         run_id = run["id"]
         self._runtime(run)
         task = self._task(run, task_id)
         claim = self._current_claim(run, task, token)
         if claim.get("reconciled_existing_result"):
             raise Conflict("reconciliation may attach the existing result, never dispatch new work")
-        expected = self._operation_payload(run, task, action)
+        if tts_selection is not None and action != "tts":
+            raise WorkflowError("TTS selection is only valid for a TTS operation")
+        expected = self._operation_payload(run, task, action, tts_selection=tts_selection)
         if type(payload) is not dict or canonical(payload) != canonical(expected):
             raise WorkflowError("provider payload differs from the pinned task or bound release specification")
         payload = expected

@@ -274,5 +274,77 @@ class VoiceTests(unittest.TestCase):
         self.assertEqual(calls.value, 1)
 
 
+class FixedAccountTests(unittest.TestCase):
+    def setUp(self):
+        self.voice_id = tts.channel_voice('paper_detour')
+        self.model = 'eleven_flash_v2_5'
+        self.voice = {'voice_id': self.voice_id, 'fine_tuning': {'state': {self.model: 'fine_tuned'}},
+                      'sharing': {'rate': 1.0, 'financial_rewards_enabled': False}}
+        self.models = [{'model_id': self.model, 'can_do_text_to_speech': True,
+                        'maximum_text_length_per_request': 40000,
+                        'model_rates': {'character_cost_multiplier': 0.5, 'cost_discount_multiplier': 1.0}}]
+        self.subscription = {'status': 'active', 'max_credit_limit_extension': 0,
+                             'character_limit': 10000, 'character_count': 1000}
+
+    def responses(self, voice=None, models=None, subscription=None):
+        return [Response(json.dumps(value).encode()) for value in
+                (voice or self.voice, models or self.models, subscription or self.subscription)]
+
+    def test_live_metadata_enforces_voice_quota_cost_and_no_overage(self):
+        with patch('tts.urllib.request.urlopen', side_effect=self.responses()) as request:
+            self.assertEqual(tts.fixed_account_preflight('key', self.voice_id, self.model, 5644, 6000), 2822)
+            self.assertEqual([c.args[0].get_method() for c in request.call_args_list], ['GET'] * 3)
+        for changed in ({'character_limit': 1001}, {'max_credit_limit_extension': 1}, {'status': 'free'}):
+            subscription = {**self.subscription, **changed}
+            with self.subTest(changed=changed), patch('tts.urllib.request.urlopen',
+                                                     side_effect=self.responses(subscription=subscription)):
+                with self.assertRaises(tts.TTSError):
+                    tts.fixed_account_preflight('key', self.voice_id, self.model, 5644, 6000)
+        with patch('tts.urllib.request.urlopen', side_effect=self.responses()), self.assertRaises(tts.TTSError):
+            tts.fixed_account_preflight('key', self.voice_id, self.model, 5644, 2821)
+        pending = {**self.voice, 'fine_tuning': {'state': {self.model: 'fine_tuning'}}}
+        with patch('tts.urllib.request.urlopen', side_effect=self.responses(voice=pending)), self.assertRaises(tts.TTSError):
+            tts.fixed_account_preflight('key', self.voice_id, self.model, 5644, 6000)
+        increased_rate = [{**self.models[0], 'model_rates': {'character_cost_multiplier': 1.0,
+                                                              'cost_discount_multiplier': 1.0}}]
+        with patch('tts.urllib.request.urlopen', side_effect=self.responses(models=increased_rate)), self.assertRaises(tts.TTSError):
+            tts.fixed_account_preflight('key', self.voice_id, self.model, 5644, 6000)
+
+    def test_only_selected_account_one_post_even_on_provider_failure(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            script = root / 'script.txt'
+            script.write_text('Hello', encoding='utf-8')
+            args = ['--channel', 'paper_detour', '--en-text', str(script), '--output-dir', str(root / 'out'),
+                    '--model', self.model, '--account-slot', '2', '--account-sha256', tts.account_id('two'),
+                    '--max-credits', '6000', '--generate']
+            with patch('tts.get_api_key', return_value='two') as key, \
+                 patch('tts.configured_keys') as enumerate_keys, \
+                 patch('tts.fixed_account_preflight', return_value=3), \
+                 patch('tts.synthesize', side_effect=tts.QuotaExceeded('no quota')) as post, \
+                 contextlib.redirect_stdout(io.StringIO()), contextlib.redirect_stderr(io.StringIO()):
+                self.assertEqual(tts.main(args), 1)
+                self.assertEqual(tts.main(args), 1)
+            key.assert_called_once_with(slot=2)
+            enumerate_keys.assert_not_called()
+            post.assert_called_once()
+            self.assertEqual(post.call_args.kwargs['api_key'], 'two')
+            self.assertEqual(json.loads((root / 'out/voice_en.request.json').read_text())['status'], 'request_started')
+
+    def test_wrong_account_or_multiple_inputs_stop_before_provider(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            script = root / 'script.txt'
+            script.write_text('Hello', encoding='utf-8')
+            base = ['--channel', 'paper_detour', '--en-text', str(script), '--output-dir', str(root / 'out'),
+                    '--model', self.model, '--account-slot', '2', '--account-sha256', tts.account_id('two'),
+                    '--max-credits', '6000', '--generate']
+            with patch('tts.get_api_key', return_value='wrong'), patch('tts.urllib.request.urlopen') as network, \
+                 contextlib.redirect_stdout(io.StringIO()), contextlib.redirect_stderr(io.StringIO()):
+                self.assertEqual(tts.main(base), 1)
+                self.assertEqual(tts.main(base + ['--ru-text', str(script)]), 1)
+            network.assert_not_called()
+
+
 if __name__ == "__main__":
     unittest.main()

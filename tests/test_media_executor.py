@@ -1,5 +1,6 @@
 """Exercise the real workflow-to-subprocess boundary without provider traffic."""
 from pathlib import Path
+import json
 import subprocess
 import unittest
 from unittest.mock import Mock
@@ -44,12 +45,47 @@ class MediaExecutorTests(unittest.TestCase):
             executor.execute(self.run_id, "audio", self.claim["token"], {"kind": "tts"})
         runner.assert_called_once()
 
+    def test_explicit_flash_account_is_bound_to_single_operation(self):
+        def process(command, **kwargs):
+            output = Path(command[command.index("--output-dir") + 1])
+            output.mkdir(parents=True)
+            (output / "voice_en.mp3").write_bytes(b"synthetic fixture")
+            return subprocess.CompletedProcess(command, 0, stdout="fixture", stderr="")
+        runner = Mock(side_effect=process)
+        executor = MediaExecutor(self.service, runner=runner)
+        request = {"kind": "tts", "model": "eleven_flash_v2_5", "account_slot": 2,
+                   "account_sha256": "a" * 64}
+        executor.execute(self.run_id, "audio", self.claim["token"], request)
+        command = runner.call_args.args[0]
+        self.assertEqual(command[command.index("--model") + 1], "eleven_flash_v2_5")
+        self.assertEqual(command[command.index("--account-slot") + 1], "2")
+        self.assertEqual(command[command.index("--account-sha256") + 1], "a" * 64)
+        self.assertEqual(command[command.index("--max-credits") + 1], "2")
+        with self.fixture.store.transaction() as tx:
+            operation = json.loads(tx.execute("SELECT doc FROM operations WHERE run_id=?", (self.run_id,)).fetchone()[0])
+        self.assertEqual(operation["payload"]["tts_selection"]["account_slot"], 2)
+        with self.assertRaises(Conflict):
+            executor.execute(self.run_id, "audio", self.claim["token"], request)
+        runner.assert_called_once()
+
     def test_caller_cannot_override_canonical_tts_parameters(self):
         runner = Mock()
         with self.assertRaises(WorkflowError):
             MediaExecutor(self.service, runner=runner).execute(
                 self.run_id, "audio", self.claim["token"],
                 {"kind": "tts", "args": ["--voice-id", "another-voice"]})
+        runner.assert_not_called()
+        self.assertFalse(any(event["kind"] == "media.dispatch" for event in self.fixture.store.events(self.run_id)))
+
+    def test_explicit_selection_rejects_unbound_or_invalid_inputs(self):
+        runner = Mock()
+        executor = MediaExecutor(self.service, runner=runner)
+        for request in ({"kind": "tts", "model": "eleven_flash_v2_5"},
+                        {"kind": "tts", "model": "other", "account_slot": 2, "account_sha256": "a" * 64},
+                        {"kind": "tts", "model": "eleven_flash_v2_5", "account_slot": True, "account_sha256": "a" * 64},
+                        {"kind": "tts", "model": "eleven_flash_v2_5", "account_slot": 2, "account_sha256": "invalid"}):
+            with self.subTest(request=request), self.assertRaises(WorkflowError):
+                executor.execute(self.run_id, "audio", self.claim["token"], request)
         runner.assert_not_called()
         self.assertFalse(any(event["kind"] == "media.dispatch" for event in self.fixture.store.events(self.run_id)))
 

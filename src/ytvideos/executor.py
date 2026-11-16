@@ -43,8 +43,15 @@ class MediaExecutor:
         if kind == "tts":
             if script_content["mode"] != "narration":
                 raise WorkflowError("accepted source/no-speech edits use source audio mixing, never TTS")
-            if set(request) - {"kind", "timeout"}:
+            selection_fields = {"model", "account_slot", "account_sha256"}
+            if set(request) - {"kind", "timeout", *selection_fields}:
                 raise WorkflowError("TTS arguments are derived from the accepted script/channel, not caller overrides")
+            supplied = set(request) & selection_fields
+            if supplied and supplied != selection_fields:
+                raise WorkflowError("explicit TTS requires model, account_slot and account_sha256 together")
+            tts_selection = {key: request[key] for key in selection_fields} if supplied else None
+            # Validate selection and reserved credit ceiling before preparing any subprocess.
+            production._operation_payload(run, task, "tts", tts_selection=tts_selection)
             language = run["profile"]["language"]
             if language not in {"en", "ru"}:
                 raise WorkflowError("the existing TTS CLI needs a language adapter for this profile")
@@ -58,6 +65,10 @@ class MediaExecutor:
             args = [f"--{language}-text", str(narration_path), "--channel", run["channel"],
                     "--voice-id", run["profile"]["voice"]["id"], "--speed", "1.0",
                     "--output-dir", str(output_dir), "--generate"]
+            if tts_selection:
+                args += ["--model", tts_selection["model"], "--account-slot", str(tts_selection["account_slot"]),
+                         "--account-sha256", tts_selection["account_sha256"],
+                         "--max-credits", str(claim["estimated_units"])]
             outputs = [output_dir / f"voice_{language}.mp3"]
         else:
             # Manifest/contract files are supplied by the claimed task. Freeze them
@@ -204,14 +215,17 @@ class MediaExecutor:
                 nonlocal operation
                 production._runtime(current)
                 current_task = production._task(current, task_id)
-                production._current_claim(current, current_task, token)
+                current_claim = production._current_claim(current, current_task, token)
                 if not valid_approval(current, "script"):
                     raise Conflict("script approval changed before execution")
                 if observed_request["kind"] in {"montage", "music_render"} and digest(load_profile(production.project / "channels", current["channel"])) != current["pins"]["profile"]:
                     raise Conflict("montage helper channel profile changed; use the pinned checkout")
                 if observed_request["kind"] == "tts":
-                    payload = production._operation_payload(current, current_task, "tts")
-                    operation = production._begin_operation_tx(tx, current, task_id, token, "tts", payload)
+                    if tts_selection and current_claim["estimated_units"] != claim["estimated_units"]:
+                        raise Conflict("TTS credit reservation changed before dispatch")
+                    payload = production._operation_payload(current, current_task, "tts", tts_selection=tts_selection)
+                    operation = production._begin_operation_tx(tx, current, task_id, token, "tts", payload,
+                                                               tts_selection=tts_selection)
                 tx.event(str(uuid.uuid4()), run_id, "media.dispatch", observed_request)
             production.store.mutate(run_id, validate)
 
