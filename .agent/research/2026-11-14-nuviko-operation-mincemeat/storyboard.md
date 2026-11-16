@@ -1,3 +1,5 @@
+> **EXACT SOURCE PIN — ORIGINAL MASTER ONLY:** This provisional S001–S080 map is tied to the unchanged `script.en.txt` blob `1aedf413530fe865228b2c2c659261dd84913572` and `script.ru.txt` blob `f22ee841ba23e497eb514199c78298883a65f296`, at baseline `ad87ee84dcf2097c3ea9dc8d95bed09a76807b4b`. It has NOT been recomputed for any `variants/02m`, `variants/05m` or `variants/10m`. The new 10m changes the opening and has a different hash. No scene timings, prompts, approvals or media evidence transfer; generate a fresh scene map after exact master selection.
+
 # Operation Mincemeat Long — provisional scene coverage
 
 **Scope:** 16:9 Nuviko History Long. This is a **text-only editorial coverage map**, not an approved image prompt set or a measured shot list. The source-of-truth narration lives in [script.en.txt](script.en.txt), with [script.ru.txt](script.ru.txt) matching the same 80 paragraphs. The index of the first paragraph is `S001`, the last is `S080`.

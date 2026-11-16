@@ -1,14 +1,17 @@
-# Operation Mincemeat — historical Long (1943)
+# Operation Mincemeat — three editorial Long cuts (Nuviko History)
 
-EDITORIAL_CANDIDATE_UNREGISTERED — proposed **Nuviko History** English illustrated Long 16:9. Owner requested full story, not a Short. No registered `ytv start` run, owner approval or independent review.
+**Logline:** A dead courier carried fake invasion letters that Germany trusted because it believed it had intercepted a British secret, while the Allies prepared to land on Sicily. **Status:** `EDITORIAL_CANDIDATE_UNREGISTERED` (no runtime, reviewer or approval). Owner requested full historical Long; this is its existing Draft PR, not a new production run.
 
-- [EN narrator master](script.en.txt): **1464 words / 80 matched narrative blocks**, complete start, escalation, payoff and aftermath.
-- [Complete natural Russian translation](script.ru.txt): 80 matched blocks, same facts, qualifiers and ending.
-- [Evidence and sources](research.md) · [Authorial story review](story-review.md) · [Block-to-visual coverage](storyboard.md) · [Three title/thumbnail concepts](packaging-brief.md) · [Pinned-runtime handoff](handoff.md).
-- Episode premise: Germany was meant to *steal* the letters pointing towards Greece and Sardinia while the Allies invaded Sicily. A briefcase alone cannot explain the campaign's success.
-- Recorded dates: body discovered on April 30, 1943; Sicily landings began July 10. Approximate narrated duration from word count only; measured TTS UNVERIFIED. Separate 10s end screen per Nuviko History channel.
-- No images, paid generators, TTS, video, music, subtitles, native YouTube settings or publish. Not an official production script gate.
+| Target | Complete EN | Complete RU | EN words | Review status |
+|---|---|---|---:|---|
+| 02m | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | 311 | Written, author checked; independent UNVERIFIED |
+| **05m (recommended)** | **[EN](variants/05m/script.en.txt)** | **[RU](variants/05m/script.ru.txt)** | **676** | Written, author checked; independent UNVERIFIED |
+| 10m | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | 1465 | Written, author checked; independent UNVERIFIED |
 
-## Revision for Long-form promises
-- Aligned with merged docs PR #90: concrete body-and-briefcase S001, three linked questions at S002, then the Sicily problem immediately. New document-readiness questions at the historical turning points; payoff before the end.
-- The full revised EN/RU master replaces the prior candidate text. Exact old hashes, script-scene receipt and prior timing assumptions cannot be re-used. Independent first-listener/bilingual approval UNVERIFIED.
+**Why 05m:** shows the full chain of credibility → delivery → copied letters → decoded German response → Sicilian invasion. The 02m version necessarily compresses the German-access uncertainty; 10m adds planners, bureaucracy, and post-war identity but stalls after the central mechanism becomes clear. This choice is editorial, not measured retention or owner approval.
+
+The previously strong [original English text](script.en.txt) and [Russian translation](script.ru.txt) (80 paragraphs each) remain intact as an alternate baseline. 10m retains almost all of that material, adjusting only the question-first Long opening to current canonical standards. [Original provisional storyboard](storyboard.md) belongs to those **original** source files, not automatically to any of the three variants.
+
+[Shared research/evidence](research.md) · [Full individual scoring, maps, exact hashes and blockers](story-review.md) · [Original packaging concepts](packaging-brief.md) · [Handoff](handoff.md).
+
+**Production constraints:** three scripts are 16:9 Long editorial options compatible with `nuviko_history`, whose voice speed and profile remain unchanged. Timings are estimated from words, not measured TTS. One selected exact master, new independent review and official script gate are required. There is no MP4, TTS, scene rendering, source-media rights approval or YouTube publication.

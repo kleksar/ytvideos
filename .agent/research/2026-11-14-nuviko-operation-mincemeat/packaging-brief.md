@@ -1,3 +1,5 @@
+> **Version scope:** Existing S001–S080 packaging promises and beat references below apply only to the unchanged original source narration at baseline `ad87ee84dcf2097c3ea9dc8d95bed09a76807b4b`. Concepts are editorial hypotheses, not current packaged `variants/` assets. After a specific variant is chosen, recheck title ↔ first action ↔ payoff against its exact hash; do not reuse old S spans or claim thumbnail/CTR evidence.
+
 # Operation Mincemeat — three conceptually distinct Long title/thumbnail pairs
 
 These are **hypotheses**, not achieved CTR, native tests, approved AI images or final release metadata. Channel: Nuviko History EN, Long 16:9. Historical AI reconstruction with Nuviko profile and real references when used.

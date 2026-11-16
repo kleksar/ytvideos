@@ -1,15 +1,11 @@
-# Handoff — original local pinned workflow required
+# Handoff — select one exact editorial variant; no runtime registered
 
-This PR is eight plain-text editorial candidate files. GitHub connector can review it but cannot execute the repository's `uv run ytv start`, with local run store, materialized packet and runtime receipts.
+**PR #89, branch `work/story-drafts/nuviko-operation-mincemeat-long-20261114`**, baseline `ad87ee84dcf2097c3ea9dc8d95bed09a76807b4b`. The six texts and SHA-256 values are in [story-review.md](story-review.md). Owner has not approved a variant; 05m is only the author's recommendation. **Status `EDITORIAL_CANDIDATE_UNREGISTERED`.**
 
-1. Check local authorized store for existing `Operation Mincemeat / nuviko_history / long` run before creating a new one. Never duplicate an active run.
-2. If none, use `uv run ytv start --channel nuviko_history --format long --intent 'Owner requested full historical Long on Operation Mincemeat, 1943; editorial source .agent/research/2026-11-14-nuviko-operation-mincemeat'`; actual command must execute in authorized workspace and must not run merely to falsify a check.
-3. From actual `read_next`, read full pinned `task_guide`, stage skill, `production_requirements` and `reference_documents`; don't assume this handoff replaces them. Feed source research/EN narration into real research/script tasks under their contracts.
-4. Fresh independent reviewer must read exact English text without author's review, flag drop-off and false promises, review complete Russian equivalence, and produce genuine `ytv-script-review-v1` receipt. The PR does not claim that receipt.
-5. Move to `awaiting_script_approval` only after real `ytv` checks and show owner complete EN/RU scripts. Prior owner's request for **two PRs** is not approval of script, TTS, production or publication.
-6. After approval plan storyboard scene coverage with actual accepted TTS word/scene timing, real image references, governed credits, native 16:9 2K/30fps profile, soundtrack, subtitles, and separate 10-second end-screen composition.
-7. Production/deployment/publish and merge prohibited until authorized. No changes made to other PRs, docs, skills or channel profile.
+1. In an authorized pinned checkout/store, check existing runs and production status for `nuviko_history` / Operation Mincemeat before any `start`. A GitHub Draft is not a run. Do not replace existing pins with a branch checkout; migrate explicitly if required.
+2. Show owner all three complete EN/RU editions and the comparison. Independent first listener must read exact **EN** candidate without this writer's scores, then full text/EN↔RU; disclose source ledger after its first response. Reviewer must save its own response in current `ytv-script-review-v1` schema. Do not manufacture receipts or PASS.
+3. Once one exact text is selected, use `uv run ytv start --channel nuviko_history --format long --intent 'Operation Mincemeat: approved selected edition'` only under a genuinely authorized local coordinator, or resume an existing run. Attach other editions `--kind script_variant`, review `--kind story_review` per actual task contract, inspect returned IDs and pinned task packet. The written example command has **not** been run.
+4. Real `awaiting_script_approval` and then storyboard require the selected exact hash and the owner's actual decision. The existing original 80-beat [storyboard](storyboard.md) is **NOT** a validated scene map for any new variant, including 10m with a changed opening. Determine scenes from selected narration and measured TTS; honor Nuviko historical visuals, music, 16:9 delivery and separate 10s end screen.
+5. Image generation, paid audio, MP4, external video providers, YouTube upload/publish and branch merge remain unauthorized. `UNVERIFIED`: current local runtime, independent reviewer availability, rights, TTS, actual timings, retention/CTR and host capabilities.
 
-## Revised narration handoff
-- This PR now uses Long-form opening instructions merged in docs PR #90. Treat `script.en.txt` and `script.ru.txt` in the **current PR head** as fresh candidate versions; never use old commit `67c6558222f56ca2306de0c26b68515df6f3a97a` scripts as accepted evidence.
-- Reviewer receives exact S001–S007 alone first and reports expected promise unaided; then full S001–S080, EN/RU equivalence and factual/retention risks. Scene coverage IDs remain positional and do not certify timing.
+Historical owner feedback (#90) is retained in the unmodified source documents and the historical section of story-review. Neither the previous review nor any old review applies automatically to newly hashed variants.
