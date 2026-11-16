@@ -1,0 +1,73 @@
+Why would I deliberately leave our only bathroom empty while two people are racing to leave by eight? Can an unused room make the morning shorter? And what would have to change for that same trick to make us late instead?
+
+At seven thirty-seven, Sam and I have twenty-three minutes before we need to go. We have one shower, one sink, and one bathroom door. But our clothes are in separate bedrooms and our shoes are by the front door.
+
+I used to think the smart plan was obvious: make sure the bathroom is never empty until both of us have finished every bathroom task. No idle minutes, no repeated visits, nothing to coordinate. When Sam asked for a different order, it sounded like adding work to an already crowded morning.
+
+So I'm going to treat our morning like a little scheduling puzzle. Not a filmed experiment. Not a claim about how long anyone else needs to shower. I choose fixed durations, keep them unchanged between A and B, and check exactly when the last person is ready.
+
+Here are the jobs, so the two sides have the same starting line. My shower lasts four minutes. Brushing my teeth at the sink takes three. Getting dressed in my bedroom takes ten. Shoes take one minute. Sam's shower takes five, brushing takes two, dressing takes ten, and shoes take one. Each of us must shower before getting dressed. We can brush either before or after dressing. Shoes come last. We cannot share the bathroom. Dressing can happen in parallel in separate bedrooms. We start at the same instant with everything laid out.
+
+That's eighteen minutes of tasks for me and eighteen for Sam: thirty-six person-minutes of work. The room itself will be needed for fourteen of those minutes. None of that tells us yet how many minutes pass on the wall clock. Working at the same time can make thirty-six person-minutes fit into less than thirty-six minutes of real time.
+
+Here are the two methods. A is simple: whoever enters the bathroom finishes the shower and teeth before leaving. I go first, Sam next. Outside tasks may overlap with anyone else's bathroom turn. B separates shower and brushing: I shower, Sam showers, then we return to the sink when our dressing is done. Both methods allow parallel dressing. Neither gives anyone an extra person, an earlier start, or a shortcut on a task.
+
+Let's start A at seven thirty-seven. I shower until seven forty-one, then brush until seven forty-four. Seven minutes. As I walk to my bedroom, Sam takes the shower. Sam is there for five minutes, until seven forty-nine, then brushes for two more, until seven fifty-one.
+
+The bathroom has been occupied from the first minute until the fourteenth. If I were measuring bathroom utilization, I'd be delighted: one hundred percent busy during that block. All fourteen minutes of bathroom work are already finished at seven fifty-one.
+
+Meanwhile, I have been dressing from seven forty-four to seven fifty-four. I put on my shoes from seven fifty-four to seven fifty-five. I'm done twenty minutes before eight? No. Look at the real clock: I'm ready at seven fifty-five, five minutes before eight. Sam, however, only just left the bathroom at seven fifty-one.
+
+Sam gets dressed for ten minutes, until eight oh-one, and takes another minute for shoes. Our departure time isn't my finish. It's the later finish. At eight oh-two we can finally leave together, two minutes too late.
+
+I could complain that Sam was slow, but Sam wasn't. Every task took the number of minutes we agreed on. What happened was that the last person left the bathroom with eleven minutes of outside work still ahead.
+
+Now I rewind to seven thirty-seven. No task gets shorter. The deadline hasn't moved. Same people, same bathroom, same thirty-six person-minutes.
+
+In B I shower first, from seven thirty-seven to seven forty-one. Then I leave immediately. My teeth will wait. Sam takes the bathroom for the five-minute shower from seven forty-one to seven forty-six. At the very same time, I start my ten minutes of dressing.
+
+At seven forty-six, Sam leaves the bathroom without brushing, and begins dressing. The room is now empty. Nobody is queueing for it. I still have five minutes of dressing left. Sam has just begun ten minutes of dressing. That empty room is the first point where the picture seems to contradict the plan.
+
+Five minutes pass. It's seven fifty-one. I have finished dressing. Now I return to the empty bathroom, brush for three minutes, and leave at seven fifty-four. My shoes go on by seven fifty-five. My finish is unchanged from A.
+
+But Sam's timeline has moved. Sam has been dressing since seven forty-six instead of seven fifty-one. That is the important overlap. While I was brushing, Sam was still working in the bedroom. And after I leave the sink, the bathroom sits empty for another two minutes because Sam is not dressed yet.
+
+At seven fifty-six Sam returns, brushes until seven fifty-eight, puts on shoes, and is ready at seven fifty-nine. One minute before the deadline.
+
+The bathroom was empty for five minutes, then two more. Seven minutes without anybody using it. Yet both of us are ready in twenty-two minutes instead of twenty-five. B wins by three minutes.
+
+At this point the easy explanation is that B used the bathroom for less time. But that isn't true. In both methods I shower for four and brush for three. Sam showers for five and brushes for two. Four plus three plus five plus two is fourteen. Exactly the same bathroom load.
+
+Maybe B wins because I got ready faster? That isn't true either. My finishing time is seven fifty-five under both plans. Only Sam's finish changes: eight oh-two in A, seven fifty-nine in B. We saved time for the last person, not for the first.
+
+Here is the useful distinction: there are two different clocks. One measures how many minutes a room is occupied. The other measures when the last person is ready to leave. Keeping the first clock busy doesn't necessarily minimize the second. An idle room is not an idle person.
+
+In A, the bathroom is a perfectly packed fourteen-minute block. But Sam's ten-minute dressing happens after Sam's bathroom turn. In B, the bathroom jobs are spread across twenty-one minutes. That looks worse for the room. Yet some of Sam's ten minutes happen while I am still dealing with my own jobs. The bedroom work starts five minutes earlier.
+
+If I drew this on paper, I'd use two horizontal rows, one for me and one for Sam. Every shower and brushing block needs the same shared bathroom; the clothing blocks can overlap. In A, Sam's clothing block starts at minute fourteen. In B, it starts at minute nine. It is the position of that block, not the total bathroom time, that creates the different departure.
+
+Now for the objection I would have raised myself: why not have Sam go first in A? Wouldn't that be fairer, or faster? Let's try it without pretending it's a third method. Sam takes seven bathroom minutes first, then starts ten minutes of dressing. I take my seven bathroom minutes second, starting at minute seven and finishing at minute fourteen. I dress from fourteen to twenty-four and finish shoes at twenty-five. The later finish is still minute twenty-five. The first person changes, but the shared departure does not under these particular symmetric outside jobs.
+
+What if we define success differently? Suppose I have to leave alone as soon as I'm ready. Both A and B get me out at seven fifty-five. B buys me nothing personally, although it lets us leave together three minutes earlier. This is why I announced the metric before starting. The winner for a shared departure need not be the winner for an individual one.
+
+We also need to be honest about the seven empty minutes. The empty room isn't magical. It helps only because dressing can happen without it, both people have something independent to do, and going back to the sink costs nothing extra in this base model. If the bedrooms were occupied by a third person, if we had to dress in the bathroom, or if we spent several minutes searching for toothbrushes on every return, the schedule would change. Those are different assumptions. We do not silently add them to A but ignore them in B.
+
+Let's examine the return-trip cost, since B has an extra bathroom visit for each person. Imagine a simple setup penalty: before brushing on a return visit, each of us must spend an additional fixed amount of time setting things up in the bathroom. This is invented for the sensitivity test, not a measurement of walking through a doorway. In A there is no return visit; our bathroom jobs stay together.
+
+If the penalty is one minute per return, I come back after dressing at minute fourteen, spend one minute setting up, brush three minutes, and leave at minute eighteen. Sam, who finished dressing at minute nineteen, returns then; one minute of setup and two of brushing bring Sam to minute twenty-two. Shoes make the shared departure minute twenty-three. B still wins, but only by two minutes.
+
+If the return costs two minutes each, I finish my bathroom visit at minute nineteen. Sam is finished dressing at minute nineteen and can enter next. Sam needs two minutes of setup and two of brushing, plus one for shoes. We both finish by minute twenty-four. B wins by just one minute.
+
+At three minutes of setup for each return, the balance flips. My return starts at minute fourteen, consumes three minutes of setup and three brushing, ending at minute twenty. Sam has been ready to return since minute nineteen, so Sam waits one minute. Three of setup, two of brushing, and one for shoes make the final finish minute twenty-six. A, at twenty-five, is now one minute faster.
+
+Notice what did not change: the showers, dressing, and actual brushing. We deliberately introduced a new cost and disclosed it on both sides. There is no honest universal winner when the return cost is unknown. In this particular schedule, the switch happens between two and three added minutes per return.
+
+Another objection is whether keeping the bathroom continuously busy might be important for some other reason: perhaps the hot water, the noise, or a family member with a different deadline. Maybe. But our model has no hot-water recovery constraint and no such third person. I cannot use those things as secret reasons for a result. They would need their own declared inputs and a new calculation.
+
+And there is a practical tradeoff even before any setup penalty. B asks me to interrupt the familiar sequence of shower, brush, leave. I have to remember to return. If I forget, our fixed schedule no longer describes the morning. This script does not estimate the chance of forgetting, so it cannot prove that B is a better habit for every household.
+
+This is what I'd really take from the puzzle. When two people share one resource, do not ask only whether that resource was busy. Ask which person will be last, and whether the other person can do a useful independent job in the meantime. Sometimes keeping the resource empty for a while makes the whole job finish earlier. Sometimes extra transitions erase the gain.
+
+For our fixed morning, the result is exact: with no reset penalty, A gets us out at eight oh-two and B at seven fifty-nine. The shorter wall-clock time comes from overlapping the dressing, not from skipping work. With a three-minute penalty on every return, A reverses the result.
+
+Tomorrow morning, if I see the bathroom empty while Sam is dressing, I won't call those minutes wasted before looking at our actual departure clock. That was the mistake I made when I started this comparison.
