@@ -1,0 +1,27 @@
+{
+  "video_resolution": "1920x1080",
+  "fps": 30,
+  "video_codec": "H264",
+  "crf": 16,
+  "preset": {
+    "mind": "slow",
+    "everyone": "fast"
+  },
+  "image_sources": {
+    "mind": 110,
+    "everyone": 122
+  },
+  "audio": "Unmodified AAC stream copy from approved masters",
+  "intro_inputs": "720p24 source, upscaled Lanczos; not native1080p",
+  "subtitle_files": [
+    "MIND_READING.en.srt",
+    "EVERYONE_WANTS_YOU.en.srt"
+  ],
+  "intended_visibility": "private",
+  "upload_method": "Chrome UI",
+  "expected_frames": {
+    "mind": 6252,
+    "everyone": 6198
+  },
+  "fix": "Everyone Alone hold31frames: setpts after tpad prevents timestamp duplicate dropped frames"
+}
