@@ -12,4 +12,6 @@
 
 [Главред Борисенко](glavred_borisenko/PROFILE.md) ведётся вручную вне автоматического workflow. [Stories RU/EN](nuviko_stories/AGENTS.md) — отдельный ручной архив. Эти identities не заменяют ни один из пяти профилей. Подключение другого канала требует подтверждённой identity, прав, применимого голоса, календаря и исполняемого recipe.
 
+[Oddly Drawn](oddly_drawn/PROFILE.md) имеет редакционный профиль рассказчика; ChannelSpec и исполняемый recipe пока не зарегистрированы. Этот документ не добавляет шестой автоматизированный канал.
+
 Общие brand assets и provenance — [BRAND_ASSETS](BRAND_ASSETS.md). Канальный профиль не подтверждает наличие всех media в checkout.
