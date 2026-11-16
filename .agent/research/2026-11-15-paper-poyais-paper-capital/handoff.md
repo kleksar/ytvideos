@@ -19,6 +19,6 @@ Files: README.md, research.md, script.en.txt (Git blob `a1f81096b7d05c15283607f3
 |---|---|---|---:|---|---|
 | 2m Long | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | 243 | 97–117 сек. + паузы | Самостоятельная краткая версия, акцент на человеческих потерях |
 | **5m Long** | [EN](variants/05m/script.en.txt) | [RU](variants/05m/script.ru.txt) | **671** | 268–322 сек. + паузы | **Рекомендована к first-listener review** |
-| 10m Long | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | 1371 | 548–658 сек. + паузы | Более глубокая финансово-колониальная версия, риск перегруза |
+| 10m Long | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | 1360 | 548–658 сек. + паузы | Более глубокая финансово-колониальная версия, риск перегруза |
 
 All variants are Git-only `EDITORIAL_CANDIDATE_UNREGISTERED`; exact SHA-256 and Git blobs in `story-review.md`. Baseline master and `storyboard.json` still refer to original `1e4fe7d9435c8693d53d88e49e6570ed15a77797`. A selected script is ONE new master and needs owner decision, fresh independent first-listener reading tied to exact hash, new storyboard only for that master, actual runtime context with pins, and real script approval before any production. Never treat PR update as `ytv start` or existing runtime migration. Reference `#124` was proposed revision `7d6bdf7702a2a241a33a21677fce29f26ada9b72` at this review, not main. No TTS, image generation, AV, upload or publication done.
