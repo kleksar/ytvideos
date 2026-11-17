@@ -4,13 +4,15 @@
 
 ## Current production contract
 
-1. Complete the unchanged approved story.
-2. Preserve an emotional pause, fade to black, then emerge into a clearly separate discussion block.
-3. Ask the existing completed-story discussion question. This is required, not an optional written substitute.
-4. Show the universal ImageGen previous-story endscreen for a full 10 seconds (300 frames at 30fps).
-5. Show a separate 10-second postcredit containing the **exact approved opening of the next episode**, not a newly invented riddle card or rewritten hook.
+Opening: retain the original approved opening/animation (including the hand transition only if it existed) followed by the original hook and story. No opening riddle, no headerless riddle substitute, no added ten-second intro, and no added clue recap. The former exact-intro/postcredit contract is cancelled.
 
-The recommendation and postcredit occupy the last20seconds as two separate blocks. Actual YouTube card placement/visibility remains UNVERIFIED until Studio inspection. Do not infer platform readiness from a rendered safe zone. Review all five real openings/questions and their timing before rendering the rollout. An improved-opening suggestion is not approval to change the accepted source. No new rollout rendering is authorized by this document alone.
+1. Complete the unchanged approved story.
+2. Preserve an emotional pause, fade to black, then emerge into a separate discussion block.
+3. Ask the existing completed-story discussion question. Match its character to actual story references.
+4. Show the universal previous-story endscreen for 10 seconds (300 frames at30fps).
+5. Show the approved NEXT-story riddle for another10seconds. This is a guessing teaser, not the literal opening of the following episode.
+
+The final600frames are exactly300previous-card frames followed by300next-riddle frames, with EOF immediately after them. No additional black tail or audio extension. Actual YouTube card placement remains UNVERIFIED until Studio inspection. Approved original narrative material and effective voice speed stay unchanged. Generic universal endscreen host stays locked; story-specific discussion characters require their own continuity check.
 
 Previous mapping: Everyone→Mind; Teleportation→Everyone; Wishes→Teleportation; Rewind→Wishes. Initial Mind has no invented predecessor. Future postcredit route: Mind→Everyone→Teleportation→Wishes→Rewind→Mind. Do not fabricate publication state or real YouTube destinations.
 
@@ -18,7 +20,7 @@ Real audience answers from the previous release have an optional short post-hook
 
 ## Superseded version retained for provenance
 
-The following five riddle/reveal texts were previously approved. They remain source evidence and reusable assets, but the latest exact-opening postcredit replaces the standalone riddle-card assembly. They are **not current instructions to insert an additional riddle block**. Earlier 0–5s/5–10s shorthand or future-card release phases do not override the current contract above. Preserve existing masters and derivative files rather than relabelling an old preview as the new final.
+The five riddle texts remain the approved outgoing teasers, now located AFTER the previous-story endscreen. Their old proposed post-hook reveal paragraphs below are historical only: do not add a recap or riddle to the next opening. Earlier 0–5s/5–10s shorthand or future-card release phases do not override the current contract above. Preserve existing masters and derivative files rather than relabelling an old preview as the new final.
 
 Source context: owner messages `876912cc`, `7a420f8e`, `f08910d8`; source responses `ba706da2` and `58d80760`. Exact private access locators remain outside Git. Later direct owner instructions take precedence over source-package suggestions.
 
@@ -129,11 +131,20 @@ Do not insert names unless there are real relevant contributions and permission 
 
 ## Implementation status and closure gate
 
-The approved PNG templates do not prove that all five MP4 endings have been rebuilt. Existing three-part previews predate the exact-opening postcredit decision. Earlier previews without a discussion block are intermediate, not final. Keep story dialogue and its approved voice unchanged. Measure each new block at the approved voice speed; do not force the discussion plus riddle into the final ten seconds. Real YouTube endscreen elements remain a separate Studio action and must not be represented as installed merely because the rendered safe zone exists.
+The approved PNG templates do not prove that all five MP4 endings have been rebuilt. Previews with an added riddle intro are superseded and must not be delivered as current finals. Earlier previews without a discussion block are intermediate, not final. Keep story dialogue and its approved voice unchanged. Measure each new block at the approved voice speed; do not force the discussion plus riddle into the final ten seconds. Real YouTube endscreen elements remain a separate Studio action and must not be represented as installed merely because the rendered safe zone exists.
 
 Three Wishes discussion source (retain exact wording unless explicitly revised):
 > You’ve received the money, but haven’t made your second wish. What would you ask for instead of permanent happiness—and what limit would you accept?
 
-For the other stories use their existing approved source-package discussion questions, not newly invented replacements. The Everyone visual rehearsal is an implementation example under review, not a selected final artifact by virtue of this document. A finished delivery requires the actual story/pause/black/discussion/ten-second previous-card/ten-second exact-next-opening sequence, subtitle timings, image/source provenance, full decode and honest visual/audio QA for the exact exported file. No media changes or new voice generation are performed by this documentation commit.
+For the other stories use their existing approved source-package discussion questions, not newly invented replacements. The Everyone visual rehearsal is an implementation example under review, not a selected final artifact by virtue of this document. A finished delivery requires the actual story/pause/black/discussion/ten-second previous-card/ten-second next-story-riddle sequence, subtitle timings, image/source provenance, full decode and honest visual/audio QA for the exact exported file. No media changes or new voice generation are performed by this documentation commit.
 
-Canonical clip rule: each episode has one approved 10-second introductory clip, reused exactly as the previous episode’s postcredit. Store one source artifact and SHA, not separately regenerated lookalikes. Prepend that canonical introduction before the unchanged original hook/story. Remove the previously added post-hook clue-recap insert so it does not duplicate the new introduction. Existing source dialogue, effective voice speed and core scenes are unchanged; no new opening prose is approved merely by suggesting it. Render the rollout only after the coordinator’s five-opening/question review is complete and the exact canonical files are provided.
+
+## Exact completed-story discussion questions
+
+- Mind: How would you test your opponent's thoughts before making a big bet—and what could your test still fail to prove?
+- Everyone: Your face is covered, but the people who already saw it are still following. What's your next move—and where could it fail?
+- Teleportation: You've discovered the copies. Your mom doesn't know. Would you tell her—and how would you explain who is standing in front of her?
+- Three Wishes: You've received the money, but haven't made your second wish. What would you ask for instead of permanent happiness—and what limit would you accept?
+- Rewind: After twenty failed loops, what's one thing you'd change on the next attempt to learn something new?
+
+These are source-package discussion prompts, not audience submissions. Real verified answers can be acknowledged separately only when available. No invented viewers, quotes or votes.

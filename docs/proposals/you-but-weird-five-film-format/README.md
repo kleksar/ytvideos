@@ -1,6 +1,6 @@
 # You But Weird: five-film format discussion
 
-Status: **latest owner-approved sequence is story → pause → fade black → completed-story discussion → 10-second previous-story endscreen → 10-second exact-next-opening postcredit**. Actual five-opening analysis and new assembly remain pending. Earlier riddle-card previews are not final under this rule. The source texts below remain historical evidence, not a later owner instruction. No media or YouTube settings change in this documentation update.
+Status: **latest owner-approved sequence is story → pause → fade black → completed-story discussion → 10-second previous-story endscreen → 10-second next-story riddle**. Original openings must remain intact; remove the experimental riddle intros. Any preview still containing an added riddle intro is superseded. The source texts below remain historical evidence, not a later owner instruction. No media or YouTube settings change in this documentation update.
 
 ## Observed package versus proposed chain
 
@@ -30,8 +30,8 @@ This snapshot does not verify current YouTube video IDs, public/unlisted/private
 
 ## Remaining execution checks
 
-- Analyze all five exact approved openings and discussion questions before new rendering.
-- Select exact source media/timestamps for postcredits without rewriting their words; retain SHA/provenance.
+- Verify each original opening/hand animation against its actual approved baseline; do not invent missing animation.
+- Reuse the approved outgoing next-story riddle only at the end; preserve source words/SHA/provenance.
 - Keep the first Mind predecessor null; verify other previous-video destinations in Studio.
 - Implement and verify the latest ordered blocks, subtitles, voice/visual continuity and actual UI placement.
 - Preserve truthful real-comment insertion points; no manufactured audience replies.

@@ -16,7 +16,7 @@ Use the accepted PNG as the derivative edit reference. Changes are limited to th
 
 Everyone→previous Mind; Teleportation→previous Everyone; Three Wishes→previous Teleportation; Rewind→previous Three Wishes. Mind is the first story and has no invented previous episode: mapping is null. Do not claim Rewind came before Mind in the initial chronological rollout. No previous-video label/destination is assigned to Mind until an explicit truthful alternative is selected.
 
-The current sequence is governed by [editorial](../../standards/editorial.md#you-but-weird-discussion-previous-story-and-postcredits): story/pause/black/discussion, then this full300-frame/30fps previous-story endscreen, then a separate10-second exact-next-opening postcredit. Thus this accepted image is no longer literally the last10seconds. Its visual approval remains unchanged. Do not shorten its10seconds or conflate the next-story preview with the previous-story recommendation.
+The current sequence is governed by [editorial](../../standards/editorial.md#you-but-weird-discussion-previous-story-and-postcredits): story/pause/black/discussion, then this full300-frame/30fps previous-story endscreen, then a separate10-second next-story riddle. Thus this accepted image is no longer literally the last10seconds. Its visual approval remains unchanged. Do not shorten its10seconds or conflate the next-story preview with the previous-story recommendation.
 
 ## Real-card placement
 
