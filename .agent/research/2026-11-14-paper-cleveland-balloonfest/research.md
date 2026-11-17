@@ -49,3 +49,32 @@ Decision: A is stronger than B for this **specific** Paper Detour Short because 
 ## Demand and queue comparability
 Observed source: 2018 six-minute documentary listing S5; it establishes audience-facing interest and a visual approach, not Short retention. 2026 local 40-year retrospective S3 supplies current editorial relevance, **not** performance. The Defector article says an Atlantic 2018 film accumulated views, but no current verified public count or same-author baseline was captured; do not infer CTR/retention/multipliers. Own channel Studio, age-matched competitor analytics, vidIQ live balance and actual audience breakdown: UNVERIFIED. Target hypothesis: English broad-curiosity viewers can follow a charity stunt's tradeoff without prior local knowledge. Do not promise outcomes.
 Existing Paper queue includes, among others, #65 Mona Lisa, #63 Flagship, #57 Lal Bihari, #51 Pepsi, #47 marathon, #25 Lawnchair Larry. Balloonfest is distinct collective/environmental spectacle vs individual theft/absurdity; note Larry also uses balloons but his single-person flight and payoff differ completely. Lake Peigneur in #24 is a Nuviko duplicate candidate, excluded. Owner rejected Carrington telegraph #13 as too dull. No new issues created.
+
+---
+## 2026-11-17 expansion — same event, three lengths
+Baseline exact story scripts remain unchanged from ca3957a1baf5e9bcb72a6ca2a538e0eebd8dbefa. The current canonical 2/5/10 requirements entered main after merged PR #124 (proposed revision 7d6bdf7702a2a241a33a21677fce29f26ada9b72), alongside merged documentary Long opening rules from #117. Original research above is preserved; this is one shared evidence record.
+
+Additional detailed-source register (publication dates refer to articles; witness testimony is retrospective):
+- S11: https://www.clevelandmagazine.com/articles/balloonfest-86-an-oral-history-of-clevelands-record-setting-balloon-release/ — Cleveland Magazine, 2026-09-13. Interviews with George Fraser, Treb Heining associates, operations lead Tom Holowach, volunteers and photographer. Supports Disneyland inspiration, student participation, net/helium infrastructure, milk crates, pre-launch wind damage and repairs, belated permit, NOAA warning, helicopter photographs. Participant memory forty years later, not contemporary primary logs.
+- S12: https://www.ohiocoopliving.com/downdraft — Ohio Cooperative Living, 2025. Secondary account of Heining, volunteers, logistics, wind/rain and Guinness count; timings and airport claims differ between sources.
+- S13: https://defector.com/balloonfest-made-cleveland-a-laughingstock-did-it-deserve-it — Defector, 2023-12-11, retrospective with original reportage: initial 2-million plan was reduced during preparation, not the weather emergency; I-90 eyewitness; preexisting fishermen search; recorded Guinness 1,429,643. Same reporter as S11, so not independent corroboration for all details.
+- S14: https://www.ideastream.org/community/2026-09-27/balloonfest-40-years-later-shifting-winds-shifting-perceptions — Ideastream, 2026-09-27. Source for traffic, earlier fishermen disappearance, Coast Guard search interference and nuanced contemporary reaction; historian says men probably drowned before launch, not because of balloons.
+- S15: https://case.edu/ech/articles/b/balloonfest — Case Western Reserve Encyclopedia of Cleveland History (2023-12-14 revision). Background, legal allegations, lake/Ontario debris. Avoid its strongest shorthand implying balloons caused fatalities.
+
+Additional claim checks tied to exact full versions:
+| Claim | Appears in | Source / qualifier |
+|---|---|---|
+| Fraser inspired by Disneyland and wish to attract volunteers | 05m / 10m | S11, S13 — cited as organizers' intention, no measured impact |
+| Heining visited Public Square, net city-block scale, volunteers and valves | 05m / 10m | S11/S12 — no fabricated dialogue |
+| Original 2m balloon plan reduced in planning | 10m | S13 — explicitly BEFORE last-minute weather decision |
+| Holowach milk crates, permit, overnight net repair, taped fingers, aerial photographer | 10m | S11 retrospective participants, no verified contemporary permitting log |
+| Early release on storm threat, balloon descent | all | S11/S12/S14; exact timing varies, omitted |
+| Highway traffic disruption and multicar collision | all | S3/S14; avoid unsourced precise vehicle count or individual injury depiction |
+| Airport closure cause | 10m ONLY, marked disputed | S11 participant disagrees with S12/S14; no reliable operations log fetched |
+| Missing fishermen and impeded search, not cause of deaths | all | S13/S14; disappearance before balloon release, strongest allegation rejected |
+| Horse's owner alleged harm and sued | all | S1/S15; allegation, not adjudicated injury observation |
+| Canadian shore debris weeks later | all | S1/S12/S15; no invented exact quantity |
+| Guinness 1,429,643; record successfully set | all | S12/S13; exact number secondary attribution, no direct register accessed |
+
+Audience evidence: the 2018 documentary listing in S5 and 2026 anniversary coverage show historical/editorial attention, not 2026 demand or measured CTR/retention. No comparably timed YouTube public view count read-back was obtained; demand is UNVERIFIED. The Long variants' new statements are mapped above and should be challenged independently before approval.
+

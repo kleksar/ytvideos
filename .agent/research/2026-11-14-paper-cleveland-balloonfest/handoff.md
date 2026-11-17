@@ -11,3 +11,11 @@ EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официал
 - Paper plane: proposed S006 rooftop railing; do NOT mention in narration; actual approved sample must be accessed and SHA-256 matched before media use.
 - Scene time: **unmeasured** 4–6-second composition target, not validated voice timings or frame cuts. Final audio/visual loop only testable after real MP4; currently UNVERIFIED.
 - Permissions: text-only new Draft PR, no merge, no edits outside this folder. All production/media/publication/channel status changes prohibited by this task.
+
+---
+## 2026-11-17 revised queue handoff: 2/5/10m
+Prior handoff above documents original draft as historical evidence. Current editorial-only package uses variants/02m, variants/05m and variants/10m with six complete scripts and SHA-256 values in story-review.md. Original script files and all production pins remain unchanged.
+Recommended version: 05m Long; recommendation is not owner selection, approval or a launch. Current paper_detour ChannelSpec supports Long; old S001–S014 storyboard is pinned solely to byte-identical original 02m script. Separate 05m/10m scene spans and visual plan are still needed if selected.
+Unavailable: local trusted checkout and saved ytv project store, so canonical context/pins, recorded claim and official ytv runtime gate cannot be produced here. No independent reviewer session or raw ytv-script-review-v1 answer exists; author self-review is not a substitute. No media, provider access, TTS, screenshots, real AV seam, measured duration or publication.
+Transfer: check out this exact PR and current canonical runtime; read ytv context, run documented start/claim, attach each script through supported --kind script_variant and review through --kind story_review, preserving returned artifact IDs and exact hashes; supply selected precise script and blinded first-listener reading, only then route one version to owner script gate. Never migrate existing runtime pins merely by checkout. For Long chosen later, build new storyboard tied to selected script hash. Do not reuse original Short scene prompts/timings. Continue next unrevised story #66 after checking fresh status.
+
