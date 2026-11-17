@@ -1,6 +1,6 @@
 # You But Weird: five-film format discussion
 
-Status: **OWNER-APPROVED FORMAT, scoped to final GUESS THE NEXT POWER revision.** The five riddles, route and short post-hook reveals are approved. Latest ending policy: finish story and pause, separate future riddle plus invitation to guess, then an additional full ten-second end screen for the previous story. This supersedes the former combined outro / future-video-card strategy. No media or YouTube setting changed here. Superseded moral-answer modules and retrospective reuploads are not approved by this record.
+Status: **latest owner-approved sequence is story → pause → fade black → completed-story discussion → 10-second previous-story endscreen → 10-second exact-next-opening postcredit**. Actual five-opening analysis and new assembly remain pending. Earlier riddle-card previews are not final under this rule. The source texts below remain historical evidence, not a later owner instruction. No media or YouTube settings change in this documentation update.
 
 ## Observed package versus proposed chain
 
@@ -28,15 +28,15 @@ Candidate cycle: **Mind → Everyone → Teleportation → Wishes → Rewind →
 
 This snapshot does not verify current YouTube video IDs, public/unlisted/private state, live end-screen destinations, or a complete five-film published chain. Historic links or earlier upload receipts alone do not establish current availability. Original media remains untouched; a lightweight viewing derivative is not the delivery master.
 
-## Questions to settle before any creative migration
+## Remaining execution checks
 
-1. Is the proposed five-film recommendation cycle desired, or should links follow release order?
-2. The primary spoken prompt is now a riddle about the next power. Which exact clues and reveal lines work best? Moral questions remain optional written discussion, not a competing spoken prompt.
-3. Where should an answer or brief recap appear in the next release without delaying its hook?
-4. How should a first-time viewer understand an episode without watching the previous one?
-5. Which existing videos may be edited, and which should remain historical originals?
+- Analyze all five exact approved openings and discussion questions before new rendering.
+- Select exact source media/timestamps for postcredits without rewriting their words; retain SHA/provenance.
+- Keep the first Mind predecessor null; verify other previous-video destinations in Studio.
+- Implement and verify the latest ordered blocks, subtitles, voice/visual continuity and actual UI placement.
+- Preserve truthful real-comment insertion points; no manufactured audience replies.
 
-The [format proposal](FORMAT_PROPOSAL.md) accompanies this factual snapshot. The final riddle/reveal wording and timing budgets are approved; actual audio duration and production QA remain unmeasured. Do not fabricate audience comments or results: any invented demonstration must be explicitly labelled **author-written example, not a real viewer comment**. Never imply a real user submitted an example, and do not promise a future response that has no committed delivery plan.
+The [format evidence](FORMAT_PROPOSAL.md) distinguishes the current contract from superseded riddle copy. Media previews, approved image templates and actual final uploads are distinct states.
 
 ## Existing owners stay authoritative
 

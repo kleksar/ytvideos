@@ -1,6 +1,6 @@
 # Approved ImageGen endscreen reference
 
-Owner-approved on2026-11-17 with “пушка”: exact `imagegen_everyone_endcard.png`, identified by SHA and persistent Library identity in [manifest.json](manifest.json). This is the shared visual template for the **last separate ten seconds**, not an approval of the preceding future-power riddle template.
+Owner-approved on2026-11-17 with “пушка”: exact `imagegen_everyone_endcard.png`, identified by SHA and persistent Library identity in [manifest.json](manifest.json). This is the shared visual template for the **separate ten-second previous-story recommendation segment**, not an approval of the preceding future-power riddle template.
 
 ## Asset custody
 
@@ -16,7 +16,7 @@ Use the accepted PNG as the derivative edit reference. Changes are limited to th
 
 Everyone→previous Mind; Teleportation→previous Everyone; Three Wishes→previous Teleportation; Rewind→previous Three Wishes. Mind is the first story and has no invented previous episode: mapping is null. Do not claim Rewind came before Mind in the initial chronological rollout. No previous-video label/destination is assigned to Mind until an explicit truthful alternative is selected.
 
-The **future** riddle and the **previous** recommendation are different blocks. Finish story/emotional pause, show the independent future-power clue and invitation to guess, then append this full300-frame/30fps endscreen. Do not count riddle seconds toward the final ten seconds or reveal the future answer via the previous-story card.
+The current sequence is governed by [editorial](../../standards/editorial.md#you-but-weird-discussion-previous-story-and-postcredits): story/pause/black/discussion, then this full300-frame/30fps previous-story endscreen, then a separate10-second exact-next-opening postcredit. Thus this accepted image is no longer literally the last10seconds. Its visual approval remains unchanged. Do not shorten its10seconds or conflate the next-story preview with the previous-story recommendation.
 
 ## Real-card placement
 
@@ -26,4 +26,4 @@ No real thumbnail, URL, play control, fake clickable button or YouTube card is b
 
 ## Scope and QA
 
-Full-size accepted image and its text were inspected. Actual YouTube element placement remains UNVERIFIED. The shared reference is approved, while the independent riddle template remains pending. This preservation commit does not publish, replace uploads, claim final MP4 rollout, or regenerate voices.
+Full-size accepted image and its text were inspected. Actual YouTube element placement remains UNVERIFIED. The shared reference is approved, while later separate riddle-template approval does not itself make the obsolete riddle assembly current. This preservation commit does not publish, replace uploads, claim final MP4 rollout, or regenerate voices.
