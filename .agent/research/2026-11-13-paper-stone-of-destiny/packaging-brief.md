@@ -1,3 +1,5 @@
+> **Revision 2026-11-17:** All titles and the S001/S005 thumbnail promise below were authored for preserved original 02m Short only. The **05m Long** is an editorial recommendation with a different promise: *How four students removed a royal stone, and why police later tricked reporters with the wrong car*. No verified Long thumbnail, 320×180 crop or A/B test exists. Do not reuse the old Short's montage/cover as approval or claim planned artwork is produced. Selected hash, new storyboard and visuals require their own later review.
+
 # Packaging hypotheses — not assets or measured performance
 Paper Detour | Short | English | portrait. Thumbnail concept should communicate a royal object apparently stolen by students; actual AI-image generation not performed, and mandatory real visual QA/crop missing.
 

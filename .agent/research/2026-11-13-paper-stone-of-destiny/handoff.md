@@ -1,3 +1,13 @@
+## Revision: three narration lengths (2026-11-17)
+
+**Status remains EDITORIAL_CANDIDATE_UNREGISTERED**: neither 05m nor 10m is an approved source. Baseline `904407730fdb82d703d0b19a16e81542a465b411`. Original Short and its old storyboard have not been altered. Complete text options: [02m EN](variants/02m/script.en.txt) / [RU](variants/02m/script.ru.txt), [05m EN](variants/05m/script.en.txt) / [RU](variants/05m/script.ru.txt), [10m EN](variants/10m/script.en.txt) / [RU](variants/10m/script.ru.txt). Exact SHA-256 and review coverage: [story-review](story-review.md).
+
+**Editorial recommendation = 05m Long**, not permission to start a Long render. The channel's `long` format is described in current `channel.json`; runtime execution still requires actual pinned task context and a single owner-selected exact master. Do not import the previous root Short when producing the recommended Long; select the exact variant path after reviewing current state. Explicitly preserve existing run pins and approved media if any other worker has registered them since this Git-only candidate was written. Before any start, check saved run/active production and resume rather than duplicate.
+
+No independent review host or executable ytv checkout is available **to this GitHub connector session**. The PR gives no proof of a session elsewhere; check locally. The CLI example below was written for the original Short and is retained as historical guidance only. For a chosen **new Long** with no existing run, use canonical `ytv start --channel paper_detour --format long --intent 'evaluate Stone of Destiny variant and present for approval'` from the current pinned workflow. Then attach exact six scripts/this review with real IDs, do independent blind-first listening on each candidate, register only a single chosen script, request actual owner's approval, and build new storyboard from that hash. No TTS/MP4/images may be started under this task.
+
+---
+
 EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официальному ytv script gate
 
 # Handoff to local agent
