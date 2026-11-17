@@ -1,0 +1,59 @@
+Two appliances sit on my kitchen counter. One is built to boil water. The other is meant to heat all kinds of food. If I need a mug of hot water, which one costs less electricity? And can the answer change without changing either machine's efficiency?
+
+The obvious answer seems to be the kettle. It puts heat directly into water. But when I look at its level indicator, there's a catch: the minimum fill is half a litre. My mug needs only a quarter of a litre. That means I may have to heat one mug of water and leave another mug's worth behind.
+
+I want an answer that survives a proper comparison, not a fake head-to-head race. So I draw a small model of the same kitchen and declare the rules before choosing a winner.
+
+My task is one 250-millilitre mug. The water starts at 20 degrees Celsius and gains 80 degrees. Both methods have to provide the same useful heat to the water I'm going to drink. The score is electrical energy from the socket, measured in watt-hours. Waiting time and safety are separate questions. I'm not claiming to have tested an appliance or to have filmed one.
+
+A is the kettle with a 500-millilitre minimum. B is the microwave heating only the mug. Which would you choose?
+
+Before the machines enter the picture, I have to pay a bill set by physics. Heating one kilogram of water by one degree takes about 4.186 kilojoules. A quarter of a litre of water is approximately a quarter of a kilogram. Multiply that by an 80-degree rise and the useful heat is about 83.7 kilojoules.
+
+That sounds enormous. In electricity units, though, it's only about 23.3 watt-hours. That's the useful heat in the mug. A machine will have to draw more electricity because some energy warms other things or ends up elsewhere. An electric kettle heats its vessel as well as its contents. A microwave spends electricity on the parts that generate and distribute microwave energy, and the mug can absorb some heat too.
+
+For a simple first comparison, I assign the kettle an 80-percent water-heating efficiency and the microwave 60 percent. These are illustrative model inputs, not certified efficiencies or measurements of my kitchen. Real efficiency changes with fill level, cookware and appliance design. I will keep these numbers fixed through the first rounds so I can isolate the one rule that matters.
+
+Method B is easy to calculate. The mug needs 23.3 watt-hours of heat. At 60-percent efficiency, the microwave draws about 38.8 watt-hours from the wall. That's the first number on my comparison card.
+
+If the kettle could heat exactly 250 millilitres, it would draw 23.3 divided by 0.8, about 29.1 watt-hours. The kettle wins a matched-volume comparison. That's also why a simple comparison of identical one-litre quantities commonly favours an electric kettle: the better route from electrical input to heated water can matter.
+
+But that 29.1 is not a valid score for my first kettle. Its minimum line is 500 millilitres. Filling below a manufacturer's stated minimum isn't an acceptable way to make A win. So I correct the task: the kettle must heat twice as much water, even though I'll use just half.
+
+At the same temperature rise, 500 millilitres requires about 46.5 watt-hours of useful heat. Divide by 0.8 and A's wall consumption becomes about 58.1 watt-hours. B is still at 38.8. The microwave wins my one-mug model by roughly 19.4 watt-hours. Not by being more efficient. By avoiding the extra water.
+
+That is a proper payoff, but it leaves a question. What if a different kettle doesn't require the surplus?
+
+I replace A with a kettle whose instructions permit a 250-millilitre minimum. I change no other input. Now A can deliver only the 23.3 watt-hours that my mug needs. At our assumed efficiency it draws 29.1 watt-hours from the wall, while B still draws 38.8. A wins. Same drink, same starting temperature, same comparison metric; a different minimum fill reverses the result.
+
+Actual minimum-fill instructions vary. Some manuals permit small quantities; others specify around half a litre or more. It's not safe to assume I can ignore a marked limit just because my cup is smaller. And a big maximum capacity says nothing by itself about the minimum.
+
+I can work out the exact break-even point of this idealised model. For the microwave, the electrical cost of a 250-millilitre mug is proportional to 250 divided by 0.60. For the kettle, it's proportional to whatever volume I must boil, divided by 0.80. Set those equal, and the kettle's break-even fill is 250 multiplied by 0.80 divided by 0.60. That's roughly 333 millilitres.
+
+Below that, the kettle wins under our fixed efficiencies. Above it, the microwave wins. If I replace the 500-millilitre minimum with 300 millilitres, A uses about 34.9 watt-hours and wins. At 400 millilitres, A uses around 46.5 and loses. The turning point isn't mystical; it's the point where the kettle's efficiency advantage is overwhelmed by unnecessary volume.
+
+I shouldn't turn 333 into a universal recommendation. Suppose my particular kettle delivered only 70 percent of its electricity to the water while the microwave still delivered 60. The break-even fill would fall to about 292 millilitres. If I used a more efficient kettle and a less efficient microwave, the boundary would move upward. Those are sensitivity scenarios, not claims about products on sale. The rule is the relationship, not the particular threshold.
+
+There's a second change I can make without buying anything: invite someone else to have a drink.
+
+Now I want two mugs, a total of 500 millilitres. My original kettle's minimum isn't surplus anymore. The kettle heats half a litre and draws about 58.1 watt-hours. The microwave, heating the same half-litre at the assumed efficiency, needs about 77.5. A wins clearly. The kettle didn't improve. I just found a use for all the water it must heat.
+
+What if someone asks for a drink later, rather than at the same time? Now I have to define the task again. If I heat half a litre and store the extra hot water in a suitable insulated vessel for later use, I haven't necessarily wasted it. If I leave the surplus to cool and then reheat it tomorrow, my actual consumption changes. I cannot count the same half-litre as both useful water and wasted water. I have to record what happens to it. A fair model can't quietly change the definition of a successful task halfway through.
+
+The temperature target matters too. For a lukewarm drink, not boiling water, the water needs less heat. In this simple constant-efficiency model, lowering the common temperature rise scales both scores down together, so the 333-millilitre threshold stays the same. But real appliances may have different fixed overheads, thermal losses and automatic shut-off behaviours. A proportional toy model is not a substitute for a meter on the actual machines.
+
+And a machine's wattage isn't its total energy bill. A powerful kettle might draw many watts for a short period. A lower-powered device might run much longer. To compare electricity, I need power integrated over time — watt-hours — not the biggest number printed on the packaging. A microwave's advertised cooking output isn't necessarily the electrical power it draws from the socket. Mixing those two would corrupt the comparison before I even reach the result.
+
+For perspective, my first-round saving of about 19.4 watt-hours is 0.0194 kilowatt-hours. At an example electricity price of 25 cents per kilowatt-hour, that's about 0.49 cents for that one task. If the same difference happened once daily for a year, the arithmetic gives roughly $1.77. That's not a measured bill, a prediction for every household, or a reason to buy a different appliance. The model's main lesson is about matching quantities, not promising a fortune.
+
+How would I check my own kitchen? First I'd read the kettle's manual and minimum mark. I'd choose the same starting water temperature and a clear temperature target. I'd use the correct microwave-safe container, follow its instructions and avoid overheating water. I'd use an appropriate energy meter rated for the appliance, and record the electrical input rather than assume its printed wattage. I'd repeat tests with the correct water amounts and measure the final water temperatures. I haven't done those tests here, so I cannot report their results.
+
+There is also a safety limit that an electricity scoreboard doesn't capture. The FDA warns that plain water can become superheated in a microwave and erupt when a cup is disturbed. A few watt-hours of hypothetical savings do not make that risk disappear. I would follow the manufacturer's instructions rather than recommend heating plain water beyond the specified time. This story is a calculation about energy, not a demonstration of a safe microwave-boiling technique.
+
+The wider evidence supports the importance of the water volume. Research on kettle efficiency finds substantial savings from avoiding unnecessary water and excessive heating. Energy-saving guidance also notes that minimum-fill lines often exceed the amount needed for one cup. But that research doesn't certify my made-up 80 and 60 percent efficiencies. It explains why the question is worth modelling and why the answer can't be stamped on every appliance.
+
+So here is the complete result. With one 250-millilitre mug, a 500-millilitre kettle minimum and my stated efficiencies, B wins: about 39 watt-hours versus 58. With a kettle that permits exactly one mug, A wins: about 29 versus 39. With two mugs, the original kettle wins again: about 58 versus 78.
+
+There is no permanent winner hiding behind a label marked KETTLE or MICROWAVE. There is a task, an actual allowed fill, a measured or assumed efficiency, and a safety constraint. Change the task, and I might change the choice.
+
+I started by looking at two machines on the counter. I finish by looking at the small mark inside the kettle. It tells me whether I'm heating one mug of water — or two, when I only wanted one.
