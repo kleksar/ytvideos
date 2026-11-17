@@ -44,10 +44,8 @@ Implementation, if separately approved, must use the existing [editorial](../../
 
 ## Confirmed sound-library policy (FACT, separate from creative proposal)
 
-The permanent reusable SFX library contains only effects personally approved by the owner. Keep source URL, original asset identity/hash, license evidence, permitted context, and approval provenance with each approved asset. Historical use in a video is not approval for the library or for every future placement/gain.
+The current owner instruction is contextual review: choose one suitable short SFX excerpt for the scene and show it in the video, without a separate per-effect approval gate or a mandatory ten-variant/HTML audition exercise. After acceptance, preserve the exact ready-to-reuse clip with application, source/license evidence and source offsets under the canonical [audio policy](../../standards/audio.md#приёмка-sfx-в-ролике-и-готовая-база). Additional clips enter the proven library only when actually used and accepted. Existing HTML catalogs remain available, not a new gate; original projects, masters and recovery sources are not deleted.
 
-Currently confirmed: `04_mumbling_whispering` for quiet unintelligible character speech, not a constant crowd layer; `07_medium_crowd` for populated public spaces such as shopping malls, subway and busy streets. These approvals do not retrospectively approve older reconstructed dialogue textures.
-
-Candidate auditions are a separate temporary review area, not a permanent library. Offer up to ten useful variants per requested sound type when available. Do not maintain a rejected-assets registry or retain rejected candidate copies in the permanent collection. Preserve original project/source archives, masters, and recovery materials: candidate cleanup must never delete historical production inputs.
+Previously confirmed individual assets remain `04_mumbling_whispering` for quiet unintelligible character speech and `07_medium_crowd` for populated public spaces. This does not retrospectively approve all historical effects or reconstructed dialogue textures. Historical use alone is not approval.
 
 The temporary Rewind review inventory reconstructs 135 isolated source events and maps 293 placements in the current edit. Its audition levels are for comparison, not a claim of exact final-master gain; continuous beds may span several scenes. Music and the intelligible narration mix are excluded. Legacy source-derived murmurs remain unapproved. Review catalogs do not authorize replacing sounds or modifying masters.
