@@ -13,3 +13,13 @@ Source evidence: research.md with web URLs, observed dates, claim/evidence/uncer
 Read the actual returned plan_summary, read_next, task_guide and pinned reference_documents (not files merely guessed from this PR). Import the exact EN narration as a candidate within real research/script steps, compute exact EN SHA256, pass a clean text-only opening and twice-full-text to a *fresh independent* session without author verdict. Give sources and strongest alternative Skylab only after first answer; obtain independent EN/RU review tied to exact EN hash, preserve original reviewer output. Official awaiting_script_approval requires real gate checks and owner approval of exact resulting version. Do not equate this Draft PR with a permitted production run.
 
 No owner script approval, no MP4 approval; no TTS, images, render, media upload, publication or merge may happen under this task. Actual narration/music/SRT/AV seam and 4–6s composition timing remain UNVERIFIED.
+
+
+## Revision 2026-11-17 — three full narrative variants
+
+- Baseline exact PR head `5982b35ee8f61e6e697f8594455e08a1e21150e2`; original `script.en.txt`, `script.ru.txt`, 15 scene spans preserved; 02m files replicate original Git blob SHA unchanged.
+- Complete EN+RU text exists at `variants/02m/`, `variants/05m/`, `variants/10m/`. Eight criteria per version, hashes, story maps and recommendation in `story-review.md`; new fact evidence in shared `research.md`.
+- Recommended **05m Long** (not Short), editorial only; do not rewrite Short storyboard as if it covers Long. 10m Long is a separately complete candidate, not a mechanical stretch. 02m original Short loop remains a textual risk.
+- **EDITORIAL_CANDIDATE_UNREGISTERED**: this Git branch is not an official ytv run. No live runtime checkout or persisted canonical task packet/pins accessible here; no verified separate reviewer session, voice/sound, source-image bytes, rendered MP4, measured timing or user approval. Do not manufacture a receipt or set `awaiting_script_approval`.
+- On a working local ytv runtime, inspect existing run with status/plan and pins, migrate only with explicit migration when necessary. Register exact chosen variant as supporting artifact and only one approved production master after genuine owner decision, per `docs/workflow.md`. Conduct an independent blind first-listener and bilingual review of exact hashes before script gate. Prepare a new Long storyboard, timing/visual intent and packaging for the chosen hash. Leave all untouched original evidence intact.
+- No TTS, paid providers, imaging, publication, schedule, merge or production configuration changes were made in this revision.

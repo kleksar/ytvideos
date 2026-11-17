@@ -194,3 +194,8 @@ RU: А одна из самых редких деталей оказалась �
 
 Author-only text check on updated script: the last clause now grammatically introduces the cold-open action, while the find is recontextualized by the preceding environmental payoff. A punctuation-only thematic echo was not sufficient. Independent full-twice listening and audio/music/subtitle/camera seam remain UNVERIFIED until reviewed MP4.
 
+
+
+## Exact script binding — editorial revision 2026-11-17
+
+**This storyboard, S001–S015, and its exact EN/RU spans belong only to the unchanged original 02m script** (`variants/02m/script.en.txt` SHA-256 `4908eac4d81103c123152774779d26ace97c55ba2d274ed0f7701c98ab2a35ea`; `variants/02m/script.ru.txt` SHA-256 `b7428bd9b2b480e108582d8924276df0982af7a475ea9fb50eeb761b95911cef`). The original `script.en.txt`/`script.ru.txt` are identical to 02m. The 05m/10m narratives have independent timelines, no valid scene grid or timings; do NOT apply these 15 scenes to them. The Short textual loop remains a review risk, and AV seam is UNVERIFIED. Images not generated.

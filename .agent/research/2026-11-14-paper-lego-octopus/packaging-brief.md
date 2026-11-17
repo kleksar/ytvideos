@@ -14,3 +14,12 @@ Title: **The LEGO Pieces That Wouldn't Stay Lost**
 Hero: physically sculpted paper shore/dune section with a toy from 1997 cargo now near 2024 child's hand, two date-cards as meaningful embedded props. Text: **27 YEARS LATER**. Show physical evidence across time, not invented uninterrupted underwater path. Early proof S001–S004, payoff S013 shark recovered by net and S014 research limitation.
 
 All three require later AI artwork generation only under separate production authorization, actual accepted style PNG bytes (unavailable here), source/crop review, correct literal text, geometry/lettering, thumbnail-phone, central 2:3 Shorts crop and comparison with title/first frame. No artwork, image file, measured CTR, approved thumbnail or YouTube assets exist.
+
+
+## 2026-11-17 duration-specific editorial packaging (unapproved)
+
+- **02m Short:** `The LEGO Octopus That Came Back After 27 Years`; image: hand holding worn black octopus, half-submerged paper beach. Old packaging is not automatically approved.
+- **05m Long — recommended:** `Why LEGO Kept Washing Up 27 Years Later`; opening questions focus on the rare octopus, long disappearance, and what the sea retained; visual promise: paper diorama of the boy's hand with octopus against a distant container ship and offshore fishing net. Payoff includes two kinds of 2024 finds rather than implying the ship sank.
+- **10m Long — lower editorial priority:** `The 1997 LEGO Spill We're Still Finding`; visual promise: 1997 container, 2020 dune, 2024 octopus/shark arranged as three physical paper snapshots. No fake archive, no number implying verified recovered count. Detailed visual direction awaits owner's exact-script choice and new storyboard.
+
+These are supporting concepts only. Old Short storyboard/publish metadata are not valid measured Long timings. No three parallel productions, run or approval.

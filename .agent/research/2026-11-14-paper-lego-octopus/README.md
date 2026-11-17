@@ -1,3 +1,19 @@
+EDITORIAL_CANDIDATE_UNREGISTERED — full 2/5/10m story revisions, NOT official script approval.
+
+## Три самостоятельные редакции одной истории — 2026-11-17
+
+В 1997 году Tokio Express потерял контейнер с почти пятью миллионами деталей LEGO. В 2024-м подросток закончил двухлетний поиск чёрного осьминога; затем рыбак поднял акулу из сети. Сцены показаны как редакционные предложения, не production-ready storyboard.
+
+| Длительность | Полные тексты | Состояние |
+|---|---|---|
+| 2m | [RU](variants/02m/script.ru.txt) · [EN](variants/02m/script.en.txt) | исходный Short сохранён bytes; петля спорная, независимый review UNVERIFIED |
+| **5m** | **[RU](variants/05m/script.ru.txt)** · [EN](variants/05m/script.en.txt) | **рекомендован Long**: два поиска, конкретный механизм и проверенный результат |
+| 10m | [RU](variants/10m/script.ru.txt) · [EN](variants/10m/script.en.txt) | Long кандидат: дополнительная фактура, но слабее после кульминации |
+
+Точные SHA-256, 8 критериев каждой редакции, story maps, hard checks и сравнение — [story-review.md](story-review.md). Общие источники и новые доказательства — [research.md](research.md). Исходные `script.en.txt`/`script.ru.txt` и `storyboard.md` относятся только к версии **02m**, не заменены и не распространяются на Long. Отдельные принятые master/media не изменены. Voice/TTS/MP4, independent review и runtime gate — UNVERIFIED / NOT_STARTED. Рекомендация не approval.
+
+---
+
 EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официальному ytv script gate.
 # A black LEGO octopus found 27 years after a cargo spill
 
