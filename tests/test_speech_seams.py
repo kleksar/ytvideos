@@ -19,13 +19,17 @@ class SpeechSeamsTest(unittest.TestCase):
     def test_invalid_bounds(self):
         self.assertEqual(audit([0]*1000,1000,[dict(left_word_end=0,right_word_start=2,cut=.5)])[0]['status'],'REVIEW')
     def test_no_mutation(self):
-        x=[.5]*100+[0]*100+[.5]*100;old=x.copy()
+        x=[.5]*100+[0]*100+[.5]*100
+        old=x.copy()
         audit(x,1000,[dict(left_word_end=.1,right_word_start=.2,cut=.15)])
         self.assertEqual(x,old)
     def test_nonfinite(self):
-        with self.assertRaises(ValueError):audit([float('nan')],1000,[])
+        with self.assertRaises(ValueError):
+            audit([float('nan')],1000,[])
     def test_stereo_does_not_cancel(self):
-        import tempfile,wave,struct
+        import tempfile
+        import wave
+        import struct
         from pathlib import Path
         from automation.helpers.speech_seams import read_pcm
         with tempfile.TemporaryDirectory() as d:
