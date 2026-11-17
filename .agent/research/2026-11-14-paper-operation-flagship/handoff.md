@@ -19,3 +19,20 @@ EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официал
 5. For production only if separately authorized: obtain actual accepted Paper artistic reference image bytes and validate SHA, check paper-plane reference bytes (proposed cameo S007 only), construct final voice/word map then re-time scene splits, and test real end-to-start visual, subtitles, music and speech across an actual MP4. Scene prompts are provisional text, not accepted media output. No fixed 4–6s segment is claimed to be measured.
 
 Remaining: legitimate registered run and pinned packet, independent reviewer with exact original schema/hash, bilingual outside reading, possible revisions, genuine owner decision, actual reference media readback, then all specifically authorized production steps. Never force-push or change shared documentation/ChannelSpec for this story.
+
+
+---
+
+## Three-length editorial handoff — 2026-11-17
+
+**Progress:** original Short `script.en.txt` / `script.ru.txt` preserved byte-for-byte as `variants/02m/`; added independent complete `variants/05m/` and `variants/10m/`, each EN/RU; common research expanded and each exact text reviewed *by author* in [story-review](story-review.md). No score is an independent validation. This addendum supersedes older statements above implying that the PR contains **only** a Short.
+
+**Baseline:** original remote PR head `417f09bede45455a86876e3c4d8d56f43450cf57`; original blobs EN `0c7e6884e9ad81b185d582e2bb2ebbef9f248684`, RU `c67e108274af7f527a356be4fc2b487f356c2297`. The immutable 02m EN SHA-256 is `cb28031010d1fba351a391b7b74a196d35a4a445a99a3eb161cb193ba08cce1d`. Exact EN and RU hashes for ALL six versions are in review. Branch, original files, approvals and production refs not replaced.
+
+**Recommended edition: 05m Long** (author-only). A local agent should read the direct [RU 05m](variants/05m/script.ru.txt), [EN 05m](variants/05m/script.en.txt) and 02m/10m comparison before proposing a single exact production master. ChannelSpec currently supports Long, but author recommendation does not authorize production. 10m is complete, not required simply because it exists.
+
+**Storyboards:** `storyboard.json` remains a preliminary exact 02m map of 15 EN/RU paragraphs; it cannot be used for new 17-paragraph 05m or 26-paragraph 10m scripts. Scene count, meaning-level coverage, final timing, accepted image references and visuals must derive from the selected exact master. Do not reuse previous visual approvals or timings for Long.
+
+**Runtime/reviewer blocker:** GitHub-only editorial access cannot execute the local `uv run ytv start`/saved task context in this tool environment, nor produce pinned task claims, legitimate `ytv-script-review-v1` or an independent first-listener identity. Before any master is accepted, import via real workflow in an authorized checkout, reading canonical run pins, registering supporting variants and review. Give a distinct reviewer the exact texts without this author rating, disclose evidence after first read, save actual response in existing schema. No MP4/TTS/Flow/image-generation/upload/YouTube publication or scheduling occurred.
+
+**Remaining next step:** independent text and bilingual first-listener review → owner choice of exact master → genuine runtime gate → new version-specific storyboard and word alignment if independently authorized. Next untouched queue candidate after this PR: #62 subject to fresh remote verification.
