@@ -257,3 +257,10 @@
 ## Visual seam concept (unverified)
 
 S018 is a distant lookout angle toward the same decoy camp that S001 introduces, with lighting and layout to match through a hard cut; storyboard does not prove the real MP4 AV seam. Actual prompt/camera/voice changes must be re-reviewed. A mapping of all source references and reconstruction limitations is in `research.md`.
+
+
+---
+
+## Provenance boundary after r2 editorial variants (2026-11-17)
+
+The 18 EN/RU spans and all prompt/timing estimates above refer **only** to unchanged archival root `script.en.txt` / `script.ru.txt` at baseline `15b8f4564f1c1d1da3dfd8f4470bd21d643ca7eb` (Git blobs `b90a832dc16571584f4fe53726f9f4ebb49ed2bd`, `1be4d736c730f18e8f7272ad3430e15a2e9434bf`). They do not match exact text of `variants/02m`, `variants/05m`, or `variants/10m`. Do not reuse those scene spans, visual descriptions or expected audio timings as version-compatible evidence. After actual master selection, design new scene spans, scene count and visual intent from selected script's exact SHA-256 (see `story-review.md`). No media or TTS authorized by this editorial migration.

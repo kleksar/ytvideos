@@ -1,51 +1,62 @@
-# Story review — Ghost Army Operation Viersen, editorial revision r1
+# Story review — Ghost Army / Operation VIERSEN, r2
 
-**Review status:** `EDITORIAL_CANDIDATE_UNREGISTERED`; official ytv script gate **NOT PASSED**. Exact EN is `script.en.txt`; RU is `script.ru.txt`. Review below is **author/editorial self-check**, NOT a fresh independent reviewer. No actual `ytv-script-review-v1`, independent session ID, run ID or receipt exists.
+**Status:** `EDITORIAL_CANDIDATE_UNREGISTERED`. Author's editorial review only, NOT independent review or ytv approval. Candidate variant sources are linked below at exact current commit after GitHub read-back; source files at r1 remain unchanged.
 
-## Before storyboard: interest / first listener / natural spoken prose
+## Provenance and exact file hashes
 
-- **Stop (author check: provisional PASS):** immediate tanks-in-field image followed by rubber reveal, with no unfamiliar unit name needed.
-- **Stay (author check: provisional PASS):** objective changes: real divisions secretly depart; small unit impersonates a much larger force; visual, audible and radio signals make the decoy plausible; real engineers add evidence; actual troops cross; captured map tests the ruse. The end map is *new evidence*, not a repeat of the hook.
-- **Payoff (author check: provisional PASS):** captured enemy order-of-battle overlay placed the 79th approximately near the portrayed sector and lost the 30th. This is more precise than saying “the Germans were fooled completely.” Limited resistance after crossing was reported in museum source; the ruse was part of wider Ninth Army activity.
-- **First-listener clarity (author check: provisional PASS):** “Ninth Army,” “two divisions,” “old positions,” “decoy area,” “captured map” are introduced through actions; avoids corps numbering, German city names, radio technical jargon and an unverifiable victory count.
-- **Speech / narration (author check: provisional PASS):** concrete action rather than character labels; sentences vary in length; no invented soldier dialogue or motives. First thought includes “Up close, they were made of rubber,” so viewer learns the *what* early; later middle develops *how* and outcome rather than hiding obvious answer. Potential snag: “eleven hundred” and “thirty thousand” are two large numbers in succession, but the contrast is the mechanism.
-- **Factual support (author check: provisional PASS for selected claims; source limits explicit in research):** G1–G4. “Little resistance” is museum summary, not a claim of no resistance. The map supports mistaken deployment intelligence, not quantitative proof of Ghost Army contribution.
-- **Originality vs PBS and other stories:** no source script copied. Prior queue has warfare PRs but no precise fake-camp/radio/captured-order-of-battle construction.
+| Intended version | EN full text · SHA-256 | RU full text · SHA-256 | EN words | Timing assumption |
+|---|---|---|---:|---|
+| 02m (short) | [EN](variants/02m/script.en.txt) · `73e790407aba16a90aad59d3c8d3d8ce1d074ff571540cea5615e2062c92d2d8` | [RU](variants/02m/script.ru.txt) · `483369a11c6f83137b1abb7a4763aa76be6043ca9ff6efacd2a7b091332c3246` | 278 | 1:55–2:25 at 115–145 EN wpm, no measured audio |
+| 05m (long) | [EN](variants/05m/script.en.txt) · `f5ce06b1498a0d33d13f0c368ba99572cae6088beca610501c2d053afe4cd6ff` | [RU](variants/05m/script.ru.txt) · `6557a6a0b3f48f261b3c2e24636dbfbece228f9e49c6b9cf693e8c58c51e1fde` | 590 | 4:05–5:05 at 115–145 EN wpm, plus brief pauses; actual 1.1× voice unknown |
+| 10m (long) | [EN](variants/10m/script.en.txt) · `ed8910b079345c53aae7c993ea613d79611d78df6fc9eb1fd35dded9f50774ee` | [RU](variants/10m/script.ru.txt) · `5434d023cf914f7336e5ac0a68e6c3547b7a4d46be557b0d1c19b6e6b5636ae9` | 1407 | 9:42–12:15 at 115–145 EN wpm plus pauses; not measured |
 
-## Literal seam and full repeated-read self-check
+**Baseline:** `15b8f4564f1c1d1da3dfd8f4470bd21d643ca7eb`; archival `script.en.txt` blob `b90a832dc16571584f4fe53726f9f4ebb49ed2bd`, archival `script.ru.txt` blob `1be4d736c730f18e8f7272ad3430e15a2e9434bf`. Before: one original EN/RU r1 short and one 18-scene r1 storyboard. After: six additional complete scripts with separate progression; no prior text was modified. Independent check of exact hashes and TTS durations remains UNVERIFIED.
 
-Full `script.en.txt` and `script.ru.txt` were each displayed **two consecutive times** during author editing, then checked conceptually as a repeat. These were silent **text readings**, not synthesized voice, not an independent review, and not an AV test.
+## Story maps and viewer promises
 
-**EN — exact last two sentences → first two sentences**:
+**02m — direct Short:** Apparent division beside Rhine (specific visual contradiction) → two real divisions secretly leave → 1,100 impostors create rubber props + intercepted radio + sounds → real engineer equipment broadens illusion → actual divisions cross in other sector → captured German overlay has false 79th position and no 30th → limited conclusion. Payoff **before** replay. Cold entry is a concrete, comprehensible paradox; final “That map shows just how convincing the view from across the river could be” semantically introduces “A whole American division seemed to be waiting...” on replay. Author text read twice with both languages, seam plausible **author-only**, not independent; real picture/music/voice seam UNVERIFIED. The original r1 closure was a direct question; new r2 uses a declarative contextual bridge rather than another mandatory question.
 
-> But the map showed the Germans were wrong about where the divisions were. And if you'd looked where that map pointed, what would you have seen? | Rows of American tanks stood near the Rhine. Up close, they were made of rubber.
+**05m — documentary Long:** Opening questions: how hide two divisions and how test deception? → Rhine crossing requires detectable preparations → transfer out of old sectors creates a new concealment problem → secret unit assumes the false identity → props alone insufficient, so radio/sound and real bridge work reinforce them → risk of close inspection → night crossing yields comparatively light resistance but does not confirm belief → captured order-of-battle map provides new independent-of-performers evidence → limitation and payoff. Main hook develops **after** the necessary explanation of river and divisional movement, before the technical layers. Human line: the people who have to make deception physically convincing while real troops remain unseen.
 
-**RU — exact last two sentences → first two sentences**:
+**10m — documentary Long:** Same opening questions, greater strategic dilemma → XVII? **No:** XVI actual sector vs other corps false sector → day/night concealment and precise 30th/79th movement → staging for aerial surveillance, sound and radio → impersonating checkpoints and enforcing restrictions around dummy equipment → documented unsuccessful house-search and real civilian exclusion show the cost of maintaining the illusion → synchronize both sectors until assault → US post-assault reports → German map reveal → scope of evidence/limits → Simpson commendation and unit's final mission → map distinguished from iconic inflatable-tank image. Human line: performers keep a dangerous real front operating behind a falsified one; civilians were also affected. Added factual beats referenced G1/G6, not invented micro-actions. The checkpoint episode is the likeliest interest dip.
 
-> Но карта показала, что немцы ошибались в расположении дивизий. А что увидел бы наблюдатель там, куда указывала эта карта? | У Рейна стояли ряды американских танков. Вблизи было видно: они резиновые.
+## Eight editorial scores — author opinion, not viewer telemetry
 
-**Textual seam: author PASS, independent UNVERIFIED.** The loop is a *question → visually specific answer*, after the map evidence and full payoff. The question names the location of the earlier fake force, so the next first sentence answers it even for a first-time viewer; no unresolved outcome is deferred. The closing question is a possible stylistic weakness and could feel like a scripted restart; an independent reviewer is free to **FAIL the concept**. The second viewing does not add an invented second battle or alter chronology.
+Scores 1–10 are **subjective editorial judgements** against the exact corresponding EN/RU. Confidence refers to textual assessment; `interest verified` requires actual comparable demand evidence and is unscored. Each row records a specific strength and weakness.
 
-**AV/voice/music/subtitle/physical edit seam: UNVERIFIED.** Only actual MP4 can test matching pose, duration, sound and restart. A title or punctuation mark is not seam evidence.
+| Criterion | 02m | 05m | 10m |
+|---|---|---|---|
+| Interest / significance | **8/10**: fake army + enemy map is genuinely surprising; missing strategic context. Medium | **8/10**: concealment of an actual attack gives stakes to same puzzle; subject is familiar history niche. Medium | **8/10**: authentic civilian/army costs improve relevance; specialized geography may restrict audience. Medium |
+| Opening / promise | **8/10**: liftable tank immediately understandable; opening repeats familiar fake-tank concept. High | **8/10**: clear two questions followed by concrete river problem; slower than a striking image. High | **8/10**: asks viewer to choose an observation site; a little too abstract in first breath. High |
+| Development / reason to stay | **7/10**: visual → audio → map; compressed engineering mechanics. High | **8/10**: each communication/engineering layer explains why static decoys insufficient; middle still somewhat expository. High | **7/10**: real check-post incident adds human activity; detour before crossing weakens focus. Medium |
+| Payoff | **8/10**: map places 79th wrong, omits 30th; explanation compressed. High | **9/10**: map directly answers whether disguise worked, with cause/evidence separation; casualty impact not knowable. High | **8/10**: map strongly resolves premise, but later commendation risks a second, weaker ending. Medium |
+| Angle freshness | **7/10**: familiar inflatable vehicles, stronger map than stock treatment. Medium | **8/10**: audience follows how separate deception clues reinforce; history still well covered. Medium | **7/10**: real-area restrictions less familiar, but not clearly more captivating. Medium |
+| Visual expressiveness | **8/10**: close-up rubber tank → distant camp → captured map; actual map image not verified. Medium | **9/10**: separate real/false sectors, troop concealment and radio crew give differentiated visuals; no generated art. Medium | **9/10**: additional night movements/checkpoints add scenes, reconstruction rights and details need review. Medium |
+| Natural narration / clarity | **8/10**: concrete actions, names limited; repeated liftability by concept is intentional but risks redundancy. High | **8/10**: longer causal sentences vary rhythm; “order-of-battle” immediately defined. High | **7/10**: full coherent voice, yet formations and multiple caveats demand extra concentration. Medium |
+| Verified audience demand | **UNVERIFIED**: museum and documentary exist, no comparable Short performance | **UNVERIFIED**: no measured viewers for this 5m composition | **UNVERIFIED**: long documentary listing does not measure this specific 10m text |
 
-## EN/RU equivalence table (self-check only)
+## Hard checks (not averaged into scores)
 
-| Check | EN → RU |
-|---|---|
-| Date/roles | March 1945; US Ninth Army; 2 real infantry divisions; after-dark movement: present in both |
-| Scale | ~1,100 secret-unit personnel vs >30,000 pretended troops: present in both (no extra numeric survival claim) |
-| Actions | Rubber tanks and guns; recorded troop/bridge sounds; fake radio traffic; genuine engineer bridge gear; concealed real forces: present in both |
-| Result | Mar 23 crossing and little resistance: EN “little”, RU “почти не” (same qualitative limit) |
-| Evidence | Captured German map places one division roughly near decoys; other missing: in both |
-| Caveat | Wider Ninth Army operation means no sole-cause claim: present in both |
-| Ending | Hypothetical observer looking at map's marked area and receiving opening tank image: same question→answer |
+| Test | 02m | 05m | 10m |
+|---|---|---|---|
+| EN/RU factual equivalence | Author-checked: same divisions, evidence caveats and payoff; fresh independent bilingual read UNVERIFIED | Author-checked: same chain of events, map, qualification; independent UNVERIFIED | Author-checked: same checkpoint, civilian, map and commendation; independent UNVERIFIED |
+| Claims and source boundaries | G1/G2/G3; US report of comparatively light resistance, not sole cause; 23–24 March qualified | G1/G2/G3, single recovered German map, attribution limited; 23–24 March qualified | G1/G6, checkpoint/evacuation and commendation from US archives; no reconstructed direct quotations |
+| ChannelSpec | `nuviko_history` supports short, requires narrative loop; actual AV seam UNVERIFIED | `nuviko_history` supports long 16:9; endscreen production gated | Same long; no changed profiles or production settings |
+| Review | Author-only; independent reviewer UNVERIFIED | Author-only; independent reviewer UNVERIFIED | Author-only; independent reviewer UNVERIFIED |
+| Runtime and approval | EDITORIAL_CANDIDATE_UNREGISTERED; no run or approval | Same; recommendation is NOT approval | Same; not three productions |
+| Storyboard | Original 18 spans only for archival r1, not compatible with r2 02m | No valid exact r2 05m storyboard | No valid exact r2 10m storyboard |
+| TTS/AV/retention/CTR | UNVERIFIED | UNVERIFIED | UNVERIFIED |
 
-**Independent bilingual-review: UNVERIFIED.** Minor nuance for later reviewer: EN “made of rubber” and RU “резиновые” refer to rubberized-canvas decoys, not mechanically functioning tanks.
+**Loop author-only 02m:** The final thought says the map showed how persuasive a view across the river was. The next opening specifies exactly what view: a seemingly whole American division. The viewer already knows the map result; this is not a promise postponed to replay. Literal seam: “That map shows just how convincing the view from across the river could be. A whole American division seemed to be waiting beside the Rhine.” The equivalent RU wording: “Карта показывает, насколько убедительным могло быть зрелище с другого берега. У Рейна будто бы стояла целая американская дивизия.” Cold start works without prior context. Still only an author's textual check, and repetition may feel like a restart to independent reviewer; **do not claim PASS before that answer or MP4 examination**. Loop on Long: N_A.
 
-## Required independent method — not performed
+## Exact-text comparison and decision
 
-No usable checked-out repository/CLI for `uv run ytv start` in current host; no genuine `plan_summary`, `read_next`, `task_guide`, pinned runtime documents, run ID, leases or research/script receipts. No `sessions.independent`/fresh agent host tool was actually available; generic external session management is not a new independent reviewer. Therefore no `ytv-script-review-v1` on exact EN hash, no literal independent double-read, and no `awaiting_script_approval`.
+| Transition | New value for a listener | Potential loss of interest |
+|---|---|---|
+| Original r1 → 02m | Preserves captured-map payoff and rubber props; repairs overconfident “March 23 both crossed” date and more clearly attributes the limited resistance; naturalized ending rather than an unearned new question | First 45 seconds cover several layers quickly; novice may lose track of real vs simulated divisions |
+| 02m → 05m | Why the river needs noisy preparations; how radios and real engineers reinforce a visual disguise; why the map is stronger than simply finding weak resistance | Around paragraph “There was a dangerous weakness” the risk of close inspection is explained, but not a discrete documented attempted discovery |
+| 05m → 10m | Authentic restricted zones, military-police imposture, unsuccessful house search, civilian impact, Simpson commendation and relation to wider Ninth Army campaign | The check-post/house-search and civilian digression appears **before** crossing, delaying the map; post-map commendation dilutes the ending |
 
-When locally registered, ask the new independent reviewer (without author beats): reason to continue after opening; exact line of attention loss; one unnatural stock phrase, if any; whether the ending provides payoff and becomes the first line naturally. Permit “understandable but not worth watching,” change of theme, and FAIL. Only after their **first** cold read disclose G1–G4 and strongest alternative (Vincent Coleman). Preserve verbatim answer and hash; later edits require new review.
+**Recommendation: 05m Long, editorial only.** Reason: more complete causal structure and credible human stakes than 02m, without the 10m detour before the strongest map payoff. 590 EN words are not a measured 5-minute runtime; if the fixed 1.1× voice is faster, it could be under four minutes. Do not insert padding for duration or switch voice speed to force target. A strong 02m alternative remains viable if independent reading finds the Long too explanatory. 10m is complete but not first choice.
 
-**Repository checks:** exact EN/RU scene-span equality can be checked in Draft PR. Local `scripts/check_repository.py`, actual ytv runtime gates and video checks NOT RUN without checkout. GitHub CI must be checked separately at resulting commit.
+**Production blocker:** no checked-out local ytv CLI, no canonical run context/pins, and no fresh independent review or genuine `ytv-script-review-v1` receipt in this GitHub-only operation. Retain all candidates, request separate owner selection only through the official script gate once available. Independent review must receive exact texts without the verdict table; source checks follow first listening. Do not invent session IDs, approvals, MP4 seam checks, or analytics.

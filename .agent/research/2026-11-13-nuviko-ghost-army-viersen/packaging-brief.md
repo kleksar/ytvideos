@@ -11,3 +11,8 @@
 **Chosen early promise:** “Tanks that looked real from a distance were only one layer of a larger fake force; the German captured map indicated the decoy succeeded in placing units incorrectly.” Scene S001 must stand on its own; S002 proves the surprise within the opening. Scene S014 provides distinct evidence, not recycled hook.
 
 **No final art**: concepts/prompt notes only. No title, thumbnail, CTR, A/B experiment, generated image, actual crop, motion, or media file approved. Thumbnail QA and real references belong to later, separately authorized workflow stages. Current Nuviko illustrated recipe: photographic historical worlds, optionally 2D traveler with both accepted actual PNG refs; no decorative paper frame.
+
+
+## r2 provenance (2026-11-17)
+
+The S001–S018 references above belong to the unchanged original root r1 only. They must not be used as exact 02m/05m/10m scene references. For recommended 05m Long, a future title/promise should emphasize **two missing divisions + German map mismatch**, not a single rubber tank's allegedly proven casualty reduction. Target 16:9 Long format supported in current ChannelSpec, but artwork, title/thumbnail acceptance and scene mapping are all UNVERIFIED and require new work after selection. No source video or external media generated.
