@@ -1,24 +1,19 @@
-EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официальному ytv script gate.
+EDITORIAL_CANDIDATE_UNREGISTERED — not approved or registered as a runtime script.
 
-# Handoff / scope
+# Handoff — Juliane Koepcke, existing PR #70
 
-- **Main HEAD observed before preparation:** `cd749ac2559170bdbd761cb447683e1e88260556`; exact Git root tree `d167f3587e19071baad0412c2e408c2fd8be26b2`. Recheck remote main and PRs before writing.
-- **Channel:** `nuviko_history`, active per `channels/nuviko_history/channel.json`; separate from musical `nuviko_videos`.
-- **Format:** English illustrated narrative Short 9:16. RU is a full working translation, never a separate Russian TTS track. The fixed story paragraphs and exact bilingual spans are in `script.en.txt`, `script.ru.txt`, `storyboard.json`.
-- **Evidence/revisions:** first editorial EN/RU revision. 2026-11-14 source matrix and real ten-topic screen are in research.md. A new edit must save prior exact versions, regenerate every dependent scene span, invalidate current review/time guesses, and obtain a fresh reviewer response for the new EN SHA-256.
-- **Permissions:** Only this one Draft editorial PR. No merge; no production media, TTS, imagegen, render, upload/publication, channel status changes, approval or paid providers.
-- **Unavailable here:** local executable checkout for actual `uv run ytv start`; `sessions.independent` or equivalent independent reviewer capability not exposed by tool registry. An author's two-cycle inspection is not independent review. Script gate `awaiting_script_approval` **NOT achieved**. Actual voice/music/SRT/AV join **UNVERIFIED**.
-- **No simulated evidence:** don't invent run, reviewer IDs, receipt, measured timing, or approval. Git object hash is not exact EN SHA-256; compute `sha256sum` of final bytes after checkout.
-- **Visual:** Nuviko profile and `brand/VISUAL_PROFILE.md` read; required 2 PNG traveler anchor bytes **not inspected**, so preliminary storyboard intentionally has no 2D traveler. No source photo bytes or scene images supplied. Estimated scenes 4–6 seconds are not measured cuts.
+- Baseline PR head **`60a61531bb46da0b16c12db7de5b7100bbb0d718`** (all original files retained). Source main in first creation was `cd749ac2559170bdbd761cb447683e1e88260556`; canonical main for this revisit **`247ebe9245091972c5a93ecb84ce55ad8c15a211`**, including merged rules #124 and #117. Never substitute main for pinned early run snapshots.
+- One real history, full variants in `variants/02m`, `variants/05m`, `variants/10m`; exact hashes, scores and story maps in `story-review.md`.
+- Recommended **05m English Long** for owner consideration, not accepted master. Current Nuviko History ChannelSpec supports both Short 9:16 and Long 16:9. English TTS/SRT master, RU full sense-equivalent editorial translation. No voice speed change (1.10× once).
+- Original root `script.en.txt`/`script.ru.txt`, original 16-scene 9:16 `storyboard.json`, underlying research and baseline source blobs **not overwritten**. That storyboard binds only 02m exact SHA-256 `b13bd78664370f0592f1b7b5508753f16584f4b098d45ab8a108abe5a1b3811d` / `bbf9cd7e89dc0d868cb3cb047dad401580d2f043c3f16ee2e4cb692ec967805b`; never extrapolate scene timings, approvals or visuals to Long variants.
+- No independent reviewer capability invoked; GitHub connector cannot call local `uv run ytv start` or observe registered task context. No reviewer reply, run ID, receipt, media, approved script or production action. Unverified stays UNVERIFIED.
+- No production, paid providers, imagegen, audio, uploads, scheduling, profile changes or merge authorized.
 
-## Exact local transfer (from a real checkout when the owner chooses the candidate)
+## Transfer ONLY when supported by real runtime and owner decision
 
-```bash
-git fetch origin
-git show origin/work/story-drafts/nuviko-juliane-koepcke-1971-20261114:.agent/research/2026-11-14-nuviko-juliane-koepcke/script.en.txt > /tmp/ytv-koepcke-1971.en.txt
-git show origin/work/story-drafts/nuviko-juliane-koepcke-1971-20261114:.agent/research/2026-11-14-nuviko-juliane-koepcke/script.ru.txt > /tmp/ytv-koepcke-1971.ru.txt
-sha256sum /tmp/ytv-koepcke-1971.en.txt
-uv run ytv start --channel nuviko_history --format short --intent 'Evaluate the Juliane Koepcke 1971 editorial candidate, read its source matrix and seek script approval before any media'
-```
+1. Fetch exact source commit `git fetch origin`, read complete selected variant EN and RU, check `sha256sum` against `story-review.md`, confirm official pinned docs/context and existing run via `ytv status`; avoid duplicate run.
+2. For editorial development where no existing run exists, run canonical `uv run ytv start --channel nuviko_history --format long --intent 'Evaluate Juliane Koepcke editorial candidate; do not produce without script approval'` on real checkout, read `doctor`, `plan_summary`, `read_next`, `task_guide`, `reference_documents`, then attach real `script_variant` and `story_review` outputs using the runtime artifact mechanism. Do **not** use accepted-source import absent an actual owner production instruction.
+3. Give independent reviewer the exact selected texts with no author's scores or preferred length; for Short, supply full two cycles. Persist original reviewer output in existing schema. New hash → new review. Show the owner one chosen exact script at the legitimate script gate.
+4. Only following true owner selection/approval may downstream task handlers prepare a fresh selected-version 16:9 storyboard, audio and media. No reuse of old scenes for Long. Preserve original production pins; migration only if documented and explicitly required.
 
-On the resulting real run read `plan_summary`, `doctor`, `read_next`, `task_guide`, pinned `reference_documents`, current task context and the actual candidate source artifacts. Pass reference text as research/script task input using the supported artifact route; do not pretend `--source-script` is an owner-approved production script. If a run already exists, `status` → `resume` → `plan` instead of creating a duplicate. A fresh independent reviewer must receive the opening, full exact EN master twice, and only after initial impression the sources and Palomares comparison; original `ytv-script-review-v1` tied to exact EN SHA-256 is required. Show full EN and RU to owner at official script gate. This Draft itself grants no production approval.
+**Next queue segment:** technical #77/#78 require independent code/conflict review; next unprocessed narrative after #70 is #69 LEGO octopus. Do not treat a PR link as acceptance.

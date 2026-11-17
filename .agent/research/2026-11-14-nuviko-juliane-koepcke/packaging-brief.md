@@ -9,3 +9,13 @@ No covers/images/AI assets created. Story is about **escaping the forest through
 | C | **One Shoe, Eleven Days in the Amazon** | Close single shoe checking wet ground; physical survival detail | S008 precise foot placement | S014 rescue after eleven days | Shoe isn't claimed sole survival mechanism |
 
 **Selected preview pairing:** A. Specific object / action and the audio clue appear in the very first sentence; no promise of unreleased secret scientific facts. Nuviko photoreal world, 9:16 short, any drawn host used only after real accepted reference bytes are inspected. No text obligation from Paper Detour is transferred to Nuviko. Early credibility, full payoff, thumb/crop visibility and voice/card mood require real image/MP4 checks: **UNVERIFIED**. No CTR/retention claim; comparable-video metadata inaccessible.
+
+## Duration-specific visual intent (2026-11-17; no assets created)
+
+| Candidate | Truthful opening / visual focus | Distinct scenes to storyboard AFTER owner selects | Constraint |
+|---|---|---|---|
+| 02m short | Sound of stream at ground level after flight breakup | Existing S001–S016 exact script spans ONLY | Old storyboard 9:16; text loop not AV-verified |
+| **05m long** | Question-first: missing search aircraft vs audible water clue, then family station and crash | Family/field station → departure → storm/seats → lost glasses/mother → brook → invisible search planes → three bodies → food depletion → empty shelter → workers → rescue/aftermath | New 16:9 storyboard, scene count from exact narration; **not** old 16 short scenes |
+| 10m long | Question-first: fall uncertainty, search problem, scientific upbringing | Add first failed attempt to stand, unfamiliar wildlife as environmental cues, inedible food, river course, larvae historical account, later Germany/Panguana | Plan multiple distinct river states; long 10s end screen only after story payoff |
+
+No fake archival photo, invented mother's reaction, parachute-seat certainty, invisible rescue pilots “ignoring” Juliane or medical demonstration. No alternate voice/model or new paid-media instruction. Illustrated Nuviko host requires its verified visual reference bytes when depicted. Actual scene image, visual performance, thumbnail, loop and MP4 checks remain UNVERIFIED.

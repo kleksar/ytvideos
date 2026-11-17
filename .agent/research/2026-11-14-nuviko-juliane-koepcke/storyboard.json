@@ -8,7 +8,7 @@
   "visual_policy": "Photoreal historical world; no Nuviko 2D traveler in preliminary scenes because the two approved character reference PNG bytes could not be checked; actual final references must be opened if later used.",
   "narration_master": "script.en.txt",
   "bilingual_reference": "script.ru.txt",
-  "scene_span_policy": "Every exact source paragraph in order, all text covered; provisional 4–6s composition estimate, not measured speech or frame timing.",
+  "scene_span_policy": "Every exact 02m source paragraph in order, all text covered for the ORIGINAL SHORT only; estimated composition not actual TTS timing; no 05m/10m coverage implied.",
   "loop_join_en": "Back under the canopy, with her eyesight so poor, the clue that led her to people had been a sound.\nSeventeen-year-old Juliane Koepcke heard running water after falling from an airplane into the Amazon.",
   "loop_join_ru": "Тогда, под густой кроной, когда она почти ничего не видела, дорогу к людям ей подсказал звук.\nСемнадцатилетняя Юлиана Кёпке услышала журчание воды после того, как выпала из самолёта над амазонским лесом.",
   "scenes": [
@@ -172,5 +172,15 @@
       "estimated_composition_seconds": 5,
       "timing_status": "UNMEASURED planning only"
     }
-  ]
+  ],
+  "storyboard_binding": {
+    "variant": "02m",
+    "scope": "original_short_only",
+    "en_path": "variants/02m/script.en.txt",
+    "ru_path": "variants/02m/script.ru.txt",
+    "en_sha256": "b13bd78664370f0592f1b7b5508753f16584f4b098d45ab8a108abe5a1b3811d",
+    "ru_sha256": "bbf9cd7e89dc0d868cb3cb047dad401580d2f043c3f16ee2e4cb692ec967805b",
+    "long_storyboards": "NOT_PREPARED",
+    "timings": "UNMEASURED"
+  }
 }

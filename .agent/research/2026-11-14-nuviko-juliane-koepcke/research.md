@@ -55,3 +55,23 @@ Screening does not make every item a source-confirmed candidate. More public You
 2. Complete EN and RU scripts produced as human oral prose and refined before any detailed storyboard; exact day for boat dropped, aerodynamic explanation removed, mother’s fate retained, no inventing an extra risk.
 3. Storyboard and packaging then generated from fixed EN/RU paragraph spans.
 4. Independently read listener, official ytv script review, actual voice timing and media checks remain **UNVERIFIED**.
+
+## Expanded variant evidence — 2026-11-17 (same history, same research)
+
+The 05m and 10m texts expand *this* story, not three different plots. The following sources were opened at their actual article bodies, not inferred from snippets. They are first-person/memoir-based evidence, **not** an independent forensic proof of the fall mechanism.
+
+| Additional screenplay beat | Open source and precise supported passage | Boundary |
+|---|---|---|
+| Flight to meet father; graduation caused later departure; Panguana was still a river journey away | [Guardian interview, 6 Aug 2024, updated 2 Apr 2025](https://www.theguardian.com/lifeandstyle/article/2024/aug/06/a-bolt-of-lightning-struck-my-plane-and-i-plunged-3000m-into-a-rainforest), passages describing school graduation and station journey | Details from survivor account; no invented private dialogue |
+| Flash, row of three seats, crash near destination, injury and failed first attempt to stand | Same Guardian interview, passages on flight breakup and first morning; [ABC News, 2 Oct 2022](https://www.abc.net.au/news/2022-10-02/the-girl-who-fell-3km-into-the-amazon-and-survived/101413154), crash and injuries | Seat acting as a parachute or storm updraft **unproven**; do not claim physical cause |
+| Familiar wildlife sounds, drip of tiny water source, father’s instruction, one shod foot | Guardian paragraphs on cicadas/birds, drip, stream, foot-first walking | Distinguish recognising animals from magically knowing exact position |
+| Christmas cake spoiled by rain; bag of ~30 sweets; little edible vegetation available | Guardian paragraphs on inedible soaked panettone and limited sweets | No invented foraging or fasting calendar |
+| Three bodies in separate seat row, one female confirmed not mother | ABC News, “On her fourth day” / identification by toenails; also [Washington Post, 14 Jun 2023](https://www.washingtonpost.com/history/2023/06/14/juliane-koepcke-missing-plane-crash-colombia/), memoir-based retelling | Text omits exact day and exact words; these accounts share underlying first-person testimony |
+| Flying rescuers invisible through canopy; river current; animal signs of remote forest | Guardian paragraphs on search aircraft, river/wildlife and exhaustion | Do not depict rescue pilots knowingly passing her |
+| Boat and shelter initially unattended; local men and Spanish explanation, eventual evacuation | Guardian on boat and woodcutters/hunters; ABC on hut and fishing locals | Different source timelines for boat day (some day ten, some day eleven); variants say **eventually**, not a fabricated exact date |
+| Larvae removed using fuel; after rescue reunites with father; media interest; move to Germany; later biology | ABC on hut/larvae; Guardian on public attention, Germany and career; Washington Post on research station | Fuel is historical *description only*, not medical recommendation; no precise unverified inner thoughts |
+| Ninety-two aboard and only eventual survivor; mother later confirmed dead | Guardian and ABC final portions | “Sole survivor” refers to eventual outcome, not proof all others died on impact |
+
+**Audience-interest evidence:** topical public video index noted above, but actual comparable YouTube retention, CTR, normalized views and target audience remain **UNVERIFIED**. Editorial scores describe exact narration, not an independent demand measurement. External searches used only historical public names and events. No production, paid provider, audio or media source was accessed.
+
+**Chronology caution:** The 2024 Guardian account reports boat sighting on the eleventh day; the ABC memoir-based account places the hut earlier and locals the following day. Each variant avoids naming the day the boat appeared. “Eleven days” denotes the reported overall ordeal, not precision for every intermediate beat. Further forensic crash mechanics are not sourced in this editorial package.
