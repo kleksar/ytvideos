@@ -83,3 +83,23 @@ All open and closed PR titles in the repository and active branches were inspect
 ## Thumbnail promise / first confirmation / full payout
 
 Target: curious English-speaking history/survival viewers. Promise: **A captain is outside an airborne passenger jet while the copilot is still flying.** Immediate proof: S001–S002 visibly establish the unlikely arrangement and S003–S005 ground it in the verified flight. Expected mood: tense but not sensationally fictional. Full payoff: safe landing and survival, followed by wrong-bolt explanation (S013–S016). Exact image asset, native thumbnail tests, CTR, viewer reaction: UNVERIFIED. The key image must be explicitly described as a reconstruction, never a claimed historical photo.
+
+## Revision r2 — evidence for three complete durations (2026-11-18)
+
+Prior selection and research remain preserved above. Three variants share this factual basis; this section verifies *new* claims in the 5m and 10m versions. All claims below derive from the UK AAIB investigation, report 1/92, not from reenactment footage. Official report: https://assets.publishing.service.gov.uk/media/5422faa7e5274a131400078d/1-1992_G-BJRT.pdf ; government catalogue: https://www.gov.uk/aaib-reports/1-1992-bac-one-eleven-g-bjrt-10-june-1990 . The original report was rechecked against full page images (PDF zero-based pages 9, 10, 36–39, 58–60) on 2026-11-18.
+
+| Verified event | Source / precise report location | Story role and limitation |
+|---|---|---|
+| Birmingham–Málaga; 81 passengers, four cabin crew, two pilots; first officer took off, captain handled climb | AAIB §1.1 printed p.3 / PDF p.9 | 05m/10m setup; no invented dialogue or fear |
+| At 07:33 and about 17,300 ft the left windscreen exited; door fell on radio/navigation console; attendant No.3 grabbed captain by waist | AAIB §1.1 pp.3–4 / PDF pp.9–10 | First causal reversal; pressure, not an explosion aboard |
+| No.2 steward relieved No.3, strapped into left jumpseat, held both ankles; captain moved another 6–8 inches out; slipstream prevented recovery | AAIB §1.1 p.4 / PDF p.10 | 05m/10m second obstacle; care not to confuse steward roles with named identities |
+| Co-pilot regained control, descended, re-engaged autopilot; loud noise prevented reception acknowledgment; final landing runway 02 at Southampton 07:55 | AAIB §1.1 pp.3–4 / PDF pp.9–10 | Decision and survival climax; 07:33–07:55 is 22 minutes; no fictional radio transmission |
+| Captain fractures and frostbite, one cabin attendant arm injuries, no fatalities | AAIB §1.1–1.2 p.4 / PDF p.10 | Payoff qualified; do not say uninjured |
+| Replacement 27 h before; 84 undersized bolts and six too-short; exterior-attached windscreen opposed cabin pressure | AAIB findings §3(a)(iii),(vii),(viii), printed p.52 / PDF p.58 and §1.12.1 | Mechanical explanation, not a glass material defect |
+| Earlier window already had mostly too-short bolts; manager matched removed part rather than using illustrated catalogue; stores supervisor suggested correct type | AAIB §1.17.4.2 pp.30–31 / PDF pp.36–37 | 10m substantive second story; not excuse for unsafe work |
+| Poor lighting at second carousel, comparisons by eye/touch, limited view while fitting, ignored cues | AAIB §1.17.4.2 pp.31–33 / PDF pp.37–39 | 10m causal chain; avoid invented internal thoughts |
+| No independent inspection and one manager self-certified; local oversight and quality checks inadequate | AAIB §3(a) p.53 and §3(b) p.54 / PDF pp.59–60 | Final system-level consequence, not unsupported attribution of sole blame |
+
+Story map, per version: 02m windscreen → grip → failed retrieval → second grip → safe landing → wrong bolts → rewind; 05m question → ordinary flight → failure and first grip → air/flight-control obstacles → handoff → landing → maintenance findings; 10m question → ordinary crew → decompression → divided rescue → handoff → landing → wrong bolts → wrong selection and missed checks → safety outcome.
+
+**Audience demand, exact measured narration durations, controlled retention/CTR, real MP4 seam, independent listener: UNVERIFIED.** Qualitative interest remains the original hypothesis, not a new empirical finding. New drafts do not replace pinned/approved runtime artifacts, if any.
