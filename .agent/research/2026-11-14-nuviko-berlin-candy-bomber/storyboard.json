@@ -154,5 +154,12 @@
       "continuity_and_factual_boundary": "Frame attention from plane signal toward where S001 parachute descends; S016->S001 intended direct cut, exact AV seam UNVERIFIED.",
       "duration": "4–6 seconds provisional composition target; NOT measured"
     }
-  ]
+  ],
+  "variant_binding": {
+    "applies_only_to": "variants/02m/script.en.txt + variants/02m/script.ru.txt",
+    "en_sha256": "c1c60877f934dca8b3e51861baf95826722e0070465d110a2f747fec9ae96a65",
+    "ru_sha256": "309a341098d3be0115d7e25d88a6a68bc32227e8b7b6de6f821cf92e909533b1",
+    "status": "original Short exact spans only; 05m and 10m need independent storyboards",
+    "reason": "These 16 scene spans belong to unchanged original 02m; draft composition durations and old author review do not transfer to new Long narrations."
+  }
 }
