@@ -41,3 +41,13 @@ The [format proposal](FORMAT_PROPOSAL.md) accompanies this factual snapshot. Spe
 ## Existing owners stay authoritative
 
 Implementation, if separately approved, must use the existing [editorial](../../standards/editorial.md), [delivery](../../standards/delivery.md), [release](../../standards/release.md), and [migration](../../migration.md) owners. This proposal is intentionally outside normal production reading paths and does not duplicate or replace their procedures.
+
+## Confirmed sound-library policy (FACT, separate from creative proposal)
+
+The permanent reusable SFX library contains only effects personally approved by the owner. Keep source URL, original asset identity/hash, license evidence, permitted context, and approval provenance with each approved asset. Historical use in a video is not approval for the library or for every future placement/gain.
+
+Currently confirmed: `04_mumbling_whispering` for quiet unintelligible character speech, not a constant crowd layer; `07_medium_crowd` for populated public spaces such as shopping malls, subway and busy streets. These approvals do not retrospectively approve older reconstructed dialogue textures.
+
+Candidate auditions are a separate temporary review area, not a permanent library. Offer up to ten useful variants per requested sound type when available. Do not maintain a rejected-assets registry or retain rejected candidate copies in the permanent collection. Preserve original project/source archives, masters, and recovery materials: candidate cleanup must never delete historical production inputs.
+
+The temporary Rewind review inventory reconstructs 135 isolated source events and maps 293 placements in the current edit. Its audition levels are for comparison, not a claim of exact final-master gain; continuous beds may span several scenes. Music and the intelligible narration mix are excluded. Legacy source-derived murmurs remain unapproved. Review catalogs do not authorize replacing sounds or modifying masters.
