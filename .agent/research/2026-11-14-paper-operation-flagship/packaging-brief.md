@@ -20,3 +20,8 @@ Unregistered text-only editorial candidate; NO images, thumbnail, actual source 
 - PD-CHOICE-01: historic invitation at left and handcuffs at right with visitors being guided toward a narrow upstairs door; headline 'YOU WON'.
 
 Any actual AI draft needs source-asset byte/hash read-back, title/image/crop QA at portrait and central 2:3, and accepted full video consistency, with real recorded outcomes. These are untested ideas, not images or CTR performance evidence. Don't overstate mascot posture or fabricate authentic 1985 photo provenance.
+
+
+## Three-length editorial packaging boundary (2026-11-17)
+
+The titles and portrait-thumbnail concepts above belong to unchanged **02m Short** only; they are hypotheses, not approved release assets or measured click-through. Suggested 05m Long promise: **"They Invited 3,000 Wanted People to a Football Party"**. A possible physical paper thumbnail places an invitation in the foreground, the upstairs stairway and a concealed-officer chicken as contrast, but artwork must be created and checked later under actual authorized Long workflow. 10m would require a distinct first-listener-tested promise; do not automatically reuse Short storyboard/image/crop/timings or production approval. [Complete full texts](README.md) and [separate review](story-review.md).
