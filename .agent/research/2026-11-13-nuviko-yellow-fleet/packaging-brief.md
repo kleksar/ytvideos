@@ -13,7 +13,7 @@ Preferred concept 1 makes the exact cold opening visually credible and opens “
 
 ## r2 variant-specific truthful promises (text-only, no media)
 
-- **02m original Short:** preserve concept 1, football pitch on a freighter, with the warning that a literal “war zone” could be mistaken for a match during active 1967 combat; image must not depict fighting.
+- **02m revised Short:** preserve concept 1, football pitch on a freighter, with corrected wording that the freighter was trapped by war rather than depicting a game during active June 1967 combat; image must not depict fighting.
 - **05m Long (recommended editorially):** title hypothesis *“The Six-Day War That Trapped 14 Ships for Eight Years”*. First 30 seconds ask how the convoy became stranded; by the early trap the promise is proven; the later 1973 danger and the two-vessel departure provide real turns and a complete payoff. Thumbnail sketch: close-up a 1960s freighter covered in yellow sand among many moored ships, small football scene on a deck; no fictitious gunfire or modern containers. No actual thumbnail exists.
 - **10m Long:** title hypothesis *“They Built a Town on Ships — Then Only Two Could Sail Home”*. Opening questions promise community and mechanical consequences; dedicated visual sections would need real 1967 convoy, 1969 grouped moorings, 1973 loss and 1974 clearance. It is more production-expensive and editorially less tight than 05m. It is not authorized for image generation.
 

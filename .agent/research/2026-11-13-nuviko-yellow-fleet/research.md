@@ -97,3 +97,6 @@ The source matrix Y1–Y7 and the original topic selection above are retained. T
 **Core fact checks for expanded narration:** 15 trapped in canal, 14 on Great Bitter Lake; first war lasted six days but canal was closed years; original crew replaced and later smaller groups retained watch; 1968 Olympics and stamps preceded renewed 1973 conflict; African Glen was lost in that later war; two powered returns among original fourteen, others towed. No claims of actual football during six-day fighting, a named sailor's secret thoughts, or specific failure in every ship's engine.
 
 **Use and rights:** Source documentation is not a license for photographic prints, film clips, handwritten stamps or voices. New 05m and 10m storyboards not generated and any visual intent must be separately linked to chosen exact EN hash.
+
+
+**r3 fact correction (2026-11-17):** The root archival script's sentence that all other 12 ships were towed conflicts with the IMarEST account (Y8) of one ship, `African Glen`, sunk during 1973 fighting. Revised 02m, 05m and 10m narration restricts towing to surviving freighters. The 02m opening was also altered to say football happened aboard a ship *trapped by war*, not amidst active June 1967 gunfire. Independent review and new scene mapping are pending.

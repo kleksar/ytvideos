@@ -6,20 +6,20 @@ EDITORIAL_CANDIDATE_UNREGISTERED — not an approved production master
 
 | Target | Full Russian reading text | Full English narration candidate | EN word count | Editorial status |
 |---|---|---|---:|---|
-| ~2 min | [RU](variants/02m/script.ru.txt) | [EN](variants/02m/script.en.txt) | 203 | Original Short preserved byte-for-byte; seam and time UNVERIFIED |
-| **~5 min** | **[RU](variants/05m/script.ru.txt)** | **[EN](variants/05m/script.en.txt)** | **693** | **Recommended Long editorial candidate; independent review missing** |
-| ~10 min | [RU](variants/10m/script.ru.txt) | [EN](variants/10m/script.en.txt) | 1501 | Complete independent Long; loses momentum during the facilities/maintenance middle |
+| ~2 min | [RU](variants/02m/script.ru.txt) | [EN](variants/02m/script.en.txt) | 207 | Revised Short with accurate 1973 sinking; loop/storyboard/time UNVERIFIED |
+| **~5 min** | **[RU](variants/05m/script.ru.txt)** | **[EN](variants/05m/script.en.txt)** | **698** | **Recommended Long editorial candidate; independent review missing** |
+| ~10 min | [RU](variants/10m/script.ru.txt) | [EN](variants/10m/script.en.txt) | 1505 | Complete independent Long; loses momentum during the facilities/maintenance middle |
 
-**Recommendation: 05m Long, not approved.** It adds the organized relief/maintenance logic, a witness's actual medal, the 1973 danger and the hard-to-restart return without turning the middle into a lengthy catalogue of shipboard amenities. Two minutes retain a coherent payoff; ten minutes offer additional independently sourced context but are not automatically stronger. For 05m, ~693 words imply roughly 4.3–5.3 minutes at an assumed 130–160 spoken English words/minute before real pauses; ~5 minutes is not measured. 10m ~9.4–11.5 minutes on the same assumption. The existing 02m Short is only 203 words; runtime duration/loop remain UNVERIFIED.
+**Recommendation: 05m Long, not approved.** It adds the organized relief/maintenance logic, a witness's actual medal, the 1973 danger and the hard-to-restart return without turning the middle into a lengthy catalogue of shipboard amenities. Two minutes retain a coherent payoff; ten minutes offer additional independently sourced context but are not automatically stronger. For 05m, ~698 words imply roughly 4.4–5.4 minutes at an assumed 130–160 spoken English words/minute before real pauses; ~5 minutes is not measured. 10m ~9.4–11.6 minutes on the same assumption. The revised 02m Short is only 207 words; runtime duration/loop remain UNVERIFIED.
 
 **Exact SHA-256 (UTF-8, including trailing newline):**
 
 | Version | EN | RU |
 |---|---|---|
-| 02m | `717f9f28d5c329bb5b9e29216b6940a103690633e9c2e08aeed9d32ec6bb89a0` | `fe0f0195292bd903a6135a08fbf17c5e71d63014daa1f6869b875aa48cd61b12` |
-| 05m | `dec5d8b87e5908452e4099d0d0e14f54ad8a14a398b7bef273bc3d43c832c06d` | `4efee906f725ef9dc948377dff85bd5b98b30f2eff53b69e3a3b591d1a08e1a3` |
-| 10m | `63a76e73f6f29e2beb353c516b668e6eb6606ea4ed2cb7b4278f572d18d27a57` | `0ab236a1ccff06c1366a4850b8a20c9a90c81103cb564beff7e3c16b860c56c9` |
+| 02m | `89e75566a782b15228de221a0d0b9833d0e9e9bda21b73d09fe0aa5cd03cfb26` | `0786ee60547edc8c10cf0cb39d3906636a13c6ffb5c05c1e7aca12d15a1c384c` |
+| 05m | `64656c3c80154448d8b99d6e161960947b13c2d8d3647c864c334efa0043dc80` | `7b34e32eee08bacab1f7b5d2ab044ec48bbccfb55be138ef7bb13043b89ea5ca` |
+| 10m | `1f4d5fdfbdc5b9c928156a5a7c7651d01e7afed00b514aa009abda3a9236ceaa` | `a8ac01816a6e3785107b82b59aebf52649e17269a97aed36b3171efdd4f1554c` |
 
 **Other exact artifacts:** [research and sources](research.md) · [author-only story-review and version maps](story-review.md) · [original 13-scene Short storyboard only](storyboard.md) · [packaging hypotheses](packaging-brief.md) · [handoff and runtime blockers](handoff.md).
 
-**Provenance / safety:** baseline PR #50 HEAD `d3c6c2add8cc0dfde82632af868b6d597d29fb32`; original `script.en.txt` and `script.ru.txt` unchanged, with byte-identical copies under `variants/02m/`. All original 13 storyboard spans refer **only** to that unchanged source and **do not** cover the 05m/10m versions. Editorial review does not imply approval, independent reviewer receipt, new run, storyboard completion, TTS, render, measured viewer interest, or publication. Do not change the Nuviko ChannelSpec or approved master/pins. Production transfer requires the actual local `ytv start`/artifact registration and owner approval of a single exact master.
+**Provenance / safety:** baseline PR #50 HEAD `d3c6c2add8cc0dfde82632af868b6d597d29fb32`; original root `script.en.txt` and `script.ru.txt` unchanged as historical evidence. The revised `variants/02m/` fixes the false implication of football during actual 1967 combat and separates the vessel sunk in 1973 from the surviving ships later towed. The 13 old storyboard spans refer only to original root scripts, **not any revised variant**. Editorial review does not imply approval, independent reviewer receipt, new run, storyboard completion, TTS, render, measured viewer interest, or publication. Do not change the Nuviko ChannelSpec or approved master/pins. Production transfer requires the actual local `ytv start`/artifact registration and owner approval of a single exact master.
