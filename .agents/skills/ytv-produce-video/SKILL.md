@@ -31,6 +31,8 @@ CLI и точные outputs/receipts: [task contract](../../../docs/operations/t
 
 Для `licensed_clips` и `music_first` прочитать принятый typed edit-script и его speech mode по [task contract](../../../docs/operations/task-contract.md#outputs). `source`/`none` используют source audio mix; `none` завершает subtitles проверенным `no_speech` JSON. Не придумывать narration/SRT и не отправлять TTS для этих режимов; точные checks и output kind уже находятся в task context. Для `music_first` следовать `task_guide.music_edit` и [музыкальному рендеру](../../../docs/operations/task-contract.md#музыкальный-рендер): `mix` сохраняет непрерывный принятый отрывок, `music_render` связывает planner, footage/rights и применимые вокальные титры.
 
+Для новых финалов читать [editorial](../../../docs/standards/editorial.md).
+
 Для Short в storyboard/audio/render прочитать [editorial](../../../docs/standards/editorial.md) и применимый loop plan принятого сценария. Связать последний и первый планы, музыку, применимую речь и субтитры; проверить начало по фактическому звуку. Не добавлять заставку/прощание, скрывать отдачу или менять принятый текст ради стыка. Смысловой дефект — по editorial; техническую склейку исправлять без нового gate. Финальная проверка — [delivery](../../../docs/standards/delivery.md).
 
 Для иллюстрированной раскадровки и сцен выполнить [процедуру](references/storyboard.md).
