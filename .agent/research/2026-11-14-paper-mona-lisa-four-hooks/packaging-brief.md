@@ -1,3 +1,5 @@
+> 2026-11-17 editorial binding: all S001–S014 scene references and hook/frame assumptions below refer ONLY to the unchanged **02m Short** (`variants/02m/script.en.txt`). The recommended 05m Long is a new complete narrative and requires its own thumbnail promise→first proof→payoff timing plus per-meaning storyboard. None of the below are actual artwork or measured thumbnails. Long end-screen or next-video transition needs a verified relevant public target; not invented here.
+
 # Packaging brief · editorial-only · Paper Detour
 All options are proposals, NOT published metadata, approved artwork, A/B or measured CTR. EN is the intended audience language.
 
