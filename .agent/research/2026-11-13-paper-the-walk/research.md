@@ -126,3 +126,35 @@ Revision notes: removed the redundant sentence explaining that the solution to o
 Paper-plane cameo proposal: only in a later Central Park composition, as a folded prop on a park bench, subject to approved-reference and actual-image QA. Do not put a plane flying toward the towers or create a 9/11 association. The cameo is a brand device, not a claim about the historical event. Detailed storyboard and prompts remain unstarted.
 
 Independent reader, genuine script receipt, audio/visual seam and audience-transfer evidence: UNVERIFIED. No global script PASS is asserted. See `handoff.md` for exact runtime failure and next steps.
+
+## 7. Queue revision of one history into 02m/05m/10m — 2026-11-17
+
+This supplements, rather than replaces, the original 2026-11-13 film/Short-discovery evidence. Six complete narrative texts now live under `variants/`, with source hashes, maps and editorial comparison in `story-review.md`. This is the **same** Philippe Petit event at three durations, not three topics. Old root scripts are preserved unchanged. None of the older indexed video counts became observed audience retention or a current live counter.
+
+### New source confirmations for expanded details
+
+Reviewed full public sources on 2026-11-17. The sources below are public event material, not production instructions.
+
+- **F5 PBS American Experience — “Tightrope Between the Towers”**: https://www.pbs.org/wgbh/americanexperience/features/newyork-tightrope/ . Sections “In Training”, “Stepping Into the Void”, “Spellbinding”, “Sentenced”, “Lifetime Pass”. Confirms groups on north/south roofs, dismantled pole, steel cable, bow/arrow, all-night setup, security/secret entry, early August 7 walk, spectators, Sergeant Charles Daniels' eyewitness account, legal outcome, Port Authority observation-deck pass. **Caution:** its dentist story and six-year planning period are contradicted by Petit's 2024 correction; we do not narrate them as true.
+- **F6 TIME historical retrospective (2015)**: https://time.com/3976999/philippe-petit-twin-towers/ . Describes disguises, scaffolding/roof access, progressive heavier lines, press response, arrest/charges. Its six-year premise is not used, nor its attribution of an exact crossing count.
+- **F7 HISTORY — event feature**: https://www.history.com/articles/philippe-petit-twin-towers-high-wire-walk . Notes two teams entering through different routes, guards delaying work, fake work credentials and blueprint-tube disguise, heavy cable, line sequence, hospital examination, arrest and Central Park exchange. **Boundary:** published article repeats disputed eight trips; no precise number asserted in any new narrative.
+- **F8 The New Yorker (1987 long profile)**: https://www.newyorker.com/magazine/1987/06/15/philippe-petit-profile-high-wire-artist . Supports public cheers, hospital exam, official charges, dismissal, and a later organized children's Central Park event three weeks later above a lake. This is a retrospective profile, not contemporaneous raw police paperwork; artist's dialogue is **not** fabricated into narration.
+- **F9 ABC Radio National (2024)**: https://www.abc.net.au/news/2024-08-28/philippe-petit-world-trade-centre-highwire-walk-new-york/104270812 . Petit's *own late interview*, not independent verification, rejects the dentist anecdote, years-long preparation and the eight-crossing claim. He says eight months of preparation and perhaps four or six crossings. Narration labels these explicitly as **his later correction**, not newly proven historical timing. The short version avoids the disputed matters entirely.
+
+| Expanded claim and causal role | Source | Confidence / limitation |
+|---|---|---|
+| An occupied, criticized, partly vacant new office complex presented both security and public-image stakes | F5; F7 | Historical retrospective; no assertion that walk *alone* changed tenants' economic outcomes |
+| Prior Notre Dame and Sydney Harbour walks explain Petit's skill, not a supernatural ability | F7; F6 | Supported; no unverified motives/internal thoughts |
+| Reconnaissance and worker/journalist disguise meant equipment could enter in stages | F5; F6; F7 | Specific identity Barry Greenhouse from F7; do not turn him into the only inside helper |
+| Cable required arrow/thin line/heavier line/actual steel wire and stabilization | F5; F6; F7 | Avoid invented tensile limits or exact rope weights; no physical design instructions needed |
+| Police Daniels saw Petit smile and return to wire after officers approached | F5 and original F2 archive | Eyewitness recollection, not omniscient account of officers' thoughts |
+| Petit was arrested and examined; public response led to prosecutor's conditional dismissal | F1; F5; F7; F8 | Do not describe the performer as acquitted by a trial or “sentenced” after conviction |
+| The promised free show **actually happened** in Central Park about three weeks later | F8 | Retrospective eyewitness-era profile; staging details absent in 02m/05m |
+| Exact total crossings and multi-year preparation are disputed by the protagonist himself | F9 versus F5/F7 | Narrated only as a stated correction in 05m/10m, not an independently certified number |
+| A lifetime observation-deck pass followed | F5 | Aftermath in 10m only; does not erase illegality |
+
+### Editorial causal chain and viewer benefit
+
+Secret plan → guards force hiding (need to avoid discovery) → thin line is essential to pulling heavier cable (otherwise nothing to walk on) → sunrise crossing (performs public spectacle) → seeing officers changes the act into a prolonged standoff → return to roof enables arrest → public response helps change charges to a free children's performance. For the ten-minute account, earlier public criticism and later myth corrections add separately evidenced historical context, but their placement can slow the walk; the detailed weakness is preserved rather than concealed in the review.
+
+No new production approval is implied by these sources. No live audience views, CTR, retention or actual MP4 seam were measured.
