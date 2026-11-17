@@ -7,7 +7,7 @@ Status: **EDITORIAL_CANDIDATE_UNREGISTERED**. This is author editorial compariso
 | Target | Full scripts | EN words / sha256 | RU words / sha256 | Format and preliminary timing |
 |---|---|---|---|---|
 | 02m | [RU](variants/02m/script.ru.txt) · [EN](variants/02m/script.en.txt) | 193 / `a9518925570365195c9a302a920796d1ac4d3cfa8b782c13bb7eee87ee56eedd` | 175 / `1485b0d9de5f9dfe525babd118ff1f150d2d3f1da8414900401e7b2bee6419d5` | Short; textual seam author-review only; estimate at 125–155 EN wpm without measured pauses: 1.2–1.5 min |
-| 05m | [RU](variants/05m/script.ru.txt) · [EN](variants/05m/script.en.txt) | 544 / `73c56fdaba14c8be3e1a107222fa6a0b98daebeb73f0601a3bac776871ff8da1` | 445 / `38f5dafc9599422191b55a73e9c60dced0c04d1b34bd341fafba33a47b2875b8` | Long, ChannelSpec supported; estimate at 125–155 EN wpm without measured pauses: 3.5–4.4 min |
+| 05m | [RU](variants/05m/script.ru.txt) · [EN](variants/05m/script.en.txt) | 707 / `db6c9fa394680f278a8b6ca90a463e65c43ea55c92965bae8b1433cd069dfcdf` | 562 / `c75d87ac13e945dc6bc588770bad68146c71c046cae5364246734a3ddfc0fe19` | Long, ChannelSpec supported; estimate at 125–155 EN wpm without measured pauses: 3.5–4.4 min |
 | 10m | [RU](variants/10m/script.ru.txt) · [EN](variants/10m/script.en.txt) | 1333 / `7727d8d552b912c3dcb475943d294bef80a5e3bd8bcf3aa12c2e5c7a111547d1` | 1073 / `3231b93a4ae19b79778b87ad7a141643cfa07c71d3f678d66a125b6e934c3dd6` | Long, ChannelSpec supported; estimate at 125–155 EN wpm without measured pauses: 8.6–10.7 min |
 
 Target length is a *creative label*, not a measured duration. 05m and 10m may under-run without the picture, performance pauses or exact voice; do not stretch script mechanically. Voice 1.10x remains pinned channel policy, not adjusted for target. Short loop is mandatory only for 02m; AV seam UNVERIFIED absent MP4.
@@ -40,3 +40,7 @@ Per version hard checks: 02m fact support author PASS (AAIB), EN/RU corresponden
 ## Reviewer and handoff
 
 Fresh reader should receive each complete exact EN script in blind order, with author scores/diagnoses hidden until after initial response, then the applicable AAIB page images and independent-source comparison. Reviewer may choose original Short, reject alternatives or decline the topic; author does not emit `ytv-script-review-v1` on their behalf. Any new SHA requires new answer. Only one owner-selected exact master may be registered through official runtime. No script approval, paid media, generation or release authorized.
+
+## r2 refinement — full 05m precision
+
+Added the verified release of both pilots' shoulder straps, cabin crew preparations at 07:33, external-fit windscreen physics and first-flight-after-repair qualification. These are substantive causal mechanisms, not a repeat of the rescue. See AAIB §1.1 p.3 and §3 findings p.52; previous 05m EN/RU hashes were invalidated and replaced above. New EN/RU scripts checked paragraph-by-paragraph by the author only; an independent blind reader and actual voice timing remain UNVERIFIED.
