@@ -36,7 +36,7 @@ This snapshot does not verify current YouTube video IDs, public/unlisted/private
 4. How should a first-time viewer understand an episode without watching the previous one?
 5. Which existing videos may be edited, and which should remain historical originals?
 
-A format proposal will accompany this factual snapshot. Specific bridge text, question wording, durations and opening reply examples remain unapproved until the owner decides. Do not fabricate audience comments or results: any invented demonstration must be explicitly labelled **author-written example, not a real viewer comment**. Never imply a real user submitted an example, and do not promise a future response that has no committed delivery plan.
+The [format proposal](FORMAT_PROPOSAL.md) accompanies this factual snapshot. Specific bridge text, question wording, durations and opening reply examples remain unapproved until the owner decides. Do not fabricate audience comments or results: any invented demonstration must be explicitly labelled **author-written example, not a real viewer comment**. Never imply a real user submitted an example, and do not promise a future response that has no committed delivery plan.
 
 ## Existing owners stay authoritative
 
