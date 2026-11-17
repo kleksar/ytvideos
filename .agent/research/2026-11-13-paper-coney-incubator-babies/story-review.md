@@ -1,3 +1,77 @@
+# Editorial version comparison — 2026-11-17 · PR #39
+
+**Scope:** one existing story, Lucille Horn and Martin Couney's Coney Island incubator exhibit, developed as three independent complete EN/RU narratives. Original root scripts and historical storyboard preserved unchanged. This is **EDITORIAL_CANDIDATE_UNREGISTERED**, not a ytv script gate, receipt, approval, or a request for three productions. Canonical rules read on remote main `7370be2d1c3c22a3f4e860a43e674515bc9b63e5`; owner duration revision #124 is **merged**, not just proposed.
+
+## Exact files, format, estimated durations and SHA-256
+
+| Variant | Complete texts | EN words | Estimated (no TTS) | Editorial recommendation |
+|---|---|---:|---|---|
+| 02m | [EN](variants/02m/script.en.txt) · [RU](variants/02m/script.ru.txt) | 193 | ~1:15–1:45 speech at 115–150 English wpm plus pauses; about 2m remains **UNVERIFIED** | Keep source as comparison; very concise, seam needs fresh review |
+| 05m | [EN](variants/05m/script.en.txt) · [RU](variants/05m/script.ru.txt) | 566 | ~3:47–4:56 speech at 115–150 wpm, plus pauses; target five minutes unmeasured | **RECOMMENDED** |
+| 10m | [EN](variants/10m/script.en.txt) · [RU](variants/10m/script.ru.txt) | 1274 | ~8:44–11:24 speech at 115–150 wpm plus pauses; 10s Long end screen is separate | Full alternative, less focused |
+
+The channel's `channel.json` supports `short` (9:16) and `long` (16:9); 5m and 10m are **Long**, never Shorts. No real speech rate, media, visual assets, actual opening/ending timing or audience metrics were measured. TTS speed is pinned by the channel profile, not adjustable to match these estimates.
+
+```text
+02m EN 8bf7f4df1289eb8798ede4cfda831bc3cab463449a8add3b1499299901a995fa
+02m RU 628333e6ede6fb9c786a6b26611d7dde9d881850fc0cf2305e8d0ba247f195aa
+05m EN e667ce7a90d1ed94f243f5a799c8bb872b0970383fe4ef32d219273079c5ba4f
+05m RU 8de72fa296dafb421576474fd4bdc258cafbcca4f26c596cc82733b370b68be0
+10m EN c6ce12496ff8c10d39db9a299f792e1e10fda8cfba7edb28b5f3323c90211f9f
+10m RU c56cafe95331752ab99a956f998b608225c6701118f6f1df020fe73238517d20
+```
+
+Preservation check: 02m EN equals existing root `script.en.txt` (`90bb72ab9c96f5c3110858a49406301333fb933b` Git blob); 02m RU equals existing root `script.ru.txt` (`6c1195bc876fb92fb390a16b85bc9cd9d8117fbe` Git blob), byte for byte. Immediate starting HEAD: `5cae483ca1500feeed90b2309d05fac6e43d26fb`. Older root revisions and their archived reviews remain intact.
+
+## One factual spine, three story maps
+
+**02m / Short — source-preserving:** visitors pay → nursing funded → hospital cannot care for premature Lucille after twin's death → father remembers honeymoon visit → towel and taxi → months of treatment → adult Lucille returns → Couney introduces her to another father → her survival becomes visible. First line: “Visitors paid to see premature babies in glass incubators.” Final phrase: “back at the amusement park where”; the literal loop completes a relative clause but an independent double full-read is **UNVERIFIED**. The final scene is resolved before replay; AV seam without MP4 is **UNVERIFIED**. This short is dramatically intact but short of a measured 2:00.
+
+**05m / Long — recommended:** initial questions explicitly promise why an amusement park provided care, who paid, and what Lucille's return meant → Coney crowd and the ward's actual work → ticket-funded care mechanism → hospital cannot help newborn twin survivor (**main hook**, a particular family must act) → father recalls earlier visit, makes taxi journey → trained team provides months of care while visitors watch → ethical tension around displaying infants → she survives → adult return and second father's meeting (**payoff**) → closure in 1943 and Lucille's 96-year life (**consequence**). Adds reason to follow and human stakes without diverting into Couney's disputed credentials. Main vulnerability: after the financing explanation and before the father acts, an impatient listener may briefly expect a generic hospital-history lecture.
+
+**10m / Long — alternate:** initial three questions → amusement-park setting → scarce incubator wards and staffing challenge → exhibition funding → Lucille's hospital crisis (**main hook**) → honeymoon memory and taxi → why traveling exhibits filled a genuine institutional gap → ethical complaints and nursing operations → contested medical qualifications and independently attested collaboration with pediatrician Julius Hess → separate 1934 Chicago former-patients gathering → return to Lucille's months of treatment and adult visit → Couney introduces her to the other father (**payoff**) → 1943 closure and Lucille's later life (**consequence**). The background is causally connected to whether the operation was genuine care, but interest risks sagging during credential disputes and Chicago context before Lucille's resolution. The Chicago group reunion is not Lucille's individual reunion.
+
+### Grounded evidence for additions
+- [S1 StoryCorps Lucille Horn and Barbara Horn](https://storycorps.org/stories/lucille-horn-150710/) transcript lines 60–74: Lucille's retrospective testimony on hospital, towel/taxi, honeymoon, about six months, adult return, Couney's shoulder tap and second father. **Personal retrospective testimony, not infant-era chart; no fabricated quotation or inner motive.**
+- [S2 Smithsonian 2016](https://www.smithsonianmag.com/history/man-who-pretended-be-doctor-ran-worlds-fair-attraction-saved-lives-thousands-premature-babies-180960200/) body paragraphs on professional nursing, objections, Hess, 1934 Chicago homecoming and doubts about Couney's claimed training. Historian's failure to locate a degree is not independent proof of what every institution knew; do not assert a settled medical license status.
+- [S3 ASU Embryo Project](https://embryo.asu.edu/pages/martin-couney-and-incubator-exhibits-1896-1943) sections on 1904–1943 Coney Island, parents' free care, admission fee, wet nurses, other fairs. Its conventional account of medical studies conflicts with S2's research, so the narrative reports disagreement, not a confident biography.
+- [S4 Associated Press/STAT 2017](https://www.statnews.com/2017/02/24/incubator-baby/) obituary for Lucille's later life, death aged 96, another retrospective “almost five months.” It is **not** a basis for a precise stay. Reported overall survival totals are Couney's own estimates, not measured clinical audit.
+- These assertions concern the historical story only. YouTube interest/CTR/retention, payment conversion, independently measured survival rate: **UNVERIFIED**.
+
+## Individual editorial judgments (AUTHOR only, not independent review)
+
+Eight fields for each exact script: **interest/significance; opening; causal development/reason to stay; payoff; freshness of angle; visual expression; oral naturalness/clarity; verified audience demand**. Scores are editorial 1–10, except demand, where no comparable measurement was available, so **UNVERIFIED instead of a fake number**. Confidence refers to this textual judgment, not audience outcomes.
+
+| Criterion | 02m | 05m | 10m |
+|---|---|---|---|
+| Interest/significance | **8/10**, a baby treated amid carnival visitors; ethically charged real person (medium) | **8/10**, makes the funding paradox consequential for one family (medium) | **8/10**, reveals larger clinical and professional context (medium) |
+| Opening | **8/10**, immediate “Visitors paid” surprise, but no advance questions (medium) | **8/10**, three answerable questions then immediate Coney setup (medium) | **8/10**, questions clarify payment, medicine and Lucille, first event follows (medium) |
+| Causal development/stay | **7/10**, compact hospital→towel/taxi→return but little space for mechanism (medium) | **8/10**, financial mechanism causes access; honeymoon clue enables father's action (medium) | **7/10**, real care and credentials add understanding, but Chicago may delay Lucille (medium) |
+| Payoff | **8/10**, Couney shows adult Lucille to second father (high fact basis, medium editorial) | **9/10**, second father's scene answers concrete promise, not an invented cure for his child (medium) | **8/10**, documented meeting is strong but reaches it after extended history (medium) |
+| Angle freshness | **8/10**, human story rather than another crime or catastrophe in source queue (low external comparison) | **8/10**, ties ticket revenue, family choice and adult return (medium) | **8/10**, credential uncertainty makes simplistic hero narrative harder (medium) |
+| Visual expression | **8/10**, contrasting glass exhibit/taxi/adult return, but old storyboard applies only to root short (medium) | **8/10**, ticket, nurse, taxi, second father supply meaningful paper scenes; no storyboard yet (medium) | **8/10**, historical fair/medical exhibit and Chicago group reunion, but visual research needed (low) |
+| Spoken naturalness/clarity | **7/10**, straightforward sentences but final unfinished relative clause needs real listener (medium) | **8/10**, concrete verbs and clear actors, some abstract ethics explanation (medium) | **7/10**, factual context dense around credentials despite restructuring (medium) |
+| Verified audience demand | **UNVERIFIED**, no comparable analytics | **UNVERIFIED**, same limitation | **UNVERIFIED**, same limitation |
+
+**Main deficits** — 02m: 193 English words and seam not independently validated; 05m: 567 words may time under five minutes, and one paragraph about the ethical model risks slowing the father→reunion momentum; 10m: 1,310 words can fit nominal ten at some speaking rates, but its credentials/Chicago passages may make viewers stop following Lucille. A higher total word count is not evidence of superior retention.
+
+### Hard checks, not averaged into scores
+- **Facts:** AUTHOR textual cross-check performed against the locations above; first-person memory and conflicting estimates remain qualified. New independent professional fact-check **UNVERIFIED**.
+- **Bilingual parity:** AUTHOR checked same people, acts, claims, uncertainty and endings for each EN/RU pair. Independent bilingual read **UNVERIFIED**.
+- **Short loop:** 02m complete English and Russian texts reread twice by author; continuous literal **end→start** forms the phrase “…where visitors paid…” / “…где посетители платили…”. Cold opening is independently comprehensible; payoff occurs before the seam. The relative-clause method is fragile, so **independent full-twice listener and real AV seam UNVERIFIED**, not PASS. 05m and 10m loop **N_A (Long)**.
+- **Independent reviewer:** no fresh reviewer tool/session observed; no `ytv-script-review-v1`, reading input, receipt or independently endorsed script. **UNVERIFIED**; no fictional reviewer quotes. A reviewer may favor historical root, 05m, 10m, or reject the topic.
+- **Storyboard/source spans:** root `storyboard.json` uses 14 exact root-script EN/RU lines and its old timing (no measured audio). 02m is byte-identical and may reuse that textual mapping, subject to fresh review. **Do not apply storyboard to 05m or 10m; new meaning-led shot list and hashes required after exact master chosen.**
+- **Runtime:** `EDITORIAL_CANDIDATE_UNREGISTERED`; no run/claim/task inputs/pins or approval. Host GitHub-only editor cannot initiate verified native `uv run ytv start` or spawn the independent reviewer in this run. Transfer through the documented `ytv start` / research / script review / exact owner selection in a verified checkout, never infer current pins from Git HEAD. No TTS/MP4/YouTube action performed.
+- **Ownership:** no evidence of owner approval or production for #39 in current PR discussion; re-check immediately before any later master adoption. Existing accepted #20/#25 and production #46 unchanged.
+
+## Value of longer versions and recommendation
+
+**02→05:** funding and nursing become an explicit causal mechanism; the father's remembered honeymoon visit turns from trivia into the reason a taxi trip was possible; the second father scene gains context and ethical nuance. **05→10:** adds history of the incubator gap, criticism, disputed qualifications, Hess's medical collaboration, separate Chicago homecoming, and 1943 transition. Those facts help distinguish real treatment from showmanship, but the credentials/Chicago span is the first likely place where the viewer waits for Lucille to return. Ten minutes are not recommended solely because there is more research.
+
+**RECOMMEND 05m as an editorial candidate**, not as an owner-selected master and not as permission for production. 02m remains the original viable concise alternative if a fresh reviewer finds the longer version too explanatory; 10m is an alternate documentary treatment with more context but weaker sustained focus. No measured audience evidence, voice duration, or guaranteed performance. The next untouched story in the prior downward-running queue is #38 Ghost Army, subject to fresh PR and ownership check.
+
+---
+## Historical review archive (root source before this package)
 # Current revision v3 (baseline `5bbac05ae66284b2d31d8eaaff15732724fe2592`)
 Prior revision-2 `PASS` headings below are archived *authorial* impressions only, not evaluations of the updated scripts. Independent review, exact `ytv-script-review-v1`, user approval, TTS and MP4 remain **UNVERIFIED**.
 
