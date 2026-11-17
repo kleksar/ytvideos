@@ -1,6 +1,6 @@
 # You But Weird: five-film format discussion
 
-Status: **OWNER-APPROVED FORMAT, scoped to final GUESS THE NEXT POWER revision.** The five riddles, route, short post-hook reveals, timing budgets and phased destination-card strategy are approved. No media or YouTube setting changed here. Superseded moral-answer modules and retrospective reuploads are not approved by this record.
+Status: **OWNER-APPROVED FORMAT, scoped to final GUESS THE NEXT POWER revision.** The five riddles, route and short post-hook reveals are approved. Latest ending policy: finish story and pause, separate future riddle plus invitation to guess, then an additional full ten-second end screen for the previous story. This supersedes the former combined outro / future-video-card strategy. No media or YouTube setting changed here. Superseded moral-answer modules and retrospective reuploads are not approved by this record.
 
 ## Observed package versus proposed chain
 
