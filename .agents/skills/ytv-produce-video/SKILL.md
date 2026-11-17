@@ -44,7 +44,9 @@ CLI и точные outputs/receipts: [task contract](../../../docs/operations/t
 5. UNKNOWN после отправки сохранить и reconcile; не повторять запрос из другого чата. Operation observation привязать к exact `attempt_id/task_input_hash`. Stale result не применять к новой revision.
 6. Завершить task через контракт: core проверяет реальные media bytes; authored receipt не заменяет decode. Для render сохранить обязательный [delivery evidence](../../../docs/operations/task-contract.md#render-manifest-и-delivery-evidence), связывающий принятые входы, manifest, фактическую команду текущего claim и exact MP4. Взять `next` и продолжать до MP4, затем передать review exact hash и actual probe. Упаковку готовить параллельно; дополнительное согласование промежуточных картинок/музыки/монтажа не требуется.
 
-При локальном исправлении сохранить принятые artifacts/cache. Изменение смысла вернуть к script gate. Для технического ремонта использовать штатный способ. Генераторы и existing helpers не получают право обходить guards, обязательные для новой run.
+При ремонте сохранять artifacts/cache и штатный способ; смену смысла вернуть к script gate. Helpers не обходят guards новой run.
+
+Речевые склейки проверять по [процедуре естественных пауз](references/speech-seams.md).
 
 ## Подготовленный пакет
 
