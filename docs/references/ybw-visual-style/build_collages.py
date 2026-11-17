@@ -34,7 +34,6 @@ groups={
 ('Everyone_28s.png',None,'EVERYONE | two-person dialogue, simple furniture'),
 ('Everyone_46s.png',None,'EVERYONE | arrival: separated silhouettes'),
 ('Everyone_82s.png',None,'EVERYONE | close-up; limited palette and linework'),
-('Everyone_130s.png',None,'EVERYONE | night exterior: muted navy, ochre lights'),
 ('Everyone_190s.png',None,'EVERYONE | bathroom: restrained perspective')]
 }
 records=[]

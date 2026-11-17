@@ -10,9 +10,9 @@ def verify(root):
     root = Path(root)
     rows = json.loads((root / 'source_passport.json').read_text())
     indexed = {r['frame_file']: r for r in rows}
-    assert len(rows) == len(indexed) == 12, 'expected 12 distinct source frames'
+    assert len(rows) == len(indexed) == 11, 'expected 11 distinct source frames'
     assert {p.relative_to(root).as_posix() for p in (root / 'originals').glob('*.png')} == set(indexed)
-    profiles = {'Mind': {12, 23, 43, 62, 105, 178}, 'Everyone': {16, 28, 46, 82, 130, 190}}
+    profiles = {'Mind': {12, 23, 43, 62, 105, 178}, 'Everyone': {16, 28, 46, 82, 190}}
     for profile, times in profiles.items():
         assert {r['seek_seconds'] for r in rows if r['profile'] == profile} == times
     for name, row in indexed.items():
@@ -33,7 +33,7 @@ def verify(root):
     assert lock['character_profile'] == 'mind-stick'
     for ref in lock['references']:
         assert ref['sha256'] == indexed[ref['file']]['frame_sha256']
-    print('PASS: 12 source frames, passport hashes, dimensions, crop map and example lock')
+    print('PASS: 11 source frames, passport hashes, dimensions, crop map and example lock')
 
 
 if __name__ == '__main__':

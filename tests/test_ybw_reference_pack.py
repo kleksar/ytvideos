@@ -16,6 +16,15 @@ class ReferencePackTests(unittest.TestCase):
     def test_preserved_pack(self):
         VERIFY.verify(PACK)
 
+    def test_excluded_street_cannot_reenter_pack(self):
+        with tempfile.TemporaryDirectory() as directory:
+            copy = Path(directory) / 'pack'
+            shutil.copytree(PACK, copy)
+            shutil.copy2(copy / 'originals/Everyone_16s.png',
+                         copy / 'originals/Everyone_130s.png')
+            with self.assertRaises(AssertionError):
+                VERIFY.verify(copy)
+
     def test_changed_source_is_rejected(self):
         with tempfile.TemporaryDirectory() as directory:
             copy = Path(directory) / 'pack'

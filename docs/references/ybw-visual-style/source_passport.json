@@ -129,27 +129,6 @@
     "profile": "Everyone",
     "source_mp4": "/Users/diplomat/Desktop/Все тебя хотят — видео/Звуковой дизайн/v9/EVERYONE_WANTS_YOU_SOUND_V9_1080p30.mp4",
     "source_mp4_sha256": "56fd8a9c475e4077234179d52b389b908497d2d2b7fcb95ad7db9dab1bf9f88c",
-    "seek_seconds": 130,
-    "frame_file": "originals/Everyone_130s.png",
-    "frame_sha256": "ed7a53652c1895b3ec72bb26a67d62a737844ed8e1ee8677023bcebc861701c8",
-    "origin": "ffmpeg-extracted delivered reference video frame; NOT imagegen original",
-    "command": [
-      "/opt/homebrew/bin/ffmpeg",
-      "-v",
-      "error",
-      "-ss",
-      "130",
-      "-i",
-      "/Users/diplomat/Desktop/Все тебя хотят — видео/Звуковой дизайн/v9/EVERYONE_WANTS_YOU_SOUND_V9_1080p30.mp4",
-      "-frames:v",
-      "1",
-      "/Users/diplomat/Desktop/YBW_OLD_STYLE_REFERENCES/style_reference_kit/originals/Everyone_130s.png"
-    ]
-  },
-  {
-    "profile": "Everyone",
-    "source_mp4": "/Users/diplomat/Desktop/Все тебя хотят — видео/Звуковой дизайн/v9/EVERYONE_WANTS_YOU_SOUND_V9_1080p30.mp4",
-    "source_mp4_sha256": "56fd8a9c475e4077234179d52b389b908497d2d2b7fcb95ad7db9dab1bf9f88c",
     "seek_seconds": 16,
     "frame_file": "originals/Everyone_16s.png",
     "frame_sha256": "67e81074f936b0f45e87d1eeb71ab6c014c617b06124d432099b4aa19396692a",
