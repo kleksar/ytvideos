@@ -59,3 +59,16 @@ No actual approved image reference bytes or licensing clearance were available. 
 
 ## Story promise, early proof and boundaries
 Audience must understand an actual driving maneuver and four-year preparation, not be tricked into believing every Swedish car was simultaneously on the road. S001 immediately proves a timed changeover; S004–S005 add the voter/parliament contradiction, S006–S010 add logistical mechanisms, S011–S013 show public reopening and outcome. No invented named driver, fake quotes, fictional collisions or accident-rate guarantees. EN is sole future TTS/SRT master. The full RU translation has the same facts, numbers, chronology, caveats and ending.
+
+
+## 2026-11-17 source additions for longer versions (verified public source reading)
+
+Verified at [the Swedish National Museums of Transport History, Högertrafik](https://www.statensmuseermtf.se/vara-museer-och-samlingar/vara-samlingar/transporthistoria/vaghistoriska-samlingarna/trafikhistoria/hogertrafik) and [The Guardian's Sept 4, 1967 report republished in 2022](https://www.theguardian.com/world/2022/sep/07/dagen-h-sweden-switches-to-driving-on-the-right-1967). Original selection and sources retained above.
+
+- Museum sections on early proposals and 1955 referendum: multiple deferred plans, 1955 advisory result 82.9% NO among ballots, 53% turnout. Do not imply 82.9% of all Swedish residents. Parliament first retained left-hand traffic; vote for change in May 1963 was 294–50.
+- Museum “Genomförandet”: dedicated commission and 24 county representatives; roughly 8,000 buses rebuilt or replaced, changes to curbs, one-way systems and junctions; about 360,000 signs replaced plus 130,000 reminder signs; new signs preinstalled under covers.
+- Museum “Beslut i riksdagen” on cost: about 400 million kronor initial estimate, later above 600; special tax on registered motor vehicles. Do not quote an undisputed final cost or assign undocumented personal opinions to individual drivers.
+- Museum “Massivt informationsarbete”: broad media plus contact with groups not easily reached and translated/accessibility materials; *how* to drive right was taught in the final days to reduce premature new habits. Twelve hours of TV, forty hours of radio on three channels and ten languages at switch weekend.
+- Museum “Intensivt arbete”: about 20,000 workers on final road preparations. “Dagen H” times: ordinary traffic banned 01:00–06:00 except authorized vehicles, some city centers longer; 04:50 stop left then carefully move right and wait, 05:00 permitted restart, 06:00 general return.
+- Guardian 1967 contemporaneous Kungsgatan reporting: cheering spectators, cyclists and filming crews caused congestion; police later restored movement; some minor accidents. Do not infer absence of all national accidents, or assert later declines causally due to the rule change.
+- Public audience results for three script lengths, TTS, retention, thumbnail CTR and independent first listener: UNVERIFIED. These source expansions support textual factual claims only.
