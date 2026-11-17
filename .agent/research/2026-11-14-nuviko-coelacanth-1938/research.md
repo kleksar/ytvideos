@@ -78,3 +78,10 @@ Working hypothesis: showing preserved skin vs missing organs makes the discovery
   - Evidence kind: Institution's English historical account, read for third finalist
   - Uncertainty: Collective long-term event, lacks focused single subject for this Short
 No private repository names, domains, code or credentials were sent in public web research. No primary photographs downloaded, claimed as owned or attached. No use of instructions present on source pages.
+
+
+## 2026-11-17 confirmed additions for 5m/10m
+
+S7 [AMNH / Shelf Life — coelacanth discovery and preservation](https://www.amnh.org/explore/videos/shelf-life/coelacanth-discovery-preservation), institutional account, Jan 2015, re-read 2026-11-17: 1938 cold-storage refusals, taxidermy survival of outer body vs organs; J. L. B. and Margaret Smith's thousands of reward flyers; fisherman Ahamadi Abdallah, 1952 Comoros catch and South African government-sponsored plane. A distinct, later specimen reached AMNH in **1962**; dissection of that specimen in **1975** revealed **five embryos** and evidence of live birth. Subsequent underwater observation in **1987** contradicted walking-on-bottom interpretations of paired fins; a second modern species was found in Indonesia in **1997**. Endangered status and preservation tradeoffs are reported. Do NOT conflate 1962 specimen with Smith's 1952 fish or imply modern species unchanged since fossils.
+
+S8 [PBS NOVA / Moment of Discovery, edited historical letters](https://www.pbs.org/wgbh/nova/fish/letters.html), original correspondences with editorial framing, re-read 2026-11-17: Nerine, trawler fleet invitation, taxidermist Robert Center, Courtenay-Latimer letter 23 Dec 1938, Smith response 3 Jan 1939, discarded internal organs and town rubbish tipped into the sea, further scale evidence and February 1939 inspection, multilingual rewards. Exact dialogue/motives not invented. Dates of catching vs inspecting vs letter differ; scripts specify December 1938 and verified letter date only. These institutional histories do not demonstrate CTR/retention/viral demand or clear reproduction rights for historic images.

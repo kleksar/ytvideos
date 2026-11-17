@@ -24,3 +24,36 @@ RU: `А поиски второй рыбы начались четырнадца
 Review action was a **writer self-read of whole EN twice in sequence, and whole RU twice in sequence**, not only the boundary. Both return from S015 resolved second catch to 1938 start; the first pass provides full payoff. No audio review occurred. The real independent session must first see the opening alone; then entire exact EN once, then two full cycles without beat map or author verdict, and only afterwards sources and strongest alternative Alcatraz. Store its untouched `ytv-script-review-v1` bound to exact EN SHA-256. Any change invalidates that response and dependent shot spans. All independent gates **UNVERIFIED**.
 
 **Prior approved speech models consulted, not changed:** #20 exact `78b375bf0004fdeb45722e6106f2919f09e82fe1` USS S-5 and #25 exact `28862598989045cd02990e654b086afae28fea59` Lawnchair Larry; copied neither script nor loop pattern verbatim.
+
+
+---
+## 2026-11-17 three completed duration candidates — author assessment only
+
+Baseline PR #74 HEAD `73e7a6fb4d8be98f1e744df1583c212404f26eb9` before this revision; preserved original EN Git blob `8fd98e84879eaece604d666c67da2c6bd34386cb` and RU blob `5af023c8304e184b53804810abe7f0165e06dee1`; 02m copies their exact UTF-8 bytes. Versions are two independently written Long narratives and the retained complete Short, not three different historical topics. 
+
+| Variant | Complete scripts | SHA-256 EN (exact bytes) | SHA-256 RU (exact bytes) | Words EN/RU |
+|---|---|---|---|---|
+| 02m | [EN](variants/02m/script.en.txt) · [RU](variants/02m/script.ru.txt) | `86c9fc10040bdcdc2de9dbb9ec3fcee178275da5731cafd2dc6c5957ab33960a` | `ae5f87307149f94973ab3c4328a8407d81be2a6c2f94b7736b13dd9044c3e9a9` | 237/216 |
+| 05m | [EN](variants/05m/script.en.txt) · [RU](variants/05m/script.ru.txt) | `667cf0fec1e2cef4f009b4a788ad5ba7b692d788450929a767ef193346b4bd47` | `30ec1cf1ead1284e53850ef17065c2523fe776270b00d7edb1d30477ca1d6efc` | 523/440 |
+| 10m | [EN](variants/10m/script.en.txt) · [RU](variants/10m/script.ru.txt) | `2adffecb1d312d07dd6f528fcbaf214d1d48fbdf0d42a8beb1b57b98e7524c28` | `bdf9e786c257a5a206da0f204c30d2aca45733ea1f4dff487f43aac0074b8cac` | 1231/1061 |
+
+**Story maps:** 02m preserved original: unusual fin → fish/sketch → Smith away and heat → cold-store refusals → missing organs → coelacanth identification → fourteen-year search → 1952 second specimen → textual rewind. 05m: documentary questions → Marjorie's ordinary museum work → fish found → preservation loses organs → Smith's scales and February visit identify it → need for a new whole fish → posters → Abdallah's 1952 catch and plane → difference between identification and anatomy. 10m: questions → fish/letters/failed storage → rubbish-at-sea obstacle → evidence and naming → fourteen years of rewards → 1952 catch → distinct 1962 museum specimen → 1975 discovery of five embryos/live birth → 1987 observed fin motion → 1997 Indonesian species → ethical preservation.
+
+**Why 05m:** 02→05 adds the detailed preservation/identification mechanism and a causal second search. 05→10 adds sourced biology and museum evidence, but after the 1952 aircraft section the protagonist shifts from Smith to museum collections, potentially weakening continuity. At 02m viewers may leave before the lost organs are explained; at 05m poster years could feel compressed; at 10m interest may decline in the institutional coda. These are hypotheses, not retention measurements.
+
+### Eight editorial scores (author, 1–10)
+
+| Criterion | 02m | 05m | 10m |
+|---|---|---|---|
+| Interest/significance | 8 — surprising extant fossil lineage | 8 — preservation loss drives human pursuit | 8 — biology consequences, broader scope |
+| Opening | 7 — specific blue fin, quiet promise | 8 — missing fish and fourteen years promised | 8 — three related questions before story |
+| Development / reason to continue | 8 — changing obstacles, very concise | 8 — identity answer creates anatomy question | 7 — switches away from human search after 1952 |
+| Payoff | 8 — second fish before loop | 9 — full identity and second-specimen payoff | 8 — additional 1975 reproduction discovery, diffuse closure |
+| Angle freshness | 7 — living-fossil theme familiar | 8 — saved skin vs lost organs | 7 — turns toward institutional explainer |
+| Visual expression | 8 — fin, scales, mount, poster | 8 — harbor, letter, storage, plane | 8 — museum dissection/embryos, reference rights unverified |
+| Natural clear speech | 8 — concrete original verbs, compressed | 8 — spoken syntax and clear subjects | 7 — scientific terms increase cognitive load |
+| Verified audience interest | UNVERIFIED — no comparable CTR/retention | UNVERIFIED — no comparable CTR/retention | UNVERIFIED — no comparable CTR/retention |
+
+**Hard checks:** research-backed historical chronology and EN/RU semantic pairing author-checked; the old 02m Short is preserved without modification and retains only an author's literary loop check (full repeat and exact AV seam independent UNVERIFIED). Both Longs begin with questions → substantive context → main discovery; loop N_A. Nuviko History current ChannelSpec supports Short 9:16 and Long 16:9, but TTS, length, 10s Long end-screen, real visual references and MP4 all UNVERIFIED. Independent first-listener and original `ytv-script-review-v1` absent for every SHA; no invented reviewer ID/receipt or script gate. Status for all: EDITORIAL_CANDIDATE_UNREGISTERED. Author confidence medium for sourced facts, low for pacing/demand; not independent fact audit. Source limitations: original fish's skin survived while internal organs were lost; 1962/1975 animal is NOT the first or Smith's 1952 fish; '65 million years' is a fossil-gap inference, not unchanged modern species. No exact characters' thoughts or invented dialogue.
+
+**Next:** a fresh independent reviewer reads exact opening, then complete scripts without scores/maps (02m twice), then source register, recording the real response; owner then selects one exact master. Rebuild storyboard for selected Long; do not migrate v1 S001–S016 or pins. No media/production authorized.

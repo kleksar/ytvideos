@@ -12,3 +12,8 @@ Preferred concept 2, subject to independent cold-reader evaluation. Core viewer 
 **Early proof:** exact first EN `A museum curator spotted a blue fin sticking out of a trawler's catch in South Africa.` at S001. S003 shows fleshy limb-like fins. **Partial turn:** S007 reveals organs lost despite skin mount. **Full payoff:** S015 confirms intact second fish arrived 1952; title's extinct-lineage promise explicitly answered by S010–S011. Last S016 is temporal rewind for replay, not withheld answer.
 
 **False readings to prevent:** 1938 fish was lost completely (false); species remained biologically unchanged for 65m years (false); museum curator was negligent or Smith's holiday caused all preservation trouble (unfounded); second fish was the very first found again (false). No CTR/retention inference from public video views. Thumbnail exact reference/crop/quality must be verified in production.
+
+
+## Duration-specific constraints after 2026-11-17
+
+Existing S001/S003/S015 visual proof points refer only to original 02m Short. For new 05m, truthful thumbnail contrast is preserved skin mount vs distinct second 1952 fish, never a claim that the entire first fish disappeared. 10m may mention the **separate 1962 AMNH specimen / 1975 embryo finding** only if that exact version is selected; do not attribute pregnancy to the 1938 or 1952 fish. No archival image rights, frame timestamps or CTR evidence established.

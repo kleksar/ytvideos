@@ -220,3 +220,9 @@ First literal EN: **A museum curator spotted a blue fin sticking out of a trawle
 Last literal RU: **А поиски второй рыбы начались четырнадцатью годами раньше, когда**
 First literal RU: **В Южной Африке куратор музея заметила синий плавник, торчавший из груды рыбы на траулере.**
 In continuous narration each last line becomes the temporal subordinate clause to the first: `when a museum curator spotted...` / `когда в Южной Африке куратор музея заметила...`. Second intact-fish payoff already delivered in S015. Replay returns to the clue that launched the fourteen-year search, not an unanswered fake mystery. Planned cut from S016 (1952 specimen plus 1938 sketch) to S001 (1938 blue fin) must be tested **on exact MP4** for frame/audio/subtitles; textual argument is **not** a measured AV pass. A replay or transition to an opening still is not a separate invented factual scene.
+
+
+---
+## Duration variant binding (2026-11-17)
+
+All existing S001–S016 exact EN/RU spans and illustrative prompts above apply solely to original v1 `script.en.txt` / `script.ru.txt` (Git blobs `8fd98e84879eaece604d666c67da2c6bd34386cb`, `5af023c8304e184b53804810abe7f0165e06dee1`) copied byte-for-byte into `variants/02m/`. They do NOT apply to new 05m/10m. Original timing estimates remain unmeasured. A selected Long requires a new storyboard aligned to its exact EN/RU text/hash, not replication of the old 16-scene grid. Actual visuals, faces, archives/rights and AV seam UNVERIFIED.
