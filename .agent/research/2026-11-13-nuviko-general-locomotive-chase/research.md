@@ -92,3 +92,26 @@ Access/review date: **2026-11-13**. Exact URLs and locator/evidence below; claim
 Checked remote open/closed PR titles and current channel registry before selection. In current queue Nuviko #38 concerns WWII deception, #34 an airline cockpit emergency, #31 a diplomatic standoff, #29 a naval mutiny rescue, #26 a dogsled medicine relay, #24 a drained lake, #22 joint battle, #20 submarine rescue, #17 Roosevelt's torpedo escort. Our 1862 **railway pursuit with changing vehicles and real failed mission** overlaps neither subject nor mechanism. Broad pursuit/survival shares viewer appetite, but the reversal (pursuer gaining because raiders cannot refuel) and preserved original engine differ. Published/current Nuviko #038 Guy Fawkes, #039 Brest, #040 Tu-160 and #049 Endurance were screened by registry metadata only; complete transcripts were not read, so no blanket exhaustive uniqueness claim. Reject #13 Carrington telegraph story; do not reuse. The total number of pending PRs was not a cutoff.
 
 **Unresolved/UNVERIFIED:** independent reader; image-reference bytes; closed-access viewer analytics; actual voice pace/AV loop and production feasibility. No new Issue opened.
+
+
+## Editorial expansion evidence — 2026-11-17 (PR #43, same story)
+
+Existing G1–G4 remain the one shared research baseline. No source material is changed by adding the variants; expanding assertions were checked against these institutional/primary accounts and the linked sources below. New comparison is between three **complete drafts of this story**, not a new topic search.
+
+| Additional Long detail | Sources and precise grounding | Confidence / boundary |
+|---|---|---|
+| Mitchel's Chattanooga approach, Andrews's strategy to cut supply line, volunteers undercover | G2 'Organizing the Chase'; G3 'The Plan'; [ABT James Andrews biography](https://www.battlefields.org/learn/biographies/james-j-andrews) | High for plan, avoid claiming it would certainly win battle |
+| Big Shanty no telegraph office, General+tender+three freight cars, breakfast timing | G2 'The Chase Begins'; G3 station narrative | High; no invented conversation |
+| Pursuit: handcar, Yonah, William R. Smith, foot interruption, Texas tender-first | G1 first-person and G2 'Confederacy Catches On'; [historical retrospective with detailed route](https://www.battlefields.org/learn/articles/andrews-raid); contemporary train crew account [G6](https://www.battlefields.org/learn/primary-sources/andrews-raid-who-had-taken-engine) | High for vehicles/order; particular distance between handoffs remains approximate |
+| Kingston delay from oncoming rail traffic on single track | G1 and secondary [Great Locomotive Chase route overview](https://en.wikipedia.org/wiki/Great_Locomotive_Chase) | Moderate: narration gives no disputed duration, dialogue or named excuse |
+| Telegraph warning toward Chattanooga near Dalton | G1 and secondary route overview (same link) | Moderate; kept only in 10m, no invented exact hour/words |
+| Freight cars dropped, river bridge at Resaca wet and did not burn | G2 'The Raiders Follow the Plan'; G3; G1 | High; do not claim bridge already destroyed |
+| Steam exhausted north of Ringgold, 87 miles / seven hours | G2; G3 'The Chase Ends' | High for rounded scope; 5m/10m use 87, original rounds to nearly 90 |
+| Executions eight (Andrews + seven), prisoner exchange and first six Medal of Honor recipients March 25, 1863 | G2 'The Fates'; [U.S. Army historical presentation](https://www.army.mil/medalofhonor/wilson/) | High; avoid false claim all were executed or all got medals immediately |
+| Railway repairs quickly made; no lasting military disruption | G2 'The Fates'; G3 closing | High; do not claim raid caused no temporary damage |
+| Museum's actual General remains close to theft location | G4 museum self-description | High for curated artifact; not a physical visit |
+| Eyewitness testimony is partisan and headcounts differ | G1 (Pittenger 1863); G2/G3 participant counting | High that uncertainty exists; no invented direct quotes |
+
+**New interest verification:** No measured channel CTR/retention or apples-to-apples audience analytics obtained. The stronger 05m is an author judgement based on precise causal turns, not an independently observed user preference. YouTube public-video performance and independent listener: UNVERIFIED. No new claims about likely virality.
+
+**Format:** Nuviko channel.json supports illustrated short with narrative loop and long 16:9 as read 2026-11-17. This is not a registered production run. The existing storyboard is an original 02m asset only; 05m and 10m would each require new scene coverage if chosen.

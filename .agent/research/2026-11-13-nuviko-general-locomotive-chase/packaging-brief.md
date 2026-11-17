@@ -15,3 +15,8 @@ Primary thumbnail concept: Civil War station platform; a conductor runs out of t
 Early validation: script S001 immediately shows moving engine and human chase. Middle pays by successive changes of transport and practical obstacles; actual answer and human cost appear S011–S013. S014 returns through real museum artifact to initial stop. Do not sell "never caught" or "everyone escaped"; eight executed. Emotional genre: suspense with serious ending, not comedy of war deaths.
 
 Reference selection/thumbnail crop testing requires future actual images, scene-context review, 2:3 center safe crop and matching exact MP4. **All visual QA / CTR / native experiments UNVERIFIED.** Independent brief review UNVERIFIED.
+
+
+## Timing variant note — 2026-11-17
+
+Existing Short thumbnail/title concept binds to original root/02m only. Suggested **05m Long** angle: *A Conductor Chased a Stolen Train — and the Sabotage Helped Him*. Promise: why every broken rail costs the thieves more time than the conductor, shown by handcar / three locomotives / wet bridge / failed fuel stop. This is a hypothesis without generated thumbnail or CTR measurement. For 10m do not promise more dramatic events absent from evidence; it offers logistics and consequences. New Long storyboard/pacing/thumbnail requires owner selection and exact-hash review.
