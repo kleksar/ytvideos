@@ -1,3 +1,5 @@
+> **2026-11-17 preservation notice:** This 17-scene provisional storyboard binds ONLY to the archived root `script.en.txt` / `script.ru.txt` (Git blobs EN `c9f330b8f77183fe8fd33317935e31a2c125b6db`, RU `3edcc77aa73b03186a69bff7279182be1169c6d4`). It does **not** match any new `variants/02m`, `05m`, or `10m` script. S001 in particular contains the older bank-clerk attribution, corrected to a land-office official in new scripts. No new storyboard/spans/timings have been approved. This file is retained as historical evidence; a selected exact variant needs fresh visual mapping.
+
 # Provisional storyboard — editorial text only, NOT official stage
 Paper Detour, English portrait Short, self-contained full-frame handmade layered paper dioramas. All `narration_en`/`narration_ru` spans below are **exact paragraphs** from respective script masters, with concatenation in ID order covering the entire text without omissions. 4–6 seconds is an **unmeasured rough composition guideline only**; actual voice may demand more compositions. Images/prompts are descriptions, NOT dispatched AI jobs. All actual reference bytes and rights remain UNVERIFIED.
 
