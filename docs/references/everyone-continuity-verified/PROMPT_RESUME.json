@@ -1,0 +1,17 @@
+{
+  "tool": "ImageGen built-in",
+  "new_edits": [
+    "172.204",
+    "174.405",
+    "176.895",
+    "178.241"
+  ],
+  "prompt": "Precise continuity edit. Image1 is edit target; image2 is fixture reference only. Keep image1 identical in composition, character pose/expression/clothes, illustration style, colors, objects, door, sink, water state, and framing. Only add the two small round gold faucet control knobs flanking the faucet base, matching reference image2 fixture, appropriately scaled and perspectively placed. Do not change any other pixels unnecessarily. Output one landscape16:9 image.",
+  "reference": "faucet_175.6_fixed.png",
+  "reused_assets": [
+    "candle_fixed.png",
+    "faucet_175.6_fixed.png",
+    "faucet_178.9_fixed.png",
+    "faucet_180.95_fixed.png"
+  ]
+}
