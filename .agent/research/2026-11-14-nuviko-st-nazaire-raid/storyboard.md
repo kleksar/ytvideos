@@ -173,3 +173,10 @@ EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официал
 **Self-contained AI-image prompt (not executed):** Period-correct 1942 German military photographer seen from behind with a large mechanical folding camera on a tripod near the Saint-Nazaire dry dock, aiming at the visibly damaged HMS Campbeltown stuck in immense steel gate before explosion, morning light, photoreal reconstruction rather than claim of authentic photograph, 9:16 vertical medium-wide shot, no fake reproduction of unknown archival photo and no overlay lettering.
 
 **Continuity/edit:** provisional 4–6 second composition; 9:16 whole-frame move and direct cut. No output file, no measured TTS/SRT or final camera crop.
+
+
+---
+
+## 2026-11-17 exact-version scope guard
+
+This original S001–S014 preliminary scene mapping applies **only** to the byte-identical original 02m narration: English blob `bb3bbe34ba6b625cfa77d094ad905fb0e65e2a66` / SHA-256 `7769e80411d8bdf40a9e6d6038707e2cd2ab09a2eb01857feb3a254246983a28`, Russian blob `16a76467a4b7d83144cca22f505b80afd704c1c3` / SHA-256 `e148ff73f7cc3e05909a061310b9e2bd4b39db924d682cc67743bc5358dfb452`. New 05m and 10m full scripts need different scene counts, new spans and visuals. No old scene durations, review or approvals transfer. Actual audiovisual coverage remains UNVERIFIED.

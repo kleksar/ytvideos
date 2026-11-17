@@ -53,3 +53,30 @@ Accessed 2026-11-14; original article publishing dates shown when known. Read so
 ## Uniqueness and owner decisions
 
 Fetched all 61 PR records (open and closed), GitHub issue collection (no independent Issues) and story branches from live remote before selection, checked targeted PR/Issue search for 'Nazaire'/'Chariot' (none at prewrite), plus published/production contexts in remote repository. Recent Nuviko waiting episodes: #52 diamond fraud, #50 Yellow Fleet, #43 locomotive chase, #38 Ghost Army, #34 BA5390, #29 Batavia, #26 Togo, #24 Lake Peigneur, #22 Castle Itter, #20 S-5, #17 William D Porter. This is a **different physical plot** from #38 Ghost Army camouflage (deception over geography), #22 Castle Itter (defense), #17 William D Porter (accident); it still adds another WWII story, its largest editorial risk. #13 batteryless telegraph was owner-rejected as uninteresting; neither chosen nor imitated. Open quality candidates do not block a new distinct candidate by count. No claim of external audience approval.
+
+
+## 2026-11-17 follow-up: evidence used by 05m and 10m (no second research file)
+
+Source pages actually reopened for these claims, not merely inferred from original Short. Review publication dates vs event date: all describe 28 March **1942**; museum articles are dated 2021-04-02 (Part I), 2021-04-30 (Part II). Accessed 2026-11-17. The separate memorial project is a participant/history archive, not an exact chronicle of every minute.
+
+| New narrative detail | Verified source, actual passage | Boundary |
+|---|---|---|
+| Dock built for huge liner, over 300 metres, Tirpitz repair option, fortified port hard to damage by aircraft | https://www.nationalww2museum.org/war/articles/bold-strategy-british-raid-st-nazaire — paragraphs on strategy, dock design, air defences | Denial of a repair option does NOT prove the raid alone prevented every Tirpitz voyage |
+| Former U.S. destroyer, two funnels removed, low-draft refit, Nigel Tibbits, hidden delayed charge, final 4.5 tons | Same National WWII Museum Part I on conversion; https://www.nationalww2museum.org/war/articles/british-raid-st-nazaire-part-ii on final explosive load | Earlier 5-ton plan vs final 4.5-ton load; exact reason/timing of fuse delay not proven |
+| German submarine's incorrect report, shallow approach, failed diversion and German recognition signals; flag change and gate strike | Part I, sea passage and river approach; https://stnazaireraid.org/ "Outward Journey", "Approach", "Attack" | No invented internal thoughts, fabricated direct officer quotations or unwarranted counterfactual certainty |
+| Beattie at helm, Newman leading commandos, Chant wounded but destroying pump house, other winding machinery | National WWII Museum Part II, sections on commando teams and pump house | Rehearsal was confirmed on analogous structure; no precise time within pump house stated in scripts |
+| Wooden launches exposed and landing/pickup point lost; Durrant keeps firing wounded; Newman and companions fight across town; five reach Spain | Part II, exfiltration and casualty sections; opening on Durrant's VC | "Most killed or captured" refers to attempted land breakout, not all 611/625 troops |
+| Beattie rescued from water by German forces; German inspection and souvenir search; explosion while interrogated | Part II on Beattie and late detonation, and memorial project's Beattie reminiscence at https://stnazaireraid.org/ | Clock times differ among later sources (10:35 / around noon); omit exact detonation hour |
+| Torpedoes detonated at a different entrance after the main blow, subsequent panic and reported fatal shooting of French civilians | Part II closing aftermath, corroborating general sequence in https://en.wikipedia.org/wiki/HMS_Campbeltown_%28I42%29 | Source dates and fatality figures differ; use "reports", never exact number |
+| 169 British dead, hundreds prisoner; dock not used for rest of war | Museum Part II casualty and outcome paragraphs; St Nazaire Memorial "Aftermath" | Sources vary captured count (215/217/232/265), do not pick one without an agreed basis |
+
+**Observed audience signal:** a Forces News/BFBS 60-second 2021 St Nazaire film is an existence/format analogue, not reliable 2026 viewer interest. Views, normalized comparison, CTR, retention and comments remain UNVERIFIED. No external images downloaded/used; the archive-photo claim is about existence, not reproduction clearance.
+
+### Story event → new fact → causal consequence → next question
+
+1. Tirpitz might need dry-dock repairs → the huge Normandie Dock offers that contingency → planners must deny facility → how reach it?
+2. Shore guns and shallow river → ship disguise, captured signals and altered draft → approach possible but fragile → can Beattie cross last distance?
+3. Searchlights and batteries fire → ram still reaches dock → primary explosive in position → will commandos finish secondary objectives?
+4. Chant's team destroys pumps → infrastructure damaged → no boats survive to pick up teams → who escapes?
+5. Beattie captured and Germans search wreck → expected fuse deadline gone → observers see apparent failure → does hidden charge ever work?
+6. Charge detonates → gate disabled for remainder of war → mission objective achieved but many men lost → what did the raid actually change, without counterfactual myth?
