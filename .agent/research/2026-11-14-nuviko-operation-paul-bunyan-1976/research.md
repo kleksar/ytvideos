@@ -51,3 +51,32 @@
 ## Интерпретация
 
 Заявка работает на проверенном несоответствии «обычная работа с деревом» и «военное прикрытие из-за предшествующего убийства двух людей», а не на утверждении, что дерево самостоятельно вызвало почти ядерную войну. Обвинения в мотивах северокорейских солдат, их мысли, точное положение каждой единицы техники и вымышленные переговоры **не добавлять**. Визуальные планы являются обозначенной реконструкцией, не архивными изображениями.
+
+## 2026-11-17 — evidence for extended 05m / 10m variants (same research, new claims checked)
+
+**New full-source verification:** US State Department 1976-08-19 WSAG minutes, https://history.state.gov/historicaldocuments/frus1969-76ve12/d285 (opened 2026-11-17), decisions 1–5 and discussion: tree to be felled while avoiding confrontation; B-52 exercise to coincide with cutting; movement of naval task force, F-111 movement, contingency to hit barracks (plan, NOT an executed strike). In the discussion Kissinger worried about an ineffectual response, officials warned a small party might be attacked, considered a single worker/explosives, and discussed visibility/risks of air action. Crucially, do NOT turn suggested options or conditional assessments into actual actions.
+
+**New full-source verification:** US National Security Archive, overview of declassified Strategic Air Command history (document dated 1977-07-15), https://nsarchive.gwu.edu/document/20805-27 , page text lines describing DEFCON 3, staged B-52 flights over South Korea, F-111 deployment, offshore USS Midway group, cutting on August 21 under protection, and exercise continuing until early September. Accessed 2026-11-17. This supports distinguishing conspicuous flights from a strike and distinguishes the wider response from where each plane was at a single instant. We read the archival collection overview, NOT the entire 1977 primary PDF; the PDF's full content is not additional evidence here.
+
+**Original three fully recorded sources remain valid:** US Army 2011, US Army 2017, and the verbatim 1976 State Department meeting (links/uncertainty above). A 2026 United Nations Command anniversary page was surfaced in search with the event/date and felling confirmation, but opening returned 403: not treated as newly read primary text. A 2019 U.S. Army historical study surfaced in search with extra troop numbers, but opening returned 403: extra specific numbers are therefore **not added to narration**.
+
+### Material claim → source → uncertainty
+| Claim used | Evidence | Limit |
+|---|---|---|
+| Korean War stopped in 1953 under armistice, not peace treaty; close contact at JSA | historical context and site described in Army 2011/2017 and PBS history https://www.pbs.org/frontlineworld/stories/northkorea/1976.html | No claim to exact rules of crossing or unchanged present-day status |
+| ~30m poplar blocked view between checkpoint and observation post | Army 2011 100-foot tree, Army 2017 branches obstructing view | 30m approximate; no exact camera angle invented |
+| Work party attacked 18 Aug; Bonifas and Barrett killed; others wounded | Army 2011/2017 | No fabricated last words, motives or private thoughts |
+| Alert, debate over limited response, difficulty of small crew | 1976-08-19 WSAG minutes lines 30–40, 133–167, 245–288; National Security Archive overview | Proposed actions not asserted executed; no claims of intentions of individual soldiers |
+| B-52 exercise synchronized with cutting, carrier task force moved | WSAG decisions 2–4; National Security Archive lines 16–20 | Flights over South Korea / nearby, not guaranteed directly over sawyers |
+| Return 21 Aug; South Korean special forces, artillery, helicopters, fighters, carrier; tree down without attack | Army 2011/2017; National Security Archive overview | Exact 42-vs-45-minute conflict kept as 'under an hour' in 05m; 10m explicitly labels discrepancy |
+| Memorial to two officers | Army 2011/2017 | No invented quotation from monument |
+| Operation named after American lumberjack | Army 2011/2017 | Folk-hero name not justification for deaths |
+
+### Causal map and limits
+- 02m: blocked surveillance → trimming crew → attack/deaths → Washington weighs response → protected return → tree cut, no second attack → memorial → causal replay question. Source: Army 2011/2017 + WSAG.
+- 05m: armistice/close checkpoints → summer obstruction → first failed maintenance → deaths/unfinished security problem → Washington's choice between escalation and vulnerability → synchronized deterrent cover → successful felling → human memorial. Each added beat answers *why the next choice was made*, not a new plot.
+- 10m: geographical/security stakes → work party and failure → both unresolved observation and military response → documented opposing proposals and risk → decision for whole-tree removal plus visible forces → ordinary engineers in extraordinary setting → short cutting operation without clash → distinction between deterrence and bombardment → the two officers' remembrance. The White House option debate and repeated 'no strike' explanation are the main pacing risk.
+
+**Demand checks:** prior Vimeo/YouTube cards in the original research are not equivalent to a fresh, representative viewer-interest sample. No same-channel analytics, measured CTR, retention, satisfaction or rigorously matched competitor performance accessible. Demand remains UNVERIFIED, not a scored 9–10.
+
+**No collateral changes:** no rejected/approved plots, media or channel state modified. Strong original 02m text remains untouched. New narration has no invented soldier dialogue or personal motivations.
