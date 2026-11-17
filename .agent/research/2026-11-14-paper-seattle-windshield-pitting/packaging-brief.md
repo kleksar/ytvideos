@@ -11,3 +11,10 @@ English curiosity / practical reasoning / true stories, working assumption adult
 3. **Why Thousands of Drivers Suddenly Saw Damage** — image: driver leaning over small pit while a 1954 newspaper and police station sit behind in one coherent physical handmade paper scene; bold paper words **“LOOK CLOSER”**. Proof S005 street reports; payoff news-attention feedback.
 
 Thumbnail must be a newly AI-generated complete physical handmade paper/card scene after permitted production, with readable integrated large paper lettering; no image exists today. Before adopting, check small-screen 9:16 and central 2:3 crop and actual exact title/card pair, using verified Paper image reference pixels rather than copied style descriptors. Current reference assets UNVERIFIED; cannot pass thumbnail QA. Main chosen concept is a **preliminary** editorial hypothesis only.
+
+## Duration alternatives — 2026-11-17 (editorial, not release-ready)
+
+For 05m, headline promise can be “What Made Seattle Think Its Windshields Were Under Attack?” — open questions → police and military searches → mayoral appeal → scientists against sheriff → showroom old/new comparison; thumbnail visual option: a real 1950s sedan windshield with shallow pitting and a police report, paper miniature, **not** a nuclear blast/confirmed vandal. Only actual generated/approved media could make this usable.
+
+For 02m original, existing title/cover propositions are retained; for 10m, do not turn the later behavioral explanation into a promise of a discovered weapon. Neither package authorizes a trailer, publish, CTR claim or independent audience demand. Visual storyboard of chosen text/hash required before production.
+

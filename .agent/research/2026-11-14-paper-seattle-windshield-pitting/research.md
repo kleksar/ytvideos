@@ -56,3 +56,24 @@ No invented quotes, motives, forensic exact locations, minute-by-minute police a
 - **Exact loop:** last EN “Every new story prompted more people to inspect their own cars. And once they started checking,” → first EN “Seattle police kept getting calls about tiny pits in car windshields. Soon the mayor asked President Eisenhower for help.”; last RU “После каждой новой публикации ещё больше водителей начинали разглядывать свои машины. И когда они присматривались,” → first RU “В полицию Сиэтла постоянно звонили из-за крошечных выбоин на автомобильных стёклах. Вскоре мэр попросил помощи даже у президента Эйзенхауэра.”. The temporal cycle is new public attention causing new phone calls, after the explanation is complete; it does not promise withheld answer. Author read complete EN+EN and RU+RU twice; text seam provisional PASS (author only), independent judgement and MP4 AV seam UNVERIFIED.
 
 No real demographic analytics; assumed English 18+ curiosity viewers, age and geographic preference not verified. No image, TTS, subtitle, audio, measured timing or upload exists for this candidate.
+
+## 2026-11-17 evidence extension for independent 05m/10m variants
+
+These claims were newly used or made more prominent in the Long versions. Existing source table and selection are retained; **no** new 1954 quotes, motives, suspect or new-attack count is invented. Primary researched chronology: Alan J. Stein, HistoryLink 5136 (2003-01-27), https://www.historylink.org/File/5136 (see paragraphs "It Begins in Bellingham", "Seattle Under Siege", "Glass Menagerie", "Save Us, Ike!", "Hiding in Plain Sight"). Additional independent reporting: NPR 2015-05-28 via https://www.kpbs.org/news/2015/05/28/the-windshield-pitting-mystery-of-1954 (separate reports after local ebb).
+
+| New/expanded detail | Evidence | Interpretation limit |
+|---|---|---|
+| Late March Bellingham → neighboring towns → April 13 Anacortes roadblocks | HistoryLink "It Begins in Bellingham" | Moving *reports* are not confirmed moving attacker |
+| About 75 Marines search Whidbey base for five hours; 2,000+ reported cars by April 13 | HistoryLink same section | Do not add to later Seattle complaint counts as unique incidents |
+| April 14 newspaper front pages, evening calls, extra desk clerks and some police cars reported pitted | HistoryLink "Seattle Under Siege" | Individual news reports don't date physical scratch formation |
+| Whidbey Geiger-counter checks showed no radiation; Jim Creek transmitter rejected with no damage there | HistoryLink "Glass Menagerie" | Exclusions are limited to actual observations, not proof of origin of every pit |
+| University chemist D. M. Ritter skeptical after looking at glass/residue | HistoryLink same section | Paraphrase his view, no fabricated spoken quote |
+| Mayor Allan Pomeroy wired Gov. Langlie and President Eisenhower; governor requested UW investigation | HistoryLink "Save Us, Ike!" | Appeal does not imply president answered or sent personnel |
+| 84-car survey: front-vs-rear distribution supports wear; sheriff 15,000+ checks report 3,000+ damage | HistoryLink same section | Separate samples, not fresh attacks; 84 cars cannot prove every case |
+| Sheriff pellet observation/lead pencil vs ballpoint | HistoryLink same section | No confirmed link to any windshield damage; used only as uncertain failed clue |
+| Used/new car lot contrast, preexisting coal dust, rare copycats | HistoryLink "Hiding in Plain Sight" | Do not assert all marks or dust were uniformly caused by a single thing |
+| Local reports faded around April 17; later outside-Washington reports | HistoryLink; NPR/KPBS 2015-05-28 | Report spread after the local ebb doesn't mean a spreading physical agent; no quantified geography unless verified |
+| "Collective delusion" is about interpretation of marks, not imaginary non-existent marks | HistoryLink "One for the Books"; NPR | Avoid mockery and claims that every person hallucinated |
+
+No fresh author baseline, verified comparable public-video cohort, age-normalized counts, viewer retention or CTR; **demand UNVERIFIED**. These links document *facts*, not expected video performance. The shared research remains one file across all three scripts.
+

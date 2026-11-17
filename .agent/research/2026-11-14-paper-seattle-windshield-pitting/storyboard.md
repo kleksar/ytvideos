@@ -160,3 +160,8 @@ EDITORIAL_CANDIDATE_UNREGISTERED: text-only composition plan; **not** a measured
 
 ## Final seam concept
 S014: “Every new story prompted more people to inspect their own cars. And once they started checking,” → S001: “Seattle police kept getting calls about tiny pits in car windshields. Soon the mayor asked President Eisenhower for help.”. This connects viewers inspecting glass to the calls that began the story. RU: “После каждой новой публикации ещё больше водителей начинали разглядывать свои машины. И когда они присматривались,” → “В полицию Сиэтла постоянно звонили из-за крошечных выбоин на автомобильных стёклах. Вскоре мэр попросил помощи даже у президента Эйзенхауэра.”. Production must check actual image, voice, music and subtitle seam at exact MP4 after authorisation; no current asset or measured duration exists.
+
+## Exact coverage restriction after 2026-11-17 variant migration
+
+The original S001–S014 EN/RU spans remain valid **only for the unchanged v2 source** `script.en.txt` / `script.ru.txt`, identically copied into `variants/02m/` (Git blobs `05c0534ecb84a78eb84d8b923967cedd49fb82e7` and `271f73224a664e050d2d3cf76d9d0e39198465e8`, SHA-256 in `story-review.md`). They are **not** 05m or 10m coverage and none of their timing estimates transfer. New storyboard scene counts, visual decisions and exact language spans follow the selected Long script, not this old fourteen-scene grid. No image generation authorised by this note.
+
