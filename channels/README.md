@@ -8,8 +8,10 @@
 | [Scenes on Repeat](scenes_on_repeat/AGENTS.md) | Английские киноразборы/сценовые форматы | Отдельный verified channel и licensed-clips recipe |
 | [Nuviko History](nuviko_history/AGENTS.md) | Английские исторические рассказы с рисованным ведущим | Активен; illustrated Short и long |
 | [Nuviko Videos](nuviko_videos/AGENTS.md) | Музыкальные Shorts с реальными футажами | Активен; `music_first` Short: `vocal` и `instrumental`, long не определён |
-| [Two Ways Lab](two_ways_lab/AGENTS.md) | Англоязычные иллюстрированные эксперименты | Активен; illustrated Short, long не определён |
+| [Oddly Drawn](oddly_drawn/PROFILE.md) | Истории через рисунки на белой доске | Ключ `two_ways_lab`; active для редакционной работы, whiteboard production пока не configured |
 
 [Главред Борисенко](glavred_borisenko/PROFILE.md) ведётся вручную вне автоматического workflow. [Stories RU/EN](nuviko_stories/AGENTS.md) — отдельный ручной архив. Эти identities не заменяют ни один из пяти профилей. Подключение другого канала требует подтверждённой identity, прав, применимого голоса, календаря и исполняемого recipe.
+
+Oddly Drawn заменяет актуальный профиль Two Ways Lab с сохранением machine key и YouTube ID; это тот же пятый канал. CLI использует `--channel two_ways_lab`, отдельного alias `oddly_drawn` нет. [Identity](oddly_drawn/docs/IDENTITY.md), [production blockers](oddly_drawn/docs/PRODUCTION.md) и [migration](../docs/migration.md#two-ways-lab--oddly-drawn).
 
 Общие brand assets и provenance — [BRAND_ASSETS](BRAND_ASSETS.md). Канальный профиль не подтверждает наличие всех media в checkout.

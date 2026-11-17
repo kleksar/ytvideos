@@ -36,6 +36,14 @@ class PortableProfileTests(unittest.TestCase):
         with self.assertRaises((ValueError, FileNotFoundError)):
             m.delivery.profile_paths('unregistered', 'short')
 
+    def test_oddly_drawn_cannot_silently_reuse_the_historical_two_ways_preset(self):
+        with self.assertRaisesRegex(ValueError, 'explicit visual_profile'):
+            m.delivery.profile_paths('two_ways_lab', 'short')
+        with self.assertRaisesRegex(ValueError, 'configured ElevenLabs voice'):
+            m.delivery.channel_config.voice_id('two_ways_lab')
+        with self.assertRaisesRegex(ValueError, 'production requirements unresolved'):
+            m.production_preflight({'channel': 'two_ways_lab', 'format': 'short'}, Path('.'))
+
     def test_explicit_override_is_recorded_and_missing_override_rejected(self):
         with tempfile.TemporaryDirectory() as directory:
             plan = {'channel': 'paper_detour', 'format': 'short',

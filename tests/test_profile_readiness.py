@@ -14,13 +14,15 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class ProfileReadinessTests(unittest.TestCase):
-    def test_all_five_short_recipes_are_visible_without_claiming_live_readiness(self):
+    def test_all_five_channels_are_visible_without_claiming_media_or_live_readiness(self):
         result = inspect_profiles(ROOT / "channels", format="short", project=ROOT)
         rows = {row["channel"]: row for row in result["channels"]}
         self.assertEqual(set(rows), {"paper_detour", "nuviko_history", "nuviko_videos",
                                      "scenes_on_repeat", "two_ways_lab"})
         self.assertTrue(rows["paper_detour"]["configuration_ready"])
-        self.assertTrue(rows["two_ways_lab"]["configuration_ready"])
+        self.assertFalse(rows["two_ways_lab"]["configuration_ready"])
+        self.assertEqual(rows["two_ways_lab"]["name"], "Oddly Drawn")
+        self.assertTrue(rows["two_ways_lab"]["blockers"])
         self.assertTrue(rows["nuviko_videos"]["configuration_ready"])
         self.assertEqual(set(rows["nuviko_videos"]["formats"]["short"]["variants"]), {"vocal", "instrumental"})
         self.assertEqual(result["live_readiness"], "unverified")
@@ -44,7 +46,7 @@ class ProfileReadinessTests(unittest.TestCase):
                              "--project-root", str(ROOT), "profiles", "--channel", "two_ways_lab", "--format", "short"])
             self.assertEqual(code, 0)
             self.assertEqual(list(root.iterdir()), [])
-            self.assertTrue(json.loads(output.getvalue())["channels"][0]["configuration_ready"])
+            self.assertFalse(json.loads(output.getvalue())["channels"][0]["configuration_ready"])
 
     def test_absent_profile_is_reported_without_substitution(self):
         result = inspect_profiles(ROOT / "channels", channel="nonexistent_channel", format="short")

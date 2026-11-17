@@ -1,5 +1,7 @@
 # Two Ways Lab — логический план кадра до генерации
 
+> Исторические требования Two Ways Lab для прежних выпусков. Новые tasks используют [профиль Oddly Drawn](../../oddly_drawn/PROFILE.md); этот документ исключён из актуального runtime packet. Existing runs сохраняют свои pins.
+
 Канальное дополнение к [визуальному стандарту](../../../docs/standards/visual.md), применяемое через [ytv-produce-video](../../../.agents/skills/ytv-produce-video/SKILL.md). Рабочие карточки и промпты хранить в storyboard и artifacts конкретного run. Общая процедура и художественный профиль сохраняют своих владельцев.
 
 ## Порядок работы
