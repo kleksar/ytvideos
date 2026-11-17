@@ -9,3 +9,8 @@
 | M3 | Six Newspaper Reports. No Moon Creatures. | Стопка из шести бумажных выпусков, на верхней странице человек-летучая мышь; надпись **SIX REPORTS**; PD-SCALE-01 | S002: серия; S011–S014: пожар фальшивый, печатные картинки настоящие |
 
 Тон — ироничное любопытство к истории газет, не «контакт с инопланетянами». Размеры, fonts, фактический CTR и визуальная понятность **UNVERIFIED**. Первый кадр и thumbnail обещают **достоверно существовавшую газетную мистификацию**, не физически существовавших лунных жителей. Полный payoff не откладывать до loop. Собственный картонный самолётик только как независимая сценовая находка в S009; не рисовать его как факт 1835, не добавлять narration, не объявлять реальный asset загруженным.
+
+
+## 05m Long recommended promise · 2026-11-17
+
+**Editorial-only framing:** “How did a newspaper make Moon people sound scientific—and keep spreading them after other papers cried hoax?” Opening questions and answer exist in exact 05m. Image must show a physical 1835 printed page with the bat-winged creatures inside the paper illustration, not as authentic photographed life on the Moon. Any end-screen link requires an actually verified next Public Long and true clip; none is registered here. Original Short packaging remains for original/02m only.

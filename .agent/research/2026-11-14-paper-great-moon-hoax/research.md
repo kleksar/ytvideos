@@ -56,3 +56,19 @@ Disco сильнее по мгновенному физическому дейс
 ### Promise / opening / early proof / payoff
 
 Обещание: «Как нью-йоркская газета в 1835-м выдала фантастических жителей Луны за научное открытие?» Раннее подтверждение в S001 и S002 — реальное существование газеты и вымышленной новости. Доказательство в середине — реальный астроном против фальшивых Grant/журнала/телескопа. Отдача S012–S014 — все находки и пожар фикция, позднее признание автора, настоящие сохранившиеся гравюры. Обложка может показать бумажного «человека-летучую мышь» только **внутри старой газетной страницы**, чтобы не объявлять инопланетян реальными.
+
+
+## 2026-11-17 supplement: verified additions for 05m/10m
+
+Общий ранее прочитанный research сохраняется. Ниже источники для **новых** утверждений, public web reopened 2026-11-17; утверждения о спросе/retention остаются UNVERIFIED.
+
+| Claim | Проверенный источник и место | Граница |
+|---|---|---|
+| Реальная экспедиция Гершеля в Южной Африке, 1835 penny press, John Herschel и его телескоп | https://www.smithsonianmag.com/smithsonian-institution/great-moon-hoax-was-simply-sign-its-time-180955761/ (2015-07-02, paragraphs on Cape and false 24ft lens); https://www.theguardian.com/science/the-h-word/2015/feb/05/great-moon-hoax-christian-philosopher-history-science (2015-02-05, newspaper and actual telescope) | Реальный телескоп не является выдуманным 24ft аппаратом |
+| Edinburgh Journal of Science уже прекратил выходить; Board of Longitude был упразднён | Guardian 2015-02-05, paragraphs about folded journal and abolished Board | Только внутри фальшивой цепочки; не реальное сотрудничество |
+| Шесть частей 25–31 августа 1835, четвертая 28-го; 29-го Evening Post и Gloucester Telegraph критиковали сюжет | https://blogs.loc.gov/folklife/2014/08/the-great-moon-hoax/ (LoC, Stephanie Hall, 2014-08-26, paragraphs on contemporary papers) | Нельзя говорить, что все поверили; не выводить тираж из слухов |
+| Локк отрицал авторство 31 августа, позднее сам называл его сатирой; Томас Дик — контекст спекуляций о населённых мирах | LoC 2014 on Aug31 letter; Guardian 2015-02-05 on later explanation and Thomas Dick; Smithsonian 2015 on confession | Позднюю мотивацию атрибутировать Локку, не выдумывать мысли 1835 года |
+| Сентябрьская пародийная продажа лунных участков и подозрения Эдгара По | LoC 2014, paragraphs about Atkinson's Saturday Evening Post (Sep 5) and Poe | Заимствование По не доказано; текст говорит лишь о его подозрении |
+| Физические pamphlets, woodcuts, Italian engravings, отдельные prints | https://www.lindahall.org/about/news/scientist-of-the-day/richard-adams-locke/ (collections/pamphlets, originals had no illustrations); Smithsonian 2015 Italian lithographs | Изображения — evidence распространения выдумки, не астрономические кадры |
+
+**Causal sequence:** поддельная авторитетная цепочка → воображаемый прибор → эскалация «открытий» → публикация критики до завершения → фиктивный пожар → авторское отрицание/позднее признание → памфлеты/гравюры. Не приписывать аудитории единую реакцию или гарантированный коммерческий эффект. Нет независимого просмотра, аудиозаписи, measured duration.

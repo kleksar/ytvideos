@@ -22,3 +22,8 @@ EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официал
 - Нет подключённого исполняемого repo checkout/локального `uv run ytv` (локальная network Git clone невозможна; GitHub connector позволяет Git data, но не запуск команд и сохранение run).
 - Native независимая новая сессия reviewer `sessions.independent` / `spawn_agent` / `collaboration.spawn_agent` не обнаружена среди доступных инструментов; author self review не заменяет независимость.
 - Не разрешена генерация или проверка реального MP4. Script gate, independent attention, AI assets и AV seam = **UNVERIFIED**.
+
+
+## 2026-11-17: 2/5/10m candidates (no production authority)
+
+Original Short script and 15-scene storyboard remain untouched; 02m byte-identical. Six full EN/RU files in `variants/`; exact SHA-256, story maps, independent blockers in [story-review](story-review.md). Author recommends **05m Long**, compatible with Paper Detour ChannelSpec but **NOT** owner-approved. Runtime access, pinned context/claim and independent reviewer result unavailable here. To proceed, register an owner-selected exact EN + translated RU + shared research as supported artifacts of a real `ytv` run; obtain real reviewer result and owner's exact script choice; build only the selected version's storyboard. Existing pinned runs require explicit migration, never a checkout switch. No TTS, images, Flow, render, uploads, publication or approvals are authorized.

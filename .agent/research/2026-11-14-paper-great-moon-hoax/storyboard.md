@@ -1,3 +1,5 @@
+**BOUND TO UNCHANGED ORIGINAL / 02m ONLY.** Original EN Git blob `154e9df791953859bf178cf5497c5415e289e413`, RU blob `90d88788d5676f23dd462fb93be5b3392547981d`; 02m SHA-256 EN `f0320c39f2ffbfa801f0c5f3c085feb4c4884f79d85a2d3454d62ee93db39900` / RU `2b23776f4a21c0993d39c631c94a336721e07306f29052765dce8c0546f5cbc4`. S001–S015 are NOT exact spans/timings for 05m or 10m; 05m Long requires new 16:9 planning after exact master selection. No real media/reference pixels validated.
+
 # Предварительная раскадровка — не производственная карта
 
 Все spans дословно взяты из script.en.txt/script.ru.txt; каждый пункт — отдельная композиция, ориентир **4–6 с**, не measured audio timing. Для финального монтажа количество/границы сцен уточнять только после фактической дорожки TTS и forced alignment. Единая бумажная техника, период 1835, одна full-frame композиция на план, прямые склейки. Реконструкции и фантастические существа визуально существуют **в газетах и гравюрах**, а не как документальная реальность. Внешних исходных image reference bytes здесь нет; не выдавать диорамы за существующие материалы.
