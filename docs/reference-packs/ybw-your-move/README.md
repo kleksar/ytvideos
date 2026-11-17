@@ -24,7 +24,7 @@ Exact retained lower-panel text: “Your face is covered, but the people who alr
 
 The image header remains `YOUR MOVE`. The spoken lead-in is only “Your turn.” Both following questions are removed from the image, voice and SRT. This is an explicit Everyone-only decision, not permission to shorten the accepted questions of Mind, Teleportation, Three Wishes or Rewind.
 
-Delivery receipt supplied by the production coordinator: current master 243.9 seconds, retaining separate final 10-second previous-story endscreen and 10-second next-story riddle. This documentation change does not rerender or independently certify the MP4. No listening defect at 0:28 has been established; no repair of that alleged defect is claimed.
+Delivery receipt supplied by the production coordinator: current master 243.9 seconds, retaining separate final 10-second previous-story endscreen and 10-second next-story riddle. This documentation change does not rerender or independently certify the MP4. Subsequent owner listening feedback on the new version explicitly accepted the 0:28 join: “0.28 - исправлен”. This is owner listening evidence for that specific join, not an independent whole-film listening pass. No pause insertion or retiming was performed there; do not attribute the acceptance to either operation. The technical source was preserved.
 
 ## Boundaries
 
