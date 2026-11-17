@@ -1,0 +1,1287 @@
+{
+  "name": "REWIND_V6_PROJECT.zip",
+  "bytes": 159995818,
+  "sha256": "5ef11da5d5a7bd5152f23f04be1e8e0f53efcf30fdc74e80928000117e86fe25",
+  "crc": "PASS",
+  "members": [
+    {
+      "path": "rewind-v5/REWIND_V5_PROJECT.zip",
+      "bytes": 101438968,
+      "sha256": "684dc2bf3d18bfdc844c4a86da39d59aa52f30b9b5ec00185384d0f5fb1b4a91"
+    },
+    {
+      "path": "rewind-v5/REWIND_MIX_V5_FINAL.flac",
+      "bytes": 42565674,
+      "sha256": "928e66ccdf4aed89ba94bd1076db4912ca4322ff5afd891959b5590f28d19cba"
+    },
+    {
+      "path": "rewind-v5/Sound Design V4/reconstruct_water.py",
+      "bytes": 13628,
+      "sha256": "515b003f3974dc2baac9f28a7b0d2a14e5ceaa4b4b23d80fd27eb80e3957c760"
+    },
+    {
+      "path": "rewind-v6/revise_v6.py",
+      "bytes": 4512,
+      "sha256": "42d6efe4e62bba0c6ceae382c3a2d21eadacf9378bd5197fbe0607a9f614d5e8"
+    },
+    {
+      "path": "rewind-v6/README_V6.md",
+      "bytes": 2305,
+      "sha256": "10e515d1747e69e54e99a3a67bf62342790feeb519321e2fc797a41f03fdb54e"
+    },
+    {
+      "path": "rewind-v6/V6_QA.json",
+      "bytes": 741,
+      "sha256": "1474bc0c9e24c4e306af0fc235d7b9045b9da56a658da98e467913639bea1df1"
+    },
+    {
+      "path": "rewind-v6/loudness_v6.log",
+      "bytes": 1761,
+      "sha256": "bfca13d06e3fd9f8949fb7dd6bfd3c9207a19008438c638ed28aadc8e532ecb5"
+    },
+    {
+      "path": "rewind-v6/SFX_V6_MASTERED.flac",
+      "bytes": 14638932,
+      "sha256": "bdbfee0311e8371d78a45eda594ec99f8c0ec094c5a7cc70cd63cbbd3901b1f2"
+    },
+    {
+      "path": "rewind-v6/INTRO_PAPER_2s.wav",
+      "bytes": 590502,
+      "sha256": "2d2ff9508318c18cf8489b87bd0391eff4e52bea4574399c0e526f8ce39a8917"
+    },
+    {
+      "path": "rewind-v6/new_sources/female_sigh.mp3",
+      "bytes": 99871,
+      "sha256": "0a6a680ffe96a71ef2c4cf38545a6a6ed31d98b5710a0fd4b28a61861ca3e8f1"
+    },
+    {
+      "path": "rewind-v6/new_sources/bored_excerpt.wav",
+      "bytes": 195942,
+      "sha256": "345513f246cc661de7a6786095e84668ac6568f824f7830dbf3084519bf026c6"
+    },
+    {
+      "path": "rewind-v6/new_sources/PAPER_SOURCE.json",
+      "bytes": 572,
+      "sha256": "bca9692899655d14781b69eeeb7a57497548d15729e2c547a234126501c0c306"
+    },
+    {
+      "path": "rewind-v6/new_sources/female_sigh.html",
+      "bytes": 42511,
+      "sha256": "f5d4ca1a2a694f85eaeb0187240756f3f4620215e50ab0e1bc203542792d8a62"
+    },
+    {
+      "path": "rewind-v6/new_sources/paper_rustle.mp3",
+      "bytes": 361564,
+      "sha256": "d1564340160e71f6f66210d8577b86a4c9a458d8d90b22fbb50233ab2a5a04c0"
+    },
+    {
+      "path": "rewind-v6/new_sources/SIGH_SOURCE.json",
+      "bytes": 560,
+      "sha256": "89afbc5c5a05b778d4caa4c83d19bd4da22c914c081fcdb17d56b2a19b47c58d"
+    },
+    {
+      "path": "rewind-v6/new_sources/paper.html",
+      "bytes": 35499,
+      "sha256": "7ffd7c7db971e5893f8f5eaf0191297ffa76dcc6b2d28df08dc1d97cceb58f3e"
+    }
+  ],
+  "nested": [
+    {
+      "name": "rewind-v5/REWIND_V5_PROJECT.zip",
+      "bytes": 101438968,
+      "sha256": "684dc2bf3d18bfdc844c4a86da39d59aa52f30b9b5ec00185384d0f5fb1b4a91",
+      "crc": "PASS",
+      "members": [
+        {
+          "path": "REWIND_V4_SOURCE_PACKAGE.zip",
+          "bytes": 43757078,
+          "sha256": "1f59e65be4fb9c71b56d8a65d4f94e30d2ac267d0269ec42882b95e0bcbc6fe6"
+        },
+        {
+          "path": "REWIND_MIX_V4_FINAL.flac",
+          "bytes": 42686296,
+          "sha256": "203d049bf4354e12f43367e2d11491f123ecf2410032b0854765339f05e6b5c7"
+        },
+        {
+          "path": "reconstruct_targets.py",
+          "bytes": 13629,
+          "sha256": "891a09b5473c6593d03d6eac58512bda596cdd7399fa40e8498ec206fd638d26"
+        },
+        {
+          "path": "revise_v5.py",
+          "bytes": 4317,
+          "sha256": "005df37568a4b36b131e49e8a4b5830aef344abf50fc8175f94b39ec39787e78"
+        },
+        {
+          "path": "README_V5.md",
+          "bytes": 1949,
+          "sha256": "8d1b1995b55b985ed9753f652bf468f15bb24d1913d25c0568945612d49ae154"
+        },
+        {
+          "path": "cue_manifest_V5.json",
+          "bytes": 60389,
+          "sha256": "776d30bd49033059a7e02d673f07bb556e26a496716a5364df6ef85e2a37cefb"
+        },
+        {
+          "path": "V5_QA.json",
+          "bytes": 927,
+          "sha256": "64717245cfb86d1e50efc6f5c589aa8465d62770f39e73a949814db63910c36c"
+        },
+        {
+          "path": "loudness_v5.log",
+          "bytes": 1815,
+          "sha256": "db200ec6de9ca0fd6ac354ee405b4120cb4aa1be2f467fd10185cca8f6811135"
+        },
+        {
+          "path": "SFX_V5_MASTERED.flac",
+          "bytes": 14714831,
+          "sha256": "268c056b29aeca3bb03a5a8e947fff2c757bca7d4958803e5e07132cd8e13f7b"
+        },
+        {
+          "path": "new_sources/roof_excerpt.wav",
+          "bytes": 172902,
+          "sha256": "ce98c3c42bc7505d375b8479fb4ed185df2952618c33512ba5ce7ad6d991f3d9"
+        },
+        {
+          "path": "new_sources/METAL_SOURCES.json",
+          "bytes": 759,
+          "sha256": "4b6f82c5ebadcd2b954b9cdb786411e66f128b874a7a1c708795b6cc79b242ed"
+        },
+        {
+          "path": "new_sources/metal_vent.mp3",
+          "bytes": 22648,
+          "sha256": "b9a029857ef08875c4159a07c192e30b97201d5c303d0ff5a4517d6465fe9f0c"
+        }
+      ],
+      "nested": [
+        {
+          "name": "REWIND_V4_SOURCE_PACKAGE.zip",
+          "bytes": 43757078,
+          "sha256": "1f59e65be4fb9c71b56d8a65d4f94e30d2ac267d0269ec42882b95e0bcbc6fe6",
+          "crc": "PASS",
+          "members": [
+            {
+              "path": "audio/timings.json",
+              "bytes": 41696,
+              "sha256": "4784253bdd60d92144b1091a940ca4b0013e658eb1d753d7bf65af14481151ca"
+            },
+            {
+              "path": "audio/words.json",
+              "bytes": 103638,
+              "sha256": "e004e61eb6c54c34325593edd6384a162f9eec2dd11e0c7e5f160db7952b2ba6"
+            },
+            {
+              "path": "audio/narration.wav",
+              "bytes": 21252590,
+              "sha256": "217a08d7f2cb2a555a41d4a45a7e4cc7b429b88b20da932c6ff4fc09f65edde0"
+            },
+            {
+              "path": "Sound Design V4/SOURCES.json",
+              "bytes": 2637,
+              "sha256": "0d4bfd4231fa56f980e6e4a6d158f3e344918e14ee88dbb9f4f61d4a4bc27605"
+            },
+            {
+              "path": "Sound Design V4/qa_pre.json",
+              "bytes": 299,
+              "sha256": "8284e3d91c2777cf6c4b8cee9fc73cfc038a435dc8d420ffc3c223b8197d4385"
+            },
+            {
+              "path": "Sound Design V4/mix_v4.py",
+              "bytes": 13496,
+              "sha256": "20b9608ae732c0646ece3a3e15776fa879469294960d275d2de233027834bb65"
+            },
+            {
+              "path": "Sound Design V4/finalize_v4.py",
+              "bytes": 2195,
+              "sha256": "2fc93970b061aaa9d8342b624c7e7ebdefebacae3940a1b7bdf3c3beffb280fb"
+            },
+            {
+              "path": "Sound Design V4/CREDITS.txt",
+              "bytes": 2234,
+              "sha256": "b5f1c9ae2ed7a82a675c5b60aa2d38c80d17013eeb431e209a94f45ac1d86b3d"
+            },
+            {
+              "path": "Sound Design V4/README.md",
+              "bytes": 3617,
+              "sha256": "a1e01d6c0ccd8ee3f4a62d2ac39cff06ad3836969c06d9a344889274c34e4b17"
+            },
+            {
+              "path": "Sound Design V4/loudness_final.log",
+              "bytes": 2379,
+              "sha256": "9cef584cb8c090968731bd8ed6a8f334770bc71f0b8ebf8ed2e72434c9f394f2"
+            },
+            {
+              "path": "Sound Design V4/cue_manifest.json",
+              "bytes": 51386,
+              "sha256": "b25f0a4487eccd454bd363db5ccf09acac6aaf9401ac38b436041fffdfa289ea"
+            },
+            {
+              "path": "Sound Design V4/technical-qa.json",
+              "bytes": 512,
+              "sha256": "c3684eebe19627be6050ad510e64bead020000c5a7b043cbfcdf50644f30e7da"
+            },
+            {
+              "path": "Sound Design V4/VISUAL_AUDIT.md",
+              "bytes": 3425,
+              "sha256": "b059f741c9716db6809d5c1568878bb224d522c0b5872ec085fbac148fc69016"
+            },
+            {
+              "path": "Sound Design V4/provenance/desire-sound-v2_knock.html",
+              "bytes": 44030,
+              "sha256": "9e7cff4bd3c11b3c12930451046b480fded250bad288e5f88cdce8d70397f9b8"
+            },
+            {
+              "path": "Sound Design V4/provenance/desire-sound-v3_chuckle_quiet.html",
+              "bytes": 44236,
+              "sha256": "86c06e3f911b69cbc0d428704f84f2edd68c5db22ce683138ebf1a7ace86741c"
+            },
+            {
+              "path": "Sound Design V4/provenance/desire-sound_license-policy.html",
+              "bytes": 12146,
+              "sha256": "479019ed42fd8384c63c04bd95dc6d0e0e0da505ddd6f567a13018c724f8416d"
+            },
+            {
+              "path": "Sound Design V4/provenance/desire-sound-v4_VOCAL_SOURCES_V4.json",
+              "bytes": 1110,
+              "sha256": "9dc8e716c1c78935fe299bb2cc661891c38d22c7e894872536ce04a72e698b4a"
+            },
+            {
+              "path": "Sound Design V4/provenance/desire-sound-v6_walla_big.html",
+              "bytes": 52258,
+              "sha256": "17b7612cefd40fe85aeb3473833ff535d7416b26c1132379c8648484799b73c5"
+            },
+            {
+              "path": "Sound Design V4/provenance/desire-sound-v5_handle_rattle_SOURCE_V5.json",
+              "bytes": 519,
+              "sha256": "4323edfc7a8a66b7dedf1556d9a42420132bd1113a1a3f36f5b38a2aad55cca9"
+            },
+            {
+              "path": "Sound Design V4/provenance/desire-sound_pieces.json",
+              "bytes": 881512,
+              "sha256": "54802ad340562624b9d1c9c97aa9f005e2b9bf79001f8a1a07ed857e68b2164a"
+            },
+            {
+              "path": "Sound Design V4/provenance/original_glass.html",
+              "bytes": 51395,
+              "sha256": "95f505e53e804dac43c7f90ee23243d4a9b4f022415830ae898c42a466973d16"
+            },
+            {
+              "path": "Sound Design V4/provenance/desire-sound-v5_chair_scrape_SOURCE_V5.json",
+              "bytes": 517,
+              "sha256": "7c13fa4002277d7985bf9c29af86297b61db6a46c340ac83b7269fa52ad687c2"
+            },
+            {
+              "path": "Sound Design V4/provenance/desire-sound_license-page.html",
+              "bytes": 26826,
+              "sha256": "0aaccc3d496fc4ae189e27e3fe2d4f5216266e3bcccf2e0ba77fb1b57a28fa94"
+            },
+            {
+              "path": "Sound Design V4/provenance/desire-sound-v5_chair_scrape.html",
+              "bytes": 36901,
+              "sha256": "8bf51a30a5099b730f9297d13ad043eb191a1428721707ff6985d83eaf916bc2"
+            },
+            {
+              "path": "Sound Design V4/provenance/desire-sound-v5_cloth_soft.html",
+              "bytes": 37720,
+              "sha256": "7921e4a909e85c3e87c572f96c887e59d3887e9646e057b3d845b86979b648b7"
+            },
+            {
+              "path": "Sound Design V4/provenance/desire-sound-v2_chuckle.html",
+              "bytes": 39656,
+              "sha256": "2b16f06f6139ff0aa86a5f83c86ab43b6ff3ec31f6dac1de9d5ec75693647cff"
+            },
+            {
+              "path": "Sound Design V4/provenance/desire-sound-v5_door_slam_SOURCE_V5.json",
+              "bytes": 486,
+              "sha256": "d02c4c7c2c2c3c7387566c555ab85fdea2a4e53ba4c5b9341313e098daa3df12"
+            },
+            {
+              "path": "Sound Design V4/provenance/desire-sound-v4_mmhmm_five.html",
+              "bytes": 35937,
+              "sha256": "3d46adc4450e1b3b351b1791cbd0cb40623ff92fe3897053c4fe172b4c2ad1f9"
+            },
+            {
+              "path": "Sound Design V4/provenance/desire-sound-v6_WALLA_SOURCE_V6.json",
+              "bytes": 597,
+              "sha256": "a944472cf1b1e060b088273f198a82b0049f3b704ac1967532ea80050221d2b5"
+            },
+            {
+              "path": "Sound Design V4/provenance/desire-sound-v5_FOOTSTEPS_SOURCES_V5.json",
+              "bytes": 1091,
+              "sha256": "b8f3155f22fa91d6608bfcda9ff4aa5b2cf1d07b0ab5c19d01daf141771e682c"
+            },
+            {
+              "path": "Sound Design V4/provenance/original_SOURCES.json",
+              "bytes": 1432,
+              "sha256": "4ea1212af5edd8ed513682e0bdd14ba06b83cceca79856193f5332255b8d4085"
+            },
+            {
+              "path": "Sound Design V4/provenance/desire-sound-v6_BIGSOUNDBANK_SOURCES.json",
+              "bytes": 1055,
+              "sha256": "03f28a48a07ca2ed47c5b524dbc2f07b4827b3c57b7c7005dde1cc6248e68d9d"
+            },
+            {
+              "path": "Sound Design V4/provenance/desire-sound-v5_palm_table.html",
+              "bytes": 38024,
+              "sha256": "e26277ad3a3242b8571b1e17582ce537c0876cc63ba6a6dd83c61a3def6551c7"
+            },
+            {
+              "path": "Sound Design V4/provenance/desire-sound-v6_kiss_big.html",
+              "bytes": 49103,
+              "sha256": "3e4940fab8bdf038d27d606a99473607221fbb557e2816614ee07b77bc83e67c"
+            },
+            {
+              "path": "Sound Design V4/provenance/desire-sound-v3_VOCAL_SOURCES_V3.json",
+              "bytes": 2162,
+              "sha256": "8637cde127695c51a3c1d62a720e0381f6e463ba93821a7fe239e28fd782d24f"
+            },
+            {
+              "path": "Sound Design V4/provenance/desire-sound-v5_wood_slam_moot.html",
+              "bytes": 40089,
+              "sha256": "3ce1b59562783c6a3db88b2bee899bf61d1eaf4c858a333d775072990a4874d2"
+            },
+            {
+              "path": "Sound Design V4/provenance/desire-sound-v3_blow_soft.html",
+              "bytes": 35954,
+              "sha256": "6425769eedbf65759b47c832cb70725ff7d2b885a51c430f4d32e1b677c1cf49"
+            },
+            {
+              "path": "Sound Design V4/provenance/desire-sound-v5_DOOR_SOURCES_V5.json",
+              "bytes": 1055,
+              "sha256": "0e39fdb88722fb47c19a804babaf52420338c3780eedac9ca956d55c8d51edea"
+            },
+            {
+              "path": "Sound Design V4/provenance/original_cough.html",
+              "bytes": 51308,
+              "sha256": "1264f5e2998a6061db5bd291eae4d235711fe73bd181ff2672a4ecef8b4271dc"
+            },
+            {
+              "path": "Sound Design V4/provenance/desire-sound-v5_PALM_SOURCE_V5.json",
+              "bytes": 488,
+              "sha256": "278176b4f590df369692b6dc482ba27ff755954203bd34457a01dd7399a5243c"
+            },
+            {
+              "path": "Sound Design V4/provenance/original_splash.html",
+              "bytes": 52610,
+              "sha256": "09c098b56cbabc3af4395830114293fb45ea443bb2ece91f3ba2dce0460a177e"
+            },
+            {
+              "path": "Sound Design V4/provenance/desire-sound-v2_hum.html",
+              "bytes": 44565,
+              "sha256": "3d6f6afa9f6f8fbf98ef90fbcfbf8e12717435fc8d7b65bce44e7a6d8bfdb711"
+            },
+            {
+              "path": "Sound Design V4/provenance/desire-sound-v5_chair_fall_SOURCE_V5.json",
+              "bytes": 517,
+              "sha256": "e650697560448995ab4d2c98ee1bb4bea1d23508fa28a478286cacc2dd821a4d"
+            },
+            {
+              "path": "Sound Design V4/provenance/desire-sound-v2_blow.html",
+              "bytes": 40070,
+              "sha256": "2c4cfb25c7b363d6bab05fb74df1be2bf4957ff7004a0546096a5e203de85029"
+            },
+            {
+              "path": "Sound Design V4/provenance/desire-sound-v6_sigh_big.html",
+              "bytes": 51618,
+              "sha256": "030353c15041ab26e82415bee15e23719555537689621d1fed1d185cd554f223"
+            },
+            {
+              "path": "Sound Design V4/provenance/desire-sound-v2_VOCAL_SOURCES.json",
+              "bytes": 2092,
+              "sha256": "cc9d32eb2412a08a5d02a29c46de92511fd24304d42a5e4119cdd868bf6d4b97"
+            },
+            {
+              "path": "Sound Design V4/provenance/desire-sound-v5_door_handle.html",
+              "bytes": 36235,
+              "sha256": "6acb6d51b46a5322c307f2f52c4f8e649961ae66b158bb4b932aded7142881b9"
+            },
+            {
+              "path": "Sound Design V4/provenance/desire-sound-v5_running_pavement.html",
+              "bytes": 40384,
+              "sha256": "84768fdb420c4d3c049c9b357b9de8ae9f69bc4255e62648f61600aab71dfc8f"
+            },
+            {
+              "path": "Sound Design V4/provenance/desire-sound-v5_cloth_soft_SOURCE_V5.json",
+              "bytes": 489,
+              "sha256": "924334e45ba6f408c3d72816a06fd4896f0d5a14cd056718f50e3f644960bf4d"
+            },
+            {
+              "path": "Sound Design V4/provenance/original_candidates.json",
+              "bytes": 832,
+              "sha256": "cb067c29bfc15ba772dc6d8750297d8cb3a7056f20b92b0e1d7e060261409abc"
+            },
+            {
+              "path": "Sound Design V4/provenance/desire-sound-v5_running_concrete.html",
+              "bytes": 42924,
+              "sha256": "d953712ab9984986b2b6fe49f10b49cb08c7db2dafd2bc8ca3b17b0d75c1d021"
+            },
+            {
+              "path": "Sound Design V4/provenance/original_seatbelt.html",
+              "bytes": 51658,
+              "sha256": "617cc4fe0b5335931c30b620a6805641cde4b04bdc071da02bde7357688d292b"
+            },
+            {
+              "path": "Sound Design V4/provenance/original_car_crash_SOURCE.json",
+              "bytes": 470,
+              "sha256": "77ad2e1d1b79707a0835d64a81f13df98eb46700a09b9493deb8e8733140643f"
+            },
+            {
+              "path": "Sound Design V4/new_sources/fetch.py",
+              "bytes": 933,
+              "sha256": "1bdec3ceaa14984fa76a0492d3704a8ac3949f01ebf66224656e80357f42f1b9"
+            },
+            {
+              "path": "Sound Design V4/new_sources/SOURCES.json",
+              "bytes": 3515,
+              "sha256": "f9d0c7b92c2cdea1b8a201ed382858543edb9e234e30021e3d77726c36c15678"
+            },
+            {
+              "path": "Sound Design V4/new_sources/gasp_group.mp3",
+              "bytes": 64608,
+              "sha256": "032c49ca2f3cece3de5ab1e18b5ae5792ca0d58e31733dd059bbad233289a846"
+            },
+            {
+              "path": "Sound Design V4/new_sources/drive_interior.html",
+              "bytes": 45520,
+              "sha256": "766aae815f605e7b89a376cfeaec6c96abaf6037c03d8a3f4f231e399de5c16a"
+            },
+            {
+              "path": "Sound Design V4/new_sources/gasp_male.html",
+              "bytes": 43790,
+              "sha256": "18a8121f58a21dbc8826ef380eb65103cd023608c939dd00219a03304ac92b94"
+            },
+            {
+              "path": "Sound Design V4/new_sources/gasp_female.html",
+              "bytes": 42560,
+              "sha256": "f949423ca240a2e3d9eb7d0fd5bf37d0cfeb0696647564759f085535bbdfe95e"
+            },
+            {
+              "path": "Sound Design V4/new_sources/EXCERPT_NOTES.json",
+              "bytes": 810,
+              "sha256": "afbd944b291c15c16402cfa77d66202cf892f7303d5b24891b7c43d1c60c64cc"
+            },
+            {
+              "path": "Sound Design V4/new_sources/gasp_male.mp3",
+              "bytes": 333803,
+              "sha256": "27ce9472df84d1dc532108b1c7ccfd41b05cb7fb507dae9683dbc35163f77c78"
+            },
+            {
+              "path": "Sound Design V4/new_sources/gasp_group.html",
+              "bytes": 37467,
+              "sha256": "8babcbb53c5c33e17946a4df5c44f8db24c8912c0ebfc6227f46a9d27894f98f"
+            },
+            {
+              "path": "Sound Design V4/new_sources/shore.mp3",
+              "bytes": 3534192,
+              "sha256": "256c55aff55fed78e4ad2c5251f2a5d2ec91ea20b6d729010ee10fc15e1a7a3f"
+            },
+            {
+              "path": "Sound Design V4/new_sources/skid.mp3",
+              "bytes": 32976,
+              "sha256": "4782ed9a21c4d9e898d5b212c8967aa7c757fc5af37d46d8eb6963ee13140fc4"
+            },
+            {
+              "path": "Sound Design V4/new_sources/skid.html",
+              "bytes": 45386,
+              "sha256": "7db5be9fba98c40a68f25f1974ca12ca0153d8ae9374e8d3cb9dc22a955dd659"
+            },
+            {
+              "path": "Sound Design V4/new_sources/shore.html",
+              "bytes": 36507,
+              "sha256": "fa527347f078bcc81b8fe89e865b89cc50e84f456e050705e7b7eb8da6871487"
+            },
+            {
+              "path": "Sound Design V4/new_sources/drive_interior.mp3",
+              "bytes": 834020,
+              "sha256": "472eff93e0a29e43ea83c3554007b38e872114446d962b1d41bdbf455feed317"
+            },
+            {
+              "path": "Sound Design V4/new_sources/gasp_female.mp3",
+              "bytes": 28622,
+              "sha256": "d49bfabb3789caf19a08fad8bc6df5bce55d5f967d3212e6613f2f4d40654709"
+            },
+            {
+              "path": "Sound Design V4/assets/palm_table.mp3",
+              "bytes": 108543,
+              "sha256": "803cbb40c96c6c544216e23756d2bc053712bea7737e45714b74a435e02b81d2"
+            },
+            {
+              "path": "Sound Design V4/assets/bubbles.mp3",
+              "bytes": 574793,
+              "sha256": "91a369b43d32a3c9a428cb8f84919584523dec3874c76505b599a1161c04af31"
+            },
+            {
+              "path": "Sound Design V4/assets/sigh.html",
+              "bytes": 52732,
+              "sha256": "4eea1e2c1390cffae98fe99ffdfe2dacf278324bff9718ebaf948c1b97d5711b"
+            },
+            {
+              "path": "Sound Design V4/assets/breath.html",
+              "bytes": 52968,
+              "sha256": "8be176b8a030358f17f37af19153f192eea281971d776a743698b8655d47f098"
+            },
+            {
+              "path": "Sound Design V4/assets/glass.mp3",
+              "bytes": 41571,
+              "sha256": "66bcf644db2da6a2768db62b0698d7d03cca405b3438ead74bbf8016007030aa"
+            },
+            {
+              "path": "Sound Design V4/assets/Miami_Viceroy.mp3",
+              "bytes": 8567053,
+              "sha256": "0abf246e903cfdfac42b600ae95646081ee97373a901d286c9cd8f5e44f87e11"
+            },
+            {
+              "path": "Sound Design V4/assets/car_door.mp3",
+              "bytes": 868928,
+              "sha256": "87b7b9755d67ef390b356e11f6f469d16ba4e8c7139eef1c4c1bf89f95b71ad3"
+            },
+            {
+              "path": "Sound Design V4/assets/punch.mp3",
+              "bytes": 114940,
+              "sha256": "f9e06dd3704ca6e0975511c76cb3096c9a9e853258b6260d3146cdaa355708d3"
+            },
+            {
+              "path": "Sound Design V4/assets/glassknock.html",
+              "bytes": 51207,
+              "sha256": "9014bca4433bb7eb0ce37dfeb3d17d6ff09ed83fc46bcf4d245cc2948771da3e"
+            },
+            {
+              "path": "Sound Design V4/assets/laugh.wav",
+              "bytes": 89168,
+              "sha256": "4c06fc166de93fe59d7ad08cb685f1c683e92efdb1e8d8aa4a37acfa68192d7a"
+            },
+            {
+              "path": "Sound Design V4/assets/cough.mp3",
+              "bytes": 279488,
+              "sha256": "0be2ac86803c65853612499b2ecc5c9f3cee626a98d47ccd729334be0cda41a6"
+            },
+            {
+              "path": "Sound Design V4/assets/whoosh.mp3",
+              "bytes": 13178,
+              "sha256": "e686fb0b7513e0a15257a29413e2a394ee0847927cb9483dc53ebcf408460e22"
+            },
+            {
+              "path": "Sound Design V4/assets/punch.html",
+              "bytes": 50953,
+              "sha256": "79c74b21ac4a6a2d0ab80e08d46e977104c494f71e6284f0e1f7306982b92b08"
+            },
+            {
+              "path": "Sound Design V4/assets/handle_rattle.mp3",
+              "bytes": 788448,
+              "sha256": "350f4d044c966b70100f2dabe6328fa7ac9c23780d4a141e8876c87d9ad55f59"
+            },
+            {
+              "path": "Sound Design V4/assets/coat.html",
+              "bytes": 55502,
+              "sha256": "d4c66bd865905632493d97999db8426f7c131c396dc7004f59f47f5af990f260"
+            },
+            {
+              "path": "Sound Design V4/assets/coat.mp3",
+              "bytes": 339108,
+              "sha256": "be4310cd4a8d3a7b6e6687e7a710dd575f8c2dbe0d70781092e7f576248b5fbb"
+            },
+            {
+              "path": "Sound Design V4/assets/grunt.mp3",
+              "bytes": 21728,
+              "sha256": "fe9b6a261c7e5fb59ee77cfe58881bcfcd05899b19442cbb7f1cb6d21c2d0815"
+            },
+            {
+              "path": "Sound Design V4/assets/glassknock.mp3",
+              "bytes": 216543,
+              "sha256": "49001d167fc1851969057de49b741f71567cfabcb130fb199e3ae14390e0ed1f"
+            },
+            {
+              "path": "Sound Design V4/assets/effort.wav",
+              "bytes": 701014,
+              "sha256": "9849959e0e092f840c989aaffb05eb75ff2255dd56ac9b58bea9d9086b0b6177"
+            },
+            {
+              "path": "Sound Design V4/assets/splash.mp3",
+              "bytes": 133668,
+              "sha256": "17b3b966bca3129077fb1d2be72c9ce60aaa32327ef1168b74016335aa460cf1"
+            },
+            {
+              "path": "Sound Design V4/assets/breath.mp3",
+              "bytes": 961188,
+              "sha256": "29df461e8fb60f26f5a6e27d89cd17130deb19c5c88c960b706df4e58f9c2ae9"
+            },
+            {
+              "path": "Sound Design V4/assets/water.mp3",
+              "bytes": 1142528,
+              "sha256": "3e6fbaa07e8ef92ba2905f90105f959fba0362b69d8695cafe59b77b5bbd3106"
+            },
+            {
+              "path": "Sound Design V4/assets/water.html",
+              "bytes": 50955,
+              "sha256": "fb976fa0c933a1f2ccccc95550d2059a5aaee128d1fa850be48bc715c34d25bd"
+            },
+            {
+              "path": "Sound Design V4/assets/sigh.mp3",
+              "bytes": 220068,
+              "sha256": "b3e96c3bae61554f4b82a1b999e61cf6c6991eb57d522215843e8cba79ac20c2"
+            },
+            {
+              "path": "Sound Design V4/assets/grunt.html",
+              "bytes": 51629,
+              "sha256": "c3adbf01debd2e418611a0fa790bf7404302d52dae0adb8a5374249680b12503"
+            },
+            {
+              "path": "Sound Design V4/assets/Constance.mp3",
+              "bytes": 5614341,
+              "sha256": "68e2514774eb5a8b61066e00e35a9fec6684a6d1107ca30b2fafcbea31e6206c"
+            },
+            {
+              "path": "Sound Design V4/assets/door_handle.mp3",
+              "bytes": 788448,
+              "sha256": "350f4d044c966b70100f2dabe6328fa7ac9c23780d4a141e8876c87d9ad55f59"
+            },
+            {
+              "path": "Sound Design V4/assets/cloth_soft.mp3",
+              "bytes": 278906,
+              "sha256": "0aa23388a869d45de3b7986d5306d9ce7930e598f2e0fc00b9121f955c48f772"
+            },
+            {
+              "path": "Sound Design V4/assets/seatbelt.mp3",
+              "bytes": 1065728,
+              "sha256": "3c4cbb03a031d137946902ce1c8281122c3e6c7441e1e15f7922b35d4cfbf169"
+            },
+            {
+              "path": "Sound Design V4/assets/car_door.html",
+              "bytes": 52636,
+              "sha256": "fc96f36018c7a9bec3729abd98147d14da99b6adf75b9f3a9fa779893d775f9e"
+            },
+            {
+              "path": "Sound Design V4/assets/whoosh.html",
+              "bytes": 53689,
+              "sha256": "65d85bbc9cde7b631dd42f9fd8f5c269e8e66f1521e4f71b507af1f189b851bc"
+            },
+            {
+              "path": "Sound Design V4/assets/crash.wav",
+              "bytes": 1415040,
+              "sha256": "be88ecb2f0e2535d419c10eacd196f130fbee977368a646471c070f7bb5eb076"
+            },
+            {
+              "path": "Sound Design V4/assets/bubbles.html",
+              "bytes": 53228,
+              "sha256": "c214a000bab7f136281e1df001d470f5b4c5dba100c745246105b3a3beca501d"
+            }
+          ],
+          "nested": [],
+          "source_records": [
+            {
+              "path": "Sound Design V4/SOURCES.json",
+              "record": [
+                {
+                  "name": "bubbles",
+                  "source": "https://bigsoundbank.com/water-bubbles-s0150.html",
+                  "download": "https://bigsoundbank.com/UPLOAD/mp3/0150.mp3",
+                  "license": "CC0",
+                  "cc0_in_page": true
+                },
+                {
+                  "name": "whoosh",
+                  "source": "https://bigsoundbank.com/sword-through-the-air-s0128.html",
+                  "download": "https://bigsoundbank.com/UPLOAD/mp3/0128.mp3",
+                  "license": "CC0",
+                  "cc0_in_page": true
+                },
+                {
+                  "name": "punch",
+                  "source": "https://bigsoundbank.com/punch-s0105.html",
+                  "download": "https://bigsoundbank.com/UPLOAD/mp3/0105.mp3",
+                  "license": "CC0",
+                  "cc0_in_page": true
+                },
+                {
+                  "name": "breath",
+                  "source": "https://bigsoundbank.com/breathless-man-s1103.html",
+                  "download": "https://bigsoundbank.com/UPLOAD/mp3/1103.mp3",
+                  "license": "CC0",
+                  "cc0_in_page": true
+                },
+                {
+                  "name": "glassknock",
+                  "source": "https://bigsoundbank.com/striking-at-a-glass-door-s0198.html",
+                  "download": "https://bigsoundbank.com/UPLOAD/mp3/0198.mp3",
+                  "license": "CC0",
+                  "cc0_in_page": true
+                },
+                {
+                  "name": "water",
+                  "source": "https://bigsoundbank.com/small-cascade-s0507.html",
+                  "download": "https://bigsoundbank.com/UPLOAD/mp3/0507.mp3",
+                  "license": "CC0",
+                  "cc0_in_page": true
+                },
+                {
+                  "name": "grunt",
+                  "source": "https://bigsoundbank.com/cry-of-pain-s2361.html",
+                  "download": "https://bigsoundbank.com/UPLOAD/mp3/2361.mp3",
+                  "license": "CC0",
+                  "cc0_in_page": true
+                },
+                {
+                  "name": "car_door",
+                  "source": "https://bigsoundbank.com/car-door-s0655.html",
+                  "download": "https://bigsoundbank.com/UPLOAD/mp3/0655.mp3",
+                  "license": "CC0",
+                  "cc0_in_page": true
+                },
+                {
+                  "name": "coat",
+                  "source": "https://bigsoundbank.com/synthetic-coat-rubbed-s1104.html",
+                  "download": "https://bigsoundbank.com/UPLOAD/mp3/1104.mp3",
+                  "license": "CC0",
+                  "cc0_in_page": true
+                },
+                {
+                  "name": "sigh",
+                  "source": "https://bigsoundbank.com/sigh-by-the-mouth-s1405.html",
+                  "download": "https://bigsoundbank.com/UPLOAD/mp3/1405.mp3",
+                  "license": "CC0",
+                  "cc0_in_page": true
+                },
+                {
+                  "name": "laugh",
+                  "source": "https://freesound.org/people/amoyssiadis/sounds/397673/",
+                  "download": "https://huggingface.co/datasets/Fhrozen/FSD50k/resolve/main/clips/eval/397673.wav",
+                  "license": "CC0; verified during V2",
+                  "author": "amoyssiadis"
+                },
+                {
+                  "name": "effort",
+                  "source": "https://freesound.org/people/Kodack/sounds/256603/",
+                  "download": "https://huggingface.co/datasets/Fhrozen/FSD50k/resolve/main/clips/dev/256603.wav",
+                  "license": "CC0; verified during V2",
+                  "author": "Kodack"
+                }
+              ]
+            },
+            {
+              "path": "Sound Design V4/provenance/desire-sound-v4_VOCAL_SOURCES_V4.json",
+              "record": [
+                {
+                  "name": "Guy saying mmhmm *5 takes*",
+                  "author": "NicolasLikesThisWebsite496",
+                  "page": "https://freesound.org/people/NicolasLikesThisWebsite496/sounds/806888/",
+                  "download": "https://cdn.freesound.org/previews/806/806888_16272804-hq.mp3",
+                  "license": "CC0 1.0",
+                  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+                  "file": "desire-sound-v4/assets/mmhmm_five.mp3",
+                  "sha256": "c2e2f0f30c30f9aa69c6d85dbd48bcb7a02d54ce97a8c8f31d1e21145101b32e",
+                  "evidence": "mmhmm_five.html",
+                  "auditory_verified": false
+                },
+                {
+                  "name": "Man Saying uh huh voice overs actor",
+                  "author": "SCICOFILMS.com",
+                  "page": "https://freesound.org/people/SCICOFILMS.com/sounds/440845/",
+                  "download": "https://cdn.freesound.org/previews/440/440845_7989181-hq.mp3",
+                  "license": "CC BY 3.0",
+                  "license_url": "https://creativecommons.org/licenses/by/3.0/",
+                  "file": "desire-sound-v4/assets/uh_huh_actor.mp3",
+                  "sha256": "05a6e35a58cb7558baf9119dfeba8d6ff7dfd7abed573e9c180615bfac31ade4",
+                  "evidence": "uh_huh_actor.html",
+                  "auditory_verified": false
+                }
+              ]
+            },
+            {
+              "path": "Sound Design V4/provenance/desire-sound-v5_handle_rattle_SOURCE_V5.json",
+              "record": {
+                "name": "Locked_Door_Handle_Rattle_multiple.wav",
+                "author": "jcdecha",
+                "page": "https://freesound.org/people/jcdecha/sounds/235473/",
+                "download": "https://cdn.freesound.org/previews/235/235473_3843719-hq.mp3",
+                "license": "CC0 1.0",
+                "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+                "file": "desire-sound-v5/assets/handle_rattle_CC0.mp3",
+                "sha256": "8da727e05d9d37eef5385e7a0271bdf7983686faa2cf40889c994a7f273e741e",
+                "evidence": "handle_rattle.html",
+                "auditory_verified": false
+              }
+            },
+            {
+              "path": "Sound Design V4/provenance/desire-sound-v5_chair_scrape_SOURCE_V5.json",
+              "record": {
+                "name": "Scraping Wood Chair on Concrete Floor",
+                "author": "Group39",
+                "page": "https://freesound.org/people/Group39/sounds/708573/",
+                "download": "https://cdn.freesound.org/previews/708/708573_15367714-hq.mp3",
+                "license": "CC0 1.0",
+                "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+                "file": "desire-sound-v5/assets/chair_scrape_CC0.mp3",
+                "sha256": "383a22bd7a57267d1a6d7c8db4260ba4c22aa9813da98cbd3abacd817ab448ab",
+                "evidence": "chair_scrape.html",
+                "auditory_verified": false
+              }
+            },
+            {
+              "path": "Sound Design V4/provenance/desire-sound-v5_door_slam_SOURCE_V5.json",
+              "record": {
+                "name": "Door Slam",
+                "author": "Timmeh515",
+                "page": "https://freesound.org/people/Timmeh515/sounds/413274/",
+                "download": "https://cdn.freesound.org/previews/413/413274_8096222-hq.mp3",
+                "license": "CC0 1.0",
+                "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+                "file": "desire-sound-v5/assets/door_slam_CC0.mp3",
+                "sha256": "bb594c07b3ccd5491a8e98efa725938bf7c0e5413aa6c9f1f31b5d8fcb833817",
+                "evidence": "door_slam.html",
+                "auditory_verified": false
+              }
+            },
+            {
+              "path": "Sound Design V4/provenance/desire-sound-v6_WALLA_SOURCE_V6.json",
+              "record": {
+                "title": "Walla Group: Averages Discussions",
+                "author": "Joseph SARDIN",
+                "source": "https://bigsoundbank.com/walla-group-averages-discussions-s0684.html",
+                "download": "https://bigsoundbank.com/UPLOAD/mp3/0684.mp3",
+                "license": "CC0",
+                "file": "desire-sound-v6/assets/walla_BigSoundBank_CC0.mp3",
+                "sha256": "e9a92a8482a6c2a445860e35affe2a83c02bfa5f0a68c90692c86256a4c61399",
+                "auditory_verified": false,
+                "description": "25 people, no music or other sounds, French. Not guaranteed wordless; can be filtered as crowd texture.",
+                "evidence": "desire-sound-v6/assets/walla_big.html"
+              }
+            },
+            {
+              "path": "Sound Design V4/provenance/desire-sound-v5_FOOTSTEPS_SOURCES_V5.json",
+              "record": [
+                {
+                  "name": "Running footsteps on pavement.WAV",
+                  "author": "thomasanthony321",
+                  "page": "https://freesound.org/people/thomasanthony321/sounds/682771/",
+                  "download": "https://cdn.freesound.org/previews/682/682771_14662423-hq.mp3",
+                  "license": "CC0 1.0",
+                  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+                  "file": "desire-sound-v5/assets/running_pavement_CC0.mp3",
+                  "sha256": "ee0085234d7e583c0b7652a6a412ffd52f8a60c0ce0b01e986c7c34f015b1d02",
+                  "evidence": "running_pavement.html",
+                  "auditory_verified": false
+                },
+                {
+                  "name": "RUNNING 1.wav",
+                  "author": "vmgraw",
+                  "page": "https://freesound.org/people/vmgraw/sounds/257700/",
+                  "download": "https://cdn.freesound.org/previews/257/257700_4028838-hq.mp3",
+                  "license": "CC0 1.0",
+                  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+                  "file": "desire-sound-v5/assets/running_concrete_CC0.mp3",
+                  "sha256": "560ed358c488a9e9d2d26699556a37e81c1e8da808d015856bfd9cc2cf0b8de9",
+                  "evidence": "running_concrete.html",
+                  "auditory_verified": false
+                }
+              ]
+            },
+            {
+              "path": "Sound Design V4/provenance/original_SOURCES.json",
+              "record": [
+                {
+                  "name": "glass",
+                  "file": "/tmp/ytv-rewind-sound/assets/glass.mp3",
+                  "source": "https://bigsoundbank.com/glass-burst-s0148.html",
+                  "download": "https://bigsoundbank.com/UPLOAD/mp3/0148.mp3?v=d",
+                  "license": "CC0 1.0",
+                  "author": "Joseph SARDIN",
+                  "sha256": "66bcf644db2da6a2768db62b0698d7d03cca405b3438ead74bbf8016007030aa"
+                },
+                {
+                  "name": "seatbelt",
+                  "file": "/tmp/ytv-rewind-sound/assets/seatbelt.mp3",
+                  "source": "https://bigsoundbank.com/click-seatbelt-s0656.html",
+                  "download": "https://bigsoundbank.com/UPLOAD/mp3/0656.mp3?v=d",
+                  "license": "CC0 1.0",
+                  "author": "Joseph SARDIN",
+                  "sha256": "3c4cbb03a031d137946902ce1c8281122c3e6c7441e1e15f7922b35d4cfbf169"
+                },
+                {
+                  "name": "cough",
+                  "file": "/tmp/ytv-rewind-sound/assets/cough.mp3",
+                  "source": "https://bigsoundbank.com/man-cough-s0488.html",
+                  "download": "https://bigsoundbank.com/UPLOAD/mp3/0488.mp3?v=d",
+                  "license": "CC0 1.0",
+                  "author": "Joseph SARDIN",
+                  "sha256": "0be2ac86803c65853612499b2ecc5c9f3cee626a98d47ccd729334be0cda41a6"
+                },
+                {
+                  "name": "splash",
+                  "file": "/tmp/ytv-rewind-sound/assets/splash.mp3",
+                  "source": "https://bigsoundbank.com/splash-big-1-s1519.html",
+                  "download": "https://bigsoundbank.com/UPLOAD/mp3/1519.mp3?v=d",
+                  "license": "CC0 1.0",
+                  "author": "Joseph SARDIN",
+                  "sha256": "17b3b966bca3129077fb1d2be72c9ce60aaa32327ef1168b74016335aa460cf1"
+                }
+              ]
+            },
+            {
+              "path": "Sound Design V4/provenance/desire-sound-v6_BIGSOUNDBANK_SOURCES.json",
+              "record": [
+                {
+                  "title": "Kiss #1",
+                  "author": "Joseph SARDIN",
+                  "source": "https://bigsoundbank.com/kiss-1-s2196.html",
+                  "download": "https://bigsoundbank.com/UPLOAD/mp3/2196.mp3",
+                  "license": "CC0",
+                  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+                  "file": "desire-sound-v6/assets/kiss_BigSoundBank_CC0.mp3",
+                  "sha256": "d45adeefb62a4716543c3f1627df34dde5d2bf13eeeed4a17897cd64b3f54e11",
+                  "auditory_verified": false,
+                  "evidence": "desire-sound-v6/assets/kiss_big.html"
+                },
+                {
+                  "title": "Sigh by the Mouth",
+                  "author": "Joseph SARDIN",
+                  "source": "https://bigsoundbank.com/sigh-by-the-mouth-s1405.html",
+                  "download": "https://bigsoundbank.com/UPLOAD/mp3/1405.mp3",
+                  "license": "CC0",
+                  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+                  "file": "desire-sound-v6/assets/sigh_BigSoundBank_CC0.mp3",
+                  "sha256": "b3e96c3bae61554f4b82a1b999e61cf6c6991eb57d522215843e8cba79ac20c2",
+                  "auditory_verified": false,
+                  "evidence": "desire-sound-v6/assets/sigh_big.html"
+                }
+              ]
+            },
+            {
+              "path": "Sound Design V4/provenance/desire-sound-v3_VOCAL_SOURCES_V3.json",
+              "record": [
+                {
+                  "name": "Blowing Out Candle_softer.wav",
+                  "author": "tlcolbe",
+                  "page": "https://freesound.org/people/tlcolbe/sounds/406646/",
+                  "download": "https://cdn.freesound.org/previews/406/406646_6660506-hq.mp3",
+                  "license": "CC0 1.0",
+                  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+                  "file": "desire-sound-v3/assets/blow_soft_CC0.mp3",
+                  "sha256": "e7e30880a56f5d30866a8c26b52837f9c072a0cf32c011014ce7d0ed30cde36f",
+                  "evidence": "blow_soft.html",
+                  "auditory_verified": false
+                },
+                {
+                  "name": "blowing out candle.wav",
+                  "author": "Reitanna",
+                  "page": "https://freesound.org/people/Reitanna/sounds/242867/",
+                  "download": "https://cdn.freesound.org/previews/242/242867_950925-hq.mp3",
+                  "license": "CC0 1.0",
+                  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+                  "file": "desire-sound-v3/assets/blow_short_CC0.mp3",
+                  "sha256": "fbd0713a0d0e83e34531d27991035ac42819e28607c0ba799adff349cb804753",
+                  "evidence": "blow_short.html",
+                  "auditory_verified": false
+                },
+                {
+                  "name": "Voices - male laughter - mild chuckles.wav",
+                  "author": "jodybruchon",
+                  "page": "https://freesound.org/people/jodybruchon/sounds/459455/",
+                  "download": "https://cdn.freesound.org/previews/459/459455_7872308-hq.mp3",
+                  "license": "CC0 1.0",
+                  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+                  "file": "desire-sound-v3/assets/chuckle_mild_CC0.mp3",
+                  "sha256": "0098d0af5367129438b8b06bbac90858f8a0b12ae4a0ffc206d4564646b93cb1",
+                  "evidence": "chuckle_mild.html",
+                  "auditory_verified": false
+                },
+                {
+                  "name": "Laugh_male_quiet.wav",
+                  "author": "deleted_user_2104797",
+                  "page": "https://freesound.org/people/deleted_user_2104797/sounds/166141/",
+                  "download": "https://cdn.freesound.org/previews/166/166141_2104797-hq.mp3",
+                  "license": "CC0 1.0",
+                  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+                  "file": "desire-sound-v3/assets/chuckle_quiet_CC0.mp3",
+                  "sha256": "207a4e11ce9866b3d5940ecd47272cbcc6319cb673fe60c5f08b4a6629da5724",
+                  "evidence": "chuckle_quiet.html",
+                  "auditory_verified": false
+                }
+              ]
+            },
+            {
+              "path": "Sound Design V4/provenance/desire-sound-v5_DOOR_SOURCES_V5.json",
+              "record": [
+                {
+                  "name": "Wood Door Slam.wav",
+                  "author": "MootMcnoodles",
+                  "page": "https://freesound.org/people/MootMcnoodles/sounds/444409/",
+                  "download": "https://cdn.freesound.org/previews/444/444409_7231443-hq.mp3",
+                  "license": "CC0 1.0",
+                  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+                  "file": "desire-sound-v5/assets/wood_slam_moot_CC0.mp3",
+                  "sha256": "1de940962e0569dca0448ca9d825ae1c6ab993e9134b3987d5a14b6a87abd42a",
+                  "evidence": "wood_slam_moot.html",
+                  "auditory_verified": false
+                },
+                {
+                  "name": "HandleJiggle",
+                  "author": "Huglex",
+                  "page": "https://freesound.org/people/Huglex/sounds/852543/",
+                  "download": "https://cdn.freesound.org/previews/852/852543_12419669-hq.mp3",
+                  "license": "CC0 1.0",
+                  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+                  "file": "desire-sound-v5/assets/door_handle_CC0.mp3",
+                  "sha256": "350f4d044c966b70100f2dabe6328fa7ac9c23780d4a141e8876c87d9ad55f59",
+                  "evidence": "door_handle.html",
+                  "auditory_verified": false
+                }
+              ]
+            },
+            {
+              "path": "Sound Design V4/provenance/desire-sound-v5_PALM_SOURCE_V5.json",
+              "record": {
+                "name": "Hitting a table",
+                "author": "JoCaFe",
+                "page": "https://freesound.org/people/JoCaFe/sounds/250875/",
+                "download": "https://cdn.freesound.org/previews/250/250875_4608999-hq.mp3",
+                "license": "CC0 1.0",
+                "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+                "file": "desire-sound-v5/assets/palm_table_CC0.mp3",
+                "sha256": "803cbb40c96c6c544216e23756d2bc053712bea7737e45714b74a435e02b81d2",
+                "evidence": "palm_table.html",
+                "auditory_verified": false
+              }
+            },
+            {
+              "path": "Sound Design V4/provenance/desire-sound-v5_chair_fall_SOURCE_V5.json",
+              "record": {
+                "name": "Foldable metal chair falling.wav",
+                "author": "happy_boozer",
+                "page": "https://freesound.org/people/happy_boozer/sounds/411525/",
+                "download": "https://cdn.freesound.org/previews/411/411525_7117788-hq.mp3",
+                "license": "CC0 1.0",
+                "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+                "file": "desire-sound-v5/assets/chair_fall_CC0.mp3",
+                "sha256": "fcbfececac196861d11a4c7374f1109041c7d96107b340783edae49c0adab55c",
+                "evidence": "chair_fall.html",
+                "auditory_verified": false
+              }
+            },
+            {
+              "path": "Sound Design V4/provenance/desire-sound-v2_VOCAL_SOURCES.json",
+              "record": [
+                {
+                  "name": "Man Blowing Candle Out.wav",
+                  "author": "bbrocer",
+                  "page": "https://freesound.org/people/bbrocer/sounds/382667/",
+                  "download": "https://cdn.freesound.org/previews/382/382667_4297074-hq.mp3",
+                  "license": "CC0 1.0",
+                  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+                  "file": "desire-sound-v2/assets/blow_CC0.mp3",
+                  "sha256": "ca2b4a50f61d2a4ebedfc4eacaa5f9ad163e046d21e1f6cb221603ea51e11f96",
+                  "evidence": "blow.html",
+                  "auditory_verified": false
+                },
+                {
+                  "name": "Man chuckling soft laughter",
+                  "author": "beautifuldaymonster1968",
+                  "page": "https://freesound.org/people/beautifuldaymonster1968/sounds/823548/",
+                  "download": "https://cdn.freesound.org/previews/823/823548_340588-hq.mp3",
+                  "license": "CC0 1.0",
+                  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+                  "file": "desire-sound-v2/assets/chuckle_CC0.mp3",
+                  "sha256": "5c2274331e59d04dae8b7ea1ca4d8249ddb2784aaa1dfaa245d5689e2404a018",
+                  "evidence": "chuckle.html",
+                  "auditory_verified": false
+                },
+                {
+                  "name": "Affirmative (3x)",
+                  "author": "DrFortyseven",
+                  "page": "https://freesound.org/people/DrFortyseven/sounds/436109/",
+                  "download": "https://cdn.freesound.org/previews/436/436109_729251-hq.mp3",
+                  "license": "CC0 1.0",
+                  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+                  "file": "desire-sound-v2/assets/hum_CC0.mp3",
+                  "sha256": "1f05d5788db17bcab040595edfd438dd16d7af3d6837dc2e6ff46e81a0f3faff",
+                  "evidence": "hum.html",
+                  "auditory_verified": false
+                },
+                {
+                  "name": "Knock on door",
+                  "author": "jankooiker",
+                  "page": "https://freesound.org/people/jankooiker/sounds/237937/",
+                  "download": "https://cdn.freesound.org/previews/237/237937_1203876-hq.mp3",
+                  "license": "CC0 1.0",
+                  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+                  "file": "desire-sound-v2/assets/knock_CC0.mp3",
+                  "sha256": "c7db25d38af04a635f116bf7b608374002b20c0956048daa56d133882da51e42",
+                  "evidence": "knock.html",
+                  "auditory_verified": false
+                }
+              ]
+            },
+            {
+              "path": "Sound Design V4/provenance/desire-sound-v5_cloth_soft_SOURCE_V5.json",
+              "record": {
+                "name": "Soft Fabric Rustle",
+                "author": "IENBA",
+                "page": "https://freesound.org/people/IENBA/sounds/850705/",
+                "download": "https://cdn.freesound.org/previews/850/850705_9616576-hq.mp3",
+                "license": "CC0 1.0",
+                "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+                "file": "desire-sound-v5/assets/cloth_soft_CC0.mp3",
+                "sha256": "0aa23388a869d45de3b7986d5306d9ce7930e598f2e0fc00b9121f955c48f772",
+                "evidence": "cloth_soft.html",
+                "auditory_verified": false
+              }
+            },
+            {
+              "path": "Sound Design V4/provenance/original_car_crash_SOURCE.json",
+              "record": {
+                "source": "https://freesound.org/people/smmassuda/sounds/136629/",
+                "download": "https://huggingface.co/datasets/Fhrozen/FSD50k/resolve/main/clips/eval/136629.wav",
+                "author": "smmassuda",
+                "license": "CC0 1.0",
+                "note": "FSD50k mirror same FreesoundID; resampled44100Hz vs original48000; described single car crash, not verified documentary capture",
+                "sha256": "be88ecb2f0e2535d419c10eacd196f130fbee977368a646471c070f7bb5eb076",
+                "auditory_verified": false
+              }
+            },
+            {
+              "path": "Sound Design V4/new_sources/SOURCES.json",
+              "record": [
+                {
+                  "name": "gasp_male",
+                  "author": "esperar",
+                  "id": 171942,
+                  "source": "https://freesound.org/people/esperar/sounds/171942/",
+                  "download": "https://cdn.freesound.org/previews/171/171942_377731-hq.mp3",
+                  "license": "CC0",
+                  "license_confirmed": true,
+                  "path": "Sound Design V4/new_sources/gasp_male.mp3",
+                  "sha256": "27ce9472df84d1dc532108b1c7ccfd41b05cb7fb507dae9683dbc35163f77c78",
+                  "format": "Freesound HQ MP3 preview, not original WAV/AIFF",
+                  "listening": "UNVERIFIED"
+                },
+                {
+                  "name": "gasp_group",
+                  "author": "jayfrosting",
+                  "id": 333412,
+                  "source": "https://freesound.org/people/jayfrosting/sounds/333412/",
+                  "download": "https://cdn.freesound.org/previews/333/333412_5884138-hq.mp3",
+                  "license": "CC0",
+                  "license_confirmed": true,
+                  "path": "Sound Design V4/new_sources/gasp_group.mp3",
+                  "sha256": "032c49ca2f3cece3de5ab1e18b5ae5792ca0d58e31733dd059bbad233289a846",
+                  "format": "Freesound HQ MP3 preview, not original WAV/AIFF",
+                  "listening": "UNVERIFIED"
+                },
+                {
+                  "name": "drive_interior",
+                  "author": "jc144940",
+                  "id": 179121,
+                  "source": "https://freesound.org/people/jc144940/sounds/179121/",
+                  "download": "https://cdn.freesound.org/previews/179/179121_2596329-hq.mp3",
+                  "license": "CC0",
+                  "license_confirmed": true,
+                  "path": "Sound Design V4/new_sources/drive_interior.mp3",
+                  "sha256": "472eff93e0a29e43ea83c3554007b38e872114446d962b1d41bdbf455feed317",
+                  "format": "Freesound HQ MP3 preview, not original WAV/AIFF",
+                  "listening": "UNVERIFIED"
+                },
+                {
+                  "name": "skid",
+                  "author": "Sadiquecat",
+                  "id": 737192,
+                  "source": "https://freesound.org/people/Sadiquecat/sounds/737192/",
+                  "download": "https://cdn.freesound.org/previews/737/737192_5287430-hq.mp3",
+                  "license": "CC0",
+                  "license_confirmed": true,
+                  "path": "Sound Design V4/new_sources/skid.mp3",
+                  "sha256": "4782ed9a21c4d9e898d5b212c8967aa7c757fc5af37d46d8eb6963ee13140fc4",
+                  "format": "Freesound HQ MP3 preview, not original WAV/AIFF",
+                  "listening": "UNVERIFIED"
+                },
+                {
+                  "name": "gasp_female",
+                  "author": "slamaxu",
+                  "id": 509883,
+                  "source": "https://freesound.org/people/slamaxu/sounds/509883/",
+                  "download": "https://cdn.freesound.org/previews/509/509883_9238038-hq.mp3",
+                  "license": "CC0",
+                  "license_confirmed": true,
+                  "path": "Sound Design V4/new_sources/gasp_female.mp3",
+                  "sha256": "d49bfabb3789caf19a08fad8bc6df5bce55d5f967d3212e6613f2f4d40654709",
+                  "format": "Freesound HQ MP3 preview",
+                  "listening": "UNVERIFIED"
+                },
+                {
+                  "name": "shore",
+                  "author": "TRP",
+                  "id": 568819,
+                  "source": "https://freesound.org/people/TRP/sounds/568819/",
+                  "download": "https://cdn.freesound.org/previews/568/568819_97550-hq.mp3",
+                  "license": "CC0",
+                  "license_confirmed": true,
+                  "path": "Sound Design V4/new_sources/shore.mp3",
+                  "sha256": "256c55aff55fed78e4ad2c5251f2a5d2ec91ea20b6d729010ee10fc15e1a7a3f",
+                  "format": "Freesound HQ MP3 preview, not original FLAC",
+                  "description": "Small waves lapping onto rocky lake shore; close recording",
+                  "listening": "UNVERIFIED"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "source_records": [
+        {
+          "path": "new_sources/METAL_SOURCES.json",
+          "record": {
+            "name": "metal_vent",
+            "author": "CaptainYulef",
+            "id": 638613,
+            "source": "https://freesound.org/people/CaptainYulef/sounds/638613/",
+            "download": "https://cdn.freesound.org/previews/638/638613_13383190-hq.mp3",
+            "license": "CC0",
+            "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "license_evidence": "Primary Freesound page opened via web tool: Creative Commons0, description: slapped lightly a metal air vent",
+            "description": "Recorded slap on hollow metal air vent; not car roof literal recording, appropriate foley material",
+            "sha256": "b9a029857ef08875c4159a07c192e30b97201d5c303d0ff5a4517d6465fe9f0c",
+            "format": "Freesound HQ MP3 preview",
+            "listening": "UNVERIFIED",
+            "suggested_excerpt": [
+              0,
+              0.6
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "source_records": [
+    {
+      "path": "rewind-v6/new_sources/PAPER_SOURCE.json",
+      "record": {
+        "name": "paper_rustle",
+        "author": "Spaghetto87",
+        "id": 731482,
+        "source": "https://freesound.org/people/Spaghetto87/sounds/731482/",
+        "download": "https://cdn.freesound.org/previews/731/731482_10194618-hq.mp3",
+        "license": "CC0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "description": "Simple soft paper rustle recorded for a radio play; not specifically adhesive sticker peel",
+        "sha256": "d1564340160e71f6f66210d8577b86a4c9a458d8d90b22fbb50233ab2a5a04c0",
+        "format": "Freesound HQ MP3 preview",
+        "listening": "UNVERIFIED"
+      }
+    },
+    {
+      "path": "rewind-v6/new_sources/SIGH_SOURCE.json",
+      "record": {
+        "name": "female_sigh",
+        "author": "morganveilleux",
+        "id": 389992,
+        "source": "https://freesound.org/people/morganveilleux/sounds/389992/",
+        "download": "https://cdn.freesound.org/previews/389/389992_6987210-hq.mp3",
+        "license": "CC0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "description": "female sighs, medium distance; generic sigh, not explicitly labelled bored",
+        "sha256": "0a6a680ffe96a71ef2c4cf38545a6a6ed31d98b5710a0fd4b28a61861ca3e8f1",
+        "format": "Freesound HQ MP3 preview",
+        "listening": "UNVERIFIED"
+      }
+    }
+  ],
+  "verification": "2026-11-17 local bytes and recursive CRC/member hashes. Not new listening or restore render."
+}
