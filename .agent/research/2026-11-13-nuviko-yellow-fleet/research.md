@@ -76,3 +76,24 @@ GitHub remote main HEAD and full recursive tree checked on 2026-11-13; opened an
 ## Production rights and unknowns
 
 Research links are factual sources, not permission to use documentary frames, museum photos, original stamps or recorded voices. No actual PNGs reviewed, no original media copied. Exact illustration, current own-audience demand and AV seam remain UNVERIFIED.
+
+
+---
+
+## r2 expansion evidence for full 05m and 10m scripts (checked 2026-11-17)
+
+The source matrix Y1–Y7 and the original topic selection above are retained. These are sources for **new claims** in 05m and 10m; a named witness is not an invented on-scene narrator. Public-source publication dates are not the dates of events. No actual video audience retention or analytics were obtained.
+
+| ID | Opened source / specific supported addition | Boundaries / narrative use |
+|---|---|---|
+| Y8 | IMarEST, John Barnes (2021-05-14), https://www.imarest.org/resource/the-suez-great-bitter-lake-saga.html — 1973 renewed war; African Glen sunk by Israeli air force while used as Egyptian observation post; 1974 US-led mine/ordnance and wreck clearance | Avoid implying all 14 ships were still intact in 1975; “two of original fourteen” is an exit comparison, not claim fourteen survived undamaged |
+| Y9 | Same IMarEST article, sections “Joining together” and “Winding down the crews” — October 1967 meeting on Melampus, lifeboat sails, football on Port Invercargill; by 1969 gradual reductions and groups of 4–5 vessels for shared watch | No invented dates for each ship pairing or claim that no engines worked at any point |
+| Y10 | Al Jazeera World participant interviews, 2019-11-20, https://www.aljazeera.com/video/al-jazeera-world/2019/11/20/suez-the-yellow-fleet-trapped-by-the-1967-arab-israeli-war — Peter Richmond, 19 in 1967 on Agapenor, recalls war proximity; Uwe Carstens of Nordwind says he kept a silver sailing medal | Paraphrase only; the dialogue of any named sailor is not invented; no direct quote imported into narration |
+| Y11 | IMarEST, 2021-05-14, same URL — Sunday gatherings on Nordwind, film showings on Vasil Levsky, Killara pool; 1968 games, made medals and Egyptian postal recognition of handmade stamp system | Only 10m uses the ship-by-ship amenities; r2 05m uses mail as causal shore link, not a collector price claim |
+| Y12 | IMarEST same URL, conclusion — two German vessels returned under own steam, other vessels towed; obsolescence from container revolution; late-1973 agreement and 1974 clearance | Sources disagree on exact spring/summer 1975 reopening milestone; avoid exact day. “Unusable/unprofitable” refers to collective condition/economics, not proven mechanical diagnosis for each individual ship |
+
+**Demand:** historical videos and articles verify public editorial treatments, not current Nuviko audience interest. The source IMarEST is institutional subject journalism, Al Jazeera interviews are participant testimony, neither is a 2026 comparable CTR/retention measurement. Hypotheses and predicted dropout remain author-only. The available web browse did not yield verified live competitor baseline in this run: `UNVERIFIED`.
+
+**Core fact checks for expanded narration:** 15 trapped in canal, 14 on Great Bitter Lake; first war lasted six days but canal was closed years; original crew replaced and later smaller groups retained watch; 1968 Olympics and stamps preceded renewed 1973 conflict; African Glen was lost in that later war; two powered returns among original fourteen, others towed. No claims of actual football during six-day fighting, a named sailor's secret thoughts, or specific failure in every ship's engine.
+
+**Use and rights:** Source documentation is not a license for photographic prints, film clips, handwritten stamps or voices. New 05m and 10m storyboards not generated and any visual intent must be separately linked to chosen exact EN hash.

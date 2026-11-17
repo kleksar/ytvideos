@@ -1,3 +1,74 @@
+# Yellow Fleet — three-version editorial review (r2, author only)
+
+**State:** EDITORIAL_CANDIDATE_UNREGISTERED. This is an author desk evaluation of exact texts, not a fresh independent first-listener assessment, not `ytv-script-review-v1`, not `awaiting_script_approval`, and not owner approval. Historical r1 review is preserved below solely for the original 02m Short. Baseline: PR #50 at `d3c6c2add8cc0dfde82632af868b6d597d29fb32`. Full texts linked in [README](README.md); shared evidence in [research](research.md).
+
+## Exact version binding
+
+| Target / format | Full English | Full Russian | EN words | SHA-256 EN | SHA-256 RU |
+|---|---|---|---:|---|---|
+| 02m / Short | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | 203 | `717f9f28d5c329bb5b9e29216b6940a103690633e9c2e08aeed9d32ec6bb89a0` | `fe0f0195292bd903a6135a08fbf17c5e71d63014daa1f6869b875aa48cd61b12` |
+| 05m / Long | [EN](variants/05m/script.en.txt) | [RU](variants/05m/script.ru.txt) | 693 | `dec5d8b87e5908452e4099d0d0e14f54ad8a14a398b7bef273bc3d43c832c06d` | `4efee906f725ef9dc948377dff85bd5b98b30f2eff53b69e3a3b591d1a08e1a3` |
+| 10m / Long | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | 1501 | `63a76e73f6f29e2beb353c516b668e6eb6606ea4ed2cb7b4278f572d18d27a57` | `0ab236a1ccff06c1366a4850b8a20c9a90c81103cb564beff7e3c16b860c56c9` |
+
+Estimated speech duration only: English 130–160 wpm before pauses means roughly 1.3–1.6 / 4.3–5.3 / 9.4–11.5 minutes, respectively. Nuviko voice speed 1.10× is pinned in its current ChannelSpec, not an excuse to manipulate runtime. Actual TTS, pauses, Shorts length and 10-second Long end screen are UNVERIFIED. Nuviko History currently supports both short and long in its ChannelSpec, but none of these candidates is an authorized production source.
+
+## Three independent story maps
+
+**02m existing 13-paragraph Short (preserved):** S001 football paradox → S002 convoy/war → S003 blockade and fourteen ships → S004 six days versus months → S005 sand nickname → S006 rotating maintenance → S007 Cold War cooperation → S008 association/races → S009 improvised Olympics → S010 stamps and aging → S011 reopening/two self-powered → S012 return/towed vessels → S013 return-to-opening seam. Its main weakness is that the opening's “war zone” may suggest that football occurred during active 1967 fighting; sources show matches later. Existing visuals and text remain unmodified; a new owner-authorized revision would invalidate those scene spans.
+
+**05m 15-paragraph Long:** opening questions and promise (P1) → working convoy and outbreak (P2) → fifteen-versus-fourteen trap (P3) → six days becoming years, sand (P4) → ships require maintenance and replacements (P5–6) → Association on Melampus solves practical support across blocs (P7) → lifeboat sails and Port Invercargill football (P8) → Uwe Carstens and medal in 1968 games (P9) → postage connecting shore (P10) → reduced crews and grouped ships (P11) → danger returns in 1973, African Glen lost (P12) → clearing mines and wrecks (P13) → only Münsterland/Nordwind sail home (P14) → contrasting human community with obsolete ships (P15). **Independent payoff:** why community could survive while most ships could not sail.
+
+**10m 27-paragraph Long:** questions (P1) → ordinary convoy (P2) → mines and division into Timsah / Great Bitter Lake (P3) → stopped voyage with ongoing obligations (P4) → participant Peter Richmond (P5) → days becoming years, yellow sand (P6) → working needs (P7–8) → October 1967 Association (P9) → opposing blocs and incoming relief crews (P10–11) → wooden-net football pitch and lifeboat sails (P12) → dispersed ship amenities (P13) → 1968 Olympics (P14) → Carstens's retained silver medal (P15) → mail system recognized ashore (P16) → maintained machinery and worker reductions (P17–19) → 1973 African Glen sinking and lingering frontier (P20–21) → 1974 mine/wreck clearing (P22) → economic and mechanical costs by 1975 (P23) → two self-powered ships versus towed fleet (P24) → community's limits and aftermath (P25–27). The extra value is practical infrastructure and the second war; the facilities segment P12–P18 risks feeling like a tour before the stakes return.
+
+## Eight editorial criteria, applied to each exact version
+
+Scores are **author judgment** from textual events and observable cited history, never measured CTR, retention or probability. The eighth category, *verified audience demand*, remains UNVERIFIED rather than receiving an invented number. Confidence is **medium** for text clarity and **medium-high** for cited historical claims, **low** for predicted viewer response.
+
+| Criterion (1–10 unless UNVERIFIED) | 02m original | 05m | 10m |
+|---|---|---|---|
+| Interest / significance | **8** — rare eight-year entrapment, strong 2-ship consequence | **8** — same remarkable episode, more clear human cost of waiting | **8** — same historical stakes; length does not create demand |
+| Opening / promise | **7** — football is concrete, but “war zone” risks chronology misread | **8** — asks about six-day war / eight-year wait; concrete football promise before explanation | **8** — three audience questions, then ordinary convoy; main trap reaches P3 without overlong prelude |
+| Causal development / reason to stay | **6** — middle stacks association, Olympics, stamps with limited obstacles | **8** — blocked passage → crew replacement → cooperative logistics → new 1973 threat → reopening | **7** — full mechanisms and 1973 turn, but P12–P18 slows while touring amenities |
+| Payoff / consequences | **8** — two self-powered vs towed; self-contained answer before loop | **9** — community endurance vs unusable fleet, after another war and clearance effort | **8** — same outcome with economic obsolescence; later summary repeats resolved contrast |
+| Angle freshness | **7** — football on trapped cargo ship; already documented in existing video | **7** — specific relationship between crew rotation and improbable community | **7** — broader vessel ecology and 1973 return of conflict, still known historical topic |
+| Visual expressiveness | **8** — cargo deck, sand, races, 2 ships sailing | **8** — association, lifeboat sailing, improvised medal, renewed war, towing | **9** — rich visual locations on distinct ships and maintenance groups; high storyboard cost |
+| Spoken naturalness / clarity | **7** — short functional language, some headline-style jumps | **8** — conversational questions and mostly direct actions; P10 stamps need clear visuals | **8** — causal spoken progression but more names, facilities and explanatory passages |
+| Verified audience interest | **UNVERIFIED** — documentaries exist, no comparable Shorts retention | **UNVERIFIED** — cannot infer 5m demand from historical video existence | **UNVERIFIED** — no measured 10m audience sample or baseline |
+
+**Specific weaknesses/confidence:**
+- **02m:** possible audience confusion from “middle of a war zone” football (actual games after 1967 fighting), list-like P8–P10, and bridge at the end. Textual EN end → start does produce a syntactic follow-on, but echoing the football subject + colon alone is **not** proof of a cold-viewer loop. Long-form is not applicable to this original version. Loop author re-read only; AV seam UNVERIFIED.
+- **05m:** 693 English words could finish under 5 minutes if spoken rapidly. The transition from Uwe's medal to postal stamps can feel like another activity, though P10 makes mail a specific connection to home. There is no invented personal speech. No actual listening or video.
+- **10m:** P12–P18 enumerate shipboard amenities and maintenance, potentially losing attention before the 1973 escalation; P25–27 repeat the ending's contrast after the payoff. Full script nevertheless contains genuine factual expansion, not simple padding. No guaranteed measured length.
+
+## Hard-gate matrix (not averaged into artistic scores)
+
+| Check | 02m | 05m | 10m |
+|---|---|---|---|
+| Complete story and payoff | AUTHOR_PASS (but audience judgment unverified) | AUTHOR_PASS | AUTHOR_PASS |
+| Fact provenance | Existing Y1–Y7; historical inference bounded | Y1–Y12; 1973, Carstens and postal claims sourced | Y1–Y12; additional Richmond, facilities and 1974 cleanup sourced |
+| EN/RU semantic equivalence | AUTHOR_CHECKED, unchanged originals | AUTHOR_CHECKED full pair, no quoted speech invented | AUTHOR_CHECKED full pair, no quoted speech invented |
+| Intro questions → immersion → main hook for documentary Long | N_A (original Short) | AUTHOR_PASS (trap at P3) | AUTHOR_PASS (trap at P3) |
+| Short final→opening natural loop | AUTHOR_WARNING: semantic handoff, chronology risk; no automatic PASS | N_A (Long) | N_A (Long) |
+| Independent first-listener / bilingual reviewer | UNVERIFIED (no fresh independent session receipt) | UNVERIFIED | UNVERIFIED |
+| Actual word-to-voice timing, AV seam and MP4 | UNVERIFIED | UNVERIFIED | UNVERIFIED |
+| Supported current ChannelSpec format | Short: configured, no registered run | Long: configured, no registered run | Long: configured, no registered run |
+| Official ytv script gate / owner approval | UNVERIFIED / NOT APPROVED | UNVERIFIED / NOT APPROVED | UNVERIFIED / NOT APPROVED |
+| Empirical demand / CTR / retention | UNVERIFIED | UNVERIFIED | UNVERIFIED |
+
+## Comparison and recommendation
+
+**02 → 05:** additional value is the real-world reason replacement crews were needed, Melampus mutual-support decision, a named sailor's retained medal, the 1973 loss of a stranded ship, and an explanatory link from clearing the route to the ships' degraded condition. This changes the causal story, not just its length. 02m drop-off risk: P8–P10 is consecutive fun facts. 05m drop-off risk: P9–P10 (medals to post) temporarily slows the route to the next threat.
+
+**05 → 10:** verified extras include Peter Richmond's 1967 recollection, particular shipboard services, maintenance-team handoffs, 1969 grouping and the concrete 1974 clearing project. But P12–P18 adds much activity before the 1973 risk, and P25–P27 slows after the ship-outcome answer. A longer program could work with a strong storyboard; the script itself does not establish why it will retain attention better.
+
+**Author recommendation: 05m** (editorial candidate only): broad enough to explain the actual decisions and human line, short enough to keep 1973 danger and return visible. No alternative gets automatic approval or production. If the independent reviewer rejects 05m, it may choose the old 02m or reject all; reviews must be supplied without these scores or author's verdict, with evidence afterward. Exact hash change requires new review.
+
+**Independent capability blocker:** available GitHub connector gives only Git content and PR metadata; no actual `sessions.independent` / fresh model reviewer receipt or executable `uv run ytv` in this tool scope. Never claim `ytv-script-review-v1`, run ID, lease, pin, `awaiting_script_approval`, approval or TTS by virtue of this Git commit. See [handoff](handoff.md).
+
+---
+
+## Historical r1 review (kept intact for byte-identical 02m only)
+
 # Story-review — The Yellow Fleet r1
 
 **Classification:** AUTHOR-ONLY editorial desk check. This is not original `ytv-script-review-v1`, not independent proof, not accepted production script. No host `sessions.independent` or verified fresh reviewer available in this run.
