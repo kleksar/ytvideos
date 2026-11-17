@@ -19,7 +19,7 @@ CLI и точные outputs/receipts: [task contract](../../../docs/operations/t
 |---|---|---|
 | storyboard | [visual](../../../docs/standards/visual.md) + художественный профиль | Порядок сцен, карта речи, действия, состояния, [листы и привязка видов](../../../docs/standards/visual.md#листы-персонажей-предметов-и-локаций) |
 | scene_image | [visual](../../../docs/standards/visual.md) + exact packet; при `purpose: thumbnail` также [thumbnails](../../../docs/standards/thumbnails.md) и его [QA](../../../docs/standards/thumbnails.md#qa-файла-и-пары) до показа готовой обложки | Реальный image или licensed clip, hashes, provider evidence и review |
-| audio | [audio](../../../docs/standards/audio.md) | Точный полный mix, речь, скорость, права, timing/provenance и проверки |
+| audio | [audio](../../../docs/standards/audio.md) | Полный mix, речь, скорость, права, timing/provenance; проверить музыкальные стыки |
 | subtitles | [audio](../../../docs/standards/audio.md) + канальная типографика | Применимые word map/группы/SRT или проверенное решение `no_speech` |
 | render | [delivery](../../../docs/standards/delivery.md) | MP4/hash, frozen inputs, commands и технический receipt |
 
