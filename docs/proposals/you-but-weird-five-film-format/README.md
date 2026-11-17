@@ -31,7 +31,7 @@ This snapshot does not verify current YouTube video IDs, public/unlisted/private
 ## Questions to settle before any creative migration
 
 1. Is the proposed five-film recommendation cycle desired, or should links follow release order?
-2. What should viewers answer: the episode’s moral choice, a practical alternative, or a prediction? Keep one clear prompt rather than an engagement checklist.
+2. The primary spoken prompt is now a riddle about the next power. Which exact clues and reveal lines work best? Moral questions remain optional written discussion, not a competing spoken prompt.
 3. Where should an answer or brief recap appear in the next release without delaying its hook?
 4. How should a first-time viewer understand an episode without watching the previous one?
 5. Which existing videos may be edited, and which should remain historical originals?

@@ -1,201 +1,148 @@
-# Five-story format proposal: YOUR MOVE
+# Five-story format proposal: GUESS THE NEXT POWER
 
-**2026-11-17. DRAFT / PENDING OWNER CREATIVE APPROVAL. Not a production instruction.**
+**2026-11-17 · DRAFT / PENDING OWNER CREATIVE APPROVAL. No media or publishing changes.**
 
-This file proposes additions around the approved stories. No narration, picture, transition, MP4, public comment or upload was changed. It does not claim that viewers have commented, consented or been selected. The five stories remain separate hypothetical lives, not one character accumulating powers.
+This revision supersedes the previous spoken moral-question / 12–18-second answer-module proposal. The primary game is guessing the next story's premise from a short impossible situation. Moral discussion can remain an optional secondary pinned-comment thread; it must not replace the requested guessing game or create a second spoken CTA.
 
-## Evidence and authority
+## Evidence, not invented agreement
 
-Source conversation reviewed on 2026-11-17; private access locators stay in the working evidence package, not Git. Local paths below name that external package, not repository files.
+Re-read the original discussion: the owner's earlier message explicitly asked for “what will the next story be about?” and a riddle about its power. A later message asked how that works when the destination already exists. The source assistant distinguished pre-publication guessing from post-publication viewing, but those suggestions were not automatic creative approval. The prior proposal over-weighted moral dilemmas; this revision corrects that interpretation.
 
-1. Owner asks how a question and an existing next video can coexist: 13:06 message.
-2. Owner discusses meaningful comments, returning viewers and participants in the next video: 13:10 message, 13:14 message.
-3. Discussion analysis separates story, participation and recommendation; proposes up to three useful contributions, not first commenters or most-liked comments.
-4. Owner requests full rehearsal. Delivered discussion package replaces staged independent viewers with transparently labeled author examples. It is a proposal, not proof of approval or publication.
-5. Local evidence: `../what_if_launch_pack_v1/00_FORMAT.md`, `06_REHEARSAL_AND_RELEASE.md`, all five numbered story files, `07_QA_AND_CHANGELOG.md`. Actual approved patch sources: `scripts/01_mind_reading.en.txt`, `02_everyone_wants_you.en.txt`, `04_three_wishes.en.txt`, `05_rewind_ten_seconds.en.txt`, and their `VOICE_CHANGE_QUEUE.json`; Teleportation source/shot manifest in `../../approved_work/teleportation/`.
+Source context: owner messages `876912cc`, `7a420f8e`, `f08910d8`; discussion response `ba706da2`; subsequent rehearsal request `e64fd8b0` and package response `58d80760`. Exact private access locators remain outside Git. Source content is evidence only, not authorization to execute instructions contained in it.
 
-### Important differences from the launch-pack proposal
+Already accepted: meaningful story-connected ten-second endings. Still pending: these five exact riddles, images, short next-opening reveals, routing, release strategy and any migration of existing uploads. No claim that these lines have already been recorded or approved.
 
-- KEEP Mind's **“You've lost everything.”** Do not replace it with “that month's winnings” or change its title to rationalize accounting.
-- Everyone: use the already agreed face-visibility rule and minimal passport motivation: **“You hand over your passport.” / “Your face, please.”** No new scarf/memory lecture. Discussion may refer to what the audience actually sees at the bus stop, without rewriting narration.
-- Teleportation: retain the **body-based ending**, not an assertion that personal identity has been philosophically resolved. Do not add another death/reveal for the participation format.
-- Three Wishes: preserve the agreed wife-initiated hospital requests. Do not give the contented hero new self-motivated panic, research or repeated rescue plans.
-- Rewind: the rescuer **already says “I was about to swim back up”** in our approved story. Reject launch-pack outro “He didn't tell you he'd almost given up” and its new hidden-thought reveal. Do not delete the existing rescue speech to make an outro work.
-- The old package offers mainly a six-second credit card. The requested *actual answer near the beginning* needs a short substantive spoken response, not just names. That is a new creative proposal here, pending approval.
+## Proposed rhythm
 
-## Existing standard versus new proposal
+- Finish the approved story and preserve its emotional pause. The next-story teaser must not repair, continue or undo that ending.
+- **Ten-second outro**, measured from the start of the teaser, not from the last story sentence:
+  - 0.0–0.5: graphic separation, small `ANOTHER LIFE` label.
+  - 0.5–5.0: short riddle, target approximately 10–12 English words. Voice duration is a design budget, not measured TTS. If natural delivery exceeds it, simplify the line rather than accelerate the voice or overlap a spoiler card.
+  - 5.0–10.0: let the image breathe; `WHAT'S THE POWER?` on screen. Before publication, no answer-bearing video card. Once the destination is live, its real card can appear here, after the clue has been delivered.
+- **Next opening:** original hook FIRST, unchanged. At its first clean sentence boundary, insert a 4–6-second reveal with a short label `LAST CLUE`. Then immediately resume the approved story. It must make sense to a first-time viewer and must not require a recap.
+- No extra spoken moral question, credits roll, request for likes, or 12–18-second answer essay. Optional genuine audience recognition is a tiny visual annotation, not a mandatory second voice module.
+- All times are proposed relative windows. Exact cut points, speech lengths, subtitles and sound ducking require measurement after creative approval. No new recording here.
 
-The principle of a meaningful, story-connected ten-second ending is already accepted. The Mind↔Everyone artistic references remain valid; this file does not revoke that standard. The **new five-video routing, exact replacement bridge copy, spoken questions and substantive early answers** are what require creative approval. Repository main references identified by the documentation agent: editorial section “сюжетный переход к следующему видео”, delivery sections72–76 and PROFILE section27. Historical masters are not automatically migrated.
+## 1. Mind Reading → Everyone Wants You
 
-## Proposed shared structure
+**Story stays:** opponent chooses what you read; “You've lost everything” remains. Do not alter finances or reveal a new power in the poker room.
 
-1. **Original hook and first demonstration unchanged.** No recap before the hook.
-2. Early, at a natural break, **12–18-second answer module** to the preceding episode's question. One short answer, one limit. Keep it visually distinct; no new story information competes with it. No module in episode 01 of the first cycle.
-3. Resume the approved story exactly. No repeated previous-episode plot summary; no philosophical verdict disguised as canon.
-4. Complete the original final line and its pause.
-5. **Separate 5–8-second YOUR MOVE question card**, with the short spoken question below. Longer conditions live in the pinned comment.
-6. **Exactly 10 seconds of recommendation/bridge**, separate from the question, using the proposed EN line below. Last 2–3 seconds allow the image and clickable destination to settle. Actual voice timing must be measured later; do not speed-run copy to fit.
+**Outro EN:**
+> Strangers see your face. Suddenly, nobody wants you to leave. Why?
 
-Question + bridge therefore adds approximately 15–18 seconds after the original ending, not two competing prompts crammed into ten seconds. This is a consequential creative/duration choice for the owner, not already approved. If ten seconds total is a hard cap, keep the question in the pinned comment and a short screen pointer; do not silently remove the requested spoken question.
+**По-русски:** чужое внимание превращается в притяжение. Мы не называем желание и не обещаем любовь. Это намеренно не математически однозначная загадка: гипноз или навязчивое внимание тоже разумные версии.
 
-## Episode 01 — Mind Reading
+**Visual 0–5s:** poker composition closes completely. In a separate cream-background vignette, a lone adult silhouette walks past three adults; their heads turn. No heart eyes, kiss, mirror, bathroom or title of the next video yet. **5–10s:** hold the question and reserved card space. Motion remains subtle, not a literal escape or ability upgrade.
 
-**Immutable core:** approved current-thought power, watch clue, deceptive inner speech, four aces and “You've lost everything”; finish on the opponent choosing what you read. No factual-accounting rewrite.
+**Reveal in Everyone, after its original hook / before the birthday-bar setup (4–6s):**
+> The clue was desire. They don't want you to leave. They want you.
 
-**Incoming answer:** none in the initial launch. No invented previous viewers. A later Rewind discussion is answered in a genuinely new episode, not retroactively in this upload.
+**RU:** разгадка короткая, различает влечение и любовь; не раскрывает зеркало. On-screen `DESIRE`, not “you all guessed correctly.” If the existing hook already states the premise, this line is acknowledgement of the previous clue, not a second surprise.
 
-**End question, spoken EN:**
-> How would you test his thoughts before risking everything?
+## 2. Everyone Wants You → Teleportation
 
-**Pinned question EN:**
-> YOUR MOVE: Before the big bet, you can hear his current thoughts but cannot see his cards. How would you test what you hear, and what would your test still fail to prove?
+**Story stays:** “Even you.” Leave the mirror conclusion intact; no escape from the bathroom.
 
-**Transparent creator comment EN:**
-> AUTHOR'S EXAMPLE, not a viewer submission. I'd compare his thoughts with cards revealed in small hands. But he could tell the truth while the stakes are low. A successful test wouldn't justify risking everything. What would you change?
+**Outro EN:**
+> One step: your apartment. The next: another continent. What's missing?
 
-**Actual substantive answer to carry into episode 02, author version EN:**
-> My answer to the mind-reading question: small bets can test a pattern, not guarantee the next hand. A loss limit protects your money, not your ability to detect a lie.
+**По-русски:** пропущен сам путь. Можно угадать телепортацию, мгновенное перемещение или портал; не дисквалифицировать близкую разумную догадку.
 
-Label **AUTHOR'S ANSWER**. This is a real answer by the author to the prompt, not a claim that the public has supplied it.
+**Visual:** after a clear separation, two independent footprints: apartment floor and distant sand, divided by a very simple ocean line. No protagonist vanishing out of the mirror. No bodies, duplicate phones, mother or closed-door reveal.
 
-**10-second bridge to Everyone, EN:**
-> You wanted to know what people wanted. In another story, everyone wants you. How do you say no?
+**Reveal in Teleportation, after its original hook / before the first demonstration (4–5s):**
+> The missing part was the journey. This time, you can teleport.
 
-**Visual/action:** after opponent's final line and separate question, poker-table composition clears; a distinct bar tableau appears with adult admirers and an empty destination-card area. No literal teleportation or new power for the poker hero. No mirror spoiler.
+**RU:** ответ про способность, не про механизм копирования. Label `TELEPORTATION`.
 
-## Episode 02 — Everyone Wants You
+## 3. Teleportation → Three Wishes
 
-**Immutable core:** current approved story and Alone pause; only the previously agreed face/passport corrections. No added scarf-memory explanation or new pursuit rules. Keep “Even you.”
+**Story stays:** the body embraced yesterday is behind the door. Do not resolve personal identity or show resurrection.
 
-**Incoming Mind answer:** use the exact author-answer paragraph above after the first bar demonstration, before the crowd escalates. Header `PREVIOUS QUESTION · AUTHOR'S ANSWER`; small comparison of cards/coin-limit, not fabricated comments. Answer text speaks while story action pauses, then return clearly to the bar.
+**Outro EN:**
+> Say what you want. Reality obeys. Two chances remain. What happened?
 
-**End question EN:**
-> Your face is hidden. They're still following. What's your next move?
+**По-русски:** исполнена первая из трёх просьб. Подсказка лёгкая и конкретная, но слова wish, genie и название не звучат.
 
-**Pinned question EN:**
-> YOUR MOVE: At the bus stop, new passersby ignore your covered face, but someone from the bar recognizes your jacket. You don't yet know about the mirror. What would you do next, and where could your plan fail?
+**Visual:** neutral chapter break; three plain marks become two as a mundane empty cup fills. This is an illustrative clue in a separate life, not a new event in the mother's room. No wishes app shown to the teleporting character, no restoration of the previous body, no hospital spoiler.
 
-**Creator comment EN:**
-> AUTHOR'S EXAMPLE, not a viewer submission. I'd keep my face covered and try to break their line of sight before seeking help. That doesn't guarantee escape; they are already following me. What would you do without showing your face again?
+**Reveal in Three Wishes, after its original hook / before its first app scene (4–5s):**
+> Three wishes. One used, two left. That's what the clue meant.
 
-**Answer to carry into Teleportation, EN:**
-> My answer to the chase: keep your face covered and break their line of sight. That avoids attracting someone new, but it doesn't guarantee you've lost the people behind you.
+**RU:** раскрываем только тему, не второе желание и не трагедию. Label `THREE WISHES`.
 
-This draws on visible events; it does not claim voice recognition, a memory-erasing ability, or a guaranteed real-world escape tactic.
+## 4. Three Wishes → Rewind Ten Seconds
 
-**10-second bridge to Teleportation, EN:**
-> Here, you couldn't get away. In another story, you can go anywhere in an instant. What could possibly go wrong?
+**Story stays:** contentment without desire; wife-led hospital requests; final unused wish. The second wish remains exactly “I want to always be happy. So that I never want anything ever again.” No new initiative or distress is assigned to the contented hero.
 
-**Visual/action:** mirror story ends first; transition to a clearly separate beach/Paris visual from Teleportation, no escaping directly out of the bathroom. Hold one real next-video card. Do not reveal the bodies or use “who opens them?” as an unnecessary early identity hint.
+**Outro EN:**
+> The mistake never happened. Only you remember it. What changed?
 
-## Episode 03 — Teleportation
+**По-русски:** реальность откатилась, память осталась. Это намёк на возврат времени, не на стирание чужой памяти; точный десятисекундный предел раскрывается уже в следующем ролике.
 
-**Immutable core:** all approved story beats, phone continuity, copying discovery and ending about the body she embraced yesterday. No replacement with an absolute verdict that the protagonist is or isn't her son.
+**Visual:** independent sketch of a fallen pencil returning beside a cup, with a clock hand slipping back slightly. No app power menu, underwater car, rescuer or suggestion the wife can now be saved by rewinding.
 
-**Incoming Everyone answer:** paragraph above after the initial teleport demonstration, before travel montage. No reprise of the mirror twist. `PREVIOUS QUESTION · AUTHOR'S ANSWER` on a simple path/covered-face diagram.
+**Reveal in Rewind, after its original hook / before “It's morning” (4–6s):**
+> Time went back. Your memory didn't. This time, you get ten seconds.
 
-**End question EN:**
-> Your mother doesn't know. What would you tell her?
+**RU:** даём понятную разгадку и предел способности, но не разжёвываем правило намеренной команды раньше его штатного места. Label `TEN SECONDS BACK`.
 
-**Pinned question EN:**
-> YOUR MOVE: You've seen the recording and found the previous bodies. Your mother knows none of this. Would you tell her, and how would you explain who is standing in front of her? Explain the cost of your choice.
+## 5. Rewind → Mind Reading
 
-**Creator comment EN:**
-> AUTHOR'S EXAMPLE, not a viewer submission. I'd say, “I remember our life, but something happened that I need to show you.” I wouldn't decide the identity question for her. Even careful honesty could hurt. Is staying silent kinder, or just easier for me?
+**Story stays:** broken phone remains broken; original rescuer speech remains. Do not invent “he didn't tell you he'd almost given up”: he already says he was about to swim back up. No new thought bubble on the rescuer.
 
-**Answer to carry into Three Wishes, EN:**
-> My answer: tell her what happened, without claiming the identity question is settled. Shared memories matter. So does her chance to decide what the truth means to her.
+**Outro EN:**
+> Nobody speaks. You still hear what they never said. How?
 
-This is an author's ethical position, not the unique correct solution. A contrary genuine contribution may be more interesting and should receive a fair hearing.
+**По-русски:** слышны не произнесённые мысли. Это лёгкая самостоятельная загадка для новых зрителей; в замкнутом каталоге это не предсказание ещё не вышедшего выпуска.
 
-**10-second bridge to Three Wishes, EN:**
-> Some consequences can't be escaped. In another story, you get three wishes. What would you ask for first?
+**Visual:** shore scene closes. Independent silent cafe faces, with a small unsaid-word mark near one head; no transcript of the rescuer, no poker deception clue or watch reveal. Final five seconds can offer the actual existing Mind video.
 
-**Visual/action:** allow the body-ending image to land; separate question; then an independent close shot of the three-star wishes app. No resurrection, undo button or transfer of power implied.
+**Reveal in a separately approved revised Mind edition, after its hook / before “First morning” (4–5s):**
+> They never said it. They only thought it. You can read minds.
 
-## Episode 04 — Three Wishes
+**RU:** никакого утверждения, что старый опубликованный Mind уже содержит этот ответ. During the first chronological pilot Mind has no incoming reveal. Rewind's outgoing clue can point to that original video, whose hook already answers it. A custom opening acknowledgement requires a separately approved future edition; no reupload is assumed.
 
-**Immutable core:** approved wish wording, wealth/discontent, contentment without desire, wife-led requests, final unspent wish. No new rescue loophole or self-initiated distress after the second wish.
+## Before and after the destination is published
 
-**Incoming Teleportation answer:** paragraph above after the first wish is demonstrably fulfilled, before wealthy-life montage. Neutral identity/evidence illustration; do not put a body image in this story as if causally connected.
+### Phase A: genuinely unreleased next story
 
-**End question EN:**
-> Before the second wish, what would you ask for instead?
+The riddle is a real prediction game. Do not expose the answer in the rendered outro, description, chapter labels, thumbnail, pinned comment, premature playlist entry or answer-bearing destination element. Do not pretend those surfaces are technically impossible to discover: this is an editorial precaution, not secrecy guaranteed by YouTube.
 
-**Pinned question EN:**
-> YOUR MOVE: You already have the money, but have not made your second wish. The original wording is: “I want to always be happy. So that I never want anything ever again.” What would you ask for instead, and what limitation would you accept? Choosing not to make another wish is allowed.
+Keep the destination card slot visually neutral. No fake “watch now” button or promise of a release date. If another already available video is recommended, clearly label it `ANOTHER STORY`, not the solution. The cleanest guessing pilot omits a competing recommendation during the riddle.
 
-**Creator comment EN:**
-> AUTHOR'S EXAMPLE, not a viewer submission. I'd ask to cope better with difficulties while keeping my ability to love, want things and change my mind. That wouldn't make life painless. Would you accept that trade, or leave your feelings alone?
+**Pinned EN:**
+> NEXT CLUE: What power is hidden in the final seconds? Name it and tell us which detail convinced you. Different readings are welcome. We may highlight a few thoughtful explanations after the reveal.
 
-**Answer to carry into Rewind, EN:**
-> My answer: relief without losing the ability to care or choose. It isn't a perfect shield against pain. Leaving the second wish unused is also a valid choice.
+No first-comment race, prizes, invented deadlines or guaranteed screen time.
 
-This is a proposed alternative before the wish, not a statement that the app is proven to implement that wording safely. Do not retrofit it into the approved plot.
+### Phase B: destination publicly available and verified
 
-**10-second bridge to Rewind, EN:**
-> What if, instead of changing what you wanted, you could undo your last ten seconds? Would you ever stop?
+The thumbnail/title can reveal the answer. Accept the tradeoff: the ending becomes a **micro-riddle followed by an invitation to watch**, not a competition to predict an unknown release. Place the real card only after the short spoken clue, nominally at outro +5s. Verify its timing in actual Studio; do not promise an unsupported sub-five-second card trick.
 
-**Visual/action:** finish hospital/final-wish story and question; separate intact phone at table edge from Rewind, subtle ten-second clock motif, no underwater/rescuer spoiler. No menu offering the wish hero another power.
+Update the pinned comment with `REVEALED: [power]. The story is here: [verified URL].` Genuine chosen explanations may be acknowledged if they exist; invented author examples must be labelled. No need to alter the MP4 just to update the end-screen destination or pin.
 
-## Episode 05 — Rewind Ten Seconds
+YouTube documents editable end-screen elements in the last 5–20 seconds and custom timing: [official YouTube Help](https://support.google.com/youtube/answer/6388789?hl=en). Our “title/thumbnail spoils the answer” conclusion is an editorial inference, not a platform guarantee that every viewer will see every element. End screens can be unavailable or hidden in some viewing contexts; no essential story conclusion may depend on one.
 
-**Immutable core:** approved deliberate-command rule and timing clarifications, rescuing hand, broken-phone rhyme and original rescue speech. Preserve “I was about to swim back up.” Keep the final choice not to rewind.
+### Phase C: all five stories already available
 
-**Incoming Wishes answer:** paragraph above after first phone rewind and failed immediate retry, before job-interview montage. Do not interrupt explanation of the ten-second boundary. `PREVIOUS QUESTION · AUTHOR'S ANSWER`.
+Use the same riddles as elegant route transitions, not a fabricated upcoming-release contest. Existing titles, channel pages, playlists and prior viewing may give everything away. Do not hide or rename good public titles merely to manufacture mystery. No claim that commenters guessed before release without checking timestamps.
 
-**End question EN:**
-> After twenty failed loops, what would you change to learn something new?
+Preferred route remains **Mind → Everyone → Teleportation → Three Wishes → Rewind → Mind**, pending owner approval. It is a viewing cycle, not a time loop of audience responses. The original Mind cannot contain future Rewind guesses. Real responses can be acknowledged in pins or a genuinely later new episode; any revised edition is a separate decision.
 
-**Pinned question EN:**
-> YOUR MOVE: Inside this fictional ten-second loop, before you recognize the rescuer, you have already failed twenty times. What would you observe differently on the next attempt? This is a story question, not real-world underwater escape advice.
+## Opening-answer choices and honesty
 
-**Creator comment EN:**
-> AUTHOR'S EXAMPLE, not a viewer submission. I'd use one attempt to watch the shadow and match its movement to the knock on the roof. That may reveal something the repeated struggle missed. What would you look for?
+The original hook often reveals the power already. Therefore the short `LAST CLUE` module explicitly connects clue to answer; it is not staged as a delayed shocking reveal. To avoid repetition, test the 4–6-second module against simply letting the hook answer the riddle. The owner's requested explicit answer is the proposed default here, pending approval.
 
-**Answer reserved for episode 06 or pinned follow-up, EN:**
-> My answer: change the experiment, not just the effort. Watch the shadow and the roof strike together. That might reveal help you kept ignoring; it doesn't guarantee a rescue.
+Do not insert names unless there are real relevant contributions and permission for their display. Author examples remain clearly labelled, with no fake accounts, likes or invented independent viewers. No useful comments means no winner panel; it does not block the next story. Keep moral dilemmas optional in a separate thread, not in the spoken riddle or reveal.
 
-There is no existing episode 06 to name or schedule. Do not promise this appears in the already published first story. Until a new episode exists, post a transparent author's written follow-up only after approval; preserve the audio slot for a future genuine response.
+## QA / pending gates
 
-**10-second bridge back to Mind, EN:**
-> You learned when not to rewind. What if you could hear people's thoughts instead? Could someone still fool you?
-
-**Visual/action:** broken phone remains broken; independent poker-table teaser opens beside next-video card. No “he hid that he almost gave up,” no new thought bubble assigned to the rescuer, no new power acquired on shore.
-
-## Shared pinned-comment footer (draft EN)
-
-> Suggest a plan and name its weak point, or improve another idea. Discuss the idea, not the person. We may discuss useful contributions in a future new episode, with permission before displaying a handle or quote. Likes, subscriptions and posting first do not affect selection. Creator examples are labeled. Spoilers for this episode below.
-
-Do not add fabricated deadlines. An editorial selection date may be inserted only when an actual next-edit deadline exists. No prize, ranking, invented likes or guarantees of screen time.
-
-## How genuine viewer answers replace the author demonstration
-
-The five author answers above are usable transparent demonstrations, not pretend audience results. Once comments really exist:
-
-1. Save actual video URL, comment permalink/ID, exact text, date, proposed excerpt and reason for inclusion. Distinguish proposal, objection and improvement; two opposing ethical positions are valid in Teleportation.
-2. Ask permission for the specific handle/quote display. No response is not permission. Do not invent handles or copy screenshot UI with fake likes.
-3. Draft the spoken response **to what the person actually wrote**. No filled fictional “you said” templates today. Explain one real strength and one real limitation, or explain why an objection changes the author's position.
-4. Keep the answer module short and return to the current story. Full exchange and sources remain in the preceding pinned thread. Do not squeeze three lengthy quotes into a six-second card.
-5. If there is no useful real contribution, use the clearly labeled author answer or omit the module. Never manufacture a winner.
-
-## Publication / viewing / response order
-
-**Viewing route:** Mind → Everyone → Teleportation → Three Wishes → Rewind → Mind.
-
-**New publication sequence for this pilot:** same order. Existing uploads need not be deleted, hidden or replaced for this proposal. Their current state must be checked separately before any publishing action.
-
-- Publish 01 with approved question and creator example. No phantom link to an unavailable new02.
-- Collect actual responses. Freeze the small answer module for02 last, then publish02. Only now link01's end screen to this actual02.
-- Repeat02→03,03→04,04→05. Story production can proceed ahead of the discussion; only the small answer module waits.
-- Link05 to the existing correct01. Responses to05 go into an approved written follow-up and the next genuinely new episode, not retroactively into01.
-- If the next video is already locked/published, the participation acknowledgment moves to a future new episode. Public copy says “a future new episode,” never an unconditional “the next video.”
-
-## Owner decisions / pending gates
-
-- Approve or revise exact five questions, creator comments, substantive answer paragraphs and bridges. None is creatively approved by this document.
-- Approve extra 5–8-second question window plus10-second bridge and early12–18-second answer module. These change runtime and require retiming/SRT later.
-- Decide whether existing uploads stay unchanged while this format begins with the next new episode, or whether separately approved replacement editions are wanted. No reupload assumed.
-- Voice recording permission for any new format text, visual-production plan and exact measured timing are pending. Existing speech edits have their own queue/status; this proposal does not override it.
-- Actual audience contributions, consents, publication URLs, schedule and metrics remain empty. No fabricated “real answer” or claimed audience validation.
-- After approval: produce isolated answer/question/bridge assets, preserve all old masters, verify readable text, narration/SFX balance, storyline continuity and real destination before attaching to any final video.
+1. Approve exact five riddles, reveal lines and proposed route. Short word counts are approximate; punctuation and voice delivery affect duration.
+2. Confirm whether the pilot uses only new uploads or separately approved revised editions. No current master changes under this document.
+3. Verify the teaser cannot be mistaken for a continuation that rescues the previous hero or combines powers.
+4. Before release, audit title/thumb/card/pin/playlist for accidental early reveal. After release, openly switch from prediction to recommendation.
+5. Measure natural voice timing before assigning the card at +5s; if needed shorten wording, not the story pause. Keep approved voice speed and mix standard.
+6. Check the next opening: hook remains first, answer short, no twist spoilers, no fabricated participation, story resumes cleanly.
+7. Record actual URLs, timestamps and approved audience credits only when they exist. No current upload status is established by this proposal.
+8. This remains documentation only: no TTS, MP4, end screens, comments, visibility settings or uploads changed.
