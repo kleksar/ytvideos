@@ -136,13 +136,13 @@ The approved PNG templates do not prove that all five MP4 endings have been rebu
 Three Wishes discussion source (retain exact wording unless explicitly revised):
 > You’ve received the money, but haven’t made your second wish. What would you ask for instead of permanent happiness—and what limit would you accept?
 
-For the other stories use their existing approved source-package discussion questions, not newly invented replacements. The Everyone visual rehearsal is an implementation example under review, not a selected final artifact by virtue of this document. A finished delivery requires the actual story/pause/black/discussion/ten-second previous-card/ten-second next-story-riddle sequence, subtitle timings, image/source provenance, full decode and honest visual/audio QA for the exact exported file. No media changes or new voice generation are performed by this documentation commit.
+For the other stories use their existing approved source-package discussion questions, not newly invented replacements. Everyone now uses the owner-approved statement-only v4 card; exact asset/hash and its narrowly scoped voice/SRT wording are recorded in the [discussion passport](../../reference-packs/ybw-your-move/README.md#everyone-derivative-approved-statement-only-v4). This does not shorten any other film's question. A finished delivery requires the actual story/pause/black/discussion/ten-second previous-card/ten-second next-story-riddle sequence, subtitle timings, image/source provenance, full decode and honest visual/audio QA for the exact exported file. No media changes or new voice generation are performed by this documentation commit.
 
 
 ## Exact completed-story discussion questions
 
 - Mind: How would you test your opponent's thoughts before making a big bet—and what could your test still fail to prove?
-- Everyone: Your face is covered, but the people who already saw it are still following. What's your next move—and where could it fail?
+- Everyone (explicit statement-only exception): Your face is covered, but the people who already saw it are still following. Spoken lead-in only: “Your turn.” The two follow-up questions are absent from image, voice and SRT.
 - Teleportation: You've discovered the copies. Your mom doesn't know. Would you tell her—and how would you explain who is standing in front of her?
 - Three Wishes: You've received the money, but haven't made your second wish. What would you ask for instead of permanent happiness—and what limit would you accept?
 - Rewind: After twenty failed loops, what's one thing you'd change on the next attempt to learn something new?
