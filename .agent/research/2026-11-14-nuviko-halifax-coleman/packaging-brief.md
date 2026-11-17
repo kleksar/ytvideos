@@ -9,3 +9,7 @@ Text-only, no thumbnail/media generated, no claim of CTR improvement. Current ve
 | H3 | **The Message That Brought Help to Halifax** | 1917 relief steam train with responders boarding and small telegraph key in coherent station setting. No invented city-on-fire rescue photo. | S001–S008 warning; S012–S013 railway response and six relief trains |
 
 Audience hypothesis: English historical Shorts users; actual age, region, author baseline and retention **UNVERIFIED**. Tone is sober, not celebratory disaster spectacle. Each proposed AI composition needs real source-reference checking and full-card QA once authorized; title and image should not state “saved 300 passengers.” Immediate first proof comes from S001/first image, separate full payoff in S012–S013. No generated image, exact crop, Studio analytics, upload or approved thumbnail in this PR.
+
+## 2026-11-17 — variants packaging boundary
+
+Исходный thumbnail/Short scene map действителен только для original/02m. Для 05m Long предложена композиция с телеграфным ключом, горящим кораблём и рельсами, без ложного обещания «спас 300 пассажиров». Для 10m можно дополнить архивными музейными вещами и последствиями для семьи, но только после выбора master и нового storyboard. Ни один thumbnail/CTR/AV seam не проверен, AI images не генерировались.

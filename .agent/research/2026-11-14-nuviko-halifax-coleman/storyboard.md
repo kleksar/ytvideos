@@ -1,3 +1,5 @@
+> **2026-11-17 version binding:** S001–S014 exact spans, visual intent and estimated timings apply only to original EN blob fb002ba7324f5d3a8de3e826b621def21d4e104a and RU blob 4b83103056ad7901f1a949f7bcf1608d7b349815 (identical to 02m). They DO NOT apply to 05m/10m. Any selected Long requires new text-grounded storyboard, spans and timing after owner choice. Measured TTS and AV seam UNVERIFIED.
+
 # Preliminary storyboard — Nuviko History / Halifax
 
 Only editorial compositions, **not actual production / not measured times**. 14 S-scenes, each initial composition target 4–6 seconds, may need subdivision after real recorded word timings. Exact English/Russian narration spans correspond to the two masters. Whole-frame pan/zoom and direct cuts only. The Nuviko 2D traveler is optional and omitted in these frames; all depicted human figures and backgrounds are photoreal historical reconstruction. If the traveler is subsequently required, independently open and verify two accepted actual PNG references before producing it.

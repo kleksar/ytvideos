@@ -20,3 +20,7 @@ EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официал
 ## Verified blockers in current host
 
 The connected GitHub tool reads/writes Git objects and pull requests but does not provide executing repository checkout/`uv run ytv` for official run, and there is no detected actual `sessions.independent` reviewer or approved independent substitute. These missing capabilities prevent the canonical script gate. Independent reviews, plan, receipts and AV verification are NOT silently fabricated. No local or paid generation occurred.
+
+## 2026-11-17 — durations handoff
+
+Baseline HEAD 0787314bd150d8f1ba363e3c416110ca5e34913f; first source-only variants commit 7d3094de4b64eeca49991633974198a1a834cf0a. Оригинальные EN/RU и S001–S014 остаются байтово неизменными. Все шесть EN/RU в variants, их SHA-256 — в [story-review](story-review.md). Редакционно рекомендована 05m Long (ChannelSpec поддерживает формат), но независимый reviewer, pin task packet, официальный run/approval, measured TTS, production Long storyboard и MP4 UNVERIFIED. Перенос только через локальный реальный ytv start, actual attach-artifact IDs и independent review exact hash, затем один owner-approved master; не применять старые Short scene spans к Long. Не запускать медиа и публикацию.

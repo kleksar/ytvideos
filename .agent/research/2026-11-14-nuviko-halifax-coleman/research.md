@@ -51,3 +51,7 @@ Not all ten received full source verification; **only finalists** advanced to or
 2. No fake dialogue or invented internal thoughts. Only real opening quote `Hold up the train` attested (full telegraph has several historical variants).
 3. Distinct verified later effect and exact uncertainty, not repeated paragraphs describing the explosion.
 4. Complete RU preserves estimate ~2000, 9:05, one-hour follow-up, six trains and disputed passenger fate. EN is independently idiomatic, not a translation artifact.
+
+## 2026-11-17 — additional sources for Long variants
+
+F1 [Maritime Museum full article](https://maritimemuseum.novascotia.ca/stories/vincent-coleman-and-halifax-explosion): сведения о доме/офисе, поезде №10, расхождении 1917 интервью и газеты, шести поездах после нового запроса, шторме, восстановлении рельсов и судьбе семьи. F2 [Government Nova Scotia 2004-12-02](https://news.novascotia.ca/en/2004/12/02/ns-artifacts-hero-halifax-explosion) подтверждает подлинные ключ/часы и помощь. F6 [Nova Scotia Museum overview](https://museum.novascotia.ca/stories/explosion-narrows-1917-halifax-harbour-explosion), прочитано 2026-11-17, дата публикации не установлена: столкновение Imo/Mont-Blanc, обрывы связи, шесть поездов и местные спасатели. Long versions сохраняют спор поезда No.10, приблизительную смертность и отдельную причинность позднего запроса. Источники не позволяют назвать точное число спасённых лично Коулманом. Зрительский спрос и retention UNVERIFIED. Новые claim maps в [story-review](story-review.md).
