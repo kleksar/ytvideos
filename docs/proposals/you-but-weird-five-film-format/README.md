@@ -1,12 +1,12 @@
 # You But Weird: five-film format discussion
 
-Status: **PENDING_OWNER_DECISION**. This is a discussion snapshot, not a production standard, approval, or instruction to edit/upload existing videos. No channel profile, pinned run, narration, media, or YouTube setting is changed by this document. Draft PR only; do not merge creative proposals as approved policy.
+Status: **OWNER-APPROVED FORMAT, scoped to final GUESS THE NEXT POWER revision.** The five riddles, route, short post-hook reveals, timing budgets and phased destination-card strategy are approved. No media or YouTube setting changed here. Superseded moral-answer modules and retrospective reuploads are not approved by this record.
 
 ## Observed package versus proposed chain
 
 Snapshot: 2026-11-17. The package coordinator reported the current endings below; Mind was additionally inspected directly from its exact full master. An embedded visual recommendation is not a clickable YouTube end-screen element and does not establish destination availability.
 
-| Film | Current assembled ending | Proposed package destination, not approved |
+| Film | Current assembled ending | Approved route target, not yet verified as embedded |
 |---|---|---|
 | Mind Reading | Story ends with opponent at door: “I CHOOSE WHAT YOU READ.” No embedded cross-video ending. | Everyone Wants You |
 | Everyone Wants You | Story ending retained; separate Everyone→Mind test not incorporated. | Teleportation |
@@ -14,7 +14,7 @@ Snapshot: 2026-11-17. The package coordinator reported the current endings below
 | Three Wishes | Existing reference ending points to Rewind. | Rewind |
 | Rewind | Existing reference ending points to Mind. | Mind Reading |
 
-Candidate cycle: **Mind → Everyone → Teleportation → Wishes → Rewind → Mind**. This is an editorial proposal, not a claim that all five links already exist. Do not confuse this recommendation cycle with chronological release order or a promise that answers to viewer comments already exist in later episodes.
+Candidate cycle: **Mind → Everyone → Teleportation → Wishes → Rewind → Mind**. This is the approved viewing route, not a claim that all five links already exist. Do not confuse this recommendation cycle with chronological release order or a promise that answers to viewer comments already exist in later episodes.
 
 ### Mind exact-file evidence
 
@@ -36,11 +36,11 @@ This snapshot does not verify current YouTube video IDs, public/unlisted/private
 4. How should a first-time viewer understand an episode without watching the previous one?
 5. Which existing videos may be edited, and which should remain historical originals?
 
-The [format proposal](FORMAT_PROPOSAL.md) accompanies this factual snapshot. Specific bridge text, question wording, durations and opening reply examples remain unapproved until the owner decides. Do not fabricate audience comments or results: any invented demonstration must be explicitly labelled **author-written example, not a real viewer comment**. Never imply a real user submitted an example, and do not promise a future response that has no committed delivery plan.
+The [format proposal](FORMAT_PROPOSAL.md) accompanies this factual snapshot. The final riddle/reveal wording and timing budgets are approved; actual audio duration and production QA remain unmeasured. Do not fabricate audience comments or results: any invented demonstration must be explicitly labelled **author-written example, not a real viewer comment**. Never imply a real user submitted an example, and do not promise a future response that has no committed delivery plan.
 
 ## Existing owners stay authoritative
 
-Implementation, if separately approved, must use the existing [editorial](../../standards/editorial.md), [delivery](../../standards/delivery.md), [release](../../standards/release.md), and [migration](../../migration.md) owners. This proposal is intentionally outside normal production reading paths and does not duplicate or replace their procedures.
+Implementation, if separately approved, must use the existing [editorial](../../standards/editorial.md), [delivery](../../standards/delivery.md), [release](../../standards/release.md), and [migration](../../migration.md) owners. The approved format is now linked from editorial production guidance; this evidence and exact-copy document does not replace workflow or release procedures.
 
 ## Confirmed sound-library policy (FACT, separate from creative proposal)
 

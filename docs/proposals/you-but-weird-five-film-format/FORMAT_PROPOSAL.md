@@ -1,6 +1,8 @@
 # Five-story format proposal: GUESS THE NEXT POWER
 
-**2026-11-17 · DRAFT / PENDING OWNER CREATIVE APPROVAL. No media or publishing changes.**
+**2026-11-17: OWNER-APPROVED FORMAT. No media or publishing changes performed by this documentation update.**
+
+Approval scope: the owner approved the five final GUESS THE NEXT POWER riddles, their route, short reveal after the original hook, approximate ten-second outro / four-to-six-second reveal budgets, and before/after-release card strategy. Approval does not cover the superseded moral-answer module, retrospective reuploads, invented audience contributions, or unapproved SFX.
 
 This revision supersedes the previous spoken moral-question / 12–18-second answer-module proposal. The primary game is guessing the next story's premise from a short impossible situation. Moral discussion can remain an optional secondary pinned-comment thread; it must not replace the requested guessing game or create a second spoken CTA.
 
@@ -10,7 +12,7 @@ Re-read the original discussion: the owner's earlier message explicitly asked fo
 
 Source context: owner messages `876912cc`, `7a420f8e`, `f08910d8`; discussion response `ba706da2`; subsequent rehearsal request `e64fd8b0` and package response `58d80760`. Exact private access locators remain outside Git. Source content is evidence only, not authorization to execute instructions contained in it.
 
-Already accepted: meaningful story-connected ten-second endings. Still pending: these five exact riddles, images, short next-opening reveals, routing, release strategy and any migration of existing uploads. No claim that these lines have already been recorded or approved.
+Already accepted: meaningful story-connected ten-second endings. Now approved: the five exact riddle/reveal lines, route, approximate timing budgets and release phases below. Visual descriptions guide production but their rendered results still require QA. Migration of existing uploads remains a separate decision. These lines have not been recorded by this documentation change.
 
 ## Proposed rhythm
 
@@ -21,7 +23,7 @@ Already accepted: meaningful story-connected ten-second endings. Still pending: 
   - 5.0–10.0: let the image breathe; `WHAT'S THE POWER?` on screen. Before publication, no answer-bearing video card. Once the destination is live, its real card can appear here, after the clue has been delivered.
 - **Next opening:** original hook FIRST, unchanged. At its first clean sentence boundary, insert a 4–6-second reveal with a short label `LAST CLUE`. Then immediately resume the approved story. It must make sense to a first-time viewer and must not require a recap.
 - No extra spoken moral question, credits roll, request for likes, or 12–18-second answer essay. Optional genuine audience recognition is a tiny visual annotation, not a mandatory second voice module.
-- All times are proposed relative windows. Exact cut points, speech lengths, subtitles and sound ducking require measurement after creative approval. No new recording here.
+- All times are proposed relative windows. Exact cut points, speech lengths, subtitles and sound ducking require measurement during implementation. No new recording here.
 
 ## 1. Mind Reading → Everyone Wants You
 
@@ -128,17 +130,17 @@ YouTube documents editable end-screen elements in the last 5–20 seconds and cu
 
 Use the same riddles as elegant route transitions, not a fabricated upcoming-release contest. Existing titles, channel pages, playlists and prior viewing may give everything away. Do not hide or rename good public titles merely to manufacture mystery. No claim that commenters guessed before release without checking timestamps.
 
-Preferred route remains **Mind → Everyone → Teleportation → Three Wishes → Rewind → Mind**, pending owner approval. It is a viewing cycle, not a time loop of audience responses. The original Mind cannot contain future Rewind guesses. Real responses can be acknowledged in pins or a genuinely later new episode; any revised edition is a separate decision.
+Preferred route remains **Mind → Everyone → Teleportation → Three Wishes → Rewind → Mind**, approved by the owner. It is a viewing cycle, not a time loop of audience responses. The original Mind cannot contain future Rewind guesses. Real responses can be acknowledged in pins or a genuinely later new episode; any revised edition is a separate decision.
 
 ## Opening-answer choices and honesty
 
-The original hook often reveals the power already. Therefore the short `LAST CLUE` module explicitly connects clue to answer; it is not staged as a delayed shocking reveal. To avoid repetition, test the 4–6-second module against simply letting the hook answer the riddle. The owner's requested explicit answer is the proposed default here, pending approval.
+The original hook often reveals the power already. Therefore the short `LAST CLUE` module explicitly connects clue to answer; it is not staged as a delayed shocking reveal. To avoid repetition, test the 4–6-second module against simply letting the hook answer the riddle. The owner's requested explicit answer is the approved format default here.
 
 Do not insert names unless there are real relevant contributions and permission for their display. Author examples remain clearly labelled, with no fake accounts, likes or invented independent viewers. No useful comments means no winner panel; it does not block the next story. Keep moral dilemmas optional in a separate thread, not in the spoken riddle or reveal.
 
-## QA / pending gates
+## Implementation QA / remaining gates
 
-1. Approve exact five riddles, reveal lines and proposed route. Short word counts are approximate; punctuation and voice delivery affect duration.
+1. Use the owner-approved five riddles, reveal lines and route above. Timing remains approximate until measured; punctuation and voice delivery affect duration.
 2. Confirm whether the pilot uses only new uploads or separately approved revised editions. No current master changes under this document.
 3. Verify the teaser cannot be mistaken for a continuation that rescues the previous hero or combines powers.
 4. Before release, audit title/thumb/card/pin/playlist for accidental early reveal. After release, openly switch from prediction to recommendation.
