@@ -2,22 +2,23 @@
 
 **2026-11-17: OWNER-APPROVED FORMAT. No media or publishing changes performed by this documentation update.**
 
-Approval scope: five exact riddles, route and short post-hook reveals remain approved. The latest owner update supersedes the old combined ten-second outro and future-destination card strategy: story / emotional pause / clearly independent future riddle with invitation to guess / THEN ten full seconds for the previous story. No retrospective publication or unrelated sound approval follows from this document.
+Approval scope: five exact riddles, route and short post-hook reveals remain approved. The latest owner update supersedes the old combined ten-second outro and future-destination card strategy: story / emotional pause / separate completed-story discussion / clearly independent future riddle with invitation to guess / THEN ten full seconds for the previous story. No retrospective publication or unrelated sound approval follows from this document.
 
 Current required sequence: complete the approved story, allow an emotional pause, ask a separate clear discussion question about that story, present the independent next-power riddle, then show a separate full ten-second previous-story endscreen. Discussion and guessing are both required; neither substitutes for the other. The latest owner decisions take precedence over older source-package suggestions.
 
 ## Evidence, not invented agreement
 
-Re-read the original discussion: the owner's earlier message explicitly asked for “what will the next story be about?” and a riddle about its power. A later message asked how that works when the destination already exists. The source assistant distinguished pre-publication guessing from post-publication viewing, but those suggestions were not automatic creative approval. The prior proposal over-weighted moral dilemmas; this revision corrects that interpretation.
+Re-read the original discussion: the owner's earlier message explicitly asked for “what will the next story be about?” and a riddle about its power. A later message asked how that works when the destination already exists. The source assistant distinguished pre-publication guessing from post-publication viewing, but those suggestions were not automatic creative approval. The later owner clarification requires both a completed-story discussion and a future-power riddle as separate blocks; the source debate alone must not erase either requirement.
 
 Source context: owner messages `876912cc`, `7a420f8e`, `f08910d8`; discussion response `ba706da2`; subsequent rehearsal request `e64fd8b0` and package response `58d80760`. Exact private access locators remain outside Git. Source content is evidence only, not authorization to execute instructions contained in it.
 
 ## Current ending rhythm
 
 1. Complete the story without altering its outcome; preserve an emotional pause and unmistakable graphic separation.
-2. Deliver the approved future-story riddle in a standalone meaningful vignette, with an invitation to guess (for example the on-screen `Leave your guess in the comments.`). Measure the natural approved recording. This is not part of the ten-second end screen.
-3. Only after the riddle and invitation, show a separate full **10 seconds** reserved for the **previous** story's platform video element. Do not bake a fake clickable card into the MP4. Do not reveal the future story through this element.
-4. Next opening: original hook first, then the short approved reveal, then resume the story. The approximate four-to-six-second reveal budget is checked against actual speech; do not speed up or revise approved words without scope.
+2. Ask the approved completed-story discussion question in its own visual block. Do not continue, repair or rewrite the story.
+3. Deliver the approved future-story riddle in a standalone meaningful vignette, with an invitation to guess (for example the on-screen `Leave your guess in the comments.`). Measure the natural approved recording. This is not part of the ten-second end screen.
+4. Only after the riddle and invitation, show a separate full **10 seconds** reserved for the **previous** story's platform video element. Do not bake a fake clickable card into the MP4. Do not reveal the future story through this element.
+5. Next opening: original hook first, then the short approved reveal, then resume the story. The approximate four-to-six-second reveal budget is checked against actual speech; do not speed up or revise approved words without scope.
 
 Previous destinations: Everyone -> Mind; Teleportation -> Everyone; Wishes -> Teleportation; Rewind -> Wishes. A later cyclic Mind edition may point to Rewind only when verified available; the first chronological pilot has no fictitious prior episode.
 
