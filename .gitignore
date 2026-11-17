@@ -265,3 +265,7 @@ Desktop.ini
 # Local filesystem audit snapshots. These are not the portable source archive.
 /.agent/gitignore-*-2026-11-06.csv
 /.agent/gitignore-*-2026-11-06.md
+
+# Owner-requested bounded YBW reference pack: real extracted stills and study boards.
+!/docs/references/ybw-visual-style/originals/*.png
+!/docs/references/ybw-visual-style/collages/*.jpg

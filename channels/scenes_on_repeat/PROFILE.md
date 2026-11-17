@@ -14,6 +14,10 @@
 
 Это правило относится к новому направлению, а не к историческим licensed-clips рецептам ниже. При регистрации проверенного You But Weird ChannelSpec закрепить в нём 1080p/30 fps для применимых форматов и сверить ориентацию; до этого `channel.json` Scenes on Repeat не является настроенным spec нового направления. Для действующих pinned runs применять [migration](../../docs/migration.md), а не незаметно заменять параметры.
 
+## Визуальный ориентир You But Weird
+
+Единый рисованный язык и два раздельных варианта героя закреплены в [реальном visual reference pack](../../docs/references/ybw-visual-style/README.md): Mind — тонкий stick figure с шарфом; Everyone — приглушённая сине-серая худи. Перед генерацией применять выбранный вариант по actual PNG и reference lock, не смешивать их и не переносить поздние неутверждённые тесты в эталон. Пакет не меняет исторический licensed-clips recipe или pins существующих run.
+
 ## Звуковой ориентир You But Weird
 
 Для нового направления использовать [Everyone Wants You — звуковой reference](../../docs/references/everyone-wants-you-sound.md): выборочные смысловые эффекты, музыкальная дуга и управляемая тишина. Общие требования баланса принадлежат [audio](../../docs/standards/audio.md#смысловые-эффекты-и-баланс-громкости). Новый утверждённый звуковой/монтажный ориентир — [Rewind V6](../../docs/references/rewind-v6/README.md), с точными source/cue records и отдельным статусом сохранности визуала. References не меняют исторический licensed-clips recipe и не дают approval новой версии.

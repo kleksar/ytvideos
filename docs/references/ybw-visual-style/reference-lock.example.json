@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "status": "example_not_episode_approval",
+  "pack": "ybw-visual-style",
+  "pack_revision": "record the actual checkout commit in each episode lock",
+  "character_profile": "mind-stick",
+  "scene_id": "example-scene-not-produced",
+  "references": [
+    {
+      "file": "originals/Mind_12s.png",
+      "sha256": "b22dd7dbf88d2d1e4fc625cab569589046aa3b6af3cc0bb498dffbb95adf4203",
+      "role": "character"
+    },
+    {
+      "file": "originals/Mind_23s.png",
+      "sha256": "06529f484583f76ef367315c9e13a89ea705318ae51c5d88ab46ae6305be65b7",
+      "role": "prop and palette"
+    },
+    {
+      "file": "originals/Mind_43s.png",
+      "sha256": "23edf8cb627bcab3dc43b2578e9eb18784bc64d84a197436715beddfa585e0b9",
+      "role": "composition and linework"
+    }
+  ],
+  "preserve": [
+    "thin black stick body without clothing",
+    "round pale head and single curl",
+    "mustard scarf and simple black hands",
+    "matte palette and dark simple contours"
+  ],
+  "change": [
+    "new story-specific action, composition and expression"
+  ],
+  "proposed_details": []
+}
