@@ -21,3 +21,11 @@
 **Reject cheap hooks:** "biggest scam ever", "millions stolen" without grounded scope; fabricated character horror, obvious fake diamonds, fake receipts, promises of actual mine photos or archive film.
 
 **QA outstanding:** compare real generated AI images (if authorized) with accepted channel references, crop, legibility, full card/title relation and exact approved narration; currently UNVERIFIED.
+
+---
+
+## Duration variants, 2026-11-17 (planning only)
+
+The original Short thumbnails/opening above are **only suggestions for 02m**. If 05m Long is selected, use its exact introductory promise: *why two apparently convincing expert checks failed and what the geologists examined instead*. An illustrative wide-screen concept: two credible rough gemstones above a bare Wyoming mesa; in the same physical scene a disturbed anthill and cut earth show the verification failure. No fabricated archival still or invented Tiffany endorsement of the mine. Other 10m emphasis, if independently approved, is the series of inspections (sample / surface / deeper layer) with the company directors' reversal and the surveyors' exposure.
+
+No storyboard, artwork, final title, thumbnail, audio, measured first proof time, or native YouTube layout has been approved for Long. Do not transfer old Short-specific 9:16 geometry to 16:9 or treat visual directions as image generation consent.

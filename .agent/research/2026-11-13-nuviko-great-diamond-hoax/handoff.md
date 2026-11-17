@@ -20,3 +20,16 @@ EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официал
 4. Show full EN and RU to owner at actual script gate; only real owner approval of exact revision permits further workflow. This automation explicitly forbids media and merge, irrespective of GitHub checks or reviewer outcome.
 
 **Checks performed in this editorial-only host:** GitHub remote head/tree and existing PR/Issue/branches read; 16 exact EN/RU scene spans matched to script source, text loop logically reviewed, external sources inspected. **Not performed:** checkout `uv run ytv`, repository-local unit/eval tests, real host reviewer, bilingual independent review, voice, video, AV check; GitHub CI checked on new exact commit separately after push.
+
+---
+
+## 2026-11-17 addendum — updated variant selection and exact refs
+
+The preceding instructions described the original Short and remain historical context, **not** automatic authorization. Latest complete story alternatives now live at:
+- 02m: `variants/02m/script.en.txt` SHA-256 `bf7c7b8970faf1a2e7e14c14cd1761de35c5542a9f2409da16853fa7cabf5958` and `variants/02m/script.ru.txt` SHA-256 `8b3b9c042856f97acee9b7338e299bc06ad12269636293ab4ced044aaacd6bc5` (byte-exact originals).
+- 05m: `variants/05m/script.en.txt` SHA-256 `baf1e32252edd54e2ff6730cdf223351d6f302229aae3c3fb902e0accbbd2be6` and `variants/05m/script.ru.txt` SHA-256 `fcc64829b2f4928f4408de784f5422ef104535f85a3b4de066bb432859876e09`; **authorial preferred Long**.
+- 10m: `variants/10m/script.en.txt` SHA-256 `fa3bb5444e8baac8ade307b593cf0f6acdd61e5d645b8e1d121f012253b81db1` and `variants/10m/script.ru.txt` SHA-256 `8a7cf1a8fdddd61dcb63c1975d1d262380b46e2e2688ad9f935fe9ec8a09217f`.
+
+No approved master: do **not** use the old Short-only example command to implicitly choose production for the preferred Long. In a genuine local checkout with current `main`, inspect current runs/pins first; register a new `nuviko_history --format long` run **only if no relevant existing run** and after mapping to the actual runtime requirements. Attach supporting variants/review through existing artifact API; then complete genuine independent blind review and actual owner choice/approval for **one exact script hash**. A Git-only status remains `EDITORIAL_CANDIDATE_UNREGISTERED`; all TTS, media, source reference bytes, timing and measured viewer signals remain `UNVERIFIED`.
+
+The old S001–S016 preliminary storyboard and all its scene spans belong **only** to the unchanged 02m original SHA-256 `bf7c7b8970faf1a2e7e14c14cd1761de35c5542a9f2409da16853fa7cabf5958`. Any 05m/10m production needs new scene count, full semantic spans, and visual intent after master selection. No storyboard reuse, automatic pins migration, budget spending or production has been performed.

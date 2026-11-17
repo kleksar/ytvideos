@@ -80,4 +80,29 @@ Access date: **2026-11-13**. These are claims supportable by the opened document
 
 Fresh remote `main`, all open and closed PR/Issue titles and bodies, channel video directory names and branch list were inspected. No direct diamond-salting or Clarence King story found among these surfaces; content-index matching across every archived script is not independently established. Existing queue includes #24 Lake Peigneur, #29 Batavia, #31 Pig War, #34 BA5390, #38 Ghost Army, #43 Locomotive Chase, #50 Yellow Fleet, and human-rescue #20/#26. This one is 1870s fraud + on-site scientific detection: different protagonist problem, period and payoff. The owner rejected #13 telegraph as boring: not revived. The exact living-narration B revisions were read at `#20:78b375bf0004fdeb45722e6106f2919f09e82fe1` and `#25:28862598989045cd02990e654b086afae28fea59`; no content taken from them.
 
-**Decision:** A is an editorial candidate worth reviewing; not a completed script gate. No independent audience/interest review or bilingual review occurred. 
+**Decision:** A is an editorial candidate worth reviewing; not a completed script gate. No independent audience/interest review or bilingual review occurred.
+
+---
+
+## 2026-11-17 evidence extension for three standalone duration variants
+
+**Scope:** the original eight-topic comparison and source selection are preserved above. This is added claim evidence *for the same Great Diamond Hoax story*, not a second topic search. Remote source check on 2026-11-17 confirms the documentary basis at [Smithsonian Magazine, Robert Wilson, June 2004](https://www.smithsonianmag.com/history/the-great-diamond-hoax-of-1872-2630188/) and [American Geosciences Institute / EARTH, Cassandra Willyard, 2012-01-05](https://www.earthmagazine.org/article/november-261872-great-diamond-hoax-exposed/); participant [Asbury Harpending (1913)](https://www.gutenberg.org/files/48834/48834-h/48834-h.htm) remains interested and retrospective. Web article date is **not** the 1872 event date.
+
+| New narrative claim / use | Source section and confidence | Guardrail |
+|---|---|---|
+| Western gold/silver investment fever and South African diamond discoveries made new mineral finds plausible (05m and 10m) | Smithsonian opening west mining and South African diamond-rush background; secondary retrospective, medium-high | Context is not proof that *every* investor held the same motive |
+| First pouch brought to George Roberts's office; secret western location; Roberts connects Ralston and others | Smithsonian Roberts/Ralston opening; corroborating EARTH explicitly notes source disagreement on bank vs office; medium | Do not stage fictional armed bank teller in novel opening of EARTH |
+| Investors verified sample at Charles Tiffany, $150,000 appraisal, badly overvalued | Smithsonian Oct 1871 appraisal; EARTH paras on Tiffany; high for amount and overvaluation | **Sample only**, not geological origin; do not imply Tiffany personally endorsed a diamond field |
+| London purchases including assumed names; actual salting near Wyoming-Colorado border | Smithsonian July 1871 merchant Leopold Keller, site preparation; EARTH chronology; medium-high | Different London purchases / trip dates vary, avoid claims of an exact number of trips or mined output |
+| June 1872 Henry Janin visit, real discoveries at surface, thousands of acres claimed though planting affected small area; Janin's fee and stock option | Smithsonian Janin expedition, investment incentive, “3,000 acres” vs roughly one acre planted; medium-high | The stock interest raises possible bias **but does not prove knowing collusion** |
+| Chance train meeting with survey team Oct 1872; King worried discovery lay in mapped area and could undermine federal survey | Smithsonian Oct 6 diary account and King survey role; EARTH corroborates survey legitimacy concern; medium-high | Attribution as documented motivation, not invented thought dialogue |
+| King survey team at site found gems before noticing ratio, disturbed anthills/footprints, empty ten-foot trench | Smithsonian mediated quotations from Emmons diary/field notes; EARTH corroborates ratio/trench; medium-high | Original diary manuscript **not independently inspected**; ratio an observation, not universal mineral law |
+| Diamond dealer / possible information leak; King's urgent return to stop further transactions | Smithsonian Berry encounter, King going back to San Francisco; medium | “Risk of wider leak” interpretation, not established unique motive; **no invented price moves or trades** |
+| Directors halted planned share issue, reinspected and voted dissolution late November 1872 | Smithsonian King meeting and second visit; EARTH publication Nov 26; high | Do not say every victim was reimbursed or perpetrators were caught immediately |
+| Arnold later Kentucky life, legal settlements with an investor; Slack's later life less certain in contemporary reports; King later first USGS director | Smithsonian legal settlement/Slack secondary Woodard account/King career; EARTH overview; medium | Financial totals vary; avoid exact restitution or unrecovered total; no claim Ralston's later death was caused by this fraud |
+
+**Audience evidence:** still **UNVERIFIED**. Two independently published historical accounts plus a participant memoir corroborate a researchable event, **not** YouTube demand, viewer satisfaction or prospective retention. No fabricated comparable channel baseline.
+
+**English / Russian semantic contract:** 02m source byte copy untouched; 05m and 10m independently translated to preserve chronological logic, sampling vs deposit distinction, a natural/probabilistic inference rather than absolute impossibility, the economic context, Janin's unproven collusion, and that dissolution did not recover all losses. No invented quotations or inner voices. `story-review.md` records exact language hashes.
+
+**Baseline preserved:** 2026-11-13 original `script.en.txt` Git blob `86d9dd7ee3e9b15f80e9f97b1a672c6a07bf5bff`, `script.ru.txt` Git blob `72fb19f0a5b1ef26fadbd50ccba18204895bb1d1`, PR HEAD `b340e3661d230d6c964cc21b5fa52999840c9b08`.

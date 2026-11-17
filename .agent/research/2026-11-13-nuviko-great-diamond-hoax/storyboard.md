@@ -1,3 +1,5 @@
+> **Exact-script dependency, rechecked 2026-11-17:** This S001–S016 preliminary storyboard belongs **only** to unchanged `variants/02m/script.en.txt` SHA-256 `bf7c7b8970faf1a2e7e14c14cd1761de35c5542a9f2409da16853fa7cabf5958` and matching RU `8b3b9c042856f97acee9b7338e299bc06ad12269636293ab4ced044aaacd6bc5`. The original `script.en.txt`/`script.ru.txt` bytes are preserved. **Do not use these spans, scene count, 9:16 shots, timings, or S001/S016 loop for the 05m/10m Long variants.** No Long storyboard exists. Actual audio/AV seam still UNVERIFIED.
+
 # Preliminary storyboard only — Nuviko History Short
 
 **Status:** `EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официальному ytv script gate`. Reconstruct visual meaning, not authenticated contemporaneous scenes. No image generation, verified reference PNG inspection, voice, subtitles, render, approval or measured timings.
