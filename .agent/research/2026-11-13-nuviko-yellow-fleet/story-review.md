@@ -8,7 +8,7 @@
 |---|---|---|---:|---|---|
 | 02m / Short | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | 207 | `89e75566a782b15228de221a0d0b9833d0e9e9bda21b73d09fe0aa5cd03cfb26` | `0786ee60547edc8c10cf0cb39d3906636a13c6ffb5c05c1e7aca12d15a1c384c` |
 | 05m / Long | [EN](variants/05m/script.en.txt) | [RU](variants/05m/script.ru.txt) | 698 | `64656c3c80154448d8b99d6e161960947b13c2d8d3647c864c334efa0043dc80` | `7b34e32eee08bacab1f7b5d2ab044ec48bbccfb55be138ef7bb13043b89ea5ca` |
-| 10m / Long | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | 1505 | `1f4d5fdfbdc5b9c928156a5a7c7651d01e7afed00b514aa009abda3a9236ceaa` | `a8ac01816a6e3785107b82b59aebf52649e17269a97aed36b3171efdd4f1554c` |
+| 10m / Long | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | 1506 | `1761bbc1e4c54f9940e3c3359c1948a77534a88b8a8b2997dbaf766d06802c67` | `53128a2b7c71c751fa651dfe7d4e3157f3060dfb2aa0537809c22dcc5504610a` |
 
 Estimated speech duration only: English 130–160 wpm before pauses means roughly 1.3–1.6 / 4.4–5.4 / 9.4–11.6 minutes, respectively. Nuviko voice speed 1.10× is pinned in its current ChannelSpec, not an excuse to manipulate runtime. Actual TTS, pauses, Shorts length and 10-second Long end screen are UNVERIFIED. Nuviko History currently supports both short and long in its ChannelSpec, but none of these candidates is an authorized production source.
 
