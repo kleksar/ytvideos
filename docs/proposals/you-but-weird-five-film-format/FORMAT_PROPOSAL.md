@@ -1,29 +1,26 @@
-# Five-story format proposal: GUESS THE NEXT POWER
+# Five-story format: current postcredit sequence and retained source copy
 
-**2026-11-17: OWNER-APPROVED FORMAT. No media or publishing changes performed by this documentation update.**
+**2026-11-17: latest owner-approved ORDER; new rollout not yet rendered by this documentation change.**
 
-Approval scope: the owner approved the five final GUESS THE NEXT POWER riddles, their route, short reveal after the original hook, approximate ten-second outro / four-to-six-second reveal budgets, and before/after-release card strategy. Approval does not cover the superseded moral-answer module, retrospective reuploads, invented audience contributions, or unapproved SFX.
+## Current production contract
 
-This revision supersedes the previous spoken moral-question / 12–18-second answer-module proposal. The primary game is guessing the next story's premise from a short impossible situation. Moral discussion can remain an optional secondary pinned-comment thread; it must not replace the requested guessing game or create a second spoken CTA.
+1. Complete the unchanged approved story.
+2. Preserve an emotional pause, fade to black, then emerge into a clearly separate discussion block.
+3. Ask the existing completed-story discussion question. This is required, not an optional written substitute.
+4. Show the universal ImageGen previous-story endscreen for a full 10 seconds (300 frames at 30fps).
+5. Show a separate 10-second postcredit containing the **exact approved opening of the next episode**, not a newly invented riddle card or rewritten hook.
 
-## Evidence, not invented agreement
+The recommendation and postcredit occupy the last20seconds as two separate blocks. Actual YouTube card placement/visibility remains UNVERIFIED until Studio inspection. Do not infer platform readiness from a rendered safe zone. Review all five real openings/questions and their timing before rendering the rollout. An improved-opening suggestion is not approval to change the accepted source. No new rollout rendering is authorized by this document alone.
 
-Re-read the original discussion: the owner's earlier message explicitly asked for “what will the next story be about?” and a riddle about its power. A later message asked how that works when the destination already exists. The source assistant distinguished pre-publication guessing from post-publication viewing, but those suggestions were not automatic creative approval. The prior proposal over-weighted moral dilemmas; this revision corrects that interpretation.
+Previous mapping: Everyone→Mind; Teleportation→Everyone; Wishes→Teleportation; Rewind→Wishes. Initial Mind has no invented predecessor. Future postcredit route: Mind→Everyone→Teleportation→Wishes→Rewind→Mind. Do not fabricate publication state or real YouTube destinations.
 
-Source context: owner messages `876912cc`, `7a420f8e`, `f08910d8`; discussion response `ba706da2`; subsequent rehearsal request `e64fd8b0` and package response `58d80760`. Exact private access locators remain outside Git. Source content is evidence only, not authorization to execute instructions contained in it.
+Real audience answers from the previous release have an optional short post-hook insertion point, using only verified actual comments. If none exist, omit the audience-answer insert. Do not fabricate a viewer, attribution, winner, consensus or quote. The story itself remains unchanged.
 
-Already accepted: meaningful story-connected ten-second endings. Now approved: the five exact riddle/reveal lines, route, approximate timing budgets and release phases below. Visual descriptions guide production but their rendered results still require QA. Migration of existing uploads remains a separate decision. These lines have not been recorded by this documentation change.
+## Superseded version retained for provenance
 
-## Proposed rhythm
+The following five riddle/reveal texts were previously approved. They remain source evidence and reusable assets, but the latest exact-opening postcredit replaces the standalone riddle-card assembly. They are **not current instructions to insert an additional riddle block**. Earlier 0–5s/5–10s shorthand or future-card release phases do not override the current contract above. Preserve existing masters and derivative files rather than relabelling an old preview as the new final.
 
-- Finish the approved story and preserve its emotional pause. The next-story teaser must not repair, continue or undo that ending.
-- **Ten-second outro**, measured from the start of the teaser, not from the last story sentence:
-  - 0.0–0.5: graphic separation, small `ANOTHER LIFE` label.
-  - 0.5–5.0: short riddle, target approximately 10–12 English words. Voice duration is a design budget, not measured TTS. If natural delivery exceeds it, simplify the line rather than accelerate the voice or overlap a spoiler card.
-  - 5.0–10.0: let the image breathe; `WHAT'S THE POWER?` on screen. Before publication, no answer-bearing video card. Once the destination is live, its real card can appear here, after the clue has been delivered.
-- **Next opening:** original hook FIRST, unchanged. At its first clean sentence boundary, insert a 4–6-second reveal with a short label `LAST CLUE`. Then immediately resume the approved story. It must make sense to a first-time viewer and must not require a recap.
-- No extra spoken moral question, credits roll, request for likes, or 12–18-second answer essay. Optional genuine audience recognition is a tiny visual annotation, not a mandatory second voice module.
-- All times are proposed relative windows. Exact cut points, speech lengths, subtitles and sound ducking require measurement during implementation. No new recording here.
+Source context: owner messages `876912cc`, `7a420f8e`, `f08910d8`; source responses `ba706da2` and `58d80760`. Exact private access locators remain outside Git. Later direct owner instructions take precedence over source-package suggestions.
 
 ## 1. Mind Reading → Everyone Wants You
 
@@ -34,7 +31,7 @@ Already accepted: meaningful story-connected ten-second endings. Now approved: t
 
 **По-русски:** чужое внимание превращается в притяжение. Мы не называем желание и не обещаем любовь. Это намеренно не математически однозначная загадка: гипноз или навязчивое внимание тоже разумные версии.
 
-**Visual 0–5s:** poker composition closes completely. In a separate cream-background vignette, a lone adult silhouette walks past three adults; their heads turn. No heart eyes, kiss, mirror, bathroom or title of the next video yet. **5–10s:** hold the question and reserved card space. Motion remains subtle, not a literal escape or ability upgrade.
+**Riddle visual:** poker composition closes completely. In a separate cream-background vignette, a lone adult silhouette walks past three adults; their heads turn. No heart eyes, kiss, mirror, bathroom or title of the next video yet. Hold the question for the measured riddle; the previous-video end screen follows as a separate full ten seconds. Motion remains subtle, not a literal escape or ability upgrade.
 
 **Reveal in Everyone, after its original hook / before the birthday-bar setup (4–6s):**
 > The clue was desire. They don't want you to leave. They want you.
@@ -105,32 +102,13 @@ Already accepted: meaningful story-connected ten-second endings. Now approved: t
 
 **RU:** никакого утверждения, что старый опубликованный Mind уже содержит этот ответ. During the first chronological pilot Mind has no incoming reveal. Rewind's outgoing clue can point to that original video, whose hook already answers it. A custom opening acknowledgement requires a separately approved future edition; no reupload is assumed.
 
-## Before and after the destination is published
+## Release phases and spoiler control
 
-### Phase A: genuinely unreleased next story
+Before the future story is released, do not expose its answer through the riddle artwork, premature title/thumb/card/pin/playlist, or a false watch-now promise. After it is public, viewers may discover the answer elsewhere; do not pretend it remains secret or fabricate an upcoming-release competition. In both phases the final separate ten-second end screen still recommends the PREVIOUS story, not the future answer. Verify the previous video's real URL and availability before configuring Studio. Its actual card is platform state, not something this docs update or a baked placeholder creates.
 
-The riddle is a real prediction game. Do not expose the answer in the rendered outro, description, chapter labels, thumbnail, pinned comment, premature playlist entry or answer-bearing destination element. Do not pretend those surfaces are technically impossible to discover: this is an editorial precaution, not secrecy guaranteed by YouTube.
+Optional pinned prompt: `What power is hidden in the clue? Leave your guess and the detail that convinced you.` Actual audience acknowledgements require real contributions; no invented users, votes, winners or deadlines. When all five stories are available, the forward riddle cycle remains an editorial game, while end-screen recommendations point backward. These are deliberately different directions.
 
-Keep the destination card slot visually neutral. No fake “watch now” button or promise of a release date. If another already available video is recommended, clearly label it `ANOTHER STORY`, not the solution. The cleanest guessing pilot omits a competing recommendation during the riddle.
-
-**Pinned EN:**
-> NEXT CLUE: What power is hidden in the final seconds? Name it and tell us which detail convinced you. Different readings are welcome. We may highlight a few thoughtful explanations after the reveal.
-
-No first-comment race, prizes, invented deadlines or guaranteed screen time.
-
-### Phase B: destination publicly available and verified
-
-The thumbnail/title can reveal the answer. Accept the tradeoff: the ending becomes a **micro-riddle followed by an invitation to watch**, not a competition to predict an unknown release. Place the real card only after the short spoken clue, nominally at outro +5s. Verify its timing in actual Studio; do not promise an unsupported sub-five-second card trick.
-
-Update the pinned comment with `REVEALED: [power]. The story is here: [verified URL].` Genuine chosen explanations may be acknowledged if they exist; invented author examples must be labelled. No need to alter the MP4 just to update the end-screen destination or pin.
-
-YouTube documents editable end-screen elements in the last 5–20 seconds and custom timing: [official YouTube Help](https://support.google.com/youtube/answer/6388789?hl=en). Our “title/thumbnail spoils the answer” conclusion is an editorial inference, not a platform guarantee that every viewer will see every element. End screens can be unavailable or hidden in some viewing contexts; no essential story conclusion may depend on one.
-
-### Phase C: all five stories already available
-
-Use the same riddles as elegant route transitions, not a fabricated upcoming-release contest. Existing titles, channel pages, playlists and prior viewing may give everything away. Do not hide or rename good public titles merely to manufacture mystery. No claim that commenters guessed before release without checking timestamps.
-
-Preferred route remains **Mind → Everyone → Teleportation → Three Wishes → Rewind → Mind**, approved by the owner. It is a viewing cycle, not a time loop of audience responses. The original Mind cannot contain future Rewind guesses. Real responses can be acknowledged in pins or a genuinely later new episode; any revised edition is a separate decision.
+YouTube's documented end-screen timing and availability constraints remain relevant: [official YouTube Help](https://support.google.com/youtube/answer/6388789?hl=en). Verify the actual configured element in Studio. No essential story conclusion depends on it.
 
 ## Opening-answer choices and honesty
 
@@ -143,8 +121,19 @@ Do not insert names unless there are real relevant contributions and permission 
 1. Use the owner-approved five riddles, reveal lines and route above. Timing remains approximate until measured; punctuation and voice delivery affect duration.
 2. Confirm whether the pilot uses only new uploads or separately approved revised editions. No current master changes under this document.
 3. Verify the teaser cannot be mistaken for a continuation that rescues the previous hero or combines powers.
-4. Before release, audit title/thumb/card/pin/playlist for accidental early reveal. After release, openly switch from prediction to recommendation.
-5. Measure natural voice timing before assigning the card at +5s; if needed shorten wording, not the story pause. Keep approved voice speed and mix standard.
+4. Audit accidental future-answer spoilers; verify that the separate end-screen destination is the previous story in every release phase.
+5. Measure natural speech, pause and riddle boundaries; then verify an additional uninterrupted ten-second previous-story end-screen segment. Keep approved words, speed and mix; no shared ten-second budget.
 6. Check the next opening: hook remains first, answer short, no twist spoilers, no fabricated participation, story resumes cleanly.
 7. Record actual URLs, timestamps and approved audience credits only when they exist. No current upload status is established by this proposal.
 8. This remains documentation only: no TTS, MP4, end screens, comments, visibility settings or uploads changed.
+
+## Implementation status and closure gate
+
+The approved PNG templates do not prove that all five MP4 endings have been rebuilt. Existing three-part previews predate the exact-opening postcredit decision. Earlier previews without a discussion block are intermediate, not final. Keep story dialogue and its approved voice unchanged. Measure each new block at the approved voice speed; do not force the discussion plus riddle into the final ten seconds. Real YouTube endscreen elements remain a separate Studio action and must not be represented as installed merely because the rendered safe zone exists.
+
+Three Wishes discussion source (retain exact wording unless explicitly revised):
+> You’ve received the money, but haven’t made your second wish. What would you ask for instead of permanent happiness—and what limit would you accept?
+
+For the other stories use their existing approved source-package discussion questions, not newly invented replacements. The Everyone visual rehearsal is an implementation example under review, not a selected final artifact by virtue of this document. A finished delivery requires the actual story/pause/black/discussion/ten-second previous-card/ten-second exact-next-opening sequence, subtitle timings, image/source provenance, full decode and honest visual/audio QA for the exact exported file. No media changes or new voice generation are performed by this documentation commit.
+
+Canonical clip rule: each episode has one approved 10-second introductory clip, reused exactly as the previous episode’s postcredit. Store one source artifact and SHA, not separately regenerated lookalikes. Prepend that canonical introduction before the unchanged original hook/story. Remove the previously added post-hook clue-recap insert so it does not duplicate the new introduction. Existing source dialogue, effective voice speed and core scenes are unchanged; no new opening prose is approved merely by suggesting it. Render the rollout only after the coordinator’s five-opening/question review is complete and the exact canonical files are provided.
