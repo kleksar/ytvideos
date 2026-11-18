@@ -40,6 +40,16 @@ REQUIRED_CHECKS = {
 }
 
 
+def execution_capabilities(task):
+    """Generation can precede listening; completion still requires real audio QA.
+
+    Keep stored capabilities intact for compatible pinned-run migration and for
+    plan/doctor visibility of the outstanding completion requirement.
+    """
+    return [name for name in task["capabilities"]
+            if not (task["stage"] == "audio" and name == "audio.listen")]
+
+
 def required_checks(stage, requirements=None, *, purpose=None):
     """One completion contract for task packets, plans and the receipt validator."""
     checks = set(REQUIRED_CHECKS[stage])
