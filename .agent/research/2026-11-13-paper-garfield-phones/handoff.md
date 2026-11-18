@@ -1,3 +1,17 @@
+## 2026-11-18 updated handoff: three variants
+**EDITORIAL_CANDIDATE_UNREGISTERED**; no local ytv checkout, no actual run, no independent session/receipt, no exact owner approval. The previous handoff is kept below as historical evidence.
+
+- 02m: [EN](variants/02m/script.en.txt) SHA-256 03619fac6e367a984fa63ed41c95389fbe4fd46a5f21b7e62144989dc232e504; [RU](variants/02m/script.ru.txt) SHA-256 4ef991280facce9041e2954d8bf04a12b6ba80f20b30b2c60bcc9e35c0e05296.
+- 05m: [EN](variants/05m/script.en.txt) SHA-256 ecb542776693eb0464b2b708d1bae25285b50ae647ffe28a40f53149011f5230; [RU](variants/05m/script.ru.txt) SHA-256 130bb6334c8804eea62f5ce3c9b7871d848ce3fcdeaaf67b7b395519c05e602d.
+- 10m: [EN](variants/10m/script.en.txt) SHA-256 d63490b478db0dd7669fc7e45e3c5ee252e94ddcb41ac9efc12c230553b01e0c; [RU](variants/10m/script.ru.txt) SHA-256 f7e38a25e845cc4c431725f36079434a516dde451345d2ccdb575cbbf1faaebc.
+
+Recommended editorial 05m Long, NOT approved master. All three scripts are new proposals; unchanged root source and original 14-scene storyboard are archive. Both Short and Long formats exist in current Paper ChannelSpec, but stage completion/production not claimed.
+
+Next local transfer: owner selects exact EN version; register a genuine `uv run ytv start --channel paper_detour --format long|short --intent 'Garfield phones selected exact variant from PR #30'`, read real pinned `plan_summary`/`read_next`, attach variant scripts and story-review by official CLI, obtain independent first-listener and applicable bilingual/Short-loop assessment, then actual script approval. No fabricated run IDs/receipts, old pins unchanged. Never interpret PR review as production order.
+
+---
+## Original handoff (2026-11-13) preserved
+
 EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официальному ytv script gate
 
 # Handoff — Paper Detour editorial hypothesis, NOT registered run

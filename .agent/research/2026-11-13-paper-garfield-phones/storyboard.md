@@ -1,3 +1,7 @@
+> **Version pin 2026-11-18:** all 14 original scenes refer only to root script EN blob `8aafc5bae7137df8f62ed3f625ae8cf25ce8c0b1` (SHA-256 `05796f25575fd8eb12c2311826a30eb4363090aa4bab0de4d45f5e30e4bb2cb6`) and RU blob `eb88b700437ab322521528af82f4b47752e2710a`. They do NOT apply to any `variants/{02m,05m,10m}` script. No inherited timings, approvals, or visual evidence.
+
+---
+
 # Preliminary storyboard — paper_detour short
 **Только редакционный план после self-review, не завершённый production stage.** Голос EN и перевод RU здесь являются полными точными sentence segments из двух `script.*.txt`. Время 4–6 сек на композицию — ориентир, НЕ фактический TTS и не утверждение длительности. Каждый кадр — цельная full-frame статичная многослойная бумажная диорама; движение только whole-frame pan/zoom, прямые склейки, без parallax/masks/outer frame. Компонентное AI image prompting ниже не означает, что изображения были сгенерированы.
 

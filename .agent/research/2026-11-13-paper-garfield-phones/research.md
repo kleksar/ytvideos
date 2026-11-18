@@ -79,3 +79,26 @@
 
 ## Границы
 Актуальный `main` и документы взяты через GitHub connector. Runtime Checkout отсутствует; `uv run ytv start`, `plan_summary/read_next/task_guide`, receipts и `sessions.independent` недоступны. Поэтому это **не официальный новый episode**, а отдельно разрешённая редакционная гипотеза. Независимая оценка интереса и bilingual = UNVERIFIED.
+
+
+## 2026-11-18 — additional verified evidence for duration variants
+
+Общее исследование используется для всех трёх версий. Ниже — только новые факты, проверенные для 05m/10m. Все полные сценарии находятся в `variants/{02m,05m,10m}/`; ссылки и hashes — в `story-review.md`.
+
+| ID | Новый факт narration | Источник, дата | Ограничение / confidence |
+|---|---|---|---|
+| G10-1 | В 2018 волонтёры собрали >200 Garfield fragments; ежемесячно убирали рыболовный мусор; глаза у модели раскрывались при снятии трубки | [Atlas Obscura, 2019-03-28](https://www.atlasobscura.com/articles/garfield-phone-beach) (интервью Claire Simonin-Le Meur) | High к описанию добровольцев; цифра только за 2018, не для всех лет |
+| G05-2 | Группа предполагала контейнер на дне и спрашивала людей с опытом подводных поисков, но конкретного места не было | [Washington Post через Independent, 2019-03-30](https://www.independent.co.uk/news/world/europe/garfield-phones-mystery-beach-france-plastic-pollution-a8846786.html), слова Claire | High к сообщённым действиям; нельзя приравнивать к систематическому сканированию дна |
+| G10-3 | Знакомство с фермером René Morvan состоялось во время работ с выброшенными на берег дельфинами; пресса обратила внимание на загадку | [Atlas Obscura, 2019-03-28](https://www.atlasobscura.com/articles/garfield-phone-beach) | Medium; рассказ Claire, не выдуманные её мысли |
+| G10-4 | Морван рассказал, что после шторма в 1980-х с братом увидел контейнер в пещере, где были телефоны; некоторые репортажи упоминают телевизоры/дерево | [Atlas Obscura, 2019-03-28](https://www.atlasobscura.com/articles/garfield-phone-beach); [ITV, 2019-03-29](https://www.itv.com/news/2019-03-29/washed-up-garfield-phones-mystery-solved-in-france-by-farmer-after-35-years) | Medium, воспоминание о давних событиях; нельзя утверждать точный год или название судна |
+| G05-5 | Недели плохой погоды задержали спуск; 22 марта 2019 волонтёры смогли попасть в пещеру в отлив | [Atlas Obscura, 2019-03-28](https://www.atlasobscura.com/articles/garfield-phone-beach) | High к дате, условиям и событию, без вымышленных опасных действий |
+| G05-6 | Найдены ржавые остатки контейнера и 23 целые трубки с проводами/электроникой среди валунов | [Euronews/AFP, 2019-03-29](https://www.euronews.com/2019/03/29/locals-solve-mystery-of-garfield-phones-washing-up-on-french-beach-for-30-years) | High к находке; 23 — recovered, НЕ изначальный размер груза |
+| G05-7 | Контейнер оказался в основном пустым/частично недоступным; после находки при следующих уборках 2019 детали продолжали появляться | [Washington Post/Independent, 2019-03-30](https://www.independent.co.uk/news/world/europe/garfield-phones-mystery-beach-france-plastic-pollution-a8846786.html); [Guardian, 2019-03-29](https://www.theguardian.com/world/2019/mar/29/garfield-phone-mystery-solved-in-brittany-35-years-later) | High по свидетельству 2019, не утверждать непрерывное появление в 2026 |
+| G10-8 | Неизвестны конкретное судно, точная дата и было ли несколько контейнеров; гипотеза второго появилась из географии находок | [Guardian, 2019-03-29](https://www.theguardian.com/world/2019/mar/29/garfield-phone-mystery-solved-in-brittany-35-years-later); [Sky, 2019-03-28](https://news.sky.com/story/decades-old-mystery-of-washed-up-garfield-phones-in-brittany-finally-solved-11677384) | High к неопределённости. Второй контейнер UNVERIFIED |
+| G10-9 | Активисты использовали узнаваемого Гарфилда для разговоров с детьми о мусоре; детали считали свидетельством | [Washington Post/Independent, 2019-03-30](https://www.independent.co.uk/news/world/europe/garfield-phones-mystery-beach-france-plastic-pollution-a8846786.html) | High к заявленному образовательному подходу, но эффективность по просмотрам неизвестна |
+
+### Event → evidence → causal shift → next question
+
+Повторные находки десятилетиями → сбор мусора не предотвращал новые фрагменты (G10-1) → где запас телефонов? → гипотеза контейнера и безрезультатные поиски под водой (G05-2) → где реальная точка? → память Морвана (G10-3/G10-4) → почему не могли просто войти? → опасная расщелина/погода/отлив (G05-5) → остались ли телефоны? → металл и 23 трубки (G05-6) → значит, можно перекрыть источник? → почти пустая тара и последующие уборки (G05-7) → весь ли груз известен? → судно и количество контейнеров не установлены (G10-8).
+
+Сценарии не содержат прямых вымышленных цитат, доказанного загрязнения в 2026 или утверждения, будто один контейнер точно объясняет все найденные телефоны. Новые зрительские измерения и YouTube-demand search в рамках этой редакции отсутствуют: UNVERIFIED. Ранее сохранённые Reddit-наблюдения не являются CTR/retention.

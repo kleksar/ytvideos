@@ -1,3 +1,10 @@
+## 2026-11-18 version-specific packaging status
+
+All previous S001–S014 references were authored for **archival root** EN SHA-256 `05796f25575fd8eb12c2311826a30eb4363090aa4bab0de4d45f5e30e4bb2cb6` only. For proposed 05m Long, possible title **Why the Garfield Phones Kept Coming Back**, physical paper diorama of a recognisable corded phone beside a difficult cave entrance; don't imply whole cargo was recovered. After exact text selection, remake shot list/visual intent rather than repurpose old timestamps. No thumbnail pixels, rights license, or CTR evidence.
+
+---
+## Original packaging hypothesis preserved
+
 # Packaging brief — Garfield phones, 2019
 Только гипотезы об упаковке, ни один actual thumbnail/asset не создан; SEO/CTR/retention **UNVERIFIED**.
 
