@@ -1,17 +1,21 @@
-**Сверено с main 96c8fa1573c0:** Nuviko History активен. PR остаётся текстовым кандидатом, а не официальным `ytv start` run или одобренным `awaiting_script_approval`; независимая проверка и approval обязательны перед медиа. Подробнее: [handoff](handoff.md).
+# Lake Peigneur — три редакции одной истории (Nuviko History)
 
-# Lake Peigneur — The Lake That Drained Into a Mine (Nuviko History)
+**Логлайн:** нефтяная буровая исчезла в мелком луизианском озере; шахтёры эвакуировались из затапливаемой соляной шахты, вода ушла под землю, а затем канал потёк обратно и наполнил изменившееся озеро. Причина первоначального разрыва точно не установлена.
 
-**Logline:** In 1980 an oil rig vanished into a Louisiana lake barely ten feet deep. Workers in the salt mine below escaped the flood; the lake swallowed vessels, reversed a canal, then returned deeper and saltier. The exact triggering failure was never established.
+**Статус:** `EDITORIAL_CANDIDATE_UNREGISTERED / UNVERIFIED`; PR Draft, нет owner approval, независимого reviewer, runtime-артефактов или разрешения на медиа. Полный пакет ниже — новые редакционные кандидаты, не три запуска.
 
-**Status:** Unapproved English Short text-only preproduction; no production run or media. Nuviko History only, not Nuviko Videos.
+| Версия | RU полный текст | EN полный текст | Формат / статус | EN слов |
+|---|---|---|---|---:|
+| 2 мин | [RU](variants/02m/script.ru.txt) | [EN](variants/02m/script.en.txt) | Short, **исходник без изменений**; петля нуждается в independent + AV review | 220 |
+| **5 мин** | **[RU](variants/05m/script.ru.txt)** | **[EN](variants/05m/script.en.txt)** | **Long — рекомендована автором**, не approved | 701 |
+| 10 мин | [RU](variants/10m/script.ru.txt) | [EN](variants/10m/script.en.txt) | Long — полная альтернатива, больше фоновых событий | 1 446 |
 
-- [Полный русский сценарий](script.ru.txt) — editor/owner review, 15 complete blocks.
-- [English narration](script.en.txt) — exact proposed canonical source for future TTS/SRT, 219 words.
-- [Research, nine distinct events, three finalists and evidence matrix](research.md) — primary-source uncertainty, current queue, audience observations separately.
-- [Story/interest and exact bilingual loop review](story-review.md) — no independent first listener, AV seam UNVERIFIED.
-- [Provisional 15-scene storyboard](storyboard.json) — EN/RU aligned, AI image prompts, no finished images or timings.
-- [Packaging hypotheses](packaging-brief.md) — three meaningful title/thumbnail promise alternatives.
-- [Agent handoff](handoff.md) — permissions, source IDs, checks not yet executed and production gate.
+**Почему 5 мин:** кроме исчезновения озера, история подробно раскрывает цепочку предупреждения, поиск четырёх работников за пределами действия ламп, четыре рейса подъёмника, риски для людей на воде и смену течения. В 10 мин фактические подробности об устройстве шахты и расследовании информативны, но отдаляют главную развязку от зрителя. Это редакторская гипотеза, не измеренный retention.
 
-**Critical fact:** Original 1981 federal mine investigation did **not** determine the precise initial cause of the rig and mine collapse. Don't replace its caveat with the popular unsupported certainty of a drilling-coordinate mistake.
+**Оценка длительности:** ориентир 130–155 EN слов/мин без фактического TTS, плюс паузы и титры: 220≈1:25–1:42, 701≈4:31–5:24, 1446≈9:20–11:07. Измеренные длительности UNVERIFIED; скорость принятого голоса не менять ради целевой цифры. Short narrative loop относится только к 2m; 5/10 — поддерживаемые каналом Long 16:9, не Short.
+
+**Evidence и выбор:** [один общий research](research.md); [три story maps, точные SHA-256 и проверки](story-review.md); [передача и ограничения](handoff.md); [идеи упаковки](packaging-brief.md).
+
+**Сохранённый baseline:** PR #24 HEAD `ba17060d1da7cc1eba0b6cc71c43e36713da6b3e`; root `script.en.txt` Git blob `4ee16c8deab67716e9dd91b36b09925ab48c01e1`, root `script.ru.txt` Git blob `e17b099234c3a1edc5c9dd0ec08b4af899f35e3d`. Вариант `02m` идентичен root-источнику побайтово. Исходные root-тексты и `storyboard.json` **не заменены**. Старые 15 сцен, все точные spans, примерные тайминги и visual intent применимы ТОЛЬКО к root/02m; 5/10 не имеют раскадровки и не наследуют эти сцены автоматически.
+
+**Главный факт:** 1981 MSHA investigation не установило точную причину начала затопления. Не писать доказанную ошибку координат или подтверждённый момент пробоя буром. Отдельное производство — только через канонический pinned run, настоящие review/approval и выбранный exact master.

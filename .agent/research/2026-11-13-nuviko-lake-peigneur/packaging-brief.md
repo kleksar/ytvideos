@@ -31,3 +31,13 @@
 **Context tags:** `#Shorts #LakePeigneur #Louisiana #History #Engineering`. No guarantee of reach. Avoid unsupported claims such as 'one mistake destroyed a lake', '50-foot water depth before', or 'drillers knowingly ignored maps'.
 
 **Before final thumbnail generation:** use actual channel Nuviko History visual reference/profile and source-era geometry, create AI images only after exact script approval, inspect 320×180 browse impression and 9:16 Short/mobile crop, check source rights and misleading inference. No paid vidIQ balance spent, no title/thumbnail test scheduled.
+
+---
+
+## Варианты 5m/10m — editorial only (2026-11-18)
+
+Старые концепты выше относятся только к исходному Short/02m; не считать их принятыми названиями для Long и не переносить старые 15 сцен.
+
+**Для рекомендованного 5m:** предлагаемый вопросный титул `How Did an Entire Lake Drain Into a Mine — and Come Back?`. Первая визуальная проверка обещания — наклоняющаяся буровая и действие шахтёров; второй payoff — реальный канал, текущий в обратную сторону. Обложка: мелкий край озера и накренённая буровая над упрощённым разрезом соляной шахты; разрез — маркированная реконструкция, не документированная точка пробоя.
+
+**Для 10m:** предлагаемый титул `The Lake That Vanished — and the Cause Investigators Couldn't Prove`. Обложка может обещать следственную загадку только с оговоркой: доказанные события и **неустановленный** первичный триггер. Не рисовать доказанную ошибку координат бурения. Все концепты не прошли independent review/CTR.

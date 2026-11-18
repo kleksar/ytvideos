@@ -1,3 +1,16 @@
+
+## Обновление 18.11.2026: переработанная очередь, без production
+
+**Baseline PR #24:** `ba17060d1da7cc1eba0b6cc71c43e36713da6b3e`; `main` при чтении требований — `7c94f825056b98cb65d8de94dd3eec709cc78188`. Изменения только в папке этой истории. Сначала [README с шестью точными текстами](README.md) и [story-review с SHA-256](story-review.md), затем единый research. Это поздняя заметка выше архивного handoff; старые слова о *единственном Short* описывают исходную ветку, не текущий набор.
+
+**Редакторский результат:** 2m root EN/RU скопированы идентично в `variants/02m`, новые 5m/10m написаны в двух языках; 5m рекомендована, но не утверждена. Все тексты имеют свои hashes. Старые `storyboard.json` / визуальные spans / 76.8 s — **только прежний root/02m**, а не новая 5m/10m production раскадровка. Новая сцена требует точной выбранной версии/hash; числа сцен должны следовать тексту.
+
+**Hard blockers:** независимый cold reviewer и bilingual reviewer (`sessions.independent`) здесь не обнаружены; runtime `ytv start`, актуальный pinned packet, reviewer receipts, owner exact approval, TTS измерения, actual AV seam и media не выполнялись. Статус `EDITORIAL_CANDIDATE_UNREGISTERED`, а не `awaiting_script_approval`. Канал поддерживает Long, но формат 5m и 10m нельзя запускать без отдельного решения владельца; не перепривязывать pins другого run.
+
+**Перенос:** на локальном хосте после явного решения по exact тексту использовать актуальные AGENTS / ytv-start / task contract; зарегистрировать кандидата с полными EN/RU и story-review, получить реальную независимую проверку и ответ владельца. Никаких approval миграций и медиа без соответствующего источника полномочий.
+
+---
+
 ## Актуальный workflow — сверено с remote main
 
 Основа требований `main` `96c8fa1573c02e8e7987e272a569bf34f037691e`. Текущий канал Nuviko History **active**, а данный PR — не зарегистрированный `ytv start` run. Собственная `storyboard.json` — предварительный текстовый план сцен, не официальный completed `storyboard`. Ссылки на self-review и будущие voice timings не подтверждают `awaiting_script_approval` или независимый first-listener.

@@ -89,3 +89,23 @@ These are nine different events, not presentation variations. Nonfinalists were 
 - Exact genre diversity vs other drafts: human emergency response + geological transformation in 1980 Louisiana, not another theft, WWII military trap, famous inventor trivia or first-spaceflight accident.
 
 **Authorial decision:** advance Lake Peigneur to full text, not because sources are easy or video stats large, but because viewers get a series of meaningful changes followed by a full rescue and physical explanation. Failure mode to challenge independently: attention may weaken in S008–S009; if a cold viewer says 'understood but no need to continue', return to selection, not pass on structure alone.
+
+---
+
+## Дополнение доказательств к редакциям 5m/10m (18 ноября 2026)
+
+Единый research для всех вариантов. Источник каждого нового существенного утверждения ниже; текст не приписывает измерений внешнему автору.
+
+| Тезис добавленных Long | Поддержка и точное место | Граница |
+|---|---|---|
+| Ноябрь 1980, соль в куполе, room-and-pillar, уровни шахты и соседнее бурение | [MSHA 1981 Report of Mine Inundation](https://usminedisasters.miningquiz.com/saxsewell/1980_jefferson_island.pdf), печатные pp.1–5 и 15–18: структура Jefferson Island и drilling P-20 | Упрощённое объяснение геологии; не визуализировать точку разрушения как установленный факт |
+| Буровой инструмент застрял, затем платформа накренилась; люди покинули её | MSHA pp.16–19, протокол хода бурения; [современное событию сообщение UPI 21.11.1980](https://www.upi.com/Archives/1980/11/21/Drilling-rig-breaks-into-salt-mine-cavity-draining-lake/6665343630800/) | Хронология не доказывает, что бурение инициировало обрушение |
+| Гэддисон услышал перемещение бочек, дал сигнал тремя миганиями; четыре шахтёра находились вне ламп, Ла Саль вывез их; четыре лифтовых рейса 08:40–09:00; нет пострадавших | MSHA печатные pp.19–21; страница с этими действиями визуально проверена веб-просмотром 18.11.2026 | Не добавлять вымышленные реплики или точное время поездки Ла Саля |
+| Рыбаки смогли спастись, вода обнажила ил под лодкой | [Washington Post, репортаж 21.11.1980](https://www.washingtonpost.com/archive/politics/1980/11/22/an-end-of-the-world-scene-earth-swallows-lake-oil-rig/2ad5eddb-fbe0-46d3-b8b3-db18bd3266ac/) | Свидетельский рассказ, не подтверждение точного маршрута всех рыбаков |
+| Поток в воронку, баржи и буксир, обрушение берега, Delcambre Canal reversed, позже water refilled basin | MSHA pp.21–23; [UPI 21.11.1980](https://www.upi.com/Archives/1980/11/21/Drilling-rig-breaks-into-salt-mine-cavity-draining-lake/6665343630800/); [Louisiana Endowment](https://64parishes.org/entry/lake-peigneur-drilling-accident) | Высота водопада, количество судов и точная площадь потерь различаются по источникам; narration не закрепляет спорные числа |
+| Люди выжили, но работники лишились места работы; после затопления проверяли устойчивость соляного купола и безопасность территории | MSHA pp.1–3, задачи аварийного штаба, инспекции и последствия для занятости | Не утверждать, что все участки были немедленно пригодны для проживания |
+| Возможные механизмы разрушения и точная причина не установлена | MSHA pp.41–44: alternative hypothetical failure modes, Conclusions; [UPI 21.11.1980](https://www.upi.com/Archives/1980/11/21/Drilling-rig-breaks-into-salt-mine-cavity-draining-lake/6665343630800/) содержит раннюю оговорку | Не объявлять ошибку координат либо проход бурового долота в шахту доказанным результатом следствия |
+
+**Источниковая оговорка:** web PDF page image визуально проверена для страницы со спасением (печатная стр.20); повторный запрос другой PDF страницы вернул 502. Следственный вывод о невозможности установить точный триггер поддержан извлечённым текстом и исходной проверенной evidence matrix; визуальное подтверждение всех PDF страниц **UNVERIFIED**. Публичные просмотры сторонних роликов, упомянутые выше в старом исследовании, не являются измеренным viewer demand, CTR или удержанием этого канала.
+
+**Дополнительная ценность:** версия 5m добавляет наблюдаемые действия людей и конкретные последствия, версия 10m — проверенный механический и следственный контекст, а не новую драму с выдуманным виновным. Дата источника вторичных просмотров не равна дате исторического события 20.11.1980.
