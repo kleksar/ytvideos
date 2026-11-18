@@ -1,3 +1,8 @@
+## 2026-11-18 02m variant note (not a new approved thumbnail)
+
+Existing S001–S013 and opening-frame promises in this document describe the **unchanged root 199-word Short only**. The revised 190-word `variants/02m/` begins with the questioner's subtle head movement and Hans stopping after eight taps, not a close-up of an isolated math problem; its last line directs attention back to that movement. Thumbnail concept A (horse + knowledgeable person) remains a candidate, but new visual intent, scene spans and actual paper-diorama storyboard must be authored for the exact revised 02m hash before any images. Do not copy root S-ID timings, invent matching pixels or claim the visual seam is verified. No changes to approved root, scene media or ChannelSpec.
+
+---
 # Packaging brief — Paper Detour / Clever Hans (text-only concepts)
 
 **Current status:** three directions, not generated artwork, not actual thumbnails, not a final `ReleaseSpec`. Paper brand requires large short **physical paper lettering** on all thumbnail artwork. Shorts native display privileges the opening frame; this is only a working concept for accessible channel surfaces and packaging.

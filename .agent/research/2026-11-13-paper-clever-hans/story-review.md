@@ -1,4 +1,45 @@
-# Clever Hans — three duration editorial review (2026-11-18)
+# Clever Hans — current editorial review
+
+## 2026-11-18 — substantive 02m Short revision (unapproved alternative)
+
+**Why this revision:** The previous 02m copied the 199-word root and ended on a colon before its opening question. That was a syntactic continuation, not adequate evidence of a meaningful twice-through loop. The separate 02m version now opens on the *observable result* (a head moves; Hans stops at eight) and ends **after the complete explanation** with an invitation to inspect precisely that head. Literal textual join: EN `Watch the questioner's head.` → `The man's head moved. The horse stopped after eight taps.`; RU `Посмотрите на голову спрашивающего.` → `Человек чуть шевельнул головой. Лошадь остановилась после восьмого удара копытом.` The closing directive gives the opening action a new, causally understood meaning rather than relying on shared keywords or punctuation. This is an **authorial textual check**, not an independent double-read PASS or an AV-loop PASS.
+
+The new 02m independently tells the full progression: owner absent → examiner lacks the answer → examiner hidden → tiny involuntary cue → Pfungst reproduces the mechanism with a hand tap. Illustrative `3 + 5` is *not* represented as a verbatim recorded historical exchange. No new factual claims beyond the shared Pfungst research. English narration is 190 words (estimated ~1:15–1:45 at 130–150 wpm plus pauses, **NOT_MEASURED**). The full natural Russian equivalent is separately written.
+
+**Exact current six-text table:**
+
+| Target | Full RU | Full EN | EN words | SHA-256 EN | SHA-256 RU | Editorial position |
+|---|---|---|---:|---|---|---|
+| 02m / Short | [RU](variants/02m/script.ru.txt) | [EN](variants/02m/script.en.txt) | 190 | `7e053631046138ae48664c25c91f26becf8c90953bd219c5b695ff652ed759e2` | `3f8055c050e2f40820e8d813cd46e864dedd292af475a374239f8c5a13ba77ae` | **Revised; provisionally recommended**, independent EN/RU and AV loop UNVERIFIED |
+| 05m / Long | [RU](variants/05m/script.ru.txt) | [EN](variants/05m/script.en.txt) | 667 | `1f872d933deb459eff802ab455f101eb8e037c824963984dda0cbca9f8039a13` | `8959d978b857ac7bf5522f2392862e074d13525a3d2508927c57974a5d40a2b9` | Unchanged, richer measured controls, slower at percentages |
+| 10m / Long | [RU](variants/10m/script.ru.txt) | [EN](variants/10m/script.en.txt) | 1329 | `da092c0c9ffe987b559110add2826f93fc4e5a6e509c2e38e5956906fdc5b034` | `0782ec4dc60cf0f2a616c772ad84c885d4418bd7a0264f4464f44f9ca89324b2` | Unchanged, more experiments but repeated knowledge-dependence |
+
+**Preserved evidence:** the 199-word root EN/RU, old root-only 13-shot `storyboard.json`, research, old root-related review and artwork plan remain intact. Previous 02m SHA-256 EN `778133d5c2f39a5f47e31e1b2a8b13d24feb26961c6c54fe777b60681e54f745`, RU `fb4505fec1bd233f9104408f2e3ce84aae28d28d6ce343bf737fc549d0cc3e21` are historical **root** provenance only. The revised 02m is **not scene-covered** by `storyboard.json`: S001 now needs the examiner's head gesture and horse stopping, and the ending needs a visual return to that action. No old scene spans, timing, reviewer receipt or approval applies to new hashes. Do not manufacture 13 adapted scenes or regenerate media until actual approval.
+
+**Gate status:** `EDITORIAL_CANDIDATE_UNREGISTERED`; no independent first listener, no bilingual reviewer, no signed `ytv-script-review-v1`, no runtime selection, no owner approval, no voice measurement, no MP4 or verified AV seam. These stay `UNVERIFIED`.
+
+### Current 02m author evaluation — exact revised texts (not independent)
+
+| Editorial criterion | 02m / 10 | Specific basis / weakness / confidence |
+|---|---:|---|
+| Interest and significance | 8 | Head motion stops a horse at eight on the cold entry; the lesson about unconsciously cued tests remains broadly useful; MEDIUM editorial confidence, not demand evidence |
+| Opening promise | 8 | `The man's head moved. The horse stopped after eight taps.` then a precise 3+5 question; strong concrete action, but an untested viewer may find the horse/human link initially ambiguous |
+| Development and motivation to continue | 8 | Owner absent → unknown-answer collapse → blindsight restriction → direct observer mechanism; two consecutive controls may still feel technical; MEDIUM |
+| Payoff | 8 | Pfungst reproduces tapping with his own hand, then explicit non-arithmetic explanation before the last line; MEDIUM |
+| Fresh angle | 7 | Focus on human micro-movement rather than magical horse; Hans is still a widely retold story; MEDIUM |
+| Visual expressiveness | 8 | One observable head motion, hoof, blinders, controlled hands; visual construction still UNVERIFIED without new storyboard |
+| Natural oral speech and clarity | 8 | Verbs describe action instead of an abstract puzzle; final directive is comprehensible but must be heard twice by an external listener; MEDIUM |
+| Independently confirmed audience interest | UNVERIFIED | No own-channel CTR, watch time or like-for-like retention measurement exists in this review |
+
+**02m hard checks:** Fact check AUTHOR_CHECKED against existing primary research (1904 testing and Pfungst's human reproduction; `3+5` expressly illustrative); EN/RU AUTHOR_CHECKED for action and meaning; cold open AUTHOR_CHECKED; complete payoff before restart AUTHOR_CHECKED; direct end→start causal instruction AUTHOR_CHECKED twice in text only, **independent twice-through listener UNVERIFIED**; new hash means old verdicts/stage receipts INVALID for new 02m; MP4 AV seam UNVERIFIED; actual TTS timing UNVERIFIED. This is a new optional editorial variant, **not an approved production master**.
+
+**Comparison after revision:** 02m now has a concrete result-and-reinterpretation arc rather than a dangling punctuation bridge. Moving to 05m adds actual conditional percentages and the 13→20 deliberate overshoot, which deepen test methodology but slow the point where the mechanism is understood. Moving to 10m adds alternative auditory cues, written words and measurement, but repetition of unknown-answer cases after the payoff is the likely point of attention loss. Short remains **provisional recommendation**, not a mandate. Confidence: MEDIUM for structure, HIGH for cited primary experiments, NONE for independent viewers.
+
+---
+## Archived prior editorial review (exact earlier 02m/root before this revision)
+
+The below is preserved as historical review/evidence for the **old** 199-word root and the unchanged 05m/10m. Its old 02m hashes, 13-scene mapping and colon loop description do **not** apply to the revised 02m scripts linked above. Consult the current table first.
+
 
 ## One story, full editions and baseline
 

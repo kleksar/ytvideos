@@ -1,3 +1,25 @@
+# Clever Hans — editorial variants, current status
+
+## 2026-11-18 — substantive 02m Short revision (unapproved alternative)
+
+**Why this revision:** The previous 02m copied the 199-word root and ended on a colon before its opening question. That was a syntactic continuation, not adequate evidence of a meaningful twice-through loop. The separate 02m version now opens on the *observable result* (a head moves; Hans stops at eight) and ends **after the complete explanation** with an invitation to inspect precisely that head. Literal textual join: EN `Watch the questioner's head.` → `The man's head moved. The horse stopped after eight taps.`; RU `Посмотрите на голову спрашивающего.` → `Человек чуть шевельнул головой. Лошадь остановилась после восьмого удара копытом.` The closing directive gives the opening action a new, causally understood meaning rather than relying on shared keywords or punctuation. This is an **authorial textual check**, not an independent double-read PASS or an AV-loop PASS.
+
+The new 02m independently tells the full progression: owner absent → examiner lacks the answer → examiner hidden → tiny involuntary cue → Pfungst reproduces the mechanism with a hand tap. Illustrative `3 + 5` is *not* represented as a verbatim recorded historical exchange. No new factual claims beyond the shared Pfungst research. English narration is 190 words (estimated ~1:15–1:45 at 130–150 wpm plus pauses, **NOT_MEASURED**). The full natural Russian equivalent is separately written.
+
+**Exact current six-text table:**
+
+| Target | Full RU | Full EN | EN words | SHA-256 EN | SHA-256 RU | Editorial position |
+|---|---|---|---:|---|---|---|
+| 02m / Short | [RU](variants/02m/script.ru.txt) | [EN](variants/02m/script.en.txt) | 190 | `7e053631046138ae48664c25c91f26becf8c90953bd219c5b695ff652ed759e2` | `3f8055c050e2f40820e8d813cd46e864dedd292af475a374239f8c5a13ba77ae` | **Revised; provisionally recommended**, independent EN/RU and AV loop UNVERIFIED |
+| 05m / Long | [RU](variants/05m/script.ru.txt) | [EN](variants/05m/script.en.txt) | 667 | `1f872d933deb459eff802ab455f101eb8e037c824963984dda0cbca9f8039a13` | `8959d978b857ac7bf5522f2392862e074d13525a3d2508927c57974a5d40a2b9` | Unchanged, richer measured controls, slower at percentages |
+| 10m / Long | [RU](variants/10m/script.ru.txt) | [EN](variants/10m/script.en.txt) | 1329 | `da092c0c9ffe987b559110add2826f93fc4e5a6e509c2e38e5956906fdc5b034` | `0782ec4dc60cf0f2a616c772ad84c885d4418bd7a0264f4464f44f9ca89324b2` | Unchanged, more experiments but repeated knowledge-dependence |
+
+**Preserved evidence:** the 199-word root EN/RU, old root-only 13-shot `storyboard.json`, research, old root-related review and artwork plan remain intact. Previous 02m SHA-256 EN `778133d5c2f39a5f47e31e1b2a8b13d24feb26961c6c54fe777b60681e54f745`, RU `fb4505fec1bd233f9104408f2e3ce84aae28d28d6ce343bf737fc549d0cc3e21` are historical **root** provenance only. The revised 02m is **not scene-covered** by `storyboard.json`: S001 now needs the examiner's head gesture and horse stopping, and the ending needs a visual return to that action. No old scene spans, timing, reviewer receipt or approval applies to new hashes. Do not manufacture 13 adapted scenes or regenerate media until actual approval.
+
+**Gate status:** `EDITORIAL_CANDIDATE_UNREGISTERED`; no independent first listener, no bilingual reviewer, no signed `ytv-script-review-v1`, no runtime selection, no owner approval, no voice measurement, no MP4 or verified AV seam. These stay `UNVERIFIED`.
+
+## Original README retained as historical context
+
 # Clever Hans — editorial duration variants (2026-11-18)
 
 **Provisional choice:** ~2m Short. The original short is more focused on the horse puzzle and already has full payoff. Five and ten minutes have full, independently structured source-grounded EN/RU narrations, but growing methodology slows the immediate story. The 02m colon seam is **not a verified loop** until a genuine twice-through first listener and MP4 check.
