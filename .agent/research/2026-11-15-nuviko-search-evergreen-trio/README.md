@@ -1,3 +1,22 @@
+# 2026-11-18 editorial revision: first of three stories now has its own complete 2/5/10m package
+
+**Same PR, not a new topic.** Initial baseline HEAD `7d4ce6b016132ce57a788b35773dfb7fc2d779fa` contained **three different stories**, each at one different length. Those are NOT equivalent to a 2/5/10m package for any one story. **Chernobyl AZ-5** has now been completed as one three-length set with full EN/RU, while **Titanic** and **Alexandria** remain **INCOMPLETE_3_VARIANTS**. Their original scripts, research and review are intact. Entire PR **NOT COMPLIANT YET**.
+
+| One story / target (Nuviko History Long 16:9) | Complete RU | Complete EN | EN words / status |
+|---|---|---|---|
+| Chernobyl 02m | [RU](10-chernobyl-az5/variants/02m/script.ru.txt) | [EN](10-chernobyl-az5/variants/02m/script.en.txt) | 353 · new complete compact explanation |
+| **Chernobyl 05m** | **[RU](10-chernobyl-az5/variants/05m/script.ru.txt)** | [EN](10-chernobyl-az5/variants/05m/script.en.txt) | 899 · **editorially recommended** for best causal clarity |
+| Chernobyl 10m | [RU](10-chernobyl-az5/script.ru.txt) | [EN](10-chernobyl-az5/script.en.txt) | 1600 · original strong complete source kept byte-for-byte |
+
+[Updated three-version scores, exact six SHA-256 and story maps](10-chernobyl-az5/story-review.md) · [shared fact research](10-chernobyl-az5/research.md) · [runtime handoff](10-chernobyl-az5/handoff.md).
+
+**Before → after:** 1x 10m EN/RU Chernobyl → 3 complete 2/5/10m EN/RU Chernobyl, 4 genuinely new full scripts. 02m adds a compact independent explanation; 05m provides a clearer, causally staged story; original 10m serves deeper technical inquiry. All three are Long, so narrative Shorts loop = N_A. Time targets are estimates only (at assumed EN 165 wpm: ~128s, ~327s, ~582s before pauses). No measured voice, real AV seam, reviewer approval, audience results, media or official runtime; `EDITORIAL_CANDIDATE_UNREGISTERED`.
+
+**Unfinished next:** Titanic needs its own 05m/10m full EN/RU, then Alexandria needs its own 02m/10m full EN/RU. Every story requires separate hashes, source evidence, eight criteria and duration comparison. Existing concepts are preserved rather than discarded. No merge, scheduling or production authorized.
+
+---
+
+## Historical initial three-story slate (preserved)
 EDITORIAL_CANDIDATE_UNREGISTERED: three scripts in one PR; none has passed the official ytv script gate.
 
 # Search-first evergreen slate — Nuviko History
