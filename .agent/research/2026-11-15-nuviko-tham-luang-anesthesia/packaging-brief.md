@@ -1,3 +1,16 @@
+# Packaging / variant-specific note, 2026-11-18
+
+**Three editorial alternatives** in [README](README.md); provisional **5m Long**. Current title/thumbnail suggestions below are archived preliminary concept options, not assets generated or validated on the new exact script. The phrase “put to sleep” is colloquial; actual method was medically administered anaesthesia with full-face oxygen masks. Any image must not assert a real photographed frame, actual person identity or a screaming patient. Exact visual spans may only be prepared after the chosen master is selected.
+
+- 02m: opening promises the ability to get thirteen back despite lack of cave-diving training; answer includes sedation, masks, trained teams, 4+4+5, no fictional scene.
+- 05m: add why waiting fails (lowering oxygen/rain), fatal supply mission, competing risks of mask leak and panic, repeat dosing and equipment replenishment; show medical mask and route without inventing emergency.
+- 10m: adds extensive dive and medical logistics, reported airway issue and post-rescue pump failure; photography of a specific complication must not masquerade as eyewitness record.
+- **Long ending bridge:** per canonical editorial `story-linked-endings`, a true next-video input is not identified/approved; **BLOCKED** for exact bridge/clip, do not invent target, intro or click element. The complete current-story payoff remains in each narration.
+
+---
+
+## Archived prior packaging brief (historical proposals, not refreshed title approval)
+
 # Packaging brief — Tham Luang, 2018
 
 EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официальному ytv script gate.

@@ -1,3 +1,25 @@
+EDITORIAL_CANDIDATE_UNREGISTERED — no official saved run, independent reviewer receipt or user approval.
+
+# Current handoff — Tham Luang, PR #113
+
+Baseline branch head `45ef2af6b77bf5215f0203ffd1482668754e3712` → newly added **three** pairs of complete texts in `variants/02m`, `variants/05m`, `variants/10m`. Root `script.en.txt` and `script.ru.txt`, baseline Git blobs and legacy 44-scene storyboard remain **unchanged**. Exact new SHA-256 and filenames: [story-review](story-review.md). The prior root review, timings and visual spans do not apply to new variants. Research is one shared [research.md](research.md), with new claims audited per version.
+
+| Ориентир | Формат | Полный EN | Полный RU | EN words | Статус |
+|---|---|---|---|---:|---|
+| 02 min | Long 16:9 | [script.en.txt](variants/02m/script.en.txt) | [script.ru.txt](variants/02m/script.ru.txt) | 286 | Полный редакционный кандидат; review независимый UNVERIFIED |
+| 05 min | Long 16:9 | [script.en.txt](variants/05m/script.en.txt) | [script.ru.txt](variants/05m/script.ru.txt) | 643 | Полный редакционный кандидат; review независимый UNVERIFIED |
+| 10 min | Long 16:9 | [script.en.txt](variants/10m/script.en.txt) | [script.ru.txt](variants/10m/script.ru.txt) | 1600 | Полный редакционный кандидат; review независимый UNVERIFIED |
+
+**Author's recommended draft: 5m**, purely editorial. Check independent blind first-listener and bilingual review on **exact six bytes**, give reviewers the opening and full EN/RU without author's scores, reveal evidence only after first pass; a reviewer may prefer root or reject all variants. Tools for an independent reviewer, local CLI `uv run ytv` and pinned runtime were not available in this host. No genuine `ytv-script-review-v1`, task receipt, official `start`, `awaiting_script_approval`, owner approval or media produced. Do not invent these.
+
+To transfer *after an explicitly permitted production workflow*, use a real local checkout with a working runtime, first read `AGENTS.md`, pinned channel specification, `status` and any existing run; avoid duplicating runs. Where no run exists, perform `uv run ytv start --channel nuviko_history --format long --intent 'редакционная заявка Tham Luang'`; read `plan_summary`, `read_next`, pinned skill and every `reference_documents`. Attach alternatives by `attach-artifact --kind script_variant` and reviewed comparison by `--kind story_review` only as instructed by exact pinned task contract. Propose one selected EN hash for owner approval. **Do not** call it source-script approval simply because it appears in Draft PR. No pins may be replaced from current checkout without explicit migration.
+
+After selection, create a new storyboard bound to exact selected variant EN and RU hashes, then only on separate authorized production request proceed further. The old 44 scenes remain archival. No media, TTS, external video provider, render, YouTube upload, schedule, or merge was invoked here.
+
+---
+
+## Archived historical handoff (pre-variants; outdated current-status fields)
+
 EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официальному ytv script gate.
 
 # Handoff — Nuviko History / Tham Luang rescue

@@ -1,3 +1,103 @@
+# Story review — Tham Luang, three exact editorial alternatives
+
+**EDITORIAL_CANDIDATE_UNREGISTERED / AUTHORIAL REVIEW ONLY.** This section assesses *new exact text bytes*, not the unchanged root narration or its former storyboard. Independent fresh first-listener and bilingual reviewer: **UNVERIFIED**. Owner approval and runtime: **NOT GRANTED / UNREGISTERED**. Main canonical requirements at `67d9ed5dd63adc27250b6a286fdf40544b9a73c0` include merged #124.
+
+**PR #113 pre-write baseline:** `45ef2af6b77bf5215f0203ffd1482668754e3712`. The protected original root `script.en.txt` blob `b721ca6cd1cd3db9aa415b04e0ebe8b9c02d4952` and `script.ru.txt` blob `01bb090125fc190a58f7abd325c0a0172a43f726` are **unchanged**. No existing approval, media or runtime pins were transferred to the new variants. New full scripts were introduced in sequential FF-only commits on the **same** PR branch.
+
+## Exact versions, authorial comparison
+
+| Ориентир | Формат | Полный EN | Полный RU | EN words | Статус |
+|---|---|---|---|---:|---|
+| 02 min | Long 16:9 | [script.en.txt](variants/02m/script.en.txt) | [script.ru.txt](variants/02m/script.ru.txt) | 286 | Полный редакционный кандидат; review независимый UNVERIFIED |
+| 05 min | Long 16:9 | [script.en.txt](variants/05m/script.en.txt) | [script.ru.txt](variants/05m/script.ru.txt) | 643 | Полный редакционный кандидат; review независимый UNVERIFIED |
+| 10 min | Long 16:9 | [script.en.txt](variants/10m/script.en.txt) | [script.ru.txt](variants/10m/script.ru.txt) | 1600 | Полный редакционный кандидат; review независимый UNVERIFIED |
+
+Estimated duration is **not measured**: assume roughly 130–165 spoken EN words/minute including channel voice speed, plus pauses. Approximate speech-only ranges: **2m 1:44–2:12**, **5m 3:54–4:57**, **10m 9:42–12:18**; actual TTS/pacing may differ. No forced pace, no Short label, no Short loop. All three use supported Nuviko History Long (16:9) *editorially*, not production authorization.
+
+### SHA-256 of exact UTF-8 files (calculated on connector read-back)
+
+| Variant | EN SHA-256 | RU SHA-256 | EN / RU Git blob | EN / RU paragraph pairs |
+|---|---|---|---|---|
+| 02m | `6a9e97d1c87c46bfa6ed5fe5047072bc7156f8fcfdc431f56987d63b348e9db2` | `793361ca38655864f47fa7d17dd356774ff8c249bbd79d225c102fcf96694101` | `7fdfd49112c06e7912f115a55e4c6056d9001da9` / `8f115e578d8eecd743f0aaaaffb3dd6b9f7fba5f` | 8 / 8 |
+| 05m | `44ad8d329a4df4c41855d1b35918dc686a6e23aff1e8a6ff350945b474c22d66` | `5af4f300f7b122a4267299653367cc699b9f094d729b1a4918e181e53ea257d9` | `6712f186cc8c41aa8b8bd4b1367962386c3cf610` / `d9ab36936a3c57cccf1e936f034be5a5386c8341` | 14 / 14 |
+| 10m | `4f13bfaf62126f3bb0b0fa1c8db1fb63e2af78e57148f096beb590be5375c74c` | `d776ff79bb1489475ed0b6332bcb61a8cddf858a8114a400ccc722adf91e0271` | `7dfe317ead7e1f41f8753fd15f2be0ff636ef301` / `66a3385f0398646d40d33cdd616a16fb99aa3f45` | 32 / 32 |
+
+## Three distinct story maps
+
+| Version | Questions → events → consequences → payoff | Added value |
+|---|---|---|
+| 2m | Вопрос «почему не ждать?» → обнаружение живых → смертельно опасный путь и нехватка кислорода → смерть Самана → анестезия и защита дыхания → 4+4+5 → все живы. | Один основной механизм, без истории медицинской подготовки. |
+| 5m | Три вопроса → семьи, поиск и обнаружение → маршрут, ждать/не ждать, 15% O₂ → гибель на снабжении → Харрис/Чаллен, компромисс наркоза → повторные дозы, сухие участки → первые 4, пополнение, остальные 9 → медицинский итог. | Решения, почему ждать нельзя, и риск самого метода раскрыты через действия участников. |
+| 10m | Вопросы → пропавшие и девять суток поиска → особенности пещерного дайвинга и обнаружение → варианты бурения/откачки и воздух → гибель Самана → врачебная и инженерная подготовка → реальный дыхательный эпизод → транспортировка и field hospital → 4+4+5 → отказ насосов после спасения → цена и границы метода. | Новые подтверждённые процессы и последствия, но плотность медицинских деталей возрастает. |
+
+## Eight editorial criteria per *exact* text
+
+**2m — recommended only as fallback for a compact video.**
+
+| Criterion | Author score | Grounding and specific weakness | Confidence |
+|---|---:|---|---|
+| Interest/significance | 8/10 | Thirteen trapped people; swift relief, but known famous ending | medium |
+| Opening | 8/10 | Two questions about extraction and waiting, followed by June flood | medium |
+| Development / why continue | 7/10 | July 2 discovery changes task, Kunan's death changes risk; medical plan simplified | medium |
+| Payoff | 8/10 | All 13 alive after 4+4+5; clear difference from learning to dive | high on textual completion |
+| Freshness of angle | 5/10 | Focus on medical tradeoff, but event widely covered; no novel exclusive | high |
+| Visual expression | 7/10 | Ledge, mask, cylinders, diver route; compressed staging leaves little room | medium |
+| Spoken naturalness and clarity | 8/10 | Verbs like found, carried, trained; no invented dialogue, but anaesthesia still needs explanation | medium (silent author read) |
+| Verified audience interest | UNVERIFIED | neo public comparison ~0.83× same-author median, not own-channel demand or CTR | low |
+
+**5m — provisional editorial recommendation.**
+
+| Criterion | Author score | Grounding and specific weakness | Confidence |
+|---|---:|---|---|
+| Interest/significance | 8/10 | Discovery of all alive creates unexpectedly harder problem; familiar outcome limits surprise | medium |
+| Opening | 8/10 | Three different answerable questions, no immediate sedation reveal | medium |
+| Development / why continue | 9/10 | Unsafe route → 15% oxygen → death → anaesthetic tradeoff → first extraction and resupply pause | medium |
+| Payoff | 8/10 | 4+4+5 and field care complete all questions; last sentence risks summarizing teamwork | medium |
+| Freshness of angle | 5/10 | Clinical mechanism is a specific angle, not new historical evidence | high |
+| Visual expression | 8/10 | Route, full-face mask, dry transfer, interval and medical handoff vary visual function | medium |
+| Spoken naturalness and clarity | 8/10 | Concrete actions by Harris, Challen and divers; medical terms explained, although middle remains dense | medium (silent author read) |
+| Verified audience interest | UNVERIFIED | No own-channel CTR, retention, search-volume or independent first-listener | low |
+
+**10m — complete documentary alternative, not automatic best.**
+
+| Criterion | Author score | Grounding and specific weakness | Confidence |
+|---|---:|---|---|
+| Interest/significance | 8/10 | Wider moral and rescue-system story, but known outcome | medium |
+| Opening | 8/10 | Three distinct questions tied to oxygen, waiting and unconscious extraction | medium |
+| Development / why continue | 8/10 | Search, dive geometry, alternatives, Kunan, medical decision, first-day breathing scare; middle becomes technical | medium |
+| Payoff | 8/10 | All thirteen survive; pump failure afterward gives consequence to urgency without sensationalism | medium |
+| Freshness of angle | 5/10 | New explanatory details vs short cut, not fresh exclusive reporting | high |
+| Visual expression | 8/10 | Chambers, supply chain, patient handover, clinical detail; risk repeated cave shots | medium |
+| Spoken naturalness and clarity | 7/10 | Mostly action-based, but surgical/medical exposition may be heavy for a broad first-time viewer | medium (silent author read) |
+| Verified audience interest | UNVERIFIED | Public views do not predict audience response to this length; no measured retention | low |
+
+### Additive value and potential drop-off
+
+- **2 → 5:** we gain the 15% oxygen figure, uncertainty of waiting, Harris/Challen clinical assessment, the leak-versus-panic tradeoff, diver redosing, dry transfer and resupply break. These are distinct *causal decisions*. In 2m the drop risk is the quick shift from Kunan to anaesthesia: viewers may wonder why a child could breathe while unconscious.
+- **5 → 10:** we gain the logistics of finding the group, alternatives such as drilling, why cave diving differs from scuba, equipment/airway tradeoffs, Harris's reported breathing difficulty in one child, field-hospital care and post-rescue pump failure. The viewer learns why this was a whole-system rescue rather than only a drug. The interest loss begins in the longer section between mask mechanics, medication renewal and team handoffs **after** the main sedation reveal.
+- **Recommendation: 5m**, because its sequence has the clearest chain of new obstacles, concrete decisions and payoffs without the 10m clinical density. This is a provisional author judgement, **not approval, live evidence, or permission for three productions**.
+
+### Hard checks — not averaged into scores
+
+| Check | 02m | 05m | 10m |
+|---|---|---|---|
+| Complete question, decision, payoff | AUTHOR PASS | AUTHOR PASS | AUTHOR PASS |
+| Historical main claim cross-check | AUTHOR PASS, source limitations below | AUTHOR PASS, source limitations below | AUTHOR PASS, extra evidence below |
+| EN/RU ordered paragraph count | 8 / 8 | 14 / 14 | 32 / 32 |
+| EN/RU meaning equivalence | AUTHOR CHECK; independent UNVERIFIED | AUTHOR CHECK; independent UNVERIFIED | AUTHOR CHECK; independent UNVERIFIED |
+| Long 16:9 supported by ChannelSpec | YES | YES | YES |
+| Short loop | N_A | N_A | N_A |
+| Independent first-listener + bilingual review exact hashes | UNVERIFIED | UNVERIFIED | UNVERIFIED |
+| Narration timing, TTS, MP4, AV | UNVERIFIED | UNVERIFIED | UNVERIFIED |
+| Registered `ytv start` + pins | NO | NO | NO |
+| Owner approval / production | NO | NO | NO |
+
+**Hard limitation:** the existing `storyboard.md` contains 44 scene spans for the **unchanged root** EN/RU Git blobs only. It does *not* cover any of these six new files. Do not reuse its 44 scenes, estimated timings, visual prompts or old reviews as exact-version evidence. New storyboard follows selection and runtime registration.
+
+**Reviewer protocol:** deliver opening + complete exact variant EN/RU **without this verdict or scores**, allow reviewer to prefer unchanged root or reject alternatives, reveal sources after first reading, preserve actual receipt if a reviewer capability exists. Reviewer tool not exposed in this host; no receipt, fabricated PASS or `awaiting_script_approval` transition. Official task must later use pinned `ytv start`, `read_next` and `attach-artifact` for the exact selected file/hash.
+
+## Archived review of unchanged legacy root (historical only)
+
 # story-review — revised author-only editorial check
 
 EDITORIAL_CANDIDATE_UNREGISTERED. No independent review, approval or runtime receipt.

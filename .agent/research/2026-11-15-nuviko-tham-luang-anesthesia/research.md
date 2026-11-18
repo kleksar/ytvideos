@@ -1,3 +1,29 @@
+# Research update — three complete Tham Luang versions, 2026-11-18
+
+Scope: editorial variants only in existing PR #113, baseline `45ef2af6b77bf5215f0203ffd1482668754e3712`. Root EN/RU and their approved-looking but *unapproved* 44-scene preliminary storyboard remain unchanged. Independent review and runtime unavailable.
+
+**Event → new information → cause → consequence → next question → evidence:**
+
+| Event | New information / why it matters | Next question | Evidence |
+|---|---|---|---|
+| 23 June entry, 2 July found alive | Rescue becomes extraction through submerged rock, not search for survivors | How cross route with novice children? | [Australian DFAT timeline](https://www.dfat.gov.au/crisis-hub/thailand-cave-rescue); [ABC 2018](https://www.abc.net.au/news/2018-07-15/thai-cave-rescue-australian-diver-craig-challen-boys-sedation/9995830) |
+| Oxygen reportedly ~15%, future rain | Waiting in place has its own risk; pumping and cylinders cannot guarantee dry cave | How fast must extraction happen? | [Guardian, 6 July 2018](https://www.theguardian.com/world/2018/jul/06/former-thai-navy-seal-diver-saman-kunan-dies-from-lack-of-air-inside-cave) |
+| Saman Kunan dies on resupply mission (5/6 July reporting variance) | A professional dies on same physical route; conscious novice escort unacceptably risky | What alternative remains? | [Guardian 6 July](https://www.theguardian.com/world/2018/jul/06/former-thai-navy-seal-diver-saman-kunan-dies-from-lack-of-air-inside-cave); [DFAT](https://www.dfat.gov.au/crisis-hub/thailand-cave-rescue) reports 5 July; exact timezone/date **disputed in source reporting** |
+| Harris/Challen assess, ketamine-based anaesthesia and positive-pressure full-face masks | Prevent panic, but patient cannot report a breathing failure; medical + diver logistics needed | Can anaesthesia be renewed en route? | [ABC 15 July](https://www.abc.net.au/news/2018-07-15/thai-cave-rescue-australian-diver-craig-challen-boys-sedation/9995830); [NEJM 2019](https://www.nejm.org/doi/abs/10.1056/NEJMc1900831) |
+| Harris trains divers to re-dose | Drug may last under an hour vs ~3h evacuation | Will the first four patients survive? | [ABC 26 July](https://www.abc.net.au/news/2018-07-26/doctor-harry-harris-trained-thai-rescuers-to-administer-sedative/10039674) |
+| Harris reports one boy's breathing trouble after anaesthesia | 10m uses genuine reported airway complication, **not** an invented underwater failure or fabricated last-minute rescue | How maintain safe handoff? | [SWAN conference account, 31 July 2018](https://www.thenewdaily.com.au/news/people/2018/07/31/richard-harris-thai-cave-sedatives); **secondary account, medium confidence**; no imaginary words/motive |
+| First four received medically, cold and on oxygen | Success requires careful field transfer, not merely arrival near cave mouth | Can route be resupplied? | [NEJM 2019](https://www.nejm.org/doi/abs/10.1056/NEJMc1900831) |
+| 8 July 4; 9 July 4; 10 July 5 | Pause to replenish air and recover divers is causally important; all 13 survive | Was there still risk to crews? | [DFAT official timeline](https://www.dfat.gov.au/crisis-hub/thailand-cave-rescue); [Guardian 9 July](https://www.theguardian.com/world/live/2018/jul/09/thai-cave-rescue-resumes-to-free-eight-boys-and-coach-still-trapped-latest-news) |
+| Pump failure after final group | Reported water rise during withdrawal underscores unstable window; **not claimed as the cause of earlier choice** | Why does the rescue system matter as much as sedation? | [Guardian 11 July](https://www.theguardian.com/news/2018/jul/11/thailand-cave-rescue-water-pumps-failed-just-after-last-boy-escaped) |
+
+**New 10m coverage audit:** search/dive constraints, possible drilling, rescue oxygen levels and resupply, protective gear, Harris and Challen, training divers, medical complication and field handoff, water-pump failure. Date and specific clinical details above retain their source limits. Do not invent child identity/order, quotes, consciousness mid-dive, motive or claims that drugs alone saved everyone. Demand: older neo public comparison ~0.83× four-video same-author median, *not current 2026 demand*. Own CTR, retention, first-listener, audience comments and actual timings **UNVERIFIED**.
+
+**Story-map hashes / individual scores:** [story-review](story-review.md). **Full scripts:** [2m EN/RU](variants/02m/), [5m EN/RU](variants/05m/), [10m EN/RU](variants/10m/). No 2026 trend or independent audience response asserted.
+
+---
+
+## Previously preserved research
+
 # Research — Tham Luang: unconscious through the flooded cave
 
 ## Содержательная правка 2026-11-15 — baseline `55302e62a953c72534334b4ad0902aef2fd568e3`
