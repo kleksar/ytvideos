@@ -1,0 +1,15 @@
+I followed the nearest item in a grocery store. Somehow, I walked almost twice as far as I needed to.
+
+Here's a small, made-up store map, not a filmed shopping trip. Five things on my list: bread, coffee, pasta, oil, and eggs. I start at the left entrance. The checkout is on the right. Every square of walking counts as one step; diagonals don't count.
+
+I'm comparing two rules. A: always walk to whichever remaining item is closest right now. B: clear the items from left to right, one section at a time. Same shelves, same starting point, same checkout. Which would you pick?
+
+With A, bread is closest, so I get it first. Oil is closest after that, then pasta, then eggs. It feels efficient. But the coffee is still back near the entrance. I walk twelve squares back to it, then fourteen more to reach checkout.
+
+The full A route is forty squares. With B, I collect bread, coffee, oil, pasta, and eggs in that order. I finish beside the checkout: twenty-two squares.
+
+Then I move just the oil two columns to the right on the map and run both rules again. Now the nearest-item route gets the coffee early. A takes twenty-four squares; the left-to-right sweep takes twenty-eight. The winner flips.
+
+This isn't a claim about your actual supermarket. I haven't timed shoppers or measured real aisles. The lesson in this model is that the next closest item isn't necessarily part of the shortest complete trip. A decision can look smart at one shelf and cost you the entire walk back.
+
+So before my next grocery run, I have one question: which item looks closest right now?
