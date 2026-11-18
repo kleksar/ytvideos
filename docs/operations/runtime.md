@@ -9,7 +9,7 @@
 - Исполнитель GPT-6 Luna и доступные tools, независимые sessions/subagents и реальные concurrency caps.
 - Image generation: submit/wait/poll/reconcile, job handles, ограничения контекста и reset/reuse.
 - TTS: нужный voice ID, аккаунт, формат и квота; renderer/FFmpeg/ffprobe, разрешённые encoder/font/profile.
-- `audio.listen`: доступное реальное прослушивание narration и финального микса. Анализ сигнала/word map не подтверждает эту capability.
+- `audio.listen`: доступное реальное прослушивание narration и финального микса. Анализ сигнала/word map не подтверждает эту capability. Её отсутствие допускает [производство preview с UNVERIFIED](task-contract.md#audio-production-before-listening), но не финальную приёмку.
 - Workspace/artifact storage, права чтения/записи и доступность нужных immutable inputs.
 - YouTube channel OAuth, API quota и обязательные Studio functions; календарная политика/timezone.
 - Approval: по умолчанию локальный координатор записывает явное решение владельца через `approve`, без ключей/hooks. `doctor` показывает `approval.local_session`; при настроенном публичном ключе — signed verifier и состояние внешнего bridge.

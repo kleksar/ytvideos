@@ -34,7 +34,7 @@ uv run ytv profiles --channel paper_detour --format short
 | Повторы и восстановление | Durable operations, request/event dedup, code/profile/skills pins, dependency invalidation | `UNKNOWN` сверяется с provider evidence; exactly-once внешнего API не заявляется. Старые runs не мигрируют автоматически. |
 | Выпуск после поручения | ReleaseSpec, remote evidence, календарные ограничения и deferred actions | Нужны actual OAuth/Studio adapters, проверенный календарь и исполнитель pending Public/A/B tasks. Запись задачи не означает фоновое наблюдение. |
 
-`audio.listen` означает доступный способ реально прослушать звук с evidence. FFmpeg, decode и график сигнала не предоставляют этот способ. Незарегистрированную capability сначала проверить и записать; фактически отсутствующая capability блокирует зависимые этапы, сохраняя доступную независимую работу.
+`audio.listen` означает доступный способ реально прослушать звук с evidence. FFmpeg, decode и график сигнала не предоставляют этот способ. Незарегистрированную capability сначала проверить и записать; фактически отсутствующая capability блокирует зависимые этапы, кроме явно разрешённой [производственной отсрочки прослушивания](task-contract.md#audio-production-before-listening). Финальная проверка сохраняет реальные требования.
 
 ## Зависимости автономного host
 

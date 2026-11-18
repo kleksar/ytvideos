@@ -289,7 +289,7 @@ Sidecar `MP4.montage_trial.json` связывает exact manifest/input/documen
 
 ### Музыкальный рендер
 
-`music_first` исполняется по принятому typed edit-script. Audio task требует `audio.mix` и `audio.listen`; `vocal` также использует `subtitle.align`, а `instrumental` завершает subtitles через `no_speech`. Читать точные checks и output kind из task context и `task_guide.music_edit`. Регистрация исходников и `rights_evidence` сохраняет bytes; право использования подтверждается отдельной проверкой.
+`music_first` исполняется по принятому typed edit-script. Audio task требует `audio.mix`; прослушивание учитывается по [production before listening](#audio-production-before-listening); `vocal` также использует `subtitle.align`, а `instrumental` завершает subtitles через `no_speech`. Читать точные checks и output kind из task context и `task_guide.music_edit`. Регистрация исходников и `rights_evidence` сохраняет bytes; право использования подтверждается отдельной проверкой.
 
 Подготовить source audio через `execute-media` с `kind: mix` и [общим manifest](#media-изображения-release) `ytv-source-audio-v1`. Для музыки segments имеют IDs и порядок принятого плана, идут непрерывно из одной зарегистрированной записи с `gain: 1`. Native executor возвращает `mix_evidence: {path,sha256}`: JSON `ytv-source-mix-evidence-v1` связывает `audio_sha256`, список `track_sha256`, actual `argv`, `returncode: 0`, `execution` и `source_plan` records. В `audio` receipt включить этот record в `checks.source_identity.observed.mix_evidence`; прослушивание и применимый `no_speech` сохраняются отдельными checks.
 
@@ -481,7 +481,7 @@ uv run ytv approve --run RUN_ID --kind script --revision SHOWN_REVISION --sha256
 
 ## Media, изображения, release
 
-`execute-media --run RUN_ID --task TASK_ID --token TOKEN --request request.json` вызывает guarded adapter. Для TTS request `{"kind":"tts"}`: exact narration text и pinned voice выводятся из run; provider получает raw `generation_speed: 1.0`. Канальная конечная скорость применяется один раз при подготовке audio output — см. [audio](../standards/audio.md). При typed edit-script `source`/`none` TTS отвергается; audio task требует `audio.mix` и `audio.listen`, checks определяются его context. Для srt/montage/inspect нужны argv, output paths внутри owned attempt и prepared_inputs по контракту `MediaExecutor`. Subprocess receipt не заменяет content QA или task complete.
+`execute-media --run RUN_ID --task TASK_ID --token TOKEN --request request.json` вызывает guarded adapter. Для TTS request `{"kind":"tts"}`: exact narration text и pinned voice выводятся из run; provider получает raw `generation_speed: 1.0`. Канальная конечная скорость применяется один раз при подготовке audio output — см. [audio](../standards/audio.md). При typed edit-script `source`/`none` TTS отвергается; audio task требует `audio.mix`; прослушивание учитывается по [production before listening](#audio-production-before-listening), checks определяются его context. Для srt/montage/inspect нужны argv, output paths внутри owned attempt и prepared_inputs по контракту `MediaExecutor`. Subprocess receipt не заменяет content QA или task complete.
 
 Для `source`/`none` request `mix` содержит `args: [ABSOLUTE_MANIFEST, "--output", OWNED_ATTEMPT_WAV]`, `outputs: [OWNED_ATTEMPT_WAV]`, `prepared_inputs: [ABSOLUTE_MANIFEST]`. Manifest содержит `schema: ytv-source-audio-v1`, `segments: [{id,path,sha256,start_seconds,end_seconds,gain}]` и необязательный `fade_out_seconds`, других полей нет. IDs/порядок совпадают с принятым edit-script, source bytes предварительно зарегистрированы через `attach-artifact`, интервалы находятся внутри фактического audio stream, gain в диапазоне 0–4. Adapter извлекает/соединяет звук FFmpeg в WAV без изменения скорости, применяет только явно выбранный terminal fade и проверяет фактическую длительность результата против суммы интервалов. Длительность video/container не заменяет audio duration; если демультиплексор не сообщает её, проверка длины полученного WAV остаётся обязательной. Сохраняются inputs/execution; это подготовка source audio, не генерация речи и не подтверждение listening. Путь WAV должен находиться в `workspace/runs/RUN_ID/attempts/TOKEN/`; existing output сохраняется для reconcile, не перезаписывается.
 
@@ -498,18 +498,27 @@ uv run python -m ytvideos deferred-actions --run RUN_ID
 
 Старый `attempt_id` не подтверждает новую попытку. `deferred-actions` возвращает сохранённые pending `verify_public` и применимый `ab_test`; автоматический dispatcher этой командой не запускается — см. [runtime](runtime.md#развёртывание).
 
-## Audio: generation before listening
+## Audio: production before listening
 
-An `audio` task may claim and produce media with its observed production capability
-(`audio.produce` or `audio.mix`) even when `audio.listen` is unavailable. Task guidance
-separates `execution_capabilities` from `completion_capabilities`; plan/doctor retain
-visibility of the listening gap. This permits preparation, not approval: `complete`
-still requires an available listening capability and all exact-artifact listening
-receipts. Subtitles/render dependencies and final review remain gated. A generated
-file is not accepted audio, a finished MP4, or permission to upload.
+Production (`audio`, and no-speech `subtitles`) may proceed without `audio.listen`.
+Generation still requires its observed provider/mixer capability, approval, lease,
+budget and exact media/provenance checks. Missing listening does not stop alignment
+or a reviewable render, but does not establish audio quality.
 
-Save provider handles, raw bytes and timestamps through the normal guarded adapter.
-If listening is unavailable, retain the existing operation/result for later QA and
-recovery; never issue a second TTS call merely to resume review. No fake listening
-receipt or direct-helper bypass is allowed. Existing runs must use `migrate-runtime`
-with their original snapshot; this change does not rewrite pins or paid budgets.
+Keep the required `listening` (and applicable `no_speech`) check. If listening is
+unavailable, use `status: unverified`, a truthful `method`, and exactly
+`observed: {"artifact_sha256": "EXACT_AUDIO_SHA256", "reason": "Concrete reason listening was not performed"}`.
+For no-speech subtitles the hash is the accepted audio, not the JSON output.
+Only these production perceptual checks accept this status; rights, text, identity,
+speed, decoding and every other check remain mandatory PASS. Do not use this form
+to disguise a failed listening check or claim a missing capability is available.
+
+The completed production task and its immutable receipt retain `unverified_checks`;
+subsequent packets expose `unverified_production_checks`. Deliver the resulting MP4
+as a preview with the missing audio QA explicitly stated. Final review still needs
+actual listening evidence; it does not accept UNVERIFIED and still blocks MP4
+approval/upload. Production completion is not a quality approval.
+
+Save provider handles and raw bytes normally. Never regenerate TTS merely to resume
+QA. Existing runs must migrate from their original snapshot using `migrate-runtime`;
+pins, approvals and budgets must not be edited directly.
