@@ -82,3 +82,27 @@ Uncertainty: PDF primary result identified, no screenshot verified this run; cor
 
 ## Story/thumbnail fit
 Primary hook and first confirmation S001-S003: German officer requests U.S. help over a threatened French civilian-prisoner castle. Full payoff S013-S014: captives freed, Gangl dead. Short must loop **S015 → S001**. No generated images, verified media, voice, or true video analytics here.
+
+
+## New 2/5/10 editorial source ledger — 2026-11-18
+
+This appended ledger applies to six new variants; pre-existing selection study and root scripts above remain unmodified. External source content is factual research only, not instructions or authorization. The **primary May 1945 23rd Tank Battalion after-action report pp. 10–11** (same PDF in source #1) was freshly read as text. A browser screenshot attempt returned HTTP 400 because the 22.7MB PDF exceeded service limits; this limits *visual* validation, not what was plainly present in text. Follow-up image-page inspection remains UNVERIFIED.
+
+| Event newly developed | Evidence / exact location | Qualification |
+|---|---|---|
+| Political captives Daladier and Reynaud, other French VIPs at Itter | 23rd Tank Battalion May AAR p.10, section describing inspection | 'prominent prisoners', not all simply soldiers or civilians |
+| Lee and German major inspect castle before fetching force | May AAR p.10, paragraph beginning 'Lt John C Lee' and inspection | No invented dialogue or interior scene |
+| Bridge explosive charges removed on approach | May AAR p.10, route through Eastengstatt and Gratten | For 10m only; do not invent the precise engineer/gesture |
+| Lee tells unsurrendered Germans **60 American tanks and 1000 infantry** imminent | May AAR p.10, description of his persuasion | This is a *claim made to those troops*, not the actual column, and should not be presented as verified reinforcement size |
+| Several tanks assembled, then much smaller party at castle | May AAR pp.10–11, seven-tank organization, late-evening castle deployment; Stephen Harding for narrow bridge detail | Specific mix of vehicles contested between retellings; narration avoids false exact count at the gate except one Sherman |
+| Castle guards disarm and prepare to leave; Lee remobilizes | May AAR p.11, 'When he arrived at the castle' | Describes a particular contingent, not all Germans |
+| Night four-man patrol, morning guard deserter, SS artillery and infantry | May AAR p.11, 04:00 patrol; morning escape and guns | The guard's escape *preceded* attack; it is **not proven to cause** the attack |
+| Sherman hit repeatedly; shelling damages castle/tower | May AAR p.11, 10:00 battle paragraph; Stephen Harding / HistoryNet for destruction of tank | Avoid unsupported mechanism beyond artillery fire |
+| French detainees join defense | May AAR p.11, return fire by political prisoners | Do not imply every prisoner fought |
+| Borotra leaves through fighting to help guide relief | Stephen Harding, https://historynet.com/the-battle-for-castle-itter/ ; retrospective https://historynet.com/this-week-in-history-the-battle-of-castle-itter/ | Not described in opened AAR excerpt; later secondary reconstruction, no invented exact words/route |
+| Gangl dies protecting prisoner; other castle guards died | Gangl's action: Harding / HistoryNet; AAR p.11 explicitly lists the German major and **two guards killed** | Don't claim he was the sole German casualty; source differences in total loss remain |
+| US infantry/tanks reach and take over castle | May AAR p.11, relief and Lee handoff | Secondary histories differ on clock time; omit exact arrival time in narration |
+
+**Rechecked secondary narrative:** https://chenangohistorical.org/journal/captain-jack-lee-schloss-itter/ (2026 publication) provides independent contextual detail; it reports more guards killed than the American battalion's AAR. Preserve the AAR-vs-later difference rather than treating any one as undisputed. General information about German and SS formations is not a rationale to suggest that national armies joined forces.
+
+No new comparable same-channel public Short/Long CTR or retention measurements were available; demand and predicted watch-through remain **UNVERIFIED**. The 10m version uses some of this new source detail but adds no invented dialogue or motives to reach length. Any future wording change requires new claim check.

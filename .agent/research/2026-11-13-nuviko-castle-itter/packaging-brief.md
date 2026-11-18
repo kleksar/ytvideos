@@ -1,9 +1,13 @@
-# Packaging brief: Castle Itter (Short)
+# Packaging brief — Castle Itter (editorial variants)
 
-Audience: English historical Shorts; seriousness and moral choice, not comedy. Working visual promise should be truthful and confirmed in S001.
+The original Short packaging concepts below are retained as historical proposals for unchanged root text. **None** has an approved thumbnail/CTR measurement. The new 2m alternative is also a Short but has a different SHA and no approved storyboard/thumbnail; do not transplant old visuals mechanically.
 
-1. **The German Officer Who Asked Americans to Fight With Him #Shorts** — U.S. Sherman with a Wehrmacht officer approaching, Austrian castle in background. Optional brief word cue: `SAME SIDE?`. This is preferred cold-card concept.
-2. **When US and German Soldiers Defended the Same Castle #Shorts** — mixed defenders at castle wall, distant SS threat; cue `WHO'S THE ENEMY?`. Avoid falsely presenting entire armies allied.
-3. **One Tank Against the SS — Castle Itter #Shorts** — lone Sherman at stone gate with wooded heights beyond; cue `ONE TANK`. No invented mass tank combat.
+Proposed **05m Long** promise: **Why Did a German Major Ask American Tanks to Fight the SS?** The 16:9 cover can show one Sherman at a stone gate with an American lieutenant and a German major, without depicting a national alliance or fake archival photo. Payoff: only a small mixed party reached the castle; the tank was disabled, prisoners helped defend, and US relief arrived after Gangl's death. A 10m option would promise *How One Tank Defended Castle Itter* but risks concealing that the tank did not survive the engagement. Do not generate art prior to actual master/approval.
 
-These are THREE distinct promises, not color variations or verified CTR. Nuviko profile supports photorealistic 1945 world with optional accepted 2D traveling host, but host must not be a historical participant; actual references must be available before any image generation. No image/thumbnail made or A/B run. Thumbnail must not show the rescue payoff or copy a competitor card. Cold opening S001 confirms promise; S013-S014 supplies payoff.
+## Legacy Short concepts (for unchanged root text only)
+
+1. **The German Officer Who Asked Americans to Fight With Him #Shorts** — German officer and US tank crew, period gate; optional `SAME SIDE?`.
+2. **When US and German Soldiers Defended the Same Castle #Shorts** — mixed small garrison, wooded SS positions; `WHO'S THE ENEMY?`.
+3. **One Tank Against the SS — Castle Itter #Shorts** — one Sherman blocking gate; `ONE TANK`.
+
+These are creative hypotheses, not actual video metrics. Real channel references and 16:9 compositions must be obtained for an authorized production selection.
