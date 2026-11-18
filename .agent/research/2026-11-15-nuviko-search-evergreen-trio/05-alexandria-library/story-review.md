@@ -4,9 +4,9 @@
 
 | Duration and format | Full EN and RU | EN words | Voice-only model at 165wpm | Exact EN SHA-256 | Exact RU SHA-256 |
 |---|---|---:|---:|---|---|
-| 02m Long 16:9 | [RU](variants/02m/script.ru.txt) · [EN](variants/02m/script.en.txt) | 310 | 1.88 min | `fdf6b41124a943e6b0d756dc5271c3ac79f3644a3e55fee04fa904f9121d29a2` | `cbdce78acf79bcfb2a2c0d280e63e79693af84f5c7b0e909c075f5a470a74a1c` |
-| 05m Long 16:9 | [RU](variants/05m/script.ru.txt) · [EN](variants/05m/script.en.txt) | 851 | 5.16 min | `e65ef44d230ac6fe100e09fadd68a9054fb363e70ae8129e355620ae13cd2b4e` | `9ea77fdd85e92616ca7e1e334fed21429038c8a7778206a0a8173b24e8236a89` |
-| 10m Long 16:9 | [RU](variants/10m/script.ru.txt) · [EN](variants/10m/script.en.txt) | 1656 | 10.04 min | `37f222072e25d12f2530bfd72a24131a18419e38a92cb5047d30bedc3402d5e2` | `44f159ee1a8ef2112490388d717c27a395f191fc27adbb7c87ba6c9ebde54df4` |
+| 02m Long 16:9 | [RU](variants/02m/script.ru.txt) · [EN](variants/02m/script.en.txt) | 310 | 1.88 min | `ac37acbcd95c15133e8ba478e52a55ee783ce00e8ad1a2c168dbf137f477da29` | `e7fba2ea1a4e1aa884ed6b8dd435fa5625f579979dc44af73ff652f40f7be6ff` |
+| 05m Long 16:9 | [RU](variants/05m/script.ru.txt) · [EN](variants/05m/script.en.txt) | 851 | 5.16 min | `70866ea0da27f841828e0ab6d4ef3375f14ad6ef6f89c441e892ea8203f5c146` | `f641323b23dd5063439243884f9e2ff68ffa1cdf4789d84d4da14ad8a930b7d9` |
+| 10m Long 16:9 | [RU](variants/10m/script.ru.txt) · [EN](variants/10m/script.en.txt) | 1656 | 10.04 min | `1b45db4ab696302d381c0c4cd1a2cb34536bafd99d236eeba05707483e180fe8` | `581994d579aa721f84a36b565690e6276c9a33c79e5003f4c438b1faaa842769` |
 
 **Provisional recommendation: 05m.** The original preserved text offers the strongest balance of historical source disagreement, explanation of Caesar's fire and its limits, Serapeum vs manuscripts, and the late conquest legend. 02m explains all three but compresses chronological and source distinctions. 10m contains original chronology plus *additional* verified historical source disagreements (Vestrheim versus more cautious readings; Rohmann on Serapeum; Strabo on post-Caesar Mouseion), a later report of shipbook copying, and a distinct causal account of manuscript survival. The 10m's attention risk starts after the Serapeum argument, when late reporting and the copying mechanism repeat a point already introduced earlier. It is useful for specialist source criticism but weaker for general search-intent pacing. This recommendation is NOT owner approval and does not authorize three productions.
 
