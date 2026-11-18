@@ -64,7 +64,7 @@ Give a new unprimed listener ONLY the first two EN lines, ask 'what do you expec
 |---|---|---|---|---|
 | 2m | [script.en.txt](variants/02m/script.en.txt) | `4be847757edb3cfdbb25d18ea7cc9f91e3ed9f1c1ba7acafe2389d2d476be40e` | [script.ru.txt](variants/02m/script.ru.txt) | `b02fca6994391e6f702203959a2c11e9a4444cf94653c3228f173b42a8ad1e05` |
 | 5m | [script.en.txt](variants/05m/script.en.txt) | `dd7e5128dde577649bdb9cb2ad0f3c7a60fc5845c174bcda48d4e7022c459db6` | [script.ru.txt](variants/05m/script.ru.txt) | `bc38db09ffbb6ef9898458fa8e187bb1fda253522578aea82b550e7acf409e41` |
-| 10m | [script.en.txt](variants/10m/script.en.txt) | `cf34599ec46879663009927723cca3d2ebf35b6fcfea12223c1205eda87b8c35` | [script.ru.txt](variants/10m/script.ru.txt) | `ba40b940df3cbcf1f36bf72bce50e762daf47c6a6ee6578a0cdd036ace16d84b` |
+| 10m | [script.en.txt](variants/10m/script.en.txt) | `fb2659a70a380a329e006091a022d6b8f58ad57e9607a3aa6cb290dfbc849bc8` | [script.ru.txt](variants/10m/script.ru.txt) | `3b38ecfc1c42a681f93ecb7953b1222fce67b6bea8da07949ef44e72a01823c8` |
 
 **2m / 220 EN words / Short:** исходный EN/RU сохранён без правки — необычайно ясное противопоставление неглубокого озера и исчезающей буровой, быстрые фактические повороты (лампы → четыре шахтёра → лифт → водоворот → канал) и законченный payoff (все спаслись, шахта погибла, озеро изменилось, точная причина неизвестна). Версия **не требует слепой речевой перезаписи**. Время ≈1:25–1:42 при 130–155 слов/мин без учёта пауз. Наличие двоеточия в финале и отсылка назад сами по себе НЕ гарантируют естественный бесшовный loop; повтор двух полных циклов свежим reviewer и MP4/AV seam — `UNVERIFIED`, старое авторское `PASS` не считать независимым доказательством.
 
