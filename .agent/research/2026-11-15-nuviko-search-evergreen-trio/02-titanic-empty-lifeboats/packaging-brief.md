@@ -1,9 +1,13 @@
-# Search-first packaging — Titanic
+# Search-first packaging — Titanic (three independent Long alternatives; proposals only)
 
-**Exact target intent:** `why were titanic lifeboats half empty`; alternate `titanic lifeboats capacity`. Not verified keyword volume. Three distinct Long concepts (not a native A/B test):
+**Primary query:** `why were titanic lifeboats half empty`; secondary `titanic lifeboats capacity`. Real keyword volume, CTR, traffic and ranking **UNVERIFIED**. Do not treat title concepts as measured A/B test. No new imagery or release-spec created.
 
-- A — **Why Titanic's Lifeboats Left Half Empty**. Thumbnail: a half-empty lifeboat in front of a crowded deck; visual promise explained by the earliest scene, payoff shows system-wide capacity shortfall.
-- B — **Could Full Lifeboats Have Saved Everyone on Titanic?**. Thumbnail: crowded deck versus 20 distant small boats; promise answered by capacity figures.
-- C — **Titanic's Two Lifeboat Failures Explained**. Thumbnail: an empty bench and packed rail on a single strong split-depth scene; avoid fabricating exact people or lines.
+| Story version | Thumbnail/title promise | First visual proof | Completed payoff |
+|---|---|---|---|
+| 02m (330 EN words) | **Why Titanic's Lifeboats Left Half Empty** — room on bench vs waiting crowd | Early boats with unused places | Inadequate evacuation and only 1,178 total places |
+| **05m (recommended editorially)** | **The Lifeboat Plan Titanic Never Completed** — boat beneath unopened side door; alternative familiar question in title | Boats 7 / 6 / 1 with cautious 1912 inquiry occupancy | The unused gangway boarding plan + capacity shortfall |
+| 10m | **Why Empty Titanic Lifeboats Didn't Go Back** — lifeboat lowering, then distant boat after sinking | Numbered boats and incomplete loading | Paper capacity vs usable launches and rescue limits |
 
-Early proof: first line and lowering scene. Payoff: the final finding that even all 1,178 places could not accommodate everyone. Distinct thumbnail text must avoid any invented survival percentage. Search descriptions should directly answer the topic, cite historical investigations, and avoid repeating unverified tags.
+None of these titles asserts a calculated number of people who could have been saved. Avoid depicting unverified perfect access through side doors; show it as an unexecuted plan. 2D presenter remains an observer, not an identified deck officer. New 05m/10m storyboards must be generated from their **own** exact scripts only after approval; the old 24-scene board belongs to original 02m. Nuviko end-screen 10 sec requires a real next-video intro input and native clickable elements, currently **UNVERIFIED**; do not invent bridge/destination or embed fake UI.
+
+See [review and exact hashes](story-review.md), [research and qualifications](research.md) and [handoff](handoff.md).
