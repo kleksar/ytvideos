@@ -4,7 +4,7 @@
 
 Нужны Python/Pillow, FFmpeg/ffprobe, доступный encoder и утверждённые fonts. На Mac можно использовать `h264_videotoolbox`; на другом worker явно выбирать доступный encoder, например `libx264`. Наличие default в CLI не подтверждает его работоспособность. `doctor` проверяет конкретное окружение.
 
-Two Ways Lab использует `channel: "two_ways_lab"`, `format: "short"`, 1080×1920 и 30 fps. Локальная конфигурация не подтверждает YouTube ID и не разрешает публикацию. Сцены длятся не менее двух кадров, допускаются статичные кадры и горизонтальный pan. Для готового изображения надписи `lettering_motion` ограничен 2% масштаба и 2° поворота; `x` задаёт смещение от центра, `y` — верх слоя. Проверять края и текст на финальном видео. Необязательный `minimum_scene_frames` задаёт целый минимум от двух кадров для конкретного плана любого канала.
+Two Ways Lab использует `channel: "two_ways_lab"`, `format: "short"`, 1080×1920 и 30 fps. Локальная конфигурация не подтверждает YouTube ID и не разрешает публикацию. Сцены длятся не менее двух кадров, допускаются статичные кадры и pan по четырём направлениям. Для готового изображения надписи `lettering_motion` ограничен 2% масштаба и 2° поворота; `x` задаёт смещение от центра, `y` — верх слоя. Проверять края и текст на финальном видео. Необязательный `minimum_scene_frames` задаёт целый минимум от двух кадров для конкретного плана любого канала.
 
 Субпиксельное whole-frame движение выполняет `motion_filter` в `montage.py` через `perspective` с интерполяцией, не округлением положения crop каждого кадра. Регрессия `test_slow_pan_preserves_subpixel_progress_on_every_encoded_frame` проверяет дробное продвижение; художественную плавность и читаемость всё равно проверять на фактическом MP4 по [visual](../../docs/standards/visual.md#плавность-и-темп-сюжетного-движения).
 
@@ -14,7 +14,7 @@ Two Ways Lab использует `channel: "two_ways_lab"`, `format: "short"`, 
 
 План содержит `channel`, `format`, `audio`, `audio_contract`, `scenes`, `subtitles`. `audio_contract` связывает exact final mix SHA-256, фактически применённую скорость и файл evidence. Renderer не выбирает музыку, не доказывает скорость по числу и не исправляет неизвестный mix.
 
-У каждой сцены source image, start/end, `direction` (`left_to_right`, `right_to_left`, `none`) и `zoom` (`in`, `out`, `none`). Соседние pan directions и zoom types проверяются независимо. `camera` содержит focus, subject/reason и start/end center/scale. Координаты 0…1 относятся к изображению после приведения к аспекту; scale>1 — теснее. Движение окна вправо означает экранное движение изображения влево. Геометрия проверяет края/focus, но не целое лицо/предмет.
+У каждой сцены source image, start/end, `direction` (`left_to_right`, `right_to_left`, `top_to_bottom`, `bottom_to_top`, `none` по pinned channel policy) и `zoom` (`in`, `out`, `none`). Соседние pan directions и zoom types проверяются независимо. `camera` содержит focus, subject/reason и start/end center/scale. Координаты 0…1 относятся к изображению после приведения к аспекту; scale>1 — теснее. Движение окна вправо означает экранное движение изображения влево. Геометрия проверяет края/focus, но не целое лицо/предмет.
 
 Геометрия/цвет/codec — [delivery](../../docs/standards/delivery.md), художественное движение — [visual](../../docs/standards/visual.md). Paper Frame v03 — архивный ресурс для прежних версий; в новых Paper роликах внешняя декоративная рамка не применяется. Nuviko не принимает произвольные overlays: сценовый текст внутри источника, сверху только штатные subtitles.
 
