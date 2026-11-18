@@ -1,5 +1,6 @@
 """Deterministic screen-space G08 after the authored affine camera. No audio."""
 import hashlib
+import importlib.util
 import json
 import math
 from pathlib import Path
@@ -11,11 +12,18 @@ from PIL import Image
 from scipy.ndimage import gaussian_filter
 
 
-def camera_at(keys, frame):
+_spec = importlib.util.spec_from_file_location('editorial_camera', Path(__file__).resolve().parents[1] / 'helpers/camera_motion.py')
+camera_motion = importlib.util.module_from_spec(_spec); _spec.loader.exec_module(camera_motion)
+
+
+def camera_at(keys, frame, frames=None):
+    frames = frames if frames is not None else keys["position"][-1][0] + 1
+    t = camera_motion.progress(frame, frames)
     values = {}
     for name in ("position", "scale"):
         a, b = keys[name]
-        t = min(1.0, max(0.0, (frame-a[0])/(b[0]-a[0])))
+        if a[0] != 0 or b[0] != frames-1 or (len(a)>3 and a[3] != "linear"):
+            raise ValueError("Editorial camera must be linear over every rendered frame")
         values[name] = [a[k] + t*(b[k]-a[k]) for k in (1, 2)]
     return (*values["position"], *values["scale"])
 
@@ -100,7 +108,7 @@ def render(job):
         try:
             for i in range(n):
                 data = np.frombuffer(read_exact(dec.stdout, count*3//2), np.uint8)
-                camera = camera_at(job["camera"], i)
+                camera = camera_at(job["camera"], i, n)
                 clean = warp(data[:count].reshape(h, w), camera)
                 uv = data[count:].reshape(2, h//2, w//2)
                 y = grain.apply(clean)

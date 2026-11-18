@@ -125,6 +125,15 @@ class GrainNumericsTests(unittest.TestCase):
         self.assertAlmostEqual(self.f.Grain(p, 2160, 3840, 42).sigma, 1.155)
         self.assertAlmostEqual(self.f.Grain(p, 1080, 1920, 42).sigma, .5775)
 
+    def test_camera_refuses_edge_holds_and_easing_at_render_boundary(self):
+        s = scene(); m.finish_plan(s)
+        keys = s["baked_camera"]
+        with self.assertRaises(ValueError):
+            self.f.camera_at(keys, 0, 150)  # keys only cover 120 frames
+        keys["position"][0][3:] = ["easeInOut"]
+        with self.assertRaises(ValueError):
+            self.f.camera_at(keys, 0, 120)
+
     def test_affine_center_movement_and_no_camera_tied_noise(self):
         import numpy as np
         s = scene(); m.finish_plan(s)

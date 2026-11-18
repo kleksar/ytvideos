@@ -167,6 +167,13 @@ def camera_keys(clip, factor, mode, number):
         raise ValueError("Camera reduction supports two matching endpoint keys; complex paths need an explicit camera override")
     if p[0][0] != 0 or p[-1][0] <= 0:
         raise ValueError("Camera keys must start at zero and have a later endpoint")
+    # This function owns whole-shot editorial camera, not opacity/event tracks.
+    # Stretch endpoint timing to the actual last rendered frame; never retain a
+    # stale shorter clip endpoint (which would hold), or imported easing.
+    if n < 2:
+        raise ValueError("Camera needs at least two rendered frames")
+    p = [[0, *p[0][1:3], "linear"], [n-1, *p[-1][1:3]]]
+    s = [[0, *s[0][1:3], "linear"], [n-1, *s[-1][1:3]]]
     centers = [[p[i][a]+s[i][a]/2 for a in (1, 2)] for i in (0, 1)]
     news = [[r[0], *[(s[0][a]+s[1][a])/2 + factor*(r[a]-(s[0][a]+s[1][a])/2)
                      for a in (1, 2)], *r[3:]] for r in s]
@@ -393,6 +400,7 @@ def prepare_finished(scene, config, run_dir, scratch_dir):
                  "grain": scene["grain"], "frames": scene["frames"], "fps": scene["fps"],
                  "width": scene["width"], "height": scene["height"],
                  "renderer": file_hash(HERE / "finish.py"),
+                 "camera_clock": file_hash(HERE.parent / "helpers/camera_motion.py"),
                  "runtime": hashlib.sha256(runtime).hexdigest()}
     key = digest(signature)
     video = CACHE / "finished" / (key + ".mp4")

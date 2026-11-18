@@ -54,6 +54,18 @@ class MotionTests(unittest.TestCase):
                 self.assertFalse(list(records.glob('*.mp4')))
                 self.assertFalse(list(scratch.glob('*.mp4')))
 
+    def test_editorial_keys_drop_easing_and_stale_edge_hold(self):
+        c = clip(); c["frames"] = [0, 180]
+        c["keyframes"]["position"][0][3:] = ["easeInOut"]
+        c["keyframes"]["scale"][0][3:] = ["easeInOut"]
+        c["keyframes"]["opacity"] = [[0, 0], [15, 1]]
+        keys, _ = m.camera_keys(c, 1, "existing", 0)
+        for name in ("position", "scale"):
+            self.assertEqual(keys[name][0][0], 0)
+            self.assertEqual(keys[name][-1][0], 179)
+            self.assertEqual(keys[name][0][3], "linear")
+        self.assertEqual(keys["opacity"], c["keyframes"]["opacity"])
+
     def test_camera_reduction_preserves_center_midpoint_and_direction(self):
         original = clip()
         keys, dx = m.camera_keys(original, .75, "existing", 0)
@@ -91,7 +103,7 @@ class MotionTests(unittest.TestCase):
             state = {"tracks": [{"name": "Scenes", "clips": [c]}], "fps": 30, "width": 1920, "height": 1080}
             plan = m.make_plan({"source_manifest": "sources.json"}, state, base)
             self.assertEqual(plan[0]["frames"], 180)
-            self.assertEqual(plan[0]["keyframes"]["position"][-1][0], 149)
+            self.assertEqual(plan[0]["keyframes"]["position"][-1][0], 179)
             self.assertEqual(plan[0]["sign"], 1)  # foreground left, matching center movement
             state["tracks"][0]["clips"][0]["mediaType"] = "video"
             with self.assertRaises(ValueError):

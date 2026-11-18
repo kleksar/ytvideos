@@ -119,7 +119,7 @@ class MusicFixture:
         for index, frames in enumerate((14, 13)):
             self.plan["scenes"].append({"id": f"s{index}", "clip": str(self.clips[index]), "start_frame": index * 12,
                 "end_frame": (index + 1) * 12, "direction": "none", "zoom": "in" if index == 0 else "out",
-                "scale": policy["zoom"] if index == 0 else list(reversed(policy["zoom"])), "easing": "smoothstep",
+                "scale": policy["zoom"] if index == 0 else list(reversed(policy["zoom"])), "easing": "linear",
                 "source": {**file_record(self.originals[index]), "start_seconds": .1, "end_seconds": .1 + frames / 30,
                            "rights_evidence": file_record(self.rights)}})
         if vocal:
@@ -172,10 +172,36 @@ class MusicRenderTests(unittest.TestCase):
         # Limited-range BT.709 red is Y≈63, Cb≈102, Cr≈240. BT.601 is 81/90/240.
         self.assertEqual([data[0], data[16 * 16], data[16 * 16 + 8 * 8]], [63, 102, 240])
 
+    def test_actual_music_camera_decodes_every_linear_sample_and_exact_endpoints(self):
+        renderer = self.fixture.renderer
+        # Compare the actual dynamically transformed frames to static views at
+        # the independently calculated scale for each sample. The source has
+        # sharp asymmetric markings so duplicate/shifted/eased samples differ.
+        width, height, count = 160, 100, 9
+        size = width * height
+
+        def frames(scales, n):
+            return ffmpeg("-filter_threads", 1, "-f", "lavfi", "-i",
+                          "nullsrc=s=160x100:r=30,format=yuv444p,"
+                          "geq=lum='if(between(X,35,49)*between(Y,23,32),235,32)':cb=128:cr=128",
+                          "-vf", renderer.motion_filter(width, height, n, scales), "-frames:v", n,
+                          "-an", "-c:v", "rawvideo", "-threads", 1, "-pix_fmt", "gray", "-f", "rawvideo", "-").stdout
+
+        for start, end in ((.95, 1.05), (1.05, .95)):
+            with self.subTest(start=start, end=end):
+                dynamic = frames((start, end), count)
+                self.assertEqual(len(dynamic), count * size)
+                actual = [dynamic[i * size:(i + 1) * size] for i in range(count)]
+                for i, frame in enumerate(actual):
+                    scale = start + (end - start) * i / (count - 1)
+                    self.assertEqual(frame, frames((scale, scale), 2)[:size], f"camera sample {i}")
+                self.assertEqual(len(set(actual)), count)
+
     def test_static_color_transition_and_wrong_format_shortcuts_are_rejected(self):
         cases = {
             "static": lambda p: p["scenes"][0].update(zoom="none"),
             "wrong_zoom": lambda p: p["scenes"][0].update(scale=[1, 1.05]),
+            "legacy_eased_motion": lambda p: p["scenes"][0].update(easing="smoothstep"),
             "stepped_motion": lambda p: p["scenes"][0].update(easing="integer_crop"),
             "no_fade": lambda p: p["transition"].update(components=["gaussian_blur", "brightness"]),
             "old_transition": lambda p: p["transition"].update(duration_frames=12),

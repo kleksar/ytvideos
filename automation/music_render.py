@@ -22,6 +22,9 @@ from ytvideos.profiles import load_profile
 from ytvideos.util import file_digest
 
 
+camera_motion = helper(ROOT, "automation/helpers/camera_motion.py", "ytv_music_camera_motion")
+
+
 def write(path, value):
     with Path(path).open("x", encoding="utf-8") as stream:
         json.dump(value, stream, ensure_ascii=False, indent=2, allow_nan=False)
@@ -33,9 +36,7 @@ def motion_filter(width, height, frames, scales):
     if frames < 2:
         raise WorkflowError("music motion needs at least two frames")
     sw, sh = (2 * math.ceil(value / .95 / 2) for value in (width, height))
-    progress = f"(on/{frames-1})"
-    ease = f"({progress}*{progress}*(3-2*{progress}))"
-    zoom = f"({scales[0]}+({scales[1]-scales[0]:.12f})*{ease})"
+    zoom = camera_motion.lerp_expression(*scales, frames, index="on-1")
     left, top = f"((W-W*{zoom})/2)", f"((H-H*{zoom})/2)"
     return (f"scale={sw}:{sh}:force_original_aspect_ratio=increase:flags=lanczos,crop={sw}:{sh},"
             f"perspective=sense=destination:x0='{left}':y0='{top}':x1='{left}+W*{zoom}':y1='{top}':"
