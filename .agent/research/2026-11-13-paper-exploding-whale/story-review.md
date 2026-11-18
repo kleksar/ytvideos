@@ -1,52 +1,70 @@
-# Editorial first-listener and story review — exploding whale
+# Story review — exploding whale: three editorial durations
 
-**Script state:** proposal/draft, not an accepted episode. **Authorial story-interest check:** PASS WITH SPECIFIC RISKS. **Independent listener:** UNVERIFIED — this host's available tool registry did not expose an independent session or spawn/agent tool; no separate review was performed. **Independent EN/RU bilingual review:** UNVERIFIED. **Actual clip/voice/subtitle/music seam:** UNVERIFIED, no media generated.
+**Scope / provenance:** existing [Draft PR #27](https://github.com/kleksar/ytvideos/pull/27), Paper Detour, same true event in three independently composed narrations. Baseline HEAD `f5445b0be8572d197c824af35edd235da366b393`; original `script.en.txt` Git blob `84194297e420d6d13f74f011a52e4a6b46752621`, `script.ru.txt` blob `b4ff63e6a5075034432f5a021a90a7de73f2ff26`. Root scripts unchanged. Baseline author review is preserved verbatim in [story-review-baseline-20261113.md](story-review-baseline-20261113.md); its older authorial loop PASS is superseded by the stricter assessment below.
 
-## 1 — Viewer interest, distinct from comprehension
-- **Why might I stop?** Literal first line `In 1970, chunks of whale rained from the sky on an Oregon beach.` is a concrete sensory contradiction; both authentic OHS history and original reporter corroborate fragments from sky. A new viewer need not know Florence.
-- **Why continue?** Initial “whale rain” needs an explanation. S002–S006 explain a plausible attempted solution, S007–S009 reverse it: debris reaches distant spectators and crushes a car. S010–S011 reverse the original objective: an hour later, workers still have to bury the large remains. Ending gives the result before replay.
-- **What do I receive?** Absurd failed engineering decision, injury-free outcome, cleanup lesson. S010–S011 contains genuinely new resolution: original problem wasn't solved by the explosion.
-- **Main risk / non-banal objection:** The famous KATU clip has circulated for decades; a viewer already familiar with the explosion/car may no longer want to watch the rest. A future reviewer must specifically say whether the burial ironic payoff is worth staying for, not merely repeat “it's funny”.
-- **Honest note:** The script is somewhat longer than a one-line gag, ~207 EN words; a narrator may need ~70 seconds but **actual Lawrence measured timing is unknown**. If independent cold reading finds S003–S005 slow, shorten exposition rather than stretching visuals or adding unrelated facts.
+**Authority:** current remote main at first read `7c94f825056b98cb65d8de94dd3eec709cc78188`, where #124's three-version rule is canonical. Self-check only; no separate session-based reviewer in this host. **EDITORIAL_CANDIDATE_UNREGISTERED**; no official runtime `ytv start` / `awaiting_script_approval`, no approval or independent review.
 
-## 2 — Clarity check
-- The whale was dead **before** use of dynamite; neither filming nor officials killed a live whale.
-- Bureaucratic reason for burial concern stated as official rationale (“ruled out”); later burial is not a logical impossibility but the irony of an ultimately failed preferred solution.
-- `half a ton` is a US short ton in historical account; Russian `полтонны` is approximate; false metric precision avoided.
-- `seventy-five` is approximate `примерно семьдесят пять`; quarter mile converted to `около четырёхсот метров`; 45 ft translated to `почти четырнадцать метров`.
-- `nobody was reported hurt` and Russian `сообщений о пострадавших не было` express same evidential restraint; no invented victims.
+## Exact files and SHA-256 (UTF-8, no post-hash normalization)
 
-## 3 — Narrative integrity and fact check
-- S001 physical hook → S002 dead stranded whale → S003 burial rejected → S004 dynamite choice → S005 expectation of small chunks/seagulls → S006 distance → S007 failed fragmentation → S008 debris approaches audience → S009 car struck, no injuries → S010 cleanup still fails → S011 eventual burial practice → S012 closes with ironic “weather report”, feeding S001.
-- No fabricated motives for engineer beyond recorded explanation, no fake quotation, no US Navy giving orders, no exploding living animal. Strongest source is KATU's contemporaneous news soundtrack, transcribed at [this URL](https://www.theexplodingwhale.com/evidence/resources/transcript); the original species identification in the 1970 report was **incorrect** and corrected by OHS. No exact species portrayal inferred only from audio.
-- **Audience interest / exact stop-loss point UNVERIFIED**; author anticipates possible skip around `S003–S005` if historical premise/explosives take too long. No self-assigned retention score.
+| Target | Channel format | Full EN master | Full RU review text | EN words | Editorial outcome |
+|---|---|---|---|---:|---|
+| 02m | short 9:16, supported | [EN](variants/02m/script.en.txt) (`88cd30eacc636cad76157756eb8c794adf9769ee4e1fee34074a8995ad5b9eff`) | [RU](variants/02m/script.ru.txt) (`9f9dfaf3e829e0c38489de15e884d19ca9e6e04dae030c24f8a27692ff4cac5d`) | 208 | Original preserved; **loop hard check needs correction** |
+| 05m | long 16:9, supported | [EN](variants/05m/script.en.txt) (`cd1598fc89d276386a88a01a0f227374718948a57292619da4b0d001ddd7ff3a`) | [RU](variants/05m/script.ru.txt) (`3f20a84a41cd1a10f074a9c551552b78b1bd58d253cb32a241ec9f62e1c25863`) | 625 | **Editorial recommendation**, runtime and reviewer pending |
+| 10m | long 16:9, supported | [EN](variants/10m/script.en.txt) (`59aeca27ccfb40e7ac809837b36c55a8f16de0409b2bba9f01974d42c515e21f`) | [RU](variants/10m/script.ru.txt) (`2a597a0e70ee169fdaf2d58b2f269e3de282419a916bb1c9be427f2eed36ae0d`) | 1461 | Complete, but weaker final third |
 
-## 4 — Literal last two + first two lines joined, EN
+Word count is English whitespace-delimited words. Using hypothetical 130–155 **final** narration words/min and excluding music/scene gaps, 02m ≈1.3–1.6 min, 05m ≈4.0–4.8 min, 10m ≈9.4–11.2 min, before pauses. The channel fixes the Lawrence voice speed at 1.10×; **actual** output pacing/duration is UNVERIFIED until TTS, and the 05m label is a target, not a measured five minutes.
 
-```text
-By evening, the workers were burying the remains anyway. Later, burying beached dead whales became the standard approach.
-All because their attempt to clear the sand created the strangest weather report imaginable:
-In 1970, chunks of whale rained from the sky on an Oregon beach.
-A dead, forty-five-foot sperm whale had washed ashore near Florence. It weighed about eight tons, and the smell was getting worse.
-```
+## Story maps tied to exact versions
 
-**Authorial text-loop result: PASS (not independent).** The last line sets up an **actual strange “weather report”** and the first sentence delivers it verbatim; second sentence explains its cause. Opening is independently intelligible (1970/Oregon/whale pieces); resolution (buried remains, standard method, no reported injuries) is completed **before** loop. No second explosion is asserted after replay. Negative test: removing the last-line “weather report” makes loop only topical and would **FAIL**; do not replace it with “and that's how they did it.”
+**02m — original, unchanged:** 1970 whale debris falling (cold open) → already-dead stranded whale/stench → burial feared to be undone by surf → dynamite idea → expectation birds will eat tiny debris → spectators moved away → blast scatters huge pieces → car damaged and people escape → no reported injuries → debris still requires burial → remembered absurd reversal. Fast physical payoff; its final colon framing does not establish a naturally continuing spoken loop.
 
-## 5 — Literal last two + first two lines joined, RU
+**05m — new event-led account:** Questions about distant car, dynamite and actual cleanup → stranded whale attracts curious public, highway division has disposal duty → surf makes officials hesitate over burial → Thornton admits uncertain fragmentation before operation (main hook, reverses confidence) → TV crew and watchers stand back → half-ton blast → footage stops as large pieces fall and car is crushed → gulls fail to remove debris → nighttime burial, Thornton's later reported assessment adds competing viewpoint → 1979 strandings demonstrate the changed decision. Answers all three starting questions. New material changes decisions and stakes, not just word count.
 
-```text
-К вечеру рабочие всё равно закапывали останки. Позже захоронение мёртвых китов стало обычным способом уборки.
-Всё потому, что попытка очистить пляж обернулась самым странным прогнозом погоды:
-В 1970 году на пляже в Орегоне с неба посыпались куски кита.
-Рядом с городом Флоренс на берег выбросило мёртвого кашалота длиной почти четырнадцать метров. Он весил около восьми тонн, и запах становился всё хуже.
-```
+**10m — new event + recording afterlife:** Three questions promise car / engineer / international reach → carcass/public risk → highway division responsible → options rejected → consultation and plan → interview reveals uncertainty (main hook) → reporters and bystanders → blast, fleeing, crushed Oldsmobile → failed cleanup and evening burial → competing recollection of success → 1979 authorities explicitly avoid dynamite → KATU film survives tape duplication → 1990 Dave Barry/BBS repost and mistaken contemporaneity → archival 4K restoration in 2020, original gray-whale error corrected → outcome: complicated cleanup, failed prediction and enduring firsthand recording. The archival arc is an answer to the *third* initial question, not a random epilogue.
 
-**Authorial Russian loop result: PASS (not independent)** for identical reason, neither grammatical contradiction nor changed outcome. English and Russian do not introduce different injuries, numbers, species, false motivations or recoveries. **Bilingual external check remains UNVERIFIED**.
+## Eight editorial criteria for each exact version
 
-## 6 — Independent reader protocol (NOT EXECUTED)
+All numerical assessments below are **author editorial judgment out of 10**, not independent ratings. Confidence concerns the text-based judgment only. The eighth audience-demand category is UNVERIFIED, not automatically 9–10.
 
-Provide `script.en.txt` without this review or research to a genuinely fresh reviewer. First show just first line and ask what question arises. Then show exact complete narration **twice in a row** without author beat map. Ask (a) would they swipe/stay and *why*, (b) at exactly what line attention drops, (c) which action changes what they expect, (d) did ending deliver promised reward, (e) does S012→S001 sound continuous or like a mechanical restart? After first unbiased reading, supply original OHS/KATU evidence and **Ecce Homo** strongest alternative, ask if they would instead watch that. The reviewer must be free to reject the *topic*, not merely edit words; preserve their real output unchanged with exact script hash. A second independent bilingual reviewer must inspect the RU equivalence. No reviewer/session ID invented.
+| Criterion | 02m score / text evidence & limitation | 05m score / text evidence & limitation | 10m score / text evidence & limitation |
+|---|---|---|---|
+| Interest / significance | **8/10, medium:** “chunks of whale rained” creates immediate concrete surprise; widely known footage limits novelty | **8/10, medium:** first question creates a remote-car puzzle and human safety stakes; low emotional identification with a single protagonist | **7/10, medium:** asks how the news survived for generations; footage afterlife is less urgent than physical incident |
+| Opening | **8/10, medium:** instantly clear cold start with 1970 and place; gives away strange result | **8/10, medium:** three questions promise car, decision, burial; shorter immersion, first action follows immediately | **8/10, medium:** three distinct promised answers before Florence scene; later media question expands scope |
+| Development / reason to continue | **7/10, medium:** burial rejected → explosion → car → burial; exposition of birds/distance can feel procedural | **8/10, medium:** Thornton cannot know the fragmentation outcome, cameras stop, debris persists; the 1979 case supplies genuine consequences | **6/10, medium:** chronology includes alternative disposal, crowd, footage, web afterlife; interest may fall after the 1979 decision |
+| Payoff | **8/10, medium:** crushed roof, no injuries, and burial anyway; seam still not convincing as continuous speech | **8/10, medium:** answer to why it was tried and why it failed, then 1979 replaces dynamite with burial | **7/10, medium:** restores film and corrects species; compelling archive but weaker emotional closure than crushed car |
+| Freshness of angle | **5/10, medium:** established viral whale spectacle; no unique unpublished detail | **6/10, medium:** highlights pre-blast admission of uncertainty and later response; not an exclusive discovery | **6/10, medium:** two-act failure + news footage preservation; well documented, potentially familiar |
+| Visual expressiveness | **9/10, medium:** whale/scavengers/dunes/car distinct paper dioramas; physical tissue may be visually unpleasant | **8/10, medium:** engineer/interview, observers and falling blubber provide different tableaus; full long storyboard not prepared | **8/10, medium:** interview/film spool/tape chain offer new visual grammar; long archival section risks repetitive objects |
+| Oral naturalness / clarity | **7/10, medium:** straightforward language, but “weather report imaginable:” is a written-device colon | **8/10, medium:** direct decisions and concrete actions, cautious attribution for Thornton; some history phrasing remains dense | **7/10, medium:** vivid actions with necessary qualifiers; length and later archival transitions may slow listening |
+| Verified viewer interest | **UNVERIFIED:** no matched Paper audience/CTR/retention | **UNVERIFIED:** original clip popularity cannot establish five-minute longform demand | **UNVERIFIED:** viral original does not validate ten-minute paper documentary |
 
-## 7 — Subsequent QA NOT DONE
+**Common caveat:** no independent viewer rated any script. These ratings are not psychometric measurements. The existing research records public source interest and topic selection; nobody has measured own-channel outcomes on these exact texts.
 
-The proposed visual last shot uses the **identical source artwork as S001**, but final zoom position, exact frame, word-level SRT grouping, speech comma/colon prosody, music and crossloop volume must be tested on the real MP4. This is an AV **UNVERIFIED**, never a PASS inferred from text. The full Paper image style and actual accepted reference assets also remain unverified until local production after approval.
+## Hard checks per exact EN/RU pair
+
+| Check | 02m | 05m | 10m |
+|---|---|---|---|
+| Same event and complete EN/RU meaning | **AUTHORIAL PASS**: original two unchanged, same metrics/condition on injuries | **AUTHORIAL PASS**: options, Thornton uncertainty, film crew, car, birds, 1979 and outcome aligned | **AUTHORIAL PASS**: all 1970 and media-aftermath events aligned, no extra RU outcome |
+| Factual evidence and calibrated uncertainty | **AUTHORIAL PASS** with shared sources; original date and estimates | **AUTHORIAL PASS** with OHS, contemporaneous transcript, OPB attribution, 1979 source | **AUTHORIAL PASS** with OHS/KATU archiving, Barry/BBS, species correction; filmmaker rights still separate |
+| Documentary Long questions → meaningful immersion → main hook | N_A: short | **AUTHORIAL PASS**: question opening → stranded whale/burial dilemma → engineer's on-camera uncertainty | **AUTHORIAL PASS**: question opening → safety/duty/disposal → unpredictability disclosed in interview |
+| Narrative Short loop (complete text repeated twice, EN/RU) | **AUTHORIAL FAIL/REVISE**: old last sentence ends in a colon, then repeats historical cold open; topical and grammatically possible but not demonstrated as a natural uninterrupted spoken continuation; preserving original does not upgrade this | N_A: long | N_A: long |
+| Independent first-listener and bilingual review (fresh exact hash) | **UNVERIFIED** | **UNVERIFIED** | **UNVERIFIED** |
+| TTS measured timing / actual AV seam / media | **UNVERIFIED** | **UNVERIFIED** | **UNVERIFIED** |
+| Exact approved master and registration | **NO** | **NO** | **NO** |
+
+**02m seam negative test:** The original last line “All because their attempt to clear the sand created the strangest weather report imaginable:” followed by “In 1970, chunks of whale rained from the sky on an Oregon beach.” restarts the date and report rather than continuing the narration naturally. The Russian “самым странным прогнозом погоды:” → “В 1970 году…” has the same weakness. The root and 02m copy are deliberately left unchanged as historical evidence; no production loop PASS is granted.
+
+## Comparison of complete scripts and recommendation
+
+**02m → 05m adds:** separate character with responsible duty (Thornton), verified uncertainty before explosion, original 1970 reporters as witnesses, and the next real-world disposal decision in 1979. The beach cleanup becomes an accountable causal story, not merely a spectacular incident. The 02m answer is complete but its loop needs repair before Short production.
+
+**05m → 10m adds:** official risk from visitors, alternatives and consulted expertise, Thornton's disputed judgment after blast, film preservation, the 1990 bulletin-board revival, original 16mm versus degraded copies, and 2020 correction to the species. These are fact-supported and answer the 10m opening's third question. The price: once the burial and 1979 followup are resolved, the long film moves into media history; a viewer drawn only by the whale/car may stop at “The event might have stayed a local example...”. This is a **predicted editorial attention risk, not measured retention**.
+
+**Recommendation: 05m Long (conditional).** The decisive human action and irreversible consequences are clear without a large archival afterword. The 02m candidate remains valuable for a Short if its genuine speech loop is fixed and reviewed. The 10m archive angle is fully written and sourced, but a separate interest-led approval should justify its weaker closing third. 05m needs TTS-duration confirmation and may come in under five minutes; do not pad or change voice speed to fit the label.
+
+**Probable exact point of attention loss:** 02m from “The highway department had to clear the beach” through two explanatory beats; 05m from the shift to Thornton's retrospective assessment after burial if spoken too slowly; 10m from the move out of the 1979 disposal resolution into the tape/BBS chronology. These are hypotheses for an independent reviewer, not observer reports.
+
+## Independent review and production handoff
+
+Before presenting verdicts to a real independent reviewer, supply each **exact standalone** text, first opening only, then entire narration, and for Short exact text twice including the seam. Hide author scoring and preferred duration. After first reading give research sources, the unmodified baseline, and the Ecce Homo alternative; reviewer may prefer an old version or reject them all. Ask for exact sentence that loses attention, what concrete action changed their expectation, and whether the payoff and seam worked. Reviewer writes an authentic `ytv-script-review-v1` receipt against the exact script SHA; do not fake it. A separate bilingual check must compare Russian meaning. No independent session/spawn capability exposed here; Git-only edits are **EDITORIAL_CANDIDATE_UNREGISTERED** with review `UNVERIFIED`.
+
+At owner selection, use the repository's actual `ytv start` and current pinned task/context pipeline to register supporting variants and reviews; this Git branch is not a runtime source pin or approval. Existing `storyboard.json` references **only root/02m unchanged text** with Git blobs `84194297e420d6d13f74f011a52e4a6b46752621` EN and `b4ff63e6a5075034432f5a021a90a7de73f2ff26` RU. Its 12 hypothetical scene timings/loops do NOT apply to 05m/10m and are not measured or approved. New scene spans and visual intent follow the chosen exact text.

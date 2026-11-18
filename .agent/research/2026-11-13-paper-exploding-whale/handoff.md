@@ -1,3 +1,17 @@
+# Editorial revision handoff — exploding whale PR #27 (2026-11-18)
+
+**Current main at authoring:** `7c94f825056b98cb65d8de94dd3eec709cc78188`. **Baseline HEAD:** `f5445b0be8572d197c824af35edd235da366b393`; its two root narration Git blobs remain unchanged. Working branch `work/story-drafts/paper-exploding-whale-1970-20261113`, no force push.
+
+**Current review choice: 05m Long**, not approved. Full variant links and exact SHA-256 are in [story-review.md](story-review.md). Channel `paper_detour` supports `short` 9:16 and `long` 16:9 in its pinned `channel.json` at authoring. Old `storyboard.json` is ONLY for unchanged root/02m; its scene spans do not describe 05m or 10m. A new Long storyboard must follow the selected EN hash with independent visual intent and exact spans. Old packaging brief still describes only Short concepts; new Long cover must be justified separately.
+
+**Pending:** (1) fresh independent EN first-listener plus RU-equivalence review of each chosen hash, including a full twice-read 02m loop; (2) owner decides one exact EN master; (3) in accessible private runtime, use canonical `ytv status`/existing run or start with selected format, actual pinned context/references and attach genuine variants/story review, not Git checkout as production pins; (4) actual new storyboard and packaging for the selected master; (5) later independently authorized TTS/media QA and release. No review tool in this agent host can create a genuine independent session/receipt: **UNVERIFIED**, not silently approved. No runtime commands were executed.
+
+**Short loop blocker:** original version preserved as 02m; the colon+restart in the last→first narration is not itself a PASS under the current standard. Fix *after* selecting Short with a new exact version, then fresh reviewer. AV seam remains UNVERIFIED even if text loop improves. 05m word count may result in under-five-minute read; do not pad, accelerate or alter the fixed voice speed to meet a label.
+
+**Evidence:** OHS Oregon Encyclopedia (1970 event, 1979 burial, Dave Barry bulletin board), KATU contemporary transcript (Thornton, spectators, fallout), OHS film restoration 2020, OPB 2020 Larry Bacon interview. [Research](research.md) maps new claims to these sources with confidence. No archival film rights acquired and no video generated.
+
+## Historical handoff preserved from baseline
+
 ## Актуальный workflow — не запускать производство из Git Draft
 
 Сверено с remote `main` `96c8fa1573c02e8e7987e272a569bf34f037691e`. Этот редакторский текстовый кандидат **не является фактическим `ytv start` run** и ещё не прошёл самостоятельный `awaiting_script_approval`. Предварительная `storyboard.json` — иллюстративный план, не официально завершённый stage. Авторская фактологическая проверка и текстовая петля не заменяют `sessions.independent`.
@@ -20,3 +34,4 @@
 - **Packaging:** 3 truthful alternative promises in `packaging-brief.md`, Paper cutout text mandatory. No images created; no CTR claims or actual thumbnail approved.
 - **Workflow gate:** owner must review and explicitly approve exact script to start local production. The Draft PR is **not** a saved `ytv start` production run and merge would not be approval. Independent reviewer session and full exact TTS/MP4, images, music, SRT, quality/rights/calendar/YouTube checks all remain to be done. This environment can write GitHub PR artifacts but has no mounted private runtime store; no `ytv start` was run. No release actions allowed in this task.
 - **No modifications** to global docs/skills, existing video folders, PRs, branch statuses or private media. No auto-merge. No media-generation actions invoked.
+

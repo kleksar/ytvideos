@@ -1,3 +1,5 @@
+> **2026-11-18 revision:** The three concepts below belong ONLY to the original root/02m Short (unchanged bytes); no approved title/thumbnail exists for new 05m or 10m Long. For the recommended 05m, promise a distant crushed car, Thornton's uncertainty and the cleanup reversal; the archival/media-history component is unique to 10m and must not appear in a 05m title. This is a briefing, not an accepted thumbnail/CTR result.
+
 # Packaging brief — exploding whale, Paper Detour Short
 
 **Scope:** concepts only, no generated/approved actual thumbnail. English 9:16 illustrated paper Short. All concepts need one truthful dominant visual and large physical paper cut-out text per brand; do not bake subtitles or external decorative frame.
