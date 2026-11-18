@@ -1,22 +1,13 @@
 EDITORIAL_CANDIDATE_UNREGISTERED — no canonical ytv task receipt.
 
-# Handoff — convert PR #29 Batavia to Nuviko History Long
+# PR #29 Batavia — handoff for one selected source
 
-- Exact PR branch: `work/story-drafts/nuviko-batavia-rescue-race-20261113`; package: `.agent/research/2026-11-13-nuviko-batavia-rescue-race/`. Existing PR #29 edited in place; no new redundant story PR.
-- Owner request 2026-11-14: refactor existing draft to **complete Long 3–10 minutes**, not to render/upload. Existing Short's editorial script, 9:16 composition plan, 15-shot storyboard and mandatory loop superseded.
-- Verified Nuviko History channel spec at main at time of research: `active`; English, ElevenLabs voice `5vsgZsi667xMyGinrNIM`, speed 1.10×, format long 2560×1440 30fps, 10-second end screen, background music and word-synced subtitles required by live instructions. All exact values MUST be reread from the pinned runtime on the next step.
-- Exact current editorial draft: `script.en.txt` 1195 English whitespace-delimited words and `script.ru.txt` corresponding 83 paragraphs. These are **not** canonical production input hashes. No voice duration/MP4 asserted.
-- Owner-approved *structure*, not script approval: first two narrative blocks ask concrete questions, S003–S004 are the unresolved hook, S005 bridges to 1628. Retain the questions and check their answers against the final exact script; no TTS/retention metric was measured.
-- Claim/evidence ledger and unusual publication-count disagreements: `research.md`, official NMA/WA Museum/ANMM/Australian Government sources.
-- Visual storyboard is a **coverage map** (83 beat descriptions); do not dispatch image-generation tasks from it without actual approved prompt/reference pack and storyboard gate.
+Baseline remote head `964d88b6836aca9bff583fb98181bd18e959f384` (root EN/RU + original 83-paragraph Long preserved). Owner's 2026-11-15 instruction requires independent 2/5/10 minute compositions; the new candidates live under `variants/{02m,05m,10m}/`.
 
-## Required next action in a real permitted checkout
+Selection table with literal EN/RU files and subjective recommendation: [README](README.md). Exact hashes, script maps, eight scores each, hard checks and reviewer blockers: [story-review](story-review.md). Common fact sources: [research](research.md). Recommended **05m Long** editorial candidate only; no choice/approval by owner.
 
-1. Verify current remote PR and main; keep unrelated branch/checkout changes intact. Start the authorised story workflow with `uv run ytv start --channel nuviko_history --format long --intent 'Разработать полный Long Batavia 1629 из существующего PR #29, без производства и публикации; полный EN/RU черновик в .agent/research/2026-11-13-nuviko-batavia-rescue-race/'`.
-2. Read actual `plan_summary`, `read_next`, pinned stage skill, `task_guide`, profile, editorial contract and reference docs; verify no unknown defaults/fallbacks before advancing stages.
-3. Research and verify every material claim including sources/uncertainty; use draft as source candidate. Execute current independent reviewer on **complete exact Long text**, explicitly test viewer motivation and slow sections rather than inheriting prior Short loop PASS, and separately check EN/RU meaning. Record authentic evidence/hash/receipts.
-4. Show owner **exact approved revision** and accept script decision through canonical workflow. Previous conversation's choice of topic is not exact-script approval. No imagegen, TTS, render, upload, schedule or publication from this PR alone.
-5. Only after a separately authorised production request, create and check proper entity sheets / scene image references, refine ~83 storyboard beats to voice timing, follow audio/music/subtitle rules, reserve dedicated 10s end screen and verify deliverable. Do not mark media evidence PASS on text alone.
+Current channel.json supports `nuviko_history` Long 16:9; its live runtime profile pins must be read at the future task. The 83 old 16:9 scene intentions and any timings remain attached solely to the unchanged root EN/RU scripts, identical to the new 10m text; they cannot be applied to 02m/05m. No images/reference packs or exact TTS timings exist for new variants.
 
-## Genuine blockers
-Current GitHub-only connector host cannot run repository `ytv` CLI with persistent run store or `sessions.independent`; no real run ID, pinned context/task receipts, authoritative reviewer or `awaiting_script_approval` exists. Offline editorial checks are not substitutes. The PR remains draft/unregistered even after GitHub CI, pending actual runtime evaluation.
+On owner's choice and separate permitted production path: in local working checkout preserve canonical prior runs, verify exact file/hash, `ytv start --channel nuviko_history --format long --source-script PATH --intent INTENT` only if no existing run; read `read_next`, pinned instructions and task requirements, register supporting variants/review via documented `attach-artifact`; independent reviewer must submit their genuine `ytv-script-review-v1` output and applicable gates. No fake `awaiting_script_approval`. An existing run requires status/resume/migration rather than creating another.
+
+Cannot access the repository's persistent `ytv` run store or independent session from this GitHub-only editing host. Therefore UNVERIFIED: reviewer, runtime registration, user approval, scene timing, media, subtitles, exact TTS duration, MP4/AV seam, release. No TTS/imagegen/render/upload/schedule performed.

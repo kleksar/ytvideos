@@ -1,20 +1,17 @@
-EDITORIAL_CANDIDATE_UNREGISTERED — not official ytv script gate.
+EDITORIAL_CANDIDATE_UNREGISTERED — Git-only editorial alternatives, **not** an official script gate.
 
-# Batavia 1629 — complete Nuviko History Long editorial candidate
+# Batavia 1629 — three finished Nuviko History Long narratives
 
-This modifies **existing PR #29** from its old Short pitch to a **full landscape Long**. It is not an approved production run, not video, and not an automatically accepted script.
+Logline: after a shipwreck, an armed faction murders survivors, but disarmed soldiers hold out and race to warn the rescue ship first.
 
-- Channel: `nuviko_history`; English narration; RU reading translation.
-- Format: **Long 16:9, 2560×1440 @30 fps**; planned target around 6–8 minutes including a separate **10-second end-screen**. Actual duration requires TTS measurement.
-- Opening before the existing hook: S001–S002 `Viewer Promise` (two answerable questions); S003–S004 hook (two-boat conflict); S005 bridge; the rest of the story and complete ending remain intact.
-- Full EN manuscript: [script.en.txt](script.en.txt) — 1195 words across 83 aligned narrative paragraphs.
-- Full RU: [script.ru.txt](script.ru.txt) — 83 meaning-matched paragraphs for owner review.
-- Grounding and material uncertainties: [research.md](research.md).
-- Author's honest review limitations: [story-review.md](story-review.md).
-- Complete *preliminary* shot coverage: [storyboard.md](storyboard.md) — 83 story beats + 10s ES001, **not** accepted imagegen prompts or timecodes.
-- Long-specific titles, thumbnail theories and deliverable rules: [packaging-brief.md](packaging-brief.md).
-- Native ytv workflow transfer and blockers: [handoff.md](handoff.md).
+| Target | Complete EN | Complete RU | Editorial assessment |
+|---|---|---|---|
+| 2m (Long 16:9) | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | Complete compact story; rapid middle |
+| **5m (Long 16:9)** | **[EN](variants/05m/script.en.txt)** | **[RU](variants/05m/script.ru.txt)** | **Recommended**: best cause/effect and rescue-race pacing |
+| 10m (Long 16:9) | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | Original substantial Long preserved unchanged; slower opening and tail |
 
-This branch replaces obsolete Short text, storyboards, loop and release assumptions **without changing shared docs, skills, channel profile, main, or unrelated PRs**.
+See [story-review.md](story-review.md) for word counts, exact checks, evidence and version comparison; [research.md](research.md) for sources and claim restrictions. This is one story with three standalone compositions, not three themes.
 
-**Release gates:** no `ytv start` / exact task packet / independent `ytv-script-review-v1` / owner approval / TTS / AI art / final edit / release. No missing requirement is invented to mark this as ready.
+**Protected baseline:** The original root [EN](script.en.txt) / [RU](script.ru.txt), their 83 matching storyboard beats, research, and approval state were not overwritten. The [old storyboard](storyboard.md) applies only to those unchanged root bytes / identical 10m copy, **never** to the 2m/5m variants. End-screen remains a separate unproduced 10s element.
+
+Nuviko History ChannelSpec currently supports Long 16:9 2560×1440 30fps; voice/time and runtime pins require future verification. No script approved; independent review, official ytv run, audio, images, MP4, actual durations and viewer metrics UNVERIFIED. No production or publication authorised.

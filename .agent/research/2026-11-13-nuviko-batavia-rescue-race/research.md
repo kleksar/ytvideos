@@ -54,3 +54,12 @@ The online journal passages are editions/reproductions hosted by a museum, not a
 
 ## Validation still missing
 Official `ytv start`, `read_next`/pinned instructions, independent first-listener review, independent bilingual review, exact TTS duration, image references, shot-by-shot visual QA, audio, SRT, MP4, native YouTube elements and real audience metrics are **UNVERIFIED / NOT_STARTED**. Editorial research is not an official release credential.
+
+
+## Cross-check for 2/5/10 variants (2026-11-18)
+- National Museum of Australia: https://www.nma.gov.au/defining-moments/resources/wreck-of-the-batavia — 22 soldiers under Hayes, found water and wallabies; two failed attacks, capture of Cornelisz, Loos killed three defenders with muskets, Hayes reached Pelsaert first, mutineers arrested. This supports the compressed versions' distinct causal turns.
+- WA Museum archive: https://journals.museum.wa.gov.au/about-pelsaert — 4 June wreck; 33 days to Java; Sardam's return took longer. Avoid precise return-voyage length where museum summaries conflict.
+- WA Museum maritime archaeology database: https://museum.wa.gov.au/maritime-archaeology-db/wrecks/batavia — specific 1628 departure dates/headcounts vary by institutional page. Adaptations say only '1628' where needed; no unsupported unique figure.
+- Australian Government heritage listing: https://www.dcceew.gov.au/parks-heritage/heritage/places/national/batavia — surviving stone camp structures. Claims about archaeological traces are source-grounded.
+- **No new unsourced testimony**: Characters' private intentions, exact weather, rescue dialogue, staged eye contact or audio are not inserted. The competition to convey the first account comes from NMA's documented rowing race, not a claim the Sardam was actually hijacked.
+- Audience preference/retention: no observed comparable per-video metrics collected; UNVERIFIED, not a basis for numerical predictions.
