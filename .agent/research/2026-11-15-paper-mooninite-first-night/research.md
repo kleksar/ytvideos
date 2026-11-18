@@ -87,3 +87,8 @@ Original exact root preserved at head `83836c2d6a2c12c92740485542007f3eeb47ba7d`
 - [WBUR, 2007-05-11](https://www.wbur.org/news/2007/05/11/charges-dropped-against-guerrilla-marketers): completed community service, apology and **charges dropped** (not convicted/acquitted in a trial). Turner/Interference two-million-dollar settlement was corporate restitution, not a personal fine for the artists. Do not infer a criminal motive from arrest alone.
 
 Unresolved: independent viewers' interest, original billboard cartoon art rights, exact 2013 footage, measured TTS/pause length and independent review; all UNVERIFIED. Web sources are evidence for events, not runtime/approval authority.
+
+
+## Exact-quote correction (2026-11-18)
+
+In a first expanded 10m draft, a second exact sentence was wrongly attributed to Mayor Menino. Checking [Boston Magazine, 2013-11-20](https://www.bostonmagazine.com/news/2013/11/20/boston-herald-made-menino-forgiving/), [WBUR/AP, 2013-11-20](https://www.wbur.org/news/2013/11/20/boston-bomb-scare-artist-back-in-the-limelight), and prior owner research verified the core “We're a forgiving city” quotation, not the supplemental sentence. The unsupported exact quote has been removed in both languages; see updated 10m SHA-256 in story-review. No invented quotation retained.

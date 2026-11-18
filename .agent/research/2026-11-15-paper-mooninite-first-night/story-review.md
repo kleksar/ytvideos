@@ -8,7 +8,7 @@
 |---|---|---|---:|---:|---|---|
 | 02m | [EN](variants/02m/script.en.txt) | [RU](variants/02m/script.ru.txt) | 267 | 222 | `9f6b3695fc6e1e7b25e9a46fe03371f9985b08e6c7a5cf1514c9049dbe7cff2f` | `69d52d9bd2cfd442571398c4f2f2979fda9129ba23cfd1cc6aec9a5f6ac0537a` |
 | 05m | [EN](variants/05m/script.en.txt) | [RU](variants/05m/script.ru.txt) | 527 | 439 | `122c968f1cf44e801b82153a8891af66126c8289e8384b8f5e5a05ad8a03febb` | `247ba7042d70d141dcf0cdc03bf73a4e0ceb22fdbe1423c17bf5d2d65c4ba632` |
-| 10m | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | 1420 | 1145 | `bfd18494be7011b315ad5dff689ece10e57a4b676b9629c3d37e7e2a225fd55e` | `aee79f3658fcdc4884a4debb1d3745ced0148ee98aa3a1d71f83fdb3aa7dac92` |
+| 10m | [EN](variants/10m/script.en.txt) | [RU](variants/10m/script.ru.txt) | 1411 | 1139 | `ce1b9c5760eb4c6f9d901ccdd1b4e2908c5df9972901cbba14028cce0b0d3775` | `8c90f41a42bb46a72bca8fabae626bde909658a80792f402e4a9af25d77a9e1c` |
 
 Target timings, not measured: at assumed 135–155 EN words/min plus natural transitions, 02m about 1.7–2.2 min; 05m 3.4–4.2 min; 10m 9.2–10.9 min. The preserved five-minute version **may under-run**. No TTS/speed manipulation, word-map or MP4 used. The 10-minute version may also need an actual normal-speed recording to confirm target. All three marked Long 16:9; 5/10 cannot be Shorts.
 
@@ -65,6 +65,10 @@ Target timings, not measured: at assumed 135–155 EN words/min plus natural tra
 **05 → 10:** longer text adds distinct evidence on multi-location threat reports, artist versus police knowledge, criminal charge versus ultimate dismissal, and *why* the artist was suitable for library-scale video mapping. The stretch from criticism through settlement to dismissal is the likely point of losing the viewer: several institutional steps follow the main ad reveal before the new artistic act.
 
 **Recommendation: 02m Long as an editorial candidate**, not approval. It delivers both visual reveals and finishes the human line without asking a general viewer to retain procedural detail. If a genuinely independent first listener finds this compression too abrupt, reconsider unchanged 05m. Ten minutes has better documented mechanics but weaker pacing; a stronger topic may deserve that length instead. Author judgements do not predict CTR, retention or views.
+
+## Verified quotation correction
+
+An exact extra sentence attributed to Mayor Thomas Menino in the first 10m draft (“That's two thousand seven. This is two thousand thirteen.”) was not supported by the checked 2013 sources. It was removed from EN and RU before this final hash. Only “We're a forgiving city” is quoted, supported by contemporary reports and the original research. This correction invalidated old 10m hashes; the current hashes above are authoritative.
 
 ## Mandatory gate status
 

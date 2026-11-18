@@ -8,7 +8,7 @@ Paper Detour · same real event · English narration · Long 16:9.
 |---|---|---:|---|
 | 02m | [EN](variants/02m/script.en.txt) · [RU](variants/02m/script.ru.txt) | 267 | new complete compact Long |
 | 05m | [EN](variants/05m/script.en.txt) · [RU](variants/05m/script.ru.txt) | 527 | original exact text copied byte-for-byte; nominal 5m undershoot possible |
-| 10m | [EN](variants/10m/script.en.txt) · [RU](variants/10m/script.ru.txt) | 1420 | new documented expanded Long |
+| 10m | [EN](variants/10m/script.en.txt) · [RU](variants/10m/script.ru.txt) | 1411 | new documented expanded Long |
 
 **Preliminary recommendation: 02m Long.** It resolves the commuter's alarm, the ad-agency silence, the criminal outcome and the later commission without a long procedural tail. The original 05m remains unchanged as a strong alternative but could under-run five minutes; 10m contains new sourced detail and a weaker middle. The target duration is **not** a measured audio length, and this recommendation isn't approval.
 
