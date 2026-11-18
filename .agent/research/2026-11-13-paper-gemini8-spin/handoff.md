@@ -1,9 +1,20 @@
-# Handoff — current Gemini VIII voice revision
+# Handoff — Gemini VIII full 2/5/10-minute editorial queue revision
 
-English narration `script.en.txt`, full Russian editorial translation `script.ru.txt`, fourteen current blocks in `storyboard.json`. The exact original package is preserved at Git commit `2b74593f81fa107e2a32046d899b356c7c32bdf2`. Existing research and thumbnail ideas remain hypotheses; neither old self-review nor an old script hash is evidence for this revision.
+Status: `EDITORIAL_CANDIDATE_UNREGISTERED`. No production action, runtime claim, valid script receipt, or independent reader is represented by this Git-only update.
 
-On a user-authorized local production request follow current `uv run ytv start --channel paper_detour --format short --intent 'Review Gemini VIII candidate PR #23'`, pinned task context and real independent `ytv-script-review-v1`. Reviewer reads full EN twice including the question-to-opening loop and reports exact stiff/redundant phrases without an author verdict. Check RU meaning separately. Only genuine script acceptance permits media; no made-up run IDs, sessions or receipts.
+## What changed and what is protected
 
-Actual Lawrence timing is not known. Re-time/split scene compositions rather than retaining old 74.5s grid or rushing narration. Verify actual approved Paper art/reference bytes and plane cameo at S012. S014 must use exact S001 artwork and matching final/opening crop; verify real music, caption, voice and final MP4 seam.
+Baseline PR #23 HEAD: `f2900fe89caa5bbaad7b3fc93afe6ecb9a4fb4ed`. Original root English/Russian narration stays byte-for-byte identical (Git blob SHAs `1f117e7652919562325b0bbcfce2f7effa8d1f20` / `e173e3f08854c09a7e8c79bb1125bd5adbb728f6`). The existing provisional 14-scene `storyboard.json` is **only valid as a scene intention for those original exact root scripts**, never for 02m, 05m or 10m variants. Existing `packaging-brief.md` likewise refers to the original Short. Do not carry its scene IDs, timings, old loop opinion, or approvals into a new script.
 
-Keep Gemini's stuck orbital thruster distinct from the reentry thrusters used for recovery. Crew risked unconsciousness but were not stated to have blacked out. The 75% applies to reentry fuel; Apollo's lunar landing was three years later. No imagegen, TTS, MP4, merge or publication was performed here.
+New complete independent narrations: [02m EN](variants/02m/script.en.txt) / [02m RU](variants/02m/script.ru.txt); [05m EN](variants/05m/script.en.txt) / [05m RU](variants/05m/script.ru.txt); [10m EN](variants/10m/script.en.txt) / [10m RU](variants/10m/script.ru.txt). All six exact SHA-256 values, hard-check status, author-only evaluations, fact maps and recommendation are in [story-review.md](story-review.md). Additional historical claims and NASA source locations are attached to the one [research.md](research.md).
+
+**Author recommendation:** one prospective 05m Long, not three productions. The 02m Short has a deliberately grammatical ending `when` / `когда` that continues into the first sentence, but **independent two-cycle textual reading and actual AV seam are UNVERIFIED**. Need a real first-listener and bilingual reader on each exact candidate before acceptance; do not copy author's scores into reviewer input.
+
+## Next independent workflow (requires owner selection and local runtime)
+
+1. For the selected version, retain repository/PR, exact branch commit, path and actual sha256. Register it using the current canonical `ytv` source/import path and real local context; any existing run must keep its pins until explicit migration. A repository URL or this candidate status is not approval.
+2. Obtain the canonical script-review helper input for the **exact** EN text. Give a new independent reviewer the full text, not this evaluation. For the Short, include full two-cycle text and precise EN end→start. Provide research **after** first reading, and verify the RU semantic pair separately. Reviewer writes a real `ytv-script-review-v1` response itself; don't invent tool or session IDs or fill missing fields on its behalf.
+3. Request owner approval of exactly one reviewed master, then write a fresh scene plan for that script's hash. Paper styling: tactile opaque handmade paper dioramas, full-bleed, physical shadows; no parallax, direct cuts. The plane cameo should be assigned to a scene of the selected version, with actual accepted paper-plane source bytes verified, not inherited automatically from S012.
+4. On a genuine authorized run only: complete audio and real timing, storyboard and visuals, music/SRT, render and listen/AV QA, and later release on separate owner request. No TTS, image generation, Flow provider or external video batch was authorized by this editorial task.
+
+Paper `channel.json` currently has Short 9:16 and Long 16:9 formats. Neither unregistered text nor successful CI exercises that runtime compatibility with actual media. Production providers, approved identity, media, and measured audience data are UNVERIFIED.

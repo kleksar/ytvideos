@@ -64,3 +64,32 @@ Coverage includes ten different incidents, not ten titles. Sources linked are th
 - Existing Paper historical/science topics include other technologies, and current Paper draft choices cover syrup theft and Clever Hans; this topic's event and payoff are independent. Cross-channel queue includes naval/WWII episodes but does not show Gemini VIII.
 
 **Editorial decision:** Candidate A has enough verified progressive actions to write a complete Short and draft, subject to owner's acceptance and an actual independent first-listener review. Do not mark the owner or audience approval as passed.
+
+
+## Addendum — substantive 2/5/10-minute revision (18 November 2026)
+
+**Original research preserved above.** This addendum checks only additional events and causal connections used in the new 5- and 10-minute independent narrations; it does not turn the prior Short into an approved or produced artifact.
+
+### Additional primary-source evidence for the three full versions
+
+1. **NASA's mission chronology, launched separately and approached in orbit:** [NASA, *55 Years Ago: Gemini VIII, the First Docking in Space*](https://www.nasa.gov/missions/gemini/55-years-ago-gemini-viii-the-first-docking-in-space/), sections covering preflight plan, Atlas/Agena and Titan launches, approach/radar and visual inspection. Agena launches roughly 90 minutes earlier; Gemini performs multiple maneuvers; Armstrong closes to 150 feet, then two feet. Used only in the 10-minute version to make the technical encounter comprehensible.
+2. **Planned 90-degree roll followed by uncommanded motion:** same NASA chronology, paragraph beginning after first docking. Scott used Agena's thrusters for an initially successful commanded turn. The unwanted roll began as the pair passed outside communications range. Both 5- and 10-minute versions distinguish the *planned* roll from the later malfunction.
+3. **Gemini fuel gauge and uncertain early diagnosis:** same NASA chronology: Scott disabled Agena jets, Armstrong tried Gemini controls, fuel gauge fell to about 30%, undocking led to more rapid tumbling. The original root Short's “They only worked that out afterward” refers loosely to culprit identification; revised narrations distinguish the in-flight clue to the **vehicle** from the postflight identification of **thruster number 8**. Neither narration asserts a certain electrical diagnosis in orbit.
+4. **Different inertia after undocking:** [NASA, *Gemini's First Docking Turns to Wild Ride in Orbit*](https://www.nasa.gov/missions/gemini/gemini-viii/geminis-first-docking-turns-to-wild-ride-in-orbit/) and NASA 2021 chronology document increased tumble rate after separation, nearly one revolution/second. The explanation that the smaller isolated capsule responds faster to the remaining unwanted torque is qualitative mechanics, not measured torque/inertia or a precise claim that astronauts calculated this in flight.
+5. **Reentry control as emergency reserve:** [NASA Gemini VIII Mission](https://www.nasa.gov/mission/gemini-viii/) and NASA 2021 chronology describe isolation of orbital thrusters and activation of the separate reentry control system; about 75% of reentry control fuel used and flight rules requiring early landing. No main rocket engine, explosion, or loss of all spacecraft propellant is claimed.
+6. **Changed recovery and genuine second payoff:** NASA 2021 chronology documents original western Atlantic/USS Boxer recovery, contingency western Pacific east of Okinawa, USS Leonard F. Mason, retrorocket ignition over Africa, splashdown within 1.6 miles of target after 10h41m, aircraft/pararescue/flotation collar, destroyer reaching site about two hours later, crew tired but healthy. Used in the ten-minute version as an actual follow-on problem with a concrete resolution rather than generalized praise.
+7. **Agena and astronauts afterward:** same NASA chronology documents Gemini X rendezvous with the left-behind Agena in July 1966, Michael Collins retrieving a micrometeorite panel, Armstrong's Apollo 11 and Scott's Apollo 15. This is a brief factual consequence, not a new claim that Gemini VIII failure caused those future achievements.
+
+### Causal story maps / precise factual restraints
+
+| Version | Verified event → changed expectation → next question | Point of resolution |
+|---|---|---|
+| 02m | First orbital docking succeeds → uncommanded roll and ground blackout → Gemini fuel falls, undock → *faster* spin → independent reentry jets → compulsory early return | Stuck Gemini thruster identified after flight; both crew return alive |
+| 05m | Mission promises docking and EVA → first docking achieved → out-of-range roll and falling Gemini propellant → smaller capsule tumbles faster after detaching → backup jets save crew but consume reentry reserve → emergency Pacific return | Survivor + aborted mission; definite culprit identified afterward |
+| 10m | Rendezvous logistics → planned successful docking and 90° roll → separate uncommanded roll during radio gap → fuel gauge clue and undocking reversal → independent jets → recovery location moved → parachute and destroyer rescue → postflight fault trace and later Agena reuse | Two astronauts are recovered healthy; mission cancelled but docking milestone stands |
+
+**Explicit limits:** No transcript-derived direct thoughts or newly invented speech; risk of unconsciousness does **not** mean either astronaut fainted; “electrical short” is a postflight explanation, not a contemporaneous crew diagnosis. No precise thruster force, approach hazard, bodily sensations or scene footage are asserted. The original root scripts/review and their provisional 14-scene storyboard are historical evidence for **those exact unchanged root texts**, not verified scene spans for any new variant. Demand, true audience retention, independent reader and measured voice durations remain **UNVERIFIED**.
+
+### External interest evidence
+
+The NASA incident is documented and notable; that supports **historical significance**, not comparative YouTube demand. No matched public comparable-video cohort, watch-time or CTR was verified in this revision. **Audience-demand check: UNVERIFIED.**
