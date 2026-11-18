@@ -1,0 +1,37 @@
+I have eight sealed packets of the same screws, and one packet is short by exactly one screw. The packets look identical. I need to find the lighter one without opening them.
+
+On my table is a two-pan balance. Should I divide the packets into two equal groups, or leave some off the scale? Pick A or B before I show the results.
+
+These are model packets: seven have exactly the same mass, and one is lighter. There's no noise in the balance. I'm comparing the number of weighings, not measuring how long a person takes to move packets.
+
+First I try A, the method I'd probably reach for without thinking. I arrange four on each side. One pan rises, so I put the heavier four aside. The lighter packet has to be among the four on the raised side.
+
+I can already see where this is going. I split those four into two groups of two and compare them. Again one side rises. Now there are only two suspects left.
+
+I weigh those two individually. The lighter one reveals the missing screw. One, two, three uses of the scale. A is reliable, but the first weighing only cut my list from eight to four.
+
+I reset the table. Exactly the same eight packets, exactly the same single missing screw. No swapping the culprit to make B look good.
+
+For B, I make three groups: three, three, and two. I weigh the two groups of three. This time a third outcome matters as much as a lighter pan.
+
+Imagine the left three are lighter. I discard the other five as suspects. There are three packets to check, but I only have one weighing left if B is going to win.
+
+I put one of those three on each pan and leave the third on the table. If the left pan rises, the left packet is lighter. If the right rises, it's the right packet. And if they balance, the one on the table must be lighter. Three possible answers, three possible packets, one weighing.
+
+What if the first comparison went the other way? Nothing changes except which three I examine. The second weighing works identically.
+
+Now the interesting case. I set three packets on the left, three on the right, and the needle stays level. I haven't found anything faulty on the scale. But I've actually cleared six packets at once. The one with the missing screw must be among the two I never weighed.
+
+I compare those last two directly. The lighter one gives me the answer. That's also just two weighings in total.
+
+There isn't a lucky branch and an unlucky one here. B always finishes in two. A always needs three. I can even test all eight possible positions of the lighter packet on paper; every B path ends after the second result.
+
+The difference isn't magic. A split into halves uses the scale as if it could only say left or right. But a balance has three outcomes: left lighter, right lighter, or equal. B turns the equal result into a real location: the untouched group.
+
+This also explains why I shouldn't mistake the demonstration for a shopping tip. I don't know that real screw packets have identical packaging mass. Maybe a small difference in plastic outweighs the missing screw. Maybe the scale isn't sensitive enough. And a two-pan balance is not the same as the digital kitchen scale that displays a number. The experiment proves a strategy under controlled conditions, not that I'll identify faulty hardware in every house.
+
+There is another limit. I knew in advance that exactly one packet was lighter. If I didn't know whether a packet was lighter or heavier, or if two packets were wrong, my interpretations of the balance would no longer be guaranteed. I'd need a different test.
+
+So for these eight packets and this exact question, I choose B. Two weighings are sufficient, and no one-weighing strategy can always distinguish eight suspects: one balance reading only offers three possible outcomes.
+
+I didn't win by moving faster. I won by asking a question with three useful answers, including the one where nothing seems to happen.
