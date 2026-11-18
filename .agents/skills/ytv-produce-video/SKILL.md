@@ -7,13 +7,13 @@ description: "Produce an approved ytvideos script through AI-generated images an
 
 До действий выполнить [обязательную процедуру](../ytv-start/references/task-execution.md): прочитать pinned skill/требования/точные входы и проверить описанный способ. Пробел или неразрешённый конфликт — blocker затронутого этапа; не подставлять свои defaults и не менять правила ради продолжения.
 
-CLI и точные outputs/receipts: [task contract](../../../docs/operations/task-contract.md).
+CLI/receipts: [task contract](../../../docs/operations/task-contract.md).
 
-Для `storyboard`, `scene_image` с `purpose: scene`, `render` и `review` прочитать [общую процедуру видеоклипов](references/video-clips.md); применять её при работе с клипами, начиная до затрат. Для `audio`, `subtitles` и обложок она не нужна.
+Для `storyboard`, `scene_image` с `purpose: scene`, `render` и `review` прочитать [общую процедуру видеоклипов](references/video-clips.md); применять её для клипов до затрат. Для `audio`, `subtitles` и обложок она не нужна.
 
 Генерация клипов применяется к Shorts. Если в контексте есть [рецепт Flow](../../../channels/paper_detour/docs/FLOW_PRODUCTION.md#выбор-движения), выбрать планы Ingredients по записи и карте слов. Для каждой точной партии до отправки получить [отдельное одобрение внешнего видео](../../../docs/workflow.md#отдельное-одобрение-внешнего-видео) по параметрам из рецепта.
 
-Выполнять только выданный task: `storyboard`, `scene_image`, `audio`, `subtitles` или `render`. Роль, обязательное чтение и точные входы определяет [форма задания](../ytv-start/references/task-execution.md#до-действия); для run координатор проверяет actual script approval и текущий lease.
+Только выданный task: `storyboard`, `scene_image`, `audio`, `subtitles` или `render`. Роль, обязательное чтение и точные входы определяет [форма задания](../ytv-start/references/task-execution.md#до-действия); для run координатор проверяет actual script approval и текущий lease.
 
 | Task | Нужные требования | Выход |
 |---|---|---|
@@ -25,7 +25,7 @@ CLI и точные outputs/receipts: [task contract](../../../docs/operations/t
 
 Для storyboard/scene_image/audio/render прочитать применимый раздел [производственных примеров](references/production-examples.md): выбор камеры для закреплённого static whole-frame recipe, звуковой акцент или адресная AI-правка. Примеры не меняют профиль, входы и разрешённый способ исполнения. Для Ingredients выполнить [проверку единого стиля выпуска](../../../channels/paper_detour/docs/FLOW_PRODUCTION.md#единый-стиль-выпуска) перед согласованием партии и сверить стиль клипов на склейках при монтаже.
 
-Для `subtitles` и `render`, включая ручную правку исходного видео, выполнить применимый этап из [стандарта экранных субтитров](../../../docs/standards/audio.md#экранные-субтитры). В `subtitles` сохранить карту слов, измеренные группы и SRT. В `render` применить карту и сохранить результат проверки на точном MP4.
+Для `subtitles` и `render`, включая ручной монтаж, выполнить применимый этап из [стандарта экранных субтитров](../../../docs/standards/audio.md#экранные-субтитры). В `subtitles` сохранить карту слов, измеренные группы и SRT. В `render` применить карту и сохранить результат проверки на точном MP4.
 
 При нарезке исходной речи, включая ручную правку, до рендера сохранить дословную монтажную расшифровку с исходными таймкодами по [редакционному стандарту](../../../docs/standards/editorial.md#монтаж-исходной-речи).
 
@@ -33,7 +33,7 @@ CLI и точные outputs/receipts: [task contract](../../../docs/operations/t
 
 Для новых финалов читать [editorial](../../../docs/standards/editorial.md).
 
-Для Short в storyboard/audio/render прочитать [editorial](../../../docs/standards/editorial.md) и применимый loop plan принятого сценария. Связать последний и первый планы, музыку, применимую речь и субтитры; проверить начало по фактическому звуку. Не добавлять заставку/прощание, скрывать отдачу или менять принятый текст ради стыка. Смысловой дефект — по editorial; техническую склейку исправлять без нового gate. Финальная проверка — [delivery](../../../docs/standards/delivery.md).
+Для Short в storyboard/audio/render прочитать [editorial](../../../docs/standards/editorial.md) и применимый loop plan принятого сценария. Связать последний и первый планы, музыку, применимую речь и субтитры; проверить начало по фактическому звуку. Кроме [принятого начала](../../../docs/standards/delivery.md#пятисекундное-начало-с-обложкой), не добавлять заставку/прощание, скрывать отдачу или менять принятый текст ради стыка. Смысловой дефект — по editorial; техническую склейку исправлять без нового gate. Финальная проверка — [delivery](../../../docs/standards/delivery.md).
 
 Для иллюстрированной раскадровки и сцен выполнить [процедуру](references/storyboard.md).
 
