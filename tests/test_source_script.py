@@ -124,10 +124,14 @@ class SourceScriptTests(unittest.TestCase):
         for defect in ("wrong_hash", "empty_reason", "pass", "other_check"):
             bad = json.loads(json.dumps(receipt))
             check = next(c for c in bad["checks"] if c["name"] == "listening")
-            if defect == "wrong_hash": check["observed"]["artifact_sha256"] = "0" * 64
-            if defect == "empty_reason": check["observed"]["reason"] = ""
-            if defect == "pass": check["status"] = "pass"
-            if defect == "other_check": bad["checks"].append({"name": "rights", "status": "unverified", "method": "fixture", "observed": {"reason": "missing"}})
+            if defect == "wrong_hash":
+                check["observed"]["artifact_sha256"] = "0" * 64
+            if defect == "empty_reason":
+                check["observed"]["reason"] = ""
+            if defect == "pass":
+                check["status"] = "pass"
+            if defect == "other_check":
+                bad["checks"].append({"name": "rights", "status": "unverified", "method": "fixture", "observed": {"reason": "missing"}})
             with self.subTest(defect=defect), self.assertRaises(WorkflowError):
                 self.service._validate_receipt(run, run["tasks"]["audio"], claim, artifact, bad)
         # Media decoding/provenance has its own suite; only replace it in this state-transition fixture.
