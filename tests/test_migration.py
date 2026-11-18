@@ -466,6 +466,35 @@ class RuntimeMigrationTests(unittest.TestCase):
             self.assertEqual(len(self.service._task_operations(tx, run, run["tasks"]["audio"], claim)), 1)
         self.assertEqual(self.store.get(self.run_id)["budget"], before["budget"])
 
+    def test_confirmed_audio_checkpoint_rejects_missing_evidence_and_operation_races(self):
+        self.expired_audio()
+        with self.store.transaction() as tx:
+            original = tx.operation("confirmed-tts")
+        for defect in ("unknown", "missing_receipt", "other_kind"):
+            def alter(tx, run):
+                op = copy.deepcopy(original)
+                if defect == "unknown":
+                    op["status"] = "unknown"
+                elif defect == "missing_receipt":
+                    op["receipt"] = "absent"
+                else:
+                    op["kind"] = "upload"
+                tx.put_operation(op)
+            self.store.mutate(self.run_id, alter)
+            with self.assertRaises(Conflict):
+                self.plan()
+        self.store.mutate(self.run_id, lambda tx, run: tx.put_operation(original))
+        plan = self.plan()
+        # A changed durable observation invalidates a previously prepared plan.
+        with self.store.transaction() as tx:
+            op = tx.operation("confirmed-tts")
+            op["provider"]["observed"] = "different result"
+            tx.put_operation(op)
+        before = self.state()
+        with self.assertRaisesRegex(Conflict, "changed since migration plan"):
+            self.apply(plan)
+        self.assertEqual(self.state(), before)
+
     def test_confirmed_audio_recovery_rejects_changed_dependency_or_claim(self):
         self.expired_audio()
         self.apply(self.plan())
