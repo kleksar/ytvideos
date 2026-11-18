@@ -167,6 +167,7 @@ def subtitle_contract(plan, base, canvas, total, groups, resolved):
                          file_record(effective_style['font'])],
             'font': {'path': effective_style['font'], 'index': effective_style['font_index']},
             'engine': [file_record(HERE / 'montage.py'), file_record(Path(__file__)),
+                       file_record(ROOT / 'automation/helpers/camera_motion.py'),
                        file_record(ROOT / 'automation/helpers/channel_config.py'),
                        file_record(ROOT / 'automation/helpers/paper-subtitles/scripts/semantic_grouping.py')],
             'picture': [{'scene': scene, 'image': file_record(resolve(base, scene['image']))}

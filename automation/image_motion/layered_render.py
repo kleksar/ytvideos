@@ -5,6 +5,7 @@ The mask and background must be separately prepared and visually checked; this
 renderer does not perform automatic segmentation, inpainting, or Palmier edits.
 """
 import argparse
+import importlib.util
 import json
 from pathlib import Path
 import subprocess
@@ -14,6 +15,8 @@ import time
 from PIL import Image
 
 HERE = Path(__file__).resolve().parent
+_spec = importlib.util.spec_from_file_location('editorial_camera', HERE.parent / 'helpers/camera_motion.py')
+camera_motion = importlib.util.module_from_spec(_spec); _spec.loader.exec_module(camera_motion)
 PRESET = json.loads((HERE / 'layered_presets.json').read_text())['opposed-v06']
 
 
@@ -73,7 +76,7 @@ def render(foreground, background, output, direction, frames,
         if scale < 1.0 or scale > 1.2 or travel_fraction < 0 or travel_fraction > 0.1:
             raise ValueError('Camera scale must be 1.0–1.2 and travel fraction 0–0.1')
         travel_px = output_width * travel_fraction
-        expression = f'{camera_sign}*(-{travel_px / 2}+{travel_px}*on/{frames-1})'
+        expression = camera_motion.lerp_expression(-camera_sign*travel_px/2, camera_sign*travel_px/2, frames)
         camera_width = round(output_width * scale)
         camera_height = round(output_height * scale)
         crop_x = (camera_width - output_width) // 2

@@ -8,6 +8,8 @@ from PIL import Image, ImageDraw, ImageFont
 
 ROOT = Path(__file__).resolve().parents[2]
 HERE = Path(__file__).resolve().parent
+camera_spec = importlib.util.spec_from_file_location('editorial_camera', ROOT / 'automation/helpers/camera_motion.py')
+camera_motion = importlib.util.module_from_spec(camera_spec); camera_spec.loader.exec_module(camera_motion)
 delivery_spec = importlib.util.spec_from_file_location('montage_delivery', HERE / 'delivery.py')
 delivery = importlib.util.module_from_spec(delivery_spec); delivery_spec.loader.exec_module(delivery)
 spec = importlib.util.spec_from_file_location('semantic_grouping', ROOT / 'automation/helpers/paper-subtitles/scripts/semantic_grouping.py')
@@ -112,7 +114,7 @@ def validate_camera(camera,direction,zoom):
 def camera_filter(width,height,n,camera):
     if n<2:raise ValueError('scene needs at least 2 frames')
     a,b=camera['start'],camera['end']
-    def lerp(x,y):return f'({x:.10f}+({y-x:.10f})*on/{n-1})'
+    def lerp(x,y):return camera_motion.lerp_expression(x,y,n)
     z=lerp(a['scale'],b['scale']);cx=lerp(a['center'][0],b['center'][0]);cy=lerp(a['center'][1],b['center'][1])
     left=f'(W/2-W*{cx}*{z})';top=f'(H/2-H*{cy}*{z})'
     return (f"scale={width}:{height}:force_original_aspect_ratio=increase:flags=lanczos,crop={width}:{height},"
@@ -123,10 +125,11 @@ def camera_filter(width,height,n,camera):
 def motion_filter(width,height,n,direction,zoom):
     sw=round(width*1.10/2)*2; sh=round(height*1.10/2)*2; cx=(sw-width)//2;cy=(sh-height)//2
     if n<2: raise ValueError('scene needs at least 2 frames')
-    e={'out':f'{2*width/1920:.8f}+{24*width/1920:.8f}*on/{n-1}','in':f'{26*width/1920:.8f}-{24*width/1920:.8f}*on/{n-1}','none':'0'}[zoom]
+    e={'out':camera_motion.lerp_expression(2*width/1920,26*width/1920,n),
+       'in':camera_motion.lerp_expression(26*width/1920,2*width/1920,n),'none':'0'}[zoom]
     ex=21.708*width/1920; ey=21.708*height/1080
-    x={'right_to_left':f'(-{ex:.8f}+{2*ex:.8f}*on/{n-1})','left_to_right':f'({ex:.8f}-{2*ex:.8f}*on/{n-1})'}.get(direction,'0')
-    y={'bottom_to_top':f'(-{ey:.8f}+{2*ey:.8f}*on/{n-1})','top_to_bottom':f'({ey:.8f}-{2*ey:.8f}*on/{n-1})'}.get(direction,'0')
+    x={'right_to_left':camera_motion.lerp_expression(-ex,ex,n),'left_to_right':camera_motion.lerp_expression(ex,-ex,n)}.get(direction,'0')
+    y={'bottom_to_top':camera_motion.lerp_expression(-ey,ey,n),'top_to_bottom':camera_motion.lerp_expression(ey,-ey,n)}.get(direction,'0')
     q=f'({e})*H/W'
     return (f"scale={sw}:{sh}:force_original_aspect_ratio=increase:flags=lanczos,crop={sw}:{sh},"
             f"perspective=x0='-({e})+({x})':y0='-({q})+({y})':x1='W+({e})+({x})':y1='-({q})+({y})':"

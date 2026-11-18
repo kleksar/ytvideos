@@ -18,7 +18,7 @@ RECEIPT_SCHEMA = "ytv-music-render-receipt-v1"
 MIX_SCHEMA = "ytv-source-mix-evidence-v1"
 ENGINE = ("automation/music_render.py", "automation/music_montage.py", "automation/music_beats.py",
           "automation/music_fragments.py", "automation/captions/music_lyrics.py",
-          "src/ytvideos/music_contract.py")
+          "src/ytvideos/music_contract.py", "automation/helpers/camera_motion.py")
 
 
 def policy_blockers(policy):
@@ -180,8 +180,8 @@ def _validate_plan(plan, requirements, *, project, script):
             raise WorkflowError("music shots must leave room for the three-frame transition")
         expected_zoom = policy["zoom"] if scene.get("zoom") == "in" else list(reversed(policy["zoom"]))
         if (scene.get("zoom") not in {"in", "out"} or scene.get("direction") != "none"
-                or scene.get("scale") != expected_zoom or scene.get("easing") != "smoothstep"):
-            raise WorkflowError("each music shot needs continuous pinned 95–105% smoothstep motion")
+                or scene.get("scale") != expected_zoom or scene.get("easing") != "linear"):
+            raise WorkflowError("each music shot needs continuous pinned 95–105% linear motion")
         source = scene.get("source")
         if not isinstance(source, dict):
             raise WorkflowError("music shot needs its original source identity and interval")

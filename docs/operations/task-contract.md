@@ -311,7 +311,7 @@ Runtime сам добавляет `--work-dir` и `--requirements` из pinned p
 | Поле | Требование музыкального renderer |
 |---|---|
 | `scenes` | Не менее двух планов, каждый не короче четырёх кадров. IDs/порядок и clips совпадают с принятым storyboard и script segments; timeline непрерывен. |
-| `scenes[].direction/zoom/scale/easing` | `direction: none`, `zoom: in` либо `out`, `scale` из pinned `music_edit.zoom` в выбранном направлении, `easing: smoothstep`. |
+| `scenes[].direction/zoom/scale/easing` | `direction: none`, `zoom: in` либо `out`, `scale` из pinned `music_edit.zoom` в выбранном направлении, `easing: linear` от первого до последнего кадра видимого интервала, включая кадры перехода. |
 | `scenes[].source` | Оригинальные `path`, `sha256`, `start_seconds`, `end_seconds`, `rights_evidence` record и необязательный `source_page`. Один original footage SHA используется только одним планом. Исходный интервал включает видимость перехода: входящий план с `cut−1`, исходящий до exclusive `cut+2`; начало/конец ограничены timeline. Эти диапазоны и права совпадают с accepted `source_clip`. |
 | `planner` | `input` и `output` records canonical `music_montage.py`. Вход использует exact accepted audio, 30 fps и полную длительность; renderer пересчитывает output, порядок/акценты/исходные интервалы и отвергает ручную замену результата. `approved_accents`, если нужны, содержат `reason` и bound `evidence`. |
 | `color`, `transition` | Color равен pinned `music_edit.color`; transition сохраняет все pinned поля `music_edit.transition` и выбранные для этого монтажа `0 < blur_sigma_px <= 100`, `0 < brightness <= 1`. Каждый стык включает все три компонента. Цвет преобразуется в BT.709 limited YUV при рендере. |
