@@ -116,6 +116,9 @@ class SourceScriptTests(unittest.TestCase):
         listening = next(c for c in checks if c["name"] == "listening")
         listening.update(status="unverified", observed={"artifact_sha256": file_digest(path),
                          "reason": "No listening interface in synthetic fixture"})
+        exact = next(c for c in checks if c["name"] == "exact_text")
+        exact.update(status="unverified", observed={"artifact_sha256": file_digest(path),
+                     "script_sha256": file_digest(self.script_path), "reason": "No listening interface"})
         receipt = {"run_id": self.run_id, "task_id": "audio", "worker": claim["worker"],
                    "input_hash": claim["input_hash"], "output_sha256": file_digest(path), "checks": checks}
         run = self.service.store.get(self.run_id)
@@ -142,11 +145,11 @@ class SourceScriptTests(unittest.TestCase):
         with patch.object(self.service, "_validate_output", side_effect=measured):
             result = self.service.complete(self.run_id, "audio", claim["token"], path,
                                            self.fixture.output(receipt, "audio-receipt.json"), actual_units=0)
-        self.assertEqual(result["unverified_checks"], [listening])
+        self.assertEqual(result["unverified_checks"], [exact, listening])
         step = next(x for x in self.service.plan(self.run_id)["steps"] if x["id"] == "audio")
-        self.assertEqual(step["unverified_checks"], [listening])
+        self.assertEqual(step["unverified_checks"], [exact, listening])
         packet = self.service.context(self.run_id, "subtitles")
-        self.assertEqual(packet["unverified_production_checks"], {"audio": [listening]})
+        self.assertEqual(packet["unverified_production_checks"], {"audio": [exact, listening]})
         self.service.claim(self.run_id, "subtitles", "synthetic-aligner")
         self.assertFalse(valid_approval(self.service.store.get(self.run_id), "mp4"))
         review_task = {**run["tasks"]["review"]}
@@ -154,6 +157,51 @@ class SourceScriptTests(unittest.TestCase):
         bad = {**receipt, "task_id": "review"}
         with self.assertRaises(WorkflowError):
             self.service._validate_receipt(run, review_task, claim, artifact, bad)
+
+    def test_preview_exact_text_is_unverified_not_source_identity_or_final_qa(self):
+        self.accept()
+        self.service.capabilities(self.run_id, {
+            "audio.produce": {"available": True, "billing": "included"}, "audio.listen": False,
+        }, evidence="synthetic unavailable hearing")
+        claim = self.service.claim(self.run_id, "audio", "synthetic-producer")
+        run = self.service.store.get(self.run_id)
+        task = run["tasks"]["audio"]
+        artifact = {"sha256": "1" * 64}
+        checks = [{"name": name, "status": "pass", "method": "synthetic fixture",
+                   "observed": {"fixture": True}}
+                  for name in self.service.context(self.run_id, "audio")["required_checks"]]
+        for check in checks:
+            if check["name"] in {"listening", "exact_text"}:
+                check.update(status="unverified", observed={"artifact_sha256": artifact["sha256"],
+                    "reason": "No hearing; provider alignment is not audible speech evidence"})
+            if check["name"] == "exact_text":
+                check["observed"]["script_sha256"] = file_digest(self.script_path)
+        receipt = {"run_id": self.run_id, "task_id": "audio", "worker": claim["worker"],
+                   "input_hash": claim["input_hash"], "output_sha256": artifact["sha256"], "checks": checks}
+        self.service._validate_receipt(run, task, claim, artifact, receipt)
+        for defect in ("source", "audio", "missing_source", "failed", "false_pass", "identity", "listening_available", "review"):
+            bad = json.loads(json.dumps(receipt))
+            exact = next(c for c in bad["checks"] if c["name"] == "exact_text")
+            changed_run, changed_task = json.loads(json.dumps(run)), task
+            if defect == "source":
+                exact["observed"]["script_sha256"] = "0" * 64
+            if defect == "audio":
+                exact["observed"]["artifact_sha256"] = "0" * 64
+            if defect == "missing_source":
+                del exact["observed"]["script_sha256"]
+            if defect == "failed":
+                exact["status"] = "fail"
+            if defect == "false_pass":
+                exact["status"] = "pass"
+            if defect == "identity":
+                next(c for c in bad["checks"] if c["name"] == "voice_identity")["status"] = "unverified"
+            if defect == "listening_available":
+                changed_run["capabilities"]["audio.listen"] = {"available": True, "evidence": "synthetic hearing available"}
+            if defect == "review":
+                changed_task = run["tasks"]["review"]
+                bad["task_id"] = "review"
+            with self.subTest(defect=defect), self.assertRaises(WorkflowError):
+                self.service._validate_receipt(changed_run, changed_task, claim, artifact, bad)
 
     def test_no_speech_production_defers_listening_but_not_identity(self):
         self.accept()
