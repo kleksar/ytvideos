@@ -607,6 +607,28 @@ class RuntimeMigrationTests(unittest.TestCase):
             self.service.begin_operation(self.run_id, "image:test", claim["token"], "image", {})
         self.assertEqual(self.store.get(self.run_id)["budget"], before["budget"])
 
+    def test_held_image_not_performed_needs_terminal_proof_and_unchanged_inputs(self):
+        self.held_image()
+        self.apply(self.plan())
+        original = copy.deepcopy(self.store.get(self.run_id)["tasks"]["image:test"])
+        def terminal(tx, run):
+            op = tx.operation("held-image")
+            op["status"] = "not_performed"
+            tx.put_operation(op)
+            run["tasks"]["image:test"]["generation"] += 1
+        self.store.mutate(self.run_id, terminal)
+        with self.assertRaisesRegex(Conflict, "obsolete inputs"):
+            self.service.reconcile_task(self.run_id, "image:test", worker="recovery",
+                                        outcome="not_performed", evidence="Synthetic terminal proof")
+        self.store.mutate(self.run_id, lambda tx, run: run["tasks"].update({"image:test": original}))
+        self.service.reconcile_task(self.run_id, "image:test", worker="recovery",
+                                    outcome="not_performed", evidence="Synthetic terminal proof")
+        after = self.store.get(self.run_id)
+        self.assertEqual(after["tasks"]["image:test"]["status"], "pending")
+        self.assertEqual(after["tasks"]["image:test"]["generation"], original["generation"] + 1)
+        self.assertEqual(after["budget"]["reserved"], 0)
+        self.assertEqual(after["budget"]["spent"], 0)
+
     def test_unknown_image_checkpoint_rejects_live_unbound_and_stale_state(self):
         self.held_image()
         original = copy.deepcopy(self.store.get(self.run_id))
