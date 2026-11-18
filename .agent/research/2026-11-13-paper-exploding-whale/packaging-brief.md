@@ -1,6 +1,8 @@
-> **2026-11-18 revision:** The three concepts below belong ONLY to the original root/02m Short (unchanged bytes); no approved title/thumbnail exists for new 05m or 10m Long. For the recommended 05m, promise a distant crushed car, Thornton's uncertainty and the cleanup reversal; the archival/media-history component is unique to 10m and must not appear in a 05m title. This is a briefing, not an accepted thumbnail/CTR result.
+> **2026-11-18 revision:** The three concepts below were drafted for the original unchanged root Short, **not the newly rewritten `variants/02m/`**, and storyboard scene numbers also refer only to the root script; no approved title/thumbnail exists for new 05m or 10m Long. For the recommended 05m, promise a distant crushed car, Thornton's uncertainty and the cleanup reversal; the archival/media-history component is unique to 10m and must not appear in a 05m title. This is a briefing, not an accepted thumbnail/CTR result.
 
 # Packaging brief — exploding whale, Paper Detour Short
+
+**New 02m candidate (not an approved cover):** its cold open is “A quarter of a mile” and promises failure of the spectator safety distance; its last line returns to the crowd being moved back. Do not claim that S001/S012 from root are valid for this new EN hash `253d7a5ef0532c90346e347fab3d0cecd0545b0cea8efc9f70c15cf35a68b7e9`. A truthful future cover could show the distance between the dunes and the whale plus a parked car, without implying casualties or a live whale. No image was generated.
 
 **Scope:** concepts only, no generated/approved actual thumbnail. English 9:16 illustrated paper Short. All concepts need one truthful dominant visual and large physical paper cut-out text per brand; do not bake subtitles or external decorative frame.
 
