@@ -19,3 +19,20 @@ These were found in public search on 2026-11-15, public views are cached indexed
 - Cienciabit Science & Technology, **Why did Chernobyl really explode?** https://www.youtube.com/watch?v=TEnh6AzOOU4 , published 2026-04-26, Long ~13+ min; ~14,068 indexed views. Spoken language not reliably verified, so do not claim English match; same-author matched baseline n=0 / UNVERIFIED. Potential counterexample (much fewer views) but channel/language/timing incomparable.
 - PBS 40th anniversary coverage, https://www.pbs.org/video/the-chernobyl-disaster-40th-anniversary-special-yivcnj/ ; publication and public views UNVERIFIED; evidence of renewed documentary treatment, not demand or ranking measurement.
 What the signals justify: recurring explanation demand *may exist*, with independent authors and older successful video. They do **not** justify a numerical SEO forecast, current velocity, an unwarranted 10/10 demand score, or a 'low competition' claim. A video succeeding on one channel does not distinguish topic from author's animation quality/packaging/recommendations.
+
+
+## 2026-11-18 — verified material for same-story 02m and 05m expansions
+
+This extends **one shared Chernobyl research**, not three separate source sets. Original 1600-word EN/RU root is unchanged and still the 10m version. New variants only regroup or compress claims already present in the baseline: power-grid delay; unexpected drop to ~30 MWt; xenon-135 and withdrawal of many rods; ~200 MWt recovery without adequate, convenient ORM visibility; water-neutron/steam positive void feedback; graphite displacer first movement displacing lower-channel water; AZ-5 ~01:23:40; uncertain *reason* for press; power excursion and destruction; evacuation, prior Ignalina warning and RBMK changes. **No dialogue, motive, fatality count or fictional technician/eyewitness added.**
+
+| Assertion in 02m/05m | Verification and limit |
+|---|---|
+| The experiment tested turbine-coastdown electrical power for cooling pumps during diesel startup | [WNA accident chronology](https://world-nuclear.org/information-library/appendices/chernobyl-accident-appendix-1-sequence-of-events), section April 25/26, and [WNA reactor account](https://world-nuclear.org/information-library/safety-and-security/safety-of-plants/chernobyl-accident) |
+| Grid delay; sharp fall to ~30 MWt; stabilized ~200 MWt; xenon-poisoning consequences; operating reactivity margin not conveniently visible | WNA sequence, 00:28, 01:00, 01:22:30 and notes (b), (c), (d); **do not claim every operator intentionally violated a clearly readable alarm** |
+| Lower graphite displacer replaces neutron-absorbing water before absorber reaches the bottom; effect depends on starting rod/power pattern | WNA note (e) summarizing INSAG-7; not a universal 'press AZ-5 always increases power' statement |
+| Button pressed at ~01:23:40; exact motive not established; core runaway follows | WNA table and note (f); a later account of normal end-of-test shutdown is an **account**, not established crew intent |
+| 1983 Ignalina observation and restrictions not implemented | WNA note (e); avoid invented claim that a specific 1986 operator personally knew of this warning |
+| Exposed response personnel, Pripyat evacuation and RBMK improvements | [WNA general accident account](https://world-nuclear.org/information-library/safety-and-security/safety-of-plants/chernobyl-accident) and earlier sources above; no invented dialogues or precise unconfirmed casualty totals |
+| Explosion was not an atomic-weapon detonation; some destructive-second details remain disputed | WNA general account plus caveat in original research; **illustrations must be identified as reconstructions**, not archival measurements |
+
+Sources were checked 2026-11-18. They are still external written reconstruction/report summaries; full INSAG-7 PDF diagrams were **not** newly inspected in this Git-only editorial pass. The first listener and independent bilingual reviewer did not run; demand and measured retention remain **UNVERIFIED**.
