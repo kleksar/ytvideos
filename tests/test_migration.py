@@ -466,6 +466,31 @@ class RuntimeMigrationTests(unittest.TestCase):
             self.assertEqual(len(self.service._task_operations(tx, run, run["tasks"]["audio"], claim)), 1)
         self.assertEqual(self.store.get(self.run_id)["budget"], before["budget"])
 
+    def test_reused_audio_completion_settles_once_and_preserves_unverified_qa(self):
+        self.expired_audio()
+        self.apply(self.plan())
+        claim = self.service.reconcile_task(self.run_id, "audio", worker="recovery",
+                                            outcome="completed", evidence="Confirmed synthetic result")
+        output = self.fixture.root / "synthetic-audio.wav"
+        output.write_bytes(b"synthetic budget test only; not live media")
+        receipt = self.fixture.root / "synthetic-audio-receipt.json"
+        unchecked = {"name": "exact_text", "status": "unverified", "observed": "not listened"}
+        receipt.write_text(json.dumps({"checks": [unchecked]}))
+        before = self.store.get(self.run_id)["budget"]
+        # Isolate accounting from decoding/QA, covered by audio/source-script tests.
+        def media(run, task, artifact, **kwargs):
+            task["media_validation"] = {"synthetic_accounting_test": True}
+        with patch.object(self.service, "_validate_output", side_effect=media), \
+                patch.object(self.service, "_validate_receipt", return_value=[]), \
+                patch.object(self.service, "requirements", return_value={}):
+            self.service.complete(self.run_id, "audio", claim["token"], output, receipt, actual_units=4151)
+            settled = self.store.get(self.run_id)
+            self.assertEqual(settled["budget"]["reserved"], 0)
+            self.assertEqual(settled["budget"]["spent"], before["spent"] + 4151)
+            self.assertEqual(settled["tasks"]["audio"]["unverified_checks"], [unchecked])
+            self.service.complete(self.run_id, "audio", claim["token"], output, receipt, actual_units=4151)
+            self.assertEqual(self.store.get(self.run_id)["budget"], settled["budget"])
+
     def test_confirmed_audio_checkpoint_rejects_missing_evidence_and_operation_races(self):
         self.expired_audio()
         with self.store.transaction() as tx:
