@@ -1,3 +1,19 @@
+# Current editorial handoff — Togo, PR #26 (18 November 2026)
+
+**Scope:** existing unapproved PR #26; `EDITORIAL_CANDIDATE_UNREGISTERED`. Baseline branch HEAD `b18f680dc0ae93e566a112d6ea723ac2bec6392f`, source EN Git blob `61de1647328dfa1d192dc2d67aea78049a401dc6`, source RU Git blob `0210419bce3bf6629dd4b5dbdf8e6e4141c3abfb`. Current main documents read at `7c94f825056b98cb65d8de94dd3eec709cc78188`. Production/owner approval/independent review not inferred.
+
+**Versions available:** [RU](variants/02m/script.ru.txt) · [EN](variants/02m/script.en.txt) | [RU](variants/05m/script.ru.txt) · [EN](variants/05m/script.en.txt) | [RU](variants/10m/script.ru.txt) · [EN](variants/10m/script.en.txt). [Complete SHA-256 manifest and assessment](story-review.md). **05m Long recommended**, but owner has not accepted any version. All files are text-only Git objects; no formal `ytv` run, reviewer receipt or media.
+
+**Do not automatically render or promote to `awaiting_script_approval`.** On later explicit commissioning: the coordinator must inspect/reuse an actual run, preserve its pinned context and ChannelSpec, register the chosen exact EN source and supporting variants/review via real artifact IDs, obtain a fresh independent English first-listener assessment (and Russian semantic assessment) of exact hashes, and request owner approval. Use `ytv start` only under the actual runtime contract, not GitHub PR status. This branch does **not** have access to `sessions.independent` or the local `ytv` CLI in the current connector workflow, so that capability is UNVERIFIED rather than claimed complete.
+
+**Old storyboard limitation:** [storyboard.json](storyboard.json) and its 15 spans are tied to the unchanged original EN/RU Git blobs `61de1647328dfa1d192dc2d67aea78049a401dc6` / `0210419bce3bf6629dd4b5dbdf8e6e4141c3abfb`; **not** to any variant hash. Rebuild chosen version's scenes (including appropriate Long 16:9) only once selected. 02m Short narrative loop self-check is not independent or MP4 AV verification.
+
+**Never** move published content, rewrite another agent's branch, change main/channel configuration, fabricate review or receipts, or run upload/render for this editorial revision. Historical particulars and uncertainty are in [research.md](research.md).
+
+---
+
+## Original handoff preserved as historical evidence (not current approval)
+
 ## Актуальный workflow — сверено с main
 
 Сверено с remote `main` `96c8fa1573c02e8e7987e272a569bf34f037691e`. Канал `nuviko_history` active, но этот PR остаётся **текстовым editorial preproduction, не сохранённым `ytv start` run**. `storyboard.json` содержит план, не официальный task output; ни авторская проверка, ни ссылка на source не доказывают независимый reviewer и `awaiting_script_approval`.
@@ -37,3 +53,4 @@
 - New teams changed the planned relay; Seppala nearly missed Ivanoff, according to Smithsonian and AKC. Togo and Seppala left Nome WITHOUT antitoxin, took it only after the mid-route meeting, then returned and handed it onward.
 - Balto was on final team and genuinely contributed; Smithsonian says actual lead position at arrival unclear. Other mushers including Native Alaskans remain uncredited by much coverage, so do not imply Togo alone rescued the entire town. No invented deaths or scripted dialog.
 - Accuracy and review, not available paid vidIQ/outlier figures, justify selecting the story. In a later approval run do not infer quality from a passively created GitHub draft.
+

@@ -1,3 +1,17 @@
+# Variant-aware packaging note — not approval
+
+The historical 9:16 Short thumbnail concepts below were written for [unchanged root script.en.txt](script.en.txt) and 15-scene provisional storyboard. They are **not validated titles/thumbnails for the six new variants**.
+
+**05m recommended Long (unapproved):** verified promise "The dog-sled rescue that almost missed its own medicine" (changed relay, missed rendezvous, difficult return). First narration begins with factual questions, then the delivery crisis. The first finished montage/thumbnail needs a separate 16:9 promise check and mobile legibility review. Do not use older 9:16 S001/S015 prompts or loop for the 05m Long.
+
+**02m Short (unapproved):** an empty sled leaving Nome is the cold opening; payoff is a collective rescue and changed public credit. Short text seam is an authorial hypothesis only. **10m Long (unapproved):** chronology and social participation are enlarged; never illustrate a specific rope/ice-floe incident as verified or imply a single dog completed the whole relay.
+
+Unmeasured CTR/retention and all thumbnails: **UNVERIFIED**. No ReleaseSpec, images, media outputs, or production authorization created.
+
+---
+
+## Preserved original packaging ideas for original source only
+
 # Packaging concept (not approved): Togo and the 1925 Nome serum relay
 
 **Channel** Nuviko History / illustrated English Short 9:16. Proposed only; no rendered art, tested thumbnails, YouTube metadata, or publication.
@@ -33,3 +47,4 @@
 - **All actual production artwork must come from approved AI tool only** under separate authorized run; this document is visual ideas, not images.
 - Verify actual period musher details, ice geography and likeness via NPS 1924 dog photograph and Smithsonian dated 1925 archival photo. Do not use source photos without inspecting rights and source bytes; neither was done here.
 - Final release packaging needs actual opening, subtitle safe regions, mobile readability, channel style and current Youtube settings. **UNVERIFIED**.
+
