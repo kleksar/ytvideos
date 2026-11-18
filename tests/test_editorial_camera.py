@@ -44,7 +44,8 @@ class EditorialCameraTests(unittest.TestCase):
         # Fails old on/(N-1), easing, or shortened edge-hold timelines.
         with tempfile.TemporaryDirectory() as td:
             image = Path(td)/'grid.png'
-            im = Image.new('RGB', (160, 90), '#253850'); d = ImageDraw.Draw(im)
+            im = Image.new('RGB', (160, 90), '#253850')
+            d = ImageDraw.Draw(im)
             for x in range(8, 153, 13):
                 d.line((x, 0, x, 89), fill='#f4db91', width=2)
             for y in range(7, 85, 11):
@@ -59,7 +60,8 @@ class EditorialCameraTests(unittest.TestCase):
                         ({'scale':1.08,'center':[.5,.5]}, {'scale':1.0,'center':[.5,.5]}),
                         ({'scale':1.10,'center':[.48,.5]}, {'scale':1.10,'center':[.52,.5]}),
                         ({'scale':1.05,'center':[.49,.5]}, {'scale':1.15,'center':[.52,.51]})):
-                n=5; result=render(montage.camera_filter(160,90,n,{'start':a,'end':b}),n)
+                n=5
+                result=render(montage.camera_filter(160,90,n,{'start':a,'end':b}),n)
                 self.assertEqual(len(result), n*size)
                 for i in range(n):
                     u=i/(n-1)
@@ -73,16 +75,20 @@ class EditorialCameraTests(unittest.TestCase):
             # Legacy source-perspective endpoints must become linear visible
             # affine motion, not reciprocal zoom between endpoints.
             for direction, zoom in (('none','in'),('none','out'),('left_to_right','in')):
-                w,h,n=160,90,5; sw,sh=176,100
+                w,h,n=160,90,5
+                sw,sh=176,100
                 result=render(montage.motion_filter(w,h,n,direction,zoom),n)
                 es=(26*w/1920,2*w/1920) if zoom=='in' else (2*w/1920,26*w/1920)
-                ex=21.708*w/1920; xs=(ex,-ex) if direction=='left_to_right' else (0,0)
+                ex=21.708*w/1920
+                xs=(ex,-ex) if direction=='left_to_right' else (0,0)
                 zs=[sw/(sw+2*e) for e in es]
                 ls=[(e-x)*z for e,x,z in zip(es,xs,zs)]
                 ts=[e*sh/sw*z for e,z in zip(es,zs)]
                 for i in range(n):
-                    u=i/(n-1); z=zs[0]+(zs[1]-zs[0])*u
-                    left=ls[0]+(ls[1]-ls[0])*u; top=ts[0]+(ts[1]-ts[0])*u
+                    u=i/(n-1)
+                    z=zs[0]+(zs[1]-zs[0])*u
+                    left=ls[0]+(ls[1]-ls[0])*u
+                    top=ts[0]+(ts[1]-ts[0])*u
                     vf=(f'scale={sw}:{sh}:force_original_aspect_ratio=increase:flags=lanczos,crop={sw}:{sh},'
                         f"perspective=sense=destination:x0='{left}':y0='{top}':x1='{left}+W*{z}':y1='{top}':"
                         f"x2='{left}':y2='{top}+H*{z}':x3='{left}+W*{z}':y3='{top}+H*{z}':"
