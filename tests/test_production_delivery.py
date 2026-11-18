@@ -74,14 +74,39 @@ class ProductionContractTests(unittest.TestCase):
                 with self.subTest(channel=channel, field=field, value=value), self.assertRaisesRegex(WorkflowError, "unsupported motion inputs"):
                     validate_render_manifest(plan, production_requirements(profile, "short"))
 
-    def test_static_scene_missing_word_captions_or_music_coverage_fail(self):
+    def test_four_pan_directions_and_static_follow_pinned_camera_policy(self):
+        for channel in ("paper_detour", "nuviko_history"):
+            profile = json.loads((ROOT / "channels" / channel / "channel.json").read_text())
+            for direction in ["left_to_right", "right_to_left", "top_to_bottom", "bottom_to_top", "none"]:
+                with self.subTest(channel=channel, direction=direction):
+                    plan = self.manifest()
+                    plan["channel"] = channel
+                    plan["scenes"][0].update(direction=direction, zoom="none")
+                    self.assertEqual(validate_render_manifest(plan, production_requirements(profile, "short"))["frames"], 120)
+
+        # Older pins did not carry a montage policy. Their production contract
+        # must stay horizontal and reject ordinary static shots.
+        legacy = copy.deepcopy(self.profile)
+        del legacy["montage"]
+        requirements = production_requirements(legacy, "short")
+        self.assertNotIn("montage_camera", requirements)
+        for profile in (legacy, {**legacy, "montage": {
+                "directions": ["left_to_right", "none"], "allow_static": False}}):
+            for direction in ("top_to_bottom", "bottom_to_top", "none"):
+                with self.subTest(profile=profile.get("montage"), direction=direction):
+                    plan = self.manifest()
+                    plan["scenes"][0].update(direction=direction, zoom="none")
+                    with self.assertRaisesRegex(WorkflowError, "pinned montage camera policy"):
+                        validate_render_manifest(plan, production_requirements(profile, "short"))
+
+    def test_invalid_motion_missing_word_captions_or_music_coverage_fail(self):
         requirements = production_requirements(self.profile, "short")
-        for defect in ("static", "vertical", "captions", "music", "gap"):
+        for defect in ("direction", "zoom", "captions", "music", "gap"):
             plan = self.manifest()
-            if defect == "static":
-                plan["scenes"][0].update(direction="none", zoom="none")
-            elif defect == "vertical":
-                plan["scenes"][0]["direction"] = "top_to_bottom"
+            if defect == "direction":
+                plan["scenes"][0]["direction"] = "diagonal"
+            elif defect == "zoom":
+                plan["scenes"][0]["zoom"] = "spin"
             elif defect == "captions":
                 plan["subtitles"]["mode"] = "none"
             elif defect == "music":

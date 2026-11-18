@@ -15,6 +15,8 @@ from .util import digest, require_text
 
 SCHEMA = "ytv-production-requirements-v1"
 DELIVERY_SCHEMA = "ytv-production-delivery-v1"
+LEGACY_MONTAGE_DIRECTIONS = ("left_to_right", "right_to_left", "none")
+MONTAGE_DIRECTIONS = {*LEGACY_MONTAGE_DIRECTIONS, "top_to_bottom", "bottom_to_top"}
 
 
 def _merge(base, override):
@@ -61,6 +63,23 @@ def production_requirements(profile, format, *, variant=None):
               "visual": values.get("visual", {}), "captions": values.get("captions", {}),
               "narrative_loop": "not_applicable" if format == "long" else values.get("narrative_loop", "unresolved"),
               "end_screen_seconds": values.get("end_screen_seconds")}
+    # New ordinary whole-frame recipes opt in through the pinned ChannelSpec.
+    # Keep historical requirements (including their digest) unchanged when absent.
+    montage = profile.get("montage", {})
+    if isinstance(result["visual"], dict) and result["visual"].get("motion") == "whole_frame" and isinstance(montage, dict):
+        camera = {}
+        if "directions" in montage:
+            directions = montage["directions"]
+            if (not isinstance(directions, list) or not directions
+                    or any(not isinstance(value, str) or value not in MONTAGE_DIRECTIONS for value in directions)):
+                raise WorkflowError("montage.directions must list supported camera directions")
+            camera["directions"] = list(directions)
+        if "allow_static" in montage:
+            if type(montage["allow_static"]) is not bool:
+                raise WorkflowError("montage.allow_static must be boolean")
+            camera["allow_static"] = montage["allow_static"]
+        if camera:
+            result["montage_camera"] = camera
     if profile.get("recipe") == "music_first":
         result["music_edit"] = values.get("music_edit", {})
         result["speech_mode"] = values.get("speech_mode")
@@ -390,9 +409,11 @@ def validate_render_manifest(plan, requirements):
         cursor = scene["end_frame"]
         if requirements["visual"]["motion"] == "whole_frame" and scene.get("role") != "end_screen":
             direction, zoom = scene.get("direction"), scene.get("zoom")
-            if (direction not in {"left_to_right", "right_to_left", "none"}
-                    or zoom not in {"in", "out", "none"} or direction == zoom == "none"):
-                raise WorkflowError("every scene requires the approved whole-frame horizontal motion/zoom")
+            camera = requirements.get("montage_camera", {})
+            if (direction not in camera.get("directions", LEGACY_MONTAGE_DIRECTIONS)
+                    or zoom not in ("in", "out", "none")
+                    or (direction == zoom == "none" and camera.get("allow_static") is not True)):
+                raise WorkflowError("whole-frame direction/zoom must match the pinned montage camera policy")
     if requirements["visual"]["transitions"] == "direct_cuts":
         if plan.get("transitions", "direct_cuts") != "direct_cuts":
             raise WorkflowError("production requires direct cuts")

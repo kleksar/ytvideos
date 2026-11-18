@@ -50,8 +50,21 @@ class TestMontage(unittest.TestCase):
    with self.assertRaisesRegex(ValueError,'minimum of 2 frames'):m.validate(plan,p)
    plan['scenes'][0]['end_frame']=2
    self.assertEqual(m.validate(plan,p)['frames'],2)
-   plan['scenes'][0]['direction']='top_to_bottom'
-   with self.assertRaisesRegex(ValueError,'direction not allowed'):m.validate(plan,p)
+   for direction in ('top_to_bottom','bottom_to_top'):
+    plan['scenes'][0]['direction']=direction
+    self.assertEqual(m.validate(plan,p)['scenes'][0]['direction'],direction)
+   plan['scenes'][0]['direction']='diagonal'
+   with self.assertRaisesRegex(ValueError,'invalid movement'):m.validate(plan,p)
+ def test_ordinary_still_recipes_accept_static_and_both_vertical_directions(self):
+  with tempfile.TemporaryDirectory() as td:
+   p=Path(td);(p/'audio.wav').write_bytes(b'audio');Image.new('RGB',(20,20)).save(p/'image.png')
+   for channel in ('paper_detour','nuviko_history'):
+    for direction in ('none','top_to_bottom','bottom_to_top'):
+     with self.subTest(channel=channel,direction=direction):
+      plan={'channel':channel,'format':'short','audio':'audio.wav',
+            'scenes':[{'image':'image.png','start_frame':0,'end_frame':120,'direction':direction,'zoom':'none'}],
+            'subtitles':{'mode':'none'}}
+      self.assertEqual(m.validate(plan,p)['scenes'][0]['direction'],direction)
  def test_nuviko_background_transparency_in_both_formats(self):
   for form,canvas in [('short',[1440,2560]),('long',[2560,1440])]:
    with self.subTest(form=form),tempfile.TemporaryDirectory() as td:
