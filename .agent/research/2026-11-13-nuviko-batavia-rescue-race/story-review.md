@@ -8,12 +8,12 @@ Baseline original PR #29 HEAD: `964d88b6836aca9bff583fb98181bd18e959f384`. Origi
 ## Exact text files and audit
 | Candidate | EN / SHA-256 | RU / SHA-256 | Estimated speech / format | Status |
 |---|---|---|---|---|
-| 02m | [EN](variants/02m/script.en.txt) / `5c66273835b971bea2eab1730783a8ec3d641a9da6e0b8bb27835947d3002c6b` | [RU](variants/02m/script.ru.txt) / `a3b28614dc61db697307f820e5b0b1b92683c07c0d6d09aac672e52f901bae11` | 274 EN words; ~1.6–2.2 minutes assuming 120–155 wpm and pauses; Nuviko Long 16:9 | AUTHOR-REVIEWED / INDEPENDENT UNVERIFIED |
-| 05m | [EN](variants/05m/script.en.txt) / `7b99a657152f023951a8eb983904355ccf7cb67d6cea41c0fcd68c4e60e6ca8b` | [RU](variants/05m/script.ru.txt) / `b1eddf49ccbbd04d4b9e5128f6bbb01e4b3ee068f43c24121354d44af064d8c8` | 649 EN words; ~4.8–5.9 minutes assuming 120–155 wpm and pauses; Nuviko Long 16:9 | AUTHOR-REVIEWED / INDEPENDENT UNVERIFIED |
+| 02m | [EN](variants/02m/script.en.txt) / `5c66273835b971bea2eab1730783a8ec3d641a9da6e0b8bb27835947d3002c6b` | [RU](variants/02m/script.ru.txt) / `a3b28614dc61db697307f820e5b0b1b92683c07c0d6d09aac672e52f901bae11` | 274 EN words; ~1.8–2.3 minutes assuming 120–155 wpm and pauses; Nuviko Long 16:9 | AUTHOR-REVIEWED / INDEPENDENT UNVERIFIED |
+| 05m | [EN](variants/05m/script.en.txt) / `7b99a657152f023951a8eb983904355ccf7cb67d6cea41c0fcd68c4e60e6ca8b` | [RU](variants/05m/script.ru.txt) / `b1eddf49ccbbd04d4b9e5128f6bbb01e4b3ee068f43c24121354d44af064d8c8` | 649 EN words; ~4.2–5.4 minutes assuming 120–155 wpm and pauses; Nuviko Long 16:9 | AUTHOR-REVIEWED / INDEPENDENT UNVERIFIED |
 
-| 10m | [EN](variants/10m/script.en.txt) / original Git blob `44f3b9dfd804055dc099aed5f8def3ad8ccef395` | [RU](variants/10m/script.ru.txt) / original Git blob `f7b43c376ea011c84fc4175394e99f8ecc7c2b52` | 1195 EN words, ~8–10+ minutes depending on real voice/pauses; Nuviko Long 16:9 | SOURCE PRESERVED / INDEPENDENT UNVERIFIED |
+| 10m | [EN](variants/10m/script.en.txt) / `3c112def4068e2344e3d22750866a3a7e3445eef2e8d991ab3637bc6c25935b5` | [RU](variants/10m/script.ru.txt) / `08a45c55605f78adb24b6414147c29ce5ce602c292d8c95a5ea7200776483c19` | 1195 EN words, ~7.7–10 minutes at 120–155 wpm plus pauses; Nuviko Long 16:9 | SOURCE PRESERVED / INDEPENDENT UNVERIFIED |
 
-**SHA-256 of the unchanged 10m files:** must be independently computed from remote read-back before accepting hashes; the Git blob identifiers above are **SHA-1 Git object IDs, not SHA-256**. Do not substitute them for hashes or claim six verified SHA-256 until they are computed.
+**SHA-256:** All six hashes above were computed from read-back of the exact remote UTF-8 files at commit `8ebec158e452198b29d24e3e6f150d086f3712e8`. Git blob IDs remain distinct SHA-1 object identifiers.
 
 ## Story maps / promises
 - **02m:** questions about murder and competing boats → 1629 reef/water crisis → commander leaves → Cornelisz captures boats and disarms 22 → Hayes finds water → warning/defences → capture of leader but renewed attack → Sardam appears → rowboat race → Hayes warns first → arrests/punishment. The full outcome is included; standalone two-minute *Long*, not a Shorts loop.
@@ -35,17 +35,17 @@ Baseline original PR #29 HEAD: `964d88b6836aca9bff583fb98181bd18e959f384`. Origi
 Scores above are **editor's subjective judgements with medium confidence**, not an independent viewer, predicted CTR, retention, or real popularity. Demand is unscored, so no overall 9–10 average is claimed. Most important weakness 02m: Loos enters quickly; 05m: Pelsaert’s journey briefly diverts from Hayes; 10m: names/navigation before island danger and report-like tail after rescue. Specific drop points to test: 02m after the Cornelisz capture; 05m at pre-wreck conspiracy exposition; 10m after the trial account.
 
 ## Hard checks, separate from scoring
-- **Fact basis:** AUTHOR-CHECKED against common [research](research.md) for the original and adapted versions; independent fact check UNVERIFIED. No exact inconsistent original headcounts; >100 murders; 22 disarmed soldiers; 33-day Java passage; Cornelisz capture preceded Loos assault. Source cross-checks on the 2026-11-18 read are in research.
+- **Fact basis:** AUTHOR-CHECKED against common [research](research.md) for the original and adapted versions; independent fact check UNVERIFIED. No exact inconsistent original headcounts; >100 murders; 22 disarmed soldiers; 33-day Java passage; Cornelisz capture preceded Loos assault. The original 10m wording 'two young mutineers' is imprecise: WA/NMA sources identify Loos and a cabin boy, without establishing that both were young. **10m factual wording requires correction/re-review if selected**; do not silently extend the preserved storyboard to a revised text. Source cross-checks on the 2026-11-18 read are in research.
 - **EN/RU semantic equivalence:** AUTHOR-CHECKED for matching events, count, agency, outcome and uncertainty; independent bilingual review UNVERIFIED.
 - **Format:** Nuviko History current checked channel.json supports Long 16:9; runtime pin may differ, so production support requires pinned check. 02m also **Long**, not Short. Narrative loop: **N_A** for all three; separate 10-second end screen unproduced.
-- **Time:** estimated solely by EN words and an illustrative 120–155 wpm speech rate plus potential pauses, not the pinned actual voice; measured TTS UNVERIFIED.
+- **Time:** estimated solely by EN words and an illustrative 120–155 wpm speech rate before unmeasured pauses, not the pinned actual voice; measured TTS UNVERIFIED.
 - **Independent first-listener:** UNVERIFIED (no independent session or authentic reviewer result in GitHub).
 - **Storyboard:** original 83 paragraph visual intents and original timing apply **only** to unchanged root scripts / 10m variant Git blobs. 02m and 05m need new scene spans and original visual coverage. No MP4/AV review.
 
 ## Compare added value and recommendation
 **02 → 05:** explanation of navigation, authority seizure, failed attacks, contested testimony; transitions between Hayes and Pelsaert are clearer. 02m has the quickest escalation but compresses the fight and final judgement.
 
-**05 → 10:** depth of navigation and island movement, more gradual discovery, later archaeology, but the chronology before the wreck and descriptions after the arrests reduce momentum. The original 10m text is protected as a candidate, **not deleted or rejected**.
+**05 → 10:** depth of navigation and island movement, more gradual discovery, later archaeology, but the chronology before the wreck and descriptions after the arrests reduce momentum. The original 10m text is preserved as a candidate, **not deleted or rejected**.
 
 **Editorial recommendation: 05m Long**, subject to an independent cold listener and owner's exact-version choice. It maintains the two-boat climax without extending the aftermath and avoids compressing the second mutiny attack. Neither recommendation nor PR checks approve production.
 
