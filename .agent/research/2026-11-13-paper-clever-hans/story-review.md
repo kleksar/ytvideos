@@ -1,3 +1,69 @@
+# Clever Hans — three duration editorial review (2026-11-18)
+
+## One story, full editions and baseline
+
+**Logline:** A horse appeared to do arithmetic even for strangers, until controlled experiments revealed that people unconsciously showed it when to stop. The experiments reveal a genuine animal skill and a serious problem with the design of the test.
+
+**Baseline:** PR #21, branch `work/story-drafts/paper-clever-hans-20261113`, initial exact HEAD `c661b6e48b57d26b6abaa74d106c66c3923416a6`. Canonical main checked: `7c94f825056b98cb65d8de94dd3eec709cc78188`; #124 and #117 already merged. Original root scripts were not changed: EN Git blob `c93ccb5958a73d6d8c307f873cfb1ea4ea3d8de7`, RU `e1adb54cb8318d5a937e44444a7d4ec84fc0591d`. Original 02m is byte-identical to these roots. Research remains shared.
+
+| Target / format | Full RU | Full EN | EN words | SHA-256 EN | SHA-256 RU | Status |
+|---|---|---|---:|---|---|---|
+| ~2m / Short | [RU](variants/02m/script.ru.txt) | [EN](variants/02m/script.en.txt) | 199 | `778133d5c2f39a5f47e31e1b2a8b13d24feb26961c6c54fe777b60681e54f745` | `fb4505fec1bd233f9104408f2e3ce84aae28d28d6ce343bf737fc549d0cc3e21` | EDITORIAL_CANDIDATE_UNREGISTERED |
+| ~5m / Long | [RU](variants/05m/script.ru.txt) | [EN](variants/05m/script.en.txt) | 667 | `1f872d933deb459eff802ab455f101eb8e037c824963984dda0cbca9f8039a13` | `8959d978b857ac7bf5522f2392862e074d13525a3d2508927c57974a5d40a2b9` | EDITORIAL_CANDIDATE_UNREGISTERED |
+| ~10m / Long | [RU](variants/10m/script.ru.txt) | [EN](variants/10m/script.en.txt) | 1329 | `da092c0c9ffe987b559110add2826f93fc4e5a6e509c2e38e5956906fdc5b034` | `0782ec4dc60cf0f2a616c772ad84c885d4418bd7a0264f4464f44f9ca89324b2` | EDITORIAL_CANDIDATE_UNREGISTERED |
+
+**Provisional recommendation: 02m Short**, subject to independent EN/RU twice-through loop review. The strong 199-word original already gives a complete causal explanation, two distinct controls and the surprise of a human repeating the task. Longer versions add historically evidenced value, but no stronger mystery. Recommendation is not owner approval; a punctuation-supported colon seam is **not by itself a PASS**. If an actual first listener finds it unnatural, revise the separate unapproved 02m variant and run review on its new hash, leaving the protected root and existing scene plan untouched.
+
+## Three exact-version story maps and added value
+
+**02m** — Opening illustrative math question → experts find no obvious intentional trick → owner can step away → questioner unaware of answer, Hans fails → visual access blocked, Hans fails → observer's involuntary motion → Pfungst imitates Hans by tapping → answer comes from the human. **Gain:** a complete portable puzzle. **Potential loss of attention:** the two controls may sound like repeated failures unless separately visualized. **Opening**: `What's three plus five?`; **payoff**: `And he read their movements too.`; **ending**: `It was in the mind of the person asking a simple question:`; two full listening cycles and AV seam remain UNVERIFIED.
+
+**05m** — Two honest questions about owner absence and human condition → belief/commission's limited conclusion → number-card knowledge trial 98% vs 8% → spoken vs silent hypothesis → blinder visibility 89% vs 6% → head gesture → deliberate 13-to-20 over-tapping → Pfungst's hand-tapping human replication → risk of examiner leakage. **Gain over 02m:** concrete numbers, deliberate mechanism test and method of ruling out a misleading explanation. **Potential loss of attention:** explaining both percentages risks slowing the middle, but the 13→20 experiment adds an actual new action. **Long opening:** questions, then historical setup before main experimentally surprising result. **Payoff:** different examiner knowledge changes what the test is measuring.
+
+**10m** — What is proof of autonomous arithmetic? → von Osten's long training and sincere belief → first commission only rejects deliberate trick → change questioner and then knowledge → written numerals 98/8 and separate words 100/0 → rule out very faint speech → restrict field of view 89/6 → spot tiny movement → induce tapping 29/30 and overshoot 13→20 → when two people know different numbers Hans follows one person's cues → record movements on smoked paper → human reproduction → separate genuine attention skill from independent calculation. **Gain over 05m:** different task types, a competing auditory mechanism, competing human cues and physical measurement. **Potential loss of attention:** word test repeats the known/unknown mechanism and the later psychological explanation follows the resolution of the horse mystery. This is a fuller documentary study for a self-selecting audience, not the best first-view option.
+
+**Duration basis:** plain EN word counts (02m 199, 05m 667, 10m 1329); approximate reading at 125–155 EN words/min with pauses. 02m ~1:20–2:00; 05m ~4:35–5:45; 10m ~8:35–11:00, all UNMEASURED. Actual Lawrence speed and physical voice, cues, music, 10-second Long end-screen and MP4 were not run. `paper_detour` ChannelSpec explicitly declares `short` (narrative loop required) and `long`; these are format-compatible **textual candidates**, not runtime-registered productions.
+
+## Eight editorial criteria, exact drafts, author only
+
+The eighth criterion, independently **verified audience demand**, is UNVERIFIED for all versions: neither relevant own-channel metrics nor comparable measured retention/view choices were available. Ratings 1–10 below are author hypotheses about exact text functions, not a measured attention score. Qualitative assessment confidence MEDIUM, fact-source confidence HIGH for specifically cited primary data, independent first-listener confidence NONE.
+
+| Criterion | 02m | 05m | 10m | Actual script evidence and weakness |
+|---|---:|---:|---:|---|
+| Interest / significance | 8 | 8 | 7 | Simple hoof-tap arithmetic hook in 02m; more consequential experimental critique by 05m; method may feel specialist by 10m |
+| Opening | 8 | 8 | 7 | 02m begins with comprehensible 3+5; 05m asks two questions before a period scene; 10m epistemic opening delays concrete horse |
+| Development / reason to continue | 8 | 8 | 6 | Owner absent → examiner doesn't know → examiner not visible; 05m adds deliberately held lean; 10m repeats knowledge effect with written words |
+| Payoff | 8 | 8 | 8 | Each explains involuntary signal and Pfungst's replication; 10m more carefully limits conclusion about animal intelligence |
+| Freshness of angle | 7 | 7 | 7 | Three real experimental condition changes and human demonstration; original Hans case itself widely retold |
+| Visual expressiveness | 8 | 8 | 7 | Hoof, blinders, body tilt, hand imitation work as paper objects; 10m risks static numerical diagrams |
+| Natural oral speech / clarity | 8 | 8 | 7 | 02m simple short clauses; 05m causal before numerical detail; 10m dense control transitions demand attentive listening |
+| Independently confirmed viewer interest | UNVERIFIED | UNVERIFIED | UNVERIFIED | No own-video CTR/AVD or true like-for-like channel measurements; public anecdotes ≠ retention |
+
+**Main deficiency by version:** 02m relies on an unverified colon-based restart; 05m has a rate-heavy middle; 10m disperses urgency into analysis. Do not average these hard issues away with numeric ratings.
+
+## Separate hard gates / status
+
+| Required check | 02m | 05m | 10m |
+|---|---|---|---|
+| Historical fact verification | AUTHOR_CHECKED from existing research; original unchanged | AUTHOR_CHECKED with chapter II numbers/controls, chapter IV replication | AUTHOR_CHECKED with written words, competing questioners and lab records |
+| Full EN/RU equivalence | AUTHOR_CHECKED on complete text | AUTHOR_CHECKED | AUTHOR_CHECKED |
+| Cold-open / payoff | AUTHOR_CHECKED; 3+5 is illustrative only | AUTHOR_CHECKED; distinct question → cause | AUTHOR_CHECKED; documentary question → immersion → control |
+| Text Short loop 2 full passes | **UNVERIFIED independent**; syntactic colon alone not PASS | N_A Long | N_A Long |
+| Independent first-listener | UNVERIFIED | UNVERIFIED | UNVERIFIED |
+| Independent bilingual comparison | UNVERIFIED | UNVERIFIED | UNVERIFIED |
+| Actual TTS, MP4, AV seam | UNVERIFIED | UNVERIFIED | UNVERIFIED |
+| Owner's exact master selection and approval | NOT_RECEIVED | NOT_RECEIVED | NOT_RECEIVED |
+| Official run/receipt/pins | EDITORIAL_CANDIDATE_UNREGISTERED | EDITORIAL_CANDIDATE_UNREGISTERED | EDITORIAL_CANDIDATE_UNREGISTERED |
+
+**Reviewer handoff:** present full target script without this rating table, diagnosis or claimed preferred duration. Ask which moment changed expectation, whether the opening created a question, the exact line where the reason to listen disappeared, and what payoff the reviewer heard. Offer original as anonymous competing version after the initial judgment, and primary source after the first pass. For 02m provide literal two complete cycles in each language and request an observed final-to-first judgment. The reviewer can prefer the original or reject all candidates. No independent session/response ID was available in this connector-only pass; do not self-author a `ytv-script-review-v1` receipt.
+
+**Storyboard provenance:** existing `storyboard.json` uses the original 13 aligned EN/RU text paragraphs and is ONLY a provisional visual for identical root/02m, not measured duration. All 05m/10m scene counts, spans, visual intent and pacing must be newly derived after exact selection. The old packaging brief remains a concept for the original only. No old timing, review or approval is claimed for newly written Longs.
+
+**Progress:** 1 initial complete Short, 0 Long → 3 full EN/RU durations + evidence + comparison + recommendation. The stories in all other open PRs remain in scope; no bulk completion is claimed. Next historical editorial candidate: inspect current open #19 Maple Syrup and then #17 Porter. Continue separate technical PR checks rather than treating code PRs as story variants.
+
+---
+## Preserved original review (historical, scoped to root/02m)
+
 # Story review — Paper Detour / Clever Hans (1904)
 
 **2026-11-13 revision note (authorial only):** The new exact EN/RU opening explicitly treats `3+5` as an illustrative question, not a recorded 1904 exchange. All 13 EN/RU scene spans were rechecked against the revised files; the former 65-second provisional total was invalidated. The older self-assessment below describes the same underlying story but is **not** a fresh independent or owner acceptance of this new text. New exact-hash independent first-listener, bilingual review, actual TTS timing and AV loop are still `UNVERIFIED`.

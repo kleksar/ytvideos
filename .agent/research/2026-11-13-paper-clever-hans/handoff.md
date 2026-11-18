@@ -1,3 +1,20 @@
+# 2026-11-18 — edition handoff (supersedes prior one-version status)
+
+| Target / format | Full RU | Full EN | EN words | SHA-256 EN | SHA-256 RU | Status |
+|---|---|---|---:|---|---|---|
+| ~2m / Short | [RU](variants/02m/script.ru.txt) | [EN](variants/02m/script.en.txt) | 199 | `778133d5c2f39a5f47e31e1b2a8b13d24feb26961c6c54fe777b60681e54f745` | `fb4505fec1bd233f9104408f2e3ce84aae28d28d6ce343bf737fc549d0cc3e21` | EDITORIAL_CANDIDATE_UNREGISTERED |
+| ~5m / Long | [RU](variants/05m/script.ru.txt) | [EN](variants/05m/script.en.txt) | 667 | `1f872d933deb459eff802ab455f101eb8e037c824963984dda0cbca9f8039a13` | `8959d978b857ac7bf5522f2392862e074d13525a3d2508927c57974a5d40a2b9` | EDITORIAL_CANDIDATE_UNREGISTERED |
+| ~10m / Long | [RU](variants/10m/script.ru.txt) | [EN](variants/10m/script.en.txt) | 1329 | `da092c0c9ffe987b559110add2826f93fc4e5a6e509c2e38e5956906fdc5b034` | `0782ec4dc60cf0f2a616c772ad84c885d4418bd7a0264f4464f44f9ca89324b2` | EDITORIAL_CANDIDATE_UNREGISTERED |
+
+**One proposed selection:** 02m Short, provisional only. No real reviewer/session, owner approval, runtime receipts or media exists in this pass. 02m has an authorially readable but independent-unverified colon loop; test EN and RU twice in fresh reviewer and only then assert textual loop success. Actual AV seam requires a completed authorized MP4. For a chosen Long, write a new shot/visual plan from that exact text rather than reusing the original 13 shots.
+
+**Transfer to official runtime:** use the canonical `ytv start` workflow for a single owner-selected version with real context/pins. Add exact `script_variant` and `story_review` supporting artifacts with real returned IDs; independent first-listener must produce their genuine `ytv-script-review-v1` receipt. Owner selection/approval is separate from Git Draft and this editorial preference. An existing pinned run needs the documented explicit migration. Never replace a master with a PR checkout or invent a command result.
+
+**Progress:** Before—original root Short only; after—02m (preserved), 05m and 10m complete, each EN/RU, shared evidence, eight editorial dimensions, comparison and recommendation. Next—inspect current #19 Maple Syrup, then #17 Porter; technical PR inspection stays separate.
+
+---
+## Older handoff, retained as historical instructions for root/02m
+
 ## Актуальный workflow — remote main
 
 Сверено с `main` `96c8fa1573c02e8e7987e272a569bf34f037691e`. Этот старый текстовый сюжетный PR не является сохранённым `ytv start` run. Существующий `storyboard.json` — предварительная задумка, не выполненный stage; авторская оценка и текстовое кольцо сами по себе не дают `awaiting_script_approval`.

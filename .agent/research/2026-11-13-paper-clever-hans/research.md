@@ -99,3 +99,23 @@ Date of this source review: **2026-11-13**. `Original book` means **Oskar Pfungs
 - For primary source document scenes, an actual page can exist as an inset on a real paper card with source/rights/provenance; pure fabricated typography of reports should be avoided unless clearly a generic prop. Do not silently reprint modern copyrighted photographs.
 - One paper-plane traveler scene planned off-narration per Paper channel profile, not a historic prop; actual reference `scene_sample.png` must be present and SHA-256 verified at production, no photo/voice/image output generated now.
 - The sentence ending `person asking a simple question:` **joins into** the spoken opening question `What's three plus five?` after the complete revelation `Hans wasn't doing arithmetic.` This is a semantic/syntactic cycle, not a fake cliffhanger. A real rendered loop remains UNVERIFIED.
+
+## 2026-11-18: source verification of expanded versions
+
+The ten-story initial selection and shared primary research above remain intact. New factual assertions in 05m and 10m were checked against [Oskar Pfungst, *Clever Hans* (English 1911; German 1907), primary experimental account](https://operantconditioning.com/library/pfungst-clever-hans/) and its bibliographic [Project Gutenberg edition](https://www.gutenberg.org/ebooks/33936). The primary full text was available via mirror; Gutenberg direct HTML returned 503 during this pass. Historical evidence is not evidence of 2026 watch propensity.
+
+| Versions | New historical claim | Primary-source location | Caveat |
+|---|---|---|---|
+| 05m, 10m | Wilhelm von Osten was a former mathematics teacher; had trained Hans for years; no need to label him fraudulent | Stumpf foreword; introductory chapter | Sincere belief is supported; private motives not fabricated |
+| 05m, 10m | Number cards with questioner knowing: 42 trials, 98% right; not knowing: 49, 8% | Chapter II, `Problems solved by tapping` | Specific series only; not overall horse success |
+| 10m | Written-word placards: 14 trials with knowledge all correct; 12 without none correct | Chapter II, word-card experiments | Different task, not combined with number-card rates |
+| 05m, 10m | Responses could be obtained without speaking or silently forming the question | Chapter II, hearing / inner-speech alternative | Do not extrapolate absolute elimination of all sensory inputs |
+| 05m, 10m | Large-blinder experiment: 89% questioner seen, 6% unseen; ambiguous trials | Chapter II, visual tests (102 total, 11 uncertain categorization) | Do not combine denominators with number-card set |
+| 05m, 10m | Involuntary lean starts tapping; upward head jerk stops it; deliberate lean caused 29/30 starts | Chapter II, detailed bodily signal tests | Demonstration of mechanism; no invented literal conversation |
+| 05m, 10m | Asked for 13 but stayed bent until 20; horse tapped to 20 | Chapter II, controlled stopping test | One documented manipulated example |
+| 10m | When two askers had different numbers Hans followed Pfungst rather than Stumpf in a ten-trial comparison | Chapter II, two-questioner experiments | Learned focus, not supernatural coordination |
+| 10m | Tiny head movements recorded mechanically on smoked paper | Chapter IV, laboratory tests | Size varies by participant; around millimetre is approximate |
+| 05m, 10m | Pfungst imitated horse by hand tapping while humans silently held numbers | Chapter IV, human laboratory tests | Do not invent 100% success; control not mind-reading |
+| All | Result depends on knowledge and visible involuntary cue even without conscious cheating | Stumpf/Pfungst conclusions | Not a denial of all animal intelligence |
+
+Public retellings, videos and the source's fame do not establish own-channel demand. CTR, average view duration, independent viewer choice and actual voice/AV durations all **UNVERIFIED**.

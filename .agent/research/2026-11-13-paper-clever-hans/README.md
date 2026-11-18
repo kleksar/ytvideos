@@ -1,3 +1,22 @@
+# Clever Hans — editorial duration variants (2026-11-18)
+
+**Provisional choice:** ~2m Short. The original short is more focused on the horse puzzle and already has full payoff. Five and ten minutes have full, independently structured source-grounded EN/RU narrations, but growing methodology slows the immediate story. The 02m colon seam is **not a verified loop** until a genuine twice-through first listener and MP4 check.
+
+| Target / format | Full RU | Full EN | EN words | SHA-256 EN | SHA-256 RU | Status |
+|---|---|---|---:|---|---|---|
+| ~2m / Short | [RU](variants/02m/script.ru.txt) | [EN](variants/02m/script.en.txt) | 199 | `778133d5c2f39a5f47e31e1b2a8b13d24feb26961c6c54fe777b60681e54f745` | `fb4505fec1bd233f9104408f2e3ce84aae28d28d6ce343bf737fc549d0cc3e21` | EDITORIAL_CANDIDATE_UNREGISTERED |
+| ~5m / Long | [RU](variants/05m/script.ru.txt) | [EN](variants/05m/script.en.txt) | 667 | `1f872d933deb459eff802ab455f101eb8e037c824963984dda0cbca9f8039a13` | `8959d978b857ac7bf5522f2392862e074d13525a3d2508927c57974a5d40a2b9` | EDITORIAL_CANDIDATE_UNREGISTERED |
+| ~10m / Long | [RU](variants/10m/script.ru.txt) | [EN](variants/10m/script.en.txt) | 1329 | `da092c0c9ffe987b559110add2826f93fc4e5a6e509c2e38e5956906fdc5b034` | `0782ec4dc60cf0f2a616c772ad84c885d4418bd7a0264f4464f44f9ca89324b2` | EDITORIAL_CANDIDATE_UNREGISTERED |
+
+**Status:** `EDITORIAL_CANDIDATE_UNREGISTERED`. Independent first listener, bilingual reviewer, official runtime, owner approval, TTS, imagegen, MP4 and publication: NOT_RUN/UNVERIFIED. Full story maps, eight criteria and explicit deficiencies are in [story-review](story-review.md); one shared source evidence ledger in [research](research.md). 02m is the exact unchanged root narrative.
+
+**Scene provenance:** [storyboard.json](storyboard.json) and [packaging brief](packaging-brief.md) cover **ONLY** unchanged root/02m and still have provisional 13-shot timings. No 05m/10m spans or storyboard have been created, and none should be inferred from that old scene grid.
+
+**Safety:** Root scripts and approvals/media/pins remain unmodified. New Longs are alternatives, not replacement masters; selecting one requires a real owner decision and the documented runtime workflow.
+
+---
+## Earlier one-version packet (historical)
+
 **Совместимость с main 96c8fa1573c0:** старый текстовый Draft PR, не `ytv start` run. До производства необходимо выполнить независимый `sessions.independent` review, подтверждённый `awaiting_script_approval`, получить owner approval; предварительная раскадровка не готовый stage. [Handoff](handoff.md).
 
 # Paper Detour — Clever Hans: The Horse Who Read the Questioner
