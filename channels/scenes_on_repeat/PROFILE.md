@@ -14,6 +14,8 @@
 
 Это правило относится к новому направлению, а не к историческим licensed-clips рецептам ниже. При регистрации проверенного You But Weird ChannelSpec закрепить в нём 1080p/30 fps для применимых форматов и сверить ориентацию; до этого `channel.json` Scenes on Repeat не является настроенным spec нового направления. Для действующих pinned runs применять [migration](../../docs/migration.md), а не незаметно заменять параметры.
 
+Для whole-frame движения горизонтального Long применять [YBW_LONG_MOTION](docs/YBW_LONG_MOTION.md): scoped перенос Nuviko/Paper чередования, консервативного размаха и обязательного motion-plan/preview gate.
+
 ## Вертикальная адаптация You But Weird
 
 Для Short из готового Long применять [YBW_REPURPOSED_SHORTS](docs/YBW_REPURPOSED_SHORTS.md): 1080×1920/30 fps, фиксированный резкий квадрат и синхронный blur-fill, существующая озвучка без новой TTS, одна непрерывно видимая строка captions. Это отдельный рецепт нового направления, не 24 FPS licensed-clips вариант ниже.
