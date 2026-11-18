@@ -1,3 +1,9 @@
+# Three-duration packaging sync — 2026-11-18
+
+All three variants are **one Therac-25 story**, not three productions. Exact text manifest and hashes: [story-review](story-review.md). Recommended candidate: unchanged 05m original; cover/title pitches below remain provisional ONLY for that version. 02m cuts regulatory chronology to one consequence; 10m expands Georgia/Hamilton/Yakima timeline and independent interlocks, so old 26 scene visual plan is NOT valid for them. Do not claim CTR validation, measured length, image/AV proof or production approval.
+
+---
+
 # Packaging — revised Therac-25 narration (editorial only)
 
 EN Long 16:9. No actual cover, title tests or CTR measurement. The opening asks why the same dangerous machine was used again; the early meter scene promises a verifiable explanation, not a patient rescue.

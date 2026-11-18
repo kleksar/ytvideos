@@ -1,12 +1,17 @@
-EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официальному ytv script gate.
-# Paper Detour — Therac-25 / Fritz Hager
+# Paper Detour — Therac-25 / Fritz Hager (one story, three durations)
 
-Revised EN Long 16:9 after owner's Goânia critique and merged questions-first Long standard: two harmed Tyler patients, an impossible-to-reproduce warning, Hager's fast-mode correction test and calls to other clinics. Intro questions precede immersion and meter hook; revised ending is a concrete proof protocol.
+**EDITORIAL_CANDIDATE_UNREGISTERED.** Draft only; no official ytv script gate, independent reviewer, approval, TTS, image generation or publication.
 
-**[ПОЛНЫЙ РУССКИЙ СЦЕНАРИЙ](script.ru.txt)** · **[Full English narration](script.en.txt)**.
+**Logline:** after a first patient's severe radiation injury, engineers could not reproduce a Therac-25 error and the machine returned to service. After a second injury, Fritz Hager reproduced the fast-entry defect in an empty treatment room and others verified it. The wider case required more than a single keyboard fix.
 
-Baseline `2df06057b330b8eea4e3ea85cba67329b6d03da3`; new EN git blob `55ae8790d9193cc7a89133c87ee0fbaabacea3da`, RU `35a3f0671b01a8b4d8afb42ed1382cc101f08610`. 26 EN/RU paragraphs and 26 provisional storyboard scenes, unmeasured timing. Former 45-scene script and review STALE.
+| Target duration / format | Full EN | Full RU | Editorial result |
+|---|---|---|---|
+| 02m · Long 16:9, 277 EN words | [English](variants/02m/script.en.txt) | [Русский](variants/02m/script.ru.txt) | Complete short documentary; compact final systemic turn |
+| **05m · Long 16:9, 570 EN words** | **[English](variants/05m/script.en.txt)** | **[Русский](variants/05m/script.ru.txt)** | **Recommended; original root EN/RU preserved byte-for-byte** |
+| 10m · Long 16:9, 1221 EN words | [English](variants/10m/script.en.txt) | [Русский](variants/10m/script.ru.txt) | Full documentary; lower momentum after Tyler test, not recommended by default |
 
-[Evidence, comparative research and exact revision trail](research.md) · [Author-only editorial assessment](story-review.md) · [Provisional storyboard](storyboard.json) · [Packaging ideas](packaging-brief.md) · [Handoff](handoff.md).
+[Individual eight-criterion reviews, exact SHA-256 and comparison](story-review.md) · [One shared research + sourced additions](research.md) · [Handoff](handoff.md) · [Packaging](packaging-brief.md) · [Legacy 05m storyboard](storyboard.json).
 
-No ytv run, independent reviewer, script approval, TTS, MP4 or publication. Draft only, not production-ready.
+**Was → now:** baseline PR HEAD `2efd74a567b064e4ac6011c6832ec4cbc3b71d19` had one complete questions-first EN/RU script and a 26-scene storyboard. Added independent 02m and 10m compositions, copied original exactly as 05m, and compared three actual texts. The 26-scene storyboard is pinned to original root 05m Git blobs only; no false span, timing or approval inheritance.
+
+Next: independent first listener and bilingual review of selected candidate, owner exact-master selection, runtime registration according to canonical context/pins, new storyboard for any revised variant. TTS/MP4, measured duration, audio/video QA and audience behavior **UNVERIFIED**.

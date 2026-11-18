@@ -1,3 +1,13 @@
+# Three-version editorial handoff addendum — 2026-11-18
+
+**EDITORIAL_CANDIDATE_UNREGISTERED**, no approval or production. Baseline PR HEAD `2efd74a567b064e4ac6011c6832ec4cbc3b71d19`; existing root EN/RU preserved, duplicated byte-for-byte as `variants/05m/`. Complete 02m and 10m alternatives added. For exact UTF-8 SHA-256, full text links, eight-criterion ratings, story maps and boundaries, see [story-review](story-review.md). **05m Long** recommended because it reaches the reproducible empty-room demonstration without the backward-in-time second-half detour of 10m; this is not a selected master.
+
+Existing `storyboard.json` maps ONLY original root/05m texts with Git blobs `55ae8790d9193cc7a89133c87ee0fbaabacea3da` EN and `35a3f0671b01a8b4d8afb42ed1382cc101f08610` RU. No old timing, scene count, review or production evidence should be attributed to 02m/10m. A new exact storyboard is required if a different duration is chosen.
+
+Review routing: provide exact scripts to independent reviewer without this card's scores or recommendation; ask for blind first-listener and bilingual critiques, then provide sources. Current tool context has no verified `sessions.independent` session-spawn action or authenticated local ytv run; the GitHub editorial candidates cannot be registered as `awaiting_script_approval`. Check existing saved runtime status/pins before any import; migration of a pinned run must be explicit. No TTS, MP4, provider dispatch, publication or release scheduling.
+
+---
+
 EDITORIAL_CANDIDATE_UNREGISTERED: **Draft only, no official script gate or production authorization.**
 # Handoff — Therac-25
 
