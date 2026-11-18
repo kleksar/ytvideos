@@ -1,3 +1,5 @@
+> **Variant scope (2026-11-18):** all exact 28 EN/RU scene spans below match only the unchanged root `script.en.txt`/`script.ru.txt` copied into `variants/05m/`. They do **not** apply to 02m/10m versions. A selected variant requires new scene counts and exact script-hash alignment. Do not reuse old timings or approvals.
+
 # Provisional storyboard — revised documentary Long (not generated)
 
 Source: exact bilingual narration at this PR HEAD. One semantic segment per provisional scene; scene count follows revised narration, not a fixed legacy grid. Final timing and audio segmentation UNVERIFIED until TTS. All visual material is conceptual only; no authorized images or video exist.

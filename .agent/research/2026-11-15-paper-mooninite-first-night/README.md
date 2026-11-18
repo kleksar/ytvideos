@@ -1,12 +1,17 @@
-EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официальному ytv script gate.
+EDITORIAL_CANDIDATE_UNREGISTERED — Git-only drafts, not production authorization.
 
-# Boston Mooninite Panic: the arrested light artist invited back
+# Boston Mooninite Panic — an arrested light artist invited back
 
-Paper Detour English Long 16:9. Experimental author-only STRONG_CANDIDATE. UNVERIFIED comparative YouTube audience demand and independent review. No production authorization.
+Paper Detour · same real event · English narration · Long 16:9.
 
-Full EN master: script.en.txt. Полный русский смысловой перевод: script.ru.txt. Evidence and rival topics: research.md; author eight-score review: story-review.md; precise provisional spans: storyboard.md; titles/thumbnail: packaging-brief.md; runtime migration: handoff.md.
+| Duration target | Complete scripts | EN words | Actual editorial status |
+|---|---|---:|---|
+| 02m | [EN](variants/02m/script.en.txt) · [RU](variants/02m/script.ru.txt) | 267 | new complete compact Long |
+| 05m | [EN](variants/05m/script.en.txt) · [RU](variants/05m/script.ru.txt) | 527 | original exact text copied byte-for-byte; nominal 5m undershoot possible |
+| 10m | [EN](variants/10m/script.en.txt) · [RU](variants/10m/script.ru.txt) | 1420 | new documented expanded Long |
 
+**Preliminary recommendation: 02m Long.** It resolves the commuter's alarm, the ad-agency silence, the criminal outcome and the later commission without a long procedural tail. The original 05m remains unchanged as a strong alternative but could under-run five minutes; 10m contains new sourced detail and a weaker middle. The target duration is **not** a measured audio length, and this recommendation isn't approval.
 
-## Revised owner-directed narrative (2026-11-15)
+[Full research](research.md) · [three independent author-only scorecards, text SHA-256 and blockers](story-review.md) · [handoff](handoff.md) · [packaging](packaging-brief.md).
 
-Baseline commit `974a427b6703c604737976a8dca90337694fc981`; latest narration changes the 35-scene result-first draft to a 28-scene question-first causal Long. See the **last section** of research.md for before→after, exact claim sources, story map and uncertainty. Prior scoring in the baseline review is STALE. Current author-only review is in story-review.md; no first-listener approval, TTS or MP4. EN/RU are synchronized against storyboard.md; exact Git blobs recorded in handoff.md.
+The original root [EN](script.en.txt) / [RU](script.ru.txt) are preserved byte-for-byte and duplicated in `variants/05m/`. The existing [storyboard](storyboard.md) is valid only for the exact unchanged root/05m text. There are no scene spans or image prompts for the new 02m/10m. No independent reviewer, owner approval, run, media or publication.

@@ -16,3 +16,10 @@ No merge, media creation, TTS, render, upload, publish, channel status change, d
 ## New exact editorial revision (2026-11-15)
 
 Same PR branch and no production action. Parent HEAD `974a427b6703c604737976a8dca90337694fc981`, 28 provisional scenes / EN blob `3dd80903bc5e4fbe7aefc0b75ed3cd7a4de89127` / RU blob `8da2c0fc597ac8882f29f66a88041ed3ae300edf`. Script's question-first opening, factual cause map, 2013 light-show payoff and all scene spans supersede previous 35-scene timings and author's rating. Baseline review and any approval would be STALE; no such independent approval was obtained. Author revision does not create an ytv run, session receipt or script approval. Next: independent blind reader of exact EN/RU, then read/write actual pinned runtime and approvals only with authorized local tools. TTS duration, MP4/AV check and audience data UNVERIFIED.
+
+
+## Three-duration update — 2026-11-18
+
+Baseline `83836c2d6a2c12c92740485542007f3eeb47ba7d`. New `variants/02m` and `variants/10m`; original EN/RU copied into `variants/05m` exactly, no replacement of root and no changes to approved outputs. See `story-review.md` for six SHA-256 values, evidence, eight criteria per length and full hard checks. Preliminary editorial choice is 02m Long; independent blind reader can reject it or choose old source. Real timing and demand UNVERIFIED. 
+
+Keep the old storyboard only with unchanged 05m bytes. 02m/10m require fresh storyboard with exact spans **after** selection. No runtime or reviewer/approval. Before local import inspect any existing run, canonical context and pins. Do not rewrite master or start three production runs. Original earlier handoff statements apply only to initial source.

@@ -14,3 +14,8 @@ Paper thumbnail always short large die-cut letters; no actual artwork, source im
 ## Revised narration alignment (2026-11-15)
 
 Actual EN S001 asks the closure/agency/return questions before incident immersion S002–S005; the cartoon reveal S006–S008 is the first major hook. The final documented response is S028. Preserve initial promise and reveal in any future packaging. Baseline thumbnails were draft concepts, not tested assets; no CTR claims, rights clearance or generated outputs.
+
+
+## Variant-specific revision — 2026-11-18
+
+Original S001–S028 anchoring is valid only for original/05m. New 02m and 10m begin with similar verified questions but have different proof placement; thumbnails and scene-to-narration spans are **unverified** until a precise master is chosen. Do not reuse old 28 frames against altered narration. Author recommendation is 02m Long, not an approved release plan, tested CTR or license to reproduce the copyrighted cartoon image. No media generated.

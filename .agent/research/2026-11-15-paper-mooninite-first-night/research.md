@@ -75,3 +75,15 @@ Installer is identified by his documented actions (hangs board, films response, 
 ### What remains UNVERIFIED
 
 No fresh independent first-listener review, no TTS/audio duration, no MP4, no actual AV retention or seamlessness, no audience CTR/retention, no permission for original Mooninite design, no verified actual scene images, no official ytv run/approval. Public comparison is not a prediction. The previous author's eight-score estimates apply to the earlier exact text and are STALE.
+
+
+## Three-duration evidence addendum — 2026-11-18
+
+Original exact root preserved at head `83836c2d6a2c12c92740485542007f3eeb47ba7d`; new 02m and 10m versions are different full compositions. Claims that go beyond the earlier 05m root:
+
+- [WBUR/AP, 2013-11-20](https://www.wbur.org/news/2013/11/20/boston-bomb-scare-artist-back-in-the-limelight): Berdovsky's studio contracted for a reported $50,000 light show, funded by **private donations**, with Boston imagery projected on the Boston Public Library facade for the celebration welcoming 2014. This is contemporaneous event planning, not independently observed successful performance or actual viewer reaction.
+- [YourArlington, 2013-12-29](https://yourarlington.com/2013/12/first-122913/): video mapping onto library facade, production team and building model for alignment. No fabricated dialogue, gestures or memories are inferred from the projection preparation.
+- [Boston.com, 2017-01-31](https://www.boston.com/news/local-news/2017/01/31/looking-back-at-the-boston-mooninite-panic-10-years-later/): police memo on separate reports and how advertising-company silence delayed a public explanation; forty displays **supplied** is not proof forty were all hanging. Media disagreement about police reaction is not a definitive verdict about police competence.
+- [WBUR, 2007-05-11](https://www.wbur.org/news/2007/05/11/charges-dropped-against-guerrilla-marketers): completed community service, apology and **charges dropped** (not convicted/acquitted in a trial). Turner/Interference two-million-dollar settlement was corporate restitution, not a personal fine for the artists. Do not infer a criminal motive from arrest alone.
+
+Unresolved: independent viewers' interest, original billboard cartoon art rights, exact 2013 footage, measured TTS/pause length and independent review; all UNVERIFIED. Web sources are evidence for events, not runtime/approval authority.
