@@ -1,0 +1,43 @@
+I have four gifts waiting on my table and one sheet of wrapping paper. I can draw enough shapes on that sheet to cover all four, or use almost the same scissors and leave the last box completely uncovered. The difference is one quarter turn. But that isn't a universal gift-wrapping trick. I'll show you a second sheet where the winner reverses, and a third sheet where an ordinary-looking grid reaches the mathematical limit of what fits.
+
+I'm testing two repeatable cutting plans, not performing a physical wrapping demonstration. That distinction matters. In a real wrapping job, a box needs extra paper around its sides and ends. For this model I've already determined that each of my four identical boxes requires one flat rectangular pattern 25 centimeters wide and 35 centimeters long, folding allowance included. It's a stipulated input, not a measurement from an unseen video. I'll cut those patterns from a sheet measuring 60 by 90 centimeters.
+
+The scoring rule comes first: one complete unbroken pattern equals one gift that can be wrapped. I won't count scraps as full patterns, and I won't tape several pieces into one. Both plans start from a fresh, untouched sheet. In plan A every rectangle has its 35-centimeter edge across the width of the paper. In plan B, I rotate all the patterns so that the 25-centimeter edge is across. Everything else stays the same.
+
+Before I draw anything, choose A or B. If I merely divide the area of the sheet by the area of a gift pattern, I'd get a tempting answer. The sheet has 60 times 90, or 5,400 square centimeters. Each pattern uses 25 times 35, or 875. Four patterns would occupy 3,500, far less than the available area. There's plenty of paper in total. But will it be in the right places?
+
+I start with A because it is how I'd naturally put the long edge against the width of the paper. Thirty-five centimeters fits inside sixty. Another thirty-five would take me to seventy. So that second pattern cannot sit next to the first. I draw one column. Along the ninety-centimeter length, the patterns are twenty-five centimeters tall. Three rows take seventy-five centimeters. Four rows would need a hundred. My drawn grid contains three usable wrappers.
+
+There is plenty of blank paper left, but it's not a neatly sized fourth wrapper. On the side is a twenty-five-centimeter strip, and along the bottom is a fifteen-centimeter strip. They are not automatically one 25-by-35 rectangle. I can see why I might feel as if I had enough paper and still run out at the last gift. A has not failed to use the area efficiently by some universal rule. It has failed my actual target: four complete pieces under this particular grid-cutting rule.
+
+I put that sheet aside in the model and reset. Plan B turns the template ninety degrees. Now its twenty-five-centimeter side goes across the width. Two side by side use fifty centimeters, and I have ten to spare. Along the ninety-centimeter length, two thirty-five-centimeter rows take seventy, with twenty left. I have a two-column, two-row layout: four intact patterns. The paper hasn't grown. All four boxes are accounted for.
+
+It's worth looking closely at what just happened. Rotating doesn't reduce a pattern's area. It changes which dimension consumes the sheet's shorter edge. In plan A the width blocks a second column. In B the width allows two columns, even though the rows are taller. That trade produces one extra complete wrapper. For my original task, B wins four to three.
+
+At this point a simple video could end with advice to rotate everything. That would be wrong. The result depends on the relationship between the shape of the sheet and the shape of the pattern, not on a magical direction.
+
+I'll keep the gifts identical and change only the sheet in a second, separate model run. This time the sheet is forty-five by one hundred and twenty centimeters. Multiply those numbers: five thousand four hundred square centimeters. Exactly the same amount of paper as before, just narrower and longer.
+
+Imagine B first this time. The narrow side of each rotated pattern needs twenty-five centimeters. Two columns would need fifty, but my new sheet is only forty-five wide. So I can make one column. In the long direction, three rows of thirty-five take a hundred and five centimeters; four would need a hundred and forty. That means B now provides three wrappers.
+
+I reset and try A. A thirty-five-centimeter side fits across forty-five. There is room for just one column, as before. But now each row consumes twenty-five centimeters along a length of a hundred and twenty. Four rows take exactly a hundred centimeters. A makes four full wrappers. On this narrower, longer sheet, A wins four to three.
+
+The exact same four gifts, the exact same total area, and the exact same two rules have produced the opposite winner. That is the real point of this comparison. I can't shop for paper by square centimeters alone and assume the cutting plan will take care of itself.
+
+There's another useful test. Suppose instead I have a third sheet, seventy-five by seventy-two centimeters. Its area is still 5,400 square centimeters. In plan A two 35-centimeter pieces fit across seventy-five, and two 25-centimeter rows fit along seventy-two. Two times two means four patterns.
+
+In B I can place three 25-centimeter pieces across seventy-five, with not a centimeter to spare. Two rows of thirty-five fit along seventy-two. Three times two gives six complete patterns. For four gifts that means I have two extra cutouts; if I were wrapping six identical boxes, this plan would cover all six.
+
+Now I can say something stronger about this particular third sheet. Six patterns use 6 times 875, or 5,250 square centimeters. Seven would require 6,125 square centimeters, more than the sheet's total area. So six is an absolute upper bound even before I worry about their positions. Because B actually fits six, it reaches that bound. Here, for this sheet and pattern, the B grid is not merely better than A. It reaches the most pieces that could possibly be cut without overlapping.
+
+Notice why I couldn't use that argument at the start. Area gives me an upper bound, not a working arrangement. On the original sheet there was enough total area for six pieces, but neither of our two fixed-orientation grids got more than four. I have not checked every mixed arrangement on that original sheet, so I won't claim four is the true optimum there. A comparison of two methods is not a proof about every possible method.
+
+One more small change shows why real measurements matter. Go back to the original 60-by-90 sheet, but suppose the needed flat pattern becomes 31 by 35 centimeters because the box or folding allowance changes. In B, two 31-centimeter edges would need sixty-two centimeters of width. They no longer fit side by side. Only one column and two 35-centimeter rows fit: two pieces. In A, one 35-centimeter column and two 31-centimeter rows also give two. A small change to the pattern can wipe out the earlier advantage.
+
+None of these results tells me how a certain brand of wrapping paper stretches, whether a printed design must face one way, or how wide the tape overlap truly needs to be. If the pattern rotates but the print must remain upright, that is another real constraint. I also haven't timed cutting, tested tearing, or folded the pieces around the boxes. A fast layout can be awkward to use; this experiment measures intact patterns, not minutes or visual neatness.
+
+But the model gives me something practical. Before cutting a real sheet, I would measure one genuine flat wrapping pattern, sketch both orientations on the actual width and length, and count the full pieces. I would check the offcuts separately rather than counting their area as if it were another gift. I would also decide what outcome I care about: covering all boxes, minimizing waste, or keeping a pattern upright. Those aren't necessarily the same problem.
+
+For the four gifts I began with, on the sheet I actually specified, the result is unambiguous: A gives three, B gives four. On an equally large but thinner sheet, A gives four and B three. On a third sheet of the same area, B can reach six, the proven area limit. The scissors haven't changed. The boxes haven't changed. The way two rectangles meet at the edge has.
+
+So next time I'm facing a pile of boxes and one untouched sheet, I won't begin with a cut. I'll begin by taking inventory:
