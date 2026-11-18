@@ -14,3 +14,10 @@ EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официал
 ## Revision from 601f7f4d58d38c2df541de9805cab22ce628110e
 
 New exact EN Git blob `44123534822b0a048e426d93864b39005b244f9f`, RU Git blob `b26b3cc11bf5c7f77e68ba58e4c0c19f32f9acc9`; 22 full paragraph spans in storyboard. Previous stored EN/RU hashes `be9e6e456cdc34f7845bec3c3bc712e58b1b8444`/`befafcfd6960759793776143f7a5c3b3d1f929c1` and author review belong to old version (STALE). The revised script requires fresh unbiased first-listener review and exact user text gate before production. Do not reuse old timing or any prior approval. Production, MP4, TTS, upload remain NOT RUN. Read current channel spec and current runtime packet in authorized checkout before any future run.
+
+
+## Продолжение редакционной очереди — 2026-11-19
+
+Исходный master и старые approvals **не менялись**. В той же PR-ветке подготовлены шесть файлов `variants/02m|05m|10m/script.en.txt|script.ru.txt` с [точными SHA-256](story-review.md). Root EN/RU и 05m имеют одинаковые Git blobs; старый [storyboard](storyboard.md) на 22 spans действителен **только для root/05m**. 02m/10m требуют новых scene spans/visual intent только после выбора точной версии.
+
+Git-only статус `EDITORIAL_CANDIDATE_UNREGISTERED`. Нельзя самостоятельно отправить TTS, imagegen, YouTube или подменить pinned runtime: локального авторизованного ytv checkout/session, `read_next`, `task_guide`, independent reviewer отсутствуют в этом удалённом GitHub host. Переносить после явного выбора владельца exact EN bytes + SHA-256 и их RU pair как supporting artifacts в официальный run с canonical pinned context; перед script gate получить независимую first-listener и bilingual проверку. Рекомендуемая 05m версия не approval и не разрешение 3 производств. Завершение 10-секундного long end-screen + bridge требует реального следующего approved видео/интервала; этот вход не изобретать.

@@ -1,9 +1,19 @@
-EDITORIAL_CANDIDATE_UNREGISTERED — Git Draft, not ytv script approval or production-ready.
+EDITORIAL_CANDIDATE_UNREGISTERED — Git-only редакционная очередь; не официальный `ytv start`, script approval или production-ready пакет.
 
-# Radio Quito 1949 — The Real SOS After a Fake Invasion
+# Radio Quito 1949 — настоящее SOS после вымышленного вторжения
 
-Nuviko History · English documentary Long 16:9 · questions-first revised narration.
+**Nuviko History, EN documentary Long 16:9.** Город услышал по радио фиктивное сообщение о марсианах; после разоблачения толпа подожгла станцию, а реальные просьбы о помощи встретили путаницу некоторых слушателей и прямые угрозы пожарным. Нельзя утверждать, что весь город не поверил настоящему SOS или что неверие само по себе стало причиной смертей.
 
-- [Full English script](script.en.txt) · [Полный русский сценарий](script.ru.txt) · [Исследование и было→стало](research.md) · [Авторская оценка](story-review.md) · [Смысловые сцены](storyboard.md) · [Packaging brief](packaging-brief.md) · [Handoff](handoff.md).
-- Baseline HEAD `601f7f4d58d38c2df541de9805cab22ce628110e`; EN blob `44123534822b0a048e426d93864b39005b244f9f`; RU blob `b26b3cc11bf5c7f77e68ba58e4c0c19f32f9acc9`. New editor version, independent first-listener review UNVERIFIED, old score and approvals do not carry.
-- No created runtime, published media, approved script, narration audio or visual assets.
+| Цель | Полные сценарии | Слова EN / RU | Редакторский статус |
+|---|---|---:|---|
+| 2 мин | [RU](variants/02m/script.ru.txt) · [EN](variants/02m/script.en.txt) | 271 / 228 | Новый полный текст; авторская проверка, независимая — UNVERIFIED |
+| 5 мин | [RU](variants/05m/script.ru.txt) · [EN](variants/05m/script.en.txt) | 577 / 493 | Сохранён исходный root, предварительная рекомендация |
+| 10 мин | [RU](variants/10m/script.ru.txt) · [EN](variants/10m/script.en.txt) | 1347 / 1107 | Новый полный текст; авторская проверка, независимая — UNVERIFIED |
+
+**Рекомендована 5-минутная редакция**, потому что сохраняет самое сильное развитие: ложная тревога → раскрытие → поджог → реальное SOS → фактически заблокированные пожарные → человеческий исход. Двухминутный вариант сжимает механизм паники; десятиминутный содержит подтверждённые дополнительные свидетельства и последствия, но после спасательных действий требует больше пояснений, чем добавляет интриги. Рекомендация не approval.
+
+**Защищённый baseline:** до переработки HEAD `82a58033849617aa1e4b82fe7f570f48c3b3b66c`; root [EN](script.en.txt) (Git blob `44123534822b0a048e426d93864b39005b244f9f`) и [RU](script.ru.txt) (Git blob `b26b3cc11bf5c7f77e68ba58e4c0c19f32f9acc9`) сохранены побайтово как `05m`. [Исследование](research.md) · [Оценки/точные SHA-256/сравнение](story-review.md) · [Handoff](handoff.md) · [Packaging](packaging-brief.md).
+
+[Предварительная раскадровка](storyboard.md) на 22 смысловых spans относится **только** к неизменённому `script.en.txt`/`script.ru.txt` = `05m`, не к новым 02m/10m. Механическое совпадение сегментов не равно measured timing.
+
+**Нужны:** независимый first-listener и bilingual review точных файлов, регистрация в локальном runtime с canonical pins/context, решение владельца по одному exact master, storyboard выбранной редакции, проверка end-screen bridge с реальным следующим видео. TTS/MP4/зрительский спрос UNVERIFIED; никакие медиа не запускались.
