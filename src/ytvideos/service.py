@@ -595,13 +595,15 @@ class Production:
         checks = receipt.get("checks")
         if not isinstance(checks, list):
             raise WorkflowError("receipt requires check results")
+        requirements = self.requirements(run)
+        required = required_checks(task["stage"], requirements, purpose=task.get("payload", {}).get("purpose"))
         by_name = {}
         for check in checks:
             if not isinstance(check, dict) or check.get("name") in by_name:
                 raise WorkflowError("duplicate or invalid check")
             require_text(check.get("name"), "check name")
             deferred = (task["stage"] in {"audio", "subtitles"}
-                        and check.get("name") in {"listening", "no_speech"}
+                        and check.get("name") in ({"listening", "no_speech"} & required)
                         and check.get("status") == "unverified"
                         and not self._capable(run, "audio.listen"))
             if deferred:
@@ -619,10 +621,8 @@ class Production:
                 raise WorkflowError("every required check needs structured observed evidence, not just PASS")
             require_text(check.get("method"), "check method")
             by_name[check["name"]] = check
-        requirements = self.requirements(run)
         if task["stage"] == "review":
             require_configured(requirements)
-        required = required_checks(task["stage"], requirements, purpose=task.get("payload", {}).get("purpose"))
         missing = required - by_name.keys()
         if missing:
             raise WorkflowError("missing checks: " + ", ".join(sorted(missing)))

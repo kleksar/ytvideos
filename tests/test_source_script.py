@@ -121,7 +121,7 @@ class SourceScriptTests(unittest.TestCase):
         run = self.service.store.get(self.run_id)
         artifact = {"sha256": file_digest(path)}
         self.service._validate_receipt(run, run["tasks"]["audio"], claim, artifact, receipt)
-        for defect in ("wrong_hash", "empty_reason", "pass", "other_check"):
+        for defect in ("wrong_hash", "empty_reason", "pass", "other_check", "irrelevant_no_speech"):
             bad = json.loads(json.dumps(receipt))
             check = next(c for c in bad["checks"] if c["name"] == "listening")
             if defect == "wrong_hash":
@@ -132,6 +132,8 @@ class SourceScriptTests(unittest.TestCase):
                 check["status"] = "pass"
             if defect == "other_check":
                 bad["checks"].append({"name": "rights", "status": "unverified", "method": "fixture", "observed": {"reason": "missing"}})
+            if defect == "irrelevant_no_speech":
+                bad["checks"].append({**check, "name": "no_speech"})
             with self.subTest(defect=defect), self.assertRaises(WorkflowError):
                 self.service._validate_receipt(run, run["tasks"]["audio"], claim, artifact, bad)
         # Media decoding/provenance has its own suite; only replace it in this state-transition fixture.
@@ -141,6 +143,8 @@ class SourceScriptTests(unittest.TestCase):
             result = self.service.complete(self.run_id, "audio", claim["token"], path,
                                            self.fixture.output(receipt, "audio-receipt.json"), actual_units=0)
         self.assertEqual(result["unverified_checks"], [listening])
+        step = next(x for x in self.service.plan(self.run_id)["steps"] if x["id"] == "audio")
+        self.assertEqual(step["unverified_checks"], [listening])
         packet = self.service.context(self.run_id, "subtitles")
         self.assertEqual(packet["unverified_production_checks"], {"audio": [listening]})
         self.service.claim(self.run_id, "subtitles", "synthetic-aligner")
