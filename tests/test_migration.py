@@ -555,6 +555,111 @@ class RuntimeMigrationTests(unittest.TestCase):
             with self.assertRaises(Conflict):
                 self.plan()
 
+    def held_image(self):
+        def prepare(tx, run):
+            tx.execute("DELETE FROM operations WHERE key=?", (self.operation["key"],))
+            task = copy.deepcopy(run["tasks"]["audio"])
+            task.update(id="image:test", stage="scene_image", dependencies=["storyboard"])
+            run["tasks"][task["id"]] = task
+            claim = {"token": "held-token", "worker": "old-worker", "expires_at": 0,
+                     "input_hash": input_hash(run, task), "estimated_units": 7}
+            task.update(status="unknown", claim=claim)
+            run["budget"]["reserved"] = 7
+            tx.create_operation({"key": "held-image", "run_id": run["id"], "task_id": task["id"],
+                "task_input_hash": claim["input_hash"], "input_hash": "f" * 64, "kind": "image", "status": "unknown"})
+            tx.execute("INSERT INTO runtime_slots VALUES (?,?,?,?,?)",
+                       ("held-image", "test-runtime", run["id"], "bridge-held", "unknown"))
+            run["pool"] = {"bindings": {"job-held": {"task_id": task["id"],
+                "task_token": claim["token"], "task_input_hash": claim["input_hash"], "operation_key": "held-image"}},
+                "backend": {"requests": {"bridge-held": {"status": "unknown"}}},
+                "scheduler": {"records": [{"status": "unknown", "lease_until": 0,
+                    "job": {"job_id": "job-held"}, "handle": {"operation_id": "bridge-held"}}]}}
+        self.store.mutate(self.run_id, prepare)
+
+    def test_unknown_image_checkpoint_preserves_uncertainty_and_only_terminal_recovery(self):
+        self.held_image()
+        before, _, operations = self.state()
+        plan = self.plan()
+        self.assertIn("image:test", plan["unknown_image_checkpoint"])
+        self.apply(plan)
+        after, _, after_operations = self.state()
+        for key in ("tasks", "pool", "budget", "approvals"):
+            self.assertEqual(after[key], before[key])
+        self.assertEqual(operations, after_operations)
+        with self.store.transaction() as tx:
+            self.assertEqual(tx.execute("SELECT state FROM runtime_slots WHERE id=?", ("held-image",)).fetchone()[0], "unknown")
+        for outcome in ("completed", "not_performed"):
+            with self.assertRaisesRegex(Conflict, "provider operations"):
+                self.service.reconcile_task(self.run_id, "image:test", worker="recovery",
+                                            outcome=outcome, evidence="No terminal result yet")
+        with self.assertRaises(Conflict):
+            self.service.begin_operation(self.run_id, "image:test", "held-token", "image", {})
+        # A separate real terminal observation, not migration, enables reuse.
+        def terminal(tx, run):
+            op = tx.operation("held-image")
+            op["status"] = "confirmed"
+            tx.put_operation(op)
+        self.store.mutate(self.run_id, terminal)
+        claim = self.service.reconcile_task(self.run_id, "image:test", worker="recovery",
+                                            outcome="completed", evidence="Synthetic later terminal observation")
+        self.assertTrue(claim["reconciled_existing_result"])
+        with self.assertRaisesRegex(Conflict, "never dispatch"):
+            self.service.begin_operation(self.run_id, "image:test", claim["token"], "image", {})
+        self.assertEqual(self.store.get(self.run_id)["budget"], before["budget"])
+
+    def test_held_image_not_performed_needs_terminal_proof_and_unchanged_inputs(self):
+        self.held_image()
+        self.apply(self.plan())
+        original = copy.deepcopy(self.store.get(self.run_id)["tasks"]["image:test"])
+        def terminal(tx, run):
+            op = tx.operation("held-image")
+            op["status"] = "not_performed"
+            tx.put_operation(op)
+            run["tasks"]["image:test"]["generation"] += 1
+        self.store.mutate(self.run_id, terminal)
+        with self.assertRaisesRegex(Conflict, "obsolete inputs"):
+            self.service.reconcile_task(self.run_id, "image:test", worker="recovery",
+                                        outcome="not_performed", evidence="Synthetic terminal proof")
+        self.store.mutate(self.run_id, lambda tx, run: run["tasks"].update({"image:test": original}))
+        self.service.reconcile_task(self.run_id, "image:test", worker="recovery",
+                                    outcome="not_performed", evidence="Synthetic terminal proof")
+        after = self.store.get(self.run_id)
+        self.assertEqual(after["tasks"]["image:test"]["status"], "pending")
+        self.assertEqual(after["tasks"]["image:test"]["generation"], original["generation"] + 1)
+        self.assertEqual(after["budget"]["reserved"], 0)
+        self.assertEqual(after["budget"]["spent"], 0)
+
+    def test_unknown_image_checkpoint_rejects_live_unbound_and_stale_state(self):
+        self.held_image()
+        original = copy.deepcopy(self.store.get(self.run_id))
+        for defect in ("lease", "pool_live", "pool_unbound", "backend_live", "task_inputs", "reserved"):
+            def alter(tx, run):
+                for key in ("tasks", "pool", "budget"):
+                    run[key] = copy.deepcopy(original[key])
+                if defect == "lease":
+                    run["tasks"]["image:test"]["claim"]["expires_at"] = self.service.clock()+30
+                elif defect == "pool_live":
+                    run["pool"]["scheduler"]["records"][0]["status"] = "running"
+                elif defect == "pool_unbound":
+                    run["pool"]["bindings"]["job-held"]["operation_key"] = "unrelated"
+                elif defect == "backend_live":
+                    run["pool"]["backend"]["requests"]["bridge-held"]["status"] = "running"
+                elif defect == "task_inputs":
+                    run["tasks"]["image:test"]["generation"] += 1
+                else:
+                    run["budget"]["reserved"] += 1
+            self.store.mutate(self.run_id, alter)
+            with self.subTest(defect=defect), self.assertRaises(Conflict):
+                self.plan()
+        self.store.mutate(self.run_id, lambda tx, run: run.update({k: copy.deepcopy(original[k]) for k in ("tasks", "pool", "budget")}))
+        plan = self.plan()
+        with self.store.transaction() as tx:
+            tx.execute("UPDATE runtime_slots SET state='reserved' WHERE id=?", ("held-image",))
+        before = self.state()
+        with self.assertRaises(Conflict):
+            self.apply(plan)
+        self.assertEqual(self.state(), before)
+
     def test_active_task_claim_blocks_even_if_expired(self):
         def active(tx, run):
             run["tasks"]["audio"].update(status="running", claim={"expires_at": 0})

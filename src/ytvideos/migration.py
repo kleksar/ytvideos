@@ -35,29 +35,36 @@ def _slots(tx, run_id):
 
 
 def _quiescent(run, operations, slots, now):
-    recoverable = {}
+    recoverable, held_images = {}, {}
     for task in run["tasks"].values():
         claim = task.get("claim")
         if not claim and task.get("status") not in {"running", "unknown"}:
             continue
         associated = [op for op in operations if op.get("task_id") == task["id"]
                       and op.get("task_input_hash") == (claim or {}).get("input_hash")]
-        if (task.get("stage") != "audio" or task.get("status") != "unknown" or not claim
-                or not isinstance(claim.get("expires_at"), (int, float)) or claim["expires_at"] > now
-                or claim.get("input_hash") != input_hash(run, task)
-                or type(claim.get("estimated_units")) not in (int, float) or claim["estimated_units"] < 0
-                or not associated or any(op.get("status") != "confirmed" or op.get("kind") != "tts"
-                                          or not op.get("provider") or not op.get("receipt")
-                                          for op in associated)):
+        expired_exact = (task.get("status") == "unknown" and claim
+            and type(claim.get("expires_at")) in (int, float) and claim["expires_at"] <= now
+            and claim.get("input_hash") == input_hash(run, task)
+            and type(claim.get("estimated_units")) in (int, float) and claim["estimated_units"] >= 0)
+        audio = (task.get("stage") == "audio" and associated
+                 and all(op.get("status") == "confirmed" and op.get("kind") == "tts"
+                         and op.get("provider") and op.get("receipt") for op in associated))
+        image = (task.get("stage") == "scene_image" and associated
+                 and all(op.get("status") == "unknown" and op.get("kind") == "image" for op in associated))
+        if not expired_exact or not (audio or image):
             raise Conflict("reconcile active or uncertain task claims before runtime migration")
-        recoverable[task["id"]] = {"claim_sha256": digest(claim), "source_input_hash": claim["input_hash"],
+        destination = recoverable if audio else held_images
+        destination[task["id"]] = {"claim_sha256": digest(claim), "source_input_hash": claim["input_hash"],
                                    "operation_keys": sorted(op["key"] for op in associated)}
-    if any(op.get("status") not in {"confirmed", "not_performed"} for op in operations):
+    held_keys = {key for binding in held_images.values() for key in binding["operation_keys"]}
+    if any(op.get("status") not in {"confirmed", "not_performed"}
+           and not (op["key"] in held_keys and op.get("status") == "unknown") for op in operations):
         raise Conflict("reconcile dispatched or unknown external operations before runtime migration")
-    if any(slot["state"] != "released" for slot in slots):
+    if any(slot["state"] != "released"
+           and not (slot["state"] == "unknown" and slot["id"] in held_keys) for slot in slots):
         raise Conflict("release active or uncertain runtime slots before runtime migration")
     if (run["budget"].get("unknown_reserved", 0) != 0 or run["budget"].get("reserved", 0) !=
-            sum(run["tasks"][key]["claim"]["estimated_units"] for key in recoverable)):
+            sum(run["tasks"][key]["claim"]["estimated_units"] for key in {**recoverable, **held_images})):
         raise Conflict("reconcile reserved or uncertain budget before runtime migration")
     motion = run.get("motion_batch")
     if motion is not None:
@@ -75,12 +82,30 @@ def _quiescent(run, operations, slots, now):
                 or not isinstance(pool["scheduler"].get("records"), list)):
             raise WorkflowError("cannot verify the saved pool is quiescent")
         from .workers import AdaptivePool
-        if (any(record.get("status") not in AdaptivePool.TERMINAL for record in pool["scheduler"]["records"])
-                or any(request.get("status") not in {"completed", "failed", "not_started"}
-                       for request in pool["backend"]["requests"].values())):
+        allowed_requests = set()
+        for record in pool["scheduler"]["records"]:
+            if record.get("status") in AdaptivePool.TERMINAL:
+                continue
+            binding = pool.get("bindings", {}).get(record.get("job", {}).get("job_id"), {})
+            checkpoint = held_images.get(binding.get("task_id"))
+            operation_id = record.get("handle", {}).get("operation_id") if record.get("handle") else None
+            request = pool["backend"]["requests"].get(operation_id, {})
+            if (record.get("status") != "unknown" or not checkpoint
+                    or type(record.get("lease_until")) not in (int, float) or record["lease_until"] > now
+                    or binding.get("operation_key") not in checkpoint["operation_keys"]
+                    or binding.get("task_input_hash") != checkpoint["source_input_hash"]
+                    or binding.get("task_token") != run["tasks"][binding["task_id"]]["claim"]["token"]
+                    or request.get("status") != "unknown"
+                    or not any(slot["id"] == binding["operation_key"] and slot["operation_id"] == operation_id
+                               and slot["state"] == "unknown" for slot in slots)):
+                raise Conflict("reconcile queued, active or uncertain pool work before runtime migration")
+            allowed_requests.add(operation_id)
+        if any(request.get("status") not in {"completed", "failed", "not_started"}
+               and not (key in allowed_requests and request.get("status") == "unknown")
+               for key, request in pool["backend"]["requests"].items()):
             raise Conflict("reconcile queued, active or uncertain pool work before runtime migration")
+    return recoverable, held_images
 
-    return recoverable
 
 def _source_context(run):
     if run.get("schema_version") != 1 or run["pins"].get("workflow") != WORKFLOW_VERSION:
@@ -136,7 +161,7 @@ def _build(service, tx, run, source_root, expected_version):
     if source_code != run["pins"]["code"]:
         raise Conflict("source checkout does not match the run's saved code pin")
     operations, slots = _operations(tx, run["id"]), _slots(tx, run["id"])
-    recoverable = _quiescent(run, operations, slots, service.clock())
+    recoverable, held_images = _quiescent(run, operations, slots, service.clock())
     for binding in recoverable.values():
         for op in operations:
             if op["key"] in binding["operation_keys"] and op["receipt"] not in run["artifacts"]:
@@ -162,7 +187,7 @@ def _build(service, tx, run, source_root, expected_version):
     if target_pins == run["pins"]:
         raise WorkflowError("run already matches the target runtime; no migration is needed")
     target_run = {**run, "pins": target_pins}
-    for key, binding in recoverable.items():
+    for key, binding in {**recoverable, **held_images}.items():
         binding["target_input_hash"] = input_hash(target_run, run["tasks"][key])
     old_documents = run["reference_snapshot"]["documents"]
     new_documents = references["documents"]
@@ -186,7 +211,7 @@ def _build(service, tx, run, source_root, expected_version):
                         "references_changed": sorted(path for path in set(old_documents) & set(new_documents)
                                                      if old_documents[path] != new_documents[path])},
             "scope": "runtime_rules_only", "external_dispatch": False,
-            "approval_and_qa_evidence_created": False, "confirmed_audio_recovery": recoverable}
+            "approval_and_qa_evidence_created": False, "confirmed_audio_recovery": recoverable, "unknown_image_checkpoint": held_images}
     plan["plan_sha256"] = digest(plan)
     return plan, skills, references, operations, slots
 
@@ -276,7 +301,8 @@ def apply_runtime_migration(service, run_id, source_root, plan, *, source, messa
                    "snapshot_artifact": snapshot, "preserved": plan["preserved"],
                    "decision": decision, "created_at": utc_now(), "external_dispatch": False,
                    "approval_and_qa_evidence_created": False,
-                   "confirmed_audio_recovery": rebuilt["confirmed_audio_recovery"]}
+                   "confirmed_audio_recovery": rebuilt["confirmed_audio_recovery"],
+                   "unknown_image_checkpoint": rebuilt["unknown_image_checkpoint"]}
         if continue_receipt is not None:
             receipt["continued_from_receipt_sha256"] = continue_receipt
         receipt_artifact = _put_json(service, receipt, "runtime_migration")
@@ -302,12 +328,21 @@ def apply_runtime_migration(service, run_id, source_root, plan, *, source, messa
 
 def confirmed_audio_recovery(service, run, task, operations):
     """Bind reuse to the exact archived expired claim, never authorize new work."""
+    return _checkpoint_matches(service, run, task, operations, "audio", "confirmed_audio_recovery")
+
+
+def held_image_recovery(service, run, task, operations):
+    """Only explicit later terminal reconciliation can resolve the held attempt."""
+    return _checkpoint_matches(service, run, task, operations, "scene_image", "unknown_image_checkpoint")
+
+
+def _checkpoint_matches(service, run, task, operations, stage, field):
     history = run.get("runtime_migrations", [])
-    if not history or task.get("stage") != "audio":
+    if not history or task.get("stage") != stage:
         return False
     artifact = run["artifacts"][history[-1]["receipt_artifact_id"]]
     receipt = json.loads(service.artifacts.resolve(artifact).read_text())
-    binding = receipt.get("confirmed_audio_recovery", {}).get(task["id"])
+    binding = receipt.get(field, {}).get(task["id"])
     return bool(binding and run["pins"] == receipt["target"]["pins"]
                 and digest(task.get("claim")) == binding["claim_sha256"]
                 and input_hash(run, task) == binding["target_input_hash"]
