@@ -12,7 +12,7 @@ from .context import reference_path, snapshot_references, validate_documents, va
 from .errors import Conflict, WorkflowError
 from .profiles import load_profile
 from .util import canonical, digest, require_text, utc_now
-from .workflow import WORKFLOW_VERSION, valid_approval
+from .workflow import WORKFLOW_VERSION, valid_approval, input_hash
 
 
 PLAN_SCHEMA = "ytv-runtime-migration-plan-v1"
@@ -34,15 +34,30 @@ def _slots(tx, run_id):
                                   "WHERE run_id=? ORDER BY id", (run_id,)).fetchall()]
 
 
-def _quiescent(run, operations, slots):
-    if any(task.get("claim") or task.get("status") in {"running", "unknown"}
-           for task in run["tasks"].values()):
-        raise Conflict("reconcile active or uncertain task claims before runtime migration")
+def _quiescent(run, operations, slots, now):
+    recoverable = {}
+    for task in run["tasks"].values():
+        claim = task.get("claim")
+        if not claim and task.get("status") not in {"running", "unknown"}:
+            continue
+        associated = [op for op in operations if op.get("task_id") == task["id"]
+                      and op.get("task_input_hash") == (claim or {}).get("input_hash")]
+        if (task.get("stage") != "audio" or task.get("status") != "unknown" or not claim
+                or not isinstance(claim.get("expires_at"), (int, float)) or claim["expires_at"] > now
+                or claim.get("input_hash") != input_hash(run, task)
+                or type(claim.get("estimated_units")) not in (int, float) or claim["estimated_units"] < 0
+                or not associated or any(op.get("status") != "confirmed" or op.get("kind") != "tts"
+                                          or not op.get("provider") or not op.get("receipt")
+                                          for op in associated)):
+            raise Conflict("reconcile active or uncertain task claims before runtime migration")
+        recoverable[task["id"]] = {"claim_sha256": digest(claim), "source_input_hash": claim["input_hash"],
+                                   "operation_keys": sorted(op["key"] for op in associated)}
     if any(op.get("status") not in {"confirmed", "not_performed"} for op in operations):
         raise Conflict("reconcile dispatched or unknown external operations before runtime migration")
     if any(slot["state"] != "released" for slot in slots):
         raise Conflict("release active or uncertain runtime slots before runtime migration")
-    if any(run["budget"].get(key, 0) != 0 for key in ("reserved", "unknown_reserved")):
+    if (run["budget"].get("unknown_reserved", 0) != 0 or run["budget"].get("reserved", 0) !=
+            sum(run["tasks"][key]["claim"]["estimated_units"] for key in recoverable)):
         raise Conflict("reconcile reserved or uncertain budget before runtime migration")
     motion = run.get("motion_batch")
     if motion is not None:
@@ -65,6 +80,7 @@ def _quiescent(run, operations, slots):
                        for request in pool["backend"]["requests"].values())):
             raise Conflict("reconcile queued, active or uncertain pool work before runtime migration")
 
+    return recoverable
 
 def _source_context(run):
     if run.get("schema_version") != 1 or run["pins"].get("workflow") != WORKFLOW_VERSION:
@@ -120,7 +136,11 @@ def _build(service, tx, run, source_root, expected_version):
     if source_code != run["pins"]["code"]:
         raise Conflict("source checkout does not match the run's saved code pin")
     operations, slots = _operations(tx, run["id"]), _slots(tx, run["id"])
-    _quiescent(run, operations, slots)
+    recoverable = _quiescent(run, operations, slots, service.clock())
+    for binding in recoverable.values():
+        for op in operations:
+            if op["key"] in binding["operation_keys"] and op["receipt"] not in run["artifacts"]:
+                raise Conflict("confirmed audio result has no preserved provider receipt")
     for artifact in run["artifacts"].values():
         service.artifacts.resolve(artifact)
     approval = run["approvals"].get("script")
@@ -141,6 +161,9 @@ def _build(service, tx, run, source_root, expected_version):
                    "skills": digest(skills), "references": digest(references)}
     if target_pins == run["pins"]:
         raise WorkflowError("run already matches the target runtime; no migration is needed")
+    target_run = {**run, "pins": target_pins}
+    for key, binding in recoverable.items():
+        binding["target_input_hash"] = input_hash(target_run, run["tasks"][key])
     old_documents = run["reference_snapshot"]["documents"]
     new_documents = references["documents"]
     plan = {"schema": PLAN_SCHEMA, "run_id": run["id"], "channel": run["channel"],
@@ -163,7 +186,7 @@ def _build(service, tx, run, source_root, expected_version):
                         "references_changed": sorted(path for path in set(old_documents) & set(new_documents)
                                                      if old_documents[path] != new_documents[path])},
             "scope": "runtime_rules_only", "external_dispatch": False,
-            "approval_and_qa_evidence_created": False}
+            "approval_and_qa_evidence_created": False, "confirmed_audio_recovery": recoverable}
     plan["plan_sha256"] = digest(plan)
     return plan, skills, references, operations, slots
 
@@ -252,7 +275,8 @@ def apply_runtime_migration(service, run_id, source_root, plan, *, source, messa
                    "from_version": before["version"], "to_version": before["version"] + 1,
                    "snapshot_artifact": snapshot, "preserved": plan["preserved"],
                    "decision": decision, "created_at": utc_now(), "external_dispatch": False,
-                   "approval_and_qa_evidence_created": False}
+                   "approval_and_qa_evidence_created": False,
+                   "confirmed_audio_recovery": rebuilt["confirmed_audio_recovery"]}
         if continue_receipt is not None:
             receipt["continued_from_receipt_sha256"] = continue_receipt
         receipt_artifact = _put_json(service, receipt, "runtime_migration")
@@ -274,3 +298,17 @@ def apply_runtime_migration(service, run_id, source_root, plan, *, source, messa
         tx.save(run)
         return {"run_id": run_id, "version": run["version"], "duplicate": False,
                 "receipt": receipt, "receipt_artifact": receipt_artifact}
+
+
+def confirmed_audio_recovery(service, run, task, operations):
+    """Bind reuse to the exact archived expired claim, never authorize new work."""
+    history = run.get("runtime_migrations", [])
+    if not history or task.get("stage") != "audio":
+        return False
+    artifact = run["artifacts"][history[-1]["receipt_artifact_id"]]
+    receipt = json.loads(service.artifacts.resolve(artifact).read_text())
+    binding = receipt.get("confirmed_audio_recovery", {}).get(task["id"])
+    return bool(binding and run["pins"] == receipt["target"]["pins"]
+                and digest(task.get("claim")) == binding["claim_sha256"]
+                and input_hash(run, task) == binding["target_input_hash"]
+                and sorted(op["key"] for op in operations) == binding["operation_keys"])

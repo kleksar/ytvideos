@@ -1122,7 +1122,7 @@ class Production:
     def _task_operations(tx, run, task, claim):
         rows = tx.execute("SELECT doc FROM operations WHERE run_id=?", (run["id"],)).fetchall()
         return [op for row in rows if (op := json.loads(row[0]))["task_id"] == task["id"]
-                and op["task_input_hash"] == claim["input_hash"]]
+                and op["task_input_hash"] == claim.get("operation_input_hash", claim["input_hash"])]
 
     def fail(self, run_id, task_id, token, reason, *, known_not_sent=False):
         require_text(reason, "failure reason")
@@ -1202,7 +1202,7 @@ class Production:
             if not claim:
                 raise Conflict("no outstanding claim to settle")
             operations = [json.loads(row[0]) for row in tx.execute("SELECT doc FROM operations WHERE run_id=?", (run_id,)).fetchall()]
-            operations = [op for op in operations if op["task_id"] == task_id and op["task_input_hash"] == claim["input_hash"]]
+            operations = [op for op in operations if op["task_id"] == task_id and op["task_input_hash"] == claim.get("operation_input_hash", claim["input_hash"])]
             if any(op["status"] not in {"confirmed", "not_performed"} for op in operations):
                 raise Conflict("provider outcome remains unknown; keep its cost reservation")
             budget = run["budget"]
@@ -1540,8 +1540,11 @@ class Production:
                 "confirmed" if outcome == "completed" else "not_performed"}
             if not operations or any(op["status"] not in required for op in operations):
                 raise Conflict("all associated provider operations must be reconciled as " + " or ".join(sorted(required)))
-            if old_claim["input_hash"] != input_hash(run, task):
-                raise Conflict("reconciled result belongs to obsolete inputs")
+            current_input = input_hash(run, task)
+            if old_claim["input_hash"] != current_input:
+                from .migration import confirmed_audio_recovery
+                if outcome != "completed" or not confirmed_audio_recovery(self, run, task, operations):
+                    raise Conflict("reconciled result belongs to obsolete inputs")
             if outcome == "not_performed":
                 run["budget"]["reserved"] -= old_claim["estimated_units"]
                 task.update(status="pending", claim=None, blocker=None)
@@ -1551,6 +1554,8 @@ class Production:
             else:
                 claim = {**old_claim, "token": str(uuid.uuid4()), "worker": worker,
                          "expires_at": self.clock() + 900, "reconciled_existing_result": outcome == "completed"}
+                if old_claim["input_hash"] != current_input:
+                    claim.update(input_hash=current_input, operation_input_hash=old_claim["input_hash"])
                 task.update(status="running", claim=claim, blocker=None)
                 result = claim
             tx.event(str(uuid.uuid4()), run_id, "task.reconciled", {"task_id": task_id, "outcome": outcome, "evidence": evidence})
