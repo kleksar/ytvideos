@@ -330,17 +330,58 @@ class RuntimeMigrationTests(unittest.TestCase):
                 continue_receipt=first["receipt_artifact"]["sha256"])
         self.assertEqual(self.state(), before)
 
-    def test_continuation_rejects_intervening_run_transition(self):
+    def test_continuation_rejects_changed_intent(self):
         _, first, source_root, _ = self._prepare_continuation()
         self.store.mutate(self.run_id, lambda tx, run: run.update(intent="an intervening task"))
         plan = self.service.plan_runtime_migration(self.run_id, source_root,
                                                    expected_version=self.store.get(self.run_id)["version"])
         before = self.state()
-        with self.assertRaisesRegex(Conflict, "state version"):
+        with self.assertRaisesRegex(Conflict, "owner scope"):
             self.service.apply_runtime_migration(self.run_id, source_root, plan,
                 source="fixture-owner-message", message="Migrate this exact episode locally.",
                 continue_receipt=first["receipt_artifact"]["sha256"])
         self.assertEqual(self.state(), before)
+
+    def test_continuation_accepts_progress_only_with_fresh_quiescent_plan(self):
+        _, first, source_root, stale = self._prepare_continuation()
+        self.store.mutate(self.run_id, lambda tx, run: run["capabilities"].update(
+            {"model.text": {"available": True, "evidence": "new observed session"}}))
+        before = self.state()
+        kwargs = {"source": "fixture-owner-message", "message": "Migrate this exact episode locally.",
+                  "continue_receipt": first["receipt_artifact"]["sha256"]}
+        with self.assertRaisesRegex(Conflict, "stale source state"):
+            self.service.apply_runtime_migration(self.run_id, source_root, stale, **kwargs)
+        self.assertEqual(self.state(), before)
+        fresh = self.service.plan_runtime_migration(self.run_id, source_root,
+                                                     expected_version=before[0]["version"])
+        result = self.service.apply_runtime_migration(self.run_id, source_root, fresh, **kwargs)
+        after = self.state()
+        self.assertEqual(result["receipt"]["from_version"], before[0]["version"])
+        for key in ("tasks", "approvals", "budget", "capabilities", "revision", "channel"):
+            self.assertEqual(after[0][key], before[0][key])
+        self.assertEqual(after[2], before[2])
+
+    def test_continuation_never_expands_scope_after_progress(self):
+        _, first, source_root, plan = self._prepare_continuation()
+        original = self.store.get(self.run_id)
+        for defect in ("channel", "format", "approval", "budget", "pins"):
+            def change(tx, run):
+                run.update({k: copy.deepcopy(v) for k, v in original.items() if k != "version"})
+                if defect in {"channel", "format"}:
+                    run[defect] = "different"
+                if defect == "approval":
+                    run["approvals"]["script"]["source"] = "different-decision"
+                if defect == "budget":
+                    run["budget"]["max_paid_units"] += 1
+                if defect == "pins":
+                    run["pins"]["source_script"] = "0" * 64
+            self.store.mutate(self.run_id, change)
+            before = self.state()
+            with self.subTest(defect=defect), self.assertRaises(Conflict):
+                self.service.apply_runtime_migration(self.run_id, source_root, plan,
+                    source="fixture-owner-message", message="Migrate this exact episode locally.",
+                    continue_receipt=first["receipt_artifact"]["sha256"])
+            self.assertEqual(self.state(), before)
 
     def test_uncertain_motion_batch_and_unsettled_reservations_block_migration(self):
         for batch in ({"scenes": {"shot": {"status": "unknown"}}, "reserved": 0},

@@ -219,11 +219,17 @@ def apply_runtime_migration(service, run_id, source_root, plan, *, source, messa
             previous_snapshot = json.loads(service.artifacts.resolve(previous["snapshot_artifact"]).read_text())
             if previous["decision"] != decision:
                 raise Conflict("continuation must preserve the exact owner decision")
-            if (previous["run_id"] != run_id or run["version"] != previous["to_version"]
+            if (previous["run_id"] != run_id or run["version"] < previous["to_version"]
                     or run["revision"] != previous_snapshot["run"]["revision"]
                     or run["pins"] != previous["target"]["pins"]
                     or plan["source"]["pins"] != previous["target"]["pins"]):
                 raise Conflict("continuation state version, source pins or revision differ from the latest migration")
+            original = previous_snapshot["run"]
+            if (any(run[key] != original[key] for key in ("channel", "format", "intent"))
+                    or run["approvals"].get("script") != original["approvals"].get("script")
+                    or {k: v for k, v in run["budget"].items() if k.startswith("max_")}
+                    != {k: v for k, v in original["budget"].items() if k.startswith("max_")}):
+                raise Conflict("continuation must preserve owner scope, script approval and budget limits")
             if any(plan["preserved"][key] != previous["preserved"][key]
                    for key in ("profile_sha256", "script_artifact_id", "script_sha256", "channel_documents")):
                 raise Conflict("continuation must preserve the same accepted script and channel")
