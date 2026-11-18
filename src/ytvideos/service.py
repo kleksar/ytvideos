@@ -602,19 +602,28 @@ class Production:
             if not isinstance(check, dict) or check.get("name") in by_name:
                 raise WorkflowError("duplicate or invalid check")
             require_text(check.get("name"), "check name")
+            deferred_names = {"listening", "no_speech"}
+            if task["stage"] == "audio":
+                deferred_names.add("exact_text")
             deferred = (task["stage"] in {"audio", "subtitles"}
-                        and check.get("name") in ({"listening", "no_speech"} & required)
+                        and check.get("name") in (deferred_names & required)
                         and check.get("status") == "unverified"
                         and not self._capable(run, "audio.listen"))
             if deferred:
                 observed = check.get("observed")
                 media = artifact if task["stage"] == "audio" else self._artifact(run, "audio")
-                if (not isinstance(observed, dict) or set(observed) != {"artifact_sha256", "reason"}
+                expected_fields = {"artifact_sha256", "reason"}
+                if check["name"] == "exact_text":
+                    expected_fields.add("script_sha256")
+                if (not isinstance(observed, dict) or set(observed) != expected_fields
                         or observed["artifact_sha256"] != media["sha256"]):
                     raise WorkflowError("unverified audio check must bind exact audio hash and reason")
                 require_text(observed["reason"], "unverified audio reason")
+                if (check["name"] == "exact_text"
+                        and observed["script_sha256"] != self._artifact(run, "script")["sha256"]):
+                    raise WorkflowError("unverified exact_text must bind the accepted script hash")
             if (task["stage"] in {"audio", "subtitles"}
-                    and check.get("name") in {"listening", "no_speech"}
+                    and check.get("name") in deferred_names
                     and check.get("status") == "pass" and not self._capable(run, "audio.listen")):
                 raise WorkflowError("cannot claim audio listening PASS without audio.listen")
             if (check.get("status") != "pass" and not deferred) or not isinstance(check.get("observed"), dict) or not check["observed"]:

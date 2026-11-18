@@ -505,18 +505,23 @@ Generation still requires its observed provider/mixer capability, approval, leas
 budget and exact media/provenance checks. Missing listening does not stop alignment
 or a reviewable render, but does not establish audio quality.
 
-Keep the required `listening` (and applicable `no_speech`) check. If listening is
+Keep the required `listening` (and applicable `no_speech` or audio `exact_text`) check. If listening is
 unavailable, use `status: unverified`, a truthful `method`, and exactly
 `observed: {"artifact_sha256": "EXACT_AUDIO_SHA256", "reason": "Concrete reason listening was not performed"}`.
 For no-speech subtitles the hash is the accepted audio, not the JSON output.
-Only these production perceptual checks accept this status; rights, text, identity,
-speed, decoding and every other check remain mandatory PASS. Do not use this form
+For audio `exact_text`, add `script_sha256` to that observed object, matching the
+accepted script artifact hash. This defers audible transcription/word-boundary QA,
+not source identity: preserve exact source bytes, provider request and alignment
+artifacts separately. Provider alignment alone is not proof of what can be heard.
+Only these production perceptual checks accept this status; rights, source/voice
+identity, speed, decoding, subtitle text checks and every other check remain mandatory PASS. Do not use this form
 to disguise a failed listening check or claim a missing capability is available.
 
 The completed production task and its immutable receipt retain `unverified_checks`;
 subsequent packets expose `unverified_production_checks`. Deliver the resulting MP4
 as a preview with the missing audio QA explicitly stated. Final review still needs
-actual listening evidence; it does not accept UNVERIFIED and still blocks MP4
+actual listening evidence, including checking the audible words against the accepted
+script when production `exact_text` is unverified; it does not accept UNVERIFIED and still blocks MP4
 approval/upload. Production completion is not a quality approval.
 
 Save provider handles and raw bytes normally. Never regenerate TTS merely to resume
