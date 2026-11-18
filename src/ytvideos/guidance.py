@@ -61,7 +61,8 @@ def task_guide(run, task, references=(), requirements=None):
         "output_kind": output_kind(stage, requirements),
         "capabilities": [] if imported_step else list(task["capabilities"]),
         "execution_capabilities": [] if imported_step else execution_capabilities(task),
-        "completion_capabilities": [] if imported_step else list(task["capabilities"]),
+        "completion_capabilities": [] if imported_step else execution_capabilities(task),
+        "deferred_perceptual_capabilities": ["audio.listen"] if task["stage"] in {"audio", "subtitles"} else [],
         "required_checks": [] if imported_step else sorted(required_checks(stage, requirements,
                                                   purpose=task.get("payload", {}).get("purpose"))),
         "next_tasks": [item["id"] for item in run["tasks"].values() if task["id"] in item["dependencies"]],
@@ -165,6 +166,7 @@ def run_plan(run, next_state, requirements, *, code_matches_pin, capable):
         item = {"id": task["id"], "stage": task["stage"], "status": task["status"],
                 **task_guide(run, task, routes.get(route, []), requirements)}
         item["blocker"] = task.get("blocker")
+        item["unverified_checks"] = task.get("unverified_checks", []) if task["status"] == "complete" else []
         (release_steps if task["stage"] in RELEASE_STAGES else steps).append(item)
         if task["stage"] not in RELEASE_STAGES and task["status"] not in {"complete", "cancelled", "skipped"}:
             for name in task["capabilities"]:
@@ -183,7 +185,7 @@ def run_plan(run, next_state, requirements, *, code_matches_pin, capable):
         "production_requirements": requirements,
         "source_script": run["artifacts"].get(run.get("source_script_id")),
         "source_preproduction": run["artifacts"].get(run.get("source_preproduction_id")),
-        "target": {"artifact": "mp4", "ready_after": "review", "plan_is_approval": False,
+        "target": {"artifact": "mp4", "ready_after": "review", "preview_after": "render", "plan_is_approval": False,
                    "publication_requires": "explicit user instruction"},
         "accepted": {"script": valid_approval(run, "script"), "mp4": valid_approval(run, "mp4")},
         "steps": steps, "release_steps": release_steps, "next": next_state,

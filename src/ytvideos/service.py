@@ -388,6 +388,8 @@ class Production:
                 **references,
                 "task_guide": task_guide(run, task, references["references"], requirements),
                 "production_requirements": requirements,
+                "unverified_production_checks": {key: value["unverified_checks"] for key, value in run["tasks"].items()
+                    if value.get("status") == "complete" and value.get("unverified_checks")},
                 "supporting_inputs": supporting_inputs(run, task),
                 "source_script": source_script,
                 "visual_references": visual_references,
@@ -563,6 +565,7 @@ class Production:
                 task["receipt_evidence_ids"] = [item["id"] for item in receipt_artifacts]
             task.update({"status": "complete", "outputs": [artifact["id"]], "receipt": evidence["id"],
                          "completed_token": token, "completed_at": self.clock(), "claim": None})
+            task["unverified_checks"] = [check for check in observed["checks"] if check["status"] == "unverified"]
             if stage == "script":
                 from .media_script import accepted_script
                 configure_speech_tasks(run, accepted_script(run, self.artifacts)["mode"])
@@ -584,8 +587,6 @@ class Production:
         return self.store.mutate(run_id, change)
 
     def _validate_receipt(self, run, task, claim, artifact, receipt):
-        if task["stage"] == "audio" and not self._capable(run, "audio.listen"):
-            raise WorkflowError("audio completion requires audio.listen and real listening evidence; generation is not QA")
         evidence_artifacts = []
         expected = {"run_id": run["id"], "task_id": task["id"], "input_hash": claim["input_hash"],
                     "output_sha256": artifact["sha256"], "worker": claim["worker"]}
@@ -594,19 +595,34 @@ class Production:
         checks = receipt.get("checks")
         if not isinstance(checks, list):
             raise WorkflowError("receipt requires check results")
+        requirements = self.requirements(run)
+        required = required_checks(task["stage"], requirements, purpose=task.get("payload", {}).get("purpose"))
         by_name = {}
         for check in checks:
             if not isinstance(check, dict) or check.get("name") in by_name:
                 raise WorkflowError("duplicate or invalid check")
             require_text(check.get("name"), "check name")
-            if check.get("status") != "pass" or not isinstance(check.get("observed"), dict) or not check["observed"]:
+            deferred = (task["stage"] in {"audio", "subtitles"}
+                        and check.get("name") in ({"listening", "no_speech"} & required)
+                        and check.get("status") == "unverified"
+                        and not self._capable(run, "audio.listen"))
+            if deferred:
+                observed = check.get("observed")
+                media = artifact if task["stage"] == "audio" else self._artifact(run, "audio")
+                if (not isinstance(observed, dict) or set(observed) != {"artifact_sha256", "reason"}
+                        or observed["artifact_sha256"] != media["sha256"]):
+                    raise WorkflowError("unverified audio check must bind exact audio hash and reason")
+                require_text(observed["reason"], "unverified audio reason")
+            if (task["stage"] in {"audio", "subtitles"}
+                    and check.get("name") in {"listening", "no_speech"}
+                    and check.get("status") == "pass" and not self._capable(run, "audio.listen")):
+                raise WorkflowError("cannot claim audio listening PASS without audio.listen")
+            if (check.get("status") != "pass" and not deferred) or not isinstance(check.get("observed"), dict) or not check["observed"]:
                 raise WorkflowError("every required check needs structured observed evidence, not just PASS")
             require_text(check.get("method"), "check method")
             by_name[check["name"]] = check
-        requirements = self.requirements(run)
         if task["stage"] == "review":
             require_configured(requirements)
-        required = required_checks(task["stage"], requirements, purpose=task.get("payload", {}).get("purpose"))
         missing = required - by_name.keys()
         if missing:
             raise WorkflowError("missing checks: " + ", ".join(sorted(missing)))
@@ -633,6 +649,8 @@ class Production:
             media = artifact if task["stage"] == "audio" else self._artifact(run, "audio")
             probe = probe_media(self.artifacts.resolve(media))
             duration = probe["duration_seconds"]
+            if by_name["no_speech"]["status"] == "unverified":
+                return evidence_artifacts
             record = validate_review_observation(by_name["no_speech"], media_sha256=media["sha256"], duration=duration,
                                                  media_probe=probe)
             evidence_artifacts.append(self._evidence_file(record, "no_speech_evidence"))
@@ -946,6 +964,8 @@ class Production:
                     measured = validate_no_speech_artifact(json.loads(path.read_text()),
                         script_sha256=speech["script_sha256"], audio_sha256=self._artifact(run, "audio")["sha256"])
                     for check in (receipt or {}).get("checks", []):
+                        if check.get("status") == "unverified":
+                            continue  # Exact deferred-audio contract is checked by _validate_receipt.
                         record = validate_review_observation(check, media_sha256=measured["audio_sha256"], duration=duration, media_probe=probe)
                         evidence_artifacts.append(self._evidence_file(record, "no_speech_evidence"))
                 else:
