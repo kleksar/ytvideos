@@ -73,3 +73,9 @@ Paper: полноценные paper/card диорамы, самостоятел�
 ## Полнота инструкций и thumbnail evidence
 
 Для новых/переработанных packaging применяется структурированный `thumbnail_plan`; generic PASS старого receipt не превращается в концепты автоматически. При переносе незавершённого выпуска подготовить недостающие концепты и reviewer JSON по текущему task contract, сохранив прежние source/approved media. Не переписывать старый pinned snapshot и не изобретать задним числом независимое review. Неизменённый run продолжает использовать исходный checkout по общему порядку выше. `instructions` предназначен для узкой работы без run и не является обходом migration.
+
+### Подтверждённый TTS после истечения lease
+
+Узкое исключение quiescence: audio task уже UNKNOWN, lease истёк, inputs неизменны, все связанные TTS operations confirmed с сохранёнными provider receipts. Runtime slots, pool и motion не должны исполняться. `reserved` обязан точно соответствовать этим claims, `unknown_reserved` равен нулю. Plan и receipt связывают exact claim hash и старый input hash с target input hash и operation keys. Миграция сохраняет исходные claims, результаты и budget без settlement и без QA PASS.
+
+После миграции `reconcile completed` использует этот binding только для неизменных входов и выдаёт reuse-only claim. Новый dispatch запрещён; original operation_input_hash сохраняет связь с подтверждённым результатом. Штатный `complete` после реальных доступных проверок один раз переносит reservation в фактическую стоимость. Hearing остаётся UNVERIFIED по preview-контракту, final review не ослабляется. Живой lease, неизвестный provider outcome, другой источник, изменённая зависимость, лишняя reservation или stale plan отклоняются.

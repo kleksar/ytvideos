@@ -10,7 +10,7 @@ import test_pool_service
 from ytvideos.cli import dispatch, parser
 from ytvideos.errors import Conflict, WorkflowError
 from ytvideos.util import canonical, digest
-from ytvideos.workflow import valid_approval
+from ytvideos.workflow import valid_approval, input_hash
 
 
 class RuntimeMigrationTests(unittest.TestCase):
@@ -426,6 +426,134 @@ class RuntimeMigrationTests(unittest.TestCase):
                     self.assertEqual(self.state(), before)
                 finally:
                     path.write_bytes(original)
+
+    def expired_audio(self):
+        evidence = self.fixture.root / "provider.json"
+        evidence.write_text('{"observed": "fixture provider completed"}')
+        artifact = self.service.artifacts.put(evidence, "operation_receipt")
+        def prepare(tx, run):
+            tx.execute("DELETE FROM operations WHERE key=?", (self.operation["key"],))
+            task = run["tasks"]["audio"]
+            claim = {"token": "expired-fixture", "worker": "old-worker", "expires_at": 0,
+                     "input_hash": input_hash(run, task), "estimated_units": 4151}
+            task.update(status="unknown", claim=claim)
+            run["budget"]["reserved"] = 4151
+            run["artifacts"][artifact["id"]] = artifact
+            tx.create_operation({"key": "confirmed-tts", "run_id": run["id"], "task_id": "audio",
+                "task_input_hash": claim["input_hash"], "input_hash": "f" * 64, "kind": "tts",
+                "status": "confirmed", "receipt": artifact["id"], "provider": {"observed": "done"}})
+        self.store.mutate(self.run_id, prepare)
+
+    def test_expired_confirmed_audio_migrates_without_qa_or_budget_settlement(self):
+        self.expired_audio()
+        before, _, ops = self.state()
+        plan = self.plan()
+        result = self.apply(plan)
+        after, _, after_ops = self.state()
+        for key in ("tasks", "budget", "approvals"):
+            self.assertEqual(after[key], before[key])
+        self.assertEqual(ops, after_ops)
+        self.assertFalse(result["receipt"]["approval_and_qa_evidence_created"])
+        claim = self.service.reconcile_task(self.run_id, "audio", worker="recovery",
+                                           outcome="completed", evidence="Existing provider result")
+        self.assertTrue(claim["reconciled_existing_result"])
+        self.assertEqual(claim["operation_input_hash"], before["tasks"]["audio"]["claim"]["input_hash"])
+        self.assertEqual(claim["input_hash"], input_hash(self.store.get(self.run_id), after["tasks"]["audio"]))
+        with self.assertRaisesRegex(Conflict, "never dispatch"):
+            self.service.begin_operation(self.run_id, "audio", claim["token"], "tts", {})
+        with self.store.transaction() as tx:
+            run = tx.get_run(self.run_id)
+            self.assertEqual(len(self.service._task_operations(tx, run, run["tasks"]["audio"], claim)), 1)
+        self.assertEqual(self.store.get(self.run_id)["budget"], before["budget"])
+
+    def test_reused_audio_completion_settles_once_and_preserves_unverified_qa(self):
+        self.expired_audio()
+        self.apply(self.plan())
+        claim = self.service.reconcile_task(self.run_id, "audio", worker="recovery",
+                                            outcome="completed", evidence="Confirmed synthetic result")
+        output = self.fixture.root / "synthetic-audio.wav"
+        output.write_bytes(b"synthetic budget test only; not live media")
+        receipt = self.fixture.root / "synthetic-audio-receipt.json"
+        unchecked = {"name": "exact_text", "status": "unverified", "observed": "not listened"}
+        receipt.write_text(json.dumps({"checks": [unchecked]}))
+        before = self.store.get(self.run_id)["budget"]
+        # Isolate accounting from decoding/QA, covered by audio/source-script tests.
+        def media(run, task, artifact, **kwargs):
+            task["media_validation"] = {"synthetic_accounting_test": True}
+        with patch.object(self.service, "_validate_output", side_effect=media), \
+                patch.object(self.service, "_validate_receipt", return_value=[]), \
+                patch.object(self.service, "requirements", return_value={}):
+            self.service.complete(self.run_id, "audio", claim["token"], output, receipt, actual_units=4151)
+            settled = self.store.get(self.run_id)
+            self.assertEqual(settled["budget"]["reserved"], 0)
+            self.assertEqual(settled["budget"]["spent"], before["spent"] + 4151)
+            self.assertEqual(settled["tasks"]["audio"]["unverified_checks"], [unchecked])
+            self.service.complete(self.run_id, "audio", claim["token"], output, receipt, actual_units=4151)
+            self.assertEqual(self.store.get(self.run_id)["budget"], settled["budget"])
+
+    def test_confirmed_audio_checkpoint_rejects_missing_evidence_and_operation_races(self):
+        self.expired_audio()
+        with self.store.transaction() as tx:
+            original = tx.operation("confirmed-tts")
+        for defect in ("unknown", "missing_receipt", "other_kind"):
+            def alter(tx, run):
+                op = copy.deepcopy(original)
+                if defect == "unknown":
+                    op["status"] = "unknown"
+                elif defect == "missing_receipt":
+                    op["receipt"] = "absent"
+                else:
+                    op["kind"] = "upload"
+                tx.put_operation(op)
+            self.store.mutate(self.run_id, alter)
+            with self.assertRaises(Conflict):
+                self.plan()
+        self.store.mutate(self.run_id, lambda tx, run: tx.put_operation(original))
+        plan = self.plan()
+        # A changed durable observation invalidates a previously prepared plan.
+        with self.store.transaction() as tx:
+            op = tx.operation("confirmed-tts")
+            op["provider"]["observed"] = "different result"
+            tx.put_operation(op)
+        before = self.state()
+        with self.assertRaisesRegex(Conflict, "changed since migration plan"):
+            self.apply(plan)
+        self.assertEqual(self.state(), before)
+
+    def test_confirmed_audio_recovery_rejects_changed_dependency_or_claim(self):
+        self.expired_audio()
+        self.apply(self.plan())
+        baseline = copy.deepcopy(self.store.get(self.run_id)["tasks"])
+        for defect in ("dependency", "claim"):
+            def change(tx, run):
+                run["tasks"] = copy.deepcopy(baseline)
+                if defect == "dependency":
+                    run["tasks"]["script"]["outputs"] = ["changed"]
+                else:
+                    run["tasks"]["audio"]["claim"]["estimated_units"] += 1
+            self.store.mutate(self.run_id, change)
+            with self.assertRaisesRegex(Conflict, "obsolete inputs"):
+                self.service.reconcile_task(self.run_id, "audio", worker="recovery",
+                                            outcome="completed", evidence="Existing result")
+
+    def test_confirmed_expired_audio_rejects_live_lease_or_unbound_reservation(self):
+        self.expired_audio()
+        original = copy.deepcopy(self.store.get(self.run_id))
+        for defect in ("live", "reservation", "source", "running"):
+            def change(tx, run):
+                run["tasks"] = copy.deepcopy(original["tasks"])
+                run["budget"] = copy.deepcopy(original["budget"])
+                if defect == "live":
+                    run["tasks"]["audio"]["claim"]["expires_at"] = self.service.clock() + 900
+                elif defect == "reservation":
+                    run["budget"]["reserved"] += 1
+                elif defect == "source":
+                    run["tasks"]["script"]["outputs"] = ["changed"]
+                else:
+                    run["tasks"]["audio"]["status"] = "running"
+            self.store.mutate(self.run_id, change)
+            with self.assertRaises(Conflict):
+                self.plan()
 
     def test_active_task_claim_blocks_even_if_expired(self):
         def active(tx, run):
