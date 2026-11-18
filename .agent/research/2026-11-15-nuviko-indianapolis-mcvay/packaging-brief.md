@@ -1,3 +1,13 @@
+# Packaging note for three Indianapolis durations (2026-11-18)
+
+Only **05m Long EN/RU** is provisionally recommended; title and thumbnail concepts below remain unapproved hypotheses for the **unchanged source/05m text**. For 02m, the promise is enemy commander's disputed testimony → crew campaign → 2001 file addition; its brief opening may use the 1945 court file immediately. For 10m, a visual story can additionally depict Adrian Marks's PBY rescue and specialist Glynn Donaho, but only after approved historical visual references; these objects were not present in the 26-span original storyboard. All three promise that the 2001 statement was **added without vacating** the 1945 guilty finding. Do not use title option “Helped Clear” to imply judicial reversal. Actual thumbnails, rights, user choice and A/B testing **UNVERIFIED**.
+
+No visuals, external tests, media generation, approval or production in this revision. The exact English/Russian versions and hashes are in [story-review.md](story-review.md).
+
+---
+
+## Preserved original packaging hypotheses
+
 # Packaging brief — editorial candidate only
 
 Audience: English-language history/documentary viewers interested in moral accountability, institutions and surprising historical reversals. NOT gore/shark survival bait.
