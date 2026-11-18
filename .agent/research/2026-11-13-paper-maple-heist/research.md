@@ -68,3 +68,14 @@ The following are ten genuinely different public historical stories, not ten rep
 
 Story PR #13 (Carrington telegraph) was rejected by the owner on 2026-11-13 as too weak; no rename/recovery attempt was made. This selection is a different crime/event, not a cosmetic change to #13.
 
+
+## Evidence checked for three-duration rewrite (2026-11-18)
+
+The shared claim ledger above remains authoritative; the following sources were revisited specifically for **new material in the 05m and 10m texts**, not treated as proof of measured demand:
+
+- [Brendan Borrell's original reported investigation (published 2013)](https://www.brendanborrell.com/syrup): Michel Gauvreau's 30 July 2012 inventory, six-high stacks, approximately 620-pound full barrels, warehouse at Saint-Louis-de-Blandford, rocked empty barrel, additional empty barrels, then a water-filled container; reserve purpose, quota objections and cross-provincial buyers. A reporter's reconstruction of physical events, not a verbatim auditor recording. Source does not justify imagined dialogue or exact movements beyond what it reports.
+- [Supreme Court of Canada, R. v. Vallières, case summary, decision 31 March 2022](https://www.scc-csc.ca/judgments-jugements/cb/2022/39162/): C$18m-plus stolen syrup, 16 arrests, approximately C$10m sales and C$1m admitted profit, eight-year imprisonment, trial fine over C$9m, intermediate appellate reduction, unanimous Supreme Court restoration of value-based fine. It is **not** evidence of actual payment. Fine is sale value after separate restitution, not automatically the reserve's C$18m market total. Distinguish 2012 discovery from 2022 decision.
+- [The 2022 judgment text (court source, paragraphs 3–6)](https://decisions.scc-csc.ca/scc-csc/scc-csc/en/19276/1/document.do): about one year of operation and distribution through several individuals. Full text was cited in prior research; the independent case summary is accessible for this rewrite.
+- [Federation's contemporaneous announcement, 30 August 2012](https://www.newswire.ca/news-releases/theft-of-maple-syrup-from-sales-agency-510656261.html): producer reserve and inventory discovery.
+
+The 10m uses quota/trade context only to establish **opportunity for a resale route**, not to attribute an unproven political motive to specific defendants. Contemporary journalism and trial reporting sometimes differ in estimates of proportions, stolen volume and exact chronology; narration uses the court's 9,571 barrels, over C$18m, and the broad about-one-year period. Any portrayal of a particular warehouse tool, license plate, conversation or exact barrel journey requires further evidence. The 10m is a documented editorial candidate, not verified production history. Comparable audience demand still **UNVERIFIED**.
