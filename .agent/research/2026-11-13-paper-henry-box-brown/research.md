@@ -55,3 +55,24 @@ Before selection searched live open/closed PRs, issues and current registry on r
 ## Review budget
 
 One authored narrative revision and a manual EN/RU content/seam pass; no independent reviewer/session available via current host tools, no audience panel, no AV/voice timings. Interest remains **UNVERIFIED independently**, and official script gate cannot be claimed.
+
+
+## Additional factual evidence for the 2/5/10m revision (2026-11-18)
+
+The nine-topic selection and earlier evidence above remain unchanged. One shared research supports all three scripts, with these *new* concrete events and qualifications:
+
+| Claim and appearance | Exact public support | Uncertainty |
+|---|---|---|
+| Richmond tobacco worker, paid to protect wife/children, Nancy pregnant with fourth child when sold to North Carolina in 1848 | [Library of Virginia, Brown and Anti-Slavery Panorama](https://www.lva.virginia.gov/collections/educator-resources/dbva/items/show/343), context; [Encyclopedia Virginia, biography](https://encyclopediavirginia.org/entries/brown-henry-box-1815-or-1816-1897/) | Do not invent private thoughts or a family reunion. |
+| Helpers James C. A. Smith and Samuel A. Smith, Philadelphia abolitionist connection | [Library of Virginia biography](https://www.lva.virginia.gov/collections/educator-resources/online-classroom/union-or-secession/people/henry-box-brown); [Encyclopedia Virginia](https://encyclopediavirginia.org/entries/narratives-of-henry-box-brown-the/) | Support their roles without inventing individual private conversations. |
+| Three small airholes, water, boring tool, compact box, 1849 shipment, dangerous inversion and other men's 'mail' guess | [1849 first-person narrative, journey section](https://en.wikisource.org/wiki/Narrative_of_Henry_Box_Brown/Narrative); [NPS](https://www.nps.gov/nebe/learn/historyculture/henryboxbrown.htm) | Two hours is the narrator's estimate, not a medical observation. Approx dimensions in long only. |
+| Washington unloading shock and possible next-train delay | [1851 Brown first-person recollection, chapter VII](https://encyclopediavirginia.org/primary-documents/chapter-vii-an-excerpt-from-the-narrative-of-the-life-of-henry-box-brown-1851/) | The 10m explicitly says **later 1851 account**; the 05m mentions only reported risk of delay. These are NOT an independent freight log. |
+| Other attempts disclosed, Samuel Smith imprisoned after a later attempted rescue | [Library of Virginia, 1851 panorama context](https://www.lva.virginia.gov/collections/educator-resources/dbva/items/show/343); [Dickinson House Divided](https://housedivided.dickinson.edu/sites/ugrr/1849-henry-box-brown-escape/) | Do not assert Brown was personally responsible for his imprisonment. |
+| Mirror of Slavery painted panorama with 49 scenes, Fugitive Slave Act, Britain, 1851 Bradford to Leeds public reenactment | [National Library of Wales](https://www.library.wales/discover-learn/education/learning-resources/henry-box-brown); [Encyclopedia Virginia narratives](https://encyclopediavirginia.org/entries/narratives-of-henry-box-brown-the/) | Stage reenactment is documented, but no claim it used the same original crate. |
+| Later life and 1897 Toronto death | [National Library of Wales](https://www.library.wales/discover-learn/education/learning-resources/henry-box-brown) | Context for 10m only, not reason for the escape. |
+
+**Disputed chronology:** NPS reports 29 March 1849 and about 27 hours. Library of Virginia/Encyclopedia Virginia give 23 March and ~26 hours. No verified resolution was found. New scripts **avoid the exact March day**, use the year and approximate 27 hours following the earlier Short/NPS. The source discrepancy must be reviewed before any exact-date graphic. Brown's family separation is documented; no claim of reunion or definite non-reunion is warranted.
+
+**Interest evidence vs hypothesis:** public history and primary publication demonstrate lasting educational availability, not comparable 2/5/10 minute YouTube popularity. No age-matched channel/format video benchmarks, CTR, retention, audience tests, measurable demand or live results. UNVERIFIED.
+
+**New visual groups (intent, not storyboard):** 05m: Richmond/family → supporters/express service → small box/airholes → first inversion → train/boat → head-down danger → unexpected seated helpers → delayed shipment → opening in Philadelphia → aftermath → voluntary stage reenactment. 10m additionally includes second account of Washington transfer, legal consequences, panorama and 1851 reenactment. Both need their own precise scene spans/visual QA after one exact master is chosen. Existing 18-scene plan is 02m only.
