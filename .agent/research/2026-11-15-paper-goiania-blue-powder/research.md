@@ -94,3 +94,8 @@ Primary documentary source: [IAEA, The Radiological Accident in Goiânia (1988)]
 ### Audience research status after revision
 
 Original cross-topic comparison and public indexed video examples above remain useful as limited discovery. No new independently normalized matched English YouTube baseline, viewer comments, CTR, retention or real-time VPH was obtained for **this exact revised script**. Editorial quality scores must not be converted into predictions.
+
+
+## Duration package source audit (2026-11-18)
+
+The 02m/05m versions use only events already mapped in this single research. 02m: Leide's meal (IAEA Table II p.25), abandoned 1985 source and scrap removal (IAEA pp.23–24), pre-breach symptoms, Maria's package and Walter's two meters (IAEA pp.25–27 / Fiocruz timeline), 249 contaminated and four deaths, seven homes (IAEA executive summary). 05m adds fragment transfer, incorrect initial diagnoses, shoulder burn, contemplated river disposal, and the wider screening response (same mapped sources). No new physical explanation for blue light is asserted, and the text does not say all 112,800 people were ill or physically at the stadium. The 10m variant is exactly the original root story; neither original reference dates nor historical source claims were overwritten. This audit checks inheritance against the stored research; new live archive / audience analytics verification was not performed.

@@ -1,3 +1,17 @@
+# Goiânia editorial packaging by version — no finished media
+
+For the **recommended 05m Long**, the existing blue-glow thumbnail concept first proves Devair's observation; the Leide dinner beat delivers human stakes, and the **two pegged meters** resolves the promised investigation. The stadium establishes scale, not a claim that 112,800 people were irradiated. The original ideas A/B/C are preserved below as hypotheses, not CTR-tested alternatives.
+
+**02m Short** visual sequence must match its exact text: dinner → unsecured medical machine / scrap → material moving among households → Maria's plastic bag → first meter / replacement → screening and consequences → dinner-table return. A thematic verbal return is not proven a seamless loop; literal two-cycle read and AV render remain UNVERIFIED.
+
+**05m Long** visual intent: intro questions → Devair's garage and Leide → clinic / wheelbarrow / pre-breach sickness → capsule opened and fragments shared → Maria / her helper / bus → bag in courtyard → first failed-looking meter and second → stopped river disposal → stadium, seven houses and victims. The final scene count must follow real narration and actual timing.
+
+**10m Long** is the unmodified 53-meaning-unit version; the units are not verified scenes, and no timings/storyboard or accepted assets are inherited. Neither illustration nor narration may depict blue radiation beams, definite glow mechanism or a reactor explosion. Paper channel requires real 10-second Long end-screen after accepted production.
+
+---
+
+## Historical packaging (preserved)
+
 # Paper Detour Goiânia — revised packaging, untested hypotheses
 
 English documentary Long 16:9; no measured CTR, thumbnails or format QA. Follow Paper Detour paper-diorama and large-short-text rules at production.

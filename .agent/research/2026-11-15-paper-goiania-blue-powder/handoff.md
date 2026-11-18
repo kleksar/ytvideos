@@ -1,3 +1,15 @@
+# Editorial handoff — NOT a registered ytv run
+
+**Proposed owner choice:** [05m EN](variants/05m/script.en.txt) with full [05m RU](variants/05m/script.ru.txt). Alternative [02m](variants/02m/script.ru.txt) and original [10m](variants/10m/script.ru.txt) remain in the same PR. Exact file hashes and relative strengths are in [story-review](story-review.md); recommendation is not approval.
+
+In an authorized local checkout/store, inspect whether a Goiânia / Paper Detour run or published/queued production already exists; never duplicate or replace one. Give a fresh reviewer each exact text without author verdict, then pass source evidence for independent fact checking. Perform independent bilingual validation and a two-cycle loop check for 02m. Owner must explicitly select and accept one exact EN master. Only then register through the current `ytv` workflow with canonical task context, pinned refs and actual receipts. Git-only status is `EDITORIAL_CANDIDATE_UNREGISTERED`, not `awaiting_script_approval`.
+
+A new storyboard, visual intent/spans, audio timing and review are version-specific. Long uses channel's 10-second end screen after acceptance. No TTS/MP4/Flow/YouTube action is authorized by this PR. Current remote GitHub tools cannot inspect locally pinned runs, issue native independent session review, or produce reliable media receipts.
+
+---
+
+## Historical handoff (2026-11-15) — preserved
+
 # Exact local handoff — NOT a registered ytv run
 
 EDITORIAL_CANDIDATE_UNREGISTERED. This draft PR provides human-readable research, English proposal and Russian full translation only; it does not produce an official task artifact/approval.
