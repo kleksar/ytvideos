@@ -605,6 +605,8 @@ class Production:
             deferred_names = {"listening", "no_speech"}
             if task["stage"] == "audio":
                 deferred_names.add("exact_text")
+            elif task["stage"] == "subtitles":
+                deferred_names.update({"exact_speech", "timing"})
             deferred = (task["stage"] in {"audio", "subtitles"}
                         and check.get("name") in (deferred_names & required)
                         and check.get("status") == "unverified"
@@ -615,13 +617,26 @@ class Production:
                 expected_fields = {"artifact_sha256", "reason"}
                 if check["name"] == "exact_text":
                     expected_fields.add("script_sha256")
+                subtitle_deferred = task["stage"] == "subtitles" and check["name"] in {"exact_speech", "timing"}
+                if subtitle_deferred:
+                    expected_fields.update({"script_sha256", "subtitle_sha256", "word_map"})
                 if (not isinstance(observed, dict) or set(observed) != expected_fields
                         or observed["artifact_sha256"] != media["sha256"]):
                     raise WorkflowError("unverified audio check must bind exact audio hash and reason")
                 require_text(observed["reason"], "unverified audio reason")
-                if (check["name"] == "exact_text"
+                if ((check["name"] == "exact_text" or subtitle_deferred)
                         and observed["script_sha256"] != self._artifact(run, "script")["sha256"]):
                     raise WorkflowError("unverified exact_text must bind the accepted script hash")
+                if subtitle_deferred:
+                    if run["tasks"]["audio"]["status"] != "complete" or observed["subtitle_sha256"] != artifact["sha256"]:
+                        raise WorkflowError("unverified subtitles must bind accepted audio and exact SRT")
+                    word_map = self._evidence_file(observed["word_map"], "subtitle_word_map")
+                    from .media_checks import validate_preview_alignment, probe_media
+                    validate_preview_alignment(self.artifacts.resolve(word_map),
+                        transcript=self.artifacts.resolve(self._artifact(run, "script")).read_text(),
+                        audio_sha256=media["sha256"], srt=self.artifacts.resolve(artifact),
+                        duration=probe_media(self.artifacts.resolve(media))["duration_seconds"], project_root=self.project)
+                    evidence_artifacts.append(word_map)
             if (task["stage"] in {"audio", "subtitles"}
                     and check.get("name") in deferred_names
                     and check.get("status") == "pass" and not self._capable(run, "audio.listen")):

@@ -500,7 +500,7 @@ uv run python -m ytvideos deferred-actions --run RUN_ID
 
 ## Audio: production before listening
 
-Production (`audio`, and no-speech `subtitles`) may proceed without `audio.listen`.
+Production (`audio` and `subtitles`) may proceed without `audio.listen`.
 Generation still requires its observed provider/mixer capability, approval, lease,
 budget and exact media/provenance checks. Missing listening does not stop alignment
 or a reviewable render, but does not establish audio quality.
@@ -514,8 +514,22 @@ accepted script artifact hash. This defers audible transcription/word-boundary Q
 not source identity: preserve exact source bytes, provider request and alignment
 artifacts separately. Provider alignment alone is not proof of what can be heard.
 Only these production perceptual checks accept this status; rights, source/voice
-identity, speed, decoding, subtitle text checks and every other check remain mandatory PASS. Do not use this form
+identity, speed, decoding and every other check remain mandatory PASS. Do not use this form
 to disguise a failed listening check or claim a missing capability is available.
+
+For spoken subtitles, `exact_speech` and `timing` may likewise remain UNVERIFIED
+only without `audio.listen`. Their exact observed fields are `artifact_sha256`
+(accepted completed audio), `script_sha256` (accepted source bytes), `subtitle_sha256`
+(exact SRT), `word_map: {path, sha256}` and `reason`. Preserve native alignment and
+any speed/offset conform provenance; these are candidate timestamps, not hearing.
+The word-map file uses the canonical renderer shape: `audio_sha256`,
+`transcript_sha256` (UTF-8 stripped transcript), and `words` with `text/start/end`.
+Additional provenance fields are retained. Runtime still validates exact word order,
+finite nonoverlapping in-audio bounds, canonical SRT parsing, and SRT groups covering
+those same words with first/last-word times (millisecond rounding only).
+Semantic/width grouping and canonical renderer checks remain unchanged. False PASS
+without hearing, changed sources/audio/maps, invalid groups and timing are rejected.
+Final review must verify audible words and sync before acceptance, not merely hashes.
 
 The completed production task and its immutable receipt retain `unverified_checks`;
 subsequent packets expose `unverified_production_checks`. Deliver the resulting MP4
