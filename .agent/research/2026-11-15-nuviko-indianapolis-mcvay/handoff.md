@@ -1,3 +1,21 @@
+# 2026-11-18 three-length editorial handoff — USS Indianapolis / McVay
+
+**Current status: `EDITORIAL_CANDIDATE_UNREGISTERED`.** One historical story, three complete EN+RU Long scripts; provisional recommendation **05m** only, with no independent reviewer, approval or verified local runtime. This section supersedes earlier source-only instructions but preserves them below for historical accountability.
+
+- **Baseline branch HEAD:** `54fbb08ae6f234b67392d1bd3dc7837d2851f7fa`. Original [EN](script.en.txt) Git blob `347528bce1ad269fa3e5adf1aee1129aa408ece0` and [RU](script.ru.txt) blob `b3884363ebc46f3f2b692b8ba3431e4a409ec7e7` are **unchanged**.
+- **02m Long 16:9:** [EN](variants/02m/script.en.txt) SHA-256 `1442226bf3d27b1c82e85583c286d743be9dbf2fe16b41a90fd20fee7cf226d0`; [RU](variants/02m/script.ru.txt) `c9fc7beb4fd3c563dc997f25674d9a087a8ef5cf3986df01d74f15a31fe5d3cd`. Fresh storyboard required if selected.
+- **05m Long 16:9 — recommended:** [EN](variants/05m/script.en.txt) `f7c6c8180e8a4dbb8698710e918dcde3f74d6888bfe1f24cc81a2bec272e3f9e`; [RU](variants/05m/script.ru.txt) `df6416de61e408a3c298cc5db0c54e2277574d9744f67c3a3b4b7aa4201cf858`. Byte-identical to original root pair; source 26 semantic spans remain source-matched **but timing is not measured**.
+- **10m Long 16:9:** [EN](variants/10m/script.en.txt) `dc31d3085b2602f0d45ebddda18d7f3f85ebfa0e7dc8a0bafb99c33ab441d01f`; [RU](variants/10m/script.ru.txt) `222f98239c7e398820a795d21eda85b1b1efb607030b17d83381e7caf2e4bfd8`. Fresh storyboard required if selected; old 26 spans do **not** cover 36 paragraphs.
+- Full three-way story maps, separate editorial criteria and evidence limits: [story-review.md](story-review.md); new factual source ledger: [research.md](research.md); all descriptions and links: [README](README.md). No caption/TTS/frame/AV media evidence created.
+
+**Next legitimate step only after owner chooses one exact EN master:** obtain actual `ytv start --channel nuviko_history --format long` / `status` in a verified checkout and preserve returned run/context/pins (no guessing). Register exact chosen script and version-support artifacts through the documented task contract. Give an actually independent fresh reviewer the exact text **without** this author's verdict first, then source ledger, solicit genuine English first-listener and bilingual fact assessment; reviewer records their own unmodified `ytv-script-review-v1`. A new hash needs a fresh response. Subject to exact owner script approval, hand off only the selected version for original meaning-aligned storyboard/timing. Do not auto-create three runs, reinterpret a PR recommendation as approval, start providers or affect saved runs.
+
+**Main unresolved historical question:** precise scope/timing of Hashimoto's anti-zigzag statements during the original trial vs pretrial and later appeals; root 05m keeps original phrase. Independently fact-check before owner script approval, and if corrected rehash/review and rebind scene spans. Recorded public audience samples are not measured current demand. Expected runtime/audio/independent session access is absent in this GitHub editing environment: **UNVERIFIED**, not a fictitious run or receipt.
+
+---
+
+## Preserved previous handoff
+
 EDITORIAL_CANDIDATE_UNREGISTERED: не соответствует официальному ytv script gate.
 
 # Handoff — USS Indianapolis / Captain McVay
